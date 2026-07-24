@@ -13,13 +13,14 @@ import { Scene } from "./Scene";
 import { Racha, RetoDiario } from "./Racha";
 import { DetalleLibro, Inicio, LIBROS, type Libro } from "./Biblioteca";
 import { Camino } from "./Camino";
+import { Onboarding } from "./Onboarding";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import { GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart, GlyphShare } from "./glyphs";
 
-type Pantalla = "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto";
+type Pantalla = "intro" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto";
 
 export default function App() {
-  const [pantalla, setPantalla] = useState<Pantalla>("inicio");
+  const [pantalla, setPantalla] = useState<Pantalla>("intro");
   const [libro, setLibro] = useState<Libro>(LIBROS[0]);
   /** Capítulos completados del libro abierto. */
   const [completados, setCompletados] = useState(0);
@@ -32,6 +33,9 @@ export default function App() {
       <div className="shell">
         <StatusBar />
         <AnimatePresence mode="wait">
+          {pantalla === "intro" && (
+            <Onboarding key="intro" onTerminar={() => setPantalla("inicio")} />
+          )}
           {pantalla === "inicio" && (
             <Inicio
               key="inicio"
