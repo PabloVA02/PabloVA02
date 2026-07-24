@@ -1,0 +1,26 @@
+{
+  "name": "prototipo-microaprendizaje",
+  "version": "1.0.0",
+  "description": "Prototipo de app de microaprendizaje: lecciones en tarjetas deslizables con física de muelle, gráficos de datos animados y seguimiento de racha.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "framer-motion": "^12.42.2",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5"
+  },
+  "type": "module"
+}
