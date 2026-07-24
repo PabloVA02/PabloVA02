@@ -224,6 +224,7 @@ type Opcion = { texto: string; pie?: string };
 
 type Paso =
   | { tipo: "bienvenida" }
+  | { tipo: "nombre"; titulo: string; pie: string }
   | { tipo: "promesa"; titulo: string; ilu: "movil" }
   | { tipo: "ventajas"; titulo: string; puntos: { titulo: string; color: string }[] }
   | { tipo: "eleccion"; titulo: string; pie?: string; opciones: Opcion[]; multiple?: boolean; max?: number }
@@ -235,6 +236,11 @@ type Paso =
 
 const PASOS: Paso[] = [
   { tipo: "bienvenida" },
+  {
+    tipo: "nombre",
+    titulo: "¿Cómo te llamamos?",
+    pie: "Solo para saludarte. Podrás cambiarlo en tu perfil.",
+  },
   { tipo: "promesa", titulo: "Una forma completamente nueva de aprender…", ilu: "movil" },
   {
     tipo: "ventajas",
@@ -318,16 +324,20 @@ const PASOS: Paso[] = [
 
    ------------------------------------------------------------------------- */
 
-export function Onboarding({ onTerminar }: { onTerminar: () => void }) {
+export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => void }) {
   const reducido = !!useReducedMotion();
   const [i, setI] = useState(0);
   const [sentido, setSentido] = useState(1);
   const [elegidas, setElegidas] = useState<Record<number, string[]>>({});
+  const [nombre, setNombre] = useState("");
   const paso = PASOS[i];
+
+  // Si no escribe nada, no se le da la lata: la app le llama de tú.
+  const terminar = () => onTerminar(nombre.trim() || "Hola");
 
   const avanzar = (d: number) => {
     if (i + d < 0) return;
-    if (i + d >= PASOS.length) return onTerminar();
+    if (i + d >= PASOS.length) return terminar();
     setSentido(d);
     setI(i + d);
   };
@@ -385,6 +395,37 @@ export function Onboarding({ onTerminar }: { onTerminar: () => void }) {
           exit={{ opacity: 0, x: sentido * -24, transition: { duration: 0.15 } }}
         >
           {paso.tipo === "bienvenida" && <Bienvenida reducido={reducido} />}
+
+          {paso.tipo === "nombre" && (
+            <>
+              <motion.h1 className="onb-titulo onb-izq" {...parte(0, reducido)}>
+                {paso.titulo}
+              </motion.h1>
+              <motion.p className="onb-pie" {...parte(1, reducido)}>
+                {paso.pie}
+              </motion.p>
+              <motion.div className="onb-campo" {...parte(2, reducido)}>
+                <input
+                  className="onb-input"
+                  value={nombre}
+                  onChange={(e) => setNombre(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && avanzar(1)}
+                  placeholder="Tu nombre"
+                  maxLength={22}
+                  autoComplete="given-name"
+                  aria-label="Tu nombre"
+                />
+                {/* El subrayado crece cuando hay algo escrito: acusa recibo */}
+                <motion.span
+                  className="onb-subrayado"
+                  initial={false}
+                  animate={{ scaleX: nombre.trim() ? 1 : 0.999 }}
+                  data-lleno={!!nombre.trim()}
+                  transition={springTight}
+                />
+              </motion.div>
+            </>
+          )}
 
           {paso.tipo === "promesa" && (
             <>
@@ -568,7 +609,7 @@ export function Onboarding({ onTerminar }: { onTerminar: () => void }) {
           {paso.tipo === "bienvenida" && (
             <motion.button
               className="onb-secundario"
-              onClick={onTerminar}
+              onClick={terminar}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ ...spring, delay: 0.4 }}

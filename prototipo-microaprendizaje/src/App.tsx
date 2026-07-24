@@ -16,6 +16,8 @@ import { Camino } from "./Camino";
 import { Onboarding } from "./Onboarding";
 import { MuroShorts, LectorShort } from "./Shorts";
 import type { Short } from "./shorts";
+import { Pago } from "./Pago";
+import { Perfil } from "./Perfil";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import {
   GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart,
@@ -23,11 +25,14 @@ import {
 } from "./glyphs";
 
 type Pantalla =
-  | "intro" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto"
-  | "shorts" | "short";
+  | "intro" | "pago" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto"
+  | "shorts" | "short" | "perfil";
 
 /** Las dos pestañas raíz. Solo estas dos enseñan la barra de abajo. */
 const CON_BARRA: Pantalla[] = ["inicio", "shorts"];
+
+/** Racha de ejemplo del prototipo. */
+const RACHA = 3;
 
 export default function App() {
   const [pantalla, setPantalla] = useState<Pantalla>("intro");
@@ -37,6 +42,10 @@ export default function App() {
   const [vuelta, setVuelta] = useState<Pantalla>("camino");
   /** Objetivo de lectura de lo que se acaba de terminar, para comparar. */
   const [objetivo, setObjetivo] = useState(MINUTOS_OBJETIVO);
+  /** El nombre se pide en la introducción y se usa en el perfil y el saludo. */
+  const [nombre, setNombre] = useState("Hola");
+  /** Tarjetas leídas. Sube al terminar un capítulo o un short. */
+  const [leidas, setLeidas] = useState(0);
   /** Capítulos completados del libro abierto. */
   const [completados, setCompletados] = useState(0);
   /** Minutos que ha tardado el lector en el capítulo, medidos de verdad. */
@@ -49,16 +58,35 @@ export default function App() {
         <StatusBar />
         <AnimatePresence mode="wait">
           {pantalla === "intro" && (
-            <Onboarding key="intro" onTerminar={() => setPantalla("inicio")} />
+            <Onboarding
+              key="intro"
+              onTerminar={(n) => {
+                setNombre(n);
+                setPantalla("pago");
+              }}
+            />
           )}
+          {pantalla === "pago" && <Pago key="pago" onEntrar={() => setPantalla("inicio")} />}
           {pantalla === "inicio" && (
             <Inicio
               key="inicio"
-              racha={1}
+              racha={RACHA}
               onAbrir={(l) => {
                 setLibro(l);
                 setPantalla("detalle");
               }}
+              onPerfil={() => setPantalla("perfil")}
+            />
+          )}
+          {pantalla === "perfil" && (
+            <Perfil
+              key="perfil"
+              nombre={nombre}
+              racha={RACHA}
+              leidas={leidas}
+              favoritas={0}
+              guardadas={0}
+              onCerrar={() => setPantalla("inicio")}
             />
           )}
           {pantalla === "shorts" && (
@@ -78,6 +106,7 @@ export default function App() {
               onFin={(m) => {
                 setMinutos(m);
                 setObjetivo(short.minutos);
+                setLeidas((n) => n + short.tarjetas.length + 1);
                 setVuelta("shorts");
                 setPantalla("racha");
               }}
@@ -114,6 +143,7 @@ export default function App() {
               onFin={() => {
                 setMinutos((Date.now() - arranque.current) / 60000);
                 setCompletados((c) => c + 1);
+                setLeidas((n) => n + CARDS.length);
                 setObjetivo(MINUTOS_OBJETIVO);
                 setVuelta("camino");
                 setPantalla("fin");

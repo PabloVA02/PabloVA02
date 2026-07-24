@@ -205,9 +205,11 @@ function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; 
 export function Inicio({
   racha,
   onAbrir,
+  onPerfil,
 }: {
   racha: number;
   onAbrir: (libro: Libro) => void;
+  onPerfil: () => void;
 }) {
   const enCurso = LIBROS.filter((l) => l.progreso > 0);
   const recomendados = LIBROS.filter((l) => l.progreso === 0);
@@ -225,15 +227,19 @@ export function Inicio({
           <motion.h1 custom={0} variants={enterVariants} initial="hidden" animate="shown">
             {saludo()}
           </motion.h1>
-          <motion.div
+          {/* La racha es la puerta del perfil: se toca lo que se quiere mirar */}
+          <motion.button
             className="pastilla-racha"
+            onClick={onPerfil}
+            whileTap={{ scale: 0.94 }}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ ...springPop, delay: 0.16 }}
+            aria-label={`Tu perfil. Racha de ${racha} días`}
           >
             <Llama tamano={22} reducido={false} />
             <span>{racha}</span>
-          </motion.div>
+          </motion.button>
         </header>
 
         {/* Continuar: el libro que tienes a medias, siempre a un toque */}

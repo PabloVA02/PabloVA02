@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ReactElement } from "react";
 import {
   AnimatePresence,
   animate,
@@ -10,6 +10,7 @@ import {
   type PanInfo,
 } from "framer-motion";
 import { SHORTS, urlFoto, type Foto, type Short } from "./shorts";
+import { PORTADAS } from "./portadas";
 import { Ilustracion } from "./Scene";
 import { GlyphBack, GlyphClose, GlyphHeart, GlyphRayo, GlyphShare } from "./glyphs";
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
@@ -42,7 +43,7 @@ type EstadoFoto = "cargando" | "lista" | "fallida";
 
 function Fotografia({
   foto,
-  arte,
+  Respaldo,
   reducido,
   /** Deriva lenta tipo Ken Burns. Se apaga en las fotos pequeñas. */
   deriva = true,
@@ -50,7 +51,8 @@ function Fotografia({
   desplaza,
 }: {
   foto: Foto;
-  arte: Short["arte"];
+  /** Qué se dibuja si la foto no llega. Es del tema, no genérico. */
+  Respaldo: (p: { reducido: boolean }) => ReactElement;
   reducido: boolean;
   deriva?: boolean;
   desplaza?: MotionValue<number>;
@@ -122,7 +124,7 @@ function Fotografia({
             animate={{ opacity: 1 }}
             transition={springSoft}
           >
-            <Ilustracion arte={arte} reducido={reducido} />
+            <Respaldo reducido={reducido} />
           </motion.div>
         )}
       </AnimatePresence>
@@ -252,7 +254,7 @@ function PaginaShort({
       <div className="muro-foto">
         <Fotografia
           foto={short.foto}
-          arte={short.arte}
+          Respaldo={PORTADAS[short.id]}
           reducido={reducido}
           deriva={activo}
           desplaza={xFoto}
@@ -440,7 +442,7 @@ export function LectorShort({
                 <div className="short-portada-foto">
                   <Fotografia
                     foto={short.foto}
-                    arte={short.arte}
+                    Respaldo={PORTADAS[short.id]}
                     reducido={!!reducido}
                     desplaza={xFondo}
                   />
@@ -485,7 +487,7 @@ export function LectorShort({
                 </motion.div>
               </>
             ) : (
-              <CuerpoTarjeta tarjeta={tarjeta!} arte={short.arte} reducido={!!reducido} />
+              <CuerpoTarjeta tarjeta={tarjeta!} short={short} reducido={!!reducido} />
             )}
           </motion.div>
         </AnimatePresence>
@@ -543,11 +545,11 @@ export function LectorShort({
 
 function CuerpoTarjeta({
   tarjeta,
-  arte,
+  short,
   reducido,
 }: {
   tarjeta: NonNullable<Short["tarjetas"][number]>;
-  arte: Short["arte"];
+  short: Short;
   reducido: boolean;
 }) {
   if (tarjeta.forma === "golpe") {
@@ -601,7 +603,7 @@ function CuerpoTarjeta({
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={springSoft}
         >
-          <Fotografia foto={tarjeta.foto} arte={arte} reducido={reducido} />
+          <Fotografia foto={tarjeta.foto} Respaldo={PORTADAS[short.id]} reducido={reducido} />
         </motion.div>
         <motion.p
           className="short-cuerpo"
