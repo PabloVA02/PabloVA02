@@ -1067,3 +1067,197 @@ button {
   justify-content: flex-start;
   padding: 0 var(--shell-pad);
 }
+
+/* --------------------------------------------------------------------------
+   Camino de capítulos
+
+   Serpiente vertical de nodos. Cada estado se distingue por forma, no solo
+   por color: el hecho lleva marca, el actual va elevado con aro latiendo y
+   el bloqueado está hundido y apagado. Así se lee de un vistazo.
+   -------------------------------------------------------------------------- */
+
+.camino {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--night);
+  color: var(--paper);
+  margin-top: -46px;
+  padding-top: 46px;
+}
+
+.camino-cabecera {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 6px var(--shell-pad) 12px;
+}
+.camino-cabecera .icon-btn {
+  background: rgba(242, 236, 225, 0.12);
+  color: var(--paper);
+}
+
+.camino-titulo { flex: 1; min-width: 0; }
+.camino-libro {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.camino-progreso {
+  margin: 2px 0 0;
+  font-size: 12.5px;
+  color: rgba(242, 236, 225, 0.6);
+  font-variant-numeric: tabular-nums;
+}
+
+.camino-barra {
+  flex: none;
+  height: 6px;
+  margin: 0 var(--shell-pad) 6px;
+  border-radius: 999px;
+  background: rgba(242, 236, 225, 0.14);
+  overflow: hidden;
+}
+.camino-relleno {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--sage);
+  transform-origin: left center;
+}
+
+.camino-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding-bottom: 20px;
+}
+.camino-scroll::-webkit-scrollbar { display: none; }
+
+.camino-lienzo { position: relative; width: 100%; }
+
+.camino-trazo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nodo-hueco {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 128px;
+}
+
+/* Botón elevado: el reborde inferior más oscuro da el relieve sin sombras
+   difusas, que a este tamaño se ven sucias. */
+.nodo {
+  position: relative;
+  width: 66px;
+  height: 66px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  font-weight: 750;
+  color: var(--ink);
+  background: rgba(242, 236, 225, 0.14);
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.32);
+  z-index: 2;
+}
+
+.nodo[data-estado="bloqueado"] {
+  color: rgba(242, 236, 225, 0.34);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.24);
+  cursor: default;
+}
+
+.nodo[data-estado="actual"] {
+  width: 76px;
+  height: 76px;
+  font-size: 25px;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.34);
+}
+
+.nodo-aro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 76px;
+  height: 76px;
+  margin: -38px 0 0 -38px;
+  border-radius: 999px;
+  border: 3px solid;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.nodo-globo {
+  margin-bottom: 9px;
+  padding: 6px 15px;
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 12.5px;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  position: relative;
+  z-index: 3;
+}
+.nodo-globo::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 9px;
+  height: 9px;
+  margin-left: -4.5px;
+  border-radius: 2px;
+  background: var(--paper);
+  transform: rotate(45deg);
+}
+
+.nodo-nombre {
+  margin: 9px 0 0;
+  font-size: 12px;
+  line-height: 1.28;
+  text-align: center;
+  color: rgba(242, 236, 225, 0.82);
+  letter-spacing: -0.005em;
+}
+.nodo-nombre[data-bloqueado="true"] { color: rgba(242, 236, 225, 0.36); }
+
+.camino-meta {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.meta-copa {
+  width: 54px;
+  height: 54px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  background: rgba(242, 236, 225, 0.1);
+  color: var(--ochre);
+}
+.camino-meta p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 650;
+  color: rgba(242, 236, 225, 0.5);
+}

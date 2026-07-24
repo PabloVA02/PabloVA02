@@ -129,3 +129,12 @@ export function GlyphAdelante() {
     </svg>
   );
 }
+
+export function GlyphCandado() {
+  return (
+    <svg width="19" height="19" viewBox="0 0 19 19" aria-hidden>
+      <rect x="4.2" y="8.4" width="10.6" height="7.6" rx="2" {...trazo} strokeWidth="1.9" />
+      <path d="M6.6 8.4 V6.4 A2.9 2.9 0 0 1 12.4 6.4 V8.4" {...trazo} strokeWidth="1.9" />
+    </svg>
+  );
+}

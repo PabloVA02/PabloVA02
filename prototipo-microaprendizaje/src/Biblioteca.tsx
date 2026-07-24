@@ -37,6 +37,8 @@ export type Libro = {
   /** 0 a 1. Si es mayor que 0, el libro aparece en «Retomar». */
   progreso: number;
   coleccion?: string;
+  /** Capítulos del libro. El primero es el único jugable en el prototipo. */
+  capitulos: { titulo: string }[];
   /** Solo el capítulo de Alejandría es jugable en este prototipo. */
   jugable?: boolean;
 };
@@ -44,6 +46,7 @@ export type Libro = {
 export const LIBROS: Libro[] = [
   {
     id: "alejandria",
+    capitulos: [{ titulo: "La ambición imposible" }, { titulo: "El método de los barcos" }, { titulo: "Cuatrocientos mil rollos" }, { titulo: "El mito del incendio" }, { titulo: "Lo que se perdió" }, { titulo: "La cadena de copias" }, { titulo: "Qué sobrevive y por qué" }],
     titulo: "La Biblioteca de Alejandría",
     autor: "Historia del conocimiento",
     subtitulo: "La biblioteca que quiso tenerlo todo",
@@ -58,6 +61,7 @@ export const LIBROS: Libro[] = [
   },
   {
     id: "sofocles",
+    capitulos: [{ titulo: "Siete de ciento veinte" }, { titulo: "El teatro que ardió dos veces" }, { titulo: "Quién decidía qué copiar" }, { titulo: "Los títulos huérfanos" }, { titulo: "Reconstruir desde citas" }],
     titulo: "Lo que perdimos de Grecia",
     autor: "Literatura clásica",
     subtitulo: "De 120 obras quedan 7",
@@ -70,6 +74,7 @@ export const LIBROS: Libro[] = [
   },
   {
     id: "memoria",
+    capitulos: [{ titulo: "La curva de Ebbinghaus" }, { titulo: "La primera hora" }, { titulo: "Repaso espaciado" }, { titulo: "Cuándo volver" }, { titulo: "Aprender para recordar" }, { titulo: "El sueño y la memoria" }],
     titulo: "Cómo recuerda el cerebro",
     autor: "Ciencia cognitiva",
     subtitulo: "Por qué olvidas casi todo",
@@ -82,6 +87,7 @@ export const LIBROS: Libro[] = [
   },
   {
     id: "mapas",
+    capitulos: [{ titulo: "Mapas que mandaban" }, { titulo: "Aquí hay dragones" }, { titulo: "La línea de Tordesillas" }, { titulo: "Proyecciones que mienten" }, { titulo: "El mapa como poder" }],
     titulo: "Los mapas que inventaron el mundo",
     autor: "Historia de la cartografía",
     subtitulo: "Cuando el mapa decidía el mundo",
@@ -94,6 +100,7 @@ export const LIBROS: Libro[] = [
   },
   {
     id: "noche",
+    capitulos: [{ titulo: "El primer sueño" }, { titulo: "La hora de en medio" }, { titulo: "Llega la luz de gas" }, { titulo: "Perder la noche" }, { titulo: "Dormir hoy" }],
     titulo: "Historia de la noche",
     autor: "Vida cotidiana",
     subtitulo: "Dormíamos en dos turnos",
@@ -106,6 +113,7 @@ export const LIBROS: Libro[] = [
   },
   {
     id: "escuela",
+    capitulos: [{ titulo: "Antes del aula" }, { titulo: "El modelo prusiano" }, { titulo: "Pupitres en fila" }, { titulo: "El examen" }, { titulo: "Qué queda por cambiar" }],
     titulo: "Cómo aprendimos a aprender",
     autor: "Historia de la educación",
     subtitulo: "La escuela es más nueva de lo que crees",
@@ -118,6 +126,7 @@ export const LIBROS: Libro[] = [
   },
   {
     id: "descubrir",
+    capitulos: [{ titulo: "La placa olvidada" }, { titulo: "El chocolate derretido" }, { titulo: "El pegamento fallido" }, { titulo: "Qué tienen en común" }],
     titulo: "El azar en los grandes hallazgos",
     autor: "Historia de la ciencia",
     subtitulo: "Los hallazgos que nadie buscaba",
@@ -406,7 +415,7 @@ export function DetalleLibro({
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...spring, delay: 0.3 }}
         >
-          {libro.jugable ? "Empezar capítulo 1" : "Continuar"}
+          {libro.progreso > 0 ? "Seguir" : `Empezar · ${libro.capitulos.length} capítulos`}
         </motion.button>
       </div>
     </motion.div>

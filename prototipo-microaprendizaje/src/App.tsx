@@ -12,14 +12,17 @@ import { CARDS, MINUTOS_OBJETIVO, TOTAL_XP } from "./lesson";
 import { Scene } from "./Scene";
 import { Racha, RetoDiario } from "./Racha";
 import { DetalleLibro, Inicio, LIBROS, type Libro } from "./Biblioteca";
+import { Camino } from "./Camino";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import { GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart, GlyphShare } from "./glyphs";
 
-type Pantalla = "inicio" | "detalle" | "leccion" | "fin" | "racha" | "reto";
+type Pantalla = "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto";
 
 export default function App() {
   const [pantalla, setPantalla] = useState<Pantalla>("inicio");
   const [libro, setLibro] = useState<Libro>(LIBROS[0]);
+  /** Capítulos completados del libro abierto. */
+  const [completados, setCompletados] = useState(0);
   /** Minutos que ha tardado el lector en el capítulo, medidos de verdad. */
   const [minutos, setMinutos] = useState(0);
   const arranque = useRef(0);
@@ -46,6 +49,18 @@ export default function App() {
               onCerrar={() => setPantalla("inicio")}
               onAbrir={(l) => setLibro(l)}
               onEmpezar={() => {
+                setCompletados(0);
+                setPantalla("camino");
+              }}
+            />
+          )}
+          {pantalla === "camino" && (
+            <Camino
+              key="camino"
+              libro={libro}
+              completados={completados}
+              onVolver={() => setPantalla("detalle")}
+              onEmpezar={() => {
                 arranque.current = Date.now();
                 setPantalla("leccion");
               }}
@@ -54,9 +69,10 @@ export default function App() {
           {pantalla === "leccion" && (
             <Leccion
               key="leccion"
-              onSalir={() => setPantalla("detalle")}
+              onSalir={() => setPantalla("camino")}
               onFin={() => {
                 setMinutos((Date.now() - arranque.current) / 60000);
+                setCompletados((c) => c + 1);
                 setPantalla("fin");
               }}
             />
@@ -72,7 +88,7 @@ export default function App() {
               key="reto"
               minutos={minutos}
               objetivo={MINUTOS_OBJETIVO}
-              onContinuar={() => setPantalla("inicio")}
+              onContinuar={() => setPantalla("camino")}
             />
           )}
         </AnimatePresence>
