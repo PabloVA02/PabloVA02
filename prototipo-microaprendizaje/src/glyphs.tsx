@@ -105,3 +105,27 @@ export function CoverArt() {
     </svg>
   );
 }
+
+export function GlyphGuardar() {
+  return (
+    <svg width="17" height="17" viewBox="0 0 17 17" aria-hidden>
+      <path d="M4.6 3.2 H12.4 V14.2 L8.5 11 L4.6 14.2 Z" {...trazo} />
+    </svg>
+  );
+}
+
+export function GlyphDescargar() {
+  return (
+    <svg width="17" height="17" viewBox="0 0 17 17" aria-hidden>
+      <path d="M8.5 3 V11 M5.4 8 L8.5 11.2 L11.6 8 M3.6 13.6 H13.4" {...trazo} />
+    </svg>
+  );
+}
+
+export function GlyphAdelante() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden>
+      <path d="M7 4 L12 9 L7 14" {...trazo} />
+    </svg>
+  );
+}

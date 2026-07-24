@@ -22,7 +22,7 @@ export function Estanteria({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const EstanteriaVB = "0 0 737.66564 594";
+export const EstanteriaVB = "-22.1 -22.1 781.9 638.3";
 
 /** unDraw · book-lover */
 export function Lectora({ banda }: CapaProps) {
@@ -33,7 +33,7 @@ export function Lectora({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const LectoraVB = "0 0 799.946 621.627";
+export const LectoraVB = "-24.0 -24.0 847.9 669.6";
 
 /** unDraw · book-reading */
 export function Leyendo({ banda }: CapaProps) {
@@ -44,7 +44,7 @@ export function Leyendo({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const LeyendoVB = "0 0 868.64431 699.46442";
+export const LeyendoVB = "-26.1 -26.1 920.8 751.6";
 
 /** unDraw · books */
 export function Libros({ banda }: CapaProps) {
@@ -55,7 +55,7 @@ export function Libros({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const LibrosVB = "0 0 731.836 490.096";
+export const LibrosVB = "-22.0 -22.0 776.0 534.0";
 
 /** unDraw · book-writer */
 export function Escritor({ banda }: CapaProps) {
@@ -66,7 +66,7 @@ export function Escritor({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const EscritorVB = "0 0 801.51153 772";
+export const EscritorVB = "-24.0 -24.0 849.6 820.1";
 
 /** unDraw · bookmarks */
 export function Marcadores({ banda }: CapaProps) {
@@ -257,7 +257,7 @@ export function Marcadores({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const MarcadoresVB = "0 0 1024.348 646.395";
+export const MarcadoresVB = "-30.7 -30.7 1085.8 707.9";
 
 /** unDraw · audiobook */
 export function Audiolibro({ banda }: CapaProps) {
@@ -268,7 +268,7 @@ export function Audiolibro({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const AudiolibroVB = "0 0 521.612 720.834";
+export const AudiolibroVB = "-21.6 -21.6 564.9 764.1";
 
 /** unDraw · relaxed-reading */
 export function LecturaTranquila({ banda }: CapaProps) {
@@ -447,7 +447,7 @@ export function LecturaTranquila({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const LecturaTranquilaVB = "0 0 924.828 641.181";
+export const LecturaTranquilaVB = "-27.7 -27.7 980.3 696.7";
 
 /** unDraw · education */
 export function Educacion({ banda }: CapaProps) {
@@ -458,7 +458,7 @@ export function Educacion({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const EducacionVB = "0 0 744 539.28592";
+export const EducacionVB = "-22.3 -22.3 788.6 583.9";
 
 /** unDraw · educator */
 export function Docente({ banda }: CapaProps) {
@@ -469,7 +469,7 @@ export function Docente({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const DocenteVB = "0 0 851.034 557.34684";
+export const DocenteVB = "-25.5 -25.5 902.1 608.4";
 
 /** unDraw · continuous-learning */
 export function Aprendizaje({ banda }: CapaProps) {
@@ -480,7 +480,7 @@ export function Aprendizaje({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const AprendizajeVB = "0 0 800 712.457";
+export const AprendizajeVB = "-24.0 -24.0 848.0 760.5";
 
 /** unDraw · articles */
 export function Articulos({ banda }: CapaProps) {
@@ -491,7 +491,7 @@ export function Articulos({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const ArticulosVB = "0 0 492.45944 596.97748";
+export const ArticulosVB = "-17.9 -17.9 528.3 632.8";
 
 /** unDraw · art */
 export function Arte({ banda }: CapaProps) {
@@ -502,7 +502,7 @@ export function Arte({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const ArteVB = "0 0 1150.08221 803.24347";
+export const ArteVB = "-34.5 -34.5 1219.1 872.3";
 
 /** unDraw · art-lover */
 export function AmanteArte({ banda }: CapaProps) {
@@ -513,7 +513,7 @@ export function AmanteArte({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const AmanteArteVB = "0 0 570.22183 670.69599";
+export const AmanteArteVB = "-20.1 -20.1 610.4 710.9";
 
 /** unDraw · art-museum */
 export function Museo({ banda }: CapaProps) {
@@ -524,7 +524,7 @@ export function Museo({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const MuseoVB = "0 0 1046 638.58364";
+export const MuseoVB = "-31.4 -31.4 1108.8 701.3";
 
 /** unDraw · artist-at-work */
 export function ArtistaTrabajando({ banda }: CapaProps) {
@@ -535,7 +535,7 @@ export function ArtistaTrabajando({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const ArtistaTrabajandoVB = "0 0 531.39952 824.28024";
+export const ArtistaTrabajandoVB = "-24.7 -24.7 580.9 873.7";
 
 /** unDraw · art-thinking */
 export function PensarArte({ banda }: CapaProps) {
@@ -546,7 +546,7 @@ export function PensarArte({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const PensarArteVB = "0 0 1000 645.09221";
+export const PensarArteVB = "-30.0 -30.0 1060.0 705.1";
 
 /** unDraw · explore */
 export function Explorar({ banda }: CapaProps) {
@@ -557,7 +557,7 @@ export function Explorar({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const ExplorarVB = "0 0 933.03873 637.11024";
+export const ExplorarVB = "-28.0 -28.0 989.0 693.1";
 
 /** unDraw · exploring */
 export function Explorando({ banda }: CapaProps) {
@@ -568,7 +568,7 @@ export function Explorando({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const ExplorandoVB = "0 0 960 673.008";
+export const ExplorandoVB = "-28.8 -28.8 1017.6 730.6";
 
 /** unDraw · adventure-map */
 export function MapaAventura({ banda }: CapaProps) {
@@ -579,7 +579,7 @@ export function MapaAventura({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const MapaAventuraVB = "0 0 800.249 643.989";
+export const MapaAventuraVB = "-24.0 -24.0 848.3 692.0";
 
 /** unDraw · adventure */
 export function Aventura({ banda }: CapaProps) {
@@ -590,7 +590,7 @@ export function Aventura({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const AventuraVB = "0 0 881.63115 587.66492";
+export const AventuraVB = "-26.4 -26.4 934.5 640.6";
 
 /** unDraw · discoverable */
 export function Descubrir({ banda }: CapaProps) {
@@ -601,7 +601,7 @@ export function Descubrir({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const DescubrirVB = "0 0 782.12808 524.32607";
+export const DescubrirVB = "-23.5 -23.5 829.1 571.3";
 
 /** unDraw · brainstorming */
 export function LluviaIdeas({ banda }: CapaProps) {
@@ -612,7 +612,7 @@ export function LluviaIdeas({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const LluviaIdeasVB = "0 0 800.385 475.927";
+export const LluviaIdeasVB = "-24.0 -24.0 848.4 524.0";
 
 /** unDraw · conceptual-idea */
 export function IdeaConceptual({ banda }: CapaProps) {
@@ -623,7 +623,7 @@ export function IdeaConceptual({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const IdeaConceptualVB = "0 0 888 594.64886";
+export const IdeaConceptualVB = "-26.6 -26.6 941.3 647.9";
 
 /** unDraw · forming-ideas */
 export function FormarIdeas({ banda }: CapaProps) {
@@ -634,7 +634,7 @@ export function FormarIdeas({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const FormarIdeasVB = "0 0 768.18283 692.30756";
+export const FormarIdeasVB = "-23.0 -23.0 814.3 738.4";
 
 /** unDraw · memory-storage */
 export function Memoria({ banda }: CapaProps) {
@@ -645,7 +645,7 @@ export function Memoria({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const MemoriaVB = "0 0 793.57972 828";
+export const MemoriaVB = "-24.8 -24.8 843.3 877.7";
 
 /** unDraw · data-trends */
 export function Tendencias({ banda }: CapaProps) {
@@ -791,7 +791,7 @@ export function Tendencias({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const TendenciasVB = "0 0 799.031 618.114";
+export const TendenciasVB = "-24.0 -24.0 847.0 666.1";
 
 /** unDraw · data-points */
 export function Puntos({ banda }: CapaProps) {
@@ -802,7 +802,7 @@ export function Puntos({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const PuntosVB = "0 0 800.003 618.867";
+export const PuntosVB = "-24.0 -24.0 848.0 666.9";
 
 /** unDraw · charts */
 export function Graficos({ banda }: CapaProps) {
@@ -813,7 +813,7 @@ export function Graficos({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const GraficosVB = "0 0 960 659.162";
+export const GraficosVB = "-28.8 -28.8 1017.6 716.8";
 
 /** unDraw · analysis */
 export function Analisis({ banda }: CapaProps) {
@@ -824,7 +824,7 @@ export function Analisis({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const AnalisisVB = "0 0 768.47 467.54";
+export const AnalisisVB = "-23.1 -23.1 814.6 513.6";
 
 /** unDraw · late-at-night */
 export function TardeNoche({ banda }: CapaProps) {
@@ -835,7 +835,7 @@ export function TardeNoche({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const TardeNocheVB = "0 0 884.76959 805.08188";
+export const TardeNocheVB = "-26.5 -26.5 937.9 858.2";
 
 /** unDraw · moonlight */
 export function LuzLuna({ banda }: CapaProps) {
@@ -846,7 +846,7 @@ export function LuzLuna({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const LuzLunaVB = "0 0 1013.94928 503";
+export const LuzLunaVB = "-30.4 -30.4 1074.8 563.8";
 
 /** unDraw · into-the-night */
 export function HaciaNoche({ banda }: CapaProps) {
@@ -857,7 +857,7 @@ export function HaciaNoche({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const HaciaNocheVB = "0 0 1088 687.96235";
+export const HaciaNocheVB = "-32.6 -32.6 1153.3 753.2";
 
 /** unDraw · celebrating */
 export function Celebrando({ banda }: CapaProps) {
@@ -868,7 +868,7 @@ export function Celebrando({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const CelebrandoVB = "0 0 297.12845 482.02689";
+export const CelebrandoVB = "-14.5 -14.5 326.1 510.9";
 
 /** unDraw · awards */
 export function Premios({ banda }: CapaProps) {
@@ -879,7 +879,7 @@ export function Premios({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const PremiosVB = "0 0 1081 840.51";
+export const PremiosVB = "-32.4 -32.5 1145.9 905.4";
 
 /** unDraw · completed */
 export function Completado({ banda }: CapaProps) {
@@ -890,5 +890,5 @@ export function Completado({ banda }: CapaProps) {
   };
   return capas[banda];
 }
-export const CompletadoVB = "0 0 960 556.179";
+export const CompletadoVB = "-28.8 -28.8 1017.6 613.8";
 

@@ -8,16 +8,18 @@ import {
   useTransform,
   type PanInfo,
 } from "framer-motion";
-import { BOOK, CARDS, MINUTOS_OBJETIVO, TOTAL_XP } from "./lesson";
+import { CARDS, MINUTOS_OBJETIVO, TOTAL_XP } from "./lesson";
 import { Scene } from "./Scene";
 import { Racha, RetoDiario } from "./Racha";
+import { DetalleLibro, Inicio, LIBROS, type Libro } from "./Biblioteca";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
-import { CoverArt, GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart, GlyphShare, GlyphTick } from "./glyphs";
+import { GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart, GlyphShare } from "./glyphs";
 
-type Pantalla = "libro" | "leccion" | "fin" | "racha" | "reto";
+type Pantalla = "inicio" | "detalle" | "leccion" | "fin" | "racha" | "reto";
 
 export default function App() {
-  const [pantalla, setPantalla] = useState<Pantalla>("libro");
+  const [pantalla, setPantalla] = useState<Pantalla>("inicio");
+  const [libro, setLibro] = useState<Libro>(LIBROS[0]);
   /** Minutos que ha tardado el lector en el capítulo, medidos de verdad. */
   const [minutos, setMinutos] = useState(0);
   const arranque = useRef(0);
@@ -27,9 +29,22 @@ export default function App() {
       <div className="shell">
         <StatusBar />
         <AnimatePresence mode="wait">
-          {pantalla === "libro" && (
-            <Libro
-              key="libro"
+          {pantalla === "inicio" && (
+            <Inicio
+              key="inicio"
+              racha={1}
+              onAbrir={(l) => {
+                setLibro(l);
+                setPantalla("detalle");
+              }}
+            />
+          )}
+          {pantalla === "detalle" && (
+            <DetalleLibro
+              key="detalle"
+              libro={libro}
+              onCerrar={() => setPantalla("inicio")}
+              onAbrir={(l) => setLibro(l)}
               onEmpezar={() => {
                 arranque.current = Date.now();
                 setPantalla("leccion");
@@ -39,7 +54,7 @@ export default function App() {
           {pantalla === "leccion" && (
             <Leccion
               key="leccion"
-              onSalir={() => setPantalla("libro")}
+              onSalir={() => setPantalla("detalle")}
               onFin={() => {
                 setMinutos((Date.now() - arranque.current) / 60000);
                 setPantalla("fin");
@@ -57,7 +72,7 @@ export default function App() {
               key="reto"
               minutos={minutos}
               objetivo={MINUTOS_OBJETIVO}
-              onContinuar={() => setPantalla("libro")}
+              onContinuar={() => setPantalla("inicio")}
             />
           )}
         </AnimatePresence>
@@ -100,91 +115,6 @@ function reloj() {
 /* ==========================================================================
    Portada del libro — el paso previo a la lección
    ========================================================================== */
-
-function Libro({ onEmpezar }: { onEmpezar: () => void }) {
-  return (
-    <motion.div
-      className="book"
-      initial={{ opacity: 0, y: 12 }}
-      animate={{ opacity: 1, y: 0, transition: spring }}
-      exit={{ opacity: 0, y: -12, transition: { duration: 0.2 } }}
-    >
-      <div className="book-top">
-        <button className="icon-btn" aria-label="Volver">
-          <GlyphBack />
-        </button>
-        <button className="icon-btn" aria-label="Guardar">
-          <GlyphHeart on={false} />
-        </button>
-      </div>
-
-      <motion.div
-        className="book-cover"
-        initial={{ opacity: 0, y: 22, rotate: -3 }}
-        animate={{ opacity: 1, y: 0, rotate: 0, transition: { ...springPop, delay: 0.05 } }}
-      >
-        <CoverArt />
-      </motion.div>
-
-      {[
-        <p key="e" className="book-eyebrow">{BOOK.eyebrow}</p>,
-        <h1 key="t" className="book-title">{BOOK.title}</h1>,
-        <p key="a" className="book-author">{BOOK.author}</p>,
-        <div key="m" className="book-meta">
-          {BOOK.meta.map((m) => (
-            <span className="chip" key={m}>{m}</span>
-          ))}
-        </div>,
-        <p key="l" className="learn-label">Lo que vas a aprender</p>,
-      ].map((nodo, i) => (
-        <motion.div
-          key={nodo.key}
-          custom={i + 1}
-          variants={enterVariants}
-          initial="hidden"
-          animate="shown"
-        >
-          {nodo}
-        </motion.div>
-      ))}
-
-      <ul className="learn-list">
-        {BOOK.learn.map((linea, i) => (
-          <motion.li
-            key={linea}
-            custom={i + 6}
-            variants={enterVariants}
-            initial="hidden"
-            animate="shown"
-          >
-            <span
-              className="learn-dot"
-              style={{ background: ["var(--clay)", "var(--ochre)", "var(--sage)", "var(--plum)"][i % 4] }}
-            >
-              <GlyphTick />
-            </span>
-            {linea}
-          </motion.li>
-        ))}
-      </ul>
-
-      <div className="book-cta">
-        <motion.button
-          className="primary-btn"
-          onClick={onEmpezar}
-          whileTap={{ scale: 0.97 }}
-          transition={springPop}
-          custom={10}
-          variants={enterVariants}
-          initial="hidden"
-          animate="shown"
-        >
-          Empezar lección
-        </motion.button>
-      </div>
-    </motion.div>
-  );
-}
 
 /* ==========================================================================
    La lección
@@ -259,9 +189,18 @@ function Leccion({ onSalir, onFin }: { onSalir: () => void; onFin: () => void })
       exit={{ opacity: 0, scale: 0.98, transition: { duration: 0.2 } }}
     >
       <div className="lesson-head">
-        <button className="icon-btn" onClick={onSalir} aria-label="Cerrar lección">
+        <button className="icon-btn" onClick={onSalir} aria-label="Cerrar capítulo">
           <GlyphClose />
         </button>
+        <motion.button
+          className="icon-btn"
+          onClick={() => avanzar(-1)}
+          disabled={indice === 0}
+          whileTap={{ scale: 0.9 }}
+          aria-label="Tarjeta anterior"
+        >
+          <GlyphBack />
+        </motion.button>
         <div className="track">
           {/* Avanza con muelle, nunca a saltos */}
           <motion.div

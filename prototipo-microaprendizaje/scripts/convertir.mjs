@@ -18,6 +18,11 @@ import { readFile, writeFile } from "node:fs/promises";
    ========================================================================== */
 
 const BASE = "node_modules/undraw-svg/svgs";
+
+/* Cajas ajustadas, medidas con `medir.mjs`. Los viewBox originales de unDraw
+   traen mucho aire alrededor del dibujo: usándolos tal cual, la ilustración
+   sale pequeña y pegada a una esquina de su hueco. */
+const CAJAS = JSON.parse(await readFile("cajas.json", "utf8"));
 const SALIDA = "/workspace/micro-proto/src/undraw.tsx";
 
 /** Mapa a los tokens de la paleta del proyecto. */
@@ -169,6 +174,7 @@ type CapaProps = { banda: "fondo" | "medio" | "frente" };
 for (const [fichero, nombre] of ELEGIDAS) {
   const bruto = await readFile(`${BASE}/${fichero}.svg`, "utf8");
   const { viewBox, interior } = despiezar(bruto);
+  const encuadre = CAJAS[fichero] ?? viewBox;
 
   const capas = Object.entries(BANDAS)
     .map(([banda, test]) => `    ${banda}: (<>${aJsx(filtrar(interior, test))}</>),`)
@@ -181,7 +187,7 @@ ${capas}
   };
   return capas[banda];
 }
-export const ${nombre}VB = "${viewBox}";
+export const ${nombre}VB = "${encuadre}";
 
 `;
 }
