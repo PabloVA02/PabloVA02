@@ -130,6 +130,42 @@ export function GlyphAdelante() {
   );
 }
 
+/**
+ * El rayo de Shorts. Relleno, no de trazo: es la marca de la sección y tiene
+ * que aguantar a 20 px en la barra y a 60 px en la cabecera del muro. Un
+ * trazo fino se deshace al reducirlo; una silueta maciza, no.
+ */
+export function GlyphRayo({ tamano = 20 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      <path
+        d="M13.4 2 L4.6 13.2 A0.7 0.7 0 0 0 5.1 14.3 H10 L9 21.6 A0.5 0.5 0 0 0 9.9 22 L19.4 10.4 A0.7 0.7 0 0 0 18.9 9.3 H13.9 L14.9 2.4 A0.5 0.5 0 0 0 13.4 2 Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
+/** Libros: dos lomos y uno inclinado, para que se lea como estantería. */
+export function GlyphLibros({ tamano = 20 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      <rect x="3.4" y="5" width="4.2" height="14" rx="1.1" fill="currentColor" />
+      <rect x="9" y="5" width="4.2" height="14" rx="1.1" fill="currentColor" opacity="0.72" />
+      <rect
+        x="15.1"
+        y="6.2"
+        width="4.2"
+        height="13"
+        rx="1.1"
+        fill="currentColor"
+        opacity="0.5"
+        transform="rotate(11 17.2 12.7)"
+      />
+    </svg>
+  );
+}
+
 export function GlyphCandado() {
   return (
     <svg width="19" height="19" viewBox="0 0 19 19" aria-hidden>

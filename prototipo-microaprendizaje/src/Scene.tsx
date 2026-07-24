@@ -44,6 +44,48 @@ const RESPIRA: Record<Banda, [number, number, number]> = {
   frente: [6, 7.3, 1.2],
 };
 
+/**
+ * La misma ilustración por bandas, pero sin atarla al gesto de arrastre.
+ * La usan los shorts, donde no hay parallax de lectura pero sí hace falta que
+ * la ilustración entre escalonada y respire igual que en un capítulo.
+ */
+export function Ilustracion({
+  arte,
+  reducido,
+  retraso = 0,
+}: {
+  arte: Arte;
+  reducido: boolean;
+  retraso?: number;
+}) {
+  const pieza = ARTE[arte];
+
+  return (
+    <motion.svg
+      viewBox={pieza.vb}
+      role="img"
+      aria-label="Ilustración"
+      initial={{ opacity: 0, scale: pieza.escala * 0.95 }}
+      animate={{ opacity: 1, scale: pieza.escala }}
+      transition={{ ...springSoft, delay: retraso }}
+      style={{ pointerEvents: "none" }}
+    >
+      {(["fondo", "medio", "frente"] as const).map((banda, orden) => (
+        <motion.g
+          key={banda}
+          initial={{ opacity: 0, y: 20 + orden * 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...springSoft, delay: retraso + orden * 0.07 }}
+        >
+          <motion.g {...(reducido ? {} : idle(...RESPIRA[banda]))}>
+            <pieza.Comp banda={banda} />
+          </motion.g>
+        </motion.g>
+      ))}
+    </motion.svg>
+  );
+}
+
 type Props = {
   carta: Card;
   capas: Record<"fondo" | "medio" | "frente" | "detalle", MotionValue<number>>;

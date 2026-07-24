@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ReactElement } from "react";
 import {
   AnimatePresence,
   animate,
@@ -14,14 +14,29 @@ import { Racha, RetoDiario } from "./Racha";
 import { DetalleLibro, Inicio, LIBROS, type Libro } from "./Biblioteca";
 import { Camino } from "./Camino";
 import { Onboarding } from "./Onboarding";
+import { MuroShorts, LectorShort } from "./Shorts";
+import type { Short } from "./shorts";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
-import { GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart, GlyphShare } from "./glyphs";
+import {
+  GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart,
+  GlyphLibros, GlyphRayo, GlyphShare,
+} from "./glyphs";
 
-type Pantalla = "intro" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto";
+type Pantalla =
+  | "intro" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto"
+  | "shorts" | "short";
+
+/** Las dos pestañas raíz. Solo estas dos enseñan la barra de abajo. */
+const CON_BARRA: Pantalla[] = ["inicio", "shorts"];
 
 export default function App() {
   const [pantalla, setPantalla] = useState<Pantalla>("intro");
   const [libro, setLibro] = useState<Libro>(LIBROS[0]);
+  const [short, setShort] = useState<Short | null>(null);
+  /** A dónde vuelve el cierre. Un short no devuelve al camino de un libro. */
+  const [vuelta, setVuelta] = useState<Pantalla>("camino");
+  /** Objetivo de lectura de lo que se acaba de terminar, para comparar. */
+  const [objetivo, setObjetivo] = useState(MINUTOS_OBJETIVO);
   /** Capítulos completados del libro abierto. */
   const [completados, setCompletados] = useState(0);
   /** Minutos que ha tardado el lector en el capítulo, medidos de verdad. */
@@ -43,6 +58,28 @@ export default function App() {
               onAbrir={(l) => {
                 setLibro(l);
                 setPantalla("detalle");
+              }}
+            />
+          )}
+          {pantalla === "shorts" && (
+            <MuroShorts
+              key="shorts"
+              onAbrir={(s) => {
+                setShort(s);
+                setPantalla("short");
+              }}
+            />
+          )}
+          {pantalla === "short" && short && (
+            <LectorShort
+              key="short"
+              short={short}
+              onSalir={() => setPantalla("shorts")}
+              onFin={(m) => {
+                setMinutos(m);
+                setObjetivo(short.minutos);
+                setVuelta("shorts");
+                setPantalla("racha");
               }}
             />
           )}
@@ -77,6 +114,8 @@ export default function App() {
               onFin={() => {
                 setMinutos((Date.now() - arranque.current) / 60000);
                 setCompletados((c) => c + 1);
+                setObjetivo(MINUTOS_OBJETIVO);
+                setVuelta("camino");
                 setPantalla("fin");
               }}
             />
@@ -91,13 +130,82 @@ export default function App() {
             <RetoDiario
               key="reto"
               minutos={minutos}
-              objetivo={MINUTOS_OBJETIVO}
-              onContinuar={() => setPantalla("camino")}
+              objetivo={objetivo}
+              onContinuar={() => setPantalla(vuelta)}
             />
           )}
         </AnimatePresence>
+
+        <BarraPestanas
+          visible={CON_BARRA.includes(pantalla)}
+          activa={pantalla === "shorts" ? "shorts" : "libros"}
+          onIr={(t) => setPantalla(t === "shorts" ? "shorts" : "inicio")}
+        />
       </div>
     </div>
+  );
+}
+
+/* ==========================================================================
+   La barra de pestañas
+   ========================================================================== */
+
+type Tab = "libros" | "shorts";
+
+/**
+ * Solo aparece en las dos pantallas raíz: dentro de un libro, de un capítulo o
+ * de un short estorbaría, porque esas pantallas ya tienen su propia salida.
+ * La pastilla del fondo se desliza entre pestañas con `layoutId`, así que el
+ * movimiento lo interpola Framer Motion y no hay que calcular posiciones.
+ */
+function BarraPestanas({
+  visible,
+  activa,
+  onIr,
+}: {
+  visible: boolean;
+  activa: Tab;
+  onIr: (t: Tab) => void;
+}) {
+  const tabs: { id: Tab; nombre: string; Icono: (p: { tamano?: number }) => ReactElement }[] = [
+    { id: "libros", nombre: "Libros", Icono: GlyphLibros },
+    { id: "shorts", nombre: "Shorts", Icono: GlyphRayo },
+  ];
+
+  return (
+    <AnimatePresence>
+      {visible && (
+        <motion.nav
+          className="pestanas"
+          initial={{ y: 72, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: 72, opacity: 0 }}
+          transition={springSoft}
+        >
+          {tabs.map(({ id, nombre, Icono }) => (
+            <button
+              key={id}
+              className="pestana"
+              data-activa={activa === id}
+              onClick={() => onIr(id)}
+              aria-current={activa === id ? "page" : undefined}
+            >
+              {activa === id && (
+                <motion.span className="pestana-pastilla" layoutId="pastilla" transition={spring} />
+              )}
+              <motion.span
+                className="pestana-icono"
+                animate={activa === id ? { scale: [1, 1.22, 1], y: [0, -3, 0] } : { scale: 1, y: 0 }}
+                transition={springPop}
+              >
+                <Icono tamano={21} />
+              </motion.span>
+              <span className="pestana-nombre">{nombre}</span>
+            </button>
+          ))}
+        </motion.nav>
+      )}
+    </AnimatePresence>
   );
 }
 

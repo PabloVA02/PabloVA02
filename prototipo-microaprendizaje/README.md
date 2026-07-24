@@ -1,11 +1,15 @@
 # Prototipo de microaprendizaje
 
-App de aprendizaje visual en tarjetas deslizables. Recorrido completo:
-**introducción → biblioteca → ficha del libro → camino de capítulos → lectura
-→ racha**.
+App de aprendizaje visual en tarjetas deslizables, con dos secciones.
 
-Capítulo de ejemplo: **La Biblioteca de Alejandría**, 18 tarjetas, unos 5
-minutos de lectura.
+**Libros** — recorrido largo: introducción → biblioteca → ficha del libro →
+camino de capítulos → lectura → racha. Capítulo de ejemplo: *La Biblioteca de
+Alejandría*, 18 tarjetas, unos 5 minutos.
+
+**Shorts** — historias sueltas de 2 minutos, cada una con una **fotografía
+real** de portada. Diez historias: Chernóbil, Hiroshima, Pompeya, el Titanic,
+la Bomba del Zar, la Guerra del Emú, la epidemia de baile de 1518 y tres
+«¿y si...?».
 
 React 19 · TypeScript · Vite · Framer Motion
 
@@ -39,6 +43,8 @@ npm run build     # tsc --noEmit + vite build
 | `src/motion.ts` | Presets de muelle y bucles de reposo. No hay un solo easing lineal fuera de los bucles. |
 | `src/Scene.tsx` | Ilustración por capas de profundidad, con entrada escalonada. |
 | `src/Graficos.tsx` | Los cuatro gráficos de datos. |
+| `src/Shorts.tsx` | Shorts: el pase a pantalla completa y el lector de la historia. |
+| `src/shorts.ts` | Las diez historias, con su fotografía, autoría y licencia. |
 | `src/Racha.tsx` | Cierre: racha con la llama como protagonista, y reto diario. |
 | `src/undraw.tsx` | **Generado.** No editar a mano. |
 | `scripts/convertir.mjs` | Genera `undraw.tsx` a partir de los SVG de unDraw. |
@@ -81,6 +87,28 @@ ella.
 
 Para regenerar con otras ilustraciones: edita la lista `ELEGIDAS` del script,
 apunta `BASE` a la carpeta de SVG y ejecútalo.
+
+## Las fotografías de Shorts
+
+Todas de [Wikimedia Commons](https://commons.wikimedia.org), en dominio
+público o con licencia Creative Commons. Cada una guarda su autoría y su
+licencia en `shorts.ts`, y esa línea de crédito **se pinta en pantalla**, que
+es lo que exigen las CC-BY.
+
+Se piden por `Special:FilePath`, la dirección estable de Commons: no depende
+del hash interno del fichero, así que no se rompe cuando Commons reorganiza su
+almacenamiento.
+
+**No se descargan al repositorio a propósito.** Empaquetarlas obligaría a
+redistribuirlas, con lo que eso implica de licencias, y multiplicaría el peso
+del proyecto. Se piden por red y el componente `<Fotografia>` tiene los tres
+estados dibujados: cargando (color de la historia y barrido), cargada, y
+fallida (una de nuestras ilustraciones). Hay un plazo de 6 segundos, porque
+una petición bloqueada no falla: se queda colgada, y sin plazo el barrido de
+carga giraría para siempre.
+
+Consecuencia práctica: **sin red la sección sigue siendo presentable**, con
+ilustración en lugar de foto. Es el mismo diseño, no una pantalla de error.
 
 ## Paleta
 
