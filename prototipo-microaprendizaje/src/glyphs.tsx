@@ -166,6 +166,20 @@ export function GlyphLibros({ tamano = 20 }: { tamano?: number }) {
   );
 }
 
+/** Perfil: cabeza y hombros, macizo, para que aguante a 20 px como el rayo. */
+export function GlyphPerfil({ tamano = 20 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      <circle cx="12" cy="8.4" r="4.3" fill="currentColor" />
+      <path
+        d="M4.2 20.4 C4.2 16.1 7.6 13.6 12 13.6 C16.4 13.6 19.8 16.1 19.8 20.4 Z"
+        fill="currentColor"
+        opacity="0.78"
+      />
+    </svg>
+  );
+}
+
 export function GlyphCandado() {
   return (
     <svg width="19" height="19" viewBox="0 0 19 19" aria-hidden>

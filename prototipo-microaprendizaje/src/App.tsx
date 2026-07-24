@@ -21,15 +21,15 @@ import { Perfil } from "./Perfil";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import {
   GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart,
-  GlyphLibros, GlyphRayo, GlyphShare,
+  GlyphLibros, GlyphPerfil, GlyphRayo, GlyphShare,
 } from "./glyphs";
 
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto"
   | "shorts" | "short" | "perfil";
 
-/** Las dos pestañas raíz. Solo estas dos enseñan la barra de abajo. */
-const CON_BARRA: Pantalla[] = ["inicio", "shorts"];
+/** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
+const CON_BARRA: Pantalla[] = ["inicio", "shorts", "perfil"];
 
 /** Racha de ejemplo del prototipo. */
 const RACHA = 3;
@@ -168,8 +168,8 @@ export default function App() {
 
         <BarraPestanas
           visible={CON_BARRA.includes(pantalla)}
-          activa={pantalla === "shorts" ? "shorts" : "libros"}
-          onIr={(t) => setPantalla(t === "shorts" ? "shorts" : "inicio")}
+          activa={pantalla === "shorts" ? "shorts" : pantalla === "perfil" ? "perfil" : "libros"}
+          onIr={(t) => setPantalla(t === "libros" ? "inicio" : t)}
         />
       </div>
     </div>
@@ -180,7 +180,7 @@ export default function App() {
    La barra de pestañas
    ========================================================================== */
 
-type Tab = "libros" | "shorts";
+type Tab = "libros" | "shorts" | "perfil";
 
 /**
  * Solo aparece en las dos pantallas raíz: dentro de un libro, de un capítulo o
@@ -200,6 +200,7 @@ function BarraPestanas({
   const tabs: { id: Tab; nombre: string; Icono: (p: { tamano?: number }) => ReactElement }[] = [
     { id: "libros", nombre: "Libros", Icono: GlyphLibros },
     { id: "shorts", nombre: "Shorts", Icono: GlyphRayo },
+    { id: "perfil", nombre: "Perfil", Icono: GlyphPerfil },
   ];
 
   return (
