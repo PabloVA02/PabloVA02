@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { animate, motion, useReducedMotion } from "framer-motion";
-import { spring, springPop, springSoft } from "./motion";
+import { spring, springPop, springSoft, springTight } from "./motion";
 
 /* ==========================================================================
    Cierre de capítulo: tiempo, racha y reto diario.
@@ -16,78 +16,57 @@ import { spring, springPop, springSoft } from "./motion";
    ------------------------------------------------------------------------- */
 
 export function Llama({ tamano = 108, reducido }: { tamano?: number; reducido: boolean }) {
-  const ondear = (d: number, retardo: number, amplitud: number) =>
-    reducido
-      ? {}
-      : {
-          animate: {
-            scaleY: [1, 1 + amplitud, 1 - amplitud * 0.6, 1],
-            scaleX: [1, 1 - amplitud * 0.5, 1 + amplitud * 0.4, 1],
-            y: [0, -amplitud * 6, 0, 0],
-          },
-          transition: { duration: d, delay: retardo, repeat: Infinity, ease: "easeInOut" as const },
-        };
-
   return (
-    <svg width={tamano} height={tamano * 1.18} viewBox="0 0 100 118" aria-hidden>
-      {/* Halo: late más despacio que la llama */}
-      <motion.ellipse
-        cx="50"
-        cy="72"
-        rx="42"
-        ry="44"
-        fill="var(--clay)"
-        opacity="0.16"
-        animate={reducido ? {} : { scale: [1, 1.09, 1], opacity: [0.12, 0.22, 0.12] }}
-        transition={reducido ? {} : { duration: 2.9, repeat: Infinity, ease: "easeInOut" }}
-        style={{ originX: "50px", originY: "72px" }}
-      />
+    <svg width={tamano} height={tamano * 1.12} viewBox="0 0 200 224" aria-hidden>
+      {/* Chispas sueltas: entran las últimas y flotan a ritmos distintos */}
+      {[
+        { cx: 92, cy: 18, r: 7, d: 0 },
+        { cx: 148, cy: 46, r: 5.5, d: 0.7 },
+        { cx: 56, cy: 62, r: 6, d: 1.4 },
+      ].map((c) => (
+        <motion.circle
+          key={c.cx}
+          cx={c.cx}
+          cy={c.cy}
+          r={c.r}
+          fill="var(--fuego)"
+          animate={reducido ? {} : { y: [0, -7, 0], opacity: [0.75, 1, 0.75] }}
+          transition={
+            reducido ? {} : { duration: 2.4 + c.d, delay: c.d, repeat: Infinity, ease: "easeInOut" }
+          }
+        />
+      ))}
 
-      {/* Llama exterior */}
-      <motion.g {...ondear(2.3, 0, 0.055)} style={{ originX: "50px", originY: "112px" }}>
+      {/* Llama exterior: silueta rellena con contorno grueso, como en la
+          referencia. El contorno es lo que le da carácter de pegatina. */}
+      <motion.g
+        style={{ originX: "100px", originY: "214px" }}
+        animate={reducido ? {} : { scaleY: [1, 1.045, 0.985, 1], scaleX: [1, 0.975, 1.02, 1] }}
+        transition={reducido ? {} : { duration: 2.6, repeat: Infinity, ease: "easeInOut" }}
+      >
         <path
-          d="M50 6 C 64 30, 86 44, 86 70 C 86 94, 70 112, 50 112 C 30 112, 14 94, 14 70 C 14 48, 30 40, 36 22 C 40 38, 46 44, 50 6 Z"
-          fill="var(--clay)"
-          stroke="var(--ink)"
-          strokeWidth="3"
+          d="M 104 30 C 128 62, 168 88, 168 138 C 168 182, 138 212, 100 212 C 62 212, 32 182, 32 138 C 32 104, 54 88, 66 60 C 70 84, 82 92, 88 96 C 88 72, 94 48, 104 30 Z"
+          fill="var(--fuego)"
+          stroke="var(--fuego-trazo)"
+          strokeWidth="9"
           strokeLinejoin="round"
         />
       </motion.g>
 
-      {/* Llama interior: otro ritmo, para que no vayan a la vez */}
-      <motion.g {...ondear(1.7, 0.35, 0.08)} style={{ originX: "50px", originY: "112px" }}>
+      {/* Llama interior, a otro ritmo para que no vayan sincronizadas */}
+      <motion.g
+        style={{ originX: "100px", originY: "208px" }}
+        animate={reducido ? {} : { scaleY: [1, 1.09, 0.96, 1] }}
+        transition={reducido ? {} : { duration: 1.7, delay: 0.4, repeat: Infinity, ease: "easeInOut" }}
+      >
         <path
-          d="M50 34 C 60 52, 72 60, 72 78 C 72 96, 62 108, 50 108 C 38 108, 28 96, 28 78 C 28 62, 40 54, 50 34 Z"
-          fill="var(--ochre)"
+          d="M 106 104 C 118 126, 134 138, 134 160 C 134 184, 118 200, 100 200 C 82 200, 66 184, 66 160 C 66 142, 80 134, 86 118 C 88 132, 94 138, 98 142 C 96 128, 100 114, 106 104 Z"
+          fill="none"
+          stroke="var(--fuego-trazo)"
+          strokeWidth="9"
+          strokeLinejoin="round"
         />
       </motion.g>
-
-      {/* Núcleo */}
-      <motion.g {...ondear(1.25, 0.7, 0.1)} style={{ originX: "50px", originY: "110px" }}>
-        <path
-          d="M50 62 C 56 74, 62 78, 62 88 C 62 99, 56 106, 50 106 C 44 106, 38 99, 38 88 C 38 78, 44 74, 50 62 Z"
-          fill="#f6dd8a"
-        />
-      </motion.g>
-
-      {/* Chispas que suben y se apagan */}
-      {[
-        { x: 26, d: 0, dur: 2.6 },
-        { x: 74, d: 0.9, dur: 3.1 },
-        { x: 62, d: 1.7, dur: 2.2 },
-      ].map((c) => (
-        <motion.circle
-          key={c.x}
-          cx={c.x}
-          cy="60"
-          r="2.6"
-          fill="var(--ochre)"
-          animate={reducido ? { opacity: 0 } : { y: [-2, -34], opacity: [0, 0.9, 0], scale: [0.5, 1, 0.4] }}
-          transition={
-            reducido ? {} : { duration: c.dur, delay: c.d, repeat: Infinity, ease: "easeOut" }
-          }
-        />
-      ))}
     </svg>
   );
 }
@@ -96,80 +75,133 @@ export function Llama({ tamano = 108, reducido }: { tamano?: number; reducido: b
    Pantalla de racha
    ------------------------------------------------------------------------- */
 
-const DIAS = ["L", "M", "X", "J", "V", "S", "D"];
+const ABREV = ["Do", "Lu", "Ma", "Mi", "Ju", "Vi", "Sá"];
+
+/**
+ * Las tres próximas jornadas de estudio saltándose el fin de semana: el
+ * objetivo es que la racha no se rompa por descansar el sábado.
+ */
+function jornadas(desde: Date) {
+  const dias: Date[] = [];
+  const cursor = new Date(desde);
+  while (dias.length < 3) {
+    const d = cursor.getDay();
+    if (d !== 0 && d !== 6) dias.push(new Date(cursor));
+    cursor.setDate(cursor.getDate() + 1);
+  }
+  return dias;
+}
 
 export function Racha({ dias, onContinuar }: { dias: number; onContinuar: () => void }) {
   const reducido = useReducedMotion();
-  const hoy = Math.min(dias - 1, DIAS.length - 1);
+  const [numero, setNumero] = useState(0);
+  const proximas = jornadas(new Date());
+
+  // El número sube contando: llegar de golpe al total se siente plano.
+  useEffect(() => {
+    const control = animate(0, dias, {
+      duration: 0.7,
+      delay: 0.45,
+      ease: "easeOut",
+      onUpdate: (v) => setNumero(Math.round(v)),
+    });
+    return () => control.stop();
+  }, [dias]);
 
   return (
     <motion.div
-      className="cierre"
+      className="racha"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: spring }}
       exit={{ opacity: 0, transition: { duration: 0.2 } }}
     >
-      <div className="racha-dias">
-        {DIAS.map((d, i) => {
-          const cumplido = i <= hoy;
-          const esHoy = i === hoy;
-          return (
-            <motion.div
-              key={d}
-              className="racha-dia"
-              data-hoy={esHoy}
-              initial={{ opacity: 0, y: 14 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ ...spring, delay: 0.1 + i * 0.05 }}
-            >
-              <span className="racha-letra">{d}</span>
-              <div className="racha-marca">
-              {esHoy ? (
-                <motion.div
-                  className="racha-marco"
-                  initial={{ scale: 0.6, opacity: 0 }}
-                  animate={{ scale: 1, opacity: 1 }}
-                  transition={{ ...springPop, delay: 0.42 }}
-                >
-                  <Llama tamano={38} reducido={!!reducido} />
-                </motion.div>
-              ) : (
-                <div className="racha-punto" data-cumplido={cumplido} />
-              )}
-              </div>
-            </motion.div>
-          );
-        })}
-      </div>
-
-      <motion.h2
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ ...spring, delay: 0.5 }}
-      >
-        ¡Racha de {dias} {dias === 1 ? "día" : "días"}!
-      </motion.h2>
-      <motion.p
-        className="cierre-sub"
-        initial={{ opacity: 0, y: 14 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ ...spring, delay: 0.58 }}
-      >
-        Completa un capítulo cada día para mantenerla.
-      </motion.p>
-
-      <div className="cierre-cta">
-        <motion.button
-          className="primary-btn"
-          onClick={onContinuar}
-          whileTap={{ scale: 0.97 }}
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...spring, delay: 0.68 }}
+      <div className="racha-centro">
+        {/* La llama cae con rebote: es el golpe de efecto de la pantalla */}
+        <motion.div
+          initial={{ opacity: 0, y: -60, scale: 0.5 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={reducido ? { duration: 0.01 } : { type: "spring", stiffness: 300, damping: 16, mass: 1.1 }}
         >
-          Continuar
-        </motion.button>
+          <Llama tamano={168} reducido={!!reducido} />
+        </motion.div>
+
+        <motion.p
+          className="racha-numero"
+          initial={{ opacity: 0, scale: 0.4 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={reducido ? { duration: 0.01 } : { ...springPop, delay: 0.4 }}
+        >
+          {numero}
+        </motion.p>
+
+        <motion.p
+          className="racha-rotulo"
+          initial={{ opacity: 0, y: 14 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...spring, delay: 0.55 }}
+        >
+          {dias === 1 ? "Racha de días" : "Días de racha"}
+        </motion.p>
+
+        <div className="racha-jornadas">
+          {proximas.map((fecha, i) => (
+            <motion.div
+              key={fecha.toDateString()}
+              className="jornada"
+              initial={{ opacity: 0, y: 18 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ ...spring, delay: 0.68 + i * 0.07 }}
+            >
+              <span className="jornada-letra">{ABREV[fecha.getDay()]}</span>
+              <motion.span
+                className="jornada-circulo"
+                data-hecho={i === 0}
+                initial={{ scale: 0.6 }}
+                animate={{ scale: 1 }}
+                transition={{ ...springPop, delay: 0.72 + i * 0.07 }}
+              >
+                {i === 0 && (
+                  <motion.svg width="26" height="26" viewBox="0 0 26 26" aria-hidden>
+                    <motion.path
+                      d="M 6 13.5 L 11 18.5 L 20 8"
+                      fill="none"
+                      stroke="var(--fuego-trazo)"
+                      strokeWidth="3.4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      initial={{ pathLength: 0 }}
+                      animate={{ pathLength: 1 }}
+                      transition={reducido ? { duration: 0.01 } : { ...springTight, delay: 1 }}
+                    />
+                  </motion.svg>
+                )}
+              </motion.span>
+            </motion.div>
+          ))}
+        </div>
+
+        <motion.p
+          className="racha-mensaje"
+          initial={{ opacity: 0, y: 14 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...spring, delay: 0.95 }}
+        >
+          {dias === 1
+            ? "Primer día hecho. Racha encendida. Findes libres."
+            : `${dias} días seguidos. No la rompas ahora.`}
+        </motion.p>
       </div>
+
+      <motion.button
+        className="racha-boton"
+        onClick={onContinuar}
+        whileTap={{ scale: 0.97 }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ ...spring, delay: 1.1 }}
+      >
+        ¡Vamos!
+      </motion.button>
     </motion.div>
   );
 }

@@ -31,6 +31,11 @@
   /* El fondo de los planos de noche */
   --night: #272031;
 
+  /* Pantalla de racha: casi negro y el naranja del fuego */
+  --carbon: #0e0e16;
+  --fuego: #f4805e;
+  --fuego-trazo: #14141f;
+
   /* Tintes derivados, para relleno amplio sin ensuciar la paleta */
   --clay-veil: #e8cec1;
   --ochre-veil: #eddcc0;
@@ -1529,4 +1534,107 @@ button {
   font-weight: 620;
   color: var(--ink-soft);
   padding: 4px 8px;
+}
+
+
+/* --------------------------------------------------------------------------
+   Pantalla de racha
+
+   Casi negro y un solo color: el fuego. Todo lo demás es tipografía. Es la
+   pantalla más corta de la app y la que más tiene que gustar, así que no
+   compite nada con la llama.
+   -------------------------------------------------------------------------- */
+
+.racha {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--carbon);
+  color: #ffffff;
+  margin-top: -46px;
+  padding: 46px 26px 26px;
+}
+
+.racha-centro {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.racha-numero {
+  margin: 6px 0 0;
+  font-size: 96px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  color: var(--fuego);
+  font-variant-numeric: tabular-nums;
+}
+
+.racha-rotulo {
+  margin: 8px 0 0;
+  font-size: 26px;
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  color: var(--fuego);
+}
+
+.racha-jornadas {
+  display: flex;
+  gap: 22px;
+  margin-top: 34px;
+}
+
+.jornada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.jornada-letra {
+  font-size: 17px;
+  font-weight: 750;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+.jornada-circulo {
+  width: 58px;
+  height: 58px;
+  border-radius: 999px;
+  background: #22222e;
+  display: grid;
+  place-items: center;
+}
+.jornada-circulo[data-hecho="true"] { background: var(--fuego); }
+
+.racha-mensaje {
+  margin: 38px 0 0;
+  font-size: 17px;
+  line-height: 1.42;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  max-width: 24ch;
+  text-wrap: balance;
+}
+
+.racha-boton {
+  flex: none;
+  width: 100%;
+  height: 58px;
+  border-radius: 999px;
+  background: #f3f1ee;
+  color: var(--fuego-trazo);
+  font-size: 17px;
+  font-weight: 750;
+  letter-spacing: -0.01em;
+  display: grid;
+  place-items: center;
 }
