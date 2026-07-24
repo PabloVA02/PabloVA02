@@ -1031,3 +1031,39 @@ button {
 .detalle-pie .primary-btn { background: var(--ink); color: var(--paper); }
 
 .lesson-head .icon-btn:disabled { opacity: 0.3; }
+
+/* Ajustes para acercar la ficha y el inicio a la referencia */
+
+.ficha-sub {
+  margin: 0 0 7px;
+  font-size: 12.5px;
+  line-height: 1.32;
+  color: rgba(242, 236, 225, 0.78);
+}
+
+.bloque-cabecera {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 var(--shell-pad);
+}
+.bloque-cabecera h2,
+.bloque-cabecera .bloque-sub { padding: 0; }
+
+.btn-gestionar {
+  flex: none;
+  margin-top: 2px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(242, 236, 225, 0.12);
+  color: var(--paper);
+  font-size: 13.5px;
+  font-weight: 620;
+}
+
+/* Las acciones van a la izquierda, como en la referencia */
+.detalle-acciones {
+  justify-content: flex-start;
+  padding: 0 var(--shell-pad);
+}

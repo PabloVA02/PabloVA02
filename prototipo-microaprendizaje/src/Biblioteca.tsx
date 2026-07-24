@@ -26,6 +26,9 @@ export type Libro = {
   id: string;
   titulo: string;
   autor: string;
+  /** Línea corta bajo el autor, como en las fichas de la referencia. */
+  subtitulo: string;
+  /** Párrafo breve de «Lo que vas a aprender». Dos líneas, no una lista. */
   gancho: string;
   categoria: string;
   color: string;
@@ -33,7 +36,6 @@ export type Libro = {
   vb: string;
   /** 0 a 1. Si es mayor que 0, el libro aparece en «Retomar». */
   progreso: number;
-  aprender?: string[];
   coleccion?: string;
   /** Solo el capítulo de Alejandría es jugable en este prototipo. */
   jugable?: boolean;
@@ -44,26 +46,22 @@ export const LIBROS: Libro[] = [
     id: "alejandria",
     titulo: "La Biblioteca de Alejandría",
     autor: "Historia del conocimiento",
-    gancho: "Qué intentaba reunir Alejandría, cómo lo conseguía y por qué lo del gran incendio es, en buena parte, un mito.",
+    subtitulo: "La biblioteca que quiso tenerlo todo",
+    gancho: "¿Se quemó en una noche? La verdad es más lenta y más incómoda: qué reunió Alejandría, cómo lo consiguió y por qué lo perdimos.",
     categoria: "Historia",
     color: "var(--clay)",
     Arte: Estanteria,
     vb: EstanteriaVB,
     progreso: 0,
     coleccion: "Grandes pérdidas de la humanidad",
-    aprender: [
-      "Qué intentaba hacer exactamente Alejandría con los libros del mundo.",
-      "Cómo conseguían los rollos: el método era más agresivo de lo que parece.",
-      "Por qué la idea del gran incendio es, en buena parte, un mito.",
-      "Qué determina de verdad que un texto sobreviva veinte siglos.",
-    ],
     jugable: true,
   },
   {
     id: "sofocles",
     titulo: "Lo que perdimos de Grecia",
     autor: "Literatura clásica",
-    gancho: "De la mayoría de los trágicos griegos solo conservamos títulos. Esta es la historia de ese vacío.",
+    subtitulo: "De 120 obras quedan 7",
+    gancho: "De la mayoría de los trágicos griegos solo conservamos el título. Esta es la historia de ese vacío y de quién decidió qué se copiaba.",
     categoria: "Literatura",
     color: "var(--plum)",
     Arte: PensarArte,
@@ -74,7 +72,8 @@ export const LIBROS: Libro[] = [
     id: "memoria",
     titulo: "Cómo recuerda el cerebro",
     autor: "Ciencia cognitiva",
-    gancho: "Por qué olvidas casi la mitad de lo que aprendes en la primera hora, y qué se puede hacer al respecto.",
+    subtitulo: "Por qué olvidas casi todo",
+    gancho: "Olvidas la mitad de lo aprendido en la primera hora. Esto explica la curva y qué hacer para aplanarla.",
     categoria: "Ciencia",
     color: "var(--sage)",
     Arte: Memoria,
@@ -85,7 +84,8 @@ export const LIBROS: Libro[] = [
     id: "mapas",
     titulo: "Los mapas que inventaron el mundo",
     autor: "Historia de la cartografía",
-    gancho: "Durante siglos, el mapa no describía el mundo: lo decidía.",
+    subtitulo: "Cuando el mapa decidía el mundo",
+    gancho: "Durante siglos el mapa no describía la realidad: la imponía. Fronteras, imperios y monstruos dibujados a conveniencia.",
     categoria: "Historia",
     color: "var(--slate)",
     Arte: MapaAventura,
@@ -96,7 +96,8 @@ export const LIBROS: Libro[] = [
     id: "noche",
     titulo: "Historia de la noche",
     autor: "Vida cotidiana",
-    gancho: "Antes de la luz eléctrica, la humanidad dormía en dos turnos. Y nadie lo recuerda.",
+    subtitulo: "Dormíamos en dos turnos",
+    gancho: "Antes de la luz eléctrica la humanidad dormía en dos tandas, con un rato despierto en medio. Y lo olvidamos por completo.",
     categoria: "Historia",
     color: "var(--ochre)",
     Arte: LuzLuna,
@@ -107,7 +108,8 @@ export const LIBROS: Libro[] = [
     id: "escuela",
     titulo: "Cómo aprendimos a aprender",
     autor: "Historia de la educación",
-    gancho: "La escuela tal y como la conoces tiene menos de dos siglos. Antes se aprendía de otra manera.",
+    subtitulo: "La escuela es más nueva de lo que crees",
+    gancho: "El aula con pupitres y horarios tiene menos de dos siglos. Antes se aprendía de maneras que hoy sorprenden.",
     categoria: "Educación",
     color: "var(--plum-light)",
     Arte: Aprendizaje,
@@ -118,7 +120,8 @@ export const LIBROS: Libro[] = [
     id: "descubrir",
     titulo: "El azar en los grandes hallazgos",
     autor: "Historia de la ciencia",
-    gancho: "La penicilina, el horno microondas, el pósit. Lo que se encontró buscando otra cosa.",
+    subtitulo: "Los hallazgos que nadie buscaba",
+    gancho: "Penicilina, microondas, pósit. Lo que se encontró buscando otra cosa, y qué tienen todos en común.",
     categoria: "Ciencia",
     color: "var(--sage)",
     Arte: Descubrir,
@@ -182,6 +185,7 @@ function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; 
       </div>
       <p className="ficha-titulo">{libro.titulo}</p>
       <p className="ficha-autor">{libro.autor}</p>
+      <p className="ficha-sub">{libro.subtitulo}</p>
       <span className="chip-cat" style={{ borderColor: libro.color, color: libro.color }}>
         {libro.categoria}
       </span>
@@ -251,8 +255,13 @@ export function Inicio({
         </motion.button>
 
         <section className="bloque">
-          <h2>Recomendados para ti</h2>
-          <p className="bloque-sub">Creemos que estos te van a gustar</p>
+          <div className="bloque-cabecera">
+            <div>
+              <h2>Recomendados para ti</h2>
+              <p className="bloque-sub">Creemos que estos te van a gustar</p>
+            </div>
+            <button className="btn-gestionar" type="button">Gestionar</button>
+          </div>
           <div className="carrusel">
             {recomendados.map((l, i) => (
               <FichaLibro key={l.id} libro={l} i={i} onAbrir={() => onAbrir(l)} />
@@ -365,20 +374,7 @@ export function DetalleLibro({
 
         <motion.section custom={6} variants={enterVariants} initial="hidden" animate="shown">
           <h2 className="detalle-seccion">Lo que vas a aprender</h2>
-          {libro.aprender ? (
-            <ul className="detalle-lista">
-              {libro.aprender.map((linea, i) => (
-                <li key={linea}>
-                  <span className="lista-punto" style={{ background: libro.color }}>
-                    {i + 1}
-                  </span>
-                  {linea}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p className="detalle-parrafo">{libro.gancho}</p>
-          )}
+          <p className="detalle-parrafo">{libro.gancho}</p>
         </motion.section>
 
         {libro.coleccion && (
