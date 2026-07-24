@@ -1,12 +1,20 @@
 # Prototipo de microaprendizaje
 
-Lección en tarjetas deslizables al estilo de las apps de aprendizaje visual.
+App de aprendizaje visual en tarjetas deslizables. Recorrido completo:
+**introducción → biblioteca → ficha del libro → camino de capítulos → lectura
+→ racha**.
+
 Capítulo de ejemplo: **La Biblioteca de Alejandría**, 18 tarjetas, unos 5
 minutos de lectura.
 
 React 19 · TypeScript · Vite · Framer Motion
 
-## Arrancar
+## Verlo sin instalar nada
+
+Abre **`demo.html`** en el navegador. Es la app entera empaquetada en un solo
+fichero, dentro de un marco de móvil. No necesita servidor ni conexión.
+
+## Arrancar en desarrollo
 
 ```bash
 npm install
@@ -23,13 +31,18 @@ npm run build     # tsc --noEmit + vite build
 
 | Fichero | Qué resuelve |
 |---|---|
+| `src/App.tsx` | Máquina de estados del recorrido y la lectura de tarjetas. |
+| `src/Onboarding.tsx` | Las doce pantallas de introducción, con entrada por partes. |
+| `src/Biblioteca.tsx` | Inicio con las fichas de libros y la ficha de un libro. |
+| `src/Camino.tsx` | El camino de capítulos: serpiente vertical de nodos. |
 | `src/lesson.ts` | Contenido del capítulo. Cada tarjeta declara su **forma** y la forma manda sobre la maquetación. |
 | `src/motion.ts` | Presets de muelle y bucles de reposo. No hay un solo easing lineal fuera de los bucles. |
 | `src/Scene.tsx` | Ilustración por capas de profundidad, con entrada escalonada. |
 | `src/Graficos.tsx` | Los cuatro gráficos de datos. |
-| `src/Racha.tsx` | Cierre: racha con llama animada y reto diario. |
+| `src/Racha.tsx` | Cierre: racha con la llama como protagonista, y reto diario. |
 | `src/undraw.tsx` | **Generado.** No editar a mano. |
 | `scripts/convertir.mjs` | Genera `undraw.tsx` a partir de los SVG de unDraw. |
+| `scripts/medir.mjs` | Calcula el encuadre real de cada SVG con `getBBox`. |
 
 ## Sistema de animación
 
