@@ -1,6 +1,8 @@
 import { MEDITACIONES } from "./meditaciones";
 import { SAPIENS } from "./sapiens";
 import { MIL_NOVECIENTOS_OCHENTA_Y_CUATRO } from "./1984";
+import { HABITOS_ATOMICOS } from "./habitos-atomicos";
+import { PSICOLOGIA_DINERO } from "./psicologia-dinero";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
 
@@ -17,6 +19,8 @@ export const RESUMENES: Record<string, Resumen> = {
   meditaciones: MEDITACIONES,
   sapiens: SAPIENS,
   "1984": MIL_NOVECIENTOS_OCHENTA_Y_CUATRO,
+  "habitos-atomicos": HABITOS_ATOMICOS,
+  "psicologia-dinero": PSICOLOGIA_DINERO,
 };
 
 export function comprobar() {
