@@ -633,3 +633,554 @@ export const LEONARDO: Resumen = {
     },
   ],
 };
+
+export const CARTAS_JOVEN_POETA: Resumen = {
+  id: "cartas-joven-poeta",
+  titulo: "Cartas a un joven poeta",
+  autor: "Rainer Maria Rilke",
+  ano: 1929,
+  gancho: "Un cadete de diecinueve años pregunta si sus poemas son buenos. Rilke le contesta diez veces en cinco años y no comenta ni un solo verso.",
+  porQue:
+    "Es el libro más citado del mundo sobre vocación, y casi todo lo que se cita de él está cortado justo donde dejaba de ser cómodo.",
+  partes: [
+    {
+      titulo: "El cadete que escribió primero",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Otoño de 1902. Un cadete de diecinueve años está sentado bajo los castaños del parque de la Academia Militar Teresiana de Wiener Neustadt, a cincuenta kilómetros de Viena, leyendo un libro que no toca. Se llama Franz Xaver Kappus. Debería estar estudiando reglamento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se le acerca el capellán de la academia, el profesor Horaček, y le pregunta qué lee. Kappus le enseña la cubierta: poemas de un tal Rainer Maria Rilke. El cura se queda mirando ese nombre durante un rato largo antes de decir nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le cuenta que a ese chico lo tuvo él de alumno quince años antes, en la escuela militar de Sankt Pölten. Que era pálido, callado y muy dotado. Que su padre quería hacerlo oficial a toda costa. Que se marchó enfermo a los quince y no volvió nunca.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué le escribe",
+          frase: "Rilke había llevado el mismo uniforme, en la misma clase de sitio, y había conseguido salir. Kappus no escribe a un poeta famoso: escribe a alguien que se escapó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kappus iba para oficial porque su familia lo había decidido, y escribía versos a escondidas entre guardias. Esa tarde hizo lo que hace todo el mundo a esa edad: copió sus mejores poemas, escribió una carta y la mandó a París sin esperar respuesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la carta preguntaba lo único que le importaba: si sus poemas valían algo. Y colaba una segunda pregunta, más difícil de formular: si debía ser poeta o debía ser oficial, porque las dos cosas a la vez no parecían caber en una sola vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta llegó de París el 17 de febrero de 1903. La firmaba un hombre de veintisiete años que no tenía dinero, ni casa propia, ni todavía la obra por la que hoy se le conoce. Rilke aún no había escrito casi nada de lo que se cita de él.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso importa para leer el libro sin ingenuidad. No es un maestro consagrado bajando a aconsejar a un principiante. Son dos jóvenes, uno de diecinueve y otro de veintisiete, y el mayor está casi tan perdido como el otro; solo que ha decidido no disimularlo.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rilke empieza pidiendo perdón por tardar. Dice que ha estado enfermo y de viaje, y que las cartas así no se contestan deprisa. En la primera línea ya ha dejado puesta la única regla del libro entero: aquí no se va con prisa a ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces hace lo que nadie espera. No habla de los poemas. Los ha leído, dice que se los devuelve adjuntos, y despacha el juicio en dos frases corteses: no son todavía nada propio, se le nota buscándose, algo se anuncia tímidamente en los últimos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es todo lo que dirá sobre los versos de Kappus en diez cartas y cinco años. Ni una corrección, ni un consejo técnico, ni una lectura línea a línea. El texto más citado del mundo sobre escribir no comenta jamás un texto concreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo dice sin rodeos: usted pregunta si sus versos son buenos. Me lo pregunta a mí; antes se lo ha preguntado a otros. Los manda a las revistas. Los compara con otros poemas y se inquieta cuando alguna redacción se los devuelve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a continuación desmonta la pregunta entera con seis palabras: nadie puede aconsejarle ni ayudarle, nadie. Solo hay un camino, y consiste en entrar dentro de usted mismo. Ahí se acaba el asunto de la calidad de los poemas y empieza el libro de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene saber desde dónde escribe. París, invierno, una habitación alquilada. Había llegado el año anterior para redactar un ensayo sobre Rodin y estaba pasando hambre y miedo en una ciudad que le parecía una máquina enorme de triturar gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribiría después que en aquellos meses París le enseñó el miedo, los hospitales y las caras de la calle. Todo eso acabó en la novela que empezó allí, «Los cuadernos de Malte Laurids Brigge». Las cartas a Kappus salen del mismo cuarto y de la misma temporada mala.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que cuando le dice al cadete que la soledad es el estado natural del que trabaja, no está recomendando algo cómodo desde un sillón. Está describiendo lo que tiene delante, lo que le da pánico y lo que ha decidido no esquivar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay una imagen que aparece pronto y que ordena las diez cartas: la obra crece como un árbol, no como un edificio. No se levanta por partes dentro de un plazo. Se hace por dentro, sin que se vea nada, y a la savia no se le puede meter prisa.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kappus contesta. Y otra vez. Y así diez cartas entre 1903 y 1908, escritas desde París, desde Viareggio, desde Worpswede, desde Roma y desde dos casas de campo en Suecia. Rilke no para quieto en cinco años y no deja una sola sin contestar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo más raro del libro es que las cartas de Kappus no se conservan. Solo tenemos un lado de la conversación, y aun así se sigue perfectamente lo que preguntaba: por los poemas, por la carrera militar, por el sexo, por la duda, por una tristeza que no sabía explicar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se adivina a un chaval de diecinueve años en un cuartel preguntándole a un desconocido si su vida va a servir para algo. Y a un hombre de veintisiete contestándole con muchísimo cuidado, porque se acuerda demasiado bien de ese uniforme.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Nadie puede aconsejarle",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La primera carta contiene la instrucción más famosa del libro y también la peor entendida. Rilke le pide a Kappus que se meta dentro de sí mismo y examine el fondo del que le brota la vida, porque en ese manantial está la respuesta a si debe escribir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le da la prueba concreta, que es lo que ha hecho durar la página un siglo: pregúntese en la hora más callada de su noche si tiene usted que escribir. Excave en busca de una respuesta profunda. Y si es que sí, construya su vida entera según esa necesidad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El cambio de pregunta",
+          frase: "La pregunta no es «¿soy bueno?». Es «¿tengo que hacerlo?». Rilke sustituye el criterio de calidad por el de necesidad, y por eso el libro sirve para cualquier oficio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo importante es la mitad que casi nunca se cita. Rilke añade que si de ese examen sale que no tiene que escribir, entonces que lo deje sin dramatizar. La prueba sirve exactamente igual para decir que sí y para decir que no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso lo separa de la autoayuda. Un libro de autoayuda le habría dicho persigue tu sueño. Rilke le está diciendo averigüe si es su sueño de verdad, contando con la posibilidad real de que la respuesta sea que no y con que eso estaría bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después viene el aviso sobre los demás. Le pide que deje de mandar versos a las revistas y de compararse. Que no mire lo que hacen los otros ni lo que dicen de él, porque el juicio de fuera llega siempre antes de tiempo y le va a estropear el oído.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le prohíbe algo que hoy sonaría a herejía: leer crítica literaria. Dice que son o comentarios de partido, endurecidos y sin sentido, o juegos de palabras hábiles. Que las obras de arte son de una soledad infinita y que con la crítica no se llega hasta ellas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su alternativa es una frase que se queda pegada: solo el amor puede captarlas, sostenerlas y ser justo con ellas. No dice comprenderlas. Dice ser justo con ellas, que es una idea rarísima y bastante más exigente que la de entenderlas.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Luego le quita el tema. Kappus, como todos los que empiezan, escribía de amor. Rilke le contesta que evite los motivos demasiado corrientes, y que el amor es el más difícil de todos porque hay detrás tradiciones enormes y algunas brillantes ya resueltas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le indica dónde mirar en su lugar: si su vida diaria le parece pobre, no la culpe a ella; cúlpese usted, dígase que no es bastante poeta para invocar sus riquezas, porque para el que crea no hay pobreza ni lugar pobre e indiferente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el mismo párrafo le entrega el material que tiene delante y no ve: aunque estuviera usted en una cárcel cuyas paredes no dejaran llegar a sus sentidos ninguno de los ruidos del mundo, ¿no le quedaría siempre su infancia entera?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La infancia como mina. Es un consejo técnico disfrazado de consuelo, y funciona: casi todo lo que un principiante cree que no da para escribir —su casa, su pueblo, su aburrimiento, su cuartel— es exactamente lo único que tiene de propio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kappus debió de contestar algo sobre su encierro, porque en la segunda carta, desde Viareggio, Rilke vuelve al asunto y lo endurece. Le habla de la ironía, que era el vicio del chico y sigue siendo el vicio de todos los jóvenes listos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le dice que no se deje dominar por ella, sobre todo en los momentos sin creación. En los creativos, que intente usarla como un medio más de agarrar la vida. Usada limpiamente, es limpia. Y da la regla de aviso: si le resulta demasiado familiar, sospeche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El remedio que propone es de una sensatez brutal: busque la profundidad de las cosas, porque ahí abajo la ironía no baja nunca. Si por el camino descubre que es un recurso grande, úsela sin miedo; si no lo es, se le caerá sola de las manos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le manda leer solo dos libros: la Biblia y a Jens Peter Jacobsen, un novelista danés casi desconocido hoy. No le recomienda a los grandes ni a los de moda. Le recomienda al autor que a él le cambió la cabeza, y sin pretender que le valga a todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También le habla del dinero, que es la parte que nunca se cita. Kappus tenía que elegir entre el ejército y algo incierto, y esperaba que el poeta le dijera que se lanzara. Rilke no le dice en ningún momento que abandone el uniforme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le dice que una profesión cualquiera, aunque sea dura y hostil, no le impedirá vivir lo suyo, porque todas lo son; y que quizá un oficio duro le convenga más a un solitario que uno artístico, que tiene la trampa de parecer que ya es arte por sí mismo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese consejo desaparece de todas las ediciones de frases bonitas, y es de lo más honesto que hay aquí: no dejes tu trabajo. Lo escribe un hombre que en ese momento vivía de la generosidad de aristócratas y sabía perfectamente lo que costaba lo contrario.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al final de esa carta hay una línea que ordena las ocho siguientes. Le pide que no se busque a sí mismo en ellas, que no las conteste con prisa y que no le agradezca nada. Y le pide una sola cosa a cambio, que es la palabra que más repite el libro: paciencia.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Vivir las preguntas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La cuarta carta está escrita el 16 de julio de 1903 desde Worpswede, una colonia de pintores en un páramo cerca de Bremen. Rilke había vivido allí, allí conoció a la escultora Clara Westhoff, con la que se casó, y había vuelto solo. Es la carta central del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kappus le había escrito angustiado. Se deduce por la respuesta: dudas sobre su vocación, sobre su cuerpo y sobre por qué estaba triste sin motivo. Rilke, en lugar de resolverle nada, le explica con todo detalle por qué no piensa resolverle nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y llega el pasaje más citado del siglo, casi siempre cortado por la mitad. Le pide que tenga paciencia con todo lo que está sin resolver en su corazón, y que intente amar las preguntas mismas, como si fueran habitaciones cerradas con llave.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sigue: como libros escritos en un idioma extranjero. Que no busque ahora las respuestas, porque no se las podrían dar, ya que no sería capaz de vivirlas. Y de eso se trata en el fondo, dice: de vivirlo todo, incluida la parte que no se entiende.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase entera",
+          frase: "«Viva ahora las preguntas. Quizá entonces, poco a poco, sin darse cuenta, viva usted algún día lejano la respuesta.» La respuesta no se piensa: se llega a ella viviendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hoy se usa como consuelo, y es lo contrario de un consuelo. Rilke no le está diciendo tranquilo, ya llegará. Le está diciendo que no va a llegar por pensarlo, que le van a hacer falta años de vida y que quizá se le pase la juventud entera dentro de la pregunta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la misma carta hay una idea que sostiene a la anterior y que casi nadie recuerda: que no hay que angustiarse por los estados de tristeza, porque los momentos tristes son precisamente aquellos en los que algo nuevo ha entrado en nosotros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo desarrolla con una imagen doméstica y exacta. Cuando estamos tristes, algo desconocido ha entrado en la casa; nuestros sentidos se callan, todo retrocede unos pasos, y en medio del silencio está eso nuevo que todavía no ha dicho su nombre.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y de ahí saca lo que le interesa: cuanto más callados, pacientes y abiertos estemos en la tristeza, más hondo entra lo nuevo y más nuestro se hace. Es una teoría del duelo escrita a los veintisiete años por un hombre que aún no había perdido casi nada.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esa carta está también la parte incómoda, la que las ediciones de regalo adelgazan: Rilke le habla de sexo a un cadete de veinte años, en 1903, con una franqueza que en aquel momento no era en absoluto habitual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le dice que el placer físico es una experiencia sensorial como mirar o como el sabor de una fruta buena, una experiencia grande y sin límites que se nos ha dado; y que el problema nunca es tenerla, sino el uso torpe que se le da.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le señala dónde está el error de casi todos: la mayoría abusa y malgasta esa experiencia, y la usa como excitación en los puntos cansados de su vida, en vez de como una concentración hacia arriba. Lo dice sin moralina y sin una sola advertencia religiosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después le hace un pronóstico raro: que quizá los sexos estén más emparentados de lo que se cree, y que la gran renovación del mundo consistirá en que el hombre y la mujer, liberados de los papeles falsos, se busquen como seres humanos y no como contrarios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escrito en 1903, eso no era un lugar común. Rilke estaba casado con una escultora que trabajaba, había vivido con Lou Andreas-Salomé, catorce años mayor y más inteligente que casi todos los hombres que trató, y no estaba hablando de oídas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También le manda un aviso sobre la prisa: los jóvenes se equivocan al amar deprisa, porque se lanzan el uno sobre el otro cuando todavía no se sostienen solos, y de esa mezcla no sale una unión sino un desorden compartido y un cansancio doble.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La quinta carta la escribe desde Roma, el 29 de octubre. Confiesa que la ciudad le agobió al llegar: museos, mármoles, la sensación de vivir dentro de un pasado inmenso que no es suyo. Tardó semanas en encontrar un sitio donde ponerse a trabajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle sirve para leer todo lo demás: el hombre que recomienda paciencia está contando a la vez que él no la tiene, que se muda cada pocos meses y que las ciudades le desordenan el trabajo. Estas cartas no están escritas desde arriba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la sexta, ya en diciembre y ya con un cuarto donde puede trabajar, le habla de la Navidad y de por qué las fiestas son duras para los que están solos. Le pide que no espere consuelo de las personas y que lo busque donde de verdad lo tiene, que es en su trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y suelta la frase que resume el libro entero: lo necesario es solo esto, la soledad, la gran soledad interior. Ir hacia dentro y no encontrarse con nadie durante horas. Eso es lo que hay que conseguir, y no se consigue de golpe.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es una idea difícil de vender hoy, y por eso conviene decirla entera. Rilke no está recomendando aislarse por gusto ni desaparecer del mundo. Está diciendo que hay un trabajo que solo se hace cuando no hay nadie mirando, y que aprender a estar así es un oficio.",
+          arte: "noche",
+        },
+      ],
+    },
+
+    {
+      titulo: "Dos soledades",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La séptima carta es de Roma, 14 de mayo de 1904, y es la más larga del libro. Empieza pidiendo disculpas por el silencio de meses y acaba siendo el mejor texto sobre el amor que escribió Rilke, que escribió muchos y casi todos buenos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kappus se había enamorado. La carta responde a eso, y lo primero que hace es quitarle la prisa. Amar es difícil, repite. Para un ser humano, amar a otro es quizá la tarea más difícil que se le ha encomendado, el trabajo para el que todos los demás son preparación.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El orden",
+          frase: "«El amor es una ocasión sublime para que el individuo madure, para que llegue a ser algo por sí mismo, para que se convierta en un mundo.» Primero se es alguien. Después se ama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso los jóvenes se equivocan casi siempre, dice: se entregan porque no soportan estar solos, se mezclan y a eso lo llaman amor. Se prestan el uno al otro sus soledades como quien se presta un abrigo, y luego se extrañan de seguir teniendo frío.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y llega la definición que se sigue leyendo en bodas ciento veinte años después: el amor consiste en esto, en que dos soledades se protejan, se limiten y se saluden. Las tres cosas, y en ese orden exacto. Protegerse, ponerse límite, saludarse.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra que casi nadie oye ahí es la segunda. Limitarse. Rilke está diciendo que en el amor bueno cada uno le pone frontera al otro, y que esa frontera no es un fallo del amor: es la prueba de que hay dos personas y no una masa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la misma carta habla de las mujeres con una idea que en 1904 no era corriente. Dice que la mujer está pasando por un cambio enorme, que dejará de definirse por contraste con el hombre, y que entonces el amor tendrá que reinventarse entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade que ese cambio será duro para los hombres, porque estarán sorprendidos y derrotados, acostumbrados como están a que el papel del otro venga escrito de antemano. Lo escribe un hombre que en ese momento no vivía ni con su mujer ni con su hija.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está la contradicción central del libro y no hay que taparla. Rilke se casó con Clara Westhoff en 1901, tuvieron una hija, Ruth, y menos de un año después él estaba solo en París escribiendo sobre la soledad necesaria del que crea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No la abandonó del todo: siguieron escribiéndose y viéndose, y él sostenía que el buen matrimonio era el que guardaba la soledad de cada uno. Pero quien pagó ese arreglo fue sobre todo ella, que dejó de esculpir durante años. Conviene saberlo al leer lo de las dos soledades.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La octava carta la escribe en agosto, ya desde Suecia, en una casa de campo llamada Borgeby gård. Kappus le ha escrito hundido, sin decir exactamente por qué. Rilke le contesta con la imagen más útil de todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le dice que no se asuste si delante de él se levanta una tristeza más grande que ninguna de las vistas hasta ahora; que recuerde que la vida no lo ha olvidado, que lo tiene en la mano y que no lo dejará caer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y luego la vuelta de tuerca: quizá todos los dragones de nuestra vida sean princesas que solo esperan vernos una vez hermosos y valientes. Quizá todo lo espantoso sea, en su fondo más profundo, algo indefenso que está pidiendo que lo ayudemos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase circula por ahí como decoración de taza, y en su sitio es un método concreto: cuando algo le dé miedo, mírelo el tiempo suficiente para averiguar si le está atacando o le está pidiendo algo. Casi nunca es lo primero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la novena, de noviembre y también sueca, aparece un consejo casi práctico sobre la duda, que Kappus debía de tener a diario en el cuartel. Rilke no le dice que la eche de casa. Le dice que la eduque y le dé un empleo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que su duda puede llegar a ser una buena cualidad si la disciplina. Que cada vez que quiera estropearle algo, le exija pruebas, le pregunte por qué eso es feo, le pida razones. Y que el día que se quede sin argumentos, se le habrá convertido en su mejor colaboradora.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es exactamente lo que hoy llamaríamos convertir la crítica interna en instrumento en vez de en juez. Rilke lo formula en 1904 con una imagen doméstica: dele a la duda un trabajo concreto y dejará de rondar por la casa sin hacer nada y molestando.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entre medias hay un consejo que muchos lectores agradecen más que ningún otro: no se compare. Le pide que no mida su vida por la de los demás ni por los plazos que le ponen, porque las cosas no son ni tan comprensibles ni tan expresables como se nos quiere hacer creer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La última carta es de diciembre de 1908, cuatro años después de la anterior. Rilke ya ha publicado los «Nuevos poemas» y ya no es un desconocido. Es breve, cálida y no contiene un solo consejo nuevo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le dice que se alegra de que su vida tenga ahora una profesión firme y clara, y que precisamente las vidas que parecen más duras por fuera son las que mejor protegen por dentro lo solitario. Y ahí, sin ninguna ceremonia, se acaba la correspondencia.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El libro que hizo el otro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La historia tendría que acabar ahí, y lo interesante es lo que pasó después. Kappus siguió en el ejército. Fue oficial en la Primera Guerra Mundial. Luego trabajó de periodista y escribió novelas de aventuras y guiones de cine. Poeta no llegó a ser.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rilke, en cambio, sí llegó a ser lo que había descrito. Escribió las «Elegías de Duino» y los «Sonetos a Orfeo» en unas pocas semanas de febrero de 1922, después de diez años atascado, en un torreón suizo llamado Muzot que le habían prestado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diez años de bloqueo. Eso también hay que decirlo al leer las cartas: el hombre que escribía sobre la savia y la paciencia estuvo una década sin poder terminar su obra, y la terminó de golpe, en unos días, en una casa que no era suya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió el 29 de diciembre de 1926 en un sanatorio de Val-Mont, en Suiza. Tenía cincuenta y un años. La causa fue una leucemia que le habían diagnosticado muy tarde y de la que apenas habló con nadie.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La leyenda dice que lo mató la espina de una rosa. Se pinchó, es cierto, cortando rosas para una visita, y la herida no cerró. Pero lo que lo mató fue la leucemia; la infección solo fue el último episodio de una enfermedad que ya lo tenía cogido.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres años después de su muerte, en 1929, Kappus reunió las diez cartas que había guardado durante veintiséis años y las publicó con un prólogo suyo. Las tituló «Cartas a un joven poeta». No han dejado de editarse desde entonces en ningún idioma.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La obra de Kappus",
+          frase: "El joven poeta no llegó a poeta. Su única obra maestra es un libro que no escribió: guardó, escogió y publicó las cartas de otro. Y es, con diferencia, lo mejor que hizo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el prólogo dice algo que da la medida del hombre. Explica que sus propias cartas no importan y que publica solo las de Rilke porque, donde un grande y único habla, los pequeños debemos callar. Y se borra del libro a propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso solo tenemos un lado. Nunca sabremos qué preguntó exactamente, ni cómo eran los poemas que mandó, ni qué sintió al leer que no eran todavía nada propio. Ese silencio es la mitad de la fuerza del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está el hallazgo de forma. Un manual de escritura envejece en veinte años. Diez cartas a un desconocido no envejecen, porque el que lee ocupa sin esfuerzo el hueco del destinatario. Es el mismo mecanismo que mantiene vivas las «Meditaciones» de Marco Aurelio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla, que en este libro conviene decirlo alto. El consejo de Rilke da por supuesto un tipo de vida que casi nadie puede pagarse: horas de silencio, viajes largos, temporadas en casas prestadas y ninguna obligación urgente por la mañana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él vivió casi siempre de mecenas. La princesa Marie von Thurn und Taxis le prestó el castillo de Duino; otros le prestaron Muzot y las casas de Suecia. No tuvo un empleo estable en su vida adulta. La soledad que recomienda tuvo un precio, y lo pagaron otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una incoherencia mayor. Predica una atención absoluta a lo difícil y al mismo tiempo se fue de su matrimonio y dejó a su hija criándose con la familia de su mujer. Se puede admirar el texto sin confundirlo con una biografía ejemplar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay una parte que hoy chirría. Su idea de que el artista debe apartarse del mundo, no leer crítica y no meterse en discusiones públicas le ha servido de coartada a mucha gente para no leer nunca nada que la contradiga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una cosa práctica: no hay una sola indicación técnica en todo el libro. Nada sobre métrica, sobre corrección, sobre cómo se rehace un poema malo. Quien busque aprender a escribir tiene que ir a otro sitio; aquí solo le van a explicar por qué escribiría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad: no es un libro sobre cómo escribir, aunque se venda en esa estantería. Rilke se negó desde la primera línea a hacer de maestro. La palabra que más repite en cinco años no es poesía: es paciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo error corriente: internet está lleno de citas atribuidas a este libro que Rilke no escribió, o que están cortadas justo donde dejaban de ser cómodas. La más maltratada es la de vivir las preguntas, que casi siempre pierde su segunda mitad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y el tercero: mucha gente lo lee como un libro suave. No lo es. Le dice a un chico de diecinueve años que nadie puede ayudarle, que la soledad no se cura, que el amor es la tarea más difícil que existe y que a lo mejor no debería escribir nunca.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda, después de descontar todo eso, es una cosa rara y muy resistente: un hombre joven contestando en serio a otro más joven, sin venderle nada, durante cinco años, sobre un asunto que no tenía ninguna obligación de atender.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es la parte que sirve de verdad. Kappus escribió a un desconocido preguntando si valía. La respuesta fue que esa pregunta no se contesta desde fuera. Cambió de pregunta, no llegó a poeta, y por el camino le sacó a otro las diez cartas que hoy leemos.",
+        },
+      ],
+    },
+  ],
+};
