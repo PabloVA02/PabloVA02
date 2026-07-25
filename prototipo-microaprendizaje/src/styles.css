@@ -4145,3 +4145,197 @@ button {
   font-variant-numeric: tabular-nums;
   color: var(--paper);
 }
+
+/* ==========================================================================
+   MODO ANTI-SCROLL
+   ========================================================================== */
+
+.anti {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--night);
+  color: var(--paper);
+}
+
+.anti-head {
+  flex: none;
+  padding: 4px var(--shell-pad) 0;
+}
+
+.anti-head .icon-btn {
+  width: 38px;
+  height: 38px;
+  background: rgba(242, 236, 225, 0.1);
+  color: var(--paper);
+}
+
+.anti-cuerpo {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px var(--shell-pad) 0;
+  overflow: hidden;
+}
+
+.anti-cuerpo h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 770;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.anti-entradilla {
+  margin-top: 10px;
+  max-width: 30ch;
+  text-align: center;
+  font-size: 14.5px;
+  line-height: 1.48;
+  color: rgba(242, 236, 225, 0.62);
+}
+
+.anti-entradilla strong { color: var(--paper); font-weight: 700; }
+
+/* La escena: todo se coloca desde el centro, así las fichas orbitan de verdad */
+.anti-escena {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.anti-movil {
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.45));
+}
+
+.anti-mano {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  top: 50%;
+  margin: 6px 0 0 -78px;
+}
+
+.anti-ficha {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  margin: -27px 0 0 -27px;
+}
+
+.anti-ficha-caja { position: relative; }
+
+.anti-ficha-fondo {
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  background: var(--tinta);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.34);
+}
+
+.anti-candado {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  display: grid;
+  place-items: center;
+  width: 27px;
+  height: 27px;
+  border-radius: 999px;
+  background: var(--carbon);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.anti-pie {
+  flex: none;
+  padding: 8px var(--shell-pad) 18px;
+}
+
+.anti-interruptor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  width: 100%;
+  padding: 16px 18px;
+  border-radius: 20px;
+  border: 1.5px solid rgba(242, 236, 225, 0.14);
+  background: rgba(242, 236, 225, 0.07);
+  color: var(--paper);
+  text-align: left;
+  transition: border-color 0.22s ease, background-color 0.22s ease;
+}
+
+.anti-interruptor[data-on="true"] {
+  border-color: var(--clay);
+  background: rgba(194, 112, 79, 0.16);
+}
+
+.anti-interruptor-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.anti-interruptor-titulo {
+  font-size: 16px;
+  font-weight: 720;
+  letter-spacing: -0.018em;
+}
+
+.anti-interruptor-pie {
+  font-size: 12.5px;
+  line-height: 1.35;
+  color: rgba(242, 236, 225, 0.55);
+}
+
+.anti-nota {
+  margin-top: 11px;
+  text-align: center;
+  font-size: 11.5px;
+  color: rgba(242, 236, 225, 0.38);
+}
+
+/* La entrada al anti-scroll, dentro del perfil */
+.perfil-anti {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  width: 100%;
+  margin-top: 12px;
+  padding: 14px 15px;
+  border-radius: 18px;
+  border: 1.5px solid rgba(194, 112, 79, 0.34);
+  background: rgba(194, 112, 79, 0.13);
+  color: var(--paper);
+  text-align: left;
+}
+
+.perfil-anti-marca { flex: none; display: grid; place-items: center; }
+.perfil-anti-texto { flex: 1; min-width: 0; }
+
+.perfil-anti-titulo {
+  font-size: 15px;
+  font-weight: 720;
+  letter-spacing: -0.015em;
+}
+
+.perfil-anti-pie {
+  margin-top: 2px;
+  font-size: 12px;
+  line-height: 1.35;
+  color: rgba(242, 236, 225, 0.6);
+}
