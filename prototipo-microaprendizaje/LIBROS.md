@@ -8,20 +8,46 @@ contradiga lo de aquí está caducada.
 
 ## El prompt
 
-Para retomar el trabajo en una sesión nueva, sin contexto previo, basta con
-pegar esto:
+Para retomar el trabajo en una sesión nueva —sin contexto previo, o dentro de
+un `/loop`— se pega esto tal cual:
 
-> Sigue añadiendo libros al prototipo de `prototipo-microaprendizaje`.
-> Antes de escribir nada, lee `LIBROS.md` y el comentario de cabecera de
-> `src/libros/tipos.ts`: ahí está el estándar completo y no hay que
-> negociarlo. Coge los siguientes títulos pendientes de `src/libros/catalogo.ts`,
-> escríbelos con ese estándar, mide cada capítulo con `minutosParte()` antes
-> de darlo por bueno, engánchalos en `src/libros/indice.ts`, comprueba con
-> `comprobar()` que el catálogo no miente, pasa `npx tsc --noEmit` y haz
-> commit. Ve libro a libro y no pares hasta que te lo diga.
+```
+Sigue escribiendo libros para el prototipo que hay en
+/home/user/PabloVA02/prototipo-microaprendizaje.
+
+ANTES DE ESCRIBIR NADA lee estos dos ficheros. Son la fuente de la verdad
+y no se negocian:
+  - LIBROS.md
+  - el comentario de cabecera de src/libros/tipos.ts
+
+Cada iteración = UN libro entero, cogido de los que están en estado
+"pendiente" en src/libros/catalogo.ts, priorizando las categorías con
+menos escritos.
+
+1. Decide los 5 títulos de capítulo ANTES que el texto. Leídos seguidos se
+   tiene que ver un viaje, y el último es el destino: nada de «Cómo
+   leerlo» ni «Qué nos enseña».
+2. ~19 tarjetas de ~50 palabras por capítulo: ~1.000 palabras y ~5 minutos
+   por capítulo, ~25 minutos el libro entero.
+3. Mide con minutosParte(). Un capítulo por debajo de 4 minutos se amplía
+   antes de seguir; no se da por bueno.
+4. Cada capítulo abre con una escena concreta. Detalle antes que adjetivo:
+   cifras, nombres, fechas, objetos.
+5. Di dónde falla el libro y qué cree la gente de él que no es verdad.
+6. Engánchalo: export en su fichero de categoría, import en indice.ts,
+   estado "escrito" en catalogo.ts.
+7. Comprueba: npx tsx scripts/estado.mjs y npx tsc --noEmit. Las dos
+   listas de comprobar(), vacías.
+8. Commit descriptivo en la rama claude/app-development-xpo6fx.
+
+Un libro por iteración, terminado y medido. No pares hasta que te lo diga.
+Si se acaban los pendientes del catálogo, añade fichas nuevas de libros
+famosos y muy vendidos, respetando las ocho categorías del onboarding.
+```
 
 El prompt es corto **a propósito**. Un prompt largo se pierde con la ventana
-de contexto; un fichero en el repositorio no.
+de contexto; un fichero en el repositorio no. Por eso el prompt no explica el
+estándar: apunta a dónde está escrito.
 
 ---
 
