@@ -16,7 +16,7 @@ import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSB
 import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
 import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS } from "./economia";
 import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA } from "./psicologia";
-import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY, SENOR_MOSCAS, DRACULA, VIEJO_MAR, ODISEA } from "./literatura";
+import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY, SENOR_MOSCAS, DRACULA, VIEJO_MAR, ODISEA, SOMBRA_VIENTO, NOMBRE_ROSA } from "./literatura";
 import { ARTE_GUERRA } from "./filosofia";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
@@ -133,6 +133,8 @@ export const RESUMENES: Record<string, Resumen> = {
   dracula: DRACULA,
   "viejo-mar": VIEJO_MAR,
   odisea: ODISEA,
+  "sombra-viento": SOMBRA_VIENTO,
+  "nombre-rosa": NOMBRE_ROSA,
 };
 
 export function comprobar() {

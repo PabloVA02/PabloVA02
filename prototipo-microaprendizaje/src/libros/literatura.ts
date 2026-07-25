@@ -5266,3 +5266,1070 @@ export const ODISEA: Resumen = {
     },
   ],
 };
+
+export const SOMBRA_VIENTO: Resumen = {
+  id: "sombra-viento",
+  titulo: "La sombra del viento",
+  autor: "Carlos Ruiz Zafón",
+  ano: 2001,
+  gancho: "Un niño elige un libro en una biblioteca secreta. Al salir descubre que alguien lleva años quemando todos los ejemplares.",
+  porQue:
+    "Quince millones de ejemplares y la novela española más vendida de las últimas décadas. Es un misterio, una novela de amor y un retrato de la Barcelona de posguerra a la vez.",
+  partes: [
+    {
+      titulo: "El Cementerio de los Libros Olvidados",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Barcelona, verano de 1945. Daniel Sempere se despierta a las cinco de la mañana gritando porque no consigue recordar la cara de su madre, muerta hacía cuatro años. Su padre, librero de viejo, le lleva a la calle y caminan en silencio por unas Ramblas cubiertas de niebla azul.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegan a un portón de madera labrada en una calle estrecha del Raval. El padre le hace prometer que no le contará a nadie lo que va a ver — ni a su mejor amigo, ni a nadie. Y llama con el aldabón en forma de diablillo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Dentro hay una basílica de libros. Corredores, puentes, arcos y bóvedas hechos enteramente de estanterías, un laberinto de pasillos que sube y baja formando una colmena. Cientos de miles de volúmenes que nadie recuerda, que nadie edita ya, que solo existen allí.",
+          arte: "estanteria",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla del lugar",
+          frase: "Cada vez que un libro cambia de manos, cada vez que alguien lo lee, su espíritu crece y se hace fuerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El guardián le explica la costumbre: quien viene por primera vez debe adoptar un libro, el que quiera, y adquirir el compromiso de que nunca desaparezca, de mantenerlo vivo. Es un juramento de por vida. Daniel tiene diez años y recorre los pasillos durante horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y elige uno. Zafón describe ese momento como si el libro le hubiera esperado a él: encuadernado en piel color vino, con el título grabado en letras doradas. Se llama <em>La sombra del viento</em> y lo firma un tal Julián Carax, del que Daniel no ha oído hablar en su vida.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo lee esa misma noche de un tirón, sin dormir. Cuenta la historia de un hombre que busca a su padre verdadero y al que persigue un personaje siniestro llamado Laín Coubert, que en la novela es el nombre que usa el diablo. Al amanecer, Daniel decide averiguar quién fue el autor.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre le lleva a un librero anticuario, Gustavo Barceló, que al ver el ejemplar palidece. Le explica que ha buscado libros de Carax durante años para coleccionistas y que no ha encontrado ni uno. Le ofrece una fortuna por él en el acto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El misterio central",
+          frase: "Alguien lleva años localizando y quemando todos los ejemplares de Julián Carax que existen en el mundo. Ese que tiene Daniel podría ser el último.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Barceló le cuenta lo poco que se sabe: Carax era barcelonés, se marchó a París, publicó unas cuantas novelas que no vendieron nada, y murió allí en 1936 en circunstancias confusas. Todos los depósitos de su editorial ardieron. Ni una biblioteca conserva un ejemplar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Poco después, un desconocido con la cara desfigurada por quemaduras aborda a Daniel en la calle de noche y le ofrece dinero por el libro. Cuando el chico se niega, le enseña un mechero y le explica con mucha calma que él ya sabe lo bien que arden los libros de Carax.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Daniel le pregunta cómo se llama. Y el hombre le contesta con el nombre del diablo de la novela: Laín Coubert. Un personaje de ficción ha salido del libro para destruir todos los ejemplares del libro donde aparece.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el planteamiento y es de los mejores que se han escrito en español. En cuarenta páginas Zafón ha montado un club secreto, un juramento, un autor desaparecido, una conspiración incendiaria y un villano que se llama como el diablo de un libro. Y ni siquiera ha empezado la trama principal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de todo eso hay una escena que explica por qué el libro engancha desde la primera página. Daniel se despierta a los diez años convencido de que ha olvidado la cara de su madre, y esa pérdida es la que le va a empujar durante toda la novela. Zafón no vuelve a mencionarla hasta el final, pero está debajo de cada decisión que toma el chico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre le contesta con la frase que abre el libro: le dice que no se preocupe, que él recordará por los dos. Y le lleva a un sitio del que Daniel no ha oído hablar jamás, aunque lleva toda su vida durmiendo encima de una librería.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El guardián del lugar se llama Isaac y les recibe con una linterna, refunfuñando por la hora. Zafón le da un discurso corto y magnífico: le explica al niño que ese sitio existe desde que hay bibliotecas y libros que mueren, que cuando una librería cierra o un libro se pierde, acaba allí.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade el detalle que convierte el sitio en algo más que una biblioteca: que en ese laberinto los libros esperan al lector que los va a rescatar, y que probablemente el libro no lo elige uno, sino que es el libro el que lleva años esperando a esa persona concreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Daniel tarda horas en decidirse, subiendo y bajando por pasillos, tocando lomos. Cuando por fin coge el volumen encuadernado en piel color vino, Isaac se limita a asentir. No le pregunta nada. Le recuerda solo el juramento: ese libro es suyo y nunca puede desaparecer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera lectura de esa noche es una de las mejores descripciones de lo que es engancharse a un libro. Daniel empieza pensando en dormir un poco, y sale el sol con él todavía leyendo, con la sensación de que la novela le estaba contando cosas de sí mismo que aún no le habían pasado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La escena con Barceló, el librero anticuario, mete la primera pieza del misterio. El hombre sopesa el ejemplar, mira la portada y ofrece una cantidad de dinero desproporcionada por un libro que nadie ha leído. Y cuando Daniel se niega, en vez de insistir le invita a merendar y empieza a contarle lo que sabe.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí aparece Clara, la sobrina ciega de Barceló, y con ella el primer amor imposible de Daniel — un enamoramiento adolescente de una mujer bastante mayor que él, que Zafón resuelve años después con una humillación tan bien contada que duele leerla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro escenario es la Barcelona de posguerra, y no es decorado. Hay racionamiento, delaciones, gente que desaparece, policías que entran donde quieren. Zafón describe una ciudad de calles mojadas y niebla, con farolas de gas y tranvías, que se ha convertido en la imagen de la ciudad para lectores de medio mundo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Fermín",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Daniel encuentra un día a un mendigo durmiendo bajo unos soportales, esquelético, sucio y con un vocabulario asombroso. Se llama Fermín Romero de Torres, o eso dice, y asegura haber sido agente de los servicios de inteligencia durante la guerra.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es, con diferencia, el mejor personaje del libro y el que más quiere la gente. Habla como un catedrático borracho, cita autores clásicos y publicaciones eróticas en la misma frase, y tiene teorías propias sobre la política, las mujeres y los sugus de limón, que le vuelven loco.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los Sempere le llevan a casa, le lavan, le dan de comer y le ofrecen trabajo en la librería. Y Fermín, que no tenía nada, se convierte en el motor de la investigación: es él quien sabe seguir a alguien sin ser visto, quien consigue información de porteras y funcionarios, quien falsifica papeles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Debajo de la comedia hay algo muy oscuro, y Zafón lo suelta poco a poco. Fermín tiene el cuerpo cubierto de cicatrices. Estuvo detenido en el castillo de Montjuïc y le torturó personalmente un policía llamado Javier Fumero. Cuando oye ese nombre, el hombre más locuaz del libro se queda mudo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El villano",
+          frase: "El inspector Fumero. Empezó matando animales de niño, hizo carrera denunciando a unos y a otros durante la guerra, y salió de ella con placa y pistola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fumero es un personaje sin una sola grieta de humanidad, y esa es la decisión más discutible del libro y también la más eficaz. Zafón no le da matices: le hace crecer despreciado por todos, incapaz de sentir nada, y le pone en un puesto donde la impunidad es total.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, Daniel va tirando del hilo de Carax. Localiza a antiguos compañeros de colegio, a la portera de la casa donde vivió, a una mujer llamada Nuria Monfort que trabajó en su editorial y que le recibe en un piso lleno de libros y de humo de tabaco.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y aquí Zafón hace lo que sostiene la novela entera: cada persona a la que Daniel interroga le cuenta un trozo de la historia de Carax con su propia voz, y esos relatos ocupan capítulos enteros. El lector reconstruye una vida a partir de testimonios que no siempre coinciden.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que va apareciendo es esto. Julián Carax era hijo de un sombrerero violento y de una francesa. De niño estudió gratis en un colegio de ricos gracias al padre de su mejor amigo, un industrial poderoso llamado Aldaya. Y en esa casa conoció a Penélope, la hermana de su amigo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La historia enterrada",
+          frase: "Julián y Penélope se enamoraron a los diecisiete años. Planearon huir juntos a París en un tren de medianoche. Él subió. Ella nunca apareció.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Carax pasó los siguientes veinte años en París escribiendo novelas que nadie leía y esperando una carta que nunca llegó. Y Daniel, mientras investiga, se da cuenta de algo que le da miedo: su propia vida está empezando a repetir la de aquel hombre, punto por punto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él también se ha enamorado de una chica de familia acomodada, Bea, hermana de su mejor amigo. Su padre también es un hombre callado que perdió a la mujer que quería. Y también hay alguien con poder dispuesto a destruirle por ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fermín tiene una historia previa que Zafón dosifica y que explica su carácter. Fue agente de inteligencia del gobierno durante la guerra, tenía una vida y un nombre, y lo perdió todo cuando le detuvieron. En el castillo de Montjuïc le rompieron sistemáticamente, y salió convertido en un mendigo sin papeles.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su forma de sobrevivir es hablar. Zafón le da unos monólogos larguísimos, mezcla de erudición y grosería, que son lo más divertido del libro; y va dejando caer, entre broma y broma, que ese hombre pasa noches sin dormir y que hay palabras que no puede oír. La comedia es la coraza y el lector lo entiende sin que nadie lo explique.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su relación con el padre de Daniel es de las cosas más bonitas de la novela. El señor Sempere le da trabajo sin pedirle explicaciones, le presta ropa, le busca una pensión, y nunca le trata como a alguien a quien está salvando. Simplemente le hace hueco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un momento en que Fermín le confiesa a Daniel por qué le ayuda con la investigación aunque sea peligroso: le dice que un hombre necesita tener algo que hacer que le importe a alguien, y que él ya no tiene otra cosa. Es la frase menos graciosa que dice en todo el libro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué se juega el cuello",
+          frase: "«Un hombre necesita tener algo que hacer que le importe a alguien.» Es lo menos gracioso que dice Fermín en todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La investigación avanza como en una novela policiaca clásica: interrogatorios, archivos, registros parroquiales, expedientes escolares. Daniel y Fermín se cuelan en un colegio, sobornan a un funcionario del registro civil y consiguen entrar en el archivo de una editorial quemada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada testigo aporta una versión distinta de Carax. Para uno era un genio despreciado; para otro, un chico rencoroso; para su antiguo profesor, alguien que escribía desde los quince años y no enseñaba lo que escribía a nadie. Zafón hace que el lector se forme una idea del muerto igual que se la forma Daniel: a trozos y con contradicciones.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El personaje de Fumero se va construyendo por la misma técnica, y por eso da tanto miedo antes de aparecer. Todo el mundo baja la voz al nombrarle. Un antiguo compañero de colegio cuenta que de niño mataba palomas. Su propia madre le tenía miedo. Cuando por fin entra en escena, el lector ya lleva doscientas páginas temiéndole.",
+          arte: "noche",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa estructura de espejo es el mayor acierto técnico del libro. No es un truco decorativo: la investigación de Daniel avanza al mismo ritmo que su propia historia de amor, y cuanto más descubre sobre el final de Carax, más miedo tiene de saber cómo va a acabar la suya.",
+          arte: "aprendizaje",
+        },
+      ],
+    },
+
+    {
+      titulo: "Nuria Monfort",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La parte central del libro es un manuscrito. Nuria Monfort, la mujer de la editorial, dejó escrita la historia completa antes de morir, y ese texto ocupa unas cien páginas seguidas en primera persona. Es la pieza que reordena todo lo anterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta que se enamoró de Carax sin ser correspondida, que fue ella quien recibía sus manuscritos en Barcelona, y que fue ella quien durante años pagó de su bolsillo el alquiler de un piso vacío en el que él nunca vivió, esperando que volviera.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y revela lo que pasó con Penélope, que es lo que el lector lleva trescientas páginas queriendo saber. La chica no faltó a la cita: su familia la descubrió, la encerró en una habitación del piso de arriba de su propia casa, tapiaron la ventana y no la dejaron salir.",
+          arte: "noche",
+        },
+        {
+          forma: "clave",
+          rotulo: "El motivo real",
+          frase: "No la encerraron por clases sociales. La encerraron porque Julián era hijo del padre de ella. Eran hermanos y ninguno de los dos lo sabía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Penélope estaba embarazada. Murió allí dentro, sola y desangrada en el parto, junto al niño, mientras los criados oían y no abrían. La enterraron en una cripta familiar y la familia se marchó a Argentina. Julián no supo nada de esto durante diecisiete años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zafón coloca ese descubrimiento a dos tercios del libro y cambia por completo la naturaleza de la historia. Hasta ahí parecía un misterio literario sobre libros quemados; a partir de ahí es una tragedia sobre una familia que prefirió dejar morir a su hija antes que soportar un escándalo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando Carax por fin volvió a Barcelona en 1936, ya empezada la guerra, y se enteró de todo, hizo lo que era previsible: fue a buscar a los responsables. Y en ese camino ardió la casa de los Aldaya y ardió él dentro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quién es Laín Coubert",
+          frase: "El hombre sin rostro que quema los libros de Carax es el propio Carax, desfigurado por el fuego y decidido a borrar todo rastro de sí mismo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es la revelación central y funciona porque estaba delante todo el rato. Un escritor destruyendo su propia obra, tomando el nombre del diablo que él mismo inventó, borrando la única prueba de que existió una historia que terminó con la muerte de la mujer que amaba.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sobrevivió, escondido, viviendo como un mendigo en las ruinas de la casa incendiada durante años. Nuria le llevaba comida en secreto. Nadie más sabía que estaba vivo — excepto Fumero, que llevaba desde el colegio odiándole y que había ido a la guerra a cazarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El manuscrito de Nuria Monfort es un cambio de voz brusco y es donde Zafón demuestra lo que sabe hacer. Durante cien páginas desaparece Daniel y habla una mujer que ha esperado veinte años a un hombre que nunca la quiso, y que escribe todo esto sabiendo que la van a matar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta cómo era el Julián de París: un hombre que tocaba el piano en un burdel para pagarse la comida, que escribía de noche y que enviaba sus manuscritos a Barcelona sin ninguna esperanza. Sus novelas vendían decenas de ejemplares. Un solo comprador anónimo se las compraba todas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y desvela quién era ese comprador, que es uno de los mejores giros del libro: alguien que llevaba años comprando cada ejemplar publicado, no para leerlos, sino para destruirlos — y que al mismo tiempo, sin saberlo, era lo único que mantenía viva la carrera de Carax pagando sus tiradas.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre Penélope, Nuria reconstruye lo que averiguó demasiado tarde. La chica escribió cartas durante meses desde la habitación tapiada. Ninguna salió de la casa. Y la criada que le llevaba comida testificó que se pasaba el día golpeando la puerta y llamando a Julián por su nombre.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pieza que faltaba",
+          frase: "No los separaron por dinero ni por clase. Julián era hijo del padre de Penélope, y ninguno de los dos llegó a saberlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La revelación del parentesco entre Julián y Penélope es la pieza que cierra la tragedia. El padre de ella, el industrial Aldaya, había tenido una aventura años atrás con la mujer del sombrerero. Cuando acogió a aquel chico pobre en su casa por caridad, estaba metiendo a su propio hijo en la habitación de al lado de su hija.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el detalle más cruel: la familia nunca se lo dijo a ninguno de los dos. Prefirieron encerrarla y dejar que Julián se marchara creyendo que le había abandonado. Diecisiete años de silencio para evitar una vergüenza que ellos mismos habían provocado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Cuando Julián vuelve en 1936 y lo descubre todo, el libro cambia de género en veinte páginas. Deja de ser un misterio literario y se convierte en una historia de venganza: un hombre entrando de noche en la casa donde su hermana murió encerrada, con una lata de gasolina.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí es donde el libro cierra su círculo. La razón por la que Fumero persigue a Daniel no tiene nada que ver con Daniel: es que el chico le va a llevar hasta Carax. El niño que adoptó un libro por casualidad se ha convertido, sin saberlo, en el señuelo de una caza que empezó antes de que naciera.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El incendio",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El último tramo transcurre en unas pocas horas de una noche de lluvia, y Zafón acelera el ritmo de golpe. Daniel ha quedado con Bea en la casa abandonada de los Aldaya, la misma en la que murió Penélope, sin saber que Fumero lleva días siguiéndoles a los dos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La casa es el mejor escenario del libro: un caserón en ruinas en la avenida del Tibidabo, con las ventanas tapiadas, los muebles cubiertos de sábanas y las paredes negras del incendio. Y en el piso de arriba, la habitación donde una chica de diecisiete años murió encerrada.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso, Fermín ha ido descubriendo lo que faltaba, y lo paga caro: le detienen, le llevan a comisaría y Fumero le da una paliza que casi le mata solo para dejarle claro que puede. Fermín aguanta y no dice dónde está Daniel, y esa es la escena que le convierte en el héroe del libro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El enfrentamiento",
+          frase: "Los tres coinciden en la misma casa: el policía que ha esperado veinte años, el escritor al que dio por muerto y un chico de dieciocho años en medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fumero dispara a Daniel a bocajarro. Zafón describe la agonía en primera persona, con el chico tumbado en el suelo mojado viendo el techo, la lluvia entrando por el hueco y una sombra que se acerca. Es la parte más lírica del libro y algunos lectores la encuentran excesiva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tramo final está construido con una precisión de relojería. Daniel ha citado a Bea en la casa de los Aldaya sin saber que Fumero les vigila; Fermín está encerrado en comisaría; y Nuria Monfort, que sabe dónde se esconde Carax, acaba de recibir una visita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zafón coloca además la escena de la muerte de Nuria contada por ella misma, en las últimas líneas de su manuscrito, y ese cambio de tiempo verbal —de pronto escribe sabiendo que le quedan minutos— es de los recursos más eficaces del libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La casa del Tibidabo funciona como personaje. Las ventanas tapiadas con ladrillo, el polvo, los muebles bajo sábanas, y arriba una habitación cerrada con una cama pequeña. Daniel entra allí con Bea sin saber lo que fue ese cuarto, y el lector sí lo sabe. Es puro terror gótico dentro de una novela realista.",
+          arte: "noche",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hace funcionar el final",
+          frase: "Daniel no se salva por listo ni por valiente. Se salva porque otros deciden ponerse en medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fumero llega y lo que sigue son unas cuarenta páginas de persecución dentro de un caserón a oscuras, con lluvia entrando por el tejado, disparos y una escalera de mármol. Zafón, que había sido guionista, escribe esa secuencia como si la estuviera rodando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sin destripar el desenlace, hay que decir lo que lo hace funcionar: Daniel no se salva por ser valiente ni por ser listo. Se salva porque otras personas —Fermín, Bea, un hombre al que nunca ha visto la cara— deciden ponerse en medio. La novela premia la lealtad, no la astucia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y el destino final de los libros de Carax es una respuesta a la pregunta del primer capítulo. El Cementerio no era un almacén de cosas muertas: era un mecanismo para que un libro sobreviviera el tiempo suficiente hasta encontrar a alguien dispuesto a defenderlo.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El epílogo de 1966 cierra todos los hilos, incluidos los de Fermín y los del padre de Daniel, y lo hace con una escena en la librería que muchos lectores recuerdan mejor que el clímax. Zafón sabía que el final emocional de un libro no siempre coincide con el final de la trama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El desenlace resuelve las dos historias a la vez y conviene no destriparlo. Basta decir que la casa donde murió Penélope decide el final, que Fermín llega a tiempo para algo, y que el hombre sin rostro tiene la última palabra sobre lo que ocurre con los libros de Julián Carax.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El epílogo salta a 1966. Daniel es adulto, tiene un hijo, y lo lleva de la mano al amanecer por unas calles cubiertas de niebla hacia un portón de madera labrada en una calle del Raval. La estructura del libro se cierra con la misma escena con la que empezó.",
+          arte: "estanteria",
+        },
+        {
+          forma: "clave",
+          rotulo: "La última idea",
+          frase: "Los libros no se salvan guardándolos. Se salvan pasándolos a alguien que los lea, y eso hay que hacerlo en cada generación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle final que remata el juego: el hijo de Daniel se llama Julián. El niño que fue a buscar a un escritor desaparecido acaba poniéndole su nombre a su hijo, y llevándole al mismo sitio a hacer el mismo juramento.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Zafón",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Carlos Ruiz Zafón era barcelonés, había trabajado en publicidad y se había ido a Los Ángeles a intentar vivir del guion. Antes de esta novela había publicado cuatro libros juveniles con éxito discreto. Esta la escribió con cerca de treinta y cinco años y sin ninguna expectativa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Salió en 2001 y durante meses no pasó nada. Empezó a venderse de boca en boca, primero en España y después en Alemania, donde explotó de una forma que nadie esperaba. Acabó traducida a más de cuarenta idiomas y superando los quince millones de ejemplares.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después escribió tres novelas más ambientadas en el mismo universo del Cementerio de los Libros Olvidados. No son continuaciones en sentido estricto: se pueden leer en cualquier orden, se cruzan personajes, y cada una ilumina las otras desde un ángulo distinto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le criticaron",
+          frase: "Que abusa de las metáforas, que los diálogos son demasiado literarios y que ningún adolescente de 1945 hablaba así. Todo eso es verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su prosa es deliberadamente barroca y a algunos lectores les cansa: hay páginas con tres metáforas por párrafo. Zafón lo defendió diciendo que escribía novelas de folletín a propósito, en la tradición de Dickens y de Dumas, y que el objetivo era que no pudieras soltarlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se le reprocha también que Fumero sea un villano puro sin ninguna psicología, y que la Barcelona del libro sea más una atmósfera que un retrato histórico riguroso. Quien busque una novela sobre el franquismo tiene libros mucho mejores.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que nadie discute es su capacidad para construir una trama. Es un mecanismo de relojería: cada revelación llega en el momento exacto, cada personaje secundario acaba siendo importante, y no hay una sola pieza que sobre. Como lección de estructura, es casi un manual.",
+          arte: "explorar",
+        },
+        {
+          forma: "clave",
+          rotulo: "Para quién es",
+          frase: "Es probablemente el mejor libro que se le puede dar a alguien que dice que no le gusta leer. Muchísima gente empezó a leer con este.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el título conviene saber algo. <em>La sombra del viento</em> es a la vez el nombre de esta novela y el de la novela ficticia que Daniel encuentra. Zafón construyó un libro que contiene otro libro con su mismo título, y que trata de un chico que investiga al autor de ese libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese juego de espejos es el motivo de que la novela funcione como misterio y como declaración de amor a la lectura al mismo tiempo. Y explica el epílogo: un padre llevando a su hijo al mismo sitio al que le llevó el suyo, para que la cadena no se corte.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro dato: la tetralogía completa la forman esta, una precuela ambientada en los años veinte, una tercera que cuenta la vida de Fermín durante la guerra, y un cierre publicado en 2016. Zafón siempre dijo que se podían leer en cualquier orden, y que cada una cambia el significado de las demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una decisión suya poco conocida: se negó en redondo a que se hiciera una película o una serie mientras él viviera. Rechazó ofertas grandes durante años argumentando que este libro estaba escrito para funcionar en la cabeza del lector, y que llevarlo a imágenes lo empequeñecería.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su decisión más rara",
+          frase: "Rechazó todas las ofertas para llevarlo al cine mientras viviera. Decía que este libro estaba escrito para la cabeza del lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si te gusta el libro, lo que más se parece no es otra novela española sino la tradición de la que bebe: el folletín del XIX. Dickens, Dumas, los misterios por entregas. Zafón lo reconocía abiertamente y decía que su ambición era escribir el tipo de libro que a él le habría enganchado a los quince años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su mayor virtud práctica es esa. Es un libro de seiscientas páginas que la gente que no lee se termina en una semana, y del que sale queriendo otro. Como puerta de entrada a la lectura adulta, hay pocos mejores en español.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zafón murió en Los Ángeles en 2020, a los cincuenta y cinco años, de cáncer. Había dejado terminada la tetralogía dos años antes. En sus últimas entrevistas insistía en algo muy suyo: que un libro es un espejo, y que uno solo puede encontrar en él lo que ya lleva dentro.",
+        },
+      ],
+    },
+  ],
+};
+
+export const NOMBRE_ROSA: Resumen = {
+  id: "nombre-rosa",
+  titulo: "El nombre de la rosa",
+  autor: "Umberto Eco",
+  ano: 1980,
+  gancho: "Un profesor de semiótica de cuarenta y ocho años decidió escribir una novela policiaca. Vendió cincuenta millones de ejemplares.",
+  porQue:
+    "Es un caso de asesinatos en una abadía medieval, y por debajo una discusión sobre por qué alguien mataría para que un libro no se leyera.",
+  partes: [
+    {
+      titulo: "Siete días",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Norte de Italia, finales de noviembre de 1327. Un fraile franciscano inglés, Guillermo de Baskerville, llega a una abadía benedictina enorme acompañado de un novicio alemán de dieciocho años llamado Adso de Melk. Van con una misión diplomática, pero el abad les recibe con otro encargo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un monje joven ha aparecido muerto al pie de un torreón, con el cuerpo destrozado, y nadie sabe cómo llegó allí: la ventana de arriba estaba cerrada por dentro. El abad le pide a Guillermo que lo investigue con discreción antes de que lleguen las delegaciones extranjeras.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Guillermo es una construcción deliberada y el lector la reconoce enseguida. Es alto y delgado, tiene una capacidad de observación que raya en lo insultante, usa unos anteojos —una novedad tecnológica en 1327—, mastica hierbas cuando piensa y se llama Baskerville. Es Sherlock Holmes vestido de fraile, y Adso es su Watson.",
+          arte: "museo",
+        },
+        {
+          forma: "clave",
+          rotulo: "La estructura",
+          frase: "Siete días, y en cada uno aparece un cadáver. La novela está dividida por las horas litúrgicas: maitines, laudes, prima, tercia, sexta, nona, vísperas, completas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eco demuestra su método en la primera escena, antes incluso de llegar a la abadía. Guillermo detiene a unos monjes que salen a buscar un caballo perdido y les dice dónde está, cómo se llama, y describe al animal sin haberlo visto — todo deducido de unas huellas, unas ramas rotas y unos pelos en un zarzal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo muerto aparece de cabeza dentro de una tinaja de sangre de cerdo. El tercero, ahogado en la bañera de los baños. Cada uno tiene algo raro: manchas negras en la lengua y en las yemas de dos dedos de la mano derecha.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y todos los muertos tienen algo en común que Guillermo tarda en ver: los tres trabajaban en la biblioteca. El traductor de griego, el ayudante, el iluminador de manuscritos. La abadía tiene la mejor biblioteca de la cristiandad y nadie puede entrar en ella salvo el bibliotecario.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa biblioteca es el mejor escenario que se ha inventado para una novela. Ocupa el piso superior de un torreón, está organizada como un laberinto de habitaciones idénticas comunicadas por pasadizos, y está diseñada para que quien entre sin conocer el plano se pierda y acabe cediendo al pánico.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El sistema de defensa",
+          frase: "Espejos deformantes, corrientes de aire que apagan las lámparas, salas con hierbas que provocan alucinaciones. No hay guardias: la biblioteca se defiende sola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni siquiera el abad conoce el plano completo. Solo lo saben el bibliotecario y su ayudante, que lo transmiten de uno a otro. Los monjes pueden pedir un libro, y el bibliotecario decide si se lo entrega o si le dice que no está disponible. Nadie puede comprobar si miente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La abadía está descrita con una precisión de arquitecto y no es capricho: Eco dibujó el plano antes de escribir una línea, y lo incluyó al principio del libro. Decía que necesitaba saber cuántos pasos había de la cocina al scriptorium para poder calcular cuánto duraban las conversaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese método explica el realismo del libro. Eco se pasó dos años documentándose antes de empezar: leyó crónicas monásticas, manuales de inquisidores, tratados de herbolario y catálogos de bibliotecas medievales. Dijo que un narrador debe construir un mundo hasta el último detalle y después limitarse a contar lo que pasa dentro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La abadía funciona como una empresa. Hay un ecónomo que lleva las cuentas, un herbolario que fabrica remedios, un vidriero, un traductor del griego, iluminadores de manuscritos, un cillerero que negocia con los campesinos. Eco cuenta el día a día de un monasterio del XIV con más detalle que muchos manuales de historia.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y coloca ahí un dato que sorprende a cualquiera: la biblioteca no era un servicio, era un tesoro. Los libros valían fortunas, se encadenaban a los atriles, y prestarlos a otra abadía era una operación diplomática. Un monasterio con muchos libros era una potencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Adso narra todo esto siendo ya un anciano, sesenta años después de los hechos, y ese detalle importa. El lector nunca lee lo que vio un chico de dieciocho años, sino lo que un viejo recuerda de aquello — con sus lagunas, sus reinterpretaciones y su nostalgia.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quién narra",
+          frase: "No lo cuenta un chico de dieciocho años, sino un anciano recordando sesenta años después. Con sus lagunas y su nostalgia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eco añade además un prólogo en el que finge haber encontrado el manuscrito de Adso en una traducción de una copia de un original perdido. Es un juego antiguo —Cervantes lo usó con el Quijote— y aquí sirve para lo mismo: sembrar la duda sobre si algo de lo que vamos a leer es fiable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Guillermo, por su parte, tiene un pasado que Eco dosifica: fue inquisidor y lo dejó. Dice que abandonó el oficio cuando comprendió que estaba condenando a gente por lo que él mismo había decidido creer sobre ellos. Ese detalle explica su relación con Bernardo Gui mejor que cualquier discusión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eco pone ahí, en el primer tercio, el conflicto de fondo de la novela. No es quién mata: es quién decide qué se puede leer, con qué autoridad, y qué pasa cuando alguien está dispuesto a matar para que un texto concreto no llegue a nadie.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El bibliotecario es un viejo español ciego llamado Jorge de Burgos, que se sabe de memoria el contenido de miles de volúmenes y que se pasea por la biblioteca a oscuras con más soltura que los que ven. Eco le puso ese nombre en homenaje a Borges, que también fue bibliotecario y también acabó ciego.",
+          arte: "noche",
+        },
+      ],
+    },
+
+    {
+      titulo: "La risa",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En el segundo día hay una discusión en el scriptorium que parece un debate menor y es la clave de todo el libro. Un monje ha dibujado en el margen de un manuscrito unas figuras cómicas: monos con mitra, curas al revés, animales tocando instrumentos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los demás se ríen. Y entonces interviene Jorge de Burgos y les riñe con una dureza desproporcionada. Dice que la risa agita el cuerpo, deforma los rasgos y hace al hombre semejante al mono, y que Cristo, en todo el Evangelio, no ríe ni una sola vez.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La postura de Jorge",
+          frase: "La risa mata el miedo. Y sin miedo al diablo, sin miedo al castigo, no hace falta la fe.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Guillermo le responde con calma que la risa es propia del hombre y señal de su racionalidad, y que reírse de lo falso ayuda a distinguirlo de lo verdadero. Los dos discuten citando autoridades como quien juega al ajedrez, y ninguno cede un milímetro.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eco coloca ese debate en el segundo día de siete y no lo vuelve a mencionar hasta el final. Es la pista maestra de la novela, escondida a la vista, en una discusión que parece erudición decorativa y que contiene el móvil de todos los asesinatos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, Guillermo y Adso consiguen entrar de noche en la biblioteca y se pierden inmediatamente. Recorren salas idénticas, ven un espejo que les devuelve una figura monstruosa, y en una habitación con especias quemándose Adso tiene alucinaciones y cree ver visiones apocalípticas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Guillermo resuelve el laberinto sin recorrerlo: hace que Adso vaya marcando puertas con carboncillo, anota las letras que hay grabadas sobre cada arco y descubre que forman los nombres de las regiones del mundo conocido. La biblioteca es un mapa. Está ordenada geográficamente.",
+          arte: "mapa",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que buscan",
+          frase: "Una sala que no está en el mapa: el <em>finis Africae</em>, el fin de África, cerrada y sin puerta visible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cadáveres se acumulan y empiezan a coincidir con las siete trompetas del Apocalipsis: granizo, sangre, agua, el tercio del cielo. Guillermo se convence de que hay un asesino imitando ese esquema, y organiza su investigación alrededor de esa hipótesis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En paralelo transcurre la razón oficial del viaje: un encuentro entre una delegación papal y otra franciscana para discutir si Cristo y los apóstoles poseían bienes. Suena a bizantinismo y era una cuestión política enorme — de ella dependía si la Iglesia podía justificar su riqueza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El debate sobre la risa tiene una segunda parte que casi nadie recuerda y que es más aguda. Jorge no argumenta que reír sea pecado por frivolidad: argumenta que la risa es un arma social. Dice que el campesino que se ríe del señor no le teme, y que un pueblo sin miedo no obedece.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Guillermo le contesta con un ejemplo que le desarma: le recuerda que los propios monjes de esa abadía se permiten burlas y bromas en el claustro, y que precisamente eso es lo que impide que la disciplina se vuelva insoportable. Una válvula controlada, dice, sostiene un orden mejor que la prohibición total.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está la tesis política del libro, que Eco no formula nunca en voz alta: la risa es peligrosa para el poder porque desactiva el miedo, y por eso todos los regímenes que se toman muy en serio a sí mismos acaban persiguiendo a los que se ríen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En paralelo, la subtrama de los herejes es más importante de lo que parece. Eco cuenta cómo un movimiento de reforma religiosa acaba convertido en delito según quién tenga la sartén por el mango, y cómo un mismo predicador puede ser santo o hereje dependiendo del año en que hable.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla de Guillermo",
+          frase: "Las ideas son escaleras: sirven para subir y después hay que tirarlas. Quedarse agarrado a ellas es lo que convierte a un hombre en fanático.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Uno de los monjes, Remigio, resulta haber pertenecido a un grupo herético violento años atrás y llevar toda la vida escondido. Su interrogatorio ante Bernardo Gui es una de las escenas más duras: el hombre confiesa cosas ciertas, después cosas falsas, y al final cualquier cosa con tal de que paren.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y Eco hace una observación que atraviesa el libro entero. Bernardo Gui no es un mentiroso: cree sinceramente en lo que hace. Su certeza es lo que le vuelve peligroso, porque le permite considerar la tortura un instrumento de averiguación y no una crueldad.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Frente a él, el método de Guillermo consiste en dudar constantemente de sus propias hipótesis. Le explica a Adso que las ideas hay que usarlas como una escalera: sirven para subir a un sitio y una vez arriba se tiran, porque quedarse agarrado a la escalera es lo que convierte a un hombre en fanático.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Con la delegación papal llega Bernardo Gui, un inquisidor real que existió y escribió un manual sobre cómo interrogar herejes. Eco le retrata sin caricatura y por eso da más miedo: es un profesional metódico que sabe perfectamente que la tortura produce las confesiones que él quiere oír.",
+          arte: "noche",
+        },
+      ],
+    },
+
+    {
+      titulo: "La chica sin nombre",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Adso, que tiene dieciocho años y es novicio, baja de noche a las cocinas y se encuentra con una campesina que se ha colado en la abadía. Es una chica muy joven y muy pobre de la aldea de abajo, que cambia favores sexuales a los monjes por restos de comida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se acuestan. Eco escribe esa escena con una técnica extraordinaria: Adso, que narra el episodio siendo ya un anciano, no tiene palabras propias para describirlo y va montando el relato con citas del <em>Cantar de los Cantares</em> y de textos místicos, porque es lo único que ha leído.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El efecto es a la vez cómico y desgarrador: un chico que no tiene vocabulario para lo que le está pasando lo describe con el lenguaje de la teología. Y en toda la escena no se dice ni una palabra: ella no habla su idioma y él no habla el de ella.",
+          arte: "memoria",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que ocurre después",
+          frase: "La detienen por bruja. La única persona a la que Adso ha querido en su vida arde en la hoguera y él no puede hacer absolutamente nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bernardo Gui la encuentra en el recinto con un gallo negro y un gato, restos de la comida que le habían dado, y monta con eso una acusación de brujería. La chica está aterrada, no entiende el latín del interrogatorio y no puede defenderse. La condena está decidida antes de empezar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Adso le suplica a Guillermo que haga algo, y su maestro le responde con lo más duro del libro: que no hay nada que hacer, que está quemada desde el momento en que Bernardo la vio, y que él no tiene ningún poder allí. Es la única vez en la novela en que Guillermo pierde.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y Adso hace la pregunta que da título al libro sin saberlo. Escribe, ya viejo, que nunca supo cómo se llamaba aquella chica, y que es lo único que lamenta de toda su vida. La única mujer a la que amó y de la que no conserva ni el nombre.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eco usa ese episodio para algo más que la emoción. Contrapone dos formas de buscar la verdad: la de Guillermo, que observa, duda y corrige, y la de Bernardo, que ya sabe lo que va a encontrar antes de empezar y usa el procedimiento para confirmarlo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase de Guillermo",
+          frase: "Teme a los profetas y a los que están dispuestos a morir por la verdad, porque suelen llevarse a muchos con ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El personaje más extraño del libro es Salvatore, un monje deforme que habla un idioma inventado por él mismo mezclando latín, italiano, provenzal y español. Eco lo escribió así a propósito y en la traducción se conserva: sus frases son un galimatías del que se entiende la mitad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "No es un chiste. Salvatore representa a los desheredados que iban de un lado a otro de Europa huyendo del hambre, y su lengua rota es la de alguien que ha vivido en veinte sitios sin pertenecer a ninguno. Cuando Bernardo Gui le interroga, esa lengua le condena sola: nadie que hable así puede parecer inocente.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La chica de la aldea aparece a través de él, y Eco sitúa ese episodio con una crueldad económica exacta: los campesinos de abajo pasan hambre mientras la abadía almacena grano, y las mujeres cambian sexo por restos de comida en la cocina. La miseria material está en cada página sin una sola queja retórica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando Adso pregunta después a Guillermo si lo que sintió fue amor o pecado, su maestro le da una respuesta que no espera. Le dice que fue amor, que el amor por una persona concreta es distinto del amor abstracto por la humanidad, y que precisamente por eso es el más difícil de sostener.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le dice a Adso",
+          frase: "Quien ama a la humanidad entera acaba mandando a la hoguera a personas concretas por su bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade lo que Adso recordará sesenta años después: que la única forma de amar sin destruir es amar lo que se tiene delante en vez de una idea, porque quien ama a la humanidad entera acaba mandando a la hoguera a personas concretas por su bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eco encadena así el episodio amoroso con el político y con el criminal: los tres tratan de lo mismo. De gente dispuesta a hacer daño a alguien real en nombre de algo que no lo es — la pureza de la fe, el orden de la biblioteca, la salvación de las almas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto la investigación se enreda. Aparecen más muertos, y Guillermo descubre que todos han tocado el mismo objeto: un libro. Un volumen que contiene cuatro textos encuadernados juntos, y cuyas páginas hay que pasar humedeciéndose el dedo porque están pegadas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El segundo libro de Aristóteles",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La solución llega el sexto día y encaja todas las piezas. El libro que mata está escondido en el <em>finis Africae</em>, la sala secreta, y Guillermo deduce cómo se abre a partir de un versículo que un moribundo repitió en su delirio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué es el libro",
+          frase: "El segundo volumen de la <em>Poética</em> de Aristóteles, el dedicado a la comedia. Un libro que existió y del que no se conserva ningún ejemplar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es real y es lo que da al libro su fuerza. De la <em>Poética</em> de Aristóteles conservamos el primer libro, sobre la tragedia. Se sabe que hubo un segundo dedicado a la comedia y a la risa, y se ha perdido. Eco construye toda la novela sobre ese hueco documentado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes del enfrentamiento final hay un descubrimiento técnico que resuelve el enigma físico. La entrada al <em>finis Africae</em> está detrás de un espejo, y se abre pulsando dos letras de una inscripción latina — las de la palabra que significa «cuatro»— porque hay que empujar el primer y el cuarto carácter.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Guillermo lo deduce de un mensaje cifrado que dejó escrito un monje muerto usando signos del zodiaco, y de una frase que otro repitió en su agonía. Eco construye un rompecabezas que el lector atento puede resolver por su cuenta, que es la regla de oro de la novela policiaca honesta.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al entrar encuentran una sala pequeña con los libros más peligrosos de la biblioteca: los que ningún monje ha podido consultar en trescientos años. Y sentado en la oscuridad, esperándoles desde hacía horas, un anciano ciego que no necesita luz para leer porque hace décadas que no ve.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su defensa",
+          frase: "No mató a nadie. Puso el veneno hace años y esperó. Cada monje que entró a leer aquel libro eligió hacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Jorge le explica entonces cómo llegó a bibliotecario y por qué renunció al cargo oficial: durante cuarenta años ha controlado la biblioteca desde la sombra, decidiendo qué libros existían y cuáles no, mientras dos bibliotecarios sucesivos figuraban en el puesto y le obedecían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y admite, sin ningún remordimiento, que él no mató a nadie. Puso el veneno hace años, cuando aún veía, y se limitó a esperar. Cada monje que entró a hurtadillas a leer aquel libro eligió libremente hacerlo. Su argumento es que él solo puso una puerta cerrada y un cartel.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Guillermo le acusa entonces de la única cosa que le duele: le dice que ha actuado como el diablo, porque el diablo no es la materia ni el placer, sino la arrogancia del espíritu, la fe sin sonrisa, la verdad que jamás se pone en duda. Jorge se queda callado por primera vez.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El incendio que sigue no es un accidente narrativo. Eco quema la mejor biblioteca del mundo por una lámpara caída durante un forcejeo entre un hombre que quería leer un libro y otro que quería impedirlo. Ninguno de los dos consigue lo que buscaba, y se pierden miles de obras que no tenían nada que ver.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El razonamiento de Jorge es coherente y por eso resulta espeluznante. Si el mayor filósofo de la Antigüedad, la autoridad que sostiene toda la teología cristiana, escribió un tratado defendiendo la risa, entonces la risa deja de ser una debilidad vulgar y se convierte en algo legítimo.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si la risa es legítima, se puede reír uno de todo, incluido Dios y el diablo. Y un pueblo que se ríe del infierno deja de temerlo. Jorge no quiere destruir un libro: quiere impedir que exista una autoridad capaz de legitimar la burla.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo mataba",
+          frase: "No mató a nadie. Untó de veneno las esquinas de las páginas. Cada monje que lo leía a escondidas se humedecía el dedo para pasarlas y se envenenaba solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es uno de los mecanismos criminales más elegantes de la literatura policiaca, porque convierte el acto de leer en la causa de la muerte. El castigo está dentro de la transgresión, y el asesino no necesita estar presente. La curiosidad se ejecuta a sí misma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El enfrentamiento final entre Guillermo y Jorge, a la luz de una lámpara en la sala secreta, es una discusión filosófica de veinte páginas, no una pelea. El ciego le ofrece leer el libro. Guillermo se pone unos guantes y empieza a pasar páginas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y entonces Jorge hace lo único que le queda: se come el libro. Va arrancando las páginas envenenadas y masticándolas mientras habla, tranquilamente, hasta que Guillermo intenta detenerle y en el forcejeo cae la lámpara.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El incendio arrasa la biblioteca, después el torreón y después la abadía entera. Arden miles de manuscritos únicos, la mayor colección de la cristiandad, obras de las que no había otra copia en el mundo. Adso corre entre las llamas recogiendo pedazos de página al azar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El giro que humilla al detective",
+          frase: "Guillermo confiesa que resolvió el caso siguiendo un patrón que no existía. Las muertes no imitaban el Apocalipsis: fue una coincidencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que llegó a la verdad por casualidad, persiguiendo un orden equivocado, y que si el mundo tuviera un orden él no lo habría encontrado. Es la inversión completa de la novela policiaca clásica: el detective gana, pero descubre que su método no valía nada.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El profesor que escribió una novela",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Umberto Eco era un catedrático de semiótica de fama internacional, autor de ensayos densos sobre teoría de la interpretación, cuando a los cuarenta y ocho años decidió escribir una novela. Dijo después que empezó porque le apetecía envenenar a un monje.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su editorial esperaba vender unos pocos miles de ejemplares de un libro que empieza con cien páginas de disputas teológicas medievales, cita latín sin traducir y tiene un plano de abadía al principio. Ha vendido más de cincuenta millones y se ha traducido a más de cuarenta idiomas.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eco explicó su estrategia en un texto posterior, y es de las lecciones de escritura más útiles que existen: dijo que puso las cien primeras páginas difíciles a propósito, como una penitencia de entrada. Quien las superara sería un lector dispuesto a subir a la abadía con él.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Sobre el título",
+          frase: "Eligió uno que no significa nada concreto, para que el lector no pudiera deducir de qué iba el libro. Dijo que un título debe confundir las ideas, no ordenarlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La última frase del libro es un verso latino medieval que dice, más o menos, que de la rosa de antaño solo queda el nombre, y que solo conservamos nombres desnudos. Es el resumen de todo: de la biblioteca, de la chica sin nombre, del libro perdido de Aristóteles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro funciona en varias capas a la vez y esa es la razón de que gustara a tanta gente distinta. Se puede leer como una novela policiaca; como una novela histórica con un retrato preciso del siglo XIV; o como un ensayo disfrazado sobre los signos, la interpretación y la censura.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eco decía que un texto es una máquina perezosa que le pide al lector que haga parte del trabajo, y que él había escrito un libro que se dejara leer en varios niveles sin obligar a nadie a subir al más alto. Quien solo quiera saber quién mató, tiene un misterio perfectamente construido.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "clave",
+          rotulo: "El aviso honesto",
+          frase: "Las primeras cien páginas son duras de verdad, hay latín sin traducir y hay capítulos enteros de teología. Mucha gente lo abandona ahí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si decides leerlo, dos consejos. Las ediciones modernas suelen traducir el latín en notas: busca una que lo haga. Y no intentes seguir el debate sobre la pobreza de Cristo si te pierde — es el contexto político real de la época, pero la trama criminal se entiende sin él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena saber cómo escribió el libro, porque él lo contó en detalle. Empezó por una lista de sesenta nombres de monjes, después dibujó los planos, después estableció qué se comía cada día y a qué hora tocaban las campanas. Solo cuando el mundo estaba completo se puso a escribir.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Decía que una novela histórica no consiste en poner personajes modernos con ropa antigua, sino en construir el mundo con tanta precisión que los personajes solo puedan hacer lo que ese mundo les permite. Los diálogos, contaba, se escriben solos cuando ya sabes cuántos pasos hay entre dos salas.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el final del libro, la última frase latina se ha traducido de mil maneras y todas pierden algo. Viene a decir que de la rosa de antes solo queda el nombre, y que lo único que conservamos son nombres desnudos. Es la conclusión exacta de la novela: los libros arden, las personas mueren, y sobreviven las palabras sueltas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una simetría preciosa que se pierde en una lectura rápida. Adso, ya viejo, ha pasado la vida releyendo los fragmentos quemados que rescató del incendio, intentando reconstruir con ellos una biblioteca que ya no existe. Su manuscrito —el libro que estamos leyendo— es su intento de dejar constancia.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que decía de su biblioteca",
+          frase: "Los libros que ya has leído no valen nada. Una biblioteca sirve para los que todavía no has abierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eco escribió después cinco novelas más y ninguna alcanzó a esta, aunque él siempre defendió que la segunda era mejor. Siguió dando clase en la Universidad de Bolonia hasta el final y decía que era profesor que escribía novelas los fines de semana, y no al revés.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su biblioteca personal tenía más de treinta mil volúmenes en dos casas. Cuando le preguntaban si los había leído todos, contestaba que no, y que una biblioteca sirve precisamente para lo contrario: los libros que ya has leído no valen nada, y los que valen son los que todavía no has abierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió en 2016 a los ochenta y cuatro años. Si te gusta este, lo más parecido no es otra novela histórica sino sus ensayos breves sobre listas, sobre libros y sobre la interpretación: son cortos, divertidísimos, y explican por dentro los trucos que usó aquí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una advertencia sobre la película de 1986, que es buena y muy distinta. Simplifica el debate ideológico, cambia el final y convierte a Guillermo en un héroe de acción. Funciona como película y se pierde exactamente lo que hace único al libro: que el detective se equivoque de método y acierte por accidente.",
+        },
+      ],
+    },
+  ],
+};
