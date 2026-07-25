@@ -95,7 +95,7 @@ export const CATALOGO: Ficha[] = [
   { id: "vida-arboles", titulo: "La vida secreta de los árboles", autor: "Peter Wohlleben", ano: 2015, categoria: "Ciencia", estado: "escrito" },
   { id: "gen-historia", titulo: "El gen", autor: "Siddhartha Mukherjee", ano: 2016, categoria: "Ciencia", estado: "escrito" },
   { id: "mapa-mundos", titulo: "Los últimos días de los dinosaurios", autor: "Riley Black", ano: 2022, categoria: "Ciencia", estado: "pendiente" },
-  { id: "einstein", titulo: "Einstein: su vida y su universo", autor: "Walter Isaacson", ano: 2007, categoria: "Ciencia", estado: "pendiente" },
+  { id: "einstein", titulo: "Einstein: su vida y su universo", autor: "Walter Isaacson", ano: 2007, categoria: "Ciencia", estado: "escrito" },
   { id: "feynman", titulo: "¿Está usted de broma, Sr. Feynman?", autor: "Richard Feynman", ano: 1985, categoria: "Ciencia", estado: "escrito" },
   { id: "ordenar-universo", titulo: "Ordenar el universo", autor: "Marcus du Sautoy", ano: 2019, categoria: "Ciencia", estado: "pendiente" },
   { id: "elegancia-erizo", titulo: "La elegancia del erizo", autor: "Muriel Barbery", ano: 2006, categoria: "Ciencia", estado: "pendiente" },
@@ -103,7 +103,7 @@ export const CATALOGO: Ficha[] = [
   /* --- Arte ------------------------------------------------------------- */
   { id: "historia-arte", titulo: "La historia del arte", autor: "E. H. Gombrich", ano: 1950, categoria: "Arte", estado: "escrito" },
   { id: "modos-ver", titulo: "Modos de ver", autor: "John Berger", ano: 1972, categoria: "Arte", estado: "escrito" },
-  { id: "acto-creativo", titulo: "El acto creativo", autor: "Rick Rubin", ano: 2023, categoria: "Arte", estado: "pendiente" },
+  { id: "acto-creativo", titulo: "El acto creativo", autor: "Rick Rubin", ano: 2023, categoria: "Arte", estado: "escrito" },
   { id: "roba-artista", titulo: "Roba como un artista", autor: "Austin Kleon", ano: 2012, categoria: "Arte", estado: "escrito" },
   { id: "camino-artista", titulo: "El camino del artista", autor: "Julia Cameron", ano: 1992, categoria: "Arte", estado: "pendiente" },
   { id: "cartas-joven-poeta", titulo: "Cartas a un joven poeta", autor: "Rainer Maria Rilke", ano: 1929, categoria: "Arte", estado: "escrito" },

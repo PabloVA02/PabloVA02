@@ -2277,3 +2277,549 @@ export const ARTE_SIN_HOMBRES: Resumen = {
     },
   ],
 };
+
+export const ACTO_CREATIVO: Resumen = {
+  id: "acto-creativo",
+  titulo: "El acto creativo",
+  autor: "Rick Rubin",
+  ano: 2023,
+  gancho: "El productor musical más influyente de los últimos cuarenta años no toca ningún instrumento, no sabe leer música y no maneja una mesa de mezclas.",
+  porQue:
+    "Porque su método —quitar en vez de añadir— resucitó a Johnny Cash a los sesenta y un años, y porque el libro donde lo explica es más discutible de lo que parece.",
+  partes: [
+    {
+      titulo: "La habitación 712",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Nueva York, 1984. En una residencia de estudiantes de la Universidad de Nueva York, un chaval de Long Island con veintiún años y el pelo largo monta un sello discográfico en su habitación. El logotipo lo dibuja él. La dirección postal del sello es su cuarto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llama Rick Rubin y el sello se llama Def Jam. En los tres años siguientes publicará el primer disco de LL Cool J, el de los Beastie Boys y el que junta a Run-DMC con Aerosmith. El hip hop pasa de la radio comunitaria a las listas de éxitos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El dato que sostiene todo lo demás: Rubin no toca ningún instrumento, no sabe leer una partitura y no sabe manejar una mesa de mezclas. Ha producido varios de los discos más vendidos de la historia sin ninguna de las tres competencias que se le suponen a un productor.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué hace entonces",
+          frase: "Escuchar y decir qué sobra. Su trabajo se parece más al de un editor de libros o un director de cine que al de un técnico: no fabrica el sonido, decide qué se queda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su carrera es, además, una lista de saltos que no deberían caber en una sola persona. Después del hip hop produjo el disco más extremo del thrash metal, «Reign in Blood» de Slayer, veintiocho minutos y diez canciones, grabado con la misma lógica de quitar todo lo que sobre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Luego los Red Hot Chili Peppers, a los que sacó de su casa y encerró en una mansión de Hollywood para grabar; Adele, Kanye West, System of a Down, Metallica, los Dixie Chicks. Y entre medias el trabajo por el que se le recordará más allá de la música pop.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese currículum es el argumento implícito del libro: si el mismo hombre puede sacar lo mejor de un grupo de thrash metal, de una cantante de soul y de un icono del country, lo que hace no puede ser técnico. Tiene que ser otra cosa, y el libro es su intento de explicarla.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "«El acto creativo» salió en 2023, después de treinta y cinco años de carrera y de un podcast donde entrevista a músicos y a científicos. Vendió millones de ejemplares y se convirtió en el libro de cabecera de mucha gente que no tiene nada que ver con la música.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo primero que sorprende al abrirlo es lo que no hay. No hay anécdotas de estudio. No hay nombres. No cuenta cómo grabó ningún disco. En quinientas páginas apenas se menciona a un puñado de artistas, y casi nunca por su trabajo con ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está organizado en setenta y ocho capítulos cortos, algunos de dos páginas, que él llama áreas de pensamiento. Se pueden leer en cualquier orden. No hay ejercicios, no hay bibliografía y no hay una sola cifra en todo el libro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La decisión de forma",
+          frase: "Podría haber escrito unas memorias de la industria musical que se habrían vendido igual. Escribió deliberadamente lo contrario: un libro sin él dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su justificación aparece en la introducción: dice que no escribe para músicos, sino para cualquiera que haga algo, y que los ejemplos concretos de su oficio harían pensar al lector que aquello va de discos. La ausencia de anécdotas es una decisión, no una carencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También define desde el principio a quién se dirige, y es la frase más citada del libro: todos somos creadores. No se refiere a que todo el mundo pueda ser artista, sino a algo más básico: que elegir qué mirar, qué escuchar y qué ignorar ya es un acto creativo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la primera idea sólida: la materia prima no es el talento, es la atención. Un creador no es alguien que produce más, es alguien que percibe más, y percibir más es un músculo que se entrena reduciendo el ruido y aumentando el tiempo de mirar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Rubin cuenta que en las sesiones se pasa mucho rato tumbado en un sofá con los ojos cerrados, escuchando. Los músicos que han trabajado con él lo han descrito con perplejidad y también con respeto: no hace nada durante horas y luego dice una frase que reordena el disco.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra idea que introduce pronto y que estructura el libro es la más discutible: sostiene que las ideas no se fabrican, se reciben. Que existe algo a lo que llama la Fuente, del que las ideas emanan, y que el trabajo del artista es sintonizar y no obstruir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una idea muy antigua vestida de nuevo. Los griegos la llamaban musa y los romanos genius, entendido no como un rasgo de la persona sino como un espíritu que la visitaba. Rubin la recupera sin citar a nadie, y ahí empieza el problema del libro y también su atractivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque tiene una utilidad práctica innegable: si la idea no es tuya, el fracaso tampoco te define. Baja la presión del ego, que según él es el principal obstáculo. Y tiene un coste: es una afirmación que no se puede comprobar ni discutir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de entrar en el método conviene ver cómo funciona aplicado, porque hay un caso documentado que lo demuestra mejor que cualquier capítulo del libro. Ocurrió en 1993, en el salón de la casa de Rubin, con un hombre de sesenta y un años al que nadie quería contratar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hombre llevaba diez años sin un disco de éxito, había sido despedido por su discográfica de toda la vida y actuaba en cenas-espectáculo de Branson, Misuri. Se llamaba Johnny Cash y estaba a punto de tener la mejor década de su carrera.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El sillón de Johnny Cash",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Los Ángeles, 1993. Johnny Cash tiene sesenta y un años. Columbia Records, su casa desde los años sesenta, lo ha despedido. Su siguiente sello tampoco funcionó. Toca en teatros para turistas y su público ha envejecido con él. Nadie en la industria lo considera un artista activo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rubin le propone grabar. Cash le pregunta qué se supone que va a hacer con él, y Rubin le contesta que sentarlo con una guitarra en su salón y grabar las canciones que él quiera cantar. Sin banda, sin arreglos, sin coros, sin nada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El método, en una frase",
+          frase: "Quitar todo lo que no sea la voz y la canción. Cash llevaba treinta años enterrado bajo producciones cada vez más pobladas. Rubin le quitó la orquesta y dejó a un hombre y una guitarra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Grabaron durante meses, decenas y decenas de canciones. Country antiguo, himnos, cosas que Cash cantaba de niño, y también temas de gente que su público no habría reconocido: Leonard Cohen, Tom Waits, Nick Lowe, Glenn Danzig. El primer disco salió en 1994 y se llamó «American Recordings».",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La portada es Cash de negro, con dos perros, en un campo. El disco ganó un Grammy y le devolvió un público que no había nacido cuando él era famoso. Grabaron seis discos en total, los dos últimos publicados después de su muerte en 2003.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El punto culminante llegó en 2002, con una versión de «Hurt», de Nine Inch Nails, una canción sobre la adicción escrita por un hombre de veintiséis años. Cantada por un anciano enfermo, con la voz agrietada, la letra dice otra cosa completamente distinta sin cambiar una palabra.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Trent Reznor, su autor, contó que al principio le pareció una idea rara y que al ver el vídeo se quedó sin habla. Dijo que aquella canción había dejado de ser suya. Es probablemente el mejor elogio que ha recibido nunca una versión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese caso enseña lo que el libro no explica bien: el trabajo de Rubin no fue creativo en el sentido de añadir, sino de decidir. Elegir qué canciones, elegir qué versión de las diez grabadas se quedaba y elegir qué se quitaba. Eso es todo, y era casi todo lo que hacía falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro sí desarrolla el principio general, y lo llama de varias maneras. La idea es que casi todo lo que se hace está de más, y que la mejor pregunta que se le puede hacer a una obra terminada es qué pasa si le quito esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rubin propone probarlo literalmente: quitar un elemento y escuchar. Si la pieza sigue funcionando, sobraba. Y sostiene que la mayoría de las obras que no funcionan no fallan por falta de material, sino por exceso: por no haberse atrevido a tirar lo que costó hacer.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El coste hundido",
+          frase: "Lo más difícil de quitar no es lo malo: es lo bueno que no encaja. Y cuanto más tiempo costó hacerlo, más difícil resulta tirarlo, aunque esté estorbando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale otro consejo suyo que sí es operativo: separar la fase de generar de la fase de juzgar. Mientras se hace, no se evalúa. Mientras se evalúa, no se hace. Mezclarlas es la forma más rápida de bloquearse, porque el crítico interno mata lo que aún no está formado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rubin divide el proceso en cuatro fases y esa es la parte más estructurada del libro. La semilla, la experimentación, el oficio y la terminación. Cada una pide una actitud distinta y el error habitual es aplicar la actitud de una fase en otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la semilla se recoge sin filtrar. Todo vale, nada se descarta, no importa la calidad. Rubin insiste en que en esa fase juzgar es contraproducente, porque las semillas malas a veces contienen la buena y no se sabe cuál es hasta que crece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la experimentación se prueba: se llevan las semillas a distintos terrenos, se combinan, se estropean a propósito. Aquí recomienda hacer versiones deliberadamente malas o extremas, porque el extremo enseña dónde están los bordes de lo que se está haciendo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En el oficio se ejecuta, y es la fase que él confiesa que menos le interesa y peor se le da. Y en la terminación hay que decidir que ya está, que según él es el momento más difícil y donde más obra buena se arruina por seguir tocándola.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre terminar da un consejo práctico y bastante sensato: ponerse una fecha límite aunque sea artificial. Dice que la obra nunca está lista y que se acaba cuando alguien decide que se acaba, y que ese alguien tiene que ser el autor y no el cansancio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una regla de trabajo que ha adoptado mucha gente: probar dos veces con una limitación absurda. Hacerlo en veinte minutos. Hacerlo con tres elementos. Hacerlo sin la parte de la que estás más orgulloso. Las restricciones inventadas producen soluciones que la libertad no produce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo eso es aprovechable. Lo que ocupa la mitad restante del libro es otra cosa, y es donde el lector se divide en dos: unos encuentran el marco que les faltaba y otros encuentran una sucesión de frases bonitas sin nada debajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque el corazón conceptual del libro es la idea de que el artista no inventa: recibe. Y una vez aceptada esa premisa, todo lo demás se sigue de ella con una coherencia notable, empezando por qué demonios se supone que hay que hacer para recibir algo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La antena",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La tesis, dicha con sus palabras: las ideas no salen de dentro del artista. Existen fuera, en circulación, y el artista es un receptor. Su trabajo no consiste en generar sino en estar disponible para captar, y en no estropear lo que capta al pasarlo al mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que suele darse para defender esto es la simultaneidad de los descubrimientos: el cálculo lo inventaron Newton y Leibniz por separado, la evolución la formularon Darwin y Wallace a la vez, el teléfono se patentó el mismo día en dos despachos distintos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La utilidad práctica",
+          frase: "Si la idea no es tuya, el mérito no te infla y el fracaso no te hunde. Rubin sostiene que el ego es el mayor obstáculo del trabajo creativo, y esto es su antídoto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema evidente es que la afirmación no se puede comprobar. No hay forma de distinguir una idea recibida de una idea generada por un cerebro que ha acumulado material durante años y lo recombina mientras uno se ducha. La explicación material funciona igual de bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rubin no discute eso porque no le interesa. Su libro no es descriptivo: es prescriptivo. No pretende explicar cómo funciona la mente, pretende dar un marco mental que produzca mejor trabajo. Y como marco, tiene efectos observables que él ha visto durante décadas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El principal es sobre el bloqueo. Un artista que cree que las ideas salen de él vive con miedo a agotarse. Uno que cree que pasan por él vive con la tarea mucho más manejable de estar atento. La segunda historia produce menos parálisis, sea o no verdad.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De la tesis salen las prácticas. La primera es la atención deliberada: mirar cosas sin propósito, sin buscar material. Rubin recomienda pasear, mirar el mar, observar a la gente, y expresamente no ir a buscar ideas, porque ir a buscarlas es la manera más fiable de no encontrarlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es la reducción del ruido. Menos noticias, menos redes, menos consumo pasivo, más silencio. Su argumento no es moral sino de capacidad: la atención es limitada y la gasta lo que se mete en ella, así que elegir la dieta informativa es elegir la materia prima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es el cuaderno. Anotar todo, sin filtrar, sin ordenar y sin releer inmediatamente. La idea es no confiar en la memoria y no juzgar en el momento de capturar, porque el juicio en ese momento descarta cosas que solo se entienden meses después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta es la mente de principiante, un concepto tomado del zen. Consiste en acercarse a algo que ya se conoce como si fuera la primera vez. Es lo que, según él, le permite trabajar con géneros que no domina: no sabe cómo se hace, así que pregunta lo obvio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La ventaja de no saber",
+          frase: "Rubin sostiene que no saber tocar es una ventaja, porque le impide oír una canción como un músico. La oye como el que la va a escuchar, que es el único oído que le importa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese punto es más sólido de lo que parece y tiene respaldo en la práctica de otros oficios. Un editor que no escribe novelas ve la novela como el lector. Un director que no actúa ve la interpretación desde la butaca. El experto pierde acceso a la mirada del que llega de nuevo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rubin añade una consecuencia incómoda: la técnica, dice, tiende a llevar al artista hacia lo que sabe hacer bien. Un guitarrista virtuoso escribe canciones que le permiten lucirse, y esas suelen ser peores que las que escribiría si solo supiera tres acordes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí una recomendación que sí se puede aplicar mañana: trabajar deliberadamente con menos herramientas de las que se dominan. Grabar con un solo micrófono. Escribir sin adjetivos. Dibujar con un solo color. La limitación obliga a resolver por el lado de la idea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otro capítulo que la gente subraya siempre y que va sobre la comparación. Rubin sostiene que compararse con otros artistas es una forma de mirar hacia fuera en un trabajo que solo se puede hacer mirando hacia dentro, y que las modas son ruido con apariencia de información.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su argumento es cronológico y es bueno: cuando algo está de moda, ya es tarde. Lo que se percibe como tendencia se decidió dos años antes en el trabajo de alguien que no estaba mirando tendencias. Perseguir el momento garantiza llegar al momento siguiente con retraso.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay también un capítulo sobre la colaboración que contradice bastante la imagen del genio receptor. Rubin describe su papel en el estudio como el de alguien que crea las condiciones: la sala, el orden de las canciones, quién habla, cuándo se para. Casi un trabajo de anfitrión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuenta que su intervención más frecuente es una pregunta: ¿te gusta? Repetida, sin juicio, hasta que el artista contesta que no. Sostiene que la mayoría de la gente sabe perfectamente qué parte de su trabajo no funciona y que solo necesita permiso para decirlo en voz alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es probablemente el consejo más útil de todo el libro y ocupa media página. Y es también un buen ejemplo del problema del volumen: para llegar a él hay que atravesar cuarenta capítulos sobre la naturaleza del universo y la energía de las cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque falta todavía la afirmación que más se ha discutido, la que aparece cerca del final y que en boca del cofundador de uno de los sellos discográficos más rentables de la historia resulta, cuando menos, llamativa.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El primer borrador malo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Uno de los capítulos más útiles se llama, en la práctica, hazlo mal primero. Rubin sostiene que el primer intento no tiene que ser bueno: tiene que existir. Su función no es ser la obra, sino darle al autor algo concreto que criticar en lugar de una página en blanco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento psicológico es fino: es infinitamente más fácil mejorar algo malo que crear algo bueno. Frente a la nada, la mente no tiene dónde agarrarse. Frente a un borrador horrible, la mente sabe exactamente qué está mal, y saber qué está mal es la mitad del trabajo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El cambio de tarea",
+          frase: "La página en blanco pide inventar. El borrador malo pide corregir. Corregir es una habilidad mucho más accesible, y casi todo el mundo la tiene aunque crea que no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí se derivan varias reglas de trabajo. La primera: fijar un volumen mínimo diario y cumplirlo con independencia de la calidad. La cantidad, sostiene, produce calidad por acumulación, y esperar la inspiración es una manera elegante de no trabajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda: empezar por lo más pequeño posible. Si un disco parece imposible, una canción. Si una canción es demasiado, una frase. Rubin insiste en que el tamaño de la tarea que uno se plantea determina si se empieza, y que casi todo el mundo se plantea tareas demasiado grandes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es sobre los plazos y contradice lo que muchos esperarían de él. Defiende las fechas límite, incluso las inventadas, porque la obra nunca se acaba sola. Dice que ha visto morir discos por exceso de tiempo mucho más a menudo que por falta de él.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su descripción del exceso de retoque es exacta: llega un punto en que cada cambio ya no mejora, solo cambia, y el autor está moviendo piezas para no tener que enfrentarse a que ya está. Terminar da miedo porque terminar significa exponerse a que juzguen.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un capítulo sobre los hábitos que es más matizado de lo habitual en este tipo de libros. Rubin defiende la rutina como forma de reducir decisiones, y a la vez avisa de que una rutina demasiado rígida acaba produciendo siempre el mismo trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su propuesta es rotar deliberadamente: cambiar de sitio, de hora, de herramienta cada cierto tiempo, no por capricho sino porque el entorno determina lo que se le ocurre a uno. Escribir en otro cuarto produce otras frases, y eso es comprobable en una tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro capítulo trata la relación entre estado de ánimo y trabajo, y ahí es tajante en contra del tópico romántico. Sostiene que no hace falta sufrir para crear, que el mito del artista atormentado ha hecho mucho daño y que el trabajo sostenido requiere estabilidad, no crisis.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Contra el artista atormentado",
+          frase: "Rubin ha trabajado con adicciones, depresiones y catástrofes personales de primera fila. Su conclusión es que la gente creó a pesar de eso, nunca gracias a eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay una idea sobre el gusto que merece la pena. Dice que el gusto de una persona casi siempre va por delante de su habilidad, y que ese desfase es la causa principal del abandono: uno reconoce que lo que hace no está a la altura de lo que admira, y lo deja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta a eso es que el desfase no es un problema, es el motor. Si el gusto no fuera superior a la habilidad, no habría hacia dónde mejorar. Lo único que hay que aceptar es que el hueco tarda años en cerrarse y que durante ese tiempo el trabajo será decepcionante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el fracaso, su reencuadre es de los más limpios: un experimento no puede fallar. Si sale mal, la información que devuelve es tan válida como si sale bien. Solo hay fracaso si se esperaba un resultado concreto, y esperar un resultado concreto es lo que estropea la fase de prueba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una advertencia contra el consejo, incluido el suyo: dice que todo lo que hay en el libro son observaciones sobre lo que a él le ha funcionado, que no son reglas, y que si alguna contradice la experiencia del lector, la que vale es la del lector.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa cláusula aparece varias veces y es honesta y también cómoda: un libro que se declara inaplicable a quien no le encaje es un libro que no se puede refutar. Es la misma estructura que la idea de la Fuente, y es la característica más discutible de todo el conjunto.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con todo, hay una parte del método que sí es concreta y que él practica desde hace cuarenta años: escuchar la obra terminada como si fuera de otro. Dejarla reposar semanas, ponerla sin avisarse, y observar la primera reacción antes de que entre el conocimiento de cómo se hizo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y otra: enseñársela a alguien y no mirar la obra, sino a la persona. Rubin dice que lo que la gente comenta después es mucho menos informativo que lo que hace su cara en el minuto tres. La opinión se filtra por educación; la atención no se puede fingir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es un consejo de productor puro y probablemente venga de haber visto a cientos de personas escuchar maquetas en un sofá. Es también uno de los pocos momentos del libro en que se nota debajo la experiencia acumulada de un oficio concreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda la afirmación final, la que da la vuelta a todo lo anterior y la que más ruido ha hecho. Está en un capítulo breve, hacia el final, y contradice de frente el negocio en el que Rick Rubin ha trabajado toda su vida.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El público va el último",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La frase es esta: el público va el último. Rubin sostiene que la obra no se hace para nadie, que consultar al oyente antes de terminar es la forma más segura de estropearla, y que la única persona a la que hay que satisfacer es a uno mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento no es de pureza sino práctico. Dice que nadie sabe lo que el público quiere, ni siquiera el público, porque lo que la gente pide es siempre una variación de lo que ya conoce, y lo que acaba entusiasmándola es casi siempre algo que no habría sabido pedir.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El argumento",
+          frase: "Si intentas adivinar lo que gustará, produces una versión diluida de lo que ya existía. Si haces exactamente lo que te gusta a ti, al menos hay una persona en el mundo a la que le encanta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y da un dato de su propia experiencia que sostiene la idea: los discos suyos que se convirtieron en éxitos enormes fueron, casi siempre, los que la industria consideró inviables antes de salir. Un disco de rap con guitarras. Un disco de Johnny Cash con una guitarra y nada más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, la objeción evidente, que hay que poner sobre la mesa. Esto lo escribe el hombre que cofundó Def Jam, que dirigió Columbia Records y que ha producido algunos de los discos más vendidos de la historia. Nadie ha entendido mejor el mercado que él.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El libro no explica esa tensión en ningún momento. Un lector sin carrera hecha puede seguir el consejo de ignorar al público y quedarse sin público. Rubin puede permitirse ignorarlo porque lleva cuarenta años acertando con él, y esa asimetría no aparece en ninguna página.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la primera de las cosas que fallan, y hay más. La segunda es que el libro no enseña a hacer nada. No hay ejercicios, no hay ejemplos trabajados, no hay ni un solo caso desarrollado. Es un libro sobre cómo colocarse mentalmente, no sobre cómo trabajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es el tono. Muchos capítulos son sucesiones de afirmaciones breves y solemnes sin argumentación. La crítica más repetida que ha recibido es que se parece a un calendario de frases inspiradoras, y en algunos tramos es difícil defenderlo de esa acusación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta es la repetición. Setenta y ocho capítulos para unas ocho o diez ideas. La idea de la atención aparece cinco veces con distinta ropa; la de quitar, otras tantas. Un lector que subraye descubrirá que ha subrayado la misma frase en tres sitios distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la quinta, la de fondo: la Fuente. Colocar el origen de las ideas fuera del artista es una decisión metafísica presentada como observación. Rubin no la argumenta ni la contrasta con nada, y el lector que no la compre tiene que releer medio libro traduciendo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La traducción posible",
+          frase: "Donde él dice «sintonizar con la Fuente», se puede leer «acumular material durante años y darle a la cabeza tiempo y silencio para recombinarlo». Casi todos los consejos siguen funcionando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad, empezando por lo más común: no son unas memorias. Quien lo compre buscando la historia de Def Jam, de los Beastie Boys o de las sesiones con Cash no va a encontrar prácticamente nada de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: que sea un libro de música. No lo es en ningún sentido. No hay términos técnicos, no hay estudio, no hay instrumentos. Está escrito para que lo lea un fotógrafo, un cocinero o alguien que monta una empresa, y esa era la intención declarada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: mucha gente asume que Rubin es productor en el sentido técnico. No lo es. No manipula el sonido. Lo que hace es escuchar, elegir y quitar, y ese trabajo tiene más que ver con la dirección y la edición que con la ingeniería.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los músicos que han trabajado con él lo describen con la misma imagen una y otra vez: un hombre descalzo, tumbado, con los ojos cerrados, que a veces no dice nada en toda la tarde. Anthony Kiedis contó que al principio pensó que se había dormido.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el cuarto malentendido: que el libro proponga esperar la inspiración. Propone exactamente lo contrario. Volumen diario, plazos, primer borrador malo, terminar aunque no esté perfecto. Debajo del lenguaje místico hay una ética de trabajo bastante dura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda, si se descuenta la repetición y la metafísica, cabe en una página: presta atención a lo que te interesa de verdad, acumula sin juzgar, haz mucho y mal antes de hacer poco y bien, quita todo lo que no sostenga la pieza, y decide tú cuándo está terminada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es original y él tampoco lo pretende. Lo que aporta es la autoridad de alguien que lo ha aplicado durante cuarenta años en géneros incompatibles entre sí, y la prueba concreta de un hombre de sesenta y un años sentado en un salón con una guitarra prestada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque esa es, al final, la mejor defensa del libro. Cash llevaba una década enterrado bajo arreglos, coros y decisiones comerciales tomadas por otros. Alguien le quitó todo eso y grabó lo que quedaba. Y lo que quedaba resultó ser la mejor música de su vida.",
+        },
+      ],
+    },
+  ],
+};
