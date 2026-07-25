@@ -18,6 +18,8 @@ import { MuroShorts, LectorShort } from "./Shorts";
 import { MINUTOS, type Short } from "./shorts";
 import { Pago } from "./Pago";
 import { Perfil } from "./Perfil";
+import { Ajustes } from "./Ajustes";
+import { AvisoRegalo, Oferta } from "./Regalo";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import {
   GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart,
@@ -26,7 +28,7 @@ import {
 
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto"
-  | "shorts" | "short" | "perfil";
+  | "shorts" | "short" | "perfil" | "ajustes" | "oferta";
 
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
 const CON_BARRA: Pantalla[] = ["inicio", "shorts", "perfil"];
@@ -46,11 +48,27 @@ export default function App() {
   const [nombre, setNombre] = useState("Hola");
   /** Tarjetas leídas. Sube al terminar un capítulo o un short. */
   const [leidas, setLeidas] = useState(0);
+  /** El aviso del regalo: se enseña una vez, al llegar al inicio. */
+  const [avisoRegalo, setAvisoRegalo] = useState(false);
+  const [regaloVisto, setRegaloVisto] = useState(false);
   /** Capítulos completados del libro abierto. */
   const [completados, setCompletados] = useState(0);
   /** Minutos que ha tardado el lector en el capítulo, medidos de verdad. */
   const [minutos, setMinutos] = useState(0);
   const arranque = useRef(0);
+  const reducido = useReducedMotion();
+
+  // El regalo aparece cuando ya has visto el inicio un momento. Soltarlo a
+  // bocajarro nada más entrar se lee como un anuncio; dejar respirar la
+  // pantalla primero hace que se lea como algo que la app te ofrece.
+  useEffect(() => {
+    if (pantalla !== "inicio" || regaloVisto) return;
+    const id = window.setTimeout(() => {
+      setAvisoRegalo(true);
+      setRegaloVisto(true);
+    }, 1600);
+    return () => window.clearTimeout(id);
+  }, [pantalla, regaloVisto]);
 
   return (
     <div className="stage">
@@ -87,7 +105,14 @@ export default function App() {
               favoritas={0}
               guardadas={0}
               onCerrar={() => setPantalla("inicio")}
+              onAjustes={() => setPantalla("ajustes")}
             />
+          )}
+          {pantalla === "ajustes" && (
+            <Ajustes key="ajustes" nombre={nombre} onVolver={() => setPantalla("perfil")} />
+          )}
+          {pantalla === "oferta" && (
+            <Oferta key="oferta" reducido={!!reducido} onCerrar={() => setPantalla("inicio")} />
           )}
           {pantalla === "shorts" && (
             <MuroShorts
@@ -162,6 +187,20 @@ export default function App() {
               minutos={minutos}
               objetivo={objetivo}
               onContinuar={() => setPantalla(vuelta)}
+            />
+          )}
+        </AnimatePresence>
+
+        <AnimatePresence>
+          {avisoRegalo && pantalla === "inicio" && (
+            <AvisoRegalo
+              key="aviso-regalo"
+              reducido={!!reducido}
+              onCerrar={() => setAvisoRegalo(false)}
+              onAbrir={() => {
+                setAvisoRegalo(false);
+                setPantalla("oferta");
+              }}
             />
           )}
         </AnimatePresence>

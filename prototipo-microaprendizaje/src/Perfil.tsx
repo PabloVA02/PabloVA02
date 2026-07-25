@@ -56,9 +56,10 @@ type Props = {
   favoritas: number;
   guardadas: number;
   onCerrar: () => void;
+  onAjustes: () => void;
 };
 
-export function Perfil({ nombre, racha, leidas, favoritas, guardadas, onCerrar }: Props) {
+export function Perfil({ nombre, racha, leidas, favoritas, guardadas, onCerrar, onAjustes }: Props) {
   const reducido = !!useReducedMotion();
   const dias = semana(racha);
   const inicial = (nombre.trim()[0] ?? "T").toUpperCase();
@@ -74,7 +75,7 @@ export function Perfil({ nombre, racha, leidas, favoritas, guardadas, onCerrar }
         <button className="icon-btn" onClick={onCerrar} aria-label="Cerrar perfil">
           <GlyphClose />
         </button>
-        <button className="icon-btn" aria-label="Ajustes">
+        <button className="icon-btn" onClick={onAjustes} aria-label="Ajustes">
           <GlyphRueda />
         </button>
       </div>

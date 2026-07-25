@@ -272,9 +272,10 @@ function PaginaShort({
   onAbrir: () => void;
 }) {
   const x = useMotionValue(0);
-  // El texto va pegado al dedo y la foto se queda atrás: al arrastrar hacia la
-  // historia se nota profundidad, no un cambio de pantalla plano.
-  const xFoto = useTransform(x, (v) => v * 0.3);
+  // El arrastre lo lleva la PÁGINA ENTERA, así que la foto viaja con ella. Para
+  // que siga habiendo profundidad, la foto se mueve en contra: 1 − 0,7 = 0,3 de
+  // recorrido neto frente al 1 del texto. El parallax sale de la resta.
+  const xFoto = useTransform(x, (v) => -v * 0.7);
 
   function alSoltar(_: unknown, info: PanInfo) {
     if (info.offset.x < -UMBRAL_PX || info.velocity.x < -UMBRAL_VEL) return onAbrir();
@@ -284,19 +285,11 @@ function PaginaShort({
 
   return (
     <section className="muro-pagina" data-indice={indice} style={{ ["--acento" as string]: short.color }}>
-      <div className="muro-foto">
-        <Fotografia
-          foto={short.foto}
-          Respaldo={respaldoDe(short)}
-          reducido={reducido}
-          deriva={activo}
-          desplaza={xFoto}
-        />
-      </div>
-      <div className="muro-velo" />
-
+      {/* El gesto vive en la página entera: se desliza desde cualquier punto,
+          no hay que ir a buscar el texto de abajo. `touch-action: pan-y` deja
+          pasar el desplazamiento vertical, que lo gobierna el navegador. */}
       <motion.div
-        className="muro-texto"
+        className="muro-gesto"
         style={{ x }}
         drag="x"
         dragConstraints={{ left: 0, right: 0 }}
@@ -305,6 +298,18 @@ function PaginaShort({
         onDragEnd={alSoltar}
         onClick={onAbrir}
       >
+        <div className="muro-foto">
+          <Fotografia
+            foto={short.foto}
+            Respaldo={respaldoDe(short)}
+            reducido={reducido}
+            deriva={activo}
+            desplaza={xFoto}
+          />
+        </div>
+        <div className="muro-velo" />
+
+        <div className="muro-texto">
         {/* Se anima solo la que está delante: entrar en pantalla es el disparo */}
         <motion.span
           className="muro-etiqueta"
@@ -344,6 +349,7 @@ function PaginaShort({
           </motion.span>
           Desliza para profundizar
         </motion.span>
+        </div>
       </motion.div>
     </section>
   );

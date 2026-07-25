@@ -1,4 +1,5 @@
 import { CATASTROFES } from "./historias/catastrofes";
+import { CRIMEN } from "./historias/crimen";
 
 /* ==========================================================================
    Shorts: historias sueltas de dos minutos.
@@ -90,4 +91,17 @@ export const MINUTOS = 2;
  * las historias están puestas a mano: la primera de cada tema es la que mejor
  * engancha, no la más antigua.
  */
-export const SHORTS: Short[] = [...CATASTROFES];
+/**
+ * Los temas se alternan a propósito: dos catástrofes seguidas cansan, y lo que
+ * mantiene a alguien deslizando es no saber qué viene. Se intercalan.
+ */
+function intercala(...grupos: Short[][]): Short[] {
+  const salida: Short[] = [];
+  const largo = Math.max(...grupos.map((g) => g.length));
+  for (let i = 0; i < largo; i++) {
+    for (const g of grupos) if (g[i]) salida.push(g[i]);
+  }
+  return salida;
+}
+
+export const SHORTS: Short[] = intercala(CATASTROFES, CRIMEN);
