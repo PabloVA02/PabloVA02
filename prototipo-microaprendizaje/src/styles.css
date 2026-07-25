@@ -1442,23 +1442,6 @@ button {
   color: var(--ink-soft);
 }
 
-/* Carga */
-
-.onb-carga {
-  width: 74%;
-  height: 8px;
-  margin-top: 28px;
-  border-radius: 999px;
-  background: var(--paper-edge);
-  overflow: hidden;
-}
-.onb-carga-relleno {
-  height: 100%;
-  border-radius: 999px;
-  background: var(--sage);
-  transform-origin: left center;
-}
-
 /* Hitos de la prueba */
 
 .onb-hitos {
@@ -2999,55 +2982,85 @@ button {
 /* ==========================================================================
    LA PANTALLA DE CARGA
 
-   La biblioteca se monta delante de ti. Doce portadas en rejilla que caen en
-   diagonal, y debajo las tres tareas cerrándose una a una.
+   La biblioteca se monta delante de ti. Nueve portadas en rejilla que caen en
+   diagonal —las de verdad, con su ilustración y su color—, debajo la barra y
+   su cifra, y al pie las tres tareas cerrándose una a una.
    ========================================================================== */
 
 .carga {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 24px;
   width: 100%;
-  margin-top: 26px;
+  margin-top: 20px;
 }
 
 .carga-rejilla {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 9px;
-  width: min(100%, 250px);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: min(100%, 264px);
 }
 
 .carga-portada {
   position: relative;
+  display: grid;
+  place-items: center;
   aspect-ratio: 3 / 4;
-  border-radius: 7px;
+  border-radius: 9px;
   overflow: hidden;
-  box-shadow: 0 3px 8px rgba(46, 40, 34, 0.16);
+  box-shadow: 0 4px 11px rgba(46, 40, 34, 0.2);
 }
 
-.carga-portada-marca {
+/* El lomo, en el canto izquierdo: sombra pegada al borde y una luz al lado */
+.carga-portada-lomo {
   position: absolute;
-  top: 22%;
-  left: 50%;
-  width: 42%;
-  aspect-ratio: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 7px;
+  background: linear-gradient(90deg, rgba(46, 40, 34, 0.22), rgba(255, 255, 255, 0.16));
+}
+
+.carga-portada-arte {
+  width: 86%;
+  height: 86%;
+  opacity: 0.95;
+}
+
+/* La barra: la cifra a la derecha, en cifras de ancho fijo para que no baile */
+
+.carga-barra {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: min(100%, 264px);
+}
+
+.carga-barra-pista {
+  flex: 1;
+  height: 8px;
   border-radius: 999px;
-  background: var(--paper);
-  opacity: 0.85;
-  transform: translateX(-50%);
+  background: var(--paper-edge);
+  overflow: hidden;
 }
 
-.carga-portada-linea {
-  position: absolute;
-  left: 18%;
-  right: 18%;
-  bottom: 20%;
-  height: 3px;
-  border-radius: 2px;
-  background: var(--paper);
-  opacity: 0.6;
+.carga-barra-relleno {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--sage);
+  transform-origin: left center;
+}
+
+.carga-barra-cifra {
+  flex: none;
+  min-width: 4ch;
+  font-size: 13px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  color: var(--ink-soft);
 }
 
 .carga-tareas {

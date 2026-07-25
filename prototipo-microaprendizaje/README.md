@@ -38,6 +38,7 @@ npm run build     # tsc --noEmit + vite build
 | `src/App.tsx` | Máquina de estados del recorrido y la lectura de tarjetas. |
 | `src/Onboarding.tsx` | Las doce pantallas de introducción, con entrada por partes. |
 | `src/Biblioteca.tsx` | Inicio con las fichas de libros y la ficha de un libro. |
+| `src/Cargando.tsx` | La pantalla de carga: monta la biblioteca de verdad mientras la barra sube a tirones. |
 | `src/Camino.tsx` | El camino de capítulos: serpiente vertical de nodos. |
 | `src/lesson.ts` | Contenido del capítulo. Cada tarjeta declara su **forma** y la forma manda sobre la maquetación. |
 | `src/motion.ts` | Presets de muelle y bucles de reposo. No hay un solo easing lineal fuera de los bucles. |
@@ -49,6 +50,7 @@ npm run build     # tsc --noEmit + vite build
 | `src/undraw.tsx` | **Generado.** No editar a mano. |
 | `scripts/convertir.mjs` | Genera `undraw.tsx` a partir de los SVG de unDraw. |
 | `scripts/medir.mjs` | Calcula el encuadre real de cada SVG con `getBBox`. |
+| `scripts/demo.mjs` | Rehace `demo.html` con lo compilado: `npm run demo`. |
 
 ## Sistema de animación
 
