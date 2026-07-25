@@ -3606,3 +3606,376 @@ button {
   font-size: 11.5px;
   color: var(--ink-soft);
 }
+
+/* ==========================================================================
+   Alta y pago
+
+   Una sola pantalla: cabecera fina, cuerpo con scroll y un pie fijo con la
+   acción. El pie fijo no es estética: es lo que garantiza que el botón que
+   cierra la compra esté siempre donde llega el pulgar, aunque el cuerpo se
+   alargue al abrirse el bloque de la tarjeta.
+   ========================================================================== */
+
+.checkout {
+  /* El cierre se dibuja encima con `position: absolute`, y sin este `relative`
+     se colgaba del marco entero y tapaba también la barra de estado. */
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+}
+
+.checkout-cabecera {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px var(--shell-pad) 8px;
+}
+
+.checkout-seguro {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  font-weight: 640;
+  letter-spacing: 0.01em;
+  color: var(--ink-soft);
+}
+
+.checkout-cuerpo {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 0 var(--shell-pad) 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.checkout-cuerpo::-webkit-scrollbar { display: none; }
+
+/* --- El plan: qué se contrata y qué día se cobra --- */
+
+.plan {
+  padding: 15px 16px;
+  border-radius: 20px;
+  background: var(--paper-deep);
+  border: 1px solid var(--paper-edge);
+}
+
+.plan-fila {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.plan-nombre {
+  font-size: 16px;
+  font-weight: 740;
+  letter-spacing: -0.02em;
+}
+
+.plan-gratis {
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--sage);
+  color: var(--paper);
+  font-size: 11px;
+  font-weight: 720;
+  letter-spacing: 0.02em;
+}
+
+.plan-precio {
+  margin-top: 6px;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+}
+.plan-precio strong { color: var(--ink); font-weight: 760; }
+
+.plan-fechas {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.plan-fechas li {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  font-size: 12.5px;
+  line-height: 1.35;
+  color: var(--ink-soft);
+}
+
+.plan-punto {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: var(--paper-edge);
+}
+.plan-punto[data-hoy] { background: var(--sage); }
+
+/* --- Las carteras: el camino de un toque, y por eso el más grande --- */
+
+.cartera { display: flex; flex-direction: column; gap: 8px; }
+
+.btn-cartera {
+  height: 52px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.btn-cartera[data-marca="apple"] { background: var(--ink); color: var(--paper); }
+.btn-cartera[data-marca="google"] {
+  background: var(--paper);
+  color: var(--ink);
+  border: 1.6px solid var(--paper-edge);
+}
+.btn-cartera:disabled { opacity: 0.5; }
+
+.cartera-nota {
+  margin: 2px 0 0;
+  text-align: center;
+  font-size: 11.5px;
+  line-height: 1.35;
+  color: var(--ink-soft);
+  opacity: 0.8;
+}
+
+.checkout-o {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--ink-soft);
+  font-size: 11.5px;
+  font-weight: 620;
+}
+.checkout-o::before,
+.checkout-o::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--paper-edge);
+}
+
+/* --- Los bloques que se pliegan al resolverse --- */
+
+.bloque { display: flex; flex-direction: column; gap: 10px; }
+
+.bloque-hecho {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: var(--sage-veil);
+}
+
+.bloque-hecho-texto {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 640;
+}
+
+.visto {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--sage);
+  color: var(--paper);
+}
+
+.enlace {
+  font-size: 12.5px;
+  font-weight: 660;
+  color: var(--ink-soft);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* --- Campos --- */
+
+.campo { display: flex; flex-direction: column; gap: 6px; flex: 1; }
+
+.campo-rotulo {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.campo-caja { position: relative; display: flex; }
+
+.campo input {
+  width: 100%;
+  height: 52px;
+  padding: 0 14px;
+  border-radius: 14px;
+  border: 1.6px solid var(--paper-edge);
+  background: var(--paper);
+  color: var(--ink);
+  /* 16 px o más: por debajo, iOS hace zoom al enfocar y descoloca la página */
+  font-size: 16px;
+  font-weight: 620;
+  letter-spacing: 0.01em;
+  transition: border-color 0.16s ease, background 0.16s ease;
+}
+
+.campo input::placeholder { color: var(--ink-soft); opacity: 0.5; font-weight: 560; }
+.campo input:focus {
+  outline: none;
+  border-color: var(--sage);
+  background: var(--paper);
+}
+.campo input[data-mal="true"] { border-color: var(--clay); }
+
+.campo-marca {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 4px 8px;
+  border-radius: 7px;
+  background: var(--paper-deep);
+  font-size: 10.5px;
+  font-weight: 760;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+}
+
+.campo-fila { display: flex; gap: 10px; }
+
+.campo-error {
+  margin: -2px 0 0;
+  font-size: 12px;
+  font-weight: 620;
+  color: var(--clay);
+}
+
+.btn-secundario {
+  width: 100%;
+  height: 50px;
+  border-radius: 999px;
+  background: var(--paper-deep);
+  border: 1.6px solid var(--paper-edge);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* --- El código de seis cifras --- */
+
+.codigo-texto {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: var(--ink-soft);
+}
+.codigo-texto strong { color: var(--ink); }
+
+.codigo-casillas { display: flex; gap: 7px; }
+
+.codigo-casilla {
+  flex: 1;
+  min-width: 0;
+  height: 56px;
+  padding: 0;
+  text-align: center;
+  border-radius: 13px;
+  border: 1.6px solid var(--paper-edge);
+  background: var(--paper);
+  font-size: 22px;
+  font-weight: 760;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+  transition: border-color 0.16s ease, transform 0.16s ease;
+}
+.codigo-casilla:focus { outline: none; border-color: var(--sage); }
+.codigo-casilla[data-lleno="true"] { border-color: var(--sage); background: var(--sage-veil); }
+
+.codigo-pie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.codigo-espera {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  opacity: 0.7;
+}
+
+/* --- El pie fijo --- */
+
+.checkout-pie {
+  flex: none;
+  padding: 10px var(--shell-pad) 18px;
+  background: var(--paper);
+  box-shadow: 0 -14px 22px -18px rgba(46, 40, 34, 0.5);
+}
+
+.checkout-cta { width: 100%; }
+.checkout-cta:disabled { opacity: 0.38; }
+
+.checkout-nota {
+  margin: 9px 0 0;
+  text-align: center;
+  font-size: 11.5px;
+  color: var(--ink-soft);
+}
+
+.puntos { display: inline-flex; gap: 5px; align-items: center; }
+.puntos span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  display: block;
+}
+
+/* --- El cierre --- */
+
+.hecho {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 34px;
+  background: var(--paper);
+}
+
+.hecho-texto {
+  margin: 0;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}

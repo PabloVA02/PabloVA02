@@ -16,6 +16,7 @@ import { Camino } from "./Camino";
 import { Onboarding } from "./Onboarding";
 import { MuroShorts } from "./Shorts";
 import { Pago } from "./Pago";
+import { Checkout } from "./Checkout";
 import { Perfil } from "./Perfil";
 import { Ajustes } from "./Ajustes";
 import { AvisoRegalo, Oferta } from "./Regalo";
@@ -28,7 +29,7 @@ import {
 
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto"
-  | "shorts" | "perfil" | "ajustes" | "oferta";
+  | "shorts" | "perfil" | "ajustes" | "oferta" | "alta";
 
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
 const CON_BARRA: Pantalla[] = ["inicio", "shorts", "perfil"];
@@ -98,7 +99,15 @@ export default function App() {
               }}
             />
           )}
-          {pantalla === "pago" && <Pago key="pago" onEntrar={() => setPantalla("inicio")} />}
+          {pantalla === "pago" && <Pago key="pago" onEntrar={() => setPantalla("alta")} />}
+          {pantalla === "alta" && (
+            <Checkout
+              key="alta"
+              reducido={!!reducido}
+              onVolver={() => setPantalla("pago")}
+              onListo={() => setPantalla("inicio")}
+            />
+          )}
           {pantalla === "inicio" && (
             <Inicio
               key="inicio"
