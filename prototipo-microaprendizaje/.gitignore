@@ -1,2 +1,5 @@
 node_modules/
 dist/
+
+# Generado para publicar la app como página; se rehace con `npm run artefacto`
+artefacto.html

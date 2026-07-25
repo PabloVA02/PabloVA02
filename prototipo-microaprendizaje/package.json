@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "demo": "npm run build && node scripts/demo.mjs",
-    "validar": "node scripts/validar.mjs"
+    "validar": "node scripts/validar.mjs",
+    "artefacto": "npm run build && node scripts/artefacto.mjs"
   },
   "keywords": [],
   "author": "",
