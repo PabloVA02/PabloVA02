@@ -1652,3 +1652,554 @@ export const MUNDO_AYER: Resumen = {
     },
   ],
 };
+
+export const SPQR: Resumen = {
+  id: "spqr",
+  titulo: "SPQR",
+  autor: "Mary Beard",
+  ano: 2015,
+  gancho: "Mil años de Roma contados sin empezar por la loba y sin terminar con los bárbaros. Empieza en un discurso de Cicerón y acaba en un decreto de 212.",
+  porQue:
+    "Es la mejor historia de Roma escrita para gente normal, y desmonta la mitad de las cosas que todos creemos saber sin dejar de ser divertida.",
+  partes: [
+    {
+      titulo: "Cicerón contra Catilina",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Roma, 8 de noviembre del año 63 antes de Cristo. El Senado se reúne en un templo, no en su sede habitual, porque hay miedo. El cónsul en ejercicio se levanta y se dirige directamente a un senador sentado entre los demás, al que acusa de estar preparando un golpe de Estado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cónsul es Marco Tulio Cicerón. El senador acusado es Lucio Sergio Catilina. Y la primera frase del discurso es una de las más repetidas de la historia: hasta cuándo, Catilina, vas a abusar de nuestra paciencia. Los bancos alrededor de Catilina se habían quedado vacíos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mary Beard empieza su historia de Roma ahí, en mitad de la película y a setecientos años del principio. Y explica por qué en la primera página: porque de esa noche tenemos documentos, y de la fundación de la ciudad no tenemos absolutamente nada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La decisión de arranque",
+          frase: "Empezar por Rómulo sería empezar por un cuento que los propios romanos se inventaron ochocientos años después. Empezar por Cicerón es empezar por papeles que existen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso Catilina es además el mejor sitio posible para entender la República. Catilina era un aristócrata arruinado que se presentó dos veces al consulado y perdió las dos. Su programa incluía la cancelación de deudas, y en una Roma llena de gente endeudada eso no era una locura marginal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cicerón, en cambio, era lo que los romanos llamaban un hombre nuevo: el primero de su familia en llegar al consulado, nacido en un pueblo a cien kilómetros de la capital, hijo de una familia acomodada pero sin antepasados en el Senado. Había llegado hablando.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Beard subraya el detalle que hace todo esto legible: casi todo lo que sabemos del asunto lo escribió el propio Cicerón, que era parte interesada y que se pasó el resto de su vida recordándole a todo el mundo que había salvado la patria. La fuente principal es el protagonista.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el desenlace plantea el problema que hundirá a la República. Cicerón hizo ejecutar sin juicio a cinco conspiradores detenidos, amparándose en un decreto de emergencia del Senado. Eran ciudadanos romanos, y ejecutar a un ciudadano sin juicio estaba prohibido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cinco años después lo desterraron precisamente por eso. Volvió, pero el precedente quedó: en caso de emergencia, la ley se podía suspender. Quien decidiera cuándo había emergencia tendría el poder de verdad, y de ahí a César y a Augusto hay muy poco camino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard usa este episodio para presentar su método, que es lo que distingue el libro. No cuenta lo que pasó: cuenta cómo sabemos lo que pasó, quién lo escribió, cuándo, y con qué interés. La historia aparece siempre con las costuras a la vista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título del libro es la fórmula con la que Roma se nombraba a sí misma: Senatus PopulusQue Romanus, el Senado y el pueblo de Roma. Iba en los estandartes, en los monumentos y en las alcantarillas, y sigue hoy en las tapas de registro de las calles de la ciudad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard señala la tensión que esconde esa fórmula: dos poderes unidos por una conjunción. El Senado, que eran unos seiscientos hombres ricos, y el pueblo, que eran cientos de miles. Toda la historia de la República es la negociación, casi siempre violenta, entre esas dos palabras.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El marco del libro",
+          frase: "No es una historia de emperadores ni de batallas. Es la historia de un pueblo que discutió durante mil años quién tenía derecho a ser romano, y que fue contestando que cada vez más gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de retroceder al principio, Beard planta la pregunta que sostiene las quinientas páginas: cómo una ciudad pequeña, sin puerto bueno, sin recursos especiales y sin ventaja militar evidente, acabó gobernando desde Escocia hasta el Éufrates y durando más que ningún otro imperio occidental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta no es el ejército, aunque el ejército fuera excelente. Los griegos, los cartagineses y los persas también tenían buenos ejércitos. Su respuesta es algo que hizo Roma y que no hizo prácticamente nadie más en el mundo antiguo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Atenas, en su mejor momento, era una democracia con una ciudadanía cerradísima: hacía falta padre y madre atenienses. Un extranjero podía vivir allí toda su vida, pagar impuestos y morir sin ser ateniense, igual que sus hijos y sus nietos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Roma hizo lo contrario. Convertía en ciudadanos a los pueblos que conquistaba, a veces por etapas y con distintos grados, pero los convertía. Y liberaba esclavos con una frecuencia enorme, y esos esclavos liberados pasaban a ser ciudadanos romanos de pleno derecho.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mecanismo, dice Beard, es la máquina que hizo grande a Roma. Un imperio que absorbe en vez de solo someter tiene un problema menos: los conquistados de hoy son los legionarios, los senadores y, con el tiempo, los emperadores de mañana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el libro entero está construido para llegar al momento en que ese proceso se completa, en el año 212 después de Cristo. Ahí termina, y no en el 476 con la caída del imperio de Occidente, que es donde terminan casi todos los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero antes hay que ir al principio, o a lo que los romanos contaban como principio. Y lo que contaban es una historia de dos hermanos, una loba, un asesinato y una ciudad fundada como refugio para gente que huía de la ley.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los gemelos y el asilo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La historia que los romanos se contaban a sí mismos es esta: dos hermanos gemelos, Rómulo y Remo, abandonados en una cesta en el Tíber, amamantados por una loba, criados por un pastor. De adultos deciden fundar una ciudad y discuten dónde. Rómulo mata a Remo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard se detiene en lo raro que es ese mito. Casi todas las ciudades antiguas se inventaban un fundador heroico y limpio. Roma se inventó un fratricidio. La primera acción del primer romano es matar a su hermano por una discusión sobre un muro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sigue igual de raro. Para poblar la ciudad, Rómulo abre un asilo: declara refugio a cualquiera que llegue, incluidos ladrones, esclavos fugados y desterrados. Roma se cuenta a sí misma como una ciudad fundada por delincuentes que aceptaba a cualquiera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dice el mito",
+          frase: "Un fratricidio y un asilo para forajidos. Los romanos no contaban esa historia con vergüenza: la contaban con orgullo, porque explicaba las dos cosas que sabían de sí mismos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y falta el tercer episodio, el más incómodo: como no había mujeres, Rómulo invitó a los sabinos vecinos a una fiesta y sus hombres raptaron a las mujeres. El rapto de las sabinas se ha pintado mil veces y se ha contado casi siempre como una escena galante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard señala lo evidente sin escandalizarse: el mito fundacional de Roma incluye una violación masiva planificada. Y observa que los propios autores romanos estaban incómodos con ello, porque se pasan siglos matizando que después las mujeres fueron bien tratadas y que hubo matrimonio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su lectura es la interesante: los mitos no cuentan lo que pasó, cuentan lo que una sociedad piensa de sí misma. Roma se veía como una ciudad violenta, abierta a los de fuera, que crecía asimilando por la fuerza y luego integrando. Y acertaba en el diagnóstico.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre los hechos, Beard es implacable. La fecha tradicional de la fundación, el 753 antes de Cristo, la calcularon eruditos romanos setecientos años después, echando cuentas hacia atrás. No hay ninguna razón para creerla más allá de que ellos se la creyeron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La arqueología sí dice algo: hubo cabañas en el Palatino en el siglo VIII antes de Cristo, y hacia el 600 el valle entre las colinas se drenó y se pavimentó para hacer un foro. Eso último sí es una fecha real de nacimiento de una ciudad: cuando se hace una plaza pública.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De los siete reyes tradicionales, Beard dice que el número es sospechosamente redondo y los reinados sospechosamente largos: siete hombres para doscientos cuarenta años salen a treinta y cinco años cada uno, algo que no ocurre en ninguna monarquía documentada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí parece real es el final: la expulsión del último rey, Tarquinio el Soberbio, hacia el 509 antes de Cristo, y la instauración de la República. A partir de ahí, la palabra rey se convirtió en el peor insulto político disponible durante quinientos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle explica muchísimo de lo que vendrá después. Cuando a Julio César le ofrecieron una corona en público, tuvo que rechazarla tres veces delante de la multitud. Y cuando Augusto montó una monarquía de facto, evitó cuidadosamente cualquier título que sonara a rey.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La palabra prohibida",
+          frase: "Augusto se hizo llamar princeps, «el primero». Todo el sistema imperial se construyó fingiendo que la República seguía funcionando, porque decir «rey» era impensable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La expansión por Italia ocupa la parte central del libro y ahí Beard hace su mejor trabajo desmontando tópicos. Roma no conquistó Italia con un plan imperial: se pasó dos siglos metida en guerras con los vecinos, muchas veces perdiendo, y en general reaccionando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí hizo distinto fue lo de después de ganar. En vez de saquear y marcharse, o de esclavizar a todos, firmaba tratados que convertían al vencido en aliado con obligaciones militares y, con el tiempo, con derechos. El vencido acababa aportando soldados en vez de rebelarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso le dio a Roma una reserva de hombres que ninguna otra potencia mediterránea tenía. Beard lo ilustra con Aníbal: destrozó tres ejércitos romanos en tres años, incluido Cannas, donde murieron decenas de miles en un día, y aun así Roma volvió a presentar ejércitos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aníbal se pasó quince años en Italia esperando que los aliados italianos de Roma se le unieran en masa. Muchos no lo hicieron. Esa fidelidad, comprada con ciudadanía y tratados, y no una superioridad táctica, es lo que ganó la guerra.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard también cuenta lo que la expansión hizo dentro de casa, y es la parte menos heroica. Las guerras trajeron cantidades enormes de esclavos y de tierra, y las dos cosas fueron a parar a muy pocas manos. Los campesinos que servían en las legiones volvían y no tenían dónde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí salen los hermanos Graco, dos aristócratas que en el siglo II antes de Cristo intentaron repartir tierra pública entre los pobres. A los dos los mataron, con años de diferencia, en tumultos organizados por sus propios colegas del Senado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard fija ahí, en el 133 antes de Cristo, el momento en que la política romana admite el asesinato como herramienta interna. Cien años después, ese camino desemboca en César cruzando un río pequeño del norte de Italia con una legión detrás.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La ciudad que hacía ciudadanos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Enero del año 49 antes de Cristo, orilla de un riachuelo del norte de Italia llamado Rubicón. Julio César lo cruza con una legión. Cruzarlo armado significaba entrar en Italia sin licenciar el ejército, y eso era, por definición legal, una declaración de guerra contra el Estado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que se le atribuye, la suerte está echada, la cuenta Suetonio ciento cincuenta años después. Beard señala además que en griego, que es como probablemente la dijo, la expresión es de jugadores de dados y significa más bien que la tirada ya está en el aire.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro años después lo asesinan en el Senado veintitrés puñaladas, en los idus de marzo del 44. Beard desmonta aquí uno de los tópicos más resistentes: no fue una conjura de idealistas republicanos. Entre los sesenta conspiradores había muchos a los que César había perdonado y ascendido.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que César había hecho",
+          frase: "Dictador vitalicio, su cara en las monedas en vida, su estatua entre las de los dioses. No lo mataron por tirano genérico: lo mataron por convertirse en algo que Roma llevaba cuatrocientos años prometiendo que no volvería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado del magnicidio fue exactamente lo contrario de lo buscado: catorce años más de guerra civil y, al final, un solo hombre con más poder del que César había tenido nunca. Su sobrino nieto Octaviano, que se hizo llamar Augusto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard describe la operación de Augusto como la mayor maniobra política de la historia antigua, y no por las batallas. Mantuvo todas las instituciones republicanas —el Senado, los cónsules, las elecciones— vacías de poder y funcionando, y gobernó cuarenta y un años sin llamarse rey ni una vez.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El detalle que ella destaca: se atribuyó la auctoritas, una palabra que significa influencia y prestigio, no poder legal. Presumía de haber devuelto la República al pueblo. Y era verdad en el papel, y mentira en todo lo demás, y ese doble filo aguantó tres siglos.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre los emperadores siguientes, Beard hace algo que le ha valido críticas y que es de lo más útil del libro: rebajarlos. Sostiene que las diferencias entre un emperador bueno y uno monstruoso importaban poquísimo para la vida de la mayoría de los habitantes del imperio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento es administrativo. El aparato imperial era minúsculo: unos pocos cientos de funcionarios de alto nivel para cincuenta o sesenta millones de personas. La maquinaria seguía funcionando igual con Calígula que con Trajano, porque la maquinaria apenas dependía del emperador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y desmonta las anécdotas más famosas una por una. Que Calígula nombró cónsul a su caballo: lo cuenta Suetonio, hostil, ochenta años después, y lo más probable es que fuera una broma del propio emperador burlándose de la inutilidad del Senado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que Nerón tocó la lira mientras Roma ardía: estaba a cincuenta kilómetros y volvió a organizar el socorro. La historia procede de fuentes que lo detestaban y que escribían para dinastías rivales. Beard no lo absuelve, solo señala quién firma la acusación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que a ella le interesa de verdad no está en el palacio. Está en las tumbas, en las tablillas, en los recibos y en las paredes. Y ahí el libro cambia de marcha y se convierte en otra cosa: en una historia de gente cuyo nombre no aparece en ningún manual.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El cambio de foco",
+          frase: "«SPQR» dedica tanto espacio a un panadero liberto que se hizo construir una tumba en forma de horno como a la mitad de los emperadores juntos. Y el panadero explica más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese panadero existió: se llamaba Marco Virgilio Eurisaces, era un esclavo liberado, se hizo rico con contratas de pan y se construyó junto a una puerta de Roma un monumento funerario enorme, decorado con relieves donde se ve cada paso del proceso de amasar y hornear.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard lo usa como prueba de su tesis central. Un hombre nacido esclavo, en cualquier otra sociedad antigua, habría muerto esclavo y sin tumba. En Roma podía comprar su libertad, hacerse ciudadano, enriquecerse y dejar un monumento presumiendo de su oficio a la entrada de la capital.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no suaviza el otro lado. La esclavitud romana era masiva y brutal: se calcula que en Italia había entre uno y dos millones de esclavos, quizá un cuarto de la población. En las minas y en los latifundios la esperanza de vida era corta y la manumisión no llegaba nunca.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La diferencia estaba en la casa. Un esclavo doméstico urbano podía ser liberado en el testamento del amo o comprarse la libertad con sus ahorros, y al hacerlo se convertía en ciudadano. Sus hijos nacían libres y con todos los derechos. Ese detalle jurídico no tiene paralelo antiguo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard calcula, a partir de las inscripciones funerarias conservadas, que una parte enorme de la población libre de la ciudad de Roma descendía de esclavos liberados en dos o tres generaciones. La Roma imperial era, en buena medida, una ciudad de hijos y nietos de esclavos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y eso conecta con lo militar de la forma más práctica posible: las legiones acabaron llenándose de provinciales, y los provinciales acabaron llegando al trono. Trajano y Adriano nacieron en la Bética, en la actual provincia de Sevilla. Septimio Severo, en Libia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para ver cómo funcionaba todo eso en la práctica, en el borde del mundo conocido, Beard se va al sitio menos glamuroso posible: un fuerte de madera en el norte de Inglaterra, a cinco kilómetros de la muralla de Adriano, donde alguien tiró unos papeles a la basura hacia el año cien.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las tablillas de Vindolanda",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Northumberland, norte de Inglaterra, 1973. Un arqueólogo excava un fuerte romano llamado Vindolanda y saca del barro unas virutas de madera finas como cartas de baraja. Están manchadas. Al limpiarlas aparece tinta: son cartas, y llevan mil novecientos años en un vertedero encharcado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se han recuperado más de setecientas. Son las notas cotidianas de una guarnición en la frontera más al norte del imperio: inventarios, permisos, listas de la compra, quejas. Nadie las escribió para la posteridad, y por eso son la mejor fuente que existe sobre la vida corriente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un pedido de calcetines y calzoncillos que le manda alguien a un soldado, cosa muy razonable en aquel clima. Hay una queja sobre la calidad de la cerveza. Hay una nota administrativa que se refiere a los britanos locales con un mote despectivo: los britúnculos, los britanitos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Tablilla 291",
+          frase: "Claudia Severa invita a su amiga Sulpicia Lepidina a su fiesta de cumpleaños, hacia el año 100. Es el texto en latín más antiguo escrito de mano de una mujer que se conserva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La carta la dictó a un escribiente, como era normal, pero las últimas líneas están en otra letra, más torpe: las añadió ella misma. Le dice a su hermana del alma que la espera y se despide. Ese cambio de caligrafía, dice Beard, es uno de los momentos más emocionantes de la arqueología romana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos mujeres de la élite militar, en el confín del mundo, organizando un cumpleaños. Ninguna aparece en ningún libro de historia antigua. Existen porque alguien tiró una tablilla a un charco y el charco no tenía oxígeno.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Beard usa el hallazgo para insistir en lo poco que sabemos y en lo mucho que se ha perdido. Si esos setecientos textos aparecieron por accidente en un solo fuerte, lo que existió y se ha destruido es de un orden que no se puede ni estimar.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra gran fuente de vida corriente es Pompeya, y Beard la exprime. Las paredes están llenas de grafitis, y no son inscripciones solemnes: son propaganda electoral, insultos, precios de prostitutas, anuncios de peleas de gladiadores y comentarios sobre el vino de la taberna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay uno que ella cita siempre, escrito en una pared, y que resume la historia entera de la escritura: me asombra, pared, que no te hayas derrumbado ya, cargando con las tonterías de tantos que escriben en ti.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De esas fuentes sale un retrato del romano medio que no se parece al de las películas. Vivía en un piso de alquiler pequeño y con riesgo de incendio, no tenía cocina y comía en la calle, se lavaba en baños públicos y era, en más de la mitad de los casos, descendiente de esclavos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La mortalidad infantil era brutal: alrededor de la mitad de los niños moría antes de los diez años. Beard señala lo que eso implica y que casi nunca se dice: la esperanza de vida baja de la Antigüedad es sobre todo un efecto de esas muertes tempranas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El que llegaba a los veinte tenía buenas probabilidades de llegar a los cincuenta o sesenta. Roma estaba llena de viejos, no de gente que se moría a los treinta. Es un ejemplo de cómo una media estadística mal leída deforma la imagen de una época entera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Las mujeres",
+          frase: "Beard reconoce que sabemos muy poco y que casi todo lo escribieron hombres. De las mujeres romanas conservamos sobre todo lápidas, y en las lápidas todas eran obedientes y trabajaban la lana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así reconstruye lo que puede. Las mujeres romanas no votaban ni ocupaban cargos, pero podían poseer y heredar propiedades, divorciarse y llevar negocios. Comparadas con las atenienses, tenían una libertad de movimientos considerablemente mayor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aparecen en los papeles como propietarias de ladrillares, de tiendas y de tierras. Beard menciona a Eumaquia, una empresaria de Pompeya que financió un edificio entero en el foro y le puso su nombre, y cuya estatua le dedicaron los bataneros de la ciudad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Sobre la religión, su observación es de las más brillantes: Roma era radicalmente tolerante con los dioses ajenos, porque le daba igual en qué creyeras mientras hicieras los sacrificios públicos. La lealtad se demostraba con un gesto, no con una fe.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso los cristianos y los judíos tuvieron problemas y los demás no: no era el contenido de su religión, era que se negaban a participar en el rito cívico. Beard señala que las persecuciones fueron esporádicas y locales, no una política sostenida, salvo en episodios concretos y tardíos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese modelo —da igual lo que creas, participa en lo público— es otra cara de la misma máquina de integrar. Un imperio que no exige conversión puede absorber pueblos indefinidamente sin tener que reeducarlos, y eso abarata muchísimo la administración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y todo eso conduce a un decreto administrativo del año 212, firmado por un emperador nacido en el norte de África, del que apenas se conservan copias y que casi nunca aparece en las listas de fechas importantes de la historia romana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard lo eligió como final de su libro. Es una decisión de autora y es también su argumento entero condensado en una fecha, porque en ese decreto se termina el proceso que había empezado con un asilo para forajidos en una colina junto al Tíber.",
+        },
+      ],
+    },
+
+    {
+      titulo: "212 después de Cristo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Año 212 después de Cristo. El emperador Caracalla promulga una constitución que concede la ciudadanía romana a prácticamente todos los habitantes libres del imperio. De golpe, unos treinta millones de personas que no eran ciudadanas pasan a serlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard termina ahí su historia de Roma, y la elección es la tesis. Ochocientos años antes, ciudadano romano era el que vivía en unas cuantas hectáreas junto a un río. En 212, lo era un campesino de Egipto, un tejedor de Siria y un minero de Hispania.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué acaba ahí",
+          frase: "No termina con la caída de Roma porque la pregunta de su libro no era cómo se hundió, sino cómo llegó a ser lo que fue. Y en 212 la respuesta está completa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no lo idealiza. Señala que las fuentes antiguas atribuyen la medida a un motivo fiscal: había impuestos que solo pagaban los ciudadanos, y ampliar el censo ampliaba la recaudación. Caracalla, además, había llegado al poder asesinando a su hermano Geta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero el efecto fue el que fue, independientemente del motivo. A partir de entonces ser romano dejó de ser una cuestión de origen y pasó a ser una cuestión de estatus jurídico, disponible en todo el Mediterráneo y más allá. Ninguna otra sociedad antigua llegó a eso.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Beard remata con una comparación que deja pensando: la palabra que los romanos usaban para su imperio no significaba territorio, significaba mando. Y lo que exportaron con más éxito no fueron las legiones ni los acueductos: fue una idea de pertenencia que podía comprarse, ganarse o concederse.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro, que falla en cosas que a mucha gente le importan. La primera es que apenas hay batallas. Beard decide deliberadamente no contar la historia militar, y las guerras púnicas o las campañas de César se despachan en páginas donde otros autores gastan capítulos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es de reparto: la República se lleva la mayor parte del libro y los tres siglos de imperio quedan comprimidos al final. El lector que llegue buscando la dinastía Julio-Claudia y los emperadores célebres encontrará mucho menos de lo que espera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es de método, y es la que más se le ha criticado: Beard desmonta anécdotas famosas con eficacia y no siempre pone algo en su lugar. El lector sale sabiendo que muchas cosas que creía son dudosas, y a veces sin saber qué debería creer en su lugar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una cuarta, más discutible: su insistencia en que los emperadores individuales importaban poco funciona bien para el siglo I y bastante peor cuando se llega a decisiones que sí cambiaron el imperio, como la de Constantino con el cristianismo, que ya queda fuera del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad, empezando por lo más gordo: Roma no cayó por los bárbaros y por la decadencia moral. Esa es la tesis de Gibbon, del siglo XVIII, y hoy la historiografía habla de transformación, de presión fiscal, de peste y de reorganización política.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: que el Imperio romano fuese una máquina burocrática eficientísima. Beard insiste en lo contrario. Era un imperio enorme gobernado con una plantilla ridícula, que funcionaba delegando en élites locales y que muchas veces no se enteraba de lo que pasaba en sus provincias.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El tercer tópico",
+          frase: "SPQR no era el lema de un imperio militar. Era la fórmula de una república: el Senado y el pueblo. Los emperadores la mantuvieron precisamente porque les servía para fingir que no eran reyes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el cuarto: los gladiadores. Beard señala que el saludo de los que van a morir te saludan aparece una sola vez en toda la literatura antigua, y no en un combate de gladiadores, sino en una batalla naval fingida organizada por Claudio. No era una fórmula habitual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco el pulgar hacia abajo. El gesto que se describe en las fuentes es ambiguo, y la imagen que todos tenemos viene de un cuadro del siglo XIX de Jean-Léon Gérôme que el cine copió después. Media iconografía romana popular procede de la pintura académica francesa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es, en el fondo, el gran servicio del libro: separar lo que sabemos de lo que nos han contado, y decir de cada cosa quién la escribió y cuándo. Beard no le quita a Roma nada de interés; le quita el decorado que le pusimos nosotros.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una razón por la que insiste tanto. Sostiene que Roma no se estudia porque nos parezcamos a ella, sino porque llevamos dos mil años discutiendo con sus conceptos: ciudadanía, libertad, imperio, dictadura, derecho. Las palabras del debate político moderno son literalmente latinas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio caso Catilina lo demuestra. La pregunta de si un Estado puede suspender sus propias leyes ante una emergencia, y quién decide que hay emergencia, se discutió en aquel templo del 63 antes de Cristo y se sigue discutiendo en cualquier parlamento de hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beard cierra avisando de que ni admira ni condena a los romanos, y que las dos cosas serían igual de inútiles. Dice que fueron capaces de una crueldad que hoy nos parece intolerable y de una apertura que ninguna sociedad de su tiempo alcanzó, y que las dos cosas van juntas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El último párrafo del libro es una frase suya que resume el oficio: llevamos discutiendo con Roma dos milenios, y esa conversación sería mucho más pobre si nos limitáramos a darles la razón o a quitársela.",
+        },
+      ],
+    },
+  ],
+};
