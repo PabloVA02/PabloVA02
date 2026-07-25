@@ -31,6 +31,178 @@ const euros = (n: number) => n.toFixed(2).replace(".", ",") + " €";
 const AL_MES = euros(PRECIO_OFERTA / 12);
 
 /* --------------------------------------------------------------------------
+   El zorro
+   -------------------------------------------------------------------------- */
+
+/**
+ * El que vive dentro de la caja.
+ *
+ * Es un zorro y no un búho ni un panda por una razón práctica: el cuerpo va en
+ * terracota y el pecho en hueso, que son dos colores que YA existen en la
+ * paleta. Un animal con colores nuevos habría metido dos tintas más en una app
+ * que tiene cinco y punto.
+ *
+ * La salida es de dibujo animado, no de interfaz: sube pasándose de largo,
+ * aterriza aplastado y se recompone. La deformación es lo único que hace que
+ * un muñeco parezca tener peso, y va en los dos ejes a la vez —se estira al
+ * subir, se ensancha al caer— porque el volumen se conserva.
+ *
+ * Las cinco animaciones de reposo van cada una por su lado y con periodos que
+ * no son múltiplos entre sí: respiración, cola, orejas, parpadeo y el balanceo
+ * de la cabeza. Si compartieran reloj, el zorro sería un metrónomo. Como no lo
+ * comparten, nunca repite la misma pose y parece que está vivo.
+ */
+function Zorro({ reducido }: { reducido: boolean }) {
+  return (
+    <motion.g
+      style={{ originX: "100px", originY: "96px" }}
+      initial={reducido ? { opacity: 0 } : { y: 78, scaleY: 0.72, scaleX: 1.2, opacity: 0 }}
+      animate={
+        reducido
+          ? { opacity: 1 }
+          : {
+              // Sale disparado, se pasa doce píxeles, cae y se asienta.
+              y: [78, 40, -12, 3, 0],
+              scaleY: [0.72, 0.9, 1.14, 0.95, 1],
+              scaleX: [1.2, 1.08, 0.9, 1.05, 1],
+              rotate: [0, 0, -4, 2, 0],
+              opacity: [0, 1, 1, 1, 1],
+            }
+      }
+      transition={
+        reducido
+          ? { duration: 0.25 }
+          : { duration: 0.82, delay: 0.2, times: [0, 0.18, 0.52, 0.8, 1], ease: "easeOut" }
+      }
+    >
+      {/* Respiración y balanceo. Empieza cuando el salto ya ha terminado */}
+      <motion.g
+        style={{ originX: "100px", originY: "96px" }}
+        animate={
+          reducido ? {} : { y: [0, -2.6, 0], scaleY: [1, 1.025, 1], rotate: [0, 2.2, 0, -2.2, 0] }
+        }
+        transition={{
+          y: { duration: 2.9, repeat: Infinity, ease: "easeInOut", delay: 1.05 },
+          scaleY: { duration: 2.9, repeat: Infinity, ease: "easeInOut", delay: 1.05 },
+          rotate: { duration: 7.3, repeat: Infinity, ease: "easeInOut", delay: 1.4 },
+        }}
+      >
+        {/* La cola, detrás de todo. Gira sobre su nacimiento, no sobre el
+            centro: una cola que pivota por el medio parece una hélice. */}
+        <motion.g
+          style={{ originX: "124px", originY: "92px" }}
+          animate={reducido ? {} : { rotate: [-9, 12, -9] }}
+          transition={{ duration: 1.35, repeat: Infinity, ease: "easeInOut", delay: 0.9 }}
+        >
+          {/* Hecha de círculos que van menguando, no de un contorno: así el
+              perfil sale mullido y la punta afila sola. Con una curva cerrada
+              a mano la cola parecía un brazo doblado. */}
+          <circle cx="122" cy="90" r="13" fill="var(--clay)" />
+          <circle cx="131" cy="79" r="12.2" fill="var(--clay)" />
+          <circle cx="137" cy="67" r="11" fill="var(--clay)" />
+          <circle cx="140" cy="55" r="9.6" fill="var(--clay)" />
+          <circle cx="139" cy="44" r="8.4" fill="var(--paper)" />
+          <circle cx="134" cy="35" r="6.6" fill="var(--paper)" />
+        </motion.g>
+
+        {/* Orejas. Cada una con su periodo, para que no se muevan a la vez */}
+        <motion.g
+          style={{ originX: "92px", originY: "25px" }}
+          animate={reducido ? {} : { rotate: [0, -13, 0, 5, 0] }}
+          transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 2.3, ease: "easeInOut", delay: 1.5 }}
+        >
+          <path
+            d="M82 26 L76 8 L96 20 Z"
+            fill="var(--clay)"
+            stroke="var(--clay)"
+            strokeWidth="6"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M84 23 L80.5 13 L91 19 Z"
+            fill="var(--skin)"
+            stroke="var(--skin)"
+            strokeWidth="3"
+            strokeLinejoin="round"
+          />
+        </motion.g>
+        <motion.g
+          style={{ originX: "108px", originY: "25px" }}
+          animate={reducido ? {} : { rotate: [0, 13, 0, -5, 0] }}
+          transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 3.1, ease: "easeInOut", delay: 2.1 }}
+        >
+          <path
+            d="M118 26 L124 8 L104 20 Z"
+            fill="var(--clay)"
+            stroke="var(--clay)"
+            strokeWidth="6"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M116 23 L119.5 13 L109 19 Z"
+            fill="var(--skin)"
+            stroke="var(--skin)"
+            strokeWidth="3"
+            strokeLinejoin="round"
+          />
+        </motion.g>
+
+        {/* Cuerpo y pechera */}
+        <path d="M74 98 C74 76, 85 66, 100 66 C115 66, 126 76, 126 98 Z" fill="var(--clay)" />
+        <path d="M88 98 C88 82, 93 75, 100 75 C107 75, 112 82, 112 98 Z" fill="var(--paper)" opacity="0.9" />
+
+        {/* Las manos agarran el borde de la caja: media pata queda dentro,
+            tapada por las caras de delante, y por eso se lee como agarre */}
+        <g>
+          <ellipse cx="76" cy="84" rx="9" ry="6.6" fill="var(--clay)" />
+          <ellipse cx="124" cy="84" rx="9" ry="6.6" fill="var(--clay)" />
+          <path
+            d="M72.6 82.6 v3 M76 82.2 v3.4 M79.4 82.6 v3 M120.6 82.6 v3 M124 82.2 v3.4 M127.4 82.6 v3"
+            stroke="var(--clay-deep)"
+            strokeWidth="1.4"
+            strokeLinecap="round"
+            opacity="0.45"
+          />
+        </g>
+
+        {/* Cabeza */}
+        <ellipse cx="100" cy="41" rx="28" ry="24" fill="var(--clay)" />
+        <ellipse cx="100" cy="52" rx="15" ry="10.5" fill="var(--paper)" />
+        <ellipse cx="79" cy="47" rx="6" ry="4" fill="var(--clay-veil)" opacity="0.7" />
+        <ellipse cx="121" cy="47" rx="6" ry="4" fill="var(--clay-veil)" opacity="0.7" />
+        <ellipse cx="100" cy="47.5" rx="4.4" ry="3.4" fill="#2b2320" />
+        <path
+          d="M100 51 q0 3.6 -4 3.6 M100 51 q0 3.6 4 3.6"
+          stroke="#2b2320"
+          strokeWidth="1.7"
+          strokeLinecap="round"
+          fill="none"
+        />
+
+        {/* Los dos ojos parpadean juntos, que es como parpadea todo el mundo.
+            Un ojo suelto es un guiño, y un guiño cada cuatro segundos cansa. */}
+        <motion.g
+          style={{ originX: "100px", originY: "37px" }}
+          animate={reducido ? {} : { scaleY: [1, 1, 0.06, 1] }}
+          transition={{
+            duration: 4.2,
+            times: [0, 0.9, 0.945, 1],
+            repeat: Infinity,
+            ease: "easeInOut",
+            delay: 1.6,
+          }}
+        >
+          <ellipse cx="87.5" cy="37" rx="5.4" ry="6" fill="#2b2320" />
+          <ellipse cx="112.5" cy="37" rx="5.4" ry="6" fill="#2b2320" />
+          <circle cx="89.6" cy="34.8" r="1.9" fill="#fff" opacity="0.92" />
+          <circle cx="114.6" cy="34.8" r="1.9" fill="#fff" opacity="0.92" />
+        </motion.g>
+      </motion.g>
+    </motion.g>
+  );
+}
+
+/* --------------------------------------------------------------------------
    La caja
    -------------------------------------------------------------------------- */
 
@@ -39,55 +211,80 @@ const AL_MES = euros(PRECIO_OFERTA / 12);
  * fuga, así que al levantarse la tapa el volumen sigue cuadrando. Dibujarla
  * de frente y «sugerir» la profundidad con una sombra es lo que hace que
  * estas cajas parezcan pegatinas.
+ *
+ * El orden de pintado es lo que hace que el zorro salga DE la caja y no
+ * DELANTE de ella: primero la boca oscura, luego el zorro, y encima las dos
+ * caras de delante, que juntas tapan todo lo que quede por debajo del borde.
+ * Sin ese sándwich, el muñeco flota sobre el dibujo como una pegatina.
  */
 function Caja({
   abierta,
   reducido,
   tamano = 190,
+  conZorro = false,
 }: {
   abierta: boolean;
   reducido: boolean;
   tamano?: number;
+  /** El zorro solo sale en la oferta: en el aviso la caja está por abrir. */
+  conZorro?: boolean;
 }) {
   return (
     <svg viewBox="0 0 200 200" width={tamano} height={tamano} aria-hidden>
-      {/* Cuerpo */}
+      {/* Boca oscura: sin esto la caja abierta parece maciza */}
+      <motion.path
+        d="M100 96 L172 62 L100 28 L28 62 Z"
+        fill="#2f3a26"
+        initial={false}
+        animate={{ opacity: abierta ? 1 : 0 }}
+        transition={springSoft}
+      />
+
+      {conZorro && abierta && <Zorro reducido={reducido} />}
+
+      {/* Cuerpo. Va DESPUÉS del zorro: es lo que le corta la cintura */}
       <g>
         <path d="M100 96 L172 62 L172 138 L100 172 Z" fill="var(--sage)" />
         <path d="M100 96 L28 62 L28 138 L100 172 Z" fill="var(--sage-oscuro, #55624a)" />
         {/* La cinta baja por las dos caras y se dobla en la arista */}
         <path d="M118 87 L118 163 L136 154 L136 78 Z" fill="var(--paper)" opacity="0.55" />
         <path d="M64 78 L64 154 L82 163 L82 87 Z" fill="var(--paper)" opacity="0.32" />
-        {/* Boca oscura: sin esto la caja abierta parece maciza */}
-        <motion.path
-          d="M100 96 L172 62 L100 28 L28 62 Z"
-          fill="#2f3a26"
-          initial={false}
-          animate={{ opacity: abierta ? 1 : 0 }}
-          transition={springSoft}
-        />
       </g>
 
-      {/* Tapa: sale despedida y gira */}
+      {/* Mientras está cerrada, algo empuja desde dentro cada dos por tres */}
       <motion.g
-        initial={false}
-        animate={
-          abierta
-            ? { y: reducido ? -46 : -74, rotate: -13, scale: 1.04 }
-            : { y: 0, rotate: 0, scale: 1 }
-        }
-        transition={{ type: "spring", stiffness: 190, damping: 13, mass: 1 }}
         style={{ originX: "100px", originY: "60px" }}
+        animate={abierta || reducido ? {} : { y: [0, -6, 0, -2.5, 0], rotate: [0, -1.6, 0, 1, 0] }}
+        transition={{ duration: 1.4, repeat: Infinity, repeatDelay: 1.8, ease: "easeInOut", delay: 1.1 }}
       >
-        <path d="M100 92 L180 54 L100 16 L20 54 Z" fill="var(--sage)" />
-        <path d="M100 92 L180 54 L180 66 L100 104 Z" fill="var(--sage-oscuro, #55624a)" />
-        <path d="M100 92 L20 54 L20 66 L100 104 Z" fill="var(--sage-oscuro, #55624a)" opacity="0.75" />
-        {/* Lazo */}
-        <g>
-          <path d="M100 54 C82 40, 74 28, 86 22 C96 17, 100 34, 100 46" fill="var(--paper)" opacity="0.6" />
-          <path d="M100 54 C118 40, 126 28, 114 22 C104 17, 100 34, 100 46" fill="var(--paper)" opacity="0.42" />
-          <ellipse cx="100" cy="52" rx="9" ry="6" fill="var(--paper)" opacity="0.75" />
-        </g>
+        {/* Tapa: sale despedida y gira */}
+        <motion.g
+          initial={false}
+          animate={
+            abierta
+              ? { y: reducido ? -46 : -104, x: -18, rotate: -17, scale: 1.04, opacity: 0 }
+              : { y: 0, x: 0, rotate: 0, scale: 1, opacity: 1 }
+          }
+          // La tapa no se desvanece en el sitio: se apaga cuando ya está
+          // saliendo de cuadro, que es cuando dejaría de verse de todos modos.
+          // Sin esto, el lienzo la recorta y queda un triángulo verde cortado
+          // justo detrás de la cabeza del zorro.
+          transition={{
+            default: { type: "spring", stiffness: 190, damping: 13, mass: 1 },
+            opacity: abierta ? { duration: 0.3, delay: 0.34 } : { duration: 0.2 },
+          }}
+          style={{ originX: "100px", originY: "60px" }}
+        >
+          <path d="M100 92 L180 54 L100 16 L20 54 Z" fill="var(--sage)" />
+          <path d="M100 92 L180 54 L180 66 L100 104 Z" fill="var(--sage-oscuro, #55624a)" />
+          <path d="M100 92 L20 54 L20 66 L100 104 Z" fill="var(--sage-oscuro, #55624a)" opacity="0.75" />
+          {/* Lazo */}
+          <g>
+            <path d="M100 54 C82 40, 74 28, 86 22 C96 17, 100 34, 100 46" fill="var(--paper)" opacity="0.6" />
+            <path d="M100 54 C118 40, 126 28, 114 22 C104 17, 100 34, 100 46" fill="var(--paper)" opacity="0.42" />
+            <ellipse cx="100" cy="52" rx="9" ry="6" fill="var(--paper)" opacity="0.75" />
+          </g>
+        </motion.g>
       </motion.g>
     </svg>
   );
@@ -146,6 +343,57 @@ function Chispas({ reducido }: { reducido: boolean }) {
             />
           </motion.g>
         </motion.svg>
+      ))}
+    </>
+  );
+}
+
+/**
+ * Papelillos. A diferencia de las estrellas, que se quedan flotando, estos
+ * tienen gravedad: suben con la tapa, se frenan y caen girando. Dos curvas
+ * distintas para el mismo movimiento —`easeOut` al subir, `easeIn` al caer—
+ * porque una sola curva para todo el recorrido no es una parábola, es un
+ * elemento que se mueve.
+ */
+function Confeti({ reducido }: { reducido: boolean }) {
+  if (reducido) return null;
+
+  const trozos = [
+    { x: -118, sube: -78, cae: 96, giro: 420, c: "var(--clay)", w: 7, h: 11, t: 1.5, d: 0.2 },
+    { x: -74, sube: -122, cae: 58, giro: -300, c: "var(--ochre)", w: 9, h: 9, t: 1.7, d: 0.26 },
+    { x: -38, sube: -140, cae: 30, giro: 520, c: "var(--plum-light, #9d8499)", w: 6, h: 12, t: 1.8, d: 0.22 },
+    { x: -12, sube: -152, cae: 70, giro: -380, c: "var(--paper)", w: 8, h: 8, t: 1.9, d: 0.3 },
+    { x: 22, sube: -134, cae: 44, giro: 340, c: "var(--sage)", w: 7, h: 11, t: 1.6, d: 0.24 },
+    { x: 58, sube: -146, cae: 82, giro: -460, c: "var(--clay)", w: 9, h: 7, t: 1.85, d: 0.34 },
+    { x: 96, sube: -104, cae: 62, giro: 400, c: "var(--ochre)", w: 6, h: 12, t: 1.55, d: 0.2 },
+    { x: 126, sube: -70, cae: 108, giro: -280, c: "var(--plum-light, #9d8499)", w: 8, h: 8, t: 1.45, d: 0.3 },
+    { x: -100, sube: -134, cae: 26, giro: 300, c: "var(--paper)", w: 7, h: 10, t: 1.75, d: 0.38 },
+    { x: 80, sube: -158, cae: 20, giro: -520, c: "var(--sage)", w: 6, h: 11, t: 1.95, d: 0.42 },
+  ];
+
+  return (
+    <>
+      {trozos.map((p, i) => (
+        <motion.span
+          key={i}
+          className="regalo-confeti"
+          style={{ width: p.w, height: p.h, background: p.c }}
+          initial={{ x: 0, y: 10, rotate: 0, opacity: 0 }}
+          animate={{
+            x: p.x,
+            y: [10, p.sube, p.cae],
+            rotate: p.giro,
+            opacity: [0, 1, 1, 0],
+          }}
+          transition={{
+            duration: p.t,
+            delay: p.d,
+            x: { ease: "easeOut" },
+            y: { times: [0, 0.42, 1], ease: ["easeOut", "easeIn"] },
+            rotate: { ease: "linear" },
+            opacity: { times: [0, 0.06, 0.72, 1] },
+          }}
+        />
       ))}
     </>
   );
@@ -274,9 +522,14 @@ export function Oferta({
             }
             transition={{ duration: 3.4, repeat: Infinity, ease: "easeInOut", delay: 1.1 }}
           >
-            <Caja abierta={abierta} reducido={reducido} tamano={196} />
+            <Caja abierta={abierta} reducido={reducido} tamano={196} conZorro />
           </motion.div>
-          {abierta && <Chispas reducido={reducido} />}
+          {abierta && (
+            <>
+              <Chispas reducido={reducido} />
+              <Confeti reducido={reducido} />
+            </>
+          )}
         </div>
 
         <div className="oferta-precios">
