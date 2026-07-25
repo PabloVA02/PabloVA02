@@ -3712,3 +3712,907 @@ export const SENOR_MOSCAS: Resumen = {
     },
   ],
 };
+
+export const DRACULA: Resumen = {
+  id: "dracula",
+  titulo: "Drácula",
+  autor: "Bram Stoker",
+  ano: 1897,
+  gancho: "No hay ni un solo narrador. La novela son cartas, diarios, telegramas y recortes de periódico, como si fuera un expediente.",
+  porQue:
+    "Casi todo lo que crees saber sobre vampiros lo inventó este libro. Y casi todo lo que crees saber sobre este libro lo inventaron las películas.",
+  partes: [
+    {
+      titulo: "El castillo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Jonathan Harker es un joven abogado inglés recién titulado al que su despacho manda a Transilvania para cerrar la compra de una propiedad en Londres. Su cliente es un conde que nunca ha salido de su país. Harker va encantado: es su primer encargo importante y piensa casarse a la vuelta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro empieza con su diario de viaje, y durante treinta páginas parece un cuaderno de turista curioso. Anota las recetas que come, el paisaje de los Cárpatos, los trajes de los campesinos. Y anota también, sin darle importancia, que la gente del último pueblo se santigua al oír el nombre de su cliente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Una mujer le pone un rosario al cuello llorando. Los pasajeros de la diligencia murmuran palabras que él no entiende y busca después en el diccionario: significan vampiro y hombre lobo. Harker, que es un inglés práctico de 1897, lo apunta como una superstición pintoresca de gente atrasada.",
+          arte: "mapa",
+        },
+        {
+          forma: "clave",
+          rotulo: "El aviso que ignora",
+          frase: "Le recogen a medianoche en un desfiladero. El cochero no tiene cara visible, los caballos están aterrados y los lobos se apartan cuando levanta la mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El conde le recibe en persona, con una cortesía impecable, y le da la mano: fría como el hielo, más de muerto que de vivo. Le sirve la cena y se queda mirándole comer, porque él ya ha cenado. Hablan de historia hasta el amanecer, y entonces el conde se disculpa y desaparece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Stoker construye el terror con detalles domésticos, y ahí está su acierto. No hay puertas que chirríen ni fantasmas: hay un anfitrión encantador que no tiene criados, que nunca come delante de él, y que un día, mientras Harker se afeita, aparece detrás sin reflejarse en el espejo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Harker se corta al sobresaltarse y ve la cara del conde transformarse un instante al ver la sangre. Drácula le arranca el espejo de las manos, lo tira por la ventana, y le explica con toda calma que ese objeto es una baratija de la vanidad humana.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Poco a poco Harker va comprobando lo que no quería creer. No hay espejos en todo el castillo. Todas las puertas están cerradas. Y una noche, asomado a la ventana, ve al conde salir de la suya y bajar por el muro de piedra boca abajo, como un lagarto, con la capa extendida.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase que resume su situación",
+          frase: "«El castillo es una verdadera prisión, y yo soy un prisionero.» Lo escribe en la página cincuenta, y aún le quedan semanas allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Descubre además a qué se dedica el conde por las noches: le encuentra dormido en un cajón de madera lleno de tierra, en una cripta, con los ojos abiertos y sin respirar. Intenta matarle con una pala y falla. Y al día siguiente ve cómo cincuenta cajones idénticos se cargan en carros con destino a Inglaterra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esta primera parte, que ocupa unas cien páginas, está considerada de las mejores aperturas del género. Stoker la escribió sin haber pisado nunca Europa del Este: se documentó entero en la biblioteca pública de Whitby, un pueblo de la costa inglesa donde veraneaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primeros días en el castillo transcurren con una normalidad inquietante. El conde le trata como a un huésped de honor, le deja usar la biblioteca, y Harker descubre allí cientos de libros ingleses: guías de Londres, listas de direcciones, horarios de trenes, códigos legales. Drácula lleva años estudiando el país que va a invadir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le pide además que le corrija el acento, porque —le explica— en Londres sería un extranjero al que todos mirarían, y él necesita pasar desapercibido. Harker anota la frase sin entenderla y el lector sí: no está aprendiendo un idioma, está preparando una infiltración.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay una escena que Stoker desliza sin subrayar y que hiela. El conde le pide que escriba tres cartas a su despacho con fechas futuras, diciendo que todo va bien y que volverá pronto. Le está fabricando una coartada para el mes siguiente a su desaparición.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Harker calcula entonces cuánto tiempo le queda de vida: exactamente hasta la fecha de la última carta. Es de los mejores giros de terror del libro porque no hay ningún monstruo en escena — solo un hombre educado pidiéndole que escriba unas líneas y una fecha en el papel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una noche desobedece la única prohibición del castillo y duerme en una habitación distinta. Se le aparecen tres mujeres jóvenes que se acercan riéndose, y él se queda paralizado entre el terror y un deseo que le avergüenza escribir. Stoker publica eso en la Inglaterra victoriana y por eso lo envuelve en medias palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Drácula irrumpe furioso y las aparta gritando que ese hombre es suyo. Ellas le preguntan si esa noche no van a tener nada, y él les lanza un saco que se mueve y del que sale un llanto. Harker se desmaya. Al día siguiente, una mujer del pueblo golpea las puertas del castillo gritando por su hijo, y los lobos la rodean.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el momento en que la novela deja claro de qué va: no de un aristócrata elegante, sino de algo que se alimenta y que ha convertido una comarca entera en su despensa. Harker decide entonces bajar por el muro exterior antes que esperar a que se cumpla la fecha de la tercera carta.",
+          arte: "noche",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Allí encontró también el nombre. En un libro sobre Valaquia leyó que <em>Drácula</em> significaba «hijo del dragón» o «hijo del diablo», y anotó que era un buen nombre para su villano, que hasta entonces se llamaba conde Wampyr. Del príncipe rumano del siglo XV apenas supo nada más que eso.",
+          arte: "estanteria",
+        },
+      ],
+    },
+
+    {
+      titulo: "El barco vacío",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La novela cambia de escenario y de narrador sin avisar, y aquí empieza a funcionar su estructura. Pasamos a las cartas entre Mina Murray, la prometida de Harker, y su amiga Lucy Westenra, que se pasan páginas hablando de pretendientes y de vestidos mientras el lector sabe lo que viene.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La forma del libro",
+          frase: "No hay narrador. Son diarios, cartas, telegramas, informes médicos y recortes de prensa, ordenados como un expediente judicial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso se llama novela epistolar y en 1897 no era nuevo, pero Stoker le saca un partido enorme. Como cada documento lo escribe alguien que solo sabe una parte, el lector va montando el rompecabezas antes que los personajes, y pasa doscientas páginas gritándoles por dentro lo que deberían ver.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El capítulo del barco es el más famoso y es un ejemplo perfecto. Se cuenta a través del recorte de un periódico local y del diario de a bordo del capitán, encontrado después. Un velero ruso encalla en la playa de Whitby durante una tormenta, y no hay nadie a bordo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capitán aparece atado al timón, muerto, con un crucifijo entre las manos. Su diario cuenta cómo la tripulación fue desapareciendo una a una durante la travesía, cómo nadie creía al marinero que juraba haber visto a un hombre alto y delgado que no estaba en la lista, y cómo él se ató al timón al quedarse solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del barco salta a tierra un perro enorme que nadie vuelve a ver. La carga eran cincuenta cajones de madera llenos de tierra, consignados a un abogado de Londres. Stoker no explica nada: deja los documentos y que el lector ate los cabos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que empieza en Whitby",
+          frase: "Lucy vuelve a caminar dormida por las noches. Amanece pálida y débil, y en el cuello tiene dos marcas diminutas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El médico que la atiende, Seward, es un antiguo pretendiente suyo que dirige un manicomio y no entiende nada: la chica pierde sangre sin herida visible y sin causa fisiológica. Desesperado, llama a su antiguo maestro, un profesor holandés llamado Abraham Van Helsing.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van Helsing es médico, abogado, filósofo y una de las mejores creaciones del libro. Habla un inglés atroz lleno de giros holandeses, se ríe en los momentos más inoportunos, y su método consiste en no descartar nada — dice que el error de la ciencia moderna es negarse a creer lo que no puede explicar todavía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Le hacen a Lucy cuatro transfusiones de sangre en semanas, y aquí Stoker es sorprendentemente moderno: describe el procedimiento con precisión médica, en una época en que las transfusiones eran experimentales y no se conocían los grupos sanguíneos. La escena es tan clínica como sobrenatural.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van Helsing llena la habitación de flores de ajo y ordena que nadie las quite. La madre de Lucy, que no sabe nada y quiere que su hija respire aire limpio, abre la ventana y tira las flores. Esa misma noche entra algo por la ventana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La transformación de Lucy es la parte más incómoda del libro y la que más se ha estudiado. Muerta y enterrada, empieza a aparecer por Hampstead una dama de blanco que se lleva niños pequeños. Los niños vuelven con dos marcas en el cuello y la llaman, con cariño, la señora hermosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van Helsing lleva al grupo al cementerio para que lo vean con sus propios ojos, porque sabe que no le van a creer de otra manera. La encuentran fuera del ataúd, con un niño en brazos. Y Stoker la describe voluptuosa y cruel, es decir, todo lo contrario de la muchacha dulce y recatada de la primera mitad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahí está el verdadero terror victoriano del libro. Lo espantoso para aquellos lectores no era que Lucy fuera un cadáver: era que se hubiera convertido en una mujer con deseo propio. Generaciones de críticos han señalado que <em>Drácula</em> trata, entre otras cosas, del pánico de una sociedad entera a la sexualidad femenina.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena de su destrucción es brutal y ceremoniosa. Van Helsing hace que sea Arthur, su prometido, quien clave la estaca, argumentando que debe hacerlo la mano que más la quería. Le tiemblan los brazos, el cuerpo se retuerce y grita, y cuando termina, la cara de Lucy recupera la dulzura que tenía en vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van Helsing lo explica después con un argumento que la novela se toma en serio: lo que estaba allí no era ella, y lo que han hecho no es matarla sino devolverle la paz. Es una teología de andar por casa y es lo que permite al lector victoriano soportar la escena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay algo técnico que conviene notar. Stoker dedica doscientas páginas a que un grupo de hombres competentes fracase estrepitosamente. Cuando empieza la caza del conde, el lector ya no confía en que vayan a ganar, y ese es exactamente el efecto que buscaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Stoker mata a Lucy a mitad del libro, después de doscientas páginas de lucha por salvarla. Es una decisión narrativa valiente: el lector ha visto a cuatro hombres competentes hacer todo lo posible y fracasar, y a partir de ahí sabe que el villano puede ganar.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que las películas cambiaron",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Antes de seguir conviene aclarar el desastre. Casi todo lo que la cultura popular da por sabido sobre Drácula no está en este libro, y varias cosas que sí están no aparecen nunca en las películas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El aspecto",
+          frase: "El Drácula de Stoker es un anciano de bigote blanco espeso, con orejas puntiagudas, palmas peludas y muy mal aliento. No es un aristócrata seductor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Además rejuvenece a medida que se alimenta, lo cual es bastante más inquietante que la versión elegante. El galán de frac y capa con cuello alto lo inventó una adaptación teatral de los años veinte, y lo fijó para siempre una película de 1931 con Bela Lugosi.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo mito: el sol. En la novela, Drácula camina de día por las calles de Londres sin ningún problema. Pierde sus poderes sobrenaturales mientras hay luz, pero no arde ni se convierte en ceniza. Eso lo inventó una película alemana de 1922, y funcionó tan bien que se quedó.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Tampoco existe en el libro ninguna historia de amor eterno ni ninguna reencarnación de una esposa perdida. Ese argumento es una invención de una adaptación de los años setenta que otra película popularizó en 1992. En la novela, Drácula no ama a nadie: es un depredador que quiere colonizar Inglaterra.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está y casi nadie recuerda: puede convertirse en niebla, en murciélago, en lobo y en polvo. Puede trepar por los muros. Controla ratas, zorros y lobos. Y no puede entrar en una casa si no le invitan a pasar la primera vez — esa regla sí es de Stoker.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su debilidad más rara",
+          frase: "No puede cruzar agua corriente salvo en el cambio de marea, y tiene que dormir sobre tierra de su propio país. Por eso viaja con cincuenta cajones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle logístico es lo que convierte la segunda mitad de la novela en algo parecido a un thriller de investigación. El grupo de cazadores no busca al monstruo: busca los cajones. Consultan registros de aduana, sobornan a carreteros, rastrean albaranes por todo Londres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van Helsing organiza a los cinco —Harker, que ha conseguido escapar del castillo; Seward; el aristócrata Holmwood; el americano Quincey Morris; y Mina— como un equipo con reparto de tareas. Mina, que es taquígrafa y mecanógrafa, transcribe y ordena todos los documentos y es quien descubre el patrón.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es otro punto que sorprende al lector moderno: Mina es el cerebro del grupo. Van Helsing dice de ella que tiene cerebro de hombre y corazón de mujer, que en 1897 era un elogio enorme y hoy suena fatal. Pero la novela le da la parte más importante de la investigación.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vale la pena detenerse en el reparto, porque explica por qué la novela funciona como un thriller moderno. Cada miembro del grupo aporta algo distinto: Harker el conocimiento legal y del castillo, Seward la medicina, Van Helsing el saber antiguo, Holmwood el dinero y los contactos, Morris las armas y el temple, y Mina el método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mina es taquígrafa y mecanógrafa profesional, algo muy moderno en 1897, y es ella quien tiene la idea decisiva: reunir todos los documentos dispersos —diarios, cartas, cilindros de fonógrafo, recortes— transcribirlos, ordenarlos por fecha y hacer copias para todos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa decisión es la que resuelve el caso. En cuanto los papeles están en orden cronológico, aparece el patrón que ninguno veía por separado: las fechas del barco, las de los cajones, las de los sonambulismos de Lucy. La novela dice, literalmente, que la información desordenada no sirve de nada.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Stoker llena el libro de tecnología puntera de su época y eso desconcierta a quien lo espera gótico. Hay máquinas de escribir, fonógrafos de cilindro, telegramas, transfusiones de sangre, taquigrafía y cámaras de fotos. El terror antiguo se combate con las herramientas más nuevas del momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van Helsing formula esa tensión con una frase que recorre el libro: el problema de la ciencia moderna, dice, es que se niega a aceptar lo que no puede explicar todavía. Su método no es abandonar la razón, sino ampliarla — mide, documenta y contrasta, solo que sin descartar el folclore como fuente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el error del grupo también es muy de época. Deciden apartar a Mina de las reuniones «para protegerla», dejándola sola en la casa por las noches. La consecuencia llega puntual: es precisamente entonces cuando el conde entra por su ventana. Stoker no lo comenta, pero lo coloca ahí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin embargo, en cuanto se ponen a cazar, deciden apartarla «por su seguridad» y dejar de contarle nada. El resultado es inmediato y previsible: al quedarse sola por las noches, es a ella a quien ataca el conde. La novela castiga esa decisión paternalista sin comentarla.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La caza",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La segunda mitad es una persecución con reglas, y Stoker las establece con cuidado a través de Van Helsing. El vampiro no puede entrar donde no se le invita, retrocede ante el ajo y la hostia consagrada, no proyecta sombra ni reflejo, y solo se le destruye clavándole una estaca y decapitándole.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El grupo va localizando los escondites uno a uno y esterilizando la tierra de los cajones con hostias consagradas, para que el conde no pueda descansar en ellos. Es una campaña metódica, casi burocrática, y esa mezcla de lo sagrado con la logística es lo que hace distinta a la novela.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El contraataque",
+          frase: "Drácula entra en la habitación de Mina, la obliga a beber su sangre y le dice que ahora es carne de su carne y que le tendrá cuando él quiera.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es la escena más brutal del libro y también la más discutida por lo que sugiere sin decirlo. Los hombres irrumpen y encuentran a Harker inconsciente en la cama y a su mujer arrodillada bebiendo. Stoker escribió eso en la Inglaterra victoriana y por eso lo envolvió en símbolos, pero nadie se llamó a engaño.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van Helsing intenta protegerla con una hostia y le quema la frente, dejándole una cicatriz. Mina entiende inmediatamente lo que significa: está contaminada, y si el conde gana, se convertirá en lo que fue Lucy. Pide que si llega ese momento la maten sin dudar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces propone la idea que resuelve la novela. Como está unida a Drácula, puede ser hipnotizada y describir lo que él percibe. Van Helsing la hipnotiza al amanecer y al anochecer, y ella dice lo que oye: agua, cadenas, madera crujiendo. El conde está en un barco, huyendo de vuelta a casa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La inversión",
+          frase: "La víctima se convierte en el instrumento de rastreo. Es idea suya, y los hombres que la habían apartado tienen que aceptarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La persecución final atraviesa media Europa: barco hasta Varna, tren, caballos y trineo por los Cárpatos, con Van Helsing y Mina por un lado y los demás por otro, corriendo contra el atardecer. Es prácticamente una escena de acción moderna escrita en 1897.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final es rápido y sin discursos. Alcanzan el carro con el último cajón a la puesta de sol, delante del castillo. Hay una pelea con los gitanos que lo escoltan. Abren la tapa, y Harker le corta el cuello con un cuchillo enorme mientras Quincey Morris le clava el suyo en el corazón.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Drácula se convierte en polvo en un instante, y Harker escribe que antes de desvanecerse hubo en su cara una expresión de paz que jamás habría imaginado. Quincey Morris, el americano, muere de las heridas en la nieve. Es el único del grupo que no sobrevive.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La persecución final tiene un detalle logístico precioso. Van Helsing deduce que el conde huye por el Danubio hacia su castillo, y el grupo se divide: unos por barco, otros por tren, otros a caballo, con la idea de cortarle el paso en distintos puntos. Stoker usa horarios de trenes y mapas reales de la época.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una carrera contra el calendario. Saben que el conde solo puede moverse por el agua en los cambios de marea, y que si llega a su castillo antes que ellos, se les escapa para siempre. La cuenta atrás no la marca la noche sino un horario de aduanas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La escena en la que Van Helsing y Mina acampan en la nieve, con él trazando un círculo protector con hostias desmenuzadas mientras las tres mujeres del castillo llaman a Mina desde la ventisca, es de las mejores del libro y no aparece en casi ninguna adaptación.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van Helsing sube solo al castillo al amanecer y destruye a las tres mujeres. Stoker le hace confesar en su diario que le tembló el pulso, que eran hermosas y que tuvo que obligarse. Es un anciano profesor haciendo un trabajo carnicero por deber, y el libro no lo estetiza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el final, conviene decir que muchos lectores lo encuentran precipitado: después de cuatrocientas páginas, el conde muere en dos párrafos y sin decir una palabra. Hay quien lo considera un defecto y quien lo defiende — Drácula nunca fue un personaje con psicología, sino una fuerza, y las fuerzas no tienen discurso final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La nota final, escrita siete años después, dice que Mina y Jonathan tienen un hijo al que han puesto el nombre de todos ellos, y al que llaman Quincey. Y añade un detalle que remata la estructura: al revisar los documentos, se dan cuenta de que casi ninguno es original y de que nadie podría creer semejante historia.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El hombre que lo escribió",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Bram Stoker era irlandés y se pasó la vida siendo el gerente de otro. Durante veintisiete años trabajó como administrador del Lyceum Theatre de Londres y como secretario personal del actor Henry Irving, la mayor estrella teatral de su época, un hombre magnético y despótico.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Muchos biógrafos sostienen que el conde está construido sobre Irving: la presencia dominante, la voz, la manera de absorber la energía de los que le rodeaban. Stoker pasó casi tres décadas gestionando la vida de un hombre que le trataba como a un empleado, y escribió por las noches.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tardó siete años en documentarse y escribirlo. Se conservan sus cuadernos de notas y son fascinantes: listas de poderes del vampiro, horarios de trenes reales de la época, mapas, apuntes sobre supersticiones de Europa del Este copiados de libros de viajes que nunca hizo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que ganó con él",
+          frase: "El libro tuvo buenas críticas y ventas modestas. Stoker murió en 1912 sin dinero, y su viuda tuvo que vender sus notas en una subasta por dos libras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La fama llegó después y por una vía torcida. En 1922 se estrenó una película alemana que era un plagio descarado del libro, con los nombres cambiados. La viuda de Stoker la denunció, ganó el juicio y un tribunal ordenó destruir todas las copias. Sobrevivieron algunas y hoy es un clásico del cine.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una cuestión sobre el nombre que conviene aclarar. Stoker tomó prestado el nombre y poco más de Vlad III, príncipe de Valaquia del siglo XV, célebre por empalar a sus enemigos. En sus notas no hay prácticamente nada sobre él, y en la novela no se cuenta su biografía. La identificación entre ambos la construyeron estudiosos y películas mucho después.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que sí hay en el libro, y explica su fuerza, es el miedo concreto de su época: la invasión desde el este, la enfermedad que se contagia por la sangre, la mujer que deja de ser recatada, la ciencia que se topa con algo que no puede medir. Drácula funciona como espejo de todo lo que la Inglaterra victoriana no quería mirar.",
+          arte: "museo",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su verdadero logro",
+          frase: "No inventó al vampiro, que llevaba siglos en el folclore. Inventó las reglas — y desde entonces todo el género juega con ellas o contra ellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Como lectura tiene sus peajes. La parte central se hace lenta, con un personaje secundario en el manicomio que come moscas y arañas y cuyos capítulos muchos lectores se saltan. El inglés macarrónico de Van Helsing cansa. Y los personajes se pasan páginas llorando y elogiándose unos a otros, cosa muy victoriana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un dato sobre su recepción: el libro tuvo buenas críticas en 1897 y ventas correctas, pero no fue un fenómeno. La madre de Stoker le escribió una carta diciendo que ningún libro le había impresionado tanto y que le haría ganar mucho dinero. Se equivocó en lo segundo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su influencia se mide mejor por lo que vino después. Prácticamente todo el género —los vampiros del cine, de la televisión y de la literatura juvenil— dialoga con este libro, aceptando sus reglas o rompiéndolas a propósito. Pocas novelas han fijado tantos códigos de un género entero.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle curioso sobre el propio texto: al no tener narrador, la novela nunca entra en la cabeza de Drácula. No sabemos qué piensa, qué quiere exactamente ni qué siente. Aparece en muy pocas escenas y habla poco. Ese vacío es probablemente la razón de que cada época haya podido rellenarlo a su gusto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si te decides a leerlo, un consejo práctico: no lo leas como una novela de suspense moderna, porque la trama avanza despacio y hay repeticiones. Léelo como lo que es, un expediente de documentos, e imagina que estás reconstruyendo un caso a partir de papeles que alguien dejó ordenados sobre una mesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero las primeras cien páginas en el castillo y el capítulo del barco están entre lo mejor que se ha escrito de terror, y funcionan hoy exactamente igual que en 1897. Si solo vas a leer una parte, lee esa.",
+        },
+      ],
+    },
+  ],
+};
+
+export const VIEJO_MAR: Resumen = {
+  id: "viejo-mar",
+  titulo: "El viejo y el mar",
+  autor: "Ernest Hemingway",
+  ano: 1952,
+  gancho: "Ciento veinte páginas sobre un hombre solo en una barca. Le dieron el Pulitzer y, dos años después, el Nobel.",
+  porQue:
+    "Es la mejor puerta de entrada a Hemingway y una lección de cómo se cuenta una historia sin adjetivos y sin explicar nada.",
+  partes: [
+    {
+      titulo: "Ochenta y cuatro días",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Santiago es un pescador viejo de un pueblo de la costa de Cuba que lleva ochenta y cuatro días saliendo al mar sin coger nada. La primera frase del libro lo dice todo y no adorna nada: era un viejo que pescaba solo en un bote en el Gulf Stream y llevaba ochenta y cuatro días sin coger un pez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primeros cuarenta días le acompañó un chico. Después los padres del chico le dijeron que el viejo estaba definitivamente salao —que es la peor forma de estar sin suerte— y le mandaron a otra barca, donde en la primera semana cogieron tres peces buenos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hemingway describe al viejo con cuatro trazos: flaco, con manchas de sol en las mejillas, cicatrices profundas en las manos de tirar de cuerdas con peces pesados. Todo en él era viejo, escribe, menos los ojos, que eran alegres y no estaban vencidos, y tenían el color del mar.",
+          arte: "mapa",
+        },
+        {
+          forma: "clave",
+          rotulo: "El chico",
+          frase: "Manolín le sigue ayudando a escondidas: le lleva la comida, le consigue carnadas y recoge sus aparejos. No por lástima, sino porque le quiere.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La relación entre los dos es el corazón del libro y ocupa apenas las primeras treinta páginas. Hablan del béisbol y del gran DiMaggio, cuyo padre también era pescador. Fingen que hay comida en la casa cuando no la hay, y los dos saben que están fingiendo y siguen la comedia por cortesía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El viejo vive en una choza con una cama, una mesa, una silla y un sitio en el suelo de tierra para cocinar. Tenía en la pared un retrato de su mujer, muerta hacía años, y lo quitó porque le hacía sentirse solo. Ahora está guardado en un estante bajo su camisa limpia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese detalle —quitar la foto y no tirarla, guardarla debajo de la única camisa buena— es Hemingway en estado puro. No dice que el viejo esté triste ni que la echa de menos. Coloca el objeto en su sitio y deja que el lector haga el resto.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Duerme y sueña con leones. Ya no sueña con tormentas ni con mujeres ni con peces grandes ni con su mujer: sueña con unos leones jóvenes que vio en una playa de África cuando era marinero de barco, jugando al atardecer como gatitos. Ese sueño vuelve tres veces en el libro y no se explica nunca.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La decisión",
+          frase: "El día ochenta y cinco decide salir mucho más lejos que nadie, hasta donde ya no se ve la costa. Es el día en que su suerte tiene que cambiar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hemingway se toma su tiempo con el pueblo antes de salir al mar, y esas páginas sostienen todo lo demás. Los otros pescadores se burlan del viejo o le compadecen, que es peor. Los más mayores le miran y se ponen tristes, pero no lo demuestran: hablan educadamente de las corrientes y de la profundidad a la que largaron los sedales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El viejo no se ofende nunca. Piensa que la humildad no era deshonrosa y que no llevaba consigo ninguna pérdida de orgullo verdadero. Es una frase que define al personaje entero y que Hemingway coloca sin ningún énfasis, en medio de un párrafo sobre aparejos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su relación con el mar también está definida en dos líneas. Piensa siempre en él en femenino, como en algo que da o niega grandes favores, y observa que los pescadores jóvenes, los que tienen motor y boyas, hablan de él en masculino, como de un contrincante o de un lugar. Los viejos lo llaman «la mar».",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la barca no lleva casi nada: agua en una botella, un poco de comida que le trae el chico, los sedales, el arpón y un cuchillo atado. No hay radio, ni brújula, ni motor. Se orienta por el sol, por las estrellas y por la dirección de la corriente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conoce el mar como un oficio, no como un poema. Hemingway se detiene en la técnica: por qué el viejo pone las carnadas a cuarenta, setenta y cinco, cien y ciento veinticinco brazas, y por qué mantiene los sedales rectos mientras los demás los dejan derivar. Es preciso, dice el viejo, aunque ya no tenga suerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sale antes del amanecer, remando en la oscuridad, oyendo a otros pescadores y viendo la fosforescencia de las algas. A media mañana ya no ve tierra. Hemingway describe con precisión de manual la técnica: a qué profundidad pone cada sedal, cómo lo mantiene recto, por qué eso importa.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El pez",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Al mediodía pica algo en el sedal más profundo, a cien brazas. El viejo nota el peso y sabe inmediatamente que es un marlín enorme. Le deja comer, espera, y cuando por fin tira para clavar el anzuelo no consigue mover al animal ni un centímetro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que ocurre entonces",
+          frase: "El pez empieza a nadar mar adentro remolcando la barca. Y el viejo, en vez de soltar la cuerda, se la pasa por la espalda y aguanta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso dura dos días y dos noches. El pez tira, el viejo cede sedal cuando debe y lo recupera cuando puede, sin poder soltarlo, sin poder atarlo a la barca —porque un tirón lo partiría—, sin dormir más que a ratos y sin poder soltar la mano izquierda que se le acalambra.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahí está la novela entera: un hombre viejo, solo, sosteniendo una cuerda durante cuarenta y ocho horas. Hemingway no cambia de escenario, no introduce personajes, no hace flashbacks largos. Todo el libro cabe en una barca de cinco metros con un anciano hablando solo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y habla solo, en voz alta, cada vez más. Se dice que ojalá estuviera el chico. Se riñe la mano acalambrada como si fuera otra persona. Se obliga a comer atún crudo aunque le repugne, porque sabe que necesita las fuerzas. Se manda a sí mismo dormir un poco y despertarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al segundo día el pez sale a la superficie por primera vez y el viejo lo ve: mide más de cinco metros y medio, es más largo que la barca, y tiene la espada como un bate de béisbol y el lomo violeta. Es el pez más grande que ha visto nunca y el más grande del que ha oído hablar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El giro moral",
+          frase: "Empieza a llamarle hermano. Dice que nunca ha visto nada más grande, ni más hermoso, ni más tranquilo, ni más noble que él.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa mezcla es lo que hace grande el libro. El viejo va a matarlo y lo sabe, y a la vez lo admira sin ninguna hipocresía. Dice que le da igual quién mate a quién, que están unidos desde el mediodía y que nadie está allí para ayudar a ninguno de los dos.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí sale la frase más citada de Hemingway, que dice el viejo cuando ya está al límite: que el hombre no está hecho para la derrota, que un hombre puede ser destruido pero no derrotado. La dice en voz alta, para sí mismo, con las manos abiertas de la cuerda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante las dos noches de lucha ocurren cosas pequeñas que Hemingway usa como respiro y que se quedan grabadas. Un pájaro cansado se posa en el sedal y el viejo le habla, le pregunta cuántos años tiene, le invita a descansar y le avisa de los halcones que le esperan en tierra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le dice que se quede todo lo que quiera y lamenta no poder izar la vela para llevarle, porque tiene un amigo agarrado a la cuerda. Un segundo después, el pez da un tirón que casi le arranca de la barca, el pájaro se va, y el viejo se mira la mano ensangrentada sin dejar de sujetar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La mano izquierda se le acalambra y no responde, y él la trata como a un traidor: la insulta, la llama inútil, y después la deja al sol para que se abra sola. Hemingway describe el calambre como una humillación, no como un dolor. Al viejo le indigna que su propio cuerpo le desobedezca delante del pez.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Come atún crudo a trozos, masticando despacio, obligándose. Piensa que ojalá pudiera darle de comer al pez, que es su hermano, pero que tiene que matarlo y para eso necesita fuerzas. Y añade que se alegra de que los peces no tengan que comerse unos a otros con tanta inteligencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda noche se permite dormir un rato con la cuerda pasada por la espalda, y sueña otra vez con los leones de la playa africana. Se despierta con el tirón, con la cara contra el pescado que había cortado, y con la mano derecha abierta en carne viva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y piensa en una vez que ganó un pulso de un día entero contra un negro enorme en una taberna de Casablanca, cuando era joven y le llamaban el Campeón. Estuvieron un día y una noche con los codos sobre una raya de tiza, y él ganó al amanecer. Es el único recuerdo de juventud que aparece en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al tercer día el pez empieza a girar en círculos cada vez más cerrados y el viejo va recogiendo sedal, mareado, viendo manchas negras. Cuando por fin lo tiene al lado, con las últimas fuerzas le clava el arpón bajo la aleta pectoral. El pez salta entero fuera del agua y cae muerto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo ata al costado de la barca porque no cabe dentro, iza la vela y pone rumbo a casa. Calcula que pesará unas mil quinientas libras y que a treinta centavos la libra sacará una fortuna. Está feliz y agotado, y le duelen las manos como si se las hubiera abierto con un cuchillo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los tiburones",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Una hora después llega el primero. Hemingway lo anuncia sin dramatismo: el tiburón no era un accidente, dice, había subido desde muy abajo siguiendo el rastro de la sangre que la barca iba dejando durante horas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El primero",
+          frase: "Un mako enorme, hermoso y rápido, con dientes en forma de garra. El viejo lo mata con el arpón. Y con él se va el arpón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se lleva unas veinte kilos del pez y deja la herida abierta. El viejo sabe perfectamente lo que significa: el rastro de sangre será ahora una autopista. Y aquí Hemingway hace algo que rompe al lector — deja al viejo pensar en voz alta que ojalá no hubiera pescado nunca a ese pez.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Dice que fue demasiado lejos, más allá de donde debía, y que arruinó a los dos. Y luego se corrige: dice que un hombre no debe pensar en eso, que hay que hacer lo que uno sabe hacer. Esa conversación consigo mismo es toda la filosofía del libro y dura media página.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegan dos tiburones más. Los mata con el cuchillo atado a un remo. Llegan otros dos. Se rompe el cuchillo. Llega otro y le pega con el palo del timón. Cada ataque se lleva un trozo más, y Hemingway va contando lo que queda con una frialdad de inventario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El viejo deja de mirar el pez porque no lo soporta. Ya no habla con él: le pide perdón. Dice que siente haber ido tan lejos y que lo ha estropeado todo para los dos. Y sigue navegando en línea recta, con el rumbo puesto, sin desviarse ni un grado.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La última noche",
+          frase: "A medianoche llega una manada entera. Ya no tiene arpón, ni cuchillo, ni palo. Pelea con el timón hasta que se le rompe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hemingway hace algo con los tiburones que se comenta poco: los individualiza. El primero, el mako, está descrito con admiración —hermoso, noble, sin miedo a nada—, y el viejo casi lamenta matarlo. Los siguientes, unas galanos carroñeras, le dan asco y las mata sin ceremonia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción no es un adorno. En el mundo del libro hay criaturas que se ganan lo que comen y criaturas que solo aprovechan. El viejo pertenece claramente a las primeras y ese es el motivo de que le duela tanto que sean las segundas las que se lleven su pez.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Va perdiendo herramientas en un orden que Hemingway cuenta como un inventario que se vacía: el arpón con el primero, el cuchillo con el quinto, el palo con los siguientes, y al final el timón. Cuando ya no queda nada, sigue peleando con el palo roto en la oscuridad, sabiendo que es inútil.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces se dice a sí mismo la frase que la gente suele citar mal. No dice que la lucha no importe: dice que fue demasiado lejos, y que un hombre puede ser destruido pero no derrotado. Las dos cosas a la vez, la culpa y la dignidad, y ninguna anula a la otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando ya no hay nada que hacer, deja de mirar hacia atrás y se concentra en gobernar la barca. Piensa que ahora navega ligero, sin ningún peso, y que el viento es su amigo, y añade que a veces también lo es el mar. La resignación en Hemingway nunca es una frase: es un cambio en lo que el personaje se pone a hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando por fin cesan los ataques, escupe algo con un sabor extraño en la boca, lo prueba y comprueba que es sangre suya. No le da importancia. Se apoya en la popa y descubre, dice Hemingway en una línea, lo fácil que es navegar cuando uno está vencido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Entra en el puerto de madrugada, con todo el mundo dormido y sin nadie que le ayude. Amarra la barca, se echa el mástil al hombro y sube la cuesta hacia su choza. Tiene que sentarse cinco veces en el camino. Al llegar, se tumba boca abajo sobre los periódicos, con los brazos abiertos y las palmas hacia arriba.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del pez queda el esqueleto atado al costado de la barca: la cabeza, la espada y la larga espina blanca con la cola al final. Nada más. Dieciocho pies de esqueleto pelado que la marea mueve entre la basura del puerto.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El esqueleto",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Por la mañana, un grupo de pescadores se reúne alrededor de la barca. Uno mide el esqueleto con un cordel: cinco metros y medio. Se quedan callados. Ninguno había visto nunca nada igual, y todos entienden lo que ha ocurrido sin necesidad de que nadie se lo cuente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El chico",
+          frase: "Manolín entra en la choza, ve las manos destrozadas del viejo y se echa a llorar. Sale a buscar café y llora por la calle sin que le importe que le vean.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando el viejo despierta, lo primero que le dice el chico es que a partir de ahora van a pescar juntos otra vez, porque todavía tiene mucho que aprender de él. El viejo protesta débilmente diciendo que está salao, y Manolín contesta que al diablo la suerte, que él la llevará consigo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el verdadero final del libro y no el esqueleto. El viejo lo ha perdido todo materialmente y ha recuperado lo único que le importaba: el chico vuelve. Hemingway no lo subraya ni una vez, y por eso funciona.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El regreso a puerto es la parte más física del libro. Hemingway cuenta paso a paso cómo el viejo amarra la barca, enrolla la vela, se echa el mástil al hombro y empieza a subir la cuesta. Y cuenta cuántas veces tiene que sentarse: cinco. No dice que esté agotado ni una sola vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al llegar a la choza se tumba boca abajo sobre unos periódicos, con los brazos extendidos y las palmas de las manos hacia arriba. Es una postura muy concreta y muy elegida, y a mucha gente le ha recordado a un crucificado. Hemingway negó siempre que hubiera querido decir eso.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El detalle de las manos es el que remata todo el libro. Manolín entra por la mañana, ve las palmas destrozadas y se echa a llorar. Y lo primero que hace después de llorar es salir a buscar café caliente, porque el viejo lleva tres días sin comer nada más que pescado crudo.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los otros pescadores, que se habían burlado de él durante ochenta y cuatro días, se quedan callados alrededor del esqueleto. Uno lo mide con un cordel. Nadie dice nada. Ese silencio es el único reconocimiento que va a recibir el viejo, y en el mundo del libro es enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un plan que Manolín anuncia y que da el verdadero final: dice que va a volver con él, que da igual lo que digan sus padres, y que tienen que conseguir una buena lanza y un cuchillo nuevo, y afilarlo bien. No hay ninguna moraleja. Solo un chico haciendo la lista de la compra para la próxima vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La última escena es de una crueldad involuntaria perfecta. Unos turistas en la terraza de un bar ven el esqueleto y preguntan qué es. El camarero intenta explicarles lo del tiburón y ellos entienden mal: comentan que no sabían que los tiburones tuvieran una cola tan bonita.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La última línea",
+          frase: "Arriba, en su choza, el viejo dormía otra vez. Y estaba soñando con los leones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hemingway se negó siempre a explicar qué significaban los leones, el pez o el mar. En una carta escribió que había intentado hacer un viejo de verdad, un mar de verdad y un pez de verdad, y que si los hacía lo bastante bien podrían significar muchas cosas. Le irritaba profundamente que le buscaran símbolos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su método de escritura tiene nombre: la teoría del iceberg. Sostenía que si un escritor conoce a fondo aquello sobre lo que escribe, puede omitir casi todo, y el lector lo sentirá igual. Solo se ve un octavo del hielo; los otros siete octavos son los que sostienen la dignidad del movimiento.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso no hay una sola descripción del carácter de Santiago, ni un solo párrafo explicando lo que siente. Todo está en lo que hace con las manos y en lo que se dice a sí mismo. Es el libro donde mejor le funcionó ese método, y él lo sabía: dijo que era lo mejor que había escrito en toda su vida.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El último libro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El contexto explica muchas cosas. Hemingway llevaba una década larga sin publicar nada bueno. Su novela anterior, de 1950, había recibido las peores críticas de su carrera; varios comentaristas escribieron que estaba acabado como escritor y que se había convertido en una parodia de sí mismo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Dos años después publicó esto. La revista <em>Life</em> lo sacó entero en un solo número que vendió más de cinco millones de ejemplares en dos días. Ganó el Pulitzer en 1953 y el Nobel de Literatura en 1954, y la academia sueca citó expresamente esta obra al concederlo.",
+          arte: "museo",
+        },
+        {
+          forma: "clave",
+          rotulo: "El paralelismo que nadie le señaló a la cara",
+          frase: "Un viejo maestro al que todos daban por acabado sale mucho más lejos de lo prudente para demostrar que todavía puede.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vivió en Cuba más de veinte años, en una finca a las afueras de La Habana, y pescaba con un patrón local llamado Gregorio Fuentes que muchos consideran el modelo de Santiago. Fuentes murió en 2002 a los ciento cuatro años, negando toda su vida que él fuera el personaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hemingway no pudo recoger el Nobel en persona: estaba convaleciente de dos accidentes de avión consecutivos en África que le dejaron secuelas graves. Envió un discurso escrito, muy corto, donde dice que escribir es, en el mejor de los casos, una vida solitaria.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Se suicidó en 1961, siete años después. Este fue el último libro importante que publicó en vida, y leerlo sabiendo eso cambia bastante el final: un hombre que vuelve al puerto con el esqueleto de lo mejor que hizo nunca, y que se duerme soñando con leones.",
+          arte: "noche",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué empezar por este",
+          frase: "Son ciento veinte páginas, vocabulario sencillo, frases cortas y ni una sola digresión. No hay mejor entrada a Hemingway.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su pega es la contraria de la de casi todos los clásicos: a algunos lectores les parece que no pasa nada. Es verdad que la trama cabe en dos frases y que hay veinte páginas seguidas de un hombre sujetando una cuerda. Si buscas argumento, este no es el libro. Si quieres ver a alguien escribir bien, es difícil encontrar algo mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un dato sobre la escritura: Hemingway dijo que había estado dieciséis años pensando esta historia. La primera versión es un artículo de 1936 en una revista, donde cuenta en un párrafo el caso real de un viejo pescador de Cabañas al que unos turistas encontraron llorando y medio loco en su barca, con un esqueleto atado al costado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De aquel párrafo salió, dieciséis años después, este libro. Y él lo escribió muy deprisa, en unas ocho semanas, después de años sin conseguir nada bueno. Decía que lo había reescrito casi doscientas veces hasta dejarlo así de limpio.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el título en español conviene saber que hay traducciones que dicen «la mar» y otras «el mar», y que en este libro no es un detalle menor: Hemingway hace de ese género una cuestión de generaciones, y una traducción que unifique el criterio pierde el matiz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si te gusta, la puerta siguiente es su primera novela, la de la generación perdida en París y Pamplona, o sus cuentos, que muchos consideran lo mejor que escribió. Pero por este hay que empezar: es el único donde la teoría del iceberg funciona de principio a fin sin un solo tropiezo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una lectura que conviene evitar: la de que es una historia sobre perder con dignidad. Santiago no pierde. Coge el pez más grande que nadie ha visto y consigue traerlo a puerto; lo que pasa es que el mar se queda con la carne. La distinción es exactamente la de su propia frase — puede ser destruido, no derrotado.",
+        },
+      ],
+    },
+  ],
+};
