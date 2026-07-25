@@ -3096,3 +3096,619 @@ export const DORIAN_GRAY: Resumen = {
     },
   ],
 };
+
+export const SENOR_MOSCAS: Resumen = {
+  id: "senor-moscas",
+  titulo: "El señor de las moscas",
+  autor: "William Golding",
+  ano: 1954,
+  gancho: "Lo rechazaron veintiuna editoriales. Una nota de lectura decía: «basura absurda e inútil».",
+  porQue:
+    "Unos niños ingleses educadísimos quedan solos en una isla paradisíaca. Golding, que fue maestro y estuvo en la guerra, sabía perfectamente lo que iba a pasar.",
+  partes: [
+    {
+      titulo: "La caracola",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un avión que evacuaba a niños durante una guerra es derribado sobre el Pacífico. La novela empieza después del accidente, con un chico rubio bajando por una cicatriz de vegetación arrancada hacia una laguna. No hay ningún adulto vivo. Golding no cuenta nada del accidente: empieza el libro cuando ya no hay a quién preguntar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chico es Ralph, tiene doce años, y lo primero que hace es quitarse el jersey del colegio y tirarse al agua. Está encantado. La isla tiene fruta, agua dulce, playa de arena blanca y ni un solo adulto que le diga lo que tiene que hacer. Durante veinte páginas, esto es una aventura maravillosa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Le sigue un chico gordo, asmático, con gafas y acento de barrio pobre, que le cuenta enseguida que en el colegio le llamaban Piggy y le suplica que no se lo diga a nadie. Ralph, en cuanto encuentra a los demás, lo primero que hace es contarlo. Es la primera crueldad del libro y ocurre en el capítulo uno.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Piggy encuentra en el agua una caracola grande y le explica a Ralph que si sopla dentro se oye lejos. Ralph sopla. Y de entre los árboles empiezan a aparecer niños de todas las edades, desde los seis años hasta los doce, que llevaban horas escondidos y perdidos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La primera regla",
+          frase: "Quien sostiene la caracola tiene derecho a hablar y los demás callan. Todo el orden de la isla se apoya en ese acuerdo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los últimos en llegar son los niños del coro, marchando en dos filas, con capas negras y birretes a pesar del calor, dirigidos por un chico alto y pelirrojo llamado Jack Merridew. Llegan formados, en orden, y su primera pregunta es dónde está el hombre de la trompeta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Votan un jefe. Jack da por hecho que le corresponde a él porque es el jefe de coro y sabe cantar do sostenido. Pero eligen a Ralph, y Golding explica exactamente por qué: no por ser el más listo ni el más fuerte, sino porque es el que sostiene la caracola y porque tiene aspecto de jefe — es alto, tranquilo y guapo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese detalle es una de las cosas más finas del libro. La autoridad de Ralph no se apoya en nada real: se apoya en un objeto bonito y en su apariencia. Golding está avisando desde la página treinta de lo frágil que es todo lo que van a construir.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ralph, para no humillarle, le da a Jack el mando de los cazadores. Es su primera decisión política y también su primer error: acaba de crear un ejército privado y de ponérselo a la única persona que quería su puesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la primera asamblea deciden dos cosas. Que hay que mantener una hoguera encendida en la montaña día y noche, porque el humo es lo único que puede hacer que un barco les vea. Y que hay que construir refugios. Las dos son sensatas y las dos van a fracasar por el mismo motivo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El primer aviso",
+          frase: "Un niño pequeño con una mancha de nacimiento en la cara pregunta qué pasa con la serpiente que vio. Los mayores le dicen que no existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Jack sale con sus cazadores a explorar y encuentra un cerdo salvaje enredado en unas lianas. Levanta el cuchillo y no es capaz de clavarlo. Se queda con el brazo en alto mientras el animal se libera y escapa. Se pone rojo de vergüenza y jura, delante de todos, que la próxima vez no fallará.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Golding lo explica en una línea que es el núcleo del libro: no pudo por lo insoportable que resulta la evidencia de la sangre. Es decir, sí había algo que le detenía. Pero era una costumbre aprendida, no una barrera. Y las costumbres se desgastan en cuestión de semanas.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primeros días son casi idílicos. Se bañan, comen fruta hasta enfermar del estómago, construyen castillos de arena para los pequeños. Golding llama a los más pequeños <em>los peques</em>, y son un grupo aparte que llora por las noches, no ayuda en nada y al que nadie hace caso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema empieza siendo trivial y así es como funciona el libro entero: nadie quiere trabajar. Se apuntan a construir refugios y a los cinco minutos se van a bañar. Solo Ralph y Simon siguen clavando palos, mientras los demás juegan y Jack se pasa el día persiguiendo cerdos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La discusión que lo anuncia todo",
+          frase: "Ralph dice que necesitan refugios y humo para que les rescaten. Jack contesta que necesitan carne. Los dos tienen razón, y ahí empieza la grieta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Simon es el tercer personaje y el más raro. Es un chico callado, propenso a los desmayos, que ayuda a los pequeños a alcanzar la fruta de las ramas altas y que se escapa solo al anochecer a un claro escondido entre lianas, simplemente a sentarse allí en silencio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un detalle que dice mucho: los niños nunca averiguan los nombres de casi nadie. Ralph, Jack, Piggy, Simon y Roger son los únicos que se nombran con seguridad, y a Piggy le llaman por un apodo humillante hasta el final — nadie sabe su nombre real, ni siquiera el lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Golding tampoco explica nunca qué guerra es la que están huyendo, ni de qué país, ni cuánto duró el viaje. Esa vaguedad es deliberada: no quiere que el lector se distraiga con la política concreta. Solo hay que saber que los adultos estaban haciendo, a escala mundial, exactamente lo mismo que van a hacer los niños en la isla.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La isla está descrita como un paraíso de postal: laguna de agua tibia, palmeras, fruta madura, arrecife de coral que rompe las olas. Golding la pinta preciosa a propósito, porque su tesis no es que un entorno hostil saque lo peor de la gente. La isla no les hace nada. Todo lo que ocurre lo traen puesto.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una elección técnica que sostiene la novela entera: el narrador nunca entra en la cabeza de nadie para juzgar. Cuenta lo que hacen y lo que dicen, y solo de vez en cuando desliza una frase corta que lo cambia todo, como esa sobre el brazo de Roger retenido por una civilización que ya no existía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Piggy es el personaje más incómodo del libro porque tiene razón en todo y no le sirve de nada. Propone hacer una lista con los nombres de todos, contar cuántos son, montar relojes de sol, construir refugios antes que cazar. Cada una de sus ideas es correcta y cada una es ignorada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Golding coloca a los cuatro desde el principio como cuatro maneras de estar en el mundo. Ralph es el orden democrático que se apoya en el consenso. Piggy es la razón y la ciencia, y nadie le escucha. Jack es la fuerza y el instinto. Y Simon es lo que ni siquiera saben nombrar.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La hoguera apagada",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Para encender el fuego usan las gafas de Piggy como lupa, y en cuanto lo consiguen se les va de las manos. Prenden media ladera del bosque. La hoguera que iban a mantener controlada se convierte en un incendio que arde durante horas mientras ellos miran, entre asustados y fascinados.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Cuando el fuego se apaga, Piggy se da cuenta de algo que nadie más ha notado: falta el niño pequeño de la mancha en la cara, el que había preguntado por la serpiente. Nadie sabe su nombre. Nadie sabe cuántos son exactamente. Golding no vuelve a mencionarlo jamás.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese silencio es más eficaz que cualquier escena. Un niño ha muerto quemado el primer día por un descuido colectivo, y el grupo simplemente sigue adelante porque hablar de ello sería insoportable. La isla ya se ha cobrado a alguien y todavía no han hecho nada malo a propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las semanas pasan y el orden se deshace despacio. Los refugios quedan a medias y se caen con el primer viento. Los pequeños hacen sus necesidades donde les pilla en vez de en la zona acordada. Nadie recoge agua. Las asambleas se convierten en discusiones donde todos hablan a la vez y nadie respeta la caracola.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El diagnóstico de Ralph",
+          frase: "«Las cosas se deshacen. No sé por qué. Empezamos bien, éramos felices. Y entonces...» Es un niño de doce años describiendo el colapso de una sociedad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Jack, mientras tanto, ha descubierto algo. Un día se pinta la cara con arcilla blanca y roja y carbón, y se mira el reflejo en un cubo de agua. Y Golding escribe que lo que le devolvió la mirada ya no era él, sino un desconocido aterrador. Se echa a reír con un gruñido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La máscara es el descubrimiento decisivo del libro. Detrás de la pintura, Jack deja de ser un colegial inglés al que le enseñaron que no se hacen ciertas cosas. La cara pintada le libera de la vergüenza, y a partir de ahí sus cazadores empiezan a pintarse también.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mismo día matan su primer cerdo. Vuelven cantando una canción que se inventan sobre la marcha —mata al cerdo, córtale el cuello, derrama su sangre— y marchando en fila con el animal colgado de un palo. Están eufóricos, sucios y transformados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y llegan a la playa justo a tiempo para que Ralph les diga lo que ha pasado mientras cazaban: había un barco en el horizonte, se ha visto durante casi una hora, y la hoguera estaba apagada porque los encargados de vigilarla se habían ido con Jack.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El punto de no retorno",
+          frase: "Pasó un barco y no había humo. La única oportunidad real de rescate se pierde porque todos querían carne.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Jack no lo entiende. Está tan lleno de su victoria que la pérdida del barco le parece un detalle. Y cuando Piggy le reprocha lo ocurrido, Jack le da un puñetazo en el estómago y después un manotazo en la cara que le rompe una de las lentes de las gafas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Golding va marcando el deterioro con esas gafas, y es un símbolo que funciona sin necesidad de explicarlo: primero rotas por la mitad, después robadas, y al final Piggy medio ciego dependiendo de otros para saber qué está pasando a tres metros de él.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa noche comen carne asada por primera vez en semanas y todos, incluido Ralph, la devoran. Golding no le ahorra esa incomodidad a su protagonista: el jefe que defiende el orden también tiene hambre y también come lo que ha traído el que le ha desobedecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ralph convoca una asamblea al día siguiente e intenta reconstruirlo todo con palabras: que hay que mantener el fuego, que hay que usar las rocas para el agua, que hay que hacer las necesidades en un sitio. Y descubre a mitad de discurso que hablar ya no basta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que aparece en la asamblea",
+          frase: "Los pequeños empiezan a hablar de una fiera que sale del mar por la noche. Los mayores dicen que no existe. Y nadie duerme tranquilo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Simon intenta explicar, tartamudeando delante de todos, lo que él cree que es esa fiera. Dice que a lo mejor la fiera son ellos mismos. Se ríen de él. Es la frase más importante del libro y la dice el chico al que nadie escucha, en la única asamblea en la que se atreve a hablar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una escena pequeña que resume el deterioro mejor que ninguna otra. Dos niños mayores destrozan a patadas los castillos de arena que unos pequeños habían construido con horas de trabajo. Lo hacen riéndose, sin ninguna razón, y los pequeños se apartan sin protestar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Golding dedica un párrafo a explicar cómo viven los peques: comen fruta continuamente y tienen diarrea permanente, lloran por las noches, no distinguen bien el día del sueño, y ninguno de los mayores les pregunta nunca cómo están. Son la parte más olvidada de la isla y la que peor lo pasa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La otra imagen que marca el declive es física: el pelo. Golding va anotando cómo les crece a todos, cómo les tapa los ojos, cómo Ralph se lo aparta constantemente con un gesto que se vuelve un tic. Es un reloj visible del tiempo que llevan allí y de lo poco que queda del colegio.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ralph descubre además algo que le desconcierta: le cuesta pensar. Hay momentos en que sabe que iba a decir algo importante y se le escapa a mitad de la frase. Golding lo repite varias veces y es de lo más inquietante del libro — no es que se vuelvan malos, es que se les va apagando la cabeza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y Piggy formula la idea que le da nombre a esa capacidad: dice que lo que hace falta no es ser fuerte sino saber pensar, y que Ralph tiene lo que él llama sentido común. Es la definición más humilde posible de la civilización, y en la isla no basta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La asamblea termina de la peor manera posible. Jack declara que las reglas no importan, que ellos son fuertes y cazan, y se marcha corriendo hacia la playa con la mitad de los niños detrás. Ralph se queda con la caracola en la mano, sin saber si volver a soplarla, porque teme que ya no venga nadie.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El paracaidista",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Esa noche, muy alto sobre la isla, hay una batalla aérea que ningún niño ve. Cae un hombre en paracaídas, muerto, y el viento le deja enredado entre las rocas de la cima de la montaña. Las cuerdas tiran de él cada vez que sopla la brisa, y el cuerpo se incorpora y vuelve a doblarse.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Golding coloca ese detalle con una ironía terrible: la prueba de que hay una guerra de adultos arrasando el mundo entero llega a la isla justo cuando los niños están discutiendo si existe un monstruo. Y el monstruo, cuando aparezca, va a ser literalmente un soldado muerto.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos gemelos que vigilan la hoguera lo ven de madrugada a la luz del fuego, medio dormidos y aterrados: una figura enorme, con algo detrás que se hincha, que se levanta y se agacha. Bajan corriendo y describen a la fiera con todo lujo de detalles inventados por el pánico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Organizan una expedición. Suben Ralph, Jack y Roger, y aquí Golding hace algo magistral: los tres tienen miedo, los tres saben que los otros dos también, y ninguno lo admite. Suben porque bajar sería admitirlo. Llegan de noche, ven el bulto que se mueve y salen corriendo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El efecto",
+          frase: "A partir de ahora la fiera existe para todos. Y quien controle el miedo a la fiera controlará la isla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Jack lo entiende inmediatamente y Ralph no. Jack convoca una asamblea, propone destituir a Ralph por cobarde, y al no conseguir ni un voto se marcha llorando de rabia diciendo que se va a otra parte de la isla y que quien quiera carne puede unirse a él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Poco a poco, sin decir nada, los niños se van marchando a su tribu. Primero los cazadores, después los mayores, después casi todos. La razón no es ideológica: allí hay carne asada, hay pintura, hay bailes y no hay que trabajar ni ir a buscar agua.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Roger es el personaje que más miedo da y el que Golding trabaja con más cuidado. Al principio del libro le vemos tirando piedras a un niño pequeño que juega en la arena, y apuntando deliberadamente a unos metros de distancia para no darle. Golding explica que le retenía el brazo la civilización que ya no existía.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una frase escalofriante porque describe un mecanismo, no un carácter. Roger no es un sádico nato: es un chico normal en el que la prohibición aprendida todavía funciona. El libro es, en buena parte, la crónica de cuánto tarda esa prohibición en disolverse cuando nadie mira.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la tribu de Jack, la caza deja de ser una necesidad y se vuelve un ritual. Matan a una cerda que estaba amamantando a sus crías, la persiguen entre chillidos, y Golding describe la escena con un lenguaje deliberadamente sexual y salvaje que en 1954 escandalizó a más de un lector.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La ofrenda",
+          frase: "Le cortan la cabeza y la clavan en un palo afilado por los dos extremos, como regalo para la fiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa cabeza, cubierta de moscas al sol, es el señor de las moscas del título. Y aquí conviene decir algo que casi nadie sabe: la expresión es la traducción literal de Belcebú, uno de los nombres del diablo en la tradición hebrea. Golding, que era profesor, lo eligió con toda la intención.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Simon, escondido en su claro, se queda mirando la cabeza. Le está subiendo la fiebre y probablemente está a punto de sufrir uno de sus desmayos. Y en su cabeza, la cabeza del cerdo empieza a hablarle.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le dice que es absurdo pensar que la fiera es algo que se pueda cazar y matar. Le dice que ella está dentro de todos ellos, que es parte de ellos, y que por eso las cosas son como son. Y le advierte, con voz de maestro de colegio, que si baja a contarlo se van a divertir con él.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La revelación",
+          frase: "No hay ninguna fiera en la montaña. La fiera son ellos. Y el único que lo entiende es el que nadie escucha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Simon se desmaya, y al recuperarse hace lo que nadie más ha hecho: sube solo a la cima de la montaña para verlo con sus propios ojos. Encuentra al paracaidista muerto, entiende inmediatamente lo que es, y suelta las cuerdas para liberar el cuerpo del viento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso hay una escena que casi todos recuerdan mal. Cuando la expedición sube por primera vez a la montaña, encuentran también un castillo de rocas al final de la isla, un promontorio con una gran piedra suelta que se puede empujar con una palanca. Los niños se emocionan imaginando lo que caería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Golding coloca esa palanca ahí, en el capítulo seis, sin darle importancia, y no vuelve a mencionarla hasta que Roger la usa contra Piggy. Es una de las mejores construcciones de la novela: el arma del asesinato aparece cien páginas antes como un juguete.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La tribu de Jack se instala precisamente en ese castillo de rocas, y la elección lo dice todo. Ralph vive en la playa, en refugios abiertos, junto al mar por donde puede llegar un barco. Jack vive en una fortaleza defendible con una sola entrada estrecha. Uno espera que le rescaten; el otro se prepara para una guerra.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Jack empieza a comportarse como un jefe tribal en pocos días: se sienta en un tronco como en un trono, con guardias a los lados, reparte la carne él mismo y hace azotar a un niño por una falta que ni se explica. Golding no dice en ningún momento las palabras dictadura ni tiranía. No hace falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y los niños, incluidos los que habían votado a Ralph, están encantados. Comen mejor, se pintan, bailan, y ya no hay asambleas donde alguien les pida que trabajen. Golding es muy claro en esto: el orden no cae derrotado por la fuerza, cae porque casi nadie lo echa de menos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y baja corriendo hacia la playa, tambaleándose, para contarles a todos que no hay ninguna fiera, que solo es un hombre muerto, que pueden dejar de tener miedo. Está oscureciendo y se ha levantado una tormenta.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La danza",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En la playa, la tribu de Jack está celebrando un banquete. Han comido carne hasta hartarse, ha empezado a caer una tormenta con relámpagos y truenos, y los pequeños lloran de miedo. Alguien propone bailar para calmarse, y empiezan a girar en círculo cantando la canción de la caza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ralph y Piggy están allí. Han ido porque tenían hambre, y eso Golding no lo oculta ni lo perdona: los dos defensores del orden acaban comiendo del banquete y bailando en el círculo. Golding escribe que en aquel corro se estaba a salvo, que era reconfortante y cuerdo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El baile va subiendo de intensidad con los truenos. Alguien hace de cerdo en el centro y los demás fingen apuñalarle. Y entonces sale del bosque, a cuatro patas por el terreno resbaladizo y gritando algo sobre un cuerpo en la montaña, una figura oscura que nadie reconoce.",
+          arte: "noche",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que ocurre en treinta segundos",
+          frase: "El círculo se cierra sobre Simon. Le matan a golpes y con los dientes, gritando la canción, mientras él intenta explicar que no hay ninguna fiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Golding se cuida mucho de no convertirlo en un asesinato deliberado, y por eso funciona. Nadie decide matar a Simon. Nadie sabe quién es hasta que es tarde. Es un grupo de niños aterrados, empapados, en trance, que golpean a algo que sale del bosque en medio de una tormenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después la tormenta se lleva el cuerpo al mar. Y Golding escribe media página de una belleza extrañísima sobre cómo la marea rodea a Simon de pequeñas criaturas fosforescentes, le cubre de plata y le arrastra suavemente mar adentro. Es lo más cerca que está el libro de una oración.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El viento también se lleva el cuerpo del paracaidista, que se desliza montaña abajo y desaparece en el agua. Se van los dos a la vez: el falso monstruo y el único que había entendido que no existía. Nadie volverá a subir a comprobarlo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al día siguiente, Ralph y Piggy tienen la conversación más dolorosa de la novela. Ralph dice en voz alta que aquello fue un asesinato. Y Piggy, temblando, va construyendo excusas: que estaba oscuro, que hubo una tormenta, que ellos estaban en el borde del círculo, que fue un accidente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase de Piggy",
+          frase: "«No hicimos nada, no vimos nada.» Y después, insistiendo: «Fue un accidente.» Golding retrata en dos líneas cómo se fabrica una versión oficial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa noche, la tribu de Jack asalta el refugio de Ralph. Hay una pelea a oscuras en la que todos golpean a ciegas, y cuando se marchan Ralph cree que venían a robar la caracola. Pero no era eso: se han llevado las gafas de Piggy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un detalle brillante. La caracola —el símbolo del acuerdo, de la ley, de hablar por turnos— ya no le interesa a nadie. Lo que tiene valor ahora es el objeto que hace fuego. La tribu no quiere legitimidad: quiere el mechero.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Piggy, medio ciego, decide entonces hacer algo desesperado y valiente. Le pide a Ralph que le lleve hasta el fuerte de Jack, no para pelear, sino para hablar. Va a ir a decirles que le devuelvan las gafas no porque sea fuerte, sino porque es lo justo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se lavan, se peinan con los dedos, se ponen lo que les queda de ropa. Golding describe con precisión ese gesto de arreglarse para una negociación, y es lo más humano y lo más inútil del libro. Van a presentarse ante una tribu pintada apelando a las normas de un colegio inglés que está a diez mil kilómetros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La víspera de esa visita ocurre algo que Golding cuenta casi de pasada y que es demoledor. Ralph se descubre a sí mismo pensando en la comida, en el agua, en el pelo, y teniendo que hacer un esfuerzo consciente para recordar por qué era importante el humo. La razón por la que estaban allí se le está borrando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Piggy es el único que la sostiene. Le repite a Ralph las tres cosas que importan: el fuego, los refugios y las normas. Se lo repite como quien recita una lección para no perderla, y le pide que no se le olvide, porque él ya casi no ve nada y depende de que otro las recuerde.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su discurso final delante de la tribu es el momento más valiente del libro y también el más ridículo, y las dos cosas a la vez son la clave. Un niño gordo, medio ciego, sostiene una concha en alto delante de treinta salvajes pintados con lanzas y les pregunta si no sería mejor tener normas y ponerse de acuerdo.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Golding describe lo que ocurre en la cabeza de Ralph justo después de que Roger suelte la roca: durante unos segundos no entiende nada, mira el sitio donde estaba Piggy y ve solo la marca roja en la piedra y el agua subiendo. El cerebro tarda en aceptarlo, y Golding se toma ese retardo con calma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle final en esa escena que suele pasarse por alto. Después de matar a Piggy, la tribu captura a los gemelos y les obliga a unirse a golpes. Jack no discute ni convence: simplemente les pincha con la lanza hasta que dicen que sí. Ya no hace falta ni la máscara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ralph lleva la caracola. Piggy la sostiene en alto delante de todos y empieza a gritar su pregunta: qué es mejor, ser una banda de negros pintados o ser sensatos como Ralph. Qué es mejor, tener normas y estar de acuerdo, o cazar y destrozar cosas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La respuesta",
+          frase: "Roger, desde lo alto del acantilado, empuja una roca enorme con una palanca. La caracola estalla en mil pedazos blancos y Piggy cae doce metros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Golding describe su muerte con una frialdad clínica: los brazos y las piernas se le mueven un poco, como los de un cerdo recién sacrificado, y la marea se lo lleva. Y añade que la caracola dejó de existir. Los dos símbolos del orden desaparecen en la misma frase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Jack sale corriendo y grita, exultante, que ha visto lo que ha pasado y que ese es el final de la caracola y de todo lo demás. Se proclama jefe y lanza una lanza contra Ralph. Ralph sale huyendo al bosque.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El oficial en la playa",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El último capítulo es una cacería y está escrito como tal. Ralph pasa la noche escondido cerca del fuerte, oye a los gemelos —a los que la tribu ha capturado y obligado a unirse— y descubre que han afilado un palo por los dos extremos. Es exactamente lo que hicieron con la cerda.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese detalle no se explica y no hace falta. Han preparado para él la misma lanza en la que clavaron la cabeza del cerdo. Golding deja al lector hacer la cuenta, y el efecto es peor que cualquier descripción.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al amanecer empieza la persecución. La tribu entera avanza en línea por la isla, batiendo la maleza, mientras Ralph corre, se esconde en matorrales, sale, tropieza. Golding cambia el ritmo de las frases y el capítulo se lee jadeando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuando no consiguen encontrarle, prenden fuego a la isla entera para hacerle salir. Sin pensar en que ese fuego se comerá también la fruta, los refugios y todo lo que puedan comer después. Es la última muestra de a dónde ha llegado el grupo: quemar el mundo para cazar a uno.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La ironía final",
+          frase: "El humo que Ralph llevaba semanas suplicando que mantuvieran encendido es, al final, el que trae el rescate. Y lo enciende la tribu para matarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ralph sale a la playa cayéndose, con una lanza rozándole, sin fuerzas, esperando el golpe. Levanta la vista y ve unas piernas. Delante de él, en la orilla, hay un oficial de la Marina británica con uniforme blanco impecable, gorra, botones dorados y una pistola al cinto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Detrás, en el agua, hay un crucero de guerra. El oficial mira a aquel niño sucio y desnudo, con el pelo apelmazado, y a los treinta salvajes pintados que se han quedado parados en la arena con las lanzas en la mano, y sonríe.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y dice la frase que arruina el consuelo: pregunta si están jugando a la guerra y comenta, entre divertido y decepcionado, que esperaba de unos chicos ingleses un espectáculo mejor. Pregunta cuántos hay. Ralph no lo sabe. Pregunta quién manda. Ralph dice, muy alto, que él.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El oficial se entera entonces de que ha habido dos muertos y su cara cambia. Y como no sabe qué decir ni dónde mirar, se da la vuelta y contempla su crucero de guerra, que está allí precisamente porque hay una guerra mundial en marcha y él va a matar gente esa misma semana.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El golpe que se le escapa a casi todo el mundo",
+          frase: "Un militar en plena guerra riñe a unos niños por haber montado una guerra. Golding no lo subraya en ningún momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces Ralph, a salvo, rodeado de adultos, se echa a llorar. Golding escribe que lloró por el fin de la inocencia, por la oscuridad del corazón del hombre y por la caída al vacío de aquel amigo sabio y verdadero llamado Piggy. Los demás niños empiezan a llorar también.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El oficial, incómodo, aparta la mirada para darles tiempo a recomponerse. Ahí acaba el libro. No hay explicación, ni castigo, ni moraleja pronunciada por nadie: solo un adulto avergonzado mirando hacia otro lado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Conviene saber de dónde sale todo esto. Golding fue maestro de niños durante años y estuvo en la Marina británica en la Segunda Guerra Mundial, incluido el desembarco de Normandía. Dijo después que escribió el libro porque cualquiera que hubiera vivido la guerra y no entendiera que el mal sale de los hombres estaba ciego o mal de la cabeza.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro es también una respuesta directa a otra novela, <em>La isla de coral</em>, un clásico victoriano de 1858 donde tres chicos ingleses naufragan y se comportan de maravilla. Golding le puso a dos de sus personajes los mismos nombres a propósito, y el oficial del final incluso la menciona.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El rechazo",
+          frase: "Veintiuna editoriales lo devolvieron. Una nota interna lo describió como «basura absurda e inútil». Después ganó el Nobel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título original en inglés y la traducción exacta importan. <em>Lord of the Flies</em> es la traducción literal del hebreo Baal Zebub, Belcebú, uno de los nombres del diablo. Golding eligió esa expresión sabiendo que casi ningún lector la reconocería y que quien la reconociera entendería el libro entero de golpe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Golding tardó años en publicarlo y nunca dejó de decir que había escrito el libro que necesitaba escribir después de ver lo que vio en la guerra. Fue oficial en un destructor, participó en el hundimiento del Bismarck y estuvo en el desembarco de Normandía. Volvió a dar clase a niños de doce años.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa combinación —el aula y la guerra— es la que produce el libro. Dijo que había pasado dos años observando cómo se organizaban solos unos críos en un patio de colegio, y que ya sabía cómo terminaría la novela antes de empezarla.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ganó el Nobel de Literatura en 1983 y el jurado citó expresamente esta novela. Hoy es lectura obligatoria en institutos de medio mundo, cosa que tiene su ironía: un libro sobre lo que pasa cuando desaparecen los maestros, impartido por maestros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si lo lees, un aviso práctico: la primera mitad es lenta a propósito y hay quien la abandona. Aguanta hasta el capítulo de la máscara. A partir de ahí el libro acelera y no se suelta, y son apenas doscientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una crítica seria que conviene conocer. Un antropólogo documentó en 2020 un caso real ocurrido en 1965: seis adolescentes de Tonga naufragaron en una isla del Pacífico y sobrevivieron quince meses cooperando, con turnos de trabajo, un huerto y una regla de resolver las peleas separándose unas horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese caso no invalida la novela pero sí obliga a leerla como lo que es: una hipótesis, no una ley de la naturaleza. Golding escribía sobre un grupo concreto —niños ingleses de internado, educados en la jerarquía y el castigo— justo después de una guerra que le había convencido de lo peor. Es una advertencia, no un experimento.",
+        },
+      ],
+    },
+  ],
+};

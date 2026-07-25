@@ -9,14 +9,14 @@ import { BUSCA_SENTIDO, IKIGAI, CUATRO_ACUERDOS, SUTIL_ARTE } from "./filosofia"
 import { COSMOS, POR_QUE_DORMIMOS, BREVE_HISTORIA_TIEMPO, RESPIRA } from "./ciencia-salud";
 import { PRINCIPITO, ALQUIMISTA, REBELION_GRANJA, FAHRENHEIT } from "./literatura";
 import { ROBA_ARTISTA, GUERRA_ARTE, MODOS_VER, CARTAS_THEO, LEONARDO } from "./arte";
-import { ANA_FRANK, ARMAS_GERMENES, INFINITO_JUNCO, MANDELA, MALALA } from "./historia";
+import { ANA_FRANK, ARMAS_GERMENES, INFINITO_JUNCO, MANDELA, MALALA, HOMO_DEUS } from "./historia";
 import { GEN_EGOISTA, FEYNMAN, VIDA_ARBOLES, CASI_TODO, MUNDO_DEMONIOS } from "./ciencia";
 import { CUERPO_CUENTA, DIGESTION, NACIDOS_CORRER, DILEMA_OMNIVORO, ALIENTO_AIRE } from "./salud";
 import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSBY, MATAR_RUISENOR, HOBBIT } from "./literatura";
 import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
 import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS } from "./economia";
 import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA } from "./psicologia";
-import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY } from "./literatura";
+import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY, SENOR_MOSCAS } from "./literatura";
 import { ARTE_GUERRA } from "./filosofia";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
@@ -128,6 +128,8 @@ export const RESUMENES: Record<string, Resumen> = {
   extranjero: EXTRANJERO,
   "dorian-gray": DORIAN_GRAY,
   "arte-guerra": ARTE_GUERRA,
+  "senor-moscas": SENOR_MOSCAS,
+  "homo-deus": HOMO_DEUS,
 };
 
 export function comprobar() {
