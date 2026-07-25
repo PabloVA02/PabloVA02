@@ -19,6 +19,7 @@ import { Pago } from "./Pago";
 import { Perfil } from "./Perfil";
 import { Ajustes } from "./Ajustes";
 import { AvisoRegalo, Oferta } from "./Regalo";
+import { AvisoValoracion } from "./Valoracion";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import {
   GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart,
@@ -49,6 +50,9 @@ export default function App() {
   /** El aviso del regalo: se enseña una vez, al llegar al inicio. */
   const [avisoRegalo, setAvisoRegalo] = useState(false);
   const [regaloVisto, setRegaloVisto] = useState(false);
+  /** El «¿te está gustando?»: una vez, y solo cuando ya has leído algo. */
+  const [valoracion, setValoracion] = useState(false);
+  const [valoracionVista, setValoracionVista] = useState(false);
   /** Capítulos completados del libro abierto. */
   const [completados, setCompletados] = useState(0);
   /** Minutos que ha tardado el lector en el capítulo, medidos de verdad. */
@@ -67,6 +71,18 @@ export default function App() {
     }, 1600);
     return () => window.clearTimeout(id);
   }, [pantalla, regaloVisto]);
+
+  // La valoración no se pide al entrar, sino cuando vuelves al inicio después
+  // de haber leído. Preguntar «¿te gusta?» a quien no ha usado nada todavía es
+  // pedirle que se invente una respuesta, y encima molesta.
+  useEffect(() => {
+    if (pantalla !== "inicio" || valoracionVista || leidas < 6 || avisoRegalo) return;
+    const id = window.setTimeout(() => {
+      setValoracion(true);
+      setValoracionVista(true);
+    }, 1400);
+    return () => window.clearTimeout(id);
+  }, [pantalla, valoracionVista, leidas, avisoRegalo]);
 
   return (
     <div className="stage">
@@ -185,6 +201,16 @@ export default function App() {
                 setAvisoRegalo(false);
                 setPantalla("oferta");
               }}
+            />
+          )}
+        </AnimatePresence>
+
+        <AnimatePresence>
+          {valoracion && pantalla === "inicio" && (
+            <AvisoValoracion
+              key="valoracion"
+              reducido={!!reducido}
+              onResponder={() => setValoracion(false)}
             />
           )}
         </AnimatePresence>

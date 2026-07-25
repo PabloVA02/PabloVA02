@@ -1345,6 +1345,141 @@ button {
 
 .ilu { width: 100%; max-height: 262px; }
 
+/* --- Las dos gráficas de la introducción --- */
+
+.grafica {
+  /* `flex: none` no es decorativo: en una columna flex el que se encoge es el
+     ALTO, y un SVG encogido no recorta, escala su contenido. Sin esto la
+     gráfica se dibujaba al 66 % en mitad de una caja vacía. */
+  flex: none;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  overflow: visible;
+}
+
+/* El texto de dentro del SVG hereda la tipografía de la app, pero no su
+   escala: aquí las medidas son las del lienzo, no las del documento */
+.grafica-eje {
+  font-size: 11.5px;
+  font-weight: 620;
+  letter-spacing: 0.02em;
+  fill: var(--ink-soft);
+  opacity: 0.75;
+}
+
+.grafica-pastilla {
+  font-size: 13.5px;
+  font-weight: 720;
+  letter-spacing: -0.01em;
+}
+
+.grafica-rasgo {
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  fill: var(--ink);
+}
+
+.grafica-leyenda {
+  font-size: 11px;
+  font-weight: 620;
+  fill: var(--ink-soft);
+}
+
+/* --- La pantalla del cálculo: una frase con un número dentro --- */
+
+/* Va alineada a la izquierda y ocupa el ancho: es una frase que se lee de
+   corrido, no un titular centrado, y la cifra tiene que caer en su renglón */
+.calc {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.calc-frase {
+  margin: 0;
+  font-size: 27px;
+  font-weight: 680;
+  line-height: 1.16;
+  letter-spacing: -0.032em;
+  text-align: left;
+}
+
+.calc-caja {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 4px 0 2px;
+}
+
+.calc-numero {
+  display: inline-block;
+  font-size: 66px;
+  font-weight: 820;
+  line-height: 1.04;
+  letter-spacing: -0.05em;
+  color: var(--clay);
+  /* Cifras de ancho fijo: sin esto el número tiembla mientras corre */
+  font-variant-numeric: tabular-nums;
+}
+
+.calc-rodillo {
+  display: inline-block;
+  transform-origin: center bottom;
+}
+
+.calc-halo {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: -75px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle, var(--clay) 0%, transparent 62%);
+}
+
+.calc-chispa {
+  position: absolute;
+  left: 46px;
+  top: 50%;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.calc-remate {
+  margin: 20px 0 0;
+  font-size: 21px;
+  font-weight: 660;
+  letter-spacing: -0.02em;
+  color: var(--ink-soft);
+}
+
+.calc-pie { text-align: left; margin-top: 14px; }
+
+/* El número de la promesa, del color del acento */
+.onb-realce {
+  color: var(--clay);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+}
+
+/* La letra pequeña honesta: qué es ilustrativo y qué está medido */
+.onb-fuente {
+  margin: 10px 0 0;
+  max-width: 34ch;
+  font-size: 10.5px;
+  line-height: 1.42;
+  text-align: center;
+  text-wrap: pretty;
+  color: var(--ink-soft);
+  opacity: 0.62;
+}
+
 /* Ventajas */
 
 .onb-ventajas {
@@ -3267,6 +3402,46 @@ button {
   place-items: center;
 }
 
+.valoracion { padding-top: 6px; }
+
+.cohete {
+  width: 100%;
+  max-width: 208px;
+  overflow: visible;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Dos respuestas, mismo peso visual: si el «sí» fuera el doble de grande,
+   la pregunta dejaría de ser una pregunta */
+.valoracion-botones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 18px;
+  width: 100%;
+}
+
+.valoracion-no,
+.valoracion-si {
+  height: 50px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 720;
+  letter-spacing: -0.01em;
+}
+
+.valoracion-no {
+  background: transparent;
+  border: 1.6px solid rgba(242, 236, 225, 0.28);
+  color: var(--paper);
+}
+
+.valoracion-si {
+  background: var(--paper);
+  color: var(--ink);
+}
+
 .regalo-aviso h2 {
   margin-top: 6px;
   font-size: 23px;
@@ -3360,6 +3535,18 @@ button {
   top: 50%;
   left: 50%;
   margin: -12px 0 0 -12px;
+  pointer-events: none;
+}
+
+/* Los papelillos salen del mismo punto que las estrellas, el centro de la
+   caja, pero estos sí caen: la mezcla de lo que flota y lo que pesa es lo que
+   evita que el estallido parezca un adorno pegado */
+.regalo-confeti {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  border-radius: 2px;
   pointer-events: none;
 }
 

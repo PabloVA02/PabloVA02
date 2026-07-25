@@ -4,6 +4,7 @@ import { LIBROS, Portada } from "./Biblioteca";
 import { GlyphBack, GlyphTick } from "./glyphs";
 import { PaseInvitado } from "./PaseInvitado";
 import { CargaBiblioteca, DURACION } from "./Cargando";
+import { CurvaVelocidad, PantallaCalculo, RadarRasgos, VECES_MAS_RAPIDO } from "./GraficasIntro";
 import { spring, springPop, springSoft, springTight } from "./motion";
 
 /* ==========================================================================
@@ -229,12 +230,17 @@ type Paso =
   | { tipo: "nombre"; titulo: string; pie: string }
   | { tipo: "promesa"; titulo: string; ilu: "movil" }
   | { tipo: "ventajas"; titulo: string; puntos: { titulo: string; color: string }[] }
-  | { tipo: "eleccion"; titulo: string; pie?: string; opciones: Opcion[]; multiple?: boolean; max?: number }
+  | { tipo: "eleccion"; titulo: string; pie?: string; opciones: Opcion[]; multiple?: boolean; max?: number;
+      /** Marca el paso cuya respuesta se usa más adelante. */
+      clave?: "minutos" }
   | { tipo: "confirmacion"; titulo: string; texto: string }
   | { tipo: "testimonio"; cita: string; sello: string }
   | { tipo: "aviso"; titulo: string; texto: string; ilu: "mano" | "campana"; cta: string; secundario?: string }
   | { tipo: "invitar"; titulo: string; texto: string; cta: string; secundario: string }
   | { tipo: "cargando"; titulo: string }
+  | { tipo: "curva"; pie: string }
+  | { tipo: "calculo"; remate: string; pie: string }
+  | { tipo: "rasgos"; titulo: string; pie: string; fuente: string }
   | { tipo: "prueba"; titulo: string; hitos: { dia: string; texto: string }[] };
 
 const PASOS: Paso[] = [
@@ -273,6 +279,7 @@ const PASOS: Paso[] = [
   },
   {
     tipo: "eleccion",
+    clave: "minutos",
     titulo: "¿Cuánto quieres leer al día?",
     pie: "Quien se marca un objetivo aprende más, aunque sean pocos minutos.",
     opciones: [
@@ -313,6 +320,22 @@ const PASOS: Paso[] = [
     secundario: "Ahora no",
   },
   { tipo: "cargando", titulo: "Un momento, estamos preparando tu biblioteca…" },
+  {
+    tipo: "curva",
+    pie: "Tu plan ya está listo: diez minutos al día, cuatro semanas.",
+  },
+  {
+    tipo: "rasgos",
+    titulo: "Y esto es lo que se entrena",
+    pie: "No se mueve una sola cosa: leer a diario tira de las cinco a la vez.",
+    fuente:
+      "Comparación ilustrativa. Los efectos, no: la actividad cognitiva frecuente se asocia a un 32 % menos de declive (Neurology, 2013) y la ficción literaria mejora la teoría de la mente (Science, 2013).",
+  },
+  {
+    tipo: "calculo",
+    remate: "Nada mal, ¿no?",
+    pie: "Contamos una idea nueva por cada minuto de lectura al día.",
+  },
   {
     tipo: "aviso",
     titulo: "Empieza gratis",
@@ -370,6 +393,13 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => voi
     else siguiente = actual.length >= max ? actual : [...actual, texto];
     setElegidas({ ...elegidas, [i]: siguiente });
   };
+
+  // Cuántas cosas nuevas al año, a partir de los minutos que ha elegido él:
+  // el número tiene que ser SUYO. Un número redondo igual para todo el mundo
+  // se huele a diez metros y deja de ser un cálculo para ser un cartel.
+  const pasoMinutos = PASOS.findIndex((p) => p.tipo === "eleccion" && p.clave === "minutos");
+  const minutos = Number(elegidas[pasoMinutos]?.[0]?.match(/\d+/)?.[0] ?? 10);
+  const ideasAlAno = minutos * 365;
 
   const seleccion = elegidas[i] ?? [];
   const puedeSeguir = paso.tipo !== "eleccion" || seleccion.length > 0;
@@ -564,6 +594,47 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => voi
             </>
           )}
 
+          {paso.tipo === "curva" && (
+            <>
+              <motion.h1 className="onb-titulo" {...parte(0, reducido)}>
+                Aprende <span className="onb-realce">{VECES_MAS_RAPIDO}×</span> más rápido
+              </motion.h1>
+              <motion.p className="onb-pie" {...parte(1, reducido)}>
+                {paso.pie}
+              </motion.p>
+              <CurvaVelocidad reducido={reducido} />
+            </>
+          )}
+
+          {paso.tipo === "rasgos" && (
+            <>
+              <motion.h1 className="onb-titulo" {...parte(0, reducido)}>
+                {paso.titulo}
+              </motion.h1>
+              <motion.p className="onb-pie" {...parte(1, reducido)}>
+                {paso.pie}
+              </motion.p>
+              <RadarRasgos reducido={reducido} />
+              <motion.p
+                className="onb-fuente"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={reducido ? { duration: 0.01 } : { duration: 0.5, delay: 1.3 }}
+              >
+                {paso.fuente}
+              </motion.p>
+            </>
+          )}
+
+          {paso.tipo === "calculo" && (
+            <PantallaCalculo
+              valor={ideasAlAno}
+              remate={paso.remate}
+              pie={paso.pie}
+              reducido={reducido}
+            />
+          )}
+
           {paso.tipo === "prueba" && (
             <>
               <motion.h1 className="onb-titulo onb-izq" {...parte(0, reducido)}>
@@ -603,7 +674,9 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => voi
             animate={{ opacity: puedeSeguir ? 1 : 0.4, y: 0 }}
             transition={{ ...spring, delay: 0.3 }}
           >
-            {paso.tipo === "bienvenida"
+            {paso.tipo === "calculo"
+              ? "Me apunto"
+              : paso.tipo === "bienvenida"
               ? "Empezar"
               : paso.tipo === "aviso" || paso.tipo === "invitar"
                 ? paso.cta
