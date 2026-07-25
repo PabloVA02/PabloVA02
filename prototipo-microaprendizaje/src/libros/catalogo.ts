@@ -70,23 +70,23 @@ export const CATALOGO: Ficha[] = [
 
   /* --- Filosofía -------------------------------------------------------- */
   { id: "meditaciones", titulo: "Meditaciones", autor: "Marco Aurelio", ano: 180, categoria: "Filosofía", estado: "escrito" },
-  { id: "busca-sentido", titulo: "El hombre en busca de sentido", autor: "Viktor Frankl", ano: 1946, categoria: "Filosofía", estado: "pendiente" },
+  { id: "busca-sentido", titulo: "El hombre en busca de sentido", autor: "Viktor Frankl", ano: 1946, categoria: "Filosofía", estado: "escrito" },
   { id: "arte-guerra", titulo: "El arte de la guerra", autor: "Sun Tzu", ano: -500, categoria: "Filosofía", estado: "pendiente" },
   { id: "principe", titulo: "El príncipe", autor: "Nicolás Maquiavelo", ano: 1532, categoria: "Filosofía", estado: "pendiente" },
   { id: "zaratustra", titulo: "Así habló Zaratustra", autor: "Friedrich Nietzsche", ano: 1883, categoria: "Filosofía", estado: "pendiente" },
   { id: "brevedad-vida", titulo: "Sobre la brevedad de la vida", autor: "Séneca", ano: 49, categoria: "Filosofía", estado: "pendiente" },
   { id: "sisifo", titulo: "El mito de Sísifo", autor: "Albert Camus", ano: 1942, categoria: "Filosofía", estado: "pendiente" },
-  { id: "cuatro-acuerdos", titulo: "Los cuatro acuerdos", autor: "Miguel Ruiz", ano: 1997, categoria: "Filosofía", estado: "pendiente" },
+  { id: "cuatro-acuerdos", titulo: "Los cuatro acuerdos", autor: "Miguel Ruiz", ano: 1997, categoria: "Filosofía", estado: "escrito" },
   { id: "enquiridion", titulo: "Enquiridión", autor: "Epicteto", ano: 125, categoria: "Filosofía", estado: "pendiente" },
   { id: "tao", titulo: "Tao Te Ching", autor: "Lao Tsé", ano: -400, categoria: "Filosofía", estado: "pendiente" },
-  { id: "sutil-arte", titulo: "El sutil arte de que casi todo te importe una mierda", autor: "Mark Manson", ano: 2016, categoria: "Filosofía", estado: "pendiente" },
+  { id: "sutil-arte", titulo: "El sutil arte de que casi todo te importe una mierda", autor: "Mark Manson", ano: 2016, categoria: "Filosofía", estado: "escrito" },
   { id: "etica-amador", titulo: "Ética para Amador", autor: "Fernando Savater", ano: 1991, categoria: "Filosofía", estado: "pendiente" },
-  { id: "ikigai", titulo: "Ikigai", autor: "García y Miralles", ano: 2016, categoria: "Filosofía", estado: "pendiente" },
+  { id: "ikigai", titulo: "Ikigai", autor: "García y Miralles", ano: 2016, categoria: "Filosofía", estado: "escrito" },
   { id: "monje-ferrari", titulo: "El monje que vendió su Ferrari", autor: "Robin Sharma", ano: 1997, categoria: "Filosofía", estado: "pendiente" },
 
   /* --- Ciencia ---------------------------------------------------------- */
-  { id: "breve-historia-tiempo", titulo: "Breve historia del tiempo", autor: "Stephen Hawking", ano: 1988, categoria: "Ciencia", estado: "pendiente" },
-  { id: "cosmos", titulo: "Cosmos", autor: "Carl Sagan", ano: 1980, categoria: "Ciencia", estado: "pendiente" },
+  { id: "breve-historia-tiempo", titulo: "Breve historia del tiempo", autor: "Stephen Hawking", ano: 1988, categoria: "Ciencia", estado: "escrito" },
+  { id: "cosmos", titulo: "Cosmos", autor: "Carl Sagan", ano: 1980, categoria: "Ciencia", estado: "escrito" },
   { id: "gen-egoista", titulo: "El gen egoísta", autor: "Richard Dawkins", ano: 1976, categoria: "Ciencia", estado: "pendiente" },
   { id: "universo-cascara", titulo: "El universo en una cáscara de nuez", autor: "Stephen Hawking", ano: 2001, categoria: "Ciencia", estado: "pendiente" },
   { id: "casi-todo", titulo: "Una breve historia de casi todo", autor: "Bill Bryson", ano: 2003, categoria: "Ciencia", estado: "pendiente" },
@@ -116,10 +116,10 @@ export const CATALOGO: Ficha[] = [
 
   /* --- Literatura ------------------------------------------------------- */
   { id: "1984", titulo: "1984", autor: "George Orwell", ano: 1949, categoria: "Literatura", estado: "escrito" },
-  { id: "rebelion-granja", titulo: "Rebelión en la granja", autor: "George Orwell", ano: 1945, categoria: "Literatura", estado: "pendiente" },
+  { id: "rebelion-granja", titulo: "Rebelión en la granja", autor: "George Orwell", ano: 1945, categoria: "Literatura", estado: "escrito" },
   { id: "mundo-feliz", titulo: "Un mundo feliz", autor: "Aldous Huxley", ano: 1932, categoria: "Literatura", estado: "pendiente" },
-  { id: "fahrenheit", titulo: "Fahrenheit 451", autor: "Ray Bradbury", ano: 1953, categoria: "Literatura", estado: "pendiente" },
-  { id: "principito", titulo: "El principito", autor: "Antoine de Saint-Exupéry", ano: 1943, categoria: "Literatura", estado: "pendiente" },
+  { id: "fahrenheit", titulo: "Fahrenheit 451", autor: "Ray Bradbury", ano: 1953, categoria: "Literatura", estado: "escrito" },
+  { id: "principito", titulo: "El principito", autor: "Antoine de Saint-Exupéry", ano: 1943, categoria: "Literatura", estado: "escrito" },
   { id: "cien-anos", titulo: "Cien años de soledad", autor: "Gabriel García Márquez", ano: 1967, categoria: "Literatura", estado: "pendiente" },
   { id: "quijote", titulo: "Don Quijote de la Mancha", autor: "Miguel de Cervantes", ano: 1605, categoria: "Literatura", estado: "pendiente" },
   { id: "crimen-castigo", titulo: "Crimen y castigo", autor: "Fiódor Dostoievski", ano: 1866, categoria: "Literatura", estado: "pendiente" },
@@ -132,7 +132,7 @@ export const CATALOGO: Ficha[] = [
   { id: "frankenstein", titulo: "Frankenstein", autor: "Mary Shelley", ano: 1818, categoria: "Literatura", estado: "pendiente" },
   { id: "dorian-gray", titulo: "El retrato de Dorian Gray", autor: "Oscar Wilde", ano: 1890, categoria: "Literatura", estado: "pendiente" },
   { id: "dracula", titulo: "Drácula", autor: "Bram Stoker", ano: 1897, categoria: "Literatura", estado: "pendiente" },
-  { id: "alquimista", titulo: "El alquimista", autor: "Paulo Coelho", ano: 1988, categoria: "Literatura", estado: "pendiente" },
+  { id: "alquimista", titulo: "El alquimista", autor: "Paulo Coelho", ano: 1988, categoria: "Literatura", estado: "escrito" },
   { id: "mujercitas", titulo: "Mujercitas", autor: "Louisa May Alcott", ano: 1868, categoria: "Literatura", estado: "pendiente" },
   { id: "sombra-viento", titulo: "La sombra del viento", autor: "Carlos Ruiz Zafón", ano: 2001, categoria: "Literatura", estado: "pendiente" },
   { id: "nombre-rosa", titulo: "El nombre de la rosa", autor: "Umberto Eco", ano: 1980, categoria: "Literatura", estado: "pendiente" },
@@ -147,12 +147,12 @@ export const CATALOGO: Ficha[] = [
   /* --- Psicología ------------------------------------------------------- */
   { id: "pensar-rapido", titulo: "Pensar rápido, pensar despacio", autor: "Daniel Kahneman", ano: 2011, categoria: "Psicología", estado: "pendiente" },
   { id: "habitos-atomicos", titulo: "Hábitos atómicos", autor: "James Clear", ano: 2018, categoria: "Psicología", estado: "escrito" },
-  { id: "influencia", titulo: "Influencia", autor: "Robert Cialdini", ano: 1984, categoria: "Psicología", estado: "pendiente" },
-  { id: "mindset", titulo: "Mindset", autor: "Carol Dweck", ano: 2006, categoria: "Psicología", estado: "pendiente" },
-  { id: "inteligencia-emocional", titulo: "Inteligencia emocional", autor: "Daniel Goleman", ano: 1995, categoria: "Psicología", estado: "pendiente" },
+  { id: "influencia", titulo: "Influencia", autor: "Robert Cialdini", ano: 1984, categoria: "Psicología", estado: "escrito" },
+  { id: "mindset", titulo: "Mindset", autor: "Carol Dweck", ano: 2006, categoria: "Psicología", estado: "escrito" },
+  { id: "inteligencia-emocional", titulo: "Inteligencia emocional", autor: "Daniel Goleman", ano: 1995, categoria: "Psicología", estado: "escrito" },
   { id: "flow", titulo: "Fluir", autor: "Mihály Csíkszentmihályi", ano: 1990, categoria: "Psicología", estado: "pendiente" },
   { id: "siete-habitos", titulo: "Los 7 hábitos de la gente altamente efectiva", autor: "Stephen Covey", ano: 1989, categoria: "Psicología", estado: "pendiente" },
-  { id: "amigos-influir", titulo: "Cómo ganar amigos e influir sobre las personas", autor: "Dale Carnegie", ano: 1936, categoria: "Psicología", estado: "pendiente" },
+  { id: "amigos-influir", titulo: "Cómo ganar amigos e influir sobre las personas", autor: "Dale Carnegie", ano: 1936, categoria: "Psicología", estado: "escrito" },
   { id: "deep-work", titulo: "Céntrate", autor: "Cal Newport", ano: 2016, categoria: "Psicología", estado: "pendiente" },
   { id: "poder-ahora", titulo: "El poder del ahora", autor: "Eckhart Tolle", ano: 1997, categoria: "Psicología", estado: "pendiente" },
   { id: "nudge", titulo: "Un pequeño empujón", autor: "Thaler y Sunstein", ano: 2008, categoria: "Psicología", estado: "pendiente" },
@@ -160,24 +160,24 @@ export const CATALOGO: Ficha[] = [
 
   /* --- Economía --------------------------------------------------------- */
   { id: "psicologia-dinero", titulo: "La psicología del dinero", autor: "Morgan Housel", ano: 2020, categoria: "Economía", estado: "escrito" },
-  { id: "padre-rico", titulo: "Padre rico, padre pobre", autor: "Robert Kiyosaki", ano: 1997, categoria: "Economía", estado: "pendiente" },
-  { id: "hombre-rico-babilonia", titulo: "El hombre más rico de Babilonia", autor: "George S. Clason", ano: 1926, categoria: "Economía", estado: "pendiente" },
+  { id: "padre-rico", titulo: "Padre rico, padre pobre", autor: "Robert Kiyosaki", ano: 1997, categoria: "Economía", estado: "escrito" },
+  { id: "hombre-rico-babilonia", titulo: "El hombre más rico de Babilonia", autor: "George S. Clason", ano: 1926, categoria: "Economía", estado: "escrito" },
   { id: "freakonomics", titulo: "Freakonomics", autor: "Levitt y Dubner", ano: 2005, categoria: "Economía", estado: "pendiente" },
   { id: "cisne-negro", titulo: "El cisne negro", autor: "Nassim Taleb", ano: 2007, categoria: "Economía", estado: "pendiente" },
   { id: "antifragil", titulo: "Antifrágil", autor: "Nassim Taleb", ano: 2012, categoria: "Economía", estado: "pendiente" },
   { id: "inversor-inteligente", titulo: "El inversor inteligente", autor: "Benjamin Graham", ano: 1949, categoria: "Economía", estado: "pendiente" },
-  { id: "piensa-hazte-rico", titulo: "Piensa y hazte rico", autor: "Napoleon Hill", ano: 1937, categoria: "Economía", estado: "pendiente" },
+  { id: "piensa-hazte-rico", titulo: "Piensa y hazte rico", autor: "Napoleon Hill", ano: 1937, categoria: "Economía", estado: "escrito" },
   { id: "mente-millonaria", titulo: "Los secretos de la mente millonaria", autor: "T. Harv Eker", ano: 2005, categoria: "Economía", estado: "pendiente" },
   { id: "cero-a-uno", titulo: "De cero a uno", autor: "Peter Thiel", ano: 2014, categoria: "Economía", estado: "pendiente" },
   { id: "lean-startup", titulo: "El método Lean Startup", autor: "Eric Ries", ano: 2011, categoria: "Economía", estado: "pendiente" },
   { id: "steve-jobs", titulo: "Steve Jobs", autor: "Walter Isaacson", ano: 2011, categoria: "Economía", estado: "pendiente" },
   { id: "factfulness", titulo: "Factfulness", autor: "Hans Rosling", ano: 2018, categoria: "Economía", estado: "pendiente" },
-  { id: "semana-4-horas", titulo: "La semana laboral de 4 horas", autor: "Tim Ferriss", ano: 2007, categoria: "Economía", estado: "pendiente" },
+  { id: "semana-4-horas", titulo: "La semana laboral de 4 horas", autor: "Tim Ferriss", ano: 2007, categoria: "Economía", estado: "escrito" },
 
   /* --- Salud ------------------------------------------------------------ */
-  { id: "por-que-dormimos", titulo: "Por qué dormimos", autor: "Matthew Walker", ano: 2017, categoria: "Salud", estado: "pendiente" },
+  { id: "por-que-dormimos", titulo: "Por qué dormimos", autor: "Matthew Walker", ano: 2017, categoria: "Salud", estado: "escrito" },
   { id: "cuerpo-cuenta", titulo: "El cuerpo lleva la cuenta", autor: "Bessel van der Kolk", ano: 2014, categoria: "Salud", estado: "pendiente" },
-  { id: "respira", titulo: "Respira", autor: "James Nestor", ano: 2020, categoria: "Salud", estado: "pendiente" },
+  { id: "respira", titulo: "Respira", autor: "James Nestor", ano: 2020, categoria: "Salud", estado: "escrito" },
   { id: "digestion-cuestion", titulo: "La digestión es la cuestión", autor: "Giulia Enders", ano: 2014, categoria: "Salud", estado: "pendiente" },
   { id: "outlive", titulo: "Outlive: el arte de vivir más y mejor", autor: "Peter Attia", ano: 2023, categoria: "Salud", estado: "pendiente" },
   { id: "nacidos-correr", titulo: "Nacidos para correr", autor: "Christopher McDougall", ano: 2009, categoria: "Salud", estado: "pendiente" },
@@ -194,13 +194,14 @@ export const CATALOGO: Ficha[] = [
    -------------------------------------------------------------------------- */
 
 export function progreso() {
-  const porCategoria = new Map<Categoria, { escritos: number; total: number }>();
+  /* Record y no Map: esto acaba pintándose en pantalla, y un Map obliga a
+     convertirlo en cada sitio donde se consuma. */
+  const porCategoria = {} as Record<Categoria, { escritos: number; total: number }>;
 
   for (const f of CATALOGO) {
-    const c = porCategoria.get(f.categoria) ?? { escritos: 0, total: 0 };
+    const c = (porCategoria[f.categoria] ??= { escritos: 0, total: 0 });
     c.total += 1;
     if (f.estado === "escrito") c.escritos += 1;
-    porCategoria.set(f.categoria, c);
   }
 
   const escritos = CATALOGO.filter((f) => f.estado === "escrito").length;

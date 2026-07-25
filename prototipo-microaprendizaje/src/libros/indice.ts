@@ -3,6 +3,11 @@ import { SAPIENS } from "./sapiens";
 import { MIL_NOVECIENTOS_OCHENTA_Y_CUATRO } from "./1984";
 import { HABITOS_ATOMICOS } from "./habitos-atomicos";
 import { PSICOLOGIA_DINERO } from "./psicologia-dinero";
+import { INFLUENCIA, MINDSET, INTELIGENCIA_EMOCIONAL, AMIGOS_INFLUIR } from "./psicologia";
+import { PADRE_RICO, BABILONIA, SEMANA_4_HORAS, PIENSA_HAZTE_RICO } from "./economia";
+import { BUSCA_SENTIDO, IKIGAI, CUATRO_ACUERDOS, SUTIL_ARTE } from "./filosofia";
+import { COSMOS, POR_QUE_DORMIMOS, BREVE_HISTORIA_TIEMPO, RESPIRA } from "./ciencia-salud";
+import { PRINCIPITO, ALQUIMISTA, REBELION_GRANJA, FAHRENHEIT } from "./literatura";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
 
@@ -21,6 +26,36 @@ export const RESUMENES: Record<string, Resumen> = {
   "1984": MIL_NOVECIENTOS_OCHENTA_Y_CUATRO,
   "habitos-atomicos": HABITOS_ATOMICOS,
   "psicologia-dinero": PSICOLOGIA_DINERO,
+
+  /* Psicología */
+  influencia: INFLUENCIA,
+  mindset: MINDSET,
+  "inteligencia-emocional": INTELIGENCIA_EMOCIONAL,
+  "amigos-influir": AMIGOS_INFLUIR,
+
+  /* Economía */
+  "padre-rico": PADRE_RICO,
+  "hombre-rico-babilonia": BABILONIA,
+  "semana-4-horas": SEMANA_4_HORAS,
+  "piensa-hazte-rico": PIENSA_HAZTE_RICO,
+
+  /* Filosofía */
+  "busca-sentido": BUSCA_SENTIDO,
+  ikigai: IKIGAI,
+  "cuatro-acuerdos": CUATRO_ACUERDOS,
+  "sutil-arte": SUTIL_ARTE,
+
+  /* Ciencia y salud */
+  cosmos: COSMOS,
+  "por-que-dormimos": POR_QUE_DORMIMOS,
+  "breve-historia-tiempo": BREVE_HISTORIA_TIEMPO,
+  respira: RESPIRA,
+
+  /* Literatura */
+  principito: PRINCIPITO,
+  alquimista: ALQUIMISTA,
+  "rebelion-granja": REBELION_GRANJA,
+  fahrenheit: FAHRENHEIT,
 };
 
 export function comprobar() {
