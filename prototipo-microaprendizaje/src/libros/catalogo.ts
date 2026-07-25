@@ -57,7 +57,7 @@ export const CATALOGO: Ficha[] = [
   { id: "homo-deus", titulo: "Homo Deus", autor: "Yuval Noah Harari", ano: 2015, categoria: "Historia", estado: "escrito" },
   { id: "armas-germenes", titulo: "Armas, gérmenes y acero", autor: "Jared Diamond", ano: 1997, categoria: "Historia", estado: "escrito" },
   { id: "infinito-junco", titulo: "El infinito en un junco", autor: "Irene Vallejo", ano: 2019, categoria: "Historia", estado: "escrito" },
-  { id: "mundo-ayer", titulo: "El mundo de ayer", autor: "Stefan Zweig", ano: 1942, categoria: "Historia", estado: "pendiente" },
+  { id: "mundo-ayer", titulo: "El mundo de ayer", autor: "Stefan Zweig", ano: 1942, categoria: "Historia", estado: "escrito" },
   { id: "spqr", titulo: "SPQR", autor: "Mary Beard", ano: 2015, categoria: "Historia", estado: "pendiente" },
   { id: "diario-ana-frank", titulo: "Diario de Ana Frank", autor: "Ana Frank", ano: 1947, categoria: "Historia", estado: "escrito" },
   { id: "pilares-tierra", titulo: "Los pilares de la Tierra", autor: "Ken Follett", ano: 1989, categoria: "Historia", estado: "pendiente" },

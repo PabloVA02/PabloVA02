@@ -1101,3 +1101,554 @@ export const HOMO_DEUS: Resumen = {
     },
   ],
 };
+
+export const MUNDO_AYER: Resumen = {
+  id: "mundo-ayer",
+  titulo: "El mundo de ayer",
+  autor: "Stefan Zweig",
+  ano: 1942,
+  gancho: "Escribió de memoria, sin biblioteca y sin notas, el retrato de una Europa que ya no existía. Echó el manuscrito al correo y al día siguiente se mató.",
+  porQue:
+    "Es el mejor testimonio que hay de cómo un mundo entero se puede desmontar en veinticinco años sin que casi nadie se dé cuenta a tiempo.",
+  partes: [
+    {
+      titulo: "El mundo de la seguridad",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Petrópolis, Brasil, 1941. Un hombre de sesenta años escribe en una casa alquilada en la montaña, a setenta kilómetros de Río. No tiene su biblioteca, no tiene sus cartas, no tiene un solo cuaderno de notas. Todo lo que va a contar lo escribe de memoria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llama Stefan Zweig y hasta hacía ocho años había sido el autor vivo más traducido del mundo. Ahora sus libros están prohibidos en el idioma en que los escribió, y sus lectores alemanes o están muertos, o están en el frente, o han aprendido a callarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro empieza con una frase que ya avisa de todo: nunca me he considerado tan importante como para sentirme tentado de contar a otros la historia de mi vida. La escribe porque su vida pilló en medio el desmontaje completo de una civilización.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El subtítulo",
+          frase: "«Memorias de un europeo.» No dice austriaco ni judío ni escritor. En 1941 esa palabra, europeo, era exactamente lo que acababa de dejar de existir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le pone nombre al tiempo del que viene: la edad de oro de la seguridad. Nació en Viena en 1881, en una familia rica de industriales textiles, dentro de un imperio que llevaba siglos ahí y que a todos los efectos parecía eterno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo explica con un detalle doméstico que vale por cien páginas de historia: en aquella Austria todo tenía su norma, su medida y su peso. Quien tenía una casa la consideraba morada segura para hijos y nietos. La corona austriaca circulaba en monedas de oro contantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo el mundo sabía cuánto tenía y cuánto tendría. Estaba asegurado contra el incendio, contra el robo, contra la enfermedad y contra la vejez. Los obreros mismos, dice, sabían que su porción iba creciendo lentamente. Nadie contaba con perderlo todo, porque perderlo todo no estaba en las categorías.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En el trono estaba Francisco José, que reinó sesenta y ocho años. La gente nacía y moría bajo el mismo emperador, con el mismo retrato en la pared de la escuela. La duración no era una idea: era el aire que se respiraba.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zweig no idealiza sin darse cuenta: sabe que idealiza y lo dice. Aquella seguridad, escribe, era un castillo de naipes, y ellos la tomaban por una casa de piedra. Todo el libro está escrito desde el otro lado, por alguien que ya vio caer las cartas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Viena de entonces no era una capital política: era una capital de espectáculos. Lo cuenta con una escena maravillosa. Cuando un actor del Burgtheater se murió, la ciudad entera se conmovió; y su criada lloraba porque el hombre que le llevaba el pan había muerto de emoción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La medida de la ciudad era el teatro. Un funcionario pequeño abría el periódico y buscaba antes la crítica de la ópera que las noticias del parlamento. La política, escribe Zweig, era lo aburrido; el arte era el asunto serio y todo el mundo entendía de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el mundo. Y ahora el retrato de la clase que lo sostenía, que es la parte que más ha envejecido y la que más honradamente cuenta: la burguesía judía de Viena, que en dos generaciones había pasado del comercio a la cultura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre hizo dinero con telares y no se permitió ni una ostentación. Zweig observa que la gran ambición de esas familias no era el dinero, que ya lo tenían, sino subir al terreno espiritual: que el hijo del comerciante fuera médico, o profesor, o músico. Como si el dinero fuera solo un peldaño.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y ahí está la observación que da a todo el libro su fondo trágico: precisamente esa gente, la más entregada a Alemania y a su cultura, la que educó a sus hijos en Goethe y Beethoven, fue la que Alemania expulsó primero.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene señalar aquí lo que Zweig deja fuera, porque lo deja fuera de verdad. Aquella Viena tenía barrios obreros con tuberculosis, tenía un alcalde, Karl Lueger, elegido tres veces con un programa abiertamente antisemita, y tenía a un joven fracasado llamado Hitler durmiendo en un albergue.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zweig menciona a Lueger y lo despacha en un párrafo casi benévolo: dice que su antisemitismo era de campaña y que en la práctica trataba bien a los judíos. Escrito en 1941, ese párrafo es una de las cosas más desconcertantes del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es hipocresía: es memoria. Está contando lo que su clase percibía, no lo que estaba ocurriendo. Y esa distancia entre lo percibido y lo real es exactamente el tema del libro, aunque él solo lo vea del todo cuando habla de 1914.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque lo que va a contar en seiscientas páginas es una sola cosa repetida: gente inteligente, informada y de buena fe, mirando de frente una catástrofe que se acerca y no viéndola, porque no cabía en el mundo que conocían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él incluido. Zweig no se pone nunca de profeta. Se retrata equivocándose una y otra vez: creyendo que la guerra durará semanas, creyendo que Hitler es un fenómeno pasajero, creyendo que en Austria eso no puede pasar. Esa honradez es lo que sostiene el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y todo empieza en un piso de Viena donde un niño rico se aburre mortalmente en el colegio, mientras la ciudad más musical de Europa suena al otro lado de la ventana y nadie, absolutamente nadie, imagina que aquello tenga fecha de caducidad.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El colegio y lo que pasaba fuera",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sobre la escuela se titula, más o menos, la escuela del siglo pasado, y es de los más duros. Zweig describe el instituto austriaco como un cuartel: aulas frías, pupitres gastados, un maestro que entra, recita, pregunta y se va sin mirar a nadie a la cara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No recuerda ni una conversación con un profesor en ocho años. La relación era de administración: ellos eran material que había que ir moviendo de curso en curso. Escribe que fue una época gris, de aburrimiento sin fondo, y que no guarda un solo amigo de allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y describe el mecanismo de la humillación con precisión. Al alumno no se le trataba como a un joven, se le trataba como a un preadulto sin derechos: no podía opinar, no podía preguntar, y su función era esperar. Esperar años a que le dejaran empezar a vivir.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El sistema",
+          frase: "Aquella escuela no estaba pensada para enseñar, sino para retener. Su función era mantener quietos a los jóvenes hasta que el Estado tuviera un puesto para ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero entonces cuenta lo otro, y es lo mejor del capítulo. Fuera del aula, esa misma clase de dieciséis años vivía una vida intelectual furiosa. Leían a Nietzsche a escondidas, se pasaban revistas literarias, iban a los ensayos generales del teatro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los detalles son inmejorables: escondían libros bajo el pupitre; en el recreo discutían de Baudelaire; se sabían de memoria a poetas que sus profesores no habían leído. Uno del grupo se carteaba con un pintor famoso. Otro se colaba en los conciertos de pie.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay una escena que resume el siglo: iban a la puerta trasera de los teatros a esperar a los actores y a los directores de orquesta. No por autógrafos. Por verlos de cerca. En aquella ciudad la gloria era artística, y unos chavales lo sabían antes que sus maestros.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zweig publicó su primer poema en una revista importante con diecisiete años, siendo aún alumno. No se lo dijo a nadie del instituto. Cuenta que el mundo real y el mundo del aula no se tocaban en ningún punto, y que aquello duró hasta el último día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después viene el capítulo que escandalizó a media Viena y que sigue siendo el más citado: Eros matutinus, sobre cómo se vivía el sexo en aquel mundo de la seguridad. Es un ajuste de cuentas frío, sin una sola palabra gruesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La regla era el silencio. La sociedad decidió que aquello no existía y montó una arquitectura entera para no verlo: ropa que cubría el cuerpo entero, muebles con faldas, la palabra pierna prohibida en una mesa. Cuanto más se tapaba, escribe, más presente estaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y describe la consecuencia práctica con nombres y números. La ciudad tenía miles de prostitutas registradas y muchas más sin registrar. Un joven burgués no podía casarse hasta tener carrera y sueldo, es decir, hasta los treinta; y desde los dieciséis se le empujaba a la calle sin decírselo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo peor no era la hipocresía: era la enfermedad. Zweig cuenta que la sífilis era una presencia constante y silenciosa, que todo el mundo conocía a alguien arruinado por ella y que nadie la nombraba en voz alta. En los anuncios por palabras había curanderos a docenas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su conclusión es demoledora y no la suaviza: aquella moral no protegió a nadie. Protegió la apariencia. Las que pagaron el precio entero fueron las mujeres pobres, y las hijas de buena familia llegaron al matrimonio sin saber absolutamente nada de su propio cuerpo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí conecta con Freud, al que trató y admiró. Dice que la gran hazaña de Freud no fue tal o cual teoría, sino haber roto una convención: haber puesto sobre la mesa, con lenguaje médico, aquello de lo que una ciudad entera había pactado no hablar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zweig, que fue de los primeros en defenderlo por escrito, cuenta el precio: a Freud se le trató de obsceno, se le cerraron puertas académicas y se le hizo el vacío en la propia universidad de la ciudad donde vivía. La resistencia no vino de los ignorantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después están los años de formación: Berlín, París, Londres, la India, América. Viajaba con dinero de casa y sin plazo. Escribe que la gran diferencia entre su juventud y la del lector es que ellos podían moverse por toda Europa sin un solo papel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle vuelve como un martillo al final del libro. Antes de 1914 no había pasaportes, ni visados, ni permisos de residencia. Se subía uno a un tren y se bajaba en otro país. Ese es, para él, el hecho concreto que mejor mide lo que se perdió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En París conoce a Rilke, del que hace un retrato precioso y minúsculo: un hombre que hablaba tan bajo que había que inclinarse, que odiaba las fotografías y que ordenaba su mesa antes de escribir como quien prepara un altar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conoce a Verhaeren, a Rodin, a Romain Rolland. Rolland es el que importa: pacifista, francés, y su amigo durante treinta años. Cuando llegue la guerra, esa amistad va a ser lo único que quede en pie de la idea de Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo eso ocurre entre 1900 y 1913. Trece años de viajes, cafés, primeros libros y una convicción compartida por todos los que trata: que el continente iba hacia arriba, que la razón estaba ganando y que las guerras eran cosa de un pasado que no volvería.",
+        },
+      ],
+    },
+
+    {
+      titulo: "1914: la fiesta en la calle",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Verano de 1914. Zweig está en Baden, cerca de Viena, tumbado en un parque leyendo. La música de la orquesta se para de golpe. Un rato después alguien coloca un cartel: han asesinado en Sarajevo al heredero del trono. La gente lo lee y sigue paseando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa indiferencia es el dato. El archiduque no era querido; a nadie le pareció que aquello fuera con él. Zweig cuenta que esa misma noche la música volvió a sonar y que en los días siguientes lo que preocupaba en Viena era el calor y las vacaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se fue a Bélgica, a ver a Verhaeren. En Ostende vio pasar unos camiones militares y se rió con sus amigos belgas de la idea de una guerra. Uno le dijo que si los alemanes entraban en Bélgica él se colgaría de una farola. Semanas después entraron.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que nadie vio",
+          frase: "Ni un solo intelectual europeo de los que Zweig trataba —y los trataba a todos— creyó que fuera a haber guerra. Se enteraron por los periódicos, como los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces viene la página por la que este libro es incómodo. Zweig vuelve a Viena y se encuentra la ciudad de fiesta. No de miedo: de fiesta. Desfiles, banderas, desconocidos abrazándose, gente cantando en los andenes mientras salían los trenes de tropas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribe, sin protegerse a sí mismo, que jamás en su vida volvió a sentir una fraternización de masas como aquella. Que dos millones de personas se sintieron por primera vez parte de algo. Que hasta un hombre como él notó la tentación de dejarse llevar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el pasaje que hay que leer entero antes de creerse a salvo. No cuenta que un tirano engañó a un pueblo. Cuenta que el pueblo salió a la calle contento, que la guerra fue popular, y que la sensatez se quedó sola y en voz baja en los cafés.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Explica de dónde salía la euforia con una idea que sigue sirviendo: cuarenta años sin guerra habían borrado el recuerdo de lo que era. Nadie vivo sabía cómo olía. Se la imaginaban como en los cuadros: caballos, uniformes, tres semanas y volver en Navidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuenta cómo se comportaron los que sabían leer. Los mismos escritores que se habían pasado la vida hablando de la humanidad publicaron poemas de odio en la prensa. Se prohibieron los libros del enemigo. En Viena hubo quien pidió no tocar música francesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zweig incluye su propia caída. Publicó al principio un texto que él mismo califica de tibio y patriótico, y no lo esconde. Después se apartó. Consiguió un puesto en el archivo de guerra, en Viena, catalogando papeles, es decir, escondido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que le rompió del todo fue un viaje. Le mandaron al frente de Galitzia a recoger proclamas enemigas. Vio un tren hospital: hombres sucios, vendas de papel, hedor, moribundos amontonados en vagones de ganado. Volvió con la certeza de que todo lo que se contaba era mentira.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí se dedica a lo único que puede hacer: escribir contra la guerra sin decirlo. Estrena en 1917 un drama bíblico, «Jeremías», que se representa en Zúrich, en la Suiza neutra, y que es una obra sobre un profeta al que nadie escucha mientras la ciudad se hunde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Suiza se reúne con Rolland y con un puñado de europeos que siguen hablándose por encima de las trincheras. Ese pequeño círculo es, para él, la prueba de que Europa existía. También sabe que eran cuatro y que no cambiaron nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vuelve a Austria en 1919 y cruza la frontera en un tren. En el andén de Feldkirch ve pasar otro tren, negro, con las cortinas medio bajadas: es el último emperador, Carlos, saliendo del país. Un imperio de seiscientos años se acaba en un vagón que pasa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La escena la cuenta sin una sola palabra de más y es de las mejores del libro. Un hombre en un andén viendo cómo desaparece el país donde nació. Al bajar del tren ya está en otro Estado, con otro nombre, con siete millones de habitantes en vez de cincuenta.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y llega la inflación, que él describe mejor que ningún economista porque la cuenta en objetos. Un billete de mil coronas que valía una casa y luego un par de zapatos. Extranjeros que compraban edificios enteros con lo que les sobraba del viaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta el detalle que lo explica todo: la gente dejó de creer en el número. Cobrabas el sueldo y corrías a gastarlo el mismo día, porque a la tarde valía la mitad. El ahorro, que era la virtud central del mundo de la seguridad, se convirtió en una estupidez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y saca la conclusión política, que es la más citada del libro: nada volvió tan amargo al pueblo alemán y tan preparado para Hitler como la inflación. No la derrota. La inflación. Perder la guerra fue un golpe; perder el suelo bajo los pies fue otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vinieron diez años buenos, los veinte, y Zweig los describe con desconfianza retrospectiva: mucho arte, mucha libertad, mucho dinero fácil, y por debajo una generación de hombres jóvenes que habían vuelto del frente sin encontrar sitio en ningún sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él, mientras tanto, se hace inmensamente famoso. Vive en Salzburgo, en una casa en la colina, y sus biografías y novelas cortas se traducen a treinta idiomas. Escribe que fue la única época de su vida en la que se sintió instalado. Duró exactamente diez años.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El día que llamaron a la puerta",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Salzburgo, 1934. Suena el timbre de la casa de la colina. Son cuatro policías con una orden de registro: buscan armas escondidas de la milicia socialista. Zweig les abre, les enseña la casa entera y no encuentran nada, porque no había nada que encontrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El registro dura poco y no tiene consecuencias legales. Pero él entiende perfectamente lo que significa: que la policía de su propio país puede entrar en su casa por un pretexto. Esa misma tarde decide marcharse. A la semana siguiente estaba en Londres.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El momento exacto",
+          frase: "No lo echó nadie. Se fue por un registro sin consecuencias, cuatro años antes de la anexión. Cuenta que sus amigos lo llamaron exagerado, y que él mismo dudó de si lo era.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes había ocurrido lo de Richard Strauss. Zweig escribió el libreto de una ópera, «La mujer silenciosa», para el compositor alemán más importante vivo. Se estrenó en Dresde en 1935, con Alemania ya nazi y con el nombre de un judío en el cartel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Strauss se plantó y exigió que su nombre apareciera. La ópera se estrenó y se representó dos o tres veces. Después la prohibieron. Hitler y Goebbels, que iban a asistir, no fueron. A Strauss lo apartaron del cargo oficial que tenía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zweig lo cuenta sin heroísmo y con una mezcla rara de gratitud y distancia. Reconoce el gesto del músico y a la vez no lo absuelve: Strauss se quedó, siguió trabajando y firmó lo que había que firmar. En el libro casi nadie es del todo valiente ni del todo cobarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Londres empieza la parte que da título al capítulo más doloroso: la del hombre sin papeles. Al principio viaja con pasaporte austriaco y todo funciona. En marzo de 1938 Alemania se anexiona Austria y ese pasaporte deja de existir de un día para otro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Escribe una frase que resume el siglo XX mejor que muchos tratados: el día en que perdió su pasaporte descubrió, a los cincuenta y ocho años, que con la patria se pierde algo más que un trozo de tierra delimitado. Se pierde el derecho a estar en cualquier parte.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y detalla la humillación administrativa con una exactitud que solo tiene quien la ha pasado. Hacer cola. Rellenar formularios. Pedir un permiso para viajar tres días. Explicar quién eres a un funcionario que no ha oído tu nombre y que puede decir que no sin motivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Compara las dos épocas y ahí está la tesis del libro entera. Antes de 1914 cruzaba fronteras sin enseñar un papel. Ahora, el escritor más traducido del mundo necesita un documento de emergencia para moverse, y ese documento se lo puede negar cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta también algo peor y menos cómodo: cómo cambia la mirada de los demás. El emigrante, escribe, deja de ser un huésped y pasa a ser un problema. Nota cómo los amigos se cansan, cómo las cartas se espacian, cómo uno empieza a pedir perdón por existir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1940 obtiene la nacionalidad británica. Debería ser el final feliz del trámite y él lo cuenta como una derrota administrativa más: agradece el papel y añade que ya no le servía para volver a ser nadie, porque el sitio del que venía había dejado de existir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entre medias hay una escena mínima y enorme. Está en Bath, en el sur de Inglaterra, el 3 de septiembre de 1939. Sale a hacer un recado y oye por la radio de una tienda que Inglaterra ha declarado la guerra. Es la segunda que va a vivir entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribe que aquel día el sol brillaba con una suavidad de otoño y que la gente seguía comprando pan. Y que él miró su propia sombra en el suelo y pensó que detrás de aquella estaba la otra, la de la guerra anterior, que no se le había ido nunca.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El libro se acaba con esa imagen y con una frase que suena a consuelo y no lo es del todo: toda sombra es, al fin y al cabo, hija de la luz, y solo quien ha conocido lo claro y lo oscuro ha vivido de verdad. La escribió un hombre que estaba a punto de rendirse.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque conviene decir lo que el libro calla. Zweig lo termina en 1941 y lo deja ahí, en Bath, en 1939. No cuenta el exilio americano, ni Brasil, ni los dos últimos años. El lector cierra el libro sin saber lo que el autor ya sabía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco cuenta su vida privada. Estuvo casado dieciocho años con Friderike von Winternitz y en seiscientas páginas apenas aparece. Se divorció en 1938 y se casó con Lotte Altmann, que había sido su secretaria y tenía veintisiete años menos. De ella tampoco hay casi nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese silencio es deliberado y es una de las cosas que se le reprochan. Ha escrito unas memorias de las que ha borrado a las dos mujeres con las que vivió, a su hermano, a su dinero y a casi todos sus conflictos. Lo que queda es un testigo sin biografía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo justifica en la primera página: dice que no cuenta su vida sino la de una generación. Es verdad a medias. También es un hombre de sesenta años que ha decidido qué quiere que quede de él, y que tiene el manuscrito ya casi listo para enviar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con eso en la maleta cruza el Atlántico. Nueva York, luego Argentina, luego Brasil. Y en agosto de 1941 alquila una casa pequeña en un pueblo de montaña llamado Petrópolis, donde hace fresco y hay flores todo el año.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Petrópolis",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La casa era modesta: dos habitaciones, un jardín pequeño, una mesa junto a la ventana. Zweig y Lotte llevaban allí seis meses. Escribía por las mañanas, daba paseos, jugaba al ajedrez. En una carta dice que Petrópolis era el sitio más tranquilo en el que había estado nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Brasil lo había recibido bien. Había escrito un libro sobre el país, había dado conferencias, la gente lo paraba por la calle. Tenía dinero, tenía papeles británicos, tenía una casa y estaba a diez mil kilómetros de la guerra. Todo lo que un refugiado podía pedir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En febrero de 1942 llegaron dos noticias. Los japoneses habían tomado Singapur y Rommel avanzaba en el norte de África. Zweig, como casi todo el mundo aquel invierno, sacó la conclusión de que Hitler iba a ganar la guerra y que aquello iba a durar décadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 21 de febrero terminó de revisar el manuscrito de «El mundo de ayer» y lo llevó al correo, dirigido a su editor. Al día siguiente, 22 de febrero, escribió una declaración a mano, en alemán, y la dejó sobre la mesa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La declaración",
+          frase: "«Saludo a todos mis amigos. Ojalá lleguen a ver el amanecer después de esta larga noche. Yo, demasiado impaciente, me marcho antes que ellos.»",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Da las gracias a Brasil por acogerlo. Dice que a los sesenta años haría falta una fuerza extraordinaria para empezar otra vez de cero, y que la suya está agotada por los años de peregrinaje sin patria. Y añade que se marcha erguido, con la conciencia clara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tomaron veronal los dos. Lotte tenía treinta y tres años y asma crónica. Los encontraron al día siguiente en la cama, él boca arriba y ella con la cabeza apoyada en su hombro. El gobierno brasileño les hizo un funeral de Estado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo insoportable del final no es que muriera: es dónde. No lo mataron los nazis. Se mató a salvo, con dinero, con casa, con pasaporte y con su último libro ya en el correo, mientras millones de personas sin nada de eso seguían intentando aguantar un día más.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y eso ha marcado la lectura del libro para siempre. «El mundo de ayer» no se puede leer como unas memorias: se lee como una carta de despedida de seiscientas páginas escrita por alguien que ya había decidido, aunque quizá todavía no lo supiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay quien se lo reprocha. Thomas Mann, exiliado como él y a la vez, fue duro: dijo que Zweig no había estado a la altura, que un escritor con su nombre tenía la obligación de aguantar y de servir de ejemplo. Otros lo defendieron con la misma fuerza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora, dónde falla el libro, que falla en cosas concretas. La primera es de método: lo escribió de memoria, sin una nota y sin poder consultar nada. Hay fechas movidas, conversaciones recompuestas y encuentros que probablemente no ocurrieron así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es de clase. La edad de oro de la seguridad lo fue para una minoría con criados. En la misma Viena había familias de ocho personas en una habitación y una mortalidad infantil altísima. Zweig lo sabe, lo menciona de pasada y sigue.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es la más grave: minimiza el antisemitismo anterior a 1914. Presenta la Viena de su juventud como un lugar donde aquello era folclore electoral, cuando fue precisamente el laboratorio donde Hitler, que vivía allí en esos años, aprendió el oficio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la cuarta, las ausencias. Sin esposas, sin hijos, sin hermano, sin cuentas, sin envidias literarias. Ha construido un testigo purísimo y para eso ha tenido que borrar a un hombre. Se nota, y a ratos el libro flota por encima de su propia historia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahora bien: esos defectos son los de un género. Nadie escribe unas memorias sin elegir. Lo raro aquí es cuántas veces se retrata equivocándose, y eso compensa mucho. Es un testigo parcial que avisa una y otra vez de que es parcial.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad: no es un diario de los años nazis. Es una reconstrucción escrita en Brasil, de memoria, sobre todo acerca de 1881 a 1914. La parte de Hitler ocupa mucho menos de lo que la gente recuerda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: se le suele tratar como a un autor menor, sentimental, de novelitas de amor. Fue el autor vivo más traducido del mundo en los años treinta, sus biografías se leían en media Europa y su desaparición del canon alemán tuvo bastante que ver con quién decidía el canon.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el tercero, el que importa: no es un libro sobre el pasado. Es un manual de cómo se pierde un mundo. La lección no es que vinieran unos bárbaros. Es que gente educada, informada y de buena fe fue aceptando, una a una, cosas que un año antes le habrían parecido imposibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zweig lo dice en una línea que vale por el libro entero: nos hemos acostumbrado a que ocurra cada semana algo que antes habría bastado para llenar una vida. La costumbre, no la crueldad, es lo que hace posible el resto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El manuscrito llegó a Estocolmo unas semanas después de su muerte. Se publicó ese mismo año, primero en alemán, en una editorial en el exilio, para un país que ya no podía leerlo. Ochenta años después sigue siendo el libro por el que se le conoce.",
+        },
+      ],
+    },
+  ],
+};

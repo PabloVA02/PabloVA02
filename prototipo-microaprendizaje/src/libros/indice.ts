@@ -9,7 +9,7 @@ import { BUSCA_SENTIDO, IKIGAI, CUATRO_ACUERDOS, SUTIL_ARTE } from "./filosofia"
 import { COSMOS, POR_QUE_DORMIMOS, BREVE_HISTORIA_TIEMPO, RESPIRA } from "./ciencia-salud";
 import { PRINCIPITO, ALQUIMISTA, REBELION_GRANJA, FAHRENHEIT } from "./literatura";
 import { ROBA_ARTISTA, GUERRA_ARTE, MODOS_VER, CARTAS_THEO, LEONARDO, CARTAS_JOVEN_POETA } from "./arte";
-import { ANA_FRANK, ARMAS_GERMENES, INFINITO_JUNCO, MANDELA, MALALA, HOMO_DEUS } from "./historia";
+import { ANA_FRANK, ARMAS_GERMENES, INFINITO_JUNCO, MANDELA, MALALA, HOMO_DEUS, MUNDO_AYER } from "./historia";
 import { GEN_EGOISTA, FEYNMAN, VIDA_ARBOLES, CASI_TODO, MUNDO_DEMONIOS } from "./ciencia";
 import { CUERPO_CUENTA, DIGESTION, NACIDOS_CORRER, DILEMA_OMNIVORO, ALIENTO_AIRE } from "./salud";
 import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSBY, MATAR_RUISENOR, HOBBIT } from "./literatura";
@@ -138,6 +138,7 @@ export const RESUMENES: Record<string, Resumen> = {
   "nombre-rosa": NOMBRE_ROSA,
   "orgullo-prejuicio": ORGULLO_PREJUICIO,
   "cartas-joven-poeta": CARTAS_JOVEN_POETA,
+  "mundo-ayer": MUNDO_AYER,
 };
 
 export function comprobar() {
