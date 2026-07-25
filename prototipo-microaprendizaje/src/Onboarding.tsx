@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { LIBROS, Portada } from "./Biblioteca";
 import { GlyphBack, GlyphTick } from "./glyphs";
+import { PaseInvitado } from "./PaseInvitado";
 import { spring, springPop, springSoft, springTight } from "./motion";
 
 /* ==========================================================================
@@ -231,6 +232,7 @@ type Paso =
   | { tipo: "confirmacion"; titulo: string; texto: string }
   | { tipo: "testimonio"; cita: string; sello: string }
   | { tipo: "aviso"; titulo: string; texto: string; ilu: "mano" | "campana"; cta: string; secundario?: string }
+  | { tipo: "invitar"; titulo: string; texto: string; cta: string; secundario: string }
   | { tipo: "cargando"; titulo: string }
   | { tipo: "prueba"; titulo: string; hitos: { dia: string; texto: string }[] };
 
@@ -300,6 +302,14 @@ const PASOS: Paso[] = [
     tipo: "testimonio",
     cita: "Leo en la comida en vez de mirar el móvil sin más, y luego uso lo que he aprendido el mismo día.",
     sello: "4,8 · 20.000 valoraciones",
+  },
+  {
+    tipo: "invitar",
+    titulo: "¿Invitas a alguien?",
+    texto:
+      "Aprender acompañado multiplica por cuatro las probabilidades de no dejarlo. Regala una semana entera, sin que nadie ponga una tarjeta.",
+    cta: "Invitar a alguien",
+    secundario: "Ahora no",
   },
   { tipo: "cargando", titulo: "Un momento, estamos preparando tu biblioteca…" },
   {
@@ -424,6 +434,18 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => voi
                   transition={springTight}
                 />
               </motion.div>
+            </>
+          )}
+
+          {paso.tipo === "invitar" && (
+            <>
+              <motion.h1 className="onb-titulo onb-izq" {...parte(0, reducido)}>
+                {paso.titulo}
+              </motion.h1>
+              <motion.p className="onb-pie" {...parte(1, reducido)}>
+                {paso.texto}
+              </motion.p>
+              <PaseInvitado reducido={reducido} />
             </>
           )}
 
@@ -589,13 +611,13 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => voi
           >
             {paso.tipo === "bienvenida"
               ? "Empezar"
-              : paso.tipo === "aviso"
+              : paso.tipo === "aviso" || paso.tipo === "invitar"
                 ? paso.cta
                 : paso.tipo === "prueba"
                   ? "Entrar en la biblioteca"
                   : "Continuar"}
           </motion.button>
-          {paso.tipo === "aviso" && paso.secundario && (
+          {(paso.tipo === "invitar" || (paso.tipo === "aviso" && paso.secundario)) && (
             <motion.button
               className="onb-secundario"
               onClick={() => avanzar(1)}
@@ -603,7 +625,7 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => voi
               animate={{ opacity: 1 }}
               transition={{ ...spring, delay: 0.4 }}
             >
-              {paso.secundario}
+              {paso.tipo === "invitar" ? paso.secundario : paso.secundario}
             </motion.button>
           )}
           {paso.tipo === "bienvenida" && (

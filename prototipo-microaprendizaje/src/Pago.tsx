@@ -7,45 +7,94 @@ import { GlyphClose } from "./glyphs";
    El muro de pago.
 
    Sale al terminar la introducción, y su único trabajo es quitar el miedo a
-   una fecha. Por eso el centro de la pantalla no es el precio: es una línea
-   de tiempo que dice exactamente qué va a pasar y cuándo, incluido el aviso
-   antes de que se cobre nada.
+   una fecha. Por eso el centro de la pantalla no es el precio: son los siete
+   días de prueba, contados desde HOY y con sus fechas reales, más el aviso
+   que llega antes de que se cobre nada.
 
-   La animación va en ese mismo sentido. El raíl CRECE hacia abajo y cada
-   hito aparece cuando el raíl llega a su altura, así que la pantalla se lee
-   sola en orden cronológico: no es decoración, es el orden de lectura.
+   Todo se calcula desde `new Date()`: la tira de la semana, los días de los
+   hitos y el día del cobro. No hay una sola fecha escrita a mano, así que la
+   pantalla siempre cuadra con el día en que se abre.
+
+   La animación cuenta lo mismo que el texto. El raíl SUBE con muelle —se pasa
+   de largo y vuelve, como un muelle de verdad— y cada hito aparece cuando el
+   raíl llega a su altura. El orden de la animación es el orden cronológico.
    ========================================================================== */
 
-/** Cuánto tarda el raíl en recorrer un hito. Marca el ritmo de todo. */
-const PASO = 0.16;
+/** Días de prueba. Cambiar esto recoloca toda la pantalla sola. */
+const DIAS_PRUEBA = 7;
+/** Cuántos días antes del cobro llega el aviso. */
+const AVISO_ANTES = 2;
 
-function fecha(dias: number) {
+/** Ritmo entre hitos. */
+const PASO = 0.15;
+
+/**
+ * El muelle del raíl. Es más blando y con menos amortiguación que los del
+ * resto del proyecto a propósito: aquí el rebote tiene que verse, porque es
+ * lo que convierte una barra que crece en una barra que SALTA.
+ */
+const muelleRail = { type: "spring" as const, stiffness: 108, damping: 13, mass: 1.15 };
+
+function enDias(offset: number) {
   const d = new Date();
-  d.setDate(d.getDate() + dias);
-  return d.toLocaleDateString("es-ES", { day: "numeric", month: "short" }).replace(".", "");
+  d.setDate(d.getDate() + offset);
+  return d;
 }
 
+const comoFecha = (d: Date) =>
+  d.toLocaleDateString("es-ES", { day: "numeric", month: "short" }).replace(".", "");
+
+const inicialDia = (d: Date) =>
+  d.toLocaleDateString("es-ES", { weekday: "short" }).slice(0, 2).replace(/^./, (c) => c.toUpperCase());
+
 type Hito = {
-  icono: "check" | "candado" | "campana" | "corona";
+  icono: "candado" | "campana" | "corona";
+  dia: string;
   titulo: string;
   texto: string;
-  hecho?: boolean;
 };
 
 export function Pago({ onEntrar }: { onEntrar: () => void }) {
   const reducido = useReducedMotion();
   const [aviso, setAviso] = useState(true);
 
+  const diaAviso = DIAS_PRUEBA - AVISO_ANTES;
+
+  // La semana entera, desde hoy. El índice es el día de prueba menos uno.
+  const semana = Array.from({ length: DIAS_PRUEBA }, (_, i) => {
+    const fecha = enDias(i);
+    return {
+      fecha,
+      inicial: inicialDia(fecha),
+      numero: fecha.getDate(),
+      hoy: i === 0,
+      avisa: i === diaAviso - 1,
+      cobra: i === DIAS_PRUEBA - 1,
+    };
+  });
+
   const hitos: Hito[] = [
-    { icono: "check", titulo: "Instalar la app", texto: "Configurarla para tus objetivos", hecho: true },
-    { icono: "candado", titulo: "Hoy · Empieza la prueba", texto: "Acceso completo, sin límites" },
-    { icono: "campana", titulo: `${fecha(2)} · Recordatorio`, texto: "Te avisamos de que se acaba" },
-    { icono: "corona", titulo: `${fecha(3)} · Eres miembro`, texto: "Si no cancelas antes, empieza la cuota" },
+    {
+      icono: "candado",
+      dia: "Hoy",
+      titulo: `Empieza tu semana gratis`,
+      texto: "Acceso completo desde este momento",
+    },
+    {
+      icono: "campana",
+      dia: `Día ${diaAviso}`,
+      titulo: `Te avisamos · ${comoFecha(enDias(diaAviso - 1))}`,
+      texto: `Dos días antes de que termine, para que decidas sin prisa`,
+    },
+    {
+      icono: "corona",
+      dia: `Día ${DIAS_PRUEBA}`,
+      titulo: `Termina la prueba · ${comoFecha(enDias(DIAS_PRUEBA - 1))}`,
+      texto: "Se cobran 23,99 € salvo que canceles antes",
+    },
   ];
 
-  // El raíl tarda lo mismo que el último hito en aparecer: llega y se para
-  // justo donde está la corona, no antes ni después.
-  const duracionRail = 0.3 + hitos.length * PASO;
+  const finCola = 0.34 + hitos.length * PASO;
 
   return (
     <motion.div
@@ -61,7 +110,7 @@ export function Pago({ onEntrar }: { onEntrar: () => void }) {
           aria-label="Cerrar"
           initial={{ opacity: 0, scale: 0.7 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ ...springPop, delay: 0.5 }}
+          transition={{ ...springPop, delay: 0.55 }}
         >
           <GlyphClose />
         </motion.button>
@@ -70,65 +119,82 @@ export function Pago({ onEntrar }: { onEntrar: () => void }) {
       <div className="pago-scroll">
         <motion.h1
           className="pago-titulo"
-          initial={{ opacity: 0, y: 20, scale: 0.94 }}
+          initial={{ opacity: 0, y: 18, scale: 0.95 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springPop, delay: 0.08 }}
+          transition={{ ...springPop, delay: 0.06 }}
         >
-          Cómo funciona tu prueba
+          Cómo funciona<br />tu prueba
         </motion.h1>
         <motion.p
-          className="pago-pie-titulo"
-          initial={{ opacity: 0, y: 14 }}
+          className="pago-entradilla"
+          initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: 0.16 }}
+          transition={{ ...springSoft, delay: 0.14 }}
         >
-          Hoy no se te cobrará nada
+          Siete días completos. Hoy no se te cobra nada.
         </motion.p>
+
+        {/* La semana, con sus fechas de verdad. Las celdas caen escalonadas */}
+        <div className="pago-semana" role="list" aria-label="Los siete días de prueba">
+          {semana.map((d, i) => (
+            <motion.div
+              key={d.numero}
+              role="listitem"
+              className="pago-dia"
+              data-hoy={d.hoy}
+              data-avisa={d.avisa}
+              data-cobra={d.cobra}
+              initial={{ opacity: 0, y: 14, scale: 0.82 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={reducido ? { duration: 0.01 } : { ...springPop, delay: 0.2 + i * 0.045 }}
+            >
+              <span className="pago-dia-inicial">{d.inicial}</span>
+              <span className="pago-dia-numero">{d.numero}</span>
+              {d.avisa && <span className="pago-dia-marca" aria-label="Día del aviso" />}
+              {d.cobra && <span className="pago-dia-marca" aria-label="Día del cobro" />}
+            </motion.div>
+          ))}
+        </div>
 
         <motion.div
           className="pago-tarjeta"
-          initial={{ opacity: 0, y: 24, scale: 0.97 }}
+          initial={{ opacity: 0, y: 20, scale: 0.98 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springSoft, delay: 0.22 }}
+          transition={{ ...springSoft, delay: 0.28 }}
         >
           <div className="pago-linea">
-            {/* El raíl crece de arriba abajo y arrastra la lectura con él */}
-            <motion.span
-              className="pago-rail"
-              initial={{ scaleY: 0 }}
-              animate={{ scaleY: 1 }}
-              transition={
-                reducido
-                  ? { duration: 0.01 }
-                  : { duration: duracionRail, ease: [0.22, 0.61, 0.36, 1], delay: 0.3 }
-              }
-            />
+            {/* La caja recorta el rebote: el muelle se pasa de largo y, sin
+                esto, el raíl asomaría por debajo de la tarjeta */}
+            <span className="pago-rail-caja" aria-hidden>
+              <motion.span
+                className="pago-rail"
+                initial={{ scaleY: 0 }}
+                animate={{ scaleY: 1 }}
+                transition={reducido ? { duration: 0.01 } : { ...muelleRail, delay: 0.34 }}
+              />
+            </span>
 
             {hitos.map((h, k) => (
               <motion.div
-                key={h.titulo}
+                key={h.dia}
                 className="pago-hito"
-                initial={{ opacity: 0, x: -14 }}
+                initial={{ opacity: 0, x: -12 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={
-                  reducido ? { duration: 0.01 } : { ...spring, delay: 0.34 + k * PASO }
-                }
+                transition={reducido ? { duration: 0.01 } : { ...spring, delay: 0.42 + k * PASO }}
               >
                 <motion.span
                   className="pago-icono"
-                  data-hecho={h.hecho}
-                  initial={{ scale: 0.4 }}
+                  initial={{ scale: 0.3 }}
                   animate={{ scale: 1 }}
                   transition={
-                    reducido ? { duration: 0.01 } : { ...springPop, delay: 0.34 + k * PASO }
+                    reducido ? { duration: 0.01 } : { ...springPop, delay: 0.42 + k * PASO }
                   }
                 >
-                  <IconoHito tipo={h.icono} reducido={!!reducido} retraso={0.34 + k * PASO} />
+                  <IconoHito tipo={h.icono} reducido={!!reducido} retraso={0.42 + k * PASO} />
                 </motion.span>
                 <div className="pago-hito-texto">
-                  <p className="pago-hito-titulo" data-hecho={h.hecho}>
-                    {h.titulo}
-                  </p>
+                  <span className="pago-hito-dia">{h.dia}</span>
+                  <p className="pago-hito-titulo">{h.titulo}</p>
                   <p className="pago-hito-pie">{h.texto}</p>
                 </div>
               </motion.div>
@@ -141,9 +207,9 @@ export function Pago({ onEntrar }: { onEntrar: () => void }) {
           onClick={() => setAviso((v) => !v)}
           role="switch"
           aria-checked={aviso}
-          initial={{ opacity: 0, y: 18 }}
+          initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: 0.3 + hitos.length * PASO }}
+          transition={{ ...springSoft, delay: finCola }}
         >
           <span>Avísame antes de que acabe</span>
           {/* El pomo lo mueve el layout, no un `left` calculado a mano */}
@@ -158,27 +224,27 @@ export function Pago({ onEntrar }: { onEntrar: () => void }) {
           className="primary-btn pago-cta"
           onClick={onEntrar}
           whileTap={{ scale: 0.97 }}
-          initial={{ opacity: 0, y: 22, scale: 0.96 }}
+          initial={{ opacity: 0, y: 18, scale: 0.97 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springPop, delay: 0.42 + hitos.length * PASO }}
+          transition={{ ...springPop, delay: finCola + 0.08 }}
         >
-          Pruébalo por 0,00 €
+          Empezar la semana gratis
         </motion.button>
 
         <motion.p
           className="pago-precio"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ ...springSoft, delay: 0.5 + hitos.length * PASO }}
+          transition={{ ...springSoft, delay: finCola + 0.16 }}
         >
-          1,99 €/mes, facturado anualmente como <strong>23,99 €/año</strong>
+          Después, 1,99 €/mes facturados como <strong>23,99 €/año</strong>
         </motion.p>
 
         <motion.div
           className="pago-enlaces"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ ...springSoft, delay: 0.56 + hitos.length * PASO }}
+          transition={{ ...springSoft, delay: finCola + 0.22 }}
         >
           <button onClick={onEntrar}>Restaurar</button>
           <button onClick={onEntrar}>Términos</button>
@@ -212,24 +278,9 @@ function IconoHito({
     strokeLinejoin: "round" as const,
   };
 
-  if (tipo === "check") {
-    return (
-      <svg width="17" height="17" viewBox="0 0 18 18" aria-hidden>
-        <circle cx="9" cy="9" r="7.1" {...trazo} />
-        <motion.path
-          d="M5.8 9.2 L8 11.4 L12.2 6.9"
-          {...trazo}
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={reducido ? { duration: 0.01 } : { ...springTight, delay: retraso + 0.12 }}
-        />
-      </svg>
-    );
-  }
-
   if (tipo === "candado") {
     return (
-      <svg width="17" height="17" viewBox="0 0 18 18" aria-hidden>
+      <svg width="16" height="16" viewBox="0 0 18 18" aria-hidden>
         <rect x="4" y="8.2" width="10" height="7" rx="2" {...trazo} />
         {/* El arco se levanta: la prueba abre el acceso */}
         <motion.path
@@ -245,7 +296,7 @@ function IconoHito({
 
   if (tipo === "campana") {
     return (
-      <svg width="17" height="17" viewBox="0 0 18 18" aria-hidden>
+      <svg width="16" height="16" viewBox="0 0 18 18" aria-hidden>
         <motion.g
           style={{ originX: "9px", originY: "4px" }}
           animate={reducido ? {} : { rotate: [0, -13, 10, -6, 0] }}
@@ -259,7 +310,7 @@ function IconoHito({
   }
 
   return (
-    <svg width="17" height="17" viewBox="0 0 18 18" aria-hidden>
+    <svg width="16" height="16" viewBox="0 0 18 18" aria-hidden>
       <motion.path
         d="M3.6 12.4 L2.7 5.6 L6.2 8.1 L9 4.2 L11.8 8.1 L15.3 5.6 L14.4 12.4 Z"
         {...trazo}

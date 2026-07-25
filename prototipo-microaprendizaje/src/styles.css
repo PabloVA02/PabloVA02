@@ -2260,6 +2260,11 @@ button {
 
 /* ==========================================================================
    EL MURO DE PAGO
+
+   Composición: el título y la entradilla mandan arriba, la semana es la pieza
+   que ancla la pantalla, y la línea de tiempo desarrolla lo que la semana ya
+   ha resumido. Antes el raíl medía lo mismo de ancho que los iconos y se leía
+   como una columna de manchas; ahora es una línea fina con marcas encima.
    ========================================================================== */
 
 .pago {
@@ -2279,7 +2284,7 @@ button {
   flex: 1;
   min-height: 0;
   overflow-y: auto;
-  padding: 4px var(--shell-pad) 8px;
+  padding: 10px var(--shell-pad) 10px;
   scrollbar-width: none;
 }
 
@@ -2287,81 +2292,163 @@ button {
 
 .pago-titulo {
   font-size: 29px;
-  font-weight: 760;
-  line-height: 1.12;
-  letter-spacing: -0.03em;
-  text-align: center;
-  text-wrap: balance;
+  font-weight: 770;
+  line-height: 1.08;
+  letter-spacing: -0.032em;
 }
 
-.pago-pie-titulo {
-  margin-top: 8px;
-  text-align: center;
-  font-size: 14px;
+.pago-entradilla {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.45;
   color: var(--ink-soft);
 }
 
+/* --- La semana, con fechas reales --- */
+
+.pago-semana {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  margin-top: 16px;
+}
+
+.pago-dia {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 9px 0 10px;
+  border-radius: 11px;
+  background: var(--paper-deep);
+}
+
+.pago-dia-inicial {
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.pago-dia-numero {
+  font-size: 15px;
+  font-weight: 720;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hoy es el único día lleno: se ve de un vistazo dónde estás */
+.pago-dia[data-hoy="true"] { background: var(--sage); }
+.pago-dia[data-hoy="true"] .pago-dia-inicial { color: rgba(242, 236, 225, 0.78); }
+.pago-dia[data-hoy="true"] .pago-dia-numero { color: var(--paper); }
+
+/* Los dos días que importan van marcados con un punto, no con más color:
+   tres rellenos distintos en siete celdas serían ruido */
+.pago-dia[data-avisa="true"],
+.pago-dia[data-cobra="true"] {
+  box-shadow: inset 0 0 0 1.5px var(--ochre);
+}
+
+.pago-dia[data-cobra="true"] { box-shadow: inset 0 0 0 1.5px var(--clay); }
+
+.pago-dia-marca {
+  position: absolute;
+  bottom: 4px;
+  width: 4px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--ochre);
+}
+
+.pago-dia[data-cobra="true"] .pago-dia-marca { background: var(--clay); }
+
+/* --- La línea de tiempo --- */
+
 .pago-tarjeta {
-  margin-top: 22px;
-  padding: 20px 18px;
+  margin-top: 14px;
+  padding: 16px 16px 14px;
   border-radius: 20px;
   background: var(--paper-deep);
 }
 
 .pago-linea { position: relative; }
 
-/* El raíl crece de arriba abajo y va destapando los hitos a su paso */
-.pago-rail {
+/* Recorta el rebote del muelle: sin esto el raíl asoma por debajo */
+.pago-rail-caja {
   position: absolute;
-  left: 15px;
-  top: 4px;
-  bottom: 4px;
-  width: 30px;
+  left: 14px;
+  top: 16px;
+  bottom: 22px;
+  width: 3px;
+  overflow: hidden;
   border-radius: 999px;
+  background: rgba(46, 40, 34, 0.12);
+}
+
+.pago-rail {
+  display: block;
+  width: 100%;
+  height: 100%;
   transform-origin: top center;
-  background: linear-gradient(to bottom, var(--sage) 68%, rgba(127, 143, 111, 0));
+  border-radius: 999px;
+  background: var(--sage);
 }
 
 .pago-hito {
   position: relative;
   display: flex;
   align-items: flex-start;
-  gap: 15px;
-  padding: 9px 0;
+  gap: 14px;
+  padding: 0 0 15px;
 }
 
+.pago-hito:last-child { padding-bottom: 0; }
+
+/* El icono se apoya EN el raíl, con un aro del color de la tarjeta que lo
+   separa de la línea. Es lo que convierte la barra en una línea de tiempo */
 .pago-icono {
   flex: none;
   z-index: 2;
   display: grid;
   place-items: center;
-  width: 30px;
-  height: 30px;
+  width: 31px;
+  height: 31px;
   border-radius: 999px;
-  color: var(--ink);
+  background: var(--sage);
+  color: var(--paper);
+  box-shadow: 0 0 0 4px var(--paper-deep);
 }
 
-.pago-hito-texto { padding-top: 3px; }
+/* La primera línea del texto se alinea con el centro del icono */
+.pago-hito-texto { padding-top: 1px; }
+
+.pago-hito-dia {
+  display: block;
+  font-size: 10px;
+  font-weight: 730;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--sage);
+}
 
 .pago-hito-titulo {
-  font-size: 16px;
+  margin-top: 3px;
+  font-size: 15.5px;
   font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: -0.015em;
-}
-
-/* Tachado: lo que ya está hecho no compite por la atención */
-.pago-hito-titulo[data-hecho="true"] {
-  text-decoration: line-through;
-  color: var(--ink-soft);
+  line-height: 1.28;
+  letter-spacing: -0.018em;
 }
 
 .pago-hito-pie {
-  margin-top: 2px;
+  margin-top: 3px;
   font-size: 13px;
-  line-height: 1.4;
+  line-height: 1.42;
   color: var(--ink-soft);
 }
+
+/* --- El interruptor --- */
 
 .pago-aviso {
   display: flex;
@@ -2369,12 +2456,12 @@ button {
   justify-content: space-between;
   gap: 14px;
   width: 100%;
-  margin-top: 14px;
-  padding: 15px 17px;
+  margin-top: 12px;
+  padding: 14px 16px;
   border-radius: 16px;
   background: var(--paper-deep);
   font-size: 14.5px;
-  font-weight: 600;
+  font-weight: 620;
   text-align: left;
 }
 
@@ -2404,15 +2491,17 @@ button {
   box-shadow: 0 2px 5px rgba(46, 40, 34, 0.24);
 }
 
+/* --- El pie --- */
+
 .pago-pie {
   flex: none;
-  padding: 10px var(--shell-pad) 18px;
+  padding: 8px var(--shell-pad) 16px;
 }
 
 .pago-cta { width: 100%; }
 
 .pago-precio {
-  margin-top: 11px;
+  margin-top: 10px;
   text-align: center;
   font-size: 12px;
   color: var(--ink-soft);
@@ -2425,7 +2514,7 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  margin-top: 13px;
+  margin-top: 11px;
 }
 
 .pago-enlaces button {
@@ -2752,4 +2841,157 @@ button {
   text-align: center;
   font-size: 11px;
   color: rgba(242, 236, 225, 0.3);
+}
+
+/* ==========================================================================
+   EL PASE DE INVITADO
+
+   Una tarjeta física en un espacio con profundidad. La perspectiva vive en la
+   escena y no en la tarjeta, que es lo que permite que el balanceo se note:
+   con `perspective` puesta en el propio elemento, girar 4° no se ve.
+   ========================================================================== */
+
+.pase-escena {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 0;
+  padding: 8px 0 4px;
+  perspective: 900px;
+}
+
+.pase-entrada {
+  transform-style: preserve-3d;
+  width: min(100%, 292px);
+}
+
+.pase {
+  position: relative;
+  overflow: hidden;
+  padding: 18px 20px 16px;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  color: var(--paper);
+  background:
+    radial-gradient(120% 80% at 18% 8%, rgba(242, 236, 225, 0.34) 0%, transparent 58%),
+    linear-gradient(146deg,
+      color-mix(in srgb, var(--sage) 48%, var(--ochre)) 0%,
+      var(--sage) 40%,
+      color-mix(in srgb, var(--sage) 52%, var(--ink)) 100%);
+  box-shadow:
+    0 20px 38px rgba(46, 40, 34, 0.26),
+    inset 0 1px 0 rgba(242, 236, 225, 0.4);
+}
+
+/* Los troqueles: dos mordiscos del color del fondo. Es el detalle que
+   convierte un rectángulo redondeado en un billete */
+.pase-troquel {
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: var(--paper);
+  transform: translateY(-50%);
+}
+
+.pase-troquel-izq { left: -10px; }
+.pase-troquel-der { right: -10px; }
+
+.pase-cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pase-marca {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 11px;
+  background: rgba(20, 24, 16, 0.32);
+  color: var(--paper);
+}
+
+.pase-gratis {
+  font-size: 11px;
+  font-weight: 780;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(242, 236, 225, 0.86);
+}
+
+.pase-cuerpo {
+  padding: 20px 0 18px;
+  text-align: center;
+}
+
+.pase-dias {
+  font-size: 39px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.038em;
+}
+
+.pase-nombre {
+  margin-top: 4px;
+  font-size: 21px;
+  font-weight: 640;
+  letter-spacing: -0.02em;
+  color: rgba(242, 236, 225, 0.9);
+}
+
+/* La línea troquelada del talón */
+.pase-puntos {
+  display: block;
+  height: 2px;
+  margin: 0 -6px 12px;
+  background-image: radial-gradient(circle at 1px 1px, rgba(242, 236, 225, 0.5) 1px, transparent 1.2px);
+  background-size: 8px 2px;
+}
+
+.pase-pie {
+  text-align: center;
+  font-size: 11.5px;
+  font-weight: 620;
+  letter-spacing: 0.03em;
+  color: rgba(242, 236, 225, 0.72);
+}
+
+/* El barrido. Va inclinado y más alto que la tarjeta para que cruce entero */
+.pase-brillo {
+  position: absolute;
+  top: -60%;
+  left: 0;
+  width: 46%;
+  height: 220%;
+  pointer-events: none;
+  transform: rotate(18deg);
+  background: linear-gradient(
+    100deg,
+    transparent 0%,
+    rgba(242, 236, 225, 0.34) 46%,
+    rgba(242, 236, 225, 0.05) 72%,
+    transparent 100%
+  );
+}
+
+/* La sombra es un elemento aparte: si fuera box-shadow se inclinaría con la
+   tarjeta y delataría que todo es plano */
+.pase-sombra {
+  display: block;
+  width: 62%;
+  height: 16px;
+  margin-top: 20px;
+  border-radius: 999px;
+  background: radial-gradient(ellipse at center, rgba(46, 40, 34, 0.4) 0%, transparent 72%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pase-brillo { display: none; }
 }
