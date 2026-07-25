@@ -6,10 +6,15 @@ App de aprendizaje visual en tarjetas deslizables, con dos secciones.
 camino de capítulos → lectura → racha. Capítulo de ejemplo: *La Biblioteca de
 Alejandría*, 18 tarjetas, unos 5 minutos.
 
-**Shorts** — historias sueltas de 2 minutos, cada una con una **fotografía
-real** de portada. Diez historias: Chernóbil, Hiroshima, Pompeya, el Titanic,
-la Bomba del Zar, la Guerra del Emú, la epidemia de baile de 1518 y tres
-«¿y si...?».
+**Shorts** — historias sueltas de 2 minutos en un pase a pantalla completa,
+cada una con una **fotografía real** de portada. Se sube para cambiar de
+historia y se desliza a la derecha para seguir avanzando dentro de ella: no
+hay que abrir nada. Cuatro pantallas por historia —portada y tres páginas— y
+al pasar la última se cae directamente en la siguiente historia.
+
+24 historias en cuatro temas: **Figuras** (Julio César, Cleopatra, Alejandro,
+Gengis Kan, Napoleón, Juana de Arco), **Catástrofes**, **Crimen** y
+**Misterios**. Cómo se escriben y cómo se llega a 500: [`CONTENIDO.md`](CONTENIDO.md).
 
 React 19 · TypeScript · Vite · Framer Motion
 
@@ -29,6 +34,7 @@ npm run dev
 
 ```bash
 npm run build     # tsc --noEmit + vite build
+npm run validar   # longitudes, ids, fichas de foto y paleta de las historias
 ```
 
 ## Qué hay dentro
@@ -44,13 +50,15 @@ npm run build     # tsc --noEmit + vite build
 | `src/motion.ts` | Presets de muelle y bucles de reposo. No hay un solo easing lineal fuera de los bucles. |
 | `src/Scene.tsx` | Ilustración por capas de profundidad, con entrada escalonada. |
 | `src/Graficos.tsx` | Los cuatro gráficos de datos. |
-| `src/Shorts.tsx` | Shorts: el pase a pantalla completa y el lector de la historia. |
-| `src/shorts.ts` | Las diez historias, con su fotografía, autoría y licencia. |
+| `src/Shorts.tsx` | Shorts: el pase entero. Una sola pantalla, foto fija por historia y la hoja de texto pasando por delante. |
+| `src/shorts.ts` | El tipo `Short`, la regla de los títulos y el orden del pase. |
+| `src/historias/*.ts` | Las historias, un fichero por tema. |
 | `src/Racha.tsx` | Cierre: racha con la llama como protagonista, y reto diario. |
 | `src/undraw.tsx` | **Generado.** No editar a mano. |
 | `scripts/convertir.mjs` | Genera `undraw.tsx` a partir de los SVG de unDraw. |
 | `scripts/medir.mjs` | Calcula el encuadre real de cada SVG con `getBBox`. |
 | `scripts/demo.mjs` | Rehace `demo.html` con lo compilado: `npm run demo`. |
+| `scripts/validar.mjs` | Control de calidad de las historias: `npm run validar`. |
 
 ## Sistema de animación
 
@@ -94,7 +102,7 @@ apunta `BASE` a la carpeta de SVG y ejecútalo.
 
 Todas de [Wikimedia Commons](https://commons.wikimedia.org), en dominio
 público o con licencia Creative Commons. Cada una guarda su autoría y su
-licencia en `shorts.ts`, y esa línea de crédito **se pinta en pantalla**, que
+licencia junto a la historia, y esa línea de crédito **se pinta en pantalla**, que
 es lo que exigen las CC-BY.
 
 Se piden por `Special:FilePath`, la dirección estable de Commons: no depende
