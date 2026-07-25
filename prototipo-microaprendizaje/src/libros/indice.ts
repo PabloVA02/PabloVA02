@@ -12,6 +12,10 @@ import { ROBA_ARTISTA, GUERRA_ARTE, MODOS_VER, CARTAS_THEO, LEONARDO } from "./a
 import { ANA_FRANK, ARMAS_GERMENES, INFINITO_JUNCO, MANDELA, MALALA } from "./historia";
 import { GEN_EGOISTA, FEYNMAN, VIDA_ARBOLES, CASI_TODO, MUNDO_DEMONIOS } from "./ciencia";
 import { CUERPO_CUENTA, DIGESTION, NACIDOS_CORRER, DILEMA_OMNIVORO, ALIENTO_AIRE } from "./salud";
+import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSBY, MATAR_RUISENOR, HOBBIT } from "./literatura";
+import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
+import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS } from "./economia";
+import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA } from "./psicologia";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
 
@@ -88,6 +92,34 @@ export const RESUMENES: Record<string, Resumen> = {
   "nacidos-correr": NACIDOS_CORRER,
   "dilema-omnivoro": DILEMA_OMNIVORO,
   "aliento-aire": ALIENTO_AIRE,
+
+  /* Literatura — clásicos */
+  "cien-anos": CIEN_ANOS,
+  quijote: QUIJOTE,
+  "mundo-feliz": MUNDO_FELIZ,
+  metamorfosis: METAMORFOSIS,
+  frankenstein: FRANKENSTEIN,
+  "gran-gatsby": GRAN_GATSBY,
+  "matar-ruisenor": MATAR_RUISENOR,
+  hobbit: HOBBIT,
+
+  /* Filosofía */
+  principe: PRINCIPE,
+  "brevedad-vida": BREVEDAD_VIDA,
+  zaratustra: ZARATUSTRA,
+  sisifo: SISIFO,
+
+  /* Economía */
+  freakonomics: FREAKONOMICS,
+  "cisne-negro": CISNE_NEGRO,
+  factfulness: FACTFULNESS,
+  "steve-jobs": STEVE_JOBS,
+
+  /* Psicología */
+  "pensar-rapido": PENSAR_RAPIDO,
+  "siete-habitos": SIETE_HABITOS,
+  flow: FLOW,
+  educada: EDUCADA,
 };
 
 export function comprobar() {

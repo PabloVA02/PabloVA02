@@ -470,3 +470,497 @@ export const PIENSA_HAZTE_RICO: Resumen = {
     },
   ],
 };
+
+export const FREAKONOMICS: Resumen = {
+  id: "freakonomics",
+  titulo: "Freakonomics",
+  autor: "Steven Levitt y Stephen Dubner",
+  ano: 2005,
+  gancho: "¿Qué tienen en común un maestro de escuela y un luchador de sumo? Que los dos hacen trampas, y se puede demostrar con datos.",
+  porQue:
+    "Inventó un género entero: usar las herramientas de la economía para responder preguntas que no son de economía.",
+  partes: [
+    {
+      titulo: "La economía aplicada a cosas raras",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Steven Levitt era un economista de Chicago con una rareza: no le interesaban la inflación ni el paro. Le interesaba por qué los traficantes de droga viven con su madre, si los nombres condicionan el futuro de un niño o si los agentes inmobiliarios venden tu casa igual que la suya. Un periodista, Stephen Dubner, fue a entrevistarle y salió un libro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tesis del método",
+          frase: "La economía no es una materia: es una caja de herramientas para saber qué causa qué cuando todo está mezclado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su idea central es que la gente responde a incentivos, y que casi siempre hay tres capas: los económicos, los sociales —lo que dirán de ti— y los morales, lo que tú creerías de ti mismo. Cuando un sistema falla, casi nunca es porque la gente sea mala: es porque alguien diseñó mal los premios y los castigos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El ejemplo que lo demuestra es una guardería israelí que multó a los padres que llegaban tarde a recoger a los niños. Los retrasos <em>aumentaron</em>. La multa era pequeña y convirtió una falta moral —dejar a la maestra esperando— en un servicio con precio. Y cuando quitaron la multa, los retrasos no volvieron a bajar: el daño ya estaba hecho.",
+          arte: "aprendizaje",
+        },
+      ],
+    },
+    {
+      titulo: "Los maestros y los luchadores",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Cuando Chicago empezó a premiar y castigar a las escuelas según los resultados de sus alumnos, Levitt sospechó que algunos maestros corregirían las respuestas. Analizó millones de exámenes buscando un patrón: bloques de respuestas idénticas y difíciles acertadas por alumnos que fallaban las fáciles.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El resultado",
+          frase: "Identificó a decenas de maestros tramposos. La ciudad despidió a varios y las trampas cayeron en picado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el sumo hizo lo mismo. En un torneo, un luchador con siete victorias y siete derrotas se juega el ascenso en el último combate, mientras que a su rival con ocho victorias ya no le cambia nada. Los datos muestran que el que se lo juega todo gana ese combate muchísimo más de lo esperable — y que en el siguiente encuentro entre ambos, la victoria se devuelve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El paralelismo es la gracia del capítulo: un maestro de primaria en Chicago y un deportista de élite en Japón, dos mundos sin nada en común, responden idéntico cuando el incentivo aprieta en el sitio equivocado.",
+        },
+      ],
+    },
+    {
+      titulo: "El capítulo polémico",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El más discutido es sobre la caída del crimen en Estados Unidos en los años noventa. Se atribuyó a más policía, a mejores tácticas, a la economía o a leyes más duras. Levitt sostiene que el factor más importante fue otro: la legalización del aborto en 1973.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su argumento es estadístico y frío: los niños no deseados tienen más probabilidad de crecer en entornos difíciles, y esos entornos predicen delincuencia. Una generación después de la legalización, la cohorte que habría entrado en la edad de mayor criminalidad era más pequeña. Los estados que legalizaron antes vieron caer el crimen antes.",
+          arte: "noche",
+        },
+        {
+          forma: "clave",
+          rotulo: "La reacción",
+          frase: "Le atacaron por igual desde ambos lados del debate. Y varios economistas encontraron errores de cálculo en el análisis original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene tenerlo claro: el hallazgo sigue siendo discutido y no hay consenso. Levitt reconoció un error de programación en el trabajo académico y defendió que la conclusión aguantaba corregida; otros investigadores lo niegan. Es el mejor ejemplo de los límites del propio libro.",
+        },
+      ],
+    },
+    {
+      titulo: "Los nombres y los padres",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo más agradable estudia si el nombre determina el destino. La conclusión es tranquilizadora: los nombres no causan nada, son un síntoma. Predicen el entorno socioeconómico de los padres, y es ese entorno el que hace el trabajo. Cambiarle el nombre a un niño no le cambia la vida.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El hallazgo sobre la crianza",
+          frase: "Importa mucho más lo que los padres <em>son</em> que casi todo lo que <em>hacen</em>.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los datos mostraban correlación con cosas como el nivel educativo de los padres o cuántos libros hay en casa, y ninguna con cosas que las familias se esfuerzan en hacer, como llevar al niño a museos o leerle todos los días. Es un resultado incómodo y conviene leerlo con cautela: correlación no es causa, y el propio libro insiste en ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus límites como libro: es una colección de capítulos sin hilo común —lo admiten en el prólogo—, algunos análisis han sido cuestionados y su tono de listillo puede cansar. Pero enseña algo que se queda: desconfiar del titular, preguntar siempre cómo se midió, y no confundir lo que suena razonable con lo que se puede demostrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su capítulo sobre traficantes es el que mejor demuestra el método. Un estudiante se infiltró durante años en una banda de Chicago y consiguió sus libros de contabilidad. Los números mostraban una empresa con estructura de franquicia: los jefes ganaban mucho, y el vendedor de calle cobraba menos que en una hamburguesería asumiendo un riesgo enorme de morir. La pregunta del capítulo —por qué siguen ahí— se responde igual que en cualquier sector con una cúspide muy rica: por la posibilidad remota de ascender.",
+        },
+      ],
+    },
+  ],
+};
+
+export const CISNE_NEGRO: Resumen = {
+  id: "cisne-negro",
+  titulo: "El cisne negro",
+  autor: "Nassim Taleb",
+  ano: 2007,
+  gancho: "Salió un año antes del crash de 2008 explicando exactamente por qué nadie iba a verlo venir.",
+  porQue:
+    "Explica por qué los acontecimientos que cambian el mundo son siempre los que nadie predijo, y por qué después parecen obvios.",
+  partes: [
+    {
+      titulo: "El pavo de Acción de Gracias",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Durante siglos, en Europa se usaba «cisne negro» para nombrar lo imposible: todos los cisnes observados eran blancos. Hasta que en Australia aparecieron cisnes negros y mil años de observaciones se cayeron con un solo avistamiento. Taleb usa esa historia para nombrar un tipo de acontecimiento.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Los tres rasgos de un cisne negro",
+          frase: "Nadie lo esperaba. Tiene un impacto enorme. Y después todo el mundo explica por qué era previsible.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su imagen favorita es un pavo alimentado cada día durante mil días. Cada comida refuerza su convicción de que los humanos le quieren bien; su confianza es máxima justo antes del día en que más se equivoca. El miércoles anterior a Acción de Gracias, el pavo tiene la mejor serie de datos de su vida y la peor previsión posible.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema, dice Taleb, es que buena parte del mundo moderno razona como el pavo: proyecta hacia adelante una serie histórica y llama a eso gestión del riesgo. Y lo publicó en 2007.",
+        },
+      ],
+    },
+    {
+      titulo: "Dos países",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su distinción más útil separa dos tipos de fenómenos. En unos, ningún caso individual mueve la media: si metes en un estadio a mil personas y sumas su peso, el más pesado del mundo no cambia el promedio. Ahí funcionan las estadísticas normales.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El otro país",
+          frase: "Suma la riqueza de esas mil personas y mete a un multimillonario. La media deja de significar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese segundo terreno viven la riqueza, las ventas de libros, el éxito de las canciones, los daños de una guerra y las pandemias. Un solo caso puede ser mayor que todos los demás juntos. Y ahí, dice Taleb, aplicar la campana de Gauss —que fue diseñada para el primero— no es una aproximación imperfecta: es un error de categoría con consecuencias catastróficas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su acusación es concreta y no la suaviza: los modelos de riesgo de la banca daban por imposibles caídas que ocurren cada pocos años, y varios de sus autores tienen premios Nobel. No es que no vieran el riesgo — es que sus herramientas lo hacían invisible por construcción.",
+          arte: "explorar",
+        },
+      ],
+    },
+    {
+      titulo: "Por qué no lo vemos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Dedica media obra a los mecanismos mentales que nos ciegan. El principal es la <strong>falacia narrativa</strong>: necesitamos que las cosas tengan una historia con causas, así que la inventamos hacia atrás. Después de un desastre siempre hay una explicación limpia que nadie fue capaz de dar antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es la <strong>evidencia silenciosa</strong>. Estudiamos a los que llegaron y no a los que no. Un libro de consejos de millonarios describe solo a los supervivientes; los miles que aplicaron lo mismo y fracasaron no escriben libros. La historia la cuentan los que están, y por eso todo parece más previsible de lo que fue.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El descubrimiento",
+          frase: "Casi todo lo que ha cambiado tu vida —tu trabajo, tu pareja, tu ciudad— no estaba en ningún plan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade un dato que remata la idea: los grandes hallazgos científicos —la penicilina, las microondas, internet— llegaron buscando otra cosa. Si lo que más importa es imprevisible, planificar en detalle no solo es inútil: da una falsa sensación de control.",
+        },
+      ],
+    },
+    {
+      titulo: "Qué hacer con eso",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su consejo no es predecir mejor, que considera imposible, sino colocarse de forma que los imprevistos te beneficien más de lo que te dañan. Lo llama estrategia de <em>halterofilia</em>: la mayor parte en lo más seguro posible, y una fracción pequeña en apuestas con pérdida limitada y ganancia enorme. Nada en el medio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla",
+          frase: "No preguntes qué es probable. Pregunta qué pasa si te equivocas, y asegúrate de sobrevivir a esa respuesta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De ahí también su defensa de exponerse a lo imprevisible por el lado bueno: ir a fiestas donde no conoces a nadie, aceptar cafés, probar cosas que pueden salir mal barato. Si lo decisivo llega por sorpresa, lo racional es maximizar el número de sorpresas posibles.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que avisar del tono: Taleb escribe con una arrogancia notable, insulta a economistas y periodistas por su nombre, y se va por las ramas constantemente. A mucha gente le resulta insoportable. También se le reprocha que su idea central se explique en veinte páginas y ocupe cuatrocientas. Con eso puesto, es de los libros que más cambian la forma de mirar una previsión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Taleb añade una distinción profesional que vale la pena. Hay oficios escalables —escritor, actor, inversor— donde el trabajo se puede reproducir infinitas veces y unos pocos se lo llevan casi todo; y oficios no escalables —dentista, panadero, fontanero— donde los ingresos son predecibles y limitados. Los primeros parecen mejores y son una lotería con muchos más perdedores de los que se ven; el dentista nunca será multimillonario, pero tampoco pasará hambre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Taleb reprocha también el uso del pasado como prueba. Cuando alguien defiende que algo no puede pasar porque nunca ha pasado, está diciendo exactamente lo que decía el pavo. La ausencia de un acontecimiento en el registro no mide su probabilidad: mide la longitud del registro.",
+        },
+      ],
+    },
+  ],
+};
+
+export const FACTFULNESS: Resumen = {
+  id: "factfulness",
+  titulo: "Factfulness",
+  autor: "Hans Rosling",
+  ano: 2018,
+  gancho: "Hizo un test de trece preguntas sobre el mundo a miles de personas. Los chimpancés eligiendo al azar sacaban mejor nota.",
+  porQue:
+    "Demuestra con datos que el mundo está mucho mejor de lo que crees, y explica exactamente por qué te parece lo contrario.",
+  partes: [
+    {
+      titulo: "Peor que los chimpancés",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hans Rosling era médico y estadístico sueco, y durante años hizo el mismo experimento: un test de opción múltiple con preguntas básicas sobre el estado del mundo. ¿Qué porcentaje de niñas termina la primaria? ¿Cuánta gente vive en pobreza extrema? ¿Cuántos niños están vacunados?",
+        },
+        {
+          forma: "clave",
+          rotulo: "El resultado",
+          frase: "Con tres opciones por pregunta, el azar acertaría un 33 %. Los humanos sacaban menos. Y los expertos, también.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo probó con estudiantes, periodistas, ejecutivos, políticos y con el público de Davos. Casi nadie superaba al azar. Y eso es lo revelador: si nos equivocáramos por ignorancia, acertaríamos aleatoriamente un tercio. Sacar menos significa que tenemos una idea del mundo <em>sistemáticamente</em> torcida hacia el mismo lado.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los datos reales: la pobreza extrema se ha reducido a menos de la mitad en veinte años, la esperanza de vida media supera los setenta años, cuatro de cada cinco niños del mundo están vacunados y casi todas las niñas terminan la primaria. Casi nadie acierta ninguna de las tres.",
+        },
+      ],
+    },
+    {
+      titulo: "El mundo ya no está partido en dos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su corrección más importante es acabar con la división entre países ricos y países pobres, que describe un mundo que existió en 1965 y que ya no existe. Hoy la enorme mayoría de la humanidad está en el medio, y esa categoría no aparece en el vocabulario habitual.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su alternativa",
+          frase: "Cuatro niveles de ingreso, no dos bloques. La mayor parte del planeta vive en los niveles dos y tres.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los describe por cosas concretas, y por eso funciona. En el nivel uno vas descalzo a buscar agua. En el dos hay bicicleta, sandalias y gas para cocinar. En el tres hay moto, agua corriente y nevera. En el cuatro, coche y vacaciones. La distancia entre el uno y el dos cambia una vida entera, y desde el nivel cuatro los tres primeros parecen todos iguales.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su reproche a quien vive en el cuatro: desde ahí todo lo demás se ve como «pobreza», sin distinguir entre alguien que camina descalzo y alguien que tiene moto y lleva a sus hijos al instituto. Es como mirar los pisos de un edificio desde el tejado.",
+        },
+      ],
+    },
+    {
+      titulo: "Los diez instintos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro enumera diez sesgos que nos hacen ver el mundo peor de lo que está. El del <strong>hueco</strong>: creer que hay dos grupos separados cuando casi todo el mundo está en el medio. El del <strong>negativismo</strong>: recordar lo malo, porque las mejoras lentas no son noticia y las catástrofes sí.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El más útil",
+          frase: "Las cosas pueden estar mal y estar mejorando a la vez. No son afirmaciones contradictorias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otros: el instinto de la <strong>línea recta</strong>, que asume que una tendencia seguirá igual —la población mundial no va a crecer indefinidamente—; el del <strong>miedo</strong>, que confunde lo aterrador con lo probable; y el de la <strong>urgencia</strong>, el favorito de quien te quiere vender algo: «actúa ya o será tarde».",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su antídoto es sencillo y no requiere saber estadística: pregunta siempre por la cifra, y pide con qué se compara. Un número solo no significa nada. Cuarenta mil muertes suena a catástrofe hasta que sabes si el año pasado fueron cuatro mil o cuatrocientas mil.",
+          arte: "aprendizaje",
+        },
+      ],
+    },
+    {
+      titulo: "Un libro escrito muriéndose",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Rosling recibió un diagnóstico de cáncer de páncreas terminal en 2016 mientras escribía. Canceló todo, se dedicó al libro y murió en 2017 sin verlo publicado. Lo terminaron su hijo y su nuera, que llevaban años trabajando con él en las visualizaciones de datos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que no dice el libro",
+          frase: "No es optimismo. Rosling se definía como «posibilista»: mirar los datos sin esperanza ni miedo, y ver qué se puede hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese matiz importa porque el libro se ha usado a veces para decir que todo va bien y no hay de qué preocuparse. Rosling insistía en lo contrario: identificaba riesgos globales serios y decía que precisamente por eso hace falta tener bien los datos, porque quien vive en pánico permanente no distingue lo urgente de lo ruidoso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus críticas más serias: se le reprocha centrarse en promedios que ocultan desigualdad interna, y elegir los indicadores que mejor le van. También que sus datos son anteriores a 2018, y desde entonces la pobreza extrema dejó de caer al mismo ritmo. La conclusión general aguanta; algunas cifras concretas hay que actualizarlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su forma de enseñar también merece rescatarse. Rosling se hizo famoso con unas charlas donde animaba los datos en burbujas que se movían por la pantalla a lo largo de doscientos años, y comentaba la carrera de los países como un locutor deportivo. Su idea era que una tabla no convence a nadie y un gráfico en movimiento sí — que la mayor parte del problema no es que la gente rechace los datos, sino que nadie se los ha enseñado de forma que se puedan ver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Uno de sus ejemplos favoritos era la lavadora. Rosling contaba que su abuela pasó la vida lavando a mano y que el día que llegó la máquina se sentó a mirarla funcionar. Su argumento: para quien vive en el nivel cuatro la lavadora es un electrodoméstico; para quien sube del dos al tres es la diferencia entre perder el día lavando y tener tiempo para leer.",
+        },
+      ],
+    },
+  ],
+};
+
+export const STEVE_JOBS: Resumen = {
+  id: "steve-jobs",
+  titulo: "Steve Jobs",
+  autor: "Walter Isaacson",
+  ano: 2011,
+  gancho: "Le pidió a Isaacson que la escribiera y le prometió no leerla antes de publicarse. Cumplió.",
+  porQue:
+    "Cuarenta entrevistas con él y cien con quienes le rodearon. Es la biografía autorizada que no le deja bien, y por eso vale.",
+  partes: [
+    {
+      titulo: "El encargo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2004 Steve Jobs llamó a Walter Isaacson, biógrafo de Franklin y de Einstein, y le propuso escribir su vida. Isaacson pensó que era pronto y lo dejó estar. Volvió a llamarle años después; lo que Isaacson no sabía era que le acababan de diagnosticar cáncer.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La única condición",
+          frase: "Jobs pidió no ver el libro antes de publicarse, ni siquiera la portada. Y dijo que no lo leería hasta pasado un tiempo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso, en alguien conocido por controlar hasta el color de los tornillos de un ordenador que nadie iba a abrir, es la decisión más sorprendente del libro. Le dijo a Isaacson que hablara con todos, incluida la gente a la que había despedido y humillado. Murió en octubre de 2011, semanas antes de la publicación.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado son más de cuarenta entrevistas con él y un centenar con familia, socios, rivales y exempleados. Y no sale bien parado: el libro documenta con detalle su crueldad, sus mentiras y el hijo al que negó durante años.",
+        },
+      ],
+    },
+    {
+      titulo: "El campo de distorsión de la realidad",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Sus ingenieros le pusieron nombre a un fenómeno que sufrían a diario: Jobs se plantaba delante de alguien y le decía, mirándole fijamente, que algo imposible se podía hacer en la mitad de tiempo. Y a menudo lo conseguían. La frase la sacaron de <em>Star Trek</em>.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Las dos caras",
+          frase: "Conseguía que la gente hiciera lo que se creía incapaz de hacer. Y también que se quemara y se fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no lo romantiza. Jobs aparcaba en las plazas de minusválidos, llamaba «mierda» al trabajo de sus empleados en público, se atribuía ideas ajenas y despedía a gente en el ascensor. Su socio Wozniak, que construyó los primeros ordenadores, cuenta que Jobs le mintió sobre lo que les habían pagado por un encargo para quedarse con la diferencia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Isaacson evita la moraleja de que hay que ser así para triunfar. Recoge las opiniones de sus colaboradores más cercanos, y bastantes le dicen abiertamente que habría conseguido lo mismo sin ser cruel, y que la crueldad no fue el motor sino el peaje que pagaron los demás.",
+          arte: "museo",
+        },
+      ],
+    },
+    {
+      titulo: "El despido y el regreso",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1985, a los treinta años, el consejo de Apple le apartó de la empresa que había fundado. Él mismo dijo después que fue lo mejor que le pasó: la pesadez del éxito se sustituyó por la ligereza de volver a empezar sin estar seguro de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fundó NeXT, que comercialmente fue un fracaso, y compró por cinco millones la división de gráficos de Lucasfilm, que se convirtió en Pixar. En 1996 Apple estaba a semanas de la quiebra y compró NeXT para recuperar su sistema operativo. Con la compra volvió él.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo primero que hizo al volver",
+          frase: "Cancelar el 70 % de los productos. La empresa vendía docenas de modelos y nadie sabía cuál comprar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dibujó una cuadrícula de cuatro casillas —sobremesa y portátil, para profesionales y para consumidores— y anunció que Apple haría cuatro productos. Isaacson señala esto como la lección más aprovechable del libro: su talento mayor no fue inventar cosas, fue decir que no a casi todo.",
+        },
+      ],
+    },
+    {
+      titulo: "El final",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2003 le detectaron un tumor de páncreas de un tipo poco frecuente y relativamente tratable con cirugía. Jobs se negó a operarse durante nueve meses y probó dietas de zumos, acupuntura y remedios alternativos. Cuando aceptó la operación, el cáncer se había extendido.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dijo después",
+          frase: "Admitió a Isaacson que aquello fue un error, y que no quiso operarse porque no soportaba que le abrieran el cuerpo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El libro cuenta también su relación con la hija que negó durante años —llegó a declarar bajo juramento que era estéril mientras ella y su madre vivían de ayudas públicas— y su intento tardío de arreglarlo. Es la parte más incómoda y la que más justifica que pidiera no leer el manuscrito.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Como biografía tiene sus peros: es larguísima, la parte final se alarga, y varios cercanos a Jobs —incluido Tim Cook— han dicho que retrata bien al personaje difícil y mal a la persona. Aun así es la mejor crónica que existe de cómo se construyó la empresa más valiosa del mundo, contada sin adulación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Isaacson resume su método en una obsesión concreta: la integración. Jobs insistía en controlar a la vez el aparato, el sistema y la tienda, mientras el resto del sector se especializaba en una sola pieza. Le llamaron cerrado y controlador, y probablemente lo era; también es la razón de que sus productos funcionaran nada más sacarlos de la caja. Su padre adoptivo le había enseñado a lijar bien la parte trasera de un mueble aunque quedara contra la pared.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una frase suya que Isaacson recoge y que explica su relación con el tiempo: cuando le diagnosticaron el cáncer dijo que la certeza de morir era la mejor herramienta que conocía para evitar la trampa de pensar que tienes algo que perder. Ya la había usado en un discurso años antes, sano.",
+        },
+      ],
+    },
+  ],
+};
