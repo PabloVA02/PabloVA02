@@ -16,6 +16,7 @@ import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSB
 import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
 import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS } from "./economia";
 import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA } from "./psicologia";
+import { CRIMEN_CASTIGO } from "./literatura";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
 
@@ -120,6 +121,9 @@ export const RESUMENES: Record<string, Resumen> = {
   "siete-habitos": SIETE_HABITOS,
   flow: FLOW,
   educada: EDUCADA,
+
+  /* Capítulos largos */
+  "crimen-castigo": CRIMEN_CASTIGO,
 };
 
 export function comprobar() {

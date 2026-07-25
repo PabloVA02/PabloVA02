@@ -122,7 +122,7 @@ export const CATALOGO: Ficha[] = [
   { id: "principito", titulo: "El principito", autor: "Antoine de Saint-Exupéry", ano: 1943, categoria: "Literatura", estado: "escrito" },
   { id: "cien-anos", titulo: "Cien años de soledad", autor: "Gabriel García Márquez", ano: 1967, categoria: "Literatura", estado: "escrito" },
   { id: "quijote", titulo: "Don Quijote de la Mancha", autor: "Miguel de Cervantes", ano: 1605, categoria: "Literatura", estado: "escrito" },
-  { id: "crimen-castigo", titulo: "Crimen y castigo", autor: "Fiódor Dostoievski", ano: 1866, categoria: "Literatura", estado: "pendiente" },
+  { id: "crimen-castigo", titulo: "Crimen y castigo", autor: "Fiódor Dostoievski", ano: 1866, categoria: "Literatura", estado: "escrito" },
   { id: "gran-gatsby", titulo: "El gran Gatsby", autor: "F. Scott Fitzgerald", ano: 1925, categoria: "Literatura", estado: "escrito" },
   { id: "matar-ruisenor", titulo: "Matar a un ruiseñor", autor: "Harper Lee", ano: 1960, categoria: "Literatura", estado: "escrito" },
   { id: "extranjero", titulo: "El extranjero", autor: "Albert Camus", ano: 1942, categoria: "Literatura", estado: "pendiente" },
