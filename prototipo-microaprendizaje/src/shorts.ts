@@ -1,5 +1,6 @@
 import { CATASTROFES } from "./historias/catastrofes";
 import { CRIMEN } from "./historias/crimen";
+import { FIGURAS } from "./historias/figuras";
 
 /* ==========================================================================
    Shorts: historias sueltas de dos minutos.
@@ -11,8 +12,8 @@ import { CRIMEN } from "./historias/crimen";
 
        portada  →  página 1  →  página 2  →  página 3
 
-   Cuatro pantallas, cuatro deslizamientos contando el primero, unas 420
-   palabras: dos minutos de lectura. No es una limitación, es lo que hace que
+   Cuatro pantallas, cuatro deslizamientos contando el primero, entre 320 y
+   420 palabras: dos minutos de lectura. No es una limitación, es lo que hace que
    la sección se pueda recorrer sin pensar — sabes lo que te vas a encontrar
    antes de abrir, y eso es justo lo que permite abrir muchos.
 
@@ -67,8 +68,20 @@ export type Pagina = {
 
 export type Short = {
   id: string;
+  /**
+   * SUJETO + PROMESA, y el sujeto delante.
+   *
+   *     Julio César: 23 puñaladas y solo una mortal
+   *     Titanic: treinta y siete segundos
+   *
+   * Un título puramente misterioso —«Treinta y siete segundos»— es más bonito
+   * y funciona peor: en un pase donde se decide en un segundo si sigues o
+   * subes, el nombre conocido es lo que frena el dedo. Primero se reconoce el
+   * tema, después se promete algo concreto que no sabes de él. Ocho palabras
+   * como mucho: en dos líneas de portada no cabe más.
+   */
   titulo: string;
-  /** La frase que se lee en el muro, debajo del título. */
+  /** La frase que remata el título en la portada. Una sola, en voz alta. */
   gancho: string;
   categoria: string;
   /** Color de acento: tiñe el fondo de lectura, el cartel y el progreso. */
@@ -104,4 +117,4 @@ function intercala(...grupos: Short[][]): Short[] {
   return salida;
 }
 
-export const SHORTS: Short[] = intercala(CATASTROFES, CRIMEN);
+export const SHORTS: Short[] = intercala(FIGURAS, CATASTROFES, CRIMEN);

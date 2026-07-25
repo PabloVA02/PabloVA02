@@ -53,7 +53,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "titanic",
-    titulo: "Treinta y siete segundos",
+    titulo: "Titanic: treinta y siete segundos",
     gancho: "Lo vieron a tiempo. Ese fue exactamente el problema.",
     categoria: "Catástrofes",
     color: "var(--slate)",
@@ -93,7 +93,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "pompeya",
-    titulo: "Los huecos de Pompeya",
+    titulo: "Pompeya: el hueco que dejaron los cuerpos",
     gancho: "Los cuerpos se deshicieron. El agujero que dejaron, no.",
     categoria: "Catástrofes",
     color: "var(--clay)",
@@ -130,7 +130,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "halifax",
-    titulo: "La mayor explosión antes de la bomba",
+    titulo: "Halifax: la mayor explosión antes de Hiroshima",
     gancho: "Un barco cargado de explosivos ardió veinte minutos delante de una ciudad que salió a mirarlo.",
     categoria: "Catástrofes",
     color: "var(--ochre)",
@@ -160,7 +160,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "vajont",
-    titulo: "La presa aguantó. Ese no era el problema",
+    titulo: "Vajont: la presa aguantó, el monte no",
     gancho: "La obra resistió perfectamente. El monte de al lado, no.",
     categoria: "Catástrofes",
     color: "var(--slate)",
@@ -190,7 +190,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "tenerife",
-    titulo: "Dos aviones, una pista y una palabra",
+    titulo: "Tenerife: dos aviones, una pista y una palabra",
     gancho: "El peor accidente de la aviación empezó con una bomba en otro aeropuerto.",
     categoria: "Catástrofes",
     color: "var(--clay)",
@@ -220,7 +220,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "krakatoa",
-    titulo: "El sonido más fuerte del que hay registro",
+    titulo: "Krakatoa: el sonido más fuerte jamás registrado",
     gancho: "Se oyó a 4.800 kilómetros. A esa distancia ya no es un sonido: es un rumor que nadie explica.",
     categoria: "Catástrofes",
     color: "var(--plum)",
@@ -250,7 +250,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "melaza",
-    titulo: "La ola de melaza de Boston",
+    titulo: "Boston: la ola de melaza que mató a 21 personas",
     gancho: "Un muro de sirope de ocho metros bajando por la calle a 50 km/h. Suena a broma. Mató a 21 personas.",
     categoria: "Catástrofes",
     color: "var(--ochre)",
