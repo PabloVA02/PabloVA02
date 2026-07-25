@@ -893,32 +893,74 @@ button {
 }
 .chip-relleno { border-color: transparent; color: var(--ink); }
 
-.barra-tabs {
-  flex: none;
+/* ---- Filtros por categoría ----
+   Las mismas ocho de la introducción. Fila deslizable, porque ocho pastillas
+   no caben en 375 px y partirlas en dos líneas roba demasiada altura a la
+   parrilla, que es lo que la gente ha venido a mirar. */
+
+.filtros {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 auto 14px;
-  padding: 7px 10px;
-  width: calc(100% - 44px);
+  gap: 8px;
+  margin-top: 20px;
+  padding: 0 var(--shell-pad);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.filtros::-webkit-scrollbar { display: none; }
+
+.filtro {
+  flex: none;
+  padding: 7px 14px;
   border-radius: 999px;
-  background: rgba(242, 236, 225, 0.09);
-  backdrop-filter: blur(8px);
+  font-size: 12.5px;
+  font-weight: 620;
+  letter-spacing: -0.005em;
+  color: rgba(242, 236, 225, 0.62);
+  background: rgba(242, 236, 225, 0.08);
+  border: 1px solid transparent;
+}
+/* El activo se rellena además de cambiar de color: distinguir solo por tono
+   deja fuera a quien no lo percibe. */
+.filtro[data-activo="true"] {
+  color: var(--ink);
+  background: var(--paper);
+  border-color: var(--paper);
 }
 
-.tab {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-  padding: 6px 20px;
-  border-radius: 999px;
-  font-size: 11.5px;
-  font-weight: 620;
-  color: rgba(242, 236, 225, 0.55);
+/* ---- Parrilla de la estantería ---- */
+
+/* El último renglón tiene que poder subir por encima de la barra flotante:
+   sin este hueco, la barra se come media ficha. */
+.inicio-scroll { padding-bottom: 96px; }
+
+.parrilla {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 14px;
+  margin-top: 14px;
+  padding: 0 var(--shell-pad);
 }
-.tab-icono { font-size: 19px; line-height: 1; }
-.tab[data-activo="true"] { color: var(--ochre); background: rgba(242, 236, 225, 0.09); }
+/* En la parrilla la ficha manda la columna; el ancho fijo es cosa del
+   carrusel, donde sí hace falta para el scroll-snap. */
+.parrilla .ficha { width: auto; }
+.parrilla .portada { width: 100% !important; aspect-ratio: 1; height: auto !important; }
+
+.parrilla .ficha { display: flex; flex-direction: column; }
+.parrilla .ficha-pie { margin-top: auto; padding-top: 8px; }
+
+.ficha-pie {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 6px;
+  min-width: 0;
+}
+.ficha-min {
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(242, 236, 225, 0.42);
+  white-space: nowrap;
+}
 
 /* ---- Ficha del libro ---- */
 
@@ -973,6 +1015,48 @@ button {
   font-size: 14px;
   color: rgba(242, 236, 225, 0.62);
   text-align: center;
+}
+
+.detalle-ano { color: rgba(242, 236, 225, 0.4); }
+
+.detalle-meta {
+  margin: 8px 0 0;
+  text-align: center;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: rgba(242, 236, 225, 0.45);
+}
+
+/* ---- Índice del libro ----
+   Ver de antemano por dónde pasa el resumen es lo que hace que alguien
+   empiece: un texto sin fondo visible parece que no se acaba nunca. */
+
+.detalle-indice {
+  margin: 12px 0 0;
+  padding: 0 var(--shell-pad);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.detalle-indice li {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  padding: 9px 0;
+  font-size: 14px;
+  line-height: 1.35;
+  color: rgba(242, 236, 225, 0.82);
+  border-bottom: 1px solid rgba(242, 236, 225, 0.07);
+}
+.detalle-indice li:last-child { border-bottom: 0; }
+.indice-num {
+  flex: none;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
 }
 
 .detalle-seccion {

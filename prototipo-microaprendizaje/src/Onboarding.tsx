@@ -358,7 +358,7 @@ const PASOS: Paso[] = [
 
    ------------------------------------------------------------------------- */
 
-export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => void }) {
+export function Onboarding({ onTerminar }: { onTerminar: (nombre: string, intereses: string[]) => void }) {
   const reducido = !!useReducedMotion();
   const [i, setI] = useState(0);
   const [sentido, setSentido] = useState(1);
@@ -367,7 +367,10 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => voi
   const paso = PASOS[i];
 
   // Si no escribe nada, no se le da la lata: la app le llama de tú.
-  const terminar = () => onTerminar(nombre.trim() || "Hola");
+  /* El paso de temas se localiza por su título y no por un índice a mano:
+     insertar una pregunta antes rompería el índice sin avisar. */
+  const pasoTemas = PASOS.findIndex((p) => "titulo" in p && p.titulo === "¿Qué temas te interesan?");
+  const terminar = () => onTerminar(nombre.trim() || "Hola", elegidas[pasoTemas] ?? []);
 
   const avanzar = (d: number) => {
     if (i + d < 0) return;

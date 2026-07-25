@@ -8,7 +8,9 @@ import {
   useTransform,
   type PanInfo,
 } from "framer-motion";
-import { CARDS, MINUTOS_OBJETIVO, TOTAL_XP } from "./lesson";
+import { CARDS, MINUTOS_OBJETIVO, TOTAL_XP, type Card } from "./lesson";
+import { RESUMENES } from "./libros/indice";
+import { minutos as minutosDe } from "./libros/tipos";
 import { Scene } from "./Scene";
 import { Racha, RetoDiario } from "./Racha";
 import { DetalleLibro, Inicio, LIBROS, type Libro } from "./Biblioteca";
@@ -47,6 +49,8 @@ export default function App() {
   const [objetivo, setObjetivo] = useState(MINUTOS_OBJETIVO);
   /** El nombre se pide en la introducción y se usa en el perfil y el saludo. */
   const [nombre, setNombre] = useState("Hola");
+  /** Los temas que marcó en la introducción. Ordenan la estantería. */
+  const [intereses, setIntereses] = useState<string[]>([]);
   /** Tarjetas leídas. Sube al terminar un capítulo o un short. */
   const [leidas, setLeidas] = useState(0);
   /** Minutos de lectura de hoy, su meta y el total acumulado de siempre.
@@ -64,10 +68,20 @@ export default function App() {
   const [valoracionVista, setValoracionVista] = useState(false);
   /** Capítulos completados del libro abierto. */
   const [completados, setCompletados] = useState(0);
+  /** Qué parte del libro se está leyendo. */
+  const [parte, setParte] = useState(0);
   /** Minutos que ha tardado el lector en el capítulo, medidos de verdad. */
   const [minutos, setMinutos] = useState(0);
   const arranque = useRef(0);
   const reducido = useReducedMotion();
+
+  /* Las tarjetas que toca leer. Si el libro abierto tiene resumen escrito se
+     sacan de él; si no —el capítulo de Alejandría, que es el único con
+     gráficos de datos— se usan las de siempre. Así conviven los dos sin que
+     la lección tenga que saber de dónde viene cada cosa. */
+  const resumen = RESUMENES[libro.id];
+  const cartas = resumen ? resumen.partes[parte]?.tarjetas ?? CARDS : CARDS;
+  const objetivoLibro = resumen ? Math.max(1, Math.round(minutosDe(resumen) / resumen.partes.length)) : MINUTOS_OBJETIVO;
 
   // El regalo aparece cuando ya has visto el inicio un momento. Soltarlo a
   // bocajarro nada más entrar se lee como un anuncio; dejar respirar la
@@ -101,8 +115,9 @@ export default function App() {
           {pantalla === "intro" && (
             <Onboarding
               key="intro"
-              onTerminar={(n) => {
+              onTerminar={(n, temas) => {
                 setNombre(n);
+                setIntereses(temas);
                 setPantalla("pago");
               }}
             />
@@ -120,6 +135,7 @@ export default function App() {
             <Inicio
               key="inicio"
               racha={RACHA}
+              intereses={intereses}
               onAbrir={(l) => {
                 setLibro(l);
                 setPantalla("detalle");
@@ -189,8 +205,9 @@ export default function App() {
               libro={libro}
               completados={completados}
               onVolver={() => setPantalla("detalle")}
-              onEmpezar={() => {
+              onEmpezar={(i) => {
                 arranque.current = Date.now();
+                setParte(i);
                 setPantalla("leccion");
               }}
             />
@@ -198,15 +215,18 @@ export default function App() {
           {pantalla === "leccion" && (
             <Leccion
               key="leccion"
+              cartas={cartas}
               onSalir={() => setPantalla("camino")}
               onFin={() => {
                 const gastado = (Date.now() - arranque.current) / 60000;
                 setMinutos(gastado);
                 setMinutosHoy((n) => n + gastado);
                 setMinutosTotales((n) => n + gastado);
-                setCompletados((c) => c + 1);
-                setLeidas((n) => n + CARDS.length);
-                setObjetivo(MINUTOS_OBJETIVO);
+                // Solo cuenta como capítulo nuevo si iba por orden: releer el
+                // primero no debería empujar la barra de progreso.
+                setCompletados((c) => (parte === c ? c + 1 : c));
+                setLeidas((n) => n + cartas.length);
+                setObjetivo(objetivoLibro);
                 setVuelta("camino");
                 setPantalla("fin");
               }}
@@ -368,7 +388,7 @@ function reloj() {
 const UMBRAL_PX = 62;
 const UMBRAL_VEL = 480;
 
-function Leccion({ onSalir, onFin }: { onSalir: () => void; onFin: () => void }) {
+function Leccion({ cartas, onSalir, onFin }: { cartas: Card[]; onSalir: () => void; onFin: () => void }) {
   const [indice, setIndice] = useState(0);
   const [sentido, setSentido] = useState(1);
   const [guardada, setGuardada] = useState(false);
@@ -385,15 +405,15 @@ function Leccion({ onSalir, onFin }: { onSalir: () => void; onFin: () => void })
     detalle: useTransform(x, (v) => v * DEPTH.detalle),
   };
 
-  const carta = CARDS[indice];
-  const ultima = indice === CARDS.length - 1;
+  const carta = cartas[indice];
+  const ultima = indice === cartas.length - 1;
   const bloqueado = useRef(false);
 
   function avanzar(paso: number) {
     const destino = indice + paso;
     if (bloqueado.current) return;
     if (destino < 0) return rebotar(-1);
-    if (destino >= CARDS.length) return onFin();
+    if (destino >= cartas.length) return onFin();
 
     bloqueado.current = true;
     setSentido(paso);
@@ -451,7 +471,7 @@ function Leccion({ onSalir, onFin }: { onSalir: () => void; onFin: () => void })
           <motion.div
             className="track-fill"
             initial={{ scaleX: 0 }}
-            animate={{ scaleX: (indice + 1) / CARDS.length }}
+            animate={{ scaleX: (indice + 1) / cartas.length }}
             transition={springTight}
           />
         </div>

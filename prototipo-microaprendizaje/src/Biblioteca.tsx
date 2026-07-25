@@ -1,5 +1,5 @@
-import type { ComponentType } from "react";
-import { motion } from "framer-motion";
+import { useMemo, useState, type ComponentType } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import {
   Aprendizaje, AprendizajeVB, Descubrir, DescubrirVB, Estanteria, EstanteriaVB,
   LuzLuna, LuzLunaVB, MapaAventura, MapaAventuraVB, Memoria, MemoriaVB,
@@ -8,6 +8,7 @@ import {
 import { Llama } from "./Racha";
 import { enterVariants, spring, springPop, springSoft } from "./motion";
 import { GlyphBack, GlyphClose, GlyphDescargar, GlyphGuardar, GlyphShare } from "./glyphs";
+import { LIBROS_RESUMEN } from "./libros/puente";
 
 /* ==========================================================================
    La biblioteca: inicio y ficha de libro.
@@ -39,11 +40,17 @@ export type Libro = {
   coleccion?: string;
   /** Capítulos del libro. El primero es el único jugable en el prototipo. */
   capitulos: { titulo: string }[];
-  /** Solo el capítulo de Alejandría es jugable en este prototipo. */
+  /** Los de la biblioteca de resúmenes son jugables enteros. */
   jugable?: boolean;
+  /** Año de publicación. Solo los resúmenes de libros reales lo traen. */
+  ano?: number;
+  /** Minutos de lectura calculados del texto real, no escritos a mano. */
+  minutos?: number;
 };
 
-export const LIBROS: Libro[] = [
+/* Los capítulos originales del prototipo. Se quedan porque el de Alejandría
+   es el único con gráficos de datos, y eso no lo tiene ningún resumen. */
+const ORIGINALES: Libro[] = [
   {
     id: "alejandria",
     capitulos: [{ titulo: "La ambición imposible" }, { titulo: "El método de los barcos" }, { titulo: "Cuatrocientos mil rollos" }, { titulo: "El mito del incendio" }, { titulo: "Lo que se perdió" }, { titulo: "La cadena de copias" }, { titulo: "Qué sobrevive y por qué" }],
@@ -118,7 +125,9 @@ export const LIBROS: Libro[] = [
     autor: "Historia de la educación",
     subtitulo: "La escuela es más nueva de lo que crees",
     gancho: "El aula con pupitres y horarios tiene menos de dos siglos. Antes se aprendía de maneras que hoy sorprenden.",
-    categoria: "Educación",
+    /* Las categorías son las ocho de la introducción y solo esas: una novena
+       que no se puede elegir al empezar deja un filtro huérfano. */
+    categoria: "Historia",
     color: "var(--plum-light)",
     Arte: Aprendizaje,
     vb: AprendizajeVB,
@@ -138,6 +147,14 @@ export const LIBROS: Libro[] = [
     progreso: 0,
   },
 ];
+
+/* La estantería completa: primero los resúmenes de libros reales, que son el
+   grueso del catálogo, y detrás los capítulos originales. El orden importa —
+   lo que se ve sin desplazarse es lo que existe para el usuario. */
+export const LIBROS: Libro[] = [...LIBROS_RESUMEN, ...ORIGINALES];
+
+/** Búsqueda por id, que es como se enlaza un resumen con su ficha. */
+export const porId = (id: string) => LIBROS.find((l) => l.id === id);
 
 /* -------------------------------------------------------------------------
    Portada
@@ -195,25 +212,57 @@ function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; 
       <p className="ficha-titulo">{libro.titulo}</p>
       <p className="ficha-autor">{libro.autor}</p>
       <p className="ficha-sub">{libro.subtitulo}</p>
-      <span className="chip-cat" style={{ borderColor: libro.color, color: libro.color }}>
-        {libro.categoria}
+      <span className="ficha-pie">
+        <span className="chip-cat" style={{ borderColor: libro.color, color: libro.color }}>
+          {libro.categoria}
+        </span>
+        {libro.minutos && <span className="ficha-min">{tiempo(libro.minutos)}</span>}
       </span>
     </motion.button>
   );
+}
+
+/** «4 min», nunca «4.2 min»: el decimal no aporta y ensucia la ficha. */
+export function tiempo(min: number) {
+  return `${Math.round(min)} min`;
 }
 
 export function Inicio({
   racha,
   onAbrir,
   onPerfil,
+  intereses = [],
 }: {
   racha: number;
   onAbrir: (libro: Libro) => void;
   onPerfil: () => void;
+  /** Lo que marcó en la introducción. Ordena la estantería, no la recorta. */
+  intereses?: string[];
 }) {
+  const [filtro, setFiltro] = useState<string | null>(null);
+
   const enCurso = LIBROS.filter((l) => l.progreso > 0);
-  const recomendados = LIBROS.filter((l) => l.progreso === 0);
   const destacado = LIBROS[0];
+
+  /* Las categorías que existen de verdad, con las elegidas en la introducción
+     delante. Filtrar por algo que da cero resultados es una vía muerta, así
+     que solo se ofrece lo que tiene libros detrás. */
+  const categorias = useMemo(() => {
+    const hay = [...new Set(LIBROS.map((l) => l.categoria))];
+    const mios = intereses.filter((c) => hay.includes(c));
+    return [...mios, ...hay.filter((c) => !mios.includes(c))];
+  }, [intereses]);
+
+  /* Sus intereses primero, y dentro de cada bloque el orden del catálogo.
+     Es la única personalización real que puede hacer el prototipo, y se nota
+     nada más entrar: lo que pidió está arriba. */
+  const recomendados = useMemo(() => {
+    const libres = LIBROS.filter((l) => l.progreso === 0);
+    if (filtro) return libres.filter((l) => l.categoria === filtro);
+    if (!intereses.length) return libres;
+    const peso = (l: Libro) => (intereses.includes(l.categoria) ? 0 : 1);
+    return [...libres].sort((a, b) => peso(a) - peso(b));
+  }, [filtro, intereses]);
 
   return (
     <motion.div
@@ -269,45 +318,73 @@ export function Inicio({
           </span>
         </motion.button>
 
+        {/* Los filtros son las mismas ocho de la introducción, en su orden */}
+        <motion.div
+          className="filtros"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...spring, delay: 0.16 }}
+        >
+          <Filtro texto="Todo" activo={filtro === null} onClick={() => setFiltro(null)} />
+          {categorias.map((c) => (
+            <Filtro key={c} texto={c} activo={filtro === c} onClick={() => setFiltro(filtro === c ? null : c)} />
+          ))}
+        </motion.div>
+
         <section className="bloque">
           <div className="bloque-cabecera">
             <div>
-              <h2>Recomendados para ti</h2>
-              <p className="bloque-sub">Creemos que estos te van a gustar</p>
+              <h2>{filtro ?? (intereses.length ? "Para ti" : "Recomendados")}</h2>
+              <p className="bloque-sub">
+                {filtro
+                  ? `${recomendados.length} ${recomendados.length === 1 ? "libro" : "libros"}`
+                  : intereses.length
+                    ? "Empezando por lo que elegiste"
+                    : "Creemos que estos te van a gustar"}
+              </p>
             </div>
-            <button className="btn-gestionar" type="button">Gestionar</button>
           </div>
-          <div className="carrusel">
-            {recomendados.map((l, i) => (
-              <FichaLibro key={l.id} libro={l} i={i} onAbrir={() => onAbrir(l)} />
-            ))}
+          {/* Una sola columna de scroll horizontal se queda corta con un
+              catálogo grande: en cuanto hay más de diez libros, la parrilla
+              enseña mucho más sin obligar a arrastrar. */}
+          <div className="parrilla">
+            <AnimatePresence mode="popLayout">
+              {recomendados.map((l, i) => (
+                <FichaLibro key={l.id} libro={l} i={Math.min(i, 9)} onAbrir={() => onAbrir(l)} />
+              ))}
+            </AnimatePresence>
           </div>
         </section>
 
-        <section className="bloque">
-          <h2>Retomar</h2>
-          <p className="bloque-sub">Sigue donde lo dejaste</p>
-          <div className="carrusel">
-            {enCurso.map((l, i) => (
-              <FichaLibro key={l.id} libro={l} i={i} onAbrir={() => onAbrir(l)} />
-            ))}
-          </div>
-        </section>
+        {enCurso.length > 0 && !filtro && (
+          <section className="bloque">
+            <h2>Retomar</h2>
+            <p className="bloque-sub">Sigue donde lo dejaste</p>
+            <div className="carrusel">
+              {enCurso.map((l, i) => (
+                <FichaLibro key={l.id} libro={l} i={i} onAbrir={() => onAbrir(l)} />
+              ))}
+            </div>
+          </section>
+        )}
       </div>
-
-      <nav className="barra-tabs">
-        {[
-          { icono: "⌂", texto: "Inicio", activo: true },
-          { icono: "⌕", texto: "Explorar", activo: false },
-          { icono: "○", texto: "Yo", activo: false },
-        ].map((t) => (
-          <button key={t.texto} className="tab" data-activo={t.activo} type="button">
-            <span className="tab-icono">{t.icono}</span>
-            <span>{t.texto}</span>
-          </button>
-        ))}
-      </nav>
     </motion.div>
+  );
+}
+
+/** Pastilla de filtro. El activo se rellena, no solo cambia de color. */
+function Filtro({ texto, activo, onClick }: { texto: string; activo: boolean; onClick: () => void }) {
+  return (
+    <motion.button
+      className="filtro"
+      data-activo={activo}
+      onClick={onClick}
+      whileTap={{ scale: 0.93 }}
+      transition={springPop}
+      type="button"
+    >
+      {texto}
+    </motion.button>
   );
 }
 
@@ -373,7 +450,14 @@ export function DetalleLibro({
             {libro.categoria}
           </span>,
           <h1 key="t" className="detalle-titulo">{libro.titulo}</h1>,
-          <p key="a" className="detalle-autor">{libro.autor}</p>,
+          <p key="a" className="detalle-autor">
+            {libro.autor}
+            {libro.ano && <span className="detalle-ano"> · {libro.ano}</span>}
+          </p>,
+          <p key="m" className="detalle-meta">
+            {libro.minutos ? tiempo(libro.minutos) : "5 min"} de lectura ·{" "}
+            {libro.capitulos.length} {libro.capitulos.length === 1 ? "parte" : "partes"}
+          </p>,
         ].map((n, i) => (
           <motion.div
             key={n.key}
@@ -388,8 +472,24 @@ export function DetalleLibro({
         ))}
 
         <motion.section custom={6} variants={enterVariants} initial="hidden" animate="shown">
-          <h2 className="detalle-seccion">Lo que vas a aprender</h2>
+          <h2 className="detalle-seccion">Por qué merece la pena</h2>
           <p className="detalle-parrafo">{libro.gancho}</p>
+        </motion.section>
+
+        {/* El índice antes de empezar: saber cuánto queda es lo que hace que
+            alguien empiece. Un libro sin índice parece que no se acaba nunca. */}
+        <motion.section custom={7} variants={enterVariants} initial="hidden" animate="shown">
+          <h2 className="detalle-seccion">Lo que vas a leer</h2>
+          <ol className="detalle-indice">
+            {libro.capitulos.map((c, i) => (
+              <li key={c.titulo}>
+                <span className="indice-num" style={{ color: libro.color }}>
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <span>{c.titulo}</span>
+              </li>
+            ))}
+          </ol>
         </motion.section>
 
         {libro.coleccion && (
