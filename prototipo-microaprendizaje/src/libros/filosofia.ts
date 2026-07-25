@@ -957,3 +957,427 @@ export const SISIFO: Resumen = {
     },
   ],
 };
+
+export const ARTE_GUERRA: Resumen = {
+  id: "arte-guerra",
+  titulo: "El arte de la guerra",
+  autor: "Sun Tzu",
+  ano: -500,
+  gancho: "Trece capítulos escritos hace dos mil quinientos años, y el primer consejo es que la mejor batalla es la que no se libra.",
+  porQue:
+    "Lo leen generales, entrenadores y directivos por el mismo motivo: no enseña a pelear, enseña a colocarse de forma que pelear sobre poco.",
+  partes: [
+    {
+      titulo: "El general y las concubinas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "De Sun Tzu no sabemos casi nada con certeza. La versión tradicional dice que fue un general del estado de Wu en el siglo V antes de Cristo; algunos historiadores dudan de que existiera como persona única y creen que el texto se fue componiendo durante generaciones. Lo que sí es seguro es su antigüedad: en 1972 se encontraron copias en tiras de bambú en una tumba de Shandong.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La anécdota que se cuenta sobre él, verdadera o no, resume el libro entero. El rey de Wu, que había leído su tratado, quiso ponerle a prueba y le entregó ciento ochenta concubinas de palacio para que las convirtiera en soldados. Sun Tzu las dividió en dos compañías y puso al frente a las dos favoritas del rey.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Explicó las órdenes con claridad, comprobó que las habían entendido, y tocó el tambor. Las mujeres se echaron a reír. Sun Tzu dijo que si las órdenes no están claras la culpa es del general, volvió a explicarlas y tocó otra vez. Volvieron a reírse.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hizo entonces",
+          frase: "Dijo que si las órdenes están claras y no se cumplen, la culpa es de los oficiales. Y mandó ejecutar a las dos favoritas del rey.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El rey le gritó desde la tribuna que se detuviera, que ya estaba convencido de su capacidad. Sun Tzu contestó que un general en el campo puede desobedecer incluso a su soberano, y siguió adelante. Después nombró a otras dos jefas, tocó el tambor, y las ciento setenta y ocho mujeres restantes ejecutaron las maniobras en silencio absoluto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La historia es probablemente legendaria y es brutal, pero contiene tres ideas que aparecen después por todo el libro: que la disciplina se establece antes del combate y no durante, que la responsabilidad sube hacia arriba en la cadena de mando, y que un ejército sin unidad de criterio no es un ejército.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El texto original son trece capítulos brevísimos escritos en sentencias, sin explicación ni desarrollo. Cada frase es una conclusión. Por eso admite tantas lecturas y también tantas manipulaciones: se puede citar casi cualquier cosa sacándola de su sitio.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los trece capítulos tienen títulos que ya indican de qué va la cosa: sobre la evaluación, sobre la guerra, sobre la estrategia ofensiva, sobre la disposición, sobre la energía, sobre lo lleno y lo vacío, sobre la maniobra, sobre las nueve variables, sobre la marcha, sobre el terreno, sobre las nueve clases de terreno, sobre el ataque con fuego y sobre el uso de espías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fíjate en el orden: nueve capítulos sobre preparación, evaluación y movimiento, y solo uno sobre atacar. La estructura misma del libro es el argumento — combatir es el último recurso, y la mayor parte del trabajo de un general ocurre antes de que nadie desenvaine nada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El texto que leemos hoy es en realidad una conversación de veinte siglos. Los generales chinos posteriores fueron anotando el original en los márgenes, y esas notas se copiaron junto al texto hasta formar parte de él. El comentarista más famoso es Cao Cao, el señor de la guerra del siglo III que aparece en las novelas y videojuegos sobre los Tres Reinos.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hallazgo arqueológico de 1972 cambió las cosas. En unas tumbas de la dinastía Han aparecieron tiras de bambú con el texto y también con otro tratado atribuido a un descendiente suyo, Sun Bin, que se creía perdido desde hacía mil años. Aquello confirmó que la obra circulaba tal cual antes del siglo II antes de Cristo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La primera frase",
+          frase: "«La guerra es un asunto de importancia vital para el Estado.» No hay épica: es un problema de gestión pública.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su primera frase deja claro el tono. Dice que la guerra es un asunto de importancia vital para el Estado, el terreno donde se decide la vida o la muerte, el camino que lleva a la supervivencia o a la ruina, y que por tanto es objeto de estudio obligado. No hay ninguna épica en eso: es un problema de gestión pública.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y por eso el libro dedica más espacio a los suministros que a las armas. Calcula el coste diario de mantener cien mil hombres en campaña —carros, bueyes, correos, pegamento, laca, familias que dejan de cultivar en casa— y concluye que un ejército arruina a su propio país mucho antes que al enemigo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su solución es de una practicidad brutal: alimentarse del enemigo. Un carro de grano capturado al adversario vale por veinte transportados desde casa, porque ahorra el viaje y además se lo quita a él. Es contabilidad de guerra, y funciona en las dos direcciones a la vez.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y por eso conviene decir desde el principio lo que no es. No es un libro de estrategia empresarial, aunque se venda así desde los años ochenta; no es un manual de superación personal; y no es una colección de trucos para ganar discusiones. Es un tratado militar sobre cómo emplear un ejército sin arruinar al estado que lo paga.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Ganar sin luchar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su idea central es la que menos se espera de un libro de guerra: la victoria más alta no consiste en ganar cien batallas de cien, sino en someter al enemigo sin combatir. Sun Tzu lo repite de varias formas porque sabe que suena a debilidad y no lo es.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El razonamiento",
+          frase: "Toda batalla, incluso ganada, cuesta hombres, comida, dinero y tiempo. Un estado que gana muchas guerras acaba tan arruinado como el que pierde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí su jerarquía de objetivos, que es de las páginas más citadas. Lo mejor es desbaratar los planes del enemigo antes de que se muevan. Después, romper sus alianzas para dejarle solo. Después, atacar a su ejército en campo abierto. Y lo peor de todo, la última opción, asediar ciudades amuralladas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dedica un pasaje entero a explicar por qué el asedio es un desastre: preparar las máquinas lleva meses, el general impaciente manda a sus hombres a trepar por los muros como hormigas y pierde un tercio de ellos sin tomar la plaza. Su conclusión es que quien llega a ese punto ya ha fracasado antes.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "También insiste, y sorprende para la época, en tratar bien a los prisioneros y en no arrasar el territorio que se quiere conquistar. Su argumento no es humanitario sino contable: capturar un ejército intacto vale más que destruirlo, y una ciudad quemada no produce impuestos.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí sale su regla sobre la duración: nunca ha existido una guerra larga que beneficiara a un país. La rapidez, aunque sea torpe, vale más que una lentitud brillante. Es lo contrario de lo que dicta el instinto, y es lo que han ignorado casi todos los ejércitos que se han hundido en un conflicto interminable.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Sobre lo que puedes controlar",
+          frase: "Hazte invencible primero. La invencibilidad depende de ti; la oportunidad de vencer depende del enemigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su capítulo sobre la disposición contiene una idea que cuesta aceptar: que el buen general no gana batallas espectaculares. Dice que los antiguos maestros vencían con facilidad, y que por eso sus victorias no les dieron fama de sabios ni de valientes. Nadie compone canciones sobre un ejército que ganó sin que hubiera que pelear.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La victoria invisible",
+          frase: "Los grandes generales ganaban con facilidad, y por eso nadie escribió canciones sobre ellos. Una victoria difícil prueba que llegaste mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Compara al que gana una batalla difícil con el que levanta un cabello de otoño —no demuestra fuerza—, con el que ve el sol y la luna —no demuestra vista— y con el que oye un trueno —no demuestra oído fino—. La victoria brillante, dice, solo prueba que se llegó al combate en malas condiciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su regla numérica es célebre y sigue enseñándose. Si tienes diez veces las fuerzas del enemigo, rodéale. Cinco veces, atácale. El doble, divide tus tropas para partir las suyas. Si estáis igualados, presenta batalla. Si eres inferior, retírate. Y si eres muy inferior, evítale — porque un ejército pequeño que se empeña en resistir acaba capturado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahí hay algo que casi ningún manual militar de la Antigüedad dice: que retirarse es una opción técnica y no una deshonra. Sun Tzu no menciona jamás el honor como criterio. Su única medida es si la operación conviene al Estado, y por eso recomienda desobedecer al propio soberano cuando sus órdenes son malas.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Enumera además tres formas en que un gobernante arruina a su ejército desde palacio: ordenar avanzar o retroceder sin saber si es posible, meterse a administrar el ejército sin conocer sus asuntos internos, y repartir mandos por criterios políticos. Cualquiera que haya trabajado en una organización grande reconoce las tres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí su lista de las cinco condiciones para saber si se va a ganar antes de empezar: saber cuándo se puede combatir y cuándo no, saber emplear fuerzas grandes y pequeñas, tener un ejército con un solo criterio de arriba abajo, estar preparado y esperar al que no lo está, y tener un general capaz al que el soberano no estorbe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción es probablemente lo más aprovechable del libro fuera del campo de batalla. Un buen general se ocupa de que su propia posición no tenga grietas y después espera a que el otro cometa un error. No puede fabricar ese error, pero sí puede garantizar estar preparado cuando llegue.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Conocerse a uno mismo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La frase más famosa del libro es la del conocimiento, y casi siempre se cita a medias. Sun Tzu enumera tres casos, no dos, y el tercero es el interesante.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Las tres situaciones",
+          frase: "Si conoces al enemigo y a ti mismo, no temerás cien batallas. Si te conoces solo a ti, ganarás una y perderás otra. Si no conoces a ninguno, perderás siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fíjate en el caso intermedio: conocerse a uno mismo sin conocer al rival da un cincuenta por ciento, es decir, lo mismo que el azar. Todo el esfuerzo de autoconocimiento, sin información sobre el otro, no mejora las probabilidades ni un punto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso el capítulo final, y el más largo, va sobre espías. Sun Tzu los clasifica en cinco tipos y sostiene que pagarles bien es el gasto más rentable de un ejército: escatimar en información cuando se están gastando fortunas en mantener tropas durante años es, dice, el colmo de la falta de humanidad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su método para evaluar una campaña antes de empezarla son cinco factores que hay que comparar entre los dos bandos: la causa moral —si la tropa cree en lo que hace—, el clima, el terreno, la calidad del mando y la organización. Quien haga bien esas cuentas, dice, sabe quién va a ganar antes de salir de casa.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dedica también un pasaje a los defectos del general, y es una lista incómoda porque no habla de cobardía. Enumera cinco peligros: ser temerario, ser demasiado prudente, tener un temperamento irascible que se deja provocar, tener un honor tan delicado que la vergüenza le arrastra, y preocuparse tanto por sus hombres que se paraliza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su clasificación de espías es la más detallada de la Antigüedad. Los <em>locales</em>, habitantes del territorio enemigo. Los <em>internos</em>, funcionarios del bando contrario. Los <em>dobles</em>, espías del enemigo captados y devueltos. Los <em>desechables</em>, a los que se les da información falsa para que la confiesen bajo tortura. Y los <em>vivientes</em>, que van y vuelven.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sun Tzu dice que el doble es la pieza maestra y que hay que tratarle con la mayor generosidad posible, porque de él dependen las otras cuatro categorías. Y añade que ninguna relación en el ejército debe ser más estrecha que la del general con sus espías, ni ninguna recompensa más alta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su argumento a favor del gasto en información es demoledor y sigue siendo válido. Dice que dos ejércitos pueden estar años enfrentados con un coste inmenso en vidas y en dinero, y que la victoria se decidirá en un solo día. Escatimar en información en esas condiciones, concluye, es el colmo de la inhumanidad.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "clave",
+          rotulo: "Sobre el gasto en información",
+          frase: "Gastar fortunas durante años en un ejército y ahorrar en espías es, dice, el colmo de la inhumanidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra pata del conocimiento es el terreno, y aquí es exhaustivo hasta lo tedioso: cómo acampar cerca de un río, por qué no beber aguas abajo del enemigo, cómo cruzar marismas, por qué evitar los desfiladeros y las zonas de vegetación densa donde puede haber emboscadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un pasaje de observación pura que parece un manual de rastreo. Si los pájaros levantan el vuelo, hay una emboscada. Si el polvo se levanta alto y estrecho, vienen carros; si es bajo y ancho, infantería. Si los soldados enemigos se apoyan en las lanzas, están hambrientos. Si beben antes de repartir el agua, tienen sed.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si sus oficiales gritan de más, es que han perdido el control. Si matan a sus caballos para comer, no tienen provisiones. Si envían emisarios con palabras humildes mientras siguen preparándose, van a atacar. Si las ofrecen sin motivo, quieren una tregua. Todo el capítulo es una lección de leer intenciones a través de conductas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: cuatro de los cinco defectos son virtudes llevadas al exceso. El valor, la prudencia, la dignidad y la compasión se convierten en trampas si no se administran. Ningún otro tratado militar antiguo dice algo parecido.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El engaño y el terreno",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su segunda gran idea es que toda guerra se basa en el engaño. Cuando puedas atacar, aparenta que no puedes; cuando estés cerca, haz creer que estás lejos; si el enemigo es fuerte, evítalo; si es colérico, irrítalo; si está unido, divídelo; si descansa, no le dejes.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El principio",
+          frase: "Aparece donde no te esperan. Ataca donde no están preparados. Un ejército que tiene que defenderlo todo no defiende nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Desarrolla eso con una imagen que se ha repetido durante siglos: si el enemigo refuerza su vanguardia, debilita su retaguardia; si refuerza la izquierda, debilita la derecha; y si intenta estar fuerte en todas partes, será débil en todas partes. Obligarle a repartirse es media victoria.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Sus metáforas favoritas vienen del agua, y son las mejores páginas del texto. El agua no tiene forma fija: adopta la del terreno. Evita las alturas y corre hacia lo bajo. Un ejército, dice, debe hacer lo mismo — evitar la fuerza del enemigo y golpear donde cede.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade la consecuencia que casi nadie recuerda: así como el agua no tiene una forma constante, en la guerra no hay condiciones constantes. Quien modifica sus tácticas según el rival y consigue así la victoria, ese merece llamarse maestro. No hay ninguna receta que funcione dos veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su concepto más difícil de traducir es lo que se suele llamar <em>energía</em> o <em>ímpetu</em>. Sun Tzu lo explica con imágenes físicas: dice que la fuerza de un torrente que arrastra piedras es cuestión de ímpetu, y que la precisión de un halcón que rompe el cuerpo de su presa es cuestión de tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su comparación favorita es la del arma de la época: el ímpetu es como tensar la ballesta, y el momento oportuno es apretar el gatillo. Toda la energía se acumula antes; la acción dura un instante. Un ejército bien colocado no necesita esforzarse en el choque, igual que una piedra redonda en lo alto de una montaña no necesita empujón.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Distingue también entre la fuerza <em>ordinaria</em>, que es la que entabla el combate de frente, y la <em>extraordinaria</em>, la que decide. Y dice que las combinaciones de ambas son inagotables, como los cinco colores que producen más matices de los que nadie puede ver o las cinco notas que producen más melodías de las que se pueden oír.",
+          arte: "explorar",
+        },
+        {
+          forma: "clave",
+          rotulo: "El ímpetu",
+          frase: "Es como tensar una ballesta: toda la energía se acumula antes, y la acción dura un instante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su idea de la forma. Dice que el objetivo último es llegar a no tener forma reconocible, porque entonces ni el espía más profundamente infiltrado puede averiguar tus planes ni el más sabio elaborar una estrategia contra ti. Todos ven las tácticas con las que venciste; nadie ve la estrategia de la que salieron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus consejos sobre el engaño son concretos y despiadados. Ofrece cebos para atraerle. Finge desorden y golpéale. Si es superior, prepárate; si es fuerte, evítale; si es irascible, provócale; si es humilde, hazle arrogante; si está descansado, oblígale a moverse; si está unido, sepáralo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una advertencia que se olvida con frecuencia: no repitas nunca una táctica que te haya funcionado. Responde a las circunstancias con variaciones infinitas, porque el enemigo también aprende. Las condiciones militares, escribe, se basan en el agua, y el agua no tiene forma constante.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El capítulo del ataque con fuego incluye el consejo más sensato de todo el tratado, y es una advertencia moral disfrazada de táctica: que un soberano no debe iniciar una guerra por cólera ni un general combatir por resentimiento, porque la ira puede convertirse en alegría y el enfado en satisfacción, pero un reino destruido no vuelve a existir ni un muerto vuelve a la vida.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Clasifica después nueve tipos de terreno y qué hacer en cada uno, desde el que dispersa —el propio país, donde los soldados piensan en su casa y desertan— hasta el terreno de muerte, donde solo se sobrevive combatiendo. Su consejo ahí es célebre: quemar los barcos, romper las ollas, y que la tropa sepa que no hay retirada posible.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla del enemigo acorralado",
+          frase: "A un ejército rodeado déjale siempre una salida. Un hombre sin escapatoria pelea como si no tuviera nada que perder, porque no lo tiene.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Por qué lo lee todo el mundo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El texto llegó a Occidente en 1772, traducido al francés por un jesuita, y circuló entre militares durante siglo y medio sin salir de ese círculo. Su explosión popular es reciente: llegó en los años setenta y ochenta a los despachos, primero en Japón y después en Estados Unidos, y desde entonces no ha dejado de reeditarse.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hoy se cita en libros de negocios, en vestuarios de fútbol, en manuales de negociación y en series de televisión. Buena parte de esas citas están recortadas hasta perder el sentido, o directamente inventadas: circula por internet una cantidad enorme de frases atribuidas a Sun Tzu que no están en ninguna de las trece secciones.",
+          arte: "noche",
+        },
+        {
+          forma: "clave",
+          rotulo: "La objeción honesta",
+          frase: "Es un tratado sobre matar gente con eficiencia. Aplicarlo a una reunión de trabajo obliga a olvidar que el otro lado no es un enemigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la crítica más seria y conviene tenerla presente. La lógica del libro es de suma cero: lo que uno gana, el otro lo pierde. En la mayoría de las situaciones de la vida real —un cliente, un socio, una pareja— esa lógica destruye precisamente lo que se quería construir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su rastro histórico es enorme y no siempre reconocido. En Japón se estudiaba desde el siglo VIII y los estrategas del periodo Sengoku lo tenían como texto de cabecera. Mao Zedong lo citaba en sus escritos sobre la guerra prolongada, y buena parte de la doctrina de guerrilla del siglo XX se apoya en su idea de evitar la fuerza y golpear la debilidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una leyenda muy repetida según la cual Napoleón llevaba una traducción encima. No hay ninguna prueba de ello y los historiadores lo consideran falso, aunque la traducción francesa de 1772 existía y circulaba entre oficiales. Es un buen ejemplo de cómo funcionan las citas alrededor de este libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su llegada a la cultura popular occidental fue por la puerta de atrás. En los años ochenta apareció en manuales de gestión japoneses, después en películas de Wall Street, y de ahí a las estanterías de aeropuerto. Hoy hay versiones tituladas «El arte de la guerra para» prácticamente cualquier cosa, incluidas las citas y los divorcios.",
+          arte: "estanteria",
+        },
+        {
+          forma: "clave",
+          rotulo: "La advertencia final",
+          frase: "«Un reino destruido no vuelve a existir, y un muerto no vuelve a la vida.» Nunca empieces nada por ira.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene tener claro un límite del texto que se comenta poco. Sun Tzu escribe para un general profesional que dispone de un ejército permanente, de espías pagados y de autoridad para ejecutar a quien desobedezca. Muchas de sus recomendaciones presuponen ese poder absoluto, y sin él no se sostienen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco hay en el libro ninguna reflexión sobre si la guerra es justa. Solo sobre si conviene. Esa neutralidad moral es lo que le da su claridad y también lo que obliga a leerlo con cuidado: es un instrumento, y los instrumentos no eligen para qué se usan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si lo lees, dos consejos. Elige una edición con notas históricas, porque sin contexto muchas sentencias sobre carros y provisiones no dicen nada. Y no lo leas de corrido como un ensayo: está pensado para consultarse por capítulos, y así es como lo han usado durante veinticinco siglos los que sí lo aprovecharon.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí aguanta fuera del campo de batalla es más modesto y más útil. Que la preparación decide antes de que empiece nada. Que la información sobre el otro vale más que la fuerza propia. Que las guerras largas arruinan al que las gana. Y que casi todos los defectos graves son virtudes sin medida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Como lectura tiene una ventaja rara: son unas sesenta páginas y se puede abrir por cualquier sitio. Su desventaja es la contraria — sin contexto histórico, muchas sentencias sobre carros de guerra y provisiones de grano no dicen nada. Merece la pena una edición con notas, aunque el texto solo se lea en una tarde.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Para llevarte",
+          frase: "La mejor victoria es la que no hace falta pelear. Todo lo demás del libro son maneras de llegar a esa posición.",
+        },
+      ],
+    },
+  ],
+};

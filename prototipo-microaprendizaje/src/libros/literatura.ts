@@ -2020,3 +2020,1079 @@ export const CRIMEN_CASTIGO: Resumen = {
     },
   ],
 };
+
+export const EXTRANJERO: Resumen = {
+  id: "extranjero",
+  titulo: "El extranjero",
+  autor: "Albert Camus",
+  ano: 1942,
+  gancho: "Le condenan a muerte por matar a un hombre. Pero el juicio se centra en que no lloró en el entierro de su madre.",
+  porQue:
+    "Cien páginas donde no pasa casi nada y que llevan ochenta años inquietando a todo el que las lee. Camus tenía veintiocho años cuando lo escribió.",
+  partes: [
+    {
+      titulo: "Hoy ha muerto mamá",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La novela empieza con una de las primeras frases más famosas de la literatura: hoy ha muerto mamá, o quizá ayer, no lo sé. Meursault ha recibido un telegrama del asilo con dos líneas y no está seguro de la fecha, porque el telegrama no la aclara y a él no se le ocurre preguntar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pide dos días libres en la oficina. Su jefe se los da con mala cara y Meursault piensa que no era él quien tenía que disculparse por haberse muerto su madre. Coge un autobús, duerme casi todo el trayecto y llega al asilo de Marengo con un calor que no le deja pensar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El director le explica que ingresó a su madre allí porque no podía mantenerla, y Meursault no se defiende ni se justifica: contesta que era verdad, que con su sueldo no llegaba, y que además ella se aburría con él porque no tenían de qué hablar. Lo dice sin culpa y sin frialdad. Simplemente es así.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el velatorio le ofrecen abrir el ataúd para verla por última vez y dice que no hace falta. El portero le pregunta por qué y él no sabe qué responder. Fuma un cigarrillo, acepta un café con leche, se queda dormido un rato en la silla. Todo eso lo cuenta con el mismo tono con que describiría un viaje en tren.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El detalle que le costará la vida",
+          frase: "Fumó junto al ataúd, tomó café y no lloró. Ninguna de esas tres cosas es un delito, y las tres se leerán en el juicio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al entierro va un anciano del asilo, Pérez, que era amigo de su madre y al que le cuesta seguir el paso del cortejo bajo el sol. Meursault se fija en el sudor que le corre por la cara, en el color de la tierra, en el olor del cuero y del alquitrán derretido. De su madre no dice casi nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el patrón del libro entero y conviene notarlo pronto: Meursault describe con muchísima precisión lo que ve, lo que huele y lo que le molesta físicamente, y no comenta nunca lo que siente. No porque lo esconda — es que no parece haber nada que comentar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al día siguiente del entierro es sábado. Se va a la playa, se encuentra con María, una antigua compañera de oficina que le gustaba, nadan juntos, van al cine a ver una comedia de Fernandel y se ríen. Ella pasa la noche en su casa. El domingo lo dedica a mirar la calle desde el balcón.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Camus escribió el libro en frases muy cortas y en pasado compuesto, sin subordinadas ni explicaciones psicológicas. El estilo <em>es</em> el argumento: nunca sabemos por qué Meursault hace nada, porque él tampoco se lo pregunta. Un escritor americano dijo que parecía escrito con una máquina de escribir sin adjetivos.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El velatorio ocupa una noche entera y es una de las escenas más raras que se han escrito. Los ancianos del asilo van entrando de uno en uno a acompañarle, se sientan enfrente en semicírculo, y le miran en silencio. Meursault escribe que por un momento tuvo la impresión ridícula de que estaban allí para juzgarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le llama la atención una enfermera con un vendaje que le tapa toda la cara menos los ojos. Y una vieja que llora sin parar, con hipo, hasta que se calla de golpe. El portero le explica en voz baja que aquella era muy amiga de su madre, y que aquí dentro la gente se hace inseparable porque no tienen otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El portero, que es el único que le habla, le cuenta que en el asilo entierran deprisa por el calor, y que en el sur uno se entera de que alguien ha muerto y a las dos horas ya está bajo tierra. Se lo dice sin dramatismo, como un dato técnico, y a Meursault le parece interesante.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El propio portero le explica también algo que a él no se le había ocurrido: que su madre tenía novio. Un tal Pérez, del asilo, con el que salía a pasear. Meursault lo anota sin comentario, y solo mucho después, en el juicio, entenderá que el tribunal usará ese detalle contra él por no haberlo sabido.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El entierro es al día siguiente, al mediodía, bajo un sol que derrite el alquitrán del camino. El cortejo camina despacio y Pérez, que es muy viejo y cojea, se va quedando atrás y luego corta por los campos para adelantar por los atajos. Aparece y desaparece entre los árboles durante todo el trayecto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Meursault se fija en que a Pérez le corren las lágrimas por la cara pero no le caen: se quedan extendidas por las arrugas y le forman una especie de barniz sobre la piel. Es una imagen exacta y despiadada, y es lo único parecido a una emoción que registra en todo el capítulo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El testigo que sobra",
+          frase: "Meursault no sabía que su madre tenía novio ni cuántos años tenía. En el juicio, eso pesará más que el disparo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pérez acaba desmayándose. Le meten en el coche fúnebre. Después vienen la tierra roja sobre el ataúd, unos geranios, el pueblo y la carretera de vuelta. Meursault cierra el capítulo diciendo que se alegró al pensar que iba a acostarse y dormir doce horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una advertencia de lectura que ahorra malentendidos: Meursault no es frío ni cruel. Cuando María le pregunta si la quiere, contesta que probablemente no, pero que eso no significa nada. Cuando le pregunta si quiere casarse, dice que le da igual pero que sí si ella lo desea. Es incapaz de fingir un sentimiento que no tiene, aunque toda la sociedad espere que lo finja.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Un domingo cualquiera",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La primera mitad del libro es deliberadamente anodina, y esa es su trampa. Meursault vuelve al trabajo, come en el restaurante de Celeste, sube y baja la escalera, se cruza con sus vecinos. No pasa nada, y Camus lo cuenta todo con el mismo peso, como si nada mereciera más atención que otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Uno de los vecinos es Salamano, un viejo que lleva ocho años odiando a su perro y llamándole guarro y cochino, pegándole, y con el que se parece cada vez más — los dos con costras en la piel. Cuando el perro se pierde, el viejo se pasa la noche llorando al otro lado del tabique.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Meursault, al oírle llorar, piensa en su madre. Es el único momento en toda la novela en que lo hace, y lo cuenta en una línea, sin desarrollarlo. Camus coloca ahí ese detalle para el lector atento: hay algo dentro, solo que no tiene la forma que la sociedad exige.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro vecino es Raymond Sintès, un tipo turbio del que se dice que vive de las mujeres. Le invita a cenar morcilla y vino, le cuenta que sospecha que su amante le engaña, y le pide que le escriba una carta para atraerla y humillarla. Meursault acepta porque no ve ninguna razón para negarse.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su única regla",
+          frase: "No miente. Nunca dice que siente algo que no siente, ni siquiera cuando mentir sería lo cómodo, lo educado o lo prudente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa carta desencadena todo lo demás. La mujer vuelve, Raymond le pega, la policía interviene, y Meursault declara ante el comisario a favor de su vecino porque este se lo pide. Otra vez sin motivo propio: le da lo mismo, y decir que sí es más rápido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su jefe le ofrece entonces un puesto en París, una oportunidad de verdad. Meursault contesta que le da igual, que se puede vivir de muchas maneras y que una vale tanto como otra. Cuando estudiaba tenía ambiciones, dice, y al dejar los estudios comprendió que nada de aquello tenía verdadera importancia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Camus está construyendo, sin decirlo, el retrato de alguien que ha dejado de conceder valor a las jerarquías que organizan la vida de todo el mundo: la carrera, el ascenso, el matrimonio, el luto. No las combate ni las critica. Sencillamente no le funcionan, y eso resulta mucho más inquietante que rebelarse.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El domingo siguiente al entierro lo pasa entero en el balcón, y Camus le dedica cuatro páginas a eso. Ve pasar a las familias endomingadas, a los chicos del barrio que van al cine, el tranvía que se llena y se vacía, la luz que cambia de color a lo largo de la tarde, las farolas que se encienden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al terminar escribe que pensó que un domingo había pasado, que su madre estaba enterrada, que al día siguiente volvería al trabajo y que, en el fondo, nada había cambiado. Esa frase es el resumen del personaje: no hay negación ni consuelo, solo una constatación.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En el restaurante de Celeste conoce a una mujer diminuta a la que llama la autómata. Pide todo el menú de golpe, saca una revista de radio y marca metódicamente todos los programas de la semana con un lápiz, se levanta y se va con un paso mecánico. Meursault la sigue por la calle un rato, sin ningún motivo, y después se olvida.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su trabajo consiste en manejar conocimientos de embarque en una oficina del puerto. Le gusta lavarse las manos a mediodía con la toalla de rodillo, aunque a esa hora está empapada, y se ha quejado de ello al director sin éxito. Es el único conflicto laboral que menciona en toda la novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Emmanuel, un compañero, se cuelgan de un camión de bomberos en marcha por diversión y corren entre el ruido y el polvo hasta el puerto. Llega jadeando y contento. Es de los pocos momentos en que se le ve disfrutar de algo, y es puramente físico.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase de María",
+          frase: "«Eres un ser extraño; seguramente te quiero por eso, y quizá algún día me repugnes por lo mismo.»",
+        },
+        {
+          forma: "texto",
+          texto:
+            "María le pregunta un día si la quiere y él contesta que probablemente no, pero que eso no significaba nada. Ella parece triste. Poco después le pregunta si quiere casarse y él dice que le da igual, que si ella quiere pueden hacerlo. Ella observa que el matrimonio es algo serio y él responde que no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "María le dice entonces que es un ser extraño, que seguramente le quiere por eso mismo, y que quizá algún día le repugne por lo mismo. Es el diagnóstico más certero del libro y lo hace el personaje que menos habla de filosofía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Camus está mostrando algo muy incómodo: Meursault no engaña a nadie en ningún momento. Podría decir «te quiero» y quedarse tranquilo, como hace todo el mundo. Su negativa a pronunciar una fórmula vacía es lo único que le distingue, y será exactamente lo que le condene.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El domingo del crimen, Raymond les invita a él y a María a la caseta de un amigo junto al mar. En el autobús ven a dos árabes que les están siguiendo: uno es el hermano de la mujer de la carta. Meursault lo menciona como habría mencionado el tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Comen, beben, nadan. Después de comer hay una primera pelea en la playa en la que Raymond acaba con un tajo en el brazo y la boca. Vuelven a la caseta, le curan, y él sale otra vez con un revólver que Meursault le quita para evitar que dispare. El arma se queda en su bolsillo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El sol",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Meursault sale a andar solo por la playa, sin ningún propósito, solo para escapar del interior de la caseta y de las voces de las mujeres. Son las dos de la tarde, la arena quema, el sol le cae sobre el sombrero como un mazazo constante y el mar respira con un aliento espeso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes hay una primera visita a la playa esa misma mañana que conviene tener presente. Se bañan, María se ríe, comen en la caseta de Masson, beben mucho vino y hablan de pasar juntos el mes de agosto. Masson propone quedarse a vivir allí. Es la escena más feliz de toda la novela, y está colocada media hora antes del disparo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de comer, los tres hombres salen a andar por la arena y se encuentran con los dos árabes. Hay una pelea corta y sucia: Masson tumba a uno, Raymond recibe una cuchillada en el brazo y otra en la boca, y los otros se retiran despacio, de espaldas, sin dejar de mirarles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llevan a Raymond al médico y vuelven. Él, humillado, coge un revólver y quiere salir a buscarles. Meursault le convence de que no, discuten, y acaba diciéndole que se lo dé para evitar una desgracia. Raymond se lo entrega. Ese es el gesto que lo decide todo, y es un gesto de sensatez.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Camus lo construye así a propósito: el arma llega a su bolsillo por una decisión razonable y bienintencionada. Si Meursault hubiera salido con la intención de matar, la novela se convertiría en un caso judicial corriente. Necesita que el lector no pueda encontrar el punto exacto en el que empezó a estar mal.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sube a la caseta con los demás y allí se queda un rato de pie en el umbral, con el ruido de las mujeres charlando dentro. Y escribe que quedarse o marcharse venía a ser lo mismo. Baja los escalones y sale al sol otra vez. Esa frase —quedarse o irse daba igual— es la que sostiene todo lo que viene después.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La decisión que no fue una decisión",
+          frase: "Se quedó con el revólver para evitar una desgracia. Media hora después salió a buscar sombra con él en el bolsillo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Camina un buen rato por la arena hirviendo buscando la sombra de la roca y el ruido del manantial. Escribe que quería volver a encontrar el frescor del agua, huir del sol, del esfuerzo y de las lágrimas de mujer. Es decir: no va buscando a nadie. Va buscando sombra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de disparar la primera vez todo queda en un silencio absoluto, y él escribe que comprendió que había destruido el equilibrio del día. Y entonces dispara cuatro veces más sobre un cuerpo que ya no se movía, y las balas se hunden sin que se note nada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su descripción final es la de cuatro golpes secos en la puerta de la desgracia. Es la única metáfora que se permite en cien páginas de prosa desnuda, y por eso funciona: cuando alguien que nunca adorna nada se pone a hablar en imágenes, es que ha ocurrido algo irreversible.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Camus dedica dos páginas al calor. No es un adorno: es el único personaje activo de la escena. La luz se rompe en el agua y se le clava en la frente, el sudor le tapa los ojos, y él sigue caminando porque volver también significaría un esfuerzo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Al final de la playa hay una roca, una fuente fresca y una sombra. Y allí está tumbado el árabe, solo. Meursault se sorprende: creía que el asunto había terminado. Piensa en dar media vuelta. Pero toda la playa vibra de calor detrás de él, y el manantial está allí.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Da un paso hacia la fuente. El árabe saca un cuchillo y lo levanta al sol. La luz del acero le da en los ojos como una hoja larga y ardiente, el sudor le baja por las cejas, y Meursault siente que el cielo entero se abre para dejar caer fuego. Aprieta la mano y el gatillo cede.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Los cuatro disparos",
+          frase: "Espera unos segundos y dispara cuatro veces más sobre el cuerpo inerte. Nunca explica por qué, ni al lector ni al tribunal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su única frase después es que comprendió que había destruido el equilibrio del día y el silencio excepcional de una playa donde había sido feliz. Y que los cuatro tiros fueron como cuatro golpes secos en la puerta de la desgracia. Con eso termina la primera parte del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hace insoportable la escena es que el lector no puede acusarle ni absolverle. No hubo premeditación: nadie planea un asesinato dejando que le den un arma media hora antes. Pero tampoco fue defensa propia, y desde luego los cuatro disparos adicionales no lo son.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Camus lo escribió así a propósito. Si Meursault hubiera tenido un motivo —venganza, miedo, dinero— la novela se convertiría en un caso judicial normal y su tesis se caería. Necesita un acto sin explicación posible para poder preguntar qué hace una sociedad con lo que no logra explicar.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando el juez de instrucción le pregunte más tarde por qué esperó entre el primer disparo y los otros cuatro, Meursault no contestará. Es la única pregunta ante la que se queda mudo en todo el libro, y es exactamente la que cualquier lector querría hacerle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la única explicación que llegará a dar, ya en el juicio y ante toda la sala, será que fue por el sol. La gente se ríe. Es la respuesta más honesta que podía dar y la que garantiza que nadie le crea ni le entienda.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El juicio",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La segunda mitad transcurre en la cárcel y en el tribunal, y ahí está el golpe del libro. Desde el primer interrogatorio, el juez de instrucción se interesa mucho menos por el disparo que por su alma: le enseña un crucifijo, le pregunta si cree en Dios, y se escandaliza cuando contesta que no.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El juez llega a agitar el crucifijo delante de su cara gritándole que ningún hombre es tan culpable como para que Dios no le perdone, pero que hay que arrepentirse. Meursault le mira con incomodidad porque hace mucho calor en el despacho y hay moscas. Acaba diciendo que sí para que la escena termine.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su abogado tampoco le entiende. Le pregunta si sintió pena el día del entierro, y Meursault contesta que sí quería a su madre pero que eso no significaba nada, y que todo el mundo desea alguna vez la muerte de los que quiere. El abogado le hace prometer que no dirá eso en el juicio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes del juicio pasan once meses de instrucción. Meursault los describe casi con simpatía: dice que llegó a acostumbrarse a los interrogatorios, que el juez le trataba con cordialidad y que al final de cada sesión le acompañaba a la puerta dándole palmadas en el hombro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El juez le llamaba «el señor Anticristo» con una especie de humor irritado, porque no conseguía que se arrepintiera ni que creyera en nada. Meursault escribe que aquello era casi un juego entre los dos, y que su abogado le pedía que no repitiera esas cosas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El día de la vista le sorprende lo lleno que está el tribunal y el tono de club social que tiene: los periodistas se saludan, se ríen, hablan de sus cosas. Uno le explica que han hinchado un poco su caso porque en verano no hay noticias y el proceso siguiente, un parricidio, es el bueno.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un periodista muy joven que no deja de mirarle fijamente desde el principio hasta el final, sin tomar notas. Meursault escribe que tuvo la impresión rara de ser mirado por sí mismo. Es la única vez en el libro en que se ve desde fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El calor es insoportable. Hay abanicos de papel moviéndose en toda la sala. Y sobre todo hay una sensación que él repite: la de estar de más en su propio juicio, como un intruso al que nadie ha pedido opinión sobre un asunto que no le concierne.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que se juzga",
+          frase: "Once meses de instrucción sobre su alma, y en la vista los testigos hablan del café, del cigarrillo y de que no lloró.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El director del asilo declara que su madre le reprochaba haberla internado, que Meursault no quiso ver el cuerpo, que no lloró ni una vez y que se marchó justo después sin recogerse ante la tumba. Y añade el detalle que más impresiona a la sala: que no sabía la edad de su madre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El portero declara lo del café con leche y lo del cigarrillo. Meursault escribe que en ese momento sintió por primera vez que era culpable de algo, y que le entraron ganas de llorar al notar cuánto le detestaba toda aquella gente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su abogado intenta salvarlo argumentando que enterró a su madre como un hijo cualquiera, y el fiscal le corta preguntando si acusa a su cliente de haber enterrado a su madre o de haber matado a un hombre. La sala se ríe. El fiscal contesta él mismo: le acuso de las dos cosas, y de la primera con corazón de criminal.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la vista, el fiscal apenas habla del muerto. Llama a declarar al director del asilo, al portero, a Celeste, a María, a Salamano, y con cada testimonio va construyendo un retrato: no quiso ver el cadáver, fumó junto al ataúd, no supo decir la edad de su madre, y al día siguiente se fue a la playa con una mujer y a ver una comedia.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La acusación real",
+          frase: "Le están juzgando por no haber llorado en el entierro de su madre. El disparo se convierte casi en un detalle secundario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El momento más cruel es el de María, que llora en el estrado mientras el fiscal le hace confirmar la fecha del cine, la película que vieron y que pasó la noche en su casa. Ella intenta explicar que no fue así, que la están haciendo decir lo contrario de lo que piensa. Nadie la escucha.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Celeste, el dueño del restaurante, es el único que intenta defenderle de verdad y no encuentra las palabras. Solo consigue repetir que fue mala suerte, que todo el mundo sabe lo que es la mala suerte. Meursault escribe que fue la primera vez en su vida que quiso abrazar a un hombre.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fiscal cierra afirmando que un hombre que ha enterrado a su madre con corazón de criminal debe ser excluido de una sociedad cuyas reglas más elementales ignora. Y añade que en la misma sesión ese tribunal juzgará al día siguiente un parricidio, y que el acusado es moralmente culpable también de aquello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Meursault escucha su propio juicio como si fuera de otro. En un momento se da cuenta de que su abogado habla de él en primera persona, diciendo «yo maté», y le parece que le están apartando incluso de su propio crimen. Nadie le pregunta nada. Cuando quiere hablar, le dicen que se calle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando le dan la última palabra, Meursault dice que no había tenido intención de matar al árabe. El presidente le pide una explicación y él suelta atropelladamente que fue por el sol. Se oyen risas en la sala. Después ya no vuelve a hablar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al leerse la sentencia —que será decapitado en una plaza pública en nombre del pueblo francés— le parece reconocer en las caras de los presentes una consideración parecida al respeto. Todo el mundo tiene mucha prisa por acabar. Le preguntan si quiere añadir algo y contesta que no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Camus lo explicó después con una frase que resume el libro: en nuestra sociedad, cualquier hombre que no llore en el entierro de su madre corre el riesgo de ser condenado a muerte. Meursault no es condenado por matar, sino por no jugar el juego — por negarse a mentir, ni siquiera para salvarse.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La tierna indiferencia del mundo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En prisión, Meursault descubre algo que no esperaba: se acostumbra. Al principio le persiguen los pensamientos de hombre libre —el mar, un cigarrillo, el deseo de una mujer— y después esos pensamientos se apagan y quedan los de preso. El tiempo se deforma: los días son largos y las semanas cortas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Para no aburrirse se dedica a recordar con todo detalle su antigua habitación: cada mueble, cada objeto de cada mueble, cada raya de la madera. Y concluye que un hombre que hubiera vivido un solo día tendría recuerdos suficientes para pasar cien años en una celda sin volverse loco.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Condenado a la guillotina, pasa las noches pensando en el mecanismo. Le obsesiona un detalle: que la máquina esté al nivel del suelo y no en un cadalso, porque uno camina hacia ella como quien va al encuentro de alguien. Y le obsesiona más el amanecer, porque sabe que vienen de madrugada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Piensa mucho en la posibilidad del recurso y descubre que lo peor de la esperanza es que existe. Se obliga a suponer primero que su recurso será rechazado, para que la alegría, si llega, sea un regalo. Es la única disciplina mental que se impone en toda la novela.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En prisión le impresiona sobre todo la ausencia de cigarrillos, y describe con precisión el mono de tabaco durante las primeras semanas. Dice que ese fue el único castigo real que le impusieron, y que después dejó de ser un castigo porque dejó de desearlos.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "María viene a verle una vez al locutorio, entre dos rejas y con un pasillo por medio, gritando por encima de veinte conversaciones simultáneas. Le dice que saldrá y se casarán. Él la mira sin decir gran cosa y después no volverá a verla nunca: las visitas se acaban cuando llega la condena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un día encuentra bajo el colchón un trozo de periódico viejo, pegado a la tela, con una noticia checa. Un hombre vuelve rico a su pueblo después de veinticinco años, se aloja de incógnito en el hostal de su madre y su hermana para darles una sorpresa, y ellas le matan por la noche con un martillo para robarle.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La única moral del libro",
+          frase: "Un hombre volvió a casa fingiendo ser otro y su familia le mató sin reconocerle. «Uno nunca debe jugar a fingir.»",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Meursault dice que leyó esa historia miles de veces y que en cierto modo era inverosímil y en cierto modo natural. Su conclusión es escueta: que uno nunca debe jugar a fingir. Es lo más cerca que está de formular una moral en todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pasa las noches en vela porque sabe que vienen al amanecer. En cuanto oye un ruido en el pasillo corre a la puerta con el oído pegado a la madera, y cuando por fin llega el día y no han venido, se permite dormir. Pasa así, dice, un día tras otro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hace un cálculo con el recurso. Se obliga a suponer siempre que se lo van a rechazar, para que la alegría de un indulto fuera un regalo inesperado. Cuando lo consigue, se concede pensar cinco minutos en la otra hipótesis: la gracia del presidente. Y descubre que ese ejercicio le sostiene mejor que cualquier esperanza sincera.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "clave",
+          rotulo: "La escena final",
+          frase: "El capellán insiste tres veces en hablarle de Dios. Meursault, que ha estado pasivo trescientas páginas, estalla por primera y única vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le grita que ninguna de sus certezas vale lo que un cabello de mujer, que vive como un muerto porque ni siquiera está seguro de estar vivo, y que él, Meursault, parece tener las manos vacías pero está seguro de sí mismo y de todo, seguro de su vida y de esa muerte que va a llegar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y suelta el argumento que resume la filosofía entera de Camus: qué importa que uno muera a los treinta o a los setenta, que muera solo o acompañado, si de todas formas los demás también van a morir. Desde ese momento, dice, nada tiene ninguna importancia, y sabía perfectamente por qué.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando se llevan al capellán, Meursault se queda vacío y se duerme. Despierta con las estrellas en la cara, oye olores de tierra y de sal, y por primera vez se abre a lo que llama la tierna indiferencia del mundo. Al encontrarlo tan parecido a sí mismo, tan fraternal, siente que había sido feliz y que lo seguía siendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La última frase del libro es una de las más discutidas de la literatura: para sentirse menos solo, desea que el día de su ejecución haya mucha gente y que le reciban con gritos de odio. No pide compasión ni perdón. Pide testigos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una crítica que ha crecido con los años y que conviene conocer. El hombre al que mata no tiene nombre en toda la novela: es «el árabe», sin familia, sin historia y sin una sola línea de diálogo, en una Argelia colonial que Camus conocía de sobra. El escritor argelino Kamel Daoud publicó en 2013 una novela entera contando lo mismo desde el hermano del muerto. Hoy es difícil leer una sin la otra.",
+        },
+      ],
+    },
+  ],
+};
+
+export const DORIAN_GRAY: Resumen = {
+  id: "dorian-gray",
+  titulo: "El retrato de Dorian Gray",
+  autor: "Oscar Wilde",
+  ano: 1890,
+  gancho: "El editor le censuró quinientas palabras sin avisarle. Cinco años después, el libro se leyó en voz alta en el juicio que le destruyó.",
+  porQue:
+    "Un pacto imposible, una novela de terror elegantísima y la mejor colección de frases ingeniosas del siglo XIX, todo a la vez.",
+  partes: [
+    {
+      titulo: "El pintor y el retrato",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Basil Hallward es un pintor de éxito discreto que un día, en una fiesta, se cruza con un joven de una belleza que le paraliza. Se llama Dorian Gray, tiene veinte años, es huérfano y acaba de heredar una fortuna. Basil siente inmediatamente que ese chico va a cambiar su forma de pintar y también su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando la novela empieza lleva meses pintándole y acaba de terminar el mejor cuadro de su carrera: un retrato de cuerpo entero que, según todos los que lo ven, es su obra maestra. Y ha decidido no exponerlo nunca, cosa que su amigo lord Henry no consigue entender.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su explicación es la primera frase importante del libro: dice que ha puesto demasiado de sí mismo en ese cuadro, y que todo retrato pintado con sentimiento es un retrato del artista y no del modelo. Wilde avisa desde la página diez de que el cuadro no es un objeto, es una confesión.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lord Henry Wotton es el tercer vértice y el mejor personaje de la novela. Un aristócrata ocioso que no hace absolutamente nada salvo hablar, y que habla mejor que nadie. Sus frases son paradojas construidas para epatar: que la única forma de librarse de una tentación es caer en ella, que él puede resistirlo todo menos la tentación.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Los tres personajes",
+          frase: "Wilde dijo que Basil es como él se creía, lord Henry como el mundo le veía, y Dorian como le habría gustado ser en otra época.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Basil no quiere presentárselos porque intuye lo que va a pasar, y pasa. En cuanto se quedan solos en el jardín, lord Henry le suelta a Dorian un discurso que le cambia la vida: que la juventud es lo único que vale la pena poseer, que se le va a acabar enseguida, y que un día se mirará al espejo y encontrará su cara arruinada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le dice que viva, que no pierda un solo día, que tenga siempre miedo de no haber vivido lo suficiente. Que el mundo pertenece durante una temporada a los que son jóvenes y hermosos, y que después no pertenece a nadie. Dorian, que hasta esa tarde no se había parado a pensar en su propia cara, vuelve al estudio conmocionado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y entonces ve el retrato terminado. Se queda mirándolo un rato largo y comprende por primera vez lo que es, y también que eso se va a acabar. Le entra una tristeza que enseguida se convierte en rabia: el cuadro se quedará joven para siempre y él no.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "clave",
+          rotulo: "El deseo",
+          frase: "Dice en voz alta que daría su alma porque fuera el cuadro el que envejeciera y él quedara siempre así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La novela abre en el estudio de Basil un día de verano, y Wilde dedica un párrafo entero al olor de las lilas y de las rosas, al zumbido de las abejas y a la sombra que hacen las ramas contra la seda de la ventana. Es una obertura deliberada: quiere que el lector esté cómodo antes de envenenarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Basil le cuenta a lord Henry cómo conoció a Dorian, y lo describe como algo físico: dice que al cruzarse sus miradas se puso pálido y sintió que estaba delante de alguien cuya sola personalidad podía absorber su vida entera. Y que le entró un terror curioso, y quiso escapar de la sala.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Wilde escribe esa declaración en 1890 y no puede decir más de lo que dice. Las quinientas palabras que le censuraron en la revista eran casi todas de este tipo: pasajes donde Basil admite que lo que siente por Dorian excede la admiración artística. En la edición en libro él mismo las suavizó todavía más.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lord Henry aparece tumbado en un diván de alfombras persas fumando cigarrillos con opio, y desde la primera frase queda claro que su función es hablar. Dice que la única diferencia entre un capricho y una pasión para toda la vida es que el capricho dura un poco más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Suelta también que ser natural es una pose, y la más irritante de todas. Que la belleza es una forma de genio, superior al genio porque no necesita explicación. Y que la tragedia de la vejez no es ser viejo sino ser joven por dentro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le dice en el jardín",
+          frase: "«El único modo de librarse de una tentación es ceder a ella.» En veinte minutos le reescribe la vida entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando Dorian aparece, Wilde le describe como alguien con todo el candor de la juventud y toda la pureza apasionada de la adolescencia. Y añade el detalle que lo explica todo: se notaba que el mundo aún no le había manchado, y por eso Basil le adoraba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conversación del jardín dura pocas páginas y es la más importante del libro. Lord Henry le dice que el único modo de librarse de una tentación es ceder a ella, que la gente tiene miedo de sí misma, y que el mayor de los pecados es la renuncia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y remata con la imagen que Dorian recordará el resto de su vida: que la juventud es como una flor, que dura unos meses de junio y después queda un rostro estropeado y unos recuerdos de placeres a los que se tuvo miedo. Vive, le dice. Vive la vida maravillosa que llevas dentro. No pierdas nada.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wilde construye esa escena para que el lector se dé cuenta de algo incómodo: lord Henry está diciendo cosas que suenan liberadoras y bien escritas, y está destruyendo a un chico de veinte años en tiempo real, delante de un amigo que no se atreve a interrumpir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay pacto, ni demonio, ni firma con sangre. Es una frase dicha en un arrebato delante de dos amigos que se ríen y cambian de tema. Wilde no explica nunca el mecanismo ni introduce nada sobrenatural más allá de eso, y ese silencio es lo que hace que la novela funcione como terror y no como cuento de hadas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Sibyl Vane",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Unas semanas después Dorian llega eufórico a casa de lord Henry: está enamorado. Ha descubierto un teatro cochambroso en un barrio pobre donde una compañía miserable representa Shakespeare, y allí actúa una chica de diecisiete años, Sibyl Vane, que le parece el mayor talento que ha visto nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha ido a verla noche tras noche. Una vez Julieta, otra Rosalinda, otra Ofelia. Dice que no está enamorado de una mujer sino de todas las heroínas del teatro a la vez, y que ella le ha enseñado lo que es el arte de verdad. Ella le llama «Príncipe Encantador» y no sabe ni su nombre.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lord Henry escucha divertido y suelta una de sus crueldades más finas: que las mujeres son un sexo decorativo, que nunca tienen nada que decir pero lo dicen encantadoramente. Wilde le regala a ese personaje sus mejores frases y a la vez deja ver, sin subrayarlo nunca, la miseria moral que hay debajo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dorian les lleva una noche al teatro para presumir de ella. Basil y lord Henry se sientan en el palco. Y Sibyl actúa espantosamente mal: recita de memoria, sin ninguna emoción, en un escenario que se cae a pedazos, mientras el gallinero silba y el público empieza a marcharse.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su explicación",
+          frase: "Antes de conocerle, actuar era lo único real de su vida. Ahora que sabe lo que es el amor de verdad, fingirlo le resulta imposible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se lo dice detrás del telón, todavía maquillada, radiante, convencida de que él lo va a entender y hasta de que se alegrará. Le explica que las palabras de Shakespeare se le han quedado huecas, que el teatro es una sombra y él es lo verdadero, y que no piensa volver a actuar nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dorian le contesta que ha matado su amor, que sin su arte no es nada, que le ha hecho quedar en ridículo delante de sus amigos y que le parece superficial y estúpida. Ella se agarra a su mano y él la aparta con asco. Se marcha y pasa la noche vagando por los barrios más sucios de Londres.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Al volver a casa de madrugada mira el retrato y ve algo distinto en la boca: un pliegue de crueldad que no estaba. Lo achaca a la luz, se acerca con una lámpara y ya no hay duda. La cara del cuadro ha cambiado. La suya, en el espejo de al lado, sigue intacta.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su primera reacción es decente: se asusta, se avergüenza y decide arreglarlo. Escribe a Sibyl una carta larguísima pidiéndole perdón y proponiéndole matrimonio, y al terminarla se siente perdonado. Pasa la mañana tranquilo. Entonces llega lord Henry a contarle que la chica se envenenó anoche en su camerino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La familia de Sibyl merece más atención de la que suele recibir. Su madre es una actriz fracasada y endeudada con el empresario del teatro, que habla en tono declamatorio incluso para comentar la cena, y que ve en el enamoramiento de su hija una oportunidad económica más que un peligro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hermano James tiene diecisiete años, es tosco y silencioso, y está a punto de embarcarse hacia Australia. La escena en que se despide de Sibyl en el parque es la más humana de la novela: le pide que le hable de ese caballero del que se ha enamorado y ella no sabe ni cómo se llama.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "James le hace jurar a su madre que Sibyl no está en peligro, y le dice a su hermana que si aquel hombre le hace daño, le buscará y le matará como a un perro. Wilde coloca esa amenaza en la página cien y la deja dormida durante trescientas. Es una de las mejores construcciones de tensión que existen.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El teatro donde actúa es un cuchitril del East End con un empresario vulgar que Dorian describe con un desprecio clasista notable, palcos forrados de terciopelo raído, y un público que come naranjas y bebe cerveza durante la función. A Dorian todo eso le parece encantador precisamente por lo sórdido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La noche del desastre, Basil y lord Henry se marchan del teatro después del segundo acto. Dorian se queda hasta el final, humillado, mirando cómo el patio de butacas se va vaciando. Cuando sube al camerino, Sibyl le está esperando con la cara iluminada de felicidad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El error de Sibyl",
+          frase: "Dejó de actuar bien porque se había enamorado. Dorian solo la quería mientras interpretaba a otras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella le dice que ahora sabe que el arte era una sombra y que él es lo real, y que ha comprendido lo que significaba todo lo que recitaba sin entenderlo. Le pide que se vayan juntos. Y él le contesta que ha matado su amor, que le repugna, y que ya no quiere volver a verla.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La crueldad de esa escena es doble. Dorian no la deja por haber actuado mal: la deja porque ha dejado de ser un objeto artístico. Le dice literalmente que sin su arte no es nada, y que solo le interesaba mientras interpretaba a otras mujeres.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí ocurre la única bifurcación real de la novela. Al ver el primer cambio en el cuadro, Dorian se asusta y decide arreglarlo: escribe una carta larguísima pidiendo perdón, se promete no volver a ver a lord Henry y se acuesta creyendo que ha vuelto atrás. Durante unas horas, el libro podría terminar bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que lo cierra no es el destino ni el cuadro: es una conversación. Lord Henry le explica que la muerte de Sibyl es como una escena de una tragedia representada para él, que llorarla sería malgastar su propia belleza y que las mujeres representan el triunfo de la materia sobre el espíritu. Dorian escucha, se convence, y esa noche va a la ópera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí está el verdadero pacto, que no era el del cuadro. Lord Henry le convence en media hora de que no fue culpa suya, de que la muerte de Sibyl es hermosa como una escena de tragedia y de que arruinarse la vida por remordimiento sería una vulgaridad imperdonable. Esa misma noche Dorian va a la ópera.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Dieciocho años",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí Dorian esconde el retrato. Manda subirlo al cuarto de estudio del ático donde de niño le encerraban, lo cubre con un paño bordado y hace cambiar la cerradura. Nadie sube allí en dieciocho años, salvo él, que va a mirarlo cada vez con más frecuencia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Wilde resuelve casi dos décadas en un solo capítulo extraordinario que no cuenta ninguna escena: es un catálogo de las obsesiones sucesivas de Dorian. Los perfumes y su psicología. La música y sus instrumentos exóticos. Las joyas, los bordados antiguos, las telas litúrgicas robadas a iglesias.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo se puede leer como una lista aburrida o como lo que es: un hombre intentando llenar un vacío con objetos, cada vez más raros y más caros, sin conseguirlo ni una sola vez. Es la parte más moderna del libro y también la que más lectores se saltan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo empieza con un libro que lord Henry le regala, un volumen amarillo francés casi sin argumento donde un joven parisino se dedica a agotar todas las experiencias posibles. Dorian lo lee de un tirón, encarga nueve ejemplares encuadernados en colores distintos y dirá después que ese libro le envenenó.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La sentencia de lord Henry",
+          frase: "Los libros no son morales ni inmorales. Están bien escritos o mal escritos, y nada más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto corren rumores. Hombres que se levantan del club cuando él entra. Un oficial que se pega un tiro. Amistades que acaban en escándalos que nadie termina de contar en voz alta. Wilde deja todo eso en la sombra, sin detallar nada, y el efecto es mucho peor que cualquier descripción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y él sigue teniendo veinte años. La gente empieza a comentarlo como una curiosidad divertida: dicen medio en broma que ha hecho un pacto. Cada noche, al volver, sube al ático con una lámpara, compara su cara con la del cuadro y sonríe.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El retrato va cambiando de una manera que Wilde dosifica con precisión de relojero: primero la boca, después las manos, después los ojos, y al final una sonrisa que él mismo describe como la de un sátiro. Es una novela de terror donde el monstruo está tapado con una tela y cerrado con llave.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro amarillo que lord Henry le regala nunca se nombra, pero todo el mundo entendió que se refería a una novela francesa de la época sobre un aristócrata que se encierra a agotar sensaciones raras. Wilde admitió en su juicio que estaba pensando en un libro concreto y se negó a decir cuál.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dorian dice que le pareció leerse a sí mismo antes de haberlo vivido. Y añade la frase que resume la novela entera: que el héroe de aquel libro se convirtió para él en una especie de prefiguración, y que el libro entero le parecía la historia de su propia vida escrita antes de que la viviera.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay un capítulo en el que recorre la galería de retratos de sus antepasados y va reconociéndose en ellos: un lord envenenador, una mujer que huyó con un músico, un abuelo cruel del que heredó la fortuna. Se pregunta si uno vive muchas vidas heredadas antes de la propia, y si lo que llamamos carácter es solo una suma de fantasmas.",
+          arte: "estanteria",
+        },
+        {
+          forma: "clave",
+          rotulo: "La coartada perfecta",
+          frase: "Todo Londres murmura, y todo Londres le sigue invitando. La gente perdona cualquier cosa a quien es agradable de mirar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los rumores crecen y Wilde los administra con una habilidad enorme: nunca cuenta nada. Un joven aristócrata que se pega un tiro en un barco de recreo. Un hombre que sale de Inglaterra con el nombre manchado. Amistades que empiezan con Dorian y terminan en una vergüenza que nadie detalla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el club, hombres que le conocían de toda la vida se levantan cuando él entra en el salón de fumar. Y sin embargo sigue siendo recibido en las mejores casas, porque su cara sigue siendo la de un muchacho y porque, como escribe Wilde, la gente perdona cualquier cosa a quien es agradable de mirar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él mismo lo sabe y lo utiliza. Empieza a frecuentar tabernas del puerto y fumaderos de opio disfrazado con ropa vulgar, y vuelve al amanecer a su casa de Mayfair. Wilde nunca dice qué hace allí. Solo dice que volvía con una alegría feroz y que subía a mirar el cuadro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La relación de Dorian con el retrato se va invirtiendo poco a poco. Al principio le horroriza; después le fascina; al final le sirve de espejo moral privado, un lugar donde ver el precio exacto de cada noche. Wilde escribe que llegó a sentir por él una especie de amor, como el que se siente por un diario íntimo.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una vez, en una fiesta, alguien menciona que hay quien dice que Dorian Gray ha vendido su alma a cambio de una cara bonita. La sala se ríe con ganas. Él se ríe también. Es el chiste más negro del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una noche de niebla espesa, Basil aparece en su casa antes de coger un tren a París. Ha oído los rumores y viene a hacerle una última pregunta directa: quiere que le mire a los ojos y le diga que son mentira. Dorian, en vez de contestar, le propone subir al ático y enseñarle su alma.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que ocurre arriba",
+          frase: "Basil ve su propio cuadro convertido en algo monstruoso, reconoce su firma en la esquina y le suplica que rece. Dorian coge un cuchillo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El chantaje",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El asesinato de Basil es el punto donde la novela deja de ser una comedia de salón. Dorian mata a la única persona que le quería sin cálculo, y lo hace en un arrebato mientras el otro está de rodillas rezando. Después se sienta, se limpia las manos y piensa fríamente en el problema práctico: hay un cadáver en su casa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y aparece Alan Campbell, un antiguo amigo científico con el que años atrás tuvo una relación que la novela no explica. Dorian le llama, le pide que haga desaparecer el cuerpo con productos químicos, y cuando el otro se niega en redondo escribe unas palabras en un papel y se lo desliza. Campbell lee, se queda blanco y acepta.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wilde nunca dice qué había escrito en ese papel. Es uno de los grandes silencios del libro y también la razón de que la primera versión escandalizara tanto: todo el mundo entendió lo que se insinuaba sin que hiciera falta escribirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa misma noche, después de deshacerse del cuerpo, Dorian va a una cena elegante donde está encantador, y luego se escapa a un fumadero de opio del puerto. Allí una mujer arruinada le llama por su viejo apodo, «Príncipe Encantador», delante de todos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El que llevaba dieciocho años esperando",
+          frase: "James Vane, el hermano marinero de Sibyl, buscaba desde entonces a un hombre del que solo conocía ese apodo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le sigue hasta un callejón, le pone un revólver en la cabeza y le dice que va a matarle por su hermana. Y Dorian, sin perder la calma, le pide una sola cosa: que le lleve bajo una farola y le mire la cara, porque un hombre de veinte años no puede ser el que arruinó a una chica hace dieciocho.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "James le suelta pidiendo perdón, aterrado por lo que ha estado a punto de hacer. Es la escena que mejor resume el libro: la belleza intacta funcionando literalmente como coartada judicial. Y es también la primera vez que Dorian pasa miedo de verdad, porque entiende que ese error se puede corregir.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vive semanas de terror. Cree ver la cara del marinero pegada al cristal durante una cena. Se desmaya en un invernadero. Y el asunto acaba resolviéndose por un accidente absurdo durante una cacería, cuando un ojeador dispara a un matorral donde creía que había un conejo y había un hombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La noche del asesinato es un mecanismo de relojería. Dorian acompaña a Basil hasta la puerta, sube con él, cierra con llave, destapa el cuadro y le enseña lo que ha sido de su obra maestra. Basil no reconoce el cuadro hasta que ve su propia firma en la esquina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le grita que aquello es una blasfemia, que recen juntos, que ninguna oración queda sin respuesta. Y mientras está inclinado, Dorian siente de pronto un odio incontrolable hacia él, como si se lo hubiera sugerido la figura del lienzo. Coge un cuchillo de una arqueta y se lo clava detrás de la oreja.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Después baja al salón y ordena sus ideas con una frialdad absoluta: sale por la puerta, la cierra ruidosamente, se hace ver por el sereno, da la vuelta a la manzana y vuelve a entrar con su propia llave. A la mañana siguiente le dice a su criado que el señor Hallward se marchó a París en el tren de medianoche.",
+          arte: "noche",
+        },
+        {
+          forma: "clave",
+          rotulo: "La nota",
+          frase: "Dorian escribe unas palabras en un papel y se lo pasa. Campbell lo lee y acepta hacer desaparecer un cadáver. Wilde nunca dice qué ponía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chantaje a Campbell dura cinco páginas de una tensión extraordinaria. Empieza con una petición cortés, sigue con una negativa firme, y termina cuando Dorian escribe algo en una hoja, la dobla y se la pasa por encima de la mesa. Campbell la lee, se le descompone la cara y le pide con voz ronca que no le obligue.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dorian se disculpa mientras escribe una carta al alcalde de un pueblo, y añade una frase que sobrecoge: dice que lo siente por él, pero que no le ha dejado alternativa. Después le pregunta si necesita algún material, y Campbell manda a por su maletín al laboratorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cinco horas después el cuerpo ha desaparecido. Wilde no cuenta nada de lo que ocurre en esa habitación. Campbell baja, dice que espera no volver a verle nunca, y se marcha. Meses más tarde, un periódico anuncia que se ha pegado un tiro en su laboratorio de Londres.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El fumadero de opio del puerto está descrito con una precisión que sorprende: el suelo cubierto de serrín, marineros dormidos sobre las mesas, un mostrador sucio, un malayo haciendo señas. Wilde llevó al héroe de la alta sociedad al sitio más bajo que se le ocurrió, y lo hizo en el mismo capítulo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y allí una mujer arruinada, a la que él destruyó años atrás, le llama «Príncipe Encantador» a gritos para humillarle. Es un apodo que solo usaba Sibyl Vane. En una mesa del fondo hay un marinero que levanta la cabeza al oírlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Poco después Alan Campbell se suicida. Dorian se entera leyendo el periódico en el desayuno. Empieza a contar los muertos que va dejando detrás y descubre que la lista es larga, y que ninguno de ellos figura en su cara sino en un lienzo cubierto por una tela en el piso de arriba.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El cuchillo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El último capítulo empieza con Dorian decidido a cambiar. Se lo anuncia a lord Henry en una cena y le cuenta, orgulloso, su primera buena acción: hace unos días conoció en el campo a una chica de pueblo, Hetty, que se estaba enamorando de él, y la dejó marchar sin tocarla.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lord Henry se ríe y le desmonta el gesto en dos frases: le pregunta si está seguro de que a ella le ha ido mejor, o si más bien la ha dejado con el corazón roto para poder sentirse virtuoso una noche. Y añade que el remordimiento no es más que otra forma de vanidad.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una conversación previa que es la más importante del libro y que se cita poco. Dorian le pregunta qué diría si le confesara que ha asesinado a Basil. Y lord Henry contesta que le diría que está intentando hacerse el interesante, porque el crimen es siempre vulgar y él es incapaz de una vulgaridad semejante.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La condena definitiva",
+          frase: "Ha llegado a un punto en el que puede confesar un asesinato en voz alta y nadie le cree. Su cara le absuelve incluso cuando dice la verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vuelve a casa esa noche, sube al ático con una lámpara y destapa el retrato esperando encontrar alguna mejora después de lo de Hetty. Lo que ve es peor que nunca: en los ojos hay ahora una expresión nueva, de astucia, y en la boca la mueca curva del hipócrita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Comprende que su buena acción había sido vanidad, que su curiosidad por el mal no se ha apagado y que ese cuadro es lo único que le impide dormir. Piensa en confesar y lo descarta: sin el cuadro no hay ninguna prueba, y con el cuadro no hay tribunal en el mundo que le crea.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Entonces ve sobre la mesa el mismo cuchillo con el que mató a Basil, limpio y brillante. Y piensa que si mata el retrato mata el pasado entero y queda libre por fin. Lo levanta y lo clava en el lienzo.",
+          arte: "noche",
+        },
+        {
+          forma: "clave",
+          rotulo: "El final",
+          frase: "Los criados oyen un grito y suben. En el suelo hay un hombre viejo, marchito y repugnante, con un cuchillo en el corazón. En la pared, el retrato de Dorian Gray a los veinte años, intacto y hermoso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cena final con lord Henry es la mejor conversación del libro, y también la más triste. Dorian tiene treinta y ocho años y sigue aparentando veinte. Lord Henry ha envejecido, se ha divorciado y se ha vuelto más brillante y más vacío.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hablan de un sermón que lord Henry oyó por casualidad en Hyde Park: de qué le sirve al hombre ganar el mundo entero si pierde su propia alma. Le pareció, dice, de un patetismo exquisito. Y le pregunta a Dorian si cree que las almas existen. Dorian le pide que no siga.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lord Henry le dice entonces que la vida no le ha estropeado, que sigue siendo el mismo, y que le gustaría cambiarse por él. Y Dorian contesta con una frase que le sale sin querer: que no le gustaría, que él ha sido el peor de los dos. Lord Henry se ríe, convencido de que está bromeando.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le pide entonces que toque el piano, y Dorian toca algo de Chopin. Lord Henry, con los ojos cerrados, le dice que es demasiado maravilloso, que no debe cambiar nunca, y que el secreto de mantenerse joven es no tener nunca una emoción que no favorezca.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta del sermón",
+          frase: "«¿De qué le sirve al hombre ganar el mundo entero si pierde su alma?» Lord Henry la encuentra exquisita. Dorian le pide que se calle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wilde escribió después, en una carta, que en ese libro estaban los tres hombres que él era o quería ser. Y que Dorian era lo que le habría gustado ser en otra época — es decir, alguien capaz de vivir sin pagar el precio. La novela demuestra en cuatrocientas páginas que ese ser no existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La estructura de la última noche es simétrica con la primera. Vuelve a casa, sube al ático, destapa el cuadro con la esperanza de haber mejorado algo, y encuentra que ha empeorado. La única diferencia entre el Dorian de veinte años y el de treinta y ocho es que ahora ya no le sorprende.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su razonamiento antes de coger el cuchillo es lúcido y es lo que le condena. Piensa que confesar sería absurdo porque nadie le creería. Piensa que empezar de nuevo es imposible mientras exista una prueba. Y decide que matando la única cosa honesta que le queda quedará por fin libre.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wilde publicó primero la novela en una revista americana en 1890 y el escándalo fue inmediato: varios diarios británicos la llamaron venenosa y algunos vendedores se negaron a distribuirla. Él respondió con un prefacio de aforismos que hoy se imprime al principio y que es, en realidad, su defensa jurídica escrita por adelantado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No le sirvió de nada. En 1895 el abogado del padre de su amante le interrogó durante horas sobre esta novela, leyendo pasajes en voz alta y preguntándole si él sentía por otros hombres lo que Basil sentía por Dorian. Wilde salió del juicio condenado a dos años de trabajos forzados. No volvió a escribir ficción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Solo le reconocen por los anillos. Wilde acaba en tres líneas secas, sin explicar absolutamente nada, y ese corte es la razón de que el final se recuerde ciento treinta años después. La única frase moral del libro está en el prefacio y dice lo contrario de lo que la novela hace: que no existen libros morales ni inmorales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que saber lo que le costó. La revista que lo publicó en 1890 le censuró unas quinientas palabras sin decírselo, casi todas insinuaciones sobre lo que Basil sentía por Dorian. Wilde aún suavizó más el texto para la edición en libro. Y en 1895, en el juicio que acabó con él en la cárcel y arruinado, el fiscal leyó pasajes de esta novela en voz alta como prueba de cargo.",
+        },
+      ],
+    },
+  ],
+};

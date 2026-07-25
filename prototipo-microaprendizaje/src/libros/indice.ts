@@ -16,7 +16,8 @@ import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSB
 import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
 import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS } from "./economia";
 import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA } from "./psicologia";
-import { CRIMEN_CASTIGO } from "./literatura";
+import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY } from "./literatura";
+import { ARTE_GUERRA } from "./filosofia";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
 
@@ -124,6 +125,9 @@ export const RESUMENES: Record<string, Resumen> = {
 
   /* Capítulos largos */
   "crimen-castigo": CRIMEN_CASTIGO,
+  extranjero: EXTRANJERO,
+  "dorian-gray": DORIAN_GRAY,
+  "arte-guerra": ARTE_GUERRA,
 };
 
 export function comprobar() {
