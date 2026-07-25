@@ -120,21 +120,6 @@ export function Perfil({
           </div>
         </motion.div>
 
-        {/* La meta del día: lo primero que se viene a mirar */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: orden(1) }}
-        >
-          <MetaDiaria
-            minutos={minutosHoy}
-            meta={meta}
-            total={minutosTotales}
-            reducido={reducido}
-            onMeta={onMeta}
-          />
-        </motion.div>
-
         {/* Desbloquear: el único bloque de color saturado de la pantalla */}
         <motion.button
           className="perfil-desbloquea"
@@ -192,6 +177,23 @@ export function Perfil({
           </div>
         </motion.section>
 
+        {/* La meta del día, pegada a la racha: las dos cuentan el hoy, una en
+            días y otra en minutos, así que se leen juntas y con la misma forma
+            de tarjeta. Antes iba arriba del todo y partía la pantalla en dos. */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...springSoft, delay: orden(3) }}
+        >
+          <MetaDiaria
+            minutos={minutosHoy}
+            meta={meta}
+            total={minutosTotales}
+            reducido={reducido}
+            onMeta={onMeta}
+          />
+        </motion.div>
+
         {/* Las tres cifras */}
         <div className="perfil-cifras">
           {[
@@ -204,7 +206,7 @@ export function Perfil({
               className="perfil-cifra"
               initial={{ opacity: 0, y: 18, scale: 0.94 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ ...springPop, delay: orden(3) + k * 0.06 }}
+              transition={{ ...springPop, delay: orden(4) + k * 0.06 }}
             >
               <div className="perfil-cifra-alto">
                 <span className="perfil-cifra-n">{c.n}</span>
@@ -223,7 +225,7 @@ export function Perfil({
           whileTap={{ scale: 0.985 }}
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ ...springSoft, delay: orden(4) }}
+          transition={{ ...springSoft, delay: orden(5) }}
         >
           <span className="perfil-fila-ilu">
             <IluBirrete reducido={reducido} />
@@ -237,7 +239,7 @@ export function Perfil({
 
         <Rejilla
           titulo="Personaliza la app"
-          retraso={orden(5)}
+          retraso={orden(6)}
           reducido={reducido}
           casillas={[
             { nombre: "Temas que sigues", Ilu: IluTemas },

@@ -5,14 +5,22 @@ import { spring, springPop, springSoft } from "./motion";
 /* ==========================================================================
    La meta del día.
 
-   Un arco que se llena con lo leído hoy, la cifra en el centro y el total de
-   toda la vida debajo. Es el bloque que la gente abre a mirar aunque no vaya
-   a leer, así que tiene que estar vivo sin ser un parque de atracciones.
+   Un arco que se llena con lo leído hoy, la cifra dentro del hueco y el total
+   de siempre al lado. Es el bloque que la gente abre a mirar aunque no vaya a
+   leer, así que tiene que estar vivo sin ser un parque de atracciones.
+
+   VA DEBAJO DE LA RACHA Y CON SU MISMA FORMA. Antes era una tarjeta crema y
+   grande en mitad de un perfil oscuro: cantaba como una pieza pegada de otra
+   app. Ahora es una tarjeta más de la columna —mismo fondo translúcido, mismo
+   radio, misma altura de fila que la racha— y el arco baja a 108 px, del
+   tamaño de la llama que tiene justo encima. Un medidor del día no compite
+   con la racha: la acompaña.
 
    POR QUÉ UN SEMICÍRCULO Y NO UNA BARRA. Un arco abierto tiene principio y
    final visibles a la vez, y el hueco de abajo deja sitio para la cifra sin
    robarle protagonismo. Una barra recta cuenta lo mismo, pero no invita a
-   mirar el centro, que es donde está el dato.
+   mirar el centro, que es donde está el dato. Al encogerlo la razón se
+   mantiene: el hueco sigue siendo el sitio natural del número.
 
    UN SOLO VALOR MUEVE TODO. Se anima `leido` —los minutos de verdad— y de ahí
    cuelgan las tres cosas: la fracción, que es el `pathLength` del arco y la
@@ -103,104 +111,115 @@ export function MetaDiaria({
 
   return (
     <section className="meta">
-      <div className="meta-arco">
-        <svg viewBox="0 0 260 168" className="meta-svg" aria-hidden>
-          <defs>
-            <linearGradient
-              id="meta-degradado"
-              gradientUnits="userSpaceOnUse"
-              x1={CENTRO.x - R}
-              y1={CENTRO.y}
-              x2={CENTRO.x + R}
-              y2={CENTRO.y - R * 0.6}
+      <div className="meta-fila">
+        <div className="meta-arco">
+          <svg viewBox="0 0 260 168" className="meta-svg" aria-hidden>
+            <defs>
+              <linearGradient
+                id="meta-degradado"
+                gradientUnits="userSpaceOnUse"
+                x1={CENTRO.x - R}
+                y1={CENTRO.y}
+                x2={CENTRO.x + R}
+                y2={CENTRO.y - R * 0.6}
+              >
+                <stop offset="0%" stopColor="var(--sage)" />
+                <stop offset="45%" stopColor="var(--ochre)" />
+                <stop offset="100%" stopColor="var(--clay)" />
+              </linearGradient>
+              {/* El halo del trazo: el mismo arco, borroso y por debajo */}
+              <filter id="meta-halo" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="7" />
+              </filter>
+            </defs>
+
+            {/* El carril va en blanco translúcido, no en `--paper-edge`: sobre
+                el fondo oscuro del perfil ese color es casi blanco y el arco
+                parecería lleno del todo antes de empezar. */}
+            <path
+              d={ARCO}
+              fill="none"
+              stroke="rgba(242, 236, 225, 0.14)"
+              strokeWidth="17"
+              strokeLinecap="round"
+            />
+
+            <motion.path
+              d={ARCO}
+              fill="none"
+              stroke="url(#meta-degradado)"
+              strokeWidth="17"
+              strokeLinecap="round"
+              filter="url(#meta-halo)"
+              opacity="0.5"
+              style={{ pathLength: fraccion }}
+            />
+            <motion.path
+              d={ARCO}
+              fill="none"
+              stroke="url(#meta-degradado)"
+              strokeWidth="17"
+              strokeLinecap="round"
+              style={{ pathLength: fraccion }}
+            />
+
+            {/* La cabeza del trazo: dice dónde estás sin tener que leer nada */}
+            <motion.circle r="11" fill="var(--night)" style={{ cx: puntoX, cy: puntoY }} />
+            <motion.circle
+              r="6.5"
+              fill={cumplida ? "var(--clay)" : "var(--ochre)"}
+              style={{ cx: puntoX, cy: puntoY }}
+            />
+          </svg>
+
+          <div className="meta-centro">
+            <motion.span className="meta-numero">{texto}</motion.span>
+          </div>
+
+          {/* Cuando se cumple, el arco entero da un latido de luz */}
+          <AnimatePresence>
+            {cumplida && !reducido && (
+              <motion.span
+                className="meta-brillo"
+                initial={{ opacity: 0, scale: 0.85 }}
+                animate={{ opacity: [0, 0.55, 0], scale: [0.85, 1.12, 1.2] }}
+                transition={{ duration: 1.6, delay: 1.2, ease: "easeOut" }}
+              />
+            )}
+          </AnimatePresence>
+        </div>
+
+        {/* La columna de la derecha repite el reparto de la tarjeta de racha:
+            título arriba, dato debajo. Así las dos se leen igual. */}
+        <div className="meta-datos">
+          <div className="meta-alto">
+            <h2>Meta de hoy</h2>
+            <motion.button
+              className="meta-boton"
+              onClick={() => setAbierto((v) => !v)}
+              whileTap={{ scale: 0.96 }}
+              transition={springPop}
+              aria-expanded={abierto}
             >
-              <stop offset="0%" stopColor="var(--sage)" />
-              <stop offset="45%" stopColor="var(--ochre)" />
-              <stop offset="100%" stopColor="var(--clay)" />
-            </linearGradient>
-            {/* El halo del trazo: el mismo arco, borroso y por debajo */}
-            <filter id="meta-halo" x="-30%" y="-30%" width="160%" height="160%">
-              <feGaussianBlur stdDeviation="7" />
-            </filter>
-          </defs>
+              {abierto ? "Listo" : "Ajustar"}
+            </motion.button>
+          </div>
 
-          <path
-            d={ARCO}
-            fill="none"
-            stroke="var(--paper-edge)"
-            strokeWidth="17"
-            strokeLinecap="round"
-          />
-
-          <motion.path
-            d={ARCO}
-            fill="none"
-            stroke="url(#meta-degradado)"
-            strokeWidth="17"
-            strokeLinecap="round"
-            filter="url(#meta-halo)"
-            opacity="0.5"
-            style={{ pathLength: fraccion }}
-          />
-          <motion.path
-            d={ARCO}
-            fill="none"
-            stroke="url(#meta-degradado)"
-            strokeWidth="17"
-            strokeLinecap="round"
-            style={{ pathLength: fraccion }}
-          />
-
-          {/* La cabeza del trazo: dice dónde estás sin tener que leer nada */}
-          <motion.circle r="10" fill="var(--paper)" style={{ cx: puntoX, cy: puntoY }} />
-          <motion.circle
-            r="6"
-            fill={cumplida ? "var(--clay)" : "var(--ochre)"}
-            style={{ cx: puntoX, cy: puntoY }}
-          />
-        </svg>
-
-        <div className="meta-centro">
-          <motion.span className="meta-numero">{texto}</motion.span>
           <p className="meta-pie">
             {cumplida ? (
               <>
-                Meta de hoy cumplida
-                <br />
-                <strong>{meta} minutos</strong>
+                Cumplida · <strong>{meta} min</strong>
               </>
             ) : (
               <>
-                Lectura de hoy de
-                <br />
-                tu meta de <strong>{meta} minutos</strong>
+                de tu meta de <strong>{meta} min</strong>
               </>
             )}
           </p>
+
+          <Total minutos={total} reducido={reducido} />
         </div>
-
-        {/* Cuando se cumple, el arco entero da un latido de luz */}
-        <AnimatePresence>
-          {cumplida && !reducido && (
-            <motion.span
-              className="meta-brillo"
-              initial={{ opacity: 0, scale: 0.85 }}
-              animate={{ opacity: [0, 0.55, 0], scale: [0.85, 1.12, 1.2] }}
-              transition={{ duration: 1.6, delay: 1.2, ease: "easeOut" }}
-            />
-          )}
-        </AnimatePresence>
       </div>
-
-      <motion.button
-        className="meta-boton"
-        onClick={() => setAbierto((v) => !v)}
-        whileTap={{ scale: 0.97 }}
-        transition={springPop}
-        aria-expanded={abierto}
-      >
-        {abierto ? "Listo" : "Ajustar meta"}
-      </motion.button>
 
       {/* El selector no es un diálogo: se despliega aquí mismo, debajo del
           arco, para que se vea cómo cambia el arco al elegir. */}
@@ -231,8 +250,6 @@ export function MetaDiaria({
           </motion.div>
         )}
       </AnimatePresence>
-
-      <Total minutos={total} reducido={reducido} />
     </section>
   );
 }
@@ -262,7 +279,7 @@ function Total({ minutos, reducido }: { minutos: number; reducido: boolean }) {
       animate={{ opacity: 1, y: 0 }}
       transition={reducido ? { duration: 0.01 } : { ...springSoft, delay: 0.42 }}
     >
-      <span className="meta-total-rotulo">Leído en total</span>
+      <span className="meta-total-rotulo">En total</span>
       <motion.span className="meta-total-cifra">{texto}</motion.span>
     </motion.div>
   );
