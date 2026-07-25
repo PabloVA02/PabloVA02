@@ -1184,3 +1184,554 @@ export const CARTAS_JOVEN_POETA: Resumen = {
     },
   ],
 };
+
+export const HISTORIA_ARTE: Resumen = {
+  id: "historia-arte",
+  titulo: "La historia del arte",
+  autor: "E. H. Gombrich",
+  ano: 1950,
+  gancho: "Empieza diciendo que el Arte no existe. Ocho millones de ejemplares después, sigue siendo la mejor primera frase de un libro de arte.",
+  porQue:
+    "Es el libro de arte más vendido de la historia y no es un catálogo: es una sola idea sostenida durante veintisiete capítulos.",
+  partes: [
+    {
+      titulo: "No existe el Arte",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Londres, 1949. Un historiador vienés de cuarenta años recibe el encargo de escribir un libro de arte para adolescentes. El editor, Béla Horovitz, de Phaidon, le pide algo que un chaval de trece años pueda leer entero. Él acepta y lo escribe en unos meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Ernst Gombrich, había nacido en Viena en 1909 y había salido de Austria en 1936 con un contrato en el Instituto Warburg de Londres. Se fue a tiempo. Su familia era judía y en Viena, tres años después, ya no había sitio para ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante la guerra no trabajó en historia del arte: trabajó para la BBC escuchando la radio alemana, seis años sentado con unos auriculares transcribiendo emisiones enemigas. Era un trabajo de oficina, aburridísimo y crucial, en un sótano lleno de exiliados que hablaban alemán.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El día que lo oyó",
+          frase: "En abril de 1945 Gombrich estaba de guardia cuando la radio alemana interrumpió la programación y puso el adagio de la Séptima de Bruckner. Supo antes que nadie lo que venía después: Hitler había muerto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el hombre que cuatro años después se sienta a explicar el arte occidental desde las cuevas hasta el presente. No es un profesor de sillón: es alguien que ha visto desaparecer su ciudad y que ha aprendido a escuchar con muchísima atención lo que dice la gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro empieza con la frase que todo el mundo cita y casi nadie termina: no existe realmente el Arte. Tan solo hay artistas. Es la primera línea, va en la introducción y no es una provocación de escaparate: es literalmente la tesis del libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo explica en seguida. El Arte con mayúscula, dice, es un fantasma que se ha convertido en un espantajo: sirve para que la gente se sienta ignorante delante de un cuadro y deje de mirarlo. Quitando la mayúscula queda lo que hay de verdad: hombres y mujeres resolviendo problemas concretos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y da el ejemplo doméstico que lo aterriza: no hay nada malo en que a alguien le guste un cuadro porque le recuerda a algo suyo. El error empieza cuando esa preferencia se convierte en prejuicio y le impide mirar lo demás. Su enemigo no es el ignorante: es el que ya ha decidido.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tiene veintisiete capítulos y va en línea recta desde las pinturas de las cuevas hasta mediados del siglo XX. Está escrito sin una sola nota al pie y sin una sola palabra técnica que no se explique en el sitio donde aparece por primera vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gombrich puso una regla que ningún manual cumple: no hablar de ninguna obra que no estuviera reproducida en la página. Si no cabía la imagen, no entraba el texto. Prefirió dejar fuera a artistas importantes antes que soltar nombres que el lector no pudiera comprobar con los ojos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso cambia la lectura por completo. Un manual normal enumera. Este señala: mire esta mano, mire este pliegue, fíjese en que el pie está visto de frente. El lector no está aprendiendo una lista, está aprendiendo a mirar, que es un músculo distinto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una segunda regla, la que le da su motor: cada obra se explica como respuesta a un problema que dejó abierto la anterior. No hay genios que caen del cielo. Hay talleres, encargos y una conversación de tres mil años en la que cada uno contesta al de antes.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El método",
+          frase: "La historia del arte no es un desfile de genios: es una cadena de problemas. Cada generación hereda una dificultad sin resolver y se pasa la vida buscándole la vuelta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea suena abstracta hasta que se ve funcionando. Un escultor griego no despierta un día con más talento que un egipcio. Hereda una manera de hacer piernas que no acaba de convencer a nadie y prueba otra. La siguiente generación hereda su solución y le encuentra el fallo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gombrich desarrollaría eso diez años después en un libro más difícil, «Arte e ilusión», con una fórmula que se ha quedado: esquema y corrección. El artista no dibuja lo que ve. Parte de un esquema aprendido y lo va corrigiendo contra lo que ve. Nadie empieza de cero.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El ejemplo que usa es de manual: los grabados antiguos de rinocerontes copian todos al de Durero, incluidas las escamas que el animal no tiene. Durante siglos, los que dibujaban un rinoceronte estaban dibujando el rinoceronte de Durero corregido un poco.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa herramienta el libro deja de ser una lista de estilos. Gótico, Renacimiento, Barroco dejan de ser etiquetas de examen y pasan a ser lo que fueron: soluciones distintas a la pregunta de cómo se pone el mundo en una superficie plana sin que parezca mentira.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tono es la otra mitad del éxito. Gombrich escribe como quien acompaña a alguien por un museo hablando bajito. Nunca dice esta obra es sublime. Dice fíjese en lo difícil que era esto y en lo bien que lo resolvió, y el lector siente que lo está viendo por su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no esconde sus gustos. Cuando algo no le convence lo dice, y cuando una época le interesa poco se le nota. Un manual neutro no existe, y él prefiere que se le vea la mano a fingir una objetividad que no tiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 1950, se tituló en inglés «La historia del arte» con artículo determinado, y a Gombrich siempre le pareció un título demasiado grande. Decía que se lo puso el editor. Él lo habría llamado, como mucho, una historia del arte contada a un chico listo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que se sabe y lo que se ve",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El primer gran hallazgo del libro está en Egipto, y Gombrich lo explica con una pregunta que descoloca: ¿por qué las figuras egipcias están tan raras? Cabeza de perfil, ojo de frente, hombros de frente, piernas de perfil. Todas iguales durante tres mil años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta fácil es que no sabían dibujar. La de Gombrich es la contraria: sabían perfectamente, y estaban haciendo otra cosa. No pintaban lo que veían. Pintaban lo que sabían, y de cada parte del cuerpo elegían la vista que más información daba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un ojo se reconoce mejor de frente. Unos hombros, de frente. Una nariz y unos pies, de perfil. El resultado es un cuerpo imposible y clarísimo: una especie de ficha técnica de un ser humano, montada con las mejores vistas de cada pieza.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla egipcia",
+          frase: "El arte egipcio no busca parecerse a lo que se ve desde un sitio. Busca ser completo. Nada puede quedar tapado, porque lo tapado, para el más allá, no existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está lo que lo explica todo: aquellas figuras no eran cuadros para mirar. Estaban en tumbas cerradas que nadie iba a visitar. Servían para acompañar al muerto, y un muerto con medio pie pintado tendría medio pie. La utilidad manda sobre la apariencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gombrich añade el dato que remata el argumento: hubo una excepción. Bajo el faraón Akenatón, hacia 1350 antes de Cristo, el estilo se soltó de golpe. Aparecen posturas relajadas, cuerpos raros, el rey besando a su hija. Duró lo que duró él y luego se volvió a la norma.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso demuestra que no era incapacidad. Era una decisión colectiva sostenida durante milenios, que un solo hombre pudo cambiar y que se restauró en cuanto murió. La historia del arte, dice Gombrich, está llena de estas cosas y casi ninguna es cuestión de talento.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa base montada, el libro llega al momento que él considera el más importante de todos, y lo cuenta con una precisión de detective. Ocurre en Grecia, hacia el año 500 antes de Cristo, y se puede ver en un solo objeto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un pintor de vasijas está dibujando a un guerrero de perfil, como se ha hecho siempre. Y en vez de poner el pie hacia un lado, lo pinta de frente: dos dedos y un óvalo. Un pie escorzado. Es un dibujo torpe y es la primera vez que alguien pinta lo que ve en vez de lo que sabe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gombrich se detiene ahí más que en cualquier catedral. Ese pie mal dibujado es, para él, la puerta por la que entra el arte occidental entero: la decisión de renunciar a la información completa a cambio de un punto de vista concreto, el de alguien que está mirando desde un sitio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El escorzo",
+          frase: "Pintar un pie de frente significa aceptar que se pierde información a cambio de verdad. Ese cambio de trato es el que separa a Egipto de Grecia y a Grecia de casi todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí los griegos se lanzan. En un siglo pasan de figuras rígidas y sonrientes a cuerpos que apoyan el peso en una pierna y descansan la otra. Ese gesto mínimo, el contraposto, hace que una piedra parezca que respira, y se inventó por prueba y error en un par de generaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gombrich pone dos estatuas juntas para que se vea, y funciona: un kurós arcaico y un joven clásico. La misma postura, cincuenta años de diferencia, y el segundo parece que va a echar a andar. No hay nada místico en el medio; hay talleres corrigiendo a otros talleres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después llega Roma, que él trata sin desprecio y sin entusiasmo: copiaron muchísimo, inventaron el retrato realista y construyeron edificios que aún están de pie. El Panteón, dice, es una idea que ningún griego había tenido: no una fachada, sino un espacio por dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces viene el capítulo que más sorprende a los lectores, porque va hacia atrás. Con el cristianismo, el arte occidental deja de buscar el parecido y vuelve a lo egipcio: figuras planas, frontales, sin sombra, sin profundidad. Durante mil años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación de Gombrich es la misma de siempre, aplicada al revés: cambia el trabajo, cambia la solución. Un mosaico bizantino no está para que parezca una persona. Está para que un analfabeto entienda quién es y qué hizo, en una iglesia oscura, desde treinta metros.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso desactiva de un plumazo la idea de decadencia, que es lo que enseñaban los manuales anteriores. La Edad Media no perdió la técnica: dejó de necesitarla y desarrolló otra. Cuando el encargo cambió, la habilidad volvió en dos generaciones.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro dedica capítulos largos y muy buenos a las catedrales, y ahí Gombrich hace algo poco frecuente: explica la arquitectura como ingeniería. El arco apuntado y el arbotante no son estilo. Son la solución a un problema de peso, y la altura de las naves es su consecuencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hace notar quién las hizo: gremios, canteros, talleres familiares, cientos de personas cuyos nombres no se conservan. El anonimato medieval no es un misterio romántico. Es que aquello se parecía más a una obra pública que a un acto de expresión personal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale, en el capítulo siguiente, el hombre que rompe la cadena. Un pintor florentino que hacia 1300 empieza a poner sombras en las caras y a colocar a la gente en un espacio con suelo. Se llamaba Giotto, y con él empieza la parte que todo el mundo cree conocer.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El problema que deja el anterior",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Giotto pinta en Padua, hacia 1305, una capilla entera. En una escena, dos figuras se abrazan y se miran; en otra, un personaje está de espaldas al espectador, tapando parte de la acción. Eso último no se había hecho en mil años y es una revolución silenciosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Poner a alguien de espaldas significa aceptar que el cuadro es una ventana y no un cartel. Si es una ventana, hay cosas que no se ven porque hay alguien delante. Gombrich vuelve a su idea: Giotto no es más listo, es que ha cambiado el trato con el que mira.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema que deja abierto es evidente en cuanto se enuncia: si esto es una ventana, ¿cómo se dibuja la profundidad para que sea exacta y no aproximada? Ese problema tarda cien años en resolverse y lo resuelve un arquitecto, no un pintor.",
+        },
+        {
+          forma: "clave",
+          rotulo: "1420, Florencia",
+          frase: "Brunelleschi demuestra la perspectiva con un experimento: una tabla pintada del baptisterio, un agujero, un espejo. Quien mira por el agujero no distingue el cuadro del edificio real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el momento en que el arte occidental se vuelve, durante quinientos años, un asunto de geometría. Un punto de fuga, unas líneas que convergen y una regla que cualquiera puede aprender. Gombrich subraya que fue un descubrimiento técnico, con fecha, autor y demostración pública.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero que lo usa en serio en pintura es Masaccio, en una capilla de Florencia, y el efecto sobre sus contemporáneos fue de asombro físico: la pared parecía que se hundía. Murió a los veintiséis años y dejó a toda una generación con la herramienta en la mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al mismo tiempo, al norte, otros están resolviendo un problema distinto sin enterarse de la perspectiva. En Flandes, Jan van Eyck perfecciona la pintura al óleo y consigue algo que ningún italiano tenía: el brillo de un collar, el pelo de un perro, la luz en un espejo convexo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Gombrich pone los dos caminos uno al lado del otro y no los jerarquiza. Italia resuelve el espacio con matemáticas; Flandes resuelve la superficie con paciencia y con una técnica nueva. Son dos respuestas a preguntas distintas, y durante un siglo ninguna de las dos sabe de la otra.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siglo XVI es donde el lector espera fuegos artificiales y Gombrich baja el tono a propósito. A Leonardo, Miguel Ángel y Rafael los trata como a artesanos con problemas técnicos muy concretos, no como a semidioses, y el efecto es que se entienden mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De Leonardo destaca una cosa por encima de todo: el sfumato. Y lo explica con una utilidad rara. Dejar los contornos difuminados no es un truco de belleza; es dejarle al ojo del que mira una parte del trabajo. Por eso la Gioconda parece cambiar de expresión: la termina el espectador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De Miguel Ángel cuenta la Capilla Sixtina como lo que fue: un encargo que no quería, cuatro años de andamio, un hombre que se consideraba escultor pintando de espaldas y quejándose por carta del cuello. La grandeza sale de ahí, no de la inspiración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y llega el problema siguiente, que es el más divertido del libro: cuando ya está todo resuelto, ¿qué hace la generación de después? La respuesta fue romperlo a propósito. Cuellos largos, colores imposibles, composiciones descentradas. Se llamó manierismo y fue el primer arte que juega contra la regla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Barroco lo cuenta como teatro, con Caravaggio de protagonista. Un foco duro, un fondo negro, unos pies sucios en primer plano. Sus clientes se escandalizaban de que los santos parecieran gente del barrio, y de eso exactamente iba el asunto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Velázquez",
+          frase: "Gombrich, que era vienés, dedica a «Las meninas» una de sus mejores páginas: un cuadro sobre el acto de pintar, con el pintor dentro, el rey fuera y el espectador ocupando el sitio del rey.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hace notar el detalle técnico que lo hace moderno: de cerca son manchas. Las mangas, los reflejos, el pelo de la infanta son toques sueltos que no describen nada. Solo a tres metros se convierten en tela y en luz. Doscientos años antes de los impresionistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro sigue con Rembrandt, y ahí Gombrich hace algo que no hace con nadie más: lo sigue envejeciendo. Pone sus autorretratos en orden, del joven presumido con sombrero al viejo hinchado y arruinado, y deja que la secuencia hable sola.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Rembrandt se declaró en bancarrota en 1656 y le subastaron la casa y la colección. Pintó los mejores cuadros de su vida después de eso, cuando ya casi nadie le encargaba nada. Gombrich lo cuenta sin épica y el efecto es demoledor.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siglo XVIII lo despacha con cierta frialdad —le interesan más los ingleses que los franceses— y entra en el XIX con un cambio que le parece más importante que cualquier estilo: los artistas dejan de trabajar por encargo y empiezan a pintar sin saber quién lo comprará.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso lo cambia todo, y es el hilo del capítulo siguiente. Cuando desaparece el cliente que dice qué quiere, aparece por primera vez la figura del artista incomprendido, y también la del cuadro que nadie ha pedido y que puede no gustar a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gombrich no lo celebra ni lo lamenta. Lo trata como lo que es en su método: un problema nuevo. Durante cinco mil años el arte había tenido un encargo detrás. A partir de 1850, muchas veces no. Todo lo que viene después es la respuesta a esa situación.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Quién pagaba",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "París, 1863. El jurado del Salón oficial rechaza más de dos mil cuadros. Hay tanto escándalo que Napoleón III ordena montar una exposición aparte con los rechazados. La llaman el Salón de los Rechazados y va muchísima gente, sobre todo a reírse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuadro del que más se ríen es «El almuerzo sobre la hierba», de Manet: una mujer desnuda comiendo en el campo con dos señores vestidos de calle. La gente no se escandaliza por el desnudo, que estaba en todos los museos, sino porque los hombres van vestidos de 1863.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gombrich saca de ahí una lección que vale para todo el arte moderno: lo que ofende casi nunca es el tema, es el contexto. Una Venus desnuda era aceptable; una vecina desnuda al lado de dos hombres con chaqueta convertía al espectador en testigo de algo, y eso no se perdonaba.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El cambio de siglo",
+          frase: "Hasta 1800 casi todo el arte se hacía por encargo: se sabía quién pagaba, para qué sitio y con qué tamaño. Después de 1850, muchos cuadros se pintan sin comprador y sin destino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se toma en serio esa parte económica, que la mayoría de manuales se salta. Explica los gremios medievales, el sistema de aprendizaje, los contratos donde se fijaba cuántos gramos de oro y de azul de lapislázuli llevaba un retablo, porque el azul costaba más que el pintor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y explica cómo esa relación fue cambiando de manos: primero la Iglesia, luego los príncipes, luego los banqueros, luego los ayuntamientos holandeses, luego los burgueses que compraban paisajes para el salón, y por fin el marchante, que compra para revender.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese recorrido explica más que cualquier lista de estilos. Los cuadros holandeses del XVII son pequeños porque se colgaban en casas pequeñas. Los retablos son enormes porque estaban a veinte metros. El formato lo decide el sitio, y el sitio lo decide quién paga.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con los impresionistas, Gombrich vuelve a su método: no los presenta como rebeldes, sino como gente resolviendo un problema técnico. Si se quiere pintar al aire libre y deprisa, no se puede trabajar por capas durante meses. Hay que poner el color directo y aceptar la mancha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade dos cosas materiales que casi nadie cuenta y que lo hicieron posible: el tubo de pintura metálico, que permitía sacar el óleo de casa, y el ferrocarril, que llevaba a un pintor de París al campo y de vuelta en el mismo día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El público tardó veinte años en aceptarlos y él no lo cuenta con condescendencia. Explica por qué chocaba: un ojo educado en los contornos nítidos veía aquello sencillamente inacabado, como hoy nos parecería inacabado un edificio sin fachada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vienen los que él llama los tres solitarios, y es de lo mejor del libro: Cézanne, Van Gogh y Gauguin, tres hombres que no se llevaban bien y que abrieron los tres caminos por donde iría todo el siglo XX.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cézanne quería el orden: reconstruir con manchas de color la solidez que los impresionistas habían disuelto. Se pasó años delante de la misma montaña. De ahí sale el cubismo, es decir, Picasso y Braque descomponiendo un objeto en planos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van Gogh quería la expresión: que la pincelada llevara dentro la emoción del que pinta. De ahí sale el expresionismo alemán. Gauguin quería la simplicidad y se fue a buscarla lejos. De ahí sale buena parte de la obsesión moderna con lo primitivo, con todo lo que eso trae.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Tres puertas",
+          frase: "Estructura, expresión y simplificación. Gombrich reduce el arte del siglo XX a tres problemas heredados de tres hombres que murieron sin venderlo casi nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí se nota el límite del propio libro, que él nunca ocultó. Los capítulos sobre arte del siglo XX son los más cortos, los más prudentes y los menos entusiastas. Gombrich escribía en 1950 sobre gente que seguía viva y trabajando, y se le nota incómodo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ediciones posteriores fue añadiendo material —llegó a haber dieciséis ediciones y él siguió revisándolas hasta los noventa años— pero la desproporción sigue ahí: cinco mil años en veinticinco capítulos y el siglo más agitado en dos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su defensa era honesta: decía que no se puede escribir historia de lo que aún está pasando, porque falta lo único que la hace posible, que es saber qué vino después. Un historiador que juzga el presente, decía, está haciendo crítica, no historia.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También rechazó siempre la idea de progreso. Que Rafael venga después de Giotto no significa que sea mejor, igual que un rascacielos no es mejor que una catedral. Cada uno resolvió lo que tenía delante. Esa negativa es lo que salva al libro de ser una escalera hacia el presente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado es raro: un libro escrito para adolescentes en 1950, que no presume, que no adorna y que sigue siendo el mejor sitio por donde empezar. Nadie ha escrito nada que lo sustituya, y no por falta de intentos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí ha aparecido son libros que le contestan. Y ahí está la conversación más interesante que ha tenido este libro en setenta años, que es la que va de todo lo que se quedó fuera de sus páginas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Ocho millones de ejemplares",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El dato primero: «La historia del arte» ha vendido más de ocho millones de ejemplares y se ha traducido a más de treinta idiomas. Es, con diferencia, el libro de arte más vendido que existe, y sigue siendo el manual con el que empieza medio mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gombrich vivió lo suficiente para verlo. Murió en Londres en 2001, con noventa y dos años, después de haber revisado personalmente dieciséis ediciones y de haber contestado, según sus editores, prácticamente todas las cartas que le mandaban los lectores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla, que falla en algo grande y hay que decirlo sin rodeos. En la primera edición no aparecía ni una sola mujer artista. Ni una, en quinientas páginas y cinco mil años. En ediciones posteriores entró alguna mención, pero la estructura del libro no cambió.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El agujero",
+          frase: "Artemisia Gentileschi, Sofonisba Anguissola, Judith Leyster, Berthe Morisot, Käthe Kollwitz. Ninguna estaba. No es un descuido pequeño: es media historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su defensa, cuando se lo preguntaron en los años noventa, fue que él no escribía sobre artistas por su biografía sino por su lugar en la cadena de problemas, y que si alguna quedaba fuera era por su criterio de importancia, no por su sexo. La respuesta convenció a poca gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque el criterio de importancia no es neutro: se hereda de quién pudo entrar en un taller, quién pudo estudiar del natural —a las mujeres se les prohibió dibujar modelos desnudos hasta el siglo XIX— y de quién decidió después qué se colgaba en los museos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2022 Katy Hessel publicó «Historia del arte sin hombres» precisamente como respuesta a este libro. No lo niega: lo completa. Es una conversación de setenta años entre dos volúmenes, y las dos partes se leen mejor la una con la otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo agujero es geográfico. El arte chino, el japonés, el persa, el africano y el precolombino ocupan un capítulo temprano y luego desaparecen. A partir del Renacimiento, el libro es exclusivamente europeo y no vuelve a mirar fuera salvo de pasada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su explicación también era coherente y también es insuficiente: dijo que solo podía contar la tradición en la que se había formado, y que un capítulo turístico sobre China sería peor que ninguno. Es un argumento decente que deja el título, «La historia del arte», bastante grande.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer defecto es el que él mismo admitía: la cadena de problemas funciona de maravilla hasta 1900 y bastante peor después. Cuando el problema deja de ser cómo representar el mundo, el método pierde agarre, y se nota en la prudencia de los últimos capítulos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un cuarto, más sutil. Al contarlo todo como una conversación de soluciones, el libro deja fuera casi por completo el dinero, el poder y la política. Los papas, los banqueros y los imperios aparecen como clientes, no como parte del contenido de las obras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, lo que casi todo el mundo cree y no es verdad. No es una enciclopedia. La gente lo compra para consultarlo y no funciona así: no hay nada que buscar por orden alfabético. Es un solo argumento continuo, y leído a saltos se pierde justo lo que lo hace valioso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: la frase de que el Arte no existe se cita como una boutade elegante para empezar conferencias. No lo es. Es una instrucción de uso: quítese la mayúscula, deje de sentirse examinado y mire el cuadro que tiene delante como quien mira un problema resuelto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el tercero, el más extendido: mucha gente cree que es un libro difícil porque es gordo y porque va de arte. Está escrito para lectores de trece años, con vocabulario corriente y sin una sola cita erudita. La dificultad está en la materia, nunca en la prosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda, después de descontar los agujeros, sigue siendo enorme. Es el libro que ha enseñado a mirar a más gente que ningún otro, y lo ha hecho con un procedimiento que se puede aplicar a cualquier cosa: preguntarse siempre qué problema estaba resolviendo el que hizo esto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa pregunta funciona igual delante de un mosaico bizantino, de una silla, de una portada de disco o de una aplicación de móvil. Gombrich no enseñó arte: enseñó que detrás de cada forma hay alguien con una dificultad concreta y unos medios limitados.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo resumió mejor que nadie en el prólogo de una de las últimas ediciones, cuando ya tenía noventa años. Escribió que el libro pretendía una cosa modesta: ordenar un poco el terreno para que el lector pudiera después perderse en él por su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y avisaba de que ningún libro sustituye al museo. Decía que las reproducciones son notas al pie de las obras, no las obras, y que un cuadro se ve una sola vez de verdad: la primera, cuando se está delante y todavía no se sabe qué se está mirando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle final es de las cosas más raras que le han pasado a un libro. Gombrich escribió para adolescentes un texto que acabó siendo obligatorio en universidades de medio mundo. Nunca cambió el tono para ponerse a la altura de ese público nuevo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y probablemente esa sea la razón de las ocho millones de copias. Es el único manual importante de su campo que no da por supuesto que el lector ya sabe algo, y que en ningún momento de sus quinientas páginas le hace sentir tonto por no saberlo.",
+        },
+      ],
+    },
+  ],
+};
