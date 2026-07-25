@@ -63,6 +63,7 @@ type Props = {
   guardadas: number;
   onCerrar: () => void;
   onAjustes: () => void;
+  onAntiScroll: () => void;
 };
 
 export function Perfil({
@@ -77,6 +78,7 @@ export function Perfil({
   guardadas,
   onCerrar,
   onAjustes,
+  onAntiScroll,
 }: Props) {
   const reducido = !!useReducedMotion();
   const dias = semana(racha);
@@ -193,6 +195,39 @@ export function Perfil({
             onMeta={onMeta}
           />
         </motion.div>
+
+        {/* Anti-scroll: la única tarjeta que promete QUITARTE algo en vez de
+            darte algo. Por eso va con su propio color y fuera de la rejilla */}
+        <motion.button
+          className="perfil-anti"
+          onClick={onAntiScroll}
+          whileTap={{ scale: 0.98 }}
+          initial={{ opacity: 0, y: 20, scale: 0.97 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ ...springSoft, delay: orden(3) }}
+        >
+          <span className="perfil-anti-marca">
+            <motion.svg
+              viewBox="0 0 44 44"
+              width="34"
+              height="34"
+              aria-hidden
+              animate={reducido ? {} : { rotate: [-6, 6, -6] }}
+              transition={{ duration: 4.6, repeat: Infinity, ease: "easeInOut" }}
+            >
+              <circle cx="22" cy="22" r="20" fill="var(--clay)" />
+              <path
+                d="M15 25v-8a2.2 2.2 0 0 1 4.4 0v-3a2.2 2.2 0 0 1 4.4 0v2a2.2 2.2 0 0 1 4.4 0v3a2.2 2.2 0 0 1 3.6 1.5v5c0 4.2-2.9 7-7.9 7s-8.9-2.8-8.9-7Z"
+                fill="var(--paper)"
+              />
+            </motion.svg>
+          </span>
+          <div className="perfil-anti-texto">
+            <p className="perfil-anti-titulo">Modo anti-scroll</p>
+            <p className="perfil-anti-pie">Bloquea las apps que te distraen mientras aprendes</p>
+          </div>
+          <span className="perfil-fila-flecha">›</span>
+        </motion.button>
 
         {/* Las tres cifras */}
         <div className="perfil-cifras">

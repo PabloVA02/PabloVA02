@@ -55,6 +55,8 @@ export function Ajustes({
       rotulo: "Sobre ti",
       filas: [
         { nombre: "Nombre", Icono: IcoTarjeta, valor: nombre },
+        { nombre: "Identidad de género", Icono: IcoGenero, valor: "Sin decir" },
+        { nombre: "Edad", Icono: IcoEdad, valor: "Sin decir" },
         { nombre: "Idioma del contenido", Icono: IcoGlobo, valor: "Español" },
         { nombre: "Nivel de lectura", Icono: IcoBirrete, valor: "Sin definir" },
       ],
@@ -82,6 +84,7 @@ export function Ajustes({
     {
       rotulo: "Échanos una mano",
       filas: [
+        { nombre: "Invitar amigos", Icono: IcoAmigos, valor: "7 días gratis" },
         { nombre: "Compartir la app", Icono: IcoCompartir },
         { nombre: "Valorar en la tienda", Icono: IcoEstrella },
         { nombre: "Proponer un tema", Icono: IcoBombilla },
@@ -224,6 +227,40 @@ const IcoTarjeta = () =>
     <>
       <rect x="2.8" y="5" width="16.4" height="12" rx="2.4" {...t} />
       <path d="M6.4 9.2h4M6.4 12.4h7.2" {...t} />
+    </>,
+  );
+
+/** Los dos símbolos enlazados, sin jerarquía entre ellos. */
+const IcoGenero = () =>
+  caja(
+    <>
+      <circle cx="8.4" cy="13.4" r="4.4" {...t} />
+      <circle cx="14.2" cy="8" r="4.4" {...t} />
+      <path d="M17.4 4.8 L20 2.2 M20 2.2 h-3.2 M20 2.2 v3.2" {...t} />
+      <path d="M8.4 17.8 v2.4 M6.8 19 h3.2" {...t} />
+    </>,
+  );
+
+/** Tres siluetas de distinta altura: la edad como tramo, no como cifra. */
+const IcoEdad = () =>
+  caja(
+    <>
+      <circle cx="5.6" cy="7.4" r="2" {...t} />
+      <path d="M5.6 10 v5.4 M3.6 19 v-3.6 h4 V19" {...t} />
+      <circle cx="12.4" cy="5.6" r="2.2" {...t} />
+      <path d="M12.4 8.4 v7 M10.2 19 v-3.6 h4.4 V19" {...t} />
+      <circle cx="18.4" cy="8.6" r="1.8" {...t} />
+      <path d="M18.4 11 v4.4 M16.8 19 v-3.6 h3.2 V19" {...t} />
+    </>,
+  );
+
+/** Dos personas, una detrás de otra: invitar es traer a alguien. */
+const IcoAmigos = () =>
+  caja(
+    <>
+      <circle cx="9" cy="7.6" r="3.4" {...t} />
+      <path d="M3.4 18.4 c0-3.4 2.6-5.4 5.6-5.4 s5.6 2 5.6 5.4" {...t} />
+      <path d="M15.4 5.2 a3.2 3.2 0 0 1 0 5.6 M16.4 13.4 c2.4.5 4 2.4 4 5" {...t} />
     </>,
   );
 

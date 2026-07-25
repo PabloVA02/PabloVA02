@@ -19,6 +19,7 @@ import { Pago } from "./Pago";
 import { Checkout } from "./Checkout";
 import { Perfil } from "./Perfil";
 import { Ajustes } from "./Ajustes";
+import { AntiScroll } from "./AntiScroll";
 import { AvisoRegalo, Oferta } from "./Regalo";
 import { AvisoValoracion } from "./Valoracion";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
@@ -29,8 +30,8 @@ import {
 
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto"
-  | "shorts" | "perfil" | "ajustes" | "oferta" | "alta";
-
+  | "shorts" | "perfil" | "ajustes" | "oferta" | "alta"
+  | "anti";
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
 const CON_BARRA: Pantalla[] = ["inicio", "shorts", "perfil"];
 
@@ -140,6 +141,15 @@ export default function App() {
               guardadas={0}
               onCerrar={() => setPantalla("inicio")}
               onAjustes={() => setPantalla("ajustes")}
+              onAntiScroll={() => setPantalla("anti")}
+            />
+          )}
+          {pantalla === "anti" && (
+            <AntiScroll
+              key="anti"
+              objetivo={MINUTOS_OBJETIVO}
+              reducido={!!reducido}
+              onCerrar={() => setPantalla("perfil")}
             />
           )}
           {pantalla === "ajustes" && (
