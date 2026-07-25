@@ -1,9 +1,4 @@
-import type { ComponentType } from "react";
-import { useEffect } from "react";
-import type { Transition } from "framer-motion";
-import { animate, motion, useMotionValue, useTransform } from "framer-motion";
-import { LIBROS } from "./Biblioteca";
-import { Docente, DocenteVB, Museo, MuseoVB } from "./undraw";
+import { motion } from "framer-motion";
 import { springPop, springSoft, springTight } from "./motion";
 
 /* ==========================================================================
@@ -11,17 +6,8 @@ import { springPop, springSoft, springTight } from "./motion";
 
    Una barra sola no da nada: avanza igual haga lo que haga la app. Aquí lo
    que se prepara es una biblioteca, así que la biblioteca SE MONTA delante de
-   ti —nueve portadas cayendo en rejilla— y debajo se van cerrando las tres
+   ti —doce portadas cayendo en rejilla— y debajo se van cerrando las tres
    tareas, cada una con su anillo.
-
-   Las portadas no son cuadrados de color: son las portadas DE VERDAD, las
-   mismas ilustraciones de unDraw y los mismos colores que verás en la
-   siguiente pantalla. Lo que se monta aquí es la biblioteca a la que vas a
-   entrar, no una maqueta de ella.
-
-   La barra sí está, pero mandando la cuenta la llevan las tareas: sube a
-   tirones, uno por tarea cerrada, y entre tirón y tirón repta. Una barra que
-   avanza lisa a velocidad constante es justo la que no dice nada.
 
    El orden de caída es diagonal (fila + columna) y no de izquierda a derecha:
    una barrida en diagonal se lee como algo que se derrama, y una fila tras
@@ -29,61 +15,29 @@ import { springPop, springSoft, springTight } from "./motion";
    gusto.
 
    Todo está calculado desde DURACION: si se cambia, se recolocan solas la
-   cascada de portadas, las tres tareas y los tirones de la barra, sin volver
-   a cuadrar retardos.
+   cascada de portadas y las tres tareas, sin volver a cuadrar retardos.
    ========================================================================== */
 
 /** Lo que dura la pantalla. El paso avanza solo al terminar. */
-export const DURACION = 6.4;
+export const DURACION = 3.3;
 
-const COLUMNAS = 3;
+const COLUMNAS = 4;
+const FILAS = 3;
+const TOTAL = COLUMNAS * FILAS;
 
-type Ilustracion = ComponentType<{ banda: "fondo" | "medio" | "frente" }>;
-type Portada = { color: string; Arte: Ilustracion; vb: string };
-
-/** La portada de un libro real de la biblioteca, por su id. */
-const deLibro = (id: string): Portada => {
-  const libro = LIBROS.find((l) => l.id === id)!;
-  return { color: libro.color, Arte: libro.Arte, vb: libro.vb };
-};
-
-/**
- * Las nueve casillas, en orden de rejilla. Siete son los libros de la
- * biblioteca y dos son de acompañamiento, para cerrar el cuadro. El orden
- * está puesto a mano para que no queden dos colores iguales pegados, ni en
- * fila ni en columna.
- */
-const PORTADAS: Portada[] = [
-  deLibro("alejandria"), deLibro("memoria"), deLibro("noche"),
-  deLibro("sofocles"), deLibro("mapas"), deLibro("escuela"),
-  deLibro("descubrir"),
-  { color: "var(--clay)", Arte: Docente, vb: DocenteVB },
-  { color: "var(--slate)", Arte: Museo, vb: MuseoVB },
-];
-
-const TOTAL = PORTADAS.length;
+/** Paleta de portadas: se recorre en bucle para que no haya dos iguales juntas. */
+const TINTAS = ["var(--clay)", "var(--ochre)", "var(--sage)", "var(--plum)", "var(--slate)"];
 
 const TAREAS = ["Eligiendo tus temas", "Ordenando los capítulos", "Preparando tu primera clase"];
 
 /** Cada tarea ocupa un tercio del tiempo, con un respiro al final. */
-const INICIO = 0.55;
-const COLA = 0.5;
-const POR_TAREA = (DURACION - INICIO - COLA) / TAREAS.length;
+const INICIO = 0.42;
+const POR_TAREA = (DURACION - INICIO - 0.5) / TAREAS.length;
 const VENTANA = POR_TAREA * TAREAS.length;
-
-/** Cuándo se cierra la tarea i: el anillo llega arriba antes de que acabe su turno. */
-const cierreDe = (i: number) => INICIO + i * POR_TAREA + POR_TAREA * 0.82;
-
-/**
- * La caída de una portada: lenta y con un poso de rebote al asentarse. Es más
- * blanda que cualquier muelle de motion.ts a propósito — aquí no entra algo
- * que hayas pedido, se está posando algo que aún no has visto.
- */
-const CAIDA: Transition = { type: "spring", stiffness: 110, damping: 19, mass: 1.15 };
 
 /**
  * El orden de caída: diagonal, pero repartido por TODA la ventana de las
- * tareas. Así las portadas y la lista cuentan lo mismo —tres portadas por
+ * tareas. Así las portadas y la lista cuentan lo mismo —cuatro portadas por
  * tarea— en vez de correr cada una por su lado. Antes la rejilla se llenaba
  * en menos de un segundo y el resto de la pantalla era espera.
  */
@@ -96,68 +50,37 @@ const ORDEN = Array.from({ length: TOTAL }, (_, i) => i).sort((a, b) => {
 /** Dónde cae cada casilla dentro de la ventana. */
 const TURNO = new Map(ORDEN.map((casilla, puesto) => [casilla, puesto]));
 
-/**
- * Lo que marca la barra cuando se cierra la última tarea. El 6 % que falta lo
- * cierra la pantalla al irse: llegar al 100 % y quedarse ahí quieto un segundo
- * es exactamente la sensación de cuelgue que queremos evitar.
- */
-const TOPE = 0.94;
-
-/** [segundo, valor] de la barra. Sale de las tareas, no de una regla aparte. */
-const PULSO: [number, number][] = [[0, 0], [INICIO, 0.04]];
-TAREAS.forEach((_, i) => {
-  // Repta hasta casi la marca de la tarea, y al cerrarse pega el tirón.
-  PULSO.push([cierreDe(i) - POR_TAREA * 0.34, ((i + 0.66) / TAREAS.length) * TOPE]);
-  PULSO.push([cierreDe(i), ((i + 1) / TAREAS.length) * TOPE]);
-});
-PULSO.push([DURACION - 0.28, 1], [DURACION, 1]);
-
-const VALORES = PULSO.map(([, valor]) => valor);
-const TIEMPOS = PULSO.map(([segundo]) => segundo / DURACION);
-
 export function CargaBiblioteca({ reducido }: { reducido: boolean }) {
   return (
     <div className="carga">
       <div className="carga-rejilla">
-        {PORTADAS.map((portada, i) => {
+        {Array.from({ length: TOTAL }, (_, i) => {
           const col = i % COLUMNAS;
-          const retraso = INICIO + (TURNO.get(i)! / (TOTAL - 1)) * VENTANA * 0.88;
+          const retraso = INICIO + (TURNO.get(i)! / (TOTAL - 1)) * VENTANA * 0.9;
 
           return (
             <motion.div
               key={i}
               className="carga-portada"
-              style={{ background: portada.color }}
-              initial={{ opacity: 0, scale: 0.55, y: -26, rotate: col % 2 ? 8 : -8 }}
+              style={{ background: TINTAS[i % TINTAS.length] }}
+              initial={{ opacity: 0, scale: 0.4, y: -18, rotate: col % 2 ? 7 : -7 }}
               animate={{ opacity: 1, scale: 1, y: 0, rotate: 0 }}
-              transition={reducido ? { duration: 0.01 } : { ...CAIDA, delay: retraso }}
+              transition={reducido ? { duration: 0.01 } : { ...springPop, delay: retraso }}
             >
-              {/* El lomo: es lo que separa un libro de un azulejo de color */}
-              <span className="carga-portada-lomo" />
-
-              {/* La ilustración entra después de posarse la portada: la portada
-                  cae en blanco y se imprime encima, que es lo que hace que
-                  cada casilla tenga dos tiempos en vez de uno. */}
-              <motion.svg
-                className="carga-portada-arte"
-                viewBox={portada.vb}
-                aria-hidden
-                initial={{ opacity: 0, scale: 0.84 }}
+              {/* Un detalle dentro para que se lea «portada» y no «cuadrado» */}
+              <motion.span
+                className="carga-portada-marca"
+                initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={
-                  reducido ? { duration: 0.01 } : { ...springSoft, delay: retraso + 0.24 }
+                  reducido ? { duration: 0.01 } : { ...springPop, delay: retraso + 0.08 }
                 }
-              >
-                <portada.Arte banda="fondo" />
-                <portada.Arte banda="medio" />
-                <portada.Arte banda="frente" />
-              </motion.svg>
+              />
+              <span className="carga-portada-linea" />
             </motion.div>
           );
         })}
       </div>
-
-      <Barra reducido={reducido} />
 
       <div className="carga-tareas">
         {TAREAS.map((t, i) => (
@@ -166,44 +89,11 @@ export function CargaBiblioteca({ reducido }: { reducido: boolean }) {
             texto={t}
             reducido={reducido}
             arranque={INICIO + i * POR_TAREA}
-            entrada={0.2 + i * 0.14}
+            entrada={0.16 + i * 0.07}
             duracion={POR_TAREA}
           />
         ))}
       </div>
-    </div>
-  );
-}
-
-/**
- * La barra y su cifra, movidas por el MISMO valor: así el número no puede
- * discrepar de lo que se ve, que es el fallo clásico de animarlos por
- * separado.
- */
-function Barra({ reducido }: { reducido: boolean }) {
-  const avance = useMotionValue(0);
-  const cifra = useTransform(avance, (v) => `${Math.round(v * 100)} %`);
-
-  useEffect(() => {
-    if (reducido) {
-      avance.set(1);
-      return;
-    }
-    const control = animate(avance, VALORES, {
-      duration: DURACION,
-      times: TIEMPOS,
-      // Cada tramo frena al llegar: la barra se acerca a su marca y espera.
-      ease: "easeOut",
-    });
-    return () => control.stop();
-  }, [avance, reducido]);
-
-  return (
-    <div className="carga-barra">
-      <div className="carga-barra-pista">
-        <motion.div className="carga-barra-relleno" style={{ scaleX: avance }} />
-      </div>
-      <motion.span className="carga-barra-cifra">{cifra}</motion.span>
     </div>
   );
 }

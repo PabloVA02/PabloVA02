@@ -1442,6 +1442,23 @@ button {
   color: var(--ink-soft);
 }
 
+/* Carga */
+
+.onb-carga {
+  width: 74%;
+  height: 8px;
+  margin-top: 28px;
+  border-radius: 999px;
+  background: var(--paper-edge);
+  overflow: hidden;
+}
+.onb-carga-relleno {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--sage);
+  transform-origin: left center;
+}
+
 /* Hitos de la prueba */
 
 .onb-hitos {
@@ -1734,37 +1751,19 @@ button {
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 8px;
+  gap: 5px;
 }
 
-.muro-cuenta-cifra {
-  font-size: 11px;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: 0.02em;
-  color: var(--paper);
-  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
-}
-
-.muro-cuenta-total { opacity: 0.5; }
-
-/* Un carril continuo, no un punto por historia: con cien, los puntos ni caben
-   ni dicen nada. El carril sí dice por dónde vas dentro del montón. */
-.muro-carril {
-  width: 3px;
-  height: 74px;
+.muro-punto {
+  width: 4px;
+  height: 4px;
   border-radius: 999px;
-  overflow: hidden;
-  background: rgba(242, 236, 225, 0.26);
+  background: rgba(242, 236, 225, 0.32);
+  transition: height 0.28s ease, background-color 0.28s ease;
 }
 
-.muro-carril-relleno {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 999px;
-  transform-origin: top center;
+.muro-punto[data-activo="true"] {
+  height: 15px;
   background: var(--paper);
 }
 
@@ -1947,19 +1946,6 @@ button {
   color: var(--paper);
 }
 
-/* La página de lectura, teñida del color de la historia. El texto va sobre un
-   fondo que ya es de la historia: leer diez seguidas no se hace igual porque
-   cada una tiene su temperatura. */
-.short-carta[data-forma="pagina"]::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background: linear-gradient(168deg, var(--acento, var(--ochre)) 0%, transparent 58%);
-  opacity: 0.16;
-  pointer-events: none;
-}
-
 .short-head {
   flex: none;
   display: flex;
@@ -2019,8 +2005,8 @@ button {
 .short-portada-foto {
   position: relative;
   flex: none;
-  height: 42%;
-  min-height: 186px;
+  height: 47%;
+  min-height: 220px;
 }
 
 /* El degradado funde la foto con el fondo: no hay un borde duro entre la
@@ -2070,18 +2056,6 @@ button {
 .short-entrada strong,
 .short-cuerpo strong { font-weight: 700; color: var(--paper); }
 
-/* El mismo aviso que en el muro, pero en el flujo de la portada */
-.short-tirar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 15px;
-  font-size: 11.5px;
-  font-weight: 620;
-  letter-spacing: 0.05em;
-  color: rgba(242, 236, 225, 0.5);
-}
-
 .short-credito {
   margin-top: 12px;
   font-size: 10px;
@@ -2112,94 +2086,46 @@ button {
 
 /* --- El golpe: la frase que hace girar la historia --- */
 
-/* --- La página: rótulo, bloque y, como mucho, un golpe --- */
-
-.short-carta[data-forma="pagina"] {
-  justify-content: center;
-}
-
-.short-pagina {
+.short-golpe {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding: 0 var(--shell-pad);
-  margin-block: auto;
-}
-
-.short-rotulo-fila {
-  display: flex;
-  align-items: baseline;
-  gap: 11px;
-}
-
-/* El número de página, grande y apagado: sitúa sin competir con el rótulo */
-.short-indice {
-  font-size: 30px;
-  font-weight: 780;
-  line-height: 1;
-  letter-spacing: -0.04em;
-  font-variant-numeric: tabular-nums;
-  color: var(--acento, var(--ochre));
-  opacity: 0.55;
-}
-
-.short-rotulo {
-  font-size: 11px;
-  font-weight: 720;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
-  color: rgba(242, 236, 225, 0.62);
-}
-
-.short-cuerpo {
-  padding: 0;
-  font-size: 16.5px;
-  line-height: 1.62;
-  color: rgba(242, 236, 225, 0.87);
-  text-wrap: pretty;
-}
-
-.short-cuerpo em { font-style: italic; }
-.short-cuerpo strong { font-weight: 700; color: var(--paper); }
-
-/* --- El golpe de la página: cifra o frase, mismo sitio --- */
-
-.short-destacado {
-  margin-top: 3px;
-  padding: 15px 17px;
-  border-radius: 18px;
-  background: rgba(242, 236, 225, 0.055);
-  border: 1px solid rgba(242, 236, 225, 0.08);
-}
-
-.short-destacado[data-tipo="frase"] {
-  display: flex;
-  align-items: flex-start;
-  gap: 13px;
-}
-
-.short-destacado[data-tipo="frase"] p {
-  font-size: 17px;
-  font-weight: 680;
-  line-height: 1.36;
-  letter-spacing: -0.015em;
-  color: var(--paper);
+  justify-content: center;
+  gap: 20px;
+  padding: 0 var(--shell-pad) 20px;
 }
 
 .short-comilla {
-  flex: none;
   display: grid;
   place-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 10px;
+  width: 46px;
+  height: 46px;
+  border-radius: 15px;
   background: var(--acento, var(--ochre));
   color: var(--carbon);
 }
 
+.short-golpe p {
+  font-size: 27px;
+  font-weight: 740;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  color: var(--paper);
+}
+
+/* --- La cifra --- */
+
+.short-cifra {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--shell-pad) 20px;
+}
+
 .short-numero {
   display: block;
-  font-size: 52px;
+  font-size: 76px;
   font-weight: 780;
   line-height: 0.95;
   letter-spacing: -0.045em;
@@ -2209,62 +2135,51 @@ button {
 
 .short-unidad {
   display: block;
-  margin-top: 7px;
-  font-size: 12px;
+  margin-top: 8px;
+  font-size: 13px;
   font-weight: 640;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(242, 236, 225, 0.5);
 }
 
-/* --- El fondo de lectura --- */
+.short-cifra p {
+  margin-top: 22px;
+  font-size: 16px;
+  line-height: 1.55;
+  color: rgba(242, 236, 225, 0.84);
+}
 
-.short-fondo {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
+.short-cifra em { font-style: italic; }
+.short-cifra strong { font-weight: 700; color: var(--paper); }
+
+/* --- Foto de apoyo a media altura --- */
+
+.short-foto-media {
+  position: relative;
+  flex: none;
+  height: 40%;
+  min-height: 180px;
+  margin: 0 var(--shell-pad) 18px;
+  border-radius: 18px;
   overflow: hidden;
-  pointer-events: none;
 }
 
-/* El color de la historia, difuminado y enorme. Es lo que hace que dos
-   historias seguidas no se lean como la misma pantalla con otro texto. */
-.short-halo {
-  position: absolute;
-  width: 118%;
-  aspect-ratio: 1;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  background: radial-gradient(circle, var(--acento, var(--ochre)) 0%, transparent 66%);
-  opacity: 0.42;
-  filter: blur(3px);
+/* --- Ilustración de apoyo --- */
+
+.short-arte {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  padding: 14px var(--shell-pad) 4px;
 }
 
-.short-halo-2 {
-  width: 84%;
-  opacity: 0.24;
+.short-arte svg {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
 }
-
-/* Grano: sin él, un degradado tan grande se bandea en pantallas de 8 bits */
-.short-grano {
-  position: absolute;
-  inset: 0;
-  opacity: 0.5;
-  background-image: radial-gradient(rgba(242, 236, 225, 0.055) 1px, transparent 1px);
-  background-size: 3px 3px;
-}
-
-/* Viñeta: cierra las esquinas para que el texto claro no se despegue */
-.short-vineta {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at 50% 44%, transparent 46%, rgba(14, 14, 22, 0.58) 100%);
-}
-
-.short-head,
-.short-area,
-.short .actions,
-.short .hint-swipe { position: relative; z-index: 1; }
 
 /* --- Pie de acciones --- */
 
@@ -3084,85 +2999,55 @@ button {
 /* ==========================================================================
    LA PANTALLA DE CARGA
 
-   La biblioteca se monta delante de ti. Nueve portadas en rejilla que caen en
-   diagonal —las de verdad, con su ilustración y su color—, debajo la barra y
-   su cifra, y al pie las tres tareas cerrándose una a una.
+   La biblioteca se monta delante de ti. Doce portadas en rejilla que caen en
+   diagonal, y debajo las tres tareas cerrándose una a una.
    ========================================================================== */
 
 .carga {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 30px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 26px;
 }
 
 .carga-rejilla {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  width: min(100%, 264px);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 9px;
+  width: min(100%, 250px);
 }
 
 .carga-portada {
   position: relative;
-  display: grid;
-  place-items: center;
   aspect-ratio: 3 / 4;
-  border-radius: 9px;
+  border-radius: 7px;
   overflow: hidden;
-  box-shadow: 0 4px 11px rgba(46, 40, 34, 0.2);
+  box-shadow: 0 3px 8px rgba(46, 40, 34, 0.16);
 }
 
-/* El lomo, en el canto izquierdo: sombra pegada al borde y una luz al lado */
-.carga-portada-lomo {
+.carga-portada-marca {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 7px;
-  background: linear-gradient(90deg, rgba(46, 40, 34, 0.22), rgba(255, 255, 255, 0.16));
-}
-
-.carga-portada-arte {
-  width: 86%;
-  height: 86%;
-  opacity: 0.95;
-}
-
-/* La barra: la cifra a la derecha, en cifras de ancho fijo para que no baile */
-
-.carga-barra {
-  display: flex;
-  align-items: center;
-  gap: 11px;
-  width: min(100%, 264px);
-}
-
-.carga-barra-pista {
-  flex: 1;
-  height: 8px;
+  top: 22%;
+  left: 50%;
+  width: 42%;
+  aspect-ratio: 1;
   border-radius: 999px;
-  background: var(--paper-edge);
-  overflow: hidden;
+  background: var(--paper);
+  opacity: 0.85;
+  transform: translateX(-50%);
 }
 
-.carga-barra-relleno {
-  height: 100%;
-  border-radius: 999px;
-  background: var(--sage);
-  transform-origin: left center;
-}
-
-.carga-barra-cifra {
-  flex: none;
-  min-width: 4ch;
-  font-size: 13px;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  text-align: right;
-  color: var(--ink-soft);
+.carga-portada-linea {
+  position: absolute;
+  left: 18%;
+  right: 18%;
+  bottom: 20%;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--paper);
+  opacity: 0.6;
 }
 
 .carga-tareas {
@@ -3191,33 +3076,4 @@ button {
   font-weight: 580;
   letter-spacing: -0.01em;
   color: var(--ink-soft);
-}
-
-/* ==========================================================================
-   EL CARTEL
-
-   La portada que se dibuja sola cuando una historia todavía no tiene
-   fotografía. Ocupa exactamente el hueco de la foto y no se distingue de ella
-   en la maquetación: la sección se ve entera desde el primer día.
-   ========================================================================== */
-
-.cartel {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  background: var(--carbon);
-}
-
-.cartel svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.cartel-grano {
-  position: absolute;
-  inset: 0;
-  opacity: 0.55;
-  background-image: radial-gradient(rgba(242, 236, 225, 0.06) 1px, transparent 1px);
-  background-size: 3px 3px;
 }

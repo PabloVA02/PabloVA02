@@ -9,9 +9,9 @@ import {
   type MotionValue,
   type PanInfo,
 } from "framer-motion";
-import { MINUTOS, SHORTS, urlFoto, type Foto, type Pagina, type Short } from "./shorts";
+import { SHORTS, urlFoto, type Foto, type Short } from "./shorts";
 import { PORTADAS } from "./portadas";
-import { Cartel } from "./Cartel";
+import { Ilustracion } from "./Scene";
 import { GlyphBack, GlyphClose, GlyphHeart, GlyphRayo, GlyphShare } from "./glyphs";
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 
@@ -21,17 +21,12 @@ import { enterVariants, spring, springPop, springSoft, springTight } from "./mot
    Dos pantallas. El MURO, que es una pila vertical de portadas a sangre, y el
    LECTOR, que es un mazo horizontal: se desliza a la derecha para profundizar.
 
-   El lector tiene cuatro pantallas SIEMPRE: portada y tres páginas. Como la
-   forma no cambia de una historia a otra, la barra de tramos de arriba dice
-   la verdad desde el primer momento y se pueden encadenar historias sin tener
-   que recalibrar cuánto queda cada vez.
-
    Sobre las fotografías: son de Wikimedia Commons y se piden por red. Aquí
    eso importa más de lo normal, porque una foto que no carga deja un agujero
    negro en mitad del diseño. Por eso <Fotografia> nunca enseña un hueco:
-   mientras carga hay un degradado del color del short, y si falla —o si esa
-   historia todavía no tiene foto asignada— se queda su cartel, dibujado a
-   partir de su id. El diseño no depende de la red, la aprovecha.
+   mientras carga hay un degradado del color del short, y si falla del todo se
+   queda una de nuestras ilustraciones. El diseño no depende de la red, la
+   aprovecha.
    ========================================================================== */
 
 const UMBRAL_PX = 62;
@@ -55,17 +50,14 @@ function Fotografia({
   /** Parallax. Se aplica DENTRO de la caja recortada, nunca fuera. */
   desplaza,
 }: {
-  /** Si no hay foto asignada todavía, se dibuja el respaldo y ya está. */
-  foto?: Foto;
+  foto: Foto;
   /** Qué se dibuja si la foto no llega. Es del tema, no genérico. */
   Respaldo: (p: { reducido: boolean }) => ReactElement;
   reducido: boolean;
   deriva?: boolean;
   desplaza?: MotionValue<number>;
 }) {
-  // Sin foto asignada no se espera a nada: el cartel es el estado final, no un
-  // sustituto provisional que haya que anunciar con un barrido de carga.
-  const [estado, setEstado] = useState<EstadoFoto>(foto ? "cargando" : "fallida");
+  const [estado, setEstado] = useState<EstadoFoto>("cargando");
 
   // La imagen se precarga fuera del árbol para poder decidir qué pintar antes
   // de que el navegador enseñe el icono de imagen rota.
@@ -75,8 +67,6 @@ function Fotografia({
   // dejan el barrido de carga girando para siempre, que es peor que enseñar
   // directamente la ilustración.
   useEffect(() => {
-    if (!foto) return setEstado("fallida");
-
     let vivo = true;
     setEstado("cargando");
 
@@ -102,7 +92,7 @@ function Fotografia({
 
       <motion.div className="foto-desplaza" style={desplaza ? { x: desplaza } : undefined}>
       <AnimatePresence>
-        {estado === "lista" && foto && (
+        {estado === "lista" && (
           <motion.img
             key="foto"
             className="foto-img"
@@ -149,19 +139,6 @@ function Fotografia({
         />
       )}
     </div>
-  );
-}
-
-/**
- * Qué se dibuja cuando no hay fotografía. Las diez historias antiguas tienen
- * su cartel hecho a mano, dibujado para ESA historia, y esos ganan siempre.
- * El resto usa el cartel generado a partir del id.
- */
-function respaldoDe(short: Short) {
-  const propio = PORTADAS[short.id];
-  if (propio) return propio;
-  return ({ reducido }: { reducido: boolean }) => (
-    <Cartel id={short.id} color={short.color} reducido={reducido} />
   );
 }
 
@@ -225,21 +202,11 @@ export function MuroShorts({ onAbrir }: { onAbrir: (s: Short) => void }) {
         Shorts
       </motion.header>
 
-      {/* Por cuál vas. Con cien historias un punto por historia no cabe —y de
-          hecho tampoco informa—, así que va la cuenta y un carril continuo. */}
+      {/* Cuántas historias hay y por cuál vas */}
       <div className="muro-cuenta" aria-hidden>
-        <span className="muro-cuenta-cifra">
-          {activo + 1}
-          <span className="muro-cuenta-total">/{SHORTS.length}</span>
-        </span>
-        <span className="muro-carril">
-          <motion.span
-            className="muro-carril-relleno"
-            initial={false}
-            animate={{ scaleY: (activo + 1) / SHORTS.length }}
-            transition={springTight}
-          />
-        </span>
+        {SHORTS.map((s, i) => (
+          <span key={s.id} className="muro-punto" data-activo={i === activo} />
+        ))}
       </div>
 
       <div className="muro-pase" ref={scroll}>
@@ -287,7 +254,7 @@ function PaginaShort({
       <div className="muro-foto">
         <Fotografia
           foto={short.foto}
-          Respaldo={respaldoDe(short)}
+          Respaldo={PORTADAS[short.id]}
           reducido={reducido}
           deriva={activo}
           desplaza={xFoto}
@@ -312,7 +279,7 @@ function PaginaShort({
           animate={activo ? { opacity: 1, y: 0 } : { opacity: 0, y: 14 }}
           transition={{ ...springSoft, delay: activo ? 0.06 : 0 }}
         >
-          {short.categoria} · {MINUTOS} min
+          {short.categoria} · {short.minutos} min
         </motion.span>
         <motion.h2
           initial={false}
@@ -375,8 +342,8 @@ export function LectorShort({
   const xFondo = useTransform(x, (v) => v * 0.22);
   const xTexto = useTransform(x, (v) => v * 0.85);
 
-  // La portada cuenta como página: es la primera. Cuatro, siempre.
-  const total = short.paginas.length + 1;
+  // La portada cuenta como tarjeta: es la primera.
+  const total = short.tarjetas.length + 1;
 
   function avanzar(paso: number) {
     if (bloqueado.current) return;
@@ -412,7 +379,7 @@ export function LectorShort({
   });
 
   const portada = indice === 0;
-  const pagina = portada ? null : short.paginas[indice - 1];
+  const tarjeta = portada ? null : short.tarjetas[indice - 1];
 
   return (
     <motion.div
@@ -422,11 +389,6 @@ export function LectorShort({
       animate={{ opacity: 1, scale: 1, transition: spring }}
       exit={{ opacity: 0, scale: 0.98, transition: { duration: 0.2 } }}
     >
-      {/* El fondo de lectura vive fuera del mazo de páginas: si entrara y
-          saliera con cada tarjeta, cada deslizamiento sería un parpadeo de
-          color. Se queda quieto y las páginas pasan por encima. */}
-      <FondoLectura pagina={indice} reducido={!!reducido} />
-
       <div className="short-head">
         <button className="icon-btn" onClick={onSalir} aria-label="Cerrar historia">
           <GlyphClose />
@@ -468,7 +430,7 @@ export function LectorShort({
           <motion.div
             key={indice}
             className="short-carta"
-            data-forma={portada ? "portada" : "pagina"}
+            data-forma={portada ? "portada" : tarjeta!.forma}
             custom={sentido}
             initial={{ opacity: 0, x: sentido * 34 }}
             animate={{ opacity: 1, x: 0, transition: { ...spring, delay: 0.05 } }}
@@ -480,7 +442,7 @@ export function LectorShort({
                 <div className="short-portada-foto">
                   <Fotografia
                     foto={short.foto}
-                    Respaldo={respaldoDe(short)}
+                    Respaldo={PORTADAS[short.id]}
                     reducido={!!reducido}
                     desplaza={xFondo}
                   />
@@ -495,7 +457,7 @@ export function LectorShort({
                     initial="hidden"
                     animate="shown"
                   >
-                    {short.categoria} · {MINUTOS} min
+                    {short.categoria} · {short.minutos} min
                   </motion.span>
                   <motion.h1
                     custom={1}
@@ -520,37 +482,29 @@ export function LectorShort({
                     initial="hidden"
                     animate="shown"
                   >
-                    {short.foto
-                      ? `${short.foto.autor} · ${short.foto.licencia}`
-                      : short.encargo}
+                    {short.foto.autor} · {short.foto.licencia}
                   </motion.p>
-
-                  {/* El aviso va en el flujo, no flotando: con una entrada de
-                      sesenta palabras, un rótulo absoluto se comía el texto. */}
-                  <motion.span
-                    className="short-tirar"
-                    custom={4}
-                    variants={enterVariants}
-                    initial="hidden"
-                    animate="shown"
-                  >
-                    <motion.span
-                      className="muro-flecha"
-                      animate={reducido ? {} : { x: [0, 7, 0] }}
-                      transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                    >
-                      →
-                    </motion.span>
-                    Desliza para profundizar
-                  </motion.span>
                 </motion.div>
               </>
             ) : (
-              <CuerpoPagina pagina={pagina!} numero={indice} reducido={!!reducido} />
+              <CuerpoTarjeta tarjeta={tarjeta!} short={short} reducido={!!reducido} />
             )}
           </motion.div>
         </AnimatePresence>
       </motion.div>
+
+      <AnimatePresence>
+        {indice === 0 && (
+          <motion.p
+            className="hint-swipe"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { delay: 1 } }}
+            exit={{ opacity: 0, transition: { duration: 0.15 } }}
+          >
+            Desliza para profundizar
+          </motion.p>
+        )}
+      </AnimatePresence>
 
       <div className="actions">
         <div className="action-group">
@@ -585,139 +539,121 @@ export function LectorShort({
 }
 
 /* --------------------------------------------------------------------------
-   El cuerpo de una página. Siempre la misma pieza: rótulo, bloque de texto y,
-   como mucho, un golpe. Que las tres páginas de las cien historias compartan
-   esqueleto es lo que permite leer diez seguidas sin cansarse: el ojo aprende
-   dónde está cada cosa una vez y ya no vuelve a buscarla.
+   El cuerpo de cada tarjeta. La forma manda sobre la maquetación, igual que
+   en los capítulos.
    -------------------------------------------------------------------------- */
 
-function CuerpoPagina({
-  pagina,
-  numero,
+function CuerpoTarjeta({
+  tarjeta,
+  short,
   reducido,
 }: {
-  pagina: Pagina;
-  /** 1, 2 o 3. Se pinta enorme y translúcido detrás del rótulo. */
-  numero: number;
+  tarjeta: NonNullable<Short["tarjetas"][number]>;
+  short: Short;
   reducido: boolean;
 }) {
-  return (
-    <div className="short-pagina">
-      <div className="short-rotulo-fila">
-        <motion.span
-          className="short-indice"
-          initial={{ opacity: 0, x: -14 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ ...springSoft, delay: 0.04 }}
-          aria-hidden
-        >
-          {numero}
-        </motion.span>
-        <motion.span
-          className="short-rotulo"
-          custom={1}
-          variants={enterVariants}
-          initial="hidden"
-          animate="shown"
-        >
-          {pagina.rotulo}
-        </motion.span>
-      </div>
-
-      <motion.p
-        className="short-cuerpo"
-        custom={2}
-        variants={enterVariants}
-        initial="hidden"
-        animate="shown"
-        dangerouslySetInnerHTML={{ __html: pagina.texto }}
-      />
-
-      {pagina.destacado && <Destacado dato={pagina.destacado} reducido={reducido} />}
-    </div>
-  );
-}
-
-/**
- * El golpe de la página. Va siempre debajo del bloque y ocupa el mismo sitio
- * sea cifra o frase, para que al pasar página no se mueva nada de sitio.
- */
-function Destacado({
-  dato,
-  reducido,
-}: {
-  dato: NonNullable<Pagina["destacado"]>;
-  reducido: boolean;
-}) {
-  if (dato.tipo === "cifra") {
+  if (tarjeta.forma === "golpe") {
     return (
-      <div className="short-destacado" data-tipo="cifra">
-        <Contador valor={dato.cifra} reducido={reducido} />
+      <div className="short-golpe">
         <motion.span
-          className="short-unidad"
-          custom={4}
-          variants={enterVariants}
-          initial="hidden"
-          animate="shown"
+          className="short-comilla"
+          initial={{ opacity: 0, scale: 0.5, rotate: -12 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
+          transition={{ ...springPop, delay: 0.1 }}
         >
-          {dato.unidad}
+          <GlyphRayo />
         </motion.span>
+        <motion.p custom={1} variants={enterVariants} initial="hidden" animate="shown">
+          {tarjeta.frase}
+        </motion.p>
       </div>
     );
   }
 
+  if (tarjeta.forma === "cifra") {
+    return (
+      <div className="short-cifra">
+        <Contador valor={tarjeta.cifra} reducido={reducido} />
+        <motion.span
+          className="short-unidad"
+          custom={2}
+          variants={enterVariants}
+          initial="hidden"
+          animate="shown"
+        >
+          {tarjeta.unidad}
+        </motion.span>
+        <motion.p
+          custom={3}
+          variants={enterVariants}
+          initial="hidden"
+          animate="shown"
+          dangerouslySetInnerHTML={{ __html: tarjeta.texto }}
+        />
+      </div>
+    );
+  }
+
+  if (tarjeta.forma === "foto") {
+    return (
+      <>
+        <motion.div
+          className="short-foto-media"
+          initial={{ opacity: 0, y: 18, scale: 0.97 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={springSoft}
+        >
+          <Fotografia foto={tarjeta.foto} Respaldo={PORTADAS[short.id]} reducido={reducido} />
+        </motion.div>
+        <motion.p
+          className="short-cuerpo"
+          custom={2}
+          variants={enterVariants}
+          initial="hidden"
+          animate="shown"
+          dangerouslySetInnerHTML={{ __html: tarjeta.texto }}
+        />
+        <motion.p
+          className="short-credito"
+          custom={3}
+          variants={enterVariants}
+          initial="hidden"
+          animate="shown"
+        >
+          {tarjeta.foto.autor} · {tarjeta.foto.licencia}
+        </motion.p>
+      </>
+    );
+  }
+
+  if (tarjeta.forma === "arte") {
+    return (
+      <>
+        <motion.p
+          className="short-cuerpo"
+          custom={1}
+          variants={enterVariants}
+          initial="hidden"
+          animate="shown"
+          dangerouslySetInnerHTML={{ __html: tarjeta.texto }}
+        />
+        <div className="short-arte">
+          <Ilustracion arte={tarjeta.arte} reducido={reducido} retraso={0.1} />
+        </div>
+      </>
+    );
+  }
+
   return (
-    <motion.div
-      className="short-destacado"
-      data-tipo="frase"
-      custom={4}
+    <motion.p
+      className="short-cuerpo"
+      data-solo
+      custom={1}
       variants={enterVariants}
       initial="hidden"
       animate="shown"
-    >
-      <span className="short-comilla" aria-hidden>
-        <GlyphRayo tamano={14} />
-      </span>
-      <p>{dato.frase}</p>
-    </motion.div>
-  );
-}
-
-/**
- * El fondo de lectura. Tres capas: el color de la historia en un halo que se
- * mueve muy despacio, un grano fino encima y una viñeta que cierra los
- * bordes. Sin el grano, el degradado se bandea en pantallas de 8 bits; sin la
- * viñeta, el texto claro se despega del fondo por las esquinas.
- *
- * El halo cambia de sitio con cada página. Es el único indicio de que has
- * avanzado que no es un número: el fondo no es el mismo que hace un momento.
- */
-function FondoLectura({ pagina, reducido }: { pagina: number; reducido: boolean }) {
-  const sitios = [
-    { x: "18%", y: "24%" },
-    { x: "78%", y: "32%" },
-    { x: "26%", y: "72%" },
-    { x: "72%", y: "78%" },
-  ];
-  const sitio = sitios[pagina % sitios.length];
-
-  return (
-    <div className="short-fondo" aria-hidden>
-      <motion.span
-        className="short-halo"
-        initial={false}
-        animate={{ left: sitio.x, top: sitio.y }}
-        transition={{ duration: reducido ? 0 : 1.4, ease: "easeInOut" }}
-      />
-      <motion.span
-        className="short-halo short-halo-2"
-        initial={false}
-        animate={{ left: sitio.y, top: sitio.x }}
-        transition={{ duration: reducido ? 0 : 2.1, ease: "easeInOut" }}
-      />
-      <span className="short-grano" />
-      <span className="short-vineta" />
-    </div>
+      dangerouslySetInnerHTML={{ __html: tarjeta.texto }}
+    />
   );
 }
 

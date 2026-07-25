@@ -15,7 +15,7 @@ import { DetalleLibro, Inicio, LIBROS, type Libro } from "./Biblioteca";
 import { Camino } from "./Camino";
 import { Onboarding } from "./Onboarding";
 import { MuroShorts, LectorShort } from "./Shorts";
-import { MINUTOS, type Short } from "./shorts";
+import type { Short } from "./shorts";
 import { Pago } from "./Pago";
 import { Perfil } from "./Perfil";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
@@ -105,8 +105,8 @@ export default function App() {
               onSalir={() => setPantalla("shorts")}
               onFin={(m) => {
                 setMinutos(m);
-                setObjetivo(MINUTOS);
-                setLeidas((n) => n + short.paginas.length + 1);
+                setObjetivo(short.minutos);
+                setLeidas((n) => n + short.tarjetas.length + 1);
                 setVuelta("shorts");
                 setPantalla("racha");
               }}
