@@ -8,6 +8,10 @@ import { PADRE_RICO, BABILONIA, SEMANA_4_HORAS, PIENSA_HAZTE_RICO } from "./econ
 import { BUSCA_SENTIDO, IKIGAI, CUATRO_ACUERDOS, SUTIL_ARTE } from "./filosofia";
 import { COSMOS, POR_QUE_DORMIMOS, BREVE_HISTORIA_TIEMPO, RESPIRA } from "./ciencia-salud";
 import { PRINCIPITO, ALQUIMISTA, REBELION_GRANJA, FAHRENHEIT } from "./literatura";
+import { ROBA_ARTISTA, GUERRA_ARTE, MODOS_VER, CARTAS_THEO, LEONARDO } from "./arte";
+import { ANA_FRANK, ARMAS_GERMENES, INFINITO_JUNCO, MANDELA, MALALA } from "./historia";
+import { GEN_EGOISTA, FEYNMAN, VIDA_ARBOLES, CASI_TODO, MUNDO_DEMONIOS } from "./ciencia";
+import { CUERPO_CUENTA, DIGESTION, NACIDOS_CORRER, DILEMA_OMNIVORO, ALIENTO_AIRE } from "./salud";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
 
@@ -56,6 +60,34 @@ export const RESUMENES: Record<string, Resumen> = {
   alquimista: ALQUIMISTA,
   "rebelion-granja": REBELION_GRANJA,
   fahrenheit: FAHRENHEIT,
+
+  /* Arte */
+  "roba-artista": ROBA_ARTISTA,
+  "guerra-arte": GUERRA_ARTE,
+  "modos-ver": MODOS_VER,
+  "van-gogh-cartas": CARTAS_THEO,
+  leonardo: LEONARDO,
+
+  /* Historia */
+  "diario-ana-frank": ANA_FRANK,
+  "armas-germenes": ARMAS_GERMENES,
+  "infinito-junco": INFINITO_JUNCO,
+  mandela: MANDELA,
+  malala: MALALA,
+
+  /* Ciencia */
+  "gen-egoista": GEN_EGOISTA,
+  feynman: FEYNMAN,
+  "vida-arboles": VIDA_ARBOLES,
+  "casi-todo": CASI_TODO,
+  "mundo-demonios": MUNDO_DEMONIOS,
+
+  /* Salud */
+  "cuerpo-cuenta": CUERPO_CUENTA,
+  "digestion-cuestion": DIGESTION,
+  "nacidos-correr": NACIDOS_CORRER,
+  "dilema-omnivoro": DILEMA_OMNIVORO,
+  "aliento-aire": ALIENTO_AIRE,
 };
 
 export function comprobar() {
