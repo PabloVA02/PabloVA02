@@ -14,8 +14,7 @@ import { Racha, RetoDiario } from "./Racha";
 import { DetalleLibro, Inicio, LIBROS, type Libro } from "./Biblioteca";
 import { Camino } from "./Camino";
 import { Onboarding } from "./Onboarding";
-import { MuroShorts, LectorShort } from "./Shorts";
-import { MINUTOS, type Short } from "./shorts";
+import { MuroShorts } from "./Shorts";
 import { Pago } from "./Pago";
 import { Perfil } from "./Perfil";
 import { Ajustes } from "./Ajustes";
@@ -28,7 +27,7 @@ import {
 
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto"
-  | "shorts" | "short" | "perfil" | "ajustes" | "oferta";
+  | "shorts" | "perfil" | "ajustes" | "oferta";
 
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
 const CON_BARRA: Pantalla[] = ["inicio", "shorts", "perfil"];
@@ -39,7 +38,6 @@ const RACHA = 3;
 export default function App() {
   const [pantalla, setPantalla] = useState<Pantalla>("intro");
   const [libro, setLibro] = useState<Libro>(LIBROS[0]);
-  const [short, setShort] = useState<Short | null>(null);
   /** A dónde vuelve el cierre. Un short no devuelve al camino de un libro. */
   const [vuelta, setVuelta] = useState<Pantalla>("camino");
   /** Objetivo de lectura de lo que se acaba de terminar, para comparar. */
@@ -115,26 +113,12 @@ export default function App() {
             <Oferta key="oferta" reducido={!!reducido} onCerrar={() => setPantalla("inicio")} />
           )}
           {pantalla === "shorts" && (
+            // Terminar un short no saca de la sección: deja en la siguiente
+            // historia. Lo único que sube al estado de la app es la cuenta de
+            // tarjetas leídas, que es lo que ve el perfil.
             <MuroShorts
               key="shorts"
-              onAbrir={(s) => {
-                setShort(s);
-                setPantalla("short");
-              }}
-            />
-          )}
-          {pantalla === "short" && short && (
-            <LectorShort
-              key="short"
-              short={short}
-              onSalir={() => setPantalla("shorts")}
-              onFin={(m) => {
-                setMinutos(m);
-                setObjetivo(MINUTOS);
-                setLeidas((n) => n + short.paginas.length + 1);
-                setVuelta("shorts");
-                setPantalla("racha");
-              }}
+              onLeido={(s) => setLeidas((n) => n + s.paginas.length + 1)}
             />
           )}
           {pantalla === "detalle" && (

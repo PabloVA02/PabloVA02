@@ -12,19 +12,28 @@ import {
 import { MINUTOS, SHORTS, urlFoto, type Foto, type Pagina, type Short } from "./shorts";
 import { PORTADAS } from "./portadas";
 import { Cartel } from "./Cartel";
-import { GlyphBack, GlyphClose, GlyphHeart, GlyphRayo, GlyphShare } from "./glyphs";
+import { GlyphHeart, GlyphRayo, GlyphShare } from "./glyphs";
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 
 /* ==========================================================================
    Shorts.
 
-   Dos pantallas. El MURO, que es una pila vertical de portadas a sangre, y el
-   LECTOR, que es un mazo horizontal: se desliza a la derecha para profundizar.
+   UNA SOLA PANTALLA. No hay un muro por un lado y un lector por otro: la
+   historia se lee en el mismo sitio donde la encuentras. Nada se «abre».
 
-   El lector tiene cuatro pantallas SIEMPRE: portada y tres páginas. Como la
-   forma no cambia de una historia a otra, la barra de tramos de arriba dice
-   la verdad desde el primer momento y se pueden encadenar historias sin tener
-   que recalibrar cuánto queda cada vez.
+   Todas las pantallas son la misma pieza —fotografía arriba, texto abajo— y
+   solo hay dos gestos:
+
+       arriba          cambias de historia
+       a la derecha    sigues avanzando en la que estás
+       a la izquierda  vuelves una pantalla (desde la portada, avanza también)
+
+   Cuatro pantallas por historia: portada y tres páginas. Al pasar la última
+   te deja directamente en la siguiente historia, así que se puede leer media
+   sección sin levantar el dedo. La fotografía NO se desmonta al avanzar: es
+   una capa fija de la historia y las páginas pasan por delante. Si entrara y
+   saliera con cada página, cada deslizamiento sería un parpadeo y la foto se
+   volvería a pedir por red.
 
    Sobre las fotografías: son de Wikimedia Commons y se piden por red. Aquí
    eso importa más de lo normal, porque una foto que no carga deja un agujero
@@ -166,21 +175,19 @@ function respaldoDe(short: Short) {
 }
 
 /* --------------------------------------------------------------------------
-   El muro
+   El pase
    -------------------------------------------------------------------------- */
 
 /**
- * El muro no es una lista de fichas: es un pase a pantalla completa. Nada más
- * entrar ya hay una historia ocupando todo, con la fotografía en grande y el
- * texto abajo. Se sube para cambiar de historia y se arrastra a la derecha
- * para meterse en la que estés viendo.
+ * La sección entera: una pila vertical de historias a pantalla completa.
  *
  * El anclaje vertical lo hace el navegador con `scroll-snap`, que va a 60 fps
  * porque no pasa por JavaScript. Lo único que se observa desde React es CUÁL
- * está delante, y eso solo sirve para animar su texto y para no tener diez
- * derivas Ken Burns corriendo a la vez.
+ * está delante, y eso sirve para animar su texto, para no tener diez derivas
+ * Ken Burns corriendo a la vez y para saber a quién le hablan las flechas del
+ * teclado.
  */
-export function MuroShorts({ onAbrir }: { onAbrir: (s: Short) => void }) {
+export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) => void }) {
   const reducido = useReducedMotion();
   const [activo, setActivo] = useState(0);
   const scroll = useRef<HTMLDivElement>(null);
@@ -205,6 +212,19 @@ export function MuroShorts({ onAbrir }: { onAbrir: (s: Short) => void }) {
     return () => observador.disconnect();
   }, []);
 
+  /**
+   * Terminar una historia no devuelve a ninguna parte: deja en la siguiente.
+   * Devuelve `false` si ya era la última, para que la historia rebote en vez
+   * de quedarse quieta sin explicar por qué.
+   */
+  function irASiguiente(desde: number) {
+    const caja = scroll.current;
+    const destino = caja?.children[desde + 1] as HTMLElement | undefined;
+    if (!destino) return false;
+    destino.scrollIntoView({ behavior: reducido ? "auto" : "smooth", block: "start" });
+    return true;
+  }
+
   return (
     <motion.div
       className="muro"
@@ -225,22 +245,20 @@ export function MuroShorts({ onAbrir }: { onAbrir: (s: Short) => void }) {
         Shorts
       </motion.header>
 
-      {/* Por cuál vas. Con cien historias un punto por historia no cabe —y de
-          hecho tampoco informa—, así que va la cuenta y un carril continuo. */}
-      <div className="muro-cuenta" aria-hidden>
+      {/* Por cuál del montón vas. Con cien historias, un punto por historia ni
+          cabe ni informa: la cuenta sí. */}
+      <motion.div
+        className="muro-cuenta"
+        aria-hidden
+        initial={{ opacity: 0, y: -12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ ...springPop, delay: 0.16 }}
+      >
         <span className="muro-cuenta-cifra">
           {activo + 1}
           <span className="muro-cuenta-total">/{SHORTS.length}</span>
         </span>
-        <span className="muro-carril">
-          <motion.span
-            className="muro-carril-relleno"
-            initial={false}
-            animate={{ scaleY: (activo + 1) / SHORTS.length }}
-            transition={springTight}
-          />
-        </span>
-      </div>
+      </motion.div>
 
       <div className="muro-pase" ref={scroll}>
         {SHORTS.map((s, i) => (
@@ -250,7 +268,8 @@ export function MuroShorts({ onAbrir }: { onAbrir: (s: Short) => void }) {
             indice={i}
             activo={i === activo}
             reducido={!!reducido}
-            onAbrir={() => onAbrir(s)}
+            onLeido={onLeido}
+            onSiguiente={() => irASiguiente(i)}
           />
         ))}
       </div>
@@ -258,33 +277,121 @@ export function MuroShorts({ onAbrir }: { onAbrir: (s: Short) => void }) {
   );
 }
 
+/* --------------------------------------------------------------------------
+   Una historia
+   -------------------------------------------------------------------------- */
+
 function PaginaShort({
   short,
   indice,
   activo,
   reducido,
-  onAbrir,
+  onLeido,
+  onSiguiente,
 }: {
   short: Short;
   indice: number;
   activo: boolean;
   reducido: boolean;
-  onAbrir: () => void;
+  onLeido: (s: Short, minutos: number) => void;
+  /** Lleva a la historia de abajo. `false` si esta era la última. */
+  onSiguiente: () => boolean;
 }) {
+  /** 0 es la portada; 1, 2 y 3 son las páginas. */
+  const [paso, setPaso] = useState(0);
+  const [sentido, setSentido] = useState(1);
+  const [guardado, setGuardado] = useState(false);
+  const arranque = useRef(Date.now());
+  const contada = useRef(false);
+  const bloqueado = useRef(false);
+  /** Si el último gesto fue un arrastre, el `click` que viene detrás sobra. */
+  const arrastro = useRef(false);
+
+  const total = short.paginas.length + 1;
+
+  // Un solo valor de gesto para toda la historia. El texto va pegado al dedo y
+  // la foto se mueve en contra: 1 − 0,55 = 0,45 de recorrido neto frente al
+  // 0,92 del texto. El parallax sale de la resta, no de una segunda animación.
   const x = useMotionValue(0);
-  // El arrastre lo lleva la PÁGINA ENTERA, así que la foto viaja con ella. Para
-  // que siga habiendo profundidad, la foto se mueve en contra: 1 − 0,7 = 0,3 de
-  // recorrido neto frente al 1 del texto. El parallax sale de la resta.
-  const xFoto = useTransform(x, (v) => -v * 0.7);
+  const xFoto = useTransform(x, (v) => -v * 0.55);
+  const xHoja = useTransform(x, (v) => v * 0.92);
+
+  // El cronómetro arranca cuando la historia se pone delante, no cuando se
+  // monta: se montan todas a la vez al entrar en la sección.
+  useEffect(() => {
+    if (activo) arranque.current = Date.now();
+  }, [activo]);
+
+  function avanzar(delta: number) {
+    if (bloqueado.current) return;
+    const destino = paso + delta;
+    if (destino < 0) return rebotar(-1);
+    if (destino >= total) return terminar();
+
+    bloqueado.current = true;
+    setSentido(delta);
+    setPaso(destino);
+    animate(x, 0, { ...springSoft, onComplete: () => (bloqueado.current = false) });
+  }
+
+  function terminar() {
+    if (!contada.current) {
+      contada.current = true;
+      onLeido(short, (Date.now() - arranque.current) / 60000);
+    }
+    if (!onSiguiente()) return rebotar(1);
+    // Ya no se ve: se rebobina para que, si alguien vuelve a subir, la
+    // historia esté otra vez por la portada y no por el final.
+    window.setTimeout(() => setPaso(0), 420);
+  }
+
+  function rebotar(direccion: number) {
+    animate(x, direccion * 26, { ...spring, onComplete: () => animate(x, 0, springSoft) });
+  }
 
   function alSoltar(_: unknown, info: PanInfo) {
-    if (info.offset.x < -UMBRAL_PX || info.velocity.x < -UMBRAL_VEL) return onAbrir();
-    if (info.offset.x > UMBRAL_PX || info.velocity.x > UMBRAL_VEL) return onAbrir();
+    const { offset, velocity } = info;
+
+    // Un toque con la mano poco firme mueve tres o cuatro píxeles y eso ya
+    // cuenta como arrastre para Framer. Se trata como lo que era: un toque.
+    if (Math.abs(offset.x) < 8 && Math.abs(offset.y) < 8) return avanzar(1);
+
+    const derecha = offset.x > UMBRAL_PX || velocity.x > UMBRAL_VEL;
+    const izquierda = offset.x < -UMBRAL_PX || velocity.x < -UMBRAL_VEL;
+
+    // A la derecha se avanza. A la izquierda se vuelve, salvo en la portada,
+    // donde no hay nada detrás: allí cualquier lado tira hacia delante, que es
+    // lo que espera quien todavía no sabe cómo va esto.
+    if (derecha) return avanzar(1);
+    if (izquierda) return avanzar(paso === 0 ? 1 : -1);
     animate(x, 0, springSoft);
   }
 
+  // Las flechas solo le hablan a la historia que está delante.
+  useEffect(() => {
+    if (!activo) return;
+    function teclas(e: KeyboardEvent) {
+      // Con el foco en el corazón, el espacio es del corazón, no de la página.
+      if (document.activeElement?.closest("button")) return;
+      if (e.key === "ArrowRight" || e.key === " ") {
+        e.preventDefault();
+        avanzar(1);
+      }
+      if (e.key === "ArrowLeft") avanzar(-1);
+    }
+    window.addEventListener("keydown", teclas);
+    return () => window.removeEventListener("keydown", teclas);
+  });
+
+  const portada = paso === 0;
+  const ultima = paso === total - 1;
+
   return (
-    <section className="muro-pagina" data-indice={indice} style={{ ["--acento" as string]: short.color }}>
+    <section
+      className="muro-pagina"
+      data-indice={indice}
+      style={{ ["--acento" as string]: short.color }}
+    >
       {/* El gesto vive en la página entera: se desliza desde cualquier punto,
           no hay que ir a buscar el texto de abajo. `touch-action: pan-y` deja
           pasar el desplazamiento vertical, que lo gobierna el navegador. */}
@@ -295,10 +402,28 @@ function PaginaShort({
         dragConstraints={{ left: 0, right: 0 }}
         dragElastic={0.34}
         dragMomentum={false}
-        onDragEnd={alSoltar}
-        onClick={onAbrir}
+        onDragStart={() => (arrastro.current = true)}
+        onDragEnd={(e, info) => {
+          alSoltar(e, info);
+          // El navegador dispara un `click` al soltar el ratón aunque haya
+          // habido arrastre, y llega ANTES que este manejador: sin la marca,
+          // deslizar a la izquierda avanzaba en vez de volver, porque el
+          // click ya había pasado página. Se limpia detrás del click.
+          window.setTimeout(() => (arrastro.current = false), 0);
+        }}
+        onClick={() => {
+          if (arrastro.current) return;
+          avanzar(1);
+        }}
       >
-        <div className="muro-foto">
+        {/* La foto es de la historia, no de la pantalla: se queda montada las
+            cuatro y solo se aparta un poco cuando el texto crece. */}
+        <motion.div
+          className="muro-foto"
+          initial={false}
+          animate={{ scale: portada ? 1 : 1.06, y: portada ? 0 : -16 }}
+          transition={springSoft}
+        >
           <Fotografia
             foto={short.foto}
             Respaldo={respaldoDe(short)}
@@ -306,287 +431,137 @@ function PaginaShort({
             deriva={activo}
             desplaza={xFoto}
           />
-        </div>
-        <div className="muro-velo" />
+        </motion.div>
+        <div className="muro-velo" data-hondo={!portada} />
 
-        <div className="muro-texto">
-        {/* Se anima solo la que está delante: entrar en pantalla es el disparo */}
-        <motion.span
-          className="muro-etiqueta"
-          initial={false}
-          animate={activo ? { opacity: 1, y: 0 } : { opacity: 0, y: 14 }}
-          transition={{ ...springSoft, delay: activo ? 0.06 : 0 }}
-        >
-          {short.categoria} · {MINUTOS} min
-        </motion.span>
-        <motion.h2
-          initial={false}
-          animate={activo ? { opacity: 1, y: 0 } : { opacity: 0, y: 18 }}
-          transition={{ ...springSoft, delay: activo ? 0.13 : 0 }}
-        >
-          {short.titulo}
-        </motion.h2>
-        <motion.p
-          initial={false}
-          animate={activo ? { opacity: 1, y: 0 } : { opacity: 0, y: 18 }}
-          transition={{ ...springSoft, delay: activo ? 0.2 : 0 }}
-        >
-          {short.gancho}
-        </motion.p>
+        <motion.div className="muro-hoja" data-forma={portada ? "portada" : "pagina"} style={{ x: xHoja }}>
+          <AnimatePresence mode="wait" custom={sentido}>
+            <motion.div
+              key={paso}
+              className="muro-hoja-cuerpo"
+              custom={sentido}
+              // Se avanza tirando hacia la derecha, así que la pantalla que se
+              // va sale por la derecha y la que llega entra por la izquierda:
+              // el papel sigue al dedo en lugar de contradecirlo.
+              initial={{ opacity: 0, x: sentido * -30 }}
+              animate={{ opacity: 1, x: 0, transition: { ...spring, delay: 0.04 } }}
+              exit={{ opacity: 0, x: sentido * 26, transition: { duration: 0.15 } }}
+            >
+              {portada ? (
+                <Portada short={short} />
+              ) : (
+                <CuerpoPagina pagina={short.paginas[paso - 1]} numero={paso} reducido={reducido} />
+              )}
+            </motion.div>
+          </AnimatePresence>
 
-        <motion.span
-          className="muro-tirar"
-          initial={false}
-          animate={activo ? { opacity: 1, y: 0 } : { opacity: 0, y: 12 }}
-          transition={{ ...springSoft, delay: activo ? 0.27 : 0 }}
-        >
-          <motion.span
-            className="muro-flecha"
-            animate={reducido ? {} : { x: [0, 7, 0] }}
-            transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-          >
-            →
-          </motion.span>
-          Desliza para profundizar
-        </motion.span>
-        </div>
+          <div className="muro-pie">
+            {(portada || ultima) && (
+              <span className="muro-tirar">
+                <motion.span
+                  className="muro-flecha"
+                  animate={reducido ? {} : { x: [0, 7, 0] }}
+                  transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+                >
+                  →
+                </motion.span>
+                {portada ? "Desliza para seguir" : "Siguiente historia"}
+              </span>
+            )}
+
+            <div className="muro-acciones">
+              <motion.button
+                className="muro-accion"
+                whileTap={{ scale: 0.86 }}
+                onClick={(e) => e.stopPropagation()}
+                aria-label="Compartir"
+              >
+                <GlyphShare />
+              </motion.button>
+              <motion.button
+                className="muro-accion"
+                data-on={guardado}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setGuardado((v) => !v);
+                }}
+                whileTap={{ scale: 0.86 }}
+                animate={guardado ? { scale: [1, 1.28, 1] } : {}}
+                transition={springPop}
+                aria-label="Guardar historia"
+                aria-pressed={guardado}
+              >
+                <GlyphHeart on={guardado} />
+              </motion.button>
+            </div>
+          </div>
+        </motion.div>
       </motion.div>
+
+      {/* Los tramos van fuera de la capa que se arrastra: son de la historia,
+          no de la pantalla, y moverlos con el dedo los volvería ilegibles. */}
+      <div className="muro-tramos" aria-hidden>
+        {Array.from({ length: total }, (_, i) => (
+          <span key={i} className="muro-tramo">
+            <motion.span
+              className="muro-tramo-relleno"
+              initial={false}
+              animate={{ scaleX: i <= paso ? 1 : 0 }}
+              transition={springTight}
+            />
+          </span>
+        ))}
+      </div>
     </section>
   );
 }
 
 /* --------------------------------------------------------------------------
-   El lector
+   La portada de una historia: de qué va y por qué te importa
    -------------------------------------------------------------------------- */
 
-export function LectorShort({
-  short,
-  onSalir,
-  onFin,
-}: {
-  short: Short;
-  onSalir: () => void;
-  onFin: (minutos: number) => void;
-}) {
-  const [indice, setIndice] = useState(0);
-  const [sentido, setSentido] = useState(1);
-  const [guardado, setGuardado] = useState(false);
-  const reducido = useReducedMotion();
-  const arranque = useRef(Date.now());
-  const bloqueado = useRef(false);
-
-  // Un solo valor de gesto, como en la lección: el texto va pegado al dedo y
-  // el fondo se queda atrás.
-  const x = useMotionValue(0);
-  const xFondo = useTransform(x, (v) => v * 0.22);
-  const xTexto = useTransform(x, (v) => v * 0.85);
-
-  // La portada cuenta como página: es la primera. Cuatro, siempre.
-  const total = short.paginas.length + 1;
-
-  function avanzar(paso: number) {
-    if (bloqueado.current) return;
-    const destino = indice + paso;
-    if (destino < 0) return rebotar(1);
-    if (destino >= total) return onFin((Date.now() - arranque.current) / 60000);
-
-    bloqueado.current = true;
-    setSentido(paso);
-    setIndice(destino);
-    animate(x, 0, { ...springSoft, onComplete: () => (bloqueado.current = false) });
-  }
-
-  function rebotar(direccion: number) {
-    animate(x, direccion * 26, { ...spring, onComplete: () => animate(x, 0, springSoft) });
-  }
-
-  function alSoltar(_: unknown, info: PanInfo) {
-    const { offset, velocity } = info;
-    if (offset.x < -UMBRAL_PX || velocity.x < -UMBRAL_VEL) return avanzar(1);
-    if (offset.x > UMBRAL_PX || velocity.x > UMBRAL_VEL) return avanzar(-1);
-    animate(x, 0, springSoft);
-  }
-
-  useEffect(() => {
-    function teclas(e: KeyboardEvent) {
-      if (e.key === "ArrowRight") avanzar(1);
-      if (e.key === "ArrowLeft") avanzar(-1);
-      if (e.key === "Escape") onSalir();
-    }
-    window.addEventListener("keydown", teclas);
-    return () => window.removeEventListener("keydown", teclas);
-  });
-
-  const portada = indice === 0;
-  const pagina = portada ? null : short.paginas[indice - 1];
-
+function Portada({ short }: { short: Short }) {
   return (
-    <motion.div
-      className="short"
-      style={{ ["--acento" as string]: short.color }}
-      initial={{ opacity: 0, scale: 0.97 }}
-      animate={{ opacity: 1, scale: 1, transition: spring }}
-      exit={{ opacity: 0, scale: 0.98, transition: { duration: 0.2 } }}
-    >
-      {/* El fondo de lectura vive fuera del mazo de páginas: si entrara y
-          saliera con cada tarjeta, cada deslizamiento sería un parpadeo de
-          color. Se queda quieto y las páginas pasan por encima. */}
-      <FondoLectura pagina={indice} reducido={!!reducido} />
-
-      <div className="short-head">
-        <button className="icon-btn" onClick={onSalir} aria-label="Cerrar historia">
-          <GlyphClose />
-        </button>
-        <motion.button
-          className="icon-btn"
-          onClick={() => avanzar(-1)}
-          disabled={indice === 0}
-          whileTap={{ scale: 0.9 }}
-          aria-label="Tarjeta anterior"
-        >
-          <GlyphBack />
-        </motion.button>
-        {/* Un tramo por tarjeta, como en las historias: se ve cuánto falta */}
-        <div className="short-tramos">
-          {Array.from({ length: total }, (_, i) => (
-            <span key={i} className="short-tramo">
-              <motion.span
-                className="short-tramo-relleno"
-                initial={false}
-                animate={{ scaleX: i <= indice ? 1 : 0 }}
-                transition={springTight}
-              />
-            </span>
-          ))}
-        </div>
-      </div>
-
-      <motion.div
-        className="short-area"
-        drag="x"
-        style={{ x }}
-        dragConstraints={{ left: 0, right: 0 }}
-        dragElastic={0.42}
-        dragMomentum={false}
-        onDragEnd={alSoltar}
+    <>
+      <motion.span
+        className="muro-etiqueta"
+        custom={0}
+        variants={enterVariants}
+        initial="hidden"
+        animate="shown"
       >
-        <AnimatePresence mode="wait" custom={sentido}>
-          <motion.div
-            key={indice}
-            className="short-carta"
-            data-forma={portada ? "portada" : "pagina"}
-            custom={sentido}
-            initial={{ opacity: 0, x: sentido * 34 }}
-            animate={{ opacity: 1, x: 0, transition: { ...spring, delay: 0.05 } }}
-            exit={{ opacity: 0, x: sentido * -28, transition: { duration: 0.16 } }}
-          >
-            {portada ? (
-              <>
-                {/* La foto manda: ocupa la mitad de arriba, a sangre */}
-                <div className="short-portada-foto">
-                  <Fotografia
-                    foto={short.foto}
-                    Respaldo={respaldoDe(short)}
-                    reducido={!!reducido}
-                    desplaza={xFondo}
-                  />
-                  <div className="short-degradado" />
-                </div>
-
-                <motion.div className="short-portada-texto" style={{ x: xTexto }}>
-                  <motion.span
-                    className="short-etiqueta"
-                    custom={0}
-                    variants={enterVariants}
-                    initial="hidden"
-                    animate="shown"
-                  >
-                    {short.categoria} · {MINUTOS} min
-                  </motion.span>
-                  <motion.h1
-                    custom={1}
-                    variants={enterVariants}
-                    initial="hidden"
-                    animate="shown"
-                  >
-                    {short.titulo}
-                  </motion.h1>
-                  <motion.p
-                    className="short-entrada"
-                    custom={2}
-                    variants={enterVariants}
-                    initial="hidden"
-                    animate="shown"
-                    dangerouslySetInnerHTML={{ __html: short.entrada }}
-                  />
-                  <motion.p
-                    className="short-credito"
-                    custom={3}
-                    variants={enterVariants}
-                    initial="hidden"
-                    animate="shown"
-                  >
-                    {short.foto
-                      ? `${short.foto.autor} · ${short.foto.licencia}`
-                      : short.encargo}
-                  </motion.p>
-
-                  {/* El aviso va en el flujo, no flotando: con una entrada de
-                      sesenta palabras, un rótulo absoluto se comía el texto. */}
-                  <motion.span
-                    className="short-tirar"
-                    custom={4}
-                    variants={enterVariants}
-                    initial="hidden"
-                    animate="shown"
-                  >
-                    <motion.span
-                      className="muro-flecha"
-                      animate={reducido ? {} : { x: [0, 7, 0] }}
-                      transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                    >
-                      →
-                    </motion.span>
-                    Desliza para profundizar
-                  </motion.span>
-                </motion.div>
-              </>
-            ) : (
-              <CuerpoPagina pagina={pagina!} numero={indice} reducido={!!reducido} />
-            )}
-          </motion.div>
-        </AnimatePresence>
-      </motion.div>
-
-      <div className="actions">
-        <div className="action-group">
-          <motion.button className="action" whileTap={{ scale: 0.86 }} aria-label="Compartir">
-            <GlyphShare />
-          </motion.button>
-          <motion.button
-            className="action"
-            data-on={guardado}
-            onClick={() => setGuardado((v) => !v)}
-            whileTap={{ scale: 0.86 }}
-            animate={guardado ? { scale: [1, 1.28, 1] } : {}}
-            transition={springPop}
-            aria-label="Guardar historia"
-            aria-pressed={guardado}
-          >
-            <GlyphHeart on={guardado} />
-          </motion.button>
-        </div>
-
-        <motion.button
-          className="short-siguiente"
-          whileTap={{ scale: 0.95 }}
-          transition={springPop}
-          onClick={() => avanzar(1)}
-        >
-          {indice === total - 1 ? "Terminar" : "Seguir"}
-        </motion.button>
-      </div>
-    </motion.div>
+        {short.categoria} · {MINUTOS} min
+      </motion.span>
+      <motion.h2 custom={1} variants={enterVariants} initial="hidden" animate="shown">
+        {short.titulo}
+      </motion.h2>
+      <motion.p
+        className="muro-gancho"
+        custom={2}
+        variants={enterVariants}
+        initial="hidden"
+        animate="shown"
+      >
+        {short.gancho}
+      </motion.p>
+      <motion.p
+        className="muro-entrada"
+        custom={3}
+        variants={enterVariants}
+        initial="hidden"
+        animate="shown"
+        dangerouslySetInnerHTML={{ __html: short.entrada }}
+      />
+      <motion.p
+        className="muro-credito"
+        custom={4}
+        variants={enterVariants}
+        initial="hidden"
+        animate="shown"
+      >
+        {short.foto ? `${short.foto.autor} · ${short.foto.licencia}` : short.encargo}
+      </motion.p>
+    </>
   );
 }
 
@@ -603,7 +578,7 @@ function CuerpoPagina({
   reducido,
 }: {
   pagina: Pagina;
-  /** 1, 2 o 3. Se pinta enorme y translúcido detrás del rótulo. */
+  /** 1, 2 o 3. Se pinta grande y translúcido junto al rótulo. */
   numero: number;
   reducido: boolean;
 }) {
@@ -686,44 +661,6 @@ function Destacado({
       </span>
       <p>{dato.frase}</p>
     </motion.div>
-  );
-}
-
-/**
- * El fondo de lectura. Tres capas: el color de la historia en un halo que se
- * mueve muy despacio, un grano fino encima y una viñeta que cierra los
- * bordes. Sin el grano, el degradado se bandea en pantallas de 8 bits; sin la
- * viñeta, el texto claro se despega del fondo por las esquinas.
- *
- * El halo cambia de sitio con cada página. Es el único indicio de que has
- * avanzado que no es un número: el fondo no es el mismo que hace un momento.
- */
-function FondoLectura({ pagina, reducido }: { pagina: number; reducido: boolean }) {
-  const sitios = [
-    { x: "18%", y: "24%" },
-    { x: "78%", y: "32%" },
-    { x: "26%", y: "72%" },
-    { x: "72%", y: "78%" },
-  ];
-  const sitio = sitios[pagina % sitios.length];
-
-  return (
-    <div className="short-fondo" aria-hidden>
-      <motion.span
-        className="short-halo"
-        initial={false}
-        animate={{ left: sitio.x, top: sitio.y }}
-        transition={{ duration: reducido ? 0 : 1.4, ease: "easeInOut" }}
-      />
-      <motion.span
-        className="short-halo short-halo-2"
-        initial={false}
-        animate={{ left: sitio.y, top: sitio.x }}
-        transition={{ duration: reducido ? 0 : 2.1, ease: "easeInOut" }}
-      />
-      <span className="short-grano" />
-      <span className="short-vineta" />
-    </div>
   );
 }
 
