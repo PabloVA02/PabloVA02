@@ -4616,3 +4616,653 @@ export const VIEJO_MAR: Resumen = {
     },
   ],
 };
+
+export const ODISEA: Resumen = {
+  id: "odisea",
+  titulo: "La Odisea",
+  autor: "Homero",
+  ano: -750,
+  gancho: "Tardó diez años en volver a casa desde una guerra que había durado otros diez. Casi tres mil años después seguimos contando su viaje.",
+  porQue:
+    "Es el primer relato de aventuras de Occidente y sigue siendo el mejor. Y su héroe no gana por fuerte: gana por astuto, mentiroso y paciente.",
+  partes: [
+    {
+      titulo: "El que no volvía",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La Odisea empieza veinte años después de que Ulises se marchara de Ítaca. Diez de guerra en Troya y otros diez perdido en el mar. Todos los demás reyes griegos han vuelto a casa o han muerto; de él no se sabe nada, y en su isla ya casi nadie cree que siga vivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí está la primera decisión genial del poema: no empieza por el principio. Arranca casi al final del viaje, con Ulises retenido en una isla, y las aventuras famosas —el cíclope, las sirenas, Circe— se cuentan en mitad del libro, en boca del propio protagonista durante una cena.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso significa que el mayor recurso narrativo de la literatura occidental, el flashback, está inventado en el primer libro largo de la literatura occidental. Y hay más: el relato salta constantemente entre Ítaca, el viaje del hijo y el paradero del padre, montando escenas paralelas como una serie moderna.",
+          arte: "mapa",
+        },
+        {
+          forma: "clave",
+          rotulo: "La situación en su casa",
+          frase: "Ciento ocho pretendientes se han instalado en su palacio, comiéndose su ganado y bebiendo su vino, esperando a que su mujer elija a uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Penélope lleva años resistiendo con una estratagema que la ha hecho célebre. Ha prometido elegir marido cuando termine de tejer un sudario para su suegro. Teje de día y cada noche deshace en secreto lo tejido, y así ha ganado tres años hasta que una criada la delata.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hijo Telémaco tenía días de vida cuando su padre se marchó y ahora tiene veinte años. Ha crecido en una casa ocupada por hombres que se ríen de él, sin autoridad y sin ejemplo, y los cuatro primeros cantos del poema son íntegramente suyos: un chico buscando noticias de un padre al que no conoce.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los griegos llamaban a esa parte la Telemaquia, y no es un preámbulo: es la historia de cómo un muchacho se convierte en alguien capaz de estar al lado de su padre cuando llegue el momento. Homero le hace viajar, hablar en asamblea por primera vez y ser recibido como huésped en cortes extranjeras.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le acompaña Atenea, la diosa de la inteligencia práctica, disfrazada de un viejo amigo de la familia llamado Mentor. De ahí viene, literalmente, la palabra que usamos hoy: un mentor es alguien que aconseja a un joven, y el original es una diosa disfrazada de anciano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, Ulises lleva siete años retenido en la isla de Calipso, una ninfa que le tiene como amante y le ha ofrecido la inmortalidad y la juventud eterna si se queda con ella para siempre. Cuando le encontramos por primera vez en el poema, está sentado en una roca llorando de cara al mar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La elección que define al personaje",
+          frase: "Rechaza ser inmortal. Prefiere volver a una isla pequeña, con una mujer que envejecerá, y morir allí como cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se lo dice a Calipso a la cara, con una educación tremenda: reconoce que ella es más hermosa que Penélope, porque sería absurdo negarlo delante de una diosa, y aun así dice que lo que él quiere cada día es el día del regreso. La palabra griega para eso, <em>nostos</em>, es la raíz de nostalgia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene situar el poema al lado de su hermano mayor. La Ilíada cuenta cincuenta días de una guerra y su héroe es Aquiles, que elige morir joven a cambio de gloria eterna. La Odisea cuenta un regreso y su héroe elige exactamente lo contrario: renunciar a la inmortalidad para envejecer en casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese contraste es deliberado y probablemente el poema es posterior. La guerra ya ha terminado y ha sido un desastre para casi todos: de los reyes griegos que volvieron, a uno le asesinó su mujer nada más pisar su palacio, otros vagaron años, y a la mayoría se los tragó el mar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Homero coloca esa comparación en boca de los propios personajes. En los primeros cantos, Telémaco visita las cortes de dos veteranos de Troya que le cuentan cómo volvieron ellos. Uno tardó ocho años dando tumbos por Egipto. La conclusión implícita es que ganar aquella guerra no le sirvió a nadie de nada.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El poema empieza además con una escena entre dioses que fija el tono moral de todo lo demás. Zeus se queja en voz alta de que los humanos siempre culpan a los dioses de sus desgracias, cuando la mayoría de ellas se las buscan solos con su propia estupidez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una frase notable para un texto de hace casi tres mil años, y explica cómo funciona el libro. Los dioses intervienen constantemente, pero casi todas las catástrofes de Ulises tienen una causa humana identificable: la vanidad, la curiosidad, un descuido o la desobediencia de sus hombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene saber qué es Ítaca en el poema. No es un reino espléndido: es una isla pequeña, pedregosa, buena para las cabras y mala para los caballos. Ulises lo dice él mismo, sin ningún orgullo, y añade que aun así no ha visto nunca nada más dulce que su tierra.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay una institución que atraviesa el libro entero y que hoy cuesta entender: la hospitalidad sagrada. Un desconocido que llama a tu puerta debe ser lavado, vestido, alimentado y agasajado antes incluso de que se le pregunte el nombre, porque podría ser un dios. Los pretendientes violan esa norma a diario, y ese es su verdadero crimen.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso el poema puede permitirse una matanza como final. Para un griego del siglo VIII no eran unos pesados: eran hombres que llevaban años abusando de la hospitalidad de una casa sin dueño, comiéndose el patrimonio de un huérfano y acosando a su madre. La venganza no es un exceso, es una restitución.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el tema del poema entero, y conviene tenerlo claro porque las aventuras lo tapan. No va de monstruos ni de viajes: va de un hombre al que le ofrecen dejar de ser quien era, con todas las ventajas imaginables, y que dice que no una vez tras otra.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El cíclope",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Naufragado y desnudo, Ulises llega a la tierra de los feacios, un pueblo de navegantes que le acogen sin saber quién es. En el banquete, un aedo ciego canta las hazañas de la guerra de Troya y Ulises se tapa la cara con el manto y llora. El rey lo nota y le pregunta su nombre.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y entonces empieza el relato en primera persona que ocupa cuatro cantos y contiene todo lo que la gente recuerda del libro. Ulises cuenta su propio viaje ante una mesa llena de desconocidos, y Homero deja así en el aire una pregunta que la novela moderna no resolverá hasta el siglo XX: ¿hasta qué punto se puede creer a un narrador que es famoso por mentir?",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su primera escala fue el país de los lotófagos, donde una flor hace olvidar el regreso a quien la come. Los hombres que la prueban no quieren volver a los barcos y hay que arrastrarlos a la fuerza y atarlos a los bancos. Es el primer aviso del poema: la peor amenaza no es morir, es dejar de querer volver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después llegan a una isla con cuevas y rebaños. Entran en una, comen lo que encuentran y esperan al dueño por curiosidad. El dueño es un gigante de un solo ojo, hijo del dios del mar, que sella la entrada con una roca que ni veinte hombres podrían mover y se come a dos de sus compañeros de un bocado.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El truco más famoso de la literatura",
+          frase: "Le dice que se llama Nadie. Cuando le clava la estaca en el ojo y los otros cíclopes acuden, Polifemo grita que Nadie le está matando. Y se van.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El plan completo es de una inteligencia fría: le emborracha con un vino fortísimo que llevaba de regalo, espera a que se duerma, afila un tronco de olivo al fuego y se lo hunde en el ojo entre cuatro hombres. Y para salir de la cueva ata a sus compañeros bajo el vientre de los carneros, porque el ciego palpa los lomos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y entonces Ulises comete el error que le cuesta diez años. Ya en el barco, a salvo, no puede resistirse a gritarle su nombre verdadero para que sepa quién le ha vencido. Polifemo se lo cuenta a su padre, Poseidón, y a partir de ese día el mar entero está en su contra.",
+          arte: "noche",
+        },
+        {
+          forma: "clave",
+          rotulo: "La lección del episodio",
+          frase: "Se salva por ser astuto y se condena por ser vanidoso. El mismo hombre, con diez minutos de diferencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vienen los vientos de Eolo, que le regala un odre con todas las tempestades encerradas para que pueda navegar tranquilo. Están tan cerca de Ítaca que ya se ven las hogueras de la isla, y entonces Ulises se duerme y sus hombres abren el saco creyendo que esconde oro. La tormenta les devuelve al principio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la isla de Circe, la hechicera convierte a la mitad de la tripulación en cerdos. Ulises se salva gracias a una hierba y consigue que los devuelva a su forma humana, y acaba quedándose un año entero con ella. Cuando por fin se va, es su propia gente la que tiene que recordarle que tenían que volver a casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de Circe hay un episodio que casi nunca se cuenta y que es el peor de todos: los lestrigones. Ulises llega con doce barcos a un puerto de aguas tranquilas y manda tres exploradores. Son gigantes caníbales que empiezan a arrojar peñascos desde los acantilados y hunden once naves con toda su tripulación.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Homero lo despacha en unos pocos versos, sin ninguna aventura ingeniosa: ahí no hay astucia que valga, solo hombres ensartados como peces. Ulises escapa porque había amarrado su barco fuera del puerto, por precaución. De seiscientos hombres pasan a poco más de cuarenta en una sola tarde.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Circe, el detalle que importa es cómo se salva. Un dios le da una hierba llamada moly y le explica el procedimiento exacto: beber su pócima sin miedo, sacar la espada cuando le toque con la varita, y aceptar su hospitalidad solo después de hacerle jurar que no le hará daño. Ulises sigue las instrucciones al pie de la letra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay ningún duelo mágico ni ninguna hazaña. Gana porque le han dado buena información y porque la aplica sin improvisar. Ese es el patrón de casi todas sus victorias, y es lo que le distingue de un héroe de fuerza como Aquiles.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su verdadera arma",
+          frase: "No vence por fuerza ni por magia. Vence porque escucha las instrucciones, las cumple exactamente y no improvisa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un episodio doméstico que Homero coloca justo antes de irse de la isla y que corta el aliento. Uno de sus hombres, el más joven, se ha quedado dormido borracho en el tejado de la casa de Circe. Al oír la partida se levanta de golpe, olvida bajar por la escalera y se rompe el cuello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su nombre es Elpénor, no era ni valiente ni fuerte, y muere de la forma más tonta posible después de haber sobrevivido a los cíclopes y a los caníbales. Ulises se entera al encontrárselo en el mundo de los muertos, y su sombra le suplica una sola cosa: que vuelva a enterrar su cuerpo y le clave el remo sobre la tumba.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ulises vuelve a la isla solo para eso. Es un rodeo entero, con el viaje a punto de acabarse, por dar sepultura a un chico insignificante que se cayó de un tejado. Homero no lo comenta. Y esa escena dice más sobre el personaje que ninguna de sus victorias.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es uno de los más humanos del poema. No siempre le retienen a la fuerza: a veces se queda. Y son sus compañeros los que le sacan de la comodidad, igual que él tuvo que sacarlos a ellos de la isla de las flores del olvido.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las sirenas y el remolino",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Circe le manda a un sitio del que nadie ha vuelto: al borde del mundo de los muertos, a consultar al adivino ciego Tiresias. Ulises cava un hoyo, vierte sangre y las sombras acuden a beber. Es la escena que inspiró todos los descensos al inframundo de la literatura posterior, incluido el de Dante.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Allí se encuentra con su madre, que ha muerto de pena esperándole, y tres veces intenta abrazarla y tres veces se le escapa entre los brazos como un sueño. Homero lo repite tres veces exactamente igual, porque en poesía oral la repetición es lo que clava una imagen en la memoria del que escucha.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y se encuentra con Aquiles, el mayor héroe de la guerra de Troya, muerto joven y cubierto de gloria eterna. Ulises le felicita por ser tan honrado entre los muertos. Y Aquiles le contesta con la frase más antimilitarista de la Antigüedad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dice Aquiles",
+          frase: "Prefiere ser un jornalero vivo, sirviendo a un pobre sin tierras, antes que reinar sobre todos los muertos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso, dicho por el héroe que eligió morir joven a cambio de fama inmortal, es una corrección enorme a los valores de la Ilíada. La Odisea es un poema posterior y mucho menos guerrero: aquí el héroe no busca la gloria, busca llegar a viejo en su casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De vuelta, se enfrenta a las sirenas, que no son mujeres-pez sino aves con cabeza de mujer, y cuyo canto no es seductor sino informativo: prometen contarle todo lo que ocurrió en Troya y todo lo que ocurrirá en el mundo. Lo que ofrecen no es placer, es conocimiento total.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su solución es la primera descripción de lo que hoy se llama un compromiso previo: tapa con cera los oídos de sus hombres y se hace atar al mástil, dando orden expresa de que si suplica que le suelten, le aten más fuerte. Sabe de antemano que su yo futuro va a querer lo contrario que su yo presente.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después tiene que elegir entre dos monstruos en un estrecho: Escila, que devora a seis hombres seguros, y Caribdis, un remolino que puede tragarse el barco entero. Circe le ha dicho que elija a Escila. Y de ahí viene la expresión que todavía usamos para una decisión sin salida buena.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La decisión que no cuenta a nadie",
+          frase: "Sabe que seis de sus hombres van a morir y no se lo dice, porque si lo supieran se esconderían bajo cubierta y perderían el barco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El desastre final llega en la isla del Sol. Tiresias le había advertido que no tocaran los rebaños sagrados. Ulises hace jurar a sus hombres que no los tocarán, pero se quedan atrapados por los vientos contrarios, se acaban las provisiones, y mientras él duerme matan a las vacas para comer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El descenso al mundo de los muertos merece más espacio del que suele dársele, porque es la primera vez que la literatura occidental describe el más allá. Y lo que describe no es un infierno ni un paraíso: es un lugar gris donde todos van a parar, héroes y cobardes, y donde las sombras no recuerdan nada hasta que beben sangre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ulises tiene que apartar a espadazos a las sombras que se agolpan para poder hablar primero con el adivino. Entre ellas está su madre, y no puede dejarla acercarse hasta haber cumplido su misión. Esa espera, teniendo delante a su madre muerta y sin poder hablarle, es de lo más cruel del poema.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Cuando por fin habla con ella y le pregunta de qué murió, la respuesta es que no fue enfermedad ni vejez: fue la añoranza de él. Y le da noticias de casa que le hunden — su padre duerme en el suelo con los criados y llora, y su hijo intenta gobernar una casa que se le come.",
+          arte: "memoria",
+        },
+        {
+          forma: "clave",
+          rotulo: "La escena que inventó un género",
+          frase: "Es el primer descenso al mundo de los muertos de la literatura occidental. De aquí salen todos los demás, incluido el de Dante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tiresias le da la profecía completa, y contiene el detalle que casi nadie conoce. Le dice que volverá tarde y mal, que perderá a todos sus hombres, y que después de recuperar su casa tendrá que emprender otro viaje: caminar tierra adentro con un remo al hombro hasta llegar a un pueblo que no conozca el mar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sabrá que ha llegado cuando alguien le pregunte por qué lleva un bieldo de aventar grano sobre el hombro. Allí deberá clavar el remo y hacer sacrificios, y solo entonces podrá volver y morir en su casa, muy viejo, de una muerte suave que le llegará desde el mar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa profecía deja el poema abierto a propósito: el final de la Odisea no es el final de Ulises. Dante lo aprovechó siglos después para inventarse un último viaje en el que Ulises convence a sus hombres de navegar más allá del fin del mundo conocido, y naufraga.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También se cruza con Agamenón, el jefe de los griegos en Troya, asesinado a la vuelta por su propia mujer y el amante de esta en un banquete. Su sombra le advierte que no confíe en ninguna mujer y que llegue a Ítaca en secreto — y es exactamente lo que Ulises hará, disfrazado de mendigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese contraste estructura el poema entero. Agamenón vuelve como un rey, con honores, a una casa donde le esperan para matarle. Ulises volverá arrastrándose como un pordiosero a una casa donde le esperan para servirle. La prudencia frente al orgullo, una vez más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zeus hunde el barco con un rayo y mueren todos. Ulises se salva agarrado a la quilla y a un mástil, y llega a la isla de Calipso, donde pasará los siete años siguientes. Es decir: cuando empieza el poema ya ha perdido a los seiscientos hombres que salieron con él de Troya.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El mendigo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Los feacios le devuelven a Ítaca en un barco, dormido, y le dejan en la playa con regalos. Y aquí empieza la mitad menos famosa del poema y probablemente la mejor: doce cantos enteros dedicados a preparar la venganza dentro de su propia casa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Atenea le disfraza de mendigo viejo, calvo y arrugado, y le avisa de que no puede fiarse de nadie ni revelar quién es. Ulises, que llevaba veinte años soñando con volver, se pasa los siguientes cuatro cantos durmiendo en una porqueriza y aguantando que le insulten en su propio salón.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero que le acoge es Eumeo, el porquerizo, un esclavo que le da de comer sin saber quién es y que le habla durante horas de lo mucho que echa de menos a su antiguo amo. Homero le dedica a un esclavo tanta ternura como a los reyes, y eso en el siglo VIII antes de Cristo es notable.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La escena más famosa de todo el poema",
+          frase: "El único que le reconoce es su perro Argos, tumbado sobre un estercolero, viejo y lleno de garrapatas. Mueve la cola, no puede levantarse y muere.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Argos era un cachorro cuando Ulises se marchó a Troya. Ha esperado veinte años. Ulises le ve, aparta la cara y se seca una lágrima para que Eumeo no lo note, y sigue caminando sin poder acercarse. Son quince versos y llevan casi tres mil años haciendo llorar a la gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el palacio le insultan, le tiran un taburete, le hacen pelear con otro mendigo para divertir a los pretendientes. Ulises aguanta todo. Homero describe cómo le hierve el corazón por dentro y cómo se dice a sí mismo, golpeándose el pecho: aguanta, corazón; peores cosas has soportado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa frase se convirtió en un lugar común de la ética griega y después estoica. El héroe de la Odisea no es el que estalla: es el que calcula cuándo. Toda la segunda mitad del poema consiste en un hombre conteniéndose durante días mientras se come su propia comida sentado en el suelo.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La única que le reconoce es su vieja nodriza Euriclea, mientras le lava los pies: le encuentra en el muslo la cicatriz de una herida de jabalí que él se hizo de joven. Suelta la pierna del susto, vuelca la palangana, y Ulises la agarra por la garganta y le hace jurar silencio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa cicatriz da pie a la digresión más famosa del poema. Homero se para en seco y cuenta durante setenta versos cómo se hizo esa herida de joven cazando en el monte, y quién le puso el nombre. Un crítico del siglo XX construyó un ensayo entero sobre ese pasaje para explicar cómo funciona la mente griega.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La prueba de Penélope",
+          frase: "Anuncia que se casará con quien consiga tensar el arco de Ulises y atravesar doce hachas de un flechazo. Sabe perfectamente que ninguno puede.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte de Ítaca tiene una tensión que las aventuras no tienen, y es de otro tipo: no hay monstruos, hay conversaciones. Cada escena consiste en Ulises hablando con alguien que no sabe quién es, midiendo si podrá contar con esa persona cuando llegue el momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el porquerizo Eumeo se inventa una biografía entera y detalladísima: dice ser un cretense de buena familia arruinado por la guerra, cuenta batallas, nombra ciudades. Homero se recrea en esas mentiras, que son largas, coherentes y verosímiles. Ulises miente como quien construye una casa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay un momento en que la diosa Atenea le felicita por ello. Le dice, riéndose, que hasta un dios tendría que ser muy astuto para engañarle, y que por eso le ayuda: porque los dos son igual de retorcidos. Es la única vez en la literatura antigua en que una divinidad admira a un mortal por saber mentir.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dice Atenea",
+          frase: "Se ríe y le confiesa que le ayuda porque los dos son igual de retorcidos. Una diosa admirando a un mortal por saber mentir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena en la que se da a conocer a su hijo es de las mejores. Atenea le devuelve un momento su aspecto real en la porqueriza, y Telémaco, al ver transformarse al mendigo, cree estar ante un dios y se aparta aterrado. Ulises le dice que no es ningún dios, que es su padre, y el chico no le cree.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tienen que pasar varios versos hasta que se convence, y entonces los dos rompen a llorar con un llanto que Homero compara con el de las águilas a las que les han robado las crías. Se abrazan tanto rato que se les habría hecho de noche si Telémaco no hubiera preguntado por el barco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vuelven a separarse y Ulises retoma su disfraz. Y aquí Homero hace algo cruel con el lector: durante cinco cantos enteros, padre e hijo comparten sala con los pretendientes fingiendo no conocerse, mientras uno de ellos le tira un taburete al mendigo y el otro tiene que quedarse callado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El plan que preparan es puro detalle logístico: retirar todas las armas de las paredes del salón con la excusa del humo, dejar solo dos juegos escondidos, y esperar a que Penélope convoque la prueba del arco. Es una operación militar diseñada por dos personas dentro de una casa llena de enemigos.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie discute si Penélope sospechaba quién era el mendigo. El poema deja la duda abierta a propósito: convoca la prueba justo el día después de que aparezca ese vagabundo que le ha dado noticias exactas de su marido, y Homero nunca aclara si es astucia o coincidencia.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El arco y el olivo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Los pretendientes lo intentan uno tras otro y ninguno consigue siquiera doblar el arco. Lo calientan con grasa junto al fuego para ablandar la madera y sigue sin ceder. Y entonces el mendigo pide probar, y la sala entera se echa a reír.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Homero describe cómo lo tensa sin esfuerzo, girándolo en las manos como un músico que revisa una cuerda, y compara el sonido de la cuerda al soltarla con el canto de una golondrina. Después dispara y la flecha atraviesa los doce agujeros de las hachas sin tocar ninguna.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo siguiente es la matanza, y ocupa un canto entero. Ulises salta al umbral, se quita los harapos, vuelca el carcaj a sus pies y dispara primero al pretendiente más insolente mientras este levanta una copa de vino. A partir de ahí no hay ninguna piedad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La cuenta",
+          frase: "Ciento ocho pretendientes. No sobrevive ninguno salvo el aedo y el heraldo, que suplican y demuestran que estaban allí a la fuerza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y después ordena ahorcar a doce criadas que se habían acostado con los pretendientes, obligándolas antes a limpiar la sangre del salón. Homero compara sus cuerpos colgados con pájaros atrapados en una red. Es la escena que más incomoda hoy y la que casi ninguna adaptación conserva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene no maquillarla. La Odisea es un poema de hace casi tres mil años y su moral no es la nuestra: para Ulises, esas mujeres son propiedad que se ha estropeado. Leerlo entero significa aceptar que el héroe hace cosas que hoy son un crimen, y que el poema no las juzga.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y llega el reencuentro, que es la mejor escena del libro precisamente porque no es un abrazo. Penélope baja, mira a ese hombre cubierto de sangre y se queda sentada frente a él en silencio, sin decir nada. Telémaco la acusa de tener el corazón de piedra. Ella no se mueve.",
+          arte: "memoria",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su prueba final",
+          frase: "Le dice a la nodriza que saque la cama del dormitorio y se la prepare fuera. Y Ulises estalla: esa cama no se puede mover.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La construyó él mismo, de joven, tallándola sobre el tronco de un olivo vivo que crecía en el patio, y levantó la habitación alrededor. Una de sus patas sigue enraizada en la tierra. Solo tres personas en el mundo lo saben, y al oírle protestar Penélope se echa a llorar y corre hacia él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un reconocimiento por contraseña, y no por sentimiento. Ella ha tendido una trampa verbal a un hombre famoso por engañar a todo el mundo, y ha ganado. Homero, después de doce mil versos, deja claro que Penélope es tan astuta como su marido — por eso funcionaban juntos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y esa noche, dice el poema, Atenea alarga la duración de la noche para que puedan hablar. No hay descripción de nada más: solo dos personas contándose veinte años. Él le cuenta el viaje entero y ella le cuenta lo que ha sido aguantar la casa. Después se duermen.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La prueba del arco está construida con una paciencia enorme. Los pretendientes van pasando por orden, del más joven al mayor, y ninguno logra siquiera doblarlo. El que más cerca está lo deja diciendo que hoy es fiesta de Apolo y que mejor lo intentan mañana, para no quedar en ridículo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando el mendigo pide probar, la sala se indigna. Y es Penélope quien interviene para que se lo permitan, argumentando que qué más da, que no va a casarse con un vagabundo. Telémaco la manda entonces a sus habitaciones — y esa orden, que suena a desprecio, es lo que la aparta de la matanza.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Homero describe el instante previo con una imagen doméstica que desactiva toda la épica: Ulises gira el arco en las manos comprobándolo como un cantor que revisa la clavija de su lira antes de empezar. Un hombre de sesenta años haciendo un gesto profesional mientras cien hombres se ríen de él.",
+          arte: "memoria",
+        },
+        {
+          forma: "clave",
+          rotulo: "El instante previo",
+          frase: "Gira el arco en las manos como un músico revisando una cuerda, mientras cien hombres se ríen del mendigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La matanza dura un canto entero y no es un baile heroico: es una carnicería en una sala cerrada. Los pretendientes intentan salir y las puertas están trancadas. Uno consigue armas del almacén y hay un momento en que la cosa se equilibra. Ulises, Telémaco y dos criados fieles pelean juntos contra ciento ocho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Homero se molesta en nombrar a varios de los muertos, con su padre y su procedencia, como hace la Ilíada con los soldados. No son un bulto: son hombres con nombre. El poema quiere que la venganza pese, no que sea una fiesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después viene la limpieza, y ahí está el episodio de las doce criadas ahorcadas. Homero lo cuenta con la misma frialdad con que ha contado todo lo demás y no ofrece ninguna reflexión. Es la escena que más se discute hoy y la que obliga a leer el poema con la distancia de tres mil años.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Antes del reencuentro con Penélope hay una escena que suele cortarse y que es importante: Ulises va a buscar a su padre Laertes, que vive retirado en el campo, sucio y roto de pena. Y en vez de decirle quién es, le hace pasar un mal rato con otra historia inventada hasta que el viejo se echa tierra en la cabeza llorando.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Solo entonces se da a conocer, y para demostrarlo no usa una cicatriz ni un arma: le enumera de memoria los árboles frutales que su padre le regaló cuando era niño y le seguía por el huerto. Trece perales, diez manzanos, cuarenta higueras. Después de veinte años, el hombre se sabe la lista entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final real es menos redondo y muchos estudiosos han sospechado que se añadió después. Las familias de los pretendientes se rebelan, hay un amago de guerra civil, y Atenea impone la paz a la fuerza. Ítaca queda en calma, pero el poema no cierra: Tiresias le había profetizado que aún tendrá que hacer un último viaje tierra adentro.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Quién escribió esto",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Sobre Homero no sabemos nada con certeza, ni siquiera si existió. La tradición dice que fue un aedo ciego de Jonia del siglo VIII antes de Cristo. Siete ciudades griegas se disputaban ser su cuna, lo cual suele indicar que ninguna lo era.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En los años treinta, un investigador americano viajó a los Balcanes a grabar a cantores analfabetos que improvisaban poemas larguísimos, y descubrió cómo lo hacían: usaban fórmulas fijas encajadas en el ritmo. De ahí salió la explicación de por qué en Homero la aurora es siempre «de rosados dedos» y el mar «color de vino».",
+          arte: "estanteria",
+        },
+        {
+          forma: "clave",
+          rotulo: "El hallazgo",
+          frase: "Esos adjetivos repetidos no son pobreza de estilo: son piezas prefabricadas que permitían componer en directo, ante un público, sin escribir nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso cambió la pregunta. Ya no se discute tanto quién fue Homero como cuántas generaciones de cantores fueron puliendo estos poemas antes de que alguien los pusiera por escrito. La Odisea que leemos es probablemente el momento en que una tradición oral de siglos quedó congelada en un texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su influencia posterior es incalculable. La Eneida de Virgilio es una respuesta directa. Dante mete a Ulises en el infierno. Joyce reescribió el poema entero en un solo día de Dublín. Y prácticamente todo relato en el que alguien emprende un viaje lleno de pruebas y regresa cambiado desciende de aquí.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué sigue vivo",
+          frase: "Es el primer héroe occidental que no gana por fuerza. Gana mintiendo, escondiéndose, esperando y aguantando insultos en su propia casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su epíteto habitual en griego significa, más o menos, «el de muchos recursos» o «el de muchas vueltas», y admite las dos lecturas a la vez: el que da muchos rodeos y el que tiene muchas salidas. Es la definición del personaje y del poema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si te decides a leerlo, dos consejos prácticos. Uno: busca una traducción en prosa moderna si es tu primera vez, porque las versiones en verso son bellísimas y bastante más duras. Dos: no te preocupes por los nombres, porque cada personaje aparece descrito con su epíteto y el propio poema te recuerda quién es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre las traducciones al español conviene saber algo. Las clásicas en verso son hermosísimas y bastante duras; las versiones modernas en prosa se leen de corrido. Y hay una diferencia de nombres que despista: Ulises es la forma latina, y en griego el personaje se llama Odiseo — de ahí el título.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su nombre, además, significa algo. En el poema se explica que se lo puso su abuelo, y la palabra griega está emparentada con el verbo odiar o causar dolor: es, más o menos, «el hombre del rencor» o «el que da y recibe dolor». Homero lo aclara justo en la digresión de la cicatriz.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese detalle es típico del poema. La Odisea está llena de nombres que significan cosas, de objetos que sirven de contraseña —la cicatriz, el arco, la cama— y de historias dentro de historias. Es un texto mucho más construido de lo que sugiere su fama de relato de aventuras.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre las adaptaciones, casi todas se quedan en la primera mitad porque es la que tiene monstruos. La consecuencia es que mucha gente cree que la Odisea es un viaje lleno de criaturas, cuando la mitad del poema transcurre dentro de una casa y consiste en gente hablando y midiéndose.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que casi nadie sabe",
+          frase: "La mitad del poema transcurre dentro de una casa. Las aventuras con monstruos ocupan solo cuatro cantos de veinticuatro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un debate antiguo sobre Penélope que sigue vivo. Una lectura la ve como la esposa fiel que espera; otra, cada vez más aceptada, la ve como la verdadera igual de Ulises: una mujer que aguanta veinte años sola a ciento ocho hombres armados dentro de su casa usando solo el ingenio, y que al final le pone una trampa a él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si te interesa esa lectura, hay una novela contemporánea que cuenta el poema entero desde Penélope y desde las doce criadas ahorcadas, y funciona muy bien leída después. La Odisea admite ese tipo de respuestas precisamente porque deja huecos enormes sin explicar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por dónde empezar: si es tu primer clásico griego, empieza por esta y no por la Ilíada. La Ilíada es un poema de guerra, con catálogos de barcos y muertes descritas una a una; la Odisea tiene aventuras, disfraces, monstruos, una venganza y un reencuentro. Es, sencillamente, más entretenida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tres, que es el importante: los cantos con las aventuras famosas son la minoría. Si vas buscando monstruos, el poema se te va a hacer largo. Si lo lees por lo que es —la historia de un hombre que tarda veinte años en volver a su casa y tiene que reconquistarla disfrazado de mendigo— no se parece a nada.",
+        },
+      ],
+    },
+  ],
+};
