@@ -48,6 +48,13 @@ export default function App() {
   const [nombre, setNombre] = useState("Hola");
   /** Tarjetas leídas. Sube al terminar un capítulo o un short. */
   const [leidas, setLeidas] = useState(0);
+  /** Minutos de lectura de hoy, su meta y el total acumulado de siempre.
+      Los dos arrancan con historial de ejemplo, como la racha: un perfil a
+      cero no enseña ni el arco lleno a medias ni el contador subiendo, que es
+      justo lo que hay que ver. Al leer suben de verdad. */
+  const [minutosHoy, setMinutosHoy] = useState(6.5);
+  const [meta, setMeta] = useState(15);
+  const [minutosTotales, setMinutosTotales] = useState(1847);
   /** El aviso del regalo: se enseña una vez, al llegar al inicio. */
   const [avisoRegalo, setAvisoRegalo] = useState(false);
   const [regaloVisto, setRegaloVisto] = useState(false);
@@ -125,6 +132,10 @@ export default function App() {
               nombre={nombre}
               racha={RACHA}
               leidas={leidas}
+              minutosHoy={minutosHoy}
+              meta={meta}
+              minutosTotales={minutosTotales}
+              onMeta={setMeta}
               favoritas={0}
               guardadas={0}
               onCerrar={() => setPantalla("inicio")}
@@ -143,7 +154,11 @@ export default function App() {
             // tarjetas leídas, que es lo que ve el perfil.
             <MuroShorts
               key="shorts"
-              onLeido={(s) => setLeidas((n) => n + s.paginas.length + 1)}
+              onLeido={(s, m) => {
+                setLeidas((n) => n + s.paginas.length + 1);
+                setMinutosHoy((n) => n + m);
+                setMinutosTotales((n) => n + m);
+              }}
             />
           )}
           {pantalla === "detalle" && (
@@ -175,7 +190,10 @@ export default function App() {
               key="leccion"
               onSalir={() => setPantalla("camino")}
               onFin={() => {
-                setMinutos((Date.now() - arranque.current) / 60000);
+                const gastado = (Date.now() - arranque.current) / 60000;
+                setMinutos(gastado);
+                setMinutosHoy((n) => n + gastado);
+                setMinutosTotales((n) => n + gastado);
                 setCompletados((c) => c + 1);
                 setLeidas((n) => n + CARDS.length);
                 setObjetivo(MINUTOS_OBJETIVO);

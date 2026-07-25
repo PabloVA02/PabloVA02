@@ -1,6 +1,7 @@
 import type { ReactElement } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Llama } from "./Racha";
+import { MetaDiaria } from "./Meta";
 import { GlyphClose, GlyphGuardar, GlyphHeart, GlyphTick } from "./glyphs";
 import { spring, springPop, springSoft } from "./motion";
 
@@ -53,13 +54,30 @@ type Props = {
   nombre: string;
   racha: number;
   leidas: number;
+  /** Minutos leídos hoy, su meta y el total de siempre. */
+  minutosHoy: number;
+  meta: number;
+  minutosTotales: number;
+  onMeta: (m: number) => void;
   favoritas: number;
   guardadas: number;
   onCerrar: () => void;
   onAjustes: () => void;
 };
 
-export function Perfil({ nombre, racha, leidas, favoritas, guardadas, onCerrar, onAjustes }: Props) {
+export function Perfil({
+  nombre,
+  racha,
+  leidas,
+  minutosHoy,
+  meta,
+  minutosTotales,
+  onMeta,
+  favoritas,
+  guardadas,
+  onCerrar,
+  onAjustes,
+}: Props) {
   const reducido = !!useReducedMotion();
   const dias = semana(racha);
   const inicial = (nombre.trim()[0] ?? "T").toUpperCase();
@@ -100,6 +118,21 @@ export function Perfil({ nombre, racha, leidas, favoritas, guardadas, onCerrar, 
             <h1>{nombre}</h1>
             <p>{leidas} tarjetas leídas</p>
           </div>
+        </motion.div>
+
+        {/* La meta del día: lo primero que se viene a mirar */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...springSoft, delay: orden(1) }}
+        >
+          <MetaDiaria
+            minutos={minutosHoy}
+            meta={meta}
+            total={minutosTotales}
+            reducido={reducido}
+            onMeta={onMeta}
+          />
         </motion.div>
 
         {/* Desbloquear: el único bloque de color saturado de la pantalla */}
