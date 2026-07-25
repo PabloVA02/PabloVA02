@@ -84,7 +84,6 @@ export function Ajustes({
     {
       rotulo: "Échanos una mano",
       filas: [
-        { nombre: "Invitar amigos", Icono: IcoAmigos, valor: "7 días gratis" },
         { nombre: "Compartir la app", Icono: IcoCompartir },
         { nombre: "Valorar en la tienda", Icono: IcoEstrella },
         { nombre: "Proponer un tema", Icono: IcoBombilla },
@@ -251,16 +250,6 @@ const IcoEdad = () =>
       <path d="M12.4 8.4 v7 M10.2 19 v-3.6 h4.4 V19" {...t} />
       <circle cx="18.4" cy="8.6" r="1.8" {...t} />
       <path d="M18.4 11 v4.4 M16.8 19 v-3.6 h3.2 V19" {...t} />
-    </>,
-  );
-
-/** Dos personas, una detrás de otra: invitar es traer a alguien. */
-const IcoAmigos = () =>
-  caja(
-    <>
-      <circle cx="9" cy="7.6" r="3.4" {...t} />
-      <path d="M3.4 18.4 c0-3.4 2.6-5.4 5.6-5.4 s5.6 2 5.6 5.4" {...t} />
-      <path d="M15.4 5.2 a3.2 3.2 0 0 1 0 5.6 M16.4 13.4 c2.4.5 4 2.4 4 5" {...t} />
     </>,
   );
 

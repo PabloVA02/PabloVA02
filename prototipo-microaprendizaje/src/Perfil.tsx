@@ -196,6 +196,25 @@ export function Perfil({
           />
         </motion.div>
 
+        {/* Invitar: va aquí y no en ajustes porque no es una preferencia, es
+            algo que se hace. En una lista de ajustes se lee como un trámite;
+            aquí, al lado de la racha, se lee como una propuesta. */}
+        <motion.section
+          className="perfil-invitar"
+          initial={{ opacity: 0, y: 20, scale: 0.97 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ ...springSoft, delay: orden(3) }}
+        >
+          <div className="perfil-invitar-texto">
+            <h2>Creciendo juntos</h2>
+            <p>Regala a quien quieras una semana entera, sin que ponga tarjeta.</p>
+          </div>
+          <Entradas reducido={reducido} />
+          <motion.button className="perfil-invitar-boton" whileTap={{ scale: 0.97 }}>
+            Invitar amigos
+          </motion.button>
+        </motion.section>
+
         {/* Anti-scroll: la única tarjeta que promete QUITARTE algo en vez de
             darte algo. Por eso va con su propio color y fuera de la rejilla */}
         <motion.button
@@ -596,5 +615,43 @@ function GlyphNota() {
       <path d="M3.4 3.6 H10 L13.6 7.2 V13.4 H3.4 Z" {...trazoFino} />
       <path d="M9.8 3.6 V7.4 H13.6" {...trazoFino} />
     </svg>
+  );
+}
+
+/**
+ * Dos entradas troqueladas, una detrás de otra. Se balancean a ritmos
+ * distintos y con orígenes distintos: si giraran a la vez parecerían una sola
+ * pieza de cartón, y lo que tiene que leerse es que son DOS —la tuya y la de
+ * quien invites—.
+ */
+function Entradas({ reducido }: { reducido: boolean }) {
+  return (
+    <span className="perfil-invitar-arte" aria-hidden>
+      <svg viewBox="0 0 96 78" width="90" height="73">
+        <motion.g
+          style={{ originX: "40px", originY: "48px" }}
+          animate={reducido ? {} : { rotate: [-16, -11, -16], y: [0, -2.4, 0] }}
+          transition={{ duration: 5.3, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <rect x="8" y="26" width="56" height="36" rx="7" fill="var(--plum)" />
+          <circle cx="36" cy="26" r="5" fill="var(--night)" />
+          <circle cx="36" cy="62" r="5" fill="var(--night)" />
+        </motion.g>
+        <motion.g
+          style={{ originX: "58px", originY: "42px" }}
+          animate={reducido ? {} : { rotate: [11, 16, 11], y: [0, -3.4, 0] }}
+          transition={{ duration: 3.9, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <rect x="30" y="16" width="58" height="38" rx="7" fill="var(--ochre)" />
+          <circle cx="59" cy="16" r="5" fill="var(--night)" />
+          <circle cx="59" cy="54" r="5" fill="var(--night)" />
+          <path
+            d="M59 27.4 61.6 32.6 67.4 33.4 63.2 37.4 64.2 43.2 59 40.4 53.8 43.2 54.8 37.4 50.6 33.4 56.4 32.6Z"
+            fill="var(--night)"
+            opacity="0.72"
+          />
+        </motion.g>
+      </svg>
+    </span>
   );
 }
