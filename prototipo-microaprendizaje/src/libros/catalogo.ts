@@ -128,7 +128,7 @@ export const CATALOGO: Ficha[] = [
   { id: "matar-ruisenor", titulo: "Matar a un ruiseñor", autor: "Harper Lee", ano: 1960, categoria: "Literatura", estado: "escrito" },
   { id: "extranjero", titulo: "El extranjero", autor: "Albert Camus", ano: 1942, categoria: "Literatura", estado: "escrito" },
   { id: "metamorfosis", titulo: "La metamorfosis", autor: "Franz Kafka", ano: 1915, categoria: "Literatura", estado: "escrito" },
-  { id: "orgullo-prejuicio", titulo: "Orgullo y prejuicio", autor: "Jane Austen", ano: 1813, categoria: "Literatura", estado: "pendiente" },
+  { id: "orgullo-prejuicio", titulo: "Orgullo y prejuicio", autor: "Jane Austen", ano: 1813, categoria: "Literatura", estado: "escrito" },
   { id: "senor-moscas", titulo: "El señor de las moscas", autor: "William Golding", ano: 1954, categoria: "Literatura", estado: "escrito" },
   { id: "frankenstein", titulo: "Frankenstein", autor: "Mary Shelley", ano: 1818, categoria: "Literatura", estado: "escrito" },
   { id: "dorian-gray", titulo: "El retrato de Dorian Gray", autor: "Oscar Wilde", ano: 1890, categoria: "Literatura", estado: "escrito" },
