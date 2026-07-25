@@ -3,6 +3,7 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { LIBROS, Portada } from "./Biblioteca";
 import { GlyphBack, GlyphTick } from "./glyphs";
 import { PaseInvitado } from "./PaseInvitado";
+import { CargaBiblioteca, DURACION } from "./Cargando";
 import { spring, springPop, springSoft, springTight } from "./motion";
 
 /* ==========================================================================
@@ -355,7 +356,7 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => voi
   // La pantalla de carga avanza sola, como en cualquier onboarding real.
   useEffect(() => {
     if (paso.tipo !== "cargando") return;
-    const id = window.setTimeout(() => avanzar(1), 2400);
+    const id = window.setTimeout(() => avanzar(1), DURACION * 1000);
     return () => window.clearTimeout(id);
   });
 
@@ -559,14 +560,7 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string) => voi
               <motion.h1 className="onb-titulo" {...parte(0, reducido)}>
                 {paso.titulo}
               </motion.h1>
-              <div className="onb-carga">
-                <motion.div
-                  className="onb-carga-relleno"
-                  initial={{ scaleX: 0 }}
-                  animate={{ scaleX: 1 }}
-                  transition={{ duration: 2.2, ease: "easeInOut" }}
-                />
-              </div>
+              <CargaBiblioteca reducido={reducido} />
             </>
           )}
 

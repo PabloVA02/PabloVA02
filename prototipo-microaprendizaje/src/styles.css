@@ -2995,3 +2995,85 @@ button {
 @media (prefers-reduced-motion: reduce) {
   .pase-brillo { display: none; }
 }
+
+/* ==========================================================================
+   LA PANTALLA DE CARGA
+
+   La biblioteca se monta delante de ti. Doce portadas en rejilla que caen en
+   diagonal, y debajo las tres tareas cerrándose una a una.
+   ========================================================================== */
+
+.carga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  margin-top: 26px;
+}
+
+.carga-rejilla {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 9px;
+  width: min(100%, 250px);
+}
+
+.carga-portada {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(46, 40, 34, 0.16);
+}
+
+.carga-portada-marca {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  width: 42%;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  background: var(--paper);
+  opacity: 0.85;
+  transform: translateX(-50%);
+}
+
+.carga-portada-linea {
+  position: absolute;
+  left: 18%;
+  right: 18%;
+  bottom: 20%;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--paper);
+  opacity: 0.6;
+}
+
+.carga-tareas {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: min(100%, 260px);
+}
+
+.carga-tarea {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.carga-anillo {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+}
+
+.carga-tarea-texto {
+  font-size: 14px;
+  font-weight: 580;
+  letter-spacing: -0.01em;
+  color: var(--ink-soft);
+}
