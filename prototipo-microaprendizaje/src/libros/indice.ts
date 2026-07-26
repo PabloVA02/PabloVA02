@@ -17,7 +17,7 @@ import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
 import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS, INVERSOR_INTELIGENTE, CERO_A_UNO, ANTIFRAGIL, LEAN_STARTUP } from "./economia";
 import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA, NUDGE, DEEP_WORK, PODER_AHORA } from "./psicologia";
 import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY, SENOR_MOSCAS, DRACULA, VIEJO_MAR, ODISEA, SOMBRA_VIENTO, NOMBRE_ROSA } from "./literatura";
-import { ARTE_GUERRA, ETICA_AMADOR, TAO_TE_CHING, ENQUIRIDION } from "./filosofia";
+import { ARTE_GUERRA, ETICA_AMADOR, TAO_TE_CHING, ENQUIRIDION, MONJE_FERRARI } from "./filosofia";
 import { ORGULLO_PREJUICIO, GUARDIAN_CENTENO, PEDRO_PARAMO } from "./literatura";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
@@ -175,6 +175,7 @@ export const RESUMENES: Record<string, Resumen> = {
   "lean-startup": LEAN_STARTUP,
   "universo-mano": UNIVERSO_MANO,
   "historia-espana": HISTORIA_ESPANA,
+  "monje-ferrari": MONJE_FERRARI,
 };
 
 export function comprobar() {

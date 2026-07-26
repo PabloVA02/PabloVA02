@@ -82,7 +82,7 @@ export const CATALOGO: Ficha[] = [
   { id: "sutil-arte", titulo: "El sutil arte de que casi todo te importe una mierda", autor: "Mark Manson", ano: 2016, categoria: "Filosofía", estado: "escrito" },
   { id: "etica-amador", titulo: "Ética para Amador", autor: "Fernando Savater", ano: 1991, categoria: "Filosofía", estado: "escrito" },
   { id: "ikigai", titulo: "Ikigai", autor: "García y Miralles", ano: 2016, categoria: "Filosofía", estado: "escrito" },
-  { id: "monje-ferrari", titulo: "El monje que vendió su Ferrari", autor: "Robin Sharma", ano: 1997, categoria: "Filosofía", estado: "pendiente" },
+  { id: "monje-ferrari", titulo: "El monje que vendió su Ferrari", autor: "Robin Sharma", ano: 1997, categoria: "Filosofía", estado: "escrito" },
 
   /* --- Ciencia ---------------------------------------------------------- */
   { id: "breve-historia-tiempo", titulo: "Breve historia del tiempo", autor: "Stephen Hawking", ano: 1988, categoria: "Ciencia", estado: "escrito" },
