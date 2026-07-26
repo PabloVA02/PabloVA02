@@ -191,7 +191,7 @@ export const CATALOGO: Ficha[] = [
   { id: "moby-dick", titulo: "Moby Dick", autor: "Herman Melville", ano: 1851, categoria: "Literatura", estado: "escrito" },
   { id: "montecristo", titulo: "El conde de Montecristo", autor: "Alejandro Dumas", ano: 1844, categoria: "Literatura", estado: "escrito" },
   { id: "rayuela", titulo: "Rayuela", autor: "Julio Cortázar", ano: 1963, categoria: "Literatura", estado: "pendiente" },
-  { id: "bernarda-alba", titulo: "La casa de Bernarda Alba", autor: "Federico García Lorca", ano: 1936, categoria: "Literatura", estado: "pendiente" },
+  { id: "bernarda-alba", titulo: "La casa de Bernarda Alba", autor: "Federico García Lorca", ano: 1936, categoria: "Literatura", estado: "escrito" },
   { id: "el-tunel", titulo: "El túnel", autor: "Ernesto Sabato", ano: 1948, categoria: "Literatura", estado: "pendiente" },
   { id: "renglones-torcidos", titulo: "Los renglones torcidos de Dios", autor: "Torcuato Luca de Tena", ano: 1979, categoria: "Literatura", estado: "pendiente" },
 

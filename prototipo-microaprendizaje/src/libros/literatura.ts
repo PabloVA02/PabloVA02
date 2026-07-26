@@ -13135,3 +13135,572 @@ export const MONTECRISTO: Resumen = {
     },
   ],
 };
+
+export const BERNARDA_ALBA: Resumen = {
+  id: "bernarda-alba",
+  titulo: "La casa de Bernarda Alba",
+  autor: "Federico García Lorca",
+  ano: 1936,
+  gancho:
+    "Cinco hermanas encerradas ocho años por la muerte de un padre, y un hombre del que todas hablan y que no aparece nunca en escena.",
+  porQue:
+    "Lorca la terminó el 19 de junio de 1936 y lo fusilaron dos meses después. Es la obra más representada del teatro español del siglo veinte y en el instituto la destrozan reduciéndola a una lista de símbolos.",
+  partes: [
+    {
+      titulo: "Un pueblo de Andalucía sin nombre",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La obra abre con una acotación que parece un plano: habitación blanquísima del interior de la casa de Bernarda, muros gruesos, puertas con cortinas de yute rematadas con madroños y volantes, sillas de anea, cuadros con paisajes inverosímiles de ninfas o reyes de leyenda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una indicación de sonido: es verano, hay un silencio de sombra, y al levantarse el telón la escena está sola con las campanas doblando. Fuera se está enterrando al segundo marido de Bernarda, y en casa han quedado las criadas fregando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primeros que hablan no son los protagonistas. Son la Poncia, criada desde hace treinta años, y otra criada, y lo que hacen durante cinco minutos es despellejar a la señora en su ausencia mientras se comen a escondidas los embutidos de la despensa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que se sabe antes de que salga nadie",
+          frase: "Que Bernarda es tirana, que sus hijas la odian, que la Poncia la sirve y la desprecia a partes iguales, y que en aquella casa todo el mundo pasa hambre de algo. Lorca da la información entera por boca de la servidumbre antes de dejar entrar a los personajes principales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entra el duelo entero, doscientas mujeres de negro, y detrás Bernarda con un bastón. Su primera palabra en la obra es una orden de una sola sílaba: ¡Silencio! Y esa misma palabra, gritada dos veces, será la última que se pronuncie tres actos después.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La obra entera está encerrada entre esas dos órdenes de callar. Es una decisión de construcción, no una casualidad: lo que ocurre en medio es todo lo que se intenta decir dentro de esa casa y todo lo que se consigue silenciar.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien escribió esto se llamaba Federico García Lorca, tenía treinta y ocho años, y era ya el poeta y el dramaturgo más famoso de España. Había nacido en 1898 en Fuente Vaqueros, en la vega de Granada, hijo de un terrateniente rico y de una maestra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A los veintiuno se instaló en Madrid, en la Residencia de Estudiantes, donde compartió pasillo con Salvador Dalí y con Luis Buñuel. De allí salió la generación literaria más brillante que ha tenido el país, y también un puñado de amistades que acabaron mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su fama llegó en 1928 con el Romancero gitano, que se vendió como no se vendía la poesía en España, y a él le fastidió: le colgó la etiqueta de poeta pintoresco y andaluz, y se pasó los años siguientes intentando quitársela de encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se fue a Nueva York en 1929, vivió el crac de la Bolsa desde dentro, y escribió allí un libro que no se parecía a nada suyo anterior: versos violentos, urbanos y sin una sola guitarra, que no se publicaron hasta después de su muerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al volver, con la República ya proclamada, dirigió La Barraca: un teatro ambulante financiado por el Estado que llevaba a Lope, a Calderón y a Cervantes en camión a pueblos donde no había llegado nunca una función. Recorrieron media España en cuatro años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en paralelo escribió tres obras que se agrupan como su trilogía rural. Bodas de sangre en 1933, Yerma en 1934, y esta, terminada el 19 de junio de 1936. Las tres tratan de mujeres, del deseo y de lo que un pueblo permite y no permite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El subtítulo que le puso es exacto y conviene leerlo: drama de mujeres en los pueblos de España. Y bajo el reparto añadió una advertencia del autor diciendo que estos tres actos tienen la intención de un documental fotográfico.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa frase es a la vez cierta y falsa. Es cierta porque Lorca quitó de esta obra los versos y las canciones que llenaban las dos anteriores, buscando un lenguaje seco. Y es falsa porque lo que hay en escena no es realismo: es un mecanismo cerrado que funciona como una tragedia griega.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pueblo no tiene nombre en la obra, y sí lo tiene en la vida real. En Valderrubio, provincia de Granada, donde su familia tenía casa, vivía una viuda con hijas llamada Frasquita Alba Sierra, cuyo patio daba al de los García Lorca y compartía pozo con ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Federico oía desde niño lo que pasaba en aquella casa a través de la tapia. Le dejó a la protagonista el apellido real sin cambiarlo, y cuando la obra se conoció, los descendientes de aquella mujer se enfadaron con toda la razón del mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El reparto son ocho mujeres con nombre y ninguna con la vida resuelta. Bernarda, sesenta años, viuda por segunda vez. Su madre, María Josefa, ochenta, encerrada bajo llave. La Poncia y otra criada. Y cinco hijas de veinte a treinta y nueve años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Angustias tiene treinta y nueve y es hija del primer marido, no del muerto de hoy. Magdalena treinta, Amelia veintisiete, Martirio veinticuatro y Adela veinte. Los nombres no son inocentes: en esa lista hay una angustia, una mártir y una magdalena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un personaje más del que se habla en los tres actos y que no pisa el escenario ni una sola vez. Se llama Pepe el Romano, tiene veinticinco años, y todo lo que ocurre en esta casa ocurre por él sin que él aparezca jamás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa ausencia es la decisión técnica más audaz de la obra, y volveremos a ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando se van las visitas del entierro, Bernarda cierra la puerta y anuncia lo que va a pasar en esa casa a partir de esa tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo anuncia apoyada en un bastón.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El bastón de Bernarda",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La sentencia es esta: en los ocho años que dure el luto no ha de entrar en esta casa el viento de la calle. Hay que hacer cuenta de que hemos tapiado con ladrillos puertas y ventanas. Así pasó en casa de su padre y en casa de su abuelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ocho años. Angustias tendrá cuarenta y siete al salir, Adela veintiocho. Y mientras tanto, dice, hilo y aguja para las hembras y mula y látigo para el varón, que es la frase con la que resume su idea del reparto del mundo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quién es Bernarda en realidad",
+          frase: "No una aristócrata, y esto se entiende mal casi siempre. Es una campesina rica, hija de gente que trabajó la tierra, obsesionada con parecer más de lo que es. Su tiranía no viene de la clase alta: viene del miedo de quien acaba de subir y sabe que puede volver a bajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Poncia se lo recuerda al público sin que ella lo oiga: que su padre andaba con alpargatas por los pueblos, y que ella tiene la lengua demasiado larga para lo que fue su casa. En esta obra el clasismo es tan violento como la represión sexual y va siempre por delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se ve en cómo trata a las criadas, a las que llama pobres y les niega hasta el pan. Se ve en la escena de la mendiga a la que echa de la puerta. Y se ve en la razón por la que ninguna de sus hijas se casa: en aquel pueblo no hay hombres de su nivel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Magdalena lo dice con todas las letras: que sabe que no se van a casar, que se les pudrirán las carnes, y que prefiere llevar sacos al molino antes que estar en aquella sala oscura de la mañana a la noche. Es la queja más directa y nadie la contesta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La casa es el otro personaje. Lorca la construye con tres indicaciones de color a lo largo de la obra: en el primer acto la habitación es blanquísima, en el segundo es blanca, y en el tercero es blanca ligeramente azulada, la del interior más profundo, la más lejana de la calle.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese blanco que se va enfriando acto a acto es lo contrario de un decorado: es un termómetro. La obra avanza hacia dentro de la casa, hacia el fondo, hacia la noche, y la escenografía lo va marcando sin que ningún personaje lo mencione.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El único personaje que dice la verdad en voz alta está encerrado con llave. María Josefa, la madre de Bernarda, ochenta años, a la que sacan un momento al principio y que grita que quiere marcharse de aquel pueblo, casarse con un varón hermoso a la orilla del mar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La meten en su cuarto entre dos y le echan el cerrojo. Es el recurso de la loca que ve claro, que viene del teatro clásico, y Lorca lo usa exactamente para eso: la única a la que se permite decir lo que todas piensan es aquella a la que nadie toma en serio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Poncia es el otro personaje complejo de la obra y merece atención, porque no es la criada bondadosa del teatro convencional. Odia a Bernarda, la ha servido treinta años, y avisa una y otra vez de que aquello va a acabar mal por puro rencor acumulado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que un día tendrá un arrebato y se encerrará con ella en un cuarto y le escupirá en la cara. Y a la vez es ella quien mantiene la casa funcionando, quien avisa, quien vigila y quien más sabe. Es cómplice y víctima al mismo tiempo, y esa mezcla la sostiene entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que rompe el encierro es una noticia práctica. El primer marido de Bernarda dejó una herencia y esa herencia es de Angustias, la hija mayor, la fea, la de treinta y nueve años. Las otras cuatro no tienen nada porque el segundo marido no dejó gran cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en el pueblo hay un chico de veinticinco años, Pepe el Romano, que ha empezado a rondar la ventana de Angustias para pedirla en matrimonio. Todo el mundo dentro de la casa sabe por qué la ronda a ella y no a las otras, y nadie lo dice delante de Bernarda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Poncia sí lo dice a solas: que Pepe viene por el dinero, que es un hombre de veinticinco años y lo natural sería que fuera detrás de Adela, y que aquello se veía venir desde el primer día. Bernarda contesta que en su casa no pasa nada de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la mecánica de la obra, y es lo que la hace insoportable en el buen sentido. Todos los personajes saben lo que está pasando. Todos avisan. Y la autoridad de la casa se dedica a repetir que no está pasando, hasta que ocurre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bernarda tiene una frase que resume su idea del asunto: que ella no se mete en los corazones, pero que quiere buena fachada y armonía familiar. Le da igual lo que sientan sus hijas mientras el pueblo no tenga nada que comentar en la puerta de la iglesia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y por eso, cuando la Poncia le pide que actúe antes de que sea tarde, ella contesta con la frase que la define entera: que no pasa nada, que eso es lo que ella quiere que ocurra. Confunde deliberadamente lo que desea con lo que hay.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, en el cuarto de Angustias, alguien ha entrado a robar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Falta un retrato pequeño de Pepe el Romano.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El retrato en la cama",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El segundo acto empieza con las hermanas cosiendo el ajuar, y con Angustias dando gritos porque le ha desaparecido de la habitación el retrato de su novio. Bernarda ordena registrar la casa, y la Poncia lo encuentra a los pocos minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está entre las sábanas de la cama de Martirio, la hermana de veinticuatro años, la coja, la que apenas habla. Martirio se defiende diciendo que ha sido una broma y nadie se lo cree, y Bernarda le pega con el bastón delante de todas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué ese detalle es tan bueno",
+          frase: "Porque Martirio no roba al hombre: roba una fotografía y se la lleva a la cama. En una casa donde el deseo no puede existir ni nombrarse, lo único que se puede robar es una imagen, y lo único que se puede hacer con ella es dormir al lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el mecanismo entero de la obra y explica por qué Pepe el Romano no aparece nunca en escena. No hace falta. Lo que interesa a Lorca no es el hombre, sino lo que su existencia produce dentro de una casa en la que cinco mujeres no tienen ninguna salida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si Pepe apareciera, sería un chico de veinticinco años detrás de una herencia. Al no aparecer, es todo lo que cada hermana necesita que sea: para Angustias la última oportunidad, para Martirio la que perdió, para Adela lo único que ha deseado nunca.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es la misma técnica de las tragedias griegas con lo que ocurre fuera de escena, y Lorca la lleva al límite: el motor de tres actos es un personaje que no tiene ni una línea de texto y del que solo se oye, dos veces, el ruido de un caballo alejándose.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Martirio es el personaje más triste de la obra y el más difícil de interpretar. Es coja, se sabe fea, y cuenta que hubo un pretendiente, Enrique Humanes, que dejó de venir a su ventana de un día para otro. Lo que no sabe es por qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Poncia se lo cuenta al público mucho después: que fue su madre quien le mandó recado de que no viniera, porque el padre del muchacho había sido gañán. Bernarda le arruinó a su hija la única oportunidad que tuvo, y Martirio se ha pasado años creyendo que fue por ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato cambia el personaje entero. La envidia de Martirio no es un defecto de carácter: es el resultado exacto de lo que le hicieron, y la obra lo explica sin que ningún personaje lo señale ni saque conclusiones. Está ahí para quien lo quiera ver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el otro extremo está Adela, veinte años, la pequeña, y Lorca le da un objeto que la identifica desde el primer acto: un vestido verde que se ha puesto para estrenarlo el día del entierro de su padre, y que sus hermanas le hacen quitarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El verde en Lorca es siempre el color del deseo y de lo que no llega. Adela sale al corral con el vestido puesto para que la vean las gallinas, dice, y esa frase absurda es en realidad lo único que puede hacer con veinte años dentro de aquella casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En mitad del segundo acto ocurre además la escena que sitúa la obra en su mundo real. Se oye jaleo en la calle: los segadores han llegado al pueblo, y las hermanas se asoman a la ventana a mirarlos pasar cantando, que es todo lo que pueden hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y después llega la otra escena, la que Bernarda aplaude. Una vecina soltera ha tenido un hijo, lo ha matado para ocultarlo y lo han encontrado. El pueblo la arrastra por la calle para lincharla, y desde dentro de la casa se oyen los gritos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bernarda sale a la puerta y grita que la maten, que le echen carbones ardiendo en el sitio del pecado. Y Adela, que está detrás de ella agarrándose el vientre, grita que no, que la dejen escapar. Las dos frases seguidas dicen todo lo que va a pasar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa escena es el aviso legal de la obra: lo que le espera a una mujer soltera de aquel pueblo si se sabe. No es una metáfora ni una exageración poética; es lo que ocurría, y Lorca la coloca justo antes del acto en el que Adela decide arriesgarse igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Poncia, que lo ve todo, se lo dice a Adela a solas y sin rodeos: que no le tiene miedo, que puede levantar la voz, pero que sabe perfectamente lo que hace por las noches y que aquello va a terminar en un escándalo que se llevará la casa por delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Adela le contesta que si es preciso pasará por encima de su madre, que se pondrá la corona de espinas que tienen las que son queridas de algún hombre casado, y que huirá con él. Es la primera vez que alguien dice en voz alta lo que quiere.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El acto termina con Bernarda repitiendo que en su casa no pasa nada, con las hijas mirándose entre ellas, y con el pueblo linchando a una mujer a cien metros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero empieza de noche, después de cenar, con un ruido que viene de fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un caballo dando coces contra el muro.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El caballo que golpea el muro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El tercer acto transcurre en un patio interior de la casa, de noche, con cuatro paredes blancas ligeramente azuladas y las puertas iluminadas por la luz de dentro. Están cenando en silencio, con el ruido de los platos, y de pronto se oyen unos golpes secos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bernarda pregunta qué pasa y la Poncia contesta que es el caballo garañón, el semental, que está encerrado y da coces contra el muro porque quiere salir. Bernarda ordena que lo suelten al corral y que le echen paja, y la conversación continúa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El símbolo más citado de la literatura española",
+          frase: "Un animal macho encerrado, dando patadas al muro de una casa donde hay cinco mujeres encerradas, mientras la dueña ordena que le echen paja para que se calle. Lorca no lo explica en ningún sitio. No hace falta explicarlo, y ese es exactamente el problema de cómo se enseña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque en los institutos se enseña esta obra como una lista de símbolos que hay que memorizar: el caballo es el deseo, el verde es la pasión, el bastón es el poder, el blanco es la esterilidad. Y una vez traducidos, la obra ya no hace nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un símbolo funciona cuando se siente antes de entenderse. Ese ruido de coces contra la pared, de noche, mientras unas mujeres cenan calladas, produce una incomodidad física en la sala mucho antes de que nadie piense en lo que significa. Traducirlo es apagarlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo mismo pasa con la escena que viene después, y que es la más extraña de la obra. María Josefa, la abuela de ochenta años, se ha escapado de su cuarto y aparece en el patio con una oveja en brazos, arrullándola como si fuera un niño y cantándole.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Canta que se va a la orilla del mar, que la oveja es su niño, y le dice a Martirio a la cara lo que nadie ha dicho: que ella quiere campo, casas abiertas y mujeres con sus hijos varones, y que en aquella casa todas van a convertirse en espuma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le suelta a Martirio la frase que la desarma: cara de martirio, quítate de ahí, que yo cuando mi vecina tenía un niño le llevaba chocolate. Una anciana con una oveja en brazos es lo más cerca que llega esta casa a la ternura, y es una escena de locura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después la meten otra vez en su cuarto. Y entonces empieza la última noche, con Adela saliendo al corral cuando todas duermen, y con Martirio esperándola en la puerta de vuelta, en la escena que decide el final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos hermanas se enfrentan en voz baja para no despertar a nadie, y Martirio confiesa por fin lo que lleva toda la obra callando: que ella también quiere a Pepe el Romano. Adela le contesta que lo sabía, y que le da igual, y que él es suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que dice a continuación es el discurso más famoso de la obra. Que se pondrá en mitad de la calle una corona de espinas, que huirá con él, que aunque él se case con Angustias ella será su querida, y que ya no aguanta el horror de estos techos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y remata con una imagen que resume el mecanismo entero: que a un hombre así no lo detiene nadie, y que ella se pondrá lo que le dé la gana delante de todo el pueblo, aunque tenga que ir al río a beber, porque ha visto la muerte debajo de estos techos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los gritos despiertan a la casa. Bernarda aparece con el bastón, y Adela hace lo único verdaderamente heroico que ocurre en la obra: se lo quita de las manos y lo parte en dos delante de todas, y le dice que se acabó, que en ella no manda nadie más que Pepe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bernarda sale corriendo a por la escopeta. Se oye un disparo en el corral. Vuelve a entrar y anuncia que ha fallado, pero Martirio, que ha entrado detrás, le dice a Adela una sola frase, y es una mentira: se acabó Pepe el Romano.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Adela sale corriendo. Se oye un golpe. Cuando derriban la puerta de su cuarto, se la encuentran ahorcada. Y Martirio, que sabía perfectamente que Pepe estaba vivo y se había ido a caballo, no ha abierto la boca. Es su hermana quien la mata, no el hombre.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es el que casi nunca se cuenta bien y es el corazón de la obra. Adela no muere de amor ni por la tiranía de su madre: muere por una frase falsa que le dice la hermana que la envidia. El sistema no necesita al tirano para matar; le basta con las víctimas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que hace Bernarda con el cadáver todavía caliente es lo que cierra la obra. Ordena que la descuelguen, que la vistan de doncella, y que nadie diga nada. Y pronuncia la frase por la que se recuerda el personaje: mi hija ha muerto virgen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y después: avisad que al amanecer den dos clamores las campanas. Nos hundiremos todas en un mar de luto. Ella, la hija menor de Bernarda Alba, ha muerto virgen. ¿Me habéis oído? Silencio, silencio he dicho. ¡Silencio!",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Telón. La obra se acaba exactamente en la misma palabra con la que empezó, y no ha cambiado absolutamente nada salvo que hay una hija muerta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lorca la terminó el 19 de junio de 1936 y se la leyó en voz alta a unos amigos en Madrid.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un mes después cogió el tren a Granada.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Granada, agosto de 1936",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Se fue a Granada el 13 de julio de 1936, a pasar el verano en la huerta familiar y a celebrar el santo de su padre. Le habían recomendado que no fuera, o que se marchara a México con Margarita Xirgu, la actriz que estrenaba sus obras. Contestó que en Granada estaría tranquilo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El golpe militar estalló el 17 de julio. Granada cayó en manos de los sublevados en cuestión de días, y empezaron las detenciones. Al cuñado de Lorca, Manuel Fernández-Montesinos, que era el alcalde socialista de la ciudad, lo fusilaron el 16 de agosto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mismo día detuvieron a Federico en casa de la familia Rosales, unos amigos falangistas donde se había escondido. Estuvo en el Gobierno Civil un día o dos, y en la madrugada del 18 de agosto lo llevaron en coche a la carretera entre Víznar y Alfacar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que se sabe y lo que no",
+          frase: "Que lo mataron por disparo en la madrugada del 18 de agosto de 1936, junto a un maestro de escuela y dos banderilleros, y que su cuerpo no se ha encontrado nunca pese a varias excavaciones. Tenía treinta y ocho años y acababa de escribir esta obra dos meses antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre los motivos se ha discutido durante décadas y conviene decirlo con precisión. Lorca no era militante de ningún partido, aunque había firmado manifiestos a favor del Frente Popular y su teatro estatal era un símbolo de la República.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso se sumaron rencillas familiares antiguas en la vega de Granada y, de manera bastante explícita en los documentos que se conservan, su homosexualidad. Un informe policial de los años sesenta lo describe como socialista y utiliza un insulto para referirse a él.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El manuscrito de esta obra sobrevivió, y la estrenó en Buenos Aires el 8 de marzo de 1945 Margarita Xirgu, que se había exiliado y que no volvió nunca a España. En España no se pudo ver hasta los años sesenta, casi treinta años después de escrita.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla la obra, que también hay que decirlo. Lo primero: es esquemática. Bernarda es la autoridad, Adela el deseo, Martirio la envidia, María Josefa la verdad, Angustias el dinero. Son funciones más que personas, y se nota si se lee de seguido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo, y va unido: el subtítulo miente. Lorca escribió que estos tres actos tienen la intención de un documental fotográfico, y esto no es un documental de nada. Es una tragedia con simetrías, símbolos y un final inevitable desde la primera escena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero: los símbolos son pesados para un espectador de hoy. El caballo, el vestido verde, el bastón, el pozo, el blanco que se enfría acto a acto. En 1936 aquello era audaz; después de ochenta años de análisis escolar, se ven venir a un kilómetro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cuarto, y es un hecho material: Lorca nunca la corrigió para la escena. La leyó a unos amigos, dijo que le faltaba trabajo, y lo mataron. Lo que se representa es un texto que su autor consideraba un borrador avanzado, y existen variantes entre las copias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una crítica de fondo que se le hace desde hace décadas: que al no salir ningún hombre en escena, el verdugo visible es una mujer, y eso puede leerse como si el patriarcado quedara fuera del cuadro y la culpa recayera sobre la que lo ejecuta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta más convincente es que ese es justamente el hallazgo. Bernarda no inventó las reglas: las cumple con más ferocidad que nadie porque una mujer sin marido en aquel pueblo solo conserva su posición demostrando que es más severa que los hombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno: que la obra habla de la Guerra Civil. La terminó dos meses antes de que empezara, no menciona política en ninguna línea, y todo lo que se lee en ella como profecía se lo hemos puesto nosotros después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que Bernarda es una señora de clase alta. Es una campesina enriquecida, hija de gente que trabajó la tierra, y la obra lo dice varias veces. Su tiranía es la de quien tiene miedo de perder un sitio que acaba de conseguir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que Pepe el Romano aparece. No sale en ningún momento, no tiene una sola frase, y solo se oye el ruido de su caballo. Es el motor de tres actos y es un hueco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro: que Adela se mata por Pepe o por su madre. Se mata porque Martirio le miente diciéndole que está muerto, sabiendo que es falso. La mata su hermana, y esa precisión cambia el sentido de la obra entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cinco: que a Lorca lo fusilaron por comunista. No lo era. Los motivos fueron una mezcla de su condición de símbolo de la República, viejas cuentas familiares de la vega granadina y su homosexualidad, que consta por escrito en los papeles de la época.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se lee en una hora y cuarto y se representa en poco más. Es de las pocas obras maestras de la literatura española que caben en una tarde y no necesitan ninguna preparación previa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay algo que solo se nota sabiendo la fecha. Un hombre escribe en junio de 1936 una obra sobre una casa donde está prohibido decir lo que se siente y donde el que lo dice acaba muerto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos meses después lo sacaron de madrugada en un coche y no volvió a aparecer.",
+        },
+      ],
+    },
+  ],
+};
