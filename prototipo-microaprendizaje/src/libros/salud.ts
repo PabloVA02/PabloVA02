@@ -8621,3 +8621,646 @@ export const PODER_METABOLISMO: Resumen = {
     },
   ],
 };
+
+export const DEJA_DE_SER_TU: Resumen = {
+  id: "deja-de-ser-tu",
+  titulo: "Deja de ser tú",
+  autor: "Joe Dispenza",
+  ano: 2012,
+  gancho:
+    "Un quiropráctico se rompió seis vértebras en 1986, rechazó la operación y se pasó dos meses y medio boca abajo reconstruyendo su columna con la imaginación. Volvió a andar, y de ahí sale todo lo demás.",
+  porQue:
+    "Porque llena estadios en español y merece un examen serio en vez de una burla. Debajo hay una hora de meditación diaria que es defendible, una neurociencia real estirada hasta romperse y una física cuántica que dice justo lo contrario de lo que él cuenta.",
+  partes: [
+    {
+      titulo: "Una bicicleta en Palm Springs",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Abril de 1986, Palm Springs, California. Un hombre de veintitrés años compite en la parte ciclista de un triatlón. En un cruce, un todoterreno lo alcanza por detrás. Sale despedido, cae sobre la espalda y no se puede mover. Se llama Joe Dispenza y acaba de romperse seis vértebras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diagnóstico es de los malos: fracturas por compresión en la zona dorsal y lumbar, con fragmentos de hueso desplazados hacia el canal medular. Los cirujanos que lo ven coinciden en la indicación de la época, colocarle una barra metálica a lo largo de la columna para estabilizarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le advierten de lo que pasa si no lo hace: que puede quedarse sin poder andar. Él, que era quiropráctico recién licenciado y desconfiaba de la cirugía, se niega. Firma el alta voluntaria, se lo llevan a casa de unos amigos y se queda tumbado boca abajo esperando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entender lo que rechazaba, porque la técnica de entonces era dura: una barra metálica atornillada a lo largo de varias vértebras que estabiliza la columna a costa de dejarla rígida en ese tramo. Negarse a eso en 1986 era una decisión defendible y muy arriesgada a la vez.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y decide hacer algo con ese tiempo. Se pasa dos horas al día, todos los días, visualizando mentalmente su columna: reconstruyéndola vértebra a vértebra en la cabeza, con todo el detalle anatómico que sabía, imaginando el hueso volviendo a su sitio. Nueve semanas y media así.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A las diez semanas se levantó. A las doce estaba trabajando otra vez. No volvió a operarse y ha seguido caminando desde entonces, y esa historia es la piedra fundacional de todo lo que ha escrito y de todo lo que enseña, cuarenta años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vamos a tratarla en serio, que es lo que merece, y eso significa mirarla con cuidado en vez de creerla o descartarla entera. Lo primero: es su relato. No hay historia clínica publicada, ni radiografías disponibles, ni un informe médico que se pueda consultar. Tenemos su palabra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no significa que mienta y sería injusto insinuarlo. Significa algo más aburrido y más importante: que no hay forma de comprobar el estado exacto de aquellas fracturas ni de saber qué habría pasado con el mismo reposo y sin las dos horas diarias de visualización.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué se puede decir de esa recuperación",
+          frase: "Es real y es extraordinaria. Y una recuperación de una persona, sin nadie con quien compararla, no dice absolutamente nada sobre la causa. Ese es el problema, no si ocurrió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque las fracturas por compresión de ese tipo se tratan a veces de forma conservadora y consolidan solas, con reposo prolongado y sin cirugía. No es lo habitual con fragmentos hacia el canal, pero ocurre, y en 1986 el reposo largo era una opción clínica que se manejaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, hay una explicación mucho más aburrida disponible: Dispenza estuvo en el grupo de pacientes que consolidan bien sin operarse, y además pasó dos meses y medio en reposo absoluto, que es exactamente lo que ese tratamiento conservador exige. La visualización pudo no aportar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una posibilidad intermedia que también es razonable: que aquellas dos horas diarias de concentración le sirvieran para soportar el reposo, para no desesperarse y para cumplirlo a rajatabla, que en una consolidación ósea de ese tipo es lo que decide el resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa tercera explicación es la más interesante de las tres porque no niega nada de lo que él vivió y no exige ninguna física nueva. Un paciente que aguanta diez semanas inmóvil sin moverse ni un centímetro tiene un pronóstico distinto del que se levanta a la semana porque se aburre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de eso se puede saber, y él eligió la explicación más ambiciosa de las tres. Quien decida que sanó la columna con la mente está haciendo la misma operación que hizo él: coger un caso sin control y sacar de ahí una ley que después se aplica a enfermedades muy distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene también saber quién es, porque su formación se cuenta mal. Es doctor en quiropráctica por una universidad de Georgia, que es una titulación real y regulada. No es médico, ni neurocientífico, ni biólogo, aunque su público lo tome por las tres cosas y sus libros no lo aclaren.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En español el equívoco es mayor, porque la palabra doctor arrastra a médico y porque en las presentaciones de sus actos se le suele llamar doctor Dispenza sin más. Él no comete el fraude de decir que es médico; sencillamente no corrige a nadie que lo suponga.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su salto a la fama fue una película documental de 2004 sobre física cuántica y conciencia, que fue un fenómeno de taquilla y en la que aparecía entrevistado. Ese detalle importa porque de ahí sale el vocabulario cuántico que domina sus libros, y porque la película tiene su propia historia.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La produjeron tres seguidores de una escuela espiritual estadounidense cuya fundadora sostiene canalizar a un guerrero de la Atlántida de treinta y cinco mil años. Esa mujer aparece en la película entrevistada como una voz más sobre la naturaleza de la realidad, sin que se explique el contexto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato no invalida por sí solo lo que diga Dispenza y por eso hay que manejarlo con cuidado. Lo que sí explica es de dónde procede la mezcla concreta —conciencia, campo cuántico, creación de la realidad— que aparece intacta en este libro ocho años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este libro, publicado en 2012, es el más vendido de los suyos y probablemente el libro de autoayuda espiritual más leído en español de la última década. Su promesa está en el título: dejar de ser la persona que uno es, entendida como un conjunto de hábitos mentales y emocionales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa idea de partida, dicho sea a su favor, es buena y no tiene nada de esotérico: que la personalidad es en gran medida un conjunto de reacciones repetidas tantas veces que se han vuelto automáticas, y que uno se pasa la vida confundiendo un hábito con una identidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Seis vértebras rotas y una negativa a operarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nueve semanas y media boca abajo, dos horas al día imaginando huesos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una sola persona de la que sacar una teoría general.",
+        },
+      ],
+    },
+    {
+      titulo: "Las neuronas que se disparan juntas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La primera parte del libro es la mejor y es la que tiene ciencia de verdad detrás. Su tesis es que el cerebro cambia físicamente con el uso, que las conexiones que se activan a la vez se refuerzan y que las que no se usan se debilitan. Eso se llama plasticidad y está establecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que lo resume la repite en todos sus libros: las neuronas que se disparan juntas se conectan juntas. Conviene precisar de dónde viene, porque tiene su gracia. El principio lo formuló Donald Hebb en 1949 en un libro técnico y con un lenguaje bastante más aburrido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La formulación original de Hebb dice, más o menos, que cuando una célula participa repetidamente en activar a otra se produce un cambio que hace más eficiente esa activación. Es lo mismo, y nadie lo habría citado nunca en un libro de autoayuda si se hubiera quedado así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase pegadiza la acuñó cuarenta años después una neurobióloga de Stanford, Carla Shatz, en 1992, resumiendo a Hebb en una charla. Es decir: la cita que circula como si fuera un descubrimiento antiguo es en realidad un eslogan didáctico de los años noventa, y funciona muy bien.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El ejemplo clásico de plasticidad en humanos es de 2000 y es precioso: se escanearon los cerebros de taxistas de Londres, que tienen que aprenderse de memoria veinticinco mil calles para sacarse la licencia, y se encontró que una parte del hipocampo era mayor que en el grupo de control.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el hallazgo se afinó después con un detalle importante: cuanto más años llevaba alguien conduciendo el taxi, mayor era la diferencia. Eso apunta a que el cerebro cambió por el trabajo y no a que los que tienen ese hipocampo grande escojan ser taxistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y se afinó todavía más siguiendo a aspirantes desde antes de empezar a estudiarse las calles: los que aprobaron mostraron el cambio y los que abandonaron no. Eso convierte una correlación en algo bastante más parecido a una causa, y es lo que hace bueno a ese estudio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sí está demostrado",
+          frase: "Practicar algo cambia la estructura física del cerebro, y se puede medir. Ese es el suelo real sobre el que Dispenza construye, y es un suelo sólido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segundo pilar también tiene respaldo, y este sorprende a mucha gente: ensayar algo mentalmente produce cambios cerebrales parecidos a practicarlo de verdad. No es una metáfora de coach: hay experimentos con resonancia y con estimulación magnética que lo miden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El más citado es de 1995. Un equipo enseñó a unos voluntarios un ejercicio sencillo de piano con cinco dedos. Un grupo lo practicó dos horas al día durante cinco días; otro se limitó a imaginarlo, sin tocar el teclado, el mismo tiempo. Después les midieron la corteza motora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mapa cortical de la mano se había reorganizado en los dos grupos, y de manera bastante parecida, aunque el rendimiento real al tocar fuera mejor en los que habían practicado de verdad. Ensayar en la cabeza había modificado el cerebro sin mover un dedo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese resultado lleva treinta años usándose en deporte de élite y en rehabilitación con criterio: los pianistas ensayan partituras sin teclado y los pacientes con una mano inmovilizada practican mentalmente el movimiento para frenar la pérdida. Es una aplicación seria y acotada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otro experimento del mismo estilo con fuerza muscular, de 2004: entrenar mentalmente una contracción del dedo meñique durante semanas produjo ganancias de fuerza de alrededor de un tercio, frente a algo más de la mitad en los que entrenaron físicamente, sin tocar ninguna pesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esos resultados son reales, se han replicado y son de los datos más contraintuitivos de la neurociencia del movimiento. La explicación es que buena parte de la fuerza no está en el músculo sino en la señal que le llega, y esa señal se puede entrenar sin contracción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fíjate además en el detalle que delimita el hallazgo: el músculo no crecía. Lo que mejoraba era la capacidad de reclutarlo, es decir, la instalación eléctrica y no el motor. Es un resultado precioso y describe exactamente su propio límite, cosa que el libro no recoge.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora viene la parte que hay que decir con toda claridad, porque es donde el libro se despeña. Todos esos experimentos tienen tres características comunes: se hacen sobre movimientos que el cuerpo ya sabe hacer, en personas sanas, y miden efectos pequeños en días o semanas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ninguno de ellos dice nada sobre curar una enfermedad. Entrenar el circuito que mueve un dedo y reconstruir una vértebra rota o eliminar un tumor son problemas distintos, con biología distinta, y el salto de lo primero a lo segundo no está en ningún artículo científico.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese salto es el método del libro entero, y conviene aprender a verlo porque se repite en todo el género: se cita un estudio real, se describe con razonable fidelidad, y en el párrafo siguiente se aplica a un problema al que ese estudio no se refiere. La cita es correcta y la conclusión no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es exactamente lo mismo que ocurría en «El cerebro del niño», que anda por Psicología: una capa de neurociencia real puesta encima de un consejo para que el consejo parezca demostrado. Existe un estudio de 2008 que midió ese efecto y encontró que funciona con quien no es especialista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer pilar es la epigenética, y ahí el libro repite la misma operación. Es verdad que la expresión de los genes responde al ambiente, incluidas las hormonas del estrés, y hay algún estudio que ha medido cambios de expresión en meditadores experimentados tras un día intensivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que esos estudios encuentran son variaciones pequeñas y transitorias en la expresión de unos pocos genes relacionados con la inflamación, en células inmunitarias, medidas horas después. De ahí a reprogramar una enfermedad hay la misma distancia que del dedo meñique a la vértebra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las neuronas se conectan con el uso, y eso es cierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Imaginar un ejercicio cambia el mapa motor, y también es cierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí a reconstruir una vértebra hay un salto que no ha dado ningún experimento.",
+        },
+      ],
+    },
+    {
+      titulo: "El campo cuántico",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "A partir de la mitad del libro entra la física, y aquí hay que ser preciso porque es donde está el problema serio. Dispenza sostiene que existe un campo cuántico de posibilidades infinitas, que la conciencia lo afecta, y que uno puede elegir un futuro de ese campo y hacerlo real observándolo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su apoyo es una idea que todo el mundo ha oído: el efecto del observador. En mecánica cuántica, un sistema puede estar en una superposición de estados hasta que se observa, y al observarlo se concreta en uno solo. De ahí, dice, se sigue que la conciencia crea la realidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene reconocer por qué el argumento seduce: la formulación popular de la física cuántica está llena de palabras que en el habla corriente significan otra cosa. Observador, medida, información, incertidumbre y colapso son términos técnicos que suenan a filosofía y no lo son.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra que hace todo el trabajo en ese argumento es observar, y significa otra cosa. En física, observar es cualquier interacción que enrede el sistema con su entorno: un fotón que choca, un detector que registra, una molécula de aire. No hace falta que haya nadie mirando.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El experimento de la doble rendija funciona exactamente igual con el detector encendido y la sala vacía, sin ningún ser consciente en el edificio, y el resultado se lee después. La conciencia humana no aparece en ninguna ecuación de la mecánica cuántica.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una explicación física de por qué esos efectos no se escalan a un cuerpo humano: se llama decoherencia. Un objeto grande, caliente y húmedo interactúa con su entorno miles de millones de veces por segundo, y esas interacciones destruyen la superposición en fracciones inimaginables de segundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la misma razón por la que un gato de verdad no puede estar vivo y muerto a la vez, y por la que aquel ejemplo se propuso en 1935 precisamente como una crítica: Schrödinger no estaba describiendo una posibilidad, estaba señalando lo absurdo de llevar la superposición a esa escala.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La corrección exacta",
+          frase: "No es que la física cuántica no explique lo que dice el libro. Es que explica por qué eso no puede pasar: a la escala de una persona, las superposiciones se deshacen antes de que exista la palabra observar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que la interpretación que él usa existió y fue seria. En los años treinta, John von Neumann dejó abierta la puerta a que la cadena de medición terminara en la conciencia, y Eugene Wigner, premio Nobel de física, la defendió explícitamente durante un tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí está el detalle que casi nadie cuenta: Wigner la abandonó. Se convenció con los años, sobre todo por los trabajos sobre decoherencia, de que su propia propuesta no hacía falta, y dejó de defenderla. Hoy prácticamente ningún físico en activo la sostiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, el libro se apoya en una interpretación minoritaria y abandonada por su propio autor hace medio siglo, y la presenta al lector como si fuera lo que dice la física. No es un matiz: es la diferencia entre citar una posición discutida y citar el consenso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aunque aquella interpretación fuera cierta, no serviría para lo que él quiere. Decir que la conciencia interviene en el colapso de un sistema microscópico aislado no permite deducir que uno pueda elegir con qué salud amanece, y ese segundo paso no lo dio nunca ningún físico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien quiera saber qué dice de verdad la mecánica cuántica sobre esto tiene en esta biblioteca «Siete breves lecciones de física», de Carlo Rovelli, que además defiende una interpretación en la que las propiedades existen en relación con otros objetos, y no con ninguna conciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que reconocerle una cosa a Dispenza, porque es más que muchos de su género: ha publicado. Él y sus colaboradores tienen artículos en revistas con revisión por pares, con mediciones de variabilidad cardiaca, electroencefalograma y expresión génica tomadas en sus propios retiros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso está bien y hay que decirlo. Y hay que decir también cómo son esos estudios: sin grupo de control, con participantes que han pagado varios miles de dólares por asistir a un retiro de una semana, autoseleccionados entre sus seguidores, y con el propio autor como parte interesada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema que ningún grupo de control resolvería y que conviene nombrar: quien ha pagado una cantidad grande y ha viajado para asistir tiene un incentivo psicológico considerable en notar algo, y eso afecta a todo lo que se mida preguntándole cómo se siente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Nada de eso es fraude. Es, sencillamente, la clase de evidencia más débil que existe: gente muy motivada, en un entorno intenso, midiendo variables que responden a la motivación y al entorno. Cualquier retiro de una semana con meditación produciría cambios parecidos.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Falta un contraste que hace mucha falta y que está aquí al lado. En la misma categoría de Salud está Jon Kabat-Zinn, que en 1979 montó en un hospital universitario un programa de reducción de estrés basado en meditación, sin ninguna metafísica, y lo sometió a ensayos durante cuarenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese programa tiene hoy cientos de estudios, algunos buenos y otros malos, con efectos que son modestos y reales sobre el estrés, la ansiedad y el dolor crónico. Es exactamente la misma práctica que propone Dispenza, medida con grupos de control y sin mencionar la palabra cuántico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con una honradez que conviene subrayar: la literatura sobre atención plena reconoce sus propios problemas, desde estudios pequeños hasta la dificultad de cegar a los participantes, y publica los resultados negativos. Es lo que separa un campo de investigación de un catálogo de testimonios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación es la mejor manera de entender el asunto. La meditación no necesitaba el campo cuántico para funcionar, y con el campo cuántico no funciona mejor. Lo que el campo cuántico hace es otra cosa: convence a mucha gente de sentarse una hora al día, que no es poco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Observar, en física, lo hace un detector apagado en una sala vacía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El físico que propuso lo contrario se retractó él mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y un cuerpo humano pierde la coherencia cuántica antes de que a nadie le dé tiempo a mirarlo.",
+        },
+      ],
+    },
+    {
+      titulo: "La culpa de estar enfermo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay una consecuencia de este libro que no está escrita en ninguna página y que se deduce de todas, y es la razón por la que este resumen no puede quedarse en el análisis. Si tus pensamientos y tus emociones crean tu estado físico, entonces tu enfermedad la has creado tú.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dispenza no escribe esa frase. Escribe la afirmativa, que suena bien: que puedes cambiar tu biología cambiando tu mente. Pero la afirmativa arrastra la negativa sin remedio, porque si el pensamiento explica la curación, también explica la enfermedad. No hay manera de tener una sin la otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es una idea vieja, con una historia larga y bien documentada. Cada época ha tenido su versión: la tuberculosis como enfermedad de las almas apasionadas en el siglo diecinueve, el cáncer como resultado de emociones reprimidas en el veinte, y hoy el estrés y la vibración baja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El patrón se repite con una regularidad que da que pensar: mientras no se conoce la causa de una enfermedad, se le atribuye un carácter. Cuando se descubre el bacilo o el mecanismo celular, la teoría psicológica desaparece de golpe y nadie recuerda haberla defendido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Contra eso escribió Susan Sontag su ensayo más importante, en 1978, tres años después de que le diagnosticaran un cáncer de mama. Se titula «La enfermedad y sus metáforas» y su tesis es que la enfermedad no significa nada, y que atribuirle un sentido moral es una crueldad añadida.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sontag lo escribió porque lo vivió: mientras se trataba, la gente de su alrededor le insinuaba que su carácter reservado había tenido algo que ver, y encontró en la literatura psicológica de la época teorías enteras sobre la personalidad cancerígena. Ninguna se ha sostenido después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella, por cierto, se trató con la medicina más agresiva que había, sobrevivió a aquel cáncer y vivió veintiocho años más. Y en esta biblioteca está «Sobre la fotografía», también suyo, así que su manera de pensar ya andaba por aquí sin que hiciera falta esta ficha para presentarla.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El coste de esta idea",
+          frase: "A quien se cura le da la razón, y a quien no se cura le añade el reproche de no haberlo intentado bastante. Una teoría que solo puede confirmarse es una teoría que solo castiga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un segundo coste, más concreto y más grave: el retraso del tratamiento. Alguien convencido de que puede revertir un proceso con meditación puede posponer una consulta, una prueba o una quimioterapia, y en muchas enfermedades el tiempo es la variable que decide el resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí hay que ser justo con el libro y decir lo que sí dice: Dispenza recomienda expresamente no abandonar el tratamiento médico y presenta su método como complementario. Eso está en el texto y hay que reconocérselo, porque no todos los de su género lo hacen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es que el resto del libro empuja en la dirección contraria con mucha más fuerza que esa advertencia. Trescientas páginas explicando que la mente reconstruye una columna vertebral pesan más que un párrafo recomendando ir al médico, y el lector se queda con el peso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que circula fuera del libro pesa todavía más. Los vídeos, los testimonios de los retiros y los grupos de seguidores son bastante más radicales que las páginas que firmó él, y esa distancia entre lo que un autor escribe y lo que su público entiende no es un accidente evitable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso, además, no es responsabilidad de sus lectores. Es una consecuencia previsible de haber construido el libro sobre un caso extremo: la historia de las seis vértebras está puesta ahí precisamente para que el lector piense que lo suyo también se puede.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene mencionar el efecto placebo, porque el libro se apoya mucho en él y lo agranda. El placebo existe y está medido, y es real sobre todo en síntomas que el paciente informa: dolor, náuseas, fatiga, ánimo. Ahí puede ser considerable y es un fenómeno serio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde no aparece es en las variables duras. Un placebo no reduce un tumor, no baja la carga viral, no consolida una fractura y no mueve la supervivencia. La distinción entre síntoma y enfermedad es exactamente la línea donde el placebo funciona y deja de funcionar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un estudio muy citado sobre asma que lo ilustra perfectamente: los pacientes tratados con placebo decían encontrarse igual de bien que los tratados con broncodilatador, y la medición objetiva de su función pulmonar solo mejoraba con el fármaco. Se sentían mejor y respiraban igual.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese matiz importa porque salva lo aprovechable. Si alguien duerme mejor, tiene menos dolor y afronta un tratamiento con más ánimo después de meditar una hora al día, eso es un beneficio real y medible que no exige creer nada sobre campos cuánticos.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un libro en esta misma categoría que cubre el terreno adyacente sin ninguno de estos problemas: «El cuerpo lleva la cuenta», de van der Kolk. Sostiene que el trauma deja marcas físicas y que el cuerpo participa en la recuperación, con clínica detrás y sin prometer curaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre los dos libros es un buen resumen de todo esto. Van der Kolk dice que la mente y el cuerpo están conectados y explora qué se puede hacer con eso. Dispenza dice que la mente manda sobre el cuerpo y que basta con hacerlo bien. La primera frase es cierta y la segunda no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el aviso práctico que hay que dar sin adornos: si alguien tiene un diagnóstico serio, este libro no es el sitio. La meditación que propone puede acompañar un tratamiento y ayudar bastante; sustituirlo, o retrasarlo, es la manera más rápida de que este libro haga daño de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sontag lo escribió con un cáncer encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis era que la enfermedad no significa nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que buscarle un sentido moral se lo cobran siempre los que no se curan.",
+        },
+      ],
+    },
+    {
+      titulo: "Una hora sentado antes de que amanezca",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Después de todo eso queda la pregunta que importa: qué hace en la práctica alguien que sigue este libro. Y la respuesta es mucho menos exótica de lo que sugieren cuatrocientas páginas de física cuántica. Se levanta antes de que amanezca y se sienta a meditar durante una hora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La sesión que propone tiene una estructura reconocible para cualquiera que conozca la tradición meditativa. Empieza con inducción y respiración lenta, sigue con un recorrido de atención por las partes del cuerpo y por el espacio alrededor, y termina con una visualización sostenida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera parte es prácticamente idéntica a un examen corporal de atención plena. La segunda, la que él llama abrir el foco, consiste en dejar de atender a objetos concretos y atender al espacio vacío entre ellos, que es una técnica antigua y bien conocida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa técnica de abrir el foco tiene además un fundamento razonable y nada místico: la atención estrecha va asociada al estado de alerta, y ensancharla deliberadamente tiende a bajar la activación. Se usa en entrenamiento deportivo y en terapia con ese mismo nombre y sin ninguna metafísica.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y la tercera es la parte propia: ensayar en la cabeza, con detalle sensorial y sobre todo con la emoción correspondiente, la versión de uno mismo que quiere llegar a ser. No visualizar el resultado, insiste, sino sentir de antemano cómo se sentiría uno teniéndolo ya.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese último matiz es lo mejor que hay en el libro y merece rescatarse de todo el envoltorio. La diferencia entre imaginar un objetivo y ensayar el estado emocional de haberlo conseguido es real, y es la que separa una fantasía de un ensayo mental de los que sí se han medido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aunque conviene añadir un contrapunto que la investigación sobre visualización lleva años señalando: imaginar el éxito sin más tiende a reducir el esfuerzo, porque el cerebro cobra por adelantado la recompensa. Lo que funciona es ensayar el proceso, no disfrutar del final imaginado.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que queda cuando se quita todo lo demás",
+          frase: "Una hora al día de meditación con visualización, hecha todas las mañanas durante meses. Eso es lo que hacen sus lectores, y eso tiene efectos comprobados que no necesitan ninguna teoría cuántica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí conviene una honradez que rara vez se concede en estas discusiones. Conseguir que alguien se siente una hora al día, en ayunas, todas las mañanas y durante meses es dificilísimo. Los programas clínicos serios luchan con el abandono y ofrecen sesiones de cuarenta minutos con vídeos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dispenza lo consigue con miles de personas. Y lo consigue precisamente por la parte falsa: la promesa de que aquello reescribe la biología y de que hay un campo esperando. Nadie madruga una hora durante seis meses por una reducción moderada del cortisol.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo consigue también por algo más terrenal: la comunidad. Sus lectores se agrupan, se cuentan lo que les pasa, se animan y se esperan. Eso, en cualquier programa de cambio de conducta, es de los predictores más fuertes de que alguien siga haciéndolo dentro de seis meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la paradoja incómoda del libro y no tiene una solución bonita. Lo que hace daño y lo que hace bien son la misma cosa. El relato metafísico es lo que produce la adherencia, y la adherencia es lo que produce el único beneficio verificable que hay aquí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la misma paradoja aparece en otros libros de esta biblioteca, lo cual es útil para verla mejor. «Sentirse bien», de Burns, tiene ejercicios que funcionan y una teoría que su propio autor no logró confirmar. Ahí la teoría era mala; aquí es falsa. La diferencia es de grado y no de tipo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La recomendación práctica, entonces, se puede dar sin condescendencia. Si a alguien le funciona sentarse una hora al día con este libro debajo del brazo, que lo haga: está haciendo algo bueno para sí mismo, aunque la explicación que le hayan dado sea incorrecta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con dos condiciones. La primera, que nada de esto sustituya a un tratamiento médico ni retrase una consulta, por convincente que suene el capítulo que se esté leyendo esa semana. La segunda, que si no funciona, la conclusión sea que no funcionó y no que uno no lo hizo bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una tercera de tipo económico, que también hace falta: los retiros de una semana cuestan varios miles de euros con el viaje incluido, y lo que se hace en ellos se puede hacer gratis en casa con un cojín. Si algo funciona, funcionará igual sin pagar la entrada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa segunda condición es la más importante y la que el libro imposibilita, porque su estructura no admite el fracaso. Si no te curas, es que no habías cambiado de verdad tu estado emocional. Un método que no puede fallar es un método que siempre le pasa la factura al que lo intentó.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si alguien quiere lo mismo sin la factura, está a dos estanterías: cualquier programa de atención plena de los que se enseñan en hospitales, o el libro de Kabat-Zinn que anda en esta categoría, dan la misma práctica con instrucciones más claras y sin prometer nada que no puedan cumplir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda una última cosa por decir sobre el hombre de las seis vértebras. Sea lo que sea lo que pasó en aquellos dos meses y medio de 1986, hizo algo que a la mayoría de la gente le resulta imposible: sostener una disciplina diaria durante semanas tumbado boca abajo y sin garantías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo hizo, además, sin ningún libro que le prometiera nada. En 1986 no existía ninguna de las explicaciones que vende hoy: había un chico de veintitrés años boca abajo, asustado, que decidió llenar las horas con lo único que tenía a mano, que era su propia cabeza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso sí es replicable, y no hace falta ninguna física para explicarlo. Es lo único de este libro que se puede recomendar a cualquiera sin advertencias: sentarse todos los días a la misma hora, tanto rato como se aguante, y volver mañana aunque no haya pasado nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El campo cuántico no está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La hora sentado, sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y es la única de las dos que sus lectores hacen de verdad cada mañana.",
+        },
+      ],
+    },
+  ],
+};
