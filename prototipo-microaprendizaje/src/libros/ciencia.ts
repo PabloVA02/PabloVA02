@@ -5273,3 +5273,601 @@ export const ORIGEN_ESPECIES: Resumen = {
     },
   ],
 };
+
+export const HENRIETTA_LACKS: Resumen = {
+  id: "henrietta-lacks",
+  titulo: "La vida inmortal de Henrietta Lacks",
+  autor: "Rebecca Skloot",
+  ano: 2010,
+  gancho:
+    "Le quitaron dos trozos de tejido sin decírselo. Ocho meses después había muerto, y sus células no han dejado de crecer desde entonces.",
+  porQue:
+    "Es la historia de la primera línea celular humana inmortal contada desde la familia que no supo nada durante veintidós años. Se estudia en las facultades de medicina porque convirtió un reactivo de laboratorio en una persona con nombre.",
+  partes: [
+    {
+      titulo: "Un bulto en el útero",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El 29 de enero de 1951, una mujer de treinta años se subió al coche y le pidió a su marido que la llevara al hospital Johns Hopkins de Baltimore. Vivía a media hora, y era el único hospital de toda la zona que atendía a pacientes negros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Henrietta Lacks. Le dijo al médico que tenía un nudo dentro, y cuando le preguntaron desde cuándo, contestó que lo había notado antes de que naciera su último hijo, Joseph, que tenía cuatro meses. Llevaba más de un año sin decírselo a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Había nacido en Roanoke, Virginia, en 1920, y la criaron sus abuelos en Clover, en una casa de tablones que había sido barracón de esclavos. A los cuatro años ya trabajaba el tabaco. Se casó con su primo David, al que todos llamaban Day, y tuvieron cinco hijos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El hospital tenía salas separadas para pacientes negros, con otra entrada y otro personal. No era una rareza de Baltimore: en 1951 era la norma en medio país, y el Johns Hopkins se había fundado justamente con el encargo de atender a quien no podía pagar.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diagnóstico fue cáncer de cuello de útero. El tratamiento de entonces consistía en coser tubos con radio dentro del cuerpo y dejarlos ahí varios días, y Henrietta pasó por eso dos veces antes de que el hospital le diera radiación desde fuera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pasó antes de la primera sesión",
+          frase: "El cirujano, Lawrence Wharton hijo, cortó dos trocitos del cuello del útero de Henrietta —uno del tumor y otro de tejido sano— y los mandó a un laboratorio del sótano. Ella estaba anestesiada. Nadie se lo dijo, ni antes ni después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entender que aquello no era ilegal ni excepcional. En 1951 no existía el consentimiento informado tal como se entiende hoy: el tejido que salía de un quirófano se consideraba material desechado, y los médicos hacían con él lo que les parecía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Código de Núremberg, redactado en 1947 tras los juicios a los médicos nazis, ya decía que el consentimiento voluntario era absolutamente esencial. En Estados Unidos se leyó como una norma para juzgar a los alemanes, no como una norma para la práctica de casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Henrietta volvía a su vida entre sesión y sesión: cinco hijos, la casa y un marido que trabajaba en la acería de Sparrows Point. No se lo contó casi a nadie. En aquellos años la palabra cáncer se decía en voz baja, y muchas veces directamente no se decía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El radio le quemó la piel del vientre hasta dejarla negra. Los informes del hospital, que Skloot reproduce, van registrando en un lenguaje administrativo cómo el tumor se extiende a la vejiga, a los riñones y a los huesos, con anotaciones de dos líneas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En agosto ya no podía andar. Ingresó definitivamente, pidió morfina, y le hicieron transfusión tras transfusión hasta que el banco de sangre se negó a seguir dando porque la familia no podía pagar lo que ya debía por las anteriores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió el 4 de octubre de 1951, a los treinta y un años. En la autopsia, el patólogo describió tumores del tamaño de perlas cubriendo prácticamente todos los órganos. La enterraron en el terreno familiar de Clover, sin lápida y sin nada que marcara el sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su marido volvió a casa con cinco niños, el mayor de dieciséis años y el pequeño de uno. Lo que vino después el libro lo cuenta sin adornos: años muy duros, hambre, y malos tratos y abusos sobre los hijos por parte de un pariente que se quedó a cargo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La autora es Rebecca Skloot, periodista científica. Oyó el nombre de Henrietta Lacks por primera vez a los dieciséis años, en una clase de biología, cuando un profesor mencionó de pasada que aquellas células venían de una mujer negra que había muerto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Preguntó cómo se llamaba y el profesor le contestó que eso era todo lo que se sabía. A Skloot le costó diez años, más de mil llamadas de teléfono y buena parte de su cuenta corriente convertir aquella frase suelta en este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado tiene tres hilos trenzados: la biografía de una mujer de la que casi no quedaban documentos, la historia científica de sus células, y la crónica de la propia autora intentando ganarse la confianza de una familia harta de periodistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese tercer hilo es la decisión más discutida del libro. Skloot aparece dentro de su propia historia todo el rato: conduciendo, esperando en aparcamientos, discutiendo por teléfono. A unos lectores les parece lo mejor que tiene y a otros les estorba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su justificación es que la desconfianza de los Lacks era parte del tema y no se podía contar desde fuera. Llevaban décadas recibiendo llamadas de gente que quería sangre o entrevistas, y ninguna de aquellas llamadas les había dejado nunca nada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay un dato que ordena el libro entero y conviene tenerlo desde el principio: durante veintidós años, la familia no supo que aquellas células existían. Se enteraron en 1973, por casualidad, en una conversación de sobremesa en casa de unos amigos.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para entonces las células habían viajado por medio mundo, habían servido para desarrollar una vacuna que salvó a millones de niños y se vendían por catálogo. La casa de los Lacks no tenía teléfono y varios de los hijos no tenían seguro médico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Skloot repite que no está denunciando un delito, porque no lo hubo, sino una asimetría: la de un sistema que sacó un beneficio enorme de un cuerpo y no se molestó nunca en avisar a la familia de ese cuerpo de que lo había hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para entender esa asimetría hay que bajar al sótano del Johns Hopkins, donde en 1951 un hombre llevaba treinta años fracasando.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El sótano de George Gey",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El laboratorio estaba en un sótano sin ventanas y lo dirigía George Gey, un investigador que se fabricaba él mismo casi todo el material, incluido un tambor para hacer girar los tubos de cultivo que montó con piezas de una máquina de coser.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gey llevaba casi treinta años intentando lo mismo: mantener vivas células humanas fuera del cuerpo. Todas las que probaba aguantaban unos días o unas semanas y se morían. El campo entero llevaba décadas atascado exactamente en ese punto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La técnica era artesanal y precaria. Había que preparar el medio de cultivo con plasma de pollo, extracto de embrión y suero de sangre de cordón umbilical, que la mujer de Gey iba a pedir personalmente a la maternidad del hospital cada pocos días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 8 de febrero de 1951, la ayudante del laboratorio, Mary Kubicek, recibió los dos trocitos de tejido de Henrietta. Escribió en los tubos las dos primeras letras del nombre y las dos primeras del apellido, que era el sistema de la casa: HeLa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kubicek contó años más tarde que ni se molestó en hacerlo con ganas, porque estaba convencida de que aquello se moriría como todo lo demás. Dos días después las células se habían multiplicado, y al día siguiente otra vez, y al siguiente otra vez.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que tenían delante",
+          frase: "La primera línea celular humana inmortal: un cultivo que se duplicaba cada veinticuatro horas y no se paraba nunca. Hasta ese momento, todo lo que se sacaba de un cuerpo humano tenía fecha de caducidad dentro de un laboratorio. Aquello no la tenía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La razón se entendió mucho después. Las células normales se dividen un número limitado de veces porque en cada división se acortan los extremos de los cromosomas. Las de Henrietta tenían activada una enzima, la telomerasa, que los reconstruye una y otra vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detonante fue un virus del papiloma humano insertado en su ADN, que había desactivado un gen supresor de tumores. Eso explica también por qué su cáncer fue tan brutal: lo que la mató en ocho meses es exactamente lo que hizo inmortales a sus células.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Gey no patentó nada ni ganó dinero con aquello, y hay que decirlo porque se cuenta mal a menudo. Repartió las células gratis a todo el que se las pidió, las mandó por correo y en avión metidas en tubos con hielo, y murió en 1970 sin ser rico.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí hizo fue anunciarlo. Salió en televisión con un tubo en la mano diciendo que quizá aquello permitiera algún día curar el cáncer, y a partir de ahí su sótano de Baltimore se convirtió en un centro de distribución mundial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El momento decisivo llegó al año siguiente. En 1952, Jonas Salk tenía una vacuna candidata contra la polio y hacía falta probarla a una escala que nadie había intentado nunca: millones de análisis para comprobar si de verdad generaba anticuerpos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para eso hacían falta toneladas de células humanas, y las de Henrietta eran baratas de cultivar, crecían en cualquier sitio y resultaron ser sensibles al poliovirus. La fundación que financiaba la investigación montó una fábrica para producirlas en serie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La instalaron en el Instituto Tuskegee, una universidad histórica para estudiantes negros de Alabama, y la plantilla que producía las células era en su mayoría negra. Llegaron a enviar veinte mil tubos por semana a laboratorios de todo el país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle de Tuskegee tiene una capa más. En aquel mismo campus llevaba en marcha desde 1932 el estudio en el que el gobierno estadounidense dejó sin tratar a cientos de hombres negros con sífilis, para observar cómo evolucionaba la enfermedad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquello no se destapó hasta 1972, y de ahí salieron la ley de investigación de 1974 y los comités de ética que hoy revisan cualquier experimento con personas. Es decir: el sistema que habría exigido pedirle permiso a Henrietta nació veintitrés años después de su muerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las HeLa se convirtieron en el caballo de batalla de la biología. Con ellas se puso a punto la técnica que permitió ver por fin que los humanos tenemos cuarenta y seis cromosomas y no cuarenta y ocho, cifra que se había dado por buena durante treinta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sirvieron para desarrollar la fecundación in vitro, para medir los efectos de la radiación de las bombas atómicas, para los primeros trabajos de clonación y para cartografiar genes. Subieron en cohetes soviéticos y estadounidenses para ver qué le hace la ingravidez a una célula.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El alemán Harald zur Hausen las usó para demostrar que ciertos virus del papiloma provocan cáncer de cuello de útero, un trabajo que le valió el Nobel en 2008 y del que salió la vacuna que hoy se pone a las adolescentes en media Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: la vacuna que evita el cáncer que mató a Henrietta Lacks se desarrolló, en parte, gracias a las células de ese mismo cáncer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Skloot recoge la estimación que circula entre los investigadores: si se juntaran todas las HeLa cultivadas desde 1951, pesarían unos cincuenta millones de toneladas. Es una cifra de servilleta, imposible de comprobar, y conviene tomarla por lo que es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí se puede contar son los artículos: más de sesenta mil trabajos científicos las mencionaban cuando el libro se publicó, y la cifra no ha dejado de subir desde entonces. No hay ninguna otra línea celular que se le acerque de lejos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese éxito arrollador tuvo una consecuencia que nadie vio venir y que arruinó veinte años de investigación.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Bedford Springs, 1966",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1966, en un hotel balneario de Bedford Springs, Pensilvania, se celebró un congreso de cultivo de tejidos. Un genetista de Seattle llamado Stanley Gartler pidió la palabra para presentar lo que anunció, con mucha educación, como unos resultados técnicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gartler había analizado dieciocho de las líneas celulares más usadas del mundo, supuestamente procedentes de dieciocho personas distintas. Buscó en ellas un marcador genético que solo aparece con cierta frecuencia en población de origen africano, y lo encontró en las dieciocho.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que aquello significaba",
+          frase: "Que esas dieciocho líneas no venían de dieciocho personas: eran todas HeLa. Las células de Henrietta habían contaminado los laboratorios del mundo entero viajando en gotas invisibles de medio de cultivo, en guantes y en pipetas, y habían aplastado a todas las demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La sala reaccionó fatal. Los investigadores presentes tenían carreras enteras montadas sobre líneas celulares que, según aquel hombre, no existían. Varios le discutieron los datos en el momento y muchos siguieron trabajando durante años como si no hubiera pasado nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero Gartler tenía razón. En la década siguiente, un investigador de California llamado Walter Nelson-Rees se dedicó a publicar listas con los nombres de las líneas contaminadas y de los laboratorios que las usaban, sin avisar antes a los interesados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se ganó un odio considerable y probablemente hacía falta. El destrozo es difícil de exagerar: centenares de líneas registradas como distintas eran en realidad HeLa, y con ellas se habían publicado miles de artículos sobre cánceres que no eran el que decían estudiar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hubo grupos que pasaron años describiendo las particularidades de un cáncer de próstata o de mama y estaban describiendo, otra vez, el cáncer de cuello de útero de Henrietta Lacks. Es el episodio menos conocido de esta historia y probablemente el más caro.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema no está cerrado. Las revistas serias exigen hoy autenticar las líneas celulares antes de publicar, y aun así siguen apareciendo trabajos hechos con cultivos que no son lo que sus autores creen. Existen bases de datos dedicadas solo a catalogar líneas contaminadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para distinguir las HeLa de las demás hacía falta un mapa genético de Henrietta, y para eso hacía falta sangre de sus hijos. Ese es el motivo, y no otro, por el que en 1973 alguien del Johns Hopkins descolgó por fin un teléfono y llamó a la familia Lacks.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La noticia les había llegado unos días antes de la manera más tonta posible. Bobbette, la mujer de uno de los hijos, estaba cenando en casa de unos amigos y el hermano de la anfitriona mencionó que trabajaba con unas células de una tal Henrietta Lacks.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bobbette le dijo que ese era el nombre de su suegra, muerta hacía veintidós años. Aquel hombre le contestó que sus células estaban en laboratorios de medio mundo y que él las usaba a diario. Nadie de la familia había oído jamás una palabra de aquello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando llegó la llamada pidiendo muestras de sangre, los Lacks entendieron otra cosa completamente distinta. Entendieron que les hacían pruebas para saber si ellos también tenían el cáncer que había matado a su madre, y pasaron años esperando unos resultados que no llegaron nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie se paró a explicárselo. Los investigadores llamaban, sacaban sangre y colgaban, y la familia interpretaba lo que podía con la formación que tenía: Day Lacks había dejado la escuela en cuarto curso y varios de sus hijos apenas sabían leer un impreso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Skloot documenta ese malentendido con mucha precisión y es el corazón moral del libro. En la mayoría de los casos no hubo mala fe: hubo gente que no consideró que aquella familia mereciera una explicación, porque ni se les pasó por la cabeza que hiciera falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, las células sí se habían convertido en un negocio. Empresas de material biológico las vendían por catálogo desde los años sesenta, y hoy un vial de HeLa cuesta varios cientos de euros en cualquier proveedor de laboratorio del mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar dónde está el dinero, porque el libro se resume mal. El Johns Hopkins no vendió las células ni cobró por ellas, y sostiene que nunca ganó nada con HeLa. Lo que hubo fue una industria montada alrededor de un material que se repartió gratis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso que fijó la situación legal llegó en 1990. John Moore, un paciente de leucemia, descubrió que su médico había patentado una línea celular hecha con su bazo, y la justicia de California decidió que Moore no era propietario de sus células una vez extraídas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El razonamiento del tribunal fue práctico: si cada paciente pudiera reclamar la propiedad de sus tejidos, la investigación biomédica se pararía. Sí reconoció que el médico había incumplido su deber de informarle, que es una cosa distinta y bastante más pequeña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa sigue siendo la doctrina. Cuando alguien firma un consentimiento antes de una operación, en la letra pequeña suele estar cediendo lo que le quiten, y prácticamente nadie lo lee. Skloot lo comprueba pidiéndole a varias personas que busquen esa cláusula en sus papeles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los Lacks no han cobrado nunca nada por aquello. Y lo que más les duele, cuando Skloot les pregunta, no es el dinero: es que nadie les preguntara, y que durante décadas se publicaran el nombre y la historia clínica de su madre sin pedir permiso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1976 salió el primer gran reportaje que contaba la historia con nombres y apellidos, y los periodistas empezaron a aparecer por Baltimore. Casi todos escribieron su artículo y desaparecieron, y unos cuantos ni siquiera escribieron bien el apellido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando Skloot llamó por primera vez, veinte años después, se encontró con una mujer que llevaba media vida intentando entender qué le habían hecho a su madre.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Crownsville",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Deborah Lacks tenía año y medio cuando murió su madre y no conservaba de ella ni un recuerdo. Cuando Skloot la localizó, a finales de los noventa, llevaba años acumulando papeles que no entendía en una bolsa, y lo que sentía sobre todo era miedo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El miedo tenía motivos concretos. Un hombre que se hacía pasar por abogado, apellidado Cofield, había convencido a la familia para demandar al hospital y terminó demandándolos a ellos. Y varios periodistas habían prometido cosas y no habían vuelto a llamar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Skloot tardó casi un año en conseguir que Deborah le cogiera el teléfono, y lo que viene después es lo mejor del libro: dos mujeres, una blanca y con estudios y otra negra y sin ellos, recorriendo Baltimore y Virginia en un coche y discutiendo sin parar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Deborah quería saber tres cosas. Cómo era su madre, qué le habían hecho exactamente a sus células, y qué había sido de su hermana mayor, Elsie, de la que en casa no se hablaba y que había desaparecido de la familia cuando ella era muy pequeña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Elsie Lacks era sorda, tenía crisis epilépticas y un retraso importante. En 1950, un año antes de morir Henrietta, la ingresaron en el hospital estatal de Crownsville, que en sus documentos fundacionales se llamaba hospital para negros dementes de Maryland.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que encontraron en Crownsville",
+          frase: "Casi nada, porque la mayoría de los expedientes se habían destruido. Pero quedaba un armario en un sótano con papeles mojados, y allí apareció el historial de Elsie y una fotografía: una niña con los ojos muy abiertos y unas manos sujetándole la cabeza desde atrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Elsie murió en 1955, a los quince años. En aquel hospital, en esos mismos años, se hacían experimentos con los internos: entre otros, neumoencefalografías, que consistían en sacar el líquido del cerebro y meter aire para poder radiografiarlo. Es un procedimiento atroz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay constancia de que se lo hicieran a Elsie. Sí la hay de que se hacía allí, y de que se hacía sobre todo con los internos a los que no iba a visitar nadie. Deborah salió de aquel sótano sin poder quitarse esa idea de la cabeza nunca más.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese capítulo cambia el libro de sitio. Hasta ahí, la historia es la de un tejido tomado sin permiso; a partir de Crownsville es la de una familia entera a la que el sistema médico trató como material disponible durante dos generaciones seguidas.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste que Skloot no subraya pero deja ver es el de las facturas. Los hijos de Henrietta han pasado buena parte de su vida sin seguro médico. Sonny Lacks se operó del corazón en 2009 y salió del hospital con una deuda superior a los cien mil dólares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zakariyya, el hijo pequeño, el que tenía cuatro meses cuando su madre entró en Hopkins, es el más furioso de todos. Pasó siete años en prisión, vive de una pensión mínima, y es también el que expresa con más claridad lo que la familia siente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando Skloot le pregunta qué querría, contesta que no pide millones: pide que le paguen el seguro médico y que a su madre la llamen por su nombre. Lo dice el hijo de la mujer cuyas células ayudaron a levantar buena parte de la industria farmacéutica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El momento más recordado del libro es la visita de Deborah y Zakariyya a un laboratorio del Johns Hopkins. Un investigador, Christoph Lengauer, les invitó él mismo, sin que nadie se lo pidiera, para enseñarles las células de su madre en persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Les puso un vial helado en la mano y les enseñó las células dividiéndose en la pantalla del microscopio. Deborah se acercó el tubo a la cara y le habló. Fue la primera vez en cincuenta años que alguien de aquel hospital les explicaba algo con calma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lengauer les dijo además que lo que se había hecho no estuvo bien y que, si dependiera de él, la familia recibiría algo. Es la única disculpa que aparece en todo el libro, y la da un investigador a título personal, no ninguna institución.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Deborah desarrolló una obsesión que Skloot cuenta sin ridiculizarla nunca: quería entender la biología. Se compró un diccionario médico, apuntaba palabras en un cuaderno y llamaba a la autora de madrugada para preguntarle si su madre estaba sufriendo dentro de aquellos tubos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pregunta no tiene una respuesta científica interesante y tiene una respuesta humana enorme. Para Deborah, aquellas células eran su madre, repartida en incubadoras de todo el planeta y sometida a experimentos sin descanso desde hacía medio siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El desgaste fue real y físico. Durante la investigación, Deborah sufrió urticarias, subidas de tensión y al menos un episodio que parecía un ictus leve, siempre después de las jornadas más intensas. Skloot lo cuenta incluyendo su propia parte de responsabilidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una escena que resume el libro entero. En una iglesia de Clover, un primo predicador organiza una especie de exorcismo para quitarle a Deborah la carga de las células, y ella sale de allí con un alivio que ningún artículo científico le había dado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Deborah Lacks murió de un infarto en 2009, a los cincuenta y seis años, unos meses antes de que el libro se publicara. No llegó a verlo impreso ni a ver el nombre de su madre en las portadas de los periódicos que lo reseñaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hermano mayor, Lawrence, y algunos descendientes han cuestionado después el libro y el papel de Skloot, y ese desacuerdo sigue vivo. No todos los Lacks piensan lo mismo de lo que se ha escrito sobre ellos, y eso conviene saberlo al leerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí ha cambiado desde entonces está en un cementerio de Virginia y en un despacho de Washington.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La lápida de Clover",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En mayo de 2010, cincuenta y nueve años después del entierro, la tumba de Henrietta Lacks dejó de ser un trozo de hierba sin marcar. Un médico de Atlanta, Roland Pattillo, pagó de su bolsillo una lápida de granito con forma de libro abierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La inscripción la escribieron sus nietos. Dice que aquí yace Henrietta Lacks, HeLa, y que sus células inmortales seguirán ayudando a la humanidad para siempre. Encima, otra línea: en memoria de una mujer extraordinaria, esposa y madre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro había salido en febrero de ese mismo año y fue un éxito inmediato: más de un año en las listas de más vendidos, traducción a decenas de idiomas y lectura obligatoria en institutos y en facultades de medicina de medio mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Skloot creó con parte de los ingresos la Fundación Henrietta Lacks, que da becas y ayudas a descendientes de personas usadas en investigación sin su consentimiento, empezando por los propios Lacks. Ha pagado matrículas, dentistas y facturas de hospital.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pasó en 2013",
+          frase: "Un instituto europeo publicó en internet el genoma completo de las células HeLa sin avisar a la familia. Aquello dejaba a la vista información genética de sus descendientes vivos. Cuando los Lacks protestaron, el genoma se retiró en cuestión de días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los Institutos Nacionales de Salud de Estados Unidos negociaron entonces un acuerdo con la familia. Los datos genéticos de HeLa pasaron a una base de acceso controlado, y en el comité que decide quién puede consultarlos se sentaron dos miembros de la familia Lacks.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la primera vez que unos parientes consiguen algo parecido a un derecho de veto sobre datos genéticos derivados de un familiar. No es dinero y no es propiedad, pero es un precedente, y llegó sesenta y dos años después de aquella biopsia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2021, la familia demandó a Thermo Fisher Scientific, una de las empresas que comercializan las células, por enriquecimiento injusto. El caso se cerró con un acuerdo extrajudicial en agosto de 2023, cuyos términos no se han hecho públicos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El día que se anunció el acuerdo era el aniversario del nacimiento de Henrietta. Los abogados de la familia lo dijeron en la escalinata de un juzgado de Baltimore, a pocos kilómetros del sótano en el que Mary Kubicek había escrito cuatro letras en un tubo.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro. La primera objeción es de proporción: Skloot presenta la historia como una expoliación económica, y el dinero directo que se hizo con aquellas células fue bastante menor de lo que el relato deja entender.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "George Gey las regaló, el Johns Hopkins nunca las vendió, y buena parte de la industria que creció después vendía el trabajo de cultivarlas y distribuirlas, no un material exclusivo. Eso no borra el problema, pero le cambia la forma y conviene saberlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda objeción viene de parte de la propia familia. El hijo mayor de Henrietta y algunos nietos sostienen que Skloot construyó una carrera contando su historia y que ellos no decidieron los términos, y en 2020 publicaron su propia versión en otro libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Skloot responde con la fundación y con los acuerdos que firmó en su día con Deborah. Es un desacuerdo real entre personas vivas, no un detalle menor, y quien lea esto debería saber que la familia Lacks no habla con una sola voz sobre el asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es literaria. Skloot reconstruye escenas de 1951 con diálogos y pensamientos que nadie pudo registrar, apoyándose en entrevistas hechas cuarenta años después. Lo explica en una nota final, y aun así hay páginas que leen como novela y no como reportaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una cifra que se ha repetido demasiado: los cincuenta millones de toneladas de células. No hay manera seria de calcular eso, el propio libro la da como una estimación de un investigador, y ha acabado circulando por ahí convertida en un dato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno: que le robaron las células. Jurídicamente no hubo robo, porque en 1951 el tejido extraído en un quirófano no pertenecía al paciente, y sigue sin pertenecerle en Estados Unidos después del caso Moore.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que fuera un caso aislado de racismo. Tomar tejidos sin avisar era la práctica normal con pacientes de cualquier color. Lo racial es todo lo demás: la sala segregada, Crownsville, y que a nadie le pareciera necesario explicarles nada durante veintidós años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que el Johns Hopkins se hiciera rico con esto. No hay pruebas de ello y el hospital lo niega desde hace décadas. Lo que sí hizo fue publicar durante años el nombre y el historial médico de Henrietta sin pedirle permiso a nadie de su familia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro: que hoy no podría pasar. Puede pasar y pasa. Los tejidos que sobran de un análisis o de una operación se guardan y se usan en investigación de forma rutinaria, con un consentimiento genérico que casi nadie lee, y eso es legal en casi todas partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que el libro sí consigue, y por eso se estudia en las facultades de medicina, es ponerle cara y nombre a algo que se enseñaba como un procedimiento. HeLa dejó de ser un reactivo y volvió a ser una mujer de treinta y un años con cinco hijos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus células siguen creciendo ahora mismo en miles de laboratorios. Se usaron para desarrollar y probar las vacunas contra la covid, setenta años después de que su dueña muriera en la planta de pacientes negros de un hospital de Baltimore.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Clover, la lápida tiene forma de libro abierto porque su nieta quiso que se pudiera leer.",
+        },
+      ],
+    },
+  ],
+};
