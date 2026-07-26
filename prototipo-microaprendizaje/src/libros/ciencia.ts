@@ -8957,3 +8957,651 @@ export const PULGAR_PANDA: Resumen = {
     },
   ],
 };
+
+export const SIETE_LECCIONES_FISICA: Resumen = {
+  id: "siete-lecciones-fisica",
+  titulo: "Siete breves lecciones de física",
+  autor: "Carlo Rovelli",
+  ano: 2014,
+  gancho:
+    "Noventa y seis páginas escritas para el suplemento dominical de un periódico económico. Vendieron más de un millón de ejemplares y convirtieron a un físico de Marsella en un autor de masas a los cincuenta y ocho años.",
+  porQue:
+    "Porque es el mejor libro que existe para entender qué siente un físico ante lo que estudia. Y porque hay que saber una cosa que el libro no dice con claridad: su quinta lección defiende la propia teoría del autor, que es minoritaria y no está confirmada.",
+  partes: [
+    {
+      titulo: "Siete artículos en el suplemento del domingo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2013, el suplemento dominical de un periódico económico italiano le encargó a un físico teórico de cincuenta y siete años una serie de artículos divulgativos. Le pidieron que contara la física del siglo veinte a lectores que iban a leerlo tomando café un domingo por la mañana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió siete piezas cortas. Al año siguiente se recogieron en un libro de noventa y seis páginas que costaba muy poco y cabía en un bolsillo. Se llamaba «Siete breves lecciones de física» y su autor era Carlo Rovelli, un físico especializado en el problema más difícil que hay abierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que pasó después no le había pasado nunca a un libro de física teórica. Vendió más de un millón de ejemplares, se tradujo a cuarenta idiomas y en Italia se contó, con más asombro que rigor, que había vendido más que la novela erótica más popular de aquellos años.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Conviene entender qué clase de libro es antes de abrirlo, porque el malentendido está garantizado. No es un manual, no explica cómo funcionan las cosas y no hay una sola ecuación desarrollada. Es un libro que transmite una emoción, y la información es el vehículo, no la carga.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rovelli escribe frases como que la teoría de la relatividad general es la más bella de las teorías, o que quien la entiende siente vértigo. Ese registro es deliberado: quiere que el lector sienta lo que siente un físico, no que sepa resolver un problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y funciona. Es probablemente el mejor libro que hay para contestar a la pregunta de por qué alguien dedica cuarenta años a algo que no puede tocar ni ver. Lo que no hace, y hay que saberlo, es enseñar física. Después de leerlo no se entiende nada nuevo: se desea entenderlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no es un defecto si uno lo sabe de antemano. Hay libros que son un mapa y libros que son una postal, y confundirlos solo lleva a enfadarse con el que no es. Este es una postal escrita por alguien que vive en el sitio, y como postal no tiene rival.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué es y qué no es",
+          frase: "No es divulgación que explica: es divulgación que evoca. Sale de él con ganas de saber, no sabiendo. Confundir las dos cosas es de donde salen todas las decepciones con este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quién lo escribe importa mucho aquí, porque no es un divulgador profesional. Carlo Rovelli nació en Verona en 1956 y es uno de los tres fundadores de una de las dos grandes candidatas a teoría de la gravedad cuántica. Es un físico en activo que además escribe bien, que es rarísimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su biografía tiene además un tramo que no cuadra con la imagen del catedrático. En los años setenta fue un estudiante radical en Bolonia, participó en el movimiento de las radios libres, tuvo problemas con la justicia italiana y ha hablado abiertamente de haber tomado LSD de joven.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha dicho que aquella experiencia le dejó una pregunta que no se le fue: la de si el paso del tiempo es una propiedad del mundo o algo que fabrica nuestra cabeza. Esa pregunta es exactamente la que ha investigado desde entonces, y es el eje de casi todo lo que ha escrito después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Trabajó en Estados Unidos y desde 2000 en un centro de física teórica de Marsella. Después de este libro publicó otros: uno sobre la naturaleza de la realidad, otro sobre el tiempo y otro sobre la mecánica cuántica. Todos venden mucho y todos repiten, más largo, lo que aquí ocupa cien páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es útil para quien vaya a comprar. Si este libro le gusta, el siguiente paso natural es «El orden del tiempo», que desarrolla en trescientas páginas lo que aquí está en veinte. Y si le sabe a poco, el problema no se arregla comprando otro del mismo autor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las siete lecciones son estas: la relatividad general de Einstein; la mecánica cuántica; la arquitectura del cosmos; las partículas elementales; la gravedad cuántica; la probabilidad, el tiempo y el calor de los agujeros negros; y una última, distinta de todas, titulada simplemente «nosotros».",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Fíjate en la estructura, porque cuenta una historia. Las cuatro primeras son física establecida y comprobada. La quinta y la sexta son frontera abierta y discutida. Y la séptima no es física en absoluto: es una reflexión sobre qué somos nosotros dentro de todo eso.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese salto de lo comprobado a lo especulativo se produce sin ningún aviso tipográfico, y es el problema principal del libro. El lector va leyendo con el mismo tono admirado y con la misma prosa segura, y en algún punto entre la página cincuenta y la sesenta cambia el estatuto de lo que está leyendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rovelli no oculta que la gravedad cuántica está sin resolver: lo dice. Lo que no dice con claridad es que la versión que expone es la suya, que es minoritaria, y que hay otra candidata con muchos más investigadores detrás. Volveremos a eso, porque es el punto que más falta hace conocer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa advertencia por delante, el libro merece muchísimo la pena. Su primera lección, sobre la relatividad general, es probablemente la mejor explicación corta que existe de esa teoría en cualquier idioma, y cabe en ocho páginas que se leen en diez minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una cosa más que hace bien y que casi nadie hace: transmitir que la física no es un almacén de datos ciertos sino una manera de mirar en la que casi todo lo que damos por evidente —el espacio, el tiempo, la materia— ha resultado ser otra cosa cuando se ha mirado con cuidado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo hace sin caer en el misticismo barato que suele acompañar a esa idea. Rovelli no dice que todo sea relativo ni que la ciencia y la espiritualidad se den la mano: dice que hay ecuaciones concretas, escritas por gente con nombre y apellidos, que obligan a revisar lo que parecía obvio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el hilo del libro entero y conviene tenerlo a mano al leerlo. Cada lección es un caso de lo mismo: algo que parecía el escenario donde pasan las cosas resulta ser un actor más, y algo que parecía continuo resulta estar hecho de granos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Siete artículos de domingo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Noventa y seis páginas y ninguna ecuación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y un millón de personas leyendo sobre gravedad cuántica sin haberlo planeado.",
+        },
+      ],
+    },
+    {
+      titulo: "La idea más bella de la ciencia",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La primera lección arranca con una escena: Albert Einstein, joven, sin trabajo académico y sin ganas de estudiar lo que le mandaban, pasando el rato en la biblioteca y en los cafés de Zúrich mientras sus compañeros aprobaban exámenes. Perdió un año entero haciendo eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rovelli defiende que ese año perdido fue decisivo, y no como moraleja de autoayuda. Fue en esos meses cuando leyó por su cuenta a los autores que le dieron el marco del que salió todo, y cuando se acostumbró a hacerse preguntas que no estaban en ningún examen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea central de la relatividad general cabe en una frase que Rovelli formula muy bien. Newton había dicho que el espacio es un recipiente vacío donde están las cosas y que la gravedad es una fuerza que actúa a distancia. Einstein dice que ese recipiente no existe.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que hay es un solo campo, el campo gravitatorio, que es a la vez el espacio. No hay una cosa dentro de otra: la geometría es el actor. La materia curva ese campo y los cuerpos, al moverse, siguen la línea más recta que hay disponible en un terreno curvado.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la imagen que todo el mundo ha visto mal explicada: la Tierra no cae hacia el Sol porque el Sol tire de ella, sino porque el Sol ha deformado el terreno y la Tierra va derecha por un suelo que no es plano. La gravedad no es una fuerza: es una forma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene avisar de que la imagen habitual de la sábana con una bola encima es engañosa, aunque se use en todos lados. En esa imagen la bola hunde la tela porque hay una gravedad que tira hacia abajo, es decir, se explica la gravedad usando la gravedad. Es un dibujo bonito y un argumento circular.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Einstein tardó diez años en escribir la ecuación, de 1905 a 1915, y la terminó en noviembre de aquel año en una carrera contrarreloj: el matemático David Hilbert estaba trabajando en lo mismo y llegó al resultado prácticamente a la vez, en una historia de prioridad que todavía se discute.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo hizo en el peor momento posible: noviembre de 1915, con Europa en guerra, en un Berlín donde se firmaban manifiestos patrióticos que él se negó a firmar. Presentó los resultados en cuatro sesiones consecutivas de la academia, corrigiéndose a sí mismo de una semana para otra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La primera prueba",
+          frase: "El día que la ecuación estuvo lista, Einstein calculó la órbita de Mercurio y le salió exactamente el número que llevaba cincuenta y seis años sin explicación. Dijo que le dio palpitaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena contar ese episodio con detalle, porque el libro lo menciona de pasada y es el mejor argumento a favor de la teoría. Mercurio tiene una anomalía: el punto de su órbita más cercano al Sol se desplaza un poco cada vuelta, y con Newton no salían las cuentas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La discrepancia era pequeñísima y muy precisa: cuarenta y tres segundos de arco por siglo, un ángulo que es como ver una moneda a varios kilómetros. La había medido Urbain Le Verrier en 1859 y llevaba medio siglo siendo el borrón de la mecánica celeste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le Verrier tenía una explicación y era razonable: años antes había descubierto Neptuno prediciendo su posición a partir de anomalías parecidas en Urano. Así que propuso otro planeta escondido entre Mercurio y el Sol y lo bautizó Vulcano. Se buscó durante décadas y nunca apareció.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En noviembre de 1915 Einstein metió los datos de Mercurio en su ecuación nueva, sin ajustar nada, sin ningún parámetro libre, y salieron los cuarenta y tres segundos de arco. Ese es el momento en que una teoría deja de ser una idea bonita: cuando escupe un número que nadie le había pedido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda prueba llegó en 1919 y es la que hizo famoso a Einstein en todo el mundo. Su teoría predecía que la luz de las estrellas debía desviarse al pasar cerca del Sol, y el doble de lo que predecía la física de Newton. Para verlo hacía falta un eclipse total.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Arthur Eddington organizó dos expediciones al eclipse del 29 de mayo de aquel año: una a una isla del golfo de Guinea y otra al norte de Brasil. En noviembre se anunciaron los resultados en Londres y los periódicos del mundo entero titularon que Newton había sido corregido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquí va el detalle que la versión popular se salta siempre. Había tres juegos de placas fotográficas y no coincidían. Uno apoyaba a Einstein, otro también, y el tercero daba un valor más cercano al newtoniano. Eddington descartó ese tercer juego antes de hacer el cálculo final.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante décadas se le acusó de haber elegido los datos que le convenían, porque Eddington era abiertamente partidario de la teoría. Es una de las discusiones más largas de la historia de la ciencia y no es una anécdota menor: va sobre si la prueba más famosa del siglo estaba amañada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta, hasta donde se sabe hoy, es que no. Los reanálisis modernos de aquellas placas han mostrado que el juego descartado tenía un problema real de enfoque del telescopio y que la decisión de excluirlo era técnicamente defendible. Eddington acertó, aunque por poco margen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuento esto porque es exactamente lo que Rovelli no cuenta, y no por ocultarlo: su libro va de la belleza de las ideas, no de cómo se comprueban. Y la comprobación es la parte donde la ciencia se distingue de todo lo demás, así que dejarla fuera tiene un coste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hoy la relatividad general está confirmada hasta extremos que Einstein no imaginó: el sistema de posicionamiento del móvil tiene que corregirla o falla por kilómetros, se han detectado ondas gravitatorias y se ha fotografiado la sombra de un agujero negro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle del móvil es el que más impresiona porque se puede comprobar cualquier día. Los relojes de los satélites van a otro ritmo que los de la superficie, por su velocidad y por estar más lejos de la masa terrestre, y si no se corrigiera esa diferencia el error acumulado sería enorme en un solo día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un año perdido en los cafés de Zúrich.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diez más para escribir la ecuación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y un número de cuarenta y tres que llevaba medio siglo esperando.",
+        },
+      ],
+    },
+    {
+      titulo: "El mundo hecho de granos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La segunda lección cambia de tono y de siglo. Verano de 1925, isla de Helgoland, en el mar del Norte. Un físico alemán de veintitrés años llamado Werner Heisenberg se ha ido allí a pasar la alergia al polen y se pone a hacer cuentas por las noches, sin poder dormir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hizo aquellas noches fue renunciar a preguntarse dónde está el electrón cuando nadie lo mira, y limitarse a calcular con lo que se puede observar: las frecuencias de la luz que emite al saltar. Las cuentas le salieron y no entendía por qué. Fue a mirar el amanecer desde una roca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rovelli le tiene tanto cariño a esa escena que años después le dedicó un libro entero con el nombre de la isla en la portada. Es su mito fundacional preferido, y explica por qué la segunda lección tiene más calor que las demás: está contando el momento en que su propio oficio empezó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rovelli cuenta que aquella renuncia es el nacimiento de la mecánica cuántica, y que sigue siendo lo más difícil de aceptar del asunto: no que el electrón sea raro, sino que la pregunta por dónde está entre observación y observación puede no tener respuesta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La teoría que salió de ahí es la más comprobada que existe. Sostiene todo lo que hay en cualquier casa: el transistor, el láser, la resonancia magnética, la química entera. Sus predicciones se han verificado con doce cifras decimales de acuerdo. Y nadie se pone de acuerdo en qué significa.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese contraste es el mejor párrafo del libro y conviene retenerlo: tenemos una teoría que funciona sin fallo desde hace un siglo y sobre cuya interpretación siguen discutiendo los físicos con la misma intensidad que en 1930. Funciona perfectamente y no sabemos qué está diciendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rovelli tiene su propia respuesta a esa discusión, y aquí sí conviene señalarlo. Defiende la interpretación relacional: que las propiedades de un objeto no son suyas, sino que existen solo respecto de otro objeto con el que interactúa. No hay estado absoluto, hay estado respecto de alguien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otra vez el mismo asunto: es una interpretación entre varias, la propuso él en 1996 y en el libro aparece como si fuera la lectura natural. Hay al menos media docena de interpretaciones vivas y ninguna se puede distinguir experimentalmente de las demás, que es justo lo que las hace interpretaciones.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Las tres cosas que dice",
+          frase: "El mundo viene a granos y no continuo. Solo se puede predecir la probabilidad, no el resultado. Y las cosas no tienen propiedades salvo cuando interactúan con otras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera lección es un descanso: un paseo por la escala del universo, desde el cosmos de Aristóteles con la Tierra en el centro y las esferas alrededor hasta la imagen actual, con galaxias por todas partes y un espacio que se expande. Está contada con dibujitos hechos por el propio Rovelli.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto que subraya ahí es interesante y poco frecuente. Cada uno de esos modelos era, en su momento, lo mejor que se podía sostener con los datos disponibles, y ninguno era estúpido. El de Aristóteles duró casi dos mil años porque explicaba bien lo que se veía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso conecta directamente con «La estructura de las revoluciones científicas», de Kuhn, que anda por esta categoría. Rovelli no lo cita, pero su capítulo tercero es una ilustración perfecta de la idea de Kuhn: que la ciencia no acumula verdades sino que cambia de mapa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con una diferencia importante que Kuhn habría señalado y Rovelli no señala: cada uno de esos mapas sucesivos ha sido mejor prediciendo. El de Aristóteles no predice un eclipse con la precisión del actual. La ciencia cambia de mapa, sí, y los mapas nuevos aciertan más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta lección es la de las partículas, y es la más floja del libro. Enumera electrones, quarks, fotones, gluones y neutrinos, menciona el modelo estándar y sigue adelante. En cuatro páginas no cabe otra cosa, y se nota que el autor está deseando llegar a lo suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay ahí una observación que sí vale y que a mucha gente le sorprende: los electrones no son bolitas ni existen de forma continua. Un electrón, según esta descripción, es una excitación de un campo, y solo se manifiesta cuando choca contra algo. Entre choque y choque no está en ningún sitio concreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una segunda que también conviene tener: el modelo estándar es feo. Tiene una veintena de parámetros que no se deducen de nada y que hay que medir y meter a mano. Rovelli lo dice, y es honesto por su parte, porque su libro entero defiende la belleza como guía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa tensión no se resuelve en el libro y es la más interesante que contiene. La teoría más comprobada de la historia de la física es la más fea, y la más bella —la relatividad general— es la que no se lleva bien con ella. La naturaleza no ha leído el libro de Rovelli.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque ese es el problema de fondo que da sentido a las lecciones quinta y sexta: las dos grandes teorías del siglo veinte funcionan cada una en su terreno y son incompatibles entre sí. La relatividad describe un espacio continuo y curvo; la cuántica describe un mundo de granos y probabilidades.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras los dominios no se toquen, no pasa nada: se usa una para las galaxias y otra para los átomos y todo el mundo contento. Pero hay dos sitios donde se tocan y donde hay que usar las dos a la vez: el interior de un agujero negro y el primer instante del universo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos sitios tienen algo en común: una cantidad enorme de masa en un volumen minúsculo. Ahí la curvatura del espacio es tan brutal como pequeña es la escala, y no hay forma de aplicar una teoría ignorando la otra. Son los únicos dos laboratorios donde el problema se plantea de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esos dos sitios las ecuaciones se rompen y devuelven infinitos, que en física es la manera educada de decir que no sabes lo que estás haciendo. Y ese es el problema al que Rovelli lleva cuarenta años dedicado, y del que trata el capítulo siguiente de este resumen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una teoría que funciona y no se entiende.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otra que se entiende y es bellísima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ningún sitio donde las dos puedan estar a la vez.",
+        },
+      ],
+    },
+    {
+      titulo: "El tiempo que no está en la ecuación",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La quinta lección es la del propio Rovelli, y es donde este resumen tiene que hacer su trabajo. Trata de la gravedad cuántica: el intento de escribir una teoría que valga a la vez para lo muy grande y para lo muy pequeño, que es el problema abierto más importante de la física.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que expone es la gravedad cuántica de bucles, y la expone bien. La idea es que si aplicas las reglas de la cuántica al campo gravitatorio —que, recordemos, es el espacio mismo—, entonces el espacio también tiene que venir a granos. Habría una unidad mínima de espacio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese grano sería inimaginablemente pequeño: del orden de la longitud de Planck, que es a un átomo aproximadamente lo que un átomo es a la galaxia. Por debajo de esa escala, según esta teoría, la palabra distancia deja de significar nada, igual que no hay medio grano de arena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pequeñez es también la razón de que la discusión siga abierta. Para explorar esa escala directamente haría falta un acelerador de partículas de un tamaño que ninguna civilización va a construir, así que la teoría no se puede someter al tribunal habitual de la física, que es el experimento.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y de ahí sale la afirmación más llamativa del libro: que a ese nivel el tiempo tampoco existe. No es que pase muy despacio: es que la variable tiempo no aparece en las ecuaciones fundamentales. El tiempo sería algo que emerge después, como la temperatura emerge del movimiento de las moléculas.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea no es un capricho suyo y tiene una historia técnica seria. En 1967, al intentar escribir una versión cuántica de la gravedad, John Wheeler y Bryce DeWitt obtuvieron una ecuación en la que, sencillamente, no hay ninguna variable temporal. El asunto se conoce como el problema del tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí hay dos maneras de reaccionar y las dos tienen partidarios. Una es la de Rovelli: si el tiempo no está en la ecuación, es que el tiempo no es fundamental. La otra es sospechar que la ecuación está incompleta o mal planteada. Preferir una u otra no es un resultado, es una apuesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora la advertencia, que es la razón de ser de esta ficha. Rovelli no dice en ningún momento con la claridad necesaria que la gravedad cuántica de bucles es una teoría suya. Es uno de sus tres fundadores, junto a Lee Smolin y Abhay Ashtekar, y la desarrolló a finales de los ochenta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hay que saber antes de leer la quinta lección",
+          frase: "Es una teoría minoritaria, escrita por uno de sus tres autores, sin ninguna confirmación experimental. Su rival principal tiene bastantes más investigadores y tampoco ha confirmado nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La rival es la teoría de cuerdas, que lleva desde los setenta siendo la apuesta mayoritaria de la física teórica y que ocupa a muchos más departamentos y muchos más doctorandos. Rovelli la menciona de pasada y sin entusiasmo, y no explica al lector que está oyendo a una de las dos partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que conste que la teoría de cuerdas no está mejor: tampoco tiene ninguna predicción confirmada y lleva cuarenta años sin ofrecer un experimento que la pueda desmentir. La situación honesta es que hay dos programas grandes, ninguno probado, y un montón de gente inteligente repartida entre los dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un lector que no sepa esto sale de la quinta lección creyendo que la física sabe que el espacio está hecho de granos y que el tiempo no existe. Y no lo sabe. Lo que hay es una propuesta matemáticamente elaborada, defendida por gente muy seria, sin un solo dato que la respalde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esto no es un reproche moral al autor. Cualquiera que lleve cuarenta años en un programa de investigación lo cuenta desde dentro, y sería raro que no lo hiciera. El reproche es al formato: en un libro de cien páginas sin notas, el lector no tiene ninguna manera de averiguarlo por su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La sexta lección es la más difícil y la más honrada, porque en ella Rovelli reconoce que no entiende algo. Trata del calor, de la probabilidad y de los agujeros negros, y de por qué el tiempo va en una sola dirección cuando las ecuaciones fundamentales no distinguen adelante de atrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es un problema de verdad y no una curiosidad. Todas las leyes básicas funcionan igual hacia delante que hacia atrás: si grabas dos bolas de billar chocando y pasas la película al revés, no se ve nada imposible. Y sin embargo una taza rota no se recompone jamás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta que da la física es que la diferencia está en el calor, es decir en el desorden, y que el pasado se distingue del futuro solo porque el desorden era menor antes. Eso lleva a la pregunta incómoda: ¿y por qué era menor antes? Ahí ya nadie tiene una respuesta cómoda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La formulación estándar de eso se llama hipótesis del pasado y consiste, básicamente, en meter como condición inicial que el universo empezó extraordinariamente ordenado. Es una manera perfectamente respetable de decir que no se sabe por qué, y toda la flecha del tiempo cuelga de ella.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Rovelli enlaza eso con los agujeros negros, que según los cálculos de Bekenstein y Hawking en los años setenta tienen temperatura y radian energía. Es un resultado teórico precioso y hay que decir lo que el libro no subraya: esa radiación nunca se ha observado y probablemente no se observará.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí propone su propia idea, otra vez sin marcarla como suya: el tiempo térmico, la hipótesis de que la sensación de que el tiempo fluye viene de nuestra manera borrosa e incompleta de ver el mundo. El tiempo no fluiría en la naturaleza, fluiría en nuestra ignorancia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una idea preciosa y es lo que él investiga. Puede ser cierta. Ahora mismo no hay manera de saberlo, y un lector tiene derecho a que se lo digan en la misma página en la que se lo cuentan, y no en el resumen de otro doce años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que ser justo con el libro también en esto: en el prólogo Rovelli dice que las últimas lecciones tratan de terreno inexplorado. Lo dice. El problema es que lo dice una vez y en general, y luego escribe ciento veinte páginas con exactamente el mismo tono de certeza para todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro lecciones de física comprobada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos de una apuesta personal contada con la misma voz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ninguna marca en el texto que avise de dónde está la frontera.",
+        },
+      ],
+    },
+    {
+      titulo: "Nosotros, que estamos hechos de lo mismo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La séptima lección no es física y ocupa apenas diez páginas. Se titula «nosotros» y se pregunta qué pinta un ser humano en un universo descrito por las seis lecciones anteriores. Es la parte más citada del libro y la que menos tiene que ver con el oficio del autor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento contra la idea de que somos algo aparte de la naturaleza es sencillo y bueno: estamos hechos de los mismos átomos y regidos por las mismas leyes que las piedras y las galaxias, y no hay ninguna frontera en el mundo donde acabe la física y empiece otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aborda el libre albedrío con una respuesta que merece la pena porque no es la habitual. Dice que no hay contradicción entre que nuestras decisiones las produzca la química del cerebro y que sean nuestras, porque nosotros somos precisamente esa química, no un pasajero que va dentro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es un argumento clásico, con siglos de historia filosófica detrás, y Rovelli no pretende haberlo inventado. Lo cuenta bien, y lo cierra con una frase que se ha reproducido en miles de sitios: somos la parte del universo que se ha vuelto capaz de mirarse a sí misma.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final del libro es sombrío y sorprende encontrarlo ahí. Escribe que nuestra especie probablemente no dure mucho, que somos una fase breve y ruidosa, y que lo más honrado es mirar de frente ese hecho en vez de fabricarse consuelos. Y aun así el tono no es triste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su razón para que no lo sea es la misma que da toda la tradición estoica que anda por la categoría de Filosofía: que la brevedad no le quita valor a nada. Rovelli no cita a Marco Aurelio, pero las últimas dos páginas de este libro podrían estar en las «Meditaciones» sin que se notara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora toca cerrar el balance, y hay que decir algo que no le gusta a nadie que quiera a este libro. Su recurso constante a la belleza como criterio no es solo un rasgo de estilo: es una posición metodológica, y es una posición que en la física de las últimas décadas ha recibido muchos golpes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2018, la física teórica Sabine Hossenfelder publicó un libro entero contra esa idea, con un título que lo dice todo: cómo la belleza extravía a la física. Su tesis es que llevamos cuarenta años sin una teoría fundamental nueva confirmada, y que el criterio estético es parte del problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo favorito es la palabra naturalidad, un criterio de elegancia matemática que llevó a predecir que el gran acelerador europeo encontraría partículas nuevas más allá del bosón de Higgs. Se construyó, se buscaron durante años y no apareció ninguna. La predicción venía del criterio estético.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La objeción de fondo",
+          frase: "La naturaleza no tiene ninguna obligación de ser bella. Cuando una comunidad usa la elegancia para decidir qué investigar, puede pasarse décadas en un callejón precioso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento tiene fuerza y conviene tenerlo. La teoría más exacta que tenemos, el modelo estándar, es un armatoste con veinte parámetros metidos a mano. Y la que Rovelli llama la más bella, la relatividad general, predice su propio derrumbe en el interior de los agujeros negros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rovelli podría contestar, y con razón, que Einstein llegó a la relatividad general guiado precisamente por consideraciones de elegancia y coherencia y no por ningún dato. Es verdad, y es el mejor argumento del bando de la belleza. También es una sola anécdota contra cuarenta años de sequía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vale la pena comparar este libro con otros de esta categoría para situarlo. «El universo en tu mano», de Galfard, que también está aquí, explica de verdad la física moderna con imágenes y ejemplos, y tarda cuatrocientas páginas en hacer lo que Rovelli insinúa en cien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son dos libros para dos momentos distintos. Rovelli para saber por qué merece la pena; Galfard para entender qué se está diciendo. Leerlos en ese orden funciona muy bien, y leer solo el primero deja una sensación de haber comprendido algo que en realidad no se ha comprendido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa sensación tiene incluso un riesgo práctico: la de salir citando en una cena que el tiempo no existe. Es una frase que suena espectacular, que este libro autoriza sin querer y que, dicha así, no significa nada. Lo que puede no existir es una variable en unas ecuaciones que nadie ha confirmado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un tercer contraste útil, con la biografía de Einstein que escribió Isaacson y que anda por esta categoría. Ahí se ve lo que a Rovelli no le interesa: los diez años de callejones sin salida, los errores de cálculo, las ecuaciones abandonadas y la competencia con Hilbert.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa diferencia es la lección de segundo orden que deja esta ficha. La ciencia se cuenta casi siempre por su resultado, que es limpio y bello, y se hace por su proceso, que es sucio, lento y lleno de trabajo desperdiciado. Los libros que solo cuentan lo primero dan una idea falsa del oficio.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con todo eso descontado, ¿merece la pena? Mucho. Se lee en una hora, cuesta poco, y hace algo que casi ningún libro consigue: dejar al lector con la sensación física de que el mundo es más raro de lo que creía y de que hay gente dedicando su vida a averiguar cuánto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un mérito que conviene reconocerle por encima de todos los peros. Un millón de personas que no habrían abierto jamás un libro de física abrieron este porque era corto, barato y bonito. Ninguna objeción metodológica compensa lo que eso vale.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La instrucción práctica para leerlo bien cabe en una frase: lee las cuatro primeras lecciones como información y las dos siguientes como la opinión razonada de un investigador sobre su propio campo abierto. Con esa distinción hecha, el libro no engaña a nadie y sigue siendo bellísimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si algo se queda, que sea lo de la primera lección: que el espacio no es un escenario donde pasan las cosas, sino una de las cosas que pasan. Eso está comprobado, se usa cada vez que el móvil te dice dónde estás, y sigue siendo difícil de creer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Siete artículos para leer un domingo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro cuentan lo que sabemos y dos lo que su autor espera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la séptima recuerda que quien lo lee está hecho de lo mismo que lo leído.",
+        },
+      ],
+    },
+  ],
+};
