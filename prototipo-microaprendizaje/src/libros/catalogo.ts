@@ -125,7 +125,7 @@ export const CATALOGO: Ficha[] = [
   { id: "siete-lecciones-fisica", titulo: "Siete breves lecciones de física", autor: "Carlo Rovelli", ano: 2014, categoria: "Ciencia", estado: "pendiente" },
   { id: "orden-del-tiempo", titulo: "El orden del tiempo", autor: "Carlo Rovelli", ano: 2017, categoria: "Ciencia", estado: "pendiente" },
   { id: "henrietta-lacks", titulo: "La vida inmortal de Henrietta Lacks", autor: "Rebecca Skloot", ano: 2010, categoria: "Ciencia", estado: "escrito" },
-  { id: "emperador-males", titulo: "El emperador de todos los males", autor: "Siddhartha Mukherjee", ano: 2010, categoria: "Ciencia", estado: "pendiente" },
+  { id: "emperador-males", titulo: "El emperador de todos los males", autor: "Siddhartha Mukherjee", ano: 2010, categoria: "Ciencia", estado: "escrito" },
   { id: "pulgar-panda", titulo: "El pulgar del panda", autor: "Stephen Jay Gould", ano: 1980, categoria: "Ciencia", estado: "pendiente" },
   { id: "cuchara-menguante", titulo: "La cuchara menguante", autor: "Sam Kean", ano: 2010, categoria: "Ciencia", estado: "pendiente" },
   { id: "sexta-extincion", titulo: "La sexta extinción", autor: "Elizabeth Kolbert", ano: 2014, categoria: "Ciencia", estado: "pendiente" },

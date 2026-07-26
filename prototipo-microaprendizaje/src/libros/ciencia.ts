@@ -7071,3 +7071,630 @@ export const REVOLUCIONES_CIENTIFICAS: Resumen = {
     },
   ],
 };
+
+export const EMPERADOR_MALES: Resumen = {
+  id: "emperador-males",
+  titulo: "El emperador de todos los males",
+  autor: "Siddhartha Mukherjee",
+  ano: 2010,
+  gancho:
+    "La biografía de una enfermedad de cuatro mil años, escrita por un oncólogo que la trataba mientras la escribía. Ganó el Pulitzer y no consuela a nadie.",
+  porQue:
+    "Cuenta cómo se aprende medicina de verdad: probando cosas atroces, equivocándose durante décadas enteras y descubriendo tarde que el error estaba en la pregunta. Es la mejor historia disponible de por qué la ciencia avanza tan despacio y tan a trompicones.",
+  partes: [
+    {
+      titulo: "El sótano del hospital de niños",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1947, en el sótano del Hospital Infantil de Boston, trabajaba un patólogo llamado Sidney Farber. Su laboratorio estaba junto al depósito de cadáveres, y sus colegas lo llamaban el médico de los muertos, porque su trabajo consistía en examinar tejidos de niños que ya no se podían salvar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La enfermedad que tenía delante era la leucemia linfoblástica aguda. En aquel momento se consideraba una sentencia absoluta: los niños llegaban pálidos, con fiebre y con moratones, y se morían en semanas o en pocos meses. No había un solo tratamiento que hiciera nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Farber tuvo una idea que venía de la India. Un médico llamado Lucy Wills había visto en Bombay que un extracto de levadura curaba una anemia de embarazadas desnutridas, y el principio activo resultó ser el ácido fólico. La médula de los leucémicos se parecía a una médula hambrienta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que probó a darles ácido fólico, y el resultado fue horrible: los niños empeoraron deprisa, con las células leucémicas multiplicándose todavía más rápido. Había alimentado el tumor. Cualquiera habría cerrado el cuaderno, y él sacó la conclusión contraria y correcta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La inversión",
+          frase: "Si el ácido fólico acelera la leucemia, entonces una molécula que bloquee el ácido fólico debería frenarla. Es el primer razonamiento propiamente farmacológico de la historia del cáncer, y salió de un experimento que había matado a sus pacientes antes de tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le pidió esas moléculas a un químico de una empresa de Nueva York, Yellapragada Subbarao, un indio brillantísimo que había llegado a Boston sin dinero y que trabajó de portero de noche mientras hacía el doctorado. Le mandó unos antifolatos, entre ellos la aminopterina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer caso que respondió fue un niño de dos años llamado Robert Sandler, en diciembre de 1947. Su recuento de blastos cayó, la fiebre bajó, volvió a jugar. Farber estaba viendo lo que nadie había visto: una remisión completa de una leucemia infantil provocada por un fármaco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí es donde el libro se separa de la hagiografía. Robert Sandler murió a los pocos meses. Todos murieron. Las remisiones duraban semanas, la leucemia volvía siempre y volvía resistente, y varios colegas acusaron a Farber de estar prolongando la agonía por vanidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su artículo de 1948, con dieciséis pacientes y diez respuestas parciales, se recibió con incredulidad y con desprecio. Nadie había curado a nadie. Lo que había demostrado, y tardó años en entenderse, era otra cosa: que aquello no era intocable.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa es la estructura de casi todos los capítulos que vienen. Alguien consigue un resultado parcial y desconcertante, lo interpretan mal durante veinte años, y de la mala interpretación sale la siguiente pregunta buena.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor es Siddhartha Mukherjee, oncólogo formado en Stanford, Oxford y Harvard, y empezó a escribir este libro en 2003, durante su primer año como médico adjunto en formación en el Dana-Farber, el instituto que lleva el apellido del hombre del sótano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro nació de una pregunta que le hizo una paciente. Carla Reed, treinta años, tres hijos, leucemia linfoblástica aguda, la misma enfermedad de los niños de Farber. Le preguntó qué era exactamente lo que tenía dentro, y él se dio cuenta de que no sabía contestarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la decisión formal que hace que el libro funcione: escribirlo como una biografía. No una historia de la oncología, sino la vida de un personaje —la enfermedad— con su infancia, su carácter, sus astucias y sus periodos de derrota.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La infancia del personaje es muy antigua. El primer caso descrito está en el papiro Edwin Smith, un texto egipcio de hace unos tres mil setecientos años que enumera cuarenta y ocho casos quirúrgicos con su tratamiento. En el número cuarenta y cinco, unos bultos en el pecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el apartado de tratamiento el papiro dice, con una economía terrible, que no lo hay. Es la única de las cuarenta y ocho entradas donde el cirujano egipcio se rinde por escrito, y Mukherjee la usa para abrir el libro porque marca la distancia con lo que viene después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre viene de Hipócrates, que llamó karkinos, cangrejo, a un tumor con venas hinchadas alrededor que le recordó a las patas del animal. Galeno, cuatro siglos después, lo explicó por un exceso de bilis negra, y esa idea aguantó mil quinientos años sin que nadie la comprobara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La bilis negra tuvo una consecuencia práctica enorme: si el cáncer es un desequilibrio de humores que empapa el cuerpo entero, operar no sirve de nada. La teoría equivocada de Galeno frenó la cirugía oncológica durante más de un milenio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro asunto que aparece pronto es por qué el cáncer parece una enfermedad moderna. La respuesta no es que antes no existiera, sino que la gente se moría antes de otras cosas: de infecciones, de partos, de hambre. El cáncer es en buena medida una enfermedad de la longevidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mukherjee da el dato que lo aclara. En 1900 la esperanza de vida en Estados Unidos rondaba los cuarenta y siete años; hoy pasa de los setenta y cinco. Cada década ganada multiplica las divisiones celulares acumuladas, y con ellas la probabilidad de que alguna salga mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la primera idea dura del libro: el cáncer no es un intruso que viene de fuera. Es una consecuencia de que las células se dividan, y las células se dividen porque estamos vivos. Lo llama, en una frase que se ha citado mucho, una versión distorsionada de nosotros mismos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Farber empieza la segunda parte de la historia, la de la química.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero mucho antes había empezado otra, con un cuchillo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con un cirujano que no podía parar de cortar.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El cirujano que cortaba cada vez más",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "William Halsted llegó al hospital Johns Hopkins en 1889 y se convirtió en el cirujano más influyente de Estados Unidos. Introdujo los guantes de goma, la asepsia rigurosa y el sistema de formación de residentes que todavía se usa. También era adicto a la cocaína y a la morfina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La adicción venía de sus propios experimentos: había estado probando la cocaína como anestésico local inyectándosela a sí mismo. Sus amigos lo internaron dos veces y le sustituyeron una droga por otra. Operó durante treinta años dosificándose morfina y nadie lo dijo en voz alta hasta después de su muerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su gran obsesión fue el cáncer de mama, y su razonamiento tenía una lógica impecable a partir de una premisa falsa. Si el tumor recidiva después de operarlo, es que quedaron células fuera del corte. Luego hay que cortar más lejos, y en la siguiente operación más lejos todavía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así nació la mastectomía radical: extirpar la mama entera, el pectoral mayor y el menor, y vaciar la axila de ganglios. La mujer quedaba con el tórax hundido, un brazo hinchado de por vida por el linfedema y una movilidad del hombro muy reducida.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La premisa que nadie comprobó",
+          frase: "Halsted creía que el cáncer se extendía de manera centrífuga, como una mancha, avanzando ordenadamente desde el centro hacia fuera. Si eso es cierto, cortar más lejos siempre es mejor. Si es falso, cortar más lejos solo añade mutilación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus discípulos llevaron la lógica hasta el final. En los años cuarenta y cincuenta se practicaban mastectomías superradicales que quitaban además costillas, la clavícula, la cadena ganglionar interna y a veces parte del esternón, dejando el corazón latiendo bajo un colgajo de piel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El defecto de los datos de Halsted es de manual y es el que Mukherjee explica mejor de todo el libro. Él elegía a sus pacientes: operaba a mujeres con tumores pequeños y localizados, y rechazaba a las que ya tenían la enfermedad extendida, porque no quería estropear sus resultados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa selección, sus cifras salían magníficas y no demostraban absolutamente nada sobre la operación. Comparaba a mujeres con enfermedad precoz operadas por él con mujeres con enfermedad avanzada operadas por otros. Es el sesgo de selección en estado puro, y duró setenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo quien lo dijo a tiempo. Un cirujano británico, Geoffrey Keynes, hermano del economista, trató en los años veinte tumores de mama con agujas de radio en vez de con cirugía y obtuvo supervivencias parecidas. Le llamaron despectivamente la mastectomía de Keynes y lo ignoraron.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Para tumbar una operación consagrada no bastaba con tener razón: hacía falta un experimento que ningún cirujano quería hacer, porque exigía sortear a sus pacientes al azar entre lo que él creía correcto y lo que creía insuficiente.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre que lo hizo fue Bernard Fisher, cirujano de Pittsburgh, a través de un consorcio de hospitales que se abrevia como NSABP. Su tesis era la contraria a la de Halsted: que el cáncer de mama es desde temprano una enfermedad sistémica, con células viajando por la sangre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si eso es cierto, la extensión del corte es irrelevante, porque lo que decide el destino ya ha salido del pecho antes de que nadie levante el bisturí. Las dos teorías predecían cosas distintas y medibles, y solo había una manera de decidir entre ellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Reclutar fue un calvario. Fisher tardó años en juntar pacientes porque los cirujanos se negaban a aleatorizar: estaban convencidos de que asignar a una mujer a la operación menos agresiva era condenarla. Llegó a contar que necesitó una década para lo que debería haber costado dos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ensayo B-04 empezó en 1971 con más de mil ochocientas mujeres repartidas entre mastectomía radical, mastectomía simple y mastectomía simple con radioterapia. El B-06, poco después, comparó la mastectomía con la tumorectomía, que solo quita el bulto y un margen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los resultados, publicados desde 1985 y confirmados en el seguimiento a veinticinco años, fueron inequívocos: no había diferencia de supervivencia. Ninguna. Setenta años de mutilaciones progresivas no habían salvado ni una vida más que la operación conservadora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decirlo con precisión, porque se malinterpreta: la cirugía sí cura el cáncer de mama en muchos casos. Lo que el ensayo demostró es que la cirugía enorme no cura más que la pequeña, y que todo el sufrimiento añadido de setenta años fue exactamente eso, añadido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que reconocerle a Fisher una frase que resume la enseñanza entera. Dijo que en la medicina uno cree lo que puede demostrar, y que lo que no puede demostrar debe considerarlo una opinión, por respetable que sea quien la sostenga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una coda desagradable que el libro no oculta. En 1994 se descubrió que un investigador canadiense del consorcio había falsificado datos de pacientes en uno de los estudios. Fisher fue apartado, la prensa lo destrozó, y años después se le exoneró y se le devolvió el puesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El reanálisis de los datos, quitando los registros falsos, no cambió ni una de las conclusiones. Pero el episodio dejó a la oncología con un descrédito público que le costó años y que sirve de aviso sobre lo frágil que es la confianza en un ensayo clínico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cirugía había tocado techo. La radioterapia, que nació de Marie Curie y del descubrimiento de los rayos X, tenía su propio límite, y además provocaba segundos tumores: la propia Curie murió de una anemia aplásica atribuida a su exposición.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quedaba la tercera vía, la química de Farber.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y para financiarla hacía falta muchísimo dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo puso una mujer que no era médica.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La guerra que se declaró demasiado pronto",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Mary Lasker era una neoyorquina rica, casada con un magnate de la publicidad, y decidió a mediados de siglo que iba a conseguir que Estados Unidos gastara en el cáncer lo que gastaba en armamento. No tenía formación científica y resultó ser la persona más eficaz de esta historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su método era el de su marido: convertir una enfermedad en una campaña. Ella y su grupo, a los que se conocía como los laskeritas, hicieron lo que nadie en medicina había hecho, que fue tratar la investigación como un producto que había que vender al Congreso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se aliaron con Farber, que resultó ser un testigo magnífico ante las comisiones parlamentarias, y montaron una operación de presión de años. El momento culminante fue un anuncio a toda página en el New York Times en diciembre de 1969 dirigido al presidente Nixon.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El titular decía: señor Nixon, usted puede curar el cáncer. El texto argumentaba que si el país había podido poner un hombre en la Luna y fabricar la bomba atómica, era cuestión de decidirse y de poner el dinero. La analogía era brillante y era falsa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué la analogía falla",
+          frase: "El proyecto Manhattan y el programa Apolo fueron problemas de ingeniería: la física ya estaba resuelta y faltaba construirlo. En 1971 nadie sabía qué era el cáncer a nivel molecular. Era como haber pedido la bomba atómica antes de que existiera Einstein.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa objeción la formularon científicos de primera fila en su momento, entre ellos el virólogo Sol Spiegelman y el bioquímico James Watson, que estaba en el consejo asesor. Los ignoraron, porque el argumento científico perdía frente al argumento político y frente a los enfermos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nixon firmó la Ley Nacional del Cáncer el 23 de diciembre de 1971. Fue un enorme éxito de financiación —cientos de millones que se convertirían en decenas de miles de millones— y durante veinte años produjo muy pocos resultados clínicos visibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El dato que Mukherjee pone encima de la mesa es demoledor: entre 1970 y 1990, la mortalidad por cáncer ajustada por edad en Estados Unidos no bajó. Subió ligeramente. La guerra llevaba veinte años declarada y el enemigo seguía ganando terreno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, en las clínicas, la quimioterapia estaba viviendo su etapa más brutal y más fecunda. El centro de aquello fue el Instituto Nacional del Cáncer, donde dos médicos con nombres casi idénticos, Emil Frei y Emil Freireich, hicieron algo que espantó a sus colegas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su idea era combinar. Si cada fármaco mata una parte de las células leucémicas por un mecanismo distinto, darlos a la vez debería matar muchas más antes de que aparezcan resistencias. El régimen se llamó VAMP y sus siglas son las de los cuatro fármacos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El precio de esa idea era atroz. Los niños quedaban sin defensas ni plaquetas durante semanas, sangraban por las encías, cogían infecciones que los mataban. Freireich reconoció que en aquella sala parecía que estuvieran matando niños, y que varios murieron de la propia terapia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y funcionó. La leucemia linfoblástica aguda infantil, la enfermedad de Robert Sandler, pasó de ser mortal en el cien por cien de los casos a curarse hoy en torno al noventa por ciento. Es la mayor victoria de la oncología y se pagó al contado.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no la cuenta como una historia edificante, y ahí está su honradez. Los ensayos de aquellos años se hicieron con un consentimiento informado que hoy sería ilegal, sobre niños de familias que no entendían casi nada de lo que se les proponía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La estrategia se extendió al linfoma de Hodgkin con el régimen MOPP, diseñado en el mismo instituto por Vincent DeVita, y volvió a funcionar: una enfermedad que mataba a la mayoría pasó a curarse en la mayoría. Dos éxitos completos, y de ahí salió una conclusión precipitada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión fue que si funcionaba con leucemias y linfomas, funcionaría con todo, y que la clave era la dosis. Cuanta más quimioterapia, mejor. Esa idea, llamada la hipótesis de la dosis alta, dominó veinte años y llevó al desastre mejor documentado del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El desastre fue el trasplante autólogo de médula ósea para el cáncer de mama. La lógica: dar dosis de quimioterapia que destruyen la médula y luego rescatarla con células propias congeladas previamente. Se hizo a decenas de miles de mujeres en los años noventa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Costaba una fortuna, mataba entre un tres y un cinco por ciento de las pacientes solo por el procedimiento, y las aseguradoras que se negaban a pagarlo perdían juicios millonarios porque las pacientes las demandaban. Nadie había hecho todavía el ensayo aleatorizado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los resultados llegaron en 1999 y 2000: el trasplante no mejoraba la supervivencia. Y el único estudio que había dado positivo, hecho en Sudáfrica por un oncólogo llamado Werner Bezwoda, resultó ser un fraude: al inspeccionarlo, las historias clínicas no existían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquello dejó una lección que atraviesa el libro entero: se pueden hacer durante una década, a escala industrial y con la mejor intención, tratamientos que no funcionan, si la teoría es plausible y nadie se molesta en comprobarla mientras hay demanda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El error de fondo era el mismo de Halsted, traducido de la cirugía a la química: creer que más agresividad tenía que ser mejor. Cambiaron el instrumento y conservaron la premisa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras se libraba esa guerra, había otro frente casi abandonado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Uno donde se salvaban más vidas y no salía en los periódicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El de impedir que la enfermedad empezara.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El humo que nadie quería ver",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1948, un joven estadístico británico llamado Richard Doll fumaba y creía que el aumento del cáncer de pulmón se debía al alquitrán de las carreteras o a los gases de los coches. Se puso a estudiarlo con Austin Bradford Hill, y a mitad del estudio dejó de fumar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su primer trabajo, de 1950, comparó a enfermos de cáncer de pulmón con pacientes ingresados por otras causas y encontró una asociación aplastante con el tabaco. La objeción evidente era la de siempre: una asociación no es una causa, y los fumadores se diferencian en muchas cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que hicieron algo mejor y más lento. Escribieron a todos los médicos del Reino Unido, unos cuarenta mil, les preguntaron cuánto fumaban y los siguieron durante décadas, apuntando de qué se iban muriendo. Es el famoso estudio de los médicos británicos, y duró cincuenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los resultados fueron llegando por entregas y cada entrega era peor. Al final quedó establecido que alrededor de la mitad de los fumadores mueren por causas atribuibles al tabaco, y que dejarlo a los treinta recupera prácticamente toda la esperanza de vida perdida.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Los criterios de Hill",
+          frase: "Para pasar de la asociación a la causa, Bradford Hill propuso en 1965 una lista de puntos a comprobar: fuerza del efecto, consistencia entre estudios, relación con la dosis, secuencia temporal correcta y plausibilidad biológica. Sigue siendo la herramienta que se usa hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un personaje en esta parte que resume el asunto entero. Evarts Graham era el cirujano que había hecho la primera extirpación completa de un pulmón por cáncer, fumaba muchísimo y no creía en la relación. Colaboró en un estudio propio para demostrar que no la había.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus datos le dieron la razón a Doll y no a él. Graham dejó de fumar, cambió de opinión en público, y murió de cáncer de pulmón en 1957. Poco antes escribió una carta reconociendo que se había equivocado durante toda su vida profesional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Frente a eso, la industria tabaquera montó la operación de desinformación mejor documentada del siglo veinte. No intentaron demostrar que el tabaco era inocuo, porque sabían que no podían: intentaron sostener que la ciencia no estaba clara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que resume la estrategia está en un memorándum interno de la tabacalera Brown and Williamson de 1969 y dice, literalmente, que la duda es nuestro producto, porque es el mejor medio para competir con el conjunto de hechos que existe en la cabeza del público.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa frase se ha convertido en el manual de todas las campañas de negación posteriores, del amianto al cambio climático: no hace falta ganar la discusión científica, basta con mantenerla abierta el tiempo suficiente para que no se legisle.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El informe del Cirujano General de Estados Unidos de 1964 acabó con la duda oficial, y aun así hicieron falta cuarenta años más de juicios, impuestos, prohibiciones de publicidad y advertencias en las cajetillas para que el consumo cayera de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión que Mukherjee subraya es incómoda para su propia profesión: la caída de la mortalidad por cáncer en Estados Unidos se debe más a que la gente dejó de fumar que a todos los fármacos que se han inventado. La prevención ganó la guerra que la quimioterapia no ganaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro capítulo de prevención es el cribado, y ahí el libro es mucho más matizado de lo que suele serlo la divulgación. Empieza bien: la citología cervical que inventó Georgios Papanicolaou, la famosa prueba de Papanicolaou, redujo drásticamente la mortalidad por cáncer de cuello de útero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Funciona porque cumple las dos condiciones que hacen falta: existe una lesión precancerosa que tarda años en volverse invasiva, y existe un tratamiento sencillo para esa lesión. Detectar pronto solo sirve si hay algo distinto que hacer con lo que se detecta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la mamografía el asunto es bastante peor de lo que se cuenta. Los ensayos muestran un beneficio real pero modesto, que además depende muchísimo de la edad, y arrastran dos problemas que Mukherjee explica sin suavizarlos porque afectan a millones de mujeres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero es el sobrediagnóstico: se detectan tumores que nunca habrían dado síntomas ni matado a nadie, y se tratan igual, con cirugía y radioterapia, porque no hay manera de saber cuáles son. Esa mujer no se ha salvado: se le ha convertido en enferma sin necesidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es el sesgo de anticipación, que es una trampa estadística preciosa. Si detectas un cáncer cinco años antes y la persona muere el mismo día que habría muerto, la supervivencia desde el diagnóstico ha aumentado cinco años y no has salvado ni un día de vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso las cifras de supervivencia a cinco años son un indicador tramposo para juzgar un cribado, y por eso lo único que sirve es la mortalidad total en poblaciones sorteadas al azar. Es una de las lecciones más útiles que un lector no médico puede sacar del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene conectar con Anticáncer, de David Servan-Schreiber, que está en esta misma biblioteca. Aquel libro atribuía a la dieta y al estado de ánimo un poder preventivo que la evidencia no sostiene; Mukherjee muestra dónde sí ha funcionado la prevención de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha funcionado con el tabaco, con el virus del papiloma humano y su vacuna, con la hepatitis B y el cáncer de hígado, y con el amianto. Es decir: con causas concretas, identificadas por estudios grandes y eliminadas por leyes, no por hábitos individuales de virtud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Faltaba todavía saber qué pasa dentro de la célula.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa respuesta llegó por un camino que nadie esperaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por un virus de gallinas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Un gen propio que se ha vuelto loco",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1909, un granjero de Long Island le llevó a un investigador del Rockefeller una gallina con un bulto en el pecho. El investigador se llamaba Peyton Rous, molió el tumor, filtró el líquido para quitar las células y lo inyectó en otras gallinas. Les salió el mismo tumor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquello significaba que algo más pequeño que una célula transmitía el cáncer: un virus. El descubrimiento se ignoró durante medio siglo y Rous recibió el Nobel en 1966, con ochenta y siete años, por un trabajo hecho cuando tenía treinta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El virus del sarcoma de Rous resultó llevar un gen capaz de transformar células normales en tumorales. Lo llamaron src, y durante años se pensó que era un gen viral, una pieza ajena que el virus metía dentro. La corrección de esa idea es el gran vuelco conceptual del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1976, Harold Varmus y Michael Bishop, en San Francisco, demostraron que src no era del virus. Era un gen que ya estaba en las células normales de las gallinas, y también en las de los peces, los ratones y las personas. El virus lo había robado y devuelto estropeado.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El vuelco",
+          frase: "El cáncer no viene de fuera. Los genes que lo causan son genes nuestros, necesarios para crecer y dividirnos, que se han estropeado. Un oncogén es la versión averiada de un gen normal, y por eso no hay manera de vacunarse contra uno mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A los oncogenes, que son aceleradores estropeados, se sumó pronto la otra familia: los genes supresores de tumores, que son frenos. El más famoso es el p53, que ordena a la célula detenerse o suicidarse si detecta daño en el ADN, y que está mutado en la mitad de los cánceres humanos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esas dos piezas, la imagen queda clara y es más inquietante que la anterior. Un tumor no necesita ninguna invasión: le basta con que se atasquen unos cuantos aceleradores y se rompan unos cuantos frenos en la misma célula, y con que esa célula siga dividiéndose.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el año 2000, Douglas Hanahan y Robert Weinberg publicaron un artículo que ordenó todo aquello en una lista de rasgos que un tumor tiene que adquirir: dividirse sin señal, ignorar las órdenes de parar, evitar el suicidio celular, hacerse inmortal, fabricarse vasos y saber emigrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese artículo se convirtió en el más citado de la biología del cáncer y es la mejor manera de entender por qué la enfermedad es tan difícil: no es un fallo, son seis o siete fallos que hay que reunir, y por eso tarda décadas y por eso cada tumor llega por un camino distinto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La inmortalidad de esa lista tiene un ejemplo célebre que está en esta biblioteca: las células HeLa de Henrietta Lacks, tomadas de un tumor de cuello de útero en 1951, siguen dividiéndose en laboratorios de todo el mundo setenta años después de la muerte de su dueña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la biología por fin en la mano, se podía intentar lo que nunca se había podido: diseñar un fármaco contra una avería concreta en lugar de envenenar todo lo que se divida. El primer caso claro fue una mujer con un tumor de mama muy agresivo y un gen amplificado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dennis Slamon, de Los Ángeles, había visto que en torno a una de cada cuatro pacientes de cáncer de mama tenía copias de más del gen HER2, y que a esas les iba especialmente mal. Con un anticuerpo que bloqueara esa proteína, quizá se podía tratar solo a ese subgrupo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La empresa que tenía el anticuerpo, Genentech, no quería desarrollarlo: el mercado parecía pequeño y el proyecto arriesgado. Lo que desbloqueó el asunto fue la presión de grupos de pacientes, que se plantaron en las reuniones y en la prensa exigiendo el ensayo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fármaco es el trastuzumab, y funcionó. Redujo de forma clara las recaídas en las mujeres con ese gen amplificado, y en las demás no hacía nada, que es exactamente lo que la teoría predecía. Por primera vez el tratamiento se elegía por la avería y no por el órgano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo caso es todavía más limpio y es el momento más luminoso del libro. Brian Druker trabajaba en la leucemia mieloide crónica, causada por un intercambio entre dos cromosomas que fabrica una proteína anómala llamada BCR-ABL, siempre encendida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con una molécula que encajara en esa proteína y la apagara, la leucemia debería desaparecer. La molécula existía en un cajón de la empresa Novartis y también costó pelearse para que la desarrollaran, porque también aquí el mercado parecía demasiado pequeño.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En el ensayo de 1998, de los primeros pacientes tratados con dosis suficiente, prácticamente todos respondieron. Personas que llegaban con una expectativa de tres a cinco años se normalizaron el hemograma tomando una pastilla al día.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese fármaco es el imatinib, y convirtió una leucemia mortal en una enfermedad crónica con una supervivencia a diez años superior al ochenta por ciento. Es la prueba de concepto de la medicina dirigida, y es también el ejemplo del que más se abusa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque la leucemia mieloide crónica es un caso excepcionalmente sencillo: una sola avería, un solo interruptor. La mayoría de los tumores sólidos acumulan decenas de mutaciones distintas y además evolucionan dentro del paciente, seleccionando a las células que resisten al fármaco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso el propio Mukherjee cierra sin triunfalismo, con Carla Reed en remisión y con la advertencia de que llamar cáncer a todo esto es un error de vocabulario: no es una enfermedad, son cientos, y solo comparten el mecanismo de división descontrolada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde el libro se queda corto es en dos sitios, y hay que decirlo. Es muy estadounidense: apenas aparecen la investigación europea, la japonesa o el problema del acceso al tratamiento en los países pobres, que es hoy la mayor desigualdad oncológica que existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y se publicó en 2010, justo antes de la revolución siguiente: la inmunoterapia, los fármacos que quitan los frenos del sistema inmunitario y las células T modificadas en laboratorio, que desde 2011 han cambiado el pronóstico de melanomas y linfomas que antes eran incurables.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, el dato de fondo le da la razón: la mortalidad por cáncer en Estados Unidos ha bajado alrededor de un tercio desde su máximo de 1991.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No por una bala mágica, sino por tabaco, cribado y fármacos, sumados.",
+        },
+      ],
+    },
+  ],
+};
