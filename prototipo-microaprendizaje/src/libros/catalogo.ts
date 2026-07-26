@@ -242,7 +242,7 @@ export const CATALOGO: Ficha[] = [
   { id: "paseo-aleatorio", titulo: "Un paseo aleatorio por Wall Street", autor: "Burton Malkiel", ano: 1973, categoria: "Economía", estado: "escrito" },
   { id: "repensar-pobreza", titulo: "Repensar la pobreza", autor: "Banerjee y Duflo", ano: 2011, categoria: "Economía", estado: "escrito" },
   { id: "bogle-sentido-comun", titulo: "El pequeño libro para invertir con sentido común", autor: "John C. Bogle", ano: 2007, categoria: "Economía", estado: "pendiente" },
-  { id: "superpronosticadores", titulo: "Superpronosticadores", autor: "Tetlock y Gardner", ano: 2015, categoria: "Economía", estado: "pendiente" },
+  { id: "superpronosticadores", titulo: "Superpronosticadores", autor: "Tetlock y Gardner", ano: 2015, categoria: "Economía", estado: "escrito" },
   { id: "dinero-domina-juego", titulo: "Dinero: domina el juego", autor: "Tony Robbins", ano: 2014, categoria: "Economía", estado: "pendiente" },
 
   /* --- Salud ------------------------------------------------------------ */
