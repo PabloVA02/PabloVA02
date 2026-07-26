@@ -94,7 +94,7 @@ export const CATALOGO: Ficha[] = [
   { id: "ikigai", titulo: "Ikigai", autor: "García y Miralles", ano: 2016, categoria: "Filosofía", estado: "escrito" },
   { id: "monje-ferrari", titulo: "El monje que vendió su Ferrari", autor: "Robin Sharma", ano: 1997, categoria: "Filosofía", estado: "escrito" },
   { id: "mundo-sofia", titulo: "El mundo de Sofía", autor: "Jostein Gaarder", ano: 1991, categoria: "Filosofía", estado: "escrito" },
-  { id: "republica-platon", titulo: "La República", autor: "Platón", ano: -375, categoria: "Filosofía", estado: "pendiente" },
+  { id: "republica-platon", titulo: "La República", autor: "Platón", ano: -375, categoria: "Filosofía", estado: "escrito" },
   { id: "etica-nicomaco", titulo: "Ética a Nicómaco", autor: "Aristóteles", ano: -340, categoria: "Filosofía", estado: "escrito" },
   { id: "apologia-socrates", titulo: "Apología de Sócrates", autor: "Platón", ano: -399, categoria: "Filosofía", estado: "escrito" },
   { id: "discurso-metodo", titulo: "Discurso del método", autor: "René Descartes", ano: 1637, categoria: "Filosofía", estado: "escrito" },
