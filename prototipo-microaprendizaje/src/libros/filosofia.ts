@@ -1413,109 +1413,638 @@ export const SUTIL_ARTE: Resumen = {
   titulo: "El sutil arte de que casi todo te importe una mierda",
   autor: "Mark Manson",
   ano: 2016,
-  gancho: "No propone que nada te importe. Propone elegir con muchísimo cuidado las tres cosas que sí.",
+  gancho:
+    "Un bloguero que se ganaba la vida dando consejos para ligar escribió en 2014 una entrada preguntando qué dolor estás dispuesto a aguantar. De ahí salió un libro que ha vendido más de quince millones de ejemplares insultando a la industria a la que pertenece.",
   porQue:
-    "Es la respuesta más vendida contra el positivismo obligatorio, y su argumento central es más serio de lo que sugiere el título.",
+    "Porque su título es una trampa —no propone que nada te importe, sino elegir con muchísimo cuidado las tres cosas que sí— y porque debajo de los tacos hay estoicismo bien traído, con dos capítulos que valen el libro entero.",
   partes: [
     {
-      titulo: "Contra el pensar en positivo",
+      titulo: "Un bloguero de consejos para ligar",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Manson abre atacando la industria de la que él mismo forma parte. El mensaje constante de «sé más, ten más, consigue más» tiene un efecto secundario obvio: te recuerda cada día lo que te falta. Cuanto más persigues sentirte bien, más presente tienes lo mal que estás.",
+            "Antes de este libro, Mark Manson se ganaba la vida escribiendo sobre cómo hablarle a una chica en un bar. Publicó en 2011 un manual de seducción cuyo argumento central, sin embargo, ya apuntaba a lo que vendría después: que el truco no era ninguna técnica, sino dejar de fingir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle biográfico no es una anécdota: explica el libro entero. Manson viene de un mundo donde se venden trucos para agradar, y su carrera consiste en ir descubriendo, en público y por escrito, que los trucos para agradar son exactamente el problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También explica su tono. Escribió durante años para lectores jóvenes y masculinos en internet, donde nadie termina un párrafo educado, y ese oído se nota en cada página: frases cortas, un chiste cada tres líneas y ninguna concesión al vocabulario de consultorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir a quién puede molestar, porque son bastantes: el libro habla desde un yo masculino, joven y estadounidense, y sus ejemplos vienen casi siempre de ahí. Quien busque un tono cuidadoso o una perspectiva que no sea esa va a chocar en la primera página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que avisar de una cosa más para no llevarse una sorpresa: aunque el título prometa despreocupación, el libro es duro. Habla de muerte, de fracaso, de que uno es del montón y de que casi todo lo que le duele es en parte suyo. No es una lectura ligera de playa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se lee en cinco o seis horas, tiene nueve capítulos que funcionan casi sueltos y se puede empezar por el cuarto, que es el de los valores, sin perder nada. Quien solo lea ese capítulo se lleva el ochenta por ciento de lo que el libro tiene que ofrecer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí fue derivando hacia un blog de desarrollo personal con un tono que no existía en el ramo: sin promesas, sin listas de siete pasos y con bastantes tacos. En septiembre de 2014 publicó una entrada titulada la pregunta más importante de tu vida, y aquella entrada lo cambió todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella entrada usaba una imagen que hoy circula por todas partes: la del sándwich de mierda que viene con cada cosa que merece la pena. Un año después apareció la misma idea en «La magia de crear», de Gilbert, que está en Arte, contada como una conversación sobre patinaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hace falta decidir quién llegó antes, porque la imagen es de dominio popular. Lo interesante es que dos autores tan distintos, en dos años seguidos, encontraran que la mejor manera de hablar de vocación era preguntar por el precio y no por el premio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta de la entrada",
+          frase: "No preguntes qué quieres disfrutar, porque todo el mundo quiere lo mismo. Pregunta qué dolor estás dispuesto a aguantar, porque ahí es donde la gente se separa de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella entrada la leyeron millones de personas en pocas semanas, y ese es el origen real del libro: una editorial vio el tráfico y le ofreció convertirlo en doscientas páginas. No es una idea que naciera en un despacho, es una que ya se había probado con público.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso explica también su ritmo: cada capítulo está construido como una entrada de blog larga, con su gancho, su historia y su remate. Se lee muy rápido y se olvida deprisa salvo dos o tres ideas, que es exactamente lo que pasa con los blogs.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 2016 y fue un fenómeno difícil de exagerar: más de quince millones de ejemplares, sesenta y tantos idiomas, años seguidos en las listas y una portada que fundó un subgénero entero de imitadores con palabrota en el título.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En español el título perdió parte del chiste y ganó otra cosa: la palabrota, que en inglés está censurada con un asterisco en la portada, aquí va entera. Es de los pocos libros que se venden en aeropuertos con una palabra malsonante impresa a tamaño grande.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir qué es en realidad, porque el título despista. Es un libro de autoayuda escrito contra la autoayuda: usa su misma estructura —capítulos con una idea, anécdota, moraleja— para decir que casi todo lo que ese estante promete es exactamente lo que produce el malestar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene traducir el título, que en español pierde el matiz. No dice que nada te importe: dice que hay que ser muy selectivo con lo que te importa, porque la capacidad de preocuparse es limitada y la mayoría la gasta en cosas que no aguantarían dos preguntas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su propio ejemplo lo aclara: un anciano que se enfada por la cola del supermercado no es que se preocupe demasiado, es que ya no le queda nada más grande por lo que preocuparse. Cuando lo importante desaparece, lo pequeño ocupa todo el sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su definición operativa de madurez, que es de lo mejor del libro: no es dejar de preocuparse, es que el número de cosas que te alteran se reduzca a las pocas que de verdad importan. Un adolescente se juega la vida en cada mirada; un adulto ha soltado casi todas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade la parte incómoda: soltar cosas duele y por eso casi nadie lo hace del todo. Dejar de necesitar que te aprueben en el trabajo, en la familia y en internet a la vez significa aceptar perder en tres sitios, y la mayoría prefiere seguir jugando en los tres.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Abre con Charles Bukowski, que se pasó décadas mandando poemas a revistas mientras trabajaba en una oficina de correos y bebía, y que pidió que en su lápida pusieran no lo intentes. Manson lo usa como héroe antiheroico: un tipo que nunca fingió ser otra cosa.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí hay que hacer una precisión que el propio libro hace de pasada y que la mayoría de los lectores se salta: Bukowski escribía todos los días, mandaba manuscritos sin parar y trabajó treinta años cobrando poco. Su no lo intentes no era una invitación a no hacer nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un tipo que decía a todo que no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que escribió miles de poemas mientras repartía correo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos cosas a la vez, que es justo lo que la portada oculta.",
+        },
+      ],
+    },
+    {
+      titulo: "La ley inversa",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El argumento de fondo del libro es viejo y está bien traído: cuanto más persigues sentirte bien, más presente tienes lo mal que estás. Perseguir una experiencia positiva es, en sí mismo, una experiencia negativa; aceptar la negativa ya es una experiencia positiva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Manson lo llama la ley inversa y no se atribuye el hallazgo: la expresión es de Alan Watts, que la escribió en 1951 en un libro sobre la inseguridad. La aportación de Manson no es la idea, es haberla traducido a un idioma que se lee en el metro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea es todavía más vieja y el propio Watts la había sacado del budismo, donde el apego a que las cosas sean de otra manera es la definición misma del sufrimiento. Este libro es, visto de lejos, budismo y estoicismo pasados por un blog estadounidense de los años diez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo favorito es doméstico: cuanto más te empeñas en dormirte, más despierto estás. Todo el mundo ha vivido esa noche, y de esa experiencia común saca una regla general que resulta bastante más creíble que cualquier cita de un maestro oriental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mismo mecanismo funciona con casi todo lo que se persigue de frente: cuanto más te esfuerzas en caer bien, peor caes; cuanto más te empeñas en tener una conversación brillante, más rara sale. Perseguirlo es justo lo que lo aleja, y ese es el argumento entero del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La consecuencia práctica no es dejar de intentar cosas, que es la lectura perezosa. Es dejar de vigilar el resultado mientras se hacen: escribir sin mirar cuántos leen, entrenar sin pesarse cada día, hablar sin comprobar la cara del otro cada dos frases.",
         },
         {
           forma: "clave",
           rotulo: "La paradoja",
-          frase: "Desear una experiencia mejor es aceptar una experiencia negativa. Aceptar la experiencia negativa ya es una experiencia positiva.",
+          frase: "Desear una experiencia mejor es aceptar que la de ahora no vale. Y aceptar la de ahora, con lo que tenga de mala, ya es una manera de estar mejor.",
         },
         {
           forma: "texto",
           texto:
-            "Su tesis es que el sufrimiento no es un fallo del sistema, es el sistema. Todo lo que vale la pena viene con un dolor asociado, y la pregunta útil no es «¿qué quiero disfrutar?» sino <em>«¿qué dolor estoy dispuesto a aguantar?»</em>. Todos quieren un cuerpo atlético; pocos quieren el hambre y las agujetas. Quien lo consigue no es el que más lo desea, es el que soporta el precio.",
+            "De ahí saca su mejor descripción psicológica, que llama el bucle del infierno: no basta con estar ansioso, además uno se pone ansioso por estar ansioso; no basta con estar triste, uno se enfada consigo mismo por estar triste. La segunda capa suele ser peor que la primera.",
         },
-      ],
-    },
-    {
-      titulo: "Elegir qué te importa",
-      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Y añade la observación que cierra el argumento: hay una parte de ese bucle que es cultural. Nunca antes había estado tan mal visto sentirse mal, ni había habido tanta gente enseñando su versión más alegre, y compararse con eso todos los días convierte la tristeza normal en un fallo personal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese diagnóstico es de 2016 y ha envejecido bien, porque describe con antelación lo que hoy se discute sobre las redes sociales: no el tiempo que se pasa mirándolas, sino la vara de medir que instalan sin que nadie la haya elegido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su formulación de eso es de las mejores del libro: nunca en la historia había sido tan fácil compararse con los mejores del mundo en cada cosa que uno hace regular. Antes uno era el que mejor tocaba la guitarra de su barrio; ahora es el número dos millones de la lista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el remate es el que salva el capítulo de ser una queja: la salida no es dejar de mirar, es dejar de usar esa comparación como criterio. Tocar la guitarra sigue mereciendo la pena aunque uno sea el dos millones, salvo que se hubiera apuntado por ser el primero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí es donde el libro se junta con lo que dice «El elemento», en Arte, sobre la vocación: hacer algo porque se disfruta y hacerlo para destacar en ello son dos actividades distintas, aunque por fuera se parezcan y aunque muchas veces empiecen siendo la misma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese bucle está descrito en la literatura clínica desde hace décadas y tiene tratamiento: se trabaja precisamente dejando de pelearse con la emoción de arriba. Manson no cita esa literatura, y aun así lo explica mejor que muchos folletos de consulta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La salida que propone es la misma que propondría un terapeuta y cabe en dos palabras: dejarlo estar. No hacer nada con la ansiedad de estar ansioso, no discutirla, no arreglarla; solo permitir que esté ahí. Suena a nada y es de las cosas más difíciles que hay.",
+        },
         {
           forma: "arte",
           texto:
-            "El título engaña a propósito. Manson no propone indiferencia — dice explícitamente que a todo el mundo le importa algo, y que quien presume de que nada le importa suele ser el que más miedo tiene. Lo que propone es que dejes de repartir tu preocupación entre cien cosas y la concentres en tres que la merezcan.",
-          arte: "explorar",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Su prueba: si te enfada la cola del supermercado, es que no tienes nada mayor de qué preocuparte. La gente con problemas de verdad no se altera por tonterías, no por sabiduría, sino porque tiene la atención ocupada en otra parte. La madurez, dice, consiste en que las cosas que te importan sean cada vez menos y más importantes.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El giro",
-          frase: "Tú siempre eliges. Aunque no elijas, has elegido. Y eres responsable de lo que te pasa aunque no sea culpa tuya.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Ahí hace una distinción que vale el libro entero: culpa y responsabilidad no son lo mismo. Que te atropellen no es culpa tuya, pero la rehabilitación es responsabilidad tuya y de nadie más. Esperar a que el culpable arregle el daño es la forma más común de quedarse quieto durante años.",
-        },
-      ],
-    },
-    {
-      titulo: "Hitler tenía autoestima",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "El capítulo que más discusión genera se llama, más o menos, «no eres especial», y va contra la idea de que la autoestima alta sea buena en sí misma. Manson señala lo evidente: los peores personajes de la historia tenían una autoestima excelente. Sentirse fantástico no dice nada sobre si estás haciendo algo bien.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Propone medirse por otra cosa. En vez de «cómo me siento respecto a mí», preguntarse «con qué criterios estoy midiendo mi vida y son buenos criterios». Alguien que mide su valor por los <em>likes</em> puede sentirse estupendamente durante años sin haber construido nada; alguien que lo mide por la honestidad con la que trata a su gente lo pasará peor y estará mejor.",
+            "El otro blanco del libro es el movimiento de la autoestima, y ahí sí trae respaldo. Una revisión de 2003 encabezada por Roy Baumeister repasó décadas de estudios y concluyó que la autoestima alta no produce mejores notas ni mejor trabajo: es más bien un resultado, no una causa.",
           arte: "museo",
         },
         {
-          forma: "clave",
-          rotulo: "El diagnóstico generacional",
-          frase: "Convencer a todo el mundo de que es excepcional produce gente convencida de que merece resultados que no ha trabajado.",
+          forma: "texto",
+          texto:
+            "Eso desmonta programas escolares enteros de los años ochenta y noventa que se dedicaron a decirle a los niños que eran especiales. Manson añade su remate: si todo el mundo es extraordinario, la palabra deja de significar algo, y lo único que queda es la sensación de estar fallando.",
         },
         {
           forma: "texto",
           texto:
-            "Otra idea muy suya: cuanto más seguro estás de algo, menos vas a aprender de ello. Recomienda desconfiar de tus propias certezas y hacerse tres preguntas cuando algo duele —¿y si me estoy equivocando?, ¿qué significaría?, ¿sería mejor o peor que la situación actual?—. La gente que no puede admitir un error se queda atrapada defendiendo la versión de sí misma que tenía a los veinte años.",
+            "Su alternativa es incómoda y sana: aceptar que uno es bastante corriente en casi todo, que es exactamente lo que la estadística dice de cualquiera. Y observa que la gente que de verdad destaca en algo suele ser la que menos necesita creerse especial mientras lo hace.",
         },
         {
           forma: "texto",
           texto:
-            "Y aplica lo mismo a las relaciones con un criterio limpio: en una relación sana, cada uno se hace cargo de sus propios problemas y puede decir que no sin miedo. Cuando alguien resuelve constantemente los problemas del otro o se siente responsable de sus emociones, eso no es amor intenso; es dos personas usándose para no mirar lo suyo.",
+            "Ahí discute de frente con medio estante de esta biblioteca. «Piensa y hazte rico» y toda su descendencia sostienen que la creencia en uno mismo produce el resultado; este libro sostiene que produce sobre todo decepción, y trae de su lado la revisión sobre autoestima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una tercera posición en la misma estantería que es la más matizada de las tres: «Mindset», de Dweck, que está en Psicología y distingue entre creerse capaz —que no ayuda— y creer que la capacidad se desarrolla con trabajo, que sí cambia cómo se responde a la dificultad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puestos en fila, los tres libros contestan a la misma pregunta con tres respuestas distintas: cree y lo tendrás, deja de creerte especial, o cree que puedes mejorar. Solo la tercera tiene experimentos detrás, y es la que menos ejemplares ha vendido de las tres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuanto más corres detrás de sentirte bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Más rato pasas mirando lo que te falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro entero sale de esa frase de 1951.",
         },
       ],
     },
     {
-      titulo: "Los valores de mierda",
+      titulo: "Elige tu sufrimiento",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su parte más práctica: hay valores que garantizan la infelicidad porque no dependen de ti o no tienen fondo. El placer —se agota—, el éxito material —siempre hay más—, tener siempre razón —imposible— y ser positivo todo el rato —deshonesto—. Los buenos valores son los contrarios: basados en la realidad, constructivos y controlables por ti. Honestidad, generosidad, curiosidad, defender lo que crees.",
+            "El capítulo que justifica el libro no es el del título, es el de los valores. Su tesis es que todo el mundo mide su vida con algún criterio, que casi nadie lo ha elegido conscientemente, y que la mayoría de la infelicidad viene de medir con una vara mala.",
         },
         {
           forma: "texto",
           texto:
-            "Cierra con lo que llama «la ley inversa»: cuanto más persigues algo, más lo alejas, porque perseguirlo confirma que no lo tienes. Y con una idea incómoda sobre la muerte — que solo pensando en ella dejas de perder el tiempo en lo que no importa.",
+            "Su formulación es que los problemas nunca desaparecen, solo se cambian por otros mejores. Nadie llega a una vida sin problemas; se llega, con suerte, a tener los problemas que uno ha elegido. Eso quita de un plumazo la fantasía de la vida resuelta que vende medio estante.",
         },
         {
           forma: "texto",
           texto:
-            "Y hay que decir dónde falla. Manson escribe con un tono de tipo duro que a ratos disimula lo poco original de algunas ideas: buena parte del libro es estoicismo y budismo con palabrotas, cosa que él admite a medias. Sus ejemplos son casi todos hombres jóvenes de clase media occidental, y el «tú eres responsable de todo» funciona mucho peor aplicado a alguien con problemas estructurales que no ha elegido. Aun así, como antídoto contra el optimismo obligatorio de las redes, no hay nada mejor escrito.",
+            "Y de ahí sale una manera distinta de mirar la propia situación: si los problemas que tienes hoy son los que te importan, vas bien aunque duelan; si son problemas que ni siquiera habrías elegido, el asunto no es resolverlos más rápido, es haber elegido mal la vara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una prueba que se puede hacer esta noche en dos minutos: escribir los tres problemas que más ocupan la cabeza esta semana y preguntarse cuáles vienen de algo que uno eligió. La proporción entre unos y otros dice más de una vida que cualquier test de personalidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus ejemplos de varas malas son concretos y reconocibles: el placer, el éxito material, tener siempre razón y mantenerse positivo pase lo que pase. Las cuatro parecen inofensivas y las cuatro tienen el mismo defecto: dependen de cosas que uno no controla del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el placer es más fino de lo que parece: no dice que sea malo, dice que es un resultado pésimo como objetivo, porque se agota en horas y exige repetición creciente. Cualquiera que haya perseguido un fin de semana perfecto sabe exactamente de qué habla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el éxito material hace la misma operación y con un dato de fondo que no cita: por encima de cubrir lo necesario, más dinero deja de comprar bienestar de manera apreciable. La vara no es mala por avariciosa, es mala porque dejó de medir nada hace tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con tener razón hace la observación más útil de la lista: quien mide su vida por acertar no puede aprender nada, porque cada corrección es una derrota. Cambiar de opinión, en esa vara, cuesta puntos; y sin cambiar de opinión no se avanza en ningún sitio.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "La pregunta no es qué quieres disfrutar. Es qué dolor estás dispuesto a aguantar por ello.",
+          rotulo: "El criterio de un buen valor",
+          frase: "Un valor sirve si depende de ti, si se puede comprobar en la realidad y si no exige que el mundo se porte de una manera concreta. La honestidad cumple; ser admirado, no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los que propone a cambio son cuatro y son igual de concretos: la honestidad, la generosidad, defenderse a uno mismo y a los demás, y la curiosidad. Ninguno promete felicidad; los cuatro se pueden practicar un martes cualquiera con independencia de cómo vaya todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La prueba que propone para distinguir unos de otros es sencilla y sirve para cualquiera: si el valor exige que otra gente se comporte de determinada manera para que tú estés bien, no es un valor tuyo, es una condición que le has puesto al mundo y que el mundo no firmó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aplicarlo cuesta más de lo que suena. Mucha gente descubre al hacer el ejercicio que sus tres criterios principales son que la quieran, que la respeten y que le vaya bien, y que las tres cosas dependen de decisiones de otros. Ahí es donde el libro hace su mejor trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí es donde el libro se vuelve estoico sin decirlo. La distinción entre lo que depende de uno y lo que no es exactamente la primera línea del «Enquiridión» de Epicteto, que está en esta misma categoría y cabe en cuarenta páginas escritas hace mil novecientos años.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y de ahí sale la pregunta que se ha hecho famosa: no qué quieres disfrutar, sino qué dolor estás dispuesto a aguantar. Todo el mundo quiere el cuerpo, el negocio o el libro publicado; el que lo consigue no es el que más lo desea, es el que soporta el precio concreto de conseguirlo.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa reformulación es genuinamente útil porque cambia una pregunta sin respuesta por una que se puede contestar. Casi nadie sabe decir qué le apasiona; casi todo el mundo sabe qué incomodidad concreta ha aguantado ya durante meses sin quejarse demasiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es además una pregunta con historial comprobable: lo que uno ya ha aguantado sin que nadie le obligara dice bastante más de su vocación que cualquier test. Si llevas años corrigiendo textos ajenos gratis, ahí hay un dato; si llevas años diciendo que te gustaría escribir, no lo hay.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Manson lo usa consigo mismo: dice que él lleva desde los veinte años escribiendo todos los días sin que nadie se lo pidiera, incluido el periodo en que no cobraba nada por hacerlo, y que esa es la única prueba fiable que tiene de que aquello era lo suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo criterio que aplica «La magia de crear» desde el otro extremo de la biblioteca: no preguntarse qué pasión se tiene, que casi nadie sabe contestar, sino qué se ha estado haciendo ya durante años sin premio, que casi todo el mundo puede responder mirando atrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una versión doméstica del mismo criterio para decisiones grandes: antes de cambiar de trabajo o de ciudad, preguntarse no cómo será el buen día, sino cómo será el día malo. El día bueno se parece en todas las opciones; el malo es el que decide de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo se cierra con una idea que suele pasar desapercibida: el compromiso da libertad. Elegir una cosa y cerrar las demás puertas suena a pérdida y produce lo contrario, porque la energía que se iba en comparar y en mantener opciones abiertas se libera de golpe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la parte del libro que peor encaja con su propia fama de manual para pasar de todo, y probablemente la más adulta: dice que la vida buena no está en tener muchas posibilidades sino en haber elegido pocas cosas y haberse quedado en ellas el tiempo suficiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todos quieren el resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi nadie quiere el proceso que lo produce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el proceso es lo único que se puede elegir de verdad.",
+        },
+      ],
+    },
+    {
+      titulo: "Culpa y responsabilidad",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La otra idea grande del libro es una distinción de dos palabras que resuelve discusiones enteras: la culpa mira al pasado y reparte quién lo hizo; la responsabilidad mira al presente y decide quién se ocupa ahora. No son lo mismo y casi siempre se confunden.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase que sostiene el libro",
+          frase: "No eres culpable de casi nada de lo que te ha pasado, y eres responsable de todo lo que hagas con ello. Lo primero te lo hicieron; lo segundo no lo puede hacer nadie por ti.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que pone es duro y funciona: si alguien te deja un bebé en la puerta, no es culpa tuya y el bebé sigue estando en tu puerta. Esperar a que aparezca el culpable a hacerse cargo puede llevarse la vida entera, y mientras tanto el problema sigue siendo tuyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Manson lo aplica a sí mismo con una historia incómoda: cuenta que su primera pareja seria le engañó, que él se pasó meses reclamando la disculpa que le debían, y que aquello no le devolvió ni un día de los perdidos. La disculpa, cuando llegó, ya no arreglaba nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuenta otra de adolescente que explica su tono: lo expulsaron del instituto por vender marihuana, su madre lo pasó fatal y él tardó años en aceptar que aquello no lo había hecho el sistema. Es el mismo esquema del capítulo aplicado a su propio expediente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca la observación que hace útil el capítulo: reclamar la culpa ajena es una manera de mantener el problema en manos de otro. Es cómodo, es justo y no funciona, porque quien tiene que seguir viviendo con las consecuencias no es el que se equivocó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción es clínicamente sólida y se usa en terapia con víctimas de todo tipo, precisamente porque separa dos cosas que el dolor mezcla. Es la mejor página del libro y la que menos se cita, porque no cabe en una camiseta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene decir su límite, porque tampoco es magia: hay situaciones en las que la responsabilidad que a uno le queda es mínima y el daño es enorme, y en esos casos repetir que uno elige cómo responder se parece bastante a echarle la culpa al que la recibe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio libro se acerca a ese borde en algún tramo y no siempre se detiene a tiempo. La versión sana de la idea no dice que todo dependa de ti, dice que la parte que dependa de ti es la única con la que se puede trabajar, que es bastante más modesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una manera de comprobar de qué lado está uno usando la idea: si sirve para decidir qué hacer mañana, va bien; si sirve para explicarle a alguien que lo que le pasa es cosa suya, se ha cruzado la línea y ya no es responsabilidad, es reproche con vocabulario nuevo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Frankl, que está en esta misma categoría, es el que trazó bien esa línea y desde el peor sitio posible: sostiene que en un campo de concentración lo único que quedaba era la actitud ante lo que pasaba, y nunca insinuó que aquello convirtiera al preso en responsable de su suerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leídos juntos, el de Frankl le da a este la precisión que le falta. Uno dice que siempre queda un margen de elección; el otro a veces suena a que el margen es todo. La diferencia entre esas dos frases es la que separa el consuelo de la culpa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del mismo capítulo sale el principio de hacer algo, que es lo contrario de lo que aconseja el estante: no esperes a tener motivación para empezar; empieza mal y la motivación aparecerá después. La acción produce el ánimo, y no al revés.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso tampoco es una ocurrencia suya: es la base de un tratamiento con evidencia para la depresión, la activación conductual, que consiste exactamente en hacer cosas antes de tener ganas. Y es lo mismo que sostiene «Hábitos atómicos» desde el otro lado del catálogo.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su formulación es circular a propósito y por eso funciona: acción, inspiración, motivación, y otra vez acción. Da igual por dónde se entre en el círculo, y el único punto de entrada que uno controla siempre es el primero, porque no depende de tener ninguna gana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora lo que falla. Manson formula una ley de la evitación —cuanto más amenaza algo tu identidad, más lo evitarás— y la presenta como un hallazgo. No tiene detrás ningún experimento suyo; lo que sí existe es una literatura sobre cómo protegemos nuestras creencias identitarias, que él no cita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fenómeno es real y está estudiado: cuando un dato amenaza algo que forma parte de quiénes creemos ser, la gente lo rebate mejor cuanto más lista es, porque dedica su inteligencia a defenderse. Que exista la investigación hace más raro que el libro prefiera inventarse una ley con su apellido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su consejo derivado, en cambio, es bueno: cuanto menos te definas —como emprendedor, como buen padre, como el que nunca falla—, menos amenazas vas a ver por todas partes. Una identidad estrecha convierte cualquier crítica en un ataque a la persona entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo es de cuando dejó su primer trabajo: mientras se definía como alguien con una carrera seria, cada duda sobre ese camino le parecía un ataque; cuando se definió simplemente como alguien que prueba cosas, la misma información dejó de dolerle y empezó a servirle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión práctica cabe en una frase: define lo que haces, no lo que eres. Escribo, en vez de soy escritor; entreno, en vez de soy deportista. Suena a matiz y cambia por completo lo que ocurre el día en que algo sale mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un tercer capítulo que suele pasarse por alto y que conviene tener: el de fracasar. Su tesis es que el dolor del fracaso no es opcional y que evitarlo es evitar aprender, con una observación fina: los niños aprenden rápido porque todavía no les importa hacerlo mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una cosa es de quién es la culpa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otra es quién se ocupa a partir de mañana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Confundirlas es lo que deja a la gente esperando años una disculpa.",
+        },
+      ],
+    },
+    {
+      titulo: "Un libro de autoayuda que insulta a la autoayuda",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Toca la objeción de conjunto, que es también la más divertida: este es un libro de autoayuda con la estructura, el tono y el precio de un libro de autoayuda, cuyo argumento principal es que los libros de autoayuda te hacen daño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción no es solo un chiste: si el problema es que el género crea una insatisfacción permanente al recordarte lo que te falta, un libro que se vende por millones diciéndotelo con más gracia participa del mismo mecanismo, aunque el contenido apunte a otro sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su defensa posible es la única que tiene: que su promesa es más pequeña. No promete que serás feliz, promete que dejarás de esperar serlo todo el rato, y eso es lo bastante distinto como para que la paradoja no lo tumbe del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en un estante donde casi todo el mundo promete más, prometer menos es la aportación real de este libro. No arregla nada, y baja el listón de lo que hay que sentir para considerar que una vida va bien, que para mucha gente es exactamente lo que hacía falta oír.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Manson lo sabe y juega con ello en las primeras páginas, y aun así la paradoja se sostiene: el lector termina con la sensación de haber leído algo distinto, cuando lo que ha leído es el mismo formato con otro tono. El envoltorio cambia; la promesa de transformación sigue ahí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El síntoma más claro está en las estanterías de cualquier aeropuerto: después de este llegaron decenas de libros con una palabrota en la portada, el mismo diseño y el mismo tono de amigo brusco. El formato que se inventó para escapar del género acabó siendo un género.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segundo libro, de 2019, es todavía más pesimista y vendió bastante menos, lo que dice algo sobre el negocio: la queja contra el optimismo obligatorio se vende muy bien mientras suene a liberación, y bastante peor cuando empieza a sonar a que no hay salida.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El truco del tono",
+          frase: "Los tacos hacen la mitad del trabajo. La misma frase dicha en el registro habitual del género sonaría a lo de siempre, y dicha con una palabrota suena a que alguien por fin te habla claro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no es necesariamente una crítica. Hay una parte de lectores a los que el registro amable de la autoayuda les produce rechazo inmediato, y para esos este libro es la única puerta por la que iban a entrar a leer sobre valores, muerte y responsabilidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste está a dos fichas de aquí: «Los cuatro acuerdos» dice cosas muy parecidas sobre la opinión ajena en voz baja y con vocabulario espiritual. Los dos han vendido millones, y cada uno espanta exactamente al lector que el otro atrae.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo reproche serio es la falta de aparato. Casi todo lo que afirma sobre cómo funciona la gente se apoya en anécdotas elegidas y en su propia experiencia, y cuando cita ciencia lo hace de pasada. Con la autoestima acierta; con su ley de la evitación, no aporta nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema con sus historias de apertura, que son siempre perfectas: el músico expulsado de su grupo justo antes del éxito, el soldado japonés que siguió en la selva treinta años, el pianista sin brazos. Todas ilustran el punto y ninguna se contrasta con un caso que lo contradiga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el defecto de fábrica del género entero y conviene tenerlo delante: una anécdota bien elegida convence más que un dato, y por eso los libros que se apoyan en anécdotas convencen siempre, incluso cuando lo que sostienen es falso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La prueba de fuego para cualquiera de estos libros es sencilla y sirve aquí: preguntarse qué historia contaría el autor si su tesis fuera la contraria. Si se le ocurre una igual de buena en diez segundos, la historia no estaba demostrando nada, estaba ilustrando algo ya decidido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una tercera, de fondo: casi ninguna de sus ideas es suya. La ley inversa es de Watts, la distinción entre lo que depende de ti y lo que no es de Epicteto, la muerte como medida es de Ernest Becker, y el sufrimiento con sentido es de Frankl, que está en esta misma categoría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A su favor hay que decir que lo reconoce casi siempre y que cita a sus fuentes por su nombre, cosa que no hacen ni «Piensa y hazte rico» ni «Los cuatro acuerdos», que presentan como sabiduría propia o ancestral cosas que también vienen de otro sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su función en una biblioteca como esta es clara: es la puerta de entrada al estoicismo para quien no va a abrir a Epicteto. Lo honrado es decirle a ese lector que después del sutil arte hay cuarenta páginas de hace dos mil años que dicen lo mismo mejor y sin tacos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El capítulo final, sobre la muerte, viene entero de un ensayo de 1973 que sostiene que casi todo lo que hacemos son proyectos de inmortalidad: maneras de dejar algo que dure más que nosotros. Manson lo cita y lo remata con una historia personal, la del amigo que se ahogó siendo adolescente.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio es lo más honrado del libro y explica el resto. Una noche de fiesta, un chico de diecinueve años saltó a un lago y no salió; Manson dice que aquello le quitó de golpe el miedo a hacer el ridículo, que es de donde viene todo lo demás que escribe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento que saca de ahí es el más viejo de la filosofía y sigue funcionando: tener la muerte presente ordena las prioridades sin necesidad de ninguna técnica. Es exactamente lo que hace Marco Aurelio en «Meditaciones», y también el final de «El orden del tiempo», en Ciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puestos a resumir el libro entero en una instrucción: escribe los tres criterios con los que estás midiendo tu vida ahora mismo, comprueba cuáles dependen de otra gente, y cámbialos por otros que dependan de ti. Todo lo demás del libro son ejemplos de esa operación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna idea nueva y quince millones de ejemplares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no es un fraude: es traducción, y hacía falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Elige tres cosas que te importen y suelta las demás.",
         },
       ],
     },
