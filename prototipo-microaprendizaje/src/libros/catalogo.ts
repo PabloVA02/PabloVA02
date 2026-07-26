@@ -98,7 +98,7 @@ export const CATALOGO: Ficha[] = [
   { id: "einstein", titulo: "Einstein: su vida y su universo", autor: "Walter Isaacson", ano: 2007, categoria: "Ciencia", estado: "escrito" },
   { id: "feynman", titulo: "¿Está usted de broma, Sr. Feynman?", autor: "Richard Feynman", ano: 1985, categoria: "Ciencia", estado: "escrito" },
   { id: "musica-primos", titulo: "La música de los números primos", autor: "Marcus du Sautoy", ano: 2003, categoria: "Ciencia", estado: "escrito" },
-  { id: "universo-mano", titulo: "El universo en tu mano", autor: "Christophe Galfard", ano: 2015, categoria: "Ciencia", estado: "pendiente" },
+  { id: "universo-mano", titulo: "El universo en tu mano", autor: "Christophe Galfard", ano: 2015, categoria: "Ciencia", estado: "escrito" },
 
   /* --- Arte ------------------------------------------------------------- */
   { id: "historia-arte", titulo: "La historia del arte", autor: "E. H. Gombrich", ano: 1950, categoria: "Arte", estado: "escrito" },

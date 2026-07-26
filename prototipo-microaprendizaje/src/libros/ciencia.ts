@@ -4061,3 +4061,634 @@ export const MUSICA_PRIMOS: Resumen = {
     },
   ],
 };
+
+export const UNIVERSO_MANO: Resumen = {
+  id: "universo-mano",
+  titulo: "El universo en tu mano",
+  autor: "Christophe Galfard",
+  ano: 2015,
+  gancho: "Un doctorando de Stephen Hawking se propuso contar toda la física del siglo veinte sin una sola ecuación, y llevándote a ti de excursión hasta el borde de lo que se sabe.",
+  porQue:
+    "Porque es el mejor viaje guiado por el universo que se ha escrito en este siglo, y porque en los tres últimos capítulos te lleva a sitios donde no hay ni una sola prueba experimental sin avisarte del todo.",
+  partes: [
+    {
+      titulo: "Tumbado en una playa",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro empieza contigo tumbado en una playa. No es una manera de hablar: está escrito en segunda persona de principio a fin, y lo primero que hace es sentarte en la arena a mirar cómo se pone el sol.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces te da el primer dato, que ya descoloca: ese sol que estás viendo tocar el horizonte se puso hace ocho minutos y veinte segundos. Lo que te llega a los ojos es una imagen que salió de allí cuando tú estabas haciendo otra cosa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La primera regla del viaje",
+          frase: "Mirar lejos es mirar al pasado. La luz tarda, y cuanto más lejos está lo que miras, más antigua es la imagen que recibes. No existe manera de ver el universo tal y como está ahora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor es Christophe Galfard, físico francés que hizo su tesis doctoral en Cambridge con Stephen Hawking, sobre agujeros negros y sobre qué pasa con la información que cae dentro. Después dejó la investigación para dedicarse a contarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de este libro había coescrito con Lucy y Stephen Hawking una serie de novelas infantiles de aventuras espaciales. De ahí viene el tono: un físico teórico que aprendió a explicar el cosmos a niños de diez años y después lo intentó con adultos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se publicó en francés en 2015, ganó el premio al mejor libro científico del año en Francia y se tradujo a más de veinte idiomas. En España lo publicó Blackie Books y se convirtió en un éxito de los que aparecen en mesas de novedades durante años.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su regla autoimpuesta era estricta: ni una ecuación. Ni una sola en cuatrocientas páginas que recorren la relatividad, la mecánica cuántica, la cosmología y la teoría de cuerdas. Ni siquiera aparece la más famosa de todas.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa decisión tiene un precio del que hablaremos al final, y de momento una ventaja evidente: el libro se lee como una novela de viajes y no exige nada al lector salvo aguantar el asombro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El viaje empieza subiendo. Te despega de la playa y te lleva a la Luna, que está a poco más de un segundo luz. Es la única distancia cósmica que un ser humano ha recorrido, y la recorrieron doce personas entre 1969 y 1972.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Desde ahí mira hacia atrás y aparece el argumento visual más antiguo de la divulgación: la Tierra entera cabe detrás de un pulgar. Carl Sagan lo escribió con la foto del punto azul pálido tomada por la Voyager 1 desde seis mil millones de kilómetros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Siguiente parada, el Sol. Ciento cincuenta millones de kilómetros. Si la Tierra fuera del tamaño de una canica, el Sol sería una esfera de metro y medio a ciento setenta metros de distancia, y no cabría en ninguna ilustración de libro de texto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La escala real",
+          frase: "Todos los dibujos del sistema solar mienten en la misma dirección: acercan los planetas para que quepan en la página. Si el Sol fuera una pelota de baloncesto, la Tierra sería un grano de arena a treinta metros, y Neptuno estaría a novecientos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Sol es una bola de gas donde cada segundo se convierten en energía unos cuatro millones de toneladas de materia. Lleva haciéndolo cuatro mil seiscientos millones de años y le quedan aproximadamente otros tantos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La luz que te calentaba en la playa no salió del centro del Sol hace ocho minutos. Salió de la superficie hace ocho minutos, y esa energía había tardado en llegar del núcleo a la superficie decenas de miles de años, rebotando.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es uno de esos datos que reorganizan la intuición: la luz de esta mañana llevaba fabricándose desde antes de que existiera la agricultura, y solo el último tramo, el del vacío entre el Sol y tú, fue rápido.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siguiente salto es el que rompe la escala humana. La estrella más cercana después del Sol es Próxima Centauri, a cuatro años luz y cuarto. En kilómetros son unos cuarenta billones, un número que no significa nada para nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso se usan años luz, que no son una unidad de tiempo aunque lo parezca: son la distancia que recorre la luz en un año. La Voyager 1, el objeto humano más lejano, tardaría unos setenta mil años en llegar a Próxima si fuera hacia allí, que no va.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nuestra galaxia mide unos cien mil años luz de lado a lado y contiene del orden de doscientos mil millones de estrellas. Y es una galaxia normal, ni grande ni pequeña, en un universo observable que contiene cientos de miles de millones de galaxias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Galfard hace ese recorrido en un capítulo, y a esa velocidad, porque lo que le interesa no es el catálogo. Lo que le interesa es dejarte en un sitio desde el que la siguiente pregunta salga sola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la siguiente pregunta es de dónde salió todo eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empezando por el material del que estás hecho tú.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que se fabricó dentro de estrellas que llevan muertas miles de millones de años.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La fábrica de los átomos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Una estrella es una pelea. Por un lado, la gravedad de una cantidad descomunal de gas tirando hacia dentro. Por otro, la presión de las reacciones nucleares del centro empujando hacia fuera. Mientras las dos fuerzas empatan, la estrella luce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ocurre en el centro es fusión: núcleos de hidrógeno que se pegan y forman helio, y en el proceso pierden una pizca de masa que se convierte en energía. Esa pizca, multiplicada por la velocidad de la luz al cuadrado, es toda la luz del cielo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando se acaba el hidrógeno, la pelea se desequilibra. La estrella se contrae, se calienta más y empieza a fusionar helio en carbono. Luego carbono en oxígeno, y así sucesivamente, cada etapa más rápida que la anterior.",
+        },
+        {
+          forma: "clave",
+          rotulo: "De dónde vienes",
+          frase: "El calcio de tus huesos y el hierro de tu sangre se fabricaron en el interior de estrellas que explotaron antes de que existiera el Sol. No es una metáfora poética: es una descripción del origen físico de cada átomo pesado de tu cuerpo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cadena se para en el hierro, porque fusionar hierro consume energía en vez de producirla. Cuando el núcleo de una estrella grande se llena de hierro, la pelea se acaba de golpe y la gravedad gana en menos de un segundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado es una supernova: una explosión que durante unas semanas puede brillar más que la galaxia entera que la contiene, y que esparce por el espacio todo lo que la estrella había fabricado en su vida.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los elementos más pesados que el hierro —el oro, el uranio, la plata— ni siquiera se hacen en la explosión normal. Se fabrican en condiciones aún más brutales, como el choque de dos estrellas de neutrones, que se detectó por primera vez en 2017.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda tras la explosión depende de la masa. Si sobra poco, una estrella de neutrones: una esfera de veinte kilómetros de diámetro donde una cucharada de material pesa lo que una montaña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si sobra bastante, un agujero negro: una región donde la gravedad es tan intensa que ni siquiera la luz, que es lo más rápido que existe, puede salir. No es un agujero ni es negro: es una zona del espacio de la que no vuelve nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí Galfard está en su casa, porque su tesis iba de esto. Y explica bien lo que casi nadie entiende: un agujero negro no aspira. Si el Sol se convirtiera ahora mismo en uno de su misma masa, la Tierra seguiría orbitando exactamente igual, solo que a oscuras.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El malentendido del aspirador",
+          frase: "Un agujero negro no atrae más que cualquier objeto de su misma masa. Lo que tiene de particular es que toda esa masa está concentrada en un punto, así que puedes acercarte muchísimo más antes de chocar con algo, y ahí la gravedad sí se vuelve enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El borde se llama horizonte de sucesos y no es una superficie: es una frontera invisible que marca el punto de no retorno. Alguien que la cruzara no notaría nada especial al pasar, y ya no habría manera de volver ni de mandar un mensaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Visto desde fuera pasa algo muy raro. El tiempo de quien cae se va ralentizando, su imagen se enrojece y se congela sobre el horizonte, y desde el exterior nunca llega a verse el momento de la caída. Nadie ve a nadie cruzar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no es un truco óptico: es lo que la relatividad general de Einstein predice desde 1915. La gravedad no es una fuerza que tira, es la deformación del espacio y del tiempo que produce la masa. Los planetas no son atraídos: siguen el camino recto de un espacio curvo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y esa curvatura afecta también al tiempo: un reloj en un satélite adelanta respecto a uno en tierra. Los sistemas de navegación por satélite corrigen ese desfase todos los días, y sin la corrección los mapas del móvil se irían kilómetros en pocas horas.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1974 Stephen Hawking demostró algo que nadie esperaba: que los agujeros negros no son del todo negros. Por efectos cuánticos en el borde, emiten una radiación muy débil y se evaporan lentísimamente. Es su hallazgo más importante y nunca se ha observado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale el problema que Galfard estudió con él. Si un agujero negro se evapora del todo, ¿qué pasa con la información de todo lo que cayó dentro? La física cuántica dice que la información no puede destruirse. La relatividad dice que ahí se pierde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos teorías más comprobadas de la historia de la ciencia se contradicen en ese punto concreto, y llevan medio siglo sin ponerse de acuerdo. Es el mejor sitio del libro y también donde empieza a mezclarse lo comprobado con lo propuesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en 2015, un año antes de que se detectaran por primera vez las ondas gravitacionales de dos agujeros negros al chocar, y cuatro antes de la primera imagen de uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene tenerlo en cuenta al leerlo: describe como pendiente de confirmar cosas que ya se han confirmado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora el viaje da la vuelta y en vez de ir hacia fuera va hacia atrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hasta el momento en que todo esto cabía en algo más pequeño que un átomo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El ruido que nadie conseguía quitar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Nueva Jersey, 1964. Dos ingenieros de los laboratorios Bell, Arno Penzias y Robert Wilson, intentan usar una antena enorme con forma de cuerno para hacer radioastronomía. Y tienen un problema: un zumbido de fondo que no consiguen quitar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Comprueban los cables, cambian componentes, apuntan a distintas partes del cielo. El ruido sigue igual venga de donde venga. Encuentran un nido de palomas dentro de la antena, sacan las palomas, limpian los excrementos. El ruido sigue exactamente igual.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que era el ruido",
+          frase: "Era la luz más antigua que existe: el resplandor del universo cuando tenía trescientos ochenta mil años, estirado por la expansión hasta convertirse en microondas. Llevaba trece mil ochocientos millones de años viajando y lo confundieron con una avería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A unos kilómetros de allí, en Princeton, un equipo de físicos estaba construyendo un detector para buscar precisamente eso, porque la teoría lo predecía. Se enteraron por una llamada de teléfono. Penzias y Wilson recibieron el Nobel en 1978.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese fondo de microondas es la prueba principal de que el universo tuvo un principio caliente y denso. Está a dos coma siete grados sobre el cero absoluto, viene de todas las direcciones y es lo mismo con una precisión de una parte entre cien mil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y las diminutas diferencias que sí tiene, esa parte entre cien mil, son las semillas de todo lo demás: las zonas ligeramente más densas atrajeron más materia, y de ahí salieron las galaxias, las estrellas y la playa del primer capítulo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Antes de esos trescientos ochenta mil años el universo era opaco: había tanta energía que los electrones andaban sueltos y la luz rebotaba sin poder avanzar. Cuando se enfrió lo justo para que se formaran átomos, la luz quedó libre de golpe. Eso es lo que se ve.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí viene el malentendido más extendido de toda la divulgación científica, y Galfard lo desmonta bien. El Big Bang no fue una explosión. No hubo un punto en el espacio del que saliera todo despedido.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que fue de verdad",
+          frase: "Fue una expansión del espacio mismo, ocurriendo en todas partes a la vez. No hay centro, porque el centro estaría en todos los sitios. Las galaxias no se alejan a través del espacio: es el espacio entre ellas el que crece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen que se usa es la del pan con pasas al meterlo en el horno: cada pasa se separa de todas las demás, y ninguna se está moviendo por su cuenta. Desde cualquier pasa parece que las demás huyen de ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale otro dato que confunde a todo el mundo: el universo tiene trece mil ochocientos millones de años, y el universo observable mide unos noventa y tres mil millones de años luz de un extremo a otro. No es una contradicción: el espacio ha estado creciendo mientras la luz viajaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1998, dos equipos que medían supernovas lejanas para calcular cuánto se estaba frenando la expansión encontraron lo contrario: se está acelerando. Ninguno de los dos se lo creía, y les dieron el Nobel en 2011.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A lo que la está acelerando se le llama energía oscura, y el nombre es un reconocimiento de ignorancia: es una etiqueta para algo que se nota por sus efectos y de lo que no se sabe absolutamente nada más.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Sumando las cuentas, la materia normal —estrellas, planetas, gas, tú— es alrededor del cinco por ciento del contenido del universo. Un veintisiete por ciento es materia oscura y el sesenta y ocho restante es energía oscura. Lo que entendemos es la excepción.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La materia oscura se descubrió por una discrepancia mecánica. Vera Rubin midió en los años setenta cómo giran las galaxias y encontró que las estrellas de los bordes van demasiado rápido: con la masa visible, deberían salir despedidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarenta años antes, Fritz Zwicky había visto lo mismo en un cúmulo de galaxias y nadie le hizo caso. Hoy hay varias líneas de evidencia independientes y sigue sin detectarse ni una sola partícula de materia oscura en ningún laboratorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las líneas son cuatro y vienen de sitios distintos: cómo giran las galaxias, cómo se mueven dentro de los cúmulos, cómo la gravedad de esos cúmulos deforma la luz de lo que hay detrás, y la propia forma de las manchas del fondo de microondas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que cuatro medidas independientes, hechas con técnicas que no se parecen en nada, exijan la misma cantidad de masa invisible es lo que convierte la materia oscura en un problema serio en vez de en un parche para cuadrar cuentas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La alternativa que se ha propuesto es modificar la ley de la gravedad a distancias muy grandes en vez de inventar materia nueva. Explica bien la rotación de las galaxias sueltas y falla en los cúmulos, así que la mayoría de la profesión sigue con la materia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena subrayar lo raro de la situación: la mejor descripción que tenemos del universo funciona con enorme precisión y depende de dos ingredientes que constituyen el noventa y cinco por ciento del total y que nadie ha identificado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Galfard cuenta todo esto con orden y sin trampas, y es la mejor parte del libro junto con la de los agujeros negros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después baja de escala y se mete en lo pequeño, donde las reglas cambian por completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y donde una partícula puede pasar por dos sitios a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Siempre que nadie esté mirando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que es la frase más incómoda que ha producido la física en cien años.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Cuando nadie mira",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El experimento fundacional es de una sencillez ridícula. Una pared con dos rendijas, una fuente que dispara partículas de una en una y una pantalla detrás que registra dónde llegan. Se lleva haciendo en versiones cada vez más finas desde hace un siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si se disparan canicas, aparecen dos franjas detrás de las dos rendijas. Si se disparan olas, aparece un patrón de rayas, porque las ondas que salen de cada rendija se suman y se cancelan. Hasta aquí, sentido común.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se disparan electrones de uno en uno, tan separados que no pueden influirse entre ellos. Cada uno llega a un punto concreto de la pantalla, como una canica. Y al cabo de horas, el dibujo que han formado entre todos es el de rayas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que eso significa",
+          frase: "Cada electrón, por separado, pasa por las dos rendijas a la vez e interfiere consigo mismo. No es una manera de hablar ni una limitación de la medida: es lo que describe la teoría y lo que sale en el laboratorio todas las veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora la parte que ha hecho discutir a los físicos durante cien años. Si se pone un detector en una rendija para averiguar por cuál pasa, el dibujo de rayas desaparece y aparecen las dos franjas de canica. Mirar cambia el resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir con cuidado qué significa mirar aquí, porque es donde la divulgación se desmadra. No hace falta un ser consciente: basta cualquier interacción que deje registro de por dónde pasó. La conciencia no pinta nada, aunque se haya vendido mucho lo contrario.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es probablemente el reproche que más se le puede hacer al lenguaje de este libro y de casi todos los del género: hablar de observar y de mirar invita a una lectura mística que la física no respalda en absoluto.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de la medida, la partícula no tiene una posición definida que nosotros ignoremos. Tiene una distribución de posibilidades, y esa distribución es lo real y lo que evoluciona. Al interactuar con algo, se concreta en un valor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale el principio de incertidumbre de Heisenberg, que tampoco es lo que la gente cree: no dice que nuestros aparatos sean torpes. Dice que posición y velocidad no tienen simultáneamente valores exactos, y que cuanto más definida está una, menos lo está la otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí sale el entrelazamiento, que a Einstein le pareció tan absurdo que lo llamó acción fantasmal a distancia y lo usó como argumento contra la teoría. Dos partículas quedan correlacionadas de forma que medir una determina el resultado de la otra al instante.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Einstein perdió",
+          frase: "En los años sesenta John Bell encontró una manera de decidirlo experimentalmente, y desde los ochenta los experimentos se han hecho decenas de veces con precisión creciente. La naturaleza se comporta como decía la cuántica. El premio Nobel de 2022 fue por eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto es filosofía. Sobre la mecánica cuántica están construidos los transistores, y por tanto todos los ordenadores; los láseres, y por tanto la fibra óptica; y los aparatos de resonancia magnética de cualquier hospital.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay incluso una aplicación que se estropearía sin ella y que se usa mil veces al día: los relojes atómicos que sincronizan los satélites de navegación funcionan contando transiciones cuánticas de átomos de cesio, con un error de un segundo cada varios millones de años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una cosa entera hecha con lo más raro de la teoría. Los ordenadores cuánticos usan la superposición y el entrelazamiento como herramienta de cálculo, y aunque todavía no sirven para casi nada práctico, existen y funcionan en laboratorios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena pararse en eso: la parte de la física que más se ha usado para vender misticismo es exactamente la que sostiene los aparatos más comprobables que existen. No hay ninguna teoría que se haya sometido a más pruebas y salido mejor parada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es, con diferencia, la teoría más comprobada de la historia: algunas de sus predicciones coinciden con la medida hasta la doceava cifra decimal. Y sigue sin haber acuerdo sobre qué está describiendo exactamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema de fondo del libro entero aparece justo aquí. La relatividad describe lo grande y lo hace impecablemente. La cuántica describe lo pequeño y lo hace impecablemente. Y son incompatibles: no existe una teoría que valga para las dos cosas a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la vida normal da igual, porque lo muy pequeño no suele ser muy masivo. Pero hay dos sitios donde ambas cosas coinciden: el centro de un agujero negro y el primer instante del universo. Justo los dos sitios que uno quiere entender.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "A ese instante inicial se le llama el muro de Planck: los primeros diez elevado a menos cuarenta y tres segundos. No es que no sepamos qué pasó ahí. Es que las ecuaciones que tenemos dejan de producir respuestas con sentido.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los últimos capítulos del libro son la excursión más allá de ese muro, y son a la vez la parte más entretenida y la más discutible de todo lo que escribió Galfard.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí aparecen las cuerdas vibrando en diez u once dimensiones, los universos paralelos, la posibilidad de que las constantes de la física sean distintas en otros sitios y que estemos en el único donde podían formarse estrellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está contado con entusiasmo, con imágenes buenas y con la voz de alguien que se formó dentro de esa escuela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con un problema que el lector no tiene manera de detectar mientras lee.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que de todo eso no hay ni una sola prueba experimental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni una.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El muro de Planck",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La teoría de cuerdas propone que las partículas no son puntos sino filamentos diminutos que vibran, y que las distintas partículas son distintos modos de vibración de la misma cosa. Es elegante, matemáticamente riquísima y lleva medio siglo sin producir una predicción comprobable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para que las cuentas cuadren hacen falta diez u once dimensiones, de las cuales solo percibimos cuatro. Las otras estarían enrolladas a una escala tan pequeña que ningún experimento imaginable las alcanzaría. Eso es exactamente lo que la hace inatacable.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El reproche serio",
+          frase: "Una teoría que no puede ser refutada por ningún experimento posible tiene un problema de método, no de dificultad. Físicos como Lee Smolin o Sabine Hossenfelder llevan años diciendo que medio siglo de talento se ha ido por ahí sin resultados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El multiverso tiene el mismo aire. Hay varias versiones distintas, algunas surgen de forma natural de la inflación cosmológica y otras de la interpretación de muchos mundos de la cuántica, y ninguna es observable ni en principio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Galfard las presenta con la misma voz con la que ha contado antes el fondo de microondas o la fusión estelar. Y ahí está el fallo principal del libro: el lector no tiene ninguna manera de distinguir lo que está medido de lo que está propuesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es que mienta. Dice en algún momento que son especulaciones. Pero lo dice de pasada, en un párrafo, después de treinta páginas de narración inmersiva escritas en el mismo tono maravillado que el resto del libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y con una regla de escritura que él mismo se impuso: llevarte de excursión en segunda persona a todos los sitios. Cuando el sitio existe, funciona. Cuando el sitio es una hipótesis sin evidencia, la excursión le da una solidez que no tiene.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo fallo es la ausencia total de ecuaciones, que es su gran acierto comercial y también su límite. Sin una sola fórmula, todo lo que se afirma hay que creérselo. El lector no puede comprobar nada ni hacerse una idea de por qué las cosas son así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una elección legítima y muy rentable —el libro se vendió justamente por eso—, y conviene saber lo que se compra: una descripción del paisaje, no un mapa con el que orientarse solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer fallo es la voz. La segunda persona sostenida durante cuatrocientas páginas es agotadora para bastante gente. Enganchar al lector a base de decirle continuamente lo que está viendo y sintiendo funciona cincuenta páginas; después empieza a cansar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto es que casi no hay gente. Es un viaje por el universo, no una historia de cómo se descubrió, y comparado con Sagan o con Bill Bryson faltan las peleas, los errores y las décadas que costó cada cosa. Los datos llegan ya cocinados.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y el quinto, la fecha",
+          frase: "Es de 2015. Después llegaron la detección de ondas gravitacionales, la primera imagen de un agujero negro y el telescopio James Webb. El libro habla de las tres cosas como promesas futuras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora lo que la gente cree y no es verdad, que en este tema es media conversación de sobremesa. Lo primero, ya dicho y nunca de más: el Big Bang no fue una explosión en un punto, sino una expansión del espacio que ocurrió en todas partes a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: no hay un centro del universo ni un borde al que se pueda llegar. La pregunta de qué hay fuera está mal planteada, porque el espacio no está dentro de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: los agujeros negros no aspiran. Son objetos con la masa concentrada, y a distancia se comportan gravitatoriamente igual que cualquier otra cosa de la misma masa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Cuarto: la materia oscura no es antimateria, ni agujeros negros, ni polvo. Es un nombre para una masa que se detecta por su gravedad y que no emite luz, y de la que no se ha identificado la partícula pese a cuarenta años buscándola.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quinto: la cuántica no dice que la conciencia cree la realidad, ni que uno pueda influir en los átomos con el pensamiento. Ese salto no está en ninguna ecuación, y se ha usado para vender mucha cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho todo lo malo, sigue siendo el mejor libro de este tipo escrito en lo que va de siglo, y por una razón concreta: no explica el universo, te lo enseña. La diferencia se nota en la primera página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hace bien lo más difícil de la divulgación, que es transmitir el tamaño. No los números —los números no significan nada—, sino la sensación física de la escala, que es lo único que queda dentro de un año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien quiere después lo que aquí falta, hay dos caminos. Cosmos, de Carl Sagan, para la parte humana. Y cualquier libro que sí ponga ecuaciones, para poder comprobar en vez de creer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El viaje termina donde empezó, en la playa, con el mismo sol de siempre poniéndose.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Solo que ahora sabes que esa luz lleva decenas de miles de años saliendo, que los átomos de tu mano se fabricaron dentro de una estrella muerta, y que el noventa y cinco por ciento de lo que hay alrededor no lo ha identificado nadie.",
+        },
+      ],
+    },
+  ],
+};
