@@ -64,7 +64,7 @@ export const CATALOGO: Ficha[] = [
   { id: "canones-agosto", titulo: "Los cañones de agosto", autor: "Barbara Tuchman", ano: 1962, categoria: "Historia", estado: "escrito" },
   { id: "hombres-mujeres", titulo: "Una historia de España", autor: "Arturo Pérez-Reverte", ano: 2019, categoria: "Historia", estado: "pendiente" },
   { id: "mandela", titulo: "El largo camino hacia la libertad", autor: "Nelson Mandela", ano: 1994, categoria: "Historia", estado: "escrito" },
-  { id: "tatuador", titulo: "El tatuador de Auschwitz", autor: "Heather Morris", ano: 2018, categoria: "Historia", estado: "pendiente" },
+  { id: "tatuador", titulo: "El tatuador de Auschwitz", autor: "Heather Morris", ano: 2018, categoria: "Historia", estado: "escrito" },
   { id: "chico-pijama", titulo: "El niño con el pijama de rayas", autor: "John Boyne", ano: 2006, categoria: "Historia", estado: "escrito" },
   { id: "malala", titulo: "Yo soy Malala", autor: "Malala Yousafzai", ano: 2013, categoria: "Historia", estado: "escrito" },
 
