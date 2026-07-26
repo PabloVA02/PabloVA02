@@ -779,118 +779,637 @@ export const MODOS_VER: Resumen = {
   titulo: "Modos de ver",
   autor: "John Berger",
   ano: 1972,
-  gancho: "Cuatro programas de televisión de treinta minutos que cambiaron para siempre la forma en que Occidente mira las imágenes.",
+  gancho: "Empieza con un hombre cortando un cuadro con un cúter delante de la cámara de la BBC para demostrar algo.",
   porQue:
-    "Después de leerlo no puedes volver a ver un anuncio igual. Es el libro que más ha influido en cómo entendemos la publicidad.",
+    "Después de leerlo no puedes volver a ver un anuncio igual. Y descubres que la mitad de lo que se le atribuye lo dijo otra persona tres años después.",
   partes: [
     {
-      titulo: "Ver es anterior a las palabras",
+      titulo: "Cuatro programas contra trece",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "En 1972 la BBC emitió cuatro programas de media hora presentados por John Berger, un crítico de arte con camisa estampada que hablaba mirando a cámara. Iban contra todo lo que se decía entonces sobre arte: nada de reverencia, nada de genios. El libro que salió de ahí lleva medio siglo en las listas de lectura de las escuelas de arte del mundo.",
+            "El primer programa empieza con un hombre de camisa estampada delante de una Venus de Botticelli. Coge un cúter, se acerca al cuadro y recorta la cara de la diosa, que se lleva en la mano mientras sigue hablando. Es una reproducción, claro, pero durante tres segundos el espectador no lo sabe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre es John Berger, crítico de arte, novelista y marxista, y el gesto no es una provocación gratuita. Está demostrando en directo la tesis del programa: que una imagen recortada, ampliada y puesta en otro sitio dice otra cosa, y que eso se lo hacemos a los cuadros todos los días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Berger avisa además al espectador de algo que ningún presentador dice nunca. Le recuerda que está viendo un programa de televisión hecho por alguien con un punto de vista, y le pide que dude de él exactamente igual que le está pidiendo que dude de los museos y de los anuncios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La serie se emitió en la BBC en enero de 1972: cuatro capítulos de media hora, rodados con poco dinero y sin viajar a ningún sitio. El contraste con lo que la cadena había estrenado tres años antes era exactamente el objetivo, y esa comparación explica el libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El presupuesto escaso acabó siendo una ventaja formal. Sin viajes ni orquesta, lo único que queda en pantalla son las imágenes, un hombre hablando y el montaje, y esa pobreza obliga al programa a demostrar sus tesis en vez de ilustrarlas con paisajes bonitos y música solemne.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquello había sido Civilización, trece episodios presentados por Kenneth Clark, un aristócrata que recorría catedrales y palacios de media Europa explicando la historia del arte occidental como una sucesión de genios. Fue un éxito enorme y sigue siendo el modelo de documental culto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Berger no se limitó a discrepar: montó la respuesta con el presupuesto y el formato invertidos. Cuatro capítulos frente a trece, un plató barato frente a los viajes, y un presentador que en vez de admirar las obras pregunta quién las pagó y a quién servían entonces.",
         },
         {
           forma: "clave",
-          rotulo: "La primera frase",
-          frase: "Ver es anterior a las palabras. El niño mira y reconoce antes de poder hablar.",
+          rotulo: "De qué va realmente",
+          frase: "No es un libro sobre cómo mirar cuadros. Es un libro sobre quién decide lo que significan las imágenes y qué gana con ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El programa lo dirigió Mike Dibb, y eso importa más de lo que suele contarse. La televisión no ilustra aquí un texto previo: los cortes, los primeros planos y el montaje son el argumento, porque demuestran con la cámara lo mismo que Berger está diciendo con la boca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un momento de la serie en que eso se ve mejor que en ninguna explicación. La cámara se acerca a un detalle de un cuadro religioso mientras suena una música, luego cambia la música y el mismo detalle produce otra sensación. El espectador acaba de ver cómo se manipula una imagen sin tocarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió ese mismo año en Penguin y tiene una particularidad que casi nadie menciona. En la cubierta figuran cinco autores: Berger, Sven Blomberg, Chris Fox, Michael Dibb y Richard Hollis. Fue una decisión suya, coherente con lo que defendía, y aun así todo el mundo lo llama el libro de Berger.",
         },
         {
           forma: "arte",
           texto:
-            "Su primer golpe va contra la idea de obra maestra intocable. Un cuadro pintado para una capilla concreta significaba algo cuando lo veías allí, en penumbra, después de un viaje. El mismo cuadro reproducido en una postal, en un libro o de fondo en la pantalla de una cocina, ya no significa lo mismo. La reproducción no acerca la obra: la convierte en otra cosa.",
+            "El diseño es de Richard Hollis y es tan radical como el contenido. El texto en negrita empieza en la propia portada; las imágenes van metidas dentro del párrafo, sin pie de foto que las explique; y las referencias están al final, para que nadie mire la etiqueta antes que el cuadro.",
           arte: "museo",
         },
         {
           forma: "texto",
           texto:
-            "Y señala la consecuencia incómoda: como ya se puede reproducir cualquier cosa, lo único que hace especial al original es que es <em>el original</em> — es decir, su precio. El aura del museo, dice Berger, es en buena parte el eco del valor de mercado.",
+            "Ese detalle del pie de foto no es un capricho de diseñador. Todo el primer ensayo trata de cómo las palabras colocadas junto a una imagen cambian lo que la imagen dice, así que el libro se niega a hacer con el lector lo que está denunciando. La forma del objeto es parte del argumento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tiene siete ensayos y tres de ellos no tienen ni una palabra. Son secuencias de imágenes puestas en un orden concreto, sin comentario, para que el lector haga por su cuenta lo que el resto del libro explica. Es una decisión valiente y también la parte que más lectores se saltan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El riesgo de esos ensayos mudos es evidente y el libro lo asume. Sin palabras, cada lector saca una conclusión distinta o ninguna, y muchos pasan las páginas deprisa buscando dónde vuelve el texto. A cambio, son las únicas páginas donde el autor no le dice a nadie lo que tiene que ver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la portada hay un cuadro de Magritte, La llave de los sueños, en el que se ven objetos con nombres que no les corresponden. Es la declaración de intenciones más económica posible: entre lo que ves y lo que te dicen que estás viendo hay siempre alguien que ha decidido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mismo año, Berger ganó el premio Booker con su novela G. y aprovechó el discurso de aceptación para anunciar que daba la mitad del dinero a los Panteras Negras, porque la fortuna de la empresa que patrocinaba el premio venía del trabajo en plantaciones del Caribe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra mitad se la quedó para financiar su trabajo sobre los trabajadores emigrantes en Europa, que acabaría siendo otro libro. Conviene tener eso en la cabeza al leerlo: no es un profesor haciendo teoría, es alguien que se estaba peleando en público con la institución que lo premiaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Poco después se marchó a vivir a un pueblo de los Alpes franceses, donde pasó el resto de su vida entre campesinos y escribiendo sobre ellos. Murió en 2017 con noventa años, y esa biografía explica bastante bien por qué su libro sobre arte habla tanto de trabajo y de propiedad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se ha convertido en uno de los textos más asignados en escuelas de arte y diseño de todo el mundo, y se cita la cifra de más de un millón de ejemplares. El dato viene de su editorial y no está auditado, aunque su presencia en los programas de estudios sí es comprobable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su éxito escolar tiene un efecto secundario curioso. Un libro escrito para desmontar la autoridad académica sobre las imágenes se ha convertido en una autoridad académica, y muchos estudiantes lo citan como se citaba a Clark, sin haber visto los programas ni discutido una sola tesis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se lee entero en una tarde y tiene ciento sesenta y seis páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cuatro programas están enteros en internet, gratis y con subtítulos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sigue en catálogo, sin haber cambiado ni una coma, desde hace más de cincuenta años.",
         },
       ],
     },
-
     {
-      titulo: "Los hombres actúan, las mujeres aparecen",
+      titulo: "El campo de trigo con cuervos",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El capítulo más citado del libro analiza el desnudo en la pintura europea. Berger observa que casi todos los desnudos femeninos están pintados por hombres, para hombres, y que la mujer del cuadro casi siempre mira hacia fuera: no está absorta en su mundo, está pendiente de quien la observa.",
+            "En el primer ensayo, Berger pone una reproducción de un cuadro de Van Gogh: un trigal bajo un cielo azul oscuro con una bandada de cuervos. El lector lo mira durante unos segundos y pasa la página. Debajo está la misma imagen otra vez, con una sola línea de texto encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La línea dice que este es el último cuadro que pintó Van Gogh antes de suicidarse. Y entonces la imagen ya no se mira igual: los cuervos son otra cosa, el cielo es otra cosa, el camino que se corta en medio del trigo es otra cosa. Nada del cuadro ha cambiado.",
         },
         {
           forma: "clave",
-          rotulo: "La frase que se ha repetido mil veces",
-          frase: "Los hombres miran a las mujeres. Las mujeres se miran a sí mismas siendo miradas.",
+          rotulo: "La demostración",
+          frase: "Una frase de once palabras cambia una pintura entera. Eso es lo que hace un pie de foto, un museo o un anuncio.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí saca su idea más influyente: a las mujeres se les enseña desde niñas a vigilarse por dentro, a llevar encima un observador permanente que juzga cómo se las ve. Conviven una vigilante y una vigilada en la misma persona. Escrito en 1972, es la base de buena parte de lo que hoy se discute sobre imagen corporal y redes.",
+            "Lo interesante del experimento es que no se puede deshacer. Una vez leída la frase, ya no hay manera de volver a mirar el trigal como se miraba dos páginas antes, aunque uno sepa perfectamente que la información es externa al cuadro. Ver no es un acto limpio ni reversible.",
         },
         {
           forma: "texto",
           texto:
-            "Berger distingue además entre estar desnudo y ser un desnudo. Lo primero es simplemente no llevar ropa; lo segundo es estar convertido en objeto de exhibición para otro. La diferencia no está en el cuerpo sino en para quién está puesto.",
+            "El dato biográfico que usa, además, es de los más discutidos de la historia del arte. Hoy se sabe que aquel no fue con seguridad su último cuadro, y hay historiadores que sitúan otros después. La demostración funciona igual, y de paso enseña que la frase ni siquiera tiene que ser cierta.",
         },
-      ],
-    },
-
-    {
-      titulo: "Pintar lo que se posee",
-      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Ese es un buen ejemplo de cómo funciona el libro en general. Berger construye demostraciones que convencen antes de que uno pueda comprobar los datos, porque el efecto ocurre en la mirada y no en el argumento. Es su gran virtud como divulgador y también su punto débil como historiador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea de fondo viene de Walter Benjamin y su ensayo de 1936 sobre la obra de arte en la época de su reproducción mecánica, y Berger lo cita abiertamente. Su aportación no es la teoría, es haberla sacado de la universidad y haberla puesto en la televisión pública a las nueve de la noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento tiene dos mitades. Antes de la fotografía, un cuadro era único y estaba en un sitio; había que ir hasta él y verlo en el edificio para el que se pintó, entre otros objetos y con un olor y una luz concretos. Su significado estaba pegado a ese lugar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que usa es una capilla pintada al fresco. Aquellas escenas se hicieron para verse desde abajo, con velas, en un espacio donde la gente rezaba y se casaba y enterraba a sus muertos; recortadas y reproducidas en una lámina, siguen siendo bonitas y ya no significan lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después, la imagen viaja. La misma Virgen aparece en una postal, en una carpeta de colegio, en un anuncio de seguros y en un libro de bolsillo, y en cada sitio significa algo distinto. El cuadro no se ha movido del museo, pero su sentido ya no depende de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Berger insiste en que eso tiene una consecuencia buena y poco celebrada. Cuando las imágenes viajan, dejan de pertenecer solo a quien tiene la casa donde estaban colgadas; cualquiera puede recortarlas, ponerlas en la pared de su cocina y usarlas para lo que le sirvan.",
+        },
         {
           forma: "arte",
           texto:
-            "Su tercera tesis es sobre la pintura al óleo entre 1500 y 1900, y es demoledora. Buena parte de esos cuadros, dice, no celebran la belleza: celebran la propiedad. Los objetos, los tejidos, la vajilla, las tierras del fondo — todo eso pertenecía al que pagaba el cuadro, y la pintura al óleo existía precisamente porque sabía representar mejor que ninguna otra técnica la textura de lo que se puede comprar.",
-          arte: "estanteria",
+            "De ahí sale su observación sobre lo que pasa en el museo actual. El original conserva un prestigio que ya no viene de lo que muestra, sino de ser el único auténtico entre millones de copias; la gente hace cola para estar cerca de un objeto valioso, no para mirar una pintura.",
+          arte: "museo",
         },
         {
           forma: "texto",
           texto:
-            "Su ejemplo favorito es un retrato de matrimonio terrateniente sentado tranquilamente ante un campo de trigo. La lectura amable dice que aman la naturaleza. Berger señala lo otro: el campo es suyo, y en aquella época robar una patata de ahí se castigaba con la deportación.",
+            "Cualquiera que haya estado delante de la Gioconda reconoce la escena que describe. Doscientas personas con el teléfono en alto delante de un cuadro pequeño y protegido, haciendo una foto peor que las mil que ya existen, para poder decir que estuvieron cerca del original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda parte del ensayo es la más agresiva y la que le costó más enemigos. Berger sostiene que existe una manera oficial de hablar de arte, hecha de vaguedades sobre el genio y la sensibilidad, cuya función real es dejar fuera de la conversación a quien no ha estudiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El síntoma que señala es reconocible en cualquier cartela de museo. Frases que no se pueden discutir porque no afirman nada comprobable, del tipo la serena armonía de la composición revela la madurez del maestro, y que dejan al visitante con la sospecha de que el tonto es él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo es un texto académico sobre los retratos de grupo que Frans Hals pintó al final de su vida, siendo pobre y dependiendo de la beneficencia, para los regentes del asilo que administraban esa beneficencia. Berger reproduce el análisis erudito y lo destroza párrafo a párrafo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que le reprocha es que se hable de la pincelada y del color sin decir nunca lo evidente: que el pintor arruinado estaba mirando a los que decidían si comía. La crítica es demoledora y también algo injusta, porque un historiador puede describir la técnica sin negar el contexto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los especialistas le respondieron además con un dato incómodo. La historia de Hals viviendo de la beneficencia municipal está documentada, pero no consta que aquellos regentes fueran sus jueces ni que el encargo tuviera nada de humillante, y Berger lo presenta como si fuera seguro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el tipo de crítica que atraviesa todo el libro y que hay que saber calibrar. Berger tiene razón en que el lenguaje del arte excluye, y exagera al convertir cada análisis formal en una maniobra de clase. Muchas veces un análisis de la luz es solo un análisis de la luz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conversa directamente con otro libro de este catálogo, Las vidas de Vasari. Vasari inventó en 1550 el género que Berger ataca: la biografía del artista como genio con don sobrenatural, contada mediante anécdotas. Cuatro siglos después, es exactamente el relato que este libro quiere desmontar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación es útil porque los dos tienen su parte de razón. Vasari conservó datos, nombres y obras que se habrían perdido, y Berger conserva la pregunta por el dinero y el poder que Vasari no se hizo nunca. Leer uno después del otro es la mejor manera de usarlos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Berger no dice que las obras no valgan nada ni que el arte sea un engaño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que mirar es un acto que se aprende, y que a casi nadie le enseñan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que el derecho a mirarlas y opinar no debería exigir un diploma.",
+        },
+      ],
+    },
+    {
+      titulo: "Los hombres actúan y las mujeres aparecen",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El segundo programa lo hizo de una manera que en 1972 no era habitual. Berger expone su tesis sobre el desnudo femenino durante veinte minutos y después se calla y deja los últimos diez a cinco mujeres discutiendo entre ellas si lo que acaba de decir se corresponde con su experiencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella conversación final no es un adorno amable, y varias de ellas le discuten cosas. Le señalan que su análisis las deja sin ninguna salida, y que describir tan bien la trampa no es lo mismo que ofrecer una manera de vivir fuera de ella. Berger las deja hablar y no responde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su punto de partida es una distinción de vocabulario. Estar desnudo es estar sin ropa y ser uno mismo; ser un desnudo es haber sido convertido en objeto de contemplación, verse sin ropa y no ser reconocido como persona. Una es una situación y la otra es un género artístico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El género tenía además sus coartadas y Berger las enumera. Casi ningún desnudo europeo se presenta como lo que es: se titula Susana y los viejos, o El nacimiento de Venus, o Vanidad, de modo que la mitología o la Biblia autorizan lo que el comprador quería colgar en su casa.",
         },
         {
           forma: "clave",
-          rotulo: "La conclusión",
-          frase: "No estás viendo un paisaje. Estás viendo un inventario.",
+          rotulo: "La frase del libro",
+          frase: "Los hombres actúan y las mujeres aparecen. Los hombres miran a las mujeres; las mujeres se miran a sí mismas siendo miradas.",
         },
         {
           forma: "texto",
           texto:
-            "Berger salva de esa crítica a unos pocos pintores, y explica por qué: son los que pintaron lo que no se podía vender. Un autorretrato de vejez, una pareja de zapatos gastados, una criada vertiendo leche. Ahí, dice, la pintura deja de ser un catálogo y empieza a mirar de verdad.",
+            "El desarrollo de esa frase es lo que más ha durado. Berger describe una vigilancia interior permanente: la mujer se acompaña a sí misma mientras camina, come o llora, evaluando la impresión que produce, porque ha aprendido que cómo la vean determinará cómo la traten.",
         },
-      ],
-    },
-
-    {
-      titulo: "La publicidad como heredera",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "Y llega el remate, que es lo que hace que el libro siga vivo. La publicidad, sostiene Berger, es la continuación directa de aquella pintura, con una inversión decisiva: el óleo enseñaba lo que su dueño <em>ya tenía</em>; el anuncio enseña lo que <em>podrías</em> tener. Uno confirmaba una vida; el otro la promete.",
+            "Su formulación exacta merece citarse porque es más dura de lo que se recuerda. Dice que la mujer se convierte a la vez en el examinador y en la examinada, y que esas dos figuras conviven dentro de ella como los dos elementos de su identidad de mujer, sin que pueda desprenderse de ninguna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su prueba está en la composición de los cuadros. En casi todos los desnudos europeos, la mujer no mira al hombre que está en la escena con ella: mira hacia fuera, al espectador, que es siempre un hombre vestido y con dinero, el propietario del cuadro y de la mirada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Compara además la tradición europea con otras. En la pintura erótica india, persa o japonesa, dice, los dos amantes se miran entre ellos y nadie está pendiente de un espectador exterior; y esa diferencia es la que le permite afirmar que el desnudo europeo no es un universal humano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que mejor lo demuestra es el del espejo. Los pintores ponían un espejo en la mano de la mujer desnuda y le llamaban al cuadro Vanidad, condenándola moralmente por mirarse, después de haberla pintado desnuda precisamente para el disfrute de quien compraba la tabla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Berger lo resume en una frase que resiste bien el paso del tiempo: pintabas a una mujer desnuda porque te gustaba mirarla, le ponías un espejo en la mano y titulabas el cuadro Vanidad, condenando así moralmente a la mujer cuya desnudez habías representado para tu propio placer.",
         },
         {
           forma: "arte",
           texto:
-            "Por eso, dice, la publicidad no vende objetos: vende una versión mejorada de ti mismo vista desde fuera, con los ojos de los demás. Te propone envidiar a la persona en la que te convertirías si compraras eso. Y como esa persona no llega nunca, el mecanismo se puede repetir indefinidamente.",
+            "Otro caso suyo es el del juicio de Paris. La escena consiste en un hombre que otorga una manzana a la mujer más bella de tres, y ese pequeño relato mitológico convierte el cuadro en un concurso legítimo. La pintura culta y el concurso de belleza tienen el mismo esqueleto y el mismo jurado.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El de Susana y los viejos funciona igual y es todavía más incómodo. El cuadro muestra a dos ancianos espiando a una mujer que se baña, y el espectador, colocado por la composición, está haciendo exactamente lo mismo que los personajes a los que la historia bíblica condena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El montaje que remata el capítulo es de una eficacia brutal. Berger pone al lado una odalisca de Ingres y la portada de una revista masculina de los años setenta, y las dos mujeres tienen la misma postura, la misma mirada de reojo y la misma función respecto a quien las mira.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene deshacer el malentendido más extendido sobre este libro. La expresión mirada masculina no es de Berger: la acuñó Laura Mulvey en un ensayo sobre el cine en 1975, tres años después, y con un aparato teórico psicoanalítico que aquí no aparece por ningún lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro malentendido habitual es creer que este capítulo va de arte antiguo. Va de cómo mirar los cuadros explica los anuncios, las portadas de revista y las fotos de perfil, y por eso es el que se sigue asignando en clases que no tienen nada que ver con la historia de la pintura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí hizo Berger fue llegar antes y en televisión, con un vocabulario que entendía cualquiera. Mulvey construyó la teoría; él puso el ejemplo en el salón de casa, y por eso su formulación es la que se ha quedado pegada a la memoria colectiva con el nombre de otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene decir de dónde venía él, porque tampoco lo inventó todo. La crítica feminista del arte llevaba años trabajando en ello y en 1971 se había publicado el ensayo de Linda Nochlin sobre por qué no ha habido grandes mujeres artistas, un año antes de este programa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo tiene además un límite claro que conviene decir. Solo describe una relación posible, la del hombre heterosexual que mira y la mujer que es mirada, y no hay sitio para ninguna otra forma de mirar ni para la posibilidad de que la mujer mire y disfrute a su vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un punto ciego más grande todavía en el reparto. Las mujeres del capítulo son siempre las pintadas o las que se miran al espejo, nunca las que pintan, y el libro no se pregunta por qué apenas hay pintoras en la tradición que está analizando durante cuatro siglos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay algo incómodo en la propia posición del autor. Es un hombre explicando en televisión pública cómo funciona la experiencia de las mujeres, y en 1972 nadie se lo discutió; por eso el cuarto de hora final que les cede es más importante de lo que parece hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que el libro no dice, y se le atribuye constantemente, es que el desnudo esté mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco dice que los pintores fueran unos canallas conscientes de lo que hacían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que hay una diferencia entre pintar a alguien y pintar una propiedad.",
+        },
+      ],
+    },
+    {
+      titulo: "La pintura al óleo y lo que se posee",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El tercer ensayo empieza por la técnica, que es lo que lo hace convincente. El óleo, a diferencia del temple o el fresco, permite representar la textura de las cosas con una exactitud casi táctil: el pelo de una piel, el brillo de una jarra de plata, la grasa de un jamón colgado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su tesis. Si tienes una técnica capaz de reproducir la superficie de los objetos mejor que ninguna otra, y una clase social nueva que necesita mostrar lo que ha comprado, la pintura al óleo europea entre 1500 y 1900 no es un estilo: es un catálogo de propiedades.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tesis del capítulo",
+          frase: "El óleo hizo con las apariencias lo que el capital hizo con las relaciones sociales: convertirlo todo en algo que se puede comprar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La fecha en que sitúa el fenómeno tampoco es arbitraria. Berger acota la tradición entre 1500 y 1900, es decir, entre el momento en que aparece una clase mercantil con dinero para encargar cuadros y el momento en que la fotografía y las vanguardias rompen con el encargo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus ejemplos son buenos porque son literales. Bodegones que son inventarios de comida cara, cuadros de caza que muestran las piezas abatidas en la finca propia, retratos de familias rodeadas de sus muebles, y cuadros de barcos que existen porque alguien era dueño del barco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su detalle favorito es el de los retratos con alfombras orientales, mapas y globos terráqueos al fondo. No están ahí por decoración: son la manera de decir que ese señor comercia con medio mundo, y el pintor los pinta con la misma precisión con la que pinta su cara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y menciona lo que esos cuadros no enseñan nunca, que es la otra mitad del asunto. No aparecen los barcos negreros, ni las plantaciones, ni la gente que produjo el azúcar y el algodón que pagaron el retrato: la riqueza está en la escena y su origen se queda siempre fuera del marco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso que más se cita es el matrimonio Andrews, de Gainsborough. Él con la escopeta, ella sentada en un banco, y detrás una extensión de campo pintada con tanto detalle que se distinguen las gavillas. Berger dice que ese paisaje no es un fondo bonito: es la finca, y ese es el tema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añade un detalle histórico que le da fuerza al argumento. En la Inglaterra de aquel siglo, cazar en tierra ajena se castigaba con penas durísimas, incluida la deportación, así que la escopeta del cuadro no es un accesorio elegante: señala quién puede disparar allí y quién no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un historiador del arte le respondió públicamente que se equivocaba, que aquella pareja no estaba presumiendo de tierras sino disfrutando de la naturaleza al modo filosófico de su época. Berger recogió la objeción en el libro y contestó que hacían las dos cosas, y que la tierra era suya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que decidiera imprimir la crítica dentro de su propio libro dice bastante de él. Podía haberla ignorado, y en cambio la puso a la vista del lector para que juzgara, que es exactamente lo contrario de lo que reprocha a la institución del arte en el capítulo anterior.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese intercambio es lo mejor del capítulo, porque enseña cómo funciona la discusión sobre una imagen. Los dos ven lo mismo, los dos tienen datos, y lo que cambia es qué parte del cuadro consideran el asunto principal. No hay una lectura neutra disponible para ninguno de los dos.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí es donde el libro falla más, y hay que decirlo con claridad. Cuatro siglos de pintura europea no caben en una tesis sobre la propiedad, y Berger lo sabe: dedica un apartado a las excepciones, con Rembrandt, Vermeer, Goya o Turner entre ellas, y las llama grandes precisamente por serlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema de método que los historiadores le señalaron enseguida. Elige los cuadros que confirman su tesis y despacha en una línea los géneros que la complican, como la pintura religiosa, el paisaje sin dueño o el retrato de encargo hecho a gente sin ninguna fortuna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una teoría que necesita expulsar a los mejores pintores del periodo para funcionar tiene un problema evidente. Si Rembrandt es excepción, y también Vermeer, y también Turner, entonces lo que la teoría describe bien es la pintura mediocre de encargo, que es mucha, pero no es la historia del arte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su descargo es que precisamente eso es lo que quería decir: que la mayoría de la producción fue mercancía y que la tradición se cuenta como si toda fuera obra maestra. Ahí tiene razón, y la manera de argumentarlo, poniendo el género entero bajo sospecha, se le va de las manos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El dato que sí sostiene su lado del argumento es sencillo de comprobar. La inmensa mayoría de los cuadros europeos de esos siglos se pintaron por encargo, con el asunto, el tamaño y hasta los pigmentos pactados por contrato, y con el cliente decidiendo qué aparecía en la escena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su lectura del autorretrato final de Rembrandt es, de hecho, la página más emocionada del libro. Un pintor viejo, arruinado y sin encargos que se mira en el espejo y pinta lo que hay, sin nada que vender y sin nadie a quien halagar. Es la excepción que él mismo necesita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Berger describe ese cuadro diciendo que en él la tradición se ha dado la vuelta: el pintor ya no muestra una superficie apetecible, sino una cara que ha renunciado a agradar. Es el único momento del libro en que habla de un cuadro sin preguntarse quién lo pagó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siguiente libro de este catálogo enseña la otra cara de este capítulo. En las Cartas a Theo, Van Gogh escribe todo el rato sobre dinero, sobre lo que cuesta el óleo y sobre cuadros que no vende, y demuestra que la relación entre pintura y mercado también se puede contar desde dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La coincidencia entre los dos libros es casi una broma del catálogo. El cuadro que Berger usa para demostrar cómo una frase cambia una imagen es de Van Gogh, y el propio Van Gogh dejó escritas mil quinientas cartas explicando qué quería decir cada uno de los suyos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Berger no pide dejar de mirar cuadros ni sentirse culpable por disfrutarlos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pide mirar también lo que el cuadro da por supuesto y no discute.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pide preguntarse quién pagó, qué quería enseñar y quién no aparece en la escena.",
+        },
+      ],
+    },
+    {
+      titulo: "El anuncio que te promete ser otro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El último programa lo grabó Berger delante de una pared cubierta de anuncios de revista, y su primera afirmación es la que sostiene el resto. En una ciudad, nadie ve tantas imágenes juntas de ninguna otra clase: la publicidad es el sistema de imágenes más denso que ha existido nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una observación sobre su rareza que se pasa por alto. Nunca en la historia se habían producido tantas imágenes de gente feliz, y ninguna de ellas es de nadie concreto; son la felicidad convertida en formato, repetida en miles de vallas por gente que no conoce a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis es que la publicidad es la heredera directa de la pintura al óleo, y lo demuestra con parecidos visuales incómodos. Las mismas poses, los mismos objetos de lujo, la misma manera de tratar la piel y las telas, y a veces la cita literal de un cuadro célebre dentro del anuncio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro pone las parejas de imágenes una al lado de otra, sin comentario, y el efecto es difícil de discutir. Una copa de vino en un anuncio de 1971 está iluminada exactamente igual que en un bodegón holandés de 1650, y la razón es la misma: hay que dar ganas de tenerla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero hay una diferencia y es la clave del capítulo. El cuadro al óleo mostraba lo que su dueño ya tenía y confirmaba lo que era; el anuncio muestra lo que no tienes y habla siempre en futuro. Uno celebra un estado; el otro fabrica una carencia y luego vende el remedio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El mecanismo",
+          frase: "El anuncio no te vende el objeto: te vende la envidia que otros sentirán de ti cuando lo tengas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Berger llama a eso glamur y sostiene que es un invento moderno, que no existía antes de la sociedad de consumo. No es belleza ni elegancia: es la cualidad de ser envidiado, y por eso las personas de los anuncios están siempre siendo miradas por alguien dentro de la propia imagen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación de por qué el glamur es moderno es histórica y bastante convincente. Solo puede envidiarse la posición de otro cuando parece alcanzable, y eso requiere una sociedad donde en teoría cualquiera puede subir; en una sociedad de estamentos cerrados, el noble se admira y no se envidia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El razonamiento continúa hacia un sitio poco agradable. Si el glamur consiste en ser envidiado, la felicidad que promete la publicidad no se puede disfrutar por dentro: es una felicidad que solo funciona vista desde fuera, y que por definición exige a otros que la deseen y no la tengan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale una observación práctica que cualquiera puede comprobar hoy. En casi todos los anuncios hay alguien mirando al protagonista, aunque sea de reojo y al fondo, y ese testigo no está por realismo: está para enseñarte cómo te van a mirar cuando tengas lo que se vende.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De ahí sale su formulación más citada, y merece leerse despacio. El anuncio propone a cada uno que se transforme, o transforme su vida, comprando algo más; y para eso tiene que hacerle sentir primero que la persona que es ahora, sin ese objeto, es una versión insuficiente.",
           arte: "explorar",
         },
         {
-          forma: "clave",
-          rotulo: "La definición",
-          frase: "La publicidad no habla de productos. Habla de relaciones sociales, y promete felicidad juzgada por otros.",
+          forma: "texto",
+          texto:
+            "La consecuencia es que la publicidad necesita que el presente sea insatisfactorio. No puede permitirse que estés bien tal como estás, porque en ese caso no hay nada que corregir, y por eso su trabajo empieza siempre por instalar una pequeña insuficiencia antes de ofrecer la cura.",
         },
         {
           forma: "texto",
           texto:
-            "Berger dedica además un capítulo entero a un formato que hoy llamaríamos otra cosa: los anuncios que usan obras de arte para vender. Un cuadro célebre detrás de un perfume, una escultura clásica en un anuncio de coches. Su lectura es que la publicidad necesita ese préstamo porque le hace falta autoridad cultural — quiere que la elegancia de siglos se transfiera al producto sin haberla ganado. Y añade una observación que corta: en un anuncio, el pasado se usa siempre para vender futuro. Nunca para entender el presente.",
+            "Su análisis del entorno del anuncio es igual de afilado. Berger señala que en las revistas la publicidad convive con las noticias de guerra y de hambre en páginas contiguas, y que esa vecindad no molesta a nadie porque hemos aprendido a mirar los dos tipos de imagen de manera distinta.",
         },
         {
           forma: "texto",
           texto:
-            "Conviene decir sus límites: Berger escribe desde un marxismo explícito y a veces fuerza la interpretación —no todo cuadro de un campo es una escritura de propiedad—, y varios historiadores del arte le han discutido casos concretos. Pero su lectura de la publicidad ha envejecido asombrosamente bien: cámbiese «anuncio de revista» por «feed» y el texto de 1972 describe 2026 sin tocar una coma.",
+            "Su ejemplo concreto es una doble página real de una revista de la época, con una foto de la guerra de Vietnam a un lado y un anuncio de crema al otro. Cincuenta años después, el mismo montaje ocurre cada vez que alguien baja el dedo por una pantalla, y sigue sin llamar la atención.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo termina con una afirmación política que envejece bien y mal a la vez. Dice que la publicidad convierte la libertad en libertad de elegir entre marcas, y que ofrece consumo donde no hay democracia. Es una frase potente y también el momento más panfletario del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Envejece mal porque supone un público pasivo que recibe mensajes sin responder, y eso hoy es falso. Envejece bien porque describe con exactitud el trato que sigue vigente: se te reconoce como consumidor con muchas opciones y no como ciudadano con capacidad de decidir el marco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que no dice, porque se le atribuye a menudo. No dice que la publicidad sea una conspiración, ni que la gente sea tonta, ni que comprar cosas esté mal. Dice que hay un lenguaje visual con una gramática identificable, y que se puede aprender a leerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco dice que las imágenes engañen sin más. Su afirmación es más fina: los anuncios no mienten sobre el producto, mienten sobre lo que va a pasarte cuando lo tengas, y esa promesa nunca aparece por escrito en ningún sitio donde se pueda reclamar por incumplimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco es una profecía sobre las redes sociales, aunque se cite así constantemente. Berger describía en 1972 lo que veía en revistas y vallas, sin imaginar que la gente acabaría produciendo gratis sus propias imágenes de glamur y midiendo la envidia ajena en un contador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ocurre es que su descripción encaja demasiado bien con lo que vino después. Una persona mirándose desde fuera mientras vive, editando cómo aparece y evaluando el efecto que produce, es exactamente lo que él describió en el capítulo del desnudo, cuarenta años antes del teléfono.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia con 1972 es quién sostiene la cámara. Entonces había un pintor o un publicista fabricando la imagen y una persona mirándola; ahora la misma persona hace las dos cosas, se retrata, se corrige y se publica, y el examinador y la examinada viven en el mismo teléfono.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro entero cabe en una sola instrucción de uso, y es la que conviene llevarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Funciona igual con un cuadro del Prado que con una valla de la carretera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ante cualquier imagen: quién la hizo, para quién, qué quiere que sientas y qué se ha quedado fuera del encuadre.",
         },
       ],
     },
