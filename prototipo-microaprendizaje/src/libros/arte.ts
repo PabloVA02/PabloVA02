@@ -137,9 +137,9 @@ export const GUERRA_ARTE: Resumen = {
   titulo: "La guerra del arte",
   autor: "Steven Pressfield",
   ano: 2002,
-  gancho: "Le pone nombre a la fuerza que te impide sentarte a hacer lo que llevas años diciendo que vas a hacer.",
+  gancho: "Vendió su primera novela a los cincuenta y uno, después de diecisiete años escribiendo sin publicar y de vivir una temporada en una furgoneta.",
   porQue:
-    "Es el libro que más escritores, músicos y deportistas regalan. Su idea central explica la procrastinación mejor que cualquier manual de productividad.",
+    "Le pone nombre a la fuerza que te impide sentarte a hacer lo que llevas años diciendo que vas a hacer. Y conviene ver también qué esconde esa palabra tan cómoda.",
   partes: [
     {
       titulo: "Diecisiete años sin vender nada",
@@ -147,113 +147,627 @@ export const GUERRA_ARTE: Resumen = {
         {
           forma: "texto",
           texto:
-            "Steven Pressfield pasó casi dos décadas intentando ser escritor sin conseguirlo. Trabajó de camionero, de recolector de fruta, de guionista sin encargos; vivió en una furgoneta. Su primera novela vendida llegó cuando ya rondaba los cincuenta. Este libro es lo que aprendió de esos años, y no va de escribir: va de por qué no escribía.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El enemigo",
-          frase: "La Resistencia: una fuerza que se opone a cualquier acto que te haga mejor de lo que eres.",
+            "Un hombre de treinta y tantos años teclea la palabra fin en el último folio de su primera novela terminada, en una casa alquilada del norte de California. Se levanta de la mesa, va al baño y vomita. Después llama por teléfono a un amigo escritor mayor que él para contárselo.",
         },
         {
           forma: "texto",
           texto:
-            "Lo llama así, con mayúscula, y lo trata como una ley física. La Resistencia no aparece cuando vas a ver la tele; aparece exactamente cuando vas a hacer lo que importa. Escribir, entrenar, montar el negocio, tener la conversación difícil. Nunca se opone a lo cómodo.",
+            "El amigo lo felicita en dos segundos y le dice lo único que importa: enhorabuena, empieza la siguiente mañana. Esa frase es el germen del libro entero, y Pressfield la ha repetido en cada entrevista durante veinte años como el mejor consejo que le han dado nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella novela no se publicó. Ni esa ni casi nada de lo que escribió durante los años siguientes, mientras trabajaba de camionero, de recolector de fruta, de auxiliar en un hospital psiquiátrico, de camarero y de redactor publicitario, y mientras pasaba temporadas viviendo en una furgoneta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En medio de esos años dejó de escribir del todo durante una temporada larga, y él lo cuenta como la peor época de su vida, peor que la pobreza. Su tesis sobre el precio de no trabajar viene de ahí, de haber comprobado que no hacerlo no le daba paz, sino todo lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También estuvo en el cuerpo de marines y después en Hollywood, escribiendo guiones por encargo. Firmó uno especialmente famoso por lo malo, una secuela de King Kong de 1986 que la crítica destrozó, y él lo cuenta con detalle porque le parece un capítulo necesario de su currículo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lección que saca de aquel desastre es la que más se le cita entre guionistas. Después de leer la peor reseña de su vida siguió trabajando al día siguiente, y concluyó que un profesional se recupera rápido no porque sea duro, sino porque su identidad no dependía de esa película.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La cifra que sostiene el libro",
+          frase: "Publicó su primera novela a los cincuenta y uno. Todo lo que dice sobre aguantar viene de haber aguantado diecisiete años sin señal ninguna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato es también la razón por la que el libro no promete nada rápido. Un autor que hubiera triunfado a los veintiocho habría escrito otra cosa, con recetas y plazos; este escribe desde la constancia sin recompensa, que es la parte del oficio de la que casi nadie habla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa novela fue La leyenda de Bagger Vance, de 1995, que además acabó en película. Después vino Puertas de fuego, sobre los trescientos espartanos de las Termópilas, que se convirtió en lectura recomendada en academias militares estadounidenses y le dio un público fiel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle explica de dónde viene el tono del libro que nos ocupa. Un autor que lleva media vida escribiendo sobre espartanos y marines no iba a describir el bloqueo creativo como una crisis emocional: lo iba a describir como una guerra, con enemigo, posiciones y bajas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con ese historial escribió en 2002 un libro rarísimo que no es una novela ni un manual. Son ciento sesenta y pico páginas de capítulos de media hoja, algunos de tres líneas, escritos como notas de campo por alguien que ha estado veinte años perdiendo la misma batalla cada mañana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo publicó una editorial pequeña de Nueva York, sin campaña ni reseñas grandes, y empezó a venderse de la única manera que se vende este tipo de libro: alguien se lo regala a otro alguien que lleva dos años diciendo que va a escribir algo. Así lleva más de veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese circuito de regalos explica también su fama entre gente que no escribe. Entrenadores, músicos, fundadores de empresas y militares lo citan a menudo, precisamente porque el libro apenas habla de técnica y sí de la parte que comparten todos: la mañana en que no quieres empezar.",
         },
         {
           forma: "arte",
           texto:
-            "Y de ahí saca la observación más útil del libro: la Resistencia funciona como una brújula. Cuanto más miedo te da algo, más señal es de que tienes que hacerlo, porque solo se resiste lo que te haría crecer. El proyecto que llevas años posponiendo es, casi siempre, el que más te importa.",
-          arte: "explorar",
+            "El prólogo lo firma Robert McKee, el gurú de la estructura de guion, y eso ya sitúa al lector. Este es un libro escrito desde el oficio y para el oficio, no desde la teoría del arte, y su lector ideal es alguien que ya sabe lo que quiere hacer y no consigue ponerse.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La forma también es deliberada y explica su éxito. Capítulos de media página, sin desarrollo ni matices, escritos para leerse de pie y en cualquier orden. Es un libro pensado para abrirlo el día que no te apetece trabajar y cerrarlo en tres minutos con la excusa desactivada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras de ventas que circulan, más de un millón de ejemplares, salen del autor y de su editorial y nadie las ha auditado. Lo comprobable es otra cosa: es de los libros que más aparecen citados por deportistas, músicos y guionistas cuando les preguntan qué les cambió la manera de trabajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título es un juego con El arte de la guerra de Sun Tzu, invertido a propósito. No va de aplicar estrategia militar al arte, sino de que hacer algo propio es literalmente una guerra diaria, con un enemigo concreto, y de que el campo de batalla es la silla de tu escritorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El subtítulo original es más explícito todavía y ayuda a saber a qué se viene: gana la guerra creativa interior. La palabra clave ahí es interior, porque el libro renuncia de entrada a hablar del mercado, de los editores, del talento o de la suerte, que son las otras cuatro guerras del oficio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir de qué tipo de libro se trata, porque eso evita la mitad de las discusiones. No hay un solo estudio citado, ni un dato, ni una nota al pie. Es un libro de afirmaciones, escrito por alguien que cuenta lo que le funcionó y lo generaliza sin pedir permiso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no lo invalida, pero cambia cómo hay que leerlo. Vale como testimonio de un oficio, igual que valen las cartas de un pintor sobre cómo trabajaba, y no vale como descripción de cómo funciona la motivación humana, que es un campo con literatura propia y resultados bastante menos rotundos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está dividido en tres partes muy desiguales y conviene saberlo antes de empezar. La primera define al enemigo, la segunda explica cómo se le planta cara y la tercera se va a la metafísica, con musas y ángeles, y ahí se le cae del carro buena parte de sus lectores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pressfield lo asume y lo avisa en el propio texto, lo cual le honra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que si esa parte no te sirve, te quedes con las dos primeras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi todo el mundo hace exactamente eso.",
         },
       ],
     },
-
     {
-      titulo: "Sus disfraces",
+      titulo: "Ponerle nombre al enemigo",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La primera parte del libro es un catálogo de cómo se disfraza. El más común es la procrastinación, y Pressfield señala su truco: nunca dice «no lo hagas», dice «hazlo mañana». Y eso suena tan razonable que cuela toda la vida.",
+            "La idea central cabe en una palabra que él escribe siempre con mayúscula: la Resistencia. Es la fuerza que se interpone entre la vida que llevas y la vida que podrías llevar, y su rasgo definitorio es que no viene de fuera. La generas tú, apunta hacia ti y trabaja a jornada completa.",
         },
         {
           forma: "texto",
           texto:
-            "Pero hay más caras, y algunas incómodas. Formarse eternamente sin producir nada. Criticar el trabajo ajeno con un ojo finísimo. Convertirse en el personaje sufriente de tu propia película. Buscar problemas de pareja justo cuando había que trabajar. Cuidar de todo el mundo para no tener tiempo de cuidar lo tuyo.",
+            "La mayúscula no es un capricho de estilo, es la estrategia entera del libro. Al convertir un estado de ánimo difuso en un personaje con nombre propio, deja de ser algo que eres y pasa a ser algo que te ataca, y contra lo que se puede pelear todas las mañanas sin culparse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo útil del concepto no es la definición sino el catálogo de disfraces. La Resistencia casi nunca aparece diciendo no lo hagas: aparece como sueño, como hambre repentina, como la necesidad urgente de ordenar un cajón, como una llamada que hay que hacer antes de ponerse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También aparece como cosas que no parecen excusas. Apuntarse a otro curso antes de empezar, investigar un poco más, esperar a tener el equipo bueno, buscar un momento con menos ruido, arreglar primero la vida sentimental. Todas son razonables y todas retrasan el mismo día uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su observación más fina sobre este punto es la del momento del día. La Resistencia es más fuerte por la mañana, justo antes de empezar, y se desvanece en cuanto llevas veinte minutos trabajando; por eso recomienda no negociar consigo mismo a primera hora, cuando el enemigo está a pleno rendimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También avisa de que reaparece al final, y ese aviso vale oro. Cuanto más cerca está una obra de terminarse, más fuerte vuelve el bloqueo, porque terminar significa exponerse; de ahí la cantidad de proyectos que se quedan al noventa por ciento con una excusa técnica encima.",
         },
         {
           forma: "clave",
-          rotulo: "El disfraz favorito",
-          frase: "El perfeccionismo. Suena a exigencia y es miedo con buena reputación.",
+          rotulo: "La regla de la brújula",
+          frase: "Cuanto más importante es algo para ti, más resistencia sentirás. El miedo no señala el peligro: señala la dirección.",
         },
         {
           forma: "texto",
           texto:
-            "Señala otra pista inconfundible: la Resistencia aprieta más cuanto más cerca estás del final. El último capítulo, la última semana, el paso que ya solo consiste en entregar. Justo ahí aparecen las dudas, las ganas de rehacerlo todo desde cero y la urgencia repentina de ocuparse de otra cosa. Terminar es lo que más se resiste, porque terminar expone.",
+            "Esa inversión es lo mejor del libro y lo que explica por qué se regala tanto. Convierte la sensación más desagradable del proceso creativo en información útil: si algo te da pereza y a la vez no consigues olvidarlo, ese es el proyecto, y no otro que te resulte cómodo.",
         },
         {
           forma: "texto",
           texto:
-            "Su diagnóstico más duro va al «artista bloqueado» que se refugia en el sufrimiento: la infelicidad puede volverse cómoda, porque mientras te lamentas nadie te pide resultados. Pressfield lo dice sin piedad, y probablemente porque estuvo ahí años.",
+            "Tiene además una consecuencia práctica que se puede usar hoy mismo. Si tienes tres proyectos posibles encima de la mesa, el que hay que empezar no es el que más ilusión te hace contar, sino aquel cuya sola idea te da un ligero mareo cuando piensas en abrir el documento.",
         },
-      ],
-    },
-
-    {
-      titulo: "Hacerse profesional",
-      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Pressfield hace además una lista de actividades que despiertan Resistencia, y es más amplia de lo que sugiere el título. Escribir, pintar y componer, sí, pero también montar una empresa, ponerse a dieta, dejar una adicción, empezar terapia o tomar cualquier decisión difícil de la vida adulta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El denominador común de esa lista es lo que la hace interesante. Todas son cosas que se hacen a solas, sin que nadie te espere, sin plazo externo y sin que nadie note si las dejas. Donde hay un jefe, un contrato o una hora de clase, el problema simplemente no aparece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su lista de síntomas incluye algunos que la gente no relaciona con la procrastinación. El drama personal permanente, la promiscuidad, la hipocondría, el victimismo y el consumo compulsivo de noticias son, para él, formas de estar ocupado en algo que no exige que te expongas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añade uno especialmente incómodo para el ambiente cultural: hablar del proyecto. Contar en voz alta lo que vas a hacer produce una satisfacción parecida a la de haberlo hecho, y esa satisfacción anticipada es, según él, uno de los disfraces más eficaces que tiene la Resistencia.",
+        },
         {
           forma: "arte",
           texto:
-            "La segunda parte es la solución, y no es motivación: es cambiar de categoría. El aficionado escribe cuando le apetece; el profesional se presenta todos los días, apetezca o no. No es cuestión de talento ni de haber vendido nada — es una decisión que puedes tomar esta tarde.",
+            "Aquí está la afirmación más citada y más discutible del libro. Pressfield sostiene que a Hitler le resultó más fácil empezar la Segunda Guerra Mundial que enfrentarse a un lienzo en blanco, porque también él quiso ser pintor. Es un golpe de efecto, y es exactamente el tipo de frase que no se puede defender.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es verdad que Hitler solicitó dos veces el ingreso en la academia de Bellas Artes de Viena y lo rechazaron las dos, en 1907 y 1908. De ahí a convertirlo en el ejemplo estelar de un concepto sobre procrastinación hay un salto que solo se explica por las ganas de rematar el capítulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema de esa frase no es que ofenda: es que no explica nada. Reducir un genocidio a un caso extremo de bloqueo creativo dice más sobre lo mucho que el autor necesita que su concepto lo abarque todo. Es el momento en que la teoría se estira demasiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí aparece el defecto de fábrica de la idea entera, que conviene ver de frente. La Resistencia no se puede refutar: si te sentaste a trabajar, la venciste; si no, ella ganó. Cualquier resultado confirma la teoría, y una idea que lo explica todo no predice nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso sitúa el libro en la misma familia que Piensa y hazte rico, que está en este catálogo: un concepto que no admite prueba en contra y una insistencia enorme en la voluntad. La diferencia es lo que promete cada uno, y ahí Pressfield es mucho más honesto que Napoleon Hill.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una crítica más seria todavía y es material. Alguien con dos empleos, tres hijos y un padre enfermo no tiene Resistencia: tiene falta de tiempo, y el libro no distingue una cosa de otra en ninguna página. Todo lo que impide trabajar aparece convertido en un fallo moral privado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión defendible de su tesis sería mucho más modesta y sigue siendo valiosa. Del tiempo libre que realmente tienes, una parte se te va en evitar precisamente aquello que dices querer hacer, y esa parte sí depende de ti. Todo lo demás es organización de la vida, no carácter.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pressfield escribe desde una vida que le permitió pasarse diecisiete años intentándolo, sin hijos y sin ataduras, y ese punto de partida no aparece nunca en el libro. No lo invalida, pero explica por qué su diagnóstico se lee muy distinto según quién lo lea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar también lo que el libro no dice, porque se le atribuye mucho. No dice que haya que dejar el trabajo, ni que quien no crea algo esté desperdiciando su vida, ni que el sufrimiento mejore la obra. Dice que hay una cosa que quieres hacer y que hoy tampoco la has hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra cosa que no promete es éxito. Ni ventas, ni reconocimiento, ni que lo que hagas sea bueno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Solo promete que dejarás de sentirte así los días en que trabajes.",
+        },
+      ],
+    },
+    {
+      titulo: "El aficionado y el profesional",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La segunda parte del libro cambia de registro y se vuelve práctica. Su tesis es que la diferencia entre quien lo consigue y quien no es una distinción de actitud que él llama pasar a profesional, y que no tiene nada que ver con cobrar por ello ni con la calidad de lo que haces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo favorito para explicarlo es doméstico y bastante bueno. Nadie falta a su trabajo porque no se sienta inspirado, ni llega tarde a la oficina porque haya dormido mal; sin embargo, esas dos excusas bastan para cancelar cualquier proyecto propio, y a nadie le parece raro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El aficionado ama tanto su arte que no soporta arriesgarlo, así que espera el momento, la inspiración y las condiciones. El profesional lo ama igual y aun así se sienta un martes cualquiera a las nueve, con resaca, sin ideas y sin ganas, porque es lo que hace la gente que va a trabajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pressfield insiste en que el paso de uno a otro no es un proceso, sino una decisión. No hace falta talento, ni permiso, ni dinero, ni haber terminado nada antes: es un cambio de cómo te tratas a ti mismo respecto a esa actividad, y puede ocurrir en cualquier momento de la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte es la más discutible de la sección práctica y la más liberadora a la vez. Como decisión instantánea suena a truco de charla motivacional; como criterio para juzgarte, en cambio, es útil, porque te obliga a mirar los últimos treinta días y contar cuántos apareciste.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El fontanero",
+          frase: "Un fontanero no espera a estar inspirado para arreglar una cañería. Esa comparación es todo el libro en una frase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación es tramposa y aun así funciona. Un fontanero repara algo que ya existe y cobra al terminar; un escritor inventa algo que nadie ha pedido y puede tardar años en cobrar nada. Lo que la analogía transporta bien no es el trabajo, es la relación con las ganas de hacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su lista de rasgos del profesional, que es lo más aprovechable del volumen. Aparece cada día; aparece pase lo que pase; se queda toda la jornada; está comprometido a largo plazo; acepta cobrar; no se identifica del todo con su trabajo; domina la técnica; y se ríe de sí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto de no identificarse con el trabajo es el más fino y el que menos se cita. Si tú eres tu obra, cada crítica es una herida; si la obra es tu oficio, una crítica es información sobre una pieza. Es una manera de sobrevivir a veinte años de rechazos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su regla sobre la crítica, que es de sentido común y cuesta aplicar. Escucha lo que te dicen sobre la obra, ignora lo que te dicen sobre ti y, sobre todo, no confundas un rechazo con un veredicto: el que rechaza está diciendo que no le sirve, no que no valga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro rasgo suyo va contra casi toda la literatura de autoayuda posterior: el profesional no espera que le venga la inspiración, pero tampoco se castiga si el día sale mal. Trabaja como quien va a una oficina, con la misma indiferencia hacia su estado de ánimo y hacia el resultado del día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También pide algo que suena menos heroico y cuesta más: pedir ayuda y aprender la técnica. Su profesional se apunta a cursos, contrata editores, estudia a los que hacen bien lo que él hace mal y no le da ninguna vergüenza. La bohemia del genio autodidacta le parece otra forma de Resistencia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Pressfield lo resume en un gesto que repite cada mañana desde hace décadas. Se sienta, invoca a la musa leyendo unas líneas de la Odisea, escribe unas horas y no vuelve a pensar en el trabajo hasta el día siguiente. Ni relee lo escrito ni lo enseña hasta que termina.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su otra distinción útil es la de territorio y jerarquía. Alguien orientado a la jerarquía se define por su puesto entre los demás, por lo que opinen de él y por dónde queda en la lista; alguien orientado al territorio se define por una actividad que le sostiene mientras la hace.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pressfield sostiene que en la adolescencia todos somos jerárquicos por necesidad, porque el instituto es una jerarquía cerrada, y que el problema es seguir siéndolo a los cuarenta. Es una explicación amable de por qué tanta gente con éxito objetivo sigue sintiéndose exactamente igual de mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La prueba que propone para saber cuál eres es sencilla y buena. Imagina que eres el último ser humano en la tierra y nadie va a ver nunca lo que hagas: si seguirías haciéndolo igual, es tu territorio. Si dejaría de tener sentido, lo que buscabas era el sitio en la lista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La utilidad de esa prueba no es moral sino práctica, y él lo explica bien. Un territorio devuelve energía cada vez que lo pisas, así que se sostiene solo; una jerarquía la consume, porque depende de que otros la confirmen, y por eso se abandona en cuanto llegan varios noes seguidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí es donde el libro discute a gritos con Hábitos atómicos, que está en este catálogo. James Clear sostiene que la fuerza de voluntad es poco fiable y que hay que diseñar el entorno para no necesitarla. Pressfield sostiene lo contrario: que es un acto de voluntad diario y que no hay atajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La discusión tiene ganador según el día y merece la pena verla entera. Clear tiene razón en que un sistema aguanta más que la disciplina, y Pressfield tiene razón en que ningún sistema te salva de la mañana concreta en la que no quieres sentarte y no hay ninguna técnica que lo arregle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la práctica se complementan bastante bien. Del primero se coge la hora fija, el sitio fijo y el teléfono en otra habitación; del segundo, la decisión de aparecer cuando el sistema falla, que es siempre. Nadie que trabaje solo aguanta muchos años con una sola de las dos cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra conversación es con La magia de crear, de Elizabeth Gilbert, también en este catálogo. Gilbert escribió su libro contra la idea del artista sufriente y a favor de la curiosidad y la ligereza, y viene a decir que tratar la creación como una guerra es justo lo que la vuelve insoportable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin embargo coinciden en lo más raro. Los dos creen literalmente en las musas, en que las ideas visitan a la gente y en que quien no se sienta a recibirlas las pierde. Discrepan en el tono, no en la metafísica: uno la trata como un cuartel y la otra como una fiesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El vocabulario militar del libro tampoco es neutral y hay que decirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Enemigo, batalla, soldado, disciplina: a mucha gente eso la pone en marcha y a otra la quema.",
+        },
+      ],
+    },
+    {
+      titulo: "Las musas y los ángeles",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La tercera parte empieza con Pressfield explicando que antes de escribir se lava las manos, se pone el amuleto de la suerte, coloca el cañón de un viejo mortero apuntando a la silla y recita en voz alta la invocación a la musa que abre la Odisea. Lo hace en serio y todos los días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ritual, mirado sin misticismo, es un buen ejemplo de algo que sí funciona. Una secuencia fija de gestos antes de empezar le dice al cuerpo que empieza el turno, y ahorra la negociación diaria sobre si hoy toca o no toca. Eso lo firmaría cualquier manual de hábitos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a partir de ahí el libro cambia de género sin avisar. Sostiene que existen fuerzas que ayudan al que se pone a trabajar, que las ideas tienen voluntad propia, que la obra ya existe en algún sitio y que el trabajo del artista es sobre todo estar disponible para recibirla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cita para ello una frase que atribuye a un alpinista escocés y que se ha repetido mil veces: en cuanto uno se compromete de verdad, la providencia se mueve también. La frase circula desde hace décadas mal atribuida a Goethe, y Pressfield la usa como si fuera una ley natural.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Dónde pierde a la mitad de sus lectores",
+          frase: "El libro pasa de la mesa de trabajo a los ángeles en una página, y no vuelve a bajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El salto no es casual: viene de su propia experiencia y él lo dice. Después de veinte años sin resultados, la explicación que le sirvió no fue psicológica sino religiosa, y decidió contarlo tal cual en vez de traducirlo a un lenguaje que le hubiera dado más credibilidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una idea aprovechable ahí dentro, aunque venga envuelta en misticismo. Es la del roble dentro de la bellota: que cada persona trae ya una forma que le corresponde desarrollar. Pressfield la toma de El código del alma, de James Hillman, y lo cita, cosa que hace pocas veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción evidente a esa imagen es que las bellotas no eligen y las personas sí. Si todo el mundo trae un roble dentro, entonces cambiar de rumbo a los treinta es traicionar un destino en vez de tomar una decisión, y ahí el libro se pone bastante más rígido de lo que le conviene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión práctica de esa idea sí se sostiene sin creer en nada. No hace falta inventarse un destino: basta con fijarse en qué es eso que has intentado abandonar varias veces y que sigue volviendo. Esa insistencia es un dato sobre ti, con musa o sin ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un corolario que el libro no dice pero se deduce solo. Si algo lleva veinte años sin volver, probablemente no era tuyo, y soltarlo no es rendirse: es dejar de pagar el alquiler de una vida que no vas a vivir. Pressfield nunca da permiso para abandonar nada, y a veces hace falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay una defensa interesante de la duda. Pressfield dice que la duda es amiga y el miedo es útil, y que quien no siente ninguna de las dos cosas ante un proyecto probablemente está haciendo algo que no le importa. Es la única página del libro que trata la inseguridad con respeto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Distingue además dos cosas que se confunden siempre: dudar de si vales y dudar de si el proyecto vale. La primera duda, dice, la tiene todo el mundo y no informa de nada; la segunda es un juicio profesional que conviene escuchar, y solo se puede emitir con la obra ya avanzada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su idea más provocadora de esta parte es que el ego y la Resistencia son la misma cosa. El ego, dice, quiere que sigas siendo quien eras ayer, porque cualquier obra nueva te obliga a cambiar; y por eso el bloqueo aparece con más fuerza justo antes de un salto, no en las tareas rutinarias.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Su retrato del profesional es concreto. Aparece cada día a la misma hora. Se queda toda la jornada. Aguanta a largo plazo. Acepta que le paguen. No se identifica tanto con su trabajo como para hundirse cuando falla. Domina la técnica. Y sobre todo: no espera a la inspiración, porque sabe que la inspiración llega cuando ya estás sentado, no antes.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La frase que resume el libro",
-          frase: "El aficionado espera a estar inspirado. El profesional sabe que la inspiración viene después de empezar.",
+            "De ahí sale su explicación de por qué la gente cercana a veces sabotea. Cuando alguien de un grupo empieza a cambiar, el resto siente la misma amenaza en pequeño, y por eso aparecen las bromas y los consejos prudentes justo cuando anuncias que vas en serio con algo.",
         },
         {
           forma: "texto",
           texto:
-            "Y una anécdota que remata la idea. El día que terminó su primera novela, después de años, llamó a su mentor y le dijo que lo había conseguido. El otro le felicitó y añadió una sola frase: «empieza la siguiente mañana». Terminar no es la meta; volver a sentarse sí.",
+            "Esa observación es la más comprobable de la parte mística y cualquiera la ha vivido. El día que más cuesta ponerse suele ser el que sigue a un avance, y el proyecto que más se aplaza es siempre el que más te expondría. No hace falta ningún ángel para reconocerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora bien, hay que decir lo que la parte mística hace mal, porque es bastante. Convierte una descripción psicológica en una cosmología, con entidades que ayudan y entidades que estorban, y a partir de ahí la única prueba disponible es la experiencia personal del autor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tiene además un efecto raro sobre el propio argumento del libro. Si hay fuerzas invisibles que hacen la mitad del trabajo, la disciplina heroica de la segunda parte pierde sentido, y el libro acaba defendiendo a la vez que todo depende de ti y que en realidad no depende de ti.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y crea un efecto secundario feo, que es el reproche implícito. Si el universo colabora con quien se pone a trabajar, quien no ha conseguido nada tampoco se puso, y ahí volvemos a la trampa que ya arrastra el concepto de Resistencia desde la primera parte del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es exactamente el mismo mecanismo que sostiene El alquimista, que está en este catálogo. Coelho dice que el universo conspira a favor del que quiere de verdad; Pressfield dice que aparecen fuerzas invisibles a ayudar al que se sienta. Son la misma frase con distinto uniforme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia es que Pressfield, a diferencia de Coelho, sí pone el precio delante. Sus fuerzas invisibles no traen dinero ni éxito ni lectores: como mucho traen la posibilidad de trabajar bien un martes. Es una promesa mucho más pequeña y por eso resulta menos tramposa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una consecuencia de esa modestia que conviene retener. Si lo único prometido es el trabajo del día, entonces el fracaso comercial deja de ser una refutación de nada, y eso protege bastante mejor que cualquier promesa de que el universo colabora con quien insiste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La recomendación razonable con esta parte es la que da el propio autor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Léela como una descripción de cómo se siente el oficio, no como una descripción de cómo funciona el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con eso, las cuarenta páginas se aprovechan enteras.",
         },
       ],
     },
-
     {
-      titulo: "La parte discutible",
+      titulo: "Sentarse otra vez mañana",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La tercera parte del libro es donde mucha gente se baja. Pressfield sostiene que existen musas literales, ángeles y fuerzas superiores que acuden cuando demuestras compromiso, y describe un pequeño ritual de invocación antes de escribir. Lo dice en serio, no como metáfora.",
+            "Puestos a hacer inventario, este libro tiene tres cosas que sirven de verdad. Le pone nombre a una sensación que casi nadie sabe nombrar; da una regla para usar el miedo como brújula; y describe con precisión cómo se comporta alguien que ha decidido tratar su afición como un oficio.",
         },
         {
           forma: "texto",
           texto:
-            "Se puede leer como superstición y saltárselo sin perder nada. Pero conviene rescatar el fondo, que sí aguanta: dejar de esperar a sentirte capaz y actuar como si ya lo fueras. El compromiso no llega después de la confianza; la confianza llega después del compromiso.",
+            "Y hay una cuarta que solo se aprecia releyéndolo. El libro no habla nunca de talento, y esa ausencia es deliberada: al no mencionarlo, quita de la mesa la única excusa contra la que no hay respuesta posible, y deja al lector solo con la parte que sí puede controlar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene tres que conviene desactivar antes de aplicarlo. No distingue entre bloqueo y falta de tiempo, no admite ningún resultado que lo desmienta, y su vocabulario de guerra empuja a mucha gente hacia una autoexigencia que produce más parálisis que trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa última es la que más daño hace en la práctica. Quien ya se castiga a sí mismo por no producir bastante encuentra en este libro munición nueva, porque le da nombre de enemigo a su propio agotamiento. Para ese lector, La magia de crear es mejor medicina que esta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El filtro",
+          frase: "Si tienes tiempo y no te pones, el libro te sirve. Si no tienes tiempo, el problema no es tuyo y este libro no lo ve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción importa porque cambia a quién va dirigido. La guerra del arte es un libro para el que tiene dos horas libres al día y las gasta mirando el teléfono, no para el que sale de trabajar a las ocho y llega a casa con la comida sin hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para ese lector la pregunta útil es otra: cuánto tiempo hay de verdad y qué cabe en media hora. Media hora diaria durante un año son ciento ochenta horas, que es un libro corto o un disco. El libro nunca hace esa cuenta, y es la que más falta le hace.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con ese filtro puesto, la parte que sobrevive es sólida y es corta. Elige una cosa, ponle una hora fija, aparece a esa hora todos los días laborables, no juzgues lo que sale hasta haber terminado, y no esperes ningún premio por haberlo hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena subrayar lo de no juzgar hasta terminar, porque es lo que más gente incumple. Escribir y corregir a la vez es como conducir con el freno de mano: son dos operaciones mentales distintas, y hacerlas juntas produce páginas mediocres y una sensación permanente de fracaso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pressfield insiste mucho en un detalle práctico que suele funcionar. La batalla no está en escribir bien, está en sentarse; una vez sentado, casi siempre sale algo. Por eso conviene medir el día en horas de silla y no en calidad de lo producido, que es una vara imposible de aplicar en caliente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es también la única métrica que el libro propone, y es deliberadamente pobre. No cuenta palabras, ni objetivos, ni progreso: cuenta días en que apareciste. Con una vara así, un mal día trabajado vale igual que uno bueno, y eso hace mucho más difícil abandonar la semana siguiente.",
         },
         {
           forma: "arte",
           texto:
-            "Hay otra crítica justa: su tono es de sargento y su ideal —presentarse todos los días sin excusas— no distingue entre pereza y agotamiento real. Aplicado a alguien que atraviesa una depresión o cuida de otros, ese discurso hace daño en vez de ayudar.",
-          arte: "noche",
+            "También recomienda empezar antes de estar listo, y esa es probablemente la frase que más gente le ha copiado después. Nunca vas a estar listo, porque estar listo es una condición que la Resistencia sabe alargar indefinidamente añadiendo un requisito más cada vez que cumples el anterior.",
+          arte: "explorar",
         },
         {
           forma: "texto",
           texto:
-            "Hay una distinción suya que vale por medio libro: la diferencia entre el que hace y el que habla de hacer. Pressfield señala que la Resistencia adora las conversaciones sobre proyectos — la novela que vas a escribir, el negocio que vas a montar— porque hablar de ello da casi la misma satisfacción que hacerlo y no cuesta nada. Su consejo es incómodo y práctico: no cuentes lo que estás haciendo hasta que esté hecho. Cada vez que lo narras gastas parte del combustible que necesitabas para terminarlo, y la aprobación que recibes al contarlo sustituye a la que ibas a buscar acabándolo.",
+            "Su argumento a favor de empezar mal tiene además una base práctica reconocible. Solo se puede pensar sobre algo que ya existe: mientras el proyecto está en la cabeza es perfecto y no se puede corregir, y en cuanto hay tres páginas malas encima de la mesa aparecen los problemas reales.",
         },
         {
-          forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "Aquello que más te cuesta empezar es exactamente lo que tienes que empezar. La resistencia señala el camino.",
+          forma: "texto",
+          texto:
+            "Su regla contra el bloqueo de la página en blanco es igual de tosca y funciona parecido. Si no sabes cómo empezar, empieza mal a propósito y en voz baja, escribiendo la peor versión posible, porque corregir algo malo es un trabajo mecánico y crear de la nada no lo es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir también qué tipo de lector se equivoca con este libro. Quien busque un método, un sistema o una técnica no va a encontrar nada: no hay horarios propuestos, ni herramientas, ni tablas, ni ejercicios. Es un libro de moral del trabajo, no de organización del trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quien busque consuelo tampoco lo va a encontrar aquí. El libro no dice que no pasa nada, ni que ya llegará, ni que descanses: dice que hoy no has trabajado y que eso tiene un coste. Es un tono que a unos les ordena la semana y a otros les arruina el domingo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quien lo lea para motivarse va a durar poco. La motivación que da dura tres días, como toda, y el libro lo sabe: por eso su tesis es exactamente que hay que trabajar sin ella, que es lo contrario de lo que promete la industria de las charlas y los vídeos que lo citan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una paradoja divertida que el libro más citado por la industria motivacional sea el que dice que la motivación no sirve. Pressfield no promete entusiasmo: promete que el entusiasmo es irrelevante, y que lo único que hay que asegurar es la presencia a una hora concreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pressfield escribió después dos libros más sobre lo mismo, más cortos y menos citados, y ninguno añade gran cosa. Este funcionó porque llegó primero y porque cabía en un bolsillo: se lee en dos horas y se puede releer solo el capítulo que hace falta el día que hace falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir por último qué tipo de libro es en la estantería. No es un tratado sobre la creación ni una poética: es una arenga, del género de las que se leen antes de salir al campo. Juzgado como arenga es excelente, y juzgado como cualquier otra cosa se cae en veinte páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen que deja después de leerlo no es ninguna de sus frases célebres. Es la del propio autor con cincuenta años y ninguna publicación encima de la mesa, sentándose otra vez porque su amigo le dijo por teléfono que empezara la siguiente al día siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es lo que el libro pide, y no pide nada más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mañana, a la misma hora, sin haberte convencido antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y pasado mañana otra vez.",
         },
       ],
     },
