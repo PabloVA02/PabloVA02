@@ -3,7 +3,7 @@ import type { Libro } from "../Biblioteca";
 import type { Categoria } from "./catalogo";
 import { CATALOGO } from "./catalogo";
 import { RESUMENES } from "./indice";
-import { minutos } from "./tipos";
+import { minutos, minutosParte } from "./tipos";
 import {
   AmanteArte, AmanteArteVB, Analisis, AnalisisVB, ArtistaTrabajando, ArtistaTrabajandoVB,
   Aventura, AventuraVB, Descubrir, DescubrirVB, Docente, DocenteVB, Explorando, ExplorandoVB,
@@ -117,7 +117,7 @@ export const LIBROS_RESUMEN: Libro[] = CATALOGO.flatMap((ficha) => {
       progreso: 0,
       ano: r.ano,
       minutos: minutos(r),
-      capitulos: r.partes.map((p) => ({ titulo: p.titulo })),
+      capitulos: r.partes.map((p) => ({ titulo: p.titulo, minutos: minutosParte(p) })),
       jugable: true,
     } satisfies Libro,
   ];

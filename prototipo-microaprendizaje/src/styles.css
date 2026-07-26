@@ -1315,8 +1315,10 @@ button {
   transform: rotate(45deg);
 }
 
+.nodo-rotulo { margin-top: 9px; }
+
 .nodo-nombre {
-  margin: 9px 0 0;
+  margin: 0;
   font-size: 12px;
   line-height: 1.28;
   text-align: center;
@@ -1324,6 +1326,19 @@ button {
   letter-spacing: -0.005em;
 }
 .nodo-nombre[data-bloqueado="true"] { color: rgba(242, 236, 225, 0.36); }
+
+/* Los minutos de la parada. Van bajo el título y en un tono más bajo: dan el
+   dato sin competir con el nombre del capítulo, que es lo que se lee primero. */
+.nodo-min {
+  margin: 3px 0 0;
+  font-size: 10.5px;
+  line-height: 1;
+  text-align: center;
+  color: rgba(242, 236, 225, 0.42);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+.nodo-min[data-bloqueado="true"] { color: rgba(242, 236, 225, 0.24); }
 
 .camino-meta {
   position: absolute;

@@ -59,6 +59,8 @@ export function Camino({ libro, completados, onVolver, onEmpezar }: Props) {
   const capitulos = libro.capitulos;
   const alto = MARGEN_SUP + (capitulos.length - 1) * PASO + 130;
   const actual = Math.min(completados, capitulos.length - 1);
+  // Duración del viaje entero: la suma de las paradas, no un número a mano.
+  const total = capitulos.reduce((a, c) => a + (c.minutos ?? 0), 0);
 
   // Al entrar, el camino se coloca sobre el capítulo actual: en un libro
   // largo, obligar a buscarlo desplazándose sería justo lo tedioso que se
@@ -85,6 +87,7 @@ export function Camino({ libro, completados, onVolver, onEmpezar }: Props) {
           <p className="camino-libro">{libro.titulo}</p>
           <p className="camino-progreso">
             {completados} de {capitulos.length} capítulos
+            {total > 0 && ` · ${Math.round(total)} min`}
           </p>
         </div>
         <Portada libro={libro} tamano={40} />
@@ -190,15 +193,21 @@ export function Camino({ libro, completados, onVolver, onEmpezar }: Props) {
                   {hecho ? <GlyphTick /> : bloqueado ? <GlyphCandado /> : <span>{i + 1}</span>}
                 </motion.button>
 
-                <motion.p
-                  className="nodo-nombre"
-                  data-bloqueado={bloqueado}
+                <motion.div
+                  className="nodo-rotulo"
                   initial={{ opacity: 0, y: 6 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ ...spring, delay: 0.3 + i * 0.08 }}
                 >
-                  {cap.titulo}
-                </motion.p>
+                  <p className="nodo-nombre" data-bloqueado={bloqueado}>
+                    {cap.titulo}
+                  </p>
+                  {cap.minutos != null && (
+                    <p className="nodo-min" data-bloqueado={bloqueado}>
+                      {Math.round(cap.minutos)} min
+                    </p>
+                  )}
+                </motion.div>
               </div>
             );
           })}

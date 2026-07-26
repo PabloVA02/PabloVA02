@@ -39,7 +39,7 @@ export type Libro = {
   progreso: number;
   coleccion?: string;
   /** Capítulos del libro. El primero es el único jugable en el prototipo. */
-  capitulos: { titulo: string }[];
+  capitulos: { titulo: string; minutos?: number }[];
   /** Los de la biblioteca de resúmenes son jugables enteros. */
   jugable?: boolean;
   /** Año de publicación. Solo los resúmenes de libros reales lo traen. */
