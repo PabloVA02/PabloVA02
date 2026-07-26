@@ -964,3 +964,554 @@ export const STEVE_JOBS: Resumen = {
     },
   ],
 };
+
+export const INVERSOR_INTELIGENTE: Resumen = {
+  id: "inversor-inteligente",
+  titulo: "El inversor inteligente",
+  autor: "Benjamin Graham",
+  ano: 1949,
+  gancho: "Buffett lo leyó a los diecinueve años y lo llama el mejor libro de inversión jamás escrito. Su autor casi se arruina en 1929 antes de escribirlo.",
+  porQue:
+    "Porque no va de elegir acciones: va de temperamento. Y porque el propio Graham acabó desdiciéndose de casi todo su método poco antes de morir.",
+  partes: [
+    {
+      titulo: "El pánico de 1907",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Nueva York, otoño de 1907. Una viuda con tres hijos pequeños abre el sobre del corredor de bolsa y descubre que ha perdido el dinero que le quedaba. Había invertido a crédito en acciones de una compañía ferroviaria. El pánico bancario de aquel año se lo llevó todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Dorothy Grossbaum. Su marido, importador de porcelana, había muerto dos años antes dejando el negocio sin liquidez. Uno de sus hijos, Benjamin, tenía trece años y estaba viendo cómo su familia pasaba de la clase media acomodada a la pobreza en menos de tres años.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La escena que lo explica todo",
+          frase: "Graham vio a su madre arruinada por comprar acciones a crédito con dinero que no podía perder. Cuarenta años después escribió un libro entero cuya única obsesión es no perder.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contaba de mayor una escena de aquella época que no se le fue nunca: su madre le mandó al banco a cambiar un cheque, el cajero preguntó en voz alta si aquella señora tenía fondos, y él tuvo que quedarse allí esperando delante de la cola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estudió con una beca en Columbia y salió el segundo de su promoción en 1914. Le ofrecieron plaza de profesor en tres departamentos distintos —inglés, matemáticas y filosofía—, y rechazó las tres. Necesitaba dinero y se fue a Wall Street de recadero por doce dólares a la semana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La familia se había cambiado el apellido de Grossbaum a Graham por el antisemitismo de la época. Ese detalle explica por qué un chico con expediente de matrícula y tres ofertas académicas acabó llevando cotizaciones en un tablón.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Subió deprisa. En diez años era socio de una firma y ganaba una fortuna. En 1926 fundó con Jerome Newman su propia sociedad de inversión. Y en 1929 le pasó lo mismo que a su madre, con la diferencia de que él era el profesional que debía haberlo visto venir.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su fondo perdió alrededor del setenta por ciento entre 1929 y 1932. No lo hizo peor que el mercado, que cayó todavía más, pero eso no es un consuelo cuando el dinero es de tus clientes. Estuvo cinco años trabajando sin cobrar comisiones para recuperarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el dato que hay que tener presente al leerlo. «El inversor inteligente» no lo escribe alguien que siempre acertó: lo escribe un hombre que se arruinó dos veces, una de rebote y otra por su propia cuenta, y que dedicó el resto de su vida a que no volviera a pasarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Volvió a Columbia a dar clase en 1928, y siguió durante casi treinta años mientras gestionaba el fondo. En 1934 publicó con David Dodd «Security Analysis», el manual técnico, seiscientas páginas de contabilidad. Es el libro que fundó el análisis fundamental como disciplina.",
+        },
+        {
+          forma: "clave",
+          rotulo: "1949",
+          frase: "«El inversor inteligente» es la versión para el que no es profesional. Y su tesis es que ese lector puede hacerlo bien, siempre que entienda que su problema no son los mercados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que abre el libro y que lo resume entero: el principal problema del inversor, e incluso su peor enemigo, es probablemente él mismo. No dice el mercado, ni los intermediarios, ni la falta de información. Dice el propio inversor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera distinción que establece es la que casi nadie hace y la que más falta hace. Una operación de inversión, escribe, es aquella que tras un análisis profundo promete seguridad del principal y un rendimiento adecuado. Las que no cumplen eso son especulativas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una definición y no un insulto. Graham no dice que especular esté mal: dice que hay que saber cuál de las dos cosas se está haciendo, y que el desastre llega cuando alguien especula creyendo que invierte, porque entonces no toma ninguna de las precauciones que tocan.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su regla práctica es de una sensatez brutal: si se quiere especular, hágase, pero con una cuenta aparte, con una cantidad pequeña, sin aportar nunca más dinero a esa cuenta y sin mezclarla jamás con el patrimonio serio. Nunca especular con dinero que se necesita.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda distinción es entre dos tipos de inversor, y aquí desmonta otro tópico. Al que se conforma con lo normal lo llama defensivo, y al que dedica tiempo y esfuerzo, emprendedor. La diferencia no es la tolerancia al riesgo: es cuántas horas está dispuesto a trabajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y avisa de algo que la industria financiera no repite nunca: el inversor defensivo bien organizado obtendrá resultados perfectamente aceptables con muy poco esfuerzo, mientras que el emprendedor que no dedique el tiempo de verdad obtendrá resultados peores que el primero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: el término medio es el peor sitio. Dedicarle un poco de esfuerzo es peor que no dedicarle ninguno, porque produce la ilusión de control sin el trabajo que la justifica. Esa observación, de 1949, describe con precisión al inversor particular medio de hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para el defensivo su receta es sencilla: repartir entre acciones y bonos, nunca menos de un veinticinco por ciento en ninguno de los dos, comprar a intervalos regulares con la misma cantidad, diversificar bastante y no mirar mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y luego llega el capítulo ocho, que trata sobre las fluctuaciones del mercado y que contiene la mejor metáfora que se ha escrito nunca sobre la bolsa. Buffett dice que es uno de los dos únicos capítulos del libro que hay que leer sí o sí.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que perdió en 1929",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Antes del capítulo ocho, Graham dedica una parte enorme del libro a lo que él llama la historia del mercado, y no es relleno: es la munición del resto. Repasa décadas de manías, de rachas y de hundimientos, con los números delante y sin dramatizar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su objetivo es demostrar una cosa incómoda: en cada burbuja hay una explicación perfectamente razonable de por qué esta vez es diferente, y esa explicación suele ser cierta en los hechos y falsa en las conclusiones. La tecnología era real. La demanda era real. El precio no.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla que saca",
+          frase: "Cuanto mejor sean las noticias sobre una empresa y más obvio parezca su futuro, más gente habrá pagado por adelantado ese futuro, y menos rentabilidad quedará para el que llega.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo de 1949 era la aviación. Todo el mundo veía que el transporte aéreo iba a crecer muchísimo, y acertaban: creció. Y los inversores en aerolíneas perdieron dinero durante décadas, porque la industria era feroz, intensiva en capital y sin apenas márgenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa disociación entre crecimiento del sector y rentabilidad del accionista es una de sus mejores lecciones, y se ha repetido tantas veces desde entonces —radio, ferrocarril, internet en 2000— que se ha convertido en una regla del oficio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También ataca frontalmente la previsión. Sostiene que nadie puede predecir el mercado, que los que aciertan una vez no aciertan la siguiente y que toda estrategia basada en entrar y salir en el momento adecuado fracasa por una razón matemática: hay que acertar dos veces.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su alternativa no es adivinar sino prepararse. En vez de preguntarse qué va a hacer el mercado, propone preguntarse qué pasa con mi cartera si cae a la mitad. Si la respuesta es que no podría soportarlo, el problema no es la predicción: es que la cartera está mal montada.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale una de sus herramientas más útiles y menos citadas: la asignación fija con rebalanceo. Se decide un reparto, por ejemplo mitad acciones y mitad bonos, y se restablece periódicamente vendiendo lo que ha subido y comprando lo que ha bajado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hace esa mecánica es obligar al inversor a hacer lo contrario de lo que le pide el cuerpo, sin tener que decidirlo cada vez. Es una regla que sustituye al criterio, y Graham confía mucho más en las reglas que en el criterio, incluido el suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También dedica páginas duras a los intermediarios. Advierte de que el corredor gana con las operaciones y no con los resultados, de que los fondos con comisiones altas rara vez las justifican, y de que la mayoría de los consejos gratuitos que recibe un particular no son gratis.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El aviso de 1949",
+          frase: "Escribió que la mayoría de los gestores profesionales no baten al índice de forma sostenida. Décadas de datos posteriores le han dado la razón con una contundencia que él no llegó a ver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre la inflación tiene un capítulo entero que en 1949 parecía técnico y hoy se lee de otra manera. Su punto es que el rendimiento nominal no significa nada, que hay que descontar siempre la subida de precios y que un bono al tres por ciento con inflación al cinco pierde dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una idea que sigue siendo válida y que casi nadie aplica: el mayor riesgo de una cartera muy conservadora no es perder dinero de golpe, sino perderlo lentamente durante veinte años sin que se note, porque los números en la cuenta suben mientras el poder de compra baja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo esto va desembocando en la pregunta que le interesa de verdad: si no se puede predecir el mercado, y las buenas noticias ya están en el precio, y los profesionales no baten al índice, ¿qué se supone que puede hacer un particular sensato?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta ocupa dos capítulos y no habla de análisis. Habla de cómo comportarse cuando el precio se mueve. Porque para Graham el mercado no es una fuente de información sobre el valor de las cosas: es una fuente de oportunidades creada por el estado de ánimo ajeno.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y para explicarlo se inventa un personaje. Es una alegoría sencilla, casi infantil, que lleva setenta años siendo la mejor explicación disponible de qué es una cotización y qué relación conviene tener con ella.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Imagine, escribe, que usted tiene una pequeña participación en un negocio privado que le costó mil dólares. Uno de sus socios se llama, digamos, señor Mercado, y es un hombre muy servicial y muy poco equilibrado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todos los días, sin falta, ese socio se presenta y le dice a qué precio le compraría su parte y a qué precio le vendería la suya. Todos los días. Y su precio depende por completo de cómo se haya levantado, no de cómo vaya el negocio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Algunos días ve el futuro maravilloso y le ofrece una cifra altísima. Otros lo ve todo negro y le ofrece una miseria. El negocio no ha cambiado. Las fábricas siguen ahí, los clientes también, y las cuentas del trimestre son las mismas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora la pregunta de Graham: ¿usted dejaría que ese hombre le dijera cuánto vale su empresa?",
+        },
+      ],
+    },
+
+    {
+      titulo: "El señor Mercado",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La respuesta obvia es que no. Nadie con un negocio real dejaría que un socio maníaco-depresivo le tasara la empresa cada mañana. Y sin embargo eso es exactamente lo que hace la mayoría de la gente que tiene acciones: mirar el precio y deducir de él cuánto valen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión de Graham es de una sola línea y es la más importante de todo el libro: el señor Mercado está ahí para servirle, no para guiarle. Su cotización diaria es una oferta, no una tasación. Se puede aceptar, rechazar o ignorar sin dar explicaciones.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El giro completo",
+          frase: "Una caída deja de ser una mala noticia y pasa a ser una rebaja, siempre que el negocio de debajo no haya cambiado. La pregunta no es cuánto he perdido: es si ha cambiado la empresa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción entre precio y valor es la base de toda la escuela que Graham fundó. El precio es lo que dice el señor Mercado hoy. El valor es lo que produce el negocio: sus beneficios, sus activos, su capacidad de generar caja durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A corto plazo los dos números no tienen por qué parecerse en nada. Graham lo formuló con una frase que Buffett cita constantemente: a corto plazo el mercado es una máquina de votar, y a largo plazo es una máquina de pesar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el corto plazo el precio refleja popularidad, miedo, moda y titulares. En el largo, un negocio que gana dinero acaba valiendo lo que gana. El problema es que largo plazo puede significar cinco o diez años, y ahí es donde casi todo el mundo se rinde.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De ahí sale la consecuencia práctica que más incomoda: la volatilidad, para Graham, no es riesgo. Que una acción suba y baje mucho no significa que sea peligrosa. El riesgo es la posibilidad de una pérdida permanente, y eso depende del precio pagado y del negocio, no del gráfico.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa definición choca frontalmente con la teoría financiera moderna, que mide el riesgo como volatilidad y lo mete en sus modelos. Graham diría que un negocio sólido comprado barato que oscila mucho es menos arriesgado que uno estable comprado carísimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro capítulo que Buffett considera imprescindible es el veinte, el último, y contiene el concepto que Graham consideraba el resumen de toda su obra en tres palabras: margen de seguridad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea es la del ingeniero. Si un puente tiene que soportar treinta toneladas, se construye para aguantar cien. No porque se espere que pasen camiones de cien toneladas, sino porque los cálculos pueden estar mal, los materiales pueden fallar y el futuro es desconocido.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Margen de seguridad",
+          frase: "Comprar con un descuento tan grande sobre el valor estimado que, aunque te equivoques bastante en la estimación, sigas sin perder dinero. No es optimizar: es dejar sitio al error.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Graham insiste en que ese margen no sirve para ganar más, sino para sobrevivir a estar equivocado. Y dice algo que muy pocos gestores admiten: da por supuesto que el inversor se equivocará con frecuencia, incluido él mismo, y diseña todo el método alrededor de esa certeza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí salen sus criterios concretos, que ocupan varios capítulos y que son la parte más envejecida del libro. Empresas grandes, con beneficios en los últimos diez años sin ninguna pérdida, con dividendo ininterrumpido durante veinte, con deuda controlada y con activo corriente al menos el doble del pasivo corriente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dos filtros de precio: pagar menos de quince veces los beneficios medios de los últimos tres años y menos de una vez y media el valor contable. O bien, si uno de los dos se pasa un poco, que el producto de ambos no supere una cifra que él fija en veintidós y medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También propone una técnica más agresiva para el inversor emprendedor, que se ha hecho famosa con el nombre de colillas: comprar empresas cuya capitalización es inferior a su activo circulante neto, es decir, empresas que valen menos en bolsa que el dinero y las existencias que tienen.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Buffett empezó así y ganó mucho dinero con ello, y luego lo abandonó. Su imagen es la que dio nombre al método: son colillas encontradas en el suelo, a las que les queda una calada gratis. La calada sale gratis, pero hay que agacharse mucho y son negocios malos.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí está la ironía más grande de la carrera de Graham, y la cuenta él mismo en el libro con toda honestidad. Su propia sociedad hizo casi todo su dinero con una sola operación, y esa operación violaba de plano sus reglas de diversificación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1948, Graham-Newman compró la mitad de una aseguradora de automóviles llamada GEICO por unos setecientos mil dólares. Era una parte enorme del fondo puesta en una sola empresa, exactamente lo que su libro dice que no debe hacerse jamás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con los años, esa participación acabó valiendo más que todas las demás inversiones del fondo juntas. Graham lo escribió sin adornos: un solo golpe de suerte, o una sola decisión extraordinariamente acertada, puede superar el resultado de toda una vida de trabajo cuidadoso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la frase de un hombre honrado. Y plantea una pregunta que el propio Graham se hizo hacia el final de su vida, y que contestó de una manera que casi ninguno de sus seguidores repite en voz alta.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El margen de seguridad",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Columbia, primavera de 1951. Un estudiante de veinte años llamado Warren Buffett está en la clase de Graham. Ha leído «El inversor inteligente» a los diecinueve y dice que fue como encontrar la religión. Es el único alumno al que Graham puso un sobresaliente en veintidós años de docencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al acabar la carrera, Buffett se ofreció a trabajar gratis en Graham-Newman. Graham le dijo que no. Le contestó, y esto Buffett lo ha contado muchas veces, que las firmas de Wall Street no contrataban judíos y que él reservaba las pocas plazas que tenía para ellos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El detalle que dice quién era",
+          frase: "Graham rechazó al mejor alumno de su vida porque quería usar esas plazas para dar trabajo a gente a la que nadie más se lo daba. Buffett entró dos años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Buffett escribió el prólogo de la edición revisada de 2003 y allí dice tres cosas útiles. Que este es el mejor libro de inversión jamás escrito. Que los capítulos que importan son el ocho y el veinte. Y que si uno sigue esos dos, no puede obtener un mal resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade la frase que ordena todo lo demás: para invertir bien no hace falta un coeficiente intelectual extraordinario, ni información privilegiada, ni una visión especial del negocio. Hace falta un marco intelectual sólido y la capacidad de que las emociones no lo destruyan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es exactamente el argumento del libro. Graham no promete un método para acertar más: promete un método para no arruinarse, y sostiene que en los mercados no arruinarse durante treinta años produce un resultado extraordinario por pura acumulación.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su aritmética es incontestable. Perder un cincuenta por ciento exige después ganar un cien por cien solo para volver al punto de partida. Por eso todo el sistema se construye alrededor de evitar los desastres y no de maximizar los aciertos.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Buffett, sin embargo, acabó apartándose de su maestro, y conviene decirlo porque casi nadie lo cuenta. La influencia de Charlie Munger le llevó de comprar empresas mediocres a precio de saldo a comprar empresas excelentes a precio razonable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su frase resume el cambio: es mucho mejor comprar una empresa maravillosa a un precio justo que una empresa justa a un precio maravilloso. Eso es una corrección a Graham, no una aplicación, y Buffett lo ha reconocido siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El motivo del cambio es que el método de las colillas dejó de funcionar. Cuando Graham escribía, la información contable era escasa, no había ordenadores y se podían encontrar empresas cotizando por debajo de su caja. Hoy hay pantallas que filtran todo el mercado en dos segundos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que caducó",
+          frase: "Los filtros concretos de Graham. En una economía donde el valor está en marcas, software y patentes, el valor contable dice muy poco, y un filtro de precio sobre libros excluye a casi todas las buenas empresas de los últimos treinta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el principal defecto del libro leído hoy, y es serio. Quien aplique literalmente los criterios numéricos de Graham se quedará fuera de prácticamente toda la creación de valor de las últimas décadas, porque esos criterios están calibrados para una economía industrial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo defecto es de prosa. Graham escribe como un abogado de los años cuarenta: frases largas, subordinadas, vocabulario técnico sin explicar. La edición que se recomienda es la de 1973 con los comentarios de Jason Zweig, que traduce los ejemplos al presente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sin esos comentarios, buena parte del libro son análisis detallados de empresas de los años sesenta que ya no existen. Con ellos, el volumen se va a las seiscientas páginas y se convierte en dos libros entrelazados, lo cual tampoco ayuda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer defecto es la falta de instrucciones para el caso más común. Graham escribe para alguien que va a comprar acciones concretas. No contempla al inversor de hoy, que probablemente debería limitarse a comprar un fondo indexado y no volver a mirarlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aunque, y esto es notable, sus recomendaciones para el inversor defensivo se parecen muchísimo a comprar el índice: diversificación amplia, aportaciones periódicas de la misma cantidad, reparto fijo entre renta fija y variable, y no tocar. Le faltaba el producto, no la idea.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto defecto es que sobreestima la capacidad del particular para hacer análisis. Graham dedica capítulos a interpretar balances suponiendo un lector con formación contable, y el lector real medio de este libro no tiene esa formación ni la va a adquirir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no ha caducado en absoluto son las dos ideas centrales. El señor Mercado sigue apareciendo cada mañana con un precio distinto, y sigue estando ahí para servir y no para guiar. Y el margen de seguridad sigue siendo la única protección contra estar equivocado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una tercera que envejece mejor cada año: que el enemigo es uno mismo. Ninguna herramienta moderna ha reducido esa parte. Las aplicaciones que permiten comprar en tres segundos desde el móvil han hecho que el diagnóstico de Graham sea más certero que en 1949.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda una última cosa, y es la más incómoda de todas. En 1976, con ochenta y dos años y unos meses antes de morir, Benjamin Graham concedió una entrevista en la que dijo algo que contradice buena parte del libro que le hizo célebre.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que dijo en 1976",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La entrevista se publicó en una revista profesional de analistas financieros. Graham vivía ya retirado, a caballo entre California y el sur de Francia. Le preguntaron por el análisis de valores, la disciplina que él había fundado y que enseñaba media Wall Street.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contestó que ya no era partidario de las técnicas elaboradas de análisis de valores para encontrar oportunidades. Que eso tenía sentido cuarenta años antes, cuando su libro se publicó por primera vez, y que la situación había cambiado por completo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dijo exactamente",
+          frase: "Que el esfuerzo de analizar valores individuales ya no compensaba, porque tanta gente lo hacía que los precios reflejaban esa información. Y que prefería un método sistemático y simple.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es, en la práctica, una descripción anticipada de lo que hoy llamamos inversión indexada y sistemática. El hombre que inventó el análisis fundamental dijo, poco antes de morir, que el mercado se había vuelto demasiado eficiente como para que aquello mereciera la pena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa entrevista rara vez se cita en el mundo del value investing, y se entiende: es incómoda para toda una industria que vive de aplicar sus métodos. Pero está publicada, es verificable y es de las cosas más honradas que ha dicho un maestro sobre su propia escuela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene decir lo que no dijo. No dijo que el margen de seguridad estuviera obsoleto ni que el señor Mercado hubiera dejado de existir. Lo que abandonó fue el trabajo de análisis detallado, no el marco mental. La disciplina emocional la mantuvo hasta el final.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su propuesta en aquella entrevista era un método casi mecánico: comprar una cesta amplia de acciones que cumplieran uno o dos criterios simples de precio, mantenerlas un tiempo fijo y venderlas por regla, sin análisis individual y sin ninguna intervención del criterio.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es coherente con todo lo demás que escribió. Graham desconfiaba profundamente del juicio humano, incluido el suyo, y su carrera entera consistió en sustituir criterio por reglas. Al final de su vida llevó esa desconfianza hasta el extremo lógico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió el 21 de septiembre de 1976 en Aix-en-Provence, en el sur de Francia, a los ochenta y dos años. Había traducido poesía española, escrito una obra de teatro que se estrenó en Broadway y hablaba latín, griego, alemán, francés y español.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su vida privada fue considerablemente más desordenada que sus carteras: tres matrimonios, y pasó los últimos años en Francia con la que había sido pareja de un hijo suyo fallecido. Ninguna biografía de Graham consigue que el hombre encaje del todo con el método.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su verdadero legado",
+          frase: "No fue una fórmula. Fue la idea de que una acción es un trozo de un negocio y no un boleto, y de que quien no distinga esas dos cosas está apostando aunque se llame inversor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, lo que casi todo el mundo cree y no es verdad, empezando por lo más gordo: este no es un libro para aprender a elegir acciones. Quien lo abra buscando un sistema de selección se va a encontrar sobre todo con capítulos sobre cómo comportarse cuando el precio se mueve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: no dice que haya que comprar acciones baratas. Dice que hay que comprar por debajo del valor, que no es lo mismo. Una acción de dos euros puede estar carísima y una de trescientos puede estar regalada; el precio por sí solo no informa de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: Buffett no invierte hoy como Graham. Lleva sesenta años apartándose de él hacia la calidad del negocio, y lo dice abiertamente. Citar a Buffett para defender los filtros contables de Graham es citarlo en contra de sí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: el libro no promete batir al mercado. Graham es explícito en que la mayoría no lo hará y en que intentarlo con medio esfuerzo es la peor opción disponible. Lo que promete es no arruinarse, que es una promesa mucho menos vendible y mucho más útil.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y el quinto, el que más se repite en internet: la frase de que el mercado es una máquina de votar a corto plazo y de pesar a largo no está en este libro. Es de Graham, pero de «Security Analysis», y quien la cita casi nunca ha leído ninguno de los dos.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda, después de descontar los filtros caducados y las seiscientas páginas, cabe en un párrafo: sepa si está invirtiendo o especulando, no deje que el precio de hoy le diga cuánto valen las cosas, compre con margen para equivocarse y asuma que se va a equivocar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una recomendación de lectura práctica, porque el libro es duro: leer el capítulo ocho y el veinte primero, que son unas cuarenta páginas entre los dos. Si esos dos no convencen, el resto tampoco lo hará. Si convencen, el resto se lee con otra paciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Graham escribió en el prólogo que su objetivo no era enseñar a nadie a hacerse rico deprisa, y que quien buscara eso estaba en el libro equivocado. Prometía algo mucho más modesto: evitar los errores graves y establecer una política con la que se pueda dormir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese es el mejor resumen posible de un hombre que vio a su madre arruinada a los trece años, se arruinó él mismo a los treinta y cinco, y pasó los cuarenta siguientes escribiendo un manual cuya única finalidad es que a nadie más le vuelva a pasar.",
+        },
+      ],
+    },
+  ],
+};

@@ -14,8 +14,8 @@ import { GEN_EGOISTA, FEYNMAN, VIDA_ARBOLES, CASI_TODO, MUNDO_DEMONIOS, EL_GEN, 
 import { CUERPO_CUENTA, DIGESTION, NACIDOS_CORRER, DILEMA_OMNIVORO, ALIENTO_AIRE, ZONAS_AZULES, OUTLIVE } from "./salud";
 import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSBY, MATAR_RUISENOR, HOBBIT } from "./literatura";
 import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
-import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS } from "./economia";
-import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA } from "./psicologia";
+import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS, INVERSOR_INTELIGENTE } from "./economia";
+import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA, NUDGE } from "./psicologia";
 import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY, SENOR_MOSCAS, DRACULA, VIEJO_MAR, ODISEA, SOMBRA_VIENTO, NOMBRE_ROSA } from "./literatura";
 import { ARTE_GUERRA } from "./filosofia";
 import { ORGULLO_PREJUICIO } from "./literatura";
@@ -147,6 +147,8 @@ export const RESUMENES: Record<string, Resumen> = {
   outlive: OUTLIVE,
   einstein: EINSTEIN,
   "acto-creativo": ACTO_CREATIVO,
+  nudge: NUDGE,
+  "inversor-inteligente": INVERSOR_INTELIGENTE,
 };
 
 export function comprobar() {
