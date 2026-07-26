@@ -2739,3 +2739,579 @@ export const PILARES_TIERRA: Resumen = {
     },
   ],
 };
+
+export const CANONES_AGOSTO: Resumen = {
+  id: "canones-agosto",
+  titulo: "Los cañones de agosto",
+  autor: "Barbara Tuchman",
+  ano: 1962,
+  gancho: "Un solo mes de 1914 contado en quinientas páginas. Kennedy lo leyó y lo repartió entre su gabinete justo antes de la crisis de los misiles de Cuba.",
+  porQue:
+    "Es el mejor libro que existe sobre cómo unos hombres razonables, con buenos planes, meten a un continente entero en una catástrofe en treinta días.",
+  partes: [
+    {
+      titulo: "Nueve reyes a caballo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Londres, 20 de mayo de 1910. En el funeral de Eduardo VII de Inglaterra desfilan nueve reyes a caballo, con uniforme de gala, detrás del féretro. Detrás de ellos, siete reinas en carruaje y setenta príncipes y archiduques. Las calles están llenas y en silencio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi todos son primos entre sí. El káiser Guillermo II de Alemania es sobrino del muerto. El zar Nicolás II de Rusia es primo de los dos. Aquella familia europea gobierna, entre todos, la mayor parte del planeta. Nunca volverá a verse una imagen así.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El arranque",
+          frase: "Cuatro años después, la mitad de esos hombres estará en guerra con la otra mitad. Tuchman abre con esa escena porque contiene lo que va a contar: un mundo que se creía eterno y estable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La autora era una historiadora estadounidense sin doctorado ni plaza universitaria, formada por su cuenta en archivos y bibliotecas. Se llamaba Barbara Tuchman, nieta de un embajador, y publicó este libro en 1962 con cincuenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ganó el Pulitzer al año siguiente y ganaría otro en 1972. Su falta de credenciales académicas le valió el desprecio de parte de la profesión y también le dio su mayor virtud: escribe como una narradora y no como una tesis, y se lee como una novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro cubre un solo mes: agosto de 1914. Ni el origen remoto de la guerra, ni los cuatro años siguientes, ni las trincheras que todo el mundo asocia con aquel conflicto. Solo las semanas en que se decidió que la guerra sería lo que fue.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa restricción es lo que hace el libro. Al concentrarse en treinta días, Tuchman puede seguir las decisiones hora a hora, entrar en los despachos, leer los telegramas y mostrar cómo cada elección cerraba las siguientes. La historia deja de ser inevitable.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mundo de 1914 llevaba cuarenta y tres años sin una guerra grande entre potencias europeas, desde la franco-prusiana de 1870. Una generación entera de oficiales había hecho carrera sin combatir. Nadie vivo recordaba cómo era una guerra continental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y había una convicción muy extendida entre las élites: que una guerra moderna sería imposible o brevísima, porque las economías estaban demasiado entrelazadas y el crédito internacional se hundiría en semanas. Un libro de 1910 defendiendo esa tesis fue un éxito de ventas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tuchman describe también el ambiente militar, que iba en dirección contraria. En los estados mayores de toda Europa se llevaban veinte años redactando planes de movilización de una complejidad enorme, con horarios ferroviarios calculados al minuto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La rigidez",
+          frase: "Movilizar un ejército de millones significaba mover miles de trenes en un orden exacto. Cambiar el plan a mitad no era difícil: los estados mayores sostenían que era técnicamente imposible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle produce una de las escenas más citadas del libro. El 1 de agosto, con la guerra a punto de estallar, el káiser recibe un telegrama que sugiere que quizá Inglaterra se mantendría neutral si Alemania no atacaba a Francia. Y ordena girar el ejército hacia el este.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su jefe de estado mayor, Moltke, le contesta que no se puede. Que la movilización occidental lleva años planificada, que once mil trenes tienen horario asignado y que si intenta invertirla obtendrá una masa desordenada de hombres sin munición ni suministros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tuchman describe a Moltke saliendo de aquella reunión al borde del colapso nervioso. El telegrama resultó ser un malentendido y la orden se revocó esa misma noche, pero la escena queda: el emperador de Alemania quiso parar y le dijeron que la máquina no tenía freno.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el argumento central de Tuchman y también su tesis más discutida hoy: que los planes militares adquirieron una lógica propia y arrastraron a los políticos. Que nadie quería exactamente aquella guerra y que todos habían construido la maquinaria para hacerla.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir desde ya que la historiografía posterior ha corregido bastante esa idea. Desde los años sesenta, y sobre todo en las últimas dos décadas, se ha documentado mucho más cálculo deliberado, especialmente en Berlín y en Viena, y menos deslizamiento accidental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro es de 1962 y se escribió antes de que se explotaran a fondo los archivos alemanes. Sigue siendo una obra maestra narrativa y hay que leerla sabiendo que su explicación del origen de la guerra ya no es la que sostiene la mayoría de los especialistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho eso, la parte que nadie discute es la militar. Y ahí Tuchman cuenta cómo dos países vecinos habían pasado décadas preparando planes opuestos, cada uno construido sobre una idea distinta de cómo se gana una guerra, y los dos equivocados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además situar el tamaño de lo que se puso en marcha. Alemania movilizó en pocos días alrededor de tres millones y medio de hombres. Francia, cerca de cuatro millones contando reservas. Rusia, más de cinco. Nunca se había movido tanta gente a la vez en la historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y todo ello dependía del ferrocarril hasta un punto que hoy cuesta imaginar. Solo el despliegue alemán en el oeste requería mover más de once mil trenes, cada uno con su horario asignado con años de antelación y con puentes calculados al minuto de paso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El alemán lo había diseñado un hombre que llevaba un año muerto cuando se ejecutó.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El plan de un hombre muerto",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Alfred von Schlieffen fue jefe del Estado Mayor alemán entre 1891 y 1906, y dedicó quince años a resolver un problema geográfico: cómo ganar una guerra contra Francia y Rusia a la vez sin quedar aplastado entre las dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta fue una cuestión de tiempos. Rusia es enorme y su red ferroviaria mala, así que tardaría semanas en movilizarse del todo. Francia es pequeña y estaría lista en días. Luego había que destruir Francia primero, muy rápido, y girar después hacia el este.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El plan",
+          frase: "Un ala derecha gigantesca que entrara por Bélgica, rodeara París por el oeste y envolviera al ejército francés por detrás. Seis semanas. Después, todo el ejército en tren hacia Rusia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que se le atribuye en el lecho de muerte, en 1913, resume su obsesión: mantened fuerte el ala derecha. Probablemente sea apócrifa y ha resultado profética, porque lo que ocurrió en 1914 fue exactamente que el ala derecha resultó insuficiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El plan tenía un problema político descomunal que sus autores trataron como un detalle técnico: exigía invadir Bélgica, un país neutral cuya neutralidad estaba garantizada por tratado desde 1839, y del que Gran Bretaña era garante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tuchman documenta que los militares alemanes lo sabían perfectamente y calcularon que los belgas se apartarían, y que si no lo hacían serían un obstáculo menor. Ese cálculo resultó ser el error más caro de todo el mes de agosto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Del otro lado estaba el Plan XVII francés, y era casi lo contrario. No preveía dónde atacaría el enemigo ni se preocupaba mucho por ello: consistía en lanzar todo el ejército francés hacia el este, sobre Alsacia y Lorena, las provincias perdidas en 1871.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Detrás de ese plan había una doctrina, y Tuchman le dedica uno de sus mejores capítulos. En la escuela militar francesa se había impuesto la teoría de la ofensiva a ultranza: la creencia de que el ataque decidido y el ánimo del soldado prevalecen sobre la potencia de fuego.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus defensores sostenían que un ejército con voluntad de vencer superaría cualquier posición defendida, y que preocuparse por las bajas era un síntoma de debilidad moral. Se enseñaba en las academias como doctrina oficial y con vocabulario casi místico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa doctrina tuvo consecuencias vestimentarias que hoy parecen increíbles. La infantería francesa salió a la guerra en 1914 con pantalón rojo brillante y capote azul, porque cambiar el uniforme por algo menos visible se consideraba contrario al espíritu militar francés.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El precio del pantalón rojo",
+          frase: "Un ministro había intentado cambiarlo años antes. Un exministro contestó en el debate que suprimir el pantalón rojo sería suprimir Francia. Se mantuvo hasta 1915.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Enfrente había ametralladoras Maxim capaces de disparar cientos de proyectiles por minuto y artillería de tiro rápido. La combinación de una doctrina de ataque frontal y un uniforme visible a un kilómetro produjo lo que produjo, y lo produjo en cuestión de días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tuchman describe también a los hombres que ejecutaron los dos planes, y sus retratos son la mejor prosa del libro. Joffre, el comandante francés, tranquilo hasta lo irritante, incapaz de perder una comida y con una calma que resultó decisiva en el peor momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Moltke el joven, sobrino del gran Moltke que había ganado en 1870, nombrado en parte por el apellido, aquejado de dudas permanentes y consciente de no estar a la altura del cargo. Lo describe leyendo poesía y traduciendo a Maeterlinck mientras planifica la invasión.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y a Sir John French, comandante británico, del que hace un retrato demoledor: indeciso, susceptible, incapaz de coordinarse con sus aliados y a punto de retirar a su ejército del frente en el peor momento. Es el personaje al que peor trata, y probablemente injustamente.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 28 de junio de 1914, un estudiante bosnio asesina en Sarajevo al heredero del trono austrohúngaro. Tuchman despacha ese episodio en pocas páginas, y esa es una de las decisiones más criticadas del libro: los Balcanes, donde empieza todo, apenas aparecen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su interés empieza cuando la maquinaria se pone en marcha. Austria manda un ultimátum imposible a Serbia. Rusia moviliza. Alemania declara la guerra a Rusia el 1 de agosto y a Francia el 3. Y el 4 de agosto cruza la frontera de un país que no le había hecho nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mismo día, el canciller alemán le explica al embajador británico que el tratado que garantizaba la neutralidad belga es un pedazo de papel, y que no puede ser que Inglaterra entre en guerra por eso. Inglaterra entró en guerra esa noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tuchman dedica también unas páginas excelentes a la posición británica, que hasta el último momento fue ambigua. Londres no tenía obligación de defender a Francia, solo un acuerdo militar informal, y el gabinete estuvo dividido hasta la víspera de la declaración de guerra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que inclinó la balanza fue precisamente Bélgica. El tratado de 1839 era un compromiso jurídico claro y públicamente defendible, y permitió al gobierno británico presentar la entrada en guerra como el cumplimiento de una palabra dada y no como una alianza continental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y los belgas, contra todos los cálculos del estado mayor alemán, no se apartaron.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Bélgica",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El ejército belga tenía unos ciento diecisiete mil hombres frente a más de un millón y medio de alemanes. No había ninguna posibilidad militar y todo el mundo lo sabía, incluido el rey Alberto I, que respondió al ultimátum alemán que Bélgica era una nación y no un camino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La resistencia se organizó alrededor de Lieja, una ciudad rodeada por doce fuertes de hormigón considerados de los más modernos de Europa. El plan alemán les concedía dos días. Tardaron doce en tomarlos todos, y necesitaron artillería que nadie había visto antes.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La Gran Berta",
+          frase: "Un obús de cuarenta y dos centímetros, diseñado en secreto por Krupp, que disparaba proyectiles de casi una tonelada. Cada fuerte de Lieja caía en horas cuando llegaba su turno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esos doce días de retraso resultaron decisivos. Dieron tiempo a Francia a reorganizarse y a que el cuerpo expedicionario británico desembarcara. Tuchman sostiene que el calendario del plan Schlieffen se rompió allí, en la primera semana, y ya no se recompuso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a partir de ahí el libro entra en la parte más difícil de contar. La invasión de Bélgica vino acompañada de ejecuciones sistemáticas de civiles, incendios de pueblos enteros y toma de rehenes, en respuesta a una guerrilla que en su mayor parte no existía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras que hoy se manejan hablan de alrededor de seis mil civiles belgas y franceses ejecutados en agosto y septiembre de 1914. El caso más conocido es el de Dinant, donde en un solo día fueron fusiladas centenares de personas, incluidos niños.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y el episodio que marcó a la opinión mundial fue Lovaina. La ciudad universitaria fue incendiada durante varios días y ardió su biblioteca, con unos doscientos treinta mil volúmenes y cientos de manuscritos medievales. Fue una catástrofe cultural y también un desastre de propaganda.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La razón de aquella violencia, según los historiadores que han estudiado el asunto a fondo, fue una psicosis colectiva del ejército alemán con los francotiradores civiles, heredada de 1870. Los soldados creyeron ver guerrilleros donde había vecinos aterrorizados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tuchman lo cuenta con contención y sin regodeo, y añade una consecuencia de largo alcance que conviene retener: la propaganda aliada exageró después aquellos hechos con historias inventadas de bebés ensartados en bayonetas y manos cortadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando esas invenciones se destaparon después de la guerra, el descrédito alcanzó también a lo que sí había ocurrido. Y esa desconfianza aprendida tuvo un coste terrible una generación después, cuando empezaron a llegar los primeros informes sobre los campos de exterminio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La lección incómoda",
+          frase: "Exagerar atrocidades reales no refuerza la causa: la destruye. La gente que descubrió que le habían mentido en 1915 se negó a creer lo que era verdad en 1943.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, el ala derecha alemana avanzaba por Bélgica hacia el norte de Francia con un millón de hombres. Tuchman describe columnas de tropas caminando durante días, con el calor de agosto, cubriendo cuarenta kilómetros diarios con el equipo a la espalda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí aparece un factor que ningún plan había calculado: el agotamiento físico. Los soldados alemanes llegaron a Francia después de tres semanas de marcha forzada, con los pies destrozados, sin dormir y con los suministros cada vez más lejos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El plan Schlieffen exigía que el ala derecha se moviera más rápido cuanto más avanzaba, porque el arco a recorrer era mayor. En la práctica se movía más despacio, porque los hombres se cansaban y los caballos se morían. Era una imposibilidad aritmética.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el hallazgo más sólido del libro: el plan no falló por mala ejecución ni por mala suerte. Era irrealizable con la tecnología de 1914, que se movía a pie y a caballo. Nadie lo comprobó en veinte años porque nadie quiso comprobarlo.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y por si fuera poco, Moltke debilitó el ala derecha. Preocupado por el avance ruso en Prusia Oriental, mandó dos cuerpos de ejército al este, retirándolos precisamente del flanco que Schlieffen había insistido en mantener fuerte por encima de todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegaron tarde a Prusia y faltaron en Francia. Es una de las decisiones más analizadas de la historia militar, y Tuchman la presenta como lo que fue: un hombre con dudas intentando resolver dos problemas a la vez y quedándose corto en los dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras todo esto ocurría en el norte, el ejército francés estaba haciendo exactamente lo que decía su plan: atacar hacia el este, en la dirección contraria, contra posiciones alemanas fortificadas y en terreno elevado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un episodio menor que Tuchman cuenta y que ilustra el desorden de aquellas semanas. En Amberes, Bruselas y Namur, los belgas volaron sus propios puentes y vías para frenar el avance, sabiendo que estaban destruyendo la infraestructura de su país durante décadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y otro que explica el desgaste alemán: al avanzar tan deprisa, las columnas dejaron atrás sus trenes de suministro. Los soldados llegaron a Francia comiendo lo que requisaban, y en varios diarios personales de la época aparece la misma queja: hambre, sed y botas rotas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que pasó allí en cuatro días sigue siendo, más de un siglo después, la mayor catástrofe militar de la historia de Francia.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El día más sangriento de Francia",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Entre el 20 y el 25 de agosto de 1914 se libra lo que se llamó la Batalla de las Fronteras. El ejército francés ataca en Lorena, en las Ardenas y en Charleroi, siguiendo el Plan XVII, contra un enemigo mejor situado y con más artillería pesada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La infantería avanza en formación, con el pantalón rojo, a paso ligero, con las bayonetas caladas y con las bandas tocando en algunos regimientos. Enfrente hay ametralladoras emplazadas y artillería que ya tiene la distancia calculada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "22 de agosto de 1914",
+          frase: "En un solo día murieron alrededor de veintisiete mil soldados franceses. Es la jornada más mortífera de toda la historia militar de Francia, incluida cualquier otra de las dos guerras mundiales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa cifra suele sorprender porque no coincide con la imagen popular de la Primera Guerra Mundial, que es la de las trincheras y las ofensivas de 1916. Las semanas más letales fueron las primeras, cuando todavía se combatía al descubierto y en movimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Francia perdió en el mes de agosto de 1914 más de doscientos mil hombres entre muertos, heridos y desaparecidos. La doctrina de la ofensiva a ultranza se desmontó en cuatro días de combate, y el precio de aprenderlo fue una generación de oficiales jóvenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tuchman cuenta cómo Joffre reaccionó a la catástrofe, y ese es el retrato que salva al libro de ser una sucesión de horrores. Reconoció el fracaso, destituyó a decenas de generales en pocos días y reorganizó el frente entero sin perder la compostura ni una comida.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su virtud no fue la brillantez táctica: fue no derrumbarse. Tuchman sostiene que en aquellas semanas la calidad más útil de un comandante era la capacidad de dormir bien y de no transmitir pánico, y que Joffre la tenía en un grado casi patológico.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La retirada francesa duró dos semanas y fue enorme: los ejércitos cedieron terreno hasta el sur del Marne, con los alemanes a menos de cincuenta kilómetros de París. El gobierno francés se trasladó a Burdeos el 2 de septiembre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese momento, el ejército alemán del ala derecha, agotado tras cinco semanas de marcha, tomó una decisión que cambió la guerra: en lugar de rodear París por el oeste como exigía el plan, giró antes hacia el sureste para perseguir a los franceses en retirada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese giro dejó su flanco derecho expuesto y descubierto, pasando por delante de la guarnición de París. Un avión de reconocimiento francés lo detectó. La información llegó a Gallieni, el gobernador militar de la ciudad, que vio inmediatamente la oportunidad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Los taxis del Marne",
+          frase: "Gallieni requisó los taxis de París para llevar tropas al frente. Fueron unos seiscientos vehículos y unos cinco o seis mil hombres: militarmente poco, simbólicamente enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La batalla del Marne, entre el 6 y el 12 de septiembre, detuvo el avance alemán y salvó París. Fue el fin del plan Schlieffen y el fin de la guerra de movimiento. A partir de ahí los dos ejércitos se enterraron y empezaron cuatro años de trincheras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se cierra ahí, y Tuchman lo dice explícitamente en la última página: aquellos treinta días determinaron todo lo que vino después. Después del Marne ya no era posible ninguna victoria rápida, y nadie tenía un plan alternativo porque nadie había previsto esa situación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade la frase con la que termina, que es una de las mejores conclusiones que se han escrito sobre aquel conflicto: los hombres habían quedado atrapados en una trampa que ellos mismos habían construido, y ya no había manera de salir de ella.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El resto son cuatro años, quince o veinte millones de muertos, cuatro imperios desaparecidos, un tratado de paz que preparó la guerra siguiente, y una Europa que nunca volvió a ser el continente de los nueve reyes a caballo de la primera página.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en enero de 1962 y fue un éxito inmediato. Y ese año concreto es la razón por la que este libro tiene una historia posterior que ningún otro ensayo histórico del siglo XX puede igualar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque en el verano de aquel mismo año, el presidente de Estados Unidos lo leyó durante unas vacaciones y quedó tan impresionado que compró ejemplares y los repartió entre los miembros de su gabinete y entre altos mandos militares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También le mandó una copia al primer ministro británico y ordenó que se distribuyera entre los oficiales de las bases estadounidenses. Lo hizo en agosto de 1962. Dos meses después, un avión espía fotografió unas instalaciones en el occidente de Cuba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso conviene apuntar un detalle del Marne que se olvida siempre: la batalla la libraron cerca de dos millones de hombres a lo largo de más de doscientos kilómetros de frente. Fue, en número de combatientes, una de las mayores batallas de la historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y produjo unas quinientas mil bajas entre los dos bandos en menos de una semana. La cifra da la medida de lo que fueron aquellas primeras semanas: la guerra de movimiento, que suele recordarse como la fase épica del conflicto, fue también la más letal por día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante las trece jornadas siguientes, aquel libro sobre agosto de 1914 estuvo encima de la mesa del Despacho Oval.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El despacho de Kennedy",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Washington, octubre de 1962. Las fotografías de un U-2 muestran emplazamientos de misiles balísticos soviéticos en Cuba. Se forma un comité de crisis y durante trece días se discute qué hacer, con opciones que incluyen un ataque aéreo y una invasión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hermano Robert dejó escrito lo que Kennedy dijo en aquellos días, y la referencia al libro es explícita. Comentó que lo peor de 1914 fue que nadie entendió por qué había pasado, y que si aquello acababa mal no quería que alguien escribiera después un libro titulado Los misiles de octubre.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sacó del libro",
+          frase: "Que las crisis escalan por acumulación de decisiones defendibles, que hay que dejarle siempre una salida digna al adversario, y que los militares presionan siempre en la dirección de la acción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kennedy rechazó el ataque aéreo que le recomendaban los jefes militares y optó por un bloqueo naval, que dejaba tiempo y permitía negociar. Y aceptó un acuerdo que incluía retirar en secreto misiles estadounidenses de Turquía, dejando salida al otro lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es probablemente el único caso documentado en que un libro de historia influyó directamente en la gestión de una crisis nuclear. Tuchman no lo supo hasta después, y lo mencionó el resto de su vida como el hecho del que estaba más orgullosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro, que falla en cosas importantes y hay que decirlas con claridad. La primera es su tesis central: la idea de que Europa se deslizó a la guerra sin quererla, arrastrada por horarios ferroviarios y planes rígidos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Desde los años sesenta, y con acceso completo a los archivos alemanes y austríacos, la investigación ha documentado mucha más intención deliberada, especialmente en Berlín y en Viena en julio de 1914. Hubo decisiones tomadas con conocimiento del riesgo, no solo inercia.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es de foco. Los Balcanes, Serbia, Austria-Hungría y el Frente Oriental apenas aparecen. Es un libro sobre el frente occidental escrito desde una perspectiva anglofrancesa, y el lector puede acabar sin entender por dónde y por qué empezó realmente todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es de retratos. Tuchman escribe como novelista y eso tiene un coste: sus personajes están muy caracterizados, a veces demasiado. Su tratamiento de Sir John French es especialmente duro, y varios historiadores lo consideran injusto y unilateral.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta es de método: casi no hay cifras agregadas, ni logística, ni economía, ni análisis social. Es historia de decisiones y de personajes, que es lo que la hace legible y también lo que deja fuera buena parte de lo que explica una guerra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La corrección de fondo",
+          frase: "La historiografía actual tiende a describir a los dirigentes de 1914 como sonámbulos que sabían perfectamente que caminaban por un tejado. Tuchman los pinta más como pasajeros de un tren sin frenos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad, empezando por lo más común: este no es un libro sobre la Primera Guerra Mundial. Cubre un mes. No hay trincheras, no hay gas, no hay Verdún ni Somme, y termina en septiembre de 1914.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: la guerra no fue una sorpresa para todos. Hubo quien la previó con bastante exactitud, incluidos algunos militares que calcularon que sería larga y de desgaste. Sus informes existieron y fueron sistemáticamente ignorados por incómodos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: las trincheras no fueron el estado natural de aquella guerra desde el principio. Fueron la consecuencia del fracaso de agosto. Las primeras seis semanas fueron de movimiento, y fueron proporcionalmente las más letales de todo el conflicto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y cuarto: los taxis del Marne no salvaron París. Movieron unos pocos miles de hombres cuando había millones combatiendo. Es un símbolo espléndido y militarmente secundario, y se ha convertido en el recuerdo popular de una batalla que ganaron otras cosas.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda intacto, y por lo que este libro sigue leyéndose sesenta años después, es la descripción del mecanismo: cómo una organización enorme, llena de gente competente, ejecuta un plan que ya no tiene sentido porque nadie tiene autoridad para pararlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una observación de Tuchman que se cita en escuelas de negocios y en manuales de gestión de crisis: que la guerra empezó porque nadie quería parecer débil, y que la mayoría de los que decidieron sabían que el riesgo era enorme y decidieron igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no da lecciones ni las busca. Cuenta treinta días con muchísimo detalle y deja que el lector saque las suyas. Un presidente sacó las suyas en 1962 y probablemente eso es lo mejor que se puede decir de un libro de historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su recomendación de lectura, si se quiere el cuadro completo, es leerlo junto con alguno de los trabajos recientes sobre el mes de julio de 1914, que cubren precisamente lo que este libro despacha en veinte páginas: cómo se decidió en Viena, en Berlín y en San Petersburgo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leídos juntos se complementan bien. Los libros modernos explican mucho mejor por qué empezó la guerra. Y ninguno ha conseguido igualar a Tuchman explicando qué se siente cuando una decisión tomada en un despacho se convierte, cuarenta y ocho horas después, en algo irreversible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Barbara Tuchman murió en 1989. Nunca tuvo un puesto universitario, nunca hizo un doctorado y escribió media docena de libros que siguen editándose. En su discurso al recoger el Pulitzer dijo que la primera obligación de un historiador es que lo lean.",
+        },
+      ],
+    },
+  ],
+};

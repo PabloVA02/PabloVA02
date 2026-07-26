@@ -2283,3 +2283,579 @@ export const ASTROFISICA_PRISA: Resumen = {
     },
   ],
 };
+
+export const ULTIMOS_DINOSAURIOS: Resumen = {
+  id: "mapa-mundos",
+  titulo: "Los últimos días de los dinosaurios",
+  autor: "Riley Black",
+  ano: 2022,
+  gancho: "La primera hora después del impacto, contada minuto a minuto. El asteroide no mató a los dinosaurios: los mató lo que pasó en los meses siguientes.",
+  porQue:
+    "Reconstruye el peor día de la historia de la vida en la Tierra con el detalle de una crónica, y luego explica de dónde sale cada dato de esa crónica.",
+  partes: [
+    {
+      titulo: "La última tarde de Hell Creek",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Lo que hoy es Montana, hace sesenta y seis millones de años. Una llanura costera cálida y húmeda, con ríos lentos, bosques de coníferas y magnolias, y un mar interior a pocos kilómetros que parte Norteamérica en dos mitades.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es primavera en el hemisferio norte. Una hembra de Tyrannosaurus rex descansa a la sombra. Cerca hay Triceratops pastando, pequeños mamíferos escondidos entre las raíces, tortugas en el río y pterosaurios enormes planeando sobre el agua.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cuánto duró todo eso",
+          frase: "Los dinosaurios llevaban unos ciento sesenta millones de años dominando la tierra firme. Nuestra especie lleva unos trescientos mil. Aquello no era una etapa: era el estado normal del planeta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese día concreto, un objeto de entre diez y quince kilómetros de diámetro entra en la atmósfera a unos veinte kilómetros por segundo, en dirección a lo que hoy es la península de Yucatán, a más de tres mil kilómetros de allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro lo escribe Riley Black, divulgadora científica estadounidense especializada en paleontología, y su decisión de forma es la que lo hace distinto: la primera mitad es una narración en presente, con escenas y con animales concretos, sin una sola cita ni referencia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La segunda mitad es un apéndice largo, capítulo por capítulo, donde explica de dónde sale cada detalle de la narración anterior: qué está documentado, qué es inferencia razonable y qué se ha inventado para que la escena funcione. Esa honestidad es lo mejor del libro.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La estructura temporal es la del zoom que se aleja. El último día. La primera hora. El primer día. El primer mes. El primer año. Cien años. Mil. Cien mil. Un millón. Cada capítulo cubre más tiempo que el anterior, y el planeta cambia en cada uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de la catástrofe, Black dedica un capítulo a desmontar el tópico de un mundo dominado por bestias gigantes en guerra permanente. Hell Creek era un ecosistema completo, con insectos, hongos, plantas con flor, aves, lagartos, ranas y cientos de especies pequeñas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y estaban los mamíferos, que llevaban ahí tanto tiempo como los dinosaurios. Eran pequeños —del tamaño de una rata o de un tejón—, nocturnos en su mayoría, con dietas variadas, y llevaban cien millones de años sin hacer nada especialmente llamativo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El mito de la sustitución",
+          frase: "Los mamíferos no estaban esperando su oportunidad ni eran una versión inferior de algo. Eran un grupo antiguo, diverso y perfectamente adaptado a un nicho pequeño. Lo que cambió fue el planeta, no ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También aclara algo que la mayoría de la gente sigue sin tener claro: las aves ya existían y ya eran dinosaurios. No sus parientes ni sus descendientes lejanos: dinosaurios terópodos, del mismo grupo que el tiranosaurio, con plumas y con pico en algunos linajes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Había además otras aves primitivas, los enantiornitos, que eran mayoría en aquel momento y que tenían dientes y garras en las alas. Esas desaparecieron por completo. Las que sobrevivieron fueron un subgrupo concreto, y la razón de su supervivencia importa mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro dato de contexto es que los dinosaurios no estaban en decadencia. Ese debate existió durante décadas, con quienes sostenían que ya declinaban antes del impacto. Los recuentos recientes de fósiles apuntan a que en Hell Creek seguían siendo abundantes y diversos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es decir: no fue un grupo agotado al que el asteroide dio la puntilla. Fue un grupo próspero, que llevaba ciento sesenta millones de años funcionando, borrado en un intervalo geológicamente instantáneo por una causa que no tenía nada que ver con él.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre la fecha exacta hay un detalle que Black incorpora y que se publicó poco antes del libro: el análisis del crecimiento de huesos de peces fosilizados en un yacimiento de Dakota del Norte sugiere que el impacto ocurrió en primavera boreal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle no es decorativo. En primavera, muchas especies del hemisferio norte están en reproducción, con crías, huevos y reservas bajas tras el invierno. En el sur era otoño y los animales estaban entrando en fase de acumulación. Puede explicar diferencias de supervivencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El objeto que se acerca es probablemente un asteroide del cinturón principal, aunque hay debate. Su tamaño ronda los diez o doce kilómetros: aproximadamente la altura a la que vuelan los aviones comerciales, pero de roca maciza y moviéndose sesenta veces más rápido que una bala.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Atraviesa la atmósfera terrestre entera —cien kilómetros de aire— en menos de dos segundos. No hay tiempo para que se frene, se caliente por rozamiento o se fragmente. Llega al suelo prácticamente intacto y con toda su energía cinética.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además decir de dónde salen los animales concretos que aparecen en el libro. La formación de Hell Creek es uno de los yacimientos mejor estudiados del mundo: se lleva excavando desde principios del siglo XX y de ahí salió el primer tiranosaurio descrito, en 1902.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso permite algo que en paleontología casi nunca se puede: reconstruir no una especie suelta sino una comunidad entera, con sus plantas, sus insectos, sus vertebrados pequeños y su clima, en un momento y en un lugar determinados. Por eso Black elige ese escenario y no otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ocurre en el segundo siguiente no tiene precedentes en los últimos quinientos millones de años de historia del planeta.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La hora del cielo en llamas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El impacto libera una energía que se ha estimado en unos cien millones de megatones: del orden de mil millones de veces la bomba de Hiroshima. Abre un cráter de unos ciento ochenta kilómetros de diámetro y perfora la corteza terrestre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En los primeros segundos, una columna de roca vaporizada sale despedida hacia el espacio. Y ahí está la clave de lo que viene después: buena parte de ese material no se escapa. Sube, se enfría y vuelve a caer sobre toda la atmósfera del planeta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El pulso térmico",
+          frase: "Miles de millones de fragmentos de roca reentrando a la vez calientan el cielo entero. Durante decenas de minutos, la temperatura del aire alto sube lo suficiente para asar lo que esté a la intemperie, en todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la parte más impresionante de la reconstrucción y también la más discutida en sus detalles: la magnitud exacta del calentamiento depende de modelos, y los cálculos han variado bastante. Lo que está bien documentado es que ocurrió y que fue global.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Black lo describe desde Montana, a tres mil kilómetros del punto cero. Allí no se oye nada al principio: el impacto ocurre demasiado lejos. Lo primero que se percibe es que el cielo empieza a brillar, primero rojizo y después blanco, y que el aire se vuelve insoportable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La vegetación se seca y arde. Los animales grandes no tienen dónde meterse. Un tiranosaurio no cabe en ninguna madriguera, no puede sumergirse mucho rato y no puede protegerse de una radiación que viene de todo el cielo a la vez.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y ahí está el primer filtro de la extinción, y es puramente físico: sobrevivió lo que en aquel momento estaba bajo tierra, bajo el agua o bajo una roca. El tamaño y la fuerza no sirvieron de nada. Lo único que sirvió fue tener un agujero cerca.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi al mismo tiempo llegan las ondas sísmicas, con una energía equivalente a la de terremotos muchísimo mayores que cualquiera registrado por el ser humano. En las costas del mar interior americano se levantan olas de decenas de metros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí Black incorpora un yacimiento concreto y espectacular: un depósito de Dakota del Norte donde parece haberse conservado el registro de lo que pasó en esa primera hora, con peces amontonados por una onda de agua y con partículas de impacto en las branquias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si la interpretación es correcta, esos peces murieron menos de una hora después del impacto, tragando las esférulas de roca fundida que caían del cielo. Sería el registro fósil más preciso jamás encontrado de un acontecimiento único.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La cautela",
+          frase: "Ese yacimiento ha generado tanta admiración como polémica. Parte de la comunidad científica ha pedido más publicaciones revisadas y más acceso al material. Black lo usa y lo señala como discutido en el apéndice.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al final de esa primera hora, en buena parte del hemisferio norte no queda vegetación en pie. Los incendios se extienden durante días. El registro geológico muestra una capa de hollín y carbón asociada al límite entre el Cretácico y el Paleógeno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa capa es la prueba física de todo lo anterior y se encuentra en cientos de sitios del mundo. Tiene unos pocos centímetros de espesor, contiene iridio —un metal raro en la corteza terrestre y abundante en los asteroides— y separa dos mundos distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El iridio fue precisamente la pista que llevó a la hipótesis del impacto. Lo detectaron en 1980 Luis y Walter Álvarez, padre e hijo, físico y geólogo, analizando una capa de arcilla en Italia. La idea les pareció descabellada a casi todos sus colegas durante una década.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El cráter tardó otros once años en aparecer, y lo encontraron donde nadie lo buscaba: en unos datos de prospección petrolera de la costa de Yucatán, tomados en los años setenta y archivados. Se llama Chicxulub por el pueblo que está encima.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un detalle geológico que agrava enormemente la catástrofe y que Black subraya: el asteroide cayó en el peor sitio posible. El fondo marino de Yucatán era rico en rocas con azufre y en carbonatos, y al vaporizarse liberó cantidades gigantescas de aerosoles de sulfato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si hubiera caído en el océano profundo, o en una corteza sin esos minerales, el efecto habría sido mucho menor. Se ha estimado que la superficie del planeta donde un impacto así causaría una extinción global es solo una fracción pequeña del total.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: la extinción no dependió solo de que llegara el asteroide. Dependió de dónde cayó, y eso es un accidente sobre otro accidente. Con unos minutos de diferencia en la rotación terrestre habría impactado en mar abierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cráter, además, sigue ahí y se puede perforar. En 2016 una expedición internacional sacó testigos de roca del anillo de picos central, la estructura que se levanta en el fondo de los grandes cráteres cuando la corteza rebota tras el impacto y se queda solidificada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos testigos permitieron reconstruir lo que pasó en las primeras horas dentro del propio cráter, incluida una capa de material depositada por un tsunami que volvió sobre sí mismo. Es la prueba física más directa de todo lo que la narración describe desde lejos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero el pulso térmico y los incendios solo mataron a una parte. Lo que acabó con el resto no fue el fuego: fue exactamente lo contrario, y tardó meses en desplegarse del todo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El invierno sin sol",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El azufre vaporizado forma aerosoles de sulfato que suben a la estratosfera y se reparten por todo el planeta. Junto con el hollín de los incendios globales, forman una capa que refleja la luz solar antes de que llegue a la superficie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado es una oscuridad casi total durante meses. Las estimaciones varían mucho, y las más citadas hablan de una reducción drástica de la luz durante uno o dos años y de un enfriamiento global considerable. Se le ha llamado invierno de impacto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El golpe real",
+          frase: "Sin luz suficiente no hay fotosíntesis. Y sin fotosíntesis no hay plantas, ni plancton, ni nada que coma plantas, ni nada que coma a los que comen plantas. La cadena se rompe desde abajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la causa principal de la extinción, y es lo que casi nadie tiene en la cabeza. La imagen popular es la de los dinosaurios muriendo en una bola de fuego. La realidad es que la mayoría murió de hambre, meses después, en un mundo frío y oscuro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Black lo cuenta con una precisión desagradable: los grandes herbívoros mueren primero, en semanas, porque necesitan cantidades enormes de vegetación diaria y ya no hay. Después mueren los grandes carnívoros, que durante un tiempo tienen carroña de sobra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El registro geológico también muestra acidificación de los océanos, por la lluvia ácida derivada de los sulfatos y por el dióxido de carbono liberado. Los organismos marinos con concha de carbonato —plancton calcáreo, ammonites— sufrieron especialmente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y ahí está uno de los datos más duros de toda la extinción: el plancton calcáreo, que es la base de la cadena marina, se desplomó. Los océanos quedaron durante mucho tiempo con una productividad tan baja que el fenómeno se ha llamado el mar muerto del Paleógeno.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance final ronda el setenta y cinco por ciento de las especies desaparecidas. Se van todos los dinosaurios no avianos. Se van los pterosaurios, que llevaban ciento cincuenta millones de años volando. Se van los mosasaurios y los plesiosaurios de los mares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se van los ammonites, unos moluscos con concha en espiral que habían sobrevivido a varias extinciones anteriores y que llevaban trescientos millones de años en los océanos. Y se va la mayor parte del plancton, de los corales y de las aves con dientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene mencionar el otro sospechoso, porque el debate sigue abierto. En la India, en ese mismo periodo, estaba en marcha una de las mayores erupciones volcánicas de la historia de la Tierra: las Traps del Decán, que cubrieron cientos de miles de kilómetros cuadrados de lava.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La discusión que sigue viva",
+          frase: "Hay quien sostiene que el vulcanismo del Decán ya estaba estresando los ecosistemas y que el asteroide remató un sistema debilitado. Otros defienden que el impacto lo explica prácticamente todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Black se inclina claramente por el impacto como causa dominante, que es la posición mayoritaria, y menciona el Decán sin desarrollarlo demasiado. Es una de las simplificaciones del libro, y en el apéndice reconoce que la discusión no está cerrada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está claro es qué sobrevivió, y ahí es donde la historia se vuelve interesante, porque el patrón de supervivientes no tiene nada de aleatorio: se puede describir con tres o cuatro reglas y todas apuntan en la misma dirección.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Primera regla: ser pequeño. Prácticamente ningún animal terrestre de más de veinticinco kilos sobrevivió. El tamaño grande, que había sido una ventaja durante ciento sesenta millones de años, se convirtió en una sentencia en cuestión de meses.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La razón es la comida. Un animal grande necesita mucha y constante; uno pequeño puede aguantar con poco, esconderse, hibernar y aprovechar recursos marginales. Cuando la producción primaria se hunde, el tamaño deja de ser una defensa y pasa a ser un coste fijo enorme.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segunda regla: poder esconderse. Los que hacían madrigueras, vivían en troncos o se enterraban en el barro esquivaron el pulso térmico. Mamíferos, lagartos pequeños, serpientes, insectos y anfibios pasaron aquella primera hora bajo tierra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercera regla, y esta es la más interesante: vivir del detrito y no de la planta viva. Los ecosistemas de agua dulce sobrevivieron muchísimo mejor que los terrestres y los marinos, y la explicación es que funcionaban con materia orgánica muerta arrastrada por los ríos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cocodrilos, tortugas, ranas y peces de río salieron adelante en proporciones altísimas. Un cocodrilo puede pasar meses sin comer, tolera temperaturas bajas, se entierra en el barro y come cualquier cosa muerta. Ese perfil resultó ser el ganador absoluto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un detalle sobre el tamaño que merece la pena. Los dinosaurios pequeños tampoco se salvaron en general, y eso desconcertó a los investigadores durante años. La explicación más aceptada es que ninguno de ellos hacía madrigueras profundas ni entraba en letargo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, no bastaba con ser pequeño: había que ser pequeño y además tener el comportamiento adecuado. Un dinosaurio de dos kilos que dormía al aire libre estaba tan expuesto al pulso térmico como uno de siete toneladas, y comía igual de mal cuando dejó de crecer nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y queda el caso de las aves, que es el que mejor explica por qué hoy sigue habiendo dinosaurios volando por encima de nuestras cabezas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los que sobrevivieron en un agujero",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "De todos los grupos de aves que existían en el Cretácico, sobrevivió uno solo, y no fue por azar. Las aves arborícolas desaparecieron con los bosques, que ardieron globalmente y tardaron mucho en regenerarse. Vivir en un árbol dejó de ser viable durante décadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El registro de polen lo confirma: después del límite hay una explosión de esporas de helechos, lo que los paleobotánicos llaman el pico de helechos. Los helechos son colonizadores: aparecen los primeros después de un incendio o una erupción y cubren el terreno arrasado.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Un mundo de helechos",
+          frase: "Durante mucho tiempo, buena parte de la superficie terrestre fue un tapiz de helechos sobre suelo quemado. No había bosque. Y no había, por tanto, nada para un animal que dependiera de vivir en las ramas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las aves que salieron adelante fueron las de suelo, con pico y sin dientes, y con dietas basadas en semillas. Y ahí está el detalle decisivo: una semilla es un paquete de alimento que resiste años enterrado esperando condiciones para germinar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, el banco de semillas del suelo fue una despensa que sobrevivió al apagón. Quien tuviera el aparato adecuado para abrirlas y aprovecharlas —un pico— pudo comer durante los meses en que no crecía absolutamente nada verde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ese puñado de aves de suelo con pico descienden las once mil especies de aves que existen hoy. Todas las gaviotas, los gorriones, los loros, los buitres y las gallinas del planeta vienen de unos pocos linajes que estaban comiendo semillas en el sitio adecuado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y eso significa que la extinción de los dinosaurios no fue una extinción total. Fue la desaparición de todos los linajes menos uno, y ese uno se diversificó después hasta convertirse en el grupo de vertebrados terrestres más numeroso que existe.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con los mamíferos ocurrió algo parecido y no fue inmediato. Black insiste en que no hubo una toma del poder rápida: durante los primeros cientos de miles de años, los supervivientes siguieron siendo pequeños, y los ecosistemas eran pobres y monótonos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primeros mamíferos posteriores al impacto eran generalistas oportunistas: comían insectos, semillas, carroña y lo que apareciera. No hubo un diseño mejor que se impusiera; hubo una lista de exigencias muy dura y unos pocos que la cumplían por casualidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese matiz es la tesis del libro y es lo que lo separa de la divulgación habitual: la supervivencia no premió a los mejores ni a los más aptos en abstracto. Premió a los que resultaron tener, por accidente, los rasgos que hacían falta para ese desastre concreto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase que resume",
+          frase: "En una catástrofe, la ventaja no es ser superior: es tener por casualidad la característica que ese día concreto resulta necesaria. Y nadie puede saber de antemano cuál va a ser.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los capítulos siguientes cubren la recuperación y son los más sorprendentes, porque contradicen la idea de que la vida vuelve enseguida. A los cien años del impacto, el planeta seguía siendo un lugar de helechos, cocodrilos y animales pequeños.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La recuperación completa de los bosques y de una diversidad comparable a la anterior tardó cientos de miles de años. Algunos estudios sobre yacimientos de Colorado sugieren que hicieron falta cerca de setecientos mil años para llegar a un bosque tropical estructurado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esos bosques nuevos fueron distintos. Antes del impacto dominaban las coníferas; después, las plantas con flor, que aprovecharon mejor el terreno arrasado y que hoy son la mayoría de la vegetación terrestre. La extinción reordenó también la botánica del planeta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Un millón de años después ya hay mamíferos del tamaño de un perro grande, aves no voladoras enormes ocupando el papel de depredadores en algunos continentes, y un mundo que se parece bastante poco al anterior. Ninguna de esas formas existía antes del impacto.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Black incluye a los primeros parientes de los primates entre esos supervivientes, unos animales pequeños y arborícolas cuyos fósiles aparecen poco después del límite. De ese linaje, sesenta y seis millones de años después, sale la especie que descubrió el cráter.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese es el argumento con el que cierra el libro, sin sentimentalismo: nosotros no somos el resultado de un progreso ni la culminación de nada. Somos un efecto secundario tardío de que un objeto de diez kilómetros cayera en el peor punto posible de un planeta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si hubiera caído unos minutos antes o después, en mar abierto o en una corteza sin azufre, los dinosaurios probablemente seguirían dominando la tierra firme y los mamíferos seguirían siendo animales pequeños y nocturnos escondidos entre las raíces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un patrón más que Black subraya y que se comprueba en el registro fósil: los grupos que sobrevivieron no fueron los especialistas sino los generalistas. Comer una sola cosa era una ventaja competitiva antes del impacto y una condena inmediata después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una regla que se repite en todas las grandes extinciones del registro geológico, y las hay cinco. En cada una desaparecen los que estaban mejor ajustados a las condiciones anteriores, y siguen los que estaban peor ajustados y podían comer cualquier cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda por decir cómo sabemos todo esto, y ahí es donde el libro hace algo que casi ningún libro de divulgación se atreve a hacer: separar explícitamente lo documentado de lo inventado, capítulo por capítulo, en la segunda mitad del volumen.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Un millón de años después",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La segunda mitad del libro se titula apéndice y ocupa casi tanto como la narración. Va capítulo por capítulo explicando qué está probado, qué se deduce de fósiles concretos, qué procede de modelos y qué se ha añadido por necesidad narrativa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí Black admite, por ejemplo, que dar nombre a un tiranosaurio concreto y describir lo que hace esa tarde es una licencia. Que el comportamiento social de esa especie está en discusión. Que muchos detalles de plumaje y de color son conjeturas informadas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hace bien",
+          frase: "Casi ningún libro de divulgación separa la reconstrucción de la prueba. Este dedica media obra a hacerlo, y eso convierte una narración vistosa en algo que se puede evaluar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Explica también de dónde sale cada dato duro: la capa de iridio, las esférulas de impacto en el registro sedimentario, los cuarzos con estructura de choque, el hollín, el pico de helechos en el polen y las dataciones radiométricas del cráter.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla, que falla en cosas concretas. La primera es consecuencia directa de su virtud: la narración con animales con nombre es engancharte y no es evidencia. Muchos lectores se quedarán con las escenas y no leerán el apéndice, que es donde está la ciencia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y el problema no es menor: alguien puede terminar el libro creyendo que sabemos qué hizo un tiranosaurio concreto aquella tarde, cuando lo que sabemos es que existía esa especie, en esa formación geológica, y que el impacto ocurrió en primavera boreal.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es de equilibrio. La primera mitad es trepidante y la segunda es un aparato crítico que se lee con esfuerzo. El libro pierde a mucha gente en la transición, y una integración de ambas partes habría sido mejor aunque más difícil de escribir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es de tratamiento del debate: el papel del vulcanismo del Decán queda muy reducido. Es una posición defendible y mayoritaria, y la discusión es más viva de lo que el libro sugiere, con investigadores serios sosteniendo lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta es de actualidad. La paleontología del límite se mueve muy deprisa, y algunas piezas centrales —la interpretación de ciertos yacimientos, los detalles del pulso térmico, la estacionalidad del impacto— siguen siendo objeto de artículos y de réplicas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo leerlo",
+          frase: "Como una reconstrucción plausible del acontecimiento mejor documentado de la historia profunda de la Tierra, no como un reportaje. Y leyendo el apéndice, que es la mitad del valor del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad, empezando por lo más extendido: los dinosaurios no murieron abrasados por el asteroide. Una parte sí, en las primeras horas. La mayoría murió de hambre en los meses siguientes, cuando se apagó la fotosíntesis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido, y es el más importante: los dinosaurios no se extinguieron. Se extinguieron todos los linajes menos uno. Las aves son dinosaurios, hay unas once mil especies vivas y superan en número a los mamíferos terrestres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: los mamíferos no sustituyeron a los dinosaurios porque fueran mejores ni porque estuvieran esperando. Llevaban cien millones de años coexistiendo con ellos. Lo único que cambió fue que las condiciones pasaron a favorecer justo el perfil que ellos tenían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: no fue instantáneo. La imagen de un mundo que cambia en un día es falsa. El pulso térmico duró horas, el invierno de impacto años, y la recuperación de los ecosistemas cientos de miles de años. La extinción se ejecutó despacio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y quinto, uno bonito: el cráter no se descubrió buscándolo. Estaba en unos datos de prospección de petróleo archivados desde los años setenta. Alguien conectó aquellos mapas magnéticos con la hipótesis del iridio, y así se cerró el caso.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La aportación real del libro no es científica, porque no aporta hallazgos propios. Es de forma: coger un acontecimiento del que se habla siempre en abstracto y contarlo en escala humana, con horas, con animales concretos y con lo que se veía desde el suelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de paso corrige la imagen popular en el punto que más importa: aquello no fue una explosión que barrió el planeta. Fue una explosión seguida de un apagón, y el apagón fue lo que mató. La causa inmediata de la mayoría de las muertes fue el hambre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción tiene, además, una lectura incómoda para el presente. Los ecosistemas no se hunden por el golpe: se hunden porque el golpe rompe la base de la cadena alimentaria, y desde ahí el colapso sube hasta arriba con un retraso de meses o de años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una diferencia que sí señala con claridad: en las cinco extinciones masivas anteriores, la causa era geológica o astronómica. En la actual, la causa es una sola especie, y es además la primera que puede describir el proceso mientras lo está provocando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se cierra sin moraleja, que es lo correcto. Lo último que hace es recordar que Hell Creek sigue ahí, que se puede visitar, y que la capa de arcilla que separa dos mundos mide unos pocos centímetros y se puede tocar con un dedo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Black no fuerza el paralelismo con la crisis ecológica actual y lo deja apuntado en dos párrafos, lo cual se agradece. El dato que sí deja caer es que la tasa de extinción actual está en el orden de magnitud de las grandes extinciones del registro fósil.",
+        },
+      ],
+    },
+  ],
+};
