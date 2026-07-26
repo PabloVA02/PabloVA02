@@ -80,7 +80,7 @@ export const CATALOGO: Ficha[] = [
   { id: "enquiridion", titulo: "Enquiridión", autor: "Epicteto", ano: 125, categoria: "Filosofía", estado: "pendiente" },
   { id: "tao", titulo: "Tao Te Ching", autor: "Lao Tsé", ano: -400, categoria: "Filosofía", estado: "pendiente" },
   { id: "sutil-arte", titulo: "El sutil arte de que casi todo te importe una mierda", autor: "Mark Manson", ano: 2016, categoria: "Filosofía", estado: "escrito" },
-  { id: "etica-amador", titulo: "Ética para Amador", autor: "Fernando Savater", ano: 1991, categoria: "Filosofía", estado: "pendiente" },
+  { id: "etica-amador", titulo: "Ética para Amador", autor: "Fernando Savater", ano: 1991, categoria: "Filosofía", estado: "escrito" },
   { id: "ikigai", titulo: "Ikigai", autor: "García y Miralles", ano: 2016, categoria: "Filosofía", estado: "escrito" },
   { id: "monje-ferrari", titulo: "El monje que vendió su Ferrari", autor: "Robin Sharma", ano: 1997, categoria: "Filosofía", estado: "pendiente" },
 
@@ -169,7 +169,7 @@ export const CATALOGO: Ficha[] = [
   { id: "inversor-inteligente", titulo: "El inversor inteligente", autor: "Benjamin Graham", ano: 1949, categoria: "Economía", estado: "escrito" },
   { id: "piensa-hazte-rico", titulo: "Piensa y hazte rico", autor: "Napoleon Hill", ano: 1937, categoria: "Economía", estado: "escrito" },
   { id: "mente-millonaria", titulo: "Los secretos de la mente millonaria", autor: "T. Harv Eker", ano: 2005, categoria: "Economía", estado: "pendiente" },
-  { id: "cero-a-uno", titulo: "De cero a uno", autor: "Peter Thiel", ano: 2014, categoria: "Economía", estado: "pendiente" },
+  { id: "cero-a-uno", titulo: "De cero a uno", autor: "Peter Thiel", ano: 2014, categoria: "Economía", estado: "escrito" },
   { id: "lean-startup", titulo: "El método Lean Startup", autor: "Eric Ries", ano: 2011, categoria: "Economía", estado: "pendiente" },
   { id: "steve-jobs", titulo: "Steve Jobs", autor: "Walter Isaacson", ano: 2011, categoria: "Economía", estado: "escrito" },
   { id: "factfulness", titulo: "Factfulness", autor: "Hans Rosling", ano: 2018, categoria: "Economía", estado: "escrito" },

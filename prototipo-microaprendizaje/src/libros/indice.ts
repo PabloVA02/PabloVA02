@@ -14,10 +14,10 @@ import { GEN_EGOISTA, FEYNMAN, VIDA_ARBOLES, CASI_TODO, MUNDO_DEMONIOS, EL_GEN, 
 import { CUERPO_CUENTA, DIGESTION, NACIDOS_CORRER, DILEMA_OMNIVORO, ALIENTO_AIRE, ZONAS_AZULES, OUTLIVE, COME_COMIDA_REAL } from "./salud";
 import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSBY, MATAR_RUISENOR, HOBBIT } from "./literatura";
 import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
-import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS, INVERSOR_INTELIGENTE } from "./economia";
+import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS, INVERSOR_INTELIGENTE, CERO_A_UNO } from "./economia";
 import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA, NUDGE } from "./psicologia";
 import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY, SENOR_MOSCAS, DRACULA, VIEJO_MAR, ODISEA, SOMBRA_VIENTO, NOMBRE_ROSA } from "./literatura";
-import { ARTE_GUERRA } from "./filosofia";
+import { ARTE_GUERRA, ETICA_AMADOR } from "./filosofia";
 import { ORGULLO_PREJUICIO } from "./literatura";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
@@ -153,6 +153,8 @@ export const RESUMENES: Record<string, Resumen> = {
   "astrofisica-prisa": ASTROFISICA_PRISA,
   "camino-artista": CAMINO_ARTISTA,
   "come-comida-real": COME_COMIDA_REAL,
+  "etica-amador": ETICA_AMADOR,
+  "cero-a-uno": CERO_A_UNO,
 };
 
 export function comprobar() {

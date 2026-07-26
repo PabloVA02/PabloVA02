@@ -1515,3 +1515,554 @@ export const INVERSOR_INTELIGENTE: Resumen = {
     },
   ],
 };
+
+export const CERO_A_UNO: Resumen = {
+  id: "cero-a-uno",
+  titulo: "De cero a uno",
+  autor: "Peter Thiel",
+  ano: 2014,
+  gancho: "Empezó como los apuntes que un estudiante colgó en internet. La primera pregunta del curso era: dime una verdad importante en la que casi nadie te dé la razón.",
+  porQue:
+    "Es el libro de startups más citado y el más contrario al consenso: sostiene que competir es de perdedores y que el objetivo de una empresa es el monopolio.",
+  partes: [
+    {
+      titulo: "La pregunta contraria",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Universidad de Stanford, primavera de 2012. Un inversor de Silicon Valley da un curso sobre creación de empresas. Entre los alumnos hay un estudiante de Derecho, Blake Masters, que toma apuntes exhaustivos y los va colgando en internet después de cada clase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los apuntes se hacen virales fuera de la universidad. Los comparten fundadores de todo el mundo, se traducen y acumulan cientos de miles de lecturas. Dos años después, profesor y alumno los convierten en un libro. El profesor se llama Peter Thiel.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quién lo escribe",
+          frase: "Cofundador de PayPal. Primer inversor externo de Facebook: medio millón de dólares por algo más del diez por ciento en 2004. Fundador de Palantir y del fondo Founders Fund.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquella empresa de pagos salió lo que la prensa bautizó como la mafia de PayPal: Elon Musk, Reid Hoffman de LinkedIn, los fundadores de YouTube, de Yelp y de Tesla. Pocas plantillas han producido tantas empresas grandes después de venderse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro arranca con una pregunta que Thiel usa en las entrevistas de trabajo y que da el tono de todo lo demás: dime una verdad importante en la que muy poca gente esté de acuerdo contigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es más difícil de lo que parece. La mayoría de las respuestas fallan por un lado o por el otro: o son opiniones que en realidad comparte mucha gente, o son excentricidades sin importancia. Hace falta algo que sea a la vez cierto, relevante y minoritario.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La razón de esa pregunta es la tesis del libro. Thiel sostiene que las empresas valiosas se construyen sobre un secreto: algo importante que es verdad y que casi nadie ha visto todavía. Si tu idea le parece obvia a todo el mundo, no hay negocio ahí.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título viene de su distinción central. Ir de uno a n es copiar: coger algo que ya funciona y replicarlo, mejorarlo o llevarlo a otro sitio. Ir de cero a uno es hacer algo que no existía. Lo primero es globalización; lo segundo, tecnología.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sostiene que el mundo lleva décadas haciendo sobre todo lo primero. Que ha habido un progreso enorme en extender lo conocido y muy poco en crear lo desconocido, salvo en un sector concreto: los ordenadores y el software.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su queja la había formulado antes en una frase que se hizo famosa desde el manifiesto de su fondo: queríamos coches voladores y en su lugar nos dieron ciento cuarenta caracteres. Es una boutade y también es una tesis sobre dónde ha ido el talento.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El argumento de fondo",
+          frase: "Copiar lo que funciona lleva al mundo a un techo. Si todo el planeta alcanza el nivel de vida occidental con la tecnología actual, el planeta no aguanta. La única salida es tecnología nueva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer capítulo largo va contra el mito fundacional de Silicon Valley. Thiel sostiene que las lecciones que dejó el estallido de la burbuja puntocom en 2000 fueron todas equivocadas y que el sector lleva veinte años aplicándolas con disciplina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las lecciones fueron cuatro: avanzar poco a poco, mantenerse flexible, mejorar lo que hace la competencia y centrarse en el producto y no en las ventas. Thiel las enuncia una por una y sostiene que las cuatro son exactamente lo contrario de lo correcto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su versión: es mejor arriesgarse con algo audaz que con lo trivial. Un mal plan es mejor que ningún plan. Los mercados competitivos destruyen los beneficios. Y las ventas importan tanto como el producto, aunque a los ingenieros les dé grima.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese cuarteto invertido es el esqueleto del libro. Cada uno de los cuatro se desarrolla en varios capítulos, y el segundo —el de la competencia— es el que ha generado más citas, más malentendidos y más discusión desde que se publicó.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Thiel define primero cuál es, según él, el objetivo real de montar una empresa, y no es crecer, ni cambiar el mundo, ni contratar gente. Es capturar una parte del valor que se crea, porque crear valor y quedarse valor son dos cosas completamente distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo son las aerolíneas estadounidenses. Transportan cientos de millones de pasajeros al año y crean un valor social gigantesco. Y su margen histórico es minúsculo, hasta el punto de que el sector ha perdido dinero en conjunto durante largos periodos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al lado pone un buscador de internet: mueve mucho menos volumen de negocio en apariencia y se queda con una porción enormemente mayor de lo que genera. La diferencia entre los dos casos no es el valor creado. Es cuánta competencia tiene cada uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la afirmación que da título al capítulo más famoso y que se repite en todas las charlas de emprendimiento desde 2014, casi siempre citada fuera de contexto y entendida como una recomendación moral, que no lo es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase es que la competencia es para perdedores.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La competencia es para perdedores",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El argumento económico es de manual y Thiel lo usa al revés de como se enseña. En competencia perfecta, con muchos vendedores de un producto idéntico, el precio baja hasta el coste marginal y el beneficio tiende a cero. Eso es lo que dice la teoría estándar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En los libros de texto, esa situación se presenta como el ideal: precios bajos, consumidores contentos, eficiencia máxima. Thiel acepta el análisis entero y se limita a señalar dónde queda el que monta la empresa, que es en la ruina.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El matiz que casi nadie hace",
+          frase: "No dice que la competencia sea mala para la sociedad. Dice que es mala para el que compite. Es un consejo a fundadores, no una propuesta de política económica, y se cita casi siempre como lo segundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su definición de monopolio también es particular: no habla del que aplasta rivales por la fuerza ni del que se apoya en una licencia estatal, sino del que hace algo tan bien y tan distinto que nadie más puede ofrecerlo. Lo llama monopolio creativo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y observa una asimetría divertida que se comprueba en cualquier presentación de inversores. Los monopolistas mienten diciendo que tienen mucha competencia, para no llamar la atención de los reguladores. Y los que no lo son mienten en la otra dirección.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo del segundo caso es un restaurante que se define como el único de comida británica con influencia asiática de un barrio concreto de una ciudad. Definido así es líder absoluto de su mercado, y sigue siendo un restaurante que no gana dinero.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese vicio —definir el mercado tan estrechamente que uno salga ganando— es el más común en los planes de negocio, y Thiel lo trata como un síntoma: cuando alguien necesita redefinir el mercado para parecer dominante, es que no domina nada.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A continuación enumera las cuatro fuentes de monopolio duradero, y esa lista es probablemente la parte más útil del libro para cualquiera que esté montando algo, tenga o no ambiciones de conquistar el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera es tecnología propia y con una vara de medir dura: no basta con ser mejor, hay que ser aproximadamente diez veces mejor en algo que importe. Una mejora del veinte por ciento no cambia el comportamiento de nadie; un orden de magnitud sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda son los efectos de red: productos que valen más cuanto más gente los usa. Su advertencia es importante y contraintuitiva: todo negocio de red tiene que empezar por un mercado diminuto, porque si no, en el primer día no vale nada para nadie.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Empezar por lo pequeño",
+          frase: "Facebook empezó en una sola universidad. PayPal empezó con unos pocos miles de vendedores intensivos de eBay. Amazon empezó vendiendo únicamente libros. Dominar un nicho ridículo es el primer paso obligatorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera fuente son las economías de escala: negocios cuyo coste de servir a un cliente más es casi cero. Es la razón por la que el software es un negocio distinto de la restauración: una copia adicional no cuesta nada, y una mesa adicional cuesta local, personal y cocina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la cuarta es la marca, con un aviso que le viene bien a mucha gente: la marca es la más frágil de las cuatro y no funciona sola. Thiel señala que una empresa que solo tiene marca, sin ninguna de las otras tres, es una empresa que se puede copiar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca lo que llama la ventaja del último en mover. Sostiene que ser el primero está sobrevalorado: lo que importa es ser el último que hace un avance grande en un mercado, y quedarse ahí una década. Muchos primeros han visto cómo otro se quedaba con todo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su prueba es de valoración financiera y es sólida: el valor de una empresa es la suma de los flujos que generará en el futuro, descontados. Y la mayor parte de ese valor está en años lejanos. Una empresa que solo va a ser rentable tres años no vale casi nada hoy.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso le lleva a una pregunta que recomienda hacerse siempre: dentro de diez años, ¿por qué esta empresa seguirá existiendo? Si la respuesta depende de seguir corriendo más que los demás, no hay monopolio, hay una carrera y las carreras se pierden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un capítulo entero, bastante raro en un libro de negocios, sobre por qué la gente compite tanto. Thiel recurre a la teoría del deseo mimético del filósofo René Girard, del que fue alumno en Stanford, y sostiene que deseamos lo que desean otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión es psicológica: mucha gente compite ferozmente por cosas que no quería, simplemente porque otros las querían. Y pone el ejemplo de las carreras de élite —derecho, banca, consultoría— donde miles de personas brillantes pelean por los mismos puestos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo es autobiográfico. Thiel estudió Derecho, aspiró a un puesto de secretario en el Tribunal Supremo, no lo consiguió y lo vivió como un fracaso. Escribe que años después entendió que aquel puesto no lo quería: lo quería porque era difícil de conseguir.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La ley de potencias",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sobre inversión contiene el dato que más ha cambiado la manera de pensar de mucha gente que no se dedica al capital riesgo. Los rendimientos de un fondo no se reparten de forma más o menos pareja: siguen una ley de potencias muy extrema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la práctica, en un fondo bueno, la mejor inversión rinde más que todas las demás juntas. Y la segunda mejor rinde más que todas las restantes menos la primera. La distribución no tiene nada que ver con la intuición de una cartera diversificada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla del fondo",
+          frase: "Founders Fund solo invierte en empresas que, por sí solas, podrían devolver el fondo entero. Si una inversión no tiene ese potencial, no importa lo segura que parezca: no entra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La consecuencia es contraintuitiva y Thiel la subraya: en ese negocio no se puede diversificar para reducir riesgo. Invertir en muchas empresas mediocres no protege de nada, porque el resultado del fondo depende de acertar con una o dos extraordinarias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y saca una lección que aplica a la vida personal, y aquí es donde el libro se vuelve más discutible: dice que la ley de potencias también rige las carreras y que conviene concentrarse en una sola cosa en lugar de mantener muchas opciones abiertas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su blanco es lo que llama la mentalidad de la optionality: acumular credenciales genéricas —máster, consultoría, banca— para tener muchas puertas abiertas, y llegar a los treinta y cinco años con un currículum impecable y sin haber hecho nada concreto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El argumento tiene fuerza y también un problema evidente: quien pueda permitirse apostar todo a una carta es quien tiene red de seguridad. Thiel escribe desde una posición donde fracasar significa volver a intentarlo, y esa asimetría no aparece en ninguna página.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sobre las cuatro visiones del futuro es el más original del libro. Thiel cruza dos ejes: si uno espera que el futuro sea mejor o peor, y si tiene un plan concreto o no. De ahí salen cuatro combinaciones y cada una produce una sociedad distinta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Optimismo definido: el futuro será mejor y hay un plan para construirlo. Es Estados Unidos entre los cincuenta y los sesenta, con el programa Apolo, la red de autopistas y los grandes laboratorios corporativos. Se diseñaba el futuro y luego se ejecutaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Optimismo indefinido: el futuro será mejor y no se sabe cómo. Es, según él, el país desde los años ochenta. Un mundo de finanzas, derecho y consultoría, donde se gestionan carteras y opciones en lugar de construir cosas concretas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su diagnóstico",
+          frase: "Las finanzas son la expresión pura del optimismo indefinido: no saber qué hacer con el dinero, así que diversificar. Nadie diversifica cuando sabe exactamente qué quiere construir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pesimismo definido: el futuro será peor y se sabe cómo, así que se planifica para ello. Y pesimismo indefinido: el futuro será peor y no se sabe qué hacer, que es la parálisis. Thiel sitúa a buena parte de Europa en esta última casilla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Desde ese marco lanza su crítica a la metodología dominante en el sector, la del producto mínimo viable y la iteración continua: sostiene que es optimismo indefinido convertido en método, una forma sofisticada de no tener ningún plan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo contrario es un fabricante de cohetes o de coches eléctricos: nadie llega ahí iterando desde un producto mínimo. Hay que decidir el objetivo, invertir años y una fortuna, y no saber si funcionará hasta bastante después de haberlo apostado todo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El punto es bueno y es incompleto. Los dos métodos sirven para cosas distintas: la iteración funciona cuando el coste de equivocarse es bajo y se puede medir rápido; la apuesta planificada, cuando no hay forma de probar en pequeño. Thiel presenta el suyo como el único válido.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay también un capítulo sobre ventas que a los perfiles técnicos les sienta mal y que probablemente sea el consejo más rentable del libro: la distribución importa tanto como el producto, y los ingenieros la desprecian sistemáticamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su observación es precisa: la venta funciona mejor cuando no se ve. Un producto no se vende solo prácticamente nunca, y la creencia de que la calidad basta ha matado más empresas buenas que la competencia. Si nadie sabe que existes, no existes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y da una regla concreta y comprobable: el canal de distribución tiene que encajar con el valor medio de cada cliente. Si vendes algo de treinta euros al año no puedes tener comerciales visitando clientes, y si vendes algo de un millón no basta con anuncios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el mismo capítulo hay un aviso sobre los equipos fundadores que se ha demostrado bastante certero: los conflictos entre socios matan más empresas jóvenes que los competidores. Thiel recomienda que los fundadores se conozcan de antes y que los repartos se cierren por escrito el primer día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una regla salarial que sorprende: cuanto menos cobre el consejero delegado de una empresa joven, mejor le va a esa empresa. Su explicación es de incentivos: un director general con sueldo alto se comporta como un gestor que defiende lo que hay, no como un fundador que arriesga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la misma línea, defiende pagar sobre todo con participación en la empresa en lugar de con dinero. No por tacañería, sino porque el reparto accionarial selecciona: quien acepta cobrar en acciones está apostando por el proyecto, y quien no lo acepta probablemente tenga razón en no hacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo eso conduce al concepto que Thiel considera el centro del libro y del que sale su pregunta de entrevista: la idea de que quedan cosas importantes por descubrir y de que casi nadie las está buscando porque hemos decidido que ya no hay nada que encontrar.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El secreto que nadie más ve",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Thiel divide todo lo que se puede saber en tres cajas. Las convenciones: lo que todo el mundo sabe. Los misterios: lo que nadie puede saber. Y en medio, los secretos: cosas difíciles pero posibles de descubrir, que muy poca gente conoce todavía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su afirmación es que toda empresa valiosa está construida sobre un secreto. Y que la razón de que haya tan pocas es que la sociedad ha dejado de creer que queden secretos por encontrar, lo cual se ha convertido en una profecía que se cumple sola.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué dejamos de buscar",
+          frase: "Da cuatro razones: la geografía está toda cartografiada, la especialización estrecha la mirada, el riesgo reputacional castiga las ideas raras, y la globalización hace pensar que si algo funcionara ya lo habría hecho alguien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que usa es una empresa de alquiler de alojamiento entre particulares. El secreto era que había capacidad ociosa enorme en casas de gente normal y que la gente estaría dispuesta a dormir en casa de un desconocido. Ninguna de las dos cosas parecía obvia en 2007.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hace la pregunta útil para buscarlos: ¿qué campos importantes están inexplorados porque a la gente le da pereza o vergüenza mirarlos? Los secretos suelen estar donde se cruzan dos disciplinas que no se hablan, o donde todos dan algo por sabido sin comprobarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro cierra con las siete preguntas que, según él, toda empresa debe responder bien: la tecnológica, la del momento, la del monopolio, la del equipo, la de la distribución, la de la durabilidad y la del secreto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y sostiene algo que suena exagerado y que él defiende con un caso: hay que acertar en las siete. No en cinco, no en seis. Las empresas que fracasan suelen haber acertado en varias y haber fallado en una o dos, y eso basta para hundirlas.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso con el que lo prueba es la burbuja de las energías limpias de los años dos mil, en la que se quemaron miles de millones. Thiel repasa las siete preguntas una a una y muestra que la mayoría de aquellas empresas suspendía en todas o casi todas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No tenían tecnología diez veces mejor, sino algo un poco más barato. No tenían monopolio, sino un mercado con cientos de competidores subvencionados. No tenían distribución. No tenían un plazo claro. Y su tesis dependía de subvenciones y de precios del petróleo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la parte mejor argumentada del libro porque es la única donde aplica su propio marco a un fracaso masivo y documentado en lugar de a sus aciertos. Y funciona: las siete preguntas explican bastante bien por qué aquello se hundió en bloque.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El contraste",
+          frase: "En el mismo periodo, una empresa de coches eléctricos sí respondía bien a las siete. Y su fundador salía del mismo grupo de PayPal, dato que Thiel menciona sin insistir demasiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro, que falla en cosas de peso. La primera y más grave es de método: es un libro construido sobre casos extremos, escrito por alguien que participó en varios de ellos, sin ningún dato agregado en ninguna página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el sesgo del superviviente en estado puro. Para saber si sus reglas funcionan haría falta mirar también a las empresas que las siguieron y fracasaron, y esas no aparecen. Todos los ejemplos son ganadores, elegidos después de saber que ganaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda: la tesis del monopolio, presentada como si fuera análisis económico, es en realidad consejo a fundadores. Como descripción de lo que le conviene a una empresa es correcta. Como visión de cómo debería organizarse una economía es otra cosa, y el libro las mezcla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un monopolio es estupendo para su dueño y bastante peor para sus clientes, sus proveedores y los que intentan entrar. Thiel argumenta que los monopolios creativos benefician a todos porque amplían el mercado, y esa defensa vale para algunos casos y no para todos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La tercera es que su propio historial es más desigual de lo que el libro sugiere. Acertó de forma espectacular con PayPal, con Facebook y con Palantir. El resto de su cartera y de sus apuestas públicas ha tenido resultados mucho más normales, cosa que no se menciona.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta es de contenido: no hay nada sobre cómo gestionar una empresa una vez montada. Ni sobre operaciones, ni sobre cultura más allá de un capítulo breve, ni sobre qué hacer cuando las cosas van mal. Es un libro sobre concebir, no sobre construir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la quinta, que en su caso pesa: Thiel es una figura política muy marcada, con una implicación pública considerable en la política estadounidense y con episodios controvertidos, como haber financiado en secreto el pleito que llevó a la quiebra a un medio de comunicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no refuta ninguna de sus tesis sobre monopolios ni sobre distribución. Y explica por qué el libro se lee de manera muy distinta en 2014 y hoy, y por qué conviene separar el argumento del autor con más cuidado del habitual.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los coches voladores que no llegaron",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El último capítulo se llama, más o menos, el estancamiento o la singularidad, y es donde Thiel enseña las cartas. Sostiene que el progreso tecnológico real se ha ralentizado en casi todos los campos salvo la informática, y que eso no es una impresión sino un hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus ejemplos son de transporte y de energía: la velocidad de los aviones comerciales no ha aumentado desde los años setenta; no hemos vuelto a la Luna; el coste de desarrollar un fármaco ha subido en lugar de bajar; las centrales nucleares tardan décadas en construirse.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su tesis del estancamiento",
+          frase: "Entre 1900 y 1970 cambiaron los transportes, la energía, la medicina y la agricultura. Desde 1970 ha cambiado sobre todo la información. Un salón de 1970 se parece más al de hoy que al de 1920.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa observación no es original suya —la comparte con economistas como Robert Gordon y Tyler Cowen—, y es discutible: hay quien sostiene que la revolución informática es más profunda de lo que parece y que sus efectos tardan décadas en medirse en productividad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Thiel atribuye el estancamiento a una causa cultural más que técnica: que hemos dejado de pensar el futuro como algo que se diseña y hemos empezado a tratarlo como algo que ocurre. Optimismo indefinido: confiar en que saldrá bien sin que nadie tenga el plano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es, en el fondo, la tesis que unifica todo el libro. La pregunta contraria, el monopolio, la ley de potencias, la crítica a la iteración y el rechazo a la diversificación son todos casos particulares de lo mismo: apostar por un plan concreto en vez de mantener opciones.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es una posición coherente, poco común y con un coste que el libro no calcula: quien apuesta fuerte por un plan concreto y se equivoca, se queda sin nada. La estrategia de optionality que él desprecia existe porque la mayoría de la gente no puede permitirse fallar.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad, empezando por la frase más citada: la competencia es para perdedores no significa que la competencia sea mala para la sociedad ni que haya que eliminar rivales. Es un consejo sobre dónde situarse, no una teoría económica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: de cero a uno no significa inventar. Significa hacer algo que no existía, y eso incluye modelos de negocio, formas de distribución o combinaciones nuevas de cosas conocidas. No hace falta un descubrimiento científico para ir de cero a uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: no es un manual de startups. No explica cómo constituir una sociedad, cómo levantar una ronda, cómo contratar o cómo gestionar. Es un libro de tesis sobre qué clase de empresas merece la pena montar, y quien busque instrucciones no las va a encontrar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El cuarto malentendido",
+          frase: "Empezar por un mercado diminuto no es una recomendación de modestia. Es una táctica: dominar un nicho ridículo es la única forma conocida de construir un monopolio grande después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí ha aguantado bien diez años después es la parte incómoda para el sector: la insistencia en la distribución, la advertencia sobre las empresas que compiten en mercados sin margen, y el criterio de ser diez veces mejor en lugar de un poco mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También ha aguantado el marco de las siete preguntas, que sigue siendo una lista de comprobación excelente para cualquiera que esté evaluando una idea, incluidas ideas que no son startups tecnológicas y que no aspiran a dominar ningún mercado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ha aguantado, quizá por encima de todo, la pregunta de la entrevista de trabajo. Dime una verdad importante en la que casi nadie esté de acuerdo contigo es un ejercicio útil aunque uno no vaya a montar nada, porque obliga a comprobar si se piensa por cuenta propia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ha envejecido peor es el tono profético y la confianza en que este marco explica el mundo entero. El libro está escrito con la seguridad de alguien que ganó mucho dinero muy pronto y que reconstruye después las reglas que lo hicieron posible.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa reconstrucción es siempre sospechosa. Nadie sabe cuánto de aquel éxito fue estrategia y cuánto fue estar en el sitio correcto en 1999 y en 2004. El libro no admite en ningún momento que la suerte pudiera haber jugado un papel importante, y eso es una omisión seria.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance justo es este: un libro breve, muy bien argumentado, con dos o tres ideas realmente valiosas, sin un solo dato agregado, escrito por alguien con un historial extraordinario y parcial, y con una agenda ideológica que conviene tener presente al leerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su mejor virtud es la que menos se comenta: es corto. Doscientas páginas donde otros habrían escrito seiscientas, sin repeticiones, sin anécdotas de relleno y sin la costumbre de contar tres veces el mismo caso desde ángulos distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su idea más aprovechable no es la del monopolio ni la de la ley de potencias, sino la primera de todas: si tu idea le parece razonable a todo el mundo al que se la cuentas, probablemente ya la esté haciendo alguien y no haya nada ahí para ti.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sitio donde hay algo es incómodo por definición: es donde la gente te mira raro. Thiel construyó su carrera entera sobre esa observación, y es la parte del libro que sigue siendo verdad independientemente de lo que uno piense de quien la escribió.",
+        },
+      ],
+    },
+  ],
+};
