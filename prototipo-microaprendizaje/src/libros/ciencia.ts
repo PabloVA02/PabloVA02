@@ -4692,3 +4692,584 @@ export const UNIVERSO_MANO: Resumen = {
     },
   ],
 };
+
+export const ORIGEN_ESPECIES: Resumen = {
+  id: "origen-especies",
+  titulo: "El origen de las especies",
+  autor: "Charles Darwin",
+  ano: 1859,
+  gancho: "Tuvo la idea en 1838 y publicó en 1859. Veintiún años de espera que terminaron de golpe cuando le llegó una carta desde una isla de Indonesia con su propia teoría dentro.",
+  porQue:
+    "Porque la mitad de lo que se cree saber de este libro es falso —los pinzones, la frase de la supervivencia del más fuerte, los monos— y porque su autor no tenía la pieza que hacía falta para que su teoría funcionara.",
+  partes: [
+    {
+      titulo: "El hijo que no servía para nada",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Shrewsbury, Inglaterra, hacia 1825. Un médico rico y corpulento le dice a su hijo de dieciséis años una frase que el chico recordará toda su vida y que anotará en su autobiografía cincuenta años después: que no le importa nada salvo la caza, los perros y cazar ratas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que va a ser una desgracia para sí mismo y para toda su familia. El padre se llamaba Robert Darwin, era el médico más solicitado del condado y estaba genuinamente preocupado por un hijo que no destacaba en los estudios y coleccionaba escarabajos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La familia",
+          frase: "Charles Darwin nació en 1809 en una casa acomodada. Su abuelo paterno, Erasmus Darwin, había sido médico y poeta y había escrito sobre transformación de las especies. Su abuelo materno era Josiah Wedgwood, el fabricante de porcelana que hizo una fortuna industrial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre lo mandó a Edimburgo a estudiar medicina con dieciséis años. Duró dos cursos. Lo que lo echó fue presenciar dos operaciones quirúrgicas sin anestesia, una de ellas a un niño, de las que salió corriendo y a las que no volvió nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Edimburgo, en cambio, hizo lo que de verdad le interesaba: aprendió a disecar animales marinos con un antiguo esclavo liberto llamado John Edmonstone, que le enseñó taxidermia y le contó cómo eran las selvas de Sudamérica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre, ante el fracaso, lo mandó a Cambridge a hacerse clérigo anglicano, que era la salida honorable para un hijo de buena familia sin vocación definida. Darwin aceptó sin entusiasmo y se licenció en 1831 con notas correctas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En Cambridge volvió a hacer lo mismo: aprobó lo justo y se pasó el tiempo coleccionando escarabajos y haciendo amistad con dos profesores, el botánico John Henslow y el geólogo Adam Sedgwick, con quien hizo un viaje de trabajo de campo por Gales.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En agosto de 1831, recién licenciado, recibió una carta de Henslow con una oferta que cambió todo: un barco de la Marina británica, el Beagle, iba a hacer un viaje de dos años para cartografiar las costas de Sudamérica, y buscaban a alguien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar el puesto, porque casi siempre se cuenta mal. El Beagle ya tenía un cirujano que hacía las funciones de naturalista. Lo que buscaba el capitán, Robert FitzRoy, era un caballero de su misma clase social con quien poder comer y conversar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo buscaba por una razón que dice mucho de aquellos viajes: el capitán anterior del Beagle, Pringle Stokes, se había pegado un tiro en el estrecho de Magallanes después de meses de aislamiento, mal tiempo y soledad de mando.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El obstáculo",
+          frase: "Su padre se negó en redondo. Le parecía otra pérdida de tiempo, un viaje peligroso y una excusa más para no ordenarse sacerdote. Solo cedió cuando su cuñado Josiah Wedgwood, tío de Charles, le escribió una carta razonada defendiendo el viaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Beagle zarpó el 27 de diciembre de 1831 con Darwin a bordo, veintidós años, sin ningún título científico, pagándose él mismo el pasaje y el equipo, y con la expectativa de estar fuera dos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estuvo casi cinco. Volvió el 2 de octubre de 1836 con veintisiete años, con una reputación ya construida en Londres a partir de las cartas y las muestras que había ido enviando, y sin ninguna intención de ordenarse.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Un detalle que humaniza el viaje entero: Darwin se mareaba. No un poco al principio, sino durante los cinco años, en cuanto el mar se movía. Escribió a casa que odiaba el mar y a todos los que navegan por él.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso pasó en tierra la mayor parte del tiempo: de los cinco años, más de tres los pasó en expediciones terrestres, cabalgando por la Pampa, cruzando los Andes, recorriendo Chile y Perú, mientras el barco cartografiaba la costa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese reparto explica por qué su libro está lleno de geología y de fósiles terrestres, y no de biología marina. El naturalista mareado se convirtió, por necesidad, en un geólogo de campo excelente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La convivencia con FitzRoy tampoco fue fácil. El capitán era un aristócrata rígido, profundamente religioso y de humor cambiante, y discutieron varias veces, sobre todo por la esclavitud: Darwin era abolicionista militante y FitzRoy la defendía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una de esas discusiones fue tan violenta que FitzRoy le retiró la palabra y estuvieron sin dirigirse la palabra durante días, en un camarote donde apenas se podía estar de pie. La familia de Darwin llevaba dos generaciones financiando campañas contra la trata.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El destino de FitzRoy es uno de esos detalles que la historia coloca sin querer: acabó siendo un pionero de la predicción meteorológica, inventó los partes de tiempo para los pescadores y se suicidó en 1865, arruinado y desacreditado, seis años después de publicarse el Origen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El barco llevaba además tres pasajeros que casi nunca se mencionan: tres indígenas de Tierra del Fuego a los que FitzRoy había llevado a Inglaterra en un viaje anterior, había educado y vestido a la inglesa, y devolvía ahora a su tierra en un experimento civilizatorio que fracasó por completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y llevaba en el camarote un libro que acababa de publicarse y que iba a cambiar cómo miraba todo lo que veía.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Cinco años mareado",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro eran los Principios de geología de Charles Lyell, cuyo primer volumen se había publicado en 1830. Su tesis era que el paisaje no lo habían formado catástrofes bíblicas, sino procesos lentísimos —erosión, sedimentación, elevación— actuando durante periodos de tiempo enormes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea, que se llamó uniformismo, es la pieza que hacía falta para todo lo demás: si la Tierra es antiquísima y los procesos son graduales, entonces hay tiempo suficiente para que cambios diminutos se acumulen hasta producir resultados enormes.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El día que vio la geología ocurrir",
+          frase: "En febrero de 1835 estaba en Valdivia cuando se produjo un terremoto devastador. Recorrió después la costa chilena y comprobó que el terreno había subido varios pies: encontró bancos de mejillones muertos por encima de la línea de marea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hallazgo le pareció decisivo y lo fue: si un solo terremoto levanta un metro de costa, unos cuantos miles de terremotos levantan una cordillera. Poco después encontró conchas marinas fósiles a más de cuatro mil metros de altura en los Andes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo bloque de evidencia lo obtuvo excavando en la costa argentina. Desenterró fósiles de mamíferos gigantes extinguidos: un perezoso terrestre del tamaño de un elefante, un armadillo enorme, un animal parecido a un hipopótamo con dientes de roedor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que le llamó la atención no fue el tamaño sino el parecido. Aquellos animales extinguidos se parecían a los que seguían vivos en la misma región: perezosos, armadillos, roedores sudamericanos. Los fósiles gigantes eran versiones antiguas de la fauna local.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Si cada especie hubiera sido creada por separado y colocada donde le correspondía, no había ninguna razón para que los animales extinguidos de un continente se parecieran precisamente a los vivos de ese mismo continente y no a los de otro sitio.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer bloque es el de la distribución geográfica, que es en realidad su argumento más fuerte y el que menos se cuenta. Darwin observó que las especies de una zona se parecen a las de la zona de al lado, no a las de otro sitio con el mismo clima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los animales del desierto sudamericano se parecen a los del bosque sudamericano, no a los del desierto africano, aunque el clima africano sea más parecido. Eso solo tiene sentido si las especies descienden de otras que vivían cerca, no si están adaptadas a un clima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y llegamos a las islas Galápagos, que es donde la historia popular pone el momento de la revelación y donde no ocurrió nada parecido. Darwin pasó allí cinco semanas, en septiembre y octubre de 1835, y no le parecieron gran cosa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pasó de verdad con los pinzones",
+          frase: "Recogió pájaros de varias islas sin anotar de cuál venía cada uno, porque no se le ocurrió que pudiera importar. Creyó además que eran familias distintas: pinzones, mirlos y picogordos. No los identificó como lo que eran ni tuvo allí ninguna idea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La identificación la hizo en Londres el ornitólogo John Gould, en marzo de 1837, año y medio después de volver: le dijo que todos aquellos pájaros eran doce especies distintas de una misma familia, y que ninguna existía en ningún otro sitio del mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Darwin tuvo entonces que reconstruir de qué isla venía cada uno pidiéndole las etiquetas a otros tripulantes, incluido el capitán FitzRoy, que había recogido sus propios ejemplares y sí los había anotado bien.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los pájaros que de verdad le hicieron pensar en aquel momento no fueron los pinzones sino los sinsontes, de los que sí había separado los ejemplares por isla y en los que notó diferencias claras entre poblaciones vecinas.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa corrección importa porque cambia la imagen del descubrimiento científico que transmite la versión popular. No hubo un momento de iluminación mirando unos picos: hubo cinco años recogiendo cosas y luego años de trabajo en Londres ordenándolas y consultando a especialistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En julio de 1837, ya en Londres, abrió un cuaderno que etiquetó con la letra B y empezó a anotar ideas sobre la transmutación de las especies. En una de las páginas dibujó un esquema de líneas que se ramifican.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Encima escribió dos palabras: creo que.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dibujo torpe de un árbol con ramas es el primer boceto de la teoría, y le faltaba todavía el mecanismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese esquema es importante por lo que descarta. La imagen tradicional del orden natural era una escalera: los seres vivos ordenados de lo simple a lo complejo, con el ser humano en el escalón de arriba y todo apuntando hacia él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un árbol dice otra cosa completamente distinta. Las ramas no van a ninguna parte, no hay una dirección ni un objetivo, y todas las puntas están igual de arriba. Un escarabajo actual y un ser humano actual están a la misma distancia del tronco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es probablemente la consecuencia del libro que más cuesta asimilar y la que menos se asimila: la evolución no progresa hacia nada ni mejora nada. Solo ajusta poblaciones a entornos que cambian, y cuando el entorno cambia el ajuste anterior deja de servir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El único diagrama de todo el libro, en el capítulo cuarto, es una versión desarrollada de aquel garabato: un esquema de líneas que se ramifican a lo largo de miles de generaciones, con la mayoría de las ramas terminando sin descendencia.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los veinte años de espera",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El mecanismo llegó en septiembre de 1838, leyendo por distracción un libro de economía política publicado cuarenta años antes: el Ensayo sobre el principio de la población, de Thomas Malthus, un clérigo que había calculado el crecimiento de las poblaciones humanas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Malthus sostenía que la población crece más deprisa que los alimentos y que por tanto siempre habrá hambre, enfermedad y competencia. Era un argumento sobre política social y sobre por qué era inútil ayudar a los pobres, y a Darwin le sirvió para otra cosa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que vio ahí",
+          frase: "Que todos los seres vivos producen muchos más descendientes de los que pueden sobrevivir. Un roble produce miles de bellotas y solo una llega a árbol. Si de esa multitud sobreviven unos pocos, la pregunta es cuáles, y esa pregunta tiene respuesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El razonamiento completo tiene tres pasos y ninguno es discutible por separado. Primero: dentro de cualquier especie, los individuos varían entre sí. Segundo: nacen muchos más de los que pueden vivir con los recursos disponibles. Tercero: parte de esa variación se hereda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De esos tres hechos se sigue necesariamente que los individuos con variaciones que les den alguna ventaja, por pequeña que sea, dejarán algo más de descendencia, y que esa ventaja será más frecuente en la generación siguiente. Eso es todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llamó selección natural por analogía con lo que llevaban siglos haciendo los criadores de palomas, perros y ganado, que en pocas generaciones producían razas asombrosamente distintas eligiendo qué animales se reproducían. La naturaleza hacía lo mismo sin elegir.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El primer capítulo del libro está dedicado entero a las palomas domésticas, y hay lectores que abandonan ahí. La razón de esa decisión es táctica: Darwin quería que su lector viera con animales conocidos que la variación heredable produce cambios enormes.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el mecanismo en la mano, en 1838, la teoría estaba esencialmente completa. Darwin escribió un resumen a lápiz de treinta y cinco páginas en 1842, y en 1844 lo amplió a un ensayo de más de doscientas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces lo guardó en un cajón con una carta dirigida a su mujer, Emma, pidiéndole que si él moría le entregara el manuscrito a un editor competente con cuatrocientas libras para publicarlo. Es la carta de alguien que sabe lo que tiene entre manos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después dedicó ocho años enteros a otra cosa: a clasificar percebes. Publicó cuatro volúmenes sobre percebes vivos y fósiles, y ese trabajo, que parece una huida, le dio la autoridad de taxónomo que necesitaba para que lo tomaran en serio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué esperó veintiún años",
+          frase: "Por tres razones que se suman. Sabía que su teoría chocaba de frente con la creencia religiosa de su tiempo y con la de su propia mujer. Quería un caso tan documentado que fuera imposible de rebatir. Y estaba enfermo casi permanentemente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo motivo tiene un episodio concreto detrás. En 1844, el mismo año de su ensayo, se publicó en Londres un libro anónimo llamado Vestigios de la historia natural de la creación, que defendía una versión confusa de la transformación de las especies.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fue un superventas y recibió una paliza crítica brutal de toda la comunidad científica británica, que lo desmontó por su falta de rigor. Darwin siguió aquella demolición desde primera fila y sacó la conclusión evidente: sin pruebas abrumadoras, no valía la pena publicar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Sobre su salud: desde el regreso del viaje sufrió durante cuarenta años vómitos, temblores, palpitaciones, eccemas y episodios de agotamiento que lo dejaban semanas en cama. Se han propuesto muchos diagnósticos y ninguno se ha demostrado.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vivía retirado en una casa de campo en Kent, con una rutina rígida de paseos y trabajo por tramos cortos, evitando visitas y congresos. Buena parte de su vida científica la hizo por correspondencia: llegó a escribir unas quince mil cartas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y usaba esa correspondencia como laboratorio: preguntaba a criadores de palomas, a jardineros, a militares destinados en colonias y a misioneros, pidiéndoles observaciones concretas sobre animales y plantas de sus zonas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1856, por fin, empezó a escribir el libro definitivo, que iba a ser enorme y llevaba años de trabajo por delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 18 de junio de 1858 llegó a su casa un sobre desde una isla del archipiélago de las Molucas, a medio mundo de distancia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir algo sobre la casa donde ocurre todo esto, porque explica su método. Down House está a unos veinticinco kilómetros de Londres y Darwin la compró en 1842 buscando aire, silencio y distancia de la vida social científica de la capital.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Allí montó un jardín que era en realidad un laboratorio: cultivaba plantas para estudiar la fecundación cruzada, criaba palomas de varias razas, hacía germinar semillas que había tenido en agua salada durante semanas para comprobar si podían cruzar océanos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese último experimento es un ejemplo perfecto de cómo trabajaba: para sostener que las especies llegan a las islas desde el continente hacía falta demostrar que una semilla puede sobrevivir flotando, así que se pasó meses metiendo semillas en agua salada y contándolas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tuvo diez hijos con Emma, su prima hermana, y tres murieron. La muerte de Annie, la mayor, a los diez años en 1851, lo destrozó y suele señalarse como el momento en que perdió definitivamente lo que le quedaba de fe religiosa.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La carta de Ternate",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El sobre lo enviaba Alfred Russel Wallace, naturalista británico de treinta y cinco años que llevaba años recolectando ejemplares en el sudeste asiático y que se ganaba la vida vendiéndolos a coleccionistas europeos. Era, socialmente, todo lo contrario de Darwin.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No tenía dinero, ni familia influyente, ni formación universitaria, y trabajaba en condiciones durísimas. Se habían escrito unas cuantas cartas y Darwin lo consideraba un corresponsal útil y competente, uno más entre muchos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que había dentro del sobre",
+          frase: "Un ensayo de veinte páginas, escrito durante un ataque de fiebre en la isla de Ternate, que exponía la selección natural. El mismo mecanismo, deducido por su cuenta, con los mismos tres pasos y con la misma deuda con Malthus.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wallace le pedía que, si le parecía interesante, se lo hiciera llegar a Charles Lyell. Es decir: le estaba pidiendo al hombre que llevaba veinte años sentado sobre esa idea que lo ayudara a publicarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Darwin escribió a Lyell aquel mismo día una carta que se conserva y que es de una honestidad dolorosa: decía que nunca había visto una coincidencia tan asombrosa, que si Wallace tuviera su borrador de 1842 no habría podido hacer mejor resumen, y que toda su originalidad quedaba destruida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añadía que por supuesto ofrecería enviar el ensayo a una revista, aunque eso significara perder toda prioridad, y que prefería quemar su propio libro antes que comportarse de manera mezquina.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lyell y el botánico Joseph Hooker montaron entonces una solución de compromiso: presentar los dos trabajos a la vez ante la Sociedad Linneana de Londres, el ensayo de Wallace junto con extractos del manuscrito de Darwin de 1844 y una carta suya de 1857.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se leyeron el 1 de julio de 1858. Ninguno de los dos autores estaba presente. Wallace seguía en Indonesia y no se enteró hasta meses después, cuando ya estaba hecho. Nunca protestó y siempre reconoció la prioridad de Darwin con una generosidad notable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Darwin no fue por una razón que conviene contar entera: tres días antes, el 28 de junio, había muerto en su casa su hijo Charles Waring, de un año y medio, de escarlatina. Estaba enterrándolo el día que se leyó el trabajo de su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La presentación no causó ninguna impresión. El presidente de la Sociedad escribió en el resumen anual que aquel año no había estado marcado por ningún descubrimiento notable que revolucionara la disciplina.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hizo Darwin entonces",
+          frase: "Abandonar el libro enorme que estaba escribiendo y redactar en trece meses una versión abreviada. Se disculpa en el prólogo por publicar un resumen y por no poder incluir todas las referencias. Ese resumen apresurado son las quinientas páginas del Origen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se publicó el 24 de noviembre de 1859 con una tirada de mil doscientos cincuenta ejemplares. Se agotó el mismo día en el circuito de libreros, y en vida de Darwin se hicieron seis ediciones, cada una con correcciones y añadidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tiene una estructura que merece señalarse porque es poco común: dedica un capítulo entero, el sexto, a las dificultades de su propia teoría, enumerando las objeciones más fuertes que se le pueden hacer antes de que se las hagan otros.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahí discute cómo pudo formarse algo tan complejo como un ojo por pasos, por qué no aparecen todas las formas intermedias en el registro fósil, cómo se explica el instinto y por qué los híbridos suelen ser estériles.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo es lo que separa un libro científico de un panfleto, y sigue siendo un modelo: el autor construye los mejores argumentos contra sí mismo y después intenta contestarlos, admitiendo cuando no puede.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre los seres humanos, el libro dice exactamente una frase, cerca del final: que se arrojará luz sobre el origen del hombre y su historia. Nada más. La cuestión humana la trató doce años después, en El origen del hombre, de 1871.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa prudencia fue deliberada y no sirvió de nada: la discusión pública se fue inmediatamente a los monos y ahí sigue.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay algo que el libro no puede explicar en ninguna de sus seis ediciones, porque Darwin no lo sabía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso conviene contar cómo se recibió, porque la imagen de un escándalo inmediato tampoco es exacta. Hubo reacciones furiosas y también aceptación rápida entre buena parte de los naturalistas jóvenes, y en unos diez años la idea de la evolución era mayoritaria en la ciencia británica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que tardó mucho más en aceptarse fue el mecanismo. Que las especies cambian se admitió pronto; que el motor de ese cambio fuera la selección natural, sin ninguna dirección ni finalidad, siguió discutiéndose durante décadas incluso entre quienes aceptaban la evolución.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El episodio más famoso de la polémica es el debate de Oxford de junio de 1860, con el obispo Wilberforce preguntándole a Thomas Huxley si descendía del mono por parte de abuelo o de abuela, y con Huxley contestándole con una frase que nadie anotó exactamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las versiones de lo que dijo se contradicen entre sí y se fijaron décadas después, cuando ya interesaba tener una escena fundacional. Es un ejemplo bastante bueno de cómo la historia de la ciencia también construye sus propios mitos.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que Darwin no tenía",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su teoría necesita que la variación se herede, y Darwin no tenía ni idea de cómo funciona la herencia. Esa es la pieza que falta en el centro del edificio, y él lo sabía perfectamente y lo dijo por escrito varias veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La creencia general de su época era la herencia por mezcla: los rasgos de los padres se combinan en el hijo como se mezclan dos líquidos, y el resultado es intermedio. Con esa idea, la selección natural no puede funcionar y hay una objeción demoledora.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La objeción de Jenkin",
+          frase: "En 1867, el ingeniero Fleeming Jenkin la formuló así: si aparece un individuo con una variación ventajosa y se cruza con la población normal, su ventaja quedará diluida a la mitad en sus hijos, a la cuarta parte en sus nietos, y desaparecerá antes de poder extenderse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Darwin no supo contestar a eso y le preocupó mucho. En las ediciones sucesivas fue dando cada vez más peso a otro mecanismo para explicar de dónde salía la variación, y ese mecanismo era la herencia de caracteres adquiridos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: la idea de Lamarck de que lo que un individuo desarrolla en vida se transmite a sus hijos. Darwin, contra lo que casi todo el mundo cree, se volvió más lamarckiano con los años, no menos, precisamente porque le faltaba una teoría de la herencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su propia propuesta se llamó pangénesis y era completamente errónea: suponía que cada parte del cuerpo emite partículas diminutas que viajan hasta los órganos reproductores y se combinan allí. Su primo Francis Galton hizo experimentos con conejos y no encontró nada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La solución estaba publicada. En 1866, un monje agustino de Brno llamado Gregor Mendel había publicado sus experimentos con guisantes, demostrando que los rasgos se heredan en unidades discretas que no se mezclan y que pueden quedar ocultas una generación y reaparecer.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas unidades discretas resuelven exactamente la objeción de Jenkin: una variación ventajosa no se diluye, se transmite entera o no se transmite. El artículo se publicó en las actas de una sociedad local, no lo leyó casi nadie y Darwin nunca supo de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mendel murió en 1884 sin reconocimiento, dos años después que Darwin. Su trabajo se redescubrió en 1900, y la unión de la selección natural con la genética mendeliana no se completó hasta los años treinta y cuarenta del siglo veinte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo un segundo problema serio que tampoco pudo resolver, y venía de la física. Lord Kelvin, la mayor autoridad de la época, calculó la edad de la Tierra a partir de su enfriamiento y le dio entre veinte y cien millones de años.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso le arruinaba la teoría",
+          frase: "Porque su mecanismo necesita muchísimo más tiempo. Con cien millones de años no hay margen para que la selección natural produzca lo que se observa. Darwin escribió que aquella objeción era una de las más graves que se le habían hecho y no supo qué contestar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tenía razón él y no Kelvin, y la explicación llegó después de la muerte de los dos: el cálculo no tenía en cuenta la radiactividad, descubierta en 1896, que mantiene caliente el interior del planeta. La Tierra tiene unos cuatro mil quinientos millones de años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree de este libro y no es verdad, empezando por lo más repetido: la frase supervivencia del más apto no es de Darwin. La acuñó el filósofo Herbert Spencer y Darwin la incorporó en la quinta edición, presionado por Wallace, y le hizo un flaco favor.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Porque apto no significa fuerte ni mejor: significa ajustado a un entorno concreto en un momento concreto. En un ambiente que cambia, el más apto de ayer es el peor colocado mañana, y la fuerza física es una de las muchas cosas que pueden servir o no servir.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: la historia de los pinzones. Darwin no tuvo ninguna revelación en las Galápagos, no anotó de qué isla venía cada pájaro y creyó que eran familias distintas. Los identificó John Gould en Londres año y medio después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: el libro no dice que descendamos de los monos. Dedica una sola frase a los seres humanos. La afirmación correcta, que hizo doce años más tarde, es que los humanos y los simios actuales comparten un antepasado común, que no es lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: Darwin no se retractó en su lecho de muerte. Esa historia la difundió una predicadora llamada Lady Hope en 1915, treinta y tres años después, y sus hijos la desmintieron. Él se describía como agnóstico y evitó siempre la polémica religiosa pública.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pelea pública la dio Thomas Huxley, que se llamaba a sí mismo el bulldog de Darwin, mientras Darwin se quedaba en su casa de Kent escribiendo cartas y estudiando lombrices.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su último libro, publicado el año antes de morir, trata precisamente de eso: de cómo las lombrices de tierra remueven el suelo. Vendió más ejemplares en su primer año que El origen de las especies.",
+        },
+      ],
+    },
+  ],
+};

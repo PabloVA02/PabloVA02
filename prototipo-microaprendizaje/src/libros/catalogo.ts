@@ -119,7 +119,7 @@ export const CATALOGO: Ficha[] = [
   { id: "feynman", titulo: "¿Está usted de broma, Sr. Feynman?", autor: "Richard Feynman", ano: 1985, categoria: "Ciencia", estado: "escrito" },
   { id: "musica-primos", titulo: "La música de los números primos", autor: "Marcus du Sautoy", ano: 2003, categoria: "Ciencia", estado: "escrito" },
   { id: "universo-mano", titulo: "El universo en tu mano", autor: "Christophe Galfard", ano: 2015, categoria: "Ciencia", estado: "escrito" },
-  { id: "origen-especies", titulo: "El origen de las especies", autor: "Charles Darwin", ano: 1859, categoria: "Ciencia", estado: "pendiente" },
+  { id: "origen-especies", titulo: "El origen de las especies", autor: "Charles Darwin", ano: 1859, categoria: "Ciencia", estado: "escrito" },
   { id: "doble-helice", titulo: "La doble hélice", autor: "James D. Watson", ano: 1968, categoria: "Ciencia", estado: "pendiente" },
   { id: "revoluciones-cientificas", titulo: "La estructura de las revoluciones científicas", autor: "Thomas S. Kuhn", ano: 1962, categoria: "Ciencia", estado: "pendiente" },
   { id: "siete-lecciones-fisica", titulo: "Siete breves lecciones de física", autor: "Carlo Rovelli", ano: 2014, categoria: "Ciencia", estado: "pendiente" },
