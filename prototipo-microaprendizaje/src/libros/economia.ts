@@ -8959,3 +8959,651 @@ export const BOGLE_SENTIDO_COMUN: Resumen = {
     },
   ],
 };
+
+export const MILLONARIO_AL_LADO: Resumen = {
+  id: "millonario-al-lado",
+  titulo: "El millonario de al lado",
+  autor: "Stanley y Danko",
+  ano: 1996,
+  gancho:
+    "Un profesor de marketing montó una degustación de lujo para diez millonarios y ninguno tocó el foie. Uno le pidió una cerveza y le dijo que solo bebía dos marcas: la gratis y la barata.",
+  porQue:
+    "Porque separa dos cosas que casi todo el mundo confunde y que cuestan mucho dinero confundir: cobrar mucho y ser rico. Y porque su fórmula famosa no sale, y su método tiene el problema que Taleb lleva veinte años denunciando.",
+  partes: [
+    {
+      titulo: "Una degustación que nadie tocó",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Años ochenta, Nueva York. Un profesor de marketing organiza una reunión con diez personas cuyo patrimonio supera el millón de dólares. Quiere entrevistarlos para un banco que pretende venderles productos financieros, y ha preparado la sala como cree que hay que recibir a esa gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha encargado cuatro tipos de paté, uno de ellos carísimo, y ha comprado dos cajas de vino de gran reserva. Los millonarios llegan, se sientan y no tocan nada. Uno de ellos mira las bandejas con desconfianza y pregunta si hay algo de comer que no sea eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro, un hombre que había amasado una fortuna considerable, le explica al profesor que él solo bebe dos clases de cerveza: la gratis y la más barata que haya. Al final de la reunión, el vino de reserva estaba prácticamente entero y las galletas saladas se habían acabado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa escena, que abre el libro, es lo que le cambió la carrera a Thomas Stanley. Se dio cuenta de que llevaba años ayudando a los bancos a buscar clientes ricos donde no estaban: en los barrios caros, en los concesionarios de coches de lujo y en las listas de socios de clubes.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hipótesis fue esta: mucha de la gente que vive con aspecto de rica no tiene patrimonio, y mucha de la que tiene patrimonio no vive con aspecto de rica. Si eso era cierto, todo el sector financiero llevaba décadas segmentando a sus clientes por la señal equivocada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se pasó veinte años comprobándolo con encuestas y entrevistas a personas con más de un millón de dólares de patrimonio neto en Estados Unidos, y en 1996 publicó los resultados con un colega, William Danko, en un libro que ha vendido más de tres millones de ejemplares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene notar de dónde viene el encargo, porque explica el enfoque del libro. Stanley no empezó preguntándose cómo enriquecerse: empezó preguntándose a quién debía mandarle publicidad un banco. Es un libro de segmentación de clientes que acabó vendiéndose como manual de superación.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La distinción que lo justifica todo",
+          frase: "La renta es lo que entra cada mes. El patrimonio es lo que queda después de gastar. Son dos cosas distintas y en la conversación corriente se usan como si fueran la misma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción es el verdadero contenido del libro y merece un momento, porque de lo obvia que parece se pasa por encima. Un abogado que gana doscientos mil euros al año y se los gasta enteros no es rico: es alguien con una renta alta y un patrimonio de cero, igual que un parado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia práctica salta a la vista el día que ese abogado deja de facturar. Su nivel de vida depende íntegramente de que siga entrando dinero cada mes, que es exactamente la definición de no tener nada. Su seguridad es un flujo, no un fondo, y los flujos se cortan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una asimetría cruel en eso: cuanto más alto es el nivel de vida montado sobre un flujo, más difícil es reducirlo cuando el flujo falla. El colegio de los hijos, la hipoteca y el coche no se ajustan a la baja en un mes, y por eso las caídas desde arriba son tan rápidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los autores tienen un nombre para eso, prestado de una expresión tejana: sombrero grande y ninguna vaca. Alguien vestido de ganadero rico que no tiene ganado. Y sostienen que buena parte de los barrios caros de cualquier ciudad está llena de gente en esa situación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su razonamiento sobre eso es bueno: vivir en un barrio caro obliga a gastar como los vecinos, porque el colegio, el coche aparcado enfrente y la ropa de los niños son señales que hay que emitir. La casa cara no es solo cara: instala un nivel de gasto que ya no se puede bajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa distinción hecha, el libro se dedica a describir a los que sí tienen ganado. Y el retrato que sale es lo que le dio la fama, porque no se parece en nada a lo que la gente imagina cuando oye la palabra millonario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir de entrada qué clase de libro es, porque de ahí salen todos sus problemas. No es un manual: es una encuesta. Describe lo que tienen en común un montón de personas ricas, y el lector es quien decide, por su cuenta, leer esa descripción como un conjunto de instrucciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los autores tampoco lo desmienten, todo hay que decirlo. El subtítulo original habla de los sorprendentes secretos de los ricos de América, que es exactamente la palabra que convierte una encuesta en una promesa, y esa palabra la eligió alguien en una reunión de marketing.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa diferencia entre describir y prescribir es la que este resumen va a perseguir hasta el final, porque es donde el libro se rompe. Saber qué tienen en común los que llegaron no es lo mismo que saber qué hay que hacer para llegar, y hay un motivo estadístico preciso para ello.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso hay que situar el marco temporal, que importa mucho. Los datos son de encuestas estadounidenses de los años ochenta y principios de los noventa, hechas en un país concreto, en una época concreta y con una definición concreta de millonario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa definición ha cambiado sola. Un millón de dólares de 1996 equivale hoy a algo más del doble en poder adquisitivo, así que las personas que retrata el libro eran bastante más ricas de lo que un lector actual entiende al leer la palabra millonario en la portada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle no es una objeción menor: cambia quién es el sujeto del estudio. No estamos leyendo sobre gente que ahorró bien y llegó a tener un piso pagado y unos ahorros. Estamos leyendo sobre el uno por ciento largo de la población estadounidense de hace treinta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en un país con un sistema fiscal, un mercado laboral y unos precios de vivienda que no se parecen a los españoles. Trasladar cifras concretas de aquellas encuestas a la situación de alguien que vive hoy en Badajoz o en Barcelona no da un resultado aproximado: da un resultado sin sentido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El vino de reserva se quedó sin abrir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las galletas saladas se acabaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y un profesor de marketing entendió que estaba buscando en la calle equivocada.",
+        },
+      ],
+    },
+    {
+      titulo: "La camioneta del millonario",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El hallazgo que hizo famoso el libro es el de los coches. Al preguntar a los millonarios estadounidenses qué marca conducían, la respuesta más frecuente no era ninguna alemana ni italiana: era Ford. Y el modelo más repetido de todos era la camioneta de trabajo de esa marca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Además, alrededor de un tercio compraba el coche de segunda mano, y la mayoría no lo cambiaba hasta pasados muchos años. Una parte considerable declaró no haber pagado nunca más de treinta mil dólares por un vehículo, en dólares de los años noventa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los autores insisten mucho en el coche y tienen una razón: es la segunda compra más grande de una vida y la única que se renueva cada pocos años. Alguien que cambie de coche cada cuatro años en lugar de cada diez habrá gastado, a lo largo de su vida laboral, el precio de un piso pequeño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resto del retrato va en la misma dirección. Viven en casas que compraron hace décadas en barrios normales, llevan relojes baratos, sus mujeres —el estudio es de su época y casi todos los encuestados eran hombres— suelen ser extremadamente cuidadosas con el gasto doméstico.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y trabajan en sectores que nadie asocia con el dinero. Los autores insisten en eso con una lista que se recuerda: contratistas de soldadura, empresas de fumigación, tintorerías, chatarrerías, parques de casas móviles, distribuidores de material de construcción. Oficios aburridos y necesarios.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La observación detrás es buena: en los sectores glamurosos hay mucha competencia por entrar, los márgenes se aprietan y hay que gastar en aparentar. En los sectores que nadie quiere, hay menos competencia, los clientes no se van y nadie espera que llegues en un coche caro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la misma lógica que explica por qué hay más fortunas discretas en la distribución de material de fontanería que en la producción de cine. Un sector que atrae a mucha gente por prestigio acaba pagando en prestigio, y el prestigio no se puede invertir en un fondo indexado.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El patrón central",
+          frase: "Casi todos habían acumulado su dinero de la misma manera aburrida: viviendo por debajo de lo que ganaban durante mucho tiempo, e invirtiendo la diferencia sin tocarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro da una cifra: la mayoría invertía en torno al veinte por ciento de sus ingresos brutos, todos los años, sin excepciones y sin esperar a que sobrara. Y casi todos sabían con precisión cuánto gastaban al mes en cada partida, cosa que la mayoría de la gente no sabe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato es de los que aguantan, y coincide exactamente con lo que dice «El pequeño libro para invertir con sentido común», de Bogle, que está en esta misma categoría. Los dos libros, por caminos distintos, terminan en lo mismo: aportar todos los meses y no tocarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo más original del libro, y el que menos se cita, es el que llaman la asistencia económica ambulatoria: las ayudas continuas que los padres ricos dan a sus hijos adultos. Pagar la entrada del piso, cubrir el colegio de los nietos, tapar un descubierto cada cierto tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre es horroroso y la expresión inglesa tampoco es mejor, pero apunta a algo preciso: no habla de una herencia ni de un regalo puntual, sino de un goteo sostenido durante décadas que ni el que da ni el que recibe suman nunca, porque cada entrega parece pequeña por separado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hallazgo es incómodo: los hijos que reciben esas ayudas acumulan menos patrimonio propio que los hijos que no las reciben, incluso comparando familias parecidas. Y no un poco menos: bastante menos, según sus datos, y con una diferencia que se mantiene con los años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación es sensata y difícil de demostrar. Una ayuda que llega todos los años deja de percibirse como un regalo y pasa a formar parte del presupuesto, de modo que el receptor calibra su nivel de vida contando con ella y nunca desarrolla el hábito de ajustarse a lo suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade un detalle que a mucha gente le suena: esas ayudas suelen ir a los hijos que peor se manejan, no a los que mejor. Un padre premia el problema, porque es al que se queja al que hay que socorrer, y así financia año tras año la conducta que dice querer corregir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y observa una consecuencia que envenena a las familias: los hermanos que no reciben nada saben perfectamente que el otro sí, y llevan la cuenta. Lo que el padre vive como una ayuda discreta a quien lo necesita, el resto lo vive como un reparto desigual del patrimonio en vida.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Conviene decir que la causalidad ahí no está probada y el libro la trata como si lo estuviera. Puede ser que la ayuda cree la dependencia, o puede ser que los padres ayuden precisamente a los hijos que ya de por sí administran peor. Los datos de una encuesta no distinguen esas dos cosas.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa cautela puesta, el capítulo sigue mereciendo la pena porque plantea bien una pregunta que casi nadie se hace en voz alta: qué le hace a un hijo adulto una transferencia constante de dinero, y si ayudarle todos los años es realmente ayudarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otro hallazgo del libro que envejeció regular y hay que señalarlo. Sostienen que los millonarios gastan mucho en la educación de sus hijos y muy poco en darles cosas, y presentan eso como el reparto correcto. Es razonable, y también es lo que dice cualquiera que tenga dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no se pregunta el libro es qué representa esa educación pagada dentro del patrimonio familiar. Una carrera universitaria estadounidense sin deuda es una transferencia enorme, y en el propio esquema del libro debería contar como herencia recibida, y no cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En España la comparación no es la misma porque la universidad pública cambia el cálculo por completo, y ese es justo el tipo de cosa que hay que traducir al leer el libro: buena parte de lo que allí es una transferencia familiar aquí lo paga un sistema público, y eso desplaza todos los números.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La marca más común era Ford.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El modelo más común, la camioneta de obra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y un tercio de ellos la había comprado usada.",
+        },
+      ],
+    },
+    {
+      titulo: "La fórmula que no sale",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro contiene una fórmula que se ha reproducido en miles de artículos, hilos y vídeos, y que es probablemente lo más citado de todo el volumen. Sirve para saber si estás acumulando patrimonio como te corresponde, y es tan sencilla que se hace de cabeza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Coge tu edad, multiplícala por tus ingresos brutos anuales del hogar y divide entre diez. Ese es el patrimonio neto que, según los autores, deberías tener. Si tienes el doble o más, te llaman acumulador prodigioso. Si tienes la mitad o menos, acumulador deficiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un ejemplo: cuarenta y cinco años, cincuenta mil euros brutos de ingresos familiares. Cuarenta y cinco por cincuenta mil son dos millones doscientos cincuenta mil, entre diez, doscientos veinticinco mil euros. Eso incluye la casa descontada la hipoteca, los ahorros y los planes de pensiones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puesta así, para mucha gente de mediana edad con la hipoteca avanzada la cifra sale más o menos, y de ahí viene parte de su prestigio: acierta en el tramo intermedio, que es donde está el lector típico, y por eso nadie la comprueba en los extremos donde se rompe.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es una regla atractiva porque da un número, y un número siempre parece más serio que un consejo. El problema es que la fórmula no funciona, y no de una manera sutil: falla en los dos extremos de la vida y falla por razones aritméticas que se ven en dos minutos.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empecemos por el extremo joven. Una persona de veinticinco años que gana cuarenta mil euros debería tener, según la fórmula, cien mil de patrimonio. Si empezó a trabajar a los veintidós, eso significa haber ahorrado en tres años una cantidad superior al ochenta por ciento de todo lo que ha cobrado.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El fallo de origen",
+          frase: "La fórmula da por hecho que has cobrado tu sueldo actual toda la vida. Como el sueldo sube con los años, castiga sistemáticamente a cualquiera que haya prosperado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es exactamente el punto. Cuanto más te ha subido el sueldo, peor sales en la fórmula, porque se te exige un patrimonio calculado sobre lo que ganas ahora y no sobre lo que ganabas cuando podías haber ahorrado. Un ascenso reciente te convierte en acumulador deficiente esa misma tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y funciona al revés con quien va a peor: alguien que ha perdido la mitad del sueldo este año mejora automáticamente de categoría, porque el divisor de la fórmula ha bajado. Una regla que asciende a quien empeora y degrada a quien mejora no está midiendo lo que dice medir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en el otro extremo pasa lo contrario. Un jubilado de setenta y cinco años que cobra veinte mil euros de pensión debería tener, según la fórmula, ciento cincuenta mil. Es una cifra ridículamente baja para alguien que ha trabajado cuarenta y cinco años, y sin embargo lo clasificaría como prodigioso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque al jubilarse la renta cae en picado mientras el patrimonio está en su punto más alto, así que la fórmula asciende a todo el mundo de categoría el día que deja de trabajar, sin que nadie haya hecho nada distinto. Basta con dejar de cobrar para ser un buen ahorrador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los propios autores reconocen en algún punto que la regla es aproximada, y eso está bien. Lo que no está bien es haber puesto un número redondo y memorizable en un libro de gran público, sabiendo perfectamente que un número redondo se cita y una advertencia no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo mecanismo que hemos visto en otros libros de esta biblioteca: la cifra viaja y el matiz se queda en el párrafo. Una vez que una fórmula sale del libro y entra en internet, ya no lleva encima ninguna de las advertencias con las que se publicó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien quiere una versión que sí funcione, es fácil de construir y no está en el libro. En lugar de tu renta actual, usa la media de lo que has ganado en toda tu vida laboral, y en vez de tu edad, usa los años que llevas trabajando. Con esos dos cambios la fórmula deja de ser absurda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aunque el problema de fondo permanece, y conviene decirlo: cualquier fórmula de este tipo ignora dónde vives. El patrimonio necesario para tener una casa pagada en Madrid y en un pueblo de Extremadura difiere en un factor enorme, y ninguna regla con un único divisor puede recogerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y produce una paradoja divertida: dos personas con la misma vida, el mismo trabajo y la misma disciplina salen en categorías opuestas según en qué provincia compraran la casa hace veinte años. La fórmula estaría midiendo, sobre todo, el mercado inmobiliario de su ciudad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "También ignora si tienes hijos, si has estado enfermo, si te tocó una crisis en el peor momento de tu vida laboral o si has cuidado a alguien durante diez años. Todas esas cosas destrozan la acumulación de patrimonio, y ninguna de ellas es un defecto de carácter.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está el problema moral del libro, más allá del aritmético. Su vocabulario —acumulador prodigioso, acumulador deficiente— convierte un resultado económico en una calificación personal, y sugiere que quien tiene poco patrimonio lo tiene por haber gastado mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En muchos casos es verdad, y por eso el libro sirve. En otros muchos, alguien con la misma disciplina exacta llegó a los cincuenta sin nada porque le pagaban mil doscientos euros al mes, y ninguna cantidad de frugalidad convierte eso en un patrimonio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está el límite de todo el género y conviene tenerlo claro para leerlo sin hacerse daño: los consejos de finanzas personales operan sobre el margen entre lo que entra y lo que hace falta para vivir. Donde ese margen es cero o negativo, no hay consejo que aplicar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no distingue entre esos dos casos porque su muestra solo contiene el primero. En sus encuestas no hay nadie que hiciera todo bien y no llegara, sencillamente porque no entrevistó a nadie que no fuera millonario, y de eso trata el capítulo siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Edad por ingresos entre diez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Suena a ley y es una regla de servilleta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y castiga precisamente a quien ha conseguido que le suban el sueldo.",
+        },
+      ],
+    },
+    {
+      titulo: "El cementerio que no se encuestó",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay un problema con este libro que no es un detalle, sino el método entero, y tiene nombre. Se llama sesgo del superviviente y consiste en sacar conclusiones estudiando solamente a los que llegaron, sin mirar a los que hicieron lo mismo y no llegaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso clásico se cuenta con los aviones de la Segunda Guerra Mundial. Los ingenieros estudiaban dónde tenían más impactos los bombarderos que volvían para blindar esas zonas, hasta que un estadístico señaló lo evidente: hay que blindar donde no hay impactos, porque los que recibieron ahí no volvieron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este libro es exactamente esa lista de aviones que volvieron. Encuesta a personas que ya son millonarias y apunta lo que tienen en común. Y eso, por sí solo, no permite decir absolutamente nada sobre qué hay que hacer para llegar a serlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para poder decirlo haría falta el estudio contrario, que es carísimo y que casi nadie hace: coger a diez mil personas de treinta años, seguirlas durante cuatro décadas y ver qué distingue a las que acumularon patrimonio de las que no. Ese estudio sí valdría como manual.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El ejemplo más claro está en su hallazgo estrella: que la mayoría de los millonarios son empresarios por cuenta propia. Eso es probablemente cierto. Pero la afirmación inversa, que es la que el lector deduce, es falsa: la mayoría de los que montan un negocio no llegan a ser millonarios.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los datos estadounidenses sobre supervivencia de empresas nuevas llevan décadas dando lo mismo: en torno a la mitad no llegan a los cinco años. Y de las que sobreviven, la mayoría le da a su dueño un sueldo, no una fortuna. Ese cementerio no aparece en ninguna página del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una asimetría que el libro no menciona y que decide muchas vidas: el asalariado que ahorra tiene un resultado mediocre pero bastante seguro, mientras que el que monta un negocio tiene una distribución de resultados enorme, con una cola de fracasos que se lleva también los ahorros previos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta que no se hace",
+          frase: "¿Cuánta gente vivió con la misma austeridad, montó el mismo tipo de negocio y acabó sin nada? El libro no lo sabe, porque a esa gente no la entrevistó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el motivo por el que este resumen se detiene tanto aquí. Aprender a detectar ese sesgo vale infinitamente más que cualquier consejo del libro, porque sirve para todos los libros de este género y para casi todo lo que uno lee sobre gente que ha triunfado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esta biblioteca tiene un especialista: «El cisne negro», de Nassim Taleb, que dedica capítulos enteros a esta idea. Su versión favorita es preguntar qué proporción de los que dejaron su trabajo para escribir una novela acabaron viviendo de ello, y qué proporción no volvió a publicar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Taleb lo llama las pruebas silenciosas, y viene de una historia antigua: a un hombre le enseñan los retratos de los que rezaron y se salvaron de un naufragio, y él pregunta dónde están los retratos de los que rezaron y se ahogaron. Es la misma objeción, con dos mil años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda objeción va sobre la cifra más repetida del libro: que alrededor del ochenta por ciento de los millonarios estadounidenses son de primera generación y no heredaron su fortuna. Es un dato que el libro usa para sostener que cualquiera puede hacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es qué se cuenta como herencia. En ese ochenta por ciento hay gente cuyos padres le pagaron la universidad entera, le dieron la entrada del primer piso, le presentaron a sus primeros clientes o le avalaron el primer préstamo. Nada de eso aparece en el recuento como herencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un problema estadístico añadido. Preguntarle a un millonario si se hizo a sí mismo es preguntarle a alguien con un interés evidente en contestar que sí. La autopercepción del mérito propio es de las cosas menos fiables que se pueden medir con una encuesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ojo con no pasarse en la dirección contraria, porque también sería falso. Que hubiera ayuda familiar no significa que no hubiera trabajo, ni disciplina, ni acierto. Lo que significa es que el libro reparte el mérito de una manera que sus propios datos no permiten sostener.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La posición razonable es la aburrida: hace falta trabajo y hace falta que las circunstancias acompañen, y ninguna de las dos cosas basta sola. El libro solo cuenta la primera mitad porque es la que sus encuestados recuerdan y la que su editor sabía que iba a vender.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La tercera objeción es de fecha, y es la más fácil de olvidar. Aquellas fortunas se construyeron en Estados Unidos entre los años sesenta y los noventa: con una bolsa en subida sostenida desde 1982, con tipos de interés cayendo durante veinte años y con vivienda mucho más barata respecto al sueldo.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un joven que aplique hoy exactamente el mismo método —ahorrar el veinte por ciento y comprar una casa modesta— se encuentra con un precio de la vivienda respecto a la renta que en muchas ciudades españolas ha llegado a duplicar el de entonces. El método es el mismo y el terreno no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una cuarta que es técnica y conviene citarla: las encuestas de Stanley tenían tasas de respuesta bajas y las muestras salían de barrios acomodados y de listas comerciales. Es decir, los que contestaron fueron los millonarios dispuestos a hablar con un investigador sobre su frugalidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no es una muestra de millonarios: es una muestra de millonarios a los que les gusta contar que son austeros. El millonario que gasta a manos llenas y no ve ningún mérito en ahorrar sencillamente tiró aquella carta a la basura, y por tanto no está en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo problema que tiene cualquier encuesta voluntaria, y por eso la primera pregunta que hay que hacerle a un estudio no es qué encontró, sino quién contestó. La respuesta a esa segunda pregunta explica, con muchísima frecuencia, el resultado entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los aviones que volvían tenían agujeros en las alas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde había que blindar era donde no había ninguno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este libro es una encuesta muy cuidadosa a los que volvieron.",
+        },
+      ],
+    },
+    {
+      titulo: "Renta no es riqueza",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Después de desmontar la fórmula, el método y la cifra estrella, queda la pregunta de si sobra algo. Y sobra una cosa, la primera que dijimos, que no depende de ninguna encuesta y que sigue siendo probablemente el error más caro de las finanzas personales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La renta no es la riqueza. Lo que ganas no es lo que tienes. Y el nivel de vida que exhibe alguien no informa de su patrimonio, sino exactamente de lo contrario: informa de cuánto de su renta se está yendo por el camino antes de convertirse en nada acumulado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea no necesita ningún estudio para sostenerse, porque es una identidad contable: lo que no gastas es lo único que puede convertirse en patrimonio. Y sin embargo hay que repetirla, porque el mundo entero está montado para que se olvide todos los días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está montado literalmente: la financiación a plazos existe para que puedas comprar hoy con dinero que no tienes, y la publicidad existe para que el nivel de vida de los demás te parezca el mínimo aceptable. Las dos cosas trabajan sobre la misma resta y en la misma dirección.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los autores lo formulan con una observación que aguanta: los coches, los relojes y las casas grandes no son señales de riqueza, son señales de gasto. Y como el gasto sale del patrimonio, cada señal visible de riqueza es literalmente una prueba de que hay menos de lo que parece.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la segunda idea aprovechable, que es sobre la inflación del estilo de vida. Cuando sube el sueldo, el gasto sube detrás casi automáticamente, y al cabo de veinte años de subidas uno puede estar cobrando el triple y ahorrando exactamente lo mismo que al principio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El remedio que proponen es de una simpleza que funciona: cuando llegue una subida, decide antes de cobrarla qué parte va a ahorro, y automatiza esa parte el mismo mes. Lo que nunca llega a la cuenta corriente no se echa de menos, porque el nivel de vida no llegó a subir.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo único que hay que retener",
+          frase: "Lo que determina tu patrimonio no es cuánto ganas: es la distancia entre lo que ganas y lo que gastas, sostenida durante muchos años. Todo lo demás del libro es decoración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con eso claro, el consejo práctico del libro se reduce a tres cosas aburridas y correctas. Sabe cuánto gastas, con números y no de memoria. Fija un porcentaje de ahorro y trátalo como una factura. Y no dejes que el gasto suba automáticamente cuando suba el ingreso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las tres coinciden con lo que dice Bogle en la categoría de inversión y con lo que dice Morgan Housel en «La psicología del dinero», que también está aquí. Los tres libros llegan al mismo sitio, y de los tres el de Housel es el que mejor entiende sus propios límites.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Housel dice algo que este libro no dice nunca y que hace falta: que buena parte de los resultados económicos de una vida depende de cuándo naciste, de dónde y en qué familia, y que el mérito y la suerte están tan mezclados que separarlos es prácticamente imposible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y saca de ahí una consecuencia práctica que este libro tampoco saca: si la suerte pesa tanto, conviene construir carteras y planes que sobrevivan a tener mala suerte, en vez de planes que solo funcionan si todo sale razonablemente bien. Es un consejo distinto y bastante mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece también compararlo con su vecino de estantería más ruidoso, «Padre rico, padre pobre», que salió al año siguiente y es su opuesto exacto en método. Aquel se apoya en anécdotas de un mentor cuya existencia nunca se ha podido verificar; este, en encuestas con miles de respuestas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aun con todas las objeciones de esta ficha, esa diferencia importa: los datos de Stanley son criticables porque existen y se pueden criticar. Un libro que se apoya en historias que nadie puede comprobar no ofrece siquiera esa posibilidad, y por eso es peor aunque suene mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un epílogo que redondea la historia. Thomas Stanley murió en 2015 en un accidente de tráfico, atropellado por un conductor ebrio. Su hija, que es doctora en psicología aplicada, retomó el trabajo y publicó en 2018 una revisión con encuestas nuevas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que un investigador dedicara la vida a estudiar cómo se acumula patrimonio a lo largo de décadas y muriera de golpe a los setenta y uno por culpa de otro es una ironía que no significa nada y que cuesta no anotar, porque es exactamente el tipo de suceso que ninguna planificación contempla.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que encontró es interesante y honesto. Las conductas de gasto seguían distinguiendo bastante bien a quien acumula patrimonio de quien no. Pero el peso del empresario por cuenta propia había bajado, y había aparecido un perfil nuevo: el asalariado bien pagado que invierte de forma sistemática.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cambio explica bastante de lo que ha pasado en treinta años. La vía del pequeño negocio propio, que era la principal en la América de los ochenta, se ha estrechado, y la vía de trabajar por cuenta ajena e invertir en fondos indexados baratos, que entonces casi no existía, se ha ensanchado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien quiere leerlo, la recomendación es esta: los tres primeros capítulos y el de la ayuda a los hijos adultos, que es el mejor. El resto es repetición, y la fórmula conviene saltársela o corregirla como se ha explicado aquí antes de usarla para juzgarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y leerlo con la fecha delante, que es la instrucción que sirve para todo el género. Es una foto de un país concreto en una época concreta, tomada con una cámara que solo enfocaba a los que salieron bien. Con esa etiqueta puesta, sigue teniendo dos ideas que valen el rato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una última cosa, que el libro no dice y hace falta decir. Todo esto solo tiene sentido a partir de cierto nivel de renta. Por debajo de él no hay margen que administrar, y contarle a alguien en esa situación que le falta disciplina es tan inútil como cruel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los ricos de aquella sala pidieron cerveza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El profesor había comprado cuatro clases de foie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la única lección segura de veinte años de encuestas cabe en una resta.",
+        },
+      ],
+    },
+  ],
+};

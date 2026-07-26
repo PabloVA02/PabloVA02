@@ -238,7 +238,7 @@ export const CATALOGO: Ficha[] = [
   { id: "capital-siglo-xxi", titulo: "El capital en el siglo XXI", autor: "Thomas Piketty", ano: 2013, categoria: "Economía", estado: "escrito" },
   { id: "por-que-fracasan", titulo: "Por qué fracasan los países", autor: "Acemoglu y Robinson", ano: 2012, categoria: "Economía", estado: "escrito" },
   { id: "doctrina-shock", titulo: "La doctrina del shock", autor: "Naomi Klein", ano: 2007, categoria: "Economía", estado: "escrito" },
-  { id: "millonario-al-lado", titulo: "El millonario de al lado", autor: "Stanley y Danko", ano: 1996, categoria: "Economía", estado: "pendiente" },
+  { id: "millonario-al-lado", titulo: "El millonario de al lado", autor: "Stanley y Danko", ano: 1996, categoria: "Economía", estado: "escrito" },
   { id: "paseo-aleatorio", titulo: "Un paseo aleatorio por Wall Street", autor: "Burton Malkiel", ano: 1973, categoria: "Economía", estado: "escrito" },
   { id: "repensar-pobreza", titulo: "Repensar la pobreza", autor: "Banerjee y Duflo", ano: 2011, categoria: "Economía", estado: "escrito" },
   { id: "bogle-sentido-comun", titulo: "El pequeño libro para invertir con sentido común", autor: "John C. Bogle", ano: 2007, categoria: "Economía", estado: "escrito" },
