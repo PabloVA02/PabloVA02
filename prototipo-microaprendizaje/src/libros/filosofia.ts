@@ -1932,3 +1932,579 @@ export const ETICA_AMADOR: Resumen = {
     },
   ],
 };
+
+export const TAO_TE_CHING: Resumen = {
+  id: "tao",
+  titulo: "Tao Te Ching",
+  autor: "Lao Tsé",
+  ano: -400,
+  gancho: "Cinco mil caracteres escritos, según la leyenda, en una tarde y a regañadientes, por un viejo que se marchaba del país y quería que le abrieran la puerta.",
+  porQue:
+    "Es uno de los libros más traducidos del mundo, contiene la idea política más rara que existe —gobernar sin intervenir— y casi nadie lo lee como lo que es.",
+  partes: [
+    {
+      titulo: "El paso de Hangu",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Frontera occidental del reino de Zhou, en un desfiladero entre montañas llamado el paso de Hangu. Un hombre muy viejo llega montado en un búfalo de agua, con la intención de cruzar y desaparecer hacia el oeste. Es archivero de la corte y está harto de la corte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El guardián del paso, un funcionario llamado Yin Xi, lo reconoce y le dice que no puede dejarle marchar sin más: si va a irse para siempre, que deje antes por escrito lo que sabe. El viejo se sienta, escribe unos cinco mil caracteres, se los entrega y cruza.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La leyenda",
+          frase: "Nadie volvió a verlo. El texto que dejó a cambio de que le abrieran una puerta es el Tao Te Ching, y no se sabe si aquel hombre existió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre con el que se le conoce, Lao Tsé, no es un nombre: significa maestro viejo. La primera biografía suya la escribió el historiador Sima Qian hacia el año cien antes de Cristo, es decir, unos cuatro siglos después de los hechos que cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese historiador, que era escrupuloso, hace algo insólito en su relato: da tres versiones distintas de quién pudo ser aquel hombre, no se decide por ninguna y termina diciendo que nadie en el mundo sabe si es verdad o no. Es la fuente más antigua que existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La posición mayoritaria hoy entre los sinólogos es que el Tao Te Ching no lo escribió una persona. Es una compilación de máximas, poemas y fragmentos de distintas manos, reunidos y editados a lo largo de generaciones, probablemente entre los siglos V y III antes de Cristo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso encaja con la forma del libro: ochenta y un capítulos brevísimos, muchos de unas pocas líneas, sin argumento, sin orden aparente y con rimas y repeticiones que sugieren tradición oral. No es un tratado; es un cancionero de sentencias.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el siglo XX aparecieron dos hallazgos que cambiaron lo que se sabía. En 1973, en unas tumbas de Mawangdui, se encontraron dos copias escritas en seda hacia el año 170 antes de Cristo, con el texto casi completo y con una diferencia estructural notable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esas copias las dos mitades del libro están al revés: primero la sección del Te y después la del Tao. Es decir, durante siglos se llamó de otra manera y se leía en otro orden, y el título habitual de hoy podría estar puesto al revés respecto del original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en 1993, en Guodian, aparecieron unas tiras de bambú de alrededor del año 300 antes de Cristo con una versión mucho más corta: apenas un tercio del texto conocido, con los capítulos en otro orden y sin varios de los pasajes más famosos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que eso significa",
+          frase: "El libro creció. La versión que se lee hoy es el resultado final de un proceso de siglos, no el manuscrito que un anciano entregó en una frontera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título tampoco significa lo que parece. Tao es camino o vía. Te es virtud, pero en el sentido antiguo de potencia o eficacia propia de algo, como cuando se habla de la virtud de una planta medicinal. Y ching es libro canónico o clásico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que el título viene a ser algo como el libro clásico del camino y de su potencia. La traducción habitual como el libro del camino y la virtud es correcta y arrastra una connotación moral que el original no tiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí aparece el problema que atraviesa cualquier lectura de este texto en un idioma occidental. El chino clásico no marca el tiempo verbal, ni el número, ni el género, y muy a menudo omite el sujeto. Una misma línea admite lecturas incompatibles entre sí.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Por eso existen más de doscientas cincuenta traducciones solo al inglés, muchas de ellas firmadas por autores que no leen chino y que trabajan sobre versiones ajenas. Cada traducción es una interpretación, y las diferencias entre ellas no son de matiz.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle debería acompañar a cualquier cita del Tao Te Ching y casi nunca lo hace. Buena parte de la sabiduría taoísta que circula en occidente procede de versiones muy libres, hechas en el siglo XX y con más de poema propio que de traducción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contexto histórico también importa y suele omitirse. El texto se compone durante el período de los Reinos Combatientes, doscientos cincuenta años de guerra casi continua entre estados chinos, con ejércitos enormes, hambrunas y colapsos de dinastías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es un libro escrito en un jardín. Es un libro escrito en una época de matanzas, y buena parte de lo que dice va dirigido a quienes tomaban las decisiones que producían esas matanzas. Eso cambia por completo la lectura de sus pasajes más conocidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su rival intelectual en aquel momento era el confucianismo, que proponía exactamente lo contrario: ritual, jerarquía, educación, deber y una intervención constante del gobernante para ordenar la sociedad. El Tao Te Ching se lee, en parte, como respuesta a eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y empieza con una frase que se ha convertido en la más famosa del libro y que, entre otras cosas, es una advertencia de que lo que viene a continuación no va a poder decirse del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son seis caracteres y llevan dos mil quinientos años dando problemas a los traductores.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que no se puede nombrar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La versión más habitual dice: el camino que puede recorrerse no es el camino eterno; el nombre que puede nombrarse no es el nombre eterno. Otras traducciones dicen el Tao que puede decirse, y otras el Tao que puede explicarse. Las tres son defendibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El juego está en el propio carácter tao, que significa a la vez camino y hablar o decir. La frase es un juego de palabras intraducible: el camino que puede ser encaminado no es el camino permanente. En español hay que elegir, y al elegir se pierde la mitad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que afirma",
+          frase: "Que hay algo anterior a las distinciones, y que en cuanto se le pone nombre deja de ser eso y pasa a ser una de las cosas nombradas. El lenguaje corta la realidad y lo que el libro busca está antes del corte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una posición filosófica seria y con parientes en otras tradiciones: la teología negativa cristiana, que solo permite decir lo que Dios no es, o el silencio final del Tractatus de Wittgenstein sobre aquello de lo que no se puede hablar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y produce el problema evidente que el propio libro reconoce: si no se puede decir, ¿qué son estos ochenta y un capítulos? El capítulo cincuenta y seis lo dice sin rodeos: el que sabe no habla, el que habla no sabe. Escrito, naturalmente, por alguien que está hablando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa contradicción no es un descuido: es el método. El texto avanza por paradojas deliberadas, y la mayoría de sus afirmaciones son de la forma lo blando vence a lo duro, el que no compite no tiene rivales, el sabio no acumula y por eso lo tiene todo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Las paradojas funcionan como herramienta y también como escudo. Sirven para señalar algo que el lenguaje directo no alcanza, y hacen que el texto sea imposible de refutar: cualquier objeción se puede contestar diciendo que no se ha entendido el sentido profundo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Tao se describe con imágenes negativas y con metáforas femeninas, cosa insólita en la literatura antigua. Se le llama la madre de todas las cosas, la hembra misteriosa, el valle. No la cima: el valle, que es lo que está abajo y adonde llega todo el agua.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa preferencia por lo bajo, lo hueco, lo blando y lo femenino recorre el libro entero y es lo que más lo distingue de la filosofía política de su época y de casi cualquier otra. Confucio hablaba del caballero recto; este texto habla del agua y del valle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro concepto central es ziran, que suele traducirse como naturalidad o espontaneidad, y que literalmente significa así por sí mismo. Es lo que ocurre sin que nadie lo empuje: el agua bajando, la planta creciendo, la piedra cayendo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El bloque sin tallar",
+          frase: "La imagen que usa para el estado deseable es pu, la madera en bruto antes de ser labrada. Todavía no es nada concreto, y por eso puede ser cualquier cosa. Una vez tallada, ya solo es lo que se talló.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale una idea que suena a paradoja y es bastante literal: la potencialidad es una forma de riqueza que se gasta al usarse. Un tronco puede ser mil cosas; una mesa ya solo es una mesa. Lo mismo vale para una vida, para una carrera y para una decisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro añade una recomendación práctica que se deriva de eso y que va contra todo el sentido común productivista: saber cuándo parar. El capítulo nueve dice que llenar un cuenco hasta el borde es peor que no llenarlo, y que afilar demasiado una hoja la estropea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sigue: que una sala llena de oro y jade no se puede proteger, que enriquecerse y ensoberbecerse trae la propia ruina, y que retirarse cuando la obra está hecha es el camino del cielo. Es un consejo sobre el exceso escrito en una época de acumulación militar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa recomendación tiene además una versión biológica que hoy se entiende mejor: casi todos los sistemas vivos funcionan por debajo de su máximo. Un corazón que late al límite se rompe. El margen no es desperdicio, es la condición de que algo dure.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo cuarenta y cuatro plantea tres preguntas seguidas que se siguen citando: qué está más cerca de ti, la fama o tu propia persona. Qué vale más, tu persona o tus bienes. Qué hace más daño, ganar o perder.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y contesta con una observación económica bastante moderna: el que mucho ama, mucho gasta; el que mucho acumula, mucho pierde. Saber cuándo se tiene bastante evita la humillación, y saber cuándo parar evita el peligro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay también una crítica explícita al aprendizaje acumulativo que resulta incómoda en cualquier época. El capítulo cuarenta y ocho dice que el que estudia gana algo cada día, y que el que sigue el camino pierde algo cada día, hasta llegar a la no acción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea —que hay una forma de saber que consiste en quitar y no en añadir— es la que conecta con el concepto más famoso del libro y también el peor traducido de todos, del que dependen sus capítulos políticos y su reputación entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de llegar a él, el texto lo prepara con una imagen doméstica que es la mejor de todo el libro y que ocupa siete líneas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Habla de una rueda, de una vasija y de una habitación.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El vacío de la rueda",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo once dice: treinta radios convergen en un cubo, y es en su vacío donde está la utilidad del carro. Se moldea la arcilla para hacer una vasija, y es en su vacío donde está su utilidad. Se abren puertas y ventanas para hacer una habitación, y es su vacío lo que la hace habitable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y remata: por eso lo que hay produce el beneficio, y lo que no hay produce la utilidad. Son siete líneas, no hay ninguna metafísica y el argumento se comprueba mirando cualquier objeto de la habitación en la que uno esté leyendo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dice",
+          frase: "La parte útil de casi todas las cosas es la parte que no está. El barro de la vasija es lo que se compra; el hueco es lo que sirve para algo. Es una observación literal, no una metáfora espiritual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo es la mejor puerta de entrada al libro porque no exige creer nada. Y tiene consecuencias inmediatas fuera del terreno filosófico: el silencio en la música, los márgenes en una página, las pausas en una conversación, el tiempo libre en una agenda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En todos esos casos, la parte que parece desperdicio es la que hace funcionar el conjunto. Una partitura sin silencios es ruido; una página sin márgenes no se lee; una semana sin huecos no permite reaccionar a nada imprevisto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De esa observación sale el concepto central del libro, que se escribe wu wei y que se traduce habitualmente como no acción. Esa traducción es literal y es un desastre, porque sugiere pasividad, y no es eso lo que el texto propone en ningún momento.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Wu wei significa más bien acción sin forzamiento: actuar sin imponerse, sin artificio, siguiendo la tendencia de las cosas en lugar de pelearse con ellas. El agua no deja de actuar por no empujar: baja, rodea y termina llegando donde tiene que llegar.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo treinta y siete lo formula con una fórmula que ha vuelto locos a los traductores durante siglos: el camino no hace nada y sin embargo nada queda sin hacer. Es una descripción de la eficacia, no de la inacción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un texto taoísta posterior, el de Zhuangzi, que lo ilustra mejor que ninguna definición: un cocinero que lleva diecinueve años despiezando bueyes con el mismo cuchillo, y cuya hoja sigue como recién afilada porque nunca corta hueso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación, cuando le preguntan, es que él ya no mira al animal: sigue las junturas naturales, mete la hoja por los espacios que ya existen y deja que el cuerpo se abra solo. Eso es wu wei aplicado a un oficio, y no tiene nada de pasivo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La versión operativa",
+          frase: "No es no hacer nada. Es dejar de forzar contra la estructura de lo que tienes delante y buscar por dónde cede solo. Cuesta más pericia que la fuerza bruta, no menos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sesenta y cuatro añade la parte temporal y es de lo más práctico del libro: lo que está quieto es fácil de sostener, lo que aún no ha aparecido es fácil de prevenir, lo frágil es fácil de romper y lo pequeño es fácil de dispersar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y concluye: actúa sobre lo que aún no existe, ordena antes de que haya desorden. Un árbol que abarca un abrazo nació de un brote diminuto; una torre de nueve pisos empezó con un montón de tierra; un viaje de mil leguas empieza bajo los pies.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa última frase es probablemente la más citada del libro en occidente, casi siempre como motivación para empezar proyectos grandes. En su contexto significa algo distinto y más útil: que el momento de intervenir es cuando el problema todavía es minúsculo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es un argumento a favor de la prevención sobre la heroicidad. El texto observa además que quien resuelve las cosas cuando aún son pequeñas no parece que haga nada, y que por eso la buena gestión resulta invisible mientras la mala produce hazañas espectaculares.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un pasaje del capítulo diecisiete que dice justo eso sobre los gobernantes, y que se ha convertido en un lugar común de la teoría de la organización sin que casi nadie sepa de dónde viene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que del mejor gobernante el pueblo apenas sabe que existe. Del siguiente, lo quiere y lo alaba. Del siguiente, le teme. Y del peor, se burla. Cuatro categorías en cuatro líneas, ordenadas de mejor a peor, y la mejor es la invisible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cierra con la frase que remata la idea: cuando la obra está terminada, el pueblo dice que lo ha hecho por sí mismo. El éxito del buen gobernante consiste, según este texto, en que nadie le atribuya el mérito de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es una teoría del liderazgo escrita hace veinticuatro siglos y es exactamente la contraria de la que se enseña hoy. Y no es una nota al margen del libro: la parte política ocupa una porción enorme del texto y es la que casi todas las lecturas modernas ignoran.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque el Tao Te Ching, antes que un manual espiritual, es un libro dirigido a quien manda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su consejo de gobierno más famoso es una receta de cocina.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El agua",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sesenta empieza así: gobernar un gran estado es como cocinar un pez pequeño. La frase se queda ahí, sin explicación, y funciona sola en cuanto se ha frito alguna vez un pescado pequeño y se ha visto lo que pasa si se le da la vuelta demasiadas veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se deshace. Cuanto más se toca, peor sale. Ese es el consejo político entero: no remover, no reformar constantemente, no anunciar medidas cada semana, dejar que las cosas se hagan. Es una posición reconocible y bastante moderna.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tesis política",
+          frase: "Cuantas más prohibiciones hay, más pobre es el pueblo. Cuantas más leyes se promulgan, más ladrones aparecen. El texto sostiene que la intervención genera los problemas que después dice resolver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea está en el capítulo cincuenta y siete y es de una modernidad incómoda. Sostiene que el exceso de armas produce desorden, que el exceso de habilidad produce artificios extraños, y que cuanto más se legisla más gente queda fuera de la ley.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y remata con la propuesta: si yo no hago nada, el pueblo se transforma por sí mismo; si amo la quietud, el pueblo se corrige por sí mismo; si no intervengo, el pueblo prospera por sí mismo; si no tengo deseos, el pueblo vuelve por sí mismo a la simplicidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa posición se ha reclamado desde bandos políticos opuestos durante dos milenios, y con razones en los dos casos. Hay anarquistas que citan estos capítulos y hay liberales que los citan igual, y los dos pueden apoyarse en el texto sin forzarlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay una tercera lectura, mucho menos cómoda. El capítulo tres dice que el sabio gobierna vaciando las mentes del pueblo y llenando sus estómagos, debilitando sus ambiciones y fortaleciendo sus huesos, para que no sepan y no deseen.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese pasaje se ha leído durante siglos como un manual para mantener a la población dócil e ignorante, y es una lectura difícil de descartar. Se puede matizar diciendo que se refiere a vaciar de artificio y no de conocimiento, y el texto original admite las dos cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el problema de un libro construido sobre paradojas: se puede usar para casi cualquier cosa. Ha sido leído como manual de gobierno, como guía mística, como tratado de estrategia militar, como manifiesto ecologista y como libro de autoayuda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo ochenta describe la sociedad ideal y es igual de ambiguo. Un país pequeño con poca gente, donde hay herramientas y no se usan, donde hay barcos y carros y nadie los coge, donde la gente vuelve a atar cuerdas con nudos en lugar de escribir.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El final del capítulo 80",
+          frase: "Los pueblos vecinos están tan cerca que se oyen los gallos y los perros, y sus gentes envejecen y mueren sin haber ido nunca a visitarse. Es una utopía y también es una descripción de un aislamiento total.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se puede leer como un ideal de vida sencilla o como un elogio del atraso deliberado, y las dos lecturas tienen defensores. En un texto escrito durante doscientos años de guerras entre estados, la propuesta de estados pequeños que no se molestan tiene otro sentido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y está el pasaje sobre la guerra, que es de los más claros de todo el libro. El capítulo treinta y uno dice que las armas son instrumentos de mal augurio, que el hombre de bien no las aprecia y que solo las usa cuando no le queda otro remedio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade algo que no dice ningún otro texto antiguo: que una victoria no debe celebrarse, y que quien se alegra de matar hombres no puede conseguir lo que se propone. Que una victoria en la guerra debe tratarse con los ritos de un funeral.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa idea, escrita en el siglo IV antes de Cristo en un país en guerra permanente, no tiene equivalente en la literatura de su época ni de muchos siglos después. Es probablemente el pasaje más excepcional del libro y casi nunca aparece en las antologías de citas.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen que resume la estrategia del libro entero es el agua, y aparece en el capítulo setenta y ocho: nada en el mundo es más blando y débil que el agua, y sin embargo para atacar lo duro y lo fuerte nada la supera, porque nada puede sustituirla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento no es poético: es geológico. El agua no gana por fuerza, gana por persistencia y por adaptación. Rodea lo que no puede atravesar, va siempre hacia abajo, ocupa la forma del recipiente y en unos milenios abre un cañón en la roca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí sale la conclusión que el texto repite de varias maneras: lo blando vence a lo duro, lo débil vence a lo fuerte, lo que cede sobrevive a lo que se opone. El capítulo setenta y seis lo comprueba con un ejemplo brutal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que el ser humano nace blando y flexible, y muere rígido y duro. Que las plantas nacen tiernas y frágiles, y mueren secas y quebradizas. Y que por tanto lo rígido y lo duro son compañeros de la muerte, y lo blando y lo flexible, de la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese razonamiento, hecho con dos observaciones que cualquiera puede comprobar, es lo más cerca que está el libro de un argumento en sentido estricto. Y conduce a la parte que conviene decir antes de recomendarlo a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque este libro tiene problemas serios, y el mayor de todos es que resulta casi imposible estar en desacuerdo con él.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Cómo se cocina un pez pequeño",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El primer defecto es de método: un texto construido sobre paradojas no se puede refutar. Si alguien objeta que ceder no siempre funciona, siempre cabe contestar que no ha entendido en qué consiste ceder de verdad. Eso lo hace inmune a la discusión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa inmunidad es también su mayor atractivo comercial. Un texto que admite cualquier interpretación puede servir a un ejecutivo, a un monje, a un ecologista y a un general, y todos encontrarán confirmación de lo que ya pensaban.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La prueba",
+          frase: "El Tao Te Ching se ha publicado como manual de gestión empresarial, como guía de liderazgo, como libro de crianza, como tratado de artes marciales y como manual de física cuántica. Todos ellos se apoyan en el mismo texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo defecto es de traducción, y ya se ha mencionado: no existe un Tao Te Ching en español, existen decenas de versiones que difieren en pasajes centrales. Elegir edición no es un detalle: es elegir qué libro se va a leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La recomendación práctica es buscar traducciones hechas directamente del chino y con notas, y desconfiar de las que se presentan como versiones o adaptaciones poéticas, que suelen ser recreaciones libres a partir de otras traducciones inglesas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer defecto es político y ya se ha apuntado: los pasajes sobre vaciar las mentes del pueblo son difíciles de digerir, y el consejo de no intervenir se puede convertir con enorme facilidad en una defensa de dejar las cosas exactamente como están.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Un texto que recomienda no forzar y aceptar el curso natural puede ser sabiduría en manos de alguien que está peleando contra lo inevitable, y puede ser una anestesia en manos de alguien que tiene poder para cambiar algo injusto y prefiere no gastarlo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el cuarto: es un texto oscuro. Muchos capítulos son sencillamente ininteligibles sin comentario, y llevan dos mil años generando escuelas de interpretación enfrentadas. Leerlo sin ninguna guía produce una sensación de profundidad y muy poca comprensión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad, empezando por lo principal: wu wei no es no hacer nada. Es actuar sin forzar, siguiendo la estructura de las cosas, y exige más pericia y más atención que la intervención directa, no menos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: Lao Tsé probablemente no existió como una sola persona, y el libro es una compilación de siglos. Los hallazgos arqueológicos del siglo XX lo confirmaron: existen versiones más cortas y con los capítulos en otro orden.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El tercer malentendido",
+          frase: "No es principalmente un libro espiritual. Una parte muy grande está dirigida a gobernantes, y sus consejos son de administración, de guerra y de impuestos. La lectura mística es posterior y occidental en buena medida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: el taoísmo filosófico de este texto no es lo mismo que el taoísmo religioso posterior, con su panteón de divinidades, sus rituales, su alquimia y su búsqueda de la inmortalidad física. Son dos cosas distintas separadas por siglos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quinto: la frase del viaje de mil leguas que empieza con un paso no es un lema motivacional sobre empezar cosas grandes. En su contexto es una advertencia sobre atender a lo pequeño antes de que se haga grande, que es casi lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda, descontando todo eso, es un puñado de ideas que se sostienen solas y que no dependen de creer en nada. La utilidad del vacío. El valor del margen. La eficacia de no forzar. La superioridad de intervenir pronto y pequeño sobre intervenir tarde y grande.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y una idea sobre el liderazgo que sigue siendo la mejor que se ha escrito: que el buen gobernante es aquel del que apenas se sabe que existe, y que su éxito consiste en que la gente crea que lo ha hecho todo por su cuenta.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre cómo leerlo, la recomendación de casi todos los sinólogos es la misma: no de corrido. Ochenta y un capítulos breves y paradójicos leídos seguidos producen empacho y ninguna comprensión. Uno o dos por sesión, releídos, con un comentario al lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene leerlo junto al Zhuangzi, que es el otro clásico taoísta, mucho más divertido, lleno de historias, de personajes absurdos y de mariposas que sueñan que son hombres. Los dos juntos dan una imagen completa que ninguno da por separado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su influencia es difícil de exagerar. Está detrás del budismo chan y por tanto del zen japonés, de la estética china y japonesa, de las artes marciales internas, de la medicina tradicional y de buena parte de la pintura de paisaje del Extremo Oriente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En occidente llegó tarde, con las primeras traducciones del siglo XIX, y su influencia real empezó en los años sesenta del siglo XX, filtrada por la contracultura. Buena parte de lo que hoy se considera sabiduría taoísta se escribió en California.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una última cosa que conviene tener presente al leer un libro que empieza diciendo que el camino que se puede decir no es el camino verdadero: quien lo escribió, si existió, escribió cinco mil caracteres solo porque no le dejaban cruzar una frontera sin hacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después se montó en su búfalo y desapareció hacia el oeste, que es lo único coherente que se puede hacer después de escribir un libro que sostiene que lo importante no se puede escribir.",
+        },
+      ],
+    },
+  ],
+};
