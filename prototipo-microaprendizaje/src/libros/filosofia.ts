@@ -5592,3 +5592,650 @@ export const SEGUNDO_SEXO: Resumen = {
     },
   ],
 };
+
+export const DISCURSO_METODO: Resumen = {
+  id: "discurso-metodo",
+  titulo: "Discurso del método",
+  autor: "René Descartes",
+  ano: 1637,
+  gancho:
+    "Un soldado de veintitrés años se queda encerrado por la nieve en una habitación con estufa, tiene tres sueños esa noche y decide refundar el conocimiento entero.",
+  porQue:
+    "Son sesenta páginas de las que sale la filosofía moderna y también la geometría analítica. Y la frase por la que se le conoce no está escrita como se cita, ni significa lo que se le hace decir.",
+  partes: [
+    {
+      titulo: "La habitación de la estufa, noviembre de 1619",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Noviembre de 1619, sur de Alemania, cerca del Danubio. Un joven francés de veintitrés años viaja con el ejército del duque de Baviera en los primeros meses de la guerra de los Treinta Años, y el invierno le ha dejado parado en un pueblo sin nada que hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se mete en una habitación con estufa —eso es lo que dice el texto, y conviene aclararlo porque la traducción antigua decía que se encerró en un horno, cosa que ha dado lugar a un chiste de tres siglos— y se pasa el día entero solo, sin conversación y sin obligaciones.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hizo allí dentro",
+          frase: "Pensar sin interrupciones durante horas, que era exactamente lo que llevaba años sin poder hacer. Él mismo cuenta que tuvo todo el día para conversar consigo mismo sobre sus propios pensamientos, y que de ahí salió la idea que iba a ocuparle el resto de la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea es esta: que las obras hechas por una sola mano suelen ser mejores que las hechas por muchas. Una ciudad que ha ido creciendo a lo largo de los siglos tiene calles torcidas; una trazada de golpe por un ingeniero es más regular y más cómoda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aplica la comparación al conocimiento. Todo lo que sabemos, dice, es una ciudad medieval: se ha ido acumulando a lo largo de siglos, cada capa encima de la anterior, sin plan y sin que nadie haya comprobado si los cimientos aguantan.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De ahí su decisión, que es la que funda la filosofía moderna: no reformar, sino demoler y volver a construir. Tirar todo lo que ha creído hasta entonces, quedarse solo con lo que resista un examen severo, y levantar el resto encima de eso.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa noche, según cuenta su primer biógrafo a partir de un cuaderno suyo que se perdió, tuvo tres sueños seguidos. En el primero caminaba con dificultad contra un viento violento. En el segundo oyó un trueno y vio chispas por la habitación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el tercero encontró sobre una mesa un diccionario y una antología de poemas, la abrió al azar y leyó un verso latino que preguntaba qué camino seguiría en la vida. Se despertó convencido de haber recibido una indicación de que aquello era su tarea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que ese episodio no está en el Discurso del método. Lo conocemos por una biografía de 1691 basada en papeles suyos que después desaparecieron, y llevan tres siglos discutiéndose. Descartes, en su libro, cuenta el día y se salta la noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien estaba en aquella habitación se llamaba René Descartes, había nacido en 1596 en un pueblo de Turena que hoy lleva su apellido, y era hijo de un consejero del parlamento de Bretaña. Su madre murió cuando él tenía poco más de un año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fue un niño enfermizo, y por eso en el internado le permitían quedarse en la cama por las mañanas mientras los demás iban a la primera clase. Mantuvo esa costumbre toda la vida: trabajaba tumbado hasta las once, y eso va a acabar teniendo consecuencias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1618 se había alistado como voluntario en el ejército del príncipe de Orange, en Holanda, no por vocación militar sino porque era una manera respetable de viajar y de ver mundo con veintidós años y renta familiar suficiente para no cobrar sueldo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Allí conoció al hombre que le cambió la cabeza. Isaac Beeckman era un médico y matemático holandés que le planteó problemas de física y le convenció de que el mundo material se podía describir con matemáticas. Descartes tenía veintidós años y aquello le abrió el camino.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa deuda es la primera cosa que el libro cuenta mal. El Discurso presenta a un hombre que llega solo a todo, encerrado en su cuarto, sin maestros. Los cuadernos de Beeckman de aquellos meses demuestran que buena parte del arranque salió de sus conversaciones.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tardó dieciocho años en llegar, y hubo un momento en que estuvo a punto de no llegar. En 1633 Descartes tenía terminado un tratado de física completo, El Mundo, que daba por supuesto que la Tierra gira alrededor del Sol.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mismo año le llegó la noticia de que la Inquisición romana había condenado a Galileo por sostener exactamente eso. Descartes guardó el manuscrito en un cajón y no lo publicó nunca. Salió a la luz catorce años después de su muerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo escribió en una carta a un amigo con una franqueza que da la medida del momento: que si aquella opinión era falsa, también lo eran todos los fundamentos de su filosofía, y que prefería suprimirlo antes que publicarlo mutilado o meterse en problemas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese susto explica la forma del libro que sí publicó cuatro años después. El Discurso salió en 1637 sin firma, en un tono deliberadamente modesto, presentándose no como una doctrina sino como el relato de lo que a él personalmente le había funcionado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y salió en francés, no en latín, que era la lengua obligatoria de la filosofía. Esa decisión es política: quería que le leyera cualquiera con buen juicio, incluidas las mujeres, que no aprendían latín, y no solo los profesores de las facultades.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otra cosa que casi nadie sabe y que cambia la idea que uno se hace del libro. El Discurso del método no es un libro suelto: son sesenta páginas que sirven de prólogo a tres tratados científicos que se publicaron en el mismo volumen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Uno es de óptica y contiene la ley de la refracción de la luz. Otro es de meteorología y da la primera explicación correcta del arco iris. Y el tercero es de geometría, y es probablemente lo más importante que hizo en su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese tercer tratado une el álgebra y la geometría, e inventa lo que hoy llamamos coordenadas cartesianas: la idea de que una curva se puede escribir como una ecuación y una ecuación se puede dibujar como una curva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de paso fija la notación que se sigue usando en todo el mundo: las últimas letras del alfabeto para las incógnitas, las primeras para las cantidades conocidas, y los exponentes escritos arriba a la derecha. Cualquier ecuación escrita hoy tiene su forma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Discurso es, entonces, la explicación de cómo llegó a hacer todo eso. Y empieza contando lo que le enseñaron y por qué no le sirvió.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El colegio de La Flèche",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Estudió en el colegio jesuita de La Flèche, que era uno de los mejores centros de Europa, y él lo reconoce sin regatear: dice que estuvo en una de las escuelas más célebres del continente y que allí se enseñaba todo lo que se podía aprender.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ocho o nueve años de latín, griego, retórica, lógica escolástica, matemáticas, física aristotélica, moral y teología. Salió de allí sabiendo más que casi cualquiera de su edad, y con una conclusión que le sorprendió a él mismo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que concluyó al terminar",
+          frase: "Que se encontraba embarazado de tantas dudas y errores que le parecía no haber sacado ningún provecho, salvo el de haber descubierto cada vez más su ignorancia. Y aclara enseguida que la culpa no era de sus maestros, que eran buenos, sino de lo que enseñaban.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su repaso disciplina por disciplina es el pasaje más divertido del libro y merece leerse entero. De las lenguas dice que sirven para leer los libros antiguos, y que quien se pasa la vida con ellas acaba siendo extranjero en su propio siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De la elocuencia y la poesía dice que son dones naturales y no frutos del estudio: que quien tiene la cabeza clara y encuentra las palabras convence aunque hable en dialecto bretón, y que quien no las tiene no lo arregla estudiando retórica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la filosofía es donde se pone duro. Dice que lleva cultivándose muchos siglos por los mejores talentos que han existido, y que en ella no hay una sola cosa sobre la que no se discuta, y por tanto ninguna que no sea dudosa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y remata con una imagen demoledora: que la filosofía da medios para hablar con verosimilitud de todas las cosas y hacerse admirar por los menos sabios. Es decir, que le parece principalmente un entrenamiento para parecer inteligente sin serlo.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De la teología dice que abre el camino al cielo, y que le pareció que estaba tan por encima de la razón humana que no se atrevía a someterla a la suya. Es una fórmula de prudencia, escrita en 1637 y por alguien que acababa de esconder un manuscrito por miedo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De la jurisprudencia y la medicina apunta que dan honores y riquezas a quienes las cultivan, que es una manera bastante elegante de decir que se estudian por lo que dan y no por lo que enseñan sobre el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una sola disciplina que salva, y es la que va a decidirlo todo. De las matemáticas dice que le gustaban por la certeza y la evidencia de sus razones, y que se asombraba de que sobre unos cimientos tan firmes no se hubiera construido nada más alto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase es el programa entero de su vida. Su pregunta no es por qué las matemáticas funcionan, sino por qué no se ha usado su manera de razonar para todo lo demás, incluida la física, la medicina y la filosofía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al salir del colegio hizo lo que hacía un joven de su clase: se sacó el título de Derecho en Poitiers, con veinte años, y después decidió no ejercer y dedicarse a viajar, que es como llama él a alistarse en dos ejércitos distintos en tres años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cuenta como una segunda etapa de formación: dejar los libros y estudiar el gran libro del mundo, tratando con gente de condiciones y temperamentos distintos, recogiendo experiencias y poniéndose a prueba en las situaciones que la suerte le presentara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de esos viajes saca la observación que va a justificar el método. Dice que vio que gentes con opiniones opuestas a las nuestras no son por ello bárbaras ni salvajes, sino que muchas usan la razón tanto o más que nosotros.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De ahí la conclusión que le inquieta: que una misma persona, con el mismo entendimiento, criada desde niña entre franceses o entre chinos, tendría opiniones completamente distintas. Y que por tanto estamos persuadidos por la costumbre y el ejemplo mucho más que por ninguna prueba.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea, escrita en 1637, es explosiva y él lo sabe. Está diciendo que la mayor parte de lo que cualquiera cree lo cree por haber nacido donde nació, y que eso vale igual para la religión, para la política y para la física.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí sale su conclusión práctica: que no puede fiarse de nada de lo que ha recibido, y que si quiere alguna certeza tendrá que buscarla él mismo con un procedimiento que no dependa de dónde haya nacido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro abre, por cierto, con la frase más citada y peor entendida de las suyas: que el buen sentido es la cosa mejor repartida del mundo, porque cada uno piensa que está tan bien provisto de él que ni los más difíciles de contentar desean más del que tienen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es una broma y se lee como si fuera una declaración democrática. Está diciendo que todo el mundo cree tener suficiente cabeza, precisamente porque juzgamos con la cabeza que tenemos y no podemos ver desde fuera lo corta que nos ha quedado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a continuación aclara lo que sí piensa en serio, que es el supuesto de todo el libro: que la capacidad de distinguir lo verdadero de lo falso es igual en todos los hombres, y que la diferencia entre unos y otros no está en la inteligencia sino en el método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo dice con una imagen que vale como resumen: que quien anda despacio por el camino recto puede llegar mucho más lejos que quien corre apartándose de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la promesa del libro y es lo que lo hizo popular. No hace falta ser un genio; hace falta un procedimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el procedimiento entero cabe en cuatro reglas y en menos de una página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Descartes dice que dejó a propósito solo cuatro, porque una multitud de preceptos sirve más de estorbo que de ayuda.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las cuatro reglas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La primera regla es no admitir jamás nada como verdadero si no se conoce con evidencia que lo es. Y añade dos avisos concretos: evitar cuidadosamente la precipitación, que es concluir antes de tiempo, y la prevención, que es dar por buenas las ideas heredadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y pone el listón: no incluir en sus juicios nada más que lo que se presentara a su espíritu de manera tan clara y tan distinta que no tuviera ninguna ocasión de ponerlo en duda. Esas dos palabras, claro y distinto, van a ser su criterio de verdad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La segunda, que es la que se ha usado más",
+          frase: "Dividir cada una de las dificultades que se examinen en tantas partes como sea posible y como se requiera para resolverlas mejor. Es literalmente el método de descomponer un problema en subproblemas, y va desde la ingeniería hasta cualquier plan de trabajo del mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es conducir los pensamientos por orden, empezando por los objetos más simples y más fáciles de conocer, para subir poco a poco hasta el conocimiento de los más compuestos, suponiendo incluso un orden entre los que no lo tienen de forma natural.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese último matiz es más fino de lo que parece. Está diciendo que si las cosas no vienen ordenadas, hay que ordenarlas uno mismo aunque el orden sea artificial, porque razonar exige una secuencia y no se puede pensar todo a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la cuarta es hacer enumeraciones tan completas y revisiones tan generales que se esté seguro de no omitir nada. Es la regla del repaso: comprobar que en la descomposición no se ha quedado ninguna pieza fuera del recuento.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Las cuatro juntas describen el modo de trabajar de las matemáticas y él lo dice: se le ocurrieron pensando en que los geómetras habían llegado a demostraciones difíciles encadenando razones muy simples, y que quizá todo lo cognoscible se encadenara igual.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir aquí lo que casi nadie dice: como método científico, esto no funciona. Nadie ha hecho jamás un descubrimiento aplicando estas cuatro reglas, porque son demasiado generales para decirle a nadie qué hacer un martes por la mañana en un laboratorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un problema peor. La primera regla dice que hay que aceptar lo que se presente de manera clara y distinta, y no da ningún criterio para saber cuándo una idea es clara y distinta de verdad y cuándo solo nos lo parece porque estamos convencidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A muchísima gente le han parecido clarísimas y distintísimas cosas que resultaron ser falsas. Al propio Descartes le pareció evidente que el corazón funciona por calor y no como una bomba, y se equivocó teniendo delante la explicación correcta de Harvey, publicada nueve años antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí funciona, y muy bien, es la segunda regla. Descomponer un problema grande en partes manejables es el fundamento de la programación, de la ingeniería, de la gestión de proyectos y de cualquier método de trabajo serio de los cuatro siglos siguientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte que casi nadie lee, y que es la más útil para una persona corriente, viene justo después. Descartes se da cuenta de un problema práctico: mientras uno demuele todo lo que creía y reconstruye desde cero, sigue teniendo que vivir y tomar decisiones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo dice con una comparación de albañil: antes de derribar la casa donde uno vive, hay que proveerse de otra donde alojarse mientras dura la obra. Y esa casa provisional son tres máximas de conducta que se impone para no quedarse paralizado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera es obedecer las leyes y costumbres de su país y la religión en la que fue criado, gobernándose en lo demás por las opiniones más moderadas y más alejadas del exceso que practicara la gente más sensata con la que fuera a convivir.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es conservadurismo práctico y él lo justifica sin rodeos: como iba a poner en duda todas sus opiniones, lo prudente era no romper nada en su vida diaria mientras tanto. Dudar en el cuaderno y comportarse con normalidad en la calle.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda máxima es la mejor de las tres: ser lo más firme y resuelto posible en la acción, y seguir con constancia incluso las opiniones más dudosas una vez decidido, igual que se sigue una dirección cualquiera cuando uno está perdido en un bosque.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen del bosque es suya y es exacta. Quien se pierde en un bosque no debe dar vueltas ni cambiar de rumbo a cada rato: debe elegir una dirección y mantenerla, porque aunque no sea la mejor, así al menos llega a alguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa observación separa la duda teórica de la parálisis práctica, y es lo que hace que este señor sea útil hoy. Se puede no estar seguro de nada y decidir igual, y cambiar de rumbo cada media hora es peor que haber elegido mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera máxima es la más estoica y la más discutible: procurar vencerse a sí mismo antes que a la fortuna, y cambiar sus deseos antes que el orden del mundo, acostumbrándose a creer que nada está enteramente en nuestro poder salvo nuestros pensamientos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es Epicteto casi literal, y tiene el mismo problema que él: aplicada sin matiz, esa máxima le dice a quien sufre una injusticia que ajuste sus deseos en vez de cambiar lo que le ocurre. Descartes la propone como remedio personal y no como política, y aun así incomoda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa casa provisional montada, se pone a demoler. Y lo que hace en la cuarta parte del libro, en unas doce páginas, es el pasaje más famoso de la filosofía occidental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empieza a dudar de todo lo que puede dudarse, a propósito y hasta el fondo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De los sentidos, de las matemáticas y de la existencia del mundo entero.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El cogito",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La duda empieza por los sentidos, y el argumento es sencillo: los sentidos engañan a veces —el remo que parece roto dentro del agua, la torre cuadrada que de lejos se ve redonda— y no es prudente fiarse del todo de quien nos ha engañado alguna vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo escalón es más raro y más eficaz: el sueño. Cuando uno sueña, tiene la misma sensación de estar despierto que ahora mismo, y no existe ninguna señal cierta que permita distinguir un estado del otro desde dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por tanto todo lo que ahora percibo —esta habitación, este cuerpo, estas manos— podría ser un sueño muy detallado. Es el argumento del que salen doscientas películas y varias religiones, y en el Discurso ocupa cuatro líneas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El tercer escalón, que es el más duro",
+          frase: "Duda también de las matemáticas. Que dos más tres sean cinco parece imposible de falsear, y sin embargo hay gente que se equivoca razonando y cree haber demostrado lo que no. Si otros se engañan creyendo razonar bien, no hay garantía de que yo no lo esté haciendo ahora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al final de esa cadena no queda nada en pie: ni el mundo exterior, ni el propio cuerpo, ni las verdades más simples. Y es ahí, en el punto más bajo, donde encuentra lo único que la duda no puede tocar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que mientras dudaba de todo, hacía falta necesariamente que él, que lo pensaba, fuese algo. Aunque todo lo demás sea falso, aunque un poder cualquiera me engañe en todo, no puede hacer que yo no sea nada mientras estoy pensando que soy engañado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo escribe en francés, así: pienso, luego soy. Y dice que advirtió que esa verdad era tan firme y tan segura que ni las suposiciones más extravagantes de los escépticos podían moverla, y que la tomó como el primer principio de su filosofía.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí hacen falta tres precisiones, porque esta frase es la más maltratada de la historia del pensamiento. La primera: en este libro no está en latín. Está en francés, y la versión latina que todo el mundo repite aparece siete años después, en otra obra suya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda: en las Meditaciones metafísicas, de 1641, que es su libro filosófico serio, la formulación cambia y desaparece el porque. Allí escribe que esta proposición, yo soy, yo existo, es necesariamente verdadera cada vez que la pronuncio o la concibo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese cambio es deliberado, porque Descartes tuvo que responder a una objeción. Si es un razonamiento, le dijeron, entonces está incompleto: hace falta una premisa oculta que diga que todo lo que piensa existe, y esa premisa habría que demostrarla aparte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta es que no es un razonamiento sino una intuición: no deduzco mi existencia de mi pensamiento, la veo directamente en el mismo acto. Por eso en la versión madura quita el luego, que sugería un silogismo que él nunca quiso hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la tercera precisión es la que más sorprende: el genio maligno, ese demonio poderosísimo dedicado a engañarnos en todo, tampoco está en este libro. Aparece en las Meditaciones de 1641. En el Discurso la duda es mucho más breve y no tiene demonio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del cogito saca dos conclusiones que son las que le han dado más problemas. La primera es que él es una sustancia cuya esencia entera consiste en pensar, y que no necesita ningún lugar ni depende de ninguna cosa material para existir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "O sea que el alma es enteramente distinta del cuerpo y podría existir sin él. Eso es el dualismo cartesiano, y de ahí sale una división entre mente y materia que ha estructurado la filosofía, la psicología y la medicina occidentales durante cuatro siglos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El problema de esa división lo formuló mejor que nadie una mujer, en una carta de mayo de 1643. La princesa Isabel de Bohemia, que tenía veinticuatro años y mantenía correspondencia con él, le hizo la pregunta que aún no tiene respuesta.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le preguntó cómo puede el alma, siendo solo una cosa pensante, sin extensión ni contacto, determinar los movimientos del cuerpo. Porque mover algo requiere empujarlo, y empujar requiere ser algo material que ocupa espacio, y el alma no lo es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Descartes contestó varias veces y no la convenció ni se convenció a sí mismo. Acabó proponiendo que la interacción ocurre en la glándula pineal, una pieza pequeña del cerebro que él creía única y central. Es la peor solución que dio a nada en su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción de Isabel sigue siendo hoy la objeción estándar al dualismo, se enseña en todas las facultades y muy pocas veces con su nombre. Ella no publicó nunca nada y aquellas cartas son de lo mejor que se escribió en el siglo diecisiete.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda conclusión que saca es la más floja: dos demostraciones de la existencia de Dios que necesita para poder volver a fiarse del mundo exterior. Sin Dios, el cogito le deja encerrado en su propia cabeza sin garantía de que haya nada fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí le cayó la objeción que se conoce como el círculo cartesiano, formulada por el teólogo Antoine Arnauld en 1641. Descartes prueba que Dios existe usando ideas claras y distintas, y después usa a Dios para garantizar que las ideas claras y distintas son verdaderas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: usa la herramienta para demostrar la garantía de la herramienta. Descartes respondió distinguiendo entre las ideas que se ven ahora mismo y las que se recuerdan haber visto, y la respuesta no ha convencido a casi nadie en cuatro siglos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una tercera cosa en esa parte del libro que hoy es la más grave de todas, y conviene decirla sin suavizarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Descartes sostiene que los animales son máquinas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Máquinas sin alma, sin pensamiento y, por tanto, sin sufrimiento.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Estocolmo, febrero de 1650",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su argumento sobre los animales es coherente con todo lo anterior y ese es el problema. Si la esencia del alma es pensar, y el pensamiento se manifiesta en el lenguaje, entonces un ser que no habla no piensa; y si no piensa, es solo un cuerpo, es decir, un mecanismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un perro que aúlla al recibir un golpe hace lo mismo, según eso, que una campana al ser golpeada: produce un sonido por causas mecánicas, sin que haya nadie dentro sintiendo nada. Descartes lo escribe con esas palabras.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que se hizo con esa idea",
+          frase: "Se usó durante dos siglos para justificar la vivisección sin anestesia. En los laboratorios cartesianos del siglo diecisiete se clavaban perros vivos por las cuatro patas y se les abría en canal, y a quien se compadecía se le explicaba que los gritos eran ruido de máquina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el legado más oscuro de este libro y hay que ponerlo encima de la mesa junto a las coordenadas cartesianas. Una idea filosófica elegante, deducida con rigor de premisas razonables, sirvió para autorizar una crueldad enorme durante generaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resto de su física tampoco aguantó. Explicaba el movimiento de los planetas con torbellinos de materia sutil, y esa teoría dominó Europa medio siglo hasta que Newton la sustituyó por la gravitación. Hoy no queda nada en pie de aquel sistema.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y se equivocó en el corazón, que es el caso más instructivo. Sostenía que la sangre circula porque el calor del corazón la dilata, como una olla. William Harvey había demostrado nueve años antes que el corazón es una bomba muscular, y Descartes lo leyó y lo rechazó.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio es el mejor argumento contra su propio método. Le pareció clara y distinta una idea falsa, y descartó una demostración experimental correcta porque no encajaba con lo que a él le resultaba evidente. La evidencia interior no es un criterio fiable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los últimos veinte años de su vida los pasó en Holanda, cambiando de casa constantemente —se le conocen unas veinte direcciones— para que no le encontraran las visitas. Publicó, discutió por carta con media Europa, y evitó cuidadosamente meterse en problemas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1649 recibió una invitación difícil de rechazar. La reina Cristina de Suecia, que tenía veintidós años y quería aprender filosofía, le pidió que fuera a Estocolmo a darle clases. Le mandó un barco de guerra a buscarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Descartes aceptó y se encontró con dos cosas que no había previsto. La primera: la reina quería sus lecciones a las cinco de la mañana, porque a esa hora tenía la cabeza despejada. Él llevaba cincuenta y tres años levantándose a las once.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda: el invierno de 1649 fue uno de los más duros que se recordaban en Suecia, y las clases se daban en una biblioteca del palacio sin calefacción. El hombre que había fundado su filosofía encerrado en una habitación con estufa acabó dando clase a cinco grados bajo cero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aguantó unas semanas. Cogió una neumonía a principios de febrero, se negó a que le sangraran —desconfiaba de los médicos suecos— y murió el 11 de febrero de 1650, a los cincuenta y tres años, lejos de su casa y de sus libros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una hipótesis moderna, sostenida por un par de investigadores alemanes, según la cual lo envenenaron con arsénico, y el sospechoso sería un misionero católico preocupado por su influencia sobre la conversión de la reina. No hay pruebas y la mayoría de los historiadores no la acepta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Con su cuerpo pasó algo que parece un chiste sobre su propia filosofía. En 1666 lo trasladaron a Francia, y por el camino desapareció el cráneo. Reapareció en Suecia en el siglo diecinueve y hoy está en un museo de París, mientras el resto del esqueleto está en una iglesia.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El filósofo que separó la mente del cuerpo está enterrado con la cabeza en un edificio y el cuerpo en otro, a un par de kilómetros de distancia. No prueba nada y es difícil no contarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, el balance. Lo que falla: las pruebas de Dios son circulares y no las defiende hoy prácticamente nadie; el dualismo no resuelve el problema que le planteó Isabel; la física es enteramente falsa; y la doctrina del animal-máquina hizo un daño material y comprobable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el método, como método, es demasiado vago para usarlo. Nadie ha descubierto nunca nada aplicando las cuatro reglas, y el propio Descartes se equivocó en el corazón siguiéndolas al pie de la letra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno: que en este libro pone cogito ergo sum. Está en francés, pienso luego soy, y la versión latina aparece en otra obra de 1644. En su libro más serio, el de 1641, quitó el luego a propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que aquí está el genio maligno. No está. Es de las Meditaciones de 1641, y la duda de este libro ocupa cuatro páginas y no tiene demonios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que Descartes era un escéptico. Es exactamente lo contrario: usa la duda como herramienta para llegar a una certeza, se declara católico, obedece las costumbres de su país por principio, y guardó su mejor libro de física en un cajón por miedo a la Inquisición.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro: que el Discurso es un libro de filosofía. Es el prólogo de sesenta páginas a tres tratados científicos, y el tercero de ellos, el de geometría, es probablemente su aportación más duradera y la que se sigue usando a diario en todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cinco: que dijo que hay que dudar de todo. Dijo que hay que dudar una vez en la vida, a propósito, y con una casa provisional preparada para seguir viviendo mientras tanto. La duda permanente le habría parecido una tontería y lo escribió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda en pie es bastante. La idea de que la autoridad no es una razón. La de que un problema grande se ataca partiéndolo. Y la observación de que casi todo lo que creemos lo creemos por haber nacido donde nacimos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se lee en dos horas, está escrito en primera persona y sin jerga, y su autor lo publicó en su idioma para que lo entendiera cualquiera. Eso último sigue siendo lo más raro que hizo.",
+        },
+      ],
+    },
+  ],
+};
