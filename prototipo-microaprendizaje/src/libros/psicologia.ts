@@ -6454,3 +6454,650 @@ export const ERROR_DESCARTES: Resumen = {
     },
   ],
 };
+
+export const MARTE_VENUS: Resumen = {
+  id: "marte-venus",
+  titulo: "Los hombres son de Marte, las mujeres son de Venus",
+  autor: "John Gray",
+  ano: 1992,
+  gancho:
+    "Cincuenta millones de ejemplares vendidos sobre una teoría que la investigación no sostiene. Y aun así, mucha gente dice que le salvó la relación.",
+  porQue:
+    "Porque la pregunta buena no es si acierta, sino por qué funciona un libro que se equivoca. Contestarla enseña más sobre parejas que el propio libro, y de paso deja lo que sí está medido, que existe y casi nadie conoce.",
+  partes: [
+    {
+      titulo: "Un seminario en California",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "A finales de los ochenta, en salas de hotel de California, un hombre de unos cuarenta años daba seminarios de fin de semana para parejas. Empezaba pidiendo a los hombres que se sentaran a un lado y a las mujeres al otro, y les hacía escribir sus quejas sobre el otro bando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las listas siempre salían parecidas. Ellas escribían que no las escuchaba, que no se acordaba de nada y que quería arreglarlo todo en vez de entenderlas. Ellos escribían que nunca estaba contenta, que le sacaba faltas y que le decía cómo tenía que hacer las cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre que dirigía aquello se llamaba John Gray, y en 1992 convirtió esos seminarios en un libro con un título que se ha convertido en parte del idioma. Ha vendido en torno a cincuenta millones de ejemplares y es uno de los libros de no ficción más vendidos de la historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su biografía conviene conocerla, dicha sin sarcasmo y sin adornos. Nació en Texas en 1951, pasó nueve años como asistente célibe del gurú Maharishi Mahesh Yogi, y después obtuvo un doctorado por Columbia Pacific University, un centro por correspondencia sin acreditación oficial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella universidad fue cerrada por orden de un tribunal de California en 2001, por otorgar títulos que no cumplían los requisitos legales del estado. Eso no convierte en falso nada de lo que escribe, y sí explica por qué no hay investigación propia detrás de ninguna de sus afirmaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La metáfora del libro es esta. Hace mucho tiempo, los marcianos observaron Venus con sus telescopios y sintieron algo desconocido; construyeron naves, viajaron y se enamoraron. Después vinieron juntos a la Tierra y, al llegar, la atmósfera les provocó amnesia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Olvidaron que venían de planetas distintos. Y desde entonces cada uno da por hecho que el otro funciona con sus mismas reglas, se comporta como si así fuera, y se siente traicionado cuando el otro no responde como responderían los suyos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tesis en una frase",
+          frase: "La mayor parte de los conflictos de pareja no vienen de falta de amor ni de mala intención, sino de una traducción defectuosa: cada uno interpreta la conducta del otro con su propio diccionario, y con ese diccionario todo lo que hace el otro significa algo distinto de lo que quiso decir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Formulada así, la tesis no tiene nada de escandaloso y probablemente sea cierta. El problema empieza en la explicación de por qué existen esos dos diccionarios, porque Gray sostiene que son innatos, propios de cada sexo y básicamente iguales en todas las personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa afirmación sí es comprobable, se ha comprobado muchas veces, y no se sostiene. Esa es la parte que hay que desmontar, y conviene hacerlo despacio, porque el libro está montado de manera que cada anécdota parece confirmarlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Pero antes hay que ser justos con él, y por un motivo concreto: millones de personas dicen que este libro les ayudó de verdad. Descartar eso como pura sugestión es un error de análisis, porque hay razones identificables de por qué ayuda.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su éxito además no fue casual en el tiempo. Salió en 1992, cuando el divorcio se había normalizado en el mundo occidental, cuando muchas parejas estaban renegociando quién hacía qué en casa, y cuando el género se había convertido en un tema de conversación pública constante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ofrecía a la vez dos cosas que la gente necesitaba: una explicación de por qué su pareja le desesperaba, y una que no acusaba a nadie de ser mala persona. Es decir, daba permiso para seguir queriendo a alguien a quien no se entiende.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es exactamente el hueco que ocupa, y explica también su límite. El libro habla solo de parejas heterosexuales estables, sin hijos en primer plano, de clase media y de cultura estadounidense, y todo lo que dice está pensado desde ahí, aunque lo presente como universal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esta biblioteca hay dos libros del mismo estante que conviene tener al lado. Los cinco lenguajes del amor, de Chapman, que hace algo muy parecido con otro sistema, y El arte de amar, de Fromm, que discute la premisa entera al sostener que amar es una capacidad que se aprende.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fromm, de hecho, diría que este libro comete el error básico del género: tratar el amor como un problema de encontrar la técnica correcta con el objeto correcto, en vez de como una capacidad que hay que desarrollar en uno mismo, con disciplina y durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un dato editorial que explica bastante. Marte y Venus no es un libro sino una franquicia: hay más de una docena de títulos derivados, seminarios, terapeutas certificados y hasta una obra de teatro que lleva veinte años en cartel en varios países.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso importa porque la estructura del libro está pensada para eso. Cada capítulo se cierra con una idea que se puede repetir en una frase, y esa facilidad para resumirse es la razón de que las expresiones del libro se hayan colado en el idioma de gente que nunca lo ha leído.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vamos a hacer tres cosas, en este orden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vamos a hacer tres cosas, en este orden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Primero, contar lo que el libro dice de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después, ver qué dicen los datos sobre eso.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La cueva, la ola y la goma elástica",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El concepto más famoso del libro es la cueva. Gray sostiene que cuando un hombre tiene un problema o está estresado, su reacción por defecto es retirarse: callarse, ponerse a hacer algo con las manos, encender la televisión o mirar el móvil sin decir nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sostiene que ella suele interpretar esa retirada de la peor manera posible: como desamor, como castigo o como rechazo. Entonces se acerca a preguntar qué le pasa, él se retira más, ella insiste más, y se ha puesto en marcha el círculo que va a durar toda la noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su instrucción es contraintuitiva y probablemente sea el consejo más útil del libro: no seguirle dentro de la cueva. Dejarle salir por sí mismo, hacer otra cosa mientras tanto, y no tratar la retirada como un mensaje sobre la relación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen complementaria es la goma elástica. Dice que los hombres se alejan y vuelven en ciclos, y que cuanto más se alejan con más fuerza vuelven, siempre que no se les tire de la goma. Tirar es perseguir, preguntar y exigir explicaciones, y eso rompe el ciclo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para ellas propone otra imagen, la ola. Su tesis es que la autoestima femenina sube y baja en ciclos que no dependen de lo que él haga, que cuando la ola baja salen a la superficie sentimientos viejos, y que el hombre no debe tomárselo como un informe sobre su desempeño.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El malentendido central",
+          frase: "Cuando ella cuenta un problema, no está pidiendo una solución: está pidiendo que la escuchen mientras lo ordena en voz alta. Cuando él ofrece la solución, cree estar ayudando y ella entiende que le está diciendo que su malestar es una tontería fácil de arreglar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A ese personaje lo llama el señor Arréglalo, y le pone al lado su equivalente femenino, que llama el comité de mejora del hogar. Ella ofrece consejos no pedidos sobre cómo debería hacer él las cosas, cree estar cuidándole, y él entiende que le están diciendo que no vale.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La simetría de esos dos personajes es lo mejor del libro. Los dos creen estar dando amor, los dos están usando su propio idioma, y los dos producen en el otro exactamente el efecto contrario al que buscaban. Eso, en un matrimonio, puede durar veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otra idea suya es el marcador de puntos. Sostiene que ellas apuntan un punto por cada gesto, sea grande o pequeño: una flor vale lo mismo que un viaje. Y que ellos creen que un gesto grande vale por muchos pequeños, y por eso hacen uno al año y esperan crédito durante meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca una recomendación práctica que es la más aplicable de todo el libro y que además está bien fundada: muchos gestos pequeños y frecuentes valen más que uno grande y raro. Eso sí lo confirma la investigación sobre parejas, aunque por otras razones distintas de las suyas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro incluye también un método concreto, la carta de amor, para las discusiones. Consiste en escribir por escrito y en este orden lo que uno siente: primero el enfado, luego la tristeza, luego el miedo, luego el arrepentimiento y por último el amor y lo que se pide.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese ejercicio funciona, y funciona por un motivo que Gray no explica bien: obliga a pasar de la queja general a una petición concreta, y obliga a nombrar la emoción que hay debajo del enfado, que casi siempre es miedo o tristeza.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añade dos listas de seis necesidades para cada sexo. Ellas necesitarían cariño, comprensión, respeto, devoción, validación y seguridad; ellos, confianza, aceptación, aprecio, admiración, aprobación y ánimo. Cada necesidad de una lista, dice, se corresponde con una de la otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas listas no vienen de ningún estudio y suenan a horóscopo, y aun así tienen un efecto útil: dan vocabulario. Mucha gente sabe que está insatisfecha y no sabe decir de qué, y una lista de doce palabras concretas es mejor punto de partida que la frase de que algo no va bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de pasar a la crítica conviene dejar clara una cosa. La observación de fondo —que uno se retira y el otro persigue, y que cada movimiento empeora el del otro— no se la inventó Gray y es correcta. Está descrita en la investigación desde los años setenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tiene incluso nombre técnico: patrón de demanda y retirada, y es uno de los hallazgos más sólidos que existen sobre conflicto de pareja. Aparece en estudios de países muy distintos y predice insatisfacción y ruptura de manera bastante fiable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese patrón se describe así: uno de los dos plantea un tema, pide un cambio y sube la intensidad para conseguir respuesta; el otro se cierra, cambia de tema o se va. Cuanto más insiste el primero, más se cierra el segundo, y cuanto más se cierra, más insiste el primero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que lo hace tan destructivo es que cada uno experimenta su propia conducta como una reacción razonable a la del otro, y las dos lo son. Nadie está actuando de mala fe, y el resultado es un mecanismo que se alimenta a sí mismo y que ninguno de los dos puede parar solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una asimetría fisiológica documentada que da algo de razón a Gray, aunque no la que él cree. En el laboratorio, durante una discusión, los hombres tienden a alcanzar antes un estado de activación intensa y tardan más en recuperar el pulso normal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso se le llama inundación, y explica por qué a alguien le puede resultar imposible seguir hablando: no está fingiendo indiferencia, está con ciento veinte pulsaciones intentando no decir algo irreparable. Ahí la retirada es defensa, y la instrucción de dejarle salir solo tiene sentido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión que sí funciona de ese consejo, y que Gray no da, es concreta: quien se retira debe decir que necesita parar y cuándo va a volver, y volver de verdad. Retirarse sin fecha es un abandono; retirarse veinte minutos y volver es una pausa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: Gray describe un fenómeno real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: Gray describe un fenómeno real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que falla es su explicación de por qué ocurre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa explicación se puede comprobar.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que dicen los datos sobre las diferencias",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2005, la psicóloga Janet Hyde publicó un trabajo que revisaba cuarenta y seis metaanálisis anteriores sobre diferencias psicológicas entre sexos, es decir, un resumen de resúmenes que cubría miles de estudios y cientos de miles de participantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión, que se conoce como la hipótesis de la similitud de género, es que en la gran mayoría de las variables medidas —comunicación, capacidad matemática, liderazgo, autoestima, empatía medida por rendimiento— las diferencias entre sexos son pequeñas o nulas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay excepciones y conviene decirlas para no caer en el error contrario: algunas capacidades motoras como la velocidad de lanzamiento, la frecuencia de masturbación y las actitudes hacia el sexo ocasional sí muestran diferencias grandes y consistentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no muestra diferencias grandes es precisamente todo lo que el libro necesita: cómo se comunica la gente, cuánto habla, cuánto empatiza y cómo gestiona los conflictos. Ahí la variación entre dos personas del mismo sexo es mucho mayor que la variación entre sexos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El dato del que todo el mundo se acuerda",
+          frase: "La afirmación de que los hombres dicen unas siete mil palabras al día y las mujeres veinte mil circula por todas partes. Es falsa. En 2007 se publicó en Science un estudio con casi cuatrocientas personas que llevaron grabadoras encendidas durante días: unas dieciséis mil en los dos casos, sin diferencia significativa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato de las veinte mil palabras nunca tuvo una fuente. Se ha rastreado hasta folletos de terapia de pareja de los años noventa que se citaban entre sí, y varios autores conocidos lo repitieron en libros superventas hasta que se convirtió en algo que todo el mundo sabe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro argumento habitual es neurológico: que el cuerpo calloso, el haz de fibras que une los dos hemisferios, es mayor en las mujeres, y que de ahí vendría su supuesta manera más conectada de pensar. Conviene mirar de dónde sale esa afirmación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sale de un estudio de 1982 hecho con catorce cerebros. Catorce. Cuando se hizo un metaanálisis en 1997 con varias decenas de estudios posteriores y se corrigió por el tamaño total del cerebro, la diferencia desapareció. Es uno de los datos zombis más resistentes de la divulgación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la empatía pasa algo todavía más interesante y que conviene entender bien. Cuando se pregunta a la gente cuánto empatiza, las mujeres puntúan bastante más alto. Cuando se les pone una prueba de rendimiento real, identificando emociones ajenas, la diferencia se encoge muchísimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese contraste entre lo que la gente dice de sí misma y lo que hace es la firma de una expectativa social, no de una capacidad distinta. Y hay experimentos que lo confirman: si se paga por acertar, la diferencia entre hombres y mujeres se reduce todavía más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora viene el hallazgo que remata la discusión, y es elegante. Si el patrón de que él se retira y ella insiste fuera cosa de la naturaleza masculina y femenina, debería mantenerse igual sea cual sea el asunto de la discusión. Y no se mantiene.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Cuando el cambio lo pide ella, ella demanda y él se retira, como dice el libro. Cuando el cambio lo pide él, se invierte: él demanda y ella se retira. El patrón no sigue al sexo, sigue a quién quiere que las cosas cambien.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso lo estableció un trabajo experimental de principios de los noventa y se ha replicado después. Y es demoledor para Marte y Venus, porque conserva intacta la observación de Gray y sustituye su explicación por otra que además dice qué hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque si el que se retira es simplemente el que está cómodo con las cosas como están, entonces la retirada no es un rasgo de carácter que haya que respetar: es una posición en una negociación, y quien la ocupa tiene el poder de que no cambie nada sin hacer nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está el problema político del libro, que es real aunque suene grandilocuente. Si las diferencias son de planeta, no se negocian; se acatan. Y quien sale ganando de que no se negocien es siempre el que está satisfecho con el reparto actual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es exactamente el argumento contra el que escribió Simone de Beauvoir en El segundo sexo, que está en esta biblioteca: que llamar naturaleza a una costumbre es la manera más eficaz de dejarla fuera de discusión, porque contra la naturaleza no se puede protestar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar hasta dónde llega esta crítica, para no pasarse de frenada. No dice que no existan diferencias entre sexos ni que la biología no cuente: dice que en las capacidades de las que habla este libro las diferencias medidas son pequeñas y las semejanzas enormes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una manera precisa de expresarlo que ayuda a pensar. En casi todas estas variables, las dos distribuciones se solapan en más de un ochenta por ciento: si eliges a un hombre y a una mujer al azar, la probabilidad de que él puntúe más alto apenas se separa del cincuenta por ciento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso significa que el sexo de alguien te dice muy poco sobre cómo se comunica, y que conocerle a él te lo dice casi todo. Que es exactamente lo contrario de lo que propone un libro cuyo consejo central es deducir a la persona a partir de su planeta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un efecto que la investigación ha medido y que agrava el problema: cuando a alguien se le recuerda un estereotipo sobre su grupo antes de una tarea, su rendimiento y su conducta se desplazan hacia ese estereotipo. Los manuales de diferencias no solo describen: también empujan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con todo esto, el libro parecería liquidado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con todo esto, el libro parecería liquidado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y queda la pregunta que de verdad importa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por qué le ha servido a tanta gente.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Por qué funciona un libro que se equivoca",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Descartar el testimonio de millones de lectores diciendo que están sugestionados es cómodo y es mal análisis. Si un libro con una teoría falsa produce mejoras reales, entonces la mejora viene de otra parte, y localizar esa otra parte es lo interesante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer mecanismo es el más potente y se llama reatribución. En una pareja en conflicto, cada uno explica la conducta del otro por su carácter o por su falta de amor: no me escucha porque le doy igual, me critica porque no me valora, se calla porque me castiga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas explicaciones son las más dañinas que existen, porque no dejan salida: si el otro es así, no hay nada que hacer. Lo que hace Marte y Venus es sustituirlas por una explicación que no acusa a nadie: no se calla para castigarte, es que está en su cueva.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La misma conducta, otra historia",
+          frase: "Está en su cueva y no me quiere describen exactamente lo mismo desde fuera. Pero la primera permite esperar sin resentimiento y la segunda obliga a exigir explicaciones. Cambiar la historia que uno se cuenta cambia lo que hace después, y eso sí cambia la relación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo mecanismo es la concreción. La mayoría de las quejas de pareja se formulan en abstracto: no me haces caso, siempre estás igual, ya no eres el de antes. Contra eso no se puede hacer nada, porque no describe ninguna conducta que se pueda cambiar el martes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro, con sus listas y sus ejercicios, obliga a bajar al detalle: quiero que me preguntes cómo me ha ido antes de contarme tu día; quiero que no me des consejos hasta que te los pida. Eso ya son peticiones, y una petición se puede aceptar, negociar o rechazar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es el permiso. Muchos lectores cuentan que lo que les dio el libro fue autorización para pedir algo que llevaban años sin pedir por parecerles exigente o ridículo. Al presentarlo como una necesidad natural de su sexo, deja de dar vergüenza pedirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto es el más simple y el que explica que casi todos los libros de pareja funcionen a corto plazo: dos personas que adoptan el mismo marco, sea cual sea, tienen por fin un idioma común para hablar de lo que les pasa. Y hablar de eso con calma ya es la mitad del trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo efecto que produce cualquier terapia de pareja mediocre, y es la razón de que los estudios comparativos encuentren beneficios parecidos en enfoques teóricamente incompatibles. Lo que cura no siempre es la teoría: a veces es el hecho de sentarse a usarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho todo eso, hay que contar el precio, porque lo tiene y no es pequeño. El esencialismo es un arma de doble filo: el mismo argumento que sirve para tener paciencia con el otro sirve para no cambiar nunca, y en la práctica se usa muchísimo más para lo segundo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Si retirarse es lo que hacen los hombres, entonces retirarse deja de ser algo que este hombre concreto hace y se puede discutir. Se convierte en un rasgo de especie, y pedirle que salga de la cueva pasa a ser como pedirle que mida diez centímetros más.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una versión peor de ese uso y hay que nombrarla. La lógica de que no puede evitarlo funciona igual de bien para justificar el silencio prolongado como castigo, la falta de cualquier trabajo doméstico o la negativa a hablar de un problema durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una parte que en 1992 pasaba desapercibida y hoy salta a la vista: el libro no contempla ninguna pareja que no sea un hombre y una mujer, y todo su aparato explicativo se desmonta solo en cuanto se aplica a dos personas del mismo sexo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí hay un dato que resulta letal para la teoría. Las parejas del mismo sexo muestran el mismo patrón de demanda y retirada, con la misma frecuencia, y con la misma correlación con la insatisfacción. Si fuera cosa de Marte y Venus, eso no debería ocurrir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De hecho la investigación sobre parejas del mismo sexo encuentra algo aún más interesante: discuten por los mismos temas, en las mismas proporciones, y con niveles de satisfacción parecidos. Lo que cambia es que reparten las tareas de forma más igualitaria, porque no hay guion previo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es probablemente el mejor argumento contra el libro y no aparece en ninguna reseña de 1992: cuando desaparece la asignación automática de papeles por sexo, los conflictos siguen existiendo y hay que negociarlos uno a uno. Que es lo que Gray dice que no hace falta hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otra objeción práctica es de dosis. El libro promete que entender las diferencias basta, y la investigación sobre intervenciones en pareja dice lo contrario: la comprensión sin cambio de conducta no aguanta, y los efectos de cualquier programa se disipan si no se practica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una última cosa que el libro no menciona nunca y que un lector debe tener presente. Hay situaciones en las que el problema de una pareja no es de traducción: hay control económico, aislamiento, amenazas o violencia, y ningún ejercicio de comunicación es la respuesta a eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un marco que explica cualquier conducta como una diferencia natural es especialmente malo justo ahí, porque proporciona una explicación tranquilizadora para señales que no había que tranquilizar. Conviene saber dónde termina el alcance de un libro de autoayuda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión razonable no es tirar el libro ni recomendarlo sin avisos. Es quedarse con los ejercicios y cambiar la explicación: hay dos personas con estilos distintos de manejar el conflicto, y esos estilos se aprendieron y se pueden cambiar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión razonable no es tirar el libro ni recomendarlo sin avisos. Es quedarse con los ejercicios y cambiar la explicación: hay dos personas con estilos distintos de manejar el conflicto, y esos estilos se aprendieron y se pueden cambiar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa versión sirve para cualquier pareja, no le da a nadie una coartada biológica, y además coincide con lo que sí se ha medido en laboratorio durante cuarenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque esa investigación existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y se hizo en un apartamento con cámaras.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El apartamento con cámaras de Seattle",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En la Universidad de Washington, en Seattle, un psicólogo llamado John Gottman montó a partir de los años ochenta un laboratorio que en la prensa se conoció como el laboratorio del amor. Era un apartamento de verdad, con cocina, sofá y ventanas al lago.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las parejas pasaban allí un fin de semana viviendo normalmente, con cámaras grabando y con sensores midiéndoles el pulso, la conductancia de la piel y la agitación motora. Después, un equipo codificaba cada segundo de conversación con un sistema de decenas de categorías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia con Gray no es de opinión: es que aquí hay medidas, sujetos seguidos durante años y un procedimiento que otros pueden repetir. Lo que salió de allí es lo mejor que tenemos sobre por qué unas parejas duran y otras no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hallazgo más conocido son los cuatro comportamientos que mejor predicen la ruptura, a los que puso el nombre bíblico de los cuatro jinetes. Son la crítica, el desprecio, la actitud defensiva y lo que llamó amurallarse, que es dejar de responder por completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La distinción entre queja y crítica es la más útil de las cuatro. Quejarse es hablar de una conducta concreta: me molesta que no hayas avisado de que llegabas tarde. Criticar es hablar del carácter: eres un desconsiderado, siempre igual, nunca piensas en nadie.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El peor de los cuatro",
+          frase: "El desprecio: los ojos en blanco, el sarcasmo, el tono de superioridad, el humor a costa del otro. Es el mejor predictor individual de divorcio de todos los que se han medido, y se asocia además con más enfermedades infecciosas en quien lo recibe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo hallazgo es una proporción. En las parejas estables, durante una discusión, la relación entre interacciones positivas y negativas ronda cinco a uno. En las que acaban rompiendo, se acerca a uno a uno. No hace falta discutir menos: hace falta más de lo otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo positivo no significa cumplidos. Cuenta un gesto de asentir, tocar el brazo al pasar, una broma que rompe la tensión o simplemente ceder en una frase. Gottman lo llama intento de reparación, y sostiene que reconocerlo y aceptarlo es la habilidad decisiva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer hallazgo es el que más ha cambiado la manera de ver esto, y no tiene que ver con las discusiones sino con los días normales. Lo llama ofertas de conexión: los pequeños intentos de captar la atención del otro, decenas de veces al día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alguien mira por la ventana y dice que hay un pájaro raro en el árbol. Eso es una oferta. Frente a ella caben tres respuestas: girarse hacia el otro y contestar, ignorarla, o responder con fastidio. La proporción entre esas tres cosas es lo que construye una relación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En un seguimiento de parejas recién casadas a seis años, las que seguían juntas habían respondido girándose hacia el otro en torno al ochenta y seis por ciento de las ofertas registradas en el laboratorio. Las que se habían divorciado, alrededor de un tercio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese dato reordena la idea entera de lo que es una relación. Lo que la sostiene no son las conversaciones importantes ni los viajes: son cientos de microdecisiones diarias de levantar la vista cuando el otro dice algo sin importancia.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto hallazgo es el más consolador y el menos conocido. Al analizar los temas de conflicto, encontró que alrededor de dos tercios de los desacuerdos de cualquier pareja son perpetuos: no tienen solución y van a seguir ahí dentro de veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son las diferencias de orden, de puntualidad, de cuánta familia política se aguanta, de cuánto sexo, de cuánto se sale. Y su conclusión es que las parejas felices no los resuelven: aprenden a hablar de ellos con humor y sin desprecio, y a convivir con el desacuerdo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora toca la parte honrada, porque este trabajo también tiene sus problemas. La cifra que se repite en todas partes es que Gottman predice el divorcio con más de un noventa por ciento de acierto, y esa cifra hay que mirarla con lupa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un análisis metodológico de 2001 firmado por Richard Heyman y Amy Slep mostró que en varios de aquellos estudios el modelo se ajustaba a los mismos datos que después decía predecir. Eso no es predecir: es describir hacia atrás y llamarlo pronóstico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gottman ha respondido a esa crítica y ha matizado las cifras, y conviene tenerlo presente al leer sus libros de divulgación, que son bastante más rotundos que sus artículos. Lo observado —los jinetes, la proporción, las ofertas— aguanta; lo de la bola de cristal, no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una segunda limitación que también hay que decir: la mayor parte de aquellas muestras eran de parejas estadounidenses, blancas, de clase media y casadas, y las réplicas en otros países y contextos son bastante más escasas de lo que la fama del laboratorio hace pensar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una tercera: observar muy bien lo que distingue a las parejas que duran no implica saber cómo convertir a una pareja del segundo grupo en una del primero. La investigación sobre terapia derivada de todo esto es mucho más delgada que la investigación descriptiva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho eso, hay un consejo suyo que resiste todas las objeciones porque no depende de ninguna teoría: los primeros tres minutos de una discusión predicen bastante bien cómo va a terminar, y empezar con un reproche personal condena la conversación entera antes de que empiece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso lo llama arranque suave, y consiste en decir cómo te sientes tú, sobre qué situación concreta, y qué pides. Tres piezas, en ese orden, sin la palabra siempre y sin la palabra nunca. Es el ejercicio con mejor relación entre lo poco que cuesta y lo mucho que cambia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con todo eso encima de la mesa, la comparación se resuelve sola. Marte y Venus acierta al describir un baile y se equivoca al explicarlo, y su explicación es justamente la que le quita a la gente la posibilidad de cambiar el baile.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo de Seattle describe lo mismo sin planetas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su conclusión práctica cabe en una línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Levanta la vista cuando el otro te habla del pájaro.",
+        },
+      ],
+    },
+  ],
+};
