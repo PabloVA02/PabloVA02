@@ -15,7 +15,7 @@ import { CUERPO_CUENTA, DIGESTION, NACIDOS_CORRER, DILEMA_OMNIVORO, ALIENTO_AIRE
 import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSBY, MATAR_RUISENOR, HOBBIT } from "./literatura";
 import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
 import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS, INVERSOR_INTELIGENTE, CERO_A_UNO, ANTIFRAGIL } from "./economia";
-import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA, NUDGE, DEEP_WORK } from "./psicologia";
+import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA, NUDGE, DEEP_WORK, PODER_AHORA } from "./psicologia";
 import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY, SENOR_MOSCAS, DRACULA, VIEJO_MAR, ODISEA, SOMBRA_VIENTO, NOMBRE_ROSA } from "./literatura";
 import { ARTE_GUERRA, ETICA_AMADOR, TAO_TE_CHING } from "./filosofia";
 import { ORGULLO_PREJUICIO, GUARDIAN_CENTENO, PEDRO_PARAMO } from "./literatura";
@@ -166,6 +166,7 @@ export const RESUMENES: Record<string, Resumen> = {
   "chico-pijama": CHICO_PIJAMA,
   "pedro-paramo": PEDRO_PARAMO,
   "universo-cascara": UNIVERSO_CASCARA,
+  "poder-ahora": PODER_AHORA,
 };
 
 export function comprobar() {

@@ -155,7 +155,7 @@ export const CATALOGO: Ficha[] = [
   { id: "siete-habitos", titulo: "Los 7 hábitos de la gente altamente efectiva", autor: "Stephen Covey", ano: 1989, categoria: "Psicología", estado: "escrito" },
   { id: "amigos-influir", titulo: "Cómo ganar amigos e influir sobre las personas", autor: "Dale Carnegie", ano: 1936, categoria: "Psicología", estado: "escrito" },
   { id: "deep-work", titulo: "Céntrate", autor: "Cal Newport", ano: 2016, categoria: "Psicología", estado: "escrito" },
-  { id: "poder-ahora", titulo: "El poder del ahora", autor: "Eckhart Tolle", ano: 1997, categoria: "Psicología", estado: "pendiente" },
+  { id: "poder-ahora", titulo: "El poder del ahora", autor: "Eckhart Tolle", ano: 1997, categoria: "Psicología", estado: "escrito" },
   { id: "nudge", titulo: "Un pequeño empujón", autor: "Thaler y Sunstein", ano: 2008, categoria: "Psicología", estado: "escrito" },
   { id: "educada", titulo: "Una educación", autor: "Tara Westover", ano: 2018, categoria: "Psicología", estado: "escrito" },
 

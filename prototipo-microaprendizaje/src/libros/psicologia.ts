@@ -2092,3 +2092,609 @@ export const DEEP_WORK: Resumen = {
     },
   ],
 };
+
+export const PODER_AHORA: Resumen = {
+  id: "poder-ahora",
+  titulo: "El poder del ahora",
+  autor: "Eckhart Tolle",
+  ano: 1997,
+  gancho: "Una noche de 1977, a los veintinueve años, pensó que no podía vivir consigo mismo. Y entonces se fijó en lo raro que era eso: si no puedo vivir conmigo, somos dos.",
+  porQue:
+    "Porque su práctica central coincide con lo que sí está estudiado en psicología, y todo lo que la rodea es un sistema que no se puede discutir.",
+  partes: [
+    {
+      titulo: "No puedo vivir conmigo mismo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Londres, una noche de 1977. Un hombre de veintinueve años se despierta de madrugada en un piso alquilado con una sensación de pavor. Lleva años con depresión y con ansiedad, y esa noche llega a un punto en el que le parece insoportable seguir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se formula un pensamiento que ha tenido muchas veces: no puedo vivir conmigo mismo por más tiempo. Y entonces, según cuenta él, ocurre algo distinto: se queda mirando esa frase y le llama la atención lo rara que es gramaticalmente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta",
+          frase: "Si no puedo vivir conmigo mismo, entonces hay dos: el yo que no puede, y el mismo con el que no puede vivir. ¿Cuál de los dos soy? ¿Y quién está haciendo la pregunta?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Describe lo que pasó después como una especie de succión: la sensación de ser arrastrado a un vacío, un miedo enorme y después nada. Se despertó por la mañana con la impresión de que todo lo que le rodeaba estaba bañado en una paz que no había sentido nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre se llamaba Ulrich Leonard Tölle. Había nacido en Lünen, Alemania, en 1948, tuvo una infancia infeliz, se marchó a España con su padre a los trece años y allí no fue al colegio. A los diecinueve se fue a Inglaterra a dar clases de idiomas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después estudió en la Universidad de Londres y empezó una investigación en Cambridge que no terminó. Y a los veintinueve años, aquella noche, dejó de hacer todo lo que estaba haciendo. Cambió su nombre por Eckhart, por el místico alemán medieval.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que vino después es lo más raro de su biografía y él lo cuenta sin dramatizar: pasó unos dos años sin trabajo fijo, durmiendo en casas de conocidos y sentándose durante horas en bancos de parques de Londres, en un estado que describe como de dicha intensa.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La gente empezó a acercarse a preguntarle cosas. Él contestaba. Con el tiempo aquello se convirtió en pequeños grupos, después en charlas, después en cursos y, veinte años después de aquella noche, en un libro que escribió en Vancouver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo autopublicó en 1997 con una tirada de tres mil ejemplares y una editorial diminuta. Circuló durante dos años por recomendación boca a boca, sobre todo en Canadá y en la costa oeste de Estados Unidos, sin ninguna promoción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el año 2000, Oprah Winfrey lo recomendó públicamente. El libro pasó al primer puesto de la lista de más vendidos del New York Times y se quedó ahí durante años. Lleva vendidos millones de ejemplares y está traducido a más de treinta idiomas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El segundo empujón",
+          frase: "En 2008, con su libro siguiente, hizo con Oprah una serie de diez sesiones en directo por internet. Se calcula que la siguieron más de once millones de personas. Fue uno de los mayores acontecimientos de la divulgación espiritual moderna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro está escrito en forma de preguntas y respuestas, con una tipografía distinta para las preguntas del interlocutor. Es un formato antiguo —el diálogo socrático, los textos de maestros orientales— y funciona bien porque anticipa las objeciones del lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis central se puede enunciar en una frase: casi todo el sufrimiento humano que no es dolor físico procede de identificarse con la propia mente, y en particular con un flujo continuo de pensamiento involuntario que nadie ha elegido tener.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer paso que propone es una observación que cualquiera puede hacer en treinta segundos: intentar dejar de pensar durante un minuto y comprobar que no se puede. La mente sigue produciendo frases sola, sin permiso y sin parar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y de ahí saca una conclusión que suena rara y es difícil de rebatir: si no puedes parar de pensar, entonces el pensamiento no está bajo tu control. Y si algo no está bajo tu control, es discutible que sea exactamente tú.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A ese flujo automático lo llama la mente, y sostiene que casi todo el mundo vive dentro de él sin darse cuenta, comentando la realidad en lugar de percibirla, y confundiendo el comentario con quien lo escucha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segunda idea es sobre el tiempo, y es la que da título al libro. Sostiene que el sufrimiento psicológico siempre está o en el pasado —culpa, resentimiento, nostalgia— o en el futuro —ansiedad, miedo, expectativa—, y prácticamente nunca en el instante presente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hace una distinción que casi todos los críticos del libro pasan por alto: separa el tiempo del reloj del tiempo psicológico. El primero es útil y necesario: citas, planes, memoria práctica. El segundo es la rumiación, que es lo que él ataca.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que NO dice",
+          frase: "No dice que no haya que planificar ni recordar. Dice explícitamente que usar el tiempo para organizarse es imprescindible, y que el problema es habitar mentalmente en un momento que no está ocurriendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese matiz es importante porque el malentendido más extendido sobre este libro es exactamente el contrario: que propone vivir sin pensar en el mañana. No lo propone, y lo aclara en varios capítulos con bastante insistencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esas dos ideas montadas —que no somos nuestro pensamiento y que el sufrimiento vive fuera del presente— llega a la práctica concreta, que es lo único que el libro pide hacer y que ocupa muy pocas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y es, además, la parte que coincide con lo que la psicología clínica lleva cuarenta años estudiando por su cuenta.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El observador",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La instrucción central es esta: en lugar de intentar controlar los pensamientos o discutir con ellos, observarlos. Notar que aparecen, verlos pasar y no meterse dentro. Colocarse, dice Tolle, en el lugar del que mira y no en el de lo mirado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y propone un ejercicio muy concreto para experimentarlo, que dura unos segundos y que funciona la primera vez que se hace: preguntarse a uno mismo cuál será su próximo pensamiento, y quedarse esperando a ver qué llega.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que ocurre",
+          frase: "Durante unos segundos no llega nada. La atención se dirige a esperar y el flujo se interrumpe. Ese hueco, dice Tolle, es la prueba de que hay algo que observa y que no es el pensamiento observado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segunda herramienta es anclar la atención en el cuerpo. Recomienda dirigir la percepción hacia dentro —las manos, los pies, el pecho— y notar la sensación de estar vivo desde el interior, sin visualizar ni imaginar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El razonamiento es simple: el pensamiento vive en el pasado y en el futuro, y el cuerpo solo puede estar aquí. Llevar la atención a la sensación física es la manera más rápida y más fiable de salir de la rumiación, y no exige creer en nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es la aceptación de lo que hay, y es la más difícil de entender bien porque suena a resignación. Tolle insiste en que no lo es, y da una fórmula que aclara bastante: acepta primero, y después actúa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su argumento es de eficacia: la acción que nace de la resistencia interna —del enfado por que las cosas sean así— es peor que la que nace de haber aceptado la situación tal como es. Aceptar el hecho no significa aprobarlo ni quedarse quieto.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una regla práctica que sí es aprovechable: ante cualquier situación desagradable hay tres opciones legítimas —cambiarla, salir de ella o aceptarla del todo— y una ilegítima, que es quedarse dentro protestando sin hacer ninguna de las tres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa formulación es de las mejores del libro. Describe con precisión una conducta muy común: permanecer en un trabajo, una relación o una situación mientras se protesta a diario, que es el estado que produce más desgaste y el único que no resuelve nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el ego, Tolle propone una definición operativa que no es la de Freud ni la del uso corriente: llama ego a la identidad construida con pensamientos, recuerdos, opiniones, posesiones y roles, es decir, a la idea que uno tiene de sí mismo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su tesis sobre el ego",
+          frase: "Que necesita problemas para existir. Que se alimenta de conflicto, de comparación y de agravio, y que por eso mucha gente se aferra a sus quejas: sin ellas no sabría quién es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa observación es aguda y se puede comprobar en cualquier conversación: hay personas cuya identidad depende de un enfado sostenido durante años, y a las que resolver ese conflicto les dejaría sin un pilar central de quiénes creen ser.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tiene también un capítulo sobre las relaciones que es más incómodo y que a mucha gente le resulta el más útil. Sostiene que la mayoría de las relaciones funcionan como adicciones mutuas: dos personas usándose para llenar un vacío que no se llena así.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y avisa de una consecuencia previsible: cuando alguien empieza a trabajar en esa dirección, sus relaciones cambian, y no siempre a mejor. El libro no promete armonía; advierte de que va a haber una fase incómoda y de que hay parejas que no la pasan.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo lo anterior es, en lo esencial, un resumen del vedanta advaita y del zen. Tolle lo reconoce: cita a Meister Eckhart, a Krishnamurti, a Ramana Maharshi, los evangelios y los textos budistas, y dice que no está diciendo nada nuevo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero el marco narrativo del libro es el de una revelación personal, no el de una tradición. La historia que lo abre es la de un hombre que descubre algo solo, en un piso de Londres, sin maestro y sin lectura previa. Esas dos cosas no encajan bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está el primer problema serio del libro: presenta como hallazgo directo un cuerpo de ideas de dos mil quinientos años, del que suprime el aparato conceptual, la disciplina, la comunidad y las advertencias que esas tradiciones incorporan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el zen, por ejemplo, la práctica se hace bajo la supervisión de alguien con formación, precisamente porque se conocen sus efectos adversos. Existe un término específico para los estados desestabilizadores que puede producir la meditación intensiva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este libro no menciona nada de eso. Propone prácticas de introspección profunda a millones de lectores anónimos sin ninguna advertencia sobre para quién pueden no ser adecuadas y sin ninguna indicación de cuándo conviene buscar ayuda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y llega al concepto más suyo y más discutible de todos, que es el que le dio la mitad de su popularidad y que es también donde el libro deja de describir para empezar a inventar una entidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una asimetría en el libro que conviene notar: dedica muchísimas páginas a describir el problema —la identificación con la mente, el tiempo psicológico, el ego— y muy pocas a la práctica. Las instrucciones concretas caben en unas quince páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa proporción es la contraria de la que tendría un manual. Y explica un efecto muy comentado por sus lectores: la sensación de haber comprendido algo importante y de no saber exactamente qué hay que hacer al cerrar el libro un martes por la mañana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llama el cuerpo del dolor.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El cuerpo del dolor",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Tolle sostiene que el dolor emocional no procesado no se disuelve: se acumula. Que forma en el interior de cada persona una especie de masa de energía con vida propia, hecha de todo el sufrimiento antiguo que no se atravesó del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sostiene que esa masa se comporta como un organismo: duerme durante temporadas, despierta periódicamente y necesita alimentarse. Y que su alimento es más dolor, así que provoca activamente las situaciones que lo producen.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La afirmación",
+          frase: "Que hay algo dentro que busca discusiones, que sabotea lo que va bien y que se relame en el conflicto, porque de eso vive. Y que la gente confunde esa cosa con su propio yo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Como descripción de una conducta observable, hay algo real detrás: existe la tendencia a buscar la pelea cuando uno está mal, a reabrir asuntos cerrados y a repetir patrones que hacen daño. Eso lo reconoce cualquiera que se haya observado un rato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en psicología hay conceptos que describen fenómenos parecidos con otro vocabulario: la rumiación, la repetición de patrones aprendidos en la infancia, el refuerzo intermitente, la reactivación de esquemas emocionales antiguos ante señales del presente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema no es la observación: es la gramática. Tolle no dice que la gente tienda a repetir patrones dolorosos. Dice que hay una entidad que despierta, que busca, que se alimenta y que quiere. Le atribuye intención a una metáfora.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa diferencia importa. Un patrón se puede examinar, medir y modificar. Una entidad con voluntad propia solo se puede combatir, y además ofrece una explicación disponible para cualquier cosa que salga mal, sin posibilidad de comprobarla.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí aparece el defecto estructural del libro entero, que es el más importante de todos: es un sistema cerrado. Cualquier objeción que se le haga puede ser reinterpretada como una prueba de que quien objeta está atrapado en su propia mente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si el lector duda, es el ego resistiéndose. Si algo no funciona, es que no se ha aceptado del todo. Si aparece escepticismo, es la mente defendiendo su territorio. No existe ninguna observación que pudiera contar como evidencia en contra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso es un problema",
+          frase: "Una afirmación que no puede ser falsa no informa de nada. Y un marco donde toda crítica se reinterpreta como síntoma es exactamente la estructura que hace difícil salir de una creencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo problema serio es de salud mental. El libro propone la aceptación del momento presente como respuesta general al sufrimiento, sin distinguir situaciones que son radicalmente distintas y que requieren respuestas opuestas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aceptar plenamente un atasco de tráfico es sensato. Aceptar plenamente una relación de maltrato, una depresión clínica o unas condiciones laborales abusivas no lo es, y presentarlo todo bajo la misma instrucción puede hacer daño real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tolle dice, en su descargo, que después de aceptar hay que actuar, y que la acción incluye salir de la situación. Pero el peso del libro está enormemente cargado del lado de la aceptación, y esa es la parte que los lectores recuerdan y aplican.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay además una omisión llamativa: el libro apenas menciona el trauma, el duelo, la enfermedad mental o las circunstancias materiales. Todo el sufrimiento aparece como producto de la mente, y buena parte del sufrimiento humano sencillamente no lo es.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la tercera objeción, que es política y que se le hace a toda esta literatura: si todo el malestar viene de la conciencia individual, entonces la pobreza, la precariedad o la discriminación pasan a ser problemas de actitud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una consecuencia que Tolle no formula así y que se sigue con bastante naturalidad de su marco, y explica por qué este tipo de libros tiene tanto éxito en entornos corporativos: propone que el empleado gestione su reacción y no las condiciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta objeción es de fondo epistemológico. Tolle presenta afirmaciones sobre la conciencia, el universo y la naturaleza del ser con la seguridad de quien describe hechos, y no ofrece ni una sola razón para creerlas más allá de su propia experiencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando habla de que la conciencia es anterior a la materia, de que el universo despierta a través de los humanos o de que el pensamiento es una fase evolutiva que se está superando, está haciendo metafísica sin decir que la está haciendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la quinta, más menor: el estilo es repetitivo. El libro dice lo mismo muchas veces con distintas palabras, y una parte considerable de sus doscientas cincuenta páginas son reformulaciones de las tres o cuatro ideas de los primeros capítulos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora bien, hay una parte de todo esto que no depende de creerse nada, que se puede comprobar y que lleva cuarenta años estudiándose en laboratorios y en consultas con métodos que Tolle no menciona en ninguna página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir también qué tipo de afirmación es cada cosa, porque el libro las mezcla. Que la rumiación produce malestar es una afirmación empírica y comprobable. Que existe una entidad energética que se alimenta de conflicto no lo es, ni puede serlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que la conciencia sea anterior a la materia o que el universo despierte a través de los seres humanos son afirmaciones metafísicas, del mismo tipo que las de cualquier religión. Pueden ser ciertas y no hay ninguna manera de averiguarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa parte es precisamente la instrucción central del libro.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que sí está estudiado",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En psicología clínica existe un concepto que se llama descentramiento y que describe exactamente lo que Tolle propone: pasar de estar dentro de un pensamiento a observarlo desde fuera, notando que es un pensamiento y no un hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia práctica es la que hay entre pensar soy un desastre y notar que está apareciendo el pensamiento de que soy un desastre. El contenido es idéntico y la relación con él es completamente distinta, y esa relación sí se puede entrenar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Dónde está estudiado",
+          frase: "En la terapia cognitiva basada en la atención plena, desarrollada en los años noventa para prevenir recaídas en depresión. Su mecanismo central es exactamente el descentramiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel programa se diseñó para un problema concreto: la depresión recurrente, en la que cada episodio hace más probable el siguiente porque los estados de ánimo bajos reactivan automáticamente patrones de pensamiento negativo aprendidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea era interrumpir esa reactivación enseñando a los pacientes a reconocer los pensamientos como eventos mentales pasajeros en lugar de como descripciones fiables de la realidad. Y los ensayos han encontrado reducciones significativas de recaídas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En varios países europeos, ese programa está recomendado en las guías clínicas para pacientes con episodios depresivos recurrentes. Es decir: una parte del contenido de este libro se ha convertido, por otra vía, en tratamiento con respaldo institucional.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Con dos diferencias importantes. La primera es que allí se administra en un programa estructurado de ocho semanas, con profesionales formados, con criterios de exclusión y con seguimiento. Aquí se ofrece en un libro a cualquiera y sin ninguna condición.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la segunda es de alcance. El programa clínico afirma una cosa concreta y medible: reduce recaídas depresivas. Este libro afirma que disuelve el sufrimiento humano, transforma la conciencia y modifica la naturaleza del ser. No es la misma promesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También está estudiado el anclaje atencional en el cuerpo, que es la segunda herramienta del libro. Hay evidencia razonable de que dirigir la atención a sensaciones físicas interrumpe la rumiación y reduce la activación fisiológica del estrés.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay evidencia sobre la rumiación misma: es uno de los predictores mejor establecidos de depresión y de ansiedad, y las intervenciones que la reducen mejoran los síntomas. La diana que Tolle señala existe y está bien identificada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El balance de evidencia",
+          frase: "Lo que el libro propone hacer tiene respaldo. Lo que el libro afirma sobre por qué funciona, sobre la conciencia y sobre la naturaleza de la realidad no lo tiene y probablemente no lo pueda tener.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene también mencionar la otra cara, que casi nunca se dice: la meditación tiene efectos adversos documentados en una minoría de practicantes, sobre todo en prácticas intensivas y en personas con antecedentes de trauma o de psicosis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se han descrito episodios de despersonalización, de ansiedad aguda y de reactivación de recuerdos traumáticos. Las tradiciones contemplativas lo saben desde hace siglos y por eso trabajan con maestros. La divulgación moderna lo omite casi siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este libro lo omite por completo. No hay una sola advertencia en doscientas cincuenta páginas, y su público son millones de lectores sin ninguna supervisión, muchos de los cuales llegan a él precisamente porque están pasándolo mal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa es probablemente la crítica más justa que se le puede hacer: no la de que sus ideas sean falsas —muchas no son comprobables en ningún sentido—, sino la de que ofrece una herramienta potente sin ninguna indicación de uso.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad sobre este libro, empezando por lo principal: no propone dejar de planificar ni de recordar. Tolle distingue explícitamente el tiempo del reloj del tiempo psicológico y dice que el primero es imprescindible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: aceptar el presente no significa conformarse. Su fórmula es aceptar y después actuar, y menciona que la acción puede consistir en irse. El problema es de énfasis, no de doctrina: el libro dedica muchísimo más espacio a aceptar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: no es budismo, aunque lo parezca. Tolle toma material del vedanta advaita, del zen, del cristianismo místico y de Krishnamurti, y lo mezcla sin el aparato conceptual de ninguna de esas tradiciones. Los budistas suelen señalarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuarto: la práctica que propone no es original suya en absoluto. Está en textos indios de hace dos mil quinientos años, en la tradición zen y en la mística cristiana medieval, y él lo dice, aunque el marco narrativo del libro sugiera lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda, descontando la metafísica, el cuerpo del dolor y las afirmaciones sobre el universo, es un puñado de instrucciones prácticas que se pueden probar esta tarde y que no exigen aceptar ninguna cosmovisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una manera bastante razonable de leer este libro, que es la que recomiendan varios psicólogos que lo tratan con simpatía crítica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Consiste en tratarlo como un manual de instrucciones con una teología pegada encima, y quedarse con las instrucciones.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La grieta en la frase",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Las instrucciones son cuatro y caben en una tarjeta. La primera: cuando notes que estás dando vueltas a algo, di para tus adentros que está apareciendo tal pensamiento, en lugar de continuar dentro de él. Eso solo ya cambia la relación con lo que se piensa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda: cuando la cabeza se desboque, lleva la atención a una sensación física concreta —las manos, la respiración, los pies en el suelo— y sostenla ahí unos segundos. No para relajarse: para interrumpir el bucle.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tercera",
+          frase: "Ante algo que no soportas, elige una de tres: cámbialo, márchate o acéptalo del todo. Quedarse dentro protestando no es una opción, es el estado que más desgasta y el único que no resuelve nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la cuarta: separar el problema real del comentario sobre el problema. Casi siempre hay un hecho concreto —una factura, una conversación pendiente, un dolor— y encima una capa de narración sobre lo injusto que es. La capa se puede quitar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna de esas cuatro exige creer en la conciencia universal, en el cuerpo del dolor ni en que el pensamiento sea una fase evolutiva superable. Se pueden probar, comprobar si funcionan y descartarlas si no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el propio Tolle conviene decir un par de cosas, porque en este terreno el autor importa. No ha montado una organización jerárquica, no pide dinero por adelantado a discípulos y no ha aparecido en los escándalos habituales de este sector.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su negocio son libros, cursos en vídeo y conferencias, y es muy grande. Vive en Vancouver, da charlas y evita cuidadosamente el papel de gurú con comunidad cerrada. En un campo con un historial pésimo, esa distancia es un dato a su favor.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay que decir que su formación no es ni psicológica ni filosófica en sentido académico. No es psicólogo, no es terapeuta y no tiene ninguna titulación relacionada con la salud mental. El libro se lee a menudo como si la tuviera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa confusión no es del todo culpa suya: buena parte de la responsabilidad está en que el libro se coloca en las estanterías de psicología y se recomienda a gente con síntomas, cuando es un texto de espiritualidad y así se presenta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La recomendación honesta",
+          frase: "Si alguien está pasando por un episodio depresivo, un duelo o una crisis de ansiedad, este libro no es el sitio. Existe tratamiento con evidencia para esas tres cosas y este texto no lo sustituye ni lo pretende.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para quien esté razonablemente bien y quiera una herramienta de gestión del ruido mental, la parte práctica sirve y es de las mejor formuladas que hay. Y para eso probablemente baste con los tres o cuatro primeros capítulos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tuvo continuación en 2005 con otro título que vendió todavía más, gracias a la serie de sesiones con Oprah, y que desarrolla sobre todo el concepto de ego y las relaciones. Es más largo y no añade nada esencial a la práctica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su influencia cultural ha sido enorme y bastante invisible. El vocabulario de la atención plena que hoy se usa en empresas, en aplicaciones de móvil y en programas escolares viene, por vías distintas, de la misma corriente que popularizó este libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y ha producido también el efecto contrario que suele producir el éxito masivo: una industria de la calma vendida como producto, con suscripciones mensuales, y una cierta obligación social de estar sereno que es exactamente lo opuesto a lo que proponía.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance justo es este: un libro con una idea práctica valiosa y bien identificada, envuelta en un sistema de afirmaciones que no se pueden comprobar ni discutir, escrito por alguien sin formación clínica y leído por millones de personas que la necesitan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su virtud principal es que señaló una diana correcta. La rumiación es real, es medible y es uno de los mejores predictores de malestar psicológico que existen. Que millones de personas hayan aprendido a mirarla no es poca cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su defecto principal no es lo que afirma, sino lo que no dice: que hay sufrimiento que no viene de la mente, que hay circunstancias que hay que cambiar y no aceptar, y que hay estados en los que mirar hacia dentro sin ayuda puede empeorar las cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda la escena del principio, que es lo mejor que tiene el libro y lo que probablemente explica su éxito por encima de cualquier argumento. Un hombre de veintinueve años, de madrugada, pensando que no puede vivir consigo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y encontrando, en la propia frase que le estaba hundiendo, una grieta gramatical por la que se le coló una pregunta: si soy dos, ¿quién de los dos está sufriendo y quién se ha dado cuenta de que sufre?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pregunta es antigua, la han formulado varias tradiciones durante siglos y a él le llegó sin haberla leído en ninguna parte. Y funciona igual de bien sepa uno de dónde viene o no, que es probablemente por lo que sigue circulando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que se hace con la respuesta —montar una metafísica o quedarse con el ejercicio— ya es cosa de cada lector, y este libro empuja bastante hacia lo primero.",
+        },
+      ],
+    },
+  ],
+};
