@@ -9605,3 +9605,651 @@ export const SIETE_LECCIONES_FISICA: Resumen = {
     },
   ],
 };
+
+export const CUCHARA_MENGUANTE: Resumen = {
+  id: "cuchara-menguante",
+  titulo: "La cuchara menguante",
+  autor: "Sam Kean",
+  ano: 2010,
+  gancho:
+    "Una broma de laboratorio: dar el té a una visita con una cucharilla que se derrite al removerlo. El metal existe, se llama galio, y da título al libro que convirtió la tabla periódica en un anecdotario.",
+  porQue:
+    "Porque hay diez historias aquí que se recuerdan para siempre y ninguna se aprende en el colegio. Y porque conviene saber qué clase de libro es: no explica cómo funciona la tabla periódica, y su anécdota más famosa está contada en la versión bonita y no en la verdadera.",
+  partes: [
+    {
+      titulo: "Una cuchara que se derrite en el té",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Existe un metal que a temperatura ambiente es un sólido perfectamente respetable, gris, brillante y con aspecto de aluminio. Se funde a poco menos de treinta grados, es decir, por debajo de la temperatura del cuerpo humano. Si lo coges en la mano, se te derrite en la palma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llama galio, y con él se hace la broma más antigua de los laboratorios de química: fabricar una cucharilla, dársela a alguien para que remueva el té y esperar. La cuchara desaparece en el líquido en unos segundos, y de ahí sale el título de este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que no es venenoso ni pasa nada por tomarse ese té, aunque no sea recomendable. El galio es de los metales más inofensivos que hay, y hoy está en el móvil desde el que probablemente estés leyendo esto: es un componente esencial de los diodos y de los chips de radiofrecuencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor es Sam Kean, un divulgador estadounidense que estudió física y literatura, y que abre el libro con un recuerdo de infancia. De niño rompía termómetros de mercurio y se quedaba mirando las bolitas plateadas rodar por el suelo, juntándose y separándose sin mojar nada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su madre iba recogiéndolas y guardándolas en un frasco, y aquel frasco fue lo primero que le hizo pensar que los elementos son personajes con carácter. El mercurio no se comporta como ninguna otra cosa que un niño haya visto, y esa rareza es lo que le enganchó.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en 2010 y su propuesta es sencilla: recorrer la tabla periódica contando lo que ha pasado alrededor de cada elemento. Guerras, envenenamientos, fraudes, premios Nobel robados, fortunas y epidemias. Un anecdotario organizado por casillas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vendió muy bien y abrió una carrera: Kean ha escrito después libros con el mismo procedimiento sobre el ADN, sobre el cerebro, sobre el aire y sobre los crímenes de la ciencia. Todos funcionan igual y todos tienen las mismas virtudes y los mismos límites que este.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Funciona muy bien y hay que decir por qué: porque la tabla periódica es un objeto que casi todo el mundo ha visto colgado en una pared durante años sin que nadie le contara nunca una sola historia sobre él. Es un mapa del que nadie ha visitado ningún sitio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué hace bien",
+          frase: "Convierte una lista que da miedo en un vecindario con personajes. Después de leerlo, el antimonio, el talio y el galio ya no son símbolos: son tres tipos con antecedentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que decir ya lo que hace mal, porque es la advertencia principal de esta ficha: no explica la tabla periódica. Quien la abra esperando entender por fin por qué está ordenada así va a terminar el libro sabiendo muchas historias y sin haber entendido el objeto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No se explica por qué las filas tienen las longitudes que tienen, ni qué es un orbital, ni por qué los gases nobles no reaccionan con nada, ni qué cambia exactamente al bajar por una columna. Cuando lo intenta, recurre a metáforas de fiestas y de bailes que a veces despistan más que aclaran.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese hueco es una pena, porque la respuesta es de las cosas más bonitas que hay: las filas miden lo que miden porque los electrones se colocan en capas con un número fijo de plazas, y toda la tabla es el dibujo de esas plazas llenándose. En una página se explica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entonces situar el libro correctamente antes de recomendarlo, y este resumen lo hace de entrada: es un libro de historias sobre química, no un libro de química. Con esa etiqueta puesta, es excelente. Con la etiqueta equivocada, decepciona a todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tabla que ordena todo esto tiene además su propia historia y es la mejor parte del libro. Porque no la inventó un hombre en un sueño, aunque eso es lo que cuentan todos los manuales escolares, y desmontar esa versión es lo que hace el capítulo siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes conviene entender qué es lo que hay que ordenar. En 1869 se conocían unos sesenta y tres elementos, con pesos medidos con precisión desigual, propiedades dispares y ningún motivo evidente para que unos se parecieran a otros. Nadie sabía por qué el sodio y el potasio eran primos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no había ningún criterio evidente por el que ordenarlos. Se podían agrupar por color, por dureza, por si eran metales, por cómo reaccionaban con el agua o por su peso, y cada criterio daba un orden distinto. Elegir el peso atómico como eje fue una apuesta que podía no haber salido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y no había ninguna razón para pensar que hubiera un orden. Podían ser sesenta y tres cosas distintas y ya está, como sesenta y tres animales. Buscar una regla que los organizara a todos era una apuesta, y durante décadas los que lo intentaron quedaron en ridículo por hacerlo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La estructura del libro sigue esa historia y después se dispersa. Hay capítulos sobre elementos en la guerra, sobre venenos, sobre burbujas económicas, sobre la carrera por bautizar elementos nuevos y sobre las peleas entre laboratorios rivales. Cada uno se lee solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa forma tiene una ventaja y un defecto. La ventaja es que se puede abrir por cualquier página y da igual el orden. El defecto es que no hay ningún argumento que sostenga el conjunto, y por eso al terminarlo uno recuerda cinco historias sueltas y ninguna idea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un formato que la divulgación anglosajona lleva veinte años explotando y que vende mucho, precisamente porque no exige nada al lector. Se entra y se sale por donde uno quiera, no hay que retener nada de un capítulo para entender el siguiente, y siempre pasa algo cada tres páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Compáralo con «El emperador de todos los males», de Mukherjee, que anda por esta categoría. Ese libro también está lleno de historias, y todas están al servicio de una sola: la del cáncer y sus tratamientos a lo largo de dos mil años. Tiene espina dorsal, y por eso se recuerda entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El galio se funde a menos de treinta grados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La broma lleva un siglo haciéndose en los laboratorios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay ciento dieciocho casillas más con historias parecidas.",
+        },
+      ],
+    },
+    {
+      titulo: "El hombre que corrigió una medición sin ver el metal",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La versión que se enseña en los colegios es esta: Dmitri Mendeléyev llevaba días sin dormir intentando ordenar los elementos, se quedó dormido sobre la mesa y vio la tabla completa en un sueño. Se despertó y la escribió de un tirón. Es una historia preciosa y está contada a medias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él contó algo parecido a un amigo geólogo, y probablemente pasó. Lo que se omite es todo lo anterior: llevaba años obsesionado con el problema, había escrito los elementos en tarjetas con sus propiedades y sus pesos, y se pasaba las tardes moviéndolas por la mesa como quien hace un solitario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: si soñó algo, soñó con lo único que llevaba meses mirando. Contar el sueño sin las tarjetas convierte un trabajo enorme en un golpe de suerte, y produce en cualquier estudiante la impresión falsa de que las ideas buenas se le ocurren a la gente en la cama.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay una segunda parte de la historia que se omite todavía más: no fue el primero ni el único. Al menos cinco personas antes que él habían notado que las propiedades de los elementos se repiten periódicamente si se ordenan por peso, y algunos lo habían publicado.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso más doloroso es el del inglés John Newlands, que en 1865 propuso su ley de las octavas: que cada ocho elementos las propiedades se repiten, como las notas de una escala musical. Lo presentó en la Sociedad Química de Londres y le fue muy mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un colega le preguntó en público, con toda la sala escuchando, si había probado también a ordenarlos por orden alfabético. La sociedad se negó a publicar el trabajo. Veinte años después, cuando la tabla ya era indiscutible, le dieron a Newlands una medalla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hubo otro más, el alemán Lothar Meyer, que publicó en 1870 una tabla prácticamente equivalente y llegó a esas conclusiones por su cuenta. Durante años se les mencionó juntos, y hoy solo se recuerda a uno de los dos, que es lo que suele pasar cuando dos personas aciertan a la vez.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué ganó Mendeléyev",
+          frase: "No por ordenar mejor: por dejar huecos. Donde las propiedades no encajaban, en vez de forzar, puso una casilla vacía y dijo que allí faltaba un elemento que nadie había encontrado todavía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es lo que convierte una clasificación en una teoría, y es la parte que hay que entender de toda esta historia. Un catálogo describe lo que hay; una teoría dice lo que tiene que haber y se arriesga a que la desmientan. Mendeléyev se arriesgó tres veces y acertó las tres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no dejó los huecos vacíos sin más: describió los elementos que faltaban. Dijo qué peso atómico tendrían, qué densidad, con qué reaccionarían, qué aspecto tendrían sus óxidos. Publicó una ficha detallada de tres cosas que nadie había visto nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1875, un francés llamado Lecoq de Boisbaudran encontró un metal nuevo y lo llamó galio, el de la cuchara del título. Al publicar sus propiedades, dio una densidad de cuatro con siete. Y desde San Petersburgo le llegó una carta diciéndole que se había equivocado midiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mendeléyev, que no había visto aquel metal ni tenía un gramo de él, le decía que la densidad tenía que ser alrededor de cinco con nueve porque así lo exigía su tabla. Lecoq volvió al laboratorio, purificó mejor la muestra, repitió la medida y le salió cinco con nueve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al francés no le hizo ninguna gracia, y hay que entenderlo. Había pasado quince años buscando elementos nuevos por métodos espectroscópicos y le corregía por carta un señor que nunca había pisado su laboratorio. Acabó reconociéndolo por escrito, que es lo que hace un científico decente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es probablemente la anécdota más impresionante de la historia de la química y es completamente cierta. Un hombre a dos mil kilómetros corrigiendo la medición de un metal que nunca había tocado, apoyado únicamente en una regularidad que había encontrado moviendo tarjetas por una mesa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Cuatro años después apareció el escandio, y en 1886 el germanio, los otros dos huecos que había descrito. Cuando el químico alemán que encontró el germanio publicó sus propiedades, la coincidencia con la predicción de quince años antes era casi punto por punto.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora la parte que ningún manual escolar cuenta y que Kean sí cuenta, y hay que agradecérselo: Mendeléyev también se equivocó, y bastante. Predijo elementos que no existen, entre ellos dos más ligeros que el hidrógeno que iban a explicar el éter, y estuvo años defendiéndolos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando aparecieron los gases nobles a finales de los noventa, se negó a aceptarlos: le rompían la tabla, porque no reaccionaban con nada y no encajaban en ninguna columna. Tardó años en admitirlos, y la solución fue añadir una columna entera que él no había previsto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio enseña algo útil sobre cómo se comportan los científicos con sus propias teorías: el que había hecho su carrera dejando huecos para lo desconocido fue incapaz de aceptar un descubrimiento que no cabía en ninguno de sus huecos. Nadie está a salvo de defender su edificio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y rechazó hasta el final dos de los grandes hallazgos de su época: que el átomo tuviera partes y que la radiactividad fuera la transformación de un elemento en otro. Murió en 1907 sosteniendo que los elementos eran indivisibles y que aquello tenía que ser un error de medida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No le dieron el Nobel. Estuvo a punto en 1906 y lo perdió por un voto en la votación del comité, y murió al año siguiente. Es de los casos más citados de premio no concedido, y una de las razones que se manejan es que un miembro del comité tenía cuentas pendientes con él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le queda el consuelo póstumo que se le da a muy poca gente: hay un elemento con su nombre, el número ciento uno, sintetizado en Berkeley en 1955. Lo bautizaron así precisamente los estadounidenses en plena guerra fría, como gesto hacia la química rusa, y aquello tuvo su ruido político.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Soñó, probablemente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de años moviendo tarjetas por una mesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que le dio la razón no fue el sueño, fueron los tres huecos.",
+        },
+      ],
+    },
+    {
+      titulo: "El oro que sirvió para tapar baches",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Kalgoorlie, Australia occidental, 1893. Se descubre oro en el desierto y se monta una fiebre clásica: miles de hombres cavando, una ciudad que aparece de la nada y un mineral amarillento que sale por todas partes y que los mineros descartan porque no es oro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel mineral se apilaba en montones y estorbaba. Como había toneladas y hacía falta material, se usó para lo que se usa la piedra sin valor: rellenar los baches de las calles, hacer los caminos y levantar los muros de algunas casas y de la acera del pueblo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres años después, alguien lo analizó bien. Era calaverita: un compuesto de oro y teluro en el que el oro está químicamente atrapado y no se ve, por eso no brillaba. La ciudad llevaba tres años pavimentando las calles con una fortuna en oro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle químico importa y explica el error: el oro es famoso por no combinarse casi con nada, y de ahí que se encuentre en pepitas puras y brillantes. El teluro es de las poquísimas excepciones. Los mineros descartaron aquella piedra porque sabían química, no porque no supieran.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que pasó aquella noche es una de las mejores escenas del libro. Cuando corrió la voz, la gente salió a la calle con picos y palas y empezó a levantar el pavimento de su propio pueblo, a desmontar los muros y a arrancar las aceras. En cuestión de horas no quedaba una calle entera.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa historia funciona como resumen del método del libro: coger un elemento del que nadie ha oído hablar, el teluro, y colgarle una escena que no se olvida. Después de leerla, el teluro deja de ser una casilla y pasa a ser el elemento que escondió el oro a la vista de todos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El truco del libro",
+          frase: "Un elemento no se recuerda por sus propiedades: se recuerda por lo que le pasó a alguien por su culpa. Kean lo entendió y construyó ciento dieciocho anzuelos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda gran historia va del aluminio, y cuesta creerla. A mediados del siglo diecinueve el aluminio era el metal más caro del mundo: costaba más que el oro, porque aunque es el metal más abundante de la corteza terrestre, separarlo de la roca era carísimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Napoleón III tenía una vajilla de aluminio y la sacaba solo para los invitados importantes. Los demás comían con cubiertos de oro, que era lo corriente. Ser el que come con aluminio en aquella mesa era la señal máxima de estar en el círculo de confianza del emperador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se exhibieron barras de aluminio en la Exposición Universal de París de 1855 junto a las joyas de la corona, y se vendían como metal precioso. Cuesta imaginar hoy una lata de refresco en una vitrina blindada, y sin embargo es exactamente lo que estaba pasando hace ciento setenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1884, cuando terminaron el obelisco del monumento a Washington, le pusieron en la punta una pirámide de aluminio de casi tres kilos, que era la pieza de aluminio más grande jamás fundida y valía por entonces aproximadamente lo mismo que su peso en plata.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos años después, en 1886, un joven estadounidense y un joven francés dieron a la vez, por separado y con veintidós años los dos, con un método electrolítico para separarlo barato. En unos años el precio se hundió, y el metal de los emperadores acabó envolviendo bocadillos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa historia tiene una moraleja económica que Kean no subraya y que merece la pena: el valor de un material casi nunca depende de lo raro que sea, sino de lo caro que resulte obtenerlo. El aluminio nunca fue escaso; era difícil, que es otra cosa completamente distinta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene un corolario incómodo para el presente: cualquier material que hoy parezca carísimo puede dejar de serlo de un año para otro si alguien da con un proceso mejor, y cualquier fortuna basada en controlar la producción de algo es más frágil de lo que parece desde dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera historia es la más divertida y la más asquerosa. Cuando Lewis y Clark cruzaron Norteamérica en 1804, llevaban en el botiquín unas píldoras laxantes muy populares fabricadas por un médico de Filadelfia, hechas con cloruro de mercurio y conocidas como los truenos de Rush.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquellos hombres las tomaron a puñados durante dos años. Y el resultado es que hoy los arqueólogos pueden localizar los campamentos exactos de la expedición midiendo el mercurio del suelo en las letrinas, doscientos años después. El itinerario está marcado con un metal pesado.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay más en el mismo tono: el antimonio y sus píldoras eternas, que atravesaban el cuerpo, se recuperaban, se lavaban y se volvían a usar, pasando de padres a hijos como una herencia. Ese detalle es real y da una idea muy exacta de lo que era la medicina hasta hace nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El antimonio aparece además en una de las hipótesis sobre la muerte de Mozart, que en sus últimos meses tomó preparados que lo contenían. Conviene decir que es solo una de varias hipótesis y que no hay manera de comprobarla, cosa que los relatos populares se saltan alegremente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y está la guerra por los nombres, que ocupa varios capítulos y es puro nacionalismo científico. Entre los años sesenta y noventa, los laboratorios de Estados Unidos, la Unión Soviética y Alemania se pelearon durante décadas por quién había descubierto primero los elementos pesados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada bando publicaba resultados que el otro no conseguía repetir, y cada bando bautizaba los elementos con nombres distintos, así que durante años una misma casilla tenía dos nombres según el país donde se imprimiera la tabla. La disputa no se cerró oficialmente hasta 1997.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hay debajo de aquella pelea es un problema técnico real y no solo orgullo nacional: esos elementos duran fracciones de segundo y se fabrican en cantidades de unos pocos átomos, así que demostrar que has hecho uno es muchísimo más difícil que anunciarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un pueblo entero levantando su propio pavimento de noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un emperador presumiendo de cubiertos de aluminio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una expedición cuyo rastro sigue en el suelo por las letrinas.",
+        },
+      ],
+    },
+    {
+      titulo: "Las chicas que se pintaban los dientes",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Nueva Jersey, años veinte. En una fábrica trabajan cientos de mujeres jóvenes pintando a mano las esferas de los relojes con una pintura luminosa que contiene radio. Es un buen trabajo, mejor pagado que la fábrica textil, y las chicas están orgullosas de tenerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para hacer las cifras finas hay que afinar la punta del pincel, y el método que les enseñan en la empresa es llevárselo a los labios y darle forma con la lengua. Lo hacen cientos de veces al día, durante años, y nadie les dice que haya el menor problema en ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al contrario: la pintura brilla en la oscuridad y ellas juegan con eso. Se pintan las uñas, los dientes y los botones del vestido para salir de noche, y se las conocía en la ciudad por eso. Se les llamaba las chicas fantasma porque se las veía llegar antes de reconocerlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que situarlo en su época para no juzgarlas: el radio era entonces lo más moderno que existía y se vendía como un tónico. Había agua con radio, cremas con radio, pasta de dientes y hasta supositorios, anunciados en los periódicos como fuente de energía y de juventud.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El radio se comporta químicamente de forma parecida al calcio, así que el cuerpo lo trata como si lo fuera y lo deposita en los huesos. Una vez allí, sigue emitiendo radiación durante el resto de la vida, desde dentro, a centímetros de la médula ósea.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primeros síntomas aparecieron en la mandíbula. A las trabajadoras se les caían los dientes, las heridas de las encías no cicatrizaban y el hueso se les deshacía; hubo casos en que la mandíbula se desprendía en pedazos al tocarla. Los médicos de empresa dijeron que era sífilis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa acusación no era casual. Atribuirlo a una enfermedad venérea desacreditaba a las enfermas, avergonzaba a sus familias y hacía imposible cualquier demanda. La empresa sostuvo durante años que la pintura era inofensiva mientras sus propios químicos trabajaban con delantales de plomo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese contraste es el dato que decide el caso moralmente y no hace falta añadir nada más. La empresa no ignoraba el riesgo: lo conocía lo bastante como para protegerse de él en el laboratorio, y a la vez enseñaba a sus trabajadoras a llevarse el pincel a la boca para afinar la punta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El caso que cambió la ley",
+          frase: "Cinco mujeres moribundas demandaron a su empresa en 1927. Ninguna vivió mucho después del acuerdo, y de aquel pleito salió la idea de que un empresario responde por las enfermedades que causa su trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que se recuerda de aquel juicio es que varias de ellas ya no podían levantar el brazo para jurar sobre la Biblia, y que una tuvo que declarar desde la cama. Los periódicos las llamaron las chicas del radio y el caso se convirtió en un asunto nacional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un epílogo que sobrecoge. Los cuerpos de aquellas mujeres siguen siendo radiactivos. Sus restos se han medido décadas después y siguen emitiendo, porque el radio que se les fijó en el hueso tiene un periodo de semidesintegración de más de mil quinientos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un dato que Kean no subraya y que conviene añadir: aquellas mujeres se convirtieron sin quererlo en una cohorte de estudio, y los datos de su exposición sirvieron para establecer los límites de seguridad de radiación que se usaron después en la industria nuclear.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un consuelo amargo y es de los pocos que tiene la historia. Los trabajadores del proyecto atómico de los años cuarenta y los de las centrales nucleares posteriores estuvieron mejor protegidos gracias a lo que se aprendió midiendo los huesos de unas chicas que pintaban relojes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tiene un capítulo entero de venenos y ahí destaca el talio, al que llaman el veneno de los envenenadores. No tiene sabor ni olor, se disuelve en cualquier bebida, y sus síntomas —dolor de estómago, hormigueo, caída del pelo— parecen otras diez cosas antes de parecer un envenenamiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso que cuenta es el de un joven inglés que en los años setenta envenenó sistemáticamente a sus compañeros de una fábrica de instrumentos ópticos poniéndoles talio en el té, durante meses, tomando notas de la evolución de cada uno en un cuaderno como si fuera un experimento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo peor del caso es que ya había hecho lo mismo de adolescente con su familia, había estado internado nueve años y lo habían dado de alta como recuperado. Salió, encontró trabajo y volvió a empezar, y el episodio provocó un cambio en la legislación británica sobre altas psiquiátricas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo detuvieron por su propio empeño en explicar la enfermedad: en las conversaciones sobre el misterio de la fábrica sabía demasiado, y cuando un médico mencionó un posible diagnóstico, él lo corrigió con una precisión que solo tenía sentido si sabía lo que había en las tazas.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y está el hombre que probablemente más daño ha hecho a la atmósfera de la Tierra, y que no era un villano sino un ingeniero eficaz. Thomas Midgley resolvió en 1921 el problema del picado de los motores añadiendo plomo a la gasolina, y lo resolvió bien: funcionaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Siete años después le encargaron un gas refrigerante que no fuera tóxico ni inflamable, porque los que había mataban gente en las cocinas. Inventó los clorofluorocarbonos, que eran perfectos para eso, y que cuarenta años después resultaron estar deshaciendo la capa de ozono.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos invenciones eran buenas soluciones a problemas reales, y las dos resultaron catastróficas a una escala que nadie podía calcular entonces. Es la mejor historia del libro sobre lo que significa de verdad el progreso técnico, y Kean la cuenta sin moraleja, que es lo correcto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Midgley murió además de una manera que parece inventada. La polio lo dejó postrado a los cincuenta y tantos y diseñó un sistema de cuerdas y poleas para levantarse solo de la cama. En 1944 apareció muerto enredado en él. Un ingeniero al que sus propios inventos acabaron alcanzando tres veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se pintaban los dientes para salir de noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie les había dicho que aquello se les quedaba en el hueso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y los huesos siguen brillando en el contador cien años después.",
+        },
+      ],
+    },
+    {
+      titulo: "El hueco número cuarenta y tres",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "De todos los huecos que dejó Mendeléyev, hubo uno que se resistió durante sesenta y seis años. La casilla número cuarenta y tres, justo debajo del manganeso. La tabla decía con toda claridad que allí tenía que haber un metal, y nadie conseguía encontrarlo en ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no fue por falta de intentos. Hubo al menos media docena de anuncios de haberlo descubierto, con nombre incluido, entre 1877 y 1925. Todos resultaron ser errores de análisis o mezclas de otros metales, y cada uno de aquellos anuncios arruinó una carrera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un caso especialmente injusto: un equipo alemán anunció en 1925 haberlo encontrado y lo llamó masurio. No consiguieron que nadie repitiera el resultado y quedaron desacreditados. Hay quien sostiene desde hace décadas que en realidad lo habían visto, y sigue sin resolverse del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso más triste es el de un químico japonés que en 1908 creyó haberlo aislado y lo llamó nipponio, en honor a su país. No era el cuarenta y tres. Décadas después se comprobó que sí había encontrado un elemento nuevo, pero era el setenta y cinco, y para entonces ya lo habían bautizado otros.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La razón de tanto fracaso resultó ser mucho más rara de lo que nadie esperaba. Aquel elemento no aparecía porque, sencillamente, no está: no tiene ningún isótopo estable, se desintegra, y prácticamente todo el que hubo cuando se formó la Tierra hace tiempo que se convirtió en otra cosa.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1937, dos científicos italianos lo obtuvieron por fin, y no en una mina: en un laboratorio. Bombardearon molibdeno con partículas en el ciclotrón de Berkeley, en California, y en el material resultante identificaron el elemento que faltaba. Lo llamaron tecnecio, del griego artificial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle logístico tiene su encanto: la muestra viajó de California a Sicilia por correo, en un trozo de lámina metálica que un colega de Berkeley les envió porque se lo habían pedido. El primer elemento artificial de la historia se identificó a partir de un envío postal.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que significa ese hueco",
+          frase: "La tabla no describía lo que hay en el mundo: describía lo que puede haber. Predijo un elemento que la naturaleza había perdido, y hubo que fabricarlo para verlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el mejor argumento posible sobre qué es una buena teoría y merece quedarse por encima de todas las anécdotas del libro. Una clasificación buena no solo ordena lo que tienes delante: te dice dónde mirar, y a veces te dice que mires en un sitio donde no hay nada y que lo hagas tú.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene un epílogo práctico que casi nadie conoce. Ese elemento artificial, que no existe en la naturaleza, es hoy el más usado del mundo en medicina nuclear: uno de sus isótopos se emplea en decenas de millones de pruebas de imagen al año, para ver huesos, corazones y tiroides.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un elemento que la Tierra había perdido, que sesenta años de química no lograron encontrar y que hubo que fabricar en un acelerador, acabó siendo lo que te inyectan en un hospital para mirarte por dentro. Es la mejor historia de la tabla periódica y ocupa dos páginas del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sirve además porque su isótopo útil dura poco: en unas horas la mitad se ha desintegrado, así que emite lo justo para verse en la cámara y desaparece del cuerpo enseguida. Lo que lo hacía imposible de encontrar en la naturaleza es exactamente lo que lo hace bueno en un hospital.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con eso encima de la mesa se puede hacer el balance. Este libro tiene entre veinte y treinta historias de esa calidad, y hay que reconocer que encontrarlas y contarlas bien es un trabajo considerable de lectura y de archivo que el autor hizo y que se agradece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene tres defectos que conviene tener presentes. El primero ya está dicho: no enseña química. El segundo es que no hay argumento, así que se olvida en bloque. Y el tercero es que a veces elige la versión más lucida de una historia sin avisar de que hay otra más aburrida y más exacta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sueño de Mendeléyev es el caso claro, y por eso esta ficha ha dedicado un capítulo entero a corregirlo. Kean lo cuenta y menciona el trabajo previo, pero el peso de la escena se lleva al lector por delante, y de ahí sale otra generación repitiendo lo del sueño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un problema general de la divulgación por anécdotas y no solo de este libro: la versión buena de una historia siempre se recuerda mejor que la versión exacta, y quien escribe para entretener tiene un incentivo permanente para quedarse con la primera. Kean cede a veces y no siempre.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Merece la pena ponerlo al lado de «El pulgar del panda», de Gould, que también está en esta categoría y también es un libro de ensayos sueltos sobre historia natural. La diferencia es que Gould usa cada anécdota para defender una tesis, y por eso su libro se puede discutir y este no.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un libro que no se puede discutir es un libro que no enseña a pensar, aunque enseñe cosas. Es la diferencia entre un buen conversador y un buen profesor, y las dos figuras son valiosas siempre que uno sepa con cuál está hablando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La recomendación práctica, entonces, es doble. Léelo como lo que es: un libro para tener en la mesilla y abrir por cualquier página, del que van a quedar cinco historias que contarás en cenas durante años. Para eso es de los mejores que hay.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si de verdad quieres entender por qué la tabla tiene esa forma, busca a continuación cualquier manual serio de química general y lee el capítulo de configuración electrónica. Son treinta páginas áridas y explican en una tarde lo que este libro no explica en trescientas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hazlo en ese orden y no al revés, que es el mejor consejo de esta ficha. Treinta páginas áridas después de haber conocido a los personajes se leen con interés; leídas antes, sin ninguna historia colgada de ellas, es exactamente lo que hizo que odiaras la química en el instituto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La casilla cuarenta y tres estuvo vacía sesenta y seis años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No porque nadie mirase, sino porque no había nada que encontrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hoy es lo que te inyectan para verte los huesos.",
+        },
+      ],
+    },
+  ],
+};
