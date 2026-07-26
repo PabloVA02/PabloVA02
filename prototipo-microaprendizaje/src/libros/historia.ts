@@ -4502,3 +4502,654 @@ export const TATUADOR: Resumen = {
     },
   ],
 };
+
+export const HISTORIA_ESPANA: Resumen = {
+  id: "historia-espana",
+  titulo: "Una historia de España",
+  autor: "Arturo Pérez-Reverte",
+  ano: 2019,
+  gancho: "Tres mil años de historia contados por un exreportero de guerra con muy mala leche, en columnas de página y media, sin una sola nota a pie.",
+  porQue:
+    "Porque es el libro de historia más vendido de España en la última década y no es un libro de historia. Saber exactamente qué es y qué no cambia por completo lo que uno se lleva de él.",
+  partes: [
+    {
+      titulo: "El columnista que se hartó",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un domingo de 2013, en el suplemento dominical de un periódico, aparece una columna que empieza a contar la historia de España desde el principio. Desde los homínidos de Atapuerca. Y con un tono que en un libro de historia no se había leído nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El que la firma es Arturo Pérez-Reverte, nacido en Cartagena en 1951, novelista de mucho éxito, miembro de la Real Academia Española desde 2003 y, antes que todo eso, reportero de guerra durante veintiún años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato explica el libro entero. Cubrió Chipre, el Líbano, Eritrea, el Sáhara, El Salvador, Nicaragua, Angola, Mozambique, la guerra del Golfo y los Balcanes. Vio de cerca cómo se descomponen los países, y escribe la historia de España como quien reconoce un paisaje.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo primero que hay que saber",
+          frase: "El título dice «Una» historia de España, no «La» historia. Es deliberado y él lo repite en el prólogo: es una versión personal, parcial y con mala uva, escrita por un novelista. Quien lo lea como manual se estará equivocando de libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las columnas se publicaron semanalmente durante tres años y se recogieron en un volumen en 2019. Son ochenta y ocho capítulos cortos, de dos o tres páginas cada uno, que van de la prehistoria a la Transición sin detenerse en ningún sitio más de lo necesario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El registro es lo primero que sorprende. Habla de la peña, del personal, de la chusma, de los golfos, de los mangantes. Llama a los reyes por lo que le parece que fueron. Y suelta tacos con una naturalidad que en un libro con la palabra historia en la portada resulta chocante.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa decisión de estilo es lo que lo hizo vender cientos de miles de ejemplares. Mucha gente que no había leído un libro de historia en su vida lo leyó entero, y ese efecto no es pequeño ni conviene despreciarlo por cómo está escrito.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su punto de partida es una idea que va a repetir de principio a fin, y conviene tenerla clara desde ya porque es a la vez el motor del libro y su problema: que a los españoles nos pierde la envidia, la soberbia y la incapacidad de ponernos de acuerdo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo formula muchas veces con la misma imagen: aquí siempre hay dos bandos, y cada uno prefiere que el país entero se hunda antes que ver ganar al otro. Lo llama, tomando el término del hermano de Abel, cainismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una tesis potente, muy fácil de reconocer y con episodios de sobra para ilustrarla. Y es, como veremos al final, exactamente el tipo de explicación que la historiografía profesional abandonó hace ochenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no tiene bibliografía. No tiene notas. No cita una sola fuente. No distingue entre lo documentado y lo que es leyenda. Y eso es una elección consciente del autor, que insiste en que está haciendo periodismo y no investigación.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sí tiene",
+          frase: "Un relato continuo de tres mil años que se lee del tirón y en el que las cosas se encadenan. Casi nadie que salga del instituto en España tiene esa película montada en la cabeza, y tenerla, aunque sea sesgada, vale más que no tener ninguna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El arranque, en Atapuerca, ya da la medida del tono. Describe a los primeros pobladores peleándose por una cueva y sugiere que ahí empezó ya lo de siempre. Es una broma, y también es el resumen de todo lo que va a venir después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vienen los fenicios fundando Cádiz alrededor del año mil cien antes de Cristo, lo que la convierte en la ciudad habitada más antigua de Europa occidental, y los griegos plantando colonias en la costa mediterránea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y Tartessos, el reino del suroeste que aparece en fuentes griegas y bíblicas, riquísimo en plata y en cobre, del que no se ha encontrado la capital y que sigue siendo el gran enigma arqueológico de la península.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El esquema que se repite desde el principio es siempre el mismo: llega gente de fuera con mejor organización, se instala, comercia, y los de aquí unas veces se adaptan y otras se matan entre ellos por decidir cómo recibirlos.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Luego llegan los cartagineses, y con ellos la primera guerra grande. En el 219 antes de Cristo, Aníbal pone sitio a Sagunto, ciudad aliada de Roma, y la toma después de ocho meses. Eso desencadena la segunda guerra púnica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y así es como los romanos desembarcan en la península: no vienen a conquistarla, vienen a cortarle a Cartago el suministro. Se quedan doscientos años peleando y seiscientos gobernando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una de las mejores observaciones del libro y no se subraya: casi todas las grandes decisiones sobre este territorio se han tomado, durante siglos, en función de guerras que se libraban en otra parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conquista romana tarda dos siglos y le cuesta a Roma más que casi ningún otro sitio, porque aquí no hay un ejército al que derrotar: hay decenas de pueblos, cada uno por su cuenta, que no se rinden a la vez porque no están juntos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De esa resistencia salen los dos episodios que la escuela española lleva doscientos años enseñando como acta fundacional del carácter nacional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Uno es un pastor lusitano que le ganó siete batallas a Roma y al que mataron sus propios hombres por dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro es una ciudad de la meseta que prefirió quemarse entera antes que abrir las puertas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos terminan en derrota, y eso a Pérez-Reverte le parece lo más revelador de todo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Numancia y el vicio de perder bien",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Año 133 antes de Cristo. Escipión Emiliano, el hombre que había arrasado Cartago, pone cerco a Numancia con más de sesenta mil soldados. Dentro hay unos cuatro mil arévacos. Levanta un muro de nueve kilómetros alrededor y se sienta a esperar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No ataca. Espera trece meses. Cuando entra, según las fuentes romanas, encuentra la ciudad incendiada y a la mayoría de los habitantes muertos por su propia mano. Los supervivientes se vendieron como esclavos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La observación incómoda",
+          frase: "Numancia perdió. Viriato perdió. Sagunto perdió. Y son los tres episodios de la Antigüedad que todo español conoce. La cultura del país eligió, para fundarse, tres derrotas heroicas en lugar de una victoria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea recorre el libro entero: aquí se admira más al que resiste hasta morir que al que gana organizándose. Lo dice sin nostalgia, más bien con fastidio, porque su lectura es que ese gusto por la ruina noble ha salido carísimo muchas veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Viriato es el otro caso. Pastor lusitano, jefe de guerrilla, derrotó a varios ejércitos consulares entre el 147 y el 139 antes de Cristo. Roma no pudo con él en el campo, así que compró a tres de sus lugartenientes y lo mataron durmiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que se cuenta después —que Roma no paga a traidores— es casi con seguridad un adorno posterior, y es de las que Pérez-Reverte cuenta sin advertir de que es leyenda. El libro hace eso bastantes veces.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Con Roma llegan las cosas que sí duraron: la lengua de la que salió el castellano, el derecho, las ciudades, las calzadas, los acueductos. Y tres emperadores nacidos aquí —Trajano, Adriano y Teodosio—, más Séneca, Marcial y Quintiliano.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se detiene poco en esos seis siglos, que fueron con diferencia el periodo más próspero y más pacífico de la historia peninsular, y pasa deprisa a lo que le interesa, que es siempre el conflicto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un sesgo de selección que conviene tener presente: en un relato hecho de columnas semanales, gana siempre el episodio con sangre. Trescientos años de administración que funciona no dan para una columna con gracia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vienen los visigodos, que llegan en el siglo quinto, son una minoría gobernando sobre una población hispanorromana mucho mayor, y montan una monarquía electiva que se convierte en una máquina de conspirar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El dato que lo resume: de los treinta y tantos reyes visigodos, una parte considerable murió asesinada o depuesta por los suyos. Los propios cronistas de la época lo llamaron el vicio godo, y a Pérez-Reverte le viene de perlas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El año 711",
+          frase: "Un ejército de unos pocos miles de hombres desembarca en el sur y en tres años controla casi toda la península. No fue una conquista contra un país unido: fue la caída de un reino que ya estaba en guerra civil, con una facción llamando a los invasores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es su lectura del 711 y es, en lo esencial, la que sostiene también la historiografía actual. Al-Ándalus no se impone sobre una España resistente; se instala sobre un estado que se había roto solo unos años antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que viene después son casi ochocientos años que el relato tradicional llama Reconquista, un término que los historiadores discuten porque sugiere una empresa continua y con un plan, y lo que hubo fue un mosaico cambiante de reinos peleándose y aliándose.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo reyes cristianos aliados con taifas musulmanas contra otros reyes cristianos, y al revés, durante siglos. El Cid, que es el héroe nacional por excelencia, trabajó para el rey musulmán de Zaragoza cuando lo desterró el suyo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y Covadonga, en el 722, que la escuela cuenta como el arranque glorioso de la Reconquista, fue en realidad una escaramuza pequeña en un valle asturiano, agrandada por crónicas escritas siglo y medio después para dar legitimidad a un reino que ya existía.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro cuenta bien el esplendor de Córdoba en el siglo décimo, cuando era probablemente la ciudad más grande y más culta de Europa occidental, con una biblioteca de decenas de miles de volúmenes mientras en el norte casi nadie sabía leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuenta también, sin adornarlo, que aquello no fue una convivencia idílica entre tres culturas: hubo periodos de tolerancia práctica y periodos de persecución dura, según quién mandara y qué necesitara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El proceso se cierra en enero de 1492, cuando Boabdil entrega Granada a Isabel y Fernando después de diez años de campaña. Ese mismo año pasan otras dos cosas que van a marcar los siglos siguientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En marzo se firma el decreto que da a los judíos españoles cuatro meses para convertirse o marcharse. Se van decenas de miles de personas, muchas de ellas comerciantes, médicos y prestamistas, es decir, buena parte de la clase que hacía funcionar la economía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en octubre, tres barcos que habían salido de Palos con una idea equivocada sobre el tamaño de la Tierra llegan a una isla del Caribe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Colón murió creyendo que había llegado a Asia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y España se convirtió, en menos de treinta años, en el imperio más grande que había visto el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sin tener la menor idea de cómo se administra un imperio.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El imperio que no sabía contar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Entre 1519 y 1521, un extremeño con unos quinientos hombres derriba el imperio azteca. Diez años después, otro extremeño con menos de doscientos hace lo mismo con el inca. Las dos cosas ocurrieron y siguen siendo difíciles de explicar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro da los factores que la historiografía maneja: caballos y acero, sí, pero sobre todo alianzas con pueblos sometidos que odiaban a los aztecas, guerras civiles internas en el caso inca, y por encima de todo la viruela, que mató a una parte enorme de la población antes de las batallas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que más mató",
+          frase: "No fueron las espadas. Fueron la viruela, el sarampión y el tifus, contra los que la población americana no tenía ninguna defensa. Las estimaciones hablan de una caída demográfica de entre el setenta y el noventa por ciento en el primer siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pérez-Reverte pelea a lo largo del libro contra dos relatos a la vez, y esa es una de sus mejores decisiones. Contra la leyenda negra que presenta a España como un caso único de crueldad, y contra la leyenda rosa que presenta la conquista como una obra civilizadora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento contra la primera: ingleses, holandeses, franceses y portugueses hicieron cosas iguales o peores, y nadie escribió sobre ellos con la misma insistencia. Su argumento contra la segunda: hubo esclavitud, saqueo y exterminio, y decir lo contrario es mentir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade un dato que suele faltar en las dos versiones: los primeros y más duros críticos de lo que se estaba haciendo en América fueron españoles. Bartolomé de las Casas escribió el catálogo de los abusos, y sus textos son precisamente la fuente de la leyenda negra.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Un imperio que produce, desde dentro y por escrito, la denuncia más feroz de sus propios crímenes, y que además la publica, no encaja en ninguno de los dos relatos. Es la parte del libro donde el autor está más fino.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siglo dieciséis español es una acumulación de cosas enormes. Carlos V hereda por matrimonios media Europa. Los tercios son la mejor infantería del continente durante siglo y medio. En 1571, en Lepanto, se frena a la flota otomana en el Mediterráneo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En aquella batalla, un soldado de veinticuatro años recibe tres arcabuzazos, dos en el pecho y uno que le deja la mano izquierda inútil de por vida. Se llamaba Miguel de Cervantes y decía que era lo más honroso que le había pasado nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a la vez, en el mismo siglo, la Corona se declara en bancarrota cuatro veces: en 1557, 1560, 1575 y 1596. Cuatro suspensiones de pagos en cuarenta años, con las minas de plata de América funcionando a pleno rendimiento.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta del capítulo",
+          frase: "¿Cómo se arruina un imperio que recibe la mayor cantidad de plata de la historia? Porque la plata no se quedó: pasó por España camino de Génova y Amberes, a pagar deudas y ejércitos. Aquí se cobraba, y se gastaba antes de llegar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El efecto secundario fue una inflación enorme, que encareció todo lo que se producía dentro y volvió más barato comprarlo fuera. La consecuencia a cien años vista fue que España tenía imperio y no tenía industria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso se sumó una estructura mental que el libro machaca sin piedad: el desprecio por el trabajo manual y por el comercio, que se consideraban propios de gente de baja condición, mientras el ideal social era vivir de rentas y no dar un palo al agua.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En los mismos años en que aquí se perseguía a quien tuviera antepasados conversos, en Holanda e Inglaterra se montaban bancos, compañías comerciales y flotas mercantes con dinero privado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese contraste es la mejor explicación estructural que ofrece el libro, y curiosamente es la que menos se apoya en el carácter nacional y más en cosas concretas: fiscalidad, guerras permanentes, expulsión de las minorías productivas y prestigio social del ocio.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro episodio al que dedica atención es el de los comuneros de Castilla, que en 1520 se levantaron contra un rey extranjero que había llegado sin hablar castellano y estaba vaciando el reino para pagar su elección como emperador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los derrotaron en Villalar en abril de 1521 y decapitaron a sus tres cabecillas al día siguiente. Es uno de los momentos donde el libro se pone abiertamente de un lado, porque ahí ve la última oportunidad de que Castilla tuviera un parlamento con dientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siglo diecisiete es la caída, y es también el Siglo de Oro. Cervantes, Quevedo, Góngora, Lope, Calderón, Velázquez, Zurbarán, Murillo. La literatura y la pintura más grandes de la historia del país coinciden exactamente con su ruina económica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pérez-Reverte lo resume con una frase que repite: nos hundimos escribiendo maravillosamente sobre cómo nos hundíamos. El Quijote sale en 1605, entre dos bancarrotas y una epidemia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1643, en Rocroi, la infantería francesa rompe por fin a los tercios. La leyenda de la invencibilidad se acaba ahí, y con ella el papel de España como primera potencia europea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1700 muere sin descendencia el último Habsburgo español, un hombre enfermo desde niño por generaciones de matrimonios entre parientes, y media Europa se pone a pelear por el trono vacío.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La guerra dura catorce años, se libra sobre todo dentro de la península y termina con una dinastía francesa en el trono.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siglo dieciocho es el más tranquilo y el más reformista de la historia moderna española, y es el que menos gente conoce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Duró hasta que un ejército extranjero entró por los Pirineos con la excusa de ir a Portugal.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Dos españas y un garrote",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Madrid, 2 de mayo de 1808. Delante del Palacio Real, un grupo de vecinos intenta impedir que se lleven a los últimos infantes de la familia real. Alguien grita que se los llevan. En horas, la ciudad entera está peleando contra el ejército más poderoso del mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa noche y al día siguiente hay fusilamientos masivos en la montaña del Príncipe Pío. Seis años después, Goya pintará esa escena de una manera que no se había pintado nunca una ejecución: sin heroísmo, con un hombre de camisa blanca y los brazos abiertos gritando.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que empieza ahí",
+          frase: "Seis años de guerra que arrasaron el país, hundieron su economía y su administración, y convirtieron la guerrilla en una forma de política. De esa guerra sale la España del siglo diecinueve entera: militares metidos en política y un país sin dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y mientras se peleaba, en una ciudad sitiada y rodeada por mar, ocurrió lo más interesante que había pasado aquí en siglos. En Cádiz, en marzo de 1812, se aprobó una Constitución que empezaba diciendo que la soberanía reside en la nación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Era una de las primeras constituciones liberales del mundo, la escribieron diputados de la península y de América, y proclamaba libertad de imprenta, división de poderes y el fin de los señoríos. Se la conoció popularmente como la Pepa porque se aprobó el día de San José.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Duró dos años. En 1814 volvió Fernando VII, al que habían llamado el Deseado mientras estuvo preso en Francia, y su primera decisión fue anularla entera, disolver las Cortes y perseguir a quienes la habían escrito.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es, para el libro, el momento fundacional de la España contemporánea. No la Constitución, sino su anulación. La primera vez que un proyecto de país moderno se levanta y lo tumba el bando contrario a los dos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El reinado de Fernando VII es el retrato más despiadado del libro: un rey que restaura la Inquisición, que ejecuta a liberales, que pide en 1823 a Francia que le mande un ejército para quitarse de encima el gobierno constitucional, y que pierde América.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque eso pasa a la vez. Entre 1810 y 1824, los territorios americanos se independizan uno detrás de otro. La batalla de Ayacucho, en diciembre de 1824, cierra tres siglos de presencia española en el continente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resto del siglo diecinueve es, en la versión de Pérez-Reverte, una sucesión mareante de lo mismo: tres guerras civiles carlistas, pronunciamientos militares cada pocos años, constituciones que duran lo que dura el gobierno que las escribe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una república de once meses en 1873 que tuvo cuatro presidentes. Hay una reina destronada. Hay un rey italiano importado que se marchó a los dos años diciendo que no había manera de entenderse con este país.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El patrón que denuncia",
+          frase: "Cada vez que un bando llegaba al poder, deshacía todo lo del anterior. No se construía sobre lo hecho: se demolía y se empezaba otra vez. Ese es su cainismo, y en el siglo diecinueve español hay material de sobra para sostenerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1898 se pierden Cuba, Puerto Rico y Filipinas en una guerra contra Estados Unidos que duró meses y en la que la flota española fue hundida dos veces sin apenas causar bajas al enemigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro cuenta que se mandaron barcos que se sabía que no podían ganar, para no perder la honra sin combatir. Es otra vez Numancia, dos mil años después, y esta vez con acorazados.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De aquel golpe salió una generación de escritores obsesionada con preguntarse qué es España y qué le pasa. Y esa pregunta, la del ser de España, es exactamente la que este libro hereda y sigue haciéndose cien años más tarde.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siglo veinte llega con una monarquía desgastada, un ejército con complejo de derrota, una guerra colonial desastrosa en Marruecos, un movimiento obrero potente y una estructura de propiedad de la tierra que en el sur era del siglo dieciocho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1923 un general da un golpe con el visto bueno del rey. En 1931, tras unas elecciones municipales, el rey se marcha y se proclama la Segunda República entre una euforia enorme y una hostilidad igual de grande.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tratamiento de la República y de la guerra es donde el libro es más cauto y también más discutido. Su tesis es que ninguno de los dos bandos quería una democracia como la de ahora, y que las dos partes tenían proyectos excluyentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa lectura, la de las dos Españas igualmente culpables, es reconfortante y es historiográficamente floja: hubo un golpe de Estado militar en julio de 1936 contra un gobierno legítimo, y esa asimetría no se puede repartir a partes iguales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo menciona, y luego vuelve a su explicación de siempre, que es la del carácter. Es el punto del libro donde más se nota que la tesis estaba escrita antes que los hechos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La guerra deja unos cientos de miles de muertos, medio millón de exiliados y cuarenta años de dictadura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se cierra en la Transición, que es lo único en toda la obra que trata con algo parecido al respeto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque es, según él, la única vez en tres mil años en que los dos bandos de siempre se sentaron a pactar en lugar de esperar a ganar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el final del recorrido. Y es también donde conviene parar y preguntarse si toda la explicación se sostiene.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El espejo en el que nos gusta mirarnos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La tesis del libro se puede resumir en una frase: a España la hunde el carácter de los españoles. La envidia, la soberbia, la incapacidad de organizarse y el gusto por ver caer al vecino. Es una constante que atraviesa tres mil años sin cambiar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese es su fallo principal, porque explicar la historia por el carácter de un pueblo es exactamente el tipo de razonamiento que la historiografía profesional abandonó a mediados del siglo veinte, y lo abandonó por buenas razones.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema del carácter nacional",
+          frase: "Es una explicación que no se puede refutar y que sirve para todo. Si España va mal, es el carácter. Si va bien, es a pesar del carácter. Una causa que explica cualquier resultado no está explicando nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Además tiene un efecto político que el libro no reconoce: si el problema es cómo somos, entonces no hay nada que hacer. Las decisiones concretas, las leyes concretas y los intereses concretos desaparecen detrás de una fatalidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las bancarrotas de Felipe II no las causó la envidia: las causaron unas guerras carísimas, un sistema fiscal que exprimía a Castilla y dejaba fuera a otros territorios, y unos préstamos a interés altísimo con banqueros genoveses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la guerra de 1936 no la causó el cainismo eterno: la causaron un golpe militar, una reforma agraria bloqueada, una Iglesia con enorme poder político, un ejército hipertrofiado y un contexto europeo con fascismos en expansión.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Todo eso son cosas que se pueden documentar, discutir y cambiar. El carácter nacional no. Y por eso el libro, siendo antipatriotero y demoledor en el tono, acaba siendo curiosamente consolador: si somos así, nadie tiene la culpa de nada.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo fallo es de formato. Son columnas semanales reunidas, y se nota: hay repeticiones constantes, cada capítulo tiene que cerrar con una frase de efecto, y a veces se sacrifica el matiz para que quepa el chiste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es la ausencia total de aparato. Sin notas y sin bibliografía, el lector no puede distinguir el dato comprobado de la anécdota tradicional. Y el libro mezcla las dos cosas con la misma seguridad, de Viriato a Trafalgar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto es lo que deja fuera. La historia que cuenta es de reyes, batallas y decisiones políticas. Prácticamente no aparecen las mujeres, ni el trabajo, ni la vida cotidiana, ni cómo se comía, ni cómo cambió la agricultura, ni la sanidad, ni la escuela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la historia tal y como se contaba antes de que la historiografía del siglo veinte ampliara el foco. Y en un libro que va a ser, para mucha gente, el único que lean del tema, esa ausencia pesa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que la gente cree y no es verdad",
+          frase: "Que es un libro de historia. No lo es, y su autor no lo pretende: es un ensayo periodístico de opinión con forma de crónica. Confundir las dos cosas es el único error grave que se puede cometer con él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: que Pérez-Reverte es historiador. No lo es y nunca lo ha dicho. Es novelista y fue reportero, y en el prólogo avisa de que esta es su versión y de que quien quiera rigor tiene que ir a otro sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que es un libro de derechas o de izquierdas. Trata igual de mal a los reyes que a los revolucionarios, a los curas que a los anticlericales, a los militares que a los políticos. Su bando es el de los pocos que en cada época intentaron organizar algo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Cuarto, y es el más extendido en las reseñas: que es un libro antiespañol. Es exactamente lo contrario. Es un libro escrito por alguien al que le duele el país, en la tradición de Larra y de Unamuno, que es la más española que hay.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dicho todo lo anterior, tiene virtudes que ningún manual iguala. La primera es que se lee. Cientos de miles de personas han recorrido tres mil años de su propia historia porque estaba escrito con gracia y con tacos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es que monta una película continua. La enseñanza secundaria española produce fragmentos sueltos: los Reyes Católicos por un lado, la Guerra Civil por otro, sin hilo. Aquí las cosas se encadenan, y eso tiene un valor enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es su posición ante la leyenda negra y la leyenda rosa. Negarse a las dos a la vez, en un país donde ese debate está politizado hasta la caricatura, es más valiente de lo que parece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la cuarta es que no adula. No hay ni un párrafo de exaltación patriótica, y en un libro con este título y este público eso es una decisión que le costó lectores por los dos lados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La manera honesta de usarlo es como puerta y no como destino. Sirve para saber qué pasó y en qué orden, y para que dé ganas de saber más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien quiera después el rigor que aquí no está tiene donde ir: hay historia de España escrita por historiadores, con fuentes, con debate y sin frase final de efecto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su éxito, en el fondo, explica algo del país que el propio libro no analiza: por qué a tanta gente le reconforta que le digan que lo de aquí no tiene arreglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un espejo cómodo. Uno se mira, se reconoce en el desastre, se ríe y no tiene que hacer nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es, probablemente, la única cosa muy española que hay en este libro que su autor no llegó a ver.",
+        },
+      ],
+    },
+  ],
+};
