@@ -6468,3 +6468,606 @@ export const DOBLE_HELICE: Resumen = {
     },
   ],
 };
+
+export const REVOLUCIONES_CIENTIFICAS: Resumen = {
+  id: "revoluciones-cientificas",
+  titulo: "La estructura de las revoluciones científicas",
+  autor: "Thomas S. Kuhn",
+  ano: 1962,
+  gancho:
+    "Un físico se sentó a leer a Aristóteles para dar una clase, le pareció un disparate, y de pronto entendió que el disparate era su manera de leerlo.",
+  porQue:
+    "De aquí sale la expresión «cambio de paradigma», que hoy se usa para vender móviles. Merece la pena saber qué significaba de verdad, porque el libro dice algo bastante más incómodo que lo que se le atribuye.",
+  partes: [
+    {
+      titulo: "Un despacho prestado en Harvard, 1947",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Verano de 1947, Cambridge, Massachusetts. Un doctorando de física de veinticinco años está encerrado en un despacho prestado preparando unas clases que no quería dar. El rector de Harvard ha montado una asignatura de historia de la ciencia para alumnos de letras y le ha reclutado a él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para preparar la primera lección tiene que leer la Física de Aristóteles, cosa que ningún físico de su generación había hecho. Y lo que encuentra le desconcierta: le parece sencillamente malo. No incompleto ni anticuado: malo, lleno de errores que a él le parecen evidentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y eso no encaja. El mismo hombre había fundado la lógica formal y había escrito una obra de biología marina tan buena que en el siglo diecinueve los naturalistas seguían confirmándole observaciones. ¿Cómo puede alguien así equivocarse tanto en algo tan básico como el movimiento?",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le pasó una tarde de calor",
+          frase: "Que mirando el texto por enésima vez, de pronto los trozos se recolocaron solos. Aristóteles no estaba haciendo mala física de Newton: estaba haciendo otra cosa distinta, con otro significado de la palabra movimiento y sin nuestro concepto de materia. Leído así, es coherente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para Aristóteles, movimiento no significa desplazamiento: significa cambio de cualquier tipo, incluido que una bellota se convierta en encina o que algo pase de frío a caliente. Con esa definición, sus leyes dejan de ser errores y pasan a ser un sistema que se sostiene.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquel hombre se llamaba Thomas Kuhn, y contó siempre que su carrera empezó exactamente en ese momento. No había descubierto que Aristóteles tuviera razón: había descubierto que para entender una ciencia del pasado hay que dejar de puntuarla con el examen del presente.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se doctoró en física en 1949 con una tesis sobre mecánica cuántica de sólidos, y no volvió a ejercer. Se pasó a la historia de la ciencia, escribió un libro sobre la revolución copernicana en 1957, y quince años después de aquella tarde publicó este.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle de dónde lo publicó es tan bueno que parece inventado. Salió en 1962 como un volumen de la Enciclopedia Internacional de la Ciencia Unificada, que era el gran proyecto colectivo de los positivistas lógicos, la escuela cuya visión de la ciencia este libro desmonta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: los guardianes de la idea acumulativa de la ciencia editaron y pagaron el libro que iba a acabar con ella. Rudolf Carnap, uno de los directores de la enciclopedia, le escribió a Kuhn una carta elogiándolo sin darse cuenta del todo de lo que llevaba dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tiene unas ciento setenta páginas y es uno de los libros académicos más citados del siglo veinte. Ha vendido más de un millón de ejemplares, cifra desconocida para un ensayo de filosofía de la ciencia, y su vocabulario se ha filtrado hasta los anuncios de coches.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para entender contra qué escribe hay que saber qué se contaba antes. La versión oficial, la que sigue enseñándose en los colegios, dice que la ciencia avanza acumulando: cada generación añade descubrimientos sobre los anteriores, y el edificio se va haciendo más alto y más firme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esa versión, Galileo mejoró a Aristóteles, Newton mejoró a Galileo, Einstein mejoró a Newton, y todos iban en la misma dirección hacia una descripción cada vez más exacta de lo que hay. La historia de la ciencia sería una carrera de relevos sin curvas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra versión de la época era la de Karl Popper, que era más sofisticada y también más limpia. Según Popper, lo que distingue a la ciencia es que sus teorías se pueden refutar: se lanza una conjetura audaz, se somete a pruebas duras, y si falla se abandona.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Kuhn dice que ninguna de las dos cosas describe lo que hacen los científicos de verdad, y lo dice desde una posición incómoda de rebatir: había sido físico y había pasado quince años leyendo cuadernos de laboratorio, cartas y manuales de los siglos anteriores.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su objeción a Popper es demoledora y muy concreta. Si un científico abandonara su teoría cada vez que aparece un dato que no encaja, ninguna teoría sobreviviría una semana, porque todas nacen rodeadas de datos que no encajan. La refutación limpia casi no existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Newton, por ejemplo, no consiguió explicar el movimiento del perihelio de Mercurio, y nadie tiró la mecánica newtoniana a la basura por ello durante doscientos años. Se apuntó como un problema pendiente, se buscó un planeta desconocido que lo explicara, y se siguió trabajando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa reacción, dice Kuhn, no es cobardía intelectual ni mala ciencia: es exactamente lo que hay que hacer. Si cada anomalía derribara la teoría, no habría manera de acumular el trabajo detallado que hace falta para que una ciencia produzca algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la palabra que iba a escapársele de las manos. Kuhn llama paradigma a lo que comparte una comunidad científica: no solo una teoría, sino también los instrumentos que se usan, los problemas que se consideran interesantes y lo que cuenta como una solución aceptable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un paradigma es todo eso junto, y sobre todo es algo que se aprende haciendo. Un estudiante de física no memoriza definiciones de fuerza: resuelve doscientos problemas de libro, y de ahí saca por imitación qué tipo de pregunta es legítima y cómo se ataca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con un paradigma instalado, una comunidad puede ponerse a trabajar en serio, y a eso Kuhn le da un nombre que suena despectivo y no lo es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llama ciencia normal.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La ciencia normal",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La ciencia normal es lo que hace el noventa y nueve por ciento de los científicos el noventa y nueve por ciento del tiempo, y Kuhn la describe con una imagen que ofendió a mucha gente: consiste en resolver rompecabezas dentro de un marco que no se discute.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un rompecabezas, en su sentido, es un problema que tiene solución garantizada y reglas conocidas. Nadie compra un puzle dudando de si las piezas encajan. Y esa garantía previa es justamente lo que permite dedicarle a un problema cinco años sin volverse loco.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su tesis más contraintuitiva",
+          frase: "Que la ciencia funciona porque es dogmática, no a pesar de serlo. Una comunidad que da por buenos sus fundamentos puede mirar muy de cerca cosas muy pequeñas. Un científico que se pasa la carrera cuestionando los cimientos no publica nada y no descubre nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso choca de frente con la imagen romántica del científico como escéptico profesional que lo pone todo en duda. Kuhn dice que esa figura existe, que es la de los momentos de crisis, y que si fuera la norma la ciencia sería una tertulia perpetua sin resultados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El trabajo de la ciencia normal lo divide en tres tipos, y quien haya visto un laboratorio por dentro los reconocerá. El primero es medir con más precisión hechos que el paradigma señala como importantes: una constante, una masa, una longitud de onda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es comprobar predicciones que la teoría permite hacer pero que aún no se han verificado. Y el tercero es articular el propio paradigma: extenderlo a casos nuevos, ajustar sus constantes, resolver ambigüedades que quedaron sueltas en la formulación original.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ninguna de las tres busca novedad. Kuhn lo dice con una frase que suele citarse mal: la ciencia normal no aspira a descubrir hechos nuevos, y cuando aparece uno de verdad inesperado, la primera reacción de la comunidad no es alegría sino incomodidad.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí entra la parte del libro que más incomoda a los propios científicos: qué papel juegan los libros de texto. Kuhn sostiene que los manuales reescriben sistemáticamente la historia para que la ciencia parezca acumulativa, y que lo hacen sin ninguna mala intención.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un manual de química cuenta que Lavoisier descubrió el oxígeno, presenta a los partidarios del flogisto como unos confundidos, y da a entender que todo el mundo iba avanzando hacia la respuesta actual. La historia real es bastante más sucia y bastante más interesante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn compara esa operación con la que hacen los regímenes que reescriben los libros de historia después de un cambio político. El pasado se reordena para que desemboque en el presente, y las revoluciones desaparecen porque el resultado se presenta como lo que siempre se buscaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y advierte de que esa distorsión tiene una función y no se puede quitar sin más. Un estudiante de segundo de carrera no puede aprender química leyendo los debates originales sobre el flogisto: necesita la versión ordenada, y esa versión es necesariamente falsa como historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El precio se paga después. Los científicos formados así heredan una idea de su propio oficio en la que nunca ha habido rupturas, solo aciertos encadenados, y por eso son con frecuencia los peores historiadores de su disciplina y los que peor encajan este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn no lo dice como reproche moral a nadie. Lo presenta como un rasgo estructural: toda comunidad que quiere formar profesionales deprisa tiene que dar una versión limpia del pasado, y toda versión limpia esconde exactamente lo que a un historiador le interesaría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso del oxígeno le sirve para enseñarlo. En 1774, Joseph Priestley aisló un gas en el que una vela ardía con una llama extraordinaria. Lo describió, lo publicó, y lo llamó aire desflogistizado, porque interpretó lo que veía dentro de la teoría del flogisto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lavoisier, dos años después, hizo experimentos parecidos y llegó a otra cosa: que ese gas era un elemento y que la combustión consiste en combinarse con él, no en soltar una sustancia. Priestley murió en 1804 sin aceptarlo nunca, defendiendo el flogisto hasta el final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta de Kuhn es sencilla y no tiene respuesta limpia: ¿quién descubrió el oxígeno? El que lo aisló primero no sabía lo que tenía. El que entendió lo que era llegó después y con muestras peores. Y el manual escolar resuelve el lío poniendo un solo nombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis es que ese caso no es una excepción sino la regla, porque un descubrimiento no es un instante: es un proceso que incluye darse cuenta de que algo hay y averiguar qué es, y esas dos cosas suelen pasarles a personas distintas en momentos distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otro ejemplo suyo todavía mejor y es de física. En 1895, Röntgen estaba trabajando con tubos de rayos catódicos y vio brillar una pantalla que estaba al otro lado del laboratorio, tapada, donde no tenía ningún motivo para brillar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pasó siete semanas encerrado en el laboratorio antes de contárselo a nadie, incluida su mujer, a la que acabó radiografiándole la mano. Y cuando lo publicó, varios físicos importantes reaccionaron con sospecha, porque aquello no estaba prohibido por ninguna teoría y tampoco estaba previsto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn señala algo que se pasa por alto: aquel descubrimiento obligó a rehacer experimentos anteriores, porque cualquier laboratorio con un tubo de rayos catódicos llevaba años emitiendo rayos X sin saberlo y había medido cosas que ahora había que volver a mirar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la diferencia entre un hallazgo que el paradigma absorbe y uno que le rompe algo. Y cuando lo que se rompe es central, y no se arregla en unos años, empieza el proceso que da título al libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empieza porque alguien se topa con un dato que no se deja colocar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esta vez no se va.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La anomalía",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Una anomalía es un resultado que el paradigma dice que no debería salir. Kuhn insiste en que aparecen constantemente y en que la reacción normal, sensata y correcta es apartarlas: se atribuyen a un error de medida, a una impureza de la muestra o a un factor que ya se aclarará.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La mayoría se resuelven así y nunca pasa nada. Lo interesante es lo raro: cuando una anomalía resiste los intentos repetidos de los mejores especialistas, cuando toca algo central y cuando además tiene consecuencias prácticas que a alguien le importan.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué produce eso",
+          frase: "Una crisis, que Kuhn describe con precisión sociológica. Los especialistas empiezan a discrepar sobre cuestiones básicas, proliferan las versiones del paradigma —cada uno lo retoca a su manera—, aparecen discusiones filosóficas que llevaban un siglo dormidas, y el ambiente se pone nervioso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que desarrolla mejor es la astronomía anterior a Copérnico, sobre la que había escrito un libro entero. El sistema de Ptolomeo, con la Tierra en el centro, no era una tontería: predecía las posiciones de los planetas con una exactitud razonable y funcionó mil cuatrocientos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su problema era acumulativo. Para ajustar las predicciones a lo observado había que ir añadiendo círculos sobre círculos, y cada generación de astrónomos añadía los suyos. En el siglo dieciséis, el sistema era un mecanismo monstruoso y seguía fallando en los detalles.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "A eso se sumó un problema práctico que importaba a mucha gente: el calendario. La Iglesia necesitaba calcular la Pascua, la desviación acumulada era ya de días visibles, y el papado llevaba tiempo pidiendo una reforma. Una anomalía sin consecuencias no molesta; esta las tenía.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn subraya un dato que estropea el relato heroico: el sistema de Copérnico, tal como lo publicó en 1543, no era más exacto que el de Ptolomeo. Seguía usando círculos y epiciclos, y sus predicciones no eran mejores. Lo que tenía era otra cosa: era más elegante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tenía en contra una objeción física seria que hoy se olvida. Si la Tierra se mueve, las estrellas deberían verse desplazarse a lo largo del año, y no se veía nada. La respuesta copernicana era que están muchísimo más lejos de lo que nadie creía, y sonaba a excusa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tenía razón: ese desplazamiento existe, se llama paralaje estelar, y no se pudo medir hasta 1838, casi trescientos años después. Durante todo ese tiempo, quien defendía a Copérnico lo hacía sin poder responder a la objeción más obvia que se le hacía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese caso es el que mejor sostiene la tesis del libro. Durante siglo y medio hubo dos sistemas, ninguno de los dos ganaba con los datos disponibles, y la elección se tomó por criterios que no eran la exactitud: elegancia, coherencia con otras cosas y con quién se estudiaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Explicaba de un plumazo cosas que en el sistema antiguo eran coincidencias sin motivo, como que Mercurio y Venus no se alejen nunca del Sol. Y esa elegancia convenció a unos pocos matemáticos durante décadas, mientras la mayoría seguía tan tranquila con Ptolomeo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La revolución tardó siglo y medio en completarse, con Kepler poniendo elipses en vez de círculos, Galileo mirando por el telescopio y Newton dando por fin una física que explicara por qué. Nadie cambió de opinión de golpe y nadie fue convencido por un experimento decisivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la parte más oscura del libro, que Kuhn apoya en una cita de Max Planck. Planck escribió en su autobiografía que una verdad científica nueva no se impone convenciendo a sus adversarios, sino porque sus adversarios acaban muriéndose y crece una generación familiarizada con ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase se resume popularmente diciendo que la ciencia avanza de funeral en funeral, y suena a boutade amarga de un anciano. Resulta que se ha comprobado con datos, y el resultado es incómodo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2015, un equipo de economistas estudió qué pasa en un campo científico cuando una figura destacada muere de manera prematura e inesperada. Compararon la producción del campo antes y después, distinguiendo entre los colaboradores del difunto y los investigadores de fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado: tras la muerte, los artículos de sus colaboradores caen, y los de investigadores ajenos al grupo suben de manera significativa y sostenida, con aportaciones que además se citan mucho. Es decir: la desaparición de la autoridad abre el campo a ideas de fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese trabajo no demuestra que Kuhn tuviera razón en todo, y sí que la resistencia de los mayores a las ideas nuevas es un fenómeno medible y no una impresión. Lo que en su libro era una observación histórica tiene hoy respaldo cuantitativo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn añade otro dato sobre quién hace las revoluciones, y también se ha comprobado después: casi siempre son personas muy jóvenes o recién llegadas de otro campo. Gente que ha aprendido el paradigma lo justo para usarlo y no lo bastante para no poder salir de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación es sencilla y algo cruel: quien ha dedicado treinta años a resolver rompecabezas dentro de un marco no está en condiciones de evaluar con frialdad la propuesta de tirar el marco. No es mala fe; es que su competencia entera está dentro de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando una crisis se resuelve con un paradigma nuevo, lo que pasa según Kuhn no es que se añada un piso al edificio, sino algo que a los filósofos de la ciencia les pareció escandaloso y que sigue siendo el punto más discutido del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llama con una palabra prestada de las matemáticas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Inconmensurabilidad.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La inconmensurabilidad",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La palabra viene de la geometría griega: dos magnitudes son inconmensurables cuando no existe una unidad común que mida a las dos, como el lado y la diagonal de un cuadrado. Kuhn la aplica a dos paradigmas rivales y quiere decir algo muy concreto con ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que no hay una regla neutral con la que comparar los dos, porque los propios términos cambian de significado al cruzar de uno a otro. La palabra masa significa una cosa en la mecánica de Newton y otra distinta en la de Einstein, aunque se escriba igual.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso es tan grave",
+          frase: "Porque si no hay lenguaje neutro, tampoco hay observación neutra que arbitre. No se puede decir «miremos los datos y que decidan», porque qué cuenta como dato relevante y cómo se describe depende del paradigma desde el que se mira. Falta el juez imparcial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para explicarlo usa las figuras de la psicología de la percepción, las que se ven de dos maneras: el dibujo que es a la vez un pato y un conejo, o el jarrón que es dos caras de perfil. Nadie ve las dos cosas a la vez, y la línea del papel no ha cambiado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y lleva la analogía a un sitio que le costó treinta años de disgustos: escribe que después de una revolución los científicos trabajan en un mundo diferente. Que donde antes había aire desflogistizado, ahora hay oxígeno, y no es lo mismo con otro nombre.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn siempre sostuvo que esa frase era una metáfora, y sus críticos le respondieron que si la mundo no cambia y solo cambia la descripción, entonces la metáfora no explica nada, y que si el mundo cambia de verdad, eso es idealismo puro y duro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí viene la acusación que le persiguió el resto de su vida: que si no hay criterio neutral y la conversión es una especie de cambio de percepción, entonces elegir entre teorías sería como elegir entre modas, y la ciencia sería una serie de opiniones sucesivas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn lo negó siempre y con enfado. En un texto posterior enumeró cinco criterios que sí valen para juzgar teorías: exactitud en las predicciones, coherencia interna, amplitud de aplicación, sencillez y fecundidad, es decir, capacidad de abrir problemas nuevos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su matiz es fino y hay que entenderlo bien: esos cinco criterios son reales y compartidos, pero no funcionan como un algoritmo. Dos científicos honrados pueden aplicarlos a las mismas teorías y llegar a conclusiones distintas, porque los criterios entran en conflicto entre sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una teoría puede ser más exacta y menos sencilla; otra más fecunda y peor ajustada a los datos actuales. Decidir cuál pesa más es un juicio, no un cálculo. Y Kuhn dice que eso no es un defecto del método científico: es lo que hace posible que una comunidad explore alternativas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el progreso también tuvo que aclararse, y su respuesta es la mejor idea del libro. Sostiene que la ciencia progresa, y que no progresa hacia nada. Progresa desde: cada paradigma resuelve más problemas que el anterior, sin que exista una meta final a la que acercarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El modelo que propone es la evolución darwinista. Las especies no evolucionan hacia un organismo perfecto: se adaptan mejor a su entorno, y eso es todo el progreso que hay. Quitar la meta no quita la mejora, y esa analogía es lo más elegante que escribió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un fenómeno que él llama pérdida y que la versión acumulativa no puede admitir. En cada revolución se gana capacidad para resolver problemas nuevos y se pierde la capacidad de plantear algunos viejos, que dejan de considerarse preguntas legítimas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La física de Newton explicaba la gravedad como una fuerza y no explicaba por qué actúa a distancia; a Descartes le parecía una recaída en la magia. La respuesta newtoniana fue que la pregunta no era de física. Se ganó una teoría y se perdió una pregunta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir que la versión fuerte de la inconmensurabilidad es difícil de sostener, y los críticos lo señalaron enseguida. Si dos paradigmas fueran de verdad intraducibles, sus defensores no podrían discutir entre ellos, y la historia está llena de discusiones larguísimas y bastante productivas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn acabó retrocediendo a una posición más defendible que llamó inconmensurabilidad local: no falla la traducción entera, fallan unos pocos términos emparentados entre sí, y esos son precisamente los que provocan los malentendidos que parecen sordera y no lo son.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa versión rebajada, la idea sigue siendo útil y deja de ser escandalosa. Explica por qué dos especialistas pueden discutir tres horas usando las mismas palabras sin darse cuenta de que se refieren a cosas distintas, que es algo que pasa a diario en cualquier laboratorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro problema del libro, y este es de método, lo señaló una investigadora británica, Margaret Masterman, en 1965: repasó el texto y contó veintiún sentidos distintos de la palabra paradigma, desde una teoría entera hasta un instrumento de laboratorio concreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn lo aceptó, cosa que le honra. En la posdata que añadió a la segunda edición en 1969 separó dos significados: la matriz disciplinar, que son los compromisos compartidos por una comunidad, y los ejemplares, que son los problemas resueltos con los que se enseña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De los dos, el segundo le parecía el más importante y es el que menos se cita. Su idea es que lo que un científico aprende no son reglas explícitas, sino ejemplos concretos, y que la formación consiste en saber ver qué problema nuevo se parece a cuál de los que ya resolvió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con todo eso encima, en 1965 le organizaron un encuentro cara a cara con el hombre cuya teoría estaba desmontando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En un colegio universitario de Londres, delante de medio mundo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Un seminario en Londres, 1965",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En julio de 1965, el Bedford College de Londres acogió un coloquio internacional de filosofía de la ciencia organizado por el húngaro Imre Lakatos. La sesión principal enfrentaba a Karl Popper con Thomas Kuhn, y las actas se publicaron después como un libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Popper llegaba como la autoridad establecida. Su tesis era normativa: decía cómo debe comportarse un científico, y su criterio de demarcación —una teoría es científica si se puede refutar— sigue siendo el que se enseña en las clases de metodología de medio mundo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La diferencia de fondo",
+          frase: "Que Popper describía cómo debería funcionar la ciencia y Kuhn describía cómo funciona. El primero decía que hay que buscar refutaciones; el segundo respondía que si los científicos hicieran eso no habría ciencia, y que la historia real está ahí para comprobarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Popper contestó que Kuhn confundía la ciencia con la sociología de los científicos, y que describir cómo se comporta un gremio no dice nada sobre qué es el conocimiento. También le acusó de convertir la ciencia normal en una virtud cuando es un peligro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese reproche tiene peso y conviene recogerlo. Si la ciencia normal es dogmática por diseño, ¿qué distingue a una comunidad científica de una secta que también resuelve rompecabezas dentro de su marco y también expulsa a los disidentes? Kuhn nunca dio una respuesta del todo satisfactoria.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Del coloquio salieron dos herederos que tiraron en direcciones opuestas. Lakatos propuso una vía intermedia con sus programas de investigación, que permiten mantener un núcleo teórico mientras se ajusta lo de fuera, y que es probablemente la posición más razonable de las tres.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro fue Paul Feyerabend, que se llevó las tesis de Kuhn hasta el final y publicó en 1975 un libro sosteniendo que no existe ningún método científico, que la única regla es que todo vale, y que la ciencia no tiene más autoridad que la astrología o la brujería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn detestó esa lectura y se pasó el resto de su vida intentando desmarcarse. En los años ochenta, harto, llegó a decir en público que él no era kuhniano, que es probablemente la frase más triste que puede pronunciar el autor de un libro que ha cambiado un campo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro. Lo primero, ya dicho: la palabra paradigma está usada de veintiún maneras distintas, y aunque él lo corrigió después, la versión que circula por el mundo es la de 1962 con toda su ambigüedad dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo: el modelo encaja bien en física y en química y bastante peor en el resto. En biología, la genética molecular creció de manera acumulativa durante cincuenta años sin ninguna revolución kuhniana. En geología, la tectónica de placas sí encaja. No hay un patrón único.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con las ciencias sociales el problema es mayor. Kuhn sostenía que están en estado preparadigmático, es decir, que todavía no tienen un marco compartido, y eso sentó fatal. Y no ha impedido que sean precisamente ellas las que más han usado su vocabulario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero: la distinción entre ciencia normal y revolución es demasiado limpia. Los historiadores que vinieron después han mostrado que los cambios reales son más graduales, más solapados, y que en cualquier momento conviven varias maneras de trabajar dentro de un mismo campo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cuarto, y es el más serio: el libro no explica bien por qué el paradigma nuevo predice mejor. Si no hay medida neutral y todo se decide dentro de cada marco, la mejora objetiva en capacidad predictiva —que es un hecho comprobable— se queda sin explicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno, y es el más gordo: que cambio de paradigma significa cambio grande o manera nueva de ver las cosas. En Kuhn es un término técnico sobre una comunidad científica que abandona un marco por otro incompatible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aplicado a un modelo de teléfono, a una campaña de márketing o a un método de trabajo, no significa absolutamente nada. Es una palabra prestada para dar prestigio a un cambio cualquiera, y es probablemente el mayor secuestro terminológico del siglo veinte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que Kuhn dijera que la ciencia es irracional o que elegir teoría es cuestión de gusto. Enumeró cinco criterios objetivos y sostuvo que no funcionan como una fórmula, que es otra cosa distinta y mucho más razonable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que el libro sea anticientífico. Lo escribió un físico, y su descripción de la ciencia normal es una defensa del trabajo diario, tedioso y poco vistoso que hace la inmensa mayoría de los investigadores y que la versión heroica desprecia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuatro: que los paradigmas cambien cuando las pruebas obligan. Lo que dice el libro, apoyándose en Planck, es que cambian en buena medida por relevo generacional, y hay datos posteriores que apuntan en esa dirección.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí ha quedado en pie es considerable. La idea de que la ciencia la hacen comunidades y no genios sueltos, con sus revistas, sus congresos, sus tribunales de tesis y sus modas, hoy se da por evidente y en 1962 era una provocación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También ha quedado la sospecha hacia los manuales, que ha dado lugar a una disciplina entera dedicada a reconstruir cómo ocurrieron las cosas de verdad. Y la observación de que las ideas nuevas suelen venir de gente joven o de fuera del campo, que se sigue confirmando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y queda una advertencia práctica para cualquiera que trabaje con datos. Que lo que uno considera un error de medida y lo que considera un hallazgo depende de lo que esperaba encontrar, y que esa decisión se toma casi siempre sin darse cuenta de estar tomándola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kuhn murió de cáncer de pulmón en 1996, a los setenta y tres años, dejando sin terminar un libro en el que llevaba dos décadas intentando precisar qué había querido decir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se publicó veintiséis años después de su muerte.",
+        },
+      ],
+    },
+  ],
+};
