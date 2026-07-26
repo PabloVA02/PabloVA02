@@ -5,113 +5,641 @@ export const PADRE_RICO: Resumen = {
   titulo: "Padre rico, padre pobre",
   autor: "Robert Kiyosaki",
   ano: 1997,
-  gancho: "Su padre era catedrático y murió con deudas. El padre de su amigo dejó la escuela a los trece y murió millonario.",
+  gancho:
+    "Su padre era catedrático, jefe de educación de todo Hawái, y murió con deudas. El padre de su mejor amigo dejó la escuela a los trece años y murió millonario. El libro entero sale de haber crecido oyendo a los dos decir cosas contrarias sobre el dinero.",
   porQue:
-    "Es el libro de finanzas personales más vendido del mundo y el que peor fama tiene entre los expertos. Merece leerse por una idea que sí acertó, y con las advertencias puestas.",
+    "Es el libro de finanzas personales más vendido de la historia y el peor considerado por los economistas. Merece leerse por una definición que sí acertó, sabiendo que el protagonista que da título al libro no ha podido ser identificado por nadie.",
   partes: [
     {
-      titulo: "Dos padres",
+      titulo: "Dos padres y un niño de nueve años",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Kiyosaki cuenta que creció con dos modelos. Su padre biológico, doctorado y jefe de educación de Hawái, repetía «estudia mucho para encontrar un buen trabajo» y vivió siempre justo. El padre de su mejor amigo había dejado la escuela a los trece y acabó siendo uno de los hombres más ricos del estado. Su frase era otra: «estudia mucho para poder comprar buenas empresas».",
+            "Hawái, mediados de los cincuenta. Un niño de nueve años le pregunta a su padre cómo se hace uno rico, y su padre, doctorado en educación, le contesta que estudiando mucho para encontrar un buen trabajo. La respuesta no le convence, así que va a preguntarle al padre de su mejor amigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese segundo hombre había dejado la escuela a los trece años y era dueño de tiendas, almacenes y restaurantes. Su respuesta fue otra: estudia mucho para poder comprar buenas empresas. Kiyosaki dice que aquel día empezó a tener dos padres, y que pasó los treinta años siguientes eligiendo a cuál hacer caso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que hace creíble el retrato es que ninguno de los dos es un tonto ni un santo. El padre pobre lee constantemente, escribe con precisión y es la persona más respetada de su isla; lo que no tiene es ni una fuente de ingresos que no dependa de presentarse a trabajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el padre rico no es un empresario de manual: no terminó la escuela, no lee libros de gestión y aprende preguntando. Kiyosaki insiste en que ninguno de los dos era más listo que el otro, y que lo único distinto era en qué se fijaban al mirar el mismo mundo.",
         },
         {
           forma: "clave",
           rotulo: "La diferencia",
-          frase: "Uno decía «no puedo permitírmelo». El otro obligaba a preguntar «¿cómo puedo permitírmelo?».",
+          frase: "Uno decía «no puedo permitírmelo». El otro prohibía esa frase y obligaba a preguntar «¿cómo puedo permitírmelo?». Una es una conclusión y la otra es un problema.",
         },
         {
           forma: "texto",
           texto:
-            "La primera frase cierra la cabeza; la segunda la abre. Es una diferencia tonta hasta que la usas: una es una conclusión y la otra es un problema. Kiyosaki insiste en que el cerebro obedece: si le das una respuesta cerrada, deja de buscar.",
+            "La primera frase cierra la cabeza y la segunda la abre, y esa es la mejor idea del libro: el cerebro obedece a la forma de la pregunta. Si le das una respuesta cerrada deja de buscar; si le das un problema, sigue trabajando aunque tú te vayas a dormir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una diferencia de fondo entre los dos hombres que el libro no subraya y conviene ver: uno hablaba desde un sueldo público y el otro desde un negocio propio. No eran dos filosofías enfrentadas en abstracto, eran dos posiciones distintas mirando el mismo dinero.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La primera lección del padre rico fue casi cruel. Contrató a los dos niños para trabajar en una de sus tiendas sacando polvo a las latas, tres horas los sábados, por diez centavos la hora, y se pasó semanas sin recibirlos ni explicarles nada mientras ellos se iban enfadando.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando por fin el niño fue a quejarse, el hombre le dijo que aquello era exactamente lo que quería que sintiera, y le hizo una oferta peor: trabajar gratis. Su argumento era que mientras discutiera el sueldo estaría pensando como empleado, y que solo dejando de pensar en la hora empezaría a ver otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que acabó viendo fue una caja de tebeos que la tienda tiraba porque la editorial exigía arrancarles la portada para devolverla. Montaron una biblioteca en el sótano de una casa y cobraban por leerlos, con otro niño de encargado. Ganaban más que trabajando, sin estar ellos allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer intento había sido peor y merece contarse porque es lo que da veracidad al libro: los dos niños se dedicaron a fundir tubos de pasta de dientes usados para fabricar monedas de plomo, hasta que el padre rico les explicó, entre risas, que aquello se llama falsificar moneda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa escena es todo el libro en miniatura y por eso funciona tan bien como relato. No hay tablas ni fórmulas: hay un chaval descubriendo que se puede cobrar por un sistema en vez de por unas horas, y esa imagen se le queda a cualquiera que la lea a los veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene saber también qué había hecho el autor antes de escribirlo, porque no era un teórico. Montó en los setenta una empresa de carteras de nailon con velcro para surfistas que llegó a vender en todo el país y que después se hundió, y volvió a levantar otro negocio de camisetas de grupos de rock.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: había ganado y perdido dinero de verdad dos veces antes de dedicarse a explicarlo. Eso le da una autoridad distinta de la del asesor que nunca ha arriesgado nada, y a la vez explica por qué su consejo suena siempre a jugada arriesgada: es lo único que ha hecho en su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene saber cómo llegó este libro al mundo, porque explica su tono. Kiyosaki lo autopublicó en 1997 y los primeros ejemplares se vendieron en sus propios seminarios y en redes de venta directa; ninguna editorial grande lo quiso. En 2000 lo recomendaron en un programa de televisión estadounidense enorme y se disparó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese origen explica también su forma. No está escrito como un manual sino como una charla: repite las mismas ideas cinco veces con distintas palabras, interpela al lector constantemente y cabe entero en unas doscientas páginas de letra grande. Se lee en una tarde y por eso lo ha leído tanta gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por dentro son seis lecciones, y los títulos ya dicen el tono: los ricos no trabajan por dinero, para qué sirve la educación financiera, ocúpate de tu propio negocio, la historia de los impuestos, los ricos inventan el dinero y trabaja para aprender y no por el dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Desde entonces lleva más de cuarenta millones de ejemplares vendidos en medio centenar de idiomas, y ha estado más de seis años seguidos en la lista de los más vendidos del principal periódico de Estados Unidos. Ningún otro libro de dinero se le acerca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En español su recorrido es todavía más llamativo: en buena parte de América Latina ha sido, durante veinte años, el primer y a veces el único libro de finanzas que ha leído una generación entera. Discutirlo bien importa por eso, no por lo que diga un economista en un seminario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle de autoría que casi nunca aparece: no lo escribió solo. Lo firmó con una contable colegiada, Sharon Lechter, que puso la parte técnica y estuvo diez años en el negocio; la sociedad terminó en 2007 en los tribunales, con demandas cruzadas entre ella y el matrimonio Kiyosaki.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato importa más de lo que parece: la persona con formación contable de las dos era ella, y las ediciones posteriores a la ruptura dejaron de llevar su nombre en la portada. Un libro que enseña a leer un balance lo escribió a medias alguien que sabía hacerlo y que hoy no aparece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un niño preguntando cómo se hace uno rico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos hombres contestando cosas contrarias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuarenta millones de personas quedándose con la segunda respuesta.",
         },
       ],
     },
     {
-      titulo: "Activos y pasivos",
+      titulo: "Lo que mete dinero y lo que lo saca",
       tarjetas: [
         {
           forma: "arte",
           texto:
-            "Su idea central es una definición, y es tan simple que resulta incómoda. Un <strong>activo</strong> es cualquier cosa que mete dinero en tu bolsillo. Un <strong>pasivo</strong> es cualquier cosa que lo saca. No importa lo que diga el banco ni la contabilidad oficial: importa la dirección del flujo.",
+            "La idea central del libro es una definición, y es tan simple que resulta incómoda. Un activo es cualquier cosa que mete dinero en tu bolsillo. Un pasivo es cualquier cosa que lo saca. No importa lo que diga el banco ni la contabilidad oficial: importa la dirección del flujo.",
           arte: "aprendizaje",
         },
         {
           forma: "clave",
-          rotulo: "La bomba",
-          frase: "Tu casa no es un activo. Cada mes te saca dinero: hipoteca, impuestos, reformas, seguros.",
+          rotulo: "La bomba del libro",
+          frase: "Tu casa no es un activo. Cada mes te saca dinero —hipoteca, impuestos, comunidad, derramas, seguros— y no mete ninguno mientras vivas en ella.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí sale su diagnóstico de la clase media: gana más, y con cada subida compra un pasivo más grande — coche mejor, casa mayor— que exige seguir ganando más. Lo llama la carrera de la rata. Los ricos, dice, gastan primero en cosas que generan ingresos, y compran los lujos con lo que esas cosas producen, no con su sueldo.",
+            "En 1997, cuando escribió eso, la frase parecía una provocación de vendedor de humo. Once años después, millones de familias descubrieron a la vez que su casa podía valer menos que su hipoteca y seguir costando lo mismo cada mes, que es exactamente lo que él había dicho.",
         },
         {
           forma: "texto",
           texto:
-            "Y de ahí su otra idea útil: la diferencia entre trabajar por dinero y hacer que el dinero trabaje. No es una frase motivacional, es una cuestión de qué haces con el excedente de cada mes — si lo conviertes en gasto fijo o en algo que produce.",
+            "En España la lección fue la misma con otro decorado: entre 2008 y 2014 el precio de la vivienda cayó más de un tercio, y mucha gente que se había comprado un piso creyendo que ahorraba se encontró pagando durante quince años por algo que valía menos de lo que debía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que ser justo y decir que, en contabilidad, una casa sí es un activo: es un bien con valor de mercado. Lo que Kiyosaki hace es cambiar la definición a propósito, y es una trampa retórica que sin embargo enseña algo verdadero sobre el dinero que entra y sale cada mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene precisar lo que no dice, porque se le atribuye constantemente: no dice que no haya que comprar casa. Dice que no hay que contarla como inversión ni usarla para justificar seguir endeudándose, que es otra cosa y bastante más razonable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión aprovechable de la idea, para alguien con una nómina, es sencilla: la casa en la que vives es un gasto que además conserva valor, y está bien que lo sea. El error es contarla en la columna de lo que produce y creer que ya se está invirtiendo por tenerla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su diagnóstico de la clase media: gana más y con cada subida compra un pasivo mayor —coche mejor, casa más grande, colegio más caro—, que a su vez exige seguir ganando más. Lo llama la carrera de la rata, y la dibuja como un círculo del que no se sale corriendo más rápido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fenómeno tiene nombre fuera del libro y está estudiado: se llama inflación del estilo de vida, y consiste en que el gasto se ajusta al ingreso en cuestión de meses. Por eso hay gente que cobra el triple que hace diez años y sigue llegando exactamente igual de justa a fin de mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los ricos, según él, hacen lo contrario en el orden: primero compran cosas que producen ingresos y después pagan los lujos con lo que esas cosas producen, no con el sueldo. La diferencia no está en cuánto entra, está en qué se hace con el excedente del mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que pone es el de un coche: comprarlo con el sueldo lo convierte en un pasivo durante años; comprarlo con lo que renta un local es otra operación distinta aunque el coche sea el mismo. La diferencia no está en el gasto, está en de dónde sale el dinero que lo paga.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El libro lo dibuja con dos cajas y unas flechas: la cuenta de resultados arriba, con lo que entra y lo que sale cada mes, y el balance abajo, con lo que se tiene y lo que se debe. La gracia del esquema es que enseña que la casa aparece en las dos y que las flechas no van donde uno cree.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte no la inventó él y conviene decirlo. La regla de pagarse a uno mismo primero, antes que a nadie, es de un libro de 1926 ambientado en Babilonia que está en esta misma categoría, y Kiyosaki la repite con otro vocabulario y sin citarlo demasiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su versión sí añade algo: pagarse primero incluso cuando hay facturas pendientes, para obligarse a encontrar el dinero de las facturas. Es un consejo peligroso dicho así, y él lo sabe, porque lo presenta como una manera de meterse presión a propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene separar la idea del alarde. Apartar un porcentaje fijo el día de la nómina, antes de nada, es de lo más sólido que hay en finanzas personales y funciona porque quita el ahorro de la fuerza de voluntad. Dejar sin pagar la luz para forzarse a facturar más es otra cosa muy distinta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La herramienta que vende con el libro es un juego de mesa que había sacado un año antes: se reparten profesiones con su sueldo y sus gastos, y se gana saliendo de la carrera de la rata cuando los ingresos pasivos superan a los gastos. Costaba unos doscientos dólares, veinte veces lo que el libro.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese juego dice mucho del personaje y también de por qué el libro funciona. La idea de ganar cuando los ingresos que no dependen de ti superan a tus gastos es una definición operativa de libertad financiera, y es más clara que la mitad de las que dan los manuales serios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro concepto que se le recuerda es la diferencia entre trabajar por dinero y hacer que el dinero trabaje. Dicho así suena a cartel motivacional, y en realidad es una pregunta concreta: de lo que te sobra este mes, cuánto se convierte en gasto fijo y cuánto en algo que produzca por su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una idea suya sobre los impuestos que en España hay que leer con mucho cuidado. Sostiene que las empresas gastan primero y pagan impuestos después, mientras que un asalariado paga impuestos primero y gasta con lo que queda. En su país eso permite estructuras que aquí, para una persona normal, no existen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La observación de fondo sí vale en cualquier sitio: el asalariado es el contribuyente con menos margen de maniobra que existe, porque su dinero está declarado y retenido antes de que lo vea. Lo que no vale es el salto de ahí a montarse sociedades siguiendo un libro extranjero de 1997.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una frase suya que se ha hecho famosa y que es sencillamente falsa para casi todo el mundo: que los ahorradores son perdedores. La dice por la inflación, que sí come el dinero parado, y omite que sin un colchón de unos meses cualquier avería obliga a endeudarse justo en el peor momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un activo mete dinero en el bolsillo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un pasivo lo saca, aunque el banco lo llame patrimonio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esas dos frases se entiende media vida financiera de cualquiera.",
         },
       ],
     },
     {
-      titulo: "El cuadrante y el miedo",
+      titulo: "Las cuatro casillas",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Kiyosaki divide a todo el que gana dinero en cuatro casillas. <strong>E</strong>, empleado, cobra por horas y no controla nada. <strong>A</strong>, autónomo, es dueño de su trabajo pero si para, el ingreso para. <strong>D</strong>, dueño de un sistema que funciona sin él. <strong>I</strong>, inversor, cuyo dinero trabaja solo.",
+            "En sus libros posteriores desarrolló un esquema que ya asoma en este y que es lo más útil que ha dibujado nunca: todo el que gana dinero está en una de cuatro casillas, y la casilla importa más que la cantidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene ser preciso con la cronología, porque se atribuye a este libro lo que vino después: el cuadrante completo es de un segundo libro de 1998, y aquí solo está apuntado. Quien busque el esquema desarrollado no lo va a encontrar en estas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera es la del empleado, que cobra por su tiempo y no controla ni el precio ni el calendario. La segunda es la del autónomo, dueño de su propio puesto de trabajo. La tercera es la del dueño de un sistema que funciona sin él. Y la cuarta, la del inversor, cuyo dinero produce solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo interesante del esquema es que la línea no separa a pobres de ricos: separa dos maneras de cobrar. Hay empleados que ganan mucho más que dueños de negocio, y sigue siendo verdad que uno cobra por estar y el otro por algo que existe aunque él se vaya un mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La prueba casera para saber en qué casilla está uno es de una frialdad útil: cuánto seguiría entrando en tu cuenta si mañana no pudieras trabajar durante seis meses. La respuesta no depende del sueldo, y mucha gente que gana bien descubre ahí que su respuesta es cero.",
         },
         {
           forma: "clave",
           rotulo: "La trampa del lado izquierdo",
-          frase: "El autónomo cree que ha escapado del jefe. En realidad ha comprado el trabajo más exigente que existe: el suyo.",
+          frase: "El autónomo cree que ha escapado del jefe. Lo que ha hecho es comprarse el trabajo más exigente que existe, con un jefe que no se va nunca de vacaciones.",
         },
         {
           forma: "texto",
           texto:
-            "Su reproche a la clase media es que confunde subir de sueldo con cambiar de casilla. Un médico que factura mucho sigue en la A: si deja de operar, deja de cobrar. Y avisa de que moverse hacia la derecha no requiere más inteligencia, sino tolerar la incertidumbre de meses sin ingreso, que es lo que casi nadie aguanta.",
+            "Su consejo para salir de ahí es el más sensato del libro y el que menos se cita: ocúpate de tu propio negocio sin dejar el empleo. Construir algo aparte mientras se sigue cobrando la nómina es lento y aburrido, y es la única versión de esto que no exige jugarse la casa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Curiosamente coincide con lo que dice Elizabeth Gilbert en Arte, desde el otro extremo de la biblioteca: no le pidas a lo que estás construyendo que te pague el alquiler todavía. Dos libros que no se parecen en nada dando el mismo consejo, que además es el que nadie quiere oír.",
+          arte: "estanteria",
         },
         {
           forma: "texto",
           texto:
-            "La otra parte que la gente subraya es sobre el miedo. Todo el mundo tiene miedo a perder dinero, dice; la diferencia está en qué haces con él. El que lo evita a toda costa se queda en el sitio más seguro que encuentra, que suele ser también el que menos produce. Y hay un capítulo entero dedicado a lo que llama la trampa mayor: trabajar por reconocimiento y por miedo a que te despidan, en lugar de por aprender algo que puedas usar después.",
+            "Su reproche a la clase media es que confunde subir de sueldo con cambiar de casilla. Un cirujano que factura mucho sigue siendo autónomo: el día que deja de operar, deja de cobrar, y su ingreso depende de que su cuerpo aguante. Ganar más no cambia la naturaleza de lo que se cobra.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí su consejo profesional, que sí es aprovechable: en los primeros años elige el empleo por lo que te enseña, no por lo que paga. Él se metió a vender fotocopiadoras en Xerox, siendo terrible al principio, porque quería aprender a vender y sabía que sin eso no montaría nunca nada.",
+            "Y avisa de algo que casi nadie dice: moverse hacia la derecha no exige más inteligencia, exige aguantar meses sin cobrar. La barrera no es intelectual, es de tolerancia a la incertidumbre, y por eso la mayoría de la gente que podría cruzarla no la cruza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sobre el miedo es de lo mejor que tiene. Todo el mundo teme perder dinero, dice; la diferencia está en qué se hace con ese miedo. Quien lo evita a toda costa termina en el sitio más seguro que encuentra, que suele ser también el que menos produce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí el libro se cruza con la psicología del catálogo. Lo que describe es exactamente la aversión a la pérdida que midieron Kahneman y Tversky: perder mil euros duele bastante más de lo que alegra ganarlos, y esa asimetría explica decisiones que de otro modo parecerían simple cobardía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Enumera cinco obstáculos y la lista aguanta bien: el miedo a perder, el cinismo, la pereza, los malos hábitos y la arrogancia. De los cinco, el que mejor describe es la pereza disfrazada de ocupación: estar tan liado que uno no encuentra nunca la tarde para mirar sus propias cuentas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero el segundo de esa lista es también su truco más sucio. Al llamar cinismo a la crítica, el libro se blinda: cualquiera que señale que las cifras no cuadran queda retratado como alguien que se protege del éxito ajeno. Es una vacuna contra la comprobación, y hay que verla venir.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y señala una trampa que se ve en cualquier oficina: trabajar por el reconocimiento del jefe y por miedo al despido, en vez de por aprender algo que sirva después. Es un motor que funciona durante años y que deja a alguien de cincuenta con un currículo lleno y ninguna habilidad transferible.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su consejo profesional, que es el más aprovechable del libro entero: en los primeros años elige el trabajo por lo que te enseña y no por lo que paga. Y lo predica con un ejemplo propio bastante humillante para él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de ser piloto de helicópteros en la guerra de Vietnam se metió a vender fotocopiadoras a puerta fría, se le daba fatal y estuvo a punto de que lo echaran. Aguantó porque quería aprender a vender, y sostiene que sin aquello no habría montado nunca nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También insiste en que hay que aprender a vender, a hablar en público y a leer un balance, tres cosas que ninguna carrera enseña. Ese punto se le puede conceder entero: son habilidades transferibles y casi nadie las adquiere por accidente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su frase para eso es que la especialización te hace caro y la generalidad te hace dueño, y que el problema del sistema educativo es que produce especialistas excelentes incapaces de vender lo que saben. Es injusto con la universidad y a la vez señala algo que cualquiera reconoce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su lista de lo que llama inteligencia financiera tiene cuatro patas y es razonable: entender una cuenta, entender cómo funciona una inversión, entender la oferta y la demanda de un mercado y conocer las reglas legales y fiscales del sitio donde vives. Nada de eso se aprende en el instituto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde falla es en el otro extremo. Del desprecio a los títulos pasa al desprecio a la formación entera, y de ahí a la idea, muy rentable para quien vende cursos, de que lo que hace falta no se estudia en ninguna parte salvo con gente que ya lo ha conseguido. Casualmente, gente como él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro casillas y una barrera en medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La barrera no es de talento: es de aguantar sin cobrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y casi nadie que podría cruzarla la cruza.",
         },
       ],
     },
     {
-      titulo: "Las advertencias",
+      titulo: "El padre rico que nadie ha encontrado",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Ahora la parte que el libro no te dice. El «padre rico» nunca ha sido identificado y hay periodistas que llevan décadas buscándolo; lo más probable es que sea un personaje compuesto. Kiyosaki lo ha defendido diciendo que es una parábola, lo cual es una respuesta rara para un libro que se presenta como autobiografía.",
+            "Ahora la parte que el libro no cuenta, y que hay que contar entera porque cambia cómo se lee. El padre rico, el hombre del que sale todo, no ha sido identificado nunca por nadie: ni periodistas, ni biógrafos, ni vecinos de Hilo que conocieran a alguien así.",
         },
         {
           forma: "texto",
           texto:
-            "Sus consejos concretos van del deporte de riesgo a lo directamente malo: recomienda deuda agresiva, desprecia la diversificación y anima a invertir en inmuebles con poco capital propio, que es exactamente lo que arruinó a mucha gente en 2008. Una de sus empresas se declaró en bancarrota en 2012.",
+            "Cuando una revista financiera le apretó en 2003, Kiyosaki contestó con una pregunta: ¿es real Harry Potter? Y añadió que por qué no dejaban que el padre rico fuera un mito. Es una respuesta legítima para una fábula y bastante rara para un libro que se vende en la estantería de autobiografías.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema no es que sea inventado",
+          frase: "Es que el argumento entero se apoya en la autoridad de un hombre que sabía de esto porque se hizo rico. Si el hombre no existió, lo que queda es un autor de libros aconsejando sobre negocios.",
         },
         {
           forma: "texto",
           texto:
-            "Hay una omisión que conviene tener presente al leerlo: casi todo su marco fiscal y legal es estadounidense, y buena parte de las ventajas que describe no existen igual en España. Tampoco menciona nunca la opción más recomendada por los economistas para alguien normal —invertir de forma periódica y diversificada en fondos indexados de bajo coste—, probablemente porque es aburrida y no vende cursos.",
+            "El análisis más minucioso lo hizo un inversor inmobiliario estadounidense que se dedicó a comprobar el libro línea a línea y publicó una lista larga de datos que no encajan, de fechas imposibles y de consejos que en su experiencia arruinan a quien los sigue. Sigue disponible y no ha sido rebatida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El padre pobre sí es verificable: Ralph Kiyosaki fue jefe del sistema educativo de Hawái, se enfrentó al gobernador, se quedó sin trabajo con cincuenta y tantos y sus últimos años fueron económicamente duros. Esa mitad del retrato está documentada y es sincera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay algo incómodo en eso, y conviene decirlo. El libro usa a un padre real, con nombre y apellidos y una carrera pública honrada, como ejemplo de cómo no hay que vivir, y lo hace en un producto que ha vendido cuarenta millones de ejemplares. Su hijo cobra por esa historia desde hace veinticinco años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los consejos concretos van del deporte de riesgo a lo directamente ruinoso. Recomienda endeudarse con agresividad, desprecia la diversificación llamándola protección de ignorantes y anima a comprar inmuebles poniendo lo mínimo posible, que es exactamente lo que arruinó a cientos de miles de personas en 2008.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase sobre la diversificación merece pararse. Es cierta para quien dedica su vida a un negocio y lo conoce por dentro; es falsa y peligrosa para alguien con un sueldo y unos ahorros, para quien repartir el riesgo es lo único que impide que un solo error se lo lleve todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene saber que lleva veinte años anunciando el mayor desplome de la historia, año tras año, en entrevistas y en redes. Quien acierta un crash prediciéndolo cada temporada no ha acertado nada: ha esperado, que es lo que hace cualquier reloj parado dos veces al día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus recomendaciones han ido cambiando con la moda —inmuebles, luego oro y plata, luego criptomonedas—, siempre con el mismo tono de urgencia y el mismo aviso de catástrofe inminente. Un asesor que cambia de activo cada década y de argumento nunca es un asesor, es un vendedor de urgencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su propio historial no acompaña. Una de sus sociedades se declaró en bancarrota en 2012, después de perder un juicio con la empresa que le organizaba los seminarios y de que se le reclamaran veinticuatro millones de dólares. La marca siguió funcionando: quebró la sociedad, no el negocio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo defiende diciendo que usar la ley de quiebras es precisamente educación financiera, y tiene parte de razón técnica: para eso existe esa figura. Lo que chirría es leerlo en el autor que enseña a construir activos, y con el dinero de un juicio perdido de por medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y está el negocio de fondo, que conviene mirar de frente: el dinero grande de esta historia no ha salido de los inmuebles ni de las empresas del padre rico, ha salido de vender libros, juegos, cursos y licencias de una marca. La fortuna que demuestra la tesis se hizo contando la tesis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no la invalida —hay gente que se hace rica enseñando y no por eso enseña mal—, pero cambia dónde hay que poner la atención. Cuando alguien te explica cómo se hizo rico y la respuesta real es «escribiendo esto que estás leyendo», ya sabes qué parte del método puedes copiar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y está el asunto de los seminarios, que es el que más daño ha hecho. Empresas con licencia de su marca ofrecían charlas gratuitas que terminaban vendiendo cursos de miles de dólares, con una técnica documentada por programas de televisión: animar a los asistentes a llamar al banco para subirse el límite de la tarjeta.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el patrón del género y conviene reconocerlo, porque se repite en el estante. «Dinero: domina el juego», de Robbins, tiene el mismo problema con otra cara: un libro excelente en una parte que funciona además como puerta de entrada a servicios que cobran aparte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una omisión que dice mucho. En trescientas páginas sobre cómo hacerse rico no aparece ni una vez la opción que casi todos los economistas recomiendan a una persona normal: invertir de forma periódica y diversificada en fondos indexados de coste bajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay otra ausencia que se nota al releerlo con lápiz: en todo el libro casi no hay números. Ni una operación completa con su precio de compra, su alquiler, sus gastos y su rentabilidad; solo escenas, definiciones y consejos. Un libro de finanzas sin una sola cuenta desarrollada es un aviso en sí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No aparece porque es aburrida, no necesita ningún curso y no da ninguna sensación de estar dentro de un secreto. En esta misma categoría está el libro que sí la explica, el de Bogle, que además demuestra con datos por qué gana casi siempre a lo demás a treinta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste entre los dos autores es casi cómico. Bogle fundó la gestora que popularizó los fondos indexados y renunció a hacerse inmensamente rico con ella por no cobrarles de más a sus clientes; Kiyosaki vende cursos sobre cómo hacerse rico. Los dos hablan del mismo dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y falta el contraste de los datos. «El millonario de al lado» encuestó a miles de patrimonios reales y encontró lo contrario de esta película: gente aburrida, con coches usados y casas normales, que se hizo rica gastando por debajo de lo que ganaba durante veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un libro entero apoyado en un maestro sin apellidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un autor que quebró una sociedad y nunca la marca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ni una línea sobre lo único que le funciona a la mayoría.",
+        },
+      ],
+    },
+    {
+      titulo: "Qué hacer con él",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Después de todo eso, la pregunta honrada es si merece la pena leerlo, y la respuesta es que sí, con la misma precaución con la que uno escucha a un cuñado que ha ganado dinero: la observación puede ser buena y el consejo puede arruinarte.",
         },
         {
           forma: "clave",
           rotulo: "Cómo leerlo",
-          frase: "Quédate con el marco mental y desconfía de cada táctica concreta. Es un libro para cambiar la pregunta, no para seguir instrucciones.",
+          frase: "Quédate con el marco mental y desconfía de cada táctica concreta. Es un libro para cambiar la pregunta que uno se hace, no para seguir instrucciones.",
         },
         {
           forma: "texto",
           texto:
-            "Dicho eso, se han vendido más de cuarenta millones de ejemplares y a mucha gente le hizo mirar su dinero por primera vez. Ese mérito es real: la educación financiera no se enseña en la escuela, y este libro ocupó el hueco. Solo conviene no confundir el que abre la puerta con el que sabe el camino.",
+            "Dicho de otro modo: sirve para el diagnóstico y no para el tratamiento. Nombra bien el problema —el sueldo se lo come el gasto fijo y nadie te ha enseñado a mirarlo—, y a partir de ahí conviene cambiar de manos, igual que uno no se opera con el que le detectó el bulto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sobrevive son cuatro cosas. La primera, la definición: mira cada compra grande preguntándote si a fin de mes mete dinero o lo saca, y no si sube de precio. Esa pregunta sola cambia decisiones de decenas de miles de euros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aplicada a lo cotidiano es más útil todavía. El coche de empresa, el trastero, la segunda residencia en la playa o el local que se compró para alquilar: cada uno de ellos se puede clasificar en treinta segundos mirando el extracto de los últimos doce meses, y no todos caen donde uno cree.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda, la carrera de la rata: cada subida de sueldo es una oportunidad de comprar libertad o de comprar un gasto fijo nuevo, y casi todo el mundo elige lo segundo sin darse cuenta de que ha elegido. Verlo por escrito es lo que hace que se pueda decidir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La manera de aprovechar eso es de una sencillez ridícula: cuando llegue una subida, decidir qué porcentaje de ella no va a tocar el nivel de vida y automatizarlo antes de acostumbrarse. Después de dos meses ya no se echa de menos, y esa es toda la magia del asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera, elegir los primeros trabajos por lo que enseñan. Y la cuarta, que la educación financiera no se da en ninguna escuela y que hay que buscarla por cuenta propia, que es exactamente el hueco que este libro ocupó durante veinticinco años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hueco es real y sigue abierto. En España se sale del instituto sabiendo derivar y sin haber visto nunca una nómina, un tipo de interés compuesto ni la diferencia entre una comisión del uno y del dos por ciento. Que el primer libro de dinero de mucha gente sea este es un síntoma, no una elección.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y explica por qué conviene discutirlo con cuidado en vez de despacharlo. Reírse de este libro delante de alguien a quien le cambió la cabeza a los veinte años no enseña nada; separar la parte que le sirvió de la que le puede arruinar, sí. Esa es la operación que merece la pena.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que hay que dejar en la página es todo lo demás: el apalancamiento agresivo, el desprecio a la diversificación, las estructuras fiscales de otro país, las prisas y la idea de que el ahorro constante es de pobres de espíritu. Ahí es donde el libro se vuelve peligroso de verdad.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resumen de todo, si hay que llevarse una sola frase, es que este libro acierta al decir que el dinero se entiende mirando por dónde entra y por dónde sale, y falla en casi todo lo que propone hacer después de haberlo entendido. Vale la pena por la primera mitad de esa frase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para el paso siguiente, el orden en esta biblioteca está bastante claro. De aquí se sale hacia «El millonario de al lado», que trae los datos; hacia Bogle, que trae el instrumento; y hacia «La psicología del dinero», de Housel, que explica por qué la gente lista hace tonterías con su dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si hubiera que quedarse con uno solo de los tres, el de Housel, porque contesta a la pregunta que este ni se hace: por qué la gente que sabe perfectamente lo que debería hacer con su dinero hace otra cosa. El comportamiento explica más resultados que cualquier estrategia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y para quien quiera la versión seria de invertir en inmuebles, que es lo que este promete y no enseña, hace falta salir del estante de la autoayuda: números concretos, gastos reales, impuestos de aquí y años malos incluidos. Ninguna de esas cuatro cosas aparece en estas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene leerlo junto a su antepasado directo, «Piensa y hazte rico», de 1937, que está en esta misma categoría y comparte virtudes y defectos: una idea buena sobre la cabeza, ninguna prueba, y un autor cuya biografía no resiste una comprobación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos comparten además el mismo truco de fondo: presentar como conocimiento reservado lo que en realidad es una mezcla de sentido común y biografía inventada. Funciona porque a nadie le apetece oír que la respuesta es ahorrar un porcentaje fijo durante treinta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La prueba más rápida para cualquier libro de dinero es mirar qué te pide hacer al terminarlo. Si te pide abrir una cuenta barata y olvidarte diez años, está de tu lado. Si te pide llamar a alguien, apuntarte a algo o comprar el siguiente, ya has visto de qué lado está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa prueba en la mano, tres de los libros más vendidos de esta categoría suspenden: este, «Piensa y hazte rico» y buena parte de «Dinero: domina el juego». Y aprueban los aburridos: Babilonia, Bogle, el millonario de al lado y Housel. La correlación no es casualidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este pide las dos cosas a la vez, y por eso divide tanto: una parte del libro te empuja a mirar tus números por primera vez en la vida, y la otra te empuja hacia un seminario. Se puede coger la primera y dejar la segunda, y esa es exactamente la manera de leerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El veredicto justo, entonces, es doble y no hace falta elegir. Como puerta de entrada a pensar en el dinero, funciona mejor que casi cualquier otro libro y por eso ha vendido lo que ha vendido. Como guía de lo que hay que hacer después, es de los peores consejeros disponibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cambia la pregunta y quédate con eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las tácticas concretas, déjalas donde están.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Abre la puerta bien, y luego pregúntale el camino a otro.",
         },
       ],
     },
