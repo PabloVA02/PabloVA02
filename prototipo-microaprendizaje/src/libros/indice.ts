@@ -17,7 +17,7 @@ import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
 import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS, INVERSOR_INTELIGENTE, CERO_A_UNO, ANTIFRAGIL } from "./economia";
 import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA, NUDGE, DEEP_WORK, PODER_AHORA } from "./psicologia";
 import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY, SENOR_MOSCAS, DRACULA, VIEJO_MAR, ODISEA, SOMBRA_VIENTO, NOMBRE_ROSA } from "./literatura";
-import { ARTE_GUERRA, ETICA_AMADOR, TAO_TE_CHING } from "./filosofia";
+import { ARTE_GUERRA, ETICA_AMADOR, TAO_TE_CHING, ENQUIRIDION } from "./filosofia";
 import { ORGULLO_PREJUICIO, GUARDIAN_CENTENO, PEDRO_PARAMO } from "./literatura";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
@@ -171,6 +171,7 @@ export const RESUMENES: Record<string, Resumen> = {
   "milagro-manana": MILAGRO_MANANA,
   "musica-primos": MUSICA_PRIMOS,
   "tatuador": TATUADOR,
+  "enquiridion": ENQUIRIDION,
 };
 
 export function comprobar() {

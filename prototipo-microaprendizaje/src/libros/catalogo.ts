@@ -77,7 +77,7 @@ export const CATALOGO: Ficha[] = [
   { id: "brevedad-vida", titulo: "Sobre la brevedad de la vida", autor: "Séneca", ano: 49, categoria: "Filosofía", estado: "escrito" },
   { id: "sisifo", titulo: "El mito de Sísifo", autor: "Albert Camus", ano: 1942, categoria: "Filosofía", estado: "escrito" },
   { id: "cuatro-acuerdos", titulo: "Los cuatro acuerdos", autor: "Miguel Ruiz", ano: 1997, categoria: "Filosofía", estado: "escrito" },
-  { id: "enquiridion", titulo: "Enquiridión", autor: "Epicteto", ano: 125, categoria: "Filosofía", estado: "pendiente" },
+  { id: "enquiridion", titulo: "Enquiridión", autor: "Epicteto", ano: 125, categoria: "Filosofía", estado: "escrito" },
   { id: "tao", titulo: "Tao Te Ching", autor: "Lao Tsé", ano: -400, categoria: "Filosofía", estado: "escrito" },
   { id: "sutil-arte", titulo: "El sutil arte de que casi todo te importe una mierda", autor: "Mark Manson", ano: 2016, categoria: "Filosofía", estado: "escrito" },
   { id: "etica-amador", titulo: "Ética para Amador", autor: "Fernando Savater", ano: 1991, categoria: "Filosofía", estado: "escrito" },
