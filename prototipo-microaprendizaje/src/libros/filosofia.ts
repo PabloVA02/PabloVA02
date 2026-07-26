@@ -3800,3 +3800,604 @@ export const MONJE_FERRARI: Resumen = {
     },
   ],
 };
+
+export const MUNDO_SOFIA: Resumen = {
+  id: "mundo-sofia",
+  titulo: "El mundo de Sofía",
+  autor: "Jostein Gaarder",
+  ano: 1991,
+  gancho: "Un profesor de instituto noruego escribió un curso de historia de la filosofía disfrazado de novela de misterio para adolescentes. Fue el libro más vendido del mundo en 1995.",
+  porQue:
+    "Porque es la única puerta de entrada a la filosofía que ha funcionado con millones de personas, y porque lo que deja fuera —todo lo que no sea Europa, casi todas las mujeres y buena parte del siglo veinte— es tan revelador como lo que mete.",
+  partes: [
+    {
+      titulo: "¿Quién eres?",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un pueblo de Noruega, principios de los años noventa. Una chica de catorce años llamada Sofie Amundsen vuelve del instituto, abre el buzón y encuentra un sobre blanco con su nombre, sin sello y sin remitente. Dentro hay una hoja con una sola frase escrita a mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase es una pregunta: quién eres. Sofie la lee, la deja, vuelve a cogerla y se pasa la tarde dándole vueltas sin conseguir una respuesta que la satisfaga. Al día siguiente llega un segundo sobre con otra pregunta: de dónde viene el mundo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El planteamiento",
+          frase: "Esas dos preguntas son, según el libro, el punto de partida de toda la filosofía occidental. Y la observación que hace a partir de ahí es su mejor idea: que casi todos los niños se las hacen alguna vez y que casi ningún adulto se las sigue haciendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los sobres siguen llegando y se convierten en un curso por correspondencia. Los envía un hombre llamado Alberto Knox, filósofo, que le va mandando lecciones cada vez más largas sobre la historia del pensamiento occidental, desde los griegos hasta el siglo veinte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el mecanismo del libro: una novela de misterio adolescente que sirve de envoltorio a un manual de historia de la filosofía. Sofie aprende y el lector aprende con ella, y la trama policíaca mantiene el interés mientras se explica a Parménides.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor es Jostein Gaarder, nacido en Oslo en 1952, que durante unos once años dio clase de filosofía en un instituto de Bergen. Escribía por las tardes y había publicado ya varios libros sin ninguna repercusión fuera de Noruega.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese detalle explica el libro entero: no lo escribió un catedrático divulgando hacia abajo, sino un profesor de secundaria que llevaba una década comprobando en clase qué explicaciones funcionaban con chicos de dieciséis años y cuáles los dormían.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se publicó en Noruega en 1991 y ocurrió algo que no le pasa a los libros noruegos: se tradujo a más de sesenta idiomas, vendió decenas de millones de ejemplares y en 1995 fue el libro más vendido del mundo en cualquier idioma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para hacerse una idea de lo improbable que era eso: Noruega tenía entonces poco más de cuatro millones de habitantes, y la literatura noruega apenas se traducía. Un manual de filosofía para adolescentes escrito en noruego no debería haber salido de Escandinavia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En España se convirtió en uno de esos libros que se regalan por Navidad a los sobrinos y que están en la estantería de casi cualquier casa con adolescentes de los años noventa, aunque en muchos casos nadie lo terminara.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo primero que hay que aclarar",
+          frase: "No es un libro infantil. Está escrito para adolescentes y para adultos sin formación filosófica, tiene más de seiscientas páginas, y las lecciones sobre Kant o sobre Hegel exigen atención de verdad. Mucha gente lo abandona hacia la mitad y por buenas razones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su estructura es cronológica y bastante clásica: los mitos, los presocráticos, Sócrates, Platón, Aristóteles, los helenistas, la Edad Media, el Renacimiento, el racionalismo, el empirismo, Kant, el romanticismo, Hegel, Kierkegaard, Marx, Darwin, Freud y el existencialismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada uno recibe entre diez y quince páginas, con ejemplos cotidianos y con Sofie interrumpiendo para preguntar lo que preguntaría cualquier lector. Ese recurso, que parece menor, es lo que separa este libro de un manual escolar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Porque las preguntas de Sofie son las buenas: por qué me tengo que creer eso, en qué se diferencia de lo anterior, qué tiene esto que ver conmigo. Un manual no las hace y un profesor de instituto con once años de aula las oye todos los días.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de empezar con los griegos, el libro plantea la imagen que ha hecho fortuna y que resume su posición sobre para qué sirve todo esto. Es la imagen de un conejo blanco saliendo de una chistera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso dedica un capítulo a explicar qué distingue a la filosofía de otras maneras de preguntar, y usa una comparación que funciona: no se parece a una asignatura con temario, sino a un oficio que se aprende practicándolo, como la carpintería o la natación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su definición operativa es que un filósofo es alguien que se toma en serio preguntas que no tienen respuesta comprobable y que sin embargo hay que contestar de alguna manera para poder vivir: qué está bien, qué se puede saber, qué es una persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hace una distinción que le sirve para todo el libro: la ciencia contesta preguntas sobre cómo funcionan las cosas y la filosofía se ocupa de las que quedan cuando la ciencia ha terminado de contestar, que no son pocas y no son menores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También avisa de algo que conviene tener presente al leerlo: que casi ninguna de las teorías que va a contar es correcta tal como se formuló, y que se estudian igualmente porque cada una es un intento honesto de resolver un problema que seguimos teniendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El universo entero es ese conejo, sacado de un sombrero vacío por un truco que nadie ha visto hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y nosotros somos unos bichos diminutos que vivimos en su pelo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El conejo blanco",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La metáfora completa es esta: los seres humanos somos insectos minúsculos que nacen en la punta de uno de los pelos del conejo, desde donde se ve al mago y se ve lo increíble que resulta que ese animal esté ahí. Y desde ahí casi todos empezamos a bajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bajamos hacia la raíz del pelo porque abajo se está más cómodo y más caliente, y porque ahí nadie hace preguntas incómodas. Los niños viven arriba, en la punta, asombrados de todo. Los adultos se han instalado en la comodidad de la piel y ya no miran.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La definición de filósofo que da el libro",
+          frase: "El que intenta subir otra vez por el pelo para mirar al mago a los ojos. No alguien que sabe muchas respuestas, sino alguien que ha conservado o recuperado la capacidad de asombrarse por que exista algo en lugar de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa imagen es lo mejor del libro y no es exactamente filosofía: es pedagogía. Le dice a un adolescente que su tendencia a hacer preguntas raras no es una tontería que se le pasará con la edad, sino exactamente lo que han hecho todos los que aparecen en este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El recorrido empieza donde empieza siempre: en las colonias griegas de Asia Menor, en el siglo sexto antes de Cristo, cuando unos cuantos hombres dejaron de explicar el mundo con dioses y empezaron a buscar explicaciones dentro del propio mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tales de Mileto dijo que todo venía del agua, Anaxímenes que del aire y Heráclito que todo fluye y que nadie se baña dos veces en el mismo río. Ninguna de esas respuestas es correcta y todas comparten algo nuevo: no mencionan a ningún dios.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Gaarder subraya bien lo que importa de ese momento: no las respuestas, sino el cambio de método. Preguntarse de qué está hecho el mundo suponiendo que hay una respuesta averiguable es el gesto que funda a la vez la filosofía y la ciencia.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Demócrito recibe un tratamiento especialmente cuidado porque su intuición resultó ser cierta: propuso que la materia está hecha de partículas indivisibles, eternas y de formas distintas, que se combinan y se separan. Lo dedujo sin ningún instrumento, dos mil trescientos años antes de que se comprobara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Sócrates el libro cambia de tono y explica bien por qué es una figura distinta de todas las anteriores: no dejó nada escrito, no cobraba por enseñar, decía que lo único que sabía era que no sabía nada, y se dedicaba a preguntar en la plaza hasta desmontar a quien tuviera delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su método consistía en fingir ignorancia y hacer preguntas cada vez más precisas hasta que el interlocutor descubría solo que sus certezas no se sostenían. Lo llamaba partear ideas, porque su madre era comadrona y él decía dedicarse a lo mismo con las mentes.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo terminó",
+          frase: "Lo juzgaron en Atenas en el año 399 antes de Cristo por corromper a la juventud y no creer en los dioses de la ciudad. Podía haber pedido el destierro y aceptó la cena de cicuta, sosteniendo que huir habría contradicho todo lo que había enseñado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Platón, que era su discípulo y que tenía veintiocho años cuando aquello ocurrió, dedicó el resto de su vida a escribir diálogos en los que Sócrates sigue hablando, y a construir una escuela que duró novecientos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su idea central es que el mundo que vemos es una copia imperfecta de otro mundo de formas perfectas y eternas, y que lo que conocemos de verdad no lo aprendemos por los sentidos sino por la razón, recordando algo que el alma ya sabía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El libro explica eso con el mito de la caverna, que es la imagen más famosa de la filosofía occidental: unos prisioneros encadenados desde niños mirando sombras proyectadas en una pared, convencidos de que esas sombras son la realidad entera.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hace la observación que hay que hacer sobre el final del mito: el prisionero que sale, ve el sol y vuelve para contarlo no es recibido con gratitud. Los demás se ríen de él y, dice Platón, lo matarían si pudieran. Está hablando de su maestro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aristóteles le da la vuelta a todo eso y el libro lo cuenta bien: fue alumno de Platón durante veinte años y acabó sosteniendo lo contrario, que no hay ningún mundo de las ideas y que lo que existe son las cosas concretas que se pueden observar y clasificar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Clasificó plantas, animales, formas de gobierno, tipos de argumento y géneros literarios, y su manera de ordenar el conocimiento estructuró la ciencia europea durante casi dos mil años, a veces con consecuencias buenas y a veces frenando lo que contradecía sus categorías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de los griegos, el libro atraviesa deprisa la Edad Media y el Renacimiento, y llega a un francés que decidió empezar de cero dudando de absolutamente todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa travesía es una de las partes más apresuradas y merece un apunte: mil años de pensamiento medieval se resuelven en dos capítulos, con Agustín de Hipona y Tomás de Aquino como únicos representantes de un periodo enormemente más variado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí explica bien es el problema que ocupó a esos mil años y que no era una tontería: cómo encajar una revelación religiosa que se acepta por fe con una tradición filosófica griega que se acepta por razonamiento, cuando las dos afirman cosas incompatibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La solución de Tomás de Aquino —dos caminos distintos que no pueden contradecirse porque llevan al mismo sitio— estructuró el pensamiento europeo durante siglos, y buena parte de la ciencia moderna nació peleándose precisamente con ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del Renacimiento destaca un cambio de posición más que un sistema: el ser humano deja de ser una criatura colocada en un orden y pasa a considerarse capaz de investigar por su cuenta, medir, experimentar y contradecir a las autoridades antiguas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Pienso, luego existo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "René Descartes se propuso en el siglo diecisiete algo que nadie había intentado con esa radicalidad: dudar de todo lo que se pudiera dudar, para ver si quedaba algo en pie. Dudó de sus sentidos, de la existencia del mundo exterior y de su propio cuerpo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento es que los sentidos engañan a veces, que en los sueños uno está convencido de estar despierto, y que podría existir un genio maligno dedicado a hacerle creer cosas falsas. Con eso desmontó todo lo que creía saber.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que quedó",
+          frase: "Que mientras dudaba, algo estaba dudando. Se puede dudar de todo menos del hecho de que hay alguien dudando. De ahí sale la frase más famosa de la filosofía: pienso, luego existo, que es lo único que resistió a la demolición.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de esa única certeza intentó reconstruir el edificio entero, y ahí el libro señala con honestidad que sus argumentos posteriores son bastante más flojos: para llegar de vuelta al mundo exterior tuvo que demostrar antes la existencia de Dios, y esa demostración convence a poca gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Descartes dejó además un problema que la filosofía lleva cuatro siglos sin resolver: separó tajantemente la mente de la materia, y en cuanto se separan hay que explicar cómo se relacionan. Cómo puede una decisión mental mover un brazo físico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su propia respuesta, que la conexión estaba en una glándula del cerebro, es la parte más ridiculizada de su obra. El problema, en cambio, sigue absolutamente vigente y es hoy uno de los asuntos centrales de la filosofía de la mente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Frente a esa tradición racionalista, el libro presenta la británica: los empiristas sostenían lo contrario, que la mente al nacer es una hoja en blanco y que todo lo que hay en ella ha entrado por los sentidos. Nada es innato y todo se aprende.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "David Hume es el que lleva esa idea hasta el final y el que produce las consecuencias más incómodas, y Gaarder lo explica con un ejemplo que cualquiera entiende: la causalidad. Vemos una bola chocar con otra y decimos que la primera ha causado el movimiento de la segunda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hume señala que no hemos visto ninguna causa. Hemos visto una bola moverse, luego un contacto, luego la otra moviéndose. La conexión causal no está en lo observado: la ponemos nosotros por costumbre, porque hemos visto esa secuencia muchas veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale el problema de la inducción, que es uno de los pocos asuntos de la filosofía que sigue sin solución aceptada: no hay ninguna justificación lógica para suponer que el futuro se va a parecer al pasado, y sin embargo toda la ciencia lo supone.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El otro golpe de Hume",
+          frase: "Que de una descripción de cómo son las cosas no se puede deducir cómo deben ser. De que algo sea natural, frecuente o antiguo no se sigue que sea bueno. Ese salto ilegítimo se sigue haciendo hoy en casi cualquier discusión pública.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kant es el capítulo más difícil del libro y también el mejor resuelto. Su punto de partida es que Hume lo despertó de un sueño, y su solución consiste en aceptar que Hume tenía razón sobre lo que entra por los sentidos y añadir algo que nadie había visto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que el conocimiento no es solo lo que llega de fuera: es el resultado de lo que llega de fuera pasado por unas estructuras que la mente pone. El espacio, el tiempo y la causalidad no están en las cosas: son las gafas con las que percibimos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La metáfora de las gafas es de Gaarder y funciona muy bien: si llevas unas gafas rojas que no te puedes quitar, todo lo verás rojo, y no podrás saber nunca de qué color son las cosas en sí mismas. Pero sí sabrás con certeza que las verás rojas.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con eso Kant salva la ciencia y le pone un límite a la vez: podemos conocer con seguridad cómo se nos aparece el mundo y no podemos saber nada de cómo es en sí mismo, con lo cual las preguntas sobre Dios, el alma o el universo entero quedan fuera del alcance de la razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entre medias, el libro dedica un capítulo a un obispo irlandés llamado Berkeley que sostenía algo que a Sofie le parece una locura y que en la trama de la novela no está puesto por casualidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Berkeley sostenía que no existe ninguna materia. Que todo lo que llamamos mundo es un conjunto de percepciones, y que existe únicamente porque hay una mente que lo percibe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una mente superior en la que todo lo demás está pensado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alberto le explica esa teoría a Sofie justo antes de que las dos descubran algo sobre sí mismas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena entender por qué la teoría de Berkeley no es tan absurda como suena. Su argumento es que todo lo que sabemos del mundo son percepciones, y que afirmar que además existe una materia detrás de esas percepciones es añadir algo que nadie ha percibido nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie ha visto jamás la materia: se ven colores, se oyen sonidos, se tocan superficies. La materia es una hipótesis que ponemos debajo para explicar la regularidad de todo eso, y Berkeley sostiene que esa hipótesis es innecesaria y no se puede comprobar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta a la objeción obvia —si el mundo solo existe percibido, ¿deja de existir mi habitación cuando salgo?— es que hay una mente que lo percibe todo continuamente, y que esa mente es Dios. El mundo existe porque está siendo pensado sin interrupción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una teoría que casi nadie sostiene hoy y que es sorprendentemente difícil de refutar sin dar por supuesto lo que hay que demostrar. El doctor Johnson intentó rebatirla dándole una patada a una piedra, y esa patada no rebate absolutamente nada.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El truco del libro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Desde el principio de la novela ocurren cosas que no encajan. Sofie encuentra en el bosque postales dirigidas a una chica que no conoce, llamada Hilde Møller Knag, con felicitaciones por su cumpleaños de un padre que firma como Albert Knag, mayor del ejército noruego destinado en el Líbano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las postales aparecen en sitios imposibles: dentro de un libro, debajo de una piedra, en el forro de un abrigo. Están fechadas en el futuro. Y en varias de ellas Albert le pide a Hilde que le dé recuerdos a Sofie, que es exactamente lo que no debería poder hacer.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que acaban descubriendo",
+          frase: "Que Sofie y Alberto no existen. Son personajes de un libro que el mayor Albert Knag está escribiendo en el Líbano como regalo de quince cumpleaños para su hija Hilde. Todo el curso de filosofía es un texto dentro de otro texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El momento en que lo entienden está colocado justo después del capítulo sobre Berkeley, y esa colocación es la mejor decisión del libro entero. Berkeley dice que todo existe porque hay una mente que lo piensa, y a la página siguiente Sofie descubre que ella es exactamente eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La teoría deja de ser una rareza de un obispo del siglo dieciocho y pasa a ser la descripción literal de la situación de la protagonista. Es filosofía convertida en trama, y es lo que hace que este libro sea una novela y no un manual con diálogos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí la novela cambia de género. Alberto, que sabe filosofía, se pone a diseñar un plan de fuga: escapar del libro aprovechando los momentos en que el autor se distrae, y hacerlo precisamente durante la fiesta de cumpleaños de Sofie.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Mientras tanto, la segunda mitad se cuenta también desde el otro lado: Hilde recibe el manuscrito el día de su cumpleaños, lo lee, y a partir de cierto punto empieza a compadecerse de Sofie y a enfadarse con su padre por lo que le está haciendo a un personaje.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí aparece la pregunta que el libro estaba preparando desde la primera página, y que no es un juego literario: si Sofie está escrita por Albert, ¿quién está escribiendo a Albert? ¿Y quién está escribiendo a Hilde? ¿Y quién nos está escribiendo a nosotros?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pregunta conecta con toda la tradición que el libro ha ido contando: con el determinismo de Spinoza, con la libertad de Sartre, con la idea de que uno es producto de sus circunstancias y con la de que uno se hace a sí mismo eligiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tramo final del libro atraviesa el romanticismo, Hegel y su idea de que la verdad es histórica y avanza por contradicciones, Kierkegaard y su insistencia en el individuo concreto frente a los sistemas, Marx, Darwin y Freud.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo agrupa a esos tres",
+          frase: "Marx, Darwin y Freud como los tres que descentraron al ser humano: uno le dijo que su pensamiento depende de su posición económica, otro que desciende de otros animales y el tercero que no es dueño de su propia cabeza. Entre los tres desmontaron al sujeto autónomo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y termina con el existencialismo de Sartre, con su idea de que en el ser humano la existencia precede a la esencia: que no hay una naturaleza humana previa que haya que cumplir, y que por eso estamos, en su expresión, condenados a ser libres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El último capítulo del recorrido no es filosófico sino cosmológico: el Big Bang, la expansión del universo y la idea de que mirar el cielo estrellado es mirar hacia atrás en el tiempo, porque la luz de esas estrellas salió hace millones de años.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese final vuelve al conejo blanco del principio y cierra el círculo: la pregunta de dónde viene el mundo, que abría el libro en un sobre sin sello, termina en una explosión de la que salió todo, incluidos los átomos de los que está hecha Sofie, que no existe.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El desenlace del plan de fuga no se cuenta aquí, y sí conviene decir que es más raro y más ambiguo de lo que un lector espera, y que hay lectores a los que les parece brillante y otros a los que les parece una trampa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí se puede decir es que Gaarder no resuelve la pregunta que ha planteado, y que probablemente esa sea la decisión correcta en un libro cuyo objetivo declarado es que el lector se quede con las preguntas abiertas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda entonces lo que el libro no cuenta, que en un manual de historia de la filosofía importa tanto como lo que cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes conviene señalar una decisión de la novela que suele pasar desapercibida y que es la más ambiciosa: que el lector real está en la misma posición que Hilde. También nosotros estamos leyendo un libro sobre alguien que lee un libro sobre alguien que descubre que está en un libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa estructura de muñecas rusas no es un adorno: es la manera de que la pregunta llegue hasta fuera de la página. Si Sofie no puede saber que la están escribiendo hasta que se lo dicen, la pregunta de qué determina nuestras decisiones deja de ser abstracta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo problema que la filosofía lleva discutiendo desde los estoicos con otro vocabulario: si todo lo que hacemos está determinado por causas anteriores —la genética, la infancia, la clase social, la química del cerebro—, en qué sentido decidimos algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gaarder no contesta esa pregunta y hace algo mejor para un libro dirigido a alguien de dieciséis años: la convierte en una situación concreta con una chica intentando escaparse de las páginas donde vive, que es una imagen que no se olvida.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El cumpleaños de Hilde",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El primer hueco es el más grande y el más fácil de nombrar: este libro es una historia de la filosofía occidental y se presenta como una historia de la filosofía. La palabra occidental no está en el título ni en la portada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No aparecen el pensamiento chino ni el indio, que son tradiciones tan antiguas y tan elaboradas como la griega. Confucio, Lao Tsé, el budismo, las escuelas hindúes o el pensamiento japonés no reciben capítulo, y en muchos casos no reciben ni una mención.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La ausencia más incómoda",
+          frase: "La filosofía árabe e islámica medieval, que aparece de pasada y solo como transmisora: como los que conservaron a Aristóteles hasta que Europa pudo recuperarlo. Avicena y Averroes fueron filósofos con obra propia, no unos bibliotecarios que guardaron lo griego.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo hueco es el de las mujeres, y es demoledor si uno cuenta las páginas. En seiscientas páginas de historia del pensamiento aparecen mencionadas dos o tres, casi siempre de pasada, y ninguna recibe el tratamiento que reciben los treinta y tantos hombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se puede alegar que la filosofía académica excluyó a las mujeres durante siglos, y es verdad. Y aun así había material: Hipatia de Alejandría, Hildegarda de Bingen, Mary Wollstonecraft, Simone Weil, Hannah Arendt, Simone de Beauvoir o Iris Murdoch.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Gaarder ha reconocido después esa crítica y ha dicho que hoy escribiría el libro de otra manera. En las ediciones posteriores no se ha corregido, así que quien lo lea hoy se encuentra con la misma lista de 1991.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El tercer hueco es el siglo veinte, y es el que más sorprende a quien viene de estudiar filosofía. Toda la tradición analítica está prácticamente ausente: Frege, Russell y Wittgenstein no tienen capítulo, y la filosofía del lenguaje y de la ciencia apenas se rozan.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso significa que un lector que termine el libro tendrá una idea razonable de lo que pensaba Kant y ninguna de lo que ha hecho la filosofía en los últimos cien años, que es precisamente el periodo que más le afecta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto reparo es de compresión. Diez páginas por filósofo obligan a reducir cada sistema a un eslogan, y algunos quedan caricaturizados: Nietzsche sale bastante mal parado, Hegel queda reducido a una fórmula de tres pasos que él no usó así, y el estoicismo se despacha en un párrafo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el quinto es literario. Los personajes son funciones: Sofie existe para preguntar y Alberto para explicar, y hay capítulos enteros que son una conferencia con alguien diciendo que sí cada dos páginas. Como novela, la primera mitad es floja.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que compensa todo eso",
+          frase: "Que funciona. Millones de personas leyeron su primera página de filosofía aquí, y una parte de ellas siguió leyendo. No hay ningún otro libro del que se pueda decir eso, y ninguna de las críticas anteriores cambia ese hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad. Lo primero: que es un libro infantil. Es un manual de seiscientas páginas para adolescentes y adultos, con capítulos sobre Kant y sobre Hegel que exigen concentración real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que es una historia completa de la filosofía. Es la historia de una tradición, la europea, y se detiene esencialmente en el siglo diecinueve, con un tratamiento muy escaso de todo lo que vino después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que Gaarder era un filósofo profesional. Era profesor de filosofía en un instituto de Bergen, y ese es probablemente el motivo de que el libro funcione: sabía qué explicaciones aguantan delante de treinta adolescentes a las ocho de la mañana.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y cuarto: que el giro de la trama es un truco para vender. Es el argumento filosófico central del libro, colocado deliberadamente después del capítulo sobre Berkeley, y sin él la novela sería solo un manual con una chica haciendo preguntas.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance justo es este: un manual incompleto, eurocéntrico, sin mujeres y sin siglo veinte, con personajes de cartón y con una idea narrativa excelente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien quiera completar los huecos tiene por dónde. Para el siglo veinte y la tradición analítica, cualquier historia de la filosofía contemporánea cubre en un capítulo lo que aquí no aparece: Frege, Russell, Wittgenstein, el círculo de Viena y Popper.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para las filosofías que no son europeas hay hoy manuales en español que las tratan como tradiciones con obra propia y no como curiosidades exóticas, y para las filósofas hay antologías que recorren desde Hipatia hasta Anscombe con el mismo detalle que este libro dedica a los hombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una recomendación práctica que se deriva de todo esto: leerlo a los quince años es una experiencia y leerlo a los treinta es otra bastante distinta, porque a los treinta uno ya sabe que las preguntas del primer sobre no se contestan y sigue queriendo contestarlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la puerta de entrada por la que ha pasado más gente que por cualquier otra en la historia de esta disciplina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien lo lea hoy debería saber lo que le falta, y sobre todo debería saber que lo que hay dentro es el principio de algo y no el resumen de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que es exactamente lo que dice el propio libro con la imagen del conejo: la filosofía no es un conjunto de respuestas que alguien te enseña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es no haber bajado del todo por el pelo.",
+        },
+      ],
+    },
+  ],
+};
