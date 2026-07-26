@@ -317,6 +317,55 @@ button {
   transform-origin: left center;
 }
 
+/* ==========================================================================
+   El telón de entrada de capítulo.
+
+   Va por encima de la lección entera, con el mismo papel de fondo: no es una
+   pantalla nueva, es la misma que todavía no ha empezado. Por eso no hay
+   sombra ni oscurecido — un velo lo convertiría en un diálogo, y esto no
+   pregunta nada.
+   ========================================================================== */
+
+.entrada-capitulo {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 0 var(--shell-pad);
+  background: var(--paper);
+  cursor: pointer;
+}
+
+.entrada-numero {
+  font-size: calc(13px * var(--texto-escala, 1));
+  font-weight: 640;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--clay);
+}
+
+.entrada-titulo {
+  margin: 0;
+  font-size: calc(30px * var(--texto-escala, 1));
+  line-height: 1.16;
+  font-weight: 720;
+  letter-spacing: -0.026em;
+  text-wrap: balance;
+  color: var(--ink);
+}
+
+.entrada-regla {
+  width: 64px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--clay);
+  transform-origin: left center;
+}
+
 .card-area {
   flex: 1;
   min-height: 0;
@@ -371,10 +420,48 @@ button {
   padding-bottom: 34px;
 }
 
+/* La tarjeta clave es una de cada veinticuatro y es la que hay que recordar,
+   así que deja de ser una página de texto y pasa a ser una PLACA: velo de
+   color, borde propio y una regla arriba. El velo va con las variables de la
+   paleta —`--clay-veil` cambia sola con el tema— y por eso esto funciona
+   igual en claro y en oscuro sin una segunda regla. */
 .bloque-clave {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background: var(--clay-veil);
+  border: 1px solid var(--paper-edge);
+  border-radius: 20px;
+  padding: 26px 24px 30px;
+  box-shadow: 0 18px 34px -26px rgba(0, 0, 0, 0.5);
+}
+
+/* La regla superior no es un adorno: marca dónde empieza la frase y repite el
+   gesto de la barra de progreso de la cabecera. */
+.bloque-clave::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 24px;
+  right: 24px;
+  height: 3px;
+  border-radius: 0 0 3px 3px;
+  background: var(--clay);
+}
+
+/* Marca de cierre en la esquina inferior derecha. Un cuadrado girado es
+   suficiente: cualquier icono compite con la frase, que es lo único que
+   debería mirarse en esta tarjeta. */
+.key-marca {
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+  width: 9px;
+  height: 9px;
+  background: var(--clay);
+  transform: rotate(45deg);
+  transform-origin: center;
 }
 
 /* Con imagen o gráfico, el texto es la entradilla y cede el sitio */
@@ -406,7 +493,7 @@ button {
 
 .key-label {
   display: inline-block;
-  font-size: 14px;
+  font-size: calc(14px * var(--texto-escala, 1));
   font-weight: 640;
   letter-spacing: -0.01em;
   border-bottom: 1.5px solid var(--ink);
@@ -414,14 +501,26 @@ button {
   margin-bottom: 15px;
 }
 
+/* Estas dos medidas se habían quedado fuera de la escala de texto de
+   Ajustes: subir el tamaño agrandaba el capítulo entero menos justo la frase
+   que hay que recordar. */
 .key-statement {
   margin: 0;
-  font-size: 23px;
+  font-size: calc(23px * var(--texto-escala, 1));
   line-height: 1.34;
   font-weight: 640;
   letter-spacing: 0.004em;
   text-transform: uppercase;
   text-wrap: balance;
+}
+
+/* Cada palabra de la frase clave es su propio elemento para poder entrar
+   escalonada. En línea y sin más: el reparto de líneas tiene que salir
+   exactamente igual que si fuera texto corrido. */
+.key-palabra {
+  display: inline-block;
+  white-space: pre;
+  will-change: transform;
 }
 
 .scene-slot {

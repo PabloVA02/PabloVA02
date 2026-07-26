@@ -16,6 +16,7 @@ import { Scene } from "./Scene";
 import { Racha, RetoDiario } from "./Racha";
 import { DetalleLibro, Inicio, LIBROS, type Libro } from "./Biblioteca";
 import { Camino } from "./Camino";
+import { EntradaCapitulo } from "./Capitulo";
 import { Onboarding } from "./Onboarding";
 import { MuroShorts } from "./Shorts";
 import { Pago } from "./Pago";
@@ -257,6 +258,14 @@ export default function App() {
             <Leccion
               key="leccion"
               cartas={cartas}
+              /* El telón de entrada necesita saber en qué parada estás; si el
+                 libro abierto no tiene resumen —el capítulo de Alejandría— no
+                 hay título que anunciar y no se pone telón. */
+              capitulo={
+                resumen?.partes[parte]
+                  ? { numero: parte + 1, total: resumen.partes.length, titulo: resumen.partes[parte].titulo }
+                  : undefined
+              }
               onSalir={() => setPantalla("camino")}
               onFin={() => {
                 const gastado = (Date.now() - arranque.current) / 60000;
@@ -429,8 +438,22 @@ function reloj() {
 const UMBRAL_PX = 62;
 const UMBRAL_VEL = 480;
 
-function Leccion({ cartas, onSalir, onFin }: { cartas: Card[]; onSalir: () => void; onFin: () => void }) {
+function Leccion({
+  cartas,
+  capitulo,
+  onSalir,
+  onFin,
+}: {
+  cartas: Card[];
+  capitulo?: { numero: number; total: number; titulo: string };
+  onSalir: () => void;
+  onFin: () => void;
+}) {
   const [indice, setIndice] = useState(0);
+  /* El telón se levanta solo, pero mientras está puesto la tarjeta de debajo
+     espera: entrar leyendo y a la vez leyendo el título del capítulo es pedir
+     dos cosas a la vez. */
+  const [telon, setTelon] = useState(!!capitulo);
   const [sentido, setSentido] = useState(1);
   const [guardada, setGuardada] = useState(false);
   const reducido = useReducedMotion();
@@ -452,6 +475,9 @@ function Leccion({ cartas, onSalir, onFin }: { cartas: Card[]; onSalir: () => vo
 
   function avanzar(paso: number) {
     const destino = indice + paso;
+    /* Con el telón puesto no se avanza. El telón tapa la tarjeta, así que un
+       teclazo aquí pasaría páginas a ciegas. */
+    if (telon) return;
     if (bloqueado.current) return;
     if (destino < 0) return rebotar(-1);
     if (destino >= cartas.length) return onFin();
@@ -494,6 +520,19 @@ function Leccion({ cartas, onSalir, onFin }: { cartas: Card[]; onSalir: () => vo
       animate={{ opacity: 1, scale: 1, transition: spring }}
       exit={{ opacity: 0, scale: 0.98, transition: { duration: 0.2 } }}
     >
+      <AnimatePresence>
+        {telon && capitulo && (
+          <EntradaCapitulo
+            key="telon"
+            numero={capitulo.numero}
+            total={capitulo.total}
+            titulo={capitulo.titulo}
+            reducido={!!reducido}
+            onFin={() => setTelon(false)}
+          />
+        )}
+      </AnimatePresence>
+
       <div className="lesson-head">
         <button className="icon-btn" onClick={onSalir} aria-label="Cerrar capítulo">
           <GlyphClose />
@@ -512,7 +551,7 @@ function Leccion({ cartas, onSalir, onFin }: { cartas: Card[]; onSalir: () => vo
           <motion.div
             className="track-fill"
             initial={{ scaleX: 0 }}
-            animate={{ scaleX: (indice + 1) / cartas.length }}
+            animate={{ scaleX: telon ? 0 : (indice + 1) / cartas.length }}
             transition={springTight}
           />
         </div>
@@ -536,17 +575,47 @@ function Leccion({ cartas, onSalir, onFin }: { cartas: Card[]; onSalir: () => vo
             data-forma={carta.forma}
             custom={sentido}
             initial={{ opacity: 0, x: sentido * 34 }}
-            animate={{ opacity: 1, x: 0, transition: { ...spring, delay: 0.05 } }}
+            animate={
+              telon
+                ? { opacity: 0, x: 0 }
+                : { opacity: 1, x: 0, transition: { ...spring, delay: 0.05 } }
+            }
             exit={{ opacity: 0, x: sentido * -28, transition: { duration: 0.16 } }}
           >
             {carta.forma === "clave" ? (
+              /* La tarjeta clave es la frase que hay que recordar del
+                 capítulo, y hasta ahora se leía igual que las demás. Ahora
+                 tiene placa propia y entra palabra a palabra: el ojo la
+                 recorre en el orden en que se dice, que es exactamente lo que
+                 no hace con un párrafo que aparece entero de golpe. */
               <div className="bloque-clave">
                 <motion.span className="key-label" custom={0} variants={enterVariants} initial="hidden" animate="shown">
                   {carta.rotulo}
                 </motion.span>
-                <motion.p className="key-statement" custom={1} variants={enterVariants} initial="hidden" animate="shown">
-                  {carta.frase}
-                </motion.p>
+                <p className="key-statement">
+                  {reducido
+                    ? carta.frase
+                    : carta.frase.split(" ").map((palabra, i) => (
+                        <motion.span
+                          key={`${indice}-${i}`}
+                          className="key-palabra"
+                          initial={{ opacity: 0, y: 8 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ ...spring, delay: 0.18 + i * 0.026 }}
+                        >
+                          {palabra}{" "}
+                        </motion.span>
+                      ))}
+                </p>
+                {/* La marca de la esquina se dibuja al final, cuando la frase
+                    ya está puesta: cierra la placa en vez de anunciarla. */}
+                <motion.span
+                  className="key-marca"
+                  aria-hidden="true"
+                  initial={{ opacity: 0, scale: 0.7 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ ...springPop, delay: reducido ? 0 : 0.34 }}
+                />
               </div>
             ) : (
               <>
