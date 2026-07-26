@@ -169,7 +169,7 @@ export const CATALOGO: Ficha[] = [
   { id: "antifragil", titulo: "Antifrágil", autor: "Nassim Taleb", ano: 2012, categoria: "Economía", estado: "escrito" },
   { id: "inversor-inteligente", titulo: "El inversor inteligente", autor: "Benjamin Graham", ano: 1949, categoria: "Economía", estado: "escrito" },
   { id: "piensa-hazte-rico", titulo: "Piensa y hazte rico", autor: "Napoleon Hill", ano: 1937, categoria: "Economía", estado: "escrito" },
-  { id: "mente-millonaria", titulo: "Los secretos de la mente millonaria", autor: "T. Harv Eker", ano: 2005, categoria: "Economía", estado: "pendiente" },
+  { id: "mente-millonaria", titulo: "Los secretos de la mente millonaria", autor: "T. Harv Eker", ano: 2005, categoria: "Economía", estado: "escrito" },
   { id: "cero-a-uno", titulo: "De cero a uno", autor: "Peter Thiel", ano: 2014, categoria: "Economía", estado: "escrito" },
   { id: "lean-startup", titulo: "El método Lean Startup", autor: "Eric Ries", ano: 2011, categoria: "Economía", estado: "escrito" },
   { id: "steve-jobs", titulo: "Steve Jobs", autor: "Walter Isaacson", ano: 2011, categoria: "Economía", estado: "escrito" },

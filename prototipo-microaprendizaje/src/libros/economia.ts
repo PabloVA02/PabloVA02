@@ -3278,3 +3278,699 @@ export const LEAN_STARTUP: Resumen = {
     },
   ],
 };
+
+export const MENTE_MILLONARIA: Resumen = {
+  id: "mente-millonaria",
+  titulo: "Los secretos de la mente millonaria",
+  autor: "T. Harv Eker",
+  ano: 2005,
+  gancho: "Sostiene que la gente tiene un termostato para el dinero, puesto en la infancia, y que por eso quien gana mucho y lo pierde vuelve siempre a su cifra de siempre.",
+  porQue:
+    "Porque su idea central es falsa como explicación de la pobreza y su sistema de los seis botes es de lo mejor que se ha escrito sobre gestionar un sueldo. Conviene saber cuál es cuál.",
+  partes: [
+    {
+      titulo: "El termostato del dinero",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro abre con la historia del autor, contada por él. Un canadiense de treinta y pocos años, sin dinero, viviendo de prestado, después de haber montado y hundido más de una docena de negocios. Un amigo de su padre le da un consejo y él decide seguirlo al pie de la letra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El consejo era: si no te va bien, es que no sabes algo. Busca a alguien a quien le vaya bien, averigua cómo piensa y copia esa manera de pensar. Eker cuenta que montó una tienda de material de fitness, la convirtió en una cadena y la vendió dos años y medio después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir desde el principio que toda esa biografía es autodeclarada. No hay documentación pública de las cifras que menciona, y en un libro que se presenta como manual de enriquecimiento eso no es un detalle menor.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La idea del libro",
+          frase: "Cada persona tiene un termostato financiero puesto en la infancia. Si está ajustado a cincuenta mil al año, ganará cincuenta mil aunque le toque la lotería, porque encontrará la manera de volver a su cifra. Y si está en un millón, se recuperará de cualquier quiebra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llama el modelo interno del dinero, y su afirmación es que se instala antes de los diez años, por tres vías, sin que nadie lo decida y sin que después se pueda ver desde dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera vía es lo que se oyó. Las frases que se repetían en casa sobre el dinero: que no crece en los árboles, que los ricos son unos ladrones, que el dinero es la raíz de todos los males, que hay que conformarse, que la gente como nosotros no llega a eso.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La segunda es lo que se vio. No lo que decían los padres, sino lo que hacían: si guardaban o gastaban, si discutían de dinero a gritos o no hablaban del tema, si abrían las cartas del banco o las dejaban sin abrir encima del mueble.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la tercera son los episodios concretos, que es la parte más convincente del libro. Un despido que se vivió en casa a los ocho años, un embargo, una discusión oída desde la cama, un momento de vergüenza en una tienda. Una escena basta para dejar una regla instalada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo es el de una mujer que asocia el dinero con la desaparición de su padre, porque él trabajaba tanto que no estaba nunca. Cada vez que empieza a ganar más, se boicotea, porque en su cabeza ganar más significa quedarse sola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí el libro está diciendo algo razonable y bien conocido en psicología: que las creencias adquiridas en la infancia se aplican después sin examinarlas, y que las relacionadas con la seguridad y el estatus son especialmente pegajosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema no es esa observación. El problema es lo que construye encima, que es una explicación completa de la riqueza y de la pobreza basada exclusivamente en la cabeza de cada uno.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase que resume el libro",
+          frase: "Tus ingresos solo pueden crecer hasta donde crezcas tú. Es la tesis entera, dicha en once palabras, y es a la vez motivadora y una de las afirmaciones peor fundamentadas que se han vendido en millones de ejemplares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El método que propone para cambiar el termostato tiene cuatro pasos: darse cuenta de qué se cree, entender de dónde viene esa creencia, separarse de ella —ver que es de los padres y no de uno— y sustituirla por otra a base de repetición.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La sustitución se hace con declaraciones: frases que hay que decir en voz alta, todos los días, con la mano en el pecho, y terminando con un gesto de tocarse la cabeza y decir «tengo una mente millonaria».",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Leída en frío, esa escena es difícil de sostener. Y es exactamente lo que se hace en sus seminarios, en salas con cientos de personas repitiéndolo a la vez, que es un contexto donde funciona por razones que no tienen que ver con el dinero.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre las declaraciones sí hay investigación, y no es favorable. Un trabajo bastante citado de 2009 encontró que las frases positivas repetidas mejoran el estado de ánimo de quien ya tiene buena autoestima y lo empeoran en quien la tiene baja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación propuesta es que la frase choca con lo que uno cree de sí mismo y dispara todos los contraargumentos a la vez. Decirse que uno tiene una mente millonaria, estando en números rojos, produce una lista mental de pruebas en contra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: la técnica principal del libro para reprogramar el termostato es probablemente contraproducente justo en el lector al que va dirigida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, la primera parte se lee bien y hace algo útil: obliga a pensar por primera vez de dónde salen las ideas propias sobre el dinero, que es una pregunta que casi nadie se hace.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda parte es distinta. Es una lista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diecisiete diferencias entre cómo piensa la gente rica y cómo piensa la gente pobre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sin una sola encuesta detrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sin un solo estudio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin haber definido en ningún momento qué es ser rico ni qué es ser pobre.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Diecisiete diferencias",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La lista está construida siempre igual: los ricos creen una cosa, los pobres creen la contraria. La primera es la que da el tono: los ricos creen que ellos crean su vida; los pobres creen que la vida les pasa a ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay varias que son razonables y que cualquiera reconocería como consejo sensato. Los ricos, dice, se centran en las oportunidades y los pobres en los obstáculos. Los ricos piensan en grande. Los ricos actúan a pesar del miedo, no cuando se les quita.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La mejor de las diecisiete",
+          frase: "Los ricos se fijan en su patrimonio neto; los pobres, en su sueldo. Es la única de la lista que apunta a una diferencia medible y real: la gente que acumula mira lo que tiene menos lo que debe, no lo que le entra cada mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción sí importa y está bien traída. Un sueldo alto con un coche financiado, una hipoteca al límite y tres tarjetas produce un patrimonio neto que puede ser negativo, y el interesado lo descubre solo cuando pierde el trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otra que aguanta: los ricos eligen cobrar por resultados y los pobres por horas. Es discutible como generalización y señala algo cierto, que es que el tiempo tiene un techo y el resultado no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y otra más: los ricos admiran a otros ricos, los pobres los envidian. La observación que hay debajo es útil: es difícil convertirse en algo que uno desprecia, y quien crea que todos los que tienen dinero son unos sinvergüenzas tiene un conflicto interno servido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hasta aquí, la lista funciona como colección de consejos. El problema aparece cuando se la lee como lo que dice ser: una descripción de por qué unas personas tienen dinero y otras no.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque entonces hay que preguntar de dónde salen esos diecisiete pares. Y la respuesta es que salen de la observación personal del autor y de lo que ha visto en sus cursos. No hay muestra, no hay control, no hay definición y no hay una sola fuente citada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un ejemplo de manual de sesgo de supervivencia. Se mira a un grupo de gente que ha tenido éxito, se apuntan sus rasgos comunes y se concluye que esos rasgos causaron el éxito. Nadie mira a los que tenían los mismos rasgos y fracasaron, porque no dan entrevistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si se preguntara a mil personas arruinadas si piensan en grande, si actúan a pesar del miedo y si se centran en las oportunidades, saldrían muchísimas que sí. Emprender es precisamente eso, y la mayoría de los negocios cierran.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El paso que no se puede dar",
+          frase: "De la observación de que mucha gente rica piensa de cierta manera no se sigue que pensar así te haga rico. Es posible que la causa vaya al revés: tener dinero permite pensar en grande, arriesgar y no obsesionarse con los obstáculos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una consecuencia moral que el libro no examina y que es la razón por la que este género levanta tanto rechazo. Si la pobreza es un modo de pensar, entonces el pobre es responsable de serlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no lo dice con esas palabras y lo dice constantemente. Cada uno de los diecisiete pares atribuye al pobre una creencia defectuosa, y ninguno menciona una sola circunstancia externa en trescientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No aparece la herencia. No aparece el país de nacimiento. No aparece la salud. No aparece el precio de la vivienda. No aparecen los cuidados a cargo. No aparece haber nacido en una familia con estudios o sin ellos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y esas variables no son detalles: son, con diferencia, las que mejor predicen dónde acaba una persona en la escala de ingresos. Es lo que mide la investigación sobre movilidad social, y es lo que el libro sustituye entero por una lista de creencias.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un trabajo muy citado sobre movilidad en Estados Unidos encontró que la proporción de hijos que ganan más que sus padres cayó del noventa por ciento entre los nacidos en 1940 al cincuenta por ciento entre los nacidos en 1980.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El modo de pensar de los nacidos en 1980 no cambió respecto al de sus padres en esa proporción. Lo que cambió fue la distribución del crecimiento, el precio de la vivienda y la estructura del mercado laboral.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mismo tipo de investigación encuentra que el mejor predictor individual de los ingresos de alguien es el ingreso de sus padres, seguido del barrio en el que se crió. Ninguna de las dos cosas es una creencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto significa que la mentalidad dé igual. Significa que es una variable entre muchas, y probablemente no la principal, y que un libro que la presenta como la única está describiendo mal el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho lo cual, hay una parte del libro donde Eker deja de teorizar y da instrucciones concretas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es corta, ocupa un capítulo, y es lo único que ha sobrevivido veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Consiste en repartir cada euro que entra en seis partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de gastar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una de las seis hay que gastársela entera todos los meses, obligatoriamente.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los seis botes",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La regla es simple: en cuanto entra dinero, se reparte en seis cuentas con un porcentaje fijo, y cada cuenta solo sirve para lo suyo. No se decide sobre la marcha ni se mira el saldo total. El reparto va primero y el gasto va después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer bote es el de libertad financiera, y se lleva el diez por ciento. Ese dinero no se toca nunca para gastar: solo se invierte o se guarda para invertir. Es la gallina, dice, y de la gallina no se come, se comen los huevos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla dura",
+          frase: "Del bote de libertad financiera no se saca dinero jamás, ni para una urgencia, ni para una oportunidad, ni para unas vacaciones. Su única función es crecer. En cuanto se abre una excepción, deja de existir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es el de ahorro para gastos grandes, otro diez por ciento: el coche, la reforma, el viaje, el imprevisto. Existe precisamente para que las cosas caras no se paguen a plazos ni salgan del primer bote.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es el de formación, otro diez por ciento: cursos, libros, lo que sea que aumente lo que uno sabe hacer. Es el único gasto que el libro considera inversión sin discusión, y en eso tiene bastante razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto es el de necesidades y se lleva el cincuenta y cinco por ciento: alquiler o hipoteca, comida, suministros, transporte, seguros. Todo lo que hay que pagar sí o sí tiene que caber ahí.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese cincuenta y cinco por ciento es el punto donde el sistema se rompe para muchísima gente. En bastantes ciudades españolas, el alquiler solo ya se lleva del cuarenta al cincuenta por ciento de un sueldo normal, y entonces la cuenta no sale de ninguna manera.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no contempla ese caso. Da los porcentajes como universales, cuando en realidad describen la situación de alguien con un margen que no todo el mundo tiene. Es el mismo punto ciego de toda la obra, aquí en forma de tabla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La adaptación honesta es conservar la estructura y cambiar las cifras: si las necesidades se llevan el setenta y cinco, se reparte el veinticinco restante entre los otros cinco botes con las mismas proporciones relativas. El sistema sigue funcionando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El quinto es el de donación, un cinco por ciento. Y el sexto es el más interesante de los seis y el que nadie esperaba en un libro de este tipo: el bote del disfrute, otro diez por ciento.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La obligación de gastarlo",
+          frase: "El bote del disfrute hay que vaciarlo entero cada mes, en algo puramente placentero y sin utilidad ninguna. Está prohibido ahorrarlo. Y es, de todo el libro, la regla mejor pensada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El razonamiento es psicológico y es correcto. Cualquier plan de ahorro que consista solo en privarse acaba reventando, normalmente en una compra grande y culpable que deshace meses de disciplina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al reservar una cantidad pequeña, fija y de gasto obligatorio, se le da al impulso un sitio acotado donde ocurrir. Es la misma lógica que las dietas que incluyen una comida libre a la semana, y funciona por lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sistema entero tiene tres virtudes que lo hacen mejor que casi cualquier aplicación de finanzas personales. La primera es que reparte antes de gastar, y no al revés, que es lo que hace casi todo el mundo con lo que sobra a fin de mes.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La segunda es que funciona con cualquier cantidad. Eker insiste en que se empiece aunque sean diez euros, porque lo que se está instalando no es el ahorro sino el gesto de repartir, y ese gesto escala solo cuando aumentan los ingresos.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la tercera es que elimina la decisión. Nadie decide cada mes cuánto ahorrar: el porcentaje está decidido, y lo único que se hace es ejecutarlo. Es el mismo principio que hace funcionar cualquier hábito automático.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hoy se puede montar en un banco en diez minutos con cuentas separadas y transferencias programadas el día que entra la nómina. Cuando el libro se publicó, en 2005, había que hacerlo literalmente con botes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una variante que el libro no menciona y que en la práctica funciona mejor: programar las transferencias para el mismo día del ingreso, no para el día siguiente. Un saldo grande visible durante veinticuatro horas basta para que aparezcan gastos que no existían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y otra regla que se deduce del sistema aunque Eker no la formule: si un mes hay que saltarse el reparto, se salta el bote del disfrute y no el de libertad financiera. La tentación siempre empuja en la dirección contraria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El orden importa por una razón concreta: el primer bote es el único cuyo efecto depende de los años que lleve funcionando. Los demás se recuperan; ese, no. Un año sin aportar no se compensa aportando el doble al siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo, con los porcentajes adaptados, se puede recomendar sin reservas. Es concreto, es inofensivo, no depende de creerse ninguna teoría y produce resultados desde el primer mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cual deja una pregunta rara sobre el libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si lo único que funciona es un método de reparto que cabe en cuatro páginas, ¿de qué van las otras doscientas noventa?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sobre todo: ¿por qué la investigación seria sobre pobreza y dinero apunta justo en la dirección contraria a la del libro?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque hay un experimento hecho con agricultores indios que dice algo muy incómodo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que no es la mentalidad la que produce la pobreza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la pobreza la que produce la mentalidad.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los cañeros de Tamil Nadu",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un equipo de investigadores fue al sur de la India a estudiar a agricultores que cultivan caña de azúcar. Esos agricultores cobran una vez al año, cuando se recoge la cosecha, y viven el resto del año estirando ese dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso los convierte en un caso experimental muy poco común: son las mismas personas, con la misma cabeza y la misma educación, que están apuradas en un momento del año y desahogadas en otro. Se les pasaron pruebas cognitivas antes y después de cobrar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El resultado",
+          frase: "Los mismos agricultores rendían claramente peor antes de la cosecha que después. La diferencia, publicada en Science en 2013, era del orden de trece puntos de cociente intelectual. No cambió nada de ellos salvo tener dinero en el bolsillo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación que proponen sus autores, Sendhil Mullainathan y Eldar Shafir, es que la escasez ocupa ancho de banda mental. Tener una preocupación económica activa consume atención de fondo, todo el rato, aunque uno no esté pensando en ella conscientemente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con menos atención disponible se decide peor, se planifica menos, se pospone más y se cae más fácilmente en soluciones a corto plazo que salen caras. Que es exactamente el catálogo de conductas que el libro atribuye a la mentalidad pobre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia es la dirección de la flecha, y no es un matiz: es todo. Eker dice que se piensa así y por eso se es pobre. La investigación dice que se es pobre y por eso, en parte, se piensa así.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los mismos autores hicieron otro experimento en un centro comercial americano: plantearon a los visitantes una avería del coche. Con una reparación barata, ricos y pobres rendían igual en las pruebas. Con una cara, el rendimiento de los de menos ingresos se desplomaba.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hacía falta que la avería fuera real. Bastaba con plantear el problema para que la cabeza se pusiera a resolverlo por debajo y dejara menos recursos para lo demás. Eso es lo que significa que la escasez ocupa ancho de banda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y explica algo que desde fuera parece incomprensible: por qué alguien con problemas de dinero no hace las tres cosas obvias que arreglarían parte de su situación. No es que no las sepa. Es que administrar la escasez ya le está consumiendo la capacidad de decidir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una segunda línea de investigación que también choca de frente con el libro, y es la de la movilidad intergeneracional: cuánto determina la posición de los padres la de los hijos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que mide esa literatura",
+          frase: "En todos los países estudiados, el ingreso de los padres es el mejor predictor individual del ingreso de los hijos, con diferencias grandes entre países. La mentalidad no aparece en esos modelos, y no porque no la hayan buscado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En algunos países la correlación es más débil y en otros más fuerte, y eso es lo interesante: si la causa fuera la mentalidad individual, no debería variar tanto según dónde se nace. Varía porque lo que cambia son las instituciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Educación pública buena, sanidad que no arruine, vivienda asequible y un mercado laboral que no expulse. Donde eso funciona, la posición de los padres pesa menos. Donde no, pesa casi todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de eso aparece en las trescientas páginas del libro, y la omisión no es inocente: si el problema estuviera fuera, el producto que Eker vende no serviría para arreglarlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahora bien, sería igual de deshonesto concluir que lo psicológico no cuenta nada. Cuenta, y hay un terreno concreto donde cuenta bastante: cómo se gestiona el dinero que sí se tiene, que es justo donde el capítulo de los seis botes es útil.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos personas con el mismo sueldo, el mismo alquiler y los mismos gastos pueden acabar a diez años vista en situaciones muy distintas según qué hagan con el margen. Eso es real y es lo que hay de verdad en la idea del termostato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no es real es la extensión de esa idea a la explicación de por qué unos nacen con margen y otros no. Ahí el libro deja de describir y empieza a moralizar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene un coste añadido que conviene nombrar: quien esté pasándolo mal económicamente y lea que se debe a cómo piensa, sale del libro con una explicación falsa y con un motivo más para sentirse culpable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es lo contrario de lo que necesita alguien cuya capacidad de decidir ya está ocupada por la escasez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale una recomendación práctica que este libro no da y que se desprende de la investigación: cuando el dinero aprieta, hay que reducir el número de decisiones financieras, no aumentarlo. Automatizar, domiciliar, cerrar productos y simplificar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es justo lo contrario de lo que propone la autoayuda financiera, que suele pedir más atención, más seguimiento y más disciplina diaria. Pedirle más ancho de banda a alguien que no lo tiene es garantizar que abandone.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y explica por qué el capítulo de los seis botes es el único que funciona en este libro: no exige vigilancia, exige una configuración hecha una vez. Es una solución de escasez, aunque su autor no lo supiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda una última cosa por mirar, y no está en el contenido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está en la estructura del propio negocio del que este libro forma parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Concretamente, en las últimas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde hay una invitación a un seminario gratuito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que es, en realidad, el producto de verdad.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El seminario gratis",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro remite varias veces, a lo largo del texto y al final, a un curso presencial de tres días llamado Millionaire Mind Intensive. La entrada es gratuita o casi, y se presenta como el complemento natural de lo que se acaba de leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese curso era el producto principal de la empresa de formación que Eker fundó. El libro no es un libro con un curso al lado: es la puerta de entrada de un embudo comercial, y está escrito con esa función.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo funciona el embudo",
+          frase: "Libro barato o gratis, seminario introductorio gratuito, y dentro del seminario la venta de programas cada vez más caros. Es un modelo bien conocido en el sector de la formación motivacional, y las quejas por presión de venta en esas salas están ampliamente documentadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no invalida automáticamente lo que dice el libro. Sí explica su tono, su insistencia y por qué la parte que se puede aplicar sola —los seis botes— ocupa un capítulo y la que empuja hacia el curso ocupa el resto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y explica también la estructura emocional del texto: promesa grande, causa única, solución que requiere acompañamiento. Es el esquema de casi toda la formación motivacional, y conviene reconocerlo antes de entrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora lo que la gente cree de este libro y no es verdad. Lo primero: que está basado en investigación. No lo está. No hay una sola referencia, ni un estudio, ni una encuesta, ni una definición operativa de rico o pobre en todo el volumen.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Segundo: que las diecisiete diferencias describen a la gente rica. Describen a la gente rica que da conferencias sobre cómo se hizo rica. La mayor parte de la riqueza en cualquier país desarrollado es heredada, y quien la hereda no aparece en estos libros.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que la mentalidad de abundancia cambia los ingresos. La única relación bien establecida entre dinero y funcionamiento mental va en la dirección contraria: la escasez deteriora la toma de decisiones, y aliviarla la mejora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: que las declaraciones en voz alta reprograman creencias. La evidencia disponible sugiere que en personas con baja autoestima —exactamente el público del libro— producen el efecto opuesto al buscado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quinto, el más importante: que si alguien no prospera es porque no ha cambiado su forma de pensar. Es la conclusión que el libro empuja en cada capítulo y no se sostiene con nada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sí se puede sacar",
+          frase: "Un capítulo con un sistema de reparto de ingresos que funciona con cualquier sueldo, adaptando los porcentajes; la idea de mirar el patrimonio neto y no el sueldo; y la pregunta, que casi nadie se hace, de qué se oía sobre el dinero en la casa de uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas tres cosas valen y no cuestan nada. Las otras doscientas noventa páginas son una teoría sin datos con un curso al final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un último punto a favor que sería injusto no decir. El libro consigue que gente que nunca había mirado sus finanzas se siente a mirarlas, y ese primer movimiento tiene un valor real independientemente de lo mal fundamentado que esté el argumento que lo provocó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mucha gente ha empezado a ahorrar por primera vez en su vida por culpa de este libro. Eso es un hecho, y merece constar junto a todo lo demás.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El problema es lo que se llevan también de paso: la idea de que quien no lo consigue es porque no quiso lo suficiente. Esa frase ha hecho más daño en veinte años de autoayuda financiera que ninguna inversión mal hecha.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien quiera después lo que aquí no hay tiene sitios mejores. Sobre por qué la escasez funciona como funciona, el libro de Mullainathan y Shafir. Sobre gestionar un sueldo, cualquier manual de finanzas personales con números y sin seminario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sobre las creencias heredadas de la infancia, que es la parte que Eker acierta a señalar, hay literatura psicológica seria que no necesita convertirlo en una teoría de la riqueza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena separar bien esas dos cosas, porque el libro las mezcla a propósito. Que alguien tenga una relación complicada con el dinero por lo que vivió de pequeño es cierto, frecuente y trabajable. Que eso explique su nivel de ingresos, no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un ejemplo del propio libro lo enseña sin querer: la mujer que se boicotea porque asocia ganar más con quedarse sola no tiene un problema de ingresos, tiene un problema con su padre. Y eso no se arregla con declaraciones delante del espejo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El salto de ahí a los diecisiete rasgos de la gente rica es el que convierte una observación clínica razonable en una teoría económica sin datos. Y es exactamente el salto que hace vendible el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance justo, sin adornos: un libro con una tesis falsa, sin una sola fuente, escrito para vender un curso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con cuatro páginas —las de los seis botes— que son de lo más útil que se ha escrito sobre qué hacer el día que entra la nómina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La manera sensata de leerlo es esa: ir al capítulo de los botes, montarlo con transferencias automáticas, adaptar los porcentajes a lo que cuesta vivir donde uno vive.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dejar el termostato donde está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque lo que de verdad regula la temperatura de una vida no es lo que uno se dice delante del espejo por las mañanas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es dónde naciste, cuánto cuesta el alquiler y qué pasa si te pones enfermo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de eso este libro no dice ni una palabra en trescientas páginas.",
+        },
+      ],
+    },
+  ],
+};
