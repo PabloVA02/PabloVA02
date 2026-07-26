@@ -5,9 +5,9 @@ export const PRINCIPITO: Resumen = {
   titulo: "El principito",
   autor: "Antoine de Saint-Exupéry",
   ano: 1943,
-  gancho: "Lo escribió un piloto que se había estrellado de verdad en el desierto. Tres años después desapareció en el mar.",
+  gancho: "Lo escribió un piloto que se había estrellado de verdad en el desierto. Ocho años después desapareció en el mar y no lo encontraron hasta medio siglo más tarde.",
   porQue:
-    "Es el libro no religioso más traducido de la historia y se lee en una tarde. Pero casi nadie lo lee de mayor, que es cuando por fin se entiende de qué iba.",
+    "Es el libro no religioso más traducido de la historia y se lee en una tarde. Casi nadie lo relee de mayor, que es cuando por fin se entiende de qué iba.",
   partes: [
     {
       titulo: "El accidente que era real",
@@ -15,108 +15,627 @@ export const PRINCIPITO: Resumen = {
         {
           forma: "texto",
           texto:
-            "En diciembre de 1935, Antoine de Saint-Exupéry se estrelló con su avión en el desierto de Libia intentando batir un récord de vuelo entre París y Saigón. Él y su mecánico caminaron cuatro días sin apenas agua, viendo espejismos, antes de que un beduino en camello los encontrase por casualidad. Estaban a horas de morir.",
+            "El 30 de diciembre de 1935, un avión se estrella en el desierto de Libia a doscientos kilómetros por hora. De la cabina salen dos hombres ilesos: el piloto, Antoine de Saint-Exupéry, y su mecánico, André Prévot. Intentaban batir el récord de vuelo entre París y Saigón por un premio de ciento cincuenta mil francos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Les quedaba un termo de café, algo de vino y unas uvas. Caminaron tres días bajo el sol siguiendo espejismos, oyendo caravanas que no existían y bebiendo el rocío que recogían de las alas con un trapo. El cuarto día, un beduino en camello los encontró por casualidad y les dio de beber.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle médico que él mismo contó es que ya casi no sudaban ni orinaban, la señal de que el cuerpo estaba entrando en el tramo final. Un adulto sin agua en el Sáhara aguanta unos dos días, tres si camina de noche. Ellos habían caminado de día durante buena parte del recorrido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hombre anónimo aparece en Tierra de hombres, el libro que Saint-Exupéry escribió antes, con una frase que lo dice todo: no tenía rostro, era todos los hombres a la vez. El desierto del cuento no es un decorado poético. Es el sitio exacto donde el autor estuvo a unas horas de morir de sed.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel accidente le dio además el material de toda su obra posterior. Tierra de hombres ganó el premio de la Academia Francesa en 1939 y en Estados Unidos fue libro del año, y su fama americana venía de ahí. Sin el récord fallido de Libia no habría habido ni el exilio ni el cuento.",
         },
         {
           forma: "arte",
           texto:
-            "Ocho años después, exiliado en Nueva York y deprimido porque su país estaba ocupado, escribió un cuento donde un piloto se estrella en el desierto y conoce a un niño. La historia inventada empieza exactamente donde acabó la suya real.",
+            "Ocho años después está en Nueva York, exiliado, con Francia ocupada y con el ejército que ya no le deja volar por la edad y las lesiones. Bebe, discute con todo el mundo y duerme mal. En ese estado, sobre las mesas de dos apartamentos prestados, escribe e ilustra un cuento infantil.",
           arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La leyenda del origen es doméstica y verificable. Dibujaba compulsivamente el mismo niño de bufanda en servilletas y márgenes de cartas, y fue su editor estadounidense quien le sugirió que hiciera con él un cuento para Navidad. El resultado llegó tarde para esa Navidad y se publicó en abril de 1943.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un detalle que sorprende a mucha gente: el libro se publicó primero en Nueva York y en inglés, y en francés en la misma ciudad. En Francia no salió hasta 1946, dos años después de la muerte del autor, porque el país estaba ocupado y sus libros, prohibidos por el régimen de Vichy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera edición tampoco fue un éxito inmediato. Vendió con normalidad, recibió reseñas educadas y varias desconcertadas, porque nadie sabía si aquello era para niños o para adultos. La consagración llegó en los años cincuenta, cuando el autor ya llevaba una década desaparecido.",
         },
         {
           forma: "clave",
           rotulo: "El dato que lo cambia todo",
-          frase: "No es un cuento infantil escrito por un escritor. Es lo que un piloto de guerra necesitaba decir antes de que lo derribaran.",
+          frase: "El piloto que se estrella en el desierto no es un personaje. Es el propio autor contando algo que le pasó.",
         },
         {
           forma: "texto",
           texto:
-            "En julio de 1944 despegó de Córcega para una misión de reconocimiento sobre la Francia ocupada y no volvió. Durante cincuenta y cuatro años no se supo nada. En 1998 un pescador encontró cerca de Marsella una pulsera con su nombre, y en 2000 apareció el avión. El libro se ha traducido a más de quinientos idiomas y dialectos.",
+            "No fue su único accidente ni el peor. Se había estrellado antes en Guatemala, con ocho fracturas y varios días inconsciente, y arrastraba secuelas que le impedían girar bien el cuello. Volaba con dolor constante, y esa biografía de huesos rotos explica el tono cansado del narrador adulto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las acuarelas también son suyas, y eso explica su rareza. No son ilustraciones profesionales sino dibujos de alguien que dibuja regular y lo sabe, con la bufanda demasiado larga y las proporciones raras. Su editor tuvo que insistir para que las usara. Hoy son inseparables del texto y ninguna edición se atreve a cambiarlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Trabajaba de noche y llamaba por teléfono a las dos de la madrugada a sus amigos para leerles lo que acababa de escribir. Consumía café y coñac a partes iguales y tiraba páginas al suelo. El manuscrito conservado tiene el doble de texto que el libro final: se cortó casi la mitad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir de qué habla realmente el primer capítulo, que casi todo el mundo recuerda mal. El narrador no es un niño: es un adulto agotado, solo, con el motor roto y agua para ocho días. La ternura del libro se sostiene sobre una situación de peligro real y con cuenta atrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la primera frase que le dice el niño no es tierna, es una orden. Por favor, dibújame un cordero, repetida sin saludo y sin explicación mientras el piloto intenta entender de dónde ha salido. El cuento empieza con una exigencia absurda a un hombre que está contando sus horas de agua.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras que se repiten sobre este libro merecen su asterisco. Se dice que supera los doscientos millones de ejemplares y las quinientas lenguas y dialectos. Los recuentos vienen de la fundación que gestiona la herencia y de sus editores, nadie los ha auditado, y lo de contar dialectos como lenguas infla el total.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo de libro no religioso más traducido de la historia es una etiqueta defendible y no un hecho comprobado. Depende de con qué se compare, de si se cuentan folletos y de qué es una traducción. Que esté ahí arriba no lo discute nadie; el número exacto cambia según quién lo cuente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene situar el momento político, porque el libro lo lleva dentro. Saint-Exupéry estaba enfrentado a los gaullistas de Nueva York por negarse a elegir bando dentro de la resistencia francesa, y lo acusaban de tibio. Escribió el cuento en medio de esa pelea, sin nombrarla ni una vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso hay lecturas que ven en los baobabs una alegoría del fascismo: brotes que hay que arrancar cada mañana mientras son pequeños, porque si crecen revientan el planeta. Saint-Exupéry nunca lo confirmó, y en el mismo capítulo pide expresamente que se preste atención a ese dibujo por encima de los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entre lo que se cortó hay capítulos enteros que se conocen: uno sobre un inventor y otro sobre un crucigramista que buscaba una palabra de seis letras que significase hacer gárgaras. Saint-Exupéry quitó casi todo lo que era ingenio puro y dejó lo que hacía avanzar al niño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro empezó a venderse bien y a él no le dio tiempo a saberlo. Se marchó a Argel a los pocos meses de publicarlo, peleándose para que le dejaran volver a volar, y nunca vio ni una sola de las ediciones que lo harían famoso en el mundo entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco vio nunca la edición francesa, que es la que hoy leen en su país. Murió sin saber que su cuento acabaría en el billete de cincuenta francos, en los libros de texto de medio mundo y en la lista de los libros más traducidos junto a la Biblia y al Corán.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se fue de Nueva York sin despedirse de casi nadie, dejando el manuscrito y los dibujos originales a una amiga en un montón desordenado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Están hoy en la Morgan Library de Nueva York, con manchas de café.",
         },
       ],
     },
-
     {
-      titulo: "El sombrero que era una serpiente",
+      titulo: "El dibujo que los mayores no entendían",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La historia arranca con un dibujo. El narrador, de niño, dibuja una boa que se ha tragado un elefante y se lo enseña a los adultos. Todos ven un sombrero. Cuando dibuja el interior para explicárselo, le aconsejan que deje el dibujo y se dedique a la geografía y las matemáticas. Así que se hizo piloto.",
+            "El cuento arranca con un fracaso profesional. A los seis años el narrador dibuja una boa que se ha tragado un elefante, se lo enseña a los adultos y todos ven un sombrero. Guarda el dibujo, abandona la pintura y se hace piloto, que era lo segundo que más le gustaba.",
         },
         {
           forma: "texto",
           texto:
-            "A partir de ahí, cada vez que conocía a alguien que parecía lúcido, le enseñaba el dibujo. Todos contestaban lo mismo: «Es un sombrero.» Entonces él bajaba a su nivel y hablaba de bridge, de golf, de política y de corbatas. Y la persona quedaba encantada de haber conocido a un hombre tan razonable.",
+            "Desde entonces lleva el dibujo encima como una prueba. Cuando conoce a alguien que le parece lúcido se lo enseña, y siempre le responden lo mismo: un sombrero. Entonces baja el nivel y habla de golf, de política y de corbatas, y la persona queda encantada de haber conocido a un hombre tan razonable.",
         },
         {
           forma: "clave",
-          rotulo: "La crítica del libro",
-          frase: "Los mayores no ven lo que hay dentro de las cosas. Solo miden, clasifican y preguntan cuánto cuesta.",
+          rotulo: "La broma del principio",
+          frase: "El test del sombrero es una trampa: quien ve un sombrero acierta. Lo que el libro castiga es no preguntar qué más podría ser.",
         },
         {
           forma: "texto",
           texto:
-            "Saint-Exupéry insiste con un ejemplo genial: si le dices a un adulto «he visto una casa preciosa de ladrillo rosa con geranios en las ventanas», no se la imagina. Si le dices «he visto una casa de cien mil francos», exclama «¡qué maravilla!». La cifra, que no significa nada, le resulta más real que el color.",
+            "Ese arranque también es una declaración de método. El narrador avisa de que va a contar algo increíble y de que sabe que no le van a creer, igual que con el dibujo. El lector queda colocado desde la primera página en el papel de adulto que tiene que decidir si mira o si etiqueta.",
         },
-      ],
-    },
-
-    {
-      titulo: "La rosa y el zorro",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "El principito viene de un asteroide diminuto donde tiene tres volcanes y una rosa. La rosa es vanidosa, exagerada y bastante insoportable, y él se marcha harto de ella. Solo después, viajando, entiende que la echa de menos precisamente porque le dedicó tiempo: la regó, la protegió del viento, la tapó de noche.",
+            "El viaje del principito por los seis asteroides es la parte más satírica y la más desigual del libro. En cada uno vive un adulto solo, encerrado en un único vicio, y el niño se marcha en cuanto entiende la mecánica. Son retratos rapidísimos, de una página, hechos con muy pocas líneas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El rey reina sobre nada y salva la autoridad ordenando lo que iba a pasar de todos modos: al sol le manda ponerse al atardecer. Es una idea política precisa disfrazada de chiste. La autoridad que solo manda lo inevitable se parece mucho a la que presume de gobernar el clima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El rey añade la única frase de gobierno que el libro suscribe: hay que exigir a cada uno lo que cada uno puede dar, y la autoridad se apoya antes que nada en la razón. Es un principio serio metido en boca de un personaje ridículo, y el niño se marcha sin darse cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El vanidoso solo oye los elogios, así que cualquier conversación con él es imposible por construcción. El bebedor bebe para olvidar que le da vergüenza beber, y ahí el libro cierra un círculo entero en cuatro frases. Es la página más corta y la más triste de todo el cuento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre de negocios cuenta estrellas y las apunta en un papel que guarda en un banco, y a eso lo llama poseerlas. El principito le responde que él sí es útil a su flor y a sus volcanes, porque los cuida. La propiedad es lo que haces por algo, no lo que anotas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre de negocios lleva la cuenta exacta: quinientos un millones seiscientos veintidós mil setecientos treinta y una estrellas. Que la cifra sea absurdamente precisa es el chiste entero. El libro no se ríe de contar, se ríe de creer que un número bien apuntado equivale a tener algo.",
         },
         {
           forma: "arte",
           texto:
-            "En la Tierra encuentra un jardín con cinco mil rosas iguales a la suya y se hunde: creía tener una flor única y resulta que tenía una flor común. Llora sobre la hierba. Ahí aparece el zorro.",
-          arte: "explorar",
-        },
-        {
-          forma: "texto",
-          texto:
-            "El zorro le pide que lo domestique, y le explica cómo: sentarse cada día un poco más cerca, siempre a la misma hora, sin hablar al principio. Los ritos existen, dice, para que un día sea distinto de los otros días. Cuando terminan, el zorro es para el principito el único zorro del mundo, y él es para el zorro el único niño.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El secreto del zorro",
-          frase: "Lo esencial es invisible a los ojos. Solo se ve bien con el corazón.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Y viene el remate que resuelve el jardín entero: su rosa <em>sí</em> es única, no porque sea distinta, sino porque es la suya. «Eres responsable para siempre de lo que has domesticado.» El libro no dice que el amor te toque; dice que el amor es el tiempo que has puesto y no puedes recuperar.",
-        },
-      ],
-    },
-
-    {
-      titulo: "Lo que casi nadie recuerda",
-      tarjetas: [
-        {
-          forma: "arte",
-          texto:
-            "Antes del zorro, el principito visita seis asteroides, y esa es la parte más adulta del libro. Un rey que solo da órdenes que ya se iban a cumplir. Un vanidoso que solo oye aplausos. Un bebedor que bebe para olvidar que le da vergüenza beber. Un hombre de negocios que cuenta estrellas para poseerlas y anotarlas en un papel.",
+            "El único adulto que se salva es el farolero, que enciende y apaga su farol cada minuto porque el planeta gira cada vez más deprisa y la consigna no ha cambiado. Es absurdo y agotador, y el principito lo respeta porque se ocupa de algo que no es él mismo.",
           arte: "noche",
         },
         {
           forma: "texto",
           texto:
-            "Los dos últimos son los que se salvan: un farolero que enciende y apaga su farol cada minuto porque cambiaron las órdenes y no las reglas —absurdo, pero al menos se ocupa de algo que no es él mismo— y un geógrafo que escribe libros de sitios donde no ha estado nunca, porque salir sería impropio de un geógrafo.",
-        },
-        {
-          forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "Los seis planetas son seis maneras de perder la vida sin darse cuenta: mandar, presumir, evadirse, acumular, obedecer y teorizar.",
+            "El principito calcula además que en ese planeta puede ver mil cuatrocientas cuarenta puestas de sol al día, y eso lo convierte en el sitio que más le gusta. Es el único de los seis del que se marcha con pena, y solo porque no cabrían los dos.",
         },
         {
           forma: "texto",
           texto:
-            "Conviene decir dónde flojea. El final —la serpiente, el cuerpo que desaparece— se ha leído mil veces como una metáfora bonita de la muerte, y a mucha gente le parece una salida blanda y confusa para un libro que hasta ahí era clarísimo. Además, sus frases se han citado tanto en tazas y camisetas que suenan a autoayuda. Léelo entero y de golpe: dentro del cuento no suenan así, suenan a alguien que sabía que le quedaba poco.",
+            "El geógrafo cierra la serie y es el más cruel de los seis. Sabe dónde están los mares y las montañas y no ha visto ninguno, porque los geógrafos no salen del despacho. Cuando el niño le habla de su flor, la despacha diciendo que las flores son efímeras y no se anotan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa palabra, efímera, es la que le arruina el viaje. El principito descubre en ese despacho que su flor está amenazada de desaparición y que él la ha dejado sola con cuatro espinas. Es el geógrafo, sin querer, quien lo empuja de vuelta a casa al final del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí es donde el libro falla más y donde conviene ser honesto. La sátira es fácil: cada adulto es un solo vicio, sin contradicciones ni historia, un muñeco montado para caerse. Es eficaz en un cuento infantil y flojo como retrato del mundo adulto, que rara vez viene en dosis tan puras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema de simpatía que el libro no ve. Todos esos adultos están profundamente solos en planetas diminutos, y el niño se va de cada uno encogiéndose de hombros sin intentar nada. Predica el vínculo en el capítulo del zorro y practica el desdén en los seis anteriores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estribillo sobre las personas mayores se repite más de lo necesario. Que a los adultos solo les interesen los números, que pregunten por la renta del padre en vez de por la voz del amigo, funciona la primera vez y suena a sermón la quinta. El libro tiene un tic.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una idea que se le atribuye y no está en el texto: que hay que seguir siendo niño. El libro no dice eso. Dice que los adultos han olvidado, no que hicieran mal en crecer, y su narrador es un hombre que tiene que arreglar un motor para no morirse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La dedicatoria lo deja por escrito antes de empezar. Se lo dedica a Léon Werth, un amigo judío escondido en la Francia ocupada, pide perdón a los niños por dedicárselo a una persona mayor y se justifica diciendo que ese mayor fue niño y que casi ninguno se acuerda de haberlo sido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El asteroide del principito, el B 612, trae un chiste que casi nadie pilla. Lo descubrió un astrónomo turco al que nadie creyó por ir vestido a la turca, y al que creyeron años después cuando repitió la conferencia de esmoquin. Es una broma sobre el racismo académico escrita en 1942.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los tres volcanes del asteroide, dos activos y uno apagado, no son un capricho de dibujante. Su mujer, Consuelo, era salvadoreña y venía de un país de volcanes, y el propio Saint-Exupéry los relacionó. El principito los deshollina cada mañana, incluido el apagado, por si acaso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El apagado es el detalle que delata al autor. Deshollinar por si acaso un volcán que lleva dormido siglos no tiene ninguna utilidad práctica y el libro lo presenta como lo correcto. Es la definición del cuidado que le interesa: mantenimiento diario de algo que quizá no lo necesite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de que aparezca ninguna moraleja, el libro ya ha dicho lo esencial en un dibujo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un sombrero, si no preguntas. Una boa digiriendo un elefante, si preguntas.",
+        },
+      ],
+    },
+    {
+      titulo: "La rosa que no sabía decirlo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un día llega al asteroide una semilla desconocida y de ella sale una flor que tarda días en abrirse, arreglándose con calma y eligiendo sus colores. Cuando por fin se muestra, bosteza y dice que la disculpen, que está despeinada. Está preciosa y es consciente de estarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí, la convivencia es un desastre. La rosa exige un biombo contra las corrientes de aire, una campana de cristal por la noche y le habla de sus cuatro espinas como si fueran garras. Se inventa un tigre para dar pena y luego se ofende porque él se preocupa demasiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de ella, en el planeta solo había flores sencillas de un rango de pétalos que salían por la mañana y desaparecían por la tarde. La rosa es la primera cosa complicada que le pasa, y el libro deja claro que la complicación y el interés llegaron el mismo día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este es el punto en el que el libro contradice la imagen que la gente tiene de él. La rosa no es un símbolo del amor puro: es vanidosa, exigente y mentirosa, y el principito se marcha del planeta por culpa suya. La estampa de la flor bajo el fanal se vende sin esa mitad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que él entiende tarde",
+          frase: "Había que juzgarla por lo que hacía, no por lo que decía. Le perfumaba el planeta entero y él solo oía las quejas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena de la despedida es la mejor escrita del libro y la menos citada. La rosa, que se ha pasado el cuento pidiendo la campana de cristal, la rechaza en el último momento, le dice que quiere conocer el viento y le pide que se vaya de una vez para no verlo dudar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le suelta la frase que resume su carácter entero: si quiero conocer las mariposas tendré que soportar dos o tres orugas. La flor que exigía biombo contra las corrientes de aire acepta los bichos el día que él se va, cuando ya no sirve de nada decirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y confiesa, casi de pasada, que ha sido tonta y que le pide perdón, y le dice que intente ser feliz. Le sale mal porque no está acostumbrada a la ternura, y ese fallo técnico de la flor es lo más humano que hay en todo el cuento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Detrás de la rosa hay una mujer con nombre y expediente. Consuelo Suncín, salvadoreña, viuda dos veces antes de casarse con él, celosa, teatral y enferma del pecho. El matrimonio fue una sucesión de rupturas, infidelidades de los dos y reconciliaciones, y él escribía el cuento en medio de una de las malas rachas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella vivía en un piso distinto al suyo en Nueva York y él iba y venía, escribiendo a la vez a otra mujer, Silvia Hamilton. Las tres casas del cuento —el asteroide, la Tierra y el desierto— tienen bastante que ver con esa geografía sentimental de despachos separados y visitas nocturnas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Consuelo contó su versión en unas memorias que se publicaron en el año 2000, más de medio siglo después, cuando aparecieron en un armario. Ahí la rosa habla por sí misma y el retrato del piloto encantador queda bastante peor: ausente, infiel y adorado por todos menos por quien vivía con él.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante décadas, la familia y los estudiosos franceses habían minimizado el papel de Consuelo, y muchas biografías de referencia apenas la mencionaban. Que su libro apareciera en un armario cambió la lectura del cuento entero: la rosa dejó de ser un símbolo y pasó a tener un nombre y una versión propia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Saint-Exupéry nunca dijo que la rosa fuera Consuelo, y la equivalencia es una lectura, no una confesión. Lo que sí hay es un montón de coincidencias que ya no se pueden ignorar: los volcanes, la tos, los celos, las cuatro espinas ridículas y la campana de cristal que a la vez protege y asfixia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir qué no es esta parte del libro. No es una defensa del amor sufrido ni un permiso para aguantar a quien te maltrata. El principito se va, tarda en entenderlo y lo que aprende no es a soportar, sino a mirar lo que la otra hacía en lugar de lo que decía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio narrador lo cuenta con una autocrítica poco habitual en un cuento infantil. El niño confiesa que entonces no supo entender nada, que debió juzgarla por los actos y no por las palabras, y que se marchó por vanidad de los dos. No hay ninguna culpa repartida a favor de nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena que le rompe el corazón llega mucho después, ya en la Tierra, en un jardín de rosas. Cinco mil flores idénticas a la suya, todas a la vez, y él tumbado en la hierba llorando porque se creía dueño de una flor única y resulta que tenía una rosa corriente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la humillación más moderna del libro y por eso no envejece. Cualquiera que haya descubierto que su idea, su duelo o su talento eran comunes y estaban ya en mil versiones mejores ha estado tumbado en esa hierba. El principito llega a la Tierra y lo primero que aprende es que no es especial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tarda dos capítulos en darle la vuelta a ese golpe y lo hace bien. La rosa no era única por ser distinta: era única porque era la suya, la que había regado, tapado con el fanal y escuchado quejarse. El tiempo invertido no es un gasto, es lo que crea el vínculo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene fijarse en el verbo que usa, porque no es querer ni sentir. Es perder: el tiempo que has perdido con tu rosa es lo que la hace importante. El libro elige a propósito la palabra que suena a desperdicio para decir exactamente lo contrario de lo que parece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí hay una discusión de verdad con otro libro de este catálogo. El sutil arte dice que el interés es un presupuesto limitado y que gastarlo en lo que no lo merece es el error. Saint-Exupéry responde que es al revés: lo que merece la pena es lo que ya has regado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos tienen parte de razón y por eso la discusión es buena. Manson protege de gastar la vida en lo que no elegiste; Saint-Exupéry avisa de lo contrario, de creer que hay una rosa mejor esperando en otro jardín porque las cinco mil se parecen todas a la que ya tienes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión práctica de esa discusión cabe en una pregunta. Si te fueras hoy, ¿lo que dejas atrás seguiría importándote dentro de un año? Si la respuesta es no, Manson tiene razón y toca soltar; si la respuesta es sí, la tiene el zorro y toca volver y regar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La rosa aparece en tres capítulos de veintisiete y sostiene el libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la única que se queda quieta mientras todos los demás viajan.",
+        },
+      ],
+    },
+    {
+      titulo: "Domesticar es crear lazos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En medio del jardín de rosas y del llanto aparece un zorro y le pide que juegue con él. El niño le responde que no puede, que está buscando amigos, y el zorro le corrige: para jugar conmigo tienes que domesticarme primero, y eso es una cosa muy olvidada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra que usa Saint-Exupéry, apprivoiser, no significa amaestrar. Significa quitar el miedo poco a poco hasta que otro se acerque por su cuenta. El zorro lo define de la única forma que le importa al libro: crear lazos, hacer que dos seres cualesquiera pasen a ser únicos el uno para el otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En español se ha traducido casi siempre por domesticar, y esa palabra arrastra correa y jaula, que es justo lo contrario. Amansar o domar están todavía peor. La traducción exacta no existe, y por eso conviene quedarse con la definición del zorro en lugar de con el verbo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y explica el método, que es lo mejor del capítulo porque es concreto. Hay que sentarse un poco lejos, en la hierba, sin decir nada, porque el lenguaje es fuente de malentendidos. Cada día un poco más cerca, y siempre a la misma hora, para que el corazón sepa a partir de qué hora prepararse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El zorro insiste en la parte que suena más antigua y es la más útil: hacen falta ritos, es decir, días distintos de los demás días y horas distintas de las demás horas. Sin una hora fija no hay espera, y sin espera no hay nada que celebrar cuando el otro llega.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El zorro",
+          frase: "Solo se ve bien con el corazón; lo esencial es invisible a los ojos. Y, justo después: eres responsable para siempre de lo que has domesticado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera mitad de esa frase está en tazas, camisetas y felicitaciones de boda. La segunda casi nunca aparece, y es la que exige algo. Una dice que lo importante no se ve; la otra dice que si te has acercado a alguien ya no puedes irte sin más. El libro las escribió juntas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El zorro también explica por qué el vínculo cuesta caro y merece la pena igual. Antes no le interesaban los campos de trigo, porque no come pan; cuando el niño lo domestique, el color rubio del trigo le recordará su pelo y le gustará hasta el ruido del viento en las espigas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una descripción exacta de cómo funciona la memoria afectiva. Un vínculo no añade una persona a tu vida: reetiqueta el mundo entero, de modo que objetos neutros pasan a significar algo. Por eso las rupturas duelen tanto tiempo, porque hay que desetiquetar trigales durante meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y avisa del precio en la misma conversación, sin adornarlo. Cuando el principito anuncia que se marcha, el zorro dice que va a llorar, y ante la objeción evidente responde que sí, que sale ganando, por el color del trigo. Es la definición más limpia de por qué querer a alguien compensa aunque duela.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese capítulo tiene un origen probable con nombre y apellidos. Saint-Exupéry lo escribió en Long Island y se lo leía a Silvia Hamilton, la periodista a la que dejó el manuscrito al irse; ella tenía un perro bóxer y un caniche, y él pasaba tardes enteras en esa casa mientras se le deshacía el matrimonio.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la lección del zorro en la mano, el niño vuelve al jardín y les dice a las cinco mil rosas la frase más dura del libro. Sois bonitas pero estáis vacías, nadie moriría por vosotras; mi rosa, ella sola, es más importante que todas, porque es la que yo he regado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí hay una trampa que conviene señalar, porque el libro no la señala. Ese argumento sirve igual para justificar quedarse donde uno ya ha invertido, que es exactamente el error que la economía llama coste hundido. El zorro tiene razón sobre el amor y no la tiene sobre todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia está en si lo invertido cambió algo o solo se gastó. Las horas con la rosa crearon un vínculo que existe ahora; el dinero metido en un negocio que no funciona no crea nada, solo ya no está. El zorro habla de lo primero y mucha gente lo cita para lo segundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro personaje de esta parte es el guardagujas, que ve pasar trenes llenos de gente que corre sin saber adónde. Solo los niños aplastan la nariz contra el cristal, dice, porque solo ellos saben lo que buscan y pierden el tiempo con una muñeca de trapo hasta que se convierte en algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los trenes van en las dos direcciones y nadie está contento en ninguna, y ese detalle es el que salva la escena de ser un sermón. No hay un lado bueno del andén hacia el que había que ir. Lo que critica el libro no es el destino elegido, es viajar sin haber elegido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el mercader de píldoras contra la sed, que ahorran cincuenta y tres minutos por semana. El principito calcula qué haría con esos cincuenta y tres minutos y concluye que caminaría despacio hacia una fuente. Es una crítica a la eficiencia escrita décadas antes de que existiera la palabra productividad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chiste es que la píldora funciona: ahorra tiempo de verdad. Lo que el libro pregunta es la parte que ningún vendedor de tiempo responde nunca, ni entonces ni ahora, y es para qué. Un ahorro sin destino no es un ahorro, es un traslado de la misma hora a otro sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo del pozo cierra el arco y devuelve el libro al desierto real. El piloto lleva ocho días averiado, se le ha acabado el agua y camina de noche con el niño en brazos buscando un pozo que no debería existir. Lo encuentran al amanecer, con polea y cubo, como en un pueblo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que haya un pozo de pueblo en mitad del Sáhara, con polea, cubo y cuerda, es imposible y el narrador lo dice. Es el único momento en que el libro rompe sus propias reglas a propósito, y lo hace justo cuando los dos personajes se están muriendo de sed de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está la frase que resume el libro entero y que casi nadie cita, porque la otra le hace sombra. Lo que embellece al desierto es que esconde un pozo en alguna parte. La sed que se pasa en Libia y la que se pasa en Nueva York se curan con lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El piloto añade la versión adulta de esa idea mirando la casa de su infancia. Lo que hacía mágica aquella casa era un tesoro enterrado que nadie encontró nunca, y daba igual, porque la magia estaba en que existiera enterrado. Es la misma frase dicha dos veces con veinte años de distancia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beben del cubo despacio, sin sed, como quien recibe un regalo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el único momento del libro en que los dos son felices a la vez.",
+        },
+      ],
+    },
+    {
+      titulo: "La caída en el mar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El principito lleva días hablando con una serpiente amarilla que apareció en la primera página del desierto. Es el único animal del libro que habla en enigmas y que promete algo concreto: puede devolver a cualquiera a la tierra de la que vino, porque es más poderosa que el dedo de un rey.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La despedida ocurre justo cuando el piloto ha arreglado el motor, y esa coincidencia no es casual. El adulto recupera la posibilidad de volver al mundo en el mismo momento en que el niño se prepara para irse del suyo. El libro los separa el día exacto en que ya no se necesitan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un plazo astronómico que el niño ha estado calculando en silencio todo el cuento. Ha llegado hace exactamente un año y su planeta vuelve a estar encima del punto donde cayó, así que la vuelta solo es posible esa noche. La ternura del final se apoya en un horario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El principito le avisa de que va a parecer que se muere y que no será verdad, y le pide que no venga a verlo porque le dará pena. Le explica que el cuerpo pesa demasiado para el viaje y que lo dejará ahí como se deja una corteza vieja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El piloto no le cree y va igual, y lo encuentra hablando con la serpiente al pie de un muro. Corre, lo coge en brazos, le da de beber y le dice que no se vaya, y es el único momento del libro en que el adulto suplica algo al niño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También le deja un regalo pensado, y es el mejor consuelo escrito en un cuento infantil. Como él vivirá en una de las estrellas y el piloto no sabrá en cuál, todas las estrellas se le van a reír cuando las mire. Tendrá quinientos millones de cascabeles en el cielo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El regalo funciona porque es reversible y el libro lo dice. Si el piloto está triste, las mismas estrellas le parecerán llorar en vez de reír, y no habrá manera de saber cuál de las dos cosas hacen. Es un consuelo honesto, que admite los días en que no consuela.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El final",
+          frase: "Cae despacio, sin ruido, por culpa de la arena. A la mañana siguiente el cuerpo no está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que el cuerpo no aparezca es la decisión técnica más importante del libro. Saint-Exupéry deja la muerte sin confirmar y sin negar, y por eso el final funciona para un niño de ocho años y para un adulto de cincuenta, que leen dos cosas distintas en la misma página sin contradecirse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El último dibujo es un rayado de arena, una raya recta y una estrella. El narrador dice que es el paisaje más hermoso y más triste del mundo, y pide al lector que si alguna vez pasa por ahí y ve a un niño de pelo dorado, le escriba enseguida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese encargo final convierte al lector en cómplice y es lo que hace que el libro no termine del todo. Cierras la última página con una tarea pendiente: mirar, por si acaso, y avisar. Pocos cuentos se atreven a pedirle algo al que lee justo después de haberle roto el corazón.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Poco después de publicarlo, Saint-Exupéry consiguió lo que llevaba dos años pidiendo: volver a volar. Le costó un permiso especial por edad, cuarenta y tres años, y por un cuerpo lleno de fracturas de sus accidentes anteriores, que ni siquiera le permitían ponerse solo el mono de vuelo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 31 de julio de 1944 despegó de Córcega en un avión de reconocimiento desarmado para fotografiar el valle del Ródano antes del desembarco en Provenza. Tenía combustible para seis horas. No volvió, no hubo señal de radio y durante medio siglo no se encontró absolutamente nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Era su novena misión y ya lo habían apartado del servicio una vez por un aterrizaje desastroso. Tenía cuarenta y cuatro años recién cumplidos en un escuadrón de pilotos de veinticinco, no cabía bien en la cabina y necesitaba ayuda para ponerse el equipo de vuelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1998, un pescador de Marsella sacó en la red una pulsera de plata con su nombre, el de Consuelo y el de su editor de Nueva York. Dos años después, un buceador localizó restos de un avión cerca, y en 2004 se confirmó por el número de serie que era el suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El avión no tenía agujeros de bala en las piezas recuperadas y nunca se ha determinado la causa de la caída. En 2008, un antiguo piloto alemán declaró que él lo había derribado, y su versión no coincide del todo con los partes de guerra ni se ha podido comprobar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las hipótesis serias siguen abiertas y son tres: derribo, avería y un fallo de oxígeno a gran altitud. También circula la del suicidio, apoyada en sus cartas de esos meses, que eran muy oscuras. No hay pruebas de ninguna, y el mar guardó lo suficiente para que todas sigan siendo posibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí es donde la biografía y el cuento encajan de una forma que nadie planeó. El autor escribió a un niño que se deja caer sin ruido y cuyo cuerpo no aparece al día siguiente. Un año después de publicarlo cayó al mar y su cuerpo tampoco apareció nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que el libro no dice, porque su fama lo ha convertido en otra cosa. No es un manual espiritual, no promete otra vida y no dice que morir sea volver a casa. Dice que hay que decidir qué hacer con la ausencia de alguien, y propone mirar las estrellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco es el libro dulce que venden las tiendas de regalos. Dentro hay un hombre que se está muriendo de sed, un niño que abandona a quien quiere, una flor que miente por miedo, seis adultos solos y una serpiente que cumple lo que promete. Se lee en una tarde y no es amable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un libro del catálogo que llega a lo mismo por el peor camino. El hombre en busca de sentido, escrito por un psiquiatra en un campo de exterminio en esos mismos años, concluye que lo que sostiene a alguien es tener a quién responder. El zorro lo dijo con un trigal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y por eso este cuento se relee mejor a los cuarenta que a los diez. A los diez es un niño que viaja por planetas; a los cuarenta es un hombre averiado en mitad de la nada que se inventa compañía, se despide de ella y vuelve al trabajo con el motor arreglado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un piloto solo en el desierto inventó una compañía y la mató para poder echarla de menos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y luego hizo lo mismo de verdad, sin avisar a nadie.",
         },
       ],
     },
