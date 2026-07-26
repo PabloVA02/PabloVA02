@@ -4005,3 +4005,616 @@ export const ARTE_DE_AMAR: Resumen = {
     },
   ],
 };
+
+export const LENGUAJES_AMOR: Resumen = {
+  id: "lenguajes-amor",
+  titulo: "Los cinco lenguajes del amor",
+  autor: "Gary Chapman",
+  ano: 1992,
+  gancho: "Un pastor baptista de Carolina del Norte releyó veinte años de notas de sus sesiones de pareja, agrupó las quejas en cinco categorías y escribió el libro sobre relaciones más vendido del mundo.",
+  porQue:
+    "Porque veinte millones de personas organizan su vida de pareja con este esquema, y porque su afirmación central —que hay que emparejar los lenguajes— es la única comprobable y no ha salido bien de las comprobaciones.",
+  partes: [
+    {
+      titulo: "Las notas de un pastor de Winston-Salem",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Winston-Salem, Carolina del Norte, finales de los años ochenta. Un pastor baptista que lleva dos décadas atendiendo a parejas de su congregación se sienta a revisar las carpetas con las notas de esas sesiones, que ocupan varios archivadores de su despacho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que busca no es un caso concreto: busca un patrón. Y lo que le llama la atención es que las quejas, después de veinte años y de cientos de parejas distintas, se repiten con muy pocas variaciones y en muy pocas formas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que se repetía",
+          frase: "Ella dice que él nunca le dice nada bonito. Él dice que ella no valora todo lo que hace en casa. Ella dice que nunca pasan tiempo juntos de verdad. Él dice que ella lo rechaza físicamente. Y casi ninguno se entiende con el otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al agrupar las quejas por tipo le salieron cinco montones, y esa clasificación es todo el libro. La hipótesis que construyó encima es que cada persona tiene una manera principal de sentirse querida, y que lo que a uno le llega puede no llegarle al otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pastor se llamaba Gary Chapman, había nacido en 1938, tenía formación en antropología y un doctorado en educación de adultos por un seminario teológico baptista, y llevaba desde los años setenta atendiendo matrimonios de su iglesia sin cobrar por ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decirlo pronto porque cambia cómo se lee el libro: no es psicólogo, no es terapeuta con licencia clínica y no ha hecho investigación. Es un pastor con muchísima experiencia práctica escuchando a parejas en dificultades.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El libro salió en 1992 en una editorial evangélica pequeña vinculada a un instituto bíblico de Chicago, sin apenas promoción. Tardó casi una década en despegar, empujado por el boca a boca y por las redes de iglesias, hasta convertirse en un fenómeno mundial.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha vendido más de veinte millones de ejemplares, está traducido a más de cincuenta idiomas y ha generado versiones para niños, adolescentes, solteros, militares, familias monoparentales, el lugar de trabajo y hasta un libro entero sobre cómo pedir perdón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su origen religioso está declarado y en las ediciones originales es bastante visible, con citas bíblicas y con un marco de compromiso matrimonial explícito. Las ediciones más recientes lo han ido dejando en segundo plano para ampliar el público.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso importa por una razón concreta que veremos al final: hay consejos en el libro que solo tienen sentido dentro de una idea del matrimonio como compromiso indisoluble, y que aplicados fuera de ese marco pueden ser malos consejos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su observación de partida",
+          frase: "Que en la mayoría de las parejas que atendía no había maldad ni desinterés. Había dos personas esforzándose de verdad, cada una a su manera, y ninguna de las dos recibía nada de lo que necesitaba. El problema no era la falta de amor: era la traducción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea es la que ha hecho que el libro funcione durante treinta años, porque le da a mucha gente una explicación que no acusa a nadie. No es que tu pareja no te quiera; es que te lo está diciendo en un idioma que tú no hablas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y viene con una promesa muy concreta: que si aprendes el idioma del otro y lo usas deliberadamente, aunque no te salga natural, la relación cambia. Que es una habilidad y no una cuestión de compatibilidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro está escrito en un formato reconocible: capítulos cortos, cada uno con un caso de consulta, con nombres y diálogos, y con una moraleja al final. No hay una sola referencia, ni un estudio, ni una cifra en todo el volumen.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es importante saberlo antes de empezar. Los casos son reales según el autor y están contados de memoria y desde su punto de vista, y en todos ellos el consejo funciona. No aparece ninguna pareja a la que este método no le sirviera.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de enumerar los cinco lenguajes, dedica un capítulo a explicar por qué hace falta un método, y ese capítulo es de lo mejor del libro porque describe algo que casi todo el mundo ha vivido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su descripción de esa fase inicial es bastante precisa: la sensación de que el otro es perfecto, la incapacidad de ver sus defectos, la certeza de que esto va a durar así siempre y la convicción de que a los demás les pasa lo mismo pero con menos intensidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su descripción de lo que viene después también: el momento en que las mismas costumbres que parecían encantadoras empiezan a irritar, en que aparecen las primeras discusiones repetidas, y en que uno de los dos se pregunta en voz baja si se ha equivocado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Chapman sostiene que ese descubrimiento produce dos reacciones típicas y las dos son malas. La primera es concluir que el otro ha cambiado o que ha estado fingiendo. La segunda es concluir que uno mismo se ha equivocado de persona y que en algún sitio está la correcta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tercera opción, que es la del libro, es aceptar que aquella fase era temporal por diseño y que lo que viene después no es un fracaso sino otra cosa: una relación que hay que construir deliberadamente porque ya no se construye sola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El momento en que se acaba el enamoramiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Chapman lo sitúa entre los dieciocho meses y los dos años, que es aproximadamente lo que dicen también los estudios sobre la fase inicial de las relaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sostiene que ese momento no es el fin de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es cuando empieza el trabajo, porque hasta entonces no hacía falta ninguna técnica.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El depósito vacío",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La imagen central del libro es la de un depósito emocional que cada persona lleva dentro. Cuando está lleno, uno se siente querido y se comporta con generosidad. Cuando está vacío, se vuelve susceptible, reprocha cosas antiguas y busca pelea por asuntos menores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La metáfora es sencilla y le sirve a Chapman para explicar algo que en consulta veía todo el rato: que las discusiones de pareja casi nunca van de lo que aparentemente van, y que discutir sobre el reparto de tareas puede ser en realidad otra conversación.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El mecanismo del malentendido",
+          frase: "Cada uno expresa el cariño en su propio lenguaje, que es el que a él le llena el depósito. Si el mío es hacer cosas y el tuyo es que te hablen, yo puedo pasarme diez años arreglando la casa mientras tú te sientes cada vez más sola. Y los dos tendremos razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el diagnóstico que hace que el libro se recomiende de boca en boca, porque describe una situación muy común: dos personas agotadas de intentarlo, cada una convencida de que la otra no pone de su parte, y las dos poniendo mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Chapman sostiene además que el lenguaje propio suele venir de la infancia, de cómo se expresaba el cariño en la casa donde uno se crio, y que por eso resulta tan evidente y tan difícil de ver como una preferencia particular y no como la manera normal de querer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segunda observación es que la queja repetida es el mejor indicador. Lo que una persona reprocha con más frecuencia señala exactamente su lenguaje: quien dice que nunca la ayudan lo dice porque para ella la ayuda es lo que significa cariño.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Da tres preguntas para identificar el propio: qué pides con más frecuencia, de qué te quejas más, y qué haces tú espontáneamente por la otra persona. La tercera es la más reveladora, porque casi todo el mundo da lo que le gustaría recibir.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade un matiz que se pierde en las versiones populares del esquema: dentro de cada lenguaje hay dialectos. A una persona cuyo lenguaje es el tiempo puede no servirle cualquier tiempo: puede necesitar conversación sin pantallas y no le vale ver una serie juntos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso convierte el método en algo bastante más laborioso de lo que parece en los resúmenes de internet. No basta con saber que tu pareja funciona con actos de servicio: hay que averiguar qué actos concretos significan algo para ella y cuáles le dan igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra pieza del mecanismo es la que más resistencia genera en los lectores, y Chapman la defiende sin rodeos: hay que hablar el idioma del otro aunque no salga natural y aunque no apetezca, porque eso es precisamente lo que lo convierte en un regalo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su argumento",
+          frase: "Que hacer algo que te sale solo no cuesta nada y por tanto comunica poco. Que el gesto significativo es el que exige esfuerzo y atención, y que esperar a sentir ganas antes de actuar es exactamente lo que mantiene a las parejas estancadas durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso encaja con lo que se sabe de la conducta: actuar suele preceder al sentimiento más de lo que la gente cree, y en terapia de pareja se usan intervenciones conductuales similares con resultados razonables.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y encaja también con la crítica más seria que se le hace, que veremos al final: la idea de comportarse con cariño sin sentirlo, aplicada sin ninguna advertencia, puede sostener relaciones que deberían terminarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la teoría montada, el libro dedica un capítulo a cada uno de los cinco, con casos, ejemplos concretos y listas de cosas que se pueden hacer esta semana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte práctica es la que ha hecho el éxito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y también la que ha hecho que el esquema circule por todas partes recortado en cinco palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de entrar en ellos conviene fijarse en un detalle del método que se pierde siempre: Chapman insiste en que el lenguaje de cada uno hay que preguntarlo, no deducirlo. Que casi todo el mundo se equivoca al adivinar el de su pareja, incluso después de años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La razón que da es que uno interpreta al otro desde su propio idioma. Alguien para quien el cariño son palabras dará por hecho que a su pareja también le hacen falta palabras, y no se le ocurrirá que lo que necesita es que le hagan la compra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso el ejercicio que propone es una conversación explícita y no un test: sentarse los dos y contarse tres momentos concretos en que cada uno se sintió especialmente querido, y buscar qué tienen en común esos tres momentos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ejercicio es probablemente lo mejor del libro entero y no depende de que la teoría sea correcta. Obliga a las dos personas a hablar de algo específico y comprobable, en lugar de discutir sobre si el otro se esfuerza o no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene un efecto secundario que Chapman menciona de pasada: mucha gente descubre haciéndolo que no recuerda ningún momento reciente. Ese hallazgo, por sí solo, suele ser más informativo que cualquier clasificación posterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro añade una advertencia sensata sobre los plazos: dice que hay que sostener el cambio varias semanas antes de esperar nada, porque quien lleva años con el depósito vacío no se lo va a creer con dos gestos, y que ese periodo de desconfianza es normal.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los cinco",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El primero son las palabras de afirmación: decir en voz alta lo que se aprecia del otro. No cumplidos automáticos, sino reconocimientos concretos de algo que ha hecho, de cómo ha manejado una situación difícil o de una cualidad suya que uno admira de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Chapman insiste en dos cosas sobre este: que la crítica hace un daño desproporcionado a quien funciona así, y que las palabras cuentan también cuando se dicen delante de otros, porque el reconocimiento en público pesa más que en privado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es el tiempo de calidad, y el adjetivo es la clave: no se trata de estar en la misma habitación, sino de atención sin repartir. Una conversación de veinte minutos mirándose vale más que una tarde entera juntos con el móvil en la mano.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su distinción más útil",
+          frase: "Entre estar presente y estar disponible. Mucha gente pasa horas al lado de su pareja sin haber tenido ni un momento de atención mutua, y para quien funciona con este lenguaje esas horas no cuentan absolutamente nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero son los regalos, que es el más criticado y el que peor se entiende. No va de dinero ni de objetos caros: va del gesto de haber pensado en alguien cuando no estaba delante, y el objeto es solo la prueba física de ese pensamiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que da es el de una piedra recogida en un paseo, o una revista comprada porque sabías que le interesaba el tema. Aun así, es la categoría más discutida del esquema, y hay investigadores que sostienen que no es un lenguaje sino una variante de las otras cuatro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El cuarto son los actos de servicio: hacer cosas que le quitan trabajo o preocupación al otro. Cambiar una bombilla, ocuparse de un trámite pesado, tener la cena hecha cuando llega tarde. Para quien funciona así, esto es literalmente lo que significa la palabra cariño.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y es el lenguaje que más conflictos genera en la práctica, porque se confunde con el reparto de tareas. Un acto de servicio que se da por supuesto deja de comunicar nada, y cuando una persona hace siempre las mismas cosas, dejan de leerse como un regalo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El quinto es el contacto físico, que Chapman se cuida de separar del sexo. Incluye la mano en la espalda al pasar, el abrazo al llegar, el pie que toca el otro pie debajo de la mesa: contacto de baja intensidad y alta frecuencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para quien funciona así, la ausencia de ese contacto se experimenta como rechazo aunque todo lo demás vaya bien, y eso explica discusiones que desde fuera parecen desproporcionadas por algo tan pequeño como que el otro se aparte al sentarse en el sofá.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo se supone que se usa",
+          frase: "Cada uno identifica el suyo, se lo dice al otro con ejemplos concretos, y ambos se comprometen a practicar el del otro deliberadamente durante unas semanas. Chapman propone empezar con una cosa al día y sin esperar reciprocidad inmediata.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un test de treinta preguntas para identificar el propio, que circula por internet y que se ha convertido en la puerta de entrada al libro para la mayoría de la gente. Conviene saber que ese test no está validado como instrumento psicométrico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: no ha pasado los procedimientos habituales para comprobar que mide lo que dice medir, ni que dé el mismo resultado si se repite unas semanas después, que es precisamente uno de los problemas que ha encontrado la investigación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque desde 1992 sí se ha investigado el asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No mucho, y lo suficiente para poner a prueba la única afirmación del libro que se puede comprobar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que es la de emparejar los lenguajes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena detenerse antes en un problema práctico que el propio libro señala y que cualquiera reconocerá: el lenguaje de una persona puede ser exactamente aquel que a la otra le resulta más difícil de dar, y eso no es mala suerte, es bastante frecuente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alguien criado en una casa donde nadie se tocaba tendrá dificultades reales con el contacto físico, y alguien que creció con reproches puede tener un bloqueo con las palabras de afirmación porque nunca oyó ninguna dirigida a él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta de Chapman a eso es que se aprende igual que se aprende un idioma extranjero: torpemente al principio, con esfuerzo consciente durante meses y con la garantía de que va a sonar artificial hasta que deje de sonarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y da un consejo que resulta útil y que contradice un poco al resto del libro: que quien recibe un intento torpe lo agradezca aunque no sea exactamente lo que necesitaba, porque castigar los primeros intentos garantiza que no haya segundos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema de dosis que el esquema no resuelve. Dos personas pueden compartir lenguaje y necesitar cantidades muy distintas: a una le basta con una conversación larga a la semana y otra necesita una todos los días, y eso genera exactamente el mismo conflicto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese punto ciego es importante y apunta ya hacia lo que ha encontrado la investigación posterior, que es que el problema rara vez es de idioma y muy a menudo es de cantidad.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que dicen los estudios",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro contiene varias afirmaciones y solo una de ellas se puede someter a prueba con claridad: que las parejas cuyos lenguajes coinciden, o que aprenden a hablar el del otro, están más satisfechas que las que no. Todo el método depende de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primeros trabajos, de mediados de los dos mil, intentaron comprobar si las cinco categorías aparecen realmente cuando se analizan estadísticamente las respuestas de mucha gente. Los resultados fueron mixtos: en algunos estudios salen cinco factores y en otros salen menos o agrupados de otra manera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El estudio más claro sobre el emparejamiento",
+          frase: "Un trabajo publicado en 2022 en la revista PLOS ONE con parejas reales encontró que la coincidencia de lenguajes entre los dos miembros no predecía la calidad de la relación. Lo que sí la predecía era usar el propio lenguaje y expresar cariño con frecuencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese resultado es incómodo para el libro porque invierte su consejo. Chapman dice que hay que abandonar el idioma propio y hablar el del otro; los datos sugieren que lo que funciona es expresar cariño mucho, de la manera que a uno le salga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otros estudios apuntan en la misma dirección: la variable que mejor predice la satisfacción no es el ajuste entre lenguajes sino la cantidad total de conductas de afecto, la reciprocidad percibida y la capacidad de responder a lo que el otro pide en el momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2024, un grupo de investigadoras publicó en una revista de psicología una revisión de toda la evidencia disponible sobre el esquema, y su conclusión fue bastante contundente en las tres afirmaciones centrales del libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La primera: que cada persona tiene un lenguaje principal. Los datos no lo sostienen. La gente valora los cinco, las puntuaciones están más repartidas de lo que el esquema supone, y el lenguaje que alguien declara cambia según el momento y la situación.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda: que los cinco cubren el terreno. No lo cubren. Faltan cosas que aparecen sistemáticamente en la investigación sobre relaciones, como el apoyo en momentos difíciles, la lealtad, la capacidad de reparar después de una discusión o el interés genuino por lo que le pasa al otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la tercera: que emparejar lenguajes mejora la relación. Es la que menos apoyo tiene de las tres, y es la que sostiene el método entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa revisión propuso además cambiar la metáfora, y la alternativa es mejor que la crítica. En lugar de un idioma que hay que aprender, proponen pensarlo como una dieta equilibrada: todo el mundo necesita algo de los cinco, y el problema es la carencia, no el idioma.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué esa metáfora funciona mejor",
+          frase: "Porque explica algo que el esquema original no explica: que una relación con muchas palabras bonitas y cero contacto físico falla, y una con mucho contacto y ninguna conversación también. No hay un nutriente principal que compense la ausencia del resto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y porque quita el determinismo. Decir que uno es de actos de servicio funciona como una etiqueta que se lleva puesta, y la investigación sugiere que esas preferencias son más flexibles y más dependientes del contexto de lo que el libro admite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto significa que el libro no sirva para nada, y conviene decirlo con la misma claridad, porque hay un efecto real que ninguna de esas críticas discute.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que da a dos personas un vocabulario para hablar de algo de lo que no sabían hablar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y eso, en una pareja atascada, puede valer más que la exactitud del esquema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además situar bien el alcance de esas críticas, porque tampoco son un desmentido total. Los estudios que han fallado son los de la hipótesis del emparejamiento; lo que sí se sostiene es que las conductas concretas que Chapman describe importan y que la gente las echa de menos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: las cinco cosas que enumera son cinco cosas reales que la gente valora en una relación. Lo que no está demostrado es que funcionen como idiomas mutuamente excluyentes ni que haya que acertar con uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cantidad de investigación disponible tampoco es enorme, y ese es un matiz que hay que hacer en las dos direcciones. Son unos pocos estudios, con muestras medianas, y no una literatura tan sólida como la que existe sobre otros aspectos de las relaciones de pareja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí tiene una base amplia es lo que predice que una pareja dure, y ahí el nombre de referencia es el trabajo de John Gottman, que grabó a cientos de parejas discutiendo en un laboratorio durante décadas y midió qué las diferenciaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que encontró no tiene que ver con lenguajes: tiene que ver con cómo se discute. La presencia de desprecio, de crítica al carácter y no a la conducta, de actitud defensiva y de retirada durante el conflicto es lo que mejor predice una ruptura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en el lado positivo, una proporción alta de interacciones agradables frente a las desagradables en la vida cotidiana, más la costumbre de responder a los pequeños intentos de contacto del otro. Eso último se parece bastante a lo que Chapman intuía sin poder medirlo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La dieta equilibrada",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todos los críticos del libro reconocen es que abrió una conversación que mucha gente no sabía tener. Antes de este esquema, la manera habitual de plantear el problema era decir que el otro no se esfuerza, que es una acusación y no una pregunta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el vocabulario de los lenguajes, la misma conversación se puede plantear sin culpar a nadie: no es que no te esfuerces, es que necesito otra cosa distinta de la que me das. Esa reformulación es lo que de verdad ha ayudado a millones de parejas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su función real",
+          frase: "No es un modelo válido de cómo funciona el afecto. Es una herramienta de conversación, y como tal es excelente: obliga a las dos personas a decir en voz alta y con ejemplos concretos qué necesitan, que es algo que casi nadie hace nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla, empezando por lo que ya está dicho: no tiene ninguna base empírica de origen, sus tres afirmaciones centrales no se sostienen bien cuando se comprueban, y el test que todo el mundo hace no está validado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo fallo es de encuadre. Está escrito para un matrimonio heterosexual con reparto de papeles bastante tradicional, y buena parte de los ejemplos tienen a una mujer que se queja de que no la ayudan en casa y a un hombre que no entiende por qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ejemplo se repite tanto que acaba revelando algo que el libro no analiza: si el reparto de tareas domésticas es profundamente desigual, llamarlo un problema de lenguajes es convertir una injusticia en un malentendido de comunicación.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el reproche de fondo más serio. El esquema despolitiza los conflictos. Todo lo que en una pareja tiene que ver con poder, con dinero, con carga mental o con quién renuncia a qué, en este libro se traduce a un problema de traducción entre dos idiomas.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer fallo es el más grave y tiene que ver con el marco religioso del que nace. El libro parte de que el matrimonio es un compromiso que hay que sostener, y aconseja actuar con cariño aunque no se sienta, esperando que el sentimiento vuelva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En una pareja sana y atascada, ese consejo es bueno. En una relación con desprecio sostenido, control o maltrato, es exactamente el consejo equivocado, y le dice a la persona que está peor que la solución es esforzarse más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no dedica prácticamente nada a distinguir esas dos situaciones, ni a explicar cuándo una relación no tiene arreglo, ni menciona el maltrato salvo de pasada. En un superventas de veinte millones de ejemplares sobre parejas, esa omisión pesa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que la gente cree y no es verdad",
+          frase: "Que el esquema está basado en investigación. No lo está: nace de las notas de consulta de un pastor y se publicó sin un solo estudio detrás. La investigación llegó veinte años después y en buena parte lo contradice.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que cada persona tiene un lenguaje principal y estable. Los datos disponibles sugieren que la gente valora los cinco, que las diferencias entre ellos son menores de lo que el esquema supone y que la preferencia declarada cambia con el tiempo y la situación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que emparejar lenguajes con la pareja mejora la relación. Es la afirmación central y la que peor ha salido de las comprobaciones. Lo que sí predice satisfacción es expresar afecto con frecuencia y responder a lo que el otro pide.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: que Chapman es psicólogo. Es pastor baptista, con formación en antropología y un doctorado en educación de adultos, y con muchísima experiencia práctica atendiendo parejas, que no es lo mismo pero tampoco es poco.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y quinto: que el test de internet dice algo sobre uno. No está validado, se contesta según el estado de ánimo del día, y su resultado cambia si se repite. Sirve para empezar una conversación y no para etiquetarse.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puesto todo junto, el balance honesto es este: un modelo probablemente falso y una herramienta bastante buena, que son dos cosas que pueden convivir y que en los libros de este tipo conviven más de lo que parece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión corregida por la investigación posterior es más sencilla y más difícil de vender, y cabe en tres líneas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay cinco maneras principales de demostrar afecto y todo el mundo necesita algo de las cinco, no una.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que predice que una relación vaya bien no es acertar el idioma, sino la frecuencia con que se expresa el cariño y la disposición a hacer caso cuando el otro pide algo concreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y preguntar directamente qué necesita la otra persona funciona mejor que cualquier test de treinta preguntas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien quiera seguir por ahí tiene sitios mejores. Sobre lo que predice que una pareja funcione, los libros de Gottman están construidos sobre décadas de observación en laboratorio y tienen datos en cada capítulo, que es exactamente lo que a este le falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sobre por qué a alguien le cuesta pedir o recibir determinadas cosas, la literatura sobre estilos de apego explica bastante mejor los bloqueos que este libro atribuye simplemente a tener otro idioma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, ninguno de esos dos ha conseguido lo que consiguió este: que veinte millones de personas que no habrían abierto un libro de psicología se sentaran con su pareja a hablar de qué necesitan, con ejemplos concretos y sin acusarse de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un pastor de Carolina del Norte releyendo sus carpetas de notas hizo eso, y eso no lo ha hecho ningún estudio.",
+        },
+      ],
+    },
+  ],
+};
