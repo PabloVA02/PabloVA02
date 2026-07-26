@@ -137,7 +137,7 @@ export const CATALOGO: Ficha[] = [
   { id: "mujercitas", titulo: "Mujercitas", autor: "Louisa May Alcott", ano: 1868, categoria: "Literatura", estado: "pendiente" },
   { id: "sombra-viento", titulo: "La sombra del viento", autor: "Carlos Ruiz Zafón", ano: 2001, categoria: "Literatura", estado: "escrito" },
   { id: "nombre-rosa", titulo: "El nombre de la rosa", autor: "Umberto Eco", ano: 1980, categoria: "Literatura", estado: "escrito" },
-  { id: "casa-espiritus", titulo: "La casa de los espíritus", autor: "Isabel Allende", ano: 1982, categoria: "Literatura", estado: "pendiente" },
+  { id: "casa-espiritus", titulo: "La casa de los espíritus", autor: "Isabel Allende", ano: 1982, categoria: "Literatura", estado: "escrito" },
   { id: "pedro-paramo", titulo: "Pedro Páramo", autor: "Juan Rulfo", ano: 1955, categoria: "Literatura", estado: "escrito" },
   { id: "ficciones", titulo: "Ficciones", autor: "Jorge Luis Borges", ano: 1944, categoria: "Literatura", estado: "escrito" },
   { id: "viejo-mar", titulo: "El viejo y el mar", autor: "Ernest Hemingway", ano: 1952, categoria: "Literatura", estado: "escrito" },

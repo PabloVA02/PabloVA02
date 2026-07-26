@@ -8751,3 +8751,679 @@ export const FICCIONES: Resumen = {
     },
   ],
 };
+
+export const CASA_ESPIRITUS: Resumen = {
+  id: "casa-espiritus",
+  titulo: "La casa de los espíritus",
+  autor: "Isabel Allende",
+  ano: 1982,
+  gancho: "Empezó como una carta a un abuelo de noventa y nueve años que se estaba muriendo al otro lado del mundo. La carta nunca se envió: a las quinientas páginas era una novela.",
+  porQue:
+    "Porque es la novela latinoamericana más leída escrita por una mujer y porque lleva cuarenta años cargando con la acusación de ser una copia de Cien años de soledad. Conviene mirar de cerca si lo es.",
+  partes: [
+    {
+      titulo: "La carta que no llegó a tiempo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Caracas, 8 de enero de 1981. Una chilena de treinta y ocho años recibe una llamada desde Santiago: su abuelo, que tiene noventa y nueve años, ha decidido que ya está bien, ha dejado de comer y se está dejando morir en su cama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella no puede volver. Lleva seis años fuera de Chile y no puede entrar. Así que hace lo único que se le ocurre: se sienta esa misma noche en la cocina y empieza a escribirle una carta, para demostrarle que no se ha olvidado de nada de lo que él le contó.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pasó con esa carta",
+          frase: "Escribió todas las noches durante un año, después de su jornada en un colegio. Cuando paró tenía quinientas páginas y su abuelo llevaba meses muerto. La carta no se envió nunca y se publicó como novela en 1982.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Isabel Allende, había nacido en Lima en 1942 porque su padre era diplomático, y hasta el golpe de Estado de 1973 había sido periodista en Chile: entrevistas, una columna de humor y un programa de televisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su relación con Salvador Allende, el presidente derrocado, se cuenta casi siempre mal. No era su sobrina: su padre era primo hermano de Salvador. Ella lo llamaba tío y era, en términos exactos, prima segunda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El vínculo bastó para que después del golpe su situación se volviera insostenible. Estuvo un tiempo ayudando a esconder a gente y a sacarla del país, hasta que en 1975 se marchó a Venezuela con su marido y sus dos hijos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Estuvo trece años allí. Y trece años fue el tiempo que tardó en volver a escribir algo que no fuera periodismo: llegó sin trabajo, dio clases en un colegio, y ha contado que aquellos años fueron los peores de su vida.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una anécdota anterior que conviene contar, porque explica bastante. Siendo joven periodista consiguió entrevistar a Pablo Neruda en su casa de Isla Negra, convencida de que era un encargo importante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Neruda comió con ella, la trató bien y al final le dijo que no pensaba dejarse entrevistar por ella, porque era la peor periodista del país: mentía, exageraba y se ponía siempre en el centro de la historia. Y que se dedicara a escribir novelas, que ahí eso eran virtudes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella lo tomó como una humillación durante años. Cuando por fin escribió la novela tenía casi cuarenta y él llevaba muerto desde doce días después del golpe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Terminado el manuscrito, lo mandó a varias editoriales latinoamericanas y se lo rechazaron todas. Una amiga le sugirió enviárselo a Carmen Balcells, la agente literaria de Barcelona que representaba a media literatura del continente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le dijo Balcells",
+          frase: "Que cualquiera puede escribir un primer libro bueno, porque en él se pone todo lo que uno tiene: la vida, la familia, los recuerdos. Que el escritor de verdad se demuestra en el segundo. Y le aconsejó que no dejara su empleo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se publicó en 1982 en España y funcionó desde el primer momento. Está traducido a más de cuarenta idiomas y es, con los años, una de las novelas más leídas que se han escrito en español en el siglo veinte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Allende sigue empezando todos sus libros un 8 de enero. Es una superstición confesada y la mantiene desde entonces, sea cual sea el libro y esté donde esté.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El origen del libro explica su forma. No está construido como una novela con un plan: está construido como alguien que recuerda para otro, saltando de una escena a otra porque una lleva a la siguiente, con el tono de quien cuenta cosas de la familia.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí también viene lo que hay dentro. Su abuela materna, según ella, era clarividente y hacía sesiones de espiritismo en la casa. Su abuelo era un hombre autoritario y de carácter difícil que la crio después de que su padre abandonara a la familia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esos dos, transformados, son los dos personajes centrales del libro. Y conviene decir enseguida que la novela no es autobiográfica: los hechos son inventados, la familia Trueba no existió y lo que se conserva del original es el clima, no los sucesos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella lo ha explicado muchas veces con la misma imagen: no escribió lo que pasó, escribió lo que quedó. Un olor de casa, una manera de hablar, el ruido de una máquina de coser, la sensación de que en aquel caserón había siempre alguien muerto rondando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese material tiene una ventaja sobre los hechos: no se puede comprobar y tampoco se puede desmentir. Es lo que hace que la primera mitad del libro suene a memoria familiar y no a documento de archivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y explica por qué se escribió tan rápido. No hubo investigación ni fichas ni consultas: hubo una mujer de treinta y ocho años recordando en voz alta durante un año, cada noche, después de su jornada de trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La novela cubre cuatro generaciones de esa familia a lo largo de casi todo el siglo veinte, en un país que nunca se nombra pero que es evidentemente Chile.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni el país, ni el presidente, ni el poeta ni el general aparecen con su nombre en ninguna página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y todo el mundo sabe exactamente quiénes son.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera frase del libro es la que su abuela había escrito en la primera página de sus cuadernos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y anuncia, sin que se note, todo lo que va a pasar en quinientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Habla de un perro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que llega a la familia en un barco.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Barrabás llegó a la familia por vía marítima",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Esa es la frase con la que empieza la novela, y es una de las primeras frases más conocidas de la literatura en español. Barrabás es un cachorro que llega en una jaula, en el equipaje de un tío viajero, en un estado lamentable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie sabe de qué raza es. Crece hasta alcanzar un tamaño imposible, del tamaño de un potro, y se convierte en la mascota de la niña de la casa. Es lo primero que anuncia el tono del libro: aquí las cosas exageradas se cuentan sin levantar la voz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La niña se llama Clara del Valle, es la menor de una familia acomodada de la capital, y desde muy pequeña tiene facultades que la familia ha aceptado como se acepta que alguien sea zurdo: mueve objetos sin tocarlos y adivina lo que va a pasar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo funciona lo sobrenatural aquí",
+          frase: "Nadie se asombra. Los muebles se desplazan por el comedor y la familia sigue comiendo. Ese es el procedimiento del realismo mágico: lo extraordinario contado con la misma naturalidad que el tiempo que hace.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hermana mayor es Rosa la bella, y es de las creaciones más recordadas del libro: tiene la piel casi transparente y el pelo verde, y su belleza es tan poco humana que la gente se para en la calle a mirarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rosa está prometida con Esteban Trueba, un joven de familia venida a menos que se ha ido al norte a trabajar en una mina para hacer dinero suficiente para casarse con ella. Es el otro protagonista, y va a estar vivo hasta la última página.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Rosa muere antes de la boda, envenenada por un aguardiente que iban a mandar a su padre, que era senador, y que ella bebió por casualidad. Es un asesinato político equivocado, y es la primera vez que la política entra en la casa: matando a quien no tocaba.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Clara asiste sin que nadie lo sepa a la autopsia de su hermana, hecha en la cocina de la casa. Esa noche decide dejar de hablar, y no vuelve a decir una palabra durante nueve años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese silencio de nueve años es el corazón del personaje. No es un trauma que se explique: es una decisión, y la familia acaba organizándose alrededor de ella, con la niña escribiendo notas en cuadernos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cuadernos son la clave de todo el libro. Clara anota la vida en ellos desde la infancia, sin orden cronológico, y esos cuadernos son los que su nieta usará al final para reconstruir la historia que estamos leyendo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quién narra",
+          frase: "La novela la escribe Alba, la nieta, a partir de los cuadernos de Clara. Y de vez en cuando, sin aviso, el texto pasa a primera persona: es Esteban Trueba, el abuelo, interrumpiendo para dar su versión de los hechos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa alternancia es lo mejor construido del libro. La voz principal es de tres mujeres de tres generaciones, y el hombre que las ha dominado a todas solo consigue meter baza a ratos, para contradecir y para justificarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y funciona, porque sus intervenciones no son las de un villano: son las de un hombre convencido de haber hecho lo correcto toda su vida, que se enfada con lo que se está contando y a quien el lector acaba entendiendo sin perdonarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Clara vuelve a hablar nueve años después, un día, para anunciar que se va a casar. Con Esteban Trueba, el que iba a casarse con su hermana muerta, que ha vuelto del campo hecho un hombre rico y furioso.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Se casan y se instalan en la casa de la esquina, un caserón que Trueba manda construir para impresionar y que Clara va deformando por dentro con habitaciones añadidas sin plano, escaleras que no llevan a ningún sitio y pasillos improvisados.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa casa es el símbolo central del libro y está bien pensado: la fachada sólida y ordenada la levanta él; el interior laberíntico e imprevisible lo hace ella. Los dos viven en el mismo edificio y no en la misma casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por allí circulan espiritistas, poetas, artistas sin dinero, huérfanos recogidos y tres hermanas Mora que aparecen y desaparecen. Trueba lo odia todo y lo tolera, porque es lo único que retiene a Clara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa casa llena de gente rara tiene una función que se ve mejor al final: es el único sitio de la novela donde nadie tiene que ganarse el derecho a estar. Cuando se cierre, cuarenta años después, será exactamente eso lo que se haya perdido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio título lo dice y casi nadie lo lee así: los espíritus no son solo los fantasmas de las sesiones de los martes. Son también los vivos que Clara acoge, que son precisamente la gente que a Trueba le sobra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tienen tres hijos: Blanca, y los gemelos Jaime y Nicolás. Y la novela empieza a moverse hacia el sitio donde va a pasar lo importante, que no es la ciudad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una hacienda en el campo que Trueba levantó de la nada cuando volvió de la mina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que estaba abandonada y que él convirtió en la propiedad más próspera de la zona a base de trabajo y de mano dura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre todo de mano dura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llama Las Tres Marías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en ella empieza, sin que nadie se dé cuenta, la cadena que va a terminar en la última página del libro.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las Tres Marías",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Esteban Trueba llegó a Las Tres Marías siendo un chico de veintitantos años, con la casa hundida, los campesinos en la miseria y las tierras sin cultivar. En unos años la convirtió en un negocio próspero, y lo hizo trabajando de sol a sol.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro le reconoce eso sin ironía: construyó escuela, ambulatorio y casas de ladrillo, y a sus campesinos les fue mejor que a los de las haciendas vecinas. Su idea de sí mismo es la del patrón que cuida de los suyos, y en parte es verdad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y la otra parte",
+          frase: "Consideraba suyas también a las mujeres. Violó sistemáticamente a las campesinas de su hacienda durante años, empezando por Pancha García, y el libro lo cuenta sin atenuar y desde dentro de su cabeza, que es lo que lo hace insoportable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su justificación, tal y como él la formula, es la del derecho de propiedad extendido a las personas. No le parece un delito ni un abuso: le parece una costumbre del campo, y en la sociedad que describe la novela, efectivamente lo era.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquella primera violación nace un hijo al que Trueba no reconoce. Ese hijo tendrá a su vez un hijo, y ese nieto no reconocido se llamará Esteban García, y va a ser quien cierre la historia sesenta años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la estructura entera del libro y está montada desde el principio: lo que un hombre hace en una hacienda en los años veinte vuelve, convertido en otra cosa, en un sótano de la capital en 1973. La violencia no se pierde: cambia de manos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el argumento serio de la novela y la separa de la saga familiar decorativa. No cuenta cuatro generaciones porque sí: las cuenta para enseñar cómo se transmite el daño, quién lo hereda y cuánto tarda en volver.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, en la hacienda crece otra historia. Blanca, la hija de Trueba, se enamora siendo niña de Pedro Tercero García, hijo del capataz, y esa relación dura toda la vida y a escondidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pedro Tercero se convierte en cantautor y en militante, y sus canciones sobre las gallinas que se organizan contra el zorro se hacen populares en todo el país. Es un trasunto evidente de los cantautores chilenos de los sesenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando Trueba descubre la relación, la reacción es de una violencia doble: le pega a su hija hasta dejarla en el suelo y sale a caballo a buscar al muchacho con un hacha. Le corta tres dedos de la mano derecha.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La escena que rompe el matrimonio",
+          frase: "Esa noche, Clara le dice que ha vuelto a golpear a alguien de su familia, y él le da un puñetazo que le tira dos dientes. Clara no vuelve a dirigirle la palabra en el resto de su vida, y vive treinta años más en la misma casa que él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese castigo silencioso, mantenido durante décadas dentro del mismo edificio, es el hallazgo más duro del libro. No hay divorcio, no hay huida y no hay escándalo. Hay una mujer que deja de existir para su marido sin salir de casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Trueba entra en política, se hace senador del partido conservador y pasa décadas convencido de que el país se va a hundir si gana la izquierda. Sus discursos ocupan varias páginas y están escritos sin caricatura, que es un mérito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Blanca queda embarazada de Pedro Tercero. Trueba la casa a la fuerza con un conde francés, un estafador con título falso que resulta ser bastante peor de lo que parecía, y del que ella acaba huyendo para volver a la casa de la esquina.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La niña que nace se llama Alba, nace en la casa de los espíritus y crece rodeada de mujeres, con Clara enseñándole a leer los cuadernos y con un abuelo que la adora exactamente igual que odió a su madre. Es la única persona a la que Trueba quiere sin condiciones.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando Clara muere, la casa se apaga. Los espiritistas dejan de venir, las habitaciones se cierran, el jardín se seca. Trueba se encoge físicamente —el libro dice que menguó varios centímetros— y se queda solo con la nieta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alba crece, entra en la universidad, se enamora de Miguel, un estudiante de izquierdas, y participa en las ocupaciones y en las manifestaciones de finales de los sesenta mientras su abuelo conspira desde el Senado contra lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces gana las elecciones el candidato socialista al que Trueba lleva veinte años combatiendo, y que en el libro no tiene nombre: es siempre el Candidato, y después el Presidente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La noche del recuento está contada desde el salón de la casa, con la familia partida en dos delante de la radio: la nieta celebrando y el abuelo comprendiendo, con las cifras delante, que ha perdido bastante más que unas elecciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después llega la reforma agraria y le expropian Las Tres Marías. Son sus propios campesinos, los que él crio y para los que construyó la escuela, quienes se lo comunican y quienes lo encierran en la casa cuando aparece con una escopeta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Trueba y los suyos empiezan a organizar lo que hay que organizar para que ese gobierno no dure.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Financian el desabastecimiento, la huelga de camioneros y las conversaciones con los militares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo consiguen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un martes por la mañana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a partir de esa mañana, en la novela, ya no vuelve a ocurrir nada sobrenatural.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El día que se fueron los espíritus",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El golpe ocupa unas pocas páginas y está contado casi como una crónica: los aviones sobre el palacio presidencial, la última transmisión de radio, el Presidente que se niega a salir y que muere ametralladora en mano defendiendo un edificio que ya está perdido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No se le nombra en ningún momento. Tampoco se nombra el país, ni la fecha, ni al general. Y no hace falta: cualquier lector sabe que es Chile y que es el 11 de septiembre de 1973, y esa decisión de no nombrarlo hace que la escena valga para más sitios.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El cambio de registro",
+          frase: "Hasta aquí la novela ha sido un mundo donde los muebles se mueven solos y las mujeres tienen el pelo verde. A partir del golpe, todo eso desaparece de golpe y el libro pasa a contarse en un tono seco, casi de reportaje. Es deliberado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la mejor decisión estructural de Allende y la que casi nadie menciona cuando se habla de este libro. El realismo mágico no se abandona por descuido: se retira porque lo que llega después no admite adorno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los espíritus se van de la casa. Las mesas dejan de levitar. Las premoniciones se acaban. El país se convierte en un sitio donde las cosas raras que pasan no son mágicas, son policiales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una escena que resume ese tránsito: el entierro del Poeta, que muere pocos días después del golpe. La novela no lo nombra tampoco, pero es Neruda, que murió el 23 de septiembre de 1973, doce días después.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su funeral se convirtió en la primera manifestación pública contra la dictadura: gente que salió a la calle a gritar su nombre delante de los militares, con el país bajo toque de queda. Ocurrió de verdad y en la novela está contado como ocurrió.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los hijos de Trueba desaparecen en el nuevo orden. Jaime, el médico, es asesinado en el palacio. Nicolás ya se había ido del país. Blanca esconde a Pedro Tercero en la casa y consigue sacarlo por una embajada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y Trueba, que ha ayudado a traer a los militares, descubre en cuestión de semanas que no le van a devolver el país que él creía estar recuperando. Cuando pide explicaciones, un general le contesta que ahora manda otra gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese descubrimiento es el que le rompe: había pensado que el ejército era un instrumento de su clase y resulta que su clase era un instrumento del ejército. Es un retrato bastante exacto de lo que le pasó a buena parte de la derecha chilena.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y entonces se llevan a Alba",
+          frase: "La detienen en la casa, delante de él. Trueba, senador, con contactos en el gobierno, con dinero y con apellido, descubre que no puede hacer absolutamente nada, porque el aparato que ha ayudado a instalar no reconoce ninguna de esas cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El oficial que la interroga se llama Esteban García. Es el nieto no reconocido, el hijo del hijo de Pancha García, el que de niño iba a la hacienda a mirar a la familia del patrón desde fuera sabiendo quién era su abuelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha esperado toda su vida a tener delante a alguien de esa familia. La novela no lo presenta como un monstruo salido de la nada: lo presenta como el resultado exacto de lo que Esteban Trueba hizo en Las Tres Marías cincuenta años antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ocurre en ese sótano el libro lo cuenta sin regodearse y sin esconderlo. Es la parte más difícil de leer, y está escrita en el tono más contenido de toda la novela, que es lo que hace que funcione.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Allende escribió esas páginas en 1981, en Caracas, con la dictadura en pleno funcionamiento y con testimonios de gente a la que había ayudado a salir. No es documentación de archivo: es lo que le habían contado personas concretas.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A Alba la salva una mujer, Tránsito Soto, que regenta un burdel y a la que Trueba había prestado dinero cincuenta años antes. La única deuda que le pagan al senador en toda su vida es la que contrajo con una prostituta joven en una noche que ya ni recordaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un final de trama casi de cuento y tiene su lógica dentro del libro: la red de mujeres que se ayudan entre sí atraviesa toda la novela y es lo único que en ningún momento se rompe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alba vuelve a casa. Encuentra a su abuelo convertido en un viejo destrozado, y los dos se ponen a hacer lo único que queda: ordenar los cuadernos de Clara y escribir lo que ha pasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el libro que estamos leyendo, y ahí la novela se cierra sobre sí misma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esteban Trueba muere en los brazos de su nieta, en paz, después de haber pedido perdón a su manera, que es contando su versión hasta el final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y Alba se queda embarazada, sin saber de quién.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puede ser de Miguel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "O puede ser de alguno de los hombres del sótano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que decide hacer con esa incertidumbre es la última página, y es lo que sostiene el libro entero.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Romper la cadena",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Alba decide que no va a averiguarlo. Escribe que su hija —está segura de que es una niña— es hija suya y de nadie más, y que va a criarla sin buscarle un padre y sin contarle a quién odiar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y razona por qué. Dice que buscar venganza sería añadir otro eslabón a una cadena que lleva un siglo funcionando, y que en algún punto alguien tiene que dejar de tirar de ella o no se acaba nunca.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tesis del libro",
+          frase: "Esteban García hizo lo que hizo porque su abuela fue violada por Esteban Trueba. La venganza es hereditaria y se cobra siempre en la generación siguiente. La única manera de pararla es que alguien acepte el daño y no lo transmita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una idea grande y discutible, y conviene decir las dos cosas. Es grande porque escrita en 1981, con la dictadura funcionando y la autora exiliada, es cualquier cosa menos cómoda: renunciar a la venganza no es lo que apetece decir en ese momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y es discutible porque perdonar no es lo mismo que hacer justicia, y el libro los mezcla un poco. Los responsables de lo que le pasó a Alba no necesitan su perdón: necesitan un juicio, y de eso la novela no habla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, la acusación que este libro arrastra desde el primer día y que hay que mirar de frente: que es una copia de Cien años de soledad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los parecidos existen y son muchos. Saga familiar de varias generaciones. Nombres que se repiten de padres a hijos. Un patriarca fundador. Una mujer con poderes. Una belleza sobrenatural. Y un final en el que un personaje lee los papeles que contienen la historia que acabamos de leer.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Crítica muy dura se ha escrito sobre eso. Harold Bloom llegó a decir que la novela no tenía valor propio y era una imitación. La expresión que más ha circulado, en tono despectivo, es la de Cien años de soledad de segunda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta razonable no es negar los parecidos, que están, sino mirar las diferencias, que también están y no son pequeñas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera: Macondo no existe y Chile sí. García Márquez escribe un pueblo mítico fuera del tiempo; Allende escribe un país concreto con un golpe de Estado fechado, y su libro se puede leer al lado de un informe de la comisión de la verdad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La segunda diferencia, y es la mayor",
+          frase: "En Cien años de soledad lo mágico dura hasta la última página. Aquí desaparece en el momento exacto del golpe y no vuelve. La novela usa el realismo mágico y después lo desmonta delante del lector, porque la historia real no lo admite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera: la voz. Esta novela la cuentan tres mujeres de tres generaciones y un hombre que interrumpe. Que en 1982 una saga familiar latinoamericana estuviera narrada desde la línea femenina, con el patriarca reducido a comentarista, no era en absoluto habitual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Allende ha contestado siempre lo mismo cuando se lo preguntan: que escribió lo que sabía, que la casa, la abuela y el abuelo eran los suyos, y que si eso se parece a otro libro es porque el continente y el siglo eran los mismos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora dónde falla el libro de verdad, que es otra cosa. El primero y más señalado: es sentimental. Hay pasajes escritos para conmover que se pasan de vueltas, y el final de Trueba, muriendo en paz y perdonado, muchos lectores lo encuentran regalado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El segundo: varios personajes son tipos más que personas. El campesino bueno, el conde estafador, el militar resentido. Funcionan en la trama y no tienen la complejidad de los dos protagonistas, que sí la tienen y mucha.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es de estructura: las dos mitades no encajan del todo. La primera es una novela de familia con espíritus; la segunda es casi un testimonio político. La costura se nota, y hay lectores que sienten que empezaron un libro y terminaron otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso mismo se puede defender como decisión consciente, y aquí queda dicho que probablemente lo es. Pero conviene avisar de que el cambio existe, porque desconcierta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad. Lo primero: que es autobiográfica. No lo es. Empezó como una carta a un abuelo real y la familia Trueba, los hechos y las muertes son inventados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que Isabel Allende era sobrina de Salvador Allende. Era prima segunda: su padre era primo hermano del presidente. Ella lo llamaba tío, que en Chile se usa así, y de ahí viene el error.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que la película de 1993 sirve para hacerse una idea. Es una versión con Meryl Streep, Jeremy Irons y Glenn Close haciendo de chilenos, rodada en Portugal y Dinamarca, que quita casi toda la política y deja el melodrama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuarto: que es un libro de realismo mágico. Lo es durante la primera mitad y deja de serlo a propósito. Quien lo lea esperando magia hasta el final se va a encontrar con otra cosa bastante más dura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance justo: una novela desigual, con partes sentimentales y con una deuda evidente con García Márquez, que sin embargo hace algo que él no hizo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contar un golpe de Estado desde dentro de una casa, con los muebles, la ropa tendida y los cuadernos de una abuela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y demostrar, en quinientas páginas, que lo que un hombre hizo en una hacienda en los años veinte acabó volviendo en 1973 con uniforme.",
+        },
+      ],
+    },
+  ],
+};
