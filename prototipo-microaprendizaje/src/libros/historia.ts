@@ -5759,3 +5759,614 @@ export const SI_ESTO_HOMBRE: Resumen = {
     },
   ],
 };
+
+export const ORIGENES_TOTALITARISMO: Resumen = {
+  id: "origenes-totalitarismo",
+  titulo: "Los orígenes del totalitarismo",
+  autor: "Hannah Arendt",
+  ano: 1951,
+  gancho: "Dos tercios de un libro sobre el nazismo no hablan de Alemania: hablan del antisemitismo del siglo diecinueve y de lo que los europeos hicieron en sus colonias africanas.",
+  porQue:
+    "Porque explica el totalitarismo como el resultado de procesos que llevaban un siglo funcionando, y porque su frase más famosa —la banalidad del mal— no está en este libro y significa otra cosa de lo que la gente cree.",
+  partes: [
+    {
+      titulo: "Ocho días en una comisaría de Berlín",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Berlín, primavera de 1933. Una mujer de veintiséis años está reuniendo material en la Biblioteca Estatal Prusiana: recorta artículos, copia declaraciones y anota expresiones antisemitas publicadas en la prensa y en actas de asociaciones profesionales alemanas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El encargo se lo ha hecho la Organización Sionista Alemana, que quiere documentar el ambiente del país para poder denunciarlo en el extranjero. Es un trabajo ilegal desde hace pocas semanas y ella lo sabe perfectamente cuando lo acepta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La detención",
+          frase: "La Gestapo la detuvo junto a su madre y las tuvo ocho días. Salió porque el policía que la interrogaba era nuevo en el puesto, simpatizó con ella y no encontró nada comprometedor en su cuaderno, escrito en griego antiguo para casos como aquel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En cuanto salió, cruzó la frontera con Checoslovaquia sin papeles y llegó a París. Se llamaba Hannah Arendt, había nacido en Hannover en 1906 y se había criado en Königsberg, la ciudad de Kant, en una familia judía laica y de izquierdas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su formación filosófica es de primer nivel: estudió en Marburgo con Martin Heidegger a los dieciocho años, después en Friburgo con Husserl, y se doctoró en Heidelberg en 1929 con Karl Jaspers, con una tesis sobre el concepto de amor en San Agustín.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Heidegger tuvo además una relación amorosa que empezó cuando ella era su alumna de dieciocho años y él un profesor casado de treinta y cinco. Ese vínculo, y su reanudación después de la guerra, es la parte de su biografía que nunca ha dejado de discutirse.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Porque Heidegger se afilió al partido nazi en 1933, fue rector de la Universidad de Friburgo, pronunció discursos en favor del régimen y no se retractó nunca de manera clara. Arendt reanudó el trato con él en 1950 y le ayudó a difundir su obra en Estados Unidos.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En París pasó siete años trabajando para una organización que ayudaba a niños judíos a emigrar a Palestina. En 1940, cuando Francia declaró la guerra, el gobierno francés la internó junto a miles de refugiados alemanes por considerarla extranjera enemiga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El campo se llamaba Gurs y estaba en los Pirineos franceses. Arendt pasó allí unas semanas y escapó aprovechando el caos administrativo de las semanas siguientes a la derrota francesa, cuando nadie sabía quién mandaba en qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La mayoría de las mujeres que se quedaron en Gurs fueron entregadas a los alemanes dos años después y deportadas a Auschwitz. Arendt escribió más adelante que las que salieron lo hicieron por una decisión tomada en un momento de desorden que duró pocos días.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El punto de partida del libro",
+          frase: "Su experiencia de ocho años como apátrida: sin pasaporte, sin nacionalidad, sin derecho legal a estar en ningún sitio y dependiendo de la buena voluntad de funcionarios. Ese es el material del capítulo más influyente del libro y no es teoría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegó a Nueva York en mayo de 1941, con su segundo marido Heinrich Blücher y con su madre, y con un visado de emergencia gestionado por un periodista americano que sacó a unos dos mil intelectuales europeos por Lisboa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empezó de cero a los treinta y cinco años, sin saber inglés, trabajando de gobernanta y después escribiendo en publicaciones judías de emigrados. Tardó casi diez años en tener la nacionalidad estadounidense y en publicar este libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo escribió en los años cuarenta, mientras iban llegando las primeras informaciones sobre los campos de exterminio, y lo publicó en 1951. Es decir: es de los primeros intentos serios de entender qué había pasado, escrito antes de que existiera casi ninguna investigación histórica.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título en inglés fue The Origins of Totalitarianism, pero la primera edición británica salió como La carga de nuestro tiempo. A ella la palabra orígenes nunca le gustó: no buscaba una cadena de causas sino elementos sueltos que en un momento dado se juntaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su palabra para ese juntarse es cristalización. El antisemitismo, el imperialismo y la sociedad de masas venían cada uno por su lado y podían no haberse encontrado nunca. Por eso repite que aquello no era inevitable, y por eso tampoco sirve de profecía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El método que reivindica es el de comprender, y se pasó la vida aclarando que comprender no es perdonar. Comprender el nazismo significa para ella mirarlo de frente y resistir las dos tentaciones fáciles: reconciliarse con ello o convertirlo en algo que se deduce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene avisar de que el libro no es fácil ni corto. Son unas seiscientas páginas de prosa densa, con citas en cinco idiomas y sin ninguna concesión al lector. Se aguanta mejor leído por partes que de seguido, porque cada una funciona casi como un libro aparte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La acogida en 1951 fue doble. Le reconocieron enseguida el hallazgo conceptual y le discutieron el rigor histórico, con razón: escribía a seis años de la guerra, sin archivos alemanes abiertos y sin acceso a nada soviético que no fuera propaganda o testimonio de huidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su decisión de partida es la que estructura el libro entero y sigue siendo su mayor aportación: negarse a explicar el nazismo por el carácter alemán, por la locura de Hitler o por la derrota de 1918.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis es que aquello no fue un accidente ni una desviación, sino el resultado de procesos que llevaban un siglo desarrollándose en toda Europa, y que se cruzaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso el libro tiene tres partes y las dos primeras no hablan del nazismo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La riqueza sin función",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La primera parte trata del antisemitismo, y empieza con una distinción que es toda la aportación del capítulo: el antisemitismo moderno no es una continuación del odio religioso medieval, aunque se le parezca y aunque reutilice sus imágenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El odio medieval era religioso y tenía una salida: la conversión. Quien se bautizaba dejaba de ser el problema. El antisemitismo del siglo diecinueve es político y racial, y por tanto no tiene salida: no hay nada que uno pueda hacer para dejar de ser lo que le acusan de ser.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su explicación del momento",
+          frase: "Durante siglos, ciertas familias judías habían cumplido una función concreta en los estados europeos: financiar a las monarquías y gestionar sus deudas. Cuando los estados-nación modernos desarrollaron sus propias finanzas, esa función desapareció y ellos se quedaron con la visibilidad y sin el papel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está la fórmula que Arendt considera decisiva: riqueza sin función. Una minoría visible, asociada al dinero, que ya no cumple ningún papel indispensable para nadie, es una minoría en una posición extraordinariamente peligrosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento es que el poder real genera respeto o temor, pero la riqueza sin poder genera resentimiento sin freno, porque no hay nada que perder atacándola. Y sostiene que ese es el momento exacto en que el antisemitismo se convierte en un programa político.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso que analiza en detalle es el asunto Dreyfus, en la Francia de los años noventa del siglo diecinueve. Un capitán del ejército francés, judío alsaciano, fue condenado por espionaje con pruebas falsas y degradado públicamente en 1894.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que le interesa no es la injusticia individual sino lo que se desató alrededor: manifestaciones multitudinarias, una prensa antisemita de gran tirada, la Iglesia y el ejército alineados, y un país partido en dos durante doce años por un caso de espionaje.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Arendt lo llama el ensayo general. Ahí aparecen por primera vez todos los elementos que reaparecerán cuarenta años después: la turba movilizada, la prensa como máquina de odio, la acusación de conspiración internacional y la idea de que hay un enemigo interior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También aparece un fenómeno que a ella le interesa especialmente: la alianza entre la élite intelectual y la turba. Escritores respetados, académicos y militares de carrera respaldando una campaña que se apoyaba en falsificaciones evidentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación de esa alianza es que a una parte de la élite europea le atraía la idea de destruir una sociedad que consideraba hipócrita, y que estaba dispuesta a aliarse con cualquiera que prometiera destruirla, sin importarle mucho qué vendría después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso Dreyfus terminó bien, y ese final también le interesa. Émile Zola publicó Yo acuso en enero de 1898 y tuvo que huir a Inglaterra para no ir a la cárcel; Dreyfus fue indultado en 1899, rehabilitado en 1906 y devuelto al ejército con su grado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: la república francesa aguantó. Arendt insiste en que en 1894, con la calle pidiendo muerte a los judíos y media prensa detrás, no era en absoluto evidente que fuera a aguantar, y que treinta años después el mismo país entregó a sus refugiados sin resistirse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entre los periodistas que cubrieron la degradación pública de Dreyfus en el patio de la Escuela Militar había un vienés llamado Theodor Herzl. De allí salió, según su propio relato, la convicción de que los judíos europeos no tenían más salida que un estado propio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los historiadores matizan hoy ese relato, porque Herzl ya llevaba tiempo dándole vueltas al asunto. Pero el vínculo que a Arendt le importa se sostiene: el sionismo político y el antisemitismo de masas nacen en la misma década y de la misma constatación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella había estudiado esa constatación en su primer libro, una biografía de Rahel Varnhagen, la judía berlinesa que tuvo el salón más brillante de la ciudad y se murió sintiéndose extranjera en él. De ahí saca su pareja de figuras: el advenedizo y el paria.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que la mayoría no entendió a tiempo",
+          frase: "Que el antisemitismo no era un prejuicio residual que la modernidad iría borrando, sino una ideología nueva con capacidad de organizar un movimiento político de masas. Los judíos asimilados de Europa central lo interpretaron como un resto del pasado, y era exactamente lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte del libro es la que peor ha aguantado desde el punto de vista histórico. Arendt escribe sobre el papel financiero de los judíos europeos con un lenguaje que en momentos concretos resulta incómodo y con una precisión menor de la que exigiría el asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Historiadores posteriores han señalado que la idea de la función perdida simplifica una realidad social mucho más variada, en la que la inmensa mayoría de la población judía europea no tenía ninguna relación con las finanzas y era pobre.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "También le reprocharon que pareciera buscar en las víctimas alguna explicación de lo que les ocurrió, y ese reproche va a volver, mucho más fuerte, doce años después con su libro sobre el juicio de Eichmann.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí aguanta es la tesis central: que el antisemitismo moderno es un producto político del siglo diecinueve y no una supervivencia medieval, y que entenderlo como un residuo del pasado fue el error de cálculo que costó millones de vidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda parte del libro cambia de continente y ahí es donde el argumento se vuelve original de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque va a sostener que las técnicas del totalitarismo europeo no se inventaron en Europa.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El bumerán",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Entre 1880 y 1914, las potencias europeas se repartieron África y buena parte de Asia. En treinta años, un puñado de países ocuparon y administraron continentes enteros con poblaciones que no tenían ninguna representación en las decisiones que se tomaban sobre ellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Arendt sostiene que ahí, en las colonias, se desarrollaron y se probaron durante décadas tres cosas que después volvieron a Europa: el pensamiento racial como principio de organización política, la administración burocrática de poblaciones sin derechos, y la matanza administrativa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El efecto bumerán",
+          frase: "Su tesis es que lo que Europa hizo fuera acabó volviendo dentro. Que los métodos ensayados sobre poblaciones colonizadas —a las que se consideraba prescindibles— se aplicaron después a poblaciones europeas cuando alguien decidió que también eran prescindibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para documentar el ambiente de aquello no usa archivos oficiales sino una novela: El corazón de las tinieblas, de Joseph Conrad, publicada en 1899, que ella lee como un documento y no como ficción, porque Conrad había estado allí y había visto lo que describe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Congo que Conrad describe era propiedad personal del rey Leopoldo II de Bélgica, gestionado como una empresa privada de extracción de caucho, con un sistema de cuotas obligatorias, rehenes y mutilaciones que produjo una mortalidad que se cuenta en millones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Arendt introduce dos conceptos que recorren toda esta parte y que son los mejores del libro. El primero es el de los hombres superfluos: población europea sin sitio en sus propias sociedades, expulsada por la industrialización, que encontró en las colonias una salida.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El segundo es el del capital superfluo: dinero acumulado que ya no encontraba inversión rentable en Europa y que necesitaba territorios nuevos. Su tesis es que el imperialismo fue la exportación conjunta de esas dos cosas sobrantes, la gente y el dinero.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí saca su definición del imperialismo como expansión por la expansión: un movimiento sin objetivo final, que necesita crecer permanentemente porque su lógica interna no admite un límite, y que por eso es incompatible con el estado-nación, que sí tiene fronteras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El personaje que usa como emblema es Cecil Rhodes, el empresario y político británico que controló las minas de diamantes de Sudáfrica y que dijo que anexionaría los planetas si pudiera. Arendt lo cita porque muestra una ambición sin ningún contenido concreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Junto al imperialismo de ultramar analiza otro que le parece más peligroso todavía: el imperialismo continental, el de los movimientos pangermanista y paneslavista, que no tenían colonias lejanas que conquistar y por eso dirigieron la expansión contra sus propios vecinos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su rasgo distintivo es la idea de un pueblo elegido sin territorio fijo, definido por la sangre y no por una frontera. Arendt sostiene que la línea directa hacia el nazismo sale de ahí y no del imperio británico: de un nacionalismo que acaba despreciando a su propio estado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Sudáfrica rastrea a los bóeres, colonos calvinistas de origen holandés que en el siglo dieciocho se adentraron en el interior y montaron una sociedad entera sobre la premisa de que los africanos no eran del todo humanos. Para ella es el primer ensayo de una sociedad racial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pensamiento racial como doctrina tiene fecha y autores europeos respetables. El conde de Gobineau publicó su Ensayo sobre la desigualdad de las razas humanas entre 1853 y 1855, y su éxito no fue científico sino social, entre aristocracias que buscaban por qué debían seguir mandando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La distinción que ella marca es entre ese pensamiento racial de salón, que llevaba un siglo circulando, y el racismo convertido en principio de gobierno. Lo primero es una opinión desagradable; lo segundo es una máquina, y quien la montó primero fue una administración colonial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro elemento que rastrea es la burocracia como forma de gobierno. En las colonias se desarrolló una administración que gobernaba por decretos, sin ley general, sin parlamento y sin que los gobernados pudieran apelar a nada. Un gobierno de expedientes.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso importa",
+          frase: "Porque un sistema así hace posible que se ejecuten políticas atroces sin que nadie se sienta responsable de ellas. Cada funcionario cumple una parte, ninguno decide el conjunto, y la responsabilidad se disuelve entre miles de despachos que solo tramitan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea es probablemente la más influyente de todo el libro y es la que reaparecerá en su análisis de Eichmann: la figura del hombre que hace funcionar una máquina criminal sin verse a sí mismo como un criminal, porque él solo firma papeles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, la tesis del bumerán es también la parte más discutida por los historiadores, y conviene decir en qué punto está esa discusión, porque se ha usado en las dos direcciones.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay evidencia concreta a favor: entre 1904 y 1908, Alemania cometió en su colonia de África del Suroeste, la actual Namibia, un exterminio de los pueblos herero y nama, con campos de concentración y órdenes explícitas, treinta años antes del nazismo y con personal que después volvió a Alemania.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una objeción seria: que la línea causal directa entre las colonias y el Holocausto es más limpia en el argumento que en los documentos, y que otros imperios coloniales con prácticas igual de brutales no produjeron nada parecido al nazismo en su territorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estado actual de esa discusión es que la continuidad existe en ideas, en personal y en técnicas, y que no es una explicación suficiente por sí sola. Arendt aporta una condición necesaria y no el mecanismo completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera parte del libro vuelve a Europa y empieza con un fenómeno que ella conocía por experiencia propia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Millones de personas que de pronto no pertenecían a ningún país.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El derecho a tener derechos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Después de la Primera Guerra Mundial, la desaparición de tres imperios y el redibujo de las fronteras europeas dejaron a millones de personas fuera de cualquier estado: minorías atrapadas en países nuevos, refugiados de la revolución rusa, gente a la que su propio país retiró la nacionalidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fenómeno era nuevo por su escala y por su carácter permanente. No eran exiliados que volverían: eran personas sin ningún estado dispuesto a reconocerlas, que no podían trabajar legalmente, ni casarse, ni viajar, ni denunciar un delito ante ninguna autoridad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La paradoja que describe",
+          frase: "Que las declaraciones de derechos del hombre proclamaban derechos inalienables por el hecho de ser humano, y que en la práctica esos derechos solo eran exigibles siendo ciudadano de un estado. Quien perdía la ciudadanía descubría que no le quedaba ninguno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión es una de las frases más citadas de la filosofía política del siglo veinte: que existe un derecho anterior a todos los demás, que es el derecho a tener derechos, es decir, el derecho a pertenecer a una comunidad política que te reconozca como persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una observación demoledora sobre la condición del apátrida: que la mejor manera de recuperar un estatus jurídico era cometer un delito, porque un criminal sí es alguien ante la ley, tiene un procedimiento, un abogado y una condena determinada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras que una persona sin papeles que no había hecho nada podía ser detenida indefinidamente sin juicio, expulsada a una frontera y devuelta desde el otro lado, en un ciclo que podía durar años y sobre el que ningún tribunal tenía nada que decir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La solución que se intentó fue el pasaporte Nansen, creado en 1922 por la Sociedad de Naciones para los refugiados rusos y extendido después a armenios y a otros. Llegaron a reconocerlo más de cincuenta países, y aun así no daba derecho a entrar en ninguno de ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los tratados de minorías firmados en 1919 protegían sobre el papel a los grupos que quedaban dentro de fronteras ajenas. Arendt los desmonta con dureza: se impusieron solo a los estados nuevos y pequeños, nunca a las potencias que los redactaron, y no había sanción detrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El paso siguiente lo dio Alemania en 1935 con las leyes de Núremberg, que convirtieron a los judíos alemanes en súbditos sin ciudadanía dentro de su propio país. Ella insiste en que quitar la nacionalidad fue siempre el primer trámite, y la deportación solo el segundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En julio de 1938, treinta y dos países se reunieron en Évian, a orillas del lago Lemán, para tratar el asunto de los refugiados alemanes. Salvo la República Dominicana, ninguno amplió sus cuotas. En Berlín se leyó el resultado exactamente como lo que era: un permiso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la conclusión que más incomoda del libro: que un estado-nación, tal como se concibió en el siglo diecinueve, no tiene ninguna casilla para quien no es ciudadano de ningún sitio. No es que no quiera protegerlo; es que su gramática no contempla esa figura.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa parte del libro se sigue citando hoy en todas las discusiones sobre refugiados, y no ha envejecido ni un día. Está escrita por alguien que pasó ocho años exactamente en esa situación y que estuvo internada en un campo francés por ser alemana en Francia.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo elemento de esta parte es su análisis de las masas, y ahí introduce una distinción que va contra buena parte de la interpretación marxista de la época: los movimientos totalitarios no se nutren de clases sociales sino de masas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una clase tiene intereses definidos, organizaciones y partidos que la representan. Una masa es lo que queda cuando esas estructuras se rompen: individuos aislados, sin pertenencia, sin sindicato, sin parroquia, sin asociación, sin nadie que responda por ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis es que el material humano del totalitarismo es la persona sola: la que no tiene ningún vínculo que le dé un sitio en el mundo, y para la que un movimiento que ofrece pertenencia total resulta atractivo precisamente por lo que exige.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La distinción final del libro",
+          frase: "Entre soledad y aislamiento. La soledad elegida es el estado en que uno piensa, en compañía de sí mismo. El aislamiento es no tener a nadie, ni siquiera a uno mismo, y Arendt sostiene que es el terreno común del terror y la experiencia básica del hombre de masas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su definición del régimen totalitario se apoya en dos elementos que tienen que darse juntos, y esa definición es exigente y estrecha a propósito, porque quiere distinguirlo de las dictaduras corrientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero es la ideología entendida como una lógica: una premisa única —la lucha de razas, la lucha de clases— de la que se deduce todo lo demás con coherencia perfecta, y que por tanto no necesita comprobarse contra ningún hecho.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El segundo es el terror, y su definición es la más original del libro: el terror totalitario no es la represión de los enemigos, porque continúa cuando ya no quedan enemigos. Es un principio de gobierno permanente que necesita producir culpables nuevos indefinidamente.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su análisis de los campos de concentración, que para ella no son ni una cárcel ni una herramienta económica, aunque cumplieran esas funciones. Son laboratorios donde se comprueba una afirmación: que todo es posible con seres humanos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su frase sobre el sujeto ideal de un régimen así, que es la que más se cita hoy: que no es el nazi convencido ni el comunista convencido, sino la persona para la que ha dejado de existir la diferencia entre un hecho y una ficción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diez años después de publicar esto, Arendt viajó a Jerusalén como enviada de una revista americana.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Jerusalén, 1961",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En mayo de 1960, el servicio secreto israelí capturó en Buenos Aires a Adolf Eichmann, el funcionario de las SS que había organizado la logística de la deportación de judíos europeos a los campos de exterminio, y lo trasladó a Israel para juzgarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Arendt le pidió a la revista The New Yorker que la enviara como cronista. Tenía cincuenta y cuatro años, era ya una intelectual conocida, y quería ver de cerca a una de las personas que habían hecho funcionar la máquina que ella había analizado durante una década.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dijo que vio",
+          frase: "No a un monstruo ni a un fanático imponente, sino a un funcionario mediocre, obsesionado con su carrera, incapaz de hablar sin frases hechas, que repetía consignas administrativas y que le pareció incapaz de pensar desde el punto de vista de otra persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí salió la expresión que la hizo mundialmente famosa y que aparece una sola vez en el libro, en la última línea: la banalidad del mal. Y de ahí salió también la mayor polémica intelectual del siglo veinte en el mundo judío.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene aclarar primero qué quiso decir, porque se entiende mal casi siempre. No dijo que el mal fuera trivial ni que Eichmann fuera inocente: pidió la pena de muerte para él en el propio libro y la defendió por escrito con argumentos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sostuvo es que los crímenes de esa magnitud no requieren monstruos, y que eso es lo verdaderamente inquietante. Que un sistema puede convertir a personas corrientes, ambiciosas y sin ideas propias en engranajes eficaces de un exterminio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El escándalo, sin embargo, vino sobre todo de otra parte del libro: unas páginas en las que describía el papel de los consejos judíos que las autoridades nazis obligaron a constituir en los guetos, y que participaron en la elaboración de las listas de deportados.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Arendt escribió que sin esa colaboración forzada el número de víctimas habría sido menor, y lo escribió con un tono seco e irónico que a muchos supervivientes les resultó insoportable viniendo de alguien que había salido de Europa en 1941.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reacción fue devastadora. Organizaciones judías la acusaron de falta de solidaridad, varios amigos de toda la vida rompieron con ella, y el estudioso de la mística judía Gershom Scholem le escribió una carta pública reprochándole que no sentía amor por su pueblo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella contestó que no amaba a ningún pueblo ni a ninguna colectividad, que solo amaba a sus amigos, y que la única clase de amor que conocía era el que se tiene a personas concretas. Esa respuesta la aisló todavía más.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y la corrección que llegó cincuenta años después",
+          frase: "En 2011, la filósofa Bettina Stangneth publicó una investigación basada en material que Arendt no pudo ver: cintas y transcripciones de conversaciones de Eichmann en Argentina, grabadas por un periodista nazi holandés antes de su captura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esas grabaciones, Eichmann no es un burócrata gris. Es un antisemita ideológico convencido, orgulloso de lo que hizo, que lamenta no haber terminado el trabajo y que habla con una franqueza que no tiene nada que ver con el hombre del juicio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión de Stangneth es que Eichmann construyó deliberadamente un personaje para el tribunal: el funcionario obediente y limitado que solo cumplía órdenes, porque era la única defensa que podía funcionar. Y que Arendt se creyó esa interpretación.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso no invalida el concepto de la banalidad del mal como descripción de cómo funciona una burocracia criminal, y sí lo invalida como descripción de este acusado concreto. Es una corrección importante y hay que decirla al hablar de este asunto.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Volviendo a Los orígenes del totalitarismo, sus reparos principales son tres. El primero, y el más discutido durante setenta años, es meter al nazismo y al estalinismo en la misma categoría, cuando sus estructuras, sus objetivos y sus trayectorias fueron muy distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es que su material sobre la Unión Soviética era flojo: escribía en 1950, sin acceso a ningún archivo soviético y con fuentes limitadas, y esa parte del libro es notablemente más débil que la dedicada a Alemania y a Europa occidental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es de método: Arendt no es historiadora, no trabaja con documentos de archivo y construye su argumento con literatura, filosofía y fuentes publicadas. Los especialistas siempre le han reprochado que sus datos concretos son irregulares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella misma fue corrigiendo el libro sobre la marcha. La edición de 1958 añade un capítulo final nuevo, Ideología y terror, y un epílogo sobre la revolución húngara de 1956 que luego retiró. La versión que se lee hoy no es exactamente la que se publicó en 1951.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El juicio sobre la equiparación entre nazismo y estalinismo también se ha ido moviendo con los archivos. Con los soviéticos abiertos desde 1991, la mayoría de los historiadores conserva la comparación como herramienta y rechaza la equivalencia, que es más o menos donde ella la dejó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene saber qué no es este libro: no es una historia del nazismo ni del estalinismo. Quien busque los hechos —la cronología, las cifras, las batallas, los nombres de los mandos— no los va a encontrar aquí. Este libro pregunta por qué fue posible y da lo demás por sabido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad: la banalidad del mal no está en este libro, es de doce años después; ella no dijo que Eichmann fuera inocente ni un simple mandado, pidió su ejecución; y no llamó totalitario a cualquier régimen autoritario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su definición es estrecha a propósito: hace falta una ideología total, un movimiento de masas, terror permanente como sistema de gobierno y la destrucción de la vida privada. Una dictadura militar corriente no cumple ninguno de esos cuatro requisitos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa precisión es probablemente lo más útil que se puede llevar hoy de este libro, en una época en que la palabra se usa para cualquier cosa que a uno le desagrade.",
+        },
+      ],
+    },
+  ],
+};
