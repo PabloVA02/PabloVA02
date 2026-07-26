@@ -5222,3 +5222,679 @@ export const MIENTRAS_ESCRIBO: Resumen = {
     },
   ],
 };
+
+export const SOBRE_FOTOGRAFIA: Resumen = {
+  id: "sobre-fotografia",
+  titulo: "Sobre la fotografía",
+  autor: "Susan Sontag",
+  ano: 1977,
+  gancho: "Es el libro más influyente que se ha escrito sobre fotografía y no contiene ni una sola fotografía. La decisión es deliberada y es también su mayor defecto.",
+  porQue:
+    "Porque describió en 1977 un mundo saturado de imágenes que entonces no existía y hoy es el nuestro, y porque su autora corrigió públicamente la tesis central veintiséis años después.",
+  partes: [
+    {
+      titulo: "Una librería de Santa Mónica, julio de 1945",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Santa Mónica, California, julio de 1945. Una niña de doce años entra en una librería a matar el tiempo mientras espera. En una mesa hay un libro abierto con fotografías tomadas semanas antes en dos campos de concentración recién liberados, Bergen-Belsen y Dachau.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las mira sin saber lo que está mirando. No tiene contexto, no sabe qué son esos cuerpos ni por qué están así. Escribió más de treinta años después que nada de lo que ha visto en su vida, ni en fotografía ni en la realidad, la cortó tan hondo y tan de golpe.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo lo formuló",
+          frase: "Dijo que algo se le rompió aquel día y que llegó a un límite; que algo murió y algo sigue llorando. Y que su vida se dividió en dos, en un antes y un después de aquellas fotografías vistas por casualidad a los doce años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa niña era Susan Sontag, nacida en Nueva York en 1933, criada en Tucson y en Los Ángeles, huérfana de padre desde los cinco años, y que a los quince entró en la universidad y a los diecisiete ya estaba casada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estudió filosofía en Chicago, en Harvard y en Oxford, y acabó siendo la ensayista más influyente de su país durante tres décadas: sobre cine, sobre enfermedad, sobre guerra, sobre camp, sobre pornografía y sobre fotografía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este libro no nació como libro. Son seis ensayos que fue publicando entre 1973 y 1977 en la New York Review of Books, y que después reunió y ordenó. Eso explica su forma: no argumenta linealmente, vuelve una y otra vez sobre las mismas ideas desde ángulos distintos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El detonante fue una exposición. En 1972, el museo de arte moderno de Nueva York montó una retrospectiva de Diane Arbus, fotógrafa que se había suicidado el año anterior y que retrataba a gente que la sociedad prefería no mirar: enanos, gemelas, gigantes, nudistas, personas con discapacidad.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La exposición fue un acontecimiento y a Sontag le pareció profundamente incómoda, no por las imágenes en sí, sino por lo que hacía el público con ellas: mirarlas en un museo, con calma, como objetos estéticos, sin ninguna relación con las personas retratadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la pregunta que sostiene el libro entero y que no es sobre fotografía sino sobre nosotros: qué nos hace mirar tantas imágenes, y qué le hacemos nosotros a lo que hay dentro de ellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene situarse en 1977 para entenderlo. Una fotografía era entonces un objeto escaso y caro: había que comprar el carrete, disparar treinta y seis veces, llevarlo a revelar, esperar días y pagar por las copias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una familia normal hacía tal vez cien o doscientas fotografías al año, casi todas de cumpleaños, bodas y vacaciones. Las imágenes que se veían venían de la prensa, de la televisión, de la publicidad y del cine, y todas estaban seleccionadas por alguien.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que anticipó",
+          frase: "Escribiendo en ese mundo, Sontag describió otro: uno en el que la gente vive rodeada de imágenes, colecciona imágenes, se relaciona a través de imágenes y experimenta el mundo como una acumulación de imágenes. Hoy eso no es una tesis, es una descripción del día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el motivo por el que el libro sigue reeditándose. No porque acertara con los detalles —muchos han quedado obsoletos—, sino porque su diagnóstico de fondo se cumplió con una exactitud que ella no podía comprobar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que decir enseguida una cosa que sorprende a mucha gente al abrir el libro: no tiene fotografías. Ni una. Trescientas páginas sobre imágenes sin una sola imagen reproducida.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La decisión es deliberada y ella la defendió: quería que el lector pensara sobre la fotografía en general, no sobre fotografías concretas. El precio es que se puede escribir cualquier cosa sobre una imagen que nadie está viendo.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su estilo tampoco ayuda a discutirle. Escribe en aforismos, en frases cerradas que suenan definitivas, y encadena afirmaciones grandes sin detenerse a demostrarlas. Es una prosa magnífica de leer y muy difícil de rebatir por partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella misma era consciente. Dijo alguna vez que sus ensayos sobre fotografía eran una discusión consigo misma, y que cada uno intentaba corregir el anterior sin conseguirlo del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió el libro además en unas circunstancias que no aparecen en él y que conviene saber: entre 1975 y 1977 estaba en tratamiento por un cáncer de mama con un pronóstico que sus médicos consideraban muy malo, y a la vez escribía otro libro sobre las metáforas de la enfermedad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato explica la insistencia del libro en la muerte. La idea de que toda fotografía certifica que un instante existió y ya no existe la escribió alguien que tenía razones concretas para pensar en instantes que no volverían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y explica también su tono. No es un libro de un observador tranquilo comentando un fenómeno cultural: es un libro escrito con urgencia por alguien que creía que le quedaba poco tiempo para decir lo que tenía que decir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer ensayo, el que da el tono, se titula con una referencia que sitúa el asunto en el sitio más antiguo posible de la filosofía occidental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mito de la caverna de Platón: unos prisioneros encadenados que solo ven sombras proyectadas en una pared y creen que eso es el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sontag empieza diciendo que la humanidad sigue en esa caverna, encantada con las imágenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que la novedad no es que nos engañen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es que ahora podemos llevárnoslas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "En la caverna de Platón",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su primera afirmación es la que sostiene todo lo demás: una fotografía no es una opinión sobre el mundo, es un trozo del mundo. No se parece a un cuadro ni a un texto; se parece a una huella, a una máscara mortuoria o a una pisada en el barro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia es física. Un retrato pintado es la interpretación de un pintor; una fotografía es el resultado de que la luz reflejada en una persona concreta impactara en una superficie sensible en un instante concreto. Hubo contacto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso importa",
+          frase: "Porque le da a la fotografía una autoridad que ningún otro tipo de imagen tiene. Un dibujo de un fantasma es un dibujo; una fotografía de un fantasma es una prueba, o lo parece. La fotografía no representa: certifica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a la vez, dice Sontag, esa autoridad es una trampa, porque toda fotografía es también una interpretación disfrazada de constatación: alguien eligió el encuadre, el momento, qué dejaba fuera, y esas elecciones desaparecen en el resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo clásico es la doble fotografía: la misma manifestación fotografiada desde delante, con la calle llena, o desde un lado, con un hueco. Las dos son verdad y las dos son incompatibles como información.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segunda idea es que las fotografías cambian lo que consideramos digno de mirarse. Enseñan un código visual nuevo y, al enseñarlo, amplían la lista de cosas que uno cree tener derecho a observar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Antes de la fotografía, casi nadie había visto de cerca la cara de un desconocido pobre de otro continente, ni el interior de una mina, ni un cadáver que no fuera de su familia. La fotografía convirtió todo eso en algo que se puede mirar cómodamente sentado.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale una de sus frases más citadas: que fotografiar es esencialmente un acto de no intervención. El fotógrafo que capta el momento exacto en que algo terrible ocurre ha elegido, aunque sea por una fracción de segundo, hacer la foto en lugar de otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella no lo plantea como una acusación moral simple, y a veces se lee así. Su matiz es que la cámara instala una relación con el mundo: la del que mira desde fuera, y que esa posición es cómoda y crea hábito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera idea del libro es la de coleccionar. Fotografiar es acumular el mundo en trozos pequeños y manejables, y una colección de fotografías es una forma de posesión de sitios y de personas a los que uno no puede volver.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase que resume el libro",
+          frase: "Sostiene que en la sociedad moderna todo existe para terminar en una fotografía. Cualquier suceso, cualquier viaje, cualquier comida y cualquier cara valen en parte por la imagen que producirán, y esa idea escrita en 1977 describe exactamente 2025.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aplicado al turismo, su análisis es tan certero que resulta incómodo. Sostiene que la cámara resuelve la ansiedad del viajero: da algo que hacer, convierte el tiempo libre en actividad y produce una prueba de que se estuvo allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su observación es que esa necesidad es especialmente fuerte en las culturas con una ética del trabajo intensa, donde no hacer nada produce culpa. La cámara convierte las vacaciones en una tarea con un producto al final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade el efecto secundario: fotografiar algo permite no mirarlo. La atención se va al encuadre, a la luz y al momento, y la experiencia queda aplazada para cuando se vean las fotos, que a menudo es nunca.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay una parte de esa intuición que la psicología ha investigado después. Varios estudios encontraron que la gente recuerda peor los objetos que fotografía en un museo que los que se limita a mirar, y el efecto se ha replicado con matices.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es una confirmación de Sontag, que no hablaba de memoria sino de experiencia, y sí es una de las pocas afirmaciones del libro que se puede comprobar y que ha resistido bastante bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El álbum familiar recibe un tratamiento aparte y sorprendente. Sontag sostiene que la fotografía se convirtió en un rito familiar justo cuando la familia extensa se estaba deshaciendo por la industrialización y las migraciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: el álbum no documenta una familia que existe; es la prueba portátil de una familia que se está dispersando. Las fotos de boda y de bautizo aumentan cuanto menos se ven los parientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un dato que ella señala y que cualquiera puede comprobar en su propia casa: casi nadie fotografía lo malo. Los álbumes están llenos de cumpleaños y de playas, y no hay ni una imagen de un divorcio, de una discusión o de un funeral.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El álbum familiar no es un registro: es una versión editada, y la edición está hecha por defecto, sin que nadie la decida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa observación se ha vuelto todavía más cierta con las redes sociales, donde el álbum se hizo público y la edición dejó de ser inconsciente: ahora se elige deliberadamente qué versión de la propia vida se enseña, y se descarta lo demás con un gesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sontag no llegó a ver eso y sí describió el mecanismo. Dijo que las fotografías no documentan la felicidad de una familia: la producen, porque el propio acto de posar para la cámara obliga a poner la cara que corresponde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un detalle que ella señala y que cualquiera reconoce: la orden de sonreír. Nadie sonríe espontáneamente al ver una cámara; se sonríe porque se sabe lo que hay que hacer, y ese gesto aprendido llena después el álbum de una alegría que no ocurrió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo esto sirve de preparación para la parte del libro que ha hecho discutir durante cincuenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que empieza con una analogía sobre el gesto de hacer una fotografía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con el vocabulario que se usa en inglés para describirlo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Disparar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Sontag señala que en inglés el vocabulario de la fotografía es el de las armas. Se carga la cámara, se apunta y se dispara. En español se usa disparar también, y se habla de captar y de cazar imágenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis es que la cámara funciona como una sublimación del arma: permite apropiarse de alguien sin tocarlo. Lo llama un asesinato blando, y aclara enseguida a qué se refiere, porque la frase se ha citado mil veces fuera de contexto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué quiere decir con eso",
+          frase: "No que los fotógrafos sean violentos. Que fotografiar a alguien es convertirlo en objeto: en algo que se posee, se guarda, se recorta, se muestra y se juzga, sin que esa persona tenga después ningún control sobre lo que se hace con su cara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su prueba histórica es la relación entre la fotografía y las expediciones coloniales, las clasificaciones raciales, los archivos policiales y los estudios antropológicos del siglo diecinueve, donde la cámara sirvió literalmente para catalogar personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También aparece el safari fotográfico, que ella analiza con precisión: sustituyó al safari de caza en el momento en que matar animales dejó de estar bien visto, y conservó exactamente la misma estructura de acecho, trofeo y colección.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El desequilibrio de poder es el eje de todo el capítulo, y se ve mejor preguntando quién fotografía a quién. Históricamente, los ricos han fotografiado a los pobres, los sanos a los enfermos, los del norte a los del sur y los adultos a los niños.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Muy pocas veces al revés. Y quien aparece en la imagen casi nunca decide cómo se le retrata, ni dónde se publica, ni qué pie de foto le ponen. Esa asimetría es invisible en el resultado, que se presenta como un documento neutral.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso que discute a fondo es el de los fotógrafos que documentaron la pobreza rural americana durante la Gran Depresión, un proyecto financiado por el gobierno que produjo imágenes extraordinarias y que hoy se estudia como fotografía social.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sontag cuenta el procedimiento habitual: se hacían decenas de tomas de la misma persona hasta conseguir la cara adecuada, la que expresaba lo que el fotógrafo quería contar. Eso significa que el documento se seleccionó para producir un efecto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión no es que aquello estuviera mal hecho, sino que un documento fotográfico es siempre también una composición, y que llamarlo documento tapa el trabajo de selección que hay detrás.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema de la belleza",
+          frase: "Una fotografía de miseria bien hecha es hermosa. Y ahí hay una trampa que Sontag señala mejor que nadie: la belleza formal de la imagen puede convertir el sufrimiento de alguien en un objeto agradable de contemplar, colgado en una pared.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el reproche que le hizo a la exposición de Diane Arbus y el que recorre el libro entero. No es la intención del fotógrafo lo que le preocupa: es lo que hace el espectador en una sala de museo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de esa parte, el libro se vuelve más filosófico. Sostiene que la fotografía es la única forma artística que es intrínsecamente surrealista, y el argumento es bueno aunque suene grandilocuente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su razón es que basta con que pase el tiempo. Cualquier fotografía se vuelve extraña con los años: la ropa, los coches, los peinados y los gestos se convierten en otra cosa. Ninguna otra imagen adquiere esa rareza sola, sin que nadie haga nada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Una fotografía de una calle cualquiera de 1965 es hoy una imagen de un mundo desaparecido, y lo es sin que su autor lo pretendiera. El tiempo hace surrealista todo lo que se fotografía, y esa es la mejor idea del libro.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale también su relación con la muerte, que es constante en el libro. Toda fotografía es un memento mori: certifica que ese instante existió y que ya no existe, y que la persona retratada está más cerca de morir que cuando se hizo la imagen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso, dice, las fotos de gente joven que ha muerto son insoportables de una manera particular: contienen a la vez la prueba de que estaba viva y la certeza de que ya no lo está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y por eso los álbumes familiares se vuelven más difíciles de mirar con los años, aunque las imágenes sean las mismas y aunque todas sean de días felices.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una consecuencia práctica de esa idea que se ve mejor en las fotografías de prensa antiguas. Una imagen de una manifestación de hace cincuenta años ya no informa sobre la manifestación: informa sobre la ropa, los peinados, los coches y las caras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contenido político se evapora y queda el documento antropológico. Sontag sostiene que eso le pasa a toda fotografía sin excepción, y que la única defensa es el texto: sin un pie de foto que fije de qué va, la imagen se convierte con el tiempo en otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí su desconfianza hacia los museos de fotografía. Colgar en una pared blanca una imagen tomada para denunciar algo la convierte en un objeto de contemplación, y en ese traslado la denuncia se queda fuera del marco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con ese material montado, el libro llega a su afirmación más fuerte y más discutida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La que tiene que ver con lo que le pasa a alguien que ve muchas imágenes de gente sufriendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que empieza volviendo a aquella librería de Santa Mónica.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La anestesia",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Sontag vuelve a las fotografías de los campos que vio a los doce años y hace una observación sobre sí misma que es el origen de toda esta parte: la primera vez que las vio, la hirieron. Las veces siguientes, ya no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y generaliza a partir de ahí: sostiene que la exposición repetida a imágenes de atrocidades desgasta su capacidad de conmover. Que la primera vez impacta, la décima informa y la centésima aburre.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tesis de la anestesia",
+          frase: "Cuanto más se ve, menos se siente. Las imágenes de sufrimiento, repetidas, no aumentan la compasión: la agotan. Y una sociedad que consume atrocidad a diario acaba mirándola como mira cualquier otra cosa, con el mismo desinterés.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase se ha convertido en un lugar común: se cita en clases de periodismo, en debates sobre las noticias y en cualquier discusión sobre las imágenes de guerra. Y hay que decir dos cosas sobre ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera es que Sontag no la demuestra en ningún momento. Es una observación introspectiva convertida en ley general, sin un solo estudio detrás, escrita con la seguridad de quien no espera que le pidan pruebas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es que la investigación posterior sobre lo que se ha llamado fatiga de la compasión da resultados mixtos: hay habituación en algunos contextos y no en otros, y depende mucho de si el espectador siente que puede hacer algo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese matiz aparece en el propio libro, en su afirmación más interesante y menos citada: que una fotografía no puede crear una posición moral, solo reforzar una que ya existe. Una imagen de guerra conmueve a quien ya piensa que esa guerra es injusta.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo es que las mismas fotografías de víctimas se han usado, en distintos conflictos, para argumentar cosas opuestas, y que cada bando ha visto en ellas la confirmación de lo que ya sostenía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca la consecuencia práctica que sigue siendo válida: para que una imagen movilice, hace falta que exista antes un marco político que le dé sentido, y una vía por la que quien la ve pueda actuar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sin eso, la fotografía de un niño muerto produce dolor durante treinta segundos y después se pasa a la siguiente, y ese ciclo es exactamente el que describe cualquier persona que baje por una pantalla hoy.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El otro problema que señala",
+          frase: "Que las imágenes de sufrimiento lejano crean una ilusión de conocimiento. Ver muchas fotos de una guerra hace sentir que uno sabe lo que pasa allí, cuando lo que tiene es una colección de instantes sin causas, sin historia y sin nombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una fotografía, dice, no puede explicar nada por sí misma. Necesita un texto que diga qué es, dónde, cuándo y por qué. Sin ese texto es un objeto ambiguo que cada uno interpreta según lo que ya cree.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese punto es el más sólido del libro y el que más se ha confirmado. Las mismas imágenes circulan hoy atribuidas a conflictos distintos, con pies de foto contradictorios, y funcionan igual de bien para todos ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El último capítulo del libro no es un capítulo: es una antología de citas sobre fotografía, de fotógrafos, escritores y filósofos, ordenadas sin comentario, en homenaje explícito a un proyecto de Walter Benjamin.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es una decisión coherente con todo lo anterior: después de trescientas páginas sosteniendo que las imágenes se coleccionan y se descontextualizan, ella termina coleccionando frases y sacándolas de contexto para que el lector haga con ellas lo que quiera.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 1977, ganó el premio de la crítica y se convirtió inmediatamente en lectura obligatoria en las escuelas de fotografía, lo cual tiene su ironía, porque es un libro escrito en contra de casi todo lo que hacen los fotógrafos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y produjo una reacción airada en la profesión. Varios fotógrafos importantes escribieron respuestas señalando que Sontag hablaba de fotografía sin haber hecho fotografías, sin conocer el trabajo técnico y sin distinguir entre unos y otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El reproche tiene fundamento. En trescientas páginas no hay una sola descripción de cómo se toma una decisión en el momento de disparar, ni de qué hace un fotógrafo en una situación difícil, ni de por qué elige un objetivo u otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella escribe siempre desde el lado del que mira las imágenes acabadas, y su libro trata en realidad de los espectadores y no de la fotografía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fotógrafo que respondió con más dureza fue el crítico y comisario John Szarkowski, del museo de arte moderno de Nueva York, que llevaba años defendiendo la fotografía como arte con lenguaje propio y que veía en Sontag exactamente lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su reproche era que el libro trataba todas las fotografías como síntomas de una enfermedad cultural, sin admitir nunca que una imagen pudiera ser sencillamente buena. Y es un reproche justo: en trescientas páginas ella no elogia una sola fotografía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la diferencia entre criticar un oficio y criticar su efecto social. Sontag hace lo segundo todo el rato y lo presenta como lo primero, y de ahí viene buena parte del enfado que produjo entre quienes se dedicaban a esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante veinticinco años defendió su tesis en entrevistas y en conferencias, y se convirtió en la posición estándar sobre el asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hasta que en 2003, con setenta años y enferma, publicó otro libro sobre lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo dedicó, en buena parte, a corregirse.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Ante el dolor de los demás",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El segundo libro se llama Ante el dolor de los demás, se publicó en 2003, tiene la mitad de páginas que el primero y está escrito después de haber estado en Sarajevo durante el asedio, donde Sontag pasó temporadas y llegó a dirigir una obra de teatro bajo los bombardeos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa experiencia cambia el punto de vista del libro. Ya no escribe sobre gente que mira imágenes desde un sofá: escribe habiendo estado en el sitio del que salen las imágenes y habiendo visto cómo se cuenta desde fuera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que corrige",
+          frase: "Que no está claro que ver muchas imágenes de horror insensibilice. Dice que fue una afirmación cómoda y que no tiene datos que la respalden, y que el problema no es que la gente sienta menos: es que sentir sin poder hacer nada resulta insoportable y se busca la salida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuestiona algo más de fondo: el nosotros de su primer libro. Preguntarse qué nos hacen las imágenes supone un espectador único, occidental, seguro y a distancia. Alguien que reconoce a un familiar en una fotografía de guerra no está haciendo nada de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese giro es lo mejor que se puede decir de ella como pensadora, y no es frecuente: una autora reconocida revisando en público, con nombre y apellidos, la tesis que la hizo influyente y que llevaba veinticinco años citándose.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mantiene, en cambio, casi todo lo demás: que una fotografía no puede argumentar sola, que necesita un texto, que las imágenes de sufrimiento pueden convertirse en objetos estéticos y que hay una asimetría de poder en quién retrata a quién.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y añade una idea nueva y dura: que existe un placer en mirar el sufrimiento ajeno, que es antiquísimo y que la fotografía no inventó. Cita a Platón y a Edmund Burke, y dice que negarlo es una hipocresía que impide entender por qué miramos.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió al año siguiente, en diciembre de 2004, de una leucemia. Había tenido antes un cáncer de mama en los años setenta, mientras escribía este libro, y un sarcoma de útero en los noventa. Escribió también dos libros sobre la enfermedad y sus metáforas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla Sobre la fotografía leído hoy. Lo primero, ya dicho y es lo más llamativo: no tiene imágenes. Un libro que analiza fotografías concretas sin mostrarlas obliga al lector a fiarse de la descripción de la autora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo es que no distingue. Trata igual la fotografía de guerra, el retrato de estudio, el álbum familiar, la publicidad y la fotografía científica, como si todas fueran la misma actividad con la misma ética.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El tercero, el que más se le ha reprochado",
+          frase: "Escribe sobre un oficio desde fuera y sin curiosidad por cómo se hace. No hay técnica, no hay condiciones de trabajo, no hay encargos, no hay dinero. Y buena parte de las decisiones que critica las toma un editor de fotografía, no el fotógrafo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto es de estilo. La prosa aforística es magnífica y no admite discusión: cada frase se presenta cerrada, sin condicionales y sin datos, y quien no esté de acuerdo no tiene por dónde entrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el quinto es de fecha, y es inevitable. El libro describe un mundo con escasez de imágenes. Hoy se hacen más fotografías en dos minutos que en todo el siglo diecinueve, y casi todas las hace y las mira la misma persona en el mismo aparato.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso cambia varias de sus premisas. La foto ya no es un objeto que se guarda: es un flujo que se ve una vez. Y quien fotografía ya no es un profesional con poder sobre un retratado, sino cualquiera fotografiándose a sí mismo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autorretrato masivo es el fenómeno que ella no podía prever y que pone patas arriba su análisis del poder: aquí la persona retratada, la que decide el encuadre y la que publica son la misma, y sin embargo el resultado no es más libre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con todo eso puesto, sus dos ideas centrales han aguantado mejor que casi cualquier cosa escrita sobre medios en los años setenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera: que la experiencia se está convirtiendo en la producción de imágenes de la experiencia, y que todo lo que hacemos vale en parte por la imagen que dejará.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda: que una imagen no argumenta. Necesita palabras que digan qué es, y sin ellas cada uno ve la confirmación de lo que ya pensaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree de este libro y no es verdad. Lo primero: que Sontag odiaba la fotografía. Le fascinaba, coleccionaba imágenes, escribió sobre ellas durante treinta años y fue pareja de una de las fotógrafas más importantes de su tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que la frase de la cámara como arma acusa a los fotógrafos de violentos. Habla de apropiación, no de agresión, y ella misma matiza el alcance de la analogía en el mismo capítulo en que la propone.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que sostuvo siempre lo mismo. Corrigió la tesis de la anestesia en 2003, por escrito y sin excusas, después de haber pasado temporadas en una ciudad sitiada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: que es un libro de crítica fotográfica. No analiza obras ni fotógrafos con detalle. Es un ensayo sobre lo que las imágenes hacen con quien las mira, y el material es el espectador, no la fotografía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quinto: que está anticuado. Lo están sus ejemplos. Su diagnóstico describe un mundo saturado de imágenes que en 1977 no existía y que ella dedujo a partir de una exposición en un museo y de un álbum de familia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La manera honesta de leerlo hoy es como lo que es: un ensayo brillante, injusto con los fotógrafos, sin pruebas, y que acertó en lo esencial por delante de todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escrito por una mujer que a los doce años miró unas fotografías en una librería y pasó el resto de su vida intentando explicar qué le habían hecho.",
+        },
+      ],
+    },
+  ],
+};
