@@ -5871,3 +5871,600 @@ export const HENRIETTA_LACKS: Resumen = {
     },
   ],
 };
+
+export const DOBLE_HELICE: Resumen = {
+  id: "doble-helice",
+  titulo: "La doble hélice",
+  autor: "James D. Watson",
+  ano: 1968,
+  gancho:
+    "Dos hombres que no hicieron ni un solo experimento resolvieron la estructura del ADN con los datos de una mujer que nadie consultó.",
+  porQue:
+    "Es el relato más honesto y más incómodo de cómo funciona la ciencia de verdad: con prisa, envidia y datos ajenos. Y es el documento que abrió el caso de Rosalind Franklin, aunque su autor no pretendiera abrirlo.",
+  partes: [
+    {
+      titulo: "Nápoles, primavera de 1951",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Mayo de 1951, un congreso menor sobre macromoléculas en la estación zoológica de Nápoles. Entre los asistentes hay un estadounidense de veintitrés años que se aburre, que ha ido sobre todo por el sol y que oficialmente estudia bioquímica en Copenhague sin ningún entusiasmo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba James Watson. Había entrado en la Universidad de Chicago a los quince años, se había doctorado en Indiana a los veintidós con Salvador Luria trabajando con virus de bacterias, y había llegado a Europa con una beca y ninguna idea clara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En una de las charlas, un físico británico llamado Maurice Wilkins proyectó una imagen. Era una fotografía de difracción de rayos X de una fibra de ADN, con manchas ordenadas sobre un fondo negro, y significaba que aquella molécula tenía una estructura regular.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué esa foto lo cambió todo para él",
+          frase: "Porque una molécula con estructura regular se puede resolver. Si el ADN tenía forma, la forma se podía averiguar, y si el ADN era el material hereditario —cosa que en 1951 no todo el mundo daba por segura—, esa forma explicaría cómo se hereda la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene situar el momento. Se sabía desde 1944, por los experimentos de Avery en Nueva York, que el material que transformaba a las bacterias era ADN y no proteína. Mucha gente seguía sin creérselo, porque el ADN parecía demasiado simple para llevar información.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Solo tiene cuatro piezas distintas, las cuatro bases: adenina, timina, guanina y citosina. Las proteínas tienen veinte aminoácidos, y por eso parecían la candidata natural. La pregunta era cómo un alfabeto de cuatro letras podía guardar las instrucciones de un ser vivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Watson decidió allí mismo que quería resolver esa estructura, y lo cuenta sin ningún disimulo sobre sus motivos. No habla de curiosidad ni de servicio a la humanidad: habla de que aquello iba a dar un Premio Nobel y de que quería estar dentro cuando ocurriera.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa franqueza es la razón de ser del libro. Está escrito quince años después y en primera persona, con las envidias, los cálculos de carrera y las apuestas, y es el primer relato de ciencia en el que un premio Nobel admite por escrito que trabajaba con prisa por miedo a que le adelantaran.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema era que él no sabía cristalografía de rayos X, ni química estructural, ni prácticamente nada de lo que hacía falta. Su formación era en genética de bacteriófagos, que en aquel momento consistía sobre todo en contar manchas en placas de cultivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Movió su beca con bastante desvergüenza y consiguió que lo mandaran al laboratorio Cavendish de Cambridge, que era el mejor sitio del mundo para aprender a resolver estructuras de moléculas grandes. Llegó en octubre de 1951 y allí conoció a la persona que faltaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera frase del libro es célebre y da el tono de todo lo que viene: nunca he visto a Francis Crick de humor modesto. Crick tenía treinta y cinco años, hablaba muy alto, se reía más alto todavía y molestaba a todo el edificio con sus teorías sobre lo de los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco tenía el doctorado terminado. La guerra le había interrumpido la carrera —había trabajado en minas magnéticas para la Marina— y estaba haciendo una tesis sobre la estructura de la hemoglobina que no le interesaba nada, en un laboratorio donde le consideraban un charlatán brillante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se entendieron enseguida por una razón concreta: los dos estaban convencidos de que el ADN era el problema importante y de que se podía resolver deprisa, sin hacer experimentos, construyendo modelos con los datos que ya habían medido otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese método no lo inventaron ellos. Lo había desarrollado Linus Pauling en California, y con él acababa de resolver en 1951 la hélice alfa de las proteínas: en vez de deducir la estructura de los datos, se construye un modelo físico que respete la química y se comprueba si encaja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pauling era el mejor químico vivo, tenía cincuenta años, un Nobel a la vuelta de la esquina y todos los recursos del Instituto Tecnológico de California. Watson y Crick eran un becario sin formación y un doctorando tardío, en un laboratorio donde tenían prohibido tocar el asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque esa era la otra dificultad, y es muy británica. En el Reino Unido existía un acuerdo tácito entre laboratorios: el ADN era el tema del King's College de Londres, donde trabajaba Wilkins, y no se pisaba el problema de un colega.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el King's, desde enero de 1951, había además una cristalógrafa nueva. Se llamaba Rosalind Franklin, tenía treinta y un años, venía de París, donde se había hecho una reputación excelente estudiando la estructura del carbón, y era mucho mejor técnica que nadie de los que aparecen en este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su llegada al King's estuvo envenenada desde el primer día por un malentendido administrativo. El director del laboratorio, John Randall, le escribió una carta que daba a entender que el trabajo de ADN sería suyo, y a Wilkins no se lo dijo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wilkins creyó que llegaba una ayudante para su proyecto. Franklin creyó que llegaba a dirigir el suyo. Los dos tenían motivos para creer lo que creían, y la relación entre ellos fue mala desde el principio y no mejoró nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese conflicto es la razón por la que Wilkins acabó enseñando a Watson cosas del laboratorio de Franklin, y es también la razón por la que el ADN se resolvió en Cambridge y no en Londres, teniendo Londres todos los datos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Watson lo cuenta desde fuera y con muy mala leche, y ahí está el mayor problema del libro, al que habrá que volver despacio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero primero hay que entender qué se hacía exactamente en el Cavendish.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El laboratorio Cavendish",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El Cavendish de Cambridge en 1951 era un edificio incómodo y con goteras donde se había descubierto el electrón y se había partido el átomo. Lo dirigía Lawrence Bragg, que había ganado el Nobel de Física a los veinticinco años y llevaba cuarenta trabajando con rayos X.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La técnica que allí se usaba es la clave de toda esta historia y merece entenderse. Se lanza un haz de rayos X contra un cristal o una fibra, los átomos desvían el haz, y en una placa fotográfica detrás queda un patrón de manchas ordenadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese patrón no es una foto de la molécula. Es un mapa indirecto: de la posición y la intensidad de las manchas se puede calcular la distancia entre los átomos, pero hay que hacer el camino de vuelta a mano y con matemáticas pesadas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El atajo que usaron",
+          frase: "En vez de calcular la estructura a partir del patrón, construir modelos físicos con varillas y chapa metálica que respetaran las distancias y los ángulos que permite la química, y comprobar cuál de ellos produciría un patrón como el observado. Adivinar bien, no deducir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Watson y Crick no hicieron un solo experimento con ADN. Esto conviene decirlo claro, porque es lo que más sorprende al leer el libro: no purificaron una muestra, no tomaron una fotografía, no midieron nada. Construyeron modelos con datos de otras personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es ciencia legítima y así se han resuelto muchas cosas. Lo que hace falta para que sea limpia es que quien aporta los datos sepa que se están usando y aparezca como corresponde, y ahí es exactamente donde esta historia se tuerce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sabían en el otoño de 1951 era poco. Que el ADN es una cadena larga de nucleótidos, cada uno con un azúcar, un fosfato y una de las cuatro bases. Que las cadenas se enlazan por los fosfatos. Y poco más de cómo se ordenaban en el espacio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Había además un dato aparcado que resultaría decisivo. En 1950, el bioquímico Erwin Chargaff había medido las proporciones de las cuatro bases en el ADN de muchas especies y había encontrado una regularidad rarísima: siempre hay tanta adenina como timina, y tanta guanina como citosina.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Chargaff había publicado eso y nadie sabía qué significaba, ni él mismo. Cuando visitó Cambridge en 1952 y conoció a Watson y Crick, se llevó una impresión pésima: dos tipos que no sabían distinguir las fórmulas de las bases queriendo resolver el ADN.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El desprecio era mutuo y Watson lo cuenta con gusto. Es otro rasgo del libro: no hay ningún personaje tratado con reverencia, incluido él mismo, al que retrata como un joven ambicioso, superficial y bastante más preocupado por las chicas de Cambridge que por la química.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema técnico concreto que tenían delante era decidir tres cosas. Cuántas cadenas tiene la molécula, si los fosfatos van por dentro o por fuera, y qué es lo que mantiene unidas las cadenas entre sí. Se equivocaron en las tres a la primera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En noviembre de 1951, Rosalind Franklin dio un seminario en el King's presentando sus resultados. Watson fue a escucharla, y aquí ocurre uno de los momentos más caros de la historia de la ciencia: no tomó ni una nota.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Volvió a Cambridge y le contó a Crick de memoria lo que había oído. Se equivocó en el dato del contenido de agua de las muestras, que es precisamente el que determina cómo de compacta puede ser la estructura, y sobre ese error construyeron su primer modelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El modelo tenía tres cadenas, con los esqueletos de fosfato en el centro y las bases apuntando hacia fuera. Estaban tan contentos que llamaron a los del King's y les invitaron a venir a verlo, con la idea de anunciar el hallazgo cuanto antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Franklin llegó a Cambridge, miró el modelo unos minutos y lo desmontó delante de todos. Aquello no tenía prácticamente agua, y ella sabía por sus propias mediciones que el ADN absorbe muchísima. Y los fosfatos, que son grupos cargados, tenían que estar fuera, tocando el agua.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tenía razón en las dos cosas y la escena es humillante. Watson la cuenta con detalle y con rencor, y describe a Franklin de una manera que hoy resulta indefendible: por su ropa, por no llevar pintalabios y por su carácter, no por sus argumentos, que eran los correctos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bragg se enteró del ridículo y actuó como director. Prohibió a Watson y Crick seguir trabajando en el ADN, les recordó que era el tema del King's y les mandó volver a lo suyo: la hemoglobina para Crick y los virus de plantas para Watson.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los modelos de metal se guardaron en un armario y el asunto quedó parado durante un año. Watson dedicó 1952 a estudiar el virus del mosaico del tabaco, con la cabeza puesta en otra cosa, y Crick volvió a su tesis a regañadientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, en Londres, Franklin y su doctorando Raymond Gosling estaban haciendo el trabajo de verdad. Habían descubierto que el ADN adopta dos formas distintas según la humedad, una compacta que llamaron A y otra más extendida que llamaron B, y las estaban separando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa separación es un logro técnico de primer orden y es lo que hizo posible todo lo demás. Antes de ella, las fotografías eran una mezcla confusa de las dos formas y no se podía leer nada limpio en ellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En mayo de 1952, Gosling tomó bajo la dirección de Franklin una fotografía de la forma B que iba a resolver el problema. La revelaron, la etiquetaron con un número y la guardaron, porque Franklin estaba concentrada en la forma A, que era la más difícil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa fotografía llevaba el número 51.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Un modelo sin agua",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Lo que reactivó todo llegó desde California a finales de 1952. Peter Pauling, hijo de Linus y estudiante en el Cavendish, comentó de pasada que su padre había resuelto la estructura del ADN y que iba a publicarlo. Watson describe el momento como un puñetazo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante unas semanas vivieron convencidos de que habían perdido. Pauling era el mejor y tenía todo a favor. En febrero de 1953 llegó a Cambridge una copia del manuscrito, se la pasaron a Watson, y este se encerró a leerla esperando lo peor.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que encontró en el manuscrito de Pauling",
+          frase: "Un error de química de primero de carrera. Pauling proponía tres cadenas con los fosfatos en el centro, y para que aquello se sostuviera los fosfatos tenían que estar sin carga. Un ácido nucleico sin carga no es un ácido. El mejor químico del mundo se había equivocado en eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Watson cuenta que salió del despacho eufórico y se fue a celebrarlo. Sabía que Pauling se daría cuenta en cuestión de semanas y que a partir de ese momento tenían un plazo cortísimo, y con esa excusa convencieron a Bragg para volver al ADN.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento que usaron con Bragg fue patriótico y funcionó: si no lo hacían ellos, la estructura del ADN la resolvería un americano en California, y el Cavendish ya había visto a Pauling adelantarles con la hélice alfa dos años antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir en su favor que el error de Pauling lo detectaron ellos y que no era evidente. También hay que decir que el modelo de Pauling era casi idéntico al que Franklin les había tirado por tierra un año antes, y del que no habían escarmentado del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 30 de enero de 1953, Watson fue a Londres con el manuscrito de Pauling para enseñárselo a Wilkins. Era, en parte, una excusa: quería ver qué tenían allí, y quería saber si Franklin iba a publicar antes de que ellos pudieran intentarlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La visita empezó mal. Watson entró en el despacho de Franklin sin avisar y le soltó lo que pensaba de su interpretación de los datos. Ella le echó, y él cuenta que llegó a temer que le tirara algo. Wilkins le sacó de allí y se lo llevó a su despacho.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces, para consolarle o para desahogarse de sus propias tensiones con Franklin, Wilkins le enseñó la fotografía 51. Sin que Franklin lo supiera, y sin pedirle permiso a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Watson escribe que en cuanto la vio se le aceleró el pulso. La imagen de la forma B mostraba una cruz de manchas, que es la firma inconfundible de una hélice, y de la separación entre las manchas se podía leer directamente el paso de la hélice y su diámetro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Volvió a Cambridge en el tren de la noche dibujando lo que recordaba en el margen de un periódico. Con dos números —treinta y cuatro angstroms de vuelta completa y veinte de diámetro— y la certeza de que era una hélice, el problema pasaba a ser resoluble.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Semanas después llegó el segundo dato, y es más importante que la fotografía aunque se cite mucho menos. Max Perutz, jefe de Crick, les pasó una copia de un informe interno del Consejo de Investigación Médica que contenía datos de Franklin todavía sin publicar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí estaba la simetría de la celda unidad de la forma A, que Franklin había determinado. Crick la reconoció al instante, porque era la misma que la de la hemoglobina que él llevaba años estudiando, y esa simetría implicaba algo muy concreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Implicaba que las dos cadenas van en direcciones opuestas. Una sube y la otra baja. Sin ese dato, un modelo de dos cadenas se puede montar de varias maneras y ninguna funciona; con él, solo queda una posibilidad geométrica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel informe no estaba marcado como confidencial y circulaba de forma reglamentaria dentro del organismo que financiaba los dos laboratorios. Lo que no hizo nadie fue preguntarle a Franklin si le parecía bien que dos personas de otro grupo usaran sus medidas sin publicar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quedaba el problema de fondo, que era químico y no geométrico: qué mantiene unidas las dos cadenas por dentro. Watson probó a emparejar cada base consigo misma, adenina con adenina y guanina con guanina, y los pares le salían de tamaños distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si los pares tienen tamaños distintos, la hélice se hincha y se estrecha, y la fotografía decía que el diámetro era constante. Estuvo semanas atascado ahí, dibujando bases de cartón en su mesa, con una parte del despacho lleno de recortes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le sacó del atasco un compañero de despacho, Jerry Donohue, un cristalógrafo estadounidense que había trabajado con Pauling y que estaba allí de paso. Le miró los cartones y le dijo que estaba usando las formas equivocadas de las bases.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Watson las había copiado de un libro de texto que reproducía una versión anticuada. Donohue sabía, porque había trabajado en ello, cuál era la configuración correcta de esos átomos de hidrógeno, y sin ese aviso el modelo no habría salido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el personaje más olvidado de esta historia y Watson, para ser justos, lo reconoce en el libro sin regatearle nada. Escribe que si Donohue no hubiera estado en aquel despacho, probablemente habrían seguido meses por el camino equivocado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La mañana del 28 de febrero de 1953, Watson recortó las bases en las formas nuevas y se puso a moverlas por la mesa antes de que llegara nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Adenina con timina. Guanina con citosina. Los dos pares medían exactamente lo mismo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La fotografía 51",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Lo que Watson tenía delante en aquella mesa no era solo una solución geométrica. Los dos pares encajaban con el mismo ancho, lo que daba una hélice de diámetro constante, y además explicaban de golpe el resultado de Chargaff que llevaba tres años sin explicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si la adenina siempre se empareja con la timina, en cualquier ADN habrá tanta adenina como timina. La regularidad que Chargaff había medido en decenas de especies no era una curiosidad estadística: era la consecuencia directa de cómo está montada la molécula.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y lo que se veía detrás, que es lo importante",
+          frase: "Que si una base solo puede emparejarse con otra, cada cadena contiene la información completa para reconstruir la contraria. Separando las dos cadenas, cada una sirve de molde para fabricar su pareja. La estructura no solo guarda la información: explica cómo se copia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Crick llegó al despacho, miró los cartones y entendió lo mismo en un minuto. Watson cuenta que al mediodía se fueron al pub Eagle, a la vuelta de la esquina, y que Crick anunció a los presentes que habían descubierto el secreto de la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase es de las más citadas de la historia de la ciencia y hay que decir de dónde viene: de este libro y de nadie más. Crick declaró después que no recordaba haberla dicho. Watson es la única fuente, y escribía quince años más tarde y de memoria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante la semana siguiente construyeron el modelo físico completo, en metal, con las piezas recortadas en el taller del laboratorio, y comprobaron una por una las distancias y los ángulos con las tablas de Donohue. Todo encajaba sin forzar nada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El 12 de marzo llamaron a Wilkins y a Franklin para enseñárselo. Los dos lo aceptaron de inmediato, porque los dos veían que aquello explicaba sus propias fotografías. Franklin, que era la más escéptica de todos, no puso ni una objeción de fondo.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí hay un detalle que cambia bastante la historia y que se ha aclarado en los últimos años. Los cuadernos de Franklin muestran que en febrero de 1953 ella ya había determinado que los fosfatos van fuera, que las cadenas son antiparalelas y que la forma B es helicoidal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le faltaba el emparejamiento de las bases, que es la parte química, y su método era el contrario del de ellos: no construir modelos y comprobar, sino calcular la estructura a partir de los datos, que es más lento, más seguro y más lento todavía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aaron Klug, colega suyo y después premio Nobel, publicó en 1968 un análisis de esos cuadernos precisamente para responder a este libro, y su conclusión fue que Franklin estaba mucho más cerca de la solución de lo que el relato de Watson deja entender.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un matiz reciente y honesto que conviene incorporar. En 2023, dos historiadores de la ciencia publicaron un análisis de documentos poco conocidos —un borrador de un reportaje de la época y una carta de una colega— que apuntan en otra dirección.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Según esos documentos, Franklin sabía que sus datos estaban siendo usados por el grupo de Cambridge y participaba en un intercambio entre laboratorios más colaborativo de lo que sugiere la palabra robo. No la engañaron: la trataron como a una colega a la que no hacía falta consultar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El matiz importa porque cambia la naturaleza del agravio. Si hubo un robo, la culpa es de dos personas concretas. Si lo que hubo fue que a nadie se le ocurrió que hiciera falta preguntarle ni acreditarla, el problema es de cómo funcionaba la ciencia entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no admite discusión es lo que pasó con la fotografía 51. Se la enseñaron a un competidor sin su conocimiento, y ese competidor la usó. Wilkins consideraba que aquellos datos eran también de su laboratorio, y esa creencia es toda la justificación que hubo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco admite discusión el retrato que hace Watson de ella en el libro. La llama Rosy durante ciento cincuenta páginas, que es un diminutivo que ella no usaba y que sus amigos sabían que detestaba. Comenta su ropa, su pelo y su falta de maquillaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribe frases que hoy no pasarían ni un primer filtro editorial, como que el mejor sitio para una feminista era el laboratorio de otra persona, y presenta cada una de sus objeciones técnicas —que eran correctas— como muestras de mal carácter.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contexto ayuda a entender y no a disculpar. Franklin era una mujer de treinta y tantos en un laboratorio donde el comedor de personal académico estaba reservado a hombres, y donde a Watson y a Crick les parecía natural que ella trabajara para Wilkins.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En marzo de 1953, harta del King's, Franklin se marchó al Birkbeck College. Su director le puso como condición no seguir trabajando en el ADN, y ella cumplió: se pasó a la estructura de virus, donde hizo un trabajo de primer nivel sobre el virus del mosaico del tabaco y la polio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió el 16 de abril de 1958, de cáncer de ovario, a los treinta y siete años. Trabajó hasta pocas semanas antes. No se sabe con certeza si llegó a saber alguna vez cómo se habían usado exactamente sus datos en el modelo de Cambridge.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1962, el Nobel de Medicina fue para Watson, Crick y Wilkins. Los premios Nobel no se conceden a título póstumo y ella llevaba cuatro años muerta, así que el debate sobre si la habrían incluido no tiene respuesta y nunca la tendrá.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí se puede comprobar es que en el discurso de aceptación, ninguno de los tres la mencionó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nueve años antes, el trabajo se había publicado en una revista, ocupando poco más de una página.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Nature, 25 de abril de 1953",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El número del 25 de abril de 1953 de la revista Nature traía tres artículos seguidos sobre el ADN. El primero, de Watson y Crick, con el modelo. El segundo, de Wilkins y dos colaboradores. El tercero, de Rosalind Franklin y Raymond Gosling, con los datos experimentales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los tres se presentaron como trabajos independientes que casualmente coincidían, y no lo eran. El modelo del primero se había construido con los datos del tercero. La revista no lo sabía, los lectores tampoco, y esa presentación fue una decisión de los implicados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El artículo de Watson y Crick ocupa poco más de novecientas palabras, que es la extensión de una carta al director. No lleva ni una fotografía, solo un dibujo esquemático hecho por Odile Crick, la mujer de Francis, que era pintora.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase con la que termina",
+          frase: "«No se nos ha escapado que el emparejamiento específico que hemos postulado sugiere de inmediato un posible mecanismo de copia del material genético.» Es probablemente el mayor eufemismo de la historia de la ciencia: están diciendo que han entendido la herencia y lo dicen así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese tono no era timidez. Sabían que no tenían pruebas experimentales de la copia, y dejar la afirmación apuntada les permitía reclamar la idea sin exponerse. Cinco años después, Meselson y Stahl demostraron el mecanismo, y era exactamente el que estaba insinuado ahí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reacción inicial fue tibia. No hubo portadas ni ruedas de prensa, y el modelo tardó unos años en ser aceptado del todo. Lo que vino después —el código genético, la biología molecular entera, la secuenciación, la ingeniería genética— sale directamente de aquella página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro llegó quince años más tarde y con una pelea considerable detrás. Watson lo escribió a mediados de los sesenta, primero con el título de Jim el honrado, y lo hizo circular entre los protagonistas antes de publicarlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Crick y Wilkins reaccionaron muy mal. Los dos protestaron por escrito, Crick le acusó de violar la amistad y de escribir chismes en vez de historia, y los dos amenazaron con acciones legales. La editorial de la Universidad de Harvard, que iba a publicarlo, se retiró.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo sacó otra editorial en 1968 y fue un éxito inmediato, precisamente por lo que a sus colegas les parecía intolerable: que contara la ciencia como lo que es, un oficio de personas con prisa, envidias, apuestas y comidas malas en el comedor del laboratorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de este libro, los relatos de descubrimientos eran hagiografías: el sabio, la iluminación, el bien de la humanidad. Watson enseñó a un becario de veinticuatro años que quería un Nobel, que casi no entendía la química de su propio problema y que trabajaba a codazos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro, que es donde hay más que decir. Lo primero es que no es un libro de historia y él mismo lo advierte en el prólogo: es un relato personal, escrito de memoria, sobre cómo le pareció a él que ocurrieron las cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wilkins y Crick disputaron escenas concretas, diálogos enteros y estados de ánimo atribuidos. Cuando se han podido contrastar con cartas y cuadernos de la época, aparecen desajustes de fechas y de orden que no son menores, aunque el esqueleto de los hechos se sostiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo, y lo más grave, es el trato a Franklin, del que ya está dicho lo esencial. El propio Watson acabó reconociéndolo: añadió al final del libro un epílogo en el que admite que sus impresiones sobre ella, científicas y personales, fueron muchas veces equivocadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese epílogo elogia la calidad de su trabajo, reconoce lo que costaba ser una mujer en aquellos laboratorios y describe el valor con el que siguió investigando estando enferma. Es una rectificación de dos páginas al final de un libro de doscientas, y es lo que hay.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero es la ausencia casi total de los demás. Gosling, que tomó la fotografía; Donohue, que dio la clave química; Chargaff, cuya regularidad lo explicaba todo; Perutz, que pasó el informe. Aparecen, pero como figuras de fondo en una historia de dos protagonistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una cuarta cosa que no está en el libro pero que hoy pesa sobre él. Watson pasó las últimas décadas de su vida haciendo declaraciones racistas sobre la inteligencia, en 2007 y otra vez en 2019, y el laboratorio que dirigió durante años le retiró todos sus títulos honoríficos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no invalida la estructura del ADN, que es correcta. Sí obliga a leer con otros ojos a un narrador que en 1968 ya despachaba a una colega por su ropa, porque hay una continuidad incómoda entre aquel tono y lo que vino después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno: que Watson y Crick robaron la fotografía 51. Se la enseñó Wilkins, que trabajaba en el mismo laboratorio y creía tener derecho a hacerlo. Lo reprochable no es cómo llegó la foto: es que nunca se le preguntara ni se la acreditara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que a Franklin le quitaron el Nobel por ser mujer. Murió en 1958 y los Nobel no se dan a título póstumo. El machismo de aquella época está documentado de sobra y no hace falta inventarle un mecanismo que no fue el que operó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que Franklin no creía que el ADN fuera una hélice. Fue prudente con la forma A, que es la difícil, y sus cuadernos muestran que sobre la forma B había concluido que era helicoidal antes de que ellos montaran nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuatro: que Watson y Crick descubrieron el ADN. El ADN se había aislado en 1869. Ellos resolvieron su estructura, con datos ajenos, un modelo de chapa y una corrección de un vecino de despacho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que es, exactamente, como se hace casi todo.",
+        },
+      ],
+    },
+  ],
+};
