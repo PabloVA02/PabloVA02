@@ -890,109 +890,641 @@ export const PIENSA_HAZTE_RICO: Resumen = {
   titulo: "Piensa y hazte rico",
   autor: "Napoleon Hill",
   ano: 1937,
-  gancho: "Escrito en plena Gran Depresión tras veinte años entrevistando a los hombres más ricos de América.",
+  gancho:
+    "Dice que en 1908 el hombre más rico del mundo le encargó, sin sueldo, veinte años de investigación para destilar la fórmula del éxito. No existe ni una carta, ni una agenda, ni una línea en los papeles de Carnegie que demuestre que aquella reunión ocurrió.",
   porQue:
-    "Es el abuelo de toda la literatura de autoayuda: casi todo lo que has oído sobre mentalidad y objetivos sale de aquí. Conviene saber también qué parte es leyenda.",
+    "Porque es el abuelo de todo el estante de autoayuda —casi todo lo que has oído sobre mentalidad y objetivos sale de aquí— y porque separar sus tres o cuatro ideas buenas de su misticismo es el mejor ejercicio de lectura crítica que ofrece esta biblioteca.",
   partes: [
     {
-      titulo: "El encargo",
+      titulo: "Un encargo que nadie ha encontrado",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La historia oficial dice que en 1908 el joven Napoleon Hill entrevistó a Andrew Carnegie, entonces el hombre más rico del mundo, y que este le encargó estudiar a los grandes triunfadores para destilar una fórmula del éxito. Sin sueldo. Hill dedicó veinte años a ello y publicó el resultado en 1937, en plena Depresión.",
+            "La escena fundacional es esta: en 1908, un periodista de veinticinco años entrevista a Andrew Carnegie para una revista, y la conversación se alarga tres días. Al final, el hombre más rico del mundo le propone algo raro: dedicar veinte años a estudiar a los triunfadores y escribir la fórmula, sin cobrar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene saber quién era el otro personaje de la escena. Carnegie había vendido su empresa siderúrgica en 1901 por cuatrocientos ochenta millones de dólares de entonces, se había convertido en el hombre más rico del planeta y estaba dedicando el resto de su vida a regalar el dinero.",
         },
         {
           forma: "arte",
           texto:
-            "Conviene decirlo pronto: no existe prueba documental de aquel encuentro, y los historiadores llevan décadas señalándolo. Hill fue un personaje turbio, con negocios fallidos y acusaciones de fraude a la espalda. Lo cual no impide que el libro haya vendido más de cien millones de ejemplares y haya definido un género entero.",
-          arte: "museo",
+            "Y lo regalaba de una manera concreta que da a esta ficha un aire raro: financió más de dos mil quinientas bibliotecas públicas por todo el mundo. El hombre del que este libro toma su autoridad se gastó su fortuna en construir sitios donde la gente pudiera leer gratis.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hill cuenta que aceptó en menos de un minuto, y que Carnegie llevaba un cronómetro debajo del escritorio midiendo cuánto tardaba en responder: si hubiera pasado de sesenta segundos, no le habría dado el encargo. Es una escena excelente y hay un problema con ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena fijarse en cómo está construida la anécdota, porque es la firma del autor. El cronómetro escondido convierte una conversación en una prueba, la prueba tiene un umbral exacto y el umbral demuestra justo el principio que el capítulo va a defender. Ninguna vida real produce escenas tan redondas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese es el motivo por el que sus historias funcionan tan bien y hay que fiarse tan poco de ellas: están talladas para demostrar algo. Un buen relato de éxito nunca tiene cabos sueltos, y las vidas de verdad no son así ni de lejos.",
         },
         {
           forma: "clave",
-          rotulo: "La frase fundacional",
-          frase: "Todo lo que la mente puede concebir y creer, puede conseguirlo.",
-        },
-      ],
-    },
-    {
-      titulo: "Deseo, fe y plan",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "Su primer principio es el <em>deseo ardiente</em>, y lo distingue con cuidado de desear a secas. Un deseo real es concreto: cuánto dinero exactamente, para cuándo, qué vas a dar a cambio, y con qué plan. Hill hacía escribirlo y leerlo en voz alta dos veces al día. Suena a superstición; funciona como cualquier objetivo bien definido y repasado a diario.",
+          rotulo: "Lo que no aparece por ninguna parte",
+          frase: "No hay carta, ni contrato, ni anotación en la agenda de Carnegie, ni una sola mención a Hill en sus papeles, que están archivados y estudiados. La entrevista fundacional del libro no está documentada.",
         },
         {
           forma: "texto",
           texto:
-            "Su ejemplo favorito es el de Edwin Barnes, que quiso ser socio de Thomas Edison sin conocerlo ni tener dinero para el billete. Llegó en un tren de mercancías, aceptó un puesto de recadero y esperó cinco años hasta que apareció un producto que nadie quería vender —el dictáfono— y se ofreció. Acabó siendo millonario. La moraleja de Hill: se presentó sin plan B.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La idea del grupo",
-          frase: "El «mastermind»: dos cerebros trabajando en armonía crean un tercero que no existía. Rodéate de gente mejor que tú.",
+            "Conviene ser preciso con la acusación. No se puede demostrar que aquel encuentro no ocurriera; lo que se puede decir es que ningún investigador ha encontrado rastro, que Carnegie era uno de los hombres más documentados de su época y que el propio Hill nunca enseñó nada que lo probara.",
         },
         {
           forma: "texto",
           texto:
-            "Ese concepto —el grupo de gente que te empuja y te corrige— es probablemente su aportación más duradera, y hoy se llama de mil formas: consejo asesor, mentoría, comunidad. Hill fue el primero en decir por escrito que el entorno no es un adorno del éxito, es una parte del mecanismo.",
+            "Hay además un detalle cronológico incómodo: Carnegie murió en 1919, dieciocho años antes de que se publicara el libro que dice haberle encargado, y nunca mencionó el proyecto en vida. El único testigo posible de la escena fundacional llevaba dos décadas muerto cuando se contó por primera vez.",
         },
-      ],
-    },
-    {
-      titulo: "Persistencia y decisión",
-      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Y conviene saber que Carnegie sí escribió sobre el dinero, y lo que escribió no se parece a esto. Su ensayo de 1889 sostiene que el rico es un administrador temporal de una fortuna que debe devolver a la sociedad en vida, y que morir rico es morir deshonrado. Poco que ver con el deseo ardiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo mismo pasa con la lista de los quinientos hombres a los que dice haber entrevistado. Aparecen nombres enormes —Ford, Edison, Rockefeller, Firestone, Wrigley— y no hay constancia de la mayoría de esas conversaciones en los archivos de ellos, que también existen y también están estudiados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está documentado es que Hill llegó a tratarse con algunos empresarios importantes, sobre todo en los años veinte y a través de sus propias publicaciones. El salto que no se puede dar es del trato ocasional a las quinientas entrevistas sistemáticas durante veinte años que anuncia la portada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco es este su primer libro sobre el asunto, y ese dato ayuda a cuadrar las fechas. En 1928 había publicado una obra en ocho volúmenes con las mismas ideas y bastante más palabrería; «Piensa y hazte rico» es su versión reducida y ordenada, nueve años posterior, y por eso funciona mejor.",
+        },
         {
           forma: "arte",
           texto:
-            "La historia que Hill cuenta mejor es la del tío de un conocido, R. U. Darby, que se lanzó a la fiebre del oro en Colorado. Encontró vena, pidió prestado para traer maquinaria, y de pronto el filón desapareció. Excavaron desesperados, se rindieron y vendieron la maquinaria a un chatarrero por unos pocos dólares.",
+            "El libro salió en 1937, en el peor momento posible y por eso en el mejor: Estados Unidos llevaba ocho años en la Depresión, con una cuarta parte de la población sin trabajo y millones de personas convencidas de que su ruina era culpa suya. Un libro que decía que se podía salir pensando bien cayó en tierra sedienta.",
           arte: "explorar",
         },
         {
           forma: "texto",
           texto:
-            "El chatarrero llamó a un ingeniero de minas, que estudió el terreno y dijo que el filón se había cortado por una falla y continuaba noventa centímetros más allá. Sacó millones exactamente ahí. Darby dedicó el resto de su vida a vender seguros repitiéndose que había parado a un metro del oro, y decía que esa idea le hizo ganar mucho más de lo que perdió.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La decisión",
-          frase: "Hill encontró que los ricos decidían rápido y cambiaban de opinión despacio. Los que fracasaban hacían justo lo contrario.",
+            "El paro había llegado al veinticinco por ciento en 1933 y todavía rondaba el catorce cuando el libro llegó a las tiendas, a dos dólares y medio el ejemplar. Ese contexto explica su tono de sermón y también por qué hoy, leído sin esa urgencia de fondo, suena mucho más fantasioso de lo que sonaba entonces.",
         },
         {
           forma: "texto",
           texto:
-            "Ese hallazgo es de los pocos que se sostienen bien. Decidir con lentitud y rectificar a la primera crítica te deja siempre en el punto de partida; decidir rápido y sostener la dirección el tiempo suficiente para ver si funciona es lo que produce datos. Hill lo emparejaba con su idea de que a nadie le sobra la opinión ajena: pedir consejo a todo el mundo es la forma más elegante de no hacer nada.",
+            "Su gran empujón comercial vino después, en los años cincuenta, cuando se asoció con el dueño de una aseguradora enorme que empezó a repartir ejemplares entre sus miles de comerciales. Buena parte de esos veinte millones de copias se vendieron así, como manual de empresa y no como libro de librería.",
         },
         {
           forma: "texto",
           texto:
-            "Y una lista que sigue doliendo: sus «seis fantasmas del miedo» —a la pobreza, a la crítica, a la enfermedad, a perder el amor, a la vejez y a la muerte—. Sostiene que el segundo, el miedo a la crítica, es el que más vidas paraliza, porque no te impide fracasar: te impide intentarlo, y así nunca hay nada que criticar.",
+            "Las cifras de venta también hay que mirarlas de cerca. La fundación que gestiona su obra habla de más de cien millones de ejemplares; los recuentos independientes se quedan en torno a veinte millones, que ya lo colocan entre los libros más vendidos del siglo. La diferencia entre las dos cifras es puro márketing.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hábito de inflar el dato lo hereda el género entero y merece la pena reconocerlo, porque es la misma operación que hace el libro con su origen: una idea razonable acompañada de una cifra imposible de comprobar y repetida hasta que suena a hecho establecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle de formato que explica su eficacia: no es un ensayo, es un sermón. Habla en segunda persona, promete un secreto que dice que no va a nombrar directamente y que aparecerá al lector cuando esté preparado, y repite esa promesa en cada capítulo. Es una técnica de predicador, y funciona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese truco del secreto sin nombre es más listo de lo que parece. Al no decirlo nunca, obliga a seguir leyendo y consigue además que cada lector se quede con la versión que él mismo ha construido, que siempre convence más que cualquiera que le hubieran dado hecha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene avisar también de qué no es este libro, porque decepciona a quien busca otra cosa. No hay ni una cuenta, ni un consejo de inversión, ni una explicación de cómo se monta un negocio. Todo el libro va de la cabeza del que quiere ganar dinero, y de nada más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un cronómetro debajo de un escritorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Veinte años de trabajo sin cobrar y quinientas entrevistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ni un papel que demuestre que la primera reunión existió.",
         },
       ],
     },
     {
-      titulo: "El límite",
+      titulo: "Las trece llaves",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El libro tiene un problema serio y hay que decirlo claro: mezcla observaciones útiles con misticismo puro. Habla de transmutar la energía sexual, de un «consejo invisible» de personajes históricos con los que reunirse mentalmente, y sugiere que la mente atrae la riqueza por vibración. Eso no es una metáfora en el texto: está escrito literalmente.",
+            "El libro se organiza en trece principios y conviene saber la lista, porque la mitad son razonables y la otra mitad es esoterismo: deseo, fe, autosugestión, conocimiento especializado, imaginación, planificación, decisión, persistencia, la mente maestra, la transmutación sexual, el subconsciente, el cerebro y el sexto sentido.",
         },
         {
           forma: "texto",
           texto:
-            "También arrastra el defecto de todo el género: solo estudia a los que ganaron. Miles de personas tuvieron deseo ardiente, persistencia y fe, y fracasaron; no aparecen en el libro, porque nadie entrevista a los que perdieron. Es sesgo de supervivencia en estado puro, y es la razón por la que la fórmula no puede demostrarse.",
+            "El orden importa y dice mucho: los seis primeros van de trabajo y método, y los últimos se van hacia la mística sin avisar. Un lector que abandone a la mitad se lleva un libro razonable; el que llega al final se lleva otro bastante distinto, y son el mismo tomo.",
         },
         {
           forma: "texto",
           texto:
-            "Conviene además situarlo en su momento. Salió en 1937, con Estados Unidos hundido en la Depresión y millones de personas convencidas de que su ruina era culpa suya. Un libro que decía que el pensamiento organizado y la persistencia podían sacarte de ahí funcionó como un antidepresivo colectivo. Ese contexto explica su éxito descomunal y también su tono de sermón — y explica por qué hoy, leído sin esa urgencia de fondo, suena mucho más fantasioso de lo que sonaba entonces.",
+            "El primero es el deseo, y lo distingue con cuidado de querer algo a secas. Exige seis pasos escritos: la cantidad exacta de dinero, qué vas a dar a cambio, la fecha límite, el plan, todo junto en un papel, y leerlo en voz alta dos veces al día, al levantarse y al acostarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo paso de esa lista es el que casi nadie repite y es justo el que le da sentido: qué vas a dar a cambio. Hill insiste en que pedir una cifra sin nombrar el servicio que se presta a cambio es fantasear, y que ese punto es el que separa su método de un deseo de cumpleaños.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La técnica de repetirlo en voz alta dos veces al día tampoco es suya. Viene de un farmacéutico francés que en los años veinte había hecho famosa la autosugestión con una fórmula que se repetía cada mañana, y que llenó salas en media Europa antes de que Hill escribiera una línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel farmacéutico había llegado a la idea por accidente, despachando medicinas: se dio cuenta de que los pacientes a los que decía que el remedio era excelente mejoraban más que los demás con el mismo frasco. Es decir, el origen remoto de la autosugestión de este libro es el efecto placebo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso ni valida ni tumba la técnica, y sí la coloca en su sitio: repetirse una frase produce efectos reales sobre el ánimo y la conducta, y ninguno sobre el mundo exterior. La diferencia entre esas dos cosas es la que este libro no hace nunca.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "Objetivo concreto, plazo, plan y buen entorno. Eso sí funciona. Lo demás, léelo como lo que es: fe.",
+          rotulo: "La frase fundacional del género",
+          frase: "Todo lo que la mente del hombre puede concebir y creer, puede conseguirlo. Está en la primera página y es la semilla de los siguientes noventa años de libros de autoayuda.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su ejemplo favorito es Edwin Barnes, que quería ser socio de Edison sin conocerlo y sin dinero para el billete. Llegó a Nueva Jersey en un tren de mercancías, vestido como un vagabundo, pidió trabajo de lo que fuera y se pasó cinco años barriendo y haciendo recados en aquella oficina.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Barnes existió de verdad y llegó a ser distribuidor del dictáfono de Edison, así que esta historia sí tiene suelo. Lo que el libro no cuenta es que aquellos cinco años no fueron de espera mística: fueron cinco años aprendiendo el negocio desde dentro y conociendo a todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El día que llegó un aparato nuevo que ningún comercial quería vender —un dictáfono que a los vendedores les parecía imposible de colocar—, Barnes se ofreció. Lo vendió tan bien que acabó siendo socio de Edison y millonario. La moraleja de Hill es que se presentó allí sin plan alternativo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer principio, el conocimiento especializado, viene con una historia buena: cuando a Ford lo llamaron ignorante en un juicio y le hicieron preguntas de cultura general, contestó que en su mesa tenía botones para llamar a expertos en cada materia y que por qué iba a llenarse la cabeza con lo que otros sabían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca una idea que sigue siendo útil: lo que hace falta no es saberlo todo, es saber dónde está el que sabe y ser capaz de organizarlo. El corolario que añade —que la cultura general no sirve de nada— es suyo y es bastante más discutible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra historia que todo el mundo recuerda es la del tío de un conocido suyo, que se lanzó a la fiebre del oro en Colorado, encontró vena, pidió prestado para traer maquinaria y de pronto vio desaparecer el filón. Excavaron desesperados unas semanas, se rindieron y vendieron la maquinaria a un chatarrero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chatarrero llamó a un ingeniero de minas, que estudió el terreno y dijo que la veta se había cortado por una falla y seguía noventa centímetros más allá. Sacó millones exactamente ahí. El otro se pasó la vida repitiéndose que había parado a un metro del oro, y decía que esa idea le hizo ganar más de lo que perdió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La historia es perfecta y por eso hay que mirarla con cuidado: nadie ha identificado nunca esa mina ni a ese ingeniero, y funciona igual de bien como parábola. El problema no es que sea falsa, es que el libro no distingue nunca entre lo que le contaron y lo que se inventó para explicarlo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La decisión",
+          frase: "Su observación es que los ricos decidían rápido y cambiaban de opinión despacio, y los que fracasaban hacían exactamente lo contrario: tardaban meses en decidir y rectificaban a la primera crítica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo emparejaba con otra observación que aguanta: pedir opinión a todo el mundo es la forma más elegante de no hacer nada. Cuantas más personas opinan sobre un plan, más motivos aparecen para posponerlo, y llega un punto en que consultar se convierte en el sustituto de decidir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hallazgo se sostiene bien y se explica solo. Decidir con lentitud y rectificar cada vez que alguien opina deja siempre en el punto de partida; decidir rápido y sostener la dirección el tiempo suficiente produce datos, que es lo único que permite saber si aquello iba a algún sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una lista suya que sigue doliendo: los seis fantasmas del miedo —a la pobreza, a la crítica, a la enfermedad, a perder el amor, a la vejez y a la muerte—. Sostiene que el segundo es el que más vidas paraliza, porque no impide fracasar: impide intentarlo, y así nunca hay nada que criticar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene precisar lo que el libro no dice, porque su título invita a confusión. No sostiene que baste con pensar: exige un plan escrito, un servicio a cambio, un grupo de gente y trabajo sostenido. La caricatura de sentarse a visualizar es de sus nietos, no suya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Trece principios, seis pasos, seis miedos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La mitad de la lista es sentido común bien dicho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra mitad hay que leerla sabiendo lo que es.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que sí aguanta",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La parte del libro que la ciencia ha acabado dando por buena es la más aburrida de todas: que un objetivo concreto y exigente funciona mucho mejor que la intención de hacerlo lo mejor posible. Hill lo escribió en 1937 sin datos, y treinta años después alguien se puso a medirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo hicieron dos investigadores, Locke y Latham, a partir de 1968, y acabaron acumulando cientos de estudios con la misma conclusión: la gente a la que se le da una meta específica y difícil rinde más que la que recibe el encargo de esforzarse. Es de los resultados más replicados de la psicología del trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con tres condiciones que Hill no menciona y que son decisivas: que haya información de cómo se va, que la persona esté comprometida de verdad con la meta y que tenga la capacidad de hacerlo. Sin esas tres, un objetivo difícil no motiva: desanima, que es el efecto contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay incluso un efecto perverso bien documentado: los objetivos numéricos muy exigentes, sin margen y con premio al final, empujan a hacer trampas para llegar. Se ha visto en ventas, en banca y en fábricas, y es el reverso exacto de lo que este libro promete al pedir una cifra y una fecha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puesto todo junto, la conclusión razonable no es que Hill acertara: es que dio con una intuición que sesenta años después alguien midió bien, y que la versión medida trae condiciones, matices y efectos secundarios que en su libro no aparecen porque a él no le hacían falta para vender.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una técnica posterior, de los años noventa, que multiplica el efecto y cabe en una frase: en vez de proponerse el objetivo, escribir cuándo, dónde y cómo se va a hacer. Si es martes a las siete, entonces salgo a correr. Esa concreción sube las tasas de cumplimiento de manera consistente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Dónde acierta sin saber por qué",
+          frase: "Poner cifra y fecha no es magia: es lo único que convierte un deseo en algo que se puede comprobar. Un objetivo sin número no se puede fallar, y por eso tampoco se puede cumplir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión doméstica de eso es inmediata. Querer ahorrar más no se puede comprobar; apartar doscientos euros el día cinco de cada mes, sí. La primera formulación permite decirse que uno lo está intentando durante años; la segunda obliga a mirar el extracto y saber si se hizo o no.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquí conviene desmontar la estadística que siempre se cuenta al lado de este libro: aquel estudio de Yale de 1953 en el que un tres por ciento de los alumnos escribió sus objetivos y veinte años después ganaba más que el otro noventa y siete por ciento junto. Ese estudio no existe.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una corrección todavía más incómoda para el corazón del libro. La psicóloga Gabriele Oettingen lleva treinta años midiendo qué hace la visualización, y su resultado es el contrario del esperado: imaginarse el éxito, a secas y con detalle, reduce la energía y el rendimiento en vez de aumentarlos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí funciona, en sus experimentos, es imaginar el objetivo y a continuación el obstáculo concreto que se va a interponer, y planear la respuesta. La fantasía sola engaña al cuerpo, que reacciona como si ya lo hubiera conseguido. Es exactamente lo que este libro manda hacer dos veces al día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo comprobó una revista de negocios en los años noventa: preguntaron en Yale, revisaron los archivos y no encontraron nada, ni el estudio, ni los datos, ni al investigador. La cifra circulaba de conferencia en conferencia desde hacía décadas y nadie la había buscado nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el ejemplo perfecto de cómo funciona este género: una idea razonable —escribir los objetivos ayuda— viaja acompañada de un dato falso que la hace parecer demostrada. Y lo curioso es que la idea aguanta sin el dato: hay estudios de verdad, más modestos, que encuentran el efecto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda aportación que sobrevive es la mente maestra: la idea de que dos cerebros trabajando en armonía crean un tercero que no existía. Dicho sin mística, es que el entorno no es un adorno del éxito, sino parte del mecanismo, y que rodearse de gente mejor cambia lo que uno intenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es probablemente su aportación más duradera y la que menos se le reconoce, porque suena obvia. En 1937 no lo era: la literatura de la época retrataba al triunfador como un hombre solo, y decir que el éxito es en buena medida un fenómeno de grupo iba contra el mito nacional entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso hoy se llama de mil maneras —consejo asesor, mentoría, grupo de pares, comunidad— y tiene detrás algo medido: comprometerse en público con un objetivo aumenta bastante la probabilidad de cumplirlo, sobre todo si hay que dar cuentas a alguien concreto en una fecha concreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con un matiz que conviene tener: funciona cuando hay que rendir cuentas a alguien cuyo juicio importa, no cuando se anuncia en redes sociales. Contar el plan a mucha gente puede producir la satisfacción del reconocimiento antes de haber hecho nada, y ahí el efecto se da la vuelta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es la persistencia, y ahí el libro está mejor acompañado hoy que en 1937. «Hábitos atómicos», de Clear, dice lo mismo con mecánica en vez de arenga: no hace falta un deseo ardiente, hace falta un sistema que haga fácil repetir la conducta cuando el deseo se apaga, que es siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene añadir el matiz que a Hill le falta: persistir no es una virtud en sí misma. Insistir cinco años en algo que no funciona cuesta cinco años, y su libro no ofrece ninguna manera de distinguir la persistencia que va a dar fruto de la cabezonería. Esa distinción es justo la parte difícil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La regla más razonable que se ha propuesto para eso no está en su libro: persistir mientras se aprenda algo nuevo de cada intento y cambiar cuando los intentos se repiten idénticos. No es infalible y al menos es comprobable, que es más de lo que ofrece el deseo ardiente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y su intuición sobre la fe tiene una versión seria en Psicología: «Mindset», de Dweck, muestra que creer que la capacidad se desarrolla cambia cómo se responde a la dificultad. No es que el pensamiento atraiga el resultado; es que la creencia sobre uno mismo decide si se abandona en el primer tropiezo.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Objetivo con cifra y fecha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gente alrededor que te obligue a rendir cuentas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y seguir cuando ya no apetece. Eso es lo que queda en pie.",
+        },
+      ],
+    },
+    {
+      titulo: "El hombre que escribió el libro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Toca la biografía del autor, y es una historia extraordinaria por motivos que el libro no menciona. Napoleon Hill nació en 1883 en una cabaña de los montes de Virginia, se quedó huérfano de madre a los nueve años y empezó a escribir en periódicos locales siendo un adolescente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El personaje que le cambió la vida fue su madrastra, y él lo cuenta bien: llegó a una casa pobre con un niño difícil, le regaló una máquina de escribir y le dijo que si aprendía a usarla podría contar historias. De ahí salió todo lo demás, para bien y para mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa escena, por cierto, es la única de todo el libro que nadie ha puesto en duda, y es también la más humilde: no hay magnates, ni cronómetros, ni secretos. Una mujer que llega a una casa y le da una herramienta a un chaval. Con eso solo ya se explicaría media biografía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de 1937 había montado y hundido una lista larga de negocios: una escuela de mecánica del automóvil cuyas acciones vendió y que cerró al poco, una fábrica de caramelos que acabó en pleito, una escuela de publicidad clausurada por las autoridades del estado y una revista que nunca llegó a sostenerse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que fracasar en cinco negocios no descalifica a nadie para escribir sobre el éxito; hay libros excelentes escritos desde el fracaso. Lo que descalifica es contar esos años como veinte de investigación encargada por el hombre más rico del mundo, que es lo que hace la portada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El dato que cambia la lectura",
+          frase: "En los años veinte fue procesado por fraude en Illinois, y pasó buena parte de esa década cambiando de ciudad y de nombre comercial, perseguido por acreedores y por denuncias de inversores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El patrón se repite en cada negocio: vender participaciones o matrículas por adelantado, cobrar, y cerrar antes de entregar. No es una interpretación malintencionada de un investigador moderno: hay expedientes, resoluciones administrativas y hemeroteca local de la época.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su vida familiar siguió el mismo dibujo. Se casó varias veces, dejó atrás a mujeres e hijos más de una vez y desapareció durante temporadas largas mientras escribía sobre la importancia del carácter. Eso también está documentado y también falta en todas las contraportadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene no convertir eso en el argumento principal, porque no lo es: un libro no es peor por la vida privada de quien lo firma. El problema aquí es distinto y más concreto: el libro se vende como el informe de una investigación de veinte años, y esa investigación es la que no aparece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También se atribuyó cargos que no ha podido demostrar que tuviera. Decía haber trabajado para el presidente Wilson durante la Primera Guerra Mundial y haber sido asesor de Roosevelt, e incluso haber participado en el discurso de la toma de posesión de 1933, el de que a lo único que hay que temer es al miedo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que remata el asunto es que ese discurso lleva noventa años estudiado línea a línea: se conocen los borradores, la letra de quien los escribió y las correcciones. Atribuirse una frase de las más citadas de la historia de su país es el tipo de invención que se comprueba en una tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto significa que el libro no valga: significa que su autoridad hay que ponerla donde corresponde. Lo que dice se sostiene o no por sí solo, y no porque lo respalde un magnate del acero, dos presidentes y quinientas entrevistas que no aparecen por ningún sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los historiadores que han buscado esos nombramientos en los archivos de las dos presidencias no han encontrado nada: ni nómina, ni acreditación, ni correspondencia. Y el discurso de 1933 tiene autores conocidos y documentados, que no son él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La investigación más completa la publicó un periodista estadounidense en 2016, después de pedir los expedientes judiciales, el archivo federal y la hemeroteca. Nadie de su fundación la ha rebatido punto por punto; la respuesta ha sido guardar silencio y seguir vendiendo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un capítulo del libro que se lee de otra manera sabiendo esto. Hill cuenta que su hijo Blair nació sin orejas y sin conductos auditivos, y que él se negó a aceptar la sordera: le habló cada noche, le repitió que su desventaja sería una ventaja, y sostiene que el niño acabó oyendo por la fuerza de esa insistencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que reconocerle una cosa en ese episodio, y es grande: crió a un niño con una discapacidad severa en los años veinte convenciéndole de que no era un problema, cuando lo normal era esconderlo. La insistencia del padre pudo tener muchísimo que ver con que aquel chico llevara una vida normal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que ocurrió de verdad es que Blair empezó a oír con un aparato de conducción ósea de una marca concreta, y que después trabajó para esa empresa. El libro lo menciona de pasada y atribuye el resultado a la mente del padre. Es la página que mejor resume el problema entero de este autor.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y luego está el esoterismo declarado, que la mayoría de los resúmenes se salta. Hay un capítulo sobre transmutar la energía sexual, con la tesis de que casi ningún hombre alcanza su máximo antes de los cuarenta porque hasta entonces la malgasta, y una lista de estímulos de la mente encabezada por el sexo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo, además de no tener ninguna base, está escrito para hombres y sobre hombres, como el libro entero: las mujeres aparecen en él como fuente de inspiración del que triunfa y prácticamente nunca como protagonistas. Es de 1937 y se nota en cada página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay otro sobre lo que llama sus consejeros invisibles: cada noche se reunía mentalmente con Emerson, Napoleón, Lincoln, Edison y otros cinco, presidía la reunión y les pedía consejo. Escribe que aquellas figuras acabaron pareciéndole tan reales que llegaron a asustarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la ironía final de su biografía es la mejor prueba contra su tesis: Hill no se hizo rico aplicando el método, se hizo conocido vendiéndolo. El dinero llegó por los libros, los cursos y las conferencias sobre cómo enriquecerse, no por ninguno de los negocios en los que lo aplicó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un huérfano de los montes que escribía en periódicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un procesado por fraude que cambiaba de ciudad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el libro de éxito más vendido del siglo veinte.",
+        },
+      ],
+    },
+    {
+      titulo: "El abuelo de todo el estante",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Después de todo eso queda la pregunta importante, que no es si Hill era un impostor —bastante claro está— sino qué se hace con un libro que ha formado la cabeza financiera de tres generaciones y del que descienden casi todos los demás de su estante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta corta es que se lee como se lee un mapa antiguo: sirve para saber por dónde se fue la gente y hay que contrastar cada accidente del terreno con uno moderno antes de echar a andar. Tirarlo sería perder el mapa; seguirlo a ciegas, acabar en el mar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una razón concreta para leerlo hoy que no tiene que ver con el dinero: es el mejor ejercicio disponible para aprender a distinguir, dentro de un mismo libro, la observación que aguanta, la anécdota talladita y la afirmación que no se puede comprobar de ninguna manera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque la descendencia es enorme y se puede trazar. De aquí sale la idea de que el pensamiento atrae los acontecimientos, que en los años dos mil se convirtió en un fenómeno editorial mundial con la ley de la atracción, y de ahí a los libros que le ponen barniz cuántico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La genealogía es más vieja que Hill, en justicia. Viene de un movimiento estadounidense del siglo diecinueve que sostenía que la mente cura y provee, y que ya había producido en 1910 un libro con un título casi idéntico al suyo. Hill fue el que lo hizo popular, no el que lo inventó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la línea llega hasta hoy. El fenómeno editorial de 2006 que popularizó la ley de la atracción vendió treinta millones de ejemplares diciendo casi literalmente lo mismo, y su autora citaba este libro como una de sus fuentes. Noventa años después, el argumento no ha cambiado ni de forma.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En esta misma biblioteca está el final de esa línea: «Deja de ser tú», de Dispenza, sostiene con vocabulario de física lo que Hill decía con vocabulario de fe. Setenta y cinco años separan a los dos libros y la estructura del argumento es exactamente la misma.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en la misma categoría están sus hijos directos: «Los secretos de la mente millonaria», de Eker, y «El monje que vendió su Ferrari», de Sharma, que repiten el esquema de una fórmula secreta contada por un maestro cuya existencia no se puede comprobar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Reconocer ese esquema es la habilidad que más rentabilidad da al leer este estante: un maestro que no se puede localizar, una fórmula numerada, una cifra de ventas imposible de auditar y un curso al final. Cuando aparecen los cuatro juntos, ya se sabe qué clase de libro se tiene en la mano.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El daño de fondo",
+          frase: "Si el pensamiento correcto produce riqueza, entonces la pobreza es un fallo de pensamiento. Ese corolario está en el libro sin decirlo, y es lo que lo vuelve cruel en cuanto se lee en voz alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La crítica más dura a esa idea la escribió una ensayista estadounidense a la que le diagnosticaron un cáncer de mama y se encontró rodeada de gente pidiéndole actitud positiva. Su libro sostiene que el optimismo obligatorio, además de no curar nada, deja al enfermo culpable de estar enfermo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el punto exacto donde este género se vuelve peligroso, y no es una exageración de sus críticos: la versión moderna de la ley de la atracción llegó a sugerir que se puede curar una enfermedad grave pensando bien, con las consecuencias que eso tiene para quien lo cree.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Justo es decir que Hill no llega a eso y que su libro va de dinero, no de salud. Pero la puerta la abre él: si el pensamiento organizado produce resultados materiales, no hay ninguna frontera clara que impida aplicar el mismo razonamiento a un tumor, y sus herederos la cruzaron entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decirlo entero, porque es la objeción moral y no solo la científica. Un libro publicado en 1937, ante millones de parados de una crisis que no habían provocado, que sugiere que salir de ahí depende de la actitud mental, está trasladando a cada víctima la responsabilidad de un desastre colectivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste con los datos está a dos fichas de aquí. «El millonario de al lado» encuestó a miles de patrimonios reales y no encontró deseo ardiente ni visualización: encontró gente aburrida gastando por debajo de lo que ganaba durante veinte años, en casas normales y con coches usados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese contraste es la mejor manera de terminar esta ficha. Un libro promete el secreto de los quinientos hombres más ricos y no aporta ni un dato; el otro se limitó a preguntar a los que lo eran y publicó los números. El primero ha vendido veinte veces más, y esa desproporción también es información.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el problema de método lo arrastra el género entero: aquí solo se estudia a los que ganaron. Miles de personas tuvieron deseo, fe y persistencia y fracasaron, y no aparecen en el libro porque nadie entrevista a los que perdieron. Con esa muestra no se puede demostrar ninguna fórmula.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aun así hay que terminar reconociéndole lo que hizo. Este libro puso en la cabeza de millones de personas sin estudios la idea de que su vida podía planearse en vez de sufrirse, y eso, en 1937 y con una cuarta parte del país en la calle, no era poca cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho todo eso, la manera de leerlo es la misma que con su nieto «Padre rico, padre pobre», que está unas fichas más allá: quedarse con la parte que se puede comprobar y dejar en la página la que se apoya en la autoridad de un maestro inexistente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El antídoto dentro de la misma biblioteca está en Filosofía: «El sutil arte de que casi todo te importe una mierda», de Manson, que se dedica precisamente a desmontar la obligación de sentirse bien y de querer más, y que es el libro más antihilliano que se ha vendido por millones.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y para saber qué hacen de verdad los que acumulan patrimonio, dos fichas más allá está «El millonario de al lado», con encuestas en vez de anécdotas: gente aburrida, coches usados y un porcentaje fijo apartado cada mes durante veinte años. Ninguno de ellos leyó su cifra en voz alta al levantarse.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquí se sale con cuatro cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Objetivo con cifra, fecha, plan y gente al lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo lo demás es fe, y conviene saber que lo es.",
         },
       ],
     },
