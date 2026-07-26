@@ -14351,3 +14351,650 @@ export const ANA_KARENINA: Resumen = {
     },
   ],
 };
+
+export const RAYUELA: Resumen = {
+  id: "rayuela",
+  titulo: "Rayuela",
+  autor: "Julio Cortázar",
+  ano: 1963,
+  gancho:
+    "El libro que se puede leer en dos órdenes distintos, y cuyo autor te autoriza por escrito, en la primera página, a leerlo solo hasta la mitad. Casi todo el mundo acepta la oferta.",
+  porQue:
+    "Porque es la novela que convenció a un idioma entero de que leer podía ser un juego y no un servicio. Y porque su aparato famoso es lo menos interesante que tiene: debajo hay una historia de amor arruinada por un hombre incapaz de estar en una habitación.",
+  partes: [
+    {
+      titulo: "Un argentino perdido en el Pont des Arts",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La primera frase del libro es una pregunta: ¿Encontraría a la Maga? Un hombre camina por los muelles del Sena buscando a una mujer con la que no ha quedado en ningún sitio, porque nunca quedan. Confían en cruzarse, y durante un tiempo se cruzan casi siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese sistema es toda la relación en miniatura. Nada acordado, nada asegurado, un paraguas roto, una hora cualquiera en el Pont des Arts, y la certeza absurda de que si la cosa está viva el encuentro se produce solo. Cuando deje de producirse, no habrá manera de arreglarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él se llama Horacio Oliveira. Argentino, cuarenta y pocos, sin trabajo y con una pequeña renta que le llega de casa. Ha leído todo lo que hay que leer, sabe explicar cualquier cosa y es incapaz de sentir nada sin comentarlo antes por dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella se llama Lucía y todos le dicen la Maga. Uruguaya, con un hijo pequeño, sin estudios y sin la mitad de las referencias que se manejan en aquel grupo. Pregunta qué significan las palabras. Se ríe donde no toca. Y entiende, sin teoría ninguna, todo lo demás.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahí está el motor de la novela entera, y es una asimetría cruel: él sabe más y comprende menos. Ella llega por instinto adonde él no llega en doscientas páginas de razonamiento, y él lo sabe, y no se lo perdona ni a ella ni a sí mismo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alrededor gira el Club de la Serpiente: Etienne, que pinta; Ronald y Babs, americanos; Gregorovius, que quiere a la Maga; Perico, español y peleón; Wong. Se juntan de noche en habitaciones frías, ponen discos, beben vino barato y discuten de metafísica hasta que amanece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los discos importan más de lo que parece. Bessie Smith, Louis Armstrong, Jelly Roll Morton, Earl Hines. Cortázar era aficionado de verdad al jazz y escribe con el disco puesto: las frases largas de esas páginas están medidas contra un solo que suena mientras se habla.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué busca Oliveira",
+          frase: "Un centro. Le llama de mil maneras y ninguna sirve. Está convencido de que existe un sitio donde la vida encaja, y de que no está en ninguno de los lugares donde él sabe buscar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En medio de todo eso está el capítulo 7, que es la página más fotocopiada de la literatura en español. Empieza así: toco tu boca, con un dedo toco el borde de tu boca, voy dibujándola como si saliera de mi mano. Y sigue durante una página exacta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Funciona por tres decisiones técnicas. Está en presente, va dirigido a un tú y no describe el amor sino una boca, tratada como un lugar geográfico. Por eso aguanta fuera de contexto, y por eso hay muchísima gente que se lo sabe sin saber de qué libro es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí conviene deshacer el primer malentendido, porque es el más extendido. Rayuela no es una historia de amor. Oliveira no quiere a la Maga en ningún sentido operativo del verbo: está fascinado por ella y avergonzado de estar fascinado por alguien que no ha leído lo que él ha leído.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro lo enseña sin disculparlo. Oliveira la corrige, le explica cosas que no ha preguntado, se pone a hablar por encima de ella delante del grupo. Es un tipo de crueldad muy concreta, muy de intelectual, y la novela la exhibe con una honestidad que incomoda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El que escribe todo esto nació en Bruselas en agosto de 1914, durante la ocupación alemana, porque su padre estaba en el servicio diplomático argentino. Se llamaba Julio Cortázar y creció en Banfield, en el sur del conurbano de Buenos Aires, después de que el padre abandonara a la familia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fue un niño enfermizo que leía sin parar, luego maestro de escuela en pueblos de provincia y después traductor. En 1951 se fue a París con una beca y se quedó treinta y tres años, ganándose la vida como traductor de la Unesco. No volvió a vivir en Argentina.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De ahí sale la simetría que explica el libro: escribió la gran novela argentina en París, y la gran novela parisina que escribió transcurre media en Buenos Aires. El exilio no es el tema de Rayuela, es su estructura. El libro está partido igual que estaba partido él.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otra cosa que conviene saber antes de abrirlo: no es la ocurrencia de un joven experimental. Cortázar tenía cuarenta y ocho años, había publicado «Bestiario» y «Las armas secretas», y era uno de los mejores cuentistas vivos escribiendo de manera perfectamente convencional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, sabía exactamente qué estaba rompiendo y por qué. Eso separa a Rayuela de casi toda la literatura que la imitó después, que rompía por romper. Aquí cada dispositivo raro tiene un motivo, y cuando el motivo se acaba, el dispositivo también.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en Buenos Aires en junio de 1963. Lo trajo la editorial Sudamericana y se convirtió en cuestión de meses en el emblema de aquella generación: en el libro que uno llevaba debajo del brazo para que se viera, que también es una forma de leerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título viene del juego de la infancia: el dibujo de tiza en la acera, con la casilla de la Tierra abajo y la del Cielo arriba, y la piedrita que hay que empujar con un pie sin pisar raya. Cortázar la llamaba rayuela; en España se dice también el avión o la peregrina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La broma metafísica está en que los niños llegan al Cielo constantemente, todas las tardes, sin darle importancia. Los adultos del libro no llegan nunca. Rayuela va exactamente de eso: de alguien que ha olvidado cómo se juega a un juego que consiste en no pensar demasiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el juego aparece dentro del libro, dibujado con tiza, en el patio de un sitio muy concreto al que llegaremos en el capítulo tercero de este resumen. Cuando aparece, uno ya entiende que llevaba doscientas páginas viendo la misma partida jugada por gente demasiado mayor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De momento hay un hombre buscando a una mujer por los muelles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todavía la encuentra, casi siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le quedan unas cuantas noches antes de perderla por no saber decir tres palabras.",
+        },
+      ],
+    },
+    {
+      titulo: "La noche en que muere Rocamadour",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo 28 empieza como cualquier otra noche del Club. Se juntan en la habitación de la Maga, que es pequeña y está fría. El niño, Rocamadour, lleva días enfermo y duerme en la cama del fondo. Alguien pone un disco. Gregorovius habla. Se pasa el vino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En algún momento de esa conversación Oliveira se acerca a la cama, mira al niño y se da cuenta de que está muerto. Y no dice nada. Vuelve a su sitio, se sienta y deja que la charla siga. Rocamadour lleva muerto una hora larga y la única persona que no lo sabe es su madre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hace Cortázar a partir de ahí es una de las cosas técnicamente más difíciles que se pueden intentar en una novela. Estira la escena durante páginas y páginas de diálogo trivial, con el lector sabiendo lo que la madre no sabe y encerrado en la misma habitación.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los detalles hacen todo el trabajo: el disco que hay que dar la vuelta, el vecino de arriba que golpea el techo con un palo porque no le dejan dormir, la vela, el frío, alguien que propone bajar a por más vino. La vida corriente siguiendo su curso a dos metros de un niño muerto.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta que el capítulo deja abierta es por qué Oliveira no habla. Él tiene su explicación, y es peor que el silencio: dice que no quería montar una escena, que anunciarlo habría sido caer en el sentimentalismo, que había que respetar el momento tal como era.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no juzga esa explicación. La deja ahí, entera, para que el lector decida si está viendo cobardía, crueldad o una posición metafísica llevada hasta su consecuencia lógica. Las tres lecturas se sostienen con el texto, y probablemente las tres son verdad a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una lectura más simple y más humillante que el libro también permite: que Oliveira sencillamente no supo qué decir. Que se quedó paralizado como se queda cualquiera, y que después se fabricó una teoría para no tener que llamar cobardía a la cobardía.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El centro del libro",
+          frase: "Toda la búsqueda de Oliveira queda desmentida en esa habitación. Un hombre que persigue lo absoluto y no aguanta diez minutos dentro de un hecho concreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de esa noche la Maga desaparece. No hay escena de ruptura, ni carta, ni explicación: simplemente deja de estar. Y el resto de la novela es un hombre buscando a alguien que ya perdió, con la particularidad de que la perdió por no saber decir tres palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decirlo claramente porque cambia cómo se lee todo lo anterior: la Maga no se va por lo del niño solamente. Se va porque aquella noche vio con toda claridad qué clase de hombre tenía al lado, y porque él se lo demostró de la única forma que ella podía entender sin discutir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un capítulo anterior que prepara el terreno y que mucha gente recuerda como el mejor del libro: el 23, el del concierto de Berthe Trépat. Una pianista vieja y desconocida da un recital en una sala vacía, con tres personas en el público. Oliveira se queda por pura curiosidad cruel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Toca sus propias composiciones, que son malísimas, con títulos ridículos y una convicción absoluta. La gente se va. Al final quedan él y ella. Y Oliveira, en un impulso, se ofrece a acompañarla a casa bajo la lluvia, y aquello se convierte en una hora larga de humillación mutua.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el capítulo más divertido y más triste que escribió Cortázar, y hace un trabajo exacto dentro de la novela: enseña que hasta la compasión de Oliveira es un número que se está haciendo a sí mismo. No la acompaña por bondad, la acompaña por ver hasta dónde llega la escena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un capítulo posterior que cierra la parte de París: el 36, con Emmanuèle, una clocharde que vive bajo un puente. Termina con los dos detenidos por la policía en un episodio sórdido que acaba con Oliveira expulsado de Francia. El lado de allá se acaba ahí, sin ceremonia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Vale la pena poner Rayuela al lado de «Madame Bovary», que también anda por esta biblioteca. Flaubert cuenta a alguien destruido por leer novelas románticas; Cortázar cuenta a alguien destruido por leer filosofía. Los dos libros van de lo mismo: de la lente puesta entre una persona y su vida.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí toca decir dónde el libro falla, porque falla en algo importante y bastante gente cierra por ahí. Es una novela que usa la muerte de un bebé como dispositivo para exponer la mala fe de un intelectual. El niño no tiene existencia propia: existe para que Oliveira quede retratado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se puede defender diciendo que esa instrumentalización es precisamente el tema, que el libro nos hace cómplices para que la sintamos. Es una buena defensa y es la que hace la crítica. Pero hay lectores que la rechazan y no están leyendo mal: están cobrando una factura legítima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una segunda objeción, más discutible pero real. El Club de la Serpiente es un retrato que Cortázar quiere demasiado. La novela dice que aquellas noches de metafísica y vino eran una huida, y a la vez se recrea en ellas durante doscientas páginas con evidente placer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa ambigüedad tiene consecuencias que se ven todavía. Generaciones enteras de lectores han querido ser Oliveira sin captar que el libro lo está desmontando, y han salido de Rayuela creyendo que se les autorizaba a tratar mal a la gente siempre que fuera con buenas lecturas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cortázar era consciente. En cartas y entrevistas posteriores insistió en que Oliveira era un personaje al que había que mirar con distancia, no un modelo. Que hiciera falta aclararlo dice algo sobre cuánto seduce el personaje y sobre lo poco que se lee la letra pequeña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En cualquier caso, el libro no vuelve a ser el mismo después del capítulo 28. La primera mitad es un juego brillante. La segunda es lo que le pasa a un hombre después de haber hecho una cosa que no tiene arreglo, y se lee con otro peso encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El vecino de arriba sigue golpeando el techo con el palo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alguien da la vuelta al disco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y nadie se acerca a la cama del fondo.",
+        },
+      ],
+    },
+    {
+      titulo: "Un tablón entre dos ventanas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Segunda parte, Del lado de acá. Oliveira desembarca en Buenos Aires sin dinero y va a parar a casa de un amigo de la infancia que se llama Traveler, apodo que es una broma: es el único personaje del libro que no ha viajado nunca a ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Traveler es lo que Oliveira habría sido si se hubiera quedado. Trabaja, tiene mujer, tiene costumbres, se aguanta la vida. Y su mujer, Talita, tiene un parecido con la Maga que Oliveira detecta el primer día y que va a envenenarlo todo sin que nadie diga nada en voz alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los tres trabajan en un circo, que es la clase de detalle que solo se le ocurre a Cortázar. Un circo pequeño, con una carpa que tiene un agujero por el que se ve el cielo de verdad durante la función, y un gato al que han enseñado a contar y que efectivamente cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces llega el capítulo 41, que es el mejor de la novela y uno de los mejores que se han escrito en español. Es una tarde de calor insoportable en Buenos Aires. Oliveira está en su cuarto enderezando clavos torcidos, y necesita yerba y unos clavos que tiene Traveler enfrente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En vez de bajar tres pisos y subir otros tres, propone tender un tablón entre las dos ventanas, por encima de la calle, y pasar las cosas por ahí. Traveler acepta discutiendo. Empieza a cruzar. Y al final la que queda en mitad del tablón, sobre el vacío, con la yerba en la mano, es Talita.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo dura treinta páginas y no pasa absolutamente nada. Hace calor, se discute, la yerba se enfría, abajo se junta gente a mirar. Y es la novela entera: dos hombres que son el mismo hombre, una mujer suspendida entre los dos, y un riesgo completamente innecesario elegido antes que unas escaleras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie dice en ningún momento de qué va la cosa. Se habla de clavos, de la yerba, del sol, de si el tablón aguanta. Toda la tensión sexual y todo el duelo entre los dos amigos pasan por debajo de una conversación sobre bricolaje, y eso es lo que lo hace insoportable de bueno.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El tablón",
+          frase: "Podía bajar por la escalera. Eligió el tablón. Toda la novela es un hombre eligiendo sistemáticamente el tablón, y una mujer quedándose en medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después el dueño del circo lo vende y compra, con el mismo dinero y sin cambiar de oficio a sus ojos, un manicomio. Los tres pasan a trabajar allí: Traveler y Talita de día, Oliveira en el turno de noche, vigilando pasillos con las luces apagadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chiste es amargo y es explícito: del circo al manicomio hay un paso administrativo. Y ahí, en el patio del manicomio, alguien ha dibujado con tiza una rayuela. Aparece por fin el juego que da título al libro, en el patio de un sitio donde encierran a la gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final de la lectura corriente es el capítulo 56, y es una escena de una tensión rarísima. Oliveira, en su cuarto del manicomio, convencido de que Traveler viene a matarlo, monta una barricada absurda: hilos cruzados por toda la habitación y palanganas con rodamientos en el suelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se sienta en el marco de la ventana con las piernas colgando hacia fuera. Abajo, en el patio, están Traveler y Talita, ella de pie sobre una casilla de la rayuela dibujada con tiza, mirándolo. Y el capítulo se acaba ahí, con él en el alféizar, sin decir qué pasa después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa ambigüedad es deliberada y está bien construida: hay lectores convencidos de que se tira y lectores convencidos de que no, y el texto da material a los dos. Cortázar se negó siempre a aclararlo, y tenía razón, porque la respuesta arruinaría el mecanismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora un malentendido grande que conviene deshacer. Mucha gente recuerda Rayuela como una novela de la bohemia parisina, y la mitad del libro pasa en Buenos Aires. Quien la recuerde solo por París es, casi con seguridad, alguien que la abandonó alrededor del capítulo 36.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y la mitad porteña es la mejor. El calor, la pensión, el mate, la manera de hablar, el circo, el manicomio. Cortázar reconstruyó ese Buenos Aires desde París, doce años después de irse, y por eso está tan afinado y a la vez suena a recuerdo y no a ciudad.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El personaje que sale mejor parado de todo el libro es Talita, y casi nadie la menciona. Es farmacéutica, sabe hacer su trabajo, resuelve problemas prácticos y es la única que actúa sin teorizar antes. Los dos hombres se pasan la novela usándola como espejo el uno del otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una observación que Cortázar deja caer sin subrayarla y que es lo más duro de esta parte. El problema de Oliveira en Buenos Aires ya no es haber perdido a la Maga. Es que ha encontrado una vida que funciona —amigos, trabajo, una casa— y no la soporta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso convierte el libro en algo más incómodo que una historia de búsqueda. Lo que le pasa a este hombre no es que no encuentre; es que rechaza sistemáticamente todo lo que encuentra, porque encontrar obligaría a dejar de buscar, y buscar es lo único que sabe hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Traveler lo entiende antes que él, y se lo dice con una frase que resume la novela desde el otro lado: que Oliveira es un tipo que se pasa la vida esperando algo que no va a llegar, y que el resto tienen que vivir mientras tanto en la misma casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y eso convierte a Traveler en algo más que un contrapunto. Es el que aguanta, el que va a trabajar, el que se casa y se queda, y el libro no lo trata como a un mediocre: lo trata como al único que ha entendido que la vida se juega donde uno está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el viaje de la segunda parte. De un circo con un agujero en la carpa a un patio con una rayuela de tiza, pasando por un tablón sobre la calle. Todo el itinerario cabe en tres manzanas de Buenos Aires y es más largo que el viaje a París.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La yerba se enfría en mitad del tablón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Abajo la gente empieza a juntarse para mirar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ninguno de los dos hombres es capaz de decir lo que está pasando de verdad.",
+        },
+      ],
+    },
+    {
+      titulo: "Las notas de Morelli",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En un capítulo de la parte de París, Oliveira ve cómo atropellan a un viejo en la calle. Se queda mirando, ayuda un poco, se va. Mucho después descubrirá que aquel viejo era Morelli, un escritor que él admira sin haber leído del todo y del que el Club habla continuamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van a verlo al hospital y el viejo, agradecido y moribundo, les da la llave de su casa para que ordenen sus papeles. Esos papeles —notas, borradores, teorías a medio hacer— son buena parte de los capítulos del final del libro, y son donde Cortázar explica lo que está haciendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que quiere Morelli es una novela que no se consuma como un paquete. Está harto de los libros que le dan al lector todo masticado, con el principio, el nudo y el desenlace en su sitio, y que solo le piden que pase páginas y se emocione donde toca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para eso divide a los lectores en dos y les pone nombre. El lector cómplice, que trabaja, que arma el libro con el autor, que acepta que le den las piezas sueltas. Y enfrente el lector pasivo, al que Morelli llama con una expresión que se hizo famosa: lector-hembra.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquí viene el detalle que casi ningún resumen cuenta, y es de los mejores del libro. Años después, en varias entrevistas, Cortázar dijo que aquella expresión era machista, que se arrepentía de haberla escrito y que hoy pondría simplemente lector pasivo. Su término más citado lo desautorizó él mismo.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora el famoso aparato, que conviene explicar con precisión porque circula mal contado. El libro tiene 155 capítulos y empieza con una página titulada Tablero de dirección donde el autor propone dos maneras de leerlo, ni una más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera es normal: del capítulo 1 al 56, en orden, y ahí se acaba. El propio Cortázar escribe que el lector puede desentenderse sin remordimientos de todo lo que sigue. Es probablemente la frase más generosa que ha escrito nunca un novelista experimental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es el juego. Se empieza por el capítulo 73, y al final de cada capítulo hay un número que indica adónde saltar. Ese recorrido va intercalando los capítulos que él llama prescindibles —del 57 al 155— entre los de la historia, y cambia por completo el ritmo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El final que no existe",
+          frase: "La segunda lectura no termina: acaba rebotando entre el capítulo 58 y el 131, que se mandan el uno al otro para siempre. No es una metáfora, es aritmética: se puede comprobar en dos minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese bucle es la mejor idea formal del libro, porque hace algo que el contenido no podría decir solo. Una novela sobre alguien que no llega nunca al Cielo de la rayuela se acaba en un salto que devuelve al lector al mismo sitio, indefinidamente, hasta que decida cerrarlo él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dentro de ese aparato hay dos capítulos que todo el mundo debería ver aunque no lea el resto. El primero es el 34, donde dos textos van intercalados renglón a renglón: en las líneas impares, una página de «Lo prohibido» de Galdós que la Maga estaba leyendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En las pares, el comentario despectivo de Oliveira sobre esa lectura mientras la lee. Hay que leer el capítulo dos veces, saltándose renglones, y al hacerlo el lector experimenta físicamente lo que la novela dice: que hay dos personas en la misma habitación que no se están oyendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es el capítulo 68, escrito entero en un idioma inventado que Cortázar llamó gíglico. Empieza: apenas él le amalaba el noema, a ella se le agolpaba el clémiso y caían en hidromurias, en salvajes ambonios, en sustalos exasperantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí está lo importante, que casi nadie explica: eso no es una sopa de letras. La gramática es español perfecto —los artículos, los pronombres, las conjugaciones, el orden— y lo único inventado son las raíces. Por eso cualquiera entiende de sobra qué está ocurriendo en esa escena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una demostración práctica de una idea seria: que buena parte del significado no está en las palabras sino en el andamiaje que las sostiene. Un capítulo que parece una travesura y es, en realidad, un experimento lingüístico que funciona a la primera con cualquier lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cortázar contó que lo escribió casi de un tirón y que la gracia estaba en que nadie tuviera que consultar nada. Es el único capítulo del libro que no se puede traducir y que a la vez se entiende en cualquier idioma que tenga artículos y verbos, que es una paradoja bonita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un tercer caso, más raro. El capítulo 62 esboza la novela que Morelli querría escribir, con personajes movidos por fuerzas que no controlan. Cinco años después, en 1968, Cortázar la escribió de verdad y la tituló «62/Modelo para armar». Un capítulo que se convirtió en otro libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Entre los capítulos prescindibles hay además recortes de periódico auténticos, citas de otros autores, un texto sobre un suplicio chino, un anuncio. Collage puro, en 1963, dentro de una novela, sin avisar. Buena parte de la literatura que vino después sale de esa manera de armar un libro.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La deuda evidente es con Borges, que además fue quien le publicó su primer cuento en una revista en 1946. Pero la diferencia entre los dos es exacta y vale la pena verla, porque «Ficciones» está también en esta biblioteca y el contraste enseña mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Borges construye máquinas perfectas que cierran por todos lados: cada cuento es un mecanismo sin una pieza suelta. Cortázar construye deliberadamente una máquina que no cierra, con piezas de más, y deja las tuercas a la vista para que el lector tenga que apretarlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora la crítica que hay que hacerle a todo este aparato, que es demoledora y es sencilla. Los capítulos de Morelli, que defienden al lector activo, son exactamente los que casi todos los lectores se saltan. Una teoría del lector cómplice desmentida por el propio libro que la contiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cortázar lo sabía a medias, y por eso los llamó prescindibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una palabra muy honesta y muy imprudente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi nadie desaprovecha un permiso.",
+        },
+      ],
+    },
+    {
+      titulo: "La casilla que se llama Cielo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Queda una cuenta pendiente y es la más seria que tiene el libro: la Maga. Es probablemente el personaje femenino más querido de la literatura latinoamericana, y no tiene ni un solo capítulo contado desde dentro de su cabeza en las setecientas páginas del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo lo que sabemos de ella nos llega a través de Oliveira: su desorden, su intuición, su manera de no entender las citas cultas, su cuerpo. Existe como la mira él. Cuando desaparece, desaparece del todo, porque nunca hubo un sitio en el libro donde estuviera por su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se puede defender diciendo que la novela está contada desde la conciencia de Oliveira y que esa ceguera es el tema. Es una defensa razonable. Pero el libro tiene 155 capítulos, algunos son recortes de periódico y ninguno es de ella, y esa decisión también dice algo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y no es una queja de ahora aplicada retroactivamente a un libro viejo, que sería trampa. Es la misma objeción que el propio Cortázar aceptó cuando se arrepintió del lector-hembra: la de que había una manera de mirar en aquel libro que él dejó de sostener.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene también decir lo que Rayuela nunca dijo, porque se le atribuye sin parar. Nunca dijo que la lectura saltada fuera la buena. Nunca dijo que la lineal fuera de segunda. Está por escrito en la primera página: se puede parar en el 56 con la conciencia tranquila.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin embargo la fama del libro se construyó sobre lo contrario. Rayuela es célebre como el libro que se lee salteado, y la inmensa mayoría de la gente que dice haberlo leído lo leyó del 1 al 56 y se quedó tan a gusto, que es exactamente lo que el autor había ofrecido.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué cambió de verdad",
+          frase: "Su efecto real no fue que la gente leyera saltando. Fue que una generación entera de lectores en español entendió que un libro es un aparato que se puede manejar, y no un servicio que se consume.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vale la pena mirar lo que pasó cuatro años después, porque explica el sitio que ocupa. En 1967 se publicó «Cien años de soledad», que está en esta biblioteca, y que hace justo lo contrario: placer narrativo puro, sin aparato, sin instrucciones, sin capítulos prescindibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eran los dos caminos que tenía abiertos la novela en español en aquellos años, y el público eligió con bastante claridad el de García Márquez. Rayuela se convirtió en el libro admirado y García Márquez en el libro leído, y esa diferencia sigue notándose hoy en las estanterías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene ponerlo junto a «Pedro Páramo», que es de 1955 y anda por aquí. Rulfo rompe el orden del relato en ciento treinta páginas y sin una sola instrucción, y consigue un desconcierto mayor con una décima parte del aparato. La comparación no deja a Rayuela en buen lugar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cortázar cambió mucho después. La revolución cubana lo politizó, viajó a Cuba y a Nicaragua, y en 1973 publicó «Libro de Manuel», una novela abiertamente política cuyos derechos de autor destinó a la defensa de presos políticos argentinos. Nunca renegó de Rayuela, pero se movió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Decía en aquellos años que si escribiera Rayuela otra vez sería un libro distinto, y que le costaba reconocerse en la desesperación puramente individual de Oliveira, en un continente donde estaban pasando cosas que exigían otra cosa que buscar el centro por los muelles del Sena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nunca dijo, sin embargo, que Rayuela estuviera equivocada. Decía algo más fino: que era el libro de un hombre de cuarenta y ocho años en 1963, y que un libro es también una fecha. Es una manera elegante de responder a las críticas sin darles ni quitarles la razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió en París en febrero de 1984, de leucemia. Está enterrado en Montparnasse. Francia le había dado la nacionalidad en 1981, cuando llevaba treinta años allí, y él la aceptó sin renunciar a la argentina, cosa que en Argentina no todo el mundo le perdonó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un detalle final que duele. Volvió a Buenos Aires en diciembre de 1983, recién acabada la dictadura, y el Gobierno recién estrenado no lo recibió oficialmente. Anduvo por la calle, la gente lo paraba, firmó libros en las librerías. Murió dos meses después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien quiere leerlo hoy, la recomendación honrada es esta y no otra. Del 1 al 56, seguido, sin mirar el tablero. Es una novela normal, larga y buena, con dos o tres capítulos extraordinarios, y se acaba en el marco de una ventana sin saber qué pasa después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después, si el libro ha enganchado, ir a buscar sueltos el 34 y el 68 para ver los dos experimentos que sí funcionan. Y solo entonces, si queda gana, empezar otra vez por el 73 y jugar la partida completa, que dura el doble y descoloca el ritmo a propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí conviene tener claro antes de empezar es que este no es un libro sobre París ni sobre el amor. Es un libro sobre un hombre convencido de que en algún sitio hay una casilla donde la vida encaja, y que va destruyendo todo lo que encuentra por el camino de buscarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la novela sabe algo que él no sabe, y lo dice con el título desde la portada. En la rayuela de verdad, la de la acera, los niños llegan al Cielo todas las tardes. No hace falta ningún método: hace falta empujar la piedra con un pie y no pensar demasiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Oliveira no llega nunca, y no llega porque no es capaz de jugar a nada sin explicarse antes por qué juega. Ese es el diagnóstico entero, y el libro tarda setecientas páginas en formularlo porque no hay otra manera de hacerlo sentir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al final, quien lee el libro en el orden saltado se encuentra atrapado en un bucle entre dos capítulos que se remiten el uno al otro sin salida. Es la última broma de Cortázar, y es una broma seria: te deja a ti la decisión de parar, que es la única que él no podía tomar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una tiza en el patio y un dibujo en el suelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La casilla de arriba pone Cielo y está a tres saltos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El único que no llega es el que se ha parado a calcular el ángulo.",
+        },
+      ],
+    },
+  ],
+};
