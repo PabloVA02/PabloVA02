@@ -147,7 +147,7 @@ export const CATALOGO: Ficha[] = [
   { id: "mientras-escribo", titulo: "Mientras escribo", autor: "Stephen King", ano: 2000, categoria: "Arte", estado: "escrito" },
   { id: "magia-crear", titulo: "La magia de crear", autor: "Elizabeth Gilbert", ano: 2015, categoria: "Arte", estado: "pendiente" },
   { id: "pajaro-a-pajaro", titulo: "Pájaro a pájaro", autor: "Anne Lamott", ano: 1994, categoria: "Arte", estado: "pendiente" },
-  { id: "vidas-vasari", titulo: "Las vidas de los más excelentes pintores, escultores y arquitectos", autor: "Giorgio Vasari", ano: 1550, categoria: "Arte", estado: "pendiente" },
+  { id: "vidas-vasari", titulo: "Las vidas de los más excelentes pintores, escultores y arquitectos", autor: "Giorgio Vasari", ano: 1550, categoria: "Arte", estado: "escrito" },
   { id: "espiritual-arte", titulo: "De lo espiritual en el arte", autor: "Vasili Kandinsky", ano: 1911, categoria: "Arte", estado: "pendiente" },
   { id: "reproductibilidad", titulo: "La obra de arte en la época de su reproductibilidad técnica", autor: "Walter Benjamin", ano: 1936, categoria: "Arte", estado: "pendiente" },
   { id: "heroe-mil-caras", titulo: "El héroe de las mil caras", autor: "Joseph Campbell", ano: 1949, categoria: "Arte", estado: "escrito" },

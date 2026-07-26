@@ -6534,3 +6534,601 @@ export const HEROE_MIL_CARAS: Resumen = {
     },
   ],
 };
+
+export const VIDAS_VASARI: Resumen = {
+  id: "vidas-vasari",
+  titulo: "Las vidas de los más excelentes pintores, escultores y arquitectos",
+  autor: "Giorgio Vasari",
+  ano: 1550,
+  gancho:
+    "Casi todo lo que crees saber sobre los artistas del Renacimiento lo escribió un pintor de Arezzo que conocía a la mitad de ellos.",
+  porQue:
+    "Es el primer libro de historia del arte que se escribió, y sigue siendo la fuente de casi todas las anécdotas que circulan sobre Giotto, Leonardo o Miguel Ángel. También es donde nacieron algunos de los errores que todavía repetimos.",
+  partes: [
+    {
+      titulo: "Una cena en casa del cardenal",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Roma, hacia 1546. En el palacio del cardenal Alejandro Farnesio se cena y se conversa, como cada noche, con un grupo de escritores y eruditos alrededor de la mesa. Entre los invitados hay un pintor toscano de treinta y cinco años que trabaja para la casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Paolo Giovio, historiador y coleccionista, cuenta que le gustaría escribir un tratado sobre los artistas famosos desde Cimabue hasta el presente. Habla un rato y se le van escapando confusiones: mezcla nombres, atribuye obras a quien no las hizo, se equivoca de siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pintor toma la palabra y le corrige, con la seguridad de quien ha visto esas obras con sus propios ojos y ha hablado con quien las hizo. El cardenal se queda mirándolo y le suelta que entonces por qué no lo escribe él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Giorgio Vasari, había nacido en Arezzo en 1511 y era pintor y arquitecto de oficio. Aquella noche, según cuenta él mismo, dijo que lo intentaría sin darle mayor importancia, y acabó dedicándole veinte años y creando una disciplina entera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué es este libro",
+          frase: "La primera historia del arte que se escribió: alrededor de doscientas biografías de pintores, escultores y arquitectos italianos, desde el siglo trece hasta el propio Vasari, ordenadas para contar una única historia con principio, desarrollo y final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Salió en 1550 en Florencia, impreso por Lorenzo Torrentino. Dieciocho años después publicó una segunda edición mucho más gorda, con retratos grabados en madera, artistas vivos añadidos y una autobiografía suya al final que es de las cosas más divertidas del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El formato que eligió no era neutro. Escribió vidas, no un tratado: cada artista tiene su nacimiento, su maestro, sus obras, sus anécdotas, sus rivalidades y su muerte, exactamente igual que en las biografías de emperadores de Plutarco o de Suetonio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa decisión formal es la que ha condicionado todo lo que vino después. Contar el arte a través de las vidas de sus autores nos parece hoy lo natural, y no lo es: es una elección que hizo un señor en el siglo dieciséis y de la que aún no hemos salido.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de él, escribir sobre arte era escribir sobre técnica: cómo se prepara un pigmento, cómo se calcula una perspectiva, cuántas partes tiene un cuerpo bien proporcionado. Cennino Cennini o Alberti hacían manuales. Vasari hizo un relato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y para hacerlo tuvo que inventarse el trabajo. Viajó por media Italia mirando obras, preguntando en talleres, copiando inscripciones de tumbas y pidiendo a los viejos que le contaran lo que recordaban de sus maestros. Eso es investigación de campo, y no existía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También reunió una colección enorme de dibujos de otros artistas, un álbum que llamaba su Libro de los dibujos, montando cada hoja con marcos decorados por él mismo. Le servía como archivo: comparaba manos y estilos para saber quién había hecho qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro está dedicado a Cosme I de Médici, duque de Florencia y jefe suyo. Ese detalle explica muchas cosas del resto: Vasari escribe la historia del arte como una historia que empieza en Toscana, culmina en Florencia y da la razón a quien le paga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis se resume en una palabra que él usa una y otra vez: rinascita, renacimiento. La idea de que el arte antiguo fue perfecto, que después vino un desastre de mil años, y que en Italia el arte volvió a nacer y fue subiendo hasta la perfección otra vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa palabra suya es el origen de la nuestra. Renacimiento como nombre de un periodo histórico no lo puso él, lo popularizaron historiadores del siglo diecinueve, pero la idea de un renacer y de una Edad Media oscura en medio es literalmente el esquema de este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le debemos otro término, este menos afortunado. Vasari llama gótico al arte medieval, atribuyéndolo a los godos, los bárbaros que arrasaron Roma. Lo dice como insulto: un estilo de monstruos y confusión, hecho por gente que había perdido la buena manera.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es decir, que el nombre con el que hoy se enseñan las catedrales de Chartres o de León nació como una descalificación de un pintor florentino que las consideraba una barbaridad. Tardó siglos en dejar de ser un insulto y nunca dejó de ser su palabra.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para organizar la subida hasta la perfección divide el libro en tres edades, y cada una tiene su prólogo explicando qué se conquistó en ella. Es un esquema de progreso, muy claro y muy útil para leer, y es también el mayor problema del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque si el arte avanza hacia una meta, todo lo anterior a la meta es imperfecto por definición, y todo lo posterior solo puede ser decadencia. Vasari se pasa páginas explicando que a tal maestro le faltaba lo que otro conseguiría cincuenta años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El concepto que le sirve para medir ese avance es el disegno, que no significa solo dibujo. Significa la idea, el diseño mental de la obra, y la capacidad de trazarla. Para Vasari es el padre común de la pintura, la escultura y la arquitectura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa vara mide a todo el mundo, y es lo que le hace injusto con quien no la comparte. Un pintor que resuelve por color en vez de por línea, para él, está haciendo algo incompleto por muy bonito que sea. Los venecianos lo van a pagar caro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene tener claro qué clase de escritor es. Vasari no separa el dato del rumor: cuenta lo que ha visto, lo que le han dicho y lo que se dice, todo con el mismo tono, y no avisa de cuál es cuál en ningún momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su primera edad empieza en Florencia, a finales del siglo trece, con un pintor que iba por el campo y se encontró a un crío dibujando en una piedra.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El niño que dibujaba ovejas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Cimabue, el pintor más importante de Florencia, va camino de Vespignano y se cruza con un pastorcillo de unos diez años sentado junto a su rebaño. El niño está dibujando una oveja sobre una piedra lisa, con otra piedra puntiaguda, sin que nadie le haya enseñado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cimabue se para, mira el dibujo, y le pregunta si quiere irse con él a aprender. El niño dice que sí si su padre le deja. El padre le deja. Aquel crío se llamaba Giotto y, según Vasari, fue quien devolvió el arte a la vida después de mil años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La historia es casi con toda seguridad falsa. No hay ni un documento que la respalde, el patrón del genio descubierto por casualidad ya estaba en la Antigüedad, y Vasari la cuenta ciento cincuenta años después de los hechos. Pero es la mejor escena inaugural posible.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que Vasari dice que hizo Giotto",
+          frase: "Dejar de copiar la manera griega —las figuras rígidas y doradas de los bizantinos— y ponerse a mirar del natural. Sus personajes tienen peso, ocupan un espacio, se tocan y se miran entre ellos. Es el momento en que la pintura vuelve a parecerse a lo que hay delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso, a diferencia de las ovejas, es verdad y se puede comprobar yendo a Padua. En la capilla de los Scrovegni, pintada hacia 1305, hay una escena en la que Judas besa a Cristo y los dos se miran a los ojos, y no hay nada igual en los trescientos años anteriores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De Giotto vienen dos de las anécdotas más repetidas de la historia del arte, y las dos salen de aquí. La primera: de niño, en el taller, pintó una mosca sobre la nariz de una figura de Cimabue, y el maestro intentó espantarla varias veces con la mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es mejor. Un enviado del papa recorre Italia pidiendo a los pintores una muestra de su trabajo. Giotto coge un pincel, apoya el codo en el costado y traza a mano alzada un círculo perfecto. Le dice al mensajero que se lo lleve, que ya verá si se entiende.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El mensajero se marcha convencido de que se están riendo de él. El papa entiende perfectamente lo que significa y le da el encargo. Vasari añade que de ahí viene el dicho florentino de que alguien es más redondo que la O de Giotto, que se usaba para llamar tonto a la gente.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco hay ninguna prueba de esa historia. Lo que sí es cierto y está documentado es que Giotto se hizo rico, que alquilaba telares, que tuvo ocho hijos y que en 1334 la ciudad de Florencia lo nombró maestro de obras de la catedral, que es el cargo civil más alto para un artista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese es un cambio del que Vasari es plenamente consciente: el paso del artesano anónimo, que firmaba con el nombre de su gremio, al artista con nombre propio, con fama, con dinero y con acceso a los príncipes. El libro entero es, entre otras cosas, la crónica de ese ascenso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera edad ocupa el siglo catorce y Vasari la trata con una mezcla de admiración y condescendencia. Elogia a Duccio, a Simone Martini, a Ambrogio Lorenzetti, y a la vez repite que aún no sabían lo que vendría después, como quien alaba a un alumno aplicado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa condescendencia tiene consecuencias que duraron siglos. Durante trescientos años, casi nadie en Europa miró la pintura anterior a Giotto de otra manera que no fuera como un balbuceo, y hubo que esperar al siglo diecinueve para que se volviera a mirar en serio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otra deuda que conviene reconocerle. Muchas de las obras que describe con detalle ya no existen: se quemaron, se derribaron los edificios que las contenían o se picaron para pintar encima. En bastantes casos, la descripción de Vasari es lo único que queda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conservó nombres que se habrían perdido del todo. Artistas de los que no queda una sola obra documentada existen para nosotros porque Vasari les dedicó tres párrafos y anotó de dónde eran, con quién se formaron y qué pintaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un aspecto suyo que sorprende al lector actual: cuenta el dinero. Cuánto cobró cada uno por cada encargo, quién le engañó, quién se arruinó, quién murió rico. Es una historia del arte que no separa la obra maestra de la factura, y eso la hace muy moderna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tono, además, es de taller. Vasari escribe como quien lleva toda la vida entre andamios: le interesan los procedimientos, las manías, quién trabajaba deprisa y quién no entregaba nunca, quién se peleaba con los clientes y quién bebía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De Paolo Uccello cuenta que se obsesionó tanto con la perspectiva que se pasaba las noches en vela dibujando líneas de fuga, y que cuando su mujer le llamaba a la cama contestaba que qué cosa tan dulce era aquella perspectiva. Es un chiste con dos siglos de éxito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De Piero di Cosimo, que vivía de huevos duros cocidos de sesenta en sesenta mientras hervía la cola para las pinturas, y que no dejaba barrer su taller ni podar las plantas del huerto porque prefería verlo todo salvaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estas cosas son las que han hecho que el libro sobreviva. Nadie lee cuatro mil páginas por un esquema de progreso: se leen porque cada pocas páginas hay una escena que se recuerda, y porque Vasari tenía un oído excelente para lo que se recuerda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema, claro, es que ese mismo oído es el que fabrica escenas. Cuando le falta un dato, lo rellena con algo verosímil, y como escribe bien, lo verosímil ha pasado por cierto durante cuatrocientos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda edad empieza, según él, con un concurso público que se celebró en Florencia en el año 1401.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se trataba de decidir quién haría unas puertas de bronce.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las puertas del Paraíso",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El gremio de los mercaderes de paño de Florencia convocó un concurso para fundir la segunda puerta de bronce del baptisterio. Cada aspirante tenía que presentar un panel con el sacrificio de Isaac, mismo tema, mismo formato, mismo material y un año de plazo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos finalistas fueron un orfebre de veintitrés años, Lorenzo Ghiberti, y un chaval de veinticuatro, Filippo Brunelleschi. Ganó Ghiberti. Los dos paneles se conservan y se pueden ver hoy, uno al lado del otro, en el museo del Duomo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vasari cuenta que a Brunelleschi la derrota le sentó tan mal que se fue de Florencia y se marchó a Roma con su amigo Donatello, y que allí se pasaron años midiendo ruinas antiguas, excavando cimientos y dibujando capiteles como dos poseídos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sacaron de aquellas ruinas",
+          frase: "Dos cosas que cambiaron el arte europeo: la manera romana de construir, con sus proporciones y sus órdenes, y la idea de que la Antigüedad no era un decorado sino un sistema que se podía entender midiéndolo. Volvieron con cuadernos, no con souvenirs.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A Ghiberti le encargaron después una tercera puerta, en la que trabajó veintisiete años. Es la que da al Duomo, con diez paneles dorados y en relieve, y es la que Miguel Ángel llamó, según Vasari, digna de ser las puertas del Paraíso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese nombre se le quedó y es el que se usa hoy en todas partes. Como tantas otras cosas, sabemos que Miguel Ángel lo dijo porque lo escribió Vasari, y no hay ninguna otra fuente. La frase más famosa sobre unas puertas depende de un solo testigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Brunelleschi, mientras tanto, se metió en el problema técnico más difícil de la época. La catedral de Florencia llevaba más de un siglo con un agujero de cuarenta y tres metros de diámetro en el crucero, porque nadie sabía cómo cubrirlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "No había madera suficiente en Toscana para montar la cimbra que sostuviera una cúpula así mientras se construía. Brunelleschi propuso levantarla sin cimbra, con dos capas de ladrillo colocados en espiga que se sostenían solos a medida que subían. Nadie sabía si funcionaría.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vasari cuenta que los gremios lo tomaron por loco y que en una reunión lo echaron a la fuerza de la sala. También cuenta el truco del huevo: que retó a los demás a ponerlo de pie sobre el mármol, y cuando ninguno pudo, lo cascó por la base y lo dejó tieso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los otros protestaron diciendo que así lo hacía cualquiera, y él contestó que lo mismo dirían de la cúpula si les enseñaba cómo se hacía. Esa anécdota también es probablemente inventada, y lleva quinientos años ilustrando qué es tener una idea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cúpula se terminó en 1436 y sigue en pie, con cuatro millones de ladrillos encima. Es la mayor cúpula de fábrica del mundo y se construyó sin un solo cálculo de los que hoy haría un ingeniero, resolviendo cada problema sobre la marcha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer nombre de esta edad es Masaccio, que murió a los veintisiete años y al que Vasari trata con auténtica devoción. En la capilla Brancacci pintó unas figuras que proyectan sombra, pisan el suelo y tienen un volumen que nadie había conseguido antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su Adán y Eva expulsados del paraíso son dos personas llorando de verdad, no dos símbolos. Vasari escribe que todos los pintores que vinieron después fueron a aprender a aquella capilla, y en ese caso hay documentación: se sabe que Miguel Ángel iba a copiarlos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una historia sobre esa capilla que suena a leyenda de taller pero que da la medida del ambiente: que un rival le rompió la nariz a Miguel Ángel de un puñetazo mientras copiaba allí, y que se la dejó torcida para toda la vida. Esa sí está confirmada por otras fuentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esta parte del libro aparece también la única mujer a la que Vasari dedica una biografía completa: Properzia de Rossi, escultora de Bolonia, muerta hacia 1530, que empezó tallando escenas enteras sobre huesos de melocotón antes de trabajar el mármol.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vasari la trata con respeto y con un asombro que dice bastante de la época, porque presenta el hecho de que una mujer esculpiera como una rareza digna de mención. En la edición de 1568 menciona a algunas más, entre ellas a Sofonisba Anguissola, pero de pasada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es uno de los agujeros del libro que hoy más se nota. Hubo más mujeres trabajando en talleres de las que él cuenta, muchas veces en el taller de su padre y firmando con el nombre de él, y recuperarlas ha sido trabajo de los últimos cincuenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro agujero enorme es geográfico. Venecia aparece poco y mal: Vasari admira el color de Tiziano y le reprocha una y otra vez que los venecianos no aprendieran a dibujar como Dios manda, que en su vocabulario significa como en Florencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta incluso que fue a visitar a Tiziano a Roma en 1546 acompañando a Miguel Ángel, y que al salir este comentó que era una lástima que en Venecia no se empezara por el dibujo. Vasari lo escribe como si zanjara el asunto, y lo que zanja es su propio prejuicio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del arte del norte de Europa apenas habla, y cuando lo hace es para admirar la técnica y lamentar la falta de gracia. Van Eyck aparece sobre todo como el hombre que inventó la pintura al óleo, cosa que además no es cierta: la perfeccionó, no la inventó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo eso se entiende mejor sabiendo hacia dónde va el libro. Las tres edades no son una clasificación: son una cuesta arriba, y arriba del todo hay una sola persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vasari lo llama el divino, y era amigo suyo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El funeral de San Lorenzo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El 18 de febrero de 1564 murió en Roma Miguel Ángel Buonarroti, a los ochenta y ocho años. Su sobrino sacó el cuerpo de la ciudad de noche y en secreto, metido en un fardo como si fuera mercancía, porque Roma no iba a dejar marchar ese cadáver de buena gana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llevó a Florencia, que era lo que el muerto había pedido. Allí, la Academia del Dibujo —fundada un año antes por Cosme I, con Vasari entre los promotores— organizó un funeral de estado en la iglesia de San Lorenzo, con un catafalco monumental y semanas de preparativos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vasari fue una de las manos que movieron aquello, y después diseñó la tumba que se le hizo en Santa Croce. No es un detalle menor para leer el libro: el biógrafo del héroe es también quien le organizó el entierro y quien le construyó el sepulcro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El lugar que le da en la historia",
+          frase: "El final del camino. Para Vasari, el arte fue subiendo desde Giotto durante doscientos cincuenta años y en Miguel Ángel alcanzó la perfección, y no porque le superara a nadie en una técnica concreta, sino porque las reunió todas: escultura, pintura y arquitectura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la primera edición, la de 1550, era el único artista vivo que tenía biografía. Todo el libro estaba construido para desembocar en él, y terminaba diciendo que la naturaleza había querido enviar a la tierra un espíritu capaz de hacerlo todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquello tuvo una consecuencia que Vasari no esperaba. A Miguel Ángel, que tenía setenta y cinco años y muy mal carácter, la biografía no le gustó del todo: había errores, y sobre todo había cosas de su juventud contadas de una manera que a él no le convenía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres años después, en 1553, un discípulo suyo llamado Ascanio Condivi publicó otra biografía, mucho más corta, que contradice a Vasari en varios puntos importantes. Todo indica que el propio Miguel Ángel se la dictó o se la corrigió de cerca.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "O sea que tenemos dos versiones de la misma vida, una escrita por un colega y otra supervisada por el interesado, y no coinciden. Es un caso extraordinario en la historia del arte: el biografiado publicando su propia réplica en vida a través de otro.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vasari respondió en 1568 rehaciendo el capítulo entero, incorporando lo de Condivi sin citarlo, y añadiendo material propio: cartas que se habían escrito, conversaciones, la última visita, los detalles de la muerte. Es la biografía más larga del libro con diferencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí salen las historias que todo el mundo conoce. Que pintó la Capilla Sixtina de pie y con la cabeza hacia atrás durante cuatro años, con la pintura cayéndole en la cara, y que después estuvo un tiempo sin poder leer una carta si no la sostenía en alto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que se peleaba con el papa Julio II como no se peleaba nadie con un papa. Que el bloque de mármol del David llevaba cuarenta años tirado y estropeado por otro escultor, y que él lo aceptó tal como estaba y sacó de ahí una figura de más de cinco metros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que a los ochenta y tantos seguía picando piedra de noche, con una vela atada a un gorro de cartón para no hacer sombra. Y que decía que la escultura consiste en quitar, no en poner: que la figura ya está dentro del bloque y solo hay que retirar lo que sobra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los otros dos nombres de la tercera edad son Leonardo y Rafael, y con los dos Vasari es generoso y algo incómodo. A Leonardo lo describe como un hombre de talento sobrenatural que dejaba casi todo sin terminar, cosa que a él, que entregaba siempre, le desconcertaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esa biografía está una de las páginas más consultadas de la historia del arte: la descripción del retrato de una tal Lisa, mujer del florentino Francesco del Giocondo. De ahí viene el nombre de La Gioconda, y de ahí viene la historia de los músicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque Vasari cuenta que Leonardo hacía tocar y cantar a gente mientras posaba, para que aquella sonrisa no se le apagara. Es una escena preciosa y hay un problema: cuando la escribió, el cuadro llevaba treinta años en Francia y él no lo había visto nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De Rafael dice lo que dice todo el mundo desde entonces: que fue el más grato, el que aprendió de todos, el que se llevaba bien con todos y el que murió joven, a los treinta y siete años, el mismo día de su cumpleaños y en Viernes Santo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le atribuye una muerte por exceso amoroso que los médicos actuales creen que fue más bien una fiebre mal tratada. Es otro caso típico: un detalle novelesco que Vasari suelta sin más, que suena a chismorreo de taller y que ha sobrevivido cinco siglos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene decir algo sobre la fiabilidad general del libro. En los hechos grandes —quién pintó qué, quién enseñó a quién, dónde estaba cada obra— Vasari acierta la mayor parte de las veces, y los archivos le han ido dando la razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En las fechas se equivoca constantemente. Adelanta y retrasa nacimientos, confunde a artistas con nombres parecidos, atribuye obras a quien no las hizo y en algún caso se inventa un personaje entero a partir de una firma que había leído mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en las anécdotas, la regla práctica es no fiarse nunca del todo. No porque mintiera a propósito, sino porque no tenía nuestro concepto de fuente: si algo se contaba en los talleres y encajaba con el personaje, para él eso ya era suficiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Vasari se puso al final del libro, con una autobiografía en la que enumera sus obras sin ninguna modestia. Y una de esas obras es la razón de que hoy discutamos sobre él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está en Florencia, es una sala enorme, y hay algo debajo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El muro de la Sala de los Quinientos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1563, Cosme I encargó a Vasari reformar el gran salón del Palacio Viejo de Florencia, la Sala de los Quinientos. Había que subir el techo siete metros, cambiar la cubierta y cubrir las paredes con escenas de las victorias militares de Florencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En una de aquellas paredes, cincuenta y ocho años antes, Leonardo da Vinci había empezado La batalla de Anghiari, y en la de enfrente iba a pintar Miguel Ángel otra batalla. El encuentro de los dos en la misma sala es una de las citas más célebres que nunca ocurrieron del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Miguel Ángel no llegó a pintar: se hizo el cartón y se marchó a Roma llamado por el papa. Leonardo sí pintó una parte, con una técnica experimental que no secaba, y el resultado se le empezó a derretir literalmente en la pared. Lo dejó a medias.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta que sigue abierta",
+          frase: "Si Vasari, al reformar la sala, destruyó lo que quedaba de Leonardo o construyó un muro nuevo por delante dejándolo detrás. Hay quien sostiene lo segundo, apoyándose en que en su propio fresco pintó una banderita con dos palabras: busca y encontrarás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entre 2011 y 2012 se hicieron sondeos con endoscopio a través del fresco de Vasari y aparecieron rastros de pigmento y una cavidad detrás del muro. La investigación se paró por la presión de quienes consideraban un disparate agujerear una obra para buscar otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay conclusión. Puede que debajo esté Leonardo y puede que no, y la banderita puede ser una casualidad o un guiño. Lo que sí es seguro es que el hombre que escribió la vida de Leonardo pintó encima de un Leonardo, y esa imagen resume el libro entero.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Porque Vasari es a la vez la razón de que sepamos tanto y la razón de que algunas cosas se perdieran o se contaran torcidas. Es el testigo y es parte interesada, y no hay manera de tener lo primero sin cargar con lo segundo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Como arquitecto le debemos algo que sí está a la vista de todos. En 1560 empezó los Uffizi, unas oficinas para los magistrados del ducado, con dos alas larguísimas y una calle en medio abierta al río. Hoy son uno de los museos más visitados del mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en 1565 construyó en cinco meses el pasadizo elevado que une el Palacio Viejo con el palacio Pitti cruzando por encima del Ponte Vecchio, para que el duque pudiera ir de casa al trabajo sin pisar la calle. Se sigue llamando el corredor vasariano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Como pintor fue enormemente productivo y hoy se le considera correcto y poco más. Es una de las ironías del libro: escribió la historia que colocaba a Miguel Ángel en la cima, y con ello dejó una vara con la que su propia obra sale midiendo poco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro, ordenado. Lo primero, ya dicho, es el esquema de progreso. Si el arte culmina en 1550, todo lo que venga después es caída, y esa idea ha lastrado durante siglos la manera de mirar el arte de los dos siglos siguientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo es el nacionalismo toscano. Florencia es el centro, Roma es donde los florentinos triunfan, Venecia es una provincia con buen color, Siena aparece a ratos, y el resto de Europa apenas existe. Escribe la historia del arte como si fuera la historia de su barrio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero es el conflicto de intereses. Vasari trabajaba para los Médici, y la familia que le pagaba sale en el libro como la protectora natural del genio. Los encargos, las cortes y las lealtades de la época se leen siempre desde el lado del que manda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cuarto es el método, o su ausencia. No distingue lo que ha visto de lo que le han contado, no cita de dónde saca las cosas, y cuando le falta un dato improvisa. Un historiador actual no aprobaría ni diez páginas seguidas de este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno: que las anécdotas están documentadas. La mayoría no lo están. Las ovejas de Giotto, su círculo perfecto, el huevo de Brunelleschi y los músicos de la Gioconda no tienen ninguna prueba fuera de estas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que Vasari inventó la palabra Renacimiento. Usó rinascita, renacer, para describir lo que había pasado. El nombre del periodo se fijó en el siglo diecinueve, con Michelet y Burckhardt. Lo que sí inventó es la idea, que es mucho más gordo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que es un libro de consulta aburrido. Es un libro de cotilleos con cuatro mil páginas, y por eso ha sobrevivido. Se puede abrir por cualquier sitio, leer una vida de ocho páginas y cerrarlo, que es exactamente como está pensado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro: que hay que leérselo entero. No hace falta, y probablemente no debe hacerse. Casi todas las ediciones en español son antologías con treinta o cuarenta vidas, y con eso está cubierto lo que un lector normal necesita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cinco: que Vasari era un aficionado escribiendo. Era un profesional del oficio que estaba contando, y eso se nota en cada página: sabe cuánto tarda en secar un fresco, cuánto pesa un bloque de mármol y qué se siente cuando un cliente no paga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su idea de fondo tampoco ha caducado: que las obras las hacen personas concretas, con maestros, deudas, envidias y encargos, y que entender una pintura pasa por saber quién la pintó, para quién y en qué condiciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada vez que alguien cuenta que Van Gogh se cortó la oreja antes de hablar de sus cuadros, está usando el formato que inventó un pintor de Arezzo en una cena de 1546.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vasari murió en 1574, sin saber si debajo de su fresco quedaba algo de Leonardo.",
+        },
+      ],
+    },
+  ],
+};
