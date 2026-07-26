@@ -4851,3 +4851,659 @@ export const CODIGO_OBESIDAD: Resumen = {
     },
   ],
 };
+
+export const DIETA_COJEA: Resumen = {
+  id: "dieta-cojea",
+  titulo: "Mi dieta cojea",
+  autor: "Aitor Sánchez García",
+  ano: 2016,
+  gancho: "En 2015, la pirámide alimentaria oficial española tenía cerveza y vino dentro, y estaba patrocinada, entre otros, por fabricantes de bollería y de bebidas alcohólicas.",
+  porQue:
+    "Porque es el libro que puso nombre en español a las mentiras que hay en cualquier supermercado, y porque su parte más útil —qué comer— es la más corta.",
+  partes: [
+    {
+      titulo: "El nutricionista que no estaba en el ambulatorio",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un centro de salud español, cualquier día. Un paciente con sobrepeso, colesterol alto y prediabetes sale de la consulta del médico de familia con una hoja fotocopiada de recomendaciones dietéticas y una cita para dentro de seis meses. En ese centro no hay ningún dietista-nutricionista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es una excepción: es la norma. España tiene una de las peores proporciones de dietistas-nutricionistas por habitante de Europa occidental, y la inmensa mayoría de ellos trabaja en consultas privadas, en la industria o en clínicas de estética, no en la sanidad pública.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La contradicción de partida",
+          frase: "Es un país donde la obesidad y la diabetes tipo dos crecen año tras año, donde la dieta es responsable de una parte enorme de la carga de enfermedad, y donde el profesional formado específicamente para eso está fuera del sistema que atiende a la población.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor de este libro es Aitor Sánchez García, nacido en Granada en 1988, dietista-nutricionista y tecnólogo de alimentos, que abrió un blog en 2012 con el nombre que después dio título al libro y que se convirtió en uno de los más leídos del sector en español.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 2016 y fue un éxito inmediato, con reediciones continuas y una secuela dos años después. Su formato es sencillo: coge creencias muy extendidas sobre alimentación, las desmonta una por una y explica de dónde salieron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su reivindicación profesional recorre el libro entero y conviene entenderla porque explica el tono. En España, dietista-nutricionista es un título universitario regulado, con una carrera de cuatro años, y la palabra nutricionista a secas no está protegida.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso significa que cualquiera puede llamarse coach nutricional, asesor en nutrición o experto en alimentación después de un curso de fin de semana, y montar una consulta. Y que quien busca ayuda no tiene manera fácil de distinguir a uno de otro.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La consecuencia práctica la ve cualquiera que haya intentado perder peso en España: se acaba en manos de un centro de dietas de franquicia, de un herbolario, de un entrenador personal con opiniones o de un plan descargado de internet.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segundo objetivo es la propia profesión. Dedica páginas duras a los dietistas que ponen su título al servicio de una marca, que aparecen en anuncios de galletas o que avalan productos con perfiles nutricionales malos a cambio de dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a las sociedades científicas que aceptan patrocinios de las empresas cuyos productos deberían estar evaluando, que es donde el libro conecta con su capítulo más citado y el que le dio notoriedad fuera del sector.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema de fondo que plantea",
+          frase: "Que la información nutricional que llega a la gente no viene de la sanidad pública ni de la universidad, sino de la publicidad, de los envases y de los programas de televisión. Y que quien paga esa información es quien vende el producto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese planteamiento no es original suyo ni es exclusivo de España, y en el caso español tiene un ejemplo tan claro que resulta casi cómico, y ocupa el capítulo siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes conviene decir qué tipo de libro es este, para que nadie lo compre esperando otra cosa: no es un plan de alimentación, no trae menús semanales y no dice cuántas calorías comer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un libro de desmontar creencias, escrito en un tono directo y con bastante mala uva, dirigido a alguien que hace la compra semanal en un supermercado español y que lleva años oyendo cosas contradictorias.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su virtud principal es que trabaja con productos reales y con marcas reconocibles, no con nutrientes abstractos. Habla de los cereales del desayuno, del pan de molde, del zumo del brik y de las galletas que anuncian que llevan fibra.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso lo hace mucho más útil que la mayoría de los libros de nutrición traducidos, porque los productos que analiza son los que están en la estantería a la que uno va a ir esta semana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un motivo por el que un libro así hacía falta en español y no bastaba con traducir uno americano: los productos, las marcas, la normativa de etiquetado y las guías oficiales son distintas, y buena parte de los mitos de aquí no existen allí ni al revés.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo más claro es el desayuno español, con su cacao soluble, sus galletas de desayuno y su zumo de brik, que es una construcción publicitaria de los años setenta y ochenta que no tiene equivalente exacto en otros países.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el aceite de oliva, que aquí funciona como comodín moral: cualquier producto con aceite de oliva en la etiqueta pasa a considerarse saludable, aunque sea una bollería industrial con la misma cantidad de azúcar que cualquier otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El blog del que salió el libro llevaba cuatro años analizando ese tipo de productos uno a uno, con fotos de las etiquetas, y esa costumbre se nota en el texto: casi todas las afirmaciones vienen con un ejemplo comprobable en un supermercado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y empieza por el documento que durante años se ha colgado en los colegios y en los centros de salud españoles como resumen oficial de cómo hay que comer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una pirámide.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la bollería, los embutidos y las bebidas azucaradas dibujados dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con una recomendación de consumo moderado de vino y cerveza para adultos sanos.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La pirámide con cerveza dentro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2015, la Sociedad Española de Nutrición Comunitaria publicó una versión actualizada de la pirámide de la alimentación saludable. Es el documento que se reprodujo en colegios, ambulatorios y libros de texto como referencia de cómo debía comer un español.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la cúspide, en la zona de consumo opcional y ocasional, aparecían la bollería, los dulces, los snacks salados y las bebidas azucaradas. Incluirlos ahí, aunque sea arriba, significa que forman parte del esquema de alimentación saludable.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que provocó la polémica",
+          frase: "Junto a la pirámide aparecía una recomendación de consumo moderado y opcional de bebidas fermentadas, es decir, cerveza y vino, para adultos sanos. Y en los materiales figuraban patrocinadores del sector de la bollería, de los refrescos y de las bebidas alcohólicas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reacción de una parte importante de la profesión fue inmediata y muy crítica, y el libro recoge ese debate. No era una acusación de mala fe individual: era la constatación de que un documento de salud pública lo estaba financiando quien vendía lo que recomendaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el alcohol, la posición del libro es la que hoy sostienen los organismos internacionales: no existe un nivel de consumo de alcohol seguro para la salud, y los supuestos beneficios cardiovasculares del consumo moderado se apoyan en estudios observacionales con problemas de método conocidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema principal de esos estudios es el grupo de comparación: entre los que no beben nada hay muchos exbebedores y personas que han dejado de beber por enfermedad, lo que hace que el grupo abstemio parezca más enfermo de lo que sería.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Cuando se corrige eso, la curva de beneficio se aplana o desaparece. La Organización Mundial de la Salud ha declarado desde entonces que ninguna cantidad de alcohol es segura, y que el alcohol es un carcinógeno de grupo uno desde 1988.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo blanco del capítulo es la etiqueta de dieta mediterránea, que en España funciona como sello de calidad y que se usa para vender prácticamente cualquier cosa producida en la península.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento es sencillo y comprobable con los datos de consumo: la dieta que come hoy la población española no es la dieta mediterránea. El consumo de legumbres ha caído, el de verduras está por debajo de las recomendaciones y el de carne y ultraprocesados es alto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "España tiene además una de las tasas de obesidad infantil más altas de Europa, lo cual encaja mal con la idea de que aquí se come como en los años cincuenta. La dieta mediterránea real es una cosa y la etiqueta comercial es otra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo se usa esa etiqueta",
+          frase: "Para vender productos que no tienen nada que ver con ella: bollería industrial con aceite de oliva en la lista de ingredientes, embutidos, galletas con imágenes de campos y refrescos con la palabra tradicional en la etiqueta. El sello no lo otorga nadie y no significa nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí hay detrás del concepto original es un patrón alimentario documentado en estudios como el PREDIMED, con aceite de oliva virgen extra, frutos secos, legumbres, verdura, pescado y muy poca carne procesada y azúcar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese patrón tiene evidencia razonable de beneficio cardiovascular, y no se parece al carro de la compra medio de un supermercado español actual, que es exactamente el punto que el libro quiere dejar claro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El tercer objetivo del capítulo son las guías alimentarias en general, y aquí hace una observación que se aplica a casi todos los países: se elaboran con participación de la industria, se negocian, y el resultado es un documento de consenso, no un documento científico.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que da es el de los grupos de alimentos. Que exista un grupo llamado lácteos con recomendación de tres raciones diarias no sale de un hallazgo científico: sale de una manera de organizar la comida que tiene décadas y detrás de la cual hay un sector económico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su alternativa preferida es el plato saludable de Harvard, que en lugar de grupos y raciones divide el plato en proporciones: la mitad verdura y fruta, un cuarto cereales integrales y un cuarto proteína, con agua como bebida y aceite de oliva como grasa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es más fácil de aplicar porque describe un plato real y no un número de raciones diarias que nadie cuenta, y porque no incluye ninguna categoría que exista por razones comerciales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese plato tiene además una ventaja de comunicación que las pirámides nunca tuvieron: se puede comprobar mirando lo que uno tiene delante en la mesa. Nadie sabe si ha cumplido sus raciones diarias de nada, y cualquiera ve si medio plato es verdura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro señala también un problema de forma que parece menor y no lo es: en una pirámide, la base es lo que más se come, y durante décadas la base española estuvo ocupada por cereales, con el pan, la pasta y el arroz refinados como cimiento de la dieta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa colocación no salía de la evidencia, salía de una tradición de guías que arranca en Estados Unidos en los años setenta y que se copió con adaptaciones locales en media Europa. En las versiones actuales, la verdura ha subido y los cereales refinados han bajado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle que el libro remarca sobre las polémicas de este tipo: la respuesta habitual de las sociedades científicas patrocinadas es que el patrocinio no condiciona el contenido. Puede ser cierto en cada caso concreto y sigue siendo un problema estructural evidente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con las guías desmontadas, el libro baja al supermercado y empieza por la comida sobre la que más se ha mentido en España en los últimos cuarenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La que todo el mundo ha oído que es la más importante del día.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El desayuno completo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El desayuno completo del anuncio consiste en un vaso de leche con cacao azucarado, un vaso de zumo de naranja envasado, unas galletas o cereales de colores, y a veces una tostada con mermelada. Es la imagen mental que tiene media España de un desayuno sano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro lo analiza con las etiquetas delante y el resultado es demoledor: entre el cacao soluble, el zumo, los cereales y la mermelada, un niño puede superar antes de salir de casa la recomendación de azúcares libres de la Organización Mundial de la Salud para todo el día.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El dato del cacao soluble",
+          frase: "Los preparados solubles de cacao más vendidos en España rondan el setenta por ciento de azúcar. El primer ingrediente de la lista es azúcar, no cacao. Se está echando en la leche de un niño un producto que es mayoritariamente azúcar con sabor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con los cereales de desayuno infantiles pasa algo parecido: muchos rondan o superan el veinticinco por ciento de azúcar, y se anuncian con reclamos de vitaminas, hierro y fibra, que son ciertos y que no compensan el perfil general del producto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mecanismo tiene nombre y aparece en todo el libro: se destaca un nutriente positivo en el envase para desviar la atención del conjunto. Un producto puede llevar fibra añadida, calcio y ocho vitaminas y seguir siendo una galleta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre la idea de que hay que desayunar sí o sí, la posición del libro es la que sostiene hoy la mayoría de la evidencia: la afirmación de que el desayuno es la comida más importante del día no tiene un respaldo sólido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Viene de estudios observacionales en los que la gente que desayuna pesa menos, sin controlar que quien desayuna suele tener también otros hábitos distintos. Y buena parte de esa investigación la financió la industria de los cereales, que tenía un interés evidente.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión práctica es sensata: desayunar no es obligatorio, y si se desayuna, que sea comida. Fruta entera, huevo, pan integral con tomate y aceite, frutos secos, yogur natural. La comparación no es entre desayunar o no, sino entre desayunar comida o desayunar producto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siguiente asunto es el zumo, y es probablemente el mito más resistente de todos porque parece contraintuitivo: mucha gente sigue creyendo que un vaso de zumo equivale a comerse las naranjas exprimidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No equivale, y la razón no es que se pierdan vitaminas, que es lo que se suele decir. La razón es la matriz del alimento: la fruta entera lleva su azúcar atrapado en una estructura de fibra que hace que se absorba despacio y que llene.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que cambia al exprimir",
+          frase: "Se rompe esa estructura y el azúcar queda libre en un líquido que se bebe en veinte segundos. La Organización Mundial de la Salud cuenta el azúcar del zumo, incluso del natural y sin añadir nada, dentro de los azúcares libres que recomienda limitar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso se suma la cantidad. Nadie se come cuatro naranjas seguidas y cualquiera se bebe un vaso de zumo de cuatro naranjas sin esfuerzo, porque el líquido no sacia igual y porque se ha eliminado el trabajo de masticar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los zumos envasados sin azúcares añadidos añaden un problema de etiquetado: la frase es cierta, no se ha añadido azúcar, y el producto tiene alrededor de diez gramos de azúcar por cada cien mililitros, que es una cantidad parecida a la de un refresco.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el patrón de las declaraciones nutricionales que el libro recorre una por una: sin azúcares añadidos, cero por ciento, bajo en grasa, con fibra, natural, artesano, casero. Casi todas son literalmente ciertas y casi todas están puestas para que se entienda otra cosa.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso del cero por ciento es el más claro. Un yogur desnatado con azúcar puede llevar el cero por ciento en grande en la tapa, porque se refiere solo a la grasa, y llevar tres terrones de azúcar dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el de los productos light: la ley permite usar esa palabra cuando el producto tiene un treinta por ciento menos de un nutriente que su versión original. Unas patatas fritas light siguen siendo patatas fritas, y una mayonesa light sigue siendo mayonesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La recomendación que da para todo esto es la única que funciona en un supermercado y cabe en una frase: leer la lista de ingredientes en lugar de la parte delantera del envase, y desconfiar de todo lo que necesite un reclamo para venderse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los alimentos que no necesitan reclamos son los que no llevan lista de ingredientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una manzana no dice en ningún sitio que sea rica en fibra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una regla práctica que se desprende de todo el capítulo y que funciona bastante bien: cuanto más grande es el reclamo de salud en la parte delantera del envase, peor suele ser el producto que hay dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El motivo es de negocio, no de conspiración: los reclamos cuestan dinero en diseño, en asesoría legal y en publicidad, y solo compensa ponerlos en productos con márgenes altos, que son precisamente los ultraprocesados y no las lentejas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro da además una regla de lectura de ingredientes que ahorra tiempo: están ordenados por cantidad, de mayor a menor. Si el azúcar aparece entre los tres primeros, el producto es mayoritariamente azúcar con otras cosas, por muchas vitaminas que anuncie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y un aviso sobre los nombres: el azúcar aparece en las etiquetas con decenas de denominaciones distintas —jarabe de glucosa, dextrosa, melaza, concentrado de zumo, jarabe de arroz—, lo que permite repartirlo y que ninguna quede en los primeros puestos de la lista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siguiente capítulo se ocupa del susto alimentario más grande que ha tenido España en la última década.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Grupo uno no significa lo que crees",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En octubre de 2015, la Agencia Internacional para la Investigación del Cáncer, que depende de la Organización Mundial de la Salud, publicó una evaluación sobre el consumo de carne roja y de carne procesada. La noticia dio la vuelta al mundo en horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los titulares decían que la Organización Mundial de la Salud había equiparado el jamón al tabaco. En España, con el peso que tiene el sector cárnico y con lo que significa el embutido en la dieta, el revuelo fue considerable.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dijo el informe",
+          frase: "Que la carne procesada pasa al grupo uno, carcinógeno para humanos, y la carne roja al grupo dos A, probablemente carcinógeno. Y esa clasificación mide la solidez de la evidencia de que algo causa cáncer, no cuánto cáncer causa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción es la clave de todo el capítulo y casi ningún medio la explicó. El grupo uno significa que hay evidencia suficiente para afirmar que existe una relación causal. No dice nada sobre la magnitud del riesgo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el grupo uno están el tabaco, el amianto, la radiación solar, el alcohol y la carne procesada, y sus riesgos son de órdenes de magnitud completamente distintos. Están juntos porque de todos ellos se sabe con certeza que causan cáncer, no porque den el mismo cáncer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras concretas ayudan. El informe estimaba que cincuenta gramos diarios de carne procesada se asocian con un aumento de alrededor del dieciocho por ciento del riesgo relativo de cáncer colorrectal, que en términos absolutos es un aumento modesto sobre un riesgo de base bajo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Fumar multiplica el riesgo de cáncer de pulmón por veinte o más. Poner las dos cosas en la misma frase, como hicieron muchos titulares, es un error de interpretación de la escala que confundió a mucha gente y que benefició a quien quería restar importancia al informe.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión razonable del libro es la que recogen las recomendaciones actuales: la carne procesada conviene reducirla a un consumo ocasional, la carne roja fresca puede formar parte de una dieta razonable en cantidades moderadas, y ninguna de las dos es imprescindible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siguiente asunto que aborda es el gluten, donde hay tres situaciones distintas que se mezclan constantemente y que conviene separar porque tienen implicaciones muy diferentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera es la celiaquía, una enfermedad autoinmune real que afecta a alrededor del uno por ciento de la población, que se diagnostica con serología y biopsia, y cuyo único tratamiento es eliminar el gluten de por vida sin excepciones.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La segunda y la tercera",
+          frase: "La sensibilidad al gluten no celíaca, que existe como cuadro clínico y cuyo mecanismo se discute, y la moda de comer sin gluten sin ningún motivo médico, que no aporta nada y que en la práctica empeora la dieta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El motivo por el que la empeora es concreto: los productos sin gluten industriales suelen llevar más azúcar, más grasa y más aditivos para compensar la textura que da el gluten, y cuestan bastante más caros. Cambiar galletas por galletas sin gluten no mejora nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un efecto secundario social que el libro señala bien: la banalización de la celiaquía. Cuando comer sin gluten se percibe como una preferencia, los restaurantes se relajan con la contaminación cruzada, y para un celíaco eso no es una molestia sino un problema médico.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Con los suplementos su posición es la mayoritaria en la profesión: con una alimentación adecuada, la inmensa mayoría de la población no necesita suplementarse nada, y el mercado de complementos vive en buena parte de vender soluciones a problemas que no existen.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las excepciones que sí reconoce son concretas y están bien establecidas: la vitamina B12 en dietas veganas, que es obligatoria y no negociable; el ácido fólico en el embarazo; la vitamina D en determinadas situaciones; y el hierro cuando hay déficit diagnosticado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre las dietas detox y alcalinas es tajante y tiene razón: el cuerpo tiene hígado y riñones, que es exactamente el sistema de depuración, y el pH de la sangre está regulado en un margen estrechísimo que ninguna comida modifica. Si lo modificara, sería una urgencia médica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sobre los superalimentos, su observación es de mercado: la palabra no tiene definición legal ni científica, y se aplica a productos exóticos y caros con perfiles nutricionales que en muchos casos no superan a los de una legumbre o una verdura de temporada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su comparación favorita es entre las bayas de goji y una naranja, o entre la quinoa y las lentejas. En los dos casos, el producto caro y exótico no aporta nada que el barato y local no tenga, y en algunos parámetros sale perdiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade el argumento que menos se oye: la lógica del superalimento distrae del problema real. Nadie mejora su alimentación añadiendo una cucharada de semillas caras a una dieta mala; se mejora cambiando lo que se come todos los días, que es aburrido y no se puede vender en un bote.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre los productos con probióticos y con esteroles vegetales que se anuncian para el colesterol y las defensas, su posición es que los efectos existen, son pequeños, están medidos en condiciones concretas y no justifican ni el precio ni el papel central que se les da.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cierra ese bloque con una observación que vale para todo el libro: casi ningún producto que se venda con una promesa de salud concreta tiene un efecto comparable al de cambiar el conjunto de la dieta, que es lo que nadie financia con campañas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de cuatro capítulos desmontando cosas, queda la pregunta que cualquier lector se está haciendo desde la página veinte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vale, ¿y entonces qué como?",
+        },
+      ],
+    },
+
+    {
+      titulo: "Vale, ¿y entonces qué como?",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La respuesta del libro es corta y sin trucos, y ocupa muchas menos páginas que la parte de desmontar. La base son verduras y hortalizas en cantidad, fruta entera, legumbres varias veces por semana, frutos secos sin freír ni salar, y cereales integrales de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añade aceite de oliva virgen extra como grasa principal, huevos sin el miedo al colesterol que se instaló en los años ochenta y que la evidencia posterior no ha sostenido, pescado, y carne fresca en cantidades moderadas si se quiere.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y la parte de quitar",
+          frase: "Bebidas azucaradas y zumos, bollería, galletas, cereales de desayuno azucarados, embutidos y carnes procesadas, precocinados, snacks salados y alcohol. Su regla resumida es que el noventa por ciento de la compra debería ser comida que no necesita etiqueta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el integral hace una advertencia útil en un supermercado español: un pan que se llama integral puede estar hecho con harina refinada a la que se ha añadido salvado. La ley española se endureció en 2019, después de este libro, y conviene mirar los ingredientes igualmente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comprobación práctica es leer el primer ingrediente: si pone harina integral de trigo, es integral; si pone harina de trigo y más abajo salvado, no lo es. Lo mismo con la pasta, con el arroz y con las galletas que se anuncian como integrales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre los lácteos su posición es intermedia y probablemente la correcta a día de hoy: no son imprescindibles, porque el calcio se obtiene de otras fuentes, y tampoco son el veneno que dicen algunos. Un yogur natural o un queso son alimentos perfectamente razonables.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que sí desmonta es la recomendación de tres raciones diarias que aparecía en las guías, que no sale de ninguna evidencia sobre necesidades de calcio sino de una manera de organizar los grupos de alimentos con décadas de historia y con un sector detrás.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro. Lo primero es de proporción: es un libro de desmontar, y la parte constructiva —qué comer, cómo organizar una compra, cómo cocinar sin tiempo— ocupa una fracción pequeña al final y se queda corta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo es de fecha. Se publicó en 2016 y desde entonces han cambiado cosas: la normativa del pan integral, la llegada del Nutri-Score a España, y la propia pirámide de la SENC, que se revisó después de la polémica que este libro contribuyó a levantar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo tercero, y es lo que más se le critica",
+          frase: "El concepto de ultraprocesado, que el libro usa constantemente, tiene bordes difusos. La clasificación que lo define mete en la misma categoría un refresco, un pan de molde integral y una conserva de legumbres, y no todos merecen el mismo trato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una herramienta útil como orientación general y mala como criterio absoluto, porque hay productos procesados que son perfectamente razonables —legumbres en bote, verdura congelada, conservas de pescado— y que en un discurso simplificado acaban siendo sospechosos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cuarto es de tono. El libro es combativo y a veces tan categórico como aquello que critica, y hay pasajes en los que la contundencia va por delante del matiz. Es eficaz para el lector y no siempre es justo con lo discutible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo quinto es lo que casi no aparece: el dinero y el tiempo. Comer así exige comprar fresco, cocinar y tener una cocina y horarios que lo permitan. El libro apela sobre todo a la información y la información no es lo que falta en muchas casas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese punto es importante en un país donde el precio de la verdura fresca ha subido y donde mucha gente encadena turnos. Decirle a alguien que cocine legumbres tres veces por semana es un consejo excelente y no es gratis.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, que en este libro es prácticamente todo el contenido, se puede resumir en seis puntos que conviene tener a mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un zumo natural no equivale a la fruta: al exprimir se rompe la fibra que retenía el azúcar, y la Organización Mundial de la Salud lo cuenta como azúcar libre igual que el de un refresco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El desayuno no es obligatorio ni es la comida más importante del día, y la investigación que lo sostenía la financió en buena parte quien vendía los cereales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sin azúcares añadidos no significa sin azúcar, y cero por ciento suele referirse solo a la grasa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que la carne procesada esté en el grupo uno no la equipara al tabaco: esa clasificación mide cuánta certeza hay de que algo cause cáncer, no cuánto cáncer causa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Comer sin gluten sin ser celíaco no aporta nada, sale más caro y suele empeorar la dieta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y las dietas detox no existen: para eso están el hígado y los riñones, que trabajan gratis y sin batidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance justo: un libro desigual, más fuerte destruyendo que construyendo, muy pegado al supermercado español y escrito con más contundencia de la que a veces admite la evidencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y probablemente el más útil que se ha publicado en español para alguien que hace la compra sin saber en quién confiar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien quiera seguir por ahí tiene camino: el propio autor publicó dos años después una continuación centrada en qué comer y cómo organizarse, que es justamente la parte que aquí se queda corta, con menús, listas de compra y recetas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay en español una generación entera de dietistas divulgando en la misma línea, con libros sobre alimentación infantil, sobre etiquetado y sobre cocina, que es probablemente el efecto más importante que ha tenido este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cambio de fondo que reclamaba —que haya dietistas-nutricionistas en la sanidad pública española— sigue sin producirse casi diez años después, con algunas experiencias autonómicas sueltas y ninguna incorporación general a la atención primaria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras eso no ocurra, la información nutricional que le llega a la mayoría de la gente seguirá viniendo de los envases, y este libro seguirá haciendo falta.",
+        },
+      ],
+    },
+  ],
+};
