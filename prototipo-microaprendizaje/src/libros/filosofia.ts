@@ -125,109 +125,640 @@ export const IKIGAI: Resumen = {
   titulo: "Ikigai",
   autor: "Héctor García y Francesc Miralles",
   ano: 2016,
-  gancho: "En Okinawa no existe la palabra jubilación. Y hay más centenarios por habitante que en ningún otro sitio.",
+  gancho:
+    "Dos españoles se fueron a una aldea del norte de Okinawa a preguntarles a cien ancianos por qué se levantaban por la mañana. Ninguno contestó nada parecido al diagrama de cuatro círculos que hoy lleva el nombre del libro.",
   porQue:
-    "Dos españoles fueron a la aldea más longeva del mundo a preguntar por qué. Lo que trajeron es más práctico y menos místico de lo que sugiere la portada.",
+    "Porque lo que trajeron de allí es mucho más pequeño, más práctico y más creíble que la portada; y porque casi todo lo que se repite sobre el ikigai —el diagrama, la palabra, los datos de longevidad— hay que corregirlo uno por uno.",
   partes: [
     {
-      titulo: "Ogimi",
+      titulo: "Una aldea del norte de Okinawa",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Ogimi es una aldea del norte de Okinawa con unos tres mil habitantes y la mayor concentración de centenarios del planeta. Los autores pasaron allí una temporada entrevistando a más de cien vecinos de entre noventa y cien años. Casi ninguno se consideraba viejo, y ninguno estaba jubilado — en japonés no existe una palabra que signifique exactamente eso.",
+            "Ogimi es un pueblo de unos tres mil habitantes en el norte de Okinawa, con una piedra a la entrada que anuncia que allí se vive más que en ningún sitio. Los autores pasaron allí una temporada entrevistando a más de cien vecinos de entre noventa y cien años, con un traductor y una cámara.",
         },
         {
-          forma: "clave",
-          rotulo: "La palabra",
-          frase: "Ikigai: la razón por la que te levantas de la cama. Todos los entrevistados sabían decir la suya.",
+          forma: "texto",
+          texto:
+            "La piedra de la entrada merece leerse entera porque es un poema. Dice, más o menos, que a los ochenta uno todavía es un niño, que si a los noventa vienen a buscarte del otro mundo les mandes esperar a los cien, y que allí las mujeres son fuertes desde antiguo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta que llevaban era una sola y muy sencilla: por qué se levanta usted por la mañana. Y las respuestas, que son lo mejor del libro, no se parecen a nada de lo que se vende hoy con esta palabra en la portada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es además el mérito periodístico del libro y conviene reconocerlo: fueron, preguntaron y transcribieron. La mitad de lo que se publica sobre longevidad se escribe desde un despacho con estudios de segunda mano, y aquí hay gente con nombre contando lo que hace un martes por la tarde.",
         },
         {
           forma: "arte",
           texto:
-            "Y las razones eran de una modestia total: cuidar el huerto, ver a los amigos del club a las cinco, hacer las labores de la casa, enseñar a los nietos. Ninguno hablaba de propósito trascendente. El ikigai que encontraron no es una gran misión: es algo pequeño y concreto que hay que hacer hoy.",
+            "Cuidar el huerto. Ver a las amigas del club a las cinco. Que los bisnietos vengan el domingo. Enseñar a alguien a hacer algo. Ir a la fiesta del pueblo. Ninguno habló de propósito, de misión ni de vocación; todos hablaron de algo pequeño que había que hacer ese día o al siguiente.",
           arte: "explorar",
         },
-      ],
-    },
-    {
-      titulo: "Lo que hacen distinto",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "Comen hasta el <em>hara hachi bu</em>: el ochenta por ciento de saciedad. Se levantan de la mesa con un poco de hambre. Comen sobre todo verdura, tofu, boniato morado y pescado, en muchos platos pequeños, y casi nada de azúcar. La restricción calórica moderada es de las poquísimas intervenciones con evidencia sólida en longevidad.",
+            "Hay una respuesta que los autores repiten y que resume el tono de todas: una mujer de casi cien años les contó que su ikigai era reunirse a cantar y a bailar con sus amigas, y que llevaban haciéndolo desde niñas. La frase no cabe en ningún diagrama y explica media longevidad del pueblo.",
         },
         {
           forma: "texto",
           texto:
-            "Se mueven todo el día sin pisar un gimnasio: huerto, andar, sentarse en el suelo y levantarse decenas de veces. Y pertenecen a un <em>moai</em>, un grupo de vecinos que se apoyan económicamente y se ven siempre. La soledad, que hoy sabemos que es un factor de riesgo comparable al tabaco, ahí está estructuralmente resuelta.",
+            "Otra cosa que les llamó la atención y que no se cita nunca: casi ninguno se consideraba viejo. Hablaban de los mayores del pueblo refiriéndose a otros, y con noventa y tantos años seguían teniendo tareas asignadas dentro de la comunidad que nadie les había retirado por edad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso tiene detrás algo estudiado: la manera en que uno se ve a sí mismo de mayor predice bastante bien cómo envejece, y las culturas donde la vejez no descalifica producen mayores más activos. Otra vez, la observación de campo es mejor que el marco filosófico que la envuelve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro detalle que se les quedó grabado: en Ogimi celebran los cumpleaños por grupos, todos los del mismo mes juntos y con fiesta del pueblo. A los noventa y siete años uno sigue teniendo una fecha en la que la aldea entera se acuerda de que existe.",
         },
         {
           forma: "clave",
-          rotulo: "El resumen práctico",
-          frase: "Come un poco menos, muévete sin parar, ten gente que te espera y algo que hacer mañana.",
+          rotulo: "Lo que encontraron",
+          frase: "El ikigai de aquella gente no era una gran razón para vivir, sino un motivo concreto para levantarse mañana. Y todos sabían decir el suyo sin pensarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena quedarse con esa última parte, porque es la más útil y la que menos se repite: contestaban rápido. No había que pensarlo, ni buscarlo, ni ponerse a hacer ejercicios de introspección. Quien tiene un motivo lo sabe; quien tiene que averiguarlo probablemente lo que tiene es otro problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una diferencia de fondo con nuestro modo de hacernos esa pregunta. Aquí se pregunta por la vida entera —para qué estoy en el mundo— y allí por mañana por la mañana. La primera pregunta no tiene respuesta comprobable; la segunda la contesta cualquiera con un huerto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene saber quién escribe, porque cambia cómo se lee. Héctor García es un ingeniero español que lleva más de veinte años viviendo en Japón, y Francesc Miralles es un escritor y periodista de Barcelona. No son antropólogos ni japoneses: son dos divulgadores con buen oído.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso tiene una consecuencia buena y otra mala. La buena es que el libro está escrito para alguien de aquí y se entiende sin notas al pie. La mala es que lo que cuenta de Japón está filtrado por lo que un extranjero encuentra llamativo, que casi nunca es lo que un japonés considera importante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un japonés que abriera este libro se encontraría con una palabra suya de todos los días elevada a filosofía nacional, igual que si en Tokio publicaran un ensayo sobre la sobremesa española como llave secreta de la felicidad. No sería falso del todo, y sonaría raro de principio a fin.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De hecho ocurrió algo parecido: cuando el fenómeno volvió a Japón, varios autores japoneses tuvieron que salir a explicar en su propio país qué se estaba diciendo fuera con esa palabra, y a aclarar que el diagrama de los círculos no lo habían visto en su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 2016, ha vendido millones de ejemplares en más de sesenta idiomas y convirtió una palabra japonesa corriente en una categoría de estantería. Casi todo lo que hoy se dice sobre el ikigai en el mundo viene, directa o indirectamente, de aquí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tuvo un efecto secundario curioso: detrás vino un estante entero de palabras japonesas convertidas en método —wabi-sabi, kaizen, shinrin-yoku, kintsugi—, casi siempre escritas por autores occidentales y casi siempre con la misma operación de fondo, que es prometer que otra cultura ya resolvió tu problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su estructura es la de una mesa revuelta: entrevistas en Ogimi, un capítulo de logoterapia, otro de flujo, otro de dieta, otro de ejercicios de respiración y otro de antifragilidad. Cada pieza viene de un sitio distinto y el hilo que las une es más de tono que de argumento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso explica que se lea en dos tardes y que se olvide casi entero salvo el reportaje. Los capítulos prestados resumen en diez páginas libros que están completos en esta misma biblioteca, y el resumen de un resumen siempre pierde justo lo que hacía útil al original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir además qué no es: no es un libro sobre Japón, ni sobre budismo, ni un método. Es un reportaje corto sobre un pueblo, rodeado de divulgación de segunda mano. Quien vaya buscando una guía para encontrar su propósito va a salir con las manos vacías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cien ancianos y una sola pregunta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna respuesta hablaba de trabajo ni de propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todas hablaban de esta tarde o de mañana por la mañana.",
         },
       ],
     },
     {
-      titulo: "Fluir, y no parar nunca",
+      titulo: "La palabra no significa eso",
       tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Ikigai se escribe con dos piezas: iki, que es vivir, y gai, que es valor o mérito. Junta las dos y sale algo así como aquello que hace que valga la pena vivir. Es una palabra corriente, de uso diario, que un japonés puede decir en una conversación sobre el desayuno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra es vieja de verdad: aparece ya en textos del periodo Heian, hace unos mil años, y no como concepto filosófico sino como una manera normal de decir que algo le da valor a la vida de alguien. Lo nuevo no es el término, es el uso que se le ha dado fuera de Japón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El equivalente más cercano en castellano no es propósito, ni misión, ni pasión: es algo así como tener ilusión por algo. Nadie diría que su ilusión tiene que darle dinero, ni que hay que buscarla en un retiro, ni que solo se puede tener una. Con esa traducción, medio malentendido se cae solo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El malentendido de origen",
+          frase: "En japonés, el ikigai suele ser algo pequeño y cotidiano: el café de la mañana, los nietos, el bonsái. No es una vocación, no tiene que dar dinero y no hay que buscarlo durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una prueba doméstica de que esto es así: en japonés se dice con toda naturalidad que tal cosa es el ikigai de alguien, hablando de terceros y sin solemnidad ninguna. Es el registro de decir que a su padre lo que le da la vida es el huerto, no el de anunciar una vocación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una palabra hermana que ayuda a colocarlo: existe también hatarakigai, que es el valor que se le encuentra al trabajo. Que el idioma tenga un término aparte para eso demuestra que el ikigai general no iba de trabajo, porque si no, sobraría el segundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El error de traducción, entonces, no está en el diccionario sino en el marco: se cogió una palabra que describe lo que ya le da valor a tu vida y se convirtió en una que describe lo que deberías buscar para dárselo. Del indicativo al imperativo, y ahí empieza el negocio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una encuesta japonesa de 2010 que lo deja claro y que casi nunca se cita: preguntados por su ikigai, solo alrededor de un tercio de los encuestados señalaron el trabajo. Los demás nombraron la familia, las aficiones, los amigos o la salud, es decir, todo lo que el diagrama occidental deja fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato es demoledor para la versión de empresa de esta palabra. Si dos de cada tres japoneses no ponen el trabajo en el centro, entonces un diagrama que exige que te paguen por tu ikigai está describiendo a una minoría del país del que dice haberlo tomado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una ironía añadida al elegir Japón como ejemplo de vida con propósito en el trabajo: es el país que tuvo que inventar una palabra, karoshi, para la muerte por exceso de trabajo, y que lleva décadas con un problema serio de horas y de agotamiento en las oficinas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El neurocientífico Ken Mogi, que escribió sobre esto en 2017, insiste en lo mismo desde dentro: describe el ikigai de una mujer que se levanta a las cuatro de la mañana feliz porque va a preparar el mejor pescado del mercado, y el de un señor que colecciona vagones de tren en miniatura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su lista de condiciones tampoco se parece al diagrama: empezar pequeño, soltarse a uno mismo, buscar la armonía y la sostenibilidad, disfrutar de las cosas menudas y estar en el aquí y el ahora. Ninguna de las cinco menciona el dinero, el talento ni lo que el mundo necesita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un psicólogo japonés que lleva años estudiando el término, Akihiro Hasegawa, lo sitúa en el mismo registro: es una palabra de la vida diaria, no un concepto filosófico, y su rasgo principal es que se puede tener varios a la vez y que cambian con la edad sin ningún drama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso último es la diferencia práctica más grande con la versión de aquí. Aquí se busca el ikigai, en singular y para siempre, como quien busca su alma gemela; allí se tienen tres o cuatro a la vez, se pierden y se cambian, y a nadie le parece que eso sea un fracaso vital.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay incluso un matiz que se pierde entero en la traducción: en japonés se distingue entre lo que da sentido a la vida y lo que la hace agradable, y el ikigai vive más cerca de lo segundo que de lo primero. Traducirlo por propósito ya es tomar partido en una discusión.",
+        },
         {
           forma: "arte",
           texto:
-            "La parte central del libro no va de dieta sino de atención, y se apoya en Mihály Csíkszentmihályi, el psicólogo que estudió el estado de <em>flujo</em>: esos ratos en que estás tan metido en algo que desaparecen el reloj, el hambre y tú mismo. Lo encontró igual en cirujanos, escaladores, pintores y obreros de cadena de montaje. No depende de la tarea, depende de cómo la haces.",
+            "Y hay que corregir otra frase que este libro repite y que ha dado la vuelta al mundo: que en japonés no existe la palabra jubilación. Existe, se dice teinen, significa la edad a la que uno deja el empleo y está en cualquier diccionario y en cualquier nómina japonesa.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí es verdad, y es distinto, es que en Ogimi casi nadie deja de hacer cosas cuando deja el empleo. Se sigue yendo al huerto a los noventa y siete, media hora, sin que eso se llame trabajo ni jubilación. La observación es buena; la afirmación sobre el idioma es falsa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un dato que apoya la observación mucho mejor que el mito lingüístico: Japón tiene una de las tasas de empleo más altas del mundo entre mayores de sesenta y cinco años, y en el campo el porcentaje de agricultores por encima de esa edad es enorme. Allí se deja el empleo y no la actividad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene no idealizarlo tampoco: parte de esa gente sigue trabajando porque la pensión no llega, no porque haya encontrado su razón de ser. Un libro honrado tendría que decir las dos cosas, y este se queda con la mitad bonita del dato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es, en el fondo, el defecto general del género: convierte en filosofía elegida lo que muchas veces es economía obligada. Comer poco, andar mucho y seguir trabajando de mayor describe a la gente pobre del campo de medio mundo, y no siempre por decisión propia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa diferencia importa más de lo que parece, porque marca el patrón del libro entero: una observación de campo que aguanta perfectamente, envuelta en una afirmación cultural grandilocuente que no resiste una comprobación de dos minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Iki, vivir. Gai, lo que vale.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para qué merece la pena levantarse, y ya está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie en Japón se pasa un año buscando el suyo.",
+        },
+      ],
+    },
+    {
+      titulo: "El diagrama que dibujó un galés",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Y ahora la confusión más extendida del desarrollo personal contemporáneo: el diagrama de los cuatro círculos —lo que amas, lo que se te da bien, lo que el mundo necesita y por lo que te pagan— que aparece en cualquier búsqueda de esta palabra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "De dónde sale de verdad",
+          frase: "No es japonés, no es antiguo y no está en este libro. Lo dibujó en 2011 un consultor español, Andrés Zuzunaga, para hablar de propósito, y en 2014 un bloguero galés le cambió la etiqueta del centro y le puso ikigai.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión de Zuzunaga se publicó en castellano y con otro nombre en el centro: propósito. Los cuatro círculos son los mismos, las intersecciones son las mismas, y el diagrama original circulaba por España tres años antes de que nadie lo relacionara con Japón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el detalle que remata la historia: los dos autores de este libro son españoles, como el autor del diagrama, y ninguno de los tres tuvo nada que ver con el cruce. Lo hizo un tercero en una isla del canal de la Mancha, en un blog, sin cobrar y sin pretenderlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El bloguero se llama Marc Winn, publicó aquello en una entrada corta y lo ha reconocido públicamente varias veces: juntó el diagrama de propósito de Zuzunaga con una charla que había visto sobre longevidad en Okinawa y se le ocurrió cambiar la palabra del medio. Le llevó unos minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Zuzunaga tampoco había inventado gran cosa: su esquema de 2011 es una versión con cuatro círculos de las preguntas de orientación profesional de toda la vida, con propósito escrito en el centro y sin una sola referencia japonesa en ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que un esquema tenga catorce años y un autor localizable no lo hace malo, conviene decirlo. Lo que lo estropea es el disfraz: presentado como herramienta de orientación profesional sería una herramienta discreta y honrada; presentado como sabiduría oriental milenaria se convierte en otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cronología, puesta en fila, es la mejor lección de todo esto. Diagrama español de 2011, etiqueta cambiada en un blog en 2014, libro de dos españoles en 2016, y en 2020 ya se enseñaba en escuelas de negocios de medio mundo como sabiduría japonesa milenaria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saltó a las presentaciones de empresa, a los cursos de orientación laboral y a los perfiles profesionales de medio mundo. Hoy hay universidades que lo enseñan como filosofía japonesa milenaria, y el original tiene catorce años y un autor español que sigue vivo y contándolo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vale la pena preguntarse por qué corrió tanto, porque la respuesta explica media industria del desarrollo personal: el diagrama es bonito, cabe en una diapositiva, promete que existe una respuesta y le da nombre exótico a una pregunta que todo el mundo se hace. No hacía falta que fuera cierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un ingrediente más, que es el prestigio prestado: atribuirle una idea a una cultura lejana la vuelve incontestable. Nadie discute un diagrama que viene envuelto en mil años de Japón; el mismo dibujo firmado por un consultor de Barcelona en 2011 se discute en dos minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lección práctica que deja este capítulo vale para cualquier cosa que uno lea: cuando algo se presente como sabiduría milenaria de otro sitio, buscar la fecha del original. Muchas veces está a un par de clics, y muchas veces es más reciente que el teléfono con el que se busca.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Conviene decir que en el libro de García y Miralles ese diagrama no está: lo colocaron después algunas ediciones y, sobre todo, el mundo entero al hablar de ellos. El libro va de longevidad, comunidad y atención; los cuatro círculos son un accesorio que se le pegó por fuera.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es justo insistir en eso, porque la crítica que más se les hace es por algo que no escribieron. Su libro tiene defectos de sobra —fuentes de segunda mano, cifras sin comprobar, una etimología alegre—, y el diagrama que todo el mundo les atribuye no es uno de ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que decir también por qué el diagrama es mal consejo, además de falso. Exige que una sola actividad cumpla cuatro condiciones a la vez, incluida la de que alguien te pague por ella, y eso deja fuera de golpe a la mayoría de las razones por las que la gente se levanta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tiene además el efecto psicológico contrario al que promete. Un esquema que dice que existe una única casilla donde encaja todo convierte cualquier trabajo normal en una prueba de que uno todavía no ha encontrado lo suyo, y eso produce insatisfacción a jornada completa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es exactamente la trampa que Elizabeth Gilbert describe en Arte cuando pide que dejemos de decirle a la gente que siga su pasión: a mucha gente esa frase la hunde, porque no tiene ninguna y concluye que está defectuosa. Su alternativa, la curiosidad, cabe perfectamente en el ikigai japonés.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Deja fuera a quien cuida a alguien, a quien tiene un trabajo normal y su vida está en otro sitio, a quien lo que ama no lo paga nadie, y a los cien ancianos de Ogimi, que no cumplían ni uno de los cuatro círculos y son los protagonistas del libro que da nombre al diagrama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa última frase conviene dejarla clavada, porque resume el disparate entero: si aplicáramos el diagrama famoso a las personas más longevas y más citadas del libro, ninguna de ellas tendría ikigai. Cuando un modelo excluye a sus propios ejemplos, el problema es del modelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puestos a rescatar algo de él, sirve para una cosa: como lista de comprobación de una carrera profesional, no del sentido de una vida. Preguntarse si lo que uno hace se le da bien, le gusta, es útil y paga es razonable; llamar a eso ikigai es el error.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si se usa así, la parte más útil no es el centro sino los bordes: los cruces de a dos y de a tres. Lo que amas y se te da bien pero no paga nadie tiene nombre —una afición— y no hace falta arreglarlo; lo que paga y se te da bien pero no amas es, sencillamente, un trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un diagrama español de 2011.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una etiqueta cambiada por un galés en 2014.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quince siglos de tradición japonesa que nadie se molestó en comprobar.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que dicen los registros",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Queda el otro pilar del libro, que es el de los datos: la idea de que Okinawa es el sitio del mundo donde más se vive y que eso demuestra algo sobre su manera de vivir. Aquí hay una parte verdadera, una parte que se ha caído y una parte que nunca estuvo bien medida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir por qué esto importa y no es pedantería. Todo el peso del libro descansa en un argumento del tipo «esta gente vive más, así que hagamos lo que ellos»; si la primera mitad de la frase se tambalea, la segunda deja de ser una conclusión y pasa a ser una sugerencia razonable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una manera sana de leerlo que no depende de las cifras: comer un poco menos, moverse todo el día, tener gente que te espera y algo que hacer mañana es buen consejo aunque en Okinawa se viviera exactamente lo mismo que en Cuenca. Ninguna de las cuatro cosas necesita un récord detrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo verdadero es que Okinawa tuvo durante décadas una concentración de centenarios altísima y una tasa de infartos y de algunos cánceres muy por debajo de la media japonesa, que ya era baja. Eso está publicado desde los años setenta y no lo discute nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un dato de contexto que el libro no cuenta y que explica bastante: aquella generación pasó por la batalla de Okinawa de 1945 y por una posguerra de hambre, con una alimentación forzosamente escasa y basada en el boniato. La restricción calórica de sus vidas no fue una elección de estilo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella batalla, además, mató a una cuarta parte de la población civil de la isla. Los ancianos que los autores entrevistaron en Ogimi eran los niños de entonces, y esa parte de su biografía no aparece en el libro ni en ninguna de las mil versiones alegres de su longevidad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que se ha caído es el presente. Los hombres de Okinawa pasaron de estar los primeros de Japón en esperanza de vida a caer al puesto veintiséis de cuarenta y siete prefecturas en el cambio de siglo. En Japón aquello se conoció como el choque del veintiséis y sigue sin recuperarse.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el experimento natural más claro que existe sobre esto y va en contra de la lectura mística: mismo sitio, mismo mar, mismas fiestas del pueblo, misma palabra en el idioma, y en dos generaciones el efecto desaparece. Lo que cambió fue lo que había en el plato y lo que se andaba al día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación que manejan los propios investigadores japoneses es incómoda para el libro: las generaciones nacidas después de la guerra crecieron con las bases estadounidenses al lado, con carne enlatada, comida rápida y coche, y tienen hoy las tasas de obesidad más altas del país. La longevidad era de los viejos, no del lugar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que nunca estuvo bien medido son las edades. En 2010, una auditoría del sistema de pensiones japonés destapó que había más de doscientos mil supuestos centenarios de los que nadie sabía nada: fallecidos sin registrar, expedientes perdidos y, en algunos casos, familias cobrando la pensión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso que lo destapó todo es de novela: fueron a felicitar al hombre más viejo de Tokio, que según los papeles tenía ciento once años, y encontraron en su habitación un cadáver momificado desde hacía tres décadas mientras la familia seguía cobrando su pensión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso conecta con un trabajo reciente que ha puesto en aprietos a toda la literatura de las zonas de longevidad: un demógrafo, Saul Newman, encontró que las regiones con más centenarios del mundo coinciden sistemáticamente con las que tienen peores registros de nacimiento y más pobreza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación no es que la gente no viva mucho, sino que buena parte del récord se explica por errores de papeleo y por fraude en las pensiones. El trabajo le valió en 2024 un premio Ig Nobel, que se da a la investigación que primero hace reír y después hace pensar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que su tesis se discute y que no todo el mundo la acepta: hay demógrafos que sostienen que en Japón, con registro civil moderno desde el siglo diecinueve, el problema es mucho menor que en otras zonas. Lo que ya nadie defiende es citar las cifras de centenarios sin comprobarlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que separar dos afirmaciones que se confunden todo el rato: una es que en Okinawa se vivía mucho, que está bien sostenida, y otra que allí estaba el récord del mundo, que depende de comparar registros de países que no cuentan igual. La primera aguanta; la segunda es la que se cae.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puesto en su sitio, lo que queda es un caso interesantísimo de salud pública: una población que comía poco, se movía todo el día, tenía tabaco y alcohol bajos y una red social densa, y cuyos nietos perdieron esas cuatro cosas a la vez. Eso no necesita ninguna palabra japonesa para ser útil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esta biblioteca está el libro que sostiene lo contrario, «Zonas azules», con las cinco regiones y sus recomendaciones. Leídos juntos, la conclusión razonable es que los hábitos que describen son buenos por su cuenta, y que la parte espectacular de las cifras hay que dejarla en cuarentena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y es un buen ejemplo de por qué merece la pena tener los dos en la misma estantería. Ninguno de los dos miente a propósito; los dos se apoyan en un registro que nadie había auditado, y solo poniéndolos uno al lado del otro con la crítica delante se ve dónde acaba el dato y empieza el relato.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sí está medido",
+          frase: "Un estudio japonés siguió durante siete años a más de cuarenta mil adultos: los que decían tener un ikigai murieron menos que los que decían no tenerlo, y la diferencia se sostuvo al ajustar por salud previa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese resultado es el mejor argumento del libro y curiosamente no lo cita. No dice que buscarse un propósito alargue la vida —una cosa es tener y otra buscar—, y sí dice que la gente que puede nombrar un motivo para levantarse tiene mejores números que la que no puede.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que ponerle la objeción de siempre, que también vale aquí: puede que tener ikigai alargue la vida, y puede que estar sano permita tener ikigai. En un estudio observacional las dos flechas caben, aunque el ajuste por salud previa hace la primera algo más creíble que la segunda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Okinawa fue el sitio donde más se vivía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus hijos están hoy entre los peor colocados de Japón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una parte del récord estaba en papeles que nadie había revisado.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que queda cuando quitas los círculos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Después de quitarle el diagrama, la etimología mal contada y las cifras en cuarentena, la pregunta es si queda algo. Y queda bastante, casi todo en la parte de reportaje, que es la que los autores hicieron con sus pies y no con la biblioteca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y queda una cosa más, que es de tono y cuesta explicar: el libro no promete rendimiento. En un estante donde todo va de optimizarse, este va de plantar boniatos, cantar con las amigas y no tener prisa, y eso, aunque llegue envuelto en malentendidos, apunta a un sitio bastante decente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo primero, el moai: los grupos de vecinos de Okinawa que se ven siempre y se sostienen entre ellos, con una caja común que empezó siendo un fondo de ayuda para la cosecha. Nadie de aquellas aldeas pasa un día sin que alguien note si no aparece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo interesante del moai es que no depende de las ganas. Uno entra de niño, a veces al nacer, y sigue dentro toda la vida aunque un año esté de mal humor; no hay que quedar, no hay que organizarlo y no hay que caerse especialmente bien. Es una estructura, no una amistad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso no es folclore: la soledad prolongada tiene hoy un riesgo asociado comparable al de fumar bastante, y es de las pocas cosas de este libro que la epidemiología respalda sin discusión. La diferencia con nosotros no es de actitud, es de estructura: allí el grupo existe aunque uno no tenga ganas.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Sus tres condiciones son concretas: una tarea con dificultad justo por encima de tu nivel —si es fácil te aburres, si es imposible te bloqueas—, un objetivo claro, y saber al momento si lo estás haciendo bien. El enemigo número uno es la interrupción: cada notificación te expulsa del estado y volver a entrar cuesta bastante más de lo que la interrupción duró.",
+            "La versión aplicable aquí no es hacerse amigos, que es lo que aconsejaría el libro, sino meterse en algo que ya tenga calendario: un coro, un huerto urbano, una partida fija, un club de lo que sea. La estructura hace el trabajo los días en que uno no tiene ninguna gana.",
         },
         {
           forma: "texto",
           texto:
-            "Los autores lo conectan con los artesanos japoneses, que dedican una vida entera a una sola cosa muy pequeña: el maestro que solo hace sushi, el que solo repara cerámica con oro, el que lleva sesenta años puliendo una misma técnica. No es sacrificio; es que la maestría es el sitio donde el flujo aparece más veces al día.",
+            "Lo segundo, el hara hachi bu: dejar de comer al ochenta por ciento de saciedad, que es un precepto confuciano viejísimo y una manera doméstica de comer menos sin contar nada. Es la única recomendación dietética del libro que no depende de conseguir boniato morado de Okinawa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Funciona por una razón mecánica y no espiritual: la señal de saciedad tarda unos veinte minutos en llegar, así que quien come hasta notarse lleno ya ha comido de más. Parar antes, con la sensación de que cabría un poco más, es comer justo lo que el cuerpo iba a pedir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero, moverse todo el día sin llamarlo ejercicio: huerto, andar, sentarse en el suelo y levantarse veinte veces al día. Los ancianos de Ogimi no pisan un gimnasio y tienen una fuerza de piernas que en Europa se pierde a los setenta por no agacharse nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle tiene una versión medible: la capacidad de levantarse del suelo sin apoyar las manos predice bastante bien la mortalidad en mayores, y se entrena sin equipo ninguno. Es la recomendación más barata que sale de este libro y no aparece en ningún diagrama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo cuarto, no retirarse de las cosas aunque uno se retire del empleo. No es una idea japonesa: es la observación de que el día de alguien necesita tener dentro algo que solo puede hacer él, y que cuando eso desaparece el resto se descompone bastante rápido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que lo hace accionable es el pronombre: algo que solo puede hacer él. No vale con tener planes, hace falta que alguien note la ausencia. El huerto se seca, el club de canto se queda con una voz menos, los nietos preguntan. La obligación es la mitad del mecanismo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y aquí es donde este libro se junta con «Flow», de Csikszentmihalyi, que está en Psicología: los ancianos de Ogimi pasan el día en tareas con dificultad justa, objetivo claro y resultado visible, que son exactamente las tres condiciones del estado de flujo. El huerto es un laboratorio perfecto.",
+          arte: "aprendizaje",
         },
         {
           forma: "clave",
-          rotulo: "El detalle que más chocó a los autores",
-          frase: "En Ogimi nadie deja de trabajar del todo. A los noventa y siete años se sigue yendo al huerto, aunque sea media hora.",
+          rotulo: "El destino del viaje",
+          frase: "No hace falta encontrar el ikigai. Hace falta poder contestar, sin pensarlo mucho, qué vas a hacer mañana que te importe algo y a quién vas a ver.",
         },
         {
           forma: "texto",
           texto:
-            "Y añaden algo que suena a poco y es de lo más sólido: mantener siempre un motivo social para salir de casa. Las reuniones del club de vecinos, las fiestas del pueblo, los cumpleaños colectivos donde se celebra a todos los que cumplen ese mes. Ninguno de esos ancianos vive solo, y ninguno pasa un día entero sin que alguien note si no aparece.",
-        },
-      ],
-    },
-    {
-      titulo: "El diagrama que no es japonés",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "Hay que aclarar algo, porque es la confusión más extendida del mundo del desarrollo personal. El famoso diagrama de cuatro círculos —lo que amas, lo que se te da bien, lo que el mundo necesita y por lo que te pagan— <strong>no es japonés</strong> y no aparece en la tradición del ikigai. Lo dibujó un consultor español, Andrés Zuzunaga, para hablar de propósito, y alguien le puso encima la palabra japonesa.",
+            "Esa pregunta es además comprobable, que es lo que la separa del diagrama. Se contesta esta noche antes de acostarse, se sabe al momento si hay respuesta o no la hay, y cuando no la hay, señala exactamente lo que falta: algo que hacer o alguien a quien ver.",
         },
         {
           forma: "texto",
           texto:
-            "El ikigai real no exige que te paguen por ello ni que el mundo lo necesite. Una abuela de Ogimi cuyo ikigai es su huerto cumple el concepto entero. Es una idea mucho menos exigente — y por eso alcanzable— que la versión occidental, que en la práctica pide encontrar un trabajo perfecto.",
+            "Puesto en el mapa de esta biblioteca, el libro es un cruce de cosas que están mejor explicadas en otros sitios. La parte del sentido viene de «El hombre en busca de sentido», de Frankl, que además está en esta misma categoría y que llegó a esa idea en un sitio bastante peor que Okinawa.",
         },
         {
           forma: "texto",
           texto:
-            "El libro es divulgación ligera y a veces mezcla cosas de sitios distintos: hay logoterapia, hay Csíkszentmihályi, hay taichí. No es un estudio riguroso de longevidad. Pero las entrevistas son suyas, y lo que traen tiene la fuerza de lo concreto: cien personas de noventa años, en la misma aldea, diciendo casi lo mismo.",
+            "La comparación entre los dos es cruel y aclara mucho. Frankl sostiene que se puede tener una razón para vivir en las peores condiciones imaginables, y este libro la busca en un pueblo bonito con buen clima. La idea es la misma; el precio que pagó cada autor por llegar a ella, no.",
         },
         {
           forma: "texto",
           texto:
-            "Los propios investigadores de longevidad advierten de algo que el libro roza pero no remata: parte del récord de Okinawa se explica por registros civiles antiguos poco fiables, y las generaciones jóvenes de la isla, que ya comen comida rápida, han perdido la ventaja por completo. Es la prueba de que no era la genética ni el aire: era la forma de vivir, y se pierde en una generación.",
+            "La parte de la atención viene de «Flow», de Csikszentmihalyi, que está en Psicología y explica con experimentos lo que aquí se cuenta con artesanos; y la de la antifragilidad, de Taleb, que está en Economía y es de donde sale entero el capítulo del final.",
         },
         {
-          forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "No busques la gran razón de tu vida. Busca la razón concreta por la que te vas a levantar mañana.",
+          forma: "texto",
+          texto:
+            "Ese trasiego de fuentes no es un delito: divulgar es eso. Lo que conviene saber es que cada uno de esos capítulos es un resumen de diez páginas de un libro entero, y que si alguno de los tres temas interesa de verdad, el original está a dos fichas de aquí y dice bastante más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y para la pregunta de qué hacer con la propia vocación, dos libros del catálogo lo hacen mejor que los cuatro círculos: «El elemento», de Robinson, y sobre todo «La magia de crear», de Gilbert, que propone cambiar la pasión por la curiosidad justamente porque casi nadie tiene una pasión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resumen honrado, entonces, es este: quédate con el reportaje, con el moai, con levantarte de la mesa con un poco de hambre y con la pregunta de qué harás mañana. Y del diagrama, quédate con la fecha: 2014, un blog, un galés. Es la información más útil de esta ficha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quita los círculos y no se cae nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda son cien ancianos con un huerto y un club.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa parte del libro sigue siendo verdad.",
         },
       ],
     },
