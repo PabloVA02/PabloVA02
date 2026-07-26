@@ -214,7 +214,7 @@ export const CATALOGO: Ficha[] = [
   { id: "cosas-buenas", titulo: "Cómo hacer que te pasen cosas buenas", autor: "Marian Rojas Estapé", ano: 2018, categoria: "Psicología", estado: "escrito" },
   { id: "arte-de-amar", titulo: "El arte de amar", autor: "Erich Fromm", ano: 1956, categoria: "Psicología", estado: "escrito" },
   { id: "marte-venus", titulo: "Los hombres son de Marte, las mujeres son de Venus", autor: "John Gray", ano: 1992, categoria: "Psicología", estado: "pendiente" },
-  { id: "error-descartes", titulo: "El error de Descartes", autor: "Antonio Damasio", ano: 1994, categoria: "Psicología", estado: "pendiente" },
+  { id: "error-descartes", titulo: "El error de Descartes", autor: "Antonio Damasio", ano: 1994, categoria: "Psicología", estado: "escrito" },
   { id: "intro-psicoanalisis", titulo: "Introducción al psicoanálisis", autor: "Sigmund Freud", ano: 1917, categoria: "Psicología", estado: "escrito" },
   { id: "maneras-de-amar", titulo: "Maneras de amar", autor: "Levine y Heller", ano: 2010, categoria: "Psicología", estado: "pendiente" },
   { id: "sentirse-bien", titulo: "Sentirse bien", autor: "David D. Burns", ano: 1980, categoria: "Psicología", estado: "pendiente" },

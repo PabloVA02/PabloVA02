@@ -5802,3 +5802,655 @@ export const INTRO_PSICOANALISIS: Resumen = {
     },
   ],
 };
+
+export const ERROR_DESCARTES: Resumen = {
+  id: "error-descartes",
+  titulo: "El error de Descartes",
+  autor: "Antonio Damasio",
+  ano: 1994,
+  gancho:
+    "Una barra de hierro le atravesó la cabeza a un obrero en 1848. Sobrevivió, conservó la inteligencia entera, y dejó de ser capaz de decidir nada.",
+  porQue:
+    "Es el libro que demostró que sin emociones no se razona peor: no se razona. Y lo demostró con pacientes reales a los que todos los tests daban por sanos mientras se les hundía la vida.",
+  partes: [
+    {
+      titulo: "Cavendish, Vermont, 13 de septiembre de 1848",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Una cuadrilla del ferrocarril está abriendo paso a través de la roca en Vermont. El capataz tiene veinticinco años, se llama Phineas Gage, y su trabajo consiste en meter pólvora en un agujero perforado en la piedra, cubrirla con arena y apisonarla con una barra de hierro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La barra mide algo más de un metro, pesa seis kilos y tiene un extremo afilado. Aquella tarde, algo se distrae —según los testimonios, alguien le habla—, y golpea la pólvora antes de que le hayan echado la arena encima. Salta una chispa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pasó en ese segundo",
+          frase: "La explosión disparó la barra como un proyectil. Le entró por debajo del pómulo izquierdo, le atravesó el cráneo de abajo arriba, le salió por la parte alta de la frente y cayó a veinticinco metros, manchada de sangre y de sustancia cerebral.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí empieza lo extraordinario. Gage cayó al suelo, tuvo unas convulsiones, y a los pocos minutos estaba hablando. Se subió por su propio pie a un carro, se sentó erguido durante el trayecto de un kilómetro, y esperó al médico sentado en el porche de la posada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando llegó el doctor John Harlow, Gage le saludó y le dijo, según el propio médico anotó, que allí tenía trabajo suficiente. Estaba consciente, orientado, hablaba con normalidad y explicaba lo ocurrido. Le faltaba una parte del cerebro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Sobrevivió a la infección, perdió el ojo izquierdo y a los dos meses estaba dado de alta. Andaba, hablaba, recordaba, contaba, reconocía a todo el mundo y no tenía ninguna parálisis. Desde el punto de vista neurológico de 1848, se había curado del todo.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin embargo la compañía del ferrocarril, que lo tenía por el capataz más eficaz de la plantilla, no volvió a contratarlo. Su médico escribió años después la frase que ha hecho famoso el caso: que el equilibrio entre sus facultades intelectuales y sus tendencias animales se había roto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Harlow lo describió como caprichoso, irrespetuoso, dado a soltar obscenidades que antes no decía, impaciente ante cualquier consejo que contrariara sus deseos, incapaz de mantener un plan y de llevarlo a cabo. Y remató diciendo que sus amigos decían que ya no era Gage.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese caso es la escena inicial del libro y la razón por la que se ha leído tanto. Un hombre con la inteligencia intacta, la memoria intacta y el lenguaje intacto, incapaz de organizar su vida por una lesión en una parte concreta del cerebro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien lo cuenta es Antonio Damasio, neurólogo portugués nacido en Lisboa en 1944, que se formó allí y se trasladó a Estados Unidos en 1975. En la Universidad de Iowa montó con su mujer, Hanna Damasio, uno de los mejores programas del mundo de estudio de lesiones cerebrales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle del método importa. Estudiar lesiones consiste en aprovechar la desgracia: cuando alguien pierde una parte del cerebro por un accidente, un tumor o un ictus, se puede observar qué deja de funcionar y deducir para qué servía esa zona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la fuente más antigua del conocimiento sobre el cerebro y sigue siendo de las mejores, porque enseña qué es necesario para una función y no solo qué se enciende cuando la función ocurre, que es lo que dan las imágenes cerebrales modernas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay un dato precioso sobre Gage: su cráneo se conserva. Su médico consiguió que la familia lo exhumara en 1866 y lo donara, y hoy está expuesto junto a la barra de hierro en un museo anatómico de la Universidad de Harvard.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1994, el mismo año en que salió este libro, Hanna Damasio y su equipo publicaron en una revista científica una reconstrucción del accidente hecha a partir de mediciones del cráneo real y de técnicas de imagen, para averiguar qué zonas había destruido la barra exactamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión fue que el daño afectó a la corteza prefrontal ventromedial de los dos hemisferios, y que respetó las áreas del lenguaje y del movimiento. Es decir: destruyó justamente lo que hace falta para decidir y dejó intacto lo que se mide en un examen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí hay que hacer una corrección importante y que el propio libro no hace, porque es la parte más discutible de su primer capítulo. La historia de Gage que se cuenta desde hace siglo y medio está bastante inflada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El historiador Malcolm Macmillan revisó todas las fuentes originales y encontró que la imagen del borracho violento e incapaz que va de pueblo en pueblo es un añadido de generaciones de manuales, y que los testimonios de la época dicen bastante menos que eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está documentado es que Gage trabajó después varios años en Chile como conductor de diligencias en la ruta de Valparaíso a Santiago, un oficio que exige levantarse a la misma hora, manejar seis caballos, cobrar billetes y tratar con pasajeros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no encaja con un hombre incapaz de mantener un plan. Macmillan sostiene que hubo una recuperación considerable con los años, probablemente ayudada por la rutina de un trabajo estructurado, y que el caso enseña tanto sobre la plasticidad como sobre el daño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Damasio se apoya en la versión más dramática porque es la que le sirve, y eso es un punto flojo del libro que conviene tener presente. La buena noticia es que su argumento no depende de Gage.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Depende de un paciente suyo, al que examinó él mismo durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un contable de treinta y tantos años, casado y con hijos, al que llama Elliot.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuyo caso es más inquietante que el de la barra de hierro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entre otras cosas porque le pasó en un quirófano.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El paciente Elliot",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Elliot era un profesional de éxito. Trabajaba en una empresa, tenía responsabilidades, un matrimonio estable, hijos, y era el tipo de persona a la que los demás ponían de ejemplo. Empezó a tener dolores de cabeza y le encontraron un tumor benigno en la zona frontal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo operaron y salió bien: le quitaron el tumor entero. En el proceso hubo que extirpar también tejido frontal dañado de los dos lados, en la parte de abajo y de en medio de los lóbulos frontales, que es exactamente la zona que le destrozó la barra a Gage.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pasó después",
+          frase: "Elliot se recuperó físicamente y perdió la vida entera en pocos años. Le echaron del trabajo por no terminar nada. Se metió en un negocio con un socio que cualquiera habría visto que era un estafador y perdió sus ahorros. Se divorció, se volvió a casar mal, y se volvió a divorciar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí está lo que convierte el caso en un problema científico de primer orden. Cuando Damasio le pasó la batería completa de pruebas neuropsicológicas, Elliot salió normal en todas. En algunas, por encima de la media.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cociente intelectual en el rango alto. Memoria a corto y largo plazo intacta. Lenguaje perfecto. Atención, cálculo, percepción y capacidad de aprender cosas nuevas, todo normal. Conocimientos sobre el mundo, sobre normas sociales y sobre moral, intactos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Le pasaron incluso pruebas de dilemas morales y de resolución de problemas sociales, de las que consisten en presentar una situación complicada y pedir soluciones. Elliot generaba montones de opciones sensatas, las ordenaba y explicaba las consecuencias de cada una.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y al terminar una de esas sesiones le dijo a Damasio una frase que es el corazón del libro: que después de todo aquello, él seguiría sin saber qué hacer. Sabía razonar perfectamente sobre qué convenía y no era capaz de elegir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo cotidiano que da Damasio es más revelador que cualquier test. Elliot tenía que clasificar documentos en el trabajo. Podía ordenarlos por fecha, por tamaño, por tema o por relevancia, y se pasaba la tarde entera comparando criterios sin decidirse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leía cada documento con atención y correctamente, se enfrascaba, y perdía de vista que la tarea era ordenarlos, no estudiarlos. No era falta de inteligencia ni de conocimiento: era que ninguna de las opciones le parecía mejor que las otras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo mismo le pasaba con las cosas grandes. Elegir un restaurante para cenar podía llevarle una hora comparando menús, horarios y aparcamiento. Elegir en qué invertir sus ahorros lo resolvía dejándose convencer por la última persona que le hablaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro rasgo que Damasio observó, y que resultó ser la clave, es que Elliot contaba su propia desgracia sin ninguna emoción. Describía la ruina, los divorcios y el despido con el mismo tono con el que habría leído el periódico, y era consciente de ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le dijo que aquellos temas, que antes le habrían removido, ahora no le provocaban nada. Sabía que debería sentirse mal y no lo sentía. Y no estaba deprimido: un deprimido siente demasiado y de manera equivocada; Elliot sencillamente no sentía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Damasio lo comprobó con imágenes: le enseñó fotografías de catástrofes, de heridos graves, de edificios en llamas, de gente muerta, mientras medía sus reacciones corporales. Elliot describía correctamente lo que veía y su cuerpo no reaccionaba en absoluto.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y volvió a decírselo él mismo, que es lo que hace el caso tan valioso: que antes de la operación aquellas imágenes le habrían producido algo, y que sabía que ahora debían producírselo, y que no lo hacían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un detalle administrativo que Damasio subraya y que es de las cosas más útiles del libro para cualquiera. Elliot pidió una pensión por incapacidad y se la denegaron, porque todos los informes decían que estaba perfectamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los tests que usa la medicina para decidir si alguien puede trabajar miden inteligencia, memoria y lenguaje. No miden la capacidad de elegir, de sostener un plan ni de detectar que quien tienes delante te está engañando, y esas son las que Elliot había perdido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que quedaba como un caso de vagancia o de mala cabeza. La familia lo veía así, sus jefes lo habían visto así, y el sistema lo confirmaba con papeles. Damasio escribe que ese fue el motivo por el que se puso a investigar el asunto en serio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y Elliot no era único. Damasio y su equipo reunieron un grupo pequeño de pacientes con lesiones en esa misma zona por causas distintas —tumores, ictus, accidentes— y todos tenían el mismo perfil: perfectos en los tests, arruinados en la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese grupo permitía por fin hacer ciencia en vez de coleccionar anécdotas, y la pregunta era cómo demostrar en un laboratorio algo que solo se veía en la biografía de la gente. Hacía falta una prueba que reprodujera el problema en una hora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: una tarea en la que hubiera que decidir con información incompleta, con premios y castigos, sin poder calcular la respuesta correcta, y en la que el acierto dependiera de aprender de la experiencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diseñó un colaborador suyo, Antoine Bechara, y hoy se usa en laboratorios de todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Consiste en cuatro montones de cartas encima de una mesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos dan dinero rápido y arruinan a quien insiste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el sujeto no lo sabe.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La apuesta de las cartas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La prueba funciona así. El participante se sienta ante cuatro mazos y recibe dinero de juguete. Tiene que ir levantando cartas del mazo que quiera, una a una, cien veces. Cada carta le da una ganancia y algunas, además, le imponen una pérdida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No se le dice cuántas cartas va a levantar, ni cómo están hechos los mazos, ni cuánto dura. Solo se le dice que gane todo el dinero que pueda. Y los mazos están trucados de una manera que él tiene que descubrir jugando.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo están trucados",
+          frase: "Dos mazos dan premios grandes y, de vez en cuando, castigos enormes: a la larga arruinan. Los otros dos dan premios pequeños y castigos pequeños: a la larga hacen ganar. La única manera de averiguarlo es ir probando y notar que unos escuecen más que otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hace una persona sin lesiones es previsible y ordenado. Al principio prueba de todo, atraída por los premios grandes de los mazos malos. Hacia la mitad de la partida empieza a evitarlos, y al final juega casi exclusivamente en los buenos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los pacientes con lesión en la corteza prefrontal ventromedial hacen otra cosa. Siguen volviendo a los mazos malos hasta el final de la partida, atraídos por los premios grandes, y se arruinan una y otra vez sin corregir el rumbo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y aquí llega el detalle que convirtió esta prueba en famosa. Si al terminar se les pregunta, esos pacientes son capaces de explicar perfectamente cuáles son los mazos malos y por qué. Lo saben. Lo dicen. Y aun así han seguido cogiendo cartas de ahí.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es exactamente lo que le pasaba a Elliot con su vida: saber cuál es la opción correcta y no ser capaz de que ese conocimiento gobierne la conducta. Por primera vez, ese problema se podía reproducir en un laboratorio en cuarenta minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo experimento es el que dio la vuelta al mundo, y consistió en añadir una medida corporal. Mientras los participantes jugaban, se les midió la conductancia de la piel, que aumenta con la sudoración de las manos y es un indicador clásico de activación emocional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que encontraron en las personas sanas fue esto: alrededor de la carta número diez, y antes de tocar un mazo malo, la mano empezaba a sudar ligeramente. Una reacción anticipatoria, pequeña, que aparecía justo cuando la mano se acercaba a los montones peligrosos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aparecía mucho antes de que el jugador pudiera decir por qué. Preguntados en ese momento, la mayoría contestaba que no tenía ni idea de cómo funcionaban los mazos. Alrededor de la carta cincuenta empezaban a tener una corazonada, y bastante después la explicación completa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los pacientes con la lesión no producían nunca esa reacción anticipatoria. Su cuerpo no avisaba. Y aunque más tarde llegaran a saber conscientemente cuáles eran los mazos malos, seguían jugando en ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El titular que salió de ahí, y que se ha repetido durante treinta años, es que el cuerpo sabe antes que la cabeza, y que sin ese aviso corporal el conocimiento consciente no basta para dirigir la conducta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay que decir aquí, y es de las cosas más importantes de este resumen, que ese titular ha recibido un golpe serio. En 2004, dos investigadores repitieron el experimento cambiando la manera de preguntar a los participantes, y el resultado se movió bastante.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estudio original preguntaba de forma vaga, algo así como qué está pasando en el juego. Ellos hicieron preguntas concretas y separadas: qué mazo es mejor, cuánto de seguro estás, y en qué mazo pondrías dinero. Y preguntaron después de cada bloque de cartas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con ese método, los participantes sanos resultaron tener mucho más conocimiento explícito, y mucho antes, de lo que el estudio original había detectado. Es decir: sí sabían, y lo que fallaba era la manera de preguntárselo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no anula el hallazgo de los pacientes, que siguen fallando la prueba de forma clara. Sí debilita mucho la parte más vendida de la historia, que es la del cuerpo que sabe antes y por otra vía que la conciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos años después, una revisión crítica bastante exhaustiva de toda la literatura sobre la hipótesis concluyó que la evidencia estaba lejos de ser concluyente, y que varios de los resultados clave se habían replicado de forma irregular.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el estado actual y conviene tenerlo claro antes de citar el libro: los pacientes con esa lesión deciden mal y eso está sólidamente demostrado; el mecanismo concreto que Damasio propone para explicarlo sigue siendo una hipótesis discutida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene señalar el tamaño de las muestras. Los estudios originales trabajaron con grupos de entre seis y una docena de pacientes, porque las lesiones bilaterales limpias en esa zona concreta son rarísimas, y con eso no se hace estadística potente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una limitación honesta e inevitable: no se puede encargar más pacientes. Y significa que las conclusiones de este libro tienen la fuerza de una descripción clínica muy buena, no la de un ensayo con miles de personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esos datos en la mano, Damasio propone la teoría que da sentido a todo y que es su aportación propia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La llama hipótesis del marcador somático.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Somático significa del cuerpo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está la palabra que discute con Descartes.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El marcador somático",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La teoría dice lo siguiente. Cada vez que vivimos una situación con un desenlace bueno o malo, el cerebro guarda dos cosas: los hechos, y el estado corporal que acompañó a esos hechos. El nudo en el estómago, el pulso acelerado, la sensación de alivio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando después nos enfrentamos a una situación parecida, el cerebro reactiva ese estado corporal —o una simulación suya— antes de que hayamos razonado nada. Y esa señal marca la opción: la hace desagradable o atractiva antes de que la pensemos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Para qué sirve eso",
+          frase: "Para reducir el número de opciones a considerar. Ante una decisión, las posibilidades son casi infinitas; el marcador elimina de un plumazo las que llevan la etiqueta de mala experiencia, y deja unas pocas sobre las que sí se puede razonar con calma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Damasio insiste en que esa señal no decide por nosotros: acota el campo. El razonamiento sigue siendo necesario y sigue haciendo su trabajo, pero lo hace sobre un conjunto ya filtrado. Sin ese filtro, hay que evaluarlo todo, y eso no cabe en una vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la explicación de Elliot ordenando documentos toda la tarde. No es que no supiera clasificar: es que sin marcadores ninguna opción llevaba etiqueta, así que las cuatro pesaban lo mismo y no había forma de terminar la comparación.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La corteza prefrontal ventromedial, que es lo que Gage y Elliot tenían destruido, es según esta teoría el sitio donde se guarda el enlace: la asociación entre un tipo de situación y el estado corporal que produjo la última vez. Sin ella, el archivo existe y no se puede consultar.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Damasio distingue además entre dos vías. Una es la del cuerpo real: el corazón se acelera de verdad, las manos sudan de verdad, y el cerebro lee esa información. Otra es lo que llama el bucle como si, en la que el cerebro simula el estado corporal sin producirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es más rápida y más barata, y es la que explica que podamos evaluar mil opciones al día sin sufrir mil sobresaltos físicos. Es también la parte más difícil de comprobar experimentalmente y una de las que más se le han discutido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa teoría montada, el libro se gira hacia el filósofo del título y explica en qué consiste su error, que no es lo que sugiere la portada. Damasio no dice que Descartes fuera tonto ni que estuviera equivocado en todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El error, en su lectura, es uno concreto: la separación tajante entre una mente pensante sin extensión y un cuerpo que es una máquina. Esa división convierte al cuerpo en un vehículo del que la mente se sirve, y no en parte del mecanismo de pensar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De esa división salió una idea que ha organizado la cultura occidental: que la razón funciona mejor cuanto más limpia esté de emoción, y que las pasiones son un ruido que estorba al juicio. Es la imagen del juez frío, del científico impasible, del directivo sin sentimentalismos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que Elliot demuestra es que esa imagen describe a un enfermo. Un ser humano con la razón intacta y las emociones desconectadas no decide mejor que los demás: no decide en absoluto, o decide catastróficamente, y además no se da cuenta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Damasio es cuidadoso con el matiz y merece la pena recogerlo, porque es lo primero que se pierde al resumirlo. No dice que la emoción sea mejor que la razón. Dice que es un componente necesario de la razón, y que un exceso de emoción también destroza las decisiones.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo dice explícitamente: un ataque de pánico o una furia también anulan el juicio, y hay pacientes que deciden fatal por lo contrario que Elliot. Lo que sostiene es que existe un rango y que el cero no es el óptimo, que es lo que la tradición daba por supuesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir también que su lectura de Descartes es floja como historia de la filosofía, y se lo han reprochado. Descartes escribió un tratado entero sobre las pasiones del alma y no sostenía que las emociones fueran irrelevantes ni prescindibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Damasio ataca una versión simplificada del cartesianismo —la que se ha filtrado a la cultura general— más que al Descartes real. Es un blanco legítimo porque esa versión existe y manda mucho, y el título del libro no es del todo justo con su destinatario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una ironía que el propio Damasio no señala: la objeción más certera al dualismo cartesiano no es esta, sino la que le hizo la princesa Isabel de Bohemia en 1643, preguntándole cómo puede un alma sin extensión mover un cuerpo que la tiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella pregunta lleva casi cuatro siglos sin respuesta y este libro tampoco la contesta. Lo que hace es enseñar, con pacientes concretos, qué le pasa a una persona real cuando ese enlace entre cuerpo y decisión se rompe de verdad en el quirófano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las consecuencias prácticas que saca son considerables. Si el razonamiento depende del estado corporal, entonces las condiciones físicas —dolor crónico, insomnio, hambre, enfermedad— no son un contexto de la decisión: son parte del aparato con el que se decide.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí una crítica suya a la medicina que sigue vigente: separar la salud del cuerpo de la de la mente, con especialistas distintos, hospitales distintos y presupuestos distintos, es organizar la sanidad según un error filosófico del siglo diecisiete.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 1994 y se convirtió en un éxito mundial, con traducciones a más de treinta idiomas y una influencia enorme fuera de la neurología.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí es donde empezaron los problemas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque una idea matizada, al salir del laboratorio, pierde los matices.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esta acabó vendiéndose como el permiso científico para fiarse de las corazonadas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El cráneo del museo de Harvard",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En una vitrina del museo anatómico de la facultad de Medicina de Harvard hay un cráneo con un boquete enorme en la parte alta y una barra de hierro de un metro apoyada al lado. Es de las piezas más visitadas y lleva allí desde 1868.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cráneo ha servido para todo. Durante siglo y medio se ha usado para defender la frenología, para negarla, para sostener que la personalidad está localizada en un punto, para decir lo contrario, y para ilustrar prácticamente cualquier teoría sobre el cerebro y la conducta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y esa es la primera advertencia",
+          frase: "Que un caso único aguanta cualquier interpretación. La historia de Gage se ha contado de cinco maneras distintas según lo que hiciera falta demostrar en cada época, y la versión de este libro es una de ellas: la que más subraya el deterioro y menos la recuperación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, el balance del libro, ordenado. Lo que aguanta sólidamente: que existe un grupo de pacientes con lesiones en la corteza prefrontal ventromedial que conservan inteligencia, memoria y lenguaje y pierden la capacidad de decidir bien en su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso está descrito con detalle clínico, replicado en varios laboratorios y es incuestionable. Y su consecuencia práctica es importante: hay discapacidades reales que ninguna prueba de las que se usan para conceder una pensión es capaz de detectar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aguanta también la prueba de las cartas como instrumento clínico. Sigue usándose en todo el mundo para evaluar la toma de decisiones en adicciones, en daño cerebral y en varios trastornos, y discrimina bien entre pacientes y personas sanas.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aguanta la tesis general de que emoción y razón no son dos sistemas separados que compiten, sino partes del mismo aparato. Eso hoy es consenso en neurociencia y en 1994 no lo era en absoluto, y este libro tuvo bastante que ver en el cambio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no aguanta igual de bien: la hipótesis del marcador somático como mecanismo concreto. La revisión crítica de 2006 concluyó que la evidencia dista de ser concluyente, y varios resultados clave se han replicado de manera desigual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el resultado estrella —el cuerpo que sabe antes que la conciencia— quedó tocado en 2004, cuando al preguntar mejor a los participantes resultó que sabían bastante más y bastante antes de lo que el estudio original detectaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema de fondo con la teoría: en su formulación general es casi imposible de refutar. Que los estados corporales influyan en las decisiones es casi seguramente cierto y no dice gran cosa; lo interesante y difícil es especificar cuándo, cuánto y por qué vía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso se añade el tamaño de las muestras, que es pequeño por necesidad, y la dependencia de casos únicos como el de Gage, cuya historia real se parece bastante menos a la versión del libro de lo que este da a entender.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno: que Gage se convirtió en un borracho violento incapaz de trabajar. Estuvo años conduciendo diligencias en Chile, un oficio exigente, y la investigación histórica apunta a una recuperación considerable con el tiempo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Dos, y es el más importante: que este libro demuestra que hay que fiarse de las corazonadas y desconfiar del análisis. No dice eso en ninguna página. Dice que la emoción es una parte del mecanismo de razonar, y que su exceso también arruina las decisiones.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lectura de autoayuda —hazle caso a tu instinto, el cuerpo sabe— es exactamente la simplificación que el propio autor ha combatido en entrevistas durante treinta años, y es la que ha hecho vender el libro en aeropuertos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que Descartes queda refutado. Damasio discute una versión popular del dualismo, no al Descartes histórico, que escribió un tratado sobre las pasiones y no despreciaba las emociones. El título es eficaz y no es del todo justo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro: que el marcador somático es ciencia establecida. Es una hipótesis influyente y discutida, con treinta años de literatura a favor y en contra, y lo honrado es presentarla así y no como un hecho comprobado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cinco: que la lesión de Elliot afectó a su personalidad en el sentido de volverlo mala persona. No hubo nada de eso. Siguió siendo educado, correcto y agradable, y esa es justamente la razón por la que nadie de su entorno entendía qué le pasaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda para un lector normal es una idea que se puede usar el lunes por la mañana. Que la sensación física que acompaña a una opción no es un ruido que haya que apartar para pensar mejor: es información que el cuerpo ha guardado y que conviene leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su reverso, que Damasio también dice y que se cita mucho menos: que esa señal viene de la experiencia pasada, y que por tanto es tan buena como haya sido esa experiencia. Si uno ha aprendido en un entorno malo, sus marcadores le van a engañar sistemáticamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Damasio siguió publicando durante treinta años y desarrollando el asunto en varios libros más, y hoy dirige un instituto en la Universidad del Sur de California dedicado precisamente a esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Phineas Gage murió en San Francisco en 1860, a los treinta y seis años, doce después del accidente, tras una serie de crisis epilépticas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo enterraron con la barra de hierro, que le habían devuelto y que llevaba encima a todas partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ocho años después, su médico convenció a la familia de que lo desenterraran para la ciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos siguen juntos en la misma vitrina.",
+        },
+      ],
+    },
+  ],
+};
