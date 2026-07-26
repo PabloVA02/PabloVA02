@@ -184,7 +184,7 @@ export const CATALOGO: Ficha[] = [
   { id: "nacidos-correr", titulo: "Nacidos para correr", autor: "Christopher McDougall", ano: 2009, categoria: "Salud", estado: "escrito" },
   { id: "dilema-omnivoro", titulo: "El dilema del omnívoro", autor: "Michael Pollan", ano: 2006, categoria: "Salud", estado: "escrito" },
   { id: "aliento-aire", titulo: "Cuando el aliento se vuelve aire", autor: "Paul Kalanithi", ano: 2016, categoria: "Salud", estado: "escrito" },
-  { id: "milagro-manana", titulo: "Mañanas milagrosas", autor: "Hal Elrod", ano: 2012, categoria: "Salud", estado: "pendiente" },
+  { id: "milagro-manana", titulo: "Mañanas milagrosas", autor: "Hal Elrod", ano: 2012, categoria: "Salud", estado: "escrito" },
   { id: "come-comida-real", titulo: "Come comida real", autor: "Carlos Ríos", ano: 2019, categoria: "Salud", estado: "escrito" },
   { id: "invencible", titulo: "Invicto", autor: "Marcos Vázquez", ano: 2021, categoria: "Salud", estado: "escrito" },
   { id: "zonas-azules", titulo: "El secreto de las zonas azules", autor: "Dan Buettner", ano: 2008, categoria: "Salud", estado: "escrito" },
