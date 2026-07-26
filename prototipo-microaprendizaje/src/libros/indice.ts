@@ -1,272 +1,294 @@
-import { MEDITACIONES } from "./meditaciones";
-import { SAPIENS } from "./sapiens";
-import { MIL_NOVECIENTOS_OCHENTA_Y_CUATRO } from "./1984";
-import { HABITOS_ATOMICOS } from "./habitos-atomicos";
-import { PSICOLOGIA_DINERO } from "./psicologia-dinero";
-import { INFLUENCIA, MINDSET, INTELIGENCIA_EMOCIONAL, AMIGOS_INFLUIR } from "./psicologia";
-import { PADRE_RICO, BABILONIA, SEMANA_4_HORAS, PIENSA_HAZTE_RICO } from "./economia";
-import { BUSCA_SENTIDO, IKIGAI, CUATRO_ACUERDOS, SUTIL_ARTE } from "./filosofia";
-import { COSMOS, POR_QUE_DORMIMOS, BREVE_HISTORIA_TIEMPO, RESPIRA } from "./ciencia-salud";
-import { PRINCIPITO, ALQUIMISTA, REBELION_GRANJA, FAHRENHEIT } from "./literatura";
-import { ROBA_ARTISTA, GUERRA_ARTE, MODOS_VER, CARTAS_THEO, LEONARDO, CARTAS_JOVEN_POETA, HISTORIA_ARTE, ARTE_SIN_HOMBRES, ACTO_CREATIVO, CAMINO_ARTISTA, DIARIOS_FRIDA, VIDA_DALI, MIENTRAS_ESCRIBO, SOBRE_FOTOGRAFIA, HEROE_MIL_CARAS, VIDAS_VASARI, REPRODUCTIBILIDAD, PAJARO_A_PAJARO, ESPIRITUAL_ARTE, EL_ELEMENTO, MAGIA_CREAR } from "./arte";
-import { ANA_FRANK, ARMAS_GERMENES, INFINITO_JUNCO, MANDELA, MALALA, HOMO_DEUS, MUNDO_AYER, SPQR, PILARES_TIERRA, CANONES_AGOSTO, CHICO_PIJAMA, TATUADOR, HISTORIA_ESPANA, SI_ESTO_HOMBRE, ORIGENES_TOTALITARISMO, HOMENAJE_CATALUNA, GUERRA_CIVIL_THOMAS, EICHMANN_JERUSALEN, POSTGUERRA, IMPERIOFOBIA, SOBRE_TIRANIA, HOMO_SOVIETICUS, AUSCHWITZ_REES } from "./historia";
-import { GEN_EGOISTA, FEYNMAN, VIDA_ARBOLES, CASI_TODO, MUNDO_DEMONIOS, EL_GEN, EINSTEIN, ASTROFISICA_PRISA, ULTIMOS_DINOSAURIOS, UNIVERSO_CASCARA, MUSICA_PRIMOS, UNIVERSO_MANO, ORIGEN_ESPECIES, HENRIETTA_LACKS, DOBLE_HELICE, REVOLUCIONES_CIENTIFICAS, EMPERADOR_MALES, SEXTA_EXTINCION, PULGAR_PANDA, SIETE_LECCIONES_FISICA, CUCHARA_MENGUANTE, ORDEN_DEL_TIEMPO } from "./ciencia";
-import { CUERPO_CUENTA, DIGESTION, NACIDOS_CORRER, DILEMA_OMNIVORO, ALIENTO_AIRE, ZONAS_AZULES, OUTLIVE, COME_COMIDA_REAL, INVICTO, MILAGRO_MANANA, SER_MORTAL, CODIGO_OBESIDAD, DIETA_COJEA, VIVIR_PLENITUD, ANTICANCER, CEREBRO_DE_PAN, MILAGRO_METABOLICO, PODER_METABOLISMO, DEJA_DE_SER_TU } from "./salud";
-import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSBY, MATAR_RUISENOR, HOBBIT } from "./literatura";
-import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
-import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS, INVERSOR_INTELIGENTE, CERO_A_UNO, ANTIFRAGIL, LEAN_STARTUP, MENTE_MILLONARIA, CAPITAL_XXI, POR_QUE_FRACASAN, RIQUEZA_NACIONES, REPENSAR_POBREZA, PASEO_ALEATORIO, DOCTRINA_SHOCK, SUPERPRONOSTICADORES, BOGLE_SENTIDO_COMUN, MILLONARIO_AL_LADO, DINERO_DOMINA_JUEGO } from "./economia";
-import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA, NUDGE, DEEP_WORK, PODER_AHORA, PODER_HABITOS, ARTE_DE_AMAR, LENGUAJES_AMOR, COSAS_BUENAS, INTRO_PSICOANALISIS, ERROR_DESCARTES, MARTE_VENUS, SENTIRSE_BIEN, CEREBRO_DEL_NINO, MANERAS_AMAR } from "./psicologia";
-import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY, SENOR_MOSCAS, DRACULA, VIEJO_MAR, ODISEA, SOMBRA_VIENTO, NOMBRE_ROSA, FICCIONES, CASA_ESPIRITUS, CUENTOS_POE, MUJERCITAS, ELEGANCIA_ERIZO } from "./literatura";
-import { ARTE_GUERRA, ETICA_AMADOR, TAO_TE_CHING, ENQUIRIDION, MONJE_FERRARI, MUNDO_SOFIA, APOLOGIA_SOCRATES, SEGUNDO_SEXO, DISCURSO_METODO, ETICA_NICOMACO, REPUBLICA_PLATON, ENSAYOS_MONTAIGNE, EXISTENCIALISMO_HUMANISMO, CONTRATO_SOCIAL, MAS_ALLA_BIEN_MAL } from "./filosofia";
-import { ORGULLO_PREJUICIO, GUARDIAN_CENTENO, PEDRO_PARAMO, MOBY_DICK, MADAME_BOVARY, MONTECRISTO, BERNARDA_ALBA, ANA_KARENINA, RAYUELA, EL_TUNEL, RENGLONES_TORCIDOS, LOS_MISERABLES, GUERRA_Y_PAZ } from "./literatura";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
 
 /* ==========================================================================
    El índice de resúmenes escritos.
 
-   `comprobar()` es la red de seguridad del catálogo: cruza lo que dice el
-   registro con lo que existe de verdad. Si un libro figura como «escrito» y
-   no hay fichero, o al revés, aquí se ve. Sin esto, el catálogo se convierte
-   en una lista de buenas intenciones a las dos semanas.
+   Aquí no hay texto: hay doscientas maneras de ir a buscarlo. Cada entrada
+   es una función que importa su fichero cuando de verdad hace falta, y no
+   antes. Antes esto eran doscientos `import` estáticos, lo que significaba
+   que abrir la app —para leer un libro— descargaba los doscientos: seis
+   megas de golpe para ver cinco mil palabras.
+
+   Lo que la biblioteca necesita para pintar la estantería (títulos, autores,
+   minutos por capítulo) no vive aquí sino en `meta.ts`, que se genera con
+   `scripts/generar-meta.mjs` y pesa unas décimas de lo que pesa un solo
+   fichero de categoría. El texto entero solo se descarga al abrir un libro.
+
+   `comprobar()` sigue siendo la red de seguridad del catálogo: cruza lo que
+   dice el registro con lo que existe de verdad. Ahora compara identificadores
+   en vez de resúmenes cargados, así que no descarga nada para hacerlo.
    ========================================================================== */
 
-export const RESUMENES: Record<string, Resumen> = {
-  meditaciones: MEDITACIONES,
-  sapiens: SAPIENS,
-  "1984": MIL_NOVECIENTOS_OCHENTA_Y_CUATRO,
-  "habitos-atomicos": HABITOS_ATOMICOS,
-  "psicologia-dinero": PSICOLOGIA_DINERO,
+type Cargador = () => Promise<Resumen>;
+
+const CARGADORES: Record<string, Cargador> = {
+  meditaciones: () => import("./meditaciones").then((m) => m.MEDITACIONES),
+  sapiens: () => import("./sapiens").then((m) => m.SAPIENS),
+  "1984": () => import("./1984").then((m) => m.MIL_NOVECIENTOS_OCHENTA_Y_CUATRO),
+  "habitos-atomicos": () => import("./habitos-atomicos").then((m) => m.HABITOS_ATOMICOS),
+  "psicologia-dinero": () => import("./psicologia-dinero").then((m) => m.PSICOLOGIA_DINERO),
 
   /* Psicología */
-  influencia: INFLUENCIA,
-  mindset: MINDSET,
-  "inteligencia-emocional": INTELIGENCIA_EMOCIONAL,
-  "amigos-influir": AMIGOS_INFLUIR,
+  influencia: () => import("./psicologia").then((m) => m.INFLUENCIA),
+  mindset: () => import("./psicologia").then((m) => m.MINDSET),
+  "inteligencia-emocional": () => import("./psicologia").then((m) => m.INTELIGENCIA_EMOCIONAL),
+  "amigos-influir": () => import("./psicologia").then((m) => m.AMIGOS_INFLUIR),
 
   /* Economía */
-  "padre-rico": PADRE_RICO,
-  "hombre-rico-babilonia": BABILONIA,
-  "semana-4-horas": SEMANA_4_HORAS,
-  "piensa-hazte-rico": PIENSA_HAZTE_RICO,
+  "padre-rico": () => import("./economia").then((m) => m.PADRE_RICO),
+  "hombre-rico-babilonia": () => import("./economia").then((m) => m.BABILONIA),
+  "semana-4-horas": () => import("./economia").then((m) => m.SEMANA_4_HORAS),
+  "piensa-hazte-rico": () => import("./economia").then((m) => m.PIENSA_HAZTE_RICO),
 
   /* Filosofía */
-  "busca-sentido": BUSCA_SENTIDO,
-  ikigai: IKIGAI,
-  "cuatro-acuerdos": CUATRO_ACUERDOS,
-  "sutil-arte": SUTIL_ARTE,
+  "busca-sentido": () => import("./filosofia").then((m) => m.BUSCA_SENTIDO),
+  ikigai: () => import("./filosofia").then((m) => m.IKIGAI),
+  "cuatro-acuerdos": () => import("./filosofia").then((m) => m.CUATRO_ACUERDOS),
+  "sutil-arte": () => import("./filosofia").then((m) => m.SUTIL_ARTE),
 
   /* Ciencia y salud */
-  cosmos: COSMOS,
-  "por-que-dormimos": POR_QUE_DORMIMOS,
-  "breve-historia-tiempo": BREVE_HISTORIA_TIEMPO,
-  respira: RESPIRA,
+  cosmos: () => import("./ciencia-salud").then((m) => m.COSMOS),
+  "por-que-dormimos": () => import("./ciencia-salud").then((m) => m.POR_QUE_DORMIMOS),
+  "breve-historia-tiempo": () => import("./ciencia-salud").then((m) => m.BREVE_HISTORIA_TIEMPO),
+  respira: () => import("./ciencia-salud").then((m) => m.RESPIRA),
 
   /* Literatura */
-  principito: PRINCIPITO,
-  alquimista: ALQUIMISTA,
-  "rebelion-granja": REBELION_GRANJA,
-  fahrenheit: FAHRENHEIT,
+  principito: () => import("./literatura").then((m) => m.PRINCIPITO),
+  alquimista: () => import("./literatura").then((m) => m.ALQUIMISTA),
+  "rebelion-granja": () => import("./literatura").then((m) => m.REBELION_GRANJA),
+  fahrenheit: () => import("./literatura").then((m) => m.FAHRENHEIT),
 
   /* Arte */
-  "roba-artista": ROBA_ARTISTA,
-  "guerra-arte": GUERRA_ARTE,
-  "modos-ver": MODOS_VER,
-  "van-gogh-cartas": CARTAS_THEO,
-  leonardo: LEONARDO,
+  "roba-artista": () => import("./arte").then((m) => m.ROBA_ARTISTA),
+  "guerra-arte": () => import("./arte").then((m) => m.GUERRA_ARTE),
+  "modos-ver": () => import("./arte").then((m) => m.MODOS_VER),
+  "van-gogh-cartas": () => import("./arte").then((m) => m.CARTAS_THEO),
+  leonardo: () => import("./arte").then((m) => m.LEONARDO),
 
   /* Historia */
-  "diario-ana-frank": ANA_FRANK,
-  "armas-germenes": ARMAS_GERMENES,
-  "infinito-junco": INFINITO_JUNCO,
-  mandela: MANDELA,
-  malala: MALALA,
+  "diario-ana-frank": () => import("./historia").then((m) => m.ANA_FRANK),
+  "armas-germenes": () => import("./historia").then((m) => m.ARMAS_GERMENES),
+  "infinito-junco": () => import("./historia").then((m) => m.INFINITO_JUNCO),
+  mandela: () => import("./historia").then((m) => m.MANDELA),
+  malala: () => import("./historia").then((m) => m.MALALA),
 
   /* Ciencia */
-  "gen-egoista": GEN_EGOISTA,
-  feynman: FEYNMAN,
-  "vida-arboles": VIDA_ARBOLES,
-  "casi-todo": CASI_TODO,
-  "mundo-demonios": MUNDO_DEMONIOS,
+  "gen-egoista": () => import("./ciencia").then((m) => m.GEN_EGOISTA),
+  feynman: () => import("./ciencia").then((m) => m.FEYNMAN),
+  "vida-arboles": () => import("./ciencia").then((m) => m.VIDA_ARBOLES),
+  "casi-todo": () => import("./ciencia").then((m) => m.CASI_TODO),
+  "mundo-demonios": () => import("./ciencia").then((m) => m.MUNDO_DEMONIOS),
 
   /* Salud */
-  "cuerpo-cuenta": CUERPO_CUENTA,
-  "digestion-cuestion": DIGESTION,
-  "nacidos-correr": NACIDOS_CORRER,
-  "dilema-omnivoro": DILEMA_OMNIVORO,
-  "aliento-aire": ALIENTO_AIRE,
+  "cuerpo-cuenta": () => import("./salud").then((m) => m.CUERPO_CUENTA),
+  "digestion-cuestion": () => import("./salud").then((m) => m.DIGESTION),
+  "nacidos-correr": () => import("./salud").then((m) => m.NACIDOS_CORRER),
+  "dilema-omnivoro": () => import("./salud").then((m) => m.DILEMA_OMNIVORO),
+  "aliento-aire": () => import("./salud").then((m) => m.ALIENTO_AIRE),
 
   /* Literatura — clásicos */
-  "cien-anos": CIEN_ANOS,
-  quijote: QUIJOTE,
-  "mundo-feliz": MUNDO_FELIZ,
-  metamorfosis: METAMORFOSIS,
-  frankenstein: FRANKENSTEIN,
-  "gran-gatsby": GRAN_GATSBY,
-  "matar-ruisenor": MATAR_RUISENOR,
-  hobbit: HOBBIT,
+  "cien-anos": () => import("./literatura").then((m) => m.CIEN_ANOS),
+  quijote: () => import("./literatura").then((m) => m.QUIJOTE),
+  "mundo-feliz": () => import("./literatura").then((m) => m.MUNDO_FELIZ),
+  metamorfosis: () => import("./literatura").then((m) => m.METAMORFOSIS),
+  frankenstein: () => import("./literatura").then((m) => m.FRANKENSTEIN),
+  "gran-gatsby": () => import("./literatura").then((m) => m.GRAN_GATSBY),
+  "matar-ruisenor": () => import("./literatura").then((m) => m.MATAR_RUISENOR),
+  hobbit: () => import("./literatura").then((m) => m.HOBBIT),
 
   /* Filosofía */
-  principe: PRINCIPE,
-  "brevedad-vida": BREVEDAD_VIDA,
-  zaratustra: ZARATUSTRA,
-  sisifo: SISIFO,
+  principe: () => import("./filosofia").then((m) => m.PRINCIPE),
+  "brevedad-vida": () => import("./filosofia").then((m) => m.BREVEDAD_VIDA),
+  zaratustra: () => import("./filosofia").then((m) => m.ZARATUSTRA),
+  sisifo: () => import("./filosofia").then((m) => m.SISIFO),
 
   /* Economía */
-  freakonomics: FREAKONOMICS,
-  "cisne-negro": CISNE_NEGRO,
-  factfulness: FACTFULNESS,
-  "steve-jobs": STEVE_JOBS,
+  freakonomics: () => import("./economia").then((m) => m.FREAKONOMICS),
+  "cisne-negro": () => import("./economia").then((m) => m.CISNE_NEGRO),
+  factfulness: () => import("./economia").then((m) => m.FACTFULNESS),
+  "steve-jobs": () => import("./economia").then((m) => m.STEVE_JOBS),
 
   /* Psicología */
-  "pensar-rapido": PENSAR_RAPIDO,
-  "siete-habitos": SIETE_HABITOS,
-  flow: FLOW,
-  educada: EDUCADA,
+  "pensar-rapido": () => import("./psicologia").then((m) => m.PENSAR_RAPIDO),
+  "siete-habitos": () => import("./psicologia").then((m) => m.SIETE_HABITOS),
+  flow: () => import("./psicologia").then((m) => m.FLOW),
+  educada: () => import("./psicologia").then((m) => m.EDUCADA),
 
   /* Capítulos largos */
-  "crimen-castigo": CRIMEN_CASTIGO,
-  extranjero: EXTRANJERO,
-  "dorian-gray": DORIAN_GRAY,
-  "arte-guerra": ARTE_GUERRA,
-  "senor-moscas": SENOR_MOSCAS,
-  "homo-deus": HOMO_DEUS,
-  dracula: DRACULA,
-  "viejo-mar": VIEJO_MAR,
-  odisea: ODISEA,
-  "sombra-viento": SOMBRA_VIENTO,
-  "nombre-rosa": NOMBRE_ROSA,
-  "orgullo-prejuicio": ORGULLO_PREJUICIO,
-  "cartas-joven-poeta": CARTAS_JOVEN_POETA,
-  "mundo-ayer": MUNDO_AYER,
-  "historia-arte": HISTORIA_ARTE,
-  "zonas-azules": ZONAS_AZULES,
-  "gen-historia": EL_GEN,
-  "arte-sin-hombres": ARTE_SIN_HOMBRES,
-  spqr: SPQR,
-  outlive: OUTLIVE,
-  einstein: EINSTEIN,
-  "acto-creativo": ACTO_CREATIVO,
-  nudge: NUDGE,
-  "inversor-inteligente": INVERSOR_INTELIGENTE,
-  "pilares-tierra": PILARES_TIERRA,
-  "astrofisica-prisa": ASTROFISICA_PRISA,
-  "camino-artista": CAMINO_ARTISTA,
-  "come-comida-real": COME_COMIDA_REAL,
-  "etica-amador": ETICA_AMADOR,
-  "cero-a-uno": CERO_A_UNO,
-  "canones-agosto": CANONES_AGOSTO,
-  "mapa-mundos": ULTIMOS_DINOSAURIOS,
-  "deep-work": DEEP_WORK,
-  "guardian-centeno": GUARDIAN_CENTENO,
-  "diarios-frida": DIARIOS_FRIDA,
-  invencible: INVICTO,
-  tao: TAO_TE_CHING,
-  antifragil: ANTIFRAGIL,
-  "chico-pijama": CHICO_PIJAMA,
-  "pedro-paramo": PEDRO_PARAMO,
-  "moby-dick": MOBY_DICK,
-  "madame-bovary": MADAME_BOVARY,
-  "montecristo": MONTECRISTO,
-  "bernarda-alba": BERNARDA_ALBA,
-  "ana-karenina": ANA_KARENINA,
-  "rayuela": RAYUELA,
-  "el-tunel": EL_TUNEL,
-  "renglones-torcidos": RENGLONES_TORCIDOS,
-  "los-miserables": LOS_MISERABLES,
-  "guerra-y-paz": GUERRA_Y_PAZ,
-  "universo-cascara": UNIVERSO_CASCARA,
-  "poder-ahora": PODER_AHORA,
-  "vida-dali": VIDA_DALI,
-  "milagro-manana": MILAGRO_MANANA,
-  "musica-primos": MUSICA_PRIMOS,
-  "tatuador": TATUADOR,
-  "enquiridion": ENQUIRIDION,
-  "lean-startup": LEAN_STARTUP,
-  "universo-mano": UNIVERSO_MANO,
-  "siete-lecciones-fisica": SIETE_LECCIONES_FISICA,
-  "orden-del-tiempo": ORDEN_DEL_TIEMPO,
-  "cuchara-menguante": CUCHARA_MENGUANTE,
-  "historia-espana": HISTORIA_ESPANA,
-  "monje-ferrari": MONJE_FERRARI,
-  "mente-millonaria": MENTE_MILLONARIA,
-  "ficciones": FICCIONES,
-  "casa-espiritus": CASA_ESPIRITUS,
-  "cuentos-poe": CUENTOS_POE,
-  "mujercitas": MUJERCITAS,
-  "elegancia-erizo": ELEGANCIA_ERIZO,
-  "mientras-escribo": MIENTRAS_ESCRIBO,
-  "poder-habitos": PODER_HABITOS,
-  "ser-mortal": SER_MORTAL,
-  "sobre-fotografia": SOBRE_FOTOGRAFIA,
-  "arte-de-amar": ARTE_DE_AMAR,
-  "codigo-obesidad": CODIGO_OBESIDAD,
-  "heroe-mil-caras": HEROE_MIL_CARAS,
-  "vidas-vasari": VIDAS_VASARI,
-  "reproductibilidad": REPRODUCTIBILIDAD,
-  "pajaro-a-pajaro": PAJARO_A_PAJARO,
-  "espiritual-arte": ESPIRITUAL_ARTE,
-  "el-elemento": EL_ELEMENTO,
-  "magia-crear": MAGIA_CREAR,
-  "dieta-cojea": DIETA_COJEA,
-  "vivir-plenitud": VIVIR_PLENITUD,
-  "anticancer": ANTICANCER,
-  "cerebro-de-pan": CEREBRO_DE_PAN,
-  "milagro-metabolico": MILAGRO_METABOLICO,
-  "poder-metabolismo": PODER_METABOLISMO,
-  "deja-de-ser-tu": DEJA_DE_SER_TU,
-  "lenguajes-amor": LENGUAJES_AMOR,
-  "cosas-buenas": COSAS_BUENAS,
-  "intro-psicoanalisis": INTRO_PSICOANALISIS,
-  "error-descartes": ERROR_DESCARTES,
-  "marte-venus": MARTE_VENUS,
-  "sentirse-bien": SENTIRSE_BIEN,
-  "cerebro-del-nino": CEREBRO_DEL_NINO,
-  "maneras-de-amar": MANERAS_AMAR,
-  "si-esto-hombre": SI_ESTO_HOMBRE,
-  "mundo-sofia": MUNDO_SOFIA,
-  "apologia-socrates": APOLOGIA_SOCRATES,
-  "segundo-sexo": SEGUNDO_SEXO,
-  "existencialismo-humanismo": EXISTENCIALISMO_HUMANISMO,
-  "mas-alla-bien-mal": MAS_ALLA_BIEN_MAL,
-  "contrato-social": CONTRATO_SOCIAL,
-  "discurso-metodo": DISCURSO_METODO,
-  "etica-nicomaco": ETICA_NICOMACO,
-  "republica-platon": REPUBLICA_PLATON,
-  "ensayos-montaigne": ENSAYOS_MONTAIGNE,
-  "origen-especies": ORIGEN_ESPECIES,
-  "henrietta-lacks": HENRIETTA_LACKS,
-  "doble-helice": DOBLE_HELICE,
-  "revoluciones-cientificas": REVOLUCIONES_CIENTIFICAS,
-  "emperador-males": EMPERADOR_MALES,
-  "sexta-extincion": SEXTA_EXTINCION,
-  "pulgar-panda": PULGAR_PANDA,
-  "capital-siglo-xxi": CAPITAL_XXI,
-  "por-que-fracasan": POR_QUE_FRACASAN,
-  "riqueza-naciones": RIQUEZA_NACIONES,
-  "repensar-pobreza": REPENSAR_POBREZA,
-  "paseo-aleatorio": PASEO_ALEATORIO,
-  "bogle-sentido-comun": BOGLE_SENTIDO_COMUN,
-  "millonario-al-lado": MILLONARIO_AL_LADO,
-  "dinero-domina-juego": DINERO_DOMINA_JUEGO,
-  "doctrina-shock": DOCTRINA_SHOCK,
-  "superpronosticadores": SUPERPRONOSTICADORES,
-  "origenes-totalitarismo": ORIGENES_TOTALITARISMO,
-  "sobre-tirania": SOBRE_TIRANIA,
-  "homo-sovieticus": HOMO_SOVIETICUS,
-  "homenaje-cataluna": HOMENAJE_CATALUNA,
-  "guerra-civil-thomas": GUERRA_CIVIL_THOMAS,
-  "eichmann-jerusalen": EICHMANN_JERUSALEN,
-  "postguerra": POSTGUERRA,
-  "imperiofobia": IMPERIOFOBIA,
-  "auschwitz-rees": AUSCHWITZ_REES,
+  "crimen-castigo": () => import("./literatura").then((m) => m.CRIMEN_CASTIGO),
+  extranjero: () => import("./literatura").then((m) => m.EXTRANJERO),
+  "dorian-gray": () => import("./literatura").then((m) => m.DORIAN_GRAY),
+  "arte-guerra": () => import("./filosofia").then((m) => m.ARTE_GUERRA),
+  "senor-moscas": () => import("./literatura").then((m) => m.SENOR_MOSCAS),
+  "homo-deus": () => import("./historia").then((m) => m.HOMO_DEUS),
+  dracula: () => import("./literatura").then((m) => m.DRACULA),
+  "viejo-mar": () => import("./literatura").then((m) => m.VIEJO_MAR),
+  odisea: () => import("./literatura").then((m) => m.ODISEA),
+  "sombra-viento": () => import("./literatura").then((m) => m.SOMBRA_VIENTO),
+  "nombre-rosa": () => import("./literatura").then((m) => m.NOMBRE_ROSA),
+  "orgullo-prejuicio": () => import("./literatura").then((m) => m.ORGULLO_PREJUICIO),
+  "cartas-joven-poeta": () => import("./arte").then((m) => m.CARTAS_JOVEN_POETA),
+  "mundo-ayer": () => import("./historia").then((m) => m.MUNDO_AYER),
+  "historia-arte": () => import("./arte").then((m) => m.HISTORIA_ARTE),
+  "zonas-azules": () => import("./salud").then((m) => m.ZONAS_AZULES),
+  "gen-historia": () => import("./ciencia").then((m) => m.EL_GEN),
+  "arte-sin-hombres": () => import("./arte").then((m) => m.ARTE_SIN_HOMBRES),
+  spqr: () => import("./historia").then((m) => m.SPQR),
+  outlive: () => import("./salud").then((m) => m.OUTLIVE),
+  einstein: () => import("./ciencia").then((m) => m.EINSTEIN),
+  "acto-creativo": () => import("./arte").then((m) => m.ACTO_CREATIVO),
+  nudge: () => import("./psicologia").then((m) => m.NUDGE),
+  "inversor-inteligente": () => import("./economia").then((m) => m.INVERSOR_INTELIGENTE),
+  "pilares-tierra": () => import("./historia").then((m) => m.PILARES_TIERRA),
+  "astrofisica-prisa": () => import("./ciencia").then((m) => m.ASTROFISICA_PRISA),
+  "camino-artista": () => import("./arte").then((m) => m.CAMINO_ARTISTA),
+  "come-comida-real": () => import("./salud").then((m) => m.COME_COMIDA_REAL),
+  "etica-amador": () => import("./filosofia").then((m) => m.ETICA_AMADOR),
+  "cero-a-uno": () => import("./economia").then((m) => m.CERO_A_UNO),
+  "canones-agosto": () => import("./historia").then((m) => m.CANONES_AGOSTO),
+  "mapa-mundos": () => import("./ciencia").then((m) => m.ULTIMOS_DINOSAURIOS),
+  "deep-work": () => import("./psicologia").then((m) => m.DEEP_WORK),
+  "guardian-centeno": () => import("./literatura").then((m) => m.GUARDIAN_CENTENO),
+  "diarios-frida": () => import("./arte").then((m) => m.DIARIOS_FRIDA),
+  invencible: () => import("./salud").then((m) => m.INVICTO),
+  tao: () => import("./filosofia").then((m) => m.TAO_TE_CHING),
+  antifragil: () => import("./economia").then((m) => m.ANTIFRAGIL),
+  "chico-pijama": () => import("./historia").then((m) => m.CHICO_PIJAMA),
+  "pedro-paramo": () => import("./literatura").then((m) => m.PEDRO_PARAMO),
+  "moby-dick": () => import("./literatura").then((m) => m.MOBY_DICK),
+  "madame-bovary": () => import("./literatura").then((m) => m.MADAME_BOVARY),
+  montecristo: () => import("./literatura").then((m) => m.MONTECRISTO),
+  "bernarda-alba": () => import("./literatura").then((m) => m.BERNARDA_ALBA),
+  "ana-karenina": () => import("./literatura").then((m) => m.ANA_KARENINA),
+  rayuela: () => import("./literatura").then((m) => m.RAYUELA),
+  "el-tunel": () => import("./literatura").then((m) => m.EL_TUNEL),
+  "renglones-torcidos": () => import("./literatura").then((m) => m.RENGLONES_TORCIDOS),
+  "los-miserables": () => import("./literatura").then((m) => m.LOS_MISERABLES),
+  "guerra-y-paz": () => import("./literatura").then((m) => m.GUERRA_Y_PAZ),
+  "universo-cascara": () => import("./ciencia").then((m) => m.UNIVERSO_CASCARA),
+  "poder-ahora": () => import("./psicologia").then((m) => m.PODER_AHORA),
+  "vida-dali": () => import("./arte").then((m) => m.VIDA_DALI),
+  "milagro-manana": () => import("./salud").then((m) => m.MILAGRO_MANANA),
+  "musica-primos": () => import("./ciencia").then((m) => m.MUSICA_PRIMOS),
+  tatuador: () => import("./historia").then((m) => m.TATUADOR),
+  enquiridion: () => import("./filosofia").then((m) => m.ENQUIRIDION),
+  "lean-startup": () => import("./economia").then((m) => m.LEAN_STARTUP),
+  "universo-mano": () => import("./ciencia").then((m) => m.UNIVERSO_MANO),
+  "siete-lecciones-fisica": () => import("./ciencia").then((m) => m.SIETE_LECCIONES_FISICA),
+  "orden-del-tiempo": () => import("./ciencia").then((m) => m.ORDEN_DEL_TIEMPO),
+  "cuchara-menguante": () => import("./ciencia").then((m) => m.CUCHARA_MENGUANTE),
+  "historia-espana": () => import("./historia").then((m) => m.HISTORIA_ESPANA),
+  "monje-ferrari": () => import("./filosofia").then((m) => m.MONJE_FERRARI),
+  "mente-millonaria": () => import("./economia").then((m) => m.MENTE_MILLONARIA),
+  ficciones: () => import("./literatura").then((m) => m.FICCIONES),
+  "casa-espiritus": () => import("./literatura").then((m) => m.CASA_ESPIRITUS),
+  "cuentos-poe": () => import("./literatura").then((m) => m.CUENTOS_POE),
+  mujercitas: () => import("./literatura").then((m) => m.MUJERCITAS),
+  "elegancia-erizo": () => import("./literatura").then((m) => m.ELEGANCIA_ERIZO),
+  "mientras-escribo": () => import("./arte").then((m) => m.MIENTRAS_ESCRIBO),
+  "poder-habitos": () => import("./psicologia").then((m) => m.PODER_HABITOS),
+  "ser-mortal": () => import("./salud").then((m) => m.SER_MORTAL),
+  "sobre-fotografia": () => import("./arte").then((m) => m.SOBRE_FOTOGRAFIA),
+  "arte-de-amar": () => import("./psicologia").then((m) => m.ARTE_DE_AMAR),
+  "codigo-obesidad": () => import("./salud").then((m) => m.CODIGO_OBESIDAD),
+  "heroe-mil-caras": () => import("./arte").then((m) => m.HEROE_MIL_CARAS),
+  "vidas-vasari": () => import("./arte").then((m) => m.VIDAS_VASARI),
+  reproductibilidad: () => import("./arte").then((m) => m.REPRODUCTIBILIDAD),
+  "pajaro-a-pajaro": () => import("./arte").then((m) => m.PAJARO_A_PAJARO),
+  "espiritual-arte": () => import("./arte").then((m) => m.ESPIRITUAL_ARTE),
+  "el-elemento": () => import("./arte").then((m) => m.EL_ELEMENTO),
+  "magia-crear": () => import("./arte").then((m) => m.MAGIA_CREAR),
+  "dieta-cojea": () => import("./salud").then((m) => m.DIETA_COJEA),
+  "vivir-plenitud": () => import("./salud").then((m) => m.VIVIR_PLENITUD),
+  anticancer: () => import("./salud").then((m) => m.ANTICANCER),
+  "cerebro-de-pan": () => import("./salud").then((m) => m.CEREBRO_DE_PAN),
+  "milagro-metabolico": () => import("./salud").then((m) => m.MILAGRO_METABOLICO),
+  "poder-metabolismo": () => import("./salud").then((m) => m.PODER_METABOLISMO),
+  "deja-de-ser-tu": () => import("./salud").then((m) => m.DEJA_DE_SER_TU),
+  "lenguajes-amor": () => import("./psicologia").then((m) => m.LENGUAJES_AMOR),
+  "cosas-buenas": () => import("./psicologia").then((m) => m.COSAS_BUENAS),
+  "intro-psicoanalisis": () => import("./psicologia").then((m) => m.INTRO_PSICOANALISIS),
+  "error-descartes": () => import("./psicologia").then((m) => m.ERROR_DESCARTES),
+  "marte-venus": () => import("./psicologia").then((m) => m.MARTE_VENUS),
+  "sentirse-bien": () => import("./psicologia").then((m) => m.SENTIRSE_BIEN),
+  "cerebro-del-nino": () => import("./psicologia").then((m) => m.CEREBRO_DEL_NINO),
+  "maneras-de-amar": () => import("./psicologia").then((m) => m.MANERAS_AMAR),
+  "si-esto-hombre": () => import("./historia").then((m) => m.SI_ESTO_HOMBRE),
+  "mundo-sofia": () => import("./filosofia").then((m) => m.MUNDO_SOFIA),
+  "apologia-socrates": () => import("./filosofia").then((m) => m.APOLOGIA_SOCRATES),
+  "segundo-sexo": () => import("./filosofia").then((m) => m.SEGUNDO_SEXO),
+  "existencialismo-humanismo": () => import("./filosofia").then((m) => m.EXISTENCIALISMO_HUMANISMO),
+  "mas-alla-bien-mal": () => import("./filosofia").then((m) => m.MAS_ALLA_BIEN_MAL),
+  "contrato-social": () => import("./filosofia").then((m) => m.CONTRATO_SOCIAL),
+  "discurso-metodo": () => import("./filosofia").then((m) => m.DISCURSO_METODO),
+  "etica-nicomaco": () => import("./filosofia").then((m) => m.ETICA_NICOMACO),
+  "republica-platon": () => import("./filosofia").then((m) => m.REPUBLICA_PLATON),
+  "ensayos-montaigne": () => import("./filosofia").then((m) => m.ENSAYOS_MONTAIGNE),
+  "origen-especies": () => import("./ciencia").then((m) => m.ORIGEN_ESPECIES),
+  "henrietta-lacks": () => import("./ciencia").then((m) => m.HENRIETTA_LACKS),
+  "doble-helice": () => import("./ciencia").then((m) => m.DOBLE_HELICE),
+  "revoluciones-cientificas": () => import("./ciencia").then((m) => m.REVOLUCIONES_CIENTIFICAS),
+  "emperador-males": () => import("./ciencia").then((m) => m.EMPERADOR_MALES),
+  "sexta-extincion": () => import("./ciencia").then((m) => m.SEXTA_EXTINCION),
+  "pulgar-panda": () => import("./ciencia").then((m) => m.PULGAR_PANDA),
+  "capital-siglo-xxi": () => import("./economia").then((m) => m.CAPITAL_XXI),
+  "por-que-fracasan": () => import("./economia").then((m) => m.POR_QUE_FRACASAN),
+  "riqueza-naciones": () => import("./economia").then((m) => m.RIQUEZA_NACIONES),
+  "repensar-pobreza": () => import("./economia").then((m) => m.REPENSAR_POBREZA),
+  "paseo-aleatorio": () => import("./economia").then((m) => m.PASEO_ALEATORIO),
+  "bogle-sentido-comun": () => import("./economia").then((m) => m.BOGLE_SENTIDO_COMUN),
+  "millonario-al-lado": () => import("./economia").then((m) => m.MILLONARIO_AL_LADO),
+  "dinero-domina-juego": () => import("./economia").then((m) => m.DINERO_DOMINA_JUEGO),
+  "doctrina-shock": () => import("./economia").then((m) => m.DOCTRINA_SHOCK),
+  superpronosticadores: () => import("./economia").then((m) => m.SUPERPRONOSTICADORES),
+  "origenes-totalitarismo": () => import("./historia").then((m) => m.ORIGENES_TOTALITARISMO),
+  "sobre-tirania": () => import("./historia").then((m) => m.SOBRE_TIRANIA),
+  "homo-sovieticus": () => import("./historia").then((m) => m.HOMO_SOVIETICUS),
+  "homenaje-cataluna": () => import("./historia").then((m) => m.HOMENAJE_CATALUNA),
+  "guerra-civil-thomas": () => import("./historia").then((m) => m.GUERRA_CIVIL_THOMAS),
+  "eichmann-jerusalen": () => import("./historia").then((m) => m.EICHMANN_JERUSALEN),
+  postguerra: () => import("./historia").then((m) => m.POSTGUERRA),
+  imperiofobia: () => import("./historia").then((m) => m.IMPERIOFOBIA),
+  "auschwitz-rees": () => import("./historia").then((m) => m.AUSCHWITZ_REES),
 };
+
+/** Los identificadores con resumen escrito. No carga ningún texto. */
+export const IDS: string[] = Object.keys(CARGADORES);
+
+/** Lo ya descargado en esta sesión, para no volver a pedirlo. */
+const cache = new Map<string, Resumen>();
+
+/** El resumen si ya está en memoria; si no, undefined y sin ir a buscarlo. */
+export function resumenCargado(id: string): Resumen | undefined {
+  return cache.get(id);
+}
+
+/** Descarga el resumen de un libro —o lo devuelve de la cache— y lo guarda. */
+export async function cargarResumen(id: string): Promise<Resumen | undefined> {
+  const guardado = cache.get(id);
+  if (guardado) return guardado;
+  const cargador = CARGADORES[id];
+  if (!cargador) return undefined;
+  const resumen = await cargador();
+  cache.set(id, resumen);
+  return resumen;
+}
+
+/* Para los scripts de mantenimiento, que sí necesitan los doscientos a la vez:
+   medir, contar tarjetas y buscar erratas se hace sobre el texto entero. En la
+   app esto no se llama nunca. */
+export async function cargarTodos(): Promise<Record<string, Resumen>> {
+  const entradas = await Promise.all(
+    IDS.map(async (id) => [id, await cargarResumen(id)] as const),
+  );
+  return Object.fromEntries(entradas) as Record<string, Resumen>;
+}
 
 export function comprobar() {
   const marcados = CATALOGO.filter((f) => f.estado === "escrito").map((f) => f.id);
-  const existentes = Object.keys(RESUMENES);
   return {
-    marcadosSinFichero: marcados.filter((id) => !existentes.includes(id)),
-    ficheroSinMarcar: existentes.filter((id) => !marcados.includes(id)),
+    marcadosSinFichero: marcados.filter((id) => !IDS.includes(id)),
+    ficheroSinMarcar: IDS.filter((id) => !marcados.includes(id)),
   };
 }

@@ -9,7 +9,8 @@ import {
   type PanInfo,
 } from "framer-motion";
 import { CARDS, MINUTOS_OBJETIVO, TOTAL_XP, type Card } from "./lesson";
-import { RESUMENES } from "./libros/indice";
+import { cargarResumen, resumenCargado } from "./libros/indice";
+import type { Resumen } from "./libros/tipos";
 import { minutos as minutosDe } from "./libros/tipos";
 import { Scene } from "./Scene";
 import { Racha, RetoDiario } from "./Racha";
@@ -84,9 +85,27 @@ export default function App() {
      sacan de él; si no —el capítulo de Alejandría, que es el único con
      gráficos de datos— se usan las de siempre. Así conviven los dos sin que
      la lección tenga que saber de dónde viene cada cosa. */
-  const resumen = RESUMENES[libro.id];
+  /* El texto ya no está en memoria desde el arranque: se pide al abrir el
+     libro y llega en cuanto llega. Se pide en la ficha, y no al pulsar
+     «empezar», para que el viaje de ida por el mapa del camino sirva de
+     margen y la espera no se note nunca. */
+  const [resumen, setResumen] = useState<Resumen | undefined>(() => resumenCargado(libro.id));
   const cartas = resumen ? resumen.partes[parte]?.tarjetas ?? CARDS : CARDS;
   const objetivoLibro = resumen ? Math.max(1, Math.round(minutosDe(resumen) / resumen.partes.length)) : MINUTOS_OBJETIVO;
+
+  // Al cambiar de libro se vacía lo anterior y se pide lo nuevo. El `vivo`
+  // evita que una descarga lenta de un libro que ya se ha cerrado pise el
+  // texto del que se está leyendo ahora.
+  useEffect(() => {
+    let vivo = true;
+    setResumen(resumenCargado(libro.id));
+    void cargarResumen(libro.id).then((r) => {
+      if (vivo) setResumen(r);
+    });
+    return () => {
+      vivo = false;
+    };
+  }, [libro.id]);
 
   // El regalo aparece cuando ya has visto el inicio un momento. Soltarlo a
   // bocajarro nada más entrar se lee como un anuncio; dejar respirar la
@@ -221,7 +240,13 @@ export default function App() {
               libro={libro}
               completados={completados}
               onVolver={() => setPantalla("detalle")}
-              onEmpezar={(i) => {
+              onEmpezar={async (i) => {
+                /* Casi siempre está ya en memoria y esto no espera nada. Si el
+                   lector ha ido muy rápido o la red va mal, se aguarda aquí:
+                   entrar en la lección con las tarjetas de otro libro sería
+                   peor que un instante de espera en el mapa. */
+                const r = await cargarResumen(libro.id);
+                setResumen(r);
                 arranque.current = Date.now();
                 setParte(i);
                 setPantalla("leccion");

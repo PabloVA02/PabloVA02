@@ -134,14 +134,22 @@ Psicología, Economía, Filosofía, Ciencia, Salud, Literatura, Arte, Historia.
 1. CATÁLOGO    coger los siguientes pendientes de catalogo.ts
 2. RECORRIDO   escribir los 5 títulos de capítulo ANTES que el texto.
                Si leídos seguidos no se ve un viaje, no se empieza
-3. ESCRITURA   capítulo a capítulo, ~19 tarjetas de ~50 palabras
+3. ESCRITURA   capítulo a capítulo, 24 tarjetas de 45-55 palabras
 4. MEDIDA      minutosParte() en cada capítulo. Por debajo de 4, se amplía
-5. ENGANCHE    exportar en su fichero de categoría, importar en indice.ts,
-               marcar "escrito" en catalogo.ts
-6. COMPROBAR   comprobar() → las dos listas vacías
-7. COMPILAR    npx tsc --noEmit
-8. COMMIT
+5. ENGANCHE    exportar en su fichero de categoría, añadir su cargador en
+               indice.ts, marcar "escrito" en catalogo.ts
+6. METADATOS   npx tsx scripts/generar-meta.mjs
+7. COMPROBAR   npx tsx scripts/estado.mjs → las dos listas de comprobar()
+               vacías y ninguna queja de meta.ts desfasado
+8. COMPILAR    npx tsc --noEmit
+9. COMMIT
 ```
+
+El paso 6 no es opcional y es el que más fácil se olvida: la estantería y el
+mapa del camino se pintan desde `src/libros/meta.ts`, que está **generado**.
+Si se amplía un libro y no se regenera, la app seguirá enseñando los minutos
+viejos parada por parada. `estado.mjs` compara lo guardado con lo medido y
+avisa, que para eso está.
 
 Errores que ya han pasado y no hace falta repetir:
 

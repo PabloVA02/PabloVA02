@@ -8,9 +8,14 @@
  * estándar de ~5 minutos por capítulo, y si el catálogo miente.
  */
 
-import { RESUMENES, comprobar } from "../src/libros/indice.ts";
+import { cargarTodos, comprobar } from "../src/libros/indice.ts";
 import { CATALOGO, progreso } from "../src/libros/catalogo.ts";
+import { META_POR_ID } from "../src/libros/meta.ts";
 import { minutos, minutosParte } from "../src/libros/tipos.ts";
+
+/* El índice ya no trae los resúmenes puestos: los va a buscar. Para medir hay
+   que pedirlos todos, que es justo lo que la app no hace nunca. */
+const RESUMENES = await cargarTodos();
 
 /** Objetivo por capítulo. Por debajo de 3 minutos está a medio escribir. */
 const OBJETIVO = 5;
@@ -43,6 +48,22 @@ const { porCategoria } = progreso();
 console.log("\nPor categoría:");
 for (const [cat, { escritos, total }] of Object.entries(porCategoria).sort((a, b) => b[1].escritos - a[1].escritos)) {
   console.log(`  ${cat.padEnd(14)} ${String(escritos).padStart(2)} / ${total}`);
+}
+
+/* La biblioteca pinta la estantería con meta.ts, que está generado. Si alguien
+   amplía un libro y se olvida de regenerarlo, la app enseñaría los minutos
+   viejos en el mapa del camino y nadie se daría cuenta. Aquí sí. */
+const desfasados = [];
+for (const [id, r] of libros) {
+  const m = META_POR_ID[id];
+  if (!m) { desfasados.push(`${id} (falta en meta.ts)`); continue; }
+  if (m.minutos !== minutos(r)) desfasados.push(`${id} (${m.minutos} min guardados, ${minutos(r)} medidos)`);
+}
+if (desfasados.length) {
+  console.log("\n⚠  meta.ts está desfasado — npx tsx scripts/generar-meta.mjs");
+  for (const d of desfasados.slice(0, 12)) console.log("   " + d);
+  if (desfasados.length > 12) console.log(`   ...y ${desfasados.length - 12} más`);
+  process.exitCode = 1;
 }
 
 const { marcadosSinFichero, ficheroSinMarcar } = comprobar();

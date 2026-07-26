@@ -2,8 +2,7 @@ import type { ComponentType } from "react";
 import type { Libro } from "../Biblioteca";
 import type { Categoria } from "./catalogo";
 import { CATALOGO } from "./catalogo";
-import { RESUMENES } from "./indice";
-import { minutos, minutosParte } from "./tipos";
+import { META_POR_ID } from "./meta";
 import {
   AmanteArte, AmanteArteVB, Analisis, AnalisisVB, ArtistaTrabajando, ArtistaTrabajandoVB,
   Aventura, AventuraVB, Descubrir, DescubrirVB, Docente, DocenteVB, Explorando, ExplorandoVB,
@@ -20,9 +19,13 @@ import {
    Los resúmenes se escriben como datos puros —sin saber nada de React— y la
    biblioteca necesita fichas con portada, color y capítulos. Aquí se traduce
    lo uno en lo otro, y solo para los libros que están escritos de verdad:
-   `RESUMENES` es la única fuente. Un libro que figure en el catálogo pero no
-   tenga texto no aparece en la estantería, que es exactamente lo que hay que
-   evitar — una portada bonita que al tocarla no lleva a ninguna parte.
+   `META_POR_ID` es la única fuente. Un libro que figure en el catálogo pero
+   no tenga texto no aparece en la estantería, que es exactamente lo que hay
+   que evitar — una portada bonita que al tocarla no lleva a ninguna parte.
+
+   Se trabaja con los metadatos y no con los resúmenes enteros a propósito:
+   pintar la estantería no necesita el texto, y pedirlo obligaba a descargar
+   los doscientos libros para enseñar doscientas portadas.
 
    El color va por categoría, para que la parrilla se lea por bloques, y la
    ilustración rota dentro de cada categoría: ocho portadas idénticas en fila
@@ -91,11 +94,11 @@ const ARTES: Record<Categoria, Pieza[]> = {
 /** Cuántos van ya de cada categoría, para ir rotando la ilustración. */
 const vistos = {} as Record<Categoria, number>;
 
-/* Se recorre el catálogo y no `RESUMENES` a propósito: así el orden de la
+/* Se recorre el catálogo y no los metadatos a propósito: así el orden de la
    estantería es el del registro —agrupado por categoría— y no el orden
    arbitrario en que se fueron escribiendo los ficheros. */
 export const LIBROS_RESUMEN: Libro[] = CATALOGO.flatMap((ficha) => {
-  const r = RESUMENES[ficha.id];
+  const r = META_POR_ID[ficha.id];
   if (!r) return [];
 
   const n = (vistos[ficha.categoria] = (vistos[ficha.categoria] ?? 0) + 1);
@@ -116,8 +119,8 @@ export const LIBROS_RESUMEN: Libro[] = CATALOGO.flatMap((ficha) => {
       vb: arte.vb,
       progreso: 0,
       ano: r.ano,
-      minutos: minutos(r),
-      capitulos: r.partes.map((p) => ({ titulo: p.titulo, minutos: minutosParte(p) })),
+      minutos: r.minutos,
+      capitulos: r.capitulos,
       jugable: true,
     } satisfies Libro,
   ];
