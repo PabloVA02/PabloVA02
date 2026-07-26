@@ -209,7 +209,7 @@ export const CATALOGO: Ficha[] = [
   { id: "nudge", titulo: "Un pequeño empujón", autor: "Thaler y Sunstein", ano: 2008, categoria: "Psicología", estado: "escrito" },
   { id: "educada", titulo: "Una educación", autor: "Tara Westover", ano: 2018, categoria: "Psicología", estado: "escrito" },
   { id: "poder-habitos", titulo: "El poder de los hábitos", autor: "Charles Duhigg", ano: 2012, categoria: "Psicología", estado: "escrito" },
-  { id: "cerebro-del-nino", titulo: "El cerebro del niño", autor: "Siegel y Payne Bryson", ano: 2011, categoria: "Psicología", estado: "pendiente" },
+  { id: "cerebro-del-nino", titulo: "El cerebro del niño", autor: "Siegel y Payne Bryson", ano: 2011, categoria: "Psicología", estado: "escrito" },
   { id: "lenguajes-amor", titulo: "Los cinco lenguajes del amor", autor: "Gary Chapman", ano: 1992, categoria: "Psicología", estado: "escrito" },
   { id: "cosas-buenas", titulo: "Cómo hacer que te pasen cosas buenas", autor: "Marian Rojas Estapé", ano: 2018, categoria: "Psicología", estado: "escrito" },
   { id: "arte-de-amar", titulo: "El arte de amar", autor: "Erich Fromm", ano: 1956, categoria: "Psicología", estado: "escrito" },
