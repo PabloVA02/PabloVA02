@@ -15,10 +15,10 @@ import { CUERPO_CUENTA, DIGESTION, NACIDOS_CORRER, DILEMA_OMNIVORO, ALIENTO_AIRE
 import { CIEN_ANOS, QUIJOTE, MUNDO_FELIZ, METAMORFOSIS, FRANKENSTEIN, GRAN_GATSBY, MATAR_RUISENOR, HOBBIT } from "./literatura";
 import { PRINCIPE, BREVEDAD_VIDA, ZARATUSTRA, SISIFO } from "./filosofia";
 import { FREAKONOMICS, CISNE_NEGRO, FACTFULNESS, STEVE_JOBS, INVERSOR_INTELIGENTE, CERO_A_UNO } from "./economia";
-import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA, NUDGE } from "./psicologia";
+import { PENSAR_RAPIDO, SIETE_HABITOS, FLOW, EDUCADA, NUDGE, DEEP_WORK } from "./psicologia";
 import { CRIMEN_CASTIGO, EXTRANJERO, DORIAN_GRAY, SENOR_MOSCAS, DRACULA, VIEJO_MAR, ODISEA, SOMBRA_VIENTO, NOMBRE_ROSA } from "./literatura";
 import { ARTE_GUERRA, ETICA_AMADOR } from "./filosofia";
-import { ORGULLO_PREJUICIO } from "./literatura";
+import { ORGULLO_PREJUICIO, GUARDIAN_CENTENO } from "./literatura";
 import { CATALOGO } from "./catalogo";
 import type { Resumen } from "./tipos";
 
@@ -157,6 +157,8 @@ export const RESUMENES: Record<string, Resumen> = {
   "cero-a-uno": CERO_A_UNO,
   "canones-agosto": CANONES_AGOSTO,
   "mapa-mundos": ULTIMOS_DINOSAURIOS,
+  "deep-work": DEEP_WORK,
+  "guardian-centeno": GUARDIAN_CENTENO,
 };
 
 export function comprobar() {
