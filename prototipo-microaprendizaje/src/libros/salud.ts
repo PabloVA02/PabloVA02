@@ -2281,3 +2281,564 @@ export const COME_COMIDA_REAL: Resumen = {
     },
   ],
 };
+
+export const INVICTO: Resumen = {
+  id: "invencible",
+  titulo: "Invicto",
+  autor: "Marcos Vázquez",
+  ano: 2021,
+  gancho: "El mismo principio que hace crecer un músculo —estrés controlado más descanso— aplicado a la cabeza. Con dos mil años de instrucciones ya escritas.",
+  porQue:
+    "Es la mejor traducción al español del estoicismo a un programa de entrenamiento, y también un buen sitio para ver dónde ese marco deja de funcionar.",
+  partes: [
+    {
+      titulo: "El esclavo cojo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Roma, hacia el año 70. Un esclavo con una pierna inútil trabaja en casa de un secretario del emperador Nerón. Cojea desde joven y, según una tradición antigua, quedó así porque su amo le rompió la pierna. Cuenta esa misma tradición que él avisó de que se iba a romper.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando se rompió, dijo simplemente: ya te lo había dicho. Se llamaba Epicteto, que en griego significa más o menos adquirido, y ni siquiera es un nombre: es lo que se le pone a una propiedad. No se conserva el que le pusieron sus padres.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quién fundó esto",
+          frase: "Un esclavo cojo liberado tras la muerte de Nerón, que abrió escuela en Grecia, no escribió una sola línea y cuyas clases conocemos porque un alumno tomó apuntes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese alumno se llamaba Arriano y de sus cuadernos salieron dos libros: los Discursos y un resumen breve, el Enquiridión, que significa manual de mano. Marco Aurelio, emperador de Roma, llevaba ese manual encima y lo cita en sus propias notas privadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Marcos Vázquez, ingeniero español reconvertido en divulgador de salud, construye su libro sobre ese material. Es el creador de Fitness Revolucionario, uno de los pódcast más escuchados en español, y viene del mundo del entrenamiento físico, no del de la filosofía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa procedencia es lo que le da su idea central, que es una analogía y funciona bastante bien: la mente se entrena igual que un músculo, con estrés controlado, descanso y progresión. No se fortalece evitando la dificultad; se fortalece dosificándola.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El concepto biológico que hay detrás se llama hormesis: dosis pequeñas de un estresor producen una adaptación que deja al organismo más fuerte que antes. Es lo que ocurre con el ejercicio, con el ayuno moderado y, según su tesis, con la incomodidad deliberada.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro está montado como un programa por fases, con ejercicios al final de cada bloque, en lugar de como un ensayo. Es una decisión coherente con la analogía: nadie se pone fuerte leyendo sobre entrenamiento, y él aplica lo mismo al terreno mental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estoicismo del que parte no es el que sugiere la palabra en español corriente. Ser estoico, en el uso habitual, significa aguantar en silencio y sin quejarse. La escuela original no proponía eso, y esa confusión es el primer obstáculo que el libro tiene que quitar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estoicismo fue una escuela filosófica completa, fundada en Atenas hacia el 300 antes de Cristo por Zenón de Citio, con tres partes: lógica, física y ética. Duró cinco siglos y tuvo entre sus figuras a un esclavo, a un consejero imperial riquísimo y a un emperador.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué proponían de verdad",
+          frase: "No suprimir las emociones, sino dejar de estar a merced de las que nacen de juicios equivocados. La palabra griega que usaban no significa insensibilidad: significa no ser arrastrado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis psicológica es la que ha resistido mejor el paso de dos mil años y es sorprendentemente moderna: no nos alteran las cosas que ocurren, sino los juicios que hacemos sobre ellas. La frase es de Epicteto y aparece en el Enquiridión casi al principio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese enunciado es, literalmente, la base de la terapia cognitiva moderna. Aaron Beck y Albert Ellis, los dos psicólogos que la fundaron en los años cincuenta y sesenta, citaron explícitamente a Epicteto como antecedente de lo que estaban proponiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene una consecuencia práctica inmediata que Vázquez desarrolla en todo el libro: si el malestar viene del juicio y no del hecho, entonces hay un punto intermedio en el que se puede intervenir, y ese punto es entrenable.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Entre lo que pasa y cómo te sientes hay una interpretación, que suele ser automática, invisible y rapidísima. Todo el programa del libro consiste en hacer visible ese paso intermedio y en aprender a examinarlo antes de que produzca la reacción.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vázquez añade a los estoicos material de psicología contemporánea: formación de hábitos, intenciones de implementación, teoría de la autodeterminación, exposición gradual y reestructuración cognitiva. La mezcla es su aportación, porque original no hay prácticamente nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo reconoce sin problemas en la introducción: dice que no ha inventado nada, que lo que hace es traducir a lenguaje de entrenamiento algo que ya estaba escrito, y que su valor está en la estructura y en los ejercicios, no en las ideas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa honestidad es útil y también acota lo que se puede esperar del libro. Quien ya haya leído a Epicteto y algo de psicología de hábitos va a encontrar poco nuevo. Quien no haya leído ninguna de las dos cosas va a encontrar un atajo bastante bien construido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El programa empieza por la herramienta más antigua y más famosa de la escuela, que Epicteto coloca en la primera frase de su manual y que Vázquez usa como cimiento de todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una distinción de una sola línea que, aplicada en serio, reordena la manera de decidir en qué se gasta uno la energía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llama la dicotomía del control.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que depende de ti",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El Enquiridión empieza así: de todas las cosas que existen, unas dependen de nosotros y otras no. Dependen de nosotros nuestros juicios, nuestros impulsos, nuestros deseos y nuestros rechazos. No dependen el cuerpo, la reputación, los cargos y todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sigue: las que dependen de nosotros son por naturaleza libres, sin trabas y sin impedimento. Las que no dependen son débiles, esclavas, sujetas a estorbos y ajenas. La frase entera cabe en un párrafo y es el corazón de toda la escuela.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La consecuencia práctica",
+          frase: "Casi todo el sufrimiento evitable viene de invertir esfuerzo emocional en lo que no controlas y de no invertirlo en lo que sí. La lista de cada categoría es corta y comprobable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vázquez lo aterriza con ejemplos cotidianos. No controlas si te dan el trabajo; controlas cómo preparas la entrevista. No controlas lo que opinen de ti; controlas cómo te comportas. No controlas si llueve; controlas si has cogido paraguas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una versión matizada que los estoicos modernos han propuesto y que resuelve un problema real de la formulación original: la tricotomía. Hay cosas que controlas del todo, cosas sobre las que no tienes ninguna influencia, y cosas en las que influyes sin controlar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa tercera categoría es la más importante en la práctica y la que la formulación clásica deja fuera. Un resultado profesional, la salud, una relación: en todos ellos se influye mucho y no se controla nada del todo, y ahí es donde vive casi toda la vida adulta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La regla que propone para ese terreno es la que más se usa: poner el esfuerzo en el proceso y desligar el juicio sobre uno mismo del resultado. Se entrena, se prepara, se hace todo lo que está en la mano, y después se acepta que el desenlace no es propiedad de nadie.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo clásico es de Cicerón y se conserva en las fuentes estoicas: un arquero apunta y dispara. Controla la postura, la respiración, la tensión del arco y el momento de soltar. En cuanto la flecha sale, el viento y el blanco dejan de ser asunto suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El objetivo del arquero, decían, no es acertar: es disparar bien. Suena a truco retórico y no lo es, porque cambia el criterio con el que uno se juzga. Un mal tirador que acierta por suerte lo ha hecho peor que uno bueno al que le desvía el viento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda herramienta que el libro toma de la escuela es la más contraintuitiva de todas y también la que más alivia: consiste en visualizar por adelantado lo que puede salir mal, con detalle, en lugar de evitarlo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Premeditación de los males",
+          frase: "Séneca aconsejaba dedicar un rato a imaginar la pérdida del trabajo, del dinero o de la salud. No para angustiarse, sino para que el golpe no llegue nunca sin haber sido pensado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mecanismo tiene dos partes. La primera es que lo imprevisto duele más que lo previsto, y que anticipar reduce el impacto. La segunda es más útil todavía: al imaginar la pérdida, se descubre que lo que se tiene ahora no era obvio ni estaba garantizado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa segunda parte es un antídoto contra la adaptación hedónica, que es la tendencia comprobada a dejar de valorar cualquier cosa buena a las pocas semanas de tenerla. Imaginar perderlo la devuelve al primer plano sin que pase nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vázquez propone hacerlo por escrito y con un límite de tiempo: diez minutos, un escenario concreto, qué haría exactamente si ocurriera. Y luego cerrar el cuaderno. La diferencia entre esto y la ansiedad es que aquí hay plan y hay hora de terminar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese matiz es esencial y el libro lo subraya bien: rumiar es dar vueltas sin plan y sin final; premeditar es plantear un escenario, decidir la respuesta y parar. La diferencia no es el contenido del pensamiento, es su estructura.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera herramienta es la vista desde arriba, que aparece varias veces en las notas de Marco Aurelio: imaginarse desde muy lejos, viendo la propia ciudad, el país y el planeta, y a uno mismo dentro con su problema del día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Marco Aurelio lo llevaba más lejos y añadía la dimensión temporal: recordarse que todos los que le precedieron en el trono están muertos y olvidados, que dentro de cien años nadie recordará su nombre, y que eso vale también para el asunto que le está quitando el sueño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un ejercicio de proporción, no de nihilismo. No sirve para concluir que nada importa, sino para recalibrar cuánto importa cada cosa. Y funciona sobre todo con las humillaciones pequeñas, que son las que más energía consumen y menos consecuencias tienen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con las herramientas mentales puestas, el libro pasa a la parte que le da su carácter propio y que viene directamente del oficio de su autor: cómo se entrena eso, con qué progresión y con qué cargas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí aparece la idea que da título al capítulo siguiente y que los estoicos practicaban dos mil años antes de que existiera el concepto biológico que la explica.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Sobrecarga progresiva",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Séneca era uno de los hombres más ricos de Roma: fue tutor y consejero de Nerón y acumuló una fortuna enorme. Y escribió que conviene dedicar unos días al mes a comer la comida más barata y áspera, vestir con la ropa más basta y dormir mal, a propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su razón la dejó escrita en una carta y es puramente práctica: para preguntarse mientras tanto si eso era realmente lo que se temía. La incomodidad voluntaria sirve para descubrir que el suelo del que uno tiene miedo está más cerca y es más habitable de lo que parecía.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La incomodidad deliberada",
+          frase: "No es ascetismo ni castigo. Es una prueba de estrés: exponerse en pequeño y de forma controlada a lo que se teme para que deje de gobernar las decisiones desde la sombra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vázquez lo traduce a prácticas concretas: duchas frías, ayunos, entrenamientos duros, dormir alguna vez en el suelo, pasar un día sin móvil, hacer en público algo que dé un poco de vergüenza. Todas comparten la misma estructura y todas son reversibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aplica el principio del gimnasio: progresión. Nadie levanta cien kilos el primer día. Se empieza por lo mínimo, se sube poco a poco y se respeta el descanso, porque la adaptación no ocurre durante el esfuerzo sino después, mientras el sistema se recupera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte es la que mejor funciona del libro, porque corrige un error común de la autoayuda: la idea de que basta con decidirse. Aquí la tesis es la contraria: la fuerza de voluntad no se decide, se construye, y se construye con cargas pequeñas y repetidas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay respaldo parcial para la analogía. La exposición gradual es un tratamiento con evidencia sólida para fobias y para ansiedad, y funciona exactamente así: acercarse a lo temido en dosis crecientes y tolerables hasta que la reacción se apaga sola.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir también dónde la analogía se estira. La hormesis está bien documentada para el ejercicio y para algunos estresores fisiológicos. Extenderla a la exposición al frío o al ayuno como herramientas de fortaleza mental es plausible y no está probado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro presenta algunas de esas prácticas con más seguridad de la que la evidencia permite, y ese es uno de sus defectos: mezcla intervenciones muy respaldadas —el ejercicio, la exposición gradual— con otras que están de moda y tienen datos preliminares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda mitad del programa se ocupa de los hábitos, y ahí Vázquez usa el consenso actual de la psicología conductual sin inventar nada, que es exactamente lo que hay que hacer con un campo donde ya se sabe bastante.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla de los hábitos",
+          frase: "Empezar ridículamente pequeño, anclar el hábito nuevo a uno que ya existe, hacerlo en el mismo sitio y a la misma hora, y no romper la cadena dos días seguidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añade el concepto de intención de implementación, que está bien estudiado: en lugar de proponerse hacer más ejercicio, escribir la frase completa —cuándo, dónde y cómo— porque una intención concreta se cumple bastante más que una genérica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el de identidad: sostiene que el hábito se sostiene mejor cuando se formula como pertenencia y no como objetivo. No quiero correr diez kilómetros, soy alguien que corre. La diferencia parece cosmética y cambia lo que ocurre el día que uno no tiene ganas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sobre la motivación es de los mejores y va contra el sentido común. Su tesis es que la motivación no precede a la acción: la sigue. Que esperar a tener ganas es la forma más eficaz de no empezar nunca, y que la acción produce la motivación y no al revés.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De ahí una regla operativa que resulta útil: reducir el listón de entrada hasta que sea ridículo. Ponerse las zapatillas y salir a la calle cinco minutos. Escribir una frase. Abrir el libro por la página que sea. Una vez dentro, seguir cuesta mucho menos que empezar.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También dedica espacio al descanso, y es coherente con la analogía del entrenamiento: sin recuperación no hay adaptación, solo desgaste. Sostiene que el sobreentrenamiento mental existe y se parece bastante a lo que hoy se llama agotamiento profesional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa advertencia es importante porque salva al libro de convertirse en una apología del sufrimiento. Su marco no dice aguanta más: dice dosifica bien y descansa lo suficiente, que es lo contrario de lo que suele venderse con este vocabulario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda una herramienta más y es la más antigua de todas. Marco Aurelio la practicaba cada noche en tiendas de campaña, durante campañas militares, y de ahí salió el único libro suyo que conservamos, que no escribió para publicar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Séneca describía la suya con detalle: al acabar el día, cuando se apagaba la luz y su mujer se callaba, repasaba la jornada entera y examinaba cada cosa que había dicho y hecho, sin ocultarse nada y sin pasar nada por alto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añadía la parte que la mayoría se salta al citarlo: no se escondía nada y tampoco se castigaba. Repasaba, corregía y dormía.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El juez interior",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El diario estoico no es un diario personal ni un desahogo. Tiene una estructura fija: qué hice bien, qué hice mal, qué haré distinto mañana. Tres preguntas, unas líneas cada una, todos los días, escritas para uno mismo y para nadie más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Marco Aurelio escribía las suyas en griego, en campaña, entre los años 170 y 180. No las tituló, no las ordenó y no hay ningún indicio de que quisiera publicarlas. El libro que hoy se llama Meditaciones es literalmente el cuaderno de trabajo de un hombre que gobernaba un imperio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué funciona",
+          frase: "Escribirlo obliga a formular el pensamiento, y un pensamiento formulado se puede examinar. Mientras está solo en la cabeza, se repite en bucle y no se somete a ninguna prueba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vázquez añade a esa práctica el método de la terapia cognitiva, que hace lo mismo con más estructura: identificar el pensamiento automático, buscar la prueba a favor, buscar la prueba en contra y formular una versión alternativa más ajustada a los datos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y repasa las distorsiones típicas, que son un catálogo bien conocido. Pensar en blanco y negro. Sacar una conclusión general de un caso. Adivinar lo que piensan los demás. Anticipar catástrofes. Descartar lo bueno por accidental y quedarse con lo malo por definitorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El paralelismo con Epicteto es exacto y él lo señala: lo que la terapia cognitiva llama pensamiento automático es lo que el estoico llamaba impresión, y en los dos casos la instrucción es la misma: no aceptar la impresión sin examinarla.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Epicteto lo formulaba con una imagen de aduana: cuando aparezca una impresión, dile que espere, no te dejes arrastrar por ella, y examínala con las reglas que tienes. Es un procedimiento de dos mil años que describe con precisión lo que hoy se enseña en consulta.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro añade una figura útil que llama el juez interior: la voz que evalúa constantemente y que en mucha gente funciona como fiscal permanente. Su propuesta no es silenciarla —no se puede— sino exigirle el mismo rigor que a un juez de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, pedirle pruebas. Si la voz dice que todo te sale mal, exigirle la lista. Si dice que la gente te desprecia, preguntarle cómo lo sabe. La mayoría de esos juicios no sobrevive a la primera pregunta seria, y la mayoría no se pregunta nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro capítulo trata la ira, que es la emoción a la que Séneca dedicó un tratado entero. Su tesis es que la ira nace de una expectativa: uno se enfada cuando el mundo no se comporta como creía que debía comportarse, y esa creencia es revisable.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La receta de Marco Aurelio",
+          frase: "Empezaba las mañanas recordándose que iba a encontrarse con gente entrometida, desagradecida y arrogante. No para despreciarlos: para no sorprenderse y no perder la mañana enfadado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añadía la segunda parte, que casi nunca se cita: que actúan así por ignorancia de lo que es bueno y de lo que es malo, y que él comparte con ellos la misma naturaleza. Es decir, la anticipación va acompañada de una obligación de no despreciar a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro, que falla en cosas que conviene decir. La primera es de originalidad: no hay nada nuevo. Es una síntesis competente de estoicismo y de psicología conductual, bien organizada y bien escrita, y su autor lo reconoce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es de fidelidad a las fuentes. El estoicismo era un sistema completo con una física detrás: sostenían que el cosmos es racional y providencial, y que aceptar el destino tenía sentido porque el destino era obra de una razón universal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Si se quita esa metafísica y se conservan solo los ejercicios, queda un conjunto de técnicas útiles y queda sin fundamento la parte que pedía aceptar lo que ocurre. Amar el destino tiene sentido si el destino es racional; sin eso, es una recomendación sin apoyo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es la más seria y va más allá de este libro: hay sufrimiento que no es una oportunidad de entrenamiento. Un duelo, una depresión clínica, una enfermedad grave o la pobreza no se resuelven examinando juicios, y presentarlos así puede hacer daño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vázquez lo menciona brevemente y recomienda ayuda profesional cuando corresponde, pero el marco general del libro empuja en la dirección contraria: si todo depende de tu interpretación, entonces no salir adelante pasa a ser un fallo de entrenamiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una cuarta objeción, política, que se le ha hecho al revival estoico en general: es una filosofía que enseña a soportar circunstancias y no a cambiarlas. Epicteto le decía a un esclavo que su condición no dependía de él y que se ocupara de su juicio interior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso puede ser un consuelo enorme para alguien que no puede cambiar nada, y también puede ser una anestesia muy conveniente para quien sí podría. La distinción entre las dos situaciones no la resuelve la filosofía: la resuelve mirar quién la está recomendando y a quién.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esas advertencias puestas, queda el concepto con el que el libro cierra y que es el más difícil de todos.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Amor fati",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La expresión no es de los estoicos antiguos: la acuñó Nietzsche a finales del siglo XIX, y significa amor al destino. Escribió que su fórmula para la grandeza era no querer que nada sea distinto, ni hacia atrás, ni hacia delante, ni por toda la eternidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añadió el matiz que la separa de la resignación: no basta con soportar lo necesario, ni siquiera con ocultarlo. Hay que amarlo. La resignación aguanta y sigue considerando que lo ocurrido está mal; el amor al destino deja de considerarlo así.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La diferencia",
+          frase: "Resignarse es aceptar a regañadientes lo que no se puede cambiar. Amor fati es dejar de librar esa batalla y usar lo ocurrido como material. Nietzsche lo consideraba la prueba más difícil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su antecedente estoico está en Epicteto, que lo dijo sin poesía: no pretendas que las cosas ocurran como tú quieres, quiere que ocurran como ocurren y te irá bien. Es la misma idea con dos mil años menos y bastante menos entusiasmo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vázquez lo presenta como el último nivel del entrenamiento y con una advertencia sensata: no es un punto de partida. A alguien en mitad de una desgracia no se le puede pedir que la ame, y proponérselo es una crueldad disfrazada de sabiduría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí se puede hacer, y es lo que el libro propone, es aplicarlo retrospectivamente: mirar hacia atrás y buscar qué salió de aquello que en su momento pareció una catástrofe. Casi todo el mundo encuentra algo, y esa constatación cambia cómo se mira lo siguiente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Marco Aurelio tenía una formulación más operativa y menos exigente que la de Nietzsche: lo que impide la acción se convierte en la acción; lo que se interpone en el camino se convierte en el camino. Es una instrucción de trabajo, no un estado de ánimo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro concepto con el que cierra es memento mori, recordar que se va a morir. Los estoicos lo usaban a diario y no como práctica morbosa: como instrumento de prioridad. Séneca escribió que el problema no es que la vida sea corta, es que perdemos la mayor parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su queja concreta es contra la postergación: dice que la gente vive como si fuera a vivir siempre, aplaza lo que le importa y se dedica a lo urgente ajeno. Y que después se queja de que la vida se le ha pasado, cuando lo que ha hecho es regalarla a trozos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro traduce eso a una pregunta práctica que se puede hacer cualquier lunes: si esta semana fuera representativa del resto de tu vida, ¿estarías conforme? Y sostiene que la respuesta no exige un cambio radical, sino corregir el reparto de unas cuantas horas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que casi todo el mundo cree y no es verdad",
+          frase: "El estoicismo no es aguantar sin quejarse ni reprimir emociones. Eso es lo que significa «estoico» en castellano corriente, y es prácticamente lo contrario de lo que enseñaba la escuela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: no es una filosofía de la indiferencia. Los estoicos defendían la implicación política, la amistad y el deber. Marco Aurelio gobernó un imperio treinta años y Séneca fue consejero de gobierno. Ninguno de los dos se retiró a mirar desde fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: la dicotomía del control no dice que el mundo exterior no importe. Dice que no está bajo tu mando, que es otra cosa. Se puede trabajar duro por un resultado y a la vez no hacer depender de él la propia estabilidad; esas dos cosas son compatibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuarto: este libro no es un tratado de filosofía. Es un programa de entrenamiento que usa material filosófico. Quien busque entender el estoicismo como sistema tiene que ir a las fuentes, que además son breves y baratísimas: el Enquiridión son treinta páginas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa es, de hecho, la mejor recomendación que se puede dar alrededor de este libro: leerlo y después leer a Epicteto directamente. Vázquez organiza y traduce; Epicteto es más duro, más raro y bastante más interesante, y se lee en una tarde.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance justo es este: un libro sin ideas propias, bien estructurado, honesto sobre sus fuentes, con ejercicios aplicables, un exceso de confianza en algunas prácticas de moda y un punto ciego serio sobre el sufrimiento que no se entrena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su virtud principal es de formato. Convierte un material que suele leerse como frases sueltas en algo que se puede practicar por fases, con progresión y con un cuaderno al lado, que es exactamente como los propios estoicos decían que había que usarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque eso es lo que Epicteto repetía a sus alumnos y lo que más se olvida al citarlo: que no quería que aprendieran sus lecciones de memoria, sino que las aplicaran. Decía que una oveja no vomita la hierba para enseñarle al pastor cuánto ha comido: produce lana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su instrucción era que no expusieran los principios ante los ignorantes, sino que expusieran las obras nacidas de haberlos digerido. Es una crítica adelantada a dos mil años de gente citando estoicismo en lugar de practicarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está el mejor argumento a favor de un libro como este, que reduce la filosofía a ejercicios con horario: es la única forma de uso que su fundador habría aprobado. El resto —las citas, los carteles, las frases— es exactamente lo que él prohibía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un esclavo cojo diciendo, en el año setenta, que no se enseña una filosofía hablando de ella. Se enseña siendo alguien a quien resulta difícil desestabilizar, y eso solo se consigue entrenando.",
+        },
+      ],
+    },
+  ],
+};
