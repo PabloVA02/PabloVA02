@@ -4401,3 +4401,601 @@ export const MUNDO_SOFIA: Resumen = {
     },
   ],
 };
+
+export const APOLOGIA_SOCRATES: Resumen = {
+  id: "apologia-socrates",
+  titulo: "Apología de Sócrates",
+  autor: "Platón",
+  ano: -399,
+  gancho:
+    "Un hombre de setenta años tiene tres horas para salvar la vida ante quinientos jueces, y las gasta en irritarlos.",
+  porQue:
+    "Es el texto fundador de la filosofía occidental y se lee en una hora. También es el más malinterpretado: casi nada de lo que la gente cita de él está realmente escrito ahí.",
+  partes: [
+    {
+      titulo: "El pórtico del rey",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "A principios del año 399 antes de Cristo, un anciano de setenta años se presentó en el pórtico del rey, un edificio con columnas en el ágora de Atenas donde el magistrado encargado de los asuntos religiosos recibía las denuncias. Iba citado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La acusación estaba escrita y era breve. Que no reconocía a los dioses que reconocía la ciudad, que introducía divinidades nuevas, y que corrompía a los jóvenes. La pena que se pedía era la muerte. El acusado se llamaba Sócrates, hijo de Sofronisco, del barrio de Alopece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien firmaba la denuncia era Meleto, un poeta joven del que apenas se sabe nada. Detrás había dos hombres con mucho más peso: Ánito, un curtidor rico y uno de los políticos que habían restaurado la democracia, y Licón, un orador.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Atenas venía de cinco años terribles. Había perdido la guerra contra Esparta en el 404, había sufrido el gobierno de los Treinta Tiranos, que ejecutaron a mil quinientos ciudadanos, y en el 403 había recuperado la democracia con una amnistía general.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa amnistía prohibía perseguir a nadie por lo que hubiera hecho antes de su entrada en vigor. Es un dato que no aparece en el texto y que explica por qué la acusación contra Sócrates es religiosa: por lo político no se le podía acusar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque Sócrates tenía compañías incómodas. Critias, el más sanguinario de los Treinta Tiranos, había sido discípulo suyo. Alcibíades, el general brillante que traicionó a Atenas y se pasó a Esparta, también. Ese es el fondo del asunto y el texto pasa por encima.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué es exactamente este libro",
+          frase: "El discurso que Sócrates pronunció en su juicio, escrito por su discípulo Platón años después. No es una transcripción: nadie tomaba notas. Es una reconstrucción literaria hecha por alguien que estaba en la sala y que llevaba dentro lo que había pasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra apología no significa aquí disculpa. Apologia en griego es el discurso de defensa, lo que decía el acusado cuando le tocaba hablar. Sócrates no se disculpa por nada en las veinticinco páginas que dura, y esa es precisamente la gracia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El juicio funcionaba así. Un tribunal de quinientos ciudadanos sorteados, sin jueces profesionales ni abogados. El acusador hablaba, el acusado hablaba después, y el tiempo de cada uno lo medía una clepsidra, un reloj de agua que se vaciaba y se acababa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo se resolvía en un solo día. Después de los discursos, los quinientos votaban culpable o inocente metiendo un disco de bronce en una urna, y si salía culpable votaban otra vez para elegir entre la pena que pedía el acusador y la que proponía el acusado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sócrates no había escrito nunca una línea. Todo lo que sabemos de él viene de otros: de Platón, que tenía unos veintiocho años cuando lo juzgaron y estaba presente; de Jenofonte, que era militar; de Aristófanes, que se rió de él en una comedia; y de Aristóteles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esas fuentes no coinciden. El Sócrates de Jenofonte es un señor sensato que da consejos prácticos sobre la administración de la casa. El de Platón desmonta a todo el que se le pone delante. El de Aristófanes es un charlatán colgado de una cesta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "A eso los estudiosos lo llaman el problema socrático y no tiene solución. No hay manera de separar lo que dijo Sócrates de lo que Platón le hizo decir, y cuanto más tarde escribe Platón, más se parece Sócrates a Platón.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Apología se considera de lo más temprano que escribió y, por tanto, de lo más cercano al hombre real. Está escrita probablemente en los años ochenta o noventa del siglo cuarto, es decir, entre diez y veinte años después del juicio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De su vida se sabe poco y casi todo por el propio texto. Hijo de un cantero y de una comadrona, veterano de tres campañas militares —Potidea, Delio y Anfípolis—, casado con Jantipa y con tres hijos, dos de ellos aún pequeños cuando lo juzgaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Era pobre, y él insiste mucho en eso. No cobraba por enseñar, a diferencia de los sofistas, que era el oficio con el que se le confundía. Andaba descalzo por el ágora, hablaba con quien se dejara, y no tenía ni oficio ni cargo público.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empieza su defensa con una advertencia que ya marca el tono: que va a hablar como habla siempre, con las palabras de la plaza y del mercado, y no con la retórica que se estila en los tribunales, porque a los setenta años no va a aprender un idioma nuevo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hace algo que a cualquier abogado le parecería un suicidio: antes de responder a la acusación que tiene delante, anuncia que va a responder primero a otra, mucho más antigua, que no está en ningún papel y contra la que no puede interrogar a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La llama la acusación de los primeros acusadores: la fama que se ha ido formando a su alrededor durante décadas. Que hay un tal Sócrates que investiga las cosas del cielo y de debajo de la tierra y que enseña a hacer que el argumento débil parezca fuerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y señala directamente a un culpable, que estaba probablemente en la sala: Aristófanes. En su comedia Las nubes, estrenada veinticuatro años antes, aparecía un Sócrates encerrado en un pensadero, colgado de una cesta para estudiar el sol, cobrando por enseñar trampas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento es que contra eso no hay defensa posible, porque quienes se lo creyeron eran niños entonces y ahora son jueces. Una calumnia repetida durante veinte años ya no es una acusación: es el aire que se respira en la ciudad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y para explicar de dónde salió esa fama tiene que contar una historia que empieza a doscientos kilómetros de allí.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El oráculo de Delfos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un amigo suyo de juventud, Querefonte, subió en algún momento al santuario de Delfos y le hizo a la Pitia una pregunta concreta: si había alguien más sabio que Sócrates. La sacerdotisa contestó que no había nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sócrates aclara ante el tribunal que Querefonte ya había muerto, pero que su hermano estaba allí presente y podía confirmarlo. Es un detalle procesal que Platón cuida: está presentando un testigo, aunque el testimonio sea sobre un oráculo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dice que la respuesta le dejó perplejo, porque él era consciente de no ser sabio en nada, ni mucho ni poco. Pero como un dios no puede mentir, decidió que aquello tenía que ser un enigma y se propuso averiguar qué quería decir.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El método que salió de ahí",
+          frase: "Buscar a alguien más sabio que él para poder ir a Delfos y demostrar que el oráculo se había equivocado. Es decir: su vida entera de preguntar a la gente empieza como un intento de refutar a un dios, no como un programa educativo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empezó por los políticos. Fue a ver a uno que tenía fama de sabio, habló con él, y salió con la impresión de que aquel hombre creía saber cosas que no sabía. Se lo dijo, y a partir de ahí se ganó el odio del político y de todos sus amigos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Siguió por los poetas. Cogió los pasajes que a ellos les parecían mejores de sus propias obras y les pidió que se los explicaran, y descubrió que cualquiera de los que estaban escuchando alrededor los explicaba mejor que quien los había escrito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión sobre los poetas es cruel y famosa: que no componen por sabiduría sino por una especie de inspiración, como los adivinos, que dicen cosas muy hermosas sin entender ni una de las que dicen. Y que además se creían sabios en todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Terminó por los artesanos, y ahí sí encontró algo. Los artesanos sabían de verdad su oficio, y en eso eran más sabios que él. Pero cada uno, por saber hacer bien una cosa, se creía capaz de opinar con autoridad sobre las cuestiones más importantes.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y en ese error, dice, perdían la ventaja que tenían. Es una observación que sigue en pie: el especialista que confunde su competencia con una autoridad general está en todas las tertulias, y sigue siendo el hombre que Sócrates describe en el 399 antes de Cristo.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De todo eso saca lo que llama sabiduría humana, y conviene leerlo despacio porque casi nadie lo cita bien. No dice que él sepa que no sabe nada. Dice que él, lo que no sabe, tampoco cree saberlo, y que en esa pequeñez consiste toda su ventaja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase famosa —solo sé que no sé nada— no está en la Apología ni en ningún otro texto de Platón con esa forma. Es una condensación posterior, elegante y algo tramposa, porque convierte en una paradoja lo que era una observación mucho más modesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado práctico de la investigación fue un desastre social. Sócrates cuenta que se ganó enemistades muy duras y muy peligrosas, y que además los jóvenes ricos de Atenas empezaron a seguirle por diversión, para verle dejar en ridículo a la gente importante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que esos jóvenes se pusieron a imitarle por su cuenta, interrogando a sus mayores por la calle. Cuando los padres preguntaban quién había enseñado eso a sus hijos, no sabían qué decir, y echaban mano de las acusaciones que ya estaban en circulación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es su explicación de cómo se llega desde una consulta al oráculo hasta un juicio por corromper a la juventud, y es una explicación bastante convincente. También es interesada, porque presenta como un malentendido lo que para sus acusadores era un problema político real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En medio de todo esto aparece lo más raro del personaje: su voz interior. Sócrates dice que desde niño le acompaña algo divino, una señal, que se le manifiesta de vez en cuando y que hace siempre la misma cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nunca le dice qué debe hacer. Solo le detiene cuando va a hacer algo que no debe. Es una voz que únicamente sabe decir que no, y él la obedece sin discutirla, incluso cuando le impide dedicarse a lo que cualquier ateniense consideraría su deber.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque esa es la razón que da para no haber entrado nunca en política, y de paso deja caer una frase muy fuerte: que quien luche de verdad por la justicia y quiera sobrevivir un tiempo tiene que hacerlo como particular y no desde un cargo público.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese daimon es también, literalmente, la base de una de las acusaciones. Introducir divinidades nuevas: un hombre que dice tener una voz privada que le habla es exactamente un hombre con un dios propio, al margen de los de la ciudad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los intérpretes llevan dos mil cuatrocientos años discutiendo qué era aquello. Una manera de hablar de la conciencia, una experiencia religiosa auténtica, un recurso literario de Platón, o un fenómeno que hoy tendría un nombre clínico. No hay forma de saberlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está claro es que en un juicio por impiedad, contarle al tribunal que tienes una voz divina particular no es una estrategia de defensa. Es lo contrario de una estrategia de defensa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aun así lo cuenta, con detalle y sin pedir disculpas, a mitad del tiempo que tenía para salvar la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después se gira hacia el hombre que había firmado la denuncia.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El interrogatorio de Meleto",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El procedimiento ateniense permitía al acusado interrogar al acusador delante del tribunal. Sócrates usa ese derecho y llama a Meleto, y lo que viene es la única parte del texto en la que se ve funcionar en directo lo que hacía con la gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empieza por la corrupción de la juventud. Si yo los corrompo, le pregunta, dime quién los mejora. Meleto contesta que las leyes. Sócrates le pide una persona, no una cosa, y Meleto acaba diciendo que los jueces, y luego que todos los atenienses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entonces monta la trampa. Con los caballos pasa lo contrario, dice: solo unos pocos, los que entienden, los mejoran, y todos los demás los estropean. ¿Va a ser que con los seres humanos todo el mundo los mejora salvo uno, y ese uno soy yo?",
+        },
+        {
+          forma: "clave",
+          rotulo: "El argumento más famoso y más discutible",
+          frase: "La analogía del caballo es preciosa y hace quedar fatal a Meleto. También es un argumento tramposo: da por hecho que educar a un ser humano es un oficio técnico como domar caballos, que es justo lo que habría que demostrar y no se demuestra en ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo movimiento es más limpio. Si yo corrompo a los jóvenes que me rodean, o lo hago sin querer o lo hago queriendo. Nadie quiere que la gente de su alrededor sea peor, porque el que está rodeado de malvados acaba recibiendo un daño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si lo hago sin querer, la ley ateniense no manda traer aquí a quien se equivoca sin saberlo, sino llevarlo aparte y explicárselo. En los dos casos, dice, este juicio no tiene sentido. Es un argumento elegante y sigue apoyado en algo bastante fuerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese algo es la tesis de que nadie hace el mal a sabiendas, el llamado intelectualismo moral: si supieras de verdad qué es lo bueno, lo harías. Es una idea que atraviesa toda la filosofía griega y que a un lector de hoy le cuesta tragarse entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la acusación religiosa, Sócrates hace algo aún más agresivo. Le pregunta a Meleto si le acusa de creer en unos dioses distintos o de no creer en ninguno, y Meleto, acorralado, contesta que en ninguno: que Sócrates dice que el sol es una piedra.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Sócrates le responde que está confundiéndolo con Anaxágoras, cuyos libros se podían comprar en el teatro por un dracma, y que si sostuviera esas cosas los jóvenes se reirían de él por vender como propio lo que costaba una moneda en el mercado.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y después le cierra la puerta: la denuncia dice que introduce divinidades nuevas. Quien cree en cosas divinas cree necesariamente en seres divinos, y quien cree en seres divinos cree en dioses. O sea que Meleto se acusa a sí mismo de contradicción en el mismo papel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Meleto queda destrozado y el propio Sócrates dice que no hace falta seguir. Pero acto seguido admite algo que desmonta toda esa esgrima: que si lo condenan no será por Meleto ni por Ánito, sino por la fama que lleva encima desde hace veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: él mismo reconoce que ha ganado el debate y que eso no le sirve de nada. Ganar una discusión y ganar un juicio son dos cosas distintas, y la Apología es entre otras cosas un documento sobre esa diferencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene detenerse en lo que la acusación quería decir de verdad. Corromper a los jóvenes no significaba en Atenas enseñarles cosas indecentes: significaba apartarlos de los valores de la ciudad, de sus padres y de sus obligaciones como ciudadanos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y Sócrates hacía eso de manera bastante literal. Enseñaba a un chico de veinte años a pedirle a su padre una definición de la justicia y a demostrarle que no la tenía. Eso, en una sociedad donde la autoridad familiar era el cimiento de todo, no era neutro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco era neutro políticamente. Sócrates comparaba una y otra vez el gobierno con un oficio: al timonel se le elige por saber navegar y al zapatero por saber hacer zapatos. Aplicado a Atenas, eso es un argumento contra el sorteo de cargos y contra la asamblea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los lectores modernos suelen pasar por encima de esto y leer a Sócrates como un mártir de la libertad de expresión frente a una masa intolerante. Es una lectura cómoda y deja fuera que la democracia ateniense había sido derribada dos veces por gente de su círculo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El periodista estadounidense I. F. Stone escribió en 1988 un libro entero sobre esto, defendiendo que Atenas tenía motivos políticos reales y que la posteridad ha juzgado el caso solo con los papeles de la defensa. Su tesis es discutible y hay que conocerla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque tampoco la salva: una ciudad que ejecuta a un hombre de setenta años por hablar en la plaza no queda absuelta porque tuviera razones. Lo que hace la lectura política es quitar del medio la caricatura de una turba estúpida linchando a un santo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Sócrates aporta las dos pruebas de que no era un instrumento de nadie, y son los pasajes más concretos del texto. Las dos veces que se opuso a un poder, una fue contra la democracia y la otra contra los tiranos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera, en el 406, cuando le tocó presidir la asamblea el día en que se juzgó en bloque a los generales de la batalla de las Arginusas. Era ilegal juzgarlos juntos, todos gritaban pidiéndolo, y él fue el único que se negó a poner el asunto a votación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda, bajo los Treinta Tiranos, cuando le ordenaron ir a detener a un hombre llamado León de Salamina para ejecutarlo y quedarse con sus bienes. Los otros cuatro fueron a buscarlo. Sócrates se dio la vuelta y se fue a su casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho esto, se sentó. Los quinientos empezaron a votar.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La votación",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El resultado fue culpable, y por poco. Sócrates comenta que si treinta jueces hubieran votado en el otro sentido, habría salido absuelto. Con quinientos votantes, eso deja el recuento en unos doscientos ochenta contra doscientos veinte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su reacción es la primera cosa verdaderamente extraña del texto: dice que esperaba perder por mucho más, y que le sorprende que la diferencia haya sido tan pequeña. No hay alivio, ni miedo, ni intento de arreglar nada. Hay curiosidad estadística.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empieza entonces la segunda fase. Meleto pedía la muerte, y le tocaba al condenado proponer una pena alternativa. El tribunal elegiría entre las dos, sin poder inventarse una tercera. Era el momento en que casi todos los acusados suplicaban.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La práctica normal incluía llevar a la mujer y a los hijos al tribunal para que lloraran delante de los jueces. Sócrates dice que él tiene tres hijos y que no los va a traer, porque le parecería vergonzoso a su edad y una falta de respeto al tribunal.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que propone en vez de una pena",
+          frase: "Que le mantengan de por vida a costa del estado, con comidas gratis en el Pritaneo. Ese honor se reservaba a los vencedores olímpicos y a los grandes benefactores de Atenas. Un hombre condenado a muerte acaba de pedir que le traten como a un campeón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su razonamiento es coherente y furioso: si la pena debe corresponder a lo que uno merece, y él se ha pasado la vida intentando que sus conciudadanos se ocuparan de sí mismos antes que de sus cosas, lo que merece es una recompensa y no un castigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Descarta después las alternativas de una en una. La cárcel, no, porque sería vivir sometido a los carceleros. El destierro, tampoco: si los atenienses no soportan lo que dice, no ve por qué iban a soportarlo unos extranjeros, y acabaría echado de ciudad en ciudad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "¿Y callarse? Ahí está la frase que ha sobrevivido a todo lo demás: que una vida sin examen no merece ser vivida por un ser humano. No dice que la vida sin examen sea peor. Dice que no es una vida humana, que es una categoría distinta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y añade la imagen con la que se le recuerda. Que la ciudad es un caballo grande y noble, algo lento por su propio tamaño, y que él es el tábano que un dios le ha puesto encima para despertarlo picando. Que quitárselo de en medio es fácil, y luego se dormirán del todo.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al final propone una multa de una mina de plata, que era una cantidad ridícula, y explica sin ningún rubor que es lo que tiene. Sus amigos —entre ellos Platón, que aparece nombrado— se levantan y ofrecen avalar treinta minas, treinta veces más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es importante y suele olvidarse. Sócrates no rechazó pagar por principio: aceptó la cifra que sus amigos garantizaron, que era una suma considerable. Lo que se negó a hacer fue admitir que había hecho algo malo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tribunal votó otra vez y eligió la muerte, y esta vez por más margen que en la condena. Ochenta jueces que le habían votado inocente cambiaron de bando cuando le oyeron pedir la manutención pública. Es un dato que dice bastante sobre lo que había pasado en la sala.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le quedaba un último turno de palabra y lo divide en dos. Primero se dirige a los que le han condenado, y no es amable. Les dice que se han ganado el nombre de asesinos de un sabio, y que lo han hecho por muy poca cosa, porque a su edad no habrían tenido que esperar mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Les advierte además de que no van a resolver nada: que vendrán detrás muchos más, más jóvenes y más duros de aguantar, y que la manera de librarse de las críticas no es cerrar bocas sino hacer las cosas de forma que no haya nada que criticar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y les explica por qué le han condenado, con una frase que resume su defensa entera. No por falta de argumentos, dice, sino por falta de desvergüenza: por no haber querido decirles lo que estaban deseando oír.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después se gira hacia los que le habían votado inocente, a los que llama jueces de verdad, y con ellos cambia el tono por completo. Les cuenta que su voz interior, que le detiene ante cualquier error, no ha dicho ni una palabra en todo el día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni al salir de casa por la mañana, ni al subir al estrado, ni en mitad del discurso. Y de ahí saca la conclusión de que lo que le está pasando no puede ser malo, y que la creencia común de que la muerte es un mal probablemente esté equivocada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento sobre la muerte es breve. O es como un sueño sin sueños, y entonces es una ganancia, porque pocas noches hay mejores que esa. O es un traslado a otro sitio donde están todos los que han muerto, y entonces sería el mejor viaje imaginable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí se permite un chiste, que es lo que hace que el pasaje funcione. Dice que si es un traslado, podrá seguir interrogando a la gente allí abajo, empezando por los héroes de Troya, y que además nadie podrá condenarle a muerte por hacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que esto no es una demostración de nada, y que se ha leído durante siglos como si lo fuera. Es una consolación, muy bien construida, dirigida a los amigos que se quedan y no a los jueces que ya han votado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus últimas palabras registradas son una petición. Que cuando sus hijos crezcan, si les ven ocuparse del dinero antes que de ser buenos, los molesten igual que él les ha molestado a ellos. Y si lo hacen, dice, habrán obrado con justicia con él y con sus hijos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El texto termina ahí, con una frase sobre que él va a morir y ellos a vivir, y que solo un dios sabe cuál de las dos cosas es mejor. Lo que pasó después no lo cuenta este libro.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La cicuta",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La ejecución no fue inmediata. El día anterior al juicio había zarpado hacia Delos el barco sagrado que Atenas mandaba todos los años en recuerdo de Teseo, y mientras estuviera fuera la ciudad tenía que mantenerse pura: no se podía ejecutar a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El viaje se alargó por el viento y Sócrates pasó unos treinta días en la cárcel, encadenado por una pierna, recibiendo visitas. Es en ese mes donde Platón sitúa dos diálogos más, el Critón y el Fedón, que cuentan lo que la Apología deja fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el Critón, un amigo rico le ofrece la fuga: los carceleros estaban comprados y salir de Atenas era fácil. Sócrates se niega con un argumento que sigue discutiéndose, el de que un ciudadano que ha aceptado las leyes toda su vida no puede desobedecerlas cuando le perjudican.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Fedón cuenta el último día. El carcelero entra llorando, le dice que es el hombre más noble que ha pasado por allí, y le explica cómo funciona: beber, luego andar hasta notar las piernas pesadas, y luego tumbarse.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le dieron",
+          frase: "Cicuta, una planta común. El veneno paraliza los músculos de abajo arriba y mata por parálisis de la respiración, con la cabeza despejada hasta el final. Platón describe una muerte serena; los toxicólogos que han estudiado el pasaje dicen que suele ser bastante peor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus últimas palabras, según ese texto, fueron un encargo: que le debía un gallo a Asclepio, el dios de la medicina, y que no se olvidaran de pagarlo. Se ha interpretado de mil maneras, desde el agradecimiento por una curación hasta una broma final sobre la vida como enfermedad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De lo que pasó después en Atenas se cuentan cosas que probablemente no son ciertas. Que la ciudad se arrepintió enseguida, que cerró los gimnasios en señal de duelo, que desterró a Ánito y condenó a muerte a Meleto. Son relatos muy posteriores y sin apoyo fiable.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que sí ocurrió está documentado por sus efectos. Platón se marchó de Atenas, viajó doce años y al volver fundó la Academia, que funcionó novecientos años. Todo lo que llamamos filosofía occidental sale, de una manera o de otra, de la conmoción de aquel juicio.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el texto. Lo primero y más importante: es la versión de la defensa, escrita por un discípulo devoto y veinte años después, y no tenemos ninguna otra que sea independiente. Jenofonte escribió la suya, pero no estaba en Atenas aquel año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y las dos versiones no cuadran. En la de Jenofonte, Sócrates se comporta con arrogancia deliberada porque a los setenta años prefiere morir antes que envejecer más. En la de Platón, esa arrogancia es integridad. Los dos discípulos están explicando lo mismo de forma opuesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo es que los argumentos, mirados de cerca, no son tan buenos como su fama. La analogía de los caballos se cae en cuanto uno pregunta si educar personas es realmente una técnica con expertos reconocibles, que es lo que Sócrates da por supuesto sin discutirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la refutación de Meleto sobre los dioses es un juego de palabras. Que quien cree en cosas divinas crea en seres divinos y por tanto en dioses funciona en griego encadenando términos, y no responde en absoluto a lo que la acusación quería decir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero es el silencio político. El texto no menciona ni una vez a Critias ni a Alcibíades, que son la razón de fondo por la que Ánito estaba allí. Un discurso de defensa que evita el punto central de la acusación real es, como documento, un documento parcial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo cuarto, para el lector de hoy: Sócrates no es un demócrata. Su desconfianza hacia la opinión de la mayoría es constante y sincera, y Platón la desarrollará después hasta escribir La República, que es un proyecto de ciudad gobernada por unos pocos que saben.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree de este libro y no es verdad, uno: que Sócrates se disculpa. La palabra apología significa defensa, y en el texto no hay ni una línea de arrepentimiento. Al contrario: pide que le premien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que dijo solo sé que no sé nada. Esa frase no aparece. Lo que dice es que no cree saber lo que no sabe, que es más modesto y más útil, porque no niega el conocimiento: niega la seguridad de tenerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que bebió la cicuta en el juicio. Murió un mes después, en la cárcel, por un retraso administrativo debido a un barco que no volvía. Los cuadros que lo pintan todo seguido, empezando por el de David, son buena pintura y mala cronología.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro: que lo mataron por preguntar. Lo mataron en una ciudad que acababa de salir de una guerra perdida y de dos golpes de estado, y a un hombre cuyos discípulos habían estado en los dos. Eso no lo justifica, pero explica por qué ocurrió entonces y no veinte años antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cinco: que fue el primero en usar el método de las preguntas para sacar el conocimiento del alumno. Eso es la mayéutica, y aparece en otro diálogo, el Teeteto. En la Apología no hay ningún método explicado: hay un hombre defendiéndose.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con todo eso encima, sigue siendo el texto que hay que leer primero. Dura una hora, se entiende sin ninguna preparación previa, y es la primera vez en la historia de Europa que alguien pone por escrito qué le costó a una persona concreta pensar en voz alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su idea central tampoco ha envejecido. Que lo peor que le puede pasar a alguien no es equivocarse, sino creer que sabe cuando no sabe, porque el que se cree sabio ya no puede aprender nada y además toma decisiones sobre la vida de los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un tábano, decía él. Y la ciudad, en efecto, se lo quitó de encima de un manotazo.",
+        },
+      ],
+    },
+  ],
+};
