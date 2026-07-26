@@ -9417,3 +9417,657 @@ export const CONTRATO_SOCIAL: Resumen = {
     },
   ],
 };
+
+export const MAS_ALLA_BIEN_MAL: Resumen = {
+  id: "mas-alla-bien-mal",
+  titulo: "Más allá del bien y del mal",
+  autor: "Friedrich Nietzsche",
+  ano: 1886,
+  gancho:
+    "Lo pagó de su bolsillo, se imprimieron seiscientos ejemplares y en el primer año vendió poco más de cien. Cuarenta años después, su hermana recibía a Hitler en el archivo donde guardaba sus papeles, con un libro suyo que él nunca escribió.",
+  porQue:
+    "Porque es el Nietzsche argumentado, el que explica en prosa lo que Zaratustra decía en parábolas. Y porque el título no significa lo que casi todo el mundo cree que significa: no es una licencia para hacer lo que a uno le dé la gana.",
+  partes: [
+    {
+      titulo: "Seiscientos ejemplares pagados de su bolsillo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En agosto de 1886, un exprofesor de cuarenta y un años sin cátedra, sin sueldo fijo y sin apenas lectores paga a un impresor de Leipzig para que saque seiscientos ejemplares de un libro suyo. Ningún editor había querido publicarlo. En los doce meses siguientes se vendieron poco más de cien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor llevaba siete años viviendo de una pequeña pensión, mudándose entre pensiones baratas de Suiza y de Italia según la estación, con migrañas que lo dejaban días enteros en una habitación a oscuras y una vista tan mala que a ratos no podía leer ni escribir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su rutina era la misma cada año: los veranos en un pueblo de la Alta Engadina, a mil ochocientos metros, y los inviernos en Niza o en Génova buscando el sol. Escribía casi todo caminando, en cuadernos de bolsillo, durante paseos de horas, y ese origen se nota en el ritmo de las frases.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su carrera había empezado siendo un fenómeno: catedrático de filología clásica en Basilea a los veinticuatro años, antes incluso de tener el doctorado, por recomendación de su maestro. A los treinta y cuatro dimitió por motivos de salud y no volvió a tener un empleo en su vida.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese fracaso comercial es importante para leer el libro bien. Nietzsche no escribió desde ninguna posición de poder ni desde ninguna tribuna: escribió desde el desconocimiento absoluto, convencido de que le leerían dentro de cincuenta años, cosa que resultó ser exactamente cierta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También escribía desde una soledad que se había buscado. Diez años antes había roto con Richard Wagner, que había sido su amistad más importante y prácticamente su familia adoptiva, y esa ruptura le costó de golpe el círculo social entero al que pertenecía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro nace como respuesta a un problema práctico suyo. Acababa de publicar «Así habló Zaratustra», que está escrito en parábolas y en tono bíblico, y nadie lo entendía; la cuarta parte tuvo que imprimirla por su cuenta en cuarenta ejemplares para repartirla entre siete amigos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué es este libro",
+          frase: "Es el mismo contenido de Zaratustra dicho en prosa y con argumentos. Quien haya rebotado con las parábolas del profeta debería empezar por aquí, que es donde Nietzsche explica qué quería decir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El subtítulo lo dice claro: preludio de una filosofía del futuro. No es un sistema ni pretende serlo; es una preparación del terreno, una limpieza de conceptos heredados para que otros, más adelante, puedan construir. Nietzsche se ve a sí mismo como el que dinamita, no como el que edifica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son doscientos noventa y seis apartados repartidos en nueve partes, más un prólogo y un poema final. Los apartados van desde media línea hasta cuatro páginas, y la cuarta parte entera son sentencias sueltas, algunas de una sola frase, que es de donde salen casi todas las citas famosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las nueve partes tienen títulos que sirven de mapa: los prejuicios de los filósofos, el espíritu libre, el ser religioso, sentencias e interludios, historia natural de la moral, nosotros los doctos, nuestras virtudes, pueblos y patrias, y qué es aristocrático. La primera y la última son las decisivas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De esa cuarta parte sale la frase suya que más se repite en el mundo, y conviene leerla entera: quien lucha con monstruos debe vigilar no convertirse a su vez en monstruo, y si miras largo tiempo a un abismo, el abismo también mira dentro de ti. Son dos líneas en un libro de doscientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay otra que explica media historia del siglo veinte en una línea: la locura es rara en los individuos, pero en los grupos, los partidos, los pueblos y las épocas es la regla. Está escrita cuarenta años antes de que Europa se dedicara a demostrarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese formato explica muchas cosas, incluidas las malas. Un libro de aforismos se puede saquear: cualquiera puede sacar una frase, ponerla en un cartel y hacerle decir lo contrario de lo que dice el apartado siguiente. Nietzsche eligió esa forma sabiendo el riesgo, y el riesgo se cumplió con creces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema de idioma que conviene conocer antes de comprar. Nietzsche es uno de los grandes prosistas de la lengua alemana y juega con dobles sentidos constantemente, así que la traducción decide mucho; en español, las versiones de Andrés Sánchez Pascual son las que han fijado el vocabulario.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El prólogo empieza con una de las primeras frases más raras de la historia de la filosofía: suponiendo que la verdad sea una mujer, ¿cómo?, ¿no habría motivos para sospechar que todos los filósofos, en la medida en que fueron dogmáticos, entendieron poco de mujeres?",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Debajo de la boutade hay una acusación concreta que sostiene el libro entero: los filósofos han cortejado a la verdad con torpeza, exigiéndole certezas y sistemas, y por eso lleva dos mil años sin hacerles caso. La palabra clave del prólogo es dogmáticos, y va contra casi todos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese mismo prólogo suelta la definición del cristianismo que más ha dolido a sus lectores creyentes: platonismo para el pueblo. Con dos palabras acusa a la religión dominante de ser una versión divulgada de la idea griega de que el mundo verdadero está en otra parte, y no aquí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir de entrada qué clase de lectura es. Esto no se lee de corrido como una novela: cada apartado es una unidad y muchos exigen releerse. Es un libro para llevar encima durante meses, no para despachar en un fin de semana, y quien lo trate como un manual saldrá con las manos vacías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que avisar de lo que no es, porque hoy se vende en el mismo estante que los libros de superación. Aquí no hay consejos, no hay método, no hay nada que aplicar el lunes. Hay una demolición de las razones por las que uno cree lo que cree, que es justo lo contrario de un manual de instrucciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer reconocimiento público le llegó en la primavera de 1888, cuando un crítico danés dio en Copenhague unas conferencias universitarias sobre su pensamiento. Fue la primera vez que alguien lo enseñaba en un aula, y él lo celebró como un niño en sus cartas. Ocho meses después ya no podía enterarse de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Seiscientos ejemplares y ningún editor interesado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cien vendidos en un año, en una habitación de pensión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la mitad de la filosofía del siglo veinte saliendo de ahí.",
+        },
+      ],
+    },
+    {
+      titulo: "El filósofo también tiene un cuerpo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La primera parte es una demolición de los filósofos como gremio, y su tesis es demoledora precisamente porque es psicológica y no lógica. Dice que toda gran filosofía ha sido la confesión personal de su autor, unas memorias involuntarias escritas sin que el autor se enterara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El razonamiento es este: el filósofo se presenta como quien llega a sus conclusiones por deducción fría, cuando en realidad primero tiene una convicción, un deseo o un miedo, y después busca los argumentos que lo sostienen. La lógica llega al final, de abogado defensor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La psicología ha dedicado después medio siglo a confirmarlo con experimentos. En «Pensar rápido, pensar despacio» está el resumen de esa literatura: primero llega la conclusión, en décimas de segundo y por vías que no vemos, y después el aparato racional fabrica el motivo presentable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un aforismo suyo de dos líneas que se adelantó a un experimento entero: yo he hecho eso, dice mi memoria; yo no puedo haber hecho eso, dice mi orgullo, y permanece inflexible; al final, la memoria cede. Eso es la disonancia cognitiva, descrita setenta años antes de que se la midiera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El giro que lo cambia todo",
+          frase: "La pregunta deja de ser si una idea es verdadera y pasa a ser qué tipo de persona necesita creerla. Nietzsche inventa aquí la sospecha como método, y de ahí sale medio siglo veinte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de seguir hay que subrayar que eso es un arma de doble filo y él lo sabe: si toda filosofía es la confesión de su autor, la suya también. El libro no se escapa de su propia trampa y en algún apartado lo admite con una alegría que desarma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El método tiene además un peligro práctico que conviene nombrar, porque hoy está por todas partes: si a cualquier argumento se le puede contestar preguntando qué interés tiene detrás quien lo hace, ya no hace falta responder a ningún argumento. Nietzsche abrió una puerta por la que ha entrado mucha basura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda demolición va contra la frase más famosa de la filosofía moderna, y está en el catálogo el libro donde aparece. Descartes dice pienso, luego existo, y da por seguro que hay un yo que piensa. Nietzsche responde que ahí se han colado varias suposiciones sin pagar la entrada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las suposiciones son cuatro, y las enumera: que hay un yo, que ese yo es quien piensa, que pensar es una actividad que requiere un agente, y que uno sabe lo que es pensar. Ninguna de las cuatro está demostrada, y el «Discurso del método» las da por evidentes en la misma frase en que promete no dar nada por evidente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su versión es esta: un pensamiento viene cuando él quiere, no cuando yo quiero, así que decir yo pienso ya es una interpretación. Lo honesto sería decir se piensa, como decimos llueve. El yo no es lo que encontramos al mirar dentro: es lo que añadimos al mirar dentro.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le pone la culpa a algo insospechado: a la gramática. Nuestras lenguas obligan a poner un sujeto delante de cada verbo, así que en cuanto hay una acción buscamos un agente. De ahí salen el alma, el yo y hasta Dios, dice, y por eso sospecha que no nos libraremos de Dios mientras creamos en la gramática.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo mismo hace con la libertad. Sostiene que tanto el libre albedrío como su negación son errores del mismo tipo, porque los dos suponen un yo separado que decide o no decide. Propone cambiar la pregunta: no si una voluntad es libre, sino si es fuerte o débil, que es algo que sí se puede observar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Contra Kant tiene una burla que se ha hecho famosa entre filósofos. Cuando le preguntaron cómo son posibles los juicios que amplían el conocimiento sin apoyarse en la experiencia, Kant contestó que en virtud de una facultad; y Nietzsche compara esa respuesta con la del médico de Molière que explica por qué duerme el opio diciendo que tiene virtud dormitiva.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer objetivo es la voluntad de verdad. Todo el mundo da por supuesto que la verdad es preferible a la mentira, y él pregunta por qué, y sobre todo pregunta por qué preferimos no preguntárnoslo. Su respuesta provisional es incómoda: porque cierta dosis de error nos hace falta para vivir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con los estoicos, que ocupan cuatro fichas de esta misma categoría, es todavía más duro, y el ataque es bueno. Los estoicos dicen vivir según la naturaleza; Nietzsche responde que la naturaleza es derrochadora, indiferente y sin propósito, y que lo que ellos hacen es proyectar su moral sobre ella y luego leerla ahí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la objeción más seria que se le ha hecho nunca a Marco Aurelio y a Epicteto, y conviene tenerla presente al leerlos: todo el que dice deducir cómo hay que vivir de cómo es el mundo suele haber metido antes en el mundo lo que quería sacar de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No dice que la verdad no exista, que es lo que suele atribuírsele. Dice que la creencia en la verdad es un valor, que como todo valor tiene una historia y unos intereses detrás, y que la filosofía nunca se ha molestado en investigar de dónde le viene esa preferencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale el perspectivismo, que es su idea más citada y peor entendida. No dice que todo valga lo mismo: dice que no hay ningún punto de vista desde fuera del mundo, que toda visión es la visión de alguien situado en algún sitio, y que cuantas más perspectivas se sumen, más completa es la imagen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción evidente se la hicieron en vida y sigue vigente: si todo es interpretación, esa frase también lo es. Nietzsche contesta en un apartado que sí, que también, y que tanto mejor. Puede leerse como una salida ingeniosa o como una rendición elegante, y hay filósofos en los dos bandos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí quedó fue el método. Freud dijo de él que había alcanzado un grado de autoconocimiento como no lo había alcanzado nadie, y toda la costumbre moderna de preguntar qué interés hay detrás de una idea —en publicidad, en política, en terapia— empieza en estas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La figura que propone a cambio se llama el espíritu libre y ocupa la segunda parte. No es alguien sin creencias, sino alguien capaz de sostener una convicción sabiendo que es suya y no del universo, y capaz de soltarla cuando deja de servirle. Es una descripción de carácter, no un programa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pienso, luego existo, dijo uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se piensa, como se dice que llueve, contesta el otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con esa corrección se lleva por delante trescientos años de filosofía del sujeto.",
+        },
+      ],
+    },
+    {
+      titulo: "Dos maneras de decir bueno",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En el apartado doscientos sesenta aparece por primera vez, completa, la distinción por la que este libro se recuerda: hay dos tipos de moral, la de señores y la de esclavos, y no son dos épocas ni dos clases sociales, sino dos maneras distintas de fabricar la palabra bueno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La moral de señores empieza en el que se afirma. Bueno significa lo que él es —fuerte, capaz, generoso por exceso— y malo, en el sentido de mediocre, es lo que no llega. El juicio nace de una comparación consigo mismo y mira hacia abajo casi sin interés.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene traducirlo a algo cotidiano, porque suena a novela de caballerías. La diferencia está entre decir esto está bien hecho, que es un juicio sobre la cosa, y decir esto es indecente, que es un juicio sobre quien la hizo. La primera valoración no necesita a nadie enfrente; la segunda vive de tenerlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La moral de esclavos empieza en el que sufre, y su primera palabra no es bueno sino malvado: primero define al enemigo, al poderoso, como el mal absoluto, y solo después, por descarte, se define a sí mismo como bueno. Es un juicio que necesita mirar hacia arriba para existir.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El motor de esa segunda moral tiene nombre y él lo escribe en francés: resentimiento. No es simple rencor, es una operación completa: como no puedo vengarme del que me humilla, lo declaro malvado, convierto mi impotencia en virtud y llamo bondad a lo que en realidad es incapacidad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El detalle que casi todos se saltan",
+          frase: "Nietzsche escribe que las dos morales se mezclan y conviven, en las mismas culturas y hasta dentro de una misma alma. No hay un bando de señores y otro de esclavos: hay dos impulsos discutiendo en cada persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un segundo detalle que se pierde y que cambia el tono entero: cuando describe la victoria de la moral de los débiles sobre la de los fuertes, no la cuenta como una derrota lamentable. La cuenta como la operación más inteligente de la historia, hecha por gente sin ejército y sin tierra que aun así ganó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso importa mucho por lo que vino después. Quien lea aquí un desprecio racial está leyendo lo contrario de lo escrito: lo que hay es admiración por la astucia de los vencidos, que consiguieron que sus valores acabaran siendo los valores de todos, incluidos los de sus antiguos amos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle desactiva la lectura más torpe del libro, que consiste en repartir a la humanidad en dos listas y ponerse uno mismo en la buena. Quien haga eso, además de simplificar, se está retratando: la necesidad de clasificarse por encima es justamente el síntoma que él está describiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su diagnóstico de Europa es que ha ganado la moral de rebaño: un sistema de valores construido alrededor de la seguridad, la compasión y la igualdad, que él no niega que sea útil, pero que se presenta como la moral, sin apellidos, cuando es una moral entre otras posibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí hay que señalar una debilidad importante, y es de método. Toda esa historia de cómo nacieron las dos morales la cuenta sin una sola prueba: no hay documentos, ni fechas, ni antropología. Es una reconstrucción imaginada, y al año siguiente escribió otro libro entero intentando darle base.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora el título, que es la fuente de todos los malentendidos. En alemán hay dos parejas distintas: bueno y malvado, que es la pareja moral, y bueno y malo, que es la pareja del que valora sin condenar. Ir más allá del bien y del mal significa salir de la primera pareja, no de las dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nietzsche lo dice expresamente al año siguiente, en «La genealogía de la moral», con una frase que debería ir en la faja de todas las ediciones: esto no significa en absoluto ir más allá de lo bueno y lo malo. No propone abolir los juicios; propone dejar de emitirlos en clave de culpa y pecado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia práctica es enorme. Decir que algo es malo, en su sentido, es decir que es flojo, pobre, mal hecho, indigno de uno. Decir que es malvado es decir que merece castigo, que hay una deuda que pagar y una culpa que expiar. Lo segundo es lo que él quiere desmontar, y no lo primero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale lo que sí se puede llevar uno a casa, que es una pregunta y no una doctrina: cuando algo te parece indignante, ¿te parece mal porque lo has valorado, o porque te enseñaron a llamarlo pecado? Distinguir esas dos cosas en el propio juicio es la única tarea práctica que propone el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El motor de todo el sistema es la voluntad de poder, y conviene precisar qué es y qué no es. No es el deseo de mandar sobre otros, ni la política, ni el poder en el sentido en que lo usa un periódico: es la tendencia de todo lo vivo a crecer, a extenderse, a poder más de lo que podía ayer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que decir dónde falla eso, porque falla en lo mismo que él criticaba. Acababa de acusar a los filósofos de construir sistemas enteros a partir de un solo impulso, y a las cien páginas propone explicar la vida, el conocimiento y la moral a partir de un solo impulso. La trampa que denunció se la come él.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y aquí está el detalle que casi ningún resumen menciona. El apartado en que intenta explicar el mundo entero como voluntad de poder está escrito de principio a fin en condicional: suponiendo que, si se admitiera, en el caso de que. Su tesis más famosa la formula como una hipótesis, no como un hallazgo.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contra Schopenhauer, que era su maestro de juventud y que veía en la vida una voluntad ciega de sobrevivir y sufrir, Nietzsche responde que lo vivo no busca conservarse sino desplegarse, y que la autoconservación es solo una consecuencia, y a veces ni eso, porque hay quien se juega la vida por crecer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene aclarar además qué no está en este libro, porque mucha gente lo busca aquí. El superhombre no aparece prácticamente; el eterno retorno, apenas una alusión; y la frase sobre la muerte de Dios es de otro libro anterior. Todo eso vive en Zaratustra y en «La gaya ciencia».",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una consecuencia que recogerá otro vecino del catálogo. Si los valores no vienen de fuera, hay que fabricarlos; Sartre monta sobre esa idea «El existencialismo es un humanismo», con la diferencia de que a él la ausencia de Dios le produce angustia y a Nietzsche, en estas páginas, le produce sitio libre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ir más allá del bien y del mal no es hacer lo que a uno le apetezca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es dejar de hablar de culpa y de pecado para poder hablar de otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien use el título como coartada no ha pasado de la portada.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que no se puede lavar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Toca la parte incómoda, y hay que hacerla sin excusas, porque el peor servicio que se le puede hacer a un autor así es defenderlo de lo que efectivamente dijo. La novena parte del libro se titula qué es aristocrático y no es una metáfora sobre el espíritu.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí sostiene que toda elevación del tipo humano ha sido obra de sociedades aristocráticas, que la desigualdad entre hombres es la condición de que exista algo alto, y que una sociedad sana no existe para sí misma sino como andamio para que en su cima aparezcan unos pocos seres superiores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y por si quedara duda de hasta dónde llega, escribe que toda cultura elevada ha necesitado alguna forma de esclavitud, y no lo dice describiendo el pasado con pena: lo dice como condición. Es el punto en el que muchos lectores cierran el libro, y no es una reacción irracional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y va más lejos: escribe que la vida misma es apropiación, ofensa, avasallamiento de lo extraño y de lo débil, y que la explotación no es propia de una sociedad corrompida, sino que pertenece a la esencia de lo vivo. No es una descripción neutral; lo dice en tono de quien reclama que se acepte.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Dicho sin rodeos",
+          frase: "Estos pasajes no son un malentendido de sus lectores fascistas: son suyos, están escritos y no admiten lavado. Lo que sí es falso es que de ahí salga una política racial o nacionalista, que es lo contrario de lo que defiende.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La distinción importa y es fina, pero es real. Su aristocracia no es de sangre, ni de dinero, ni de nación: es de tipo humano, y él considera que la mayoría de los aristócratas de su tiempo eran mediocres. Aun así, la conclusión política que se saca de esos apartados es difícilmente presentable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de la guerra hubo un intento serio de rescatarlo, y conviene conocerlo. Un profesor alemán exiliado en Estados Unidos lo reintrodujo en los años cincuenta insistiendo en que su tema era el autodominio y no la política, y consiguió que se le volviera a leer; a cambio, dejó estos apartados en penumbra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella operación era necesaria y también era interesada, y hoy la mayoría de los estudiosos prefiere el trato honrado: aquí hay un pensador antiigualitario, con un proyecto político desagradable, y hay además el mejor psicólogo de la moral que ha existido. Las dos cosas son el mismo señor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene ponerlo al lado de un vecino de esta misma categoría para ver que no es una rareza suya. «La República» de Platón defiende también una sociedad de tres castas gobernada por unos pocos preparados, y lleva dos mil cuatrocientos años en las estanterías sin que nadie la retire.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia, y es una diferencia a favor de Platón, está en para qué. El de Platón manda porque sabe y gobierna en beneficio de todos; el tipo superior de Nietzsche no gobierna nada ni le debe nada a nadie, y la sociedad entera existe para que él pueda darse. Es una desigualdad sin contrapartida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda cosa que no se puede lavar son las páginas sobre las mujeres. Hay un tramo de la séptima parte que es abiertamente misógino, y no en el sentido de estar anticuado: sostiene que la mujer se estropea al ilustrarse y que exigir igualdad es un síntoma de decadencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es especialmente pobre porque contradice su propio método. El hombre que enseñó a preguntar qué necesidad personal hay detrás de cada convicción escribió sobre las mujeres como el señorito herido de una novela mala, sin aplicarse a sí mismo ni una sola de las preguntas que le hacía a todo el mundo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "No hay manera decente de rescatarlo. Se puede señalar que en la misma época lo escribía casi todo el mundo, y no sirve de nada: en la biblioteca está «El segundo sexo», de Beauvoir, que desmonta esa posición entera con más rigor del que Nietzsche puso jamás en defenderla.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sí conviene deshacer un bulo asociado, porque circula mucho. La frase de que si vas con mujeres no olvides el látigo no está en este libro, está en «Así habló Zaratustra», y la dice una anciana al protagonista. No mejora nada, pero citarla como consejo del autor es citar mal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay una fotografía de 1882 que lo complica todo: en ella, Lou Salomé sostiene un látigo sentada en un carro del que tiran Nietzsche y su amigo Paul Rée. La escena la montó él mismo, meses antes de escribir aquella frase y poco antes de que ella lo rechazara. Interprételo cada cual.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer problema es de forma. El aforismo es un género que permite decir una cosa y su contraria a doscientas páginas de distancia sin quedar en evidencia, y Nietzsche lo usa constantemente. Es la razón de que cada lector encuentre en él justo lo que buscaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la única regla de lectura que sirve con este autor: no citarlo nunca por frases sueltas. Un apartado entero, con su ironía y su contexto, dice a menudo lo contrario de la línea que lo abre, y él construía así a propósito, poniendo la trampa en la primera frase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso hay tantos Nietzsches en circulación: el de los nazis, el de los anarquistas, el de los existencialistas franceses, el de los posmodernos, el de los adolescentes y el de los entrenadores personales. Todos citan frases reales y casi todos omiten la de al lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puestos a decir qué sobrevive a todas las objeciones, son tres cosas: la sospecha como método, la idea de que nuestra moral tiene una historia y podría haber sido otra, y el perspectivismo. Con eso se han hecho la psicología profunda, la sociología del conocimiento y media filosofía francesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene decir para quién no es este libro, sin condescendencia. Quien esté buscando consuelo, orientación moral o una razón para levantarse por las mañanas encontrará aquí lo contrario: un autor que se dedica a quitar suelo. Para eso están, en esta misma categoría, los estoicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si alguien duda por cuál de los dos empezar, la respuesta es este. «Así habló Zaratustra» es más famoso, más citado y bastante más difícil, porque está escrito en tono de escritura sagrada y sin argumentos; este dice lo mismo explicando por qué, que es lo que un lector de hoy necesita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un libro que dice que la explotación pertenece a la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que a la vez desprecia a los nacionalistas y a los antisemitas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos cosas están escritas, y quien te cuente solo una te está vendiendo algo.",
+        },
+      ],
+    },
+    {
+      titulo: "El archivo de Weimar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El 3 de enero de 1889, en una calle de Turín, Nietzsche se derrumba y ya no vuelve. Pasará los once últimos años de su vida sin capacidad de trabajar, cuidado primero por su madre y después por su hermana, mientras su nombre empieza por fin a hacerse famoso en toda Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El año anterior había sido el más productivo de su vida y eso ya era un síntoma. En doce meses escribió cinco libros, con una euforia creciente que se nota en el tono, y en las últimas cartas firmaba unas veces como Dioniso y otras como el Crucificado. La lucidez y el derrumbe llegaron casi juntos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena que todo el mundo cuenta, la del filósofo abrazándose al cuello de un caballo al que un cochero estaba azotando, no aparece en ninguna fuente de aquellos días: se documenta décadas después y los biógrafos serios la dan por muy dudosa. Es demasiado literaria para ser cierta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene desmontar el diagnóstico de manual. Durante un siglo se dio por hecho que fue sífilis, y hoy varios especialistas lo discuten: la evolución de sus síntomas y su supervivencia durante once años encajan mal con esa enfermedad y mejor con un tumor cerebral de crecimiento lento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Importa deshacer ese diagnóstico por una razón que no es médica. Durante décadas se usó la sífilis como una insinuación moral —el filósofo inmoral castigado por su vida— y como excusa para tratar su obra entera como el delirio de un enfermo. Los libros estaban escritos y terminados antes del derrumbe.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y entonces entra en escena su hermana Elisabeth, que es el personaje decisivo de esta historia. Se había casado en 1885 con un agitador antisemita y en 1887 se marchó con él a Paraguay a fundar una colonia de alemanes puros llamada Nueva Germania, en mitad de la selva.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella boda le costó a Nietzsche una pelea familiar seria. En sus cartas de aquellos años trata al cuñado con desprecio, se queja de que le asocien con esa gente y escribe a su hermana que el antisemitismo le repugna. Todo eso está publicado y fechado, y hay que tenerlo delante para lo que viene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La colonia fue un desastre: tierras malas, colonos arruinados y deudas. El marido se suicidó en 1889 y ella volvió a Alemania, donde se encontró con un hermano incapacitado, una obra sin editar y una fama creciente. Tomó el control de todo y montó un archivo con su nombre en Weimar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pueblo, por cierto, sigue existiendo en el norte de Paraguay con el mismo nombre, habitado por descendientes de aquellos colonos y de sus vecinos guaraníes. De la utopía racial que iba a fundarse allí no queda nada más que unos apellidos alemanes y un cementerio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hizo desde ahí ocupa un capítulo aparte en la historia de la manipulación editorial. Controló quién podía ver los manuscritos, escribió la biografía oficial, falsificó cartas y, sobre todo, fabricó un libro entero con notas sueltas que su hermano había descartado.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El libro que no existe",
+          frase: "«La voluntad de poder» no es una obra de Nietzsche. Es una selección de fragmentos de sus cuadernos, ordenada por su hermana y un colaborador después de su muerte, con un plan que él había abandonado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que lo condena es sencillo: los fragmentos elegidos estaban descartados, se ordenaron según un índice que el propio Nietzsche había tachado, y la edición fue creciendo con los años, de unos cuatrocientos apartados en la primera versión a más de mil en la siguiente. Ningún autor amplía un libro después de muerto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese montaje fue durante medio siglo el libro por el que más gente lo conoció, y es el que los ideólogos nazis citaban. La edición crítica que empezaron dos filólogos italianos en los años sesenta demostró la operación fragmento por fragmento y hoy nadie serio lo cita como obra suya.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquellos dos italianos, uno de ellos militante comunista, se pasaron años en Weimar transcribiendo cuadernos en plena Alemania del Este para publicar todo lo que había, en orden y con fechas. Hizo falta eso para deshacer lo que una familia alemana había armado en treinta y cinco años.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Elisabeth vivió hasta 1935 y se encargó de que el archivo se convirtiera en un lugar de peregrinación del nuevo régimen. Hitler lo visitó, hay fotografías suyas contemplando el busto de Nietzsche, y ella recibió del Estado los honores que el hermano nunca tuvo. A su entierro fue el propio Hitler.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene ser preciso con el alcance de esa operación: no convirtió a los nazis en lectores de Nietzsche, les dio una etiqueta prestigiosa para lo que ya pensaban. Es exactamente lo que describe «Los orígenes del totalitarismo», de Arendt, cuando explica cómo esos movimientos se fabricaron antepasados ilustres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una ironía que remata el asunto. El pensador que dedicó una parte entera de este libro a burlarse del orgullo nacional alemán acabó convertido en filósofo oficial de un régimen nacionalista alemán, gracias a la mujer con la que se había peleado precisamente por eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora la parte que hace justicia, porque está dentro del libro que estamos resumiendo. En una de sus últimas partes, Nietzsche ataca directamente a los antisemitas de su país, se burla de ellos llamándolos gritones y llega a proponer, medio en broma y medio en serio, que se les expulse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no es una frase suelta: la octava parte entera, la que se titula pueblos y patrias, es una burla sostenida del orgullo nacional alemán, escrita por alguien que había renunciado a la ciudadanía prusiana años antes y que se declaraba apátrida por convicción y no por accidente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En las mismas páginas elogia a los judíos europeos como la estirpe más fuerte y resistente del continente, desprecia el nacionalismo alemán como una enfermedad de la época y propone la figura del buen europeo, alguien que ya no pertenezca a ninguna patria. Eso lo escribió él, en este libro, en 1886.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También rompió con Wagner, que era su gran amistad, en buena parte por el antisemitismo del músico, y escribió a su propia hermana cartas furiosas por haberse casado con quien se casó. La imagen del Nietzsche precursor del nazismo es una fabricación, y se puede fechar y firmar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no lo absuelve de lo del capítulo anterior, y las dos cosas hay que sostenerlas a la vez. Su proyecto era antiigualitario y desagradable, y no era racial ni nacionalista; quien lo defienda tapando lo primero y quien lo condene inventando lo segundo están haciendo el mismo trabajo de mala calidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un filósofo incapacitado a los cuarenta y cuatro años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una hermana con las llaves del armario durante treinta y cinco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leer este libro entero es la manera de quitarle a ella la última palabra.",
+        },
+      ],
+    },
+  ],
+};
