@@ -6967,3 +6967,650 @@ export const HOMENAJE_CATALUNA: Resumen = {
     },
   ],
 };
+
+export const GUERRA_CIVIL_THOMAS: Resumen = {
+  id: "guerra-civil-thomas",
+  titulo: "La guerra civil española",
+  autor: "Hugh Thomas",
+  ano: 1961,
+  gancho:
+    "Un inglés de veintinueve años escribió la primera historia completa de la guerra de España. En España estuvo prohibida y entró de contrabando en maletas.",
+  porQue:
+    "Durante quince años fue el único libro donde un español podía leer lo que había pasado en su propio país. Hoy está superado en casi todo, y sigue siendo el mejor sitio para entender la guerra entera de una vez.",
+  partes: [
+    {
+      titulo: "Un funcionario que dimite por Suez",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Otoño de 1956. Un funcionario de veinticinco años del Ministerio de Asuntos Exteriores británico presenta su dimisión. El gobierno de su país acaba de invadir Egipto en secreto, de acuerdo con Francia e Israel, y él considera que aquello es indefendible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Hugh Thomas, había estudiado en Cambridge y en la Sorbona, y a los pocos meses se encontró sin trabajo, con veintiséis años y con ganas de escribir. Eligió un asunto sobre el que en 1957 no existía todavía ningún libro serio y completo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que no había en 1957",
+          frase: "Una historia general de la guerra civil española. Había memorias de protagonistas, propaganda de los dos bandos, crónicas de corresponsales y estudios parciales. No había un solo libro que contara la guerra entera, desde sus orígenes hasta el final, intentando ser justo con los dos lados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En España no lo había por un motivo evidente: el régimen que había ganado la guerra llevaba dieciocho años contándola de una sola manera, y la censura no permitía otra. Fuera de España no lo había porque casi todos los que escribían habían tomado partido en su momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Thomas trabajó cuatro años. Viajó por España sin llamar la atención, entrevistó a supervivientes de los dos bandos —militares retirados, políticos exiliados, curas, sindicalistas—, leyó colecciones enteras de periódicos y reunió las memorias publicadas hasta entonces.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que no pudo consultar fue ningún archivo. Los españoles estaban cerrados, los soviéticos también, los alemanes e italianos apenas empezaban a explotarse. Escribió una historia de setecientas páginas sin acceso a los documentos, y ese es su mérito y su límite.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en Londres en 1961, cuando su autor tenía veintinueve o treinta años. Se llamaba simplemente La guerra civil española, y fue un éxito inmediato en el mundo anglosajón, donde por fin se podía leer de un tirón lo que había pasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su decisión de fondo, la que define el libro, fue tratar a los dos bandos con el mismo criterio: contar las atrocidades de los dos, dar cifras de las dos represiones, y no presentar a ninguno de los dos como el bueno de una película.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso, que hoy parece lo mínimo exigible, en 1961 no lo hacía nadie. Los libros que circulaban eran de bando: o la cruzada contra el comunismo, o la república mártir aplastada por el fascismo. Thomas se negó a las dos y le atacaron desde los dos lados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir enseguida que esa equidistancia tiene un problema que se le ha señalado con razón, y que él fue matizando en las ediciones posteriores. Los dos bandos cometieron atrocidades y no estaban en la misma posición: uno era un gobierno legal y el otro una sublevación militar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contar los crímenes de ambos con la misma vara es correcto. Sugerir que por eso las dos causas eran equivalentes no lo es, y de uno de los dos bandos salió una dictadura que duró casi cuarenta años. El propio Thomas lo reconoció en las revisiones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no se quedó quieto. Thomas lo revisó a fondo tres o cuatro veces a lo largo de cincuenta años, y cada revisión creció: de las setecientas páginas iniciales pasó a más de mil cien, incorporando lo que iban dando los archivos según se abrían.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El caso más claro es el de las cifras de muertos. En la primera edición calculó unos seiscientos mil, que era la estimación que circulaba entonces. En las siguientes fue bajando esa cifra según aparecían recuentos serios, hasta acercarse a la mitad.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rectificar por escrito una cifra que uno mismo ha popularizado no es habitual, y es de las cosas que le honran. También significa que hay ediciones antiguas de este libro circulando por ahí con números que su propio autor descartó después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras que maneja hoy la investigación española vienen sobre todo de un proyecto colectivo publicado en 1999 que revisó los recuentos provincia por provincia, y quedan más o menos así, con márgenes que siguen discutiéndose.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Muertos en combate, en torno a los ciento setenta y cinco mil. Represión en la zona republicana, alrededor de cincuenta mil, incluidos unos seis mil ochocientos religiosos. Represión en la zona sublevada durante la guerra, alrededor de cien mil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a eso hay que añadir lo que vino después de 1939, que es la diferencia decisiva: entre veinte mil y cincuenta mil ejecuciones más en la posguerra, además de los muertos en cárceles y campos, cuando ya no había guerra que justificara nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato es el que rompe cualquier equidistancia simple. En un bando la represión terminó con la guerra porque perdió; en el otro continuó veinte años con el poder del Estado detrás y con procedimiento judicial de por medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro empieza mucho antes de 1936, y esa es otra de sus decisiones acertadas. Dedica la primera parte al siglo diecinueve y al primer tercio del veinte, porque sostiene que la guerra no se entiende sin los cincuenta años anteriores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta el sistema de la Restauración, en el que dos partidos se turnaban en el poder falsificando las elecciones con caciques y con actas amañadas, de modo que votar no servía para nada y todo el mundo lo sabía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta el desastre de 1898, la pérdida de Cuba y Filipinas y el golpe que supuso para el prestigio del ejército. La Semana Trágica de Barcelona en 1909. La crisis de 1917. La dictadura de Primo de Rivera entre 1923 y 1930, que fracasó sin resolver nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y llega a abril de 1931, cuando unas elecciones municipales ganadas por los republicanos en las ciudades hacen que el rey se marche del país sin abdicar y se proclame la Segunda República en medio de una alegría enorme y de expectativas imposibles de cumplir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que pasa en los cinco años siguientes es lo que hay que entender para entender lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que pasa, resumido, es que nadie acepta perder unas elecciones.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El 17 de julio de 1936",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La República llega con un programa de reformas que en cualquier país europeo de la época habrían sido normales y que en España tocaban todos los nervios a la vez: reforma agraria, separación de Iglesia y Estado, autonomía para Cataluña y reforma del ejército.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada una de esas cuatro creó un enemigo permanente. La agraria enfrentó a los propietarios del sur, la religiosa a la Iglesia y a los católicos practicantes, la autonómica al nacionalismo español, y la militar a un cuerpo de oficiales enorme y con memoria.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema de fondo que describe Thomas",
+          frase: "Que las reformas fueron demasiado lentas para quien las esperaba y demasiado rápidas para quien las sufría. Los jornaleros andaluces no vieron el reparto de tierras que se les había prometido, y los propietarios vivieron aquellos años como una amenaza permanente a lo suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1933 las derechas ganan las elecciones y empiezan a deshacer lo hecho, y buena parte de la izquierda decide que no acepta ese resultado. En octubre de 1934 hay una insurrección: en Cataluña dura un día, y en Asturias se convierte en una revolución armada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La revuelta asturiana la aplasta el ejército de África traído a la península, con unos mil quinientos muertos y una represión posterior muy dura. Thomas señala ese episodio como el ensayo general de todo, y como el momento en que las dos mitades dejan de creer en el juego.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Porque a partir de ahí, cada lado tiene su agravio para justificar lo siguiente. La derecha dirá que la izquierda se levantó primero, en 1934, contra un gobierno elegido. La izquierda dirá que la represión de Asturias demostró para qué querían el poder. Los dos tienen su parte de razón.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En febrero de 1936 gana las elecciones el Frente Popular por un margen ajustado, y la primavera se va llenando de violencia callejera: huelgas, iglesias quemadas, atentados de pistoleros de los dos signos y funerales que acaban en tiroteos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conspiración militar lleva meses en marcha, dirigida por el general Mola desde Pamplona. Lo que la precipita ocurre el 12 y el 13 de julio: pistoleros falangistas matan al teniente Castillo, de la Guardia de Asalto, y compañeros suyos secuestran y asesinan esa noche al diputado monárquico Calvo Sotelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que un jefe de la oposición sea sacado de su casa y asesinado por miembros de las fuerzas de seguridad del Estado es un hecho sin precedentes, y a los conspiradores les da el argumento que les faltaba. El golpe empieza cuatro días después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Arranca en Melilla la tarde del 17 de julio de 1936 y se extiende a la península el 18. Y aquí está el hecho que decide todo lo demás, y que Thomas explica mejor que nadie: el golpe ni triunfó ni fracasó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Triunfó donde el jefe de la guarnición fue decidido y las organizaciones obreras eran débiles: Navarra, Castilla la Vieja, Galicia, buena parte de Andalucía occidental, Zaragoza, Marruecos y las Canarias. Fracasó en Madrid, Barcelona, Valencia, Bilbao y toda la costa mediterránea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fracasó donde fracasó porque los sindicatos salieron a la calle y consiguieron armas, y porque una parte de las fuerzas de seguridad se mantuvo leal. En Barcelona, la CNT asaltó los cuarteles; en Madrid, el asedio del cuartel de la Montaña acabó con los sublevados.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese empate es lo que convierte un golpe de estado en una guerra civil. España queda partida por una línea irregular, con las dos mitades teniendo capitales, industria, ejército y frontera, y con ninguna de las dos capaz de acabar con la otra en unas semanas.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema inmediato de los sublevados es que sus mejores tropas, el Ejército de África, están en Marruecos, y la flota se ha quedado en manos del gobierno porque las tripulaciones se amotinaron contra sus oficiales. No pueden cruzar el estrecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo resuelven pidiendo aviones a Hitler y a Mussolini, que los mandan en cuestión de días. Entre finales de julio y octubre, unos veinte mil hombres cruzan el estrecho en aviones alemanes e italianos, y es el primer puente aéreo militar de la historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es decisivo y suele contarse de pasada. Sin aquellos aviones, la sublevación probablemente se habría quedado en el norte y en unas cuantas capitales, y habría acabado siendo derrotada o negociada en unos meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el Ejército de África en la península, la columna de Yagüe sube hacia Madrid por Extremadura a una velocidad enorme, y por el camino ocurre lo de Badajoz, en agosto: la toma de la ciudad y una matanza posterior que los corresponsales extranjeros contaron y que el bando sublevado negó siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En septiembre, Franco toma una decisión militarmente discutible y políticamente brillante: desviarse a Toledo para liberar el Alcázar, donde un grupo de sublevados resiste asediado desde julio. Pierde días preciosos camino de Madrid y gana una imagen que le vale el mando único.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque el 1 de octubre de 1936, en Burgos, los generales sublevados lo nombran jefe del Estado y generalísimo. No era el más antiguo ni el más político, y acabó siendo el único porque Sanjurjo había muerto en un accidente de avión y Mola moriría en otro en 1937.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Thomas subraya lo que ese azar significó. Los dos generales que podían haberle hecho sombra murieron en accidentes aéreos con once meses de diferencia, y el que quedó gobernó España durante treinta y nueve años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, las dos zonas se estaban desangrando por dentro, y no en el frente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la retaguardia, en los pueblos, entre vecinos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que decidió la suerte de la guerra no se decidía en España.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se estaba decidiendo en una sala de reuniones de Londres.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El Comité de No Intervención, Londres",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En agosto de 1936, el gobierno francés propone y el británico impulsa un acuerdo de no intervención: ningún país europeo venderá armas a ninguno de los dos bandos españoles. Se firma, se crea un comité en Londres, y se reúne durante casi tres años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo firman veintisiete países, entre ellos Alemania, Italia y la Unión Soviética. Los tres lo incumplen desde el primer día y siguen asistiendo a las reuniones del comité, en las que se discute educadamente sobre cómo vigilar el cumplimiento.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso no fue neutral",
+          frase: "Porque un gobierno reconocido tiene derecho a comprar armas y una sublevación no. Al aplicar el embargo a los dos por igual, el acuerdo quitó al gobierno legal un derecho que tenía, mientras los sublevados recibían material de dos potencias que habían firmado el papel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Thomas es claro en esto y no lo disimula: la no intervención, en la práctica, fue una intervención a favor de uno de los dos bandos, ejecutada por los países que se presentaban como neutrales, y sobre todo por el Reino Unido, que fue quien más presionó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los motivos británicos los describe sin épica. El gobierno conservador quería evitar a toda costa una guerra europea, desconfiaba de una república que le parecía cada vez más izquierdista, y tenía intereses económicos importantes en España, sobre todo mineros.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Francia es un caso más doloroso. Su gobierno era de Frente Popular, presidido por Léon Blum, socialista, que al principio quiso ayudar y acabó plegándose a la presión británica y al riesgo de una crisis interna. Mandó algo por debajo de la mesa y muy poco.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La ayuda alemana e italiana fue continua y creciente. Italia mandó unos setenta y cinco mil hombres, aviones y material en cantidades enormes. Alemania mandó menos hombres pero mucha más tecnología: la Legión Cóndor, con aviación moderna y artillería antiaérea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y usó España como banco de pruebas. Los cazas y bombarderos que arrasarían Europa tres años después se probaron aquí, con sus tripulaciones rotando para que la mayor cantidad posible de pilotos alemanes tuviera experiencia de combate real antes de 1939.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El episodio más conocido es el bombardeo de Guernica, el 26 de abril de 1937: aviones alemanes e italianos destruyeron una villa vasca en día de mercado. Fue el primer bombardeo deliberado de una población civil como objetivo en Europa occidental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre las víctimas conviene ser exacto, porque el dato se ha usado mucho. La cifra de mil seiscientos cincuenta y cuatro muertos la dio el gobierno vasco durante la guerra y era propaganda; las investigaciones posteriores la sitúan entre doscientos cincuenta y trescientos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no reduce la importancia del hecho ni un milímetro. Lo que hizo de Guernica un símbolo no fue el número, sino que se bombardeara una ciudad sin objetivo militar claro, en día de mercado, para aterrorizar a la población, y que el régimen lo negara durante cuarenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La República, mientras tanto, solo encontró un vendedor: la Unión Soviética. Y cobró. En octubre de 1936, el gobierno de Largo Caballero envió a Odesa unas quinientas diez toneladas de oro del Banco de España, en torno al setenta por ciento de las reservas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese envío se conoce como el oro de Moscú y ha sido munición política durante ochenta años. Lo que la investigación posterior ha establecido es que fue un pago por material y que las cuentas soviéticas fueron abusivas, no un robo ni un regalo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "También llegaron las Brigadas Internacionales, organizadas por la Internacional Comunista: unos treinta y cinco mil voluntarios de más de cincuenta países a lo largo de la guerra, nunca más de dieciocho mil a la vez, con unos diez mil muertos.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su papel militar se exagera con frecuencia y Thomas lo pone en su sitio. Fueron decisivas en un momento concreto —la defensa de Madrid en noviembre de 1936— y después fueron una fracción pequeña de un ejército republicano que llegó a tener cientos de miles de hombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su valor fue sobre todo moral y simbólico, y también táctico al principio: muchos brigadistas tenían experiencia militar de la Primera Guerra Mundial en un ejército donde casi nadie la tenía, porque los oficiales profesionales se habían quedado mayoritariamente en el otro bando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle explica mucho de la guerra. En 1936, alrededor de dos tercios de los oficiales del ejército español acabaron en el bando sublevado, y la República tuvo que improvisar mandos, con las consecuencias que se pueden imaginar en las ofensivas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El precio político de la ayuda soviética fue el peso creciente del Partido Comunista dentro de la República, que en julio de 1936 era pequeño y en 1937 era decisivo, con la consecuencia que Orwell contó desde dentro: la eliminación del POUM y de la revolución.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Thomas dedica bastante espacio a esa guerra dentro de la guerra, con los sucesos de mayo de 1937 en Barcelona, la caída de Largo Caballero, el gobierno de Negrín y la militarización de las milicias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y describe el proceso paralelo en el otro bando, que fue más rápido y más eficaz. En abril de 1937, Franco unificó por decreto a la Falange y a los carlistas en un partido único bajo su mando, y encarceló al jefe falangista que se opuso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es una de las conclusiones que el libro deja más claras: los dos bandos eran coaliciones inestables, y uno de los dos consiguió imponer un mando único en nueve meses mientras el otro siguió discutiendo hasta el último día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con las cartas repartidas así, la guerra duró casi tres años más de lo que cualquiera habría previsto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su última gran batalla se libró en un río de Tarragona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ciento quince días de combate por unos kilómetros de secano.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El Ebro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La guerra la cuenta Thomas campaña por campaña, y su relato militar sigue siendo claro y utilizable. Después del fracaso ante Madrid en noviembre de 1936, los sublevados intentan cortar la capital por el este y chocan dos veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En febrero de 1937, en el Jarama, con una batalla durísima y sin resultado claro. Y en marzo, en Guadalajara, donde un cuerpo expedicionario italiano avanza demasiado deprisa, se queda sin apoyo aéreo por el mal tiempo y sufre una derrota completa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Guadalajara es la única victoria republicana grande de toda la guerra y tuvo un efecto propagandístico enorme, porque demostró que los italianos de Mussolini podían ser derrotados en campo abierto por un ejército improvisado.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y a la vez enseña el problema republicano",
+          frase: "Que ganaron una batalla defensiva y no pudieron explotarla. Todas las ofensivas republicanas de la guerra —Brunete, Belchite, Teruel, el Ebro— empiezan bien, rompen el frente los primeros días, y se paran por falta de mandos, de transporte y de aviación para sostener el avance.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bloqueado Madrid, Franco cambia de estrategia y va a por el norte, que es donde está la industria: Bilbao con sus altos hornos, Asturias con el carbón. Entre abril y octubre de 1937 conquista toda la cornisa cantábrica y duplica su capacidad industrial.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Thomas señala ahí el momento en que la guerra queda decidida en lo material, año y medio antes de terminar. Con el norte perdido, la República se queda sin acero, sin carbón y sin la mitad de su industria, y ya no puede fabricar lo que consume en el frente.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En diciembre de 1937 los republicanos toman Teruel en una ofensiva de invierno con veinte grados bajo cero, y la pierden dos meses después. Franco contraataca, llega al Mediterráneo en abril de 1938 y parte la zona republicana en dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Cataluña separada del centro, el gobierno de Negrín se juega la última carta. En la noche del 24 al 25 de julio de 1938, unos ochenta mil hombres cruzan el Ebro en barcas y por pasarelas y establecen una cabeza de puente de unos cuarenta kilómetros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El objetivo no era militar sino político: aguantar el tiempo suficiente para que estallara la guerra europea que todo el mundo veía venir, y que convertiría la guerra española en un frente más de una guerra general en la que las democracias estarían obligadas a intervenir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cálculo se derrumbó el 30 de septiembre de 1938 en Múnich, cuando Francia y Reino Unido aceptaron el desmembramiento de Checoslovaquia para evitar la guerra. Ese día, la República supo que nadie iba a venir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La batalla del Ebro duró ciento quince días, hasta el 16 de noviembre. La República perdió alrededor de treinta mil hombres entre muertos, heridos y prisioneros, y el material que le quedaba, y acabó exactamente donde había empezado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de eso, Cataluña cae en seis semanas. Barcelona el 26 de enero de 1939, y a continuación se produce el éxodo: unas cuatrocientas cincuenta mil personas cruzan la frontera francesa en pleno invierno, y acaban en campos de internamiento en las playas del Rosellón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final es especialmente amargo. En marzo de 1939, con Madrid todavía en pie, el coronel Casado da un golpe de estado dentro de la República contra el gobierno de Negrín, con apoyo socialista y anarquista, para negociar una rendición honrosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo combates entre republicanos en las calles de Madrid durante días, con centenares de muertos, en la última semana de una guerra ya perdida. Y la negociación no existió: Franco exigió rendición sin condiciones y la obtuvo el 1 de abril de 1939.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Thomas dedica un capítulo entero a las dos represiones y fue de los primeros en dar cifras de ambas en el mismo libro, cosa que en 1961 le costó ataques desde los dos lados. Merece la pena mirar cómo eran distintas, porque no fueron simétricas.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la zona republicana, la violencia se concentró en los primeros meses, cuando el Estado había perdido el control de las armas, y la llevaron a cabo comités locales y patrullas sindicales. El gobierno la fue frenando desde finales de 1936 y llegó a fusilar a responsables.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su rasgo más característico fue la persecución religiosa: casi siete mil miembros del clero asesinados en unos meses, la mayoría en el verano de 1936, más iglesias destruidas por todo el país. Es la mayor matanza de religiosos de la historia contemporánea de Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la zona sublevada la violencia fue desde el principio una política dirigida por los mandos militares, con instrucciones escritas. La orden reservada de Mola de junio de 1936 hablaba de eliminar sin escrúpulos ni vacilación a quienes no pensaran como ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y siguió después de la victoria, con procedimiento judicial y a gran escala: consejos de guerra sumarísimos, una Ley de Responsabilidades Políticas retroactiva, cientos de miles de presos, batallones de trabajadores y ejecuciones que continuaron hasta bien entrados los años cuarenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la asimetría que el libro no acaba de subrayar todo lo que debería, y que la investigación española posterior ha documentado con detalle: una represión terminó con la derrota y la otra se convirtió en la base jurídica de un régimen que duró casi cuarenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la guerra terminada y el libro escrito, quedaba un problema: en el país del que trataba no se podía leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La censura franquista lo prohibió sin más trámite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que se imprimió en otro sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En una editorial de exiliados españoles en París.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Ruedo Ibérico, París, 1962",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Ruedo Ibérico la fundó en 1961 un grupo de exiliados españoles en París, encabezado por José Martínez Guerricabeitia, un valenciano que había pasado por los campos franceses. Su idea era publicar en español lo que en España no se podía publicar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer libro que sacaron, en 1962, fue este. La guerra civil española de Hugh Thomas en castellano, impresa en Francia, con la intención explícita de que entrara en España de cualquier manera y llegara a manos de gente que no había podido leer nada parecido.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo entraba",
+          frase: "En maletas de doble fondo, en el maletero de los coches de los turistas, escondido entre la ropa, con las tapas cambiadas. Lo pasaban estudiantes, curas obreros, viajantes y extranjeros de vacaciones. Tener uno en casa era un problema serio si te registraban.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se leyó a base de préstamos y de fotocopias, de ejemplares que iban de mano en mano hasta deshacerse, y de lectores que lo devolvían en una semana porque había cola. Durante quince años fue el libro donde un español podía enterarse de su propia guerra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso conviene entenderlo bien, porque hoy suena exagerado. Una persona nacida en 1940 podía llegar a los treinta años sin haber leído jamás una sola frase sobre la guerra que no viniera de la propaganda del régimen, y sin poder preguntar en casa sin bajar la voz.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Sus padres habían estado allí y muchos callaban, unos por miedo y otros por vergüenza o por dolor. El libro de un inglés de treinta años que no había estado en la guerra y que trataba a los dos bandos con la misma frialdad hizo un trabajo que no podía hacer nadie de dentro.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En España se publicó legalmente en 1976, muerto Franco, y fue un éxito inmediato. Para entonces ya había ediciones revisadas, y Thomas siguió corrigiéndolo hasta bien entrado el siglo veintiuno, incorporando los archivos soviéticos abiertos tras 1991.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla, y es importante decirlo porque el libro sigue vendiéndose. Lo primero: es un libro de 1961 escrito sin archivos, y prácticamente todo lo que hoy se sabe de la financiación, de la ayuda exterior y de la represión salió de documentos posteriores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo: es historia política y militar vista desde arriba. Gobiernos, generales, batallas y comités. La vida de la gente corriente, las colectivizaciones agrarias, la retaguardia, el papel de las mujeres y la experiencia de los pueblos aparecen poco y de refilón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero: las cifras de la primera edición eran altísimas y él mismo las corrigió, con lo que hay ejemplares antiguos circulando con números que su autor descartó. Conviene comprobar de qué edición es lo que uno tiene en la mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cuarto es el reproche de la equidistancia, que se le ha hecho desde el principio y no es injusto. Tratar los crímenes de los dos bandos con la misma vara es correcto; dar a entender que las dos causas eran intercambiables no lo es, y a ratos lo sugiere.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo quinto: la historiografía española lo ha superado en casi todos los apartados concretos. Sobre la represión franquista está el trabajo de Preston y de Espinosa; sobre la ayuda soviética y el oro, el de Viñas; sobre las cifras, el proyecto colectivo dirigido por Santos Juliá.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que ninguno de esos libros da es lo que da este: la guerra entera, de principio a fin, en un solo volumen legible, con los orígenes, la política internacional, las campañas militares y las dos retaguardias en el mismo relato y en orden.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno: que sigue siendo la referencia. Fue la primera historia completa y hoy es un clásico superado en los detalles. Se lee para tener el mapa entero, y después se va a los especialistas para cada cosa concreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que la no intervención fue neutral. Fue un embargo aplicado a los dos por igual mientras dos de los firmantes armaban a uno de ellos, y su efecto real fue quitarle al gobierno legal un derecho que tenía por serlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que las Brigadas Internacionales fueron decisivas. Importaron mucho en la defensa de Madrid en noviembre de 1936 y en el ánimo de la República, y fueron una parte pequeña de un ejército de cientos de miles de hombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro: que en Guernica murieron mil seiscientas personas. Esa cifra era propaganda de guerra del propio bando republicano; las investigaciones la sitúan entre doscientos cincuenta y trescientos. Lo grave del episodio nunca estuvo en el número.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cinco: que la República perdió solo por falta de armas. Las tuvo, caras y a plazos, y perdió también por falta de mando único, por tener a dos tercios de los oficiales profesionales enfrente, y por haber quedado sin industria tras la caída del norte en 1937.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y seis: que fue una guerra rápida. Duró novecientos ochenta y seis días, casi tres años, y en ese tiempo murieron alrededor de trescientas mil personas, la mitad de ellas fuera de los frentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hugh Thomas siguió escribiendo sobre España e Hispanoamérica el resto de su vida, se hizo hispanista de referencia y acabó nombrado lord por Margaret Thatcher, de la que después se distanció por Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió en Londres en 2017, a los ochenta y cinco años. Llevaba cincuenta y seis corrigiendo el mismo libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo escribió sin haber vivido nada de aquello, sin ser español y sin poder entrar en un solo archivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que en 1961 fuera la mejor manera de que un español supiera qué le había pasado a su familia dice bastante de lo que era España en 1961.",
+        },
+      ],
+    },
+  ],
+};

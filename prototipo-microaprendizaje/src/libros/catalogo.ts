@@ -71,7 +71,7 @@ export const CATALOGO: Ficha[] = [
   { id: "origenes-totalitarismo", titulo: "Los orígenes del totalitarismo", autor: "Hannah Arendt", ano: 1951, categoria: "Historia", estado: "escrito" },
   { id: "eichmann-jerusalen", titulo: "Eichmann en Jerusalén", autor: "Hannah Arendt", ano: 1963, categoria: "Historia", estado: "pendiente" },
   { id: "homenaje-cataluna", titulo: "Homenaje a Cataluña", autor: "George Orwell", ano: 1938, categoria: "Historia", estado: "escrito" },
-  { id: "guerra-civil-thomas", titulo: "La guerra civil española", autor: "Hugh Thomas", ano: 1961, categoria: "Historia", estado: "pendiente" },
+  { id: "guerra-civil-thomas", titulo: "La guerra civil española", autor: "Hugh Thomas", ano: 1961, categoria: "Historia", estado: "escrito" },
   { id: "auschwitz-rees", titulo: "Auschwitz: los nazis y la solución final", autor: "Laurence Rees", ano: 2005, categoria: "Historia", estado: "pendiente" },
   { id: "postguerra", titulo: "Postguerra", autor: "Tony Judt", ano: 2005, categoria: "Historia", estado: "pendiente" },
   { id: "homo-sovieticus", titulo: "El fin del Homo Sovieticus", autor: "Svetlana Aleksiévich", ano: 2013, categoria: "Historia", estado: "pendiente" },
