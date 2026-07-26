@@ -1,7 +1,16 @@
-import { useState, type ReactElement } from "react";
-import { motion } from "framer-motion";
+import { useMemo, useState, type ReactElement, type ReactNode } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { GlyphBack } from "./glyphs";
 import { spring, springSoft, springTight } from "./motion";
+import { Chips, Conmutador, Hoja, Opciones, Segmentado } from "./Hoja";
+import {
+  NOMBRE_APARIENCIA,
+  NOMBRE_ESCALA,
+  type Apariencia,
+  type Escala,
+  type Almacen,
+} from "./preferencias";
+import { CATEGORIAS_CON_LIBROS } from "./libros/puente";
 
 /* ==========================================================================
    Ajustes.
@@ -16,92 +25,181 @@ import { spring, springSoft, springTight } from "./motion";
    pantalla se sentiría lenta. Los grupos entran a 55 ms y dentro de cada uno
    las filas van juntas.
 
-   No hay ninguna opción inventada para rellenar. Cada una corresponde a algo
-   que la app hace de verdad: los temas existen, el objetivo diario se mide,
-   el recordatorio se pide en la introducción y la racha se enseña en el
-   perfil.
+   Cada fila abre una hoja con el control de verdad, y el valor que se ve a la
+   derecha sale del mismo sitio donde se guarda. Ninguna opción está pintada:
+   el tema cambia el color de la app, la escala cambia el cuerpo del texto de
+   las tarjetas, y los temas seguidos y silenciados se guardan en el
+   dispositivo y sobreviven a la recarga.
    ========================================================================== */
 
 const PASO_GRUPO = 0.055;
 
+/** Los ocho acentos de la biblioteca, para pintar los chips de temas. */
+const COLOR_TEMA: Record<string, string> = {
+  Historia: "var(--clay)",
+  Filosofía: "var(--plum-light)",
+  Ciencia: "var(--slate)",
+  Arte: "var(--clay-light, #d9895f)",
+  Literatura: "var(--plum)",
+  Psicología: "var(--sage-light, #9aab88)",
+  Economía: "var(--ochre)",
+  Salud: "var(--sage)",
+};
+
+type Panel =
+  | "suscripcion" | "nombre" | "genero" | "edad" | "idioma" | "nivel"
+  | "seguidos" | "silenciados" | "objetivo" | "recordatorio" | "apariencia" | "escala"
+  | "racha" | "descargar" | "sincronizar"
+  | "compartir" | "valorar" | "proponer"
+  | "faq" | "reportar" | "privacidad" | "terminos";
+
 type Fila = {
+  id?: Panel;
   nombre: string;
   Icono: () => ReactElement;
   /** Lo que hay ahora mismo, a la derecha. Un ajuste sin valor no informa. */
   valor?: string;
-  /** Un interruptor en vez de una flecha. */
-  conmutador?: boolean;
+  /** Un interruptor en la propia fila: solo para lo que es sí o no. */
+  conmutador?: { on: boolean; onCambiar: (v: boolean) => void };
 };
 
 type Grupo = { rotulo: string; filas: Fila[] };
 
 export function Ajustes({
   nombre,
+  racha = 3,
+  prefs: almacen,
+  onNombre,
+  onObjetivo,
   onVolver,
 }: {
   nombre: string;
+  racha?: number;
+  /* El almacén lo crea la app y no esta pantalla. Es lo que hace que el tema
+     y la escala de texto sigan aplicados al salir de aquí: si el hook viviera
+     dentro de Ajustes, sus efectos se desmontarían con la pantalla y la app
+     volvería al tema claro en cuanto pulsaras «Volver». */
+  prefs: Almacen;
+  /** El nombre vive en la app: aquí se edita y allí se muestra. */
+  onNombre?: (v: string) => void;
+  onObjetivo?: (v: number) => void;
   onVolver: () => void;
 }) {
-  const [marketing, setMarketing] = useState(false);
-  const [sonido, setSonido] = useState(true);
+  const { prefs, set, alternar, reiniciar } = almacen;
+  const [panel, setPanel] = useState<Panel | null>(null);
   const [copiado, setCopiado] = useState(false);
+  const [aviso, setAviso] = useState<string | null>(null);
+
+  /** Un mensaje breve que se cae solo. Confirmar sin robar la pantalla. */
+  const avisar = (t: string) => {
+    setAviso(t);
+    window.setTimeout(() => setAviso(null), 2200);
+  };
+
+  const temas = useMemo(() => CATEGORIAS_CON_LIBROS.map(String), []);
+  const visible = nombre || prefs.nombre;
 
   const grupos: Grupo[] = [
     {
       rotulo: "Suscripción",
-      filas: [{ nombre: "Gestionar suscripción", Icono: IcoCohete, valor: "Prueba, 7 días" }],
+      filas: [
+        { id: "suscripcion", nombre: "Gestionar suscripción", Icono: IcoCohete, valor: "Prueba, 7 días" },
+      ],
     },
     {
       rotulo: "Sobre ti",
       filas: [
-        { nombre: "Nombre", Icono: IcoTarjeta, valor: nombre },
-        { nombre: "Identidad de género", Icono: IcoGenero, valor: "Sin decir" },
-        { nombre: "Edad", Icono: IcoEdad, valor: "Sin decir" },
-        { nombre: "Idioma del contenido", Icono: IcoGlobo, valor: "Español" },
-        { nombre: "Nivel de lectura", Icono: IcoBirrete, valor: "Sin definir" },
+        { id: "nombre", nombre: "Nombre", Icono: IcoTarjeta, valor: visible },
+        { id: "genero", nombre: "Identidad de género", Icono: IcoGenero, valor: prefs.genero },
+        { id: "edad", nombre: "Edad", Icono: IcoEdad, valor: prefs.edad },
+        { id: "idioma", nombre: "Idioma del contenido", Icono: IcoGlobo, valor: prefs.idioma },
+        { id: "nivel", nombre: "Nivel de lectura", Icono: IcoBirrete, valor: prefs.nivel },
       ],
     },
     {
       rotulo: "A tu medida",
       filas: [
-        { nombre: "Temas que sigues", Icono: IcoEtiquetas, valor: "5" },
-        { nombre: "Temas silenciados", Icono: IcoSilencio, valor: "Ninguno" },
-        { nombre: "Objetivo diario", Icono: IcoDiana, valor: "5 min" },
-        { nombre: "Recordatorio", Icono: IcoCampana, valor: "20:30" },
-        { nombre: "Apariencia", Icono: IcoLuna, valor: "Automática" },
-        { nombre: "Tamaño del texto", Icono: IcoTexto, valor: "Normal" },
-        { nombre: "Sonido al pasar tarjeta", Icono: IcoAltavoz, conmutador: true },
+        {
+          id: "seguidos",
+          nombre: "Temas que sigues",
+          Icono: IcoEtiquetas,
+          valor: prefs.seguidos.length ? String(prefs.seguidos.length) : "Todos",
+        },
+        {
+          id: "silenciados",
+          nombre: "Temas silenciados",
+          Icono: IcoSilencio,
+          valor: prefs.silenciados.length ? String(prefs.silenciados.length) : "Ninguno",
+        },
+        { id: "objetivo", nombre: "Objetivo diario", Icono: IcoDiana, valor: `${prefs.objetivo} min` },
+        {
+          id: "recordatorio",
+          nombre: "Recordatorio",
+          Icono: IcoCampana,
+          valor: prefs.recordatorioActivo ? prefs.recordatorio : "Desactivado",
+        },
+        {
+          id: "apariencia",
+          nombre: "Apariencia",
+          Icono: IcoLuna,
+          valor: NOMBRE_APARIENCIA[prefs.apariencia],
+        },
+        { id: "escala", nombre: "Tamaño del texto", Icono: IcoTexto, valor: NOMBRE_ESCALA[prefs.escala] },
+        {
+          nombre: "Sonido al pasar tarjeta",
+          Icono: IcoAltavoz,
+          conmutador: { on: prefs.sonido, onCambiar: (v) => set("sonido", v) },
+        },
       ],
     },
     {
       rotulo: "Tu progreso",
       filas: [
-        { nombre: "Racha y estadísticas", Icono: IcoLlama, valor: "3 días" },
-        { nombre: "Descargar para leer sin conexión", Icono: IcoDescarga },
-        { nombre: "Sincronizar entre dispositivos", Icono: IcoNube, valor: "Desactivado" },
+        { id: "racha", nombre: "Racha y estadísticas", Icono: IcoLlama, valor: `${racha} días` },
+        {
+          id: "descargar",
+          nombre: "Descargar para leer sin conexión",
+          Icono: IcoDescarga,
+          valor: prefs.sinConexion ? "Listo" : undefined,
+        },
+        {
+          id: "sincronizar",
+          nombre: "Sincronizar entre dispositivos",
+          Icono: IcoNube,
+          valor: prefs.sincronizar ? "Activado" : "Desactivado",
+        },
       ],
     },
     {
       rotulo: "Échanos una mano",
       filas: [
-        { nombre: "Compartir la app", Icono: IcoCompartir },
-        { nombre: "Valorar en la tienda", Icono: IcoEstrella },
-        { nombre: "Proponer un tema", Icono: IcoBombilla },
+        { id: "compartir", nombre: "Compartir la app", Icono: IcoCompartir },
+        {
+          id: "valorar",
+          nombre: "Valorar en la tienda",
+          Icono: IcoEstrella,
+          valor: prefs.valorado ? "★".repeat(prefs.valorado) : undefined,
+        },
+        { id: "proponer", nombre: "Proponer un tema", Icono: IcoBombilla },
       ],
     },
     {
       rotulo: "Ayuda",
       filas: [
-        { nombre: "Preguntas frecuentes", Icono: IcoInterrogante },
-        { nombre: "Reportar un error en un dato", Icono: IcoBandera },
+        { id: "faq", nombre: "Preguntas frecuentes", Icono: IcoInterrogante },
+        { id: "reportar", nombre: "Reportar un error en un dato", Icono: IcoBandera },
       ],
     },
     {
       rotulo: "Otros",
       filas: [
-        { nombre: "Política de privacidad", Icono: IcoEscudo },
-        { nombre: "Términos y condiciones", Icono: IcoDocumento },
-        { nombre: "Analítica y marketing", Icono: IcoGrafico, conmutador: true },
+        { id: "privacidad", nombre: "Política de privacidad", Icono: IcoEscudo },
+        { id: "terminos", nombre: "Términos y condiciones", Icono: IcoDocumento },
+        {
+          nombre: "Analítica y marketing",
+          Icono: IcoGrafico,
+          conmutador: { on: prefs.marketing, onCambiar: (v) => set("marketing", v) },
+        },
       ],
     },
   ];
@@ -138,8 +236,8 @@ export function Ajustes({
                   key={f.nombre}
                   className="ajustes-fila"
                   onClick={() => {
-                    if (f.nombre.startsWith("Analítica")) setMarketing((v) => !v);
-                    if (f.nombre.startsWith("Sonido")) setSonido((v) => !v);
+                    if (f.conmutador) f.conmutador.onCambiar(!f.conmutador.on);
+                    else if (f.id) setPanel(f.id);
                   }}
                 >
                   <span className="ajustes-icono">
@@ -148,10 +246,7 @@ export function Ajustes({
                   <span className="ajustes-nombre">{f.nombre}</span>
 
                   {f.conmutador ? (
-                    <span
-                      className="interruptor interruptor-mini"
-                      data-on={f.nombre.startsWith("Analítica") ? marketing : sonido}
-                    >
+                    <span className="interruptor interruptor-mini" data-on={f.conmutador.on}>
                       <motion.span className="interruptor-pomo" layout transition={springTight} />
                     </span>
                   ) : (
@@ -171,6 +266,7 @@ export function Ajustes({
         <motion.button
           className="ajustes-version"
           onClick={() => {
+            navigator.clipboard?.writeText("3093ED9C-4B1A-4F27-54584B7E8389").catch(() => {});
             setCopiado(true);
             window.setTimeout(() => setCopiado(false), 1800);
           }}
@@ -186,7 +282,704 @@ export function Ajustes({
           <span className="ajustes-copiar">{copiado ? "Copiado" : "Copiar"}</span>
         </motion.button>
       </div>
+
+      {/* --- Las hojas. Una por fila, con el control real dentro. --- */}
+
+      <Hoja abierta={panel === "suscripcion"} titulo="Tu suscripción" onCerrar={() => setPanel(null)}>
+        <Suscripcion onAviso={avisar} />
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "nombre"}
+        titulo="Tu nombre"
+        pie="Es como te saluda la app al abrirla."
+        onCerrar={() => setPanel(null)}
+      >
+        <CampoTexto
+          valor={visible}
+          marcador="Tu nombre"
+          maximo={24}
+          onGuardar={(v) => {
+            set("nombre", v);
+            onNombre?.(v);
+            setPanel(null);
+          }}
+        />
+      </Hoja>
+
+      <Hoja abierta={panel === "genero"} titulo="Identidad de género" onCerrar={() => setPanel(null)}>
+        <Opciones
+          valor={prefs.genero}
+          opciones={["Mujer", "Hombre", "No binario", "Otro", "Sin decir"].map((n) => ({ id: n, nombre: n }))}
+          onElegir={(v) => set("genero", v)}
+        />
+        <p className="hoja-nota">Solo se usa para el saludo. No afecta a lo que se te recomienda.</p>
+      </Hoja>
+
+      <Hoja abierta={panel === "edad"} titulo="Edad" onCerrar={() => setPanel(null)}>
+        <Opciones
+          valor={prefs.edad}
+          opciones={["Menos de 18", "18-24", "25-34", "35-49", "50 o más", "Sin decir"].map((n) => ({
+            id: n,
+            nombre: n,
+          }))}
+          onElegir={(v) => set("edad", v)}
+        />
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "idioma"}
+        titulo="Idioma del contenido"
+        pie="Los resúmenes están escritos en español."
+        onCerrar={() => setPanel(null)}
+      >
+        <Opciones
+          valor={prefs.idioma}
+          opciones={[
+            { id: "Español", nombre: "Español", pie: "173 libros disponibles" },
+            { id: "English", nombre: "English", pie: "Próximamente" },
+            { id: "Português", nombre: "Português", pie: "Próximamente" },
+          ]}
+          onElegir={(v) => {
+            if (v === "Español") set("idioma", v);
+            else avisar("Ese idioma todavía no está disponible");
+          }}
+        />
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "nivel"}
+        titulo="Nivel de lectura"
+        pie="Ajusta cuánto contexto se da por sabido."
+        onCerrar={() => setPanel(null)}
+      >
+        <Opciones
+          valor={prefs.nivel}
+          opciones={[
+            { id: "Divulgativo", nombre: "Divulgativo", pie: "Se explica todo desde cero" },
+            { id: "Medio", nombre: "Medio", pie: "Se dan por sabidos los nombres conocidos" },
+            { id: "Exigente", nombre: "Exigente", pie: "Menos contexto y más discusión" },
+            { id: "Sin definir", nombre: "Sin definir", pie: "Igual para todos los libros" },
+          ]}
+          onElegir={(v) => set("nivel", v)}
+        />
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "seguidos"}
+        titulo="Temas que sigues"
+        pie="Suben en la estantería. Si no eliges ninguno, aparecen todos por igual."
+        onCerrar={() => setPanel(null)}
+      >
+        <Chips
+          activos={prefs.seguidos}
+          opciones={temas}
+          color={(id) => COLOR_TEMA[id] ?? "var(--ink)"}
+          onAlternar={(id) => alternar("seguidos", id)}
+        />
+        {prefs.seguidos.length > 0 && (
+          <button className="hoja-secundario" onClick={() => set("seguidos", [])}>
+            Quitar todos
+          </button>
+        )}
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "silenciados"}
+        titulo="Temas silenciados"
+        pie="Dejan de aparecer en las recomendaciones. Siguen buscándose a mano."
+        onCerrar={() => setPanel(null)}
+      >
+        <Chips
+          activos={prefs.silenciados}
+          opciones={temas}
+          color={() => "var(--ink-soft)"}
+          onAlternar={(id) => alternar("silenciados", id)}
+        />
+        {prefs.silenciados.length > 0 && (
+          <button className="hoja-secundario" onClick={() => set("silenciados", [])}>
+            Quitar todos
+          </button>
+        )}
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "objetivo"}
+        titulo="Objetivo diario"
+        pie="Cuánto quieres leer al día. Se puede cambiar cuando quieras."
+        onCerrar={() => setPanel(null)}
+      >
+        <Segmentado
+          id="objetivo"
+          valor={prefs.objetivo}
+          opciones={[3, 5, 10, 15, 20].map((n) => ({ id: n, nombre: `${n}` }))}
+          onElegir={(v) => {
+            set("objetivo", v);
+            onObjetivo?.(v);
+          }}
+        />
+        <p className="hoja-nota">
+          {prefs.objetivo <= 3
+            ? "Un capítulo corto. Sirve para no romper la racha en un día malo."
+            : prefs.objetivo <= 5
+              ? "Un capítulo entero. Es el ritmo para el que están medidos los libros."
+              : prefs.objetivo <= 10
+                ? "Dos capítulos. Un libro entero cada dos semanas y media."
+                : "Sesión larga. Cuidado: los objetivos altos son los que se abandonan antes."}
+        </p>
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "recordatorio"}
+        titulo="Recordatorio"
+        pie="Un aviso al día, a la hora que elijas."
+        onCerrar={() => setPanel(null)}
+      >
+        <Conmutador
+          nombre="Avisarme cada día"
+          on={prefs.recordatorioActivo}
+          onCambiar={(v) => set("recordatorioActivo", v)}
+        />
+        <AnimatePresence initial={false}>
+          {prefs.recordatorioActivo && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={springTight}
+              style={{ overflow: "hidden" }}
+            >
+              <div className="hoja-horas">
+                {["08:00", "13:30", "18:00", "20:30", "22:00"].map((h) => (
+                  <motion.button
+                    key={h}
+                    className="hoja-hora"
+                    data-on={prefs.recordatorio === h}
+                    onClick={() => set("recordatorio", h)}
+                    whileTap={{ scale: 0.94 }}
+                    transition={springTight}
+                  >
+                    {h}
+                  </motion.button>
+                ))}
+              </div>
+              <p className="hoja-nota">
+                La hora que mejor funciona es la que ya tiene un hueco muerto: el trayecto, la cola
+                del café, los minutos antes de dormir.
+              </p>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "apariencia"}
+        titulo="Apariencia"
+        pie="Cambia las pantallas de lectura. La biblioteca y el perfil ya son oscuros de por sí."
+        onCerrar={() => setPanel(null)}
+      >
+        <Opciones<Apariencia>
+          valor={prefs.apariencia}
+          opciones={[
+            { id: "auto", nombre: "Automática", pie: "Sigue al sistema" },
+            { id: "claro", nombre: "Claro", pie: "Papel hueso y tinta cálida" },
+            { id: "oscuro", nombre: "Oscuro", pie: "Para leer de noche" },
+          ]}
+          onElegir={(v) => set("apariencia", v)}
+        />
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "escala"}
+        titulo="Tamaño del texto"
+        pie="Afecta al cuerpo de las tarjetas, que es donde se lee de verdad."
+        onCerrar={() => setPanel(null)}
+      >
+        <Segmentado<Escala>
+          id="escala"
+          valor={prefs.escala}
+          opciones={(["pequeno", "normal", "grande", "enorme"] as Escala[]).map((e) => ({
+            id: e,
+            nombre: NOMBRE_ESCALA[e],
+          }))}
+          onElegir={(v) => set("escala", v)}
+        />
+        {/* Muestra real: el mismo estilo que una tarjeta de lectura. */}
+        <div className="hoja-muestra">
+          <p>
+            Un panda gigante come unos veinte kilos de bambú al día. Para hacerlo agarra el tallo
+            con una mano y le arranca las hojas de un tirón limpio.
+          </p>
+        </div>
+      </Hoja>
+
+      <Hoja abierta={panel === "racha"} titulo="Racha y estadísticas" onCerrar={() => setPanel(null)}>
+        <Estadisticas racha={racha} objetivo={prefs.objetivo} />
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "descargar"}
+        titulo="Leer sin conexión"
+        pie="Guarda los resúmenes en el dispositivo."
+        onCerrar={() => setPanel(null)}
+      >
+        <Descarga listo={prefs.sinConexion} onListo={() => set("sinConexion", true)} />
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "sincronizar"}
+        titulo="Sincronizar"
+        pie="Tu progreso, tus notas y tus temas en todos tus dispositivos."
+        onCerrar={() => setPanel(null)}
+      >
+        <Conmutador
+          nombre="Sincronización en la nube"
+          pie={prefs.sincronizar ? "Última copia hace unos segundos" : "Todo se guarda solo aquí"}
+          on={prefs.sincronizar}
+          onCambiar={(v) => set("sincronizar", v)}
+        />
+        <p className="hoja-nota">
+          Sin sincronizar, desinstalar la app borra la racha y los libros empezados. Es la causa
+          número uno de perder el progreso.
+        </p>
+      </Hoja>
+
+      <Hoja abierta={panel === "compartir"} titulo="Compartir la app" onCerrar={() => setPanel(null)}>
+        <Compartir onAviso={avisar} />
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "valorar"}
+        titulo="Valorar en la tienda"
+        pie="Toca las estrellas."
+        onCerrar={() => setPanel(null)}
+      >
+        <Estrellas valor={prefs.valorado} onElegir={(v) => set("valorado", v)} />
+        <AnimatePresence>
+          {prefs.valorado > 0 && (
+            <motion.p
+              className="hoja-nota"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={springTight}
+            >
+              {prefs.valorado >= 4
+                ? "Gracias. En una tienda de verdad, esto abriría la ficha para publicarlo."
+                : "Gracias por decirlo. Cuéntanos qué falla en «Proponer un tema» y lo miramos."}
+            </motion.p>
+          )}
+        </AnimatePresence>
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "proponer"}
+        titulo="Proponer un tema"
+        pie="¿Qué libro echas en falta?"
+        onCerrar={() => setPanel(null)}
+      >
+        <CampoTexto
+          valor=""
+          marcador="Título y autor"
+          maximo={90}
+          etiqueta="Enviar propuesta"
+          multilinea
+          onGuardar={() => {
+            setPanel(null);
+            avisar("Propuesta enviada. Gracias.");
+          }}
+        />
+      </Hoja>
+
+      <Hoja abierta={panel === "faq"} titulo="Preguntas frecuentes" onCerrar={() => setPanel(null)}>
+        <Acordeon
+          items={[
+            {
+              p: "¿De dónde salen los resúmenes?",
+              r: "Los escribe el equipo leyendo el libro entero y contrastando los datos con la bibliografía especializada. Cada resumen dice también dónde falla el libro, que es la parte que no suele contarse.",
+            },
+            {
+              p: "¿Cuánto dura un capítulo?",
+              r: "Unos cinco minutos, medidos a 200 palabras por minuto. Los minutos de cada parada se ven en el mapa del libro antes de empezar.",
+            },
+            {
+              p: "¿Sustituye a leer el libro?",
+              r: "No, y no lo pretende. Sirve para decidir cuáles merecen las quince horas y para no llegar en blanco a una conversación sobre los que no vas a leer.",
+            },
+            {
+              p: "¿Qué pasa si pierdo la racha?",
+              r: "Nada irreversible. La racha es un recordatorio, no una nota. Se puede empezar otra el mismo día.",
+            },
+          ]}
+        />
+      </Hoja>
+
+      <Hoja
+        abierta={panel === "reportar"}
+        titulo="Reportar un error"
+        pie="Si un dato está mal, queremos saberlo."
+        onCerrar={() => setPanel(null)}
+      >
+        <CampoTexto
+          valor=""
+          marcador="Libro, capítulo y qué está mal"
+          maximo={200}
+          etiqueta="Enviar aviso"
+          multilinea
+          onGuardar={() => {
+            setPanel(null);
+            avisar("Aviso enviado. Lo revisamos.");
+          }}
+        />
+      </Hoja>
+
+      <Hoja abierta={panel === "privacidad"} titulo="Política de privacidad" onCerrar={() => setPanel(null)}>
+        <Legal
+          parrafos={[
+            "Este prototipo guarda tus preferencias únicamente en el almacenamiento local de este navegador. No se envía nada a ningún servidor.",
+            "Eso incluye tu nombre, los temas que sigues, el objetivo diario, la apariencia y el tamaño del texto.",
+            "Si borras los datos del navegador o usas otro dispositivo, todo vuelve a los valores iniciales.",
+          ]}
+        />
+        <button
+          className="hoja-secundario hoja-peligro"
+          onClick={() => {
+            reiniciar();
+            avisar("Preferencias restablecidas");
+          }}
+        >
+          Borrar mis datos y restablecer
+        </button>
+      </Hoja>
+
+      <Hoja abierta={panel === "terminos"} titulo="Términos y condiciones" onCerrar={() => setPanel(null)}>
+        <Legal
+          parrafos={[
+            "Curva es un prototipo de portafolio, sin ánimo comercial y sin pasarela de pago real.",
+            "Los resúmenes son obra original: cuentan y discuten las ideas de cada libro con palabras propias, y no reproducen su texto.",
+            "Los títulos, autores y editoriales mencionados pertenecen a sus respectivos titulares.",
+          ]}
+        />
+      </Hoja>
+
+      {/* Aviso breve, sobre todo lo demás y sin bloquear nada. */}
+      <AnimatePresence>
+        {aviso && (
+          <motion.p
+            className="ajustes-aviso"
+            initial={{ opacity: 0, y: 14 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 10 }}
+            transition={springTight}
+          >
+            {aviso}
+          </motion.p>
+        )}
+      </AnimatePresence>
     </motion.div>
+  );
+}
+
+/* --------------------------------------------------------------------------
+   Los contenidos de las hojas que necesitan más que una lista.
+   -------------------------------------------------------------------------- */
+
+function CampoTexto({
+  valor,
+  marcador,
+  maximo,
+  etiqueta = "Guardar",
+  multilinea,
+  onGuardar,
+}: {
+  valor: string;
+  marcador: string;
+  maximo: number;
+  etiqueta?: string;
+  multilinea?: boolean;
+  onGuardar: (v: string) => void;
+}) {
+  const [texto, setTexto] = useState(valor);
+  const limpio = texto.trim();
+
+  return (
+    <div className="hoja-campo">
+      {multilinea ? (
+        <textarea
+          value={texto}
+          onChange={(e) => setTexto(e.target.value.slice(0, maximo))}
+          placeholder={marcador}
+          rows={4}
+          autoFocus
+        />
+      ) : (
+        <input
+          value={texto}
+          onChange={(e) => setTexto(e.target.value.slice(0, maximo))}
+          placeholder={marcador}
+          autoFocus
+        />
+      )}
+      <div className="hoja-campo-pie">
+        <span>
+          {texto.length}/{maximo}
+        </span>
+        <button className="hoja-principal" disabled={!limpio} onClick={() => onGuardar(limpio)}>
+          {etiqueta}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function Suscripcion({ onAviso }: { onAviso: (t: string) => void }) {
+  return (
+    <>
+      <div className="hoja-plan">
+        <span className="hoja-plan-sello">Activa</span>
+        <p className="hoja-plan-titulo">Prueba gratuita</p>
+        <p className="hoja-plan-pie">Quedan 7 días. Después, 4,99 € al mes.</p>
+        <div className="hoja-plan-barra">
+          <motion.span
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: 0.3 }}
+            transition={{ ...springSoft, delay: 0.1 }}
+          />
+        </div>
+      </div>
+      <div className="hoja-lista">
+        {[
+          ["Los 173 resúmenes", "Sin límite de lecturas"],
+          ["Leer sin conexión", "Descarga completa"],
+          ["Sin anuncios", "Nunca los hubo"],
+        ].map(([n, p]) => (
+          <div key={n} className="hoja-opcion" data-activa="true">
+            <span className="hoja-opcion-texto">
+              <span className="hoja-opcion-nombre">{n}</span>
+              <span className="hoja-opcion-pie">{p}</span>
+            </span>
+          </div>
+        ))}
+      </div>
+      <button className="hoja-secundario" onClick={() => onAviso("En el prototipo no hay cobro real")}>
+        Cancelar suscripción
+      </button>
+    </>
+  );
+}
+
+function Estadisticas({ racha, objetivo }: { racha: number; objetivo: number }) {
+  /* Siete columnas con una altura fija por día: el patrón importa más que el
+     valor exacto, así que no hay eje ni números encima de las barras. */
+  const semana = [4, 6, 0, 5, 8, 3, 5];
+  const dias = ["L", "M", "X", "J", "V", "S", "D"];
+  const alto = Math.max(...semana, objetivo);
+
+  return (
+    <>
+      <div className="hoja-cifras">
+        {[
+          [String(racha), "días seguidos"],
+          ["31", "capítulos"],
+          ["2,7 h", "en total"],
+        ].map(([n, p], i) => (
+          <motion.div
+            key={p}
+            className="hoja-cifra"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ...springTight, delay: 0.05 + i * 0.06 }}
+          >
+            <strong>{n}</strong>
+            <span>{p}</span>
+          </motion.div>
+        ))}
+      </div>
+
+      <div className="hoja-semana">
+        {semana.map((v, i) => (
+          <div key={dias[i]} className="hoja-columna">
+            <div className="hoja-barra-hueco">
+              <motion.span
+                className="hoja-barra"
+                data-cumplido={v >= objetivo}
+                initial={{ height: 0 }}
+                animate={{ height: `${Math.max((v / alto) * 100, 4)}%` }}
+                transition={{ ...springSoft, delay: 0.1 + i * 0.05 }}
+              />
+            </div>
+            <span className="hoja-dia">{dias[i]}</span>
+          </div>
+        ))}
+      </div>
+      <p className="hoja-nota">
+        Las barras de color marcan los días en que llegaste a tus {objetivo} minutos. El miércoles no
+        leíste, y la racha aguantó igual: lo que cuenta es la tendencia, no la perfección.
+      </p>
+    </>
+  );
+}
+
+function Descarga({ listo, onListo }: { listo: boolean; onListo: () => void }) {
+  const [pct, setPct] = useState(listo ? 100 : 0);
+  const [bajando, setBajando] = useState(false);
+
+  const empezar = () => {
+    if (bajando || pct >= 100) return;
+    setBajando(true);
+    /* Se simula por tramos irregulares: una barra que avanza a velocidad
+       constante se lee como falsa, porque ninguna descarga real lo hace. */
+    const tic = window.setInterval(() => {
+      setPct((p) => {
+        const siguiente = p + 4 + Math.random() * 11;
+        if (siguiente >= 100) {
+          window.clearInterval(tic);
+          setBajando(false);
+          onListo();
+          return 100;
+        }
+        return siguiente;
+      });
+    }, 220);
+  };
+
+  return (
+    <>
+      <div className="hoja-descarga">
+        <div className="hoja-descarga-barra">
+          <motion.span
+            animate={{ scaleX: pct / 100 }}
+            transition={springTight}
+            data-fin={pct >= 100}
+          />
+        </div>
+        <p className="hoja-descarga-cifra">
+          {pct >= 100 ? "173 de 173 · 48 MB" : `${Math.round((pct / 100) * 173)} de 173`}
+        </p>
+      </div>
+      <button className="hoja-principal hoja-ancho" onClick={empezar} disabled={bajando || pct >= 100}>
+        {pct >= 100 ? "Descargado" : bajando ? "Descargando…" : "Descargar todo"}
+      </button>
+      <p className="hoja-nota">
+        Ocupa unos 48 MB. Los resúmenes son texto: lo que pesa son las ilustraciones.
+      </p>
+    </>
+  );
+}
+
+function Compartir({ onAviso }: { onAviso: (t: string) => void }) {
+  const enlace = "https://curva.app/i/3093ed";
+  const nativo = typeof navigator !== "undefined" && "share" in navigator;
+
+  return (
+    <>
+      <div className="hoja-enlace">
+        <span>{enlace}</span>
+        <button
+          onClick={() => {
+            navigator.clipboard?.writeText(enlace).catch(() => {});
+            onAviso("Enlace copiado");
+          }}
+        >
+          Copiar
+        </button>
+      </div>
+      <button
+        className="hoja-principal hoja-ancho"
+        onClick={() => {
+          if (nativo) {
+            navigator
+              .share({ title: "Curva", text: "Un libro en cinco minutos al día.", url: enlace })
+              .catch(() => {});
+          } else {
+            navigator.clipboard?.writeText(enlace).catch(() => {});
+            onAviso("Enlace copiado");
+          }
+        }}
+      >
+        {nativo ? "Compartir…" : "Copiar enlace"}
+      </button>
+      <p className="hoja-nota">
+        Quien entre por tu enlace empieza con dos semanas de prueba en vez de una.
+      </p>
+    </>
+  );
+}
+
+function Estrellas({ valor, onElegir }: { valor: number; onElegir: (v: number) => void }) {
+  const [encima, setEncima] = useState(0);
+  const activo = encima || valor;
+
+  return (
+    <div className="hoja-estrellas" onMouseLeave={() => setEncima(0)}>
+      {[1, 2, 3, 4, 5].map((n) => (
+        <motion.button
+          key={n}
+          aria-label={`${n} estrellas`}
+          onClick={() => onElegir(n)}
+          onMouseEnter={() => setEncima(n)}
+          whileTap={{ scale: 0.85 }}
+          animate={{ scale: n <= activo ? 1 : 0.92 }}
+          transition={springTight}
+          data-on={n <= activo}
+        >
+          <svg width="34" height="34" viewBox="0 0 22 22" aria-hidden>
+            <path
+              d="m11 3.4 2.4 5 5.4.8-3.9 3.8.9 5.4-4.8-2.6-4.8 2.6.9-5.4L3.2 9.2l5.4-.8Z"
+              fill={n <= activo ? "currentColor" : "none"}
+              stroke="currentColor"
+              strokeWidth="1.7"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </motion.button>
+      ))}
+    </div>
+  );
+}
+
+function Acordeon({ items }: { items: { p: string; r: string }[] }) {
+  const [abierto, setAbierto] = useState<number | null>(0);
+
+  return (
+    <div className="hoja-acordeon">
+      {items.map((it, i) => (
+        <div key={it.p} className="hoja-faq" data-abierto={abierto === i}>
+          <button onClick={() => setAbierto(abierto === i ? null : i)}>
+            <span>{it.p}</span>
+            <motion.span
+              className="hoja-faq-signo"
+              animate={{ rotate: abierto === i ? 45 : 0 }}
+              transition={springTight}
+              aria-hidden
+            >
+              +
+            </motion.span>
+          </button>
+          <AnimatePresence initial={false}>
+            {abierto === i && (
+              <motion.p
+                initial={{ opacity: 0, height: 0 }}
+                animate={{ opacity: 1, height: "auto" }}
+                exit={{ opacity: 0, height: 0 }}
+                transition={springTight}
+              >
+                {it.r}
+              </motion.p>
+            )}
+          </AnimatePresence>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function Legal({ parrafos }: { parrafos: string[] }): ReactNode {
+  return (
+    <div className="hoja-legal">
+      {parrafos.map((p) => (
+        <p key={p}>{p}</p>
+      ))}
+    </div>
   );
 }
 

@@ -21,6 +21,7 @@ import { Pago } from "./Pago";
 import { Checkout } from "./Checkout";
 import { Perfil } from "./Perfil";
 import { Ajustes } from "./Ajustes";
+import { usePreferencias } from "./preferencias";
 import { AntiScroll } from "./AntiScroll";
 import { AvisoRegalo, Oferta } from "./Regalo";
 import { AvisoValoracion } from "./Valoracion";
@@ -42,6 +43,10 @@ const RACHA = 3;
 
 export default function App() {
   const [pantalla, setPantalla] = useState<Pantalla>("intro");
+  /* Las preferencias viven aquí arriba y no en la pantalla de ajustes: sus
+     efectos —el tema y la escala de texto— tienen que seguir aplicados
+     mientras se lee, que es cuando importan. */
+  const preferencias = usePreferencias();
   const [libro, setLibro] = useState<Libro>(LIBROS[0]);
   /** A dónde vuelve el cierre. Un short no devuelve al camino de un libro. */
   const [vuelta, setVuelta] = useState<Pantalla>("camino");
@@ -169,7 +174,18 @@ export default function App() {
             />
           )}
           {pantalla === "ajustes" && (
-            <Ajustes key="ajustes" nombre={nombre} onVolver={() => setPantalla("perfil")} />
+            <Ajustes
+              key="ajustes"
+              nombre={nombre}
+              racha={RACHA}
+              prefs={preferencias}
+              /* El nombre y el objetivo viven aquí arriba: los ajustes los
+                 editan y el perfil y la pantalla de inicio los reflejan sin
+                 tener que recargar. */
+              onNombre={setNombre}
+              onObjetivo={setObjetivo}
+              onVolver={() => setPantalla("perfil")}
+            />
           )}
           {pantalla === "oferta" && (
             <Oferta key="oferta" reducido={!!reducido} onCerrar={() => setPantalla("inicio")} />

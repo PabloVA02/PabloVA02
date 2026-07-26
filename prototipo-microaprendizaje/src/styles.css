@@ -337,19 +337,37 @@ button {
 /* Sin imagen, el texto ocupa la página: centrado, con cuerpo mayor y una
    medida de línea cómoda. Una frase suelta en una pantalla vacía no es
    minimalismo, es una página a medio hacer. */
+/* El centrado va con `margin-block: auto` y no con `justify-content: center`
+   por una razón concreta: si el lector sube el tamaño del texto, un capítulo
+   largo puede pasarse del alto de la tarjeta, y un flex centrado desborda por
+   ARRIBA además de por abajo —se mete debajo de la cabecera y no hay manera
+   de recuperar la primera línea—. Con margen automático el sobrante se va
+   solo hacia abajo y la tarjeta se puede desplazar. */
 .card[data-forma="texto"] {
-  justify-content: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
   padding-bottom: 34px;
 }
 
+.card[data-forma="texto"]::-webkit-scrollbar,
+.card[data-forma="clave"]::-webkit-scrollbar { display: none; }
+
+.card[data-forma="texto"] > *,
+.card[data-forma="clave"] > * { margin-block: auto; }
+
 .card[data-forma="texto"] .card-body {
-  font-size: 20.5px;
+  font-size: calc(20.5px * var(--texto-escala, 1));
   line-height: 1.52;
   letter-spacing: -0.019em;
 }
 
 .card[data-forma="clave"] {
-  justify-content: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
   padding-bottom: 34px;
 }
 
@@ -363,7 +381,7 @@ button {
 .card[data-forma="arte"] .card-body,
 .card[data-forma="grafico"] .card-body {
   flex: none;
-  font-size: 17px;
+  font-size: calc(17px * var(--texto-escala, 1));
   line-height: 1.46;
 }
 
@@ -374,7 +392,7 @@ button {
 
 .card-body {
   margin: 0;
-  font-size: 17.5px;
+  font-size: calc(17.5px * var(--texto-escala, 1));
   line-height: 1.45;
   letter-spacing: -0.018em;
   text-wrap: pretty;
@@ -4486,4 +4504,619 @@ button {
   color: var(--night);
   font-size: 15px;
   font-weight: 720;
+}
+
+/* ==========================================================================
+   Tema oscuro.
+
+   No es un filtro ni una inversión: es la misma paleta desplazada. Se
+   redefinen las variables de superficie y de tinta, y los acentos se aclaran
+   lo justo para seguir teniendo contraste sobre fondo oscuro. El resto de la
+   hoja de estilos funciona sin tocar nada, porque nunca hubo un color escrito
+   a mano fuera de aquí.
+
+   La pantalla de ajustes ya era oscura en el tema claro —usa `--night`—, así
+   que este bloque no la cambia: cambia la estantería, la lectura y el perfil,
+   que es donde se pasa el tiempo.
+   ========================================================================== */
+
+:root[data-tema="oscuro"] {
+  --paper: #1b1720;
+  --paper-deep: #241f2b;
+  --paper-edge: #322b3a;
+  --ink: #efe7dc;
+  --ink-soft: #a9a0b0;
+
+  --clay: #d98a68;
+  --ochre: #dcb372;
+  --sage: #9bb086;
+  --plum: #a98ca5;
+  --plum-light: #bda3b8;
+  --slate: #85a0ae;
+  --clay-light: #e39d78;
+  --sage-light: #aec19a;
+
+  /* Los velos pasan de tinte claro a tinte oscuro del mismo tono. */
+  --clay-veil: #3b2b28;
+  --ochre-veil: #3a3025;
+  --sage-veil: #2b332a;
+  --plum-veil: #322a33;
+  --slate-veil: #27313a;
+}
+
+/* ==========================================================================
+   La hoja inferior de los ajustes y sus controles.
+
+   Los ajustes son una pantalla nocturna, así que la hoja no puede ser un
+   rectángulo de papel encima: tiene que ser la misma noche un escalón más
+   cerca. Todo el bloque trabaja con cuatro fichas locales —fondo, superficie,
+   borde y tinta— declaradas en `.ajustes`. Cambiando esas cuatro, la hoja
+   entera se puede llevar a una pantalla clara sin tocar ninguna regla.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Las pantallas que YA eran nocturnas.
+
+   Buena parte de la app se diseñó en oscuro desde el principio —navegar y
+   leer son dos modos distintos y se separan por temperatura—, y esas
+   pantallas usan `--night` de fondo y `--paper` como TINTA CLARA. Eso choca
+   de frente con un tema oscuro global: al invertir la paleta, `--paper` pasa
+   a ser un tono oscuro y todos sus rótulos desaparecen sobre el fondo noche.
+
+   La solución es fijarles aquí su paleta, en un único sitio. Así el tema
+   oscuro hace lo único que tiene sentido que haga: oscurecer las pantallas
+   que eran claras —la lectura, la introducción, el pago—, que es justo donde
+   se pasa el rato de noche. Las que ya eran oscuras se quedan como estaban.
+   -------------------------------------------------------------------------- */
+
+.cierre,
+.inicio,
+.detalle,
+.camino,
+.racha,
+.muro,
+.foto-caja,
+.perfil,
+.cartel,
+.ajustes,
+.regalo-aviso,
+.anti,
+.anti-candado,
+/* La barra de pestañas no está dentro de ninguna pantalla: es hermana de
+   todas, y también es nocturna. Sin ella aquí, la pestaña activa se queda
+   con tinta oscura sobre su propia pastilla oscura. */
+.pestanas {
+  --paper: #f2ece1;
+  --paper-deep: #e7ddcc;
+  --paper-edge: #dbcfba;
+  --ink: #2e2822;
+  --ink-soft: #6b6154;
+  --night: #272031;
+}
+
+.ajustes {
+  position: relative;
+  --hoja-fondo: #332b40;
+  --hoja-sup: rgba(242, 236, 225, 0.075);
+  --hoja-sup-alta: rgba(242, 236, 225, 0.13);
+  --hoja-borde: rgba(242, 236, 225, 0.14);
+  --hoja-tinta: var(--paper);
+  --hoja-suave: rgba(242, 236, 225, 0.55);
+}
+
+.hoja-velo {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  background: rgba(10, 8, 14, 0.5);
+  backdrop-filter: blur(2px);
+  border: 0;
+  padding: 0;
+}
+
+.hoja {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 41;
+  max-height: 86%;
+  display: flex;
+  flex-direction: column;
+  padding: 8px var(--shell-pad) 24px;
+  border-radius: 26px 26px 0 0;
+  background: var(--hoja-fondo);
+  color: var(--hoja-tinta);
+  box-shadow: 0 -16px 44px rgba(10, 8, 14, 0.42);
+}
+
+/* El asa no es decorativa: anuncia que la hoja se puede arrastrar. */
+.hoja-asa {
+  flex: none;
+  width: 38px;
+  height: 4px;
+  margin: 0 auto 14px;
+  border-radius: 999px;
+  background: var(--hoja-borde);
+}
+
+.hoja-cabecera { flex: none; margin-bottom: 15px; }
+
+.hoja-cabecera h2 {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.028em;
+  color: var(--hoja-tinta);
+}
+
+.hoja-cabecera p {
+  margin: 6px 0 0;
+  font-size: 13.5px;
+  line-height: 1.42;
+  color: var(--hoja-suave);
+  max-width: 34ch;
+  text-wrap: pretty;
+}
+
+.hoja-cuerpo {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.hoja-cuerpo::-webkit-scrollbar { display: none; }
+
+/* --- Lista de opciones --- */
+
+.hoja-lista {
+  border-radius: 18px;
+  background: var(--hoja-sup);
+  overflow: hidden;
+}
+
+.hoja-opcion,
+.hoja-conmutador {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  width: 100%;
+  padding: 13px 16px;
+  text-align: left;
+  background: none;
+  border: 0;
+  color: var(--hoja-tinta);
+}
+
+.hoja-opcion + .hoja-opcion::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 16px;
+  right: 0;
+  height: 1px;
+  background: var(--hoja-borde);
+}
+
+.hoja-opcion-texto { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+
+.hoja-opcion-nombre {
+  font-size: 15.5px;
+  font-weight: 620;
+  letter-spacing: -0.014em;
+  color: var(--hoja-tinta);
+}
+
+.hoja-opcion-pie {
+  font-size: 12.5px;
+  line-height: 1.35;
+  color: var(--hoja-suave);
+}
+
+.hoja-tick {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: var(--sage);
+  color: var(--night);
+}
+
+.hoja-conmutador {
+  margin-top: 4px;
+  border-radius: 18px;
+  background: var(--hoja-sup);
+}
+
+/* --- Chips --- */
+
+.hoja-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.hoja-chip {
+  padding: 9px 15px;
+  border-radius: 999px;
+  border: 1.5px solid var(--hoja-borde);
+  background: transparent;
+  color: var(--hoja-tinta);
+  font-size: 14px;
+  font-weight: 620;
+  letter-spacing: -0.012em;
+  transition: color 0.18s ease;
+}
+
+.hoja-chip[data-on="true"] { color: var(--night); }
+
+/* --- Segmentado --- */
+
+.segmentado {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 999px;
+  background: var(--hoja-sup);
+}
+
+.segmentado-opcion {
+  position: relative;
+  flex: 1;
+  padding: 9px 4px;
+  border: 0;
+  background: none;
+  border-radius: 999px;
+  color: var(--hoja-suave);
+  font-size: 14px;
+  font-weight: 640;
+  letter-spacing: -0.012em;
+  transition: color 0.2s ease;
+}
+
+.segmentado-opcion[data-on="true"] { color: var(--night); }
+
+/* El :not() es imprescindible: la pastilla también es un span dentro del
+   botón, y sin excluirla esta regla le impone position:relative, anula su
+   `inset: 0` y la deja con cero de ancho. Se ve como si no existiera. */
+.segmentado-opcion > span:not(.segmentado-pastilla) { position: relative; z-index: 1; }
+
+.segmentado-pastilla {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: var(--paper);
+}
+
+/* --- Notas, botones y campos --- */
+
+.hoja-nota {
+  margin: 14px 2px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--hoja-suave);
+  text-wrap: pretty;
+}
+
+.hoja-principal {
+  padding: 11px 20px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--night);
+  font-size: 14.5px;
+  font-weight: 660;
+  letter-spacing: -0.012em;
+}
+
+.hoja-principal:disabled { opacity: 0.3; }
+.hoja-ancho { width: 100%; margin-top: 14px; }
+
+.hoja-secundario {
+  width: 100%;
+  margin-top: 14px;
+  padding: 11px;
+  border: 1.5px solid var(--hoja-borde);
+  border-radius: 999px;
+  background: none;
+  color: var(--hoja-suave);
+  font-size: 14px;
+  font-weight: 620;
+}
+
+.hoja-peligro { color: var(--clay-light, #d9895f); border-color: rgba(217, 137, 95, 0.5); }
+
+.hoja-campo input,
+.hoja-campo textarea {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1.5px solid var(--hoja-borde);
+  border-radius: 16px;
+  background: var(--hoja-sup);
+  color: var(--hoja-tinta);
+  font: inherit;
+  font-size: 16px; /* 16 evita que iOS haga zoom al enfocar */
+  letter-spacing: -0.014em;
+  resize: none;
+}
+
+.hoja-campo input::placeholder,
+.hoja-campo textarea::placeholder { color: rgba(242, 236, 225, 0.38); }
+
+.hoja-campo input:focus,
+.hoja-campo textarea:focus { outline: none; border-color: rgba(242, 236, 225, 0.4); }
+
+.hoja-campo-pie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-size: 12.5px;
+  color: var(--hoja-suave);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Muestra de tamaño de texto: el mismo cuerpo que una tarjeta real --- */
+
+.hoja-muestra {
+  margin-top: 16px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: var(--hoja-sup);
+}
+
+.hoja-muestra p {
+  margin: 0;
+  font-size: calc(17.5px * var(--texto-escala, 1));
+  line-height: 1.45;
+  letter-spacing: -0.018em;
+  text-wrap: pretty;
+}
+
+/* --- Suscripción --- */
+
+.hoja-plan {
+  padding: 16px 18px;
+  margin-bottom: 14px;
+  border-radius: 20px;
+  background: rgba(155, 176, 134, 0.16);
+}
+
+.hoja-plan-sello {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--sage);
+  color: var(--night);
+  font-size: 10.5px;
+  font-weight: 730;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hoja-plan-titulo { margin: 10px 0 3px; font-size: 18px; font-weight: 700; letter-spacing: -0.024em; }
+.hoja-plan-pie { margin: 0; font-size: 13px; color: var(--hoja-suave); }
+
+.hoja-plan-barra {
+  margin-top: 12px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(242, 236, 225, 0.14);
+  overflow: hidden;
+}
+
+.hoja-plan-barra span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--sage);
+  transform-origin: left;
+}
+
+/* --- Estadísticas --- */
+
+.hoja-cifras { display: flex; gap: 8px; }
+
+.hoja-cifra {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 13px 12px;
+  border-radius: 16px;
+  background: var(--hoja-sup);
+}
+
+.hoja-cifra strong {
+  font-size: 20px;
+  font-weight: 730;
+  letter-spacing: -0.028em;
+  font-variant-numeric: tabular-nums;
+}
+
+.hoja-cifra span { font-size: 11.5px; color: var(--hoja-suave); }
+
+.hoja-semana {
+  display: flex;
+  gap: 6px;
+  align-items: flex-end;
+  height: 124px;
+  margin-top: 14px;
+  padding: 14px 12px 10px;
+  border-radius: 18px;
+  background: var(--hoja-sup);
+}
+
+.hoja-columna { flex: 1; display: flex; flex-direction: column; align-items: center; height: 100%; }
+.hoja-barra-hueco { flex: 1; width: 100%; display: flex; align-items: flex-end; }
+
+.hoja-barra {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  background: var(--hoja-sup-alta);
+}
+
+.hoja-barra[data-cumplido="true"] { background: var(--clay); }
+.hoja-dia { margin-top: 7px; font-size: 11px; color: var(--hoja-suave); font-weight: 620; }
+
+/* --- Descarga --- */
+
+.hoja-descarga { padding: 18px; border-radius: 18px; background: var(--hoja-sup); }
+
+.hoja-descarga-barra {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--hoja-sup-alta);
+  overflow: hidden;
+}
+
+.hoja-descarga-barra span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--slate);
+  transform-origin: left;
+}
+
+.hoja-descarga-barra span[data-fin="true"] { background: var(--sage); }
+
+.hoja-descarga-cifra {
+  margin: 11px 0 0;
+  font-size: 13px;
+  color: var(--hoja-suave);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Compartir --- */
+
+.hoja-enlace {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 6px 6px 15px;
+  border-radius: 999px;
+  background: var(--hoja-sup);
+}
+
+.hoja-enlace span {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: var(--hoja-suave);
+}
+
+.hoja-enlace button {
+  flex: none;
+  padding: 9px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--night);
+  font-size: 13.5px;
+  font-weight: 660;
+}
+
+/* --- Estrellas --- */
+
+.hoja-estrellas { display: flex; justify-content: center; gap: 6px; padding: 10px 0 4px; }
+
+.hoja-estrellas button {
+  padding: 4px;
+  border: 0;
+  background: none;
+  color: rgba(242, 236, 225, 0.24);
+  transition: color 0.16s ease;
+}
+
+.hoja-estrellas button[data-on="true"] { color: var(--ochre); }
+
+/* --- Acordeón --- */
+
+.hoja-acordeon { border-radius: 18px; background: var(--hoja-sup); overflow: hidden; }
+
+.hoja-faq + .hoja-faq { border-top: 1px solid var(--hoja-borde); }
+
+.hoja-faq button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 16px;
+  border: 0;
+  background: none;
+  color: var(--hoja-tinta);
+  text-align: left;
+  font-size: 15px;
+  font-weight: 620;
+  letter-spacing: -0.014em;
+}
+
+.hoja-faq-signo { flex: none; font-size: 20px; font-weight: 300; color: var(--hoja-suave); }
+
+.hoja-faq p {
+  margin: 0;
+  padding: 0 16px 14px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--hoja-suave);
+  text-wrap: pretty;
+}
+
+/* --- Legal --- */
+
+.hoja-legal p {
+  margin: 0 0 13px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--hoja-suave);
+  text-wrap: pretty;
+}
+
+/* --- Horas del recordatorio --- */
+
+.hoja-horas { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+
+.hoja-hora {
+  padding: 10px 14px;
+  border: 1.5px solid var(--hoja-borde);
+  border-radius: 14px;
+  background: transparent;
+  color: var(--hoja-tinta);
+  font-size: 14.5px;
+  font-weight: 640;
+  font-variant-numeric: tabular-nums;
+  transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+}
+
+.hoja-hora[data-on="true"] {
+  background: var(--paper);
+  border-color: var(--paper);
+  color: var(--night);
+}
+
+/* --- Aviso breve --- */
+
+.ajustes-aviso {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  z-index: 60;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--night);
+  font-size: 13.5px;
+  font-weight: 640;
+  white-space: nowrap;
+  box-shadow: 0 8px 24px rgba(10, 8, 14, 0.4);
 }
