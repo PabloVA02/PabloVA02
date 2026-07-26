@@ -770,109 +770,638 @@ export const CUATRO_ACUERDOS: Resumen = {
   titulo: "Los cuatro acuerdos",
   autor: "Miguel Ruiz",
   ano: 1997,
-  gancho: "Cuatro frases. La segunda es la que más gente necesita y menos gente cumple.",
+  gancho:
+    "Un cirujano mexicano se durmió al volante a los veintipocos, salió ileso de un accidente que debería haberlo matado, dejó el quirófano y escribió cuatro frases que han vendido más de diez millones de ejemplares.",
   porQue:
-    "Diez millones de ejemplares y cabe en una servilleta. Es el ejemplo perfecto de que una idea simple bien dicha vale más que cien páginas de matices.",
+    "Porque el segundo de los cuatro acuerdos es de lo más útil que se le puede decir a alguien, y también de lo más fácil de usar mal; y porque la sabiduría tolteca que anuncia la portada no viene de ninguna fuente tolteca.",
   partes: [
     {
-      titulo: "La domesticación",
+      titulo: "Un cirujano que se durmió al volante",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Miguel Ruiz era cirujano en México hasta que un accidente de coche le cambió la vida y volvió a la tradición tolteca de su familia. Su punto de partida: de niños fuimos <em>domesticados</em>. Nos premiaban por estar de acuerdo y nos castigaban por no estarlo, hasta que dejó de hacer falta que nadie nos castigara — ya lo hacemos nosotros.",
+            "Miguel Ruiz nació en 1952 en una familia rural del centro de México, se fue a estudiar medicina y acabó operando como cirujano. En su casa, mientras tanto, su madre curaba con hierbas y con rezos y su abuelo tenía fama de hombre de conocimiento en el pueblo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cruce es la clave del personaje y explica el libro entero: es el hijo que se fue a la universidad y volvió, el que sabe abrir un cráneo y también cómo se hace una limpia. Ni un curandero sin estudios ni un médico sin raíces, y las dos cosas se notan en cómo escribe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se nota, por ejemplo, en que el libro no tiene nada de ritual: no manda encender velas, ni repetir mantras, ni comprar objetos. Manda vigilar lo que dices y lo que supones, que son dos operaciones perfectamente laicas y que un médico puede recomendar sin ruborizarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y se nota también en la parte débil: las páginas donde habla de energía, de mitote y de parásitos mentales tienen un vocabulario que no aporta nada al argumento y que espanta a mucho lector razonable antes de llegar a las cuatro frases, que son lo bueno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un consejo de lectura, entonces: si el vocabulario místico echa para atrás, se puede saltar entero sin perder nada. Los cuatro acuerdos y el diagnóstico de la domesticación funcionan solos, sin una sola línea de metafísica alrededor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Era el menor de trece hermanos, en una casa donde la gente del pueblo llegaba a que su madre les impusiera las manos. Él ha contado que de niño se avergonzaba un poco de aquello y que por eso se fue a la facultad: quería curar de la manera seria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A los veintipocos se durmió conduciendo con dos amigos en el coche. Cuenta que el coche se estrelló contra un muro de hormigón y que él se vio a sí mismo fuera del vehículo, sacando a los otros dos, sin un rasguño y sin entender cómo había llegado allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo cuenta como una experiencia fuera del cuerpo y la medicina lo llamaría de otra manera: hay descripciones muy parecidas documentadas en situaciones de estrés extremo, con el cerebro fabricando una perspectiva externa. Que la explicación sea neurológica no le quita fuerza a lo que le cambió después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo interesante para leer el libro es que su punto de partida no es una teoría, es un susto. Todo lo que escribió después son las conclusiones de alguien que se levantó de un coche destrozado con la sensación de estar viviendo de prestado, y eso se nota en el tono.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el punto de giro de toda su biografía. Dejó el quirófano, volvió con su madre a aprender el oficio de curandera y pasó los años siguientes construyendo un sistema propio a partir de aquello, de lo que había estudiado en la facultad y de bastante lectura de espiritualidad estadounidense.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un segundo golpe en su vida que casi nunca se cuenta y que da otra dimensión al libro: en 2002 sufrió un infarto grave que lo dejó incapacitado durante años, esperando un trasplante de corazón. Sus hijos siguieron dando las charlas y escribiendo mientras él se recuperaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso convirtió aquello en un negocio familiar, con hijos que escriben libros de la misma serie, cursos, viajes a Teotihuacán y una marca. No es un reproche por sí solo; es información que conviene tener cuando se lee la contraportada sobre la sabiduría transmitida de generación en generación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 1997 en una editorial pequeña de California y tardó años en despegar. Lo que lo lanzó fue la televisión: cuando un programa estadounidense enorme lo recomendó en 2001, entró en las listas de más vendidos y se quedó allí más de una década.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese patrón se repite en tres de los libros más vendidos de esta biblioteca: el mismo programa de televisión disparó a este, a «Padre rico, padre pobre» y a varios más. Buena parte de lo que hoy se considera un clásico de la autoayuda es en realidad una recomendación televisiva de principios de siglo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El tamaño del fenómeno",
+          frase: "Más de diez millones de ejemplares, traducido a más de cuarenta idiomas y con un texto que cabe entero en unas ciento cuarenta páginas de letra grande. Se lee en una tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el mundo hispanohablante tiene además un papel particular: es uno de los poquísimos libros de este estante escritos originalmente por un latinoamericano y no traducidos del inglés, y eso explica parte de su arraigo en México, en Colombia y en España.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene saber qué clase de libro es antes de abrirlo, porque decepciona a quien busca otra cosa. No hay estudios, ni datos, ni ejercicios, ni programa de ocho semanas. Hay cuatro frases, una explicación de por qué hacen falta y bastante repetición.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco es un libro sobre México, ni sobre historia, ni sobre religión, aunque use palabras de las tres cosas. Es un libro de higiene mental escrito por alguien que atendió a mucha gente, primero con bisturí y después sin él, y esa es la manera menos engañosa de presentarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que decir que su brevedad es una virtud y no un defecto. En un estante donde todo el mundo estira una idea hasta las trescientas páginas, este dice lo que tiene que decir y se calla, que es exactamente lo que permite que alguien lo recuerde diez años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una prueba de eso que cualquiera puede hacer: casi nadie recuerda un capítulo de los libros gordos de este estante, y muchísima gente es capaz de recitar los cuatro acuerdos veinte años después de haberlos leído. Lo que cabe en la cabeza es lo que acaba usándose.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Ruiz añadió un quinto acuerdo en un libro posterior, en 2010, escrito con su hijo: sé escéptico, pero aprende a escuchar. Es el mejor de los cinco y llegó trece años tarde, precisamente porque corrige el problema del segundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un coche contra un muro y nadie herido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un cirujano que cuelga la bata a los veintipocos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y veinticinco años después, cuatro frases en medio mundo.",
+        },
+      ],
+    },
+    {
+      titulo: "La domesticación y el juez",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El diagnóstico del libro es lo mejor que tiene y casi nadie lo cita, porque todo el mundo se queda con la lista. Empieza diciendo que de niños fuimos domesticados igual que se domestica a un animal: con premio y castigo, hasta que dejó de hacer falta que nadie nos castigara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra domesticación suena dura y está elegida a propósito. Ruiz insiste en que el proceso funciona exactamente igual que el que convierte a un cachorro en un perro de casa, y que la diferencia es que al niño se le entrena además con palabras, que se quedan grabadas mucho mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí es donde el libro toca algo que la mayoría de sus lectores reconoce al momento: que las normas más rígidas de una vida no las impuso nadie con mala intención, y que muchas se aprendieron de una frase suelta dicha por un adulto cansado en una tarde cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mecanismo que describe es reconocible: al principio nos premian por estar de acuerdo con lo que la familia y la escuela dan por bueno, y nos castigan por no estarlo. Al cabo de unos años ya no hace falta nadie fuera: el castigo se aplica solo, desde dentro y en cuanto uno se equivoca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que pone es doméstico y da en el clavo: el niño que canta en casa hasta que un adulto cansado le dice que se calle, y que treinta años después sigue sin cantar delante de nadie. Nadie volvió a prohibírselo; el acuerdo se firmó aquella tarde y no se ha revisado desde entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hace fuerte a esa descripción es que no culpa a nadie. Los padres que domestican fueron domesticados antes con las mismas herramientas, y el libro insiste en que hicieron lo que sabían. Es una explicación sin villanos, que es bastante más útil que una con ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa ausencia de villanos tiene un efecto práctico que se nota al leerlo: no deja al lector con una lista de gente a la que reprochar cosas, sino con una lista de normas que revisar. Lo primero se puede rumiar durante años; lo segundo se puede empezar esta tarde.",
         },
         {
           forma: "clave",
           rotulo: "El diagnóstico",
-          frase: "Eres a la vez el que juzga, el acusado y la víctima. Y te condenas mil veces por la misma cosa.",
+          frase: "Eres a la vez el que juzga, el acusado y la víctima. Y te condenas mil veces por lo mismo, mientras que un tribunal de verdad solo castiga una vez cada delito.",
         },
         {
           forma: "arte",
           texto:
-            "Llama a ese conjunto de creencias heredadas «el libro de la ley», y dice que casi ninguna la elegimos. Su propuesta es sustituir esos acuerdos por cuatro nuevos, adoptados a conciencia. No promete que sea fácil: dice que romper un acuerdo viejo cuesta exactamente lo mismo que costó adquirirlo.",
-          arte: "memoria",
+            "A ese conjunto de creencias heredadas lo llama el libro de la ley, y dice que casi ninguna de sus normas la elegimos: llegaron antes de que pudiéramos discutirlas. Su propuesta no es borrarlas, que no se puede, sino sustituirlas por cuatro acuerdos adoptados a conciencia.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y avisa de algo honrado: romper un acuerdo viejo cuesta exactamente lo mismo que costó adquirirlo. No promete transformación en veintiún días ni nada parecido; dice que hay que pelearlo cada vez que aparezca, durante años, y que se recae.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese aviso lo separa de casi todo lo que hay en su estante. Aquí no hay reto de treinta días, ni cuaderno de ejercicios, ni promesa de que al terminar el libro uno será otro. Hay una tarea de años descrita como tarea de años, y eso, en autoayuda, es casi una rareza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La metáfora grande del libro es el sueño del planeta: la idea de que vivimos dentro de un acuerdo colectivo sobre lo que es normal, lo que hay que querer y lo que da vergüenza, y que ese acuerdo lo confundimos con la realidad porque nadie nos enseñó a mirarlo desde fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puesto en términos menos poéticos, es lo que un sociólogo llamaría normas sociales interiorizadas, y la observación de fondo es correcta: casi nadie ha elegido a qué edad hay que tener casa, qué cuenta como una carrera lograda o qué es hacer el ridículo, y todo el mundo lo sabe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde el vocabulario se le va de las manos es al llamarlo sueño y sugerir que se puede despertar del todo. De la mayoría de esas normas no se sale, se cambian por otras; el propio libro propone cuatro nuevas, que también son acuerdos, aunque estos vengan elegidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho sin el vocabulario místico, eso es exactamente lo que en psicología se llaman creencias centrales, y son la materia con la que trabaja la terapia cognitiva desde los años sesenta. La descripción del juez interior de Ruiz podría estar en un manual clínico cambiando cuatro palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia práctica entre los dos enfoques es el método. La terapia cognitiva enseña a escribir el pensamiento, buscarle el error y contestarlo por escrito; este libro enseña a reconocerlo y decidir no firmarlo. Lo primero deja rastro y se puede comprobar; lo segundo depende entero de la voluntad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una diferencia de origen que explica por qué se parecen tanto. La terapia cognitiva la construyó Aaron Beck en los sesenta escuchando a pacientes deprimidos decirse cosas horribles a sí mismos; Ruiz llegó a la misma descripción escuchándose a sí mismo y a la gente de su alrededor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos caminos distintos hasta el mismo sitio no demuestran que el sitio exista, pero ayudan. Y en este caso el segundo camino tiene detrás cincuenta años de ensayos clínicos, así que quien quiera comprobarlo tiene dónde mirar sin salir de esta biblioteca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer paso, en las dos versiones, es el mismo y es el que cuesta: darse cuenta de que la voz que juzga no es uno mismo hablando, sino una grabación que se puso en marcha hace décadas y que se puede escuchar sin obedecer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, la parte del diagnóstico se sostiene sola. Poner nombre a la voz que castiga —llamarla juez, verla como algo que se instaló y no como uno mismo— es el primer movimiento de cualquier terapia seria, y este libro lo consigue en veinte páginas y sin consulta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una imagen suya que se queda: dice que llevamos la piel llena de heridas emocionales que se infectan con veneno, y que por eso duele tanto que alguien toque una sin querer. Explica en una frase por qué un comentario inocente puede arruinar una tarde entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie eligió las normas del libro de la ley.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin embargo se cumplen a rajatabla y se castiga el incumplimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer paso del libro es solo darse cuenta de que están escritas.",
         },
       ],
     },
     {
-      titulo: "Los cuatro",
+      titulo: "Los cuatro, uno a uno",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "<strong>Uno: sé impecable con tus palabras.</strong> No en el sentido de no mentir, sino de no usar la palabra contra ti mismo ni contra nadie. Ruiz insiste en que el veneno más frecuente no es el chisme sobre otros, es lo que te dices a ti cuando te equivocas.",
+            "El primero es sé impecable con tus palabras, y la palabra impecable está elegida a propósito: viene del latín y significa sin pecado, es decir, sin nada que vaya contra uno mismo. No va de no mentir; va de no usar el lenguaje como arma, empezando por la que se usa contra uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su observación es que el veneno más frecuente no es el chisme sobre los demás, sino la frase que uno se dedica cuando se equivoca: soy tonto, no valgo, siempre igual. Nadie aceptaría de otra persona lo que se dice a sí mismo tres veces al día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También le dedica un tramo al chisme, y ahí es más agudo de lo que parece: describe cómo una frase dicha sobre alguien a sus espaldas se instala en quien la oye y cambia cómo lo trata durante años, sin que la persona de la que se habló llegue a saber nunca qué le pasó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llama veneno y compara la conversación con un contagio, que es una imagen de médico y no de místico. Su conclusión es incómoda para cualquiera: la mayor parte del daño que hacemos con la palabra no lo hacemos gritando, sino comentando de pasada y con una sonrisa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hoy ese capítulo se lee de otra manera que en 1997, porque describe con veinte años de antelación lo que pasa en cualquier grupo de mensajería o en cualquier red social: frases lanzadas sin peso que se quedan pegadas a alguien que no estaba en la conversación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión aplicable del primer acuerdo cabe en dos preguntas antes de hablar: ¿esto es verdad y hace falta decirlo? Y sobre uno mismo, ¿le diría esto en voz alta a un amigo que acabara de cometer el mismo error? Casi nunca la respuesta a la segunda es que sí.",
         },
         {
           forma: "clave",
           rotulo: "El segundo, el difícil",
-          frase: "No te tomes nada personalmente. Lo que los demás dicen y hacen es una proyección de su realidad, no de la tuya.",
+          frase: "No te tomes nada personalmente. Lo que los demás dicen y hacen es una proyección de su propia realidad, y no una información sobre ti.",
         },
         {
           forma: "texto",
           texto:
-            "Ese segundo es el que cambia más vidas. Alguien te insulta porque está lidiando con lo suyo; alguien te alaba desde su mundo, no desde ti. Si no te tomas nada personalmente, dice Ruiz, te vuelves inmune a un montón de sufrimiento innecesario — y también, y esto se olvida, a la adicción a la aprobación ajena.",
+            "Ese segundo es el que cambia vidas y el que más se malinterpreta. Bien entendido, dice que la mayoría de lo que la gente te lanza habla de cómo está esa gente: el jefe que grita lleva dos noches sin dormir, y el comentario en internet lo escribió alguien a quien no conoces de nada.",
         },
         {
           forma: "texto",
           texto:
-            "<strong>Tres: no hagas suposiciones.</strong> Casi todos los conflictos vienen de que damos por hecho lo que el otro piensa y luego reaccionamos a nuestra propia invención. La alternativa es incómoda y baratísima: preguntar. <strong>Cuatro: haz siempre lo máximo que puedas</strong>, sabiendo que tu máximo cambia según el día, y que exigirte el de ayer es la receta de la culpa.",
+            "Y tiene una segunda mitad que casi nadie cita y que es la mejor: tampoco te tomes personalmente los halagos. Si el desprecio ajeno no es información sobre ti, la admiración tampoco lo es, y quien se sostiene con la segunda queda automáticamente a merced del primero.",
         },
-      ],
-    },
-    {
-      titulo: "Cómo se rompe un acuerdo viejo",
-      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle convierte el acuerdo en algo más serio que un escudo: propone dejar de usar la opinión de los demás como termómetro, en las dos direcciones. Es más difícil de lo que suena, porque renunciar al aplauso cuesta bastante más que renunciar a la crítica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es no hagas suposiciones. Damos por sabido lo que el otro piensa, siente o quiere decir, montamos una historia entera sobre esa suposición y luego nos enfadamos con la historia. La alternativa que propone cabe en una frase: pregunta, y aguanta la respuesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo es de pareja y es certero: alguien espera que el otro sepa lo que necesita sin decirlo, porque si hay que pedirlo ya no vale; el otro no lo adivina, como es lógico; y la conclusión que se saca no es que faltó una frase, sino que ya no le quiere.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo mismo pasa en el trabajo con los silencios: un mensaje sin contestar durante seis horas produce una novela completa sobre lo que piensa de uno el que no contestó, y casi siempre la explicación real es que estaba en una reunión y se le olvidó.",
+        },
         {
           forma: "arte",
           texto:
-            "Ruiz usa una imagen que se queda: vivimos dentro de un sueño colectivo que nos enseñaron a soñar, y lo llama <em>el sueño del planeta</em>. Idioma, religión, qué es guapo, qué es un fracaso, a qué edad hay que tener hijos. Nada de eso lo elegimos y todo eso lo defendemos como si fuera nuestro.",
-          arte: "noche",
+            "Eso tiene nombre técnico en terapia cognitiva: lectura de pensamiento, una de las diez distorsiones clásicas que describe «Sentirse bien», de Burns, que está en Psicología. El libro de Ruiz la describe igual de bien y sin una sola nota al pie.",
+          arte: "estanteria",
         },
         {
           forma: "texto",
           texto:
-            "Su método para salir tiene tres pasos y ninguno es rápido. El primero es darse cuenta: pillarse en el momento exacto de aplicar una regla que nunca decidiste. El segundo es perdonar —a otros y a ti— no porque lo merezcan, sino porque el rencor solo lo paga quien lo lleva. Y el tercero es la repetición: cada vez que actúas según el acuerdo nuevo, el viejo pierde fuerza.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La comparación que usa",
-          frase: "Los acuerdos viejos son como un idioma aprendido de niño. No se olvidan queriendo: se sustituyen practicando otro.",
+            "El cuarto es haz siempre lo máximo que puedas, y viene con la salvedad que lo salva de ser una arenga: tu máximo cambia. No es el mismo con gripe que descansado, ni a los veinte que a los sesenta, y exigirse el de un buen día en un día malo es la fórmula exacta del castigo permanente.",
         },
         {
           forma: "texto",
           texto:
-            "Dedica también un tramo al perfeccionismo, y ahí acierta de lleno. Dice que nos castigamos una y otra vez por el mismo error, cuando ni la justicia humana condena dos veces por el mismo delito. Es la observación más útil del libro para cualquiera que se pase el día repasando lo que dijo mal en una conversación de hace dos semanas.",
+            "Esa salvedad es más útil que el acuerdo en sí. Convierte una exigencia en un ajuste: haz lo máximo de hoy, que a veces es levantarse, y no lo máximo del mejor día de tu vida, que es la vara con la que casi todo el mundo se mide.",
         },
         {
           forma: "texto",
           texto:
-            "Y hay un quinto acuerdo, que Ruiz publicó años después con su hijo: sé escéptico, pero aprende a escuchar. Escéptico porque casi todo lo que te cuentan —incluido este libro— es la versión de alguien; y escuchar de todas formas, porque debajo de las palabras equivocadas suele haber algo verdadero que la persona no sabe decir.",
+            "Y tiene un segundo filo que Ruiz sí nombra: hacer más de tu máximo tampoco vale. El que se pasa de rosca acaba agotado y rindiendo menos, así que el acuerdo protege por los dos lados. Es la parte del libro que más se parece a un consejo de médico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El orden de los cuatro tampoco es casual, aunque el libro no lo explique: el primero limpia lo que uno se dice, el segundo lo que deja entrar, el tercero lo que se inventa y el cuarto lo que se exige. Fuera, dentro, imaginado y hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una manera de probarlos que no requiere creerse nada: coger uno solo, el que peor se lleve uno, y aplicarlo durante una semana en una sola situación concreta. Los cuatro a la vez y para siempre es la receta segura para no cumplir ninguno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El más rentable para empezar suele ser el tercero, porque es el más comprobable: cada vez que uno se descubra suponiendo lo que piensa otro, preguntar. En una semana se acumulan tres o cuatro casos en los que la suposición era falsa, y eso convence más que doscientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el más difícil, con diferencia, es el primero aplicado hacia dentro. Cambiar cómo se habla uno a sí mismo después de un error no se consigue decidiéndolo; se consigue pillándose en el momento, cientos de veces, durante meses. Ruiz lo dice y por eso su libro no promete plazos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro frases y ninguna es nueva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La gracia está en que caben en la cabeza a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en que se pueden comprobar en la conversación de esta tarde.",
         },
       ],
     },
     {
-      titulo: "Por qué funciona",
+      titulo: "La palabra tolteca",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El libro se presenta como sabiduría tolteca antigua, y los historiadores señalan que su base documental es prácticamente nula: es más bien espiritualidad contemporánea con envoltorio prehispánico. Conviene saberlo, aunque no cambia gran cosa — la utilidad de los cuatro acuerdos no depende de su árbol genealógico.",
+            "La portada anuncia un libro de sabiduría tolteca, y conviene saber qué eran los toltecas, porque la mayoría de los lectores se lo imagina mal. Fueron una cultura del centro de México anterior a los aztecas, con centro en Tula, que decayó alrededor del siglo doce.",
         },
         {
           forma: "texto",
           texto:
-            "Y hay una crítica más de fondo: no tomarse nada personalmente puede convertirse en una excusa para no escuchar críticas legítimas. Ruiz no lo desarrolla. Con eso puesto, sigue siendo uno de los libros más útiles que existen para alguien que se machaca a sí mismo, y su segundo acuerdo es probablemente la frase de autoayuda con mejor relación entre brevedad y efecto.",
+            "Para situarlos: hablamos de una cultura que se apagó unos trescientos años antes de que llegaran los españoles y unos ochocientos antes de que se escribiera este libro. Entre una cosa y otra hay más distancia que entre nosotros y la Edad Media europea.",
         },
         {
           forma: "texto",
           texto:
-            "Por qué cala tanto tiene una explicación sencilla. Cada acuerdo es una frase corta, imperativa y comprobable en el momento: puedes preguntarte ahora mismo si te acabas de tomar algo personalmente o si estás suponiendo lo que piensa alguien. La mayoría de los libros de este género dan un marco que hay que interpretar; Ruiz da cuatro instrucciones que se aplican en la conversación siguiente. Eso, y no la parte tolteca, es lo que ha vendido diez millones de ejemplares en veinticinco años.",
+            "Casi todo lo que se sabe de ellos viene de lo que contaron los aztecas trescientos años después, y los aztecas los idealizaron como el pueblo culto y sabio del pasado, igual que en Europa se idealizó a Grecia. La palabra tolteca llegó a significar, en náhuatl, algo así como artesano o maestro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los arqueólogos llevan un siglo discutiendo incluso si Tula fue de verdad la capital de ese imperio o si el relato azteca mezcla varias ciudades y varios siglos. Lo que hay son ruinas, esculturas de guerreros y muy poco texto, porque no dejaron una literatura conservada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: la palabra tolteca funciona en este libro más o menos como funcionaría druida en un libro europeo. Nombra una cultura real, envuelta en el prestigio de lo perdido, sobre la que se puede proyectar casi cualquier contenido sin que nadie pueda comprobarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene decir que a los descendientes de esas culturas esto no siempre les hace gracia. Hay investigadores y activistas mexicanos que llevan años señalando que el mercado espiritual usa nombres nahuas como decoración, y que eso convive con el desprecio real hacia las comunidades indígenas vivas.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "Casi todo lo que te duele de lo que dijo alguien habla de esa persona, no de ti.",
+          rotulo: "El dato que falta en la contraportada",
+          frase: "No existe ningún corpus tolteca conservado. No hay textos, ni escuela, ni linaje documentado que llegue hasta el siglo veinte con estos cuatro acuerdos dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entonces, ¿de dónde sale este vocabulario? De un sitio bastante localizable: de los libros que Carlos Castaneda empezó a publicar en 1968 sobre un supuesto brujo yaqui, que crearon una mitología tolteca y nagual entera y que se vendieron por millones en todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos libros se presentaron como antropología —Castaneda llegó a doctorarse con ellos— y hoy se consideran, con bastante consenso, obra de ficción: nadie encontró jamás al brujo, la botánica no cuadraba y varios investigadores demostraron que las fuentes estaban copiadas de otros libros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La investigación más demoledora la hizo Richard de Mille en los años setenta: encontró contradicciones de fechas dentro de los propios libros, plantas que no crecen donde decían y párrafos rastreables hasta la biblioteca de la universidad donde Castaneda estudiaba. Nunca se rebatió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de eso quiere decir que Ruiz sea Castaneda ni que copie sus libros. Quiere decir que el vocabulario que usa —tolteca, nagual, el sueño, el hombre de conocimiento— llegó al mundo por esa vía, y que quien lo lee creyendo que toca una tradición antigua está tocando un invento de 1968.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La otra mitad del linaje es más cercana y menos exótica: el Nuevo Pensamiento estadounidense, esa corriente del siglo diecinueve que sostiene que las creencias construyen la realidad y de la que descienden también «Piensa y hazte rico» y toda la ley de la atracción. Están a dos fichas de aquí.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El parecido se ve mejor con las fechas delante: el libro se escribió en California en los noventa, en el mundo de los talleres de fin de semana, y su idea central —que la realidad es un acuerdo y se puede reescribir— es exactamente la de ese ambiente, no la de una aldea de Oaxaca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle editorial que lo confirma: el libro se publicó primero en inglés y en Estados Unidos, para lectores estadounidenses, y llegó al español después. La sabiduría ancestral mexicana hizo el viaje de ida y vuelta pasando por una editorial de California.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto es exclusivo suyo, conviene decirlo: es el patrón de casi todo el estante espiritual del siglo veinte. Una tradición lejana, un maestro difícil de localizar, un contenido que encaja sospechosamente bien con las preocupaciones de un lector occidental contemporáneo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Reconocer ese patrón no obliga a tirar el libro. Obliga a leerlo por lo que dice y no por quién lo dijo, que es exactamente lo que hay que hacer con cualquier cosa que se presente envuelta en el prestigio de lo antiguo o de lo lejano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Justo es decir que el propio Ruiz ha matizado esto varias veces: dice que tolteca no significa una nación ni una religión, sino artista de la vida, y que él no reclama una cadena de transmisión histórica. Lo que ocurre es que esa matización no cabe en una portada y la portada vende.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la matización tiene además una parte verdadera: en náhuatl, toltécatl sí significaba algo así como artesano o maestro de un oficio. Usar la palabra en ese sentido —el que hace de su vida una obra— es defendible; lo que no lo es tanto es dejar que el lector entienda linaje milenario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay algo que sí es verdadero en su origen y merece reconocerse: creció con una madre curandera en un México donde esa práctica existe, con sus rezos, sus limpias y su vocabulario propio. La tradición familiar es real; lo que no es real es su antigüedad de mil años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además no despachar todo esto como un fraude, porque no lo es. Que un contenido tenga menos años de los que dice no lo vuelve falso: si el segundo acuerdo funciona, funciona lo mismo escrito en 1997 en California que si lo hubiera dicho un sacerdote de Tula en el año mil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que cambia es dónde se pone la confianza. Un consejo respaldado por mil años de tradición se acepta sin discutir; el mismo consejo firmado por un señor que lo pensó tras un accidente se juzga por lo que dice. La segunda manera de leerlo es mejor para el lector y peor para las ventas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni un texto tolteca conservado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un brujo yaqui que nadie encontró nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuatro frases que funcionan igual sin apellido antiguo.",
+        },
+      ],
+    },
+    {
+      titulo: "Dónde se rompe el segundo acuerdo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Toca la objeción seria, y va contra el acuerdo más famoso. No te tomes nada personalmente es un consejo excelente para el noventa por ciento de lo que a uno le llega, y es un consejo malo, y a veces peligroso, para el diez por ciento restante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene empezar reconociendo por qué funciona tan bien en ese noventa por ciento: la mayor parte de lo que nos hiere en un día viene de gente que no estaba pensando en nosotros. El conductor que pita, el mensaje seco, la cara del que atiende en la ventanilla. Nada de eso iba dirigido a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque hay cosas que sí son personales. El acoso en el trabajo va dirigido a alguien concreto, el desprecio por el acento o por el apellido es exactamente sobre uno, y un maltrato no deja de serlo porque el que lo ejerce lo haga desde su propia herida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no dice en ningún sitio que haya que aguantar eso, y conviene precisarlo para no acusarle de más. Lo que hace es no distinguir nunca entre la ofensa que no va contigo y el daño que sí, y esa distinción, que es la más importante de todas, la tiene que poner el lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un caso donde el acuerdo se vuelve francamente peligroso: el de quien convive con alguien que le trata mal. Ahí, decirse que no es personal y que el otro proyecta es exactamente el razonamiento que sostiene la permanencia, y por eso conviene leer este capítulo con esa alarma puesta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El filo del consejo",
+          frase: "Dicho a quien sufre demasiado por la opinión ajena, libera. Dicho a quien está siendo tratado mal, le pide que se explique a sí mismo por qué no debería molestarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene una segunda cara todavía más incómoda: si nada de lo que dicen los demás va sobre ti, tampoco lo va la crítica que tienes que oír. El mismo acuerdo que protege del insulto sirve para no escuchar nunca a nadie, y esa versión es cómodísima de adoptar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se reconoce fácil en quien la usa: siempre que le señalan algo contesta que el otro proyecta, que son sus inseguridades, que no se lo toma personalmente. Con esa armadura puesta, un año de trabajo en equipo no deja una sola corrección aprovechable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso el quinto acuerdo que añadió trece años después —sé escéptico, pero aprende a escuchar— es en realidad un parche para el segundo. Viene a decir: no te creas todo lo que te digan, y aun así escúchalo entero antes de decidir. Con esa corrección el sistema se sostiene mucho mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La regla práctica que el libro no da y que hace falta es fácil: distinguir entre lo que dice algo de ti y lo que dice algo del que lo dice. Un dato concreto y comprobable sobre tu trabajo es lo primero; un juicio sobre tu valor como persona es casi siempre lo segundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa regla, el acuerdo se vuelve manejable: del informe que dice que faltan tres cifras en la página cuatro hay que tomar nota, y del correo que dice que eres un desastre no hay nada que tomar salvo la información de que quien lo escribió estaba furioso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una prueba rápida para los casos dudosos: si la misma frase se la habrían dicho igual a otra persona en tu puesto, no va sobre ti; si solo te la dicen a ti y siempre en el mismo tono, entonces sí va sobre ti y el problema es otro y más gordo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La versión con dos mil años de rodaje de este mismo acuerdo está en la misma categoría: el «Enquiridión» de Epicteto, que separa lo que depende de uno de lo que no, y que dice que no nos perturban las cosas sino la opinión que tenemos de ellas. Es más preciso y no promete nada mágico.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra crítica general es la del género entero: aquí no hay ninguna prueba de nada. Ruiz no aporta un estudio, un caso clínico ni un seguimiento; aporta cuatro frases y su autoridad personal. Que las frases sean buenas no convierte al libro en conocimiento comprobado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una advertencia sanitaria que merece decirse claro: este es un libro de consuelo y de encuadre, no un tratamiento. Para una depresión, una ansiedad que incapacita o un trauma, cuatro frases no bastan, y en la biblioteca hay dos libros con método y datos que sí sirven para empezar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho todo lo malo, hay que terminar reconociéndole lo que consigue. Muchísima gente que jamás abriría un libro de psicología ha leído este, y de él ha sacado la idea de que la voz que la machaca no es la verdad, sino una costumbre. Eso, en un libro de ciento cuarenta páginas, no es poco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su mejor cualidad es la que menos se comenta: no vende nada más. No hay curso obligatorio al final, ni método de doce semanas, ni una cifra que alcanzar. Termina, se cierra y deja al lector con cuatro frases suyas, que en este estante es casi un gesto de honradez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho eso, la manera honrada de leerlo es como terapia cognitiva sin bata: el juez interior, el libro de la ley, la lectura de pensamiento y la exigencia desmedida son cuatro de los mecanismos que trabaja «Sentirse bien», y ese libro sí trae los datos y los ejercicios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una diferencia de tono con su vecino más ruidoso que ilumina a los dos. «El sutil arte de que casi todo te importe una mierda» dice casi lo mismo sobre la opinión ajena, a gritos y con tacos, y este lo dice en voz baja. Funciona para gente distinta y ninguno de los dos trae pruebas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mapa completo de esta idea en la biblioteca son cuatro fichas: Epicteto la formula como filosofía, Marco Aurelio la practica en un diario, Burns la convierte en método con hoja de ejercicios y Manson la grita. Este libro es la versión que más gente ha leído y la que menos aparato trae.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puestos a recomendar un orden, este primero por lo corto que es, y después el de Burns para hacer el trabajo de verdad. Uno enseña a ver la voz que castiga; el otro enseña qué escribir en un papel a las once de la noche cuando esa voz no se calla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro frases, ninguna prueba y diez millones de lectores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda salva a mucha gente y a otra le sirve de coartada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Saber en cuál de las dos está uno es todo el trabajo.",
         },
       ],
     },
