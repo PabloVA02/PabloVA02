@@ -4618,3 +4618,604 @@ export const LENGUAJES_AMOR: Resumen = {
     },
   ],
 };
+
+export const COSAS_BUENAS: Resumen = {
+  id: "cosas-buenas",
+  titulo: "Cómo hacer que te pasen cosas buenas",
+  autor: "Marian Rojas Estapé",
+  ano: 2018,
+  gancho: "Es probablemente el libro de divulgación más vendido en España en lo que va de siglo, y repite en cada capítulo una frase que es falsa tal y como está escrita.",
+  porQue:
+    "Porque su capítulo sobre el estrés crónico está bien y es útil, y porque su neurociencia de cuatro hormonas es una versión de manual popular que conviene saber leer con distancia.",
+  partes: [
+    {
+      titulo: "La hija del psiquiatra",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Madrid, consulta de un instituto privado de psiquiatría. Una médica de treinta y pocos años atiende a pacientes con ansiedad, con insomnio y con episodios depresivos, y comprueba una y otra vez que casi ninguno sabe qué le está pasando a su cuerpo mientras le pasa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La gente llega describiendo síntomas físicos —taquicardias, mareos, problemas digestivos, contracturas— convencida de que tiene una enfermedad que no aparece en ninguna prueba. Nadie les ha explicado nunca qué hace el cuerpo cuando lleva dos años en alerta permanente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El hueco que detecta",
+          frase: "Que hay una distancia enorme entre lo que se sabe en medicina sobre el estrés y lo que sabe la población, y que llenar ese hueco con un lenguaje que se entienda podría ahorrarle a mucha gente años de consultas y de miedo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La médica es Marian Rojas Estapé, nacida en Madrid en 1983, psiquiatra formada en la Universidad de Navarra, e hija de Enrique Rojas, uno de los psiquiatras más conocidos de España y autor a su vez de varios superventas divulgativos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle familiar importa para entender el libro: creció en una casa donde la psiquiatría se contaba en la mesa y donde divulgar formaba parte del oficio. Trabaja en el instituto que fundó su padre y ha seguido su misma trayectoria pública.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en 2018 en Espasa y su recorrido comercial fue enorme: más de un millón de ejemplares en español, decenas de reediciones, traducciones a varios idiomas y una presencia constante en televisión, radio y pódcast durante años.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En España lo ha leído gente que no había leído nunca un libro de psicología, y ese es su primer mérito objetivo: metió en las casas un vocabulario —cortisol, dopamina, estrés crónico— que hasta entonces se quedaba en las consultas.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su promesa, dicha en el título, es ambiciosa y algo tramposa: no explica cómo hacer que ocurran cosas buenas, sino cómo estar en condiciones de reconocerlas y aprovecharlas cuando ocurren. La diferencia se explica dentro y no en la portada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La estructura del libro es sencilla. Primero explica qué le pasa al cuerpo cuando está en alerta, después describe cuatro sustancias del sistema nervioso, y finalmente propone maneras de intervenir sobre el propio estado a partir de esa descripción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está escrito en un tono cercano, con muchos casos de consulta contados con nombres cambiados, con listas de consejos y con un lenguaje deliberadamente sencillo. No tiene referencias bibliográficas en la edición original y sus afirmaciones se presentan con autoridad médica.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hay que tener en cuenta al leerlo",
+          frase: "Que lo escribe una psiquiatra en ejercicio y no una investigadora, que está divulgando y no citando, y que en divulgación las simplificaciones son inevitables. El problema no es que simplifique, sino que algunas simplificaciones concretas dicen cosas que no son ciertas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene decir algo más antes de entrar: su mensaje central sobre pedir ayuda profesional es bueno y bastante valiente en el contexto español, donde la psiquiatría sigue arrastrando un estigma considerable y donde mucha gente aguanta años sin consultar a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro insiste en que la depresión y la ansiedad son enfermedades, en que la medicación cuando está indicada no es una debilidad, y en que ir a terapia es tan razonable como ir al traumatólogo con una rodilla rota.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso, dicho desde una posición de autoridad médica y llegando a un millón de casas, es un efecto de salud pública que ningún reparo posterior anula. Conviene tenerlo presente mientras se leen las críticas que vienen a continuación.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El libro empieza donde empieza todo lo suyo: en la descripción de qué ocurre en un cuerpo cuando percibe una amenaza. Y usa el ejemplo clásico de los manuales de fisiología, que es el de encontrarse un animal peligroso.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un dato del contexto español que explica parte de su éxito y que el libro no menciona: España tiene uno de los consumos de ansiolíticos más altos del mundo, y a la vez una de las peores proporciones de psicólogos en la sanidad pública de Europa occidental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, un país donde el malestar psíquico se trata masivamente con pastillas recetadas en atención primaria, con listas de espera de meses para terapia y con muy poca información pública sobre qué está pasando dentro de uno cuando aparecen los síntomas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese hueco es donde aterriza este libro, y por eso funcionó como funcionó. No compitió con la sanidad pública: ocupó un espacio que la sanidad pública tenía vacío, con un lenguaje que se entendía y por doce euros en cualquier librería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no lo convierte en un libro mejor de lo que es y explica por qué las críticas de los profesionales nunca han hecho mella en sus ventas. La alternativa que ofrecían esos profesionales, para la mayoría de la gente, era una lista de espera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un oso, en la versión que ella cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es lo que ocurre cuando el oso no está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el cuerpo se comporta exactamente igual que si estuviera.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El oso que no está",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La descripción fisiológica que hace el libro es correcta y es la parte más útil de todo el volumen. Ante una amenaza, el organismo activa en milisegundos una cadena que empieza en el cerebro y termina en las glándulas suprarrenales, encima de los riñones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se libera adrenalina, que produce el efecto inmediato: sube la frecuencia cardíaca, se dilatan las pupilas, la sangre se redirige a los músculos grandes, se corta la digestión y la atención se estrecha sobre la fuente del peligro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y se libera cortisol, que es la hormona del segundo tiempo: moviliza glucosa para tener energía disponible, mantiene la presión arterial y frena procesos que en una emergencia no son prioritarios, como la reparación de tejidos o parte de la respuesta inmunitaria.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Para qué sirve todo eso",
+          frase: "Para sobrevivir a una amenaza que dura minutos. El sistema está diseñado para dispararse, resolver la situación y apagarse. Todo lo que hace tiene sentido si la amenaza es un depredador, y prácticamente ninguno si es una reunión que hay dentro de tres semanas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema que describe el libro es real y está bien documentado: cuando ese sistema no se apaga y se mantiene activado durante meses, las mismas respuestas que salvan la vida a corto plazo hacen daño a largo plazo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los efectos del estrés sostenido que la investigación ha documentado incluyen alteraciones del sueño, peor respuesta inmunitaria ante infecciones, problemas digestivos, tensión muscular crónica, dificultades de concentración y de memoria, y un empeoramiento de casi cualquier enfermedad previa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "También hay evidencia de asociación entre estrés crónico y riesgo cardiovascular, aunque los mecanismos exactos se discuten y buena parte de esa asociación pasa por conductas intermedias: quien está muy estresado duerme peor, se mueve menos, come peor y bebe más.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hasta aquí, lo que dice el libro es razonable y explicar esto a un público amplio tiene un valor claro. El paciente que llega a urgencias convencido de estar sufriendo un infarto y al que le dicen que es ansiedad merece que alguien le explique por qué su pecho hacía eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema aparece con la frase que el libro repite en cada capítulo y que se ha convertido en su eslogan: que el cerebro no distingue entre lo real y lo imaginado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa afirmación, tal y como está escrita, es falsa. El cerebro distingue perfectamente entre percibir algo y recordarlo o imaginarlo, y esa distinción es una de sus funciones básicas. Cuando falla, tiene nombre clínico y se llama alucinación.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sí es cierto",
+          frase: "Que imaginar una amenaza puede disparar una respuesta fisiológica parecida a la de una amenaza real. Anticipar una discusión sube el pulso de verdad. Pero eso no significa que el cerebro se confunda: significa que el sistema de alarma también responde a representaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre las dos formulaciones parece un matiz y no lo es. La primera sugiere que uno puede reprogramarse imaginando cosas buenas, que es la lectura que hace mucha gente. La segunda dice algo más modesto: que preocuparse tiene un coste corporal real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo problema del capítulo es el tratamiento del cortisol como villano. Se le llama la hormona del estrés y se sugiere que conviene tenerla baja, cuando el cortisol es imprescindible y su ausencia produce una enfermedad grave.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El cortisol tiene un ritmo diario: sube por la mañana para despertarnos y baja por la noche. Regula el metabolismo, la inflamación y la presión arterial. Lo problemático no es su existencia sino la pérdida de ese ritmo y la exposición sostenida.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El matiz importa porque de la versión simplificada salen productos y consejos para bajar el cortisol que no tienen ningún sentido, y una cierta idea de que estar activado es siempre malo, cuando activarse ante un examen o una entrevista es exactamente lo que hay que hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte práctica del capítulo, en cambio, es sensata y coincide con lo que recomendaría cualquier profesional: dormir, moverse, respirar despacio, reducir la cafeína, poner límites a lo que uno acepta y aprender a distinguir lo que depende de uno de lo que no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el estrés explicado, el libro pasa al otro lado del sistema: no a lo que nos pone en alerta, sino a lo que nos produce placer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso conviene rescatar la mejor observación clínica del capítulo, que no tiene nada de neuroquímica: que muchísima gente sostiene un nivel de alerta alto durante años sin darse cuenta, porque se ha acostumbrado y ha olvidado cómo era estar tranquila.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El síntoma que ella describe como más revelador es lo que ocurre en vacaciones: gente que cae enferma el primer día de descanso, con gripe, migraña o dolor de espalda, después de haber aguantado meses sin ponerse mala ni un día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese fenómeno tiene nombre en la literatura y se ha estudiado con datos de bajas laborales y de encuestas de salud. La explicación más aceptada tiene que ver con la caída brusca del nivel de activación y con lo que eso hace a la respuesta inmunitaria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una observación práctica que se deriva de eso y que el libro formula bien: si uno solo se entera de que estaba agotado cuando para, entonces la señal de agotamiento no sirve como aviso, y hay que fijarse en otras cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las que propone son concretas y comprobables: cuánto se tarda en dormirse, si uno se despierta de madrugada dándole vueltas a algo, si aguanta media hora sin mirar el móvil y si recuerda la última vez que se rio de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí aparece la palabra que en los últimos diez años se ha convertido en la más usada y peor usada de la divulgación psicológica.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El circuito de la recompensa",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La dopamina es un neurotransmisor que participa en el circuito de recompensa del cerebro, y también en el control del movimiento, en la regulación de la prolactina y en varios procesos cognitivos. Lo primero es lo único que aparece en la divulgación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro la presenta como la sustancia del placer y de la motivación, y explica con ella el mecanismo de las adicciones y el efecto de las pantallas. La descripción general es reconocible y la simplificación tiene un problema que conviene señalar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que la investigación ha ido corrigiendo",
+          frase: "Que la dopamina no es la molécula del placer sino la de querer. Se libera sobre todo en la anticipación, no en el disfrute. Es lo que hace desear algo, no lo que hace que ese algo guste, y esa distinción está bastante bien establecida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso explica mejor que la versión simplificada lo que le pasa a alguien enganchado a una aplicación: no es que disfrute cada vez que la abre, es que siente la necesidad de abrirla. El querer y el gustar se separan, y eso es exactamente una adicción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro describe bien un mecanismo concreto que sí está documentado: la recompensa variable. Un sistema que a veces da algo interesante y a veces no engancha mucho más que uno que siempre da lo mismo, porque la incertidumbre mantiene la anticipación activa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el principio de las máquinas tragaperras y también el de cualquier red social con actualización por deslizamiento: no se sabe qué va a aparecer, y esa ignorancia es lo que mantiene el dedo moviéndose durante cuarenta minutos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su recomendación de fondo —recuperar la capacidad de esperar, tolerar el aburrimiento, retrasar recompensas pequeñas— es razonable y coincide con lo que proponen investigadores serios de la atención, aunque el marco de la dopamina con el que se justifica sea más flojo que la recomendación.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde el capítulo se pasa de frenada es en la idea de que se puede quedar el sistema quemado por exceso de estímulo y que hay que hacer una desintoxicación. La expresión ayuno de dopamina se ha popularizado y no describe ningún proceso fisiológico real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí ocurre y está descrito es una regulación a la baja de receptores ante estimulación repetida, que es un fenómeno mucho más específico y que no se corrige pasando un fin de semana sin móvil, por útil que sea pasar un fin de semana sin móvil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro dedica también atención al consumo de pornografía y a su efecto sobre el deseo y las relaciones, un asunto sobre el que hay literatura creciente y bastante discutida, y donde su tratamiento es más categórico de lo que la evidencia permite.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema del esquema de las cuatro hormonas",
+          frase: "El libro organiza el bienestar en torno a cortisol, dopamina, oxitocina y serotonina, asignando una emoción a cada una. Es un esquema pedagógico cómodo y no es así como funciona el cerebro: cada una de esas sustancias participa en decenas de procesos distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La serotonina es el ejemplo más claro. Durante décadas se dijo que la depresión era un déficit de serotonina, y esa explicación se ha ido abandonando: una revisión amplia publicada en 2022 concluyó que no hay pruebas consistentes que la sostengan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no significa que los antidepresivos que actúan sobre la serotonina no funcionen: hay evidencia de que en depresión moderada y grave son eficaces. Significa que no funcionan corrigiendo un déficit, y que la explicación popular del desequilibrio químico está superada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El libro repite esa explicación popular, que es la que estaba en los manuales de divulgación cuando él se escribió, y que conviene leer sabiendo que la propia psiquiatría se ha desmarcado de ella en los últimos años.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto convierte el libro en un libro malo. Lo convierte en un libro de divulgación de 2018 escrito con el vocabulario de la divulgación de 2018, con las virtudes y los límites de ese género.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera parte, en cambio, es la mejor y la que menos depende de la neuroquímica, porque habla de personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de cerrar este capítulo merece la pena señalar una asimetría curiosa del libro: la parte que peor sostiene científicamente es la que más se ha citado, y la que mejor sostiene —la psicológica, la de las relaciones y la infancia— es la que menos se comenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso pasa con casi toda la divulgación que usa el cerebro como aval. Decir que algo activa la dopamina suena más serio que decir que a la gente le cuesta esperar, aunque la segunda afirmación esté mejor establecida que la primera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un fenómeno con nombre en la investigación sobre comunicación científica: añadir una explicación neurocientífica irrelevante a un texto psicológico hace que los lectores lo juzguen más convincente, aunque la explicación no aporte nada al argumento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sabiendo eso, la manera sensata de leer este libro es al revés de como se lee: saltarse los nombres de las moléculas y quedarse con las descripciones de conducta, que es donde la autora tiene veinte años de consulta detrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de por qué unas nos dejan mejor de lo que nos encontraron y otras nos dejan agotados.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Personas vitamina",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La expresión que ha hecho fortuna es la de personas vitamina: aquellas cuya compañía deja a uno con más energía de la que tenía antes de verlas. El libro la contrapone a las que producen el efecto inverso, a las que llama tóxicas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La descripción es reconocible y por eso ha calado tanto. Casi cualquiera puede hacer la lista: personas con las que se sale del café con ganas de hacer cosas, y personas después de las cuales hay que echarse una siesta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El reparo con la palabra tóxica",
+          frase: "No es un concepto clínico ni tiene definición operativa. Etiqueta a la persona entera en lugar de describir una conducta concreta, y una vez puesta la etiqueta no queda nada que hablar, porque las personas tóxicas no se conversan, se eliminan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa lógica funciona bien para relaciones que efectivamente hay que cortar y funciona fatal para casi todo lo demás. La mayoría de los conflictos son entre dos personas normales que hacen cosas concretas que molestan, y eso se habla, no se diagnostica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro también reconoce el matiz —dice que a veces el tóxico es uno mismo— y aun así el término, sacado del libro y suelto en las redes, se ha convertido en una manera cómoda de no revisar la propia parte en ningún conflicto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte de oxitocina que sostiene ese capítulo repite el esquema simplificado: la llama la hormona del amor y del vínculo, cuando participa también en el parto, en la lactancia, en la respuesta al estrés y en conductas que no tienen nada de amables.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay investigación que asocia la oxitocina con el favoritismo hacia el propio grupo y con más hostilidad hacia los de fuera, lo que hace que llamarla hormona del amor sea, en el mejor de los casos, una descripción muy parcial.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contenido psicológico del capítulo, en cambio, es sólido y es lo mejor del libro. La idea de que las reacciones desproporcionadas de un adulto suelen apuntar a algo antiguo está bien establecida y es el material con el que trabaja cualquier terapia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su formulación práctica es útil: cuando una situación produce una reacción claramente mayor de lo que merece, conviene preguntarse a qué se parece eso, en lugar de discutir sobre el asunto concreto que la ha disparado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sobre el perdón es también de los mejores, y lo plantea sin misticismo: perdonar no es decir que lo que pasó estuvo bien ni implica reconciliarse con nadie. Es dejar de gastar recursos en un rencor que solo consume a quien lo sostiene.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La distinción que hace bien",
+          frase: "Entre perdonar y reconciliarse. Se puede perdonar a alguien y no volver a verlo nunca, y eso es a menudo lo más sano. Confundir las dos cosas es lo que hace que mucha gente se niegue a perdonar, porque cree que perdonar la obliga a volver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un tercer bloque práctico sobre la atención que resiste bien: la observación de que casi nadie está donde está, que la mente pasa buena parte del día en el futuro anticipando y en el pasado rumiando, y que eso tiene un coste medible en bienestar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese punto tiene respaldo empírico razonable. Un trabajo bastante citado con miles de participantes muestreados a lo largo del día encontró que la gente estaba pensando en algo distinto de lo que hacía casi la mitad del tiempo, y que en esos momentos se sentía peor.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo interesante de ese estudio es la dirección: no era que se distrajeran porque estaban mal, sino que estar distraído precedía a estar peor, incluso cuando lo que se hacía era aburrido. Distraerse de una tarea desagradable tampoco mejoraba el ánimo.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre eso el libro construye su parte final de recomendaciones, que son las de siempre y no por repetidas son malas: agradecer por escrito, dormir, moverse, cuidar los vínculos, poner límites, buscar sentido en lo que se hace y pedir ayuda cuando hace falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda un último asunto, que es el más delicado del libro y el que más discusión ha generado entre profesionales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes conviene añadir una parte del capítulo que se pasa por alto y que es de las más útiles: su descripción de los límites. Sostiene que mucha gente confunde ser buena persona con no saber decir que no, y que eso produce un agotamiento silencioso y crónico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su observación de consulta es que quien nunca dice que no no acaba siendo más querido: acaba siendo el que siempre está disponible, y en algún momento estalla por algo pequeño y desproporcionado que sorprende a todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y da un criterio práctico para distinguir cuándo un vínculo compensa: no si la persona nos cae bien, sino cómo estamos las horas siguientes a haberla visto. Es un criterio conductual, comprobable y bastante más fiable que cualquier etiqueta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte, la de los vínculos, coincide con lo que sí está muy bien establecido en investigación: el estudio longitudinal de Harvard, que lleva más de ochenta años siguiendo a las mismas familias, encontró que la calidad de las relaciones es el mejor predictor de salud y bienestar a largo plazo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mejor que el colesterol, mejor que los ingresos y mejor que la fama profesional. Es de los pocos hallazgos de la psicología de las últimas décadas que se sostienen con datos de ochenta años, y encaja bien con lo que el libro propone en esta parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El que tiene que ver con el optimismo y con lo que se le puede pedir a la actitud de una persona.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La psiquiatra que dice que vayas al psiquiatra",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro sostiene que el optimismo es en parte entrenable, y eso tiene respaldo: la manera en que alguien interpreta lo que le pasa se puede modificar, y ese es el fundamento de la terapia cognitiva, que es de los tratamientos psicológicos mejor evaluados que existen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema no es esa afirmación sino su vecindad. En un libro titulado cómo hacer que te pasen cosas buenas, escrito por una médica, la insistencia en la actitud puede leerse como una promesa de que la actitud influye en lo que a uno le ocurre.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso es delicado",
+          frase: "Porque a este libro llegan personas con cáncer, con enfermedades crónicas y con duelos. Sugerirles que su estado emocional influye en su enfermedad les añade una responsabilidad que no les corresponde, y la evidencia de que la actitud modifique el curso de un cáncer es muy débil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La autora no afirma eso de forma explícita y en algún pasaje lo matiza, y el conjunto empuja en esa dirección. Es el riesgo característico de este género y merece decirse en un resumen honesto, porque el lector que peor lo está pasando es el más expuesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo reparo general es la ausencia de referencias en la edición original. Un libro que afirma continuamente qué hace el cerebro, escrito con autoridad médica y leído por un millón de personas, debería permitir comprobar de dónde sale cada afirmación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es de proporción entre lo individual y lo demás. El libro habla de estrés crónico sin apenas mencionar las causas que producen la mayor parte del estrés crónico de la población: la precariedad, las jornadas, los cuidados y el precio de la vivienda.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso deja al lector con herramientas para gestionar un problema cuya causa está fuera de su alcance, que es útil y es insuficiente. Respirar mejor no arregla dos trabajos, y presentar la respiración como la solución traslada al individuo un problema que no es suyo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, lo que hay que ponerle a favor, que es más de lo que suelen reconocer sus críticos. El primero ya está dicho y es el más importante: normalizó ir al psiquiatra y al psicólogo en un país donde eso seguía siendo motivo de vergüenza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es que explicó la fisiología del estrés a gente que llevaba años yendo a urgencias con síntomas que nadie le había sabido nombrar, y esa explicación por sí sola reduce el miedo, que es una parte importante del propio síntoma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es que no promete milagros ni vende un método propio. Las recomendaciones que da son las que daría cualquier profesional razonable, y no hay detrás un curso, un suplemento ni un programa de pago.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que la gente cree y no es verdad",
+          frase: "Lo primero, la frase que el libro repite más: el cerebro sí distingue entre lo real y lo imaginado. Lo que ocurre es que también reacciona a lo imaginado, que es una cosa bastante distinta y bastante menos espectacular.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: el cortisol no es una hormona mala que haya que mantener baja. Es imprescindible, sigue un ritmo diario y su ausencia produce una enfermedad grave. Lo perjudicial es la activación sostenida, no la sustancia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: no hay cuatro hormonas de la felicidad con una emoción cada una. Es un esquema pedagógico útil para explicar y falso como descripción, porque cada una de esas moléculas participa en decenas de funciones distintas y a menudo contradictorias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: la depresión no es un déficit de serotonina. Esa explicación se abandonó, una revisión amplia de 2022 no encontró pruebas consistentes que la sostuvieran, y los antidepresivos funcionan en depresión moderada y grave por mecanismos que no son ese.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y quinto: la dopamina no es la molécula del placer, es la del deseo. Se dispara anticipando y no disfrutando, y esa distinción explica mucho mejor por qué alguien puede pasarse dos horas en una aplicación que no le está gustando nada.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance justo: un libro de divulgación con neurociencia simplificada hasta el error en varios puntos, sin referencias, con una tendencia a poner en el individuo la solución de problemas que no lo son.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que ha explicado a un millón de personas qué le pasa a su cuerpo cuando lleva dos años en alerta, y les ha dicho que pedir ayuda es lo razonable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo pesa bastante más de lo que su reputación en los círculos profesionales sugiere.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien quiera seguir por ahí con material más sólido tiene por dónde. Sobre el estrés, el libro de Robert Sapolsky sobre por qué las cebras no tienen úlcera explica lo mismo con treinta años de investigación propia detrás y con las referencias puestas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre atención y pantallas, hay trabajo académico reciente bastante más matizado que la versión de la dopamina, incluida investigación que discute cuánto daño hacen realmente las redes sociales y que encuentra efectos más pequeños de lo que suele decirse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y para lo que este libro hace bien —explicarle a alguien que no sabe nada qué le está pasando en el cuerpo y convencerlo de que pida ayuda— no hay tantos sustitutos en español, y esa es la razón honesta de su éxito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La manera de leerlo, entonces, es como lo que es: no un libro de neurociencia, sino un libro de una psiquiatra que ha visto a mucha gente asustada y ha escrito lo que le dice a esa gente en la consulta.",
+        },
+      ],
+    },
+  ],
+};
