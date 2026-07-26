@@ -21,6 +21,8 @@ export type Preferencias = {
   nombre: string;
   genero: string;
   edad: string;
+  /** Por dónde llegó a la app. Se pregunta una vez, en la introducción. */
+  origen: string;
   idioma: string;
   nivel: string;
   seguidos: string[];
@@ -41,6 +43,7 @@ export const POR_DEFECTO: Preferencias = {
   nombre: "Hola",
   genero: "Sin decir",
   edad: "Sin decir",
+  origen: "Sin decir",
   idioma: "Español",
   nivel: "Sin definir",
   seguidos: [],

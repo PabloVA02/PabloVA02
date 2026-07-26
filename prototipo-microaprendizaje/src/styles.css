@@ -1731,6 +1731,9 @@ button {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  /* Una lista larga se desplaza, y sin este respiro la última opción termina
+     justo contra el borde del botón y se lee como si estuviera cortada. */
+  padding-bottom: 8px;
 }
 .opcion {
   display: flex;

@@ -231,8 +231,10 @@ type Paso =
   | { tipo: "promesa"; titulo: string; ilu: "movil" }
   | { tipo: "ventajas"; titulo: string; puntos: { titulo: string; color: string }[] }
   | { tipo: "eleccion"; titulo: string; pie?: string; opciones: Opcion[]; multiple?: boolean; max?: number;
+      /** Se puede pasar de largo sin contestar. */
+      opcional?: boolean;
       /** Marca el paso cuya respuesta se usa más adelante. */
-      clave?: "minutos" }
+      clave?: "minutos" | "edad" | "genero" | "origen" }
   | { tipo: "confirmacion"; titulo: string; texto: string }
   | { tipo: "testimonio"; cita: string; sello: string }
   | { tipo: "aviso"; titulo: string; texto: string; ilu: "mano" | "campana"; cta: string; secundario?: string }
@@ -249,6 +251,27 @@ const PASOS: Paso[] = [
     tipo: "nombre",
     titulo: "¿Cómo te llamamos?",
     pie: "Solo para saludarte. Podrás cambiarlo en tu perfil.",
+  },
+  {
+    tipo: "eleccion",
+    clave: "edad",
+    titulo: "¿En qué edad andas?",
+    pie: "Por tramos, y sirve para calcular cuánto vas a leer de aquí en adelante.",
+    opcional: true,
+    opciones: [
+      { texto: "Menos de 18" }, { texto: "18-24" }, { texto: "25-34" },
+      { texto: "35-49" }, { texto: "50 o más" },
+    ],
+  },
+  {
+    tipo: "eleccion",
+    clave: "genero",
+    titulo: "¿Cómo te identificas?",
+    pie: "Es opcional y no cambia lo que se te recomienda.",
+    opcional: true,
+    opciones: [
+      { texto: "Mujer" }, { texto: "Hombre" }, { texto: "No binario" }, { texto: "Otro" },
+    ],
   },
   { tipo: "promesa", titulo: "Una forma completamente nueva de aprender…", ilu: "movil" },
   {
@@ -337,6 +360,22 @@ const PASOS: Paso[] = [
     pie: "Contamos una idea nueva por cada minuto de lectura al día.",
   },
   {
+    tipo: "eleccion",
+    clave: "origen",
+    titulo: "¿Cómo nos descubriste?",
+    pie: "Es lo único que nos dice de verdad qué funciona. Se contesta una vez y ya está.",
+    opcional: true,
+    opciones: [
+      { texto: "Un amigo o un familiar" },
+      { texto: "Instagram o Facebook" },
+      { texto: "TikTok" },
+      { texto: "YouTube" },
+      { texto: "Un anuncio" },
+      { texto: "Buscando en internet o en la tienda" },
+      { texto: "Prensa, pódcast o boletín" },
+    ],
+  },
+  {
     tipo: "aviso",
     titulo: "Empieza gratis",
     texto: "Siete días con la biblioteca completa. Sin compromiso y puedes cancelar cuando quieras.",
@@ -358,7 +397,17 @@ const PASOS: Paso[] = [
 
    ------------------------------------------------------------------------- */
 
-export function Onboarding({ onTerminar }: { onTerminar: (nombre: string, intereses: string[]) => void }) {
+/** Lo que la introducción deja recogido y la app guarda en las preferencias. */
+export type Alta = {
+  nombre: string;
+  intereses: string[];
+  edad: string;
+  genero: string;
+  /** Por dónde llegó. Es lo único que dice de verdad qué canal funciona. */
+  origen: string;
+};
+
+export function Onboarding({ onTerminar }: { onTerminar: (alta: Alta) => void }) {
   const reducido = !!useReducedMotion();
   const [i, setI] = useState(0);
   const [sentido, setSentido] = useState(1);
@@ -370,7 +419,22 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string, intere
   /* El paso de temas se localiza por su título y no por un índice a mano:
      insertar una pregunta antes rompería el índice sin avisar. */
   const pasoTemas = PASOS.findIndex((p) => "titulo" in p && p.titulo === "¿Qué temas te interesan?");
-  const terminar = () => onTerminar(nombre.trim() || "Hola", elegidas[pasoTemas] ?? []);
+
+  /* Cada respuesta se localiza por su clave y no por su posición, para que
+     mover o insertar un paso no cambie en silencio lo que se guarda. */
+  const respuesta = (clave: "edad" | "genero" | "origen") => {
+    const j = PASOS.findIndex((p) => p.tipo === "eleccion" && p.clave === clave);
+    return elegidas[j]?.[0] ?? "Sin decir";
+  };
+
+  const terminar = () =>
+    onTerminar({
+      nombre: nombre.trim() || "Hola",
+      intereses: elegidas[pasoTemas] ?? [],
+      edad: respuesta("edad"),
+      genero: respuesta("genero"),
+      origen: respuesta("origen"),
+    });
 
   const avanzar = (d: number) => {
     if (i + d < 0) return;
@@ -404,8 +468,31 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string, intere
   const minutos = Number(elegidas[pasoMinutos]?.[0]?.match(/\d+/)?.[0] ?? 10);
   const ideasAlAno = minutos * 365;
 
+  /* Y de aquí a los sesenta y cinco, si contestó la edad. La pregunta del
+     tramo de edad no está puesta para rellenar una ficha: se usa aquí, y el
+     número que sale es el que convierte «diez minutos» en algo que se puede
+     imaginar. Sin respuesta, este añadido no aparece y no pasa nada. */
+  const MEDIA_TRAMO: Record<string, number> = {
+    "Menos de 18": 16,
+    "18-24": 21,
+    "25-34": 30,
+    "35-49": 42,
+    "50 o más": 55,
+  };
+  const pasoEdad = PASOS.findIndex((p) => p.tipo === "eleccion" && p.clave === "edad");
+  const edadMedia = MEDIA_TRAMO[elegidas[pasoEdad]?.[0] ?? ""];
+  const anosPorDelante = edadMedia ? Math.max(10, 65 - edadMedia) : 0;
+  const proyeccion = anosPorDelante
+    ? ` Y de aquí a los sesenta y cinco, unas ${(ideasAlAno * anosPorDelante).toLocaleString("es-ES")}.`
+    : "";
+
   const seleccion = elegidas[i] ?? [];
-  const puedeSeguir = paso.tipo !== "eleccion" || seleccion.length > 0;
+  /* Las preguntas opcionales no bloquean el botón: obligar a contestar una
+     pregunta de género o de procedencia para poder seguir es exactamente lo
+     que hace que la gente marque cualquier cosa, y entonces el dato no vale
+     nada. Mejor menos respuestas y que sean verdad. */
+  const puedeSeguir =
+    paso.tipo !== "eleccion" || paso.opcional === true || seleccion.length > 0;
 
   return (
     <motion.div
@@ -633,7 +720,7 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string, intere
             <PantallaCalculo
               valor={ideasAlAno}
               remate={paso.remate}
-              pie={paso.pie}
+              pie={paso.pie + proyeccion}
               reducido={reducido}
             />
           )}
@@ -677,7 +764,9 @@ export function Onboarding({ onTerminar }: { onTerminar: (nombre: string, intere
             animate={{ opacity: puedeSeguir ? 1 : 0.4, y: 0 }}
             transition={{ ...spring, delay: 0.3 }}
           >
-            {paso.tipo === "calculo"
+            {paso.tipo === "eleccion" && paso.opcional && seleccion.length === 0
+              ? "Prefiero no decirlo"
+              : paso.tipo === "calculo"
               ? "Me apunto"
               : paso.tipo === "bienvenida"
               ? "Empezar"

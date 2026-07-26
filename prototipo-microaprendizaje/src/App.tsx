@@ -140,9 +140,17 @@ export default function App() {
           {pantalla === "intro" && (
             <Onboarding
               key="intro"
-              onTerminar={(n, temas) => {
-                setNombre(n);
-                setIntereses(temas);
+              onTerminar={(alta) => {
+                setNombre(alta.nombre);
+                setIntereses(alta.intereses);
+                /* Lo que se ha contestado en la introducción se guarda en las
+                   preferencias, que es lo único que sobrevive a un recargado.
+                   Ahí lo lee la pantalla de ajustes y ahí lo leería el envío a
+                   analítica de una app de verdad. */
+                preferencias.set("nombre", alta.nombre);
+                preferencias.set("edad", alta.edad);
+                preferencias.set("genero", alta.genero);
+                preferencias.set("origen", alta.origen);
                 setPantalla("pago");
               }}
             />

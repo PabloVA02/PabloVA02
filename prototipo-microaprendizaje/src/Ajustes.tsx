@@ -47,7 +47,7 @@ const COLOR_TEMA: Record<string, string> = {
 };
 
 type Panel =
-  | "suscripcion" | "nombre" | "genero" | "edad" | "idioma" | "nivel"
+  | "suscripcion" | "nombre" | "genero" | "edad" | "origen" | "idioma" | "nivel"
   | "seguidos" | "silenciados" | "objetivo" | "recordatorio" | "apariencia" | "escala"
   | "racha" | "descargar" | "sincronizar"
   | "compartir" | "valorar" | "proponer"
@@ -112,6 +112,7 @@ export function Ajustes({
         { id: "nombre", nombre: "Nombre", Icono: IcoTarjeta, valor: visible },
         { id: "genero", nombre: "Identidad de género", Icono: IcoGenero, valor: prefs.genero },
         { id: "edad", nombre: "Edad", Icono: IcoEdad, valor: prefs.edad },
+        { id: "origen", nombre: "Cómo nos conociste", Icono: IcoGlobo, valor: prefs.origen },
         { id: "idioma", nombre: "Idioma del contenido", Icono: IcoGlobo, valor: prefs.idioma },
         { id: "nivel", nombre: "Nivel de lectura", Icono: IcoBirrete, valor: prefs.nivel },
       ],
@@ -325,6 +326,27 @@ export function Ajustes({
           }))}
           onElegir={(v) => set("edad", v)}
         />
+      </Hoja>
+
+      <Hoja abierta={panel === "origen"} titulo="Cómo nos conociste" onCerrar={() => setPanel(null)}>
+        <Opciones
+          valor={prefs.origen}
+          opciones={[
+            "Un amigo o un familiar",
+            "Instagram o Facebook",
+            "TikTok",
+            "YouTube",
+            "Un anuncio",
+            "Buscando en internet o en la tienda",
+            "Prensa, pódcast o boletín",
+            "Sin decir",
+          ].map((n) => ({ id: n, nombre: n }))}
+          onElegir={(v) => set("origen", v)}
+        />
+        <p className="hoja-nota">
+          Se pregunta una vez al empezar. Es lo único que nos dice qué canales
+          funcionan de verdad, porque las tiendas de aplicaciones ya no lo cuentan.
+        </p>
       </Hoja>
 
       <Hoja
