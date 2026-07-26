@@ -8121,3 +8121,651 @@ export const ENSAYOS_MONTAIGNE: Resumen = {
     },
   ],
 };
+
+export const EXISTENCIALISMO_HUMANISMO: Resumen = {
+  id: "existencialismo-humanismo",
+  titulo: "El existencialismo es un humanismo",
+  autor: "Jean-Paul Sartre",
+  ano: 1946,
+  gancho:
+    "El texto filosófico más leído del siglo XX es la transcripción de una conferencia que su autor dio sin notas, en una sala donde la gente se desmayaba, y de cuya publicación se arrepintió el resto de su vida.",
+  porQue:
+    "Porque de aquí salen las tres frases que todo el mundo cita sobre la libertad. Y porque leerlo entero enseña algo que las frases sueltas ocultan: que no es una filosofía permisiva, sino la más exigente que hay en el estante.",
+  partes: [
+    {
+      titulo: "Una sala rota en la rue Jean-Goujon",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "París, lunes 29 de octubre de 1945. Un club de conferencias ha anunciado que un profesor de instituto de cuarenta años va a explicar en qué consiste el existencialismo. Han reservado una sala en la rue Jean-Goujon calculando que irán unas cuantas decenas de personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Va tanta gente que revientan la taquilla. Se rompen sillas, hay quien se desmaya por el calor y la falta de aire, y el conferenciante llega tarde y tiene que abrirse paso a codazos entre su propio público para poder subir al estrado. Cuando lo consigue, habla una hora sin notas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre se llamaba Jean-Paul Sartre. Hacía cinco meses que había terminado la guerra en Europa, había una generación entera saliendo de la ocupación sin nada en que creer, y aquella noche una sala llena de gente quiso saber si un filósofo tenía algo que decirles.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Al año siguiente, una editorial pequeña publicó la transcripción de aquella hora, con el debate posterior incluido. Cien páginas. Se ha traducido a todos los idiomas, ha vendido millones de ejemplares y es, con diferencia, lo más leído que escribió Sartre.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí está el dato que cambia por completo cómo hay que leerlo, y que casi ningún resumen menciona: Sartre se arrepintió de haberlo publicado. Lo dijo en entrevistas durante décadas. Lo consideraba una simplificación mala de su pensamiento y aceptó las reediciones a regañadientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para entender por qué, hay que saber qué había escrito antes. En 1943, en plena ocupación, había publicado «El ser y la nada»: setecientas páginas de fenomenología densísima que casi nadie leyó entera y que es el libro donde de verdad está su filosofía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que pasó fue lo que pasa siempre. Millones de personas leyeron el folleto de cien páginas en vez del libro de setecientas, y el existencialismo que conoce el mundo es el de la conferencia. Su autor pasó treinta y cinco años intentando corregir esa impresión sin conseguirlo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué es esto en realidad",
+          frase: "No es un libro: es un acto de defensa. Sartre no está exponiendo su filosofía, está contestando a dos acusaciones a la vez, y por eso simplifica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos acusaciones venían de lados opuestos y eso explica la estructura entera. Los comunistas decían que el existencialismo era una filosofía burguesa de la contemplación, individualista, que dejaba al hombre encerrado en su cuarto mientras fuera había que organizar el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los católicos decían lo contrario y peor: que era una filosofía de la desesperación, que negaba los valores, que se recreaba en lo sórdido y que si Dios no existe entonces todo está permitido y esto acaba en cualquier cosa. Las dos acusaciones se hicieron en la prensa y con nombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que la conferencia va contestando alternativamente a unos y a otros, y cada vez que quiere ser convincente redondea una esquina. De ahí salen las frases perfectas que todo el mundo cita, y de ahí sale también el desagrado posterior del autor con su propio texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un apunte biográfico corto, porque explica bastante. Sartre nació en París en 1905 y su padre murió cuando él tenía quince meses. Se crio con su abuelo materno, un profesor de alemán con una biblioteca enorme, en una casa donde un niño podía leerlo todo y nadie le llevaba la contraria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contó esa infancia mucho después en «Las palabras», un libro breve y feroz sobre cómo se fabrica un niño prodigio. La tesis de aquel libro es que se pasó los primeros diez años representando un papel escrito por los adultos, que es exactamente el problema del que trata su filosofía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Perdió casi la visión del ojo derecho a los tres años, lo que le dejó el estrabismo con el que aparece en todas las fotografías. Entró en la École Normale Supérieure, suspendió la oposición de filosofía en 1928 y en 1929 la sacó el primero, con Simone de Beauvoir la segunda.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Se conocieron preparando esa oposición y estuvieron juntos cincuenta y un años sin casarse, sin vivir bajo el mismo techo y sin exclusividad, en un pacto que hicieron a los veinticuatro años y que los dos describieron después con bastante menos entusiasmo del que le pusieron al firmarlo.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1940 lo movilizaron, cayó prisionero y pasó nueve meses en un campo alemán. Ha contado que aquello le cambió la filosofía: allí descubrió lo que era la vida en común y lo que era una situación que uno no elige, dos cosas que en «El ser y la nada» todavía no pesaban lo suficiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando dio la conferencia, en octubre de 1945, acababa de fundar la revista «Les Temps Modernes» ese mismo mes. Tenía cuarenta años y estaba a punto de convertirse en la única cosa que un filósofo casi nunca llega a ser: una celebridad de calle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella conferencia es exactamente el momento en que ocurre. A partir de esa noche, existencialismo deja de ser un término técnico y pasa a ser una moda: los sótanos de Saint-Germain-des-Prés, los jerséis negros, el jazz, una manera de vestir y de fumar asociada a una filosofía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sartre lo detestó. Repitió muchas veces que él no había elegido la palabra, que se la habían puesto encima y que al principio la rechazaba. Acabó aceptándola porque ya no había manera de quitársela, que es más o menos lo que le pasa a cualquiera con un apodo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene tener eso presente al abrir el libro, porque cambia el tono con que se lee. No es un maestro exponiendo su doctrina desde una cátedra tranquila. Es un hombre acorralado por dos flancos, hablando deprisa, en una sala sin aire, a un público que no ha ido a aprender sino a decidir de qué lado ponerse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a pesar de eso, o quizá por eso, es un texto extraordinario. En una hora sin papeles construye un argumento completo, con ejemplos que se recuerdan veinte años después, y llega a una conclusión moral dura que ningún resumen popular reproduce bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empieza por un cortapapeles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Termina diciendo que no tenemos ninguna excusa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entre las dos cosas hay exactamente cien páginas.",
+        },
+      ],
+    },
+    {
+      titulo: "Un cortapapeles y un Dios que no está",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El argumento empieza con un objeto que en 1945 había en cualquier escritorio: un cortapapeles, esa especie de cuchillo romo que servía para abrir los pliegos de los libros sin cortar. Sartre lo coge y pregunta cómo llegó a existir esa cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta es evidente. Un artesano lo fabricó teniendo en la cabeza, antes de empezar, para qué servía y cómo se hacía. La definición del objeto existía antes que el objeto. Nadie fabrica un cortapapeles y después se pregunta para qué ha salido esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso Sartre lo llama, con la palabra de la tradición, que la esencia precede a la existencia. Primero está el qué es, después está el que es. Y para todos los objetos fabricados eso es sencillamente verdad y no admite discusión.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahora el paso siguiente. Si Dios existe y creó al hombre, entonces Dios es un artesano superior que tenía un plan y una definición antes de hacernos. Nuestra esencia estaría fijada de antemano, igual que la del cortapapeles, y la vida consistiría en cumplirla mejor o peor.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí conviene precisar algo, porque es donde se malinterpreta. Sartre observa que muchas filosofías ateas del siglo dieciocho quitaron a Dios y conservaron intacta la idea de naturaleza humana, que era la parte teológica del asunto. Se quedaron con el plano después de despedir al arquitecto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su posición es la contraria y la formula así: si Dios no existe, hay al menos un ser en el que la existencia precede a la esencia. Un ser que primero está ahí, tirado en el mundo, y solo después es algo. Ese ser es el hombre.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase entera",
+          frase: "La existencia precede a la esencia: primero apareces, sin definición ninguna, y lo que eres se decide después, con lo que hagas. No hay un plano tuyo en ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la consecuencia que él mismo escribe en la página siguiente: el hombre no es otra cosa que lo que él se hace. No hay una versión verdadera de ti guardada en algún sitio a la que estés siendo fiel o infiel. Está lo que haces, y con eso se hace la cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Suena liberador y no lo es tanto. Porque si no hay naturaleza que cumplir, tampoco hay naturaleza en la que escudarse. No se puede decir soy así, es mi carácter, yo he nacido tímido, tengo mal genio. Esas frases quedan prohibidas de golpe, y son las que usamos todos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sartre lo lleva a un ejemplo incómodo. El cobarde, dice, no es cobarde por una constitución fisiológica ni por un temperamento: se ha hecho cobarde con sus actos, y puede dejar de serlo mañana. No hay temperamento cobarde, hay actos cobardes acumulados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo mismo con lo contrario. El héroe no nació héroe. Lo que existe es un hombre que actuó de cierta manera en cierto momento, y que puede dejar de hacerlo. Eso quita el consuelo de las dos direcciones, y es una de las cosas más duras del texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí viene la frase que probablemente hayas oído sin saber de dónde salía: estamos condenados a ser libres. Condenados porque no nos hemos hecho a nosotros mismos ni hemos pedido estar aquí. Libres porque, una vez arrojados al mundo, respondemos de todo lo que hacemos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra condenados hace todo el trabajo. La libertad de Sartre no es un premio ni una buena noticia: es una carga que no se puede devolver. No hay manera de no elegir, porque no elegir es también una elección y también cuenta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay otra frase suya en el mismo tramo, menos citada y mejor: el genio de Proust es la totalidad de las obras de Proust. No existe un talento de Proust aparte de sus libros, esperando en algún sitio. Solo hay realidad en el acto, y lo demás son intenciones.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso liquida de una frase una industria entera de consuelo. El que dice que podría haber sido un gran escritor si no hubiera tenido que trabajar, o un gran músico si le hubieran apoyado en casa, según Sartre no está diciendo nada: no hay ninguna obra ahí que medir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es probablemente la idea más cruel del libro y también la más útil, y conviene entenderla bien. No dice que las circunstancias no existan. Dice que el potencial no existe: que un talento que nunca produjo nada es indistinguible, desde fuera y desde dentro, de un talento que no había.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción evidente salta sola: hay gente que no produce porque tiene tres trabajos y dos hijos. Sartre en 1945 no contesta bien a eso, y es su punto ciego más grande. Lo contestará quince años después, y para hacerlo tendrá que cambiar de filosofía, cosa que veremos al final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora la parte del argumento que no funciona, que es la respuesta a la acusación de individualismo. Sartre sostiene que al elegir por mí elijo por todos los hombres: que cuando elijo, creo una imagen del hombre tal como considero que debe ser, y me convierto en legislador de la humanidad entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese salto no está justificado en ninguna parte, y se lo señalaron desde el primer día. Si no hay valores dados, nada obliga a pasar de yo elijo esto para mí a esto es lo que debería hacer cualquiera. Es Kant metido de contrabando en una filosofía que acaba de negar los fundamentos de Kant.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el punto donde más se nota que esto es una defensa y no un tratado. Sartre necesitaba contestar a los comunistas que lo acusaban de encerrar al hombre en su habitación, y para eso hacía falta una dimensión colectiva. La construyó en dos párrafos y se le nota la costura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo curioso es que la idea sí tiene una versión defendible, aunque él no la formula así. No es que mi elección obligue a nadie: es que al elegir muestro qué me parece que vale la pena, y eso es una afirmación pública sobre el mundo aunque la haga solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cortapapeles tenía un plano antes de existir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nosotros no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de esa diferencia sale todo lo demás, incluido lo que menos gusta.",
+        },
+      ],
+    },
+    {
+      titulo: "El chico que no sabía si irse a Londres",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En mitad de la conferencia, Sartre deja la teoría y cuenta un caso real de un alumno suyo. Estamos en Francia, hacia 1940, y el chico tiene un problema que no puede resolver y para el que ha ido a pedirle consejo a su profesor de filosofía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hermano mayor había muerto en la ofensiva alemana. El padre coqueteaba con la colaboración y estaba prácticamente fuera de casa. La madre vivía sola con él, destrozada por la muerte del otro hijo, y él era literalmente lo único que le quedaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chico quería irse a Inglaterra a unirse a las fuerzas francesas libres para vengar a su hermano y luchar contra los alemanes. Si se iba, dejaba a su madre sola. Si se quedaba, renunciaba a lo único que consideraba que tenía sentido hacer en aquel momento.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Sartre desmonta una por una todas las doctrinas a las que el chico podría acudir. La moral cristiana le dice que ame al prójimo, que se sacrifique por los demás y que elija el camino más difícil: perfecto, pero ¿cuál de los dos caminos es el prójimo y cuál el más difícil?",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La moral kantiana le dice que no trate a nadie como medio sino como fin. Si se queda con su madre, la trata como fin y trata como medio a los que combaten. Si se va, hace exactamente lo contrario. La regla es impecable y no resuelve absolutamente nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Podría fiarse de su sentimiento y quedarse con el más fuerte. Pero el sentimiento, dice Sartre, no se mide antes del acto: solo se sabe cuánto quieres a tu madre por lo que haces por ella. Medir el sentimiento para decidir el acto es imposible, porque el acto es la única medida.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le contestó",
+          frase: "Está usted libre, elija, es decir: invente. Ninguna moral general puede decirle qué hacer, porque no hay señales en el mundo que se descifren solas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y Sartre añade una observación que es lo mejor del texto. Al elegir a quién pides consejo, ya has elegido el consejo. Si el chico va a un cura de la Resistencia sabe qué le va a decir, y si va a uno colaboracionista también. Elegir consejero es haber decidido ya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso vale para cualquiera y se comprueba fácil. Cuando alguien te pide opinión sobre si dejar su trabajo, casi siempre ya ha decidido y está buscando a quien se lo confirme, y elige el interlocutor en consecuencia. Sartre lo convierte en un argumento filosófico y tiene razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De este ejemplo salen los tres términos que dan al existencialismo su fama de sombrío, y que hay que traducir bien porque significan cosas muy concretas: la angustia, el desamparo y la desesperación. Ninguna de las tres es un estado de ánimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La angustia no es ansiedad ni miedo. Es lo que siente quien se da cuenta de que al elegir está comprometiendo algo más que su propio caso, y de que no hay nadie que pueda garantizarle que hace bien. Sartre dice que quien decide de verdad la conoce, y quien no la conoce se está escondiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El desamparo es la palabra para la ausencia de Dios, entendida no como una tristeza sino como una consecuencia lógica: si no hay nadie arriba, no hay valores escritos en ninguna parte, y por tanto no hay excusa disponible. Estamos solos con la decisión y sin instrucciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La desesperación es la más malentendida de las tres y la más práctica. Significa actuar sin contar con lo que no depende de ti. Haces lo que puedes, cuentas con los que se comprometan, y no fundas tu acción en la esperanza de que las cosas se arreglen solas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Sartre pone un ejemplo que se entiende de inmediato. Puedo contar con que el tren llegue a la hora porque sé cómo funciona un ferrocarril. No puedo contar con que mi compañero de partido no me traicione mañana, porque eso depende de una libertad ajena, y las libertades ajenas no son datos.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí es donde el texto contesta a la acusación católica, y lo hace de la manera exactamente contraria a la que espera el lector moderno. Que Dios no exista no significa que todo esté permitido: significa que nada está justificado, que es muchísimo peor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Dios, uno puede hacer algo terrible y estar cumpliendo un mandato. Sin Dios, nadie puede escudarse en nada: ni en un mandamiento, ni en una naturaleza, ni en la época, ni en la educación que recibió. Cada acto queda entero a cuenta del que lo hizo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1945, en un país que acababa de salir de cuatro años de ocupación, esa frase no era abstracta. La sala estaba llena de gente que había colaborado, que había mirado hacia otro lado o que había resistido, y a todos les estaba diciendo lo mismo: no tienen ustedes ninguna excusa disponible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este es el malentendido más extendido sobre el existencialismo y conviene decirlo con todas las letras. La versión popular dice que si nada tiene sentido, haz lo que quieras. El texto dice lo contrario: que como nada tiene sentido dado, respondes tú de todo, sin atenuantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es, medida con cualquier otra del estante, una moral durísima. Compárala con la de «El extranjero» o con «El mito de Sísifo», que andan por esta biblioteca: Camus llega a la indiferencia lúcida y Sartre llega a la responsabilidad total. No son la misma familia por mucho que se los meta en la misma caja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a propósito de eso, un malentendido que conviene deshacer aquí: Camus negó siempre ser existencialista. Lo dijo por escrito y en entrevistas, con bastante irritación. Meterlos juntos es el error más común de la filosofía de divulgación, y los dos lo habrían rechazado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chico del ejemplo, por cierto, no aparece nunca resuelto. Sartre no cuenta qué hizo, y eso es deliberado: contar el final convertiría el caso en una parábola con moraleja, que es justo lo que la conferencia entera está negando que exista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay señal ninguna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aunque la hubiera, tendrías que decidir tú qué significa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que es exactamente lo mismo que no tenerla.",
+        },
+      ],
+    },
+    {
+      titulo: "La carta que le mandó Heidegger",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La conferencia tuvo respuesta, y la más importante llegó desde una cabaña en la Selva Negra. En 1946, un año después, Martin Heidegger escribió un texto largo dirigido a un filósofo francés, Jean Beaufret, que se publicó al año siguiente como «Carta sobre el humanismo».",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese texto está escrito, punto por punto, contra la conferencia de Sartre, y es célebre entre filósofos y prácticamente desconocido fuera. Heidegger empieza por lo más humillante que se le puede decir a alguien: que ha entendido mal el libro del que dice partir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su objeción central es técnica y demoledora. Decir que la existencia precede a la esencia es invertir la fórmula clásica de la metafísica, y una inversión sigue estando dentro de lo que invierte. Sartre creía estar saliendo de la tradición y, según Heidegger, estaba dando la vuelta a una de sus frases.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una objeción que se entiende con una imagen. Si alguien dice que en su casa manda la mujer y no el marido, está discutiendo dentro del mismo esquema de quién manda: ha cambiado el sujeto y ha dejado intacta la pregunta. Heidegger sostiene que Sartre hizo eso con la metafísica entera.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La segunda objeción va al título. Heidegger rechaza la palabra humanismo entera, porque toda definición del hombre —animal racional, criatura de Dios, sujeto libre— decide de antemano qué es el ser humano, que era justamente lo que había que dejar en suspenso.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y remata negando que él sea existencialista, cosa que repitió siempre. El filósofo del que Sartre decía partir se pasó dos décadas explicando que aquello no tenía nada que ver con lo suyo, y en Francia casi nadie le hizo caso porque la etiqueta ya estaba puesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que añadir algo que complica el juicio, y es de justicia añadirlo. Heidegger había estado afiliado al partido nazi y había sido rector de su universidad en 1933. Su carta de 1946 es también, en parte, una operación de recolocación pública después de la guerra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: la crítica filosófica es buena y la posición desde la que se hace no es limpia. Las dos cosas son verdad a la vez, y quien cuente este episodio sin las dos está contando la mitad. Sartre, por su parte, había estado del lado correcto de esa guerra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La objeción que aguanta",
+          frase: "Sartre dio la vuelta a una fórmula de la metafísica y creyó haber salido de ella. Cambiar el orden de dos palabras no te saca del sistema que las inventó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda respuesta importante vino de los marxistas, y no fue amable. En el propio debate que sigue a la conferencia interviene Pierre Naville y le dice, en resumen, que su hombre libre es un burgués con tiempo: que quien tiene hambre y trabaja doce horas no elige nada, sino que aguanta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa objeción es la que más daño le hizo y la que él acabó aceptando. Volveremos a ella en el último capítulo, porque no es solo una crítica externa: es la que le cambió la filosofía a Sartre en los quince años siguientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una tercera cosa, que no es una crítica sino una deuda impagada, y que es probablemente lo más interesante de todo este asunto. Al final de «El ser y la nada», Sartre anuncia que va a escribir una obra de moral que se seguirá de todo aquello. Es una promesa por escrito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La empezó en 1947, llenó cuadernos y la abandonó. Aquellos cuadernos se publicaron treinta y cinco años después, cuando él ya había muerto, con el título de «Cuadernos para una moral». La ética que el existencialismo prometía nunca llegó a existir como libro terminado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es un agujero serio, porque toda la conferencia funciona como una promesa moral: te quita las excusas y te dice que respondes de todo, pero no te dice cómo se decide. Sartre dejó al lector con la responsabilidad entera y sin ninguna herramienta para administrarla.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y aquí viene el detalle que más merece la pena de este resumen. Esa ética sí se escribió, un año después de la conferencia, y la escribió Simone de Beauvoir. Se titula «Para una moral de la ambigüedad», es de 1947, y es el libro que el existencialismo necesitaba y no tuvo.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En él Beauvoir hace lo que Sartre no hizo: pensar qué significa mi libertad cuando la libertad del otro está aplastada. Su respuesta es que mi libertad solo existe si quiero también la de los demás, y que hay situaciones —la esclavitud, la opresión— donde no hay libertad que ejercer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una distinción que la conferencia necesitaba y no tenía: entre el que elige mal y el que no tiene desde dónde elegir. Un obrero sin instrucción y sin dinero no es un cobarde por no rebelarse; es alguien a quien le han quitado las condiciones materiales de la elección.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese libro se archivó durante décadas como literatura secundaria sobre Sartre, cuando resuelve un problema que él dejó abierto. Dos años después Beauvoir publicó «El segundo sexo», que también está en esta biblioteca, y que aplica exactamente ese método a una situación concreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase famosa de «El segundo sexo» —no se nace mujer, se llega a serlo— es literalmente la tesis de esta conferencia aplicada a un caso. La existencia precede a la esencia. Lo que ocurre es que Beauvoir lo hace con datos, con historia y con consecuencias políticas, y él no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decirlo así de claro porque durante setenta años se contó al revés: que ella aplicaba la filosofía de él. La realidad documentada es más igualada. Se leían los manuscritos mutuamente antes de publicar y discutían cada tesis, y algunas de las que llevan su firma se cocinaron entre los dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sea como sea, el balance del episodio es este. La conferencia recibió una demolición técnica desde Alemania, una objeción social desde el marxismo y un complemento imprescindible desde la mesa de al lado. De las tres, la que faltaba en el libro era la tercera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de las tres, la única que Sartre aceptó del todo fue la de los marxistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tardó quince años en aceptarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuando lo hizo, tuvo que desmontar media conferencia.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que Sartre dejó de creer",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1960, quince años después de aquella sala rota, Sartre publicó «Crítica de la razón dialéctica». Es un libro enorme y difícil, muchísimo menos leído que la conferencia, y en él dice algo que contradice buena parte de lo que había dicho aquella noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sostiene ahí que el existencialismo no es una filosofía autónoma sino una ideología que vive dentro del marxismo, al que llama la filosofía insuperable de nuestro tiempo. Es decir: degrada su propia doctrina a un capítulo dentro de otra, y lo escribe él mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sobre todo cambia la libertad. Ya no es la libertad absoluta del que elige sin excusas: es una libertad situada, condicionada por la clase, por el hambre, por la escasez material. El hombre sigue haciéndose, pero se hace con los materiales que le tocaron y que no eligió.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Él mismo lo explicó con una frase durísima sobre su propia obra anterior: que «El ser y la nada» lo había escrito alguien que nunca había pasado hambre. La guerra, el campo de prisioneros y la ocupación le enseñaron lo que era una situación, y aquello ya estaba impreso.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa evolución es la respuesta a la pregunta que se hace cualquiera al leer la conferencia: ¿y el que no puede elegir? El Sartre de 1945 no tenía respuesta buena. El de 1960 dedica mil páginas a la pregunta, y su conclusión es que la libertad hay que construirla políticamente antes de poder ejercerla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su vida pública fue en la misma dirección y con bastantes tropiezos. Se acercó al Partido Comunista y se alejó cuando la invasión de Hungría en 1956. Apoyó la independencia de Argelia cuando eso costaba caro en Francia: le pusieron dos bombas en su casa por escribirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También sostuvo posiciones que envejecieron muy mal, y decirlo forma parte de contar esto bien: fue indulgente con la Unión Soviética durante años, entusiasta con la revolución cultural china y con Cuba, y la lucidez con la que juzgaba a Occidente no la aplicó siempre al otro lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1964 le dieron el premio Nobel de Literatura y lo rechazó. Es la única persona que lo ha rehusado voluntariamente. Su razón fue coherente con todo lo demás: un escritor no debe dejarse convertir en institución, porque una institución ya no elige, la eligen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añadió un motivo político que suele olvidarse: dijo que en aquel momento el premio se repartía de forma desigual entre los bloques, y que aceptarlo sería tomar partido en la guerra fría con su firma. No fue solo un gesto de independencia personal, fue también una posición.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El giro entero",
+          frase: "Pasó de estamos condenados a ser libres a que la libertad hay que fabricarla primero. Es una corrección, no un matiz, y la firmó él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La ruptura con Camus, en 1952, es el otro episodio que hay que conocer, y no fue un desacuerdo entre caballeros. La revista de Sartre publicó una reseña demoledora de «El hombre rebelde», y Camus contestó con una carta dirigida al señor director, sin nombrarlo, que era un insulto en sí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sartre le respondió por escrito y en público con una crueldad que todavía impresiona, reprochándole entre otras cosas su origen y su vanidad. No volvieron a hablarse nunca. Camus murió en un accidente de coche ocho años después, y Sartre le escribió entonces un obituario generoso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fondo de aquella pelea sigue vivo y merece contarse. Camus decía que ningún fin justifica matar a un inocente, y que las revoluciones que lo hacen se convierten en lo que combatían. Sartre decía que negarse a mancharse las manos es un lujo de quien no está en el bando que sufre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La historia le ha dado bastante la razón a Camus, y conviene decirlo aunque esta ficha sea de Sartre. Su lucidez sobre el terror revolucionario ha aguantado mejor el paso de setenta años que el compromiso de Sartre con regímenes que resultaron ser lo que Camus decía que eran.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sartre murió el 15 de abril de 1980, casi ciego desde hacía años y sin poder leer, que para él era la peor manera posible de acabar. Al entierro fueron unas cincuenta mil personas por las calles de París. Está enterrado en Montparnasse, y desde 1986 con Beauvoir en la misma tumba.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y sin embargo lo que sobrevive de todo eso no es la «Crítica de la razón dialéctica», que casi nadie ha leído. Es la conferencia de cien páginas que él consideraba floja. Otra vez lo mismo: de un autor sobrevive lo que él daba por menor, y no lo que creía haber demostrado.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "¿Qué queda entonces, quitado lo que se cayó? Queda una cosa que no depende de si Dios existe, y que se puede comprobar cualquier martes: que las frases del tipo yo soy así son casi siempre descripciones de lo que uno lleva haciendo, disfrazadas de datos sobre lo que uno es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda que elegir consejero es haber elegido. Queda que el talento que no produjo nada es indistinguible del talento que no existía. Y queda la definición práctica de la desesperación: actuar contando solo con lo que depende de ti, que es también, curiosamente, lo que decían los estoicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa coincidencia con el «Enquiridión» de Epicteto, que anda por esta biblioteca, es más rara de lo que parece: un ateo de 1945 y un esclavo del siglo segundo llegan al mismo consejo práctico partiendo de metafísicas opuestas. Cuando eso pasa, suele ser porque el consejo es bueno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y queda una advertencia sobre cómo se lee esto, que es la razón de ser de esta ficha. La versión de bar del existencialismo dice que nada importa. El texto dice que como nada viene justificado, todo lo que hagas es tuyo entero. Son las dos lecturas más opuestas que se pueden hacer del mismo párrafo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien quiere leerlo, se lee en dos tardes y merece la pena, con dos avisos. Que es un texto de combate y hay que leerlo sabiendo contra quién. Y que a continuación conviene leer a Beauvoir, porque contesta la pregunta que este deja abierta y que es la única que importa de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella noche de octubre se rompieron unas sillas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El conferenciante pasó el resto de su vida corrigiendo lo que dijo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ochenta años después seguimos citando la versión de la que se arrepintió.",
+        },
+      ],
+    },
+  ],
+};
