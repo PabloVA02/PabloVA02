@@ -15646,3 +15646,651 @@ export const EL_TUNEL: Resumen = {
     },
   ],
 };
+
+export const RENGLONES_TORCIDOS: Resumen = {
+  id: "renglones-torcidos",
+  titulo: "Los renglones torcidos de Dios",
+  autor: "Torcuato Luca de Tena",
+  ano: 1979,
+  gancho:
+    "Para escribirla, el director de un periódico nacional se hizo ingresar en un psiquiátrico durante dieciocho días. Solo el director del centro sabía que no estaba enfermo, y ni siquiera él sabía cómo iba a salir de allí.",
+  porQue:
+    "Porque plantea la pregunta más incómoda que existe: cómo demostrarías que estás cuerdo si nadie te creyera. Y porque el experimento científico que hizo esa misma pregunta seis años antes acabó, cuarenta años después, resultando bastante menos limpio de lo que decía.",
+  partes: [
+    {
+      titulo: "Dieciocho días de ingreso voluntario",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Finales de los años setenta. Un hombre de unos cincuenta y cinco años cruza la puerta de un hospital psiquiátrico español como paciente. Le retiran los objetos personales, le asignan una cama, y a partir de ese momento come, duerme y convive con los internos igual que cualquiera de ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llama Torcuato Luca de Tena, es periodista, ha dirigido uno de los grandes diarios del país y pertenece a la Real Academia Española. Nadie en aquel pabellón lo sabe. Solo el director del centro está al corriente de que aquel señor ha entrado voluntariamente para escribir un libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estuvo dieciocho días. Ese dato conviene fijarlo porque la leyenda ha crecido con los años y hay quien cuenta que fueron meses. Fueron dieciocho días, que es poco tiempo para volverse loco y suficiente para entender cómo se organiza la vida en un sitio donde entrar es fácil y salir no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir además que el suyo era un ingreso con red. Sabía la fecha de salida, tenía el acuerdo del director y podía marcharse cuando quisiera. Eso convierte su estancia en una observación de campo, no en la experiencia que retrata, y él nunca fingió lo contrario.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De aquellos dieciocho días salió una novela de más de seiscientas páginas publicada en 1979 que se ha convertido en uno de los libros más leídos de la literatura española del siglo veinte, con dos adaptaciones al cine y varias generaciones de lectores que se la recomiendan unos a otros.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título viene de un refrán que dice que Dios escribe derecho con renglones torcidos, es decir, que hasta lo que parece un error tiene un sentido que no vemos. La novela coge esa frase de consuelo y la usa para lo contrario: para hablar de vidas que quedaron torcidas y ya está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su autor tenía una biografía muy poco novelesca. Torcuato Luca de Tena nació en 1923, venía de la familia que había fundado el periódico, ganó el premio Planeta en 1961 y ocupó un sillón en la Academia. Era, en todos los sentidos, un hombre del establecimiento cultural español.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cual hace más notable la decisión. Un académico de sesenta años a punto de serlo no necesitaba dormir dieciocho noches en una sala común para escribir su siguiente novela. Podía haber hecho entrevistas, como se hace siempre, y el libro habría salido igual de correcto y bastante peor.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué le dio el ingreso",
+          frase: "No un caso ni una trama. Le dio el vocabulario, los horarios, los ruidos de un pasillo por la noche y la manera exacta en que un enfermo le explica a otro por qué está allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es un malentendido que conviene deshacer pronto: la novela no está basada en un caso real. Alice Gould, la protagonista, no existió. Lo que Luca de Tena sacó de aquellas semanas fue la textura del sitio, y esa textura es lo que hace que el libro no se lea como una fantasía de despacho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay algo más que se llevó de allí y que aparece en cada página: la certeza de que un manicomio no es un almacén de gente rara, sino un edificio lleno de personas con historias muy concretas, muchas de ellas perfectamente capaces de razonar sobre casi todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa observación, escrita en 1979, iba a contracorriente de casi todo lo que se publicaba entonces sobre el asunto, que oscilaba entre el retrato de terror y la denuncia política. Aquí no hay ni monstruos ni mártires: hay vecinos de pasillo con nombre, manías y opiniones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La novela empieza con una escena que no se olvida. Una mujer de unos cuarenta y tantos años llega al hospital acompañada, la ingresan, y en cuanto puede hablar con un médico le explica con toda calma que ella no está enferma: que es detective privado y que ha entrado a investigar un asesinato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llama Alice Gould de Almenara, es hija de padre inglés, culta, elegantísima, de una inteligencia evidente y con un dominio del lenguaje que impresiona a todo el que la escucha. Y su historia es coherente, detallada y verificable en apariencia. Solo tiene un problema: el papel de ingreso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese papel figura un diagnóstico de paranoia firmado por un psiquiatra, y la firma de su marido autorizando el internamiento. Desde el punto de vista del hospital, una mujer que llega diagnosticada de paranoia y explica que en realidad es una detective infiltrada está confirmando su diagnóstico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle del marido no es decorativo y en 1979 tenía un peso legal que hoy cuesta imaginar. El internamiento por decisión familiar, con un informe médico y sin control judicial previo, era el procedimiento normal, y esa asimetría es lo que hace verosímil el planteamiento entero.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahí está el motor del libro y es de una crueldad perfecta. Si su historia es cierta, es una mujer cuerda encerrada por un marido que quiere quitársela de encima. Si es falsa, es exactamente lo que dice el papel. Y las dos posibilidades producen, desde fuera, la misma conducta.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El lector pasa seiscientas páginas sin poder decidir. Y no por falta de datos: al contrario, Luca de Tena va dando pruebas a favor y en contra con una alternancia que agota, de manera que cada vez que uno se convence de algo aparece un detalle que lo hace dudar otra vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un mecanismo de novela policíaca aplicado a un sitio insólito. En una policíaca corriente hay que averiguar quién lo hizo. Aquí hay que averiguar si el narrador de la investigación tiene derecho a investigar nada, y esa pregunta no tiene un procedimiento establecido para resolverse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene una ventaja que el género policíaco no suele permitirse: el lector no puede resolverlo antes de tiempo por listo que sea. No hay pistas ocultas que reunir, porque la información que haría falta no está en ninguna parte del texto ni de la vida de la protagonista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa pregunta no es solo literaria. Seis años antes de que se publicara esta novela, un psicólogo estadounidense la había planteado en una revista científica de primera línea, con ocho voluntarios y doce hospitales. De eso va el tercer capítulo de este resumen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dieciocho días de cama, comedor y patio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Solo una persona en todo el edificio sabía la verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es exactamente la situación de la protagonista de su libro.",
+        },
+      ],
+    },
+    {
+      titulo: "Una detective que dice ser detective",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Conviene detenerse en la trampa lógica que sostiene el libro, porque es de las mejor construidas de la literatura española y funciona igual de bien en la vida real. Se llama, con toda propiedad, el problema de la falsación imposible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Imagina que te encierran por error. ¿Qué harías? Explicarías con calma que hay un error. Pedirías hablar con alguien de fuera. Insistirías. Te enfadarías si no te hacen caso. Buscarías pruebas. Y absolutamente todo eso encaja perfectamente con el cuadro que te han diagnosticado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estar tranquilo se anota como afecto aplanado. Estar nervioso, como agitación. Insistir en tu versión, como ideas fijas. Callarte, como retraimiento. No hay ninguna conducta disponible que sirva de prueba, porque el diagnóstico ya tiene una casilla preparada para cada una.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pedir que llamen a alguien de fuera tampoco funciona, y por un motivo que la novela explota bien: los que están fuera son precisamente los que firmaron el ingreso. Cuanto más insiste el paciente en que hablen con su familia, más confirma que no entiende su propia situación.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Alice Gould lo entiende antes que nadie y lo dice: cuanto más razonable se muestra, más confirma que es una paranoica de alto nivel intelectual, que es precisamente el tipo de paciente que razona impecablemente sobre una premisa falsa. Su inteligencia juega en su contra.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es lo mejor de la novela. En cualquier otro sitio, ser brillante ayuda. Aquí es un agravante, porque el cuadro que le atribuyen incluye exactamente eso: la capacidad de construir historias coherentes, verificables en apariencia y completamente falsas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alice hace además lo que haría cualquiera con recursos: se pone a investigar de verdad, a tomar notas, a interrogar a internos y a construir un expediente. Y cada folio que escribe es, para el que lo lea desde el otro lado de la mesa, otra prueba en su contra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La trampa",
+          frase: "Si estar loco significa creerse una historia falsa que suena bien, entonces contar bien una historia verdadera no te distingue de estar loco. Y no queda ninguna otra prueba que puedas aportar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese razonamiento es primo hermano del que sostiene «El túnel», de Sabato, que anda por esta biblioteca. Los dos libros van de un narrador que razona impecablemente, que convence al lector, y sobre el que hay que decidir si merece crédito. Y en los dos el lector decide mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia técnica es interesante. Sabato le da al lector la información al principio —el narrador ha matado a alguien— y aun así consigue que el lector se olvide. Luca de Tena hace lo contrario: no da la información nunca, y hace del no darla el tema del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alrededor de Alice se organiza la vida del hospital, y ahí es donde se nota que el autor estuvo dentro. Hay dos médicos con posiciones enfrentadas sobre ella, y esa oposición es lo que convierte la novela en algo más que un enigma: la convierte en una discusión sobre cómo se decide.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Uno de ellos, un psiquiatra veterano, tiende a creerla, o al menos a sostener que el diagnóstico no está probado y que hay que investigarlo. El otro, el director del centro, más joven y más apegado al manual, considera que el caso está claro y que ceder ante la paciente es un error clínico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y los dos tienen razones profesionales legítimas, que es lo que eleva el libro. El primero teme el error de retener a alguien sano; el segundo teme el error contrario, dar de alta a quien puede hacerse daño. Los dos errores son graves y las herramientas para elegir son las mismas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí conviene deshacer el segundo malentendido grande sobre este libro, que es el más extendido: mucha gente lo recuerda como una denuncia de la psiquiatría, en la línea de «Alguien voló sobre el nido del cuco». No lo es, y esa diferencia importa bastante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la novela de Ken Kesey, de 1962, el hospital es una máquina de aplastar y la enfermera jefe es un monstruo. Aquí no hay nada de eso. Los médicos son competentes, están de buena fe, discuten entre ellos con argumentos y la mayoría del personal trata a los internos con decencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia se nota hasta en las escenas duras. Cuando aquí se sujeta a alguien o se le aísla, la novela lo cuenta como un procedimiento que alguien ha decidido con criterio y con dudas, no como un abuso. Y resulta más incómodo de leer precisamente por eso.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El horror de este libro no es institucional: es epistemológico. No hay un villano al que señalar. Lo que hay es un problema que no tiene solución con las herramientas disponibles, y gente honesta intentando resolverlo con lo que tiene, que es insuficiente.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso hace el libro mucho más inquietante que si hubiera villanos, y también mucho más justo con una profesión que en aquellos años estaba recibiendo palos por todas partes. Luca de Tena salió de sus dieciocho días con respeto por los que trabajaban allí, y se nota en cada escena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene situar además el momento clínico, porque el libro es de 1979 y eso explica cosas. La psiquiatría llevaba veinticinco años transformada por los primeros fármacos antipsicóticos, que habían vaciado a medias los manicomios, pero el sistema español de hospitales grandes seguía en pie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reforma que cerró aquellos centros y los sustituyó por unidades en hospitales generales llegó a España en 1986, siete años después de este libro. Es decir: la novela retrata un modelo que estaba a punto de desaparecer, y en parte es un documento de cómo funcionaba por dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso le da al libro un valor que no buscaba. Muy poca gente escribió desde dentro de aquellos hospitales antes de que cerraran, y menos aún con la intención de describir la rutina en vez de denunciarla. Hoy funciona, sin pretenderlo, como testimonio de un sistema que ya no existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella explica su historia con toda calma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada palabra confirma el papel que trae firmado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y callarse lo confirmaría exactamente igual.",
+        },
+      ],
+    },
+    {
+      titulo: "El experimento que se le adelantó seis años",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En enero de 1973, seis años antes de esta novela, la revista «Science» publicó un artículo con un título que ya lo decía todo: sobre estar cuerdo en lugares de locos. Lo firmaba David Rosenhan, profesor de psicología y derecho en la Universidad de Stanford.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que contaba era esto. Ocho personas sin ningún trastorno —él mismo, un pediatra, un pintor, un ama de casa, varios psicólogos— se habían presentado en doce hospitales psiquiátricos de cinco estados diciendo que oían una voz que repetía tres palabras: vacío, hueco, golpe seco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aparte de esa queja y de dar un nombre falso, no mintieron en nada: contaron su vida real, su familia real, su trabajo real. Y a partir del momento del ingreso se comportaron con absoluta normalidad y dijeron que ya no oían nada. Querían ver cuánto tardaban en salir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La elección de las tres palabras tenía su lógica: eran síntomas que no figuraban en ningún manual, sin relación con ningún cuadro conocido, para que nadie pudiera decir después que habían fingido una enfermedad concreta de libro. Era, sobre el papel, un diseño cuidadoso.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los ingresaron a todos. Ninguno fue detectado por el personal. Estuvieron entre siete y cincuenta y dos días, con una media de diecinueve, y salieron con el diagnóstico de esquizofrenia en remisión: es decir, no como personas sanas, sino como enfermos que estaban mejor.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo más citado del artículo es la parte que coincide exactamente con la novela. Una vez dentro, la conducta normal se leía a través de la etiqueta. Los pseudopacientes tomaban notas para su estudio, y en las historias clínicas aparecía anotado como comportamiento de escritura patológico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle que Rosenhan subrayó y que es el mismo que subraya Luca de Tena: los otros internos sí los detectaban. Varios pacientes reales les dijeron que no estaban enfermos, que eran periodistas o investigadores. Los médicos, no. Los enfermos, sí.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La conclusión de 1973",
+          frase: "No podemos distinguir la cordura de la locura en un hospital psiquiátrico. Es la frase que dejó tocada a la psiquiatría durante una década y que está detrás de toda esta novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El impacto fue enorme. Aquel artículo se convirtió en la munición principal del movimiento antipsiquiátrico, aceleró la revisión de los criterios diagnósticos y se enseña todavía en primero de carrera. Cualquiera que haya estudiado psicología conoce la historia de las tres palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tuvo además un efecto que sus críticos le reconocen: contribuyó a que la edición del manual diagnóstico de 1980 se rehiciera con criterios mucho más explícitos y comprobables, en vez de descripciones interpretables. Un artículo discutible que empujó una reforma buena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora viene lo que casi nadie sabe, que es la parte que este resumen tiene la obligación de contar. En 2019, la periodista Susannah Cahalan publicó un libro entero dedicado a reconstruir aquel experimento, y lo que encontró es bastante feo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cahalan tenía un motivo personal para interesarse: años antes había sufrido una encefalitis autoinmune que le provocó síntomas psiquiátricos graves y estuvo a punto de acabar internada con un diagnóstico equivocado. Sabía por experiencia lo que estaba en juego en aquel artículo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se pasó años buscando a los ocho pseudopacientes en archivos, papeles personales y correspondencia. Al final del trabajo había conseguido identificar con seguridad a dos: al propio Rosenhan y a uno más. De los otros seis no encontró rastro documental fiable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato por sí solo no prueba nada —cincuenta años son muchos y la gente cambia de nombre, se muda y se muere—, pero es raro. Un experimento célebre con ocho participantes suele dejar más rastro que eso, sobre todo entre profesionales de la psicología que participaron sabiendo lo que hacían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Encontró además el historial clínico del propio Rosenhan de su ingreso, y no coincide con lo que él publicó. Según ese historial había descrito síntomas bastante más severos que las tres palabras: ideas de que le ponían aparatos para captar sus pensamientos, y pensamientos de suicidio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si eso es así, el hallazgo se desmonta en buena parte. Ingresar a alguien que dice oír voces y que además refiere ideas de control y de suicidio no es un error diagnóstico: es exactamente lo que hay que hacer. El experimento demostraría bastante menos de lo que decía demostrar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay un último hallazgo que es el más grave. Cahalan localizó a un participante cuya experiencia en el hospital había sido buena, con un trato correcto y una estancia razonable. Ese caso no aparece en el artículo publicado. Se quedó fuera, y era el que no encajaba.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir el matiz con precisión, porque esto no es una acusación cerrada. Cahalan no demuestra que el experimento fuera inventado, y Rosenhan murió en 2012 y no ha podido responder. Lo que documenta son discrepancias serias entre lo publicado y lo que queda en los archivos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que añadir que el problema de fondo que el artículo señalaba sí es real y sigue estudiándose: la fiabilidad de los diagnósticos psiquiátricos, medida entre profesionales distintos ante el mismo caso, ha sido durante décadas más baja de lo que uno esperaría. Eso no lo desmiente nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una diferencia que conviene marcar para no sacar la conclusión equivocada: que un diagnóstico sea poco fiable no significa que el sufrimiento no exista. Significa que la etiqueta con la que se nombra tiene bordes borrosos, que es un problema del mapa y no del territorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que la situación es esta, y es exactamente la de la novela: el problema existe, la prueba más famosa de que existe resultó ser poco fiable, y seguimos sin un procedimiento limpio para resolver el caso de alguien que dice que lo han encerrado por error.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ocho personas, doce hospitales, tres palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarenta y seis años después, dos identificados y un historial que no cuadra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la pregunta de la novela sigue intacta, que es lo peor de todo.",
+        },
+      ],
+    },
+    {
+      titulo: "Los internos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Si se le quita a la novela su enigma central, queda algo que muchos lectores recuerdan mejor que la trama: el catálogo de personas que viven en aquel hospital. Y ahí es donde los dieciocho días de Luca de Tena valen su peso, porque esos retratos no se sacan de una biblioteca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Están los que llaman los hombres de cera, que pasan el día inmóviles en una postura y a los que hay que mover como muebles. Están los que hablan sin parar sin dirigirse a nadie. Está el que ha aprendido a comportarse lo justo para que no le cambien de planta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sobre todo están los que son perfectamente capaces de mantener una conversación larga, culta y divertida sobre cualquier cosa que no sea el tema concreto en el que su cabeza se tuerce. Ese contraste es lo que más impresiona y lo que ninguna película consigue transmitir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque en una película eso dura dos minutos y en el libro dura capítulos. Uno se acostumbra a un personaje, le coge cariño, sigue su razonamiento con interés y de pronto llega la frase que revela dónde está el desvío. Y esa sacudida solo funciona si antes ha habido tiempo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Alice se hace amiga de varios y ahí la novela da su mejor material humano. Descubre que muchos internos entienden su situación con una lucidez feroz, que saben perfectamente dónde están y por qué, y que han hecho las paces con ello mejor que sus propias familias.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Uno de los hallazgos del libro es cómo funciona la jerarquía interna. Hay un orden social completo ahí dentro, con prestigios, alianzas, monedas de cambio y protecciones, tan complejo como el de cualquier oficina, y absolutamente invisible para el personal que entra y sale cada día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tabaco funciona como moneda, los sitios en el comedor tienen dueño, y hay gente con autoridad reconocida por todos que no aparece en ningún organigrama. Eso es exactamente lo que un visitante de una tarde no puede ver, y lo que dieciocho días sí dejan ver.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que trajo de dentro",
+          frase: "Que un hospital psiquiátrico no está lleno de gente que no razona. Está lleno de gente que razona muy bien sobre casi todo, y que en un punto concreto tiene el suelo torcido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay páginas duras y el libro no las esquiva. Los sujetadores mecánicos, el aislamiento, la medicación que deja a alguien con la mirada apagada, las visitas familiares que dejan de llegar. Y el hecho, dicho sin subrayar, de que muchos internos no tienen adónde ir aunque les den el alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese último punto es el más político del libro y el que menos se comenta. Buena parte de la población de aquellos hospitales no estaba allí solo por su diagnóstico: estaba porque no había familia que los recogiera, ni pensión, ni recurso intermedio. La psiquiatría hacía de asistencia social.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí es donde el libro apunta a algo que la reforma posterior no resolvió del todo. Cuando aquellos centros se cerraron, muchas de esas personas no encontraron ninguna estructura debajo, y ese hueco es un problema abierto en casi todos los países que hicieron la misma reforma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decirlo sin nostalgia, porque los grandes manicomios eran malos sitios y cerrarlos fue correcto. Lo que falló no fue el cierre: fue que la mitad de lo que había que construir en su lugar —pisos tutelados, equipos de calle, plazas de día— se construyó a medias o no se construyó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Toca ahora decir dónde falla la novela, porque falla en cosas concretas y hay que decirlas. La primera es la longitud: son más de seiscientas páginas y hay al menos cien que no aportan, con conversaciones que repiten una información que el lector ya tiene desde hace doscientas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es el melodrama del tramo final. Después de sostener durante quinientas páginas una ambigüedad de una finura extraordinaria, la resolución se apoya en recursos de folletín, con revelaciones encadenadas y escenas de alta temperatura que desentonan con lo anterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se le puede conceder que en 1979 esa era la manera de terminar una novela de gran público, y que el propio Luca de Tena venía del periodismo y del premio Planeta, no de la vanguardia. Aun así, el contraste entre la primera mitad y el desenlace es el defecto más visible del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la tercera es de fondo: el libro necesita que Alice Gould sea excepcional. Cultísima, políglota, brillantísima, elegante. Es una decisión eficaz para la trama, y hace que el lector no tenga que preguntarse nunca qué pasaría con alguien sin recursos, sin estudios y sin nadie fuera que llame.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa pregunta, que la novela no hace, es probablemente la más importante que se puede hacer sobre el asunto. El internamiento involuntario de una mujer brillante y bien vestida produce una novela. El de alguien sin voz no produce ninguna, y es el caso mucho más frecuente.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene mencionar también las dos películas, porque han traído lectores nuevos. La primera es de 1983 y hoy es difícil de encontrar. La segunda es de 2022, con Bárbara Lennie en el papel de Alice, y su estreno provocó que el libro volviera a agotarse cuarenta años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La adaptación reciente hace lo que suelen hacer las adaptaciones: comprime, agiliza y refuerza el componente de intriga. Funciona muy bien como película y pierde justo lo que hace grande al libro, que es la convivencia lenta con los internos y el tiempo que hay que pasar dudando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la diferencia entre dos horas y dos semanas, y no es un defecto de la película: es una limitación del formato. Una historia cuyo asunto es la duración de la duda no cabe en un metraje donde el espectador sabe que en noventa minutos le van a resolver la papeleta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien viene de la película al libro, lo que va a encontrar de más son esos capítulos que parecen no avanzar: comidas, patios, conversaciones sobre nada. Ahí es exactamente donde está el valor, y es lo que solo se puede escribir habiendo estado dentro dieciocho días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hombres inmóviles a los que hay que mover como muebles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y otros que discuten de literatura mejor que tu cuñado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el mismo pasillo y a la misma hora.",
+        },
+      ],
+    },
+    {
+      titulo: "Renglones torcidos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La novela acaba resolviendo la pregunta, y es una decisión valiente porque podía no haberlo hecho. Muchos libros con este planteamiento se quedan en la ambigüedad, que es la salida cómoda y la que deja al lector con la sensación de haber sido tratado con inteligencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Luca de Tena elige contestar, y la respuesta es la incómoda: la historia que Alice Gould cuenta durante seiscientas páginas no es cierta. La investigación no existe. El lector, que la ha creído a ratos y a ratos ha dudado, descubre que su instinto no valía nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene detenerse en esa humillación del lector, porque es deliberada y es el mismo truco que usa Sabato. Uno cierra el libro repasando en qué momento se dejó convencer, y comprueba que fue por lo mismo que convence siempre: porque el relato estaba bien construido y sonaba sincero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí está lo que hace grande el final, porque no es un simple giro de sorpresa. La revelación no invalida nada de lo que el libro ha ido diciendo sobre el problema. Que en este caso concreto el diagnóstico fuera correcto no significa que hubiera manera de saberlo, y de hecho no la había.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los médicos que acertaron no acertaron por un procedimiento fiable: acertaron. Y los que dudaron tenían buenas razones para hacerlo. La novela deja intacta su tesis: el problema no era Alice Gould, era que no existía ningún método capaz de resolver el caso de Alice Gould.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El último tramo del libro es además bastante desolador, y ahí Luca de Tena no le concede nada al lector. No hay reconciliación, no hay una vuelta a casa y no hay una lección que consuele. Hay un deterioro y una vida que se queda donde se ha quedado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle final que redondea la crueldad: el lector termina echando de menos a la Alice del principio, la brillante, la que llevaba la iniciativa. Es decir, echando de menos precisamente la versión de ella que resultó no ser cierta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El título, al final",
+          frase: "El refrán promete que Dios escribe derecho aunque los renglones estén torcidos. La novela mira los renglones torcidos durante seiscientas páginas y no encuentra la frase que estarían escribiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la lectura del título que el libro sostiene y que casi nadie explica. No es un consuelo religioso: es la constatación de que a algunas vidas les tocó lo que les tocó, y de que buscarle un sentido a eso es una necesidad del que mira, no una propiedad de lo mirado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene entonces volver al principio, al hombre de cincuenta y cinco años que se hizo ingresar dieciocho días. Porque la novela que escribió después trata exactamente de lo que a él no le pasó: de no poder salir. Él tenía un director de hospital que sabía la verdad y una fecha de alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su protagonista no tiene ninguna de las dos cosas. Y esa diferencia es lo que convierte un reportaje en una novela: el autor entró a mirar con la puerta abierta detrás, y escribió sobre lo que habría sido aquello mismo con la puerta cerrada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo contó alguna vez con una frase que vale para cualquier trabajo de campo: que lo importante no fue lo que vio, sino lo que dejó de parecerle raro a partir del cuarto día. La costumbre es la que enseña cómo es un sitio de verdad, y la costumbre necesita días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vale la pena poner el libro junto a los dos vecinos de esta biblioteca con los que mejor conversa. Con «El túnel», de Sabato, comparte el problema del narrador que razona demasiado bien. Y con «Crimen y castigo», la idea de que un razonamiento entero puede sostenerse sobre nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una tercera conexión menos evidente y más útil: «Sentirse bien», de David Burns, que también anda por aquí. Ese libro enseña a discutir con los propios pensamientos porque suelen estar torcidos. Este enseña que el método falla en el único caso en que uno no puede comprobarlo desde dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "¿Merece la pena leerlo hoy? Sí, con un aviso. Es largo, tiene páginas prescindibles y su psiquiatría es de hace medio siglo. Nada de lo que dice sobre tratamientos o diagnósticos debe tomarse como información actual: es una novela de 1979 y hay que leerla como tal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con un segundo aviso para quien tenga un familiar con un trastorno mental grave: este libro está construido sobre la posibilidad de que un diagnóstico sea un error, y esa premisa, leída en la situación equivocada, alimenta una esperanza que puede hacer daño a todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no ha envejecido es la pregunta. Cómo demostrarías, tú, hoy, que estás en tus cabales, si la persona que tiene que decidirlo ya ha leído un informe que dice lo contrario. La respuesta sigue siendo que no tienes ninguna prueba que aportar, y eso es lo que da miedo del libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese miedo es además el que hace que la gente se lo recomiende. Es de los pocos libros de los que un lector sale queriendo hablar con alguien inmediatamente, no por el final sino porque acaba de descubrir un agujero en algo que daba por sólido y necesita comprobar si le pasa a los demás.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Torcuato Luca de Tena murió en 1999, veinte años después de publicarlo, con una obra amplia de la que casi nadie recuerda nada más. Le pasó lo que a bastantes escritores: escribió muchos libros y quedó uno, y quedó el que se le ocurrió estando fuera de su despacho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Publicó novelas, ensayos, biografías y poesía, y dirigió un periódico durante trece años. De todo eso, lo que sigue reeditándose y agotándose son seiscientas páginas escritas a partir de dieciocho días en los que no hizo nada más que estar, mirar y apuntar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese es probablemente el consejo que deja su historia, dicho sin ninguna solemnidad. Se le ocurrió por haber ido a mirar de cerca durante dieciocho días algo que podría haber documentado por teléfono. Casi todo lo que hace bueno a este libro entró por ahí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entró voluntariamente y salió cuando quiso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió seiscientas páginas sobre no poder hacer ni lo uno ni lo otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dejó una pregunta que nadie ha contestado todavía.",
+        },
+      ],
+    },
+  ],
+};

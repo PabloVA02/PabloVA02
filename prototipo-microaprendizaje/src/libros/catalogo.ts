@@ -193,7 +193,7 @@ export const CATALOGO: Ficha[] = [
   { id: "rayuela", titulo: "Rayuela", autor: "Julio Cortázar", ano: 1963, categoria: "Literatura", estado: "escrito" },
   { id: "bernarda-alba", titulo: "La casa de Bernarda Alba", autor: "Federico García Lorca", ano: 1936, categoria: "Literatura", estado: "escrito" },
   { id: "el-tunel", titulo: "El túnel", autor: "Ernesto Sabato", ano: 1948, categoria: "Literatura", estado: "escrito" },
-  { id: "renglones-torcidos", titulo: "Los renglones torcidos de Dios", autor: "Torcuato Luca de Tena", ano: 1979, categoria: "Literatura", estado: "pendiente" },
+  { id: "renglones-torcidos", titulo: "Los renglones torcidos de Dios", autor: "Torcuato Luca de Tena", ano: 1979, categoria: "Literatura", estado: "escrito" },
 
   /* --- Psicología ------------------------------------------------------- */
   { id: "pensar-rapido", titulo: "Pensar rápido, pensar despacio", autor: "Daniel Kahneman", ano: 2011, categoria: "Psicología", estado: "escrito" },
