@@ -8769,3 +8769,651 @@ export const EXISTENCIALISMO_HUMANISMO: Resumen = {
     },
   ],
 };
+
+export const CONTRATO_SOCIAL: Resumen = {
+  id: "contrato-social",
+  titulo: "El contrato social",
+  autor: "Jean-Jacques Rousseau",
+  ano: 1762,
+  gancho:
+    "Lo quemaron en Ginebra y en París el mismo año de publicarse, y su autor tuvo que huir de tres países. Treinta años después, los revolucionarios franceses llevaron sus restos al Panteón en volandas.",
+  porQue:
+    "Porque de aquí sale la idea de que la ley solo obliga si la hemos hecho nosotros, que es el fundamento de cualquier democracia. Y porque casi todo lo que se le atribuye —el buen salvaje, la vuelta a la naturaleza, el gobierno de la mayoría— no está en el libro.",
+  partes: [
+    {
+      titulo: "Una frase que todo el mundo cita a medias",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro empieza con una de las frases más citadas de la historia del pensamiento: el hombre ha nacido libre, y por doquiera está encadenado. Cualquiera la ha oído. Prácticamente nadie ha leído la frase que viene inmediatamente después, y que es la que explica de qué va el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice así: tal se cree amo de los demás, y no deja de ser más esclavo que ellos. Es decir, no está hablando solo del oprimido. Está diciendo que en un orden ilegítimo también el que manda está atado, y que la esclavitud del amo es peor porque ni siquiera la ve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una tercera frase, todavía menos conocida, que es la que fija el propósito. Rousseau escribe que ignora cómo se produjo ese cambio, que no va a intentar averiguarlo, y que la única pregunta que se hace es otra: qué puede volverlo legítimo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahí está el libro entero en tres frases. No es una denuncia de las cadenas, ni una historia de cómo llegaron, ni una propuesta para quitárselas. Es una pregunta técnica: dado que vivimos en sociedad y no hay marcha atrás, ¿bajo qué condiciones obedecer no es humillante?",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se publicó en abril de 1762 en Ámsterdam, porque en Francia no se podía. Es un libro corto, de unas ciento cincuenta páginas, dividido en cuatro partes, escrito en una prosa seca y ordenada que no se parece nada al resto de la obra de su autor, mucho más apasionada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa sequedad es deliberada y conviene saberlo antes de abrirlo. Quien venga de haber oído hablar del Rousseau sentimental, el de la naturaleza y las lágrimas, se va a encontrar con algo más parecido a un texto jurídico: definiciones, distinciones y capítulos de dos páginas encadenados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reacción fue inmediata y brutal. En junio, el parlamento de París dictó una orden de detención contra él, y sus libros se quemaron públicamente. En Ginebra, su propia ciudad, el consejo condenó este libro y ordenó quemarlo también. Tuvo que huir esa misma semana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo de Ginebra le dolió más que lo de París, y se entiende. Firmaba sus libros como ciudadano de Ginebra, lo llevaba con orgullo en la portada y consideraba aquella república el modelo del que hablaba. Dos años después renunció formalmente a la ciudadanía y ya no volvió nunca.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta del libro",
+          frase: "No es cómo librarnos de la obediencia, sino cómo obedecer sin dejar de ser libres. Rousseau da por hecho que va a haber leyes; lo que discute es de dónde sacan su derecho a mandarte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir de dónde viene el que escribe esto, porque no es un profesor. Jean-Jacques Rousseau nació en Ginebra en 1712, su madre murió a los pocos días del parto y su padre, relojero, lo abandonó cuando él tenía diez años tras una pelea que acabó en juicio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo pusieron de aprendiz de grabador con un maestro que le pegaba, y a los dieciséis años se escapó de la ciudad porque volvió tarde y encontró las puertas cerradas. A partir de ahí vivió de lo que salía: criado, secretario, profesor de música, copista de partituras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No tuvo estudios universitarios ni patrimonio ni protector estable. Aprendió leyendo por su cuenta y discutiendo, y llegó tarde a todo: publicó su primer texto importante a los treinta y siete años, cuando Voltaire llevaba veinte siendo célebre en toda Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y siguió copiando partituras a mano toda la vida, incluso siendo famoso, porque quería un oficio que no dependiera de ningún protector. Es un detalle pequeño y explica bastante de su carácter: prefería la incomodidad de ganarse el pan a la comodidad de deberle algo a alguien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese primer texto salió de un episodio que él contó siempre igual. En 1749 iba andando a Vincennes a visitar a Diderot, que estaba preso, y leyó por el camino en una revista el tema de un concurso de la academia de Dijon: si el progreso de las ciencias y las artes había mejorado las costumbres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha contado que la pregunta le produjo una especie de vértigo, que tuvo que sentarse debajo de un árbol y que se levantó con la camisa mojada de lágrimas y con la idea de toda su obra ya montada. Ganó el concurso contestando que no, que las había empeorado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que Diderot le sugirió que defendiera esa postura precisamente porque era la contraria a la esperada y llamaría la atención. Rousseau lo negó después, pero el episodio es conocido, y deja abierta la posibilidad de que su carrera entera empezara con un consejo de marketing.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso lo convirtió de golpe en el heterodoxo del grupo. Todos los ilustrados sostenían que el conocimiento nos mejora; él dijo que no necesariamente, y se pasó el resto de la vida siendo el amigo incómodo de gente que en el fondo estaba en el bando contrario.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mismo año que este libro publicó otro mucho más largo y para él más importante: «Emilio», un tratado sobre educación. Y fue ese, y no este, el que provocó la orden de detención, por un capítulo sobre religión que a católicos y a protestantes les pareció igual de intolerable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de aquello vivió huyendo: Suiza, Prusia, Inglaterra invitado por el filósofo David Hume, con quien se peleó de forma escandalosa a los pocos meses, y de vuelta a Francia bajo nombre falso. Murió en 1778, once años antes de la Revolución que iba a invocarlo sin parar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los últimos años los pasó convencido de que existía una conspiración europea para difamarlo. Hay una parte de verdad en eso —lo perseguían de verdad y Voltaire conspiraba de verdad— y una parte de enfermedad, y separar las dos en sus últimos escritos es tarea imposible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora conviene empezar por lo que no dice, porque es la mitad del trabajo. De todos los filósofos famosos, Rousseau es probablemente al que más cosas se le atribuyen que no escribió, y la principal ni siquiera está en este libro sino en otro anterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre nace libre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el que manda está más atado que nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De la segunda mitad de la frase no se acuerda nadie, y es la buena.",
+        },
+      ],
+    },
+    {
+      titulo: "El buen salvaje que nunca escribió",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Si se le pregunta a cualquiera qué decía Rousseau, la respuesta será casi siempre la misma: lo del buen salvaje, que el hombre es bueno por naturaleza y lo corrompe la sociedad, y que había que volver a vivir en el bosque. Vamos por partes, porque de esas tres cosas hay una a medias y dos falsas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empecemos por la expresión. Buen salvaje no es suya. La frase noble salvaje aparece en una obra de teatro del inglés John Dryden de 1672, cuarenta años antes de que Rousseau naciera, y se le pegó a él mucho después, en el siglo diecinueve, y sobre todo como un insulto de sus críticos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso es un ejemplo perfecto de cómo funcionan estas cosas. La etiqueta se pega a un autor, se repite en manuales escolares, se usa para resumirlo en una línea, y al cabo de dos siglos nadie recuerda que hay que ir al texto a comprobar si la escribió. Casi nunca la escribió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vamos ahora con la idea. Está en otro libro, el «Discurso sobre el origen de la desigualdad», de 1755, siete años anterior a este. Y allí Rousseau describe efectivamente un estado de naturaleza en el que el hombre es solitario, sin lenguaje elaborado, sin propiedad y sin maldad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Pero en el prólogo de ese mismo libro dice, con todas las letras, que está hablando de un estado que ya no existe, que quizá no haya existido nunca y que probablemente no existirá jamás. Es decir: avisa expresamente de que se trata de una hipótesis de trabajo y no de una descripción histórica.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que está haciendo ahí es lo que hacen los físicos cuando calculan sin rozamiento: quitar todo lo que la sociedad ha añadido para ver qué queda, y así poder distinguir lo que es humano de lo que es histórico. Es un experimento mental, y él lo declara antes de empezar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el resultado del experimento es lo interesante: si al quitar la sociedad desaparecen la crueldad, la envidia y la humillación, entonces esas cosas no son parte de nuestra naturaleza sino resultados de cómo nos hemos organizado. Y lo que es resultado de una organización se puede cambiar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La corrección principal",
+          frase: "Nunca dijo que hubiéramos vivido así ni que hubiera que volver. Dijo que si quitas lo que la sociedad puso, la crueldad se va con ella. Eso es una afirmación sobre nosotros, no sobre el pasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la tercera parte, la de volver a la naturaleza, es la más claramente falsa de las tres, porque este libro sostiene exactamente lo contrario. Su primer capítulo da por hecho que el paso a la sociedad es irreversible y que la única pregunta sensata es cómo organizarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De hecho hay un pasaje en el que dice que el paso del estado natural al civil produce un cambio notable en el hombre, que sustituye el instinto por la justicia y que le da a sus actos una moralidad que antes no tenían. Es una defensa explícita de la vida en sociedad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribe incluso que aquel momento, pese a todo lo que se pierde, hay que celebrarlo, porque convierte a un animal estúpido y limitado en un ser inteligente y en un hombre. Cuesta imaginar una frase que contradiga más frontalmente la caricatura del ermitaño que quería volver al bosque.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí lamenta, y esto es distinto, es el momento concreto en que aquel paso se dio: dice que se hizo mal, deprisa y en beneficio de unos pocos, y que se podría haber hecho de otra manera. No echa de menos el bosque: echa de menos una versión mejor de la salida del bosque.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "¿De dónde sale entonces la caricatura? De Voltaire, en buena parte. Cuando recibió el discurso de 1755 le escribió una carta agradeciéndoselo y diciendo que leyéndolo le habían dado ganas de andar a cuatro patas, pero que como había perdido la costumbre hacía sesenta años no iba a poder.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un chiste buenísimo y es una tergiversación deliberada. Voltaire había entendido perfectamente lo que decía el libro y eligió contestar a lo que no decía, que es una técnica de polémica que sigue funcionando igual de bien y con la que Rousseau cargó ya para siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es además el mejor argumento a favor de leer los libros en vez de leer lo que se dice de ellos, y por eso esta ficha insiste tanto. Dos siglos y medio de resúmenes de segunda mano han producido un Rousseau que no existe, y bastan cuarenta páginas del original para deshacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La relación entre los dos merece una nota porque explica bastante de la mala prensa de Rousseau. Se detestaron durante veinte años, se escribieron cosas terribles y Voltaire tenía mucho más poder de influencia en los salones, en las academias y en la prensa de la época.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y llegó a hacer algo mucho peor que un chiste: en 1764 publicó anónimamente un panfleto revelando que Rousseau había abandonado a sus cinco hijos en el hospicio. Era verdad, y volveremos a ello al final, porque es la acusación más seria que tiene encima y no se puede despachar.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí sostiene Rousseau, y esto es lo que hay que quedarse de aquel discurso anterior, es una tesis sobre el origen de la desigualdad que sigue siendo discutida y potente: que no es natural, sino que empieza con la propiedad y con la comparación entre unos y otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tiene una frase famosa sobre eso: el primero que cercó un terreno y dijo esto es mío, y encontró gente lo bastante simple como para creerle, fue el verdadero fundador de la sociedad civil. Y añade cuántos crímenes se habrían ahorrado si alguien hubiera arrancado las estacas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Marx la leyó, y se nota. Buena parte del socialismo del siglo diecinueve entra por ahí, aunque Rousseau no habría reconocido a esos herederos: él pensaba en pequeños propietarios más o menos iguales, no en la abolición de la propiedad, y desconfiaba de cualquier concentración de poder.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar también aquí, porque se cita mal: no está pidiendo abolir la propiedad. En este libro la reconoce y la protege expresamente. Lo que dice es que no viene de la naturaleza sino de una convención, y que por tanto la sociedad puede legislar sobre ella. No es lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El buen salvaje es de un dramaturgo inglés de 1672.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La vuelta al bosque es de un chiste de Voltaire.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y este libro va de cómo vivir juntos, que era el asunto contrario.",
+        },
+      ],
+    },
+    {
+      titulo: "La voluntad general no es la mayoría",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El concepto central del libro es la voluntad general, y es a la vez su mejor idea y la más peligrosa que escribió. Empecemos por lo que no es, porque el malentendido está en todas partes: no es lo que quiere la mayoría, y Rousseau lo distingue expresamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él separa la voluntad de todos de la voluntad general. La primera es la suma de los intereses particulares: lo que le conviene a cada uno, sumado. La segunda es lo que quiere el cuerpo de ciudadanos cuando piensa como cuerpo y apunta al interés común.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia se entiende con un ejemplo doméstico. Si en una comunidad de vecinos se vota si arreglar el tejado, cada uno puede votar según lo que le cueste a él. Pero el tejado del edificio, o hay que arreglarlo o no, y esa pregunta tiene una respuesta que no depende de a quién le apetezca pagar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rousseau añade una condición práctica para que esa distinción funcione y es de las más olvidadas: dice que para que aparezca la voluntad general conviene que no haya facciones organizadas dentro del cuerpo de ciudadanos, porque entonces cada facción vota como cuerpo y no como parte del todo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De ahí sale una consecuencia incómoda que él acepta sin pestañear: una mayoría puede equivocarse sobre la voluntad general. La votación es un procedimiento para averiguarla, no la cosa misma, igual que un termómetro mide la fiebre y no la fabrica.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea tiene una versión muy respetable: significa que el interés común existe, que se puede acertar o fallar al identificarlo, y que la política no es solo una negociación entre apetencias. Es la base de cualquier apelación a lo que le conviene al país por encima de los partidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene además una consecuencia práctica que se usa a diario sin saber de dónde viene: la idea de que hay decisiones que no deberían tomarse por mayoría simple, y de que existen mínimos que ninguna votación puede tocar. Eso es voluntad general con otro nombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene una versión terrible, que es la que abrió la puerta a doscientos años de acusaciones. Si la voluntad general puede no coincidir con lo que vota la gente, entonces alguien puede decir que la conoce mejor que la propia gente que ha votado. Y esa figura tiene nombre en la historia.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase que le costó la fama",
+          frase: "Quien se niegue a obedecer a la voluntad general será obligado por todo el cuerpo, lo cual no significa otra cosa sino que se le forzará a ser libre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase está en el libro primero, capítulo siete, y es probablemente la más comentada de toda la filosofía política. Forzar a alguien a ser libre suena a la definición misma de la tiranía moderna, y así se ha leído durante buena parte del siglo veinte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene contar qué significa en su contexto, sin que eso sea una absolución. Rousseau está hablando del que quiere las ventajas del pacto y no sus cargas: el que quiere carreteras y no quiere pagar impuestos, el que quiere seguridad y no quiere cumplir la ley. A ese se le obliga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho de otro modo: la frase se refiere al que quiere ser ciudadano cuando cobra y particular cuando paga. Rousseau observa que si se le permite eso a uno, el pacto entero se deshace, porque nadie tiene motivo para cumplir lo que el vecino puede saltarse. Es un argumento de estabilidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su argumento es que al obligarlo no se le está sometiendo a nadie, porque la ley que se le aplica es una que él mismo, como ciudadano, ha contribuido a hacer. Se le obliga a obedecerse a sí mismo, y de ahí la fórmula. Dicho así es bastante menos siniestro y bastante más discutible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema evidente es qué pasa cuando alguien no participó, o participó y perdió, o simplemente cree que la ley es injusta. Rousseau tiene respuestas para eso y no son sus mejores páginas: viene a decir que el que votó en contra y perdió descubre así que se había equivocado sobre la voluntad general.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1952, el historiador Jacob Talmon publicó un libro que fijó la acusación durante décadas: que de aquí sale lo que él llamó la democracia totalitaria, la idea de que existe una verdad política única y que quien no la ve debe ser corregido. Y traza la línea hasta el jacobinismo y más allá.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene situar ese libro para leerlo bien: se publicó en 1952, en plena guerra fría, escrito por un historiador israelí que trabajaba en Londres, y forma parte de un esfuerzo intelectual de la época por encontrarle a los totalitarismos una genealogía en la Ilustración. Tenía sus motivos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Bertrand Russell fue más lejos y escribió, en 1945, que Hitler era un resultado de Rousseau. Es una frase que se cita mucho, y conviene saber que la escribió el mismo año en que acababa la guerra, en un libro de divulgación, y que a los especialistas les parece una barbaridad.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La defensa de los estudiosos, desde los años sesenta, se apoya en cosas que están en el propio texto y que Talmon dejó fuera. La primera y más importante: Rousseau insiste en que el soberano no puede legislar nunca sobre casos particulares. Solo puede dictar leyes generales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y da la razón, que es buena: como la ley tiene que aplicarse a todos por igual, nadie puede cargarla contra un individuo sin cargársela también a sí mismo. La generalidad de la ley es, en su sistema, la garantía técnica contra la opresión, y es una idea que sigue en pie en cualquier constitución.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es exactamente el mecanismo que hace que las leyes ad hominem, las hechas para un caso y una persona, se consideren hoy un abuso incluso cuando las aprueba una mayoría amplísima. Quien defienda eso está usando el argumento de Rousseau, lo sepa o no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance honesto es este: el texto permite las dos lecturas y él no cerró la puerta a la mala. Escribió una fórmula peligrosísima y una salvaguarda seria en el mismo libro, y doscientos años de historia se han encargado de demostrar cuál de las dos se cita cuando conviene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una mayoría puede equivocarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es evidentemente cierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y es también la puerta por la que entran todos los que dicen saberlo mejor.",
+        },
+      ],
+    },
+    {
+      titulo: "El pueblo inglés cree ser libre",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay un pasaje del libro tercero que da un vuelco a lo que casi todo el mundo cree sobre este autor. Rousseau escribe que el pueblo inglés cree ser libre y se engaña mucho: que lo es solamente durante la elección de los miembros del parlamento, y que en cuanto son elegidos vuelve a ser esclavo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es una boutade. Es una posición razonada y radical: la soberanía no se puede representar, igual que no se puede transferir. Un diputado no puede querer por ti, porque querer es un acto que solo puede hacer el que quiere. Lo que un representante hace es otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento se apoya en una distinción sencilla: se puede delegar la fuerza, que es un instrumento, pero no la voluntad, que no lo es. Puedo mandar a alguien a que ejecute lo que yo he decidido; no puedo mandar a alguien a que decida por mí y seguir llamando mía a esa decisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca la conclusión que lo separa de casi toda la tradición liberal posterior: que toda ley que el pueblo no haya ratificado en persona es nula, y no es ley. Aplicado literalmente, eso invalida el sistema político de prácticamente todos los países del mundo actual.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Por eso insiste tanto en el tamaño. Su modelo solo funciona en Estados pequeños, donde los ciudadanos puedan reunirse de verdad: Ginebra, alguna ciudad italiana, Córcega. Escribió incluso proyectos constitucionales concretos para Córcega en 1765 y para Polonia en 1772.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso convierte el libro en algo distinto de lo que se suele decir. No es el manual de la democracia representativa moderna: es, en buena parte, una objeción anticipada contra ella. Los que lo citan en un parlamento están citando a alguien que consideraba ilegítimo ese parlamento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su objeción no ha desaparecido: reaparece cada vez que alguien pide referendos, presupuestos participativos o mandatos revocables. Todo eso es Rousseau discutiendo con el sistema representativo, doscientos sesenta años después y con el mismo argumento exacto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La distinción que casi nadie conoce",
+          frase: "Separa soberanía de gobierno. La soberanía es del pueblo siempre y no se delega. El gobierno es solo una administración a la que se le encarga ejecutar, y puede tener la forma que convenga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción es probablemente lo más útil del libro y la que menos se cita. Permite decir a la vez dos cosas que parecen contradictorias: que la única fuente legítima de la ley es el conjunto de los ciudadanos, y que administrar un país es un oficio técnico que no todo el mundo sabe hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lleva a una afirmación que sorprende a cualquiera que lo tenga por demócrata radical: escribe que si hubiera un pueblo de dioses se gobernaría democráticamente, y que un gobierno tan perfecto no conviene a los hombres. La democracia como forma de gobierno le parece impracticable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que prefiere para gobernar es lo que llama aristocracia electiva: que el pueblo soberano elija a los más capaces para administrar, sin dejar de ser él quien hace las leyes. Es una posición mucho más matizada de lo que sugiere su fama, y es la que sostienen hoy la mayoría de las repúblicas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También dedica páginas a por qué cada forma de gobierno conviene a un tamaño distinto de país, con un razonamiento que hoy suena a manual de organizaciones: cuanto más grande es el cuerpo, más fuerza hace falta para moverlo, y más se aleja el que manda del que obedece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otra pieza del libro que conviene conocer y que es de una rareza notable: la figura del legislador. Rousseau sostiene que un pueblo no puede darse a sí mismo sus primeras leyes, porque para hacer buenas leyes hace falta ya el espíritu que solo las buenas leyes producen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su solución a esa paradoja es traer de fuera a un hombre extraordinario, sin cargo ni poder, que redacte la constitución y se marche. Pone de ejemplo a Licurgo en Esparta y a Calvino en Ginebra. Es la página más antigua y más incómoda del libro, y también la más honesta sobre su propio problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Incómoda porque, mírese como se mire, ahí hay un sabio de fuera diciéndole a un pueblo cuáles son sus leyes buenas. Rousseau lo blinda insistiendo en que ese legislador no manda, no vota y no ocupa ningún cargo, pero el hueco por el que entra un iluminado queda abierto en el texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora hay que llegar al capítulo que no se cita casi nunca y que es el peor del libro con diferencia: el penúltimo, sobre la religión civil. Ahí Rousseau propone un credo cívico mínimo —la existencia de Dios, la vida futura, el castigo de los injustos y la santidad del contrato social.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y añade lo que hay que hacer con quien no lo acepte. Escribe que el soberano puede desterrarlo, no por impío sino por insociable. Y que quien haya profesado públicamente ese credo y después se comporte como si no creyera en él debe ser castigado con la muerte.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa página existe, está en el libro cuarto capítulo octavo, y no hay manera decente de defenderla. Es exactamente el tipo de cosa que sus peores lectores usaron después, y viene firmada por él, en el mismo volumen donde defiende que la libertad es inalienable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tiene además una ironía histórica considerable: fue precisamente ese capítulo el que puso a todo el mundo en su contra a la vez. A los católicos les pareció una religión inventada; a los protestantes de Ginebra, una herejía; y a los ilustrados, una intromisión del Estado en la conciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su intención era la contraria a la que produjo. Quería resolver un problema real de su época —que las lealtades religiosas partían a los ciudadanos en bandos irreconciliables— y su solución fue inventar una fe común y obligatoria, que es exactamente el error que quería evitar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el libro real, con las dos cosas dentro. Una teoría de la legitimidad que sigue siendo el fundamento de cualquier constitución democrática, y ocho páginas proponiendo el destierro y la pena de muerte por motivos de creencia. Contarlo sin la segunda parte es contarlo mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Solo eres libre el día que votas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resto de los cuatro años, según él, no lo eres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quien lo cite en un parlamento está citando a su crítico.",
+        },
+      ],
+    },
+    {
+      titulo: "Los cinco niños del hospicio",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Queda la parte que no se puede saltar. Rousseau tuvo cinco hijos con Thérèse Levasseur, la mujer con la que convivió treinta años, y llevó a los cinco, uno tras otro según iban naciendo, al hospicio de niños expósitos de París. No conoció a ninguno y nunca los buscó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La mortalidad en aquellos hospicios era espantosa. Las estimaciones de la época hablan de que la mayoría de los niños ingresados no llegaba al año de vida. Él lo sabía, o podía saberlo, porque era información disponible y comentada en el París de entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mismo hombre publicó en 1762 el tratado sobre educación más influyente que se ha escrito, doscientas páginas sobre cómo criar a un niño respetando su naturaleza, con instrucciones sobre la lactancia, el juego, los castigos y el momento adecuado para cada aprendizaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no es un libro menor ni una curiosidad: de ahí salen la idea de que la infancia es una etapa con valor propio y no un ensayo de la vida adulta, la insistencia en aprender haciendo y la desconfianza hacia la instrucción memorística. Media pedagogía moderna arranca en esas páginas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa contradicción no la sacó a la luz un enemigo suyo: la reconoció él. La contó en sus «Confesiones», con detalle y sin buscar demasiadas excusas, y volvió sobre ella varias veces en sus últimos años, siempre con una mezcla de justificación y de remordimiento que no convence a nadie.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus explicaciones son las que cabía esperar y no valen: que no tenía dinero, que la familia de ella era un desastre, que en el hospicio recibirían una educación de trabajadores mejor que la que él podía darles. Voltaire ya se había encargado de hacerlo público en 1764 para hundirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir además que era una práctica frecuente en el París de entonces y que miles de niños entraban cada año en aquel hospicio. Eso explica el contexto y no le sirve a él de nada, porque el asunto no es que hiciera algo insólito, sino que escribió el libro que escribió.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué hacer con eso",
+          frase: "No invalida el argumento de este libro, porque un argumento no depende de quién lo firma. Pero cualquiera que lo cite como maestro de vida está citando a alguien que no cumplió lo más básico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción merece un momento porque vale para toda esta biblioteca. La validez de un razonamiento no depende de la conducta del que lo formula: si dos más dos son cuatro, lo son aunque lo diga un canalla. Y a la vez, un autor que se presenta como guía moral se somete a otra vara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rousseau se presentaba exactamente así. Su obra entera se apoya en su propia sinceridad: escribió unas confesiones para mostrarse entero, sostuvo que su virtud era no fingir, y basó su autoridad en ser el único que decía la verdad sobre sí mismo. Con ese planteamiento, esto le cae encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin embargo hay algo que reconocerle, y es raro entre autores célebres: lo contó él. Pudo haberse callado, porque el asunto no era público con certeza, y en lugar de eso lo escribió con nombres y fechas en un libro que iba a leer toda Europa. Eso no lo arregla y merece constar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una segunda cuenta pendiente y es distinta. En «Emilio» dedica el último libro a la educación de Sofía, la futura mujer del protagonista, y ahí sostiene que la mujer debe formarse para agradar al hombre, serle útil y hacerle la vida agradable. Es un capítulo indefendible y muy influyente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mary Wollstonecraft escribió en 1792 su «Vindicación de los derechos de la mujer» discutiendo con ese capítulo página por página, y a partir de ahí la crítica ha sido constante. En esta biblioteca está «El segundo sexo», de Beauvoir, que hereda directamente aquella discusión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin embargo el libro que estamos resumiendo hizo lo que hizo. Once años después de morir su autor, la Revolución francesa se apropió de él: la Declaración de los Derechos del Hombre define la ley como expresión de la voluntad general, que es literalmente su vocabulario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Robespierre lo veneraba y se declaraba discípulo suyo. En 1794 los revolucionarios trasladaron sus restos al Panteón de París en una ceremonia multitudinaria, y desde entonces está enterrado a pocos metros de Voltaire, que había pasado veinte años intentando destruirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena tiene su gracia y también su lección: dos hombres que se odiaron en vida acabaron convertidos en las dos columnas del mismo panteón nacional, porque un país que necesitaba fundadores los necesitaba a los dos. La posteridad rara vez respeta las enemistades de nadie.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Conviene sin embargo no cargarle el Terror, que es lo que hace la lectura conservadora. Murió en 1778, no vio nada de aquello, y en este mismo libro advierte contra los cambios violentos y dice que los pueblos, como los hombres, solo son dóciles en la juventud.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí es cierto es que le dio a la Revolución un vocabulario que servía para justificar cualquier cosa en nombre de una voluntad general que solo unos pocos sabían interpretar. Eso no es responsabilidad suya, pero está en el material que dejó, y él no puso el seguro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "¿Qué queda hoy? Queda la idea que sostiene todo lo demás: que ninguna autoridad es legítima si no descansa en el acuerdo de los que la obedecen. Antes de esto, el poder venía de Dios, de la sangre o de la conquista. Después de esto, hay que explicar por qué manda uno, y eso ya no se ha ido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene ver la diferencia con «El príncipe», que anda por esta biblioteca. Maquiavelo explica cómo conservar el poder dando por hecho que ya lo tienes. Rousseau se hace la pregunta anterior, la que Maquiavelo se salta: por qué tendría nadie que obedecerte, para empezar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y queda, para leerlo bien, la instrucción de siempre. Cien páginas, dos tardes, y con las tres precauciones puestas: que no es un demócrata en nuestro sentido, que su voluntad general es un arma cargada, y que el capítulo de la religión civil está ahí y hay que leerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió el mejor tratado de educación de la historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llevó a sus cinco hijos al hospicio según iban naciendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos cosas son verdad y hay que decirlas en el mismo párrafo.",
+        },
+      ],
+    },
+  ],
+};

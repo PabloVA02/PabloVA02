@@ -98,7 +98,7 @@ export const CATALOGO: Ficha[] = [
   { id: "etica-nicomaco", titulo: "Ética a Nicómaco", autor: "Aristóteles", ano: -340, categoria: "Filosofía", estado: "escrito" },
   { id: "apologia-socrates", titulo: "Apología de Sócrates", autor: "Platón", ano: -399, categoria: "Filosofía", estado: "escrito" },
   { id: "discurso-metodo", titulo: "Discurso del método", autor: "René Descartes", ano: 1637, categoria: "Filosofía", estado: "escrito" },
-  { id: "contrato-social", titulo: "El contrato social", autor: "Jean-Jacques Rousseau", ano: 1762, categoria: "Filosofía", estado: "pendiente" },
+  { id: "contrato-social", titulo: "El contrato social", autor: "Jean-Jacques Rousseau", ano: 1762, categoria: "Filosofía", estado: "escrito" },
   { id: "mas-alla-bien-mal", titulo: "Más allá del bien y del mal", autor: "Friedrich Nietzsche", ano: 1886, categoria: "Filosofía", estado: "pendiente" },
   { id: "existencialismo-humanismo", titulo: "El existencialismo es un humanismo", autor: "Jean-Paul Sartre", ano: 1946, categoria: "Filosofía", estado: "escrito" },
   { id: "segundo-sexo", titulo: "El segundo sexo", autor: "Simone de Beauvoir", ano: 1949, categoria: "Filosofía", estado: "escrito" },
