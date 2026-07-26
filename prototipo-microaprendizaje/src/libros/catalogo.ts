@@ -150,7 +150,7 @@ export const CATALOGO: Ficha[] = [
   { id: "vidas-vasari", titulo: "Las vidas de los más excelentes pintores, escultores y arquitectos", autor: "Giorgio Vasari", ano: 1550, categoria: "Arte", estado: "pendiente" },
   { id: "espiritual-arte", titulo: "De lo espiritual en el arte", autor: "Vasili Kandinsky", ano: 1911, categoria: "Arte", estado: "pendiente" },
   { id: "reproductibilidad", titulo: "La obra de arte en la época de su reproductibilidad técnica", autor: "Walter Benjamin", ano: 1936, categoria: "Arte", estado: "pendiente" },
-  { id: "heroe-mil-caras", titulo: "El héroe de las mil caras", autor: "Joseph Campbell", ano: 1949, categoria: "Arte", estado: "pendiente" },
+  { id: "heroe-mil-caras", titulo: "El héroe de las mil caras", autor: "Joseph Campbell", ano: 1949, categoria: "Arte", estado: "escrito" },
   { id: "el-elemento", titulo: "El elemento", autor: "Ken Robinson", ano: 2009, categoria: "Arte", estado: "pendiente" },
 
   /* --- Literatura ------------------------------------------------------- */
