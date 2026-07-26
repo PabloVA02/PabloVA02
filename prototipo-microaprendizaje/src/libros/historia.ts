@@ -10821,3 +10821,653 @@ export const HOMO_SOVIETICUS: Resumen = {
     },
   ],
 };
+
+export const AUSCHWITZ_REES: Resumen = {
+  id: "auschwitz-rees",
+  titulo: "Auschwitz: los nazis y la solución final",
+  autor: "Laurence Rees",
+  ano: 2005,
+  gancho:
+    "En mayo de 1940, el sitio era un cuartel abandonado en un pueblo polaco de doce mil habitantes y estaba pensado para presos políticos polacos. Nadie que estuviera allí aquel día había planeado lo que vendría después, y ese es exactamente el argumento del libro.",
+  porQue:
+    "Porque explica, paso a paso y con fechas, cómo se llegó hasta allí sin que exista una sola orden firmada; y porque corrige de raíz las dos cosas que casi todo el mundo cree: la cifra de la placa y la idea de que Auschwitz es donde murió la mayoría.",
+  partes: [
+    {
+      titulo: "Un cuartel de artillería en un pueblo polaco",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El 4 de mayo de 1940, Rudolf Höss toma posesión de un antiguo cuartel de artillería en Oświęcim, un pueblo de la Alta Silesia recién anexionada por Alemania. Hay veinte edificios de ladrillo, unas cuadras y un terreno pantanoso entre dos ríos. Los alemanes lo llaman Auschwitz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pueblo tenía unos doce mil habitantes y más de la mitad eran judíos: había comunidad allí desde el siglo dieciséis, con su sinagoga y sus comercios. Los alemanes los deportaron a los guetos de la zona en 1941, de modo que cuando el campo empezó a matar judíos, en el pueblo ya no quedaba ninguno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La elección del sitio no tuvo nada que ver con el aislamiento, que es lo que suele suponerse. Oświęcim era un nudo ferroviario importante, con líneas hacia Viena, Cracovia y Katowice, y eso es lo que Höss alegó como ventaja principal. La geografía que lo condenó fue la de los raíles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Höss llega con treinta presos alemanes trasladados desde Sachsenhausen. No son políticos: son delincuentes comunes, y llevan el triángulo verde. Reciben los números del uno al treinta y se convierten en los primeros capos, es decir, en la administración interna del campo sobre los presos que aún no han llegado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene saber quién era él, porque no era un fanático de mitin. Había estado en la cárcel cinco años por un asesinato político en los años veinte, luego se metió en un movimiento de colonos agrarios, y entró en las SS en 1934. Vivía con su mujer y sus cinco hijos en una casa pegada al muro del campo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese detalle organiza toda la vida del sitio y conviene retenerlo. El campo no lo gobiernan directamente los SS, que son pocos: lo gobiernan presos elegidos por los SS, con poder sobre la comida, el trabajo y el castigo. Delegar la violencia hacia abajo fue una decisión administrativa, no un accidente.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 14 de junio de 1940 llega el primer transporte: setecientos veintiocho presos políticos polacos procedentes de la cárcel de Tarnów. Son estudiantes, militares, miembros de la resistencia. Ni uno solo de ellos es judío, y esa frase resume para qué se había creado el campo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquello formaba parte de una operación que se estaba ejecutando en toda Polonia esa misma primavera: detener y eliminar a profesores, curas, oficiales, abogados y periodistas, es decir, a quien pudiera organizar a un país. Miles fueron fusilados en bosques cerca de Varsovia y otros miles acabaron en campos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre la puerta del campo original se colocó un rótulo de hierro forjado que decía que el trabajo hace libre. Lo hicieron presos herreros polacos en el taller del campo, y uno de ellos soldó la letra be del revés. Sigue así, y es la única forma de protesta que quedó en pie.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Para qué se hizo",
+          frase: "Auschwitz se abrió como campo de concentración para la élite polaca, dentro de un plan de descabezar a un país ocupado. La palabra judío no aparece en su expediente fundacional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el argumento central de Laurence Rees y es lo que distingue este libro de casi todo lo que se ha escrito para el gran público: el camino hasta la cámara de gas no fue recto. Se llegó por etapas, cada una improvisada sobre la anterior, y cada etapa la propuso alguien concreto en una fecha concreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contra eso está la imagen popular, que es la de un plan escrito de antemano y ejecutado con precisión alemana. Rees dedica el libro a demostrar que esa imagen, además de falsa, es cómoda: convierte lo ocurrido en una maquinaria y deja fuera a las personas que tomaron cada decisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer año de Auschwitz fue un campo de trabajo con una mortalidad altísima por hambre, tifus y palizas, no un centro de exterminio. Los presos morían por decenas cada día y sus muertes se registraban una a una, con causa inventada, en actas que se enviaban a las familias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese papeleo, que hoy parece absurdo, es una de las razones por las que sabemos tanto. La administración alemana anotaba entradas, salidas, traslados y defunciones con una minuciosidad de oficina, y buena parte de esos registros sobrevivió porque no dio tiempo a quemarlos todos en enero de 1945.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que convirtió aquel sitio en otra cosa fue una decisión industrial. La IG Farben eligió Oświęcim para levantar una fábrica de caucho sintético, atraída por el carbón, el agua de tres ríos y la mano de obra gratis del campo. La empresa pagaba a las SS por preso y día.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquello cambió la escala. Alrededor de la fábrica se construyó un campo entero, Monowitz, y con él la lógica de que un preso valía por lo que rendía y dejaba de valer cuando ya no rendía. Primo Levi, que estuvo allí como químico, describió ese campo desde dentro en «Si esto es un hombre».",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene tener claro desde el principio que Auschwitz no es un campo, sino tres, más una cuarentena de subcampos repartidos por la comarca. El original de ladrillo, el enorme de Birkenau a tres kilómetros, y el industrial de Monowitz junto a la fábrica. Cada uno tuvo una función distinta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quién escribe esto importa. Laurence Rees no es historiador de formación sino documentalista de la BBC, y este libro acompaña a una serie de televisión de seis capítulos. Trabajó quince años en el asunto y entrevistó a más de cien testigos, verdugos incluidos, para las cámaras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene saber qué no es este libro, porque decepciona a quien busca otra cosa. No es un testimonio de superviviente ni una historia general del Holocausto: es la biografía de un lugar concreto, desde el día en que se abrió hasta el día en que lo evacuaron, con los que decidieron cada paso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso explica sus virtudes y también sus límites, y él lo dice: no hay aquí hallazgos de archivo nuevos. Lo que hay es una síntesis, apoyada en el trabajo de los historiadores del museo y de los grandes especialistas, con las voces de quienes estuvieron encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en 2005, coincidiendo con los sesenta años de la liberación, y llegó en un momento preciso: la última ventana en la que todavía se podía entrevistar a gente que había estado allí de uno u otro lado. Diez años más tarde ya no habría sido posible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un cuartel vacío entre dos ríos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Setecientos veintiocho polacos y ningún judío en el primer tren.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo lo demás vino después, y vino a trozos.",
+        },
+      ],
+    },
+    {
+      titulo: "Nadie encontró la orden firmada",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En septiembre de 1941, en el sótano del bloque 11 del campo original, los SS prueban un método nuevo. Encierran allí a unos seiscientos prisioneros de guerra soviéticos y a unos doscientos cincuenta enfermos, sellan las puertas y echan dentro un pesticida que el campo ya tenía para desinfectar barracones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El producto se llamaba Zyklon B y era ácido cianhídrico absorbido en gránulos. No se inventó para matar personas: se usaba desde los años veinte contra los piojos, y en Auschwitz había existencias porque el tifus era el enemigo principal de la administración del campo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo suministraba una empresa de Hamburgo que también vendía el servicio de desinfección. Su dueño fue juzgado por los británicos en 1946 y ahorcado, porque se demostró que sabía para qué se usaban aquellos pedidos: la cantidad encargada por un campo no se parecía a la de ningún cliente normal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La idea, según la reconstrucción que hace Rees, no fue de Höss sino de su segundo, Karl Fritzsch, que probó por su cuenta mientras el comandante estaba de viaje. Es un detalle pequeño y significa mucho: la innovación decisiva vino de un mando intermedio buscando resolver un problema práctico.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La fuente principal sobre todo esto son las memorias que Höss escribió en una celda polaca en 1946, esperando a que lo ahorcaran, y hay que leerlas con cuidado. Son detalladas y hasta cierto punto sinceras, y a la vez colocan mal varias fechas decisivas, siempre en la dirección que a él le convenía.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quién propuso qué",
+          frase: "Casi ninguna de las decisiones que hicieron posible aquello bajó firmada desde arriba. Subieron desde abajo, propuestas por gente que quería quedar bien con lo que creía que se esperaba de ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En octubre de 1941 empieza a construirse Birkenau, el campo inmenso que todo el mundo tiene en la cabeza. Y aquí está uno de los datos que más cuesta creer: se proyectó para cien mil prisioneros de guerra soviéticos, no para judíos. Iba a ser un campo de trabajo para el frente del este.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegaron unos diez mil soviéticos a levantarlo con las manos en pleno invierno polaco. En la primavera siguiente quedaban unos pocos cientos vivos. Ese campo, el de las fotografías, lo construyeron y lo pagaron con su vida hombres que no aparecen casi nunca en el relato popular.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su caso no fue una excepción del campo, sino la norma de aquella guerra. De los casi seis millones de soldados soviéticos capturados por Alemania murieron más de tres millones, en su mayoría de hambre y frío en recintos al aire libre. Es el segundo crimen en volumen del régimen y casi no se menciona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conversión en centro de exterminio ocurre en 1942 y empieza con dos casas de campo. Los SS compraron dos granjas de colonos polacos en el bosque junto a Birkenau, tapiaron las ventanas y las llamaron el búnker uno y el búnker dos; en el campo se las conocía por el color, la casita roja y la blanca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El método tampoco se inventó allí, y este es el eslabón que más cuesta encontrar en los resúmenes. Venía del programa con el que el régimen había asesinado con gas a unos setenta mil enfermos mentales y discapacitados alemanes entre 1939 y 1941, dentro de sus propios hospitales.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquel programa se paró oficialmente en agosto de 1941 porque hubo protestas dentro de Alemania, incluida la de un obispo que lo denunció desde el púlpito y cuyo sermón circuló copiado. Es el dato más incómodo de todos: cuando hubo protesta pública, el régimen retrocedió.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no se paró fue el personal. Los técnicos de aquel programa, con su experiencia en gas y en incineración, fueron enviados al este a montar los campos de exterminio del este de Polonia. La continuidad no es una teoría: son las mismas personas cambiando de destino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cuatro crematorios que la gente imagina, con sus salas subterráneas y sus chimeneas, no funcionaron hasta 1943. Es decir: cuando ya llevaba un año matándose a escala industrial, la instalación se hacía en dos casas de labranza reformadas. La imagen de fábrica planificada llegó tarde y llegó después de los hechos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En medio de todo eso está la reunión que se ha convertido en símbolo, y es donde el libro corrige uno de los errores más extendidos. El 20 de enero de 1942, quince altos funcionarios se reunieron en una villa junto al lago Wannsee, en Berlín, durante hora y media.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Wannsee no decidió el exterminio. Cuando aquellos hombres se sentaron a la mesa, los fusilamientos masivos en el este llevaban medio año y el primer centro de exterminio, Chełmno, funcionaba desde diciembre. La reunión sirvió para coordinar ministerios y para dejar claro quién mandaba en el asunto.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del acta se hicieron treinta copias y desaparecieron todas menos una, encontrada en 1947 entre papeles del Ministerio de Exteriores. Está escrita en un lenguaje administrativo cuidadoso, con eufemismos, y esa es precisamente la prueba de lo que se estaba tratando: nadie escribe en clave lo que se puede decir en claro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El vocabulario merece un momento, porque fue una herramienta y no un adorno. Reasentamiento en el este, tratamiento especial, solución final: cada expresión permitía firmar un documento sin escribir lo que se estaba firmando, y permitía también que quien lo firmaba se lo contara a sí mismo de otra manera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y falta la pieza que todos los historiadores han buscado durante ochenta años: la orden escrita de Hitler ordenando el exterminio de los judíos europeos. No existe, no ha aparecido, y casi con seguridad nunca se escribió. Los negacionistas se agarran a esa ausencia como si fuera una absolución.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta de Rees, que es la de la historiografía seria, es que el sistema no funcionaba con órdenes escritas. Hitler marcaba la dirección en discursos y en conversaciones, y sus subordinados competían por adivinar y adelantar lo que él querría, lo que producía una radicalización que iba siempre a más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y es justo decir que esto es una posición dentro de un debate, no un hecho cerrado. Hay historiadores que sostienen que la decisión fue mucho más centralizada y datable de lo que Rees admite. Lo que ya casi nadie defiende es la versión simple de un plan trazado en 1933 y ejecutado sin cambios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hubo un día en que alguien decidiera esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo cuatro años de decisiones pequeñas que nadie desanduvo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es la parte que no consuela, porque no exige monstruos.",
+        },
+      ],
+    },
+    {
+      titulo: "La cifra de la placa",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Durante cuarenta y cinco años, en el monumento del final de las vías de Birkenau hubo unas placas que decían que allí habían muerto cuatro millones de personas. Millones de visitantes las leyeron. Esa cifra era falsa y hay que explicar exactamente de dónde salía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La calculó una comisión soviética en mayo de 1945, semanas después de la liberación, estimando la capacidad teórica de los hornos y multiplicándola por los días de funcionamiento. Es un método que da un techo máximo imposible, no un recuento, y encajaba además con el interés político de agrandar la cifra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Había además un motivo político para no afinar. En la versión soviética, las víctimas de Auschwitz eran ciudadanos de países ocupados y no judíos en tanto que judíos, y durante décadas los carteles del museo hablaron de víctimas del fascismo sin decir quiénes eran la inmensa mayoría de ellas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "De dónde salían los cuatro millones",
+          frase: "De multiplicar la capacidad máxima de los hornos por los días que estuvieron encendidos. No de contar a nadie. Las placas se retiraron en 1990 y las nuevas dicen millón y medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El recuento serio lo hizo el historiador Franciszek Piper, del museo estatal, cruzando listas de deportación de cada país, horarios de trenes, registros del campo y censos de posguerra. Su resultado, publicado a principios de los noventa y aceptado hoy por todo el mundo, es de al menos un millón cien mil muertos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una razón técnica por la que contar aquí es tan difícil, que explica de paso una imagen conocida. Solo se registró y se tatuó a unas cuatrocientas mil personas: las seleccionadas para trabajar. Los demás, cerca de novecientas mil, fueron asesinados sin pasar por ningún registro y sin recibir número.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí viene algo que casi nadie sabe: Auschwitz fue el único campo del sistema alemán que tatuaba a los presos. Empezaron con los prisioneros soviéticos en 1941 porque se les morían más rápido de lo que podían identificarlos, y lo extendieron después. El número tatuado significa haber sido elegido para trabajar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De esos, alrededor de un millón eran judíos. El resto: unos setenta mil polacos no judíos, unos veintiún mil gitanos, unos quince mil prisioneros soviéticos y varios miles de personas de otros grupos. Cada una de esas cifras viene de una fuente distinta y se puede rastrear hasta su documento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí hay que ser muy preciso, porque este cambio de cifras es el argumento favorito de quienes niegan el Holocausto: si bajó de cuatro millones a uno, dicen, quizá siga bajando. El razonamiento parece de sentido común y es exactamente al revés de como funcionan los números.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además fijarse en quién corrigió la cifra: la corrigió el propio museo del campo, publicando la investigación que la desmentía y cambiando sus placas. Eso es exactamente lo contrario de un encubrimiento, y es la mejor respuesta posible a quien usa la corrección como munición.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El total de seis millones de judíos asesinados nunca se calculó sumando el dato soviético de Auschwitz. Se construyó país por país, con censos de antes y de después, listas de deportación y registros alemanes. El número de Auschwitz bajó, el total no se movió, y esto es comprobable documento a documento.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una segunda corrección, todavía más importante para entender lo que pasó: Auschwitz no es donde murió la mayoría de las víctimas del Holocausto. Es donde murió alrededor de una sexta parte. Se ha convertido en el símbolo de todo por razones que tienen que ver con quién sobrevivió para contarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Treblinka, Bełżec y Sobibór, tres campos que casi nadie sabría situar en un mapa, fueron asesinadas cerca de un millón y medio de personas en poco más de un año. No eran campos de concentración: no tenían barracones ni trabajo ni selección; los trenes llegaban y en unas horas no quedaba nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La velocidad de aquello es difícil de sostener en la cabeza. En un solo verano, el de 1942, murieron en aquellos tres campos más judíos polacos que en todos los años de existencia de Auschwitz, y para 1943 los tres estaban ya desmantelados, arados y plantados de árboles para que no quedara nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De Bełżec sobrevivieron dos personas. De Sobibór, unas cincuenta, y solo gracias a una revuelta. De Treblinka, unas pocas decenas. Por eso Auschwitz es el símbolo: fue el único sitio grande donde sobrevivió gente suficiente para contarlo, porque era también un campo de trabajo y no solo de muerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y falta el otro medio Holocausto, el que no ocurrió en ningún campo. Cerca de millón y medio de judíos fueron fusilados en fosas, pueblo por pueblo, por unidades móviles y por policía y colaboradores locales, en Ucrania, Bielorrusia, los países bálticos y Polonia, a partir del verano de 1941.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es lo que se ha llamado el Holocausto de las balas, y es anterior a las cámaras de gas. Las cámaras no llegaron por eficiencia logística sino, entre otras cosas, porque fusilar a miles de personas cara a cara estaba destrozando psicológicamente a los que disparaban. Eso lo documentaron los propios informes alemanes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Auschwitz alcanza su punto máximo en 1944, y ahí es cuando se parece a la imagen que todo el mundo tiene. Entre mayo y julio de aquel año llegaron ciento cuarenta y siete trenes desde Hungría con unas cuatrocientas treinta mil personas, en menos de dos meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para eso hubo que construir a toda prisa el ramal de vía que entra dentro de Birkenau y termina entre los crematorios; hasta mayo de 1944 los trenes paraban en una rampa a las afueras y la gente hacía el resto a pie. La foto más reconocible del siglo veinte corresponde a esos dos meses.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y de esos días existe el único registro fotográfico del proceso de llegada: doscientas fotos que hizo un fotógrafo de las SS y que encontró por casualidad, en un barracón de otro campo, una superviviente que reconoció en ellas a su propia familia bajando del tren.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella operación húngara conviene mirarla de cerca porque desmonta otra idea cómoda. Eichmann llegó a Budapest con menos de doscientos hombres; quien detuvo, concentró y subió a los trenes a cuatrocientas mil personas fue la gendarmería húngara, con su administración y sus listas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro millones en una placa durante cuarenta y cinco años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un millón cien mil según el recuento que sí se hizo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una sexta parte del total, porque el resto ocurrió en sitios sin supervivientes.",
+        },
+      ],
+    },
+    {
+      titulo: "Los que intentaron pararlo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En septiembre de 1940, un oficial polaco llamado Witold Pilecki se dejó detener a propósito en una redada de Varsovia para que lo mandaran a Auschwitz. Quería ver el campo por dentro, organizar una red de resistencia e informar al ejército clandestino de lo que estaba pasando allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estuvo dentro casi tres años, montó una organización de presos, sacó informes por correos clandestinos y en abril de 1943 se fugó, con dos compañeros, huyendo a pie después de un turno en la panadería del campo. Su informe fue de los primeros documentos detallados que llegaron a Londres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fugarse tenía además un precio que recaía en los demás, y eso lo convertía en un problema moral dentro del campo. Por cada evadido se castigaba a su bloque, a veces con ejecuciones. De los cerca de ochocientos que lo intentaron a lo largo de los años, lo consiguieron alrededor de ciento cincuenta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su historia tiene un final que dice mucho de lo que vino después. Terminada la guerra, el gobierno comunista polaco lo detuvo por espionaje, lo torturó y lo fusiló en 1948. Su nombre estuvo prohibido en Polonia durante cuarenta años, y por eso casi nadie fuera de allí sabe quién fue.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra fuga decisiva es de abril de 1944. Dos presos eslovacos, Rudolf Vrba y Alfréd Wetzler, se escondieron tres días en un hueco bajo un montón de tablones, dentro del perímetro exterior, esperando a que se levantara la búsqueda, y después caminaron hasta Eslovaquia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que llevaban era un informe de treinta y dos páginas con la descripción de las instalaciones, los planos de los crematorios, el método y las cifras aproximadas de los transportes por países. Es el documento que por primera vez permitió al mundo saber qué era exactamente Auschwitz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí aparece la parte más difícil de digerir del capítulo: la información llegaba desde 1942 y a menudo no se creía. Un emisario de la resistencia polaca se lo contó en persona a Roosevelt y a un juez del Tribunal Supremo, y este le respondió que no le llamaba mentiroso, pero que no era capaz de creerle.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que consiguió un informe",
+          frase: "El texto llegó a Suiza en junio de 1944, salió en la prensa y provocó protestas del Vaticano, de Suecia y del presidente de Estados Unidos. El 7 de julio, el regente húngaro paró las deportaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rees es cuidadoso aquí y no permite la lectura heroica fácil: para cuando la presión funcionó, ya habían salido de Hungría más de cuatrocientas mil personas. El informe salvó a unas doscientas mil de Budapest y llegó demasiado tarde para el doble de gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una polémica que él no esquiva y que sigue doliendo en Hungría. El informe llegó a manos de dirigentes judíos de Budapest semanas antes de que se hiciera público, y no se difundió entre la gente que estaba subiendo a los trenes. Las razones que se han dado nunca han convencido a nadie del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con ese informe encima de la mesa aparece la discusión que sigue abierta ochenta años después: por qué los aliados no bombardearon las cámaras de gas o las vías que llevaban hasta ellas, si desde el verano de 1944 sus aviones ya alcanzaban la zona y fotografiaron el complejo desde el aire.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro expone los dos lados sin quedarse con uno. La objeción militar de la época era que la precisión de aquellos bombardeos era pésima y habrían muerto miles de presos; la respuesta es que las vías se reparaban en días, sí, pero que el gesto habría dicho algo a quien organizaba los trenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que Rees sí deja claro es que la razón de fondo no fue técnica. Rescatar judíos no era un objetivo de guerra para ninguno de los aliados, y varios documentos internos británicos y estadounidenses lo dicen con una frialdad que hoy resulta difícil de leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dentro del campo, la resistencia armada llegó el 7 de octubre de 1944, y la protagonizaron los hombres del Sonderkommando, los presos obligados a trabajar en los crematorios sabiendo que serían asesinados al cabo de unos meses para que no quedaran testigos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos hombres dejaron dos cosas enterradas. Unos meses antes de la revuelta, uno de ellos sacó una cámara y consiguió hacer cuatro fotografías desde dentro, disparando desde la sombra de una puerta; salieron del campo escondidas en un tubo de pasta de dientes y son las únicas hechas por las víctimas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y varios escribieron lo que veían y enterraron los cuadernos en cajas y cantimploras junto a los crematorios, con la esperanza de que alguien los desenterrara. Algunos aparecieron después de la guerra, entre las cenizas, y se conservan; otros siguen bajo aquel terreno.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Volaron el crematorio número cuatro con explosivo fabricado a partir de pólvora que varias mujeres sacaban a escondidas, gramo a gramo, de la fábrica de municiones donde trabajaban. La revuelta se aplastó en horas. Cuatro de aquellas mujeres fueron ahorcadas en enero de 1945, delante del campo formado.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final del campo no fue la liberación, sino una marcha. El 17 de enero de 1945, con el frente soviético a pocos kilómetros, los SS sacaron a unos cincuenta y seis mil presos y los hicieron caminar hacia el oeste en pleno invierno. Miles murieron en las cunetas de aquellas carreteras.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Uno de los que se quedaron atrás fue Primo Levi, que estaba con escarlatina en la enfermería y a quien los SS dieron por muerto. Los diez días que pasó allí, entre enfermos y sin nadie al mando, son el final de «Si esto es un hombre»; la fiebre es la razón de que exista ese libro.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 27 de enero llegó el Ejército Rojo y encontró alrededor de siete mil personas, las que estaban demasiado enfermas para caminar y a las que los SS no llegaron a matar. Esa fecha es hoy el día internacional de la memoria del Holocausto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En los almacenes que los SS no tuvieron tiempo de quemar encontraron además el inventario de lo robado, y su lectura sigue siendo insoportable: casi trescientos cincuenta mil trajes de hombre, más de ochocientas mil prendas de mujer y siete toneladas y media de pelo humano empaquetado para su venta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un oficial que entró a propósito para contarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos fugados con treinta y dos páginas y unos planos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y un informe que llegó a tiempo para doscientas mil personas y tarde para el resto.",
+        },
+      ],
+    },
+    {
+      titulo: "El contable que se sentó delante de la cámara",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2004, Rees entrevistó en su casa a un alemán de ochenta y tres años llamado Oskar Gröning. Había sido SS en Auschwitz y su trabajo consistía en contar y clasificar el dinero que traían los deportados en las maletas, separarlo por divisas y enviarlo a Berlín. Se le llamó el contable de Auschwitz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gröning aceptó hablar por una razón que él mismo explicó: había oído a un negacionista sostener que aquello no había ocurrido, y decidió que un testigo directo tenía que decir en voz alta que sí. Contó lo que vio en la rampa, lo que oía por las noches y cómo pidió tres veces el traslado al frente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que le hizo pedir el traslado fue una escena concreta que contó con todo detalle: un compañero matando a un niño pequeño que lloraba entre el equipaje abandonado en la rampa. No fue el conjunto de lo que sabía lo que le resultó insoportable, sino una cosa vista de cerca una noche.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que hace inolvidable esa entrevista no es lo que confiesa, sino cómo lo ordena. Se declaraba culpable moralmente y no penalmente, porque él solo contaba billetes. Esa distinción, hecha sesenta años después y con toda calma, es la que el libro entero pone en cuestión.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La historia tuvo un último capítulo que Rees no pudo escribir en 2005. En 2015, a los noventa y tres años, Gröning fue juzgado en Luneburgo y condenado a cuatro años como cómplice del asesinato de trescientas mil personas, en buena parte gracias a las declaraciones que él mismo había hecho en público.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que cambió en el derecho",
+          frase: "Durante décadas, la justicia alemana exigía probar un acto concreto de asesinato. A partir de 2011 bastó con haber formado parte del engranaje del campo: contar el dinero ya era participar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cambio llegó setenta años tarde y hay que decir por qué. Durante la posguerra, la justicia alemana estuvo llena de jueces y fiscales que habían servido al régimen, y el resultado fue que la inmensa mayoría de los que trabajaron en los campos vivieron el resto de su vida sin que nadie les preguntara nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro entrevistado que nadie olvida es Hans Friedrich, que sirvió en una unidad que fusilaba judíos en Ucrania. Delante de la cámara admitió haber disparado, con detalle, sin adornos y sin justificarse; y cuando le preguntaron qué sentía en aquel momento, contestó que nada, y que pensaba en su familia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rees le preguntó, ya al final, si lo lamentaba. Friedrich dijo que no. Ese momento, que en televisión dura veinte segundos, es la aportación más incómoda del libro, porque destruye la esperanza de que el tiempo produzca arrepentimiento por sí solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sirve para poner en su sitio la fórmula más citada sobre todo esto. Hannah Arendt escribió en «Eichmann en Jerusalén» que el mal se había vuelto banal: funcionarios sin ideas cumpliendo trámites. Los entrevistados de Rees no son eso: sabían perfectamente lo que hacían y muchos estaban convencidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La investigación posterior le ha dado la razón a Rees en este punto. Los papeles de Eichmann aparecidos en Argentina lo muestran orgulloso de su trabajo y muy lejos del burócrata gris que representó en el juicio. El propio libro de Arendt sigue siendo imprescindible; su frase más famosa, en cambio, hay que manejarla con pinzas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquí hay que decir dónde falla este libro. Es una síntesis para el gran público y a veces mezcla el peso de una entrevista con el peso de un documento, que no valen lo mismo: un recuerdo de sesenta años después es un material precioso y frágil, y no siempre queda claro qué se apoya en cuál.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene avisar de lo que uno se encuentra al leerlo. Es un libro sobrio, sin una sola frase de más y sin ninguna concesión al efecto, y aun así hay capítulos muy duros porque lo que se cuenta lo es. No adorna nada, que es precisamente la razón por la que se puede confiar en él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tiene además el problema de todos los libros hechos junto a una serie de televisión: prefiere la escena a la estructura. Explica muy bien cómo se llegó a cada decisión y bastante peor cómo era el sistema económico de las SS o de dónde salía el dinero, que era una parte enorme del asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho eso, hay una función que este libro cumple como pocos, y es la de antídoto. En esta misma biblioteca conviven dos novelas ambientadas en Auschwitz que han vendido millones y que el propio museo del campo ha criticado por escrito por sus errores de hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De «El niño con el pijama de rayas», los historiadores del museo señalan que su premisa es imposible: no había niños de esa edad viviendo dentro, porque los que llegaban eran asesinados a las pocas horas, ni una valla por la que se pudiera charlar. Sobre «El tatuador de Auschwitz» publicaron una lista detallada de inexactitudes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que estén en el estante no es el problema; el problema es leerlas creyendo que informan. Este libro es el que hay que poner al lado, y también junto a «Si esto es un hombre», de Levi, que es lo contrario de una novela: la memoria escrita en 1946 por alguien que acababa de salir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar aquí otra cosa que casi todo el mundo da por sabida y no es exacta: «El hombre en busca de sentido», de Frankl, se cita siempre como el gran testimonio de Auschwitz, y Frankl estuvo allí unos pocos días antes de ser trasladado a un campo de trabajo en Baviera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese libro es enorme y no necesita que le inflemos la biografía; lo que cuenta es sobre todo lo que vivió en otro sitio. Precisarlo no le quita nada: le quita el uso decorativo del nombre Auschwitz, que es exactamente lo que este libro de Rees viene a combatir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión que Rees saca de quince años de trabajo no es tranquilizadora y la escribe sin rodeos: cuanto más aprendió, menos pudo sostener la idea de que aquello fue obra de una cultura enferma en un momento irrepetible. Lo hicieron personas normales dentro de instituciones que lo hicieron posible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso este libro se lleva bien con «Sobre la tiranía», que va de lo mismo por el otro extremo: la primera regla de Snyder es no obedecer por adelantado, y este libro es la descripción minuciosa de lo que pasa cuando mucha gente, durante cuatro años, hace exactamente lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un hombre que contaba billetes y se creía inocente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro que disparó y a los ochenta años seguía sin lamentarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y un campo que empezó siendo un cuartel, porque nadie lo detuvo a tiempo.",
+        },
+      ],
+    },
+  ],
+};
