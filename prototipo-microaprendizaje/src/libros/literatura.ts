@@ -14998,3 +14998,651 @@ export const RAYUELA: Resumen = {
     },
   ],
 };
+
+export const EL_TUNEL: Resumen = {
+  id: "el-tunel",
+  titulo: "El túnel",
+  autor: "Ernesto Sabato",
+  ano: 1948,
+  gancho:
+    "Lo escribió un doctor en física que había trabajado en el laboratorio Curie y que a los treinta y cuatro años abandonó la ciencia para siempre. Es la mejor novela en español sobre un razonamiento impecable que termina en un crimen.",
+  porQue:
+    "Porque en ciento cincuenta páginas enseña algo que no se aprende de otra manera: cómo se construye una certeza absoluta a partir de nada, paso a paso, sin que ninguno de los pasos sea ilógico. Y porque casi todo el mundo la lee olvidando quién la está contando.",
+  partes: [
+    {
+      titulo: "El primer párrafo dice quién y a quién",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La novela empieza así: bastará decir que soy Juan Pablo Castel, el pintor que mató a María Iribarne. Es la primera frase. No hay intriga, no hay suspense, no hay nada que averiguar. El narrador ha matado a una mujer y lo dice antes de que el lector haya llegado al segundo renglón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa decisión lo cambia todo. Al quitar la pregunta de qué pasó, Sabato obliga a que la única pregunta posible sea otra: cómo llega alguien a hacer eso. Y como el que lo cuenta es el que lo hizo, el lector se pasa el libro entero dentro de la cabeza equivocada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Castel escribe desde la cárcel. Dice que no lo hace para justificarse ni para pedir comprensión, y a continuación se pasa ciento cincuenta páginas justificándose y pidiendo comprensión. Esa contradicción está puesta a propósito en la primera página y es la llave del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación de por qué escribe es todavía peor, y hay que leerla con atención: dice que lo hace porque cree que quizá sirva para que alguien entienda algo. Es un hombre que ha matado a una persona por no ser entendido y que sigue proponiéndole el mismo trato al mundo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Añade una frase que suena a chiste amargo y que resume su carácter: dice que quizá haya alguien, una sola persona entre todas, capaz de entenderlo. Es exactamente la misma esperanza que lo llevó a matar, formulada de nuevo, sin haber aprendido nada, a un lector al que acaba de conocer.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El que escribe esto es Ernesto Sabato, y su biografía es tan improbable que conviene contarla antes. Nació en 1911 en Rojas, un pueblo de la provincia de Buenos Aires, el décimo de once hermanos en una familia de inmigrantes italianos. Dos de sus hermanos habían muerto antes que él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estudió ciencias exactas y se doctoró en física en la Universidad de La Plata en 1937. Al año siguiente le dieron una beca para trabajar en el laboratorio Curie de París, que era entonces uno de los centros donde se investigaba la radiación atómica. Después pasó por el Instituto Tecnológico de Massachusetts.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: el autor de esta novela era un físico nuclear con credenciales de verdad, formado en el sitio donde se estaba preparando, sin que nadie lo supiera todavía, el mundo de después de 1945. Y en 1945 lo dejó todo y no volvió a hacer ciencia nunca más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La fecha no es casualidad y él nunca la trató como tal. Dejó la física el año de Hiroshima, después de haber trabajado en radiación atómica en el laboratorio donde se había investigado esa materia. Nunca dijo que fuera la causa única, y tampoco desmintió nunca que pesara.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La decisión que explica el libro",
+          frase: "Pasaba el día haciendo cálculos en el laboratorio Curie y las noches con los surrealistas. Decidió que los dos mundos no cabían en una vida y se quedó con el segundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo ha contado muchas veces y siempre con la misma imagen. En aquel París de 1938 conoció a los surrealistas, gente que se dedicaba a demostrar que la razón no gobernaba nada, mientras él pasaba el día trabajando con la herramienta más razonable que ha inventado el ser humano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso había militado en el partido comunista y había roto con él de una manera muy propia suya: lo mandaron a un congreso en Moscú en 1934 y se bajó en el camino, se quedó en París y no llegó nunca. Desconfiar de la ortodoxia le salió pronto y le duró toda la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Publicó «El túnel» en 1948, con treinta y siete años. Varias editoriales lo rechazaron y acabó saliendo en la revista de Victoria Ocampo. En Argentina se recibió con tibieza y en Francia con entusiasmo: Albert Camus lo leyó, lo recomendó, y en 1956 lo publicó Gallimard traducido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió tres novelas en su vida. Esta, «Sobre héroes y tumbas» en 1961 y «Abaddón el exterminador» en 1974. Y quemó una cantidad considerable de manuscritos, cosa que hizo en más de una ocasión y de la que hablaba sin ningún dramatismo, como quien tira apuntes malos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres novelas en sesenta años de vida literaria es una producción minúscula para alguien de su fama, y explica por qué cada una pesa tanto. No era un escritor que publicara para mantenerse en el escaparate: escribía cuando no le quedaba más remedio, y quemaba el resto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La novela dura poco más de ciento cincuenta páginas y no sobra ni una. Está escrita en capítulos brevísimos, algunos de media página, que avanzan como los pasos de una demostración. Esa forma no es casual en alguien que se pasó diez años escribiendo demostraciones de verdad.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento cabe en cuatro líneas y no estropea nada contarlo. Un pintor expone un cuadro. Una mujer se queda mirando un detalle mínimo que nadie más ha visto. Él se obsesiona, la busca por Buenos Aires, la encuentra, empieza una relación imposible y termina matándola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo interesante no es qué pasa sino el mecanismo. Y el mecanismo es este: cada paso que da Castel es razonable a partir del anterior, ninguno es delirante por sí solo, y el conjunto lleva a un cuchillo. Es una novela sobre la lógica funcionando perfectamente sobre una base falsa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso la escribió un físico. Nadie que no haya construido cadenas de deducción durante años sabe hasta qué punto una cadena puede ser impecable eslabón por eslabón y catastrófica entera. Sabato traslada eso a una cabeza humana y sale el libro más incómodo de la literatura argentina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y explica también por qué el libro no tiene ni una línea de adorno. Un físico sabe que en una demostración todo lo que no hace falta estorba. Aquí no hay descripciones largas, ni digresiones, ni lucimiento: hay una cadena y el resultado al que lleva, expuestos en el orden en que ocurrieron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una advertencia que conviene dar ya, porque de ella va el cuarto capítulo de este resumen: todo lo que el lector va a saber sobre María se lo cuenta el hombre que la mató, escribiendo desde una celda. No hay ni una sola página del libro donde ella hable sin que él la esté interpretando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nombre y apellido en la primera línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Confesión antes del segundo renglón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ciento cincuenta páginas explicando por qué no tenía otro remedio.",
+        },
+      ],
+    },
+    {
+      titulo: "Una ventanita en la esquina de un cuadro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Salón de Primavera, Buenos Aires, 1946. Juan Pablo Castel expone un cuadro titulado «Maternidad». En primer plano hay una mujer mirando jugar a un niño, que es lo que todo el mundo mira y lo que los críticos comentan al día siguiente en los periódicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Arriba a la izquierda, en una esquina, hay una ventana pequeñísima. Dentro de esa ventana se ve una playa solitaria y una mujer que mira el mar. Es una escena diminuta, casi escondida, y Castel sabe que es lo único que importa del cuadro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie la mira. Pasa la gente, pasan los críticos, se venden entradas y nadie se detiene en aquella esquina. Y él se pasa los días de la exposición vigilando desde lejos a ver si alguien la ve, con la humillación exacta de quien ha puesto lo suyo donde nadie lo busca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que reconocer que ese sentimiento es completamente comprensible, lo cual es parte de la trampa. Cualquiera que haya hecho algo con cuidado y haya visto que la gente elogia justo la parte fácil sabe cómo se siente ese hombre. La novela empieza en un lugar donde el lector cabe.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hasta que una tarde una mujer se para delante del cuadro y mira la ventanita. Solo la ventanita. Está un rato largo, sin mirar la escena principal, y después se va. Castel no reacciona a tiempo, y cuando sale corriendo detrás ya se ha perdido entre la gente.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ese momento el libro es una persecución. Castel la busca por Buenos Aires durante meses, imagina encuentros, ensaya conversaciones enteras antes de tenerlas, y monta un plan para cuando la vuelva a ver. Cuando por fin la ve en la calle, echa a correr detrás de ella.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El error de origen",
+          frase: "De que alguien mirara un detalle suyo dedujo que esa persona lo entendía a él. Todo lo demás es una construcción impecable levantada sobre esa deducción, que no se sostiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene detenerse ahí, porque es el corazón del libro. Que una mujer se fije en la parte buena de un cuadro solo demuestra que tiene buen ojo. No demuestra que comparta la soledad del pintor, ni que sea la única persona del mundo capaz de comprenderlo. Castel salta de lo primero a lo segundo sin escala.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese salto es reconocible fuera de la novela, que es lo que la hace incómoda. Cualquiera lo ha dado alguna vez, en versión pequeña: alguien dice algo que coincide con lo que tú piensas y por un momento sientes que esa persona te ha visto entero. La diferencia con Castel es de grado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la diferencia de grado es esta: casi todo el mundo, al día siguiente, comprueba la impresión con más conversación y la corrige. Castel no comprueba nunca: se salta la comprobación y pasa directamente a construir encima. Todo lo que viene después está edificado sobre ese hueco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella se llama María Iribarne. Es una mujer de unos veintiséis años, casada con un hombre llamado Allende que está ciego, y que —esto es lo que Castel no soporta— no vive encerrada esperando a que la encuentren. Tiene una vida, una casa en el campo, un primo, silencios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primeros encuentros entre ellos están escritos con una precisión que hace daño. Castel la interroga, ella responde poco, él interpreta las pausas, saca conclusiones y se las devuelve como acusaciones. Ella se disculpa por cosas que no ha hecho para poder seguir la conversación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una escena temprana que retrata el mecanismo entero: él le pregunta por qué se paró delante del cuadro, y ella no sabe explicarlo. Dice que le pareció que aquella ventana era lo verdadero. Y Castel decide, en ese instante, que ella siente exactamente lo mismo que él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que hace maravillosa esa escena es que ella no dijo eso. Dijo algo mucho más pequeño y mucho más razonable, la clase de cosa que se dice de un cuadro. Es él quien la traduce, y a partir de esa traducción se comporta con ella como si tuvieran un pacto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y ahí aparece la pregunta que la novela deja abierta hasta el final: ¿qué obligación tiene María de estar a la altura de lo que él ha decidido que ella es? La respuesta, que Castel jamás se plantea, es ninguna. Ella no firmó nada. Ni siquiera se enteró de que se estaba firmando algo.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La relación que sigue es breve, intensa y desastrosa, y está contada con una economía admirable. Se ven poco, ella desaparece por temporadas, él exige explicaciones de cada ausencia y cada explicación genera diez preguntas nuevas que hay que responder al día siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sabato entendía muy bien una cosa sobre los celos que la mayoría de las novelas no ve. Los celos no necesitan hechos: necesitan tiempo libre y capacidad de razonar. Cuanto más inteligente es el celoso, mejores son las hipótesis que construye y más difíciles de desmontar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un segundo hallazgo en cómo lo cuenta: los celos de Castel no van sobre otros hombres, o no principalmente. Van sobre cualquier parte de la vida de ella que no lo incluya. Un rato que ella pasa sola, una conversación con su marido, un pensamiento que no le cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El marido ciego, Allende, es la pieza más discutible del libro. Funciona bien como figura —el que no ve y sin embargo comprende, frente al pintor que ve y no entiende nada— y funciona mal como personaje, porque apenas existe fuera de esa función simbólica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Castel lo trata además de una manera que lo retrata: le da lástima y a la vez sospecha de él, lo considera un obstáculo menor y a la vez un rival secreto. En ningún momento se le ocurre que aquel hombre lleve años conviviendo con María y sepa de ella cosas que él jamás sabrá.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que decir que la ceguera se convirtió en una obsesión privada de Sabato que reaparece en su segunda novela con un capítulo entero dedicado a una conspiración de ciegos. Es la parte de su mundo que peor ha envejecido, y en «El túnel» ya está apuntada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una ventana de tres centímetros en la esquina de un cuadro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una mujer que se para a mirarla y se va.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y un hombre que decide, ese día, que ya no está solo.",
+        },
+      ],
+    },
+    {
+      titulo: "La cadena de razonamientos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay un capítulo de la novela que conviene leer dos veces porque es una obra maestra técnica. Castel está esperando una carta de María y se pone a analizar todas las posibilidades de por qué no ha llegado. Y lo hace exactamente como se escribe una demostración matemática.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Enumera los casos: o ella lo quiere, o no lo quiere. Si lo quiere, o bien ha escrito y la carta se ha perdido, o bien no ha escrito, y si no ha escrito es porque algo se lo ha impedido, y ese algo puede ser de tres tipos. Y cada rama se abre en otras tres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al final de la cadena, después de descartar ordenadamente cada posibilidad, llega a una conclusión única e ineludible: ella lo está engañando. Y el lector, si ha ido siguiendo, se da cuenta con espanto de que no puede señalar en qué paso concreto se ha torcido la cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El truco, cuando se busca, está en que descarta las ramas benignas con un argumento y las malignas con otro. A las primeras les exige pruebas y a las segundas les basta con ser posibles. Es el mismo doble rasero de siempre, aplicado con una prosa que parece un teorema.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el hallazgo formal del libro y no lo ha hecho nadie mejor. La locura de Castel no consiste en razonar mal: consiste en razonar bien sobre premisas que se ha inventado, y en no volver nunca a comprobar las premisas porque está demasiado ocupado deduciendo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sabato lo dice de una manera muy suya en otra parte: que la razón es un instrumento perfecto, y que un instrumento perfecto aplicado a un punto de partida falso produce monstruos con toda pulcritud. Eso lo escribe un hombre que había trabajado en física atómica en 1938.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo funciona la paranoia",
+          frase: "No es que el paranoico piense mal. Es que piensa muchísimo, muy ordenadamente, y solo hacia delante. Nunca vuelve al primer supuesto, porque el primer supuesto ya no le parece un supuesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una segunda técnica de Castel que la novela retrata con crueldad: ensaya las conversaciones antes de tenerlas. Prepara lo que va a decir, prevé lo que ella contestará y prepara la réplica. Y cuando llega el momento, ella dice algo distinto y él se desmonta entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ocurre después es lo interesante. En vez de aceptar que su previsión ha fallado, interpreta la desviación como una señal: ella ha dicho algo que él no había previsto, luego está ocultando algo. La realidad, al no encajar en el plan, se convierte en prueba de la conspiración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el mecanismo que hace irrefutable a una idea delirante, y el libro lo enseña sin explicarlo nunca. Si los hechos que la confirman la confirman, y los que la contradicen son la prueba del engaño, entonces no queda ninguna observación posible que pueda desmentirla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una idea que ningún hecho puede desmentir no es una idea fuerte: es una idea que ha salido del terreno donde se juega. Eso vale para los celos de este señor y vale exactamente igual para media discusión pública, que es por qué esta novela se lee hoy con un escalofrío que no tenía en 1948.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene poner el libro al lado de «Crimen y castigo», que anda por esta biblioteca, porque los dos tienen la misma forma y contenidos opuestos. Los dos son la confesión de un asesino con teoría. Los dos empiezan con el crimen prácticamente asumido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia es lo que le pasa a la teoría. Raskólnikov mata para demostrarse una idea y la idea se le derrumba encima: el libro entero es el derrumbe, y termina en algo parecido a la redención. Castel mata como conclusión de un razonamiento y sale de la cárcel escribiendo el mismo razonamiento otra vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay ahí una diferencia de siglo, además de de temperamento. Dostoievski todavía dispone de un lugar donde caerse: hay una Sonia, hay Siberia, hay algo parecido a un perdón posible. En 1948, en Buenos Aires, Sabato ya no tiene adónde mandar a su asesino, y lo deja escribiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene ponerlo también al lado de «El extranjero», de Camus, que es de seis años antes y con el que se lo compara siempre. Ahí la diferencia es todavía más limpia, y deshacer esa comparación es una de las cosas más útiles que puede hacer este resumen.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Meursault mata por indiferencia: por el sol, por nada, y luego no encuentra dentro de sí ningún sentimiento que ofrecerle al tribunal. Castel mata por exceso de sentido: porque ha interpretado tanto que ya no cabe otra conclusión. Son las dos patologías contrarias del mismo siglo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso llamar existencialista a «El túnel» despista más de lo que aclara, y el propio Sabato se resistió siempre a la etiqueta. Su hombre no sufre de vacío ni de absurdo: sufre de significado, que es una enfermedad distinta y bastante más contemporánea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aunque hay que reconocer que la comparación con Camus le hizo un favor enorme. Fue precisamente Camus quien recomendó el libro en Francia, y esa recomendación abrió la puerta a las traducciones que convirtieron a Sabato en un autor internacional antes que argentino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso pasó bastante en aquella generación y conviene tenerlo presente al leer las contraportadas. Varios autores latinoamericanos fueron consagrados primero en París y luego en su propio país, y las etiquetas con que se los presentó allí —existencialista, del absurdo— venían de lo que se leía en París, no de lo que ellos escribían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro parentesco, más incómodo y menos citado, es con «Madame Bovary». Emma se destruye leyendo la realidad a través de las novelas románticas. Castel se destruye leyendo a una mujer a través de un cuadro suyo. Los dos mueren por confundir una interpretación con un dato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle final sobre la técnica del libro que merece señalarse. Sabato le da a Castel una prosa clara, ordenada, casi seca. No hay delirio en la manera de escribir. El horror funciona precisamente porque el que cuenta esto suena razonable en cada párrafo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ningún paso del razonamiento es un disparate.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El disparate está en la primera línea, que ya no se mira.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y al final de la cadena hay una mujer muerta.",
+        },
+      ],
+    },
+    {
+      titulo: "Todo lo que sabemos de María",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Toca ahora hacer un ejercicio que cambia la novela entera y que casi ningún lector hace. Coge una hoja y apunta todo lo que sabes con seguridad sobre María Iribarne. No lo que te ha parecido: lo que consta. La lista sale asombrosamente corta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Consta que miró un cuadro. Consta que está casada con un hombre ciego. Consta que tiene una casa en el campo y un primo. Consta que a veces desaparece y a veces no contesta. Y consta que un hombre la mató. Prácticamente todo lo demás son deducciones de ese hombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que era fría, que mentía, que jugaba con él, que lo engañaba con su primo, que había tenido otros amantes, que tenía un pasado turbio: nada de eso está establecido en el libro. Son acusaciones de Castel, formuladas con la misma prosa segura con la que describe el color de una pared.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el detalle técnico que lo hace funcionar: Sabato no distingue tipográficamente lo observado de lo deducido. Las dos cosas van en el mismo párrafo, con el mismo tono y sin ninguna marca. El lector tiene que hacer esa separación por su cuenta, y por eso casi nadie la hace.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y ahí está la trampa que Sabato le tiende al lector, que es lo mejor que hizo en su vida. Como el narrador razona bien y escribe bien, el lector va aceptando sus conclusiones sin pedirle pruebas, y llega al final habiéndose formado una opinión sobre una mujer a la que no ha oído nunca.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un experimento sobre el lector y no solo sobre el personaje. Cualquiera que salga del libro pensando que María era una manipuladora acaba de demostrar, con su propia lectura, la tesis de la novela: que un relato bien construido produce certezas que no tienen detrás ningún hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no es una lectura moderna aplicada a la fuerza sobre un libro viejo. Está construido para eso desde la primera página, que empieza informando de que quien habla es un asesino. Sabato te avisa antes de empezar y aun así consigue que te olvides, que es exactamente el logro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La prueba del algodón",
+          frase: "Todo lo que crees saber sobre ella te lo ha contado el hombre que la mató, escribiendo desde la cárcel para explicar por qué tuvo que hacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una escena que se relee de otra manera con esto en la cabeza. En la casa de campo, Castel encuentra a María en una situación que interpreta como una traición. La descripción es breve, ambigua y no contiene ningún hecho concluyente. Él la lee como una confirmación definitiva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un lector que preste atención descubre que no hay allí nada que un tribunal aceptaría, y que lo que sí hay es un hombre que llevaba meses buscando esa confirmación. Encontró lo que necesitaba encontrar, que es lo que le pasa siempre a quien busca con suficiente empeño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aunque hubiera sido cierto lo que él creyó ver, seguiría sin explicar nada de lo que hizo después. Esa es la última puerta que la novela cierra: por mucho que se le conceda al narrador, entre lo que denuncia y lo que hace hay un abismo que ningún razonamiento cruza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho todo eso, hay una crítica que hay que hacerle al libro y que no se arregla con lo del narrador poco fiable. Aunque la ausencia de María esté justificada por el diseño, el efecto es que la novela no tiene ninguna mujer con existencia propia dentro de sus ciento cincuenta páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se puede defender diciendo que ese vacío es el tema. Es una buena defensa y es la que hace la crítica. Pero conviene registrar que la literatura argentina de aquellas décadas produjo bastantes obras maestras construidas sobre una mujer que solo existe como enigma para un hombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "«Rayuela», de Cortázar, está en esta misma biblioteca y es de quince años después, y tiene exactamente el mismo problema: la Maga no tiene ni un capítulo contado desde dentro. Ver el patrón repetido en las dos novelas argentinas más leídas del siglo dice algo sobre la época.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la diferencia importante de que Sabato lo hace a propósito y Cortázar no del todo. Aquí el encierro es el asunto: el lector está dentro de un túnel porque el narrador lo está. Allí la Maga es un personaje al que el autor quiere, y aun así no le da voz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos libros comparten además una escena que los define y que va en la misma dirección: un hombre que interpreta a una mujer que no ha leído lo que él ha leído, y que convierte esa diferencia en una teoría sobre ella. En 1948 y en 1963, en la misma ciudad, dos veces.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay otra cosa que el libro hace muy bien y que se comenta poco: la ciudad. Buenos Aires aparece por trozos —una oficina de correos, la calle San Martín, una plaza, un tranvía— y siempre vista por alguien que va persiguiendo a alguien. Nunca hay un paisaje: hay un rastreo.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es coherente con todo lo demás. Un hombre así no ve una ciudad, ve un plano con posiciones posibles de otra persona. La novela consigue que el lector recorra Buenos Aires sin verla nunca, que es una manera muy exacta de contar lo que le pasa por dentro al que camina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un tercer acierto técnico: el libro no explica jamás a su protagonista. No hay una infancia traumática, ni un diagnóstico, ni una escena que aclare por qué es así. Sabato se resiste a la tentación de dar una causa, y por eso el personaje no se puede archivar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si el libro dijera que Castel es así porque le pasó tal cosa de niño, el lector podría cerrarlo tranquilo pensando que a él no le pasó eso. Al no decirlo, deja abierta la posibilidad incómoda de que ese razonamiento esté al alcance de cualquiera con tiempo y con miedo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un solo momento en que el libro se acerca a explicarlo, y es cuando Castel describe cómo era de niño en el colegio. Son unas líneas y no dan ninguna causa: dan una manera de estar en el mundo que ya estaba ahí. Sabato pone la puerta y no la abre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se llama «El túnel» y no «María».",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese título ya avisa de quién va a hablar y de quién no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo lo demás lo pone el lector sin darse cuenta.",
+        },
+      ],
+    },
+    {
+      titulo: "Dos túneles paralelos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Cerca del final, Castel formula la imagen que da título al libro, y es la única vez en toda la novela en que dice algo cierto. Dice que su vida ha sido siempre un túnel oscuro y solitario, y que en algún momento creyó que el de María corría paralelo al suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sigue: que en algún tramo de esos dos túneles hubo ventanas, y que a través de ellas creyó verla, y creyó que ella lo veía a él. Y termina diciendo que en realidad los muros eran de piedra, que él estaba encerrado igual que siempre, y que aquellas ventanas eran su propia imaginación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una página magnífica y es también el diagnóstico exacto. El problema nunca fue María. El problema era que Castel necesitaba que existiera una persona que lo entendiera del todo, y ninguna persona real puede sostener ese peso, porque nadie entiende a nadie del todo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y aquí está la crueldad del libro, que es su mayor logro moral: él llega a esa comprensión después de matarla. La lucidez le llega entera, formulada bellísimamente, y le llega tarde y desde una celda. La novela no le concede ni siquiera el consuelo de haber entendido a tiempo.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hace después con esa lucidez es lo definitivo. En vez de callarse, escribe. Y escribe para buscar a alguien que lo entienda, que es lo mismo que hacía al principio. La estructura del libro es circular: termina exactamente donde empezó, con un hombre buscando una ventana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso descarta de golpe la lectura consoladora del libro, la que dice que el protagonista aprende algo. No aprende nada utilizable. Comprende su situación con una precisión admirable y sigue haciendo exactamente lo mismo, que es lo que suele pasar con la lucidez cuando llega sola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final tiene además un detalle que suele pasarse por alto y que es demoledor. Allende, el marido ciego, al enterarse de todo, tiene una reacción concreta que cierra el libro con un grito. Y ese grito es lo único de la novela que no viene filtrado por el razonamiento de Castel.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Adónde llega",
+          frase: "No es una novela sobre los celos ni sobre el amor. Es sobre alguien que exige ser comprendido del todo, y sobre lo que le hace a la gente que tiene cerca esa exigencia imposible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora la última parte de esta historia, que ocurre treinta y cinco años después del libro y que le da un final que Sabato no podía haber escrito. En diciembre de 1983 Argentina salía de siete años de dictadura militar con miles de personas desaparecidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nuevo presidente creó una comisión nacional para investigar aquello y le pidió a Sabato que la presidiera. Tenía setenta y dos años. Aceptó, y durante nueve meses recibió testimonios de supervivientes, de familiares, de gente que salía de centros clandestinos de detención.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El informe se entregó en septiembre de 1984 y se llamó «Nunca más». Documentó casi nueve mil casos con nombre y apellido, y el prólogo lo escribió él. Se convirtió en un superventas inmediato en Argentina y en el documento que sostuvo el juicio a las juntas militares al año siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene subrayar lo raro de aquello: un país que acababa de salir de una dictadura puso a un novelista de setenta y dos años a presidir la comisión que iba a documentarla, y el documento resultante se leyó como se leen los libros, en las casas. No hay muchos precedentes de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay algo casi insoportable en esa simetría y conviene decirlo sin adornarlo. El hombre que había escrito la mejor novela sobre la justificación de un asesino pasó nueve meses de su vejez escuchando cómo se justificaban miles de asesinatos reales, y firmando el papel que los negaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En «El túnel», un hombre construye una cadena de razonamientos y al final hay un cadáver. En los testimonios que recogió aquella comisión, un Estado entero había hecho lo mismo a escala industrial: cada paso justificado por el anterior, con informes, con jerarquías y con papeleo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay que forzar la comparación ni convertir la novela en una profecía política, porque no lo es y Sabato no la escribió pensando en nada de eso. Pero la continuidad del asunto está ahí, y es la de un hombre que dedicó su vida a la misma pregunta: cómo la razón se pone al servicio del horror.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir también, para no dejar la biografía en hagiografía, que Sabato tuvo momentos discutidos: se reunió con la junta militar en 1976, poco después del golpe, en un almuerzo del que se hablaría durante décadas. Él dio sus explicaciones y sus críticos nunca las aceptaron del todo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa pregunta la traía de antes de escribir. La traía del laboratorio Curie de 1938, donde había visto de cerca a la mejor ciencia del mundo trabajando en lo que siete años después arrasaría dos ciudades. Ese es el hilo que une a un físico, a un novelista y a un anciano firmando un informe.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sabato murió en 2011, en su casa de Santos Lugares, a un mes y medio de cumplir cien años. Había dejado de escribir hacía tiempo y se dedicaba a pintar, que era lo que hacía su personaje, aunque él pintaba flores y caras y no ventanas escondidas en las esquinas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien quiere leerlo, se lee en una tarde y no hay que saber nada previo. La única recomendación útil es esta: al terminar, vuelve a las primeras diez páginas y léelas otra vez, sabiendo ya lo que hizo el que las escribe. Es un libro distinto en la segunda lectura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es además de los poquísimos clásicos que se pueden recomendar sin advertencias de longitud ni de dificultad. Ciento cincuenta páginas, capítulos de dos, prosa clara y ni una palabra técnica. La dificultad del libro está entera en lo que hace pensar, no en lo que cuesta leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una segunda, más práctica y más incómoda. Cuando termines, piensa en la última vez que estuviste seguro de lo que otra persona sentía sin habérselo preguntado. Ese es el sitio exacto donde empieza este libro, y todo el mundo ha estado ahí alguna vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los muros del túnel eran de piedra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las ventanas las había puesto él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo entendió cuando ya no servía de nada entenderlo.",
+        },
+      ],
+    },
+  ],
+};
