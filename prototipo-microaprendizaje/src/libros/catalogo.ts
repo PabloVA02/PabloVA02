@@ -76,7 +76,7 @@ export const CATALOGO: Ficha[] = [
   { id: "postguerra", titulo: "Postguerra", autor: "Tony Judt", ano: 2005, categoria: "Historia", estado: "escrito" },
   { id: "homo-sovieticus", titulo: "El fin del Homo Sovieticus", autor: "Svetlana Aleksiévich", ano: 2013, categoria: "Historia", estado: "pendiente" },
   { id: "sobre-tirania", titulo: "Sobre la tiranía", autor: "Timothy Snyder", ano: 2017, categoria: "Historia", estado: "pendiente" },
-  { id: "imperiofobia", titulo: "Imperiofobia y leyenda negra", autor: "María Elvira Roca Barea", ano: 2016, categoria: "Historia", estado: "pendiente" },
+  { id: "imperiofobia", titulo: "Imperiofobia y leyenda negra", autor: "María Elvira Roca Barea", ano: 2016, categoria: "Historia", estado: "escrito" },
 
   /* --- Filosofía -------------------------------------------------------- */
   { id: "meditaciones", titulo: "Meditaciones", autor: "Marco Aurelio", ano: 180, categoria: "Filosofía", estado: "escrito" },
