@@ -6104,3 +6104,601 @@ export const VIVIR_PLENITUD: Resumen = {
     },
   ],
 };
+
+export const ANTICANCER: Resumen = {
+  id: "anticancer",
+  titulo: "Anticáncer",
+  autor: "David Servan-Schreiber",
+  ano: 2007,
+  gancho:
+    "Un neurocientífico de treinta y un años se metió en su propio escáner para sustituir a un voluntario que no vino. Le encontraron un tumor cerebral.",
+  porQue:
+    "Es el libro sobre cáncer y estilo de vida más vendido de este siglo, escrito por un médico serio que además era el paciente. Merece leerse separando con cuidado lo que la evidencia sostiene de lo que él quería que fuera verdad.",
+  partes: [
+    {
+      titulo: "El escáner de Pittsburgh, 1992",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Universidad de Pittsburgh, una tarde de 1992. Un equipo de neurocientíficos tiene reservada la máquina de resonancia magnética para un experimento sobre el funcionamiento del cerebro, y el voluntario que tenía que servir de control no aparece. Alguien tiene que meterse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se mete uno de los investigadores, que tiene treinta y un años y ninguna molestia. Le hacen la prueba, salen las imágenes, y un compañero que las está mirando en la pantalla de al lado se queda callado más tiempo del normal. Hay una masa donde no debería haber nada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le encontraron",
+          frase: "Un tumor cerebral del tamaño de una nuez. Tenía treinta y un años, ningún síntoma, y estaba en aquella máquina por casualidad y para hacer un favor. Lo operaron poco después, y a partir de ahí su vida profesional entera cambió de tema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba David Servan-Schreiber y era francés. Venía de una familia conocida: su padre había fundado la revista L'Express y había sido diputado, y en su casa la conversación de la cena era la política nacional y el periodismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él eligió otra cosa. Estudió Medicina en Quebec, se doctoró en neurociencia cognitiva en Carnegie Mellon, y en Pittsburgh cofundó un centro de medicina integrativa. Además fue uno de los fundadores de la rama estadounidense de Médicos Sin Fronteras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso conviene tenerlo claro desde el principio, porque marca la diferencia con casi todo lo que se publica en esta estantería. No era un charlatán ni un vendedor de suplementos: era un médico investigador con publicaciones en revistas serias y con una carrera académica real.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La operación salió bien y volvió a trabajar. Años después, el tumor reapareció, y esta vez pasó por quimioterapia. Fue entonces cuando le hizo a su oncólogo la pregunta que da origen a este libro: qué podía hacer él, además del tratamiento, para que aquello no volviera.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta que recibió fue que nada en particular, que comiera de todo y llevara una vida normal. Servan-Schreiber cuenta que aquello le pareció una respuesta insuficiente, y que se pasó los años siguientes leyendo literatura científica para ver si era cierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en Francia en 2007, vendió más de un millón de ejemplares en su país y se tradujo a decenas de idiomas. Su título completo es un programa: prevenir y luchar gracias a nuestras defensas naturales, y ese subtítulo ya contiene la ambigüedad de todo el asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tesis de partida es correcta y bien establecida. Prácticamente todos tenemos células con mutaciones potencialmente cancerosas circulando en el cuerpo, y la mayoría no llegan nunca a nada, porque el sistema inmunitario las elimina o porque no encuentran condiciones para crecer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca su metáfora central, que es la del terreno. Una semilla necesita tierra: si el cuerpo ofrece inflamación crónica, exceso de factores de crecimiento y vasos sanguíneos nuevos con facilidad, el tumor prospera; si no los ofrece, la semilla se queda ahí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre esa metáfora construye cuatro pilares que estructuran el libro entero. La alimentación, el ejercicio físico, la gestión del estrés y las emociones, y la reducción de la exposición a tóxicos ambientales. Cada uno tiene sus capítulos y sus recomendaciones concretas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que decir de entrada lo que dice él, porque casi todos sus lectores lo olvidan: repite muchas veces, y con claridad, que nada de esto sustituye al tratamiento médico. Que es un complemento, que él se operó y se puso quimioterapia, y que quien no lo haga se equivoca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa advertencia es la que separa este libro de la mayoría de los que comparten estantería con él. También es la que peor se transmite, porque el mensaje que llega al público es que hay una manera de comer que protege del cáncer, y el matiz se pierde por el camino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema del libro no es lo que niega, sino cuánto afirma. Servan-Schreiber toma un cuerpo de evidencia real y desigual, y lo presenta con una confianza uniforme, sin distinguir entre lo que está demostrado en personas y lo que solo se ha visto en placas de laboratorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción es la clave para leerlo, y merece explicarse porque sirve para cualquier libro de este tipo. Hay tres niveles de prueba, y en un texto divulgativo suelen mezclarse hasta parecer uno solo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El primero es el laboratorio: una sustancia mata células tumorales en una placa. El segundo es el animal: hace algo en un ratón. Y el tercero es el ensayo clínico: se prueba en personas, con grupo de control, y se mide si viven más o enferman menos.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La distancia entre el primero y el tercero es enorme. En una placa se puede matar cualquier célula tumoral con lejía; el problema es hacerlo dentro de un cuerpo sin matar al cuerpo. Y las concentraciones que funcionan en una placa suelen ser inalcanzables comiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La inmensa mayoría de las cosas que han funcionado en el nivel uno han fracasado después en el tres. Es la historia entera de la investigación oncológica, y quien no lo tenga presente leerá este libro con mucho más optimismo del que corresponde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho eso, hay una parte de sus recomendaciones que sí está respaldada por evidencia en personas y por organismos internacionales, y hay otra que no. Conviene ir por partes, empezando por la que ocupa más páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi la mitad del libro habla de comida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De qué poner y qué quitar de la cesta de la compra.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La cocina",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su lista de alimentos recomendados es concreta y se ha reproducido en miles de artículos: crucíferas como el brócoli y la col, cúrcuma con pimienta negra, té verde, frutos rojos, ajo y cebolla, setas, chocolate negro, aceite de oliva y pescado azul.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su lista de lo que hay que reducir: azúcar y harinas refinadas, carne roja y procesada, exceso de omega-6 —que está en los aceites de girasol y de maíz y en la carne de animales alimentados con grano—, y alcohol más allá de una copa de vino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leída así, es una dieta mediterránea con especias. Prácticamente todo lo que recomienda coincide con lo que recomendaría cualquier nutricionista para reducir el riesgo cardiovascular, y por ahí el consejo es sensato aunque los motivos que da no lo sean.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El argumento más repetido y más discutible",
+          frase: "Que el azúcar alimenta al tumor. Se apoya en el efecto Warburg, que es real: las células tumorales consumen glucosa a una velocidad muy superior a la normal, y eso se aprovecha para verlas en las pruebas de imagen con glucosa marcada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El salto que hace el libro es de ahí a la cocina: si el tumor come glucosa, quitar azúcar de la dieta lo debilitará. Y ese salto no se sostiene, por una razón fisiológica que ninguna dieta puede saltarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La glucosa en sangre está regulada dentro de un margen estrechísimo. Si uno deja de comer azúcar, el hígado la fabrica a partir de otras cosas, porque el cerebro la necesita. Ningún régimen alimentario consigue que un tumor se quede sin glucosa mientras el resto del cuerpo sigue vivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las principales sociedades oncológicas del mundo tienen páginas dedicadas expresamente a desmontar esta idea, precisamente porque circula tanto. Ningún ensayo clínico ha demostrado que retirar el azúcar frene un tumor ya existente en una persona.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Donde sí hay una relación real es por otro camino. La obesidad y la resistencia a la insulina aumentan el riesgo de al menos trece tipos de cáncer, y eso está sólidamente documentado. O sea que comer menos azúcar ayuda, pero por el peso y el metabolismo, no por matar de hambre a nada.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo caballo de batalla del libro es la cúrcuma, a la que dedica páginas entusiastas. La curcumina, su principio activo, es una de las sustancias más estudiadas en laboratorio: inhibe crecimiento tumoral, angiogénesis e inflamación en cultivos celulares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Servan-Schreiber recomienda tomarla con pimienta negra, y ese consejo tiene fundamento: la piperina multiplica su absorción, que de otro modo es bajísima. Es un detalle real y bien documentado y explica por qué en la cocina india van siempre juntas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es lo que pasó después. En 2017, un grupo de químicos medicinales publicó una revisión demoledora en una revista de la Sociedad Química Americana, señalando que la curcumina es el ejemplo de manual de una molécula que da positivo en casi cualquier ensayo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento es técnico y contundente: la curcumina interfiere con los métodos de detección, es inestable, se absorbe fatal y se degrada rápido, y pese a miles de artículos y a más de cien ensayos clínicos no ha producido ni un solo fármaco aprobado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no significa que echar cúrcuma a la comida sea malo. Significa que la promesa que el libro le cuelga —tomarla a diario como parte de una estrategia contra el cáncer— no tiene respaldo en personas, y que veinte años después de aquel entusiasmo sigue sin tenerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el té verde pasa algo parecido. Los estudios de laboratorio sobre sus catequinas son prometedores; los estudios en poblaciones humanas dan resultados inconsistentes según el país, y las dosis que funcionan en un tubo de ensayo equivalen a litros diarios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con las crucíferas, que es su recomendación estrella, la situación es la mejor de todas y aun así modesta. Hay estudios observacionales que asocian el consumo alto de verduras crucíferas con menos riesgo de algunos tumores, con efectos pequeños y difíciles de aislar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema de fondo de toda la nutrición y el cáncer es ese: quien come mucho brócoli suele además fumar menos, moverse más, beber menos y tener más dinero, y separar el efecto del brócoli de todo lo demás es endiabladamente difícil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una parte de sus consejos alimentarios que sí tiene detrás evidencia de primer nivel, y es la que menos ocupa en el libro: reducir el alcohol y reducir la carne procesada. Las dos cosas están clasificadas como cancerígenas por la agencia internacional correspondiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El alcohol está en el grupo uno, el de los cancerígenos comprobados en humanos, y se relaciona con siete tipos de tumor, entre ellos el de mama, sin que exista un umbral seguro conocido. Servan-Schreiber, sin embargo, recomienda una copa de vino tinto al día por el resveratrol.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa recomendación concreta ha envejecido mal. La idea del vino protector se ha ido cayendo en la última década, y los organismos de salud pública han pasado de hablar de consumo moderado a decir que cuanto menos, mejor. Es de las páginas del libro que hoy no se sostienen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En resumen: la dieta que propone es sensata, coincide con lo que se recomienda por otros motivos, y los mecanismos que da para justificarla van bastante por delante de lo que se sabe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segundo pilar tiene mucho mejor respaldo y ocupa mucho menos espacio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el tercero, al revés: es el que más páginas se lleva y el que peor aguanta.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El gimnasio y la respiración",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La recomendación de ejercicio del libro es de media hora diaria de actividad moderada, andar a buen paso incluido, y es la parte de todo el programa que descansa sobre el terreno más firme. Aquí Servan-Schreiber no está adelantándose a la evidencia: la está resumiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La actividad física se asocia con una reducción del riesgo de varios tipos de cáncer —colon, mama y endometrio son los mejor documentados— y esa asociación aparece en cohortes enormes, en países distintos y con métodos distintos, lo cual es lo que da confianza.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y lo que no se sabía en 2007",
+          frase: "Que el ejercicio también mejora los resultados en personas que ya tienen un diagnóstico. Los estudios posteriores en supervivientes de cáncer de mama y de colon apuntan a menos recaídas y mejor supervivencia, y hoy la actividad física forma parte de las recomendaciones oncológicas estándar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En eso el libro acertó de pleno y por adelantado. También acertó al insistir en el peso corporal, que es uno de los factores modificables con más peso en la incidencia de cáncer y que en 2007 todavía no estaba en la conversación pública como lo está ahora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer pilar es la gestión del estrés y de las emociones, y ahí el libro cambia de naturaleza. Deja de resumir evidencia y empieza a defender una tesis que, mirada con los datos que hay hoy, no se puede sostener en la forma en que él la sostiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento es que el estrés crónico y las emociones no expresadas alteran la respuesta inmunitaria y la inflamación, y que eso favorece el desarrollo tumoral. Propone meditación, yoga, terapia, y una técnica de respiración lenta para regular la variabilidad del ritmo cardiaco.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El mecanismo biológico existe: el estrés crónico eleva el cortisol y modifica marcadores inflamatorios e inmunitarios, y eso está medido. La pregunta es otra: si ese cambio se traduce en más cáncer y en peor supervivencia en personas reales, a lo largo de años.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa pregunta se ha estudiado en serio, con cohortes gigantescas, precisamente porque la intuición popular es tan fuerte. Los resultados no acompañan la tesis del libro, y conviene decirlo con nombres y cifras porque el asunto tiene consecuencias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un consorcio europeo publicó en 2013 un análisis conjunto con más de cien mil trabajadores seguidos durante años, y no encontró ninguna asociación entre el estrés laboral y el riesgo de desarrollar cáncer de colon, pulmón, mama o próstata.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los registros nacionales daneses, que permiten seguir a poblaciones enteras, se han usado para mirar si acontecimientos vitales devastadores —la muerte de un hijo, un divorcio— aumentan la incidencia de cáncer, y los resultados han sido en general negativos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro pilar de esta parte es la idea de que el apoyo psicológico alarga la vida de los enfermos, y tiene una historia muy instructiva. En 1989, un estudio de un psiquiatra de Stanford encontró que las mujeres con cáncer de mama que iban a terapia de grupo vivían más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel resultado se hizo famosísimo y cambió la práctica de muchos hospitales. El problema es que no se ha replicado. Los intentos posteriores, incluido uno del propio autor original publicado en 2007, no encontraron diferencias de supervivencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un análisis publicado ese mismo año en una revista de psicología repasó toda esa literatura y concluyó que la esperanza había ido por delante de los datos: la terapia mejora claramente la calidad de vida y el estado de ánimo, y no hay pruebas de que alargue la supervivencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y otro trabajo con más de mil pacientes de cáncer de cabeza y cuello comprobó que el bienestar emocional al inicio del tratamiento no predecía cuánto iban a vivir. Es un resultado incómodo y bastante robusto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esto importa por algo más que la exactitud. Si el estado de ánimo influye en el curso de la enfermedad, entonces el enfermo que empeora ha hecho algo mal, y esa idea aplasta a mucha gente en el peor momento posible de su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La periodista Barbara Ehrenreich escribió un libro entero sobre esto después de pasar por un cáncer de mama, y su reproche es exacto: la exigencia de mantener una actitud positiva convierte una desgracia en una responsabilidad y prohíbe estar hecho polvo con razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir en descargo de Servan-Schreiber que él no culpa a nadie y que evita explícitamente el discurso de la personalidad cancerígena. Pero su libro se apoya en esa literatura, y el mensaje que llega al lector es que gestionar bien las emociones cambia el pronóstico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está fuera de discusión es que el apoyo psicológico y las técnicas de relajación mejoran cómo se pasan los meses de tratamiento: menos ansiedad, mejor sueño, mejor tolerancia. Eso es mucho y basta para recomendarlas sin necesidad de prometer más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su cuarto pilar, el de los tóxicos ambientales, tiene el mismo problema en versión reducida: mezcla riesgos bien establecidos con otros que están en discusión, y trata a todos con la misma alarma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para saber qué hay que hacer de verdad hay un documento mucho menos ameno que este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con bastantes más autores detrás.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El informe del Fondo Mundial",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En el mismo año en que salió este libro, 2007, el Fondo Mundial para la Investigación del Cáncer y el Instituto Americano para la Investigación del Cáncer publicaron un informe conjunto que sigue siendo la referencia del campo, actualizado después en 2018.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es un libro de un autor: es la revisión sistemática de miles de estudios hecha por paneles internacionales de especialistas, con criterios explícitos de calidad y con una gradación de la evidencia en cada afirmación. Es aburridísimo y es lo que hay que mirar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cuánto se puede prevenir",
+          frase: "La Organización Mundial de la Salud estima que entre un tercio y la mitad de los cánceres serían evitables actuando sobre factores conocidos. La cifra suena enorme y lo es, y la mayor parte de esa proporción no viene de superalimentos: viene de cuatro o cinco cosas muy poco glamurosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera y con muchísima diferencia es el tabaco, responsable de una parte enorme del total. Después, el exceso de peso corporal, el alcohol, el sedentarismo, algunas infecciones prevenibles con vacuna, y la exposición solar sin protección.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las recomendaciones del informe de 2018 son diez y se resumen rápido: mantener un peso saludable, moverse a diario, comer mucha verdura y legumbre, limitar la comida ultraprocesada, limitar la carne roja y evitar la procesada, limitar las bebidas azucaradas y limitar el alcohol.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y una recomendación explícita que va justo en contra del reflejo del comprador de suplementos: no confiar en pastillas ni en cápsulas para prevenir el cáncer. El panel dice que la protección debe buscarse en la alimentación entera y no en compuestos aislados.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese punto tiene detrás una historia que conviene conocer. En los años noventa se probaron en ensayos grandes suplementos antioxidantes que en laboratorio parecían protectores, y en dos de ellos el grupo que tomaba betacaroteno tuvo más cáncer de pulmón, no menos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los ensayos hubo que detenerlos. Es el recordatorio más útil de todo este campo: una sustancia que hace algo bueno en una placa puede hacer daño en una persona, y la única manera de saberlo es probarlo, no deducirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El informe añade además una advertencia sobre las cifras que maneja, y es de las cosas más honradas que contiene. Casi toda la evidencia sobre alimentación y cáncer es observacional, y en ese tipo de estudios las asociaciones pequeñas son extremadamente difíciles de interpretar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso el panel gradúa cada afirmación en tres niveles: convincente, probable y limitada. Muy pocas cosas llegan a convincente, y las que llegan son las de siempre: el peso, el alcohol, la carne procesada y la actividad física. Lo demás vive en los escalones de abajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle metodológico explica por qué los titulares sobre alimentos y cáncer cambian cada seis meses. No es que la ciencia se contradiga: es que se están publicando asociaciones pequeñas que aparecen y desaparecen según qué población se mire y cómo se ajusten los datos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Comparado con esa lista, el programa de Servan-Schreiber acierta en lo esencial y se desvía en el énfasis. Sus cuatro pilares recogen el peso, el ejercicio y la alimentación; y donde el informe dice que la evidencia es limitada, el libro pone entusiasmo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un desequilibrio de proporción que salta a la vista al comparar los dos textos. El tabaco, que es de largo el mayor factor evitable, ocupa muy poco espacio en el libro; la cúrcuma y el té verde ocupan mucho más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no es casual y no es exclusivo de este autor. Un libro que dijera no fumes, adelgaza, muévete y bebe menos, en cuarenta páginas, sería exacto y no lo compraría nadie. La estantería de salud premia lo que se puede añadir a la vida, no lo que hay que quitar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otra distinción que el libro difumina y que es la más importante de todas: la diferencia entre reducir el riesgo de que aparezca un cáncer y modificar el curso de uno que ya está ahí. Son dos preguntas distintas con dos niveles de evidencia muy distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para lo primero hay datos poblacionales sólidos y recomendaciones internacionales. Para lo segundo hay muchísimo menos, y casi todo lo que se sabe apunta a que el estilo de vida ayuda a tolerar mejor el tratamiento y a recuperarse, no a sustituirlo ni a frenar el tumor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un lector con un diagnóstico reciente que abra este libro buscando qué puede hacer va a encontrar respuestas concretas y esperanzadoras, y ese es a la vez su mayor mérito y su mayor riesgo, según lo que decida hacer con ellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Servan-Schreiber era plenamente consciente de ese riesgo y vuelve una y otra vez sobre él. Insiste en que no ha visto nunca a nadie curarse con dieta, en que él mismo se sometió a todo lo que la medicina convencional le ofreció, y en que lo suyo es un añadido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay que reconocerle algo que el tiempo le ha dado: en 2007 defendía que el estilo de vida importa en oncología y que había que estudiarlo, y aquello sonaba a medicina alternativa. Hoy hay unidades hospitalarias dedicadas a eso y la conversación ha cambiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le dio una cosa a mucha gente que no es despreciable: algo que hacer. Un diagnóstico oncológico coloca a la persona en una posición de pasividad total, y tener una lista de cosas que dependen de uno tiene un valor psicológico que él conocía bien por experiencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta que quedaba flotando sobre el libro desde el primer día era otra, y era cruel: qué pasaría si al autor le volvía el tumor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque el libro entero está escrito por alguien que se presentaba como la prueba viviente de lo que contaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2010 le volvió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esta vez no había operación posible.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El 24 de julio de 2011",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El tumor reapareció dieciocho años después del primer diagnóstico, y esta vez de una manera que no dejaba margen. Servan-Schreiber tenía cuarenta y nueve años, había vendido millones de libros explicando cómo mantener el cáncer a raya, y sabía perfectamente lo que se venía encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió entonces un último libro corto en el que se enfrenta a la pregunta de frente, sin escurrirse. Sabía que su muerte se iba a leer como el desmentido de su obra, y decidió contestar antes de que se lo preguntaran.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su respuesta",
+          frase: "Que en 1992 le habían dado unos pocos años y había vivido diecinueve, la mayoría de ellos trabajando, escribiendo y con buena calidad de vida. Que él nunca había prometido la inmortalidad, sino una manera de vivir mejor y de ganar tiempo. Y que la muerte no anula lo vivido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió el 24 de julio de 2011, a los cincuenta años. Lo honrado es decir que su caso no demuestra nada en ninguna de las dos direcciones. Sobrevivir diecinueve años a un tumor cerebral maligno es extraordinario, y con un solo paciente no se puede saber por qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La supervivencia en estos tumores varía enormemente según el tipo exacto, la localización, la edad, la genética del tumor y la respuesta al tratamiento. Hay pacientes que viven décadas sin haber cambiado una coma de su dieta, y otros que hacen todo bien y no llegan al año.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es exactamente el problema de razonar con casos individuales, y es el que hace que existan los ensayos clínicos. Un testimonio, por sincero y por documentado que esté, no distingue entre lo que funcionó y lo que habría pasado igual sin hacer nada.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, el balance ordenado. Lo que el libro acierta: el ejercicio físico, el control del peso, reducir el alcohol y comer más verdura y menos ultraprocesado. Todo eso reduce el riesgo de varios tipos de cáncer y está en las recomendaciones internacionales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Acierta también al defender que estas cosas se estudien en serio dentro de la oncología, y al insistir en que el paciente puede hacer algo por su cuenta sin abandonar el tratamiento. Eso en 2007 era una posición minoritaria y hoy es mayoritaria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no aguanta: el azúcar como combustible del tumor tal como lo plantea, la cúrcuma y el té verde como agentes anticancerosos en personas, la copa diaria de vino, y sobre todo la idea de que gestionar el estrés y las emociones modifica el curso de la enfermedad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese último punto es el más importante porque es el que puede hacer daño. Las cohortes grandes no encuentran relación entre estrés y aparición de cáncer, y los ensayos de intervención psicológica mejoran la calidad de vida sin alargar la supervivencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un problema de método que atraviesa el libro entero y que conviene saber detectar en cualquier obra parecida: cita centenares de estudios, y no distingue entre los que están hechos en placas, en ratones o en personas. Todos aparecen con la misma autoridad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y otro de actualización: se publicó en 2007 y algunas de sus posiciones han sido superadas por lo que se ha investigado después, especialmente en lo del alcohol y en lo de la psicooncología. Ningún libro de salud de hace veinte años debería leerse sin comprobar qué ha cambiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree de este libro y no es verdad, uno: que dice que la dieta cura el cáncer. No lo dice en ninguna página, insiste en lo contrario repetidamente, y se sometió él mismo a cirugía y a quimioterapia sin dudarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que quitar el azúcar mata de hambre al tumor. La glucosa en sangre se mantiene aunque uno deje de comer azúcar, porque el hígado la fabrica. Ningún ensayo clínico ha demostrado que esa estrategia frene nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que su muerte demuestra que el libro estaba equivocado. No demuestra nada: un caso no es evidencia, ni a favor cuando vivía ni en contra cuando murió. Lo que refuta partes del libro son las cohortes y los ensayos, no su necrológica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro: que existe una categoría de alimentos anticáncer. La epidemiología nutricional trabaja con patrones de alimentación y con riesgos relativos pequeños, no con alimentos que combaten tumores. Esa categoría la inventó el mercado editorial, no la ciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cinco: que sus recomendaciones son una alternativa al tratamiento. Son un complemento, y quien las use para retrasar una cirugía o una quimioterapia está haciendo justo lo que el autor pasó cuatro años pidiendo por escrito que no se hiciera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien quiere una sola cosa práctica de todo esto, no está en la lista de alimentos. Está en lo aburrido: no fumar, mantener un peso razonable, moverse media hora al día, beber poco o nada y no faltar a los cribados que le tocan por edad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso, según los organismos internacionales, cubre una parte enorme de todo lo que un individuo puede hacer. Lo demás son márgenes, y los márgenes están bien mientras no se confundan con el centro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Servan-Schreiber lo sabía y lo escribió. Lo que pasa es que sus lectores compraron el libro por la cúrcuma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y él, con toda su formación, escribió más páginas sobre la cúrcuma que sobre el tabaco.",
+        },
+      ],
+    },
+  ],
+};
