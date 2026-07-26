@@ -105,7 +105,7 @@ export const CATALOGO: Ficha[] = [
   { id: "modos-ver", titulo: "Modos de ver", autor: "John Berger", ano: 1972, categoria: "Arte", estado: "escrito" },
   { id: "acto-creativo", titulo: "El acto creativo", autor: "Rick Rubin", ano: 2023, categoria: "Arte", estado: "escrito" },
   { id: "roba-artista", titulo: "Roba como un artista", autor: "Austin Kleon", ano: 2012, categoria: "Arte", estado: "escrito" },
-  { id: "camino-artista", titulo: "El camino del artista", autor: "Julia Cameron", ano: 1992, categoria: "Arte", estado: "pendiente" },
+  { id: "camino-artista", titulo: "El camino del artista", autor: "Julia Cameron", ano: 1992, categoria: "Arte", estado: "escrito" },
   { id: "cartas-joven-poeta", titulo: "Cartas a un joven poeta", autor: "Rainer Maria Rilke", ano: 1929, categoria: "Arte", estado: "escrito" },
   { id: "leonardo", titulo: "Leonardo da Vinci", autor: "Walter Isaacson", ano: 2017, categoria: "Arte", estado: "escrito" },
   { id: "arte-sin-hombres", titulo: "Historia del arte sin hombres", autor: "Katy Hessel", ano: 2022, categoria: "Arte", estado: "escrito" },
@@ -185,7 +185,7 @@ export const CATALOGO: Ficha[] = [
   { id: "dilema-omnivoro", titulo: "El dilema del omnívoro", autor: "Michael Pollan", ano: 2006, categoria: "Salud", estado: "escrito" },
   { id: "aliento-aire", titulo: "Cuando el aliento se vuelve aire", autor: "Paul Kalanithi", ano: 2016, categoria: "Salud", estado: "escrito" },
   { id: "milagro-manana", titulo: "Mañanas milagrosas", autor: "Hal Elrod", ano: 2012, categoria: "Salud", estado: "pendiente" },
-  { id: "come-comida-real", titulo: "Come comida real", autor: "Carlos Ríos", ano: 2019, categoria: "Salud", estado: "pendiente" },
+  { id: "come-comida-real", titulo: "Come comida real", autor: "Carlos Ríos", ano: 2019, categoria: "Salud", estado: "escrito" },
   { id: "invencible", titulo: "Invicto", autor: "Marcos Vázquez", ano: 2021, categoria: "Salud", estado: "pendiente" },
   { id: "zonas-azules", titulo: "El secreto de las zonas azules", autor: "Dan Buettner", ano: 2008, categoria: "Salud", estado: "escrito" },
 ];
