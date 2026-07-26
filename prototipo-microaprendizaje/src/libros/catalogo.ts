@@ -187,7 +187,7 @@ export const CATALOGO: Ficha[] = [
   { id: "madame-bovary", titulo: "Madame Bovary", autor: "Gustave Flaubert", ano: 1856, categoria: "Literatura", estado: "escrito" },
   { id: "ana-karenina", titulo: "Ana Karenina", autor: "León Tolstói", ano: 1877, categoria: "Literatura", estado: "escrito" },
   { id: "guerra-y-paz", titulo: "Guerra y paz", autor: "León Tolstói", ano: 1869, categoria: "Literatura", estado: "pendiente" },
-  { id: "los-miserables", titulo: "Los miserables", autor: "Victor Hugo", ano: 1862, categoria: "Literatura", estado: "pendiente" },
+  { id: "los-miserables", titulo: "Los miserables", autor: "Victor Hugo", ano: 1862, categoria: "Literatura", estado: "escrito" },
   { id: "moby-dick", titulo: "Moby Dick", autor: "Herman Melville", ano: 1851, categoria: "Literatura", estado: "escrito" },
   { id: "montecristo", titulo: "El conde de Montecristo", autor: "Alejandro Dumas", ano: 1844, categoria: "Literatura", estado: "escrito" },
   { id: "rayuela", titulo: "Rayuela", autor: "Julio Cortázar", ano: 1963, categoria: "Literatura", estado: "escrito" },
