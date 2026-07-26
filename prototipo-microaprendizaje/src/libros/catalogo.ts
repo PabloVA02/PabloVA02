@@ -217,7 +217,7 @@ export const CATALOGO: Ficha[] = [
   { id: "error-descartes", titulo: "El error de Descartes", autor: "Antonio Damasio", ano: 1994, categoria: "Psicología", estado: "escrito" },
   { id: "intro-psicoanalisis", titulo: "Introducción al psicoanálisis", autor: "Sigmund Freud", ano: 1917, categoria: "Psicología", estado: "escrito" },
   { id: "maneras-de-amar", titulo: "Maneras de amar", autor: "Levine y Heller", ano: 2010, categoria: "Psicología", estado: "pendiente" },
-  { id: "sentirse-bien", titulo: "Sentirse bien", autor: "David D. Burns", ano: 1980, categoria: "Psicología", estado: "pendiente" },
+  { id: "sentirse-bien", titulo: "Sentirse bien", autor: "David D. Burns", ano: 1980, categoria: "Psicología", estado: "escrito" },
 
   /* --- Economía --------------------------------------------------------- */
   { id: "psicologia-dinero", titulo: "La psicología del dinero", autor: "Morgan Housel", ano: 2020, categoria: "Economía", estado: "escrito" },

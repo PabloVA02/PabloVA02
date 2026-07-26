@@ -7101,3 +7101,647 @@ export const MARTE_VENUS: Resumen = {
     },
   ],
 };
+
+export const SENTIRSE_BIEN: Resumen = {
+  id: "sentirse-bien",
+  titulo: "Sentirse bien",
+  autor: "David D. Burns",
+  ano: 1980,
+  gancho:
+    "Es el único libro de autoayuda que se ha probado en ensayos clínicos como si fuera un medicamento. Y salió bien. Lo raro es que su autor acabó publicando datos contra la teoría que lo sostiene.",
+  porQue:
+    "Porque es el manual que puso la terapia cognitiva en manos de cualquiera, con un lápiz y una hoja de tres columnas. Y porque su historia enseña algo que casi ningún libro cuenta: que un ejercicio puede funcionar aunque la explicación de por qué funciona sea falsa.",
+  partes: [
+    {
+      titulo: "El residente que quería darle la razón a Freud",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "A principios de los sesenta, en el hospital de la Universidad de Pensilvania, un psiquiatra de formación psicoanalítica llamado Aaron Beck se pasaba las mañanas recogiendo los sueños de sus pacientes deprimidos. No buscaba refutar nada. Buscaba pruebas de que Freud tenía razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La teoría que quería confirmar era la de la agresión vuelta hacia dentro: el deprimido estaría castigándose a sí mismo con una hostilidad que no se atreve a dirigir a otro. Si eso fuera cierto, los sueños tendrían que estar llenos de rabia, de violencia, de venganza reprimida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beck publicó los resultados con Ward en 1961 y no había tal cosa. Los sueños de los pacientes deprimidos iban de pérdidas, de exclusión, de fracaso y de abandono. Eran tristes, no furiosos. Y se parecían muchísimo a lo que aquellos mismos pacientes contaban despiertos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Vino después un experimento aún más incómodo para la teoría. Si el deprimido necesita sufrir, el éxito debería empeorarlo. Beck y sus colaboradores les dieron una tarea y les dijeron que la habían hecho bien: en vez de hundirse, subieron sus expectativas y mejoraron en la siguiente.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión que sacó de ahí es la que cambia el siglo. El deprimido no se está castigando: se está creyendo algo. Tiene una idea muy concreta y muy negativa sobre sí mismo, sobre el mundo y sobre lo que le espera, y esa idea se puede escuchar, escribir y comprobar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El precio profesional fue alto. Beck ha contado que su solicitud para formar parte del instituto psicoanalítico fue rechazada, y que le llegaron a decir que su empeño en hacer investigación era en sí mismo una señal de resistencia. Trabajó bastantes años al margen del gremio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En los setenta llegó a su servicio un residente joven que venía de la investigación biológica y que escribía muy bien: David Burns. Beck tenía la teoría, el método y los primeros ensayos. Lo que no tenía era a nadie capaz de contarlo fuera de una revista científica.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La idea entera",
+          frase: "No te hunde lo que te pasa: te hunde lo que te dices sobre lo que te pasa. Y eso, a diferencia de lo que te pasa, cabe en un papel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea no era nueva y Beck lo sabía. En la primera página citaba a Epicteto: a los hombres no los perturban las cosas, sino las opiniones que tienen sobre las cosas. Está en el «Enquiridión», que también anda por esta biblioteca, escrito hacia el año ciento veinticinco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene ver dónde se separan, porque no dicen lo mismo. Epicteto propone cambiar el juicio porque el resto no depende de ti, y eso es una forma de aceptación. Beck propone cambiar el juicio porque el juicio suele ser sencillamente falso, y eso es una forma de comprobación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco era el primero del siglo. Albert Ellis llevaba desde 1955 haciendo algo muy parecido con su terapia racional emotiva, y le puso a la tiranía de los «debería» el nombre impagable de «musturbación». Burns lo reconoce en el libro, cosa que casi ningún resumen posterior repite.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En 1980 Burns publicó «Feeling Good» en edición de bolsillo, en la mesa de novedades del supermercado y no en el catálogo de una editorial universitaria. Esa decisión, que parece de marketing, es la que convierte un procedimiento clínico en algo que alguien puede hacer solo en su cocina.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se han vendido más de cuatro millones de ejemplares. Y cuando John Norcross encuestó a psicólogos estadounidenses sobre qué libros de autoayuda recomendaban a sus pacientes, en 1994 y otra vez en 2003, este quedó el primero de la lista las dos veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo verdaderamente radical en 1980 no era la teoría, sino el destinatario. El libro le dice al lector que puede hacer esto por su cuenta, con un bolígrafo, sin tumbarse en ningún diván durante seis años y sin esperar a que una pastilla le arregle la química del cerebro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empieza además con un cuestionario y con una instrucción que suena a laboratorio: puntúate hoy y vuelve a puntuarte cada semana. Antes de proponer ninguna técnica, el libro instala la costumbre de medir, que es lo que permite saber si algo está sirviendo o no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una cosa que el libro no es, por mucho que se le atribuya: no es pensamiento positivo. Burns lo repite con impaciencia a lo largo de trescientas páginas. El objetivo no es pensar bonito, es pensar exacto. Son cosas distintas y a menudo incompatibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción es la primera que pierde el lector apresurado. La tercera columna de la hoja no pide una frase más amable: pide una frase más verdadera. A veces la frase verdadera es peor que la que traías, y el método exige escribirla igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El armazón del libro es sencillo: primero la teoría, después el catálogo de errores de pensamiento, después los ejercicios, y a partir de ahí capítulos temáticos sobre la ira, la culpa, la necesidad de aprobación, la dependencia del amor, el trabajo como medida del valor y la postergación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una parte final sobre fármacos que ya en 1980 era contracorriente. Burns escribía que las teorías biológicas de la depresión estaban lejos de estar demostradas. En las ediciones posteriores y en sus libros recientes lo dice bastante más claro y bastante más alto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste con «Introducción al psicoanálisis», que también está aquí, no es solo teórico: es económico. El método de Freud necesita años y un intérprete cualificado. El de Beck necesita doce semanas y un formulario. Eso explica por qué uno se quedó en las consultas y el otro llegó a la sanidad pública.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ayudó también que 1980 fuera el año del DSM-III, el manual que redefinió la depresión como una lista de síntomas contables en lugar de como un conflicto interno que había que interpretar. El libro y el manual empujaban en la misma dirección sin haberse puesto de acuerdo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Burns no fue el teórico de nada de esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fue el que lo escribió para que se entendiera sin haber estudiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De las dos tareas, resultó ser la difícil.",
+        },
+      ],
+    },
+    {
+      titulo: "Las diez trampas del cuaderno",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Imagina que das una charla de veinte minutos. Al terminar, dieciocho personas se acercan a felicitarte y una comenta, de pasada, que se le hizo un poco larga. Esa noche, tumbado en la cama, la única frase que suena en tu cabeza es la última.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Burns sostiene que eso no es mala suerte ni carácter: es una operación reconocible, que tiene nombre y que se repite. En el capítulo tres enumera diez. Esa lista es probablemente la página más fotocopiada de la historia de la autoayuda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera es el pensamiento de todo o nada. Solo hay dos casillas, perfecto y desastre, y como perfecto casi nunca ocurre, todo cae en la segunda. Es la que convierte una galleta de más en «ya he roto la dieta, para qué seguir».",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es la generalización excesiva, que se detecta por dos palabras: siempre y nunca. Un no de una persona concreta un martes concreto se transforma, sin que nadie lo autorice, en una ley general sobre cómo te va a ir el resto de tu vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es el filtro mental, que es lo de la charla. De veinte datos disponibles la cabeza selecciona uno, lo pone en primer plano y apaga los otros diecinueve. No es que mienta: es que ha decidido de antemano qué parte de la verdad va a mirar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta va un paso más allá y es más activa: descalificar lo positivo. Aquí los otros diecinueve datos no se ignoran, se desactivan uno a uno. «Lo dijeron por educación.» «Salió bien de milagro.» «Cualquiera lo habría hecho.» Es un trabajo, y agota.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La quinta son las conclusiones precipitadas, y viene en dos sabores. Leer la mente: dar por hecho que sabes lo que el otro piensa de ti sin haberlo preguntado. Y adivinar el futuro: dar por hecho cómo va a salir algo y decidir en consecuencia que no merece la pena intentarlo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La sexta la bautizó con una imagen que se recuerda sola: el truco de los prismáticos. Los errores propios se miran por el lado que agranda y los logros propios por el lado que empequeñece, y con los ajenos se hace exactamente lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La séptima es el razonamiento emocional: me siento inútil, luego soy inútil. Se toma un estado de ánimo como si fuera un informe sobre la realidad. Es la trampa más difícil de ver desde dentro, porque la emoción llega con una convicción que ningún argumento tiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La octava son los «debería», la herencia de Ellis. Apuntados hacia dentro producen culpa; apuntados hacia fuera, indignación permanente contra un mundo que se empeña en no funcionar como debería. Es la misma frase con el sujeto cambiado y dos emociones distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La novena es etiquetar, y es la más barata de detectar porque cambia una palabra. «He fallado» describe algo que ocurrió el jueves. «Soy un fracasado» describe a una persona entera y para siempre. Un verbo se ha convertido en un sustantivo y ya no hay nada que hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La décima es la personalización: hacerse responsable de algo que no controlabas. La madre que recibe las notas de su hijo y concluye que ha fracasado como madre no ha razonado mal por falta de datos, sino porque se ha puesto de causa única de un asunto con veinte causas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que tienen en común",
+          frase: "Casi todas hacen la misma operación: convertir un dato en una sentencia. El trabajo consiste en devolver la sentencia a dato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene decir dónde flojea. Esa lista no salió de ningún experimento: salió de la consulta, de años oyendo a pacientes y agrupando lo que decían. Y las categorías se solapan bastante. Etiquetar es generalizar aplicado a una persona; el filtro mental y descalificar lo positivo son primos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Burns responde a eso con honradez: dice que da igual cuál elijas, que lo importante es ponerle nombre a lo que estás haciendo. Pero eso también significa que el número diez es arbitrario. De hecho circulan versiones de la misma lista con doce distorsiones y con quince.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una confusión que este resumen quiere deshacer, porque está por todas partes. Esta lista no es la de «Pensar rápido, pensar despacio», aunque se parezcan. Los sesgos de Kahneman se midieron en laboratorio con gente sana y con números; las distorsiones de Burns se observaron en consulta con palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo interesante de comparar las dos listas es otra cosa. Los sesgos de Kahneman los tenemos todos y no son síntoma de nada. Así que estas diez trampas tampoco son un pensamiento averiado que la gente sana evita: son el pensamiento de cualquiera, apuntado a uno mismo y repetido mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otra cosa que el libro no dice, por mucho que se le atribuya: no dice que las emociones sean irracionales ni que haya que ignorarlas. Dice que la emoción se deduce fielmente del pensamiento, y que por tanto es una información fiable sobre lo que estás pensando, no sobre el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "«El error de Descartes», que también está en esta biblioteca, le complica bastante la vida a ese punto. Los pacientes de Damasio con la corteza ventromedial dañada conservaban la lógica intacta y arruinaban su vida igualmente, porque la emoción forma parte del juicio en vez de estorbarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De modo que «no razones desde la emoción» es una buena regla clínica para alguien deprimido y una mala teoría general de la mente. El problema es que Burns la escribe como si fuera lo segundo, y ahí es donde el libro se pasa de frenada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda un tercer punto flojo, y es el más serio. Todo el aparato da por hecho que el pensamiento negativo es falso. A veces es verdad. A veces el trabajo es malo de verdad, la relación se acabó de verdad y el diagnóstico es el que es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Burns lo contempla y su respuesta es razonable: incluso ante un problema real hay una frase más exacta que la que estás usando. Pero le dedica tres páginas a eso y ciento cincuenta a las distorsiones, y el lector sale con la proporción cambiada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El lector aprende a llevarle la contraria a su cabeza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aprender a saber cuándo su cabeza tiene razón viene en otro libro.",
+        },
+      ],
+    },
+    {
+      titulo: "Tres columnas y un lápiz",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El corazón del libro es una hoja de papel dividida en tres columnas. No hay aplicación, ni audio, ni nada que comprar. Es una libreta abierta en la mesa de la cocina un martes por la noche, que es más o menos donde ocurre la salud mental real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la primera columna se escribe el pensamiento automático tal cual sonó, con sus palabras exactas y sin suavizarlo, y al lado un porcentaje: cuánto te lo crees ahora mismo, de cero a cien. Ese número es la mitad del ejercicio y casi nadie lo pone.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la segunda se nombra la trampa: filtro mental, etiqueta, adivinar el futuro. En la tercera se escribe una respuesta racional, y al terminar se vuelve a puntuar la creencia en el pensamiento original. Si no ha bajado, la respuesta no valía y hay que buscar otra.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La pregunta obvia es por qué escribirlo y no pensarlo. La respuesta es que la misma frase suena distinta fuera de la cabeza. «Soy un desastre» sobrevive perfectamente dentro; en un papel, con «he llegado tarde dos veces este mes» al lado, se ve el tamaño real de lo que se está afirmando.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una regla que Burns repite y que separa a quien lo hace bien de quien lo abandona: la respuesta racional tiene que ser algo que te creas al menos a medias. Una frase de manual que no te crees no rebaja nada, y encima confirma que esto no funciona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para los «debería» propone otro formato de dos columnas, en el que a un lado va la ventaja de mantener esa exigencia y al otro lo que cuesta. Es un ejercicio ingrato, porque casi siempre resulta que la exigencia tiene una ventaja real y por eso lleva veinte años ahí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para leer la mente propone algo tan simple que da vergüenza: la encuesta. En vez de discutir durante semanas sobre lo que tu cuñado piensa de ti, preguntárselo. La objeción evidente es que la gente miente por educación, y el libro contesta que aun así miente menos que tu imaginación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y luego está la técnica más útil de todo el libro, la flecha vertical. Coges el pensamiento y preguntas: si eso fuera verdad, ¿qué significaría? A la respuesta, la misma pregunta. Y otra vez. Cuatro o cinco pisos hacia abajo se llega a algo que no habías visto nunca escrito.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La flecha vertical",
+          frase: "Debajo de cada pensamiento hay una condición con la forma «valgo si…». La mayoría de la gente ha vivido cuarenta años obedeciendo una frase que jamás ha leído entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sobre postergación trae la hoja antiprocrastinación, que es una apuesta con uno mismo. Antes de empezar una tarea, apuntas del cero al cien lo difícil que crees que va a ser y lo satisfactoria que crees que va a resultar. Al terminar, apuntas lo que ha sido de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al cabo de dos semanas el patrón salta a la vista: sobrevaloramos la dificultad y subestimamos la satisfacción, sistemáticamente y por mucho. No es una moraleja, es un registro con fechas, y por eso convence de un modo que ningún consejo consigue.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la frase que más se le cita: la motivación no viene antes de la acción, viene después. Esperar a tener ganas para empezar es esperar a que el efecto llegue antes que la causa. Empiezas mal y con desgana, y las ganas aparecen en el minuto diez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una última herramienta que parece menor y no lo es: el programa de actividades, una rejilla por horas donde apuntas lo que haces y le pones dos notas de cero a cinco, una de dominio y otra de placer. Viene directamente del manual clínico de Beck.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene retenerla, porque es la pieza menos cognitiva del libro entero y en el último capítulo va a resultar ser la que más trabajo estaba haciendo. Ahí no se discute con ningún pensamiento: solo se planifica el jueves y se anota qué tal fue.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sobre la ira aplica lo mismo a los «debería» dirigidos al prójimo, y tiene una observación buena: casi todo enfado empieza con una expectativa que nadie firmó. El otro no ha incumplido un acuerdo, ha incumplido una regla tuya que no conocía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el de la culpa distingue entre el remordimiento, que es proporcionado y va sobre un acto concreto, y la culpa, que es desproporcionada y va sobre la persona entera. Es exactamente la distinción que treinta años después se hizo famosa con otros nombres: culpa y vergüenza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los capítulos sobre la adicción a la aprobación, la adicción al amor y la ecuación entre valer y producir son, para mi gusto, lo mejor del libro. Ahí no está discutiendo con pensamientos sueltos: está desmontando tres contratos silenciosos que muchísima gente firmó de niña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para eso incluye una versión de la escala de actitudes disfuncionales que Weissman y Beck construyeron en 1978, con la que uno puede localizar cuáles de esas condiciones silenciosas lleva puestas. Es la parte del libro que más se salta el lector y la que más le habría servido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ha envejecido mal son los ejemplos. Amas de casa, ejecutivos con secretaria, un mundo sin móviles y sin comparación permanente con la vida ajena. Lo que en 2026 alimenta la rumiación no aparece en ninguna página, y no es un detalle menor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ha envejecido peor el capítulo de fármacos de la edición de 1980, que habla de tricíclicos e inhibidores de la monoaminooxidasa, con la lista de quesos y vinos prohibidos. La revisión de 1999 añadió los inhibidores de la recaptación de serotonina; el capítulo original es ya un documento histórico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no ha envejecido es el formato. Una hoja que rellenas tú, con tu letra, sobre algo que te pasó a ti esta semana. Cuarenta y seis años después, esa hoja sigue imprimiéndose en las consultas de medio mundo prácticamente igual que en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda una verdad incómoda que el libro no dice y conviene decir aquí: rellenar una hoja de estas cuesta entre veinte y cuarenta minutos de concentración, y la falta de concentración y de energía es justamente uno de los síntomas de lo que se pretende tratar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso el ejercicio más importante es el más pequeño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El que consigues hacer un martes malo a las once de la noche.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que dijeron los ensayos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1977, cuarenta y un pacientes ambulatorios con depresión entraron en un estudio en Pensilvania. La mitad recibió terapia cognitiva durante doce semanas; la otra mitad, imipramina, que era el antidepresivo estándar de la época. Lo firmaban Rush, Beck, Kovacs y Hollon.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ganó la terapia: más mejoría y menos abandonos. Era la primera vez que una terapia de conversación superaba a un fármaco en un ensayo aleatorizado de depresión, y ese solo artículo explica por qué la terapia cognitiva existe hoy como institución y no como rareza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora el detalle que casi nunca se cuenta. En aquel ensayo la medicación se fue retirando durante las dos últimas semanas, justo antes de la medición final. Comparar una terapia que sigue administrándose con un fármaco al que se le está quitando la dosis inclina el resultado antes de empezar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En 1989 llegó la prueba de verdad: el gran ensayo del Instituto Nacional de Salud Mental, doscientos cincuenta pacientes en tres centros y cuatro ramas, terapia cognitiva, terapia interpersonal, imipramina con seguimiento clínico y placebo con el mismo seguimiento.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado fue un jarro de agua fría. En las depresiones leves las cuatro ramas se parecían bastante, placebo incluido. Y en las graves, el fármaco y la terapia interpersonal iban por delante, mientras que la terapia cognitiva no se distinguía con claridad del placebo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La defensa que dieron entonces era plausible y el tiempo le ha dado parte de razón: los resultados de la rama cognitiva variaban muchísimo de un centro a otro, lo que sugiere que en algunos sitios los terapeutas todavía no sabían aplicar bien un método que tenía diez años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La revancha llegó en 2005. DeRubeis y su equipo cogieron doscientos cuarenta pacientes con depresión de moderada a grave, terapeutas experimentados, y compararon terapia cognitiva con paroxetina durante dieciséis semanas. Empataron. Eso zanjó la discusión sobre si servía para los casos serios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en el seguimiento posterior apareció el dato que sigue siendo el mejor argumento a favor. A los pacientes se les retiró el tratamiento: los que habían tomado el fármaco recayeron bastante más que los que habían hecho terapia. Lo aprendido se queda; la dosis, no.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Dónde está la ventaja",
+          frase: "La terapia cognitiva no cura a más gente que la pastilla. Cura a gente que sigue bien un año después de haber dejado el tratamiento, que no es lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo eso vale para la terapia con terapeuta. Y ahora viene lo raro de este libro en concreto, que es la razón por la que merece un resumen y no una nota al pie: alguien se tomó la molestia de probar el libro. El objeto físico, sin terapeuta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Forrest Scogin y sus colaboradores, en la Universidad de Alabama, montaron ensayos aleatorizados en los que el tratamiento consistía literalmente en entregar un ejemplar de este libro, poner un plazo de cuatro semanas y hacer alguna llamada breve de seguimiento. El grupo de control esperaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Funcionó. Las puntuaciones de depresión bajaron de forma significativa frente a los que esperaban, y en un seguimiento posterior a tres años buena parte de la mejoría seguía ahí. Existen resultados parecidos con personas mayores y con adolescentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso convierte a «Sentirse bien» en uno de los poquísimos libros de autoayuda que se han evaluado como se evalúa un tratamiento, en vez de venderse como si lo fuera. En la estantería de al lado, en la misma librería, la inmensa mayoría de los títulos tiene cero ensayos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora las letras pequeñas, que son importantes. Aquellas muestras eran gente que se apuntó respondiendo a un anuncio, con depresión de leve a moderada, y se excluyó a los casos graves y a quien tuviera ideación suicida. Los grupos eran pequeños. No se puede extrapolar a cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una diferencia de fondo entre el libro del ensayo y el libro de la mesilla. En el ensayo hay un plazo, un cuestionario que rellenar y alguien que llama por teléfono. La autoayuda guiada y la no guiada dan resultados muy distintos, y esa es de las cosas más constantes del campo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora la mala noticia, que no es de este libro sino de todo el campo. Johnsen y Friborg revisaron en 2015 setenta estudios publicados entre 1977 y 2014, y encontraron que el efecto de la terapia cognitiva sobre la depresión ha ido menguando de forma sostenida hasta quedar en aproximadamente la mitad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las explicaciones posibles no son halagüeñas para nadie. Los primeros ensayos los dirigían los que habían inventado el método y creían en él, que es un sesgo con nombre propio. Los grupos de control de entonces eran más flojos. Y los pacientes estaban más seleccionados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso se suma el sesgo de publicación. Cuijpers y su equipo estimaron cuántos ensayos con resultados malos nunca llegaron a publicarse, corrigieron las cifras en consecuencia, y el efecto de la psicoterapia sobre la depresión cae alrededor de un tercio respecto a lo que dicen las revisiones sin corregir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto significa que no sirva. Corregido a la baja, sigue sirviendo, y sigue siendo de lo mejor que hay. Significa otra cosa más incómoda: que el número que tienes en la cabeza sobre cuánto funciona es más grande que el número real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo patrón que se ha comido media psicología de los últimos quince años, y que en esta biblioteca aparece en «Pensar rápido, pensar despacio»: el propio Kahneman acabó reconociendo por escrito que el capítulo sobre efectos de sugestión no se sostenía como él lo había contado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Falta un frente más, y en este Burns lleva razón desde hace cuarenta años. La historia del desequilibrio químico —que la depresión es falta de serotonina— nunca llegó a establecerse; una revisión general de 2022 no encontró pruebas consistentes de esa asociación, y ha recibido réplicas serias, pero la versión simple que se le contaba al paciente no tenía respaldo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Importa aquí por un motivo práctico. Si a alguien le dicen que su problema es puramente químico, rellenar una hoja de tres columnas le parecerá una tontería. Si le dicen que es puramente lo que se dice a sí mismo, le parecerá lo único que hay. Las dos versiones se pasan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se sometió a la prueba que casi ningún libro pasa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la pasó más justo de lo que su portada sugiere.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que queda cuando se cae la teoría",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1996, en Seattle, un psicólogo llamado Neil Jacobson decidió hacer con la terapia cognitiva lo que se hace con un motor que funciona pero no se sabe por qué: desmontarlo pieza a pieza y ver cuál de ellas era la que empujaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Reclutó a unos ciento cincuenta pacientes con depresión y los repartió en tres grupos. Al primero solo le dio activación conductual: programar actividades, salir de casa, recuperar cosas que antes hacía. Nada de discutir pensamientos, nada de hojas de tres columnas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al segundo, eso mismo más el trabajo con los pensamientos automáticos. Al tercero, el paquete completo de terapia cognitiva, incluyendo las creencias profundas. Tres dosis crecientes de lo que este libro considera el ingrediente activo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "No hubo diferencia. Los tres grupos mejoraron igual, y en el seguimiento a dos años seguían igual. Las tres columnas no añadían nada medible por encima de conseguir que la gente volviera a hacer cosas.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para el libro eso es un problema serio, y conviene ver por qué. El argumento entero de «Sentirse bien» es que el pensamiento causa el estado de ánimo y que por tanto hay que corregir el pensamiento. Si quitas esa parte y el resultado no cambia, algo falla en la explicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un segundo problema, y es de calendario. Ilardi y Craighead señalaron en 1994 que la mayor parte de la mejoría en los ensayos de terapia cognitiva ocurre en las primeras cuatro semanas, cuando el terapeuta todavía está explicando el método y aún no ha desplegado las técnicas cognitivas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tang y DeRubeis documentaron después las llamadas ganancias súbitas: en muchos pacientes una parte enorme de toda la mejoría se concentra en el intervalo entre dos sesiones concretas. Ellos lo leen como un cambio cognitivo repentino; otros leen los mismos datos como expectativa y regresión a la media.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí llega el detalle por el que este resumen existe. El autor del libro puso a prueba su propia teoría, con sus propios pacientes, y le salió que no. Y lo publicó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2001, Burns y Spangler analizaron datos de más de quinientos pacientes con modelos de ecuaciones estructurales para comprobar si los cambios en las actitudes disfuncionales causaban los cambios en la depresión, que es exactamente lo que el libro da por supuesto. El modelo causal no se sostuvo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El giro",
+          frase: "El autor del manual más vendido de terapia cognitiva publicó datos contra la parte cognitiva de su propia teoría. Y siguió recomendando los mismos ejercicios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Siguió recomendándolos porque el año anterior, en el estudio hermano, sí había encontrado algo que aguantaba: los deberes. Los pacientes que rellenaban las hojas entre sesión y sesión mejoraban mucho más, y el análisis apuntaba a que era el trabajo el que producía la mejoría y no la mejoría la que producía el trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un sitio raro y honrado donde acabar: los ejercicios funcionan, y la explicación de por qué funcionan probablemente es falsa. Un libro entero construido sobre una teoría que su propio autor no consiguió confirmar, con unas hojas que sí resisten cada vez que se miden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una lectura razonable de todo esto. Puede que lo que hacen las tres columnas no sea corregir una creencia, sino instalar una cita diaria con la propia atención, dejar un registro escrito que se puede releer y dar un motivo concreto para hacer algo al día siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho así se parece muchísimo a «Hábitos atómicos», que anda por aquí: medir, hacerlo visible, repetir un gesto pequeño en un momento fijo. Ese mecanismo describe la hoja de Burns mejor que la teoría cognitiva que la acompaña, y no necesita ninguna neurociencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y se parece también, otra vez, al «Enquiridión». Epicteto no tenía teoría de la mente ni ensayos aleatorizados, y la práctica de examinar por escrito los propios juicios lleva dos mil años sobreviviendo a todas las explicaciones que se le han puesto encima. Eso ya dice cuál de las dos piezas era la duradera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay que decir adónde no llega. «El cuerpo lleva la cuenta», que está en la categoría de Salud, sostiene que en el trauma la respuesta vive en el cuerpo y en zonas que no hablan, y que discutir con el pensamiento no toca eso. Es la objeción de fondo más seria que tiene el método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay situaciones que sencillamente no son distorsiones: no llegar a fin de mes, una enfermedad, una relación que hace daño, la soledad de verdad. Ahí una hoja para buscar la frase exacta es la herramienta equivocada, y el libro no protege bien contra ese malentendido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Burns se movió con los años. En sus libros recientes el centro ya no es la lógica del pensamiento sino la resistencia al cambio y lo que uno gana quedándose como está, que es curiosamente adonde apuntaban los estudios de desmontaje que dejaron su teoría original a la intemperie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien quiere quedarse con lo que aguanta, es poca cosa y es concreto. El cuestionario, una vez por semana, con la fecha. El programa de actividades cuando llevas días sin hacer nada. La flecha vertical una vez en la vida, hasta el fondo. Y las tres columnas cuando una frase se repite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con una advertencia que el libro debería llevar en la portada. Para una depresión moderada, adelante. Para una depresión grave o si aparece la idea de hacerse daño, un libro no es un tratamiento, y los ensayos que salieron bien excluyeron precisamente a esas personas de la muestra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que de verdad cambió en 1980 no fue una teoría de la depresión. Fue el sitio donde estaba la herramienta: dejó de estar solo en la consulta de alguien con acreditación y pasó a estar en una libreta, en una mesa de cocina, al alcance de quien la necesitara esa noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La teoría de aquel libro está discutida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hoja de tres columnas sigue imprimiéndose.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De un libro casi nunca sobrevive lo que su autor creía haber demostrado.",
+        },
+      ],
+    },
+  ],
+};
