@@ -144,7 +144,7 @@ export const CATALOGO: Ficha[] = [
   { id: "diarios-frida", titulo: "El diario de Frida Kahlo", autor: "Frida Kahlo", ano: 1995, categoria: "Arte", estado: "escrito" },
   { id: "van-gogh-cartas", titulo: "Cartas a Theo", autor: "Vincent van Gogh", ano: 1914, categoria: "Arte", estado: "escrito" },
   { id: "sobre-fotografia", titulo: "Sobre la fotografía", autor: "Susan Sontag", ano: 1977, categoria: "Arte", estado: "pendiente" },
-  { id: "mientras-escribo", titulo: "Mientras escribo", autor: "Stephen King", ano: 2000, categoria: "Arte", estado: "pendiente" },
+  { id: "mientras-escribo", titulo: "Mientras escribo", autor: "Stephen King", ano: 2000, categoria: "Arte", estado: "escrito" },
   { id: "magia-crear", titulo: "La magia de crear", autor: "Elizabeth Gilbert", ano: 2015, categoria: "Arte", estado: "pendiente" },
   { id: "pajaro-a-pajaro", titulo: "Pájaro a pájaro", autor: "Anne Lamott", ano: 1994, categoria: "Arte", estado: "pendiente" },
   { id: "vidas-vasari", titulo: "Las vidas de los más excelentes pintores, escultores y arquitectos", autor: "Giorgio Vasari", ano: 1550, categoria: "Arte", estado: "pendiente" },

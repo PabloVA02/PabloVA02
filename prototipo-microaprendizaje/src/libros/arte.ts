@@ -4561,3 +4561,664 @@ export const VIDA_DALI: Resumen = {
     },
   ],
 };
+
+export const MIENTRAS_ESCRIBO: Resumen = {
+  id: "mientras-escribo",
+  titulo: "Mientras escribo",
+  autor: "Stephen King",
+  ano: 2000,
+  gancho: "Llevaba media vida escribiendo cuando lo atropelló una furgoneta en una carretera de Maine. Volvió a este libro seis semanas después, sentado cuarenta minutos seguidos, que era lo que aguantaba.",
+  porQue:
+    "Porque es el manual de escritura más leído del mundo y la mitad de sus reglas son suyas y solo suyas. Saber cuáles valen para cualquiera y cuáles no es la diferencia entre usarlo y obedecerlo.",
+  partes: [
+    {
+      titulo: "La sala de la caldera",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hermon, Maine, principios de los setenta. En una caravana de doble ancho aparcada junto a una carretera vive un profesor de instituto de veinticinco años con su mujer y dos hijos. El sueldo son seis mil dólares al año y no llega.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la caravana no hay sitio para un escritorio, así que escribe en el cuarto de la caldera, sentado en una silla de niño, con la máquina de escribir de su mujer apoyada sobre los muslos. Escribe por las tardes y los fines de semana.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El clavo de la pared",
+          frase: "Desde los catorce años clavaba las cartas de rechazo de las revistas en un clavo del dormitorio. Cuando el clavo no aguantó el peso, lo cambió por una escarpia. Sigue teniendo esa imagen como la definición exacta de aprender el oficio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llama Stephen King, nació en Portland en 1947 y su padre se marchó a comprar tabaco cuando él tenía dos años y no volvió nunca. Su madre los crio sola, mudándose de estado en estado, trabajando de panadera, de planchadora y de cuidadora en una residencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese abandono aparece en el libro sin dramatismo y con un detalle revelador: en el desván encontró una caja con libros de bolsillo de terror y ciencia ficción que su padre había dejado. Fue lo único que le dejó, y fue lo que le enseñó lo que quería hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empezó a publicar en la universidad, en revistas masculinas que pagaban treinta y cinco dólares por cuento. Con ese dinero pagaba antibióticos para el oído de su hija. Lo cuenta así, en dólares y en medicinas, y esa es la mejor decisión del libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Porque casi toda la literatura sobre escribir habla de vocación, de inspiración y de silencio. Este libro habla de dinero, de turnos, de guarderías y de un hombre que escribía en una habitación con una caldera porque era la única que quedaba libre.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de dar clases estuvo trabajando en una lavandería industrial, lavando sábanas de hospitales y manteles de restaurantes de la costa. De aquellos manteles salían gusanos y de aquel trabajo salieron varios de sus cuentos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer tercio del libro es eso: memorias, y no una autobiografía. Él lo llama un currículum, y avisa de que no ha ordenado nada, que son las escenas que se le quedaron y que las ha puesto tal cual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una que explica su idea de la literatura mejor que cualquier capítulo teórico. De niño se tragó una amígdala infectada, tuvo problemas de oído y le perforaron el tímpano tres veces sin anestesia suficiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera vez, el médico le dijo lo mismo que las dos anteriores: que no le iba a doler. Y King anota que ese día aprendió que los adultos mienten, y que esa es la primera cosa que hay que saber para escribir sobre gente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su definición del oficio",
+          frase: "Escribir es telepatía. Él pone unas palabras en una mesa en Maine en 1997 y alguien las lee en otro sitio y en otro año, y ve exactamente lo mismo: una mesa cubierta con un mantel rojo y encima una jaula con un conejo blanco con el número ocho pintado en el lomo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ejemplo del conejo lo desarrolla durante tres páginas y es la mejor explicación de qué hace la prosa que hay en un libro de este tipo: no dice cómo era la mesa ni cuántos años tenía el conejo, y aun así los dos ven lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión práctica: la descripción funciona cuando selecciona dos o tres detalles y deja que el lector monte el resto. La descripción exhaustiva no produce una imagen más nítida, produce aburrimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo favorito para eso es un restaurante. Dice que basta con el olor a fritanga, el ruido de los platos y una camarera con las zapatillas gastadas por el mismo lado. Nadie necesita saber de qué color eran las paredes, y el lector se lo inventará solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sostiene que los detalles buenos casi nunca son visuales. Un olor, un ruido de fondo o la temperatura de una habitación colocan al lector dentro mucho mejor que tres párrafos describiendo muebles, que es lo primero que hace todo el que empieza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su regla para saber cuánto describir es de tiempo: si al releer un párrafo uno se salta líneas para llegar al diálogo, esas líneas sobran. Y avisa de que uno se las salta siempre, incluso en su propio texto, y que hay que hacer caso a ese gesto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En la universidad conoció a Tabitha Spruce en la biblioteca. Se casaron en 1971, con dos empleos malos entre los dos y una hija. Ella escribía poesía. Y va a ser el personaje decisivo del libro, dos veces, en dos momentos que cambian su vida.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero llegó una tarde de 1973, en aquella caravana, con una historia que había empezado y que no le convencía nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Trataba de una chica del instituto a la que sus compañeras humillaban en las duchas del gimnasio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Había escrito tres páginas y le parecía que no iba a ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No conocía a chicas adolescentes, no sabía cómo hablaban y el personaje le resultaba antipático.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que hizo lo que hacía con todo lo que no funcionaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Arrugó las páginas y las tiró a la papelera.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La papelera de Carrie",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Al día siguiente, Tabitha vació la papelera para tirarla y vio las páginas arrugadas. Las sacó, las alisó sobre la mesa de la cocina, las leyó y le dijo que tenía algo ahí y que siguiera. Que ella le ayudaría con la parte de las chicas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él contestó que no sabía nada del asunto. Ella contestó que lo averiguaría. Y esa conversación de dos minutos en una caravana de Maine es el origen de una de las carreras literarias más vendidas de la historia.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El lector ideal",
+          frase: "De ahí sale uno de los conceptos más útiles del libro. King sostiene que hay que escribir para una persona concreta, no para un público. La suya es Tabitha. Cuando revisa, se imagina exactamente en qué párrafo se va a reír ella y en cuál se va a aburrir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La novela se llamó Carrie y la mandó a Doubleday, que le pagó un anticipo de dos mil quinientos dólares. Con eso compró un coche de segunda mano y siguió dando clases, porque dos mil quinientos dólares no cambian la vida de nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un domingo de mayo de 1973, su editor le llamó al único teléfono que tenían para decirle que se habían vendido los derechos de bolsillo por cuatrocientos mil dólares. Le tocaban doscientos mil, unas treinta y tres veces su sueldo anual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Salió a la calle a buscar a Tabitha, que no estaba en casa. Cuando volvió, lo primero que hicieron fue calcular cuánto quedaba después de impuestos. Y con parte de ese dinero le compró a su mujer un secador de pelo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese detalle es lo que hace creíble el libro entero. La escena de la fortuna repentina no termina en un yate: termina en un secador, comprado por alguien que llevaba años sin poder comprar nada que no fuera imprescindible.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su madre murió de cáncer poco después. Alcanzó a saber que su hijo había vendido la novela y él le leyó las pruebas de imprenta en voz alta durante sus últimos meses. No llegó a ver el libro publicado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí la carrera se dispara: El misterio de Salem's Lot, El resplandor, La zona muerta, Ojos de fuego, Cujo. Publicaba tan deprisa que su editorial le pidió que frenara, porque el mercado no absorbía tres novelas suyas al año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La solución fue inventarse un segundo autor. Publicó cinco novelas como Richard Bachman, con una biografía falsa y una foto de un amigo de su agente en la solapa, para averiguar si se vendía por lo que escribía o por cómo se llamaba.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El resultado del experimento",
+          frase: "Las novelas de Bachman vendían decentemente y nada más. Un librero de Washington comparó estilos, buscó en los registros de derechos de autor y lo destapó en 1985. King dijo que Bachman había muerto de cáncer de seudónimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio es también la respuesta a la pregunta de si la fama vende libros: sí, y bastante. La misma prosa firmada por un desconocido vendía una fracción, y él lo comprobó con un experimento que ningún otro autor famoso ha hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El seudónimo tuvo además un efecto que él no esperaba: escribiendo como Bachman se permitía cosas que como King no se permitía. Los libros de Bachman son más secos, más crueles y terminan peor, y varios de sus lectores los prefieren.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un fenómeno conocido en el oficio y el libro lo señala de pasada sin desarrollarlo: el nombre propio acaba funcionando como una expectativa, y esa expectativa condiciona lo que uno se atreve a escribir aunque no quiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando lo destaparon, King publicó una nota de prensa diciendo que Richard Bachman había muerto de cáncer de seudónimo, una enfermedad rara pero fulminante. Es la mejor broma del libro y describe bastante bien su relación con su propia fama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, escribía cada vez más y recordaba cada vez menos. En el libro hay una confesión que en 2000 sorprendió a mucha gente y que él cuenta sin buscar compasión, en un par de páginas y sin adjetivos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió Cujo, una novela entera, y no recuerda haberla escrito. Ni un día. Dice que a veces lo lamenta, porque le gusta el libro y le habría gustado disfrutar de las partes que salieron bien.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Llevaba años bebiendo a diario y consumiendo cocaína. En los años ochenta, según su propio relato, escribía con una servilleta metida en la nariz para que la sangre no cayera sobre las teclas de la máquina.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sostiene algo que conviene leer con atención, porque contradice uno de los mitos más resistentes del oficio: que el escritor alcohólico no bebe porque sea sensible ni porque el arte lo exija. Bebe porque es alcohólico, como el fontanero alcohólico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que la idea del artista que necesita destruirse para crear es una excusa fabricada por gente que ya estaba destruyéndose, y que no conoce un solo caso en que las drogas hayan mejorado un libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final de aquello llegó a finales de los ochenta, en su despacho, con su mujer y varios miembros de su familia esperándolo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Habían recogido el contenido de la papelera de aquel despacho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo habían volcado entero sobre la alfombra.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La alfombra con las latas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En la alfombra había latas de cerveza, colillas, restos de cocaína y de tranquilizantes, botellas de jarabe para la tos, botellas de enjuague bucal y latas de un refresco. Todo lo que había consumido en su despacho en una temporada, delante de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tabitha le planteó la elección sin discusión posible: o lo dejaba o se marchaban. Él pidió tiempo para pensarlo y ella se lo negó. Cuenta que la parte de él que quería seguir escribiendo entendió que las dos cosas no cabían.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su miedo real",
+          frase: "Lo que le paralizaba no era dejar de beber: era la certeza de que sin alcohol no podría volver a escribir. Es la creencia más extendida del oficio y el libro la desmonta con el mejor argumento posible, que es su propia obra posterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo dejó. Y siguió escribiendo, y lo que escribió sobrio incluye buena parte de sus mejores libros. Ese es todo el argumento y no necesita más: veinte años de obra posterior contra una teoría romántica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa parte biográfica cerrada, el libro cambia de registro y empieza el manual propiamente dicho. Y arranca con la única regla que King considera innegociable, repetida tres veces en cuatro páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si quieres escribir, tienes que hacer dos cosas por encima de todas: leer mucho y escribir mucho. No hay atajo, no hay truco y no conoce a nadie que se lo haya saltado. Lo demás del libro son detalles.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Él lee entre setenta y ochenta libros al año y lleva uno encima a todas partes: a la consulta del médico, a la cola del supermercado, al coche. Sostiene que quien dice no tener tiempo para leer no lo tendrá tampoco para escribir.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una idea que suele sorprender: que los libros malos enseñan más que los buenos. Con un libro excelente uno se queda mirando cómo está hecho sin entenderlo. Con uno malo se ve exactamente dónde falla y se aprende a no hacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segunda regla es de cantidad y de horario: dos mil palabras al día, unas diez páginas, todos los días, incluidos los cumpleaños y las Navidades. Empieza por la mañana y no se levanta hasta terminar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa cifra hay que cogerla con pinzas y él mismo lo matiza después diciendo que mil está bien para empezar. Aun así es la parte del libro que más culpa ha generado en lectores que escriben después de una jornada laboral de ocho horas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sí es transferible",
+          frase: "No la cifra, sino el hábito: el mismo sitio, la misma hora y la puerta cerrada. Su argumento es que la musa no aparece por inspiración, aparece por costumbre, y que si uno se sienta todos los días a las nueve, la musa acaba sabiendo dónde encontrarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una recomendación de sentido común que casi nadie sigue: quitar la televisión de la habitación donde se escribe, y no poner ningún objetivo de tiempo, sino de palabras. Se termina cuando están escritas, no cuando pasan tres horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el sitio también tiene una idea que contradice la imagen habitual del escritor. Cuenta que cuando por fin tuvo dinero se compró un escritorio enorme de roble y lo puso en el centro del despacho, y que pasó seis años bebiendo detrás de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando dejó de beber, lo sacó de allí y puso una mesa pequeña en un rincón, debajo del alero. Su conclusión es que la mesa no debe ser el centro de la habitación ni de la vida: es una herramienta, y ponerla en un pedestal fue parte del problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una recomendación que suena rara y que él considera importante: escribir con la puerta cerrada literalmente, con una puerta física que se cierra. Dice que ese gesto le comunica a la propia cabeza que lo que va a pasar ahí dentro va en serio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después viene la parte técnica, que él organiza con una imagen que ha hecho fortuna y que viene de su tío Oren, que era carpintero y llevaba a las reparaciones una caja de herramientas enorme de tres pisos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la bandeja de arriba de la caja, lo que se usa todos los días: el vocabulario y la gramática. En la de abajo, lo que se usa a veces: los elementos de estilo. Y en el fondo, las herramientas grandes que casi no se sacan.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Sobre el vocabulario tiene una postura que tranquiliza a mucha gente: no hace falta ampliarlo. La primera palabra que llega, si es la correcta y es vívida, es la buena. Buscar un sinónimo más culto en el diccionario es, dice, ponerle un vestido de fiesta a un perro.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre la gramática, dos manías. La primera, la voz pasiva, que le parece cobarde: se usa porque no compromete a nadie, y por eso está en todos los informes oficiales y en todos los correos de empresa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la segunda, la más famosa del libro y la que se ha convertido en cita de camiseta: que el camino del infierno está empedrado de adverbios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo es de diálogo. Cerró la puerta firmemente no dice nada que no dijera cerró la puerta, y encima suena a que el autor no se fía del lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo mismo con los verbos de habla. Dijo basta. Musitó, exclamó, sentenció y espetó son formas de intentar rescatar un diálogo que no funciona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y luego está la regla que aprendió a los dieciséis años de una carta de rechazo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La caja de herramientas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Aquella carta era un formulario impreso, pero alguien de la revista le había escrito una nota a mano debajo. Decía que el cuento no estaba mal, que estaba hinchado, y que anotara una fórmula: segundo borrador igual a primer borrador menos el diez por ciento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "King dice que llevaba dos años escribiendo cuentos a ciegas y que aquella nota manuscrita fue el primer consejo útil que recibió en su vida. La copió en un papel y la pegó en la pared, y sigue aplicándola sesenta años después.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué funciona",
+          frase: "Porque el primer borrador siempre lleva relleno: explicaciones que el lector no necesita, adjetivos duplicados, escenas que preparan una escena que ya se prepara sola. Quitar un diez por ciento obliga a decidir qué es carne y qué es paja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su método de revisión tiene dos fases con una imagen muy clara: la primera versión se escribe con la puerta cerrada y la segunda se reescribe con la puerta abierta. Cerrada quiere decir para uno mismo; abierta, pensando en el lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entre las dos, un plazo obligatorio: seis semanas mínimo con el manuscrito guardado en un cajón, sin tocarlo ni pensarlo. Lo compara con dejar reposar una masa: al volver, los fallos que eran invisibles saltan a la vista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Solo entonces se lo da a leer a un grupo pequeño, entre cuatro y ocho personas. Y da una regla práctica para gestionar sus opiniones que resuelve el problema de los comentarios contradictorios.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Si a la mitad les gusta una cosa y a la otra mitad no, uno hace lo que quiera con la conciencia tranquila. Si todos señalan lo mismo, está mal y hay que arreglarlo. La unanimidad es el único dato fiable.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo más discutido del libro es el de la trama, porque King sostiene que no cree en ella. Dice que planificar una novela le parece incompatible con que resulte creíble, porque la vida de la gente no está planificada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su alternativa es empezar por una situación y unos personajes, y dejar que ellos decidan. Pone a alguien en un aprieto y observa cómo sale. No sabe el final cuando empieza, y sostiene que si él lo supiera el lector también lo sabría.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El fósil",
+          frase: "Su imagen es que las historias son cosas encontradas, como fósiles enterrados. El escritor no las inventa: las desentierra. Y cuanto más fina sea la herramienta que use, menos daño le hará al hueso. La trama es el martillo neumático del arqueólogo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una imagen preciosa y es también el consejo más peligroso del libro, y hay que decirlo claro: funciona para él y arruina a mucha gente. Escritores excelentes planifican hasta el último capítulo antes de empezar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nabokov escribía sus novelas en fichas que ordenaba y reordenaba antes de redactar. Muchos autores de novela negra tienen que saber quién es el asesino desde la primera página, por razones puramente técnicas de construcción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "King escribe una clase de novela concreta —larga, de personajes, con una situación de partida fuerte— y su método está calibrado para eso. Presentado como ley general, ha dejado a mucha gente con doscientas páginas y ningún sitio adonde ir.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El resto de la caja de herramientas sí es transferible casi entero. La descripción, con la regla de los dos o tres detalles. El diálogo, que según él es lo único que revela de verdad a un personaje, porque la gente se define por lo que dice y por cómo lo dice.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su consejo sobre el diálogo es escucharlo, no inventarlo: sentarse en un bar y oír cómo habla la gente de verdad, con repeticiones, con frases sin terminar y con palabrotas. Y no limpiarlo después, porque limpiarlo lo mata.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el simbolismo y el tema, su postura es que se buscan después, nunca antes. Se escribe la historia, se guarda seis semanas, y en la relectura se descubre de qué iba. Entonces, y solo entonces, se puede reforzar lo que ya estaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo es Carrie. Dice que la escribió como una historia de instituto con un final espectacular y que no se dio cuenta hasta la segunda lectura de que trataba del poder femenino y del castigo que recibe una chica por tenerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si lo hubiera sabido antes, sostiene, habría escrito una tesis con personajes en lugar de una novela. Es el argumento más sólido que hay contra escribir para demostrar algo, y vale igual para el ensayo que para la ficción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La contrapartida es que hay que estar dispuesto a descubrir que uno ha escrito trescientas páginas sobre algo que no le interesa, o peor, sobre algo que preferiría no haber sabido de sí mismo. Eso también lo dice, y en una sola frase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una parte final del libro que es puramente práctica y que casi ningún manual incluye: cómo se busca agente, cómo se manda un manuscrito, qué se cobra y qué no hay que firmar nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Además incluye un ejemplo real: un cuento suyo en primer borrador y el mismo cuento corregido a mano, con las tachaduras y las notas al margen, para que se vea qué se quita exactamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese apéndice es lo mejor del libro y lo que menos se comenta, porque enseñar es más difícil que explicar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "King terminó la parte teórica en 1997 y se atascó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No tocó el manuscrito durante dieciocho meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el 19 de junio de 1999 salió a andar por el arcén de la carretera número 5, cerca de su casa de Maine, como hacía todas las tardes.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La carretera número 5",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Una furgoneta Dodge azul se salió del asfalto en una cuesta sin visibilidad. El conductor se llamaba Bryan Smith, iba distraído con sus perros en la parte de atrás y no vio a nadie hasta el impacto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "King salió despedido unos cuatro metros. Se rompió la cadera, cuatro costillas, la clavícula y la pierna derecha por nueve sitios distintos. Tenía un pulmón colapsado y un corte profundo en la cabeza. Estuvo consciente casi todo el rato.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La coincidencia que él mismo señala",
+          frase: "Llevaba treinta años escribiendo novelas en las que un accidente absurdo destroza a un hombre corriente en una carretera secundaria. Anota que ser atropellado por una furgoneta mientras paseaba es exactamente el tipo de cosa que él le habría hecho a un personaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cinco operaciones en diez días. Los médicos consideraron amputarle la pierna. Le pusieron un fijador externo con clavos que le atravesaban el hueso, y estuvo semanas sin poder moverse ni dormir más de dos horas seguidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Volvió a escribir el 24 de julio, cinco semanas después del accidente. Tabitha le montó una mesa en el pasillo de atrás de la casa, porque su despacho estaba arriba y él no podía subir escaleras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera sesión duró una hora y cuarenta minutos. Escribió unas quinientas palabras. Dice que fue como pasar por un campo de zarzas y que cada frase le costó como si fuera la primera de su vida.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y describe lo que pasó después con una honestidad que salva el libro entero: que a las pocas sesiones el dolor empezó a importar menos, no porque se fuera, sino porque escribir lo sacaba de la habitación donde le dolía.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la tesis final del libro y no aparece hasta la última página: no escribe para ganar dinero, ni para hacerse famoso, ni para que lo quieran. Escribe porque le sostiene. Dice que la escritura es agua y que él tiene sed.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro, porque tiene fallos y se recomienda demasiado sin decirlos. El primero ya está dicho y es el mayor: su rechazo a planificar se presenta como principio y es una preferencia personal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es la cifra de las dos mil palabras diarias. Está escrita por alguien que lleva desde 1974 viviendo de esto a tiempo completo, y leída por gente que escribe entre las diez y las doce de la noche después de trabajar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El tercero, el más de fondo",
+          frase: "Es un manual para escribir novela popular de personajes, contada en tercera o primera persona, con trama y con final. De poesía, de ensayo, de teatro, de literatura experimental o de no ficción no dice prácticamente nada, y no avisa de que no lo dice.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto es la regla del adverbio, que se ha convertido en una superstición. King usa adverbios; están en todas sus novelas. Lo que dice es que no se usen para apuntalar diálogos flojos, y eso se ha simplificado hasta convertirlo en un tabú absurdo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El quinto es de estructura: es medio libro de memorias y medio manual, y las dos mitades no están cosidas. Quien lo compre buscando técnica encontrará cien páginas de infancia; quien lo compre por las memorias, cien de gramática.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se puede defender que esa mezcla es el libro: que las memorias son la demostración de que el método funciona, porque enseñan a alguien pobre, sin contactos y sin estudios de escritura convirtiéndose en escritor a base de leer y escribir todos los días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leído así funciona mejor. Y aun así, quien busque un manual ordenado tiene mejores opciones: hay libros de técnica narrativa con más sistema y menos anécdota, y este no compite con ellos en ese terreno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ninguno de esos tiene es la parte que hace que este se recomiende de boca en boca: un hombre de cincuenta y dos años, con la pierna rota por nueve sitios, arrastrándose hasta una mesa en un pasillo para escribir quinientas palabras.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y el sexto, que es de tono: escribe como si el talento se repartiera en escalones fijos. Sostiene que a un escritor malo no se le puede hacer competente y a uno bueno no se le puede hacer grande, y eso es una afirmación enorme sin nada que la respalde.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree de este libro y no es verdad. Primero: que es su autobiografía. No lo es. Él lo llama currículum y deja fuera casi todo: su matrimonio, sus hijos, sus lecturas, su relación con la crítica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que dice que el talento no importa. Dice exactamente lo contrario, y es de las cosas menos amables del libro. Su promesa es hacer competente a quien es correcto, no genio a quien no lo es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que lo escribió a raíz del atropello. Lo empezó dos años antes, se atascó, y el accidente lo interrumpió. La parte del accidente es un epílogo añadido, no el origen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuarto: que Carrie fue su primera novela. Fue la primera publicada. Tenía varias escritas y guardadas, y algunas se publicaron después bajo el seudónimo de Bachman.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quitando todo eso, quedan cuatro cosas que sirven a cualquiera que escriba, en cualquier género y con cualquier horario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leer mucho más de lo que se escribe, y leer también lo malo, que enseña más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribir a la misma hora en el mismo sitio con la puerta cerrada, aunque sean trescientas palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Guardar el borrador seis semanas antes de tocarlo, y quitarle después el diez por ciento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y escribir para una persona concreta, con nombre y apellidos, en vez de para un público que no existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo demás es la caravana, la caldera y la papelera de la que su mujer sacó tres páginas arrugadas.",
+        },
+      ],
+    },
+  ],
+};
