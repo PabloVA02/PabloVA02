@@ -157,24 +157,25 @@ Errores que ya han pasado y no hace falta repetir:
 
 ## Estado (última medida)
 
-- **76 resúmenes escritos** de **121 fichas** en el catálogo.
-- **11 a escala larga** (~25 min): Crimen y castigo, El extranjero, El
-  retrato de Dorian Gray, El arte de la guerra, El señor de las moscas,
-  Homo Deus, Drácula, El viejo y el mar, La Odisea, La sombra del viento,
-  El nombre de la rosa.
-- **65 pendientes de ampliar** a la escala nueva: se escribieron cuando el
-  estándar era de 1 minuto por capítulo. Funcionan, pero se quedan cortos.
+- **200 resúmenes escritos** de **200 fichas** en el catálogo. No queda
+  ninguna ficha en estado `"pendiente"`: las ocho categorías están al 100 %.
+- **135 a escala larga** (~25-27 min, cinco capítulos de ~5 minutos), que
+  son los escritos con el estándar actual de 24 tarjetas por capítulo.
+- **65 pendientes de ampliar**: se escribieron cuando el estándar era de
+  1 minuto por capítulo. Funcionan, pero se quedan cortos, y son los que
+  `scripts/estado.mjs` marca con `!` en cada capítulo por debajo de 4,2
+  minutos. Ampliarlos es el trabajo que queda en la biblioteca.
 
 | Categoría | Escritos | Total |
 |---|---|---|
-| Literatura | 22 | 29 |
-| Filosofía | 10 | 14 |
-| Psicología | 9 | 12 |
-| Economía | 9 | 14 |
-| Historia | 7 | 14 |
-| Ciencia | 7 | 14 |
-| Salud | 7 | 12 |
-| Arte | 5 | 12 |
+| Literatura | 40 | 40 |
+| Historia | 24 | 24 |
+| Filosofía | 24 | 24 |
+| Ciencia | 24 | 24 |
+| Economía | 24 | 24 |
+| Psicología | 22 | 22 |
+| Arte | 21 | 21 |
+| Salud | 21 | 21 |
 
 Actualizar esta tabla con:
 
