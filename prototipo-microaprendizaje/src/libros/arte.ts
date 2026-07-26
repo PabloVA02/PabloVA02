@@ -7132,3 +7132,586 @@ export const VIDAS_VASARI: Resumen = {
     },
   ],
 };
+
+export const REPRODUCTIBILIDAD: Resumen = {
+  id: "reproductibilidad",
+  titulo: "La obra de arte en la época de su reproductibilidad técnica",
+  autor: "Walter Benjamin",
+  ano: 1936,
+  gancho:
+    "Un refugiado alemán sin trabajo escribió en un café de París por qué una foto de un cuadro no es el cuadro. Cuatro años después murió en la frontera española.",
+  porQue:
+    "Es el ensayo del que salió todo lo que se dice hoy sobre imágenes, copias y originales. Y casi nadie lo lee: se citan cuatro frases suyas, casi siempre al revés de lo que él quería decir.",
+  partes: [
+    {
+      titulo: "El Instituto en el exilio",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "París, otoño de 1935. Un alemán de cuarenta y tres años escribe en la sala de lectura de la Biblioteca Nacional porque su habitación de hotel no tiene calefacción. Vive de una beca pequeña, en un país que no es el suyo, y lleva dos años sin poder publicar en Alemania.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Walter Benjamin. Había nacido en Berlín en 1892 en una familia judía acomodada, y su carrera académica se había hundido de un golpe en 1925, cuando la Universidad de Fráncfort rechazó su tesis de habilitación sobre el drama barroco alemán.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tribunal no la entendió, y un profesor le sugirió que la retirara para ahorrarse el bochorno. Aquel texto se considera hoy una obra mayor de la teoría literaria del siglo veinte. Benjamin no volvió a tener nunca un puesto universitario.",
+        },
+        {
+          forma: "clave",
+          rotulo: "De qué vivía entonces",
+          frase: "De escribir reseñas, de traducir a Baudelaire y a Proust, y de hacer programas de radio para niños: unos ochenta guiones entre 1927 y 1933, sobre terremotos, estafadores y juguetes. El crítico más difícil de su generación se ganaba el pan explicando cosas a críos de diez años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En marzo de 1933, dos meses después de que Hitler llegara al poder, se marchó de Alemania y no volvió. Se instaló en París con lo puesto, y sobrevivió gracias a un estipendio del Instituto de Investigación Social, la llamada Escuela de Fráncfort, que también estaba en el exilio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene aclarar su posición ahí, porque suele contarse mal. Benjamin no era un miembro consagrado de aquel grupo: era un becario periférico y dependiente, al que sus colegas admiraban y a la vez corregían, y esa dependencia va a marcar el destino de este texto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Cuando el ensayo se publicó en 1936, salió en la revista del Instituto, en traducción francesa y considerablemente recortado. Horkheimer y Adorno quitaron las referencias explícitas al comunismo, a Marx y a la lucha de clases, por miedo a comprometer al Instituto en el exilio.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Benjamin se puso furioso y protestó por carta, sin conseguir gran cosa. De todo aquello resulta un lío que hay que conocer antes de citarlo: existen tres versiones del ensayo, de 1935, 1936 y 1939, y no dicen exactamente lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La que se traduce con más frecuencia a otros idiomas es la última, y hay frases muy citadas que solo están en una de las tres. Cualquier discusión seria sobre este texto empieza preguntando de qué versión se está hablando, y esa pregunta casi nunca se hace.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto de partida es un hecho técnico y no una teoría. Las obras de arte siempre se han podido reproducir: los griegos fundían bronces, la Edad Media estampaba xilografías, y en el siglo diecinueve llegaron la litografía y después la fotografía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero con la fotografía pasa algo distinto por primera vez. La mano deja de intervenir: el ojo mira por el objetivo y la reproducción se hace más deprisa de lo que se tarda en hablar. Y con el cine, la obra ya nace pensada para ser reproducida y no existe ningún original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ese hecho saca su tesis, y es lo que hace que el ensayo siga vivo noventa años después: que un cambio en la manera de fabricar y distribuir imágenes cambia la naturaleza del arte, y de paso cambia la manera de percibir de la gente que lo consume.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir enseguida algo que casi siempre se cuenta al revés. Benjamin no está lamentando nada. No es un conservador llorando la pérdida de la gran pintura ante la invasión del cine: está celebrando lo que ocurre y explicando por qué le parece emancipador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo dice en el prólogo con todas las letras. Escribe que quiere dar unas tesis sobre la evolución del arte bajo las condiciones actuales de producción que sean inservibles para el fascismo y utilizables para formular exigencias revolucionarias en política artística.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y explica contra quién escribe: contra los conceptos tradicionales de creatividad, genialidad, valor eterno y misterio, que en la Alemania de 1935 se estaban usando para justificar exactamente el tipo de arte que el régimen quería. No es una discusión de estética abstracta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El texto es corto —unas cuarenta páginas— y es difícil de una manera peculiar. Cada párrafo funciona casi como un aforismo, los saltos son bruscos, y hay frases que se han citado durante décadas sin que nadie se ponga de acuerdo sobre qué significan exactamente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su amigo Bertolt Brecht lo leyó y anotó en su diario que aquello era misticismo puro, con la postura de estar en contra del misticismo. Es una crítica de aliado, es injusta y tiene su parte de razón, y sigue siendo la mejor advertencia para un lector primerizo.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Adorno le contestó por carta en 1936 con una objeción distinta y más de fondo: que era demasiado optimista con la cultura de masas y demasiado duro con el arte autónomo, y que las dos cosas llevan igualmente las marcas del capitalismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese intercambio es uno de los debates clásicos del pensamiento del siglo veinte, y en él se ve bien la diferencia entre los dos. Adorno desconfía de lo que gusta a mucha gente. Benjamin sospecha de lo que solo puede disfrutar quien tiene tiempo y educación para ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo el ensayo gira alrededor de un concepto que Benjamin se inventa y que ha entrado en el idioma sin que casi nadie sepa de dónde viene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llama el aura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su tesis es que la reproducción técnica se la carga.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El aura",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La definición que da es rara y hay que leerla despacio: el aura es la aparición única de una lejanía, por cerca que esté lo que la produce. La ilustra con un ejemplo que no es de arte, sino de estar tumbado en una tarde de verano siguiendo con la vista una cordillera en el horizonte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa montaña está lejos aunque uno la tenga delante, y esa distancia no se puede abolir acercándose. Traducido a un cuadro: el aura es lo que hace que estar delante del original no sea lo mismo que ver una foto perfecta de él, aunque la foto muestre más detalle.",
+        },
+        {
+          forma: "clave",
+          rotulo: "De qué está hecha esa distancia",
+          frase: "Del aquí y del ahora de la obra: de que existe una sola, en un sitio concreto, con una historia detrás. El cuadro estuvo en un taller, lo compró alguien, se agrietó, lo restauraron, sobrevivió a una guerra. Eso es lo que Benjamin llama su autenticidad, y no se puede copiar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reproducción hace dos cosas a la vez con eso. Primero, saca la obra de su sitio: la catedral sale de su plaza y entra en el salón de una casa, el coro entra en una habitación. Segundo, la multiplica: en vez de un ejemplar irrepetible hay millones de copias iguales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí es donde Benjamin toma partido. Escribe que las masas contemporáneas tienen el deseo de acercarse a las cosas y de superar lo irrepetible de cada dato apropiándose de su reproducción, y no lo dice como reproche: lo dice como descripción de un movimiento histórico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para explicar de dónde viene el aura se va muy atrás, y esta es la parte más elegante del ensayo. Sostiene que el arte nació en el ritual y que durante milenios su función no fue ser mirado, sino estar ahí. Las pinturas de las cuevas no se hicieron para que se vieran.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su otro ejemplo es medieval y es demoledor. Ciertas imágenes de la Virgen permanecían tapadas casi todo el año y solo se descubrían en fechas señaladas; y algunas esculturas de las catedrales están talladas en sitios donde nadie a pie de calle puede verlas nunca.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca su pareja de conceptos: valor de culto y valor de exhibición. Una obra con valor de culto vale por existir en un sitio, aunque no la vea nadie. Una obra con valor de exhibición vale por ser vista, y cuanta más gente la vea, mejor cumple su función.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La historia del arte, en su lectura, es el desplazamiento lento de lo primero a lo segundo. El cuadro de caballete ya es más exhibible que un fresco, la litografía más que el cuadro, y la fotografía es exhibición pura: solo existe para circular y para ser mirada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuando el valor de culto desaparece, dice, la obra pierde su fundamento en el ritual y pasa a fundarse en otra práctica. En la política. Esa frase es el eje del ensayo entero y es también la que Adorno y Horkheimer le recortaron en la edición de 1936.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una excepción que Benjamin describe con cariño: el último refugio del aura en la fotografía es el retrato. En las primeras fotos de personas queridas, sobre todo de las que ya han muerto, queda algo de valor de culto: son objetos de recuerdo, no imágenes para exhibir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso, dice, en aquellos retratos de 1850 el rostro humano todavía tiene aura, y cuando el hombre desaparece de la fotografía —cuando Eugène Atget empieza a fotografiar calles de París vacías— el aura se acaba del todo y aparece otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su comparación de las fotos de Atget es magnífica: parecen escenas del crimen. Un lugar vacío fotografiado para el registro, que exige una interpretación y que no se explica solo. Y de ahí, dice, viene la necesidad del pie de foto, que es lo que orienta lo que hay que mirar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle, escrito en 1935, describe el problema entero de las imágenes de hoy. Una fotografía no dice nada por sí sola: lo que dice depende del texto que la acompaña, y quien controla el pie de foto controla lo que la imagen significa para quien la ve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, la objeción de fondo, que hay que poner encima de la mesa porque es fuerte. La predicción central del ensayo —que la reproducción disolvería el aura— no se ha cumplido. Ha ocurrido casi lo contrario, y las cifras están a la vista de cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Gioconda es el cuadro más reproducido de la historia, está en llaveros, tazas y anuncios, y precisamente por eso hay treinta mil personas al día haciendo cola en el Louvre para verlo diez segundos por encima de las cabezas de los demás. La copia alimenta al original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El aura no se disolvió: se desplazó y se hizo negocio. Los museos están más llenos que nunca, las entradas a exposiciones se agotan, y el valor de un original en subasta ha crecido en proporción directa a lo reproducida que esté su imagen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la refutación más clara de su tesis y conviene decirla sin rodeos. Lo que sí acertó es el mecanismo: que el aquí y el ahora es lo que la gente busca, y hoy se busca haciendo cuatro horas de cola para estar cinco minutos delante de algo que ya se ha visto mil veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otra objeción menor y también justa: usa la palabra aura de maneras distintas en distintos textos suyos. En un ensayo de 1931 sobre fotografía la define de otro modo, y esa inconsistencia ha dado de comer a varias generaciones de comentaristas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho eso, la segunda mitad del ensayo es donde está lo mejor y lo más aprovechable, y trata de un arte que en 1935 tenía menos de cuarenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero que nace ya sin original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cine.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La sala de montaje",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Benjamin empieza por lo que le ocurre al actor, y es la observación más aguda del ensayo. Un actor de teatro trabaja delante de un público, en tiempo real, y su interpretación es un acontecimiento que ocurre una vez. Un actor de cine trabaja delante de una máquina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay público, no hay continuidad y no hay obra: hay una serie de fragmentos rodados en desorden, cada uno repetido veinte veces, que alguien montará después en una sala a la que el actor no entra. Su interpretación no existe hasta que otro la fabrica.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que eso significa",
+          frase: "Que el actor de cine actúa en el exilio: exiliado del escenario y también de su propia imagen, que se le presenta terminada y ajena. Y como el aura de una persona está atada a su presencia, en el cine no puede haber aura. Lo que hay es su sustituto industrial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese sustituto es el sistema de estrellas. Benjamin escribe que el capital cinematográfico fabrica alrededor del actor un culto artificial a la personalidad, hecho de revistas, apariciones y rumores, precisamente para reponer algo que la técnica ha eliminado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade la observación política que va con ella: que ese mismo procedimiento se aplica a los políticos, que también actúan ante micrófonos y cámaras y a los que se les construye una presencia fabricada. En 1935, con Hitler dando discursos filmados, no es una nota al margen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación con la que explica la diferencia entre pintar y filmar es la más recordada del ensayo: el pintor es como un curandero y el cámara es como un cirujano. Y la desarrolla en serio, porque no es un adorno retórico.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El curandero pone las manos encima del enfermo y mantiene una distancia natural con él; el cirujano abre el cuerpo y mete las manos dentro. Igual el pintor mantiene su distancia con lo que pinta y el cámara penetra en el tejido de lo real y lo trocea.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca la consecuencia estética: la imagen del pintor es total, la del cámara es fragmentaria y sus partes se ensamblan según una ley nueva. La unidad de una película no está en ningún plano: está en el montaje, que es un procedimiento de laboratorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo concepto que aporta aquí es el que más ha viajado: el inconsciente óptico. La cámara ve cosas que el ojo no puede ver, y no por ser más potente, sino por poder cortar el tiempo y el espacio de maneras que la percepción humana no admite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo el mundo sabe más o menos cómo camina una persona; nadie sabe qué hace exactamente el pie en la fracción de segundo en que se despega del suelo. El primer plano y la cámara lenta lo enseñan, y con ello abren un territorio que estaba delante de los ojos y era invisible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Benjamin compara eso directamente con lo que hizo el psicoanálisis: aislar y hacer analizable un material que estaba ahí y del que nadie se daba cuenta. Y lo dice con admiración, porque para él el cine no es entretenimiento, es un instrumento de conocimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera aportación es la que se ha vuelto más actual y se llama recepción en la dispersión. Su tesis es que hay dos maneras de recibir una obra: la contemplación, en la que uno se sumerge en ella, y la distracción, en la que uno la incorpora sin fijarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El modelo de la segunda es la arquitectura, y el ejemplo es perfecto. Nadie contempla el edificio donde vive: lo recibe usándolo, entrando y saliendo, por costumbre y con el rabillo del ojo. Y sin embargo lo conoce mejor que cualquier turista que lo mire una tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis es que el cine hace lo mismo con las imágenes. Nadie contempla un plano: en cuanto uno se fija, ya ha cambiado, y esa sucesión constante impide la absorción y produce lo que él llama un efecto de choque. Se recibe la película por hábito, no por concentración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no lo considera una degradación, aunque suene así. Sostiene que la humanidad se enfrenta a tareas nuevas de percepción que no se pueden resolver mirando fijamente, y que la distracción es el modo en que las masas se entrenan para un entorno que va demasiado deprisa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cualquiera que haya visto a alguien con el móvil mientras habla, la televisión encendida de fondo y tres pestañas abiertas, reconocerá que ese análisis de 1935 describe con bastante exactitud cómo se consume casi todo hoy, incluido este resumen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un cuarto punto que Benjamin celebra y en el que se equivocó de medio a medio, y merece señalarse. Sostiene que el cine democratiza la autoría, porque cualquiera puede acabar delante de una cámara y porque los periódicos han convertido a los lectores en escritores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo es el de las cartas al director y las secciones de opinión, que en su época borraban un poco la frontera entre quien escribe y quien lee. Es una intuición que noventa años después describe internet entero y que él imaginó a partir de la prensa obrera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no vio, y era difícil de ver, es que un medio de producción caro y una distribución concentrada podían dar el resultado contrario: no la democratización, sino una industria de estudios con un puñado de propietarios decidiendo qué ve todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sobre eso, en las últimas páginas, escribe el epílogo más citado y más sombrío del ensayo, porque en 1935 ya se veía perfectamente para qué se estaba usando aquello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bastaba con mirar los noticiarios que llegaban de Alemania.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El estadio de Núremberg",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En septiembre de 1934, en la explanada de los congresos del partido nazi en Núremberg, ciento cincuenta mil personas formadas en cuadros perfectos escuchaban a Hitler bajo ciento treinta reflectores antiaéreos que subían rectos hacia el cielo. Todo estaba diseñado para la cámara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquello se rodó con treinta cámaras y treinta y cinco horas de material, y el montaje se estrenó en 1935. La coreografía de las masas no era un acto político que además se filmara: era una película que se estaba rodando y a la que asistían ciento cincuenta mil figurantes.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El diagnóstico de Benjamin",
+          frase: "Que el fascismo da a las masas expresión sin darles derechos. Les permite manifestarse, desfilar y sentirse protagonistas, mientras deja intacta la estructura de propiedad que las mantiene donde están. Y esa sustitución de derechos por expresión desemboca en la estetización de la política.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su razonamiento es este. Un régimen que no puede resolver los conflictos materiales tiene que ofrecer otra cosa, y lo que ofrece es forma: uniformes, banderas, formaciones, luces, música. La política se convierte en un espectáculo del que la gente forma parte como material.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si la política es una obra de arte, dice, su culminación lógica es la guerra, porque la guerra es lo único capaz de movilizar todos los recursos técnicos de una sociedad manteniendo intactas las relaciones de propiedad. Es la obra total del régimen.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Como prueba cita un manifiesto del futurista italiano Marinetti sobre la guerra colonial en Etiopía, que celebra literalmente la belleza de la guerra: los tanques, los fusiles ametralladores, el olor de la pólvora y los grandes cañones. Benjamin lo reproduce sin comentarlo mucho.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hace falta comentarlo. Un poeta explicando que la metralla es hermosa mientras Italia bombardea aldeas con gas es exactamente lo que el ensayo estaba describiendo en abstracto, y Benjamin lo pone al final como quien enseña la pieza de convicción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El párrafo final es de los más célebres del pensamiento del siglo veinte, y dice que la humanidad se ha convertido en espectáculo para sí misma, y que su autoextrañamiento ha llegado a un grado tal que le permite vivir su propia destrucción como un goce estético de primer orden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cierra con la frase que lo resume todo: esa es la situación de la política que el fascismo estetiza. El comunismo le responde con la politización del arte. Esa última línea es la que Adorno y Horkheimer suavizaron en la edición de 1936.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir que esa conclusión es también el punto más débil del ensayo, y no por motivos ideológicos sino empíricos. La misma técnica que él confiaba en que sirviera para politizar el arte estaba sirviendo mucho mejor, en ese mismo momento, para lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cine no resultó ser un medio intrínsecamente emancipador. Fue el mejor instrumento de propaganda que ha existido hasta la aparición de las redes, lo usaron con maestría los dos totalitarismos del siglo, y su forma dominante acabó siendo la industria del entretenimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El error de fondo es el determinismo tecnológico: dar por supuesto que una técnica lleva dentro una política. Su propio epílogo lo desmiente, y esa tensión sin resolver entre el cuerpo optimista del ensayo y el final sombrío es lo que lo hace interesante de leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otras dos objeciones que se le hacen con razón. La primera es que habla constantemente de las masas sin haberlas estudiado nunca: no hay en estas páginas un solo dato sobre qué veía la gente, en qué salas, cuánto pagaba o qué entendía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es de método. Benjamin escribe por imágenes y por saltos, y sus afirmaciones no son de las que se pueden comprobar. Es un ensayista extraordinario y no es un investigador, y quien lo lea esperando pruebas se va a encontrar con metáforas muy buenas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun con todo eso, la caja de herramientas que dejó se sigue usando a diario. El aura, el valor de exhibición, el inconsciente óptico, la recepción distraída y la estetización de la política son conceptos que hoy aparecen en discusiones sobre cosas que él no llegó a ver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un filtro de retrato es exactamente el culto artificial a la personalidad que describía. Una manifestación organizada para producir imágenes es la estetización de la política. Y lo del pie de foto que decide qué significa una imagen es la discusión pública entera de hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ensayo se publicó en francés, en una revista de exiliados con muy pocos lectores, y prácticamente no tuvo eco en su momento. Hubo que esperar a los años sesenta, cuando se recuperó su obra en Alemania, para que empezara a leerse en serio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su autor no llegó a verlo. En junio de 1940, cuando los alemanes entraron en París, Benjamin quemó papeles, cerró el piso y salió hacia el sur con lo que pudo cargar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tenía cuarenta y ocho años, el corazón mal y ningún visado de salida de Francia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí tenía era un visado de entrada en Estados Unidos, conseguido por Horkheimer desde Nueva York, y un plan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cruzar los Pirineos a pie y coger un barco en Lisboa.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Portbou, 26 de septiembre de 1940",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El 25 de septiembre de 1940, un grupo pequeño de refugiados subió desde Banyuls-sur-Mer por un sendero de contrabandistas que cruza la sierra hasta el lado español. Los guiaba Lisa Fittko, una alemana de veintiséis años que había hecho el camino una sola vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Benjamin era el mayor y estaba enfermo del corazón. Subió parándose cada diez minutos exactamente un minuto, con un método que se había impuesto a sí mismo para no derrumbarse, y cargando todo el trayecto una cartera negra pesada que se negó a dejar en ningún momento.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dijo de aquella cartera",
+          frase: "Que el manuscrito que llevaba dentro era más importante que su propia persona y que tenía que salvarse. Le contó a Fittko que era un texto nuevo. Ni la cartera ni el manuscrito han aparecido nunca, y desde entonces se discute qué contenía exactamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegaron a Portbou por la tarde y se presentaron en la comisaría con sus visados de tránsito españoles. Les dijeron que ya no servían: España acababa de cerrar la frontera a los apátridas, y a la mañana siguiente los devolverían a Francia, es decir, a la Gestapo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los alojaron esa noche en el hotel de Francia, en la habitación número cuatro, con un policía vigilando. Benjamin llevaba encima un tubo de tabletas de morfina que había conseguido en Marsella. Murió en aquella habitación en la madrugada del 26 de septiembre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El certificado médico habla de hemorragia cerebral. Los que iban con él entendieron siempre otra cosa, y el juez que instruyó el caso registró varias tabletas y una nota. La ambigüedad del certificado probablemente permitió enterrarlo en el cementerio católico del pueblo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "A la mañana siguiente, las autoridades dejaron pasar a todo el grupo. La orden de cierre se levantó a los pocos días. Si Benjamin hubiera aguantado una noche más, habría llegado a Lisboa y de allí a Nueva York, donde le esperaban con un puesto en el Instituto.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Unas semanas después cruzó por allí Hannah Arendt, que era amiga suya y que buscó su tumba sin encontrarla. Llevaba en el equipaje un texto que él le había entregado en Marsella por si acaso: las tesis sobre el concepto de historia, que llegaron así a Nueva York.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La concesión de la tumba de Portbou expiró y los restos fueron a parar a un osario común, así que no se sabe con exactitud dónde están. En 1994 se inauguró allí un monumento del escultor Dani Karavan: una escalera de acero que baja hacia el mar y se detiene ante un cristal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, el balance del ensayo, ordenado. Lo primero: su predicción central falló. El aura no se disolvió con la reproducción, se revalorizó gracias a ella, y el turismo de museo es la prueba diaria de que ocurrió lo contrario de lo que anunció.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo: el determinismo. Da por hecho que una técnica trae consigo una política, y la historia del cine demuestra que la misma cámara sirve para un documental obrero y para un desfile en Núremberg. Él lo intuye en el epílogo y no lo resuelve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero: no hay investigación empírica de ninguna clase. Habla de las masas, del público y de la percepción sin un solo dato, y sus afirmaciones sobre cómo perciben millones de personas están construidas desde un sillón de biblioteca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cuarto: es un texto difícil, elíptico y con tres versiones distintas que no coinciden. Quien lo cite debería decir cuál está citando, y casi nadie lo hace, con lo que circulan atribuciones de frases que solo aparecen en una de las tres redacciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno: que Benjamin lamenta la pérdida del aura. No la lamenta. Considera que liberar al arte del ritual es una emancipación, y escribe explícitamente contra las teorías reaccionarias del genio y del valor eterno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que aura significa algo místico que tienen las obras maestras. Es un término técnico y bastante seco: el aquí y el ahora de un objeto único con una historia propia. Nada que ver con la calidad de la obra ni con el talento de quien la hizo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que era un miembro destacado de la Escuela de Fráncfort. Era un becario dependiente al que sus colegas recortaron el texto antes de publicárselo, y que murió pobre sin haber tenido nunca un puesto académico en ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro: que el ensayo fue influyente en su momento. Salió en francés, en una revista de exiliados, cortado, y no lo leyó prácticamente nadie hasta veinticinco años después de la muerte de su autor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cinco: que se mató por desesperación ante la guerra. Se mató la noche en que le comunicaron que a la mañana siguiente lo entregarían a la policía francesa, y por tanto a los alemanes. Es una diferencia importante y conviene mantenerla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda es una caja de herramientas para pensar cualquier imagen que se produzca hoy, escrita por alguien que no vio la televisión, ni el color, ni una pantalla de ordenador, ni una cámara en un bolsillo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Portbou, la escalera de Karavan baja setenta escalones hacia el agua y termina en un cristal que impide seguir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se ve el mar perfectamente y no se puede llegar a él.",
+        },
+      ],
+    },
+  ],
+};
