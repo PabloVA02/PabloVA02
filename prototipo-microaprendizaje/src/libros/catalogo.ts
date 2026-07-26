@@ -240,7 +240,7 @@ export const CATALOGO: Ficha[] = [
   { id: "doctrina-shock", titulo: "La doctrina del shock", autor: "Naomi Klein", ano: 2007, categoria: "Economía", estado: "pendiente" },
   { id: "millonario-al-lado", titulo: "El millonario de al lado", autor: "Stanley y Danko", ano: 1996, categoria: "Economía", estado: "pendiente" },
   { id: "paseo-aleatorio", titulo: "Un paseo aleatorio por Wall Street", autor: "Burton Malkiel", ano: 1973, categoria: "Economía", estado: "pendiente" },
-  { id: "repensar-pobreza", titulo: "Repensar la pobreza", autor: "Banerjee y Duflo", ano: 2011, categoria: "Economía", estado: "pendiente" },
+  { id: "repensar-pobreza", titulo: "Repensar la pobreza", autor: "Banerjee y Duflo", ano: 2011, categoria: "Economía", estado: "escrito" },
   { id: "bogle-sentido-comun", titulo: "El pequeño libro para invertir con sentido común", autor: "John C. Bogle", ano: 2007, categoria: "Economía", estado: "pendiente" },
   { id: "superpronosticadores", titulo: "Superpronosticadores", autor: "Tetlock y Gardner", ano: 2015, categoria: "Economía", estado: "pendiente" },
   { id: "dinero-domina-juego", titulo: "Dinero: domina el juego", autor: "Tony Robbins", ano: 2014, categoria: "Economía", estado: "pendiente" },
