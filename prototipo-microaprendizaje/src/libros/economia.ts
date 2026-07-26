@@ -8311,3 +8311,651 @@ export const SUPERPRONOSTICADORES: Resumen = {
     },
   ],
 };
+
+export const BOGLE_SENTIDO_COMUN: Resumen = {
+  id: "bogle-sentido-comun",
+  titulo: "El pequeño libro para invertir con sentido común",
+  autor: "John C. Bogle",
+  ano: 2007,
+  gancho:
+    "Su fondo salió a bolsa en 1976 buscando ciento cincuenta millones y recaudó once. Lo llamaron la locura de Bogle. Cuarenta años después esa idea maneja billones y su inventor murió avisando de que se le había ido de las manos.",
+  porQue:
+    "Porque contiene el único argumento de inversión que se demuestra con una resta y no con una predicción. Y porque separar lo que Bogle demostró de lo que se le atribuye enseña a leer cualquier consejo financiero que te pongan delante.",
+  partes: [
+    {
+      titulo: "La locura de Bogle",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "31 de agosto de 1976. Sale a la venta el primer fondo indexado dirigido al ahorrador corriente en Estados Unidos. Los bancos colocadores habían calculado que reunirían ciento cincuenta millones de dólares. Reunieron once millones trescientos mil, tan poco que ni siquiera daba para comprar todas las acciones del índice.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Wall Street la operación se conoció como la locura de Bogle. Un competidor repartió carteles con el lema «ayúdanos a acabar con el fondo índice» y un texto que decía que conformarse con la rentabilidad media era poco menos que antipatriótico. La palabra que más se usó fue mediocridad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa acusación de mediocridad merece detenerse un segundo, porque es el malentendido que sostiene todo el negocio contrario. Aceptar la rentabilidad media del mercado no te deja en la mitad de la tabla: como casi todos los demás pagan comisiones que tú no pagas, te deja bastante por encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre detrás de aquello se llamaba John Bogle y venía de un despido. Había sido consejero delegado de una gestora tradicional y el consejo lo había echado en 1974, después de que una fusión que él había impulsado saliera mal en el desplome bursátil de aquellos años.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Con el despido encima montó una empresa nueva y le dio una estructura que no se había hecho nunca: los fondos serían los dueños de la gestora. No habría accionistas externos a los que repartir beneficios, así que todo el ahorro en costes volvería a los partícipes por definición.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa estructura, y no el fondo índice, es su verdadera invención, y casi ningún resumen lo dice. La idea de comprar todo el mercado ya estaba escrita: la había defendido Paul Samuelson en 1974 en un artículo donde pedía expresamente que alguien montara un fondo así, y ya existían versiones institucionales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De hecho, un banco de San Francisco llevaba desde 1971 gestionando una cartera indexada para el fondo de pensiones de una empresa de maletas. Lo que no existía era una manera de ofrecérselo a una persona normal sin que las comisiones se comieran la ventaja por el camino.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué inventó de verdad",
+          frase: "No inventó el fondo índice ni la teoría que hay detrás. Inventó una empresa sin dueños a los que enriquecer, que es lo que permitió que el coste bajara y siguiera bajando durante cuarenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea le rondaba desde muy joven. En 1951, con veintiún años, escribió su tesis de licenciatura en Princeton sobre la industria de los fondos de inversión, y allí ya sostenía que esos fondos no podían aspirar a batir a los índices y que debían reducir al mínimo sus gastos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tardó veinticinco años en poder aplicarlo y otros veinte en que le dieran la razón. Este libro, publicado en 2007, es el resumen de esa carrera escrito a los setenta y siete años, corto y deliberadamente repetitivo, para que la idea entre aunque el lector no sepa nada de finanzas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título original juega con una tradición de manuales breves y el subtítulo es toda una declaración: la única manera de garantizarte tu parte justa de lo que rinden los mercados. Fíjate en la palabra garantizarte, que en un libro de inversión no se puede usar casi nunca sin mentir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir ya lo que le falla como libro, porque es evidente desde el capítulo tres: dice lo mismo una y otra vez. Hay unas cinco ideas y doscientas páginas, y el lector que capte la primera a la primera se va a aburrir. Es un catecismo, no un ensayo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay algo que lo justifica en parte. Bogle sabía que su enemigo no era la ignorancia sino un sector entero con incentivos para que aquello no se entendiera, y que contra publicidad constante la única defensa es repetir. El libro está escrito para ganar una discusión, no para lucirse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis se puede decir en una frase, y no hay nada más en las doscientas páginas: compra todas las empresas del mercado a través de un fondo que replique un índice amplio, hazlo con el coste más bajo que encuentres, y no lo toques nunca.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo llamativo es de dónde saca la fuerza esa recomendación. No de una predicción sobre lo que hará la bolsa, ni de una teoría económica discutible, ni de un modelo. Sale de una resta que se puede hacer en una servilleta y que no admite discusión, y que veremos entera en el capítulo siguiente.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso, un apunte sobre quién era este señor, porque explica el tono del libro. Bogle tuvo problemas de corazón desde los treinta años, sufrió varios infartos y en 1996, con sesenta y seis, le hicieron un trasplante de corazón. Siguió trabajando y escribiendo veintitrés años más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1999, al cumplir setenta, la empresa que él había fundado le aplicó la norma interna de jubilación obligatoria para los consejeros y el consejo se negó a hacerle una excepción. Hubo pelea pública y bastante ruido. Se quedó dentro dirigiendo un centro de investigación con su nombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa expulsión importa para entender el libro. Bogle escribe desde fuera de la empresa que fundó, ya sin cargo ejecutivo, y eso le da una libertad que se nota: critica prácticas de su propia casa y de todo el sector con una franqueza que un directivo en activo no se habría permitido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dedicó esos últimos veinte años a dar conferencias y a escribir una decena de libros repitiendo lo mismo, y a discutir públicamente con el sector que le había hecho millonario a todos los demás. Le llamaban la conciencia de Wall Street, y el apodo tenía algo de reproche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió en enero de 2019, a los ochenta y nueve años. Para entonces la empresa que había fundado con once millones gestionaba varios billones de dólares y la palabra indexar había pasado de ser un insulto a ser lo que recomienda por defecto casi cualquier asesor honesto del mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dos meses antes de morir publicó un artículo en un periódico financiero avisando de que aquello se estaba volviendo un problema. De ese artículo va el último capítulo de este resumen, porque es el mejor final que podía tener esta historia y casi nadie lo conoce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Once millones trescientos mil dólares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni siquiera daba para comprar el índice entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y era la idea correcta desde el primer día.",
+        },
+      ],
+    },
+    {
+      titulo: "La aritmética implacable",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El argumento entero cabe en tres frases y no depende de ninguna opinión sobre el futuro. Primera: todas las acciones de un mercado están en manos de alguien. No hay ninguna acción huérfana, así que el conjunto de los inversores posee, exactamente, el mercado entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segunda: si todos juntos poseen el mercado entero, entonces todos juntos obtienen, antes de gastos, exactamente la rentabilidad del mercado. Ni más ni menos. Lo que uno gana por encima de la media se lo tiene que haber quitado a otro que quedó por debajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercera: por tanto, después de gastos, el conjunto de los inversores obtiene la rentabilidad del mercado menos lo que hayan pagado en comisiones, corretajes e impuestos. Es una identidad contable, no una teoría. No hay manera de que el grupo entero esté por encima de la media del grupo entero.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La consecuencia es demoledora y por eso a la gente le cuesta aceptarla: la gestión activa considerada en su conjunto tiene que rendir por debajo del mercado, y por una cantidad exactamente igual a lo que cuesta. No es una predicción sobre el talento de los gestores. Es una resta.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento no es de Bogle. Lo formuló con toda precisión William Sharpe, premio Nobel de economía, en un artículo de 1991 de dos páginas y media titulado la aritmética de la gestión activa. Bogle lo que hizo fue repetirlo durante treinta años hasta que llegó a la gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene ver por qué a la gente le cuesta tanto aceptarlo pese a ser una identidad contable. Porque en casi todos los ámbitos de la vida, esforzarse más da mejor resultado que no hacer nada. Aquí es al revés, y el cerebro no tiene ningún sitio donde guardar esa excepción.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La resta",
+          frase: "Rentabilidad bruta menos coste igual a rentabilidad neta. Es lo único de la inversión que se sabe con certeza antes de que pase, y por eso es lo único sobre lo que merece la pena decidir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bogle le puso a esto un nombre que le gustaba: la tiranía de los costes compuestos, frente a la magia del interés compuesto. Y lo ilustra con un cálculo que conviene hacer despacio, porque es la parte del libro que a todo el mundo le cambia la cara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Imagina un mercado que rinde un siete por ciento anual durante cincuenta años. Un euro se convierte en unos veintinueve y medio. Ahora quítale un dos por ciento anual de comisiones, que era lo normal en 2007. Rinde un cinco por ciento y ese euro se convierte en unos once y medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia no es el dos por ciento que parece. De los veintiocho euros y medio de ganancia que había, se quedan diez y medio. Es decir: un coste anual del dos por ciento se ha comido en torno al sesenta y tres por ciento de todo lo que habrías ganado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bogle lo remata con la observación que hace que ese número duela de verdad. El inversor puso el cien por cien del dinero y asumió el cien por cien del riesgo. El gestor no puso nada y no arriesgó nada. Y se llevó dos tercios del resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que precisar que ese dos por ciento no es solo la comisión que figura en el folleto. Bogle suma la de gestión, la de depositaría, los gastos de comprar y vender dentro del fondo, y el peaje fiscal que provoca esa rotación. La cifra visible suele ser la mitad de la real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su segunda idea, que es menos famosa y bastante buena: distinguir la rentabilidad de la empresa de la rentabilidad de la especulación. La primera es lo que las compañías ganan de verdad, dividendos y crecimiento de beneficios. La segunda es lo que cambia el precio que la gente está dispuesta a pagar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A largo plazo la primera lo explica casi todo y la segunda tiende a cero, porque el humor del mercado sube y baja pero no se va a ningún sitio. A corto plazo pasa lo contrario: casi todo lo que se ve en las noticias es humor, y ninguna de esas noticias afecta a lo que ganará una empresa en veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De esa distinción sale su regla para no asustarse, que es la más útil del libro. Cuando veas una caída, pregúntate si las empresas han dejado de vender o si solo ha cambiado lo que la gente está dispuesta a pagar por ellas hoy. Casi siempre es lo segundo, y lo segundo se deshace solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es lo mismo que decía Benjamin Graham, cuyo «Inversor inteligente» anda por esta biblioteca, con su imagen del mercado como un socio maníaco que cada mañana te ofrece un precio distinto por el mismo negocio. Bogle y Graham coinciden en el diagnóstico y discrepan en el remedio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Graham dice: aprovecha la locura del socio, compra barato cuando se deprima. Bogle dice: no vas a saber cuándo está deprimido, así que compra el mercado entero todos los meses y deja de mirar. La diferencia es que el remedio de Graham exige talento y el de Bogle no exige ninguno.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es la clave de por qué este libro importa más que otros mejores. Casi todo consejo financiero pide algo que el lector no tiene: criterio, tiempo, información o temple. Este pide exactamente lo contrario: pide no hacer nada, y no hacer nada está al alcance de cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar una cosa que se malinterpreta continuamente, y es la más importante de este resumen. Bogle no defendía indexar porque creyera que los mercados son eficientes ni que los precios son siempre correctos. Lo decía por escrito y con impaciencia: su argumento es de costes, no de eficiencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una distinción que casi todo el mundo aplasta y que cambia el alcance del argumento. Si indexas porque crees que el mercado siempre acierta, tu razón se cae cada vez que hay una burbuja. Si indexas por la resta de Sharpe, tu razón sigue en pie durante la burbuja y después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Compáralo con «Un paseo aleatorio por Wall Street», de Malkiel, que también está aquí y llega a la misma recomendación por el otro camino: el de la eficiencia de los mercados. Los dos libros terminan diciendo lo mismo partiendo de premisas distintas, y ese acuerdo vale mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay que predecir nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay que acertar con ninguna empresa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Solo hay que restar, y la resta la sabes antes de empezar.",
+        },
+      ],
+    },
+    {
+      titulo: "Los datos que le dieron la razón",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un argumento aritmético es bonito, pero la pregunta que hace cualquiera es otra: ¿y si elijo un gestor bueno? Alguien tiene que estar por encima de la media, porque la media sale de sumar a los que están arriba y a los que están abajo. La cuestión es si se puede saber quién antes de que ocurra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bogle contesta con un recuento que hizo él mismo y que es la parte más contundente del libro. Cogió los trescientos cincuenta y cinco fondos de renta variable que existían en Estados Unidos en 1970 y fue a ver qué había sido de ellos treinta y cinco años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo primero que encontró es que más de la mitad habían desaparecido: quedaban ciento treinta y dos. Los que van mal se cierran o se fusionan con otro, y entonces su mal resultado se borra de las estadísticas del sector. Ese detalle solo ya explica por qué los folletos siempre pintan bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese fenómeno tiene nombre y sirve para muchas más cosas que para los fondos: sesgo del superviviente. Si solo cuentas a los que siguen en pie, cualquier actividad parece más rentable de lo que es, y da igual que hablemos de fondos, de restaurantes o de gente que dejó su trabajo para montar algo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De los supervivientes, la mayoría había quedado en la media o por debajo. Y los que habían batido al mercado por más de un punto porcentual al año durante treinta y cinco años eran veinticuatro. Veinticuatro de trescientos cincuenta y cinco, algo menos de siete de cada cien.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí viene lo importante, que es la pregunta que casi nunca se hace: ¿había manera de saber en 1970 cuáles serían esos veinticuatro? Ninguna. Los que ganaron no eran los que venían ganando antes, y los folletos de 1970 recomendaban a otros.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema de fondo",
+          frase: "No es que no haya gestores buenos: es que solo se sabe quiénes eran cuando ya han pasado treinta años, y para entonces tú ya has elegido a otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese recuento es de 2007 y lo bueno es que desde entonces se ha comprobado sistemáticamente. La empresa que elabora los índices estadounidenses publica desde hace veinte años un informe periódico comparando los fondos activos con su índice de referencia, y los resultados son monótonos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A un año, según el periodo, entre la mitad y tres cuartas partes de los fondos quedan por debajo de su índice. A diez años, la proporción supera holgadamente el ochenta por ciento. A veinte años, en las categorías grandes, ronda o supera el noventa. Y esto se repite país por país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay algo aún más útil en esos informes y que se cita menos: la persistencia. Cogen a los fondos que estuvieron en el mejor cuarto un año y miran dónde están cinco años después, y el reparto se parece bastante al azar. Estar arriba no predice seguir arriba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso convierte en inútil el dato que más se usa para vender un fondo, que es su rentabilidad de los últimos años. La ley obliga a advertir que las rentabilidades pasadas no garantizan las futuras, y resulta que la advertencia legal es literalmente el mejor resumen de la evidencia disponible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y luego está la apuesta, que es la manera más limpia de zanjar una discusión que se ha inventado nunca. En 2007, el mismo año de este libro, Warren Buffett ofreció públicamente medio millón de dólares a quien aceptara una apuesta a diez años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su apuesta era esta: un simple fondo indexado sobre las quinientas mayores empresas estadounidenses, sin gestión y con coste mínimo, batiría a una selección de fondos de alto standing elegidos por un profesional. Aceptó una firma especializada, que escogió cinco carteras de fondos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El periodo fue de 2008 a 2017, es decir, empezando justo con el peor desplome desde los años treinta, que es la clase de escenario donde se supone que la gestión activa demuestra lo que vale porque puede protegerte. Nadie puede decir que le tocara un periodo fácil al índice.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fondo indexado ganó alrededor del ciento veinticinco por ciento en esos diez años. La media de las cinco carteras seleccionadas se quedó en torno al treinta y seis. En términos anuales, unos siete por ciento contra algo más de dos. Buffett donó lo ganado a una organización benéfica de Omaha.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay un detalle que redondea el asunto. En su carta a los accionistas de 2013, Buffett explicó qué instrucciones había dejado en su testamento para el dinero de su mujer: el noventa por ciento en un fondo indexado de coste bajo y el diez restante en deuda pública a corto plazo.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: el inversor activo más admirado de la historia, que se ha ganado la vida seleccionando empresas una a una, dejó por escrito que su viuda no debía intentar hacer eso. Es probablemente el mejor aval que ha recibido este libro, y viene del bando contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Buffett llegó a decir en una junta de accionistas que si hubiera que hacer una estatua a quien más ha hecho por el ahorrador estadounidense, la estatua sería de Bogle, y que él era la persona a quien más deberían agradecer los inversores del país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir el matiz honesto, sin embargo, porque este resumen no es un folleto. Que la mayoría de los gestores no bata al índice no demuestra que sea imposible: demuestra que es raro, que no se detecta por adelantado y que el coste de intentarlo es alto y seguro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay excepciones documentadas que llevan décadas batiendo al mercado. Existen, se conocen sus nombres, y ninguna de ellas admite dinero de gente corriente. Ese dato, por sí solo, resuelve el asunto para quien está leyendo esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y merece la pena unir esto con «Superpronosticadores», que anda por esta categoría. Tetlock encontró que los expertos que aciertan existen, pero que se identifican por cómo piensan y no por sus credenciales. En los fondos ni siquiera hay eso: no se ha encontrado el rasgo que los distinga por adelantado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Veinticuatro fondos de trescientos cincuenta y cinco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ninguna manera de saber cuáles serían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa segunda frase es la que decide, no la primera.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que el libro no cuenta",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Toca ahora la parte que ningún resumen de este libro hace y que es la razón de que exista esta ficha. Un libro que lleva razón en lo esencial puede seguir teniendo puntos ciegos, y este tiene cuatro que conviene conocer antes de aplicarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero es la palabra mercado. Bogle habla de comprar todo el mercado como si el índice fuera una fotografía neutral, y no lo es. Los índices habituales pesan cada empresa por su tamaño en bolsa, así que compras más de lo que más ha subido y menos de lo que ha bajado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso tiene una consecuencia que se ha vuelto visible en los últimos años: si un puñado de empresas se dispara, acaban ocupando una parte enorme del índice, y el inversor que creía estar comprando quinientas compañías está de hecho muy concentrado en menos de diez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es la primera vez que pasa. A finales de los noventa las tecnológicas llegaron a pesar una barbaridad en los índices estadounidenses justo antes de desplomarse, y en 1989 las empresas japonesas ocupaban buena parte del índice mundial. El índice no avisa de esas concentraciones: las refleja.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "No es un fallo del método sino una característica suya que hay que conocer. Comprar el mercado significa aceptar la opinión del mercado sobre qué es importante, actualizada cada día. Cuando esa opinión se equivoca durante años, tú te equivocas exactamente lo mismo, ni más ni menos.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo punto ciego es el propio inversor, y es el más caro de todos. Bogle escribe como si el problema fuera el coste del fondo, y hay un coste mayor: el comportamiento del que lo compra. Un fondo puede rendir un ocho por ciento y sus partícipes obtener bastante menos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pasa porque la gente entra después de que haya subido y sale después de que haya bajado. Las estimaciones de esa diferencia entre lo que rinde el fondo y lo que se lleva el partícipe rondan el punto porcentual anual, que en veinte años es una cantidad de dinero considerable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llamativo es dónde es peor esa diferencia. No en los fondos tranquilos, sino en los más volátiles y más comentados: cuanto más emocionante es un producto, más dinero pierde su partícipe medio respecto a lo que el producto rindió. La emoción es una comisión que se paga aparte.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El coste que no está en el folleto",
+          frase: "La comisión te la cobra la gestora y viene escrita. El coste de vender en marzo de 2020 te lo cobras tú, no aparece en ningún sitio y suele ser mayor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bogle sí insiste mucho en no tocar la cartera, pero lo trata como una cuestión de disciplina, no como un problema psicológico con causas conocidas. Para eso hace falta «La psicología del dinero», de Morgan Housel, que está en esta misma categoría y cubre exactamente ese hueco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer punto ciego es geográfico y es el más discutido. Bogle era escéptico sobre invertir fuera de Estados Unidos y llegó a decir que con el mercado estadounidense bastaba, porque sus grandes empresas ya venden en todo el mundo. Casi ningún especialista está de acuerdo con eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción es sencilla: eso mismo se podía decir de Japón en 1989, cuando su bolsa era la mayor del mundo, y quien lo hiciera pasó más de treinta años esperando a recuperar su dinero. Concentrar todo el ahorro en un solo país es una apuesta, aunque ese país lleve un siglo ganando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Además, y esto lo dice el propio argumento de Bogle contra él: si la razón para indexar es no elegir, elegir un país es elegir. La versión coherente de su tesis es comprar el mercado mundial, y eso es lo que recomienda hoy la mayoría, incluida la empresa que él fundó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para un lector en España la cuestión es todavía más clara, porque su mercado nacional pesa una fracción mínima del mundial y está concentrado en bancos, energía y telecomunicaciones. Aplicar aquí el consejo de Bogle a la letra sería concentrar el ahorro en tres sectores de un país pequeño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto es más teórico y más entretenido. Si todo el mundo indexara, ¿quién decidiría los precios? El índice compra a cualquier precio, sin mirar. Si nadie analiza empresas, los precios dejan de contener información y el índice pasa a replicar una lista de números sin sentido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese problema tiene nombre en economía, se formuló en 1980 y es una paradoja de verdad: un mercado no puede ser perfectamente eficiente, porque si lo fuera nadie tendría incentivo para buscar información, y sin nadie buscándola dejaría de serlo. La eficiencia se paga con el trabajo de los que lo intentan.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La respuesta de Bogle era práctica: que estamos lejísimos de ese punto, que la inmensa mayoría del volumen negociado cada día sigue viniendo de gente que compra y vende activamente, y que el ahorrador que indexa está viajando gratis a costa de ellos. Es una respuesta buena y no es una refutación.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un quinto asunto que no es un punto ciego sino una discusión que él perdió en su propia casa: los fondos cotizados. Bogle desconfiaba de ellos, no por su construcción sino por su uso. Un fondo índice pensado para tenerlo cuarenta años, convertido en algo que se compra y se vende en el móvil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento era que el producto es idéntico pero el envase invita a lo contrario de lo que el producto necesita, y que la facilidad de negociar destruye la ventaja del que no negocia. Peleó contra que su propia empresa entrara en ese mercado y perdió esa batalla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su frase sobre el asunto es de las mejores que dijo: que no hay nada malo en tener un fondo cotizado sobre un índice amplio, siempre que lo compres y te mueras con él. El problema, decía, no es la escopeta sino la costumbre de tenerla cargada encima de la mesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el tiempo se ha visto que tenía media razón. Esos fondos han abaratado el acceso muchísimo y han sido buenos para el ahorrador que los usa como Bogle quería, y a la vez han alimentado una cultura de operar constantemente que es justo lo que su libro entero intenta desactivar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un libro puede acertar en lo principal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dejarse fuera lo que te va a costar el dinero de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que en este caso no es la comisión, sino tú un lunes por la mañana.",
+        },
+      ],
+    },
+    {
+      titulo: "La advertencia que dejó escrita",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Noviembre de 2018. Un hombre de ochenta y nueve años, con un corazón trasplantado hace veintidós, publica un artículo en un periódico financiero estadounidense. Le quedan dos meses de vida y lo que escribe es una advertencia sobre la idea a la que dedicó su carrera entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento es este. Los fondos indexados han crecido tanto que un puñado de gestoras posee ya una parte enorme de todas las grandes empresas cotizadas del país. Y como esos fondos nunca venden, esas gestoras son accionistas permanentes de prácticamente todo a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bogle hace la proyección incómoda: si la tendencia sigue, tres o cuatro empresas podrían acabar controlando la mayoría de los votos de las juntas de accionistas de la economía estadounidense. Y escribe que no cree que eso sea bueno para el interés nacional.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es una situación rarísima en la historia de las ideas: el hombre que inventó una herramienta, ya al final, avisando de que su éxito podía convertirla en un problema de otro orden. No se retracta de nada. Dice que la idea sigue siendo correcta y que su escala plantea preguntas nuevas.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es real y no está resuelto. Un gestor de un fondo indexado tiene que votar en las juntas de miles de empresas sin haber analizado ninguna, y sin poder vender aunque le parezca mal lo que hacen. Su única herramienta de presión es el voto, y no puede usar la amenaza de irse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una consecuencia sobre la competencia que economistas serios han estudiado: si el mismo puñado de accionistas posee a la vez a todas las aerolíneas o a todos los bancos de un país, esos accionistas no tienen ningún interés en que compitan agresivamente entre ellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa línea de investigación se llama propiedad común y sigue discutiéndose: hay trabajos que encuentran efectos sobre los precios y otros que los cuestionan por cómo miden. No es un asunto cerrado, y precisamente por eso conviene citarlo como pregunta abierta y no como conclusión.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El final de la historia",
+          frase: "El hombre al que llamaron loco por vender la media acabó avisando de que si todo el mundo compraba la media, el mercado dejaría de ser algo que valga la pena promediar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con eso encima de la mesa, ¿qué queda del libro? Queda prácticamente todo, y conviene decirlo claro para que la crítica no despiste. La resta sigue siendo cierta, los datos han seguido dándole la razón durante veinte años más y el consejo práctico es el mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es más: el mundo se ha movido en su dirección de una manera que ningún otro autor de esta categoría puede reclamar. Las comisiones de los fondos indexados han bajado hasta niveles que en 2007 habrían parecido un error de imprenta, y en algunos casos son literalmente cero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y los fondos activos han tenido que bajar las suyas para competir, con lo que su campaña también les ha ahorrado dinero a los que nunca le hicieron caso. Es una de las pocas veces en que ganar una discusión pública abarata el producto del bando que la perdió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el mejor argumento a favor del libro y no está en el libro: su recomendación es hoy mucho mejor de lo que era cuando la escribió, porque su propia campaña abarató el producto que recomendaba. Muy pocos libros de consejos pueden decir que mejoraron el consejo al publicarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien quiere quedarse con lo aprovechable en cuatro líneas, cabe. Mira la comisión antes que la rentabilidad pasada, porque la primera es un dato del futuro y la segunda no. Prefiere un índice mundial amplio a uno de un solo país. Aporta lo mismo cada mes. Y no mires la cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con dos advertencias que el libro no da. Que nada de esto sirve si tienes deudas caras: pagar un préstamo al ocho por ciento es una inversión garantizada a ese ocho por ciento y no existe fondo que compita con eso. Y que esto es para dinero que no vas a necesitar en diez años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese segundo punto es el que más gente se salta y el que más disgustos da. Un índice de bolsa puede pasarse una década larga por debajo de donde entraste; ha ocurrido varias veces en el siglo pasado. Si el dinero tiene fecha de salida, esto no es el sitio, por barato que sea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una tercera que conviene decir en español, porque el libro es estadounidense: la fiscalidad, las comisiones de custodia y la oferta disponible cambian mucho de un país a otro, y la traducción directa de sus recomendaciones a otro sistema tributario no siempre da el mismo resultado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Vale la pena cerrar comparándolo con los vecinos de estantería. «El inversor inteligente» enseña a valorar empresas y exige criterio. «El cisne negro» avisa de que lo importante es lo que no está en la serie histórica. Y este dice que si no tienes lo primero, hagas lo mínimo posible.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los tres se pueden sostener a la vez, y esa es la lectura madura de esta categoría entera. Graham para el que tenga tiempo y estómago, Taleb para no confundir tranquilidad con seguridad, y Bogle para el noventa y cinco por ciento de la gente que no va a hacer ninguna de las dos cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bogle tenía una frase que resume su carrera mejor que el libro: no busques la aguja en el pajar, compra el pajar entero. Es la única recomendación financiera que se puede dar sin saber nada de quien la recibe y sin equivocarse de forma grave.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió el 16 de enero de 2019. Nunca fue especialmente rico para los estándares de su sector, porque la estructura que inventó le impedía cobrar del negocio lo que cobraban sus competidores, y eso era exactamente el punto de haberla inventado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se calcula que aquella decisión estructural de 1974 les ha ahorrado a los inversores cientos de miles de millones de dólares en comisiones. Es difícil pensar en otra persona de las finanzas de la que se pueda decir algo parecido, y en su momento lo llamaron loco por ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empezó con once millones y una idea que daba risa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Terminó avisando de que la idea había crecido demasiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entre las dos cosas hay cuarenta y dos años y una sola resta repetida sin descanso.",
+        },
+      ],
+    },
+  ],
+};
