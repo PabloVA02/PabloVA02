@@ -235,7 +235,7 @@ export const CATALOGO: Ficha[] = [
   { id: "factfulness", titulo: "Factfulness", autor: "Hans Rosling", ano: 2018, categoria: "Economía", estado: "escrito" },
   { id: "semana-4-horas", titulo: "La semana laboral de 4 horas", autor: "Tim Ferriss", ano: 2007, categoria: "Economía", estado: "escrito" },
   { id: "riqueza-naciones", titulo: "La riqueza de las naciones", autor: "Adam Smith", ano: 1776, categoria: "Economía", estado: "pendiente" },
-  { id: "capital-siglo-xxi", titulo: "El capital en el siglo XXI", autor: "Thomas Piketty", ano: 2013, categoria: "Economía", estado: "pendiente" },
+  { id: "capital-siglo-xxi", titulo: "El capital en el siglo XXI", autor: "Thomas Piketty", ano: 2013, categoria: "Economía", estado: "escrito" },
   { id: "por-que-fracasan", titulo: "Por qué fracasan los países", autor: "Acemoglu y Robinson", ano: 2012, categoria: "Economía", estado: "pendiente" },
   { id: "doctrina-shock", titulo: "La doctrina del shock", autor: "Naomi Klein", ano: 2007, categoria: "Economía", estado: "pendiente" },
   { id: "millonario-al-lado", titulo: "El millonario de al lado", autor: "Stanley y Danko", ano: 1996, categoria: "Economía", estado: "pendiente" },
