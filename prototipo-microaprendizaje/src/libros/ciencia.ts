@@ -7698,3 +7698,615 @@ export const EMPERADOR_MALES: Resumen = {
     },
   ],
 };
+
+export const SEXTA_EXTINCION: Resumen = {
+  id: "sexta-extincion",
+  titulo: "La sexta extinción",
+  autor: "Elizabeth Kolbert",
+  ano: 2014,
+  gancho:
+    "Ha habido cinco extinciones masivas en quinientos millones de años. La sexta la está causando un animal que sabe lo que está haciendo y lo escribe en libros.",
+  porQue:
+    "Es el mejor libro para entender la crisis ecológica sin consignas: va al sitio, se pone al lado del científico y cuenta lo que se mide. Y de paso enseña algo más raro, que es cómo una idea imposible —que una especie pueda desaparecer— se convirtió en un hecho.",
+  partes: [
+    {
+      titulo: "Una rana dorada en un hotel de Panamá",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En el pueblo panameño de El Valle de Antón, dentro del cráter de un volcán apagado, hay un hotel con un edificio anexo lleno de acuarios. Dentro de los acuarios hay ranas. Fuera, en los arroyos que rodean el pueblo, ya no queda prácticamente ninguna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La especie que más importa allí es la rana dorada panameña, un animalillo amarillo con manchas negras que aparece en la lotería nacional y en los billetes. Es tan venenosa que los depredadores la evitan, y saluda moviendo una pata porque en un arroyo con ruido nadie la oiría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Elizabeth Kolbert llegó allí en 2011 como periodista del New Yorker. Su método en todo el libro es siempre el mismo y es la razón de que funcione: ir al sitio, ponerse al lado del biólogo que está contando bichos y describir exactamente lo que hay delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que había delante era una historia que se había repetido en Costa Rica, en Australia y en los Andes. Un investigador visita un arroyo lleno de ranas, vuelve dos años después y no queda ninguna. No hay cadáveres, no hay tala, no hay veneno: no hay nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso más famoso es el del sapo dorado de Monteverde, en Costa Rica, que se congregaba a cientos en unos charcos concretos. En 1987 los contaron; en 1988 aparecieron unos pocos; en 1989 apareció uno solo, y desde entonces no se ha vuelto a ver ninguno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La causa tardó una década en identificarse y resultó ser un hongo. Se llama Batrachochytrium dendrobatidis, se le abrevia como quitridio, y ataca la piel de los anfibios. Como los anfibios respiran y regulan sus sales por la piel, el animal acaba muriendo de un fallo cardíaco.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo llegó el hongo a todas partes",
+          frase: "La hipótesis principal apunta a la rana de uñas africana, que durante décadas se usó como prueba de embarazo: se le inyectaba orina de una mujer y si ponía huevos, estaba embarazada. Se exportaron por decenas de miles a hospitales de todo el mundo, y muchas escaparon o se soltaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa especie africana convive con el hongo sin enfermar, así que lo transporta sin síntomas. Es exactamente el mismo mecanismo que produce las peores epidemias humanas, y ocurrió porque alguien encontró un uso médico ingenioso para un animal y lo mandó en avión a cinco continentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras del grupo son las peores de todo el reino animal. Alrededor de un tercio de las especies de anfibios conocidas está amenazada, y son la clase de vertebrados con más riesgo de todas. Llevan trescientos millones de años en la Tierra y han sobrevivido a cuatro extinciones masivas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta en El Valle fue montar un centro de rescate en el hotel, con las ranas separadas por especies en acuarios esterilizados y con el personal cambiándose de calzado al entrar. La rana dorada está extinta en la naturaleza y sobrevive solo así, en cajas de cristal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Kolbert cuenta un detalle que resume el libro entero. Para que las ranas del centro coman, hay que criar grillos; para criar grillos hacen falta más instalaciones; y todo eso depende de que unas personas concretas sigan yendo a trabajar todas las mañanas, indefinidamente.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí, el libro se organiza en trece capítulos y cada uno sigue a una especie. Un caracol fósil, un pingüino que ya no existe, un rinoceronte de Sumatra, un murciélago, un coral, un árbol amazónico, y en el último, el neandertal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa estructura viene de que casi todos los capítulos empezaron siendo reportajes de revista, y eso tiene un coste que conviene señalar: el libro es episódico y a veces cambia de tema justo cuando el argumento se estaba poniendo interesante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis, sin embargo, es una sola y la enuncia pronto. Que estamos en medio de un episodio comparable a los cinco grandes desplomes de la biodiversidad que registra el registro fósil, y que la causa somos nosotros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí conviene ser exacto, porque la frase se usa de forma exagerada continuamente. Kolbert no dice que ya haya ocurrido una extinción masiva: dice que las tasas actuales, proyectadas, llevan a una. La diferencia entre esas dos afirmaciones es enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella misma cita el trabajo de Anthony Barnosky y su equipo de 2011, que hizo las cuentas: las cinco grandes se llevaron por delante alrededor de tres cuartas partes de las especies, y las pérdidas documentadas hasta ahora están muy por debajo de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ese trabajo sí concluye es que, si todas las especies actualmente catalogadas como amenazadas desaparecieran, y al ritmo del último medio milenio, se alcanzaría el umbral de una extinción masiva en unos pocos siglos. Eso es una proyección, y está dicho como tal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Reconocer esa distinción es lo que separa un libro serio de un panfleto, y es también lo que le permite defenderse de sus críticos, que son bastantes y no todos negacionistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para entender por qué esto es grave hay que retroceder mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hasta un momento en que la palabra extinción no existía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque la idea era literalmente impensable.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El hombre que inventó la extinción",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1739, unos soldados franceses que bajaban por el río Ohio encontraron en un lodazal salino unos huesos enormes: colmillos curvados, un fémur de casi un metro y unas muelas del tamaño de un puño con cúspides puntiagudas. Se los llevaron a París sin saber qué eran.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante medio siglo, los mejores naturalistas de Europa discutieron sobre ellos. Los colmillos parecían de elefante, el fémur también, y las muelas no se parecían a las de ningún animal conocido. La solución que se daba era siempre la misma: será un elefante raro que sigue vivo en alguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que entender por qué esa era la única respuesta posible. En una naturaleza creada perfecta y completa, que una especie desapareciera significaba un fallo del creador. La escala de los seres no tenía huecos, y admitir uno era una herejía razonada, no un descuido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Thomas Jefferson, que además de presidente era un naturalista serio, estaba convencido de que el animal seguía vivo en el interior del continente. Cuando organizó la expedición de Lewis y Clark en 1804, entre las instrucciones les pidió que estuvieran atentos por si lo encontraban.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El que resolvió el asunto fue un funcionario del recién creado museo de París, un joven de veintipocos años llamado Georges Cuvier, que en 1796 dio una conferencia demostrando que aquellos huesos no eran de ningún elefante vivo, sino de una especie perdida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su herramienta era la anatomía comparada, y en eso era el mejor del mundo. Comparó las muelas del indio y del africano, que son distintas entre sí, con las del animal de Ohio, que no se parecían a ninguna, y concluyó que existía un mundo anterior al nuestro destruido por alguna catástrofe.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La idea nueva",
+          frase: "Cuvier inventó la extinción como hecho. Antes de él no era que se creyera poco probable: es que no existía como categoría. En veinte años pasó de ser una herejía a ser un dato de museo, y ese es uno de los cambios más rápidos en la historia del pensamiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se equivocó, eso sí, en el mecanismo. Cuvier era catastrofista: creía en revoluciones súbitas del globo, inundaciones y levantamientos que arrasaban faunas enteras. No creía en la evolución y se pasó la vida discutiendo con Lamarck, que sí creía en ella y también se equivocaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La generación siguiente lo corrigió con dureza. Charles Lyell, en sus Principios de geología, defendió que en la Tierra no pasa nada que no esté pasando ahora mismo: erosión lenta, sedimentación lenta, elevación lenta. Cualquier apelación a catástrofes le parecía superstición disfrazada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Darwin se llevó los tomos de Lyell en el Beagle y los leyó de cabo a rabo, y esa influencia se le nota en todo. En El origen de las especies, que está en esta biblioteca, la extinción existe y es siempre gradual: unas variedades desplazan a otras, poco a poco y sin sobresaltos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso Darwin tuvo un problema con los huecos del registro fósil, esas desapariciones bruscas de faunas enteras entre dos capas de roca. Su respuesta fue que el registro estaba incompleto, como un libro al que le faltan páginas, y en muchos casos tenía razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero no en todos, y la demostración llegó en 1980 por un camino que nadie esperaba. Un geólogo llamado Walter Alvarez estudiaba en Gubbio, en Italia, una capa de arcilla de un centímetro que separa las rocas del Cretácico de las siguientes y en la que los fósiles cambian por completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre, Luis Alvarez, era premio Nobel de Física, y le propuso medir el iridio de esa arcilla para calcular cuánto había tardado en depositarse, porque el iridio llega en polvo cósmico a un ritmo más o menos constante. Lo que salió del análisis no tenía sentido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Había unas trescientas veces más iridio del que debía haber. El iridio es rarísimo en la corteza terrestre y abundante en los asteroides, así que la explicación que propusieron fue que algo enorme había caído del cielo hace sesenta y seis millones de años.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comunidad geológica reaccionó con desprecio. La hipótesis olía a catastrofismo, es decir, a Cuvier, es decir, a lo que Lyell había expulsado siglo y medio antes. Hubo paleontólogos que la llamaron directamente una fantasía de físicos que no sabían leer una roca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Faltaba el cráter, y apareció en 1991 en un sitio inesperado: bajo la península de Yucatán, en México, medio en tierra y medio en el mar, con unos ciento ochenta kilómetros de diámetro. Lo habían localizado años antes unos geofísicos de la petrolera mexicana y estaba en un informe interno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lección que Kolbert extrae de todo esto es la más elegante del libro. Darwin acertó de lleno en el mecanismo del cambio y se equivocó en el ritmo, porque heredó de Lyell una idea de la Tierra en la que nunca pasa nada de golpe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí sale la síntesis actual, que es la que hace inteligible el presente: la evolución funciona por selección lenta durante millones de años, y de vez en cuando ocurre algo tan rápido que las adaptaciones acumuladas dejan de servir para nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esos momentos no sobrevive el mejor adaptado a su ambiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobrevive el que por casualidad servía para el ambiente siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y eso ha pasado exactamente cinco veces.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las cinco veces que casi se acaba todo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Cuando los paleontólogos empezaron a contar familias fósiles capa por capa, en los años ochenta, salieron cinco picos que destacaban muchísimo sobre el ruido de fondo. Se les llama desde entonces las cinco grandes, y a las cinco les corresponde una fecha y un culpable discutido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera fue hace unos cuatrocientos cuarenta y cuatro millones de años, al final del Ordovícico, cuando toda la vida compleja era marina. Se relaciona con una glaciación brusca que bajó el nivel del mar y vació las plataformas continentales, que era donde vivía casi todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda, en el Devónico tardío, fue más larga y peor entendida, y se sospecha que tuvo que ver con la expansión de las primeras plantas con raíces profundas, que erosionaron los suelos y fertilizaron los mares hasta dejarlos sin oxígeno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es la mayor de todas y tiene nombre propio: la Gran Mortandad, hace unos doscientos cincuenta y dos millones de años, al final del Pérmico. Desapareció en torno al noventa y seis por ciento de las especies marinas y tres cuartas partes de las terrestres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sospechoso principal son los traps siberianos, una erupción volcánica que no fue un volcán sino una región entera manando lava durante cientos de miles de años, cubriendo un área comparable a Europa occidental y soltando dióxido de carbono a una escala inimaginable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta, al final del Triásico, despejó el terreno a los dinosaurios. Y la quinta es la única que todo el mundo conoce: el asteroide de Yucatán, hace sesenta y seis millones de años, que acabó con los dinosaurios no avianos y con alrededor de tres cuartas partes de las especies.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué tienen en común",
+          frase: "En las cinco, algo cambió más deprisa de lo que se puede evolucionar. No importa si fue frío, calor, falta de oxígeno o una piedra del tamaño de una ciudad: lo letal es siempre la velocidad, porque la adaptación necesita generaciones y las generaciones necesitan tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kolbert lo formula con una frase que se le ha citado mucho: en una extinción masiva, las reglas del juego cambian de golpe, y los rasgos que llevaban millones de años siendo ventajosos pasan a ser irrelevantes o directamente mortales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que da es el de los ammonites, unos moluscos con concha en espiral que dominaron los mares durante trescientos millones de años y que tenían una estrategia reproductiva magnífica: larvas diminutas que flotaban en la superficie del océano y se dispersaban lejísimos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando el impacto acidificó la capa superficial del mar, esa estrategia se convirtió en una sentencia, porque justo allí es donde estaban todas sus crías. Los nautilos, parientes suyos con pocos huevos grandes puestos en el fondo, siguen vivos hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena saber qué mató exactamente a los dinosaurios, porque no fue el golpe. El impacto lanzó al espacio miles de millones de toneladas de roca vaporizada que volvieron a caer por toda la Tierra, y al reentrar en la atmósfera calentaron el cielo como un horno durante horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vino lo contrario: el polvo y los aerosoles de azufre en suspensión bloquearon la luz del sol durante años. Sin luz no hay fotosíntesis; sin fotosíntesis se hunde la base de todas las cadenas alimentarias, y los animales grandes son los primeros en quedarse sin comer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobrevivieron los pequeños, los que comían semillas y detritos y los que podían esconderse bajo tierra o en el agua. No sobrevivió el mejor cazador ni el más eficiente: sobrevivió el que no dependía de que las plantas crecieran ese año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una razón técnica por la que estas discusiones duran décadas, y se llama efecto Signor-Lipps. Como fosilizarse es rarísimo, el último fósil que se encuentra de una especie casi nunca corresponde al último individuo que vivió, sino a bastante antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado es que en las rocas toda extinción brusca parece gradual: los fósiles se van espaciando antes de la capa fatídica, como si el declive hubiera sido lento. Durante años eso se usó como argumento contra el asteroide, y era un artefacto del método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cinco grandes, por cierto, salieron de una base de datos. En los años setenta y ochenta, un paleontólogo llamado Jack Sepkoski se dedicó a fichar todas las familias de organismos marinos fósiles con su primera y su última aparición, un trabajo de años sin ningún glamour.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando él y David Raup representaron esos datos en 1982, los cinco picos aparecieron solos, sin que nadie los buscara. Raup calculó además una cifra que conviene tener presente: alrededor del noventa y nueve coma nueve por ciento de todas las especies que han existido están extinguidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sacó Raup el título de su mejor libro, que pregunta si las extinciones se deben a malos genes o a mala suerte. Su respuesta, en las masivas, es que a mala suerte: el rasgo que te salva es el que por casualidad servía para las condiciones nuevas, y eso no se puede prever.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un último dato que da la escala del asunto. Después de cada una de las cinco, la diversidad tardó entre cinco y diez millones de años en recuperarse; tras la Gran Mortandad del Pérmico, bastante más. No es un bache: es un vacío más largo que toda la historia del género humano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora bien: para comparar el presente con esas cinco hace falta un número, y el número es la tasa de fondo, es decir, cuántas especies se extinguen normalmente cuando no pasa nada raro. Y calcularla es mucho más difícil de lo que parece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se mide en extinciones por millón de especies y año, y las estimaciones clásicas la ponían alrededor de uno. Un trabajo de Stuart Pimm y otros de 2014 la rebajó a en torno a una décima parte de eso, lo cual empeora bastante la comparación con el presente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Frente a esa cifra, las extinciones documentadas en los últimos siglos dan tasas entre cien y mil veces superiores. Y esa es la afirmación central del libro: el problema no es que se extingan especies, que es lo normal, sino a qué velocidad se están extinguiendo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquí toca ser honesto con las cifras, y Kolbert lo es. No sabemos cuántas especies hay: las estimaciones van de dos a diez millones o más, y la mayoría son insectos y organismos del suelo sin describir. Cualquier porcentaje de pérdida se calcula sobre un denominador desconocido.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Además, las extinciones confirmadas son pocas en términos absolutos: unos ochocientos casos documentados desde el año 1500, sobre todo aves, mamíferos y moluscos, que son los grupos que alguien se molestó en catalogar. De lo que no se cataloga no consta nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso hace que la discusión se dé sobre proyecciones y no sobre recuentos, y ahí es donde el libro ha recibido sus críticas más razonables. Hay ecólogos que sostienen que los modelos de especies por área sobrestiman las pérdidas y que la palabra extinción se usa demasiado alegremente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta de Kolbert es doble y es buena. Primero: el detalle de las cifras no cambia el orden de magnitud, que es lo que importa. Y segundo: para cuando la contabilidad esté completa, el fenómeno que se quería medir habrá terminado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda entender qué está causando exactamente ese ritmo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no es lo que casi todo el mundo contestaría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es la caza, ni siquiera principalmente la tala.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El mar que se está agriando",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Frente a la isla de Isquia, en el golfo de Nápoles, hay un peñasco con un castillo aragonés encima y, en el fondo marino de alrededor, unas grietas volcánicas por las que sale dióxido de carbono puro en forma de burbujas. Lleva miles de años saliendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso convierte aquel trozo de mar en un laboratorio involuntario: nadando hacia las grietas, uno atraviesa aguas cada vez más ácidas, y puede ver con máscara y tubo cómo será el Mediterráneo dentro de unas décadas. Kolbert lo hizo con una bióloga marina llamada Jason Hall-Spencer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que se ve es un empobrecimiento progresivo. Lejos de las burbujas hay algas calcáreas, erizos, lapas, percebes y una comunidad variada; cerca desaparecen todos los que fabrican concha o esqueleto de carbonato, y el fondo se convierte en una pradera monótona de algas y hierba marina.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La química, sin trampas",
+          frase: "Alrededor de un tercio del dióxido de carbono que emitimos acaba disuelto en el mar. Al disolverse forma ácido carbónico, que libera iones de hidrógeno y baja el pH. Desde la revolución industrial ha bajado unas 0,1 unidades, y como la escala es logarítmica eso son un treinta por ciento más de iones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema para los animales con concha es que esos iones se combinan con los carbonatos disueltos y los dejan menos disponibles. Fabricar concha pasa a costar más energía, y por debajo de cierto umbral las conchas empiezan directamente a disolverse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esto no es una amenaza remota: la acidificación es la parte del problema climático que menos depende de modelos, porque es química de bachillerato y se mide con un pH-metro. Se sabe cuánto CO2 se emite y cuánto acaba en el agua.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los que peor lo llevan son los arrecifes de coral, y Kolbert dedica un capítulo entero a la Gran Barrera australiana, en una isla de investigación llamada One Tree, donde los científicos llevan décadas midiendo cuánto carbonato depositan los corales cada año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un arrecife es un empate permanente entre construcción y demolición. Los corales depositan carbonato y a la vez el oleaje, los peces loro y una fauna de organismos perforadores lo van desmontando. Basta con que la construcción baje un poco para que el empate se pierda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los arrecifes ocupan menos del uno por ciento del fondo marino y albergan en torno a una cuarta parte de todas las especies de peces del mar. Por eso se les llama las selvas del océano, y por eso su desaparición no afecta solo a los corales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene ser exacto también aquí, porque el asunto se cuenta simplificado: lo que está matando arrecifes ahora mismo no es sobre todo la acidez, sino el calor, que expulsa a las algas simbióticas y produce el blanqueamiento. La acidez es el problema de fondo y de largo plazo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo mecanismo del libro es completamente distinto y no tiene que ver con la química, sino con la geometría. Se llama fragmentación, y Kolbert lo cuenta desde un experimento asombroso que lleva funcionando en la Amazonia desde 1979.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aprovechando una ley brasileña que obligaba a los ganaderos a conservar parte del bosque, unos biólogos les pidieron que dejaran los trozos con un tamaño concreto: cuadrados de una hectárea, de diez y de cien. Después se pusieron a contar qué pasaba dentro de cada uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que pasó fue que los fragmentos se fueron vaciando, y no por tala. Los bordes se secan y se calientan, los árboles grandes caen, las especies que necesitan territorios amplios no caben, y las poblaciones pequeñas se extinguen por mala suerte antes de que llegue nadie nuevo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese vaciado tiene nombre y regla. La relación entre superficie y número de especies es bastante constante en la naturaleza: reducir un hábitat a la décima parte se lleva por delante alrededor de la mitad de las especies, aunque el trozo que quede esté intacto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer mecanismo es el más peculiar y Kolbert lo llama la Nueva Pangea. Durante doscientos millones de años los continentes se separaron y cada uno desarrolló su fauna aislada; en doscientos años los hemos vuelto a conectar con barcos y aviones.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Un mejillón de un río ucraniano llega vivo en el agua de lastre de un carguero a los Grandes Lagos. Una serpiente arborícola viaja en un avión militar a la isla de Guam y se come a todos los pájaros del bosque, que no habían visto una serpiente nunca.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso que cuenta con más detalle es el de los murciélagos norteamericanos. En 2007, un espeleólogo fotografió en una cueva cerca de Albany, en el estado de Nueva York, unos murciélagos con el hocico cubierto de un polvo blanco. Era un hongo europeo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Les despierta durante la hibernación, con lo que consumen sus reservas de grasa en pleno invierno y mueren de hambre. En algunas colonias murió más del noventa por ciento, y en pocos años se contaban por millones. Los murciélagos europeos conviven con ese hongo sin problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo patrón del hongo de las ranas y de la peste en América: no hace falta maldad ni tala.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Basta con mover una cosa viva de un sitio a otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y eso llevamos haciéndolo mucho más tiempo del que parece.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El animal que mueve las cosas de sitio",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Los dos últimos capítulos retroceden decenas de miles de años, y ahí el libro deja de ser un reportaje sobre el presente y se convierte en otra cosa: una investigación sobre qué clase de animal es el que está causando todo esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer dato es la megafauna. Hasta hace relativamente poco había en América perezosos gigantes de cuatro metros, mamuts, mastodontes, camellos, leones y armadillos del tamaño de un coche; en Australia, canguros gigantes y un marsupial de dos toneladas; en Nueva Zelanda, moas de tres metros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todos desaparecieron, y el patrón de las fechas es lo que hace incómoda la discusión. En Australia, hace unos cuarenta y cinco mil años; en América, hace unos trece mil; en Madagascar y Nueva Zelanda, hace menos de mil. En África, donde había humanos desde siempre, la megafauna sigue viva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas fechas coinciden en cada sitio con la llegada de nuestra especie, y esa coincidencia es la base de la hipótesis del exterminio, propuesta por el geocientífico Paul Martin en los años sesenta y discutida a gritos desde entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción principal es que en América esas fechas coinciden también con el final de la última glaciación, y que el clima explicaría igual de bien las extinciones sin necesidad de cazadores. Es una objeción legítima y Kolbert no la esconde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que responde es que el clima no explica el patrón completo. En Australia no hubo ningún cambio climático notable hace cuarenta y cinco mil años, y en Madagascar tampoco hace mil; y las mismas especies habían sobrevivido a más de veinte ciclos glaciares anteriores sin inmutarse.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué bastaba con muy poco",
+          frase: "Los animales grandes se reproducen despacio: un mamut tenía una cría cada varios años. Los modelos muestran que basta con que unos pocos cazadores maten unos pocos ejemplares de más cada año para que, en unos siglos, la población entera desaparezca sin que nadie note nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso significa que no hubo ninguna matanza espectacular ni ninguna decisión. Hubo generaciones de gente cazando un poco más de lo que la población podía reponer, durante el tiempo suficiente, sin que nadie viviera lo bastante para ver la tendencia completa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el libro se cierra con la especie que más nos interesa a todos, en un capítulo que empieza en un valle alemán llamado Neander, donde en 1856 unos canteros encontraron unos huesos que tomaron por los de un oso deforme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los neandertales vivieron en Europa y Asia occidental durante unos doscientos mil años, enterraban a sus muertos, cuidaban a los heridos, fabricaban herramientas y usaban fuego. Tenían el cerebro igual de grande que el nuestro o algo mayor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Desaparecieron hace unos cuarenta mil años, unos milenios después de que los humanos modernos llegaran a su territorio. La coincidencia es del mismo tipo que la de la megafauna, y nadie sabe con seguridad si fue competencia, absorción, enfermedad o las tres cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kolbert va a Leipzig, al instituto donde Svante Pääbo llevaba veinte años intentando extraer ADN de huesos de decenas de miles de años, un trabajo de una dificultad extrema porque el material está degradado y contaminado con ADN de los propios investigadores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2010 publicaron el genoma neandertal, y trajo una sorpresa que cambió el relato. Las personas de fuera de África llevan entre un uno y un cuatro por ciento de ADN neandertal, lo cual significa que hubo hijos entre las dos poblaciones y que esos hijos tuvieron descendencia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Pääbo le plantea a Kolbert una pregunta que el libro deja abierta: qué tenía nuestra especie que los neandertales no tuvieran, si eran igual de listos. Su sospecha es que fue un impulso raro, el de cruzar el agua sin saber qué hay al otro lado.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ningún otro homínido salió nunca de la masa continental donde nació. Nosotros cruzamos al archipiélago indonesio, luego a Australia, luego al Pacífico abierto hasta islas a miles de kilómetros de cualquier costa, y lo hicimos sin cartas ni motivo aparente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso conecta con la tesis de Sapiens, en esta biblioteca, aunque desde el otro lado: donde Harari ve la capacidad de inventar ficciones compartidas, Kolbert ve un rasgo más simple y más antiguo, el de no quedarse quieto, con la extinción como su efecto secundario permanente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir qué no sostiene este libro, porque se le atribuye constantemente. No dice que la humanidad sea una plaga ni que fuéramos mejores como cazadores-recolectores: la primera oleada de extinciones la causó gente con lanzas de piedra y sin ninguna tecnología.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tampoco es un libro de soluciones, lo cual es su límite más señalado. Kolbert apenas propone nada y lo hace a propósito, porque considera que su trabajo es describir; quien busque qué hacer al terminarlo se va a quedar con las manos vacías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su última imagen es la del rastro que quedará en la roca: una capa fina con isótopos raros, plástico, polen de unas pocas plantas cultivadas y huesos de gallina, entre dos mundos distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Como la arcilla de Gubbio que llevó a Alvarez hasta el asteroide.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la diferencia de que esta vez alguien está tomando notas.",
+        },
+      ],
+    },
+  ],
+};

@@ -128,7 +128,7 @@ export const CATALOGO: Ficha[] = [
   { id: "emperador-males", titulo: "El emperador de todos los males", autor: "Siddhartha Mukherjee", ano: 2010, categoria: "Ciencia", estado: "escrito" },
   { id: "pulgar-panda", titulo: "El pulgar del panda", autor: "Stephen Jay Gould", ano: 1980, categoria: "Ciencia", estado: "pendiente" },
   { id: "cuchara-menguante", titulo: "La cuchara menguante", autor: "Sam Kean", ano: 2010, categoria: "Ciencia", estado: "pendiente" },
-  { id: "sexta-extincion", titulo: "La sexta extinción", autor: "Elizabeth Kolbert", ano: 2014, categoria: "Ciencia", estado: "pendiente" },
+  { id: "sexta-extincion", titulo: "La sexta extinción", autor: "Elizabeth Kolbert", ano: 2014, categoria: "Ciencia", estado: "escrito" },
 
   /* --- Arte ------------------------------------------------------------- */
   { id: "historia-arte", titulo: "La historia del arte", autor: "E. H. Gombrich", ano: 1950, categoria: "Arte", estado: "escrito" },
