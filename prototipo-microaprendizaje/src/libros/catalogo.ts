@@ -243,7 +243,7 @@ export const CATALOGO: Ficha[] = [
   { id: "repensar-pobreza", titulo: "Repensar la pobreza", autor: "Banerjee y Duflo", ano: 2011, categoria: "Economía", estado: "escrito" },
   { id: "bogle-sentido-comun", titulo: "El pequeño libro para invertir con sentido común", autor: "John C. Bogle", ano: 2007, categoria: "Economía", estado: "escrito" },
   { id: "superpronosticadores", titulo: "Superpronosticadores", autor: "Tetlock y Gardner", ano: 2015, categoria: "Economía", estado: "escrito" },
-  { id: "dinero-domina-juego", titulo: "Dinero: domina el juego", autor: "Tony Robbins", ano: 2014, categoria: "Economía", estado: "pendiente" },
+  { id: "dinero-domina-juego", titulo: "Dinero: domina el juego", autor: "Tony Robbins", ano: 2014, categoria: "Economía", estado: "escrito" },
 
   /* --- Salud ------------------------------------------------------------ */
   { id: "por-que-dormimos", titulo: "Por qué dormimos", autor: "Matthew Walker", ano: 2017, categoria: "Salud", estado: "escrito" },

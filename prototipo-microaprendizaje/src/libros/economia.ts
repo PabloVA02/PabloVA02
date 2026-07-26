@@ -9607,3 +9607,651 @@ export const MILLONARIO_AL_LADO: Resumen = {
     },
   ],
 };
+
+export const DINERO_DOMINA_JUEGO: Resumen = {
+  id: "dinero-domina-juego",
+  titulo: "Dinero: domina el juego",
+  autor: "Tony Robbins",
+  ano: 2014,
+  gancho:
+    "Un conferenciante motivacional sin ningún título financiero consiguió sentarse con cincuenta de los mayores inversores del mundo, entre ellos Buffett, Dalio y el fundador de Vanguard, y les preguntó lo que preguntaría cualquiera. Lo que le contestaron ocupa seiscientas páginas y no siempre le conviene.",
+  porQue:
+    "Porque su capítulo sobre comisiones es de lo mejor que se ha escrito para el público general, y porque el mismo libro que demuestra que las comisiones te arruinan te acaba mandando a una firma de asesoramiento en la que el autor tenía participación.",
+  partes: [
+    {
+      titulo: "Cincuenta entrevistas y una libreta",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2009, con la crisis financiera todavía humeante, Tony Robbins empezó a llamar a puertas a las que casi nadie tiene acceso. Durante los cuatro años siguientes entrevistó a unos cincuenta gestores, fundadores de fondos y multimillonarios, con una sola pregunta de fondo: qué haría usted con el dinero de una persona normal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El motivo que él da es concreto y creíble: en 2008 vio cómo gente que había ahorrado toda su vida perdía la mitad en unos meses sin entender qué le estaba pasando, mientras las entidades que habían montado el desastre seguían cobrando sus comisiones. El libro nace de ese enfado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lista impresiona y explica el interés del libro: Warren Buffett, Ray Dalio, Carl Icahn, Jack Bogle, David Swensen, Paul Tudor Jones, Charles Schwab, Alan Greenspan. Gente que cobra millones por una consulta y que no suele explicarse en un lenguaje que entienda un asalariado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De Buffett saca la historia que mejor resume el libro entero: en 2007 apostó un millón de dólares a que un simple fondo indexado batiría en diez años a una selección de fondos de cobertura elegidos por profesionales. Ganó con holgura, y el dinero fue a una organización benéfica de Omaha.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Quién pregunta importa mucho aquí. Robbins no es economista, ni gestor, ni tiene ninguna titulación financiera: es el conferenciante motivacional más conocido del mundo, con estadios llenos y libros de superación personal desde los años ochenta. Ese es a la vez el mérito y el problema del libro.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mérito es que pregunta como preguntaría cualquiera y no deja pasar las respuestas vagas: cuánto cobra usted, qué haría si empezara de cero, qué le diría a alguien con cincuenta mil euros. Un periodista financiero no habría hecho esas preguntas por parecer ingenuas, y son justo las que hacen falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay algo que el libro consigue sin proponérselo: los entrevistados se contradicen entre ellos. Bogle sostiene que nadie bate al índice y que hay que comprarlo y olvidarse; a dos capítulos de distancia, un inversor que ha hecho fortuna eligiendo empresas explica por qué eso es de perezosos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Robbins presenta las dos posiciones con el mismo entusiasmo y sin arbitrar, que es su gran defecto como divulgador. Un lector novato sale con la impresión de que todos dicen lo mismo, cuando lo que ha leído son escuelas enfrentadas con cuarenta años de datos discutiéndolo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es que un divulgador sin formación no siempre distingue una respuesta interesada de una desinteresada, y aquí hay de las dos. En el mismo libro conviven quien vende fondos indexados sin comisión y quien vende productos con comisiones altísimas, y los dos aparecen presentados con el mismo entusiasmo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La estructura real",
+          frase: "Se anuncia como siete pasos hacia la libertad financiera. En realidad son tres ideas —ahorra en automático, vigila las comisiones, reparte y no toques— repetidas durante seiscientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los siete pasos, para quien quiera el mapa, son estos: decidir ser inversor y ahorrar un porcentaje fijo, conocer las reglas del juego, calcular cuánto necesitas, repartir el dinero, asegurarte una renta de por vida, aprender de los grandes inversores y, el último, disfrutar y dar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un aviso imprescindible para un lector español que el libro no puede dar porque no está escrito para él: una parte enorme de las páginas trata de vehículos de ahorro estadounidenses, con sus siglas y sus ventajas fiscales concretas, que aquí sencillamente no existen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte sexta del libro son directamente las entrevistas transcritas, una por capítulo, y es lo mejor que tiene después del asunto de las comisiones. Ahí se ve a cada uno explicando su método con sus palabras, y las diferencias entre ellos son más instructivas que cualquier resumen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un dato que conviene poner porque habla del autor: se comprometió a donar los beneficios de autor del libro a una organización contra el hambre, y con ese dinero se financiaron decenas de millones de comidas. No es un detalle promocional suelto, tiene una raíz biográfica concreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar el alcance del compromiso, porque se cuenta mal: son los beneficios de autor del libro, no los de los seminarios, los cursos ni los servicios financieros a los que el libro remite. La donación es real y verificable, y la maquinaria comercial de alrededor sigue funcionando aparte.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Robbins creció en una familia pobre del sur de California y cuenta que un día de Acción de Gracias, cuando tenía once años, un desconocido llamó a la puerta con comida para su familia. Empezó a repartir comidas él mismo a los diecinueve años, con dos familias, y no ha dejado de hacerlo.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del formato hay que avisar sin rodeos: son más de seiscientas páginas escritas en el tono de un seminario, con mayúsculas, signos de exclamación, frases motivacionales sueltas y anécdotas de sus propios clientes famosos. Quien no soporte ese registro lo pasará mal, y la queja es legítima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese tono no es un accidente: es su oficio desde hace cuarenta años. Llena estadios, ha asesorado a deportistas de élite y a jefes de Estado, y sus seminarios de varios días con miles de personas son el negocio del que vive. Un libro suyo es, entre otras cosas, la puerta de entrada a todo eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay que decir que el contenido financiero no lo escribió él solo. Trabajó con asesores profesionales que revisaron los cálculos y las explicaciones técnicas, y el libro lo agradece. Eso es lo correcto en un caso así, y a la vez recuerda que el nombre de la portada no es el del experto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres años después publicó una versión reducida, de unas doscientas cincuenta páginas, con lo esencial. Si alguien decide leerlo, esa es la elección sensata: el noventa por ciento del valor está ahí, sin las trescientas cincuenta páginas de arenga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro fue número uno de ventas en Estados Unidos y vendió más de un millón de ejemplares, que es más de lo que han vendido juntos varios de los autores a los que entrevista. Esa desproporción entre quién sabe y quién vende es, en el fondo, el tema oculto de esta ficha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cincuenta despachos a los que no entra casi nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un entrevistador sin título que pregunta lo obvio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y seiscientas páginas de las que treinta valen su peso en oro.",
+        },
+      ],
+    },
+    {
+      titulo: "El uno por ciento que se lleva un tercio",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo que justifica el libro entero va sobre comisiones, y empieza con una pregunta que casi nadie sabe contestar: cuánto le está pagando usted cada año a quien gestiona sus ahorros. La mayoría de la gente cree que nada o casi nada, porque nunca ve salir ese dinero de su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una trampa de percepción que el libro explota bien. Un dos por ciento suena a nada porque lo leemos como un impuesto pequeño sobre el capital, cuando en realidad es una parte enorme del rendimiento: si el mercado da un siete, ese dos es casi un tercio de todo lo que ibas a ganar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La manera correcta de mirarlo, entonces, no es qué porcentaje me cobran sobre mi dinero, sino qué porcentaje se llevan de mi beneficio. Con esa cuenta, un producto de comisión aparentemente moderada se convierte en un socio que cobra como si hubiera puesto la mitad del capital.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La razón es que no se cobra en un recibo: se descuenta del valor del fondo antes de calcular lo que uno tiene. El resultado es que un coste del dos por ciento anual es invisible para el ahorrador, y a la vez es una de las cosas que más determinan cuánto dinero tendrá dentro de treinta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un ejemplo con números redondos deja de discutirse solo. Cien mil euros a treinta años con un rendimiento del siete por ciento se convierten en unos setecientos sesenta mil; los mismos cien mil al seis por ciento, es decir con un punto de comisión más, se quedan en unos quinientos setenta mil.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La aritmética es sencilla y demoledora. Dos carteras que rinden lo mismo, una con un uno por ciento más de comisión anual, terminan muy separadas: a treinta años la más cara se queda en torno a un cuarto por debajo, y a cincuenta años pierde más de un tercio del capital final.",
+          arte: "mapa",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué duele tanto un uno por ciento",
+          frase: "Porque no se resta del rendimiento de un año, sino del interés compuesto de toda la vida. La comisión también se capitaliza, y lo hace en contra del ahorrador y a favor del gestor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bogle lo resumió en una frase que Robbins repite y que merece aprenderse: el milagro del interés compuesto queda sepultado por la tiranía de los costes compuestos. Es la misma matemática funcionando en las dos direcciones, y una de ellas trabaja siempre para el otro lado del mostrador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que Robbins recoge de Jack Bogle, y que es la mejor del libro, dice esto: usted pone el cien por cien del capital, corre el cien por cien del riesgo y se queda con el treinta por ciento del rendimiento. El resto se lo lleva la industria por el camino, año tras año, sin garantizar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro desglosa además las capas de coste que un ahorrador no ve. Está la comisión de gestión que figura en el folleto, y luego están los gastos de transacción del propio fondo, las comisiones de custodia, las de suscripción y las de la plataforma. Sumadas, suelen doblar la cifra publicada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una capa que casi nadie mira y que él explica bien: cuanto más compra y vende un fondo dentro, más gastos de intermediación genera, y esos no aparecen en la comisión anunciada. Un fondo que rota su cartera entera cada año está pagando un peaje que el partícipe nunca ve escrito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La alternativa que propone todo el libro es la más aburrida posible: fondos indexados de coste bajísimo, del orden de una o dos décimas por ciento al año. La diferencia con un fondo de gestión activa medio es de más de un punto anual, y ese punto es justo el que se come un cuarto del capital.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aporta el argumento que cierra la discusión: si esas comisiones compraran mejores resultados, valdrían la pena. Los datos dicen lo contrario. En horizontes de quince años, la enorme mayoría de los fondos de gestión activa se queda por debajo del índice con el que se compara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar de dónde sale ese dato, porque se cita mal constantemente. Viene de un informe que una empresa de índices publica cada seis meses desde 2002 comparando cada fondo con su índice de referencia, y los porcentajes van del ochenta y pico al noventa y muchos según categoría y plazo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En España hay una comprobación local que vale más que cualquier dato importado. Un profesor del IESE lleva más de veinte años publicando cada primavera la rentabilidad de todos los fondos españoles frente a su índice, y el resultado se repite con una monotonía cómica: la mayoría pierde la comparación.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene añadir el contexto que a un lector de aquí le afecta directamente: durante años las comisiones de los fondos españoles de renta variable han estado entre las más altas de Europa. El capítulo de este libro, escrito para el mercado estadounidense, se aplica aquí con más motivo todavía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Robbins añade una cosa que en Estados Unidos fue casi un escándalo: los planes de pensiones de empresa, donde millones de personas tienen su jubilación sin haber elegido nada, estaban entre los productos con comisiones más opacas del mercado. Un documental de 2013 lo destapó y este libro lo llevó al gran público.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro aviso práctico es la diferencia entre dos figuras que en la oficina del banco parecen la misma. Está quien tiene obligación legal de anteponer el interés del cliente y quien solo tiene que ofrecer un producto adecuado, que puede ser el que más comisión le deje. Preguntarlo por escrito es gratis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Europa esa distinción se reguló en 2018: quien se declara asesor independiente no puede quedarse con las comisiones que le pague la gestora del producto que recomienda. La palabra clave para preguntar en una oficina es retrocesiones, y quien la oye y cambia de tema ya ha contestado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Justo es decir también cuándo sí vale la pena pagar a alguien. Un asesor que te impida vender en marzo de 2020, cuando todo caía un treinta por ciento en tres semanas, se ha ganado su comisión de diez años en una sola llamada. Lo que no vale es pagarla por elegir fondos que no baten al índice.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción es el consejo más útil de todo el libro y cabe en una frase: pregunte a quien le asesora cómo cobra, exíjalo por escrito y desconfíe si la respuesta es larga. Quien cobra del producto que le vende no le está aconsejando, le está vendiendo, por simpático que sea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie ve salir ese dinero de su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a los treinta años se ha llevado un cuarto de todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo, solo, ya paga el precio del libro.",
+        },
+      ],
+    },
+    {
+      titulo: "La cartera de todas las estaciones",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Lo que más se ha copiado de este libro no es un consejo suyo, sino un reparto de cartera que le dio Ray Dalio, fundador del mayor fondo de cobertura del mundo, cuando Robbins le pidió algo que pudiera usar una persona corriente sin acceso a nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto de partida de Dalio es un cuadro de cuatro casillas: la economía solo puede sorprender de cuatro maneras, con más crecimiento del esperado o menos, y con más inflación de la esperada o menos. Cada activo se comporta bien en unas casillas y mal en otras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la regla: en vez de apostar por una casilla, que es lo que hace quien predice, tener algo que funcione en cada una. La bolsa para el crecimiento, los bonos largos para la recesión y la deflación, el oro y las materias primas para la inflación que se dispara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El reparto es este y se recuerda fácil: treinta por ciento en bolsa, cuarenta por ciento en bonos del Estado a largo plazo, quince por ciento en bonos a plazo intermedio, siete y medio en oro y siete y medio en materias primas. Se reequilibra una vez al año y no se toca más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El reequilibrio anual no es un detalle administrativo, es el motor. Consiste en vender un poco de lo que ha subido y comprar lo que ha bajado hasta volver a los porcentajes de partida, y eso obliga a hacer justo lo contrario de lo que apetece hacer, que es de donde sale casi todo el beneficio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La idea de fondo",
+          frase: "No se reparte por dinero, se reparte por escenarios. Hay activos que ganan con inflación, otros con deflación, otros con crecimiento y otros con recesión: la cartera lleva algo para cada estación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lógica es buena y merece entenderse. Una cartera clásica de sesenta por ciento en bolsa y cuarenta en bonos parece equilibrada en dinero, pero casi todo su riesgo viene de la parte de bolsa, porque es la que se mueve. Repartir por riesgo y no por importe es una idea seria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cifra que lo ilustra es contundente: en una cartera repartida sesenta y cuarenta, alrededor del noventa por ciento de las oscilaciones vienen de la parte de bolsa. Uno cree tener casi la mitad del dinero a salvo y en realidad tiene casi todo su riesgo concentrado en un solo sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los números que da el libro son espectaculares y por eso corrió tanto. En la simulación que publica, de 1984 a 2013, esa cartera habría rendido cerca de un diez por ciento anual, con solo cuatro años en negativo en treinta y con una peor caída de menos del cuatro por ciento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene saber qué es exactamente una simulación de esas: no es el historial de nadie. Nadie tenía esa cartera en 1984; se cogen los índices de cada activo, se aplican los porcentajes hacia atrás y se calcula lo que habría pasado. Es aritmética legítima y no es lo mismo que un resultado real.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y aquí está la corrección que ninguna reseña de la época hizo. Ese periodo, de 1984 a 2013, es exactamente el mayor mercado alcista de bonos de la historia: el interés del bono estadounidense a diez años pasó de casi el catorce por ciento a rondar el tres. Cuando los tipos bajan, los bonos largos suben.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entender por qué, porque casi nadie lo tiene claro. Un bono paga un interés fijo; si los tipos nuevos bajan, ese papel antiguo que paga más se vuelve más valioso y sube de precio. Y cuanto más lejos esté su vencimiento, más sube. Con bonos a treinta años, el efecto es enorme en las dos direcciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho de otra manera: el cincuenta y cinco por ciento de esa cartera está en bonos, y la simulación cubre justo las tres décadas en que los bonos vivieron su mejor época irrepetible. No es que los datos sean falsos; es que el periodo elegido contiene un viento de cola que no puede repetirse desde tipos bajos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La prueba llegó ocho años después de publicarse el libro. En 2022, con la inflación disparada y los bancos centrales subiendo tipos, los bonos del Estado a largo plazo cayeron alrededor de un treinta por ciento, la bolsa cayó, y aquella cartera de todas las estaciones perdió cerca de un veinte por ciento en un solo año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que falló fue justo lo que la cartera prometía evitar: que todo cayera a la vez. Con inflación alta, la bolsa y los bonos bajan juntos, y las dos patas que debían compensarse se hundieron el mismo año. Solo las materias primas dieron alegrías, y pesaban siete y medio por ciento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: su peor año real fue cinco veces peor que el peor año de la simulación que se usó para venderla. Eso no invalida la idea de repartir por escenarios, pero sí demuestra que ninguna cartera protege de todo y que las simulaciones históricas describen el pasado, no una garantía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una regla general que este caso enseña mejor que ningún manual: toda cartera publicada en un libro ha sido elegida, entre muchas posibles, porque su historial se veía bien. Ese proceso de selección garantiza que el pasado sea bonito y no dice absolutamente nada del futuro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El oro es otro ejemplo de lo mismo dentro de la misma cartera. Tocó máximo en 1980 y tardó casi treinta años en recuperar ese precio en términos nominales; quien lo comprara entonces pasó una generación entera en pérdidas. Una simulación que empiece en 1984 se salta justamente eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una segunda precisión importante y casi nadie la hace. Esta no es la cartera que Dalio usa en su fondo. La suya emplea apalancamiento y derivados para igualar el riesgo de cada componente; lo que le dio a Robbins es una aproximación sin apalancar, pensada para que un particular pudiera montarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Confundir las dos cosas —y se confunden constantemente en internet— es como decir que uno conduce el coche de un piloto de carreras porque ha comprado un utilitario del mismo fabricante. El propio Dalio ha aclarado varias veces que aquello era una versión simplificada para un libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El veredicto justo sobre este capítulo es doble. La idea de repartir pensando en escenarios y no en porcentajes de dinero es buena y sigue siéndolo; la manera de venderla, con una tabla de treinta años elegidos y un peor año de menos del cuatro por ciento, fue engañosa y el tiempo lo ha demostrado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro años malos en treinta, decía la simulación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en 2022 se dejó un veinte por ciento de golpe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna cartera tiene todas las estaciones cubiertas.",
+        },
+      ],
+    },
+    {
+      titulo: "Quién cobra cuando sigues el consejo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Toca la parte incómoda, y es la que decide qué crédito darle al libro. Después de dedicar cien páginas a demostrar que las comisiones destruyen el patrimonio, el libro dirige al lector a una firma de asesoramiento financiero concreta en la que el autor tenía una participación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que ponerlo en su contexto de negocio, que es el de todos los libros de este género: un libro de seiscientas páginas que se vende a veinte euros no es el producto, es el escaparate. Detrás hay seminarios de varios días, programas de acompañamiento y servicios que cuestan otro orden de magnitud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que ser justo: lo declara. En una nota se dice que el autor tiene un interés económico en esa empresa, y esa declaración es exactamente lo que él exige a los demás en el capítulo de las comisiones. Cumple la norma que predica, y aun así el conjunto deja un sabor raro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos años después de publicar el libro pasó a ocupar un cargo en otra firma de gestión de patrimonios, con la que colabora desde entonces. Nada de eso es reprochable en sí mismo; lo que hay que tener presente es que el autor forma parte de la industria cuyos costes está denunciando.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema no es ilegal, es de posición",
+          frase: "Quien te ha convencido de que la industria financiera vive de comisiones invisibles es también quien te recomienda a quién acudir, y cobra si vas. Todo declarado y todo legal, y aun así conviene saberlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En justicia hay que apuntar también lo contrario, porque es verdad y es grande. Este libro llevó el argumento de los fondos indexados y de las comisiones bajas a millones de personas que jamás habrían abierto a Bogle, y buena parte de ellas acabó pagando bastante menos por sus ahorros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo punto discutible son las rentas vitalicias. El libro dedica una parte larga a un tipo de producto que promete un ingreso garantizado de por vida, lo presenta como la solución al miedo a quedarse sin dinero en la vejez y lo hace con un entusiasmo que no dedica a ningún otro instrumento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea de fondo no es una estafa y conviene decirlo: un ingreso garantizado hasta la muerte resuelve un problema real, que es no saber cuánto vas a vivir. Los economistas llevan décadas señalando que la gente compra menos de estos productos de lo que sería racional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El razonamiento a favor es sólido: si uno reparte sus ahorros para que le duren hasta los noventa y muere a los setenta y cinco, ha vivido peor de lo necesario; si llega a los cien, se ha quedado sin nada. Un contrato que paga hasta el final quita esa incertidumbre, y eso vale dinero.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El problema son las versiones concretas que recomienda, que son productos complejos con costes internos altos, límites al rendimiento y penalizaciones por rescate anticipado. Es decir, exactamente la clase de producto opaco y caro contra la que el propio libro te acaba de prevenir cien páginas antes.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mecanismo que conviene entender es el tope. Estos contratos suelen ligarse a un índice bursátil y prometer que nunca perderás, a cambio de que si el índice sube un veinte por ciento tú te lleves solo hasta cierto límite. Ese límite, aplicado durante veinte años, es donde está el negocio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los críticos financieros lo señalaron enseguida y con dureza. Varios periodistas especializados escribieron que el libro es dos libros pegados: uno excelente sobre costes indexados y otro que funciona como catálogo comercial, y que el segundo se aprovecha de la credibilidad que gana el primero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La crítica más citada vino de una periodista que llevaba años investigando la industria de los consejos financieros y que resumió el problema en una frase: el sector del asesoramiento personal vende sobre todo la sensación de control, y este libro la vende en formato de seiscientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una tercera crítica más sutil y quizá más importante. El libro promete libertad financiera y dedica un capítulo a calcular tu número, la cifra que necesitas acumular. Para casi cualquier lector con un sueldo medio, esa cifra sale de un tamaño que ninguna estrategia de inversión va a resolver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuenta es fácil de hacer y el libro la esquiva. Para vivir de las rentas hace falta acumular en torno a veinticinco veces el gasto anual; con veinticuatro mil euros al año de gasto, eso son seiscientos mil euros. Ninguna cartera convierte un ahorro pequeño en esa cifra sin décadas de aportaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y falta lo que iría antes que todo lo demás en cualquier orden sensato: las deudas caras. Quien esté pagando un quince por ciento por el saldo de una tarjeta tiene delante una inversión garantizada de ese quince por ciento, sin riesgo y sin comisiones, y este libro apenas le dedica unas líneas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que decide el resultado no es la cartera, es cuánto entra y cuánto se gasta. Un libro honrado sobre esto dedicaría el ochenta por ciento a ingresos y gastos y el veinte a inversión, y este hace lo contrario, porque de lo primero no se pueden hacer seminarios emocionantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con un sueldo medio español, la diferencia entre una cartera buena y una mediocre a treinta años es real pero modesta; la diferencia entre ahorrar el cinco por ciento y ahorrar el quince es de otra magnitud. Cualquier libro que dedique más espacio a lo primero está mirando donde no está la palanca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí es donde otro vecino del catálogo le gana por goleada. «El millonario de al lado» demostró con encuestas que la mayoría de los patrimonios medios se construyen gastando por debajo de lo que se gana durante veinte años, en casas normales y con coches usados, sin ninguna estrategia brillante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene decir qué es lo que este libro no promete, porque en eso es más honrado de lo que parece: no promete hacerse rico rápido, no vende acciones concretas, no da consejos de bolsa y repite constantemente que nadie predice el mercado. Su pecado no es la promesa, es a quién te manda después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco propone dejar el trabajo ni montar un negocio, que es por donde tiran otros vecinos del estante. Su lector ideal es alguien con nómina, con algo ahorrado y con miedo a hacerlo mal, y a esa persona le dice básicamente que baje costes y no toque nada. El consejo es aburrido y es correcto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cien páginas explicando que las comisiones te arruinan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y detrás, una puerta con el nombre del autor en el contrato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está declarado, es legal, y hay que leerlo sabiéndolo.",
+        },
+      ],
+    },
+    {
+      titulo: "Las tres frases que sobreviven",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Después de todas las objeciones queda preguntarse qué se lleva uno de aquí, y la respuesta cabe en tres frases que el libro sí acierta a poner delante de mucha gente que nunca las había oído en su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de las tres conviene poner el paso cero, que este libro da por hecho y no debería: quitarse de encima las deudas con interés alto y tener unos meses de gastos en una cuenta aburrida. Sin eso, la primera avería del coche deshace en una tarde lo que la cartera tardó años en construir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera: aparta un porcentaje fijo de cada ingreso de manera automática, antes de gastarlo, y súbelo cada vez que te suban el sueldo. Si la transferencia sale sola el día de la nómina, el ahorro deja de depender de la fuerza de voluntad, que es lo que siempre falla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa segunda parte no es un invento suyo y tiene apellidos. Dos economistas del comportamiento diseñaron en los años noventa un programa que consistía en comprometerse hoy a subir la aportación cuando llegue el próximo aumento de sueldo, y multiplicó las tasas de ahorro en las empresas donde se aplicó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Funciona por una razón psicológica sencilla: nadie quiere cobrar menos este mes, pero casi todo el mundo acepta renunciar a una parte de un aumento que todavía no ha probado. El sacrificio se traslada al futuro, y para entonces ya está automatizado y no hay que volver a decidirlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa idea es antigua y en esta biblioteca aparece por primera vez en un libro de 1926 ambientado en Babilonia: paga primero una parte a ti mismo. Robbins la repite con otro vocabulario y le añade lo único que le faltaba, que es hacerla automática para que no haya que decidir cada mes.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda: mira lo que pagas en comisiones y bájalo todo lo que puedas. Es la única variable de toda la inversión que se puede controlar con certeza, porque el rendimiento futuro no lo sabe nadie y el coste está escrito en el folleto y se puede cambiar esta misma semana.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El instrumento que lo permite tiene una historia bonita. Cuando Bogle lanzó el primer fondo indexado para particulares en 1976, quería reunir ciento cincuenta millones de dólares y reunió once; en Wall Street lo llamaron la locura de Bogle. Hoy la indexación mueve una parte enorme del ahorro mundial.",
+          arte: "museo",
+        },
+        {
+          forma: "clave",
+          rotulo: "El destino del viaje",
+          frase: "De lo que va a pasar en el mercado no sabes nada, y de lo que te van a cobrar lo sabes todo. Cualquier estrategia sensata empieza por trabajar sobre lo segundo y dejar de adivinar lo primero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena rescatar también el séptimo paso, que parece relleno motivacional y no lo es del todo. El libro termina pidiendo que se dé una parte, y hay estudios que encuentran que gastar dinero en otros produce más satisfacción que gastarlo en uno mismo, con un efecto modesto y bastante repetido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera: reparte el dinero en cosas que no suban y bajen a la vez, y después no lo toques. El reparto concreto se puede discutir —y el capítulo anterior demuestra que el suyo tiene un problema serio—, pero la idea de no depender de un solo escenario es correcta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y para la inmensa mayoría de la gente, el reparto sencillo funciona casi igual de bien: un fondo indexado global y otro de renta fija, en la proporción que le deje dormir, revisado una vez al año. La diferencia con cualquier cartera sofisticada es pequeña comparada con la de empezar diez años antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso hay que añadir lo que el libro dice de pasada y es lo que más dinero salva: no vender cuando todo cae. La mayoría de los ahorradores obtienen bastante menos que el fondo en el que invierten, y la diferencia se explica casi entera por entrar tarde y salir en el peor momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hueco entre lo que gana un fondo y lo que gana quien invierte en él tiene nombre y se mide desde hace décadas. Las estimaciones concretas se discuten mucho, porque dependen de cómo se calculen, pero el signo no lo discute nadie: siempre sale a favor del fondo y en contra del partícipe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora la recomendación honrada, que es la que le importa a alguien con poco tiempo. Todo lo bueno de este libro, mejor explicado y en doscientas páginas, está en «El pequeño libro para invertir con sentido común», de Bogle, que además es el hombre al que Robbins entrevista con más admiración.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La ironía es perfecta y merece decirse: el mejor consejo de un libro de seiscientas páginas es que hagas caso a otro señor que ya lo había escrito en doscientas y cuyo argumento central es que no le pagues a nadie por hacer lo que puedes hacer tú con un fondo indexado.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si se quiere la versión académica del mismo argumento, en esta categoría está «Un paseo aleatorio por Wall Street», de Malkiel, que lleva desde 1973 explicando con datos por qué nadie predice el mercado; y para la disciplina de fondo, «El inversor inteligente», de Graham, que es de 1949 y sigue mandando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para la parte de comportamiento, que es la que este libro trata en clave de arenga, está «La psicología del dinero», de Housel, que explica con calma por qué gente inteligente toma decisiones ruinosas y por qué el patrimonio es una cuestión de paciencia más que de habilidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia de tono entre los dos libros es la lección final de esta ficha. Housel escribe que lo importante no es ser listo sino no hacer tonterías durante mucho tiempo; Robbins escribe que puedes dominar el juego. La primera frase es verdad y la segunda vende más entradas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y como contraste vale la pena tener cerca «Padre rico, padre pobre», que está en la categoría por lo mismo: dos libros enormemente vendidos, con una parte de verdad útil y una parte que empuja hacia productos y cursos. Saber distinguir las dos partes es la habilidad financiera más rentable que existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La regla para distinguirlas es corta y sirve para cualquier libro de dinero: mira qué te pide que hagas al terminarlo. Si te pide que abras una cuenta barata y te olvides diez años, está de tu lado. Si te pide que llames a alguien, que te apuntes a algo o que compres un producto, ya sabes de qué lado está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahorra en automático, mira lo que te cobran, reparte y no toques.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es el libro entero, y cabe en una línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las otras quinientas noventa páginas son el precio de que te lo cuenten con entusiasmo.",
+        },
+      ],
+    },
+  ],
+};
