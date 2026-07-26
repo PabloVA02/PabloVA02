@@ -3315,3 +3315,589 @@ export const CANONES_AGOSTO: Resumen = {
     },
   ],
 };
+
+export const CHICO_PIJAMA: Resumen = {
+  id: "chico-pijama",
+  titulo: "El niño con el pijama de rayas",
+  autor: "John Boyne",
+  ano: 2006,
+  gancho: "Once millones de ejemplares y una advertencia del propio museo de Auschwitz pidiendo que no se use para enseñar lo que pasó allí.",
+  porQue:
+    "Porque es el caso más claro que existe de un libro bienintencionado que enseña mal la historia, y entender por qué sirve para leer cualquier ficción sobre el Holocausto.",
+  partes: [
+    {
+      titulo: "Dos días y medio",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Dublín, 2004. Un escritor irlandés de treinta y tres años se despierta con una imagen en la cabeza: dos niños sentados a ambos lados de una alambrada, hablando. Se sienta a escribir y no para. Termina el primer borrador en dos días y medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llama John Boyne, ha publicado tres novelas para adultos con poca repercusión y lo que acaba de escribir va a vender más de once millones de ejemplares en cincuenta idiomas y a convertirse en lectura obligatoria en colegios de medio mundo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo lo etiquetó él",
+          frase: "El subtítulo original de la edición inglesa es «una fábula». Boyne ha insistido siempre en que no escribió una novela histórica, y ese matiz va a ser el centro de toda la discusión posterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La historia es esta. Bruno tiene nueve años y vive en una casa grande de Berlín con sus padres y su hermana. Su padre es militar. Un día, tras una visita de un hombre muy importante al que en casa llaman el Furias, se mudan todos a un lugar que Bruno llama Auchviz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La casa nueva es fea, no hay otros niños, no hay dónde jugar. Desde la ventana de su habitación se ve una alambrada larguísima y, al otro lado, unas barracas y gente con lo que a él le parece un pijama de rayas y una gorra de tela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bruno se aburre y explora. Camina un día entero siguiendo la alambrada hasta que encuentra a un niño de su edad sentado al otro lado, con la cabeza afeitada y el pijama de rayas. Se llama Shmuel y resulta que han nacido el mismo día del mismo año.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "A partir de ahí Bruno vuelve casi todas las tardes. Se sientan cada uno a un lado de la valla y hablan. Bruno le lleva comida a escondidas. Y durante todo el libro no entiende en absoluto dónde está, quién es Shmuel ni qué hace su padre allí.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese desconocimiento es el motor de la novela y su recurso narrativo entero. Todo está contado desde la cabeza de un niño de nueve años que no comprende nada de lo que ve, y el lector adulto va llenando los huecos con lo que sí sabe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una técnica legítima y con tradición: el narrador ingenuo que describe sin entender, mientras el lector entiende de sobra. Boyne la ejecuta con eficacia y esa es la razón principal de que el libro funcione tan bien como artefacto emocional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final es conocido. Shmuel le cuenta que su padre ha desaparecido. Bruno decide ayudarle a buscarlo. Se pone un pijama de rayas que Shmuel le consigue, se cuela por debajo de la alambrada y entra en el campo con él.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El desenlace",
+          frase: "Los meten en un grupo, los llevan a una sala larga y hermética y cierran la puerta. Bruno le agarra la mano a Shmuel. La novela corta ahí y salta a los padres buscándolo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una escena escrita con contención y produce un efecto demoledor en cualquier lector, y sobre todo en un lector de once o doce años. Millones de niños de todo el mundo la han leído en clase y muchos recuerdan exactamente dónde estaban cuando la terminaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2008 se estrenó la película, dirigida por Mark Herman, con un reparto británico y rodada en Hungría. Amplificó todavía más el alcance del libro y consolidó su posición como la puerta de entrada al Holocausto para toda una generación escolar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí empieza el problema, porque casi todo lo que ocurre en esa historia no pudo ocurrir. No se trata de licencias menores ni de detalles de ambientación: los elementos centrales de la trama son incompatibles con cómo funcionaba aquel campo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El museo estatal de Auschwitz-Birkenau, que es la institución que conserva el lugar y su documentación, ha publicado en varias ocasiones que esta novela no debería usarse para enseñar la historia del campo, y que puede ser peligrosa para la comprensión del Holocausto.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es una posición muy poco habitual. Un museo memorial no suele pronunciarse sobre novelas. Que lo haya hecho, repetidamente y en público, indica que consideran que el efecto sobre la comprensión histórica es lo bastante grave como para intervenir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir desde ya que nada de esto es una acusación de mala fe contra Boyne. Escribió una fábula sobre la amistad y la inocencia, no pretendía dar una lección de historia y así lo ha defendido durante veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema no es lo que él quiso hacer: es dónde ha acabado el libro. Se vende en la sección de novela histórica, se manda leer en clase de historia y millones de lectores lo han tomado como una descripción aproximada de cómo eran las cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y como descripción aproximada de cómo eran las cosas, es sencillamente falsa en todos sus puntos importantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vale la pena repasarlos uno a uno, porque cada uno enseña algo real sobre cómo funcionaba aquello.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La valla",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El primer problema es Shmuel. En Auschwitz-Birkenau, los niños judíos que llegaban en los transportes eran enviados a la cámara de gas el mismo día de su llegada, en la selección de la rampa, junto con los ancianos, los enfermos y las madres con hijos pequeños.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El criterio era la capacidad de trabajar. Un niño de nueve años no podía trabajar, así que no entraba en el campo: iba directamente al procedimiento de exterminio. No es una probabilidad baja: es prácticamente una certeza documentada en miles de testimonios.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La cifra",
+          frase: "Se calcula que alrededor de un millón de personas fueron asesinadas en Auschwitz, la inmensa mayoría judíos. Entre ellas, más de doscientos mil niños. Casi ninguno pasó de la rampa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo excepciones y están documentadas: los gemelos seleccionados por Josef Mengele para sus experimentos, algunos niños del llamado campo familiar de Theresienstadt y del campo gitano, y un número reducido de casos particulares. Ninguno de ellos andaba suelto por el perímetro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo problema es la alambrada. Las de Auschwitz eran de alta tensión, con aisladores de porcelana y postes de hormigón curvados en la parte superior, dobles en muchos tramos y con una franja de tierra despejada delante que se llamaba la zona de la muerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa franja estaba vigilada desde torres con ametralladoras y con orden de disparar a cualquiera que la pisara. Está documentado que varios prisioneros se suicidaron lanzándose contra la alambrada, porque tocarla significaba la muerte inmediata.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Un niño no podía sentarse tranquilamente al otro lado de esa valla todas las tardes durante meses. Y nadie podía pasar por debajo levantándola con la mano, que es lo que ocurre en la escena final del libro. La geografía del campo hace imposible la trama entera.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer problema es Bruno. Un niño alemán de nueve años, hijo de un oficial de las SS de rango alto, en 1943, sabía perfectamente quién era Hitler y no le llamaría el Furias. Sabía qué era un judío, porque se enseñaba en la escuela desde los seis años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La educación alemana bajo el nazismo incluía antisemitismo explícito en los libros de texto, en los problemas de matemáticas y en las clases de biología racial. A los diez años los niños entraban obligatoriamente en las juventudes hitlerianas. Bruno no podía ser ajeno a nada de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un caso real que sirve de comparación directa. El comandante de Auschwitz, Rudolf Höss, vivía con su mujer y sus cinco hijos en una casa pegada al muro del campo, con jardín, invernadero y piscina. Los niños jugaban allí.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dijeron los hijos de Höss",
+          frase: "Varios de ellos declararon décadas después. Sus versiones difieren en cuánto sabían exactamente, y ninguno sostuvo que ignorase que al otro lado del muro había un campo y que allí moría gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El olor de los crematorios, el humo, la ceniza que caía sobre el jardín, los transportes que llegaban de noche. Todo eso está descrito en testimonios de vecinos y de personal del campo. Vivir al lado de Auschwitz sin enterarse de nada no era posible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto problema es lingüístico. Shmuel habla alemán con soltura y mantiene conversaciones largas todas las tardes. La mayoría de los niños judíos deportados a Auschwitz venían de Polonia, de Hungría, de Grecia o de los Países Bajos y no hablaban alemán.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y el quinto es de estado físico. Un prisionero del campo, con la ración de hambre documentada —alrededor de mil calorías diarias para trabajos forzados—, no está en condiciones de mantener charlas cotidianas durante meses. La desnutrición extrema era el estado general.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna de estas objeciones es un detalle de ambientación. Cada una destruye un pilar de la trama: que exista Shmuel, que puedan verse, que Bruno no sepa nada, que se entiendan y que puedan hablar. Sin esos cinco elementos no queda novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La defensa de Boyne es coherente y hay que exponerla bien: dice que escribió una fábula, que las fábulas no pretenden ser exactas, que el objetivo era emocional y no documental, y que nunca sostuvo que aquello hubiera pasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un argumento razonable para otros temas. Una fábula sobre animales que hablan no engaña a nadie. El problema aquí es que una fábula ambientada en un hecho histórico concreto, con su nombre y su geografía, se lee como aproximación a ese hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay algo más: existe un contexto en el que la exactitud sobre este asunto concreto no es un capricho académico, sino una cuestión con consecuencias públicas, porque hay gente dedicada activamente a sostener que nada de aquello ocurrió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con todo, la pregunta interesante no es si el libro es exacto —no lo es— sino otra que se puede responder con datos: qué acaban creyendo de verdad los niños que lo leen en clase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un sexto problema, de escala, que también conviene señalar. Auschwitz no era un campo: era un complejo enorme con tres recintos principales y decenas de subcampos repartidos por la región, con fábricas, minas y una ciudad de barracones de varios kilómetros cuadrados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen de la novela —una casa aislada, una alambrada, unas barracas al otro lado y un campo que se recorre a pie en una tarde— no corresponde a ningún sitio real. Birkenau solo, el recinto de exterminio, ocupaba más de ciento cuarenta hectáreas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alguien se molestó en preguntárselo, y los resultados se publicaron en una revista académica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alguien se molestó en preguntárselo, y los resultados se publicaron en una revista académica.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que no pudo pasar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un investigador británico, Michael Gray, dedicó su tesis doctoral a estudiar qué sabían los escolares británicos sobre el Holocausto y de dónde lo habían sacado. Encuestó a varios cientos de alumnos de trece y catorce años y publicó los resultados en 2014.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer hallazgo fue de alcance: este libro y su película eran, con mucha diferencia, la fuente principal de conocimiento sobre el Holocausto para aquellos chavales. Por delante de las clases de historia, de los documentales y de cualquier otro material.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El segundo hallazgo",
+          frase: "Una parte considerable de los alumnos creía que la historia era real o basada en hechos reales, y varios pensaban que Bruno y Shmuel habían existido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el tercero es el que más importa, porque no va de datos sino de conclusiones. Muchos alumnos habían extraído de la novela tres ideas históricamente falsas y que además coinciden con argumentos que se usan para relativizar lo ocurrido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera: que los alemanes corrientes no sabían lo que estaba pasando. La novela lo sugiere en cada página, porque toda la familia protagonista aparece más o menos ignorante de lo que hay al otro lado, incluida la madre, que se horroriza al enterarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La investigación histórica de las últimas décadas apunta en dirección contraria. El aparato de exterminio implicó a cientos de miles de personas: ferroviarios, funcionarios, empresas que suministraban material, vecinos que ocuparon casas vacías, policías locales.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hubo un momento clave: los fusilamientos masivos en el este a partir de 1941, ejecutados a cielo abierto por unidades móviles, con más de un millón de víctimas. Aquello lo presenciaron y lo contaron por carta muchísimos soldados alemanes.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda idea falsa: que el Holocausto lo cometió un grupo pequeño de fanáticos, mientras el resto miraba hacia otro lado. En la novela solo hay un nazi convencido y desagradable, un teniente joven, y el padre de Bruno aparece como un profesional frío y correcto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa presentación choca con lo que sabemos de los mandos de los campos. Rudolf Höss, el comandante real de Auschwitz, escribió sus memorias en prisión antes de ser ahorcado, y en ellas describe su trabajo con un tono administrativo que resulta más perturbador que cualquier caricatura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera idea falsa es la más delicada: que los alemanes sufrieron de manera comparable. Al final de la novela, la familia protagonista pierde a un hijo, y la estructura emocional del libro empuja al lector a llorar por Bruno.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema de foco",
+          frase: "Shmuel muere en la misma sala y su muerte funciona como acompañamiento de la de Bruno. Un millón de víctimas se convierten en el decorado de la desgracia de una familia alemana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la objeción más seria y la más difícil de responder. No es que el libro mienta sobre datos: es que reparte la compasión al revés. El personaje con el que el lector se identifica es el hijo del verdugo, y la víctima real existe sobre todo para permitir su tragedia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Shmuel, además, no tiene prácticamente vida interior. No sabemos casi nada de su familia, de lo que ha visto, de lo que siente. Aparece cuando Bruno llega y desaparece cuando Bruno se va. Es un personaje construido enteramente en función del otro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese desequilibrio no es un descuido: es consecuencia de la elección narrativa. Al contarlo todo desde la cabeza de Bruno, lo único que se puede ver de Shmuel es lo que Bruno ve, y Bruno no entiende nada. La técnica que hace funcionar la novela es la que borra a la víctima.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gray propuso en su trabajo que el libro no se retirase de las aulas, sino que se enseñara junto a materiales que expliquen qué es exacto y qué no, y usando la propia novela como ejercicio de análisis crítico de fuentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es probablemente la posición más sensata que existe sobre este asunto. Prohibir un libro que once millones de personas han leído no arregla nada; enseñarlo sin contexto tampoco. Usarlo para enseñar a distinguir ficción de historia sí puede servir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque el problema no es que existan ficciones sobre el Holocausto. Existen muchas y muy buenas, algunas escritas por supervivientes. El problema es una ficción que reordena los hechos de manera que produzca conclusiones históricamente falsas y emocionalmente cómodas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una institución que lleva años diciendo exactamente eso en público, con la autoridad de custodiar el lugar donde ocurrió y los archivos que lo documentan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gray señaló además un efecto secundario que no se suele mencionar y que es bastante revelador: varios alumnos recordaban el final del libro con mucha más nitidez que cualquier dato real que hubieran estudiado en clase sobre el mismo periodo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un fenómeno conocido: una escena con personajes concretos se graba mucho mejor que una cifra. Y funciona igual con lo cierto y con lo inventado, así que la potencia narrativa acaba siendo, en la práctica, una responsabilidad sobre la exactitud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su cuenta oficial ha publicado mensajes sobre esta novela varias veces, siempre en el mismo sentido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su cuenta oficial ha publicado mensajes sobre esta novela varias veces, siempre en el mismo sentido.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que aprendieron los niños",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El Museo Estatal de Auschwitz-Birkenau, en Oświęcim, Polonia, conserva el lugar, los archivos y los objetos, y recibe más de un millón de visitantes al año. Su departamento educativo se dedica precisamente a cómo enseñar aquello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su posición pública sobre esta novela es que no debería usarse como material para aprender historia del Holocausto, porque contiene numerosos elementos imposibles y porque puede reforzar ideas erróneas sobre lo que sucedió y sobre quién lo hizo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su argumento",
+          frase: "Que la ficción sobre este tema debe ser especialmente cuidadosa, porque para muchísima gente será la única versión que conozca, y porque hay quien tiene interés activo en que se confunda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso último merece detenerse. El negacionismo del Holocausto es un fenómeno organizado que lleva décadas trabajando, y su método consiste precisamente en señalar inexactitudes en relatos concretos para extender la duda sobre el conjunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una novela llena de imposibilidades, leída por millones de personas como si fuera aproximadamente cierta, es material aprovechable para ese trabajo. No porque su autor lo pretendiera, sino porque cualquier error verificable se puede usar para sembrar dudas sobre lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Boyne ha respondido a estas críticas en varias ocasiones y su posición no ha cambiado: escribió una fábula, no un documento; muchos lectores llegaron al tema gracias a su libro y siguieron leyendo después; y considera que eso justifica el resultado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El argumento de la puerta de entrada es real y hay que reconocerlo: una cantidad enorme de gente que jamás habría abierto un libro sobre el Holocausto leyó este, y una parte de ellos siguió leyendo. Ese efecto existe y no es pequeño.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción a esa defensa es que la puerta de entrada podría ser otra. Existen textos igual de accesibles, igual de conmovedores y además exactos, escritos en muchos casos por personas que estuvieron allí, y que no exigen inventarse nada para funcionar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El más obvio es el diario de Ana Frank, escrito por una chica de trece a quince años, que vendió decenas de millones de ejemplares y que funciona con lectores jóvenes exactamente por las mismas razones: una voz cercana, cotidiana y comprensible.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La diferencia",
+          frase: "Ana Frank escribió lo que le pasaba mientras le pasaba. No hay que decidir qué parte es cierta, porque lo es toda, y su muerte en Bergen-Belsen a los quince años no necesita ninguna licencia narrativa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para lectores un poco mayores están los testimonios de supervivientes, y hay dos que se citan siempre por razones distintas. Primo Levi, químico italiano deportado en 1944, escribió un relato de una precisión y una contención que no tiene equivalente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su libro no busca conmover: describe. Cómo se organizaba el trabajo, cómo funcionaba el mercado negro dentro del campo, cómo se degradaba el lenguaje, cómo cambiaba una persona. Y es más devastador que cualquier ficción precisamente por eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro es Elie Wiesel, deportado a los quince años desde Hungría, que perdió allí a su padre, a su madre y a una hermana, y que escribió sobre ello un texto breve y durísimo. Recibió el Nobel de la Paz en 1986.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los dos escribieron sobre lo mismo con métodos opuestos: uno con distancia analítica de científico, el otro desde dentro del dolor. Y los dos coinciden en lo que este libro no puede dar, que es el punto de vista de quien estaba al otro lado de la alambrada.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay también literatura ilustrada excelente para lectores jóvenes: el cómic de Art Spiegelman sobre su padre superviviente, que ganó el Pulitzer en 1992 y que resuelve el problema de la representación de una manera que sigue siendo insuperable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cómic hace algo que conviene señalar: dibuja a los judíos como ratones y a los alemanes como gatos, es decir, usa una convención abiertamente artificial, y aun así es escrupulosamente exacto en los hechos. Se puede estilizar la forma sin falsear el contenido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad sobre este libro, empezando por lo principal: no está basado en hechos reales ni en ningún caso documentado. Es una invención completa y su autor nunca ha dicho lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: el nombre deformado del campo y el mote del dictador no son erratas ni licencias de traducción. Son un recurso deliberado para marcar que el narrador es un niño que no entiende lo que oye, y funcionan como señal de que esto es una fábula.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tercero, el más extendido en las aulas: que la familia protagonista representa a la clase de alemanes que no sabía nada. No existió esa categoría en la casa del comandante de un campo de exterminio, y el libro construye a su alrededor toda la trama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Existe además una recomendación práctica para quien quiera leer ficción sobre el tema sin sacrificar exactitud: buscar autores que estuvieran allí, o que hayan trabajado con archivos y lo declaren, y desconfiar de las historias que dependen de una casualidad conmovedora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La regla vale para casi cualquier ficción histórica y es sencilla de aplicar: si la trama exige que ocurra algo extremadamente improbable para que la emoción funcione, conviene comprobar si ese algo pudo ocurrir antes de incorporarlo a lo que uno cree saber.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda entonces la pregunta de qué hacer con un libro así, y la respuesta razonable no es tirarlo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El museo de Auschwitz",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un millón trescientas mil personas visitan cada año el memorial de Auschwitz-Birkenau. Cruzan la puerta con el letrero de hierro forjado, recorren los barracones de ladrillo, ven las vitrinas con zapatos, con maletas y con cabello, y salen por donde entraron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una parte considerable de esas personas ha llegado allí porque leyó este libro o vio la película. Ese dato es real y complica cualquier condena simple: un texto históricamente indefendible ha llevado a mucha gente a mirar el sitio de verdad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La posición sensata",
+          frase: "No retirarlo de las aulas, sino no darlo solo. Leerlo y después comprobar qué de lo que cuenta pudo pasar. El ejercicio enseña más que el libro y más que la prohibición.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ejercicio es, además, exactamente lo que hace falta enseñar hoy: distinguir una historia que conmueve de una historia que informa, y comprobar afirmaciones antes de incorporarlas. La novela es un material excelente para eso, precisamente por sus fallos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro como libro, más allá de la historia. La primera cosa es la verosimilitud psicológica: Bruno no se comporta como un niño de nueve años, sino como uno de seis o siete, y esa infantilización es lo único que sostiene la trama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es que los personajes secundarios son planos. La hermana es una adolescente odiosa, la madre una mujer que se entera tarde, el teniente un nazi malo. Ninguno tiene la complejidad que sí tiene la situación en la que están metidos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y la tercera es de estructura: el final funciona por conmoción y no por desarrollo. Es un giro, y un giro muy eficaz, colocado sobre un tema donde el giro sobra. Nadie necesita un golpe de efecto para conmoverse con Auschwitz.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que el libro sí hace bien, y conviene reconocerlo, es la escritura desde la ignorancia del narrador. Hay páginas donde Bruno describe lo que ve —la gente de rayas, el humo, los camiones— con una neutralidad que produce un efecto real en el lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una idea buena debajo, que es la de la arbitrariedad: dos niños nacidos el mismo día, a unos kilómetros de distancia, uno a cada lado de una valla, por razones que ninguno de los dos eligió ni entiende. Esa imagen es potente y es lo que hizo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es que esa imagen exige, para funcionar, un campo de exterminio que no se parece al que hubo. Y en ese canje —realidad histórica a cambio de eficacia emocional— hay una decisión que este tema concreto no permite tomar a la ligera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El criterio",
+          frase: "La ficción puede inventar personajes, diálogos y escenas. Lo que no debería alterar son las condiciones materiales del hecho histórico, porque de ahí salen las conclusiones que el lector se lleva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese criterio lo cumplen muchas novelas sobre el Holocausto: inventan a sus protagonistas y respetan cómo funcionaba el sistema. Es perfectamente posible escribir ficción exacta, y el mérito de hacerlo es que la ficción entonces enseña además de conmover.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un caso que ilustra bien el otro extremo y que también está en el catálogo de libros muy vendidos sobre el tema: relatos presentados como testimonio real de supervivientes que después han resultado contener elementos inventados o imposibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esos casos el daño es mayor, porque una ficción etiquetada como fábula al menos avisa. Un testimonio falso destruye la confianza en los testimonios verdaderos, que son la base documental de todo lo que sabemos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Por eso los historiadores del Holocausto son tan estrictos con este asunto. No es pedantería académica: es que el negacionismo trabaja exactamente sobre las grietas, y cada relato inexacto muy difundido es una grieta que alguien va a usar.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance final de este libro es incómodo y no admite una respuesta limpia. Ha hecho que millones de personas se interesen por algo que quizá habrían ignorado. Y les ha dejado, a una parte de ellas, tres ideas falsas sobre lo que ocurrió y quién lo hizo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos cosas son verdad a la vez y no se cancelan. La conclusión razonable no es que el libro sea malvado ni que sea inofensivo, sino que necesita ir acompañado, y que dárselo solo a un niño de doce años es hacerle un flaco favor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí conviene, si alguien lo ha leído y quiere seguir, es leer después algo escrito por quien estuvo dentro. El diario de una chica de trece años en un anexo de Ámsterdam. El relato de un químico italiano en Monowitz. Un cómic sobre un padre polaco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ninguno de los tres hay una amistad a través de la alambrada, ni un final con un giro, ni un niño alemán con el que identificarse. Hay lo que hubo, contado por quien lo vio, y no hace falta añadirle absolutamente nada para que sea insoportable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es, probablemente, la mejor razón para desconfiar de una historia sobre Auschwitz que necesita inventarse cómo era Auschwitz: si hubiera que mejorar los hechos para que emocionen, algo se ha entendido mal desde el principio.",
+        },
+      ],
+    },
+  ],
+};
