@@ -9639,3 +9639,664 @@ export const EL_ELEMENTO: Resumen = {
     },
   ],
 };
+
+export const MAGIA_CREAR: Resumen = {
+  id: "magia-crear",
+  titulo: "La magia de crear",
+  autor: "Elizabeth Gilbert",
+  ano: 2015,
+  gancho:
+    "Sostiene que las ideas son criaturas conscientes que van buscando un colaborador humano, y que si tú no la coges se marcha a otra casa. Y cuenta el caso concreto en el que dice que le pasó, con nombre y apellido de la escritora que la recibió.",
+  porQue:
+    "Porque su consejo central va contra todo lo que dice el género: no dejes el trabajo, no le pidas a tu arte que te pague el alquiler. Y porque la autora acabó haciendo con un libro suyo exactamente lo contrario de lo que este libro predica.",
+  partes: [
+    {
+      titulo: "Una novela que se fue a otra casa",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hacia 2006, Elizabeth Gilbert empieza a documentarse para una novela ambientada en la selva amazónica. Una mujer estadounidense viaja a Brasil a buscar a un hombre desaparecido en la jungla. Toma notas durante meses, hace entrevistas, se documenta y le dedica bastante trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces su vida se le vuelve del revés. Un libro de memorias que había publicado en 2006 se convierte en el fenómeno editorial de la década, con doce millones de ejemplares vendidos y una película con Julia Roberts. Se pasa dos años viajando y hablando de él, y la novela se queda en un cajón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando por fin vuelve a las notas, dos años después, aquello está muerto. No es que no le apetezca: es que no entiende lo que había escrito, no recuerda por qué le interesaba y la historia no se sostiene en su cabeza. Lo deja definitivamente y no vuelve a pensar en ello.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Poco después conoce a la novelista Ann Patchett en un acto literario. Se caen bien, se dan dos besos y empiezan a cartearse. Meses más tarde, Patchett le comenta que está terminando una novela nueva. Gilbert le pregunta de qué va. Patchett le contesta que va de una mujer que viaja a la selva amazónica.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro de Patchett salió en 2011 y es una novela excelente. Y la conclusión que saca Gilbert de aquel episodio es la que da título a este libro y la que sostiene todo su argumento: que la idea se cansó de esperarla, se marchó de su cabeza y se fue a buscar a alguien que sí la trabajara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que dar el detalle que hace impresionante la anécdota, porque sin él no lo es. No coincidía solo la selva: en las dos versiones la protagonista era una mujer soltera de mediana edad de Minnesota a la que su empresa manda al Amazonas a averiguar qué ha sido de un empleado desaparecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis, dicha en serio y sin ironía, es esta: las ideas son entidades conscientes, sin cuerpo, que circulan por el mundo buscando un colaborador humano dispuesto a materializarlas. Se te acercan, te tantean, y si no les haces caso se van con otro. No es una metáfora para ella.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La imagen no es suya: se la debe a la poeta Ruth Stone, a la que entrevistó cuando ya tenía noventa años. Stone le contó que de joven, trabajando en el campo en Virginia, oía venir un poema por el paisaje como un tren de aire, y echaba a correr hacia la casa a buscar lápiz y papel.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si llegaba a tiempo, lo escribía. Si no, el poema le pasaba por encima y seguía su camino, dice ella, buscando a otro poeta. Y alguna vez llegó tarde por poco y consiguió agarrarlo por la cola y meterlo de vuelta en su cuerpo, y entonces el poema salía escrito al revés, de la última palabra a la primera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su propuesta central",
+          frase: "No eres el dueño de tus ideas: eres un socio temporal. Y eso, que suena a superstición, tiene un efecto práctico enorme sobre la ansiedad de cualquiera que intente crear algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de discutirlo hay que reconocerle algo poco frecuente en este género: lo declara. Escribe expresamente que sabe que es una creencia mágica, que no puede demostrarla, que no le pide a nadie que se la crea, y que la sostiene porque le funciona y porque le parece un modo bonito de vivir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa honestidad cambia mucho las cosas y merece señalarse. Casi todos los libros de este estante presentan sus metáforas como descubrimientos científicos; este avisa de que está proponiendo una superstición útil, y esa distinción es exactamente la que faltaba en varios de los vecinos de esta biblioteca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste más claro está en Salud, con «Deja de ser tú», de Dispenza, que vende su parte metafísica como física cuántica establecida. Gilbert dice lo contrario en la primera página del capítulo: esto no lo puedo demostrar, me lo creo porque me gusta vivir así. La diferencia no es de contenido, es de honradez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho eso, la explicación aburrida de aquel episodio está disponible y hay que ponerla. Dos novelistas estadounidenses de la misma generación, con formación parecida, leyendo la misma prensa en una década en la que el Amazonas salía constantemente, tuvieron una idea parecida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el fenómeno tiene nombre desde hace un siglo. En 1922, Ogburn y Thomas publicaron una lista de ciento cuarenta y ocho descubrimientos hechos por dos personas a la vez sin contacto entre ellas; el cálculo de Newton y Leibniz y la selección natural de Darwin y Wallace son los dos casos famosos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle que la versión mágica necesita esconder: la coincidencia se describe a un nivel de abstracción muy alto. Una mujer que va a la selva a buscar a alguien es una premisa que encaja con decenas de novelas, algunas bastante anteriores, y no una huella dactilar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quién escribe esto importa para leerlo bien. Gilbert no es una recién llegada que triunfó con unas memorias: era periodista en revistas, había publicado una novela y un libro de no ficción que fue finalista del National Book Award, y llevaba quince años trabajando cuando llegó el best seller.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un dato más para situarla, porque casi nadie lo sabe: en 1997 escribió para una revista masculina un reportaje sobre el bar de Nueva York en el que había trabajado de camarera, y de ahí salió una película que se estrenó en 2000. Llevaba años viviendo de escribir por encargo antes de ser famosa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese detalle biográfico es el que da autoridad a la mejor parte del libro, que es la práctica y no la metafísica, y por eso conviene tenerlo desde el principio: quien da estos consejos se pasó década y media escribiendo sin que le fuera especialmente bien y sin dejar de trabajar en otras cosas.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 2015, nueve años después del éxito, y está escrito en un tono de conversación directa: te habla de tú, te cuenta anécdotas suyas y de amigos, y evita completamente el vocabulario de manual. Se lee en dos tardes y no tiene ninguna estructura de método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se titulaba en su lengua «Big Magic», magia grande, y viene repartido en seis bloques cortos con nombres de virtud: valentía, encantamiento, permiso, persistencia, confianza y divinidad. Esa lista describe bastante bien de qué va: de la relación con el trabajo, no del trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y conviene saber lo que no es, porque decepciona a mucha gente: no es un libro de oficio. No explica cómo se escribe una escena, cómo se corrige un capítulo que no funciona ni qué hacer cuando una estructura está rota. De eso hay tres libros en esta misma categoría y este no es uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este va de otra cosa, y de una que aquellos no tocan: de la relación emocional entre una persona y el hecho de intentar hacer algo. Del miedo, de la vergüenza, de la ansiedad por el resultado y de la pregunta de si uno tiene derecho a dedicarle tiempo a esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una novela abandonada en un cajón durante dos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y otra escritora publicándola en 2011 sin saber nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale un libro entero, y la autora avisa de que se lo está inventando.",
+        },
+      ],
+    },
+    {
+      titulo: "Tener un genio en vez de serlo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En febrero de 2009, Gilbert dio una charla de diecinueve minutos que se ha visto cerca de veinte millones de veces y que contiene la mejor idea de este libro, seis años antes de que lo escribiera. Trataba de por qué a los artistas se les muere tanta gente por dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba «tu genio creativo esquivo» y sigue siendo una de las charlas más vistas de la historia de aquel formato. Conviene saberlo antes de comprar el libro: buena parte de este es la charla desarrollada, y quien ya la haya visto va a reconocer capítulos enteros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su punto de partida era personal y bastante incómodo. Acababa de publicar el libro que la había hecho millonaria y todo el mundo le preguntaba, con simpatía y con una crueldad involuntaria, si no le daba miedo no volver a escribir nunca nada tan bueno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se dio cuenta de que la pregunta daba por supuesta una cosa: que ella era la fuente. Que el libro había salido de dentro de ella, y que por tanto un fracaso posterior demostraría algo sobre su valor como persona. Y se preguntó desde cuándo pensamos así, porque no siempre se ha pensado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su respuesta es la que da título a la charla. En la antigüedad, dice, nadie era un genio: se tenía un genio. Un espíritu externo que visitaba al artista, hacía su parte del trabajo y se marchaba. El mérito y la culpa se repartían entre dos, y eso protegía al que trabajaba.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una idea preciosa y hay que precisarla, porque la historia es más desordenada. El genio romano era un espíritu tutelar que acompañaba a cada hombre desde el nacimiento —las mujeres tenían el suyo, con otro nombre— y protegía la casa y la descendencia. No era una fuente de inspiración artística.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sí es verdad, y es un detalle bonito, que al genio se le hacía una ofrenda el día del cumpleaños: vino, incienso, flores y un pastel. Uno no celebraba haber nacido, celebraba al espíritu que lo acompañaba. Y bajo el imperio se juraba por el genio del emperador como se juraba por un dios.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La corrección",
+          frase: "Gilbert junta tres tradiciones distintas en una sola historia: el genio romano, el daimon griego y las musas. Ninguna de las tres es exactamente lo que cuenta, y la mezcla funciona igual de bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El daimon griego tampoco encaja del todo. El más famoso es el de Sócrates, y era una voz que solo le hablaba para prohibirle cosas: nunca le dijo qué hacer, únicamente lo detenía cuando iba a equivocarse. Es un consejero negativo, no una fuente de creación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las musas, que son la tradición que más se le parece, sí eran nueve diosas que se invocaban al empezar un poema, y los poemas antiguos empiezan literalmente pidiéndoles que canten. Esa parte sí funciona, y es la que sostiene el argumento sin necesidad de las otras dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Ilíada arranca pidiéndole a la diosa que cante la cólera de Aquiles y la Odisea pidiéndole a la musa que le hable del hombre de muchos recursos. No es una fórmula de cortesía: el poeta declara que él no es el autor de lo que viene, sino la boca por la que sale.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diagnóstico que hay detrás, en cambio, es incontestable. En algún momento del Renacimiento y sobre todo con el romanticismo, la fuente se traslada al interior de la persona, y a partir de ahí el artista es el único responsable de lo que produce, y también el único culpable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso tuvo un coste y Gilbert lo señala: si tú eres la fuente, entonces un mal libro no significa que hayas hecho un mal libro, significa que estabas vacío. Y esa es una carga que puede aplastar a cualquiera, y que efectivamente ha aplastado a bastantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su propuesta práctica es reinstalar la distancia. Hablarle a la idea en voz alta, agradecerle que haya venido, quejarse cuando no aparece, y decirle que uno ha estado en la mesa a la hora acordada aunque ella no se presentara. Es un teatro deliberado y ella sabe que lo es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que da es de Tom Waits, al que le llegó una melodía conduciendo por una autopista de Los Ángeles, sin dónde apuntarla y con el pánico de perderla. En vez de angustiarse miró al cielo y le dijo que no veía que estaba conduciendo, que volviera luego o que fuera a molestar a Leonard Cohen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y funciona por una razón que no tiene nada de mágica: separar el juicio sobre el trabajo del juicio sobre uno mismo. Cualquier terapeuta cognitivo recomendaría exactamente lo mismo con otras palabras, y en esta biblioteca lo hace «Sentirse bien» sin necesidad de ningún espíritu.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay una diferencia interesante, sin embargo. La versión terapéutica te pide que reconozcas que el pensamiento es tuyo y que lo discutas. La de Gilbert te pide lo contrario: que se lo atribuyas a otro. Son dos estrategias opuestas para el mismo problema, y las dos parecen funcionar.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su otro gran consejo del bloque va contra el mito del artista atormentado y es de los más necesarios que tiene el libro. Sostiene que la idea de que hay que sufrir para crear algo bueno es una invención romántica relativamente reciente y que ha matado a mucha gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y da el argumento correcto: nadie escribió nunca nada bueno gracias al alcohol, la depresión o el desastre; lo escribieron a pesar de ellos y en los ratos en que remitían. Confundir la biografía de un artista destruido con el método de su obra es un error que se cobra vidas jóvenes cada década.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y en esto tiene un aliado de mucho peso a dos estantes de aquí. Stephen King dedica en «Mientras escribo» un tramo entero a desmontar el mismo mito, y lo hace desde dentro: cuenta que escribió una de sus novelas más conocidas en plena adicción y que apenas recuerda haberla escrito.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una posición que hoy parece evidente y que en 2015 todavía había que defender, porque el catálogo de escritores alcohólicos venerados es largo y porque el propio mundillo literario lleva doscientos años cultivando la idea de que el sufrimiento acredita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No eras un genio: tenías uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La historia es más desordenada de lo que ella la cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el efecto sobre quien se sienta a trabajar es exactamente el que ella dice.",
+        },
+      ],
+    },
+    {
+      titulo: "No le pidas a tu arte que te pague el alquiler",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Aquí está lo mejor del libro y es lo que menos se cita, probablemente porque va en contra de todo lo que se espera de un libro así. Gilbert dedica un capítulo entero a explicar por qué no hay que dejar el trabajo para dedicarse al arte, y por qué ella no lo dejó hasta pasados los treinta y cinco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Trabajó de camarera, de cocinera, de barman y dando clases. Escribía por las mañanas antes de entrar o por las noches al salir, durante quince años, publicando poco y ganando muy poco con lo que publicaba. Y dice que nunca, ni un solo día, le pidió a la escritura que la mantuviera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta que de adolescente le hizo una promesa a la escritura, en voz alta y con toda la solemnidad de esa edad: yo cuidaré de ti toda mi vida, y tú a cambio no tendrás que mantenerme nunca. Suena a ceremonia de quinceañera y resulta ser el consejo más sólido de todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su formulación es la que hay que retener: yo mantenía a mi escritura, no al revés. Y su razón es práctica y no romántica: en el momento en que dependes económicamente de una cosa, esa cosa se convierte en tu jefe, y un jefe que además tiene que salirte bien es un jefe insoportable.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El razonamiento se entiende de inmediato en cualquier oficio. Escribir un capítulo sabiendo que si no funciona no llegas a fin de mes no es la misma actividad que escribirlo con el alquiler pagado. Es la misma tarea con una presión encima que la vuelve casi imposible de hacer bien.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí es donde el libro empieza a fallar, y hay que decirlo. El consejo da por supuesto un trabajo que deja horas y cabeza: turnos de barra a los veinte años, sin hijos y sin nadie a cargo. Con dos empleos, una hipoteca y niños pequeños, la mañana libre para escribir sencillamente no existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una consecuencia que va todavía más contracorriente: eso significa que el trabajo alimenticio no es el enemigo del arte, sino su patrocinador. Es lo que compra el tiempo y lo que permite escribir sin miedo, y despreciarlo es despreciar la financiación de la propia obra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El consejo que nadie espera",
+          frase: "No dejes el trabajo. Lo que hay que proteger no es el tiempo para crear, que se puede robar; es la libertad de hacer algo malo sin que eso te arruine el mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene contrastarlo con la posición contraria, que en esta misma categoría defiende «La guerra del arte», de Pressfield: allí la exigencia es tratar la obra como un trabajo profesional, aparecer todos los días y comportarse como si de eso viviera uno. Los dos consejos son buenos y son opuestos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia está en qué problema resuelve cada uno. Pressfield le habla al que no se sienta, y le exige disciplina. Gilbert le habla al que sí se sienta y se paraliza de miedo, y le quita la presión de encima. Aplicar el consejo equivocado a la situación equivocada empeora las dos cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En cambio tiene un aliado inesperado en la misma categoría: «Roba como un artista», de Kleon, que en su capítulo sobre ser aburrido aconseja exactamente lo mismo. El trabajo de todos los días da dinero, rutina y contacto con el mundo, y las tres cosas alimentan lo que uno hace por su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo gran acierto práctico del libro es una imagen que la gente se acuerda años después: el sándwich de mierda. Viene de una conversación con una amiga que adoraba patinar sobre hielo y que sin embargo lo había dejado, y a la que Gilbert le preguntó por qué exactamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta fue que patinar bien exige levantarse a las cuatro y media de la mañana, todos los días, para pillar la pista libre. Y ahí Gilbert formula la regla: toda actividad que merezca la pena viene con un sándwich de mierda incorporado, y la pregunta no es si lo hay, sino cuál estás dispuesto a comerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El de escribir es pasar meses solo en una habitación produciendo algo que probablemente no le interese a nadie y que después va a leer un desconocido para decir que no. El de la música son las horas de escalas. El de la investigación son los años sin resultados. Todos vienen con uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La misma idea aparece un año después en Filosofía, en el libro de Manson, formulada como pregunta: no de qué disfrutas, sino qué dolor estás dispuesto a aguantar. Que dos autores tan distintos lleguen a la misma reformulación por su cuenta dice bastante a favor de que la reformulación sirve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La utilidad de la imagen está en cómo cambia la pregunta. En vez de preguntarse qué te apasiona, que es una pregunta que casi nadie sabe contestar, propone preguntarse qué inconveniente concreto estás dispuesto a soportar durante años, que es una pregunta con respuesta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay una tercera idea suya que es posterior al libro y que conviene añadir porque corrige lo que este dice. Años después Gilbert empezó a decir en público que dejaran de decirle a la gente que siguiera su pasión, porque a mucha gente esa frase la hunde: no tiene ninguna y se siente defectuosa.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su sustituto es más humilde y bastante más útil: en vez de pasión, curiosidad. La pasión es rara, ruidosa y no se puede fabricar; la curiosidad es pequeña, cotidiana y casi todo el mundo tiene alguna. Y la curiosidad sostenida durante años, dice, acaba pareciéndose bastante a una vocación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese giro coincide con lo que encontró un equipo de investigación en 2018, con Carol Dweck entre los autores: la gente que cree que los intereses se descubren abandona antes cuando la materia se pone difícil, porque lee la dificultad como prueba de que aquello no era lo suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento es sencillo y por eso convence. A unos estudiantes les enseñaron un vídeo divertido sobre un tema y luego un artículo técnico sobre lo mismo; los que creían que la pasión se encuentra perdieron el interés en cuanto llegó lo difícil, y los que creían que se cultiva aguantaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo hallazgo que aparece en «El elemento», de Ken Robinson, que anda por esta categoría y que comete precisamente ese error en el título. Que Gilbert se corrigiera a sí misma en público, después de haber vendido millones con lo contrario, es un mérito que hay que anotarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quince años de turnos de barra y de clases.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribiendo antes de entrar o después de salir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin pedirle nunca a lo que escribía que le pagara nada.",
+        },
+      ],
+    },
+    {
+      titulo: "El problema de escribirlo desde arriba",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Toca la crítica seria, y no es sobre la metafísica sino sobre la posición desde la que está escrito el libro. Lo firma una mujer que en 2015 llevaba nueve años sin ninguna preocupación económica, con doce millones de ejemplares vendidos y una película de Hollywood detrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el dato que más pesa es de su propia biografía. Sus tres libros anteriores, escritos con el mismo oficio y bastante bien recibidos por la crítica, vendieron lo que vende un libro normal. El cuarto vendió doce millones. La diferencia entre una carrera y la otra no fue el talento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no invalida sus consejos —de hecho el mejor de todos viene precisamente de los quince años en que no tenía nada—, pero cambia el peso de algunas frases. Decir que no importa si tu obra no le gusta a nadie suena distinto según quién lo diga y desde dónde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la misma objeción que se le hizo al libro que la hizo famosa, y que ella conoce de sobra: un año sabático por tres países se recomienda mejor cuando una editorial te lo ha pagado por adelantado. La respuesta honrada no es negarlo, es admitirlo y seguir; y aquí lo admite a medias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro insiste mucho en que nadie te debe nada, en que el mundo no necesita tu obra y en que aun así deberías hacerla por el placer de hacerla. Es una posición filosóficamente defendible y es también, dicha así, bastante cómoda de sostener desde la seguridad absoluta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ella lo reconoce en algún pasaje y menciona su suerte, así que no es que lo oculte. Lo que no hace es sacar la consecuencia: que para alguien que sí necesita que aquello funcione, el consejo de crear sin expectativas no es liberador, es simplemente inaplicable.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una segunda objeción, y esta es interna: su propia metáfora tiene un filo que ella no ve. Si las ideas se van cuando no las atiendes, entonces cada proyecto abandonado no es un descarte razonable, es una oportunidad perdida por lentitud, y hay que cargar con esa culpa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El palo escondido en la zanahoria",
+          frase: "Un libro escrito entero para quitar culpa introduce, en su idea central, un motivo nuevo para sentirla: la idea que se te fue porque no fuiste lo bastante rápido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera objeción es sobre el optimismo. En trescientas páginas no hay prácticamente sitio para la posibilidad de que alguien trabaje veinte años con disciplina, haga todo bien y no produzca nada bueno. Y eso ocurre constantemente y le ocurre a la mayoría.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y ese es el defecto estructural del género entero, no de este libro en particular: todos los manuales de creatividad los escribe alguien a quien le salió bien. Los que hicieron lo mismo y no funcionó no publican su versión, así que la muestra de la que sacamos las conclusiones está entera del lado bueno.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta a eso es que da igual, porque el sentido está en hacerlo y no en el resultado. Es una respuesta seria y de vieja tradición filosófica, y también es la única disponible desde su posición, porque cualquier otra la obligaría a hablar del azar que le tocó a ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una cuarta cosa, que es de género literario. Este libro comparte estante con otros cinco sobre lo mismo y conviene saber qué hace cada uno, porque quien busque el equivocado va a salir enfadado y la culpa será de la elección y no del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "«Mientras escribo», de Stephen King, es el manual de oficio: cómo se construye una frase, cuántas palabras al día, qué hacer con los adverbios y qué se corta en la segunda versión. Es el único de los cinco que enseña a escribir, y es el que hay que leer si lo que falta es técnica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "«Pájaro a pájaro», de Anne Lamott, es el que mejor entiende el pánico. Su idea de los primeros borradores horribles, escritos sin juzgar y sabiendo que van a ser malos, es probablemente la herramienta más útil que existe contra la parálisis de la página en blanco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "«La guerra del arte», de Pressfield, es el látigo: da por hecho que el problema es que no te sientas y trata la resistencia como un enemigo al que hay que derrotar cada mañana. Es exactamente el libro contrario a este y tiene el mismo derecho a existir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y discuten en un punto concreto que conviene ver de cerca. Gilbert repite que el mundo no necesita tu obra; Pressfield sostiene lo contrario, que lo que uno lleva dentro es un regalo que le debe a los demás y que no darlo es una forma de egoísmo. Dos libros del mismo estante, tesis incompatibles.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y «El camino del artista», de Julia Cameron, es el terapéutico: doce semanas de ejercicios para desbloquear a alguien que dejó de hacer algo hace veinte años. Este de Gilbert está más cerca de ese que de los otros tres, y es más corto y bastante menos exigente.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Falta el sexto, que es el gemelo metafísico: «El acto creativo», de Rick Rubin, dice casi literalmente lo mismo sobre ideas que flotan y buscan a quien esté disponible. La diferencia está en el tono, y no es menor: Rubin lo afirma como si fuera un hecho y Gilbert avisa de que se lo inventa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puesto en ese mapa, la recomendación se aclara. Si el problema es que no sabes hacerlo, King. Si es que te aterra empezar, Lamott. Si es que no te sientas, Pressfield. Si lo que atrae es la metafísica del asunto, Rubin. Y si llevas años sin permitirte hacer nada porque no eres bueno, entonces sí, este.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque para ese caso concreto Gilbert tiene el mejor argumento del estante entero, y es de una sencillez desarmante: hacer cosas no requiere ningún permiso, ningún talento demostrado y ninguna justificación. Nadie te va a pedir el carné, y el peor resultado posible es haber pasado el rato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su frase para eso es que el arte no es un asunto tan grave, y que tratarlo como una cuestión de vida o muerte es precisamente lo que impide hacerlo. Es una posición ligera, y viene de una escritora profesional que se toma su oficio muy en serio, que es lo que le da autoridad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie te debe nada y el mundo no necesita tu obra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es verdad y es liberador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y suena distinto con doce millones de ejemplares vendidos detrás.",
+        },
+      ],
+    },
+    {
+      titulo: "El libro que retiró",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Junio de 2023. Elizabeth Gilbert publica un vídeo en sus redes anunciando que retira de la programación editorial su novela nueva, terminada, con fecha de publicación fijada para febrero del año siguiente y con miles de reservas ya hechas. Dura tres minutos y es un vídeo incómodo de ver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se llamaba «El bosque de nieve» y tenía que salir en febrero de 2024. Era la primera novela suya en seis años, la editorial ya la había anunciado con portada y fecha, y en el momento del vídeo llevaba semanas apareciendo en las listas de lo más esperado del año siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La novela estaba ambientada en Siberia a mediados del siglo veinte y contaba la historia de una familia que se retira al bosque para vivir aislada, resistiéndose al gobierno soviético. Era, en su intención, una novela contra el poder ruso y sobre gente que huye de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al anunciarla recibió una avalancha de mensajes de lectores ucranianos que le decían que en aquel momento, con su país invadido, una novela ambientada en Rusia les resultaba dolorosa. Ella escuchó, se lo pensó unos días y decidió retirarla sin fecha nueva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar la forma que tomó la avalancha, porque el detalle importa: cientos de valoraciones de una estrella en una web de lectores, sobre un libro que nadie podía haber leído porque no existía todavía. No era una crítica de la novela; era una protesta usando la casilla de las críticas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La reacción fue enorme y en las dos direcciones. Hubo quien lo aplaudió como un gesto de escucha y sensibilidad, y hubo muchísimos escritores que lo denunciaron como autocensura y como un precedente peligroso: si una novela puede retirarse por su ambientación, se abre una puerta que no se cierra.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento más afilado de ese lado está en un libro de Historia de esta misma biblioteca. La primera regla de «Sobre la tiranía», de Snyder, es no obedecer por adelantado: casi nadie te obliga a nada, la gente se adelanta a lo que cree que se le va a exigir y entrega el terreno sin que se lo pidan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí es donde este episodio se convierte en el mejor final posible para esta ficha, porque contradice de arriba abajo el libro que estamos resumiendo. Si las ideas son entidades que te eligen y tú eres el socio encargado de traerlas al mundo, retirarla es incumplir el contrato.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La contradicción",
+          frase: "La autora que escribió que el mundo no necesita tu obra y que la hagas igualmente, retiró una obra terminada porque a una parte del mundo no le apetecía en ese momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene ser justo y no convertirlo en una condena fácil, porque el episodio es más difícil de lo que parece. Ella no lo hizo por presión de su editorial ni por miedo comercial: lo hizo por decisión propia, contra el criterio de mucha gente de su entorno y perdiendo dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero la objeción de fondo no iba sobre ella, y por eso no se desactiva con su buena intención. Gilbert puede permitirse retirar un libro terminado; una escritora que publica el primero no puede. Lo que se discutía era la norma que quedaba en pie, y las normas las pagan siempre los que no tienen colchón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una lectura suya que también es coherente con este libro: si crear es una colaboración y no una posesión, entonces el público también forma parte de la conversación, y no publicar en un momento dado es una decisión tan legítima como publicar. No convence a todo el mundo y no es absurda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella dijo que no lo cancelaba para siempre, solo que lo apartaba hasta un momento mejor. En los meses siguientes no volvió a anunciarse fecha, y ese silencio es parte del asunto: una novela terminada que espera a que el mundo se calme puede esperar mucho más de lo que su autora calculaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo interesante para un lector de este libro es lo que revela: que la teoría de las ideas como criaturas independientes es preciosa mientras uno escribe y no ofrece ninguna guía para decidir qué hacer con lo escrito. Es una metafísica de la producción sin ninguna ética de la publicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y eso, en el fondo, es el resumen del libro entero. Sus mejores ideas son las que hablan del proceso: no dejes el trabajo, no le pidas al arte que te mantenga, elige tu sándwich, y trátalo con menos solemnidad. Todas funcionan mientras uno está en la mesa trabajando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus ideas más débiles son las que hablan del resultado y de lo que significa. Ahí se apoya en una superstición que ella misma declara como tal, y esa superstición no le sirvió para resolver la única decisión difícil de verdad que le tocó tomar en público.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su mejor respuesta al problema del fracaso no está en este libro, sino en una segunda charla que dio en 2014, cuando la novela que publicó después del éxito no funcionó. Decía que el camino de vuelta consiste en identificar la cosa que quieres más que a ti mismo y volver a ella sin más trámite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena cerrar con lo que hay que llevarse, que es concreto y no ocupa nada. Primero: separa el juicio sobre lo que haces del juicio sobre ti, con el método que te funcione, sea inventarte un espíritu o sea la hoja de tres columnas que hay en Psicología.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Segundo: no le pongas a lo que haces la carga de tener que pagarte nada, al menos al principio. Un trabajo aburrido que te dé de comer es la mejor beca que va a recibir tu obra, y probablemente la única, y hablar mal de él es hablar mal de quien te está financiando.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: pregúntate qué inconveniente estás dispuesto a soportar durante diez años, y no qué te apasiona. La primera pregunta tiene respuesta, la segunda casi nunca, y en la práctica la primera acaba señalando lo mismo con bastante más precisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuarto, que es lo que Gilbert repite de mil maneras a lo largo del libro y que probablemente sea verdad: nadie te está esperando, nadie te va a pedir credenciales y nadie te va a dar permiso. Eso, según cómo se mire, es lo más desolador o lo más liberador que se puede decir del asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una novela terminada, con fecha y con reservas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Retirada por su propia autora en un vídeo de tres minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea, según su propia teoría, ya andará buscando otra casa.",
+        },
+      ],
+    },
+  ],
+};
