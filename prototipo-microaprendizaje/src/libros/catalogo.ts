@@ -142,7 +142,7 @@ export const CATALOGO: Ficha[] = [
   { id: "ficciones", titulo: "Ficciones", autor: "Jorge Luis Borges", ano: 1944, categoria: "Literatura", estado: "escrito" },
   { id: "viejo-mar", titulo: "El viejo y el mar", autor: "Ernest Hemingway", ano: 1952, categoria: "Literatura", estado: "escrito" },
   { id: "guardian-centeno", titulo: "El guardián entre el centeno", autor: "J. D. Salinger", ano: 1951, categoria: "Literatura", estado: "escrito" },
-  { id: "cuentos-poe", titulo: "Cuentos de Edgar Allan Poe", autor: "Edgar Allan Poe", ano: 1845, categoria: "Literatura", estado: "pendiente" },
+  { id: "cuentos-poe", titulo: "Cuentos de Edgar Allan Poe", autor: "Edgar Allan Poe", ano: 1845, categoria: "Literatura", estado: "escrito" },
   { id: "elegancia-erizo", titulo: "La elegancia del erizo", autor: "Muriel Barbery", ano: 2006, categoria: "Literatura", estado: "pendiente" },
   { id: "hobbit", titulo: "El hobbit", autor: "J. R. R. Tolkien", ano: 1937, categoria: "Literatura", estado: "escrito" },
 
