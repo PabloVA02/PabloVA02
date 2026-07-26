@@ -3374,3 +3374,589 @@ export const CAMINO_ARTISTA: Resumen = {
     },
   ],
 };
+
+export const DIARIOS_FRIDA: Resumen = {
+  id: "diarios-frida",
+  titulo: "El diario de Frida Kahlo",
+  autor: "Frida Kahlo",
+  ano: 1995,
+  gancho: "Ciento setenta páginas que nunca quiso que se publicaran. Se editaron en facsímil cuarenta y un años después de su muerte, con las manchas incluidas.",
+  porQue:
+    "Porque es el documento más íntimo del arte del siglo XX, y porque leerlo obliga a preguntarse qué derecho tiene nadie a leer el cuaderno privado de una muerta.",
+  partes: [
+    {
+      titulo: "El pasamanos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Ciudad de México, 17 de septiembre de 1925, a media tarde. Un autobús de madera recién estrenado circula por la calzada de Tlalpan. Dentro va una chica de dieciocho años que vuelve de clase con su novio. Se llama Frida Kahlo y estudia para entrar en Medicina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un tranvía embiste el autobús por el costado. El vehículo se dobla y se rompe. Un pasamanos de hierro entra por el costado izquierdo de Frida y sale por su pelvis. En el mismo golpe se revienta un paquete de polvo de oro que llevaba otro pasajero.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La imagen que ella contó siempre",
+          frase: "Quedó desnuda, empalada por una barra de hierro y cubierta de polvo de oro. Alguien gritó que había que sacarle la barra. Se la sacaron ahí mismo, en la calle, y ella dijo que ese fue el peor dolor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El parte médico es una enumeración: columna vertebral fracturada en tres puntos, clavícula rota, dos costillas, pelvis rota en tres sitios, pierna derecha con once fracturas, pie derecho aplastado, hombro dislocado. Estuvo un mes en el hospital y meses más en cama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ya venía con daños. A los seis años había tenido poliomielitis, que le dejó la pierna derecha más delgada y más corta. En el colegio la llamaban Frida la coja. Ella se ponía varios calcetines y un zapato con alza, y jugaba al fútbol para demostrar que podía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tras el accidente vinieron más de treinta operaciones a lo largo de su vida. Corsés de yeso, de cuero y de acero que tenía que llevar meses seguidos. Períodos enteros inmovilizada boca arriba. El dolor no se le fue nunca del todo en los veintinueve años que le quedaban.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y ahí ocurre lo que convierte una desgracia en una obra: su madre mandó construir un caballete especial que se podía usar tumbada, y colocó un espejo en el dosel de la cama. Frida empezó a pintar en 1926, en la cama, y el único modelo disponible era ella misma.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la explicación práctica de por qué alrededor de un tercio de su obra son autorretratos, y ella lo dijo así: se pintaba a sí misma porque estaba mucho tiempo sola y porque era el tema que mejor conocía. No hay ninguna teoría detrás, hay un espejo en un techo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pintó en toda su vida unas ciento cuarenta y tres obras. Es una cantidad pequeña para una pintora de su fama, y la razón también es física: hubo temporadas largas en las que no podía sostener un pincel, y otras en las que estaba en un hospital.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diario del que trata este libro es muy posterior. Lo llevó los últimos diez años de su vida, entre 1944 y 1954, y son unas ciento setenta páginas de un cuaderno con tapas rojas, escritas y pintadas con tinta, acuarela, lápices de colores y lo que hubiera a mano.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué clase de objeto es",
+          frase: "No es un libro. Es un cuaderno privado publicado en facsímil en 1995, cuarenta y un años después de su muerte, con las manchas, los tachones, las páginas ilegibles y los dibujos hechos encima del texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No está ordenado por fechas. Muy pocas entradas llevan una. No hay narración, no hay relato de los días y no hay explicación de nada. Hay listas de palabras, cartas de amor que nunca envió, manchas de tinta convertidas en figuras, consignas políticas y frases sueltas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una parte considerable procede de un juego surrealista: dejar caer una gota de tinta, doblar la hoja y ver qué aparece. Frida hacía eso y luego dibujaba encima lo que había visto: caras, animales, pies, ojos. Después escribía alrededor de la figura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí conviene aclarar algo que ella repitió toda su vida y que casi nadie respeta. Los surrealistas franceses la reclamaron como una de los suyos. André Breton escribió sobre ella y organizó su exposición en París en 1939. Frida los detestaba.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su frase sobre el asunto es de las más citadas y de las peor entendidas: dijo que nunca pintó sueños, que pintó su propia realidad. No era una boutade. Cuando pintaba un aborto o una columna rota, estaba pintando lo que le había pasado la semana anterior.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De los surrealistas parisinos dejó escrito, en una carta desde París, que eran unos intelectuales podridos, que se pasaban el día en los cafés discutiendo y que no le interesaban en absoluto. Volvió a México en cuanto pudo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diario recoge también otra cosa que la iconografía de camiseta suele borrar: era comunista militante. Se afilió al Partido Comunista Mexicano en los años veinte, y en las páginas del cuaderno hay retratos de dirigentes, consignas y declaraciones políticas explícitas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una de las últimas entradas del cuaderno es una declaración de fe política y de agradecimiento por haber podido dedicar su obra al partido. La mujer que hoy aparece en bolsos y en tazas escribió eso en su cuaderno privado semanas antes de morir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero el asunto que ocupa más páginas del diario no es la política, ni la enfermedad, ni la pintura. Es un hombre veinte años mayor que ella, con el que se casó dos veces, del que se divorció una y con el que mantuvo la relación más documentada del arte mexicano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su madre dijo de aquella boda que era el matrimonio de un elefante y una paloma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Diego Rivera y era, en aquel momento, el pintor más famoso de México.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El espejo del dosel",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Se casaron el 21 de agosto de 1929. Ella tenía veintidós años y él cuarenta y dos. Él pesaba más de cien kilos y medía casi metro noventa; ella medía metro sesenta y estaba delgadísima. La diferencia física era tan llamativa que se convirtió en un chiste familiar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rivera era ya una figura internacional: muralista, comunista, con encargos del Estado mexicano y después de industriales estadounidenses. Frida era, para casi todo el mundo, la mujer de Rivera. Esa asimetría duró prácticamente toda su vida.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La proporción de fama",
+          frase: "En vida de Frida, la prensa la trataba como la esposa pintora de un gran muralista. Su primera exposición individual en México llegó en 1953, un año antes de morir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El matrimonio fue una catástrofe sostenida con periodos de felicidad enorme. Los dos tuvieron amantes. Él, muchos y en público. Ella, hombres y mujeres, entre ellos el fotógrafo Nickolas Muray y, según casi todos los biógrafos, León Trotski durante su exilio en México.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la destrozó fue una traición concreta: Rivera tuvo una relación con Cristina, la hermana pequeña de Frida, que vivía cerca y con la que estaba muy unida. Se enteró en 1934 y fue el golpe emocional que más aparece, transformado, en su pintura posterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se divorciaron en 1939 y se volvieron a casar en diciembre de 1940, en San Francisco, con condiciones nuevas: cuentas separadas, sin relaciones sexuales entre ellos y con Frida pagando sus propios gastos. El acuerdo lo propuso ella.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El diario está lleno de textos dirigidos a él y son de una intensidad difícil de sostener. Le llama su niño, su universo, su Diego. Escribe que él es todo lo que existe y que ella nunca ha estado sola. Y en la página siguiente hay una figura rota y una mancha de tinta.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una entrada en la que enumera lo que él es para ella y va subiendo: mi niño, mi novio, mi amante, mi madre, yo misma, el universo. La progresión termina donde termina siempre en ese cuaderno: en la desaparición de la frontera entre los dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y también hay reproche. Escribe sobre el dolor de esperar, sobre la humillación y sobre las horas perdidas. No lo idealiza en todas las páginas: lo idealiza en unas y lo destroza en otras, a menudo separadas por dos hojas y sin ninguna fecha entre medias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra herida que atraviesa el cuaderno son los embarazos que no llegaron a término. Tuvo al menos un aborto espontáneo grave, en Detroit en 1932, del que salió una de sus pinturas más brutales, y varias interrupciones más por consejo médico.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pintó con eso",
+          frase: "En un país católico de 1932, una mujer pintó su propio aborto: ella desnuda sobre una cama de hospital, sangrando, con un feto y una pelvis flotando atados por venas rojas. No existía nada parecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el rasgo que hace de Kahlo algo más que una biografía triste. Pintó cosas que no se pintaban: el aborto, el cuerpo médico, los corsés, la columna partida, la cirugía, el dolor crónico. Convirtió en materia pictórica un territorio que estaba prohibido y no nombrado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo hizo con un lenguaje visual que viene del arte popular mexicano y no de la vanguardia europea. Sus cuadros tienen el tamaño, el formato y la estructura de los exvotos: esas pequeñas láminas votivas que se cuelgan en las iglesias para agradecer un milagro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un exvoto muestra la desgracia —el accidente, la enfermedad— con una cinta escrita abajo explicando qué pasó y dando las gracias. Frida coleccionaba exvotos, tenía cientos en su casa, y copió esa estructura exacta en varias de sus obras más conocidas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa filiación cambia la lectura del cuadro. No es una alucinación surrealista: es una lámina votiva sin santo. Se muestra la desgracia con la misma frontalidad, con la misma inscripción explicativa, y falta únicamente la figura celestial que agradecer.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diario funciona igual. Muchas páginas son casi un exvoto: una figura sufriente, una anotación al lado y ninguna interpretación. No hay elaboración literaria, no hay metáfora buscada. Hay una constatación y el objeto pintado al lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una sección del cuaderno dedicada al color que es fascinante y que casi nadie cita. Frida hace una lista de colores y anota al lado lo que significan para ella, y las asociaciones no se parecen a ninguna teoría cromática conocida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El verde lo describe como luz tibia y buena. El amarillo como locura, enfermedad y miedo, y añade que también es el sol y la alegría. El azul cobalto como electricidad y pureza, amor. El verde hoja como hojas, tristeza, ciencia, y que Alemania entera es de ese color.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa lista es lo más cerca que estuvo de escribir una poética, y ocupa una página. No hay más teoría en todo el cuaderno. Cuando alguien le preguntaba por su método, contestaba que pintaba lo que le pasaba y ya está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El último tramo del diario cambia de tono, y el cambio tiene una fecha exacta. En agosto de 1953, después de años de infecciones y de gangrena, los médicos le amputaron la pierna derecha por debajo de la rodilla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que escribió en el cuaderno pocas semanas después es la frase más conocida de todo el volumen.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Diego",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La frase, escrita junto a un dibujo de dos pies sobre una columna, dice: pies, para qué los quiero, si tengo alas para volar. Está fechada en 1953, poco después de la amputación, y se ha reproducido en carteles, camisetas y tatuajes por todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí es donde el cuaderno se vuelve más incómodo, porque esa frase se lee siempre como una declaración de fortaleza y en el cuaderno está rodeada de páginas que dicen lo contrario. La misma mano escribe unas hojas más allá que ya no aguanta más.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema de citar un diario",
+          frase: "En un cuaderno privado no hay tesis. Hay estados de ánimo de distintos días sin orden. Sacar una frase y convertirla en lema es exactamente lo que un diario no permite hacer honestamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de la amputación pasó meses hundida. Los testimonios de quienes la visitaban describen dolores muy fuertes, dosis crecientes de morfina, periodos de confusión y varios intentos de quitarse la vida según algunas fuentes, aunque ese punto está discutido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuaderno de esos meses tiene la letra cada vez más grande y más temblorosa. Las líneas se salen del renglón. Hay palabras repetidas y frases que se interrumpen. Es un documento clínico además de literario, y verlo en facsímil resulta bastante duro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así siguió pintando. Sus últimos cuadros son naturalezas muertas con frutas partidas, sandías abiertas, banderas pequeñas y palabras escritas dentro de la propia pintura. Es una obra tardía distinta, más simple, hecha con menos fuerza física disponible.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su último cuadro conocido es una sandía abierta sobre la que escribió, con el pincel, las palabras viva la vida. Tenía la pierna amputada, estaba en cama y le quedaban días. Esa combinación resume el problema entero de interpretar a Frida Kahlo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque se puede leer como afirmación heroica o como despedida, y las dos lecturas son defendibles. La cultura popular ha elegido masivamente la primera. El cuaderno permite las dos, y probablemente ella pensaba las dos cosas en semanas distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En abril de 1953 ocurrió el otro episodio de su último año, y es una de las mejores escenas de la historia del arte del siglo XX. La galería de Lola Álvarez Bravo, en Ciudad de México, organizó su primera exposición individual en su propio país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los médicos le prohibieron ir. Estaba demasiado enferma para levantarse. La noche de la inauguración, la sala estaba llena de gente cuando se oyó una sirena en la calle: había llegado una ambulancia.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La cama en la galería",
+          frase: "Habían llevado su cama con dosel a la sala esa misma tarde. La sacaron de la ambulancia en camilla, la acostaron en su cama en medio de la exposición, y recibió a los invitados desde ahí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los testimonios cuentan que estuvo horas, hablando, brindando y cantando corridos con los que se acercaban a la cama. Fue la única exposición individual que vio en México. Murió quince meses después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La fecha oficial es el 13 de julio de 1954, siete días después de cumplir cuarenta y siete años. El certificado dice embolia pulmonar. No se practicó autopsia. La sospecha de una sobredosis, intencionada o no, ha circulado desde entonces sin confirmarse jamás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La última entrada del diario está unas páginas antes. Es un dibujo de una figura oscura con alas, un ángel negro, y debajo unas palabras escritas con letra grande e insegura.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Dicen: espero alegre la salida, y espero no volver jamás. Es lo último que escribió en el cuaderno. Está en la última página utilizada, y el resto del volumen quedó en blanco.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Once días antes de morir había salido a la calle en silla de ruedas, con fiebre, a una manifestación contra la intervención estadounidense en Guatemala. Hay fotografías. Es lo último que hizo en público y encaja mal con casi todos los usos posteriores de su imagen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diego Rivera escribió después que el día de la muerte de Frida fue el más trágico de su vida, y que se dio cuenta demasiado tarde de que la parte más maravillosa de su vida había sido el amor por ella. Murió tres años más tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su casa de Coyoacán, la Casa Azul, se convirtió en museo en 1958. Rivera dejó instrucciones de que un baño con parte de sus pertenencias permaneciera cerrado durante quince años después de su propia muerte. Se abrió en 2004, cincuenta años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dentro había trescientas prendas de ropa, corsés ortopédicos pintados a mano, prótesis, medicamentos, cartas y fotografías. Ese hallazgo, medio siglo tarde, alimentó otra oleada de exposiciones y de libros sobre ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diario se había publicado nueve años antes, en 1995, en edición facsímil con transcripción y un ensayo de Carlos Fuentes. Y su publicación plantea una pregunta que el propio libro no resuelve y que conviene hacerse antes de abrirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de esa pregunta conviene apuntar un dato de la Casa Azul que ayuda a entender el cuaderno. Frida vivió casi toda su vida en la casa donde nació, en Coyoacán, y murió en la misma habitación. El diario se escribió, en su mayor parte, en esa cama y en ese cuarto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La casa estaba llena de objetos que aparecen dibujados en sus páginas: exvotos colgados en las paredes, calaveras de azúcar, muñecas, esqueletos de cartón, retratos de Marx y de Lenin, monos y perros que criaba en el patio. El cuaderno es un inventario de esa habitación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "¿Quién autorizó esto?",
+        },
+      ],
+    },
+
+    {
+      titulo: "Pies para qué los quiero",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Frida Kahlo no dejó ninguna instrucción sobre este cuaderno. No lo escribió para publicar, no lo revisó, no lo ordenó y no lo mencionó en ningún testamento conocido. Es un objeto privado que salió a la luz cuarenta y un años después de su muerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la objeción de fondo y no tiene una respuesta cómoda. Publicarlo aportó material valiosísimo para entender su obra, y también convirtió en producto editorial las páginas donde una mujer con dolores atroces escribía cosas que no quería que leyera nadie.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La comparación",
+          frase: "Con Kafka al menos hubo una instrucción explícita —quemarlo todo— que Max Brod desobedeció. Aquí no hay ni siquiera eso: hay un cuaderno que apareció y una industria que lo esperaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo problema del libro es de formato. No es una lectura: es un facsímil. Hay páginas ilegibles, textos escritos encima de dibujos, tinta corrida y frases que se cortan. La transcripción ayuda y no arregla que el objeto no está pensado para leerse seguido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es interpretativo y es el que más daño hace. El diario se usa constantemente para psicoanalizar sus cuadros: se busca en el cuaderno la explicación de cada símbolo, como si la pintura fuera un jeroglífico que la libreta descifra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa lectura es exactamente la que Kahlo rechazó toda su vida. Insistió en que pintaba realidades y no símbolos, y en que un venado atravesado por flechas no era una alegoría del alma: era ella con nueve intervenciones quirúrgicas y con un dolor que no se iba.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay una diferencia de fondo entre las dos lecturas. Tratarla como enigma la convierte en un caso clínico interesante. Tratarla como pintora obliga a mirar la composición, el color, el formato de exvoto y la decisión técnica de pintar en pequeño y con detalle.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el cuarto problema es el más grande de todos y no es del libro sino de lo que ha ocurrido alrededor: la conversión de Frida Kahlo en mercancía global. Su cara está en bolsos, fundas de móvil, tazas, calcetines, envases de cosmética y muñecas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa operación ha requerido borrar casi todo lo que ella era. La comunista militante que fue a manifestarse en silla de ruedas once días antes de morir aparece hoy como icono estético de empoderamiento individual, vendido por empresas que ella habría atacado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El proceso se puede fechar. Su reputación empezó a crecer en los años setenta con el feminismo y con el movimiento chicano, y explotó tras la biografía que Hayden Herrera publicó en 1983. Antes de eso era una figura secundaria incluso en México.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El dato de mercado",
+          frase: "En vida vendió muy pocos cuadros. Décadas después, sus obras alcanzaron cifras de decenas de millones de dólares. Ninguna de esas cifras la vio ella, que se pasó la vida dependiendo del dinero de su marido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad, empezando por lo más repetido: no era surrealista. Lo negó explícitamente, despreció a los surrealistas franceses por escrito y sostuvo siempre que pintaba hechos y no sueños. La etiqueta se la pusieron ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: no fue famosa en vida. Fue conocida en círculos artísticos, expuso en Nueva York y en París y tuvo cierta prensa, sobre todo por excéntrica. Su única exposición individual en México fue quince meses antes de morir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: no nació en 1910. Nació el 6 de julio de 1907 y ella misma cambió la fecha para hacerla coincidir con el estallido de la Revolución mexicana. Es un dato menor y dice mucho: se construyó a sí misma como personaje desde muy joven.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y cuarto, el más difícil de aceptar: el cuaderno no explica sus cuadros. Es material paralelo, escrito en los últimos diez años de su vida, cuando la mayor parte de su obra ya estaba pintada. Usarlo como clave de lectura de los años treinta es un anacronismo.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí aporta, y es mucho, es una cosa que ninguna biografía puede dar: la textura de una mano. Ver cómo la letra crece y se descompone en los últimos meses, cómo las manchas se convierten en figuras, cómo una frase de amor se corta a la mitad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un documento sobre el trabajo del dolor y sobre lo que hace alguien con un cuaderno y unos lápices cuando lleva meses sin poder levantarse. Y en ese sentido concreto no tiene equivalente en la historia del arte moderno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También corrige una imagen: Frida Kahlo no era una mártir silenciosa. El cuaderno está lleno de humor, de palabrotas, de juegos de palabras, de dibujos absurdos y de listas sin sentido. Se reía mucho, y eso desaparece por completo en la iconografía posterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los testimonios coinciden: hablaba mal, contaba chistes verdes, bebía tequila y era divertidísima. La imagen solemne de mujer sufriente con flores en el pelo es una construcción de otros, y este cuaderno es una de las pocas cosas que la desmiente desde dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda una última cuestión que el libro plantea sin querer y que es la más interesante de todas: qué habría dicho ella de que lo estemos leyendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay forma de saberlo, y esa incertidumbre es parte del objeto que uno tiene en las manos.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La cama en la galería",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay un argumento a favor de la publicación y merece ser oído. Kahlo se pintó a sí misma cincuenta y cinco veces. Se expuso desnuda, sangrando, abierta en canal y con el cuerpo roto, y colgó esos cuadros en galerías de Nueva York y de París.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es difícil sostener que una mujer que pintó su propio aborto para que lo viera todo el mundo tuviera una idea convencional de la intimidad. Su obra entera consiste en enseñar lo que no se enseña, y el cuaderno es una versión más de esa operación.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El contraargumento",
+          frase: "Pintar algo para exponerlo es una decisión. Escribirlo en un cuaderno privado es exactamente lo contrario. La diferencia entre las dos cosas es precisamente el consentimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no resuelve esa tensión y probablemente no se puede resolver. Lo que sí se puede es leerlo sabiendo lo que es: un objeto obtenido sin permiso, valiosísimo, publicado por herederos e instituciones cuarenta y un años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La edición de 1995 incluye un ensayo introductorio de Carlos Fuentes, la transcripción completa y la traducción cuando hace falta, más un aparato de notas. Es una edición cuidada, y también es un libro caro y grande, más para mirar que para leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su lectura recomendable es en compañía de otra cosa. Solo, resulta fragmentario e impenetrable. Junto a una biografía o a un catálogo de su obra, se convierte en el complemento que faltaba: la voz sin editar de la persona que pintó aquellos cuadros.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y funciona sobre todo por contraste. Los cuadros son composiciones cerradas, pensadas, con simetrías y con una técnica minuciosa. El cuaderno es lo contrario: caótico, sin corregir, con la mano temblando. Ver las dos cosas juntas enseña dónde estaba el trabajo.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque eso es lo que la mitología borra. Frida Kahlo no pintaba a chorro desde el sufrimiento: pintaba despacio, con pinceles finos, corrigiendo, sobre superficies pequeñas, usando una técnica aprendida y una tradición concreta, la del retablo popular mexicano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El dolor le dio los temas. La técnica se la trabajó. Y esa distinción es la que se pierde cuando se convierte en un icono del sentimiento puro, porque entonces deja de ser una pintora y pasa a ser un caso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su obra completa, ciento cuarenta y tres cuadros, se puede recorrer en un día. Es un catálogo pequeño y notablemente coherente: una mujer mirándose en un espejo colocado sobre una cama durante casi treinta años, y anotando lo que veía.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La aportación real",
+          frase: "Incorporó al arte occidental el cuerpo enfermo visto desde dentro. Antes de ella, el dolor físico en pintura era el de los mártires y el de las batallas. El de un quirófano y una cama de hospital no estaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es su lugar histórico, más allá de la biografía y de la iconografía comercial. Y es un lugar que se puede defender sin recurrir a su vida: los cuadros lo sostienen solos, colgados en una pared y sin ninguna explicación al lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuaderno añade una capa a eso y también añade un riesgo, que es el de leer los cuadros como síntomas. La mejor manera de usarlo es al revés: mirar primero la pintura como pintura, y abrir el cuaderno después, sabiendo que es material en bruto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una entrada del diario que resume mejor que ninguna otra lo que hay dentro. Escribió que le habían amputado la pierna hacía seis meses, que le habían dado siglos de tortura, y que en algunos momentos casi perdió la razón.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y a continuación, en la misma entrada, escribió que seguía teniendo ganas de suicidarse y que solo la pintura la detenía. Esa frase está en el cuaderno, junto a otras que dicen que espera alegre la salida, y las dos son igual de verdad.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un diario no tiene tesis. Tiene días. Y la mayor virtud de esta edición es que no ordena nada: reproduce las páginas como estaban, en desorden, con las contradicciones intactas y sin ningún intento de construir una narrativa coherente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es lo contrario de lo que hace la industria que vende su cara. La camiseta necesita una frase; el cuaderno tiene ciento setenta páginas que se desmienten unas a otras. La segunda cosa es la persona; la primera es el producto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si hay algo que este libro consigue, es hacer imposible la versión simplificada. Quien lo abra esperando encontrar la fuente de las frases motivacionales se va a encontrar con una mujer con morfina escribiendo torcido a las tres de la mañana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con una lista de colores, y con un dibujo hecho encima de una mancha de tinta, y con una carta de amor a un hombre que le fue infiel con su hermana, y con una consigna política, y con un pie dibujado sobre una columna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo eso en el mismo cuaderno, sin fechas y sin orden, exactamente como pasan las cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y al final, en la última página escrita, un ángel negro y siete palabras sobre la salida.",
+        },
+      ],
+    },
+  ],
+};
