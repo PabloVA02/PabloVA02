@@ -260,7 +260,7 @@ export const CATALOGO: Ficha[] = [
   { id: "zonas-azules", titulo: "El secreto de las zonas azules", autor: "Dan Buettner", ano: 2008, categoria: "Salud", estado: "escrito" },
   { id: "ser-mortal", titulo: "Ser mortal", autor: "Atul Gawande", ano: 2014, categoria: "Salud", estado: "escrito" },
   { id: "anticancer", titulo: "Anticáncer", autor: "David Servan-Schreiber", ano: 2007, categoria: "Salud", estado: "pendiente" },
-  { id: "codigo-obesidad", titulo: "El código de la obesidad", autor: "Jason Fung", ano: 2016, categoria: "Salud", estado: "pendiente" },
+  { id: "codigo-obesidad", titulo: "El código de la obesidad", autor: "Jason Fung", ano: 2016, categoria: "Salud", estado: "escrito" },
   { id: "dieta-cojea", titulo: "Mi dieta cojea", autor: "Aitor Sánchez García", ano: 2016, categoria: "Salud", estado: "pendiente" },
   { id: "milagro-metabolico", titulo: "El milagro metabólico", autor: "Carlos Jaramillo", ano: 2019, categoria: "Salud", estado: "pendiente" },
   { id: "cerebro-de-pan", titulo: "Cerebro de pan", autor: "David Perlmutter", ano: 2013, categoria: "Salud", estado: "pendiente" },

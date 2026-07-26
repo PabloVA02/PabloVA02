@@ -4200,3 +4200,654 @@ export const SER_MORTAL: Resumen = {
     },
   ],
 };
+
+export const CODIGO_OBESIDAD: Resumen = {
+  id: "codigo-obesidad",
+  titulo: "El código de la obesidad",
+  autor: "Jason Fung",
+  ano: 2016,
+  gancho: "Un nefrólogo de Toronto llevaba años poniendo diálisis a diabéticos y un día se dio cuenta de que estaba tratando las complicaciones de una enfermedad que, según él, se podía revertir.",
+  porQue:
+    "Porque acierta en cosas que la nutrición oficial llevaba treinta años diciendo mal, y porque su mecanismo central se ha puesto a prueba en salas metabólicas después de 2016 y no ha salido bien parado.",
+  partes: [
+    {
+      titulo: "El nefrólogo que se hartó",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un hospital de Scarborough, en las afueras de Toronto. Un médico especialista en riñón pasa consulta a pacientes que llevan años en diálisis. La mayoría están ahí por lo mismo: diabetes tipo dos de larga evolución que les ha destrozado los riñones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su trabajo consiste en mantenerlos vivos conectados a una máquina tres veces por semana, cuatro horas cada vez. Es un trabajo técnicamente exigente y bien pagado, y él llevaba tiempo con la sensación incómoda de estar llegando demasiado tarde a todo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le chirriaba",
+          frase: "Que el tratamiento estándar de la diabetes tipo dos consistía en dar insulina a pacientes que ya tenían la insulina alta, y que con ese tratamiento los pacientes engordaban y la enfermedad seguía avanzando. Estaba controlando un número mientras la enfermedad progresaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El médico se llama Jason Fung, es canadiense, nefrólogo de formación, y a partir de esa observación se dedicó a leer literatura sobre obesidad y metabolismo hasta acabar montando una clínica dedicada a otra cosa distinta de la diálisis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El código de la obesidad se publicó en 2016 y fue un superventas inmediato en todo el mundo. Después escribió sobre ayuno, sobre diabetes y sobre cáncer, y se convirtió en una de las voces más conocidas y más discutidas de la divulgación sobre alimentación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su punto de partida es una constatación que nadie discute: en los últimos cuarenta años, la obesidad ha aumentado enormemente en casi todos los países del mundo, y ha aumentado en poblaciones muy distintas entre sí, con culturas y comidas que no se parecen en nada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su argumento contra la explicación habitual es que un fenómeno tan generalizado y tan rápido no puede explicarse por un fallo simultáneo de fuerza de voluntad de miles de millones de personas. Algo cambió en el entorno, y hay que averiguar qué.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre eso hay bastante acuerdo. El desacuerdo empieza inmediatamente después, cuando hay que decir qué cambió exactamente y por qué mecanismo, y ahí Fung propone una respuesta muy concreta que es la tesis del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta es que la obesidad no es un problema de calorías sino de hormonas, y que la hormona responsable es la insulina. Que engordar no es un problema de contabilidad energética sino de señales que le dicen al cuerpo si guarda o si gasta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de llegar ahí dedica varios capítulos a demoler el modelo que enseñan en todas partes, que es el de comer menos y moverse más. Y esa demolición es la mejor parte del libro, aunque no sea original suya.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema del modelo de calorías",
+          frase: "Que las calorías que entran y las que salen no son variables independientes. Si se reducen mucho las que entran, el cuerpo baja las que salen. Es un termostato, no una cuenta bancaria, y por eso el consejo de comer menos falla de forma tan sistemática.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La ecuación en sí no es discutible: si se gasta más energía de la que se ingiere, se pierde peso. Eso es termodinámica y ningún libro la va a derogar. Lo que Fung ataca no es la ecuación, es su utilidad como consejo práctico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su analogía es que decirle a alguien que engorda porque come más de lo que gasta es como decirle a alguien que se emborracha porque bebe demasiado. Es verdad, no informa de nada y no dice qué hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación que usa para explicar por qué es un mal consejo es la de una habitación con demasiado calor. Decir que hace calor porque entra más calor del que sale es cierto y no sirve; lo que hay que preguntar es quién ha subido el termostato y por qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una observación clínica que cualquier médico de familia reconoce: el consejo de comer menos y moverse más se lleva dando cuarenta años, con carteles, campañas y consultas, en el mismo periodo en que la obesidad se ha multiplicado en todos los países que lo aplicaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un consejo que se da masivamente durante cuatro décadas mientras el problema empeora es, como mínimo, un consejo incompleto. Fung sostiene que no es que la gente no lo haya seguido: es que seguirlo produce el resultado contrario a medio plazo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación de por qué se mantiene pese a todo es que sitúa la responsabilidad entera en el paciente. Si la fórmula es correcta y el paciente no adelgaza, la conclusión automática es que no la está cumpliendo, y eso deja al médico sin nada más que decir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade el dato que hunde el consejo estándar: en los estudios de seguimiento a largo plazo, la inmensa mayoría de las personas que pierden peso con una dieta hipocalórica lo recuperan en un plazo de tres a cinco años, y una parte recupera más del que perdió.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese dato es sólido y no lo discute nadie en el campo. Lo que se discute es qué se deduce de él: si el problema es que las dietas no se sostienen, o si es que el cuerpo defiende activamente su peso con mecanismos que ninguna fuerza de voluntad vence.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fung sostiene lo segundo, y para demostrarlo recurre a dos casos que son los mejores argumentos de todo el libro y que conviene conocer aunque uno no compre nada más de lo que dice.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero ocurrió en un sótano de un estadio universitario de Minnesota durante la Segunda Guerra Mundial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el segundo, en un programa de televisión americano en el que gente con obesidad severa competía por perder peso delante de las cámaras.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los treinta y seis hombres de Minnesota",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Noviembre de 1944. En la Universidad de Minnesota, un fisiólogo llamado Ancel Keys pone en marcha un experimento para saber cómo recuperar a las poblaciones europeas que están pasando hambre por la guerra. Necesita voluntarios dispuestos a morirse de hambre bajo control médico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se presentan objetores de conciencia que se niegan a combatir y quieren servir de otra manera. Selecciona a treinta y seis, todos jóvenes y sanos. Los primeros tres meses comen con normalidad y se les mide todo. Después empieza la restricción.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El régimen",
+          frase: "Unas mil quinientas kilocalorías diarias durante veinticuatro semanas, con patatas, pan, nabos y macarrones, más veintidós kilómetros de marcha semanal. Es aproximadamente la mitad de lo que necesitaban, y es más comida de la que permiten muchas dietas comerciales de hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Perdieron alrededor de una cuarta parte de su peso, que era lo previsto. Lo que no estaba previsto, y es lo que hace famoso al experimento, es todo lo demás que les ocurrió y que Keys documentó con un detalle enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su metabolismo en reposo cayó en torno a un cuarenta por ciento. La frecuencia cardíaca bajó de unos cincuenta y cinco latidos por minuto a menos de cuarenta. Tenían frío constante, se movían despacio y les costaba subir escaleras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cambio psicológico fue todavía más llamativo. Se volvieron obsesivos con la comida: hablaban de comida, soñaban con comida, coleccionaban recetas, leían libros de cocina y algunos se apuntaron a estudiar cocina profesional. Dejaron de interesarse por el sexo, la política y sus amigos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Varios desarrollaron conductas que hoy se describirían como un trastorno alimentario: comer a escondidas, masticar chicle durante horas, hacer durar una comida cuarenta minutos. Uno se cortó tres dedos con un hacha y nunca supo si lo hizo a propósito.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión que saca Fung es directa: eso no es una crisis de fuerza de voluntad. Es la respuesta fisiológica y psicológica de un cuerpo sano a una restricción sostenida, y es exactamente la misma respuesta que produce cualquier dieta hipocalórica prolongada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo caso es de 2016 y es el que más impresiona, porque no es un experimento de guerra sino gente normal siguiendo el consejo estándar con todos los recursos posibles a su disposición.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un equipo de investigadores del instituto nacional de salud de Estados Unidos siguió durante seis años a catorce concursantes de un programa de televisión en el que personas con obesidad severa competían por perder peso con dieta y ejercicio intensivos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que encontraron",
+          frase: "Trece de los catorce habían recuperado casi todo el peso perdido. Y lo más llamativo: su metabolismo en reposo seguía deprimido en unas quinientas kilocalorías diarias seis años después, y la depresión no se había corregido con el tiempo, sino que era mayor que al terminar el programa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: seis años después, esas personas quemaban en reposo mucho menos de lo que correspondería a alguien de su mismo peso y composición que nunca hubiera adelgazado. Su cuerpo seguía comportándose como si estuviera defendiendo un peso anterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese estudio es real, está publicado en una revista científica seria y sus resultados no se discuten. Es la mejor evidencia disponible de que el cuerpo defiende un peso determinado con mecanismos que operan durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale el concepto que Fung usa en todo el libro: el peso de referencia, una especie de termostato corporal que el organismo intenta mantener y que explica por qué las dietas fracasan a largo plazo con tanta regularidad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La analogía que emplea es buena: si en una habitación hace demasiado calor, se puede abrir la ventana, y el radiador trabajará más para compensar. Lo que hay que hacer es bajar el termostato, y el termostato del peso no se toca comiendo menos.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hasta aquí, casi todo lo que dice el libro es defendible y está bien apoyado. El fracaso a largo plazo de la restricción calórica, la adaptación metabólica y el peso defendido son fenómenos reconocidos por prácticamente todo el mundo en el campo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una tercera parte del libro, sobre el ejercicio, también aguanta. Fung sostiene que el ejercicio es excelente para casi todo y bastante malo como herramienta para adelgazar, y esa afirmación tiene mucho respaldo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los estudios de intervención con ejercicio sin cambios en la dieta producen pérdidas de peso pequeñas, del orden de uno o dos kilos, porque el gasto se compensa parcialmente comiendo más y moviéndose menos el resto del día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no es un argumento contra el ejercicio, que mejora la tensión, el azúcar, el ánimo, la masa muscular y la mortalidad. Es un argumento contra usarlo como estrategia principal de pérdida de peso, y ahí el libro tiene razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mecanismo de esa compensación está bastante estudiado y tiene dos vías. Una es el hambre: el ejercicio intenso abre el apetito y la ingesta sube de forma bastante ajustada a lo gastado, casi siempre sin que la persona sea consciente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra es más sutil y se ha medido en varios trabajos: después de una sesión dura de gimnasio, la gente se mueve menos el resto del día. Menos escaleras, menos paseos, más rato sentada. El gasto total sube mucho menos de lo que sugeriría la pantalla de la máquina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay estudios en poblaciones con estilos de vida muy distintos que apuntan en la misma dirección: cazadores recolectores que caminan muchos kilómetros al día tienen un gasto energético total no muy distinto del de oficinistas occidentales de su mismo tamaño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema empieza en el capítulo siguiente, cuando hay que explicar qué mueve ese termostato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque Fung tiene una respuesta, y es una sola.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La hormona que guarda",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La insulina es una hormona que fabrica el páncreas y cuya función principal es permitir que la glucosa de la sangre entre en las células. Sube después de comer, sobre todo con hidratos de carbono, y baja cuando llevamos horas sin comer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y tiene una segunda función que es la que interesa al libro: mientras la insulina está alta, el cuerpo está en modo de almacenamiento. Guarda energía en forma de glucógeno y de grasa, y bloquea la salida de grasa del tejido adiposo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tesis de Fung",
+          frase: "Que la insulina alta de forma crónica es la causa de la obesidad. Mientras esté alta, el cuerpo no puede usar sus reservas de grasa, así que si hay déficit de energía la sacará bajando el gasto y aumentando el hambre, en lugar de sacarla de la grasa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El apoyo más claro que tiene esa idea es clínico y no se discute: los pacientes con diabetes tipo uno a los que se les pone insulina engordan, y los que se ponen dosis insuficientes adelgazan. Y a los diabéticos tipo dos tratados con insulina les pasa lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También se sabe que hay tumores raros del páncreas que producen insulina en exceso y que causan aumento de peso, y que ciertos fármacos que suben la insulina engordan. La insulina hace engordar: eso es un hecho establecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta que separa a Fung del resto del campo es otra: si la insulina crónicamente elevada de una persona con obesidad es la causa de esa obesidad o una consecuencia de ella. Y esa pregunta es mucho más difícil de contestar de lo que parece.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Fung sostiene que es la causa, y monta un círculo vicioso: comer hidratos refinados sube la insulina, la insulina alta mantenida genera resistencia a la insulina, y la resistencia obliga al páncreas a producir todavía más para conseguir el mismo efecto.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese esquema, la resistencia a la insulina no la causa la grasa corporal, sino la exposición repetida a insulina alta. Y por eso su recomendación no es solo qué comer, sino cada cuánto, porque cada comida vuelve a levantar la hormona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El villano concreto que señala es el azúcar, y dentro del azúcar, la fructosa. Aquí su argumento es de los mejores del libro y tiene bastante apoyo bioquímico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La glucosa la puede usar cualquier célula del cuerpo. La fructosa, en cambio, se metaboliza casi exclusivamente en el hígado, y cuando llega en cantidad, una parte se convierte allí en grasa mediante un proceso que se llama lipogénesis de novo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso importa",
+          frase: "Porque la grasa acumulada en el hígado se asocia estrechamente con la resistencia a la insulina, y porque la fructosa no dispara las mismas señales de saciedad que otros alimentos. Se puede beber medio litro de refresco sin que el cuerpo registre que ha ingerido energía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El azúcar de mesa es mitad glucosa y mitad fructosa, y el jarabe de maíz de alta fructosa, que en Estados Unidos endulza casi todo lo industrial, tiene una proporción parecida o mayor. Su consumo se disparó exactamente en las décadas en que se disparó la obesidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte de la fruta entera la resuelve bien: la fructosa de una manzana viene con fibra, agua y volumen, llega despacio al hígado y es prácticamente imposible comer la cantidad de fruta equivalente a un refresco. El problema es el azúcar líquido y el añadido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Otro capítulo bien traído es el de la fibra y el vinagre. Sostiene que la fibra actúa como antídoto de los propios hidratos, ralentizando su absorción, y que la acidez reduce la respuesta glucémica de una comida. Las dos cosas tienen respaldo experimental razonable.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dedica un capítulo entero a la industria alimentaria y a las guías dietéticas oficiales, sosteniendo que la recomendación de reducir grasa que se generalizó desde finales de los setenta empujó a la población hacia los hidratos refinados y contribuyó al problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte es la más floja del libro en términos de método: es una correlación temporal entre unas guías y una epidemia, presentada como si fuera una demostración causal, y con un tono conspirativo que le resta credibilidad a todo lo anterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema de esa clase de argumento es que en esas mismas décadas cambiaron muchísimas otras cosas: el precio relativo de la comida procesada, el tamaño de las raciones, el trabajo físico, el transporte, las horas de sueño y la aparición de la comida a domicilio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cualquiera de ellas coincide igual de bien en el tiempo con la curva de obesidad, y elegir una y presentarla como la causa es exactamente el error que el libro le reprocha a la nutrición oficial en otros capítulos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un dato incómodo para su relato: el consumo de azúcar añadido en Estados Unidos lleva bajando desde principios de los dos mil, y la obesidad ha seguido subiendo en ese mismo periodo. No lo refuta, y obliga a matizar la historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo honesto es decir que el azúcar es casi con seguridad una parte del problema, y que presentarlo como el problema entero deja fuera demasiadas cosas para explicar un fenómeno que ocurre a la vez en países con dietas completamente distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el mecanismo establecido, la recomendación práctica sale sola: si el problema es la insulina alta y constante, hay que bajarla. Y para eso no basta con cambiar qué se come.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que cambiar cuándo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí es donde este libro se separó de todos los demás y donde consiguió su público.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Cuándo comes",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El consejo de comer cinco o seis veces al día en porciones pequeñas se convirtió en dogma nutricional durante décadas. Se justificaba diciendo que mantiene el metabolismo activo y evita los picos de hambre que llevan a atracones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fung lo desmonta y aquí tiene razón sin matices. El efecto térmico de los alimentos —la energía que cuesta digerir— es proporcional a la cantidad total ingerida, no al número de veces que se come. Repartir la misma comida en seis tomas no acelera nada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "De dónde venía ese consejo",
+          frase: "En buena parte de estudios financiados por fabricantes de productos de picoteo, barritas y cereales, que tenían un interés evidente en que la gente comiera más veces al día. Es de los pocos casos en que el argumento del conflicto de intereses está bien documentado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el desayuno pasa algo parecido. La idea de que es la comida más importante del día se apoya en estudios observacionales que muestran que quien desayuna pesa menos, y esos estudios no distinguen causa de correlación ni controlan el estilo de vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los ensayos aleatorizados que se han hecho después no encuentran que obligar a desayunar ayude a perder peso, y en algunos casos los que desayunan acaban ingiriendo más calorías totales. Buena parte de la investigación clásica sobre desayuno la financió la industria de los cereales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí llega a su propuesta central, que es el ayuno intermitente: concentrar la comida en una ventana de horas y dejar el resto del día sin ingerir nada con calorías, de modo que la insulina baje durante un periodo prolongado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los protocolos que describe van de lo suave a lo agresivo: dieciséis horas sin comer y ocho para comer, que en la práctica es saltarse el desayuno; ayunos de veinticuatro horas un par de veces por semana; y ayunos de treinta y seis horas o más para casos con supervisión.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus argumentos a favor son razonables. Que el ayuno es una situación fisiológicamente normal, no una anomalía; que el cuerpo tiene mecanismos específicos para funcionar sin comida; y que durante siglos la mayoría de la gente comió dos veces al día sin problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Desmonta también el miedo al modo hambruna a corto plazo: en ayunos cortos el metabolismo no se hunde, en parte por el aumento de noradrenalina, y algunos estudios muestran gasto energético mantenido o incluso ligeramente aumentado en las primeras setenta y dos horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y señala una ventaja práctica que es probablemente la razón real de que funcione para mucha gente: es una regla sencilla. No hay que contar, ni pesar, ni calcular porciones. Solo hay dos estados posibles, comiendo o sin comer, y eso es fácil de sostener.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Donde se pasa de frenada",
+          frase: "El libro presenta el ayuno como superior a la restricción de calorías, y los ensayos que comparan las dos cosas cara a cara encuentran resultados equivalentes. El ayuno funciona porque hace que se coma menos, no por un efecto metabólico añadido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estudio más citado sobre esto es un ensayo aleatorizado publicado en 2020 en el que se comparó una ventana de ocho horas con el patrón habitual de tres comidas. La pérdida de peso fue pequeña y no significativamente distinta entre grupos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y encontró algo que Fung no menciona: en el grupo de ayuno, una parte considerable de lo perdido fue masa magra, no grasa. No es un resultado definitivo y sí un aviso de que el ayuno sin atención a la proteína y a la fuerza tiene un coste.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay además contraindicaciones que el libro menciona demasiado de pasada para lo entusiasta que es con los ayunos largos: personas con diabetes tipo uno, con medicación que baja el azúcar, embarazadas, personas con bajo peso y cualquiera con antecedentes de trastorno alimentario.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese último grupo el riesgo es real y no es teórico: prescribirle restricción horaria estricta a alguien con historia de atracones o de anorexia puede reactivar el problema, y eso merecía bastante más de un párrafo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un segundo riesgo práctico que tampoco se trata bien: mucha gente con diabetes tipo dos que empieza a ayunar sin ajustar su medicación puede tener hipoglucemias serias, porque la dosis estaba calculada para un patrón de comidas que ya no existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fung trabaja con pacientes supervisados y ajusta la medicación él mismo, así que en su consulta ese riesgo está controlado. El lector que compra el libro en una librería no tiene a nadie ajustándole nada, y esa diferencia debería estar en la primera página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La recomendación sensata, que el libro podría haber hecho y no hace con suficiente énfasis, es que cualquiera con medicación para el azúcar o para la tensión hable con su médico antes de cambiar el patrón de comidas, no después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con todo, la parte práctica del libro es la más aprovechable, y se puede resumir en cinco cosas que casi nadie discute a estas alturas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quitar el azúcar añadido y sobre todo el líquido. Reducir los cereales refinados. Comer proteína y grasa de verdad. Añadir fibra y verdura a cada comida. Y dejar de picar entre horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas cinco recomendaciones no dependen de que su mecanismo sea correcto, y ese es el punto que hay que mirar al final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque desde 2016 se han hecho los experimentos que ponen a prueba ese mecanismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En habitaciones cerradas donde se mide cada gramo que entra y cada caloría que sale.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La sala metabólica de Kevin Hall",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Una sala metabólica es una habitación sellada en la que una persona vive durante días o semanas mientras se mide con precisión el oxígeno que consume y el dióxido de carbono que exhala, lo que permite calcular exactamente cuánta energía está gastando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Toda la comida que entra está pesada y analizada, y no hay manera de comer nada que no esté registrado. Es el único diseño experimental que permite comprobar afirmaciones sobre metabolismo sin depender de que la gente recuerde bien lo que ha comido.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quién las usa",
+          frase: "Kevin Hall, investigador del instituto nacional de salud de Estados Unidos, es el mismo que dirigió el estudio de los concursantes del programa de televisión que Fung usa como prueba principal. Y después hizo los experimentos que contradicen su mecanismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero se publicó en 2015. Se comparó, en sala metabólica y con las mismas calorías totales, una dieta con restricción de hidratos frente a una con restricción de grasa, midiendo cuánta grasa corporal perdía cada persona en cada condición.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Según el modelo de la insulina, la dieta baja en hidratos debería haber ganado con claridad, porque baja la insulina y desbloquea la salida de grasa. El resultado fue el contrario: la restricción de grasa produjo algo más de pérdida de grasa corporal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las diferencias eran pequeñas y el estudio era corto y con pocos participantes, así que no zanja nada por sí solo. Lo que sí hace es apuntar en la dirección opuesta a la predicción central del libro, que es lo relevante.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El segundo experimento es de 2021 y es más interesante, porque en vez de fijar las calorías dejó comer libremente. Los participantes vivían internados y podían comer todo lo que quisieran de un menú bajo en grasa y de base vegetal, o de uno cetogénico.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El modelo de Fung predice que con la dieta cetogénica, al estar la insulina baja, se comería espontáneamente menos. Lo que ocurrió fue lo contrario: comiendo libremente, la gente ingirió del orden de setecientas kilocalorías diarias menos con la dieta baja en grasa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un tercer estudio que pone a prueba la otra afirmación del libro, la de que hay personas cuyo perfil de insulina las hace responder mejor a una dieta baja en hidratos. Es un ensayo grande de la Universidad de Stanford publicado en 2018.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué encontró",
+          frase: "Más de seiscientos adultos repartidos al azar entre una dieta baja en grasa sana y una baja en hidratos sana, durante doce meses. La diferencia media de pérdida de peso fue de menos de un kilo y no significativa. Y ni la secreción de insulina ni el genotipo predijeron quién iba mejor con cuál.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese último detalle es el que más directamente contradice al libro: la idea de que se puede saber por la insulina de alguien qué dieta le conviene se puso a prueba con un diseño hecho a medida, y no funcionó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí encontró ese estudio es que los dos grupos perdieron peso de forma parecida, y que lo que ambas dietas tenían en común era eliminar azúcar añadido y harinas refinadas y comer más verdura y comida sin procesar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese es probablemente el resumen honesto de todo el asunto: las recomendaciones prácticas de Fung funcionan razonablemente bien, y su explicación de por qué funcionan parece no ser la correcta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay una tercera hipótesis que ha ido ganando terreno y que es compatible con casi todos los datos: que el factor decisivo es el grado de procesamiento de la comida. Un ensayo del mismo laboratorio encontró que con comida ultraprocesada la gente come unas quinientas kilocalorías diarias más sin notarlo.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso explicaría por qué funcionan dietas con composiciones opuestas: todas eliminan los ultraprocesados. Y explicaría la epidemia mejor que las guías dietéticas, porque el consumo de ultraprocesados creció en todos los países al mismo tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro en conjunto. Lo primero, ya dicho: presenta como establecido un mecanismo que se ha puesto a prueba y ha salido mal parado en varios diseños distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo: la selección de estudios. Cita con detalle los que apoyan su tesis y despacha o ignora los que no. Es una práctica habitual en la divulgación de este tipo y no por habitual deja de ser un problema serio en un libro sobre salud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero: el tono. Se burla de la nutrición académica, sugiere connivencias con la industria y presenta a la profesión como un bloque equivocado. Eso vende y hace difícil separar sus buenos argumentos de su retórica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo cuarto: la ligereza con las contraindicaciones del ayuno prolongado, en un libro que sabe perfectamente que lo va a leer gente con diabetes y con medicación.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que la gente cree y no es verdad",
+          frase: "Que este libro demuestra que las calorías no importan. No lo demuestra ni puede: el balance energético es termodinámica. Lo que sostiene, y en eso tiene razón, es que las calorías que entran y las que salen no son independientes, y por eso contarlas funciona tan mal como estrategia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que el ayuno intermitente es superior a comer menos. Los ensayos que los comparan encuentran resultados equivalentes. Es una herramienta buena porque es simple de seguir, no porque tenga un efecto metabólico extra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que la resistencia a la insulina la causan los hidratos de la dieta. La causalidad está discutida, y hay bastante evidencia de que la grasa acumulada en el hígado y el músculo también la produce, con lo que el círculo puede empezar por otro sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuarto, en la otra dirección: que comer cinco veces al día acelera el metabolismo y que hay que desayunar sí o sí. Eso es falso, Fung lo desmonta correctamente y sigue repitiéndose en todas partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance justo es este: un libro con un mecanismo probablemente equivocado, con una selección de pruebas sesgada y con un tono innecesariamente beligerante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que acertó antes que casi nadie en tres cosas que la nutrición oficial llevaba treinta años diciendo mal: que picar entre horas no ayuda, que el desayuno obligatorio no tiene base, y que el fracaso de las dietas es fisiológico y no un defecto moral del que las hace.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien quiera quedarse con lo aprovechable no necesita creerse la teoría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quitar el azúcar líquido, reducir las harinas refinadas, comer comida que no venga en un envase con quince ingredientes, y dejar de comer entre horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso lo firma tanto Jason Fung como el investigador que ha dedicado diez años a demostrar que su mecanismo no es el correcto.",
+        },
+      ],
+    },
+  ],
+};
