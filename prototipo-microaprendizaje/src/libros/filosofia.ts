@@ -6239,3 +6239,651 @@ export const DISCURSO_METODO: Resumen = {
     },
   ],
 };
+
+export const ETICA_NICOMACO: Resumen = {
+  id: "etica-nicomaco",
+  titulo: "Ética a Nicómaco",
+  autor: "Aristóteles",
+  ano: -340,
+  gancho:
+    "El primer manual de cómo vivir. No pregunta qué debes hacer, sino en quién te estás convirtiendo cada vez que lo haces.",
+  porQue:
+    "Es el origen de casi todo lo que hoy se dice sobre hábitos, carácter y amistad, y lo dice mejor que sus herederos. Leerlo entero enseña además a distinguir lo que sobrevive de un clásico de lo que caducó con su autor.",
+  partes: [
+    {
+      titulo: "Una escuela a las afueras de Atenas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En el año 335 antes de Cristo, un hombre de cuarenta y nueve años vuelve a Atenas después de doce fuera y alquila unos edificios en una arboleda a las afueras de la muralla. No puede comprarlos: es extranjero, nacido en Estagira, y la ley no le deja tener propiedades.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La arboleda estaba consagrada a Apolo Liceo y de ahí le viene el nombre a la escuela, el Liceo. Aristóteles enseñaba paseando por un camino cubierto, el perípatos, y por eso a sus discípulos se les acabó llamando peripatéticos, es decir, los que andan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Venía de dos aprendizajes largos. Había pasado veinte años en la Academia de Platón, hasta la muerte de su maestro, y varios más en Macedonia como preceptor de un adolescente llamado Alejandro. La leyenda ha inflado mucho esa segunda parte: se sabe poquísimo de lo que le enseñó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que llamamos Ética a Nicómaco no es un libro que él escribiera para ser leído. Son apuntes de clase, suyos o de algún alumno, ordenados y editados mucho después. Eso hay que tenerlo delante todo el rato, porque explica casi todos sus defectos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Explica las repeticiones, las frases que se quedan a medias, los cambios bruscos de asunto y el hecho asombroso de que tres de sus diez libros aparezcan también, palabra por palabra, dentro de otra ética suya. Nadie sabe con seguridad a cuál de las dos pertenecían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título viene de Nicómaco, que era a la vez el nombre de su padre, médico de la corte macedonia, y el de su hijo. Lo más probable es que fuera el hijo quien reunió los apuntes, pero es una conjetura antigua y no una certeza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera frase del libro suena a manual y esconde una trampa: toda técnica y toda investigación parecen tender a algún bien. De ahí sale la pregunta que sostiene los diez libros: si todo lo queremos para otra cosa, ¿hay algo que queramos por sí mismo?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El razonamiento es sencillo y sigue funcionando. Quieres dinero para comprar cosas, las cosas para estar cómodo, estar cómodo para poder hacer otras. Si esa cadena no termina en ningún sitio, entonces todos los deseos están vacíos y no hay ninguna razón para preferir una vida a otra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La palabra que casi siempre se traduce mal",
+          frase: "Eudaimonía no es felicidad. No es un estado de ánimo ni una sensación agradable: es una actividad, el hecho de vivir bien y obrar bien a lo largo de una vida entera. Se puede ser eudaímon estando triste una tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y al revés: no se puede ser eudaímon una tarde. La eudaimonía se predica de una vida completa, y por eso Aristóteles se toma en serio el viejo dicho de Solón de que a nadie se le puede llamar dichoso antes de que haya muerto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta a Solón es rara y vale la pena por lo poco que se escaquea: sostiene que lo que les pase a tus hijos después de tu muerte afecta algo a tu eudaimonía, aunque menos que si te pasara a ti. Prefiere la conclusión incómoda a la salida fácil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para averiguar en qué consiste vivir bien usa un argumento discutido durante siglos, el del ergon o función propia. Un flautista es bueno si toca bien; un ojo, si ve. La pregunta es entonces cuál es la actividad propia del ser humano, la que no comparte con nada más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nutrirse no sirve, porque también lo hacen las plantas; sentir tampoco, porque lo hacen los animales. Queda la actividad de la parte que razona. De ahí concluye que el bien humano es la actividad del alma conforme a la areté, palabra que tampoco significa lo que parece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Areté no es virtud en el sentido de beatería. Es excelencia: lo que hace que una cosa cumpla bien aquello para lo que es. Un cuchillo tiene areté si corta, un caballo si corre. La virtud moral es simplemente la areté de un ser humano en cuanto tal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Antes de empezar avisa de algo que casi ningún filósofo posterior tuvo la decencia de repetir: que no se le puede pedir a la ética la precisión de las matemáticas, porque trata de cosas que podrían ser de otra manera.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es propio del hombre instruido, escribe, exigir en cada materia solo el rigor que esa materia admite. Aceptar de un matemático un razonamiento aproximado es tan absurdo como exigirle demostraciones a un político. Sigue siendo la mejor vacuna contra los libros de autoayuda con gráficos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añade otro aviso: que los jóvenes no deberían asistir a estas clases. No porque no sean listos, dice, sino porque les falta experiencia de la vida, y porque el fin de la ética no es saber sino hacer. Un curso de ética que no cambie la conducta ha fracasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sostiene algo que lo separa de casi toda la filosofía consoladora que vino después: que los bienes exteriores importan. Hace falta algo de dinero, salud, amigos, un aspecto que no espante y una ciudad que no esté en guerra. La mala suerte puede arruinar una vida buena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí discute abiertamente con los estoicos que vendrían después. Séneca en Sobre la brevedad de la vida y Marco Aurelio en las Meditaciones sostienen que el sabio es feliz incluso en el potro de tortura. Aristóteles contesta que quien dice eso está diciendo un disparate.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la posición menos consoladora y probablemente la más honrada del libro: una vida buena depende en parte de cosas que no dependen de ti. La virtud ayuda a soportar la desgracia con dignidad, pero no convierte la desgracia en indiferente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su método también merece una nota. Empieza siempre por los endoxa, es decir, por lo que la gente cree de verdad, y en especial por lo que creen los que saben. Recoge las opiniones corrientes, señala dónde se contradicen y trata de salvar el mayor número posible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso se le puede leer veinticuatro siglos después sin manual: arranca de lo que cualquiera piensa sobre el valor, el dinero, la ira o los amigos. Y por eso también se atreve a dedicar un capítulo entero a refutar a Platón, su maestro, sobre la idea del Bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo primero que tiene que explicar es qué demonios es una virtud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y empieza diciendo lo que no es.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El término medio no es la mitad",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La idea más famosa de este libro es la del término medio, y es también la más maltratada. Se ha convertido en una especie de consejo de abuela —ni tanto ni tan calvo, todo con moderación— que no se parece casi nada a lo que Aristóteles escribió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su punto de partida es una observación sobre cómo fallamos. El valor no tiene un solo contrario: tiene dos. Se puede fallar por defecto, y eso es la cobardía, o por exceso, y eso es la temeridad. El valiente está entre los dos, no en el extremo bueno de una línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con ese esquema recorre un catálogo entero. La generosidad queda entre la tacañería y el derroche; la mansedumbre entre el hombre iracundo y el que es incapaz de enfadarse por nada; la sinceridad entre el fanfarrón y el que se rebaja falsamente para que le insistan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esa lista hay una entrada que sorprende: la gracia. Para él es una virtud estar entre el payaso que no para de hacer chistes y el rústico que no entiende ninguno. La ética griega incluye saber comportarse en una cena, y eso ya dice mucho de su alcance.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Medio relativo a nosotros",
+          frase: "El medio no es aritmético. Si diez libras de comida son mucho y dos son poco, un entrenador no le manda seis a todo el mundo: al luchador Milón le siguen pareciendo pocas y al principiante muchas. El punto justo depende de quién eres y de dónde estás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso significa que no hay fórmula. No existe un cálculo que devuelva la cantidad correcta de enfado ante una situación concreta, y él lo dice sin disimulo. A mucha gente le parece una decepción; en realidad es la tesis, y es la parte del libro que mejor ha envejecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene desmontar la lectura popular. La doctrina no dice que todo admita un punto medio: dice explícitamente que hay actos que no lo tienen. En el asesinato, el robo o el adulterio no hay una cantidad correcta, y errar por defecto tampoco es una virtud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la virtud no es mediocridad. Aristóteles escribe que, en cuanto a la sustancia, la virtud es un medio, pero en cuanto a lo mejor y lo bien hecho es un extremo. El medio está entre dos vicios, no entre lo bueno y lo malo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que resume toda la doctrina está en el capítulo sobre la ira, y es de las pocas que se citan tal cual: cualquiera puede enfadarse, eso es fácil. Lo difícil viene después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Enfadarse con la persona adecuada, en el grado exacto, en el momento oportuno, con el propósito justo y del modo correcto: eso no está al alcance de cualquiera ni es fácil. Son cinco variables que tienen que salir bien a la vez, y por eso la virtud es rara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sabiendo que dar en ese punto es difícil, da un consejo práctico que casi ningún filósofo posterior se molestó en dar: como acertar es casi imposible, apunta deliberadamente descentrado. La ética admite tácticas, no solo principios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus dos reglas son estas. Primero, aléjate del vicio hacia el que ya te inclinas por naturaleza, porque hacia ese te vas a desviar solo. Y segundo, desconfía del placer, porque es el que peor deja juzgar y hacia el que se resbala sin darse cuenta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La imagen que usa es la de enderezar una madera alabeada: para dejarla recta hay que forzarla hacia el lado contrario. Uno no llega al centro apuntando al centro, sino compensando la torcedura que ya tiene.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "¿Dónde falla la doctrina? Lo primero que se le reprocha, desde la Antigüedad, es que no te dice qué hacer. Describe la forma de la virtud sin darte un procedimiento para decidir, y quien busque aquí un método para resolver dilemas se va a ir con las manos vacías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A él la objeción no le habría preocupado, porque insiste en que no hay regla y en que el criterio es lo que haría el hombre prudente en esa situación. Pero eso invita a la segunda objeción, que es más seria: parece un círculo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La acción correcta es la que haría el hombre virtuoso, y el hombre virtuoso es el que hace las acciones correctas. Los defensores modernos contestan que el círculo no es vicioso, porque en la práctica sí sabemos reconocer a la gente con criterio antes de saber definirla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fallo más gordo, sin embargo, no es formal sino de contenido, y está en una de las entradas del catálogo. Entre sus virtudes figura la megalopsychía, la grandeza de alma, y el retrato que hace de ese hombre es hoy prácticamente insoportable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Camina despacio, habla con voz grave, no se apresura porque pocas cosas le importan, se cree digno de grandes honores y tiene razón. No soporta recibir favores, porque quien recibe queda por debajo; él es siempre el que da, y prefiere que no se lo recuerden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no es un desliz de gusto personal. Es la prueba de que esta ética está escrita desde y para una clase concreta: varones adultos, libres, con esclavos que trabajan por ellos y con el tiempo que hace falta para deliberar sobre el bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el mismo autor escribió en la Política que hay hombres esclavos por naturaleza, y que en las mujeres la facultad de deliberar está presente pero sin autoridad. No son frases perdidas ni ironías: son la base de su teoría de la casa y de la ciudad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Un libro puede ser enormemente útil y estar equivocado justo en aquello que su autor nunca se planteó. Leer clásicos consiste en buena medida en aprender a separar las dos cosas sin tirar ninguna de las dos.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sobrevive del capítulo es la estructura: el carácter entendido como un conjunto de disposiciones, cada una con dos maneras distintas de fallar. Preguntarse por los dos fallos, y no solo por uno, cambia bastante el diagnóstico que uno se hace de sí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque la pregunta interesante no es qué virtudes puso en su lista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es cómo creía que se consiguen.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Se aprende tocando la cítara",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La otra idea grande del libro es la que más ha vuelto en los últimos años, aunque casi nunca con su nombre: que la virtud no es un conocimiento y que no se transmite explicándola. Se adquiere haciendo, y no hay atajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase original es esta: las cosas que hay que aprender para hacerlas, las aprendemos haciéndolas. Los constructores se hacen construyendo y los citaristas tocando la cítara. Nadie ha aprendido a tocar leyendo un tratado sobre cómo se toca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí saca la consecuencia moral sin ablandarla: así también nos hacemos justos practicando la justicia, moderados practicando la moderación y valientes haciendo cosas valientes. El carácter no precede a los actos, sale de ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es una ruptura frontal con Sócrates, el maestro de su maestro. En la Apología y en los diálogos tempranos, Sócrates sostiene que nadie obra mal a sabiendas: si conocieras de verdad el bien, lo harías. Aristóteles responde que eso es visiblemente falso.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Héxis",
+          frase: "La virtud es una disposición estable adquirida por repetición. No es un saber, no es una emoción y no es una decisión: es lo que has hecho tantas veces que ya es tuyo y sale sin que tengas que consultarte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En griego el juego de palabras es tan bueno que él lo señala en el texto: êthos, el carácter, viene de éthos, la costumbre. Las dos palabras se diferencian en una sola letra, y de ahí viene, por cierto, nuestra palabra ética.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción evidente se la pone él mismo, que es lo que distingue a un filósofo de un divulgador. Si uno se hace justo haciendo actos justos, ¿cómo puede hacer actos justos antes de ser justo? Parece que hay que ser ya lo que se quiere llegar a ser.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta es buena: los actos no son iguales. El principiante hace lo justo siguiendo una regla que le viene de fuera, sin entenderla del todo. El justo lo hace sabiendo lo que hace, eligiéndolo por sí mismo y desde un carácter firme que ya no se tambalea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y da una prueba para distinguirlos que es lo más práctico que tiene el libro entero: el placer. Al que de verdad es moderado no le cuesta ser moderado. Disfruta de la comida sin necesitar más, y no está conteniéndose todo el rato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien se abstiene y sufre no es moderado: es continente, enkratés, que en su escala es un grado inferior. Es alguien que hace lo correcto peleando consigo mismo. Está mejor que el que cede, y todavía no ha llegado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El criterio es exigente y sirve de diagnóstico inmediato. Basta preguntarse qué cosas hace uno apretando los dientes: ahí es donde el carácter no ha terminado de formarse, por muy correctamente que se esté comportando por fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos mil trescientos años después, Hábitos atómicos dice algo muy parecido: que uno se convierte en alguien por repetición y que la identidad viene detrás de la conducta, no delante. La diferencia está en lo que añade cada uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "James Clear pone la mecánica que Aristóteles no tenía: la señal, el deseo, la respuesta, la recompensa, el diseño del entorno. Aristóteles pone lo que a Clear le falta casi por completo: un criterio para decidir qué hábitos merecen adquirirse y cuáles no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese criterio necesita una capacidad que ocupa el libro sexto entero y que él llama phrónesis, la prudencia o sabiduría práctica. Es la virtud intelectual que gobierna a todas las demás, y no consiste en ser listo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De hecho la distingue con cuidado de la deinótes, la habilidad, que es la capacidad de dar en cualquier blanco que uno se proponga. Un estafador tiene deinótes. La phrónesis delibera sobre lo que es bueno para un ser humano, aquí, con esta gente y en este caso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hace una observación empírica que sigue en pie: hay matemáticos jóvenes brillantes, pero no hay jóvenes prudentes. La geometría se aprende de los principios generales; la prudencia exige haber visto muchos casos particulares, y eso solo lo da el tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro séptimo se dedica al fenómeno que Sócrates había negado: la akrasía, la debilidad de la voluntad. Hacer lo que uno sabe que es peor, sabiéndolo en ese mismo momento. Aristóteles empieza diciendo que eso ocurre continuamente y que negarlo es absurdo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación es técnica y sorprendentemente moderna. Uno tiene la premisa general —los dulces me sientan mal— pero bajo el empuje del apetito la premisa particular, esto es un dulce, no llega a activarse. El conocimiento está ahí y no se está usando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación que usa es la del borracho que recita versos de memoria: los dice todos y no sabe lo que está diciendo. Tener un saber y disponer de él en el momento en que hace falta son dos cosas distintas, y solo la segunda sirve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción tiene descendencia directa. Lo que en Pensar rápido, pensar despacio se llama sistema uno y sistema dos es, con otro vocabulario y con experimentos detrás, el mismo problema: un saber lento que existe y una respuesta rápida que decide antes de consultarlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La conclusión práctica de todo esto es incómoda: nadie se vuelve bueno decidiendo serlo. Hacen falta años, y hace falta una ciudad y una crianza que hicieran las primeras repeticiones antes de que uno tuviera nada que elegir.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso el libro termina donde termina: si el carácter se forma por costumbre y la costumbre depende de cómo se vive desde niño, entonces la ética desemboca necesariamente en la política. Las leyes están, para él, sobre todo para acostumbrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero hay una parte del libro que la gente lee por otro motivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y es la que más se subraya.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los amigos que hacen falta",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Dos de los diez libros, casi la quinta parte del total, están dedicados a la amistad. Ningún tratado de ética posterior le ha dedicado tanto espacio, y conviene avisar de que su philía es más ancha que nuestra palabra: incluye la familia, la pareja, los socios y hasta los conciudadanos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Abre con una afirmación que no argumenta porque le parece evidente: nadie elegiría vivir sin amigos aunque tuviera todos los demás bienes. Y añade que en la pobreza y en la desgracia son el único refugio, y que en la riqueza son la única ocasión de que sirva para algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después clasifica, que es lo que mejor sabe hacer. Hay tres clases de amistad y se distinguen por lo que uno quiere del otro: su utilidad, el placer de su compañía, o la persona misma por cómo es. Las tres son amistades de verdad, no dos falsas y una buena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las de utilidad son las del compañero de trabajo, el vecino que te deja la escalera, el socio. Duran lo que dura el provecho y se deshacen sin drama cuando deja de haberlo. Aristóteles no les hace ningún reproche: dice que son la mayoría y que la ciudad vive de ellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las de placer son, según él, las típicas de los jóvenes: intensas, rápidas de formar y de romper, basadas en pasarlo bien juntos. Cambian cuando cambia lo que a uno le divierte, y por eso a los veinte años se ganan y se pierden amigos a una velocidad que luego no se repite.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tercera",
+          frase: "La amistad perfecta es la de los buenos que se quieren por lo que el otro es, y le desean el bien por él y no por lo que saca. Incluye a las otras dos: esos amigos resultan además útiles y agradables. Pero eso es consecuencia, no motivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por qué es rara lo explica con un proverbio que ha sobrevivido a todos sus lectores: hace falta haber comido juntos mucha sal. No se puede conocer a alguien deprisa, ni en unas cenas, ni queriendo. Hace falta haber pasado tiempo y haberse visto en apuros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade que no pueden ser muchos. Amigos útiles se puede tener una lista larga; de estos, no. El límite no es de agenda sino de capacidad: dice que es como el número de personas de las que uno puede estar enamorado, que resulta ser bastante corto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dedica un análisis entero a las amistades desiguales, que son casi todas: padres e hijos, el mayor y el joven, el que manda y el que obedece. Su solución es que el que está por debajo compense queriendo más, para que la cuenta salga proporcional y no idéntica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces plantea la pregunta más interesante de los dos libros. Si el hombre feliz lo tiene todo y se basta a sí mismo, ¿para qué demonios necesita amigos? Añadirle amigos a alguien que ya es autosuficiente parece añadirle algo a lo completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta es uno de los pasajes buenos de la filosofía griega. No podemos vernos. Somos los peores jueces de nuestra propia conducta, y en cambio vemos con toda claridad la de los demás, sin las excusas que nos ponemos a nosotros mismos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso llama al amigo otro yo, állos autós. Ver a un buen amigo obrar bien es la única manera de observar desde fuera una vida buena en marcha, que es justo lo que no se puede hacer con la propia. La amistad es un espejo que no miente por educación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añade una segunda razón que es más simple y más suya. La eudaimonía es una actividad, no un estado; las actividades se sostienen mejor y se disfrutan más en común; y el ser humano está hecho para convivir. Vivir bien a solas es más difícil por razones prácticas, no místicas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca un corolario que casi nadie cita y que es de los consejos más duros del libro: hay que elegir amigos mejores que uno. La amistad transforma el carácter porque uno acaba haciendo lo que hacen aquellos con quienes pasa el tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que estar dispuesto a perderlos. Si un amigo se vuelve un mal hombre, escribe, primero hay que intentar ayudarle a corregirse, porque eso es lo que se le debe. Si no hay manera, la amistad debe terminar, porque ya no se quiere a la persona que se quería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde esto falla hoy es en el reparto. Su amistad completa se da entre varones libres de posición parecida; no cree que sea posible entre un hombre y una mujer en los términos que él describe, y el matrimonio que retrata es una relación asimétrica de gobierno doméstico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un capítulo sobre el amor a uno mismo que es el origen lejano de un tópico moderno, y que dice algo bastante más preciso que el tópico. Distingue dos maneras de quererse, y solo condena una.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La mala es la corriente: quedarse con la parte mayor del dinero, de los honores y de los placeres. La buena consiste en adjudicarse a uno mismo lo más noble, es decir, quedarse con la parte difícil y hacer lo que hay que hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con lo cual su tesis no es quiérete primero. Es que el hombre bueno es el que más se quiere a sí mismo en el sentido fuerte, porque se está quedando con lo mejor que hay, que es obrar bien, y se lo está quitando a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La investigación moderna sobre amistad es más floja de lo que parece, pero coincide en un punto. En los estudios de cohorte que siguen a las mismas personas durante décadas, el mejor predictor del bienestar en la vejez es la calidad de las relaciones cercanas, por encima del dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene cogerlo con pinzas, eso sí. Son estudios observacionales, y la dirección de la causa no está resuelta: es igual de posible que los rasgos que permiten mantener buenas amistades sean los mismos que producen una vejez tranquila por otras vías.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo cual no toca el argumento de Aristóteles, porque el suyo nunca fue que los amigos te hagan sentir bien. Es que una vida sin ellos tiene una actividad de menos, no un placer de menos, y eso es una carencia distinta.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda la última pregunta del libro, y es la más discutida de todas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuál es, entre todas, la vida que merece elegirse.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La vida que se elige por sí misma",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro décimo empieza volviendo sobre el placer y termina con una afirmación que lleva veinticuatro siglos dividiendo a sus lectores. Es el capítulo donde el edificio entero o se corona o se contradice, según a quién se le pregunte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el placer refuta las dos posiciones extremas de su época: la de que el placer es el bien y la de que es un mal en sí. Su tesis es que el placer no es una cosa aparte que se busca, sino algo que completa una actividad y viene con ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen que usa es de las pocas suyas que se recuerdan: el placer completa la actividad como la belleza corona la juventud. No se persigue por separado; aparece cuando uno hace bien aquello para lo que está en forma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La consecuencia práctica es fuerte. Los placeres son tan distintos entre sí como las actividades que completan, así que preguntarse cuánto placer conviene es la pregunta equivocada. La pregunta es de qué actividades se está disfrutando, porque eso describe la vida entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces se pregunta cuál es la mejor actividad de todas, y contesta: la theoría, la contemplación, la actividad del entendimiento. La vida dedicada a pensar es, dice, la más feliz que un ser humano puede llevar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus razones son cuatro. Es la actividad más continua, porque se puede sostener más tiempo que ninguna otra; es la más autosuficiente, porque necesita menos equipamiento que la generosidad o el valor; se ama por sí misma; y es lo más divino que hay en nosotros.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema",
+          frase: "Eso contradice nueve libros. Toda la Ética venía diciendo que el bien humano es la actividad conforme a la virtud, en una ciudad, con amigos, necesitando bienes exteriores y suerte. El libro décimo dice que lo mejor es pensar a solas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La discusión tiene nombre propio entre los especialistas: la lectura dominante frente a la inclusiva. Según la primera, la contemplación es el bien y todo lo demás es instrumento suyo. Según la segunda, la eudaimonía es un compuesto de bienes y la contemplación es el ingrediente más alto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie lo ha resuelto, y hay una posibilidad que conviene tener presente: que no haya respuesta coherente. Si el texto son apuntes de clase reunidos por otros, es perfectamente posible que estemos leyendo juntos dos cursos que él dio en momentos distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Aristóteles suaviza el golpe. Dice que esa vida es superior a la humana, que no la vivimos en cuanto hombres sino en cuanto hay algo divino presente en nosotros, y que la vida conforme a las demás virtudes es feliz en segundo lugar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una frase que suena rarísima en un autor tan terrenal: que no hay que hacer caso a los que dicen que, siendo mortales, hay que pensar cosas mortales, sino que hay que inmortalizarse en la medida de lo posible. Es lo más cerca que estuvo del misticismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces, en las últimas páginas, el libro deja de ser un libro de ética. Se pregunta si con todo lo dicho basta, y contesta que no, y la razón que da es de una franqueza que desarma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los razonamientos, dice, no bastan para hacer buena a la gente. Sirven para animar a un joven que ya viene bien criado, pero la mayoría no obedece por vergüenza sino por miedo, y no se abstiene de lo malo por feo sino por el castigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Luego hacen falta leyes; y para que haya leyes hace falta alguien que sepa legislar; y eso no lo enseña nadie. La última frase de la Ética a Nicómaco es literalmente el anuncio del curso siguiente, que es la Política.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde el libro fracasó históricamente no fue por culpa de su autor, y conviene contarlo. Durante casi mil años Aristóteles dejó de ser un autor para convertirse en el Filósofo, con mayúscula, y sus argumentos se citaron como autoridad en vez de discutirse como argumentos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tomás de Aquino lo integró en la teología cristiana en el siglo trece, y eso tuvo dos efectos opuestos: salvó el texto, que se copió y se comentó sin parar, y lo congeló, porque discutirle a Aristóteles pasó a parecerse mucho a discutirle a la Iglesia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La revolución científica fue en parte una rebelión contra esa autoridad, y se llevó por delante la ética junto con la física, que es lo injusto del asunto. En el Discurso del método, Descartes propone empezar de cero justo para no heredar nada de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La vuelta llegó en 1958, y por un artículo. Elizabeth Anscombe, filósofa de Cambridge, sostuvo que la filosofía moral moderna seguía usando palabras como obligación y deber moral después de haber perdido el marco religioso que les daba sentido, y que así no se podía seguir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su propuesta era volver al carácter y a las virtudes, y de ahí salió lo que hoy se llama ética de la virtud. El libro más conocido de esa corriente es Tras la virtud, de Alasdair MacIntyre, de 1981, que arranca con una imagen célebre de un naufragio moral.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hoy la ética de la virtud es una de las tres grandes familias de la filosofía moral, junto al utilitarismo y a la deontología kantiana. Para una doctrina de hace veinticuatro siglos, y después de tres de olvido, es un regreso poco común.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que sobrevive no es la lista de virtudes, ni el hombre magnánimo, ni la vida contemplativa. Es la pregunta que hizo en lugar de la que hace todo el mundo.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los demás preguntan qué debo hacer en este caso. Él pregunta en qué me estoy convirtiendo si hago esto muchas veces. Son dos preguntas distintas, se contestan con métodos distintos y producen vidas distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la segunda no se contesta una vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se contesta todos los días, casi siempre sin darse cuenta.",
+        },
+      ],
+    },
+  ],
+};
