@@ -3399,3 +3399,609 @@ export const PODER_HABITOS: Resumen = {
     },
   ],
 };
+
+export const ARTE_DE_AMAR: Resumen = {
+  id: "arte-de-amar",
+  titulo: "El arte de amar",
+  autor: "Erich Fromm",
+  ano: 1956,
+  gancho: "Ciento treinta páginas escritas en unos meses que han vendido más de veinticinco millones de ejemplares, y de las que su autor llegó a decir que se sentía casi avergonzado.",
+  porQue:
+    "Porque su tesis —que amar es una capacidad que se aprende y no una suerte que ocurre— sigue siendo la más útil que se ha escrito sobre el asunto, y porque el capítulo sobre madres y padres envejeció fatal.",
+  partes: [
+    {
+      titulo: "La chica que quiso ser enterrada con su padre",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Fráncfort, hacia 1912. Un niño de doce años, hijo único de una familia judía practicante, conoce a una amiga de la casa: una pintora de veinticinco años, guapa y con talento, que vive con su padre viudo y que él encuentra fascinante y algo incomprensible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El padre de la joven muere de repente. Pocos días después, ella se quita la vida y deja escrito que quiere que la entierren junto a él. El niño oye la noticia en su casa y no consigue entenderla de ninguna manera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta que se le quedó",
+          frase: "Cómo es posible que alguien joven, con talento y con la vida entera por delante, prefiera morir antes que seguir sin su padre. Contó muchas veces que aquella pregunta, hecha a los doce años, es el origen de todo lo que escribió después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El niño era Erich Fromm, nacido en Fráncfort en 1900. Describió a su padre como un comerciante de vino ansioso y de humor cambiante, y a su madre como una mujer con tendencia a la melancolía, y dijo que se crio en una casa profundamente rara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda cosa que lo marcó fue la guerra. Tenía catorce años cuando empezó la Primera Guerra Mundial y vio cómo profesores y adultos razonables se volvían fanáticos de un día para otro, convencidos de que los ingleses eran monstruos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su otra pregunta permanente, la que ocupa la mitad de su obra: cómo es posible que millones de personas normales adopten a la vez una locura colectiva, y qué es lo que en una sociedad las empuja a ello.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esas dos preguntas —por qué alguien se destruye por amor y por qué una sociedad entera enloquece— son las dos mitades de su trabajo. Estudió sociología en Heidelberg, se doctoró a los veintidós años y después se formó como psicoanalista, buscando respuesta a las dos a la vez.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En los años treinta trabajó en el Instituto de Investigación Social de Fráncfort, la llamada Escuela de Fráncfort, junto a Adorno, Horkheimer y Marcuse, un grupo que intentaba combinar el análisis marxista de la sociedad con el psicoanálisis de Freud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1934, siendo judío y estando el nazismo en el poder, se marchó a Estados Unidos, donde vivió el resto de su vida académica, primero en Nueva York y después en México, donde fundó una escuela de psicoanálisis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ruptura con sus antiguos compañeros fue dura. Fromm rechazó dos piezas centrales de Freud: la teoría de la libido, que explica la conducta por la energía sexual, y la pulsión de muerte. Para él, lo decisivo no era la biología sino las condiciones sociales.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su desacuerdo con Freud",
+          frase: "Freud pensaba que la sociedad reprime instintos que existirían igual sin ella. Fromm sostenía que la sociedad no reprime a un individuo dado: lo fabrica. Que el carácter de una persona se forma con lo que su época necesita que sea, y que ahí está la clave.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los freudianos ortodoxos lo llamaron revisionista, que en aquel contexto era un insulto, y Marcuse le dedicó páginas muy duras acusándolo de haber convertido el psicoanálisis en una moral de adaptación y de conformismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su primer libro importante, El miedo a la libertad, de 1941, es el que sigue teniendo más prestigio académico. Sostiene que la libertad moderna liberó al individuo de las ataduras antiguas y lo dejó a la intemperie, y que mucha gente prefiere entregarla a cambio de seguridad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escrito en 1941, sobre por qué millones de alemanes se entregaron voluntariamente a un régimen que los mandaba a morir, es un libro que se sigue citando cada vez que un movimiento autoritario crece en algún sitio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El arte de amar es de quince años después y es un libro completamente distinto: corto, sin aparato académico, sin notas, escrito en un tono directo y pensado para cualquier lector. Fromm lo consideraba menor y es el único suyo que casi todo el mundo conoce.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha vendido más de veinticinco millones de ejemplares, está traducido a más de cincuenta idiomas y lleva desde 1956 sin dejar de reeditarse en ningún país. Es, con diferencia, el libro sobre el amor más vendido del siglo veinte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su éxito tiene una explicación de contexto que conviene tener presente. Salió en la América de los años cincuenta, en pleno auge del matrimonio temprano, los suburbios y la familia de anuncio, y fue de los primeros libros que le dijo a ese público que aquello podía estar vacío por dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo dijo sin la jerga del psicoanálisis, que hasta entonces era el único vocabulario disponible para hablar de estas cosas. Fromm escribió sobre la vida sentimental de la gente corriente en un lenguaje que la gente corriente podía leer, y eso en 1956 casi no lo hacía nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En España llegó bastante después, con la editorial Paidós, y se convirtió en uno de esos libros que circulan de mano en mano entre estudiantes universitarios durante décadas. Es probable que esté en la estantería de alguien de tu familia sin que nadie recuerde quién lo compró.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y empieza con una advertencia al lector en la primera página, que es también la mejor manera de saber si este libro es para uno o no lo es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que quien espere instrucciones fáciles para ser amado va a quedar decepcionado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que amar es un arte, como la música o la medicina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que un arte exige teoría, práctica diaria y que sea lo más importante de tu vida.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El problema no es encontrar a alguien",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su diagnóstico de partida es que casi todo el mundo se plantea el amor de una manera equivocada, y lo formula en tres errores concretos que se pueden reconocer en cualquier conversación de sobremesa sobre relaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero es pensar que el problema es ser amado y no amar. La gente se pregunta cómo resultar más atractiva, cómo caer mejor, cómo conseguir que alguien se enamore. Casi nadie se pregunta si tiene la capacidad de querer a otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es pensar que el problema es de objeto y no de facultad. Es decir: creer que amar es fácil y que lo difícil es encontrar a la persona adecuada. Con esa premisa, cuando algo va mal la conclusión siempre es que no era la persona.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El tercer error",
+          frase: "Confundir la experiencia inicial de enamorarse con el estado permanente de amar. Fromm distingue el momento en que dos desconocidos derriban de golpe la pared que los separa —que es intenso y milagroso— del trabajo largo de sostener eso, que no se parece en nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su observación sobre eso es dura: cuanto más solos estaban los dos antes, más milagroso les parece ese momento, y más probable es que confundan la intensidad del alivio con la profundidad del vínculo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí introduce su análisis social, que es la parte más marcada por su época y a la vez la que más gente reconoce. Sostiene que en una sociedad de mercado, la gente aplica al amor la lógica del mercado sin darse cuenta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su formulación es que dos personas se enamoran cuando sienten que han encontrado el mejor objeto disponible en el mercado teniendo en cuenta el valor de cambio de cada una. Se busca una ganga: alguien un poco por encima de lo que uno cree merecer.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escrito en 1956, con las relaciones organizadas por barrio, clase y presentaciones familiares. Con aplicaciones que muestran perfiles ordenados, con filtros de altura, ingresos y edad, esa frase describe el mecanismo con una literalidad que Fromm no podía imaginar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segundo diagnóstico social es el del matrimonio como equipo bien avenido. Describe parejas que funcionan como una sociedad con reparto de tareas, cordialidad permanente y ausencia de conflicto, y sostiene que eso suele ser el nombre elegante de dos soledades ordenadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hace una observación sobre el trato justo que sigue siendo incómoda: que la idea de dar lo mismo que se recibe, aplicada al amor, es una regla comercial, y que quien lleva la cuenta de lo que aporta cada uno está haciendo contabilidad, no queriendo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El fondo del libro",
+          frase: "Para Fromm, el problema humano fundamental es la separación. Somos conscientes de estar separados de los demás y de la naturaleza, sabemos que vamos a morir, y esa conciencia produce una angustia de la que hay que hacer algo. El amor es su única solución completa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de llegar ahí repasa las salidas que él considera fallidas, y ese repaso es de lo mejor del libro porque describe cosas que cualquiera ha hecho alguna vez para no estar solo consigo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera son los estados de trance: el alcohol, las drogas, el sexo compulsivo, las experiencias de descontrol colectivo. Funcionan porque disuelven la conciencia de estar separado, y fallan porque duran poco, hay que repetirlos y dejan a la persona peor que antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es la conformidad con el grupo: vestirse igual, opinar igual, querer lo mismo que todo el mundo. Elimina la angustia de estar solo al precio de eliminar a la persona, y Fromm sostiene que es la salida mayoritaria en las sociedades modernas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La tercera es el trabajo creativo, que sí une a alguien con el mundo mientras dura, y que no une con otra persona. El carpintero está unido a su madera y el escritor a su texto, y los dos siguen igual de solos frente a otro ser humano.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La única salida completa, dice, es la unión con otra persona conservándose uno mismo. Y esa condición, la de no disolverse, es lo que separa el amor de la dependencia y lo que hace que sea difícil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la fórmula más citada del libro: que en el amor maduro dos seres se convierten en uno y siguen siendo dos. Suena a frase de felicitación y en el contexto significa algo bastante exigente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Significa que si la relación exige que alguien deje de tener opiniones, amigos o proyectos propios, eso no es una versión intensa del amor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fromm describe dos maneras concretas de fallar en esa condición, y las dos tienen nombre en el libro. La primera es la sumisión: la persona que resuelve su angustia de estar sola convirtiéndose en parte de otra, adoptando sus opiniones, sus horarios y sus amistades.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es la dominación: la persona que resuelve la misma angustia absorbiendo a otra, decidiendo por ella y necesitando que dependa. Y su observación es que las dos se necesitan mutuamente, que se buscan con precisión y que desde fuera parecen una pareja muy unida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo importante de ese análisis es que las dos posiciones son la misma cosa: dos maneras de no soportar la propia soledad. Ninguno de los dos está queriendo al otro; los dos están usando al otro para no tener que estar consigo mismos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una de las formas de fusión que él considera fracasos, y les dedica un capítulo entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con el diagnóstico hecho, pasa a decir de qué está compuesto exactamente lo que él llama amor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son cuatro cosas, y ninguna es un sentimiento.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Cuidado, responsabilidad, respeto, conocimiento",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El primer elemento es el cuidado, y Fromm lo define con un ejemplo doméstico: si una mujer dice que adora las flores y uno ve que se le mueren todas por no regarlas, no le creemos. El amor es una preocupación activa por la vida de lo que se ama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El criterio es sencillo y sirve para juzgar cualquier relación: no se mide por lo que alguien siente ni por lo que dice, sino por lo que hace con su tiempo y su atención cuando eso le cuesta algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es la responsabilidad, y aquí hace una distinción que importa mucho. No la entiende como una obligación impuesta desde fuera, sino como la capacidad de responder: estar disponible cuando el otro necesita algo, sin que haya que pedírselo por escrito.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El tercero, el que corrige a los otros dos",
+          frase: "El respeto, que viene del latín respicere, mirar. Es la capacidad de ver a la otra persona tal como es y no como me conviene que sea. Sin respeto, dice, el cuidado y la responsabilidad degeneran en control, y el que controla siempre dice que lo hace por amor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase es de 1956 y describe con precisión lo que hoy se llamaría control en la pareja: una persona que vigila, decide y limita, y que tiene la convicción sincera de estar cuidando. Fromm identifica el mecanismo sin nombrarlo así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto elemento es el conocimiento, y no se refiere a saber datos del otro. Se refiere a conocerlo desde dentro, a entender por qué hace lo que hace, y sobre todo a saber ver la tristeza o el miedo que hay debajo de un enfado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Los cuatro se sostienen entre sí y ninguno funciona solo. Cuidar sin conocer produce ayuda que no sirve. Respetar sin cuidar es indiferencia educada. Y conocer sin responsabilidad es lo que hace un buen observador, que puede describir a alguien perfectamente y no mover un dedo por él.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esos cuatro elementos analiza después los distintos tipos de amor, y ahí es donde el libro se vuelve desigual: algunas partes siguen siendo excelentes y otras están claramente escritas en 1956 y se nota en cada línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El amor fraternal es para él la base de todos los demás: el sentido de responsabilidad hacia cualquier ser humano por el hecho de serlo. Y sostiene que solo se aprende de verdad queriendo a quien no sirve para nada, porque querer al útil es una transacción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El amor materno lo describe como el único incondicional: no hay que ganárselo, no depende de portarse bien, y su tarea más difícil es exactamente la contraria de la que parece, porque consiste en soltar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su idea sobre la maternidad",
+          frase: "Que el amor de una madre es el único cuyo objetivo declarado es volverse innecesario. Una madre que lo consigue tiene un hijo que se va, y una que no lo consigue tiene un hijo que se queda. Y la segunda opción no es más amorosa que la primera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El amor paterno lo describe como lo opuesto: condicional, ligado al mérito, al esfuerzo y a los logros, y con la ventaja de que se puede conquistar y la desventaja de que se puede perder.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí hay que parar, porque esta es la parte del libro que peor ha envejecido. Fromm no describe dos funciones que cualquier adulto puede ejercer: las atribuye a la madre y al padre, y las liga a la naturaleza de cada uno.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Habla de la madre como la tierra, la leche y la miel, y del padre como la ley, el pensamiento y la disciplina. Está tomando el reparto de roles de la clase media alemana y americana de su época y presentándolo como una estructura humana permanente.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso hoy es insostenible. Hay padres que ejercen lo que él llama amor materno y madres que ejercen lo que llama paterno, y hay familias con dos madres, con un padre solo o con abuelos criando, y ninguna de ellas encaja en el esquema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo salvable de ese capítulo es la distinción entre dos tipos de amor —el que no hay que ganarse y el que se conquista— y la idea de que un adulto necesita haber recibido los dos y acabar dándose los dos a sí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un segundo punto del libro que hoy es directamente erróneo y conviene decirlo sin rodeos: sus comentarios sobre la homosexualidad, que trata según la ortodoxia psicoanalítica de su época, como una unión que no alcanza la polaridad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es falso, era la posición dominante en la psiquiatría de 1956 y dejó de serlo oficialmente en 1973. No invalida el resto del libro y sí obliga a leer esas páginas concretas como lo que son: un prejuicio de época puesto por escrito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo que sí ha aguantado entero es el del amor a uno mismo, y es probablemente el más útil de todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque desmonta una idea que sigue circulando: que quererse a uno mismo y ser egoísta son la misma cosa en distinto grado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fromm sostiene que son exactamente lo contrario.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El egoísta no se quiere nada",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su argumento parte de una observación lógica: si el amor es una actitud hacia los seres humanos, y yo soy un ser humano, entonces excluirme a mí mismo de esa actitud es una contradicción. No hay ninguna razón para que la única persona a la que no puedo querer sea yo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La confusión, dice, viene de la moral cristiana y protestante, que enseñó durante siglos que amarse a uno mismo es pecado y que la virtud consiste en negarse. De ahí sale la idea de que cuanto menos se quiera uno, más querrá a los demás.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su tesis",
+          frase: "El egoísta no se quiere demasiado: no se quiere nada. Precisamente porque no encuentra en sí mismo nada que valga la pena, tiene que estar acaparando todo el rato, buscando fuera lo que no tiene dentro. La avidez es el síntoma de un vacío, no de un exceso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo clínico es la madre que se sacrifica por todos, que no descansa nunca y que repite que ella no cuenta. Fromm sostiene que esos hijos suelen crecer angustiados, y que reciben un mensaje incómodo: que la vida es una carga y el amor una deuda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una observación dura y probablemente la más citada de este capítulo: alguien que no soporta su propia vida no puede enseñar a nadie a disfrutar de la suya, por mucho que se sacrifique. La generosidad sin autoestima transmite culpa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con eso cierra la parte teórica, y el último capítulo del libro es el que promete el título: la práctica. Cómo se aprende esto. Y empieza con una advertencia honesta que a mucha gente le sienta mal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Dice que la práctica de un arte no se puede enseñar en un libro, igual que no se aprende a tocar el piano leyendo sobre pianos, y que lo único que él puede hacer es describir las condiciones. El resto no está en estas páginas.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las condiciones que enumera son cuatro, y las mismas que harían falta, dice, para aprender cualquier oficio difícil. La primera es la disciplina: hacerlo todos los días, no cuando apetezca, y no como una imposición sino como algo que uno ha decidido que importa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es la concentración, y aquí hace un diagnóstico de su época que hoy resulta casi profético: sostiene que la gente moderna es incapaz de estar haciendo una sola cosa, que come mientras lee, oye la radio mientras habla y fuma mientras trabaja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y da un ejercicio concreto, el único del libro entero: sentarse relajado, sin hacer nada, sin leer y sin música, y aguantar veinte minutos así, notando la respiración. Dice que casi nadie es capaz al principio y que ese es exactamente el problema.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso tiene que ver con el amor",
+          frase: "Porque quien no soporta estar veinte minutos consigo mismo no puede estar solo, y quien no puede estar solo busca a otra persona para no estarlo. Y eso, dice Fromm, no es amar: es usar a alguien como remedio contra la propia compañía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La aplicación práctica de la concentración a la relación es escuchar. Fromm sostiene que casi nadie escucha de verdad: se oye mientras se prepara la respuesta, se interrumpe, se aconseja sin que nadie lo haya pedido y se lleva la conversación al terreno propio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera condición es la paciencia. Su comparación es que alguien que quiera resultados rápidos no aprenderá nunca un arte, y que la impaciencia moderna viene de una organización del tiempo en la que todo lo que va despacio parece una pérdida.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y la cuarta es que sea una preocupación suprema: que amar ocupe en la vida de alguien el sitio que ocupa el trabajo, y no el rato que sobra al final del día. Sin eso, dice, se puede hacer bastante bien todo lo anterior y no llegar a ninguna parte.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añade dos requisitos más que son los que menos se citan. El primero es superar el narcisismo, que él define como la incapacidad de percibir como real lo que ocurre fuera de uno mismo. Y propone un criterio para medirlo: la objetividad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo es doméstico y funciona: una madre convencida de que su hijo no tiene ningún problema y otra convencida de que su hijo es un desastre son igual de narcisistas, porque las dos están viendo lo que necesitan ver y no lo que hay.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo requisito es la fe, y aclara enseguida que no habla de religión. Habla de fe racional: la convicción, basada en la observación, de que una persona es de determinada manera y de que va a seguir siéndolo aunque hoy se haya comportado mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sin esa confianza, dice, no se puede querer a nadie durante mucho tiempo, porque cualquier mal día se convierte en una revisión completa de la relación y nadie aguanta que lo evalúen entero cada semana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade que tener fe en alguien exige coraje, porque significa aceptar el riesgo de equivocarse y de que a uno le hagan daño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el libro entero, en ciento treinta páginas y sin una sola cita bibliográfica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con veinticinco millones de ejemplares vendidos, que es lo que hay que explicar al final.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El libro que le dio vergüenza",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Fromm se refirió a este libro en varias ocasiones con una mezcla de orgullo y de incomodidad. Dijo que le producía cierta vergüenza que su obra más leída fuese la más sencilla, escrita deprisa y sin el aparato de sus libros académicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También le molestaba cómo se leía. Sostenía que la gente lo compraba buscando una receta para arreglar su vida sentimental, saltándose la parte central del libro, que es una crítica bastante dura a la sociedad en la que ese lector vive.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que el libro dice de verdad",
+          frase: "Que en una sociedad organizada alrededor del intercambio y del consumo, el amor en el sentido que él describe es casi imposible, y que quien lo consiga lo hará contra la corriente. No es un libro optimista, aunque se venda en la sección de autoayuda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla. Lo primero y más importante: no tiene ninguna base empírica. No hay un estudio, ni un dato, ni un caso clínico desarrollado. Son afirmaciones de un hombre inteligente que ha pensado mucho, y nada más que eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso importa porque desde 1956 se ha investigado muchísimo sobre relaciones: teoría del apego, estudios longitudinales de parejas a lo largo de décadas, trabajos sobre qué predice una ruptura. Nada de eso existía, y el libro se lee a veces como si lo sustituyera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Curiosamente, buena parte de lo que se ha encontrado después va en su dirección: la calidad de la relación depende más de conductas concretas y sostenidas que de la intensidad inicial. Es lo que él decía sin poder demostrarlo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El segundo fallo es el capítulo sobre madres y padres, que congela como naturaleza humana el reparto de papeles de una familia burguesa europea de los años cincuenta, y que hoy no describe a la mayoría de las familias de ningún país.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero, ya dicho: sus afirmaciones sobre la homosexualidad son falsas y responden a la psiquiatría de su tiempo. Conviene saberlo antes de abrir el libro, para no llevarse la sorpresa a mitad de un capítulo por lo demás razonable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto es que no hay poder en ninguna página. No aparecen la violencia en la pareja, ni el dinero, ni quién hace las tareas de la casa, ni la dependencia económica de quien no puede irse. Todo ocurre entre dos personas igualmente libres, y eso casi nunca es cierto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El quinto, el más señalado por sus críticos",
+          frase: "El capítulo de la práctica es cortísimo y vago comparado con el diagnóstico. Después de cien páginas explicando por qué casi nadie sabe amar, dedica quince a decir cómo se aprende, y buena parte de ellas a avisar de que eso no se puede enseñar en un libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es honesto y también es una salida. Marcuse le reprochó justamente eso: que su obra terminaba en una exhortación moral a mejorar personalmente, sin decir nada sobre cómo se cambian las condiciones sociales que él mismo señalaba como causa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un sexto reproche de estilo: escribe en un tono profético, con frases rotundas y sin condicionales, que hace difícil discutirle nada. O se está de acuerdo con la frase o no, pero no hay por dónde entrar a debatirla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad. Lo primero: que es un manual para encontrar pareja. Es lo contrario. Su tesis central es que el problema no es encontrar a la persona adecuada, y quien lo lea buscando eso se va a irritar en el primer capítulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que amarse a uno mismo es una versión suave del egoísmo. Fromm sostiene que son opuestos, y que el egoísta se comporta así porque no encuentra nada en sí mismo, no porque se sobre.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Tercero: que Fromm era freudiano. Rechazó la teoría de la libido y la pulsión de muerte, puso las condiciones sociales en el centro, y los freudianos ortodoxos lo trataron de revisionista durante décadas. Estaba más cerca de Marx que de Freud en lo esencial.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: que es un libro fácil. Es corto, que no es lo mismo. Cien de sus ciento treinta páginas son análisis social y antropológico, y la parte que la gente compra ocupa la última quinta parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quinto: que va del enamoramiento. Va exactamente de lo otro: de qué hay que hacer cuando eso se pasa, que es a los pocos meses y sin excepciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fromm murió en Suiza en 1980, cinco días antes de cumplir ochenta años, después de tres infartos y de haber escrito veinte libros más que casi nadie ha leído.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance justo es este: un ensayo sin pruebas, escrito con prisa, con dos capítulos que hoy hay que leer con la fecha delante, y con una tesis central que sigue siendo la más útil que se ha formulado sobre el asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que amar no es algo que te ocurre si tienes suerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una capacidad que se tiene o no se tiene, que se puede entrenar, y que se entrena aprendiendo a estar solo, a escuchar y a mirar a alguien tal como es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que si eso no se aprende, cambiar de persona no arregla absolutamente nada.",
+        },
+      ],
+    },
+  ],
+};
