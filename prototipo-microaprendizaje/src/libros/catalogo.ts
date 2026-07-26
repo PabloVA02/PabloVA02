@@ -262,7 +262,7 @@ export const CATALOGO: Ficha[] = [
   { id: "anticancer", titulo: "Anticáncer", autor: "David Servan-Schreiber", ano: 2007, categoria: "Salud", estado: "escrito" },
   { id: "codigo-obesidad", titulo: "El código de la obesidad", autor: "Jason Fung", ano: 2016, categoria: "Salud", estado: "escrito" },
   { id: "dieta-cojea", titulo: "Mi dieta cojea", autor: "Aitor Sánchez García", ano: 2016, categoria: "Salud", estado: "escrito" },
-  { id: "milagro-metabolico", titulo: "El milagro metabólico", autor: "Carlos Jaramillo", ano: 2019, categoria: "Salud", estado: "pendiente" },
+  { id: "milagro-metabolico", titulo: "El milagro metabólico", autor: "Carlos Jaramillo", ano: 2019, categoria: "Salud", estado: "escrito" },
   { id: "cerebro-de-pan", titulo: "Cerebro de pan", autor: "David Perlmutter", ano: 2013, categoria: "Salud", estado: "escrito" },
   { id: "vivir-plenitud", titulo: "Vivir con plenitud las crisis", autor: "Jon Kabat-Zinn", ano: 1990, categoria: "Salud", estado: "escrito" },
   { id: "deja-de-ser-tu", titulo: "Deja de ser tú", autor: "Joe Dispenza", ano: 2012, categoria: "Salud", estado: "pendiente" },
