@@ -97,8 +97,8 @@ export const CATALOGO: Ficha[] = [
   { id: "mapa-mundos", titulo: "Los últimos días de los dinosaurios", autor: "Riley Black", ano: 2022, categoria: "Ciencia", estado: "escrito" },
   { id: "einstein", titulo: "Einstein: su vida y su universo", autor: "Walter Isaacson", ano: 2007, categoria: "Ciencia", estado: "escrito" },
   { id: "feynman", titulo: "¿Está usted de broma, Sr. Feynman?", autor: "Richard Feynman", ano: 1985, categoria: "Ciencia", estado: "escrito" },
-  { id: "ordenar-universo", titulo: "Ordenar el universo", autor: "Marcus du Sautoy", ano: 2019, categoria: "Ciencia", estado: "pendiente" },
-  { id: "elegancia-erizo", titulo: "La elegancia del erizo", autor: "Muriel Barbery", ano: 2006, categoria: "Ciencia", estado: "pendiente" },
+  { id: "musica-primos", titulo: "La música de los números primos", autor: "Marcus du Sautoy", ano: 2003, categoria: "Ciencia", estado: "escrito" },
+  { id: "universo-mano", titulo: "El universo en tu mano", autor: "Christophe Galfard", ano: 2015, categoria: "Ciencia", estado: "pendiente" },
 
   /* --- Arte ------------------------------------------------------------- */
   { id: "historia-arte", titulo: "La historia del arte", autor: "E. H. Gombrich", ano: 1950, categoria: "Arte", estado: "escrito" },
@@ -143,6 +143,7 @@ export const CATALOGO: Ficha[] = [
   { id: "viejo-mar", titulo: "El viejo y el mar", autor: "Ernest Hemingway", ano: 1952, categoria: "Literatura", estado: "escrito" },
   { id: "guardian-centeno", titulo: "El guardián entre el centeno", autor: "J. D. Salinger", ano: 1951, categoria: "Literatura", estado: "escrito" },
   { id: "cuentos-poe", titulo: "Cuentos de Edgar Allan Poe", autor: "Edgar Allan Poe", ano: 1845, categoria: "Literatura", estado: "pendiente" },
+  { id: "elegancia-erizo", titulo: "La elegancia del erizo", autor: "Muriel Barbery", ano: 2006, categoria: "Literatura", estado: "pendiente" },
   { id: "hobbit", titulo: "El hobbit", autor: "J. R. R. Tolkien", ano: 1937, categoria: "Literatura", estado: "escrito" },
 
   /* --- Psicología ------------------------------------------------------- */

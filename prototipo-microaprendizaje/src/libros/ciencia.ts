@@ -3460,3 +3460,604 @@ export const UNIVERSO_CASCARA: Resumen = {
     },
   ],
 };
+
+export const MUSICA_PRIMOS: Resumen = {
+  id: "musica-primos",
+  titulo: "La música de los números primos",
+  autor: "Marcus du Sautoy",
+  ano: 2003,
+  gancho: "En 1859 un alemán tímido escribió ocho páginas sobre los números primos. Ciento sesenta y seis años después, nadie ha conseguido demostrar la frase que dejó a medias.",
+  porQue:
+    "Porque es la mejor puerta de entrada al problema abierto más famoso de las matemáticas, y porque exagera en el único capítulo que todo el mundo cita: el de la criptografía.",
+  partes: [
+    {
+      titulo: "La conjetura de un chico de quince años",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Brunswick, 1792. Un chico de quince años recibe como regalo un libro de tablas de logaritmos. Al final del volumen, en las últimas páginas, hay algo que el editor puso casi de adorno: una lista de números primos. El chico se llama Carl Friedrich Gauss.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gauss es hijo de un albañil y tiene la costumbre de contar cosas. Se pone a contar cuántos primos hay en cada bloque de mil números. Hasta el mil encuentra ciento sesenta y ocho. Entre mil y dos mil, ciento treinta y cinco. Entre dos mil y tres mil, ciento veintisiete.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primos escasean según se avanza, pero no de cualquier manera: escasean de forma ordenada. Gauss compara esa caída con el logaritmo, la función que estaba estudiando en el mismo libro, y ve que encaja. No lo demuestra. Lo anota al margen y sigue con otra cosa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La anotación",
+          frase: "La cantidad de primos que hay hasta un número N se parece a N dividido por su logaritmo. Gauss lo escribió a los quince años, no lo publicó nunca, y hubo que esperar cien años a que alguien lo demostrara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un primo es un número que solo se puede dividir por uno y por sí mismo: 2, 3, 5, 7, 11, 13. Todos los demás números son productos de primos, y de una única manera. Son las piezas con las que está construido el resto de la aritmética.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Euclides demostró hacia el año 300 antes de Cristo que hay infinitos, y lo hizo en un párrafo: si hubiera una lista completa, se multiplican todos, se suma uno, y el resultado o es primo o tiene un divisor primo que no estaba en la lista.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa demostración se sigue enseñando igual dos mil trescientos años después, y es de las pocas cosas de este libro que un lector puede reproducir de memoria en una servilleta. Saber que hay infinitos, sin embargo, no dice nada sobre dónde están.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está el problema. Entre 89 y 97 no hay ninguno; entre 101 y 103 hay dos seguidos separados por un solo número par. Nadie ha encontrado nunca una fórmula que diga cuál es el siguiente. De cerca parecen tirados al azar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De lejos, en cambio, son de una regularidad casi insultante. Eso es lo raro: un desorden local absoluto y un orden global previsible. Es como si alguien hubiera esparcido semillas a puñados y al mirar el campo entero salieran filas rectas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gauss afinó su propia conjetura años después. En vez de N partido por el logaritmo usó una suma acumulada, el logaritmo integral, que va sumando la densidad tramo a tramo en lugar de aplicar la misma en todo el recorrido. Es mucho más preciso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los números lo dicen mejor que cualquier explicación. Hasta un millón hay 78.498 primos. La fórmula sencilla predice 72.382, que se queda a más de seis mil. El logaritmo integral predice 78.628: se equivoca en ciento treinta sobre setenta y ocho mil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que la estimación funciona. Lo que nadie sabía era por qué funcionaba, y sobre todo hasta dónde podía llegar a fallar. Porque una estimación buena que de vez en cuando se desvía muchísimo no sirve para casi nada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta real",
+          frase: "El libro no trata de cuántos primos hay. Trata del error: de cuánto puede separarse la cuenta verdadera de la estimación de Gauss. Toda la historia posterior consiste en acotar esa diferencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Legendre publicó en 1798 una fórmula parecida, con una constante ajustada a mano, 1,08366, que sacó de mirar tablas. Hubo la consiguiente discusión de prioridad, con Gauss diciendo que él lo tenía desde niño y sin poder enseñar dónde lo había publicado, porque no lo había publicado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Era su manera de trabajar. Su lema era pauca sed matura, pocas cosas pero maduras. Publicaba una fracción mínima de lo que descubría y guardaba el resto en cuadernos. Cuando murió, en esos cuadernos había matemáticas que otros tardarían décadas en volver a encontrar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En 1849, con setenta y dos años, escribió una carta al astrónomo Encke contando por fin la historia del libro de logaritmos y de las cuentas de su adolescencia. Es la única prueba documental de una conjetura que llevaba cincuenta y siete años en un cajón.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La demostración llegó en 1896, y llegó por duplicado: Jacques Hadamard y Charles-Jean de la Vallée Poussin la publicaron el mismo año, por separado, sin conocer el trabajo del otro. Hoy se llama teorema de los números primos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos usaron la misma herramienta, y no era la aritmética. Era una función que un alumno de Gauss había estudiado cuarenta años antes en aquellas ocho páginas, y que nadie había sabido para qué servía exactamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero el teorema solo dice que el error relativo tiende a cero. Es decir: que la estimación acaba siendo buena en porcentaje. No dice a qué velocidad, ni cuánto puede desviarse en un tramo concreto. Deja abierta justo la parte interesante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Toda la matemática de los primos de los últimos cien años cabe en esa grieta: no en cuántos hay, sino en cómo de grande puede ser el error de Gauss. Y ahí es donde entra la hipótesis que da nombre al problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para verla hubo que mirar el asunto desde un sitio en el que nadie había mirado, porque a nadie se le había ocurrido que tuviera relación con los números primos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un plano imaginario, y un paisaje dentro de él.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las ocho páginas de Riemann",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Berlín, 1859. La Academia de Ciencias nombra miembro corresponsal a un profesor de Gotinga de treinta y dos años. La costumbre es que el elegido envíe un trabajo de agradecimiento. Manda ocho páginas y ningún dibujo, y es el único texto sobre números que escribirá en su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se titula Sobre el número de números primos menores que una magnitud dada. Su autor es Bernhard Riemann, hijo de un pastor luterano de una aldea del norte, criado en la pobreza, tan tímido que la idea de dar una clase le producía ataques de ansiedad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre lo mandó a estudiar teología para que tuviera un oficio. En Gotinga se pasó a matemáticas y acabó siendo alumno de Gauss, ya anciano, que le puso como tema de tesis la geometría. De ahí salieron las superficies curvas que sesenta años después usaría Einstein.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El objeto que Riemann coge para atacar los primos no lo inventa él. Es una suma que Euler había estudiado un siglo antes: uno más un medio elevado a s, más un tercio elevado a s, y así con todos los números.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Euler descubrió en 1737 algo que parecía un truco de feria: esa suma, en la que aparecen todos los números enteros, es exactamente igual a un producto en el que solo aparecen los primos. Una igualdad entre todo y solo las piezas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La puerta",
+          frase: "A un lado hay una función continua, del tipo que se estudia con cálculo. Al otro, los números primos. La identidad de Euler es la puerta que convierte cualquier cosa que se descubra sobre la función en información sobre los primos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es que la suma solo tiene sentido cuando s es mayor que uno. Para s igual a uno da la serie armónica, que crece sin parar aunque lo haga despacio. Y por debajo de uno, directamente no significa nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La jugada de Riemann fue dejar que s fuese un número complejo. Un número complejo tiene dos partes, una normal y otra multiplicada por la raíz de menos uno, y se representa como un punto en un plano en lugar de en una recta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso amplía el terreno de juego de una línea a una superficie entera. Y existe un procedimiento, la prolongación analítica, que permite extender una función a esa superficie de una sola manera posible, como una carretera que solo se puede alargar sin baches de una forma.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la función extendida a todo el plano, Riemann propone verla como un paisaje: sobre cada punto del plano, una altura. Montañas donde la función se dispara, valles donde se hunde. Y lo que le interesa no son las cimas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le interesa el nivel del mar. Los puntos donde la altura es exactamente cero. Los ceros de la función. Porque, por la puerta de Euler, cada uno de esos puntos guarda información sobre cómo están repartidos los primos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay unos ceros aburridos, que están en los números pares negativos: menos dos, menos cuatro, menos seis. Se los llama triviales porque se sacan de una fórmula y no dicen nada. Los interesantes son los otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los interesantes viven en una franja vertical del plano, entre el cero y el uno. Riemann calculó unos cuantos a mano. Y todos los que calculó estaban no ya dentro de la franja, sino exactamente en su recta central.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La hipótesis",
+          frase: "Todos los ceros no triviales tienen parte real un medio: están alineados en una única recta vertical. Riemann escribió que era «muy probable», reconoció que no había conseguido demostrarlo, dijo que no le hacía falta para lo que iba y siguió adelante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase de paso, en un artículo de ocho páginas, es hoy el problema abierto más famoso de las matemáticas. Riemann no volvió a mencionarla. Aparece una vez, en un párrafo, y sin subrayar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí desarrolla en el artículo es una fórmula exacta para contar primos. No una estimación: una igualdad. Y tiene dos partes: el término principal, que es esencialmente el logaritmo integral de Gauss, y una corrección que se suma cero a cero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada cero aporta a esa corrección una onda: algo que sube y baja con una frecuencia y una amplitud propias. La cuenta verdadera de primos es el término de Gauss más la suma de todas esas ondas, infinitas, interfiriendo entre sí.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "De ahí sale el título del libro. Un sonido complejo se puede descomponer en armónicos simples; la irregularidad de los primos se descompone en las ondas de los ceros. Cada cero es una nota, y el conjunto es lo que du Sautoy llama la música.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte real de un cero controla la amplitud de su onda. Si todos valen un medio, todas las ondas están igualadas y se cancelan entre ellas casi del todo: el error de Gauss queda acotado y es el más pequeño posible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si hubiera un cero fuera de la recta, su onda sonaría más fuerte que las demás y esa cancelación se rompería. Habría tramos en los que la cuenta de primos se separaría mucho más de lo previsto. La hipótesis es, literalmente, que ningún instrumento desafina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Riemann murió en 1866, a los treinta y nueve años, de tuberculosis, en Selasca, a orillas del lago Mayor, adonde había ido a buscar aire seco. Su mujer estaba con él. Estaba trabajando bajo una higuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Gotinga, su ama de llaves quemó buena parte de los papeles que había dejado sobre la mesa antes de que nadie pudiera mirarlos. Lo que se salvó tardaría setenta años en ser leído, y cambiaría lo que se pensaba de aquellas ocho páginas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Todos los ceros en la misma recta",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "París, 8 de agosto de 1900, Congreso Internacional de Matemáticos. David Hilbert, el matemático más influyente de Europa, sube a exponer los problemas que en su opinión van a ocupar al siglo que empieza. Son veintitrés. El octavo es la hipótesis de Riemann.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A Hilbert se le atribuye la respuesta que dio cuando le preguntaron qué haría si despertara después de dormir quinientos años. Dijo que preguntaría si alguien había demostrado la hipótesis de Riemann. Es probablemente apócrifa y describe el asunto mejor que cualquier dato verdadero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque el problema no está aislado. Durante el siglo veinte se fueron publicando teoremas que empiezan por una frase condicional: si la hipótesis de Riemann es cierta, entonces. Cada uno de ellos es un edificio construido sobre un solar que nadie ha comprobado que sea firme.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La deuda acumulada",
+          frase: "Hay cientos de resultados publicados que dependen de que la hipótesis sea verdad. Si un día se demuestra falsa, no se cae un teorema: se cae una biblioteca entera de matemáticas condicionales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer avance serio lo firma G. H. Hardy en 1914, en Cambridge: demuestra que hay infinitos ceros sobre la recta. Suena a que el problema está resuelto y no lo está en absoluto, porque en el infinito caben cosas raras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay infinitos números pares y también infinitos impares, y eso no impide que la mitad de los números no sean pares. Demostrar que hay infinitos ceros en la recta es compatible con que haya infinitos fuera. Lo que hace falta es demostrar que están todos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El progreso desde entonces se mide en porcentajes. Se ha ido demostrando que al menos una fracción de los ceros está en la recta: primero un tercio, gracias a Levinson en 1974, y después algo más de dos quintos. Falta la mayoría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De Hardy es la mejor anécdota del libro. Tenía que cruzar el mar del Norte en barco de vuelta de Dinamarca, con mal tiempo, y le daba miedo. Antes de embarcar echó una postal a su colega Harald Bohr.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En la postal decía que había demostrado la hipótesis de Riemann. Hardy era ateo militante y su razonamiento era este: si Dios existe, no le va a dar el gusto de morir ahogado pasando a la historia con una gloria que no le corresponde.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mismo año 1914 su colaborador John Littlewood demostró algo que puso muy nerviosa a la profesión. La cuenta real de primos y la estimación de Gauss se cruzan infinitas veces: la estimación no siempre se queda por encima, aunque en todo lo calculado lo hiciera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hasta ese momento, todos los cálculos conocidos apuntaban a que Gauss siempre sobreestimaba. Littlewood demostró que eso es falso. Y ni él ni nadie ha visto jamás un número concreto donde ocurra el cruce, porque el primero está fuera de todo alcance.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su alumno Skewes acotó dónde tenía que haber uno con una cifra tan monstruosa que Hardy la llamó el número más grande que ha servido para algo definido en matemáticas. Las cotas actuales son mucho menores y siguen estando muy lejos de lo computable.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La lección incómoda",
+          frase: "La evidencia numérica miente. Se pueden comprobar billones de casos y estar mirando un tramo demasiado corto para ver lo que pasa. Es el motivo por el que ningún matemático da la hipótesis por buena solo porque los cálculos la respalden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gotinga, 1932. Carl Ludwig Siegel decide meterse en el archivo donde están los papeles de Riemann que sobrevivieron a la quema. Son notas sueltas, sin explicación, con la letra apretada de alguien que escribe para sí mismo y que ahorraba papel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Siegel se pasa meses descifrándolos y encuentra algo que nadie esperaba: una fórmula para calcular ceros que Riemann había desarrollado y no había publicado. Hoy se llama fórmula de Riemann-Siegel y siguió siendo el mejor método disponible durante décadas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "No fue una corazonada",
+          frase: "Riemann no lanzó su hipótesis al aire. Había calculado ceros a mano, con una herramienta que se guardó, y sabía perfectamente de qué estaba hablando. Setenta años se creyó que era una intuición de sobremesa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y queda la pregunta que no tiene respuesta: qué más había en los papeles que el ama de llaves quemó. Nadie lo sabrá nunca, y esa quema es lo más parecido que tienen las matemáticas a la biblioteca de Alejandría.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1913 Hardy había recibido un sobre desde Madrás con matasellos indio. Dentro, páginas de fórmulas sin demostración, firmadas por un empleado de veinticinco años del puerto que no tenía título universitario. Se llamaba Srinivasa Ramanujan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hardy pensó primero que era una broma. Después reparó en que algunos resultados eran conocidos y difíciles, y otros no los había visto en su vida. Su conclusión fue que tenían que ser verdad, porque nadie tendría imaginación suficiente para inventárselos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entre lo que había en aquel sobre estaba, redescubierto por su cuenta, el teorema de los números primos. Ramanujan creía además tener una fórmula exacta para contarlos, y se equivocaba: le faltaba justamente la parte que aportan los ceros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hardy lo llevó a Cambridge, trabajaron juntos cinco años y Ramanujan murió en 1920, a los treinta y dos, de una enfermedad que arrastraba del clima inglés y de una dieta vegetariana imposible de mantener en tiempos de guerra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siguiente en atacar el problema no traía intuición sobrenatural. Traía una caja de engranajes que había mandado fabricar él mismo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los cazadores de ceros",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Cambridge, 1939. Un matemático de veintisiete años pide una subvención de cuarenta libras a la Royal Society para construir una máquina. No es una calculadora de oficina: son ruedas dentadas talladas a medida, cada una con un número de dientes distinto, para simular una suma de ondas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El matemático es Alan Turing y la máquina es para buscar ceros de la función de Riemann. Lo interesante es su intención, que declara sin rodeos: no cree que la hipótesis sea cierta y lo que quiere es encontrar un cero fuera de la recta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El bando de los escépticos",
+          frase: "La lista de matemáticos que han buscado un contraejemplo es tan larga como la de los que han buscado la demostración. Turing entre ellos. Un solo cero fuera de la recta tumbaría el problema en una tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los engranajes se quedaron a medio montar en un laboratorio de Cambridge, porque en septiembre de 1939 empezó la guerra y a Turing lo destinaron a Bletchley Park. La caja siguió allí durante años, con las ruedas sueltas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Volvió al problema en 1950, en Mánchester, con una de las primeras computadoras electrónicas del mundo. Calculó los primeros mil ciento cuatro ceros. Todos estaban en la recta. El escéptico había puesto el primer ladrillo de la evidencia a favor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí, la caza se vuelve un asunto de potencia de cálculo, y aparece un episodio que a los escépticos les dio esperanzas. En 1956 Derrick Lehmer encontró dos ceros casi pegados, tan cerca que la función a punto estuvo de no cruzar el nivel del mar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Se conoce como el fenómeno de Lehmer y se ha repetido después. Si alguna vez esos dos ceros llegaran a fundirse sin cruzar, la hipótesis caería. Es la grieta por donde la profesión ha estado mirando durante setenta años.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En los años ochenta y noventa, Andrew Odlyzko, en los laboratorios de AT&T, dejó de calcular los primeros ceros y se fue a mirar mucho más arriba: ceros en la posición diez elevado a veinte y más allá, donde la estructura, si va a romperse, tendría más sitio para hacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un proyecto de cálculo distribuido, ZetaGrid, y después un trabajo de Xavier Gourdon en 2004 llevaron la comprobación a los diez primeros billones de ceros. Todos, sin una sola excepción, en la recta de parte real un medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y todo eso, después de Littlewood, vale bastante menos de lo que parece. Diez billones de casos es una cantidad ridícula frente al infinito, y ya se sabe que en este problema concreto los primeros billones de números pueden dar una impresión equivocada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Don Zagier apostó con Enrico Bombieri dos botellas de Burdeos a que entre los primeros trescientos millones de ceros aparecería uno fuera de la recta. Odlyzko los calculó. Zagier pagó las botellas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Bombieri se cobró la deuda a su manera. El 1 de abril de 1997 mandó un correo a varios colegas anunciando que un físico joven había demostrado la hipótesis en una charla. La noticia dio la vuelta al mundo matemático antes de que a nadie se le ocurriera mirar la fecha.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El episodio más importante del libro, sin embargo, no ocurrió delante de un ordenador, sino en una sala de té. Princeton, 1972, hora del té en el Instituto de Estudios Avanzados. Un doctorando llamado Hugh Montgomery cuenta lo que ha estado calculando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Montgomery ha encontrado una fórmula que describe cómo de separados están los ceros entre sí: no la posición de cada uno, sino su estadística, la tendencia que tienen a no amontonarse. La escribe. Freeman Dyson, físico, pasaba por allí y la reconoce al instante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dyson le dice que esa fórmula es exactamente la que describe los niveles de energía de los núcleos atómicos pesados, un asunto de física nuclear que él había estudiado con matrices aleatorias veinte años antes y que no tiene ninguna relación con los números primos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La coincidencia de la sala de té",
+          frase: "Los ceros de Riemann se reparten con la misma estadística que los niveles de energía de un núcleo de uranio. Nadie sabe por qué. Es la pista más fuerte que existe y lleva cincuenta años sin explicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa coincidencia reanimó una idea antigua atribuida a Hilbert y a Pólya: que los ceros son los valores propios de algún operador, de esos que en física dan energías. Si se encontrara ese operador, la hipótesis saldría sola, porque esas energías son forzosamente reales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Michael Berry y Jonathan Keating llevaron la idea más lejos y describieron cómo tendría que ser ese sistema físico hipotético: uno caótico, sin simetría temporal. La rama se llama caos cuántico y es hoy la vía más transitada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alain Connes ha atacado el problema desde la geometría no conmutativa, construyendo un espacio en el que los ceros aparecerían como algo geométrico. Du Sautoy dedica bastantes páginas a esa vía y la presenta como si estuviera a punto de dar fruto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en 2003. Han pasado más de veinte años y ninguno de esos programas ha producido una demostración. Es el envejecimiento normal de la divulgación, y conviene tenerlo presente al leer los capítulos finales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, los anuncios de demostración se repiten cada pocos años. Louis de Branges, que había resuelto de verdad otra conjetura importante, ha anunciado varias veces que la tenía. Ninguna ha sobrevivido a la revisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en el año 2000 alguien decidió ponerle precio al asunto, con la esperanza de que eso acelerara las cosas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El millón de dólares sigue en el banco",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "París, 24 de mayo de 2000, Collège de France. El Instituto Clay de Matemáticas anuncia siete problemas del milenio y un millón de dólares para quien resuelva cada uno. La elección de la ciudad y de la fecha es deliberada: cien años después de la lista de Hilbert.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De los siete, la hipótesis de Riemann es el único que ya estaba en la lista de Hilbert. Los demás son problemas del siglo veinte. Este llevaba entonces ciento cuarenta y un años abierto, y hoy va por ciento sesenta y seis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De los siete solo se ha resuelto uno, la conjetura de Poincaré, que demostró Grigori Perelman en 2003 publicándola en internet sin pasar por ninguna revista. Rechazó el millón de dólares y también la medalla Fields, y se retiró de las matemáticas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dice el premio",
+          frase: "Que un problema lleve un millón de dólares encima no ha hecho que se resuelva antes. El único de los siete que ha caído lo resolvió alguien que no quiso cobrarlo. El dinero es publicidad, no motivación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "¿Qué cambiaría si mañana alguien la demostrara? Lo primero, que se acotaría de una vez el error de la estimación de Gauss, y con la cota más pequeña posible. Se sabría exactamente cómo de irregulares pueden llegar a ser los primos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo, y más importante en la práctica: esos cientos de teoremas que hoy empiezan por «si la hipótesis es cierta» dejarían de ser condicionales de golpe. Sería la mayor conversión de deuda en propiedad de la historia de las matemáticas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora, lo que casi todo el mundo cree y no es verdad. Lo primero, y es el fallo del libro que más se ha propagado: que demostrar la hipótesis de Riemann hundiría la seguridad de internet.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La criptografía RSA usa números primos grandes, sí. Pero su seguridad no depende de dónde estén los primos: depende de que factorizar un número enorme sea lento. Son dos problemas distintos, y una demostración de la hipótesis no trae ningún método de factorización.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "clave",
+          rotulo: "El matiz que el libro no hace",
+          frase: "Lo que rompería la criptografía actual es un algoritmo rápido de factorización, o un ordenador cuántico suficientemente grande. La hipótesis de Riemann no es ni una cosa ni la otra, y su demostración no cambiaría una sola contraseña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí es cierto, y es una nota a pie de página convertida en titular: algunos algoritmos para generar y comprobar primos tienen su garantía de rapidez demostrada suponiendo una versión generalizada de la hipótesis. Si fuera falsa, habría que revisar unas garantías teóricas, no cambiar los sistemas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo malentendido: que la hipótesis dice que los primos son aleatorios. Dice justo lo contrario. Dice que su desviación respecto a la estimación es la más pequeña que podría ser: que son todo lo ordenados que un conjunto tan disperso puede llegar a ser.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que Riemann la soltó como una intuición sin fundamento. Hasta 1932 se creyó eso, y la fórmula que encontró Siegel entre sus papeles demostró que había calculado ceros a mano antes de escribir aquella frase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: que es un problema de matemáticos puros sin ninguna consecuencia. La distribución de los primos se toca en criptografía, en teoría de códigos y en física estadística. Lo que no tiene es la consecuencia catastrófica que se le atribuye.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahora dónde falla el libro. Lo primero, y es estructural: es un libro de personajes más que de matemáticas. Se termina sabiendo contar la historia de Ramanujan, la postal de Hardy y la sala de té de Princeton.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin saber decir con precisión qué hace la función zeta. Du Sautoy decidió no poner ni una fórmula, que es una decisión editorial legítima y muy común, y el precio que se paga es que el objeto central del libro queda borroso durante trescientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo es la metáfora del título. La música de los primos se repite en cada capítulo y no se explica del todo: el lector nunca llega a ver por qué un cero es una onda ni cómo se suman. Se le pide que acepte la imagen y siga.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo tercero es de fecha. Los capítulos sobre Connes y sobre el caos cuántico están escritos con una expectativa de inminencia que veinte años después no se sostiene. No es culpa del autor, y sí una razón para leerlos con distancia.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo cuarto es el capítulo de criptografía, que es a la vez el más citado y el más flojo. Sirvió para vender el libro a lectores que no habrían abierto un libro de teoría de números, y ha dejado circulando una idea falsa que hoy se repite en todas partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hace muy bien, y no es poco, es enseñar que las matemáticas las hacen personas concretas, con apuestas de botellas de vino, bromas del día de los inocentes, rivalidades nacionales y miedo a los barcos. Casi ningún libro del género consigue eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la idea de fondo, quitada la música y quitados los personajes, cabe en tres frases que sí se pueden repetir sin equivocarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primos parecen tirados al azar, y no lo están: se puede predecir cuántos hay hasta cualquier punto. La hipótesis dice que el error de esa predicción está acotado, y acotado lo mínimo posible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que ese límite depende de que unos puntos invisibles estén todos alineados en una recta de un plano imaginario. Ciento sesenta y seis años después, nadie sabe si la recta aguanta.",
+        },
+      ],
+    },
+  ],
+};
