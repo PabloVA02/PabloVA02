@@ -123,7 +123,7 @@ export const CATALOGO: Ficha[] = [
   { id: "doble-helice", titulo: "La doble hélice", autor: "James D. Watson", ano: 1968, categoria: "Ciencia", estado: "escrito" },
   { id: "revoluciones-cientificas", titulo: "La estructura de las revoluciones científicas", autor: "Thomas S. Kuhn", ano: 1962, categoria: "Ciencia", estado: "escrito" },
   { id: "siete-lecciones-fisica", titulo: "Siete breves lecciones de física", autor: "Carlo Rovelli", ano: 2014, categoria: "Ciencia", estado: "escrito" },
-  { id: "orden-del-tiempo", titulo: "El orden del tiempo", autor: "Carlo Rovelli", ano: 2017, categoria: "Ciencia", estado: "pendiente" },
+  { id: "orden-del-tiempo", titulo: "El orden del tiempo", autor: "Carlo Rovelli", ano: 2017, categoria: "Ciencia", estado: "escrito" },
   { id: "henrietta-lacks", titulo: "La vida inmortal de Henrietta Lacks", autor: "Rebecca Skloot", ano: 2010, categoria: "Ciencia", estado: "escrito" },
   { id: "emperador-males", titulo: "El emperador de todos los males", autor: "Siddhartha Mukherjee", ano: 2010, categoria: "Ciencia", estado: "escrito" },
   { id: "pulgar-panda", titulo: "El pulgar del panda", autor: "Stephen Jay Gould", ano: 1980, categoria: "Ciencia", estado: "escrito" },
