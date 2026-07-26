@@ -2698,3 +2698,704 @@ export const PODER_AHORA: Resumen = {
     },
   ],
 };
+
+export const PODER_HABITOS: Resumen = {
+  id: "poder-habitos",
+  titulo: "El poder de los hábitos",
+  autor: "Charles Duhigg",
+  ano: 2012,
+  gancho: "Un comandante americano en Irak estudió las grabaciones de veinte disturbios, encontró un patrón y consiguió que la plaza se vaciara sin disparar un tiro. Lo único que hizo fue quitar los puestos de comida.",
+  porQue:
+    "Porque explicó a millones de personas cómo funciona un hábito, y porque uno de sus cuatro pilares —la fuerza de voluntad como músculo— se ha caído en los diez años siguientes y casi nadie lo ha contado.",
+  partes: [
+    {
+      titulo: "La plaza de Kufa",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Kufa, Irak, 2003. Un comandante del ejército estadounidense lleva semanas viendo cómo se repiten los disturbios en la plaza mayor de la ciudad. Cada vez acaban igual: pedradas, gases lacrimógenos, heridos y una relación con la población un poco peor que el día anterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En lugar de pedir más soldados, se pone a ver las grabaciones de los altercados anteriores buscando un patrón. Y lo encuentra. Todos empiezan igual: se junta un grupo pequeño, crece a lo largo de la tarde, y en algún momento llegan los vendedores ambulantes de comida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La gente compra, se queda, la plaza se llena, aparecen los curiosos, aparecen los que van a mirar, y al caer la tarde alguien tira la primera piedra. La secuencia se repite con una regularidad que en el vídeo resulta casi ridícula.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pidió",
+          frase: "Fue a ver al alcalde y le pidió una sola cosa: que los vendedores de comida no entraran en la plaza. Aquella tarde el grupo se juntó como siempre, a las siete la gente empezó a tener hambre, y a las ocho no quedaba nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa escena abre el libro y contiene su tesis entera: los comportamientos que parecen decisiones son en realidad secuencias automáticas, y para cambiarlos no hace falta convencer a nadie, basta con alterar una pieza pequeña de la secuencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor es Charles Duhigg, periodista del New York Times, que en 2013 formó parte del equipo que ganó el Pulitzer por una serie de reportajes sobre las condiciones de fabricación en las cadenas de suministro tecnológicas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso importa para leer el libro: no lo escribió un científico. Lo escribió un reportero que fue a buscar a los científicos, y el libro tiene las virtudes y los defectos de eso. Se lee estupendamente y a veces convierte un estudio en una historia con más certeza de la que el estudio tenía.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El armazón teórico viene de un laboratorio del Instituto Tecnológico de Massachusetts, donde en los años noventa se estudiaba qué pasa en el cerebro de una rata que aprende a recorrer un laberinto en forma de te con chocolate en un extremo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al principio, la actividad cerebral de la rata está disparada durante todo el recorrido: olfatea, duda, se equivoca, gira. A medida que repite el trayecto, esa actividad se desploma. Después de cientos de intentos, el recorrido entero apenas produce señal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo interesante es dónde se queda la señal. No desaparece del todo: sube al principio, cuando se abre la compuerta, y vuelve a subir al final, cuando aparece el chocolate. En medio, casi nada. La rata recorre el laberinto sin pensar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El bucle del hábito",
+          frase: "De ahí sale el esquema de tres piezas que ha hecho famoso este libro: una señal que dispara el comportamiento, una rutina que se ejecuta sin decidirla, y una recompensa que hace que el cerebro archive la secuencia como buena y la repita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa compresión tiene un nombre técnico y una función evolutiva evidente: liberar capacidad. Si hubiera que decidir cada movimiento de conducir, de andar o de cepillarse los dientes, no quedaría atención para nada más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los hábitos no se guardan donde se guardan los recuerdos. Se guardan en unas estructuras profundas del cerebro, los ganglios basales, que funcionan de manera bastante independiente de la memoria consciente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La prueba de eso es el caso más impresionante del libro, y es real. Un hombre llamado Eugene Pauly contrajo a los setenta y un años una encefalitis vírica que le destruyó una parte del lóbulo temporal medial, incluido el hipocampo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Después de aquello no podía retener un dato nuevo más de un minuto. No sabía el año, no reconocía a su nieto, no recordaba haber comido hace diez minutos y saludaba a los investigadores como si fuera la primera vez cada mañana durante años.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y sin embargo aprendió cosas. Aprendió a dar un paseo por su barrio y volver a casa sin perderse. Si le preguntabas dónde vivía, no sabía contestar. Si lo sacabas a la calle, sus pies lo llevaban de vuelta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aprendió también dónde estaba la cocina de una casa nueva a la que se habían mudado después de su enfermedad, y podía ir a buscar la comida. No podía dibujar el plano ni describirlo, pero sus piernas lo sabían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los investigadores hicieron con él un experimento sencillo: le enseñaron parejas de objetos, con un premio escondido siempre debajo del mismo, y él fue eligiendo bien cada vez con más frecuencia mientras seguía jurando que era la primera vez que veía aquello.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que demuestra ese caso",
+          frase: "Que los hábitos y la memoria son sistemas distintos. Se puede saber hacer algo sin recordar haberlo aprendido, y esa es la razón por la que un hábito no se cambia sabiendo que es malo. Saberlo no llega al sitio donde vive.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un dato del propio Eugene que se cuenta de pasada y que es el más duro del capítulo: cuando su mujer intentó cambiar la disposición de la cocina, él se perdía dentro de su propia casa y se ponía furioso sin poder explicar por qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Duhigg cita una estimación, atribuida a investigadores de Duke, de que en torno al cuarenta por ciento de lo que hacemos cada día no son decisiones sino hábitos. Es una cifra que se repite en todas partes y que conviene tomarse como orden de magnitud y no como dato exacto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con ese esquema montado, la pregunta práctica es obvia: si el bucle tiene tres piezas, ¿cuál se toca para cambiarlo?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la respuesta del libro no es ninguna de las tres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una cuarta cosa que no está en el esquema y que aparece cuando el hábito lleva tiempo instalado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El deseo anticipado de la recompensa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la mejor manera de explicarlo es una campaña de publicidad de 1900 que consiguió que un país entero se lavara los dientes.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El hormigueo de la pasta de dientes",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Estados Unidos, 1900. Solo un siete por ciento de los hogares tiene pasta de dientes en el cuarto de baño. Lavarse los dientes no es una costumbre nacional: es algo que hace la gente con dinero y a veces. Diez años después lo hace más de la mitad del país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El responsable es un publicista llamado Claude Hopkins, al que un amigo le ofrece promocionar una pasta nueva llamada Pepsodent. Hopkins había rechazado antes otras cinco pastas de dientes porque el negocio le parecía imposible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hizo fue buscar una señal: algo que todo el mundo pudiera ver todos los días y que disparara el gesto. Y lo encontró en un manual de odontología, en la descripción de la película de mucina que se forma sobre el esmalte.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La campaña",
+          frase: "Pásate la lengua por los dientes y notarás una película. Esa película es lo que los afea. Los anuncios pedían al lector que hiciera el gesto en ese mismo momento. La señal estaba dentro de la boca de todo el mundo y no fallaba nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle científico es que esa película es natural, se forma pase lo que pase y se quita con la lengua o comiendo una manzana. No tiene nada que ver con la caries y ninguna pasta la elimina de forma duradera. Daba igual: funcionaba como disparador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero Hopkins hizo una segunda cosa, sin saber lo que estaba haciendo, y esa es la que explica que el hábito se quedara. Pepsodent llevaba ácido cítrico y aceite de menta, y esos ingredientes producen un hormigueo fresco en la boca.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese hormigueo no limpia nada. Es completamente inútil desde el punto de vista dental. Y es la razón por la que la gente siguió cepillándose: porque el cerebro empezó a esperar esa sensación, y en cuanto no la tenía, la echaba de menos.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todas las pastas de dientes que se venden hoy llevan agentes que producen esa frescura, y todas por el mismo motivo. Si mañana desaparecieran, la gente sentiría que no se ha lavado los dientes aunque se los hubiera lavado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro llama a eso el ansia, y sostiene que es lo que convierte una rutina repetida en un hábito de verdad. Sin ansia, el bucle se ejecuta mientras dura la motivación. Con ansia, se ejecuta solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraejemplo del capítulo es todavía más didáctico. A finales de los noventa, Procter and Gamble lanzó un producto que eliminaba los olores de los tejidos, sin perfume y sin dejar rastro. Funcionaba técnicamente y no lo compraba nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El equipo de investigación fue a las casas de las clientas y encontró el problema: la gente que más lo necesitaba —una mujer con nueve gatos, por ejemplo— no olía nada, porque uno se acostumbra a su propio olor y deja de percibirlo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que arreglaron",
+          frase: "No había señal ni recompensa: no notaban el mal olor antes ni notaban nada después. La solución fue añadirle perfume, para que al terminar de limpiar la habitación oliera bien. El producto pasó a ser el premio final de una limpieza, y empezó a venderse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es exactamente el mismo mecanismo que el hormigueo de la pasta: una recompensa sensorial inmediata, que no aporta nada al efecto real del producto, y que es lo único que hace que se repita el gesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale lo que Duhigg llama la regla de oro del cambio de hábitos, que es la parte más aplicable del libro y la que más se cita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un hábito no se elimina. Se sustituye. Se mantienen la misma señal y la misma recompensa, y se cambia únicamente lo que hay en medio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Quien fuma al salir del trabajo no necesita el tabaco: necesita la pausa de cinco minutos, el aire y la interrupción. Quitarle el cigarro y no darle una pausa equivalente es dejar la señal y la recompensa colgando, y el bucle busca la manera de cerrarse.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo personal es una galleta que se comía todas las tardes en la cafetería de la redacción. Se pasó semanas experimentando y descubrió que lo que buscaba no era el azúcar: era levantarse de la mesa y charlar con alguien diez minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cambió la galleta por acercarse a hablar con un compañero, mantuvo la hora exacta y la recompensa social, y el hábito de la galleta desapareció. Ese diagnóstico —averiguar qué recompensa se está buscando de verdad— es el trabajo difícil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro propone un método para hacerlo: probar recompensas distintas ante la misma señal, y después de cada una, anotar tres palabras y esperar quince minutos. Si la sensación de necesidad vuelve, esa no era.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso extremo de sustitución es Alcohólicos Anónimos, que Duhigg analiza con cuidado. No promete quitar la bebida: reemplaza el bar por la reunión, el compañero de barra por el padrino y el alivio químico por hablar con alguien que ha pasado por lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí aparece un cuarto elemento que el esquema de tres piezas no contempla. En los estudios sobre recaídas, la sustitución aguanta bien la vida normal y se rompe en las crisis: un despido, una muerte, un diagnóstico.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pieza que falta",
+          frase: "Los que no recaían en las crisis tenían algo que los otros no: creían que su vida podía mejorar. Y esa creencia casi nunca aparece sola. Aparece en grupo, viendo a otros a los que les ha funcionado. Es lo que hacen los grupos de apoyo y no las reuniones de motivación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una idea incómoda para un libro de mecanismos, porque significa que el bucle de tres piezas no basta y que hace falta algo que no se puede diseñar desde fuera. Duhigg lo dice y no lo desarrolla mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hasta aquí, el libro va de individuos. La segunda parte cambia de escala y va a empresas, y arranca con la historia que más se ha contado en escuelas de negocios de todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Octubre de 1987, Manhattan. Una sala llena de inversores espera al nuevo director general de una compañía de aluminio de la que se dice que está en decadencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre sube al estrado y anuncia que quiere hablarles de una sola cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La seguridad de los trabajadores.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El día que Alcoa dejó de hablar de beneficios",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El hombre se llamaba Paul O'Neill, acababa de ser nombrado director general de Alcoa, y les dijo a los inversores que su objetivo era convertirla en la empresa más segura de Estados Unidos y que iba a por cero accidentes laborales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No mencionó los márgenes, ni los costes, ni la cuota de mercado. Un inversor salió de la sala y llamó a sus clientes para decirles que vendieran, que el consejo había puesto al frente a un hippie que iba a hundir la empresa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pasó después",
+          frase: "Quien vendió aquel día perdió mucho dinero. En los trece años de O'Neill, los beneficios anuales de Alcoa se multiplicaron y su valor en bolsa creció enormemente. Y los accidentes bajaron hasta una fracción diminuta de la media del sector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su método era este: cada vez que alguien se hiciera daño, el responsable de la planta tenía que informarle a él en veinticuatro horas con un plan para que no volviera a ocurrir. Y quien no lo hiciera no ascendía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para cumplir eso hacía falta que un obrero pudiera avisar a su encargado, y el encargado al jefe de planta, y este a la dirección, en un día. Es decir: hacía falta construir canales de comunicación que no existían en una empresa con plantas en decenas de países.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una vez construidos esos canales, empezaron a circular por ellos otras cosas. Sugerencias de mejora de procesos. Avisos de defectos. Ideas de los operarios que antes se quedaban en la planta y ahora llegaban a la dirección en veinticuatro horas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el concepto central del capítulo: hay hábitos que arrastran a otros. Duhigg los llama angulares, y su característica es que no producen su efecto directamente, sino porque obligan a cambiar estructuras que sirven para todo lo demás.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el plano personal, el hábito angular más documentado es el ejercicio. La gente que empieza a hacer deporte suele acabar comiendo mejor, fumando menos, gastando menos y siendo más productiva en el trabajo, sin habérselo propuesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación que propone es que el ejercicio produce una pequeña victoria diaria y comprobable, y que esa victoria cambia lo que uno cree que es capaz de hacer. A partir de ahí, otras cosas dejan de parecer imposibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otros que menciona: cenar en familia, hacer la cama por las mañanas y llevar un registro de lo que se come. Ninguno de los tres produce por sí solo un cambio importante, y los tres se asocian con cadenas de cambios posteriores.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El matiz que hay que hacer",
+          frase: "Esas asociaciones son correlaciones, no causas demostradas. Quien hace la cama todas las mañanas es probablemente una persona con cierta organización previa, y la cama es un síntoma tanto como una causa. El libro no hace esa distinción con suficiente cuidado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro caso del capítulo es Michael Phelps, el nadador con más medallas olímpicas de la historia, y su entrenador Bob Bowman, que desde que Phelps era un adolescente le hizo instalar una rutina muy concreta antes de cada carrera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todas las noches, antes de dormir, Phelps se pasaba la carrera entera por la cabeza: la entrada al agua, cada brazada, el burbujeo, el viraje, el tacto de la pared. Bowman lo llamaba poner el vídeo, y lo hacían también antes de nadar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En los Juegos de Pekín de 2008, en la final de doscientos mariposa, a Phelps se le llenaron las gafas de agua desde el primer largo y nadó los últimos cien metros prácticamente a ciegas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Contó luego lo que hizo: como se sabía de memoria cuántas brazadas necesitaba, contó. Cuando llegó a la cuenta prevista para el último largo, estiró el brazo y tocó la pared. Ganó con récord del mundo sin ver el borde de la piscina.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El uso que hace el libro de esa historia es correcto: la rutina de visualización no lo hizo nadar más rápido; lo que hizo fue que una situación imprevista no lo sacara de su secuencia automática.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una parte del libro dedicada a las organizaciones que suele ignorarse y que es la mejor escrita, sobre lo que ocurre cuando los hábitos institucionales fallan. El ejemplo es el incendio de la estación de King's Cross en Londres, en 1987.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un pasajero vio una cerilla encendida caer por una escalera mecánica y no avisó a nadie, porque no era su trabajo. Un empleado que vio humo no llamó a los bomberos, porque avisar de fuego correspondía a otro departamento y no se pisaban las competencias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fuego se alimentó de la grasa y la pelusa acumuladas debajo de la escalera de madera, subió por el hueco y estalló en el vestíbulo. Murieron treinta y una personas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El diagnóstico",
+          frase: "No fue negligencia individual: fue una tregua institucional. Los departamentos habían pactado tácitamente no meterse en el terreno del otro, y ese pacto funcionaba bien en la operación diaria y era letal en una emergencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Duhigg sostiene que casi todas las organizaciones funcionan así, con acuerdos no escritos que reparten poder, y que esos acuerdos solo se ven cuando algo se rompe. Es la parte del libro más útil para cualquiera que trabaje en una empresa mediana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda mitad del libro se ocupa entonces de lo que ocurre cuando el hábito choca con la voluntad, y ahí es donde el libro apuesta más fuerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con un experimento de los años noventa que se ha convertido en el más citado de la psicología de la fuerza de voluntad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Consiste en poner a unos estudiantes delante de un cuenco de rábanos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de una bandeja de galletas de chocolate recién hechas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El rábano y las galletas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El experimento lo diseñó Roy Baumeister en 1996. Se cita a los participantes sin desayunar en una habitación donde huele a galletas recién horneadas. Sobre la mesa hay dos cuencos: uno con galletas de chocolate y otro con rábanos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A la mitad se les dice que pueden comer galletas. A la otra mitad, que solo pueden comer rábanos, y se los deja solos con las galletas delante durante cinco minutos, observándolos por una ventana para comprobar que resisten.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después, a todos se les da un rompecabezas geométrico y se mide cuánto tiempo insisten antes de rendirse. El rompecabezas es irresoluble: lo que se mide no es la habilidad, es la persistencia.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El resultado",
+          frase: "Los que habían comido galletas insistieron una media de unos diecinueve minutos. Los que habían resistido comiendo rábanos aguantaron unos ocho. Resistir la tentación durante cinco minutos les había dejado sin reservas para lo siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la idea de la fuerza de voluntad como un músculo: un recurso limitado que se gasta con el uso, que se agota a lo largo del día y que se puede entrenar para que aguante más. Se la llamó agotamiento del yo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una de las ideas de psicología más difundidas de las últimas décadas. Explica por qué la gente cumple la dieta a mediodía y la rompe a las once de la noche, y por qué a quien ha tenido un día horrible en el trabajo le cuesta más ir al gimnasio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y hay que decir ya, antes de seguir, que esa idea es la parte del libro que peor ha envejecido. En 2016, una réplica coordinada entre veintitrés laboratorios de varios países no encontró prácticamente ningún efecto.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El agotamiento del yo se convirtió en uno de los casos emblemáticos de la crisis de replicación de la psicología: cientos de estudios publicados, un efecto que parecía sólido, y que al someterlo a réplicas preregistradas y con muestras grandes se deshizo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no significa que la fuerza de voluntad no exista ni que no se canse nadie. Significa que el modelo del depósito que se vacía no está demostrado, y que lo que se observa se explica probablemente mejor por motivación, por atención y por lo que uno cree sobre su propio cansancio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Duhigg publicó en 2012, antes de que esa literatura se cayera. No es un error suyo, y sí es la razón por la que este libro no se puede leer hoy como se leía entonces, y por la que este capítulo hay que tomarlo con distancia.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sí ha aguantado",
+          frase: "El estudio escocés de rehabilitación de cadera y rodilla, que aparece en el mismo capítulo, se sostiene mucho mejor. Y su conclusión es más útil que la del músculo, porque no depende de ninguna teoría sobre reservas mentales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A un grupo de pacientes recién operados, con una media de sesenta y ocho años, se les dio un cuaderno con páginas en blanco y se les pidió que escribieran sus objetivos de recuperación para la semana siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La mayoría escribió cosas vagas o no escribió nada. Pero un tercio escribió planes concretos con hora y lugar: el miércoles voy a andar hasta la parada del autobús a buscar a mi mujer, y si me duele me sentaré en el banco de la esquina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esos pacientes empezaron a andar casi el doble de rápido que los demás, se levantaron de la silla antes y recuperaron la movilidad en la mitad de tiempo. La diferencia no estaba en la fisioterapia, que era idéntica.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Estaba en que habían anticipado el momento difícil y decidido de antemano qué harían. Esa técnica tiene nombre en la literatura, intenciones de implementación, y es de las cosas mejor replicadas de la psicología del cambio de conducta.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La fórmula es de una simplicidad casi insultante: cuando ocurra tal cosa, haré tal otra. No sirve proponerse hacer más ejercicio; sirve escribir que los martes a las siete se sale a correr, y qué se hará si llueve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro caso del capítulo es Starbucks, que en los años dos mil tenía un problema con empleados jóvenes, muchos sin experiencia laboral previa, que se venían abajo ante un cliente que gritaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En vez de dar cursos de actitud, la empresa identificó los momentos concretos en los que las cosas se torcían y escribió un guion para cada uno: qué decir exactamente cuando un cliente se enfada, cuando se derrama algo, cuando hay cola y falta un compañero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los empleados ensayaban esas escenas en voz alta hasta que salían automáticas, y así el momento crítico dejaba de exigir una decisión bajo presión y pasaba a ser una secuencia aprendida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Duhigg lo presenta como entrenamiento de la fuerza de voluntad. Se puede describir sin esa teoría y funciona igual: convertir los puntos de inflexión previsibles en rutinas ensayadas de antemano.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La otra cosa que encontraron",
+          frase: "Los guiones funcionaban mucho peor si el empleado sentía que no pintaba nada en su trabajo. Cuando se les dio margen para decidir cosas pequeñas —horarios, cómo organizar el turno—, el rendimiento en esos momentos difíciles mejoró bastante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese matiz sí encaja con la literatura posterior: lo que sostiene el esfuerzo no parece ser un depósito de energía, sino la sensación de que uno está haciendo algo que ha elegido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La última parte del libro sale del individuo y de la empresa y se mete en un terreno bastante más resbaladizo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El de los hábitos sociales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y empieza con una mujer que un jueves por la tarde no se levantó de un asiento.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El autobús de Montgomery",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Montgomery, Alabama, 1 de diciembre de 1955. Una mujer negra de cuarenta y dos años se niega a cederle su asiento a un pasajero blanco en un autobús urbano. La detienen esa misma tarde. Se llamaba Rosa Parks.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Duhigg se hace la pregunta correcta: no había sido la primera. Meses antes, una chica de quince años, Claudette Colvin, había hecho exactamente lo mismo en la misma ciudad y no pasó nada. ¿Por qué esta vez sí?",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su respuesta",
+          frase: "Porque Rosa Parks estaba metida en decenas de círculos sociales distintos de la ciudad: la iglesia, un club de costura, asociaciones vecinales, grupos de voluntariado. Al detenerla, la noticia llegó a la vez a comunidades que no se hablaban entre sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mecanismo que propone tiene base sociológica: los lazos fuertes —familia, amigos— movilizan a poca gente; los lazos débiles —conocidos, vecinos, gente de la parroquia— son los que hacen que algo se extienda, porque conectan grupos separados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso añade la presión del entorno: cuando el boicot arrancó, no participar significaba quedar mal ante los vecinos, ante el pastor y ante el grupo de costura, y esa presión sostuvo trescientos ochenta y un días de no coger el autobús.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una tercera pieza: que el movimiento le dio a la gente nuevos hábitos y una identidad nueva, con las reuniones semanales en las iglesias, la organización de coches compartidos y la formación en resistencia no violenta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahora, este capítulo es el más criticado del libro y con razón. Rosa Parks no era una costurera cansada que actuó por impulso: era secretaria de la sección local de la asociación nacional para el progreso de la gente de color y llevaba doce años de activismo.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Meses antes de aquel día había asistido a un curso de formación en desobediencia civil en una escuela de Tennessee. Su gesto no fue espontáneo, y la organización que había detrás llevaba años esperando el caso adecuado para llevarlo a los tribunales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso de Claudette Colvin no se usó, entre otras razones, porque quedó embarazada y los organizadores temieron que el rival lo utilizara para desacreditar el caso. Es una decisión estratégica, no un fenómeno de redes sociales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contarlo como una historia de lazos débiles convierte una campaña política preparada durante años en un fenómeno casi automático, y le quita el mérito a la gente que la organizó. Ese es el reproche, y es serio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema de fondo del libro",
+          frase: "Es el mismo en los tres capítulos de empresas y en este: coge un resultado conocido y lo explica hacia atrás con un solo factor. El éxito de Alcoa se atribuye a la seguridad laboral; el boicot, a los lazos débiles. Suena impecable y no se puede comprobar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alcoa vendió divisiones, reestructuró plantas, se benefició de ciclos favorables del precio del aluminio y tuvo un director general excepcional en muchas más cosas que en seguridad. Nada de eso aparece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el defecto característico de la divulgación construida sobre casos: la historia se elige porque el final es bueno, y después se busca la causa. Los cientos de empresas que priorizaron la seguridad laboral y quebraron igualmente no dan para un capítulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El último capítulo del libro plantea la pregunta que todo el mundo se hace al llegar hasta aquí: si tanto de lo que hacemos es automático, ¿de qué somos responsables?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo hace enfrentando dos casos reales. Un hombre británico que mató a su mujer mientras dormía, con un trastorno del sueño diagnosticado, y al que un tribunal absolvió porque no había ninguna conciencia implicada en el acto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y una mujer que perdió la casa de sus padres y se arruinó jugando en casinos, arrastrada por un hábito que ella describía igual de incontrolable, y a la que un tribunal condenó a pagar hasta el último dólar de sus deudas de juego.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia que establece Duhigg es que ella sabía que tenía el hábito y él no podía saberlo. Y de ahí saca la conclusión moral del libro: en cuanto conoces el bucle, pasa a ser responsabilidad tuya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una conclusión discutible, y es la misma que hace que este tipo de libros resulten a la vez estimulantes y un poco crueles: si todo se reduce a identificar la señal y cambiar la rutina, quien no lo consigue es porque no ha querido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree de este libro y no es verdad. Lo primero: que dice que un hábito se instala en veintiún días. No lo dice en ninguna página, y esa cifra viene de otro sitio y no tiene respaldo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que los hábitos se pueden eliminar. La propia regla de oro del libro dice lo contrario: se sustituye la rutina y se conservan la señal y la recompensa, porque el bucle no se borra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero, y es el más importante: que la fuerza de voluntad es un músculo que se agota. Esa es la parte que no ha resistido las réplicas, y quien organice su vida alrededor de administrar un depósito que quizá no existe está resolviendo un problema equivocado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: que Rosa Parks era una mujer cansada que se negó sin más. Era una activista formada, con doce años de militancia, y detrás había una organización esperando el momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quinto: que es un manual. Es un libro de reportajes. El método práctico está en un apéndice de veinte páginas que el autor añadió porque los lectores se lo pidieron después de publicarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quitado todo eso, queda bastante y queda bueno. El bucle de señal, rutina y recompensa sigue siendo la mejor manera sencilla de mirar un comportamiento propio y entender por qué se repite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La regla de sustituir en vez de suprimir sigue siendo el consejo más práctico que existe sobre dejar algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y los planes escritos con hora, lugar y contingencia siguen siendo, diez años después, una de las técnicas con más apoyo experimental de toda la psicología aplicada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se sostiene si se lee como lo que es: un reportaje excelente sobre una idea razonable, escrito antes de que una parte de su cimiento se cayera.",
+        },
+      ],
+    },
+  ],
+};
