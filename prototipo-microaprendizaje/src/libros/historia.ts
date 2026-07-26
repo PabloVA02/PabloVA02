@@ -8236,3 +8236,640 @@ export const EICHMANN_JERUSALEN: Resumen = {
     },
   ],
 };
+
+export const POSTGUERRA: Resumen = {
+  id: "postguerra",
+  titulo: "Postguerra",
+  autor: "Tony Judt",
+  ano: 2005,
+  gancho:
+    "Europa en 1945 era un continente de escombros, hambre y treinta millones de muertos. Cómo salió de ahí es la mejor historia que se ha escrito de nuestro propio siglo.",
+  porQue:
+    "Explica de dónde salieron el estado del bienestar, la Unión Europea y la Transición española, y por qué nada de eso era inevitable. Y termina con la idea más incómoda del libro: que Europa se reconstruyó sobre un acuerdo de no recordar.",
+  partes: [
+    {
+      titulo: "El año cero",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En el verano de 1945, un observador que cruzara Europa de Normandía a Varsovia habría visto una sucesión de ciudades sin centro. Berlín tenía cuarenta metros cúbicos de escombros por habitante. Varsovia había sido demolida a propósito, edificio por edificio, después de sofocar el alzamiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cifra de muertos europeos de la guerra ronda los treinta y seis millones y medio, más o menos la población de Francia en aquel momento. La mayoría eran civiles, y en el este de Europa las proporciones son de otro orden: Polonia perdió alrededor de una de cada cinco personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Judt empieza el libro por ahí, y no por la política, porque su primera tesis es material. Sostiene que no se entiende nada de lo que vino después si no se ve primero la escala de la destrucción física y humana sobre la que hubo que construir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Había además unos trece millones de personas desplazadas dentro de Alemania y Austria: prisioneros de guerra, trabajadores forzados traídos de media Europa, supervivientes de los campos. Los aliados tenían que alimentarlos, clasificarlos y decidir a qué país devolvía cada uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí introduce el dato que más cuesta encajar y que casi no se enseña. Entre 1945 y 1950, unos doce o trece millones de alemanes fueron expulsados de Polonia, Checoslovaquia, Hungría y Yugoslavia, de territorios donde sus familias llevaban siglos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fue el mayor traslado forzoso de población de la historia europea, se hizo con la aprobación explícita de los aliados en Potsdam, y murieron en el camino centenares de miles de personas. En los primeros meses, antes de organizarse, las expulsiones fueron directamente violentas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tesis incómoda",
+          frase: "La estabilidad de la Europa de posguerra descansó sobre una limpieza étnica previa. La Europa multinacional de 1939, con minorías mezcladas en cada frontera, fue destruida por los nazis y rematada por las expulsiones. Los estados que quedaron eran homogéneos, y por eso funcionaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Judt lo escribe sin ninguna satisfacción y sin suavizarlo: dice que Hitler transformó el mapa humano de Europa más que nadie desde los tiempos de las grandes migraciones, y que la paz posterior se construyó sobre ese resultado sin decirlo nunca en voz alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro asunto del primer bloque es la liberación, que no fue una fiesta. Fue hambre, mercado negro, tifus y ajustes de cuentas. En Francia se calcula que hubo alrededor de diez mil ejecuciones sumarias, la mayoría en las semanas anteriores y posteriores a la llegada de los aliados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hubo unas veinte mil mujeres francesas rapadas en público por haberse relacionado con alemanes. Judt es duro con eso: señala que el castigo se cebó con las formas más visibles y menos poderosas de colaboración, mientras que buena parte de los funcionarios de Vichy siguió en su puesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y describe el mito fundacional que cada país se fabricó. Francia se contó a sí misma como una nación de resistentes; Austria consiguió que la reconocieran como primera víctima de Hitler; Italia decidió que el fascismo había sido cosa de unos pocos; y en Alemania se habló de doce años de ocupación por una banda.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esos relatos no eran verdad y fueron necesarios. Judt sostiene que ninguna democracia europea occidental habría podido levantarse en 1946 sobre un examen honesto de quién había hecho qué entre 1940 y 1944, porque habría implicado a demasiada gente.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La desnazificación lo ilustra bien. Los aliados empezaron con la ambición de fichar a millones de personas y acabaron amnistiando a casi todas. En 1951, la República Federal aprobó una ley que readmitía en la administración a funcionarios depurados, y una parte considerable volvió a su mesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La excepción fue Núremberg, y Judt lo valora con dos manos. Por un lado fue una innovación jurídica real: por primera vez se juzgó a dirigentes de un Estado por crímenes contra la humanidad, y se hizo con abogados defensores, pruebas documentales y actas públicas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por otro fue justicia de vencedores, y tenía un problema evidente sentado en el estrado. Entre los jueces había magistrados soviéticos, y la acusación incluyó al principio la matanza de oficiales polacos en Katyn, que la habían cometido los propios soviéticos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo también un problema de cantidad. En Núremberg se juzgó a veintidós dirigentes; los procesos posteriores alcanzaron a unos cientos más, y después el asunto se cerró. La mayoría de quienes habían participado en el aparato de exterminio no fue juzgada nunca por nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre la escasez de aquellos años da un dato que sorprende a cualquiera: en Gran Bretaña, que había ganado la guerra, el racionamiento de alimentos duró hasta 1954, es decir, nueve años después del final y más tiempo del que había durado el propio conflicto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor conviene conocerlo, porque su biografía se nota en cada página. Tony Judt nació en Londres en 1948, hijo de judíos de Europa oriental; de adolescente fue sionista de izquierdas y trabajó en un kibutz; luego estudió en Cambridge y en París y acabó siendo historiador de los intelectuales franceses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió este libro en Nueva York, donde dirigía un instituto de estudios europeos, y lo publicó en 2005 con novecientas páginas. Cinco años después murió de esclerosis lateral amiotrófica, con la que llevaba tiempo conviviendo, y dictó sus últimos libros ya sin poder mover las manos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su formación explica el defecto y la virtud del libro. La virtud es que domina como pocos la historia intelectual francesa, italiana y centroeuropea, y que lee en siete idiomas. El defecto es que Francia y Gran Bretaña ocupan mucho más espacio del que les tocaría por población.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para leerlo con provecho conviene tener a mano tres libros de esta biblioteca. Los orígenes del totalitarismo, de Arendt, explica de dónde venía aquello. Si esto es un hombre, de Primo Levi, cuenta lo que pasó dentro. Y El mundo de ayer, de Zweig, describe la Europa que se perdió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre ese continente arrasado se plantea la pregunta que ordena el libro entero. Después de 1918, Europa había intentado reconstruirse y le había salido el fascismo en veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "¿Qué se hizo distinto la segunda vez?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la respuesta no es solo el dinero americano.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los treinta años que parecieron normales",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El 5 de junio de 1947, el secretario de Estado estadounidense George Marshall pronunció en Harvard un discurso de doce minutos ofreciendo ayuda económica a Europa. El programa que salió de ahí repartió unos trece mil millones de dólares entre 1948 y 1952.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión popular dice que ese dinero reconstruyó Europa, y Judt la corrige con cuidado. Trece mil millones era mucho dinero y a la vez una fracción pequeña del producto interior bruto europeo de aquellos años, en torno a un dos o tres por ciento anual en los países que más recibieron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo importante, sostiene, no fue la cantidad sino tres cosas que compró. La primera, desatascar cuellos de botella concretos: carbón, divisas, materias primas y maquinaria, sin las cuales las fábricas que seguían en pie no podían arrancar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda fue una condición del programa: los países receptores tenían que sentarse juntos a repartirse el dinero y a coordinar sus planes. Es decir, obligaba a franceses y alemanes a negociar en una mesa cuatro años después de dejar de dispararse.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y la tercera, que fue la decisiva",
+          frase: "Una señal psicológica. El plan decía que Estados Unidos no se iba a marchar, como sí había hecho después de 1918. Con esa garantía, gobiernos y empresas podían planificar a diez años en lugar de a seis meses, y la inversión privada volvió antes que el dinero público.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que vino después fueron los treinta años de crecimiento más rápido de la historia europea, de 1950 a 1973. Alemania Occidental creció por encima del cinco por ciento anual durante dos décadas; Italia y España, más todavía en algunos tramos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Judt desmonta la idea de que aquello fuera un milagro. Su explicación tiene tres patas, y la primera es aritmética: se partía de muy abajo, y recuperar el nivel de 1938 ya suponía tasas enormes. Crecer desde ruinas es más fácil que crecer desde la prosperidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda pata es la que más le importa y la que menos se cita: el trasvase de gente del campo a la fábrica. En 1950, la agricultura ocupaba a la cuarta parte de los franceses, a más de un tercio de los italianos y a casi la mitad de los españoles y portugueses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mover a esos millones de personas de una agricultura de bajísima productividad a una industria mucho más productiva genera crecimiento automáticamente, sin necesidad de inventar nada. Es un truco que solo funciona una vez, y Europa lo agotó a principios de los setenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera pata es el petróleo barato. Entre 1950 y 1973, Europa sustituyó el carbón por crudo importado a un precio que hoy parece de broma, y toda la industria, el transporte y la calefacción del continente se rediseñaron dando por hecho que aquello duraría siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre esa base se construyó el estado del bienestar, y Judt insiste en un punto político que se olvida: no lo impuso la izquierda contra la derecha. Lo aceptaron los dos lados, y en varios países lo puso en marcha la democracia cristiana, que era un partido conservador y católico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación es que en 1945 nadie quería repetir los años treinta. El recuerdo del paro masivo, la inflación y la radicalización estaba fresco, y las élites conservadoras concluyeron que un poco de seguridad social era el precio de que no volvieran los extremos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese pacto es el objeto real del libro y también su tristeza de fondo. Judt era socialdemócrata y escribe sobre aquellos años como quien describe algo que existió, funcionó durante una generación y se fue desmontando después sin que nadie decidiera del todo desmontarlo.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro edificio de la época es el europeo, y aquí es donde más desinfla la mitología. La Comunidad Europea del Carbón y del Acero, firmada en 1951, no nació de ningún sueño de fraternidad: nació como una manera de meter la industria pesada alemana en una estructura común.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, era una solución al problema alemán disfrazada de cooperación técnica, y a Francia le interesaba porque le daba control sobre el carbón del Ruhr. Judt lo dice sin cinismo: que un proyecto nazca de intereses no lo invalida, y confundirlo con un ideal sí lo debilita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Tratado de Roma de 1957 siguió la misma lógica, y la política agrícola común, que se llevó durante décadas la mayor parte del presupuesto comunitario, fue el precio que Francia cobró por aceptar un mercado común que favorecía a la industria alemana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un detalle del Plan Marshall que casi nadie recuerda y que decidió la forma del continente: la oferta se hizo a toda Europa, incluida la Unión Soviética. Mólotov acudió a la conferencia de París en julio de 1947 con una delegación de ochenta personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se marchó a los pocos días, porque el programa exigía abrir las cuentas nacionales y coordinar los planes económicos, y eso era inaceptable para Moscú. Checoslovaquia y Polonia habían aceptado participar, y tuvieron que retractarse en cuestión de horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, la división económica de Europa la decidió en buena medida esa reunión, y la decidió el bando que se levantó de la mesa. Judt subraya que no fue una imposición americana: fue una elección soviética con consecuencias para cuarenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una anomalía que él mismo señala y que estropea cualquier explicación simple. Gran Bretaña fue el país que más ayuda recibió del plan en términos absolutos, y fue también el que peor creció durante las tres décadas siguientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste alemán es igual de instructivo. El despegue de la República Federal se suele fechar en junio de 1948, con la reforma monetaria que sustituyó el viejo Reichsmark: de la noche a la mañana aparecieron en los escaparates mercancías que llevaban años en el mercado negro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El crecimiento tuvo además un requisito que hoy se discute mucho: hizo falta gente. Alemania firmó acuerdos de contratación con Italia en 1955 y después con España, Grecia, Turquía y Yugoslavia, y a esos trabajadores los llamó invitados, en el sentido de que se iban a marchar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cientos de miles de españoles emigraron en aquellos años a Alemania, Francia y Suiza, y el dinero que mandaban a casa, junto con el turismo, financió una parte considerable de la industrialización española. Nadie se fue, y Europa tardó treinta años en admitir que aquello era inmigración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión sobre Europa es de las mejores del libro: la Unión no es el resultado de un plan visionario sino la suma de acuerdos pequeños entre estados que buscaban ventajas concretas, y su fortaleza está justamente en eso, en no depender de que nadie crea en ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo esto que se ha contado hasta aquí ocurría en una mitad del continente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra mitad vivía otra historia por completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y contarla es lo que hace distinto a este libro.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La mitad que se quedó al otro lado",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hasta que este libro apareció en 2005, casi todas las historias de la Europa contemporánea eran historias de Europa occidental con un capítulo sobre el bloque soviético al final. Judt se propuso lo contrario: escribir una en la que las dos mitades ocupan el mismo relato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento es sencillo y difícil de rebatir: Praga está más al oeste que Viena, Budapest es tan europea como Lisboa, y una historia que trate a media Europa como un apéndice del imperio soviético está aceptando exactamente la división que dice lamentar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La sovietización no fue inmediata ni idéntica. Entre 1945 y 1948 hubo gobiernos de coalición, elecciones con partidos reales y comunistas que sacaban resultados decentes por su papel en la resistencia. Lo que llegó después fue una toma del poder por etapas y por métodos distintos en cada país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Checoslovaquia, donde los comunistas habían ganado unas elecciones libres en 1946 con el treinta y ocho por ciento, el golpe llegó en febrero de 1948, y el ministro de Exteriores Jan Masaryk apareció muerto bajo la ventana de su despacho en circunstancias que nunca se aclararon.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vinieron los procesos. En Hungría fusilaron en 1949 a László Rajk, ministro comunista del Interior, tras un juicio con confesión pública. En Checoslovaquia, en 1952, condenaron a Rudolf Slánský, secretario general del partido, junto a otros trece dirigentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquellos catorce, once eran judíos, y las actas del juicio lo repetían continuamente. Judt subraya que el antisemitismo de aquellos procesos fue explícito y oficial, y que se produjo siete años después de Auschwitz y en el mismo continente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las revueltas empezaron pronto. En junio de 1953, obreros de la construcción de Berlín Oriental se declararon en huelga por un aumento de las cuotas de producción, y la protesta se extendió a centenares de ciudades hasta que la aplastaron los tanques soviéticos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso mayor fue Hungría en otoño de 1956: un gobierno reformista, la retirada del pacto militar soviético y doce días de independencia. La respuesta fueron miles de muertos, la ejecución de Imre Nagy dos años después y doscientos mil húngaros huyendo a Occidente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que Occidente no hizo",
+          frase: "Las emisoras occidentales llevaban años alentando la liberación de Europa del Este, y los húngaros pidieron ayuda por radio durante días. No llegó nadie. Judt señala además la coincidencia: mientras Budapest ardía, Francia y Gran Bretaña estaban ocupadas en su propia aventura fracasada en Suez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1968, Checoslovaquia intentó lo que llamaron socialismo con rostro humano: prensa sin censura, debate dentro del partido, reforma económica. En agosto entraron medio millón de soldados del Pacto de Varsovia y se acabó en una noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí salió la doctrina Brézhnev, que decía en la práctica que la soberanía de aquellos países terminaba donde empezaba la del bloque. Y de ahí salió también el desengaño definitivo de buena parte de la izquierda occidental, que hasta entonces había mirado hacia otro lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Judt es especialmente bueno explicando la economía de aquellos regímenes, porque no cae en la caricatura. Hasta finales de los sesenta crecieron de verdad: industrializaron países agrarios, alfabetizaron poblaciones enteras y mejoraron la sanidad de manera medible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema llegó cuando el modelo tuvo que pasar de producir acero a producir bienes de consumo, y ahí se atascó por completo. Una planificación central puede construir fábricas; no puede averiguar cuántos zapatos de cada talla hace falta fabricar el año que viene.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El pacto tácito de los años setenta lo resume él como un intercambio: nosotros os damos un piso, trabajo garantizado y algo más de comida, y vosotros dejáis de pedir libertades. En Hungría se le llamó comunismo del gulash, y funcionó bastante tiempo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo pagaron a crédito. Polonia y Hungría se endeudaron fuertemente con bancos occidentales en los setenta para importar bienes de consumo, y cuando subieron los tipos de interés a comienzos de los ochenta se quedaron sin margen y sin la única cosa que sostenía el pacto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un episodio que Judt cuenta como el más subestimado del siglo. En 1975, en Helsinki, treinta y cinco países firmaron unos acuerdos de seguridad y cooperación. Moscú quería el reconocimiento de las fronteras de posguerra, y lo consiguió, que era su objetivo entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A cambio aceptó un apartado sobre derechos humanos que consideraba puramente decorativo. Muchos comentaristas occidentales criticaron el acuerdo por regalarle a la Unión Soviética lo que pedía a cambio de papel mojado, y en 1975 esa lectura parecía la sensata.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ocurrió es que aquel texto se publicó en los boletines oficiales de los países del bloque, porque los gobiernos estaban orgullosos de haberlo firmado. Y entonces unos ciudadanos se dedicaron a exigir por escrito que se cumpliera lo que su propio Estado había publicado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí salieron los grupos Helsinki en Moscú, la Carta 77 en Praga y el vocabulario entero de la disidencia posterior, que dejó de hablar de política y empezó a hablar de legalidad. Fue un arma que Occidente entregó sin saber que la estaba entregando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, en la otra mitad, el pacto de posguerra empezaba a agrietarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y se agrietó por dos sitios a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una generación y un barril de petróleo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "1968, 1973 y la vuelta del sur",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Judt estaba en París en mayo de 1968, con veinte años y una beca, y su capítulo sobre aquello es probablemente el menos complaciente que se ha escrito. Lo dice sin rodeos: la mitología posterior es mucho más grande que los hechos, y buena parte la fabricaron los propios protagonistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los datos que pone encima de la mesa son incómodos para el relato heroico. La huelga general que paralizó Francia fue la mayor de su historia, con unos nueve millones de trabajadores parados, y se resolvió con los acuerdos de Grenelle: subida del salario mínimo y mejoras de convenio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, los obreros negociaron dinero y volvieron al trabajo, sin ningún interés en la revolución cultural que proponían los estudiantes. Los sindicatos, además, desconfiaban abiertamente de los universitarios, a los que veían como hijos de la burguesía jugando a la política.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el desenlace es el dato definitivo: De Gaulle convocó elecciones para finales de junio y su partido obtuvo la mayor victoria de la historia de la Quinta República. Un mes después de las barricadas, Francia votó masivamente por el orden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Judt añade una comparación cruel y justa. Mientras en París se discutía sobre el deseo y la imaginación, en Praga se estaba jugando algo real, y algunos de los mismos que citaban a Mao en el Barrio Latino tuvieron poco que decir cuando entraron los tanques en agosto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Dónde estuvo la revolución de verdad",
+          frase: "No en la política sino en la demografía y en las costumbres. La generación del baby boom llegó a la edad adulta, las universidades pasaron de decenas de miles a millones de estudiantes, apareció la píldora anticonceptiva y la televisión entró en todas las casas. Eso sí cambió Europa para siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras de la expansión universitaria son asombrosas. En Italia, los estudiantes pasaron de unos doscientos mil a comienzos de los sesenta a casi medio millón a final de la década, y las facultades siguieron teniendo las mismas aulas, los mismos catedráticos y las mismas normas de 1930.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es su explicación de las revueltas estudiantiles, y es más prosaica y más convincente que las ideológicas: instituciones diseñadas para una élite pequeña recibieron de golpe a una multitud, sin adaptar nada. Lo raro habría sido que no estallaran.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El golpe de verdad al modelo llegó cinco años después y vino de fuera. En octubre de 1973, tras la guerra del Yom Kippur, los países árabes productores redujeron la oferta y embargaron a varios países occidentales, y el precio del crudo se multiplicó por cuatro en unos meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Toda la prosperidad europea se había construido sobre energía barata, así que el efecto fue inmediato: inflación y paro a la vez, una combinación que la teoría económica dominante decía que no podía darse, y que dejó a los gobiernos sin manual al que recurrir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Judt señala que dos años antes había caído la otra pieza: en 1971, Estados Unidos suspendió la convertibilidad del dólar en oro y con ello se acabó el sistema monetario de tipos fijos que había ordenado el comercio mundial desde 1944.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el modelo sin explicación y sin herramientas, el argumento se desplazó. Las ideas que llevaban treinta años en el margen —menos Estado, menos impuestos, menos sindicato— pasaron al centro, y en 1979 y 1981 empezaron a aplicarse en Gran Bretaña y después en otros sitios.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y justo entonces, cuando el norte de Europa entraba en crisis, el sur hizo lo contrario. Entre 1974 y 1978, Grecia, Portugal y España pasaron de dictaduras a democracias, y lo hicieron sin guerra civil y en un momento económico pésimo.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Portugal empezó el 25 de abril de 1974 con un golpe militar de oficiales jóvenes hartos de las guerras coloniales de África, que llevaban trece años y se llevaban casi la mitad del presupuesto del Estado. La descolonización fue causa de la democracia y no consecuencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Grecia, la dictadura de los coroneles cayó ese mismo verano por su propio fracaso: intentó forzar la unión de Chipre con Grecia, provocó la invasión turca de la isla y se quedó sin ningún apoyo. Cayó por incompetencia militar, no por presión interna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y España es el caso que Judt trata con más cuidado. Su tesis es que la Transición fue posible porque la sociedad española ya había cambiado por debajo del régimen: emigración a Europa, turismo masivo, industrialización, una clase media urbana y una Iglesia que había dejado de sostener al franquismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, la dictadura duró más que el país que la había producido. Cuando Franco murió en noviembre de 1975, la España de 1975 tenía muy poco que ver con la de 1939, y buena parte de la clase dirigente del propio régimen lo sabía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el precio de aquel acuerdo es explícito. La Ley de Amnistía de 1977 cerró la vía judicial en las dos direcciones, y lo que en España se ha llamado el pacto del olvido significó que durante dos décadas casi nadie exhumó nada ni pidió cuentas de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Judt no lo condena, y lo encaja en su tesis general del libro: igual que Francia o Austria en 1946, España en 1977 compró estabilidad con memoria, y la factura de esa compra se paga siempre más tarde y siempre con intereses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para entender aquel punto de partida ayudan dos libros de esta biblioteca: Homenaje a Cataluña, de Orwell, escrito desde dentro de la guerra, y La guerra civil española, de Hugh Thomas, que fue durante décadas el relato más completo disponible en castellano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quedaba una última frontera por caer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cayó mucho más deprisa de lo que nadie previó.",
+        },
+      ],
+    },
+
+    {
+      titulo: "1989 y la deuda con los muertos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay una frase de aquel año que Judt cita y que resume la velocidad de todo: en Polonia tardó diez años, en Hungría diez meses, en Alemania Oriental diez semanas y en Checoslovaquia diez días. Rumanía fue la excepción y fue la única con muertos en cantidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación de por qué se hundió tan rápido no es que la oposición fuera fuerte, sino que el régimen ya no creía en sí mismo. Cuando Moscú dejó claro en 1988 y 1989 que no mandaría tanques, los aparatos nacionales se quedaron sin la única garantía que los sostenía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que mejor lo ilustra es el de la noche del 9 de noviembre en Berlín. La apertura del muro se produjo por una rueda de prensa mal preparada, en la que un portavoz leyó un borrador y contestó a una pregunta sobre cuándo entraba en vigor diciendo que inmediatamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Miles de berlineses fueron a los pasos fronterizos y los guardias, sin órdenes y sin nadie a quien llamar, acabaron abriendo las barreras. La frontera más vigilada del mundo cayó por un error administrativo y porque nadie se atrevió a disparar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que vino después Judt lo cuenta sin euforia. Los años noventa en Europa del Este fueron de desplome industrial, paro masivo y privatizaciones opacas, y la nostalgia por el régimen anterior que apareció en encuestas de aquellos años no es una anomalía: es lo que suele producir una década así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la refutación más brutal de cualquier optimismo llegó a la vez y en el mismo continente. Yugoslavia se deshizo entre 1991 y 1999 en una serie de guerras con unos cien mil muertos, campos de concentración y una limpieza étnica sistemática a cuarenta años de la anterior.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que demuestra Srebrenica",
+          frase: "En julio de 1995, ocho mil hombres y niños bosnios fueron asesinados en una zona declarada segura por Naciones Unidas y con cascos azules presentes. La paz europea no era una propiedad del continente ni un logro irreversible: era el resultado de unos acuerdos concretos que allí no existían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro termina con un epílogo titulado Desde la casa de los muertos, que es la parte más citada y la mejor. Su tesis es que la Europa de posguerra se construyó sobre un olvido deliberado, y que el recuerdo del Holocausto no está en su origen sino en su final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los datos que da lo sostienen. En los años cincuenta y sesenta, el exterminio de los judíos europeos apenas figuraba en los libros de texto, en los monumentos ni en el discurso público. En Francia se hablaba de deportados, sin distinguir a resistentes de judíos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Polonia, los monumentos hablaban de víctimas del fascismo sin mencionar quiénes eran la mayoría. En Austria no se habló del asunto durante cuarenta años. Y en Alemania Occidental, la primera generación de posguerra creció sin que sus padres les contaran prácticamente nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cambio llegó tarde y por etapas: el juicio de Eichmann en 1961, los procesos de Auschwitz en Fráncfort a mediados de los sesenta, la revuelta generacional que empezó a preguntar a sus padres, y ya en los ochenta y noventa los museos, las leyes y los currículos escolares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El juicio de Jerusalén, que en esta biblioteca se cuenta en Eichmann en Jerusalén, de Hannah Arendt, es exactamente el punto de inflexión que Judt señala: fue la primera vez que los supervivientes hablaron en público y durante meses ante un auditorio mundial.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su formulación final es de las que se recuerdan: reconocer el Holocausto se ha convertido en el billete de entrada a la Europa contemporánea. Es lo que un país tiene que hacer para pertenecer, y es una condición moral que no existía cuando se fundó el club.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una advertencia que se cita menos y que es más aguda: que una memoria convertida en trámite obligatorio corre el riesgo de volverse ritual, y que recordar por decreto no es lo mismo que entender. Le preocupaba que el museo sustituyera al conocimiento histórico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Toca decir dónde falla el libro. Lo primero es evidente: son novecientas páginas y hay tramos que funcionan como crónica enciclopédica, con listas de gobiernos y elecciones que se leen con esfuerzo. No es un libro para leer de corrido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo es que, pese a su propósito declarado, el este sigue recibiendo menos espacio que el oeste, y dentro del oeste Francia y Gran Bretaña se llevan mucho más de lo que les corresponde, mientras Escandinavia, Portugal e Irlanda aparecen de pasada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero es una ausencia grande: la descolonización se trata sobre todo por su efecto en la política interna europea, y muy poco por lo que supuso para los países colonizados o para la inmigración posterior, que es uno de los hechos centrales de la Europa que él describe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo cuarto es que Judt escribe desde una posición política concreta y no lo disimula. Es un socialdemócrata que lamenta el desmantelamiento del pacto de posguerra, y esa nostalgia colorea sus capítulos sobre los años ochenta y noventa más de lo que él admitiría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema de fecha. Publicó en 2005 con un final razonablemente optimista sobre el modelo europeo, y meses después Francia y los Países Bajos rechazaron en referéndum la constitución europea. Después vinieron 2008, la crisis del euro y el Brexit.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo vio venir en parte, y en sus últimos textos escribió con dureza sobre la desigualdad y sobre la pérdida del lenguaje político de la posguerra. Pero el libro se cierra en un momento que hoy se lee como el último día bueno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda es una idea que atraviesa las novecientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que nada de lo que hoy damos por normal era probable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que lo improbable se puede deshacer.",
+        },
+      ],
+    },
+  ],
+};
