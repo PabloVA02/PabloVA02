@@ -185,7 +185,7 @@ export const CATALOGO: Ficha[] = [
   { id: "elegancia-erizo", titulo: "La elegancia del erizo", autor: "Muriel Barbery", ano: 2006, categoria: "Literatura", estado: "escrito" },
   { id: "hobbit", titulo: "El hobbit", autor: "J. R. R. Tolkien", ano: 1937, categoria: "Literatura", estado: "escrito" },
   { id: "madame-bovary", titulo: "Madame Bovary", autor: "Gustave Flaubert", ano: 1856, categoria: "Literatura", estado: "escrito" },
-  { id: "ana-karenina", titulo: "Ana Karenina", autor: "León Tolstói", ano: 1877, categoria: "Literatura", estado: "pendiente" },
+  { id: "ana-karenina", titulo: "Ana Karenina", autor: "León Tolstói", ano: 1877, categoria: "Literatura", estado: "escrito" },
   { id: "guerra-y-paz", titulo: "Guerra y paz", autor: "León Tolstói", ano: 1869, categoria: "Literatura", estado: "pendiente" },
   { id: "los-miserables", titulo: "Los miserables", autor: "Victor Hugo", ano: 1862, categoria: "Literatura", estado: "pendiente" },
   { id: "moby-dick", titulo: "Moby Dick", autor: "Herman Melville", ano: 1851, categoria: "Literatura", estado: "escrito" },
