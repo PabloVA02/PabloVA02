@@ -2627,3 +2627,654 @@ export const ANTIFRAGIL: Resumen = {
     },
   ],
 };
+
+export const LEAN_STARTUP: Resumen = {
+  id: "lean-startup",
+  titulo: "El método Lean Startup",
+  autor: "Eric Ries",
+  ano: 2011,
+  gancho: "Tardaron seis meses en construir su primer producto, lo lanzaron y no lo descargó nadie. El fundador dice que fue lo mejor que le pasó, porque lo peor habría sido tardar dos años.",
+  porQue:
+    "Porque de aquí salieron las tres palabras que se dicen hoy en cualquier oficina —producto mínimo viable, pivotar, iterar— y casi todo el mundo las usa mal, empezando por la primera.",
+  partes: [
+    {
+      titulo: "El primer producto que nadie descargó",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Silicon Valley, 2004. Cuatro socios llevan seis meses encerrados construyendo un producto. Se llama IMVU y es un complemento de mensajería con avatares en tres dimensiones: la idea es que se enganche a los programas de chat que la gente ya usa, sin obligarla a cambiar de red.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El día del lanzamiento suben la primera versión, se sientan a mirar las cifras y no pasa nada. Ni un usuario. Al día siguiente tampoco. Bajan el precio, cambian la página, escriben a conocidos. Los números siguen siendo prácticamente cero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El responsable técnico se llama Eric Ries, tiene veintiséis años y es su segundo fracaso: la empresa anterior, una plataforma de contratación universitaria, se había hundido con el estallido de las puntocom. Esta vez estaba decidido a no repetir los errores, y los repitió todos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hicieron entonces fue tan poco glamuroso que el libro lo cuenta con detalle. Se pusieron a pagar cinco dólares por hora a adolescentes para que fueran a la oficina, se sentaran delante del programa y lo usaran mientras ellos miraban.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En una de esas sesiones, una chica de diecisiete años se atascó en la pantalla que pedía invitar a un amigo. Le insistieron. Ella dijo que no pensaba darles el nombre de nadie hasta saber si aquello valía la pena, porque si era una porquería quedaría fatal ella.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "clave",
+          rotulo: "El error de fondo",
+          frase: "Toda la estrategia se apoyaba en que la gente usaría el producto con sus amigos de siempre. Y nadie quiere estrenar algo raro delante de sus amigos. La hipótesis central del negocio era falsa, y seis meses de trabajo no habían servido para descubrirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cambiaron el planteamiento: en vez de un complemento para hablar con los amigos, una red nueva para conocer gente desconocida. IMVU acabó funcionando y llegó a facturar decenas de millones al año, aunque nunca fue un gigante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero lo que le quedó a Ries no fue el producto. Fue una pregunta incómoda: si la hipótesis era falsa desde el principio, ¿por qué tardaron seis meses en enterarse? Podían haberlo sabido en dos semanas preguntando a diez personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pregunta es todo el libro. No trata de cómo construir productos: trata de cómo descubrir cuanto antes que el que estás construyendo no le interesa a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una persona detrás de esa manera de pensar y conviene nombrarla, porque el libro se lleva la fama y la idea no es suya. Steve Blank, empresario retirado y profesor, había invertido en IMVU con una condición: que Ries fuera a sus clases.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Blank había publicado en 2005 Los cuatro pasos hacia la epifanía, un libro denso, mal editado y prácticamente ilegible que sostenía algo entonces raro: que una startup no es una empresa pequeña, sino una organización temporal que busca un modelo de negocio que todavía no tiene.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La distinción de Blank",
+          frase: "Una empresa ejecuta un modelo de negocio conocido. Una startup lo está buscando. Aplicar a la segunda las herramientas de la primera —plan a cinco años, presupuesto, previsión de ventas— es planificar sobre datos que nadie tiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ries cogió esa idea, le añadió lo que había aprendido programando y lo empaquetó en un método con nombre, vocabulario y diagramas. El libro salió en septiembre de 2011 y ha vendido más de un millón de ejemplares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su definición de startup es deliberadamente amplia y es la parte que más se ignora: una institución humana diseñada para crear un producto o servicio en condiciones de incertidumbre extrema. Ni menciona el tamaño, ni el garaje, ni la tecnología.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Según esa definición, un equipo de veinte personas dentro de una empresa de cien años es una startup si está haciendo algo cuyo resultado nadie puede prever. Media parte del libro va de eso, y es la que casi nadie lee.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El planteamiento de partida es una crítica al plan de negocio. Un documento de cuarenta páginas con previsiones a cinco años, escrito por gente que no ha hablado con un solo cliente, es una obra de ficción con hoja de cálculo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No porque planificar esté mal, sino porque la planificación funciona cuando hay un historial largo y un entorno estable. Un producto que no existe, para un mercado que no se sabe si existe, no cumple ninguna de las dos condiciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ries cuenta que en su primera empresa tenían un plan impecable, un producto bien construido y un equipo capaz. Lo que no tenían era un solo cliente que hubiera pedido aquello. Se enteraron cuando ya estaba todo hecho y no quedaba dinero para cambiarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su diagnóstico es que el fracaso no vino de ejecutar mal. Vino de ejecutar impecablemente un plan que se apoyaba en una suposición que nadie había comprobado, y que se podía haber comprobado en una tarde con quince llamadas de teléfono.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que propone en su lugar tiene un nombre feo y una idea sencilla detrás: aprendizaje validado. Considerar cada cosa que se construye como un experimento cuyo objetivo no es vender, sino averiguar si una hipótesis concreta es cierta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El trabajo de una startup, en esta lectura, no es fabricar. Es convertir incertidumbre en conocimiento lo más rápido posible, y hacerlo antes de que se acabe el dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y para eso Ries se fue a buscar herramientas a un sitio que no tiene nada que ver con el software.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una fábrica de coches japonesa de los años cincuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde cualquier obrero tenía autoridad para parar la cadena de montaje entera.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La cuerda que para la cadena",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Nagoya, años cincuenta. Toyota fabrica una fracción de lo que fabrica cualquier compañía americana y no tiene dinero para almacenes ni para máquinas dedicadas. De esa escasez sale un sistema de producción que acabará copiando el mundo entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su arquitecto es un ingeniero llamado Taiichi Ohno. Lo que monta se conoció después como producción ajustada, lean en inglés, y de ahí viene la primera palabra del título del libro. No significa austera: significa sin desperdicio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El malentendido del nombre",
+          frase: "Lean no quiere decir barato ni frugal. Viene de la fabricación ajustada de Toyota y significa eliminar todo lo que no aporta valor al cliente. Una startup lean puede gastarse un millón: lo que no puede es gastárselo en algo que nadie va a usar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ese sistema Ries se trae tres herramientas. La primera es el andón: una cuerda colgada sobre la cadena de montaje que cualquier operario puede tirar cuando detecta un defecto, y que detiene la producción entera hasta que se resuelve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A un directivo occidental de los años setenta eso le parecía una locura: dar a un obrero el poder de parar una fábrica. La lógica de Ohno era la contraria: un defecto que sigue avanzando por la cadena se multiplica, y arreglarlo al final cuesta cien veces más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión de IMVU fue el despliegue continuo con parada automática. Cualquier programador podía subir código a producción varias decenas de veces al día, y si un indicador clave se salía de rango, el sistema revertía el cambio y bloqueaba nuevos envíos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Llegaron a desplegar unas cincuenta veces al día, en una época en la que lo normal era publicar una versión cada tres meses. La ventaja no era la velocidad: era que un error afectaba a un cambio pequeño y se localizaba en minutos.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda herramienta son los cinco porqués, y es la que mejor se puede usar mañana en cualquier trabajo. Ante un fallo, se pregunta por qué cinco veces seguidas, y cada respuesta se convierte en la pregunta siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo del libro: se cayó el servidor. ¿Por qué? Un cambio de configuración. ¿Por qué? Un ingeniero nuevo lo tocó. ¿Por qué? No estaba formado. ¿Por qué? Su jefe no forma a los nuevos. ¿Por qué? Está desbordado y le pagan por entregar código.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fallo técnico se arregla en diez minutos; el problema real es de organización y llevaba meses ahí. Ries insiste en una regla para que esto no se convierta en una caza de brujas: invertir proporcionalmente en cada nivel, y prohibir señalar culpables.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Los cinco porqués",
+          frase: "Casi todos los problemas técnicos son problemas humanos disfrazados. Preguntar por qué cinco veces te lleva de la línea de código a la decisión de gestión que la produjo, que es donde de verdad se puede arreglar algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera herramienta es la de los lotes pequeños, y viene con el mejor ejemplo del libro. Hay que meter doscientas cartas en doscientos sobres. Lo intuitivo es doblarlas todas, luego meterlas todas, luego cerrarlas todas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo eficiente es hacer cada sobre entero antes de pasar al siguiente. Parece imposible y está comprobado: el tiempo que se ahorra repitiendo el mismo gesto se pierde en apilar, transportar y volver a coger los montones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una ventaja mayor que la velocidad. Si los sobres son de un tamaño equivocado, en el método por montones te enteras al final, con doscientas cartas dobladas mal. En el método de uno en uno te enteras en el primero.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el argumento entero del libro traducido a papel y pegamento: los lotes pequeños no ahorran tiempo de trabajo, ahorran tiempo de equivocación. Y en una startup el error no es hacer algo despacio, es hacer durante meses algo que no había que hacer.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esas piezas monta el diagrama que se ha reproducido en diez mil presentaciones: un círculo con tres palabras. Construir, medir, aprender. Se construye lo mínimo, se mide lo que hace la gente y se aprende algo que cambia lo siguiente que se construye.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con un detalle que se pierde siempre: el círculo se planifica al revés. Primero se decide qué se quiere aprender, después qué habría que medir para saberlo, y solo al final qué es lo mínimo que hay que construir para poder medir eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la métrica que importa no es cuántas funciones se han entregado, sino cuántas vueltas al círculo se dan por unidad de tiempo. La empresa que aprende más rápido gana, aunque construya menos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una inversión completa de cómo se mide el trabajo en casi todas las oficinas. Lo normal es premiar entregas: funciones publicadas, tareas cerradas, versiones lanzadas. Ries sostiene que todo eso puede subir mientras la empresa se acerca al precipicio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo favorito para explicarlo es un equipo trabajando a pleno rendimiento en un producto que nadie quiere. Están ocupados, cumplen plazos y su productividad es excelente. Y cada semana de trabajo bien hecho los deja un poco peor que antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo esto suena razonable y abstracto hasta que aparece la pregunta práctica: qué es exactamente lo mínimo que hay que construir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta de Ries tiene tres palabras y es el término más famoso y peor entendido del vocabulario empresarial de este siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Producto mínimo viable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que en su primer ejemplo célebre no fue un producto, sino un vídeo de tres minutos grabado en una habitación.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El vídeo de Dropbox",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "2007. Drew Houston quiere hacer un programa que sincronice archivos entre ordenadores. El problema es que para demostrar que funciona hay que construirlo entero, y construirlo entero significa meterse con los sistemas de archivos de tres sistemas operativos distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así que no lo construye. Graba un vídeo de tres minutos en el que enseña la carpeta funcionando, con la voz en off explicándolo y guiños escondidos para el público de foros técnicos. El producto que se ve en el vídeo no existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lista de espera pasó de cinco mil a setenta y cinco mil personas en una noche. Eso no demostraba que el producto fuera a funcionar; demostraba algo previo y más importante: que había gente que quería exactamente eso y estaba dispuesta a dejar su correo por él.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué es de verdad un producto mínimo viable",
+          frase: "No es una versión reducida y mala del producto. Es lo más pequeño que sirve para responder a una pregunta concreta sobre el negocio. Si un vídeo responde a la pregunta, el vídeo es el producto mínimo viable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo ejemplo clásico es Zappos, la tienda de zapatos por internet. Su fundador, Nick Swinmurn, no montó almacén ni negoció con marcas. Fue a zapaterías del barrio, pidió permiso para fotografiar el género y colgó las fotos en una página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando alguien compraba, iba a la tienda, pagaba el par a precio normal y lo enviaba él mismo. Perdía dinero en cada venta. Y a cambio obtenía el único dato que le hacía falta: que había gente dispuesta a comprar zapatos sin probárselos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ninguna encuesta habría dado esa respuesta. En 2000, preguntado en abstracto, casi todo el mundo decía que jamás compraría zapatos sin probárselos. La diferencia entre lo que la gente dice y lo que hace es la razón de ser de todo este método.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ries cataloga varios tipos. El de conserjería consiste en dar el servicio a mano, uno a uno, sin nada automatizado. Una empresa de planificación de menús empezó con su fundador yendo a casa de cinco familias con la compra hecha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es lentísimo, no escala y es exactamente el punto: mientras se hace a mano se aprende lo que hay que automatizar, y sobre todo se descubre que la mitad de lo que se pensaba automatizar no le importaba a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro tipo es el del mago de Oz: por fuera hay una máquina, por detrás hay personas haciendo el trabajo. El usuario ve un sistema inteligente; lo que hay es alguien en una oficina respondiendo. Se sigue usando hoy y bastante más de lo que se admite.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla incómoda",
+          frase: "Si el producto mínimo viable no te da vergüenza, has tardado demasiado. La frase es de Reid Hoffman, fundador de LinkedIn, y describe una tolerancia al ridículo que muy poca gente tiene de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí está el mayor daño que ha hecho este libro, que no es culpa suya del todo. La sigla se convirtió en una excusa: equipos que entregan productos a medias, llenos de fallos, y lo llaman producto mínimo viable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ries lo ha desmentido muchas veces. Mínimo se refiere al alcance, no a la calidad. Un producto con tres funciones bien hechas es un producto mínimo viable; uno con veinte funciones que fallan es un producto mal hecho, y no aprende nada de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un matiz que el libro trata poco y que en la práctica lo cambia todo: cuando la marca ya existe, un producto vergonzoso no es un experimento barato. Es una noticia. Apple no puede probar así, y las empresas que lo intentan lo pagan.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El propio Steve Jobs es el contraejemplo permanente de este libro, y el debate lleva quince años abierto: no preguntó a nadie si quería un teléfono sin teclas, y llevaba razón. La respuesta de Ries es que un acierto así no es un método, es una biografía.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una tercera vía que el libro no formula bien y que la práctica ha impuesto: preguntar a la gente por sus problemas, nunca por sus soluciones. Nadie habría pedido un iPhone; todo el mundo se quejaba de que los móviles eran imposibles de usar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la reformulación de una frase que se le atribuye a Henry Ford y que probablemente nunca dijo: si les hubiera preguntado, habrían pedido caballos más rápidos. La queja era buena; la solución no la tenía el cliente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una técnica sencilla que sale de ahí y que el libro no formula pero se ha impuesto después: preguntar por lo último que hizo la persona, no por lo que haría. Qué pasó la última vez que tuviste este problema, qué probaste, cuánto tardaste, qué pagaste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pasado es un dato y el futuro es una opinión. Quien dice que pagaría veinte euros al mes está adivinando; quien cuenta que el mes pasado pagó treinta por una solución peor está informando de un hecho comprobable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el mejor experimento de todos sigue siendo cobrar. Pedir dinero por adelantado, aunque sean cinco euros, separa a los que dicen que les interesa de los que están dispuestos a sacar la tarjeta, que son muchos menos y son los únicos que cuentan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el producto mínimo en la calle empieza la parte que casi todos los equipos hacen mal, porque exige mirar números que no favorecen a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay dos maneras de mirar los datos de un producto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una sirve para saber qué está pasando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra sirve para quedar bien en la reunión del consejo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y casi siempre se usa la segunda.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Pivotar o perseverar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Ries llama métricas vanidosas a las que solo suben. Usuarios totales registrados, descargas acumuladas, visitas del mes. Tienen una propiedad muy cómoda: si la empresa sigue viva, crecen solas, y por tanto no pueden dar malas noticias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es que suben igual si el producto mejora que si empeora. Una gráfica de usuarios acumulados es una escalera que nunca baja, y por eso es la primera diapositiva de todas las presentaciones y no informa de nada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Las tres condiciones",
+          frase: "Una métrica sirve si es accionable —te dice qué hacer distinto—, accesible —la entiende cualquiera del equipo sin un analista— y auditable —se puede rastrear hasta clientes concretos con nombre. La mayoría de los paneles de control no cumplen ninguna de las tres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La alternativa que propone es el análisis por cohortes. En vez de mirar el total, se agrupa a los usuarios por el mes en que llegaron y se sigue a cada grupo por separado: cuántos de los que entraron en marzo seguían ahí a los tres meses, y cuántos de los de abril.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así se ve si el producto está mejorando de verdad. Si la cohorte de abril se comporta mejor que la de marzo, algo de lo que se hizo funcionó. Si se comporta igual, se han pasado un mes construyendo cosas que no cambian nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En IMVU les pasó exactamente eso: los ingresos totales subían mes a mes, y las cohortes estaban planas. Crecían porque entraba más gente, no porque el producto fuera mejor. Es un diagnóstico que solo aparece si se buscan los números que duelen.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el momento en que un equipo tiene que decidir si sigue o cambia, y es la decisión más difícil que hay, porque llega justo cuando las cifras absolutas van bien y todo el mundo está contento.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ries llama a eso pivotar: un cambio estructurado de rumbo que conserva lo aprendido. No es empezar de cero ni es tirar el trabajo; es cambiar una hipótesis concreta manteniendo las demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro cataloga diez tipos. Pivote de acercamiento: una función del producto se convierte en el producto entero. De alejamiento: el producto entero se convierte en una función de algo mayor. De segmento de cliente: el producto sirve, pero a otra gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De necesidad del cliente: la gente es la correcta y el problema que resuelves no es el suyo. De plataforma, de arquitectura de negocio, de captura de valor, de motor de crecimiento, de canal, de tecnología. Tener los diez nombres ayuda, porque obliga a decir qué se cambia exactamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso más famoso es Instagram: era Burbn, una aplicación de geolocalización con demasiadas funciones, y sus fundadores vieron que la gente solo usaba la de las fotos. Tiraron el resto. Es un pivote de acercamiento de manual.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La reunión que nadie convoca",
+          frase: "Ries propone poner en el calendario, cada pocas semanas, una reunión de pivotar o perseverar. Fija por adelantado, con datos de cohortes encima de la mesa. Sin fecha, esa conversación no se tiene nunca: siempre parece mejor esperar un mes más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su observación de campo es que casi todas las empresas pivotan tarde. Aguantan por orgullo, por no reconocer el error delante de los inversores, y porque las métricas vanidosas dan cobertura para seguir un trimestre más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También describe tres motores de crecimiento y sostiene que hay que elegir uno. El pegajoso: se crece si la tasa de abandono es menor que la de captación; se mide la retención. Es el de las suscripciones y las operadoras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El viral: cada usuario trae a otros por el uso normal del producto, sin proponérselo. Se mide con un coeficiente, y si pasa de uno el crecimiento se dispara solo. Es el de las redes sociales y el más difícil de conseguir a propósito.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y el pagado: se compra al cliente con publicidad y se gana si lo que deja a lo largo de su vida supera lo que costó traerlo. Es el más honesto de los tres porque el número sale o no sale, y es donde han muerto casi todas las empresas de reparto a domicilio.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La regla es no perseguir los tres a la vez. Cada motor exige un producto distinto, un equipo distinto y un cuadro de mando distinto, y las empresas que intentan los tres acaban sin ninguno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ries añade una idea que en las empresas grandes cuesta más que todas las demás: la contabilidad de la innovación. Un equipo que explora algo nuevo no se puede juzgar con las cuentas del negocio que ya funciona, porque en ingresos siempre va a salir perdiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su propuesta es evaluarlo por el movimiento de sus indicadores de aprendizaje: si la retención de las cohortes nuevas mejora, el equipo está haciendo su trabajo, aunque facture cero. Y si no mejora en seis meses, no lo está haciendo, aunque esté muy ocupado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para eso propone algo que casi ninguna empresa concede: un presupuesto cerrado y pequeño, independencia para decidir sin pedir permiso, y una participación en el resultado. Sin las tres cosas, dice, el equipo interno acaba pidiendo autorización para cada experimento y no experimenta nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo esto compone un método coherente, con vocabulario propio, aplicable el lunes por la mañana y con casos reconocibles detrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con un problema que el libro nunca menciona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todos los ejemplos son de empresas que salieron bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De las que aplicaron lo mismo y se hundieron no hay ni una línea, y son la inmensa mayoría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además cosas enteras a las que este método no se puede aplicar, y son bastante más importantes que las aplicaciones de fotos.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo que no se puede iterar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Una vacuna no admite producto mínimo viable. Tampoco un puente, ni un reactor, ni un satélite, ni un avión de pasajeros. Hay categorías enteras de trabajo en las que la primera versión tiene que funcionar, porque la iteración se paga con vidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El método de Ries está calibrado para un caso muy concreto: software de consumo, donde desplegar cuesta cero, el error se revierte en un minuto y hay millones de usuarios sobre los que medir. Fuera de ahí, algunas piezas siguen valiendo y otras no.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El límite del método",
+          frase: "Cuanto más caro es equivocarse y más lento es medir, menos sirve este libro. En biotecnología, en aeronáutica o en semiconductores, un ciclo de aprendizaje dura años y cuesta cientos de millones. Ahí hay que volver a planificar de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un tipo de empresa que directamente lo contradice. Las que se plantean algo que tardará una década y que no se puede validar por partes: cohetes reutilizables, coches eléctricos con su propia red de carga, ordenadores cuánticos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Peter Thiel lo dijo con toda la intención en De cero a uno: el culto a la iteración produce mejoras pequeñas sobre lo que ya existe, y las cosas que importan requieren una apuesta larga que ninguna encuesta de clientes va a respaldar.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es la crítica más seria que ha recibido este libro. Optimizar a base de pruebas A/B lleva al máximo local: se llega a la cima de la colina en la que uno está, y desde ahí ya no se puede ver la montaña que hay al lado.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo fallo es de método, y es grave en un libro que predica la comprobación empírica: no hay ni un dato que respalde el método. Son casos elegidos después de conocer el resultado, contados hacia atrás, que es exactamente el sesgo que el propio libro denuncia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo más parecido a una comprobación seria llegó siete años después. Un equipo de investigadores italianos hizo un ensayo aleatorio con más de un centenar de empresas nuevas: a la mitad les enseñaron a tratar sus decisiones como hipótesis y experimentos, a la otra mitad no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado, publicado en Management Science, fue interesante y no del todo cómodo. Las empresas formadas facturaron más, sí. Pero también pivotaron más y, sobre todo, cerraron antes cuando la idea no funcionaba. El método no evita el fracaso: lo abarata acortándolo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que realmente promete",
+          frase: "No hacer que tu idea funcione. Enterarte de que no funciona en tres meses en vez de en tres años, con veinte mil euros gastados en vez de doscientos mil. Es mucho menos vendible y es lo único que el método puede dar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer fallo es de escritura. Es un libro repetitivo, escrito en una jerga corporativa que envejece regular, con capítulos finales sobre grandes empresas que se hacen cuesta arriba. La idea entera cabe en sesenta páginas y ocupa trescientas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto es su caso insignia. IMVU, la empresa que aplicó el método desde el primer día y que aparece en cada capítulo, ha sido un negocio correcto y modesto. No es Google, ni Amazon, ni Airbnb. La demostración es más floja que la tesis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el quinto es lo que pasó con el vocabulario. Pivotar se convirtió en un eufemismo para decir que el negocio no funcionaba. Iterar, en la excusa para entregar cosas a medias. Producto mínimo viable, en la etiqueta que se le pone a lo que no está terminado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "No es culpa del libro que le hayan robado las palabras, y sí es un efecto real: quince años después, decir estas tres palabras en una reunión produce en mucha gente el reflejo contrario al que Ries pretendía.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree de este libro y no es verdad, en cuatro puntos. El primero, el más extendido: que mínimo viable significa cutre. Significa lo más pequeño que responde a una pregunta, y a veces eso es un vídeo o una página de espera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que lean significa gastar poco. Viene de Toyota y significa sin desperdicio. El desperdicio en una startup no es el dinero: es el trabajo dedicado a algo que a nadie le importa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que pivotar es fracasar. Es cambiar una hipótesis conservando el resto de lo aprendido, y hay compañías enormes que existen exactamente por haberlo hecho a tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuarto, el que más se ignora: que esto es para startups. La definición de Ries no habla de tamaño, y la mitad del libro está escrita para equipos dentro de organizaciones grandes que tienen que hacer algo cuyo resultado nadie conoce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quitado el ruido, quedan tres cosas que se pueden usar mañana y que no dependen de creerse el método entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribe qué crees que va a pasar antes de construir nada, para poder comprobar después si acertaste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mide por grupos de entrada, no por totales acumulados, porque los totales siempre suben.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ponle fecha en el calendario a la conversación de si seguir o cambiar, porque si no tiene fecha no se tiene nunca.",
+        },
+      ],
+    },
+  ],
+};
