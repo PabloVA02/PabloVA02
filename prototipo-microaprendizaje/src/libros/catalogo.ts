@@ -109,7 +109,7 @@ export const CATALOGO: Ficha[] = [
   { id: "cartas-joven-poeta", titulo: "Cartas a un joven poeta", autor: "Rainer Maria Rilke", ano: 1929, categoria: "Arte", estado: "escrito" },
   { id: "leonardo", titulo: "Leonardo da Vinci", autor: "Walter Isaacson", ano: 2017, categoria: "Arte", estado: "escrito" },
   { id: "arte-sin-hombres", titulo: "Historia del arte sin hombres", autor: "Katy Hessel", ano: 2022, categoria: "Arte", estado: "escrito" },
-  { id: "vida-dali", titulo: "La vida secreta de Salvador Dalí", autor: "Salvador Dalí", ano: 1942, categoria: "Arte", estado: "pendiente" },
+  { id: "vida-dali", titulo: "La vida secreta de Salvador Dalí", autor: "Salvador Dalí", ano: 1942, categoria: "Arte", estado: "escrito" },
   { id: "guerra-arte", titulo: "La guerra del arte", autor: "Steven Pressfield", ano: 2002, categoria: "Arte", estado: "escrito" },
   { id: "diarios-frida", titulo: "El diario de Frida Kahlo", autor: "Frida Kahlo", ano: 1995, categoria: "Arte", estado: "escrito" },
   { id: "van-gogh-cartas", titulo: "Cartas a Theo", autor: "Vincent van Gogh", ano: 1914, categoria: "Arte", estado: "escrito" },

@@ -3960,3 +3960,604 @@ export const DIARIOS_FRIDA: Resumen = {
     },
   ],
 };
+
+export const VIDA_DALI: Resumen = {
+  id: "vida-dali",
+  titulo: "La vida secreta de Salvador Dalí",
+  autor: "Salvador Dalí",
+  ano: 1942,
+  gancho: "Sus padres le pusieron el nombre de un hermano muerto nueve meses antes de nacer él. A los cinco años lo llevaron a su tumba y le dijeron que era su reencarnación.",
+  porQue:
+    "Es la autobiografía más mentirosa que se ha escrito y sigue siendo imprescindible, porque la mentira es exactamente el objeto de estudio.",
+  partes: [
+    {
+      titulo: "La tumba del hermano",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Cementerio de Figueres, Cataluña, hacia 1909. Un matrimonio lleva a su hijo de cinco años ante una lápida y le enseña un nombre grabado en la piedra. El nombre es Salvador Dalí, y es exactamente el mismo que el del niño que está mirando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hermano mayor había muerto el 1 de agosto de 1903, con veintiún meses, de una gastroenteritis. El segundo hijo nació nueve meses y diez días después, el 11 de mayo de 1904. Los padres le pusieron el mismo nombre y no cambiaron nada de la casa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le dijeron",
+          frase: "Que él era la reencarnación de su hermano. Ese es el primer recuerdo consciente que el libro relata, y es también el único episodio de la infancia que todos sus biógrafos dan por cierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la casa había un retrato del hermano muerto colgado en el dormitorio de los padres. Dalí escribió sobre eso durante toda su vida y volvió al asunto en cuadros, en entrevistas y en varios libros. Es el material más recurrente de su obra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su formulación en este libro es de las pocas frases suyas que se citan sin ironía: dice que se parecían como dos gotas de agua pero que tenían reflejos distintos, y que el hermano era probablemente una primera versión de sí mismo, concebida demasiado en absoluto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade la consecuencia práctica: que se pasó la infancia entera intentando demostrar que él no era el otro, que estaba vivo y que era distinto, y que para conseguirlo tenía que hacer constantemente cosas que llamaran la atención.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahí está, según él mismo, el origen de todo lo demás: el bigote, las declaraciones absurdas, las entradas triunfales, los escándalos calculados. Un niño compitiendo con un muerto por existir, que a los treinta y siete años escribió una autobiografía para consolidarlo.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en 1942, en Nueva York, cuando él tenía treinta y ocho años. Lo escribió en francés y salió primero en inglés. Vivía exiliado en Estados Unidos desde 1940, huyendo de la guerra europea, y necesitaba construirse una posición allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato es esencial para leerlo. No son las memorias de un anciano que hace balance: son las de un hombre en mitad de su carrera, en un país nuevo, que necesita vender una imagen y que sabe perfectamente cuál le conviene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y avisa desde la primera página de lo que va a hacer. Dice, con distintas formulaciones a lo largo del libro, que la única diferencia entre él y un loco es que él no está loco. Es una declaración de método: lo que viene es una construcción deliberada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo hay que leerlo",
+          frase: "No como una biografía. Como una obra de arte cuyo material es la propia vida del autor, con episodios inventados, exagerados y contradictorios, colocados a propósito y sin ninguna intención de exactitud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los episodios de infancia que cuenta lo dejan claro. Dice que empujó a un compañero desde un puente. Que le dio una patada en la cabeza a su hermana pequeña. Que se tiraba por las escaleras a propósito delante de la gente para que le miraran.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que tenía un terror insoportable a los saltamontes y que sus compañeros lo aprovechaban para torturarle. Que mordió a un murciélago moribundo cubierto de hormigas. Ninguno de esos episodios se puede verificar y varios son casi con seguridad falsos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hermana Anna Maria publicó en 1949 un libro contestando, con el título de Salvador Dalí visto por su hermana, en el que negaba buena parte de lo que él contaba sobre la familia y describía una infancia bastante más normal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Dalí reaccionó con una crueldad considerable: pintó cuadros que la aludían de manera ofensiva y rompió con ella de por vida. Nunca volvieron a hablarse. Esa reacción dice más sobre él que cualquiera de las anécdotas que él mismo se inventó.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está documentado de aquella familia es otra cosa. El padre, Salvador Dalí Cusí, era notario, republicano y anticlerical, un hombre de carácter fuerte que sin embargo apoyó desde el principio la vocación artística del hijo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le pagó la academia, le organizó su primera exposición en Figueres a los catorce años y le mandó a Madrid a estudiar Bellas Artes. Fue un padre presente y exigente, y esa relación acabaría rompiéndose de la peor manera posible en 1929.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La madre, Felipa Domènech, murió de cáncer de útero en 1921, cuando él tenía dieciséis años. Dalí escribió que fue el golpe más grande de su vida y que juró vencer a la muerte con la gloria. Es una de las pocas líneas del libro que suena sincera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro escenario fijo de esos años es Cadaqués, el pueblo de pescadores de la costa gerundense donde la familia veraneaba, y la cala de Portlligat. Ese paisaje —rocas, agua quieta, olivos, luz dura— es el fondo de casi toda su pintura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un dato que suele perderse en la iconografía del bigote: el paisaje de sus cuadros más famosos no es un delirio inventado. Es la bahía concreta que veía desde su casa, pintada con precisión topográfica y con cosas raras encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1922, con dieciocho años, se fue a Madrid a estudiar en la Academia de San Fernando y se alojó en un sitio que en aquellos años concentraba a media generación de la cultura española.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Allí conoció a dos personas que le cambiaron la vida, y a una de ellas la iba a tratar muy mal.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La Residencia",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La Residencia de Estudiantes de Madrid era una institución educativa fundada en 1910, laica y de inspiración liberal, en la que convivían estudiantes de todas las carreras con conferencias, laboratorios y una biblioteca abierta. Por allí pasó casi todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dieron conferencias allí Einstein, Marie Curie, Chesterton, Le Corbusier y Stravinski. Vivieron allí, entre otros, un poeta granadino llamado Federico García Lorca y un aragonés que iba para cineasta y se llamaba Luis Buñuel.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo llegó Dalí",
+          frase: "Con el pelo largo, patillas, capa y pantalones bombachos, hablando poco y en catalán. Los demás lo tomaron primero por un provinciano ridículo. Buñuel escribió que tardaron semanas en descubrir que dibujaba mejor que nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El grupo que se formó allí inventó una palabra que define bastante bien su actitud: llamaban putrefactos a todo lo que consideraban acartonado, sentimental y burgués. Salían a la calle a señalarlos y Dalí hacía dibujos de ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La relación con Lorca fue la más intensa de su vida antes de Gala, y el libro la trata de manera evasiva y confusa, que es exactamente lo esperable de un texto escrito en 1942 para el público americano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que se sabe por cartas y por testimonios es que Lorca estaba enamorado de él y se lo hizo saber. Dalí declaró décadas después, en entrevistas, que se sintió halagado y que no pudo corresponderle, y dio versiones distintas en momentos distintos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que sí es indiscutible es la influencia mutua. Lorca escribió la «Oda a Salvador Dalí» en 1926, uno de sus poemas mayores, y Dalí le hizo retratos y decorados. Se cartearon durante años y esas cartas están publicadas.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La ruptura vino con el surrealismo. Dalí y Buñuel se fueron a París y se burlaron por escrito del Romancero gitano de Lorca, considerándolo tradicional y sentimental. A Lorca aquello le dolió considerablemente y la amistad se enfrió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Buñuel el resultado fue una película. En 1929 escribieron juntos, en unos días, el guion de «Un perro andaluz», dieciséis minutos de imágenes sin ninguna lógica narrativa, financiada por la madre de Buñuel.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla del guion",
+          frase: "Se contaban imágenes que habían soñado y aceptaban solo las que no admitían ninguna explicación racional, psicológica ni simbólica. Si alguno encontraba un sentido, la imagen se descartaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí salió la escena más famosa del cine de vanguardia: una navaja cortando un ojo, rodada con el ojo de un ternero muerto. Se estrenó en París ante un público de intelectuales que Buñuel esperaba que se le echara encima, y le aplaudieron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto, en la academia de Madrid, Dalí se comportaba de manera cada vez más provocadora. En 1926 fue expulsado definitivamente después de negarse a ser examinado, alegando que ninguno de los profesores del tribunal estaba capacitado para juzgarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase se cita siempre como una boutade y tiene un fondo defendible: técnicamente era mejor dibujante que sus profesores y lo sabía. Su dominio del oficio clásico —perspectiva, anatomía, óleo— era y siguió siendo extraordinario.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el punto que separa a Dalí de casi todos los provocadores posteriores: era, sin discusión, uno de los mejores dibujantes del siglo XX. Lo que hizo con esa habilidad se puede discutir; que la tenía, no lo ha discutido nadie nunca.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1929 llegó a París y se incorporó al grupo surrealista de André Breton, que llevaba cinco años funcionando como una especie de partido con expulsiones, manifiestos y disciplina interna. Dalí encajó de inmediato y duró poco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su aportación teórica al grupo tiene nombre propio y es lo más serio que produjo intelectualmente: el método paranoico-crítico, que describió como una forma de irracionalidad organizada y sistemática puesta al servicio de la producción de imágenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea es esta: el delirio paranoico consiste en ver conexiones donde no las hay, con una coherencia interna absoluta. Dalí propuso usar deliberadamente ese mecanismo para producir imágenes dobles, donde una misma forma se lee de dos maneras a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus cuadros de esos años están llenos de eso: un rostro que también es un grupo de figuras, una mesa que también es un perro, un busto de Voltaire que aparece y desaparece según cómo se mire. Y funcionan: el efecto es comprobable mirando.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La diferencia con los demás",
+          frase: "El resto del grupo buscaba el automatismo: pintar sin control consciente. Dalí hacía lo contrario: usaba una técnica académica milimétrica para representar con precisión fotográfica cosas imposibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su formulación era que quería fotografiar a mano y en color sus imágenes concretas de la irracionalidad. Y eso explica por qué su pintura es la que más ha calado: un delirio pintado con torpeza no impresiona; uno pintado con precisión de miniaturista sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1931 pintó el cuadro que le hizo mundialmente famoso: un paisaje de Cadaqués con relojes blandos derritiéndose sobre una rama y sobre una forma que es un autorretrato deformado. Mide veinticuatro por treinta y tres centímetros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ese mismo verano de 1929, en Cadaqués, apareció en su casa una mujer rusa de diez años más que él, casada con un poeta francés, que iba a cambiarlo todo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Gala",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Elena Ivánovna Diákonova, había nacido en Kazán en 1894, había pasado la adolescencia en un sanatorio suizo por tuberculosis y estaba casada con el poeta Paul Éluard, uno de los fundadores del surrealismo. Todos la llamaban Gala.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegó a Cadaqués en el verano de 1929 con su marido, su hija y un grupo de amigos, invitados por Dalí. Se marchó semanas después habiendo decidido quedarse con él. Éluard volvió a París solo y siguió siendo su amigo durante años.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El efecto que tuvo",
+          frase: "Dalí tenía veinticinco años, ataques de risa incontrolable, crisis de ansiedad y ninguna capacidad para gestionar su propia vida. Ella se encargó de todo lo demás durante cincuenta y tres años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gala negociaba los precios, elegía los clientes, gestionaba las galerías, decidía qué se vendía y a quién, y organizaba las giras. Era, en la práctica, la directora de una empresa cuyo único producto era él, y lo hacía con una dureza que le valió muy mala prensa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Buena parte de esa mala prensa tiene el tono que suele tener cuando una mujer administra el dinero: se la describía como codiciosa, calculadora y manipuladora. Es probable que fuera dura negociando y también que sin ella él no habría tenido carrera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dalí firmaba muchos de sus cuadros como Gala Salvador Dalí, incorporando el nombre de ella al suyo. En el libro le dedica páginas de una devoción absoluta y bastante ilegible, y ese registro se mantiene en todo lo que escribió sobre ella durante medio siglo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aparece además en decenas de cuadros, muchas veces de espaldas, y en 1949 la pintó como la Virgen en una Madonna que llevó al Vaticano para enseñársela al papa. Nadie ha explicado nunca del todo qué pretendía con aquella visita.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel mismo año de 1929 se produjo la ruptura con su padre, y fue definitiva. Hubo dos motivos y se sumaron: la relación con una mujer casada, y una inscripción que Dalí pintó sobre una obra en la que decía que a veces escupía por placer sobre el retrato de su madre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El padre, que había enviudado ocho años antes y que había apoyado su carrera desde el principio, lo echó de casa y lo desheredó. Estuvieron años sin hablarse. Dalí se instaló en una barraca de pescadores en Portlligat, a un kilómetro del pueblo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Portlligat",
+          frase: "Aquella barraca de veintiún metros cuadrados fue creciendo durante cuarenta años a base de comprar las casetas de al lado. Acabó siendo una vivienda-laberinto donde vivió y pintó casi toda su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no cuenta bien nada de eso. La ruptura con el padre aparece de manera oblicua, la política no aparece, y los años treinta españoles —que fueron los de la República, la guerra y el exilio— están tratados con una evasividad que hoy resulta escandalosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque en medio de todo aquello ocurrieron dos cosas que este libro, escrito en 1942, esquiva por completo. La primera es su expulsión del grupo surrealista, que fue por motivos políticos además de comerciales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1934 Breton convocó un juicio interno contra él. Los cargos incluían haber pintado obras con contenido considerado contrarrevolucionario y haber hecho declaraciones ambiguas sobre Hitler, al que Dalí decía encontrar fascinante como imagen y no como político.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Dalí se presentó al juicio con un termómetro en la boca y varios jerséis, alegando que tenía fiebre, y se los fue quitando mientras hablaba. Consiguió que el asunto quedara en nada durante un tiempo. La expulsión formal llegó en 1939.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Breton le dedicó entonces un apodo construido con las letras de su nombre y que resultó demoledor: Ávida Dollars. Es un anagrama perfecto de Salvador Dalí y resume la acusación entera. Se le quedó pegado el resto de su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda cosa que el libro esquiva es la guerra civil española y, dentro de ella, el asesinato de Federico García Lorca en agosto de 1936, en Granada, a manos de sublevados. Dalí no dijo nada relevante entonces ni escribió nada aquí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Circula una anécdota, no confirmada, según la cual reaccionó a la noticia con una exclamación taurina. Sea cierta o no, lo comprobable es que su amigo más íntimo de juventud fue fusilado y que en su autobiografía, escrita seis años después, no hay ajuste de cuentas con eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí hizo, ya en los años cincuenta, fue apoyar públicamente al régimen de Franco, enviar telegramas de adhesión y declarar que aprobaba las sentencias de muerte firmadas en 1975, semanas antes de la muerte del dictador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas declaraciones son documentadas y no admiten la lectura de la broma surrealista, aunque él pretendiera venderlas así. Es la parte más difícil de sostener de su biografía y ninguna admiración por su pintura la borra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hay que mantener a la vez",
+          frase: "Que era un dibujante extraordinario y que hizo y dijo cosas indefendibles. Las dos cosas son ciertas y ninguna cancela a la otra, y saber sostenerlas juntas es la única manera honesta de leerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa formulación no es de nadie de ahora: la escribió George Orwell en 1944, en un ensayo sobre este libro exactamente, que sigue siendo la mejor cosa que se ha escrito sobre Dalí y una de las mejores sobre el problema general que plantea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se titula, más o menos, privilegio del clero, y es una discusión sobre si el talento artístico exime de algo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Ávida Dollars",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Orwell escribió aquel ensayo poco después de leer este libro, y empieza reconociendo que le produce náuseas. Repasa los episodios que Dalí cuenta con orgullo —la crueldad infantil, los animales torturados, la exhibición constante— y no los suaviza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a continuación reconoce, sin ninguna concesión, que Dalí es un dibujante excelente y que buena parte de sus imágenes tienen una potencia que no se puede negar. Las dos afirmaciones están en el mismo texto y él se niega a elegir entre ellas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su formulación",
+          frase: "Que uno debería poder sostener a la vez en la cabeza dos hechos: que Dalí es un buen dibujante y que es una persona repugnante. Que lo primero no cancela lo segundo y lo segundo no cancela lo primero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ataca las dos escapatorias habituales. La de quienes dicen que el talento justifica cualquier conducta, que sería conceder a los artistas un privilegio de clero. Y la de quienes dicen que un mal tipo no puede hacer buen arte, que es sencillamente falso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ensayo se escribió hace ochenta años y es exactamente la discusión que se sigue teniendo hoy con otros nombres. Orwell la resolvió en diez páginas y su conclusión —sostener las dos cosas y no fusionarlas— sigue siendo la posición más sólida disponible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El período americano de Dalí, en el que escribió este libro, fue el de su transformación en marca. Diseñó escaparates para grandes almacenes de Nueva York, hizo publicidad, colaboró con Disney, con Hitchcock y con la revista Vogue.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay un episodio que lo resume: en 1939 montó un escaparate para unos almacenes de la Quinta Avenida, la dirección lo modificó sin avisarle, y él entró y volcó una bañera llena de agua que atravesó el cristal y acabó en la calle. Salió en la prensa.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fue detenido, pagó una multa y el juez le dio la razón parcialmente, diciendo que un artista tiene derecho a defender la integridad de su obra. El escaparate se rehízo tal como él lo había diseñado y los almacenes vendieron mucho más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Hitchcock diseñó la secuencia onírica de la película «Recuerda», en 1945, con ojos pintados sobre cortinas y unas tijeras enormes. Con Disney empezó en 1946 un cortometraje que se abandonó y que la compañía terminó en 2003, cincuenta y siete años después.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La acusación",
+          frase: "Que a partir de cierto punto dejó de ser un pintor con una obra y pasó a ser un personaje que vendía firmas. Esa acusación es de Breton, es de sus antiguos amigos, y es en buena parte correcta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso más grave llegó al final de su vida. En los años setenta firmó cantidades enormes de hojas de papel en blanco, que después se usaron para imprimir litografías. Se han estimado en decenas de miles, aunque las cifras exactas se discuten.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado es que el mercado de obra gráfica de Dalí está tan contaminado que hoy resulta prácticamente imposible autentificar muchas piezas, y que existen fundaciones dedicadas exclusivamente a intentar separar lo suyo de lo que no lo es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se ha discutido mucho cuánta responsabilidad tuvo él en aquello y cuánta gente de su entorno, en unos años en que su salud mental y física ya estaba deteriorada. La consecuencia, en cualquier caso, es un desastre patrimonial que sigue vigente.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y produce una ironía perfecta: el hombre que se pasó la vida construyendo un personaje inventado acabó dejando un rastro de obras cuya autenticidad no se puede establecer. Lo que le ocurrió al mercado es lo mismo que él le hizo a su biografía.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla este libro como libro. La primera cosa es evidente y ya se ha dicho: no vale como fuente biográfica. Contiene episodios inventados, fechas alteradas, personajes deformados y contradicciones internas, todo deliberado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es la prosa. Es agotadora: adjetivos acumulados, exclamaciones, digresiones larguísimas y una autocelebración constante que en trescientas páginas se hace muy difícil de sostener. Hay tramos que solo se pueden leer en diagonal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es de fondo y es la más seria: las evasiones. La guerra civil, la muerte de Lorca, la posición ante el fascismo y la ruptura con casi todos sus amigos aparecen difuminadas o directamente ausentes en unas memorias escritas en 1942.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la cuarta: es un texto interesado. Se escribió para consolidar una posición comercial en un país nuevo, y eso condiciona cada página. No es una confesión, es una operación de imagen, y hay que leerla sabiendo qué está intentando conseguir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que casi todo el mundo cree y no es verdad, empezando por lo más repetido: los relojes blandos no representan la relatividad de Einstein. Se lo preguntaron muchas veces y siempre lo negó, diciendo que la idea venía de un camembert derritiéndose al sol.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El segundo malentendido",
+          frase: "Dalí no fue un surrealista toda su vida: el grupo lo expulsó en 1939 y él siguió llamándose surrealista otros cincuenta años, con Breton llamándole Ávida Dollars.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: no estaba loco. El personaje era una construcción administrada con precisión, y él lo declaró abiertamente muchas veces. Concedía entrevistas absurdas y llevaba una contabilidad meticulosa de sus ingresos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuarto: no fue un pintor abstracto ni un vanguardista formal. Técnicamente era un pintor académico del XIX pintando cosas imposibles, y esa combinación —oficio antiguo, contenido delirante— es justamente lo que le hizo distinto de todos los demás.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La cripta de Figueres",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Figueres, 1974. Sobre las ruinas del antiguo teatro municipal de la ciudad, bombardeado durante la guerra civil y abandonado desde entonces, se inaugura un museo diseñado por el propio Dalí, con una cúpula geodésica transparente y huevos gigantes en el tejado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo llamó Teatro-Museo y no museo a secas, y explicó por qué: porque su obra es teatral y porque el edificio era un teatro. Es hoy el segundo museo más visitado de España, después del Prado, con más de un millón de visitantes al año.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El detalle importante",
+          frase: "Lo diseñó y lo montó él mismo, pieza a pieza, durante trece años. No es una colección organizada por conservadores: es la última obra de arte de Dalí, y su contenido es él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dentro hay salas que son instalaciones enteras: una habitación que vista desde un punto concreto se convierte en una cara, un cadillac con lluvia dentro, techos pintados con dos figuras vistas desde abajo. Todo funciona con la lógica de la imagen doble.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los últimos años de su vida fueron muy malos. Gala murió en junio de 1982, con ochenta y siete años, y él quedó en un estado de deterioro rápido: dejó de pintar, dejó de comer con regularidad y se instaló en el castillo de Púbol, que le había regalado a ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1984 se produjo un incendio en su habitación de aquel castillo, en circunstancias que nunca se aclararon del todo, y sufrió quemaduras graves. Lo trasladaron a una torre anexa al museo de Figueres, y allí pasó sus últimos cinco años.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Murió el 23 de enero de 1989, a los ochenta y cuatro años, y está enterrado en la cripta de su propio museo, bajo el suelo del escenario, con una losa por la que pasan a diario miles de visitantes sin darse cuenta de que están encima.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese final tiene una simetría que él no habría podido diseñar mejor: el libro empieza con un niño de cinco años delante de la tumba de su hermano, en Figueres, y la vida acaba con él enterrado en la misma ciudad, bajo un edificio construido para su propia obra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su testamento dejó todo el patrimonio al Estado español, sin mencionar a su hermana Anna Maria ni a la hija de Gala. Los pleitos posteriores duraron años, y en 2017 se llegó incluso a exhumar el cadáver para una prueba de paternidad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El resultado de aquella exhumación",
+          frase: "La prueba dio negativo. Y los técnicos que abrieron la tumba informaron de que el bigote seguía intacto, en la posición de las diez y diez, veintiocho años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle recorrió el mundo entero en 2017 y es probablemente el epitafio que él habría elegido. Un titular internacional sobre su bigote, generado por un pleito de herencia, casi treinta años después de haberse muerto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda de este libro, descontando las mentiras, la prosa insoportable y las evasiones políticas, es un documento único sobre una operación concreta: cómo se fabrica un personaje público, contada por el propio fabricante mientras la está ejecutando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en eso es asombrosamente moderno. Dalí entendió antes que nadie que la imagen pública es una obra en sí misma, que se puede diseñar, que se puede mantener y que puede valer más que el producto. Trabajaba en eso a jornada completa desde 1930.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Cualquiera que hoy gestione su presencia pública está haciendo, con peor técnica, lo que él hizo con un bigote encerado, una declaración absurda a la semana y una precisión enorme sobre qué fotografía convenía en cada momento.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La recomendación de lectura es la que se aplica a cualquier texto de este tipo: leerlo junto a otra cosa. Existen biografías serias de Dalí, con documentación y contraste, y este libro se disfruta mucho más sabiendo qué partes son inventadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la recomendación de fondo es la de Orwell: no resolver la contradicción. No hay que decidir si Dalí era un genio o un impostor, porque fue las dos cosas simultáneamente y durante sesenta años, y esa simultaneidad es lo interesante del caso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pintor que a los veintidós años dominaba la técnica clásica mejor que sus profesores es el mismo que firmó papeles en blanco a los setenta. El amigo de Lorca es el mismo que aplaudió al régimen que lo mató. No hay dos Dalís: hay uno solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y todo eso, según él, empezó en un cementerio de Figueres, con unos padres enseñándole una lápida con su propio nombre grabado y diciéndole que él era otro que ya se había muerto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es probablemente la única cosa verdadera del libro, y él construyó las trescientas páginas restantes para demostrar que se había pasado la vida entera negándolo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió que a los seis años quería ser cocinero, a los siete Napoleón, y que desde entonces su ambición no había hecho más que crecer. Es la mejor frase del libro y resume el proyecto completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y también deja ver, debajo del chiste, a un niño intentando ser lo bastante grande como para que dejaran de confundirlo con un hermano muerto que nunca cumplió dos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está enterrado a cuarenta metros de aquella tumba.",
+        },
+      ],
+    },
+  ],
+};
