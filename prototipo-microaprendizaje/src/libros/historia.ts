@@ -6370,3 +6370,600 @@ export const ORIGENES_TOTALITARISMO: Resumen = {
     },
   ],
 };
+
+export const HOMENAJE_CATALUNA: Resumen = {
+  id: "homenaje-cataluna",
+  titulo: "Homenaje a Cataluña",
+  autor: "George Orwell",
+  ano: 1938,
+  gancho:
+    "Vino a escribir cuatro artículos, se alistó en una milicia, le pegaron un tiro en el cuello y salió huyendo de sus propios aliados.",
+  porQue:
+    "Es el relato de primera mano del que salieron Rebelión en la granja y 1984. Orwell descubrió en Barcelona que se puede reescribir la historia mientras los testigos siguen vivos, y no se recuperó nunca de aquello.",
+  partes: [
+    {
+      titulo: "El cuartel Lenin, Barcelona",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Barcelona, finales de diciembre de 1936. Un inglés de treinta y tres años, muy alto y muy flaco, baja de un tren y se encuentra una ciudad que no ha visto nunca en ninguna parte: no hay señoritos, no se dan propinas y no se trata a nadie de usted.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo el mundo se tutea y se llama camarada. Los camareros miran a la cara. Los edificios importantes están incautados y cubiertos de banderas rojas y rojinegras. En los altavoces de las Ramblas suenan canciones revolucionarias desde la mañana hasta la noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El inglés se llamaba Eric Blair y firmaba como George Orwell. Había venido a escribir artículos para la prensa británica, y él mismo cuenta que se alistó en la milicia casi de inmediato, porque en aquel ambiente y en aquel momento parecía lo único que se podía hacer.",
+        },
+        {
+          forma: "clave",
+          rotulo: "En qué milicia acabó, y por qué importa",
+          frase: "En la del POUM, un partido marxista pequeño y antiestalinista. No fue una elección ideológica: llegó con un aval del Partido Laborista Independiente británico, que era el aliado del POUM, y eso decidió dónde lo mandaron. También decidió que medio año después estuviera huyendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene aclararlo de entrada porque es el error más repetido sobre este libro: Orwell no estuvo en las Brigadas Internacionales. Las Brigadas las organizaba la Internacional Comunista, y para 1937 sus mandos consideraban al POUM poco menos que un partido enemigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su instrucción militar fue el cuartel Lenin de Barcelona, un antiguo cuartel de caballería junto a las Ramblas, con establos, patios enormes y una cocina que no daba abasto. Estuvo allí unos días, y la instrucción consistió en poco más que marchar en formación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No había fusiles para entrenar. Los pocos que aparecían eran Máuser desgastados de finales del siglo diecinueve, algunos con la fecha de 1896 grabada en la culata, y varios estaban tan gastados que disparar con ellos era peligroso para el que apretaba el gatillo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La composición de aquella milicia dice bastante. Había hombres de cuarenta años con hijos y críos de dieciséis a los que había que enseñar a no jugar con el cerrojo. Orwell calcula que una cuarta parte de sus compañeros no había cumplido los dieciocho años.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí funcionaba era otra cosa, y es la observación política más importante del libro. En aquella milicia no había saludos, ni graduaciones con privilegios, ni diferencias de paga entre un jefe y un soldado raso. Las órdenes se discutían primero y se cumplían después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A un oficial británico eso le habría parecido el fin del ejército, y Orwell admite que militarmente era un desastre. Pero apunta también que aquellos hombres aguantaron meses en las trincheras y que la disciplina, cuando hacía falta de verdad, terminaba apareciendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación es que se trataba de una disciplina de clase y no de rango: un hombre obedecía porque estaba de acuerdo con lo que se estaba haciendo, no porque temiera al que se lo mandaba. Sostiene que eso funciona, aunque tarde bastante más en funcionar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el descubrimiento que le cambió la vida. Orwell venía de Eton, había sido policía imperial en Birmania durante cinco años y era socialista de cabeza pero de clase media hasta la médula. En Barcelona vio por primera vez una sociedad sin clases funcionando de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo escribe sin ninguna coquetería: dice que había cosas que no entendía y algunas que no le gustaban, pero que reconoció aquello enseguida como un estado de cosas por el que merecía la pena pelear. No es una frase de propaganda, es un hombre describiendo un asombro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También describe lo que ese asombro tenía de irreal. La ciudad estaba llena de gente armada que no sabía disparar, los tranvías iban pintados de rojo y negro, y había carteles pidiendo que no se malgastara el pan mientras en los restaurantes de lujo se seguía comiendo bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no oculta la parte fea, aunque pasa por ella deprisa. Las iglesias estaban destrozadas, vaciadas y quemadas de manera sistemática. Lo cuenta en una frase y sigue, y ese es uno de los agujeros del libro que hoy se ve más grande, porque detrás hubo miles de muertos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La situación de la guerra en diciembre de 1936 era esta. El golpe militar de julio había fracasado en Barcelona y en Madrid pero había triunfado en media España, y lo que empezó como una sublevación de dos días se había convertido en una guerra larga con frentes fijos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Cataluña, además, quien había derrotado el golpe en la calle habían sido los sindicatos anarquistas, y eso produjo algo que no estaba en el guion de nadie: una revolución social simultánea a una guerra, con fábricas colectivizadas y milicias en lugar de ejército.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está el conflicto que atraviesa el libro entero y que Orwell tardó meses en entender. Dentro del bando republicano había dos posturas incompatibles sobre qué se estaba haciendo exactamente, y las dos tenían argumentos serios detrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una decía que primero había que ganar la guerra, y que para eso hacían falta un ejército regular, mando único y las armas que solo estaba dispuesta a vender la Unión Soviética. La otra decía que la guerra y la revolución eran la misma cosa y no se podían separar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Orwell llegó completamente indiferente a esa discusión. Escribe que al principio le parecían peleas de siglas y que lo único que quería era subir al frente a disparar a los fascistas, que le parecía lo evidente, lo urgente y lo único que había que explicar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le costaron cinco meses, una revuelta callejera y una bala entender que aquella pelea de siglas era la guerra de verdad, y que en ella se estaba jugando algo que reconocería después en otros sitios y en otras banderas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero antes tuvo que pasar el invierno en una montaña de Aragón.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La trinchera de Monte Oscuro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Lo mandaron al frente de Aragón, a un sector de montaña cerca de Alcubierre, en la provincia de Huesca. Llegaron de noche en camión, cantando, y lo primero que le sorprendió fue el olor: los parapetos estaban rodeados de basura y de excrementos porque nadie había organizado nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las posiciones eran cerros pelados —uno se llamaba Monte Oscuro— coronados por trincheras poco profundas, con sacos terreros y alambre de espino. El enemigo estaba en el cerro de enfrente, a distancias que iban de doscientos metros a más de un kilómetro según el punto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y allí no pasaba nada. Esa es la primera cosa que cuenta el libro y que ningún relato de guerra suele contar: que la mayor parte del tiempo, en la mayor parte de los frentes, no hay combate. Hay guardias, frío y una espera que se mide en semanas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Las cinco cosas que importaban",
+          frase: "Orwell las enumera por orden de importancia real: leña, comida, tabaco, velas y el enemigo. En ese orden exacto. Un hombre en una trinchera de montaña en enero piensa muchísimo más en cómo encender un fuego que en la estrategia del Estado Mayor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La leña era el problema mayor de todos. Aquellos montes estaban pelados y las partidas salían a arrancar raíces con las manos y a recoger ramitas del grosor de un dedo. Escribe que un hombre podía tardar dos horas en reunir lo justo para hervir agua.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comida era pan, chorizo, vino aguado y una cosa que llamaban café. El agua había que subirla en burros desde el pueblo. Y estaba el frío: varios grados bajo cero de madrugada en una trinchera abierta, con una manta y sin ropa de abrigo que mereciera ese nombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y luego los piojos. Orwell les dedica un pasaje entero, con descripción de la anatomía del bicho y de dónde pone los huevos, y lo remata diciendo que en toda guerra los soldados los tienen y que en los cuadros de batallas no aparecen nunca.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El armamento era lo que era. Escribe que no tenían cascos de acero, ni bayonetas, apenas revólveres, y no más de una bomba de mano por cada cinco o diez hombres. Las bombas que había eran caseras y estallaban con la misma alegría en las dos direcciones.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La munición se contaba de una en una. Estaba prohibido disparar sin un blanco claro, y aun así había noches enteras de tiroteo por puro nervio. Su cálculo es que en aquel sector se gastaba más plomo en falsas alarmas que en el ejército de enfrente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su balance del asunto es demoledor y muy suyo: dice que en aquella guerra, en aquel frente y en aquel momento, un hombre resultaba mucho más peligroso para sus compañeros que para el enemigo, sobre todo si era joven y llevaba un fusil de 1896.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hubo acciones. Participó en un asalto nocturno a una posición enemiga en el que tomaron una trinchera, cogieron unos fusiles y una caja de munición, y tuvieron que retirarse a los veinte minutos porque el apoyo prometido no llegó por ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cuenta con un detalle que no se olvida. En mitad de un ataque vio a un hombre corriendo delante de él sujetándose los pantalones con las dos manos, y no le disparó, porque un hombre sujetándose los pantalones no es un fascista: es un tipo igual que tú.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio se ha convertido en el pasaje más citado de todo lo que escribió sobre la guerra, y conviene leerlo entero, porque él no lo presenta como un gesto noble sino como una incapacidad física de apretar el gatillo en ese momento concreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro descubrimiento del invierno fue político y le llegó por correo. Empezaron a caerle periódicos de Barcelona y de Inglaterra en los que se contaba lo que estaba pasando en el frente de Aragón, y lo que contaban no se parecía a nada de lo que él estaba viendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leía crónicas de batallas heroicas en días en los que no se había disparado un tiro. Y leía que las milicias del POUM no combatían y que estaban de acuerdo con el enemigo. Él estaba allí, con barro hasta las rodillas, leyendo que no estaba allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la línea directa que une este libro con lo que escribió después. La experiencia de leer una historia inventada sobre unos hechos que uno ha vivido, y de comprobar que esa versión es la que se impone, es exactamente el motor de 1984.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo dijo con todas las letras años más tarde: que la guerra de España y los sucesos de 1936 y 1937 inclinaron la balanza, y que desde entonces cada línea seria que escribió fue contra el totalitarismo y a favor del socialismo democrático.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En febrero trasladaron su unidad al frente de Huesca, que estaba igual de parado pero era más peligroso porque las líneas estaban mucho más cerca. Allí pasó otros dos meses y medio, y allí volvería después de lo que ocurrió en Barcelona en mayo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En total, Orwell pasó unos ciento quince días en primera línea, casi todos sin combate. Es un dato que conviene tener a mano para leer el libro con la medida correcta: vio muy de cerca un rincón muy pequeño de una guerra enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él lo advierte más de una vez, con una honradez que casi ningún libro de guerra tiene. Pide al lector que desconfíe de su parcialidad, de sus errores de hecho y de la deformación que produce inevitablemente haber visto solo una esquina de los acontecimientos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A finales de abril de 1937 le tocaron unos días de permiso y bajó a Barcelona a ver a su mujer, Eileen, que trabajaba en la oficina del partido británico. Llevaba casi cuatro meses fuera de la ciudad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la ciudad ya no era la misma.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las Ramblas, mayo de 1937",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Lo que se encontró al bajar del tren lo describe en unas pocas líneas que están entre las mejores del libro. Habían vuelto las propinas. Habían vuelto los sombreros, los restaurantes caros llenos y el trato de usted. Los altavoces ya no ponían canciones revolucionarias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las milicias estaban siendo sustituidas por el Ejército Popular, con graduaciones, saludo obligatorio y diferencias de sueldo. La palabra camarada iba desapareciendo de la calle. Y en las colas del pan, que eran largas, ya no se hablaba de revolución sino de comida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su diagnóstico cabe en una frase: la clase obrera había perdido. No había habido ninguna batalla, ni ningún decreto, ni ningún anuncio. En cuatro meses, la ciudad revolucionaria de diciembre había vuelto a ser una ciudad normal en tiempo de guerra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Detrás de eso había una lucha de poder que venía cociéndose desde el otoño. El gobierno republicano, con el apoyo del Partido Comunista y del PSUC catalán, quería recuperar el control del orden público, de las fábricas y de las armas que tenían los sindicatos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué los comunistas empujaban hacia la derecha",
+          frase: "Porque la Unión Soviética era el único país que vendía armas a la República, y quería una república burguesa presentable ante Francia e Inglaterra, no una revolución. Cuanto más dependía el gobierno de esas armas, más peso tenía el partido que las traía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El POUM sostenía lo contrario y lo decía en su prensa: que sin revolución no habría motivos para que los obreros se dejaran matar, y que desmontarla equivalía a entregar la guerra. Era una posición defendible, y les puso una diana en la espalda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detonante llegó el 3 de mayo de 1937. La policía de la Generalitat, por orden del consejero de Orden Público, intentó tomar el edificio de la Telefónica de la plaza de Cataluña, que estaba en manos del sindicato anarquista desde julio del año anterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En cuestión de horas, Barcelona estaba llena de barricadas y disparando. Anarquistas y militantes del POUM por un lado, fuerzas del gobierno y del PSUC por el otro, en una ciudad que estaba a doscientos kilómetros del frente y en plena guerra contra Franco.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Orwell pasó tres días y tres noches en el tejado del cine Poliorama, en las Ramblas, con un fusil, vigilando la sede del POUM que estaba justo enfrente. Casi no disparó. Se dedicó a mirar la calle vacía, a leer novelas policiacas y a intentar entender qué demonios pasaba.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su descripción de aquellos días es la de un hombre asqueado. Escribe que era un espectáculo grotesco: gente que había ido a España a luchar contra el fascismo matándose entre sí en una ciudad de retaguardia mientras el frente aguantaba a doscientos kilómetros de allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los combates duraron hasta el 8 de mayo y dejaron alrededor de cuatrocientos o quinientos muertos. Llegaron guardias de asalto desde Valencia, se impuso el alto el fuego y el gobierno central asumió el orden público en Cataluña. La revolución se había acabado del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que vino después es lo que convirtió este libro en lo que es. La prensa comunista internacional presentó los sucesos de mayo como una insurrección fascista organizada por el POUM, y esa versión se publicó en periódicos de medio mundo como un hecho comprobado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La acusación concreta era que el POUM era una organización trotskista al servicio de Franco y de la Gestapo. Ninguna de las dos cosas era cierta. El POUM no era trotskista: Trotski había roto con Andreu Nin años antes y por discrepancias bastante serias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Orwell leyó aquellas crónicas estando allí y comprobó punto por punto lo que no había pasado. Reproduce recortes de prensa junto a lo que él vio, y ese contraste es el corazón del libro: no un desacuerdo de opinión, sino una mentira comprobable y a gran escala.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entendió lo que aquello significaba. No que unos periodistas se equivocaran, sino que se podía fabricar una versión de unos hechos recientes, imponerla y convertirla en la historia oficial, mientras los testigos callaban por miedo o por disciplina de partido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el momento en que Orwell se hace Orwell. Escribió después que en España vio por primera vez artículos de periódico que no guardaban ninguna relación con los hechos, ni siquiera la relación que implica una mentira corriente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los capítulos donde explica todo esto son los más densos del libro y los que a él mismo le preocupaban. En 1938 dejó escrito que prefería que se sacaran del cuerpo del texto y se pusieran como apéndices, y las ediciones modernas lo han hecho así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su razón era práctica y muy honesta: quien busque el relato de lo que le pasó a un soldado inglés puede saltárselos, y quien quiera la política los tiene aparte, avisado de que son justamente la parte donde él más podía estar equivocándose.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque se equivocó en cosas. Aceptó la versión del POUM sobre varios detalles de mayo, dio por buenas cifras que después se han corregido, y su español era flojo, así que dependía de traductores y de lo que le contaban sus compañeros británicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un argumento del otro bando que trata con menos generosidad de la que merecía, aunque llega a reconocerlo a medias: que un ejército de milicias sin mando único, sin artillería y sin disciplina no podía ganar una guerra moderna a un ejército profesional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Historiadores posteriores han defendido que la centralización que impusieron los comunistas era militarmente necesaria, y otros han documentado que la represión que vino con ella fue muy superior a lo que exigía cualquier necesidad militar. La discusión sigue viva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 10 de mayo volvió al frente de Huesca. Diez días después, al amanecer, se levantó en la trinchera para hablar con el centinela de al lado.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Una bala en la garganta",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El 20 de mayo de 1937, hacia las cinco de la mañana, Orwell estaba en un parapeto del frente de Huesca cambiando el turno de guardia. Medía casi un metro noventa, y una trinchera hecha para los soldados españoles de aquellos años le llegaba por el pecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sacó la cabeza y los hombros mientras hablaba. Un francotirador enemigo, a poco más de cien metros, disparó una sola vez. La bala le entró por el lado izquierdo del cuello y le salió por detrás, pasándole a un milímetro de la arteria carótida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su descripción de lo que se siente es de las páginas más recordadas del libro. Dice que fue como estar en el centro de una explosión, que notó una sacudida violenta y ningún dolor, y una debilidad enorme, como si le hubieran vaciado por dentro de golpe.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pensó al caer",
+          frase: "Que se estaba muriendo, y le sorprendió que la idea no le produjera ni terror ni consuelo, sino una rabia furiosa por tener que dejar el mundo en ese momento y en ese sitio. Después pensó en su mujer. Calcula que aquello duró unos dos minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No se moría. La bala había pasado por el único punto por el que podía pasar sin matarlo, entre la tráquea y la arteria, dañándole un nervio de la laringe. Perdió la voz por completo durante unos días y no recuperó nunca del todo el timbre que tenía antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los camilleros lo bajaron un kilómetro y medio a hombros, dando tumbos, y lo metieron en una ambulancia que era una furgoneta. Pasó por hospitales de campaña en Siétamo, en Barbastro y en Lérida, y acabó en Tarragona y después en un sanatorio de Barcelona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La medicina que describe es la de la época y la de un bando escaso de todo. En un hospital le aplicaron un tratamiento eléctrico en el brazo que le dolía bastante, y sobre las cuerdas vocales le dijeron que no había nada que hacer salvo esperar y callarse.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El dictamen oficial fue que quedaba inútil para el servicio, y con eso empezó el papeleo para desmovilizarlo. Necesitaba sellos de tres sitios distintos, y por eso pasó las semanas siguientes yendo de hospital en hospital con una carpeta de documentos debajo del brazo.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese trámite absurdo, que en otro momento habría sido un capítulo cómico, acabó salvándole la vida, porque lo mantuvo fuera de Barcelona justo los días en que el gobierno decidió terminar con el POUM de una vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 16 de junio de 1937, el partido fue declarado ilegal y sus dirigentes detenidos en bloque. La acusación era la que llevaba semanas circulando por los periódicos: espionaje al servicio de Franco y de la Gestapo. No se presentó ninguna prueba que se sostuviera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A Andreu Nin, el dirigente principal, se lo llevaron a Madrid y desapareció. Hoy se sabe con bastante seguridad que fue torturado y asesinado por agentes soviéticos en Alcalá de Henares, y que lo que buscaban era una confesión que no llegó a firmar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El comandante de Orwell, un belga llamado Georges Kopp, fue detenido y pasó año y medio en cárceles republicanas sin juicio. Un compañero del contingente británico, Bob Smillie, de veintidós años, murió en una prisión de Valencia en circunstancias que nunca se aclararon.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Orwell volvió a Barcelona el 20 de junio sin saber nada de todo esto. Su mujer lo estaba esperando en el vestíbulo del hotel y, en cuanto lo vio entrar, se le echó al cuello y le dijo al oído que se marchara de allí inmediatamente y sin hacer preguntas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hotel estaba vigilado. La habitación de ella había sido registrada por la policía, que se llevó los diarios, los recortes y hasta los papeles personales. Haber sido miliciano del POUM, aquel día, era motivo suficiente para acabar en una checa sin juicio ni plazo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cuatro días siguientes son la parte del libro que más se parece a una novela, y son verdad. Orwell durmió en la calle, en solares y en una iglesia bombardeada, y se pasaba el día en cafés fingiendo ser un turista inglés despistado con una guía en la mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribe que lo peor no era el miedo sino la mezcla: que en los mismos cafés donde se tomaba un café con leche había gente detenida esa misma semana, y que el ambiente general de la ciudad era de normalidad completa, con los tranvías funcionando puntuales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Intentó además, con una temeridad que él mismo reconoce, entrar en la cárcel donde tenían a Kopp para llevarle comida y explicarle a un oficial que aquel hombre había estado meses en el frente. No sirvió de nada y podría haberle costado la libertad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 23 de junio, Orwell, su mujer y otros dos ingleses cogieron el tren de la mañana hacia la frontera. Se afeitaron, se pusieron ropa decente y viajaron en primera clase, haciendo de turistas británicos aburridos que volvían a casa de sus vacaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie los paró. Cruzaron por Portbou y en Cerbère, ya en Francia, se sentaron a comer. Orwell escribe que fue la primera comida tranquila en muchos meses y que Francia entera le pareció un país absurdamente ordenado y absurdamente ajeno a todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos meses después, un tribunal de espionaje y alta traición de Valencia abrió diligencias contra el matrimonio Blair por trotskismo rabioso y por ser agentes de enlace del POUM. El documento apareció en un archivo de Salamanca en 1989, medio siglo más tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: no era paranoia suya. Si se hubieran quedado una semana más en Barcelona, es bastante probable que Orwell no hubiera escrito ningún libro más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió este en seis meses. En abril de 1938 estaba en las librerías inglesas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Setecientos ejemplares",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su editor de siempre, Victor Gollancz, se negó a publicarlo sin haberlo leído siquiera. Gollancz editaba libros de izquierda para el Club del Libro de Izquierdas y no estaba dispuesto a sacar nada que atacara la línea del Partido Comunista en plena guerra de España.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo publicó Secker and Warburg en abril de 1938, con una tirada de mil quinientos ejemplares. Se vendieron unos setecientos. No se reeditó en Inglaterra hasta 1951, un año después de la muerte de Orwell, y en Estados Unidos no salió hasta 1952.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato conviene tenerlo presente cuando se dice que este libro cambió la manera de mirar la guerra de España. Entonces no la cambió, porque no lo leyó nadie. La cambió quince años después, cuando su autor ya era famoso por otras dos novelas y ya estaba muerto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que salió de esta experiencia",
+          frase: "Rebelión en la granja y 1984. Las dos están escritas contra lo que vio en Barcelona: no contra el fascismo, que ya tenía quien lo denunciara, sino contra la mentira organizada dentro de su propio bando y contra la reescritura de unos hechos que él había presenciado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él mismo lo dejó dicho en 1946, en un texto sobre por qué escribía: que la guerra de España y los acontecimientos de 1936 y 1937 inclinaron la balanza, y que desde entonces todo lo que escribió en serio fue contra el totalitarismo y a favor del socialismo democrático.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa segunda parte de la frase se cita mucho menos que la primera y es la que más importa. Orwell no salió de España desengañado de la izquierda: salió convencido de que era socialista, y con la certeza de que el estalinismo era otra cosa distinta y enemiga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro. Lo primero lo dice él, y no hay reproche que se le pueda hacer que no esté ya escrito en sus páginas: vio una esquina muy pequeña de una guerra enorme, durante seis meses, en la milicia de un partido minoritario.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "No pisó Madrid, ni el frente del Norte, ni el Ebro, que todavía no había ocurrido. No trató con ningún dirigente republicano. Apenas habló con población civil de otras regiones. Lo que cuenta de Aragón y de Barcelona es de primera mano; el resto es de oídas.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo es el idioma. Hablaba mal español y lo reconoce. Buena parte de lo que entendió del ambiente político le llegó traducido por compañeros británicos del Partido Laborista Independiente, que tenían sus propias lealtades y su propia interpretación de todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero son los errores de hecho. Dio por buenos algunos datos del POUM sobre los sucesos de mayo y cifras que la investigación posterior ha corregido. Él pidió expresamente al lector que desconfiara, y aun así el libro se cita a veces como si fuera un informe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo cuarto es el silencio más grande: la violencia en la retaguardia republicana. En 1936 fueron asesinados en zona republicana casi siete mil religiosos, además de miles de civiles de derechas. Orwell menciona iglesias destrozadas de pasada y no entra en el asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es que lo niegue: es que no está en su libro, porque no lo vio y porque su tema era otro. Pero quien lea solo esto se llevará una imagen de la retaguardia republicana a la que le falta una parte muy importante, y merece la pena saberlo de antemano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo quinto es la idealización del primer momento. Su Barcelona de diciembre es casi una ciudad utópica, y las colectivizaciones fueron más caóticas, más desiguales y en algunos casos más coactivas de lo que sugiere el entusiasmo de sus primeras páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un debate de fondo que él deja abierto y que sigue abierto: si la revolución ayudaba a ganar la guerra o la estorbaba. Orwell se inclina por lo primero, pero es honrado y admite que puede estar equivocado y que los comunistas quizá tuvieran razón en lo militar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno: que Orwell luchó en las Brigadas Internacionales. No. Estuvo en la milicia del POUM, y las Brigadas dependían de la Internacional Comunista, que fue precisamente quien organizó la persecución de su partido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que el POUM era trotskista. Era un partido marxista antiestalinista fundado en 1935, y Trotski había roto con Nin. La etiqueta de trotskista fue una acusación soviética que en aquel contexto equivalía a una condena, y sirvió para que muriera gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que este libro tuvo éxito. Vendió setecientos ejemplares en vida de su autor y le dio bastantes más enemigos que lectores. Toda su influencia es póstuma, y llegó arrastrada por la fama de las dos novelas que escribió al final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuatro: que Orwell renegó de la izquierda después de España. Es justo al revés, y se pasó el resto de su vida aclarándolo, con un cansancio que se le nota en las cartas, porque ya entonces cada cual lo colocaba en el lado que le convenía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cinco: que la película Tierra y libertad es este libro. Está inspirada en él y comparte el ambiente, pero es una ficción con sus propios personajes y su propia trama, y no conviene usar una para citar el otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda en pie es lo que hace que se siga leyendo. Un relato de primera mano, escrito sin heroísmo y sin pose, en el que un hombre cuenta que pasó frío, que tuvo piojos, que casi no disparó, que le pegaron un tiro y que tuvo que huir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dentro de eso, la observación que lo convirtió en el escritor político más leído del siglo veinte: que se puede fabricar la versión oficial de unos hechos mientras los testigos siguen vivos, y que es la versión oficial la que se queda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Orwell tenía treinta y cuatro años cuando cruzó la frontera. Le quedaban doce de vida y los dos libros que conoce todo el mundo.",
+        },
+      ],
+    },
+  ],
+};
