@@ -7715,3 +7715,635 @@ export const REPRODUCTIBILIDAD: Resumen = {
     },
   ],
 };
+
+export const PAJARO_A_PAJARO: Resumen = {
+  id: "pajaro-a-pajaro",
+  titulo: "Pájaro a pájaro",
+  autor: "Anne Lamott",
+  ano: 1994,
+  gancho:
+    "Un niño de diez años lleva tres meses con un trabajo sobre pájaros y lo tiene que entregar mañana. Está paralizado. Su padre se sienta a su lado.",
+  porQue:
+    "No enseña a escribir bien: enseña a escribir mal a propósito, que es el requisito previo que nadie cuenta. Y dice en voz alta lo que ningún libro del género dice: que publicar no arregla nada.",
+  partes: [
+    {
+      titulo: "La mesa del comedor, en Marin County",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Norte de California, años sesenta. Un niño de diez años está sentado a la mesa del comedor la noche antes de entregar un trabajo del colegio sobre pájaros. Lo lleva mandado desde hace tres meses y no ha escrito ni una línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A su alrededor tiene folios en blanco, lápices bien afilados y una pila de libros sobre aves que no ha abierto. Está inmóvil, con la cabeza entre las manos, al borde de las lágrimas, aplastado por el tamaño de la tarea que tiene delante.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que le dijo su padre",
+          frase: "Se sentó a su lado, le pasó el brazo por el hombro y le dijo: pájaro a pájaro, chaval. Cógelo pájaro a pájaro. No le dio un plan ni un esquema ni un horario. Le quitó de delante la enciclopedia entera y le dejó un pájaro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El niño era el hermano mayor de Anne Lamott, y el padre era un escritor profesional que sabía perfectamente lo que estaba viendo, porque era exactamente lo mismo que le pasaba a él delante de la máquina de escribir cada mañana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Treinta años después, aquella frase da título al mejor libro que se ha escrito sobre por qué la gente que quiere escribir no escribe. No sobre técnica, ni sobre estructura, ni sobre estilo: sobre el miedo concreto que produce una página vacía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y conviene entender bien qué significa el consejo, porque suele traducirse mal. Pájaro a pájaro no quiere decir divide la tarea en partes, que es lo que dice cualquier manual de productividad. Quiere decir deja de mirar el conjunto, porque mirarlo te está paralizando.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia es real. Dividir una tarea es una técnica de planificación que se hace con la cabeza fría. Lo que su padre le dio a aquel niño fue un remedio contra el pánico: no puedes escribir sobre los pájaros, así que escribe sobre este.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien escribió el libro se llama Anne Lamott, nació en San Francisco en 1954 y creció en Marin County, al norte de la ciudad. Su padre, Kenneth Lamott, fue escritor y periodista, y en su casa la escritura era el oficio del que se comía y del que se hablaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle le da autoridad y también le quita una parte. Creció viendo a un profesional trabajar todos los días, lo cual explica mucho de lo que sabe. Y significa que su punto de partida no es el de alguien que empieza de cero sin nadie que le enseñe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre murió de un tumor cerebral cuando ella tenía veintitantos años. Su primera novela la escribió en aquellos meses, para él y sobre aquello, y él llegó a leer partes. Ese episodio recorre el libro entero por debajo sin que se convierta nunca en el tema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lamott es alcohólica en recuperación desde 1986 y no lo esconde: aparece en varias páginas como parte del oficio y del problema. También es creyente, y esa parte del libro merece un aviso porque no está anunciada en la portada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En los últimos capítulos, su cristianismo se vuelve explícito, con oraciones incluidas. A quien no comparta eso le va a chirriar, y conviene saberlo de antemano para no llevarse la sorpresa a mitad de un libro que hasta entonces era otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 1994, sale de sus clases de escritura y está escrito como si estuviera hablando en una de ellas. Se puede leer en dos tardes, no tiene ejercicios y no tiene sistema. Es una conversación con alguien que lleva veinte años haciendo esto y ha decidido no mentir.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su tesis de partida es que el problema del escritor principiante no es de técnica sino de expectativa. Cree que escribir consiste en sentarse y que salgan frases buenas, y como no le salen, concluye que no sirve, cuando lo que pasa es que a nadie le salen.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí que el libro dedique tan poco espacio a la técnica y tanto a la cabeza. Su diagnóstico es que casi todo el mundo que quiere escribir sabe bastante más de lo que cree, y que lo que le impide hacerlo es una idea equivocada de cómo trabajan los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí hay una comparación útil con el otro gran libro del género, que está en esta misma biblioteca. Mientras escribo, de Stephen King, tiene caja de herramientas: gramática, adverbios, diálogo, ritmo, cuántas palabras al día y cómo se corta un manuscrito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pájaro a pájaro casi no tiene nada de eso, y no por descuido. Los dos libros hacen cosas distintas: King explica cómo se construye una casa y Lamott explica por qué te tiemblan las manos antes de coger el martillo. Leídos juntos, se completan bastante bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien tiene que elegir uno, la regla práctica es sencilla. Quien ya escribe y quiere escribir mejor, que lea a King. Quien lleva años queriendo escribir y no ha pasado de la primera página, que lea a Lamott, porque su problema no es la técnica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el primer capítulo de verdad del libro, el que ha hecho que se recomiende durante treinta años, ataca directamente la causa número uno de esa parálisis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un capítulo corto, de seis páginas, y tiene un título que en la edición española se suaviza y en el original no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Habla de los primeros borradores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y del hecho, no negociable, de que son malísimos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También los de la gente a la que admiras.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El primer borrador de mierda",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Lamott empieza el capítulo describiendo lo que cree la gente que no escribe: que los escritores buenos se sientan, entran en una especie de trance, y sale un texto fluido y ordenado que ya casi está listo, con algún retoque menor aquí y allá.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dice que eso no le pasa a nadie que ella conozca, y que conoce a bastantes. Lo que pasa de verdad es que se sientan aterrorizados, escriben algo espantoso durante dos horas, y al día siguiente lo miran y encuentran dos frases que sirven.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su regla, que es la del libro entero",
+          frase: "El primer borrador tiene permiso para ser horroroso, y de hecho tiene que serlo. Lo llama el borrador del niño: se deja salir todo, sin juzgar, sabiendo que nadie lo va a ver. Es la única manera de tener material sobre el que trabajar después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su descripción del proceso es de tres pasos y es lo más útil que hay en el libro. El primer borrador se escribe entero y mal, sin corregir nada por el camino. El segundo se dedica a arreglarlo. Y el tercero es el borrador dental: se comprueba diente por diente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El error que describe, y que hace casi todo el mundo, es intentar hacer los tres a la vez. Escribir una frase, corregirla, volver a leerla, cambiarla otra vez, y llevar dos horas de trabajo con un párrafo pulido y ninguna idea de adónde va aquello.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El motivo por el que eso no funciona es de mecánica mental. Escribir y corregir son operaciones distintas: una necesita permiso para decir tonterías y la otra consiste en detectar tonterías. Hacerlas a la vez es conducir con el freno de mano puesto.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella cuenta su propio proceso con una escena que se recuerda. Escribía una columna mensual sobre comida para una revista, y cada mes se pasaba dos días convencida de que esa vez sí, de que ya no sabía escribir y de que iban a descubrir el fraude.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cada mes hacía lo mismo: escribía páginas y páginas de material inservible, en las que se quejaba, divagaba y contaba cosas que no venían a cuento, hasta que en algún sitio aparecía una línea que valía. Esa línea era el principio de la columna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su segundo consejo práctico, y es de los que se pueden aplicar esta tarde: el material bueno casi nunca está al principio de lo que escribes. Está enterrado en la página tres, después de que hayas terminado de calentar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso insiste en escribir de más y tirar. La labor de las primeras páginas no es ser buenas: es llevarte hasta donde está lo que de verdad tenías que decir, que casi nunca es lo que creías que ibas a decir cuando te sentaste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El enemigo que identifica detrás de todo esto tiene nombre y le dedica un capítulo entero: el perfeccionismo. Y su definición es agresiva a propósito. Lo llama la voz del opresor y el enemigo del pueblo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento es que el perfeccionismo se disfraza de exigencia y de buen gusto, y que en realidad es miedo. Miedo a que si dejas salir algo imperfecto se vea cómo eres, y ese miedo produce el único resultado que garantiza no exponerse: no terminar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade una observación que va más allá de la escritura: que el perfeccionismo se basa en la creencia obsesiva de que si corres con el cuidado suficiente conseguirás no morirte. Que si lo haces todo bien no te pasará nada malo, y eso no funciona así.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su prueba práctica de que la imperfección no mata es doméstica: que el desorden y las manchas son donde vive la vida, y que una casa perfectamente ordenada y una página perfectamente pulida tienen en común que no ha pasado nada en ellas.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro consejo material del capítulo es de una banalidad engañosa: llevar fichas de cartulina encima siempre. En el bolsillo, en el coche, en la mesilla, en la ducha si hace falta una pizarra. Y apuntar en el momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su razonamiento es que las ideas buenas llegan sin avisar y con una vida útil de unos treinta segundos, y que la sensación de que uno se acordará después es sistemáticamente falsa. La cantidad de material que se pierde por confiar en la memoria es enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y advierte contra la trampa habitual, que es apuntar solo lo que parece importante. Dice que hay que apuntar también lo que parece una tontería, porque lo que sirve después casi nunca es lo que parecía servir cuando se apuntó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo esto se resume en una idea que atraviesa el libro: la escritura no es un talento que se tiene o no se tiene, es un hábito de prestar atención. Y prestar atención se puede entrenar aunque uno no tenga ningún don especial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, el problema es que aunque uno acepte todo lo anterior, se sienta igual delante de la página y sigue sin poder empezar. Porque el borrador puede ser malo y aun así hay que decidir por dónde entrar, y las opciones son infinitas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y mientras uno decide, dentro de la cabeza hay dos voces hablando a la vez y muy alto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una dice que esto va a ser una obra maestra y que va a cambiarle la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra dice que es un fraude, que siempre lo ha sido y que se va a notar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lamott les puso un nombre a las dos juntas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las llama una emisora de radio.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La emisora que suena dentro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo describe una emisora que emite en estéreo dentro de la cabeza de cualquiera que se sienta a escribir, y que ella bautiza con unas siglas impronunciables que en el original son una grosería disimulada. Suena todo el rato y en los dos altavoces a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por el altavoz izquierdo salen las canciones de grandeza: lo listo que eres, lo que va a decir la gente cuando lea esto, el premio, la entrevista, la cara que van a poner los que no te tomaban en serio, y la vida entera que va a cambiar con este párrafo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Y por el derecho",
+          frase: "El repertorio contrario: que no vales, que la frase anterior era mejor, que a tu edad otros ya habían publicado, que se va a notar que no has leído lo suficiente, y una lista detallada de todas las veces que has quedado en ridículo desde los nueve años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que Lamott señala, y es la observación fina del capítulo, es que las dos emisiones son la misma cosa. Las dos hablan de ti y no del texto, y las dos consiguen exactamente el mismo efecto: que no estés mirando lo que estás escribiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es su definición del problema. Escribir bien exige atención puesta fuera —en el personaje, en la escena, en la frase— y esa emisora la devuelve constantemente hacia dentro, hacia la pregunta de qué dice esto sobre mí, que es la pregunta que estropea el trabajo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su solución no es apagarla, porque no se puede. Es reconocerla, ponerle nombre y bajarle el volumen: darse cuenta de que ha empezado a sonar, decirlo en voz alta si hace falta, y volver a la frase. Es un gesto pequeño y hay que repetirlo cincuenta veces al día.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo que va con este es el más valiente del libro y es el de la envidia. Lamott dedica quince páginas a contar, con detalle y sin quedar bien, lo mal que lo ha pasado cuando a amigos suyos escritores les ha ido mejor que a ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta el caso de una amiga cuyo libro empezó a venderse muchísimo mientras el suyo no se vendía, y describe sin ahorrarse nada lo que sentía: rabia, deseo de que le fuera mal, incapacidad de alegrarse, y encima vergüenza por sentir todo aquello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo es útil por una razón concreta: nadie lo escribe. Los libros sobre creatividad hablan de disciplina, de inspiración y de constancia, y no hablan de que buena parte del sufrimiento de quien intenta hacer algo viene de mirar lo que consiguen los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su consejo práctico es tan poco elevado que resulta creíble. Dice que hay que dejar de fingir que no se siente, contárselo a alguien de confianza —preferiblemente alguien que se ría—, y limitar el contacto con la persona que lo provoca durante una temporada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade un dato que consuela más que cualquier consejo: que a la escritora que ella envidiaba le estaba pasando algo horrible en su vida privada en aquel mismo momento, y que ella no tenía ni idea. Nunca se envidia una vida entera, se envidia un titular.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una variante del problema que Lamott identifica y que hoy es la forma dominante: comparar tu primer borrador con el libro terminado de otro. Es una comparación entre un montón de escombros y un edificio acabado, y siempre se pierde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que se lee de los demás es la versión que pasó por dos años de reescritura, un editor, un corrector y una imprenta. Lo que uno tiene delante es lo que salió esta mañana. Nadie enseña sus escombros, y por eso todo el mundo cree ser el único que los tiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro capítulo que va con este trata de la atención, y contiene la metáfora que mejor describe el proceso. Lamott dice que escribir se parece a mirar cómo se revela una fotografía instantánea de las antiguas, esas que salían de la cámara en blanco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Uno la sostiene entre los dedos y durante un rato no hay nada, solo una superficie gris. Después aparecen unas manchas, después unas formas, y solo al final se ve qué había en la escena, que casi nunca es lo que uno creía haber fotografiado.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su tesis es que escribir funciona igual: uno empieza creyendo que va a contar una cosa y solo descubre de qué iba en realidad cuando ya está escrito. Y que por eso no se puede esperar a tenerlo claro para empezar, porque la claridad es el resultado y no el requisito.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su consejo sobre la atención, que es el más aprovechable para quien no escribe. Dice que hay que andar por la vida mirando como si uno fuera a tener que describirlo después, y que ese solo cambio de mirada ya modifica cómo se pasan los días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo ilustra con sus propios alumnos: al pedirles que describan a un desconocido del autobús, la mitad no es capaz de decir nada porque no ha mirado a nadie en su vida. Y la otra mitad descubre que mirar durante treinta segundos da material para tres páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la emisora bajada de volumen, la envidia puesta encima de la mesa y los ojos abiertos, queda el problema material: por dónde se empieza a escribir hoy, a las nueve de la mañana, con el documento en blanco delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la emisora bajada de volumen y la envidia puesta encima de la mesa, queda el problema material: por dónde se empieza a escribir hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y para eso Lamott tiene un objeto encima de su escritorio.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El marco de un palmo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La siguiente herramienta del libro es la más citada después del título, y es un objeto físico que tiene encima de la mesa. Un marco de fotos pequeño, de unos dos centímetros y medio de lado, del tamaño de un sello grande.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su función es recordarle todos los días lo único que tiene que escribir hoy: lo que quepa dentro de ese marco. No la novela, ni el capítulo, ni siquiera la escena. Un recuerdo, un gesto, una conversación de dos minutos, una habitación.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la misma idea del pájaro, aplicada al trabajo diario. Cuando la tarea es enorme la cabeza se bloquea, y el truco no consiste en darse ánimos sino en reducir el campo de visión hasta que quepa en la cabeza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejercicio que propone para arrancar, y que ha acabado en cientos de talleres, es escribir sobre las comidas del colegio. Los recuerdos de la infancia relacionados con la comida, la fiambrera, quién tenía qué, quién cambiaba qué, quién se sentaba solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su razón es que ahí está todo lo que hace falta para narrar: la jerarquía social, la vergüenza, el deseo, la envidia y la familia, en un escenario que cualquiera recuerda con detalle sensorial. Y porque nadie se pone solemne escribiendo sobre un bocadillo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre personajes da un consejo que es cierto para algunos escritores y falso para otros, y el libro lo presenta como universal: que hay que dejar que los personajes hagan lo que quieran y que la trama sale de ellos, y que forzarlos los mata.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso funciona para quien escribe explorando y no funciona para quien escribe planificando, y hay grandes novelas hechas de las dos maneras. Es uno de los sitios donde el libro generaliza su propio método más de lo que debería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una recomendación práctica que sí vale para todos: conseguir dos o tres lectores de confianza que lean los borradores y digan la verdad, y no enseñárselo a nadie más hasta entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su matiz sobre esos lectores es fino y viene de haberse equivocado. Dice que no sirve cualquiera que te quiera bien: hace falta gente capaz de decirte que un capítulo no funciona sin que se te caiga el mundo, y que se pueda contar con los dedos de una mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y advierte de la trampa contraria, que es enseñárselo a demasiada gente. Con cinco opiniones distintas sobre el mismo capítulo, uno acaba escribiendo por comité y el texto pierde lo único que lo hacía suyo, que es la voz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre el diálogo sí da un consejo técnico, de los pocos del libro, y es bueno: leerlo en voz alta. Si al decirlo en alto suena a frase escrita, no vale. La gente real no habla en párrafos ordenados, se interrumpe, no termina las frases y contesta a otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su método para conseguirlo es escuchar. Llevar la libreta al autobús, a la sala de espera y a la cola del supermercado, y copiar literalmente lo que dice la gente, incluidas las muletillas. Después se recorta, porque una transcripción literal aburre, y se queda el ritmo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El capítulo más raro y más recordado del libro trata de la intuición y se llama, sin ninguna ironía, el del brócoli. Viene de un chiste de un cómico estadounidense en el que un personaje de dos mil años da su consejo de salud: escucha a tu brócoli.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chiste es que el brócoli te dirá cómo hay que comérselo. Y Lamott lo usa en serio: sostiene que cuando uno está atascado en una escena, la respuesta suele estar disponible si se deja de forzar, se pregunta y se espera callado un rato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho así suena a misticismo barato, y ella lo defiende con un argumento práctico. Que la parte de la cabeza que resuelve problemas de narración no funciona bajo presión y a mandato, y que muchas veces la escena se desbloquea en la ducha o paseando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El consejo operativo que saca de ahí es que hay que trabajar todos los días a la misma hora, sin esperar la inspiración, y que a la vez hay que aceptar que la solución a un problema concreto llegará cuando llegue y no cuando la agenda diga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre la documentación tiene una advertencia que a mucha gente le hace falta: que investigar es la forma más elegante de no escribir. Que se puede pasar un año leyendo sobre el siglo diecinueve con la sensación de estar trabajando en la novela sin haber escrito una línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su regla es escribir primero con lo que se sabe, dejando huecos marcados donde haga falta un dato, y buscar los datos después. El texto dirá qué hay que investigar; investigar antes produce montañas de material que nunca se usa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una advertencia legal y moral sobre escribir a partir de gente real, porque Lamott escribe memorias y sabe lo que cuesta. Dice que se puede contar la propia vida y que la propia vida incluye a otros, y que eso tiene consecuencias que hay que asumir antes y no después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su consejo práctico es de una franqueza brutal: si vas a retratar a alguien reconocible y mal parado, cámbiale todo lo que se pueda cambiar, y si aun así se va a reconocer, decide de antemano si estás dispuesto a perder esa relación, porque probablemente la vas a perder.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con lo cual llegamos a la parte del libro que menos se cita y que probablemente es la más importante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque todo lo anterior sirve para terminar algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuando alguien termina algo, quiere publicarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cree que ese día va a cambiarle la vida.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El día que sale el libro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Lamott dedica un capítulo a la publicación y lo escribe desde el único sitio desde el que se puede escribir con autoridad sobre esto: había publicado ya varias novelas y un libro de memorias cuando lo escribió, y por tanto sabe exactamente qué se siente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que dice es que no pasa nada. Que el día que sale el libro uno se levanta siendo la misma persona, con los mismos problemas, la misma cuenta corriente aproximada y las mismas cosas sin resolver, y que la euforia dura entre dos días y dos semanas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso importa tanto",
+          frase: "Porque casi todo el mundo que quiere escribir no quiere escribir: quiere haber publicado. Quiere el resultado, la validación y el cambio de estatus. Y si ese es el motor, cuando llega el día se descubre que el motor no llevaba a ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su descripción del proceso real es deliberadamente antiépica. Que las reseñas malas duelen mucho más de lo que alegran las buenas. Que la mayoría de los libros venden muy poco y desaparecen de las mesas de novedades en unas semanas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que los amigos y la familia no lo leen o lo leen buscándose a sí mismos. Que las ventas se consultan de manera obsesiva y que eso es una forma eficaz de amargarse. Y que después hay que volver a sentarse a escribir el siguiente, con la misma página en blanco.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "No lo cuenta para desanimar sino para desmontar la única motivación que garantiza el fracaso. Su tesis es que si escribir solo tiene sentido cuando alguien te publica, casi todo el tiempo que le dediques será tiempo desgraciado, porque casi todo ese tiempo no habrá nadie mirando.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su alternativa es lo que da al libro su subtítulo: unas instrucciones sobre escribir y sobre la vida. Sostiene que la razón para escribir es que escribir obliga a mirar de cerca, y que mirar de cerca es una manera de estar vivo que no da ninguna otra actividad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade la segunda razón, que es la que a ella le sostiene: que escribir es dar algo. Que un texto terminado es un regalo que alguien abrirá en su casa, solo, y que esa transacción no necesita ni editorial ni ventas para tener sentido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una conclusión bastante menos vendible que la de la mayoría de los libros de este estante, y por eso conviene señalarla. Este libro no promete que vayas a publicar y dice explícitamente que si publicas no vas a ser otra persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla, que es donde hay que ser justo. Lo primero: no es un manual y quien lo compre como manual se va a quedar sin nada. Aquí no hay estructura, ni construcción de escenas, ni mecánica del diálogo, ni técnicas de revisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo, unido a lo anterior: el libro es excelente para llegar al primer borrador y no ayuda casi nada a terminar un libro largo. Pájaro a pájaro es una técnica contra el pánico, no un método de trabajo, y un proyecto de trescientas páginas necesita las dos cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero: su mundo es muy estrecho. Habla de literatura y de memorias, desde una posición muy concreta —clase media californiana, con un padre escritor, en los años ochenta y noventa—, y no dice nada de escribir por encargo, con plazos, para un periódico o para vivir.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo cuarto: hay un sesgo de superviviente que ella misma reconoce a medias. El consejo viene de alguien que publicó, y sobre cómo se publica hoy el libro admite que no tiene ni idea, porque el sector ha cambiado tres veces desde 1994.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo quinto: la religión. En el último tercio aparecen la oración y una fe cristiana explícita, sin previo aviso, en un libro que hasta entonces se leía como laico. No es un defecto en sí, y sí lo es no advertirlo, porque a bastantes lectores les rompe el tono.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo sexto: el consejo de dejar que los personajes manden se presenta como una verdad general cuando es un método entre otros. Muchos novelistas planifican de arriba abajo y les va estupendamente, y este libro los deja fuera del cuadro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad, uno: que enseña a escribir bien. Enseña a escribir mal a propósito, que es distinto y es el requisito previo. La parte de escribir bien viene después y este libro apenas la toca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos: que pájaro a pájaro significa dividir la tarea en trozos. Significa dejar de mirar el conjunto porque mirarlo paraliza. Es un remedio contra el bloqueo y no una técnica de planificación, y confundirlo lo vuelve inútil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres: que es un libro solo para escritores. La parte del perfeccionismo, la de la envidia y la de la emisora describen a cualquiera que intente hacer algo que le importe delante de otros, y ahí es donde más lectores ha ganado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuatro: que publicar es el objetivo. El libro dice lo contrario en su mejor capítulo, y ese es también el que menos se cita cuando alguien lo recomienda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si hay que quedarse con una sola cosa, es la que le dijo un padre a un niño de diez años en una mesa de comedor hace sesenta años, y que sirve para un trabajo del colegio y para casi todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No tienes que escribir sobre los pájaros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tienes que escribir sobre este.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y mañana, sobre el siguiente.",
+        },
+      ],
+    },
+  ],
+};
