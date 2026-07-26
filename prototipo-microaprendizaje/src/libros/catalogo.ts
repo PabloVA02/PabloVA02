@@ -264,7 +264,7 @@ export const CATALOGO: Ficha[] = [
   { id: "dieta-cojea", titulo: "Mi dieta cojea", autor: "Aitor Sánchez García", ano: 2016, categoria: "Salud", estado: "escrito" },
   { id: "milagro-metabolico", titulo: "El milagro metabólico", autor: "Carlos Jaramillo", ano: 2019, categoria: "Salud", estado: "pendiente" },
   { id: "cerebro-de-pan", titulo: "Cerebro de pan", autor: "David Perlmutter", ano: 2013, categoria: "Salud", estado: "pendiente" },
-  { id: "vivir-plenitud", titulo: "Vivir con plenitud las crisis", autor: "Jon Kabat-Zinn", ano: 1990, categoria: "Salud", estado: "pendiente" },
+  { id: "vivir-plenitud", titulo: "Vivir con plenitud las crisis", autor: "Jon Kabat-Zinn", ano: 1990, categoria: "Salud", estado: "escrito" },
   { id: "deja-de-ser-tu", titulo: "Deja de ser tú", autor: "Joe Dispenza", ano: 2012, categoria: "Salud", estado: "pendiente" },
   { id: "poder-metabolismo", titulo: "El poder del metabolismo", autor: "Frank Suárez", ano: 2006, categoria: "Salud", estado: "pendiente" },
 ];
