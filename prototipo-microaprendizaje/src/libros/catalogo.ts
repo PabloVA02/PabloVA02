@@ -88,7 +88,7 @@ export const CATALOGO: Ficha[] = [
   { id: "breve-historia-tiempo", titulo: "Breve historia del tiempo", autor: "Stephen Hawking", ano: 1988, categoria: "Ciencia", estado: "escrito" },
   { id: "cosmos", titulo: "Cosmos", autor: "Carl Sagan", ano: 1980, categoria: "Ciencia", estado: "escrito" },
   { id: "gen-egoista", titulo: "El gen egoísta", autor: "Richard Dawkins", ano: 1976, categoria: "Ciencia", estado: "escrito" },
-  { id: "universo-cascara", titulo: "El universo en una cáscara de nuez", autor: "Stephen Hawking", ano: 2001, categoria: "Ciencia", estado: "pendiente" },
+  { id: "universo-cascara", titulo: "El universo en una cáscara de nuez", autor: "Stephen Hawking", ano: 2001, categoria: "Ciencia", estado: "escrito" },
   { id: "casi-todo", titulo: "Una breve historia de casi todo", autor: "Bill Bryson", ano: 2003, categoria: "Ciencia", estado: "escrito" },
   { id: "mundo-demonios", titulo: "El mundo y sus demonios", autor: "Carl Sagan", ano: 1995, categoria: "Ciencia", estado: "escrito" },
   { id: "astrofisica-prisa", titulo: "Astrofísica para gente con prisa", autor: "Neil deGrasse Tyson", ano: 2017, categoria: "Ciencia", estado: "escrito" },
