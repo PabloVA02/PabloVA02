@@ -102,7 +102,7 @@ export const CATALOGO: Ficha[] = [
   { id: "mas-alla-bien-mal", titulo: "Más allá del bien y del mal", autor: "Friedrich Nietzsche", ano: 1886, categoria: "Filosofía", estado: "pendiente" },
   { id: "existencialismo-humanismo", titulo: "El existencialismo es un humanismo", autor: "Jean-Paul Sartre", ano: 1946, categoria: "Filosofía", estado: "pendiente" },
   { id: "segundo-sexo", titulo: "El segundo sexo", autor: "Simone de Beauvoir", ano: 1949, categoria: "Filosofía", estado: "escrito" },
-  { id: "ensayos-montaigne", titulo: "Ensayos", autor: "Michel de Montaigne", ano: 1580, categoria: "Filosofía", estado: "pendiente" },
+  { id: "ensayos-montaigne", titulo: "Ensayos", autor: "Michel de Montaigne", ano: 1580, categoria: "Filosofía", estado: "escrito" },
 
   /* --- Ciencia ---------------------------------------------------------- */
   { id: "breve-historia-tiempo", titulo: "Breve historia del tiempo", autor: "Stephen Hawking", ano: 1988, categoria: "Ciencia", estado: "escrito" },
