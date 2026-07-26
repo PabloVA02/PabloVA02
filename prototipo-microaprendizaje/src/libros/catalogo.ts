@@ -258,7 +258,7 @@ export const CATALOGO: Ficha[] = [
   { id: "come-comida-real", titulo: "Come comida real", autor: "Carlos Ríos", ano: 2019, categoria: "Salud", estado: "escrito" },
   { id: "invencible", titulo: "Invicto", autor: "Marcos Vázquez", ano: 2021, categoria: "Salud", estado: "escrito" },
   { id: "zonas-azules", titulo: "El secreto de las zonas azules", autor: "Dan Buettner", ano: 2008, categoria: "Salud", estado: "escrito" },
-  { id: "ser-mortal", titulo: "Ser mortal", autor: "Atul Gawande", ano: 2014, categoria: "Salud", estado: "pendiente" },
+  { id: "ser-mortal", titulo: "Ser mortal", autor: "Atul Gawande", ano: 2014, categoria: "Salud", estado: "escrito" },
   { id: "anticancer", titulo: "Anticáncer", autor: "David Servan-Schreiber", ano: 2007, categoria: "Salud", estado: "pendiente" },
   { id: "codigo-obesidad", titulo: "El código de la obesidad", autor: "Jason Fung", ano: 2016, categoria: "Salud", estado: "pendiente" },
   { id: "dieta-cojea", titulo: "Mi dieta cojea", autor: "Aitor Sánchez García", ano: 2016, categoria: "Salud", estado: "pendiente" },

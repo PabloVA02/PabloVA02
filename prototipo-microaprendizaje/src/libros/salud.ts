@@ -3443,3 +3443,760 @@ export const MILAGRO_MANANA: Resumen = {
     },
   ],
 };
+
+export const SER_MORTAL: Resumen = {
+  id: "ser-mortal",
+  titulo: "Ser mortal",
+  autor: "Atul Gawande",
+  ano: 2014,
+  gancho: "Un cirujano de Harvard descubre, con su padre muriéndose, que en toda su formación médica nadie le enseñó qué hacer cuando ya no se puede curar a alguien.",
+  porQue:
+    "Porque desmonta la creencia más extendida sobre los cuidados paliativos —que son rendirse— con un ensayo clínico que encontró justo lo contrario: los pacientes que los recibieron pronto vivieron más.",
+  partes: [
+    {
+      titulo: "Lo que no enseñan en la facultad",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Facultad de Medicina de Harvard, primeros años noventa. Un estudiante de veintitantos años repasa el temario del curso y comprueba que hay clases sobre casi todo: anatomía, farmacología, cirugía, urgencias, obstetricia. Sobre la muerte no hay ninguna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El único texto del programa relacionado con el asunto es un relato de Tolstói, La muerte de Iván Ilich, sobre un funcionario ruso que se muere despacio mientras todos a su alrededor fingen que va a mejorar. Y estaba puesto para debatir la relación médico-paciente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La formación que recibió",
+          frase: "Aprendió a mantener a alguien vivo con una precisión enorme y no aprendió absolutamente nada sobre qué hacer cuando eso ya no es posible. Escribe que salió de la facultad convencido de que la muerte de un paciente era un fallo técnico suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese estudiante era Atul Gawande, hijo de dos médicos indios emigrados a Ohio, que acabó siendo cirujano en un hospital de Boston, profesor en Harvard y redactor de plantilla en The New Yorker, que es una combinación bastante infrecuente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este es su cuarto libro y el que escribió cuando dejó de poder mirar el asunto desde fuera, porque a su padre, urólogo de setenta y tantos años, le diagnosticaron un tumor dentro de la médula espinal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro arranca con un dato que reorganiza el problema. Durante casi toda la historia de la humanidad, la gente moría deprisa: una infección, un accidente, un parto, una neumonía. Se estaba sano hasta que de pronto no se estaba, y en cuestión de días se acababa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La medicina del siglo veinte cambió eso. Los antibióticos, las vacunas, la cirugía y los cuidados intensivos convirtieron una caída vertical en una pendiente larga: hoy la mayoría de la gente de los países ricos muere después de años de deterioro.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gawande describe tres formas de morir. La primera, la súbita, cada vez más rara. La segunda, la del cáncer: bastante bien durante meses y después una caída rápida al final, que es la que la gente imagina cuando piensa en enfermar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la tercera, que es la más común y de la que casi nadie habla: el declive largo y lleno de dientes de sierra de la insuficiencia de órganos y de la fragilidad. Una caída, una neumonía, un ingreso, una recuperación parcial, y otra vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada uno de esos episodios deja a la persona un poco por debajo de donde estaba, durante años. Esa trayectoria no tiene un momento claro en el que decir que se está muriendo, y por eso el sistema no sabe cuándo cambiar de objetivo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema del libro",
+          frase: "La medicina moderna está diseñada para arreglar cosas. Y para una parte cada vez mayor de lo que le pasa a la gente mayor, no hay nada que arreglar: hay que decidir cómo se vive con lo que hay. Para eso nadie está formado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dedica un capítulo a explicar qué es envejecer en términos físicos, y es de lo más informativo del libro porque casi nadie lo sabe. No es una enfermedad: es la acumulación de deterioros pequeños en todos los sistemas a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dientes se desgastan, el cristalino del ojo se endurece y necesita tres veces más luz, los vasos se calcifican, los músculos pierden masa, los huesos se vacían y el cerebro se encoge lo suficiente para moverse dentro del cráneo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese último dato explica una cosa concreta: por qué un golpe leve en la cabeza puede provocar un sangrado en una persona mayor y no en una joven. Hay espacio para que el cerebro se mueva y las venas que lo sujetan se rompan.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y da un dato de sistema que es el corazón del capítulo: la geriatría es la especialidad con menos residentes en Estados Unidos, y una de las peor pagadas, en un país cuya población envejece a toda velocidad.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta el caso de un geriatra que le enseñó su consulta. Gawande, cirujano, esperaba una revisión médica normal y lo que vio fue otra cosa: el médico dedicó la mitad del tiempo a mirarle los pies a una anciana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Buscaba uñas mal cortadas, callos, hongos y heridas, porque si a esa mujer le duelen los pies dejará de andar, y si deja de andar perderá músculo, y si pierde músculo se caerá, y una caída con fractura de cadera es la puerta de salida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los tres factores que la geriatría vigila para prevenir eso son concretos y aburridos: el estado de los pies, el número de medicamentos que toma la persona y si come lo suficiente. No hay tecnología ni pruebas caras.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que se sabe que funciona",
+          frase: "Los estudios sobre atención geriátrica muestran reducciones importantes de discapacidad y de caídas. Y aun así las unidades de geriatría se cierran por falta de rentabilidad, porque nadie factura por revisar unos pies y evitar una fractura que no llega a ocurrir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sistema paga por operar, por escanear y por ingresar. No paga por las conversaciones ni por la prevención lenta, y eso configura la medicina que le llega a la gente al final de su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con ese diagnóstico puesto, el libro se va a lo concreto: dónde acaba viviendo la gente cuando ya no puede vivir sola. Y empieza por el caso que Gawande tenía en su propia familia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La abuela de su mujer, Alice Hobson, viuda, ochenta y tantos años, que vivía sola en su casa de Virginia, conducía, cuidaba su jardín y arreglaba ella misma la fontanería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hasta que empezó a caerse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Primero en el jardín, después en la escalera, después en el gimnasio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La familia se reunió, hizo lo que hace cualquier familia responsable y le buscó un sitio seguro donde no pudiera hacerse daño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alice odió ese sitio desde el primer día hasta el último.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el libro se pasa doscientas páginas explicando por qué eso no era culpa de ella, ni de la familia, ni siquiera de la residencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sino de para qué se inventaron esos sitios, que no fue para vivir en ellos.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La llave de la puerta",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Las residencias de ancianos no se diseñaron pensando en los ancianos. Nacieron en Estados Unidos como una solución a un problema de los hospitales: camas ocupadas por gente que ya no necesitaba tratamiento y que no podía volver a su casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso tienen la forma que tienen. Pasillos de hospital, habitaciones compartidas, horarios de comida fijos, luces que se apagan a una hora, personal en turnos y un plan de cuidados. Todo está organizado alrededor de la seguridad y de la eficiencia del cuidado.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta que nadie hizo",
+          frase: "Si funcionan es porque cumplen su objetivo: que nadie se caiga, que todos coman y que se tomen las medicinas. Lo que no se preguntó nunca es si a alguien le gustaría vivir así, y la respuesta, cuando se pregunta a los residentes, es que no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gawande describe lo que perdió Alice al entrar: la hora de levantarse, la de acostarse, qué comer y cuándo, con quién compartía habitación, y sobre todo la posibilidad de cerrar una puerta con llave y estar sola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle de la llave aparece varias veces en el libro y no es sentimental: es la definición operativa de tener una vida propia. Un sitio donde nadie entra sin llamar es la diferencia entre un domicilio y una institución.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste que pone es el de su propio abuelo, Sitaram Gawande, que vivió en una aldea de la India hasta los ciento diez años, en una casa con hijos, nietos y bisnietos, y al que se seguía consultando sobre las decisiones de la familia.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "A los cien años se caía del caballo con el que iba a supervisar sus tierras y alguien lo recogía. Nadie le prohibió montar. La seguridad no era el valor supremo, y su posición en la casa no dependía de si podía valerse.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gawande no idealiza ese modelo y dice claramente por qué desapareció: exige que alguien —casi siempre una mujer— renuncie a su vida para sostenerlo, y en cuanto las mujeres tuvieron alternativas, el sistema dejó de funcionar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y añade un dato que suele sorprender: cuando los ancianos tienen medios económicos propios, en casi todas las culturas eligen vivir independientes de sus hijos. No es que los mayores echen de menos aquello: los hijos lo echan de menos por ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El personaje que resuelve el problema en el libro es una investigadora llamada Keren Brown Wilson, y lo resolvió por una razón personal muy concreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su madre, Jessie, tuvo un ictus a los cincuenta y cinco años que la dejó paralizada de un lado. Acabó en una residencia y le pedía a su hija, en cada visita, que la sacara de allí y le buscara un sitio donde pudiera tener una vida.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que su madre le pedía",
+          frase: "No pedía volver a su casa, porque sabía que no podía. Pedía una puerta con cerradura, sus propios muebles, decidir qué comía y a qué hora, y poder tener un gato. Con la ayuda que necesitara, pero decidiendo ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wilson montó eso a principios de los ochenta en Oregón: un edificio de apartamentos pequeños, cada uno con su llave, su cocina y su baño, con personal disponible para lo que hiciera falta, y con el residente decidiendo su propia vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llamó vivienda asistida, y le costó años convencer al Estado de que autorizara un sitio donde una persona con demencia moderada pudiera vivir sola en un apartamento con una cocina y una puerta que se cierra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando por fin lo evaluaron, los resultados fueron mejores de lo que ella misma esperaba: los residentes mantenían más funciones físicas y cognitivas, tenían menos depresión y el coste era menor que el de una residencia convencional.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El modelo se extendió por todo el país a una velocidad enorme. Y aquí viene la parte amarga del capítulo: la etiqueta se copió y el contenido no. Hoy en Estados Unidos se llama vivienda asistida a casi cualquier cosa.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wilson lo dice en el libro con toda claridad: la mayoría de los sitios que usan ese nombre no cumplen ninguno de sus principios. Se convirtieron en residencias con mejor decoración, porque quien elige y paga no suele ser el residente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el diagnóstico más útil del capítulo y vale para cualquier país. Quien contrata la plaza suele ser un hijo, y lo que un hijo compra es tranquilidad: que no se caiga, que no se pierda, que esté vigilado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo que quiere el residente es exactamente lo contrario: correr algún riesgo a cambio de decidir. Los dos objetivos son incompatibles, y en el mercado gana siempre el que paga.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La pregunta que Gawande propone",
+          frase: "Cuando una familia elige un sitio para su madre, la pregunta no debería ser si es seguro, sino si allí ella podría seguir teniendo una razón para levantarse por la mañana. Y esa pregunta casi no se hace en ninguna visita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un detalle práctico que da y que se puede usar mañana: en una visita a una residencia, mirar si los residentes tienen objetos propios en las paredes, si hay puertas cerradas y si alguien está haciendo algo por iniciativa propia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si todo el mundo está sentado en una sala común mirando una televisión encendida que nadie ha elegido, dice, ya se sabe lo suficiente sobre ese sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alice Hobson murió en una residencia de ese tipo, y Gawande escribe que su familia hizo todo lo que se suponía que había que hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuidaron, la visitaron, se aseguraron de que estuviera segura y bien atendida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le quitaron, sin querer y sin saberlo, todo lo que hacía que su vida fuera suya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro cambia entonces de tono, porque va a contar lo que pasó en una residencia pequeña del norte del estado de Nueva York en 1991.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando llegó un médico de treinta y un años recién salido de la facultad, sin experiencia en geriatría, y decidió que aquel sitio tenía un problema que no era médico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que la solución pasaba por meter animales dentro.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Dos perros, cuatro gatos y cien periquitos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El médico se llamaba Bill Thomas y acababa de aceptar la dirección médica de una residencia con ochenta camas en Nueva Berlín, un pueblo del norte del estado de Nueva York. Venía de urgencias y no sabía nada de geriatría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo primero que hizo fue lo que hace cualquier médico nuevo: revisar historias, ajustar medicaciones y buscar diagnósticos mal puestos. Encontró unos cuantos, los corrigió, y comprobó que aquello no cambiaba nada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su diagnóstico",
+          frase: "Concluyó que el problema de aquel sitio no era médico. Lo formuló con tres palabras que dan nombre a lo que veía en cada habitación: aburrimiento, soledad y desamparo. Y que ninguna de las tres se trata con medicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su solución fue tan poco ortodoxa que tuvo que pelear con la administración estatal durante meses para conseguir permisos y una pequeña subvención. Quería meter vida dentro del edificio, y lo decía en sentido literal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El plan era: dos perros, cuatro gatos, un centenar de periquitos, un huerto y un jardín de flores, más una guardería infantil dentro del recinto para que hubiera niños entrando y saliendo todos los días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La normativa permitía un perro por planta y ningún gato. Consiguió la excepción argumentando que aquello era un experimento. El día que llegaron los periquitos no habían montado las jaulas, así que soltaron cien pájaros en el edificio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Gawande cuenta esa escena con detalle porque es la imagen que resume el libro: personal corriendo con jaulas a medio montar, pájaros por los pasillos, residentes en las puertas de sus habitaciones mirando aquello, y por primera vez en años, riéndose.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vino el trabajo: cada residente que quisiera podía tener uno o dos periquitos en su habitación y encargarse de ellos. Los perros y los gatos circulaban libremente. El huerto lo llevaban los que podían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los resultados los midieron comparando con otra residencia parecida durante dos años. El número de recetas por residente bajó a aproximadamente la mitad, y el ahorro en medicación fue considerable. Los psicofármacos para la agitación cayeron especialmente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la mortalidad bajó alrededor de un quince por ciento respecto a la residencia de control. Ese dato hay que cogerlo con la cautela habitual de un estudio pequeño y sin aleatorizar, y aun así apunta en una dirección clara.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La explicación de Thomas",
+          frase: "Que la gente necesita una razón para levantarse por la mañana, y que da igual lo pequeña que sea. Alguien que tiene que dar de comer a un periquito tiene una obligación con otro ser vivo, y eso cambia el motivo por el que se levanta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso concreto que cita es el de un hombre que llevaba tiempo encamado, casi sin hablar, con varios psicofármacos pautados. Le pusieron dos periquitos en la habitación. Empezó a describirlos al personal. A las semanas se levantaba y sacaba al perro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El concepto que hay debajo de todo esto tiene respaldo en psicología, y viene de una investigadora de Stanford, Laura Carstensen, que estudió cómo cambian las prioridades de la gente según el tiempo que cree que le queda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hallazgo es que la edad, por sí sola, no explica el cambio. Lo que lo explica es la percepción del horizonte. Cuando el futuro parece abierto, la gente prioriza conocer gente nueva, aprender y acumular. Cuando parece corto, prioriza a los suyos y lo que ya sabe que le importa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo comprobó en gente joven bajo amenaza: pacientes con enfermedades graves, habitantes de Hong Kong ante el traspaso de 1997, y neoyorquinos después de 2001. En todos los casos, jóvenes con el horizonte acortado elegían igual que los ancianos.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La consecuencia práctica es que el desinterés de los mayores por lo nuevo no es apatía ni deterioro: es una reasignación razonable de un tiempo limitado. Y que tratarlo como un síntoma a corregir es no haber entendido nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la crítica más dura del libro a las residencias convencionales: que están organizadas para prolongar la vida de gente cuyo problema no es la duración, sino qué se puede hacer con lo que queda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Thomas convirtió aquello en un movimiento, con formación para otras residencias, y su modelo se ha extendido a cientos de centros en varios países, con resultados desiguales según lo en serio que se tomen los principios y no solo los animales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque el error habitual, dice Gawande, es copiar los perros y no la parte difícil: ceder el control. Un perro en una residencia donde el residente sigue sin decidir a qué hora se levanta es decoración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hasta aquí el libro trata de dónde vive la gente. La segunda mitad cambia de asunto y se mete en el terreno donde Gawande es a la vez autor y culpable, y lo dice así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En qué se le dice a alguien que se está muriendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y empieza con una paciente suya, Sara Monopoli, de treinta y cuatro años, embarazada de treinta y nueve semanas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A la que le diagnosticaron un cáncer de pulmón con metástasis dos días antes de dar a luz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que recibió, en los ocho meses que le quedaban, cuatro líneas distintas de quimioterapia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna de las cuales tenía posibilidades razonables de funcionar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ninguno de sus médicos, incluido él, encontró el momento de decírselo con esas palabras.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El helado de chocolate y el fútbol",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sobre Sara Monopoli es el más incómodo del libro porque Gawande no se coloca fuera. Cuenta las conversaciones que tuvo con ella y con su marido, y señala en cada una el momento exacto en el que cambió de tema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando ella preguntaba por el pronóstico, él hablaba del siguiente tratamiento. Cuando ella preguntaba si aquello iba a funcionar, él decía que había opciones. Ninguna de las dos respuestas era mentira y ninguna contestaba la pregunta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué lo hacen los médicos",
+          frase: "Porque decir la verdad completa parece cruel, porque el paciente casi siempre pide esperanza, y porque ofrecer otro tratamiento es lo único que un médico sabe hacer cuando no tiene nada más. Callar es la salida cómoda para los dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un dato que agrava el problema y que casi nadie conoce. Los médicos son sistemáticamente malos prediciendo cuánto le queda a un paciente terminal, y se equivocan siempre en la misma dirección: de más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un estudio con pacientes derivados a cuidados paliativos encontró que las estimaciones de los médicos eran, de media, unas cinco veces más largas que la supervivencia real. Y cuanto mejor conocía el médico al paciente, más se equivocaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese sesgo tiene una consecuencia práctica enorme: las conversaciones importantes se posponen porque siempre parece que hay tiempo, y cuando por fin se tienen, el paciente ya está demasiado enfermo para participar en ellas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Gawande describe tres tipos de médico. El paternalista, que decide por el paciente. El informativo, que le da todos los datos y le deja elegir solo, que es el modelo actual. Y un tercero, que él llama interpretativo, y que es el que defiende.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El interpretativo no decide por el paciente ni le suelta una lista de opciones y se va. Le pregunta qué le importa, qué teme y qué está dispuesto a soportar, y con eso le ayuda a decidir. Es el modelo más difícil y el que casi nadie enseña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para aprender a hacerlo se fue a ver a Susan Block, una especialista en cuidados paliativos de su propio hospital, que le dio una lista de preguntas que él ha reconocido después haber usado cientos de veces.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Las preguntas",
+          frase: "Qué entiende usted de su situación. Qué le da miedo y qué espera. Qué es lo que no está dispuesto a sacrificar. Y qué tendría que pasar para que un día fuera un buen día. Con esas cuatro respuestas se puede decidir casi todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Block le insistió en una regla de método que suena obvia y que casi nadie cumple: en esa conversación hay que hablar menos de la mitad del tiempo. Un médico que habla más del cincuenta por ciento no está teniendo una conversación, está informando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le contó su propio caso, que es la escena que le da título a este capítulo. A su padre, Jack Block, psicólogo de setenta y cuatro años, le encontraron un tumor en la médula cervical que iba a dejarle tetrapléjico si no lo operaban.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La operación también podía dejarle tetrapléjico. Las probabilidades eran malas por los dos lados, y ella, que se dedicaba profesionalmente a estas conversaciones, se encontró incapaz de tenerla con su propio padre.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La tuvo. Le preguntó qué estaba dispuesto a aguantar para seguir vivo. Él lo pensó y contestó: si puedo comer helado de chocolate y ver el fútbol en la televisión, estoy dispuesto a seguir. Dijo que si podía hacer esas dos cosas, aceptaba lo que hiciera falta.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella escribió aquello en un papel. Durante la operación surgió una complicación y el cirujano salió a preguntar si continuaban, con el riesgo de que quedara paralizado. Ella tenía la respuesta de su padre y pudo contestar en veinte segundos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre salió de la operación con una parálisis parcial, pasó meses en rehabilitación, recuperó bastante, volvió a escribir artículos científicos y vivió diez años más. Y comió helado de chocolate y vio el fútbol.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el argumento del libro entero, dicho sin discursos: no se trata de elegir entre luchar o rendirse. Se trata de saber qué es lo que hace que a esta persona concreta le merezca la pena, y decidir en función de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí entra el dato que más ha cambiado la conversación pública sobre este tema, y que es la razón por la que este libro se recomienda en las facultades de medicina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2010 se publicó en el New England Journal of Medicine un ensayo aleatorizado con pacientes de cáncer de pulmón con metástasis, recién diagnosticados, en el hospital general de Massachusetts.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El diseño",
+          frase: "A la mitad se les dio el tratamiento oncológico habitual. A la otra mitad, el mismo tratamiento más una consulta con el equipo de paliativos desde el principio, para hablar de síntomas, de miedos y de objetivos. Nadie dejó de recibir quimioterapia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El grupo con paliativos desde el principio tuvo menos depresión, mejor calidad de vida y recibió menos tratamiento agresivo en las últimas semanas. Eso era lo esperable y era lo que se buscaba medir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que nadie esperaba es que vivieran más. La mediana de supervivencia fue de unos once meses y medio frente a unos ocho meses y medio: alrededor de un veinticinco por ciento más de vida, en el grupo que recibió menos tratamiento agresivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese resultado se ha replicado en otros contextos y ha cambiado las guías clínicas de varias sociedades oncológicas, que hoy recomiendan integrar cuidados paliativos desde el diagnóstico en enfermedad avanzada, y no al final.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La explicación probable no es mágica: menos ingresos en cuidados intensivos, menos quimioterapia en pacientes demasiado débiles para tolerarla, mejor control del dolor, mejor nutrición y menos complicaciones evitables.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y desmonta la creencia más extendida sobre este asunto, que es la razón por la que mucha gente rechaza los paliativos: que aceptarlos es rendirse y morirse antes. En este ensayo, quienes los aceptaron pronto vivieron más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gawande describe también cómo trabaja una enfermera de cuidados paliativos a domicilio, siguiéndola durante varias visitas, y lo que se ve es que la mayor parte de su trabajo consiste en preguntar y en ajustar cosas pequeñas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Qué le impide dormir. Qué querría poder hacer esta semana. Si el dolor le deja hablar por teléfono con su hija. Y a partir de ahí, cambiar una dosis, mover una cama o conseguir una silla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sara Monopoli murió en un hospital, con una discusión abierta sobre si intubarla, sin haber tenido nunca esa conversación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hija tenía ocho meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dos años después, a Gawande le tocó tener esa conversación en el sitio donde no se puede esquivar.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las cenizas en el Ganges",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "A su padre, Atmaram Gawande, urólogo de setenta y cinco años en Ohio, le encontraron un tumor creciendo dentro de la médula espinal, en el cuello. Era un astrocitoma, y por su localización era inoperable sin un riesgo altísimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer neurocirujano al que fueron, en Cleveland, les dijo que había que operar cuanto antes y no contestó ninguna de las preguntas sobre qué pasaría después. Habló casi todo el rato y les dio una fecha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo, en Boston, hizo lo contrario: preguntó a su padre qué era importante para él, cuánto tiempo llevaba con los síntomas y qué estaba dispuesto a perder. Y le dijo que mientras pudiera seguir operando y viviendo su vida, esperar era razonable.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La diferencia entre los dos",
+          frase: "No estaban en desacuerdo sobre el tumor: los dos veían lo mismo en la resonancia. Estaban en desacuerdo sobre de quién era la decisión. Y esa diferencia le dio a su padre varios años más de operar, de dar clase y de dirigir su club rotario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El deterioro llegó despacio, con la secuencia que el libro ha descrito en abstracto durante doscientas páginas: la mano que falla, el brazo, el equilibrio, y las decisiones que se van tomando una a una sin ver el conjunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El momento en que dejó de operar. El momento en que dejó de conducir. El momento en que necesitó ayuda para vestirse. Cada uno de ellos discutido en la mesa de la cocina de una familia de tres médicos que sabían perfectamente lo que venía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Gawande escribe que saber medicina no le sirvió de nada en esas conversaciones, y que lo único que le sirvió fueron las cuatro preguntas de Susan Block, que usó con su propio padre sabiendo exactamente lo que estaba haciendo.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre contestó que lo que no soportaría sería estar paralizado, sin poder hablar con la gente y dependiendo de otros para todo. Y que quería estar en casa, y quería estar consciente, aunque eso significara menos tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa respuesta, la familia rechazó una segunda tanda de radioterapia agresiva y pidió cuidados paliativos a domicilio. Su padre pasó sus últimos meses en su casa, recibiendo visitas, hablando por teléfono con la India y comiendo lo que quería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo un episodio que Gawande cuenta sin adornar: un día su padre sufrió una crisis y les pidió que lo llevaran al hospital, y después, ya estabilizado, les dijo que no quería volver a ir. Cambió de opinión. Eso también pasa y el libro lo deja.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que aprendió",
+          frase: "Que las preferencias de la gente cambian según avanza la enfermedad, y que por eso la conversación no se tiene una vez: se tiene muchas. Un documento de voluntades firmado hace cinco años no sustituye a preguntarle otra vez a la persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre murió en su casa, con su familia, sin ingreso y sin intubación. La última parte del libro es el viaje de Gawande, su madre y su hermana a Benarés, para esparcir las cenizas en el Ganges según el rito que su padre había pedido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta el ritual con precisión: los pasos, el sacerdote, el agua, y el detalle de que él, médico, bebió un sorbo del río como manda la ceremonia sabiendo perfectamente el recuento bacteriano de aquel agua, y que tomó antibióticos preventivos antes.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese detalle es lo mejor del libro entero: un hombre que hace lo que su padre le pidió y a la vez toma precauciones, sin que las dos cosas se contradigan. Es exactamente lo que el libro propone hacer con la medicina y con la muerte.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, dónde falla el libro. Lo primero, y es estructural: es profundamente estadounidense. Las residencias, la vivienda asistida, el seguro médico y los incentivos que describe son los de un sistema privado que no se parece al español.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí la conversación es otra: plazas públicas con listas de espera, la ley de dependencia, y un modelo familiar donde la mayoría de los cuidados los sigue prestando la familia en casa. Las preguntas de fondo valen; los diagnósticos institucionales, no directamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo es el dinero. Todo lo que el libro elogia —apartamentos con llave, personal suficiente, paliativos domiciliarios de calidad— cuesta más que aparcar a alguien en una sala común. El libro lo menciona y no se enfrenta a ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero es quién cuida. Las cuidadoras aparecen constantemente y casi nunca como protagonistas. El coste que tiene para una hija de cincuenta años dejar su trabajo para cuidar a su madre está en el libro de fondo y sin analizar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El cuarto, el más de fondo",
+          frase: "Toda la propuesta depende de que exista un profesional con tiempo, formación y disposición para tener esas conversaciones. Eso no es un sistema: es una virtud individual. Y un modelo que se apoya en las virtudes de los profesionales no escala.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y lo quinto: la eutanasia. Hay un capítulo sobre los Países Bajos donde Gawande se muestra ambivalente y termina argumentando que un país que hace bien los paliativos necesita menos la eutanasia. Es un tratamiento breve para un asunto enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En España, con una ley de eutanasia vigente desde 2021, ese capítulo se queda especialmente corto, y quien busque aquí una discusión seria sobre la muerte asistida no la va a encontrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la gente cree y no es verdad. Lo primero y más importante: que los cuidados paliativos son rendirse y acortan la vida. El ensayo del hospital general de Massachusetts encontró lo contrario, con un veinticinco por ciento más de supervivencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que este libro está en contra de tratar. No lo está. Está en contra de tratar sin haber preguntado antes qué quiere la persona, que es una cosa distinta y bastante más exigente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que los mayores temen sobre todo morirse. Lo que dicen temer, cuando se les pregunta, es perder la independencia, no poder decidir y ser una carga para los suyos. La muerte aparece por detrás de esas tres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: que los médicos saben cuánto le queda a alguien. Sus estimaciones son sistemáticamente demasiado optimistas, y ese error es la razón por la que las conversaciones importantes llegan tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quinto: que decir la verdad quita la esperanza. Los datos apuntan a que los pacientes que hablan abiertamente de su pronóstico no están más deprimidos, y sus familias afrontan mejor el duelo después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda para llevarse, y no depende de vivir en ningún país concreto, son las cuatro preguntas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Qué entiendes de tu situación. Qué te da miedo y qué esperas. Qué no estás dispuesto a sacrificar. Y qué tendría que pasar para que hoy fuera un buen día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se pueden hacer con un padre, con una madre o consigo mismo, y el libro sostiene que hacerlas pronto es la única manera de que las decisiones difíciles las tome la persona a la que le van a pasar.",
+        },
+      ],
+    },
+  ],
+};
