@@ -10173,3 +10173,651 @@ export const SOBRE_TIRANIA: Resumen = {
     },
   ],
 };
+
+export const HOMO_SOVIETICUS: Resumen = {
+  id: "homo-sovieticus",
+  titulo: "El fin del Homo Sovieticus",
+  autor: "Svetlana Aleksiévich",
+  ano: 2013,
+  gancho:
+    "Veinte años grabando a gente corriente del imperio que se cayó. Le dieron el Nobel por ello, y también la llevaron a juicio por lo mismo: por lo que hace con las cintas cuando se sienta a escribir.",
+  porQue:
+    "Porque es el mejor retrato que existe de lo que le pasa por dentro a un país cuando se le acaba el mundo. Y porque su título original no dice lo que dice el español: no habla de un final, habla de ropa usada que alguien se ha vuelto a poner.",
+  partes: [
+    {
+      titulo: "Un mariscal se ahorca en su despacho del Kremlin",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Moscú, 24 de agosto de 1991. Cuatro días después de que fracase el golpe de Estado contra Gorbachov, un mariscal de la Unión Soviética de sesenta y ocho años, héroe de guerra y asesor del presidente, se encierra en su despacho del Kremlin y se ahorca con un cable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Serguéi Ajroméyev y dejó varias notas. En una de ellas escribió que no podía seguir viviendo cuando estaba pereciendo la patria y estaba siendo destruido todo aquello a lo que había dedicado su vida entera. Dos días después, el administrador del Partido se tiró por una ventana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa serie de suicidios abre Svetlana Aleksiévich su libro, y la elección no es casual. No empieza por las cifras del desmoronamiento de un imperio ni por la fecha de la disolución. Empieza por gente concreta a la que se le acabó el mundo y no encontró qué hacer al día siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y elige suicidas de arriba, no de abajo, que es una decisión fina. Son hombres que habían tenido poder de verdad, no víctimas del sistema. Empezar por ellos avisa al lector de que este libro no va a repartir culpables e inocentes con la comodidad habitual.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es su procedimiento entero. No explica nada, no analiza nada y no cita ninguna estadística. Lo que hace es sentarse enfrente de personas, poner una grabadora, dejarlas hablar durante horas, y después componer con eso un libro que ella llama una novela de voces.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nació en 1948, hija de padre bielorruso y madre ucraniana, y se formó como periodista en Minsk. Lleva desde los años ochenta haciendo lo mismo con distintos temas, en un ciclo de cinco libros que ella llama las voces de la utopía y que cubre setenta años de historia soviética desde abajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero fue sobre las mujeres que combatieron en la Segunda Guerra Mundial, casi un millón de soviéticas de las que nadie había escrito. Después vinieron los niños de aquella guerra, los soldados de Afganistán, las víctimas de Chernóbil, y por último este, que cierra la serie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel primer libro tardó dos años en poder publicarse y salió censurado, porque contaba la guerra sin heroísmo: la sangre, la regla en las trincheras, el miedo, y las mujeres que al volver a casa escondieron sus medallas porque nadie quería casarse con una que hubiera estado en el frente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué está haciendo",
+          frase: "No escribe historia: escribe lo que la historia deja dentro de la gente. Su unidad de medida no es el año ni el decreto, es la frase que alguien te dice cuando lleváis tres horas hablando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2015 le dieron el premio Nobel de Literatura, y aquello fue una pequeña conmoción en el mundillo. Era la primera vez que se le daba a alguien cuya obra entera son testimonios ajenos montados, y hubo quien preguntó en voz alta si aquello era literatura o era periodismo bien hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La academia lo resolvió con una fórmula que merece la pena porque es exacta: premió su escritura polifónica, un monumento al sufrimiento y al coraje de nuestro tiempo. Es decir, la premió como escritora, por lo que hace con el material, y no como reportera por haberlo recogido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este libro concreto le costó unos veinte años. Empezó a grabar en 1991, con el imperio todavía cayéndose, y siguió hasta 2012, recorriendo lo que había sido la Unión Soviética y hablando con quien se dejaba. Se publicó en ruso en 2013 y en español poco después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está dividido en dos mitades que son dos décadas. La primera, de 1991 a 2001, la titula el consuelo del apocalipsis. La segunda, de 2002 a 2012, el encanto del vacío. Esos dos títulos ya cuentan la historia entera: primero el derrumbe y después el silencio de después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia de temperatura entre las dos mitades es lo mejor construido del libro. En la primera la gente grita, acusa y llora. En la segunda ya no: habla con una calma que da más miedo, la de quien ha aceptado que aquello fue así y que no va a haber ninguna explicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El término del título español tiene su historia. Homo sovieticus lo popularizó el disidente Aleksandr Zinóviev en un libro de 1982, y lo usaba como insulto: designaba al hombre fabricado por el sistema, sumiso, envidioso, incapaz de responsabilidad individual.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aleksiévich coge esa etiqueta despectiva y la convierte en una pregunta antropológica seria. Setenta años produjeron un tipo humano concreto, con sus virtudes y sus deformaciones. Cuando el sistema desapareció de un día para otro, aquel tipo humano no desapareció con él. ¿Adónde fue?",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella misma se incluye en la respuesta, y eso es importante para leerla bien. No escribe desde fuera como una antropóloga que estudia una tribu: escribe como alguien que también fue eso, que también creyó y también se quedó sin país, y lo dice en el prólogo sin adornos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese prólogo hay una frase suya que conviene retener porque explica todo el proyecto: dice que le interesa el hombre pequeño, el que no sale en ningún sitio, y que en cada uno de ellos cabe la historia entera del siglo si uno se sienta el tiempo suficiente a escucharla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tiene unas seiscientas páginas y no hay manera de leerlo del tirón. Cada capítulo es una persona hablando durante quince o veinte páginas seguidas, y después empieza otra, y la acumulación produce un efecto físico de agotamiento que probablemente sea deliberado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La manera razonable de leerlo es una voz al día, como quien lee poemas. Intentar acabarlo en un fin de semana produce el efecto contrario al buscado: las historias se emborronan unas con otras y todas acaban pareciendo la misma, que es justo lo que el libro combate.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay algo que conviene decir antes de seguir, porque es la razón principal de esta ficha: la manera en que ella trabaja con esas cintas ha sido llevada a los tribunales. Literalmente. Hubo un juicio en Minsk, con demandantes y sentencia, y de eso trata el capítulo cuarto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un mariscal con un cable en su despacho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un administrador cayendo desde una ventana dos días después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y detrás, doscientos millones de personas a las que nadie preguntó nada.",
+        },
+      ],
+    },
+    {
+      titulo: "Cien horas de grabación para tres páginas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El método parece sencillo y no lo es. Aleksiévich localiza a alguien, va a su casa, se sienta y escucha. No lleva un cuestionario. Las conversaciones duran horas y a veces vuelve varias veces durante meses, hasta que la persona empieza a contar lo que no cuenta nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha explicado que ese momento no llega al principio. Al principio la gente le cuenta la versión oficial de su propia vida, la que tiene ensayada, la que sale en la televisión. Lo que ella busca está debajo, y para llegar hay que aburrirse mucho rato en un sofá ajeno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un hallazgo que vale para cualquiera que entreviste a alguien alguna vez. Toda persona tiene una versión de su vida preparada para las visitas, y esa versión no es mentira: es un resumen que lleva años puliéndose. Lo que interesa está debajo y solo sale cuando se agota el resumen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para un libro como este ha grabado a cientos de personas y ha acumulado miles de páginas de transcripción. De cada entrevista larga, en el libro pueden quedar diez páginas, o cinco, o ninguna. La proporción entre lo grabado y lo publicado es de las cosas menos conocidas de su oficio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y aquí está la operación que lo cambia todo: quita sus propias preguntas. Lo que el lector encuentra es un monólogo continuo, alguien hablando sin interrupciones durante veinte páginas. Pero eso no ocurrió nunca: era una conversación, y ella ha borrado la mitad que era suya.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El efecto es enorme y merece pensarlo. Un monólogo suena a confesión espontánea; una entrevista suena a lo que es, un intercambio donde alguien dirige. Al borrar las preguntas, el texto adquiere una autoridad que no tenía, porque parece que nadie lo ha orientado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después corta, ordena y condensa. Junta cosas que se dijeron en visitas distintas. Elimina las repeticiones, las digresiones y los tramos aburridos. Y coloca cada voz en un sitio del libro donde hace un trabajo concreto respecto de la anterior y de la siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese último paso es el más literario de todos y el que menos se comenta. El orden de las voces produce sentido igual que el montaje en el cine: una historia colocada después de otra la comenta, la contradice o la agrava, y esa relación no la puso nadie más que la autora.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hay que tener claro",
+          frase: "Una voz de este libro no es una transcripción. Es una composición hecha con palabras que alguien dijo de verdad, y las dos mitades de esa frase importan lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella no lo oculta. Lo ha explicado en entrevistas muchas veces y ha dicho que su trabajo empieza cuando apaga la grabadora, que la gente habla mucho y que su tarea es encontrar dentro de eso las diez frases que valen. Lo llama trabajar con el material, y es honesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema no es que lo haga, es que el lector no lo tiene presente. La forma del libro —primera persona, sin comillas de autor, sin comentarios— invita a leerlo como si fueran documentos. Y no son documentos: son literatura construida con documentos, que es otra categoría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa confusión tiene consecuencias fuera del libro. Sus voces se citan en artículos y en debates como si fueran datos sobre lo que piensa la gente en Rusia, y no lo son: son una selección deliberada hecha por una escritora con una tesis, igual de legítima e igual de poco estadística.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene compararlo con «Si esto es un hombre», de Primo Levi, que está en esta misma categoría. Levi escribe su propia experiencia, con su nombre, y se hace responsable de cada frase. Aleksiévich escribe la experiencia de otros y decide qué parte de ella llega al lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son dos operaciones distintas y las dos son legítimas, pero exigen confianzas distintas. A Levi se le puede pedir cuentas de lo que dice. A Aleksiévich hay que confiarle algo más difícil: que lo que ha dejado fuera no cambiaba el sentido de lo que ha dejado dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una segunda cuestión de método, que es quién habla. Los que se sientan a contarle su vida a una escritora durante horas no son una muestra aleatoria de nada. Son gente con tiempo, con ganas de hablar, y sobre todo con la sensación de tener algo pendiente que decir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un filtro anterior a ese: alguien tiene que localizarlos. Aleksiévich llega a la gente por cadenas de conocidos, y una cadena de conocidos que empieza en una intelectual de Minsk no acaba en cualquier sitio. Los mundos a los que no llega ninguna cadena no aparecen en el libro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso inclina el libro entero hacia un registro concreto: el del duelo. Predominan los que perdieron algo con el cambio, los que se sienten estafados, los que echan de menos. Los que salieron ganando de aquellos años suelen estar ocupados y no suelen tener nada pendiente que contar.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir de inmediato que ese sesgo no invalida el retrato, porque hay datos que van en su dirección. Las encuestas rusas llevan décadas mostrando que una mayoría —en algunos años en torno a dos tercios— lamenta la desaparición de la Unión Soviética. Su población existe y es enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pero la misma pregunta hecha en Estonia, en Lituania o en Polonia da resultados radicalmente distintos, y entre los jóvenes rusos que no vivieron aquello también. El libro no dice que hable de todos, y el lector, al no tener ninguna cifra delante, tiende a leerlo como si hablara de todos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el precio de su método y ella lo paga a sabiendas. A cambio consigue algo que ninguna encuesta consigue: que el lector sepa exactamente cómo suena una cocina de Moscú a las dos de la mañana en 1993, y qué dice una mujer que ha perdido dos hijos y el país donde nacieron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y consigue una segunda cosa que las encuestas no pueden: la contradicción dentro de una misma persona. La misma mujer que maldice a Stalin en la página cuatro dice en la nueve que entonces la gente era mejor. Un cuestionario obligaría a elegir; aquí caben las dos y las dos son verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Horas de cinta para diez páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y las preguntas, borradas todas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda parece una confesión y es una construcción.",
+        },
+      ],
+    },
+    {
+      titulo: "La libertad resultó ser el salchichón",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay una frase que se repite en el libro con variantes, dicha por gente muy distinta, y es la que mejor lo resume: pedíamos libertad y nos dieron un supermercado. Alguien lo formula con más rabia: resulta que la libertad era poder elegir entre veinte clases de salchichón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no es una queja contra la abundancia. Es algo más incómodo: la constatación de que muchos habían imaginado la libertad como una cosa moral y espiritual, y se encontraron con una cosa comercial. Habían soñado con Solzhenitsyn y les llegó el catálogo de una tienda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay que decir el matiz para no idealizar aquello: los mismos que dicen esa frase habían pasado la vida haciendo cola. Nadie en el libro echa de menos las estanterías vacías. Lo que dicen es más raro y más interesante: que esperaban que llenarlas significara algo más que llenarlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aparece una y otra vez el asunto de las cocinas. En la época soviética, la vida intelectual real ocurría en cocinas pequeñas, de noche, con seis personas apretadas, hablando de libros prohibidos y de política en voz baja. Aquellas conversaciones eran lo mejor que tenían muchos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y varios entrevistados dicen lo mismo: que cuando llegó la libertad, aquellas cocinas se vaciaron. Ya no hacía falta reunirse a escondidas para decir la verdad, porque la verdad estaba en el quiosco. Y entonces resultó que la mitad de lo que valía aquello era la clandestinidad.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una observación cruel y es de las mejores del libro. Una parte de lo que la gente amaba de su vida anterior no era el régimen sino la resistencia al régimen: la intensidad, la complicidad, la sensación de que leer un libro era un acto arriesgado y por tanto importante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y funciona igual de bien fuera de allí, que es por lo que este libro se lee en Badajoz o en Bogotá. Cualquiera que haya militado en algo, o trabajado en un sitio contra reloj con cuatro personas, reconoce esa nostalgia de la intensidad y sabe que no equivale a querer volver.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El desconcierto de fondo",
+          frase: "Se pasaron setenta años esperando la libertad y no habían pensado ni un solo día en qué iban a hacer con ella. Nadie les había enseñado, porque nadie sabía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo gran asunto del libro es la violencia que vino después, y aquí Aleksiévich recoge testimonios muy duros. Los años noventa en el espacio postsoviético no fueron una transición ordenada: fueron hiperinflación, ahorros evaporados, mafias, guerras étnicas y una caída brutal de la esperanza de vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese último dato es de los pocos que se pueden poner en cifras y conviene tenerlo, porque el libro no lo da: la esperanza de vida de los hombres rusos cayó varios años en apenas un lustro, un desplome sin precedentes en un país en paz. Detrás de eso está buena parte de lo que se cuenta aquí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay páginas sobre los pogromos contra armenios en Azerbaiyán al final de los ochenta, contadas por alguien que estaba allí, y sobre gente que había sido vecina durante treinta años y de pronto era de otro bando. La frase que se repite es que no entendían de dónde había salido aquello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque ese es uno de los hallazgos del libro: mucha gente había creído de verdad en la fraternidad de los pueblos soviéticos, y no como propaganda. Vivían mezclados, se casaban entre ellos y no sabían qué era cada cual. Cuando aquello se rompió, se rompió en un mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aparecen también los trabajadores de Asia Central que emigran a Moscú a hacer las obras, y el racismo que reciben de la misma gente que veinte años antes compartía con ellos país y pasaporte. Ese capítulo es de los más incómodos y de los menos citados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y está el gran tema que atraviesa el libro entero, que es el del sufrimiento como identidad. Varios entrevistados dicen, con orgullo y con amargura a la vez, que su pueblo no sabe vivir bien: que sabe sufrir, resistir y aguantar, y que la vida cómoda lo deja sin nada que hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella no lo trata como una peculiaridad nacional ni como una esencia eslava, y hace bien en no hacerlo. Lo trata como el resultado previsible de un siglo concreto: guerra civil, hambrunas, purgas, veintitantos millones de muertos en una guerra y campos. Con ese currículo, cualquier pueblo aprende a aguantar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aleksiévich lo trata con una mezcla de compasión y de alarma, porque es la puerta por la que después entra todo. Un pueblo convencido de que su virtud es soportar es un pueblo al que se le puede pedir que soporte cualquier cosa, y siempre habrá quien se lo pida.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay una historia de amor larguísima en el libro que la gente recuerda por encima de todo lo demás: la de una mujer que se enamora de un preso condenado por asesinato y le escribe durante años. No tiene nada que ver con la política, y por eso es el capítulo que mejor explica el resto.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque lo que Aleksiévich sostiene con esa historia y con veinte más es que la vida privada no se detuvo mientras el imperio se caía. La gente siguió enamorándose, discutiendo con su madre y preocupándose por el alquiler mientras a su alrededor se disolvía un país entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es lo que la historiografía no puede hacer y ella sí. «Postguerra», de Tony Judt, que anda por esta categoría, cuenta ese mismo periodo con una solvencia analítica que este libro no tiene ni pretende. Los dos juntos son la única manera de entender aquello: uno da el mapa y el otro el suelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Judt además escribe desde el otro extremo del continente y con la mirada puesta en Europa occidental, así que el contraste es doble: no solo mapa frente a suelo, sino también cómo se vivió aquella misma década desde el lado que la ganó y desde el lado que la perdió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es probablemente el mejor consejo práctico de esta ficha. Este libro necesita otro libro al lado. Solo, produce una emoción enorme y ninguna capacidad de situar nada, porque no hay una fecha, un porcentaje ni una explicación en seiscientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Veinte clases de salchichón en el escaparate.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y las cocinas donde se hablaba de verdad, vacías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie había avisado de que esas dos cosas iban juntas.",
+        },
+      ],
+    },
+    {
+      titulo: "El juicio de Minsk",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1989 Aleksiévich publicó un libro sobre la guerra de Afganistán construido con testimonios de soldados que volvían y de madres que recibían a sus hijos en ataúdes de zinc. De ahí el título: los muchachos de zinc. Fue un escándalo, porque aquella guerra no se contaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres años después, en 1992, varias de las personas que aparecían en el libro la demandaron ante un tribunal de Minsk. Entre ellas había madres de soldados muertos y un veterano. La acusación era que ella había deformado sus testimonios y les había puesto en la boca cosas que no dijeron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El juicio se celebró. Hubo vistas, declaraciones y sentencia. Y es un episodio extraordinario en la historia de la literatura documental, porque es de las pocas veces en que un autor ha tenido que responder ante un juez de qué hace exactamente con las cintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene medir bien la rareza. Los pleitos por difamación contra periodistas son corrientes y van sobre si un hecho es cierto. Este iba sobre otra cosa: sobre si un autor puede reordenar y condensar lo que le dijo una fuente y seguir presentándolo entre comillas como suyo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que ella contestó es lo que sostiene desde entonces: que su trabajo no es una transcripción notarial sino una obra literaria, que condensa y compone, y que la fidelidad que le debe a alguien no es a sus palabras exactas sino a lo que esa persona quiso decir con ellas.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contexto es más turbio de lo que parece y hay que decirlo entero. Aquello ocurría en la Bielorrusia de los primeros noventa, y varias de las demandantes declararon después que habían sido presionadas por las autoridades para demandarla. Algunas retiraron la demanda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otras la mantuvieron y siguieron sosteniendo que sus palabras habían sido alteradas. La sentencia fue parcial y ambigua, y el asunto quedó sin cerrar del todo. Aleksiévich incluyó después las actas del juicio como apéndice en las ediciones de aquel libro, lo cual dice bastante a su favor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Publicar las acusaciones dentro del propio libro acusado no es un gesto habitual. Cualquier lector de aquellas ediciones puede leer a las demandantes diciendo que las tergiversó, en la misma tapa donde está lo que ella escribió. Pocos autores dejan que su crítica viaje pegada a su obra.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dejó abierto",
+          frase: "Nadie demostró que inventara nada. Lo que se discutió, y sigue sin resolverse, es hasta dónde puede reescribir un autor lo que le dijo otro sin dejar de llamarlo testimonio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pregunta no tiene respuesta cerrada y no la va a tener, porque las dos posiciones son defendibles. Si transcribes literalmente, publicas cientos de páginas ilegibles y traicionas a quien te habló por otra vía, que es la de no ser leído. Si compones, decides tú qué dijo esa persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una tercera vía, que es la que usan los historiadores orales profesionales: depositar las grabaciones en un archivo consultable. Aleksiévich no lo ha hecho, y por eso lo que hay que decir con precisión es que su trabajo no es verificable por terceros. No es lo mismo que decir que sea falso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una razón atendible para no hacerlo, aunque no zanje el problema: mucha de esa gente habló de cosas que podían costarles caro, en países donde eso sigue costando caro. Un archivo abierto de voces identificables en la Bielorrusia actual no es una idea inocente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además ser exacto sobre lo que nadie discute. Nadie ha demostrado nunca que inventara una persona, un episodio o una guerra. Las acusaciones han ido siempre sobre el montaje, el énfasis y la selección, que son problemas de grado y no de existencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay que añadir el otro lado de la balanza, porque también forma parte del retrato. Las autoridades bielorrusas llevan décadas hostigándola. Sus libros dejaron de publicarse allí, vivió más de diez años fuera del país y volvió después, y su nombre desapareció de los programas escolares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2020, con setenta y dos años y con el Nobel encima, se unió al consejo de coordinación de la oposición bielorrusa tras las elecciones. Sus compañeros de aquel consejo fueron detenidos o expulsados uno tras otro, y ella recibió visitas de hombres sin identificar en su casa de Minsk.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella misma contó por teléfono a un periódico que le llamaban al timbre gente que no se identificaba y que había dejado de abrir la puerta. El Nobel no la protegía de nada: lo único que hizo fue conseguir que aquello se contara fuera mientras estaba pasando.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aguantó un tiempo con diplomáticos europeos haciendo turnos en su piso para que no se la llevaran, y en septiembre de aquel año salió del país. Vive en Alemania desde entonces. Su último libro va sobre gente a la que se le acabó el país, y ahora se le ha acabado a ella.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa biografía no responde a las objeciones sobre su método, y sería trampa usarla para eso. Lo que hace es situarlas: no estamos hablando de una autora cómoda a la que le sobra el prestigio, sino de alguien que ha pagado un precio real por lo que escribe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y deja una lección sobre cómo leer cualquier libro de testimonios, que vale para este y para todos los que vengan detrás. La pregunta útil no es si el autor miente, que casi nunca es el caso. La pregunta útil es a quién eligió, qué cortó y en qué orden lo puso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas tres preguntas sirven exactamente igual para un documental, para un reportaje largo o para un hilo de testimonios en una red social. En todos los casos hay alguien decidiendo a quién se oye, y esa decisión suele importar más que cualquier cosa que se diga después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna de esas tres decisiones aparece en el libro, y las tres determinan lo que uno saca de él. Un lector que las tenga presentes lee mejor a Aleksiévich, no peor: sabe que está delante de una obra y no de un espejo, y puede admirar el trabajo en vez de confundirlo con la realidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Madres de soldados muertos ante un tribunal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Unas presionadas para demandar y otras no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una pregunta sobre las cintas que sigue sin contestar.",
+        },
+      ],
+    },
+    {
+      titulo: "Tiempo de segunda mano",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Queda por decir lo más importante del libro, y es una cosa que el lector español no puede saber: el título. En ruso no se llama «El fin del Homo Sovieticus». Se llama, literalmente, tiempo de segunda mano. Y esa diferencia cambia el significado del libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título español anuncia un final: algo se ha acabado, un tipo humano se extingue, se cierra una época. El título ruso dice exactamente lo contrario: que no se acabó nada, que lo que hubo fue un cambio de ropa, y que la ropa que se pusieron era usada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis es esa y la sostiene con las voces del segundo tramo del libro, el de 2002 a 2012. Después del derrumbe no se construyó nada nuevo. Se fue al armario, se sacaron ideas viejas y se volvieron a poner: los símbolos del imperio zarista, la iglesia, el himno soviético con letra nueva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llamativo es la mezcla, que a un observador de fuera le resulta imposible y allí no chirría: el águila bicéfala de los zares, a los que los bolcheviques fusilaron, conviviendo con la nostalgia del ejército rojo que los fusiló. Segunda mano significa también que da igual de qué armario.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese detalle del himno es literalmente cierto y vale por todo el argumento. La música del himno soviético, compuesta en 1944, se recuperó en el año 2000 como himno de la Federación Rusa, con una letra nueva escrita por el mismo hombre que había escrito las dos anteriores.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aleksiévich lo mira y saca la conclusión que da título al libro: aquello no era nostalgia sentimental, era falta de material. No había un proyecto nuevo que ofrecer, así que se recompuso uno con piezas de segunda mano, y la gente se lo puso porque tenía frío.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El título verdadero",
+          frase: "No se acabó el Homo Sovieticus. Se le dio la vuelta al abrigo y se siguió usando, porque nadie había cosido uno nuevo mientras tanto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escrito eso en 2013, el libro se lee hoy de otra manera. Sus últimas páginas describen un país que ha recuperado el orgullo imperial, que ha decidido que los noventa fueron una humillación y que busca en el pasado un relato que le devuelva el tamaño. Lo que vino después no sorprende a nadie que lo haya leído.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no lo describe como una imposición desde arriba, que es la lectura fácil. Lo describe como una demanda: hay voces en el libro pidiendo expresamente que alguien les devuelva el orgullo, y ese detalle es el que hace el libro incómodo y el que lo hace valioso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí es donde el libro adquiere un valor que no tenía cuando se publicó. No es un libro sobre el fin de la Unión Soviética: es un libro sobre qué le pasa a una sociedad cuando pierde su relato y no encuentra otro. Y esa es una pregunta que no le corresponde solo a un país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene enlazarlo con «Sobre la tiranía», que anda por esta categoría y que es de cuatro años después. Snyder da veinte reglas para reconocer cómo empieza; Aleksiévich enseña el material humano sobre el que eso funciona: gente cansada, estafada y convencida de que su virtud es aguantar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con «Los orígenes del totalitarismo», de Arendt, que también está aquí. Arendt sostuvo que el terreno donde crece eso es la soledad de masas: gente desconectada, sin lugar, sin pertenencia. Buena parte de las voces de este libro describen exactamente esa condición desde dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia es que Arendt lo dedujo pensando y Aleksiévich lo recogió grabando, cincuenta años después y en el otro lado. Cuando una tesis escrita en una biblioteca de Nueva York en 1951 aparece dicha con otras palabras por una jubilada de Vorónezh, la tesis gana bastante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Toca hacer el balance. ¿Es un buen libro? Es un libro extraordinario y hay que leerlo con dos precauciones. La primera: no es historia, no da fechas ni cifras y no explica nada, así que hace falta leer otra cosa al lado para poder situar lo que se está oyendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda: cada voz está compuesta por una escritora que decidió qué entraba y qué se quedaba fuera, y que borró sus propias preguntas para que pareciera un monólogo. Eso no lo hace menos verdadero, lo hace menos verificable, y son cosas distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ninguna de las dos precauciones estropea la lectura: la mejoran. Saber que uno está delante de una obra compuesta permite fijarse en cómo está hecha, que es la mitad del placer, en lugar de tragársela como si fuera una ventana abierta a la verdad de un continente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esas dos precauciones, lo que ofrece no lo ofrece nadie. Ningún historiador puede escribir la frase que una mujer de sesenta años dice a las tres de la mañana sobre por qué guardó el carné del Partido de su marido muerto en el mismo cajón que las fotos de la boda.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el hueco que ella llena y que justifica el Nobel. La historia cuenta lo que ocurrió; los archivos cuentan lo que se decidió; las encuestas cuentan cuántos. Nadie contaba lo que aquello dejó dentro de la gente, y ella se pasó cuarenta años grabándolo antes de que se muriera.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si alguien quiere entrar en su obra y no sabe por dónde, la recomendación no es este libro. Es «Voces de Chernóbil», que es más corto, más concentrado y más devastador, y donde el método se ve con toda claridad porque el asunto es más acotado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si el asunto que interesa es otro, «La guerra no tiene rostro de mujer» es probablemente su mejor libro y desde luego el más necesario, porque rescata a casi un millón de combatientes de las que la historia oficial de aquella guerra no había dicho prácticamente nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y si alguien se queda con una sola idea, que sea la del título ruso, porque sirve fuera de allí. Cuando una sociedad pierde su relato y no fabrica otro, no se queda sin ninguno: se pone el que encuentra en el armario, y los armarios están llenos de ideas viejas esperando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un himno de 1944 con letra nueva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escrita por el mismo señor que hizo las dos anteriores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso es exactamente lo que significa tiempo de segunda mano.",
+        },
+      ],
+    },
+  ],
+};

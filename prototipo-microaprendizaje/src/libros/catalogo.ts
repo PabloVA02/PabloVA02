@@ -74,7 +74,7 @@ export const CATALOGO: Ficha[] = [
   { id: "guerra-civil-thomas", titulo: "La guerra civil española", autor: "Hugh Thomas", ano: 1961, categoria: "Historia", estado: "escrito" },
   { id: "auschwitz-rees", titulo: "Auschwitz: los nazis y la solución final", autor: "Laurence Rees", ano: 2005, categoria: "Historia", estado: "pendiente" },
   { id: "postguerra", titulo: "Postguerra", autor: "Tony Judt", ano: 2005, categoria: "Historia", estado: "escrito" },
-  { id: "homo-sovieticus", titulo: "El fin del Homo Sovieticus", autor: "Svetlana Aleksiévich", ano: 2013, categoria: "Historia", estado: "pendiente" },
+  { id: "homo-sovieticus", titulo: "El fin del Homo Sovieticus", autor: "Svetlana Aleksiévich", ano: 2013, categoria: "Historia", estado: "escrito" },
   { id: "sobre-tirania", titulo: "Sobre la tiranía", autor: "Timothy Snyder", ano: 2017, categoria: "Historia", estado: "escrito" },
   { id: "imperiofobia", titulo: "Imperiofobia y leyenda negra", autor: "María Elvira Roca Barea", ano: 2016, categoria: "Historia", estado: "escrito" },
 
