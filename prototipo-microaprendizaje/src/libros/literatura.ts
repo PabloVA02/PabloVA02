@@ -8075,3 +8075,679 @@ export const PEDRO_PARAMO: Resumen = {
     },
   ],
 };
+
+export const FICCIONES: Resumen = {
+  id: "ficciones",
+  titulo: "Ficciones",
+  autor: "Jorge Luis Borges",
+  ano: 1944,
+  gancho: "Se dio un golpe en la cabeza subiendo una escalera, casi se muere de septicemia y al recuperarse temió haber perdido la capacidad de escribir. Para comprobarlo escribió el cuento más raro que se le ocurrió.",
+  porQue:
+    "Porque diecisiete cuentos de diez páginas cambiaron lo que se podía hacer con la literatura, y porque casi todo el mundo cree que es un libro difícil cuando es un libro corto.",
+  partes: [
+    {
+      titulo: "El golpe en la cabeza",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Buenos Aires, Nochebuena de 1938. Un hombre de treinta y nueve años sube corriendo una escalera mal iluminada para recoger a una amiga. Alguien ha dejado abierta la hoja de una ventana. Se golpea la cabeza con el borde y sigue subiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La herida se infecta. Le sube la fiebre, entra en delirio y pasa quince días entre la vida y la muerte con una septicemia. Cuando por fin baja la fiebre, no puede hablar durante un tiempo y está convencido de que ha perdido la cabeza.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La prueba que se hizo a sí mismo",
+          frase: "Tenía miedo de intentar escribir un poema o un ensayo, porque si le salía mal sabría con certeza que estaba acabado. Así que decidió escribir algo de un tipo que no hubiera intentado nunca, para poder achacar el fracaso a la novedad y no a él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que escribió fue Pierre Menard, autor del Quijote. Y con eso empezó, a los treinta y nueve años, la obra por la que se le conoce. Antes había publicado poesía y ensayos que hoy casi nadie lee.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamaba Jorge Luis Borges, había nacido en Buenos Aires en 1899 en una familia de clase media venida a menos, y había aprendido a leer en inglés antes que en español, en la biblioteca de su padre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mismo año de 1938 había muerto su padre y él había tenido que aceptar un empleo para mantener la casa: auxiliar en una biblioteca municipal de barrio, catalogando libros que nadie pedía, por un sueldo mínimo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Estuvo nueve años allí y los describió después como nueve años de sólida infelicidad. Su trabajo diario consistía en clasificar unos cien libros; lo terminaba en una hora y se pasaba el resto de la jornada escondido en el sótano leyendo o escribiendo.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus compañeros no sabían quién era. Cuenta que un día uno de ellos encontró en una enciclopedia la entrada de un tal Jorge Luis Borges y le llamó la atención la coincidencia de nombre y de fecha de nacimiento con la suya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1946 llegó Perón al poder y a Borges, que había firmado manifiestos en contra, lo ascendieron. El ascenso consistía en nombrarlo inspector de aves y conejos en los mercados municipales. Entendió el mensaje y dimitió al día siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cuentos que escribió durante aquellos años de sótano son los que forman este libro. Ficciones apareció en 1944 y reúne dos colecciones: El jardín de senderos que se bifurcan, de 1941, y Artificios, escrito después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son diecisiete cuentos. El más largo tiene unas quince páginas y varios no llegan a seis. El libro entero se lee en una tarde, y ese dato conviene ponerlo antes que ningún otro, porque su fama de difícil espanta a mucha gente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hizo Pierre Menard",
+          frase: "El cuento describe a un escritor francés que se propone escribir el Quijote. No copiarlo ni adaptarlo: escribirlo de nuevo, palabra por palabra, llegando a él por su cuenta. Consigue terminar dos capítulos y parte de otro, idénticos a los de Cervantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el narrador entonces compara los dos textos, que son exactamente iguales, y sostiene que el de Menard es infinitamente más rico. Porque una frase escrita en 1602 por un soldado español significa una cosa, y la misma frase escrita en 1934 por un francés significa otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es una broma, y a la vez es una idea que la teoría literaria tardaría treinta años en formular por su cuenta: que el significado de un texto no está solo en las palabras, sino en quién lo escribe, cuándo y ante qué lector.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Roland Barthes publicó su ensayo sobre la muerte del autor en 1967. Borges había contado lo mismo en forma de chiste en 1939, recién salido de una fiebre, y sin ninguna intención de fundar nada.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuento termina proponiendo una técnica de lectura deliberadamente absurda: atribuir a cualquier libro un autor equivocado y leerlo así. Leer la Imitación de Cristo como si fuera de Joyce, dice, para renovar los libros ya gastados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chiste tiene fondo. Cualquiera que haya leído algo sabiendo quién lo firmaba y después haya descubierto que era de otro sabe que el texto cambia sin cambiar una letra. Es la misma frase y ya no dice lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Menard, además, no elige un libro cualquiera: elige el Quijote, que en 1934 era ya un monumento nacional intocable. Escribirlo otra vez, palabra por palabra, es la manera más elegante posible de decir que ningún clásico se lee dos veces igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle final que suele pasarse por alto: Menard destruye sus borradores. De un trabajo de años solo quedan tres fragmentos y el testimonio de un amigo. Todo el cuento es, en el fondo, un obituario de algo que no existió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese tono es el de todo el volumen: la seriedad absoluta al servicio de una idea imposible, contada con notas a pie de página, referencias falsas y una bibliografía inventada que parece de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque hay una decisión de método detrás de todo el libro, y Borges la explica en el prólogo con una franqueza que casi ningún autor tiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que escribir libros extensos es un desvarío laborioso y empobrecedor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que estirar en quinientas páginas una idea que se puede explicar en cinco minutos es un disparate.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que hay un procedimiento mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fingir que esos libros ya existen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y escribir directamente el resumen y el comentario.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Un libro que no existe",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El primer cuento del libro empieza así: dos amigos discuten sobre una novela y uno cita una frase de una enciclopedia sobre un país llamado Uqbar. Van a buscarla. La enciclopedia está en la estantería y el artículo no aparece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Salvo en un ejemplar concreto de esa misma edición, que tiene cuatro páginas más que los demás. Ahí está Uqbar, un país de Asia Menor del que nadie ha oído hablar, con su geografía, su historia y su literatura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en esa literatura se menciona una región imaginaria llamada Tlön. Años después aparece un volumen entero: el tomo undécimo de una enciclopedia de Tlön, mil una páginas, con su idioma, su filosofía, su matemática y su geometría.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El giro",
+          frase: "Tlön no es un país inventado por nadie de allí: es una conspiración. Una sociedad secreta de sabios lleva siglos fabricando un planeta entero de mentira, con todos sus detalles, y filtrándolo poco a poco en el mundo real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuento se llama Tlön, Uqbar, Orbis Tertius y su parte final es la que le da fuerza: los objetos de Tlön empiezan a aparecer en el mundo. Y el mundo, encantado de tener por fin un orden comprensible, empieza a preferirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al final, en las escuelas se enseña ya la historia de Tlön, y el narrador dice que en cien años nadie recordará que se inventó. Escrito en 1940, con Europa en guerra y dos ideologías totales explicando el mundo entero, no es exactamente una fantasía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El procedimiento que usa aquí es el que va a repetir en todo el libro: el comentario erudito de algo que no existe. Reseña libros inventados, cita autores que no ha habido y pone notas a pie de página remitiendo a ediciones falsas.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo hace con tanta precisión que funciona. En el mismo volumen hay una reseña de una novela india llamada El acercamiento a Almotásim, con su autor, su editorial, sus dos ediciones y las críticas que recibió. No existe ninguna de las tres cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando esa reseña se publicó por primera vez, en un libro de ensayos, varios lectores intentaron encargar el libro en librerías de Buenos Aires. Un amigo suyo se lo pidió a un librero de Londres, que lo estuvo buscando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un tercer cuento del mismo tipo, el examen de la obra de un escritor irlandés llamado Herbert Quain, que tampoco existió, y en el que Borges describe novelas de estructuras imposibles: una que se lee hacia atrás, otra con tres desenlaces alternativos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es la broma seria del asunto. Describir una novela ramificada cuesta dos párrafos; escribirla cuesta años y probablemente no funcione. Borges se queda con la idea y le regala la ejecución a quien la quiera.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué esto importa",
+          frase: "Media literatura del siglo veinte y buena parte de las series y los videojuegos de ahora vienen de ideas que Borges dejó descritas en tres páginas y no desarrolló. Los libros que no escribió han tenido más descendencia que casi cualquier novela que se escribiera entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El procedimiento tiene además una consecuencia de forma. Al no tener que sostener personajes ni escenarios durante trescientas páginas, cada cuento puede ser puro mecanismo: una idea, su desarrollo y su vuelta de tuerca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso hace que sus cuentos se recuerden como se recuerdan los chistes o los teoremas: por la estructura. Casi nadie recuerda una frase de Ficciones, y casi todo el que lo ha leído puede contar de qué va cada cuento veinte años después.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y tiene un precio que conviene decir claro: aquí no hay personajes. Los que aparecen son funciones, nombres que sostienen una idea. Quien busque psicología, evolución interior o gente de carne y hueso no va a encontrar nada de eso.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Borges lo sabía y no lo consideraba un defecto. Su modelo no era la novela del siglo diecinueve, sino el relato policial, el cuento fantástico y el ensayo, tres formas donde lo que importa es el planteamiento y no el corazón de nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco hay mujeres, prácticamente. En diecisiete cuentos apenas hay una figura femenina con peso, y es una ausencia que se le ha señalado siempre y que él nunca justificó de manera convincente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni hay cuerpos, ni comida, ni sexo, ni paisaje sentido. Es una literatura hecha de bibliotecas, mapas, espejos, laberintos y monedas. Todo lo demás está fuera del encuadre a propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien conecte con eso encontrará el libro más deslumbrante que ha leído nunca. Quien no, lo encontrará frío, y las dos reacciones son razonables.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una tercera reacción, y es la más común: encontrarlo deslumbrante y frío a la vez. Se puede admirar la construcción de estos cuentos y no querer volver a ellos, igual que se admira un teorema y no se relee por placer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Borges nunca prometió otra cosa. En el prólogo avisa de que son juegos, y llama a varios de sus cuentos ejercicios. Es de los pocos autores canónicos que describió su propia obra con menos solemnidad de la que le pusieron después sus lectores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su influencia, en cambio, fue enorme y en una dirección que él no buscó: media literatura latinoamericana posterior salió de aquí, y también buena parte de la ficción europea que juega con el narrador, con el manuscrito falso y con la nota a pie de página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuento más famoso del volumen, y probablemente el más famoso que escribió, lleva ese método a su forma más pura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No tiene trama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No tiene apenas personajes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la descripción de un edificio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que contiene todos los libros posibles.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La biblioteca hexagonal",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El universo, empieza el cuento, que otros llaman la Biblioteca, se compone de un número indefinido y quizá infinito de galerías hexagonales. En cada una hay veinte estantes, y en cada estante treinta y dos libros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todos los libros tienen exactamente el mismo formato: cuatrocientas diez páginas, cuarenta líneas por página, ochenta letras por línea. Y el alfabeto tiene veinticinco símbolos, contando la coma, el punto y el espacio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La consecuencia",
+          frase: "Si los libros contienen todas las combinaciones posibles de esos veinticinco signos, entonces la Biblioteca contiene todos los libros que se pueden escribir. Incluidos los que aún no se han escrito, la historia detallada del futuro y el catálogo verdadero de la propia Biblioteca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contiene también tu biografía completa, la de todos los que has conocido y todas las versiones falsas de ambas. Y para cada libro verdadero, millones de versiones idénticas salvo por una letra que lo convierten en mentira.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está el horror del cuento, que no es un horror de monstruos sino de estadística. Toda la verdad está ahí y es inencontrable, porque está sepultada bajo una cantidad inconcebiblemente mayor de basura que se le parece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Borges describe lo que hicieron los bibliotecarios al entenderlo. Primero, euforia: alguien encontrará el libro que lo explica todo. Después, peregrinaciones. Después, sectas. Después, la destrucción de millones de volúmenes por parte de fanáticos buscando los buenos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y al final, la melancolía. Generaciones enteras nacidas y muertas entre hexágonos, sin haber encontrado nada. El narrador es un bibliotecario viejo que ha recorrido galerías toda su vida buscando el catálogo de los catálogos, y que va a morir sin salir de una sala.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cuento, publicado en 1941 y escrito en el sótano de una biblioteca municipal por un empleado que se aburría, describe con una precisión incómoda lo que sería vivir setenta años después con todo el conocimiento disponible y ninguna manera de saber qué es verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No es una profecía sobre internet, porque Borges no estaba pensando en eso. Es algo más interesante: describió una estructura, y la estructura resultó ser la de un problema que aún no existía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el mismo libro hay otro cuento con la misma forma. La lotería en Babilonia describe una sociedad donde una lotería sortea al principio dinero, después castigos, y acabe abarcándolo todo: quién manda, quién muere, quién se casa con quién.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los sorteos se subdividen hasta hacerse instantáneos y secretos, y llega un punto en que ya no se puede distinguir entre lo que decide la lotería y lo que pasa por azar. La pregunta final del cuento es si existe la Compañía que la organiza.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hacen estos cuentos",
+          frase: "Cogen una idea abstracta —el infinito, el azar, la identidad— y la construyen como si fuera un edificio, con sus medidas y sus reglas. El vértigo no viene de lo que se cuenta, sino de que todo encaja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero de esa familia es Las ruinas circulares, y es el más perfecto de los tres. Un hombre llega a un templo en ruinas con un propósito: soñar a otro hombre, con todos sus detalles, e imponerlo a la realidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tarda años. Sueña primero un corazón latiendo, después el resto del cuerpo, después la mente. Cuando el hijo soñado está terminado, le borra el recuerdo de su origen para que no sepa nunca que es un sueño de otro, y lo manda a otro templo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y entonces, años después, llega un incendio al templo del padre. Él camina hacia el fuego dispuesto a morir, y las llamas lo rodean sin quemarlo. Con alivio, con humillación y con terror, comprende que él también es la ilusión de otro.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son ocho páginas. No tiene diálogos. El personaje no tiene nombre. Y es de los finales más recordados de la literatura del siglo veinte, porque la última frase reorganiza retroactivamente todo lo anterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la estructura favorita de Borges y la que ha copiado después medio cine: una revelación final que no añade información nueva sino que cambia el sentido de la que ya se tenía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia con un giro de guion corriente es que aquí no hay información oculta. Todo estaba dicho desde la primera página, y el lector, si vuelve atrás, encuentra las señales colocadas a la vista. No hay trampa: hay una lectura que uno no supo hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso estos cuentos se releen bien y los thrillers con giro no. Cuando ya se sabe el final, un giro tramposo se desinfla, y Las ruinas circulares se lee mejor la segunda vez, viendo cómo estaba construido el engaño desde el principio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un detalle de artesanía que conviene mirar: la palabra fuego aparece por todo el cuento mucho antes del incendio, en las descripciones del templo, en el dios al que el hombre reza y en los sueños. El final no llega: llevaba ocho páginas llegando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hasta aquí, el libro juega con el infinito y con la identidad. La segunda mitad juega con el tiempo, y ahí hay un cuento que se adelantó a la física.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un relato de espías ambientado en la Primera Guerra Mundial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con un chino que trabaja para los alemanes y un inglés que lo persigue.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en medio, la explicación de una novela ilegible escrita por su bisabuelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que no es una novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un laberinto hecho de tiempo.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los senderos que se bifurcan",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El planteamiento es de novela de espionaje. Yu Tsun, profesor chino al servicio del espionaje alemán en Inglaterra, sabe que lo van a detener en horas y tiene que transmitir a Berlín el nombre de una ciudad donde está el parque de artillería británico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No tiene radio, ni contacto, ni manera de mandar un mensaje. Coge un tren, con su perseguidor pisándole los talones, y va a casa de un desconocido: un sinólogo inglés llamado Stephen Albert que resulta llevar años estudiando a su bisabuelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El bisabuelo había dejado dos cosas al morir: una novela caótica e incomprensible, y la noticia de que estaba construyendo un laberinto en el que se perdieran todos los hombres. Nunca se encontró el laberinto.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que descubrió Albert",
+          frase: "La novela y el laberinto son la misma cosa. El libro es incomprensible porque en cada encrucijada el personaje no elige: ocurren todas las opciones a la vez, y cada una abre su propia continuación. Es un laberinto de tiempo, no de espacio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En una bifurcación, un personaje puede matar a su visitante y también recibirlo como amigo. Los dos sucesos son reales, en series de tiempo distintas que a veces se rozan y a veces no. En unas somos enemigos y en otras amigos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cuento se publicó en 1941. La interpretación de los muchos mundos en física cuántica, que propone algo formalmente parecido, la formuló Hugh Everett en 1957, dieciséis años después y sin haber leído a Borges.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Borges no estaba adelantándose a la física: estaba jugando con una idea sobre el tiempo que le venía de sus lecturas filosóficas. Que la física acabara proponiendo una estructura parecida es de esas coincidencias que él habría usado en un cuento.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el final del relato es de una crueldad perfecta. Yu Tsun, después de esa conversación con el hombre que ha entendido a su bisabuelo mejor que nadie, lo mata de un tiro. Porque su apellido es Albert, que es el nombre de la ciudad que hay que bombardear.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El asesinato sale en los periódicos, Berlín lo lee y entiende el mensaje. Un hombre muere para que un nombre aparezca en una noticia. Es la solución más elegante y más fría posible a un problema de espionaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la segunda parte del libro hay otro relato con esa mecánica, La muerte y la brújula, que es un cuento policial en el que el detective resuelve una serie de crímenes descifrando un patrón cabalístico perfecto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el patrón existe porque su enemigo lo ha construido expresamente para que él lo descifre y acuda al lugar exacto donde lo están esperando para matarlo. El detective muere por ser inteligente, que es la burla más borgiana que se puede hacer al género.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El milagro secreto",
+          frase: "Un escritor judío condenado a muerte en Praga en 1939 pide a Dios un año para terminar su obra. Ante el pelotón, el tiempo se detiene. Tiene su año entero, inmóvil, sin poder mover un dedo, componiendo el drama en su cabeza. Lo termina y las balas salen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es de los pocos cuentos del libro con emoción declarada, y no es casualidad que esté escrito en 1943, mientras pasaba en Europa lo que estaba pasando y él lo seguía desde Buenos Aires con una angustia que sus cuentos no suelen dejar ver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro cuento con corazón es Funes el memorioso, sobre un muchacho uruguayo que se cae de un caballo, queda paralítico y despierta con una memoria absoluta: recuerda cada hoja de cada árbol que ha visto, y cada vez que la ha visto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y eso, que suena a superpoder, el cuento lo presenta como una discapacidad terrible: Funes no puede pensar. Pensar es olvidar diferencias, generalizar, abstraer. Para él, el perro de las tres y catorce visto de perfil no es el mismo que el de las tres y cuarto visto de frente.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es probablemente la mejor descripción que existe en literatura de por qué la memoria perfecta sería una condena, y se ha citado en trabajos de psicología cognitiva sobre casos reales de memoria autobiográfica extrema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cierra el volumen El Sur, que es el cuento que el propio Borges consideraba quizá el mejor que había escrito, y el único abiertamente autobiográfico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un bibliotecario de Buenos Aires se golpea la cabeza con el borde de una ventana abierta subiendo una escalera. Sí: exactamente lo que le pasó a él en 1938.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el cuento, el hombre pasa por un sanatorio y después viaja al sur, a una llanura, donde un desconocido lo provoca y acaba saliendo a un duelo a cuchillo que no sabe pelear y en el que va a morir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el texto deja abierta la posibilidad de que nada de eso ocurra: que el hombre esté muriéndose en el sanatorio y esté soñando la muerte que habría elegido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una muerte al aire libre, con un arma en la mano, como los antepasados militares de su familia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En vez de la que le tocaba a él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que era morirse en una cama, entre libros, y ciego.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Los dones de la noche",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La ceguera venía de familia. Su padre se quedó ciego, y su abuela paterna también. Borges lo supo desde joven y lo vio venir despacio, a lo largo de décadas, con operaciones que no sirvieron de mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1955, después de la caída de Perón, el nuevo gobierno lo nombró director de la Biblioteca Nacional de Argentina, con novecientos mil volúmenes a su cargo. Para entonces ya no podía leer.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La ironía que él mismo escribió",
+          frase: "Nadie rebaje a lágrima o reproche esta declaración de la maestría de Dios, que con magnífica ironía me dio a la vez los libros y la noche. Lo escribió al tomar posesión del cargo, y es probablemente la mejor definición de su vida entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Descubrió además que dos de los directores anteriores de esa misma biblioteca habían sido también ciegos. La coincidencia le pareció digna de un cuento suyo, y así lo dijo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí escribió dictando, y su obra cambió: poemas y cuentos más cortos, porque tenía que retenerlos en la cabeza antes de dictarlos. La prosa laberíntica de Ficciones no se puede componer sin poder releer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene aclarar esto, porque es de lo que más se confunde: Ficciones no lo escribió ciego. Lo escribió viendo, en los años cuarenta, en el sótano de una biblioteca de barrio. La ceguera total llegó después.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El reconocimiento internacional le llegó tarde y de golpe. En 1961 compartió con Samuel Beckett un premio de editores europeos, y a partir de ahí se tradujo a todas partes. Tenía sesenta y dos años y llevaba veinte publicando lo mejor de su obra sin que casi nadie fuera de Argentina lo leyera.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Nobel no se lo dieron nunca. Estuvo candidato durante décadas, y la explicación que se repite siempre es política, y aquí hay que decirla entera porque forma parte de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1976 aceptó una condecoración del gobierno de Pinochet en Chile y elogió públicamente a los militares argentinos que acababan de dar un golpe de Estado. Dijo cosas indefendibles sobre la necesidad de un gobierno de espadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Años después rectificó. Cuando se supo la magnitud de las desapariciones, firmó peticiones, asistió a las audiencias del juicio a las juntas militares y escribió que se había equivocado. Pero el daño estaba hecho y él mismo dijo que no tenía disculpa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de eso está en Ficciones ni cambia lo que el libro es. Y omitirlo al hablar de él sería contar media historia, que es justamente lo que este tipo de resúmenes no debería hacer.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Dónde falla el libro",
+          frase: "Es frío por decisión, no por descuido. No hay personajes con interior, no hay mujeres, no hay cuerpos ni deseo, y la emoción está tan controlada que asoma solo en dos o tres cuentos. Quien lea buscando conmoverse va a salir con las manos vacías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo reparo es que algunos cuentos son ejercicios. Hay dos o tres en el volumen que son puro mecanismo, y cuando se descubre el truco no queda nada debajo, cosa que no pasa con los seis o siete grandes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es que exige un tipo de lector concreto: el que disfruta viendo cómo encaja una idea. Quien lea por la historia se aburrirá, y no por falta de nivel, sino porque el libro no está haciendo eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el cuarto, menor pero real: la erudición postiza puede leerse como una manera de intimidar. Las citas falsas y las notas eruditas son una broma, y a quien no le pillen la broma le producirán la sensación de no estar a la altura.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahora lo que casi todo el mundo cree y no es verdad. Lo primero: que Borges escribió novelas. No escribió ninguna, nunca, en toda su vida. Ficciones es un libro de cuentos, y él consideraba la novela una forma innecesariamente estirada.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo: que es un libro difícil. Es un libro corto y escrito con una prosa exactísima, sin una palabra de más. Lo que exige no es esfuerzo de lectura: es aceptar que la idea importa más que los personajes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tercero: que hay que leerlo entero y por orden. No hace falta. Cada cuento es independiente y se puede empezar por Las ruinas circulares, que tiene ocho páginas y contiene todo lo que hace Borges.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarto: que ganó el Nobel. No lo ganó, y esa ausencia se cita como uno de los errores más comentados de la historia del premio, junto con la de Tolstói y la de Joyce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y quinto: que estaba ciego cuando lo escribió. La imagen del bibliotecario ciego imaginando bibliotecas infinitas es preciosa y es posterior en más de una década.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda, después de todo, son diecisiete cuentos escritos por un empleado municipal infeliz que se había dado un golpe en la cabeza y tenía miedo de haber perdido la cabeza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que inventó una manera de escribir consistente en comentar libros que no existen, porque escribirlos le parecía una pérdida de tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que en ocho páginas sobre un hombre que sueña a otro hombre dejó dicho, sin decirlo, casi todo lo que se puede decir sobre lo poco seguros que estamos de existir.",
+        },
+      ],
+    },
+  ],
+};

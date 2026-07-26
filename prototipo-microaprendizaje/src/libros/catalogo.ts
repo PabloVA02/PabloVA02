@@ -139,7 +139,7 @@ export const CATALOGO: Ficha[] = [
   { id: "nombre-rosa", titulo: "El nombre de la rosa", autor: "Umberto Eco", ano: 1980, categoria: "Literatura", estado: "escrito" },
   { id: "casa-espiritus", titulo: "La casa de los espíritus", autor: "Isabel Allende", ano: 1982, categoria: "Literatura", estado: "pendiente" },
   { id: "pedro-paramo", titulo: "Pedro Páramo", autor: "Juan Rulfo", ano: 1955, categoria: "Literatura", estado: "escrito" },
-  { id: "ficciones", titulo: "Ficciones", autor: "Jorge Luis Borges", ano: 1944, categoria: "Literatura", estado: "pendiente" },
+  { id: "ficciones", titulo: "Ficciones", autor: "Jorge Luis Borges", ano: 1944, categoria: "Literatura", estado: "escrito" },
   { id: "viejo-mar", titulo: "El viejo y el mar", autor: "Ernest Hemingway", ano: 1952, categoria: "Literatura", estado: "escrito" },
   { id: "guardian-centeno", titulo: "El guardián entre el centeno", autor: "J. D. Salinger", ano: 1951, categoria: "Literatura", estado: "escrito" },
   { id: "cuentos-poe", titulo: "Cuentos de Edgar Allan Poe", autor: "Edgar Allan Poe", ano: 1845, categoria: "Literatura", estado: "pendiente" },
