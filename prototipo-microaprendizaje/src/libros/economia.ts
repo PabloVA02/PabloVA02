@@ -6380,3 +6380,620 @@ export const REPENSAR_POBREZA: Resumen = {
     },
   ],
 };
+
+export const PASEO_ALEATORIO: Resumen = {
+  id: "paseo-aleatorio",
+  titulo: "Un paseo aleatorio por Wall Street",
+  autor: "Burton Malkiel",
+  ano: 1973,
+  gancho:
+    "Un mono con los ojos vendados tirando dardos a las páginas de bolsa elige una cartera tan buena como la de los expertos. Lleva cincuenta años sin que nadie lo desmienta del todo.",
+  porQue:
+    "Es el libro que explica por qué casi todo lo que se cobra por gestionar tu dinero no vale lo que cuesta, y lo demuestra con datos en vez de con indignación. Sirve igual para invertir que para desconfiar de cualquiera que prometa predecir el futuro.",
+  partes: [
+    {
+      titulo: "El mono con los ojos vendados",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1973, un profesor de economía de Princeton llamado Burton Malkiel publicó un libro con una frase que lo perseguiría el resto de su vida: un mono con los ojos vendados lanzando dardos a las páginas financieras de un periódico podría elegir una cartera tan buena como la de los expertos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No era una boutade de académico que nunca ha pisado un parqué. Malkiel había trabajado antes en Wall Street, en la banca de inversión, y había estado en el consejo de administración de varias empresas. Escribía desde dentro y contra la casa en la que había vivido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro va por su decimotercera edición y se ha ido reescribiendo cada pocos años. Eso importa, porque significa que su autor ha tenido que enfrentarse en público a la burbuja puntocom, a la crisis de las hipotecas y a las criptomonedas, sin poder borrar lo que había escrito antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tesis se llama hipótesis del paseo aleatorio, y conviene entenderla bien porque casi siempre se cuenta mal. No dice que la bolsa sea un casino ni que los precios sean caprichosos. Dice algo más preciso y más incómodo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué significa paseo aleatorio",
+          frase: "Que los cambios futuros del precio no se pueden deducir de los pasados. Si toda la información conocida ya está metida en la cotización de hoy, lo único que puede moverla mañana son noticias nuevas, y las noticias nuevas son, por definición, impredecibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fíjate en la consecuencia: el mercado no es aleatorio porque sea tonto, sino porque es rápido. Cuanta más gente lista esté buscando gangas, antes desaparecen las gangas, y menos queda por descubrir para el que llega después. La eficiencia es un resultado de la competencia, no un milagro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Malkiel divide a los inversores en dos escuelas que llevan un siglo peleándose, y les pone nombres que se han quedado. Una es la de los cimientos firmes; la otra, la de los castillos en el aire. Se odian, y él sostiene que las dos se equivocan por motivos distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escuela de los cimientos firmes cree que cada acción tiene un valor intrínseco calculable a partir de los beneficios futuros de la empresa, y que invertir consiste en comprar por debajo de ese valor. Es la doctrina de Benjamin Graham en El inversor inteligente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escuela de los castillos en el aire viene de Keynes, que además de economista fue un especulador muy activo. Su idea es que no importa lo que valga una acción, sino lo que la gente vaya a creer que vale mañana. Invertir es adivinar la psicología de los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Keynes lo explicó con un concurso de belleza de periódico, de los que se hacían en su época. Ganaba quien acertara las caras más votadas por el resto de lectores, así que lo racional no era elegir a la más guapa, sino a la que los demás creerían que los demás elegirían.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese es el problema entero de la bolsa en una imagen. Si todo el mundo está adivinando lo que adivinarán los demás, el precio puede alejarse muchísimo de cualquier valor real y sostenerse ahí durante años sin que nada se rompa.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase del mono tuvo una consecuencia práctica que Malkiel no esperaba. En 1988, el Wall Street Journal montó un concurso: cuatro analistas profesionales elegían acciones y los periodistas lanzaban dardos a las cotizaciones colgadas en un tablero. Duró catorce años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado, en las cien rondas que se llegaron a jugar, fue que los profesionales ganaron sesenta y una veces. Parece una derrota clara de Malkiel, y aquí es donde el libro se gana el respeto, porque él mismo explica por qué ese resultado no vale lo que parece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer problema es el riesgo. Los analistas elegían valores mucho más volátiles que los dardos, y en un mercado alcista lo volátil sube más. Comparar rentabilidades sin ajustar por riesgo es comparar dos cosas distintas y darle el premio a la más arriesgada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es más divertido. Un estudio de finales de los noventa demostró que las acciones recomendadas subían una media de cuatro puntos porcentuales en los dos días siguientes a publicarse el concurso, solo por el efecto del anuncio. Los profesionales competían con el periódico de su lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y el tercero: los dardos también le ganaron al índice de referencia en menos ocasiones de las que perdieron. Es decir, ninguna de las dos carteras superaba de forma fiable al mercado entero, que es exactamente lo que la hipótesis predice.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir también lo que Malkiel no sostiene, porque se le atribuye constantemente. No dice que nadie pueda batir al mercado nunca. Dice que casi nadie lo hace de forma sostenida, que no se puede saber de antemano quién será, y que el que lo consigue no suele repetir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni siquiera niega que existan Warren Buffett o Jim Simons. Su argumento es estadístico: con decenas de miles de gestores compitiendo, algunos van a tener rachas espectaculares por puro azar, igual que en una sala con diez mil personas lanzando monedas alguien sacará diez caras seguidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta correcta no es si existen ganadores, sino si se pueden identificar antes y no después. Y ahí los datos son bastante crueles con la industria que vive de decir que sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de llegar a los datos, el libro dedica su parte más divertida a otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A demostrar que esto lleva pasando cuatro siglos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que siempre se cuenta la misma historia.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Tulipanes, mares del Sur y puntocom",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo de las burbujas es el que más se lee y el que mejor funciona en voz alta. Malkiel las pone en fila para enseñar que no son accidentes raros, sino un comportamiento recurrente que aparece en cuanto se juntan dinero barato, una historia nueva y la sensación de llegar tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera de la lista es la tulipomanía holandesa de los años treinta del siglo diecisiete. Los bulbos con vetas de colores, producidas en realidad por un virus, se pusieron de moda entre la burguesía de Ámsterdam y sus precios subieron durante tres años seguidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hacia el final se llegó a pagar por un solo bulbo el equivalente a varias veces el salario anual de un artesano, y se firmaban contratos de compra a futuro por bulbos que todavía estaban bajo tierra. En febrero de 1637 una subasta en Haarlem se quedó sin compradores y el precio se hundió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí hay que meter una corrección importante, porque el relato popular está inflado. La investigación histórica de las últimas décadas, sobre todo el trabajo de Anne Goldgar con los archivos notariales, muestra que el desastre fue mucho más pequeño de lo que se cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El comercio de bulbos afectaba a un grupo reducido de comerciantes acomodados, casi nadie se arruinó de verdad, no hubo suicidios documentados y la economía holandesa siguió creciendo. Las historias de criados comiéndose un bulbo por error vienen de panfletos moralizantes de la época.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso no anula la lección: sigue siendo cierto que un precio se multiplicó por veinte y volvió a caer. Lo que enseña la corrección es que las historias sobre burbujas también son burbujas, y que se hinchan cada vez que se cuentan.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda es la burbuja de los Mares del Sur, en el Londres de 1720. La Compañía de los Mares del Sur tenía el monopolio del comercio con la América española, que en la práctica era casi inexistente, y se dedicó sobre todo a canjear deuda del Estado por sus propias acciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La acción pasó de ciento veintiocho libras en enero a más de mil en verano y volvió a ciento cincuenta en diciembre. En la estela salieron decenas de empresas absurdas, y la más citada es la que se anunció para llevar a cabo una empresa de gran ventaja sin decir cuál.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entre los arruinados estaba Isaac Newton, que vendió con ganancias, vio subir el precio, volvió a entrar arriba y perdió unas veinte mil libras, una fortuna. Se le atribuye la frase de que podía calcular el movimiento de los astros pero no la locura de la gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lista sigue con la fiebre inmobiliaria de Florida en los años veinte, el crac de 1929, las cincuenta acciones de moda de los primeros setenta que se compraban a cualquier precio, y el lunes negro de octubre de 1987, cuando el mercado estadounidense cayó un veintidós por ciento en una sesión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1987 pasó algo que conviene retener: no hubo noticia. Nadie ha encontrado nunca el acontecimiento que justificara aquella caída. Los precios se movieron una quinta parte en un día sin que cambiara nada del mundo real, lo cual es un problema serio para la versión ingenua de la eficiencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La burbuja puntocom la añadió en la edición de 2003, y es la que cuenta con más rabia porque la vio de cerca. Empresas sin beneficios ni ingresos salían a bolsa y multiplicaban su valor el primer día solo por llevar un punto com en el nombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Da ejemplos que hoy parecen inventados. Una cadena de pizzas cambió su nombre a algo con sonido tecnológico y su acción subió; varias empresas anunciaron simplemente que se pasaban a internet y doblaron su cotización sin haber cambiado nada de lo que hacían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y describe el papel de los analistas, que es la parte más sucia. Los que trabajaban en bancos de inversión recomendaban comprar acciones que en sus correos internos llamaban basura, porque sus bancos cobraban por sacar a bolsa a esas mismas empresas. Hubo multas y no hubo cárcel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta burbuja de la lista es la inmobiliaria estadounidense, incorporada en la edición posterior a 2008. Ahí el mecanismo fue distinto y peor, porque se apalancó: no era gente comprando acciones con sus ahorros, sino comprando casas con dinero prestado que no podía devolver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El patrón que Malkiel extrae de las cinco es siempre el mismo y merece la pena tenerlo escrito. Primero hay un cambio real que justifica el entusiasmo inicial: los tulipanes existían, internet existía, las casas suben cuando bajan los tipos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Segundo, aparece una historia sencilla que explica por qué esta vez es diferente. Tercero, la subida atrae a gente que compra solo porque está subiendo, sin ninguna opinión sobre el valor. Y cuarto, se agotan los compradores nuevos, que es lo único que hace falta para que se caiga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que el libro no promete, y aquí es honesto hasta el final, es un método para detectarlas a tiempo. Reconoce que él mismo no supo cuándo iba a estallar la puntocom, y que decir que algo está caro no dice nada de cuándo dejará de subir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Keynes lo formuló mejor que nadie: el mercado puede permanecer irracional más tiempo del que tú puedes permanecer solvente. Es la razón de que apostar contra una burbuja arruine a más gente que subirse a ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este es también el punto donde el libro conecta con El cisne negro, de Taleb, que está en esta biblioteca y que discute con él: Taleb sostiene que los modelos de riesgo subestiman sistemáticamente los sucesos extremos, y esa crítica va contra la parte matemática de Malkiel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la historia contada, toca la pregunta práctica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "¿Sirve de algo pagarle a alguien para que lo prediga?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la respuesta ocupa la mitad del libro.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las dos maneras de fallar el pronóstico",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay dos oficios que viven de predecir la bolsa, y Malkiel los desmonta uno detrás de otro con la misma pregunta: enséñame el historial. El primero es el análisis técnico, que consiste en buscar figuras en los gráficos de precios y deducir de ellas hacia dónde irá la cotización.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El vocabulario del gremio es maravilloso: hombro-cabeza-hombro, doble suelo, banderas, triángulos ascendentes, líneas de soporte y de resistencia. Todo eso se dibuja sobre un gráfico y se explica después con una seguridad absoluta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento que Malkiel hacía con sus alumnos de Princeton es la mejor refutación que se ha escrito. Les daba un gráfico de precios construido lanzando una moneda: cara sube medio punto, cruz baja medio punto, y así doscientas veces seguidas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El gráfico de la moneda",
+          frase: "Los gráficos salían llenos de tendencias, canales, suelos y cabezas con hombros. Se los enseñó a un chartista profesional, que le recomendó comprar inmediatamente. Cuando le dijo que era una moneda, el hombre se enfadó y le pidió que no volviera a hacerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto no es que los chartistas sean estafadores, sino algo más interesante: el cerebro humano encuentra figuras en cualquier serie de datos, incluso en una construida por azar puro. La ausencia de patrón se ve como patrón, y eso no se corrige con experiencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los estudios académicos que han probado reglas técnicas sistemáticas —comprar cuando el precio suba un tanto por ciento, vender cuando baje otro— encuentran que antes de comisiones a veces ganan un poco, y que después de comisiones pierden frente a comprar y no tocar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle de las comisiones es clave y se repetirá toda la segunda mitad del libro. Cualquier estrategia que exija operar mucho tiene que superar al mercado por un margen suficiente para pagar cada compra, cada venta y cada impuesto, y muy pocas lo consiguen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo oficio es el análisis fundamental, y con este Malkiel es más respetuoso porque al menos estudia la empresa. Se trata de estimar los beneficios futuros, descontarlos a hoy y comprar cuando el precio esté por debajo. Suena impecable y tiene un problema empírico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es que las previsiones de beneficios de los analistas son notablemente malas. Cuando se comparan sus estimaciones a cinco años con lo que realmente ocurrió, no aciertan más que una regla tonta que consista en suponer que la empresa crecerá como la economía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una razón estructural, no de talento. El futuro de una empresa depende de cosas que nadie puede meter en una hoja de cálculo: un competidor nuevo, un pleito, una regulación, un directivo que se equivoca. Ninguna cantidad de análisis convierte eso en previsible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La teoría que ordena todo esto se llama hipótesis del mercado eficiente y la formuló Eugene Fama en 1970, en tres grados que conviene distinguir porque la discusión pública los mezcla siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La forma débil dice que los precios pasados no predicen los futuros, y eso hunde al análisis técnico. La forma semifuerte dice que toda la información pública ya está en el precio, y eso limita mucho al análisis fundamental. La forma fuerte añade la información privada, y esa casi nadie la defiende.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contra esto se levantó desde los años ochenta la escuela de las finanzas conductuales, que tiene su propio Nobel y sus propios datos. Su argumento es que los inversores no son racionales de manera sistemática, y que esos sesgos mueven los precios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El catálogo de sesgos que Malkiel resume en las ediciones nuevas viene directamente de Pensar rápido, pensar despacio: exceso de confianza, aversión a las pérdidas, anclaje en el precio de compra, comportamiento de rebaño y la manía de vender lo que sube y quedarse lo que baja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Robert Shiller añadió el ataque más serio, que es cuantitativo: los precios de las acciones se mueven muchísimo más de lo que se mueven los dividendos que supuestamente representan. Si el precio fuera el valor de los flujos futuros, no debería oscilar tanto. Lo llamó exceso de volatilidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2013, la Academia sueca hizo algo insólito: dio el mismo Nobel de Economía a Fama, que sostiene que los precios son eficientes, y a Shiller, que sostiene que son irracionales y previsiblemente exagerados. Compartieron el premio defendiendo tesis opuestas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta de Malkiel a esa contradicción es la parte más fina de su libro, y no es la que se espera. Concede casi todo lo que dice Shiller: los mercados cometen errores, y a veces enormes y prolongados. Y sostiene que eso no cambia la conclusión práctica.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su argumento es que un mercado puede ser irracional y aun así invencible, porque los errores solo se ven claros mirando hacia atrás. Saber que hay burbujas no te dice cuál es una burbuja ahora, ni cuánto tiempo le queda.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A eso le añade el dato que decide la discusión, y que no depende de ninguna teoría. Año tras año, y con seguimientos que ya cubren dos décadas, entre el setenta y el noventa por ciento de los fondos de gestión activa quedan por debajo de su índice de referencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la proporción empeora cuanto más largo es el plazo, porque las comisiones se acumulan y porque los fondos que van mal se cierran o se fusionan y desaparecen de las estadísticas, un efecto llamado sesgo de supervivencia que hace que las cifras publicadas sean todavía demasiado amables.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con ese diagnóstico, la pregunta cambia por completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si no puedes controlar la rentabilidad, ¿qué puedes controlar?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Resulta que tres cosas, y las tres son aburridas.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Lo único que está en tu mano",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La parte práctica del libro parte de una idea de aritmética elemental que William Sharpe formuló en 1991 en dos páginas y que nadie ha logrado refutar, porque no es una teoría económica sino una identidad matemática.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La aritmética de la gestión activa",
+          frase: "Todas las acciones están en manos de alguien. Luego la rentabilidad media de todos los inversores, antes de costes, es exactamente la del mercado. Después de costes, el conjunto de los gestores activos tiene que rendir por debajo del mercado, y por la cuantía de lo que cobran.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esto no depende de que los gestores sean listos o tontos: es una consecuencia de que la suma de las partes sea el todo. Como grupo no pueden ganar, así que la única discusión posible es si tú sabrás elegir de antemano a los pocos que sí ganan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la primera de las tres cosas que sí controlas: el coste. Y la magnitud es mucho mayor de lo que la gente intuye, porque una comisión no se resta una vez, se resta todos los años y sobre un capital que va creciendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un ejemplo con números redondos lo deja claro. Diez mil euros al siete por ciento anual durante treinta años se convierten en unos setenta y seis mil. Los mismos diez mil al cinco por ciento, porque un dos por ciento se lo lleva la gestora, se quedan en unos cuarenta y tres mil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: una comisión que en el folleto parece pequeña se ha comido cerca de la mitad de lo que habrías tenido. Y la gestora se lo lleva gane o pierda, mientras que el riesgo lo pones tú entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La solución que propone existía cuando escribió la primera edición y prácticamente nadie la ofrecía: un fondo que se limite a comprar todas las acciones del índice en su proporción y no haga nada más. Sin analistas, sin previsiones y con una comisión mínima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1976, John Bogle lanzó en Vanguard el primer fondo indexado para pequeños inversores. La industria lo recibió con burlas: lo llamaron la locura de Bogle y alguna gestora publicó carteles diciendo que conformarse con la media era antiamericano. Recaudó once millones cuando esperaba ciento cincuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hoy los fondos indexados y sus primos cotizados gestionan más dinero que la gestión activa en la bolsa estadounidense. Es probablemente el cambio más grande que ha vivido el sector, y salió de un libro académico y de un gestor tozudo, no de una innovación financiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda cosa que controlas es la diversificación, y aquí hay un matiz que se pierde en las conversaciones de bar. Diversificar no reduce la rentabilidad esperada: reduce la parte del riesgo que no te paga nada por asumirla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El riesgo de que una empresa concreta quiebre se elimina teniendo muchas, y el mercado no te compensa por correrlo, precisamente porque podías haberlo eliminado gratis. Lo único que se paga es el riesgo que no se puede quitar de ninguna manera, el del mercado entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí la advertencia más práctica del libro para cualquiera que trabaje por cuenta ajena: no tengas acciones de tu propia empresa. Si quiebra pierdes el empleo y los ahorros a la vez, que es justo lo contrario de diversificar. Los empleados de Enron lo aprendieron todos juntos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es el plazo, y va unida a la edad. Su regla, deliberadamente tosca, es que el porcentaje de renta fija se parezca a tu edad, y que un joven de veinticinco años con cuarenta años por delante puede permitirse estar casi entero en bolsa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La razón no es que la bolsa sea menos arriesgada a largo plazo —eso es un error frecuente— sino que el horizonte determina si te vas a ver obligado a vender en el peor momento. Quien no necesita el dinero en diez años puede aguantar una caída; quien lo necesita en dos, no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre las aportaciones periódicas es más honesto que la mayoría de los libros de inversión. Recomienda invertir una cantidad fija cada mes, y reconoce a la vez que, matemáticamente, meter todo el dinero de golpe rinde más de media, porque el mercado sube más días de los que baja.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entonces, ¿por qué recomienda lo peor? Porque protege del comportamiento, que es el enemigo real. Aportar todos los meses de forma automática evita la decisión de si es buen momento, y esa decisión es la que arruina las carteras.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es el mismo argumento que sostiene La psicología del dinero, de Morgan Housel, en esta biblioteca: un plan mediocre que se cumple durante treinta años bate a un plan óptimo que se abandona a los dos.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añade el reequilibrio, que suena técnico y es sencillo. Una vez al año se recolocan los porcentajes a los objetivos, lo cual obliga mecánicamente a vender un poco de lo que ha subido y comprar de lo que ha bajado, sin tener que opinar sobre nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y dedica un capítulo entero a los impuestos, que es lo que más se olvida. Un fondo que rota su cartera constantemente va materializando plusvalías y pagando por ellas, mientras que uno que no toca nada deja el dinero compuesto trabajando sin peaje anual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sumando las cuatro palancas —coste, diversificación, plazo e impuestos—, el consejo cabe en una frase: compra el mercado entero lo más barato que puedas, aporta siempre lo mismo, no mires y no lo toques.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un consejo aburridísimo y por eso es difícil de vender.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda saber en qué se equivoca el propio libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que es la parte que casi nadie cuenta.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Dónde cojea el paseo aleatorio",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Empecemos por el nombre, porque el propio Malkiel ha tenido que ir matizándolo edición tras edición. La bolsa no es un paseo aleatorio en sentido estricto: tiene una deriva al alza a largo plazo y hay un poco de estructura predecible que la teoría pura no admitiría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se han encontrado regularidades que duran décadas y que se llaman anomalías. Las empresas pequeñas han rendido más que las grandes; las baratas respecto a sus activos, más que las caras; y las que llevan meses subiendo tienden a seguir subiendo unos meses más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Fama, que formuló la eficiencia, acabó publicando con Kenneth French modelos de tres y de cinco factores para recoger esas regularidades. Es decir: el padre de la hipótesis reconoció que el mercado tiene más estructura de la que él mismo había dicho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Malkiel responde con dos argumentos, y el primero es fuerte. Muchas anomalías son en realidad primas de riesgo disfrazadas: las empresas pequeñas y las baratas rinden más porque tienen más probabilidad de quebrar, y cobrar por asumir riesgo no es batir al mercado, es que te paguen por sufrir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo argumento es todavía mejor y está respaldado por datos. Cuando se estudian cientos de anomalías publicadas en revistas académicas, resulta que su rentabilidad se reduce sustancialmente después de que el artículo se publique, y que buena parte desaparece del todo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La anomalía que se suicida",
+          frase: "En cuanto una regularidad se publica, la gente la explota; al explotarla, los precios se ajustan; y al ajustarse, la regularidad deja de existir. El mercado se come sus propias grietas, que es exactamente lo que la teoría de la eficiencia predice que debe pasar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema teórico que Malkiel menciona menos de lo que debería, y que se conoce como la paradoja de Grossman y Stiglitz. Si los precios ya reflejaran toda la información, nadie tendría incentivo para investigar nada, y entonces la información no llegaría a los precios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión de esa paradoja es elegante: el mercado no puede ser perfectamente eficiente, porque necesita que haya suficientes analistas ganando lo bastante como para que les compense seguir buscando. La eficiencia se sostiene sobre gente que cree que puede batirla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo punto donde el libro cojea es la conducta del propio autor, y hay que decirlo porque él no siempre lo dice. Malkiel ha sido consejero de Vanguard, la mayor gestora de fondos indexados, y director de inversiones de una empresa de gestión automatizada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no invalida sus datos, que están comprobados por otros muchos, pero sí obliga a leer los capítulos prácticos sabiendo que quien los escribe cobra del producto que recomienda. Es exactamente la clase de conflicto de interés que él denuncia en los analistas de la puntocom.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer punto es el sesgo geográfico y temporal. Casi todos los datos del libro son de la bolsa estadounidense del siglo veinte, que es el mercado más exitoso de la historia. Un japonés que compró el índice de su país en 1989 tardó treinta y cuatro años en recuperar su dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso se llama sesgo del superviviente aplicado a países enteros, y es una objeción seria contra la promesa de que a largo plazo la bolsa siempre sube. Siempre ha subido en el sitio donde se hicieron los estudios, que no es lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto es una preocupación nueva que las últimas ediciones ya recogen: si todo el mundo indexa, ¿quién pone los precios? Si nadie analiza empresas, las cotizaciones dejan de reflejar información y la indexación se estaría comiendo la eficiencia de la que depende.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta es razonable: todavía queda muchísimo dinero activo, y el volumen de negociación diaria lo mueven sobre todo operadores que sí analizan. Pero es una respuesta empírica, no un principio, y podría dejar de valer si la proporción sigue subiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una quinta objeción, la de Nassim Taleb en El cisne negro, que ataca los cimientos matemáticos. Los modelos que usan estos libros suponen que los rendimientos se distribuyen de forma más o menos normal, y en la realidad los extremos ocurren muchísimo más de lo que esa curva permite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El lunes negro de 1987 fue, según los modelos estándar, un suceso que no debería ocurrir ni una vez en la edad del universo. Ocurrió un lunes. Cuando un modelo dice eso de un dato real, el problema está en el modelo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo interesante es que ninguna de estas cinco objeciones toca el consejo práctico. Se puede aceptar que el mercado es irracional, que la curva está mal y que Estados Unidos tuvo suerte, y seguir sin encontrar a nadie capaz de decirte por adelantado qué fondo va a ganar.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está la fuerza rara de este libro: su conclusión no depende de que su teoría sea cierta. Depende solo de una observación repetida durante cincuenta años, que es que la gestión activa cobra por adelantado un valor que entrega muy pocas veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene también decir para quién no es este libro. Si alguien busca hacerse rico deprisa, aquí no hay nada: la propuesta es una rentabilidad media durante décadas, que es la definición misma de lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y le falta casi por completo la parte que en El inversor inteligente de Graham está mejor tratada: qué hacer con el miedo. Malkiel explica muy bien por qué no debes vender en una caída del cuarenta por ciento, y no explica cómo se aguanta eso cuando está pasando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su gran aportación es haber convertido una discusión académica en una decisión doméstica: cuánto te están cobrando y por qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pregunta la puede hacer cualquiera con el extracto delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y es la que casi nadie hace.",
+        },
+      ],
+    },
+  ],
+};
