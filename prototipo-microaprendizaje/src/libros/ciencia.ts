@@ -8310,3 +8310,650 @@ export const SEXTA_EXTINCION: Resumen = {
     },
   ],
 };
+
+export const PULGAR_PANDA: Resumen = {
+  id: "pulgar-panda",
+  titulo: "El pulgar del panda",
+  autor: "Stephen Jay Gould",
+  ano: 1980,
+  gancho:
+    "La mejor prueba de la evolución no son los animales perfectos: son las chapuzas. Un hueso de la muñeca convertido en dedo para pelar bambú.",
+  porQue:
+    "Es la respuesta más elegante que existe a quien dice que el ojo es demasiado complejo para haber evolucionado. Y enseña a discutir: el autor pasó la vida peleándose con otro biólogo de esta misma biblioteca, y los dos tenían parte de razón.",
+  partes: [
+    {
+      titulo: "Un sexto dedo que no es un dedo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Un panda gigante come unos veinte kilos de bambú al día y pasa hasta catorce horas comiendo. Para hacerlo agarra el tallo con una mano, lo desliza entre lo que parece un pulgar y el resto de los dedos, y le arranca las hojas de un tirón limpio. Es un gesto preciso y rapidísimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es que ese pulgar no es un pulgar. Cuando se abre la mano de un panda y se mira el esqueleto, aparecen los cinco dedos normales de un oso, todos alineados y todos ocupados en sostener el peso del animal. El sexto elemento está aparte y no es un dedo en absoluto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un hueso de la muñeca llamado sesamoideo radial, que en otros carnívoros es un guisante insignificante y que en el panda se ha alargado hasta el tamaño de un dedo. A su alrededor se han reorganizado músculos y tendones que originalmente hacían otras cosas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué eso es una prueba",
+          frase: "Un ingeniero le habría dado un pulgar de verdad, oponible como el nuestro. La evolución no podía: el pulgar del oso ya estaba comprometido en caminar y no se puede rediseñar sobre la marcha. Así que agrandó lo que tenía a mano, aunque fuera un huesecillo de la muñeca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la tesis del libro entero y Gould la toma prestada de Darwin. En su libro sobre las orquídeas, publicado tres años después de El origen de las especies, Darwin dedicó doscientas páginas a demostrar que sus flores están hechas con piezas robadas a otras funciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí sacó Darwin el argumento que Gould pone de epígrafe: que los arreglos raros y las soluciones chapuceras son la prueba de la evolución, porque son caminos que un dios sensato no habría tomado nunca. La perfección se puede diseñar; la chapuza solo se puede heredar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor de este libro es Stephen Jay Gould, nacido en Queens en 1941. Contaba que a los cinco años su padre lo llevó al Museo de Historia Natural de Nueva York, vio el esqueleto de un tiranosaurio y decidió allí mismo a qué se iba a dedicar. Y se dedicó a eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fue paleontólogo en Harvard y especialista en caracoles fósiles de las Bermudas, que es el tipo de trabajo que nunca sale en los periódicos. Su fama viene de otra parte: durante veintisiete años escribió un ensayo mensual en la revista Natural History sin fallar ni un solo mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fueron trescientos ensayos seguidos, desde 1974 hasta 2001, y él mismo puso el punto final cuando llegó a esa cifra redonda. Este libro es la segunda recopilación de aquella columna, publicada en 1980, y es la que ganó el premio nacional del libro en Estados Unidos.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su método consistía en empezar por algo minúsculo y llegar a algo enorme. Un ensayo arranca con la anchura de la concha de un caracol y termina hablando de por qué el progreso no existe; otro empieza con Mickey Mouse y acaba en la evolución del cráneo humano.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El de Mickey Mouse es de los más famosos y merece contarse. Gould midió los dibujos del ratón desde 1928 hasta los años setenta y encontró que la cabeza le fue creciendo respecto al cuerpo, los ojos se le agrandaron y el hocico se le acortó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: Disney fue haciendo a Mickey progresivamente más infantil, sin plan y por prueba y error comercial, siguiendo exactamente el mismo patrón que los biólogos llaman neotenia. Los rasgos de cría nos despiertan ternura, y una industria entera lo descubrió sin saber por qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ensayo enseña su manera de argumentar: coge un objeto de la cultura popular, lo mide de verdad con datos, y de ahí salta a un principio biológico. Nunca usa el ejemplo como adorno; lo usa como prueba, con la tabla de medidas incluida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tiene otros casos de chapuza que refuerzan la tesis del pulgar. Los ojos de los peces planos, como el lenguado, que nacen simétricos y después uno de ellos migra dando la vuelta al cráneo hasta quedar los dos en el mismo lado, en una posición retorcida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nuestra propia columna vertebral es otro ejemplo: es una viga horizontal de cuadrúpedo puesta de pie, con el peso apoyado sobre discos que no estaban diseñados para eso. De ahí vienen las hernias, las lumbalgias y el hecho de que casi todo el mundo acabe con la espalda mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También está el nervio laríngeo recurrente, que va del cerebro a la laringe dando un rodeo por debajo de la aorta. En una persona son unos treinta centímetros de más; en una jirafa, más de cuatro metros de nervio para conectar dos puntos separados por un palmo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese rodeo tiene explicación histórica: en los peces, ese nervio pasa recto junto a una branquia. Al alargarse el cuello de los vertebrados terrestres, el nervio quedó enganchado y solo pudo estirarse. Nadie lo rediseñó porque no hay nadie que rediseñe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir qué no sostiene Gould con todo esto, porque se malinterpreta. No dice que los seres vivos sean malos ni que la selección natural no funcione: la selección optimiza, y muy bien, dentro de lo que le dejan la herencia y el material disponible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sostiene es que esas restricciones son visibles, y que precisamente lo visible de las restricciones es lo que distingue a un organismo evolucionado de un objeto diseñado. Un buen diseñador borra sus tanteos; la evolución los deja puestos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una consecuencia que a Gould le gustaba subrayar: la historia se lee en el cuerpo. Cada animal lleva encima el registro de por dónde pasaron sus antepasados, y ese registro limita lo que puede llegar a ser. Nadie parte de cero, y por eso hay tantas soluciones raras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El panda además tiene un aparato digestivo de carnívoro: intestino corto, sin las bacterias ni los estómagos múltiples de un herbívoro. Aprovecha alrededor de un quinto de lo que come, y por eso necesita catorce horas de bambú al día. Es otra herencia que no pudo devolver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con esa idea se puede contestar a la objeción más antigua contra Darwin.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que el ojo es demasiado complejo para haber salido del azar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la respuesta no es defender el ojo, sino mirarle el punto ciego.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las rocas que decían la verdad",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1972, dos paleontólogos jóvenes publicaron un artículo que puso patas arriba su disciplina. Uno era Niles Eldredge y el otro Stephen Jay Gould, y el asunto que trataban era un problema que llevaba un siglo incomodando a todo el mundo y que casi nadie quería mirar de frente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es este. Cuando se examina una columna de roca sedimentaria y se van siguiendo los fósiles de una especie hacia arriba, no se ve lo que se esperaría: no hay una transformación gradual y continua. Se ve una especie que aparece, se queda igual millones de años y desaparece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y las formas intermedias entre una especie y la siguiente casi nunca están. A esa ausencia se la llamó desde siempre el problema de los eslabones perdidos, y la respuesta oficial la había dado el propio Darwin: que el registro fósil está incompleto, como un libro al que faltan páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa explicación es en parte cierta, porque fosilizarse es rarísimo y hace falta morir en el sitio exacto. Lo que Eldredge y Gould propusieron fue darle la vuelta a la pregunta: ¿y si el registro no estuviera mintiendo? ¿Y si lo que enseña fuera lo que de verdad pasó?",
+        },
+        {
+          forma: "clave",
+          rotulo: "El equilibrio puntuado",
+          frase: "La historia de una especie no es un cambio continuo: es una larguísima estabilidad interrumpida por episodios cortos de cambio rápido. La mayor parte del tiempo no pasa nada, y las novedades aparecen deprisa y en poblaciones pequeñas apartadas del grueso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mecanismo que proponen no era nuevo y se llama especiación alopátrica. Una población pequeña queda aislada del resto —por un río, una isla, una glaciación—, evoluciona deprisa porque es pequeña y está en un ambiente distinto, y si vuelve a contactar ya es otra especie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y como todo eso ocurre en un sitio periférico y en poco tiempo, es prácticamente imposible que quede registrado en las rocas de donde vivía la población principal. Lo que se encuentra allí es la especie vieja durante millones de años y, de repente, la nueva ya formada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí hay que ser muy preciso con las escalas, porque de esta imprecisión salió un desastre. Rápido, en geología, significa entre unos miles y unas decenas de miles de años. Es un instante en una columna de roca y son cientos de generaciones para el animal que lo vive.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, y esto conviene subrayarlo: el equilibrio puntuado no dice que los cambios ocurran de un salto, ni que nazca un pájaro del huevo de un reptil, ni que la selección natural no sea el motor. Es una tesis sobre el ritmo, no sobre el mecanismo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El desastre fue que los creacionistas estadounidenses se lanzaron sobre el artículo y lo citaron durante décadas como si dos científicos de Harvard hubieran admitido que la evolución gradual no existía y que los eslabones perdidos faltaban de verdad.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gould se pasó años desmintiéndolo con una furia poco habitual en él. Escribió que era triste y aleccionador ver cómo se puede secuestrar un debate técnico entre evolucionistas, y llegó a testificar en juicios contra la enseñanza del creacionismo en escuelas públicas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El episodio deja una lección sobre divulgación que sigue vigente: cualquier matiz interno de una disciplina, sacado de contexto, se convierte en munición para quien niega la disciplina entera. Y quien lo formula tiene que contar con eso al elegir las palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora, ¿cómo ha quedado la teoría cincuenta años después? Hay que decirlo con matices, porque ni triunfó del todo ni se hundió. La parte que ha resistido mejor es la estasis: está muy bien documentado que muchas especies pasan millones de años sin cambiar apreciablemente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso, que parece obvio, no lo era. En la teoría clásica, cualquier población está siempre sometida a presiones de selección y debería ir cambiando poco a poco. Que no lo haga durante cinco millones de años exige una explicación, y esa explicación sigue sin estar cerrada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que se discute mucho más es la generalidad. Hay linajes con un registro claramente gradual, sobre todo entre organismos marinos con buena fosilización, y hay linajes puntuados. El consenso actual es que se dan las dos cosas y que la proporción depende del grupo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También se le ha reprochado a Gould haber presentado su propuesta como una revolución mayor de lo que era. Varios biólogos sostienen que lo que describía ya cabía dentro de la teoría estándar y que él lo vendió como una ruptura por temperamento polémico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí salió, eso sí, una idea suya que ha resultado más fértil y que casi nadie asocia con este debate: la selección de especies. Si las especies nacen, duran y se extinguen como si fueran individuos, entonces puede haber selección actuando también a ese nivel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: no solo sobreviven los individuos más aptos dentro de una especie, sino que sobreviven las especies con rasgos que las hacen menos propensas a extinguirse, como estar repartidas por muchos sitios. Eso es un nivel de selección por encima del organismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese nivel explica cosas que el otro no explica bien. Un rasgo puede ser malísimo para el individuo que lo tiene y bueno para la especie: por ejemplo, una amplitud geográfica grande no le da ninguna ventaja a un caracol concreto, y hace que su linaje aguante una extinción masiva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es exactamente lo que se cuenta en La sexta extinción, de Kolbert, en esta biblioteca: en las catástrofes globales no sobrevive el mejor adaptado a su ambiente, sino el que por casualidad tenía un rasgo que servía para el ambiente siguiente. La aptitud individual deja de mandar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gould llegó a decir que las extinciones masivas son el mejor argumento contra la idea de progreso: cinco veces en la historia se han barajado las cartas de golpe, y lo que quedó encima de la mesa no fue lo mejor sino lo que estaba en el sitio adecuado por casualidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en esa idea está el germen de la pelea más larga de su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque otro biólogo sostenía que la selección actúa por debajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Concretamente, en los genes.",
+        },
+      ],
+    },
+
+    {
+      titulo: "Las enjutas de San Marcos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1979, Gould publicó con el genetista Richard Lewontin un artículo que se ha convertido en uno de los más citados de la biología del siglo veinte, y que empieza con una excursión arquitectónica a la basílica de San Marcos, en Venecia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bajo la cúpula central, en los cuatro rincones donde los arcos se encuentran, hay unos espacios triangulares curvos cubiertos de mosaicos dorados con las figuras de los evangelistas. Están perfectamente compuestos para ese espacio, y encajan de una manera que parece intencionada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta que hacen es esta: ¿se construyeron esos triángulos para poner ahí a los evangelistas? Y la respuesta es que no. Esos espacios aparecen inevitablemente cuando se apoya una cúpula redonda sobre cuatro arcos: son un subproducto geométrico de la decisión de hacer una cúpula.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El error que denuncian",
+          frase: "Mirar una cosa que funciona bien y deducir que existe para eso. Los triángulos no se hicieron para los mosaicos; los mosaicos se hicieron para los triángulos, que ya estaban ahí por razones estructurales. Y en biología se comete ese error constantemente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A ese modo de razonar lo llamaron el programa adaptacionista, y lo describen así: se coge un rasgo, se supone que es una adaptación, y se inventa una historia sobre para qué sirve. Si la historia falla, se inventa otra. Nunca se contempla que el rasgo no sea una adaptación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El artículo llama a esas explicaciones cuentos de por qué, en referencia a los relatos de Kipling sobre cómo el elefante consiguió la trompa y el leopardo las manchas. La acusación es dura: que son narraciones que suenan bien y que no se pueden poner a prueba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus alternativas a la adaptación son varias y todas comprobables. Un rasgo puede ser una consecuencia estructural de otro, como las enjutas. Puede venir de una restricción del desarrollo embrionario. Puede haberse fijado por azar en una población pequeña, que es la deriva genética.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y puede ser lo que Gould llamó después, con Elisabeth Vrba, una exaptación: un rasgo que surgió por una razón y acabó usándose para otra distinta. El ejemplo estándar son las plumas, que aparecen en dinosaurios que no volaban y que probablemente sirvieron primero para el calor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La exaptación es una idea potente porque resuelve la vieja objeción de para qué sirve medio ala. La respuesta es que medio ala no era media ala: era otra cosa completa que hacía otro trabajo, y la función de volar llegó después y aprovechó lo que ya había.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Es exactamente la lógica del pulgar del panda ampliada a todo lo demás. La evolución no proyecta hacia adelante: recicla. Y por eso lo que existe hoy no explica por qué apareció, sino solo por qué se ha conservado.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora toca la crítica, porque este artículo también ha recibido lo suyo y hay que decirlo. La primera objeción es literalmente arquitectónica: varios especialistas señalaron que los elementos de San Marcos no son enjutas sino pechinas, que son otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un detalle menor y a la vez tiene su gracia, porque los autores acusan a otros de contar historias bonitas sin comprobarlas, y ellos habían elegido su ejemplo central sin verificar el término técnico. Gould contestó que la analogía funcionaba igual, y tenía razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción seria es la de Daniel Dennett y Richard Dawkins, y consiste en que Gould y Lewontin atacan un muñeco de paja. Ningún biólogo serio, dicen, sostiene que todo rasgo sea una adaptación; todos saben que existen la deriva, las restricciones y los subproductos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añaden un argumento de fondo que es bastante bueno: que la adaptación merece un trato especial porque es lo único que explica la aparición de estructuras complejas y funcionales, y que renunciar a buscarla como hipótesis principal sería renunciar a explicar el ojo o el ala.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estado actual del asunto es que las dos partes ganaron algo. Nadie escribe hoy un artículo proponiendo una función para un rasgo sin considerar alternativas no adaptativas, y en eso el artículo de 1979 cambió las normas de la disciplina de manera permanente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene añadir un caso donde la advertencia de Gould se ha confirmado por completo, porque no es teórico. Durante décadas se llamó ADN basura al noventa y ocho por ciento del genoma humano que no codifica proteínas, dando por hecho que era chatarra acumulada sin función.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después se ha visto que buena parte de ese material regula cuándo y cuánto se expresan los genes, y que ahí está una parte de lo que nos distingue de un chimpancé con el que compartimos casi todas las proteínas. La etiqueta de basura era un cuento sobre la función, al revés.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro caso donde su aviso vale es el de la psicología evolucionista, la disciplina que explica conductas humanas por adaptaciones del Pleistoceno. Ahí es especialmente fácil construir un relato plausible y especialmente difícil comprobarlo, porque los cerebros no fosilizan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gould fue de sus críticos más duros, y no siempre con buenos modos. Conviene decir que el campo ha mejorado desde entonces: hoy se exigen predicciones comprobables y comparaciones entre culturas, y muchas de las historias de los años ochenta ya no se sostendrían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un límite que él mismo reconoció: si uno rechaza toda explicación adaptativa por no ser demostrable del todo, se queda sin poder explicar nada de lo que la biología existe para explicar. La duda es una herramienta, no un destino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y a la vez, el programa de buscar adaptaciones sigue siendo el motor de la biología evolutiva, y ha producido casi todo lo que se sabe. La lección que queda no es dejar de buscar funciones: es exigir pruebas antes de dar una por buena, que es lo que Gould pedía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese artículo, además, tuvo un efecto secundario que su autor no buscaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se convirtió en el arma favorita de quienes negaban cualquier base biológica de la conducta humana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí Gould tenía una historia personal detrás.",
+        },
+      ],
+    },
+
+    {
+      titulo: "El que mide también tiene sesgos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En diciembre de 1912, la Sociedad Geológica de Londres anunció un hallazgo extraordinario. En una gravera de Piltdown, en el condado de Sussex, habían aparecido fragmentos de un cráneo humano de gran capacidad junto a una mandíbula de aspecto simiesco, en el mismo estrato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquello resolvía de golpe la pregunta que dividía a los antropólogos: qué apareció primero en la evolución humana, el cerebro grande o la postura erguida y la mandíbula moderna. Piltdown decía que el cerebro, y además decía que el primer inglés era el eslabón que faltaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fósil se aceptó durante cuarenta años y desordenó la disciplina entera. Cuando en 1924 apareció en Sudáfrica el niño de Taung, con cerebro pequeño y dientes humanos, se le rechazó por no encajar con Piltdown, y su descubridor pasó dos décadas siendo ignorado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1953, tres investigadores aplicaron pruebas químicas de flúor y descubrieron el fraude. El cráneo era humano moderno y la mandíbula era de orangután, con los dientes limados a mano y todo el conjunto teñido con dicromato de potasio para darle aspecto antiguo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué coló cuarenta años",
+          frase: "Porque decía justo lo que sus destinatarios querían oír. Francia y Alemania tenían fósiles espectaculares y el Reino Unido no tenía ninguno; y la teoría de moda decía que el cerebro había ido primero. Un fraude que confirma dos deseos a la vez no necesita ser muy bueno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gould dedica al asunto un ensayo largo en el que propone que el cómplice del falsificador fue Pierre Teilhard de Chardin, el jesuita y paleontólogo francés, que estuvo en las excavaciones siendo joven. Es su hipótesis y conviene decir que la mayoría de los especialistas no la acepta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los análisis posteriores, incluido un estudio de ADN y de la fabricación de las piezas publicado en 2016, apuntan a Charles Dawson, el abogado aficionado que hizo el hallazgo y del que se sabe que había falsificado otras piezas arqueológicas antes. Teilhard queda sin pruebas en contra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese asunto conecta con la obra que a Gould le importaba más, que no es este libro sino La falsa medida del hombre, publicado un año después, en 1981, y dedicado entero a la historia de las mediciones del cráneo y de los test de inteligencia como instrumentos de jerarquía racial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis allí es que los científicos que midieron cráneos en el siglo diecinueve no mentían a sabiendas: llegaban al laboratorio con la conclusión ya puesta, y sus manos y sus decisiones metodológicas iban ajustando los números sin que ellos se dieran cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo estrella era Samuel George Morton, un médico de Filadelfia que reunió una de las mayores colecciones de cráneos humanos del mundo y midió su capacidad llenándolos primero de semillas de mostaza y después de perdigones de plomo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gould reanalizó los datos publicados de Morton y sostuvo que había cometido errores sistemáticos que siempre iban en la misma dirección: agrandar los cráneos europeos y encoger los africanos. No lo acusaba de fraude, sino de un sesgo inconsciente que se colaba en cada medida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle técnico es interesante. Con semillas de mostaza, que se comprimen de manera desigual según cómo se aprieten, los resultados variaban; con perdigones de plomo, que se asientan por su peso, las medidas salían más consistentes. Morton mismo cambió de método por eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resto del libro de 1981 va sobre los test de inteligencia, y ahí su ataque es a un procedimiento estadístico concreto: el análisis factorial, que resume muchas puntuaciones en un solo número y que se usó para sostener que existe una inteligencia general heredable y medible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento es que resumir varios datos en un factor común es una operación matemática legítima, y que darle a ese factor un nombre y tratarlo como una cosa física que reside en el cerebro es un salto injustificado. A eso lo llamó cosificación, y sigue siendo una crítica válida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta también el caso de los test que el ejército estadounidense pasó a un millón y medio de reclutas en 1917, con preguntas sobre marcas de coches y jugadores de béisbol que ningún inmigrante recién llegado podía saber, y cuyos resultados se usaron después para restringir la inmigración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ejemplo es el más sólido del libro porque no requiere discutir ninguna medida: basta con leer las preguntas para ver que no medían inteligencia sino familiaridad con la cultura estadounidense. Y sirvieron de base científica para una ley de cuotas que estuvo vigente cuarenta años.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Y aquí viene la parte que hace de esta historia algo mucho mejor que un ejemplo edificante. En 2011, un equipo dirigido por Jason Lewis volvió al museo de Filadelfia, sacó los cráneos y los midió otra vez, uno por uno, con métodos modernos.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Encontraron que las medidas de Morton eran en su mayoría correctas, y que los errores que tenía no iban sistemáticamente en la dirección que Gould afirmaba. Y encontraron algo peor: que las correcciones que Gould había aplicado a los datos sí tenían un sesgo claro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir: el hombre que escribió el libro sobre cómo el prejuicio se cuela en la medición fue pillado metiendo prejuicio en su propia medición. Y ya no pudo contestar, porque había muerto en 2002 de un cáncer de pulmón, veinte años después de superar otro cáncer distinto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El asunto no está cerrado del todo, para ser justos. Un trabajo posterior de 2018 revisó la polémica y concluyó que Lewis tenía razón en los errores concretos de Gould, y que la tesis general —que Morton escogió qué medir y cómo agrupar de manera que confirmara su jerarquía— se sostiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión razonable de todo esto es más incómoda y más útil que cualquiera de las dos versiones. El sesgo del investigador es real, está documentado y es un problema serio; y nadie está a salvo de él, tampoco el que se dedica a denunciarlo en los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una consecuencia práctica que Gould no habría discutido: la única defensa conocida no es la buena intención, sino que otros vuelvan a medir. En este caso el sistema funcionó, aunque le costara treinta años y el prestigio de uno de los suyos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Queda por contar la discusión que le ocupó veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que sigue siendo la mejor pelea de la biología moderna.",
+        },
+      ],
+    },
+
+    {
+      titulo: "La pelea con el gen egoísta",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1976, cuatro años antes de este libro, un zoólogo de Oxford llamado Richard Dawkins publicó El gen egoísta, que está en esta biblioteca. Su tesis es que la unidad sobre la que actúa la selección natural no es el individuo ni el grupo, sino el gen, y que los cuerpos son vehículos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gould estuvo en desacuerdo desde el principio y lo estuvo durante veinticinco años, en artículos, libros y reseñas cada vez menos amables. La discusión merece contarse bien porque no es una riña de egos, aunque acabara pareciéndolo: es un desacuerdo real sobre cómo funciona la evolución.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Los dos desacuerdos de fondo",
+          frase: "Primero, el nivel: Dawkins dice que la selección actúa sobre genes; Gould, que actúa a la vez sobre genes, organismos y especies, y que reducirlo a uno solo es perder información. Segundo, el ritmo y el papel del azar: para Dawkins la evolución es un ajuste acumulativo; para Gould, una historia llena de accidentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento de Gould sobre la contingencia es el que más ha calado y lo formuló con una imagen: si se pudiera rebobinar la cinta de la vida y volver a ponerla desde el principio, saldría algo completamente distinto, y casi seguro que sin nada parecido a nosotros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con eso ataca una idea muy arraigada y que casi nadie examina: la de que la evolución es una escalera que sube hacia la complejidad y la inteligencia, con el ser humano en el escalón de arriba y todo lo demás en camino. Esa imagen no está en Darwin y sigue en todas partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento contra ella es estadístico y elegante. La vida empezó siendo lo más simple que puede ser algo vivo, así que solo podía variar hacia un lado; con el tiempo aparecen formas complejas porque hay sitio para ellas, no porque haya ninguna tendencia que empuje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y da el dato que remata la discusión: si se mide la biomasa o el número de organismos, seguimos viviendo en la era de las bacterias. Llevan tres mil quinientos millones de años siendo la forma dominante de vida en la Tierra y no muestran ninguna intención de dejar de serlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta de Dawkins a la contingencia es que las mismas soluciones aparecen una y otra vez de manera independiente. El ojo tipo cámara ha evolucionado por separado en vertebrados y en pulpos; el vuelo, cuatro veces. Eso sugiere que el espacio de soluciones posibles es estrecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El paleontólogo Simon Conway Morris llevó ese argumento hasta el final y sostuvo que la convergencia es tan frecuente que algo parecido a un ser inteligente era casi inevitable. Es la posición opuesta a la de Gould y usa exactamente los mismos fósiles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La discusión se agrió con los años, y conviene decirlo. Gould llamó fundamentalismo darwiniano a la posición de sus adversarios, y desde el otro lado se le acusó de escribir para el público general lo que no podía defender ante sus colegas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La frase más citada de aquella pelea la dijo John Maynard Smith, uno de los grandes teóricos del campo: que los biólogos evolutivos consideraban a Gould alguien con cuyas ideas no merecía la pena molestarse, pero que había que tratarlo con respeto porque era el único que le explicaba la evolución al público.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase es dura y es injusta a medias. Injusta porque el equilibrio puntuado y las enjutas cambiaron de verdad la disciplina; y con una parte de razón porque Gould defendía en libros para el gran público posiciones que en las revistas técnicas eran minoritarias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dónde ha quedado la cosa, cuarenta años después, tiene un reparto bastante claro. En la matemática de la selección ganó el bando de Dawkins: los modelos que funcionan son de genes y frecuencias, y la teoría del gen como unidad de contabilidad es la que se usa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la narrativa general ganó Gould: prácticamente nadie que trabaje en el campo defiende hoy que la evolución tenga dirección o progreso, y la idea de que somos un accidente entre muchos posibles es la posición estándar en cualquier manual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la selección multinivel, que era su apuesta, ha pasado de herejía a posición minoritaria pero respetable, con defensores serios que sostienen que hace falta para explicar cosas como la eusocialidad de las hormigas o la cooperación humana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Toca decir dónde falla este libro concreto, que se publicó en 1980 y lo nota. Algunos ensayos discuten polémicas que ya se han resuelto y otros dan por buenos datos que se han corregido, y hay que leerlo sabiendo que son cuarenta y cinco años de ciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo es el propio pulgar del panda. Los fósiles encontrados en China en los últimos años han cambiado el relato: el hueso alargado aparece hace unos seis millones de años, y su forma de gancho parece un compromiso entre agarrar bambú y aguantar el peso al caminar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es decir, la historia real es más interesante que la de Gould y refuerza su tesis en vez de romperla: no solo es una chapuza, es una chapuza que además está limitada por otra función. Un ingeniero habría separado las dos tareas y la evolución no puede.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro defecto es de estilo y es real: se va por las ramas hacia el béisbol, hacia la ópera cómica inglesa y hacia autores del siglo diecinueve que no conoce nadie, y esas digresiones funcionan mucho peor fuera de Estados Unidos que dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un tercero que se le reprochó mucho: la prosa es densa y las frases largas, con incisos dentro de incisos. Comparado con Dawkins, que escribe con una claridad casi agresiva, Gould exige bastante más del lector para decir a veces menos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, cualquiera de sus ensayos sueltos funciona hoy como pieza autónoma, y esa es la manera de leerlo: uno cada vez, sin orden, igual que Montaigne. Los dos escribieron libros que no piden ser terminados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no ha envejecido es el argumento del título.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que la prueba de la evolución no está en lo bien hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Está en el hueso de la muñeca haciendo de dedo.",
+        },
+      ],
+    },
+  ],
+};
