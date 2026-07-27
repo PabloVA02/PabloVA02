@@ -892,112 +892,638 @@ export const AMIGOS_INFLUIR: Resumen = {
   ano: 1936,
   gancho: "Noventa años, treinta millones de ejemplares, y su primer consejo sigue siendo el que nadie cumple.",
   porQue:
-    "Es el manual de trato humano más vendido de la historia. Suena a obviedad hasta que cuentas cuántas de sus reglas rompiste ayer.",
+    "Es el manual de trato humano más vendido de la historia, y conviene saber qué de todo aquello se ha comprobado después y qué sigue siendo pura anécdota.",
   partes: [
     {
-      titulo: "El criminal que no se creía criminal",
+      titulo: "El aula del YMCA de Harlem",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Carnegie abre con Francis Crowley, un asesino acorralado en Nueva York en 1931 tras un tiroteo con cientos de policías. Mientras disparaba, escribió una carta que decía: «bajo mi abrigo hay un corazón cansado, pero bueno, que no haría daño a nadie». Al ir a la silla eléctrica no dijo «esto es lo que gano por matar»: dijo «esto es lo que gano por defenderme».",
+            "En 1912, un vendedor fracasado de treinta y tres años entró en un centro social de Harlem a pedir trabajo. Quería dar clases nocturnas de oratoria a adultos, y le contestaron que no podían pagarle los dos dólares por sesión que era la tarifa. Se marchó de allí con otro trato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sitio era la Asociación Cristiana de Jóvenes de la calle Ciento veinticinco, y sus clases nocturnas eran entonces una de las pocas maneras que tenía un adulto trabajador de seguir estudiando. Carnegie no inventó ese formato: se metió en uno que ya existía y funcionaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El acuerdo de comisión que aceptó no era una ocurrencia romántica sino la única salida. Estaba sin dinero, vivía en una pensión barata, comía de forma irregular y llevaba meses acumulando fracasos, de modo que aquel porcentaje incierto era bastante mejor que el cero que tenía.",
         },
         {
           forma: "clave",
-          rotulo: "La conclusión",
-          frase: "Ni el peor criminal se culpa a sí mismo. ¿Por qué esperas que lo haga la persona a la que estás criticando?",
+          rotulo: "El trato que propuso",
+          frase: "Cobrar solo un porcentaje de lo que pagaran los alumnos. Si no venía nadie, no cobraba nada, y acabó ganando quince veces la tarifa.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí sale su primera regla, la más incumplida del libro: <strong>no critiques, no condenes, no te quejes</strong>. La crítica pone a la otra persona a la defensiva y la empuja a justificarse, que es exactamente lo contrario de lo que buscabas. Hiere su orgullo y crea resentimiento — y no cambia nada.",
+            "Aquel hombre se llamaba Dale Carnagey y había fracasado en casi todo hasta entonces. Había vendido cursos por correspondencia, después tocino y jabón para una empresa cárnica, había intentado ser actor de teatro y había escrito una novela que nadie quiso publicar. A los treinta y tres seguía sin oficio.",
         },
-      ],
-    },
-    {
-      titulo: "Lo que la gente quiere",
-      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Lo del teatro conviene contarlo con detalle porque explica su método. Estuvo de gira interpretando a un personaje en una compañía ambulante, y aquello le enseñó a sostener la atención de una sala, que es exactamente lo que después vendía a ingenieros incapaces de presentar un informe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Venía de una granja pobre de Misuri y había estudiado a base de aguantar. Iba a clase a caballo desde casa porque su familia no podía pagarle el alojamiento, y esa combinación de pobreza rural y ambición aparece por todo el libro sin nombrarse nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la granja había perdido cosechas por inundaciones y ganado por enfermedades, y su madre era una metodista devota que quería verlo predicador. De ahí sale un tono que muchos lectores notan sin saber nombrarlo: el de un sermón amable sobre buenas costumbres. El púlpito acabó siendo un aula nocturna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1922 cambió la escritura de su apellido y el motivo es puro marketing. Pasó de Carnagey a Carnegie, que era el apellido del hombre más rico y más famoso de Estados Unidos, y esa decisión dice bastante sobre el autor y sobre el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Andrew Carnegie era un escocés emigrado que había levantado el mayor imperio del acero de Estados Unidos y luego regaló casi toda su fortuna en bibliotecas públicas. Nadie confundía a los dos hombres, pero el apellido abría puertas, y Dale nunca explicó el cambio en ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El apellido tuvo además un efecto que dura hasta hoy. Mucha gente cree que este libro lo escribió el magnate del acero o alguien de su familia, y algunas ediciones extranjeras han jugado con esa confusión sin desmentirla nunca en la portada ni en la solapa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las clases funcionaron y en pocos años se convirtieron en un negocio. Enseñaba a hablar en público a vendedores, ingenieros y encargados, y fue descubriendo que lo que sus alumnos necesitaban no era retórica sino saber tratar con la gente. Ese hallazgo tardó años en convertirse en método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que descubrió en aquellas aulas es más interesante que las reglas. Sus alumnos hablaban bien de sus productos y de sus proyectos y aun así no vendían, y el atasco no estaba en la voz ni en los gestos, sino en cómo trataban al que tenían delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes del libro había publicado folletos y cuadernos para sus propios alumnos. Se vendían en el aula y no en librerías, y ese origen explica por qué el texto se dirige siempre a alguien que quiere algo concreto de otra persona y lo quiere esta misma semana.",
+        },
         {
           forma: "arte",
           texto:
-            "Su segunda idea es la que sostiene el resto: el deseo humano más profundo y menos satisfecho es <em>sentirse importante</em>. Freud lo llamaba deseo de grandeza; Dewey, deseo de ser importante. Es la única cosa que casi nadie recibe suficiente y casi nadie sabe dar.",
-          arte: "museo",
+            "El libro salió de esas aulas y no de un despacho. Carnegie fue anotando reglas, probándolas con los alumnos, quitando las que no funcionaban y quedándose con las que producían resultados que la gente le contaba a la semana siguiente. Las que sobrevivieron son las treinta del índice.",
+          arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Por eso insiste tanto en la diferencia entre <em>aprecio</em> y <em>adulación</em>: el primero es sincero y sale del corazón, la segunda sale de los dientes para afuera y todo el mundo la detecta. Su consejo práctico: en vez de inventar halagos, dedicar el esfuerzo a encontrar algo que admirar de verdad, que casi siempre lo hay.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El principio",
-          frase: "Hablar de lo que te interesa a ti es el modo más rápido de que dejen de escucharte.",
+            "Quien lo empujó a escribirlo fue un editor que se había apuntado a su curso. Leon Shimkin, de una editorial de Nueva York, tomó notas durante las clases, se dio cuenta de que aquello era un libro y convenció a Carnegie de dictarlo. Shimkin lo publicó en su propia editorial.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí las reglas más conocidas: interésate sinceramente por los demás, sonríe, recuerda y usa el nombre de la gente —«el sonido más dulce en cualquier idioma»—, escucha más de lo que hablas, y habla de lo que le interesa al otro. Ninguna es un descubrimiento. La cuestión es cuántas hiciste ayer.",
+            "El libro no se escribió sentado ante una máquina, sino hablado. Carnegie lo dictó a partir de las fichas del curso, y esa manera de fabricarlo se nota en la prosa: frases cortas, apelaciones directas al lector y un ritmo pensado para una sala llena de gente.",
         },
-      ],
-    },
-    {
-      titulo: "El vendedor que dio clases",
-      tarjetas: [
         {
           forma: "arte",
           texto:
-            "Conviene saber de dónde sale el libro. Dale Carnegie nació en una granja pobre de Misuri y de joven vendió bacón y jabón por Nebraska. Quiso ser actor, fracasó, y acabó dando clases nocturnas de oratoria en una YMCA de Nueva York por comisión, porque no se fiaban lo bastante de él para pagarle un sueldo.",
+            "El resultado se lee más como un curso transcrito que como un ensayo. Los capítulos terminan con la regla en cursiva y una caja para repasarla, y esa estructura de manual es la que lo ha hecho útil y también la que lo hace repetitivo.",
           arte: "escritor",
         },
         {
           forma: "texto",
           texto:
-            "Las clases se llenaron y descubrió que a sus alumnos les urgía menos hablar en público que aguantar a su jefe, a sus clientes y a su familia. Buscó un manual sobre eso y no existía, así que fue apuntando durante quince años lo que funcionaba a gente real. El libro salió en 1936, en plena Depresión, y vendió cinco millones antes de que él muriera.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El origen",
-          frase: "No es teoría de despacho: son quince años de notas sobre qué funcionaba de verdad en las clases nocturnas.",
+            "La primera tirada de 1936 fue de cinco mil ejemplares y nadie esperaba más. En tres meses llevaba vendidos un cuarto de millón, y hoy se calcula que supera los treinta millones, lo que lo coloca entre los libros más vendidos de la historia. Nunca ha dejado de reimprimirse desde entonces.",
         },
         {
           forma: "texto",
           texto:
-            "Su parte final, la que trata de dirigir a otros sin ofenderlos, es la más aprovechable hoy. Empieza siempre por algo sincero que elogiar. Señala el fallo de forma indirecta —«y» en vez de «pero»: «has mejorado mucho <em>y</em> si arreglas esto será redondo»—. Habla de tus propios errores antes de mencionar los del otro.",
+            "Del cuarto de millón en tres meses conviene decir de dónde sale. Es la cifra que dio la propia editorial en su publicidad, y no existe ningún registro independiente de ventas de aquel año que permita comprobarla ni discutirla con datos en la mano. Aun así se sigue citando como exacta.",
         },
         {
           forma: "texto",
           texto:
-            "Y tres más que cuestan poco y cambian mucho: haz preguntas en vez de dar órdenes, deja siempre al otro una salida digna aunque tengas razón, y atribúyele la buena fama que quieres que cumpla, porque la gente tiende a comportarse como la reputación que le has dado. Elogia cada avance, no solo el resultado final.",
+            "La cifra de treinta millones tampoco es una medición, sino una suma de estimaciones a lo largo de noventa años y de decenas de idiomas. Sirve para decir que el libro es enorme, no para compararlo con precisión con ningún otro superventas del siglo pasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Salió en plena Depresión y eso explica bastante de su éxito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Millones de personas necesitaban un trabajo y no sabían cómo pedirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este libro era, literalmente, un manual para conseguirlo.",
         },
       ],
     },
     {
-      titulo: "Ganar discusiones",
+      titulo: "El asesino que se creía buena persona",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su capítulo sobre discusiones cabe en una frase: la única forma de ganar una discusión es evitarla. Si pierdes, pierdes; y si ganas, también, porque has humillado a alguien que se irá con su opinión intacta y con una herida nueva. Nunca digas «te equivocas»: nadie ha cambiado de idea después de oír eso.",
+            "El libro abre con un tiroteo real ocurrido en Nueva York en 1931. La policía cercó a un hombre buscado por matar a un agente, hubo un asedio de horas con miles de curiosos mirando, y él escribió una nota mientras disparaba desde la ventana.",
         },
         {
           forma: "texto",
           texto:
-            "Su alternativa es admitir el error propio rápido y con energía, empezar de forma amistosa, y conseguir que el otro diga «sí» cuanto antes — porque una vez alguien dice «no», su orgullo le obliga a sostenerlo. Y dejar que la idea final parezca suya, aunque la hayas puesto tú.",
+            "El hombre se llamaba Francis Crowley y la prensa lo apodó Dos Pistolas. Tenía diecinueve años, disparó desde el piso de su novia durante casi dos horas, y los ciento cincuenta policías que participaron en el asedio dieron a la escena un público enorme. Los periódicos vendieron aquel día una barbaridad.",
         },
         {
           forma: "texto",
           texto:
-            "Hay un experimento que Carnegie no llegó a conocer y que le da la razón. En negociaciones grabadas, los acuerdos buenos casi nunca los cierra quien más argumenta: los cierra quien más preguntas hace y quien resume en voz alta la posición del otro antes de exponer la suya. Sentirse comprendido baja la guardia mucho más deprisa que cualquier dato.",
+            "Crowley fue ejecutado en la silla eléctrica meses después, y sus últimas palabras siguieron la misma línea. Dijo que aquello le pasaba por defenderse, y ese detalle refuerza justo lo que Carnegie quería: nadie se cuenta a sí mismo la historia en la que es el malo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que el caso está muy bien elegido y a la vez es tramposo. Un asesino que se cree bueno prueba que la gente se justifica, pero no prueba que nunca convenga señalar un error, que es la conclusión que el libro saca acto seguido.",
         },
         {
           forma: "clave",
-          rotulo: "La incomodidad",
-          frase: "Casi todo el libro es sentido común. El problema es que el sentido común no es práctica común.",
+          rotulo: "Lo que escribió",
+          frase: "Que bajo su abrigo había un corazón cansado pero bondadoso, uno que no le haría daño a nadie. Lo escribió mientras tiroteaba a la policía.",
         },
         {
           forma: "texto",
           texto:
-            "Hay una pega justa: leído de mala fe, esto es un manual de manipulación, y algunos de sus consejos —conseguir que la idea parezca del otro— rozan esa línea. Carnegie insiste una y otra vez en que sin interés sincero nada de esto funciona más de dos semanas. Con esa reserva, sigue siendo el libro más útil que existe sobre tratar con gente.",
+            "Carnegie completa el argumento con otros dos delincuentes famosos de la época. Cita a Al Capone diciendo que solo había dado a la gente lo que quería y que le pagaban con insultos, y a otro gánster convencido de haber sido un benefactor público. Ninguno de los tres se creía culpable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase de Capone no sale de una entrevista que Carnegie hiciera, sino de la prensa de la época, y el libro nunca da la fuente. Ese detalle importa porque marca cómo trabaja: las historias son buenas, son verosímiles, y prácticamente ninguna viene con referencia comprobable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión que saca de esos casos es la base de todo el libro. Si ni siquiera los peores criminales se consideran culpables, es absurdo esperar que un compañero de trabajo acepte una crítica y cambie de conducta gracias a ella. De ahí salen las tres primeras reglas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El salto lógico tiene un punto débil que el libro no menciona. De que criticar rara vez cambie a alguien no se sigue que nunca haya que hacerlo, y hay oficios enteros, de la medicina a la ingeniería, que se sostienen sobre decirle a alguien que se equivoca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Carnegie hace algo parecido a criticar durante todo el libro. Enumera lo que sus lectores hacen mal, lo repite capítulo tras capítulo y confía en que esa crítica sí funcione, porque viene con un método al lado y no con un reproche a secas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la primera regla, que es también la más incumplida. No criticar, no condenar y no quejarse, porque la crítica pone a la otra persona a la defensiva y la obliga a justificarse en vez de a revisar lo que ha hecho. Casi nadie la cumple ni un día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La investigación posterior le ha dado bastante la razón en esto. Los estudios sobre respuesta a la crítica muestran que el trabajo empeora cuando la persona percibe un ataque a su valía, y que el efecto no depende de si el reproche era justo o no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda regla es dar aprecio honesto y sincero, y Carnegie insiste mucho en el adjetivo. Dedica páginas a distinguir el aprecio de la adulación, y define la diferencia diciendo que uno sale del corazón y la otra sale de los dientes hacia fuera. El adjetivo hace todo el trabajo aquí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La distinción entre aprecio y adulación es más difícil de aplicar de lo que parece. En la práctica dependen del contenido y no de la intención, porque un elogio concreto sobre algo que la otra persona hizo se comprueba, y uno genérico sobre cómo es no se comprueba nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un consejo práctico enterrado ahí que suele pasarse por alto. Si no encuentras nada concreto que apreciar en alguien, el problema no es que te falte técnica, sino que no le has prestado suficiente atención como para saber qué ha hecho bien esta semana.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La tercera es la más útil de las tres y la que menos se cita. Dice que la única manera de conseguir que alguien haga algo es que quiera hacerlo, y que para eso hay que hablar de lo que él quiere y no de lo que quieres tú.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa regla es la que sostiene todo lo demás y es también la más incómoda. Obliga a averiguar qué quiere el otro antes de abrir la boca, y eso lleva tiempo, atención y preguntas, mientras que las otras veintinueve reglas se pueden aplicar en una tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En negociación esa idea tiene nombre propio desde los años ochenta. Se llama preguntar por los intereses y no por las posiciones, y consiste exactamente en lo mismo que Carnegie describía con peces y fresas cuarenta y cinco años antes de que nadie lo midiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo con el que lo explica es el de la pesca y no el de la persuasión. Dice que a él le gustan las fresas con nata, pero que cuando va a pescar no pone fresas en el anzuelo, sino lo que le gusta al pez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La analogía es tramposa y vale la pena verlo despacio. El pez no elige, y una persona sí, de modo que el consejo se puede leer como interés genuino o como cebo bien puesto, y el propio Carnegie deja esa ambigüedad sin cerrar en toda la obra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte del libro tiene una honradez que se le suele negar. Carnegie repite una y otra vez que si el interés por la otra persona es fingido, el método no funciona, y que él no está enseñando trucos sino una manera de mirar. Lo repite hasta volverse pesado con ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema es que el título del libro dice justo lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Promete ganar amigos e influir sobre la gente, como si fueran objetivos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa contradicción no se resuelve en ninguna de sus páginas.",
+        },
+      ],
+    },
+    {
+      titulo: "Las treinta reglas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro está organizado en cuatro partes y treinta reglas numeradas. Cada una ocupa un capítulo corto, se enuncia en una frase imperativa y va acompañada de tres o cuatro historias de personas concretas que la aplicaron con éxito. Ninguna de esas historias viene acompañada de una fuente que se pueda comprobar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras del libro conviene decirlas exactas porque circulan mal. Son tres principios fundamentales al principio, seis reglas para caer bien, doce para llevar a la gente a tu modo de pensar y nueve para corregir a alguien sin ofenderlo, que sumadas dan las treinta de la portada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa aritmética explica también el desequilibrio del libro. Doce de las treinta reglas están dedicadas a convencer a alguien de que tienes razón, y solo seis a caer bien, de modo que el manual de amistad es, sobre todo, un manual de persuasión con otro título.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda parte reúne seis maneras de caer bien y es la más citada. Interesarse de verdad por el otro, sonreír, recordar su nombre, escuchar, hablar de lo que le interesa a él y hacerle sentir importante sin fingirlo. Son las seis que todo el mundo cita y casi nadie aplica.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El orden de esas seis reglas no es casual y merece leerse como una escalera. Empieza por lo que exige de ti algo real, interesarse y escuchar, y termina por lo que exige poco, sonreír y usar el nombre, que es justo lo que la gente recuerda.",
+          arte: "mapa",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase de los nombres",
+          frase: "Dice que el nombre de una persona es, para ella, el sonido más dulce e importante en cualquier idioma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa afirmación es de las que peor han resistido la comprobación experimental. Los estudios que han medido el efecto de usar el nombre de alguien al persuadirlo dan resultados desiguales, y usarlo demasiado suena a vendedor y produce el efecto contrario. El efecto real es mucho más pequeño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El origen de esa idea tampoco es un experimento. Carnegie la saca de una anécdota sobre un político de Nueva York que presumía de recordar diez mil nombres de votantes, y de ahí, sin ningún paso intermedio, la convierte en una regla universal de trato humano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mecanismo, anécdota buena convertida en ley general, se repite en casi todos los capítulos. No invalida el consejo, porque muchos son razonables, pero sí explica por qué el libro no puede decir cuánto funciona nada de lo que propone ni en qué situaciones falla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está bien documentado es el esfuerzo que implica recordarlo. Acordarse del nombre de alguien a quien viste una vez es una señal costosa de atención, y las señales costosas funcionan precisamente porque no se pueden fingir gratis. Recordarlo cuesta trabajo y por eso significa algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mismo razonamiento vale para casi todo el libro y aclara por qué funciona a veces. Las reglas que piden esfuerzo comprobable dan resultado, y las que se pueden fingir en dos segundos dejan de darlo en cuanto el otro sospecha que las estás aplicando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera parte tiene doce reglas para convencer y arranca con la más contundente. Dice que la única manera de ganar una discusión es evitarla, porque si la pierdes has perdido, y si la ganas has humillado a alguien que ahora te odia. Es la más larga de las cuatro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que usa para sostenerlo es el de un asesor fiscal enfrentado a un inspector por nueve mil dólares. En vez de seguir discutiendo, le dijo que su trabajo debía de ser difícil y que él solo había aprendido de los libros, y el inspector le dio la razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Historias así son la unidad de medida del libro y también su límite. Están contadas por el interesado, años después y ante un aula que aplaudía, y ninguna incluye las veces en que el inspector de turno no se ablandó y mantuvo la liquidación. Nadie vuelve a clase a contar eso.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Varias de esas reglas anticipan cosas que la psicología social midió décadas después. Empezar por preguntas donde el otro dirá que sí, reconocer los propios errores antes de que los saque él, y dejar que la idea final parezca suya. La psicología social les puso nombre después.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuarta parte trata de corregir a alguien sin ofenderlo y es la más útil para jefes. Empezar con un elogio, mencionar los errores de forma indirecta, hablar de los propios fallos primero y preguntar en vez de dar órdenes. Son nueve reglas y la última sobra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De esa parte, la regla que mejor ha envejecido es la de hablar de los propios errores antes de señalar los ajenos. Reduce la distancia entre quien corrige y quien es corregido, y en los estudios sobre seguridad clínica es una de las conductas que más se recomienda a los jefes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La regla vecina, la de preguntar en vez de ordenar, ha tenido peor suerte de la que merece. Funciona cuando hay tiempo y confianza, y se vuelve un estorbo en cuanto la situación es urgente o el otro necesita saber exactamente qué se espera de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una técnica de esa parte que conviene señalar porque hoy está desaconsejada. Es la de meter la crítica entre dos elogios, que en las escuelas de gestión se llama el sándwich y que la investigación reciente considera más confuso que útil. Hoy se enseña a no usarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El motivo del descarte del sándwich es sencillo y bastante convincente. Quien lo recibe se queda con los elogios y no con la corrección, o aprende que cualquier elogio de su jefe anuncia una crítica, de modo que la técnica arruina también los elogios sinceros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cambios de la revisión de 1981 no son menores para un lector actual. Se sustituyeron personajes que ya nadie reconocía, se suavizaron ejemplos que habían envejecido mal y se reordenaron capítulos, de modo que citar el libro por su año de 1936 suele ser impreciso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Carnegie murió en 1955, y el libro que casi todo el mundo lee no es exactamente el suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1981 se publicó una revisión que actualizó ejemplos y quitó referencias caducadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es la edición que circula, y en varios pasajes no coincide con la de 1936.",
+        },
+      ],
+    },
+    {
+      titulo: "Sonría, dijo el manual",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La crítica que persigue a este libro desde su publicación se resume en una palabra. Muchos lectores salen con la sensación de haber aprendido a manipular, y esa objeción es de 1937 y no de ahora. La objeción tiene casi la misma edad que el propio libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa acusación tiene una versión suave y otra dura, y conviene separarlas antes de discutirla. La suave dice que el libro enseña buenas costumbres con un envoltorio comercial, y la dura dice que enseña a simular afecto para vender, que es bastante más serio. Las dos tienen algo de razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio libro alimenta la versión dura con sus ejemplos. Casi todos terminan con alguien consiguiendo un contrato, un ascenso o un alquiler más barato, y muy pocos terminan con dos personas llevándose mejor sin que nadie ganara nada material con ello. El balance de esos finales es revelador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El novelista Sinclair Lewis lo despachó con una frase que hizo daño. Dijo que enseñaba a sonreír y a fingir interés por las aficiones ajenas precisamente para poder sacarles algo, y que eso no era amabilidad sino comercio disfrazado. La frase se citó tanto que acabó pegada al título del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lewis no era un crítico cualquiera cuando escribió aquello. Era el primer estadounidense que había ganado el Nobel de Literatura, en 1930, y llevaba media vida retratando en sus novelas justo al tipo de vendedor optimista y hueco al que este libro parecía dirigirse. Sabía perfectamente a quién estaba retratando.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La defensa de Carnegie",
+          frase: "Que si finges no funciona, y que la única técnica que sostiene el libro es interesarse de verdad por la otra persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa defensa es sincera y a la vez no cierra del todo el problema. Un manual que enumera treinta reglas y promete resultados está presentando el interés por los demás como un medio, y el lector aprende antes la técnica que la actitud. El orden en que se aprenden importa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un experimento mental que aclara el problema. Si alguien aplicara las treinta reglas contigo a la perfección, y tú lo supieras, la relación no mejoraría en absoluto, y esa dependencia de que el otro no se entere es la marca de una técnica y no de una virtud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El consejo de sonreír tiene además un problema empírico interesante. El libro sugiere que sonreír cambia cómo te sientes, y esa idea, que en psicología se llama hipótesis del efecto facial, lleva más de una década en discusión. Conviene contar esa discusión entera, porque casi nadie la resume de forma honesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento del que sale todo es de 1988 y lo firmó Fritz Strack en Alemania. Los participantes sostenían un bolígrafo con los dientes o con los labios mientras puntuaban unas viñetas, y quienes lo tenían entre los dientes las encontraban más graciosas que los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2016, diecisiete laboratorios repitieron a la vez el experimento clásico de la sonrisa. Consistía en sostener un lápiz con los dientes para forzar los músculos de la sonrisa, y ninguno de ellos encontró el efecto que el estudio original había descrito. Aquello sonó fuerte dentro de la disciplina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel intento de replicación se preparó con el autor original delante, revisando el procedimiento antes de recoger datos, que es la manera más limpia de hacerlo. El fracaso conjunto de los diecisiete equipos fue uno de los casos que empujó la crisis de replicación en psicología.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto invalida el consejo de sonreír, y conviene decirlo claro. Sonreír a alguien cambia lo que esa persona hace contigo, y eso está bien medido; lo dudoso es la parte mágica, la de que el gesto te arregle a ti el ánimo por dentro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Años después, otro esfuerzo colectivo con distinta metodología sí encontró un efecto pequeño. Conviene decirlo así de matizado: la idea no está demostrada ni descartada, y desde luego no sostiene el peso que le da un libro de autoayuda. Un efecto pequeño no es lo mismo que un efecto útil.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema de fondo es que el libro no tiene ninguna base de datos detrás. Son quince años de anécdotas de clase, biografías de personajes ilustres y casos contados por alumnos agradecidos, y ninguna de esas fuentes permite comprobar nada. Ninguna de sus fuentes admite verificación externa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un sesgo de selección enorme en los ejemplos que usa. Solo aparecen las veces que la técnica funcionó, contadas por quien la aplicó, y no hay ni un caso de alguien que siguiera las treinta reglas y le saliera mal. Los fracasos no llegaron nunca al libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio formato del curso explica ese sesgo sin ninguna mala fe. Los alumnos volvían a clase a contar sus éxitos porque eso era lo que se premiaba en el aula, y quien había fracasado con la técnica sencillamente no levantaba la mano ni repetía el curso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mundo del libro tampoco es un mundo cualquiera y conviene notarlo. Casi todos los ejemplos son hombres blancos estadounidenses de los años treinta que venden algo, dirigen a alguien o negocian un contrato, y el lector implícito es siempre uno de ellos. Ese lector implícito condiciona todos los consejos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo una versión para mujeres, y su existencia dice más que cualquier análisis. Se publicó en 1953, la firmó la mujer de Carnegie y se titulaba, sin rodeos, cómo ayudar a tu marido a progresar, lo que deja claro cuál era el lector del libro original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las reglas tampoco pesan igual según quién las use, y eso el libro no lo ve. Interesarse por el otro y escuchar mucho es un consejo distinto para quien dirige una reunión que para quien lleva años siendo el que escucha por obligación en esa misma sala.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese punto ciego es el mismo que tienen casi todos los manuales de trato humano. Suponen una conversación entre iguales, y buena parte de las conversaciones difíciles de la vida real ocurren entre alguien que puede irse y alguien que no puede permitírselo. Ahí las reglas dejan de bastar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa limitación importa más de lo que parece a la hora de aplicarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las reglas funcionan mejor cuando ya tienes algo de poder en la conversación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien no lo tiene descubre que sonreír no siempre basta.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que Cialdini vino a comprobar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Cuarenta y ocho años después, un psicólogo social se propuso medir lo que Carnegie había afirmado. Robert Cialdini se pasó tres años infiltrado en empresas de venta a domicilio, agencias de publicidad y organizaciones de captación de fondos. Quería saber qué había de cierto en todo aquel repertorio de trucos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cialdini era profesor de psicología en la Universidad Estatal de Arizona y se metió en aquello por una razón personal. Contaba que era un blanco fácil para cualquier vendedor y que quiso averiguar, de manera sistemática, por qué le decía que sí a gente que no conocía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su libro, que está en este catálogo, es en buena medida la versión comprobada de este. Encontró seis principios que mueven a la gente, y dos de ellos, la simpatía y la reciprocidad, son exactamente lo que Carnegie enseñaba sin poder demostrarlo. Ese libro se llama Influencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los seis que describió son reciprocidad, compromiso, aprobación social, simpatía, autoridad y escasez. Carnegie tocaba la simpatía y la reciprocidad con bastante puntería y ni siquiera nombraba las otras cuatro, que son precisamente las que mejor explican por qué compramos cosas que no habíamos pensado comprar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escasez es el ejemplo más claro de lo que Carnegie no vio. Decirle a alguien que quedan dos unidades cambia su decisión de forma medible, y eso no tiene nada que ver con caer bien ni con interesarse de verdad por su familia y su trabajo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La diferencia entre los dos libros",
+          frase: "Carnegie cuenta lo que le funcionó a sus alumnos. Cialdini mide cuánto sube el porcentaje de gente que dice que sí, y publica el número.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que los dos libros estén aquí no es casualidad, y leerlos seguidos cambia los dos. El de Carnegie gana precisión cuando sabes qué principio está tocando, y el de Cialdini gana calor humano cuando recuerdas de dónde venían aquellas intuiciones de aula nocturna. Merece la pena leerlos en ese orden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otra diferencia que dice bastante de los dos autores. Cialdini dedica el final de su libro a enseñar a defenderse de estas técnicas cuando las usa alguien contra ti, y Carnegie no dedica ni una página a esa posibilidad. El lector queda desarmado ante sus propias reglas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa ausencia se explica por el destinatario de cada libro. Carnegie escribía para el que quiere convencer y nunca se plantea al que está siendo convencido, mientras que Cialdini escribe como investigador y sabe que sus lectores estarán a los dos lados de la mesa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Leído con eso en la cabeza, el libro cambia de sentido a mitad de camino. Deja de ser un manual para hacer amigos y se convierte en un catálogo de lo que funciona con nosotros, que sirve igual de bien para aplicarlo o para reconocerlo.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De las treinta reglas del libro, unas cuantas han resistido bastante bien. Escuchar de verdad, dejar hablar al otro, reconocer los propios errores rápido y no discutir para ganar están respaldados por décadas de investigación en negociación. Son las que exigen escuchar de verdad y no las que exigen gestos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La investigación en negociación ha llegado por su cuenta a varias de esas conclusiones. Separar a la persona del problema, preguntar por los intereses en vez de pelear por las posiciones y no obligar al otro a retractarse en público son hoy consejos de manual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que dos caminos tan distintos lleguen a lo mismo es lo mejor que se puede decir del libro. Un vendedor de Misuri sin ningún dato y varias décadas de investigación académica coinciden en que humillar al otro para tener razón es el peor negocio posible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otras se han quedado en el terreno de la costumbre social sin más respaldo. Recordar nombres, sonreír al entrar o preguntar por la familia funcionan como cortesía, y presentarlos como palancas de persuasión es exagerar bastante lo que se sabe. Como cortesía siguen valiendo bastante la pena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Distinguir esas dos listas es la manera útil de leerlo hoy. Las reglas que describen atención de verdad siguen siendo buenas, y las que describen gestos aprendidos valen como educación pero no como palanca, y el libro las presenta todas con el mismo énfasis. El lector tiene que separarlas por su cuenta.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Conviene precisar lo que este libro no es, porque se le atribuye mucho. No es un libro de pensamiento positivo ni promete que la actitud cambie la realidad, y no comparte casi nada con los manuales de prosperidad que se publicaron a su lado. No promete riqueza ni la insinúa siquiera.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco es un libro de gestión ni pretende serlo, aunque se venda en ese estante. No dice nada de cómo organizar un equipo, repartir el trabajo o tomar decisiones, y todo lo que enseña ocurre en una conversación entre dos personas que se tienen delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa escala pequeña es justamente lo que lo ha mantenido vivo noventa años. Las modas de gestión caducan cada década, pero la situación que describe, dos personas hablando y una que quiere algo de la otra, no ha cambiado prácticamente nada desde 1936. Sigue habiendo alguien enfrente que decide.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese contraste se ve muy bien con Piensa y hazte rico, que también está en el catálogo. Salió un año después, en 1937, en el mismo mercado y para el mismo lector, y sus promesas son mucho más grandes y sus fuentes bastante menos fiables.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Napoleon Hill decía haber trabajado por encargo del millonario Andrew Carnegie, y no hay ninguna prueba de aquello. Dale Carnegie, en cambio, solo dice haber dado clases nocturnas a vendedores durante quince años, y eso está perfectamente documentado. Los registros de aquellos cursos nocturnos existen y todavía se pueden consultar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa comparación no es un detalle de librería, sino la diferencia entre dos maneras de prometer. Uno vende un secreto revelado por un millonario y el otro vende quince años de aula, y noventa años después solo uno de los dos aguanta que le pidan las fuentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La organización que fundó sigue existiendo y dando cursos en decenas de países.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro sigue vendiendo cientos de miles de ejemplares cada año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y su primera regla, la de no criticar, la seguimos incumpliendo a diario.",
         },
       ],
     },
