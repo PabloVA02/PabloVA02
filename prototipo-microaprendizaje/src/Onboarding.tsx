@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { LIBROS, Portada } from "./Biblioteca";
+import { LIBROS, Portada, type Libro } from "./Biblioteca";
 import { GlyphBack, GlyphTick } from "./glyphs";
 import { PaseInvitado } from "./PaseInvitado";
 import { CargaBiblioteca, DURACION } from "./Cargando";
@@ -808,8 +808,30 @@ export function Onboarding({ onTerminar }: { onTerminar: (alta: Alta) => void })
    Bienvenida: rejilla de portadas que va cayendo
    ------------------------------------------------------------------------- */
 
+/* El catálogo va agrupado por categoría y el color de la portada sale de la
+   categoría, así que coger los doce primeros libros deja la bienvenida entera
+   del mismo naranja y con tres ilustraciones repetidas cuatro veces. Se toma
+   uno de cada categoría por vuelta: doce portadas, los ocho colores. */
+function rejillaVariada(n: number): Libro[] {
+  const porCategoria = new Map<string, Libro[]>();
+  for (const l of LIBROS) {
+    const grupo = porCategoria.get(l.categoria);
+    if (grupo) grupo.push(l);
+    else porCategoria.set(l.categoria, [l]);
+  }
+  const grupos = [...porCategoria.values()];
+  const salida: Libro[] = [];
+  for (let vuelta = 0; salida.length < n && grupos.some((g) => g.length > vuelta); vuelta++) {
+    for (const g of grupos) {
+      if (salida.length >= n) break;
+      if (g[vuelta]) salida.push(g[vuelta]);
+    }
+  }
+  return salida;
+}
+
 function Bienvenida({ reducido }: { reducido: boolean }) {
-  const rejilla = [...LIBROS, ...LIBROS].slice(0, 12);
+  const rejilla = rejillaVariada(12);
   return (
     <div className="onb-bienvenida">
       <div className="rejilla">
