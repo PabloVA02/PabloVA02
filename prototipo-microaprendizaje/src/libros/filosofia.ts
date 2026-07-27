@@ -2056,115 +2056,637 @@ export const PRINCIPE: Resumen = {
   titulo: "El príncipe",
   autor: "Nicolás Maquiavelo",
   ano: 1532,
-  gancho: "Lo escribió torturado y desterrado, para pedirle trabajo a los mismos que le habían torturado. No se lo dieron.",
+  gancho: "Nunca escribió que el fin justifica los medios, y lleva cinco siglos cargando con esa frase.",
   porQue:
-    "Cien páginas que fundaron la ciencia política y que llevan cinco siglos citándose mal. Su fama de manual de villanos es injusta.",
+    "Es el libro que separó el estudio de cómo se comporta la gente del estudio de cómo debería comportarse, y por eso sigue incomodando.",
   partes: [
     {
-      titulo: "Escrito desde el destierro",
+      titulo: "La noche en Sant'Andrea",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "En 1512 los Médici recuperaron el poder en Florencia y Maquiavelo, que había sido alto funcionario de la república anterior, lo perdió todo. Fue acusado de conspirar, encarcelado y torturado con la cuerda — le colgaron de los brazos atados a la espalda seis veces. No confesó porque no había nada que confesar. Le desterraron a una finca en el campo.",
+            "El 10 de diciembre de 1513, un funcionario despedido escribe a un amigo desde una casa de campo a once kilómetros de Florencia. Le cuenta que pasa el día cazando pájaros, discutiendo con el molinero y jugando a las cartas en la taberna con el carnicero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La carta va dirigida a Francesco Vettori, embajador florentino en Roma y amigo suyo. Maquiavelo le escribía cada pocas semanas pidiendo noticias, ofreciéndose para cualquier gestión y contándole con detalle el aburrimiento de sus días en el campo. Vettori era su única línea abierta con la política que había perdido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella correspondencia se conserva casi entera y es lo mejor que dejó escrito sobre sí mismo. Mezcla chismes de taberna, análisis diplomático y quejas por la falta de dinero, a veces en el mismo párrafo y con el mismo tono. Escribía igual de bien en las dos cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste entre las dos mitades de su día es lo que ha hecho famosa la carta. El hombre que juega a las cartas gritando con el carnicero es el mismo que a las pocas horas conversa con Tito Livio, y lo cuenta sin ninguna solemnidad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hace al anochecer",
+          frase: "Se quita la ropa embarrada del día, se pone ropa de corte y entra en su despacho a hablar con los muertos. Allí, dice, ha escrito un opúsculo sobre los principados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese opúsculo es El príncipe y la carta es la mejor prueba de cómo se escribió. En unos meses, deprisa, por un hombre sin trabajo y sin poder, que había pasado catorce años en el centro exacto de la política florentina y de pronto estaba fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nicolás Maquiavelo tenía cuarenta y cuatro años y venía de ser secretario de la segunda cancillería. Se ocupaba de la diplomacia y de asuntos militares, viajó como enviado a Francia, a Alemania y a Roma, y vio de cerca a los hombres de los que después escribiría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Catorce años de despacho le dieron algo que casi ningún filósofo político ha tenido. Vio negociar a un rey de Francia, vio a César Borgia dar órdenes, trató con el papa y con el emperador, y todo eso está en el libro convertido en ejemplos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estilo del libro viene también de ahí y se nota en cada página. No hay silogismos ni citas de autoridades escolásticas: hay casos, comparaciones entre gobernantes concretos y conclusiones sacadas de lo que él mismo había visto funcionar. Cada afirmación llega pegada al nombre de alguien que hizo eso mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese método tiene un límite evidente que conviene señalar. Todos sus ejemplos vienen de un puñado de ciudades italianas y de dos o tres décadas concretas, y sobre esa base tan estrecha construye afirmaciones sobre los hombres en general. Lo que valía en la Italia de 1500 no vale en todas partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su caída fue rápida y bastante brutal. En 1512 los Medici volvieron a Florencia con tropas españolas, la república cayó, él fue destituido y en febrero de 1513 lo detuvieron acusado de conspirar contra los nuevos señores de la ciudad. Pasó del despacho a la celda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conspiración de la que lo acusaron existió y él no participaba en ella. Un joven florentino perdió una lista de nombres, la lista incluía el suyo, y eso bastó para que lo detuvieran junto a otros veinte sospechosos de la ciudad. La lista bastó como prueba entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquellos detenidos, dos fueron ejecutados en febrero de 1513. Maquiavelo tuvo la suerte de que el cónclave eligiera papa a un Medici pocas semanas después, y la amnistía por la elección lo sacó de la celda casi por casualidad. Le salvó la vida un cónclave.",
         },
         {
           forma: "arte",
           texto:
-            "Allí escribió que por las noches se quitaba la ropa de campo llena de barro, se ponía sus mejores vestiduras y entraba a su despacho a conversar con los autores antiguos, que le respondían amablemente. De esas noches salió este libro, en unos pocos meses.",
+            "Lo torturaron con el método llamado garrucha, que consiste en colgar al reo de las muñecas atadas a la espalda y dejarlo caer. Aguantó seis tirones, no confesó nada y salió libre por una amnistía cuando un Medici fue elegido papa. Nunca dio ningún nombre bajo la cuerda.",
           arte: "escritor",
         },
         {
-          forma: "clave",
-          rotulo: "La intención real",
-          frase: "Es una instancia de empleo. Se lo dedicó a un Médici esperando que le devolvieran un puesto. Nunca le contestaron.",
+          forma: "texto",
+          texto:
+            "El detalle de los seis tirones lo cuenta él mismo en un soneto escrito en prisión. Se lo mandó a Giuliano de Medici, con humor negro, quejándose de los piojos y del ruido de las cadenas, y pidiendo que lo sacaran de allí. Escribía versos incluso desde la cárcel.",
         },
         {
           forma: "texto",
           texto:
-            "No se publicó hasta 1532, cinco años después de su muerte. Y bastante después, la Iglesia lo metió en el índice de libros prohibidos. La palabra «maquiavélico» ya se usaba como insulto en Inglaterra medio siglo más tarde.",
+            "El libro nació entonces, y nació con una intención muy concreta. Maquiavelo quería volver a trabajar, y lo escribió como una demostración de lo que sabía, dedicado a los mismos Medici que acababan de encarcelarlo y de dejarlo sin oficio. Lo escribió para los que lo encarcelaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decirlo sin adornos: es una solicitud de empleo. La dedicatoria compara el libro con el regalo que un súbdito hace a su señor, ofrece años de experiencia y termina pidiendo, casi literalmente, que se fijen en él. Ningún otro manual político tan famoso empezó siendo una carta de presentación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No le funcionó, y esa es la primera ironía de este libro. Nunca recuperó un cargo de importancia, vivió del campo y de encargos menores, y murió en 1527 sin haber vuelto al despacho desde el que había visto todo lo que cuenta. La dedicatoria no le abrió ninguna puerta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los Medici le encargaron años después una historia de Florencia y algún viaje menor. Nunca volvió a tocar poder real, y cuando la república se restauró en 1527 lo rechazaron por haber servido a los Medici, que es la ironía final de su biografía. Las dos partes acabaron desconfiando de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió en junio de 1527, pocas semanas después de aquel rechazo. Tenía cincuenta y ocho años, dejó a su familia con deudas, y su tumba en la basílica de la Santa Cruz de Florencia se levantó doscientos años más tarde. La fama le llegó bastante después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su obra completa entró en el índice de libros prohibidos en 1559 y siguió allí siglos. La prohibición no impidió que circulara: se imprimía en Ginebra y en Holanda, y los mismos que la condenaban en público la leían en privado. Prohibirlo funcionó como publicidad involuntaria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El príncipe se publicó en 1532, cinco años después de su muerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1559 la Iglesia lo puso en el índice de libros prohibidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para entonces ya circulaba copiado a mano por media Europa.",
         },
       ],
     },
     {
-      titulo: "Cómo son las cosas",
+      titulo: "El cadáver partido en la plaza de Cesena",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su ruptura no es proponer la crueldad: es cambiar la pregunta. Toda la tradición anterior escribía sobre cómo <em>debería</em> gobernar un príncipe virtuoso. Maquiavelo dice expresamente que él va a escribir sobre cómo se gobierna de hecho, porque hay tanta distancia entre cómo se vive y cómo se debería vivir que quien persigue lo segundo se arruina.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El giro que funda la ciencia política",
-          frase: "Deja de preguntar qué es lo justo y empieza a preguntar qué funciona. Separa la política de la moral.",
+            "La mañana del 26 de diciembre de 1502, los habitantes de Cesena encontraron en la plaza el cuerpo de un hombre cortado en dos pedazos. Al lado había un trozo de madera y un cuchillo ensangrentado, y nadie necesitó que le explicaran quién lo había ordenado.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí sus consejos más famosos y más citados fuera de contexto. Que es mejor ser temido que amado, si hay que elegir — pero añade inmediatamente que hay que evitar ser odiado a toda costa, y que para eso basta con no tocar los bienes ni las mujeres de los súbditos, porque la gente olvida antes la muerte de un padre que la pérdida de su patrimonio.",
+            "El detalle del leño y el cuchillo importa más de lo que parece. No era un cadáver abandonado: era una escena montada, con los objetos colocados para que cualquiera entendiera de un vistazo que aquello había sido una ejecución ordenada desde arriba. El mensaje se leía sin palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Maquiavelo lo cuenta en dos frases y sin ningún juicio moral, que es lo que impresiona. Escribe que aquel espectáculo dejó al pueblo satisfecho y a la vez estupefacto, y pasa al párrafo siguiente sin detenerse a valorarlo. El silencio moral de ese párrafo ha escandalizado a lectores de cinco siglos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frialdad es la marca del libro entero y también su mayor problema como lectura. Describir sin valorar es exactamente lo que hace útil un informe y exactamente lo que hace intolerable un consejo cuando se trata de personas. El género del informe y el del consejo no se llevan bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El muerto era Remirro de Orco, el hombre que César Borgia había enviado a pacificar la Romaña. Había cumplido el encargo con una dureza extrema, había dejado la región tranquila y ordenada, y se había vuelto odioso para toda la población. Había hecho exactamente lo que le pidieron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Romaña que recibió Remirro era un territorio de señores pequeños en guerra permanente. Dos años después estaba unificada, sin bandidos y con tribunales que funcionaban, y esa transformación es la que Maquiavelo pone en el platillo de la balanza. El orden llegó, y llegó así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el argumento incómodo que el libro deja sobre la mesa. Un territorio en paz, con caminos seguros y justicia funcionando, se construyó sobre una violencia que Maquiavelo describe sin ocultarla y sin condenarla en ningún momento. El libro deja al lector con la cuenta hecha y sin conclusión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene añadir un dato que Maquiavelo no menciona. Aquella paz duró lo que duró el poder de los Borgia, y en cuanto cayeron, la Romaña volvió a llenarse de señores pequeños peleando entre ellos como habían hecho antes. Aquel orden dependía de un hombre y no de ninguna institución nueva.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La jugada completa",
+          frase: "Borgia usó a Remirro para hacer el trabajo sucio y después lo ejecutó en público para quedarse con el mérito del orden y descargar en él el odio de la crueldad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Maquiavelo estaba allí. Había sido enviado como legado florentino ante Borgia y pasó meses observándolo de cerca, y esa cercanía explica que el capítulo séptimo del libro sea un retrato admirado de alguien que apenas tenía veintisiete años. No escribía de oídas: había cenado con aquel personaje en varias ocasiones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellas misiones dejaron además informes escritos que se conservan. Maquiavelo mandaba a Florencia despachos casi diarios describiendo lo que veía, y varios pasajes del libro son casi transcripciones de aquellos informes de hace cinco siglos. Se pueden leer hoy y comparar con lo que acabó publicando después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale una de las distinciones más incómodas del libro. Maquiavelo separa la crueldad bien usada de la mal usada, y no lo hace por moral: la primera se aplica de golpe, por seguridad, y se convierte después en provecho para los súbditos. La distinción es técnica, no moral.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entender qué significa bien usada en su vocabulario, porque no es un elogio. Significa eficaz, calculada y limitada en el tiempo, y él mismo escribe unas líneas después que con esos métodos se puede ganar poder pero no gloria. Eficacia y decencia van por separado aquí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción entre poder y gloria aparece varias veces en el libro. Es lo más cerca que está de un juicio moral, y consiste en aceptar que ciertos métodos funcionan y a la vez dejan al que los usa fuera de la memoria honrada. Duran los estados; no duran los nombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La mal usada es la que empieza pequeña y crece con el tiempo. Un gobernante que va aumentando el castigo poco a poco vive con el cuchillo en la mano, nunca puede contar con nadie y acaba destruido por el miedo que ha ido sembrando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El razonamiento tiene una lógica difícil de rebatir en sus propios términos. Si el daño va a ocurrir de todos modos, concentrarlo produce menos daño total que estirarlo, y esa aritmética es lo que hace el pasaje tan incómodo de leer. Aceptar la premisa ya es medio camino.",
         },
         {
           forma: "arte",
           texto:
-            "Su idea de la crueldad es contable, no sádica: si hay que hacer daño, hazlo todo de golpe y al principio, y no lo repartas a lo largo de los años. Los beneficios, en cambio, hay que darlos poco a poco para que se saboreen. Es frío, y no recomienda hacer más daño del estrictamente necesario.",
-          arte: "museo",
-        },
-      ],
-    },
-    {
-      titulo: "El zorro y el león",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "Su imagen más conocida: un gobernante debe saber ser zorro y león a la vez. León para asustar a los lobos, zorro para reconocer las trampas. Solo león es un estúpido; solo zorro, un cobarde. Y advierte de que quien no sepa disimular no durará, porque los hombres son tan simples que siempre se encuentra a quien se deje engañar.",
-        },
-        {
-          forma: "clave",
-          rotulo: "Lo que dice sobre las promesas",
-          frase: "Un príncipe no debe mantener su palabra cuando hacerlo le perjudica y ya no existen las razones que le hicieron prometer.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "También distingue entre virtud y fortuna. La fortuna, dice, gobierna la mitad de nuestros actos, pero deja la otra mitad a nosotros. La compara con un río crecido que arrasa todo — y señala que en tiempos de calma se pueden construir diques, y que quien lo hizo aguanta la riada.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Su otro consejo práctico es sobre el consejo mismo: rodéate de gente que te diga la verdad, pero solo cuando tú preguntes, y solo sobre lo que preguntes. Un príncipe que escucha a todo el mundo cambia de opinión cada semana y pierde el respeto; uno que no escucha a nadie se estrella.",
-        },
-      ],
-    },
-    {
-      titulo: "El malentendido",
-      tarjetas: [
-        {
-          forma: "arte",
-          texto:
-            "Hay una lectura muy defendida que cambia el sentido del libro. Maquiavelo fue republicano toda su vida y en su otra obra grande defiende con entusiasmo el gobierno del pueblo. Rousseau sostuvo que <em>El príncipe</em> es en realidad una sátira: un manual que enseña al pueblo cómo funcionan de verdad los tiranos, disfrazado de regalo para uno de ellos.",
+            "Conviene precisar lo que este pasaje no dice, porque se cita mucho y mal. No defiende la crueldad como método preferible, dice que quien tenga que usarla la use de una vez, y añade que a esas cosas no se las puede llamar virtud. Concentrar el daño no es aprobarlo.",
           arte: "noche",
         },
         {
           forma: "texto",
           texto:
-            "No hay acuerdo entre los historiadores y probablemente no lo haya nunca. Lo que sí es seguro es que la frase que todo el mundo le atribuye —que el fin justifica los medios— no aparece en el libro. Lo más cercano es que en las acciones de los hombres se mira al resultado, que es una observación, no una autorización.",
+            "El propio Borgia sirve además de argumento contra el libro. Maquiavelo lo presenta como el modelo a imitar, y aquel modelo se desmoronó en pocos meses en cuanto murió su padre, el papa Alejandro sexto, que era quien sostenía todo el edificio. El modelo se cayó antes que nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle es aún más duro para la tesis del libro. Borgia cayó enfermo justo cuando murió su padre, no pudo controlar el cónclave desde la cama y perdió en semanas todo lo que había construido a lo largo de cuatro años. La suerte también decidía en su caso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Maquiavelo estuvo en Roma durante aquel cónclave y lo vio hundirse. Mandó a Florencia informes describiendo a un hombre que perdía aliados cada día, y aun así diez años después lo puso en su libro como modelo a estudiar. Ver caer a alguien tan de cerca no siempre cura la admiración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación que da Maquiavelo de ese fracaso es débil y hay que decirlo. Sostiene que Borgia solo cometió un error, permitir la elección de un papa enemigo, y esa manera de salvar la teoría culpando al detalle es lo que él critica en otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Borgia murió en 1507, en una escaramuza en Navarra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tenía treinta y un años y ya no le quedaba nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El modelo del libro duró menos que el libro mismo.",
+        },
+      ],
+    },
+    {
+      titulo: "El zorro, el león y la frase que no escribió",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La imagen más famosa del libro está en el capítulo dieciocho. Dice que el príncipe debe saber usar la bestia y el hombre, y que entre las bestias tiene que elegir dos: la zorra y el león, porque cada una sirve para lo que la otra no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen no es original suya y él no lo esconde. Viene de Cicerón, que había escrito que hay dos maneras de hacer daño, la fuerza y el fraude, propias del león y de la zorra, y que las dos son indignas de un hombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El giro que hace Maquiavelo con esa herencia es lo interesante. Cicerón usaba la comparación para condenar las dos conductas, y aquí se convierte en una recomendación práctica, con la moral clásica citada del revés y sin ningún aviso. Tomar una condena clásica y convertirla en consejo es su marca de fábrica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese uso de las fuentes clásicas es constante en él. Cita a los mismos autores que citaban sus contemporáneos y saca conclusiones opuestas, y esa manera de apropiarse de la tradición es lo que más escandalizó a los lectores cultos. Leía lo mismo y concluía lo contrario.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "No es un manual para ser malvado. Es la primera descripción honesta de cómo se comporta el poder cuando nadie mira.",
+          rotulo: "Por qué las dos y no una",
+          frase: "El león no reconoce las trampas y la zorra no se defiende de los lobos. Hacen falta las dos, y quien solo entiende una de ellas no dura.",
         },
         {
           forma: "texto",
           texto:
-            "Se lee en dos tardes, está lleno de ejemplos históricos que ya no reconocemos —conviene saltárselos sin culpa— y su valor real hoy no es aprender a gobernar sino aprender a leer a los que gobiernan. Cinco siglos después, sigue siendo desconcertante lo bien que describe las noticias de cualquier semana.",
+            "Ese mismo capítulo contiene el consejo que le dio fama de cínico. Un gobernante no debe cumplir su palabra cuando cumplirla lo perjudica y han desaparecido las razones que le hicieron prometer, porque los demás tampoco la cumplirían con él. El realismo aquí se vuelve receta.",
         },
         {
           forma: "texto",
           texto:
-            "Su capítulo más incómodo trata de cómo tomar una ciudad acostumbrada a gobernarse sola. Maquiavelo enumera tres opciones —destruirla, ir a vivir allí, o dejarla con sus leyes pagando tributo— y advierte de que la tercera casi nunca funciona, porque un pueblo que recuerda haber sido libre no olvida. Es una observación fría y es también, leída al revés, una de las mejores defensas de la libertad que se escribieron en su siglo.",
+            "Ese consejo viene con una condición que se cita menos que el consejo. Dice que hay que saber disimular esa conducta y parecer siempre piadoso, fiel y religioso, porque un gobernante con fama de embustero pierde precisamente lo que buscaba. Parecer decente sigue siendo obligatorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y contiene también la frase que todo el mundo le atribuye y que no escribió. En ningún sitio dice que el fin justifica los medios: lo que escribe es que en las acciones de los hombres, y sobre todo de los príncipes, se mira al resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre las dos frases no es un matiz de traductor. Una es una regla moral que autoriza cualquier cosa; la otra es una observación sobre cómo juzga la gente, y describe un hecho en vez de conceder un permiso. Describir y autorizar no son lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El origen de la confusión está en una traducción y en un resumen. Las versiones antiguas se fueron condensando hasta convertir aquella observación en un lema de tres palabras, y a partir de ahí ya nadie volvió a mirar el texto. Nadie comprueba una frase que suena redonda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase circula hoy en camisetas, en discursos y en artículos de opinión. Se le atribuye igual que se le atribuyen a Einstein cosas que nunca dijo, y comprobarlo cuesta lo que tarda uno en abrir el capítulo dieciocho. Ninguna edición del libro contiene esas cinco palabras puestas en ese orden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sirve como ejemplo de lo que enseña el propio libro sobre las apariencias. Una frase que suena a Maquiavelo funciona como si fuera suya, y la reputación acaba pesando más que el texto, que es justamente lo que él describía. La fama es un hecho político.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo diecisiete plantea la otra pregunta famosa del libro. Si hay que elegir entre ser amado o ser temido, contesta que es más seguro ser temido, porque el amor depende de la voluntad ajena y el miedo depende de uno mismo. La respuesta es más práctica que cínica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El texto es además más matizado de lo que se recuerda. Empieza diciendo que lo ideal sería ser las dos cosas, y solo pasa al miedo cuando establece que hay que elegir, que es una situación menos frecuente de lo que parece. Elegir entre las dos es lo excepcional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una advertencia en ese capítulo que casi nadie recuerda. Dice que el príncipe debe basarse en lo que depende de él y no en lo que depende de otros, y que esa es la única regla que no falla nunca. Depender de otros es el verdadero peligro.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Pero la respuesta viene con una condición que casi nadie cita. Dice que el príncipe debe hacerse temer de modo que evite el odio, y que para eso basta con no tocar los bienes ni las mujeres de sus súbditos. El odio es la línea que no cruza.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El motivo que da para lo primero es una de las líneas más frías del libro. Los hombres olvidan antes la muerte de su padre que la pérdida de su patrimonio, escribe, y sobre esa observación construye buena parte de su consejo práctico. La bolsa pesa más que el luto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese consejo tiene además una consecuencia práctica muy concreta en el libro. Maquiavelo recomienda no tocar los impuestos ni las propiedades más de lo imprescindible, y en eso es bastante menos depredador que muchos gobernantes de su época. Su príncipe roba menos que casi cualquier gobernante real de su siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo eso descansa en una decisión de método que él declara al principio. Dice que va a ir a la verdad efectiva de la cosa y no a lo que se imagina de ella, porque quien deja lo que se hace por lo que debería hacerse aprende a arruinarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa declaración es lo que hace de este un libro moderno, más que ninguna de sus recetas. Separa el estudio de cómo se comporta la gente del estudio de cómo debería comportarse, y esa separación es el nacimiento de una disciplina entera. Antes de él nadie escribía así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí viene que se le llame fundador de la ciencia política moderna. La etiqueta es discutible, porque nunca formuló leyes generales ni ningún método sistemático, y lo que hizo fue cambiar la pregunta en vez de dar una respuesta nueva. La etiqueta le queda grande y pequeña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase es un ataque directo a toda la tradición anterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los espejos de príncipes explicaban cómo debía ser un buen rey.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este libro explica cómo se conserva el poder, que es otra cosa.",
+        },
+      ],
+    },
+    {
+      titulo: "El río y los diques",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo veinticinco se ocupa de la pregunta que más le importaba. Cuánto de lo que pasa depende de nosotros y cuánto de la suerte, y su respuesta es una cifra que se ha repetido durante cinco siglos: la fortuna decide la mitad. La mitad exacta no significa nada medible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa cifra no sale de ningún cálculo y conviene decirlo. Es una manera de hablar, escrita en un capítulo que discute con quienes creían que todo estaba decidido por Dios o por los astros, y su valor es polémico y no estadístico. Discutía con astrólogos, no con estadísticos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contexto de esa discusión importa para entenderla. Italia llevaba veinte años de invasiones, saqueos y cambios de gobierno, y mucha gente había concluido que no valía la pena esforzarse porque todo estaba escrito de antemano. Cuando todo se hunde, creer que nada depende de uno resulta cómodo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contra ese fatalismo escribe todo el capítulo, y ahí está su optimismo raro. Sostiene que la mitad de lo que pasa se puede trabajar, y que resignarse a la otra mitad es una excusa de quien no quiere preparar nada. Prepararse es la mitad disponible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra mitad, o casi, la deja en nuestras manos, y ahí entra su idea de virtud. No es la virtud moral cristiana: es capacidad, energía, decisión y talento para leer el momento, y se parece más a la palabra latina que a la nuestra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa palabra es la que peor viaja del italiano de entonces al castellano de ahora. Traducirla por virtud despista, porque no tiene nada que ver con la bondad, y algunos traductores prefieren dejarla en cursiva sin traducir. Confundir esa virtud con la bondad estropea la lectura de todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En italiano la palabra conserva ecos de fuerza y de hombría que hoy resultan incómodos. Maquiavelo la usa para describir a capitanes, fundadores y conquistadores, y casi nunca para describir a nadie que se quedara quieto esperando. El vocabulario delata bien a quién miraba él cuando escribía cada página.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La imagen del río",
+          frase: "La fortuna es como un río crecido que arrasa todo a su paso. Pero cuando está tranquilo, los hombres pueden levantar diques y compuertas para que la próxima crecida haga menos daño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el consejo práctico más aprovechable del libro entero. Los diques se construyen cuando no hace falta usarlos, y quien espera a que el agua suba para pensar en ellos ya ha perdido la oportunidad de que sirvan de algo. Sirve igual fuera de la política.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen tiene además una lectura política que él busca. Los estados bien organizados en tiempos tranquilos resisten las crisis, y los que solo se organizan cuando llega el desastre descubren que ya no hay tiempo para organizarse. Improvisar en mitad de la crisis es lo que él quería evitar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mismo capítulo contiene un pasaje que conviene citar sin disimulo. Escribe que la fortuna es mujer y que hay que golpearla y someterla, y ese párrafo es machista en cualquier época y no se arregla explicando el contexto. Citarlo entero resulta más honesto que saltárselo por lo incómodo que es.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su idea de la virtud se apoya en algo muy concreto: las armas propias. Dedica dos capítulos a demostrar que las tropas mercenarias son inútiles y peligrosas, y que ningún estado se sostiene sobre soldados que combaten por dinero ajeno. Sin ejército propio no hay estado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su argumento contra los mercenarios es de una brutalidad estadística. Si son malos, te hunden; si son buenos, te conviene aún menos, porque en cuanto descubran su fuerza el peligro dejará de venir del enemigo y pasará a venir de ellos. No hay salida buena en esa disyuntiva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento tenía además pruebas a la vista de todos. Las guerras italianas de aquellos años se libraban con compañías alquiladas que cambiaban de bando según el pago, y las ciudades que dependían de ellas caían una detrás de otra. Italia entera servía de ejemplo entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Maquiavelo dedicó años a intentar cambiar aquello desde su cargo. Consiguió que Florencia aprobara una milicia propia en 1506, la organizó él mismo reclutando en el campo, y la vio tomar Pisa tras un asedio largo en 1509. Aquella victoria le dio la razón.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa no era una idea de despacho, era su proyecto personal. Como funcionario había creado una milicia de ciudadanos florentinos para no depender de mercenarios, y llegó a verla combatir y vencer en la campaña de Pisa. Escribía sobre milicias porque había reclutado a esos hombres uno a uno.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está el fallo empírico más serio de todo el libro y él no lo menciona. Aquella misma milicia se desbandó en Prato en 1512 frente a las tropas españolas, y esa derrota fue la que trajo de vuelta a los Medici y lo dejó sin trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ocurrió en Prato fue un saqueo con miles de muertos entre la población civil. La milicia ciudadana que él había organizado huyó ante la infantería española, y Florencia se rindió sin combatir en cuanto llegó la noticia. La teoría del autor se probó en el campo y salió mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese desenlace no aparece en ninguna página del libro. Un autor que exige mirar la verdad efectiva de la cosa se saltó el experimento que él mismo había montado y que había terminado exactamente al revés de lo previsto. Callar el propio fracaso es justo lo que su método prohíbe hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se cierra con un capítulo que descoloca a quien lo lee esperando cinismo. Es una llamada apasionada a expulsar a los ejércitos extranjeros de Italia, dirigida a los Medici, y termina citando unos versos de Petrarca. El tono cambia tanto ahí que parece escrito por otra persona distinta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo se ha leído durante siglos como un manifiesto patriótico. En el siglo diecinueve, los italianos que buscaban unificar el país lo citaron como una profecía, y Maquiavelo acabó convertido en héroe nacional de un país que no existía. Tres siglos después le sirvió a otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel final no encaja con la fama del resto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo hombre pidiendo un país y pidiendo un puesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos cosas caben en las mismas veinte páginas.",
+        },
+      ],
+    },
+    {
+      titulo: "Cuatro siglos leyéndolo mal",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El adjetivo maquiavélico existe desde el siglo dieciséis y no lo inventaron sus lectores. Lo inventaron sus enemigos, sobre todo en Francia e Inglaterra, donde el nombre se convirtió en sinónimo de intriga antes de que casi nadie hubiera leído el libro. La palabra viajó más que el texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Francia el ataque tuvo un motivo político concreto. Tras la matanza de San Bartolomé, en 1572, los protestantes culparon a Catalina de Medici y a los consejeros italianos, y publicaron panfletos que presentaban el libro como el manual de aquel crimen. Un libro sirvió de coartada política.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Inglaterra el rechazo tuvo también un componente religioso. Un italiano, católico y cercano al papado explicando cómo engañar a los súbditos era el villano perfecto para el público protestante de aquel siglo. El enemigo perfecto se construye siempre con lo que ya se detesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El personaje llegó incluso a los escenarios con nombre propio. En una obra de Christopher Marlowe aparece un prólogo recitado por Maquiavelo en persona, presumiendo de que la religión es un juguete de niños. Aquel Maquiavelo de escenario no se parecía en nada al de Florencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El teatro isabelino terminó de fijar esa imagen. En escena aparecía un personaje llamado Maquiavelo que se presentaba como maestro del crimen político, y esa caricatura llegó a mucha más gente que el texto original. Al público inglés le llegó el villano mucho antes que llegara el libro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El problema de fondo",
+          frase: "Se juzga un libro de veintiséis capítulos por tres frases sacadas de contexto, dos de las cuales dicen lo contrario de lo que se les atribuye.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un hecho que complica cualquier lectura simple. El mismo autor escribió por los mismos años otro libro mucho más largo, los Discursos sobre Tito Livio, que es una defensa entusiasta de la república romana y del gobierno del pueblo. Los dos libros conviven mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los Discursos son mucho más largos y bastante menos leídos. Ocupan tres libros, comentan la historia romana capítulo a capítulo y defienden que el conflicto entre el pueblo y los poderosos es lo que mantiene libre a una república. Nadie los cita en las reuniones ni los vende en los aeropuertos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí defiende cosas que sorprenden a quien solo conoce El príncipe. Que el pueblo se equivoca menos que los príncipes al elegir, que las leyes nacen de los tumultos y que un estado libre necesita instituciones que permitan acusar en público. Suena a otro autor completamente distinto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leer los dos libros seguidos cambia por completo la imagen del autor. Aparece alguien preocupado por cómo se sostiene la libertad de una ciudad, que escribe un manual para un príncipe porque era lo que había y porque necesitaba trabajo. El manual era el encargo, no la convicción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa contradicción ha dado de comer a los comentaristas durante siglos. Rousseau resolvió que El príncipe era una sátira, un libro escrito por un republicano para enseñar a los pueblos lo que les hacen sus reyes, y esa lectura sigue teniendo defensores. Sigue sin resolverse de forma satisfactoria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que esa interpretación es minoritaria y bastante frágil. La carta a Vettori y la dedicatoria muestran a un hombre que quería el puesto, no a un satírico, y el texto no tiene ni una señal de ironía que lo sostenga. Necesitaba el sueldo más que la broma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una lectura intermedia que se sostiene mejor que las dos anteriores. Maquiavelo describe cómo funciona el poder sin decir que funcione bien, y ese modo de escribir sin juzgar es precisamente lo que la mayoría de sus lectores no le perdona. Describir no obliga a estar de acuerdo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa manera de escribir tiene un coste que él pagó entero. Quien describe el poder sin condenarlo acaba pareciendo su cómplice, y cinco siglos de lectores han preferido creer que recomendaba lo que se limitaba a contar. El mensajero acabó pagando entero por el contenido del mensaje que traía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese reproche tiene sin embargo un límite que conviene reconocer. Hay pasajes en los que no describe, recomienda, y en esos pasajes el problema ya no es de lectura: está en lo que efectivamente aconseja hacer. No todo el libro es descripción, y esa parte no tiene defensa.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ahí este libro discute con La República de Platón, que está en el catálogo. Maquiavelo escribe expresamente contra los que han imaginado repúblicas que nunca se han visto, y ese golpe va dirigido a toda esa tradición. Platón dibujaba la ciudad justa y él prefería mirar las que existían.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación con El arte de la guerra, también en el catálogo, aclara qué tipo de manual es. Sun Tzu busca vencer sin combatir y evita el desgaste, y Maquiavelo da por hecho el conflicto y se ocupa de qué hacer una vez dentro de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos libros comparten sin embargo un destino curioso. Se venden hoy en la sección de negocios, recomendados como manuales de estrategia empresarial, y en ninguno de los dos casos se hablaba de vender nada a nadie. Ninguno de los dos autores escribía pensando en una sala de reuniones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa recepción empresarial dice más de nuestra época que de los libros. Convertir un manual sobre cómo conservar un principado en consejos para dirigir una empresa exige saltarse casi todo lo que hace interesante al original. Un principado y una empresa no se parecen tanto como se supone.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sigue siendo útil de verdad es más incómodo que cualquier receta. Es la costumbre de mirar cómo se comporta la gente antes de decidir cómo debería comportarse, y eso no se aprende en un resumen de aeropuerto. Esa costumbre exige mirar cosas que casi nadie quiere mirar de frente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una tercera conversación posible con Meditaciones, del catálogo. Marco Aurelio era un emperador escribiendo para sí mismo sobre cómo ser bueno, y este es un funcionario en paro escribiendo para un señor sobre cómo ser eficaz. Los dos escriben a solas y ninguno espera que lo lea nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos son cuadernos sobre el poder escritos a solas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Uno se pregunta cómo vivir; el otro, cómo durar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo sigue vendiendo más en los aeropuertos.",
         },
       ],
     },
