@@ -14,118 +14,637 @@ export const ROBA_ARTISTA: Resumen = {
   titulo: "Roba como un artista",
   autor: "Austin Kleon",
   ano: 2012,
-  gancho: "Empezó como una charla en una universidad pequeña ante unos pocos estudiantes. Alguien la colgó en internet y se leyó millones de veces.",
+  gancho: "Un poeta que tachaba periódicos con rotulador convirtió una charla improvisada en el manual de creatividad más regalado de la década.",
   porQue:
-    "Desmonta en diez reglas cortas el mito que más gente paraliza: que hay que tener una idea original antes de empezar.",
+    "Es el libro que más gente cita para justificar que copia, y dice casi lo contrario de lo que se le atribuye.",
   partes: [
     {
-      titulo: "Nada es original",
+      titulo: "El poeta que tachaba periódicos",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "En 2011 Austin Kleon, un escritor sin apenas público, dio una charla a un grupo de estudiantes en una universidad pequeña de Nueva York. Preparó una lista de las diez cosas que le habría gustado que le contaran a los veinte años. La colgó en su blog por si a alguien le servía. Se propagó sola, la leyeron millones de personas y acabó convertida en un libro que se ha traducido a más de veinte idiomas.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La regla número uno",
-          frase: "Roba como un artista. Nada es completamente original, y saberlo te libera para empezar.",
+            "Un tipo de veintitantos años se sienta con un periódico y un rotulador grueso y empieza a tachar palabras. Cuando termina la página, lo que queda sin tachar es un poema, y esa manera de escribir sin poner una sola palabra propia es el origen de todo lo demás.",
         },
         {
           forma: "texto",
           texto:
-            "Su argumento no es una excusa para copiar, y conviene entenderlo bien. Toda obra nueva se construye sobre otras: lo que llamamos originalidad es una combinación de influencias que nadie había juntado antes. El artista honesto conoce sus fuentes y las cita; el que roba de verdad es el que las esconde para parecer un genio salido de la nada.",
+            "El material eran páginas del periódico local y de los que le sobraban en la oficina. Usaba un rotulador permanente de punta gruesa, tachaba a mano y sin posibilidad de borrar, y esa imposibilidad de deshacer forma parte del método tanto como la elección de palabras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado no se parece a la poesía que se enseña en clase. Salen frases cortas, a veces absurdas, con el ritmo raro de quien no eligió las palabras, y esa extrañeza es justamente lo que las hace funcionar en una pantalla. Nadie los confundiría con poesía convencional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos poemas se publicaron en un libro entero en 2010, dos años antes que este. Vendió bastante menos y casi nadie lo menciona, pero sin él no habría existido ni la charla ni la idea de robar convertida en método. Sin ellos no existiría este libro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo se llaman esos poemas",
+          frase: "Poemas de periódico tachado. Kleon los publicó primero en un blog y después en un libro en 2010, y son literalmente texto ajeno al que solo se le quitan cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Austin Kleon nació en 1983 en un pueblo de Ohio y estudió escritura creativa. Se ganaba la vida diseñando páginas web en una biblioteca y en una agencia, escribía por las noches y llevaba años publicando en un blog que casi nadie leía. Nada de eso apuntaba a un superventas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Trabajar en una biblioteca aparece varias veces en lo que ha contado después. Pasaba el día rodeado de libros ajenos y de gente buscando cosas, y esa idea de que todo lo escrito ya está ahí, disponible y en estanterías, recorre el libro entero. Allí escribió buena parte del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su blog es anterior al libro y sigue siendo el centro de todo lo que hace. Publica desde hace casi veinte años, mantiene una lista de correo semanal y ha dicho muchas veces que el libro salió del blog y no al revés. Sigue publicando allí cada semana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle desmiente una lectura habitual del libro. No es la obra de alguien que triunfó de golpe con una idea ingeniosa, sino la de alguien que llevaba años publicando en público sin que le hiciera caso prácticamente nadie. La constancia hizo aquí bastante más trabajo que cualquier golpe de suerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El truco del rotulador nació de un bloqueo y no de una teoría estética. Kleon cuenta que no se le ocurría nada que escribir, que tenía periódicos viejos por casa y que tachar le pareció menos humillante que seguir mirando una página en blanco. Del atasco salió el método entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese origen explica el libro entero mejor que cualquier resumen. Toda su tesis es que empezar con material ajeno quita la parálisis de tener que inventar desde cero, y él lo probó antes en su propia mesa que en ninguna charla. El consejo viene de su propia mesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una honestidad poco frecuente en cómo lo cuenta. No presenta el hallazgo como una intuición genial sino como lo único que se le ocurrió estando atascado, y eso hace el consejo mucho más creíble que cualquier declaración sobre la inspiración. No presume de haber inventado nada.",
         },
         {
           forma: "arte",
           texto:
-            "De ahí su consejo más práctico: en vez de preguntarte «¿qué tengo yo que decir?», estudia a quien admiras. Y no a uno solo, porque entonces eres un imitador; a diez o quince a la vez, para que sus influencias se mezclen y salga algo que no se parece del todo a ninguno. «Coleccionar bien es la mitad del trabajo.»",
-          arte: "estanteria",
-        },
-      ],
-    },
-
-    {
-      titulo: "Empieza antes de saber quién eres",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "Su segunda regla ataca la parálisis más común: esperar a tener claro qué clase de artista eres antes de ponerte. Kleon dice que es al revés — descubres quién eres <em>haciendo</em>, no pensando. Y añade que fingir hasta conseguirlo no es una impostura: todo el mundo empieza haciendo algo que aún no sabe hacer.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El atajo",
-          frase: "Haz la cosa que te habría gustado encontrar hecha. Si no existe el libro que quieres leer, escríbelo tú.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Insiste también en usar las manos. Su mesa está dividida en dos: la digital, con el ordenador, y la analógica, con papel, tijeras y rotuladores. La analógica es donde se generan las ideas, porque el ordenador —dice— es magnífico para editar y pésimo para empezar. En cuanto abres un documento en blanco entra el crítico, y el crítico mata todo lo que aún no está terminado.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Y defiende los proyectos secundarios y las aficiones sin ambición: precisamente ahí, donde no hay nada en juego, es donde aparece lo bueno. Muchos artistas descubrieron su obra principal jugando con lo que hacían al margen.",
-        },
-      ],
-    },
-
-    {
-      titulo: "Aburrido por fuera",
-      tarjetas: [
-        {
-          forma: "arte",
-          texto:
-            "La regla que más choca es «sé aburrido; es la única manera de trabajar». Kleon desmonta el mito del artista caótico con una cita de Flaubert que resume el libro entero: sé ordenado y regular en tu vida para poder ser violento y original en tu obra.",
+            "El método tiene además un efecto raro que él describe bien. Al tachar no se elige qué decir sino qué dejar, y el resultado suele sorprender a quien lo hace, porque las palabras estaban ahí antes de que apareciera ninguna intención. Quitar decide más que poner.",
           arte: "escritor",
         },
         {
           forma: "texto",
           texto:
-            "Lo lleva a lo doméstico y sin romanticismo: cuídate el sueño, haz algo de deporte, ten un trabajo que pague las facturas y no te queme la cabeza, guarda un calendario donde tachar los días que has trabajado. La cadena de días tachados acaba siendo la única motivación fiable, porque no depende de que ese día te apetezca.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La otra mitad",
-          frase: "Haz buen trabajo y compártelo. No hay tercera parte del secreto.",
+            "Hay un precedente directo de esa técnica que el libro no oculta. Tom Phillips llevaba desde 1966 interviniendo una novela victoriana página a página hasta convertirla en otra obra distinta, y ese proyecto es el antepasado evidente de los poemas tachados. Phillips tardó décadas en terminarlo.",
         },
         {
           forma: "texto",
           texto:
-            "Sobre compartir tiene una idea útil y poco intuitiva: no enseñes solo lo terminado, enseña también el proceso. Los bocetos, los descartes, lo que estás leyendo. La gente no se engancha a las obras acabadas de un desconocido; se engancha a ver cómo alguien las hace.",
+            "Reconocer ese precedente es coherente con lo que el libro predica. Kleon nombra a sus fuentes casi obsesivamente, llena las páginas de citas atribuidas y hace en su propio texto lo que pide al lector: enseñar de dónde ha sacado cada cosa. Predica con el ejemplo en cada página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro que salió de ahí es minúsculo y conviene decirlo. Son unas ciento cuarenta páginas con mucho espacio en blanco, dibujos hechos a mano y listas, y se lee entero en una hora larga sin ningún esfuerzo. Esa brevedad forma parte del argumento y no solo del formato editorial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa brevedad es una decisión de diseño y también su mayor límite. No hay ejercicios, ni ejemplos desarrollados, ni un solo estudio citado, y quien busque un método detallado va a terminar con una colección de frases bien dichas. Quien busque bibliografía y notas al pie tiene que mirar en otra parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entonces saber qué se compra al comprarlo. Es un empujón bien escrito para alguien que no se atreve a empezar, no un manual, y medirlo con la vara de un ensayo es pedirle algo que nunca prometió dar. Se compra un empujón bien escrito y no se compra un método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Medido con esa vara, cumple bastante bien lo que promete. Se lee en una tarde, deja tres o cuatro ideas que se recuerdan un año después y consigue que alguien atascado se levante a hacer algo, que no es poco para un libro tan corto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sirve mejor a los veinte que a los cuarenta, y eso también hay que decirlo. Quien ya tiene un oficio y una manera de trabajar encontrará poco nuevo, y quien no ha empezado encontrará justo el permiso que le estaba faltando. Es un libro de principiantes asumido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar desde el principio lo que el libro no defiende. No defiende el plagio, no dice que copiar sea legítimo y dedica páginas a separar el robo bueno del malo, y aun así es lo primero que mucha gente cree al ver el título.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título es una provocación calculada y funcionó muy bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Viene de una frase que se le atribuye a Picasso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa atribución, como se verá al final, no se sostiene.",
         },
       ],
     },
-
     {
-      titulo: "La creatividad es restar",
+      titulo: "La charla de abril de 2011",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su última idea es la más liberadora para cualquiera que se bloquee ante infinitas posibilidades: elige tus límites a propósito. Escribe solo con un color, o en un cuaderno diminuto, o dedícale veinte minutos y ni uno más. La restricción no empobrece el resultado, lo obliga a existir.",
+            "En abril de 2011, Kleon fue a hablar a un centro universitario de Binghamton, en el estado de Nueva York. Le habían pedido unas palabras para estudiantes que terminaban la carrera, no tenía nada preparado y escribió la lista de cosas que le habría gustado oír a los diecinueve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle de que no tuviera nada preparado es importante y él lo repite. La lista salió de escribir en un rato lo que le habría servido saber a los diecinueve años, y esa urgencia explica por qué son diez frases y no diez capítulos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El público de aquella charla eran estudiantes a punto de terminar en plena resaca de la crisis de 2008. Salían a un mercado laboral hundido, y buena parte del consejo está pensado para quien no va a tener el trabajo que esperaba tener. El consejo está pensado para ese momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa fecha explica el pesimismo de fondo que el libro esconde bajo el tono animado. No promete éxito, ni carrera, ni reconocimiento en ninguno de sus diez capítulos, y lo máximo que ofrece es una manera de seguir haciendo cosas igualmente. Ofrece seguir trabajando, no ofrece éxito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La charla se titulaba cómo robar como un artista y otras nueve cosas que nadie me contó. Duró unos veinte minutos, la dio delante de un público pequeño y la colgó en su blog al día siguiente con las diapositivas enteras. Aquel título ya era el del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella entrada se volvió viral en cuestión de días y ahí cambió todo. La leyeron cientos de miles de personas, la compartieron diseñadores y profesores, y una editorial le propuso convertirla en libro antes de que terminara el año. El libro llegó después, cuando aquella lista ya se había hecho famosa sola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que se compartió no fue un texto largo sino unas diapositivas con frases sueltas. Se leían en dos minutos, se entendían sin contexto y cabían en una pantalla, que es exactamente el formato que circulaba bien en internet aquel año. Cabía entero en una sola pantalla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese formato tiene un coste evidente que arrastra el libro entero. Las ideas están enunciadas y no argumentadas, y el lector que quiera saber por qué algo es así solo encuentra una frase bien construida y un dibujo al lado. Enunciar no es lo mismo que demostrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un lector para el que ese coste no importa nada. Quien lleva meses sin empezar no necesita un argumento, necesita una frase que lo levante de la silla, y para eso las ideas enunciadas funcionan mejor que las demostradas. A veces basta con levantarse de la silla.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El libro es la charla",
+          frase: "Los diez puntos del libro son los diez puntos de aquella charla, en el mismo orden. Lo que añadió fueron dibujos, ejemplos y un poco de respiración entre uno y otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese origen deja una marca que se nota en cada página. Está escrito para alguien que empieza y no para alguien que lleva veinte años trabajando, y su tono es el de un hermano mayor dando consejos en una cafetería. Habla siempre a quien está empezando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La editorial fue Workman, que ya publicaba libros pequeños de regalo, y eso también condiciona el resultado. El formato de bolsillo, la portada llamativa y el precio bajo lo convirtieron en un objeto que se compra para otro, y así se vendió durante años. Se compra más para regalar que para leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diseño del libro lo hizo él mismo y eso también cuenta. Los dibujos, la tipografía escrita a mano y las páginas en negro son suyos, y el objeto entero está pensado para que parezca el cuaderno de alguien y no un manual. Parece un cuaderno porque quiere parecerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dibujos no son ilustraciones encargadas ni adorno editorial. Son parte del argumento, porque el libro defiende usar las manos y está hecho a mano, y esa coherencia entre lo que dice y cómo está fabricado es de sus mayores aciertos. La forma y el fondo van juntos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El objeto físico ha resistido mejor que muchos libros de su año. Sigue funcionando como regalo, se hojea sin orden, se abre por cualquier página, y ese uso desordenado es exactamente el que su forma estaba buscando desde el principio. Se abre por donde uno quiera.",
         },
         {
           forma: "arte",
           texto:
-            "Pone el ejemplo de músicos que se pusieron reglas absurdas —grabar en tres días, con dos micrófonos, sin ordenador— y sacaron sus mejores discos. Frente a la página en blanco, no falta talento: sobra libertad.",
+            "Kleon escribió después dos libros más con el mismo formato y el mismo tamaño. Uno sobre enseñar lo que haces mientras lo haces y otro sobre seguir trabajando cuando se acaba el entusiasmo, y los tres se venden juntos como una trilogía. Los tres caben en una mano.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir de dónde viene el éxito, porque la historia se cuenta al revés muchas veces. No fue un libro que se hizo famoso: fue una entrada de blog que se hizo famosa y que después se convirtió en libro con un contrato detrás. El orden de los hechos importa mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese orden de los hechos se repite en casi todos los libros de este tipo desde entonces. Primero una charla o un hilo que funciona, después el contrato editorial, y el libro acaba siendo la versión larga de algo que ya había demostrado gustar. Primero el público y después el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que se ha vendido muchísimo y que las cifras concretas hay que mirarlas con cuidado. Se repite que supera el millón de ejemplares, y ese número sale de la editorial y no de ningún recuento independiente de ventas. Nadie ha auditado nunca esa cifra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí se puede comprobar es su presencia en escuelas de diseño y de arte. Aparece en listas de lecturas de primer curso en muchos sitios, y esa adopción institucional dice más de su utilidad real que cualquier cifra de ventas. Los profesores lo mandan de primer curso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa diferencia importa para juzgar el consejo central del libro. Kleon recomienda compartir el trabajo en internet porque a él le funcionó exactamente eso, y su caso es el de una entrada entre millones que un día se movió sola. Su caso es una excepción medible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no menciona nunca esa objeción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco menciona a los que hicieron lo mismo sin ningún resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es un sesgo de supervivencia con portada llamativa.",
+        },
+      ],
+    },
+    {
+      titulo: "Las diez cosas de la lista",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La lista tiene diez puntos y cada uno ocupa un capítulo corto. Roba como un artista, no esperes a saber quién eres, escribe el libro que quieras leer, usa las manos y cuida los proyectos paralelos son los cinco primeros. Cada punto cabe en una frase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El número diez no responde a ninguna estructura interna del libro. Era el formato de la charla, que pedía una lista redonda para estudiantes, y algunos puntos se sostienen solos mientras otros están claramente ahí para llegar a la cifra. Es una cifra de charla, no de estructura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los otros cinco son el secreto, que consiste en hacer buen trabajo y enseñarlo, la geografía ya no manda, sé amable, sé aburrido y la creatividad es restar. Ninguno ocupa más de diez páginas y varios se resuelven casi en un dibujo. El conjunto se lee en una hora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leídos juntos, los diez puntos se ordenan mejor de lo que parecen. Los tres primeros son sobre de dónde sacar material, los cuatro siguientes sobre cómo trabajar, y los tres últimos sobre cómo sostener eso durante años sin abandonarlo. Puestos en ese orden dejan de parecer una lista suelta de ocurrencias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Visto así, el libro es menos una lista que una secuencia. Primero conseguir con qué trabajar, después construir la rutina que lo sostiene, y por último aguantar el tiempo suficiente para que algo de todo aquello se convierta en un oficio. La secuencia importa más que los puntos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La idea del árbol genealógico",
+          frase: "Elige a un autor que te importe, estúdialo entero, y después estudia a los tres que él estudiaba. Así se sube por el árbol hacia atrás en vez de copiar al de al lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer punto es el que da título y el que más se malinterpreta. Kleon hace una tabla de dos columnas con el robo bueno y el robo malo, y en la buena están honrar, estudiar, dar crédito, transformar y mezclar. La tabla ocupa una página entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La distinción que propone es más exigente de lo que parece a primera vista. Robar bien obliga a estudiar a fondo al que copias, a decir de dónde viene lo que tomas y a transformarlo, y eso es bastante más trabajo que copiar y pegar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese punto es el que separa este libro de la defensa perezosa del remix. No dice que todo valga porque nada es original, dice que el trabajo de asimilar es la parte que no se puede saltar, y ahí es donde mucha gente lo cita mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El malentendido más común es tratarlo como permiso para no citar. El libro dice literalmente lo contrario, y dedica varias páginas a insistir en dar crédito y en explicar de dónde viene lo que uno usa, sobre todo al publicarlo. El libro pide crédito, no lo perdona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la columna del robo malo están degradar, hojear por encima, robar de uno solo y firmar lo ajeno. Esa tabla ocupa una página entera y es la parte del libro que más gente se salta antes de indignarse con el título. Casi nadie llega a leer esa página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo punto es el que mejor ha envejecido de los diez. Dice que no esperes a saber quién eres para empezar, porque la identidad sale del trabajo hecho y no al revés, y que fingir hasta conseguirlo tiene dos sentidos distintos. La identidad llega después del trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase de fingir hasta conseguirlo se suele entender mal en los dos idiomas. Kleon aclara que no significa engañar a nadie, sino actuar como el tipo de persona que quieres ser hasta que dejar de fingirlo sea lo natural. No es engañar, es ensayar en serio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El de usar las manos propone algo muy concreto y bastante práctico. Tener dos mesas, una analógica con papel, tijeras y rotuladores y sin ningún aparato, y otra digital, y empezar siempre en la primera para poder equivocarse deprisa. Empezar en papel evita enamorarse demasiado pronto de la primera versión que sale.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Hay que decir lo obvio del libro: son ochenta páginas de aforismos con dibujos, y quien busque profundidad se quedará con hambre. Kleon no demuestra nada, y su idea de «robar» se ha malinterpretado bastante — hay quien la ha leído como permiso para copiar sin más.",
+            "La mesa analógica no es nostalgia y él da una razón concreta. En papel se puede recortar, mover, pegar y tirar sin que nada quede guardado, y esa falta de memoria del papel evita quedarse enamorado de la primera versión. El papel no guarda ninguna versión anterior.",
         },
         {
           forma: "texto",
           texto:
-            "Y una regla más que suele pasarse por alto y que es de las mejores: la geografía ya no manda. Kleon escribe que durante siglos había que mudarse a París o a Nueva York para estar donde pasaban las cosas, y que eso se acabó — hoy puedes formar parte de una conversación desde cualquier sitio. Pero lo remata con una advertencia: el mundo se ha convertido en un pueblo pequeño donde todos se conocen, así que trata bien a la gente, responde a quien te escribe y no hables mal de nadie por escrito. Ser generoso no es una estrategia de marketing; es que las oportunidades llegan casi siempre de alguien que te recordó con simpatía.",
+            "El consejo de las dos mesas ha envejecido mejor de lo esperable. En 2012 sonaba a manía de diseñador, y hoy, con el trabajo entero dentro de una pantalla, tener un sitio físico sin notificaciones se ha vuelto un consejo casi terapéutico. Hoy suena a higiene mental básica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto de la geografía dice que ya no hace falta vivir en la ciudad donde pasa todo. Era 2012, la promesa de internet estaba intacta, y más de una década después esa afirmación se lee con bastante más ambigüedad de la que tenía entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Kleon matizó ese punto años después sin desdecirse del todo. Se mudó a Austin, escribió sobre lo que le daba vivir en una ciudad concreta, y su vida diaria contradice bastante la idea de que el sitio ya no importa. Vive en una ciudad concreta y lo cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tampoco dice que internet sustituya a estar cerca de alguien. Recomienda expresamente buscar gente con quien trabajar, ir a sitios donde pasen cosas y salir de casa, y esa parte se olvida siempre al citar el punto de la geografía. Pide salir de casa y ver gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese matiz es el que más se pierde en los resúmenes que circulan. El libro no propone aislarse a producir para internet, propone lo contrario: buscar gente, verla en persona y usar la red solo para llegar a quien está lejos. Los resúmenes lo pierden casi siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto de ser amable es el más flojo de los diez y hay que decirlo. Se resume en que el mundo es un pueblo pequeño, que no hables mal de nadie por escrito y que hagas amigos antes que contactos, y ahí se acaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El último punto es el más útil y el que menos se cita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dice que crear consiste sobre todo en elegir qué dejar fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus poemas tachados son eso, y por eso el libro cierra ahí.",
+        },
+      ],
+    },
+    {
+      titulo: "Sé aburrido, dice el libro",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El noveno punto es el que más sorprende a quien espera un libro sobre inspiración. Dice que seas aburrido, que es la única manera de sacar trabajo adelante, y que las biografías de artistas caóticos han hecho más daño que bien a varias generaciones. Nadie espera eso de este género.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento tiene detrás una observación bastante afilada sobre las biografías. Nos han contado las vidas de los artistas por sus excesos porque los excesos se cuentan mejor, y las horas de trabajo repetido no aparecen en ninguna película. Las horas repetidas no se cuentan bien y por eso no se cuentan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro pone un ejemplo que se recuerda mucho tiempo. Cita a autores que llevaron una vida de oficina, con horarios y familia, y cuya obra es más rara y más radical que la de casi cualquier artista de leyenda con biografía turbulenta. La vida ordenada no impide nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ejemplo funciona porque desmonta una excusa muy extendida. Mucha gente no empieza porque cree que le falta una vida interesante, y el libro responde que la vida interesante suele ser consecuencia del trabajo y casi nunca su requisito. Primero se trabaja y después llega, si llega, la vida interesante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que recomienda concretamente son cinco cosas nada románticas. Cuidar el cuerpo, no endeudarse, conservar el trabajo que paga las facturas, tener un calendario y un cuaderno de registro, y elegir bien con quién vives. Ninguna de esas cinco cosas tiene nada que ver con la inspiración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El apartado de no endeudarse es el más práctico y el menos citado de todos. Dice que la deuda decide por ti qué trabajos aceptas, y que cada gasto fijo que añades reduce el número de cosas raras que puedes permitirte hacer. La deuda elige tus encargos por ti.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es también el consejo que peor encaja con el resto del género. Los libros de creatividad hablan de miedo, de bloqueo y de disciplina, y muy pocos se atreven a decir que las condiciones materiales deciden cuánto puede arriesgar cada uno. Casi nadie más habla de dinero.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "No esperes a tener una idea original. Junta las que ya te gustan y empieza hoy: lo tuyo aparece por el camino.",
+          rotulo: "La frase de Flaubert",
+          frase: "Sé ordenado y regular en tu vida para poder ser violento y original en tu obra. Es de una carta de Flaubert y Kleon la usa como resumen de todo el capítulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El consejo de conservar el empleo es el más a contracorriente del género. La mayoría de los libros de creatividad empujan a dejarlo todo, y este dice que un sueldo estable compra tiempo, tranquilidad y la posibilidad de hacer trabajo que no tiene que gustar a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese consejo tiene además una consecuencia práctica que el libro señala. Si el trabajo no tiene que pagar el alquiler, puede ser raro, lento o malo durante el tiempo que haga falta, y esa libertad no la da ningún nivel de talento. El sueldo compra permiso para fallar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese razonamiento tiene un límite que el libro no examina. Un empleo que consume doce horas y toda la energía no compra tiempo de nada, y la diferencia entre un trabajo que sostiene y uno que aplasta no aparece en ninguna página. No todos los empleos dejan energía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tampoco distingue entre quien tiene un colchón detrás y quien no. El consejo de conservar el empleo y trabajar por las noches suena razonable, y significa cosas muy distintas según quién pague el alquiler y cuántas horas queden libres. El colchón familiar cambia el consejo entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí este libro discute directamente con La guerra del arte, que está en este catálogo. Pressfield plantea la creación como una guerra diaria contra una fuerza enemiga, y Kleon propone justo lo contrario: una vida ordenada, aburrida y sin ninguna épica. Uno declara la guerra, el otro la evita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre los dos no es de tono, es de diagnóstico. Para Pressfield el problema es la falta de voluntad y para Kleon es la falta de materiales, y de ahí salen dos recetas incompatibles para el mismo bloqueo. Son diagnósticos distintos y recetas incompatibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puestos a elegir, cada uno acierta con un lector distinto. Pressfield sirve mejor a quien tiene el proyecto claro y no se sienta, y Kleon a quien se sienta todos los días y no sabe de dónde sacar nada que valga la pena. Depende de dónde esté el atasco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos coinciden, eso sí, en la única cosa que importa. Hay que sentarse a trabajar todos los días, independientemente de las ganas, y todo lo demás en ambos libros son maneras distintas de conseguir que eso llegue a ocurrir. Sentarse todos los días no se negocia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa coincidencia es el mejor argumento a favor de leer los dos seguidos. Uno da la disciplina y el otro da el material, y ninguno de los dos funciona del todo bien sin lo que aporta el otro cuando el bloqueo dura meses. Se complementan mejor de lo que parece.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El cuaderno de registro que propone es más modesto de lo que suena. No es un diario ni un sistema de productividad: es una libreta donde anotas cada día qué hiciste, con quién estuviste y qué viste, y nada más. Anotar basta; interpretar ya es otra cosa.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tampoco promete productividad ni gestión del tiempo, conviene decirlo. No hay técnicas de concentración, ni horarios, ni nada parecido a un método, y el único mecanismo que propone es aparecer todos los días delante del trabajo. Aparecer todos los días es todo el método que llega a ofrecer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa modestia lo salva de envejecer mal por ese lado. No hay ninguna técnica atada a una aplicación ni a un método de moda, y lo único que propone, aparecer y llevar un registro, se puede hacer con una libreta de dos euros. Una libreta no se queda obsoleta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo tiene además un punto ciego que se ve mejor desde ahora. Conservar el empleo y no endeudarse son consejos que suponen que hay un empleo que conservar y un margen para no endeudarse, y eso no siempre está ahí. Supone un margen que no todos tienen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kleon lo escribió trabajando en una biblioteca pública.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dejó el empleo cuando el libro ya se vendía solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El consejo, en su caso, se cumplió en ese orden.",
+        },
+      ],
+    },
+    {
+      titulo: "Robar bien, y hasta dónde llega",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La frase que sostiene el título se atribuye a Picasso en todas partes y no hay ninguna prueba de que la dijera. Los buenos artistas copian, los grandes roban aparece citada durante décadas sin una sola fuente en sus escritos ni en sus entrevistas. La cita más famosa es apócrifa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cita aparece en artículos, discursos y camisetas desde hace décadas sin ninguna referencia. Nadie ha localizado dónde la habría dicho ni ante quién, y eso la convierte en un ejemplo perfecto de lo que el propio libro pide: comprobar de dónde viene lo que tomas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión de Eliot es además más precisa y menos vistosa. Habla de poetas inmaduros y maduros, no de buenos y grandes, y explica en qué consiste el robo bueno: el que integra lo tomado en algo que tiene sentido propio. Eliot sí dejó dónde lo escribió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kleon incluye esa cita en el libro con su fuente, y el detalle importa. Es la diferencia entre repetir una frase famosa porque suena bien y comprobar quién la dijo, que es exactamente la práctica que el libro entero está recomendando. Comprobar la fuente es parte del método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está documentado es una frase muy parecida de T. S. Eliot. En un ensayo de 1920 escribió que los poetas inmaduros imitan y los maduros roban, y Kleon la cita entera en el libro, que es más de lo que hacen los que usan la de Picasso.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quién puso la frase de moda",
+          frase: "Steve Jobs la repitió en una entrevista de 1994 y la usó para explicar el Macintosh. De ahí saltó a la industria del software y de ahí a todas partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle conecta este libro con la biografía de Jobs, que también está en el catálogo. Isaacson cuenta cómo Apple tomó ideas del centro de investigación de Xerox y las transformó, y esa historia es el ejemplo perfecto de lo que Kleon llama robar bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar qué pasó en Xerox, porque también se cuenta mal. Apple visitó aquel centro de investigación con permiso y a cambio de acciones, vio prototipos que Xerox no supo convertir en producto, y de ahí salió parte de lo que hizo después. Ni fue un robo ni fue un regalo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una tercera conversación posible con Modos de ver, de John Berger. Berger explicó cómo la reproducción arranca las imágenes de su sitio y las vuelve material disponible para cualquiera, y ese es exactamente el mundo en el que el consejo de Kleon tiene sentido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Berger y Kleon llegan al mismo sitio desde extremos opuestos. Uno escribe una crítica política de cómo circulan las imágenes y el otro un manual de ánimo para principiantes, y los dos acaban diciendo que ninguna obra empieza en cero. Ninguna obra empieza en una página vacía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia está en para qué sirve saberlo. Berger lo usa para enseñar a desconfiar de cómo nos llegan las imágenes y Kleon para quitarle a alguien el miedo a empezar, y los dos usos son legítimos y no se estorban entre sí. Uno enseña a desconfiar y otro a empezar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no aporta ninguna prueba de nada y hay que asumirlo antes de leerlo. Son diez consejos ilustrados, con citas de artistas y escritores elegidas por afinidad, y su valor está en el orden que ponen, no en ninguna investigación. Son afinidades declaradas, no resultados medidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no es un defecto oculto: es el género. Un libro de ciento cuarenta páginas con dibujos no puede sostener un argumento largo, y quien lo lea esperando datos sobre creatividad tiene otros libros en este mismo catálogo para eso. El género no da para más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Comparado con otros libros de creatividad, su virtud es no fingir autoridad. No cita neurociencia mal entendida, no inventa fases del proceso creativo ni promete desbloquear nada, y esa contención es rara en una estantería llena de promesas grandes. Prefiere quedarse corto antes que prometer una cosa que no puede cumplir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no puede hacer, y no lo intenta, es enseñar a trabajar bien. No hay nada sobre técnica, sobre corregir, sobre terminar algo largo ni sobre soportar que salga mal, y todo eso pasa después del punto donde el libro se acaba. Ahí empieza el trabajo de verdad.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su parte más frágil es el sexto punto, el de hacer buen trabajo y compartirlo. Estaba escrito para el internet de 2012, con blogs, listas de correo y redes que enseñaban lo que publicabas a quien te seguía, y ese sitio ya no existe. Aquel internet ya no está.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kleon dedicó el libro siguiente entero a esa idea, y es el que peor ha aguantado. La recomendación de enseñar el proceso todos los días se convirtió después en una obligación agotadora para mucha gente que solo quería trabajar tranquila. El consejo se volvió una obligación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay ahí una ironía que merece señalarse. El libro que recomienda ser aburrido y trabajar tranquilo tuvo una continuación que empujaba a publicar cada día, y la segunda idea acabó ahogando bastante a la primera en la práctica. Predicar calma y pedir publicación diaria no acaban de encajar entre sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kleon ha ido corrigiendo eso en público con los años. Escribe menos y más despacio, defiende ahora desconectar y trabajar sin enseñarlo, y su tercer libro va justo de aguantar cuando el entusiasmo y el público se han ido. El tercero es el más honesto de los tres y el menos citado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Más de una década después, la lista sigue circulando más que el libro. Se cita en aulas, en charlas y en carteles de estudios de diseño, y muy poca gente que la repite sabe que salió de un discurso improvisado para estudiantes. La lista viaja mejor que el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda intacto es la parte que no depende de ninguna plataforma. Que la originalidad no es un punto de partida sino un resultado, y que copiar a varios a la vez durante años es lo que acaba pareciendo un estilo propio. Eso no depende de ninguna red social.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Kleon lo resume en una línea del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Copiar a uno es plagio; copiar a muchos es investigación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Robar bien no es tomar algo, es continuarlo.",
         },
       ],
     },
