@@ -6421,115 +6421,628 @@ export const MATAR_RUISENOR: Resumen = {
     "Cuenta un juicio por violación en el sur racista de los años treinta desde los ojos de una niña de ocho años. Y por eso funciona.",
   partes: [
     {
-      titulo: "Maycomb",
+      titulo: "Salida: un regalo de Navidad de 1956",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Scout Finch tiene ocho años y vive con su hermano Jem y su padre Atticus, abogado viudo, en un pueblo pequeño de Alabama durante la Gran Depresión. Los dos primeros tercios del libro no van de racismo: van de una infancia. Del verano, de los vecinos, de un niño que viene de visita y de la casa del misterioso Boo Radley.",
+            "En la Navidad de 1956, Harper Lee trabajaba en Nueva York vendiendo billetes de avión y escribía por las noches. Unos amigos le regalaron un sobre con dinero suficiente para un año entero de sueldo y una nota que decía que se tomara ese año para escribir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llevaba siete años en Nueva York sin publicar nada. Había dejado la carrera de Derecho a un año de terminarla, trabajaba de dependienta de mostrador en una compañía aérea y escribía relatos por las noches en un piso frío del East Side. Escribía a mano y pasaba a máquina después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel abandono de la carrera fue casi un escándalo familiar. Su padre esperaba que se incorporara al despacho con su hermana Alice, que sí ejerció como abogada hasta pasados los cien años, y ella se marchó al norte sin título. Nunca llegó a colegiarse como abogada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alice Lee fue además la guardiana de su hermana durante sesenta años. Llevaba sus contratos, filtraba las peticiones de entrevistas y administraba los derechos del libro, y murió en 2014 con ciento tres años. Ejerció como abogada en el mismo despacho hasta pasados los cien años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos amigos eran Michael y Joy Brown, él compositor de teatro musical. No era un préstamo ni un adelanto: era un regalo, con la única condición de que escribiera lo que le diera la gana, y ella dejó el trabajo en enero. El sobre estaba colgado del árbol de Navidad.",
         },
         {
           forma: "arte",
           texto:
-            "Boo es el hombre que nadie ha visto salir en años y sobre el que los niños han construido una leyenda de monstruo. Se pasan los veranos retándose a tocar su puerta. Y de vez en cuando aparecen regalitos en el hueco de un árbol — cordel, jabones tallados, un reloj— que alguien deja para ellos.",
-          arte: "explorar",
-        },
-        {
-          forma: "clave",
-          rotulo: "El título",
-          frase: "Atticus les dice que es pecado matar a un ruiseñor, porque no hace nada más que cantar para nosotros.",
+            "El regalo tenía una nota escrita a mano que ella guardó toda la vida. Decía que tenía un año libre de su trabajo para escribir lo que quisiera, y firmaba con un feliz Navidad, sin condiciones ni fecha de devolución. Aquel papel acabó en una exposición.",
+          arte: "escritor",
         },
         {
           forma: "texto",
           texto:
-            "Esa frase es la clave del libro y no se explica hasta el final. Hay dos personajes que son ruiseñores, y ninguno es el que el lector espera. Harper Lee construye trescientas páginas para que esa idea aterrice en la última.",
+            "La escena parece de novela y está documentada. Los Brown eran una pareja joven con dos hijos, no tenían dinero de sobra y habían tenido un buen año, y decidieron gastárselo en dar un año libre a una amiga que escribía. Ninguno de los dos era rico entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lee les devolvió el favor con creces años después. Con el dinero del libro pudo mantener a su familia y ayudar a quien quiso, y siempre contó aquel regalo como el momento exacto en el que su vida cambió de dirección. Siguieron siendo amigos el resto de sus vidas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El regalo",
+          frase: "Un año de sueldo entregado en un sobre, sin plazos y sin devolución.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que entregó a la editorial no era este libro. Era un manuscrito ambientado veinte años después, con Scout ya adulta volviendo a su pueblo, y su editora en Lippincott, Tay Hohoff, le dijo que lo interesante estaba en los recuerdos de infancia. Aquel primer título tardó cincuenta y cinco años en publicarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tay Hohoff llevaba décadas en el oficio y no era una editora blanda. Contó después que el manuscrito le pareció más una serie de anécdotas que una novela, y que aun así vio dentro algo que merecía dos años de trabajo. Trabajaron juntas casi todos los días laborables.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel trabajo conjunto se ha reconstruido con los archivos de la editorial. Hubo tres reescrituras completas, discusiones sobre la estructura y un momento en que Lee tiró el manuscrito por la ventana a la nieve y tuvo que salir a recogerlo. Ella misma contó esa escena años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar entonces de quién es este libro. Es de Harper Lee, que escribió cada frase, y a la vez el resultado de una edición tan intensa que sin ella el texto sería otro, cosa que se demostró cuando salió el borrador. Ninguna de las dos habló nunca del reparto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Reescribirlo entero les llevó más de dos años de trabajo conjunto. Hohoff le pidió que contara la historia desde los ojos de la niña, en presente narrativo de la memoria, y ese cambio de punto de vista es lo que convirtió un borrador en un clásico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pueblo del libro se llama Maycomb y está copiado de Monroeville, Alabama, donde nació Lee en 1926. Su padre, Amasa Lee, era abogado y dueño del periódico local, y es el modelo declarado del personaje de Atticus Finch. El nombre Maycomb no corresponde a ningún sitio real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Monroeville tenía entonces unos dos mil habitantes y un juzgado en la plaza. Ese edificio se conserva, el pueblo representa el juicio cada primavera con vecinos como actores, y el turismo literario es hoy su principal ingreso. Aquella plaza sigue teniendo hoy el mismo aspecto de entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel juzgado se copió además para la película. El decorado de los estudios reprodujo la sala real de Monroeville con los planos originales, y hoy el edificio funciona como museo dedicado a los dos escritores del pueblo. El museo recibe visitantes de todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Capote ayudó menos de lo que se dijo. Durante décadas circuló el rumor de que él había escrito parte del libro, alimentado por su propia familia, y las cartas publicadas después demuestran que no tocó el manuscrito. Los dos se distanciaron cuando ella ganó el premio y él no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí hizo ella fue ayudarle a él. En 1959 acompañó a Capote a Kansas para investigar el crimen de A sangre fría, hizo buena parte de las entrevistas porque los vecinos hablaban con ella y no con él, y aparece agradecida en una línea. Aquel viaje duró varios meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1919 aquel padre defendió a dos hombres negros acusados de asesinato. Los condenaron y los ahorcaron, y él no volvió a aceptar ningún caso penal en toda su carrera, un dato que el libro no cuenta y que explica bastante. Los dos acusados eran padre e hijo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El niño que aparece cada verano, Dill, también existió. Es Truman Capote, que pasaba los veranos en la casa de al lado con unos parientes, y que fue amigo de Lee desde los cinco años y durante buena parte de su vida. Capote también lo reconoció por escrito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se publicó en julio de 1960 y ganó el Pulitzer al año siguiente.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Las cifras",
+          frase: "Pasa de cuarenta millones de ejemplares y sigue en los institutos americanos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Harper Lee murió en Monroeville en 2016, a los ochenta y nueve años.",
         },
       ],
     },
     {
-      titulo: "El juicio",
+      titulo: "Primera parada: dos veranos antes del juicio",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "A mitad del libro, a Atticus le asignan defender a Tom Robinson, un hombre negro acusado de violar a una chica blanca. Todo el pueblo sabe cuál será el veredicto antes de empezar, y sabe también que Atticus va a defenderlo de verdad, cosa que a muchos les parece una traición.",
+            "Scout Finch tiene ocho años y vive con su hermano Jem y su padre, un abogado viudo, en un pueblo pequeño de Alabama durante la Gran Depresión. Los dos primeros tercios del libro no van de racismo: van de una infancia con mucho tiempo libre.",
         },
         {
           forma: "texto",
           texto:
-            "En el juicio, Atticus demuestra con toda claridad que Tom no pudo haberlo hecho: las heridas de la chica están en el lado derecho de la cara, lo que exige un agresor zurdo, y Tom tiene el brazo izquierdo inutilizado desde niño. El padre de ella, en cambio, es zurdo. Nada de eso importa.",
+            "Su nombre verdadero es Jean Louise y casi nadie lo usa. Va en pantalón de peto, se pelea a puñetazos en el patio y tiene una tía empeñada en convertirla en una señorita, discusión que atraviesa el libro entero. Casi nadie recuerda cómo se llama de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tía Alexandra llega a instalarse en la casa a mitad del libro. Viene a poner orden femenino, organiza meriendas del círculo misional y representa todo aquello contra lo que la niña lleva peleando desde la primera página. Trae además un juego de té y muchas opiniones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pelea doméstica es la trama secundaria más constante. Vestidos contra pantalones, té contra árboles, y una niña que entiende que hacerse mayor significa que le van a ir cerrando puertas que a su hermano le dejan abiertas. El libro le da la razón a la niña sin decirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El plan de aquellos veranos es sencillo y absurdo. Los tres niños quieren conseguir que salga de casa Boo Radley, el vecino que nadie ha visto en años y sobre el que el pueblo entero ha construido una leyenda de monstruo doméstico. Ninguno de los tres pasa de los doce años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Boo Radley se llama en realidad Arthur. Según la leyenda del pueblo, de joven se metió en líos con una pandilla, su padre prefirió encerrarlo en casa antes que mandarlo a un reformatorio y desde entonces no ha vuelto a salir. Tiene unos treinta y tres años en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La casa de los Radley existía en Monroeville, dos puertas más allá de la de Lee. Dentro vivía un vecino recluso del que los niños del barrio contaban las mismas historias, y Capote confirmó años después ese origen. El edificio se derribó y hoy hay un puesto de helados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El gran Gatsby, que anda por este catálogo, comparte con este libro la voz del que mira. Nick Carraway y Scout cuentan lo que hacen otros desde un sitio lateral, y en los dos casos el narrador sale del relato cambiado. Los dos libros están en las mismas listas escolares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Preparan expediciones nocturnas, dejan notas en una caña de pescar y se retan a tocar la pared de la casa. Es un juego cruel de niños aburridos, y el libro lo cuenta con la gracia exacta de quien recuerda haberlo hecho. Una de esas noches casi les cuesta un disparo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras tanto empiezan a aparecer regalos en el hueco de un roble. Chicles, dos figuras talladas en jabón que se parecen a ellos, un reloj roto, una medalla de deletreo, y ninguno de los dos entiende de dónde salen. Los dos deciden dar las gracias sin saber a quién.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hueco del árbol se acaba de golpe. El hermano mayor de Boo lo tapa con cemento una mañana, diciendo que el roble está enfermo, y Jem entiende antes que su hermana lo que aquello significa y se echa a llorar. Aquel cemento tapa la única conversación posible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los regalos que aparecen ahí forman una lista pequeña y precisa. Dos chicles, dos monedas antiguas, una madeja de cordel, dos figuras de jabón, una medalla de un concurso de deletreo y un reloj de bolsillo estropeado. Las dos figuras de jabón los representan a ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada objeto de esa lista tiene sentido visto al final. Son cosas de un hombre que lleva quince años sin salir y que reúne para dos niños lo poco que tiene a mano, elegido con un cuidado que ellos no perciben. Las figuras están talladas con una navaja.",
         },
         {
           forma: "clave",
-          rotulo: "La lección que Atticus quiere que aprendan sus hijos",
-          frase: "Valor no es un hombre con un arma. Es empezar algo sabiendo que vas a perder, y hacerlo hasta el final.",
+          rotulo: "El detalle",
+          frase: "El vecino al que espían es el que les está dejando regalos.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "La escena que más se recuerda es pequeña. Cuando el jurado dicta su veredicto y la sala blanca se vacía, la galería donde se sienta la gente negra —arriba, separada— permanece en pie mientras Atticus recoge sus papeles y sale. Y un pastor le dice a Scout que se levante, que su padre está pasando.",
-          arte: "museo",
+            "Esa primera mitad es la que sostiene todo lo demás. Cuando llega el juicio, el lector ya conoce el pueblo, sabe quién vive en cada casa y ha aprendido a distinguir las voces, así que la injusticia ocurre entre gente concreta. Casi no pasa nada durante doscientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El narrador es doble y conviene notarlo. Quien cuenta es Scout de adulta recordando, con vocabulario de adulta, pero sin explicar más de lo que la niña entendía entonces, y esa tensión es el hallazgo técnico del libro. El pasado le permite juzgar sin explicar demasiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado es que el lector ve más de lo que ve la niña. Scout describe con exactitud escenas cuyo significado se le escapa, y esa distancia entre lo que cuenta y lo que ocurre es lo que produce el efecto del libro. El lector va siempre un paso por delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso más claro llega en la puerta de la cárcel. Scout reconoce entre los hombres que van a linchar a Tom al padre de un compañero de clase, le habla de sus nueces y de su hijo, y el grupo se deshace sin que ella sepa por qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Atticus resume después lo que ha pasado. Le explica a su hijo que una banda siempre está compuesta por personas, y que basta que un niño de ocho años haga que uno de ellos vuelva a serlo para que la banda se deshaga. Aquella lección tarda años en entenderse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El consejo que Atticus le da a su hija aparece pronto. Le dice que nunca se entiende a una persona hasta que uno se mete dentro de su piel y camina un rato con ella, y el libro pasa cuatrocientas páginas poniéndolo a prueba. La frase se cita hoy fuera de contexto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que ese consejo no significa aquí. No se aplica solo a los inocentes: Atticus se lo pide a sus hijos también con la vecina racista que les insulta y con el hombre que acabará intentando matarlos. Esa exigencia es más incómoda de lo que suena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro empieza contando que Jem se rompió un brazo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tarda trescientas páginas en explicar cómo ocurrió aquello.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El tono",
+          frase: "Casi todo lo grave del libro se cuenta con humor.",
         },
       ],
     },
     {
-      titulo: "Ponerse en su piel",
+      titulo: "Segunda parada: el brazo izquierdo de Tom Robinson",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La frase que Atticus repite a lo largo del libro es su método entero de educación: nunca entiendes de verdad a una persona hasta que consideras las cosas desde su punto de vista, hasta que te metes en su piel y caminas dentro de ella.",
+            "Atticus acepta defender a Tom Robinson, un jornalero negro acusado de violar a Mayella Ewell, una chica blanca de diecinueve años. En el condado, aceptar ese encargo no es un mérito profesional: es una decisión que le cuesta insultos a él y peleas a sus hijos.",
         },
         {
           forma: "texto",
           texto:
-            "Lo aplica con todo el mundo, incluidos los que le odian. Con la vecina insoportable que insulta a sus hijos y que resultó estar luchando por morir sin morfina. Con el hombre que le escupe en la cara en plena calle y al que explica, a sus hijos, desde su humillación.",
+            "El nombramiento se lo hace el juez a propósito. Podía haber asignado el caso a cualquier abogado de oficio y eligió al único del condado que iba a tomárselo en serio, y ese detalle se cuenta casi de pasada. El juez sabía perfectamente lo que le pedía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aceptarlo tiene consecuencias inmediatas en el patio del colegio. A Scout la llaman amante de negros, se pelea con dos niños en una semana y su padre le pide que no vuelva a usar los puños por ese motivo. Su tía llega a pedirle que abandone el caso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que el libro no promete con eso. Nadie cambia de opinión en Maycomb por la actuación de Atticus, el pueblo sigue igual al terminar la novela y los niños salen de la historia sabiendo bastante menos de lo que creían. El final no arregla nada de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La defensa se sostiene sobre un detalle anatómico. Las heridas de Mayella están en el lado derecho de la cara, lo que apunta a un agresor zurdo, y Bob Ewell, su padre, resulta ser zurdo delante de todo el tribunal. Nadie llamó a un médico aquella noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La demostración en la sala es puro teatro judicial. Atticus le lanza un vaso a Bob Ewell sin avisar, este lo coge con la izquierda, y después le hace firmar su nombre delante del jurado para que todos lo vean. Ewell no sabe leer del todo bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese tipo de prueba visual era lo único disponible. No había análisis forenses, ni pruebas biológicas, ni siquiera un examen médico de la denunciante, porque nadie llamó a un médico aquella noche, y eso también sale en el interrogatorio. La acusación se sostenía con dos declaraciones enfrentadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sistema de jurados era otra pieza del problema. En Alabama los jurados se formaban con listas de votantes registrados, y como a los negros se les impedía registrarse, ningún jurado del condado podía tener un solo miembro negro. Aquel mecanismo funcionó igual durante casi un siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El brazo izquierdo de Tom Robinson está inutilizado desde niño. Se lo destrozó una desmotadora de algodón, cuelga doce centímetros más corto que el otro y no puede levantarlo, y el jurado lo ve con sus propios ojos en la sala. Trabajaba recogiendo algodón solo con la derecha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las desmotadoras de algodón eran máquinas peligrosas y frecuentes. Trituraban dedos y brazos con regularidad en las plantaciones del sur, y una lesión así era tan corriente que nadie en la sala necesita que se la expliquen. Ese accidente le ocurrió siendo todavía un crío.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle del brazo no es un invento novelesco. En los casos reales de acusaciones por violación en el sur, las pruebas físicas se ignoraban con la misma frecuencia, y el resultado del jurado se sabía antes de empezar la vista. Los abogados de la época lo sabían perfectamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso de Scottsboro es el antecedente que todo el mundo cita. En 1931, nueve adolescentes negros fueron acusados de violar a dos mujeres blancas en un tren de Alabama y condenados a muerte en juicios de un día. Las condenas tardaron décadas en revisarse del todo.",
         },
         {
           forma: "clave",
-          rotulo: "Por qué lo narra una niña",
-          frase: "Scout no entiende del todo lo que ve, así que lo describe tal cual. Sin justificaciones y sin sermones.",
+          rotulo: "El veredicto",
+          frase: "Con esa prueba delante, el jurado lo declara culpable de todos modos.",
         },
         {
           forma: "texto",
           texto:
-            "Ese es el hallazgo técnico de la novela. Un narrador adulto habría explicado, matizado y editorializado. Una niña de ocho años simplemente cuenta que los vecinos de siempre, la gente amable que le regala tartas, condenó a un inocente, y deja que el lector saque la conclusión solo.",
+            "Ese es el punto entero del libro y suele olvidarse. No es una historia sobre un abogado que gana un caso imposible: es una historia sobre un abogado que hace todo bien, demuestra la inocencia de su cliente y pierde igualmente. Muchas adaptaciones suavizan justamente eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí consigue es medible y pequeño. El jurado tarda horas en deliberar, cuando en casos así el veredicto solía llegar en minutos, y ese retraso es el único avance que el libro concede en cuatrocientas páginas. Un solo hombre del jurado dudó unas horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El interrogatorio a Mayella es lo mejor escrito del juicio. Atticus la trata de señorita, ella se ofende porque cree que se burla, y en esa escena queda claro que nadie la había tratado nunca con cortesía en su vida. Ella acaba gritando y negándose a responder.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mayella tiene diecinueve años, siete hermanos pequeños a su cargo y una madre muerta. Cultiva geranios en latas rotas junto a la casa, que es el único detalle bonito que el libro le concede a esa familia. Nadie del pueblo la había visitado nunca allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La familia Ewell vive detrás del vertedero municipal. Cobran una ayuda, los niños no van a la escuela y el padre gasta el cheque en alcohol, y el pueblo lleva tres generaciones tolerándolo porque son blancos. Los hijos van a clase el primer día y no vuelven.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese retrato de clase es de las cosas más duras del libro. Los Ewell son despreciados por todo el pueblo y aun así están por encima de cualquier familia negra, y esa jerarquía es exactamente lo que sostiene la acusación. El propio libro llama a eso su única propiedad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro deja ver lo que ella hizo sin decirlo del todo. Mayella, aislada y maltratada por su padre, se acercó a Tom Robinson, y la acusación sirve para tapar algo que en aquel condado resultaba impensable admitir. Tom es condenado por haber sentido lástima por ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tom no llega a la apelación. Lo trasladan a una prisión y lo matan de diecisiete disparos cuando intenta saltar una valla, y el periódico local resume el episodio como la muerte típica de un negro que echa a correr. Su viuda pierde además el trabajo enseguida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El juicio ocupa unos diez capítulos en mitad del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los negros del pueblo siguen la vista desde el balcón.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La escena",
+          frase: "Cuando Atticus sale, todos los del balcón se ponen de pie.",
         },
       ],
     },
     {
-      titulo: "La autora y la polémica",
+      titulo: "Tercera parada: el pájaro que no es un ruiseñor",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Harper Lee publicó esto en 1960, ganó el Pulitzer, y después se retiró de la vida pública casi por completo. Volvió a su pueblo, dejó de dar entrevistas y no publicó otro libro. Era amiga íntima de Truman Capote desde la infancia y le ayudó a documentar <em>A sangre fría</em>.",
+            "El título viene de una frase que Atticus dice de pasada. Cuando les regala escopetas de aire comprimido, les advierte de que pueden disparar a lo que quieran, pero que matar a un mockingbird es pecado, y no da más explicaciones. Los niños tienen ocho y doce años.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "En 2015, con ella ya muy mayor y en una residencia, se publicó <em>Ve y pon un centinela</em> — un manuscrito anterior donde Atticus aparece con opiniones abiertamente racistas. Hubo un escándalo enorme, dudas serias sobre si ella consintió la publicación, y millones de lectores decepcionados con el personaje.",
-          arte: "estanteria",
+            "El regalo de las escopetas ocurre en una Navidad. Atticus se las da sin ganas, dice que preferiría que aprendieran a disparar a latas y añade que sabe que acabarán persiguiendo pájaros porque eso hacen todos los niños. Prefiere que aprendan a defenderse antes que a disparar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase es la única vez que Atticus dice que algo es pecado. Scout se queda tan sorprendida que va a preguntárselo a la vecina, y ese desconcierto es lo que hace que la frase se le quede grabada al lector. Nunca vuelve a repetirla en todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Atticus resulta además ser el mejor tirador del condado. Los niños lo descubren cuando el sheriff le pide que mate a un perro rabioso en mitad de la calle, y su padre lo hace de un disparo sin decir después una palabra. Sus hijos no sabían nada de aquello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La vecina, Maudie Atkinson, es quien lo aclara. Ese pájaro no come de las huertas, no anida en los graneros y no hace nada más que cantar para la gente, así que matarlo no tiene ni siquiera la excusa de ser útil. El pájaro tampoco molesta a las cosechas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Maudie es el personaje adulto más lúcido del libro. Vive enfrente, cultiva azaleas, se ríe de las señoras del club bíblico y es la única que le explica a Scout lo que su padre no le explica nunca de sí mismo. Su casa se quema y ella se ríe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella es también quien explica el veredicto. Después del juicio le dice a Jem que hay hombres en el mundo que nacen para hacer los trabajos desagradables por los demás, y que su padre es uno de ellos. Aquella conversación ocurre en su porche con pastel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar hasta dónde llega ese consuelo. Maudie no dice que las cosas vayan a cambiar: dice que se ha dado un paso pequeñísimo, y el libro se cierra sin que ese paso lleve a ningún sitio comprobable. Ninguno de los personajes sale del libro victorioso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar de dónde viene el título en español. El mockingbird no es un ruiseñor: es el sinsonte, un pájaro americano famoso por imitar cantos ajenos, y el ruiseñor de la traducción es un ave europea que no aparece en el libro. El error viene de la primera traducción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sinsonte norteño es un pájaro gris y corriente. Puede aprender doscientas melodías distintas, imita a otras aves y hasta alarmas de coche, y es el ave oficial de cinco estados del sur, entre ellos el de la novela. Su canto se oye sobre todo de madrugada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las traducciones al español han probado varias soluciones. Algunas ediciones latinoamericanas usan cenzontle o sinsonte, que son las palabras correctas, y en España se impuso el ruiseñor porque sonaba mejor en la portada. La palabra ruiseñor arrastra además una tradición poética que el original no tiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale una confusión que dura sesenta años. Muchos lectores en español creen que el título alude a un pájaro cantor europeo cargado de literatura romántica, cuando el original habla de un imitador vulgar de los jardines americanos. El sentido cambia bastante según qué pájaro se imagine.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cambio no es inocente y se nota en el sentido. El sinsonte destaca por repetir lo que oye, y esa idea encaja con un pueblo que repite prejuicios heredados sin comprobarlos, mientras que el ruiseñor solo aporta belleza. Ningún traductor ha vuelto a tocar el título.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos pájaros del título son personajes. Tom Robinson, que no había hecho daño a nadie, y Boo Radley, encerrado en su casa desde joven, son las dos criaturas inofensivas a las que el pueblo destroza por costumbre o por miedo. Ninguno de los dos hace daño a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final junta las dos líneas del libro en una noche. Bob Ewell, humillado en el juicio pese a haber ganado, ataca a los niños en la oscuridad cuando vuelven de una función escolar, y alguien sale de la nada y lo detiene. Todo ocurre en unos pocos segundos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bob Ewell había ido amenazando a todo el mundo durante meses. Escupió a Atticus en la cara en plena calle, rondó la casa del juez de noche y acosó a la viuda de Tom Robinson, y nadie del pueblo hizo nada al respecto. Perdió además el empleo pocos días después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ataque ocurre en Halloween, volviendo de una función del colegio. Scout lleva puesto un disfraz de jamón hecho con tela metálica, que le impide ver y moverse, y ese armazón absurdo es lo que acaba salvándole la vida. Jem se rompe el brazo en esa misma pelea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tela metálica del disfraz para el cuchillo y le deja una marca. Ese detalle, que parece un chiste de la primera mitad del libro, es lo que decide el desenlace, y Lee lo había colocado varios capítulos antes. Ese disfraz se lo había hecho una vecina.",
         },
         {
           forma: "clave",
-          rotulo: "La crítica que más ha crecido",
-          frase: "Es una historia sobre racismo donde los personajes negros apenas hablan y el héroe es un abogado blanco.",
+          rotulo: "El giro",
+          frase: "El vecino al que llevaban dos veranos espiando es quien los salva.",
         },
         {
           forma: "texto",
           texto:
-            "Es un reproche justo y hoy se discute mucho en las escuelas americanas, donde el libro lleva sesenta años siendo lectura obligatoria. Tom Robinson tiene muy poco texto propio y su papel es sobre todo el de poner a prueba la decencia de un hombre blanco. Léelo sabiéndolo: sigue siendo una novela extraordinaria, y ese límite forma parte de lo que retrata.",
+            "Bob Ewell aparece muerto con un cuchillo de cocina clavado. El sheriff decide, delante de Atticus, que el informe dirá que cayó encima de su propio cuchillo, y ese acuerdo se toma en el porche de la casa en cinco minutos. El sheriff se llama Heck Tate.",
         },
         {
           forma: "texto",
           texto:
-            "Un dato que cambia cómo se lee: Harper Lee creció en un pueblo de Alabama, su padre era abogado y en 1919 defendió sin éxito a dos hombres negros acusados de asesinato; los ejecutaron. Y su amigo de la infancia, ese niño rubio y fantasioso que aparece en el libro pasando los veranos con su tía, era Truman Capote. Casi nada de la novela salió de la imaginación.",
+            "Ahí el libro se contradice con su propia tesis. El abogado que ha defendido la ley por encima de todo acepta una mentira oficial para proteger a un hombre frágil, y la niña lo entiende diciendo que sería como matar a un sinsonte. Su padre le pregunta si lo ha entendido.",
         },
         {
           forma: "texto",
           texto:
-            "El personaje que sostiene la casa es Calpurnia, la cocinera negra que ha criado a los dos niños y que les lleva un domingo a su iglesia. Allí Scout descubre que Calpurnia habla distinto entre los suyos, y le pregunta por qué. La respuesta —que no serviría de nada demostrar a su gente que sabe más que ellos— es una de las lecciones más finas del libro.",
+            "Scout acompaña a Boo hasta su casa y nunca vuelve a verlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Desde el porche de él, mira su propia calle por primera vez.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El cierre",
+          frase: "El consejo de meterse en la piel del otro se cumple literalmente al final.",
+        },
+      ],
+    },
+    {
+      titulo: "Destino: el manuscrito que apareció en 2015",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En febrero de 2015 se anunció que existía un segundo libro de Harper Lee. Se llamaba Ve y pon un centinela, decía haberse encontrado en una caja de seguridad y se presentó al público como la continuación de Matar a un ruiseñor. El anuncio llegó por nota de prensa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El anuncio se dio como un hallazgo casi milagroso. La abogada de Lee contó que el manuscrito había aparecido pegado a un original mecanografiado dentro de una caja fuerte, y la editorial preparó una tirada inicial de dos millones de ejemplares. Fue el mayor lanzamiento de aquel año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión oficial cambió varias veces en pocas semanas. Primero se dijo que el manuscrito se había encontrado en 2014, después que ya se conocía desde 2011, y esa confusión alimentó las dudas sobre quién decidió publicarlo. Ninguna de las dos versiones se sostuvo del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado comercial fue enorme de todos modos. Se vendieron más de un millón cien mil ejemplares en la primera semana en Estados Unidos, y muchos lectores pidieron después que les devolvieran el dinero al terminarlo. Las críticas de los lectores fueron peores que las profesionales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar qué era en realidad ese texto. No es una secuela: es el manuscrito original de 1957, el que la editora le hizo reescribir, y lo que se publicó fue ese borrador tal cual, sin revisión y sin edición. Ninguna portada lo explicaba con esa claridad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título viene de una frase del libro de Isaías. Significa que cada persona necesita una conciencia propia que le avise, y en la novela lo dice un personaje hablando de la decepción con los padres a los que uno ha admirado. El versículo aparece citado en el epígrafe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella cita bíblica dice literalmente que se ponga un centinela para que avise de lo que ve. En el borrador la usa el tío de Scout para explicarle que cada uno debe ser su propio vigilante y no confiar en la conciencia de otro. La frase da sentido al libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leído hoy, el borrador tiene un interés que la novela no tiene. Es el retrato de una hija que descubre que su padre no es lo que creía, y esa decepción es un asunto más adulto que el que acabó llegando a las librerías. Está peor escrito y es más valiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su contenido incomodó a millones de lectores. En esas páginas, Scout vuelve a Maycomb con veintiséis años y descubre que su padre asiste a reuniones de un consejo segregacionista y defiende que los negros no están preparados para la igualdad. Muchos lectores dejaron el libro a medias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los consejos de ciudadanos existieron de verdad y eran otra cosa que el Klan. Reunían a comerciantes, abogados y banqueros del sur, se oponían a la integración escolar por vías legales y económicas, y en Alabama tuvieron miles de miembros. Se los llamó el Klan de los trajes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel personaje resulta más verosímil históricamente que el otro. Un abogado blanco del sur profundo en los años cincuenta que defendiera casos de negros y a la vez se opusiera a la integración era una figura común, y no una contradicción. El otro Atticus resulta más útil como ejemplo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra manera de verlo es que son dos libros distintos. Uno cuenta lo que un pueblo necesitaba creer sobre sí mismo y el otro lo que realmente había debajo, y publicarlos con cincuenta y cinco años de diferencia los enfrenta. Ninguna de las dos lecturas es tranquilizadora.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El golpe",
+          frase: "El Atticus del borrador defiende la segregación con argumentos educados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las circunstancias de la publicación siguen discutiéndose. Lee tenía ochenta y ocho años, vivía en una residencia, había perdido casi la vista y el oído, y su hermana Alice, que la protegía y llevaba sus asuntos, había muerto pocos meses antes. Su abogada gestionaba entonces todos sus asuntos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estado de Alabama abrió una investigación por posible abuso a una persona mayor. Los investigadores hablaron con ella, concluyeron que no había pruebas suficientes y cerraron el expediente, y el libro salió en julio de aquel mismo año. Ella dijo a los investigadores que quería publicarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo interesante del asunto no es el escándalo, sino lo que aclara. Aquel borrador enseña que el Atticus admirable no estaba en el material de partida: lo construyeron entre la autora y su editora al reescribir el libro entero. Dos años de edición cambiaron a un personaje entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ya antes había críticas serias al personaje. Malcolm Gladwell escribió en 2009 que Atticus es un liberal sureño de acomodación, que explica el racismo de sus vecinos como una circunstancia y que nunca pone en cuestión el sistema. Ese artículo molestó bastante a los lectores devotos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El artículo de Gladwell se publicó en el New Yorker y se titulaba El anillo del juzgado. Su tesis es que Atticus busca acuerdos caso por caso en vez de enfrentarse a las leyes, y que eso en los años treinta no bastaba. El texto se publicó en agosto de 2009.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo más incómodo es cómo Atticus explica a Bob Ewell. Lo presenta como producto de la pobreza y la ignorancia, algo que hay que comprender, y esa misma comprensión no se le concede nunca al jurado que condena. Esa asimetría no la comenta ningún personaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra objeción es de perspectiva. Tom Robinson apenas tiene vida interior, Calpurnia se ve solo desde la cocina de una casa blanca, y la comunidad negra del pueblo funciona como fondo de una historia protagonizada por otros. Calpurnia no tiene ni una escena sin blancos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí termina el viaje que empezó con un sobre de dinero en Navidad. Una mujer se tomó un año libre, escribió un borrador que su editora le hizo tirar, y con la reescritura salió el libro que más americanos han leído en el instituto. Nunca escribió otro libro nuevo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro sigue apareciendo en listas de títulos retirados de colegios.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Para llevarte",
+          frase: "Atticus hace todo bien, pierde el caso, y el libro no promete que la próxima vez gane.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gregory Peck ganó el Óscar por interpretarlo en 1962.",
         },
       ],
     },
