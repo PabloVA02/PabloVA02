@@ -2996,12 +2996,13 @@ export const META: FichaMeta[] = [
     ano: 2016,
     gancho: "Neurocirujano de treinta y seis años, a un año de terminar diez de formación. Le diagnosticaron cáncer de pulmón terminal.",
     porQue: "Es el libro sobre morir escrito por alguien que se había pasado la vida decidiendo, del otro lado de la mesa, cuánto le quedaba a otros.",
-    minutos: 4.2,
+    minutos: 25.3,
     capitulos: [
-      { titulo: "El escáner", minutos: 0.9 },
-      { titulo: "El otro lado de la mesa", minutos: 0.9 },
-      { titulo: "Volver a operar", minutos: 0.9 },
-      { titulo: "El epílogo", minutos: 1.5 },
+      { titulo: "Salida: una pantalla de escáner en mayo de 2013", minutos: 5.1 },
+      { titulo: "Primera parada: diez años aprendiendo a abrir cabezas", minutos: 4.9 },
+      { titulo: "Segunda parada: la curva que su oncóloga no quiso enseñarle", minutos: 5.1 },
+      { titulo: "Tercera parada: una niña nacida con el reloj en contra", minutos: 5 },
+      { titulo: "Destino: un libro que se queda sin final", minutos: 5.3 },
     ],
   },
   {
