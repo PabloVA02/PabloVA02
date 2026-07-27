@@ -1375,118 +1375,635 @@ export const EDUCADA: Resumen = {
   ano: 2018,
   gancho: "Pisó un aula por primera vez a los diecisiete años. Diez años después era doctora por Cambridge.",
   porQue:
-    "Unas memorias que se leen como una novela y que plantean la pregunta más difícil: qué haces cuando educarte te separa de tu familia.",
+    "Plantea la pregunta más difícil, qué haces cuando educarte te separa de tu familia, y es honesto sobre lo poco fiable que es su propia memoria.",
   partes: [
     {
-      titulo: "Sin partida de nacimiento",
+      titulo: "La montaña sin partida de nacimiento",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Tara Westover creció en una montaña de Idaho, la menor de siete hermanos de una familia mormona fundamentalista. Su padre desconfiaba del gobierno, de los médicos y de las escuelas públicas: creía que el fin del mundo era inminente y preparaba a la familia para sobrevivir a él. Ninguno de los hijos pequeños fue registrado al nacer.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El punto de partida",
-          frase: "No fue al colegio. No tuvo historial médico. Oficialmente, durante años, no constaba que existiera.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Trabajó desde niña en el desguace familiar, manejando chatarra y maquinaria pesada sin ninguna protección. El libro describe accidentes graves —quemaduras, caídas, un hermano con la cabeza abierta— que se trataban en casa con remedios caseros de su madre, que ejercía de partera y herborista. Nunca pisaron un hospital.",
-          arte: "memoria",
+            "Tara Westover nació en 1986 en una granja del sur de Idaho, al pie de una montaña que su familia llamaba el Pico de Buck. Era la séptima y última hija, y durante nueve años no existió para el Estado porque nadie inscribió su nacimiento.",
         },
         {
           forma: "texto",
           texto:
-            "Cuenta también la violencia de uno de sus hermanos mayores, que la agredía repetidamente, y algo más difícil de asimilar: cómo el resto de la familia construía versiones alternativas de lo ocurrido hasta que ella misma dudaba de su memoria.",
+            "Ni siquiera la fecha de nacimiento está clara en el libro. Cuando por fin tramitaron los papeles, su madre y su abuela no coincidían en el día, hubo que elegir uno, y ella creció sabiendo que su cumpleaños era una decisión administrativa. Su cumpleaños fue una decisión administrativa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle vale como resumen de toda la primera parte del libro. Cuando no hay registros, no hay una versión oficial de nada, y todo lo que se sabe de una infancia depende de quién lo cuente y de cuánto le convenga recordarlo así. Sin registros no hay versión oficial de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La casa estaba a las afueras de un pueblo pequeño llamado Clifton. Es una zona agrícola del sur de Idaho, cerca de la frontera con Utah, con pocos cientos de habitantes y con una montaña que domina el paisaje desde cualquier ventana. Unos cientos de habitantes y una montaña enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La falta de papeles no era un descuido sino una postura. Su padre creía que el gobierno federal perseguía a las familias creyentes, y no quería que ninguno de sus hijos apareciera en un registro, una escuela o un historial médico. No era descuido: era una decisión política.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa desconfianza tenía además referencias concretas y muy vivas en la zona. A principios de los noventa, un asedio federal a una familia aislada de Idaho terminó con varios muertos, y el padre contaba aquel suceso en la cena como un aviso de lo que les esperaba.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que no tuvo de niña",
+          frase: "Ni partida de nacimiento, ni colegio, ni vacunas, ni médico, ni un solo día dentro de un aula hasta los diecisiete años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La preparación para el fin del mundo ocupaba buena parte del calendario familiar. Guardaban melocotón en conserva, gasolina, munición y agua, y hacia 1999 el padre estaba convencido de que el cambio de siglo iba a tumbar la civilización entera. Conservas, gasolina, munición y agua guardada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro describe además una mochila preparada para cada hijo. Contenía comida, agua y lo imprescindible para huir al monte, se revisaba periódicamente, y estaba junto a la puerta por si llegaba el momento de escapar de las autoridades. Una mochila junto a la puerta, revisada cada poco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La familia era mormona y a la vez muy distinta de sus vecinos mormones. El padre esperaba el fin del mundo, guardaba combustible, armas y melocotón en conserva, y sostenía que las autoridades de la propia iglesia se habían ablandado. Sostenía que la propia iglesia se había ablandado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando llegó el año 2000 y no pasó absolutamente nada, hubo un silencio incómodo en casa. El libro cuenta esa mañana con humor seco: la nevera seguía funcionando, la radio hablaba de fuegos artificiales, y nadie mencionó el asunto nunca más. Nadie volvió a mencionar el asunto jamás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar esto porque el libro se lee muchas veces como un retrato de una religión. La Iglesia mormona no enseña nada de lo que hacía aquella familia, y las propias memorias señalan que los vecinos creyentes llevaban a sus hijos al colegio con normalidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La propia autora ha insistido en eso en entrevistas posteriores. Dice que su libro trata de una familia concreta y no de una comunidad, y que le incomoda que se use como munición contra los millones de personas que comparten esa fe sin nada de aquello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La educación en casa consistía sobre todo en no ir a clase. Había libros del Antiguo Testamento, discursos de líderes religiosos y algún manual suelto, y la mayor parte del día se trabajaba en el desguace o se preparaban conservas. Se trabajaba en el desguace o se hacían conservas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene distinguir aquello de lo que se llama educación en casa en otros sitios. Hay familias que enseñan en casa con temario, exámenes y horarios, y lo que describe este libro es sencillamente la ausencia de cualquier enseñanza organizada. Aquí no hubo temario, ni exámenes, ni horarios: sencillamente no hubo enseñanza organizada de ningún tipo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El padre tenía un desguace de chatarra en la finca y allí trabajaban los hijos desde pequeños. Cortaban metal, cargaban depósitos y separaban cobre sin gafas, sin guantes y sin ninguna medida de seguridad, porque él consideraba que el miedo era falta de fe. Para él, el miedo era falta de fe.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que más aparece de aquel trabajo es la máquina de cortar chatarra. La llamaban la cizalla, mordía planchas de metal con una fuerza enorme, y el padre les pedía que metieran las piezas a mano mientras la máquina seguía funcionando. Había que meter las planchas con la máquina en marcha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La madre trabajaba de comadrona sin licencia y como herbolaria. Atendía partos en casas de la zona, preparaba tinturas, y con el tiempo montó un negocio de aceites esenciales que acabó siendo bastante grande y sostuvo económicamente a toda la familia. Atendía partos sin licencia y preparaba tinturas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese negocio es uno de los datos que más sorprende al final del libro. La familia que vivía preparándose para el colapso acabó dirigiendo una empresa próspera de productos naturales, con empleados, almacén y clientes en todo el país. Los que esperaban el colapso acabaron dirigiendo una empresa próspera con empleados y clientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En aquella casa no se llamaba al médico bajo ninguna circunstancia. Los huesos rotos, las quemaduras y las conmociones se trataban con hierbas, con imposición de manos y con una preparación de la madre que aparece una y otra vez en el libro. Huesos, quemaduras y golpes, todo curado en casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La madre justificaba esas curaciones con una mezcla de fe y de método propio. Decía consultar la respuesta correcta a través de las sensaciones de sus dedos, una técnica que aprendió de otras herbolarias, y la familia la aceptaba como diagnóstico. La familia lo aceptaba como diagnóstico válido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tres de los siete hermanos acabaron con un doctorado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los otros cuatro no llegaron a terminar la enseñanza obligatoria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todos crecieron en la misma casa y con los mismos padres.",
         },
       ],
     },
     {
-      titulo: "El examen",
+      titulo: "El chatarrero y la comadrona",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Un hermano mayor que se había marchado a estudiar le dijo que podía presentarse a la prueba de acceso a la universidad sin haber ido nunca al instituto. Ella se compró libros de texto y estudió a escondidas, empezando por álgebra que no había visto en su vida. Suspendió la primera vez. La segunda entró en la Universidad Brigham Young.",
+            "El libro está lleno de accidentes contados con una frialdad que asusta más que los gritos. Uno de los hermanos se cayó de una plataforma elevada sobre hormigón y hierros, quedó con la cabeza abierta, y lo llevaron a casa en vez de a un hospital.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel hermano quedó con secuelas que el libro relaciona después con su carácter. Cambió tras el golpe, tuvo problemas de control y de memoria, y la propia autora se pregunta en voz alta cuánto de lo que vino después empezó aquella tarde. Ella se pregunta cuánto empezó aquella tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella misma advierte de que esa explicación es cómoda y quizá falsa. Reconoce que atribuir la violencia a un golpe en la cabeza sirve para no culpar a nadie, y deja la pregunta abierta en vez de resolverla en su favor. Deja la pregunta abierta en vez de resolverla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El padre sufrió el peor de todos cuando le explotó un depósito de combustible. Perdió buena parte de la cara y de las manos, estuvo semanas al borde de la muerte en el salón de su casa, y la familia lo curó con la preparación de la madre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel hombre sobrevivió y ese hecho reforzó todo el sistema de creencias. Para la familia no fue una casualidad médica sino una prueba de que tenían razón, y a partir de ahí resultó todavía más difícil discutir con ellos sobre hospitales. Para ellos fue una prueba de que tenían razón.",
         },
         {
           forma: "clave",
-          rotulo: "Su primera clase",
-          frase: "Levantó la mano para preguntar qué significaba una palabra que no conocía: «Holocausto». La clase se quedó en silencio.",
+          rotulo: "La regla de la casa",
+          frase: "Los hospitales eran parte del sistema que había que evitar. Curarse en casa no era una preferencia: era una prueba de fe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa regla explica también una escena tardía que resulta demoledora. Cuando ella, ya adulta, acude a un médico por primera vez, la reacción de la familia no es alivio sino decepción, como si hubiera desertado de algo importante. Ir al médico se leyó como una deserción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo además dos accidentes de coche con la familia entera dentro. En los dos el padre había decidido conducir de noche y con hielo para ahorrar una parada, y en los dos hubo heridos que tampoco vieron a ningún médico. Ninguno de los heridos vio nunca a un médico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después del segundo accidente, la madre quedó con secuelas neurológicas evidentes. Tenía migrañas constantes, no soportaba la luz y tardó años en volver a ser la de antes, y todo eso se trató en casa con hierbas y con reposo a oscuras. Migrañas y luz insoportable durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa acumulación de desastres es uno de los puntos que más se le ha discutido al libro. Son muchísimas desgracias en una sola familia, y algunos lectores y varios parientes han cuestionado que ocurrieran todas exactamente como se cuentan. Varios parientes han discutido que ocurriera todo exactamente así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En su descargo hay que decir que un desguace sin protección es un sitio muy peligroso. Las estadísticas de accidentes laborales en el sector del metal son altas incluso con normas de seguridad, y aquella familia no aplicaba ninguna. Un desguace sin protección es un sitio peligrosísimo, incluso cuando se aplican las normas de seguridad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco había seguro de ningún tipo, ni laboral ni médico ni de vehículos. Cualquiera de aquellos accidentes habría arruinado a la familia si hubieran acudido a un hospital, y esa aritmética también forma parte de por qué no acudían. Un hospital los habría arruinado, y esa aritmética también forma parte de la explicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte más dura del libro no son los accidentes sino un hermano. En las memorias se le llama Shawn, es un nombre falso, y su violencia contra ella ocupa buena parte del relato desde que Tara tiene unos quince años. El nombre del hermano es falso en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El uso de nombres falsos es una decisión que ella explica al principio. Cambió el de varios hermanos y el de algunas personas del pueblo, y esa elección protege a terceros y a la vez hace más difícil comprobar nada desde fuera. Protege a terceros y dificulta comprobar nada.",
         },
         {
           forma: "arte",
           texto:
-            "Esa escena resume el libro. No era ignorancia por torpeza: era que nadie se lo había contado nunca. Tampoco sabía qué había sido el movimiento por los derechos civiles, ni cómo se tomaba un analgésico, ni que había que lavarse las manos al salir del baño — eso último se lo enseñó una compañera de piso, con vergüenza ajena.",
+            "Las escenas están contadas con detalle y sin adjetivos. La agarra por el pelo, le retuerce la muñeca hasta el suelo, le mete la cabeza en el váter, y todo eso mientras la llama con palabras que el libro reproduce sin suavizar. El libro reproduce esas palabras sin suavizarlas.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que convierte esas páginas en algo más que un relato de malos tratos es la reacción del resto. Los padres lo veían, lo minimizaban y explicaban después que ella exageraba, y esa negación acabó siendo más determinante que los propios golpes. La negación pesó más que los propios golpes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una hermana suya llegó a confirmarle que le había pasado lo mismo. Las dos acordaron hablar con los padres juntas, y cuando llegó el momento la hermana se retiró y ella se quedó sola sosteniendo la acusación delante de toda la familia. Se quedó sola sosteniendo la acusación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro incluye una nota del autor donde explica cómo está construido. Dice que ha cambiado nombres, que reconstruye escenas de memoria y que ha consultado a sus hermanos, y que donde los recuerdos no coinciden lo hace constar. Nombres cambiados, escenas reconstruidas y discrepancias señaladas una por una.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese aviso importa porque el libro trata precisamente de eso. La duda sobre la propia memoria no es una nota al margen sino el asunto central: si tu familia insiste durante años en que no viste lo que viste, acabas dudando tú antes que ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella empezó a llevar un diario justamente por esa razón. Escribía lo que pasaba el mismo día para tener una versión anterior a las discusiones, y buena parte del libro está construida sobre aquellos cuadernos y no solo sobre el recuerdo. El libro se apoya en aquellos cuadernos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas discrepancias aparecen a pie de página a lo largo de todo el volumen. Hay notas que dicen que un hermano recuerda otra fecha, otro lugar o que aquello lo dijo otra persona, y esa costumbre es bastante rara en unas memorias comerciales. Eso es rarísimo en unas memorias comerciales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado es un libro que discute consigo mismo mientras avanza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No pide que le creas: enseña dónde no está segura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es, probablemente, su mayor mérito literario.",
+        },
+      ],
+    },
+    {
+      titulo: "El examen que se estudió sola",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La puerta la abrió un hermano mayor que se marchó antes que ella. Tyler se fue a la universidad contra la voluntad del padre, volvió de visita y le explicó que existía un examen de acceso que se podía preparar por libre. Un hermano se fue antes y volvió a contárselo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tyler es el personaje más luminoso del libro y también el más discreto. Escuchaba música clásica en el coche cuando en aquella casa eso resultaba sospechoso, estudió ingeniería y acabó doctorándose, y su marcha abrió una puerta que nadie había usado. Su marcha abrió una puerta que nadie usaba.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El examen",
+          frase: "Se llama ACT y lo hacen millones de adolescentes estadounidenses. Ella lo preparó sola, sin haber visto nunca un aula ni un profesor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella universidad admitía entonces a alumnos sin expediente escolar si la nota del examen era buena. Ese detalle administrativo es lo que hace posible la historia entera: sin esa puerta, no había ninguna forma legal de entrar sin papeles. Sin esa puerta administrativa no había ninguna forma legal de entrar sin papeles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema no era el temario sino que le faltaban los cimientos. No sabía qué era una fracción negativa, no había visto trigonometría, y tuvo que aprender álgebra entera con un libro de texto de segunda mano encima de una mesa de cocina. Le faltaban los cimientos, no el temario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hermano que ya estudiaba le mandó por correo los manuales que necesitaba. Ella los trabajaba de noche, después de la jornada en el desguace, y su padre lo consideraba una pérdida de tiempo y una traición doméstica a partes iguales. Estudiaba de noche, después del desguace.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La postura del padre sobre los estudios de las hijas era todavía más estricta. Sostenía que una mujer con carrera acaba fuera de su sitio, y a ella le repetía que su porvenir estaba en casarse joven y trabajar en el negocio familiar. Le repetía que su porvenir era casarse joven.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Suspendió el primer intento y volvió a presentarse meses después. En la segunda ocasión sacó una nota suficiente para entrar en la Universidad Brigham Young, que es una universidad privada mormona de Utah con miles de alumnos. En el segundo intento sacó nota suficiente para entrar en una universidad privada de Utah.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que ella subraya de aquel examen no es la nota sino el formato. Nunca había hecho una prueba con opciones múltiples, no sabía que se podía saltar una pregunta y volver, y esa mecánica le costó tanto como el contenido. La mecánica del examen le costó tanto como el contenido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel examen incluye además una sección de ciencias que la dejó perpleja. Preguntaba por gráficas y por experimentos, y ella no había visto nunca un laboratorio ni sabía qué se supone que hace un científico durante su jornada. Nunca había visto un laboratorio ni sabía qué hace exactamente un científico durante su jornada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegó allí a los diecisiete años sin saber nada de cómo funciona una clase. No sabía que había que leer los capítulos antes de ir, no sabía qué era un examen parcial, y creía que si el profesor mandaba leer algo era una sugerencia amable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus compañeras de piso tampoco entendían nada de lo que veían. Le llamaba la atención que tiraran la comida caducada y que se ducharan a diario, y a ellas les extrañaba que no lavara los platos ni cerrara nunca la puerta con llave. Ninguna de las dos partes entendía a la otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las primeras notas fueron malas y estuvo a punto de dejarlo. Lo que la salvó fue una conversación en la que un compañero le explicó, con paciencia, que el libro de texto se lee y que las preguntas del examen salen de ahí. Un compañero le explicó que el libro se lee.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ese momento su rendimiento cambia de forma llamativa. Descubre que se le da bien estudiar, que la memoria entrenada leyendo las mismas páginas religiosas durante años sirve para otra cosa, y acaba el curso con notas altas. Acabó aquel curso con notas altas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es de los más interesantes del libro y suele pasarse por alto. Los años de lectura repetida de unos pocos textos le habían dado una capacidad de concentración y de memoria que sus compañeros, con mejor formación, no tenían. Leer siempre lo mismo le había entrenado la memoria.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su cuerpo tampoco estaba preparado para aquella vida. Nunca había ido al dentista, no sabía que hay que lavarse las manos al salir del baño, y pasó su primer año con un dolor de muelas continuo porque no se le ocurría que existiera solución. Pasó un año entero con dolor de muelas.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Sacó las notas suficientes para una beca en Cambridge, después otra en Harvard, y terminó doctorándose en historia intelectual en Cambridge a los veintisiete años. Diez años después de entrar por primera vez en un aula.",
+            "La lista de cosas que tuvo que aprender fuera del temario es larguísima. Cómo se pide cita con un médico, para qué sirve un seguro, qué se hace cuando alguien te invita a cenar y cómo se rellena un impreso oficial sin ayuda de nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El dinero era el otro problema y estuvo cerca de tumbarla. Trabajaba limpiando casas y de cajera, no pedía ayudas porque su padre las consideraba dinero robado del Estado, y hubo un curso en que no podía pagar el alquiler ni la matrícula. No pedía ayudas porque su padre las despreciaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo un invierno en que vivió con la calefacción apagada y comiendo lo mínimo. El libro cuenta que se planteó seriamente volver a la montaña, y que lo que la retuvo no fue una convicción noble sino la vergüenza de reconocer el fracaso. La retuvo la vergüenza, no una convicción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El giro llegó cuando una persona de la universidad le explicó que existían becas. Solicitó una ayuda federal para estudiantes sin recursos, la concedieron, y ese cheque fue la primera vez que aceptó dinero del gobierno del que su padre desconfiaba. Aceptó por fin dinero del gobierno que su padre odiaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien se lo explicó fue un obispo de la iglesia local, y ese detalle importa. La misma institución religiosa que su padre consideraba tibia fue la que la empujó a pedir ayuda al Estado, y el libro señala esa ironía sin subrayarla demasiado. El libro señala esa ironía sin subrayarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro cuenta ese momento como una frontera moral y no como un trámite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aceptar aquel dinero significaba admitir que su padre podía estar equivocado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y eso costaba mucho más que estudiar álgebra sola en una cocina.",
         },
       ],
     },
     {
-      titulo: "El precio",
+      titulo: "La palabra que no conocía",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La segunda mitad del libro no va de logros académicos: va de lo que le costó. Cada cosa que aprendía la alejaba un poco más de su familia, y su padre interpretó su educación como una traición y una posesión demoníaca. Le exigieron que eligiera.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La pregunta del libro",
-          frase: "¿Qué haces cuando para entenderte a ti mismo tienes que aceptar que la gente que te crió mentía?",
+            "La escena más citada del libro dura media página y ocurre en una clase de historia del arte. La profesora proyecta un cuadro, aparece una palabra que Tara no ha oído nunca, y ella levanta la mano y pregunta qué significa Holocausto. Levantó la mano y preguntó qué era el Holocausto.",
         },
         {
           forma: "texto",
           texto:
-            "Lo más doloroso no es el enfrentamiento sino la duda. Westover describe años enteros preguntándose si estaba loca, si se inventaba los recuerdos, si tenían razón. Cuando denunció los abusos de su hermano, parte de la familia se puso del lado de él, y su propia memoria empezó a parecerle poco fiable.",
+            "Ella describe lo que pasó después de aquella clase con mucha precisión. Buscó la palabra, leyó durante horas, y lo que la dejó sin aire no fue el número de muertos sino la certeza de que había vivido diecisiete años sin saberlo. Diecisiete años sin haber oído esa palabra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una segunda escena parecida en una clase sobre derechos civiles. Descubre entonces el significado real de una palabra que su hermano le había gritado durante años como si fuera un apodo cariñoso, y ese hallazgo la deja peor que el anterior. Su hermano se lo había gritado durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El silencio del aula es lo que más le duele en aquel momento. Los compañeros la miran creyendo que hace un chiste de mal gusto, la profesora contesta con sequedad, y ella sale de clase sin entender qué acaba de pasar. Salió de clase sin entender qué había pasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio se ha convertido en el resumen del libro para mucha gente. Conviene decir que ocupa media página de más de cuatrocientas, y que reducir estas memorias a esa anécdota deja fuera casi todo lo que las hace interesantes. Media página de más de cuatrocientas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que faltaba",
+          frase: "No era una palabra suelta. No sabía quién era Napoleón, no había oído hablar del movimiento por los derechos civiles y no sabía que Europa había tenido dos guerras mundiales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese vacío es el que da sentido al título del libro en inglés. La palabra que eligió no significa tener estudios sino haber sido formada, y el libro entero trata de la diferencia entre acumular datos y cambiar la manera de pensar. No es tener estudios: es haber sido formada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final del libro define esa palabra de una manera que sorprende. Dice que podría llamarse transformación, traición o metamorfosis, y que lo que ganó no fue un título sino la capacidad de tener una versión propia de su propia historia. Ganó una versión propia de su propia historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de aquel curso su carrera académica se acelera de forma casi absurda. Se especializa en historia, un profesor la anima a solicitar un programa en el extranjero, y acaba consiguiendo una beca competitiva para estudiar en Cambridge. Acabó consiguiendo una beca competitiva para Cambridge.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primer viaje a Inglaterra lo cuenta con una mezcla de asombro y de pánico. Nunca había salido de Estados Unidos, no sabía cómo funcionaba un aeropuerto internacional, y llegó a una universidad de ochocientos años con una maleta prestada. Llegó a una universidad de ochocientos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante aquel primer curso escribía a casa contando lo que veía. Sus padres respondían advirtiéndole de que aquel sitio la estaba cambiando, y el libro señala que en eso tenían toda la razón y que ese era exactamente el problema. Tenían razón, y ese era justamente el problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La beca se llama Gates Cambridge y la financia una fundación privada muy conocida. Es una de las ayudas más difíciles de conseguir del mundo anglosajón, y se la dieron a una alumna que cinco años antes no había pisado un colegio. Cinco años antes no había pisado un colegio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste entre las dos vidas es lo que da fuerza a esa parte del libro. La misma persona que aprendía a leer con discursos religiosos en una cocina de Idaho acabó discutiendo historiografía en seminarios de Cambridge con veintipocos años. De una cocina de Idaho a un seminario de Cambridge.",
         },
         {
           forma: "arte",
           texto:
-            "El libro es honesto con sus límites como testimonio. Incluye notas al pie donde reconoce que otro hermano recuerda un episodio de otra manera, y no lo resuelve. Esa decisión —dejar la contradicción a la vista en vez de imponer su versión— es lo que le da autoridad al resto.",
-          arte: "escritor",
+            "Hay una escena en Cambridge que resume el libro mejor que cualquier resumen. Un profesor la ve caminar por el tejado de una capilla sin miedo, con viento fuerte, mientras el resto se agarra, y le dice que esa firmeza es lo mismo que la trae hasta allí.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella firmeza venía de trabajar años en tejados y en estructuras de metal. Lo que sus compañeros leyeron como valentía intelectual era en realidad un hábito físico aprendido en el desguace, y esa confusión le hizo bastante bien. Lo que leyeron como valentía intelectual era en realidad un hábito físico aprendido en el desguace.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese profesor le explica después algo que ella tarda años en aceptar. Le dice que no está allí por caridad ni por exotismo, y que el oro sigue siendo oro aunque venga cubierto de barro y aunque nadie de su casa sepa reconocerlo. El oro sigue siendo oro aunque venga con barro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El síndrome que describe en esos capítulos tiene nombre y es muy común. Es la sensación de ser un impostor a punto de ser descubierto, y en su caso venía reforzada por una familia que le repetía que aquel sitio no era el suyo. Su familia le repetía que aquel sitio no era suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Terminó un máster en Cambridge, pasó una temporada investigando en Harvard y se doctoró en historia en 2014. Su tesis trataba sobre el mormonismo y las ideas sobre la familia en el pensamiento del siglo diecinueve. Su tesis trataba del mormonismo y de las ideas sobre la familia en el pensamiento del siglo diecinueve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fue precisamente en Harvard donde ocurrió la ruptura definitiva con sus padres. Ellos viajaron hasta allí para intentar recuperarla, se instalaron unos días, y aquella visita terminó con la oferta de la bendición y con ella diciendo que no. Sus padres viajaron hasta allí para recuperarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Elegir ese tema no fue una casualidad académica. Dedicó su doctorado a estudiar con herramientas de historiadora exactamente el mundo del que venía, y ese distanciamiento profesional es parte de cómo consiguió escribir después sobre su propia familia. Estudió con herramientas de historiadora el mundo del que venía, y eso le permitió después escribirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El oficio de historiadora también explica la estructura del libro. Trabaja con fuentes, contrasta versiones, señala dónde falta documentación y admite lo que no puede probar, que es exactamente lo que casi ninguna memoria hace. Trabaja con fuentes, contrasta versiones y admite lo que no puede probar, cosa rarísima en unas memorias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diez años separan la primera clase de la defensa de la tesis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empezó sin saber qué era un examen parcial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Terminó siendo doctora en historia por una de las universidades más antiguas del mundo.",
         },
       ],
     },
     {
-      titulo: "Qué es educarse",
+      titulo: "Lo que costó la educación",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su definición de educación no tiene que ver con títulos. Escribe que educarse no es aprender datos, sino ganar la capacidad de sostener una opinión propia frente a las personas que más quieres. Y que eso, y no los exámenes, es lo difícil.",
+            "La segunda mitad del libro no trata de estudiar sino de la ruptura. Cuando Tara habla con sus padres de la violencia de su hermano, ellos eligen creerle a él, y a partir de ese momento la discusión deja de ser sobre lo que pasó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los años que siguen son los peores del libro en cuanto a salud mental. Describe insomnio, pesadillas, gritos por la noche que despertaban a los vecinos y meses en que no pudo escribir una línea de su tesis doctoral. Meses sin poder escribir una línea de la tesis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta de los padres tiene una forma que el libro describe con precisión. No la acusan de mentir sino de estar poseída por el mal, y el padre le ofrece una bendición para expulsar de ella lo que la ha vuelto así. La acusaron de estar poseída, no de mentir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa manera de responder es la más difícil de rebatir que existe. Si el desacuerdo se explica por una posesión, cualquier argumento que ella dé confirma el diagnóstico, y no queda ninguna conversación posible sobre los hechos. Cualquier argumento que ella diera confirmaba el diagnóstico, y no quedaba conversación posible.",
         },
         {
           forma: "clave",
-          rotulo: "Lo que rechaza",
-          frase: "Se niega a llamarlo una historia de superación. Dice que no ganó nada: cambió una cosa por otra.",
+          rotulo: "La condición para volver",
+          frase: "Aceptar aquella bendición y retirar lo que había dicho. Ella dijo que no, y esa negativa le costó a la mayor parte de su familia.",
         },
         {
           forma: "texto",
           texto:
-            "Al terminar el libro está distanciada de sus padres y de varios hermanos, y no lo presenta como un final feliz. Su conclusión es que uno puede querer a su familia y no poder vivir con ella, y que aceptar eso sin convertirlo en un ajuste de cuentas es lo más adulto que consiguió hacer.",
+            "El desenlace real está en la última página y es de una tristeza seca. Está distanciada de sus padres y de cuatro de sus seis hermanos, no ha vuelto a la montaña, y describe esa pérdida sin convertirla en una lección edificante. No convierte esa pérdida en una lección.",
         },
         {
           forma: "texto",
           texto:
-            "Hay que decir que su versión ha sido discutida: parte de su familia niega buena parte de lo relatado. No hay forma de verificarlo desde fuera, y el propio libro no lo esconde. Con eso puesto, vendió millones de ejemplares y es de las pocas memorias recientes que se leen de un tirón sin sentir que te están vendiendo una lección.",
+            "El libro se niega expresamente a llamar a eso una liberación. Ella dice que perder a una familia no se compensa con un título, que sigue queriendo a sus padres, y que preferiría no haber tenido que elegir entre las dos cosas. Preferiría no haber tenido que elegir.",
         },
         {
           forma: "texto",
           texto:
-            "El título original juega con algo que la traducción pierde: en inglés es una sola palabra, «educada», usada como acusación y como conquista a la vez. Es lo que su padre le reprocha —te han educado y por eso ya no eres de los nuestros— y lo que ella termina reclamando como suyo. Todo el conflicto del libro cabe en esa palabra.",
+            "Conviene decir con claridad que la familia niega buena parte del relato. Los padres publicaron un comunicado desmintiendo episodios concretos, y el hermano al que el libro llama Shawn ha negado siempre haberla maltratado. Los padres publicaron un comunicado desmintiendo episodios concretos, y el hermano ha negado siempre haberla maltratado.",
         },
         {
           forma: "texto",
           texto:
-            "Westover escribió el libro mientras terminaba el doctorado, y tardó años en decidirse a publicarlo. Ha contado que lo más difícil no fue recordar sino elegir qué contar sabiendo que su familia lo leería, y que evitó a propósito el tono de denuncia porque no quería que se leyera como una venganza.",
+            "Tres de sus hermanos, en cambio, se han puesto de su lado en público. Son precisamente los tres que salieron de la montaña y estudiaron, y esa coincidencia se puede leer como confirmación o como sesgo, según a quién se pregunte. Son los tres que salieron y estudiaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa disputa no se puede resolver desde fuera y conviene no fingir que sí. No hay informes médicos porque nunca fueron al médico, no hay expedientes escolares porque no hubo escuela, y esa ausencia de papeles era justamente el proyecto del padre. Esa ausencia de papeles era el proyecto del padre.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El género de las memorias arrastra además un problema de credibilidad reciente. En 2006 se destapó que un superventas sobre adicciones estaba en buena parte inventado, hubo devoluciones y disculpas televisadas, y desde entonces cualquier infancia extrema se lee con una ceja levantada. Desde entonces cualquier infancia extrema se lee con una ceja levantada.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel escándalo cambió las normas del sector editorial anglosajón. Desde entonces las memorias pasan por procesos de comprobación mucho más serios, y este libro se publicó en una editorial grande que hizo ese trabajo antes de sacarlo. Desde entonces las memorias pasan por procesos de comprobación bastante más serios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Frente a eso, este libro juega bastante limpio y conviene reconocerlo. Avisa de que trabaja con memoria, señala sus propias dudas a pie de página y evita las escenas redondas que caracterizan a las memorias fabricadas. Avisa de que trabaja con memoria y señala sus propias dudas a pie de página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Como texto tiene también defectos literarios que se notan al final. El último tercio se repite, las mismas conversaciones vuelven varias veces, y las páginas de Cambridge son bastante menos vivas que las de la chatarrería. Las páginas de Cambridge son bastante menos vivas que las de la chatarrería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa repetición tiene una explicación que no la arregla del todo. La propia experiencia era circular, con reconciliaciones y rupturas encadenadas durante años, y reproducir esa circularidad en el papel cansa al lector aunque sea fiel a los hechos. La experiencia real también era circular.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que el libro no dice, porque se le atribuye mucho. No es un ataque a la religión mormona, no propone denunciar a ninguna familia, y no sostiene que estudiar arregle nada: sostiene que cambia a quien estudia, y que eso tiene un precio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la mayoría de los estados de aquel país esa situación es sencillamente ilegal. La educación en casa está permitida con requisitos, y lo que hizo aquella familia funcionó porque nadie fue a comprobarlo en veinte años. Aquello funcionó porque nadie fue a comprobarlo en veinte años enteros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En este catálogo conversa de frente con Yo soy Malala. Las dos son chicas jóvenes cuya educación se convirtió en un conflicto, y la diferencia entre las dos historias es la que más enseña de las dos juntas. Dos chicas cuya educación se volvió un conflicto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También encaja con Fluir, que está en esta misma categoría. Csíkszentmihályi describía a personas capaces de convertir cualquier situación en un problema que resolver, y una adolescente aprendiendo trigonometría sola en una cocina es exactamente eso. Una adolescente aprendiendo trigonometría sola en una cocina es exactamente ese caso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Malala tuvo a su padre empujándola hacia la escuela contra un enemigo exterior. Tara tuvo el conflicto dentro de casa, con quienes la querían, y por eso su libro no puede terminar con una victoria ni con un discurso en Naciones Unidas. Su libro no puede terminar con una victoria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa diferencia también explica por qué los dos libros se leen distinto. Uno funciona como causa pública que se puede apoyar desde fuera, y el otro deja al lector sin nada que hacer salvo entender un poco mejor una familia concreta. Uno es una causa pública; el otro, una familia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en 2018 y ha vendido varios millones de ejemplares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estuvo más de dos años seguidos en las listas de más vendidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella sigue sin hablarse con sus padres.",
         },
       ],
     },
