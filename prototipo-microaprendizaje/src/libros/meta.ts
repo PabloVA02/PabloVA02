@@ -62,12 +62,13 @@ export const META: FichaMeta[] = [
     ano: 1997,
     gancho: "Un político de Nueva Guinea le hizo una pregunta en una playa. Tardó veinticinco años en contestarla.",
     porQue: "Responde a la mayor pregunta de la historia —por qué unos pueblos conquistaron a otros— sin recurrir ni una vez a la inteligencia o la raza.",
-    minutos: 4.2,
+    minutos: 25.6,
     capitulos: [
-      { titulo: "La pregunta de Yali", minutos: 0.9 },
-      { titulo: "La lotería de las semillas", minutos: 1 },
-      { titulo: "Los gérmenes", minutos: 1 },
-      { titulo: "Lo que se le discute", minutos: 1.4 },
+      { titulo: "Salida: una playa de Nueva Guinea, 1972", minutos: 5.2 },
+      { titulo: "Primera parada: catorce animales de ciento cuarenta y ocho", minutos: 5.1 },
+      { titulo: "Segunda parada: el eje que va de este a oeste", minutos: 5.1 },
+      { titulo: "Tercera parada: Cajamarca, 16 de noviembre de 1532", minutos: 5.1 },
+      { titulo: "Destino: lo que la geografía no explica", minutos: 5.2 },
     ],
   },
   {

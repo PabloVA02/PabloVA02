@@ -648,113 +648,628 @@ export const ARMAS_GERMENES: Resumen = {
     "Responde a la mayor pregunta de la historia —por qué unos pueblos conquistaron a otros— sin recurrir ni una vez a la inteligencia o la raza.",
   partes: [
     {
-      titulo: "La pregunta de Yali",
+      titulo: "Salida: una playa de Nueva Guinea, 1972",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "En 1972, Jared Diamond estudiaba aves en Nueva Guinea. Paseando por una playa se puso a hablar con Yali, un político local, y este le hizo una pregunta directa: ¿por qué los blancos llegaron aquí con tanta carga —hachas de acero, medicinas, ropa— y nosotros teníamos tan poca? Diamond no supo qué responder. El libro es la respuesta, veinticinco años después.",
-        },
-        {
-          forma: "clave",
-          rotulo: "Lo que descarta de entrada",
-          frase: "No es inteligencia. No hay ninguna prueba de que unos pueblos sean más listos que otros.",
+            "En julio de 1972 Jared Diamond estudiaba aves en Nueva Guinea. Paseando por una playa se puso a hablar con Yali, un político local, y este le hizo una pregunta directa: por qué los blancos habían llegado allí con tanta carga y ellos con tan poca.",
         },
         {
           forma: "texto",
           texto:
-            "Diamond va más allá y suelta una provocación: por su experiencia, los habitantes de Nueva Guinea le parecían en promedio más despiertos que los europeos, porque durante siglos allí lo que te mataba era un descuido, mientras que en Europa lo que te mataba eran las epidemias de las ciudades, que no distinguen entre listos y torpes.",
+            "Diamond no estaba allí por la historia. Llevaba desde 1964 subiendo a la cordillera de Nueva Guinea a censar aves, buscando cómo se repartían las especies por altitud, y aquel viaje era uno más de una veintena de campañas. Publicaba en revistas de ornitología mientras tomaba notas de todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquel trabajo de campo salieron cosas serias. Diamond describió especies desconocidas, ayudó a delimitar reservas y publicó sobre biogeografía de islas, y ese es el aparato conceptual que después trasladó a los continentes enteros. Aquella teoría de las islas se la debe sobre todo a Robert MacArthur.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La biogeografía de islas es la clave del método. Estudia por qué en una isla pequeña caben menos especies que en una grande y cómo llegan hasta allí, y Diamond aplicó exactamente ese razonamiento a los continentes y a los pueblos que los habitan. El salto de escala es enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se organiza en cuatro partes y diecinueve capítulos, con un epílogo que se pregunta si la historia puede ser una ciencia. Diamond defiende que sí, comparándola con la geología y la astronomía, disciplinas que no hacen experimentos y aun así explican. La edición española pasa de las quinientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra que usó Yali fue cargo, el término en pidgin para las mercancías traídas de fuera: hachas de acero, cerillas, medicinas, ropa, latas. No preguntaba por metafísica, preguntaba por objetos concretos que los suyos no fabricaban y los recién llegados sí. El término venía del inglés de los barcos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Yali Singina era además una figura política de peso. Había organizado un movimiento en la costa norte de la isla, había estado preso por ello y discutía con los administradores australianos sobre qué debía quedarse de la vida antigua y qué no. Los antropólogos han escrito bastante sobre él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que Yali nunca oyó el libro. La conversación duró una tarde, no volvieron a verse y el político murió en 1975, veintidós años antes de que su pregunta apareciera impresa en la primera página de un éxito mundial. Nadie de su familia participó en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una discusión sobre si la pregunta era esa. Algunos antropólogos que trabajaron en la zona sostienen que Yali hablaba de dignidad y de autogobierno más que de mercancías, y que Diamond entendió la parte material de un planteamiento más amplio. La conversación no se grabó ni se anotó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diamond cuenta que se quedó sin respuesta y que la pregunta le persiguió veinticinco años. El libro que salió de ahí se publicó en 1997 y arranca declarando que quiere contestarla sin usar en ningún momento la palabra raza ni la palabra inteligencia. Cumple la promesa con bastante disciplina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto de partida del libro es una fecha, no una playa. Diamond fija el arranque hacia el año once mil antes de nuestra era, cuando termina la última glaciación, y sostiene que a partir de ahí ya casi todo estaba decidido. Antes de esa fecha casi no hay diferencias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa fecha no es arbitraria. Hacia el final de la glaciación todos los continentes estaban ya poblados por humanos anatómicamente iguales, con herramientas parecidas y organización parecida, y a partir de ahí las trayectorias se separan a toda velocidad. Todo lo que separa hoy a unos de otros cabe en ese tramo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar entonces qué escala maneja el libro. Trabaja con milenios y con continentes, de modo que cualquier ejemplo de un siglo o de un país cae por debajo de su resolución, y ahí es donde casi todas las discusiones se enredan. Ningún capítulo baja al nivel de una persona.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tesis",
+          frase: "Las diferencias no están en los pueblos, sino en los continentes que les tocaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir de dónde viene el autor. Diamond se formó en fisiología, estudió membranas de vesícula biliar en un laboratorio de medicina y llegó a la historia por la puerta de la ornitología, después de veinte años haciendo trabajo de campo en Nueva Guinea. Nunca ha cursado una asignatura de historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Publicó su primer libro de éxito, El tercer chimpancé, en 1991, y este llegó seis años después. Escribe desde la Universidad de California en Los Ángeles, donde acabó ocupando una cátedra de geografía sin haber estudiado geografía nunca. Aquel primer título ya contenía el germen de todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vinieron Colapso, en 2005, y varios libros más sobre sociedades tradicionales y crisis nacionales. Todos siguen el mismo método comparativo, y todos han recibido el mismo tipo de crítica desde los departamentos de historia y de antropología. Todos han sido enormes éxitos de venta en el mundo entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El documental de 2005, producido para la televisión pública estadounidense en tres episodios, es donde el argumento quedó peor. Lo redujo a un esquema de causa y efecto tan limpio que varios colegas lo usaron como ejemplo de lo que no hay que hacer. La versión escrita admite muchos más matices.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese origen explica el tono y también los problemas. El libro razona como un naturalista que compara hábitats, buscando causas de fondo y desconfiando de las explicaciones basadas en decisiones individuales, y eso encaja mal con la manera de trabajar de los historiadores. Ninguno de los dos oficios se disculpa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta de partida no es inocente. Diamond insiste en que Yali no preguntaba por qué los europeos eran mejores, sino por qué habían acumulado ventajas materiales, y que confundir las dos cosas es exactamente el error que el libro quiere desmontar. La distinción vale también para hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El armazón cabe en una frase larga. Unas regiones tuvieron plantas y animales domesticables, esas regiones desarrollaron agricultura, la agricultura permitió excedentes, los excedentes permitieron ciudades, escritura, metalurgia y enfermedades, y con eso se conquistó a los demás. Cada eslabón de esa cadena ocupa después un capítulo entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro ganó el Pulitzer de ensayo en 1998.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El dato",
+          frase: "Ha vendido más de un millón y medio de ejemplares en decenas de idiomas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Yali murió en 1975 y nunca leyó la respuesta.",
+        },
+      ],
+    },
+    {
+      titulo: "Primera parada: catorce animales de ciento cuarenta y ocho",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo más citado es una lista. Diamond cuenta los mamíferos terrestres herbívoros de más de cuarenta y cinco kilos que existían en el mundo, le salen ciento cuarenta y ocho candidatos, y comprueba cuántos acabaron domesticados de verdad. El recuento ocupa dos tablas largas al final del capítulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El corte de los cuarenta y cinco kilos no es caprichoso. Por debajo de ese peso un animal no sirve para arar, ni para tirar de un carro, ni para alimentar a una familia entera, y por encima empieza a compensar el trabajo de criarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está una de las objeciones técnicas al recuento. El umbral, la lista de candidatos y las seis condiciones las fija el propio Diamond, y con criterios algo distintos el famoso catorce sobre ciento cuarenta y ocho daría otros números. El propio autor reconoce que la frontera es discutible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta razonable es que el orden de magnitud aguanta. Aunque se discuta si eran ciento cuarenta y ocho o ciento veinte, sigue siendo cierto que casi todos los animales de tiro y de carga del mundo antiguo salieron de la misma masa continental. Ese reparto no lo discute casi nadie.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El número",
+          frase: "Catorce, y trece de ellos vivían en Eurasia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los trece eurasiáticos son los de siempre: vaca, oveja, cabra, cerdo, caballo, burro, camello de una joroba y de dos, búfalo de agua, yak, reno, gayal y banteng. Fuera de Eurasia solo quedó uno, la llama de los Andes, con su variante la alpaca. El perro no entra porque no es herbívoro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "África tiene más mamíferos grandes que ningún otro continente y no domesticó ninguno. Diamond lo usa como prueba de que no es cuestión de gente ni de esfuerzo: hay animales que no se dejan, por mucho que se intente durante siglos. El ñu y el búfalo cafre son el ejemplo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso del elefante africano se malinterpreta a menudo. Los que se usan en Asia no están domesticados, sino amansados uno a uno y capturados en libertad, porque criar elefantes en cautividad lleva décadas y casi nunca sale a cuenta. Los de guerra de Aníbal eran capturados igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre amansar y domesticar es el núcleo del capítulo. Domesticar significa criar en cautividad durante generaciones y modificar la especie; amansar es acostumbrar a un individuo, y muere con él sin dejar nada a la siguiente generación. Un zorro amansado en un salón sigue siendo un zorro salvaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cebra vuelve a servir de ejemplo. En el siglo diecinueve hubo europeos que engancharon cebras a carruajes en Londres y en Ciudad del Cabo, y las fotografías existen, pero nunca se pasó de la exhibición a la cría sistemática. Aquellos carruajes eran una excentricidad de ricos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para explicarlo toma prestada una frase de Tolstói. Las familias felices se parecen todas y las infelices lo son cada una a su manera: con los animales pasa igual, porque hay que cumplir seis condiciones a la vez y fallar una sola descalifica. La llamó el principio de Ana Karenina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las seis son estas: comer algo barato, crecer deprisa, reproducirse en cautividad, no tener mal carácter, no entrar en pánico ante un recinto y vivir en manadas con jerarquía, para que el humano pueda ocupar el puesto de jefe. Solo catorce especies del planeta cumplen las seis a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fallo más frecuente es el pánico. Los antílopes y las gacelas se estrellan contra las vallas cuando se les encierra, algunos mueren de estrés en horas y por eso no hay ni una sola especie de antílope domesticada en toda la historia. La gacela llega a saltar tres metros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El oso pardo falla por otra casilla. Come cualquier cosa y crece rápido, pero es solitario y territorial, así que no hay jerarquía que un pastor pueda aprovechar, y llegado el momento come también al pastor. Con los grandes felinos ocurre lo mismo y por idénticas razones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que el libro no dice que sea imposible domesticar nada nuevo. Dice que las especies fáciles ya estaban tomadas hace milenios, y que las que quedaron libres son justo las que fallan en alguna de las seis casillas. Los intentos modernos siguen fracasando igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cebra falla por carácter. Muerde y no suelta, es imposible echarle el lazo con fiabilidad y hiere cada año a más cuidadores de zoo que los tigres; los colonos británicos lo intentaron en serio en África y se rindieron. Ningún zoo permite acercarse a ellas sin protección.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con las plantas hace lo mismo. El Creciente Fértil tenía ocho especies fundadoras casi listas para cultivar —trigo, cebada, guisante, lenteja, garbanzo, yeros, haba y lino— con semillas grandes, autopolinizadas y fáciles de almacenar de un año para otro. Ninguna de las ocho necesitaba una transformación profunda para servir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellas ocho especies aparecen juntas y silvestres en una franja pequeña de Oriente Próximo. Diamond subraya que el Creciente Fértil no tuvo un pueblo especialmente listo, sino la mayor concentración de plantas domesticables del planeta a mano. El azar botánico de esa franja no se repite en ningún sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La agricultura se inventó por separado al menos en nueve sitios del mundo. Oriente Próximo, China, Mesoamérica, los Andes, el este de Estados Unidos, el Sahel, Etiopía, África occidental y Nueva Guinea llegaron a ella cada uno por su cuenta. Las fechas de cada foco siguen afinándose.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que se inventara nueve veces desmonta la idea de un pueblo genial. Lo que cambia entre esos nueve sitios no es la inteligencia, sino qué había disponible alrededor: en Oriente Próximo, trigo y ovejas; en Nueva Guinea, caña de azúcar y plátano. Cada foco domesticó lo que tenía delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "México tuvo que fabricarse el maíz a mano. Su antepasado silvestre, el teosinte, tiene mazorcas de dos centímetros con una docena de granos duros, y convertirlo en algo que alimente a una ciudad costó miles de años de selección paciente. El teosinte sigue creciendo hoy en Guerrero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un buey ara, tira, da leche, carne y estiércol.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una llama carga treinta kilos y no se deja montar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El resumen",
+          frase: "No es que unos supieran domesticar: es que a otros no les tocó nada domesticable.",
+        },
+      ],
+    },
+    {
+      titulo: "Segunda parada: el eje que va de este a oeste",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La segunda idea fuerte se ve mejor en un mapa. Eurasia es un continente ancho y bajo, tendido de este a oeste, mientras que América y África son largos y estrechos, tendidos de norte a sur, y esa orientación decide cómo viajan los cultivos. El mapa hace el trabajo del argumento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este es el argumento más original del libro y el que le dio fama. Antes de 1997 nadie había puesto la orientación de un continente en el centro de una explicación histórica, y la idea es lo bastante simple como para dibujarse en una servilleta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se resume en una pregunta que casi nadie se había hecho. Por qué un continente ancho es distinto de un continente alto, y qué le pasa a una semilla cuando la llevas mil kilómetros hacia el norte en vez de mil hacia el este. La respuesta cambia toda la escala temporal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen del mapa girado ayuda a verlo. Si se pone América tumbada, con su eje mayor de este a oeste, el continente pasa de tener tres franjas climáticas apiladas a tener una sola, y toda la historia agrícola habría sido otra. Es un ejercicio mental que cualquiera puede hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Moverse en horizontal es casi gratis. A la misma latitud los días duran lo mismo, las estaciones caen en el mismo mes y las enfermedades de las plantas son parecidas, así que un trigo que funciona en Siria funciona en España sin rediseñarlo. La misma semilla vale para los dos extremos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los ejemplos que da son de manual. El trigo y la cebada salen de Oriente Próximo hacia el año nueve mil antes de nuestra era y llegan a Egipto, a Grecia, a la India y a China, todo dentro de la misma banda de latitudes templadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso contrario también es suyo. El maíz tardó miles de años en pasar de México a lo que hoy es Estados Unidos, porque hubo que seleccionar variedades capaces de madurar en veranos más cortos antes de que aguantara aquel clima. Cada variedad exigía generaciones de prueba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese retraso tiene consecuencias enormes en el libro. Cuando el maíz llega al este de Norteamérica ya está muy avanzada la era cristiana, así que aquellas sociedades tuvieron un par de milenios menos de agricultura densa que las de Eurasia. El tiempo perdido no se recupera después.",
         },
         {
           forma: "arte",
           texto:
-            "Su respuesta es que todo se decidió mucho antes de que existiera nadie: por geografía. No por lo que había dentro de las personas, sino por lo que había alrededor de ellas — qué plantas y qué animales les tocaron en el sorteo.",
+            "Moverse en vertical es otra cosa. Para llevar un cultivo de México a Perú hay que cruzar el trópico, cambiar de régimen de lluvias, de duración del día y de altitud, y eso obliga a adaptar la planta entera antes de que sirva de algo.",
           arte: "mapa",
         },
+        {
+          forma: "clave",
+          rotulo: "El eje",
+          frase: "El paquete agrícola del Creciente Fértil llegó de Irlanda a Japón sin cambiar de latitud.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El istmo de Panamá cierra el argumento americano. En su punto más estrecho mide unos sesenta kilómetros de selva húmeda, y por ese cuello de botella no pasaron ni la llama hacia el norte ni el pavo hacia el sur en varios milenios. El caballo americano se había extinguido antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De la agricultura sale todo lo demás, según el esquema. Con excedente de comida hay gente que no cultiva: artesanos, soldados, escribas, sacerdotes y reyes; sin excedente no hay nadie que pueda dedicarse a fundir hierro o a inventar un alfabeto. El orden de la secuencia importa mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diamond calcula que un campo de cereal alimenta a entre diez y cien veces más gente que la misma extensión aprovechada por cazadores. De ahí sale la densidad, y de la densidad todo lo que en el libro se llama civilización. La comparación se hace por hectárea cultivada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El precio de ese cambio fue alto y el libro no lo esconde. Los agricultores del neolítico eran más bajos, tenían peores dientes y trabajaban más horas que los cazadores a los que sustituyeron, pero eran muchos más y eso decidió la partida. La estatura media no se recuperó en milenios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese punto se le suele atribuir a Sapiens y venía de aquí. La idea de que la agricultura fue un mal negocio para el individuo y un gran negocio para la especie está desarrollada en este libro y en el anterior de Diamond, con datos de esqueletos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También salen las epidemias, que es la parte que da nombre al libro. Vivir pegado a vacas, cerdos y gallinas durante milenios, en aldeas densas y sucias, permitió que los patógenos animales saltaran a los humanos y se quedaran a vivir en ellos. El ganado dormía dentro de las casas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A esas infecciones las llama enfermedades de multitud. Necesitan una población grande y continua para no extinguirse, porque queman a sus víctimas deprisa, y por eso no existieron hasta que hubo ciudades con miles de habitantes juntos. Los cazadores dispersos nunca llegaron a padecer ninguna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sarampión sirve de reloj. Necesita una población de varios cientos de miles de personas en contacto para no desaparecer, así que no pudo existir como enfermedad humana estable hasta que hubo ciudades de ese tamaño en Oriente Próximo. Por debajo de ese umbral el virus se queda sin huéspedes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además precisar lo que hoy se sabe y entonces no. La genética ha corregido varias de sus atribuciones: la tuberculosis no pasó del ganado al hombre, sino probablemente al revés, y el origen exacto de la viruela sigue discutiéndose. Las correcciones no tocan el argumento central.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sarampión viene de la peste bovina, la gripe circula entre aves y cerdos antes de llegar a nosotros y la viruela apareció hace unos miles de años a partir de un virus emparentado con los de otros mamíferos. El salto desde el ganado se ha datado con genética moderna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los supervivientes de esas oleadas quedaron parcialmente resistentes. Los pueblos que no habían tenido ganado ni ciudades grandes llegaron al encuentro de 1492 sin ninguna de esas defensas, y ahí está el desequilibrio que decidió el continente. La ventaja no era genética en el sentido que suele suponerse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eurasia mide unos diez mil kilómetros de este a oeste.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El contraste",
+          frase: "América mide quince mil de norte a sur y apenas cinco mil de ancho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La rueda se inventó en México y solo se usó en juguetes.",
+        },
       ],
     },
-
     {
-      titulo: "La lotería de las semillas",
+      titulo: "Tercera parada: Cajamarca, 16 de noviembre de 1532",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "De las miles de especies de plantas comestibles del planeta, muy pocas sirven para la agricultura: tienen que dar mucha semilla, poder almacenarse y dejarse domesticar. La mayoría de esas pocas crecían en una franja concreta de Oriente Medio — el trigo, la cebada, los guisantes, las lentejas.",
+            "El capítulo tercero es una escena. En la plaza de Cajamarca, en la sierra del norte del Perú, ciento sesenta y ocho españoles al mando de Francisco Pizarro esperaban escondidos la llegada del emperador inca Atahualpa, que venía con decenas de miles de hombres. La fecha está documentada hasta la hora.",
         },
         {
           forma: "texto",
           texto:
-            "Con los animales pasa algo parecido, y es más llamativo. De los grandes mamíferos herbívoros del mundo solo catorce especies se han domesticado nunca, y trece son de Eurasia. La cebra parece un caballo pero muerde y no se deja montar. El hipopótamo mata más gente que el león. El oso pardo engorda rápido pero se come al granjero.",
+            "La escena está montada con fuentes de primera mano. Diamond cita a Francisco de Jerez, secretario de Pizarro, y a Pedro Pizarro, primo del conquistador, que escribieron lo que vieron y no tenían ningún motivo para rebajar la desproporción. Los dos textos se publicaron a los pocos años del suceso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cifra de ciento sesenta y ocho sale de esas mismas crónicas. Sesenta y dos jinetes y ciento seis de a pie, contados uno por uno en el reparto del botín, que es el documento más fiable que existe sobre quién estaba allí. El reparto se hizo por escrito y con notario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El bando incaico es más difícil de contar. Las cifras de las crónicas van de cinco mil a ochenta mil hombres, y buena parte de los que estaban en la plaza iban desarmados porque acudían a una recepción y no a una batalla. Nadie esperaba una emboscada en aquella plaza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En unas horas capturaron al emperador y masacraron a su escolta sin perder un solo hombre. Diamond usa el episodio como caso extremo de todo lo anterior, y lo cuenta alternando citas de los cronistas españoles que estuvieron allí. El único herido español fue el propio Pizarro, en una mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La captura fue el objetivo desde el principio. Pizarro repetía la jugada que Hernán Cortés había hecho con Moctezuma trece años antes, y lo sabía porque en España se habían impreso relaciones de aquella campaña que él había leído. Cortés había capturado a Moctezuma dentro de su propia capital.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí aparece la ventaja de la escritura, que es la más sutil de las cuatro. Atahualpa no tenía manera de saber lo que un puñado de extranjeros había hecho en México, y Pizarro sí tenía manera de saberlo con detalle. La imprenta llevaba décadas funcionando en Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La información viajaba en las dos direcciones y solo una de ellas escribía. Los incas tenían quipus, cuerdas anudadas capaces de guardar cuentas y quizá algo más, y no un sistema con el que enviar a un desconocido la crónica de una campaña lejana. Los quipus siguen sin descifrarse del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su explicación tiene cuatro piezas: caballos, acero, escritura y enfermedad. Los caballos daban movilidad y pánico, las espadas de acero cortaban armaduras de algodón, la escritura permitía saber lo que otros conquistadores habían hecho antes, y la viruela iba por delante. Ninguna de las cuatro es un mérito personal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los caballos importan más de lo que parece hoy. Un jinete con lanza carga a treinta kilómetros por hora contra infantería que nunca había visto un animal así, y las crónicas cuentan que la primera reacción fue de estupor antes que de miedo. Pizarro llevaba sesenta y dos jinetes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El acero cuenta la misma historia. Las armaduras de algodón acolchado incaicas paraban bien las mazas y las hondas propias, y no servían de nada contra una espada de Toledo, mientras que el algodón español detenía sin problema las flechas andinas. El hierro no existía en los Andes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además decir lo que el libro no está justificando. Explicar por qué un ejército pudo hacer algo no es decir que estuviera bien hecho, y Diamond lo repite varias veces, con un cuidado que sus críticos consideran insuficiente. La distinción entre explicar y justificar recorre todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La viruela llegó al Perú antes que Pizarro. Se había extendido desde Panamá años atrás, mató al emperador Huayna Cápac y al heredero, y dejó una guerra civil entre Atahualpa y su hermano Huáscar que estaba recién terminada cuando aparecieron los españoles. La epidemia cruzó el continente sin barcos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con los aztecas había pasado algo parecido. La viruela entró en México en 1520 con la expedición de Pánfilo de Narváez, arrasó Tenochtitlan durante el asedio y mató a Cuitláhuac, el sucesor de Moctezuma, a las pocas semanas de asumir el mando. La ciudad cayó tres meses más tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que las enfermedades no eran un arma. Nadie las llevó a propósito en aquellos años ni entendía cómo funcionaban, y los propios españoles morían de fiebres tropicales en el Caribe a un ritmo que ellos tampoco sabían explicar. La teoría de los microbios tardaría tres siglos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El único caso documentado de contagio deliberado es muy posterior. Ocurrió en 1763, en la guerra de Pontiac, cuando oficiales británicos hablaron por escrito de repartir mantas de un hospital de viruela entre los indios de la zona. No hay pruebas de que aquellas mantas contagiaran a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es el que más se olvida al contar la conquista. Pizarro no derrotó a un imperio en pleno funcionamiento: llegó a un país que acababa de perder a su rey por una epidemia y de salir de una guerra entre hermanos. La guerra civil había durado unos cinco años.",
         },
         {
           forma: "clave",
-          rotulo: "La consecuencia",
-          frase: "Sin animales de tiro no hay arado. Sin arado no hay excedente. Sin excedente no hay ciudades, ni escritura, ni ejércitos.",
+          rotulo: "La cuenta",
+          frase: "Ciento sesenta y ocho hombres contra un ejército de decenas de miles.",
         },
         {
           forma: "texto",
           texto:
-            "Y añade un detalle que casi nadie ve: la forma de los continentes. Eurasia es ancha de este a oeste, así que una semilla domesticada en Irak funciona en España, porque comparten latitud, clima y horas de luz. América y África son largas de norte a sur, y ahí un cultivo no viaja: cruzar el trópico lo mata. Las mismas invenciones no podían propagarse.",
+            "Sobre la mortalidad americana hay que ser cuidadoso con las cifras. Se repite que murió el noventa por ciento de la población, y es una estimación con un margen enorme: los cálculos de cuánta gente había en 1492 van de ocho a más de cien millones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está fuera de duda es el mecanismo. Los cronistas describen aldeas vacías antes de que llegara ningún europeo, y hoy sabemos que las epidemias viajaban por las rutas comerciales indígenas mucho más deprisa que los propios conquistadores. Los cronistas no entendían lo que estaban viendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que el libro no dice aquí. No afirma que los españoles fueran más listos ni que los incas fueran ingenuos: afirma que llegaron con un equipo acumulado durante milenios que ningún ejército americano podía tener. El libro tampoco convierte a los conquistadores en afortunados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Atahualpa fue ejecutado en julio de 1533.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su rescate fue una habitación llena de oro y dos de plata.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El detalle",
+          frase: "Ninguno de los ciento sesenta y ocho murió aquel día.",
         },
       ],
     },
-
     {
-      titulo: "Los gérmenes",
-      tarjetas: [
-        {
-          forma: "arte",
-          texto:
-            "La pieza más contundente del argumento es la que da título al libro. Vivir pegado a vacas, cerdos y gallinas durante milenios tiene un precio brutal: los patógenos de esos animales saltan a las personas. La viruela, el sarampión y la gripe salieron de ahí. Las poblaciones europeas pagaron ese peaje con siglos de epidemias y los supervivientes quedaron parcialmente resistentes.",
-          arte: "memoria",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Cuando esos europeos cruzaron el Atlántico llevaban las enfermedades encima. Los pueblos americanos, que apenas habían domesticado animales de granja, no tenían defensa ninguna. Las estimaciones varían y se discuten, pero todas apuntan a que la mayor parte de la población indígena murió de epidemias, no de combates — en muchos casos antes de ver a un europeo.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El dato que lo cambia todo",
-          frase: "La conquista de América la ganaron sobre todo los microbios. Las armas llegaron a un continente ya devastado.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Su ejemplo central es Cajamarca, en 1532: Pizarro captura al emperador inca Atahualpa teniendo ciento sesenta y ocho hombres frente a decenas de miles. Diamond desmenuza cómo pudo pasar — caballos, acero, escritura que permitía saber lo que había funcionado antes en México, y un imperio ya debilitado por una epidemia de viruela llegada por delante de los españoles.",
-        },
-      ],
-    },
-
-    {
-      titulo: "Lo que se le discute",
+      titulo: "Destino: lo que la geografía no explica",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El libro ganó el Pulitzer y se convirtió en un fenómeno, pero conviene saber que buena parte de los historiadores profesionales lo miran con reservas. La crítica principal es el determinismo geográfico: si todo lo decide el entorno, las decisiones humanas, la política y la violencia deliberada quedan como detalles de un guion ya escrito.",
+            "El libro se lee como una demolición del racismo científico y ese es su mérito principal. Sustituye una explicación basada en las cualidades de los pueblos por otra basada en semillas, animales y latitudes, y lo hace con datos comprobables. Ese solo mérito justifica leerlo entero.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "Se le señala también que explica bien los diez mil años largos pero mal los últimos quinientos —por qué Europa y no China, que tenía mejores condiciones— y que a veces elige los ejemplos que le encajan. Diamond ha respondido a algunas de estas objeciones; otras siguen abiertas.",
-          arte: "explorar",
+            "Conviene recordar contra qué escribía. En los años noventa seguían publicándose libros que explicaban el reparto de la riqueza mundial por diferencias hereditarias de inteligencia, y este es el argumento más eficaz que se escribió en contra. La curva de campana se publicó tres años antes que este.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Diamond cuenta el motivo personal. Dice que escribió el libro porque cada vez que alguien le preguntaba por la pregunta de Yali, la única respuesta disponible en la conversación pública era racista, aunque se disfrazara de cultura o de carácter. La respuesta educada le parecía igual de falsa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la mejor manera de usarlo hoy. Sirve como demolición de las explicaciones raciales y como introducción al pensamiento a gran escala, y no sirve como manual de historia de ninguna región concreta ni de ningún siglo concreto. Conviene leer después a un historiador de oficio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los historiadores profesionales, sin embargo, llevan veinticinco años discutiéndolo. La acusación repetida es determinismo geográfico: si el mapa lo decide todo, la gente que vivió esa historia deja de tener decisiones, y con ellas responsabilidades. Es el reproche que aparece en casi todas las reseñas académicas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La crítica académica ha sido dura y a veces despectiva. Varios antropólogos han escrito que el libro es historia de aeropuerto con aparato de nota al pie, y que su éxito se debe a que da una respuesta ordenada a una pregunta que no la tiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2010 un grupo de arqueólogos publicó un volumen entero contra su método. Sostenían que sus casos estaban elegidos para encajar, que las sociedades que describe como colapsadas siguen existiendo y que los descendientes de esos pueblos no reconocen el relato. El volumen se titulaba interrogando su método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel volumen se centraba sobre todo en Colapso, aunque el método atacado sea el mismo. Su reproche de fondo es que un naturalista que compara sociedades como si fueran ecosistemas acaba borrando a la gente que tomó las decisiones. Ninguno de los dos bandos ha convencido del todo al otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto más débil del libro es Europa. La tesis explica bien por qué Eurasia se adelantó al resto, y no explica por qué dentro de Eurasia fueron unos cuantos reinos atlánticos y no China, que tenía la misma latitud y mejor paquete de partida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "China es el contraejemplo incómodo. Tuvo antes que nadie imprenta, papel, pólvora, brújula y una flota de altura, y en 1433 la desmanteló por una decisión de la corte, sin que ninguna latitud ni ninguna semilla tuviera nada que ver. La flota de Zheng He tenía cientos de barcos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sapiens, que también está en este catálogo, hereda de aquí buena parte de su estructura. Harari cuenta la misma secuencia de agricultura, excedente y Estado con más literatura y menos aparato, y arrastra las mismas objeciones metodológicas. Harari cita a Diamond como su mayor influencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puestos a discutir, la pareja más útil es la otra. Leer este libro y a continuación Por qué fracasan los países deja la pregunta bien planteada: cuánto pesa el terreno y cuánto pesan las reglas que la gente se da encima de ese terreno. Ninguno de los dos gana por completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diamond lo intenta en el epílogo con la idea de fragmentación óptima: Europa estaba dividida en Estados que competían y China era un imperio único que podía cancelar una flota entera por decreto. Es un argumento añadido al final y bastante más flojo. El epílogo ocupa apenas unas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En este mismo catálogo está su contrario directo. Por qué fracasan los países, de Acemoglu y Robinson, dedica un capítulo entero a rechazar la hipótesis geográfica y sostiene que lo que decide son las instituciones que un país construye. Su libro es de 2012 y responde directamente a este.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo favorito es una ciudad partida en dos. Nogales, en la frontera entre Arizona y Sonora, tiene el mismo clima, la misma tierra y la misma gente a los dos lados de la valla, y niveles de renta y de violencia completamente distintos. La frontera se trazó en 1853.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay objeciones empíricas al eje. La agricultura se extendió por África de norte a sur con la expansión bantú, atravesando climas muy distintos, y el maíz mexicano acabó cultivándose desde Canadá hasta Chile pese a todos los obstáculos. El eje falla justamente donde el libro lo daba por seguro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La expansión bantú es el caso más citado en contra. Entre el año mil antes de nuestra era y el mil de la nuestra, agricultores procedentes de África occidental se extendieron hasta el extremo sur del continente, cruzando selva, sabana y desierto. El proceso duró unos dos mil años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella expansión llevó hierro, cerámica y cultivos por medio continente y cambió el mapa lingüístico de África para siempre. Hoy hablan lenguas bantúes unos trescientos millones de personas, desde Camerún hasta Sudáfrica. Es uno de los mayores movimientos de población que se conocen en la prehistoria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí termina el viaje que empezó en una playa con una pregunta de tres líneas. La respuesta ocupa cuatrocientas páginas, no convence a los historiadores y sigue siendo la primera cosa sensata que mucha gente ha leído sobre el asunto. La pregunta sigue abierta veinticinco años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una crítica política que conviene conocer. Varios antropólogos sostienen que explicar la conquista por causas naturales acaba haciéndola parecer inevitable, y que el libro pasa muy por encima de la esclavitud, del saqueo y de las decisiones coloniales. El reparto de la culpa no le interesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diamond responde que él contesta a una pregunta y no a todas. Dice que explica trece mil años de desigualdad entre continentes, no qué país adelantó a cuál en un siglo concreto, y que confundir las dos escalas es leerlo mal. La discusión no se ha cerrado nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La serie documental de 2005 simplificó todavía más el argumento.",
         },
         {
           forma: "clave",
-          rotulo: "Lo que sí ha quedado",
-          frase: "Explicar la desigualdad entre pueblos sin recurrir a la raza ni a la inteligencia. Eso el libro lo consigue, y no es poco.",
+          rotulo: "Para llevarte",
+          frase: "Explica muy bien por qué Eurasia y bastante mal por qué Europa.",
         },
         {
           forma: "texto",
           texto:
-            "Su capítulo sobre la escritura remata bien el argumento. La escritura se inventó de forma independiente muy pocas veces en la historia —en Mesopotamia, en Mesoamérica y probablemente en China— y siempre en sociedades agrícolas con excedentes, porque nació para llevar cuentas de grano e impuestos, no para escribir poemas. Los pueblos sin agricultura no la desarrollaron nunca, y no por falta de ingenio: sin almacenes que administrar, no había nada que anotar. En Cajamarca eso pesó tanto como los caballos — Pizarro había leído lo que le funcionó a Cortés en México; Atahualpa no tenía forma de saber nada de aquello.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Léelo así: no como la explicación definitiva de la historia, sino como el mejor antídoto que existe contra la idea de que quien ganó ganó por ser superior. Con esa cautela puesta, es de los libros de divulgación que más cambian la forma de mirar un mapa.",
+            "Sigue siendo el mejor antídoto contra las explicaciones raciales.",
         },
       ],
     },
