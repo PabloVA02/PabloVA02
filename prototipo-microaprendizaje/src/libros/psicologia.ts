@@ -733,118 +733,635 @@ export const FLOW: Resumen = {
   ano: 1990,
   gancho: "Preguntó a miles de personas ocho veces al día qué estaban haciendo y cómo se sentían. Descubrió que no somos felices descansando.",
   porQue:
-    "Explica esos ratos en los que desaparece el tiempo, y demuestra que se pueden provocar a voluntad.",
+    "Explica esos ratos en los que desaparece el tiempo, y conviene saber qué midió de verdad y qué no dice sobre la felicidad.",
   partes: [
     {
-      titulo: "El buscapersonas",
+      titulo: "El niño del campo de internamiento",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Csíkszentmihályi inventó un método que hoy parece obvio y entonces no existía: dio buscapersonas a miles de voluntarios y les hizo sonar ocho veces al día, a horas aleatorias. Cada vez, la persona anotaba qué estaba haciendo, con quién y cómo se sentía. Recogió cientos de miles de instantáneas de vidas reales.",
+            "El autor nació en 1934 en una ciudad del Adriático que hoy pertenece a Croacia y entonces era italiana. Su padre era diplomático húngaro, la familia vivía bien, y de aquella vida no quedó nada al terminar la Segunda Guerra Mundial. De aquella vida no quedó nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su apellido es de los más difíciles de pronunciar de la psicología moderna. Él mismo bromeaba con ello en conferencias y proponía una regla nemotécnica para americanos, y en las citas académicas aparece a menudo abreviado solo con la inicial. En las citas aparece abreviado con la inicial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El padre había sido cónsul en Venecia y llegó después a embajador en Italia. Esa carrera explica que la familia estuviera fuera del país cuando cambió el régimen, y también que se quedaran sin nada de golpe cuando él decidió no volver. Se quedaron sin país de un día para otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su formación temprana fue por tanto italiana y no húngara. Escribió toda su obra en inglés, su tercer idioma, y esa distancia con la lengua se nota en una prosa clara y sin adornos que ayuda bastante a que el libro se lea bien. Escribió toda su obra en su tercer idioma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La guerra se llevó a dos de sus hermanos y toda la posición familiar. Uno murió en el asedio de Budapest y otro acabó en un campo de trabajo en Siberia, y el propio Mihály pasó parte de su infancia internado en un campo en Italia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El asedio de Budapest duró casi dos meses entre 1944 y 1945 y fue de los peores de la guerra. La ciudad quedó destrozada, murieron decenas de miles de civiles, y cualquier familia húngara de aquella generación tiene una historia parecida que contar. Casi cualquier familia húngara tiene esa historia.",
         },
         {
           forma: "clave",
-          rotulo: "El hallazgo que no esperaba",
-          frase: "La gente disfrutaba mucho más trabajando que en su tiempo libre. Y aun así prefería el tiempo libre.",
+          rotulo: "La pregunta que le quedó",
+          frase: "Por qué unos adultos que lo habían perdido todo se hundían y otros conservaban la dignidad y hasta el buen humor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pregunta le pareció más interesante que cualquier explicación por el dinero. Había visto a gente arruinada mantenerse entera y a gente acomodada derrumbarse, de modo que la diferencia tenía que estar en algo que ocurría dentro de cada uno. La diferencia no estaba en el dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre dimitió del servicio diplomático en 1948, cuando los comunistas tomaron el poder en Hungría. Se quedaron en Roma sin sueldo y sin país al que volver, y abrieron un restaurante pequeño en el que trabajó toda la familia. Abrieron un restaurante y trabajaron todos en él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel restaurante funcionó y sostuvo a la familia durante años. El detalle importa porque es el primer ejemplo de la tesis del libro: unas personas que lo habían perdido todo montaron una tarea con reglas y objetivos y se agarraron a ella. Una tarea con reglas los mantuvo enteros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El momento que lo empujó hacia la psicología fue una tarde de aburrimiento en Suiza. Con dieciséis años entró a una conferencia gratuita sobre platillos volantes, más que nada por meterse en algún sitio caliente, y el conferenciante resultó ser Carl Jung. El conferenciante resultó ser Carl Jung.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él contaba esa anécdota como ejemplo de lo poco planificadas que son las vocaciones. Buscaba refugio y calefacción, salió de allí con una carrera decidida, y solía usarla para desconfiar de las trayectorias que se cuentan como si hubieran sido un plan. Buscaba calefacción y salió con una carrera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Jung no hablaba de naves espaciales sino de la cabeza de quien las ve. Sostenía que aquellas visiones eran una proyección de la angustia de una Europa recién salida de la guerra, y aquella idea le pareció al chico mucho más interesante que cualquier platillo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al buscar libros de psicología para seguir por su cuenta, se llevó una decepción. Descubrió que aquella disciplina no se enseñaba en Europa como él esperaba, y esa fue una de las razones por las que acabó cruzando el Atlántico años después. Aquella disciplina no se enseñaba entonces en Europa.",
         },
         {
           forma: "arte",
           texto:
-            "Lo llamó la paradoja del trabajo. En el trabajo hay objetivos claros, información inmediata sobre si lo estás haciendo bien y un reto que ajusta tus capacidades. En el sofá, un domingo por la tarde, no hay nada de eso — y por eso el ocio pasivo produce mucho menos disfrute del que la gente cree.",
+            "Emigró a Estados Unidos a los veintidós años, según su propio relato con poco más de un dólar en el bolsillo. Trabajó de noche, estudió de día y acabó doctorándose en la Universidad de Chicago, donde años después dirigiría el departamento de psicología. Llegó con poco más de un dólar.",
           arte: "explorar",
         },
         {
           forma: "texto",
           texto:
-            "Le interesó especialmente un estado que aparecía una y otra vez en pintores, cirujanos, escaladores y ajedrecistas, pero también en obreros de cadena de montaje y en cocineros. Lo describían igual en todos los idiomas: que se dejaban llevar por una corriente. De ahí el nombre.",
+            "Aquellos primeros años los pasó trabajando de recepcionista de hotel por las noches. Estudiaba en el mostrador entre llamada y llamada, y contaba que aquel horario le enseñó más sobre concentración en condiciones malas que cualquier asignatura posterior. Estudiaba en el mostrador del hotel entre llamada y llamada, y aprendió allí a concentrarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis inicial no era sobre la felicidad sino sobre pintores trabajando. Los observaba durante horas y le llamaba la atención una cosa concreta: se olvidaban de comer y de dormir mientras pintaban, y perdían todo el interés por el cuadro en cuanto lo terminaban.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella observación la hizo en una escuela de arte de Chicago a finales de los sesenta. Filmaba a los estudiantes mientras trabajaban, medía cuánto tardaban en decidir el tema y comparaba después qué obras acababan siendo mejor valoradas por los profesores. Los filmaba mientras decidían qué pintar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado de aquel trabajo tiene interés por sí solo. Los estudiantes que más tardaban en decidir qué pintar, los que descubrían el problema en vez de resolverlo deprisa, eran los que años después seguían siendo artistas en activo. Los que tardaban más en decidir seguían pintando años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es el que abre toda la investigación posterior. Si la recompensa fuera el cuadro terminado, el interés no se apagaría al acabarlo; lo que aquellos pintores buscaban tenía que estar dentro del proceso y no en su resultado. Lo que buscaban estaba dentro del proceso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siguiente paso lógico era buscar esa misma experiencia fuera del arte. Empezó entrevistando a escaladores y a jugadores de ajedrez, gente que dedica muchísimo esfuerzo a actividades sin recompensa económica, y encontró descripciones prácticamente idénticas. Escaladores y ajedrecistas describían exactamente lo mismo con palabras muy distintas y sin conocerse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en 1990, después de veinticinco años de investigación acumulada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha vendido millones de ejemplares y se ha traducido a más de veinte idiomas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su autor murió en octubre de 2021, con ochenta y siete años.",
         },
       ],
     },
     {
-      titulo: "Qué es fluir",
+      titulo: "El busca que sonaba ocho veces al día",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El estado tiene rasgos constantes. Desaparece la noción del tiempo: horas que pasan como minutos, o segundos que se estiran. Desaparece la conciencia de uno mismo — dejas de oír la voz que te evalúa. La acción y la atención se funden, y la actividad se vuelve gratificante en sí misma, al margen del resultado.",
+            "El problema de estudiar la experiencia es que la gente recuerda fatal cómo se sintió. Si preguntas a alguien al final de la semana, contesta con una media inventada y con lo que cree que debería haber sentido, no con lo que sintió. El recuerdo no se parece a lo vivido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese problema tiene nombre en psicología y está bien documentado. Al recordar una experiencia pesan sobre todo el momento más intenso y el final, de modo que el resumen que hacemos de un día entero no se parece mucho a la suma de sus horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese desajuste entre vivir y recordar es un asunto grande de la psicología moderna. Hay quien sostiene que decidimos qué hacer con la vida usando el recuerdo y no la experiencia, y que por eso elegimos vacaciones fotografiables antes que tardes buenas. Elegimos vacaciones fotografiables antes que tardes buenas.",
         },
         {
           forma: "clave",
-          rotulo: "La condición esencial",
-          frase: "El reto tiene que estar justo por encima de tu nivel. Si es fácil te aburres; si es imposible te bloqueas.",
+          rotulo: "La solución técnica",
+          frase: "Darle a cada persona un busca y un cuadernillo. El aparato pita a horas aleatorias y hay que anotar en ese mismo instante qué estás haciendo y cómo te encuentras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos aparatos eran los buscapersonas que llevaban entonces médicos y ejecutivos. Hoy el mismo método se hace con una aplicación en el móvil, se aplica en decenas de países y se ha convertido en una herramienta estándar de la investigación sobre bienestar. Hoy el mismo método va en el móvil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El método se llama muestreo de experiencia y lo desarrolló su equipo en los años setenta. Sonaba unas ocho veces al día durante una semana, y en cada aviso el participante rellenaba una página con preguntas fijas antes de seguir con su vida. Ocho avisos al día durante una semana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diseño tiene un coste evidente que conviene mencionar. Interrumpir a alguien ocho veces al día durante una semana es molesto, mucha gente abandona a mitad, y quien aguanta hasta el final probablemente no representa del todo a la población general. Molesta bastante y mucha gente abandona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las preguntas eran deliberadamente concretas y siempre las mismas. Qué estás haciendo, dónde estás, con quién, en qué piensas, y después una serie de escalas sobre concentración, ánimo, dificultad de la tarea y ganas de estar haciendo otra cosa. Siempre las mismas y en el momento exacto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos escalas decisivas son las de dificultad y capacidad percibidas. Cruzándolas se puede colocar cada momento del día en un mapa, y de ese cruce salen todas las zonas del modelo, incluida la franja donde aparece el estado que da nombre al libro. De ese cruce sale el mapa entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese diseño resuelve dos problemas de golpe y por eso se sigue usando. Captura el momento en vez del recuerdo, y al preguntar a horas aleatorias evita que la muestra se llene solo de los ratos que la gente considera dignos de contar. Captura el momento en vez del recuerdo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El método permitió además comparar por primera vez a personas muy distintas con la misma vara. Un adolescente en clase y un ejecutivo en una reunión rellenaban exactamente el mismo cuadernillo, y eso hizo comparables experiencias que antes no se podían medir juntas. La misma vara para un adolescente y un ejecutivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando se publicó el libro, la base de datos superaba las cien mil respuestas individuales. Se habían recogido en varios países, con adolescentes, obreros de fábrica, ejecutivos, jubilados y amas de casa, y esa variedad es lo que hace fuerte el material. Cien mil respuestas de varios países.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El equipo italiano de Massimini y Carli aportó buena parte de los datos europeos. Trabajaron con pastores de los Alpes, con monjas y con obreros, y encontraron el mismo patrón en contextos que no se parecían en nada al de una ciudad estadounidense. Pastores, monjas y obreros dieron el mismo patrón.",
         },
         {
           forma: "arte",
           texto:
-            "Ese equilibrio es lo que hace el estado inestable y perseguible a la vez: como al fluir mejoras, lo que ayer era un reto mañana aburre, y hay que subir la dificultad. Fluir empuja a mejorar sin que haga falta disciplina, porque la alternativa —quedarse igual— deja de ser agradable.",
+            "El nombre del estado no lo puso el investigador sino los entrevistados. Varios describieron aquellos ratos con la misma imagen sin haberse puesto de acuerdo: decían que era como dejarse llevar por una corriente, como si la cosa fluyera sola. La metáfora del agua la pusieron ellos.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Las otras dos condiciones son igual de concretas. Un objetivo claro, para saber qué es hacerlo bien. Y respuesta inmediata: el escalador sabe al instante si el agarre aguanta, el cirujano ve el corte. Cuando falta ese retorno rápido, la atención se dispersa y no hay flujo posible.",
+            "Esa coincidencia de metáfora en gente muy distinta es un dato en sí misma. Un bailarín, un cirujano y un ajedrecista sin ninguna relación entre ellos eligieron la misma imagen del agua para describir lo mismo, y eso apunta a una experiencia común. Gente sin ninguna relación eligió la misma imagen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las entrevistas de aquellos años cubrían oficios muy distintos a propósito. Escaladores, cirujanos, ajedrecistas, bailarinas, pastores de los Alpes y trabajadores de cadena de montaje describían la misma experiencia con vocabularios completamente distintos. Escaladores, cirujanos, bailarinas y obreros de cadena describían lo mismo con vocabularios que no se parecían en nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso de los cirujanos es el que más aparece en el libro. Describen operaciones de seis horas que se les pasan volando, dicen no oír la música del quirófano y cuentan que se dan cuenta del cansancio y del hambre solo al quitarse los guantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Varios de ellos contaban además que odiaban las guardias sin operaciones. Preferían un quirófano difícil a una tarde tranquila de papeleo, y alguno reconocía que le costaba encontrar fuera del hospital cualquier cosa que le absorbiera de esa manera. Preferían un quirófano difícil a una tarde de papeleo tranquila.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso que más repite el libro es el de un obrero de una fábrica de montaje. Su trabajo consistía en una operación de cuarenta y tres segundos que repetía cientos de veces al día, y que él había convertido en una competición contra sí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hombre llevaba más de veinte años en la misma línea de montaje. Había rechazado ascensos a capataz porque no quería dejar la máquina, y en su tiempo libre había montado en el jardín de casa un sistema de riego con luces que él mismo diseñó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Había estudiado cada movimiento como un atleta estudia su técnica. Bajó el tiempo de la operación a menos de treinta segundos, llevaba la cuenta de sus récords, y describía aquella tarea repetitiva en los mismos términos que un escalador describe una pared. De cuarenta y tres segundos a menos de treinta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus compañeros hacían exactamente el mismo trabajo y lo odiaban.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia no estaba en la cadena sino en lo que él había montado encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el argumento entero del libro en un solo ejemplo.",
         },
       ],
     },
     {
-      titulo: "El orden de la conciencia",
+      titulo: "El canal entre el aburrimiento y la angustia",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su marco de fondo es que la atención es un recurso limitado —podemos procesar una cantidad finita de información por segundo— y que la calidad de una vida es, básicamente, en qué se ha gastado esa atención. No en qué te ha pasado: en dónde has puesto la cabeza.",
+            "El estado que describe el libro tiene una lista de rasgos que aparecen juntos. La atención se estrecha hasta ocupar solo la tarea, desaparece la conciencia de uno mismo, el tiempo se deforma y la actividad parece merecer la pena por sí sola. Todos esos rasgos aparecen siempre juntos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La deformación del tiempo va en las dos direcciones y eso sorprende. Para un músico o un cirujano, las horas pasan como minutos; para un bailarín o un corredor, un instante puede alargarse y sentirse con un detalle que en otro momento sería imposible. Unas horas vuelan y un instante se alarga.",
         },
         {
           forma: "clave",
-          rotulo: "El estado por defecto",
-          frase: "Cuando no hay nada que ocupe la atención, la mente vuelve al desorden: preocupaciones, rumiaciones, ansiedad difusa.",
+          rotulo: "Las tres condiciones",
+          frase: "Un objetivo claro, información inmediata de cómo lo estás haciendo, y una dificultad que esté justo al límite de tu capacidad.",
         },
         {
           forma: "texto",
           texto:
-            "Por eso, dice, la gente enciende la televisión: no porque le guste, sino porque cualquier información externa ordena la mente mejor que el vacío. Y por eso el aburrimiento auténtico es tan desagradable. Fluir es lo contrario del desorden — es la conciencia entera apuntando a un solo sitio.",
+            "La primera condición explica por qué los juegos producen tanto ese estado. Un juego es, por definición, una actividad con objetivos artificialmente claros y reglas explícitas, y esa claridad es justamente lo que la vida corriente casi nunca ofrece. Un juego trae de fábrica lo que la vida corriente casi nunca ofrece.",
         },
         {
           forma: "texto",
           texto:
-            "Su parte más emocionante recoge casos de personas que consiguieron fluir en circunstancias terribles: presos que convirtieron la celda en un problema mental que resolver, trabajadores de fábrica que competían consigo mismos. Su tesis es que casi cualquier actividad puede transformarse si le pones objetivos, reglas y medición propia.",
+            "La tercera condición es la que explica el diagrama más famoso del libro. Si la tarea supera claramente tu nivel aparece la angustia, y si tu nivel supera a la tarea aparece el aburrimiento, de modo que fluir vive en una franja estrecha entre las dos.",
         },
-      ],
-    },
-    {
-      titulo: "Lo que se le discute",
-      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Ese equilibrio tiene una consecuencia que casi nadie deduce. Como la capacidad crece con la práctica, el reto que te hacía fluir el año pasado te aburre este año, y mantener el estado obliga a subir la dificultad continuamente y para siempre. Hay que subir la dificultad continuamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor presenta esa escalada como algo bueno y ahí conviene poner una objeción. Una vida entera subiendo la dificultad para no aburrirse se parece bastante a la insatisfacción permanente, y el libro no se detiene demasiado en ese problema. El libro no se detiene en ese problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que ese diagrama ha cambiado varias veces desde 1975. La primera versión tenía tres zonas, la de los años ochenta añadió la apatía, y hay modelos posteriores con ocho estados que incluyen el control, la relajación y la preocupación. El dibujo que circula no es el original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El modelo de ocho estados lo desarrolló sobre todo el equipo italiano. Divide el plano en porciones según si la dificultad y la capacidad están por encima o por debajo de la media de esa persona, y es bastante más útil que el dibujo de tres zonas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa evolución es a la vez una virtud y un problema del modelo. Se fue ajustando a los datos, que es lo que debe hacer una teoría, y también significa que el dibujo que circula por internet no es el original de ninguna de sus versiones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un matiz técnico importante en los modelos posteriores. Lo que se compara no es la dificultad objetiva de la tarea sino la percibida, y no contra tu capacidad absoluta sino contra tu propia media, de modo que todo el mapa es relativo a cada persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La condición de la información inmediata explica muchas cosas de la vida diaria. Un escalador sabe en cada instante si el movimiento va bien, un cirujano ve lo que ocurre en el campo operatorio, y un profesor o un padre no sabrán en años si lo están haciendo bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale un consejo práctico que el libro repite en varios capítulos. Cuando una actividad no trae información inmediata de fábrica, hay que inventársela: fijar una medida propia, apuntar los resultados y comprobar cada poco si uno mejora. Si la actividad no da señales, invéntatelas con una medida propia y apúntala.",
+        },
         {
           forma: "arte",
           texto:
-            "El concepto salió del laboratorio y se lo llevó todo el mundo. Los diseñadores de videojuegos lo usan explícitamente para calibrar la dificultad; el deporte de élite lo llama «la zona»; y las empresas montaron programas de productividad basados en él. Es de los conceptos psicológicos más exportados del siglo.",
-          arte: "museo",
+            "El detalle más contraintuitivo del libro es que durante el estado no se es feliz. La conciencia de uno mismo desaparece, y con ella la posibilidad de notar que uno lo está pasando bien: la satisfacción llega después, al recordar el rato. La satisfacción llega después, al recordarlo.",
+          arte: "memoria",
         },
         {
           forma: "texto",
           texto:
-            "Y de ahí vienen sus problemas. La misma mecánica que hace absorbente un buen trabajo hace absorbente una tragaperras o un feed infinito: objetivos claros, respuesta inmediata, dificultad ajustada. Csíkszentmihályi era consciente y distinguía entre flujo que construye algo y flujo que solo consume tiempo, pero el matiz se pierde casi siempre.",
+            "En los datos del busca eso se ve con claridad y sorprende al leerlo. En los momentos de máxima absorción, la puntuación de felicidad no es especialmente alta; sube justo después, cuando la persona vuelve a acordarse de sí misma y valora lo que acaba de hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle desmonta la lectura habitual de este libro. No dice que fluir sea un estado de placer continuo, sino que es un estado de esfuerzo absorbente, y que el placer aparece cuando termina y uno se da cuenta de lo que ha hecho. Es esfuerzo absorbente, no placer continuo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra que usa para las actividades que producen ese estado viene del griego. Las llama autotélicas, es decir que tienen su fin en sí mismas, y son aquellas que uno haría igual aunque no le pagaran ni le viera nadie. Las harías igual aunque no te pagaran.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese concepto conecta con una discusión clásica sobre la motivación. Pagar por algo que se hacía por gusto puede reducir las ganas de hacerlo, un efecto medido desde los años setenta, y el libro lo usa para explicar por qué la afición convertida en oficio a veces se estropea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro sostiene que también hay personas más propensas que otras a entrar en ese estado. Describe una personalidad autotélica, capaz de encontrar retos en situaciones que a otros les parecen vacías, y dedica varias páginas a de dónde puede salir eso. Hay quien encuentra retos donde otros ven vacío.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los ejemplos que da de esa capacidad son los más duros del libro. Habla de presos políticos y de supervivientes de campos que convirtieron una celda en un problema que resolver, memorizando textos o jugando partidas mentales para no derrumbarse. Presos que convirtieron una celda en un problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su respuesta apunta a cinco condiciones en la familia de origen. Claridad en lo que se espera, interés real en lo que el niño está haciendo ahora, posibilidad de elegir, confianza suficiente para implicarse y retos cada vez un poco mayores. Claridad, interés, elección, confianza y retos crecientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte es la más floja del libro en cuanto a datos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son entrevistas y observación, no un seguimiento largo de familias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio autor la presenta como hipótesis y así conviene leerla.",
+        },
+      ],
+    },
+    {
+      titulo: "La paradoja del trabajo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El hallazgo más incómodo de toda la investigación apareció al separar los avisos por contexto. Cuando el busca sonaba en el trabajo, la gente describía muchísimas más veces el estado de absorción que cuando sonaba en su tiempo libre. En el trabajo se fluye mucho más que en el ocio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese resultado va en contra de lo que casi todo el mundo contestaría en una encuesta. Si se pregunta en abstracto cuándo se siente uno mejor, la respuesta suele ser el fin de semana, y los avisos recogidos en el momento dicen otra cosa bastante distinta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distancia entre lo que decimos y lo que registramos es el corazón del método. Sin el busca sonando a horas aleatorias, este hallazgo sencillamente no existiría, porque nadie contesta que su mejor rato de la semana fue un martes en la oficina. Nadie contesta que su mejor rato fue un martes.",
         },
         {
           forma: "clave",
-          rotulo: "La crítica académica",
-          frase: "Es difícil de medir con precisión, y sus datos dependen de lo que la gente dice sentir, no de nada observable.",
+          rotulo: "Las dos cifras",
+          frase: "Algo más de la mitad de las respuestas de trabajo describían ese estado, frente a menos de una quinta parte de las de ocio.",
         },
         {
           forma: "texto",
           texto:
-            "Como lectura es más denso que sus imitadores: hay páginas de teoría de la información y de psicología evolutiva que se pueden saltar. Lo aprovechable cabe en poco — protege ratos largos sin interrupciones, ponte retos un poco por encima de lo que sabes, y busca actividades donde sepas al momento si vas bien.",
+            "Conviene entender qué significan exactamente esas cifras antes de repetirlas. No dicen que la gente sea feliz trabajando: dicen que en el trabajo aparecen más a menudo las condiciones de reto y capacidad altos que definen el estado en este modelo. Fluir en el trabajo no es ser feliz en él.",
         },
         {
           forma: "texto",
           texto:
-            "Su consejo más contraintuitivo tiene que ver con el ocio. Csíkszentmihályi encontró que las actividades pasivas —televisión, mirar sin más— producen niveles de disfrute muy bajos, y aun así ocupan la mayor parte del tiempo libre, porque cuestan cero energía empezarlas. Las que sí generan flujo requieren un empujón inicial: sacar la guitarra, ponerse las zapatillas, abrir el cuaderno. Toda la diferencia está en esos treinta segundos de arranque.",
+            "La segunda mitad del hallazgo es la que lo convierte en paradoja. En esos mismos avisos de trabajo, la gente decía con frecuencia que preferiría estar haciendo otra cosa, mientras que en el ocio decía lo contrario aunque no estuviera disfrutando. Preferían estar en otro sitio, aun fluyendo.",
         },
         {
           forma: "texto",
           texto:
-            "Su definición de personalidad autotélica describe a quien consigue entrar en flujo casi en cualquier parte: gente capaz de convertir una espera, una tarea rutinaria o una conversación en un pequeño reto con reglas propias. Csíkszentmihályi sostenía que no es un rasgo con el que se nace, sino una costumbre que se entrena.",
+            "La explicación más razonable no es psicológica sino cultural. Hemos aprendido que el trabajo es una obligación y el ocio una recompensa, y esa etiqueta pesa tanto que contestamos según ella incluso cuando la experiencia real dice lo contrario. El trabajo es obligación y el ocio recompensa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese estudio lo firmaron Csíkszentmihályi y Judith LeFevre en 1989. Analizaron los avisos de un grupo de trabajadores estadounidenses de varios sectores, y las cifras se han repetido después en otros países con resultados parecidos. Analizaron los avisos de trabajadores de varios sectores, y las cifras se han repetido después fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La muestra de aquel estudio era de poco más de cien personas adultas con empleo. Es una cifra modesta, aunque cada persona aportaba decenas de avisos, y conviene tenerla presente antes de convertir esos porcentajes en una ley universal. Poco más de cien personas, con decenas de avisos cada una.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación que propone el libro tiene que ver con las tres condiciones. Un puesto de trabajo suele traer de fábrica objetivos claros, información sobre si lo haces bien y una dificultad ajustada, y el tiempo libre casi nunca trae nada de eso. El puesto de trabajo trae las tres condiciones puestas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estado más frecuente durante el ocio, según esos datos, no es el disfrute. Es la apatía: poca dificultad, poca capacidad exigida, poca atención y poco ánimo, que es exactamente lo que se siente hojeando el teléfono sin buscar nada. Apatía: poca exigencia y poco ánimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro es de 1990 y aquel diagnóstico se hizo mirando la televisión. Treinta y cinco años después el aparato ha cambiado de tamaño y va en el bolsillo, y la descripción del estado de apatía encaja todavía mejor que entonces. Ahora el aparato va en el bolsillo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La televisión sale muy mal parada en toda la serie de estudios. Es de las actividades donde se registran menos concentración y peor ánimo, y aun así es a la que más horas se dedica, lo que el libro atribuye a que exige muy poca energía para empezar.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa asimetría entre coste inicial y satisfacción explica bastantes decisiones diarias. Tocar un instrumento da más satisfacción que ver una serie y cuesta muchísimo más arrancar, y a las once de la noche gana siempre lo que no exige ningún esfuerzo de entrada. A las once de la noche gana lo fácil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar el alcance de esas comparaciones antes de sacar conclusiones. Que la gente fluya más en el trabajo no significa que el trabajo sea bueno ni que el ocio sobre: significa que el ocio pasivo está mal diseñado para producir ese estado. El ocio pasivo está mal diseñado, sin más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conclusión práctica del libro es que el ocio hay que construirlo. Las aficiones que producen absorción tienen reglas, exigen aprender algo y dan una respuesta inmediata, y todas ellas requieren un empujón inicial que la televisión no requiere. El ocio bueno hay que construirlo a mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El consejo concreto que se puede sacar cabe en una frase. Elige una actividad con reglas, mide algo en ella, sube la dificultad cuando deje de costarte, y protege un rato sin interrupciones, porque cada aviso del móvil deshace el estado por completo. Cada aviso del móvil deshace el estado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale una idea que el libro repite y que resume bien su propuesta. Si una parte de tu vida no te absorbe, probablemente no le falta interés sino estructura, y ponerle reglas y una manera de medir suele cambiar la experiencia entera. Lo que falta no es interés sino estructura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro dedica también un capítulo entero al cuerpo y otro al pensamiento. Nadar, bailar, escalar o hacer el amor pueden producir el estado igual que resolver un problema matemático, escribir o llevar una conversación de verdad con alguien. Del cuerpo al pensamiento, el mecanismo es el mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo sobre el cuerpo insiste en que no hace falta ningún talento especial. Andar puede convertirse en una actividad absorbente si uno se fija metas, elige rutas y presta atención al terreno, y lo mismo vale para comer o para escuchar música. Sirve hasta para andar o para comer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo favorito de conversación viene de un texto chino de hace más de dos mil años. Un cocinero explica al príncipe que su cuchillo lleva diecinueve años sin afilarse porque no corta el hueso, sino que encuentra el hueco que ya estaba entre las articulaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro cita ese pasaje como la descripción más antigua que conoce del estado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cocinero dice que no trabaja con los ojos sino con el espíritu.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que cuando llega a una parte difícil, va más despacio y disfruta más.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que fluir no arregla",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El aviso más importante del libro es también el que menos se cita. Fluir no es moralmente bueno: un ladrón forzando una cerradura, un jugador delante de una máquina o un soldado en combate pueden estar exactamente en ese estado. Un ladrón o un jugador también fluyen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo de las máquinas tragaperras es el más incómodo de todos. Están diseñadas exactamente con las tres condiciones del modelo, objetivo claro, información inmediata y dificultad ajustada, y producen un estado de absorción que arruina a la gente. Cumplen las tres condiciones y arruinan a la gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ejemplo obliga a completar la teoría con algo que no está en ella. Hace falta un criterio externo para decidir qué merece la pena absorber una vida, y ese criterio no sale de los datos del busca ni de ninguna medida de experiencia. El criterio no sale de los datos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio autor dedica páginas a esa parte incómoda y no la esconde. Señala que el estado es adictivo precisamente porque es tan satisfactorio, y que alguien puede organizar una vida entera alrededor de una actividad que le absorbe y le destruye. Es adictivo justamente por ser tan satisfactorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También avisa de un riesgo más doméstico y bastante frecuente. Quien encuentra ese estado solo en el trabajo tiende a pasar allí cada vez más horas, no por ambición sino porque en casa no hay nada que le absorba de la misma manera. Se queda en la oficina quien no encuentra nada en casa.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que el libro no dice",
+          frase: "No dice que fluir mucho equivalga a una vida buena. Dice que es una experiencia óptima, y que qué hacer con ella es otra pregunta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El reproche metodológico más serio tiene que ver con cómo se mide. El estado se define por lo que la gente dice sentir, y el cuestionario pregunta justo por esos componentes, de modo que la definición y la medida se apoyan una en la otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una discusión abierta sobre si el estado es uno o son varios. Algunos investigadores sostienen que la absorción, el disfrute y la sensación de control pueden aparecer por separado, y que juntarlos en una sola etiqueta pierde información útil. Quizá no sea un estado sino varios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no invalida los datos pero limita lo que se puede concluir de ellos. Un patrón que aparece en cien mil respuestas de muchos países es un hallazgo real; lo que resulta difícil es demostrar que ese estado causa algo y no solo acompaña a otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene situar este libro en su contexto académico posterior. Fue uno de los cimientos de la llamada psicología positiva, que a partir de 2011 se llevó por delante buena parte de sus resultados al comprobar que muchos no se reproducían. Fue un cimiento de la psicología positiva.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una confusión muy extendida con otra teoría de la misma época. Mucha gente asocia fluir con la práctica deliberada y con la cifra de las diez mil horas, y las dos cosas vienen de otro investigador y describen algo distinto. La práctica deliberada es de otro investigador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cifra de las diez mil horas, además, no la escribió aquel investigador. Salió de un libro de divulgación de 2008 que redondeó una media de su estudio sobre violinistas, y el propio autor del estudio pasó años corrigiendo esa lectura sin éxito. Ericsson pasó años corrigiendo esa lectura.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquel investigador, Anders Ericsson, insistía en que la práctica deliberada no es agradable. Consiste en trabajar justo en lo que se te da mal, con corrección constante y máxima incomodidad, y él decía expresamente que eso no es el estado que describe este libro. Mejorar duele; fluir, no.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre las dos ideas es útil y se olvida constantemente. Fluir ocurre cuando el reto iguala tu capacidad; mejorar de verdad ocurre cuando el reto la supera un poco y te obliga a fallar, que es incómodo y no fluye nada. Mejorar exige fallar, y fallar no fluye.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El destino comercial del libro tampoco es el que su autor buscaba. La idea acabó convertida en una técnica de productividad para oficinas y en una herramienta de diseño de videojuegos, donde el llamado canal de dificultad sirve para que nadie suelte el mando. Acabó siendo una técnica de retención.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el diseño de videojuegos esa idea se enseña como una curva de dificultad. La partida sube el reto justo cuando el jugador mejora, para mantenerlo dentro del canal, y las estadísticas de retención de la industria se apoyan en ese mecanismo. La curva sube justo cuando el jugador mejora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese uso es exactamente lo contrario de lo que el libro propone. Csíkszentmihályi hablaba de organizar una vida entera alrededor de experiencias que merezcan la pena, y la industria del entretenimiento usa el mismo mecanismo para retener la atención el máximo de horas. Una vida entera frente a unas horas de pantalla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En este catálogo, el libro con el que más conversa es Ikigai. Aquel superventas japonés cita a Csíkszentmihályi de forma explícita y monta buena parte de su propuesta sobre estas ideas, con bastantes menos datos detrás. Aquel superventas cita a Csíkszentmihályi de forma explícita y monta su propuesta sobre estas ideas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre los dos está en el respaldo de cada afirmación. Aquí hay cien mil avisos de busca y estudios publicados con revisión; allí hay un puñado de entrevistas en un pueblo de Okinawa y una lectura muy libre de esta misma teoría. Cien mil avisos frente a un puñado de entrevistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También encaja bien con La guerra del arte, que está en el catálogo. Pressfield describe la resistencia que hay que vencer para sentarse a trabajar, y este libro describe lo que ocurre cuando se vence: son las dos mitades del mismo problema. Son las dos mitades del mismo problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia de método entre los dos también es instructiva. Pressfield escribe desde su experiencia y con vocabulario casi religioso, y Csíkszentmihályi llega a conclusiones parecidas con cuestionarios, escalas y estudios publicados con revisión. Uno escribe desde su experiencia y con vocabulario casi religioso; el otro, con escalas y estudios revisados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Treinta y cinco años después, el hallazgo del busca sigue en pie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nos aburrimos descansando y nos concentramos trabajando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo difícil es diseñar el tiempo libre como se diseña un puesto de trabajo.",
         },
       ],
     },
