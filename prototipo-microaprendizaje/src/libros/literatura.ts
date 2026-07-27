@@ -2056,113 +2056,635 @@ export const CIEN_ANOS: Resumen = {
   ano: 1967,
   gancho: "Empeñó el coche, la batidora y el secador para poder mandar el manuscrito por correo. No le llegaba para enviarlo entero.",
   porQue:
-    "Es la novela que definió el realismo mágico y la más leída en español después del Quijote. Y su primera frase es la más famosa del idioma.",
+    "Es la novela que definió el realismo mágico, y conviene saber qué inventó, qué copió de la realidad y qué cifra suya se repite hoy como si fuera un dato.",
   partes: [
     {
-      titulo: "El manuscrito a plazos",
+      titulo: "El coche empeñado en Ciudad de México",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "García Márquez dejó su trabajo y se encerró dieciocho meses a escribir mientras su mujer Mercedes aguantaba a los acreedores. Vendieron el coche. Cuando terminó, fueron a correos a enviar las quinientas páginas a Buenos Aires y no les alcanzaba el dinero: mandaron la mitad. Al volver a casa empeñaron la batidora y el secador para poder mandar la otra.",
+            "En enero de 1965, un periodista colombiano de treinta y siete años conducía hacia Acapulco con su mujer y sus dos hijos. A mitad de camino dio media vuelta sin explicar gran cosa, volvió a Ciudad de México y le dijo a Mercedes que iba a escribir un libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena de la carretera él la contó siempre igual y hay quien la ha puesto en duda. Su biógrafo encontró versiones distintas de la fecha y del punto exacto donde dio la vuelta, y el propio autor admitía que llevaba años reescribiendo su propia vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que había encontrado en la carretera era el tono, no la trama. Llevaba quince años dándole vueltas a una novela sobre la casa de sus abuelos y no le salía, y aquella tarde entendió que había que contarlo como su abuela contaba las cosas imposibles: sin pestañear.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso había publicado ya cuatro libros con muy poca suerte comercial. La hojarasca, El coronel no tiene quien le escriba, La mala hora y una colección de cuentos vendían unos pocos cientos de ejemplares y le daban prestigio entre escritores y poco más.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla que encontró",
+          frase: "Contar lo extraordinario con la misma cara de palo con que se cuenta que ha llovido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa regla tiene una consecuencia técnica que se ve en cada página. El narrador nunca subraya lo asombroso ni pide permiso al lector: cuenta una ascensión al cielo y una plaga de hormigas con el mismo tono neutro, y coloca lo raro dentro de una frase larga y ordinaria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se encerró dieciocho meses en el cuarto del fondo de su casa de la colonia San Ángel. Escribía a máquina todos los días, fumaba sin parar, y a la habitación la llamaban en broma la cueva de la mafia, porque allí no entraba nadie mientras él trabajaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras escribía no enseñó el manuscrito casi a nadie. Leía trozos por teléfono a un par de amigos escritores, entre ellos el colombiano Álvaro Mutis, y esos amigos fueron los que empezaron a contar por ahí que estaba saliendo algo muy grande antes de que existiera el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El dinero se acabó a los pocos meses y ahí empieza la parte que todo el mundo cuenta. Mercedes Barcha fue aguantando al casero, al carnicero y al de la tienda con promesas, y la deuda de la familia llegó a rondar los diez mil pesos de entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El carnicero de la esquina fue fiando durante meses sin garantía ninguna. Mercedes le decía que en unos meses habría dinero, y esa frase, repetida durante año y medio a media docena de acreedores, es lo que sostuvo materialmente la escritura del libro. Ella nunca leyó una línea hasta el final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fueron vendiendo lo que había en casa por orden de necesidad. Primero el coche, un Opel de segunda mano que era lo único de valor, y después la radio, el reloj, la batidora y el secador de pelo, en ese orden y con los recibos guardados.",
         },
         {
           forma: "arte",
           texto:
-            "Y ahí está la mejor parte de la anécdota, que él contaba riéndose: por un error, mandaron primero la segunda mitad. El editor leyó el final antes que el principio, y aun así pidió el resto por telegrama urgente.",
+            "Cuando terminó, el manuscrito tenía cerca de quinientas páginas y había que mandarlo a una editorial de Buenos Aires. En correos les dijeron que el envío costaba ochenta y dos pesos y ellos llevaban cincuenta y tres, así que mandaron solo la mitad del paquete.",
           arte: "escritor",
         },
         {
-          forma: "clave",
-          rotulo: "La primera frase",
-          frase: "«Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo.»",
+          forma: "texto",
+          texto:
+            "El editor que lo recibió en Buenos Aires se llamaba Francisco Porrúa. Trabajaba en Sudamericana, había leído los libros anteriores del autor sin que casi nadie los leyera, y fue él quien pidió el resto del manuscrito y quien decidió subir la tirada de golpe.",
         },
         {
           forma: "texto",
           texto:
-            "En una sola línea hay tres tiempos: un futuro que aún no ha ocurrido, un presente narrativo y un recuerdo de infancia. La novela entera funciona así, y por eso el tiempo en Macondo no avanza en línea recta sino en espiral. Se han vendido más de cincuenta millones de ejemplares en más de cuarenta idiomas.",
+            "El detalle que remata la anécdota es que se equivocaron de mitad. Por las prisas mandaron la segunda parte en vez de la primera, y el editor recibió una novela que empezaba por el medio y aun así escribió de vuelta pidiendo el resto cuanto antes y con bastante urgencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Volvieron a casa a empeñar lo que quedaba para pagar el segundo envío. Esa escena, que él contó decenas de veces y que Mercedes contó alguna vez de otra manera, se ha convertido en el mito fundacional del libro y conviene mirarla con algo de distancia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Como todos los mitos de escritor, ha ido creciendo con los años. Las cifras cambian según la entrevista, el orden de los objetos empeñados varía, y el propio autor era un narrador demasiado bueno como para dejar una historia sin mejorar un poco. Lo esencial, en todo caso, está documentado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La novela se publicó en Buenos Aires el cinco de junio de 1967. La editorial había previsto una tirada pequeña, la subió a ocho mil ejemplares antes de imprimir, y esos ocho mil se agotaron en cuestión de semanas sin que nadie lo esperara. Nadie había visto nunca algo así en la editorial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La portada de aquella primera edición tiene su propia historia. La diseñó el pintor Vicente Rojo con un galeón entre flores, y en la imprenta salió una letra del revés que se coló en toda la tirada y que hoy sirve para identificar los ejemplares originales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El éxito fue inmediato y de un tipo que casi no se ve en literatura. No fue un libro de crítica que luego llegó al público: se agotó en las librerías desde el primer mes, se reimprimió sin parar y en pocos años estaba traducido a decenas de idiomas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La traducción al inglés la hizo Gregory Rabassa tres años después. García Márquez esperó a que Rabassa estuviera libre en vez de aceptar otro traductor, y luego dijo que aquella versión le parecía mejor que la suya, que es una cortesía enorme y probablemente exagerada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Rabassa tradujo también a Cortázar y a otros autores del mismo momento. Su versión inglesa es la que abrió el libro al mercado estadounidense en 1970, y sin ella probablemente no habría existido la ola de traducciones que vino después a las demás lenguas europeas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo esto ocurrió antes de que existiera nada parecido a la promoción moderna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se vendió por el boca a boca de los lectores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y así sigue vendiéndose sesenta años después.",
         },
       ],
     },
     {
-      titulo: "Macondo",
+      titulo: "La casa de Aracataca",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La historia sigue a siete generaciones de la familia Buendía en un pueblo fundado por ellos en mitad de la nada. Al principio Macondo es tan nuevo que muchas cosas carecen de nombre y hay que señalarlas con el dedo. Llegan gitanos con imanes, con lupas, con hielo — y el hielo es un prodigio que hay que pagar por tocar.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Lo que hace única a la novela es que no distingue entre lo cotidiano y lo imposible. Una mujer asciende al cielo mientras tiende sábanas, y la familia se queja sobre todo de haber perdido las sábanas. Llueve durante cuatro años, once meses y dos días. Un rastro de sangre recorre el pueblo, esquiva alfombras y llega hasta la cocina de una madre.",
-          arte: "explorar",
-        },
-        {
-          forma: "clave",
-          rotulo: "Lo que es el realismo mágico",
-          frase: "No es fantasía. Es contar lo extraordinario con la misma cara que se cuenta el desayuno.",
+            "Aracataca es un pueblo pequeño del norte de Colombia, cerca de la costa del Caribe y rodeado de plantaciones de banano. Allí nació García Márquez en 1927 y allí lo dejaron sus padres al cuidado de los abuelos cuando era un bebé, y allí vivió hasta los ocho años.",
         },
         {
           forma: "texto",
           texto:
-            "García Márquez decía que ese tono lo aprendió de su abuela, que le contaba barbaridades con una expresión de absoluta naturalidad, como si fueran hechos comprobados. Tardó veinte años en encontrar la voz del libro, y la encontró el día que entendió que tenía que escribirlo como lo contaba ella.",
+            "El pueblo había vivido su momento de riqueza justo antes de que él naciera. La compañía bananera estadounidense se instaló allí a principios de siglo, llenó la zona de dinero y de forasteros, y se marchó dejando un lugar que ya solo hablaba de lo que había sido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El abuelo era un coronel retirado que había peleado en una guerra civil. Se llamaba Nicolás Márquez, había matado a un hombre en un duelo, contaba batallas con precisión de militar y llevaba al niño al circo, al cine y a ver el hielo en la compañía bananera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel muerto del duelo pesaba en la casa como un mueble más. El abuelo lo contaba sin adornos, decía que había tenido que hacerlo y que después no había vuelto a dormir bien, y el nieto usó esa frase entera para un personaje de esta novela.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase más citada del idioma",
+          frase: "Empieza con un pelotón de fusilamiento, un recuerdo y un padre que lleva a su hijo a conocer el hielo. Tres tiempos en una sola línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El truco de esa frase es que mete tres tiempos verbales en una línea. Hay un futuro visto desde el pasado, un pasado remoto y un presente implícito, y el lector recibe de golpe el final del personaje y el principio del pueblo, sin haber contado todavía nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La abuela, Tranquilina Iguarán, es la otra mitad del libro y la más importante. Hablaba de muertos que pasaban por el cuarto y de agüeros con la misma voz con que decía que había que recoger la ropa, y esa naturalidad es exactamente el tono de la novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella tenía además un vocabulario que la novela hereda casi entero. Nombraba objetos de cocina, plantas y enfermedades con palabras del Caribe colombiano que ya no se usaban, y esa lengua concreta es lo que impide que Macondo suene a lugar inventado por alguien de escritorio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La casa estaba llena de mujeres y de historias que se contaban a media voz. Había cuartos donde no se entraba, santos con vela encendida, tías que hacían mortajas y una idea muy elástica de la frontera entre lo que había pasado y lo que se decía que había pasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El niño dormía en un cuarto donde, según le decían, se aparecía una tía muerta. La solución de la abuela no era negarlo sino explicarle a qué hora solía aparecer, y él contaba que aquello le enseñó más sobre narrar que cualquier libro que leyera después.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Macondo no es Aracataca, aunque el pueblo entero se haya rebautizado a sí mismo con ese apellido. Es un sitio inventado con piezas de varios pueblos de la zona, y el nombre lo tomó de una finca bananera que veía desde el tren cuando era niño.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pueblo real cambió de nombre oficial en la práctica y casi en el registro. En 2006 se votó en referéndum añadirle Macondo al nombre, ganó el sí pero no fue a votar suficiente gente, y el cambio quedó sin efecto legal aunque los carteles ya lo llevan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La guerra que persigue al coronel Aureliano Buendía también viene de allí. Colombia tuvo entre 1899 y 1902 una guerra civil larguísima entre liberales y conservadores, con más de cien mil muertos, y el abuelo del autor la peleó del lado liberal y perdió. El nieto creció oyendo esa derrota.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella guerra se llama de los Mil Días y es de las peores de la historia del país. Terminó con la derrota liberal, con el país arruinado y, pocos meses después, con la separación de Panamá, que se independizó con apoyo estadounidense en 1903, un año después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella guerra dejó un detalle administrativo que aparece entero en la novela. A los veteranos les prometieron una pensión que el Estado tardó décadas en pagar, y el abuelo se pasó la vida esperando una carta que no llegó nunca, igual que un personaje suyo posterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que el autor tardó veinte años en poder escribir todo esto. Empezó a intentarlo a los veinte, con un manuscrito que llamaba La casa, lo abandonó varias veces, y entretanto publicó cuatro libros que casi nadie leyó y trabajó de reportero. Vivió de prestado casi hasta los cuarenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos años de periodismo se notan en cada página. Los sucesos más raros de la novela están contados con la precisión de una crónica, con cifras, fechas y nombres propios, y esa mezcla de reportaje y disparate es la máquina entera del libro. El dato falso nunca aparece; el increíble, siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él mismo lo explicaba con un ejemplo que repetía mucho. Si dices que volaban elefantes por el cielo nadie te cree; si dices que volaban cuatrocientos veinticinco elefantes, la gente probablemente te crea, porque el número suena a que alguien se molestó en contarlos. El número es lo que hace creer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese truco explica también por qué el libro no se lee como una fantasía. Nadie en Macondo se sorprende de que llueva cuatro años, y como los personajes no se asombran, el lector tampoco, y acaba aceptando las reglas del sitio en unas pocas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar entonces qué es lo raro y qué no lo es en Macondo. Que una mujer suba al cielo tendiendo sábanas es invención; que un pueblo se llene de billetes con la fiebre del banano y se vacíe después es historia económica de Colombia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor se enfadaba cuando le llamaban inventor de lo imposible. Decía que en el Caribe la gente habla así, que lo único que hizo fue anotarlo, y que su problema como escritor no fue imaginar cosas raras sino hacerlas creíbles por escrito. Su queja era técnica y no de orgullo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Volvió a Aracataca con su madre a los veintitantos años, a vender la casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pueblo estaba medio vacío y el calor era insoportable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese viaje, dijo siempre, fue el día en que se hizo escritor.",
         },
       ],
     },
     {
-      titulo: "La historia de verdad",
+      titulo: "Los diecisiete Aurelianos",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Debajo de lo asombroso hay historia de Colombia. Las guerras interminables entre liberales y conservadores en las que el coronel Aureliano promueve treinta y dos levantamientos y los pierde todos. La llegada de la compañía bananera extranjera, que trae prosperidad, se lo lleva todo y deja el pueblo peor que antes.",
+            "La novela cuenta siete generaciones de una familia en un pueblo que fundan ellos mismos. Empieza con José Arcadio Buendía y Úrsula Iguarán, que son primos y huyen de su pueblo tras un asesinato, y termina más de cien años después con el último Buendía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pueblo lo fundan huyendo de un fantasma y de un pecado. José Arcadio mata a un vecino que se ha burlado de él, el muerto se le aparece cada noche, y la familia se marcha con un grupo de amigos a buscar un sitio donde nadie los conozca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema práctico del lector aparece en la página treinta. Los hombres de la familia se llaman todos José Arcadio o Aureliano, generación tras generación, y las mujeres repiten Úrsula, Amaranta y Remedios con variaciones mínimas. Conviene tener el árbol a mano las primeras cien páginas y luego soltarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese miedo al incesto recorre el libro de principio a fin. Úrsula se casa con su primo y se pasa años temiendo parir un hijo con cola de cerdo, y esa amenaza familiar, que suena a superstición, acaba cumpliéndose literalmente en la última página del libro.",
         },
         {
           forma: "clave",
-          rotulo: "El episodio real",
-          frase: "La matanza de los trabajadores del banano en la estación existió. En la novela, al día siguiente nadie recuerda que ocurriera.",
+          rotulo: "Por qué se repiten los nombres",
+          frase: "Porque la novela trata de un tiempo que da vueltas en vez de avanzar. Cada nombre repetido es un aviso de que la historia va a repetirse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una diferencia de carácter marcada por el nombre. Los José Arcadio son grandes, impulsivos y se acaban pronto; los Aureliano son delgados, callados y capaces de una lucidez que no les sirve de nada, y esa regla se cumple durante las siete generaciones enteras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Úrsula lo dice en voz alta en mitad del libro y es la clave de lectura. Comenta que el tiempo no pasa sino que da vueltas en redondo, y que por eso los Aureliano salen retraídos y lúcidos y los José Arcadio impulsivos y enormes, siempre igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Úrsula es además el personaje que más dura y el que sostiene la casa. Vive más de cien años, entierra a hijos y a nietos, se queda ciega y lo disimula durante años memorizando dónde está cada cosa para que nadie la trate como a una inválida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El coronel Aureliano Buendía es el personaje que sostiene el centro del libro. Promueve treinta y dos levantamientos armados y los pierde todos, sobrevive a catorce atentados, a setenta y tres emboscadas y a un pelotón de fusilamiento, y acaba fabricando pescaditos de oro. Los hace toda su vejez, uno tras otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su historia militar tiene una frase que resume todo el libro. Después de tantas guerras descubre que peleaba solo por orgullo, y el autor la remata diciendo que perdió las treinta y dos, que es la manera más seca de contar un siglo de política latinoamericana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los pescaditos son la mejor imagen de todo el libro. Los hace, los vende, con el oro que saca compra más oro y vuelve a hacerlos, y esa rueda sin destino es exactamente lo que le ha pasado a él con la guerra y a Macondo con la historia.",
         },
         {
           forma: "arte",
           texto:
-            "Ese es el momento más político del libro y el más escalofriante. Un superviviente insiste en contarlo y todos le miran como a un loco: los periódicos dicen que no hubo muertos, la versión oficial se repite hasta que se convierte en la única, y el hombre acaba dudando de su propia memoria. Escrito en 1967, describe algo que no ha dejado de pasar.",
+            "Sus diecisiete hijos con diecisiete mujeres distintas, todos bautizados Aureliano y todos con una cruz de ceniza en la frente que no se les borra, aparecen y desaparecen en unas pocas páginas. Los matan a todos de un tiro en la cruz, en una sola noche.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa matanza es uno de los momentos donde el libro cambia de registro sin avisar. Lo que venía siendo una comedia familiar se convierte en una lista de asesinatos políticos contada en dos páginas, y el lector entiende de golpe qué clase de novela está leyendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La estructura del libro es más rara de lo que parece a primera vista. No hay capítulos numerados ni títulos, sino veinte bloques sin nombre, y el tiempo avanza y retrocede constantemente porque casi cada bloque empieza anunciando algo que pasará más adelante. Esa técnica sostiene el libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco hay diálogo apenas, y ese es el rasgo técnico que más sorprende. Casi todo está contado en resumen, con verbos en pasado y frases largas, y sin embargo el libro no se lee como un informe porque cada resumen lleva dentro una escena diminuta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese recurso está ya en la primera frase y se repite decenas de veces. Se anuncia el final de un personaje mucho antes de contarlo, de modo que el lector avanza sabiendo lo que va a ocurrir y leyendo para averiguar cómo se llega hasta allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene avisar de dónde se atasca casi todo el mundo. El tercio central, con las guerras del coronel y la ristra de nombres repetidos, es donde más lectores abandonan, y la novela no ayuda porque prescinde de casi todos los descansos habituales. Merece la pena aguantar hasta la compañía bananera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El árbol genealógico que traen muchas ediciones no es del autor. Lo añadieron editores posteriores para orientar al lector, y hay quien sostiene que estropea el efecto de mareo deliberado que la repetición de nombres busca producir. La primera edición no lo llevaba y se leía igual de bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una parte del libro que hoy se lee con bastante incomodidad y conviene decirlo. El coronel se casa con Remedios Moscote cuando ella es una niña que aún no ha llegado a la pubertad, y la novela lo cuenta como un rasgo pintoresco más del pueblo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tratamiento de las mujeres es desigual y ha envejecido peor que el resto. Úrsula es el pilar de todo y una de las grandes figuras del siglo, pero varias mujeres existen sobre todo como objeto de deseo o como belleza sin conciencia. Es un libro escrito en 1966 y se nota.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Remedios la bella es el caso más discutido de todos. Es una mujer sin lenguaje, que provoca la muerte de varios hombres sin proponérselo y que asciende al cielo tendiendo sábanas, y se puede leer como una imagen poética o como una mujer sin interior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto invalida el libro, pero forma parte de leerlo entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un clásico no deja de serlo por tener zonas que hoy chirrían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Deja de serlo cuando nadie encuentra motivos para volver a abrirlo.",
+        },
+      ],
+    },
+    {
+      titulo: "El tren de doscientos vagones",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "A mitad de la novela llega a Macondo una compañía bananera extranjera y lo cambia todo. Trae el ferrocarril, la electricidad, casas con tela metálica y un barrio propio cercado, y de pronto el pueblo tiene dinero, prostíbulos y una policía que no es suya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese barrio cercado con tela metálica existió tal cual en la zona. Los directivos estadounidenses vivían separados del pueblo, con piscina, electricidad y guardias propios, y esa frontera física entre los dos mundos es de las pocas cosas del libro que no hizo falta exagerar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los trabajadores se declaran en huelga pidiendo cosas concretas y modestas. Letrinas, asistencia médica, descanso los domingos y que les paguen en dinero y no en vales canjeables solo en las tiendas de la propia compañía, que es como cobraban en realidad. Todo eso pasaba de verdad en la zona bananera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta de la compañía en la novela es un chiste jurídico perfecto. Sus abogados demuestran ante el juez que los trabajadores no existen, porque están contratados de forma eventual y por tanto no hay nadie a quien reclamar nada, y el juez lo acepta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pasa en la plaza",
+          frase: "Reúnen a tres mil personas en la estación, leen un decreto y ametrallan a la multitud. Los cuerpos se cargan en un tren de doscientos vagones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El decreto que leen antes de disparar está tomado de un documento real. Declaraba a los huelguistas cuadrilla de malhechores y autorizaba a la fuerza pública a reducirlos, y García Márquez lo reprodujo casi entero porque ya sonaba a invención. El original es más breve.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio no es una invención libre y ahí está su fuerza. En diciembre de 1928, en la estación de Ciénaga, a pocos kilómetros de Aracataca, el ejército colombiano disparó contra los huelguistas de la United Fruit Company reunidos en la plaza. El autor tenía un año y vivía a veinte kilómetros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La empresa era la mayor exportadora de fruta del mundo y operaba en media América Central. Su influencia sobre gobiernos enteros dio nombre a una expresión que todavía se usa, república bananera, y en Colombia controlaba la tierra, el ferrocarril y el puerto de la zona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contexto de aquella orden también es real y bastante documentado. El gobierno estadounidense presionó al colombiano advirtiendo de que podía desembarcar marines para proteger los intereses de la compañía, y el ejército actuó con esa amenaza encima de la mesa. La orden de disparar salió de un general colombiano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora conviene precisar la cifra, porque es el caso más claro del libro entero. Los tres mil muertos y el tren de doscientos vagones son invención de García Márquez: eligió esas cantidades porque le sonaban épicas y lo explicó varias veces en entrevistas. Es un dato literario y no histórico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor explicó su criterio sin ningún pudor en varias ocasiones. Dijo que setenta y cinco o cien muertos no daban la escala de lo que quería contar, que necesitaba un número que llenara un tren, y que por eso escribió tres mil sin dudarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras reales nunca se establecieron y están en discusión desde entonces. El informe militar habló de nueve muertos, un telegrama de la embajada estadounidense mencionó cifras muy superiores, y los historiadores manejan desde varias decenas hasta más de mil, sin acuerdo. Nadie ha podido cerrar esa cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una razón material para esa niebla que sigue sin resolverse. No se hicieron listas de trabajadores, muchos eran jornaleros temporales sin papeles y las familias no denunciaron por miedo, de modo que no existe el censo que permitiría contar a los que faltaron después.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que ocurrió después con esa cifra es lo que convierte el episodio en un caso de estudio. El número inventado por una novela se repitió tanto que acabó entrando en discursos, en actos oficiales y en libros de texto colombianos como si fuera un dato histórico.",
           arte: "memoria",
         },
         {
           forma: "texto",
           texto:
-            "El otro gran tema es la repetición. Los Buendía se llaman todos igual —Aurelianos y José Arcadios— y cometen los mismos errores generación tras generación, incapaces de aprender porque nadie recuerda. La soledad del título no es estar solo: es no poder transmitir nada a los que vienen después.",
+            "Ese fenómeno tiene hoy nombre propio entre historiadores y no es raro. Una ficción bien contada llena el hueco que deja un archivo destruido o inexistente, y la versión literaria acaba pesando más que los papeles porque es la única que alguien es capaz de recordar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al autor le pareció incómodo y también un poco irónico. Había escrito precisamente sobre cómo se fabrica una versión oficial de los hechos, y su propia versión terminó ocupando el lugar del recuento que nadie llegó a hacer. Decía que había cometido el mismo pecado que denunciaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque el centro de ese capítulo no son los muertos sino lo que viene después. José Arcadio Segundo despierta en el tren, escapa, vuelve al pueblo y descubre que allí nadie recuerda nada: la versión oficial dice que no hubo huelga ni muertos ni compañía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo el mundo repite esa versión con absoluta convicción. Los vecinos le dicen que se lo ha soñado, que Macondo siempre ha sido un pueblo feliz, y el único testigo se convierte en un loco encerrado en un cuarto leyendo unos pergaminos. Es el único que se acuerda y por eso está loco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí la novela se cruza directamente con 1984, que está en este mismo catálogo. Orwell imaginó un ministerio que reescribía los periódicos; García Márquez describe algo peor y más común, que es un pueblo entero olvidando por su cuenta y sin que nadie se lo ordene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio 1984 tiene una frase que sirve de resumen para las dos. Dice que quien controla el pasado controla el futuro, y Macondo demuestra la versión barata del mismo mecanismo, que consiste simplemente en que nadie tenga interés en llevar la contraria en voz alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre los dos mecanismos es la que importa. En Orwell hay un aparato que borra pruebas y castiga al que recuerda; en Macondo basta con que a nadie le convenga acordarse, y el olvido sale gratis y no necesita ningún funcionario. El segundo mecanismo es mucho más barato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de la matanza empieza a llover sobre Macondo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llueve cuatro años, once meses y dos días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando escampa, el pueblo ya está muerto aunque siga habiendo gente.",
         },
       ],
     },
     {
-      titulo: "Cómo leerlo",
+      titulo: "La segunda oportunidad sobre la tierra",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Hay que decir su dificultad real, porque mucha gente lo abandona en el capítulo cuatro. Los nombres se repiten hasta la desesperación y es fácil perderse sobre quién es quién. Casi todas las ediciones traen un árbol genealógico al principio; conviene tenerlo abierto al lado y consultarlo sin vergüenza.",
+            "El último Buendía descifra en las páginas finales unos pergaminos que un gitano dejó en la casa cien años antes. Están escritos en sánscrito y contienen la historia entera de la familia, incluido el instante en que él la está leyendo y el viento que se llevará el pueblo.",
         },
         {
           forma: "texto",
           texto:
-            "El otro consejo es de tono: no intentes entenderlo todo mientras lees. La novela no está construida para que sigas una trama sino para que te dejes llevar por una corriente. Lo que se queda no son los datos, son las imágenes — el hielo, la lluvia de cuatro años, la mujer subiendo con las sábanas.",
+            "El gitano se llama Melquíades y aparece en la primera página del libro. Es quien lleva a Macondo el imán, la lupa, el hielo y los mapas, muere y vuelve varias veces, y se pasa el resto de la novela escribiendo en un cuarto que nadie limpia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese final convierte la novela en un objeto que se muerde la cola. El libro que sostiene el lector es el mismo que descifra el personaje, de modo que Macondo desaparece exactamente cuando se acaba la lectura y no puede volver a existir. El libro se cierra sobre sí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese recurso tiene una tradición larga y él no lo inventó. Cervantes ya jugaba con un manuscrito encontrado y traducido del árabe, y García Márquez, que se sabía el Quijote de memoria, coloca la misma broma al final del libro en vez de al principio.",
         },
         {
           forma: "clave",
-          rotulo: "El final",
-          frase: "El último Buendía descifra un manuscrito que resulta ser esta misma novela, escrita antes de que ocurriera nada.",
+          rotulo: "La última frase",
+          frase: "Dice que las estirpes condenadas a cien años de soledad no tenían una segunda oportunidad sobre la tierra.",
         },
         {
           forma: "texto",
           texto:
-            "García Márquez ganó el Nobel en 1982. Lo curioso es que él consideraba mejores otras novelas suyas, más cortas y más secas, y llegó a hartarse de que solo le hablaran de esta. Si te resulta demasiada, empieza por <em>Crónica de una muerte anunciada</em>: son cien páginas y está escrito con la misma mano.",
+            "Conviene leer esa frase con cuidado porque se cita mal a menudo. No dice que nadie tenga una segunda oportunidad, sino que no la tienen las estirpes condenadas a cien años de soledad, y toda la novela ha ido explicando en qué consiste esa condena.",
         },
         {
           forma: "texto",
           texto:
-            "Conviene saber que el libro tiene un ancla real. Aracataca, el pueblo donde García Márquez se crió con sus abuelos, tuvo su propia compañía bananera y su propia matanza de trabajadores en 1928. Su abuelo, un coronel veterano de las guerras civiles, le contaba aquello como quien narra una batalla antigua. Macondo no es una invención pura: es un pueblo del Caribe colombiano al que se le subió el volumen.",
+            "Quince años después, el autor volvió sobre esa frase para contradecirla en público. Al recoger el Nobel en 1982 terminó su discurso pidiendo lo contrario: que las estirpes condenadas a cien años de soledad tuvieran por fin y para siempre una segunda oportunidad sobre la tierra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fue a Estocolmo con guayabera blanca en vez de frac, acompañado de músicos vallenatos. Aquel gesto se leyó en América Latina como una declaración política por sí solo, y el discurso que llevaba escrito confirmó la impresión desde la primera línea. Tenía cincuenta y cinco años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel discurso, titulado La soledad de América Latina, es la mejor nota al pie del libro. Sostiene que Europa mide la región con una vara que no le sirve, y que llamar fantasía a lo que allí pasa es una manera cómoda de no mirarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese discurso repasa cifras que nadie discutía por aquellos años. Desaparecidos, exiliados, dictaduras y guerras civiles en varios países del continente a la vez, y sostiene que ese es el material real y que la literatura solo va detrás intentando alcanzarlo sin conseguirlo nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La etiqueta de realismo mágico se le pegó al libro y conviene aclarar de dónde viene. La expresión la usó un crítico alemán en 1925 para hablar de pintura, y llegó a la literatura latinoamericana en los años cuarenta y cincuenta por otras vías. El término llegó tarde y desde fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El escritor cubano Alejo Carpentier había propuesto antes otro término distinto. Hablaba de lo real maravilloso y sostenía que en América no hacía falta inventar prodigios porque la historia del continente ya estaba llena de ellos, y esa idea es la que García Márquez hace suya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre las dos ideas no es cosmética y conviene tenerla clara. El realismo mágico describe una técnica literaria; lo real maravilloso afirma algo sobre el continente, y por eso el segundo término molesta menos a quien vive y escribe allí. El primero es de fuera.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Él nunca quiso la etiqueta y la contestaba con datos concretos. Decía que la levitación, los muertos que vuelven y la peste del insomnio son cosas que la gente de su pueblo daba por ciertas, y que un escritor caribeño que las quite está falseando el sitio.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa defensa es en parte cierta y en parte una boutade de escritor. Muchas escenas del libro sí vienen de creencias populares reales, pero la lluvia de cuatro años, el hilo de sangre que busca a Úrsula y la levitación no las contaba nadie como sucesos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El efecto secundario de esa etiqueta fue enorme y no del todo bueno. Durante treinta años, a los escritores latinoamericanos se les pidió mariposas amarillas y abuelas voladoras, y quien escribía sobre una ciudad con tráfico y ordenadores no encajaba en lo que el mercado esperaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella expectativa acabó afectando incluso a lo que se traducía. Durante años, las editoriales extranjeras buscaban novelas latinoamericanas que se parecieran a esta, y las que hablaban de oficinas, de dictadura urbana o de clase media tardaban mucho más en cruzar el charco. Fue un filtro que duró décadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reacción llegó de la generación siguiente y fue explícita. En 1996, dos escritores chilenos publicaron una antología llamada McOndo, con ese nombre precisamente, para decir que su mundo eran los centros comerciales y la televisión por cable y no los pueblos encantados. El nombre era una broma y una acusación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella pelea era con los imitadores más que con el original. Lo que agotó al lector no fue esta novela sino la cadena de libros que copiaron su decorado sin entender que aquí el prodigio sirve para contar una historia política muy concreta. El original nunca fue el problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Algo parecido pasa en este catálogo con El alquimista, que llegó veinte años después. Coelho vende una fábula con vocabulario de prodigio y ninguna geografía real detrás, y comparar los dos libros enseña bastante bien qué separa un mito escrito de un adorno. Uno inventa un lugar; el otro decora uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras de venta del libro conviene darlas con cuidado. Se manejan más de cincuenta millones de ejemplares y unas cuarenta y tantas lenguas, son estimaciones de la editorial y de la prensa, y lo de segundo libro más leído en español después del Quijote es una frase hecha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí se puede afirmar sin estimaciones es más simple.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna novela en español del último siglo ha sido leída por tanta gente distinta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y casi todas empiezan por la misma frase sobre el hielo.",
         },
       ],
     },
