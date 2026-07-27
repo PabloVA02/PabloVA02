@@ -652,119 +652,628 @@ export const FEYNMAN: Resumen = {
     "Es el libro más divertido que existe sobre cómo piensa un científico, y no tiene una sola fórmula.",
   partes: [
     {
-      titulo: "El que abría cajas fuertes",
+      titulo: "Salida: una taza de té en Princeton",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Durante la Segunda Guerra Mundial, Richard Feynman trabajó en Los Álamos en el proyecto de la bomba atómica. Tenía poco más de veinte años y se aburría. Así que, por entretenerse, se dedicó a aprender a abrir las cajas fuertes donde se guardaban los documentos más secretos de Estados Unidos.",
+            "En el otoño de 1939 Richard Feynman llegó a Princeton desde el Instituto Tecnológico de Massachusetts y le tocó asistir al té del decano. La mujer del decano le preguntó si quería nata o limón, él contestó que las dos cosas y ella dijo la frase del título.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Venía además con una fama que le precedía. En el MIT había sacado la puntuación más alta que se recordaba en el examen de ingreso de física de Princeton, y una de las peores en historia y literatura inglesa, y el departamento discutió si admitirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis la dirigió John Archibald Wheeler, uno de los físicos más imaginativos del siglo. De aquella colaboración salió una teoría sobre la interacción a distancia que Feynman presentó en un seminario al que asistieron Einstein, Pauli y Von Neumann. Wheeler acabó dirigiendo también a Hugh Everett.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel seminario es una de las pocas escenas del libro donde se le nota el miedo. Cuenta que estaba temblando con las notas en la mano hasta que empezó a hablar de física, y que en ese momento se le olvidó quién estaba sentado delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella escena resume el libro entero. Un chico de Nueva York, con acento de barrio y sin ninguna paciencia para el protocolo, metido en la universidad más ceremoniosa del país y contando cuarenta años después lo ridículo que le pareció todo aquello. El acento le duró toda la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su educación había empezado en un taller. Con once o doce años arreglaba radios por el barrio de Far Rockaway, y se hizo famoso por reparar una pensando en voz alta en vez de tocar nada, mientras el dueño le miraba con desconfianza. Cobraba unos centavos por cada aparato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellas reparaciones dejaron una manera de trabajar. Frente a un aparato roto, primero pensaba qué podía estar fallando por dentro y solo después abría, y esa costumbre de razonar antes de tocar aparece luego en todos los capítulos del libro. El taller estaba montado en su cuarto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que el libro no es. No es un método ni un manual de creatividad, aunque se venda a veces así: es una colección de anécdotas de alguien con un talento excepcional, y copiar sus costumbres no reparte ese talento. Tampoco explica cómo se le ocurrían las cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene aclarar algo que casi nadie sabe: Feynman no escribió este libro. Lo grabó. Durante siete años quedó a tocar el tambor con Ralph Leighton, hablaba mientras tocaban y Leighton transcribía las cintas, ordenaba las historias y se las leía de vuelta. El nombre de Leighton aparece en la portada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ralph Leighton no era periodista ni escritor. Era hijo de Robert Leighton, físico de Caltech, y conoció a Feynman por los tambores; el libro salió de una amistad de aficionados a la percusión y no de un encargo editorial. Los dos tocaban juntos una vez por semana durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La colaboración duró hasta el final. Leighton siguió después con un segundo volumen de historias, publicado en 1988, y con un proyecto delirante que los dos compartían: viajar a Tuvá, una república perdida en el centro de Asia. Aquel país tenía capital de nombre impronunciable y sellos raros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El viaje a Tuvá no llegó a hacerse a tiempo. El permiso soviético llegó unos días después de la muerte de Feynman, en 1988, y Leighton acabó contando esa historia en otro libro, que es el epílogo real de esta amistad. Nadie del grupo llegó a poner un pie allí entonces.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El origen",
+          frase: "El libro se grabó tocando el tambor; no se escribió sentado a una mesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso explica cómo suena y también lo que le falta. No hay cronología fiable, ni argumento, ni una sola reflexión larga: hay cuarenta anécdotas ordenadas más o menos por época, cada una construida hacia un remate, como en una sobremesa. Cada capítulo se lee en cinco minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mucha gente lo lee como una autobiografía exacta. No lo es: son historias contadas de memoria por un hombre al que le gustaba contarlas, que ya las había repetido docenas de veces y que las había ido puliendo en cada repetición. Algunas fechas del libro no cuadran entre sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los datos de fondo sí están comprobados. Nació en 1918 en Far Rockaway, en Nueva York, estudió en el MIT, se doctoró en Princeton en 1942 con John Wheeler, pasó la guerra en Los Álamos y dio clase en Cornell y después en Caltech. Estuvo en Caltech treinta y ocho años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre le enseñó la distinción que ordena todo lo demás. Le decía que se puede saber el nombre de un pájaro en cinco idiomas y no saber absolutamente nada del pájaro, y que lo segundo es lo único que cuenta. La anécdota la repitió en decenas de entrevistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Melville Feynman vendía uniformes y no había pisado una universidad. Le enseñaba a su hijo a preguntarse por qué una pelota rueda hacia atrás en un carrito, y el propio Feynman decía que todo lo demás fue aprender el vocabulario de aquello. Murió antes de ver el premio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mindset, que también está en este catálogo, encaja aquí sin forzar nada. Feynman tenía un cociente intelectual medido en ciento veinticinco, un número corriente para un físico, y todo lo demás fue trabajo, curiosidad y una cabezonería enorme. El propio Feynman contaba ese número con guasa y sin complejos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Nobel le llegó en 1965, compartido con Julian Schwinger y Shinichiro Tomonaga, por la electrodinámica cuántica. Cuenta que estuvo a punto de rechazarlo, que lo que menos le gustaba del premio era el ruido y que la ceremonia le pareció una tortura. La llamada le llegó de madrugada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dimitió también de la Academia Nacional de Ciencias. Su razón, tal como la cuenta, es que no le veía sentido a pertenecer a una institución cuya actividad principal consistía en decidir quién más merecía pertenecer a ella. Nunca volvió a aceptar un cargo en ninguna sociedad científica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estuvo catorce semanas en la lista de libros más vendidos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El título",
+          frase: "Se lo dijo la mujer de un decano cuando pidió nata y limón a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Feynman murió en 1988, a los sesenta y nueve años.",
+        },
+      ],
+    },
+    {
+      titulo: "Primera parada: las cajas fuertes de Los Álamos",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En Los Álamos tenía veinticuatro años, un despacho y muchas noches libres. Los documentos del proyecto se guardaban en archivadores con cerradura de combinación, y a él le pareció un pasatiempo razonable averiguar cómo se abrían sin saber el número. El laboratorio estaba aislado en pleno desierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su trabajo real allí era dirigir el grupo de cálculo. Organizó a un equipo con calculadoras mecánicas y después con máquinas de tarjetas perforadas de IBM, montando una cadena de operaciones que hoy reconoceríamos como programación en paralelo. Aquellas máquinas se estropeaban a menudo y aprendió a repararlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel grupo era casi todo de mujeres y de gente sin formación técnica. Feynman contaba que rendían el doble cuando les explicaba para qué servía lo que estaban calculando, cosa que estaba prohibida por razones de seguridad. Bethe le autorizó a contárselo y el rendimiento subió enseguida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Oppenheimer y Bethe aparecen como personajes secundarios y bien vistos. Bethe es el jefe que discute a gritos con él por deporte, y Feynman cuenta que trabajar con alguien dispuesto a que le lleven la contraria fue lo mejor de aquellos años. Al director apenas le dedica unas líneas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo primero que descubrió fue la tolerancia. La rueda admitía un error de dos posiciones en cada uno de los tres números, así que en vez de un millón de combinaciones posibles quedaban unas ocho mil, y eso se prueba en unas cuantas tardes. Nadie del fabricante había avisado de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuenta es fácil de seguir. Con cien posiciones por rueda y tres ruedas salen un millón de combinaciones, pero si vale acertar con un margen de dos arriba o abajo solo hace falta probar una de cada cinco, y el problema se derrumba. El resto era paciencia y una silla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Había además un atajo aún mejor. Con la caja abierta se pueden leer los dos últimos números girando la rueda con cuidado, así que bastaba pasar un momento por un despacho con el archivador abierto para dejarlo comprometido para siempre. Bastaba con que el dueño saliera un minuto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo funciona además como parábola. Un sistema puede parecer seguro, tener candados, guardias, vallas y normas escritas, y estar abierto de par en par porque nadie ha pensado en cómo lo atacaría una persona con tiempo y curiosidad. La misma lección vale igual de bien para cualquier contraseña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo segundo fue más humillante para la seguridad del proyecto. Muchas cajas seguían con la combinación de fábrica, veinticinco cero veinticinco o cincuenta veinticinco cincuenta, porque a nadie se le había ocurrido cambiarla al instalarlas. El fabricante enviaba los tres números impresos en el manual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo tercero era pura observación. Se ponía a charlar con alguien mientras abría su archivador, apoyado en el mueble como quien no quiere la cosa, y sacaba los dos últimos números mirando de reojo la rueda mientras el otro hablaba. El primer número lo sacaba después, probando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después venía la broma. Abría la caja de un compañero, dejaba dentro una nota firmada con un nombre inventado y esperaba a que la encontrara, y durante un tiempo circuló por el laboratorio la idea de que había un espía suelto. Nunca llegó a firmar con su nombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reacción oficial fue de manual. En vez de cambiar las cerraduras o revisar el procedimiento, el mando militar hizo circular un aviso pidiendo que nadie abriera su archivador delante de Feynman, que era justo lo contrario de arreglar el problema. El aviso circuló por escrito entre los despachos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la valla pasó lo mismo. Comunicó el agujero, nadie lo tapó, y cuando insistió le contestaron que lo importante era el procedimiento de entrada, no el estado de la alambrada, que es el tipo de respuesta que a él le sacaba de quicio. El agujero siguió allí durante meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del sentido de todo aquello, en cambio, el libro dice muy poco. Hay una página en la que cuenta que después de Hiroshima veía a un hombre construir un puente en Nueva York y le parecía inútil, porque todo iba a ser destruido, y ahí se acaba.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su combinación",
+          frase: "Sus propias cajas las puso en 27-18-28, que es el número e.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie le había encargado auditar nada. No era un ejercicio de seguridad ni una travesura con permiso: lo hacía por aburrimiento, y el resultado fue que el mando acabó pidiendo por escrito que no le dejaran acercarse a los archivadores ajenos. El propio Feynman lo cuenta con orgullo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la valla hizo algo parecido. Encontró un agujero en el perímetro, salió por él y volvió a entrar por la puerta principal varias veces seguidas, hasta que el guardia no entendía cómo aquel hombre entraba sin haber salido nunca. El guardia terminó por no anotar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su mujer, Arline, estaba ingresada por tuberculosis en un sanatorio de Albuquerque, a tres horas de allí. Se escribían a diario en clave, por diversión, y la oficina de censura le exigió que entregara la clave de cada mensaje. Los censores tardaban a veces días en devolverle cada carta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con la censura tuvo una guerra larga y absurda. Le abrían las cartas, discutían por cada juego que se inventaban los dos, y Arline le mandó una vez un rompecabezas con un mensaje troceado que los censores tuvieron que montar antes de leerlo. Ninguno de los dos se lo tomó en serio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los viajes a Albuquerque los hacía en coches prestados, saliendo el sábado y volviendo el domingo. Arline llevaba enferma desde antes de casarse, y se habían casado sabiendo que la tuberculosis no tenía cura por entonces. El sanatorio quedaba a unos ciento cincuenta kilómetros de allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decirlo claro porque marca la lectura entera. Para un libro escrito por alguien que estuvo dentro del proyecto de la bomba, el balance moral es casi inexistente, y esa ausencia es la crítica más seria que se le ha hecho. Ni una sola página discute si estuvo bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Arline murió el 16 de junio de 1945, un mes antes de la primera prueba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Feynman miró el estallido de Trinity sin gafas, tras un parabrisas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El silencio",
+          frase: "De la muerte de su mujer, en todo el libro, apenas hay una página.",
+        },
+      ],
+    },
+    {
+      titulo: "Segunda parada: un plato que se tambalea en una cafetería",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1946 estaba en Cornell y no le salía nada. Se sentía quemado, aceptaba ofertas de sitios prestigiosos sin ilusión y creía que ya había dado lo que tenía que dar, con veintiocho años recién cumplidos y un Nobel todavía a diecinueve años de distancia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El agotamiento venía de la guerra y de la muerte de Arline, aunque él lo cuente como pereza. Daba clase bien, recibía ofertas de sitios como el Instituto de Estudios Avanzados de Princeton y estaba convencido de que ya no iba a producir nada. Tenía veintiocho años y se sentía acabado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La decisión que cuenta es explícita y por eso se cita tanto. Se dijo a sí mismo que iba a jugar con la física como quien juega, sin preguntarse si servía para algo ni si estaba a la altura de lo que se esperaba de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea es la que más ha viajado del libro. Se cita en despachos, en discursos de graduación y en presentaciones de empresa, casi siempre recortada, y casi siempre olvidando que quien la dijo tenía ya una cátedra y ningún jefe encima. El resto de los mortales tiene jefe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un día, en la cafetería de la facultad, alguien lanzó un plato al aire. Feynman se fijó en que el escudo rojo de Cornell giraba a un ritmo y el plato se bamboleaba a otro, y se puso a calcular la relación entre los dos movimientos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena tiene un detalle que la hace creíble. No estaba buscando un problema: estaba comiendo, y lo que le llamó la atención fue una tontería visual, el desfase entre el escudo pintado y el balanceo del plato en el aire. El plato lo lanzó un estudiante cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cálculo le llevó a las ecuaciones del movimiento de un sólido girando, de ahí a la rotación del electrón, de ahí a la ecuación de Dirac y de ahí a la electrodinámica cuántica, que es el trabajo por el que le dieron el premio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los diagramas que llevan su nombre salieron de ese mismo periodo. Son dibujos de líneas y vértices que representan cómo interactúan las partículas, y sustituyeron páginas de integrales por algo que un estudiante puede aprender a leer en una tarde. Hoy se enseñan en cualquier curso de partículas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hans Bethe le preguntó para qué servía aquello. Feynman le contestó que para nada, que lo hacía por gusto, y esa es la frase que sostiene el capítulo entero y buena parte de la fama del libro entre científicos jóvenes. La respuesta se cita más que sus artículos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquel juego salieron las ecuaciones que le llevaron de vuelta a la electrodinámica y, por ese camino, al premio. Él lo cuenta como demostración de que la física hecha por obligación se seca y la física hecha por capricho vuelve a dar. Pasaron todavía dieciocho años hasta el premio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar la cifra que da. Dice que el bamboleo iba al doble de la rotación, y varios físicos han rehecho las cuentas desde entonces sin ponerse del todo de acuerdo sobre si recordaba la proporción en el sentido correcto. El plato real sigue dando trabajo a algunos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su método de trabajo aparece de pasada y es el más citado. Se negaba a leer lo que otros habían publicado sobre un problema antes de intentarlo él, para llegar por un camino distinto y no quedarse atrapado en el planteamiento ajeno. Lo aplicaba también a los problemas ajenos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese método tiene un nombre no oficial en la profesión. Consiste en resolver primero y leer después, y funciona bien cuando uno es Feynman y regular cuando no lo es, porque el coste de reinventar lo ya hecho lo paga el que lo intenta. Nadie debería tomárselo como una receta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio libro da una pista de por qué le funcionaba. Feynman no leía las demostraciones ajenas y en cambio acumulaba una colección de problemas resueltos suyos, de modo que cada teorema nuevo lo probaba contra sus propios ejemplos. Guardaba esos casos raros en la cabeza durante años enteros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese archivo mental de ejemplos es lo que le daba fama de adivino. Cuando alguien exponía un teorema, él lo probaba en silencio contra un caso raro que tenía guardado, y si fallaba levantaba la mano, con cara de haberlo visto sin calcular. El efecto sobre los estudiantes era demoledor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso tenía un coste que el libro no menciona. Trabajar así hace perder tiempo redescubriendo cosas ya sabidas, y le llevó a dejar pasar resultados de otros que le habrían ahorrado meses, algo que sus colegas sí comentaron. Redescubrió más de una vez cosas ya publicadas por otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1951 pasó un año en Río de Janeiro dando clases de física. Aprendió portugués lo bastante bien como para explicar en portugués, y lo que vio en las aulas brasileñas le dejó una de las páginas más duras que escribió sobre enseñanza. Vivía en un hotel frente a Copacabana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión la soltó delante de los responsables del sistema educativo brasileño, en una charla a la que le habían invitado a hablar de otra cosa. Dijo que en Brasil no se enseñaba ciencia, sino a repetir frases, y que era mejor no enseñar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Contó además que en Brasil los estudiantes tomaban apuntes en las clases prácticas de lo que debían ver, no de lo que veían. Cuando un experimento salía distinto de lo esperado, apuntaban lo esperado y seguían como si tal cosa. El experimento no servía entonces para nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Años después le pasó lo mismo en su país. Formó parte de la comisión que elegía los libros de texto de California y descubrió que otros miembros puntuaban volúmenes que no habían abierto, incluido uno que llegó con las páginas en blanco. Aquel volumen recibió puntuaciones altas de varios miembros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su prueba fue sencilla. Preguntó en clase la definición del ángulo de Brewster y la contestaron todos de corrido; preguntó después qué se ve al mirar la bahía a través de un filtro polarizado, que es exactamente lo mismo, y no contestó nadie. La bahía se veía desde la propia aula.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El diagnóstico",
+          frase: "Sabían todas las palabras y ninguna de ellas se refería a nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aprendió a dibujar a los cuarenta y cuatro años y firmaba Ofey.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tocó la frigideira en una escuela de samba durante el carnaval.",
+        },
+      ],
+    },
+    {
+      titulo: "Tercera parada: los capítulos que hoy incomodan",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay un bar de Pasadena con bailarinas en topless donde Feynman iba a trabajar. Se sentaba con los manteles individuales y hacía física encima de ellos, y cuando el ayuntamiento intentó cerrarlo fue el único cliente habitual que declaró a favor con su nombre. El local acabó cerrando años más tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel local se llamaba Gianonni y era su despacho de tarde. Decía que necesitaba ruido de fondo para concentrarse, que la mesa estaba siempre libre y que allí nadie le trataba como a un premio Nobel, cosa que en Caltech era imposible. Los manteles se los llevaba a casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El juicio ocurrió a finales de los sesenta y él fue el único testigo dispuesto a declarar con su nombre y su cargo. Los demás clientes habituales, muchos con puestos parecidos, prefirieron no aparecer por el juzgado aquella mañana. Declaró que iba allí sobre todo a trabajar, y era cierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tercera mujer, Gweneth Howarth, es casi invisible en estas páginas. Se casaron en 1960, tuvieron dos hijos y estuvieron juntos hasta su muerte, y de esa vida estable de veintiocho años el libro no cuenta prácticamente nada. Ella era inglesa y se conocieron en un viaje por Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo se cuenta con gracia y el siguiente no la tiene. En un bar de Albuquerque, un maestro de ceremonias le enseña un método para llevarse mujeres a la cama que consiste en tratarlas con desprecio calculado, y él lo prueba y lo cuenta como un éxito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El método consistía en no pagar nada, no ser amable y hacer una pregunta ofensiva pronto. Feynman lo describe como un experimento con hipótesis y resultado, y la única conclusión que saca es que le funcionó dos veces seguidas. Ninguna de las dos mujeres tiene nombre en el capítulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo es el que hace que el libro desaparezca de algunas listas de lectura, y la discusión sobre si debe seguir recomendándose lleva años abierta. Los dos bandos suelen coincidir en que el capítulo es indefendible y discrepan en qué hacer después. La polémica se reactiva cada pocos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La defensa más razonable no es negar el problema. Consiste en leerlo entero y en voz alta, incluidas esas páginas, y en usarlo para ver cómo un hombre brillante podía ser a la vez un modelo de honradez intelectual y un patán con las mujeres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la parte del libro que más se le reprocha hoy, y con razón. No es un desliz de una línea: es un capítulo entero dedicado a explicar la técnica, con diálogos, y contado con el mismo tono divertido que usa para las cajas fuertes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay más en la misma dirección. Cuenta que se hacía pasar por estudiante para acercarse a chicas de primero en la universidad donde daba clase, hasta que un colega le dijo que aquello no podía seguir haciéndolo. Aquel colega le dijo que las alumnas no eran presas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no hay en ninguno de esos capítulos es distancia. El libro no vuelve sobre el asunto, no lo matiza y no lo lamenta: lo presenta como una aventura más de un tipo curioso, que es exactamente el subtítulo de la edición original. Tampoco lo corrigió en el segundo volumen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El subtítulo original del libro es Aventuras de un personaje curioso, y ahí está el problema. Todo lo que cuenta queda ordenado bajo esa etiqueta, de modo que las cajas fuertes, el samba y los bares acaban teniendo el mismo peso moral. El título español se comió ese matiz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las biografías serias rellenan lo que él salta. La más completa es Genio, de James Gleick, publicada en 1992, que reconstruye su vida con documentación y describe al personaje del libro como una construcción deliberada del propio Feynman. Gleick era entonces periodista científico del New York Times.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Gleick describe al Feynman público como una figura de embaucador, un papel que él perfeccionó durante años y que acabó siendo más famoso que su física. Esa es la tensión que el lector debería llevar puesta desde el primer capítulo. El personaje acabó comiéndose al físico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contexto explica algo y no lo cancela. Son historias de los años cincuenta contadas en los setenta a un amigo con una grabadora, sin ninguna previsión de que fueran a leerlas millones de personas ni de que se le fueran a examinar. Las cintas se grabaron sin ningún guion.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro gran hueco es la física. En cuatrocientas páginas de un premio Nobel no se explica ni una sola idea suya, y quien abra el libro buscando entender qué es la electrodinámica cuántica va a cerrarlo sin haberse enterado. Para eso hay que ir a otro sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para eso están sus otros libros. Las Lecciones de física, publicadas en 1964 a partir de un curso para primero de carrera, y sobre todo un volumen breve de 1985 en el que explica la electrodinámica cuántica sin fórmulas, con paciencia y con dibujos. Aquel curso se sigue vendiendo hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su segundo matrimonio fue con Mary Louise Bell, duró de 1952 a 1956 y terminó mal. En la demanda de divorcio ella se quejaba de que hacía cálculo mental en la cama y tocaba el tambor a cualquier hora, y aquello llegó a los periódicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Steve Jobs, que anda por este catálogo, ofrece el contraste útil. Isaacson escribió una biografía que incluye lo desagradable porque la firmaba otro; aquí el biografiado es el propio protagonista, y elige él qué anécdota entra y cuál no. El resultado es más simpático y bastante menos fiable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco está su vida privada real. Su segundo matrimonio ocupa dos frases, el tercero casi no aparece y de Arline, que fue la relación que le marcó, hay unas pocas líneas repartidas y ninguna escena completa. De sus dos hijos apenas hay una mención de pasada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que queda fuera",
+          frase: "El libro cuenta al personaje con detalle y esconde a la persona casi entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo de Arline lo contó en el segundo libro, publicado en 1988.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comisión del Challenger tampoco está aquí, sino en aquel.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El aviso",
+          frase: "Se lee mejor sabiendo que es un monólogo y no una confesión.",
+        },
+      ],
+    },
+    {
+      titulo: "Destino: la ciencia de culto cargo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro termina con un discurso, y es lo mejor que contiene. En 1974 le tocó hablar en la ceremonia de graduación de Caltech y, en vez de dar consejos, contó a los recién licenciados una historia de las islas del Pacífico. El texto se publicó también por separado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La ocasión era la más previsible del mundo. Un discurso de graduación en Caltech, con togas, familias y fotos, en el que se espera que alguien mayor diga a los jóvenes que sean valientes y persigan sus sueños durante quince minutos. Ninguno de esos discursos se recuerda nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hizo en su lugar fue advertirles. Les dijo que iban a salir a un mundo donde mucha gente hace algo que se parece a la ciencia sin serlo, y que la parte difícil no es descubrir cosas, sino no engañarse por el camino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En este catálogo está la continuación natural de esa idea. El mundo y sus demonios, de Carl Sagan, publicado en 1995, convierte esta advertencia en un método con pasos, mientras que Feynman se queda en la parábola y en el ejemplo. Sagan lo llamó su detector de camelos.",
         },
         {
           forma: "arte",
           texto:
-            "Descubrió que casi nadie cambiaba la combinación de fábrica, que mucha gente usaba constantes matemáticas famosas y que se podía deducir parte de la clave manipulando el dial con la puerta abierta. Dejaba notas dentro de las cajas para que sus colegas se llevaran el susto al abrirlas. Consiguió que se cambiaran los protocolos de seguridad de todo el laboratorio.",
+            "Después de la guerra, en algunas islas donde habían aterrizado aviones cargados de suministros, la gente construyó pistas de tierra, encendió hogueras a los lados y puso a un hombre con dos maderas en las orejas y cañas de bambú haciendo de antenas. Las hogueras marcaban los bordes de la pista.",
           arte: "explorar",
         },
         {
-          forma: "clave",
-          rotulo: "El personaje",
-          frase: "Premio Nobel de Física, tocaba tambores en una comparsa brasileña y desconfiaba de toda solemnidad.",
+          forma: "texto",
+          texto:
+            "Todo estaba en su sitio y no aterrizaba nada. Feynman llama ciencia de culto cargo a la investigación que tiene la forma completa —los artículos, los controles, el vocabulario, las gráficas— y no tiene aquello que hace que el avión baje. Los aviones no volvieron a pasar.",
         },
         {
           forma: "texto",
           texto:
-            "El libro no es una autobiografía ordenada. Son historias transcritas de conversaciones con un amigo mientras tocaban percusión, y se nota: se lee como si alguien te las estuviera contando en un bar. Fue superventas durante años y sigue siendo el libro que más gente cita como el que le hizo interesarse por la ciencia.",
-        },
-      ],
-    },
-
-    {
-      titulo: "Su padre y el pájaro",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "La escena que explica todo lo demás sucede cuando era niño. Otro chaval le señala un pájaro y le pregunta cómo se llama. Feynman no lo sabe. El otro se ríe: «Se ve que tu padre no te enseña nada». Y Feynman piensa que es exactamente al revés — su padre le había enseñado algo mucho más difícil.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Su padre le había explicado que puedes saber el nombre de ese pájaro en todos los idiomas del mundo y no saber absolutamente nada de él. Cuando termines con los nombres no sabrás nada del pájaro. Lo único que sabrás es lo que la gente le llama. Después le decía: ahora vamos a mirarlo, a ver qué hace.",
-          arte: "aprendizaje",
-        },
-        {
-          forma: "clave",
-          rotulo: "La distinción que sostiene el libro",
-          frase: "Saber el nombre de una cosa y saber la cosa son dos conocimientos completamente distintos.",
+            "La comparación es cruel a propósito. No dice que aquellos isleños fueran tontos: dice que estaban haciendo exactamente lo que veían hacer, con toda la atención puesta en la forma, y que en los laboratorios se hace lo mismo con frecuencia. El público eran justo los futuros investigadores.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí viene su alergia de por vida a la gente que recita definiciones. En Brasil, invitado a evaluar la enseñanza de la física, descubrió que los estudiantes se sabían todas las fórmulas de memoria y ninguno sabía aplicarlas a algo real. Se lo dijo en la conferencia de clausura, delante del ministro: nadie está aprendiendo ciencia aquí.",
-        },
-      ],
-    },
-
-    {
-      titulo: "Todo se puede probar",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "La mitad del libro son experimentos que no le pedía nadie. Se propuso averiguar si las hormigas siguen un rastro y montó puentes de cartón en su bañera para desviarlas. Quiso saber si podía oler como un perro y estuvo días olfateando libros a cuatro patas. Aprendió a dibujar apostándose con un amigo que era imposible.",
+            "La imagen viene además de un sitio concreto. Los cultos del cargo aparecieron en Melanesia después de la Segunda Guerra Mundial, cuando los ejércitos dejaron de aterrizar y de descargar mercancías en islas que llevaban años recibiéndolas. Los antropólogos discuten desde entonces si el nombre es justo.",
         },
         {
           forma: "texto",
           texto:
-            "También aprendió a abrir cerraduras, a hablar portugués, a tocar la frigideira brasileña, a descifrar jeroglíficos mayas y a hacer cálculos mentalmente más rápido que un ábaco — perdió esa apuesta en sumas y la ganó en raíces cúbicas, y cuenta exactamente por qué.",
+            "Los dos hombres se llevaban regular en lo demás. Sagan hizo de la divulgación una misión y una carrera; Feynman explicaba de maravilla y desconfiaba de convertir eso en un deber, y decía que enseñaba porque le divertía y no para salvar a nadie. Nunca coincidieron en un plató de televisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que falta, dice, es una honradez que va más allá de no mentir. Consiste en inclinarse hacia atrás para dar toda la información que pueda llevar a otro a juzgar que te has equivocado, no solo la que apoya lo que quieres demostrar. Es más difícil de lo que suena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pone ejemplos concretos de esa obligación. Si publicas un resultado, hay que contar también los experimentos que salieron mal, las explicaciones alternativas que se te ocurrieron y los motivos por los que podrías estar equivocado, aunque nadie te los pida. Casi ninguna revista lo exigía entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre que le da es inclinarse hacia atrás, y es una expresión física. Se trata de forzar la postura contraria a la natural, que sería empujar hacia delante lo que sostiene tu hipótesis y dejar en la sombra lo que la debilita. La expresión se ha quedado en el oficio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que el discurso no afirma. No dice que la psicología o la medicina sean falsas, ni que haya mala fe detrás: dice que el autoengaño es el estado natural y que los procedimientos existen para defenderse de uno mismo. El objetivo son los procedimientos, no las personas.",
         },
         {
           forma: "clave",
-          rotulo: "El método Feynman",
-          frase: "Si no puedes explicarlo con palabras sencillas y sin jerga, es que no lo has entendido.",
+          rotulo: "La regla",
+          frase: "El primer principio es no engañarte a ti mismo, y eres la persona más fácil de engañar.",
         },
-        {
-          forma: "arte",
-          texto:
-            "De ahí sale la técnica de estudio que lleva su nombre y que él nunca formuló así: coge el concepto, explícaselo a alguien que no sepa nada, y cada vez que te atasques o te refugies en una palabra técnica, vuelve al material. Los atascos señalan exactamente los agujeros.",
-          arte: "escritor",
-        },
-      ],
-    },
-
-    {
-      titulo: "La ciencia de carga",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "El final del libro es un discurso de graduación que sigue siendo lo más citado de Feynman. Cuenta que en algunas islas del Pacífico, después de la guerra, hubo pueblos que construyeron pistas de aterrizaje de madera, torres de control con cabañas y auriculares tallados en bambú, y se sentaban a esperar a que aterrizaran los aviones cargados de mercancías, como durante la guerra.",
+            "Su ejemplo favorito es Millikan y la carga del electrón. La primera medida salió algo baja porque usó un valor equivocado de la viscosidad del aire, y las medidas posteriores fueron subiendo poco a poco en vez de saltar de golpe al valor correcto. El experimento se hacía con gotas de aceite.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "Todo tenía la forma correcta. Faltaba lo esencial, que era invisible. Feynman llamó a eso <em>ciencia de carga</em>: investigaciones que tienen todos los rasgos externos de la ciencia —el vocabulario, las gráficas, el formato— y a las que les falta lo único que importa.",
-          arte: "museo",
+            "La medida original es de 1913 y le valió el Nobel en 1923. El valor que publicó se quedó corto en torno a un uno por ciento, un error pequeño en apariencia y suficiente para torcer durante décadas todo lo que vino detrás. El valor correcto tardó décadas en asentarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El error concreto está identificado. Millikan usó un valor de la viscosidad del aire que se sabría después incorrecto, y como la carga se deduce de la velocidad de caída de gotas diminutas, ese dato arrastró el resultado final hacia abajo. Nadie sospechó de ese dato durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí termina el viaje que empezó con una taza de té ridícula en Princeton. El hombre que se reía de todas las ceremonias acaba dando el único consejo que le parecía serio, y es un consejo sobre cómo no mentirse a uno mismo. El resto del libro son solo chistes buenos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación que da es incómoda y probablemente cierta. Cuando a alguien le salía un número muy distinto del de Millikan, buscaba el error hasta encontrarlo, y cuando salía parecido no buscaba nada, así que la serie tardó años en corregirse. Buscar el fallo solo cuando molesta es humano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar hasta dónde llega ese caso. La deriva de las medidas está documentada, y los historiadores discuten cuánto se debe a esa selección inconsciente y cuánto a mejoras reales de técnica que también empujaban en la misma dirección. El propio Feynman no dio la referencia de esos datos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El discurso trae más ejemplos y todos envejecen bien. Habla de experimentos con ratas que nadie repitió, de psicología con resultados que no se sostienen y de estudios de publicidad hechos para confirmar lo que el cliente quería oír. El caso de las ratas es de un artículo de 1937.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El discurso ocupa las últimas páginas del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuarenta años después la crisis de replicación le dio la razón.",
         },
         {
           forma: "clave",
-          rotulo: "Lo que falta",
-          frase: "Honestidad absoluta: contar también todo lo que podría dejar mal tu propia hipótesis.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Lo desarrolla con un ejemplo que da la medida de su exigencia. Si haces un experimento, dice, tienes que publicar no solo lo que salió, sino todo lo que se te ocurrió que podría explicarlo de otra manera y cómo lo descartaste. Y si vendes un producto, tienes que contar también los casos en que no funcionó. Feynman remata que eso no es una obligación legal ni una norma del gremio: es lo único que separa la ciencia de la publicidad, y nadie te va a obligar a cumplirlo.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Su regla se resume en una frase suya que conviene tener a mano: el primero a quien no debes engañar es a ti mismo, y eres la persona más fácil de engañar. No hablaba solo de laboratorios.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "El libro tiene un punto flojo que hoy salta más que en 1985: varias anécdotas sobre mujeres en bares no envejecen bien, y él las cuenta con orgullo. Conviene leerlas por lo que son, un retrato de época y del propio personaje, sin que eso tape lo demás.",
+          rotulo: "Para llevarte",
+          frase: "La forma de la ciencia se copia fácil; lo que hace que funcione, no.",
         },
       ],
     },

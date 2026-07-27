@@ -971,12 +971,13 @@ export const META: FichaMeta[] = [
     ano: 1985,
     gancho: "Un premio Nobel de física que se dedicaba a reventar las cajas fuertes con los secretos de la bomba atómica.",
     porQue: "Es el libro más divertido que existe sobre cómo piensa un científico, y no tiene una sola fórmula.",
-    minutos: 4.2,
+    minutos: 25.6,
     capitulos: [
-      { titulo: "El que abría cajas fuertes", minutos: 0.9 },
-      { titulo: "Su padre y el pájaro", minutos: 0.9 },
-      { titulo: "Todo se puede probar", minutos: 0.8 },
-      { titulo: "La ciencia de carga", minutos: 1.5 },
+      { titulo: "Salida: una taza de té en Princeton", minutos: 5.1 },
+      { titulo: "Primera parada: las cajas fuertes de Los Álamos", minutos: 5.1 },
+      { titulo: "Segunda parada: un plato que se tambalea en una cafetería", minutos: 5.2 },
+      { titulo: "Tercera parada: los capítulos que hoy incomodan", minutos: 5.1 },
+      { titulo: "Destino: la ciencia de culto cargo", minutos: 5.2 },
     ],
   },
   {
