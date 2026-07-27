@@ -1535,120 +1535,637 @@ export const PENSAR_RAPIDO: Resumen = {
   titulo: "Pensar rápido, pensar despacio",
   autor: "Daniel Kahneman",
   ano: 2011,
-  gancho: "Ganó el Nobel de Economía siendo psicólogo y sin haber hecho nunca un curso de economía.",
+  gancho: "Su autor publicó años después que uno de los capítulos de este libro no se sostenía. Casi nadie hace eso con un superventas.",
   porQue:
-    "Es el resumen de cincuenta años demostrando que no decidimos como creemos. Después de leerlo no vuelves a fiarte igual de tu propio criterio.",
+    "Es el mapa más completo de los errores sistemáticos del pensamiento, escrito por el psicólogo que ganó el Nobel de Economía.",
   partes: [
     {
-      titulo: "Dos sistemas",
+      titulo: "El oficial de las SS que le dio dinero",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Kahneman propone imaginar la mente como dos personajes. El <strong>sistema 1</strong> es rápido, automático y no se puede apagar: reconoce una cara enfadada, completa «capital de Francia», frena si algo se cruza. El <strong>sistema 2</strong> es lento, deliberado y perezoso: multiplica 17 por 24, aparca en un hueco justo, rellena la declaración.",
+            "París, 1942. Un niño judío de ocho años vuelve a casa después del toque de queda con el jersey del revés para tapar la estrella amarilla. Un soldado alemán de uniforme negro lo ve, lo llama, lo levanta en brazos y lo abraza. Nadie más los vio en la calle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle del jersey del revés dice mucho sobre aquella vida cotidiana. Los judíos de París tenían que llevar la estrella cosida encima y volver antes del toque de queda, y un niño de ocho años lo sabía y lo gestionaba solo. Aquella infancia enseñaba a calcular riesgos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman contaba esa escena sin ninguna moraleja fácil. Aquel hombre podía haberlo entregado y en vez de eso le dio dinero, y esa contradicción, decía, fue lo primero que le hizo pensar que las personas no funcionan como un bloque. El mismo hombre podía hacer las dos cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su madre aparece en esa historia como la persona que le dio el marco. Ella repetía que la gente es infinitamente complicada, y él escribió que aquella frase describe bastante bien lo que acabó haciendo durante toda su carrera. Toda su obra desarrolla, en el fondo, esa observación de su madre.",
         },
         {
           forma: "clave",
-          rotulo: "El reparto real",
-          frase: "Creemos que decidimos con el 2. En la práctica, el 1 propone casi todo y el 2 firma sin mirar.",
+          rotulo: "Lo que pasó después",
+          frase: "El soldado le enseñó la foto de un niño, le dio algo de dinero y lo dejó marchar. Kahneman contó siempre esa escena como el origen de su interés por la gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese niño era Daniel Kahneman y aquella escena está en el texto autobiográfico que escribió al recibir el Nobel. La cuenta para explicar una idea de su madre que se le quedó grabada: que las personas son infinitamente complicadas e interesantes. La curiosidad le venía de casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que ese texto esté en un discurso de aceptación tampoco es casual. La fundación pide una autobiografía a cada premiado, y él aprovechó la suya para explicar de dónde venía su curiosidad en vez de resumir sus resultados. Prefirió contar de dónde venía él antes que resumir adónde había llegado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En esa misma autobiografía cuenta cómo empezó todo lo demás. Un seminario en Jerusalén, en 1969, al que invitó a un joven profesor llamado Amos Tversky para que expusiera lo que se sabía sobre intuición estadística. Aquella invitación cambió las dos carreras y buena parte de la disciplina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquella sesión salió una colaboración de casi treinta años. Escribían juntos, en la misma habitación, discutiendo cada frase, y llegaron a pasar un día entero en un solo párrafo hasta que los dos quedaban conformes. Ninguno de los dos firmó nunca por separado lo que hacían juntos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre fue detenido y liberado, y murió de diabetes en 1944 sin llegar a ver el final de la guerra. La familia sobrevivió escondida en el campo francés y en 1948 se trasladó a Palestina, donde él acabó estudiando psicología. Sobrevivieron cambiando de pueblo varias veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su primer trabajo serio fue en la unidad de psicología del ejército israelí, con veintiún años. Le encargaron diseñar un sistema de entrevistas para clasificar reclutas, y el procedimiento que inventó entonces siguió usándose durante décadas. Con veintiún años ya diseñaba procedimientos que afectaban a miles de personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sistema que diseñó consistía en preguntar por hechos y no por impresiones. En vez de dejar que el entrevistador se formara una opinión general, obligaba a puntuar rasgos concretos por separado y a sumarlos después. Poner notas a rasgos sueltos supera al ojo clínico en casi cualquier caso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea, sumar puntuaciones separadas en vez de fiarse del criterio global, es de las pocas recetas prácticas que el libro recomienda sin reservas. Funciona en selección de personal, en admisiones y en cualquier decisión repetida. Es de lo poco de aquí que se puede aplicar el lunes siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese consejo es incómodo porque le quita protagonismo a quien decide. Obliga a fiarse de una fórmula sencilla más que del propio criterio, y casi nadie lo acepta de buena gana la primera vez que se lo proponen. A nadie le gusta oír que una fórmula decide mejor que su experiencia.",
         },
         {
           forma: "arte",
           texto:
-            "Su prueba favorita: un bate y una pelota cuestan un euro con diez. El bate cuesta un euro más que la pelota. ¿Cuánto cuesta la pelota? Casi todo el mundo responde diez céntimos, y es falso —serían un euro veinte en total—. La respuesta correcta es cinco. Más de la mitad de los estudiantes de las mejores universidades del mundo fallan esta pregunta.",
+            "De aquellos años sale el ejemplo que mejor explica su método. Los instructores de vuelo le aseguraban que gritar funcionaba y elogiar no, porque tras un elogio el alumno empeoraba y tras una bronca mejoraba, y aquello parecía evidente. Los instructores tenían muchos años de vuelo y una explicación completamente equivocada.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Lo que demuestra no es que la gente sea tonta: es que el sistema 1 produce una respuesta plausible al instante y el sistema 2, que podría comprobarla en tres segundos, no se molesta. Su lema es que somos máquinas de sacar conclusiones precipitadas.",
+            "Kahneman les enseñó que estaban viendo un espejismo estadístico. Después de un vuelo excepcionalmente bueno lo normal es empeorar y después de uno malo lo normal es mejorar, se diga lo que se diga, y eso se llama regresión a la media. El elogio no tenía la culpa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese concepto es de los más difíciles de digerir y el libro insiste mucho. Cuando dos cosas no están perfectamente correlacionadas, los valores extremos tienden a suavizarse solos, y nuestra mente busca una causa donde solo hay aritmética. Buscamos culpables donde solo hay una media tirando en silencio de todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo clásico está en el deporte y todo el mundo lo ha oído. Un jugador que hace una temporada excepcional suele bajar la siguiente, y en vez de aritmética se habla de presión, de exceso de confianza o de maldiciones. La portada del año siguiente lo explica mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ejemplo contiene todo lo que hizo después. Una creencia firme, basada en la experiencia directa de gente competente, que se sostiene sobre un error de razonamiento que nadie había notado porque la explicación intuitiva llegaba antes. Gente competente, convencida y equivocada por un motivo que era puramente aritmético.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 2011, cuando su autor tenía setenta y siete años. Es el único libro divulgativo que escribió, resume cuarenta años de investigación y ocupa unas quinientas páginas, de modo que no se parece a un manual rápido. Llegó al final de una carrera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El origen del libro fue un encargo que él aceptó con dudas. Quería dejar por escrito, para lectores no especialistas, las ideas que había defendido durante cuarenta años, y tardó varios años en darle forma. Nunca había escrito para el gran público y el resultado le costó bastante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman era psicólogo y ganó el Nobel de Economía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nunca hizo un curso de economía en su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo recibió en 2002 por un trabajo hecho con otro hombre.",
         },
       ],
     },
     {
-      titulo: "Los atajos que fallan",
+      titulo: "Los dos personajes de la mente",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El <strong>anclaje</strong> es el más inquietante. En un experimento hicieron girar una ruleta trucada delante de unos jueces y después les pidieron una cifra sin relación alguna. La cifra que salía en la ruleta desplazaba sus respuestas. Un número absurdo, del que sabían que era aleatorio, movía su criterio.",
-        },
-        {
-          forma: "clave",
-          rotulo: "Dónde lo ves cada día",
-          frase: "El precio tachado al lado del rebajado. El primer sueldo que se menciona en una negociación. La ruleta funciona igual.",
+            "El libro organiza todo alrededor de dos maneras de pensar a las que llama sistema uno y sistema dos. El primero es automático, rápido y no se puede apagar; el segundo es deliberado, lento y consume esfuerzo, y por eso lo usamos lo menos posible.",
         },
         {
           forma: "texto",
           texto:
-            "La <strong>disponibilidad</strong> es el segundo: juzgamos la probabilidad de algo por lo fácil que es recordar un ejemplo. Por eso la gente teme más a los accidentes de avión que a los de coche, y por eso una noticia repetida durante una semana altera la sensación de riesgo de todo un país.",
+            "La distinción no es original de Kahneman como idea general. La psicología llevaba décadas hablando de procesos automáticos y controlados, y su aportación fue convertir eso en dos personajes con carácter propio que se pueden contar. Lo que aporta es una manera de contarlo que cualquiera puede entender.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mérito, entonces, está en la escritura más que en el hallazgo. Kahneman consigue que un lector sin formación siga cuarenta años de literatura experimental, y esa traducción es lo que ningún artículo académico había logrado antes. Traducir cuarenta años de laboratorio a un idioma corriente no es poco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa virtud tiene también un coste que muchos lectores notan. El libro es largo, se repite y acumula estudios uno detrás de otro, y bastante gente lo abandona hacia la mitad con la sensación de haber entendido ya la idea. Pocos lectores llegan al último capítulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sistema uno hace cosas que parecen mágicas y que llevas haciendo toda la vida. Reconoce una cara enfadada al otro lado de la calle, completa la frase pan con, entiende una palabra dicha en tu idioma y calcula dos más dos sin pedirte permiso.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que hace el sistema dos",
+          frase: "Multiplicar diecisiete por veinticuatro, aparcar en un hueco estrecho, comparar dos lavadoras por calidad y precio, o rellenar un impreso oficial sin equivocarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La prueba física de que el segundo cuesta esfuerzo es sorprendente y muy concreta. Las pupilas se dilatan mientras alguien resuelve un cálculo difícil y vuelven a su tamaño en cuanto abandona el problema, de modo que el esfuerzo mental se mide mirando un ojo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hallazgo viene de una época en la que Kahneman medía pupilas con una cámara. Un ayudante seguía el ojo mientras el participante multiplicaba, y desde otra habitación se podía saber el momento exacto en que abandonaba el cálculo. El esfuerzo mental resultó ser algo que se puede ver desde fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese trabajo con las pupilas ocupó parte de su carrera antes de conocer a Tversky. Le interesaba medir la atención como si fuera electricidad, con un consumo que sube y baja, y esa imagen se quedó en la idea del sistema dos. La atención le interesó antes que los sesgos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese periodo suyo se estudia poco y explica bastante. Antes de las heurísticas, Kahneman era un investigador de la atención y de la percepción, y llegó a los sesgos desde la pregunta de cuánto esfuerzo cuesta mirar bien una cosa. Los sesgos llegaron por ese camino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar algo que el propio Kahneman repite y que casi nadie recuerda. Los dos sistemas no existen: no son partes del cerebro ni entidades reales, son personajes inventados para poder contar la historia con sujeto y verbo. Son dos nombres cómodos y no dos habitantes dentro de tu cabeza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa advertencia se pierde constantemente en los resúmenes del libro. Se habla del sistema uno como si fuera una región del cerebro con dirección postal, y lo que hay debajo son procesos distintos agrupados bajo una etiqueta cómoda. La metáfora se independizó del libro y ya vive por su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además no convertir la metáfora en excusa. Decir que el sistema uno lo hizo no explica nada ni exime de nada, y el propio libro avisa de que esos nombres sirven para hablar, no para justificarse. Explicar un error no equivale nunca a quedarse tan tranquilo con él después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los nombres tampoco son suyos y él lo dice desde el principio. Los tomó prestados de dos psicólogos, Stanovich y West, y prefirió esas etiquetas neutras precisamente porque no significan nada por sí solas y no arrastran teorías previas. Una etiqueta vacía envejece bastante mejor que una llena de teoría previa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa manera de citar es característica del libro entero. Kahneman atribuye ideas a colegas con nombre y apellido en cada capítulo, y esa cortesía académica sostiene la confianza del lector mejor que cualquier afirmación de autoridad. Un libro lleno de nombres propios resulta bastante más fácil de comprobar.",
         },
         {
           forma: "arte",
           texto:
-            "Y está su descubrimiento estrella, por el que le dieron el Nobel: la <strong>aversión a la pérdida</strong>. Perder cien euros duele aproximadamente el doble de lo que alegra ganarlos. Por eso la gente no vende acciones que caen, aguanta en trabajos que odia y prefiere lo malo conocido: no está calculando, está evitando el dolor de perder.",
+            "El reparto de trabajo entre los dos explica casi todos los errores del libro. El sistema uno propone impresiones e intuiciones sin parar, el dos las acepta casi siempre sin revisarlas, y solo se despierta cuando algo se sale mucho de lo esperado. El vigilante duerme casi todo el rato.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una expresión que resume ese mecanismo y que Kahneman abrevia con unas siglas. Lo que ves es todo lo que hay: la mente construye la historia más coherente posible con la información disponible y no se pregunta qué información falta. Lo que falta no pesa nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que da es una pregunta trampa muy sencilla. Si te dicen que alguien es inteligente y firme, y te preguntan si será buen líder, contestas que sí, sin notar que no sabes absolutamente nada más de esa persona. Dos adjetivos bastan para construir un juicio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El efecto tiene además una versión más incómoda todavía. Cuanta menos información tienes, más fácil es construir un relato coherente, de modo que la confianza puede ser mayor precisamente cuando sabes menos del asunto. La ignorancia, bien ordenada dentro de un relato, produce una seguridad verdaderamente estupenda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea es la que más se puede usar en una reunión. Cuando alguien expone un plan con una seguridad total y una historia perfecta, la pregunta útil no es si el relato encaja, sino qué datos faltan para que deje de encajar. La pregunta incómoda es por lo ausente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la parte más útil del libro para el trabajo diario. Un relato coherente produce confianza, y la confianza no mide la calidad de la información sino lo bien que encajan entre sí los pocos datos que tienes delante. Coherencia y verdad no son sinónimos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sistema dos se cree el protagonista de la historia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman escribe que es un secundario convencido de ser el héroe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi todo lo que decides venía decidido antes de pensarlo.",
+        },
+      ],
+    },
+    {
+      titulo: "Linda, el bate y la pelota",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay dos problemas en este libro que se han hecho famosos y que conviene plantear antes de explicarlos. El primero: un bate y una pelota cuestan un euro y diez céntimos en total, y el bate cuesta un euro más que la pelota. Los dos parecen fáciles y no lo son.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La trampa está en que la respuesta equivocada aparece sola y encaja. Diez céntimos suena bien, divide el euro y diez en dos cifras redondas, y el sistema dos acepta la propuesta sin comprobar la resta que la desmontaría. El error no viene de no saber restar, sino de no restar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Frederick añadió otras dos preguntas parecidas al test. Una sobre máquinas que fabrican piezas y otra sobre nenúfares que doblan su superficie cada día, y las dos tienen una respuesta intuitiva que llega antes que la correcta. Tres preguntas bastan para separar a quien comprueba de quien solo contesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas tres preguntas se han usado en cientos de estudios posteriores. Predicen menos de lo que se dijo al principio y siguen siendo el ejemplo más limpio de una respuesta que llega antes de que nadie la haya pensado. Se ha exagerado bastante lo que ese test llega a predecir sobre alguien.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cuánto cuesta la pelota",
+          frase: "Cinco céntimos, no diez. La respuesta intuitiva es diez y es incorrecta, y la comprueba cualquiera en cinco segundos si se molesta en hacer la resta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese problema no lo inventó Kahneman sino Shane Frederick, y su gracia está en quién falla. Más de la mitad de los estudiantes de Harvard, del MIT y de Princeton respondieron diez céntimos, y en universidades menos selectivas el porcentaje pasó del ochenta. El prestigio no protege de nada aquí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese problema forma parte de un test de tres preguntas que se llama reflexión cognitiva. Mide justamente eso, si alguien se detiene a comprobar la primera respuesta que le viene, y correlaciona con menos cosas de las que se dice. Tres preguntas y ninguna requiere matemáticas avanzadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo problema famoso describe a una mujer llamada Linda. Treinta y un años, soltera, brillante, licenciada en filosofía, preocupada por la discriminación y la justicia social, participante en manifestaciones antinucleares cuando estudiaba. Cada detalle de esa descripción está puesto ahí con toda la intención.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta es cuál de dos frases es más probable: que Linda sea cajera de banco, o que sea cajera de banco y feminista. La mayoría elige la segunda, y la segunda no puede ser más probable porque está contenida dentro de la primera. Un subconjunto nunca supera al conjunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La descripción está construida para que encaje con una feminista y no con una cajera. Ese parecido es lo que la mente contesta, y la probabilidad, que es lo que se preguntaba, se queda sin responder sin que nadie lo note. La mente contesta a lo que puede.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese experimento se ha discutido bastante y conviene decirlo. Algunos investigadores sostienen que la pregunta induce a interpretar la primera opción como cajera y no feminista, y que parte del error es un problema de lenguaje. La objeción es razonable y aun así no explica el efecto por completo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman reconocía esa objeción y no la consideraba suficiente. Argumentaba que el efecto aparece incluso cuando se formula la pregunta con cuidado y que la comparación directa entre las dos frases sigue produciendo el mismo error. Aceptaba parte de la crítica y sostenía que el resultado seguía en pie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese error tiene nombre técnico y es de los mejor documentados de la psicología. Se llama falacia de la conjunción, y en el estudio original lo cometieron alrededor del ochenta y cinco por ciento de los participantes, incluidos estudiantes de estadística. Añadir detalles no aumenta la probabilidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman contaba que aquel resultado le sorprendió incluso a él. Habían apostado a que los estudiantes de estadística no caerían, y cayeron en proporciones parecidas a las de cualquier otro grupo de participantes. Ni la formación estadística protegía de aquella trampa concreta, y eso les desconcertó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa costumbre de apostar entre ellos aparece varias veces en el libro. Tversky y él escribían las predicciones antes de recoger los datos, que es exactamente lo que la psicología tardó cuarenta años en convertir en norma. Escribir la predicción antes evita después inventarse que uno ya lo sabía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El mecanismo detrás de los dos es el mismo y el libro lo llama sustitución. Cuando una pregunta es difícil, la mente contesta a otra parecida y más fácil sin avisar, y confunde el parecido con la probabilidad. La pregunta fácil se cuela silenciosamente en el sitio de la difícil.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El anclaje es el otro gran hallazgo y el experimento que lo demuestra es casi cómico. Kahneman y Tversky hicieron girar una ruleta trucada delante de los participantes y después preguntaron qué porcentaje de países de la ONU eran africanos. Nadie sospecha de una ruleta trucada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quienes habían visto el número diez respondieron una media del veinticinco por ciento, y quienes habían visto el sesenta y cinco respondieron cuarenta y cinco. Todos sabían que la ruleta era azar, y aun así el número les movió la respuesta. Un número cualquiera arrastra la estimación siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese experimento se ha repetido en contextos con consecuencias reales. Se ha encontrado el mismo efecto en tasaciones de casas hechas por agentes profesionales y en penas pedidas por fiscales con años de oficio. El efecto no es cosa solo de estudiantes en un laboratorio universitario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio libro cuenta un experimento hecho con jueces alemanes. Tiraban unos dados trucados antes de decidir una condena, y quienes sacaban un número alto pedían penas más largas que quienes sacaban uno bajo. Unos dados decidieron meses de cárcel, y ninguno de ellos se dio cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese estudio concreto ha sido criticado después por su tamaño pequeño. Conviene citarlo con esa advertencia, aunque el efecto general del anclaje sí se ha replicado muchas veces y es de los más sólidos del libro. Un ejemplo flojo dentro de un efecto que sí está bien establecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El anclaje funciona igual con precios, con sueldos y con sentencias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Funciona sabiendo que está ocurriendo, que es lo peor de todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman decía que él mismo caía cada vez que lo probaban.",
+        },
+      ],
+    },
+    {
+      titulo: "El yo que vive y el yo que recuerda",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La última parte del libro cambia de asunto y es la que más gente recuerda. Kahneman distingue entre el yo que experimenta, que vive los momentos uno detrás de otro, y el yo que recuerda, que es el que después cuenta la historia y decide.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La distinción parece filosófica y tiene consecuencias muy prácticas. El yo que recuerda es el que elige el próximo viaje, el próximo trabajo y la próxima pareja, y toma esas decisiones con un resumen bastante infiel de lo vivido. Elegimos el futuro entero usando un resumen que ya viene bastante deformado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese desajuste explica cosas que todo el mundo ha vivido. Vacaciones agotadoras que se recuerdan como estupendas, trabajos duros que se cuentan con orgullo y tardes tranquilas que no dejan ningún rastro en la memoria. Lo que se cuenta después y lo que se vivió no coinciden casi nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una consecuencia práctica que el libro sugiere sin desarrollarla. Si el final pesa tanto en el recuerdo, cuidar cómo terminan las cosas, una comida, un viaje o una reunión, cambia mucho lo que quedará de ellas. Un buen final vale, para el recuerdo, más que un buen promedio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento que lo demuestra se hizo con pacientes durante una colonoscopia. Les pedían puntuar el dolor cada sesenta segundos, y al final se les preguntaba por la experiencia completa, de modo que había dos medidas del mismo episodio. Se comparaba lo vivido minuto a minuto con lo recordado al terminar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel estudio se hizo en los años noventa, cuando el procedimiento se hacía sin sedación. Eso permitía preguntar al paciente durante la exploración, y hoy sería imposible repetirlo exactamente igual en un hospital moderno. La sedación generalizada llegó bastante después y cerró aquella ventana para siempre ya.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo además un experimento paralelo con agua helada que es más limpio. Los participantes metían la mano en agua muy fría durante un rato, y después elegían repetir la versión más larga si esta terminaba con el agua algo menos fría. Eligieron voluntariamente sufrir durante más rato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese diseño resuelve la objeción obvia del estudio médico. Aquí cada participante vivía las dos versiones y elegía cuál repetir, de modo que la comparación no dependía de comparar a personas distintas entre sí. Comparar a alguien consigo mismo es siempre mejor que comparar entre personas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que decidía el recuerdo",
+          frase: "No la duración total ni la suma del dolor, sino el peor momento y el final. Un procedimiento más largo, terminado suavemente, se recordaba como menos doloroso que otro corto y abrupto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese resultado tiene un nombre y consecuencias incómodas. Se llama regla del pico y el final, y significa que alargar un sufrimiento con un tramo suave al final puede mejorar el recuerdo aunque empeore la experiencia que se ha vivido. La duración apenas cuenta en el recuerdo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman plantea entonces una pregunta que el libro deja abierta. Si los dos yoes no coinciden, cuál de ellos debe decidir unas vacaciones, y su respuesta es que solemos organizar la vida para el que recuerda, no para el que vive. Los dos yoes quieren cosas distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman no resuelve esa pregunta y conviene decirlo. Deja planteado que las políticas públicas y las decisiones personales podrían medirse de dos maneras distintas e incompatibles, y que elegir una de las dos ya es una decisión moral. Medir el bienestar obliga a decidir antes a quién se está midiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que usa es el de unas vacaciones sin fotos y sin memoria. Si te dijeran que al terminar el viaje se te borrarán todos los recuerdos y todas las imágenes, casi nadie elegiría el mismo viaje que había elegido antes. El viaje se elige para contarlo después.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Esa parte conecta con su trabajo sobre bienestar, que dio una cifra muy repetida. Un estudio suyo con Angus Deaton, publicado en 2010, encontró que el bienestar diario dejaba de mejorar por encima de unos setenta y cinco mil dólares anuales. El titular dio la vuelta al mundo.",
           arte: "memoria",
         },
-      ],
-    },
-    {
-      titulo: "Los dos yoes",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su parte final es la más filosófica y la que más se recuerda. Kahneman distingue entre el <em>yo que experimenta</em>, que vive los momentos según pasan, y el <em>yo que recuerda</em>, que después construye el relato. Y demuestra que no coinciden.",
+            "Esa cifra se convirtió en titular en todo el mundo y hay que decir cómo ha terminado. Un trabajo posterior de Matthew Killingsworth, con datos de móvil recogidos en tiempo real, no encontró ese techo y sí una mejora continua con los ingresos. Nadie leyó la letra pequeña del estudio.",
         },
         {
           forma: "texto",
           texto:
-            "Lo probó con un experimento incómodo. A unos voluntarios les hacían meter la mano en agua muy fría durante sesenta segundos. Después repetían con la otra mano: sesenta segundos igual de fría, más treinta segundos adicionales en los que el agua subía un grado — seguía siendo desagradable, y era objetivamente más dolor total.",
+            "Ese segundo trabajo usaba un método muy distinto al primero. Preguntaba a la gente cómo se sentía en momentos aleatorios del día a través de una aplicación, en lugar de pedir un resumen retrospectivo del año anterior. Preguntar sobre la marcha y preguntar al final dan resultados bastante distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia de método no es un detalle técnico. Preguntar cómo te sientes ahora y preguntar cómo de satisfecho estás con tu vida dan respuestas distintas, y buena parte de la discusión sobre la felicidad viene de mezclar las dos. Son dos preguntas y no una.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro distingue esas dos preguntas con cuidado y casi ninguna noticia lo hizo. Los titulares sobre el dinero y la felicidad mezclaron durante años el bienestar del día a día con la valoración general que uno hace de su vida. La prensa las juntó en un titular.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que pasó después es lo mejor de esta historia y define a Kahneman. En vez de defender su dato, se puso a trabajar con quien lo contradecía, y en 2023 firmaron juntos un artículo que reconcilia las dos partes y corrige a las dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese formato tiene nombre y él lo practicó varias veces. Se llama colaboración adversaria, y consiste en que dos científicos que discrepan diseñen juntos el experimento que debería resolver la discusión antes de ver los datos. Se acuerda de antemano qué resultado convencería a cada uno de ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese método es raro porque exige algo que casi nadie tiene. Hay que aceptar de antemano que el resultado puede dejarte en evidencia, y firmarlo igualmente junto a la persona que lleva años diciendo que te equivocas. Casi nadie firma un artículo capaz de demostrar en público que se equivocaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado conjunto es más matizado que cualquiera de los dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La felicidad sube con los ingresos para la mayoría de la gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y se estanca en una minoría que ya era infeliz por otras razones.",
+        },
+      ],
+    },
+    {
+      titulo: "El capítulo que su autor desautorizó",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El capítulo cuarto del libro habla de un fenómeno llamado activación o priming. Cuenta que leer palabras relacionadas con la vejez hace que la gente camine más despacio al salir del laboratorio, y que sostener un lápiz con los dientes cambia el humor. Los dos ejemplos han terminado mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos experimentos eran de los más citados de la psicología social. El de caminar despacio lo firmó John Bargh en 1996, aparecía en manuales y en charlas, y era el ejemplo favorito para explicar hasta dónde llega lo inconsciente. Aparecían en todos los manuales y también en las charlas de divulgación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El intento de replicación más citado se publicó en 2012. Un equipo belga repitió el experimento con más participantes y midiendo el tiempo con sensores automáticos, y no encontró ninguna diferencia al caminar. Más participantes y mejores instrumentos hicieron desaparecer del todo aquel efecto tan celebrado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se había publicado el año anterior, con aquel capítulo dentro. Esa coincidencia de fechas explica que Kahneman fuera de los primeros en reaccionar: su propio superventas contenía el material que empezaba a caerse. Su superventas y la crisis de replicación llegaron prácticamente con un año de diferencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman escribió allí una frase que le persiguió después. Dijo que el lector no tenía más remedio que aceptar que aquellos estudios eran ciertos, porque estaban publicados y replicados, y que la incredulidad no era una opción disponible. Pedirle al lector que no dudara era justo lo contrario de su método.",
         },
         {
           forma: "clave",
-          rotulo: "El resultado",
-          frase: "Cuando les dejaban elegir cuál repetir, la mayoría elegía la versión larga. Recordamos el final, no la suma.",
+          rotulo: "Lo que pasó con esos estudios",
+          frase: "Casi ninguno se ha replicado. El experimento de caminar despacio falló al repetirse con más participantes y controles, y lo mismo ocurrió con varios de los ejemplos del capítulo.",
         },
         {
           forma: "texto",
           texto:
-            "Lo llamó la regla del pico y el final: de una experiencia recordamos su momento más intenso y cómo terminó, y la duración apenas cuenta. Eso explica que unas vacaciones de dos semanas no se recuerden mucho mejor que unas de una, y por qué una discusión al final de una cena estupenda se lleva la cena entera.",
+            "En 2012, viendo lo que venía, mandó una carta abierta a los investigadores de ese campo. Les avisó de que se dirigían a un choque de trenes, les pidió que replicaran sus propios resultados y que dejaran de acumular estudios pequeños y espectaculares. El aviso llegó antes que el derrumbe.",
         },
-      ],
-    },
-    {
-      titulo: "Lo que él mismo corrigió",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "Kahneman escribió el libro con su colega Amos Tversky siempre presente, aunque este había muerto en 1996. Trabajaron juntos décadas y él siempre dijo que el Nobel de 2002 habría sido compartido si Amos hubiera vivido; los premios no se conceden a título póstumo.",
+            "Aquella carta se filtró y circuló muy deprisa entre investigadores. Estaba escrita con educación y sin acusar a nadie, y aun así dejaba claro que el problema no era un estudio suelto sino la manera de trabajar de un campo entero. Nadie pudo decir después que no avisó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que vino después le dio la razón por completo. Un proyecto que intentó repetir cien estudios publicados en revistas de psicología consiguió resultados parecidos en algo menos de la mitad de los casos. Menos de la mitad de aquellos cien estudios volvió a salir igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel proyecto cambió la disciplina de forma bastante profunda. Desde entonces se registran las hipótesis antes de recoger datos, se publican los materiales completos y las muestras pequeñas ya no pasan la revisión con tanta facilidad. La psicología de hoy trabaja de una manera bastante más incómoda y lenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cinco años después hizo algo que muy pocos autores hacen. Escribió en público que el capítulo cuarto de su libro no se sostenía, que había confiado demasiado en estudios con muestras insuficientes y que sabía lo bastante para haber sido más prudente. Lo escribió en un blog ajeno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio es la mejor recomendación posible del resto del libro. Un autor que corrige su propio superventas mientras sigue vendiéndose demuestra en la práctica exactamente lo que su obra defiende sobre cómo debería funcionar el conocimiento. Corregirse en público cuesta más que acertar, y probablemente también vale más.",
         },
         {
           forma: "arte",
           texto:
-            "Y hay que decir algo importante sobre el propio libro. Varios de los estudios que cita —sobre todo un capítulo entero dedicado al <em>priming</em>, la idea de que palabras leídas de pasada cambian tu comportamiento— no se han podido replicar. Kahneman lo reconoció públicamente en 2017 y escribió que había confiado demasiado en estudios con muestras pequeñas.",
-          arte: "noche",
-        },
-        {
-          forma: "clave",
-          rotulo: "Su propia advertencia",
-          frase: "Conocer estos sesgos no te libra de ellos. Kahneman decía que él seguía cayendo en casi todos.",
+            "Otro apartado tocado por la misma crisis es el del agotamiento del ego. La idea de que la fuerza de voluntad se gasta como un músculo y se recupera con glucosa apareció en el libro y no ha resistido las replicaciones posteriores. El músculo de la voluntad no aparece.",
+          arte: "estanteria",
         },
         {
           forma: "texto",
           texto:
-            "Su consejo práctico es por eso indirecto: como no puedes fiarte de tu intuición en el momento, construye sistemas. Listas de comprobación, criterios escritos antes de decidir, y sobre todo pedirle a otro que revise, porque somos mucho mejores detectando los errores ajenos que los propios.",
+            "Ese caso es un buen ejemplo de cómo se derrumba una idea. Un metaanálisis encontró señales de sesgo de publicación, un intento coordinado con dos mil participantes no halló el efecto, y lo que quedaba era mucho menor de lo anunciado. Primero el efecto encoge y luego desaparece.",
         },
         {
           forma: "texto",
           texto:
-            "Un último hallazgo suyo, útil para cualquiera que decida en grupo: pide las opiniones por escrito y antes de la reunión. En cuanto alguien habla primero, ancla a todos los demás y lo que parece consenso es en realidad la opinión de la persona que abrió la boca, repetida con matices. Kahneman lo consideraba el arreglo más barato y eficaz que puede aplicar una organización.",
+            "Conviene precisar lo que este libro no dice, porque se le atribuye mucho. No dice que la intuición sea mala: dice que es fiable en entornos regulares y con respuesta rápida, como el ajedrez o los incendios, y engañosa en los demás. El ajedrecista sí puede fiarse de sí mismo.",
         },
         {
           forma: "texto",
           texto:
-            "Otro efecto que documenta y que conviene conocer: cuanto más fácil de leer es una afirmación —buen contraste, tipografía clara, frase que rima— más verdadera nos parece. No tiene nada que ver con su contenido. Es el sistema 1 confundiendo fluidez con veracidad, y es la razón de que un eslogan bien escrito convenza más que un argumento largo.",
+            "Esa distinción salió de un trabajo conjunto con alguien que pensaba lo contrario. Gary Klein defendía la intuición de bomberos y enfermeras, y en vez de discutir en artículos separados escribieron uno juntos delimitando cuándo funciona cada postura. Discutir juntos y por escrito resultó más útil que discutir por separado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado de aquel trabajo es la regla más útil del libro. La intuición experta funciona cuando el entorno es regular y cuando quien decide recibe respuesta rápida sobre si acertó, y falla cuando falta cualquiera de las dos. Con esa regla se pueden ordenar oficios enteros en apenas dos columnas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una segunda conversación posible con El mundo y sus demonios, del catálogo. Sagan confiaba en que enseñar ciencia curaría la credulidad, y este libro muestra que los sesgos sobreviven al conocimiento y aparecen también en los expertos. Saber más no basta cuando la creencia forma parte de la propia identidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco ofrece un método para corregirse a uno mismo, y él lo admite. Escribió que después de décadas estudiando esto seguía cometiendo los mismos errores, y que su esperanza estaba en las organizaciones y no en la voluntad individual. El experto en sesgos seguía cayendo en ellos como todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo único que propone es una técnica prestada de Gary Klein. Antes de aprobar un plan, imaginar que ha pasado un año y que ha salido fatal, y pedirle a cada uno que escriba la historia de ese fracaso. Imaginar el desastre por adelantado suelta la lengua de los que callaban.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí este libro discute con El cisne negro, que está en el catálogo. Taleb comparte el ataque a la falsa precisión de las previsiones, y va bastante más lejos: sostiene que los sucesos que de verdad importan no se pueden prever. Uno mide el error y otro lo declara insalvable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Amos Tversky murió en 1996, quince años antes del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Nobel no se concede a título póstumo y por eso lo recibió solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman repitió siempre que aquel premio era de los dos.",
         },
       ],
     },
