@@ -27,6 +27,15 @@ export const COSMOS: Short[] = [
     categoria: "Cosmos",
     color: "var(--ochre)",
     curioso: true,
+    foto: {
+      archivo: "PIA23791-Venus-NewlyProcessedView-20200608.jpg",
+      autor: "NASA / JPL-Caltech",
+      licencia: "Dominio público",
+      /* El planeta no está centrado en el original: cae a la izquierda, y el
+         recorte vertical se lo comería medio. */
+      foco: "34% 46%",
+      alt: "Venus visto desde el Mariner 10: un disco crema con bandas de nubes anaranjadas sobre fondo negro.",
+    },
     encargo:
       "Venus en falso color radar, la superficie sin nubes, ocupando casi todo el encuadre.",
     entrada:

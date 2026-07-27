@@ -2251,31 +2251,58 @@ button {
 }
 
 /* El velo sube desde abajo: el texto se lee siempre, sea la foto clara u
-   oscura, sin tener que retocar cada fotografía a mano */
+   oscura, sin tener que retocar cada fotografía a mano.
+
+   No es negro neutro: es negro con un 24 % del acento de la historia dentro.
+   Con cien fotografías traídas de cien sitios distintos, un velo neutro deja
+   ver que cada una viene de un sitio; teñirlo con el color de la historia las
+   ata a todas al mismo producto sin tocar ni un píxel de la imagen. La sombra
+   de una historia de Cosmos es azulada y la de una de Cocina, terrosa. */
 .muro-velo {
+  --sombra: color-mix(in oklab, var(--acento, var(--ochre)) 24%, #0a0a10);
   position: absolute;
   inset: 0;
   pointer-events: none;
   transition: opacity 0.4s ease;
-  background: linear-gradient(
-    to top,
-    rgba(10, 10, 16, 0.97) 4%,
-    rgba(10, 10, 16, 0.82) 26%,
-    rgba(10, 10, 16, 0.2) 56%,
-    rgba(10, 10, 16, 0.26) 100%
-  );
+  background:
+    /* Cinta de arriba: sin ella, una foto clara —un planeta, nieve, un cielo—
+       se come la barra de tramos y el contador. */
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--sombra) 52%, transparent) 0%,
+      transparent 16%
+    ),
+    /* Los tramos no están repartidos a ojo: el bloque de texto de la portada
+       ocupa de la quinta parte a los dos tercios de la altura, contando desde
+       abajo, y ahí el velo tiene que estar por encima del 55 % pase lo que
+       pase. Por encima de esa banda se suelta de golpe para que la fotografía
+       respire en el tercio de arriba, que es el que se mira. */
+    linear-gradient(
+      to top,
+      color-mix(in srgb, var(--sombra) 97%, transparent) 4%,
+      color-mix(in srgb, var(--sombra) 90%, transparent) 30%,
+      color-mix(in srgb, var(--sombra) 58%, transparent) 62%,
+      color-mix(in srgb, var(--sombra) 22%, transparent) 84%,
+      color-mix(in srgb, var(--sombra) 30%, transparent) 100%
+    );
 }
 
 /* Dentro de la historia el texto es largo y manda él: el velo sube más y la
    foto se queda arriba, como una franja. No cambia la maqueta, cambia la luz */
 .muro-velo[data-hondo="true"] {
-  background: linear-gradient(
-    to top,
-    rgba(10, 10, 16, 0.97) 4%,
-    rgba(10, 10, 16, 0.88) 30%,
-    rgba(10, 10, 16, 0.52) 62%,
-    rgba(10, 10, 16, 0.44) 100%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--sombra) 52%, transparent) 0%,
+      transparent 16%
+    ),
+    linear-gradient(
+      to top,
+      color-mix(in srgb, var(--sombra) 97%, transparent) 4%,
+      color-mix(in srgb, var(--sombra) 93%, transparent) 34%,
+      color-mix(in srgb, var(--sombra) 74%, transparent) 66%,
+      color-mix(in srgb, var(--sombra) 48%, transparent) 100%
+    );
 }
 
 /* Los tramos de la historia: uno por pantalla, arriba del todo. Es lo que
@@ -2487,6 +2514,37 @@ button {
   height: 100%;
   object-fit: cover;
   transform-origin: center;
+  /* Se le baja un punto la saturación y se le sube uno el contraste antes de
+     teñir. Una foto de agencia y un óleo escaneado llegan con temperaturas y
+     saturaciones incompatibles; rebajarlas un poco es lo que permite que el
+     tinte de encima las lleve al mismo sitio en vez de pelearse con ellas. */
+  filter: saturate(0.84) contrast(1.05);
+}
+
+/* El tinte: el acento de la historia en modo luz suave. No es un filtro de
+   Instagram — a esta opacidad no se nota como color añadido, se nota como que
+   todas las portadas parecen reveladas por la misma mano. Va FUERA de la caja
+   del parallax, para que no se desplace con la foto. */
+.foto-tinte {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: var(--acento, var(--ochre));
+  mix-blend-mode: soft-light;
+  opacity: 0.5;
+}
+
+/* Grano. La aplicación entera es papel cálido y una fotografía digital limpia
+   se le queda encima como una pegatina; una pizca de ruido las cose. Se dibuja
+   con un filtro SVG y no con una imagen, que aquí no hay red. */
+.foto-grano {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.13;
+  mix-blend-mode: overlay;
 }
 
 /* El cartel de respaldo se coloca ARRIBA, no en el centro. En el centro se lo

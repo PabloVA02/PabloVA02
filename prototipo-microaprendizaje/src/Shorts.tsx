@@ -149,6 +149,25 @@ function Fotografia({
       </AnimatePresence>
       </motion.div>
 
+      {/* Revelado común: tinte del acento y grano. Solo sobre fotografía —el
+          cartel generado ya sale con el color de la historia y teñirlo otra
+          vez lo ensucia— y solo en la historia que se está mirando, porque el
+          muro mantiene montadas las vecinas y tres filtros de ruido a pantalla
+          completa se notan en el desplazamiento. */}
+      {estado === "lista" && (
+        <>
+          <div className="foto-tinte" />
+          {deriva && (
+            <svg className="foto-grano" aria-hidden>
+              <filter id="grano-muro">
+                <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" />
+              </filter>
+              <rect width="100%" height="100%" filter="url(#grano-muro)" />
+            </svg>
+          )}
+        </>
+      )}
+
       {/* Barrido mientras carga: sugiere que viene algo, no que esté roto */}
       {estado === "cargando" && !reducido && (
         <motion.div
