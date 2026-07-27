@@ -1021,118 +1021,637 @@ export const MALALA: Resumen = {
   titulo: "Yo soy Malala",
   autor: "Malala Yousafzai",
   ano: 2013,
-  gancho: "Le dispararon en la cabeza a los quince años, dentro del autobús del colegio, por escribir un blog.",
+  gancho: "Le dispararon en la cabeza a los quince años, dentro del autobús del colegio, por escribir un blog cuando tenía once.",
   porQue:
-    "Explica cómo un valle turístico de Pakistán se convirtió en un sitio donde volaban escuelas, contado por alguien que lo vivió con once años.",
+    "Explica cómo un valle turístico de Pakistán se convirtió en un sitio donde volaban escuelas. Y es el mejor ejemplo de un libro que se lee de una manera en Occidente y de otra en su propio país.",
   partes: [
     {
-      titulo: "El valle",
+      titulo: "Una niña con nombre de heroína muerta",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Malala nació en el valle de Swat, en el norte de Pakistán, un sitio de montañas y ríos que era destino turístico: la gente iba a esquiar y a pescar truchas. Su padre, Ziauddin, había fundado allí un colegio y le puso a su hija el nombre de una heroína afgana. Cuando nació, los vecinos no fueron a felicitar a la familia. Con una niña no se felicitaba.",
+            "Cuando nace una niña en un pueblo pastún, los vecinos suelen dar el pésame a la madre. El padre de esta niña, en cambio, pidió que le trajeran el árbol genealógico de la familia, que llevaba trescientos años recogiendo solo varones, y escribió su nombre al final con una raya hacia abajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nació en una casa de dos habitaciones al lado de la escuela, sin más asistencia que la de una vecina, porque no había dinero para una clínica. El libro empieza ahí a propósito: con una familia sin recursos en un pueblo cualquiera, para que nada de lo que viene después parezca predestinado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La llamó Malala por Malalai de Maiwand, una joven pastún que en 1880 levantó con su voz a los combatientes afganos en una batalla contra los británicos y murió allí mismo. Es un nombre que en su cultura significa valiente y también significa alguien a quien mataron por serlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La leyenda cuenta que Malalai vio caer al portaestandarte, se quitó el velo, lo levantó y cantó unos versos para que los soldados no retrocedieran. Ganaron la batalla y ella murió en el campo, y hay hospitales y escuelas con su nombre en todo Afganistán.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El padre, Ziauddin Yousafzai, es la otra mitad del libro. Fue un niño tartamudo en una familia donde el padre era un orador famoso, se pasó la infancia sin poder terminar una frase y de joven se apuntó a un concurso de oratoria y lo ganó, después de ensayar durante meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su propio padre le escribió el discurso de aquel concurso y él lo memorizó palabra por palabra. Es una escena que anticipa toda la historia: un texto escrito por el padre y pronunciado por el hijo, y la duda de cuánto hay de cada uno cuando alguien habla en público.",
         },
         {
           forma: "arte",
           texto:
-            "Ese detalle abre el libro y explica el resto. Su padre hizo algo que en su entorno era rarísimo: escribió el nombre de su hija en el árbol genealógico familiar, donde durante trescientos años solo había hombres. Y la llevó al colegio.",
-          arte: "estanteria",
-        },
-        {
-          forma: "clave",
-          rotulo: "El cambio",
-          frase: "En 2007 los talibanes entraron en el valle. Al principio llegaron por la radio.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Un predicador empezó a emitir en una emisora clandestina, y al principio parecía razonable. Poco a poco fue subiendo: primero prohibió la música y el baile, después la televisión, después que las mujeres fueran al mercado. Leía en antena los nombres de quienes obedecían, felicitándolos. La gente le escuchaba porque no había otra cosa.",
-        },
-      ],
-    },
-
-    {
-      titulo: "Gul Makai",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "En 2008 anunciaron que las niñas no podían ir al colegio. Fijaron una fecha límite. Volaron con explosivos más de cien escuelas de niñas en el valle. La familia de Malala vio cómo su propio colegio se quedaba sin alumnas.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "La BBC buscaba a alguna alumna que contase lo que estaba pasando. Nadie quería, por miedo. Malala tenía once años y aceptó. Escribió un diario bajo el seudónimo <em>Gul Makai</em> — flor de maíz—, contando cosas concretas: que ese día fueron once niñas en vez de veintisiete, que escondía los libros bajo el chal, que soñaba con helicópteros.",
-        },
-        {
-          forma: "clave",
-          rotulo: "Lo que la hizo peligrosa",
-          frase: "No denunciaba ideas. Contaba lo que pasaba en su clase, un martes cualquiera, con nombres y números.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Con el tiempo su identidad se supo, y empezó a aparecer en televisión con su nombre y su cara, defendiendo que las niñas fueran a clase. Recibió premios en Pakistán. También empezaron a llegar amenazas a su casa, que la familia decidió no tomarse del todo en serio: pensaban que no matarían a una niña.",
-          arte: "memoria",
-        },
-      ],
-    },
-
-    {
-      titulo: "9 de octubre de 2012",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "Volvía del colegio en el autobús escolar con sus compañeras. Un hombre lo paró, subió y preguntó cuál de ellas era Malala. Nadie contestó, pero varias miraron hacia ella. Disparó tres veces. Una bala le entró por encima del ojo izquierdo y le salió por el hombro. Otras dos niñas resultaron heridas.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "La operaron de urgencia en Pakistán y la trasladaron en un avión medicalizado a Birmingham. Estuvo una semana en coma. Despertó en un país que no conocía, sin su familia al lado, sin poder hablar ni ver bien, y con parte del cráneo guardada en su abdomen para conservarla hasta poder reimplantarla.",
-        },
-        {
-          forma: "clave",
-          rotulo: "Su reacción",
-          frase: "Lo primero que preguntó al despertar, por escrito, fue quién iba a pagar aquello y dónde estaba su padre.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "El atentado tuvo el efecto contrario al buscado. En Pakistán hubo manifestaciones masivas y se aprobó la primera ley de educación obligatoria del país. En 2014, con diecisiete años, Malala recibió el Nobel de la Paz: la persona más joven en recibirlo nunca.",
+            "Con veintitantos años y sin dinero montó un colegio en Mingora, primero con una clase y tres alumnos, después con cientos. Vivía dentro del propio edificio, cobraba menos a quien no podía pagar y perdonaba la matrícula de decenas de niñas, con lo que el negocio nunca llegó a serlo.",
           arte: "aprendizaje",
         },
+        {
+          forma: "texto",
+          texto:
+            "El colegio se llamaba Khushal, por un poeta guerrero pastún del siglo XVII que escribía en su lengua cuando la gente culta escribía en persa. Ese nombre resume el proyecto entero del padre: modernidad y educación sin renunciar a ser de allí ni pedir permiso a nadie.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El sitio del que habla",
+          frase: "El valle de Swat era el destino de vacaciones de Pakistán, con hoteles, esquí y ruinas budistas. Lo llamaban la Suiza de Oriente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle no es decorativo, es la clave del libro. Lo que ocurrió allí no fue el atraso de siempre en un sitio remoto, sino un retroceso rapidísimo en un lugar moderno, y por eso la autora insiste tanto en describir el valle de antes con sus cines y sus turistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte del libro es la que más sorprende a un lector europeo. Antes de que llegaran los talibanes había turismo, cines, tiendas de discos, mujeres trabajando y un valle verde con truchas en el río, y las fotografías de los años setenta muestran algo que no encaja con la imagen que tenemos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El valle había sido además un reino independiente hasta 1969, con su propio soberano, sus escuelas y sus hospitales, y solo entonces se integró en Pakistán. Ese pasado explica el orgullo local y la desconfianza hacia un Estado central que llegó tarde y funcionó mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, tampoco era ningún paraíso para las mujeres, y ella lo cuenta sin adornos. Sus primas dejaban la escuela al llegar a la pubertad, las bodas se pactaban entre familias, y las mujeres de la casa comían después de los hombres y no salían solas a la calle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella misma describe cómo funcionaba la costumbre de la reclusión femenina. A partir de cierta edad, una chica solo salía de casa cubierta y acompañada, y su horizonte se reducía a un patio; el libro no presenta eso como culpa de los talibanes, sino como lo que había antes de que llegaran.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su madre, Toor Pekai, no sabía leer. Había ido a la escuela un solo día, de niña, y prefirió cambiar los libros por leche para su hermano; en el libro aparece dirigiendo la casa, dando de comer a quien lo necesita y aprendiendo a leer ya de adulta, en Inglaterra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su papel en la historia está más presente de lo que parece a primera vista. Fue ella quien insistió en dar de comer a los desplazados que llegaban al barrio, quien mantenía la casa mientras el padre daba entrevistas, y quien pidió que la hija durmiera con la puerta cerrada cuando llegaron las amenazas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El código pastún que estructura la vida del valle tiene nombre y reglas. Obliga a la hospitalidad absoluta con el huésped, incluso con un enemigo que pida refugio, y obliga también a la venganza, de modo que una ofensa puede pasar de padres a hijos durante generaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mismo código incluye una obligación de proteger al débil que ella reivindica. En el libro se apoya en él para argumentar que defender la escuela de las niñas no es importar una idea de fuera, sino aplicar lo que su propia cultura dice de la dignidad y de la palabra dada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro fondo que el libro explica es el del país entero. Pakistán nace en 1947 partiendo la India en dos con una migración de millones de personas y una matanza enorme, y desde entonces alterna gobiernos civiles y golpes militares con una regularidad que ella resume en pocas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El momento decisivo lo sitúa en los años ochenta, con el general Zia. Su gobierno islamizó las leyes y el sistema escolar, y con dinero estadounidense y saudí financió las madrasas y a los muyahidines que combatían a los soviéticos en el Afganistán vecino, al otro lado de la frontera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cambios legales de aquella época afectaron sobre todo a las mujeres. Se aprobaron normas que hacían valer el testimonio de dos mujeres como el de un hombre y que convertían la denuncia de una violación en un riesgo para la denunciante, y ella las enumera sin adjetivos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquellos campos de entrenamiento salieron los grupos que veinte años después cruzarían de vuelta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los mismos nombres, la misma frontera y armas compradas con dinero de la guerra anterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella lo dice sin ambages: el valle no se rompió solo, lo rompieron decisiones tomadas muy lejos.",
+        },
       ],
     },
-
     {
-      titulo: "Lo que el libro sí y lo que no",
+      titulo: "La radio del mulá",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Lo mejor del libro no es el atentado sino lo anterior: cómo un lugar normal deja de serlo poco a poco. Nadie decide un día que las niñas no estudien. Primero se prohíbe la música, y suena a exageración pero tampoco es para tanto. Después la televisión. Después salir sola. Cada paso es pequeño y hace que el siguiente parezca menor.",
+            "En 2007 empieza a oírse en el valle una emisora de radio nueva que nadie ha autorizado. Un predicador de treinta y pocos años llamado Fazlullah habla cada noche durante horas, con voz suave, y la gente lo escucha en las cocinas mientras cena porque al principio dice cosas razonables.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fazlullah había trabajado antes manejando una grúa en el río y no tenía formación religiosa seria. El libro insiste en ese dato porque explica el fenómeno: no llegó una autoridad respetada de fuera, sino un vecino con un micrófono al que la falta de Estado le dejó el sitio libre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al principio predica contra la corrupción y a favor de rezar más, y muchas mujeres le regalan sus joyas para financiar la emisora. Malala cuenta que su propia abuela lo escuchaba con devoción y que en casa nadie vio venir lo que aquello iba a ser en menos de dos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle de las joyas explica media historia y el libro lo subraya. Los talibanes no llegaron al valle únicamente con fusiles: llegaron con un discurso que a mucha gente pobre le sonó a justicia, en un sitio donde los tribunales tardaban años y los ricos siempre ganaban los pleitos.",
         },
         {
           forma: "clave",
-          rotulo: "La lección incómoda",
-          frase: "Las libertades no se pierden de golpe. Se pierden en pasos que por separado no parecen suficientes para protestar.",
+          rotulo: "Cómo funciona",
+          frase: "Lo llamaban el mulá de la radio. Leía en directo listas de nombres: a estos les alaba por buenos musulmanes, a estos otros les avisa.",
         },
         {
           forma: "texto",
           texto:
-            "Hay una escena que se queda. Cuando llega la orden de que las niñas dejen de ir al colegio, la última mañana de clase su profesora no dice nada especial y todas fingen que volverán. Malala escribe que se despidieron como cualquier otro viernes, sin llorar, porque nadie quería ser la primera en admitir que aquello se acababa. Después cuenta cómo pasó meses con los libros ordenados en su cuarto por si acaso. No hay ningún gesto heroico en esas páginas, y por eso funcionan mejor que el atentado.",
+            "El método era eficaz porque no hacía falta un ejército para aplicarlo. Bastaba con que un nombre saliera en la radio para que el barrio entero lo supiera esa misma noche, y con que apareciera después un cadáver colgado en la plaza para que nadie más quisiera salir en la lista.",
         },
         {
           forma: "texto",
           texto:
-            "Hay críticas justas que conviene conocer. El libro está escrito con la ayuda de una periodista británica y por momentos se nota la voz adulta; en Pakistán su figura genera opiniones divididas, y hay quien la considera una construcción de los medios occidentales. Ella misma ha respondido a eso más de una vez.",
+            "El otro efecto de la radio fue convertir a los vecinos en vigilantes. Bastaba con una llamada anónima para que alguien saliera nombrado esa noche, y a partir de ahí la gente dejó de hablar delante de sus propios conocidos, que es cuando un sitio se rompe de verdad.",
         },
         {
           forma: "texto",
           texto:
-            "Con todo, es de los libros más útiles que existen para un lector joven. No pide compasión, y su tono no es de víctima: la mayor parte del tiempo es una adolescente que se pelea con su hermano, compite por ser la primera de la clase y se preocupa por su altura. Por eso funciona.",
+            "Las prohibiciones llegaron por capas y despacio. Primero el baile y la música, después los CD y los televisores, que la gente sacaba a la calle para quemarlos en montones; después las peluquerías de mujeres, y después que las mujeres salieran a comprar al mercado sin un pariente varón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La gradualidad es lo que hace este capítulo tan útil fuera de Pakistán. Cada prohibición era pequeña comparada con la anterior, siempre había algo más urgente que discutir, y cuando llegó la que cerraba las escuelas ya no quedaba ninguna costumbre pública desde la que oponerse.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La plaza principal de Mingora tenía un nombre en el que se vendían fruta y flores, y pasó a llamarse entre la gente la plaza sangrienta, porque allí aparecían por las mañanas los cuerpos de los ejecutados durante la noche, con un cartel encima explicando el motivo para que todos lo leyeran.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hacia finales de 2008, la emisora anunció que a partir del 15 de enero ninguna niña volvería a la escuela. Malala tenía once años, iba a quinto y ese anuncio significaba que a su padre le cerraban el colegio y a ella le cerraban la vida que llevaba desde los cuatro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuenta atrás de aquel mes está contada casi día a día. Las alumnas dejaron de venir poco a poco, primero las que vivían más lejos, y el último día de clase se hicieron una foto juntas en el patio, sin saber cuáles de ellas volverían a pisar un aula alguna vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cifra que circula sobre la destrucción de escuelas en el valle ronda las cuatrocientas, entre voladas y dañadas. Viene de las autoridades educativas locales y de la prensa de aquellos años, no hay un recuento independiente, y el propio libro la da como aproximada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está bien documentado es lo que ocurrió después de la ofensiva. Muchas de esas escuelas se reconstruyeron con dinero público y de organizaciones internacionales, y las alumnas volvieron; el valle de hoy no es el de 2009, aunque la seguridad siga siendo frágil y desigual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí describe con precisión es cómo suena una escuela al volar de noche. Cuenta el ruido, los cristales de las casas de al lado, los cascotes en la calle a la mañana siguiente y el detalle de que casi siempre las volaban vacías, porque el objetivo era el mensaje y no las muertes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y da la razón por la que atacaban sobre todo escuelas de niñas. Una escuela de niños seguía funcionando; lo que se combatía no era la educación en general sino que las mujeres supieran leer, salieran de casa y pudieran elegir, que es exactamente lo que el libro llama por su nombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre siguió dando clase con las niñas entrando de una en una y sin uniforme, escondiendo los libros bajo el chal. En el libro se explica la lógica: un grupo de niñas uniformadas caminando juntas era un blanco visible, y una niña sola con un pañuelo podía pasar por cualquier cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De las veintisiete alumnas de su clase, aquel enero volvieron once. El libro da ese número concreto en vez de hablar de porcentajes, y funciona mucho mejor: son dieciséis pupitres vacíos en una sola aula, con nombres y apellidos que ella conocía desde los cuatro años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ziauddin empezó además a hablar en la radio y en la televisión locales contra Fazlullah, con nombre y apellidos y sin protección. Recibía amenazas por carta y por teléfono, y la familia dio por hecho durante años que si mataban a alguien de la casa sería a él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta del pistolero, quién de vosotras es Malala, acabó dando título al libro. La respuesta que nadie se atrevió a dar en aquel autobús se convirtió en la frase que ella repite desde entonces en cada escenario, y ese giro de una amenaza en una afirmación es todo el proyecto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro cuenta la rutina que montaron por si acaso. Ziauddin volvía a casa por caminos distintos cada día, dormía algunas noches en casa de amigos y tenía prevista una escalera en el patio trasero para saltar el muro, y aun así seguía yendo cada mañana a dar entrevistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie pensó nunca que dispararían a una niña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el valle se decía que ni siquiera ellos se atreverían a tanto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni siquiera los talibanes lo habían hecho hasta entonces en aquel valle.",
+        },
+      ],
+    },
+    {
+      titulo: "El diario de Gul Makai",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "A finales de 2008, un corresponsal de la BBC en urdu llamó a Ziauddin buscando a una maestra o a una alumna que escribiera un diario sobre cómo era vivir bajo los talibanes. Preguntó en el colegio, una familia dijo que sí y luego se echó atrás por miedo, con razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos padres que dijeron que no también tenían razón, y el libro no los juzga. Estaban protegiendo a su hija exactamente igual que cualquiera lo habría hecho, y la diferencia entre esa familia y la de Malala no es de valor moral, sino de qué riesgo estaba dispuesto a asumir cada padre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entonces se ofreció su hija, que tenía once años. El diario se publicó en la web en urdu de la BBC a partir de enero de 2009 firmado con un seudónimo, Gul Makai, que es el nombre de una heroína de un cuento popular pastún y significa flor de maíz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El seudónimo lo eligió su padre entre varios que le propuso un profesor del colegio. En el cuento del que sale, Gul Makai es una chica que consigue detener una guerra entre tribus recordándoles a los ancianos lo que dice de verdad su propia tradición, que es exactamente lo que ella intentaba hacer.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo se escribía",
+          frase: "Ella no tenía ordenador ni internet seguro. Dictaba las entradas por teléfono a un periodista, que las escribía y las publicaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle importa porque cambia el género del texto. Aquello no era un diario íntimo encontrado después, como el de Ana Frank, sino un encargo periodístico pensado para publicarse esa misma semana y para que lo leyera gente de fuera del valle, incluida la gente que quería cerrar el colegio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las entradas no son heroicas y por eso funcionan. Habla del miedo a que le peguen un tiro a su padre, de una compañera que ha dejado de venir, de un examen, de un vestido rosa que se pone debajo del uniforme, y de un sueño en el que aparecen helicópteros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese registro doméstico es lo que le dio fuerza al blog en su momento. Un informe sobre la situación en Swat lo leían cuatro especialistas; una niña contando que ha escondido el uniforme y que hoy solo han venido once de veintisiete compañeras lo entiende cualquiera en cualquier país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La entrada más citada es de tres líneas y describe una mañana. Cuenta que va camino del colegio y oye a un hombre detrás decir que va a matar a alguien; se gira asustada y comprueba que está hablando por el móvil, y entonces respira y sigue andando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El blog duró unos tres meses y son unas treinta entradas cortas. No cambió nada mientras se publicaba: no detuvo el cierre de las escuelas, no frenó a los talibanes y lo leía sobre todo gente de fuera del valle, y su efecto real llegó cuatro años después y por el peor motivo posible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El anonimato duró unos meses. En 2009, terminado el diario y con el valle en plena ofensiva militar, su padre permitió que la identificaran en un documental del New York Times, y a partir de ahí ella empezó a dar entrevistas en televisión pakistaní con su nombre y su cara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El documental se rodó durante el cierre del colegio y la evacuación, y ahí se la ve con doce años hablando en inglés y en urdu con una soltura que explica el resto. La escena más recordada es la de su padre y ella recorriendo el aula vacía el último día.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Aquí está la decisión más discutible del libro y él la cuenta sin escudarse. Un hombre expuso públicamente a su hija de doce años en un país donde sabía que mataban a quien hablaba, y el libro sostiene que fue una decisión de los dos, que ella quería y que nadie imaginó ese desenlace.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él ha reconocido después, en entrevistas y en su propio libro, que cargó con esa culpa durante años. Dice que se preguntó mil veces si había empujado a su hija, y que la única respuesta que le sirve es que ella nunca le ha reprochado nada y que habría hablado igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ziauddin ha respondido a esa acusación con una frase que se ha hecho famosa. Cuando le preguntan qué hizo para formar a una hija así, contesta que no le enseñó nada especial y que lo único que hizo fue no cortarle las alas, dando la vuelta a la pregunta de siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En mayo de 2009 el ejército pakistaní lanzó la ofensiva sobre Swat y ordenó evacuar el valle. Un millón y medio de personas salieron de sus casas en unos días, entre ellas su familia, que pasó unos tres meses repartida por casas de parientes en otras provincias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Salieron a pie y en coches abarrotados, con lo puesto y con los libros de texto en una bolsa. El libro describe la carretera llena de gente cargando ventiladores, colchones y gallinas, y a su padre repitiendo que volverían, que era lo único que podía decirles con alguna seguridad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El regreso, en agosto, es una de las mejores páginas del libro. Encuentran la casa intacta, con la comida podrida en la despensa y los libros de ella donde los había dejado, y el colegio convertido en cuartel, con agujeros de bala en las paredes y consignas del ejército escritas encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En una de las aulas encontraron cartas escritas por soldados en las pizarras y colillas por el suelo. El detalle que más le duele en el texto no es ese, sino que en la biblioteca del colegio faltaban libros y que alguien había arrancado hojas de los que quedaban para encender fuego.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí llegan los premios y las entrevistas. Recibe un galardón nacional de la paz para menores, la invitan a actos oficiales, le ofrecen una escolta que su padre rechaza porque haría de la familia un blanco todavía más visible, y ella sigue yendo al colegio en el autobús.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella misma explica el razonamiento que hacían en casa sobre el riesgo. Daban por hecho que los talibanes no dispararían a una niña porque les costaría el apoyo de la gente del valle, y esa suposición era lógica, estaba muy extendida y resultó estar equivocada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con catorce años ya sabía que su nombre estaba en las listas de los talibanes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No se lo dijo a su madre para no asustarla, y siguió cogiendo el mismo autobús.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo había leído en internet, buscándose a sí misma una tarde cualquiera.",
+        },
+      ],
+    },
+    {
+      titulo: "¿Quién de vosotras es Malala?",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El 9 de octubre de 2012, a mediodía, el autobús del colegio vuelve por la carretera de siempre con unas veinte alumnas dentro, sentadas en dos bancos enfrentados bajo una lona de plástico. Un hombre joven para el vehículo y pregunta si aquel es el autobús del colegio Khushal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella mañana había tenido examen y le había salido bien, y en el autobús iban cantando. El libro se detiene en esos minutos anteriores con una calma deliberada, porque lo que quiere dejar claro es que era un martes cualquiera y que nadie esperaba nada aquel día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otro se sube por detrás y hace una sola pregunta: quién de vosotras es Malala. Nadie contesta, pero varias niñas la miran sin querer, y eso basta. Dispara tres veces desde muy cerca y el autobús arranca a toda velocidad hacia el hospital de Mingora.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La bala",
+          frase: "Entró por encima de la ceja izquierda, bajó por el lado de la cara y se quedó alojada en el hombro. No le atravesó el cerebro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los médicos han explicado después que sobrevivió por centímetros y por horas. La trayectoria evitó el cerebro por muy poco, y la decisión rápida de operar en Peshawar para dejar sitio a la inflamación fue lo que impidió el daño irreversible que se produce en las horas siguientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las otras dos balas hirieron a dos compañeras suyas, Shazia Ramzan y Kainat Riaz, y el libro insiste en nombrarlas. Es un detalle deliberado y necesario, porque el relato mundial se quedó con una sola niña y en aquel autobús había tres chicas heridas y dieciocho aterrorizadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos siguieron estudiando y acabaron con becas en un colegio de Gales, y sus nombres no los conoce prácticamente nadie. Ese contraste dice bastante sobre cómo funciona la atención mundial: hace falta un símbolo, y un símbolo solo admite a una persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tramo médico está contado con una frialdad que resulta más impresionante que cualquier dramatismo. En Peshawar, un cirujano le retiró una parte del cráneo para que el cerebro pudiera hincharse sin aplastarse contra el hueso, y guardó ese trozo dentro de su propio abdomen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese trozo de hueso se conserva dentro del cuerpo porque así se mantiene vivo y estéril, y luego puede volver a colocarse. En su caso no lo reutilizaron, y en Birmingham le pusieron una placa de titanio moldeada por ordenador a partir de una imagen de su propio cráneo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después llegaron dos médicos británicos que estaban por casualidad en Pakistán asesorando en un programa de trasplantes, y su informe fue el que decidió el traslado. La trasladaron en un avión medicalizado de los Emiratos Árabes a un hospital de Birmingham especializado en heridas de guerra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel hospital atendía habitualmente a soldados británicos heridos en Afganistán, y por eso era el sitio del mundo con más experiencia en ese tipo exacto de lesión. La ironía es difícil de pasar por alto: la salvó la infraestructura montada para la guerra que había arrasado su región.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Despertó una semana después en un país que no conocía, sin su familia, sin poder hablar y sin saber dónde estaba. Lo primero que preguntó por escrito fue quién iba a pagar todo aquello, porque su padre no tenía dinero, y lo segundo fue dónde estaba su padre.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los gastos los cubrió finalmente el Gobierno pakistaní, que además nombró a su padre agregado de educación en el consulado de Birmingham para que la familia pudiera quedarse. Ese arreglo explica por qué viven en Inglaterra desde entonces y también parte de la desconfianza de sus compatriotas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las operaciones posteriores le reconstruyeron el cráneo con una placa de titanio, le repararon el nervio facial, que le había dejado media cara paralizada, y le pusieron un implante coclear porque había perdido la audición del oído izquierdo. Tenía quince años cuando empezó todo eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que peor llevó, según cuenta, fue lo de la cara. Durante semanas no pudo sonreír ni cerrar el ojo izquierdo, y describe el momento de mirarse por primera vez en un espejo pequeño que le prestó una enfermera con una franqueza que no aparece en ninguna de sus entrevistas públicas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su familia tardó diez días en poder viajar a Inglaterra por trámites de visado y pasaportes. Durante esos diez días, la niña más famosa del mundo estuvo sola en una habitación de hospital con enfermeras que no hablaban su idioma, y ese detalle no suele aparecer en los reportajes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los primeros días pidió por escrito un espejo, su mochila y saber quién pagaba la factura. Cuando por fin llegaron sus padres, su madre no la reconoció al entrar en la habitación por la hinchazón de la cara, y esa escena es de las pocas del libro en las que se permite el dolor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los talibanes pakistaníes reivindicaron el atentado por escrito el mismo día. Explicaron que era una campaña de obscenidad y de cultura occidental, prometieron volver a intentarlo si sobrevivía, y esa reivindicación es la respuesta más clara a quienes después dijeron que todo estaba montado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diez hombres fueron condenados en 2015 en un juicio militar a puerta cerrada, y meses después se supo que ocho de ellos habían sido absueltos en realidad y estaban libres. El autor material huyó a Afganistán, y Fazlullah murió en 2018 en un ataque con dron estadounidense.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir lo que el libro no dice sobre ese día, porque se le atribuye. No presenta el disparo como un martirio buscado ni como un precio que valiera la pena: lo cuenta como lo que fue, un intento de asesinato de una niña de quince años que casi funciona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco pinta a los talibanes como fanáticos incomprensibles venidos de otro planeta. Los describe como vecinos, como el chico del pueblo que se apuntó, como gente pobre a la que un discurso de justicia le pareció mejor que nada, y esa es la parte más adulta de todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella escribe que no recuerda absolutamente nada de aquella tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su último recuerdo es un examen y su primer recuerdo siguiente es un techo blanco en Inglaterra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo lo que cuenta del autobús se lo contaron sus compañeras después.",
+        },
+      ],
+    },
+    {
+      titulo: "El libro que Pakistán prohibió",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro se escribió en Birmingham durante 2013, con la autora recuperándose de las operaciones y yendo a un colegio nuevo. Lo firmó con Christina Lamb, una corresponsal británica que llevaba cubriendo Pakistán y Afganistán desde 1987 y que conocía el país mucho mejor que la mayoría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa colaboración explica a la vez la virtud y el defecto del volumen. La mitad que cuenta la vida de una niña de Swat tiene voz propia y detalles que no se inventan; la otra mitad, la que resume ochenta años de historia de Pakistán, es claramente de una periodista veterana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que esa segunda mitad es útil de todos modos. Sin ella, un lector europeo no entendería nada de por qué aquel valle acabó así, y con ella el libro funciona como una introducción rápida a la historia de Pakistán, aunque el precio sea que las dos voces no acaben de fundirse.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La costura se ve",
+          frase: "Un capítulo habla de una pelea con su mejor amiga por unas notas y el siguiente resume la partición de la India en 1947.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en octubre de 2013, un año justo después del disparo y en el momento de máxima atención mundial. La prensa británica habló entonces de un adelanto editorial de varios millones, cifra que salió de fuentes del sector y que nadie ha confirmado oficialmente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese calendario es también una de sus debilidades. Es un libro escrito a los dieciséis años, un año después del suceso, sin ninguna distancia posible sobre lo ocurrido, y publicado cuando el interés mundial estaba en su punto más alto y no cuando la autora tenía algo nuevo que decir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y aquí viene lo que casi ningún lector occidental sabe. En Pakistán, la federación de colegios privados prohibió el libro en sus centros asociados a los pocos meses de publicarse, y su portavoz declaró que aquello no era el relato de una alumna sino una campaña contra el islam y contra el país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella federación decía representar a decenas de miles de colegios privados del país, y declaró además un día del yo no soy Malala. La cifra de centros la daban ellos mismos y nadie la verificó, pero el gesto sí ocurrió y da la medida de cómo se recibió el libro allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los motivos concretos que dieron eran tres. Que hablara con respeto de Salman Rushdie y de la libertad de expresión en el caso de sus Versos satánicos; que no acompañara siempre el nombre del Profeta con la fórmula habitual; y que criticara al ejército y a los servicios secretos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer motivo es probablemente el que más pesó y el que menos se dijo en voz alta. El libro describe a un ejército que llegó tarde al valle, que negoció con los talibanes antes de combatirlos y que después convirtió el colegio de su padre en un cuartel.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En buena parte de Pakistán no es una heroína sino un personaje incómodo. Circulan teorías de que el atentado fue un montaje occidental, se la acusa de vender la imagen del país a cambio de fama, y hay quien pregunta por qué el mundo llora por ella y no por los niños muertos por drones.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Parte de ese rechazo es simple propaganda y parte tiene una raíz real. Que Occidente convirtiera en icono a una niña pakistaní herida por los talibanes, mientras sus propios bombardeos mataban a otros niños en las mismas provincias, es una contradicción que allí nadie pasa por alto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa última pregunta merece tomarse en serio y el libro se queda corto con ella. Los ataques con drones estadounidenses mataron a cientos de civiles en aquellas provincias durante esos mismos años, son una herida central en la opinión pakistaní, y aquí aparecen mencionados casi de pasada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella sí lo planteó en persona donde tocaba. En octubre de 2013 se reunió en la Casa Blanca con Obama y le dijo que los bombardeos con drones alimentaban el resentimiento y el terrorismo; lo contó su propio comunicado y no salió en casi ningún titular de aquel día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio resume su posición incómoda desde entonces. Es demasiado occidental para una parte de su país y demasiado crítica con Occidente para servir de emblema cómodo, y cada vez que dice algo que no encaja con el papel asignado, la noticia sencillamente no se publica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2014 recibió el Nobel de la Paz a los diecisiete años, compartido con el activista indio Kailash Satyarthi, un hindú y una musulmana, un indio y una pakistaní. Es la persona más joven que lo ha recibido nunca y estaba en clase de química cuando se lo comunicaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Terminó la clase antes de salir del aula, y esa anécdota se ha contado mil veces como prueba de humildad. Vale también como recordatorio menos amable: era una niña de diecisiete años a la que el mundo acababa de poner encima un cargo del que ya no iba a poder bajarse nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un libro de este catálogo con el que este conversa de forma inevitable. El diario de Ana Frank también lo escribió una adolescente encerrada, también lo publicó y lo ordenó su padre superviviente, y también convirtió a una chica concreta en un símbolo que le queda grande a cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella misma leyó ese diario en el hospital y lo ha citado muchas veces. La diferencia principal la marca el final: una murió y la otra sobrevivió, y por eso este libro tiene que cargar con algo que el otro no tuvo nunca, que es una autora viva a la que se puede preguntar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia es que esta autora está viva y ha tenido que vivir con el símbolo. Se licenció en Oxford en 2020, se casó en 2021 y ha dicho en entrevistas que durante años le costó separar a la persona que era de la figura que el mundo necesitaba que fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conversa con El largo camino hacia la libertad, en este mismo catálogo. Los dos son testimonios escritos con un periodista occidental al lado y publicados en el momento de máxima atención, con la diferencia de que Mandela escribió a los setenta y seis y ella a los dieciséis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Volvió a Swat en marzo de 2018, seis años después, durante unas horas y con escolta militar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegó en helicóptero porque la carretera no era segura, y se fue el mismo día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Entró en su casa, tocó los muebles y lloró.",
         },
       ],
     },
