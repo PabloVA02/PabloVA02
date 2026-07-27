@@ -809,12 +809,13 @@ export const META: FichaMeta[] = [
     ano: 1980,
     gancho: "Somos polvo de estrellas. No es una metáfora: el calcio de tus huesos se fabricó dentro de una estrella que explotó.",
     porQue: "Es el libro que convenció a media generación de científicos. Explica el universo entero sin una sola fórmula y sin rebajar nada.",
-    minutos: 4.2,
+    minutos: 26.1,
     capitulos: [
-      { titulo: "El calendario cósmico", minutos: 0.6 },
-      { titulo: "Polvo de estrellas", minutos: 1.1 },
-      { titulo: "El calendario cósmico", minutos: 1.2 },
-      { titulo: "La biblioteca y la humildad", minutos: 1.3 },
+      { titulo: "Salida: un acantilado de Big Sur, 1980", minutos: 5.1 },
+      { titulo: "Primera parada: el año en que cabe todo", minutos: 5.2 },
+      { titulo: "Segunda parada: el horno donde se hicieron tus huesos", minutos: 5.2 },
+      { titulo: "Tercera parada: la biblioteca que ardió", minutos: 5.3 },
+      { titulo: "Destino: una mota de polvo en un rayo de sol", minutos: 5.3 },
     ],
   },
   {
