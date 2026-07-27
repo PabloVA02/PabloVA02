@@ -134,109 +134,637 @@ export const MINDSET: Resumen = {
   titulo: "Mindset",
   autor: "Carol Dweck",
   ano: 2006,
-  gancho: "Decirle «qué listo eres» a un niño le hace elegir después el problema más fácil.",
+  gancho: "Decirle a un niño que es listo le enseña a evitar los problemas difíciles. Está medido con ciento veintiocho niños de diez años.",
   porQue:
-    "Una sola idea, demostrada con treinta años de experimentos, que cambia cómo hablas a tus hijos, a tu equipo y a ti mismo.",
+    "Es la idea de psicología educativa que más colegios ha cambiado, y también la que peor ha resistido las mediciones a gran escala.",
   partes: [
     {
-      titulo: "El experimento del elogio",
+      titulo: "Ciento veintiocho niños y una frase",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Dweck dio a cientos de niños una prueba fácil que todos aprobaron. A la mitad les dijo: «qué listo eres». A la otra mitad: «se nota que te has esforzado mucho». Una sola frase, una sola vez. Después les dejó elegir la siguiente prueba: una fácil o una difícil de la que aprenderían.",
+            "En 1998, en un colegio de Estados Unidos, ciento veintiocho niños de unos diez años resolvieron una tanda de acertijos fáciles. Todos lo hicieron bien, y a todos se les dijo que habían acertado, con una frase distinta según el grupo. El resto del experimento vino después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El material eran matrices de figuras, un tipo de acertijo visual que se usa en los test de razonamiento. La primera tanda estaba elegida para que todos acertaran, de modo que el elogio llegara igual a todos los niños. Nadie recibió un elogio falso, y eso descarta la explicación más obvia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle importa porque descarta una explicación alternativa. Nadie fue elogiado por un resultado falso ni por algo que no había hecho, y sin embargo la frase cambió lo que ocurrió después. Una sola frase, dicha una sola vez, cambió el comportamiento de un grupo entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos resultados no salieron de un solo experimento. El artículo de 1998 recogía seis estudios seguidos con distintos grupos de niños, y el patrón se repetía en todos ellos con variaciones. Repetir el patrón en seis estudios seguidos es bastante más de lo que se suele exigir.",
         },
         {
           forma: "clave",
-          rotulo: "El resultado",
-          frase: "Los elogiados por listos eligieron la fácil. Los elogiados por su esfuerzo eligieron la difícil, en un 90 %.",
+          rotulo: "Las dos frases",
+          frase: "A la mitad se le dijo que debía de ser muy lista. A la otra mitad, que debía de haber trabajado mucho. Esa fue toda la diferencia entre los dos grupos.",
         },
         {
           forma: "texto",
           texto:
-            "Y siguió. Puso a todos una prueba muy difícil, en la que fallaron. Los del grupo «listo» se hundieron: concluyeron que no eran tan listos y dejaron de disfrutar. Los del grupo «esfuerzo» se lo tomaron como un reto. En una última prueba del nivel inicial, el primer grupo bajó su nota un 20 %; el segundo la subió un 30 %.",
+            "Después se les ofreció elegir la siguiente prueba. Podían hacer una tanda difícil, con la que aprenderían cosas nuevas, o una fácil parecida a la anterior, y ahí las dos frases empezaron a producir efectos distintos. La elección se hacía en privado y sin que nadie los estuviera mirando.",
         },
         {
           forma: "texto",
           texto:
-            "Y hubo un detalle que Dweck no esperaba: al pedirles que escribieran a otro colegio contando sus resultados, casi el 40 % de los niños elogiados por listos <em>mintió</em>, inflando su puntuación. Cuando tu identidad es «soy listo», un fallo no es información: es una amenaza.",
+            "El diseño tiene una virtud que conviene subrayar. Los niños se repartieron al azar entre los dos grupos, de modo que la única diferencia entre ellos era la frase que habían oído un minuto antes. Sin ese reparto al azar, el estudio no diría absolutamente nada sobre causas.",
         },
-      ],
-    },
-    {
-      titulo: "Fija contra de crecimiento",
-      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Ese tipo de diseño es lo que permite hablar de causa y no de correlación. Es también lo que hace que el experimento siga citándose casi treinta años después en manuales de psicología educativa. Un experimento sencillo bien hecho aguanta mejor el tiempo que una teoría grande.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene añadir que el propio experimento se ha replicado con resultados desiguales. Algunos equipos han encontrado el efecto y otros no, y la discusión sobre su tamaño real sigue abierta. Ningún hallazgo de psicología social se sostiene hoy con un solo experimento por muy citado que esté.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La mayoría de los niños elogiados por su inteligencia eligió la tanda fácil. La mayoría de los elogiados por su esfuerzo eligió la difícil, y esa elección es el hallazgo que sostiene el libro entero. Ninguno de los dos grupos sabía que estaba tomando una decisión tan importante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vino una tanda muy difícil en la que casi todos fallaron. Los elogiados por listos se derrumbaron, dijeron que ya no les divertía y quisieron dejarlo; los otros siguieron probando y varios pidieron llevarse los problemas a casa. La misma dificultad produjo dos reacciones opuestas en niños de la misma clase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese derrumbe se midió además de varias maneras a la vez. Se les preguntó cuánto les gustaba la tarea, si querían llevársela a casa y a qué atribuían el fallo, y los tres indicadores fueron en la misma dirección. Coincidir en tres indicadores distintos hace bastante más creíble un resultado como ese.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los niños del grupo del esfuerzo atribuían el fallo a no haber trabajado bastante. Los del grupo de la inteligencia lo atribuían a no ser listos, que es una explicación que no deja nada que hacer. Una explicación abre la puerta al trabajo y la otra la cierra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa diferencia de atribución es el corazón de toda su obra anterior. Dweck llevaba desde los años setenta estudiando por qué unos niños se rinden y otros no ante exactamente el mismo fracaso. Aquella pregunta la traía arrastrando desde sus primeros trabajos sobre la indefensión aprendida.",
+        },
         {
           forma: "arte",
           texto:
-            "De ahí sale la distinción del libro. En mentalidad <strong>fija</strong>, la inteligencia y el talento son una cantidad que te tocó al nacer, y cada tarea es un examen sobre cuánto tienes. En mentalidad de <strong>crecimiento</strong>, son cosas que se desarrollan, y cada tarea es una ocasión de desarrollarlas.",
+            "El final del experimento es lo que más impresiona. Se les puso otra vez una tanda fácil, igual que la primera, y los elogiados por su inteligencia lo hicieron peor que al principio, mientras que los del esfuerzo mejoraron. Un elogio bienintencionado acabó empeorando el rendimiento en una tarea exactamente idéntica.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "El cambio no es de optimismo, es de qué significa el esfuerzo. Con mentalidad fija, esforzarse es una mala señal — si tuvieras talento no te haría falta. Con la otra, el esfuerzo es literalmente el mecanismo por el que se mejora. Por eso los primeros abandonan cuando algo se pone cuesta arriba: seguir sería admitir que no valen.",
+            "Hay un detalle más que se cita en todas partes. Al pedirles que escribieran sus resultados en una hoja para otro colegio, alrededor de cuatro de cada diez niños del grupo elogiado por listos exageraron su puntuación. La etiqueta de listo tenía ya suficiente valor como para mentir por ella.",
         },
         {
-          forma: "clave",
-          rotulo: "La palabra",
-          frase: "«Todavía no». No es que no sepas hacerlo: es que no sabes hacerlo todavía.",
+          forma: "texto",
+          texto:
+            "Ese dato de las mentiras se cita muchísimo y conviene precisarlo. Se les pidió escribir su puntuación en una hoja anónima para niños de otro colegio, y la exageración se midió comparando con lo que habían hecho. Conviene contarlo siempre con ese detalle y no como una cifra suelta cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese resultado es el que más se ha discutido después. Es un dato llamativo, salido de una muestra pequeña, y conviene citarlo como lo que es: un hallazgo de un experimento concreto y no una ley general. Un experimento no es una ley, por muy citado que llegue a estar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa advertencia vale para casi todos los experimentos de esa época. Las muestras eran de decenas de participantes, la potencia estadística era baja y nadie preinscribía las hipótesis antes de recoger datos. La psicología de entonces trabajaba con muestras que hoy no pasarían ninguna revisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estudio lo firmaron Claudia Mueller y Carol Dweck, y salió en una revista de psicología social. La autora llevaba entonces más de veinte años investigando por qué unos niños se hunden ante la dificultad y otros se crecen. Aquella pregunta le venía de mucho antes de plantear este experimento concreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir el tamaño real de aquello antes de seguir. Fueron unos ciento veintiocho niños en total, repartidos en varios experimentos, y de ahí salió una idea que después se aplicó a millones de alumnos. Entre el laboratorio y una política educativa hay bastante más distancia de lo esperable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro llegó ocho años después, en 2006.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llamó Mindset y vendió millones de ejemplares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La charla que dio en 2014 lleva decenas de millones de visitas.",
         },
       ],
     },
     {
-      titulo: "Campeones, jefes y parejas",
+      titulo: "Dos maneras de explicarse un suspenso",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Dweck lleva la idea al deporte con dos ejemplos opuestos. John McEnroe tenía un talento descomunal y lo dice él mismo en su autobiografía: cuando perdía siempre había una causa externa —el serrín de la pista, la cámara de un fotógrafo, un resfriado, la gente del público—. Nunca entrenó lo que se le daba mal, porque entrenar habría sido admitir que le faltaba algo.",
+            "La idea central del libro cabe en una pregunta. Cuando algo te sale mal, ¿piensas que no vales para eso, o piensas que todavía no sabes hacerlo?, y de esas dos respuestas salen dos maneras distintas de vivir. Las dos respuestas parecen un simple matiz y acaban organizando una vida entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pregunta parece retórica y en el laboratorio se mide. Se les plantean a los participantes frases del tipo tu inteligencia es algo que no puedes cambiar mucho, y se les pide decir cuánto están de acuerdo. Esas escalas se llaman implícitas y llevan ya décadas usándose en investigación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esas escalas tienen un problema conocido que conviene mencionar. Cualquiera nota qué respuesta queda mejor, y en cuanto la idea se hizo famosa medir mentalidades con preguntas se volvió bastante menos fiable. Cualquiera que haya oído hablar del asunto contesta lo que sabe que conviene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso complica bastante las investigaciones posteriores sobre el asunto. Si la variable principal se mide con un cuestionario que todo el mundo sabe contestar, los resultados dejan de ser una medida limpia. Un cuestionario transparente acaba midiendo sobre todo lo que el participante quiere aparentar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Los dos nombres",
+          frase: "Mentalidad fija: la capacidad es una cantidad que te tocó y no cambia. Mentalidad de crecimiento: la capacidad es algo que se desarrolla trabajando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La consecuencia práctica no está en el ánimo sino en las decisiones. Quien cree que la capacidad es fija evita las situaciones donde podría quedar mal, porque cada fallo se convierte en un dictamen sobre lo que es. El miedo a quedar mal decide más cosas de las que parece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mecanismo explica algo que se ve en cualquier clase. Los alumnos que más miedo tienen a parecer torpes son a menudo los que llevan años oyendo que son los listos de la casa. La etiqueta que más protege es también la que más pesa al fallar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dweck cuenta que ese patrón aparece antes de lo que parece. En experimentos con niños de cuatro y cinco años ya se distinguen los que quieren repetir un puzle que dominan y los que piden uno más difícil. A esa edad todavía no hay notas ni comparaciones formales de ningún tipo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hallazgo temprano es de los más sólidos que dejó su laboratorio. Antes de saber leer, los niños ya se comportan de forma distinta ante un puzle que no les sale a la primera. Cuanto antes aparece un patrón, más difícil resulta explicarlo solo por la escuela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien cree que se desarrolla busca justamente esas situaciones. No porque sea más valiente, sino porque un fallo no le dice nada definitivo sobre sí mismo: le dice qué le falta por aprender, que es información útil. Ese cálculo cambia por completo qué tareas resultan atractivas y cuáles no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dweck lo aplica primero al colegio, que es su terreno de investigación. Describe alumnos brillantes que se hunden al llegar a un curso más difícil, y alumnos medianos que acaban adelantándolos porque el bache no les parece una sentencia. El adelantamiento suele ocurrir justo cuando el temario empieza a exigir método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo escolar que más usa es el paso al instituto. Alumnos que sacaban sobresalientes sin esfuerzo se encuentran con asignaturas que exigen método, y algunos concluyen que se les ha acabado el talento. Ese cambio de exigencia pilla desprevenidos sobre todo a los que iban sobrados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese momento es el que la teoría explica mejor. La inteligencia no ha cambiado de un verano a otro; lo que ha cambiado es que por primera vez hace falta un método, y nadie se lo había enseñado. Nadie enseña a estudiar y todo el mundo supone que ya se sabe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la recomendación más útil del libro para cualquier familia. Enseñar cómo se estudia, no repetir que se estudie, porque el consejo de esforzarse más no contiene ninguna información. Decirle a alguien que se esfuerce más no le dice absolutamente nada sobre qué hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El elogio es la palanca que más le interesa y la más contraintuitiva. Decirle a un niño que es listo suena bien y le enseña que el valor está en el resultado, de modo que a partir de ahí protegerá la etiqueta. Proteger una etiqueta consume energía.",
         },
         {
           forma: "arte",
           texto:
-            "Michael Jordan es el reverso. En el instituto no entró en el equipo principal y se pasó el verano entrenando desde las seis de la mañana. Cuando llegó a la NBA no tenía un buen tiro exterior ni defensa; se los fabricó. Es célebre su frase de que ha fallado más de nueve mil tiros y perdido casi trescientos partidos, y que por eso ha tenido éxito. Dweck no lo cita como motivación barata, sino como descripción técnica de un método.",
-          arte: "aprendizaje",
+            "La alternativa que propone no es dejar de elogiar. Es elogiar el proceso concreto: la estrategia que usó, la persistencia, la decisión de pedir ayuda, y hacerlo señalando lo que hizo y no lo que es. Elogiar lo que alguien hizo es más difícil que elogiar lo que es.",
+          arte: "explorar",
         },
         {
           forma: "texto",
           texto:
-            "En las empresas la distinción explica desastres enteros. Dweck analiza a directivos que llenaron sus consejos de gente que les daba la razón, castigaron a quien traía malas noticias y terminaron con compañías que se creían invencibles y no lo eran. Frente a ellos, jefes que empezaban preguntando qué estaba roto y agradecían el diagnóstico incómodo. La diferencia no era la inteligencia: era si la empresa existía para demostrar algo o para aprender algo.",
-        },
-        {
-          forma: "clave",
-          rotulo: "En pareja",
-          frase: "Con mentalidad fija, que una relación cueste esfuerzo demuestra que no era la buena. Con la otra, es simplemente lo que hace una relación.",
+            "Hay una palabra que resume todo el libro y que ella convirtió en bandera. Es todavía: no sé hacerlo todavía, no me sale todavía, y esa palabra cambia una sentencia cerrada en una descripción de un momento. En inglés es una sola palabra y ella la usa como bandera.",
         },
         {
           forma: "texto",
           texto:
-            "Ese capítulo es el que más incomoda. La creencia de que las personas compatibles no discuten, de que el amor verdadero no requiere trabajo y de que la gente no cambia produce rupturas que no tenían por qué ocurrir. Y produce también su versión contraria: quedarse años intentando reformar a alguien que no ha pedido cambiar. Dweck insiste en que crecer no es exigirle a otro que se convierta en otro.",
+            "Esa palabra dio lugar a una práctica concreta en algunos colegios. En vez de poner un suspenso se ponía todavía, y aunque suena a truco de cartel la idea era obligar al alumno a mirar qué le faltaba. Aquella calificación existió de verdad en varios institutos públicos de Estados Unidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cambio de palabra tiene un límite obvio que conviene decir. Sustituir el suspenso por un todavía no enseña matemáticas, y sin un plan concreto detrás la palabra se queda en decoración. Cambiar el vocabulario sale barato y cambiar la enseñanza cuesta bastante más trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el punto donde la idea se convirtió en un póster. Poner la palabra en la pared cuesta nada y cambiar cómo se corrige un examen cuesta trabajo, y muchos centros hicieron solo lo primero. El cartel se colgó en muchísimos sitios y el resto casi nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que el libro no dice, porque es lo que más se malinterpreta. No dice que cualquiera pueda llegar a cualquier sitio, y Dweck escribe expresamente que no todo el mundo va a ser Einstein. Confundir esa idea con el todo es posible cuesta bastante caro después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco dice que el esfuerzo baste por sí solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Insiste en cambiar de estrategia cuando algo no funciona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte es la que casi nadie recuerda del libro.",
         },
       ],
     },
     {
-      titulo: "Lo que se malinterpreta",
+      titulo: "El libro que salió del laboratorio",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El libro se convirtió en un fenómeno escolar y se deformó por el camino. Muchos colegios lo redujeron a colgar carteles y a elogiar el esfuerzo aunque no llevara a ningún sitio. La propia Dweck lo llamó «mentalidad de crecimiento falsa» y salió a corregirlo: elogiar el esfuerzo sin resultado no sirve de nada; hay que elogiar la <em>estrategia</em>, y si no funciona, cambiarla.",
+            "El libro se publicó en 2006 y su ambición es enorme. Toma un hallazgo de psicología del desarrollo y lo aplica al deporte, a la empresa, a la escuela, a la crianza y a las relaciones de pareja, capítulo por capítulo. Cada ámbito recibe su propio capítulo.",
         },
         {
           forma: "texto",
           texto:
-            "También hay que decir que las réplicas grandes han encontrado efectos reales pero mucho menores que los del libro, sobre todo en alumnos con dificultades. La idea aguanta; el tamaño del milagro, no. Aun así, cambiar «qué listo eres» por «cómo lo has hecho» es de las cosas más baratas y útiles que puede hacer cualquiera que trate con niños.",
+            "Esa amplitud es lo que lo convirtió en superventas y también su punto débil. Un libro que explica el colegio, la empresa y el matrimonio con la misma idea corre el riesgo de no explicar bien ninguno de los tres. La idea se estira hasta romperse.",
         },
         {
           forma: "texto",
           texto:
-            "Cómo se cambia, en concreto, ocupa el último capítulo y es menos épico de lo que parece. Nadie tiene una mentalidad pura: tenemos las dos y cada una salta con cosas distintas. El trabajo consiste en identificar qué situación exacta te dispara la fija —una crítica, alguien mejor que tú, un examen— y aprender a reconocer esa voz cuando aparece, discutirle con hechos y actuar como actuaría la otra. Repetido bastantes veces, la voz cambia de tono.",
+            "Los capítulos escolares son claramente los mejores del libro. Es su terreno, los ejemplos vienen de investigaciones propias y las recomendaciones son concretas, mientras que los demás se apoyan en biografías ajenas. Ahí escribe desde su laboratorio y no desde biografías leídas en otros libros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí sí hay indicaciones que un profesor puede aplicar el lunes. Cómo dar una nota, cómo comentar un examen, qué decir cuando alguien se atasca y cómo presentar una tarea difícil sin asustar. Son las páginas que un docente subraya y vuelve a leer al año siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el capítulo del deporte los ejemplos son un tenista y un jugador de baloncesto. John McEnroe aparece como caso de mentalidad fija, con talento enorme y ninguna tolerancia al error, y Michael Jordan como lo contrario. Los dos ejemplos son cómodos porque el final ya lo conocemos todos.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "Elogia el proceso, no la persona. Al que aplaudes por listo le estás enseñando a evitar los retos.",
+          rotulo: "El dato de Jordan",
+          frase: "No entró en el equipo titular de su instituto y se pasó los veranos entrenando de más. La historia es real y él la ha contado muchas veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo empresarial es el más discutible de todos. Contrapone directivos que se creían genios con otros que construyeron equipos, y usa a Enron como ejemplo de una cultura obsesionada con contratar talento en vez de desarrollarlo. Ningún directivo entra en el laboratorio y ninguno responde a un cuestionario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contraste que usa entre dos directivos es el más citado del capítulo. Por un lado los que necesitaban ser el más listo de la sala, y por otro los que se dedicaron a que la empresa funcionara sin ellos. Ninguno de los dos fue entrevistado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El retrato de esos ejecutivos viene de libros de gestión anteriores y no de entrevistas suyas. Dweck lee esas biografías con su marco puesto y encuentra en ellas justo lo que su teoría predecía. Leer una biografía con una teoría puesta encima da siempre el mismo resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese método se puede aplicar a cualquier persona famosa con el mismo resultado. Cualquiera tiene episodios de rigidez y episodios de aprendizaje, y elegir unos u otros depende de la tesis que se quiera ilustrar. Una teoría que explica cualquier caso acaba por no explicar ninguno en particular.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese argumento sobre Enron no es originalmente suyo. Viene de un artículo de Malcolm Gladwell de 2002, que Dweck cita, donde se sostenía que la empresa había convertido el culto al talento innato en su modo de funcionar. Aquel artículo se titulaba el mito del talento y tuvo bastante repercusión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está el problema de método de esta parte del libro. Las biografías se eligen después de conocer el final, y siempre se puede encontrar en un triunfador rasgos de crecimiento y en un fracasado rasgos de rigidez. Los ejemplos ilustran una idea, y nunca llegan a ponerla a prueba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese problema tiene nombre en metodología y es fácil de comprobar. Se llama selección por el resultado, y consiste en explicar por qué algo salió bien buscando las causas después de saber que salió bien. Es el mismo error que denuncian casi todos los manuales de metodología básica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese sesgo no significa que la conclusión sea falsa. Significa que ese material no la demuestra, y que había que ir a buscar la prueba a otra parte, que es exactamente lo que ocurrió una década después. Ilustrar una idea y demostrarla son dos operaciones completamente distintas entre sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa espera es lo normal en ciencias sociales y no un defecto del libro. Probar bien una idea educativa exige muestras enormes, permisos, años y dinero, y esa prueba llegó cuando la idea ya se había vendido. El libro ya estaba en miles de colegios cuando llegaron los resultados.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Conviene decirlo sin rodeos: esos capítulos no son investigación. Son ilustraciones escogidas de una idea que sí venía de experimentos, y mezclarlos en el mismo libro hace que todo parezca igual de comprobado. El lector no distingue qué parte viene del laboratorio y cuál de una biografía.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tuvo además un efecto sobre las escuelas difícil de exagerar. Distritos enteros de Estados Unidos y del Reino Unido compraron programas de mentalidad de crecimiento, con carteles, formación de profesores y materiales. Pocas ideas de psicología han llegado a tantas aulas en tan poco tiempo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras de esa expansión son difíciles de dar con precisión. Hubo programas en miles de centros, financiación pública en varios países y materiales vendidos por empresas creadas expresamente para eso. Nadie llevó nunca una contabilidad central de cuántos centros llegaron a comprar aquellos materiales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese éxito comercial creó además un incentivo incómodo. Cuanto más se vendía el programa, más caro salía reconocer que sus efectos medidos eran pequeños, y eso vale para casi cualquier idea educativa de moda. Rectificar cuesta bastante más cuando ya hay muchas facturas emitidas de por medio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que Dweck no vendía esos programas directamente. Su trabajo dio origen a organizaciones y materiales que sí se comercializaron, y ese entorno económico existía alrededor de la teoría. La distancia entre una investigadora y el mercado que crece a su alrededor suele ser grande.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En muchos sitios se convirtió en algo bastante distinto de lo que decía el libro. Carteles con la palabra todavía en las paredes, elogios al esfuerzo repartidos sin mirar el resultado y ninguna revisión de cómo se enseñaba. Lo que llegó al aula fue casi siempre la versión más barata.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dweck vio esa deriva y la denunció por escrito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le puso un nombre: mentalidad falsa de crecimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de eso, sin embargo, llegaron los datos.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que pasó cuando se midió a lo grande",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2018 se publicó un metaanálisis que cambió la conversación entera. Victoria Sisk y sus colegas reunieron cientos de estudios sobre mentalidad y rendimiento académico, con más de trescientos mil participantes en total. Trescientos mil participantes es una escala que ningún estudio suelto llega nunca a alcanzar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un metaanálisis no es un estudio más, y conviene explicar por qué. Reúne los resultados de muchos trabajos previos y los pondera, de modo que corrige en parte la tendencia a publicar solo lo que sale bien. Es la herramienta que se usa justamente cuando hay demasiados estudios sueltos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, un metaanálisis arrastra los problemas de los estudios que reúne. Si muchos de ellos eran pequeños y se publicaron por salir bien, el resultado conjunto sigue estando inflado por ese filtro. Basura entra, basura sale, dicen los propios estadísticos al explicar ese límite conocido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los autores de aquel metaanálisis lo dijeron con claridad. Encontraron señales de sesgo de publicación, es decir, indicios de que los estudios con resultados nulos se habían quedado en los cajones. Ese sesgo se detecta mirando cómo se distribuyen los tamaños de efecto que sí se publicaron.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que encontraron",
+          frase: "Una correlación muy débil entre la mentalidad y las notas, y un efecto medio de las intervenciones cercano a cero. No nulo, pero mucho menor de lo prometido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mismo trabajo encontró un matiz que conviene no perder. Los efectos aparecían sobre todo en estudiantes en riesgo académico o de familias con pocos recursos, y prácticamente se desvanecían en el resto. Un efecto que aparece solo en algunos grupos sigue siendo un efecto real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese matiz es en realidad una buena noticia para la teoría. Si el efecto aparece donde hay más margen de mejora y no donde ya se rinde bien, eso encaja con lo que la teoría predice. Quien ya rinde bien tiene poco que ganar con un cambio de creencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa lectura la defiende el propio equipo de Yeager. Sostienen que nadie prometió efectos grandes en todos los alumnos, y que una intervención de dos sesiones no puede competir con años de escolarización. Nadie puede pedirle a dos sesiones lo que no consiguen años enteros de escuela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese argumento es razonable y a la vez incómodo. Si dos sesiones no pueden hacer mucho, tampoco se podían prometer transformaciones escolares con carteles y una charla de formación. Las promesas grandes las hicieron sobre todo quienes vendían los programas, y no tanto los investigadores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al año siguiente llegó el estudio más limpio que se ha hecho sobre esto. Un equipo dirigido por David Yeager preinscribió sus hipótesis, trabajó con una muestra nacional de unos doce mil alumnos y publicó los resultados en Nature. Preinscribir las hipótesis impide después contar solamente aquella parte que salió bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado es real, es pequeño y merece darse con precisión. Una intervención de dos sesiones por internet mejoró las notas de los alumnos con peor rendimiento en torno a una décima de punto sobre diez. Es un efecto pequeño y a la vez estadísticamente sólido, que son cosas distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene traducir esa décima de punto a algo comprensible. Es la diferencia entre un cinco coma cuatro y un cinco coma cinco de nota media, en alumnos que estaban en la mitad baja de su curso. Nadie cambia de vida por una décima, y nadie la desprecia tampoco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puesto así parece poco, y hay dos maneras de mirarlo. Una décima de nota por dos sesiones en internet es barato, y una décima de nota no arregla ningún problema educativo serio. Las dos cosas son verdad al mismo tiempo y conviene decir las dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El coste es justamente lo que mantiene viva la propuesta. Una intervención que se hace por internet en dos ratos y cuesta casi nada solo necesita un efecto pequeño para salir a cuenta. En política educativa el precio por alumno decide casi tanto como el efecto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese estudio añadió además una condición que casi nunca se cita. El efecto solo aparecía en centros donde el ambiente entre compañeros apoyaba buscar retos, y desaparecía donde esforzarse estaba mal visto. El ambiente del centro puede anular por completo cualquier intervención individual bien diseñada.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En el Reino Unido, varios ensayos grandes financiados por una fundación educativa no encontraron efectos significativos. Eso no significa que la idea sea falsa: significa que trasladarla a un aula real es mucho más difícil de lo que parecía. Los resultados nulos también se publican allí, y eso ya es una diferencia.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos ensayos británicos tenían un tamaño considerable. Participaron decenas de escuelas y miles de alumnos, se asignaron al azar y midieron resultados en lengua y matemáticas al terminar el curso. Un ensayo de ese tamaño cuesta muchísimo dinero, y por eso se hacen tan pocos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los autores de esos ensayos apuntaron a un motivo probable. Formar a un profesor en un taller de un día no cambia cómo enseña, y la intervención llegaba al aula muy diluida. La formación de un día es lo primero que se recorta en cualquier presupuesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese problema no es exclusivo de esta idea ni de este país. La distancia entre un experimento bien controlado y un aula real con treinta alumnos se come casi cualquier efecto que se haya medido. Lo mismo ha pasado con casi todas las modas pedagógicas de las últimas décadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entender qué se puede concluir de todo esto sin exagerar. La distinción entre las dos mentalidades describe algo que existe, y convertirla en un programa que mejore las notas de todos no ha funcionado. Describir bien un fenómeno y saber intervenir sobre él son cosas muy distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí este libro discute con Pensar rápido, pensar despacio, que está en el catálogo. Los dos son superventas de psicología cuyos apartados más famosos han sido revisados a la baja por la crisis de replicación de la disciplina. Los dos siguen vendiéndose hoy exactamente igual que antes de aquellas revisiones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia está en cómo respondió cada autor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kahneman escribió que su capítulo cuarto no se sostenía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dweck defendió la teoría y culpó a cómo se aplicaba.",
+        },
+      ],
+    },
+    {
+      titulo: "La mentalidad falsa de crecimiento",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2015 Dweck publicó un artículo con un título que lo dice todo. Reconocía que la mentalidad de crecimiento se había malinterpretado en las escuelas y que ella misma había visto una versión falsa por todas partes. Rectificar en público mientras el libro sigue vendiéndose bien tiene bastante mérito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese artículo salió en una revista del sector educativo estadounidense. Estaba escrito en primera persona, sin tecnicismos, y se dirigía directamente a los profesores que estaban aplicando la idea en clase. Escribir para profesores y no para colegas es una decisión que dice bastante de ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese gesto es poco frecuente en el género y merece señalarse. Casi ningún autor de superventas vuelve a escribir para decir que su idea se está usando mal, sobre todo mientras sigue vendiendo. Casi siempre resulta más cómodo culpar al lector que revisar el propio libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una diferencia con el caso de Kahneman que conviene marcar. Él escribió que un capítulo suyo no se sostenía, y ella escribió que la teoría estaba bien y que se estaba aplicando mal. Las dos respuestas son legítimas y no dejan al lector en el mismo sitio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "En qué consiste esa versión falsa",
+          frase: "Elogiar el esfuerzo pase lo que pase, repetir que cualquiera puede con todo y decir que se tiene mentalidad de crecimiento porque uno es una persona abierta y flexible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El elogio del esfuerzo sin resultado es el error que más le preocupa. Si un alumno se esfuerza con una estrategia que no funciona y se le felicita igual, se le está enseñando a repetir algo que no lleva a ninguna parte. Esforzarse mal también es esforzarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que pone es de una precisión incómoda. Un alumno que repite el mismo método para estudiar y sigue suspendiendo no necesita ánimos, necesita que alguien le enseñe otra forma de estudiar. El ánimo sin método es exactamente lo que ella acabó llamando versión falsa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ejemplo desmonta la caricatura más extendida de su teoría. La mentalidad de crecimiento no consiste en insistir, consiste en cambiar de camino cuando el camino elegido no lleva a ningún sitio. Insistir con la misma estrategia es justamente lo contrario de lo que propone.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa versión corregida es bastante más difícil de vender. No cabe en un cartel, exige formación docente y se parece mucho a enseñar bien, que es lo que ya costaba antes de todo esto. Una idea que no cabe en un cartel tiene bastante poco futuro comercial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su formulación corregida incluye tres cosas y no una. Esfuerzo, cambio de estrategia cuando la primera falla, y pedir ayuda a tiempo, y las tres juntas son lo que ella llama proceso. Las tres juntas se parecen bastante a lo que siempre se llamó estudiar bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Reconoció también que nadie tiene una sola mentalidad. Todos somos una mezcla, y cada uno tiene disparadores concretos, como una crítica pública o el éxito de un compañero, que le devuelven a la mentalidad fija. Nadie vive instalado en una de las dos, y esa precisión cambia todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea de los disparadores es de lo más útil del artículo. Reconocer en qué situaciones concretas uno se pone rígido es mucho más práctico que decidir que uno tiene mentalidad de crecimiento. Es también lo único de su teoría que se puede practicar esta semana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella misma cuenta cuáles son los suyos en ese artículo. Menciona la comparación con colegas y las críticas a su trabajo, y describe cómo nota que se pone a la defensiva antes de poder pensar. Reconocerse en el ejemplo cuesta más cuando el ejemplo lo pone la autora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese pasaje es lo mejor que ha escrito sobre el asunto. Una investigadora describiendo sus propias reacciones defensivas vale más, como enseñanza, que veinte páginas explicando la diferencia entre dos mentalidades. Una teoría se entiende mucho mejor cuando alguien la aplica contra sí mismo delante de todos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene reconocerle esa corrección, porque no era obligatoria. Su libro se vendía por millones y podía haber seguido vendiéndose sin matizar nada, y publicar que la idea se estaba aplicando mal tiene mérito. Muy pocos autores de este género han llegado a hacer algo remotamente parecido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Lo que no hizo fue revisar las promesas del libro a la luz de los datos nuevos. Las ediciones posteriores mantienen el tono, y la explicación que ofrece de los estudios fallidos es que se aplicó mal la teoría. Corregir la aplicación y corregir la promesa no son la misma cosa.",
+          arte: "lectora",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Inteligencia emocional, también en el catálogo, la trayectoria es casi idéntica. Un hallazgo académico razonable, un libro para el gran público, una industria de cursos encima y unos efectos medidos bastante menores. Las dos ideas nacieron en un laboratorio y acabaron en un catálogo de cursos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa comparación no descalifica a ninguno de los dos libros. Señala un patrón: una idea con base experimental modesta se convierte en producto, y el producto promete bastante más de lo que el laboratorio medía. El problema casi nunca está en el hallazgo, está en lo que se promete.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese recorrido se repite tanto que casi se puede predecir. Un hallazgo con efecto pequeño, un libro que lo agranda, una industria que lo vende y una revisión posterior que lo devuelve a su tamaño. Conviene reconocer el patrón antes de comprar el siguiente libro del mismo estilo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Fluir, que también está, la conversación es distinta y más amable. Csikszentmihalyi describía la tarea óptima como la que está un poco por encima de tu nivel, que es lo que un alumno solo elige si cree que puede mejorar. Los dos hablan del mismo alumno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Saber todo esto no obliga a tirar el libro, y conviene terminar por ahí. La distinción que describe existe, se reconoce en uno mismo al leerla, y ese reconocimiento es lo que ningún metaanálisis ha desmentido. Reconocerse en una descripción no es lo mismo que mejorar por ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda del libro es una distinción útil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no queda es la promesa de transformar una escuela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y la palabra todavía sigue siendo mejor que un suspenso.",
         },
       ],
     },
