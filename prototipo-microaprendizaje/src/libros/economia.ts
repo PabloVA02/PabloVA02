@@ -651,115 +651,637 @@ export const BABILONIA: Resumen = {
   titulo: "El hombre más rico de Babilonia",
   autor: "George S. Clason",
   ano: 1926,
-  gancho: "Toda la educación financiera cabe en una regla que tiene cuatro mil años: quédate con una moneda de cada diez.",
+  gancho: "Un vendedor de mapas de Denver inventó una Babilonia entera para poder decirte que ahorres el diez por ciento.",
   porQue:
-    "Cien años después sigue siendo el mejor primer libro de dinero, porque son parábolas de veinte minutos y no hay una sola fórmula.",
+    "Es el libro de finanzas personales más antiguo que sigue en las listas, y conviene saber qué parte de él es consejo comprobable y qué parte es decorado.",
   partes: [
     {
-      titulo: "El escriba que preguntó",
+      titulo: "El vendedor de mapas de Denver",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Babilonia, hace cuatro mil años. Bansir es el mejor constructor de carros de la ciudad y no tiene un céntimo. Se sienta con su amigo Kobbi, músico, igual de arruinado, y le dice lo que a todos nos ha pasado: llevamos toda la vida trabajando duro y no tenemos nada. Deciden ir a preguntar a Arkad, un antiguo compañero de escuela que se ha convertido en el hombre más rico de Babilonia.",
+            "En 1926, un hombre de cincuenta y dos años que vendía mapas de carreteras en Denver imprimió un folleto de ocho páginas sobre cómo ahorrar. Lo repartió entre bancos y compañías de seguros, y aquel papel barato acabó siendo el libro de finanzas personales más longevo del siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El folleto se titulaba igual que el libro y contaba una sola historia, la de Arkad. Costaba muy poco imprimirlo, cabía en un sobre y podía regalarse junto con una cartilla de ahorro, que es exactamente el uso que le dieron las cajas durante veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los bancos no repartían aquello por generosidad y conviene decirlo. Un cliente que aparta una décima parte cada mes es un cliente con saldo, y la campaña de folletos fue una de las primeras operaciones de educación financiera pagada por quien se beneficiaba de ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado fue un libro sin editor detrás durante años. No hubo lanzamiento, ni crítica, ni escaparate: hubo acumulación lenta de lectores que lo habían recibido gratis, y esa es la razón de que casi nadie sepa situarlo en una fecha concreta. Se hizo famoso sin que nadie lo anunciara.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase que lo sostiene todo",
+          frase: "Una parte de todo lo que ganas es tuya para conservarla. No lo que sobre a final de mes, sino la décima parte apartada al principio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "George Samuel Clason había nacido en Luisiana, un pueblo de Misuri, en 1874, y venía del negocio de los mapas. Fundó una empresa cartográfica en Denver y publicó el primer atlas de carreteras de Estados Unidos y Canadá, en una época en que casi nadie tenía coche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de los mapas había estudiado en la Universidad de Nebraska y combatido en la guerra contra España. Nada en esa biografía apunta a un experto en finanzas: apunta a un editor con buen olfato que descubrió un hueco entre el sermón moral y el manual técnico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre de Clason apenas aparece en las ediciones modernas del texto. La portada suele llevar el título en grande y el autor en pequeño, y muchos lectores terminan el libro sin saber que lo escribió un cartógrafo de Colorado hace casi un siglo. Ese anonimato es casi total hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Clason murió en 1957, y para entonces el libro llevaba treinta años circulando sin él. No escribió otra cosa que se recuerde, no dio conferencias ni montó un negocio de cursos, y esa ausencia lo distingue de casi todos los autores de su género. Vivió del oficio, no del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea de disfrazar los consejos de parábola babilónica no fue un capricho literario sino comercial. Los bancos regalaban aquellos folletos a sus clientes, y una historia con escribas y camellos se leía sin la incomodidad de que el banco te estuviera sermoneando sobre tu dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los folletos se repartieron por millones durante los años veinte y treinta, y esa es la verdadera razón de su fama. No hubo campaña de lanzamiento ni éxito de crítica: hubo cajas de ahorros regalando cuadernillos en la ventanilla durante dos décadas seguidas. Nadie lo compró en una librería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese origen explica el tono del libro mejor que cualquier análisis literario. Está escrito para alguien que acaba de abrir una cartilla en la ventanilla, no para alguien que ya tiene dinero, y por eso ninguna de sus reglas exige capital previo. Empieza con la primera moneda apartada.",
         },
         {
           forma: "arte",
           texto:
-            "Arkad les cuenta que empezó igual que ellos, copiando tablillas de arcilla por un jornal. Un prestamista le prometió enseñarle el secreto de la riqueza a cambio de una tablilla urgente. Arkad trabajó toda la noche. Y el secreto que recibió fue una sola frase.",
-          arte: "escritor",
-        },
-        {
-          forma: "clave",
-          rotulo: "El secreto",
-          frase: "Una parte de todo lo que ganas es para ti. Págate a ti primero, antes que a nadie.",
+            "La recopilación en un solo volumen llegó después, y es la que se sigue vendiendo. Nunca ha dejado de reimprimirse, se traduce a decenas de idiomas y aparece en casi todas las listas de libros de dinero que alguien recomienda a los veinte años. Sigue en las mesas de novedades.",
+          arte: "estanteria",
         },
         {
           forma: "texto",
           texto:
-            "Arkad añade el detalle que lo hace funcionar: guardó una décima parte y descubrió que vivía exactamente igual que antes. El gasto se ajusta a lo que hay disponible casi sin que lo notes — lo que hoy llamaríamos inflación del estilo de vida, formulado en el año 1926 con cuatro milenios de retraso.",
+            "Las cifras de ventas que circulan hay que tomarlas con cuidado. Se repite que ha vendido millones de ejemplares, pero el libro lleva casi un siglo con ediciones de dominio público y de decenas de editoriales distintas, y nadie ha contado eso de forma fiable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí se puede comprobar es su presencia en las listas de recomendaciones. Aparece en casi todas las listas de primeros libros de dinero, y suele recomendarse junto a otros dos o tres que prometen bastante más de lo que él prometió nunca. Casi siempre encabeza esas listas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La ironía de la biografía de Clason es difícil de pasar por alto. Su empresa de mapas no sobrevivió a la Gran Depresión, de modo que el hombre que enseñó a millones a llenar su bolsa perdió la suya mientras los folletos seguían repartiéndose. El consejo sobrevivió mejor que su autor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que ese dato se cuenta muchas veces con más dramatismo del que admite. Clason siguió publicando y viviendo de los folletos, no acabó arruinado en la calle, y su empresa fue una de las miles que no aguantaron aquellos años en Estados Unidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no promete hacerse rico deprisa y conviene decirlo desde el principio. No habla de negocios brillantes ni de golpes de suerte, y su promesa es deliberadamente aburrida: apartar una parte fija durante muchos años y no tocarla. Esa lentitud es justamente lo que casi ningún lector de hoy quiere oír.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco es un libro de inversión, aunque mucha gente lo recomiende como si lo fuera. No menciona la bolsa, ni el interés compuesto en forma de tabla, ni la diversificación, y todo lo que dice sobre invertir cabe en un consejo: no metas dinero donde no entiendas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa modestia es una virtud rara en el género y merece señalarse. Clason no promete independencia financiera, ni retiros anticipados, ni cifras concretas: promete que si apartas una moneda de cada diez durante años, tendrás algo, que es lo único que puede prometerse honradamente. Ninguna cifra concreta aparece en el texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa promesa pequeña es también su mejor defensa contra el paso del tiempo. Un libro que no dice cuánto vas a ganar ni cuándo no puede quedarse anticuado por los números, y por eso aguanta mejor que manuales escritos hace solo veinte años. No hay números que puedan quedarse viejos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su público nunca fueron los ricos, sino los que cobran un sueldo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bansir es constructor de carros y Kobbi toca música en palacio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos trabajan todos los días y los dos están sin nada.",
         },
       ],
     },
     {
-      titulo: "Las siete curas",
+      titulo: "Bansir deja el carro a medio hacer",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El libro las llama «las siete curas para una bolsa flaca», y siguen siendo el guion completo. Empieza a engordar tu bolsa: guarda una de cada diez monedas. Controla tus gastos: lo que llamas necesidades crece hasta comerse lo que ganes, si se lo permites. Haz que tu oro se multiplique: que el dinero guardado trabaje, en vez de dormir.",
+            "El libro abre con un hombre sentado en el muro de su casa mirando un carro sin terminar. Bansir lleva toda la vida construyendo carros en Babilonia, es bueno en su oficio y no tiene ni una moneda, y esa mañana se ha quedado quieto a pensar por qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle del carro a medio terminar hace todo el trabajo de la escena. Bansir no está descansando ni en paro: está parado en mitad de un encargo pagado, y esa imagen de alguien que trabaja sin parar y no avanza es la que engancha al lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diálogo entre los dos amigos ocupa apenas tres páginas y ya contiene el diagnóstico. Se dan cuenta de que han estudiado su oficio con cuidado y no han dedicado ni una hora a estudiar qué hacer con lo que ganan haciéndolo. El oficio lo estudiaron; el sueldo, no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese diagnóstico es la parte del libro que más gente reconoce en sí misma. Somos capaces de dedicar años a aprender un oficio y ninguna tarde a mirar de frente dónde acaba el sueldo, y el libro lo dice sin culpar a nadie de ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su amigo Kobbi llega a pedirle prestadas dos monedas de plata y se encuentra con la misma escena. Los dos han ganado dinero durante años, los dos lo han gastado entero, y deciden ir a preguntar al hombre más rico de la ciudad cómo lo hizo él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hombre se llama Arkad y de joven era escriba, uno de los que grababan textos en tablillas de arcilla por encargo. No heredó nada, no tenía contactos y trabajaba por un jornal, que es exactamente el punto que el libro subraya antes de dar ningún consejo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El oficio elegido no es casual y dice bastante del libro. Un escriba cobraba por trabajo hecho, como un autónomo de hoy, y su problema no era la falta de ingresos sino que el dinero entraba y salía sin dejar ningún rastro detrás. Cobraba bien y no guardaba nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Algamish le hace además una pregunta que suele saltarse el resumen. Le pregunta cuánto se ha quedado él de todo lo que ha ganado en su vida, y la respuesta, nada, es la que convierte el consejo en una humillación útil. La pregunta le duele más que el consejo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro insiste después en una distinción que hoy suena muy moderna. Lo que has ganado no es tuyo, es lo que ha pasado por tus manos, y solo es tuyo lo que has conservado, que es un cálculo que casi nadie hace nunca. Ganar y conservar son verbos distintos.",
         },
         {
           forma: "clave",
-          rotulo: "La cuarta",
-          frase: "Protege tu tesoro de las pérdidas. El primer objetivo no es ganar mucho: es no perderlo.",
+          rotulo: "Lo que le costó el consejo",
+          frase: "Arkad grabó una tablilla entera en una noche, sin dormir, a cambio de que un prestamista llamado Algamish le explicara cómo se hacía rico un hombre.",
         },
         {
           forma: "texto",
           texto:
-            "Y las tres últimas: haz de tu vivienda una inversión rentable; asegúrate ingresos para el futuro, cuando ya no puedas trabajar; y aumenta tu capacidad de ganar, porque la única fuente que no se agota es lo que sabes hacer.",
+            "La lección que recibe cabe en una frase y es la que hoy se llama pagarse a uno mismo primero. Apartar una décima parte de todo lo que entra antes de pagar nada más, y vivir con las nueve décimas restantes como si fueran el sueldo entero.",
         },
         {
           forma: "texto",
           texto:
-            "Hay una parábola que resume su idea del riesgo. Arkad da su primer ahorro a un ladrillero para que compre joyas en Fenicia; el hombre vuelve con cristales de colores. La lección: pide consejo sobre joyas a un joyero, no a un ladrillero. Suena obvio, y es exactamente lo que hace la gente que pregunta de inversiones a su cuñado.",
-        },
-      ],
-    },
-    {
-      titulo: "Las cinco leyes del oro",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "Hay una segunda tanda de reglas que Clason pone en boca del hijo de Arkad, mandado al mundo con una bolsa de oro y una tablilla con las cinco leyes. Pierde el oro entero en un año, por confiar en desconocidos y comprar caballos a un hombre que sabía de caballos mucho más que él. Vuelve arruinado, lee la tablilla otra vez y la entiende de golpe.",
+            "La formulación es más lista de lo que parece a primera vista. No dice ahorra lo que puedas, que es un consejo que no obliga a nada, sino que declara que esa décima parte ya no es dinero disponible, y por eso funciona con quien nunca había ahorrado.",
         },
         {
           forma: "texto",
           texto:
-            "Las leyes son estas. El oro viene con gusto a quien aparta una décima parte de lo que gana. Trabaja con diligencia para quien le encuentra un empleo rentable. Se queda con quien lo invierte con el consejo de gente sabia en la materia. Y huye —esta es la que cuesta— de quien lo mete en negocios que no entiende o en promesas de ganancias imposibles.",
+            "Arkad se equivoca dos veces antes de acertar y esa parte casi nadie la recuerda. Primero entrega sus ahorros a un ladrillero que se va a comprar joyas y vuelve estafado, y después se los presta a alguien que los pierde en un negocio que no conocía.",
         },
         {
-          forma: "clave",
-          rotulo: "La quinta ley",
-          frase: "El oro huye de quien lo persigue con prisa. Todo lo que promete hacerte rico rápido está diseñado para hacer rico a otro.",
+          forma: "texto",
+          texto:
+            "Que el maestro del libro fracase dos veces antes de acertar es su mejor decisión narrativa. Convierte el ahorro en un oficio que se aprende equivocándose, y evita el tono del que nació sabiendo, que es el que hunde a la mayoría de los libros de dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ladrillero que compra joyas es además una lección concreta sobre pedir consejo. Sabía de ladrillos y no de piedras preciosas, y Arkad le confió sus ahorros porque era honrado, que es exactamente la confusión que el libro quiere que el lector deje de cometer.",
         },
         {
           forma: "arte",
           texto:
-            "Es asombroso lo poco que ha cambiado el catálogo de estafas en cuatro mil años. Las tablillas describen el mismo esquema que hoy llega por mensaje: alguien de confianza, una oportunidad que se acaba pronto, un rendimiento que ningún negocio real da, y la sensación de que si preguntas demasiado te quedarás fuera.",
-          arte: "memoria",
+            "De esos dos fracasos sale la regla que el libro repite más veces. Pide consejo a quien es experto en aquello de lo que se trata, no a quien tiene buena voluntad, y no metas tu dinero en un oficio que no entiendes por bien que suene.",
+          arte: "explorar",
         },
         {
           forma: "texto",
           texto:
-            "Y una historia menos citada pero mejor: la del hombre que presta dinero y lleva un cofre con las prendas de cada deudor. Su criterio para prestar no es cuánto le prometen, sino si el que pide podrá devolverlo con lo que gana normalmente. Vale igual leído al revés: no pidas prestado nada que no puedas pagar sin que todo salga perfecto.",
+            "El personaje de Algamish está construido para hacer soportable algo que suena a sermón. Es un viejo prestamista impaciente que aparece cada cierto tiempo a comprobar si el chico ha cumplido, y esa tutoría por episodios la ha copiado media biblioteca de autoayuda financiera. Aparece y desaparece sin dar explicaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La estructura de maestro y discípulo tiene un coste que se ve mejor un siglo después. Todo el peso recae en creer al maestro y no en comprobar nada, y ese formato es exactamente el que después usaron autores mucho menos escrupulosos que Clason. El lector solo puede creer o marcharse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una segunda parábola menos citada y bastante más dura que la primera. Dabasir era un comerciante de camellos que se arruinó, huyó de Babilonia, terminó de esclavo en el desierto y volvió para pagar hasta la última deuda con un plan escrito. Es la parte más dura del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La historia de Dabasir es la única que habla de deuda, y es la parte más útil para un lector actual. Todo lo demás supone que empiezas de cero, y él empieza debiendo dinero a once acreedores y con la reputación arruinada en su propia ciudad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su plan es, en el fondo, el primer método de bola de nieve para deudas. Se reparte un porcentaje fijo entre todos los acreedores, se anota cada pago en una tablilla y se repite el mismo reparto hasta que la lista entera queda vacía. El método tiene hoy otros nombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su plan reparte cada moneda que entra en tres partes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Setenta para vivir, veinte para los acreedores, diez para él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tardó años, pero la lista de deudas quedó tachada entera.",
         },
       ],
     },
     {
-      titulo: "Por qué aguanta",
+      titulo: "Las siete curas y las cinco leyes",
       tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El corazón del libro son dos listas que se enuncian como lecciones de un curso real. El rey encarga a Arkad que enseñe a cien hombres de la ciudad, y de ahí salen las siete curas para una bolsa flaca, repartidas en siete sesiones seguidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El marco es un rey preocupado porque el oro se concentra en pocas manos. Manda llamar a Arkad y le encarga enseñar a cien hombres, con la idea de que la ciudad entera prospere, y ese detalle da al libro un aire menos individualista de lo que se recuerda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera cura es empezar a llenar la bolsa apartando una moneda de cada diez. Las siguientes son controlar los gastos, hacer que el oro se multiplique, protegerlo de la pérdida, convertir la vivienda en inversión, asegurar ingresos para la vejez y aumentar la capacidad de ganar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que sean siete y no cinco o diez responde a la forma del original. Cada cura era una sesión del curso que Arkad da en el palacio, y el número salió de repartir el contenido en clases, no de ninguna investigación sobre cuántos hábitos hacen falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El curso del palacio dura una semana en la historia y esa duración es intencionada. Clason quería que el lector viera un plan completo en poco tiempo, y esa promesa de brevedad la han copiado después todos los programas de finanzas en siete pasos. Siete sesiones y ni una más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda cura contiene la observación más aguda del libro y la más incómoda. Dice que lo que llamamos gastos necesarios crece exactamente hasta igualar lo que ganamos, y que por eso subir de sueldo no hace ahorrar a casi nadie si no se aparta antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea tiene hoy nombre propio y bastante respaldo empírico. Se llama inflación del estilo de vida, y describe por qué mucha gente que gana el doble que hace diez años sigue llegando justa a fin de mes sin poder señalar en qué se le va.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cura correspondiente es la más difícil de aplicar de las siete. Pide separar lo necesario de lo deseado escribiéndolo, partida por partida, y cualquiera que lo haya intentado sabe que casi todo lo dudoso acaba en la columna de lo necesario. Escribirlo es lo que casi nadie hace.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un consejo concreto en esa parte que sigue funcionando bien. Presupuestar por adelantado lo que se va a gastar en cada cosa, en vez de sumar al final lo que se ha gastado, es la única forma de control que el libro reconoce. Decidir antes y no contar después.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Las cinco leyes del oro",
+          frase: "Llega a quien aparta una décima parte, trabaja para quien lo emplea bien, se queda con quien pide consejo experto, se escapa del que invierte en lo que no conoce y huye del que persigue ganancias imposibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cinco leyes aparecen en otro capítulo, contadas alrededor de una hoguera por el hijo de Arkad. Nomasir sale de Babilonia con una bolsa de oro y una tablilla con las leyes escritas, pierde el oro en tres años y vuelve rico gracias a la tablilla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El viaje de Nomasir tiene una moraleja más incómoda de lo que parece. El hijo del hombre más rico de Babilonia pierde toda su herencia en tres años, y el libro lo usa para decir que el dinero heredado sin el criterio para conservarlo dura muy poco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera ley es la que Nomasir aprende peor y la que más cuesta hoy. Dice que el oro se queda con quien lo confía a personas expertas en su manejo, y distinguir a un experto de alguien que lo parece nunca ha sido barato ni sencillo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resto del libro son variaciones sobre esas dos listas con personajes distintos. Un fabricante de lanzas que no sabe si prestar dinero a su hermana, un prestamista que explica cómo distinguir una buena garantía, un mercader que cuenta cómo dejó de ser esclavo. Cambian los oficios y no la lección.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fabricante de lanzas es el caso más humano de todos. Su hermana quiere que le preste una bolsa de oro para el negocio de su marido, y el prestamista le contesta que el oro prestado a la familia rara vez vuelve y sí se lleva la paz.",
+        },
         {
           forma: "arte",
           texto:
-            "Su otra historia grande es la de Dabasir, un comerciante que se endeuda hasta acabar de esclavo en el desierto. Vuelve a Babilonia decidido a pagar hasta la última deuda, y se hace un plan: siete décimas partes para vivir, dos para los acreedores y una para él. Tarda años. Es la primera descripción escrita de un plan de amortización de deudas.",
+            "El capítulo sobre los muros de la ciudad es el que peor encaja y el más interesante. Cuenta un asedio de Babilonia para hablar de protegerse contra la desgracia, y es lo más cerca que estuvo un libro de 1926 de recomendar un seguro. La palabra seguro no aparece nunca.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que estas listas no dicen, porque se les atribuye mucho más. No hay ninguna cifra de rentabilidad, ninguna recomendación de producto, ninguna mención a impuestos y ninguna idea de qué hacer cuando la décima parte del sueldo no llega a fin de mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa ausencia no es un descuido, es el límite del género. Una parábola puede decir aparta una décima parte, y no puede decir dónde ponerla, cuánto rinde ni qué pasa si el precio del pan sube más deprisa que tu bolsa. Una parábola no puede llevar tablas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, hay una cura que ha resistido mejor que las demás. La séptima dice que aumentes tu capacidad de ganar, aprendiendo el oficio más a fondo, y es la única del libro que apunta al ingreso en lugar de apuntar al gasto. Es la única que mira al ingreso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese consejo tiene además un matiz que suele perderse en los resúmenes. No dice busca un trabajo mejor pagado, dice conviértete en alguien que valga más, y pone el estudio del propio oficio en el mismo plano que apartar la décima parte. Valer más no es pedir más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La décima parte tampoco sale de ningún cálculo, y esto importa para leerlo bien. Es una cifra redonda de parábola, sin más justificación que sonar razonable, y los planes de ahorro modernos que la repiten heredaron el número sin heredar ninguna prueba. Suena razonable y esa es toda su prueba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro también supone que el acreedor aceptará el plan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dabasir negocia con todos sus prestamistas y todos le dicen que sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la vida real esa conversación no siempre termina igual.",
+        },
+      ],
+    },
+    {
+      titulo: "Las tablillas que nadie ha desenterrado",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El libro incluye un marco que mucha gente se toma en serio y es enteramente inventado. Un profesor británico excava cerca de Hilla, en el actual Irak, encuentra cinco tablillas de arcilla y se las manda a un colega de Nottingham para que las traduzca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle está muy bien puesto y por eso engaña. Aparecen un colegio universitario de Nottingham, una expedición con fecha, el trámite de envío y hasta la aduana, y todo ese aparato de verosimilitud es lo que convence al lector de que las tablillas fueron reales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese marco cumple además una función retórica evidente. Si un profesor de universidad aplica el plan de las tablillas y sale de deudas, el consejo deja de ser del autor y pasa a estar avalado por alguien con credenciales y con bata. El aval llega de fuera del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El truco es viejo y sigue funcionando en cualquier soporte. Un consejo puesto en boca de alguien con autoridad prestada se acepta sin comprobar, y este libro lo hace con un arqueólogo inventado igual que otros lo hacen con un empresario famoso. Sigue usándose hoy con otros nombres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las tablillas contienen el plan de Dabasir para salir de deudas, y el traductor lo aplica a su propia situación. Escribe cartas contando cómo va, tacha una deuda tras otra y termina agradeciéndoselo a un comerciante de camellos muerto hace cinco mil años. El agradecimiento va dirigido a un personaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni el profesor ni las tablillas ni el hallazgo existen, y el libro no lo advierte en ninguna parte. Es un recurso literario perfectamente legítimo, pero muchos lectores salen creyendo que hay un yacimiento arqueológico detrás de las cinco leyes del oro. El aviso no aparece en ningún sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene ser justos con Clason en este punto. Nunca dijo que fueran documentos auténticos, el libro se vendió siempre como una colección de parábolas, y la confusión la han alimentado sobre todo prólogos, resúmenes y vídeos posteriores que él no escribió. Él nunca fingió estar traduciendo nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia con otros libros del género está justamente ahí. Clason inventa personajes y no se inventa a sí mismo, no aparece en el texto contando su fortuna ni pidiendo que se le crea, y el consejo se sostiene solo o no se sostiene. El autor se queda fuera del cuento.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sí existió",
+          frase: "Babilonia tuvo contratos de préstamo, intereses regulados y contabilidad en arcilla. El código de Hammurabi fijaba topes al interés más de mil años antes de la época en que transcurre el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un detalle que delata la invención mejor que ningún otro. En Babilonia el patrón de valor era la plata, y las deudas, los sueldos y los precios se contaban en siclos de plata, no en oro, que era sobre todo material de templo y de adorno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo de la plata no es una objeción de erudito quisquilloso. Cambia la escena entera: un babilonio no guardaba una bolsa de monedas de oro, entre otras cosas porque la moneda acuñada no existía todavía y los pagos se hacían pesando el metal. El oro llegó bastante más tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El oro del título y de las cinco leyes es, por tanto, un anacronismo cómodo. Suena a riqueza para un lector estadounidense de 1926, que vivía con un dólar respaldado en oro, y no a la contabilidad real de una ciudad mesopotámica. Sonaba a riqueza en aquel mercado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Babilonia del libro tampoco se parece mucho a la que describen los historiadores. Aparece como una ciudad de comerciantes libres que prosperan por ahorro, y era una economía con templos, palacio, trabajo forzado y una parte importante de la población en esclavitud. Esa parte queda fuera del relato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay contratos conservados que muestran cómo funcionaba de verdad aquel dinero. Préstamos con testigos, intereses fijados por escrito, garantías sobre campos y casas, y familias de banqueros como los Egibi que operaron durante generaciones, y nada de eso aparece en el libro. Están en museos y se pueden leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación es dura para el libro y aun así interesante. Las tablillas reales de Babilonia hablan de deudas por cebada, de intereses altísimos y de gente que entregaba a sus hijos como garantía, y no de artesanos prósperos que ahorran una décima parte. La deuda real era mucho más cruel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto significa que la Babilonia real no supiera de dinero. Fue uno de los primeros sitios del mundo donde se escribieron contratos de préstamo, se cobraron intereses y se llevó contabilidad, y ese fondo verdadero es lo que hace verosímil el decorado. El decorado se apoya en algo cierto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Eso no invalida los consejos, pero cambia cómo hay que leer el libro. No es sabiduría antigua recuperada, sino consejo estadounidense de los años veinte disfrazado de antigüedad, y el disfraz es justamente lo que le dio autoridad ante el lector. El consejo es de Denver, no de Babilonia.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese disfraz de antigüedad tiene un efecto medible en cómo se lee un consejo. Una regla atribuida a cinco mil años de sabiduría se discute mucho menos que la misma regla firmada por un vendedor de mapas de Denver en 1926. La antigüedad prestada silencia cualquier objeción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entonces separar dos cosas al recomendarlo. Como historia de Babilonia no vale nada y como manual de conducta con el dinero vale bastante, y el problema aparece solo cuando el lector confunde una cosa con la otra. Quien busque arqueología de verdad en estas páginas va a salir muy decepcionado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los muros de Babilonia son otro ejemplo del mismo problema. Herodoto los describió con unas dimensiones descomunales que la arqueología no ha confirmado, y el libro toma la versión más espectacular porque le sirve mejor para la moraleja. La versión más grande siempre es la que mejor le sirve al cuento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Herodoto escribió su descripción más de un siglo después y nunca es una fuente segura para Babilonia. Los arqueólogos alemanes que excavaron la ciudad a principios del siglo veinte encontraron murallas enormes, sí, pero bastante menores que las de aquel relato. El libro se quedó con la cifra mayor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre de Arkad no aparece en ninguna tablilla conocida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Algamish, Bansir, Kobbi y Nomasir son igualmente invenciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son personajes de folleto bancario con nombres mesopotámicos.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que queda cuando se quita Babilonia",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Quitada la escenografía, el libro se reduce a tres afirmaciones comprobables. Ahorrar un porcentaje fijo desde el primer día, no gastarse el aumento de sueldo y no invertir en lo que no se entiende, y las tres han envejecido bastante mejor que su decorado. Tres reglas y ninguna promesa concreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese resumen es también la razón de que siga vendiéndose. Un libro entero que se puede reducir a tres reglas se recuerda años después, y la mayoría de los manuales de dinero que han venido a sustituirlo no pasan esa prueba. Lo que no se recuerda no se aplica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera coincide con lo que la investigación sobre patrimonio encuentra una y otra vez. En horizontes largos, la tasa de ahorro explica el dinero acumulado de la mayoría de la gente mejor que la rentabilidad obtenida, porque es la única variable que uno controla del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hallazgo tiene un matiz que el libro no puede recoger. La tasa de ahorro manda sobre todo en las primeras décadas, y a partir de cierto patrimonio lo que decide es la rentabilidad, de modo que el consejo es excelente al principio e insuficiente después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun con ese límite, el orden importa y el libro lo acierta. Nadie llega a tener una rentabilidad de la que preocuparse sin haber ahorrado antes, y muchos manuales modernos empiezan por la parte que solo sirve cuando ya hay dinero apartado. Primero hay que tener algo apartado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí este libro discute directamente con La psicología del dinero, que está en este catálogo. Housel dedica capítulos enteros a demostrar con datos lo que Clason afirmó en una parábola: que ahorrar es una decisión de conducta y no un problema de matemáticas. Uno lo cuenta y el otro lo mide.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos libros se apoyan en el mismo hecho incómodo. Nadie controla lo que hará el mercado el año que viene, y todo el mundo controla qué porcentaje de su sueldo no se gasta, que es la única palanca disponible desde el primer día. El porcentaje se decide el día uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una tercera comparación posible dentro de este mismo catálogo. Piensa y hazte rico salió once años después, para el mismo lector y en el mismo país, y promete fortunas donde este libro promete una bolsa que crece despacio. Los dos se dirigían al mismo lector arruinado por la misma crisis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puestos uno al lado del otro, el contraste es casi cómico. Uno enseña a apartar una moneda de cada diez y el otro a desear una fortuna con suficiente intensidad, y solo el primero describe algo que el lector puede hacer el viernes. Solo uno se puede empezar mañana.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La diferencia entre los dos",
+          frase: "Clason cuenta una historia y pide que le creas. Housel enseña series de datos y explica por qué la conducta acaba pesando más que la aritmética.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación con Padre rico, padre pobre, también en el catálogo, es igual de reveladora. Kiyosaki construye su libro sobre un mentor cuya existencia nunca ha podido documentarse, y Clason hace lo mismo pero avisando desde la primera página de que Arkad es un personaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no ha envejecido bien es todo lo que el libro no puede ver desde 1926. No hay inflación en Babilonia, y una moneda guardada sigue valiendo lo mismo diez años después, que es precisamente lo que no ocurre con el dinero parado en una cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Clason vivió esa lección sin llegar a escribirla. Publicó los folletos en los años veinte y murió en 1957, con el dólar valiendo bastante menos que cuando empezó, y ninguna edición posterior del libro corrigió ese punto. El dinero quieto pierde valor y el libro no lo dice nunca.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Tampoco hay ninguna idea de mercado financiero moderno. El consejo de dar el oro a un prestamista que pague intereses era razonable en 1926 y hoy se traduce mal, porque lo que ha cambiado no es el principio sino los instrumentos disponibles. Los instrumentos cambiaron y el principio no.",
           arte: "mapa",
         },
         {
           forma: "texto",
           texto:
-            "El libro no tiene nada que decir sobre fondos indexados, impuestos o inflación, y es normal: se escribió como folletos publicitarios para bancos en los años veinte. Su valor está en otra parte. No enseña qué comprar, enseña la única conducta sin la cual nada de lo demás importa — que salga menos de lo que entra, todos los meses, siempre.",
+            "El equivalente moderno del consejo es más aburrido y bastante más eficaz. Un fondo indexado barato y una transferencia automática el día de cobro hacen literalmente lo que Arkad describía, sin necesidad de encontrar a un prestamista de confianza en el mercado. La transferencia automática hace hoy de Algamish.",
         },
         {
           forma: "texto",
           texto:
-            "Su otro acierto es de tono. Ninguna parábola culpa al pobre de ser pobre ni promete atajos: la palabra que más se repite es «constancia». Por eso se sigue regalando a chavales que empiezan a trabajar cien años después — no les enseña a hacerse ricos, les enseña a no gastarse el primer sueldo entero.",
+            "El libro tampoco dice nada de a quién pedir ayuda, y ahí sí ha envejecido. En 1926 el consejo era ir al prestamista más antiguo del mercado, y hoy la pregunta de quién cobra por aconsejarte y cómo cobra es la más importante de todas.",
         },
         {
-          forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "No hay estrategia de inversión que arregle gastar todo lo que ganas.",
+          forma: "texto",
+          texto:
+            "El fallo más serio del libro es que supone que siempre se puede ahorrar. Todos sus personajes ganan lo suficiente para apartar una décima parte, y no hay ni una página sobre qué hacer cuando el problema no es el gasto sino el ingreso. Ahorrar supone tener algo que apartar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese punto ciego es el mismo que tienen casi todos los libros de finanzas personales. Suponen un margen entre lo que entra y lo que hace falta, y buena parte de los lectores que más necesitan el consejo son justamente los que no tienen ese margen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Leerlo hoy exige por tanto una traducción constante. Lo que se puede aprovechar es la estructura del hábito, no las cifras ni los instrumentos, y quien lo lea buscando qué comprar saldrá con las manos exactamente igual de vacías. Sirve como plantilla de conducta y no sirve como lista de compras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es, al final, el sitio exacto que ocupa en una estantería de finanzas. Es el libro con el que se empieza y no aquel con el que se sigue, y su único consejo insustituible cabe entero en la primera página. Se lee una vez y se recuerda siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay un sesgo de supervivencia que la forma de parábola esconde muy bien. Aparecen los que ahorraron y prosperaron, y no los que ahorraron veinte años y se quedaron igual por una enfermedad, un despido o un préstamo que nunca volvió. Los que no lo lograron no aparecen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, casi un siglo después, la primera regla sigue en pie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Apartar la décima parte antes de pagar cualquier otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo difícil nunca fue entenderlo, sino hacerlo el mes que viene.",
         },
       ],
     },
