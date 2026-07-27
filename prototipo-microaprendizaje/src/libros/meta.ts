@@ -1980,12 +1980,13 @@ export const META: FichaMeta[] = [
     ano: 1937,
     gancho: "Escribió la primera frase en una hoja en blanco mientras corregía exámenes, sin saber qué era un hobbit.",
     porQue: "Es la puerta de entrada a la fantasía moderna, se lee en unas horas y su protagonista es lo contrario de un héroe.",
-    minutos: 4.2,
+    minutos: 25.1,
     capitulos: [
-      { titulo: "La frase en el examen", minutos: 0.9 },
-      { titulo: "El viaje", minutos: 0.9 },
-      { titulo: "El dragón y lo que vino después", minutos: 0.9 },
-      { titulo: "Cómo leerlo hoy", minutos: 1.5 },
+      { titulo: "Salida: una hoja en blanco entre los exámenes", minutos: 4.9 },
+      { titulo: "Primera parada: el catálogo de enanos de un poema islandés", minutos: 5 },
+      { titulo: "Segunda parada: el capítulo que reescribió catorce años después", minutos: 5 },
+      { titulo: "Tercera parada: la piedra que Bilbo se guarda en el bolsillo", minutos: 5.1 },
+      { titulo: "Destino: un libro infantil que termina en una batalla", minutos: 5.2 },
     ],
   },
   {
