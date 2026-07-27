@@ -2063,123 +2063,637 @@ export const LEONARDO: Resumen = {
   titulo: "Leonardo da Vinci",
   autor: "Walter Isaacson",
   ano: 2017,
-  gancho: "Entre sus notas hay una tarea pendiente: «describir la lengua del pájaro carpintero». Nadie se lo había encargado.",
+  gancho: "Entre sus notas hay una tarea pendiente: describir la lengua del pájaro carpintero. Nadie se lo había encargado y nunca cobró por ello.",
   porQue:
-    "Reconstruye al personaje a partir de siete mil doscientas páginas de sus cuadernos. Y su conclusión es que el genio era, sobre todo, curiosidad entrenada.",
+    "Reconstruye al personaje a partir de siete mil doscientas páginas de cuadernos. Su tesis es que el genio era curiosidad entrenada, y ahí es donde el libro convence y donde se pasa de frenada.",
   partes: [
     {
-      titulo: "Las listas de tareas",
+      titulo: "Hijo de notario, sin latín",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Se conservan unas siete mil doscientas páginas de los cuadernos de Leonardo, y se calcula que son apenas una cuarta parte de lo que llegó a escribir. Isaacson construye el libro entero a partir de ellas, y lo mejor no son los grandes planos de máquinas: son las listas de cosas por hacer.",
+            "El 15 de abril de 1452, un notario de la Toscana llamado Ser Piero anota en el reverso de un documento familiar que le ha nacido un nieto a las tres de la madrugada. El niño se llama Leonardo, es hijo suyo y de una campesina llamada Caterina, y sus padres no están casados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La anotación la escribe en realidad su abuelo, y es un documento revelador por lo que no dice. Registra la hora, el bautizo y los diez padrinos que asistieron, señal de que la familia no ocultó el nacimiento, pero no menciona el apellido de la madre ni su condición.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa ilegitimidad es la primera tesis del libro y no es un detalle sentimental. Un hijo fuera del matrimonio no podía entrar en el gremio de notarios, que era el oficio de su familia desde hacía cinco generaciones, así que quedó fuera de la carrera que le tocaba por nacimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco recibió la educación humanista de la época, basada en el latín y en los clásicos. Fue a una escuela de ábaco, de las que preparaban comerciantes, y aprendió aritmética práctica y poco más, sin griego, sin latín y sin las autoridades que todo el mundo culto citaba de memoria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De adulto intentó ponerse al día y le costó lo suyo. Se compró gramáticas latinas, llenó páginas de declinaciones y listas de vocabulario a los cuarenta años, y nunca llegó a leer con soltura a los autores que sus contemporáneos habían estudiado de niños en la escuela.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Cómo se llamaba a sí mismo",
+          frase: "Hombre sin letras. Lo escribió con orgullo y con rabia, y decidió que él aprendería mirando en vez de citando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase completa es una respuesta a quienes lo despreciaban por inculto. Escribe que sus críticos lo desdeñan por no ser hombre de letras, y que él podría contestar que ellos se adornan con el trabajo ajeno mientras que lo suyo sale de la experiencia, que es maestra de todos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La consecuencia práctica de eso es lo que a Isaacson más le interesa. Cuando alguien no puede apoyarse en lo que dijo Aristóteles, tiene que ir a mirar el animal, cortar la rama o meter la mano en el agua, y esa obligación acabó siendo el método más moderno de su siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene no exagerar ese argumento, porque el propio libro lo estira. Miles de personas fueron ilegítimas y sin latín en la Italia del siglo XV, y ninguna otra diseccionó treinta cadáveres ni pintó la Mona Lisa; la circunstancia explica el camino, no explica el resultado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A los catorce años entra como aprendiz en el taller de Andrea del Verrocchio, en Florencia, que era una fábrica de encargos con veinte personas dentro. Allí se hacían retablos, esculturas de bronce, armaduras de fiesta y decorados, y todo el mundo trabajaba en todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Florencia a la que llega es además el sitio con más talento por metro cuadrado de la historia. En un radio de unas pocas calles trabajaban entonces Botticelli, Ghirlandaio, Perugino y el propio Verrocchio, todos compitiendo por los mismos encargos de las mismas familias.",
         },
         {
           forma: "arte",
           texto:
-            "«Preguntar al maestro de aritmética cómo se cuadra un triángulo.» «Averiguar por qué el cielo es azul.» «Describir la lengua del pájaro carpintero.» «Observar cómo camina la gente y qué hace con los pies.» Nadie le pagaba por nada de eso. Lo apuntaba porque no podía evitar preguntárselo.",
-          arte: "explorar",
-        },
-        {
-          forma: "clave",
-          rotulo: "La tesis del libro",
-          frase: "El genio de Leonardo no fue un don sobrenatural. Fue curiosidad obsesiva, sostenida durante toda una vida.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Isaacson subraya la diferencia con Newton o Einstein, cuyo talento parece inalcanzable. Lo de Leonardo, dice, es distinto: mirar mejor, preguntar más y no dar nada por sabido son cosas que se pueden practicar. Puede que la conclusión sea optimista de más, pero apunta a algo real.",
-        },
-      ],
-    },
-
-    {
-      titulo: "Hombre sin letras",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "Nació fuera del matrimonio en un pueblo de la Toscana, y eso —que en su época era un estigma— resultó decisivo: al ser ilegítimo no podía heredar el oficio de notario de su padre. Se libró de una vida de escribano y entró de aprendiz en un taller de pintura.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "No fue a la universidad, no aprendió latín hasta muy mayor y se firmaba a sí mismo «hombre sin letras». Lo decía con resentimiento, pero también con una punta de orgullo: se llamaba discípulo de la experiencia. Mientras los eruditos discutían lo que había escrito Aristóteles, él iba y lo miraba.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El método",
-          frase: "No leyó lo que se sabía. Fue a comprobarlo. La observación directa, por encima de cualquier autoridad.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Sus cuadernos están escritos de derecha a izquierda y con las letras invertidas, legibles solo ante un espejo. Se ha querido ver ahí un código secreto, y la explicación más aceptada es mucho más sencilla: era zurdo, y escribiendo así no arrastraba la mano sobre la tinta fresca.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Isaacson enumera lo que era en su época y hoy suena moderno: hijo ilegítimo, homosexual, vegetariano, zurdo, distraído y heterodoxo en religión. Casi todo eso lo apartaba del camino normal. Y precisamente por estar fuera pudo mirar sin las anteojeras de nadie.",
-        },
-      ],
-    },
-
-    {
-      titulo: "La sonrisa y el corazón",
-      tarjetas: [
-        {
-          forma: "arte",
-          texto:
-            "Diseccionó unos treinta cadáveres, a mano, sin refrigeración y con el olor que eso supone. No lo hacía para la ciencia: quería saber qué músculo mueve exactamente un labio cuando alguien sonríe. Dibujó los nervios faciales capa por capa hasta entenderlo.",
+            "Ese taller explica su formación mejor que cualquier teoría sobre el genio. Aprendió a fundir metal, a montar máquinas de escenografía, a preparar pigmentos y a resolver problemas de ingeniería, porque un taller renacentista era una empresa de servicios y no una academia de bellas artes.",
           arte: "museo",
         },
         {
           forma: "texto",
           texto:
-            "Ahí está el secreto de la <em>Gioconda</em>. La sonrisa cambia según dónde mires porque Leonardo sabía que la visión central y la periférica captan detalles distintos, y pintó la boca de forma que solo funcione del todo cuando no la miras directamente. No es magia: es anatomía más óptica.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El hallazgo que tardó siglos en confirmarse",
-          frase: "Dibujó cómo se cierra la válvula aórtica con remolinos de sangre. No se pudo verificar hasta la resonancia magnética.",
+            "Ahí se rompe otro tópico, el del artista solitario en su buhardilla. Leonardo trabajó siempre con ayudantes, en encargos colectivos y con contratos de por medio, y varios de sus cuadros tienen manos ajenas dentro, cosa que la crítica lleva un siglo discutiendo pieza por pieza.",
         },
         {
           forma: "texto",
           texto:
-            "Y un detalle que dice mucho de él: no publicó nada. Todo esto quedó en cuadernos privados, escritos al revés con su letra en espejo, que nadie ordenó ni difundió. Buena parte de sus descubrimientos hubo que volver a hacerlos siglos después porque estaban ahí, escritos, y nadie los leyó.",
+            "De aquellos años viene el episodio que Vasari convirtió en leyenda: Leonardo pinta el ángel de la izquierda en un Bautismo de Cristo de su maestro, y Verrocchio, al verlo, decide no volver a pintar nunca. Los especialistas creen que el ángel sí es suyo y que el resto es un buen cuento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El análisis técnico del cuadro respalda la parte creíble de la anécdota. El ángel de la izquierda está pintado al óleo, con transiciones suaves y sin contornos, mientras que el resto es temple con los bordes marcados; son dos técnicas y dos manos distintas en la misma tabla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1476, con veinticuatro años, aparece en un expediente judicial de Florencia. Una denuncia anónima acusa a cuatro hombres, entre ellos a Leonardo, de sodomía con un joven que ejercía la prostitución. El caso se archivó por falta de acusadores identificados, y él pasó unos meses detenido y señalado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Isaacson trata su homosexualidad como un hecho, con los datos disponibles, sin convertirla ni en secreto ni en explicación de nada. Y anota el detalle más humano del asunto: vivió rodeado de discípulos guapos y poco trabajadores, y a uno de ellos, apodado Salaí, le aguantó robos durante veinticinco años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El apodo lo puso él mismo y significa algo así como diablillo. En el cuaderno anota, con la paciencia de un contable resignado, las veces que el chico le ha robado dinero, un punzón de plata y un cuero para hacerse unas botas, y a continuación apunta cuánto le ha costado vestirlo bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otros rasgos suyos vienen documentados por contemporáneos y no por la leyenda. Era vegetariano, se vestía con túnicas cortas y de colores llamativos cuando lo normal era ir de oscuro, y varios testigos cuentan que compraba pájaros enjaulados en el mercado para soltarlos allí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo del vegetarianismo lo cuenta un viajero florentino en una carta desde la India, comparando a unos hindúes que no comían carne con un tal Leonardo da Vinci al que había conocido. Es una fuente indirecta y de segunda mano, y es la única que hay sobre ese detalle tan citado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Era zurdo y escribía de derecha a izquierda, con las letras invertidas, de modo que sus cuadernos solo se leen bien en un espejo. Isaacson descarta el misterio: siendo zurdo, escribir así evitaba emborronar la tinta con la mano, y además no le importaba que le costara a los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa escritura tiene además una consecuencia sobre su obra que no suele señalarse. Sus dibujos están sombreados con trazos que van de abajo a la derecha hacia arriba a la izquierda, la dirección natural de una mano zurda, y eso sirve hoy para autentificar o descartar atribuciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Isaacson es periodista y biógrafo profesional, no historiador del arte, y eso se nota para bien y para mal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribe muy bien y no aporta hallazgos nuevos: sintetiza el trabajo de los especialistas.",
         },
       ],
     },
-
     {
-      titulo: "El que no terminaba",
+      titulo: "Describir la lengua del pájaro carpintero",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La parte que más consuela del libro es su historial de proyectos abandonados. El caballo gigante para los Sforza nunca llegó a fundirse. La batalla de Anghiari se deterioró por experimentar con una técnica que no funcionó. Aceptó encargos que no entregó, cobró adelantos que tuvo que devolver y dejó cuadros a medias durante años.",
+            "En una de las páginas de sus cuadernos hay una lista de cosas por hacer. Incluye averiguar cómo caminan sobre el hielo en Flandes, conseguir que un maestro de aritmética le enseñe a cuadrar un triángulo, dibujar Milán, y describir la lengua del pájaro carpintero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna de esas tareas se la había encargado nadie ni le iba a dar de comer. Isaacson usa esa lista como emblema del libro entero, porque enseña una curiosidad que no distingue entre lo útil y lo inútil y que trata una duda de anatomía animal como un asunto pendiente y urgente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otras listas parecidas repartidas por los cuadernos y todas tienen ese tono. Anota que debe preguntar a un tal maestro cómo se repara una esclusa, medir el sol, averiguar por qué el cielo es azul y conseguir que le presten un libro concreto, todo en el mismo renglón.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La respuesta que no llegó a saber",
+          frase: "La lengua del carpintero da la vuelta al cráneo por dentro y le sirve de amortiguador. Leonardo nunca lo averiguó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cuadernos son la fuente principal del libro y merecen su cifra. Se conservan unas siete mil doscientas páginas, repartidas por bibliotecas y colecciones de media Europa, y los especialistas calculan que eso es alrededor de una cuarta parte de todo lo que llegó a escribir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Isaacson cuenta que empezó el libro después de leer el Códice Leicester en Seattle, hoja por hoja y con lupa. Su argumento es que un biógrafo que lee los cuadernos originales encuentra a otra persona distinta de la que aparece en los libros que solo miran los cuadros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El más famoso es el Códice Leicester, que Bill Gates compró en 1994 por unos treinta millones de dólares y que trata sobre todo del agua. Otros están en Milán, en Madrid, en Windsor y en la Biblioteca Británica, y ninguno de ellos tiene un orden reconocible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos códices de Madrid tienen además una historia que parece inventada. Estuvieron perdidos dentro de la Biblioteca Nacional durante casi un siglo por un error de catalogación en la signatura, y no aparecieron hasta 1965, cuando alguien revisó los fondos y se topó con ellos.",
         },
         {
           forma: "arte",
           texto:
-            "La <em>Gioconda</em> es el caso extremo: la empezó hacia 1503 y siguió retocándola hasta su muerte, dieciséis años después. Nunca se la dio al cliente. Se la llevó consigo a Francia y la tenía en su habitación. Para él no estaba terminada.",
+            "Esa falta de orden es lo mejor que tienen. En una misma página conviven el dibujo de una válvula del corazón, una lista de la compra, un chiste, el boceto de un tornillo aéreo y la anotación de que hay que devolverle dinero a alguien. No son archivos: son una cabeza pensando en tiempo real.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Isaacson lo interpreta con generosidad: dejar algo sin acabar era la manera de no cerrarlo mientras siguiera aprendiendo. Es una lectura bonita, aunque hay que decir que también arruinó a varios clientes y que sus contemporáneos lo consideraban poco fiable.",
+            "El papel era caro, y eso explica parte del desorden. Escribía en cualquier hueco libre de una hoja ya usada, giraba el cuaderno para meter una nota en el margen y volvía años después a una página vieja para añadir algo nuevo, mezclando dos épocas en la misma cara.",
         },
         {
           forma: "texto",
           texto:
-            "Isaacson insiste en una habilidad concreta que Leonardo entrenó como un músico entrena escalas: mirar despacio. Anotaba que el agua al caer forma espirales, que las libélulas mueven las alas delanteras y traseras en sentidos opuestos, que la lengua de un pájaro carpintero es tan larga que se enrolla alrededor del cráneo. Nada de eso se ve mirando: se ve observando lo mismo muchas veces. Y de ahí sale su consejo práctico para cualquiera, que no requiere ser un genio — dedicarle a una cosa cotidiana más atención de la que merece a primera vista, porque casi todo se vuelve interesante cuando lo miras el tiempo suficiente.",
+            "Su método se puede reconstruir a partir de ahí y es reconocible. Observaba muchas veces lo mismo, dibujaba en vez de describir, comparaba estructuras entre especies distintas, y anotaba lo que no entendía en forma de pregunta pendiente para volver a ella meses o años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un detalle de ese método vale por todo el capítulo. Se propuso averiguar cómo se mueve exactamente la lengua de un pájaro carpintero cuando golpea la madera, y para eso habría hecho falta mirar un animal vivo a cámara lenta, cosa imposible hasta la invención del cine.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un ejemplo suyo típico es el de las alas. Diseccionó pájaros, midió la proporción entre el peso y la superficie del ala, estudió cómo se mueve el aire alrededor de un cuerpo y llegó a la idea, correcta, de que un ala tiene que empujar el aire hacia abajo y hacia atrás a la vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También entendió algo que tardó siglos en formularse bien: que da igual que el aire se mueva contra el objeto o el objeto contra el aire, porque el efecto es el mismo. Ese principio es la base de los túneles de viento y él lo escribió en un cuaderno hacia 1505.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene deshacer un malentendido enorme que el libro sí matiza. Leonardo no inventó el helicóptero ni el tanque ni el paracaídas en versiones que funcionaran. Su tornillo aéreo no habría volado nunca, y su carro blindado tiene un engranaje que haría girar las ruedas en sentidos opuestos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay quien sostiene que ese error del carro era deliberado, para que nadie pudiera copiarle el diseño y construirlo sin él. No hay manera de saberlo, y el propio Isaacson lo deja como hipótesis; lo seguro es que ninguna de esas máquinas se construyó ni se probó en su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí hizo fue plantear los problemas correctos con una anticipación asombrosa. Entendió que el aire se comporta como el agua, que un cuerpo empuja al fluido y el fluido responde, y que un objeto pesado se sostiene si mueve bastante masa de aire. La intuición era buena y la ejecución, imposible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro tema obsesivo de los cuadernos es el agua. Dibujó remolinos, corrientes, la erosión de las orillas y la forma exacta que toma un chorro al caer, y comparó esos remolinos con los rizos del pelo, con la sangre en el corazón y con el movimiento del aire.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegó a proponerle a la República de Florencia desviar el curso del Arno para dejar sin puerto a Pisa, con la que estaba en guerra. Las obras empezaron de verdad en 1504, con centenares de peones cavando, y fracasaron por completo cuando el río se llevó las zanjas en la primera crecida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa costumbre de comparar dominios distintos es lo que Isaacson señala como su rasgo central. Para él no había fronteras entre disciplinas porque no había disciplinas: los remolinos eran un solo problema con muchas apariciones, y por eso podía llevar lo aprendido en el río al retrato de una cara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo más bonito de ese cruce es el pelo de sus figuras. Los rizos caen con la forma que él había dibujado en los remolinos del agua, y en un cuaderno lo escribe él mismo: el pelo se comporta igual que una corriente, con su parte que baja y su parte que gira.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También dejó dibujados un submarino, un telar automático y un robot con armadura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del submarino escribió que no revelaría el método, por lo que la gente haría con él bajo el agua.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y una máquina para cortar limas, que es la única que se ha construido y funciona.",
+        },
+      ],
+    },
+    {
+      titulo: "La carta a Ludovico Sforza",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hacia 1482, con treinta años, Leonardo escribe una carta al hombre que gobierna Milán para ofrecerle sus servicios. Es una carta de presentación en toda regla, con diez apartados numerados, y hoy se lee como el currículo mejor calibrado de la historia del arte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los nueve primeros puntos son de ingeniería militar: puentes portátiles, métodos para vaciar los fosos de una plaza sitiada, cañones que disparan piedras pequeñas como granizo, carros cubiertos, catapultas. Sabe perfectamente qué le importa a un duque en guerra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo llamativo es que casi nada de eso lo había construido nunca. La carta promete máquinas que existían en su cabeza y en sus dibujos, y funciona como funciona hoy cualquier propuesta comercial: describiendo capacidades futuras con verbos en presente y mucha seguridad.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "Apunta las preguntas raras que se te ocurran. Esa costumbre, sostenida, es casi todo el método.",
+          rotulo: "El último párrafo",
+          frase: "Al final, casi de pasada, añade que también pinta y esculpe tan bien como cualquiera. Es lo único que hoy recordamos de él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese orden no es modestia ni despiste: es lectura del mercado. En la Italia de 1482 los pintores eran artesanos que cobraban por metro y los ingenieros militares decidían guerras, así que colocó delante lo que valía dinero y detrás lo que a él le importaba más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Consiguió el puesto y pasó diecisiete años en Milán, en la nómina del duque, haciendo de todo. Organizaba fiestas con maquinaria escénica, diseñaba sistemas de canales, proyectaba una ciudad ideal con dos niveles de calles y pintaba cuando le tocaba pintar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El proyecto de ciudad venía de la peste que mató a un tercio de Milán en los años ochenta. Su propuesta separaba el tráfico de mercancías por abajo y a los peatones por arriba, con canales para arrastrar los residuos, y es urbanismo sanitario cuatro siglos antes de que existiera la palabra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de eso se construyó, como casi nada de lo que proyectó. El duque no tenía dinero para rehacer una ciudad entera y sí lo tenía para fiestas, así que Leonardo acabó dedicando meses a diseñar el vestuario y la maquinaria de un espectáculo con planetas giratorios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su gran encargo milanés no era un cuadro sino un caballo. Un monumento ecuestre de siete metros en bronce dedicado al padre del duque, que habría sido la escultura fundida más grande jamás intentada, y para el que resolvió sobre el papel el problema técnico de fundirla de una pieza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de diseñarlo se pasó años estudiando caballos de verdad. Midió proporciones en las cuadras del duque, dibujó las patas en movimiento y las mismas patas desolladas para ver los músculos, y esas láminas siguen siendo hoy referencia para dibujantes de anatomía animal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El modelo de arcilla a tamaño real se exhibió en Milán y dejó atónita a la ciudad. Nunca se fundió: el bronce reservado se destinó a fabricar cañones cuando llegó la guerra, y unos años después los arqueros franceses que ocuparon Milán usaron el caballo de barro como diana de tiro hasta destrozarlo.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio inaugura el gran tema del libro, que es el de las obras que no llegaron a existir. La lista es larga: la Adoración de los Magos, abandonada a medio pintar; un San Jerónimo sin terminar; tratados sobre pintura, anatomía, agua y vuelo que nunca pasaron de borradores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Adoración inacabada es, para muchos historiadores, más interesante que si la hubiera terminado. Al quedarse en la capa de preparación se ve el dibujo por debajo, con caballos peleando y figuras que él tapó, y funciona como una radiografía de cómo montaba una escena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras del catálogo dan la medida del asunto. Se le atribuyen unas quince pinturas, con discusiones abiertas sobre alguna de ellas, para una carrera de casi cincuenta años. Contemporáneos suyos mucho menos dotados dejaron cientos de obras terminadas y cobradas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y varias de esas quince acabaron en juicio o en reclamación. La Virgen de las rocas generó un pleito con los frailes que la encargaron que duró más de veinte años y terminó con dos versiones del cuadro, una en París y otra en Londres, que hoy se pueden comparar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La Última Cena es el caso que mejor resume el problema. La pintó entre 1495 y 1498 en el refectorio de un convento milanés, y para poder trabajar despacio y retocar rechazó el fresco tradicional, que obliga a pintar cada día un trozo de yeso fresco y no admite correcciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un cronista de la época lo vio trabajar y dejó el mejor retrato de su ritmo. Cuenta que pasaba días enteros pintando de sol a sol sin comer, y luego dos o tres jornadas sin tocar el muro, subido al andamio con los brazos cruzados, mirando lo que ya había hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En su lugar inventó una mezcla de óleo y temple sobre pared seca que le permitía volver sobre cada cara durante meses. Funcionó para el arte y fue un desastre técnico: la pintura empezó a desprenderse en vida suya, y a los veinte años ya había zonas ilegibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo mismo ocurrió con la Batalla de Anghiari, en Florencia, donde probó otra técnica experimental con cera y calor. La pintura se derritió y chorreó por la pared, la obra se abandonó y décadas después Vasari cubrió aquel muro con un fresco suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El encargo tenía además un morbo enorme que hoy se ha perdido. En la pared de enfrente de la misma sala debía pintar Miguel Ángel, veintitrés años más joven y abiertamente hostil a él, y ninguno de los dos terminó su mural: el mejor duelo de la historia del arte quedó en nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Isaacson defiende que la manía de no terminar era una virtud disfrazada, porque seguía aprendiendo mientras otros entregaban. Es su argumento más discutible: cuando alguien deja sin acabar un tercio de lo que empieza durante cincuenta años, llamarlo perfeccionismo productivo es bastante generoso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí es cierto es que muchas veces no era pereza sino un problema sin resolver. Dejaba la obra parada porque no sabía todavía cómo hacer lo que quería, se iba a estudiar óptica o anatomía, y volvía años después con la respuesta o no volvía nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los contemporáneos ya se quejaban por escrito de que no entregaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El papa León X dijo de él que nunca haría nada, porque empezaba pensando en el final.",
+        },
+      ],
+    },
+    {
+      titulo: "Treinta cadáveres y una sonrisa",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En el invierno de 1508, en un hospital de Florencia, Leonardo conversa con un anciano que dice tener cien años y que muere apaciblemente unas horas después. Él pide el cuerpo, lo disecciona esa misma noche buscando la causa de una muerte tan dulce, y anota lo que encuentra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que más impresiona de esa página no es médico. Antes de abrirlo, deja escrito que aquel viejo estaba sentado en su cama y le contó tranquilamente que no notaba ningún fallo salvo la debilidad, y que se apagó sin ningún gesto. Habló con él antes de diseccionarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que describe son unas arterias engrosadas, resecas y estrechadas, y lo compara con lo que ve en el cuerpo de un niño de dos años que disecciona poco después. Es la primera descripción conocida de la arteriosclerosis, hecha por un pintor sin formación médica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su conclusión también fue correcta en lo esencial. Escribió que aquel hombre había muerto por debilidad, por falta de sangre y por el deterioro de los vasos que la llevaban, y relacionó el engrosamiento de las paredes con la edad; no tenía la teoría, pero tenía la observación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegó a diseccionar unos treinta cuerpos humanos a lo largo de su vida, en hospitales y sótanos, sin refrigeración y con el olor que eso implica. Dejó más de doscientas cuarenta láminas anatómicas, muchas de ellas conservadas hoy en la colección real británica de Windsor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Inventó además una manera de dibujar cuerpos que hoy nos parece obvia y entonces no lo era. Representó cada miembro desde cuatro ángulos girándolo como si el lector diera la vuelta alrededor, y dibujó cortes transversales de una pierna igual que se corta un tronco para verlo por dentro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El hallazgo increíble",
+          frase: "Entendió cómo se cierra la válvula aórtica gracias a unos remolinos de sangre. Se confirmó con máquinas, cuatro siglos y medio después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento con el que llegó ahí es de una elegancia que sigue asombrando. Sopló vidrio para fabricar un modelo transparente de la aorta a partir de un molde de cera hecho con un corazón de buey, bombeó agua con semillas de hierba dentro y observó cómo se movían las partículas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es, además, un experimento en el sentido moderno de la palabra. Construyó un modelo del órgano, introdujo un marcador visible para seguir el flujo, repitió la observación y sacó una conclusión sobre el mecanismo; le faltaba publicarlo y le sobraba método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vio que el agua formaba remolinos en el ensanchamiento que hay justo encima de la válvula, y dedujo que esos remolinos son los que empujan las valvas para cerrarla. La medicina lo dio por bueno recién en los años sesenta del siglo XX, con imágenes de flujo sanguíneo.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su anatomía tampoco era un pasatiempo separado de la pintura. Diseccionó caras humanas para saber qué músculo mueve exactamente cada parte del labio, dibujó los nervios que llegan a la boca y escribió que quería entender qué hace un rostro cuando sonríe antes de intentar pintarlo.",
+          arte: "museo",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el argumento central del libro y su mejor hallazgo. Isaacson sostiene que el arte y la ciencia no eran en él dos actividades distintas que casualmente compartían dueño, sino la misma investigación: mirar cómo funciona algo y después representarlo con lo aprendido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale el mejor capítulo del libro, que es el de la Mona Lisa. Empezó el retrato hacia 1503 por encargo de un comerciante de seda florentino cuya mujer se llamaba Lisa, no lo entregó nunca, y siguió trabajando en él durante unos dieciséis años, hasta el final de su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese plazo es lo primero que descoloca al lector moderno. Un retrato de encargo de tamaño mediano se pintaba entonces en semanas o meses, y este cuadro viajó con él de Florencia a Milán, a Roma y a Francia, recibiendo capas finísimas de pintura durante más de una década.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación de la sonrisa que da Isaacson es óptica y comprobable, y no tiene nada de misteriosa. Leonardo sabía que la visión central percibe los detalles y la periférica capta mejor las sombras suaves, y pintó las comisuras de la boca con sombras difuminadas sin ninguna línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que él conociera ese efecto no es una suposición del biógrafo. En los cuadernos hay anotaciones sobre cómo se ve peor el detalle en los bordes del campo visual y sobre cómo cambia la percepción a distintas distancias, escritas mientras estudiaba el ojo y la formación de las imágenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado es que la sonrisa aparece cuando miras los ojos y se desvanece cuando miras directamente la boca. No es una ilusión romántica: es una decisión técnica basada en cómo funciona el ojo, y cualquiera puede comprobarla delante del cuadro o de una reproducción buena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa técnica de contornos deshechos tiene nombre suyo, el sfumato, que él definía como pintar sin líneas ni bordes, a la manera del humo. Y no es un truco de acabado: es una teoría sobre que en la naturaleza no existen los contornos, que solo existen en el dibujo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los análisis modernos han medido de qué está hecho ese humo. Aplicó decenas de capas de barniz con pigmento, algunas de un espesor de micras, hasta acumular en las zonas de sombra una película más fina que un cabello y sin una sola marca de pincel visible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fondo del cuadro conecta con lo demás. Detrás de ella hay un paisaje con ríos que serpentean, un puente, montañas y agua en movimiento, pintados por alguien que había pasado años estudiando erosión y corrientes, y la curva de esos ríos rima con la curva de sus labios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir también lo que Isaacson no compra de la mitología del cuadro. Descarta los códigos ocultos, los mensajes secretos y las teorías sobre autorretratos disfrazados, y se queda con lo comprobable: quién era ella, cuándo se pintó y qué decisiones técnicas tiene encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llevó ese cuadro consigo a Francia y lo tuvo al lado hasta el día que murió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo compró el rey de Francia a sus herederos, y por eso está en París y no en Florencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el único encargo del que nunca se separó y por el que jamás cobró.",
+        },
+      ],
+    },
+    {
+      titulo: "Los cuadernos que nadie leyó",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Leonardo muere en mayo de 1519 en Amboise, en el valle del Loira, a los sesenta y siete años, con una pensión del rey de Francia y sin obligaciones. Deja sus cuadernos, sus dibujos y sus cuadros a Francesco Melzi, un discípulo noble que llevaba años con él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los últimos años en Francia fueron los más cómodos de su vida y los menos productivos. El rey le pagaba una pensión enorme por tenerlo cerca y conversar con él, sin encargarle nada concreto, y Leonardo dedicó ese tiempo a ordenar papeles, a dibujar diluvios y a no terminar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena que todo el mundo conoce, la del rey sosteniéndolo en brazos mientras expira, es un invento. Viene de Vasari, se repitió durante siglos y la fijó un cuadro del siglo XIX; los registros indican que Francisco I estaba ese día en otro sitio, firmando documentos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está documentado es su testamento, firmado un mes antes. Reparte con cuidado sus cosas: los cuadernos y los cuadros para Melzi, la mitad de una viña de Milán para Salaí, ropa y dinero para su criada, y una lista precisa de las misas que quiere que se digan.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El fracaso que Isaacson no disimula",
+          frase: "No publicó nada. Su ciencia, la más avanzada de su tiempo, no influyó en la historia de la ciencia prácticamente en nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Melzi conservó el legado con cuidado durante cincuenta años, pero sus herederos no. A la muerte de este, los cuadernos se fueron vendiendo, regalando y troceando, y hubo quien recortó páginas para separar los dibujos bonitos de las anotaciones que no entendía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resultado es que sus láminas anatómicas, hechas hacia 1510, permanecieron inéditas y desconocidas durante siglos. Andrea Vesalio publicó su tratado de anatomía en 1543 y se llevó con justicia el crédito de haber fundado la disciplina moderna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Había planeado publicarlas con un anatomista de la Universidad de Pavía, Marcantonio della Torre, en un tratado con más de cien láminas. Della Torre murió de peste en 1511, con unos treinta años, y con él murió el único proyecto suyo que estuvo cerca de convertirse en un libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Isaacson dice esto con claridad y es lo mejor de su libro como biografía. Reconoce que el hombre más curioso de su época fue irrelevante para el avance del conocimiento, porque el conocimiento avanza cuando se comparte, y el suyo se quedó en cuadernos escritos al revés.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación con Galileo, un siglo después, remata el argumento. Galileo era peor dibujante y menos original en muchas cosas, y publicó, discutió con otros y dejó un método que se pudo seguir; por eso la ciencia empieza con él y no con el hombre que llegó primero y se lo calló.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Hay una conversación evidente con Las vidas de Vasari, que está en este catálogo. Vasari escribió la primera biografía de Leonardo en 1550, treinta años después de su muerte, y de ahí vienen casi todas las anécdotas famosas, incluida la del rey y la del maestro que dejó de pintar.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Isaacson hace exactamente lo contrario que Vasari, y por eso conviene leerlos juntos. Vasari construye un genio tocado por la gracia a base de anécdotas; Isaacson desmonta al genio y lo sustituye por un método observable, y las dos operaciones tienen su parte de propaganda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Modos de ver, también en el catálogo, avisaba justo de esto. Berger decía que la institución del arte mistifica al artista para dejar fuera al que mira, y este libro es un intento explícito de hacer lo contrario, aunque acabe fabricando otra clase de figura ejemplar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay una conversación con Cartas a Theo, que está en este catálogo. Los dos libros son el mismo experimento con siglos de distancia: leer a un pintor por lo que escribió mientras trabajaba, y descubrir en los dos casos a alguien mucho más razonador de lo que dice su leyenda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porque el punto flojo del libro es su final, y es un final marca de la casa. Isaacson cierra con una lista de lecciones para el lector: sé curioso, obsérvalo todo, distráete, haz listas, toma notas en papel. El hombre que diseccionaba cadáveres de noche convertido en consejos de productividad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Alguna de esas lecciones sí se sostiene, y conviene rescatarla del envoltorio. La de tomar notas a mano en papel viene con un argumento fuerte: los cuadernos de hace quinientos años se leen hoy sin problema y los archivos digitales de hace veinte a menudo ya no se abren.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese giro es el que más críticas le costó y se entiende por qué. Convierte una vida rarísima e irrepetible en un caso de estudio para ejecutivos, y sugiere que la diferencia entre cualquiera y Leonardo es una cuestión de hábitos, que es exactamente lo que el resto del libro desmiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo movimiento que Isaacson había hecho antes con Steve Jobs y con Einstein, y su público lo espera. Funciona comercialmente y deja al lector con la sensación tranquilizadora de que basta con tomar notas en papel y ser curioso, lo cual no es del todo cierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otro punto ciego, y es de actualidad muy concreta. El libro trata el Salvator Mundi como obra suya, y ese cuadro se vendió en Nueva York por cuatrocientos cincuenta millones de dólares el mismo mes en que apareció la biografía, en noviembre de 2017.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La atribución sigue discutida entre especialistas, con quien la defiende entera y quien sostiene que es obra de taller con intervención del maestro. El Louvre no lo expuso en su gran muestra de 2019 y la pieza lleva años sin verse en público.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso enseña algo que el libro no subraya bastante. La firma de Leonardo multiplica por cien el precio de una tabla, así que hay muchísimo dinero apostado a que una atribución salga en un sentido y no en otro, y eso contamina inevitablemente la discusión académica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda del libro, cuando se le quitan las lecciones del final, es una idea buena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que aquel hombre miraba las cosas más veces y durante más tiempo que nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y que eso, a diferencia del talento, sí se puede imitar.",
         },
       ],
     },
