@@ -60,9 +60,7 @@ import { TECNOLOGIA } from "./historias/tecnologia";
    el archivo esté ya resuelto.
    ========================================================================== */
 
-export type Foto = {
-  /** Nombre exacto del fichero en Commons, tal cual, con espacios. */
-  archivo: string;
+type FotoComun = {
   autor: string;
   licencia: string;
   /** Qué parte no se puede perder al recortar (CSS object-position). */
@@ -71,7 +69,30 @@ export type Foto = {
   alt: string;
 };
 
+/**
+ * Una fotografía viene de uno de dos sitios, y nunca de los dos:
+ *
+ *   `archivo`  el nombre del fichero en Wikimedia Commons. Se pide por red.
+ *   `local`    una imagen propia, empaquetada CON la aplicación.
+ *
+ * La local siempre gana, y por un motivo que no es de gusto: sin red no hay
+ * Commons. En un visor con la política de seguridad cerrada, en un avión o en
+ * el metro, una portada que depende de un servidor externo no existe. La que
+ * viaja dentro del paquete se ve siempre.
+ *
+ * El tipo es una unión y no un objeto con dos campos opcionales para que no se
+ * pueda escribir una ficha con los dos ni con ninguno.
+ */
+export type Foto =
+  | (FotoComun & { archivo: string; local?: never })
+  | (FotoComun & { local: string; archivo?: never });
+
 export function urlFoto(foto: Foto, ancho = 1400) {
+  // Una imagen propia ya viene resuelta por el empaquetador: o es una ruta con
+  // su huella o es la imagen entera incrustada. No hay nada que construir. Se
+  // pregunta por `archivo` y no por `local` porque `archivo` es el campo
+  // obligatorio de su variante, y es el único que discrimina la unión.
+  if (foto.archivo === undefined) return foto.local;
   const nombre = encodeURIComponent(foto.archivo.replace(/ /g, "_"));
   return `https://commons.wikimedia.org/wiki/Special:FilePath/${nombre}?width=${ancho}`;
 }

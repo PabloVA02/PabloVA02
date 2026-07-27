@@ -1,4 +1,5 @@
 import type { Short } from "../shorts";
+import venusFoto from "../fotos/venus-dia.jpg";
 
 /* ==========================================================================
    Cosmos.
@@ -28,12 +29,15 @@ export const COSMOS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     foto: {
-      archivo: "PIA23791-Venus-NewlyProcessedView-20200608.jpg",
+      local: venusFoto,
       autor: "NASA / JPL-Caltech",
       licencia: "Dominio público",
-      /* El planeta no está centrado en el original: cae a la izquierda, y el
-         recorte vertical se lo comería medio. */
-      foco: "34% 46%",
+      /* La imagen viene ya recompuesta en vertical, con el planeta arriba y el
+         negro abajo para que el texto se apoye en algo. El original de la NASA
+         es apaisado 2:1 y el marco del muro es de móvil: recortado al vuelo
+         solo se veía un trozo de superficie, así que la composición se hace
+         antes y aquí no hay nada que reencuadrar. */
+      foco: "50% 50%",
       alt: "Venus visto desde el Mariner 10: un disco crema con bandas de nubes anaranjadas sobre fondo negro.",
     },
     encargo:
