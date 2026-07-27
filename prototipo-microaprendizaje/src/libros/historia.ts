@@ -379,118 +379,637 @@ export const MANDELA: Resumen = {
   titulo: "El largo camino hacia la libertad",
   autor: "Nelson Mandela",
   ano: 1994,
-  gancho: "Escribió el manuscrito a escondidas en la cárcel y lo enterró en el patio. Los guardias encontraron parte.",
+  gancho: "Escribió la mitad a escondidas en la cárcel y la enterró en tres latas de cacao en el patio. Los carceleros encontraron una.",
   porQue:
-    "Es la explicación en primera persona de cómo alguien sale de veintisiete años de prisión sin sed de venganza, y por qué eso fue una estrategia y no santidad.",
+    "Es la autobiografía de veintisiete años de cárcel contada sin autocompasión. Y es también un libro escrito por un presidente en ejercicio, con todo lo que eso implica sobre lo que calla.",
   partes: [
     {
-      titulo: "El manuscrito enterrado",
+      titulo: "El niño al que llamaron Alborotador",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "En 1975, llevando ya once años en la isla de Robben, Mandela empezó a escribir sus memorias en secreto. Escribía de noche, dormía de día en el trabajo forzado de la cantera. Dos compañeros revisaban las páginas y otro las copiaba en taquigrafía diminuta. Enterraron el original en tres tubos en el huerto de la prisión.",
+            "En 1918, en una aldea del Transkei llamada Mvezo, nace un niño al que su padre pone por nombre Rolihlahla, que en lengua xhosa significa literalmente tirar de la rama de un árbol y que en el uso corriente quiere decir alborotador. Nadie lo eligió por profecía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre por el que lo conocerá el mundo se lo pone una maestra el primer día de clase. Era costumbre de las escuelas misioneras dar a cada niño africano un nombre inglés, y a él le tocó Nelson, sin ninguna explicación y sin que nadie preguntara en casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Fue el primero de su familia en pisar una escuela, y llegó vestido con unos pantalones de su padre cortados y sujetos con un cordel. Ese detalle abre el libro con una imagen concreta y sin queja, que es el tono en el que está escrito todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre era jefe de la aldea y consejero de la casa real thembu, y perdió el cargo por negarse a comparecer ante un magistrado blanco que lo había citado. Se quedó sin tierras y sin ganado, y esa desobediencia costosa es la primera lección política que registra el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La familia se muda entonces a otra aldea, Qunu, donde el niño crece cuidando ovejas, jugando con palos y bañándose en el arroyo. Mandela describe esos años con una nostalgia que sorprende en un libro tan político, y volvió a construirse allí una casa al salir de la cárcel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando el padre muere, el niño tiene unos nueve años y lo envían al Gran Lugar de Mqhekezweni, la corte del regente thembu, que lo cría como a un hijo. Allí pasa la adolescencia observando cómo se toman las decisiones en las asambleas tradicionales de la comunidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En aquella corte escuchó también a los ancianos contar cómo era el país antes de los europeos, con sus guerras, sus tratados y sus derrotas. Dice que allí supo por primera vez que su pueblo había tenido historia propia, cosa que la escuela misionera no mencionaba nunca.",
         },
         {
           forma: "arte",
           texto:
-            "Los guardias, haciendo obras, encontraron dos de los tres tubos. El castigo fue retirarle el derecho a estudiar durante cuatro años. Pero la copia taquigráfica salió de la isla escondida y sobrevivió: es la base de este libro, terminado y publicado en 1994, el año en que fue elegido presidente.",
+            "De esas asambleas saca la idea que repetirá toda su vida sobre cómo se dirige. Hablaban todos, del más pobre al más importante, y el jefe escuchaba en silencio antes de resumir el consenso. Un líder, dice, es un pastor: va detrás del rebaño y deja delante a los más listos.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "clave",
+          rotulo: "La huida",
+          frase: "A los veintitrés años se escapó a Johannesburgo para no casarse con la mujer que el regente le había elegido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Huyó con un primo y vendieron dos bueyes del regente para pagar el viaje, cosa que él cuenta sin adornos y como lo que fue: un robo a la persona que lo había criado. Tardó años en reconciliarse con aquel hombre y llegó justo a tiempo de despedirse antes de que muriera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llega a la ciudad sin dinero y con una historia inventada, y su primer trabajo es de vigilante nocturno en una mina de oro, con una linterna y un silbato. Lo despiden en cuanto descubren que ha huido y que el regente lo está buscando por toda la provincia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vivió después en Alexandra, un barrio negro sin electricidad ni alcantarillado al norte de la ciudad, y caminaba diez kilómetros de ida y otros tantos de vuelta al trabajo para ahorrarse el autobús. Comía un día sí y otro no, y estudiaba de noche con una vela prestada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El siguiente empleo cambia su vida entera. Entra de pasante en un bufete de abogados de Johannesburgo, dirigido por un judío lituano de izquierdas, donde por primera vez trabaja con blancos que lo tratan de igual a igual y donde aprende cómo funciona el derecho por dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que mejor retrata aquella oficina es el de la taza. La secretaria blanca le explicó que había dos tazas nuevas para los empleados negros, y él decidió no usar ninguna de las dos y beber el té en la de siempre, para no aceptar una segregación que nadie había escrito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estudia por correspondencia y de noche, y tarda años en terminar. En 1952 abre con su amigo Oliver Tambo el primer bufete de abogados negros de Sudáfrica, en pleno centro de la ciudad, y la sala de espera se les llena todas las mañanas antes de abrir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su reparto de papeles con Tambo duró cuarenta años y explica media historia del movimiento. Tambo era el paciente y el organizador, y Mandela el que llenaba una sala; cuando ilegalizaron el partido, Tambo se fue al exilio a mantenerlo vivo y Mandela se quedó a que lo detuvieran.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los casos que llevan explican el país mejor que cualquier ensayo. Gente detenida por no llevar encima el pase que autorizaba a un negro a estar en una zona blanca, por vivir en la casa equivocada, por usar una puerta prohibida o por caminar por una acera que no le correspondía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El apartheid se instaura oficialmente en 1948, cuando el Partido Nacional gana las elecciones, y el libro deja claro que no fue una ruptura sino una sistematización. La segregación existía desde antes; lo nuevo fue codificarla en leyes que clasificaban a cada persona por raza al nacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sistema legal que describe es de una minuciosidad delirante. Una ley definía la raza de cada recién nacido, otra prohibía los matrimonios mixtos, otra reservaba los oficios cualificados a los blancos y otra decidía en qué barrio podía vivir cada familia según su clasificación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1944 funda con Tambo y Walter Sisulu la Liga Juvenil del Congreso Nacional Africano, para empujar a una organización que llevaba treinta años enviando peticiones educadas al Gobierno. Su generación decide que las peticiones no funcionan y propone huelgas, boicots y desobediencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sisulu es la figura que más aparece en el libro después del propio autor. Fue quien lo introdujo en la política, quien le pagó los estudios de derecho de su bolsillo, quien lo convenció de escribir esta autobiografía y quien estuvo con él en la misma sección de la misma cárcel durante dieciocho años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mandela reconoce sin pudor que en esos años era nacionalista africano y bastante intolerante con los blancos y con los comunistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegó a boicotear reuniones y a echar a comunistas de un acto a empujones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta que fue perdiendo esa desconfianza a base de trabajar con ellos.",
+        },
+      ],
+    },
+    {
+      titulo: "El abogado que dejó de creer en la ley",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1952, el Congreso lanza la Campaña de Desafío: miles de voluntarios entran deliberadamente por puertas prohibidas, se sientan en bancos reservados y se dejan detener sin oponer resistencia. Mandela es el voluntario en jefe y recorre el país organizándolo pueblo por pueblo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ocho mil quinientas personas van a la cárcel en unos meses y el Congreso pasa de veinte mil a cien mil miembros. El Gobierno responde con una ley que castiga la desobediencia civil con azotes, y la campaña se apaga sin haber cambiado ni una sola de las leyes que combatía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El balance que hace de ese fracaso es muy suyo y muy útil. Dice que la campaña no consiguió nada de lo que pedía y sirvió para todo lo demás: enseñó a miles de personas a organizarse, quitó el miedo a la cárcel y demostró que se podía desobedecer sin que se hundiera el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1955 se aprueba la Carta de la Libertad en una asamblea al aire libre en Kliptown, con tres mil delegados y la policía tomando nombres. Su primera línea dice que Sudáfrica pertenece a todos los que viven en ella, blancos y negros, y esa frase será el programa del resto de su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Mandela no pudo subir al estrado porque estaba prohibido asistir a reuniones. Vio la asamblea disfrazado y desde lejos, mezclado entre el público, y tuvo que marcharse cuando la policía rodeó el descampado el segundo día y empezó a apuntar nombres uno por uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase le costó peleas dentro de su propio movimiento. Un sector nacionalista sostenía que el país pertenecía a los africanos y a nadie más, se escindió en 1959 y fundó otra organización; la diferencia entre las dos no era táctica, era sobre quién tenía derecho a estar allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al año siguiente detienen a ciento cincuenta y seis dirigentes y los juzgan por alta traición. El proceso dura más de cuatro años, arruina económicamente a los acusados y termina en 1961 con la absolución de todos, después de que el tribunal concluyera que la Carta no probaba ningún plan violento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos cuatro años de banquillo tuvieron un efecto que el Gobierno no previó. Dirigentes de todo el país que apenas se conocían pasaron juntos cada día en la misma sala, discutiendo estrategia en los descansos, y salieron del juicio convertidos en una dirección compacta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El día que lo cambia todo",
+          frase: "El 21 de marzo de 1960, en Sharpeville, la policía disparó contra una manifestación desarmada y mató a sesenta y nueve personas. Muchas por la espalda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Gobierno declara el estado de emergencia, ilegaliza el Congreso Nacional Africano y detiene a miles de personas. La organización a la que Mandela había dedicado dieciséis años deja de existir legalmente de un día para otro, y con ella desaparece cualquier vía política abierta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí está la parte del libro que la memoria popular ha borrado casi por completo. Mandela concluye que la no violencia ha dejado de tener sentido, convence al Congreso de crear un brazo armado y funda en 1961 la organización llamada La Lanza de la Nación, de la que es el primer comandante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La maniobra interna que empleó para conseguirlo también es reveladora. El Congreso no podía aprobar la lucha armada sin traicionar su doctrina, así que acordaron que la nueva organización fuera formalmente independiente, con sus propios mandos, para no comprometer al partido.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Su argumento está escrito con toda claridad y merece leerse entero. Dice que la no violencia nunca fue para él un principio moral, sino una táctica, y que cuando el oponente responde a la protesta pacífica con fuego real, insistir en ella deja de ser noble y pasa a ser una forma de suicidio.",
           arte: "escritor",
         },
         {
-          forma: "clave",
-          rotulo: "La condena",
-          frase: "Veintisiete años preso. Dieciocho de ellos picando piedra caliza, cuyo reflejo le dañó la vista para siempre.",
+          forma: "texto",
+          texto:
+            "Y añade una observación que suena dura y es exacta. Dice que fue el opresor quien eligió la forma de la lucha, no el oprimido, y que un movimiento que no responde a la violencia acaba siendo aplastado mientras discute si responder es correcto o no lo es.",
         },
         {
           forma: "texto",
           texto:
-            "El libro empieza mucho antes, en una aldea rural donde su nombre era Rolihlahla — que en xhosa significa, más o menos, «el que agita la rama», y que él traduce como «revoltoso». El nombre de Nelson se lo puso una maestra el primer día de escuela, porque era costumbre dar nombres ingleses a los niños africanos.",
+            "La estrategia elegida fue el sabotaje, y la distinción importa. Atacaron centrales eléctricas, vías férreas y oficinas gubernamentales de noche, con la instrucción expresa de no causar víctimas, porque un muerto habría hecho imposible la reconciliación que ya entonces daban por necesaria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene añadir lo que el libro no cuenta y la historia sí. En las décadas siguientes, con Mandela ya preso, esa misma organización cometió atentados con víctimas civiles, y la comisión de la verdad de los años noventa los investigó y los declaró violaciones de derechos humanos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pasa a la clandestinidad, se deja barba, se disfraza de chófer y de jardinero y duerme cada noche en un sitio distinto. La prensa lo bautiza como la Pimpinela Negra porque la policía no consigue detenerlo, y él aprovecha para dar entrevistas telefónicas desde escondites.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El precio de aquella clandestinidad lo pagó su familia entera. Estuvo diecisiete meses sin ver a sus hijos, se citaba con Winnie en coches en marcha y en pisos prestados, y en el libro reconoce que fue entonces cuando dejó de tener una vida privada de la que hablar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1962 sale del país en secreto, recorre África pidiendo apoyo y dinero, habla en Londres con dirigentes laboristas y recibe entrenamiento militar en Etiopía y Argelia. Aprende a disparar, a fabricar explosivos y a moverse en el monte, y toma notas que después usarán contra él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo detienen en agosto de 1962, en una carretera cerca de Howick, disfrazado de chófer de un amigo blanco. Lo condenan a cinco años por salir del país sin permiso y por incitar a una huelga, y entra en prisión con cuarenta y cuatro años sin saber que saldrá con setenta y uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se ha discutido durante décadas quién dio el aviso que permitió detenerlo. Hay documentos desclasificados que apuntan a un agente estadounidense destinado en Durban, y el asunto sigue sin cerrarse del todo; el libro no lo menciona porque en 1994 aún no había nada publicado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Estados Unidos lo mantuvo en su lista de vigilancia antiterrorista hasta 2008.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hizo falta una ley del Congreso para sacarlo de ella, firmada cuando ya tenía el Nobel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tenía ochenta y nueve años y llevaba una década siendo el hombre más respetado del mundo.",
         },
       ],
     },
-
     {
-      titulo: "El abogado que se hizo saboteador",
+      titulo: "Preso 466/64",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Montó en Johannesburgo el primer bufete de abogados negros de Sudáfrica, y ahí vio de cerca cómo funcionaba el apartheid: leyes que decidían dónde podías vivir, con quién casarte, en qué banco sentarte, qué trabajo tener. Un sistema completo, escrito y legal.",
+            "En julio de 1963, la policía asalta una granja en las afueras de Johannesburgo, en un barrio llamado Rivonia, donde la dirección clandestina tenía su cuartel general. Se llevan documentos, planes de sabotaje y un cuaderno con la letra de Mandela, que ya estaba preso por otra causa.",
         },
         {
           forma: "texto",
           texto:
-            "Durante años defendió la lucha estrictamente no violenta. Cambió de posición después de 1960, cuando la policía disparó contra una manifestación pacífica en Sharpeville y mató a decenas de personas por la espalda. Mandela concluyó que responder con no violencia a un Estado que dispara era condenar a la gente a que la mataran ordenadamente.",
+            "La granja estaba comprada a nombre de un testaferro y funcionaba con una tapadera doméstica. Mandela había vivido allí meses haciéndose pasar por el cocinero y jardinero de la casa, con mono azul, y varios vecinos lo habían visto trabajando en el huerto sin sospechar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El juicio que sigue puede acabar en horca para los diez acusados. Su abogado le aconseja defenderse negando los hechos; él decide lo contrario, admitir la responsabilidad y usar el banquillo para juzgar al sistema, aun sabiendo que eso hace mucho más probable la pena de muerte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los acusados acordaron además una cosa entre ellos antes de empezar. Si los condenaban a muerte, ninguno recurriría la sentencia, porque un recurso habría convertido su ejecución en un trámite legal y ellos querían que fuera lo que era: un asesinato político a la vista de todos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 20 de abril de 1964 habla durante unas cuatro horas desde el banquillo, leyendo un texto que ha escrito él. Explica por qué recurrieron a la violencia, describe cómo vive un negro en Sudáfrica y termina con un párrafo que se ha citado desde entonces en medio mundo.",
         },
         {
           forma: "clave",
-          rotulo: "El matiz que se omite",
-          frase: "Fundó y dirigió el brazo armado del CNA. Su elección fue el sabotaje de instalaciones, evitando víctimas — pero fue lucha armada.",
+          rotulo: "El final del discurso",
+          frase: "Dijo que había luchado contra la dominación blanca y contra la negra, y que ese ideal esperaba vivir para alcanzarlo, pero que si hacía falta estaba dispuesto a morir por él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro cuenta un detalle de esa frase que la mejora. Sus abogados le suplicaron que quitara la última parte, porque sonaba a desafío al tribunal y podía costarle la vida; él aceptó añadir un si hacía falta como única concesión, y leyó el resto mirando al juez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al terminar hubo un silencio largo en la sala antes de que el juez pudiera hablar. El discurso se publicó al día siguiente en la prensa mundial, y esa difusión probablemente les salvó la vida: colgar a diez hombres que acababan de decir aquello en voz alta salía demasiado caro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 12 de junio de 1964 lo condenan a cadena perpetua junto a otros siete. Sale del tribunal con el número 466 barra 64, que significa preso número cuatrocientos sesenta y seis del año sesenta y cuatro, y lo llevan de noche en barco a la isla de Robben, frente a Ciudad del Cabo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel número acabó siendo un símbolo mundial sin que nadie lo planeara. La fundación que él creó al retirarse se llamó 46664, y con ese nombre se organizaron conciertos contra el sida durante los años dos mil; el número de preso terminó convertido en marca de una causa distinta.",
         },
         {
           forma: "arte",
           texto:
-            "Conviene decirlo porque el Mandela que se recuerda es el anciano sonriente y conciliador, y esa imagen borra al hombre de cuarenta años que se entrenó militarmente y aceptó la clandestinidad. Estuvo en listas de terroristas de varios países occidentales hasta bien entrado el siglo XXI.",
+            "La celda medía poco más de dos metros por dos. Dormía en el suelo sobre una estera, tenía un cubo por retrete, y como preso negro le correspondían pantalones cortos y menos comida que a los mestizos y los indios, porque hasta el rancho de la cárcel estaba clasificado por raza.",
           arte: "noche",
         },
-      ],
-    },
-
-    {
-      titulo: "Robben",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "En el juicio de Rivonia, en 1964, sabiendo que podían condenarle a muerte, pronunció un discurso de cuatro horas. Terminó diciendo que había luchado contra la dominación blanca y contra la dominación negra, que aspiraba a una sociedad democrática donde todos convivieran en igualdad, y que era un ideal por el que estaba dispuesto a morir.",
+            "Los pantalones cortos no eran un detalle logístico sino una humillación calculada. En Sudáfrica se vestía así a los criados negros adultos para tratarlos de muchachos, y Mandela reclamó pantalones largos durante años hasta que se los dieron a él solo, y los rechazó hasta que se los dieron a todos.",
         },
         {
           forma: "texto",
           texto:
-            "La parte carcelaria del libro es la más reveladora, y no por el sufrimiento. Mandela cuenta cómo convirtió la prisión en una escuela: los presos se daban clases unos a otros, tanto que a Robben la llamaban «la universidad». Y cómo aprendió afrikáans, el idioma de sus carceleros, y estudió su historia y su poesía.",
+            "Los primeros años trabajó en una cantera de cal picando piedra bajo el sol. El resplandor blanco de la cal le dañó los ojos de forma permanente, y por eso durante el resto de su vida hubo que pedir a los fotógrafos que no usaran flash cuando se le acercaban.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tardaron tres años en darles gafas de sol, después de reclamarlas una y otra vez. El libro cuenta esa negociación como una victoria importante, y ese cambio de escala es lo que mejor explica cómo era la cárcel: allí una petición razonable tardaba años en concederse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su régimen inicial era el más bajo de todos: una visita de media hora y una carta cada seis meses, censuradas y recortadas con cuchilla. Las cartas que le llegaban tenían agujeros donde el censor había eliminado los nombres o las frases que le parecían políticas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En las visitas había un cristal, un teléfono intervenido y la prohibición de hablar de política o de nombrar a nadie de fuera. Winnie y él se pasaron años buscando maneras de decirse cosas con frases sobre parientes inventados, mientras un funcionario tomaba notas al lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1968 murió su madre y en 1969 su hijo mayor, Thembi, en un accidente de coche a los veinticuatro años. Le denegaron el permiso para asistir a los dos entierros, y el libro dedica a esos dos golpes unas pocas líneas de una sobriedad que cuesta leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Winnie tampoco estaba libre en esos años. La detuvieron en 1969 y pasó diecisiete meses encerrada, la mayor parte en aislamiento, mientras sus dos hijas quedaban al cuidado de otros; después la desterraron a un pueblo remoto donde vivió años bajo vigilancia policial constante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí cuenta con detalle es la organización interna que montaron los presos. Daban clases unos a otros, hasta el punto de que llamaban a la isla la Universidad; discutían política en la cantera aprovechando los descansos, y negociaban con los funcionarios cada pequeña mejora del reglamento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llegaron a representar obras de teatro y a montar un torneo de ajedrez por correspondencia entre celdas. También hicieron llegar mensajes al exterior escondidos en el fondo falso de cajas de cerillas y en el forro de la ropa que salía a lavar, con una red que funcionó durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis sobre la cárcel es que allí aprendió lo que después le sirvió para gobernar. Aprendió afrikáans, el idioma de sus carceleros, estudió su historia y sus poemas, y descubrió que un guardián con el que se puede hablar es un guardián que hará pequeñas excepciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese aprendizaje tiene una conexión evidente con El hombre en busca de sentido, que está en este catálogo. Frankl sostenía que lo último que se le puede quitar a alguien es la elección de su actitud, y este libro es la demostración práctica más larga que existe de esa idea: veintisiete años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pasó dieciocho años en aquella isla y otros nueve en dos prisiones del continente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Veintisiete años en total, de los cuarenta y cuatro a los setenta y uno.",
+        },
+      ],
+    },
+    {
+      titulo: "Tres latas de cacao enterradas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1974, sus compañeros de sección le convencen de que escriba su vida para que exista un relato propio del movimiento. Empieza esa misma semana con un método sencillo: duerme por la tarde, se levanta a medianoche y escribe hasta el amanecer, cuando se acuesta un rato antes del recuento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea era publicarlo en 1978, coincidiendo con su sexagésimo cumpleaños, como golpe propagandístico internacional. Nada de eso ocurrió: el manuscrito se quedó guardado en Londres durante quince años y solo se usó como base cuando su autor ya estaba libre y negociando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada mañana pasa las hojas a Walter Sisulu y a Ahmed Kathrada, que las leen, discuten los hechos y le devuelven correcciones. El libro es desde el principio un texto revisado por un comité de presos, y varios pasajes cambiaron porque alguien recordaba una fecha de otro modo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sisulu le hizo además una advertencia política sobre el tono. Le pidió que suavizara los juicios sobre algunos compañeros y que no dejara por escrito rencores que envenenarían al movimiento si el texto salía a la luz, y Mandela aceptó casi todas esas correcciones.",
         },
         {
           forma: "clave",
-          rotulo: "Su cálculo",
-          frase: "Aprendió el idioma del enemigo. Sabía que algún día tendría que negociar, y que se negocia mejor en la lengua del otro.",
+          rotulo: "Cómo salió el manuscrito",
+          frase: "Un compañero lo copió con letra microscópica en unas hojas finísimas. El original se enterró en tres latas de cacao en el patio del huerto.",
         },
         {
           forma: "texto",
           texto:
-            "Cuenta también las pequeñas victorias que ocupaban años: pelear por conseguir pantalones largos en vez de pantalón corto —los presos negros llevaban corto, como niños—, por tener camas, por el derecho a estudiar. Nada heroico. Constancia administrativa durante décadas.",
+            "La copia en miniatura la hizo Laloo Chiba, que tenía una letra diminuta y pulso de relojero, y la sacó de la isla Mac Maharaj al quedar en libertad en 1976, escondida entre las tapas y el forro de unos cuadernos de estudio que los funcionarios revisaron sin encontrar nada.",
         },
-      ],
-    },
-
-    {
-      titulo: "Salir sin rencor",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "El gobierno le ofreció la libertad varias veces a cambio de renunciar a la lucha armada. La rechazó, y explica por qué con una frase que resume su carácter: solo los hombres libres pueden negociar, y un preso no puede firmar contratos.",
+            "Maharaj se jugaba entonces volver a la cárcel por muchos años. Salió con aquellos cuadernos en la maleta, pasó los controles del puerto y consiguió sacar el texto del país; el manuscrito llegó a Londres y allí se quedó guardado hasta que hizo falta, más de una década después.",
         },
         {
           forma: "arte",
           texto:
-            "Salió en febrero de 1990 con setenta y un años. Cuatro años después era presidente. Y la parte que asombra a todo el mundo es que no hubo represalias: impulsó una Comisión de la Verdad donde los responsables de crímenes podían confesar públicamente a cambio de amnistía. Las víctimas oían lo ocurrido de boca de quien lo hizo.",
-          arte: "museo",
+            "Con el original enterrado hubo menos suerte. Unas obras para levantar un muro en el patio destaparon una de las tres latas, y el castigo fue inmediato: a Mandela, Sisulu y Kathrada les retiraron durante cuatro años el derecho a estudiar, que era lo único que hacía la cárcel soportable.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quitarles el estudio era, en aquel régimen, el castigo más caro posible. Los presos políticos habían conseguido matricularse en cursos por correspondencia después de años de peticiones, y varios de ellos terminaron carreras universitarias enteras dentro; sin eso, quedaban solo el muro y el cubo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese manuscrito de 1975 es la mitad del libro que hoy se lee, y explica por qué la primera parte es tan viva. Está escrita por un hombre de cincuenta y siete años que no espera salir nunca, sin saber si aquellas páginas llegarán a alguien, y con la memoria como única fuente disponible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda mitad se escribió ya en libertad, entre 1990 y 1994, con la ayuda de un periodista estadounidense llamado Richard Stengel, que lo entrevistó durante cientos de horas y le dio forma al conjunto. El libro sale firmado solo por Mandela, aunque él siempre reconoció el trabajo de Stengel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre las dos mitades se nota al leerlas seguidas. La escrita en la cárcel es más personal, más irregular y a ratos más dura consigo mismo; la escrita en libertad es más ordenada, más prudente y suena ya a la voz pública de alguien que va a gobernar un país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Kathrada volvió a hacer de verificador en esa segunda etapa, con los archivos ya disponibles. Es un caso raro de autobiografía comprobada por un testigo presencial, y eso hace que las fechas y los episodios del libro resistan bastante bien la comparación con la documentación posterior.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cuadernos originales de la prisión se conservan y se han publicado después en parte. Comparados con el libro final, muestran a un autor bastante más áspero con algunos compañeros y bastante más triste consigo mismo de lo que permite la versión editada de 1994.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahora bien, hay que decir con claridad lo que este libro calla, porque es mucho. Se publicó en 1994, el año en que su autor se convirtió en presidente, y cada frase tenía consecuencias políticas inmediatas para un país que acababa de evitar por poco una guerra civil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso lo convierte en un documento político tanto como en una memoria personal. No está escrito para ajustar cuentas ni para explicarse ante la historia, sino para dar a un país recién nacido un relato compartido de dónde venía, y esa función explica casi todas sus omisiones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El silencio más notable es sobre Winnie Mandela. El libro cuenta su matrimonio, sus detenciones y el destierro que ella sufrió, y en cambio pasa de puntillas por los años en que fue acusada de graves violencias en Soweto y por la separación de ambos, que ocurría mientras se escribía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se separaron en 1992, dos años antes de la publicación, y se divorciaron en 1996. El libro, escrito en medio de eso, mantiene el retrato de la compañera heroica de los años duros y no entra en nada posterior, lo cual es comprensible como decisión personal y deja un hueco enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco aparecen los abusos cometidos por el propio Congreso en sus campos de exiliados en Angola, ni las cuentas internas del movimiento. Es la autobiografía de un dirigente que en ese momento necesitaba mantener unida a su organización, no un ajuste de cuentas ni una investigación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Merece la pena comparar este libro con Yo soy Malala, que está en este catálogo. Los dos son testimonios de resistencia escritos con un periodista occidental al lado y publicados en el momento de máxima atención internacional, y en los dos casos conviene preguntarse qué se dejó fuera y por qué.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay un silencio más privado que él mismo señala en dos frases. Reconoce que fue un mal padre y un marido ausente, que sus hijos crecieron sin él y que eligió el pueblo antes que la familia, y a continuación cambia de tema y no vuelve a hablar del asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su primera mujer, Evelyn Mase, aparece y desaparece en unas pocas páginas. Fue enfermera, tuvieron cuatro hijos, dos de los cuales murieron, y el matrimonio se rompió porque ella quería un marido y él quería un movimiento; el libro lo resume casi en ese mismo número de líneas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro termina en 1994, con la victoria, y ahí se detiene.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte difícil, gobernar el país que había ganado, se quedó sin contar.",
+        },
+      ],
+    },
+    {
+      titulo: "La negociación que hizo solo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1985, ya en la prisión continental de Pollsmoor, lo separan de sus compañeros y lo instalan solo en unas celdas de la planta baja. Aquello parecía un castigo y él decide usarlo como oportunidad: escribe al ministro de Justicia proponiendo hablar, sin consultar con nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La ocasión inmediata se la dio una operación de próstata. Estando en el hospital recibió la visita del ministro de Justicia, y aquel encuentro casual en una habitación, con los dos incómodos y sin protocolo, fue el primer contacto real entre el preso y el Gobierno que lo tenía preso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su razonamiento es el pasaje más discutible y más interesante del libro. Dice que hay momentos en que un dirigente tiene que adelantarse a su propia organización, tomar una decisión en solitario y explicarla después, porque si consulta antes la respuesta colectiva será siempre no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese argumento es peligroso y él lo sabe, porque vale también para justificar a cualquier caudillo. La diferencia, en su caso, está en lo que hizo después con el poder, y por eso el libro solo se puede juzgar entero: la teoría la avala el hecho de que se marchó a los cinco años.",
         },
         {
           forma: "clave",
-          rotulo: "Por qué lo hizo",
-          frase: "No fue bondad. Fue el cálculo de que un país que empieza ajustando cuentas no llega a la siguiente década entero.",
+          rotulo: "La decisión solitaria",
+          frase: "Empezó a negociar con el Gobierno del apartheid sin decírselo a su partido, sabiendo que lo podían acusar de traición.",
         },
         {
           forma: "texto",
           texto:
-            "Cuenta un episodio pequeño que resume su método mejor que ningún discurso. Al llegar a la presidencia, el personal blanco del edificio de gobierno empezó a hacer las maletas dando por hecho que los echarían. Mandela los reunió y les dijo que si querían quedarse, tenían trabajo; que lo pasado no se iba a olvidar, pero que allí hacía falta gente que supiera hacer funcionar un Estado. Se quedaron casi todos. Su cálculo era simple: quien teme por su futuro sabotea, y quien tiene sitio en el nuevo país lo defiende.",
+            "Sus compañeros se enteraron después y varios reaccionaron mal, y el libro no lo esconde. Él sostiene que cualquiera que se hubiera enterado antes habría tenido que oponerse en público, y que lo protegió de esa obligación asumiendo él solo el riesgo de que lo llamaran vendido.",
         },
         {
           forma: "texto",
           texto:
-            "Y hay que apuntar los límites del libro. Es una autobiografía y por tanto una versión: pasa de puntillas por sus dos matrimonios rotos, por lo poco que ejerció de padre y por las divisiones internas de su partido. Termina en 1994, así que no cuenta su presidencia ni los problemas que Sudáfrica arrastra desde entonces. Es el relato de cómo se llega, no de lo que pasó después.",
+            "También tuvo cuidado de no negociar nada sustantivo por su cuenta. Su papel, insiste, era abrir el canal y conseguir que las dos partes se sentaran, y las condiciones políticas las tenía que decidir la dirección del movimiento en el exilio, con la que se comunicaba en secreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las conversaciones duran cuatro años y avanzan por detalles minúsculos. Le llevan a una casa con jardín dentro del recinto de otra prisión, le ponen cocinero, lo sacan a pasear en coche por Ciudad del Cabo para que vaya viendo cómo ha cambiado el país sin él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En uno de esos paseos el funcionario que lo custodiaba paró a comprar refrescos y lo dejó solo en el coche, con la puerta sin cerrar y la calle delante. Mandela cuenta que pensó en bajarse y en lo fácil que sería, y que se quedó sentado porque escaparse habría arruinado todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su condición nunca cambia y es la que rompe todos los ofrecimientos anteriores. El Gobierno le ofrece la libertad varias veces a cambio de renunciar a la violencia, y él responde que solo un hombre libre puede negociar, y que un preso no firma pactos con quien lo tiene encerrado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La oferta más sonada fue la de 1985, y su respuesta la leyó su hija en un estadio lleno. Preguntaba qué libertad le estaban ofreciendo cuando su organización seguía prohibida y él no podía ni firmar un contrato, y terminaba diciendo que no vendería el derecho de nadie a ser libre.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En julio de 1989 lo llevan a tomar el té con el presidente Botha, el hombre que llevaba una década llamándolo terrorista. Le habían enseñado a atarse el nudo de la corbata esa mañana porque llevaba veintisiete años sin ponerse una, y Botha le sirvió el té con su propia mano.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Botha cae poco después por un derrame y lo sustituye Frederik de Klerk, que en febrero de 1990 legaliza el Congreso y anuncia su liberación. Mandela sale caminando de la prisión de Victor Verster el 11 de febrero, de la mano de Winnie y ante las cámaras de todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El retrato que hace de De Klerk es frío y bastante justo. Reconoce que hizo lo que ningún antecesor suyo se atrevió a hacer, y a la vez sostiene que no lo hizo por convicción moral sino porque el país era ingobernable, y le reprocha no haber frenado la violencia de aquellos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cuatro años siguientes son los más peligrosos y el libro no los adorna. Mientras se negociaba la nueva constitución murieron miles de personas en enfrentamientos entre facciones negras, con implicación probada de fuerzas de seguridad del Estado que armaban a un bando contra otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El momento en que casi se rompe todo es el asesinato de Chris Hani en 1993, un dirigente comunista muy querido por los jóvenes, tiroteado por un extremista blanco. Mandela salió en televisión, todavía sin ser presidente, a pedir calma en nombre de un país que no gobernaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En aquel discurso hizo algo muy poco habitual y muy calculado. Recordó que quien avisó a la policía del asesino fue una vecina blanca de origen afrikáner, y usó ese detalle para pedir que nadie convirtiera el crimen en una guerra entre razas. Fue el día en que quedó claro quién mandaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1994 vota por primera vez en su vida, a los setenta y cinco años, y el Congreso gana con alrededor del sesenta y dos por ciento. Podría haber gobernado dos décadas: cumplió un mandato de cinco años y se marchó, cosa que ningún líder de liberación africano había hecho antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las colas del día de las elecciones son la última imagen del libro y la mejor. Gente que llevaba toda la vida sin poder votar esperando de pie horas, ancianos nacidos bajo un imperio que llegaban apoyados en sus nietos, en un país donde se esperaba una matanza y no la hubo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese gesto conecta con Rebelión en la granja, que está en este catálogo. Orwell describió cómo los cerdos que hicieron la revolución acaban comiendo en la mesa de los granjeros; Mandela dejó el poder voluntariamente, y su ejemplo se juzga sobre todo por contraste con lo que hicieron sus vecinos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar qué no dice el libro, porque se le atribuye mucho. No dice que perdonara por bondad ni que la reconciliación fuera un impulso moral: la presenta como el único cálculo político que evitaba una guerra racial que su bando no podía ganar sin destruir el país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco dice que el apartheid terminara porque él saliera de la cárcel. En el libro el peso lo llevan las huelgas, los boicots internacionales, la ruina económica del régimen y treinta años de gente organizándose; él aparece como una pieza importante dentro de un movimiento enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y no se presenta como santo en ninguna página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su frase sobre eso es que no lo es, salvo que se entienda por santo un pecador que sigue intentándolo.",
         },
       ],
     },
