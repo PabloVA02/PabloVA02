@@ -2900,12 +2900,13 @@ export const META: FichaMeta[] = [
     ano: 2014,
     gancho: "El trauma no se guarda como un recuerdo. Se guarda en el cuerpo, y por eso no se cura hablando.",
     porQue: "Lleva más de una década en las listas de más vendidos porque explica por qué gente que sabe perfectamente lo que le pasó sigue reaccionando como si volviera a pasar.",
-    minutos: 4.2,
+    minutos: 25.6,
     capitulos: [
-      { titulo: "Los veteranos", minutos: 0.9 },
-      { titulo: "Un reloj que no avanza", minutos: 0.9 },
-      { titulo: "Lo que sí funciona", minutos: 1.1 },
-      { titulo: "Lo que hay que matizar", minutos: 1.3 },
+      { titulo: "Salida: un hospital de veteranos en 1978", minutos: 5 },
+      { titulo: "Primera parada: un cerebro dentro del escáner", minutos: 5 },
+      { titulo: "Segunda parada: diecisiete mil historiales de San Diego", minutos: 5 },
+      { titulo: "Tercera parada: el catálogo de terapias y lo que aguanta", minutos: 5.3 },
+      { titulo: "Destino: por qué este libro acabó siendo una autoridad", minutos: 5.3 },
     ],
   },
   {

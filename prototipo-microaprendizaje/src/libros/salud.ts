@@ -10,118 +10,627 @@ export const CUERPO_CUENTA: Resumen = {
     "Lleva más de una década en las listas de más vendidos porque explica por qué gente que sabe perfectamente lo que le pasó sigue reaccionando como si volviera a pasar.",
   partes: [
     {
-      titulo: "Los veteranos",
+      titulo: "Salida: un hospital de veteranos en 1978",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "En 1978 Bessel van der Kolk empezó a trabajar en un hospital de veteranos de Vietnam. Sus pacientes le describían escenas que no encajaban con ningún manual: hombres que se tiraban al suelo al oír un petardo, que no soportaban que su mujer les tocara la espalda, que se sentían muertos por dentro y solo se notaban vivos conduciendo a doscientos.",
+            "El primer paciente del libro es un abogado al que llama Tom. Llega a la consulta el día después del cuatro de julio y cuenta que ha pasado la noche dentro del coche, con el motor apagado, porque los petardos del vecindario le resultaban insoportables.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "Todos sabían exactamente lo que les había ocurrido. Podían contarlo con detalle. Y contarlo no servía de nada: al terminar la sesión salían igual o peor. Van der Kolk pasó cuarenta años intentando entender por qué, y el libro es esa respuesta.",
-          arte: "noche",
+            "Tom no era un hombre roto por fuera. Tenía bufete, familia y una vida ordenada, y esa distancia entre lo que se ve y lo que ocurre dentro es la que van der Kolk quiere que el lector entienda antes de seguir leyendo. El nombre está cambiado, como todos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso termina de una manera que él subraya. Tom mejora cuando deja de intentar explicar lo que pasó y empieza a trabajar con lo que su cuerpo hace ahora, que es exactamente el movimiento que propone el libro entero. Aquel paciente aparece también en el epílogo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que el libro no promete en ningún momento. No dice que el trauma se borre ni que exista una técnica que lo resuelva del todo: dice que se puede bajar la reactividad hasta que la vida vuelva a ser manejable. La palabra curación no aparece casi nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bessel van der Kolk acababa de entrar en el hospital de veteranos de Boston, en 1978. Buscó en la biblioteca del centro qué se había escrito sobre las secuelas psíquicas de la guerra y le dijeron que allí no había un solo libro sobre el asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle de la biblioteca vacía no es un adorno retórico. En aquellos años la reacción de los veteranos se explicaba como neurosis previa, como cobardía o como fraude para cobrar una pensión, y esa era la conversación oficial en los hospitales. Ninguna de esas explicaciones miraba al cuerpo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los veteranos de Vietnam llegaron a ser cerca de tres millones de personas. Volvieron a un país que no quería oír hablar de aquella guerra, y buena parte del sistema sanitario les trató como si su problema fuera de carácter. Muchos tardaron veinte años en pedir ayuda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre en busca de sentido, de Frankl, que anda por este catálogo, viene del extremo contrario. Frankl busca en el sufrimiento un significado que sostenga a la persona; van der Kolk busca bajarle las pulsaciones, y no se contradicen tanto como parece. Frankl escribió el suyo en nueve días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquello no era negligencia de una biblioteca. En 1978 el diagnóstico no existía: el trastorno de estrés postraumático no entró en el manual de la asociación psiquiátrica estadounidense hasta 1980, empujado sobre todo por los veteranos de Vietnam organizados. Antes de ese año el cuadro se llamaba de muchas maneras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La entrada del diagnóstico en 1980 fue en parte una victoria política. Grupos de veteranos organizados, con psiquiatras aliados, presionaron durante años para que el manual reconociera que un acontecimiento externo podía dejar secuelas duraderas en una persona sana. La categoría se ha revisado en cada edición posterior del manual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que reconocer el diagnóstico no resolvió el tratamiento. Durante los años ochenta la respuesta estándar siguió siendo medicación y terapia de conversación, y van der Kolk cuenta que veía a los mismos pacientes volver una y otra vez. El nombre llegó antes que el tratamiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El centro que fundó en Brookline, en 1982, funcionaba como laboratorio de esa insatisfacción. Allí probó terapias que en aquel momento estaban fuera del circuito respetable y formó a varias generaciones de clínicos en ese enfoque. Aquel sitio funcionó durante más de treinta y cinco años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que veía en la consulta no encajaba con lo que le habían enseñado. Sus pacientes no habían olvidado nada, lo recordaban con demasiada precisión, y aun así el recuerdo no funcionaba como recuerdo sino como algo que estaba ocurriendo otra vez. La diferencia parece sutil y no lo es.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tesis",
+          frase: "El problema no es acordarse: es que el cuerpo sigue respondiendo como si el peligro no hubiera pasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase del título es anterior al libro. Van der Kolk la usó como título de un artículo publicado en 1994 en una revista de psiquiatría de Harvard, sobre la memoria y la biología del estrés postraumático, veinte años antes de que llegara a las librerías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel artículo de 1994 ya contenía el esqueleto del libro. Sostenía que la memoria traumática se guarda en forma de sensaciones y de reacciones automáticas, y no como un relato ordenado con principio y final que se pueda contar entero. La revista era académica y lo leyeron pocos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tesis venía además con una tradición detrás. Pierre Janet había escrito en la Francia de finales del siglo diecinueve sobre la memoria traumática y la disociación, y van der Kolk lo reivindica como el antepasado olvidado de todo este campo. Janet murió en 1947 casi olvidado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Janet había descrito ya la disociación como una respuesta a lo insoportable, y su obra quedó tapada durante casi un siglo por el éxito del psicoanálisis. Recuperarlo le sirve además al autor para presentarse como heredero de una línea interrumpida. Freud se llevó todo el terreno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nació en La Haya en 1943, en una Holanda ocupada, y creció entre adultos que no hablaban de lo que habían pasado. Se formó en Estados Unidos y montó en Boston un centro dedicado al trauma que dirigió durante más de treinta años. Su familia vivió la ocupación entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene aclarar el registro del libro. No es un manual ni una revisión sistemática: es un alegato personal, escrito en primera persona, con casos clínicos, discusiones de congreso y una queja de fondo contra la psiquiatría que le tocó vivir. Cita más casos propios que estudios ajenos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa queja tiene un blanco concreto. Sostiene que la profesión se pasó cuarenta años recetando pastillas para síntomas sin preguntar qué le había ocurrido al paciente, y que la pregunta correcta no es qué te pasa sino qué te pasó. La frase la repite en cada capítulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó en 2014 y tardó años en despegar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El dato",
+          frase: "Llegó al número uno de la lista de más vendidos siete años después de salir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ha vendido más de tres millones de ejemplares.",
+        },
+      ],
+    },
+    {
+      titulo: "Primera parada: un cerebro dentro del escáner",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El experimento central del libro es de 1996. Van der Kolk y Scott Rauch metieron a pacientes en un escáner de tomografía por emisión de positrones y les leyeron en voz alta un relato de su propio trauma, escrito con sus palabras. Aquel escáner era de los primeros disponibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El montaje del experimento tiene su gracia. Semanas antes, cada paciente había reconstruido su escena con detalles concretos —olores, ruidos, posturas—, y esa grabación era la que se le ponía dentro del escáner para provocar la reacción en directo. Cada uno escuchaba su propia historia en su propia voz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella técnica de imaginación guiada por guion se usaba ya en otros laboratorios. La novedad no fue el método, sino mirar qué pasaba en el cerebro mientras ocurría, cuando la neuroimagen empezaba a estar disponible para la psiquiatría. El método venía de laboratorios que estudiaban fobias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar hasta dónde llega la neuroimagen de aquellos años. Un escáner de positrones mide flujo sanguíneo con poca resolución temporal, así que muestra qué zonas se activan de media durante un minuto, y no cómo se hablan entre ellas. Nadie sacaría hoy esa conclusión con esos datos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras revivían la escena, dos zonas se comportaron de manera llamativa. La amígdala derecha, que dispara la alarma, se encendió con fuerza, y el área de Broca, la que fabrica el lenguaje hablado, bajó su actividad de forma muy marcada. Los dos efectos aparecieron en el mismo instante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van der Kolk describe lo que veía en la pantalla como un cortocircuito. El cerebro se comportaba igual que si el peligro estuviera ocurriendo en ese momento, mientras el paciente estaba tumbado en una camilla de un hospital de Boston. Los pacientes salían del escáner temblando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cortocircuito explica un detalle clínico muy repetido. Muchos pacientes dicen que saben perfectamente que están a salvo y que aun así el cuerpo no se lo cree, y esa frase, que suena a contradicción, describe exactamente lo que muestra el escáner. Es la queja que más repiten en consulta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale también una de las frases más citadas del libro. El pasado no se recuerda como pasado, sino que se vive como presente, y esa es la diferencia entre acordarse de algo horrible y estar atrapado dentro de ello. El tiempo verbal correcto es el presente.",
         },
         {
           forma: "clave",
           rotulo: "El hallazgo",
-          frase: "El trauma no se archiva como una historia con principio y final. Se archiva como sensaciones sueltas sin fecha.",
+          frase: "Durante el recuerdo, la zona del habla se apaga: terror sin palabras.",
         },
         {
           forma: "texto",
           texto:
-            "Los estudios de neuroimagen que dirigió lo mostraron con claridad. Al revivir el episodio, se encendía la zona de la alarma y se apagaba la del lenguaje — la misma región que se lesiona en algunos ictus y deja a la persona sin palabras. De ahí que el trauma se describa tan mal: literalmente, mientras se revive, el cerebro no tiene el habla disponible.",
+            "De ahí sale la idea que ordena el libro entero. Si en el momento del pánico el habla se desconecta, pedirle a alguien que cuente lo que siente mientras lo siente es pedirle algo que su cerebro, en ese instante, no está en condiciones de hacer.",
         },
-      ],
-    },
-
-    {
-      titulo: "Un reloj que no avanza",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su explicación central es que el cuerpo se queda atascado en la respuesta de emergencia. Ante un peligro, el organismo se prepara para luchar o huir; si ninguna de las dos cosas es posible —un niño no puede huir de su casa, un soldado no puede huir del convoy— el sistema se bloquea con el motor en marcha.",
+            "La conclusión práctica es la que da fama al libro. Si la reacción ocurre por debajo del lenguaje, hay que intervenir también por debajo del lenguaje: respiración, movimiento, ritmo, contacto, cosas que llegan al cuerpo sin pasar por la explicación. De ahí salen todos los capítulos siguientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se dirige por eso a dos lectores a la vez. Al profesional que busca qué hacer cuando la conversación no avanza, y a la persona que se reconoce en los síntomas y no había encontrado hasta ahora un nombre para ellos. Esa mezcla explica también cómo se vendió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa doble dirección explica su alcance y también sus problemas. Un texto que un paciente lee como manual de autoayuda y un clínico lee como propuesta profesional acaba usándose para justificar cosas que el autor nunca defendió por escrito. Ningún libro controla lo que hacen después sus lectores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar el tamaño de aquel estudio. Fueron ocho personas en el grupo de trauma, con ocho controles, que es una muestra diminuta incluso para los estándares de la neuroimagen de los años noventa y que se ha replicado con resultados desiguales. Ocho personas no bastan para cerrar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El esquema que usa para explicarlo es de dos piezas. La amígdala hace de detector de humo y se dispara antes de que haya pensamiento; la corteza prefrontal hace de torre de vigilancia y decide si el humo es una tostada o un incendio. La comparación es discutible y se entiende.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen del detector de humo y la torre de vigilancia no es suya. Circulaba ya en la divulgación neurocientífica, y él la adoptó porque funciona muy bien para explicar en una frase por qué el susto llega antes que el juicio. El precio de esa claridad es la simplificación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro esquema que aparece constantemente es el del apego. Maneras de amar, que está en este catálogo, trabaja con la misma teoría aplicada a las relaciones adultas, y aquí se usa para explicar por qué un niño maltratado se aferra a quien le hace daño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El vínculo entre trauma infantil y apego es la parte del libro que mejor ha envejecido. Décadas de investigación sostienen que un cuidador previsible amortigua el efecto de casi todo lo demás, y que su ausencia lo multiplica. Bowlby y Ainsworth montaron esa teoría hace medio siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el trauma esas dos piezas se descompensan. El detector salta con estímulos que no tienen nada que ver, un portazo o un olor, y la torre de vigilancia llega tarde o no llega, así que la reacción entera ocurre antes de cualquier razonamiento. El portazo basta si suena parecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El modelo se parece mucho a otro que anda por este catálogo. Pensar rápido, pensar despacio describe un sistema automático y otro deliberado, y aquí ocurre lo mismo con el miedo: el rápido decide y el lento se entera después. Kahneman llegó ahí por otro camino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También apoya buena parte del argumento en el nervio vago y en la teoría polivagal de Stephen Porges, que explica las reacciones de lucha, huida y bloqueo por el estado del sistema nervioso autónomo y por las señales de seguridad social. Porges publicó esa teoría en 1994.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El corazón acelerado no espera permiso de la conciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un olor puede disparar la alarma sin que aparezca ninguna imagen.",
         },
         {
           forma: "clave",
-          rotulo: "Por qué el tiempo no cura",
-          frase: "El cuerpo sigue actuando como si el peligro continuara. No es que recuerde el pasado: es que no ha registrado que terminó.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "De ahí síntomas que parecen inconexos y no lo son: hipervigilancia, sobresaltos, insomnio, problemas digestivos, dolores crónicos sin causa detectable, dificultad para concentrarse y la sensación de estar mirándose desde fuera. Todo eso es un sistema de alarma que no se ha apagado.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Van der Kolk señala además algo que cambió su forma de tratar: mucha gente traumatizada no siente su propio cuerpo. No sabe si tiene hambre, si está cansada, dónde nota la tensión. Es una anestesia que empezó siendo protección — dejar de sentir cuando sentir era insoportable— y que después impide vivir.",
-          arte: "memoria",
+          rotulo: "El resumen",
+          frase: "La alarma se dispara sola y la parte que razona llega tarde.",
         },
       ],
     },
-
     {
-      titulo: "Lo que sí funciona",
+      titulo: "Segunda parada: diecisiete mil historiales de San Diego",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su conclusión práctica es la que hizo el libro famoso: si el trauma vive en el cuerpo, el tratamiento tiene que pasar por el cuerpo. Hablar ayuda, pero no basta, y en algunos casos repetir el relato una y otra vez reactiva la herida sin cerrarla.",
+            "El otro pilar del libro no es de neurología, sino de estadística. A mediados de los noventa, un médico de una aseguradora de California, Vincent Felitti, notó que muchos pacientes de una clínica de obesidad abandonaban justo cuando empezaban a adelgazar. El hallazgo apareció donde nadie lo buscaba.",
         },
         {
           forma: "texto",
           texto:
-            "Repasa lo que ha visto funcionar en sus pacientes: terapias que trabajan con la atención corporal, yoga adaptado —donde lo importante no es la postura sino volver a notar el cuerpo sin miedo—, respiración lenta, teatro, artes marciales, coros. Cosas donde uno se mueve con otros y recupera la sensación de tener control.",
+            "Aquella clínica de obesidad tenía un problema que nadie entendía. Los pacientes que más peso perdían eran los que más abandonaban, justo al revés de lo esperado, y Felitti empezó a entrevistarlos uno por uno para averiguar por qué. Las entrevistas duraban cerca de una hora cada una.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La conversación que lo desencadenó todo fue un error de mecanografía. Felitti contó que preguntó a una paciente cuánto pesaba al empezar su vida sexual, se equivocó al formular la pregunta y ella respondió que veinte kilos, y tenía cuatro años. Aquella respuesta cambió toda su carrera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel error de formulación abrió una línea de preguntas que nadie hacía. Felitti empezó a incluirlas en las entrevistas de rutina, encontró historias parecidas en muchas pacientes y decidió que el patrón merecía un estudio grande y bien financiado. Los Centros para el Control de Enfermedades acabaron financiándolo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al preguntarles por qué apareció un patrón que no buscaba. Una parte importante había sufrido abusos en la infancia, y para varios de ellos el peso funcionaba como una protección que no querían perder, aunque nunca lo hubieran dicho en voz alta. Nadie les había preguntado eso nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí salió el estudio de experiencias adversas en la infancia. Felitti y Robert Anda pasaron un cuestionario de diez preguntas a más de diecisiete mil adultos afiliados a Kaiser Permanente y cruzaron las respuestas con su historial médico completo. El trabajo se publicó en 1998.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuestionario es corto y sigue circulando. Pregunta por abuso físico, sexual y emocional, por negligencia, por divorcio, por violencia contra la madre, por adicción, por enfermedad mental y por encarcelamiento de alguien de la casa. Se puede contestar en cinco minutos y está en internet.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La puntuación va de cero a diez y se calcula sumando categorías, no episodios. Alguien que sufrió un tipo de abuso durante años suma lo mismo que quien lo sufrió una vez, y esa es una de las limitaciones que se le señalan al instrumento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una segunda limitación más incómoda. La escala no mide lo que vino después: dos personas con la misma puntuación pueden haber tenido una infancia idéntica y una vida adulta completamente distinta, y el cuestionario no distingue entre ellas. Tampoco pregunta por quién estuvo al lado en aquellos años.",
         },
         {
           forma: "clave",
-          rotulo: "El otro pilar",
-          frase: "La seguridad viene de otras personas. Nadie se recupera del trauma en soledad.",
+          rotulo: "La escala",
+          frase: "Diez preguntas sobre la infancia: abusos, negligencia, adicciones o violencia en casa.",
         },
         {
           forma: "texto",
           texto:
-            "Lo dice con una precisión que importa: no vale cualquier compañía. Hace falta al menos una persona ante la cual puedas dejar de estar en guardia, y eso es justamente lo que el trauma dificulta, porque enseña a desconfiar. Por eso, dice, la primera parte del tratamiento suele ser la más lenta.",
+            "El resultado fue una escalera limpia. Cuantas más experiencias adversas marcaba una persona, más probabilidad tenía de depresión, adicción, obesidad, enfermedad pulmonar y cardiopatía, y la relación se mantenía subiendo hasta los valores más altos del cuestionario. Ese tipo de relación es lo que convence a un epidemiólogo.",
         },
         {
           forma: "texto",
           texto:
-            "Dedica bastante espacio al <em>EMDR</em>, una terapia que combina el recuerdo con movimientos oculares dirigidos y que a él mismo le pareció inverosímil hasta que vio los resultados. Hoy tiene respaldo en ensayos clínicos y está en las guías de tratamiento, aunque sigue sin haber acuerdo sobre por qué funciona.",
+            "Algunos de los números que salieron eran fuertes. Quienes marcaban cuatro o más experiencias tenían varias veces más riesgo de depresión y de alcoholismo que quienes no marcaban ninguna, y aparecían diferencias hasta en enfermedades pulmonares y cardíacas. El riesgo de intento de suicidio se multiplicaba por doce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir también cómo estaban repartidas las respuestas. Cerca de dos tercios de aquellos adultos marcaron al menos una experiencia adversa, lo que sorprendió a los investigadores porque era una población acomodada y con seguro médico privado. El estudio arrancó en las consultas de un chequeo rutinario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato se usa a veces del revés y conviene aclararlo. Que dos tercios marquen algo no significa que dos tercios estén traumatizados: significa que las experiencias adversas son comunes y que la mayoría de la gente sale adelante con ellas. La resiliencia también es un dato del estudio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Van der Kolk usa esos números para el argumento más ambicioso del libro. Si lo que ocurre en la infancia deja marca en la salud física de un adulto de cincuenta años, entonces el trauma no es un asunto de salud mental sino de salud pública.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar hasta dónde llega ese estudio. Es correlacional y retrospectivo: la gente contestaba de memoria sobre su propia infancia, no se siguió a nadie desde niño, y la muestra eran afiliados con seguro médico privado de San Diego, en su mayoría blancos. Nada de eso se pensó como muestra representativa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no invalida el hallazgo, lo acota. La asociación se ha reproducido en muchos países y sigue siendo sólida, y lo que no permite el diseño es afirmar que cada enfermedad concreta de un adulto concreto viene de lo que le pasó a los ocho años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con los niños propone además un diagnóstico propio. Lo llamó trastorno traumático del desarrollo, para los que crecen en casas violentas y llegan a la consulta con seis etiquetas distintas, y lo presentó a la comisión del manual psiquiátrico. La propuesta llevaba años trabajándose con otros clínicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema que quiere resolver es real y lo describe bien. Un niño criado en una casa violenta llega a la consulta con etiquetas de déficit de atención, oposicionismo, ansiedad y trastorno del ánimo, y ninguna de ellas menciona lo que le pasó. Ese niño acaba con cuatro recetas distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su propuesta pretendía juntar todo eso en un solo diagnóstico. Con un nombre único, argumentaba, se trataría la causa en vez de perseguir síntomas sueltos con cuatro medicaciones distintas, que es lo que ocurre con demasiada frecuencia. El manual psiquiátrico se revisa cada quince o veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El rechazo de 2011 no cerró el asunto del todo. En 2018, la Organización Mundial de la Salud incluyó en su propia clasificación un trastorno de estrés postraumático complejo, que recoge buena parte de lo que él quería describir. Aquella clasificación se usa hoy en buena parte de Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comisión lo rechazó en 2011 por falta de datos suficientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuestionario original sigue usándose en atención primaria.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El giro",
+          frase: "La pregunta deja de ser qué te pasa y pasa a ser qué te pasó.",
         },
       ],
     },
-
     {
-      titulo: "Lo que hay que matizar",
+      titulo: "Tercera parada: el catálogo de terapias y lo que aguanta",
       tarjetas: [
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "El libro se convirtió en un fenómeno cultural y ahí empezaron los problemas. Su frase título se usa hoy para explicar cualquier dolor de espalda o cualquier malestar, y esa lectura no está en el libro: van der Kolk habla de trauma clínico, no de que todo síntoma físico esconda una herida emocional.",
-          arte: "explorar",
+            "La segunda mitad del libro es un recorrido por tratamientos. Van der Kolk describe uno por uno los que ha usado en su centro, casi siempre con un caso clínico delante y con la misma estructura: paciente estancado, técnica nueva, mejoría visible. El orden de los capítulos no es casual.",
         },
         {
           forma: "texto",
           texto:
-            "Hay críticas técnicas serias. Algunos de los estudios que cita son pequeños o antiguos, su defensa del yoga y del neurofeedback se apoya en evidencia más flaca de lo que sugiere el tono, y varios investigadores le reprochan presentar como establecido lo que aún se discute.",
+            "Esa estructura repetida es a la vez su fuerza y su trampa. Los casos están contados con oficio y se leen como relatos, y a la vez un caso bien contado no demuestra nada, porque nadie escribe el capítulo del paciente que no mejoró. Los casos convencen antes que las cifras.",
         },
         {
           forma: "texto",
           texto:
-            "Y un aviso práctico: es un libro duro. Contiene descripciones detalladas de abusos y violencia. A mucha gente le ha servido para poner nombre a lo que le pasa; a otra le ha removido cosas sin tener a nadie al lado. No sustituye a un tratamiento.",
+            "Ese sesgo tiene nombre en investigación clínica. Se llama sesgo de publicación cuando afecta a los estudios, y en un libro de casos aparece de manera aún más cruda, porque el autor elige qué historias cuenta y no tiene que justificar la selección. Ningún libro de casos escapa a eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La manera honrada de leer esos capítulos es como inventario de opciones. Aquí están las cosas que se han probado, con casos que ilustran para qué sirven, y la solidez de cada una hay que buscarla fuera del libro. Las guías clínicas oficiales existen justo para eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero es el EMDR, una terapia en la que el paciente recuerda la escena mientras sigue con los ojos el dedo del terapeuta. Él mismo dirigió en 2007 un ensayo comparándolo con un antidepresivo, y salió bien parado frente a la pastilla. Aquel ensayo tenía ochenta y ocho participantes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El origen de la técnica es tan raro como suena. La psicóloga Francine Shapiro contó que en 1987, paseando por un parque, notó que mover los ojos de lado a lado le rebajaba la angustia de un pensamiento, y a partir de ahí montó el método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella explicación nunca ha convencido a nadie del todo, y no hace falta que convenza. Que el relato del descubrimiento sea flojo no dice nada sobre si la terapia funciona: eso se decide con ensayos, y los ensayos han sido razonablemente favorables. El origen anecdótico se cita para desacreditarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los metaanálisis más recientes colocan al EMDR a la altura de la terapia cognitivo-conductual centrada en el trauma, que es el otro tratamiento de primera línea. Ninguno de los dos funciona con todo el mundo y los abandonos son altos en ambos. Aproximadamente un tercio no responde a nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí hay que separar dos cosas que se confunden siempre. Que el EMDR funciona para el estrés postraumático está bastante bien establecido, y de hecho lo recomienda la Organización Mundial de la Salud desde 2013 como tratamiento de primera línea. La recomendación se ha mantenido desde entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo discutido es el movimiento de los ojos. Los estudios que desmontan la terapia en piezas y quitan la parte ocular obtienen resultados parecidos, de modo que buena parte del efecto podría venir de la exposición al recuerdo y no del vaivén. El propio gremio del EMDR discute esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después vienen el yoga y la respiración. Su propio ensayo, publicado en 2014 con sesenta y cuatro mujeres con estrés postraumático crónico, encontró mejorías moderadas tras diez semanas de clases, con un grupo de control que hacía otra actividad. Las participantes llevaban años sin responder a otros tratamientos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respiración aparece por una razón concreta. Es la única función del sistema nervioso autónomo que se puede manejar a voluntad, así que sirve de mando manual para bajar el pulso cuando la alarma se ha disparado sin motivo. Alargar la exhalación baja el pulso en pocos segundos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Respira, de James Nestor, que también está en este catálogo, recorre el mismo territorio desde otro lado. Nestor va a la mecánica y a la nariz; van der Kolk va al sistema de alarma, y los dos acaban recomendando alargar la exhalación. Ninguno de los dos inventó esa técnica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por qué dormimos, de Matthew Walker, ofrece una comparación distinta y útil. Los dos son libros de un investigador que defiende su campo con entusiasmo, los dos se han vuelto enormemente influyentes y a los dos se les ha señalado que estiran los datos. Los dos venden muchísimo y por lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El neurofeedback es el capítulo más entusiasta y el peor sostenido. Consiste en entrenar las ondas cerebrales con una pantalla, y el ensayo aleatorizado que él publicó en 2016 tenía cincuenta y dos participantes y no se ha replicado a gran escala. El equipo necesario es caro y poco accesible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aparecen además el teatro, el psicodrama, la terapia de sistemas familiares internos y las sesiones asistidas con MDMA. De esas, la última es la que más ha avanzado, con ensayos posteriores que llegaron a fase tres y con una decisión regulatoria negativa en 2024. El campo ha cambiado mucho desde 2014.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo del teatro es el más sorprendente del libro. Describe programas en los que adolescentes con historias muy duras montan obras de Shakespeare, y su argumento es que representar una emoción con el cuerpo entero es distinto de contarla sentado. El argumento es antiguo y sigue sin medirse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El programa que describe con más detalle trabajaba con chicos del sistema de protección de menores en Boston. Ensayaban durante meses, actuaban delante de público y el autor sostiene que aquello les cambiaba la postura y la manera de mirar. Ningún grupo de control aparece por ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que ese capítulo puede y no puede demostrar. Que un programa de teatro le venga bien a un adolescente es creíble y está poco medido, y el libro no distingue entre lo que ha ensayado y lo que simplemente ha visto funcionar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El patrón del libro es reconocible y conviene verlo. Casi todas las técnicas que defiende son técnicas en las que él está implicado como investigador, como formador o como director del centro que las aplica, y eso no se declara en cada capítulo. Nada de eso implica mala fe por su parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene precisar lo que el libro no dice. No dice que hablar sea inútil ni que los fármacos sobren: dice que la palabra sola se queda corta y que la medicación calma el síntoma sin tocar la respuesta del cuerpo. Él mismo receta cuando hace falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El yoga que estudió era una clase semanal de una hora.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El criterio",
+          frase: "Casi todo lo que propone pasa por mover el cuerpo o por regular la respiración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna de esas terapias funciona en todo el mundo.",
+        },
+      ],
+    },
+    {
+      titulo: "Destino: por qué este libro acabó siendo una autoridad",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2021 ocurrió algo raro con este libro. Siete años después de publicarse, y sin campaña ni película detrás, llegó al número uno de la lista de bolsillo del New York Times y se quedó allí semanas, en plena pandemia y empujado por vídeos de adolescentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los datos de ese fenómeno son llamativos. El libro había vendido bien desde 2014 sin ser un éxito masivo, y a partir de 2020 empezó a aparecer recomendado en redes sociales hasta acumular más de trescientas semanas en las listas. La edición de bolsillo es la que despegó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese recorrido dice algo sobre el momento. Millones de personas encerradas en casa, con más tiempo y menos distracciones, encontraron un libro que ofrecía una explicación de por qué se sentían mal de una manera que no sabían nombrar. Casi nadie llega a un libro así por casualidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale también el reproche más frecuente al fenómeno. Un libro escrito para clínicos acabó funcionando como manual de interpretación personal, y mucha gente se autodiagnostica con él sin que nadie revise si el diagnóstico encaja. Un diagnóstico no se hace leyendo, ni siquiera leyendo bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese éxito tardío cambió el vocabulario de mucha gente. Palabras que estaban en las consultas —trauma, disparador, regulación, hipervigilancia— pasaron a usarse en conversaciones normales, a veces con precisión y muy a menudo para nombrar cualquier cosa desagradable. Las palabras técnicas se gastan cuando salen de la consulta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio van der Kolk ha avisado del riesgo. Ha dicho en entrevistas que le preocupa que la palabra trauma se use para todo, porque cuando una categoría lo abarca todo deja de servir para distinguir a quien necesita ayuda de quien está incómodo. La advertencia llegó cuando ya era tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La distinción que hace falta es la que el uso popular borra. Una experiencia dolorosa no es un trauma: el trauma es lo que ocurre cuando esa experiencia deja el sistema de alarma calibrado de otra manera durante meses o años. El tiempo es aquí el criterio más útil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa diferencia importa para saber cuándo pedir ayuda. Si semanas después de algo duro el sueño, la concentración y las reacciones han vuelto más o menos a su sitio, el sistema se ha recolocado solo, que es lo que ocurre en la mayoría de los casos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio libro empuja un poco en esa dirección. Su marco es tan amplio que casi cualquier malestar encaja dentro, y la promesa implícita de que hay una explicación corporal para lo que uno siente resulta difícil de resistir. Una explicación física resulta más aceptable que una psicológica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar qué significa que el cuerpo lleve la cuenta. No es que los recuerdos se guarden en los músculos: es que el sistema nervioso queda calibrado en modo de alerta y responde antes y más fuerte de lo que la situación pide. La metáfora del título se toma demasiado literal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte más discutida por los especialistas es la teoría polivagal. Varios fisiólogos sostienen que sus supuestos sobre la evolución del nervio vago no se sostienen con los datos comparados, y que la teoría se ha extendido mucho más allá de lo que puede demostrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La crítica más citada es la del fisiólogo Paul Grossman, que lleva años sosteniendo que las premisas anatómicas y evolutivas de la teoría polivagal no encajan con lo que se sabe del sistema nervioso de los mamíferos y de los reptiles. El debate se ha vuelto bastante áspero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Porges ha respondido a esas objeciones y la discusión sigue abierta en las revistas. Lo que casi nadie discute es la parte práctica: que respirar despacio, cantar o estar con alguien de confianza baja la activación, aunque el mecanismo se explique de otro modo. Las prácticas sobreviven a sus explicaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el patrón de casi todas las críticas serias al libro. La descripción clínica se sostiene, las recomendaciones prácticas suelen ser razonables y lo que falla es el andamiaje teórico con el que se explica por qué funcionan. Sirve como descripción y falla como teoría general.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La otra sombra viene de los años noventa. Van der Kolk defendió entonces la amnesia traumática y participó como perito en juicios por recuerdos recuperados, un terreno que sigue enfrentado con la investigación sobre lo maleable que es la memoria. Aquella discusión llegó a los tribunales muchas veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella pelea se conoció como la guerra de las memorias. De un lado, clínicos que sostenían que un abuso puede olvidarse durante años y recuperarse después; del otro, investigadores como Elizabeth Loftus, que demostraron lo fácil que es implantar un recuerdo falso. Loftus llegó a recibir amenazas por ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto en el que hoy hay más acuerdo es intermedio y poco satisfactorio. Se puede no pensar en algo durante años y recordarlo después, y también se puede construir un recuerdo detallado de algo que no ocurrió, y desde fuera se parecen mucho. Ningún test distingue hoy entre los dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí termina el viaje que empezó con un abogado durmiendo dentro de su coche. Un libro que empezó siendo la queja de un psiquiatra contra su propio gremio acabó convertido en la manera en que millones de personas se explican a sí mismas. Pocos libros clínicos acaban así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2018 dejó el centro que había fundado. La institución que lo gestionaba lo destituyó tras quejas internas de trabajadores sobre su manera de dirigir, él lo negó públicamente y el asunto se llevó bastante mal en la profesión. Siguió publicando y dando conferencias por todo el mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de eso borra lo que el libro hizo bien. Puso en el centro una pregunta que la psiquiatría había arrinconado, describió con precisión lo que sienten los pacientes y devolvió el cuerpo a una conversación que llevaba décadas siendo solo mental. El mérito y los reparos conviven perfectamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La manera sensata de leerlo es como punto de partida. Sirve para entender qué le ocurre a alguien y para saber que hay algo que hacer, y no sirve como catálogo de tratamientos con las pruebas ordenadas por solidez. Conviene contrastar cada terapia con una guía clínica actual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna de sus terapias sustituye a un diagnóstico hecho por alguien.",
         },
         {
           forma: "clave",
           rotulo: "Para llevarte",
-          frase: "Si tu cuerpo reacciona a algo que tu cabeza sabe que ya pasó, no estás fallando. Estás con la alarma encendida.",
+          frase: "Si el cuerpo aprendió a esperar peligro, hay que enseñarle otra cosa, y no solo contársela.",
         },
         {
           forma: "texto",
           texto:
-            "Antes de cerrar conviene rescatar el capítulo sobre la infancia, que es el corazón del libro. Van der Kolk trabajó con niños maltratados y descubrió que casi ninguno encajaba en los diagnósticos disponibles: se les etiquetaba de hiperactivos, oposicionistas o bipolares, y se les medicaba. Su equipo propuso una categoría nueva —trauma del desarrollo— que la asociación psiquiátrica estadounidense rechazó. Su argumento sigue en pie: a un niño que creció en peligro constante no se le está tratando la enfermedad, se le está tratando la adaptación que le mantuvo vivo.",
+            "Sigue siendo el libro sobre trauma más leído del mundo.",
         },
       ],
     },
