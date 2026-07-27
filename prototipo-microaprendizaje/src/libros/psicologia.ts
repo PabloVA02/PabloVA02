@@ -2705,120 +2705,633 @@ export const SIETE_HABITOS: Resumen = {
   titulo: "Los 7 hábitos de la gente altamente efectiva",
   autor: "Stephen Covey",
   ano: 1989,
-  gancho: "Estudió doscientos años de literatura sobre el éxito y encontró un corte claro en 1920: antes hablaban de carácter, después de técnicas.",
+  gancho: "Leyó doscientos años de libros sobre el éxito y encontró un corte hacia 1920: antes hablaban de carácter, después de técnicas.",
   porQue:
-    "Cuarenta millones de ejemplares. Es el manual de desarrollo personal más vendido de la historia y sus siete reglas siguen siendo difíciles de rebatir.",
+    "Es el manual de desarrollo personal más vendido de la historia, y sus siete reglas siguen siendo difíciles de rebatir aunque el libro no demuestre ninguna.",
   partes: [
     {
-      titulo: "El corte de 1920",
+      titulo: "Salida: doscientos años de libros sobre el éxito",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Covey hizo su tesis revisando toda la literatura sobre el éxito publicada en Estados Unidos desde 1776. Encontró un cambio nítido a partir de los años veinte: los libros anteriores hablaban de integridad, humildad, justicia y paciencia; los posteriores, de técnicas de personalidad, actitud positiva y habilidades para caer bien.",
+            "Para su tesis doctoral, Stephen Covey se puso a leer todo lo que se había publicado en Estados Unidos sobre cómo triunfar en la vida desde 1776. Doscientos años de manuales, sermones, biografías y folletos, y al ordenarlos por fecha apareció un corte que no esperaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella tesis la leyó en 1976 y trataba de otra cosa en apariencia. Era un trabajo sobre desarrollo del liderazgo, y la revisión histórica ocupaba solo una parte, pero fue la parte que Covey siguió usando en clase durante los trece años siguientes. El corte le siguió pareciendo evidente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El método de aquella revisión era modesto y él lo dice. No había índices informáticos ni bases de datos: se trataba de leer, tomar notas y ordenar por décadas, y el corte de los años veinte apareció mirando montones de fichas encima de una mesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar el alcance de aquel hallazgo. Covey revisó literatura publicada en Estados Unidos y en inglés, así que el corte que describe es el de una cultura concreta en un momento concreto, no una ley general sobre cómo piensa la humanidad. Fuera de allí el corte puede no existir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los libros anteriores a los años veinte hablaban de otra cosa. Insistían en la integridad, la humildad, la justicia, la paciencia y el trabajo, y daban por hecho que el éxito era la consecuencia lenta de haberse construido un carácter decente. El éxito llegaba, si llegaba, al final.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Los dos nombres que les puso",
+          frase: "Ética del carácter, hasta 1920. Ética de la personalidad, desde entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los posteriores hablaban de imagen, actitud, técnicas para caer bien y trucos para influir en los demás. Covey no dice que eso sea mentira: dice que son la capa de arriba, y que funcionan solo cuando debajo hay algo, y que sin ese algo se notan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ejemplo para explicar la diferencia es de agricultor. Se puede aprobar un examen empollando la noche antes porque el sistema escolar lo permite, pero nadie siembra en otoño y recoge en invierno gritándole a la tierra: la granja no admite atajos de última hora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa comparación agrícola vuelve una y otra vez a lo largo del libro. La usa para el estudio, para las dietas, para la crianza y para las empresas, y siempre con la misma conclusión: hay sistemas que perdonan los atajos y sistemas que no. La escuela sí perdona; la tierra no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él mismo venía de una granja pequeña. Su familia tenía tierra y ganado en Utah, pasó veranos trabajando allí de crío, y las metáforas de siembra y cosecha que llenan el libro no son adorno literario: son el vocabulario con el que creció. De ahí también le viene el tono.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quien escribía aquello no era un gurú de escenario. Covey había nacido en Salt Lake City en 1932, tenía un máster en administración por Harvard y un doctorado por la Universidad Brigham Young, donde daba clases de comportamiento organizativo y dirección de empresas. Su doctorado fue en educación religiosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes del libro llevaba veinte años dando cursos a empresas. Ese oficio se le nota en cada página: los ejemplos están probados delante de un público, las ideas vienen numeradas y cada capítulo termina con ejercicios prácticos para hacer esa misma semana. Escribía como quien lleva tiza en la mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese oficio también explica un defecto del texto. Los libros que salen de un curso repiten mucho, porque en una sala hay que insistir para que algo cale, y en papel esa insistencia se convierte en párrafos que dicen lo mismo tres veces. Leído del tirón, cansa bastante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí viene el consejo de lectura que dan casi todos sus lectores veteranos. Leer los capítulos uno, tres y siete, hacer los ejercicios de esos tres y volver a los demás solo si el método ha empezado a funcionar de verdad. Los otros cuatro se entienden después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su religión está debajo de todo el libro aunque casi nunca aparezca. Era mormón practicante, había sido misionero en Inglaterra y había publicado antes varios libros para lectores de su iglesia, y de ahí vienen el tono, los principios y la insistencia en la familia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 1989 y no fue un éxito inmediato. Empezó a venderse por recomendación, primero en cursos de empresa y después en librerías corrientes, y tardó varios años en convertirse en el fenómeno que hoy se da por descontado. Las primeras tiradas fueron modestas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cifra que se repite conviene mirarla de cerca. Se habla de cuarenta millones de ejemplares, un número que da la propia editorial sumando todas las ediciones y traducciones desde 1989, y que incluye las versiones de bolsillo, las revisadas y las regaladas en cursos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está claro es su sitio en las listas. Aparece de forma constante entre los libros de empresa más vendidos del siglo veinte, se ha traducido a más de cuarenta idiomas y sigue vendiendo décadas después de la muerte de su autor. Ninguna lista del sector lo deja fuera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una cifra que se cita menos y dice más. Una encuesta de finales de los noventa preguntó a directivos estadounidenses qué libro de gestión les había influido, y este apareció el primero por delante de todos los clásicos del sector. Ningún clásico de gestión se le acercó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su fama pasó también por la política. Una revista lo incluyó a mediados de los noventa entre los estadounidenses más influyentes, y estuvo asesorando en la Casa Blanca durante aquella década, lo que multiplicó las ventas más que cualquier campaña de la editorial. Aquel reconocimiento le abrió todas las puertas.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La escena que mejor explica el libro ocurre en un vagón de metro. Unos niños corren y gritan y el padre mira al suelo sin hacer nada, hasta que alguien se lo reprocha y el hombre contesta que vienen del hospital, que la madre acaba de morir.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cambio de mirada es lo que él llama un cambio de paradigma.",
+        },
+        {
+          forma: "clave",
+          rotulo: "De dónde saca la palabra",
+          frase: "De la historia de la ciencia, donde significaba otra cosa bastante más estricta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro entero va de cambiar el mapa antes que la ruta.",
+        },
+      ],
+    },
+    {
+      titulo: "Primera parada: los tres primeros, la victoria privada",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Los siete hábitos están ordenados y el orden importa. Los tres primeros llevan de la dependencia a la independencia, los tres siguientes de la independencia a la interdependencia, y el séptimo mantiene los seis anteriores en funcionamiento a lo largo del tiempo. Saltarse el orden estropea el método.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A esa escalera la llama continuo de madurez. Se empieza dependiendo de otros, se pasa a valerse por uno mismo y la meta no es quedarse ahí, sino llegar a depender de otros por elección y no por necesidad, que es cosa distinta. Casi nadie llega al tercer escalón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese esquema tiene una consecuencia práctica sobre el orden de lectura. No sirve de nada intentar el cuarto hábito, el de los acuerdos con otros, si uno todavía no controla su propia agenda: el libro está construido para leerse y aplicarse en orden. Leerlo salteado es el error habitual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale también su crítica a la mayoría de cursos de gestión. Enseñan técnicas de equipo y de negociación a personas que no han resuelto todavía su propia agenda, y el resultado, dice, son reuniones muy bien conducidas donde no se decide nada. Todo el mundo prepara reuniones ajenas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El primero es ser proactivo, y no significa tener iniciativa. Significa aceptar que entre lo que te pasa y lo que haces hay un hueco, y que ese hueco es tuyo: nadie puede ofenderte sin que tú prestes algo de tu parte al asunto. La palabra la usaba ya la psicología.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra contraria en su vocabulario es reactivo. El reactivo habla de lo que le hacen, dice que no puede, que así es él y que no hay más remedio; el proactivo dice qué va a hacer con lo que le ha pasado. El vocabulario delata la postura enseguida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Propone además un experimento de treinta días para notar la diferencia. Consiste en vigilar durante un mes el propio lenguaje, cambiar cada tengo que por elijo y cada no puedo por prefiero, y comprobar qué frases se resisten a la traducción. Un mes basta para notar el cambio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese ejercicio ha sido copiado en medio mundo sin citar la fuente. Aparece en cursos de comunicación, en terapias breves y en libros posteriores, casi siempre presentado como una técnica nueva, y viene de tres páginas del primer capítulo de este libro. Nadie se acuerda ya de dónde salió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para explicarlo dibuja dos círculos. Uno grande, el de la preocupación, con todo lo que te inquieta y no controlas; otro pequeño dentro, el de la influencia, con lo que sí depende de ti, y la regla es trabajar solo dentro del pequeño. Fuera de él solo queda la queja.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La consecuencia",
+          frase: "El círculo pequeño crece cuando se usa, y se encoge cuando uno se pasa el día en el grande.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo es empezar con el fin en la mente, y lo enseña con un ejercicio incómodo. Pide imaginar el propio funeral dentro de tres años y qué dirían cuatro personas al hablar: alguien de la familia, un amigo, un compañero de trabajo y alguien de la comunidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejercicio funciona porque obliga a ordenar por importancia sin decirlo. Nadie imagina que en su funeral alguien elogie su bandeja de entrada vacía, y esa comprobación silenciosa es la que hace el trabajo que no harían diez páginas de argumentos. Cuatro voces bastan para ordenar una vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hábitos atómicos, de James Clear, que anda por este catálogo, ataca el mismo problema desde el otro extremo. Clear empieza por el gesto de dos minutos y confía en que la identidad venga detrás; Covey empieza por la identidad y espera que ordene los gestos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos estrategias tienen su punto débil y conviene verlo. La de Clear puede acabar en una colección de rutinas sin dirección; la de Covey, en un texto de misión muy bonito colgado en la pared que no cambia nada del martes por la mañana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ese ejercicio sale lo que él llama un enunciado de misión personal. Es un texto corto, escrito a mano y revisado cada cierto tiempo, donde uno pone qué quiere ser y según qué principios, para poder consultarlo cuando haya que decidir algo. Conviene revisarlo una vez al año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercero es poner primero lo primero, y es el que ha hecho famoso al libro. Reparte todo lo que uno hace en cuatro casillas según dos ejes: si es urgente o no lo es, y si es importante o no lo es. De ese cuadro salió media industria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La casilla que le interesa es la segunda: importante y no urgente. Ahí caben la prevención, la planificación, el ejercicio, aprender algo y cuidar una relación, y son cosas que no gritan nunca, así que solo se hacen si uno las mete en el calendario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su diagnóstico sobre el cuadrante uno es duro y bastante certero. Mucha gente vive instalada en lo urgente e importante porque le da sensación de utilidad, y de ahí se cae directamente al cuadrante cuatro, el de la distracción, por puro agotamiento. El agotamiento se paga siempre en distracción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Céntrate, de Cal Newport, que también está en este catálogo, es el cuadrante dos convertido en libro entero. Newport dedica trescientas páginas a defender bloques largos de trabajo concentrado, que es exactamente lo que Covey pide en un capítulo y sin instrucciones. Newport aporta las instrucciones que faltaban.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que el cuadro no promete tiempo libre. Covey no dice que trabajando en el cuadrante dos se trabaje menos: dice que se trabaja en otras cosas, y que la sensación de urgencia baja porque muchos incendios dejan de producirse antes de empezar. Sigue habiendo jornada completa, con otro contenido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuadro no es invento suyo y conviene decirlo. La distinción entre lo urgente y lo importante se atribuye a Eisenhower, que la citaba de un rector universitario cuyo nombre no daba, y Covey la recoge, le pone ejes y la convierte en herramienta. El nombre de aquel rector nunca apareció.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuadrante uno, urgente e importante, siempre existirá.",
         },
         {
           forma: "clave",
           rotulo: "Su diagnóstico",
-          frase: "Se pasó de la ética del carácter a la ética de la personalidad. De ser bueno a parecerlo.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Su objeción es práctica, no moral: las técnicas funcionan a corto plazo y se caen a la primera. Si tratas bien a alguien con una técnica pero por dentro le desprecias, lo acabará notando, porque comunicamos mucho más de lo que decimos. Lo que se sostiene en el tiempo es lo que uno es.",
-          arte: "museo",
+          frase: "Quien vive en el uno acaba escapándose al cuatro, que es donde no hay ni urgencia ni sentido.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí su idea de los paradigmas: cada uno lleva un mapa mental del mundo y lo confunde con el mundo. Cambiar de conducta sin cambiar el mapa es andar más rápido en la dirección equivocada.",
+            "El truco está en robarle horas al tres, el de lo urgente y ajeno.",
         },
       ],
     },
     {
-      titulo: "Los tres primeros: la victoria privada",
+      titulo: "Segunda parada: los tres siguientes, la victoria pública",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "<strong>Uno: sé proactivo.</strong> No significa tener iniciativa: significa que entre lo que te pasa y cómo respondes hay un espacio, y ese espacio es tuyo. Covey propone distinguir el <em>círculo de preocupación</em> —todo lo que te inquieta— del <em>círculo de influencia</em>, lo que puedes tocar. Quien invierte su energía en el primero, ve encogerse el segundo.",
-        },
-        {
-          forma: "clave",
-          rotulo: "Dos: empieza con el fin en mente",
-          frase: "Imagina tu propio funeral y qué te gustaría que dijeran de ti los que hablen. Después trabaja hacia atrás.",
+            "Antes de los tres siguientes mete una imagen que se le ha copiado mucho. Cada relación tiene una cuenta corriente donde se ingresa con detalles pequeños, cumplir lo prometido o pedir perdón, y se retira con desprecios, y el saldo determina lo que aguanta esa relación.",
         },
         {
           forma: "texto",
           texto:
-            "Es un ejercicio duro y es el corazón del libro. Suele revelar que lo que uno quiere que se diga de él no tiene nada que ver con aquello a lo que le dedica el día. De ahí sale su propuesta de escribir un enunciado personal de misión, en el que Covey insistía en que se tarda semanas.",
+            "La imagen de la cuenta bancaria explica bien por qué se rompen las relaciones. No se rompen por un episodio grande, sino porque el saldo llevaba años bajando con retiradas pequeñas, y llega un día en que ya no hay fondo para aguantar un roce.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "<strong>Tres: primero lo primero.</strong> Su matriz de cuatro cuadrantes cruza urgente con importante. Casi todo el mundo vive en lo urgente e importante —crisis— y en lo urgente y no importante —interrupciones, mensajes, reuniones ajenas—. Lo que casi nadie protege es el segundo cuadrante: importante y no urgente. Ahí están la salud, las relaciones, la planificación y el aprendizaje.",
-          arte: "aprendizaje",
+            "Los ingresos que enumera son muy poco espectaculares. Entender a la otra persona, cuidar los detalles pequeños, cumplir lo que se promete, dejar claro qué se espera de cada uno, ser leal cuando el otro no está delante y pedir perdón de verdad. Ninguno de los seis cuesta dinero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle sobre pedir perdón es de los mejores del libro. Sostiene que disculparse mal cuesta más caro que no disculparse, porque un perdón con excusa detrás se lee como una retirada más, y que solo funciona cuando no lleva ningún pero pegado. Un perdón a medias descuenta dos veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuarto hábito es pensar en ganar y ganar. Lo presenta como una de seis posturas posibles ante cualquier trato: ganar y perder, perder y ganar, perder los dos, ganar sin más, ganar los dos, y una sexta que casi nadie recuerda. Las seis caben en media página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Covey insiste en que ganar y ganar no es una técnica de negociación. Es una postura sobre la vida: dar por hecho que hay suficiente para todos, en vez de creer que cada cosa que gana el otro es exactamente lo que uno pierde. La escasez la da por falsa casi siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cómo ganar amigos e influir sobre las personas, de Carnegie, que está en este catálogo, es justo el libro que Covey coloca en la ética de la personalidad. Reconoce que sus consejos funcionan, y sostiene que aplicados sin carácter detrás acaban oliendo a manipulación. Los dos libros se llevan cincuenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción es lo más útil que ofrece Covey como lector de otros libros. No descarta las técnicas: las coloca en su sitio, como la última capa de algo, y avisa de que la gente detecta el desajuste entre la técnica y la persona. El desajuste se huele antes de entenderlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La sexta es la que salva el hábito de la ingenuidad. Se llama ganar y ganar, o no hay trato: si no aparece una solución buena para los dos, la salida honesta es levantarse de la mesa sin acuerdo y sin resentimiento por ninguna parte.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El requisito",
+          frase: "Sin esa sexta opción, buscar el acuerdo mutuo se convierte en ceder siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El quinto es procurar primero comprender y después ser comprendido, y es el que más cuesta. Sostiene que casi nadie escucha para entender: se escucha para contestar, y mientras el otro habla uno está montando su respuesta o buscando un parecido con algo propio. Escuchar de verdad casi nunca se enseña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La prueba que propone es incómoda de hacer. Antes de dar tu opinión, tienes que resumir la del otro tan bien que él la reconozca y diga que sí, que eso es lo que quería decir, y solo entonces te toca hablar. Muy poca gente la pasa a la primera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A esa manera de escuchar la llama escucha empática. No es asentir ni repetir como un loro: consiste en reconstruir lo que el otro siente y por qué, con tus palabras, hasta que él confirme que has entendido antes de que tú abras la boca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El coste de esa práctica es real y él lo reconoce. Escuchar así lleva mucho más tiempo que dar un consejo, cansa, y en una jornada laboral no se puede hacer con todo el mundo: hay que elegir con quién se gasta ese esfuerzo. Fuera del trabajo esa cuenta también existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen que usa es la del óptico impaciente. Un oculista que se quita sus propias gafas, te las pone y te dice que a él le funcionan de maravilla; y eso, dice Covey, es exactamente lo que hacemos al dar consejos sin haber preguntado nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sexto es la sinergia, y es el más vaporoso de los siete. Sostiene que dos personas que se escuchan de verdad llegan a una tercera solución que ninguna llevaba preparada, y que la diferencia entre ambas es la materia prima de esa tercera vía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que da es de dos personas discutiendo un plan de vacaciones. Uno quiere lago y otro quiere ciudad; en vez de partir la diferencia, escuchan qué buscaba cada uno debajo del destino y acaban inventando un tercer viaje que ninguno había pensado. Partir por la mitad deja descontentos a dos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hábito es el que peor ha envejecido en el vocabulario. La palabra sinergia salió de aquí hacia las presentaciones de empresa y volvió convertida en chiste, hasta el punto de que hoy cuesta leer el capítulo sin sonreír por el desgaste del término. La idea sobrevivió peor que la palabra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dicho lo cual, la idea de debajo sigue en pie. Sostiene que dos personas que solo negocian reparten lo que ya hay, y que hace falta un rato incómodo de escucha para que aparezca una opción que no estaba sobre la mesa al empezar. Ese rato incómodo es todo el hábito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo esto se apoya en una fábula de Esopo que él usa como eje. La del granjero y la oca de los huevos de oro: quien abre la oca para sacarlos todos de golpe se queda con la oca muerta y sin huevo ninguno. La fábula tiene más de dos mil años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí saca la idea de equilibrio entre lo que produces y tu capacidad de producirlo. Un coche sin revisiones, un equipo exprimido o un cuerpo sin dormir dan mucho durante un tiempo y después dejan de dar nada, y eso no sale en ningún informe trimestral.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A esa idea la llama equilibrio entre producción y capacidad de producción.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La versión doméstica",
+          frase: "La oca es la relación. Los huevos son los favores que le pides.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi todos los conflictos del libro se explican con esa fábula.",
         },
       ],
     },
     {
-      titulo: "Los tres siguientes: con los demás",
+      titulo: "Tercera parada: lo que se le atribuye mal y donde falla",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "<strong>Cuatro: piensa en ganar/ganar.</strong> Covey enumera seis posturas posibles ante otro —ganar/perder, perder/ganar, perder/perder, ganar sin más— y defiende que solo una es sostenible. Y añade una quinta opción que la gente olvida: si no hay acuerdo bueno para ambos, se puede acordar no hacer el trato.",
+            "Conviene empezar por lo que el título promete y el libro no cumple. Suena a que alguien estudió a personas altamente efectivas y sacó siete rasgos comunes, y eso no ocurrió: no hay muestra, ni comparación, ni una sola medición en las trescientas y pico páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título tampoco es exactamente suyo. La palabra efectiva la eligió para distinguirse de eficiente, que era el vocabulario de moda en la gestión de aquellos años, y la diferencia le importaba: eficiente es hacer rápido, efectivo es hacer lo que hay que hacer. Aquella distinción venía de la gestión clásica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La definición que da de efectividad es muy concreta. No es producir mucho: es mantener el equilibrio entre lo que produces hoy y tu capacidad de seguir produciéndolo mañana, que es la lección de la oca aplicada a una persona y a una organización. Producir y poder producir pesan igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa definición explica por qué el libro no habla casi de dinero. La efectividad que describe se mide en si mañana sigues pudiendo hacer lo que hoy haces, y con ese criterio un año excelente que te deja agotado cuenta como un mal año. El agotamiento cuenta como pérdida contable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que hay es otra cosa, y no es poca. Una lectura enorme de literatura moral, una clasificación ordenada y muchísima anécdota familiar y de consultoría, contada por alguien que llevaba veinte años dando cursos y sabía exactamente qué ejemplos funcionan en una sala. Como catálogo de ideas morales, funciona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La atribución más famosa del libro es además falsa. Covey cuenta que Viktor Frankl escribió que entre el estímulo y la respuesta hay un espacio, y que en ese espacio está nuestra libertad, y esa frase no aparece en ningún libro de Frankl. Ni en las memorias del campo aparece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Varios investigadores han rastreado la cita a fondo. Han revisado la obra completa de Frankl en alemán y en inglés y no aparece ni la frase ni nada equivalente, y hoy la atribución se cita como caso de manual de dicho apócrifo. La frase se sigue citando cada día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que el error no invalida el hábito. La idea del espacio entre lo que pasa y lo que uno hace se sostiene sola, y lo que falla es la firma: se le puso el nombre de una autoridad moral para hacerla más pesada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso se ha convertido en un ejemplo clásico de cómo viajan las citas falsas. Alguien atribuye una frase razonable a una autoridad, el libro vende millones, y a partir de ahí la frase se cita desde el libro y ya nadie comprueba el original.",
         },
         {
           forma: "clave",
-          rotulo: "El quinto, el más citado",
-          frase: "Busca primero entender, y después ser entendido. Casi nadie escucha para comprender: escucha para contestar.",
+          rotulo: "Lo que el propio Covey admitió",
+          frase: "Que la leyó en un libro de una biblioteca de Hawái y no recordaba ni el título ni el autor.",
         },
         {
           forma: "texto",
           texto:
-            "Su ejemplo es un óptico que, antes de examinarte, se quita sus gafas y te las da porque a él le van muy bien. Eso, dice, es lo que hacemos al dar consejos: recetamos antes de diagnosticar. Su propuesta es reformular lo que ha dicho el otro con tus palabras hasta que él confirme que lo has entendido — y solo entonces hablar.",
+            "El hombre en busca de sentido, de Frankl, que anda por este catálogo, sí dice algo parecido con otras palabras. Habla de la última de las libertades humanas, la de elegir la actitud ante unas circunstancias dadas, y de ahí a la frase inventada hay un paso corto.",
         },
         {
           forma: "texto",
           texto:
-            "<strong>Seis: sinergia.</strong> Que la diferencia entre dos personas es el activo, no el problema. Si dos piensan igual, uno sobra. Y <strong>siete: afila la sierra</strong> — cuidar las cuatro dimensiones (física, mental, emocional y espiritual), porque quien sierra dieciséis horas sin parar a afilar corta cada vez menos.",
+            "El estilo es el otro problema y es difícil de defender. El libro inventa vocabulario propio para cosas que ya tenían nombre, repite cada idea tres veces con diagrama incluido y estira en trescientas cincuenta páginas un contenido que cabría holgadamente en ochenta. Casi nadie lo termina de una sentada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una diferencia de época que se nota al leerlo. En 1989 no existía la costumbre de escribir libros de ideas en trescientas páginas ligeras, y este pertenece a la escuela anterior: densa, con esquemas, tablas y una prosa de manual universitario. Los libros de ideas eran así entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese formato tiene también una ventaja que se olvida. El libro se puede usar como manual de consulta, capítulo por capítulo, saltando el resto, y los esquemas que hoy parecen pesados fueron durante años la mejor manera de recordar un método completo. Un esquema se recuerda mejor que un párrafo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La edición del treinta aniversario añadió comentarios de su hijo. Sean Covey escribió una introducción larga sobre cómo se aplican hoy los siete hábitos, y esa versión es la que más circula ahora, con el texto original prácticamente intacto por dentro. Aquella introducción no toca ningún hábito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene decir desde dónde está escrito. El mundo del libro es el de una familia americana de clase media de los años ochenta, con un padre que trabaja fuera, una madre que sostiene la casa y una empresa donde uno puede negociar de igual a igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su límite más serio, el del círculo de influencia. Es un consejo excelente para quien tiene margen, y bastante cruel para quien no lo tiene: hay problemas que no están dentro del círculo de nadie y que solo se arreglan entre muchos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio libro contiene la respuesta a esa objeción, a medias. Covey admite que el círculo de influencia de cada uno es de un tamaño distinto, pero no saca de ahí ninguna consecuencia, y el consejo sigue siendo el mismo para todos. El tamaño del círculo no lo elige uno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese punto ciego se ve mejor en los ejemplos que elige. Los conflictos que resuelve son un jefe y su equipo, un padre y su hijo, dos socios negociando; nunca aparece alguien sin trabajo, sin papeles o atrapado en una situación que no puede negociar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está la respuesta a por qué sigue leyéndose pese a todo. Quien tiene margen de decisión encuentra en estas páginas una secuencia clara y difícil de rebatir, y esa es exactamente la persona que compra libros de desarrollo personal. El libro encuentra siempre a su lector.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Precisar lo que el libro no afirma ayuda a leerlo mejor. No es un manual de productividad, aunque su cuadro se use así; no promete éxito, sino lo que él llama efectividad; y no dice en ningún sitio que las técnicas sobren, sino que sin carácter se caen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su tesis es que el atajo se nota, siempre y tarde.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su comparación favorita",
+          frase: "En una granja no se puede empollar el día antes del examen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el argumento de todo el libro, en una frase.",
         },
       ],
     },
     {
-      titulo: "Qué ha aguantado",
+      titulo: "Destino: afilar la sierra",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su gran acierto es el orden. Los tres primeros hábitos van de uno mismo y los llama victoria privada; los tres siguientes, de los demás. Covey insiste en que no se pueden invertir: nadie puede colaborar de verdad con otros si depende emocionalmente de su aprobación. La independencia es requisito de la interdependencia.",
+            "El séptimo hábito llega con un chiste viejo de leñadores. Alguien lleva horas serrando un tronco, agotado y sin avanzar; le sugieren que pare a afilar la sierra y contesta que no tiene tiempo para eso, que está muy ocupado serrando. La sierra sin filo es el libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chiste circulaba mucho antes que el libro y él no lo esconde. Lo usa como usa la fábula de la oca o la parábola del granjero: no le interesa la originalidad de la historia, sino que se quede pegada al concepto. Ninguna de sus imágenes es original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa manera de escribir es su verdadera habilidad. Casi ninguna idea del libro es original, y la aportación de Covey está en ordenarlas en una secuencia que se puede recordar entera y en pegarle a cada una de ellas una imagen que no se olvida. Ordenar bien también es una aportación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El precio de ese talento es que el libro se resume demasiado bien. Casi todo el mundo cree conocerlo por haber visto el cuadro de los cuatro cuadrantes en una diapositiva, y con eso se pierde la mitad del argumento sobre el carácter. El cuadro se ha comido al libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Afilar la sierra es cuidar el instrumento con el que se hace todo lo demás. Covey lo reparte en cuatro dimensiones: el cuerpo, la cabeza, las relaciones y lo que él llama la dimensión espiritual, entendida como la revisión de los propios principios. Las cuatro se descuidan en el mismo orden.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para cada dimensión da una recomendación concreta y modesta. Media hora diaria de ejercicio, leer un libro al mes, escuchar de verdad a alguien cada día y reservar un rato de silencio, y sostiene que con eso bastaría si se hiciera siempre. Nada de eso exige dinero ni permiso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La dimensión que más discusión ha dado es la cuarta. Él la llama espiritual y la describe como la revisión periódica de los propios principios, con la oración y la meditación como ejemplos, y ahí es donde su religión asoma más claramente. El resto del capítulo funciona sin ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que no propone ninguna religión concreta. En el texto habla de meditación, de música, de naturaleza y de literatura como maneras válidas de hacer esa revisión, y el lector que no quiera entrar por ahí tiene el resto del capítulo intacto. Cada lector elige por dónde entra.",
         },
         {
           forma: "clave",
-          rotulo: "Lo que más se recuerda",
-          frase: "El segundo cuadrante. Lo importante y no urgente es lo único que nunca te va a reclamar nadie.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Sus pegas también son claras. Está escrito con un tono de sermón que hoy cansa, sus ejemplos son casi todos de ejecutivos estadounidenses de los años ochenta con esposa en casa, y su base es la experiencia del autor, no la evidencia — no hay estudios detrás de los siete hábitos.",
-          arte: "noche",
+          rotulo: "El sitio del cuadro donde vive",
+          frase: "Todo el séptimo hábito es cuadrante dos: importante y nunca urgente.",
         },
         {
           forma: "texto",
           texto:
-            "Y hay un punto que se le critica con razón: parte de que casi todo depende de la actitud personal, y apenas menciona las circunstancias que uno no elige. Con esa reserva, sigue siendo el libro más completo del género, y el único cuyos consejos siguen sonando sensatos treinta y cinco años después.",
+            "Lo pone el último porque es el que sostiene los seis anteriores. Un cuerpo agotado no aguanta ser proactivo, una cabeza sin leer se queda sin mapas y una persona que no cuida ninguna relación no tiene con quién buscar la tercera vía del sexto hábito.",
         },
         {
           forma: "texto",
           texto:
-            "Su distinción entre la cuenta corriente y la cuenta emocional es de lo más aprovechable. Con cada persona importante tienes un saldo que sube con detalles pequeños y constantes —cumplir lo prometido, escuchar, pedir perdón— y baja de golpe con las decepciones. Nadie puede exigir una retirada grande si nunca ha ingresado nada. Covey señalaba que con la familia solemos suponer que el saldo está lleno precisamente donde menos lo alimentamos.",
+            "Ese orden convierte el séptimo hábito en el más fácil de saltarse. Es el único que no resuelve ningún problema visible: nadie nota que no lo estás haciendo hasta que, dos años después, todo cuesta el doble y no se sabe por qué. Se abandona sin que nadie lo note.",
         },
         {
           forma: "texto",
           texto:
-            "Covey insistía en una idea que hoy suena a obviedad y entonces no lo era: que un hábito necesita las tres cosas a la vez —saber qué hacer, saber cómo hacerlo y querer hacerlo—. Si falta una, no se sostiene. Por eso los cursos de técnicas fracasan con quien no ve el motivo, y por eso la motivación sola tampoco basta.",
+            "El poder de los hábitos, de Duhigg, que anda por este catálogo, explica por qué eso pasa. Un hábito se sostiene con una señal y una recompensa inmediatas, y afilar la sierra no tiene ninguna de las dos: la recompensa llega meses después. Los hábitos invisibles son los más frágiles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La solución que da Covey a ese problema es de calendario y no de fuerza de voluntad. Propone reservar la hora antes de que empiece el día ajeno, porque es el único rato que no compite con nada urgente que venga de fuera. Nadie te reclama nada a esa hora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la imagen con la que cierra, la espiral ascendente. No se trata de recorrer los siete hábitos una vez y darlos por hechos, sino de volver a pasar por ellos en otro nivel, aprendiendo, comprometiéndose y haciendo, una vuelta detrás de otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que vino después fue una empresa enorme. Covey fundó un centro de formación, lo fusionó en 1997 con la compañía que fabricaba las agendas Franklin y de ahí salió una consultora que vendía cursos, planificadores y certificaciones en medio mundo. El negocio acabó siendo mayor que el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La operación tenía lógica industrial. La agenda de papel de aquella compañía era el objeto donde se aplicaba el tercer hábito, así que juntar el método y el cuaderno convertía una idea de libro en un producto que se recompraba cada año. Vender método y cuaderno juntos multiplicaba todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella empresa cotiza en bolsa y sigue existiendo. Vende formación a corporaciones y a colegios, y una parte de su negocio consiste en licenciar el propio libro como programa, lo que explica por qué se sigue enseñando en cursos treinta años después. El libro se volvió un producto industrial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí termina el viaje que empezó en una biblioteca con doscientos años de libros encima de la mesa. Un profesor mormón de Utah leyó todo lo que se había escrito sobre triunfar, decidió que el orden importaba más que los trucos y ordenó siete.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa segunda vida del libro explica parte de su fama y parte de su desgaste. Millones de personas conocieron los siete hábitos en un curso de empresa de dos días, con carpeta y diploma, y para mucha gente el libro quedó asociado para siempre a ese contexto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después llegaron los libros siguientes, con menos suerte. Publicó uno sobre prioridades en 1994, otro sobre la familia y en 2004 un octavo hábito, que consistía en encontrar la propia voz, y ninguno se acercó ni de lejos a las ventas del primero. Ninguno pasó de ser un apéndice.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió en 2012, a los setenta y nueve años, por las consecuencias de una caída en bicicleta bajando una cuesta cerca de su casa en Utah. Llevaba casco, se golpeó la cabeza y estuvo varios meses ingresado antes de morir aquel verano. Seguía dando conferencias hasta aquel mes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tuvo nueve hijos, y casi todos los ejemplos del libro salen de ellos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El resumen del séptimo",
+          frase: "Ninguna de las otras seis cosas funciona con la sierra sin filo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y afilarla nunca es urgente, que es justo el problema.",
         },
       ],
     },
