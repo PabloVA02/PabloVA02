@@ -14,115 +14,633 @@ export const INFLUENCIA: Resumen = {
   titulo: "Influencia",
   autor: "Robert Cialdini",
   ano: 1984,
-  gancho: "Pasó tres años infiltrado como vendedor para averiguar por qué compramos lo que no queremos.",
+  gancho: "Se pasó tres años infiltrado como vendedor de coches, teleoperador y captador de donativos, tomando notas de lo que le hacían.",
   porQue:
-    "Es el libro que usan todos los departamentos de marketing del mundo. Leerlo sirve para vender, pero sobre todo para darte cuenta de cuándo te están vendiendo.",
+    "Es el catálogo más completo de los seis resortes que hacen decir que sí, escrito por alguien que quería aprender a defenderse de ellos.",
   partes: [
     {
-      titulo: "El profesor infiltrado",
+      titulo: "Salida: un profesor que compraba todo lo que le vendían",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Robert Cialdini era un psicólogo que se reconocía a sí mismo como un blando: compraba suscripciones que no quería y donaba a causas que no conocía. En vez de resignarse, se infiltró. Durante tres años trabajó de incógnito en agencias de venta a domicilio, concesionarios de coches y organizaciones benéficas, apuntando exactamente qué le decían para hacerle ceder.",
+            "Robert Cialdini empieza el libro confesando algo poco habitual en un catedrático. Dice que toda su vida ha sido un primo: compraba suscripciones que no quería, donaba a organizaciones de las que no había oído hablar y salía de los concesionarios con coches que no había ido a buscar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa confesión no es un recurso literario. Cialdini ha contado en entrevistas que de crío ya le vendían de todo, que su casa se llenó de enciclopedias y suscripciones, y que decidió estudiar psicología social en parte para entender qué le pasaba a él. Aquella casa estaba llena de cosas inútiles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese arranque explica también el tono de todo el libro. No hay superioridad en ninguna página: el autor se pone siempre del lado del que cae, cuenta sus propias meteduras de pata y describe las tácticas como quien avisa, no como quien las vende. Nadie queda por encima en estas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar qué tipo de libro es. No es un tratado académico ni un manual de ventas: es un ensayo divulgativo escrito por un investigador, con ejemplos de calle, estudios citados por encima y una organización pensada para que se recuerde sin apuntar nada. Leerlo como manual de ventas lo estropea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Como era profesor de psicología social, decidió estudiarlo. La pregunta era muy concreta: qué hacen exactamente los vendedores, los captadores de fondos y los publicistas para que alguien acabe diciendo que sí a algo que no quería hacer diez minutos antes. La pregunta tardó tres años en contestarse.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su método",
+          frase: "Tres años contestando anuncios de trabajo y aprendiendo el oficio desde dentro, sin decir a qué se dedicaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se formó como vendedor de coches, trabajó captando donativos por teléfono y pasó por agencias de publicidad, con un cuaderno donde apuntaba cada táctica que veía funcionar. Ese trabajo de campo es lo que distingue el libro de cualquier manual de laboratorio. Nadie en aquellas oficinas sabía quién era.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte del concesionario es la que más material le dio. Aprendió el guion completo de la venta de un coche, incluido el momento en que el vendedor se levanta a consultar con un jefe que a veces no existe, y describe cada paso con nombre técnico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquel trabajo de campo salió una observación que él subraya. Los profesionales no habían leído psicología, pero sabían perfectamente qué funcionaba, porque llevaban años haciendo un experimento diario con cientos de clientes y quedándose solo con lo que daba resultado. El oficio iba por delante de la ciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su manera de elegir qué principios entraban en la lista. Buscaba resortes que aparecieran a la vez en los manuales internos de varios oficios distintos y que además tuvieran experimentos publicados, y solo seis cumplían las dos condiciones. Los descartados no aparecen en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro pie del libro sí es de laboratorio. Cialdini llevaba años haciendo experimentos en la universidad, y en cada capítulo alterna lo que vio en la calle con estudios publicados, de modo que cada táctica viene con una explicación medida. Ninguna táctica entra sin las dos patas.",
         },
         {
           forma: "arte",
           texto:
-            "Lo que encontró es que casi todas las tácticas del planeta se reducen a seis principios. No son trucos: son atajos mentales que normalmente nos funcionan bien, y por eso el engaño cuela — el vendedor no inventa nada, solo aprieta un botón que ya estaba ahí.",
-          arte: "aprendizaje",
-        },
-        {
-          forma: "clave",
-          rotulo: "El punto de partida",
-          frase: "Vivimos con demasiada información para decidirlo todo despacio. Los atajos no son un defecto: son lo que nos permite funcionar.",
-        },
-      ],
-    },
-    {
-      titulo: "Los seis principios",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "<strong>Reciprocidad.</strong> Cuando alguien nos da algo, quedamos incómodos hasta devolverlo. Los camareros que dejan un caramelo con la cuenta suben la propina un 3 %; dos caramelos, un 14 %; y si el camarero se aleja, se gira y añade «para ustedes, uno más», sube un 23 %. Lo que dispara la deuda no es el caramelo: es que parezca personal.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "<strong>Compromiso y coherencia.</strong> Una vez decimos que sí a algo pequeño, defendemos esa posición aunque nos cueste. En un experimento clásico, la gente que había aceptado poner una pegatina diminuta de «conduce con cuidado» aceptó después, cuatro veces más que el resto, un cartel enorme en el jardín. Un compromiso mínimo cambia cómo te ves a ti mismo.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El más peligroso",
-          frase: "Prueba social: si no sabemos qué hacer, hacemos lo que hace la mayoría. Y eso es exactamente lo que se falsifica más fácil.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "<strong>Simpatía.</strong> Compramos a quien nos cae bien, y nos cae bien quien se nos parece, quien nos halaga y quien es atractivo. <strong>Autoridad</strong>: obedecemos a las batas blancas y a los títulos, a veces sin comprobar que existan. Y <strong>escasez</strong>: valoramos más lo que se acaba, que es por lo que existen las cuentas atrás y los «últimas 3 unidades».",
-        },
-        {
-          forma: "texto",
-          texto:
-            "El detalle que Cialdini repite: la escasez no funciona porque queramos más el objeto, sino porque odiamos perder una opción. Perder pesa psicológicamente más que ganar lo mismo, y toda la publicidad moderna vive de esa asimetría.",
-        },
-      ],
-    },
-    {
-      titulo: "Los trucos que ya te han hecho",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "El caso más elegante del libro son los Hare Krishna en los aeropuertos de los años setenta. Habían probado a pedir donativos directamente y les iba fatal. Cambiaron la táctica: regalaban una flor y se negaban a aceptarla de vuelta. La gente donaba por incomodidad, tiraba la flor a la papelera nada más doblar la esquina, y ellos la recogían de la basura para volver a regalarla. La misma flor, varias veces al día.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Cialdini probó también el mecanismo al revés, que él llama <em>puerta en la cara</em>. Preguntó a estudiantes si acompañarían a un grupo de menores delincuentes al zoo un día: aceptó el 17 %. A otro grupo le pidió antes algo enorme —dos años haciendo de tutor voluntario—, todos dijeron que no, y entonces les ofreció lo del zoo. Aceptó el 50 %. La segunda petición no había cambiado: había cambiado con qué se comparaba.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Y el experimento que mejor resume el libro es el de Ellen Langer en una cola de fotocopiadora. «¿Puedo pasar antes?»: cedió el 60 %. «¿Puedo pasar antes, <em>porque tengo prisa</em>?»: el 94 %. «¿Puedo pasar antes, <em>porque tengo que hacer unas copias</em>?»: el 93 %. La razón era vacía —todos estaban allí para hacer copias— pero llevaba la palabra «porque» delante, y con eso bastó.",
+            "La imagen con la que abre es una pava. Las pavas cuidan a sus crías porque reaccionan a un piído concreto, y si a un turón disecado, que es su peor enemigo, se le mete una grabación con ese sonido, la pava lo acoge debajo del ala sin dudarlo.",
           arte: "explorar",
         },
         {
+          forma: "texto",
+          texto:
+            "El experimento del turón se hizo con grabadoras metidas dentro del animal disecado. Con el sonido puesto, la pava lo cobijaba; en cuanto se apagaba, lo atacaba a picotazos, y al volver a encenderlo lo acogía otra vez sin ningún periodo de duda. Aquello se publicó en los años sesenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cialdini usa esa escena para introducir un vocabulario que recorre el libro. Habla de secuencias que se ponen en marcha con una señal, como una cinta que se rebobina y se dispara sola, y de que casi todo el mundo tiene bastantes más de las que cree.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese vocabulario tiene una virtud y un riesgo. La virtud es que hace visible algo que no se nota mientras ocurre; el riesgo es tratar a las personas como máquinas que se activan con un botón, cosa que el propio libro matiza varias veces. Ninguna persona reacciona igual que una pava.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es el modelo de todo el libro. Sostiene que las personas también tenemos secuencias automáticas que se disparan con una señal, que casi siempre acertamos usándolas, y que un profesional puede imitar la señal para que la secuencia salte cuando no debería. La señal falsificada es toda la trampa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en 1984 y no fue un éxito inmediato. Empezó en el mundo académico, se fue extendiendo por las escuelas de negocios y con los años acabó vendiendo varios millones de ejemplares en más de cuarenta idiomas, con una edición ampliada en 2021.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras de ventas conviene mirarlas con calma. Se habla de varios millones de ejemplares, un número que da la editorial sumando ediciones y traducciones a lo largo de cuatro décadas, y que incluye la versión revisada que salió en 2021 con material nuevo. Ninguna editorial desglosa nunca esos totales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella edición de 2021 añadió capítulos y cambió ejemplos. Incorporó el séptimo principio, sustituyó buena parte de los casos comerciales por otros de internet y de redes sociales, y matizó varios estudios que habían quedado en duda desde la primera edición. Conviene buscar esa versión y no otra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El séptimo principio, la unidad, es el más difícil de resumir. Dice que decimos que sí con mucha más facilidad a quien sentimos que es de los nuestros, no porque se nos parezca, sino porque lo contamos dentro del mismo grupo que nosotros. Pertenecer pesa más que parecerse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su estructura es la de un catálogo y por eso se recuerda. Seis principios, un capítulo para cada uno, con el mismo esquema: qué es, un experimento que lo demuestra, cómo lo usan los profesionales y un apartado final sobre cómo defenderse. Se puede leer un capítulo suelto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2016 añadió un séptimo principio en otro libro.",
+        },
+        {
           forma: "clave",
-          rotulo: "Lo que revela",
-          frase: "Muchas veces no respondemos al contenido del mensaje, sino a su forma. Sonar a razón funciona casi tan bien como serlo.",
+          rotulo: "Los seis originales",
+          frase: "Reciprocidad, compromiso, prueba social, simpatía, autoridad y escasez.",
         },
         {
           forma: "texto",
           texto:
-            "La prueba social tiene su versión doméstica y está en todos los hoteles del mundo. Los carteles que piden reutilizar la toalla por el bien del planeta funcionan; los que dicen que la mayoría de los huéspedes la reutiliza funcionan más; y los que dicen que la mayoría de los que durmieron <em>en esa misma habitación</em> lo hicieron, más todavía. Cuanto más se parece a ti el grupo, más te arrastra.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "En la edición de 2016 Cialdini añadió un séptimo principio, la <strong>unidad</strong>: no basta con parecerse al otro, hay que compartir identidad con él —familia, pueblo, equipo, religión—. Es el más potente de todos y el que explica por qué la publicidad lleva veinte años intentando venderte pertenencia a una tribu en vez de un producto.",
+            "El séptimo, añadido treinta años después, es la unidad.",
         },
       ],
     },
     {
-      titulo: "Defenderse",
+      titulo: "Primera parada: deber, coherencia y mirar al de al lado",
       tarjetas: [
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "Su consejo defensivo no es desconfiar de todo, que sería agotador e injusto. Es aprender a notar una sensación concreta: la de estar cediendo sin saber por qué. Cuando la detectes, di en voz alta lo que ha pasado — «me han hecho un favor y ahora me siento en deuda» — porque nombrar el mecanismo lo desactiva.",
-          arte: "memoria",
+            "El primer principio es el más antiguo de todos. La regla de devolver un favor aparece en todas las sociedades conocidas, y funciona tan bien que aceptar algo gratis deja una incomodidad que la mayoría prefiere quitarse de encima cuanto antes. Devolver algo cuanto antes quita esa sensación.",
         },
         {
           forma: "texto",
           texto:
-            "El libro tiene casi cuarenta años y algunos de sus experimentos clásicos han fallado al repetirse, como le ha pasado a media psicología social. Los seis principios en sí han aguantado bien. Y hay un mérito que nadie discute: es el manual con el que se ha construido buena parte de la publicidad que ves cada día, escrito por alguien que quería enseñarte a resistirla.",
+            "Los antropólogos que cita lo consideran una de las bases de la vida social. Sin la obligación de devolver no habría sido posible el intercambio, ni la división del trabajo, ni dar algo a alguien confiando en que devolvería el favor bastante tiempo después. Ninguna sociedad conocida prescinde de esa regla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un experimento posterior que lo aprieta todavía más. En restaurantes, dejar un caramelo con la cuenta sube la propina; dejar dos la sube bastante más; y dejar uno, empezar a irse y volverse para dejar otro la dispara, porque parece una decisión personal. La segunda vuelta es la que dispara todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese estudio de los caramelos se ha convertido en un clásico de los cursos de hostelería. Las subidas medidas van de un porcentaje pequeño a otro bastante mayor, y el tamaño exacto varía entre repeticiones, pero la dirección del efecto se mantiene. Conviene desconfiar de las cifras redondas aquí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento que lo demuestra es de 1971 y es sencillísimo. Un desconocido salía un momento y volvía con dos refrescos, uno para él y otro para el sujeto; después les pedía a todos que le compraran papeletas de una rifa, y los que habían recibido refresco compraron el doble.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "No te defiendes desconfiando de todos, sino notando el momento exacto en que empiezas a ceder.",
+          rotulo: "El detalle que importa",
+          frase: "El refresco no lo habían pedido, y aun así generaba la obligación de devolverlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ese principio sale una táctica con nombre propio. Consiste en pedir primero algo enorme que sabes que van a rechazar y retirarse después a lo que de verdad querías, porque la retirada se lee como una concesión que hay que corresponder. El nombre técnico es portazo en la cara.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión doméstica de esa táctica la usan los niños sin que nadie se la enseñe. Piden primero irse toda la noche, aceptan la negativa con cara de resignación y consiguen a continuación quedarse hasta las dos, que era exactamente lo que querían desde el principio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento de los menores y el zoo lo hizo el propio Cialdini con dos colegas. Es de 1975, se repitió en varias formas y sigue siendo uno de los pocos de su libro que ha aguantado bien los intentos posteriores de repetición. Su firma aparece la primera en aquel artículo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los números conviene decirlos con cuidado de todos modos. Fueron unas decenas de estudiantes por condición, en un campus concreto y en 1975, y el paso de uno de cada seis a uno de cada dos es exacto en ese estudio y no una ley general.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El estudio que la mide es de los mejores del libro. A unos estudiantes les pidieron acompañar a un grupo de menores infractores al zoo un día, y aceptó uno de cada seis; a otros les pidieron antes dos años de trabajo voluntario, y tras negarse aceptó la mitad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El segundo principio es la necesidad de parecer coherentes. Una vez que alguien ha dicho algo en voz alta, lo ha escrito o ha dado un primer paso pequeño, se comporta después como si aquello le obligara, sobre todo si nadie le forzó a decirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que más importa es que el compromiso sea voluntario. Los estudios muestran que si alguien firma algo bajo presión o a cambio de mucho dinero, el efecto desaparece: solo obliga lo que uno cree haber elegido por su cuenta. Firmar por dinero no compromete a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su explicación para los campos de prisioneros chinos en Corea. En vez de torturar, pedían a los presos estadounidenses escribir frases pequeñas y aparentemente inofensivas, y a partir de ahí muchos se fueron ajustando a lo que ellos mismos habían firmado. Aquello ocurrió a principios de los cincuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los 7 hábitos de la gente altamente efectiva, de Covey, que está en este catálogo, usa la misma palanca en positivo. Covey pide escribir un enunciado personal de principios precisamente porque lo escrito obliga, que es el mecanismo que Cialdini describe como arma. La misma palanca sirve para las dos cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento clásico es de un barrio de California en 1966. Pidieron a unos vecinos poner en el jardín un cartel enorme y feo de conducir con cuidado, y aceptó menos de uno de cada cinco; entre los que dos semanas antes habían puesto una pegatina pequeña, aceptaron tres de cada cuatro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer principio es mirar lo que hacen los demás. Cuando no sabemos qué hacer, y sobre todo cuando la situación es ambigua, la manera más rápida de decidir es fijarse en la gente de alrededor y suponer que ellos sí saben. Casi siempre esa suposición resulta acertada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese atajo funciona bien casi siempre y por eso lo usamos. Si veinte personas corren hacia una salida, correr con ellas es lo sensato; el problema aparece cuando la conducta de los demás no está informada y todos se están copiando entre sí. Nadie está mirando el problema directamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La situación en que peor funciona es la emergencia con muchos testigos. Cada uno mira a los demás para decidir si aquello es grave, todos ven caras tranquilas porque los demás están haciendo lo mismo, y el resultado es una calma colectiva que nadie siente por dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa explicación tiene además una consecuencia práctica que salva vidas. Si el problema es que nadie sabe si hay una emergencia, basta con que una sola persona la nombre en voz alta para que la duda colectiva se rompa y el resto reaccione. Señalar con el dedo funciona mejor que gritar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí salen las risas enlatadas, las colas puestas a propósito a la entrada de un local, los camareros que dejan billetes en el bote de propinas antes de abrir y la coletilla de que un producto es el más vendido de su categoría. Ninguna de esas señales es espontánea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de ahí sale también el efecto contrario en una emergencia.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La regla práctica",
+          frase: "Si te pasa algo entre mucha gente, señala a una persona concreta y pídele ayuda a ella.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras nadie se mueva, cada uno lee la quietud del otro como que no pasa nada.",
+        },
+      ],
+    },
+    {
+      titulo: "Segunda parada: caer bien, mandar y escasear",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El cuarto principio es el más obvio y el peor defendido. Decimos que sí con mucha más facilidad a quien nos cae bien, y lo que hace que alguien caiga bien está bastante estudiado: el aspecto, el parecido, los cumplidos y el simple hecho de vernos a menudo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El peso del aspecto físico está mejor documentado de lo que gustaría. Hay estudios sobre juicios, sobre entrevistas de trabajo y sobre elecciones donde el atractivo de una persona predice el resultado, y donde quienes deciden niegan que haya influido en nada. Ningún jurado admitiría eso en voz alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El parecido funciona con detalles ridículamente pequeños. Compartir el nombre de pila, la ciudad de nacimiento o incluso una marca de ropa aumenta de forma medible la disposición a decir que sí, y los vendedores formados lo buscan a propósito en los primeros minutos. Preguntar de dónde eres no es casual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los cumplidos funcionan incluso cuando se sabe que son falsos. Hay estudios en los que los participantes recibían halagos claramente interesados de alguien que quería algo de ellos, y la simpatía hacia esa persona subía igual, aunque supieran perfectamente lo que estaba pasando. Saberlo no protege prácticamente de nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo comercial que usa son las reuniones de venta en casas particulares. La empresa no vende a desconocidos: vende a través de una amiga que invita a otras amigas, de modo que rechazar el producto se parece bastante a rechazar a la anfitriona. La anfitriona se lleva una comisión discreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta también el caso de un vendedor de coches que entró en los récords. Mandaba cada mes miles de tarjetas a sus clientes y posibles clientes, todas con el mismo mensaje impreso: que le caían bien. Nadie se lo creía del todo y funcionaba igual.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su aviso sobre este",
+          frase: "El problema no es que te caiga bien alguien: es que te caiga bien demasiado deprisa y sin motivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El quinto principio es la autoridad, y aquí se apoya en el experimento más famoso de la psicología. Personas corrientes administraban lo que creían descargas eléctricas peligrosas a un desconocido porque un hombre con bata se lo pedía con calma y sin amenazar. Aquel hombre no tenía ningún poder real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel experimento se hizo a principios de los años sesenta en una universidad de Estados Unidos. Cerca de dos tercios de los participantes llegaron hasta el final de la escala de descargas, y ninguno de los psiquiatras consultados antes había previsto un resultado ni parecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cialdini le da una lectura ligeramente distinta a la habitual. No lo lee como una demostración de que cualquiera puede ser cruel, sino como una demostración de que obedecer a la autoridad es un atajo tan automático que sigue funcionando cuando la orden es absurda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un pequeño empujón, de Thaler y Sunstein, que anda por este catálogo, aprovecha esa misma obediencia sin llamarla así. Colocar la opción recomendada como la que viene marcada por defecto funciona porque la mayoría no discute lo que parece venir de arriba. La casilla marcada decide por mucha gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que más le interesa no es la bata sino los símbolos. Comprueba que basta un título, un uniforme o un coche caro para que la gente obedezca, y que los tres funcionan igual cuando el que los lleva no tiene ninguna autoridad real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso clínico que cuenta es el que mejor se recuerda. Un médico escribió en una orden que unas gotas iban en el oído derecho, abreviando la palabra, y la enfermera acabó administrándolas por vía rectal sin que ni ella ni el paciente pusieran ninguna objeción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sexto principio es la escasez, y es el que mejor ha aguantado. Lo que es difícil de conseguir nos parece mejor, y lo que estamos a punto de perder pesa más que lo que podríamos ganar, aunque se trate exactamente de la misma cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mecanismo psicológico que hay detrás tiene nombre desde los años sesenta. Se llama reactancia: cuando alguien percibe que una opción se le está cerrando, la desea más justamente porque le están quitando la libertad de elegirla, y no por lo que valga. Perder una opción duele más que ganarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mismo mecanismo explica una escena doméstica muy conocida. Un juguete que llevaba meses tirado en un rincón se vuelve urgentísimo en cuanto otro niño lo coge, y no porque el juguete haya cambiado, sino porque ha dejado de estar disponible. Bastan diez segundos para que ocurra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los fabricantes de juguetes tienen además una versión estacional de eso. Anuncian mucho un juguete antes de las fiestas y mandan pocas unidades a las tiendas, de modo que los padres prometen uno que no encuentran y acaban comprando dos cosas en vez de una.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento aquí es un tarro de galletas. A unos participantes les dieron a probar galletas de un tarro con diez y a otros de un tarro con dos, con las mismas galletas, y los del tarro casi vacío las valoraron mejor y dijeron que pagarían más por ellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel estudio tenía además una tercera condición muy reveladora. A un grupo le pusieron delante el tarro lleno y se lo cambiaron por el casi vacío mientras miraban, y esas galletas, que habían escaseado de golpe, fueron las mejor valoradas de todo el experimento. Cambiar el tarro delante de ellos bastaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hubo una cuarta condición todavía más incómoda. Cuando les dijeron que las galletas escaseaban porque otros participantes se las habían llevado, la valoración subió aún más que cuando la escasez se explicaba por un error de la organización. La competencia por algo pesa más que la simple falta de existencias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale el detalle que usan los anuncios de viajes y de entradas. No basta con decir que quedan pocas plazas: hay que decir que se están acabando porque otros las están comprando ahora mismo, y por eso aparecen esos avisos en las pantallas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y las mejor valoradas fueron las que empezaron siendo abundantes y escasearon.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La defensa que propone",
+          frase: "Preguntarse si quieres la cosa o si solo quieres tenerla antes de que se acabe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos respuestas se sienten igual por dentro, y esa es toda la dificultad.",
+        },
+      ],
+    },
+    {
+      titulo: "Tercera parada: lo que no ha aguantado el tiempo",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El problema mayor del libro no es suyo, es de su disciplina. Casi todos los estudios en los que se apoya son de los años sesenta y setenta, con pocos participantes, un solo experimento y ninguna repetición posterior, que era el estándar de la época.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa manera de trabajar tenía un incentivo perverso. Las revistas publicaban resultados llamativos y no publicaban las repeticiones, así que un experimento pequeño con un efecto grande entraba en los manuales y nadie volvía a comprobarlo durante treinta años. Publicar una repetición fallida no daba prestigio a nadie en aquellos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Cialdini se ha pronunciado sobre eso más de una vez. Ha reconocido públicamente que algunos hallazgos de su campo no se sostienen, ha retirado ejemplos de ediciones posteriores y ha pedido que la disciplina cambie sus costumbres de publicación. Pocos autores de éxito hacen algo así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa reacción es lo que separa este libro de otros de su género. Muchos autores de éxito defienden sus ejemplos hasta el final; aquí el autor ha aceptado las correcciones, ha cambiado el texto y ha dicho por escrito qué partes habían quedado tocadas. Rectificar por escrito cuesta ventas y prestigio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de 2011 esa manera de trabajar entró en crisis. Los intentos sistemáticos de repetir experimentos clásicos de psicología social encontraron que muchos daban efectos mucho menores o directamente ninguno, y varias piezas citadas en este libro están en esa lista. Aquella crisis cambió la disciplina entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso más llamativo es una historia que casi todo el mundo conoce mal. Cialdini cuenta el asesinato de una mujer en Nueva York en 1964 ante decenas de vecinos que supuestamente no hicieron nada, y esa versión venía de un artículo de periódico que resultó ser falso en lo esencial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel artículo lo publicó un diario de Nueva York dos semanas después del crimen. Hablaba de treinta y ocho testigos que vieron el ataque desde sus ventanas y no movieron un dedo, y aquella cifra pasó a los libros de texto de medio mundo. Nunca se comprobó la cifra en su momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reconstrucción posterior la hicieron periodistas e investigadores décadas después. Revisaron los expedientes del juicio y las llamadas registradas, y encontraron que muchos vecinos oyeron algo sin ver nada, que varios avisaron y que la versión famosa se había simplificado enormemente. El expediente completo salió a la luz tardísimo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio diario que publicó aquello acabó reconociéndolo. Décadas después revisó su versión y admitió que el número de testigos y su pasividad se habían exagerado, aunque para entonces la historia llevaba media vida circulando por los manuales de psicología. Rectificar medio siglo después no borra nada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que se sabe hoy de aquel caso",
+          frase: "Hubo menos testigos, varios llamaron a la policía y una vecina bajó a la calle a acompañarla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que el efecto sí existe aunque el ejemplo fuera malo. Las decenas de experimentos que se hicieron después sobre grupos y ayuda encontraron el fenómeno una y otra vez, así que lo que falla es la anécdota que lo ilustra, no el principio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otra parte discutida es la del contagio de los suicidios. El libro cita una investigación según la cual los suicidios muy difundidos por la prensa van seguidos de una subida de muertes accidentales, y ese trabajo lleva décadas discutiéndose sin que se haya cerrado la cuestión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese trabajo es de los años setenta y se apoya en series estadísticas. Otros investigadores han intentado repetirlo con datos distintos y han obtenido resultados que no siempre coinciden, aunque las recomendaciones actuales sobre cómo informar de un suicidio sí van en esa línea. La discusión sigue abierta entre especialistas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar qué se acepta hoy y qué no. Que la manera de informar sobre un suicidio influye en los siguientes está bastante aceptado y ha dado lugar a guías para periodistas; los números concretos de aquel trabajo antiguo son otra cosa. Las guías para periodistas existen desde entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distinción vale para casi todo el libro. Los seis principios como tales están razonablemente asentados; lo que se ha ido cayendo son estudios concretos, cifras exactas y anécdotas, que es donde se apoya buena parte del atractivo de la lectura. Los ejemplos son lo primero que caduca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una crítica de fondo que el libro no responde. Los seis principios describen muy bien lo que ocurre, pero no explican por qué esos seis y no otros, ni cómo se combinan cuando aparecen a la vez, que es lo que pasa en casi cualquier situación real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los ejemplos comerciales han envejecido de otra manera. Las enciclopedias a domicilio, las reuniones de tuppers y los captadores en los aeropuertos pertenecen a un mundo que ya no existe, y hay que traducirlos mentalmente a la venta por internet mientras se lee. Las tácticas siguen; los escenarios han cambiado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un caso del libro que se resolvió solo con el tiempo. Los captadores que regalaban una flor en los aeropuertos dejaron de funcionar cuando la gente aprendió a reconocer la maniobra, y el propio Cialdini lo cuenta como ejemplo de que estas tácticas se desgastan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese desgaste es una de las ideas más útiles del libro y se cita poco. Una táctica de influencia funciona mientras la señal parece auténtica, y en cuanto se hace demasiado visible deja de servir y puede volverse en contra de quien la usa. Ninguna de estas herramientas dura para siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí está la razón por la que sigue leyéndose cuarenta años después. Los ejemplos caducan y las cifras se discuten, pero la lista de seis sigue describiendo lo que pasa en cualquier negociación, en cualquier tienda y en cualquier pantalla. Los seis nombres siguen sirviendo de brújula.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Precisar lo que el libro no afirma es importante en este caso. No dice que la gente sea tonta ni que estos atajos sean un defecto: dice que funcionan bien casi siempre, que sin ellos no se podría decidir nada, y que el problema aparece cuando alguien los imita a propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco dice que sean los únicos seis.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su criterio para la lista",
+          frase: "Eligió los que aparecían una y otra vez en el trabajo de campo y tenían respaldo experimental.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El séptimo lo añadió cuando encontró bastantes pruebas para él.",
+        },
+      ],
+    },
+    {
+      titulo: "Destino: un manual de defensa, no de ataque",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La lectura más extendida del libro es exactamente la contraria de la que quería su autor. Se vende en las mesas de negocios como un manual para convencer, y está escrito por alguien que quería dejar de ser el que caía en todo lo que le ponían delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El subtítulo original decía a las claras de qué iba. Hablaba de psicología de la persuasión, no de técnicas de venta, y el prólogo avisa desde la primera página de que el destinatario es la posible víctima y no el profesional. Aquella advertencia se sigue pasando por alto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pensar rápido, pensar despacio, de Kahneman, que anda por este catálogo, explica el mismo fenómeno desde la otra punta. Kahneman describe los atajos mentales desde el laboratorio y sin hablar de vendedores; Cialdini los persigue en la calle y les pone nombre comercial. Uno mira al vendedor y otro al cliente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos libros se leen muy bien seguidos y en ese orden. Cialdini enseña a reconocer las situaciones concretas donde te van a pillar; Kahneman explica por qué la cabeza funciona así y por qué saberlo no basta para dejar de caer. Saberlo ayuda menos de lo que parece.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa intención está en la estructura de cada capítulo. Después de explicar cómo funciona un principio y quién lo explota, siempre hay un apartado que se titula cómo decir no, con una manera concreta de detectar la trampa y salirse de ella. Ese apartado cierra cada uno de los capítulos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esos apartados finales son la parte que menos se cita. Ocupan unas pocas páginas de cada capítulo, están escritos en segunda persona y contienen instrucciones concretas para el momento en que uno nota que le están aplicando algo y no sabe cómo salir. Ocupan mucho menos espacio que las tácticas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La estructura del libro se puede aprovechar leyéndolo al revés. Quien tenga poco tiempo puede ir directo a esos apartados de cada capítulo, y con eso se lleva la lista de señales de alarma sin necesidad de los experimentos que las justifican. Perderse los estudios tiene su precio, eso sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que esa lectura rápida se pierde lo mejor. Los experimentos son la parte que convence de verdad, porque leer un consejo de defensa sin haber visto antes el efecto medido no cambia el comportamiento de casi nadie. Un consejo sin la prueba detrás se olvida a los dos días.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su regla general de defensa",
+          frase: "No luchar contra el impulso: reconocerlo, y a partir de ahí considerar el trato roto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo que da para la reciprocidad es tajante. Si alguien te hace un favor no pedido para colocarte algo después, la manera de salir no es rechazar el favor por educación, sino aceptarlo y recordar que aquello no era un regalo sino una herramienta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La clave de esa defensa es no equivocarse de enemigo. Rechazar todos los favores por si acaso convierte a cualquiera en una persona desagradable e incapaz de recibir nada, y la regla que propone Cialdini es mucho más fina que eso. Distinguir cuál es cuál lleva algo de práctica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su distinción es entre un favor y una maniobra. Un favor genuino merece ser devuelto y así funciona la vida social; una maniobra es un favor colocado a propósito para cobrarlo después, y en cuanto se identifica como tal deja de obligar a nada. El regalo de verdad no lleva factura detrás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El poder de los hábitos, de Duhigg, que también está en este catálogo, describe la misma automatización desde dentro. Duhigg explica cómo se instalan las secuencias en el propio cerebro; Cialdini explica cómo alguien de fuera puede accionar las que ya están puestas. Los dos hablan de secuencias automáticas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para el compromiso propone escuchar al estómago y al corazón. Sostiene que el cuerpo avisa antes que la cabeza cuando estamos a punto de mantener una decisión solo por no contradecirnos, y que basta preguntarse si volveríamos a elegir lo mismo sabiendo lo que sabemos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para la escasez propone separar dos cosas que se confunden. Una es querer un objeto por lo que hace o por lo que se disfruta con él; otra es quererlo porque se está acabando, y esa segunda no mejora en nada cuando ya lo tienes en casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con los años ese asunto se convirtió en su tema principal. Cialdini empezó a hablar de influencia ética, montó una consultora y sostiene que las empresas que usan estos resortes con datos falsos acaban pagándolo, porque el efecto dura una venta y la desconfianza dura años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A los que usan estas técnicas con información falsa los llama contrabandistas. Sostiene que no son solo un problema moral sino un problema económico, porque gastan un recurso común, la confianza, del que después dependen todos los demás vendedores honestos. La palabra se le ocurrió bastante después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea de la confianza como recurso común es lo más actual del libro. Explica por qué un sector entero se hunde cuando unos pocos abusan, y por qué las reseñas falsas o los descuentos inventados acaban perjudicando también a quien vende de verdad. Nadie repara ese daño en una temporada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí termina el viaje que empezó con un profesor incapaz de decir que no. Se metió tres años en oficinas de venta para averiguar qué le hacían, salió con seis nombres y un método, y acabó escribiendo el manual de defensa que buscaba para sí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cómo ganar amigos e influir sobre las personas, de Carnegie, que anda por este catálogo, hace lo mismo medio siglo antes y sin ninguna prueba. Carnegie recomienda sonreír y usar el nombre del otro; Cialdini explica por qué eso funciona y cuándo se convierte en manipulación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un pequeño empujón, de Thaler y Sunstein, que también está en este catálogo, lleva estos mismos resortes al diseño de políticas públicas. Allí el objetivo no es vender nada, sino colocar las opciones de manera que la gente acabe eligiendo lo que le conviene. La intención es lo único que cambia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos libros usan la misma maquinaria con intenciones distintas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase que resume el libro",
+          frase: "Los atajos son buenos. El problema es quien los falsifica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí termina el recorrido que empezó con un profesor comprando lo que no quería.",
         },
       ],
     },
