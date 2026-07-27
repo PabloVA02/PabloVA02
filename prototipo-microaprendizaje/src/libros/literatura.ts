@@ -2818,118 +2818,635 @@ export const MUNDO_FELIZ: Resumen = {
   ano: 1932,
   gancho: "La otra gran distopía. No controla a la gente con miedo, sino dándole exactamente lo que quiere.",
   porQue:
-    "Orwell temía a quien prohibiera los libros. Huxley temía que no hiciera falta prohibirlos porque nadie quisiera leerlos. Diecisiete años antes de 1984.",
+    "Es la distopía que no necesita policía, y conviene saber qué acertó, qué falló y de quién es la frase que todo el mundo le atribuye.",
   partes: [
     {
-      titulo: "La fábrica de personas",
+      titulo: "La sala de incubación",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El libro abre con una visita guiada a un centro donde se fabrican seres humanos. Nadie nace de una madre; los embriones se cultivan en frascos y se les somete a tratamientos según el puesto que ocuparán. A los destinados a trabajos duros se les priva de oxígeno para limitar su desarrollo. La palabra «madre» es obscena y provoca risa nerviosa.",
+            "El libro abre con un director enseñando una fábrica a un grupo de estudiantes que toman notas. Es un edificio gris de treinta y cuatro plantas en Londres, se llama Centro de Incubación y Condicionamiento, y lo que se fabrica allí dentro son seres humanos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El director tiene además un lema grabado en el vestíbulo del edificio. Comunidad, Identidad, Estabilidad, y las tres palabras resumen el programa entero del Estado mundial: primero disolver al individuo, después asignarle un sitio fijo y por último impedir que nada cambie. Están grabadas en piedra sobre la puerta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena es una visita guiada y esa elección es deliberada. En vez de explicar el mundo desde fuera, Huxley pone a un funcionario orgulloso a enseñarlo con detalle técnico, y el lector va entendiendo el horror a la vez que los estudiantes toman apuntes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese arranque es además una lección de cómo se construye un mundo en una novela. No hay prólogo ni explicación histórica: el lector entra a la vez que los estudiantes, oye los nombres técnicos sin traducir y tiene que ir deduciendo las reglas sobre la marcha.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El año en que ocurre",
+          frase: "Año 632 después de Ford. La era empieza con el primer coche de producción en cadena, así que la novela pasa hacia el año 2540.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La elección de Ford como fundador de la era tiene fecha concreta. El coche de producción en cadena salió en 1908, y Huxley coloca ahí el año cero porque para él la novedad decisiva del siglo no fue una idea política sino una manera de fabricar cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sustituir a Dios por Henry Ford es la broma central del libro y la más precisa. La cadena de montaje es la religión del sitio, las cruces están cortadas por arriba para formar una T de aquel modelo de coche, y la gente dice Ford mío al asustarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chiste se sostiene porque Ford era en 1931 exactamente eso. Su método había cambiado la industria del planeta en veinte años, su autobiografía se leía como un evangelio del progreso, y su nombre valía por una religión sin necesidad de forzar nada en la broma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El proceso técnico que describe tiene nombre propio dentro de la novela. Un óvulo fecundado se somete a un tratamiento que lo hace dividirse hasta noventa y seis veces, y de cada uno salen noventa y seis personas idénticas destinadas al mismo trabajo. Se llama proceso Bokanovsky en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese procedimiento es la pieza de biología del libro que sigue siendo imposible. Los gemelos idénticos existen y se pueden dividir embriones en ganado, pero noventa y seis personas viables de un solo óvulo no es algo que nadie sepa hacer. La fecundación in vitro llegó en 1978.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nadie nace de una madre, y ese detalle organiza toda la sociedad. Los embriones crecen en frascos que recorren una cinta durante nueve meses, se les llama decantar en vez de nacer, y las palabras padre y madre resultan obscenas o directamente cómicas. La palabra padre da risa; la palabra madre, asco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Huxley acertó de pleno en algo que en 1931 no existía. La fecundación fuera del cuerpo era pura especulación cuando escribió el libro y hoy es rutina hospitalaria, aunque la gestación entera en un frasco sigue lejísimos. Nadie ha pasado de unas pocas semanas. El primer bebé probeta nació en 1978.",
         },
         {
           forma: "arte",
           texto:
-            "La sociedad está dividida en cinco castas con nombres de letras griegas, de Alfa a Épsilon, y cada una está condicionada desde bebé para estar contenta con la suya. Mientras duermen se les repiten frases durante años: los Beta escuchan que se alegran de no ser Alfas, porque los Alfas trabajan demasiado.",
+            "La sociedad está dividida en cinco castas con nombres de letras griegas, de Alfa a Épsilon, y la casta no se hereda sino que se fabrica. A los frascos de las castas bajas se les reduce el oxígeno y se les añade alcohol para que el cerebro crezca menos.",
           arte: "aprendizaje",
         },
         {
-          forma: "clave",
-          rotulo: "El hallazgo del sistema",
-          frase: "No hace falta reprimir a nadie si consigues que quiera exactamente lo que le ha tocado.",
+          forma: "texto",
+          texto:
+            "Esa parte del libro tiene una sombra incómoda en la familia del autor. Su hermano Julian defendió durante décadas la eugenesia, entonces respetable en círculos científicos británicos, y Huxley describe con horror una versión extrema de esas mismas ideas de casa. El propio Aldous escribió cosas parecidas en aquellos años.",
         },
         {
           forma: "texto",
           texto:
-            "Huxley escribió esto en 1932, con la cadena de montaje de Ford como modelo — en el libro se cuentan los años «después de Ford» y la gente se santigua trazando una T. Lo que le horrorizaba no era la fábrica: era aplicar su lógica a las personas.",
+            "Ese detalle del oxígeno es lo que separa este libro de una fantasía sin más. La desigualdad no se justifica con una teoría: se produce en el laboratorio antes de nacer, de modo que cada persona sale exactamente a la medida del trabajo que va a hacer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Huxley venía de una familia donde la biología se hablaba en la mesa. Su abuelo fue Thomas Henry Huxley, el biólogo que defendió a Darwin en público hasta ganarse el apodo de su bulldog, y su hermano Julian fue un biólogo célebre. Su hermano Julian dirigió después la Unesco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese origen explica por qué la ciencia del libro no es decorado. Huxley había querido estudiar medicina y lo dejó por una enfermedad de los ojos que lo dejó casi ciego a los dieciséis años, y acabó estudiando literatura en Oxford por descarte. Escribía sobre biología sabiendo de qué hablaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El título viene de una obra de Shakespeare y la cita es irónica ya en el original. En La tempestad, una muchacha que ha crecido aislada en una isla ve por primera vez a unos desconocidos y exclama que qué mundo tan hermoso tiene semejante gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ella no sabe es que entre esos desconocidos hay un par de canallas. Huxley usa la frase exactamente igual: el personaje que la repite en la novela va perdiendo la ilusión a medida que entiende dónde ha llegado, y acaba diciéndola con asco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene saber contra quién estaba escribiendo, porque cambia la lectura. Huxley empezó el libro como una parodia de las utopías de H. G. Wells, que llevaba años describiendo futuros científicos ordenados y felices, y quiso enseñar el precio de esa felicidad. Wells era entonces el escritor vivo más influyente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wells se lo tomó fatal y no lo disimuló en absoluto. Consideró el libro una traición al optimismo científico que él llevaba treinta años defendiendo, y respondió con una novela propia donde el futuro planificado sí funcionaba, que hoy no lee prácticamente nadie. Aquella réplica no la lee ya casi nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo escribió en cuatro meses, en 1931, en una casa del sur de Francia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tenía treinta y siete años y ya era un escritor conocido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se publicó en febrero de 1932 y no ha dejado de imprimirse desde entonces.",
         },
       ],
     },
     {
-      titulo: "El soma",
+      titulo: "La lección mientras duermes",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "En este mundo nadie está triste, porque existe el soma: una droga sin resaca que se reparte gratis. Ante cualquier incomodidad —una discusión, un mal recuerdo, una duda— la respuesta social es tomar un gramo. «Un centímetro cúbico cura diez sentimientos sombríos.»",
-        },
-        {
-          forma: "clave",
-          rotulo: "La diferencia con 1984",
-          frase: "Aquí no hay tortura. Hay entretenimiento infinito, sexo sin vínculo y una pastilla para que nada duela.",
+            "La mejor escena del libro dura tres páginas y ocurre en una sala de bebés. Colocan a un grupo de niños de casta baja frente a unos libros abiertos y unos jarrones de rosas, los dejan acercarse gateando, y cuando los tocan suena una alarma y reciben una descarga.",
         },
         {
           forma: "texto",
           texto:
-            "La promiscuidad no solo está permitida: es obligatoria socialmente. «Todos pertenecen a todos.» Enamorarse de una sola persona se considera una desviación vergonzosa. La familia se ha eliminado porque generaba apegos intensos, y los apegos generan dolor cuando se rompen.",
+            "El nombre técnico que usa el libro para eso es condicionamiento neopavloviano. Está tomado del laboratorio real: Iván Pavlov llevaba desde principios de siglo demostrando que un reflejo se puede asociar a cualquier estímulo repitiendo el par. Pavlov recibió el Nobel en 1904. Pavlov recibió el Nobel de Medicina en 1904.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se repite el procedimiento doscientas veces y el resultado dura toda la vida. Esos niños serán adultos que odian instintivamente los libros y las flores, sin saber por qué, y así el Estado se ahorra tanto la censura como la explicación. Doscientas repeticiones bastan para toda una vida adulta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ahorro que eso supone es el argumento político de la escena. Prohibir libros exige policías, listas y juicios; hacer que los libros den grima desde los ocho meses no exige nada, y además nadie protesta porque nadie echa de menos lo que le repugna.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Por qué las flores",
+          frase: "Porque amar el campo no genera consumo. Los condicionan para odiar la naturaleza y adorar los deportes que exigen comprar aparatos caros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es de 1931 y describe bastante bien el siglo que vino después. La idea de que el gusto de la población se puede diseñar para que consuma más no era entonces evidente, y hoy es la base declarada de industrias enteras. El marketing moderno nacía justo por entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese razonamiento es de una lucidez económica notable para 1931. El director explica que se necesitaba una afición que consumiera transporte y material, no una que se satisficiera con un paseo gratis, y que por eso se rediseñó el gusto de la población entera. El ocio se diseña para que gaste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro método de condicionamiento se aplica de noche y es el más famoso del libro. Se llama hipnopedia y consiste en repetir frases por un altavoz mientras los niños duermen, ciento veinte veces por noche durante años, hasta que la frase se vuelve pensamiento propio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La hipnopedia se le ocurre al Estado por accidente en la propia novela. Un niño se queda dormido con la radio encendida, repite al despertar un discurso entero sin entender una palabra, y de ese error nace el método educativo de toda una civilización. Lo notable es que el niño no entiende nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las frases que repiten no son órdenes sino consignas de autoestima de casta. Un Beta oye que se alegra mucho de no ser Alfa, porque los Alfa trabajan demasiado, y que los Gamma son horribles, de modo que cada uno acaba encantado con su sitio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mecanismo es más eficaz que el desprecio de arriba abajo. Cada casta desprecia a las de abajo y compadece a las de arriba, de modo que nadie envidia a nadie y la estructura entera se sostiene sin que haga falta vigilarla desde ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Huxley resume el método en una frase que el director dice sin ninguna ironía. Sostiene que así se fabrica la moral del Estado, que la repetición sustituye al argumento, y que sesenta mil doscientas repeticiones hacen una verdad. La cifra la dice el director con orgullo, y sesenta mil doscientas repeticiones le parecen pocas.",
         },
         {
           forma: "arte",
           texto:
-            "Tampoco hay arte serio, porque el arte necesita conflicto y aquí no hay conflicto. Shakespeare está prohibido, no por peligroso sino porque nadie lo entendería: habla de celos, de duelo y de deseo insatisfecho, y esas emociones ya no existen.",
-          arte: "estanteria",
-        },
-      ],
-    },
-    {
-      titulo: "El salvaje",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "La trama arranca cuando dos ciudadanos visitan una reserva donde aún vive gente al modo antiguo — con familias, enfermedades, vejez y religión. Allí encuentran a John, hijo de una mujer del mundo civilizado que se perdió allí años atrás. John se ha criado leyendo un volumen destrozado de Shakespeare, el único libro de la reserva.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Lo llevan a Londres como una curiosidad y se convierte en la atracción de moda. Pero John no encaja: le repugna la promiscuidad, no entiende que nadie se preocupe por nada, y cuando su madre muere y las enfermeras traen a un grupo de niños a observar la agonía como parte de su condicionamiento, estalla.",
-        },
-        {
-          forma: "clave",
-          rotulo: "Su exigencia",
-          frase: "«Reclamo el derecho a ser desgraciado.» A envejecer, a tener miedo, a que algo le duela de verdad.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "La escena central es su conversación con Mustafá Mond, uno de los diez administradores del mundo, que ha leído todo lo prohibido y lo defiende con calma. Su argumento no es tiránico sino utilitario: renunciamos al arte, a la ciencia libre y a Dios porque eran incompatibles con la estabilidad y con que nadie sufra. Y elegimos que nadie sufra.",
-        },
-      ],
-    },
-    {
-      titulo: "Quién acertó más",
-      tarjetas: [
-        {
-          forma: "arte",
-          texto:
-            "La comparación con Orwell es inevitable y da la mejor lectura del libro. En <em>1984</em> la información se prohíbe; aquí sobra tanta que nadie atiende a ninguna. Allí se oculta la verdad; aquí se ahoga en un océano de trivialidades. Allí la cultura es una cárcel; aquí, un parque de atracciones.",
+            "Aquí es donde el libro falla en lo técnico y conviene decirlo. La hipnopedia se investigó en serio hasta los años cincuenta y sesenta, y cuando se midió la actividad cerebral quedó claro que no se aprende contenido nuevo durmiendo de verdad. Es el fallo técnico más grande de la novela.",
           arte: "noche",
         },
         {
+          forma: "texto",
+          texto:
+            "Los experimentos que lo zanjaron son de los años cincuenta y sesenta. Al registrar la actividad cerebral se vio que quienes recordaban algo se habían despertado brevemente sin darse cuenta, y que en sueño confirmado no quedaba nada de lo que había sonado. Bastó con medir en vez de preguntar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí funciona es justo lo contrario, y está en otro libro de este catálogo. Por qué dormimos explica que el sueño consolida lo aprendido despierto, de modo que el sueño no mete información sino que ordena y fija la que ya entró. El sueño ordena; no enseña.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una versión moderna del truco que sí tiene algo de respaldo. Se puede reforzar durante el sueño un recuerdo ya formado presentando un olor asociado a él, pero eso refuerza lo aprendido y no enseña nada. La distancia entre las dos cosas es enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Del método de las descargas, en cambio, se puede decir bastante más a favor. Es condicionamiento clásico de manual, del tipo que Pavlov había demostrado en perros treinta años antes, y funciona de sobra para asociar un objeto con miedo. Esa parte del libro sigue en pie entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entonces distinguir dos cosas que el libro mezcla. Condicionar una aversión con dolor repetido es psicología conocida; instalar una ideología completa por altavoz mientras alguien duerme es ciencia ficción, y la novela presenta las dos con el mismo tono de informe. Una es psicología y la otra es invención.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El condicionamiento no acaba en la infancia sino que se refuerza con moral sexual. Everyone belongs to everyone else, todos pertenecemos a todos, es la consigna que aprenden dormidos, y la monogamia se considera una perversión antisocial y algo sucia. La consigna se aprende dormido y se repite despierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los niños juegan a juegos eróticos en el jardín bajo la mirada aprobadora de los adultos. Esas páginas escandalizaron en 1932 y siguen incomodando, y son la razón de que el libro fuera prohibido en Irlanda el mismo año de su publicación. Fue de los primeros países en prohibirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro ha sido además uno de los más impugnados en las bibliotecas estadounidenses. Aparece con regularidad en las listas de títulos denunciados por padres y consejos escolares, casi siempre por el sexo y por el retrato de la religión, y sigue apareciendo hoy. Sigue apareciendo en esas listas hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto se impone por la fuerza en ningún momento del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay policía secreta, ni tortura, ni campos de trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Solo hay gente a la que le gusta muchísimo su vida.",
+        },
+      ],
+    },
+    {
+      titulo: "El gramo de soma",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La pieza que sostiene todo el sistema es una pastilla que se reparte al salir del trabajo. Se llama soma, quita la angustia en minutos, no da resaca y permite escoger la duración del efecto según la dosis que uno se tome. Es lo más parecido a un salario emocional.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La dosis está pensada al detalle y la novela la explica. Medio gramo para media tarde, un gramo para una noche, dos para irse a la luna, y una ración diaria que forma parte del salario. Se reparte a la salida del turno. Se reparte a la salida de cada turno.",
+        },
+        {
           forma: "clave",
-          rotulo: "La frase que resume el debate",
-          frase: "Orwell temía a los que prohibirían los libros. Huxley temía que no hiciera falta prohibirlos porque nadie querría leerlos.",
+          rotulo: "Cómo la vende el libro",
+          frase: "Tiene todas las ventajas del cristianismo y del alcohol, y ninguno de sus defectos. Unas vacaciones de la realidad cuando quieras.",
         },
         {
           forma: "texto",
           texto:
-            "Huxley volvió sobre esto en 1958 en un ensayo, y dijo algo incómodo: que se había quedado corto en los plazos, y que la técnica que más le preocupaba no era la biológica sino la publicitaria — la capacidad de conseguir que la gente ame su servidumbre.",
+            "Conviene precisar que el soma no es un narcótico que embrutezca. En la novela no da resaca, no daña el hígado y no impide trabajar al día siguiente, y esa ausencia de coste es lo que lo hace políticamente perfecto. Un vicio sin factura. Es un vicio sin factura de ningún tipo.",
         },
         {
           forma: "texto",
           texto:
-            "Sus defectos también hay que decirlos. Como novela es floja: los personajes son portavoces de ideas más que personas, y hay capítulos que son básicamente conferencias. Se lee por lo que plantea, no por lo que cuenta. Y su reserva de indios está escrita con los prejuicios de un inglés de los años treinta.",
+            "El nombre no es inventado y viene de muy lejos. El soma era una bebida ritual de los himnos védicos de la India, preparada con una planta que nadie ha identificado con certeza, y que producía en el sacerdote una especie de éxtasis divino. La planta original nadie ha logrado identificarla.",
         },
         {
           forma: "texto",
           texto:
-            "Su capítulo final es el más citado de todos. Cuando John le pregunta al administrador por qué no reparten a todo el mundo la mejor vida posible, Mustafá Mond le explica que lo intentaron: crearon una isla poblada solo por Alfas, personas brillantes y capaces. En seis años había guerra civil. Alguien tiene que hacer el trabajo, y un sistema donde todos quieren mandar no se sostiene. La estabilidad, concluye, exige que la mayoría sea incapaz de desearla.",
+            "Huxley conocía bien esa tradición y no la eligió al azar. Llevaba años leyendo textos religiosos orientales, acabaría escribiendo un libro entero sobre misticismo comparado, y el chiste consiste en que el Estado sustituye la experiencia religiosa por una pastilla que reparte gratis. El Estado sustituye el éxtasis por una pastilla.",
         },
         {
           forma: "texto",
           texto:
-            "Un detalle que sitúa el libro: Huxley fue profesor de francés de George Orwell en el instituto de Eton. Décadas más tarde, cuando salió 1984, Huxley le escribió una carta felicitándole y añadiendo que él seguía creyendo que el control por el placer acabaría imponiéndose al control por el terror, porque sale más barato.",
+            "La función política de la pastilla está dicha con todas las letras. Cuando alguien se pone nervioso, triste o crítico, la respuesta social no es escucharle sino ofrecerle soma, y con eso desaparece a la vez el malestar y cualquier motivo de conflicto. Ofrecer soma es la manera educada de callar a alguien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa respuesta social aparece decenas de veces con la misma cantinela. Cuando alguien se altera, otro personaje le dice que un centímetro cúbico cura diez sentimientos sombríos, y la frase funciona como el equivalente civilizado de una porra. Nadie la dice con maldad. Nadie la dice nunca con maldad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Huxley quedó luego insatisfecho con esa parte y lo dijo. Consideraba que había inventado la droga desde fuera, sin saber realmente cómo era una alteración de la conciencia, y esa curiosidad acabó llevándolo a un experimento personal veinte años después. Tardó veinte años en salir de dudas por su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1953 tomó mescalina bajo supervisión médica y escribió un libro breve sobre la experiencia. Aquel texto, Las puertas de la percepción, lo convirtió en referencia de la contracultura de los años sesenta, que es un destino curioso para el autor de esta novela. Aquel librito lo leyeron millones de jóvenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese giro biográfico tiene una ironía que conviene no simplificar. Huxley no defendió nunca el soma: distinguía entre una droga que apaga la conciencia para que nadie moleste y otra que la abre. La distinción es discutible y es suya. La distinción es discutible y desde luego es suya.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El resto del ocio funciona igual que la pastilla y con el mismo objetivo. Hay cine con sensaciones táctiles, música sintética, deportes que exigen aparatos caros y sexo abundante y sin consecuencias, y todo ello ocupa exactamente el hueco donde podría aparecer una pregunta. Nada de eso deja hueco para pensar.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cine con sensaciones táctiles es de los inventos que mejor han envejecido. Huxley describe una sala donde el espectador agarra unos pomos metálicos y siente en la piel lo que ocurre en la pantalla, y la industria lleva noventa años intentando exactamente eso. Noventa años intentándolo y todavía nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El protagonista de la primera mitad es un Alfa que salió defectuoso del frasco. Bernard Marx es más bajo que los de su casta, se siente observado, y su descontento no viene de ninguna lucidez moral sino de una humillación física constante. No es un héroe moral en ningún momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su apellido es una broma que hoy se pasa por alto. Se llama Bernard Marx, y los nombres del libro están hechos así: hay una Lenina, un Helmholtz, un Mustafá, revolucionarios y científicos convertidos en apellidos de oficina sin ninguna carga. Son revolucionarios convertidos en apellidos de oficina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es más agudo de lo que parece y evita el cuento fácil. Bernard no es un héroe: es un resentido que en cuanto consigue prestigio se vuelve tan conformista y tan vanidoso como los demás, y el libro se ríe de él sin piedad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro descontento sí es un Alfa perfecto y por eso resulta más interesante. Helmholtz Watson escribe consignas publicitarias, es brillante en todo, y su problema es que intuye que podría decir algo importante y no tiene ni palabras ni asunto para hacerlo. Le sobra talento y le falta asunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Helmholtz es el personaje por el que el libro se acerca más al arte. Descubre a Shakespeare a través de John, entiende de golpe que existe otra manera de usar el lenguaje, y es el único que elige el destierro con algo parecido a la alegría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lenina Crowne es el personaje que peor ha envejecido del libro. Es una mujer joven, sana y perfectamente conforme, y funciona sobre todo como objeto del deseo de tres hombres, sin apenas vida interior propia ni una sola escena contada desde dentro de su cabeza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que ese defecto no es solo de época. Otras novelas de aquellos mismos años construyeron mujeres con vida interior de sobra, así que la planitud de Lenina es una decisión de este autor y no una obligación de la época en que escribía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Huxley reconocía que sus personajes eran portavoces de ideas. Definía lo que escribía como novela de ideas y admitía que eso obliga a que la gente hable como un ensayo, lo cual explica a la vez su fuerza y su rigidez. Eso explica a la vez su fuerza y su rigidez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La consecuencia es que hoy el libro se lee más como un ensayo con trama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las ideas son de primera y las escenas, casi siempre, ilustraciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, hay una que se le escapa a esa regla y cambia el libro entero.",
+        },
+      ],
+    },
+    {
+      titulo: "La reserva de Nuevo México",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "A mitad del libro, Bernard y Lenina van de vacaciones a un sitio que el Estado ha decidido no civilizar. Es una reserva vallada en Nuevo México donde vive gente que todavía nace de madres, envejece, cree en dioses y se muere de enfermedades. Hay que pagar un permiso para entrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reserva existe por un cálculo económico explicado en el libro. Civilizar aquellos territorios costaría más de lo que rendirían, así que el Estado los deja vallados y cobra por visitarlos. La valla está electrificada y los animales muertos se quedan colgando de ella. La valla está electrificada de arriba abajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Allí encuentran a una mujer que llegó de Londres años atrás y se perdió. Se llama Linda, se quedó embarazada porque falló el método anticonceptivo, y ha vivido desde entonces en la reserva odiada por todos y avergonzada de haber sido madre. Falló el método anticonceptivo y ya no pudo volver.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Linda es el personaje más triste del libro y el peor tratado por todos. Llegó de un mundo sin vejez ni dolor, ha envejecido, ha engordado y ha perdido los dientes, y su hijo la quiere y se avergüenza de ella a partes iguales durante todo el libro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La palabra obscena",
+          frase: "Madre. En el mundo civilizado es la peor grosería que existe, y a Linda la desprecian por haber sido una.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ataque del libro a la familia es más frontal de lo que se recuerda. El Estado sostiene que padres e hijos producían neurosis, celos y sufrimiento, y que suprimir el vínculo fue un avance sanitario. Lo dice un funcionario, no un villano. Quien lo dice es un funcionario, no un villano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hijo se ha criado allí sin pertenecer a ninguno de los dos mundos. Los indios no lo aceptan porque su madre es forastera y se acuesta con quien quiere, y él ha aprendido a leer con un volumen viejo de las obras completas de Shakespeare.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre por el que se le conoce dice mucho del libro. Todos lo llaman el Salvaje, con mayúscula, incluidos los personajes que lo admiran, y esa palabra convierte a una persona concreta en una categoría de la que ya no puede salir nunca. Nadie lo llama nunca por su nombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese libro es la única educación que ha recibido y determina cómo habla. John cita a Shakespeare para todo, incluso para cosas para las que Shakespeare no sirve, y ese lenguaje prestado es a la vez su dignidad y su condena. Habla como un personaje de teatro isabelino.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El volumen que encuentra es una edición completa que alguien dejó allí. Aprende a leer con él, se sabe pasajes enteros de memoria, y todo lo que sabe del amor, de la venganza y de la muerte viene de obras escritas hacia el año 1600 en Inglaterra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bernard se lo lleva a Londres y ahí empieza la parte satírica del libro. El salvaje se convierte en la atracción social de la temporada, todo el mundo quiere invitarlo a cenar, y Bernard pasa de marginado a celebridad por ser su descubridor. Dura exactamente lo que dura una moda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte es sátira social pura y funciona como una comedia. Las mismas personas que despreciaban a Bernard le devuelven las llamadas, las mujeres se le ofrecen, y en cuanto John se niega a aparecer en una fiesta todo se derrumba en una sola tarde.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El choque más duro no es entre John y el Estado sino entre John y Lenina. Ella le gusta y se le ofrece con la naturalidad de su mundo; él, criado con Shakespeare y con la vergüenza de su madre, reacciona llamándola prostituta y amenazándola.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena tiene además una asimetría que el libro no examina. Ella actúa exactamente como le han enseñado desde niña y no puede imaginar otra cosa; él la juzga con un código sacado de un libro del siglo diecisiete. Ninguno de los dos eligió el suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa escena es incómoda por razones que el libro no controla del todo. La novela presenta la reacción de John como la de alguien con valores frente a alguien sin ellos, y hoy resulta difícil no leer también un ataque de misoginia sin más. El libro no examina esa lectura en ningún momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El retrato de la reserva es el punto más flojo de toda la obra. Los indios aparecen sucios, borrachos, supersticiosos y crueles, funcionan como decorado de lo natural, y no tienen ni una sola línea que los saque de ese papel. Es el punto más flojo de toda la novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese defecto no es menor porque sostiene media tesis del libro. Si la única alternativa al mundo feliz es una comunidad retratada como sucia y cruel, la elección que se le ofrece al lector está trucada desde el principio. Huxley lo admitió después. El propio Huxley lo admitió catorce años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Huxley conocía Nuevo México sobre todo de oídas y de lecturas. Su amigo D. H. Lawrence había vivido en Taos y escrito sobre los pueblos indígenas de la zona, y buena parte de la imaginería de esos capítulos viene de ahí y no de una visita larga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio autor señaló ese defecto catorce años después. En el prólogo que escribió en 1946 dijo que su error había sido dar a John solo dos opciones, la locura de la utopía o la vida primitiva de la reserva, sin ninguna tercera posibilidad sensata.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel prólogo de 1946 es además un documento de posguerra. Huxley escribe después de Hiroshima y de los campos, dice que la profecía del libro le parece más cercana de lo que había supuesto, y avisa de que ya no le hace ninguna gracia. Lo escribió con cincuenta y dos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Añadió que si volviera a escribirlo ofrecería una comunidad descentralizada y cuerda. Treinta años después lo hizo: publicó en 1962 una novela llamada La isla que describe justo esa alternativa, y casi nadie la ha leído. Aquella novela se llama La isla, salió en 1962 y hoy casi nadie la ha leído ni la cita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Linda vuelve a Londres, se atiborra de soma y muere en pocos meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los médicos consideran su muerte un caso interesante y molesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "John monta un escándalo en el hospital y acaba delante del jefe.",
+        },
+      ],
+    },
+    {
+      titulo: "El derecho a ser desgraciado",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El mejor capítulo del libro es una conversación en un despacho con tres personas y muchos libros prohibidos. Uno de los diez administradores del mundo recibe a John y a Helmholtz y, en vez de castigarlos, se pone a explicarles con calma por qué el sistema es así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese capítulo ocupa apenas veinte páginas y es lo que salva el libro. Sin él, la novela sería una sátira brillante y previsible; con él, el lector tiene delante un argumento a favor del sistema que cuesta trabajo desmontar. Nadie grita en esa escena. Nadie levanta la voz en esa escena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mustapha Mond es el mejor personaje precisamente porque no es un fanático. Fue un físico brillante, le dieron a elegir entre el exilio y el poder, eligió el poder, y guarda en su caja fuerte los libros que él mismo prohíbe leer a los demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su cargo en el libro es Interventor Residente de Europa Occidental. Son diez personas para el planeta entero, no hay elecciones ni partidos, y el poder se ejerce con decisiones administrativas sobre producción y ocio. Ninguno de los diez aparece en público. Ninguno de los diez aparece nunca en público.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El argumento del poder",
+          frase: "La estabilidad se paga con arte, ciencia y religión. Se eligió la felicidad, y la felicidad no admite tragedias ni verdades incómodas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El precio incluye una cosa que sorprende y que Mond enumera sin dramatismo. No hay tragedia posible porque nadie pierde nada que le importe, no hay arte grande porque el arte grande nace del conflicto, y no hay Dios porque nadie lo necesita. Todo eso está calculado y aceptado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El punto más afilado es que Mond también reprime la ciencia. Explica que la investigación libre desestabiliza igual que el arte, que la ciencia del Estado se limita a lo útil, y que ese sacrificio le duele porque él fue científico de verdad. También la ciencia libre desestabiliza el sistema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle desmonta la lectura más común del libro. No es una novela contra la ciencia: es una novela contra la ciencia puesta al servicio de la estabilidad, que es una cosa distinta y bastante más incómoda de discutir. No es un libro contra la ciencia sino contra su uso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "John responde con una lista que es el corazón de todo el libro. Reclama el derecho a envejecer, a ponerse feo, a tener sífilis y cáncer, a pasar hambre, a tener miedo del mañana y a que le duela todo, y Mond le concede el lote entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa escena es donde el libro deja de ser una sátira y se vuelve una pregunta. Mond no tiene un argumento tramposo que refutar: ofrece de verdad una vida sin dolor, y John la rechaza sin poder explicar del todo por qué lo hace. Ese hueco sin respuesta es el libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar qué está y qué no está defendiendo esa lista. No dice que el sufrimiento sea bueno, sino que una vida sin la posibilidad de sufrir tampoco puede tener amor, arte ni elección, porque las tres cosas dependen de que algo pueda salir mal.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "El final es de los más desolados de la literatura del siglo. John se retira a un faro abandonado a vivir como un ermitaño, la prensa lo descubre, se juntan multitudes a mirarlo como a un animal, y todo termina con su cuerpo colgado y girando despacio.",
+          arte: "noche",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que el libro no propone volver a la reserva. El final no premia a John ni valida su ascetismo: lo enseña destruido por una contradicción que no sabe resolver, y deja al lector sin ninguna de las dos salidas. Esa es la parte honesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que todo el mundo cita sobre este libro no es de Huxley. La escribió Neil Postman en 1985, al principio de un ensayo sobre televisión, y desde entonces se repite como si fuera del propio autor o de la novela. Se le atribuye a Huxley desde hace cuarenta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que dice Postman es que Orwell temía a quien prohibiera los libros, y Huxley temía que no hiciera falta prohibirlos porque nadie querría leerlos. Es una síntesis excelente y es de un tercero, no del novelista. La síntesis es excelente y es de un tercero, no del novelista ni de la novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ensayo de Postman se llamaba Divertirse hasta morir y trataba de la televisión. Sostenía que la amenaza para una democracia no era el censor sino el entretenimiento continuo, y usó estas dos novelas como los dos futuros posibles. Vendió millones de ejemplares. Aquel ensayo vendió millones de ejemplares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación con 1984, que está en este mismo catálogo, tiene además una carta de por medio. En 1949, Huxley escribió a Orwell felicitándole por su novela y añadiendo que él seguía creyendo que el poder acabaría gobernando por placer y no por bota. La carta se conserva y está fechada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene no dar por zanjada esa discusión a favor de ninguno. Los dos mecanismos existen y conviven: hay Estados que gobiernan con miedo y vigilancia, y sociedades donde nadie prohíbe nada porque el consumo basta. A menudo son el mismo país en épocas distintas. A veces conviven en el mismo país.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos se conocían de antes, aunque no fueran amigos. Huxley había dado clase de francés en Eton hacia 1917 y Orwell fue alumno suyo durante un curso, detalle que hoy suena inventado y está perfectamente documentado. Suena inventado y está perfectamente documentado en los registros del colegio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar también que ninguno de los dos fue el primero. Una novela rusa de 1921 llamada Nosotros, de Evgueni Zamiatin, ya había imaginado un Estado de cristal con números en vez de nombres, y Orwell la reseñó señalando el parecido con este libro. Zamiatin fue el primero de los tres.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nosotros no se publicó en la Unión Soviética hasta 1988, casi setenta años después. Circuló primero traducida en Nueva York y en Praga, le costó a su autor la carrera y el exilio, y es el eslabón que falta en casi todas las conversaciones sobre distopías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Huxley siempre negó haberla leído antes de escribir el suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1958 publicó un ensayo revisando su propio libro veintiséis años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Concluyó que el mundo iba hacia su novela más deprisa de lo que él había calculado.",
         },
       ],
     },
