@@ -10,118 +10,628 @@ export const ANA_FRANK: Resumen = {
     "Es el testimonio más leído del Holocausto porque no habla del Holocausto: habla de una adolescente discutiendo con su madre en un piso donde no se puede hacer ruido.",
   partes: [
     {
-      titulo: "Un cuaderno de cuadros rojos",
+      titulo: "Salida: un cuaderno de cuadros rojos",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El 12 de junio de 1942 Ana Frank cumplió trece años y entre los regalos había un cuaderno de tapas de cuadros rojos y blancos con un cierre. Le gustó tanto que empezó a escribir ese mismo día. Tres semanas después, su hermana Margot recibió una citación de las autoridades alemanas y la familia desapareció de su casa de Ámsterdam en una mañana.",
+            "El 12 de junio de 1942 Ana Frank cumplió trece años y entre los regalos había un cuaderno de tapas de tela a cuadros rojos y blancos, con un cierre pequeño delante. Lo había visto días antes en un escaparate de Ámsterdam y lo había señalado ella misma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El regalo llegó en un momento muy concreto. Desde mayo de aquel año todos los judíos de los Países Bajos llevaban cosida una estrella amarilla, tenían prohibido el tranvía, las piscinas y los cines, y Ana iba a un instituto solo para judíos. La estrella costaba cuatro céntimos y un cupón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las prohibiciones habían ido llegando por capas desde 1940. Primero los negocios judíos tuvieron que registrarse, luego se les apartó de la administración, después llegaron el toque de queda y la orden de entregar las bicicletas, que en Ámsterdam era casi un castigo físico. Cada norma llegaba por separado, casi razonable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De los ciento cuarenta mil judíos que vivían en los Países Bajos antes de la guerra fueron asesinados unos ciento dos mil. Es la proporción más alta de Europa occidental, y explica por qué esconderse parecía a muchos la única salida posible. Bélgica y Francia perdieron proporciones mucho menores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la primera página escribió que esperaba poder contárselo todo y que esperaba encontrar en él un apoyo grande. No era un diario íntimo al uso: los cuadernos de aquel tipo se vendían como álbumes de firmas, para que los amigos escribieran dedicatorias. Ella lo usó para otra cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La familia llevaba nueve años en los Países Bajos. Otto Frank había salido de Fráncfort en 1933, cuando Hitler llegó al poder, y montó en Ámsterdam una empresa que vendía pectina para hacer mermelada, en un edificio del canal Prinsengracht. Ana llegó a Holanda con cuatro años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La huida de 1933 fue de las tempranas. Otto Frank había sido oficial del ejército alemán en la Primera Guerra Mundial y aun así entendió pronto lo que venía; Edith y las niñas llegaron a Ámsterdam a lo largo del año siguiente. La abuela materna vivió con ellos hasta 1942.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella empresa importaba pectina para que las amas de casa cuajaran la mermelada en casa. Otto la dirigía desde 1933, y cuando en 1941 se prohibió que un judío tuviera negocio la puso a nombre de sus empleados de confianza. El negocio siguió funcionando durante todo el escondite.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese traspaso de la empresa fue una operación legal fingida. Kleiman y Kugler figuraron como dueños, Otto siguió decidiendo desde el anexo por notas escritas, y los libros de contabilidad se llevaron durante dos años como si nada hubiera cambiado. Ningún inspector alemán llegó a detectarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El 5 de julio de 1942 llegó una carta para Margot, la hermana mayor, de dieciséis años: una citación para presentarse en un campo de trabajo en Alemania. Al día siguiente por la mañana los cuatro salieron de casa a pie, bajo la lluvia. Llovía y eso les vino bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La citación no iba dirigida a los padres, sino a la hija de dieciséis años, y eso fue lo que decidió la fecha. Otto llevaba meses preparando el escondite en secreto con sus empleados, pensando entrar en él dos semanas más tarde. Nadie sabía si aquellas cartas eran de trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Margot Frank tiene en el libro un papel pequeño y en la realidad no lo era. Sacaba mejores notas que su hermana, escribió también un diario que se perdió en la redada y murió pocos días antes que ella en el mismo campo. De ella solo se conservan unas cartas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diario tampoco es una historia de dos hermanas enfrentadas, aunque a veces se lea así. Ana envidia la calma de Margot y le molesta que los adultos la pongan de ejemplo, y en la primavera de 1944 se escriben cartas para aclararse. Las cartas se cruzaban dentro de la misma casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Salieron con varias capas de ropa puesta porque una maleta habría llamado la atención. Dejaron la cama sin hacer y restos del desayuno en la mesa, y una nota vaga que apuntaba a Suiza para despistar a quien entrase después. El gato de la casa se quedó allí.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La fecha",
+          frase: "Se escondieron el 6 de julio de 1942 y los detuvieron el 4 de agosto de 1944.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El escondite era la parte trasera del edificio de la oficina, lo que en neerlandés se llama achterhuis. Unos cincuenta metros cuadrados repartidos en dos plantas y un desván, con las ventanas tapadas y una entrada disimulada detrás de una estantería con archivadores. Las cortinas no se abrieron en dos años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El edificio tenía delante una casa estrecha de canal y detrás un anexo pegado, que es lo que en Ámsterdam llaman achterhuis. Desde la calle no se veía, y desde la oficina la única señal era una estantería de archivadores pegada a la pared. Los archivadores contenían papeles de verdad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Ámsterdam hubo cerca de veintiocho mil personas escondidas durante la ocupación, y alrededor de un tercio fueron descubiertas. El escondite de los Frank no era una rareza heroica: era una opción común y casi siempre mal terminada. Esconder a alguien exigía dinero, espacio y vecinos callados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar entonces qué representa este libro y qué no. No es la experiencia típica de un judío neerlandés, que fue la deportación directa, sino la de una minoría que pudo pagarse un escondite y contar con gente dispuesta a sostenerlo. Su padre pagó el escondite con la empresa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La estantería giratoria la construyó Johan Voskuijl, el padre de una de las empleadas. Cuatro personas de la oficina cargaron con el resto durante dos años: Miep Gies, Johannes Kleiman, Victor Kugler y Bep Voskuijl, que subían comida, libros y noticias. Su hija Bep era una de las cuatro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir lo que arriesgaban. Ayudar a esconder judíos se castigaba con la cárcel o con el campo, y Kleiman y Kugler acabaron detenidos el mismo día de la redada; ninguno de los cuatro cobró nunca nada por hacerlo. A Kugler lo mandaron a trabajos forzados hasta el final de la guerra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ana llenó el cuaderno de cuadros y siguió en libretas de contabilidad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El detalle",
+          frase: "Al diario lo llamaba Kitty y le escribía como si fuera una amiga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tenía trece años al empezar y quince al terminar.",
+        },
+      ],
+    },
+    {
+      titulo: "Primera parada: cincuenta metros cuadrados y ocho personas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "A la semana siguiente llegaron los Van Pels, tres personas más: Hermann, Auguste y su hijo Peter, de quince años. En noviembre entró un octavo, el dentista Fritz Pfeffer, que compartió cuarto con Ana y con el que se llevó mal casi desde el principio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hermann van Pels no era un desconocido. Trabajaba con Otto Frank como asesor de especias y fue quien enseñó a la empresa a preparar mezclas para embutido, así que los dos matrimonios se conocían de la oficina antes de encerrarse juntos. Murió gaseado a las pocas semanas de llegar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Peter van Pels tenía quince años al entrar y era callado y poco lector. Ana lo describe primero como un chico aburrido y perezoso, y meses después como la única persona de la casa con la que se puede hablar sin que la traten de cría.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Peter fue enviado a Auschwitz con los demás y evacuado en enero de 1945 en una de las marchas hacia el oeste. Murió en Mauthausen el 10 de mayo, tres días después de que las tropas americanas liberasen el campo. Tenía dieciocho años al morir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el libro no aparecen con esos nombres. Ana los rebautizó a todos: los Van Pels son la familia Van Daan y Pfeffer es Albert Dussel, que en alemán significa algo parecido a bobo. Los nombres reales no se recuperaron hasta ediciones posteriores. Auguste van Pels murió en un traslado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La regla que ordenaba el día era el silencio. Desde las ocho y media de la mañana hasta las seis de la tarde trabajaban abajo los mozos del almacén, que no sabían nada, así que arriba no se podía andar, ni toser fuerte, ni tirar de la cadena.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese horario mandaba en todo. Se cocinaba de noche, se usaba el váter por la tarde, se andaba descalzo y por la mañana había que estar quieto durante nueve horas seguidas, con los ocho repartidos por las habitaciones y sin hablar en voz alta. Los zapatos se dejaban al pie de la escalera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El agua era el problema constante. No se podía tirar de la cadena en horario de almacén, así que se acumulaba, y una vez un fontanero pasó una tarde entera trabajando abajo mientras los ocho aguantaban sentados y sin moverse encima de su cabeza. Nadie se movió hasta que oyeron cerrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También había una radio, libros de la biblioteca que traían los ayudantes y clases. Ana estudiaba francés, taquigrafía, historia y genealogía de las casas reales europeas, y Otto les daba lecciones para que no perdieran el curso escolar. Ana llevaba al día una lista de sus lecturas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Comían lo que Miep Gies conseguía con cupones comprados en el mercado negro. Hubo semanas enteras de judías, temporadas de lechuga podrida y un invierno en que el pan llegaba con moho, y la comida ocupa en el diario más espacio que la guerra. El diario anota los menús con nombre propio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Miep Gies compraba en varias tiendas para no levantar sospechas y necesitaba cupones falsos para ocho bocas. Un carnicero amigo le guardaba carne sin preguntar, y hubo un momento en que los proveedores del mercado negro fueron detenidos y se quedaron sin nada. El invierno de 1944 fue el del hambre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo además dos robos en el almacén. En una de las noches el ladrón oyó ruido arriba y los ocho pasaron horas seguidas convencidos de que volvería con la policía, y esa escena es la más angustiosa que Ana escribió. El ladrón nunca volvió, que se sepa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El miedo aparece siempre por lo pequeño. Una sirena que pasa, un timbre a deshora, unos pasos que se paran delante de la estantería: el diario mide el terror en interrupciones cotidianas, no en escenas grandes, y por eso se sostiene. La tensión sube y baja varias veces al día.",
         },
         {
           forma: "arte",
           texto:
-            "Se escondieron en la parte trasera del edificio donde su padre, Otto, tenía la empresa. Un anexo de unos cincuenta metros cuadrados, con la entrada tapada por una estantería giratoria. Allí vivieron ocho personas durante veinticinco meses: los cuatro Frank, otro matrimonio con su hijo adolescente y un dentista.",
-          arte: "estanteria",
-        },
-        {
-          forma: "clave",
-          rotulo: "La regla del anexo",
-          frase: "De día no se podía hablar, ni andar con zapatos, ni usar el agua. Debajo trabajaban los empleados del almacén.",
+            "Ana pegó en la pared de su cuarto fotos recortadas de revistas: estrellas de cine, una imagen de las princesas inglesas, postales de cuadros. Siguen ahí, y son lo primero que ve quien entra hoy en la casa museo del Prinsengracht. Otto pidió que la casa se dejara vacía.",
+          arte: "museo",
         },
         {
           forma: "texto",
           texto:
-            "Ese detalle explica el tono del libro entero. Nueve horas al día en silencio absoluto, sin poder asomarse a una ventana, con el ruido de gente trabajando a un metro. Escribir era lo único que se podía hacer sin hacer ruido.",
+            "El conflicto central del diario no es el nazismo, es su madre. Ana escribe páginas muy duras sobre Edith, la acusa de frialdad y de preferir a Margot, y a la vez se defiende diciendo que ella tampoco sabe comportarse. Edith Frank murió en Auschwitz en enero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Otto la relación es la contraria y también complicada. Lo adora, lo llama Pim y se apoya en él, y a la vez se queja de que la trata como a una niña y de que nunca se pone de su parte cuando discute con su madre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tiene otra cosa que suele olvidarse: es muy gracioso. Ana escribe retratos crueles y exactos de los adultos con los que convive, se ríe de sus manías en la mesa y de sus discusiones sobre política, y sabe que lo hace bien. Ninguna adaptación ha conservado ese humor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puesto al lado de Si esto es un hombre, de Primo Levi, que también está en este catálogo, se ve lo que cada uno puede hacer. Levi cuenta el campo desde dentro y con la cabeza fría; Ana cuenta la espera, y no llega a contar lo otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un momento en que se corrige a sí misma. En enero de 1944 relee lo que había escrito un año antes, se avergüenza de la crueldad con la que había hablado de su madre y anota que ya no piensa así, pero decide no borrarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la primavera de 1944 sube al desván con Peter van Pels y empieza un noviazgo de dos meses. Lo cuenta con detalle y con dudas, y unas semanas después escribe que quizá se había hecho ilusiones porque no tenía a nadie más con quien hablar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El encierro duró setecientos sesenta y un días sin salir a la calle. Lo que más aparece no es el miedo a la Gestapo, sino el ruido de los aviones, las peleas por el reparto de la mantequilla y la humillación de depender de otros para todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ana quería ser escritora y periodista, y lo dice sin rodeos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El dato",
+          frase: "Ocho personas convivieron dos años en el espacio de un piso pequeño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También escribió cuentos y empezó una novela que dejó a medias.",
         },
       ],
     },
-
     {
-      titulo: "Kitty",
+      titulo: "Segunda parada: la radio de Londres que la volvió escritora",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Ana no escribe un diario al uso: escribe cartas a una amiga imaginaria a la que llama Kitty. Es un truco de escritora, aunque tuviera trece años — le permite explicar cosas, ponerse graciosa, quejarse con destinatario. Por eso el libro se lee como una conversación y no como unas memorias.",
+            "El 28 de marzo de 1944 la radio clandestina Oranje emitió desde Londres un llamamiento del ministro Gerrit Bolkestein: guarden diarios, cartas y documentos, porque después de la guerra habrá que contar lo que ha pasado aquí. Los ocho lo escucharon en el desván. La emisión se oía a volumen mínimo.",
         },
         {
           forma: "texto",
           texto:
-            "Y de lo que habla es sorprendentemente normal. Que su madre no la entiende. Que la comparan con su hermana, que es perfecta. Que el dentista es un pesado que le quita la mesa para escribir. Que se ha enamorado de Peter, el chico del piso de arriba, y que su padre no lo lleva bien.",
+            "Radio Oranje emitía desde Londres para la Holanda ocupada y escucharla estaba prohibido. Los ocho bajaban a la oficina por la noche para oírla, con el volumen muy bajo, y era su única fuente fiable sobre cómo iba la guerra. Tener un aparato sin declarar costaba la cárcel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ministro Bolkestein hablaba desde el gobierno neerlandés en el exilio y pedía material para un archivo futuro. Quería cartas, diarios y sermones, es decir, la letra pequeña de la ocupación, y explicó que los documentos oficiales no bastarían para contarla. La idea le salió bien más de lo previsto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel archivo existe hoy y es enorme. El instituto neerlandés que se fundó después de la guerra reunió miles de diarios de la ocupación, y el de Ana Frank es uno más entre ellos, aunque sea el único que ha leído medio mundo. Los demás siguen sin traducirse a casi nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ana lo tomó como un encargo personal. A partir de mayo empezó a copiar y reescribir su propio diario en hojas sueltas, con un libro en la cabeza que ya tenía título, El anexo, y con la intención declarada de publicarlo cuando terminase la guerra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La reescritura empezó en mayo de 1944 y siguió hasta el final. Trabajaba en hojas sueltas de papel de calco fino, escribiendo por las dos caras, y llegó a reelaborar los dos primeros años completos antes de que la interrumpieran. El papel se lo subían desde la oficina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ana anota en junio que le gustaría publicar El anexo después de la guerra y que no sabe si saldrá bien. Es una frase de escritora joven midiendo su primer libro, escrita en un desván del que no podía bajar a la calle. La frase está fechada un mes antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió además otras cosas en el anexo. Dejó un cuaderno de cuentos y episodios, una libreta de frases bonitas copiadas de sus lecturas y el arranque de una novela sobre una chica llamada Cady, que abandonó a las pocas páginas. Aquellos cuentos se publicaron mucho después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esto cambia cómo hay que leerlo, y casi nunca se cuenta. El texto que circula no es el desahogo espontáneo de una niña: buena parte son páginas reescritas por una autora de quince años que corta, ordena y busca efecto. El mito de la escritura inocente pesa mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia se nota en frases concretas. En los cuadernos hay entradas de tres líneas sobre lo que comieron; en la reescritura esas mismas escenas aparecen ordenadas, con diálogo y con un remate, porque están pensadas para alguien que va a leerlas. Las dos versiones se pueden comparar hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto le quita valor al testimonio y conviene decir por qué. Que un texto esté trabajado no lo hace menos cierto: lo que cambia es que hay que leerlo como literatura escrita por alguien, y no como una grabación involuntaria. Ella se habría ofendido con lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los negacionistas usaron justo lo contrario para atacarlo. Sostuvieron durante años que el diario era falso, y se agarraron a que un peritaje alemán de 1980 encontró tinta de bolígrafo en dos papeles sueltos, posteriores a la guerra y ajenos al texto. Aquellas notas las había añadido otra persona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se conservan dos versiones suyas. La primera son los cuadernos originales tal como los fue llenando; la segunda son unas doscientas quince hojas sueltas de la reescritura, que dejó sin terminar porque llegaron a detenerla antes. La reescritura se detiene en las entradas de marzo de 1944.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la reescritura se ve trabajar a una escritora. Cambia los nombres, une entradas de días distintos, elimina lo que le parece irrelevante y añade explicaciones para un lector que no sabe nada, cosa que un diario privado nunca necesita. Ninguna de esas decisiones es involuntaria.",
         },
         {
           forma: "clave",
-          rotulo: "Por qué funciona",
-          frase: "No escribe como una víctima de la historia. Escribe como una adolescente a la que le sacan de quicio los adultos.",
+          rotulo: "Lo que se olvida",
+          frase: "Buena parte del diario está reescrita por ella misma para publicarse.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "Ahí está la razón de que este libro haya llegado donde no llegan las cifras. Seis millones es un número que la cabeza no procesa. Una chica de quince años enfadada porque su madre le ha leído las cartas, sí.",
-          arte: "memoria",
+            "También conviene precisar qué no hay en el libro. No hay campos de concentración, ni trenes, ni cámaras de gas: el diario se interrumpe el 1 de agosto de 1944, tres días antes de la redada, y todo lo que vino después lo sabemos por otras fuentes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La última entrada es del 1 de agosto de 1944 y no despide nada. Habla de que por dentro es distinta de como parece por fuera y de que le gustaría ser como querría ser, y se corta ahí, a mitad de una idea. Tres días después subieron por la escalera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sí sabía además lo que pasaba con sus conocidos. Menciona a compañeras de clase deportadas, cuenta que los alemanes vaciaban barrios enteros de noche y escribe que los que se llevan no vuelven, sin ningún consuelo alrededor de la frase. Los nombres de esas compañeras aparecen escritos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La edición crítica de 1986 se hizo en parte para cerrar esa discusión. Incluye un informe forense sobre el papel, la tinta y la letra que establece que los cuadernos son de 1942 a 1944 y que la mano es la misma de sus cartas escolares.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sí sabía lo que estaba pasando fuera. En octubre de 1942 anota que los judíos deportados son gaseados, según lo que había oído en la radio inglesa, y añade que se imagina a sus amigas metidas en vagones de ganado. Aquello lo escribió con trece años recién cumplidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso funciona como funciona. No es un documento sobre el exterminio, sino sobre lo que se siente cuando el exterminio es todavía un rumor que llega por la radio y uno intenta seguir peleándose con su madre y estudiando francés. El rumor es peor que el dato confirmado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El llamamiento de la radio duró menos de un minuto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella se puso a reescribir a las pocas semanas de oírlo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El título",
+          frase: "Het Achterhuis, el anexo trasero, es el que ella eligió.",
         },
       ],
     },
-
     {
-      titulo: "La escritora",
+      titulo: "Tercera parada: lo que su padre quitó",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "En la primavera de 1944 oyeron por la radio clandestina a un ministro holandés en el exilio pidiendo que la gente guardara sus diarios y cartas para documentar la ocupación. Ana lo escuchó y decidió que su cuaderno era eso.",
+            "El 4 de agosto de 1944, por la mañana, un coche paró en el Prinsengracht. Subió un suboficial de las SS austriaco, Karl Silberbauer, con varios policías neerlandeses, fueron directos a la estantería y se llevaron a los ocho y a dos de los ayudantes.",
         },
         {
           forma: "texto",
           texto:
-            "A partir de ahí hizo algo que casi nadie sabe: empezó a <strong>reescribir su propio diario</strong> en hojas sueltas, corrigiendo el estilo, quitando lo que sobraba y cambiando los nombres reales por seudónimos. Quería publicarlo después de la guerra con el título de <em>La casa de atrás</em>. Tenía quince años y ya trabajaba como una profesional.",
+            "Quién los delató no se sabe, y conviene decirlo así de claro. Hubo dos investigaciones oficiales, en 1947 y en 1963, y ninguna llegó a una conclusión; Silberbauer, localizado en Viena en 1963, declaró que él solo recibió una orden por teléfono. El expediente de 1963 sigue sin conclusión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2016 la propia casa museo publicó una hipótesis distinta. Aquel verano se investigaba un fraude con cupones de racionamiento en ese mismo edificio, y es posible que la redada empezara buscando eso y acabara encontrando a ocho personas escondidas. Los cupones robados eran un delito frecuente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2022 un equipo con un antiguo agente del FBI acusó a un notario judío de Ámsterdam de haber dado la dirección. El libro se publicó con mucho ruido, los historiadores desmontaron el razonamiento en semanas y la editorial neerlandesa lo retiró. La familia del acusado pidió explicaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los papeles quedaron tirados por el suelo. Miep Gies los recogió aquella misma tarde, los guardó en un cajón sin leerlos y se los entregó a Otto Frank en 1945, cuando llegó la confirmación de que sus dos hijas habían muerto. El maletín donde estaban lo vaciaron para el botín.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Miep Gies contó siempre que no los leyó. Dijo que si hubiera sabido lo que había dentro los habría quemado, porque en aquellas páginas estaban los nombres de todos los que habían ayudado y eso bastaba para detenerlos. Se los dio a Otto sin abrirlos, en un paquete.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Miep Gies vivió hasta 2010 y llegó a los cien años. Repitió durante décadas que ella no era ninguna heroína, que cualquiera habría hecho lo mismo y que precisamente por eso le parecía tan grave que casi nadie lo hiciera. Su marido Jan escondió a otras personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De los otros tres ayudantes, Kleiman salió del campo por enfermedad al mes y medio, Kugler escapó de una columna de prisioneros en 1945 y Bep Voskuijl no fue detenida. Los cuatro siguieron trabajando con Otto Frank después de la guerra. Los cuatro recibieron después una medalla israelí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otto fue el único superviviente de los ocho. Preparó la edición él mismo, mezclando los cuadernos originales y la reescritura de Ana, y quitó por el camino pasajes que consideró privados, hirientes o impublicables en 1947. De los ocho escondidos, siete murieron antes de mayo de 1945.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Volvió a Ámsterdam en junio de 1945 desde Auschwitz, liberado por el ejército soviético en enero. Se instaló en casa de Miep Gies y pasó meses buscando a sus hijas por listas de la Cruz Roja antes de recibir la noticia. Se lo dijeron dos hermanas que coincidieron con ellas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera vez que leyó el diario dijo que no reconocía a su hija. Contó que la Ana que él conocía era la de las bromas y los enfados, y que la que escribía aquello era otra persona que nunca le había enseñado nada de eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otto dedicó el resto de su vida a administrar ese texto, y esa es también una posición discutible. Decidió qué se publicaba, autorizó adaptaciones, escogió el tono con el que se recordaría a su hija y creó la fundación que lo gestiona. También denunció a quienes negaban el texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Quitó sobre todo tres cosas: los reproches más duros contra su madre, las páginas sobre el cuerpo y la sexualidad de una adolescente, y las escenas que dejaban mal al matrimonio Van Pels, que todavía tenía un hijo dado por desaparecido. El hijo apareció muerto en Mauthausen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También hay que ser justo con él. Otto publicó un libro en el que su mujer sale mal parada y él mismo aparece retratado sin ninguna piedad, y nunca pidió que se retocara ninguna de las páginas en las que su hija lo critica a él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La edición de 1947 no ocultó que era una selección. El propio prólogo decía que se habían omitido pasajes, pero nadie podía calibrar cuántos ni de qué tipo hasta que los originales se hicieron públicos casi cuarenta años más tarde. El prólogo no daba ninguna cifra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la única manera sensata de leerlo hoy. Si el libro se ha convertido en un objeto escolar y sentimental, el remedio no es dejar de leerlo, sino leer la versión completa, que es la que ella habría querido publicar. El tomo completo está en cualquier biblioteca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi nadie que dice haber leído el diario ha leído el diario entero. Durante cuarenta años circuló esa versión de 1947, más corta y más limpia, y es la que se tradujo a decenas de idiomas y la que se estudia en muchos colegios. La escolar sigue siendo la más vendida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1986 el instituto neerlandés de documentación de guerra publicó la edición crítica con las tres versiones enfrentadas en la misma página, y en 1995 salió una edición corriente que devolvía alrededor de un treinta por ciento de texto. El volumen crítico pasa de las setecientas páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todavía aparecieron más páginas después. En 1998 salieron cinco hojas que Otto había apartado, con un juicio muy severo sobre el matrimonio de sus padres, y en 2018 se leyeron con luz dos páginas que la propia Ana había tapado con papel de estraza. La tinta se transparentaba desde el reverso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que había debajo de aquel papel eran cuatro chistes verdes y una explicación bastante técnica de la anticoncepción y la prostitución, escrita como quien repasa una lección. La corrección póstuma la habían empezado ella y su padre por separado. Tenía catorce años cuando escribió eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que nada de esto lo inventó ningún editor. Los cortes de Otto se documentaron y se revirtieron, y hoy cualquiera puede comparar las tres versiones línea a línea en la edición crítica. Los cortes se hicieron a la vista de todos y nunca fueron un secreto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La edición completa es bastante más incómoda que la escolar.",
         },
         {
           forma: "clave",
-          rotulo: "Lo que casi nadie sabe",
-          frase: "El diario que leemos no es un borrador espontáneo. Ella misma lo estaba editando para publicarlo.",
+          rotulo: "El corte",
+          frase: "Su padre quitó lo que dolía y dejó lo que se podía leer en 1947.",
         },
         {
           forma: "texto",
           texto:
-            "También cambia lo que escribe. Aparecen reflexiones sobre por qué las mujeres han contado menos en la historia, sobre si la gente es buena por naturaleza, sobre qué querrá hacer con su vida. Dice que quiere ser periodista y escritora, y que quiere seguir viva después de morir.",
+            "Otto Frank murió en 1980, a los noventa y un años.",
         },
       ],
     },
-
     {
-      titulo: "Miep y el suelo",
+      titulo: "Destino: la frase que todo el mundo cita mal",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El 4 de agosto de 1944 la policía entró en el anexo. Nunca se ha sabido con certeza quién los delató, y las investigaciones más recientes siguen sin cerrar el asunto. Los ocho fueron deportados. Ana y Margot murieron de tifus en Bergen-Belsen a principios de 1945, con quince y diecinueve años, pocas semanas antes de que el campo fuera liberado.",
+            "La cita que aparece en carteles y discursos es del 15 de julio de 1944: a pesar de todo, sigo creyendo que la gente es buena en el fondo. Se cita ahí, y ahí es donde el sentido se rompe, porque el párrafo continúa. Casi ningún cartel reproduce lo que viene detrás.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "El mismo día de la detención, Miep Gies —una de las empleadas que los había estado alimentando durante dos años— subió al anexo saqueado y encontró las hojas del diario tiradas por el suelo. Las recogió y las guardó en un cajón sin leerlas, esperando devolvérselas a Ana cuando volviera.",
-          arte: "escritor",
+            "La entrada completa dura poco más de media página y es de las últimas que escribió. Está fechada tres semanas antes de la redada, cuando ya se sabía que los aliados habían desembarcado en Normandía y que la guerra podía terminar pronto. Faltaban veinte días para la redada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contexto de aquellos días importa para entenderla. El desembarco de Normandía había sido el 6 de junio, el frente avanzaba y en el anexo se hacían cálculos cada noche sobre cuántas semanas faltaban para poder salir a la calle. Los cálculos aparecen anotados en el diario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por eso la frase no es ingenuidad, sino una decisión tomada a la fuerza. Ana escribe que se aferra a esa idea porque la alternativa le parece insoportable, no porque crea que los hechos le dan la razón. Es una decisión moral tomada con toda la información delante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sigue dice que no puede construir esperanzas sobre una base de confusión, miseria y muerte, que ve el mundo convertirse poco a poco en un desierto y que oye acercarse un trueno que también los destruirá a ellos. Esa parte casi nunca se lee en voz alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión corta viene del teatro. En 1955 se estrenó en Broadway una adaptación de Frances Goodrich y Albert Hackett que ganó el Pulitzer, y que colocaba esa frase al final, dicha en voz alta sobre el escenario vacío, como consuelo. El público salía del teatro casi aliviado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La obra se estrenó en octubre de 1955 y fue un éxito enorme. Ganó el Pulitzer al año siguiente, se representó en Alemania con salas en silencio absoluto y en 1959 se convirtió en una película que multiplicó otra vez el alcance del texto. Ninguna de las dos menciona los campos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pleito con Meyer Levin duró años y dejó heridas. Levin había escrito la primera adaptación teatral, la produjo nadie, denunció que se le había apartado por hacerla demasiado judía y siguió reclamando hasta el final de su vida. Levin sostuvo hasta el final que le habían robado el trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cynthia Ozick llevó el argumento hasta el extremo a propósito. No pedía que se destruyera nada: quería señalar que un texto puede ser tan querido que deje de leerse, y que en el caso de este diario la cita repetida sustituye al libro. El artículo salió en una revista neoyorquina.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La obra suavizó algo más que el final. Recortó lo judío de la historia para hacerla universal, y esa decisión provocó una pelea larga con el escritor Meyer Levin, que había hecho otra versión y llevó el asunto a los tribunales. La palabra judía apenas aparece en el guion.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La crítica más dura la escribió Cynthia Ozick en 1997. Sostenía que Ana Frank ha sido convertida en un objeto de consuelo, que el uso de esa frase falsea el libro y que casi habría sido mejor que el diario se hubiera perdido antes que ser leído así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que pasó después está fuera del libro y hay que decirlo aparte. Los ocho fueron llevados a Westerbork, y el 3 de septiembre de 1944 salió hacia Auschwitz el último tren que hizo ese trayecto, con ellos dentro. Después de esa fecha ya no salieron más trenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Westerbork los ocho fueron clasificados como presos de castigo por haberse escondido, y los mandaron a desmontar baterías usadas. Estuvieron allí un mes escaso, del 8 de agosto al 3 de septiembre de 1944. El campo estaba en el noreste del país y lo gestionaban alemanes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel convoy del 3 de septiembre llevaba mil diecinueve personas y fue el último tren de Westerbork a Auschwitz. A la llegada, a los dos días, más de la mitad fueron enviados directamente a las cámaras de gas. De los ocho del anexo, cinco no pasaron de aquel otoño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Bergen-Belsen no había cámaras de gas, y aun así murieron allí decenas de miles de personas por hambre y por tifus en los últimos meses. Las hermanas llegaron a un campo desbordado por las evacuaciones del este. Los británicos entraron en el campo el 15 de abril.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ana y Margot fueron trasladadas a Bergen-Belsen a finales de octubre. Las dos murieron de tifus, y en 2015 la casa museo revisó la fecha: no fue en marzo de 1945, como se dijo durante décadas, sino en febrero, semanas antes de la liberación del campo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El diario se publicó en junio de 1947 en una tirada de tres mil ejemplares. Hoy pasa de treinta millones en más de setenta idiomas, y sigue siendo el libro por el que la mayoría de la gente se acerca por primera vez al Holocausto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que se publicara se debió a un artículo de periódico. En abril de 1946 el historiador Jan Romein escribió en Het Parool sobre un diario de niña que había leído por casualidad, y a partir de ese texto una editorial pequeña se decidió a sacarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera tirada tardó en agotarse y el libro no fue un fenómeno inmediato. Despegó fuera: la traducción alemana llegó en 1950, la francesa en 1950 también, y la edición estadounidense de 1952 salió con un prólogo de Eleanor Roosevelt. Ella escribió que era un libro sabio y conmovedor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí termina el viaje que empezó con un cuaderno de cumpleaños. Una chica que quería ser escritora escribió el libro que se propuso escribir, no llegó a verlo publicado y acabó siendo la voz por la que millones entran en esta historia. Tenía quince años cuando murió.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese es a la vez su mérito y su límite. Un solo cuaderno con una voz reconocible entra donde no entran las cifras, y a cambio deja fuera casi todo: el diario cuenta el miedo previo, no la maquinaria que vino después. Ningún libro puede hacer las dos cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La casa del Prinsengracht recibe más de un millón de visitas al año.",
         },
         {
           forma: "clave",
-          rotulo: "El único superviviente",
-          frase: "De los ocho escondidos volvió uno: Otto, el padre. Miep le entregó las hojas cuando supo que sus hijas habían muerto.",
+          rotulo: "Para llevarte",
+          frase: "La frase famosa es media frase, y la otra media habla de un trueno que se acerca.",
         },
         {
           forma: "texto",
           texto:
-            "Hay un detalle sobre Miep Gies que explica por qué el diario existe. Cuando le entregó las hojas a Otto, admitió que no las había leído nunca. Dijo después que si las hubiera leído habría tenido que destruirlas: contenían los nombres reales de todos los que ayudaban a la familia, y de haber caído en manos de la policía los habrían condenado a todos. Guardó dos años un cajón con la prueba que podía matarla, sin abrirlo.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Otto tardó semanas en poder leerlo y dijo que no había conocido a esa hija: la Ana que escribía no era la que él creía tener en casa. Lo publicó en 1947. Hoy se ha traducido a más de setenta idiomas y es uno de los libros más leídos del siglo XX.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Hay que decir una cosa sobre cómo se lee. Su frase más citada —que a pesar de todo sigue creyendo que la gente es buena de corazón— se ha usado mil veces como final consolador, y es una trampa. Ana escribió eso escondida, sin saber lo que venía. Murió en un campo de tifus a los quince años. Leer el diario como un mensaje de esperanza es leerlo a medias.",
+            "El cuaderno de cuadros rojos se conserva en Ámsterdam.",
         },
       ],
     },

@@ -125,12 +125,13 @@ export const META: FichaMeta[] = [
     ano: 1947,
     gancho: "Se lo regalaron por su cumpleaños, tres semanas antes de esconderse. Escribió en él veinticinco meses.",
     porQue: "Es el testimonio más leído del Holocausto porque no habla del Holocausto: habla de una adolescente discutiendo con su madre en un piso donde no se puede hacer ruido.",
-    minutos: 4.2,
+    minutos: 25.9,
     capitulos: [
-      { titulo: "Un cuaderno de cuadros rojos", minutos: 0.9 },
-      { titulo: "Kitty", minutos: 0.8 },
-      { titulo: "La escritora", minutos: 0.8 },
-      { titulo: "Miep y el suelo", minutos: 1.7 },
+      { titulo: "Salida: un cuaderno de cuadros rojos", minutos: 5.2 },
+      { titulo: "Primera parada: cincuenta metros cuadrados y ocho personas", minutos: 5.2 },
+      { titulo: "Segunda parada: la radio de Londres que la volvió escritora", minutos: 5 },
+      { titulo: "Tercera parada: lo que su padre quitó", minutos: 5.2 },
+      { titulo: "Destino: la frase que todo el mundo cita mal", minutos: 5.3 },
     ],
   },
   {
