@@ -477,12 +477,13 @@ export const META: FichaMeta[] = [
     ano: 1883,
     gancho: "Imprimió cuarenta ejemplares de la última parte y los regaló, porque no había encontrado quien la publicara.",
     porQue: "Es el libro de filosofía más citado y peor entendido del mundo. Y no está escrito como filosofía, sino como una novela profética.",
-    minutos: 4.2,
+    minutos: 25.1,
     capitulos: [
-      { titulo: "El profeta que baja de la montaña", minutos: 1 },
-      { titulo: "El superhombre", minutos: 1 },
-      { titulo: "El eterno retorno", minutos: 0.9 },
-      { titulo: "La herencia envenenada", minutos: 1.3 },
+      { titulo: "Salida: una roca junto a un lago suizo", minutos: 5 },
+      { titulo: "Primera parada: el camello, el león y el niño", minutos: 5 },
+      { titulo: "Segunda parada: la frase que no significa lo que parece", minutos: 5 },
+      { titulo: "Tercera parada: el pensamiento más pesado", minutos: 5 },
+      { titulo: "Destino: lo que su hermana hizo con los papeles", minutos: 5 },
     ],
   },
   {

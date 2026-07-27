@@ -3345,111 +3345,628 @@ export const ZARATUSTRA: Resumen = {
     "Es el libro de filosofía más citado y peor entendido del mundo. Y no está escrito como filosofía, sino como una novela profética.",
   partes: [
     {
-      titulo: "El profeta que baja de la montaña",
+      titulo: "Salida: una roca junto a un lago suizo",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Zaratustra tiene treinta años cuando se retira a una montaña. Pasa diez años allí, solo con un águila y una serpiente. Un día decide bajar para compartir lo que ha aprendido, y por el camino se cruza con un anciano ermitaño que le pregunta a dónde va. Cuando se separan, Zaratustra piensa una frase que dará la vuelta al mundo.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La frase más malinterpretada de la filosofía",
-          frase: "«Dios ha muerto.» No es una celebración ni un insulto: es un diagnóstico, y aterroriza al que lo dice.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Nietzsche no está diciendo que Dios no exista. Está describiendo algo que ve ocurrir en la Europa de su siglo: que la religión ha dejado de sostener de verdad los valores de la gente, aunque todos sigan yendo a misa. Y su preocupación no es la pérdida de la fe, sino lo que viene después — un mundo sin ningún suelo donde apoyar lo que está bien y lo que está mal.",
+            "En agosto de 1881, Nietzsche paseaba junto al lago de Silvaplana, en los Alpes suizos, y se paró delante de una roca grande con forma de pirámide. Allí se le ocurrió la idea que sostiene este libro, y apuntó la fecha en una hoja suelta.",
         },
         {
           forma: "arte",
           texto:
-            "En la plaza del pueblo, Zaratustra intenta explicarlo a una multitud que ha ido a ver a un funambulista. Nadie le entiende, se ríen de él y le toman por parte del espectáculo. Es la primera lección del libro: el que trae una idea nueva no encuentra un público esperándole.",
+            "Aquel lugar se llama Surlej y está a unos mil ochocientos metros de altitud, entre Sils-Maria y Silvaplana. Nietzsche pasó allí varios veranos alojado en una habitación pequeña de una casa de pueblo, andando entre cinco y ocho horas diarias. Hoy sube gente expresamente a ver la piedra.",
           arte: "explorar",
         },
+        {
+          forma: "texto",
+          texto:
+            "Aquellas caminatas eran su método de trabajo. Escribía en cuadernos de bolsillo mientras andaba, con lápiz y letra apretada, y decía que solo merecen algo los pensamientos que a uno se le ocurren caminando por el campo. Muchos de esos cuadernos de bolsillo se conservan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que este libro no es. No es un tratado ni un sistema: es una obra literaria con un personaje, un viaje y un final, y quien busque en él argumentos ordenados va a salir con las manos vacías. Tampoco resume su pensamiento con fidelidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Escribió al margen una frase que después repitió mucho. Decía que aquello se le había aparecido a seis mil pies más allá del hombre y del tiempo, y esa mezcla de altímetro y profecía describe bastante bien el tono del libro entero. La cifra en metros no sonaba igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los seis mil pies eran una exageración cómoda. La altura real de aquel paseo ronda los mil ochocientos metros, que son unos seis mil pies justos, así que el dato es correcto y a la vez suena a revelación bíblica, que es lo que buscaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La hoja donde apuntó aquello se conserva. Lleva la fecha de agosto de 1881 y la palabra comienzo, y es de las pocas veces en que un filósofo deja constancia por escrito del día exacto en que se le ocurrió su idea principal. Está guardada en el archivo de Weimar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mito de Sísifo, de Camus, que anda por este catálogo, plantea la misma pregunta sesenta años después. Camus imagina a un hombre condenado a repetir eternamente el mismo esfuerzo y decide que hay que imaginárselo feliz. Camus escribió el suyo en plena ocupación alemana.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El ritmo",
+          frase: "Contaba que cada una de las tres primeras partes la escribió en diez días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera parte la redactó en febrero de 1883 en Rapallo, en la costa italiana, caminando varias horas al día. Las dos siguientes salieron con pocos meses de diferencia, y la cuarta ya no encontró editor dispuesto a publicarla. Andaba entre cinco y ocho horas cada día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel invierno tuvo además un motivo personal. Richard Wagner, que había sido su amigo íntimo y después su enemigo, murió en Venecia el 13 de febrero de 1883, y Nietzsche empezó a escribir el libro en aquellos mismos días. Se enteró de la muerte por una carta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Wagner había tenido una amistad intensa y un divorcio ruidoso. Fue discípulo suyo, pasó temporadas en su casa de Tribschen y acabó acusándolo de haberse arrodillado ante la cruz y ante el nacionalismo alemán en su última ópera. Le llevaba treinta y un años y podía ser su padre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquella ruptura salieron dos libros pequeños y feroces. Los escribió en 1888, el último año de lucidez, y en ellos ajusta cuentas con el músico al que había admirado más que a nadie durante casi una década de su juventud. Los dos ocupan menos de cien páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Para esa cuarta parte pagó él la imprenta. Sacó cuarenta ejemplares en 1885, repartió unos siete entre amigos y guardó el resto, de modo que el final del libro más famoso de la filosofía moderna circuló durante años como un panfleto casero. El libro completo no se publicó junto hasta 1892.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar quién era el autor por entonces. Nietzsche había sido catedrático de filología clásica en Basilea a los veinticuatro años, antes incluso de doctorarse, y había dejado la cátedra en 1879 por unas jaquecas que lo tumbaban días enteros. Nunca tuvo alumnos de filosofía en su vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su nombramiento en Basilea fue extraordinario en todos los sentidos. Lo propusieron sus profesores sin que hubiera terminado la tesis, la universidad le concedió el doctorado sin examen para poder contratarlo y llegó al aula con veinticuatro años recién cumplidos. Ningún catedrático alemán ha sido tan joven después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Renunció diez años después con una carta breve. Tenía treinta y cuatro años, jaquecas que le dejaban vomitando días enteros y una vista tan mala que apenas podía leer, y a partir de ahí vivió de una pensión modesta de la universidad. Aquella pensión duraba solo seis años más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellos diez años finales fueron los productivos. Sin cátedra, sin sueldo fijo y sin más obligación que moverse buscando aire seco, escribió entre 1879 y 1888 casi todos los libros por los que hoy se le conoce. Publicó nueve libros y no vendió casi ninguno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Vivía de una pensión pequeña y se movía buscando climas. Pasaba los veranos en un pueblo de la Alta Engadina y los inviernos en Génova, Niza o Turín, en habitaciones alquiladas, con problemas de vista que le impedían leer o escribir muchas horas seguidas. Cambiaba de pensión cada pocos meses.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no se vendió. La primera parte colocó poco más de cien ejemplares en varios años, las reseñas fueron escasas y él se quejaba por carta de que escribía para nadie, cosa que en aquel momento era literalmente cierta. La cuarta parte no llegó a las librerías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En enero de 1889 se derrumbó en una calle de Turín. Pasó los once años siguientes sin capacidad de trabajar, cuidado primero por su madre y después por su hermana, y no llegó a saber nada de lo que pasó con sus libros. Tenía cuarenta y cuatro años entonces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió en 1900, a los cincuenta y cinco años.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El dato",
+          frase: "No vio nunca a un solo lector suyo, y hoy se cuentan por millones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La roca de Surlej sigue allí, con una placa.",
+        },
       ],
     },
     {
-      titulo: "El superhombre",
+      titulo: "Primera parada: el camello, el león y el niño",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su propuesta ante ese vacío es lo que traducimos como <em>superhombre</em>, y es donde empieza el desastre interpretativo. No es un ser superior, ni una raza, ni un hombre fuerte que domina a otros. Es alguien capaz de crear sus propios valores en vez de heredarlos.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La idea",
-          frase: "El ser humano es una cuerda tendida sobre un abismo. Lo valioso en él es que es un puente, no una meta.",
+            "El primer discurso del libro es el más citado y el más claro. Describe tres transformaciones del espíritu: primero se hace camello, después león y por último niño, y cada figura corresponde a una manera distinta de estar en el mundo. Ocupa el primer capítulo tras el prólogo.",
         },
         {
           forma: "texto",
           texto:
-            "Describe tres transformaciones del espíritu que son la parte más clara del libro. Primero el <strong>camello</strong>, que se arrodilla y carga con todo lo que le mandan, orgulloso de soportarlo. Después el <strong>león</strong>, que se rebela y dice «no» a todo lo impuesto — pero un león solo puede destruir. Y por último el <strong>niño</strong>, que juega, olvida y crea algo nuevo desde cero.",
+            "Ese discurso ocupa apenas tres páginas y funciona solo. Se puede leer sin haber leído nada más de Nietzsche, se entiende a la primera y por eso es el fragmento que aparece en antologías, en clases de instituto y en carteles. Casi nadie que lo cita ha seguido leyendo.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "Frente al superhombre coloca a su contrario, que es a quien más desprecia: el <em>último hombre</em>. Alguien que ha renunciado a todo riesgo, que quiere sobre todo comodidad y salud, que ha inventado la felicidad y parpadea satisfecho. Cuando Zaratustra lo describe en la plaza, la multitud grita entusiasmada que quiere ser eso.",
-          arte: "noche",
+            "La imagen del dragón es la que mejor funciona del capítulo. En cada escama lleva escrito un valor con mil años de antigüedad, y el león tiene que enfrentarse a todos ellos a la vez para poder decir por fin la palabra yo quiero. Ese momento es el centro del capítulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre las dos libertades es lo que suele saltarse. El león consigue libertad frente a algo, que es la parte fácil, y lo que hace falta después es libertad para algo, que es lo que solo sabe hacer el niño. El alemán las distingue con preposiciones distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El camello es el que carga. Se arrodilla para que le pongan encima el peso más grande que pueda soportar, y esa carga son los deberes heredados: lo que se debe hacer, lo que se debe creer y lo que se debe respetar sin discutir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lista de cargas que enumera es concreta y dura. Humillarse para herir el propio orgullo, separarse de la propia causa, dar la mano al que asusta y alimentarse de la comida más áspera, todo por el gusto de aguantar el peso. Ninguna de ellas resulta agradable de leer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que el camello no es un personaje despreciable. Nietzsche lo presenta como una etapa necesaria: sin haber cargado antes con una tradición entera, la rebelión posterior no tiene contra qué medirse y se queda en rabieta. Sin tradición encima no hay contra qué rebelarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese orden tiene además consecuencias para el lector. Quien se salta la etapa del camello y va directo a decir no a todo se queda, según este esquema, en la mitad del camino y sin nada que poner en el sitio de lo que ha tirado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El león es el que se planta. Su función es decir no, pelear contra el dragón de las mil escamas donde brilla escrito tú debes, y con eso conquistar libertad, pero solo libertad para: todavía no sabe qué hacer con ella. Su rugido no construye absolutamente nada todavía.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La tercera",
+          frase: "El niño es inocencia, olvido y un empezar de nuevo que dice sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese esquema explica por qué el libro no es una obra de destrucción. La parte demoledora, la del león, es solo el paso intermedio, y lo que Nietzsche persigue es lo que viene después: la capacidad de inventar valores propios sin resentimiento. La parte constructiva es la que nadie recuerda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resto del libro no argumenta, predica. Zaratustra baja de la montaña a los cuarenta, tras diez años de soledad, y va soltando discursos a quien se cruza, con parábolas, bendiciones y repeticiones que imitan el ritmo de la Biblia de Lutero. Los discursos son ochenta y tantos en total.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los diez años de soledad tampoco son un dato menor. Zaratustra se retira a los treinta y baja a los cuarenta, exactamente al revés que los profetas que suben a la montaña a recibir instrucciones y vuelven con tablas. Ese detalle invierte el molde bíblico a propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro repite además una estructura fija en cada discurso. Zaratustra habla, alguien no entiende, él insiste con otra imagen y la escena termina con la fórmula que da título al libro, así hablaba Zaratustra, como un estribillo. Ese estribillo aparece decenas de veces en el texto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese estribillo produce con el tiempo un efecto secundario. La solemnidad constante cansa, muchas páginas suenan a sermón sin contenido y es uno de los motivos por los que casi nadie termina el libro que todo el mundo cita. Muchos lectores lo abandonan en la segunda parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa imitación es deliberada y bastante descarada. Nietzsche, hijo y nieto de pastores protestantes, se sabía aquel alemán de memoria, y escribió su libro como una parodia estructural del evangelio, con discípulos, última cena y todo. Su padre y sus dos abuelos fueron pastores luteranos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre del protagonista tampoco es casual. Zaratustra es Zoroastro, el profeta persa que, según la lectura de Nietzsche, inventó la oposición moral entre el bien y el mal, así que le toca a él ser quien venga a deshacer su propio invento. La forma persa del nombre es Zaratustra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Zoroastro histórico vivió en Persia hace unos tres mil años y fundó una religión con dos principios enfrentados, uno de la luz y otro de la oscuridad. De aquella doctrina viene, por línea directa, buena parte de la idea occidental del mal. Su religión todavía tiene fieles en la India.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese origen persa explica un detalle curioso del libro. El protagonista no es alemán ni griego, sino un profeta oriental, y Nietzsche lo usa para hablar desde fuera de la tradición europea que quiere desmontar por dentro. Despreciaba abiertamente el orgullo nacional de sus compatriotas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que el personaje no tiene nada del Zoroastro real. Nietzsche le toma el nombre y la función simbólica, y le pone en la boca ideas que serían incomprensibles para cualquier sacerdote persa de hace tres mil años. El préstamo es de nombre y de función.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo dice por escrito en otro libro suyo posterior. Explica que eligió a ese personaje precisamente porque fue el primero en ver la moral como el motor del mundo, y que la honradez exigía que fuera también el primero en reconocer el error. Aquel libro lo escribió en 1888.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro empieza con Zaratustra hablándole al sol.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Baja de la montaña con una serpiente y un águila.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El detalle",
+          frase: "Lo primero que hace al llegar abajo es fracasar delante de una multitud.",
         },
       ],
     },
     {
-      titulo: "El eterno retorno",
+      titulo: "Segunda parada: la frase que no significa lo que parece",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Su idea más extraña es también su prueba más práctica. Imagina que un demonio te dice que vas a vivir esta misma vida infinitas veces, exactamente igual, con cada dolor y cada error en el mismo orden, sin cambiar una coma. ¿Te derrumbarías, o le darías las gracias?",
-        },
-        {
-          forma: "clave",
-          rotulo: "El examen",
-          frase: "Vive de tal manera que quisieras repetir cada momento infinitas veces. Esa es la única medida.",
+            "En el prólogo, Zaratustra se cruza con un ermitaño que sigue alabando a Dios en el bosque. Se despide de él con cortesía y, cuando se queda solo, comenta en voz baja que ese viejo santo todavía no se ha enterado de que Dios ha muerto.",
         },
         {
           forma: "texto",
           texto:
-            "No hace falta creérselo como física — hay discusión sobre si Nietzsche lo pensaba literalmente. Funciona como test: si tu vida actual te resultaría insoportable repetida, eso dice algo que ninguna otra pregunta consigue sacar. Y si la aceptarías entera, incluyendo lo malo, has llegado a lo que él llama amor al destino.",
+            "La escena es más amable de lo que se recuerda. Zaratustra no discute con el ermitaño ni intenta convencerlo: se ríen juntos como dos niños, se despiden con afecto y el comentario solo llega cuando ya se ha alejado por el bosque. Ninguno de los dos convence al otro.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "Es también su respuesta al problema que él mismo había planteado. Si Dios ha muerto y no hay un más allá que dé sentido a esta vida, el eterno retorno devuelve el peso entero a lo que haces ahora: no hay otra oportunidad ni compensación posterior, solo esto, para siempre. Deja de ser una idea consoladora y se convierte en la exigencia más dura que se le puede poner a alguien.",
-          arte: "aprendizaje",
+            "El ermitaño le regala además un consejo. Le dice que no baje al valle, que la gente no le va a entender y que se quede en el bosque con los animales, y el resto del libro consiste en demostrar que aquel viejo tenía razón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fracaso del prólogo tiene además una víctima. Zaratustra está hablando en una plaza donde había un funambulista, el hombre se cae de la cuerda y muere, y el profeta acaba cargando el cadáver a la espalda toda la noche. Aquel muerto es su primer y único discípulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar de dónde sale esa frase famosa. No aparece por primera vez aquí, sino en La gaya ciencia, publicada un año antes, donde la grita un loco con un farol en la mano en pleno mercado y a plena luz del día. El libro anterior es de 1882.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel aforismo lleva el número ciento veinticinco y se titula El loco. Es media página escasa y es probablemente el texto más influyente que escribió: casi todo lo que se ha dicho sobre secularización en el siglo veinte pasa por ahí. Se puede leer en cinco minutos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El loco del texto entra en varias iglesias aquella misma mañana. Se pone a cantar un réquiem por Dios, y cuando le echan y le preguntan qué hace, contesta que esos templos ya no son más que sepulcros de algo que se ha muerto. Después tira el farol al suelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la imagen que resume el libro entero. Un hombre entra corriendo en un sitio con una noticia enorme, la grita, y los que le escuchan se ríen porque todavía no han entendido de qué les está hablando. El propio Zaratustra repite ese fracaso entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El pasaje original es lo contrario de un triunfo. El loco pregunta quién les dio la esponja para borrar el horizonte, dice que todos somos los asesinos y termina gritando que ha llegado demasiado pronto y que nadie le entiende. Nadie del mercado le hace ningún caso.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El sentido",
+          frase: "No es una victoria: es la constatación de que se ha quedado un agujero enorme.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nietzsche no está informando de una noticia teológica. Está diciendo que la cultura europea ha dejado de creer de verdad en el fundamento que sostenía su moral, sus leyes y su idea del sentido, y que todavía no ha entendido lo que eso implica. El problema es cultural y no teológico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su diagnóstico apuntaba a un proceso muy lento. Sostenía que hacía falta mucho tiempo para que la noticia llegara del todo, que los templos seguirían en pie durante siglos y que la mayoría viviría como si nada hubiera cambiado. Calculaba que harían falta al menos dos siglos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa lentitud es lo que separa su análisis del ateísmo corriente. No le interesa discutir si Dios existe, cosa que da por zanjada: le interesa qué pasa con una civilización entera cuando el suelo sobre el que se construyó deja de estar. Los ateos militantes le parecían igual de ingenuos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El hombre en busca de sentido, de Frankl, que está en este catálogo, cita precisamente a Nietzsche. Frankl repite que quien tiene un porqué para vivir soporta casi cualquier cómo, y esa frase sale de otro libro suyo de 1888. Frankl la usó dentro de un campo de concentración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale su preocupación central, que es el nihilismo. El peligro que ve no es que la gente se vuelva mala, sino que se quede sin motivos para nada y llame a esa parálisis felicidad, tranquilidad o sentido común. La palabra nihilismo aparece en todos sus libros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa figura tiene nombre en el libro: el último hombre. Es el que ha inventado la felicidad, tiene su trabajito para el día y su trabajito para la noche, evita cualquier riesgo, no discute con nadie y parpadea mucho. El nombre se traduce también como el hombre último.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La descripción del último hombre da bastante miedo por lo reconocible. Tiene un poco de veneno para dormir bien, un poco más para morir tranquilo, trabaja porque entretiene, cuida su salud y considera que discutir cansa demasiado. Ese parpadeo constante es el detalle más incómodo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese retrato se ha usado después contra casi todo. Lo han citado críticos del consumo, del bienestar, de la televisión y de las redes sociales, y funciona con todos porque describe una actitud y no una época concreta. Ninguno de esos usos habría entusiasmado a su autor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que Nietzsche no propone contra eso. No pide heroísmo ni sacrificio ni grandes gestos: pide que cada uno se invente algo por lo que valga la pena estar incómodo, y no da ninguna indicación de qué debe ser. El libro deja ese hueco abierto a propósito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El chiste del prólogo es feroz y suele pasarse por alto. Zaratustra anuncia al superhombre y la multitud no reacciona, pero cuando describe al último hombre para asustarlos, todos gritan entusiasmados que les dé ese, que quieren ser así. La multitud interrumpe pidiendo justamente lo contrario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra superhombre también se entiende mal. En alemán el prefijo significa más allá o por encima, no super en el sentido de poderes extraordinarios, y lo que describe es un proyecto individual, no una raza ni un tipo biológico. La traducción francesa cometió el mismo error.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El superhombre casi desaparece después de la primera parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nietzsche no vuelve a usar la palabra en sus libros siguientes.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El aviso",
+          frase: "Quien lo lea buscando una raza de señores está leyendo otro libro.",
         },
       ],
     },
     {
-      titulo: "La herencia envenenada",
+      titulo: "Tercera parada: el pensamiento más pesado",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Nietzsche se hundió mentalmente en 1889, a los cuarenta y cuatro años, y pasó sus últimos once años incapacitado al cuidado de su madre y después de su hermana Elisabeth. Ella era abiertamente antisemita y nacionalista, todo lo que él había despreciado por escrito.",
+            "La idea que se le ocurrió junto a aquella roca aparece en la tercera parte y es la que él consideraba central. La llama el eterno retorno, y la presenta primero como una pregunta que le hace un demonio a alguien en su hora más solitaria.",
         },
         {
-          forma: "arte",
+          forma: "texto",
           texto:
-            "Elisabeth se quedó con sus manuscritos, seleccionó fragmentos, los reordenó y publicó bajo su nombre libros que él nunca compuso. Décadas más tarde entregó personalmente un ejemplar a Hitler y se fotografió con él. Así fue como el filósofo que escribió contra el nacionalismo y contra el antisemitismo acabó en los estantes del nazismo.",
-          arte: "estanteria",
+            "El capítulo donde aparece se titula De la visión y el enigma. Zaratustra viaja en un barco, se decide a contar lo que ha visto y describe un portón donde se juntan dos caminos infinitos, uno hacia atrás y otro hacia delante. Es de los pocos capítulos con acción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese portón hay escrita una palabra: instante. Zaratustra discute con un enano deforme que lleva a la espalda, el espíritu de la pesadez, y le explica que los dos caminos infinitos se juntan justo ahí, en el momento presente. El enano le pesa cada vez más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El enano contesta con una frase de manual y se lleva un corte. Dice que el tiempo es un círculo, y Zaratustra le responde que no se lo tome tan a la ligera, porque una cosa es decirlo y otra soportar lo que significa. Decirlo es fácil y aguantarlo no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta es sencilla y muy incómoda. Si tuvieras que vivir esta misma vida otra vez, y otra, e innumerables veces más, con cada dolor y cada mediocridad en el mismo orden, y sin nada nuevo, ¿te echarías al suelo o dirías que sí? Nadie contesta que sí a la primera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La formulación completa está en La gaya ciencia y da escalofríos. El demonio se cuela en tu soledad más solitaria y te dice que hasta esta araña y esta luz de luna entre los árboles volverán, y tú con ellas, en el mismo orden. El texto tiene menos de veinte líneas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El aforismo se titula El peso más grande y ocupa un párrafo. Termina preguntando cómo tendrías que vivir para desear esa repetición y para no pedir nada más, y ahí se acaba: no da respuesta ni añade consuelo. La pregunta se deja abierta y sin respuesta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese título es una broma seria del autor. Lo llama el peso más grande porque la idea funciona como una carga que se coloca encima de cada decisión, y quien la asume no puede volver a hacer nada sin pensárselo dos veces. Cargar con esa idea cambia bastantes decisiones.",
         },
         {
           forma: "clave",
-          rotulo: "La advertencia",
-          frase: "Es el caso más grave de la historia de un autor reescrito por su heredera. Los filólogos tardaron décadas en limpiarlo.",
+          rotulo: "La prueba",
+          frase: "No es una teoría sobre el universo: es una manera de medir cómo estás viviendo.",
         },
         {
           forma: "texto",
           texto:
-            "Y hay que decir su dificultad. Está escrito como una parodia bíblica, en versículos, lleno de símbolos, animales que hablan y discursos que se contradicen a propósito. No hay argumentos ordenados ni conclusiones. Mucha gente lo abre por ser el más famoso y lo abandona en veinte páginas. Si es tu primer Nietzsche, probablemente sea mejor empezar por otro y volver a este después.",
+            "Conviene precisar hasta dónde llega la afirmación. En los cuadernos privados Nietzsche llegó a jugar con una demostración física del retorno, a partir de un número finito de estados y un tiempo infinito, y no la publicó nunca en ningún libro. Esos cuadernos quedaron sin publicar en vida.",
         },
         {
           forma: "texto",
           texto:
-            "Su último aviso es el más difícil de tragar y el más coherente. Zaratustra reúne por fin a un grupo de seguidores y, en vez de fundar una escuela, los despide: les dice que se aparten de él, que desconfíen de Zaratustra, y que solo cuando todos le hayan negado volverá a ellos. Un libro sobre crear tus propios valores no podía terminar con discípulos repitiendo los de otro.",
+            "Lo que sí publicó es el uso práctico de la idea. Funciona como criterio: si algo de tu vida no soportarías repetirlo eternamente, ahí tienes señalado exactamente lo que estás haciendo mal o lo que estás aguantando por costumbre. Ese criterio funciona sin creerse la parte cósmica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre que le da a la actitud correcta es amor fati. Significa amor al destino, y no consiste en resignarse a lo que pasa, sino en querer que haya sido así, incluido lo malo, hasta el punto de no cambiar ni un detalle. La expresión es latina y muy antigua.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase donde lo define es de un libro posterior. Escribe que su fórmula para la grandeza en un ser humano es amor fati, no querer nada distinto de lo que hay, ni hacia delante, ni hacia atrás, ni por toda la eternidad. Ese libro es de sus últimas semanas lúcidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa fórmula la escribió en Ecce homo, un libro autobiográfico de 1888. Lo terminó unas semanas antes del derrumbe, con capítulos titulados por qué soy tan sabio o por qué escribo libros tan buenos, y no llegó a verlo publicado. Los títulos de sus capítulos son provocaciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel libro se publicó en 1908, veinte años después de escribirse. Su hermana lo retuvo mientras pudo, porque contiene juicios muy duros sobre Alemania y sobre la familia, y la primera edición completa tardó aún varias décadas más. La edición sin recortes llegó bastante después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea no era nueva y él lo sabía. Los estoicos llevaban dieciocho siglos recomendando aceptar lo que no depende de uno, y Marco Aurelio y Séneca, que andan por este catálogo, escribieron páginas enteras sobre lo mismo con otro tono. Ninguno de los dos hablaba de repeticiones idénticas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También el eterno retorno tenía antecedentes antiguos. Los estoicos hablaban de ciclos cósmicos que se repiten idénticos tras una conflagración, y Nietzsche, que era filólogo clásico, conocía esos textos mucho mejor que cualquiera de sus lectores. La palabra griega para esa conflagración cíclica es ekpýrosis.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia con aquellos ciclos antiguos está en el uso. Para los estoicos era cosmología, una descripción de cómo funciona el mundo; aquí es un experimento mental que sirve para saber si uno soporta su propia vida. Una cosa es describir el mundo y otra probarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la manera práctica de usar el libro hoy. No hace falta creerse la cosmología ni la profecía: basta con hacerse la pregunta del demonio una vez al mes y mirar qué partes de la respuesta salen torcidas. El resultado suele ser incómodo de mirar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia está en el ánimo. El estoico acepta el destino porque la razón manda en el universo y conviene ponerse de acuerdo con ella; Nietzsche no cree que mande nadie, y aun así pide decir que sí, que es bastante más difícil. Decir que sí sin garantías cuesta más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al protagonista la idea le cuesta y el libro lo cuenta. Zaratustra se pasa capítulos enteros sin atreverse a formular su propio pensamiento, se marea, cae enfermo siete días y solo después consigue decirlo en voz alta. Sus propios animales tienen que animarlo a decirla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El demonio de la pregunta aparece en La gaya ciencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El eterno retorno ocupa las páginas centrales del libro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Para llevarte",
+          frase: "La pregunta útil no es si es verdad, sino qué contestarías tú.",
+        },
+      ],
+    },
+    {
+      titulo: "Destino: lo que su hermana hizo con los papeles",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Cuando Nietzsche se derrumbó, sus manuscritos, cartas y cuadernos quedaron sin dueño. Su hermana Elisabeth volvió de Paraguay, se instaló al frente de la familia y montó un archivo con todo aquello, del que fue la única administradora durante décadas. Ninguno de aquellos papeles estaba ordenado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena del derrumbe se cuenta siempre igual y conviene marcarla. Se dice que abrazó a un caballo al que azotaba un cochero en la plaza Carlo Alberto de Turín, y esa versión aparece por primera vez décadas después, sin ningún testigo directo. Ninguna carta de aquellos días la menciona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí está documentado son las cartas de aquellos días. Envió notas breves y delirantes a media Europa, firmadas como el Crucificado o como Dioniso, y un amigo viajó a Turín en cuanto recibió la suya y se lo llevó de allí. Aquel amigo se llamaba Franz Overbeck.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los médicos de la época diagnosticaron una parálisis general progresiva. Hoy se discute ese diagnóstico y se han propuesto otras causas, desde un tumor cerebral hasta una demencia hereditaria, y no hay manera de zanjarlo con los datos que quedan. El diagnóstico se sigue discutiendo hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar quién era ella. Se había casado con Bernhard Förster, un agitador antisemita alemán, y los dos habían fundado en Paraguay una colonia para arios puros que acabó en ruina y con el marido suicidándose en un hotel. Aquel matrimonio se celebró el día del cumpleaños de Wagner.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella colonia se llamaba Nueva Germania y sigue existiendo. Se fundó en 1887 con catorce familias alemanas seleccionadas por raza, fracasó por completo a los pocos años y sus descendientes viven todavía en un pueblo pequeño del interior de Paraguay. Los colonos pasaron hambre desde el primer año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Elisabeth volvió de allí en 1893 con una idea clara. Su hermano llevaba cuatro años incapacitado, su nombre empezaba a sonar en toda Europa, y ella entendió antes que nadie que aquel archivo iba a ser un negocio y una plataforma. Nadie de la familia le discutió el mando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El archivo acabó instalado en Weimar, en una casa grande. Ella organizaba visitas para ver a su hermano enfermo sentado en una habitación, vestido de blanco, y aquella escenificación fue el principio de la leyenda del filósofo profeta. Aquella casa se puede visitar todavía hoy.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hermano detestaba precisamente eso. Nietzsche escribió contra el antisemitismo y contra el nacionalismo alemán en cartas y en libros, rompió con Wagner en parte por ahí y llegó a decir de aquel cuñado cosas impublicables. En sus libros llegó a llamarlos una desgracia para Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus cartas de aquellos años no dejan lugar a dudas. Escribió que le repugnaba el partido antisemita, pidió que no se publicara ni una línea suya en revistas de esa gente y llamó a los nacionalistas alemanes envenenadores de la cultura. Aquellas cartas se conservan y están publicadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay incluso una carta a su hermana que se cita mucho. Le escribe que su modo de pensar y el de ella son incompatibles, que le da asco todo aquel asunto y que preferiría no volver a tratar el tema por escrito. Ella la excluyó de las primeras ediciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar hasta dónde llega la exculpación. Nietzsche escribió cosas duras sobre la democracia, la compasión y la igualdad que no desaparecen porque su hermana lo manipulara, y esas páginas están en sus libros y las firmó él. Separar al autor de su hermana no lo deja limpio.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La ruptura",
+          frase: "Dejó de tratarse con su hermana por culpa de aquel matrimonio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con él ya incapacitado, Elisabeth se quedó con el control del legado. Editó, seleccionó, retocó cartas y, sobre todo, montó con notas descartadas un libro que él nunca escribió y lo publicó con el título de La voluntad de poder. Aquel título salió en 1901 y luego ampliado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El material de aquel montaje eran cuadernos de trabajo. Nietzsche apuntaba ideas, las descartaba y volvía a empezar, y de esos restos ella seleccionó unos mil fragmentos, los numeró y los ordenó por temas como si fueran capítulos. Muchos de esos fragmentos él los había tachado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con el tiempo se demostró hasta qué punto había manipulado. Se documentaron cartas alteradas, fechas cambiadas y fragmentos unidos que no iban juntos, y hoy ninguna edición seria del autor incluye aquel libro como obra suya. Las pruebas las reunieron dos filólogos italianos en los sesenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí termina el viaje que empezó junto a una roca en los Alpes. Un profesor enfermo tuvo una idea paseando, escribió con ella un evangelio para nadie, pagó de su bolsillo el final y acabó convertido, ya sin enterarse, en lo contrario de sí mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese libro es el origen de media confusión posterior. Los fragmentos son suyos, pero el orden, los cortes y la apariencia de sistema los puso ella, y durante medio siglo se leyó como su obra mayor sin serlo en absoluto. Heidegger construyó su lectura sobre ese montaje.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El uso político vino después y ella lo alimentó. Elisabeth recibió a Hitler en el archivo, le regaló el bastón de su hermano en 1934 y el régimen convirtió a Nietzsche en un antepasado ilustre que él habría despreciado. Aquel bastón acabó en una fotografía muy difundida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La recuperación filológica tardó décadas. A partir de los años sesenta, Colli y Montinari editaron en Italia y Alemania las obras completas volviendo a los manuscritos originales, y con eso quedó documentado qué había escrito él y qué no. Aquella edición crítica sigue siendo hoy la referencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene decir dónde falla el propio libro. No argumenta nada: afirma con solemnidad, se repite, se pone pesado en la cuarta parte con una farsa de personajes grotescos, y no hay manera de discutirle nada porque no ofrece un solo razonamiento. Es su libro más famoso y no el mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En la Primera Guerra Mundial se repartieron ejemplares entre los soldados alemanes.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El otro camino",
+          frase: "Más allá del bien y del mal, del año siguiente, es el mismo autor argumentando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La música que todo el mundo asocia al título es de Strauss.",
         },
       ],
     },
