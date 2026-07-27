@@ -1628,12 +1628,13 @@ export const META: FichaMeta[] = [
     ano: 1605,
     gancho: "Un señor de cincuenta años lee tantos libros de caballerías que decide salir a ser caballero. En 1605 eso era una broma.",
     porQue: "Es la primera novela moderna y sigue siendo divertidísima. Lo que casi nadie sabe es que la segunda parte se escribió porque alguien plagió la primera.",
-    minutos: 4.2,
+    minutos: 25.5,
     capitulos: [
-      { titulo: "El que se creyó lo que leía", minutos: 1 },
-      { titulo: "Sancho", minutos: 0.9 },
-      { titulo: "El plagio", minutos: 0.9 },
-      { titulo: "Por qué sigue vivo", minutos: 1.4 },
+      { titulo: "Salida: una cárcel de Sevilla y un hidalgo con libros", minutos: 5.1 },
+      { titulo: "Primera parada: los molinos que duran tres páginas", minutos: 5.1 },
+      { titulo: "Segunda parada: el impostor de Tarragona", minutos: 5.1 },
+      { titulo: "Tercera parada: la ínsula que Sancho gobierna bien", minutos: 5.1 },
+      { titulo: "Destino: el caballero que los alemanes volvieron triste", minutos: 5.1 },
     ],
   },
   {
