@@ -1707,12 +1707,13 @@ export const META: FichaMeta[] = [
     ano: 1915,
     gancho: "Un vendedor se despierta convertido en insecto. Su primera preocupación es que va a perder el tren de las cinco.",
     porQue: "Sesenta páginas que se leen de una sentada y que han dado nombre a una forma entera de sentirse: kafkiano.",
-    minutos: 4.2,
+    minutos: 25.2,
     capitulos: [
-      { titulo: "La primera frase", minutos: 0.9 },
-      { titulo: "La familia", minutos: 0.8 },
-      { titulo: "Lo que significa", minutos: 0.8 },
-      { titulo: "El final y el autor", minutos: 1.6 },
+      { titulo: "Salida: tres semanas de noviembre de 1912", minutos: 5 },
+      { titulo: "Primera parada: la palabra que Kafka prohibió dibujar", minutos: 5.1 },
+      { titulo: "Segunda parada: la manzana que se le queda dentro", minutos: 5 },
+      { titulo: "Tercera parada: el dinero que el padre tenía guardado", minutos: 5 },
+      { titulo: "Destino: el último párrafo, que va de otra persona", minutos: 5 },
     ],
   },
   {
