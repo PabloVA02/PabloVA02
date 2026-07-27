@@ -775,118 +775,639 @@ export const NACIDOS_CORRER: Resumen = {
   titulo: "Nacidos para correr",
   autor: "Christopher McDougall",
   ano: 2009,
-  gancho: "Fue al médico porque le dolía el pie corriendo. Acabó en un cañón de México con una tribu que corre cien kilómetros por diversión.",
+  gancho: "Fue al médico porque le dolía el pie corriendo. Acabó en un cañón de México con gente que corre cien kilómetros con sandalias de neumático.",
   porQue:
-    "Provocó una revolución mundial en la forma de correr y de fabricar zapatillas a partir de una sola pregunta: ¿por qué me duele?",
+    "Cambió la manera de correr y de fabricar zapatillas de medio mundo a partir de una pregunta. Y después llegaron los ensayos clínicos y una demanda judicial.",
   partes: [
     {
-      titulo: "La pregunta del pie",
+      titulo: "¿Por qué me duele el pie?",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Christopher McDougall era un periodista grande y pesado que corría de vez en cuando y siempre acababa lesionado. Fue al médico con un dolor en el pie y le dijeron lo de siempre: que su cuerpo no estaba hecho para correr, que dejara de hacerlo y se comprara una bicicleta. Le pareció una respuesta insuficiente y decidió preguntar en otro sitio.",
+            "Un periodista estadounidense de casi metro noventa y cien kilos entra en la consulta de un médico deportivo con un dolor en el pie. Corre poco y despacio, y aun así lleva años lesionándose una y otra vez: fascitis, tendones, rodillas, y ahora esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "McDougall tenía cuarenta y tantos años cuando empezó todo esto y llevaba media vida abandonando el deporte. Había probado a correr varias veces, siempre acababa en el fisioterapeuta al cabo de unos meses, y había asumido que aquello no era para un cuerpo como el suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El médico le mira la radiografía y le da una respuesta que él no olvidará. Le dice que el cuerpo humano no está hecho para correr, que a su tamaño y a su edad debería dedicarse a la bicicleta o a nadar, y le receta antiinflamatorios y plantillas caras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa respuesta era la ortodoxia de la época y sigue oyéndose en muchas consultas. La idea de que correr desgasta las rodillas está tan extendida como poco respaldada: los estudios de seguimiento encuentran menos artrosis de rodilla entre corredores aficionados que entre sedentarios.",
         },
         {
           forma: "clave",
-          rotulo: "La pregunta que abre el libro",
-          frase: "Si correr nos rompe, ¿por qué el ochenta por ciento de los corredores se lesiona cada año haciendo lo que la especie lleva haciendo dos millones de años?",
+          rotulo: "La pregunta del libro",
+          frase: "Si no estamos hechos para correr, ¿por qué corriendo se siente uno tan bien? ¿Y por qué hay gente que corre cien kilómetros sin lesionarse?",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pregunta tiene la forma de todos los libros de este género y conviene reconocerla. Se parte de una experiencia personal frustrante, se busca fuera una comunidad que no tiene el problema, y se vuelve con una explicación que sirve para todo el mundo, que es donde se tuerce.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Christopher McDougall no era un experto en nada de esto. Había sido corresponsal de guerra en África para una agencia de noticias, escribía reportajes largos y le habían encargado un artículo sobre una tribu mexicana de la que había leído una nota suelta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su oficio anterior explica bastante bien cómo está construido el libro. Un corresponsal aprende a encontrar un personaje, seguirlo y contar una historia con tensión, y eso es exactamente lo que hace aquí con un asunto que en manos de un fisiólogo habría sido un artículo técnico.",
         },
         {
           forma: "arte",
           texto:
-            "Buscando respuestas encontró referencias sueltas a un pueblo del norte de México, en la sierra Tarahumara: los rarámuri. Corren distancias enormes por barrancos, con sandalias hechas de neumático viejo, hasta edades muy avanzadas, y apenas se lesionan. Decidió ir a buscarlos.",
-          arte: "mapa",
+            "Antes de este libro había publicado poco y no era conocido fuera del periodismo. Después vendió millones de ejemplares, se convirtió en conferenciante y escribió dos libros más sobre lo mismo, y esa trayectoria conviene tenerla presente al leer sus afirmaciones más rotundas sobre lesiones y calzado.",
+          arte: "escritor",
         },
         {
           forma: "texto",
           texto:
-            "El libro es el relato de ese viaje, y funciona como una novela de aventuras: para llegar hasta ellos necesita a un americano medio desaparecido que vive en la sierra y al que llaman Caballo Blanco. La historia culmina en una carrera improvisada de ochenta kilómetros entre corredores de élite estadounidenses y rarámuris, dentro del cañón.",
-        },
-      ],
-    },
-
-    {
-      titulo: "La zapatilla",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "La parte que hizo ruido es su acusación contra la industria del calzado deportivo. Su argumento: la zapatilla moderna con amortiguación gruesa se inventó a principios de los setenta, y desde entonces las lesiones de corredor no han bajado. En algunos estudios, los que usan calzado más caro se lesionan igual o más.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La explicación que propone",
-          frase: "Un talón muy acolchado te deja aterrizar de talón sin que duela. Y aterrizar de talón es lo que manda el impacto arriba, a la rodilla y la cadera.",
+            "La nota decía que en las barrancas del Cobre, en el estado de Chihuahua, vivía un pueblo capaz de correr distancias enormes por terreno imposible, con sandalias hechas de neumático viejo, y que llegaban a los ochenta años corriendo. Decidió ir a buscarlos.",
         },
         {
           forma: "texto",
           texto:
-            "Descalzo, nadie corre así: el dolor te obliga a apoyar la parte media o delantera del pie, con la zancada más corta y las rodillas algo flexionadas, y todo el pie actúa como muelle. La amortiguación, dice McDougall, no protege — silencia la señal que te haría corregir.",
+            "El libro se publicó en 2009 con un título que en español quedó como Nacidos para correr, y el subtítulo original prometía una tribu escondida, superatletas y la mayor carrera jamás vista. Ese subtítulo ya avisa de que no se está ante un texto científico.",
         },
         {
           forma: "arte",
           texto:
-            "Se apoya también en la hipótesis de la resistencia por persistencia: los humanos somos malísimos en velocidad punta y extraordinarios en distancia con calor. Sudamos por toda la piel, no jadeamos para enfriarnos, tenemos tendón de Aquiles y glúteos enormes. Hay pueblos cazadores que perseguían antílopes a pie durante horas hasta que el animal caía por sobrecalentamiento.",
+            "Las barrancas del Cobre son un sistema de cañones más profundo y más extenso que el Gran Cañón del Colorado, con senderos de cabras entre paredes de mil metros. Llegar hasta las rancherías más apartadas exige días de camino, y en 2005 la zona ya empezaba a estar controlada por narcotraficantes.",
           arte: "explorar",
         },
-      ],
-    },
-
-    {
-      titulo: "Lo que provocó",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "El impacto comercial fue inmediato y enorme. Las ventas de calzado minimalista se dispararon, aparecieron zapatillas con dedos separados y todas las marcas grandes sacaron su línea «natural». Miles de personas se pusieron a correr descalzas de un día para otro.",
+            "El desnivel de ese terreno explica por qué se corre así y no de otra manera. No hay ni un kilómetro llano: se baja mil metros y se suben otros mil, y en piedra suelta el paso corto y el apoyo delantero no son estética sino la única forma de no caerse.",
         },
         {
           forma: "texto",
           texto:
-            "Y muchas se lesionaron. Pasar de veinte años con amortiguación a correr descalzo sin transición sobrecarga unos pies y unos gemelos que no están preparados: hubo una oleada de fracturas por estrés en los metatarsianos. Una gran marca acabó pagando una indemnización millonaria por prometer beneficios musculares que no pudo demostrar.",
+            "El libro que salió de aquel viaje no es un ensayo, y conviene decirlo desde el principio. Es un reportaje largo con estructura de novela, con personajes, suspense y un final de carrera, y su tesis científica va montada encima de esa trama y no al revés.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La estructura alterna tres hilos que se van trenzando a lo largo de las páginas. El viaje del autor por las barrancas, los capítulos de divulgación sobre evolución y biomecánica, y la preparación de una carrera cuyo desenlace se reserva para el final. Cada vez que la ciencia se pone densa, vuelve la aventura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa forma es la razón de su éxito y también de casi todos sus problemas. Se lee como una aventura, vendió millones de ejemplares en decenas de idiomas, y consiguió que una hipótesis sobre biomecánica se convirtiera en un movimiento de masas en apenas tres años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El efecto sobre el número de corredores fue además enorme y medible. Coincidió con el auge mundial de las carreras populares, se le atribuye buena parte del salto de participación en maratones de aquellos años, y muchísima gente empezó a correr después de leerlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese efecto es la mejor defensa que puede hacerse del libro. Puso a mucha gente sedentaria a correr, y el beneficio de pasar de no moverse a moverse es enorme y está mejor demostrado que cualquiera de las tesis concretas que defiende sobre técnica o calzado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cifra que más se le cita conviene mirarla de cerca. Dice que entre seis y ocho de cada diez corredores se lesionan cada año, y ese rango sale de estudios que definen lesión de maneras muy distintas; las revisiones serias dan cifras que van del veinte al ochenta por ciento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además saber quién produce esas cifras y con quién. Buena parte de la investigación sobre calzado deportivo se ha financiado con dinero de los propios fabricantes, y eso no invalida los resultados pero explica por qué las preguntas incómodas se estudian menos que las cómodas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un rango tan ancho es en sí mismo una señal de que la pregunta está mal planteada. Si un estudio cuenta cualquier molestia y otro solo lo que obliga a parar dos semanas, no están midiendo lo mismo, y comparar sus resultados no permite concluir gran cosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otro problema de medida que casi nunca se menciona en estas estadísticas. Casi todas se calculan sobre corredores que ya corren, de modo que quien se lesionó una vez y lo dejó para siempre desaparece de la muestra y no cuenta en ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí es cierto es que correr lesiona mucho y que eso no ha mejorado en décadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hecho incómodo es el punto de partida honesto del libro.",
+        },
+      ],
+    },
+    {
+      titulo: "Los de los pies ligeros",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El pueblo del que habla el libro se llama a sí mismo rarámuri, palabra que suele traducirse como los de los pies ligeros o los que corren. La palabra tarahumara es la deformación española del mismo nombre, y es la que usa el libro casi siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son unas cincuenta o sesenta mil personas repartidas por un territorio enorme y quebrado. No forman un grupo homogéneo: hay comunidades en las cumbres y otras en el fondo de los cañones, con climas, cultivos y costumbres bastante distintos entre sí, y el libro los trata a todos como uno solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Viven en la sierra de Chihuahua desde hace siglos, y su aislamiento no fue una elección romántica. Se metieron en aquellos cañones huyendo de los colonizadores españoles y de la esclavitud en las minas de plata, y la geografía imposible es lo que los mantuvo con vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Correr, además, tenía funciones prácticas en aquel terreno. Servía para cazar, para llevar mensajes entre rancherías separadas por días de camino y para juntar el ganado en laderas donde no entra ningún vehículo, así que era transporte antes que deporte y desde luego antes que ocio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entonces separar dos cosas que el libro mezcla. Que un pueblo corra mucho porque su terreno y su economía lo exigen es un hecho etnográfico; que corra mucho porque haya descubierto una forma superior de correr es una interpretación bastante más aventurada y sin ninguna prueba.",
         },
         {
           forma: "clave",
-          rotulo: "El matiz que el libro no da",
-          frase: "El problema no era la zapatilla. Era cambiar de técnica de golpe y sin adaptación.",
+          rotulo: "Las sandalias",
+          frase: "Los huaraches son una suela de neumático viejo y unas tiras de cuero. Sin amortiguación, sin sujeción y sin nada parecido a una zapatilla.",
         },
         {
           forma: "texto",
           texto:
-            "La investigación posterior ha dejado el asunto en tablas: no hay pruebas sólidas de que el calzado minimalista prevenga lesiones, ni de que la amortiguación las cause. Lo que sí parece importar es el volumen —cuánto aumentas cada semana—, la cadencia y la fuerza previa. Es una conclusión mucho menos épica.",
+            "El neumático es además un material moderno y eso también dice algo. Las sandalias tradicionales se hacían de cuero, y el caucho reciclado se adoptó porque dura más y aguanta mejor la piedra, de modo que el calzado más famoso del minimalismo es en realidad un producto industrial reaprovechado.",
         },
-      ],
-    },
-
-    {
-      titulo: "Lo que queda",
-      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Su carrera tradicional no es una prueba deportiva sino un juego ritual con nombre propio. Se llama rarájipari en el caso de los hombres, y consiste en ir empujando una bola de madera con el pie a lo largo de un recorrido que puede durar un día entero o más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La bola se empuja con el empeine, nunca con la mano, y ese detalle cambia toda la carrera. Va rodando por el sendero, hay que buscarla cuando cae a un barranco, y el equipo entero se turna para mantenerla en movimiento durante horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las mujeres tienen su propia versión, que se juega lanzando y recogiendo aros con un palo. En los dos casos se corren distancias enormes por terreno rotísimo, hay apuestas de por medio y participa el pueblo entero animando y avituallando por el camino.",
+        },
         {
           forma: "arte",
           texto:
-            "Como periodismo, el libro es extraordinario: engancha desde la primera página y tiene personajes que parecen inventados. Como ciencia, hay que leerlo con distancia — McDougall selecciona los estudios que le convienen, presenta hipótesis discutidas como hechos y romantiza a los rarámuri, cuya realidad incluye pobreza severa, y cuyas carreras tradicionales van acompañadas de apuestas y alcohol.",
+            "Esas carreras se corren muchas veces de noche, alumbradas con antorchas de madera resinosa. La gente del pueblo acompaña por atajos, grita, apuesta maíz o animales, y el asunto se parece más a una fiesta comunal con público que a una competición individual como las nuestras.",
           arte: "noche",
         },
         {
-          forma: "texto",
+          forma: "arte",
           texto:
-            "También conviene saber el final que el libro no cuenta: la carrera del cañón se convirtió en una ultramaratón anual, y Caballo Blanco —Micah True— murió en 2012 corriendo solo por el monte, a los cincuenta y ocho años.",
+            "El personaje que abre esa puerta al autor es un estadounidense estrafalario al que llaman Caballo Blanco. Se llamaba Micah True, había sido boxeador y repartidor de mudanzas, y llevaba años viviendo solo en las barrancas, corriendo por allí y llevando maíz a las rancherías más pobres.",
+          arte: "escritor",
         },
         {
           forma: "texto",
           texto:
-            "Lo que sí ha quedado, y no es poco: la idea de que la técnica de carrera importa y se puede entrenar, la atención a la cadencia, y el hecho de que millones de personas se plantearan por primera vez cómo apoyan el pie. Antes de 2009 eso no lo discutía nadie fuera de la élite.",
+            "Micah True no era ningún sabio ni pretendía serlo, y el libro lo convierte en una especie de gurú del desierto. Vivía en una choza, cobraba pintando casas en Colorado durante el invierno y volvía a México a gastarse lo ganado en aquella carrera cada primavera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su idea era organizar una carrera entre corredores rarámuri y los mejores ultrafondistas estadounidenses. No por dinero ni por espectáculo, sino para que los suyos ganaran maíz y para demostrar algo que él creía saber sobre cómo corre la gente que nunca ha llevado zapatillas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Había un precedente que a Caballo Blanco le dolía y que el libro cuenta. En los años noventa, un empresario llevó a varios rarámuri a competir a Estados Unidos, ganaron carreras de cien millas y después el asunto se torció entre promesas incumplidas y patrocinios que nunca llegaron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel episodio dejó una desconfianza que el libro reconoce a medias. Varios corredores volvieron a la sierra sin el dinero prometido y con la sensación de haber sido exhibidos, y por eso a Caballo Blanco le costó años convencer a nadie de que corriera otra vez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí está el punto donde el libro se pone más discutible y menos honesto. Los rarámuri aparecen retratados como un pueblo alegre, sano, sin lesiones, sin enfermedades del corazón y sin ninguno de nuestros males, y esa imagen es una versión bastante recortada de la realidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese retrato tiene un nombre viejo en antropología y una historia larga de daños. Es la figura del buen salvaje: un pueblo sin corromper que conserva lo que nosotros hemos perdido, y que existe sobre todo para darnos una lección a nosotros y no para ser entendido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La realidad de la sierra en esos años incluía otras cosas. Pobreza severa, malnutrición infantil, alcoholismo asociado a la bebida de maíz fermentado, sequías largas y una esperanza de vida bastante menor que la del país, todo ello prácticamente ausente del relato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre lo que más le interesa al libro, además, hay poco dato duro. No existen buenos estudios de salud cardiovascular ni de lesiones en esa población, así que la afirmación de que no se lesionan nunca no está medida: viene de lo que unos cuantos contaron a un periodista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También estaba el narcotráfico, que el libro menciona de pasada como color local. En los años posteriores a su publicación, la violencia en las barrancas empeoró mucho, varias personas relacionadas con las carreras fueron asesinadas y algunas comunidades tuvieron que desplazarse.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La sierra también se vació de gente joven en esos mismos años. La sequía y la falta de trabajo empujaron a muchos rarámuri hacia las ciudades de Chihuahua, donde acabaron viviendo en asentamientos precarios, y esa parte de la historia no aparece en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro no inventa lo que cuenta: elige qué contar y qué no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y elige lo que sostiene su tesis, que es lo que hace cualquier reportaje con tesis.",
+        },
+      ],
+    },
+    {
+      titulo: "El simio que suda",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La parte científica del libro se apoya en un artículo publicado en Nature en 2004 por dos investigadores, Dennis Bramble y Daniel Lieberman. Su título viene a decir que la carrera de resistencia intervino en la evolución del género humano, y esa idea es el esqueleto del volumen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bramble era anatomista comparado en la Universidad de Utah y Lieberman es paleoantropólogo en Harvard, y ninguno de los dos escribió aquel artículo pensando en zapatillas. Su pregunta era por qué el cuerpo de Homo erectus se parece tan poco al de un chimpancé o al de un australopiteco.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento no parte de la velocidad sino al revés. Corriendo, un humano es lento y ridículo comparado con casi cualquier mamífero de su tamaño; a distancias largas y con calor, en cambio, es de los mejores animales del planeta y puede agotar a presas mucho más rápidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una prueba anual que ilustra ese punto mejor que ningún artículo. En Gales se celebra desde 1980 una carrera de unos treinta y cinco kilómetros entre personas y caballos, y aunque suele ganar un caballo, en dos ediciones ha ganado un corredor humano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos veces que ganó una persona fueron años de calor, y eso encaja con la hipótesis. Con frío el caballo gana siempre y con holgura; en cuanto sube la temperatura, la ventaja de refrigerarse sudando empieza a compensar la diferencia de velocidad y de zancada.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "Correr no rompe el cuerpo. Lo rompe correr mucho más de golpe, sin haberle enseñado antes a hacerlo.",
+          rotulo: "El rasgo decisivo",
+          frase: "Sudamos por casi toda la piel y no tenemos pelo. Un caballo o un antílope se refrigeran jadeando, y jadear no se puede hacer al galope.",
         },
         {
           forma: "texto",
           texto:
-            "Queda una idea del libro que ha aguantado mejor que todo lo demás, y no tiene que ver con el calzado. McDougall observa que los rarámuri corren sonriendo, en grupo y sin cronómetro, y que para ellos correr no es entrenamiento ni sacrificio: es una fiesta que dura horas. Su tesis es que el ser humano evolucionó para hacerlo así, y que convertirlo en una tarea medida —ritmos, marcas, culpa por no cumplir— es lo que hace que la mayoría lo abandone a los tres meses. Corre despacio, acompañado y sin mirar el reloj, dice, y no tendrás que obligarte.",
+            "Las glándulas sudoríparas humanas son entre dos y cinco millones y están repartidas por casi toda la superficie del cuerpo. Ningún otro primate tiene nada parecido, y esa capacidad de evaporar agua es lo que permite mantener el esfuerzo con el sol encima durante horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa diferencia de refrigeración lo cambia todo en un día de calor. Un animal que jadea tiene que pararse para bajar la temperatura, y un humano puede seguir trotando mientras suda, de modo que la persecución se convierte en una carrera de paciencia que gana el que no se sobrecalienta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El precio de ese sistema es que hay que beber, y eso también dejó huella. Un humano perseguidor necesita agua durante la persecución, de modo que la caza por persistencia solo funciona conociendo el terreno y sabiendo dónde están los charcos y los pozos de la zona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lista de rasgos anatómicos que citan es lo más convincente del capítulo. El tendón de Aquiles, el ligamento de la nuca que estabiliza la cabeza al trotar, el glúteo mayor enorme, el arco del pie que actúa como muelle y los dedos cortos no sirven para andar, y sí para correr.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso del ligamento de la nuca es el más elegante de todos. Es una banda elástica que impide que la cabeza vaya dando bandazos con cada zancada, la tienen los perros y los caballos, no la tienen los chimpancés, y en el linaje humano aparece justo con el género Homo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es también un buen ejemplo de cómo se argumenta en paleoantropología. No se puede ver correr a un fósil, así que se busca en el hueso la marca donde se insertaba el ligamento y se compara con la de animales que corren y que no corren.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese arco del pie funciona como un muelle que devuelve energía en cada zancada. Se estira al apoyar, almacena una parte de la fuerza del impacto y la suelta al despegar, y ese mecanismo ahorra en torno a un diez por ciento del gasto energético de la carrera.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tendón de Aquiles hace lo mismo a mayor escala y es enorme en los humanos. Los chimpancés lo tienen cortísimo, el nuestro mide más de un palmo, y sin ese muelle correr costaría bastante más energía, hasta el punto de que el trote largo dejaría de compensar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro apoyo empírico es la caza por persistencia, documentada en el Kalahari. Antropólogos como Louis Liebenberg acompañaron a cazadores san persiguiendo antílopes durante horas bajo el sol, hasta que el animal se desplomaba por hipertermia y podían acercarse y rematarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El método consiste en elegir un animal grande en las horas de más calor y no dejarlo descansar nunca. Se le sigue el rastro, se le levanta cada vez que se para a la sombra, y al cabo de varias horas se derrumba sin poder seguir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar el alcance de esa evidencia, porque suele exagerarse. Se han documentado unas pocas cacerías de ese tipo en muy pocos grupos, y no está demostrado que fuera la forma principal de cazar de nuestros antepasados; es una hipótesis plausible y bien argumentada, no un hecho establecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una explicación alternativa que compite con ella. Puede que esos mismos rasgos evolucionaran para recorrer distancias largas buscando comida y carroña, sin ninguna persecución de por medio, y las dos hipótesis predicen la misma anatomía y son difíciles de separar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También conviene distinguir dos afirmaciones que el libro mezcla continuamente. Que el cuerpo humano evolucionó para correr largo es una tesis defendible con anatomía; que por eso debas correr descalzo por el asfalto de tu ciudad es un salto que la anatomía no autoriza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese salto de la evolución a la recomendación práctica es el error más repetido en la divulgación. Que un rasgo se seleccionara hace dos millones de años no dice nada sobre qué te conviene hoy con cuarenta años, sobrepeso y una vida entera sentado en una silla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Lieberman ha insistido después en esa distinción muchas veces. Dice que su trabajo describe cómo se apoya el pie y qué fuerzas se generan, y que nunca ha demostrado que una forma de correr prevenga lesiones, que es lo que todo el mundo le atribuye.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En su libro posterior sobre el ejercicio lo dice con más claridad todavía. Sostiene que no hay una única forma correcta de correr, que la mayoría de la gente se adapta bien a lo que hace, y que los cambios bruscos son lo que causa problemas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa parte evolutiva del libro sigue siendo la más sólida quince años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y es la única que no depende de qué lleves puesto en los pies.",
+        },
+      ],
+    },
+    {
+      titulo: "La carrera de 2006",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El clímax del libro es una carrera de unos ochenta kilómetros organizada en marzo de 2006 en el fondo de las barrancas. La monta Caballo Blanco por su cuenta, con financiación mínima, y consigue llevar hasta allí a varios de los mejores corredores de ultrafondo de Estados Unidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La carrera se llamaba entonces Copper Canyon Ultra Marathon y no tenía nada de profesional. Sin cronometraje electrónico, sin control médico, sin avituallamientos organizados más allá de unas mesas con agua y comida traída por las familias de las rancherías cercanas. El premio era maíz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El más conocido de ellos es Scott Jurek, que por entonces había ganado siete veces seguidas la carrera de cien millas más famosa del país. Llega a un cañón mexicano sin apenas infraestructura, con calor, polvo y un recorrido que nadie ha medido con precisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Jurek aparece en el libro como el contrapunto del corredor profesional moderno. Vegetariano estricto, meticuloso con la nutrición y con el material, y aun así derrotado por un hombre que corría con neumático reciclado en los pies y sin haber medido nunca nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Jurek contó después su versión de aquella carrera en su propio libro de memorias. La describe como una experiencia extraordinaria y a la vez poco formal, con un recorrido mal medido y un ambiente de fiesta, lejos del duelo deportivo que sugiere el relato del libro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quién ganó",
+          frase: "Arnulfo Quimare, rarámuri, con huaraches de neumático. Jurek entró segundo, y llevaba las mejores zapatillas del mercado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene no sacar de ese resultado más de lo que dice. Una carrera es una carrera: participaron unas decenas de personas, los locales conocían el terreno y llevaban toda la vida corriéndolo, y de ahí no se deduce nada sobre qué calzado conviene a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El reparto de personajes es lo que convierte el capítulo en una película. Una corredora de veintipocos años que sale de fiesta la noche antes, un tipo apodado Ted el Descalzo que corre literalmente sin nada, un par de hermanos jóvenes y unos cuantos rarámuri de todas las edades.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que más se recuerda de aquella carrera es la ropa de los locales. Los rarámuri corrieron con camisas anchas de colores, faldas tradicionales y las sandalias de siempre, mientras los estadounidenses llevaban tejidos técnicos, geles y relojes con altímetro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio McDougall corre la carrera, y esa decisión es la clave del libro. Un periodista que llega sin poder correr diez kilómetros sin lesionarse termina una prueba de ochenta en un cañón, y esa transformación personal es lo que el lector recuerda y lo que convence.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su preparación la dirige un entrenador excéntrico que aparece a mitad del libro. Le quita las zapatillas caras, le hace correr descalzo por la hierba, le baja el ritmo hasta poder hablar mientras corre y le prohíbe subir el kilometraje deprisa. Lo último es probablemente lo que más le sirvió.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Como argumento científico, sin embargo, esa transformación no vale nada. Es un caso, sin control, sin medición y contado por el propio protagonista, exactamente el mismo tipo de prueba que el experimento de Stanford de Respira, que también está en este catálogo.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio autor no lo presenta como prueba, y ahí es justo con el lector. El problema no está en el libro sino en cómo se leyó: millones de personas tomaron una historia personal bien contada por una demostración de que el método funciona en cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que sí es informativo es cómo corren los rarámuri, y ahí hay observación real. Apoyan con la parte delantera o media del pie, dan pasos cortos y muy frecuentes, llevan el cuerpo erguido y no golpean el suelo con el talón por delante de la cadera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese patrón no tiene nada de exótico y aparece solo en cuanto uno se descalza. Cualquiera que corra unos metros descalzo sobre asfalto deja de aterrizar con el talón en la primera zancada, porque duele, y ese ajuste automático es todo el argumento del capítulo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa manera de correr tiene una consecuencia mecánica medible. Cuando se aterriza con el talón y la pierna estirada, aparece un pico de fuerza muy brusco al principio del apoyo; aterrizando con el antepié ese pico desaparece y la carga se reparte por el tendón y el gemelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese pico brusco tiene nombre técnico y se llama transitorio de impacto. Aparece en los primeros milisegundos del apoyo, se transmite por la tibia hacia arriba, y es lo que se siente como un golpe seco cuando uno corre con el talón por delante de la cadera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese hallazgo se publicó formalmente en 2010, un año después del libro. Lieberman midió a corredores keniatas habitualmente descalzos y a corredores calzados, y documentó exactamente esa diferencia en los registros de fuerza, que es un dato físico y no una opinión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento se hizo con una plataforma que mide la fuerza contra el suelo durante el apoyo. En un corredor calzado que aterriza de talón aparece un pico brusco en los primeros milisegundos; en uno descalzo que aterriza con el antepié, la curva sube suave y ese pico no existe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un matiz de aquel experimento se olvida siempre al citarlo. También había corredores calzados que aterrizaban con el mediopié y descalzos que llegaban de talón, de modo que el calzado inclina la forma de apoyar pero no la determina, y hay gente que corre de talón toda su vida sin problema.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que ese estudio no midió, y aquí está todo el problema, son las lesiones. Demostró que cambia el patrón de fuerzas, no que ese cambio proteja de nada, y la distancia entre esas dos frases es la que separa un buen hallazgo de una moda mundial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La aclaración importa porque un impacto brusco no es lo mismo que un daño. El hueso y el tendón se adaptan a cargas repetidas si se les da tiempo, y una fuerza más suave repartida durante más rato puede acabar haciendo tanto daño como un golpe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La carrera acabó con todos abrazándose y con maíz repartido por las rancherías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y con un libro que iba a cambiar una industria de miles de millones.",
+        },
+      ],
+    },
+    {
+      titulo: "La demanda de las zapatillas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El argumento comercial del libro es una acusación directa contra la industria. Sostiene que la zapatilla amortiguada moderna nació en los años setenta, que desde entonces las lesiones no han bajado, y que el acolchado invita a aterrizar de talón porque anestesia el golpe.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa acusación llegó en un momento en que el mercado del calzado deportivo movía decenas de miles de millones de dólares al año. Un libro que sugería que el producto principal de ese negocio hacía daño tenía garantizada la conversación, y la tuvo durante años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera parte de esa acusación es histórica y correcta. Antes de los años setenta se corría con zapatillas planas y finas, la amortiguación gruesa es un invento comercial de esa década, y no existe ninguna prueba de que su aparición redujera la tasa de lesiones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La suela acolchada moderna nació además de un experimento casero muy citado. Un entrenador estadounidense vertió goma en la plancha de hacer gofres de su cocina para fabricar una suela con relieve, y de aquel invento salió la marca que dominaría el mercado durante medio siglo.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que pasó después",
+          frase: "El libro creó un mercado entero de calzado minimalista. Cuatro años después, una de esas marcas pagó millones para cerrar una demanda por publicidad engañosa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El movimiento tuvo además su propia liturgia y sus propios excesos. Grupos de gente corriendo descalza por parques, foros discutiendo el grosor de las suelas en milímetros, y una fe considerable en que quitarse el acolchado arreglaba lo que llevaba años doliendo. La prisa fue el problema, no la idea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La marca en cuestión vendía unas zapatillas con dedos separados que se hicieron famosísimas. Anunciaba que fortalecían los músculos del pie y reducían las lesiones, no pudo respaldar esas afirmaciones con estudios, y en 2012 aceptó pagar unos millones de dólares para devolver el dinero a los compradores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El acuerdo se cerró sin reconocer culpa, como suele ocurrir en estos casos. La empresa mantuvo que sus productos eran buenos y aceptó pagar para no ir a juicio, y a partir de entonces cambió la publicidad para no prometer beneficios de salud que no pudiera demostrar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los ensayos que se hicieron en aquellos años no ayudaron a la causa. Varios trabajos con corredores repartidos al azar entre calzado minimalista y convencional encontraron más lesiones en el grupo minimalista, sobre todo fracturas por estrés en los huesos del metatarso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hubo además una serie de casos clínicos que llamó mucho la atención de los traumatólogos. Corredores que cambiaron de calzado y aparecieron a las pocas semanas con edema en los huesos del pie visible en resonancia, un daño previo a la fractura que antes casi no se veía.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La explicación de esas fracturas es sencilla y era previsible. Pasar de una zapatilla acolchada a una suela de tres milímetros cambia la carga de la rodilla a la pantorrilla y al pie, y el hueso tarda meses en adaptarse, mientras que el entusiasmo del lector duraba dos semanas.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La recomendación sensata que salió de aquel desastre es aburridísima y funciona. Si alguien quiere cambiar de calzado, que reduzca a la mitad su kilometraje, que suba muy poco a poco durante varios meses y que pare al primer aviso del pie o de la pantorrilla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mercado minimalista creció como la espuma y se hundió igual de rápido. Llegó a mover cientos de millones de dólares hacia 2012 y a partir de 2014 se desplomó, y las mismas marcas se pasaron al extremo contrario con zapatillas de amortiguación gigantesca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las zapatillas de suela gruesa que dominan hoy las tiendas son la respuesta a aquello. Se venden con el argumento contrario, que cuanto más blando mejor, y las revisiones tampoco encuentran que reduzcan las lesiones respecto a las de antes. El péndulo cambió de lado; la evidencia, no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese giro completo del péndulo es la mejor lección del episodio entero. En diez años, la industria vendió primero que el acolchado sobraba y después que cuanto más acolchado mejor, con la misma seguridad en las dos direcciones y con la misma ausencia de pruebas sólidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El único calzado con algo parecido a una prueba sólida es otro. Las zapatillas con placa de fibra de carbono, aparecidas en 2016, mejoran de forma medible la economía de carrera, y eso se refiere al rendimiento y no a las lesiones, que es la pregunta que sigue abierta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí ha resistido de todo aquello es más modesto y más útil. Aumentar la frecuencia de zancada entre un cinco y un diez por ciento reduce la carga en la rodilla y en la cadera, y eso está medido varias veces y no requiere comprar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La manera práctica de aplicarlo es contar los pasos durante un minuto y subirlos un poco. Si salen ciento sesenta, apuntar a ciento setenta acortando la zancada sin correr más rápido, y mantener eso unas semanas hasta que deje de requerir atención consciente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También ha resistido lo que los entrenadores llevaban diciendo desde siempre. El factor de riesgo mejor establecido para lesionarse corriendo no es el calzado ni la técnica: es aumentar demasiado deprisa el volumen de entrenamiento, y eso lo controla cada uno con un calendario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro factor con buen respaldo es haberse lesionado antes. Quien ya ha tenido una lesión corriendo tiene bastante más probabilidad de volver a lesionarse, lo que apunta a que buena parte del problema está en volver demasiado pronto y no en el material que se lleva puesto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que el libro no llega a decir, porque se le atribuye entero. No dice que haya que correr descalzo por la ciudad, ni que las zapatillas causen todas las lesiones, y el propio McDougall repitió después que su tema era la forma de correr y no el calzado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El destino del libro se parece bastante al de Respira y al de La digestión es la cuestión, sus vecinos de catálogo. Un periodista encuentra un fenómeno real, lo cuenta de maravilla, se pasa de frenada en la conclusión, y diez años después queda un tercio del contenido en pie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Caballo Blanco murió en 2012 corriendo solo por el monte, de una enfermedad de corazón.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La carrera de las barrancas se sigue celebrando, y los rarámuri siguen ganándola.",
         },
       ],
     },
