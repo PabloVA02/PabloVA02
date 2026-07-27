@@ -67,6 +67,20 @@ type FotoComun = {
   foco?: string;
   /** Descripción para quien no ve la imagen. */
   alt: string;
+  /**
+   * Solo para fotografías de un cuerpo redondo —un planeta, una luna—: dónde
+   * cae el disco dentro de la imagen, en porcentaje.
+   *
+   * Con eso puesto, la portada añade una DERIVA DE NUBES: una copia de la
+   * propia fotografía cruzando el disco muy despacio, en luz suave y
+   * desenfocada, recortada por una máscara que se apaga antes de llegar al
+   * borde. Girar la foto entera no vale —una esfera fotografiada, rotada, se
+   * lee como una pegatina dando vueltas— y esto, en cambio, hace lo que hace
+   * un planeta de verdad: la superficie se queda quieta y las nubes pasan por
+   * delante. En Venus es literal: la atmósfera da la vuelta en cuatro días y
+   * el suelo tarda doscientos cuarenta y tres.
+   */
+  esfera?: { cx: string; cy: string; rx: string; ry: string };
 };
 
 /**

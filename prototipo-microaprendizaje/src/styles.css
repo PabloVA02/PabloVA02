@@ -2521,6 +2521,24 @@ button {
   filter: saturate(0.84) contrast(1.05);
 }
 
+/* La copia que deriva por delante del disco. Va en luz suave y desenfocada
+   para que no compita con la fotografía de abajo: lo que se busca no es ver
+   dos planetas, es que las bandas de nube parezcan avanzar. */
+.foto-atmosfera {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-origin: center;
+  pointer-events: none;
+  filter: blur(2px) saturate(0.8) contrast(1.12);
+  mix-blend-mode: soft-light;
+  opacity: 0.9;
+  -webkit-mask-image: var(--mascara);
+  mask-image: var(--mascara);
+}
+
 /* El tinte: el acento de la historia en modo luz suave. No es un filtro de
    Instagram — a esta opacidad no se nota como color añadido, se nota como que
    todas las portadas parecen reveladas por la misma mano. Va FUERA de la caja

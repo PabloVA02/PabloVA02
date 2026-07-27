@@ -38,6 +38,11 @@ export const COSMOS: Short[] = [
          solo se veía un trozo de superficie, así que la composición se hace
          antes y aquí no hay nada que reencuadrar. */
       foco: "50% 50%",
+      /* El disco, medido sobre la imagen recompuesta: ocupa el 52 % del ancho
+         y arranca al 8,5 % del alto, así que su centro cae al 26 % de altura y
+         su radio es del 26 % del ancho. La máscara va un par de puntos por
+         dentro para que la deriva se apague antes del borde. */
+      esfera: { cx: "50%", cy: "26%", rx: "24%", ry: "16%" },
       alt: "Venus visto desde el Mariner 10: un disco crema con bandas de nubes anaranjadas sobre fondo negro.",
     },
     encargo:

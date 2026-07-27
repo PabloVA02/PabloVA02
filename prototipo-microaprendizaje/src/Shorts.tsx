@@ -135,6 +135,32 @@ function Fotografia({
           />
         )}
 
+        {/* La deriva de nubes. Es la misma fotografía, desenfocada y en luz
+            suave, cruzando el disco a paso de tortuga; la máscara la apaga
+            antes del borde, así que nunca asoma el canto de la copia y no hay
+            costura que disimular. Va con la misma escala que la foto de abajo
+            para no despegarse de ella durante el zoom de reposo. */}
+        {estado === "lista" && foto?.esfera && deriva && !reducido && (
+          <motion.img
+            key="atmosfera"
+            className="foto-atmosfera"
+            src={urlFoto(foto)}
+            alt=""
+            aria-hidden
+            style={{
+              objectPosition: foto.foco ?? "50% 50%",
+              ["--mascara" as string]: `radial-gradient(ellipse ${foto.esfera.rx} ${foto.esfera.ry} at ${foto.esfera.cx} ${foto.esfera.cy}, #000 0%, rgba(0,0,0,0.85) 52%, transparent 100%)`,
+            }}
+            initial={{ opacity: 0, scale: 1.08 }}
+            animate={{ opacity: 1, scale: [1.08, 1.16], x: ["-2.6%", "2.6%"] }}
+            transition={{
+              opacity: { duration: 1.4, delay: 0.5 },
+              scale: { duration: 24, ease: "linear", repeat: Infinity, repeatType: "reverse" },
+              x: { duration: 38, ease: "easeInOut", repeat: Infinity, repeatType: "reverse" },
+            }}
+          />
+        )}
+
         {estado === "fallida" && (
           <motion.div
             key="respaldo"
