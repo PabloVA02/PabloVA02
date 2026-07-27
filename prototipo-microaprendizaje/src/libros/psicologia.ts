@@ -250,107 +250,635 @@ export const INTELIGENCIA_EMOCIONAL: Resumen = {
   ano: 1995,
   gancho: "El cociente intelectual explica como mucho un 20 % de tu éxito en la vida. El resto es otra cosa.",
   porQue:
-    "Puso en el mapa una idea que hoy damos por evidente y que en 1995 sonaba a herejía: que gestionar emociones es una habilidad que se entrena.",
+    "Popularizó una idea que hoy damos por evidente, y conviene saber de dónde salen sus cifras famosas y cuáles de sus estudios no han resistido.",
   partes: [
     {
-      titulo: "El secuestro de la amígdala",
+      titulo: "La portada de Time",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La información sensorial que llega al cerebro toma dos caminos. Uno largo, hacia la corteza, donde se piensa. Y otro corto y rapidísimo hacia la amígdala, que decide si hay peligro antes de que la parte racional se entere. En términos evolutivos es una ganga: mejor saltar mil veces por una rama que parecía una serpiente que morir una vez por analizarla.",
+            "En octubre de 1995, la revista Time sacó en portada dos letras enormes y una pregunta. Preguntaba qué es el cociente emocional, decía que puede importar más que el intelectual, y de aquel número salió disparado un libro publicado un mes antes. El libro llevaba un mes en las librerías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella portada llegó además en un momento concreto de la conversación pública. Dos años antes había salido un libro polémico que relacionaba cociente intelectual y clase social, y el país llevaba meses discutiendo si la inteligencia se hereda y qué se puede hacer al respecto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En ese ambiente, la propuesta de Goleman resultaba una buena noticia. Venía a decir que hay otra clase de inteligencia, que no se mide con aquellos test y que además se puede aprender, y eso desactivaba de golpe la parte más incómoda del debate. Desactivaba la parte más incómoda del debate.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro lo firmaba Daniel Goleman, doctor en psicología por Harvard y periodista científico. Llevaba doce años escribiendo sobre cerebro y conducta en el New York Times, y ese oficio explica que el volumen se lea como una serie de reportajes encadenados. Doce años escribiendo de cerebro en un periódico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese origen periodístico se nota en la estructura y también en sus defectos. Cada capítulo abre con un caso real, sigue con dos o tres estudios y cierra con una conclusión general, y ese formato lleva a veces a sacar de un experimento pequeño una lección enorme.",
         },
         {
           forma: "clave",
-          rotulo: "El fallo",
-          frase: "La amígdala reacciona antes de que sepas por qué. Cuando la parte racional llega, ya has gritado.",
+          rotulo: "Lo que casi nadie sabe",
+          frase: "Goleman no inventó el concepto. Lo habían formulado dos psicólogos académicos cinco años antes, y él lo dice en la primera parte del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa atribución equivocada tiene consecuencias más allá de la anécdota. Como la versión que se hizo famosa es la del divulgador y no la de los investigadores, la discusión pública se organizó alrededor de un modelo que los autores originales nunca defendieron. Se discutió un modelo que sus autores no defendían.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos investigadores se llaman Peter Salovey y John Mayer. Publicaron en 1990 un artículo en una revista especializada definiendo la inteligencia emocional como la capacidad de percibir, usar, entender y regular emociones propias y ajenas. Definieron la capacidad de percibir, usar, entender y regular emociones propias y ajenas con precisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su definición es deliberadamente estrecha y por eso resulta manejable. Habla de cuatro operaciones concretas que se pueden poner a prueba, y deja fuera la motivación, el optimismo y el carácter, que son cosas que la psicología ya medía por otro lado. Deja fuera el carácter y por eso se puede medir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La idea venía además de bastante más atrás en la historia de la psicología. En 1920, Edward Thorndike había hablado de inteligencia social, y en 1983 Howard Gardner incluyó dos inteligencias personales en su teoría de las inteligencias múltiples. Thorndike en 1920 y Gardner en 1983.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que la teoría de Gardner tampoco goza de buena salud académica. Se enseña en muchas facultades de educación y se cita constantemente, y a la vez lleva cuarenta años sin producir una manera acordada de medir ninguna de sus inteligencias. Cuarenta años sin una manera acordada de medirla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Goleman conocía ese trabajo de primera mano porque se había formado en el mismo sitio. Estudió en Harvard cuando Gardner estaba allí, y el libro es en buena medida una traducción al lenguaje corriente de veinte años de literatura académica dispersa. Traduce veinte años de literatura dispersa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese trabajo de traducción es lo mejor que hace el libro y conviene reconocerlo. Reúne en un volumen legible investigación sobre desarrollo infantil, neurociencia, psicología clínica y organizaciones que hasta entonces solo se leía por separado y en revistas. Antes todo eso solo se leía en revistas separadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro tiene además capítulos sobre asuntos que hoy se tratan de otra manera. Habla de depresión, de matrimonios que se rompen y de violencia juvenil, y en todos ellos propone la misma explicación, que es donde el modelo empieza a estirarse demasiado. Ahí es donde el modelo empieza a estirarse.",
         },
         {
           forma: "arte",
           texto:
-            "Goleman lo llama <em>secuestro emocional</em>, y explica el arrepentimiento inmediato: el mensaje que no deberías haber mandado, el portazo, la respuesta en la reunión. No es falta de carácter, es una diferencia de milisegundos entre dos circuitos. Y ahí está la buena noticia: si es un mecanismo, se puede intervenir.",
-          arte: "memoria",
+            "El éxito fue inmediato y de una escala poco habitual en la divulgación psicológica. Estuvo año y medio en las listas de más vendidos, ha superado los cinco millones de ejemplares y se ha traducido a unos cuarenta idiomas. Cinco millones de ejemplares y cuarenta idiomas.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una parte de ese éxito se explica por a quién le vino bien la idea. A las empresas les ofrecía una explicación de por qué su mejor técnico era un mal jefe, y a los colegios les daba un argumento para dedicar horas a algo que no entraba en el examen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También llegó justo cuando el trabajo estaba cambiando de forma. Cada vez menos gente trabajaba sola con una máquina y cada vez más en equipos, reuniones y atención al cliente, y eso hizo evidente que hacía falta algo más que competencia técnica. El trabajo pasaba de la máquina a la reunión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que más se le atribuye no está en el libro. Todo el mundo repite que Goleman dijo que la inteligencia emocional importa el doble que el cociente intelectual, y esa formulación viene de la prensa de aquellos meses, no de sus páginas. Esa proporción salió de la prensa, no del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso es un ejemplo de manual de cómo se deforma una idea al divulgarla. Un matiz estadístico se convierte en una proporción redonda, la proporción entra en un titular, y a partir de ahí ya nadie vuelve a consultar el texto original. Nadie vuelve a consultar el texto original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él mismo se ha pasado años corrigiendo esa atribución sin demasiado éxito. Ha escrito que nunca sostuvo esa proporción, que le pareció una simplificación desde el principio, y que la portada de la revista hizo por el libro más de lo que él habría querido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene ser justo también en la otra dirección. El libro se beneficia enormemente de esa exageración, y su autor no rechazó ni las conferencias ni los negocios que vinieron con ella, de modo que la corrección llegó siempre después del cheque. La corrección llegó siempre después del cheque.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro creó de la nada una industria entera de formación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cursos, test, certificaciones y consultoras para empresas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi todo eso llegó después y con bastante menos rigor.",
         },
       ],
     },
     {
-      titulo: "Las cinco piezas",
+      titulo: "Los dos caminos del miedo",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La inteligencia emocional se compone, según él, de cinco habilidades: reconocer lo que sientes mientras lo sientes, saber regularlo, motivarte hacia una meta, reconocer lo que sienten los demás y manejar relaciones. Las tres primeras miran hacia dentro; las dos últimas, hacia fuera. Y ninguna aparece en un test de inteligencia.",
+            "La parte neurológica del libro gira alrededor de una estructura pequeña con forma de almendra. La amígdala está en el interior de cada lóbulo temporal, y su papel en el procesamiento del miedo se conocía desde hacía décadas cuando Goleman escribió. Su papel en el miedo se conocía desde antes.",
         },
         {
           forma: "texto",
           texto:
-            "La primera es la que sostiene todas las demás, y es más rara de lo que parece: mucha gente sabe que está de mal humor pero no sabe con qué está enfadada. Poner nombre a una emoción mientras ocurre baja su intensidad — hay estudios de neuroimagen que lo muestran, y es la base de casi toda la terapia moderna.",
+            "El nombre viene del griego y significa exactamente almendra. Son dos, una en cada hemisferio, y forman parte de un conjunto de estructuras profundas que se ocupan de detectar cosas relevantes para la supervivencia antes de que uno decida nada. Detectan lo relevante antes de que decidas nada.",
         },
         {
           forma: "texto",
           texto:
-            "Para la motivación recurre al experimento de las nubes de azúcar de Walter Mischel: a niños de cuatro años se les ofrecía una golosina ya, o dos si esperaban quince minutos. Los que aguantaron sacaron años después mejores notas y se manejaron mejor bajo presión. Es el estudio más citado del libro — y conviene añadir que las réplicas recientes han encontrado un efecto bastante menor, y que el entorno familiar explica buena parte de él.",
+            "Lo que se sabe de su papel viene en buena parte de casos de personas con lesiones. Hay pacientes con esas estructuras dañadas que reconocen perfectamente una cara alegre y son incapaces de identificar una cara de miedo, y ese detalle es muy revelador. Ese detalle es muy revelador.",
         },
         {
           forma: "clave",
-          rotulo: "La habilidad clave",
-          frase: "No es no sentir. Es notar lo que sientes a tiempo de decidir qué haces con ello.",
-        },
-      ],
-    },
-    {
-      titulo: "Los otros y el trabajo",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "La empatía, dice Goleman, casi nunca se transmite con palabras. Más del noventa por ciento de los mensajes emocionales viajan en el tono, la postura, el ritmo del habla y la cara, y se leen sin darte cuenta. De ahí que discutir por escrito salga tan mal: quitas el canal por el que iba la mitad del mensaje y dejas solo la parte que se puede interpretar en contra.",
+          rotulo: "El secuestro de la amígdala",
+          frase: "La expresión es de Goleman. Describe el momento en que la reacción emocional se dispara antes de que la parte pensante del cerebro se entere.",
         },
         {
           forma: "texto",
           texto:
-            "Recurre al trabajo de John Gottman con matrimonios, que llegó a predecir qué parejas se separarían con una fiabilidad altísima observando quince minutos de conversación. Lo decisivo no era discutir más o menos —todas discuten— sino cómo. La señal más destructiva era el desprecio: los ojos en blanco, el sarcasmo, hablar del otro como de un caso perdido en lugar de hablar del problema concreto.",
+            "El ejemplo que usa el libro es el de alguien que estalla en una reunión. Lo describe como un secuestro porque la persona pierde el control durante unos segundos, hace o dice algo desproporcionado, y después no consigue explicar del todo por qué reaccionó así.",
         },
         {
-          forma: "clave",
-          rotulo: "La regla práctica",
-          frase: "Quéjate de lo que ha pasado, no de quién es la otra persona. «Has llegado tarde» y «eres un desastre» no son la misma frase.",
+          forma: "texto",
+          texto:
+            "La palabra secuestro ha tenido además un efecto no del todo bueno. Se ha convertido en una coartada cómoda para explicar comportamientos de los que uno sí es responsable, y el libro no ayuda mucho a distinguir entre explicar una reacción y disculparla. Explicar una reacción no es lo mismo que disculparla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El trabajo en el que se apoya es el de Joseph LeDoux, neurocientífico de Nueva York. Estudiando ratas, describió dos rutas para una señal amenazante: una corta y rápida que llega directamente a la amígdala, y otra más larga que pasa antes por la corteza.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El experimento clásico consistía en asociar un sonido con una descarga leve. Después bastaba el sonido para que la rata se quedara inmóvil, y cortando distintas conexiones se pudo ver qué caminos hacían falta para que apareciera esa respuesta. Bastaba el sonido para que la rata se quedara inmóvil.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese diseño se remonta a los trabajos clásicos sobre condicionamiento de principios del siglo veinte. Lo que aportaron los años ochenta y noventa fue poder seguir la señal por dentro del cerebro y ver qué estructuras intervienen en cada paso del proceso. La novedad fue poder seguir la señal por dentro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La ruta corta tarda unos milisegundos menos y esa diferencia tiene sentido evolutivo. Vale la pena reaccionar de más ante un palo con forma de serpiente que reaccionar tarde ante una serpiente de verdad, y el sistema está calibrado para equivocarse por exceso. El sistema está calibrado para equivocarse por exceso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese sesgo hacia la falsa alarma explica bastantes cosas de la vida moderna. Un sistema afinado para detectar depredadores se dispara ahora con un correo del jefe o con una notificación, y el coste de esas alarmas falsas ya no es cero como antes. El coste de la falsa alarma ya no es cero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene precisar bastante, porque esta es la parte del libro que peor ha envejecido. El propio LeDoux lleva años protestando por cómo se ha popularizado su trabajo, y ha escrito varios artículos aclarando qué demostró y qué no. LeDoux lleva años protestando por esa versión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su queja no es un detalle académico sino una corrección de fondo. Sostiene que confundir los circuitos de defensa con los sentimientos conscientes ha entorpecido la investigación durante décadas y ha producido tratamientos peor orientados de lo necesario. Sostiene que esa confusión ha entorpecido la investigación durante décadas y ha producido peores tratamientos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su primera objeción es que estudió ratas y una sola cosa. Sus experimentos median el condicionamiento del miedo, es decir aprender que un sonido anuncia una descarga, y no el enfado, ni los celos, ni un arrebato en una reunión de trabajo. Ratas y condicionamiento del miedo, nada más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa distancia entre el modelo animal y la conducta humana es un problema general de la divulgación. Un resultado limpio en ratas se traduce a una metáfora sobre oficinas, y por el camino se pierden todas las condiciones que hacían válido el resultado. Por el camino se pierden las condiciones del resultado.",
         },
         {
           forma: "arte",
           texto:
-            "En 1998 Goleman llevó la idea a la empresa con un artículo en <em>Harvard Business Review</em> que se convirtió en uno de los más pedidos de su historia. Su afirmación: en los puestos altos, el conocimiento técnico es un requisito de entrada que todos cumplen, y lo que separa a los buenos jefes de los mediocres es la autoconciencia y el manejo de la gente. Las empresas empezaron a medirlo en sus procesos de selección.",
-          arte: "museo",
+            "La segunda objeción es más de fondo y afecta al vocabulario entero. LeDoux sostiene que la amígdala no es el centro del miedo sino parte de un sistema de detección de amenazas, y que el sentimiento consciente de tener miedo se construye después y en otra parte.",
+          arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "La aplicación que más le importaba, sin embargo, era la escolar. Defendió que alfabetizar emocionalmente a los niños —ponerle nombre a lo que sienten, aprender a esperar, resolver un conflicto sin pegar— debería ocupar horas del horario igual que las matemáticas. Los metaanálisis posteriores, sobre cientos de miles de alumnos, encontraron mejoras modestas pero consistentes en conducta y también en notas.",
+            "La diferencia práctica entre las dos descripciones es mayor de lo que parece. Si el miedo consciente se construye con memoria y lenguaje, entonces trabajar sobre cómo se interpreta una situación tiene sentido; si fuera una alarma automática, no lo tendría. Si el miedo se construye, se puede trabajar sobre él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera es que la ruta rápida es mucho menos importante en humanos de lo que se cuenta. En personas, buena parte de la respuesta emocional pasa por la corteza, y el esquema de dos carreteras es una simplificación didáctica y no un mapa del cerebro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una corriente en psicología de las emociones que va todavía más lejos. Sostiene que las emociones no son programas fijos heredados sino construcciones del cerebro a partir de sensaciones corporales y de conceptos aprendidos en una cultura concreta. Las emociones como construcciones y no como programas fijos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nada de esto tumba la observación de partida, que es real y cotidiana. La gente reacciona antes de pensar, se arrepiente cinco minutos después y no consigue detener ese primer impulso, y eso lo comprueba cualquiera sin necesidad de resonancias. Cualquiera lo comprueba sin necesidad de resonancias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El consejo práctico que sale de ahí tampoco depende de la neurociencia. Poner distancia antes de contestar, salir de la habitación, escribir el correo y no enviarlo hasta el día siguiente, y todo eso funcionaba mucho antes de que nadie mirara una amígdala. Todo eso funcionaba mucho antes de la neurociencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí cambia es cuánto peso puede soportar la metáfora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sirve para explicarle a alguien por qué gritó en una reunión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No sirve para diseñar un programa de formación alrededor de ella.",
         },
       ],
     },
     {
-      titulo: "Qué ha quedado",
+      titulo: "El niño que esperó la golosina",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La cifra famosa —que el CI explica un 20 % del éxito— nunca tuvo un respaldo tan sólido como sugirió el libro, y Goleman ha matizado desde entonces. La psicología académica sigue discutiendo si la inteligencia emocional es una capacidad medible o un conjunto de rasgos de personalidad con nombre nuevo.",
+            "El estudio más famoso del libro se hizo en una guardería de la Universidad de Stanford a finales de los años sesenta. Un investigador sentaba a un niño de cuatro años delante de una golosina y le proponía un trato sencillo. Un niño de cuatro años y una golosina encima de la mesa.",
         },
         {
           forma: "texto",
           texto:
-            "Lo que no se discute es el efecto que tuvo. Antes de 1995, hablar de emociones en una empresa o en un colegio era casi ridículo; hoy hay programas de educación emocional en medio mundo y los estudios de seguimiento muestran mejoras reales en conducta y rendimiento. Pocos libros de divulgación han cambiado tantas prácticas.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Si hay que quedarse con una sola práctica del libro, es la que Goleman toma de la terapia cognitiva: cuando notes que se te dispara algo, retrasa la respuesta el tiempo que haga falta para poder describir en una frase qué ha ocurrido y qué estás sintiendo. No es contar hasta diez por disciplina. Es que la amígdala se apaga sola en unos minutos si no la alimentas, y la corteza llega justo después.",
+            "La golosina no siempre era la misma y ese detalle importa más de lo que parece. Se usaban nubes de azúcar, galletas o pretzels según lo que el niño prefiriera, porque lo que se quería medir era la espera y no el gusto por un dulce concreto.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "Entre el estímulo y la respuesta hay un hueco. Ensancharlo es la habilidad entera.",
+          rotulo: "El trato",
+          frase: "Puedes comértela ahora, o esperar unos minutos a que yo vuelva y llevarte dos. El adulto sale de la habitación y deja al niño solo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La espera máxima era de un cuarto de hora y muy pocos aguantaban entera. La media rondaba unos pocos minutos, había niños que se lanzaban en cuanto se cerraba la puerta, y las grabaciones de aquellas sesiones siguen siendo divertidas de ver. Muy pocos aguantaban el cuarto de hora entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquellas grabaciones han servido para dar muchas charlas y también para malinterpretar el estudio. Ver a un niño de cuatro años debatiéndose es entrañable y convincente, y esa fuerza narrativa ha pesado más que los números del artículo original. La fuerza narrativa pesó más que los números.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El investigador se llamaba Walter Mischel y estaba estudiando estrategias, no carácter. Lo que le interesaba era qué hacían los niños que aguantaban: taparse los ojos, cantar, sentarse encima de las manos o mirar deliberadamente hacia otro lado. Le interesaba qué hacían los que aguantaban: taparse los ojos, cantar o mirar deliberadamente a otro lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su hallazgo principal fue que la técnica importaba más que la fuerza de voluntad. Los niños a los que se les enseñaba a pensar en la golosina como si fuera una nube de algodón, y no como algo comestible, aguantaban muchísimo más tiempo. La técnica importaba más que la voluntad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese resultado es mucho más útil que la moraleja que se popularizó. Dice que la capacidad de esperar depende de dónde pones la atención, y que eso se puede entrenar en cualquiera, en vez de repartir a los niños entre pacientes e impacientes. Se puede entrenar en cualquier niño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Años después, su equipo localizó a parte de aquellos niños y comparó cómo les había ido. El libro cuenta que los que habían esperado sacaban puntuaciones bastante mejores en la prueba de acceso a la universidad, con una diferencia de unos doscientos diez puntos. Doscientos diez puntos de diferencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel seguimiento se publicó en 1990 y tuvo un efecto enorme fuera de la psicología. La idea de que un test de cuatro minutos a los cuatro años anticipa la vida adulta es irresistible, y se repitió en cursos, charlas y libros durante treinta años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa cifra es la que hizo famoso el experimento y conviene mirarla despacio. El seguimiento con notas de acceso se hizo con un grupo pequeñísimo, apenas unas decenas de niños, y con una muestra así cualquier diferencia grande hay que tomarla con pinzas. Apenas unas decenas de niños en el seguimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema de selección en cómo se localizó a esos niños. Se contactó con las familias que seguían siendo accesibles veinte años después, y quien sigue localizable y acepta participar no es exactamente una muestra al azar del grupo original. Quien sigue localizable no es una muestra al azar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema de partida que se menciona poco. Los participantes eran hijos de personal de la Universidad de Stanford, es decir un grupo muy homogéneo y bastante acomodado, y de ahí no se puede generalizar a la población. Eran hijos del personal de Stanford.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese sesgo tiene un nombre entre los investigadores desde hace unos años. Se habla de muestras rarísimas para describir estudios hechos con universitarios occidentales, ricos y educados, que durante décadas sirvieron para hablar de la humanidad entera. Se habla de muestras rarísimas: universitarios occidentales, ricos y educados usados para hablar de la humanidad entera.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En 2018, un equipo dirigido por Tyler Watts repitió el experimento con casi mil niños y una muestra mucho más variada. El efecto seguía existiendo pero era la mitad de grande, y se reducía casi a nada al tener en cuenta la situación económica y educativa de la familia.",
+          arte: "explorar",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar qué significa exactamente que el efecto se reduzca al controlar por familia. No significa que la espera no prediga nada, sino que buena parte de lo que predice ya lo predecía el entorno del niño, de modo que aporta poco por su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación más razonable de esa diferencia es incómoda y sencilla. Un niño que crece en una casa donde las promesas se cumplen aprende que esperar sale a cuenta, y otro que crece donde la comida a veces falta aprende exactamente lo contrario. Se aprende si esperar sale a cuenta o no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un experimento posterior que apoya justamente esa lectura. Antes de la prueba de la golosina se hacía al niño una promesa pequeña que se cumplía o no se cumplía, y los que habían sido engañados esperaban después muchísimo menos tiempo. Los engañados antes esperaban muchísimo menos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Visto así, la prueba no mide fuerza de voluntad sino algo distinto. Mide en buena parte lo fiable que ha resultado ser el mundo del niño hasta ese momento, y eso convierte el experimento en un retrato del entorno más que del carácter. Retrata el entorno más que el carácter.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cambio de lectura tiene consecuencias prácticas bastante grandes. Si el problema fuera el carácter del niño, habría que entrenarlo a él; si es la fiabilidad del entorno, hay que arreglar la casa, la escuela o el barrio, que cuesta bastante más. Arreglar la casa cuesta bastante más que entrenar al niño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa es exactamente la discusión que sigue abierta en política educativa. Los programas que entrenan habilidades en el niño son baratos y medibles, y los que cambian las condiciones de la familia son caros y lentos, y por eso se financian mucho menos. Lo barato y medible se financia; lo caro, no.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio Mischel insistió siempre en que no medía un rasgo fijo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Decía que la clave estaba en las estrategias y que se pueden enseñar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión que triunfó fue la contraria: unos niños nacen pacientes.",
+        },
+      ],
+    },
+    {
+      titulo: "Las cinco piezas y la oficina",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El modelo que propone Goleman tiene cinco componentes y se repite en todas partes desde entonces. Conocer las propias emociones, saber gestionarlas, motivarse a uno mismo, reconocer las emociones ajenas y manejar las relaciones. Conocer las emociones propias, gestionarlas, motivarse, reconocer las ajenas y manejar las relaciones con otros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De esos cinco, el primero es el que sostiene a todos los demás según el libro. Sin darse cuenta de lo que se está sintiendo mientras se siente, no hay nada que gestionar, y esa capacidad de observarse en caliente es la que más cuesta adquirir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea conecta con una tradición mucho más antigua que la psicología. Observar la propia mente mientras funciona es lo que llevan siglos haciendo las prácticas contemplativas, y Goleman, que había escrito antes sobre meditación, lo sabía perfectamente. Observar la propia mente es lo que llevan siglos haciendo las prácticas contemplativas de medio mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa lista mezcla cosas de naturalezas bastante distintas y ahí empiezan los problemas. Percibir con precisión el estado de ánimo de otra persona es una capacidad cognitiva; motivarse y ser optimista son rasgos de personalidad de toda la vida. Una capacidad cognitiva junto a rasgos de carácter.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El modelo de personalidad más aceptado en psicología tiene cinco factores desde hace décadas. Varios de los componentes de Goleman se solapan casi por completo con dos de ellos, la responsabilidad y la estabilidad emocional, que ya se medían bien antes de 1995. Responsabilidad y estabilidad emocional ya se medían antes.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Los dos modelos",
+          frase: "El de Salovey y Mayer trata la inteligencia emocional como una habilidad y la mide con pruebas de rendimiento. El de Goleman la mezcla con rasgos de carácter y la mide con cuestionarios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa diferencia técnica es la que sostiene casi toda la crítica académica al libro. Un modelo tan amplio acaba midiendo más o menos lo mismo que los cuestionarios de personalidad clásicos, y entonces el concepto nuevo aporta poco. Un modelo tan amplio acaba midiendo lo que ya medían los cuestionarios de personalidad clásicos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema con medir habilidades emocionales por cuestionario. Se está preguntando a la gente cómo de buena cree que es en algo, y precisamente quien peor lee las emociones ajenas es quien menos capacidad tiene de notar que lo hace mal. Quien peor lee emociones es quien menos lo nota.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta que se hicieron los psicómetras es si añade capacidad de predicción. Es decir, si sabiendo ya el cociente intelectual y los rasgos de personalidad de alguien, medir su inteligencia emocional permite acertar mejor sobre su rendimiento. Se trata de saber si añade algo a lo ya conocido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa pregunta tiene nombre técnico y es la prueba de fuego de cualquier concepto nuevo. Se llama validez incremental, y consiste en comprobar si una medida aporta algo que no aportaran ya las herramientas que existían antes de ella. Es la prueba de fuego de cualquier concepto nuevo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La respuesta que dan las revisiones grandes es que sí, pero poco. Añade una capacidad de predicción pequeña y real, y esa aportación es mayor en trabajos donde hay que tratar con gente y aguantar emociones ajenas todo el día. Añade algo real y pequeño, no una revolución.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese matiz sobre el tipo de trabajo es más interesante de lo que parece. En puestos de atención al público, sanidad o enseñanza, gestionar emociones ajenas es literalmente parte de la tarea, y ahí la habilidad predice bastante mejor que en un laboratorio. Donde hay que tratar con gente, predice mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A ese componente del trabajo se le llama desde hace décadas trabajo emocional. Consiste en tener que producir una emoción que no se siente, como la amabilidad continua de un camarero, y está bien documentado que agota tanto como el esfuerzo físico. Agota tanto como el esfuerzo físico.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Goleman publicó en 1998 un segundo libro aplicado al trabajo y un artículo en una revista de gestión. De ahí salió la versión corporativa del asunto: los cursos de liderazgo emocional, las evaluaciones de trescientos sesenta grados y la figura del coach ejecutivo. De ahí salió la versión corporativa del asunto.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel artículo sostenía que los líderes excelentes se distinguen sobre todo por estas competencias. El argumento se apoyaba en datos de consultoras y de empresas concretas, no en estudios publicados con revisión, y ese detalle casi nunca se menciona al citarlo. Se apoyaba en datos de consultoras, no publicados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que no existe ningún cociente emocional equivalente al intelectual. El cociente intelectual es una puntuación estandarizada con una escala acordada, y en inteligencia emocional hay decenas de test distintos que no miden lo mismo ni dan resultados comparables. Decenas de test distintos que no miden lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El test que más se acerca a una medida seria es el de los autores originales. Plantea problemas con respuestas mejores y peores, como reconocer la emoción de una cara, y se puntúa comparando con el criterio de expertos o con el consenso de mucha gente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una pregunta moral que el libro casi no toca. Percibir bien las emociones ajenas es una herramienta, y en manos de alguien sin escrúpulos es exactamente lo que hace falta para manipular a otra persona con eficacia. La misma habilidad sirve para manipular mejor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay investigación posterior que ha mirado justamente esa combinación. Encuentra que la habilidad para leer emociones combinada con poca preocupación por los demás predice más manipulación en el trabajo, no menos, y eso el libro no lo contempla. Leer bien emociones sin escrúpulos predice más manipulación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí conversa de frente con Influencia, que está en este catálogo. Cialdini describe con detalle las palancas que mueven a la gente, y dedica el final del libro a enseñar a defenderse de quien las usa, cosa que este libro no hace. Cialdini sí enseña a defenderse de esas palancas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La comparación entre los dos libros es instructiva por otro motivo. Cialdini construyó su material metiéndose de aprendiz en empresas de venta agresiva, y Goleman lo construyó leyendo artículos, y eso se nota en el tipo de ejemplos de cada uno. Uno se metió de aprendiz; el otro leyó artículos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un buen vendedor y un buen estafador tienen la misma habilidad de base.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre los dos no es emocional sino moral.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y de eso el libro habla bastante poco.",
+        },
+      ],
+    },
+    {
+      titulo: "Lo que quedó del ochenta por ciento",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La cifra más repetida del libro dice que el cociente intelectual explica como mucho un veinte por ciento del éxito en la vida. Conviene entender de dónde sale, porque es una estimación de varianza y no un reparto de causas. Es una estimación de varianza, no un reparto de causas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre esas dos cosas no es un tecnicismo menor. Explicar el veinte por ciento de la variación en un grupo no significa que el veinte por ciento del resultado de una persona concreta venga de ahí, y confundirlo lleva a conclusiones absurdas. Confundirlo lleva directamente a conclusiones absurdas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los estudios que relacionan cociente intelectual con rendimiento laboral encuentran correlaciones moderadas. Al elevar esa correlación al cuadrado se obtiene la proporción de variación explicada, y de ese cálculo sale la cifra que el libro usa en la introducción. Al elevar la correlación al cuadrado sale la cifra.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene añadir que esas correlaciones varían mucho según el trabajo. Predicen bastante bien en puestos complejos, donde hay que aprender cosas nuevas continuamente, y bastante peor en tareas repetitivas que se dominan en unas semanas. Predicen bien en puestos complejos, donde hay que aprender cosas nuevas, y bastante peor en tareas repetitivas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un problema con la palabra éxito que el libro no aclara nunca. Puede significar dinero, categoría profesional, satisfacción o buenas relaciones, y cada una de esas cosas se predice con variables distintas y en proporciones distintas. Cada acepción se predice con variables distintas.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que el libro no dice",
+          frase: "Que el ochenta por ciento restante sea inteligencia emocional. Ahí caben la familia, el dinero, la salud, la suerte, la educación y el país donde naciste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa confusión es la que convirtió una cifra técnica en un eslogan. La resta parece dejar un hueco enorme esperando una explicación, y el libro lo aprovecha retóricamente aunque nunca llegue a afirmar que ese hueco lo llene su concepto. La resta parece dejar un hueco esperando explicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mismo truco retórico aparece en decenas de libros de autoayuda posteriores. Se cita una cifra que deja un resto grande sin explicar, y a continuación se presenta la propia propuesta como candidata natural a ocupar ese hueco sin demostrarlo nunca. Se presenta la propia propuesta como candidata natural.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene además recordar que el cociente intelectual sigue siendo un predictor bastante bueno. Es de las medidas psicológicas que mejor anticipan rendimiento académico y laboral, y ningún resultado posterior a 1995 ha cambiado eso. Sigue siendo de las medidas psicológicas que mejor anticipan el rendimiento académico y laboral.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Decir eso no obliga a aceptar nada sobre su origen ni sobre su justicia. Que una medida prediga bien no dice de dónde viene la diferencia que mide, y buena parte de la discusión pública confunde esas dos preguntas continuamente. Predecir bien no dice de dónde viene la diferencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo mejor que salió de este libro no está en sus páginas sino en las escuelas. Goleman cofundó en 1994 una organización dedicada a llevar la enseñanza de habilidades emocionales y sociales a las aulas, y ese trabajo sí ha generado datos sólidos. Ese trabajo escolar sí ha generado datos sólidos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esos programas escolares consisten en cosas bastante concretas y poco místicas. Enseñar a nombrar lo que se siente, a esperar el turno, a resolver una pelea hablando y a pedir ayuda, con actividades semanales integradas en el horario normal de clase. Actividades semanales dentro del horario normal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí aportó el libro fue una manera de hablar de eso sin sonar blando. Envuelto en vocabulario de neurociencia, un consejo de sentido común entró en salas de reuniones donde nadie habría aceptado que le hablaran de contar hasta diez. El vocabulario de neurociencia lo hizo aceptable.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "En 2011 se publicó una revisión que reunía doscientos trece programas escolares y más de doscientos setenta mil alumnos. Los que participaban mejoraban su rendimiento académico en torno a once puntos percentiles y presentaban menos problemas de conducta. Doscientos trece programas y más de doscientos setenta mil alumnos, con once puntos percentiles de mejora.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa revisión tiene los límites habituales de este tipo de trabajos. Reúne programas muy distintos bajo una misma etiqueta, muchos estudios los evaluaron sus propios autores, y los efectos medidos a largo plazo son bastante más pequeños que los inmediatos. Los efectos a largo plazo son bastante más pequeños.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese resultado es probablemente el legado real del libro. No demuestra la teoría de las cinco piezas, pero sí que enseñar a los niños a nombrar lo que sienten y a resolver conflictos hablando produce efectos medibles en cosas que importan. No demuestra la teoría, pero sí que enseñarlo funciona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene notar que ese resultado no necesita el concepto para sostenerse. Funciona aunque la inteligencia emocional no exista como capacidad única, porque lo que se enseña son habilidades concretas y no un rasgo general que haya que medir. Se enseñan habilidades concretas, no un rasgo general.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene aclarar también qué no propone el libro, porque se le atribuye. No dice que las emociones sean más importantes que la razón, ni que haya que dejarse llevar por lo que se siente: propone justo lo contrario, aprender a no obedecerlas automáticamente. Propone justo lo contrario de dejarse llevar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco sostiene que haya que estar siempre tranquilo ni evitar los conflictos. El enfado es una emoción útil cuando informa de que algo está mal, y lo que el libro discute es que decida por su cuenta lo que se hace en los tres segundos siguientes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En este catálogo encaja bien con Fluir, que está en la misma categoría. Los dos describen estados internos que se pueden entrenar, y los dos se convirtieron en herramientas de empresa bastante lejos de lo que sus autores tenían en la cabeza. Los dos acabaron convertidos en herramienta de empresa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una diferencia importante entre los dos en cuanto a método. Csíkszentmihályi construyó su idea sobre cien mil observaciones recogidas en el momento, y Goleman construyó la suya reuniendo estudios ajenos que no siempre encajaban entre sí. Uno midió cien mil momentos; el otro reunió estudios ajenos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Treinta años después, la idea general se ha vuelto sentido común.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi nadie discute ya que gestionar emociones sea una habilidad.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que no ha resistido son las cifras con las que se vendió.",
         },
       ],
     },
