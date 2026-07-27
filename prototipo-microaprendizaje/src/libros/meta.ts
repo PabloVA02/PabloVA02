@@ -1560,12 +1560,13 @@ export const META: FichaMeta[] = [
     ano: 1953,
     gancho: "Lo escribió en nueve días, en el sótano de una biblioteca, en máquinas de escribir de alquiler a diez centavos la media hora.",
     porQue: "Todo el mundo cree que va de censura. Bradbury repitió hasta el final de su vida que no, que va de gente que dejó de leer sola, sin que nadie la obligara.",
-    minutos: 4.2,
+    minutos: 25.9,
     capitulos: [
-      { titulo: "Nueve días y nueve dólares con ochenta", minutos: 0.7 },
-      { titulo: "El bombero que quema libros", minutos: 0.9 },
-      { titulo: "La explicación del capitán Beatty", minutos: 0.9 },
-      { titulo: "Los hombres-libro", minutos: 1.7 },
+      { titulo: "Salida: un sótano con máquinas de alquiler", minutos: 5.1 },
+      { titulo: "Primera parada: la casa donde la tele ocupa tres paredes", minutos: 5.1 },
+      { titulo: "Segunda parada: el discurso del capitán Beatty", minutos: 5.1 },
+      { titulo: "Tercera parada: la edición que le censuraron sin avisar", minutos: 5.3 },
+      { titulo: "Destino: los hombres que se aprendieron los libros de memoria", minutos: 5.3 },
     ],
   },
   {

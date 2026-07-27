@@ -1936,113 +1936,631 @@ export const FAHRENHEIT: Resumen = {
     "Todo el mundo cree que va de censura. Bradbury repitió hasta el final de su vida que no, que va de gente que dejó de leer sola, sin que nadie la obligara.",
   partes: [
     {
-      titulo: "Nueve días y nueve dólares con ochenta",
+      titulo: "Salida: un sótano con máquinas de alquiler",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Ray Bradbury tenía dos hijas pequeñas y ningún sitio en casa donde escribir. Descubrió que en el sótano de la biblioteca de la Universidad de California en Los Ángeles había máquinas de escribir de alquiler: diez centavos la media hora. Bajaba con una bolsa de monedas y escribía contra el reloj, porque cuando se acababa el tiempo la máquina se bloqueaba.",
+            "Ray Bradbury tenía dos hijas pequeñas y ningún rincón tranquilo en casa. En el sótano de la biblioteca Powell, en la Universidad de California en Los Ángeles, había máquinas de escribir de alquiler a diez centavos la media hora, y bajaba con una bolsa de monedas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La novela no salió de golpe. Primero escribió una versión corta, El bombero, de unas veinticinco mil palabras, que apareció en la revista Galaxy Science Fiction en febrero de 1951 y donde el capitán todavía se llamaba Leahy. El bombero se puede leer todavía en los archivos de la revista.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella versión corta ya tenía la ciudad, los bomberos y a Montag, pero la novela le añadió lo que hoy se recuerda: la coda del bosque, el peso de Beatty y buena parte de las conversaciones con Faber, que allí apenas estaba esbozado. Faber es un añadido tardío y se nota.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplar en amianto no era solo una gracia comercial. Ballantine lo lanzó como objeto de coleccionista en el mismo año, con las tapas hechas de un material que entonces se vendía como el futuro y que hoy no se puede ni manipular sin precauciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El invento le imponía un ritmo. Cada media hora se paraba el carro y había que meter otra moneda, así que escribía a toda velocidad y sin releer, que era exactamente lo que él defendía: pensar demasiado, decía, le quita la sangre a una frase.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Otra pieza previa nació de un disgusto real. Una noche de 1949, paseando por Los Ángeles, un policía lo paró y le preguntó qué hacía andando; se fue a casa indignado y escribió El peatón, del que salen los paseos de Clarisse. El relato se publicó en 1951.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todavía hay una tercera raíz, de 1947. Se llamaba Fénix brillante y ya contaba una quema de libros en una biblioteca de pueblo, con un bibliotecario que respondía recitando en voz alta lo que estaban ardiendo delante de él. Aquel bibliotecario es el primer antepasado de los hombres del bosque.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que el libro creciera por acumulación explica bastantes cosas. Las costuras se notan, hay personajes que entran y salen sin motivo claro y el ritmo cambia de golpe, y a la vez esa manera de escribir es la que produjo sus mejores hallazgos. Nadie lo lee buscando arquitectura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cifra del título salió de una llamada de teléfono. Bradbury quería saber a qué temperatura arde el papel, no lo encontró en ningún libro y acabó preguntándoselo a un parque de bomberos, que le dio cuatrocientos cincuenta y un grados Fahrenheit. El bombero que contestó no dio ninguna fuente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bradbury no pisó la universidad y presumía de ello. Decía que se había licenciado en la biblioteca pública, tres días por semana durante diez años, y que por eso una novela sobre bibliotecas quemadas le tocaba algo personal. Iba andando o en bicicleta, porque tampoco tenía coche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se ha traducido a decenas de idiomas y lleva sesenta años en las listas de lectura de los institutos americanos. Que se lea sobre todo porque lo mandan en clase es una ironía que a él no se le escapaba. Los alumnos suelen leerlo con quince años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bradbury escribía a máquina y sin ordenador hasta el final, dictaba capítulos por teléfono a su hija y no usó nunca el correo electrónico. Detestaba internet en voz alta, con argumentos que se parecían mucho a los de Beatty vueltos del revés. Publicó su última novela con más de ochenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El dato es más flojo de lo que parece. El papel no tiene una temperatura única de ignición: depende del grosor, del acabado y de cuánto rato aguante el calor, y la horquilla habitual va de doscientos veinte a doscientos cincuenta grados centígrados. Cuatrocientos cincuenta y uno suena mejor que doscientos treinta.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que costó",
+          frase: "Nueve dólares con ochenta centavos en monedas de diez, según la cuenta que hizo el propio Bradbury.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ballantine lo publicó en octubre de 1953 y se permitió una broma cara: una tirada especial de doscientos ejemplares firmados y encuadernados en amianto, el material ignífugo de la época. Hoy uno de esos ejemplares se subasta por varios miles de dólares. Ninguno de los doscientos ardió jamás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La historia de los nueve días es verdad a medias, y conviene decir cuál. Nueve días fue el borrador de la versión corta; la novela terminada llegó dos años más tarde, con el texto reescrito y ampliado casi al doble. Bradbury nunca corrigió la leyenda en público.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él mismo defendía la prisa como método. Sostenía que escribir deprisa impide que la parte razonable se meta por medio y estropee lo que está saliendo, y que la corrección lenta es para después, cuando ya hay algo vivo encima de la mesa. Escribió mil relatos con ese procedimiento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene entonces medir bien lo que se le pide a este libro. No es una novela de ideas trabajadas ni un análisis del poder, y quien la lea buscando eso saldrá decepcionado; lo que ofrece es una imagen central y un puñado de escenas que se clavan.",
         },
         {
           forma: "arte",
           texto:
-            "Terminó la novela en nueve días y le costó nueve dólares con ochenta. Escribir rodeado de estanterías no fue casualidad: subía cada poco a coger libros, y decía que la novela la escribieron entre él y la biblioteca. El título es la temperatura a la que, según le dijeron, arde el papel.",
-          arte: "estanteria",
+            "Bradbury no se consideraba autor de ciencia ficción. Decía que este es su único libro del género, porque es el único que extrapola algo que podría ocurrir de verdad, y que todo lo demás que escribió era fantasía y no pretendía otra cosa. La distinción le importaba más que a nadie.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Nació en Waukegan, Illinois, en 1920, y nunca aprendió a conducir. A los quince años vio de cerca un accidente de coche y no volvió a querer ponerse al volante; tampoco subió a un avión hasta 1982, ya con más de sesenta años. Su ciudad natal aparece disfrazada en otros libros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar qué no es este libro. No es una novela de tesis bien armada ni una distopía con sistema político explicado: el argumento es delgado, los personajes funcionan como palancas y lo que queda son imágenes. Bradbury lo sabía y no lo escondía. Se lee entero en una tarde larga.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera frase del libro es: era un placer quemar.",
         },
         {
           forma: "clave",
-          rotulo: "Lo que casi nadie sabe",
-          frase: "Bradbury insistió toda su vida en que el libro no va de censura estatal, sino de la televisión destruyendo el interés por leer.",
+          rotulo: "El sótano",
+          frase: "Escribía contra el reloj porque cada media hora costaba otra moneda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bradbury murió en 2012, a los noventa y un años.",
         },
       ],
     },
-
     {
-      titulo: "El bombero que quema libros",
+      titulo: "Primera parada: la casa donde la tele ocupa tres paredes",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Guy Montag es bombero, y en su mundo los bomberos no apagan fuegos: los provocan. Su trabajo es quemar libros, que están prohibidos, junto con la casa donde aparezcan. Le encanta su trabajo. La primera frase de la novela es «Era un placer quemar».",
+            "Montag entra en su casa y su mujer está tumbada con dos caracolas de radio metidas en los oídos, mirando tres paredes convertidas en pantalla. Mildred le pide la cuarta pared, que cuesta un tercio de lo que él gana en un año. El sueldo de bombero no da para tanto.",
         },
         {
           forma: "texto",
           texto:
-            "Su mujer, Mildred, pasa el día en un salón con tres paredes-pantalla donde emiten programas interactivos que la llaman «la familia». Duerme con auriculares diminutos puestos. Una noche Montag llega a casa y se la encuentra inconsciente por una sobredosis de somníferos; vienen dos técnicos con una máquina, le cambian la sangre, cobran y se van. Le explican que hacen nueve o diez cada noche.",
+            "La cuarta pared no es un capricho suelto. En ese mundo tener las cuatro es la marca de estatus del vecindario, y Mildred lleva meses insistiendo con el argumento de que sin ella la familia de la pared queda incompleta. Montag cede en la discusión sin discutir.",
         },
-        {
-          forma: "clave",
-          rotulo: "El diagnóstico",
-          frase: "Nadie ha prohibido pensar. Simplemente han llenado cada minuto del día para que no quede hueco.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "La que rompe el mecanismo es Clarisse, una vecina de diecisiete años que camina de noche, mira la lluvia y hace preguntas raras. Le pregunta si es feliz. Montag se ríe, y luego pasa toda la noche descubriendo que no lo sabe. A los pocos días Clarisse desaparece: la ha atropellado un coche.",
-        },
-      ],
-    },
-
-    {
-      titulo: "La explicación del capitán Beatty",
-      tarjetas: [
         {
           forma: "arte",
           texto:
-            "La escena central es una mujer mayor que se niega a salir de su casa llena de libros. Enciende ella misma la cerilla y arde con ellos. Montag, que ha ido robando volúmenes en secreto, no consigue quitarse esa imagen y cae enfermo. Entonces su jefe, el capitán Beatty, le visita y le suelta el discurso que sostiene toda la novela.",
+            "Los coches de ese mundo van a doscientos por hora y los carteles de la carretera miden sesenta metros, porque de otro modo nadie podría leerlos. Los adolescentes se entretienen persiguiendo peatones, y así es como muere Clarisse. Los carteles largos son el detalle más citado del libro.",
           arte: "noche",
         },
         {
           forma: "texto",
           texto:
-            "Beatty le cuenta que nadie decretó nunca la prohibición. Empezó con la velocidad: resúmenes de los clásicos, luego resúmenes del resumen, luego titulares. Y siguió con la ofensa: cada grupo se quejaba de un libro que lo retrataba mal, así que era más cómodo eliminarlo. La gente pidió no incomodarse, y se lo dieron.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La frase clave del libro",
-          frase: "No hace falta quemar libros para destruir una cultura. Basta con que la gente deje de leerlos.",
+            "Ese decorado explica también por qué caminar es sospechoso. En la ciudad de Montag no hay aceras útiles ni porches donde sentarse, y una chica que sale a pasear de noche llama la atención de la policía tanto como un hombre con un libro. Andar de noche se paga con preguntas.",
         },
         {
           forma: "texto",
           texto:
-            "Beatty es el personaje mejor construido: ha leído muchísimo, cita a Shakespeare y a Swift de memoria, y precisamente por eso desprecia los libros — dice que se contradicen entre sí y solo sirven para volverte infeliz. No es un ignorante aplicando una ley. Es alguien que lo leyó todo y decidió que no valía la pena.",
+            "Esa misma noche Mildred se toma un frasco entero de pastillas. Vienen dos operarios con una máquina, le vacían el estómago como quien desatasca una tubería y comentan de pasada que salen a nueve o diez avisos como ese cada noche. La escena dura poco más de dos páginas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que hiela es la naturalidad de los operarios. No son médicos ni les preocupa el caso: manejan un aparato que ellos mismos llaman la serpiente, cobran, se van, y a Mildred nadie le menciona el asunto al día siguiente. Cobran por operación, como un fontanero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las tres condiciones de Faber son la mejor definición de lectura del libro. Hace falta información con poros, tiempo para pensarla y libertad para hacer algo con ella, y a él le parece que en su país han desaparecido las tres a la vez. Faber las enumera con los dedos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Faber tampoco es un héroe y el libro no lo disimula. Lleva cuarenta años callado por miedo, se define a sí mismo como un cobarde que vio venir todo esto y no hizo nada, y solo se atreve a moverse cuando otro ha empezado. Su plan consiste en esconderse y aconsejar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Al día siguiente ella no recuerda nada y desayuna con la televisión puesta. A los personajes de la pared los llama su familia, y cuando Montag le pregunta de qué iba lo que estaba viendo, no sabe contestarle. El olvido resulta más inquietante que la sobredosis misma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Clarisse McClellan tiene diecisiete años y es la vecina que camina por gusto. Le pregunta a Montag si es feliz, le pasa un diente de león por debajo de la barbilla y le explica que sus tíos hablan por las noches en el porche. El diente de león decide la novela entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que la hace rara no es lo que sabe, sino el ritmo al que va. Camina en vez de conducir, se queda mirando la lluvia, prueba a saborearla, y su familia se sienta en el porche a hablar sin encender nada. Ninguna de esas cosas está prohibida, solo desaparecida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mildred es el personaje peor tratado del libro y es justo decirlo. No tiene interior, no se le concede una sola escena en la que se explique, y funciona como prueba de un argumento en vez de como persona a la que le pasa algo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En general las mujeres del libro son escenografía. Clarisse existe para despertar a Montag y desaparece, las amigas de Mildred entran una tarde a decir tonterías sobre la guerra y sus maridos, y ninguna vuelve a aparecer con vida propia. Es la crítica más repetida contra la novela.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que dice Faber",
+          frase: "No son los libros lo que necesitas, sino algo de lo que había dentro de ellos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Faber es un profesor de literatura jubilado que lleva años callado. Le explica a Montag que un libro hace falta por tres cosas: información con textura, tiempo libre para digerirla y el derecho a actuar con lo que sales pensando. El nombre viene de una marca de lápices.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las caracolas y las paredes se citan siempre como profecía de los auriculares y de las pantallas planas. Conviene ver de dónde salían: Bradbury estaba extrapolando la radio portátil y un aparato nuevo que acababa de entrar en las casas americanas. Los auriculares inalámbricos llegaron cincuenta años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La descripción de las caracolas es de una precisión incómoda. Son dedales de radio que se meten en el oído y sueltan un mar de música y publicidad toda la noche, y Mildred aprendió a leer los labios de su marido para no quitárselos. Duerme con ellos puestos todas las noches.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Modos de ver, de John Berger, que también está en este catálogo, discute veinte años después la otra mitad del asunto: no si miramos demasiadas imágenes, sino quién decide lo que significan. Bradbury se queda en el volumen y no llega ahí. Berger escribía además para la televisión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que este capítulo no afirma. Bradbury no dice que la televisión sea mala en sí misma ni pide apagarla: dice que un país entero se acostumbró a no estar nunca a solas consigo mismo, y que el aparato fue el instrumento. El aparato le parecía sobre todo ruidoso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los números de aquel momento explican el susto. En 1950 tenía televisor menos de una casa de cada diez en Estados Unidos, y cinco años después ya la tenían dos de cada tres. Bradbury escribió el libro justo en mitad de esa curva. Ninguna otra tecnología entró tan deprisa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Donde falló fue en el sentido del flujo. Imaginó un contenido vacío pero emitido desde arriba, con espectadores mudos delante de la pared, y no vio venir que la misma gente iba a fabricar el material y a competir por colocarlo. Hoy la pared contesta y pide participación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Clarisse muere atropellada y en el barrio nadie lo comenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En casa de Montag no hay un solo libro hasta que él los roba.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El detalle",
+          frase: "Mildred acaba denunciando a su marido por teléfono.",
         },
       ],
     },
-
     {
-      titulo: "Los hombres-libro",
+      titulo: "Segunda parada: el discurso del capitán Beatty",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Montag huye de la ciudad perseguido por un sabueso mecánico y, al otro lado del río, encuentra a un grupo de vagabundos alrededor de una hoguera. Son antiguos profesores. Cada uno ha memorizado un libro entero y se hace llamar por él: uno es <em>La República</em>, otro el Evangelio según San Mateo, otro un ensayo de Gandhi.",
+            "Beatty se presenta en casa de Montag, que finge estar enfermo, se sienta a los pies de la cama y le suelta la explicación entera de cómo se llegó hasta aquí. Es el pasaje más largo del libro y el mejor escrito. Ocupa unas quince páginas seguidas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El discurso funciona porque Beatty no es un bruto. Es el personaje que más ha leído del libro, cita de memoria a media docena de autores y desprecia los libros precisamente porque los conoce y sabe que se contradicen entre ellos. Es el mejor argumento del libro, y es suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa erudición no es adorno. Beatty ha leído lo suficiente como para saber que un libro contradice a otro, y de ahí saca su conclusión favorita: si nada queda resuelto, mejor no empezar, que la duda solo sirve para hacer infeliz al vecino. Ese razonamiento se oye hoy en cualquier sobremesa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los estudiosos suelen recordar una regla incómoda para los autores. Lo que un escritor diga después sobre su propio libro es un dato interesante, pero no manda sobre el texto, y Bradbury cambió de versión varias veces a lo largo de cincuenta años. El texto ya no le pertenecía del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su versión no empieza por ninguna ley. Empieza por el público: la gente quiso las cosas más cortas y más rápidas, los libros se resumieron en compendios, los compendios en una página y la página en un párrafo con el final. El proceso le lleva varias generaciones enteras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escalera que describe tiene peldaños concretos. Los clásicos pasaron a resúmenes de quince minutos, los resúmenes a dos párrafos de diccionario, y de ahí a una sola línea con el final, que era lo único que la gente pedía. Cada peldaño parecía razonable por separado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Junto a los recortes iba una segunda operación: llenar el hueco. Beatty explica que hay que atiborrar a la gente de datos sin conexión, concursos y letras de canciones, para que se sientan informadísimos y no noten que no piensan nada. El vacío se llena antes de que moleste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí está el parentesco real con Un mundo feliz, que anda por este mismo catálogo. Huxley imagina una población entretenida con soma y sensaciones; Bradbury imagina una entretenida con pantallas, y los dos coinciden en que nadie protestará por ello. Huxley publicó veintiún años antes que él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después llegaron las quejas. Cada grupo encontró algo que le ofendía en algún libro, los editores fueron limando para no molestar a nadie, y cuando ya no quedaba nada dentro que mereciera defenderse, quemarlos fue casi un trámite administrativo. Nadie tuvo que firmar una orden porque no hizo ninguna falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese argumento se lee hoy con incomodidad, y hay que decirlo. Beatty habla de minorías ofendidas y de gente que exige que le quiten lo que le molesta, y en boca de un jefe de bomberos que quema casas suena a coartada. El propio Beatty acaba pidiendo que lo maten.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El contexto real de aquellos meses era grueso. En 1953 el Departamento de Estado retiró de sus bibliotecas en el extranjero libros de autores sospechosos, y en algún consulado se llegaron a quemar, con Eisenhower pidiendo en junio que nadie se uniera a los quemadores de libros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con Orwell, en cambio, la distancia es mayor de lo que sugiere la costumbre de citarlos juntos. En 1984 y en Rebelión en la granja el motor es el poder que miente; aquí el poder casi no aparece, y lo que empuja es la comodidad.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La frase de Beatty",
+          frase: "No hizo falta ninguna orden: la gente dejó de leer por su cuenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bradbury pasó las últimas décadas de su vida repitiendo que ese, y no la censura, era el tema del libro. En 2007 se lo dijo a un periodista con bastante mal humor: llevan cincuenta años leyéndolo al revés, y ya está bien. Se levantó y dio la entrevista por terminada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel artículo de 1953 no era ambiguo. Se llamaba El día después de mañana y defendía que la ciencia ficción servía justamente para hablar del presente, en unos meses en los que hablar del presente en voz alta salía caro. Firmarlo en aquel momento tenía su coste.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Con las fotografías de 1933 pasa algo parecido. Bradbury tenía trece años y las vio en los noticiarios del cine, y contó que la escena de una plaza alemana llena de libros ardiendo fue el primer horror político que entendió del todo. Ardieron más de veinte mil volúmenes en una noche.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda en pie de todo el debate es sencillo. El libro describe dos caminos hacia el mismo sitio, uno por decreto y otro por desgana, y Bradbury acertó al señalar que el segundo no necesita malvados para funcionar. Solo hace falta que a nadie le apetezca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí es donde su propia tesis se le cae un poco. En el libro los bomberos son un cuerpo del Estado con uniforme, salario y sabuesos, y a Montag no lo persigue el desinterés del público: lo persigue una institución con lanzallamas. Un lector atento no puede pasarlo por alto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y en 1953 él decía otras cosas. Ese mismo año publicó en The Nation un artículo contra el clima de miedo, y en aquellos meses el Departamento de Estado estaba retirando y en algún caso quemando libros de sus bibliotecas en el extranjero. Aquellos titulares duraron todo el verano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También pesaba una imagen de infancia. Bradbury tenía trece años cuando en Alemania quemaron libros en las plazas, en mayo de 1933, y contó muchas veces que aquellas fotografías de la hoguera le acompañaron durante el resto de su vida. Los noticiarios se veían antes de cada película.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lectura honrada es que el libro contiene las dos cosas. Beatty explica un suicidio cultural y la trama muestra un aparato represivo, y por eso la discusión sobre qué significa no se ha cerrado en setenta años. Cada generación de lectores ha elegido la mitad que le convenía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Beatty es, con diferencia, el personaje que más ha leído.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El giro",
+          frase: "El bombero jefe cita a Shakespeare mientras enciende el lanzallamas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Montag acaba quemándolo a él, y Beatty no se resiste.",
+        },
+      ],
+    },
+    {
+      titulo: "Tercera parada: la edición que le censuraron sin avisar",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 1979 Bradbury descubrió que la edición de Fahrenheit 451 que su propia editorial vendía a los institutos estadounidenses estaba recortada. Llevaba doce años circulando así, con la misma portada y sin ninguna nota que avisara al comprador. La editorial era Ballantine, la misma que lo publicó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La edición se llamaba Bal-Hi y estaba pensada para el instituto. Empezó a imprimirse en 1967 y se vendió durante años en las listas de lectura obligatoria, que es exactamente el sitio donde más lectores nuevos tenía el libro. El nombre venía de una colección para el bachillerato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso más citado ocurrió en Bay County, Florida, en 1987, cuando un superintendente retiró la novela de las aulas por su lenguaje. Los profesores protestaron, la prensa se hizo eco y el libro volvió, que es como suele terminar la historia. La retirada duró unas pocas semanas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tesis del desinterés tiene además un problema de datos. Desde 1953 la alfabetización, la escolarización y el número de títulos publicados al año han subido en casi todo el mundo, así que el hundimiento cultural que anunciaba no ha ocurrido tal cual. Se publican más títulos que nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los recortes eran de escuela. Fuera las palabras malsonantes, fuera un borracho que pasó a ser un enfermo, fuera una frase sobre limpiarse el ombligo: unas setenta y cinco intervenciones pequeñas repartidas por todo el texto para no molestar a nadie. Ninguna nota interior avisaba de los cambios.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguno de los cambios tocaba la trama ni las ideas. Lo que se limaba era el vocabulario, la crudeza y cualquier detalle corporal, con el criterio de que un adolescente no debía leer en clase palabras que oía todos los días en la calle. El resultado sonaba más limpio y más falso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y esa es la parte que da la razón a Beatty. Nadie quería prohibir nada ni pensaba estar censurando: querían un producto que no diera problemas en ninguna reunión de padres, y el camino más corto era pasarle una lima al texto. El mecanismo empieza siempre por evitar molestias.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que sí se sostiene es más estrecho y más incómodo. Las encuestas de uso del tiempo en Estados Unidos dan hoy unos quince minutos diarios de lectura por gusto de media, y bastante menos entre los menores de treinta y cinco años. La cifra baja cada vez que se mide.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Durante trece años se imprimieron las dos versiones a la vez y después solo la corta. Un lector no tenía manera de saber cuál tenía en la mano, y los profesores que la mandaban leer tampoco lo sabían. En los institutos convivieron las dos sin distintivo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bradbury se enteró por casualidad, en una conversación, casi veinte años después de que empezara. Su reacción fue exigir que la versión recortada desapareciera del catálogo, y la editorial la retiró sin discutir demasiado el asunto. Tenía entonces cincuenta y ocho años y treinta de oficio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La coda que escribió en 1980 es un texto de mal genio memorable. Ahí está la frase de que hay más de una manera de quemar un libro, y una lista de las cartas que recibía pidiéndole cambios en nombre de un grupo u otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sobre la censura, el balance también es mixto. Nadie quema libros en las plazas occidentales, y a la vez las listas de títulos retirados de bibliotecas escolares americanas han batido récords en los últimos años, casi siempre a petición de grupos de padres. Las listas se publican todos los años.",
         },
         {
           forma: "arte",
           texto:
-            "Esperan a que llegue el momento en que hagan falta, y mientras tanto se transmiten los textos de memoria a las siguientes generaciones. La ciudad que Montag acaba de abandonar es aniquilada en segundos por una guerra atómica de la que casi nadie se había enterado, porque las paredes-pantalla no la contaban.",
-          arte: "aprendizaje",
+            "En 1980 la editorial restauró el texto completo y Bradbury añadió una coda furiosa al final del volumen, donde escribió que hay más de una manera de quemar un libro y que el mundo está lleno de gente con cerillas. La coda ocupa cuatro páginas de bronca.",
+          arte: "estanteria",
         },
         {
           forma: "texto",
           texto:
-            "Hay un personaje que sostiene la parte intelectual: Faber, un viejo profesor de literatura al que Montag localiza y que le explica por qué arden precisamente los libros y no otra cosa. No es el papel lo que molesta, dice: es que un buen libro tiene textura, muestra los poros de la vida, y eso obliga a pensar. Le da también las tres cosas que hacen falta para salir de ahí — información de calidad, tiempo libre para digerirla y derecho a actuar según lo que concluyas—, y señala que hoy tienen las tres prohibidas de hecho, aunque ninguna por ley.",
+            "La ironía se cuenta siempre mal. No fue un gobierno el que censuró la novela sobre la censura: fue la editorial, por su cuenta, para colocar el libro en el mercado escolar sin discusiones. Es literalmente el mecanismo que describe Beatty. Nadie en la empresa se sintió censor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aparte de eso, la escena escolar americana ha dado casos de manual. La novela figura desde hace décadas en las listas de libros más impugnados por padres y consejos, casi siempre por el lenguaje y casi nunca por lo que cuenta. Las cifras las lleva la asociación de bibliotecas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De las tres distopías, la de Bradbury es la que peor envejece como profecía y la que mejor envejece como descripción de un estado de ánimo. Orwell acertó con la vigilancia y Huxley con el ocio, pero ninguno describió tan bien el ruido continuo. Ninguno de los tres escribía para acertar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la manera útil de leerlo hoy. No como una profecía que hay que puntuar acierto por acierto, sino como una descripción de un apetito: el de no quedarse nunca callado, que es lo único del libro que ha crecido sin parar. El apetito no lo inventó ninguna pantalla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aparte de eso, el libro ha sido retirado de institutos americanos varias veces por padres y consejos escolares, y hay algún caso célebre, como el de un condado de Florida en 1987, donde la queja era el lenguaje y no las ideas. El expediente se resolvió en el propio condado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En este mismo catálogo están sus dos vecinas de estantería. 1984, de Orwell, es de 1949, y Un mundo feliz, de Huxley, de 1932: las tres se citan juntas como si dijeran lo mismo, y no dicen lo mismo en absoluto. Las tres salieron con veinte años de diferencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Orwell teme una bota, Huxley teme el placer administrado y Bradbury teme algo más doméstico: el ruido. En su mundo nadie prohíbe pensar, simplemente no queda un solo hueco de silencio donde a alguien se le ocurra empezar. El silencio acaba siendo el bien más escaso de la novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar lo que el libro no afirma. No dice que el papel sea sagrado ni que haya que venerar los objetos: Faber insiste en que los libros no tienen ningún poder propio y en que lo que importa cabe también en otros sitios. Faber lo dice con un ejemplar en la mano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión censurada se vendió trece años en institutos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El colmo",
+          frase: "Nadie del gobierno tocó una coma: lo hizo la editorial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hoy solo se imprime el texto entero, con la coda incluida.",
+        },
+      ],
+    },
+    {
+      titulo: "Destino: los hombres que se aprendieron los libros de memoria",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Montag sale de la ciudad por el río, con el sabueso detrás y un helicóptero peinando la orilla. Al otro lado encuentra una hoguera pequeña que sirve para calentarse y no para quemar nada, y alrededor a media docena de hombres. El agua le quita el olor a queroseno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El río importa más de lo que parece. Es el primer sitio del libro donde no hay ruido, ni pantallas, ni voces que vendan nada, y Bradbury dedica dos páginas a que Montag se dé cuenta de que puede oír sus propios pensamientos. Es la única pausa que se permite el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de llegar allí ha perdido casi todo. Ha quemado su casa por orden de Beatty, ha matado a su jefe, lleva media pierna dormida por el disparo del sabueso y ha visto por televisión cómo la policía detiene a un inocente para cerrar el caso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa detención falsa es una de las escenas más frías. La policía necesita un culpable en directo, elige a un hombre que iba andando por la calle a esa hora, y el país entero ve cómo lo cazan creyendo que era Montag. La cámara lo enfoca desde un helicóptero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cada uno de ellos es un libro. Se lo han aprendido de memoria y esperan a que el mundo vuelva a querer leerlos: uno es La República de Platón, otro el Eclesiastés, y hay pueblos enteros repartidos por el país haciendo lo mismo. Se presentan por el título, no por su nombre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sistema tiene una lógica sencilla y frágil. Ninguno guarda un ejemplar físico, porque el papel se encuentra y la cabeza no, y cuando uno de ellos muere el libro que llevaba desaparece con él salvo que se lo haya pasado a otro. Recitar en voz alta está mal visto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Granger cuenta además que la red es grande. Habla de miles de personas repartidas por caminos y vías muertas, cada una con su tomo en la cabeza, y de pueblos donde el panadero es un evangelio y el granjero un tratado de agricultura. El grupo lleva así más de veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro que Montag lleva dentro es el Eclesiastés, y no está elegido al azar. Es el texto bíblico que insiste en que todo pasa y vuelve, y con él termina la novela: hay un tiempo para callarse y otro para hablar. Lo había robado en una casa que quemaba.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Granger, el que habla por el grupo, le explica la regla. No hay que enseñar el libro que uno lleva ni presumir de él, porque en cuanto alguien sepa quién guarda qué, guardarlo se vuelve peligroso para todos. Su abuelo aparece en una anécdota que Montag recuerda.",
+          arte: "memoria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y entonces cae la bomba. La guerra llevaba todo el libro sonando de fondo, en la radio, en los aviones que pasaban, y la ciudad desaparece en unos segundos mientras ellos la miran desde la otra orilla del río. Nadie en el grupo comenta nada durante un rato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La guerra aparece dosificada durante todo el texto. Se oye en los altavoces, en los cazas que rompen el cielo mientras Mildred cambia de canal, y ningún personaje del barrio le presta atención hasta que ya no hay barrio. Ese silencio general es la denuncia más dura de la novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La destrucción se cuenta en una página escasa. La ciudad se levanta, se dobla como si fuera de arena y desaparece, y lo que a Montag le viene a la cabeza no es una idea sobre la humanidad, sino la cara de Mildred en una habitación de hotel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El último párrafo cita el Apocalipsis: un árbol con doce frutos que da uno cada mes, y unas hojas que sirven para curar a las naciones. Bradbury lo pone en boca de Montag mientras caminan hacia lo que queda de la ciudad. Bradbury la había memorizado de niño.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El final no es triunfal, aunque suele recordarse así. Granger compara a la humanidad con un fénix que se quema y renace sin aprender nada, y añade que la diferencia con el pájaro es que nosotros sabemos las tonterías que acabamos de hacer. El fénix es la insignia de los bomberos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Bradbury tampoco vende la memoria como solución. Los hombres del bosque dicen de sí mismos que son copias malas y polvorientas, que se equivocan en pasajes enteros, y que lo suyo es aguantar el tipo hasta que haya imprentas otra vez. La memoria aguanta, pero se desgasta igual.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El sabueso mecánico es la otra imagen que aguanta. Es una máquina de ocho patas con una aguja de morfina en el hocico, que no odia a nadie y se limita a seguir un olor que le han programado desde una consola. Duerme en una perrera dentro del parque.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando el libro se escribió, el sabueso era una metáfora de la policía sin conciencia. Leído hoy, con drones que persiguen firmas de calor y sistemas que puntúan a la gente sin que nadie firme la decisión, la imagen ha ganado precisión. La máquina no decide nada por sí sola.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 2018 la HBO hizo una segunda película, con Michael B. Jordan como Montag, que cambió medio argumento y añadió una trama de datos y redes. Se estrenó con críticas tibias y hoy casi nadie la menciona al hablar del libro. Truffaut sigue siendo la versión que se cita.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ahí termina el viaje que empezó en un sótano con monedas de diez centavos. Un hombre que quemaba casas acaba andando hacia una ciudad en ruinas con un libro entero metido en la cabeza y sin ninguna garantía de que sirva para algo. Nueve dólares con ochenta dieron para esto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "François Truffaut lo llevó al cine en 1966 y tomó una decisión coherente: los títulos de crédito no se leen, se oyen en voz alta. En su versión Clarisse no muere, y Bradbury dijo que el final de la película le había gustado más que el resto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda es un intercambio claro. La novela tiene una trama floja y personajes que apenas respiran, y a cambio deja tres o cuatro imágenes que no se olvidan nunca; casi ningún libro con mejor construcción consigue lo segundo. Setenta años después se sigue discutiendo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro ha vendido más de diez millones de ejemplares.",
         },
         {
           forma: "clave",
           rotulo: "Para llevarte",
-          frase: "El peligro no era que alguien te quitara los libros. Era que dejaras de echarlos de menos.",
+          frase: "Nadie tuvo que prohibirte nada para que dejaras de leer.",
         },
         {
           forma: "texto",
           texto:
-            "Hay que decir que la novela envejece de forma desigual. Mildred y las mujeres del libro son caricaturas planas, la prosa se pone grandilocuente en el último tramo y el final con la guerra atómica es demasiado brusco. También hay una ironía incómoda: durante décadas se vendió en institutos una edición censurada, con palabras suavizadas, sin que Bradbury lo supiera.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Con todo, ninguna otra novela de 1953 acertó tanto con lo que iba a pasar: pantallas enormes en la pared, auriculares puestos todo el día, programas que te llaman por tu nombre y noticias que caben en un titular. No adivinó la censura del futuro. Adivinó el entretenimiento.",
+            "Montag se queda con el Eclesiastés y camina hacia la ciudad quemada.",
         },
       ],
     },
