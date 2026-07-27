@@ -4,11 +4,15 @@ import { COCINA } from "./historias/cocina";
 import { COSMOS } from "./historias/cosmos";
 import { CRIMEN } from "./historias/crimen";
 import { CUERPO } from "./historias/cuerpo";
+import { DEPORTE } from "./historias/deporte";
 import { DINERO } from "./historias/dinero";
 import { FIGURAS } from "./historias/figuras";
 import { INVENTOS } from "./historias/inventos";
 import { MAPAS } from "./historias/mapas";
+import { MEDICINA } from "./historias/medicina";
+import { MUSICA } from "./historias/musica";
 import { PALABRAS } from "./historias/palabras";
+import { TECNOLOGIA } from "./historias/tecnologia";
 
 /* ==========================================================================
    Shorts: historias sueltas de dos minutos.
@@ -144,9 +148,13 @@ export const SHORTS: Short[] = intercala(
   BICHOS,
   CUERPO,
   MAPAS,
+  MUSICA,
   CRIMEN,
   PALABRAS,
+  DEPORTE,
   INVENTOS,
+  TECNOLOGIA,
   COCINA,
+  MEDICINA,
   DINERO,
 );
