@@ -1,5 +1,6 @@
 import { BICHOS } from "./historias/bichos";
 import { CATASTROFES } from "./historias/catastrofes";
+import { CINE } from "./historias/cine";
 import { COCINA } from "./historias/cocina";
 import { COSMOS } from "./historias/cosmos";
 import { CRIMEN } from "./historias/crimen";
@@ -9,8 +10,11 @@ import { DINERO } from "./historias/dinero";
 import { FIGURAS } from "./historias/figuras";
 import { INVENTOS } from "./historias/inventos";
 import { MAPAS } from "./historias/mapas";
+import { MAR } from "./historias/mar";
+import { MATEMATICAS } from "./historias/matematicas";
 import { MEDICINA } from "./historias/medicina";
 import { MUSICA } from "./historias/musica";
+import { OBJETOS } from "./historias/objetos";
 import { PALABRAS } from "./historias/palabras";
 import { TECNOLOGIA } from "./historias/tecnologia";
 
@@ -149,12 +153,16 @@ export const SHORTS: Short[] = intercala(
   CUERPO,
   MAPAS,
   MUSICA,
+  CINE,
   CRIMEN,
   PALABRAS,
+  MAR,
   DEPORTE,
   INVENTOS,
+  OBJETOS,
   TECNOLOGIA,
   COCINA,
+  MATEMATICAS,
   MEDICINA,
   DINERO,
 );

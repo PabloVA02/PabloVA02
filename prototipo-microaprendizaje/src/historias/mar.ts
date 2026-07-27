@@ -1,0 +1,120 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   Mar.
+
+   El océano se cuenta casi siempre con superlativos —lo más profundo, lo más
+   oscuro, lo desconocido— y eso, repetido, no dice nada.
+
+   La regla del tema: el mar se cuenta con INSTRUMENTOS. Una boya que midió
+   algo que se creía imposible, un hidrófono que lleva décadas escuchando,
+   un satélite que confirmó lo que los marineros contaban y nadie creía. La
+   historia es siempre el momento en que algo dejó de ser leyenda porque un
+   aparato lo registró.
+
+   Y se respeta a quien lo contó antes de que hubiera aparato. Muchas de esas
+   leyendas resultaron ser descripciones exactas hechas por gente a la que se
+   tomó por exagerada durante un siglo.
+   ========================================================================== */
+
+export const MAR: Short[] = [
+  {
+    id: "ola-draupner",
+    titulo: "Las olas gigantes fueron cuento hasta 1995",
+    gancho: "Un láser midió 25,6 metros en el mar del Norte y se acabó la discusión.",
+    categoria: "Mar",
+    color: "var(--slate)",
+    encargo: "Una ola enorme rompiendo contra una estructura metálica en mar abierto.",
+    entrada:
+      "Durante siglos, los marineros contaron encuentros con muros de agua que aparecían de la nada, verticales, muy por encima de todo lo demás. Los oceanógrafos lo achacaban al miedo y a la mala memoria: los modelos matemáticos decían que una ola así podía darse una vez cada diez mil años. El 1 de enero de 1995, una plataforma petrolífera la midió.",
+    paginas: [
+      {
+        rotulo: "La medición",
+        texto:
+          "La plataforma Draupner, en el mar del Norte noruego, tenía instalado un medidor láser que apuntaba hacia abajo y registraba la altura de la superficie del agua veces por segundo. Aquel día había temporal, con olas significativas de unos doce metros, lo normal en una tormenta fuerte. A mediodía, el láser registró una sola cresta de <strong>25,6 metros</strong>, más del doble de lo que había alrededor, aparecida y desaparecida en cuestión de segundos. Los daños en cubierta encajaban con el registro, así que no se pudo despachar como un fallo del sensor.",
+        destacado: { tipo: "cifra", cifra: "25,6", unidad: "metros de una sola ola" },
+      },
+      {
+        rotulo: "El modelo roto",
+        texto:
+          "El problema no era la ola: era que el modelo la prohibía. La oceanografía trabajaba con una descripción lineal del oleaje, en la que las olas se suman de forma sencilla y las muy grandes son rarísimas. Con esas cuentas, la de Draupner era prácticamente imposible. Lo que hizo falta fue admitir efectos no lineales: olas que se roban energía unas a otras, corrientes que las comprimen contra sí mismas, trenes de olas que enfocan como una lente. En 2004, un estudio con imágenes de satélite del Atlántico y el Índico detectó decenas de olas gigantes en solo tres semanas de observación.",
+        destacado: {
+          tipo: "frase",
+          frase: "No era que no existieran. Es que la ecuación no las dejaba existir.",
+        },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Con el fenómeno aceptado, varios naufragios sin explicación se releyeron desde cero, y las normas de construcción naval y de plataformas cambiaron: hoy se diseñan para aguantar impactos que antes se consideraban fuera del catálogo. En 2019, un equipo de Oxford y Edimburgo reprodujo la ola de Draupner en un tanque de laboratorio haciendo chocar dos trenes de olas en ángulo, y descubrió algo inesperado: si el ángulo pasa de cierto valor, la ola no rompe y se levanta mucho más. La leyenda de los marineros era una descripción técnica esperando instrumento.",
+      },
+    ],
+  },
+
+  {
+    id: "punto-nemo",
+    titulo: "El sitio más lejano de tierra firme del planeta",
+    gancho: "Cuando pasa la Estación Espacial, los humanos más cercanos están arriba.",
+    categoria: "Mar",
+    color: "var(--sage)",
+    curioso: true,
+    encargo: "Mar abierto absolutamente vacío bajo un cielo gris, sin horizonte definido.",
+    entrada:
+      "En el Pacífico sur hay un punto sin nada alrededor. La tierra firme más próxima está a 2.688 kilómetros, repartida en tres islas diminutas que apuntan en tres direcciones distintas. Se llama punto Nemo, por el capitán de Julio Verne, y no lo descubrió ningún navegante: lo calculó un ingeniero con un ordenador en 1992.",
+    paginas: [
+      {
+        rotulo: "El cálculo",
+        texto:
+          "El ingeniero croata-canadiense Hrvoje Lukatela buscaba el punto oceánico más alejado de cualquier costa, un problema que a mano es inabordable porque hay que comparar cada punto del océano con todo el litoral del planeta. Con geometría computacional le salieron unas coordenadas en mitad del Pacífico sur, equidistantes de la isla Ducie, al norte, del islote Motu Nui junto a la isla de Pascua, al nordeste, y de la isla Maher, en la Antártida, al sur. Nunca ha ido a verlo. No hay nada que ver: es agua igual a la de al lado, y su interés es exclusivamente aritmético.",
+        destacado: { tipo: "cifra", cifra: "2.688", unidad: "km hasta la tierra más cercana" },
+      },
+      {
+        rotulo: "Los vecinos",
+        texto:
+          "De ahí sale el dato que lo hizo famoso. La Estación Espacial Internacional orbita a unos cuatrocientos kilómetros de altura, así que cuando pasa por encima del punto Nemo, sus tripulantes están seis veces más cerca de ese trozo de mar que cualquier persona en tierra. Y hay una segunda consecuencia menos poética: como es el lugar más alejado de todo, se usa como cementerio de naves espaciales. Allí se hacen caer los satélites y las estaciones que se retiran, entre ellas la estación rusa Mir en 2001, y en el fondo hay ya restos de varios cientos de vehículos.",
+        destacado: {
+          tipo: "frase",
+          frase: "El sitio más solo de la Tierra es donde se tiran las naves.",
+        },
+      },
+      {
+        rotulo: "Lo que queda",
+        texto:
+          "El agua de esa zona está además entre las más vacías de vida del océano: es el centro del giro del Pacífico sur, una noria de corrientes que impide que suban nutrientes desde el fondo, y a esa distancia tampoco llega nada arrastrado desde la costa. Es lo que los oceanógrafos llaman un desierto oceánico. Y hay una nota literaria: en 1997, unos hidrófonos captaron cerca de allí un sonido bajísimo y potente al que llamaron <em>Bloop</em>. Se especuló con criaturas gigantes durante años, hasta que se identificó: era un gran iceberg partiéndose.",
+      },
+    ],
+  },
+
+  {
+    id: "ballena-52-hercios",
+    titulo: "La ballena que canta en una frecuencia sola",
+    gancho: "La escucharon los hidrófonos militares durante décadas. Nunca hubo respuesta.",
+    categoria: "Mar",
+    color: "var(--plum)",
+    encargo: "Un hidrófono suspendido de un cable en agua muy oscura, luz cenital tenue.",
+    entrada:
+      "En 1989, los hidrófonos que la Marina de Estados Unidos había repartido por el Pacífico para vigilar submarinos soviéticos registraron un canto de ballena que no encajaba con ninguno conocido. La estructura era de ballena, pero la frecuencia estaba muy por encima de la de cualquier especie grande. Alrededor de 52 hercios, donde no canta nadie.",
+    paginas: [
+      {
+        rotulo: "La frecuencia",
+        texto:
+          "Una ballena azul canta entre unos 10 y 40 hercios; un rorcual común, alrededor de 20. Son sonidos graves, y esa gravedad no es un capricho: cuanto más baja es la frecuencia, más lejos viaja el sonido en el mar, y esas especies se comunican a cientos de kilómetros. Un canto a <strong>52</strong> hercios sigue siendo grave para un oído humano, pero para una ballena está fuera del registro habitual de su propia conversación. El animal recorría el Pacífico norte año tras año, con las migraciones desfasadas respecto a las especies conocidas, y siempre solo en los registros.",
+        destacado: { tipo: "cifra", cifra: "52", unidad: "hercios, donde no canta ninguna especie" },
+      },
+      {
+        rotulo: "El apodo",
+        texto:
+          "El biólogo Bill Watkins, del instituto oceanográfico de Woods Hole, siguió las grabaciones durante doce años y publicó el análisis en 2004. La prensa la bautizó como «la ballena más solitaria del mundo» y la historia se convirtió en un símbolo de la soledad, con documentales, canciones y campañas. Los especialistas llevan desde entonces poniendo peros al apodo: nada indica que las demás ballenas no la oigan, porque sus oídos abarcan un rango mucho más ancho que el de sus propios cantos. Que cante distinto no significa que nadie la escuche.",
+        destacado: {
+          tipo: "frase",
+          frase: "Cantar distinto no es lo mismo que no ser oído.",
+        },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Las hipótesis serias apuntan a un híbrido entre dos especies —cosa documentada entre ballena azul y rorcual común— o a una malformación. Y hay un detalle que se cuenta poco: en 2010, unos sensores separados por bastante distancia captaron llamadas parecidas a la vez, lo que sugiere que puede no ser un único animal. Watkins murió en 2004, poco después de publicar. Nadie ha visto nunca a la ballena de los 52 hercios: todo lo que se sabe de ella entra por el oído, y sigue apareciendo de vez en cuando en los registros.",
+      },
+    ],
+  },
+];
