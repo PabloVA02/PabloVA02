@@ -1,4 +1,5 @@
 import { ARTE } from "./historias/arte";
+import { AVIACION } from "./historias/aviacion";
 import { BICHOS } from "./historias/bichos";
 import { CATASTROFES } from "./historias/catastrofes";
 import { CINE } from "./historias/cine";
@@ -11,7 +12,10 @@ import { DEPORTE } from "./historias/deporte";
 import { DINERO } from "./historias/dinero";
 import { ESPIONAJE } from "./historias/espionaje";
 import { FIGURAS } from "./historias/figuras";
+import { HIELO } from "./historias/hielo";
 import { INVENTOS } from "./historias/inventos";
+import { JUEGOS } from "./historias/juegos";
+import { LENGUAS } from "./historias/lenguas";
 import { MAPAS } from "./historias/mapas";
 import { MAR } from "./historias/mar";
 import { MATEMATICAS } from "./historias/matematicas";
@@ -20,6 +24,7 @@ import { MUSICA } from "./historias/musica";
 import { OBJETOS } from "./historias/objetos";
 import { PALABRAS } from "./historias/palabras";
 import { PLANTAS } from "./historias/plantas";
+import { SUENO } from "./historias/sueno";
 import { TECNOLOGIA } from "./historias/tecnologia";
 
 /* ==========================================================================
@@ -155,6 +160,7 @@ export const SHORTS: Short[] = intercala(
   CATASTROFES,
   BICHOS,
   ARTE,
+  AVIACION,
   CUERPO,
   MAPAS,
   MUSICA,
@@ -163,14 +169,18 @@ export const SHORTS: Short[] = intercala(
   PALABRAS,
   MAR,
   CIUDADES,
+  SUENO,
   DEPORTE,
   INVENTOS,
   OBJETOS,
   PLANTAS,
+  LENGUAS,
   TECNOLOGIA,
   COCINA,
   MATEMATICAS,
+  HIELO,
   MEDICINA,
   ESPIONAJE,
+  JUEGOS,
   DINERO,
 );
