@@ -2532,9 +2532,12 @@ button {
   object-fit: cover;
   transform-origin: center;
   pointer-events: none;
-  filter: blur(2px) saturate(0.8) contrast(1.12);
-  mix-blend-mode: soft-light;
-  opacity: 0.9;
+  /* Contraste alto y luz intensa: en luz suave, una copia de la propia foto
+     encima de sí misma casi no cambia nada, y el movimiento se perdía. Lo que
+     tiene que verse son las bandas cruzando, no la copia. */
+  filter: blur(1.5px) saturate(0.85) contrast(1.35);
+  mix-blend-mode: overlay;
+  opacity: 0.52;
   -webkit-mask-image: var(--mascara);
   mask-image: var(--mascara);
 }

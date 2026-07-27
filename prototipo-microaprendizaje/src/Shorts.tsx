@@ -152,11 +152,16 @@ function Fotografia({
               ["--mascara" as string]: `radial-gradient(ellipse ${foto.esfera.rx} ${foto.esfera.ry} at ${foto.esfera.cx} ${foto.esfera.cy}, #000 0%, rgba(0,0,0,0.85) 52%, transparent 100%)`,
             }}
             initial={{ opacity: 0, scale: 1.08 }}
-            animate={{ opacity: 1, scale: [1.08, 1.16], x: ["-2.6%", "2.6%"] }}
+            animate={{ opacity: 1, scale: [1.08, 1.16], x: ["-9%", "9%"] }}
             transition={{
               opacity: { duration: 1.4, delay: 0.5 },
               scale: { duration: 24, ease: "linear", repeat: Infinity, repeatType: "reverse" },
-              x: { duration: 38, ease: "easeInOut", repeat: Infinity, repeatType: "reverse" },
+              /* Ida y vuelta en dieciocho segundos. La primera versión hacía
+                 este recorrido en treinta y ocho y con un tercio del ancho, o
+                 sea veinte píxeles en más de medio minuto: sobre el papel era
+                 elegante y en la mano no se veía. Una animación de ambiente
+                 tiene que notarse mirándola diez segundos o no existe. */
+              x: { duration: 18, ease: "easeInOut", repeat: Infinity, repeatType: "reverse" },
             }}
           />
         )}
