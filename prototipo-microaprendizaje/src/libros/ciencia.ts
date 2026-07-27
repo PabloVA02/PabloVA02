@@ -778,116 +778,635 @@ export const VIDA_ARBOLES: Resumen = {
   ano: 2015,
   gancho: "Encontró un tocón sin hojas que llevaba siglos vivo. Los árboles de al lado lo estaban alimentando.",
   porQue:
-    "Un guarda forestal con treinta años de bosque explica que los árboles se comunican, y lo hace sin una sola palabra técnica.",
+    "Un guarda forestal con treinta años de bosque explica que los árboles se comunican, y lo hace sin una sola palabra técnica. Y en Alemania cuatro mil personas firmaron un manifiesto en contra.",
   partes: [
     {
-      titulo: "El tocón que no moría",
+      titulo: "El tocón que llevaba siglos vivo",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Peter Wohlleben llevaba décadas trabajando como guarda forestal en Alemania cuando, en una reserva antigua, tropezó con unas piedras cubiertas de musgo que resultaron no ser piedras. Era el tocón de una haya cortada hacía cuatrocientos o quinientos años. Al rascarlo apareció algo imposible: por dentro seguía verde.",
+            "Peter Wohlleben llevaba décadas de guarda forestal cuando, en una vieja reserva de hayas, tropezó con unas piedras cubiertas de musgo que resultaron no ser piedras. Era el tocón de un haya cortada hacía cuatrocientos o quinientos años, y al rascar la corteza apareció algo que no debería estar ahí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tocón medía metro y medio de ancho y estaba a ras de suelo, con la superficie ondulada y sin rastro de tronco. Lo que le llamó la atención fue justamente eso: que después de siglos siguiera ahí, cuando la madera muerta de un haya se descompone en unas pocas décadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Por dentro seguía verde, es decir, seguía vivo. Un tocón sin una sola hoja no puede hacer fotosíntesis, así que no puede fabricar azúcar y debería haberse podrido en pocos años; aquel llevaba siglos manteniéndose, y la única explicación posible era que alguien lo estuviera alimentando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La datación es una estimación suya y conviene decirlo. Calculó la edad del tocón por el diámetro que tenía y por lo que sabía de la historia de aquella reserva, no cortando ni contando anillos, así que la cifra de cuatrocientos o quinientos años es un cálculo aproximado.",
         },
         {
           forma: "clave",
-          rotulo: "El hallazgo",
-          frase: "Sin una sola hoja, ese tocón llevaba siglos vivo. Alguien le estaba pasando azúcares por las raíces.",
+          rotulo: "La escena que abre el libro",
+          frase: "Los hayas de alrededor le pasaban azúcar por las raíces. Un árbol muerto por arriba al que sus vecinos mantienen con vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fenómeno en sí no lo descubrió él y los forestales lo conocen desde hace décadas. Se llaman tocones vivos, aparecen sobre todo en coníferas y en hayas, y llevan documentados desde principios del siglo XX; lo nuevo es la interpretación que se le da en este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El autor no es biólogo ni investigador. Estudió ingeniería forestal, trabajó veinte años para la administración de bosques de Renania-Palatinado plantando y talando según el manual, y acabó tan a disgusto con aquel modelo que dejó el puesto y se pasó a un pueblo del Eifel llamado Hümmel.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta que el momento de ruptura llegó viendo trabajar a las cosechadoras. Máquinas que talan, desraman y cortan un tronco en menos de un minuto, dejando el suelo compactado durante décadas, y que él mismo había estado programando durante años como parte de su trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Allí gestiona un hayedo municipal con reglas propias que él mismo defiende en el libro. Nada de maquinaria pesada que compacte el suelo, arrastre de troncos con caballos, ningún producto químico, y una parte del bosque dedicada a enterramientos naturales al pie de los árboles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese modelo también es un negocio y conviene saberlo al leerlo. El bosque de enterramientos, las visitas guiadas y su academia forestal generan ingresos para el municipio y para él, así que el libro defiende una manera de trabajar de la que su autor vive, cosa que no lo invalida y sí lo sitúa.",
         },
         {
           forma: "arte",
           texto:
-            "Los árboles de alrededor lo mantenían con vida. Y eso, en la lógica de la competencia por la luz, no tiene ningún sentido: un tocón sin hojas no devuelve nada. Wohlleben empezó a mirar el bosque de otra manera, y de ahí sale el libro.",
+            "Su punto de partida profesional es una crítica bastante concreta. Un bosque plantado en filas, con árboles de la misma edad y de una sola especie, es una fábrica de madera y no un bosque, y todo lo que el libro cuenta sobre cooperación se ha visto en bosques viejos y no en plantaciones.",
           arte: "explorar",
         },
         {
           forma: "texto",
           texto:
-            "Su tesis es que un bosque maduro no es una colección de individuos peleándose por el sol, sino algo más parecido a una comunidad con intereses compartidos. Un bosque denso conserva la humedad, amortigua el viento y suaviza la temperatura; un árbol aislado, por muy vigoroso que sea, lo pasa mucho peor.",
+            "Ese punto es más importante de lo que parece para leer bien el libro. Casi toda Europa central está cubierta de plantaciones de coníferas alineadas, y si sus árboles no hacen ninguna de las cosas que aquí se cuentan, entonces el libro no describe el bosque, describe un tipo concreto de bosque.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió en Alemania en 2015 y nadie esperaba nada de él. Estuvo más de un año en las listas de más vendidos, superó el medio millón de ejemplares en su país en poco tiempo y se ha traducido a unos cuarenta idiomas, según las cifras que da su editorial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fenómeno editorial fue tan grande que abrió un género entero. Después de este llegaron libros sobre la vida secreta de los animales, de los hongos, del suelo y del propio autor, y una película documental, y hoy cualquier librería tiene un estante entero de naturaleza contada así.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su éxito se explica en buena parte por el tono. No hay una sola ecuación, ni una tabla, ni casi nombres de investigadores en el texto principal, y todo está contado como quien enseña su barrio: mira este de aquí, este lleva doscientos años y es amigo del de al lado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro llegó además en un momento cultural muy favorable. Coincidió con una ola de interés por lo forestal en Alemania y en Japón, con los baños de bosque y el senderismo terapéutico de moda, y encontró un público que ya estaba dispuesto a creerse casi cualquier cosa buena sobre los árboles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese tono es también el origen de todos sus problemas, y conviene decirlo desde el principio. El libro escribe que los árboles hablan, sienten dolor, tienen amigos, cuidan de sus hijos y gritan, y esas palabras describen fenómenos reales con un vocabulario que promete mucho más de lo que hay.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El problema no es la metáfora, que la ciencia usa todo el rato, sino que aquí no se avisa. Un biólogo escribe que un gen es egoísta y dedica el resto del libro a explicar que es una manera de hablar; este libro dice que los árboles son amigos y no vuelve sobre ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wohlleben lo defiende diciendo que es una decisión pedagógica deliberada. Sostiene que si describe una señal química como una señal química nadie termina el capítulo, y que decir que un árbol avisa a otro consigue que la gente vuelva a mirar un bosque, que es lo que él quería.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El argumento tiene su parte de razón y se puede comprobar. Hay decenas de libros correctísimos sobre ecología forestal que no ha leído nadie fuera de la universidad, y este ha llevado a mucha gente a preocuparse por cómo se talan los bosques de su comarca, que es un efecto real.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cuestión de si eso vale la pena o no atraviesa todo el libro y toda su recepción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es la vieja discusión entre precisión y alcance, resuelta aquí de la manera más agresiva posible.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En Alemania acabó en un manifiesto público firmado por miles de personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pocas veces un libro de divulgación ha conseguido enfadar tanto a los que saben del tema.",
         },
       ],
     },
-
     {
       titulo: "La red bajo el suelo",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "El mecanismo está bajo tierra y no es de los árboles: es de los hongos. Sus filamentos, finísimos, envuelven las raíces y las conectan entre sí formando una malla que puede extenderse por hectáreas. Los árboles ceden azúcares al hongo y el hongo les devuelve agua, nitrógeno y fósforo que sus raíces no alcanzan.",
-        },
-        {
-          forma: "clave",
-          rotulo: "El nombre que se le puso",
-          frase: "La «red de madera»: una malla de hongos que conecta los árboles del bosque y por la que circulan nutrientes y señales.",
+            "Debajo de cualquier bosque hay una masa de filamentos de hongo que se enrolla alrededor de las raíces finas y a veces entra dentro de sus células. Esa asociación se llama micorriza, existe desde hace cientos de millones de años y la tienen la inmensa mayoría de las plantas terrestres.",
         },
         {
           forma: "texto",
           texto:
-            "Y por ahí circula información. Cuando una acacia africana es mordida por una jirafa, emite un gas que las de alrededor detectan, y estas empiezan a cargar sus hojas de taninos amargos antes de que el animal llegue. Las jirafas, que también lo saben, pastan a favor del viento o se saltan varios árboles.",
+            "Esa alianza es probablemente lo que permitió que las plantas salieran del agua. Los primeros vegetales terrestres no tenían raíces de verdad, y en fósiles de hace más de cuatrocientos millones de años ya aparecen filamentos de hongo dentro de sus tejidos haciendo el trabajo de absorber minerales.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Visto así, el orden de la historia se invierte respecto a la intuición. No es que los árboles desarrollaran raíces y luego encontraran hongos que las ayudaran: es que la sociedad con los hongos existía antes que las raíces, y sobre esa alianza se construyó todo lo demás.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El trato entre las dos partes está bien establecido y no lo discute nadie. El hongo tiene filamentos finísimos que llegan a rincones del suelo donde una raíz no cabe, y le pasa al árbol agua, fósforo y nitrógeno; el árbol le paga con azúcares que fabrica con la luz del sol.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las cifras de ese negocio son enormes y sí están medidas. Un árbol puede destinar en torno a un tercio del azúcar que fabrica a pagar a sus hongos, y la superficie total de filamentos bajo un solo paso de bosque se mide en cientos de metros cuadrados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese pago es tan alto que obliga a replantear quién saca más del trato. Un tercio de la producción de un organismo es una comisión enorme, y desde el punto de vista del hongo el bosque entero podría describirse como una plantación de fábricas de azúcar que él mismo mantiene en pie.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La red de la que habla todo el mundo",
+          frase: "Como un mismo hongo puede tocar las raíces de varios árboles a la vez, esos árboles quedan conectados por debajo del suelo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Que exista la conexión física está fuera de duda y se ve al microscopio. Lo que se discute es qué pasa por ella, cuánto pasa y si eso importa para la vida del árbol, que son tres preguntas distintas y con respuestas bastante peor establecidas que la primera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La expresión que popularizó la idea no es de Wohlleben ni de un divulgador. Apareció en 1997 en un titular de la revista Nature, jugando con el nombre de la web, para presentar un trabajo de una investigadora canadiense llamada Suzanne Simard que acababa de medir algo nuevo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que Simard hizo fue marcar carbono con isótopos y seguirlo. Puso el marcador en abedules y en abetos de Douglas de un bosque real, esperó, y encontró carbono del abedul dentro del abeto y viceversa, demostrando que había un flujo entre árboles de especies distintas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que hace interesante ese experimento es la dirección del flujo. El carbono se movía sobre todo hacia el árbol que estaba a la sombra, y cambiaba de sentido según la estación, lo que sugiere que no es un goteo pasivo sino algo que responde a la necesidad del receptor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una explicación alternativa que no requiere ninguna intención lo predice igual. El azúcar tiende a moverse desde donde hay mucho hacia donde hay poco, así que un árbol al sol acumulará más y un árbol a la sombra recibirá, sin que ninguno de los dos esté decidiendo nada.",
         },
         {
           forma: "arte",
           texto:
-            "Wohlleben describe además cómo los árboles viejos regulan a los jóvenes: un haya grande tapa la luz a sus crías, y eso las obliga a crecer despacio durante décadas. Suena cruel y es lo contrario — la madera lenta es densa y resistente, y esos árboles viven siglos. Los que crecen rápido a plena luz se rompen jóvenes.",
+            "De ahí sale la imagen que ha dado la vuelta al mundo: los árboles madre. Los ejemplares viejos y grandes están conectados a muchísimos plantones jóvenes y, según esta lectura, les envían azúcar a los que crecen en la sombra y no pueden fabricarlo todavía por sí solos.",
+          arte: "mapa",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La expresión árbol madre también es de Simard y no es inocente. Convierte una estructura de red en una escena familiar, con una figura que cuida y unos hijos que reciben, y esa elección de palabras explica buena parte de la popularidad de la idea y buena parte de las objeciones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su recorrido posterior lo demuestra mejor que cualquier argumento. La imagen del árbol madre acabó inspirando el árbol conectado de una película de ciencia ficción taquillera, y hoy mucha gente cree conocer el fenómeno por esa película y no por ningún estudio de campo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wohlleben añade a eso una idea que le gusta mucho y que es discutible. Sostiene que los árboles reconocen a sus propios descendientes y los alimentan preferentemente, y que un plantón criado a la sombra de su madre crece muy despacio a propósito, formando madera densa que le dará siglos de vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte del reconocimiento de parentesco viene de experimentos en macetas y en laboratorio. Se ha visto que algunas plantas ajustan el crecimiento de sus raíces según quién esté al lado, y de ahí a que un haya de doscientos años identifique a sus hijos en el bosque hay un salto grande.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La parte del crecimiento lento sí es forestalmente sólida y se comprueba con un anillo. Un árbol que crece deprisa en un claro forma anillos anchos y madera blanda, y otro que ha pasado ochenta años esperando bajo la sombra tiene anillos apretadísimos y aguanta mucho mejor el viento y los hongos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los luthiers llevan siglos aplicando ese principio sin llamarlo así. La madera de los violines buenos viene de abetos de crecimiento lentísimo, con los anillos muy juntos, y los mejores instrumentos históricos se hicieron con árboles crecidos durante un periodo especialmente frío en Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además un dato del propio tocón que el libro no subraya lo suficiente. Los árboles de la misma especie no solo se conectan por hongos: sus raíces pueden fusionarse directamente unas con otras, y esa soldadura entre raíces vecinas es la explicación más probable de la escena inicial.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia importa porque son dos mecanismos distintos con implicaciones distintas. Una fusión de raíces entre dos hayas es casi un accidente anatómico entre parientes cercanos; una red de hongos que reparte recursos entre especies distintas es una historia mucho más ambiciosa y bastante peor probada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una explicación todavía más sencilla para el tocón que nadie descarta. Puede que los árboles conectados no le estén dando nada a propósito: si las raíces están soldadas, el azúcar fluye por diferencia de presión, igual que el agua entre dos vasos comunicantes, sin decisión de nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro las mezcla y el lector se queda con la versión más espectacular.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es su manera de trabajar en casi todos los capítulos.",
+        },
+      ],
+    },
+    {
+      titulo: "Cómo avisa una acacia",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En la sabana africana, una jirafa empieza a comer las hojas de una acacia y a los pocos minutos deja de hacerlo, se aleja y busca otro árbol que no esté al lado, sino a cierta distancia y casi siempre en contra del viento. Ese comportamiento se observó en el campo antes de tener explicación.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las acacias tienen además una defensa mucho más antigua y visible que los taninos. Están cubiertas de espinas largas, y algunas especies alojan hormigas agresivas en unas bolas huecas de la base de esas espinas, a cambio de que salgan a morder a cualquier animal que se acerque a comer.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese caso está mucho mejor estudiado que casi todo lo del libro y también tiene su trampa. Cuando se protege experimentalmente a una acacia de los herbívoros, el árbol deja de alimentar a sus hormigas, la colonia se debilita y llegan hormigas parásitas: la alianza solo se mantiene mientras hace falta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La explicación que se propuso es química y bastante buena. El árbol mordido carga sus hojas de taninos amargos en cuestión de minutos y emite un gas, etileno, que llega a los árboles de alrededor; los que lo reciben empiezan a producir taninos antes de que nadie los haya tocado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir que llamar a eso un aviso es una interpretación y no un hecho. Un árbol que emite un gas al ser atacado puede estar avisando, o puede estar simplemente perdiendo compuestos por la herida, y que el vecino reaccione no implica que el primero pretendiera nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La versión más económica es que el vecino está espiando, no escuchando un aviso. Detectar el olor de un árbol herido y prepararse por si acaso beneficia claramente al que espía, y no requiere que el emisor gane nada, que es justo lo que la teoría evolutiva esperaría encontrar.",
+        },
+        {
+          forma: "clave",
+          rotulo: "De dónde sale ese ejemplo",
+          frase: "Del trabajo de un zoólogo sudafricano en los años ochenta, investigando por qué se morían los antílopes de algunas fincas cercadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese origen le da al ejemplo una fuerza que el libro no aprovecha del todo. No es un experimento montado para demostrar que las plantas se comunican: es una investigación veterinaria sobre una mortandad concreta que acabó encontrando el mecanismo por el camino, que es la mejor manera de encontrarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese detalle es el que mejor sostiene la historia y casi nunca se cuenta. En fincas valladas, los antílopes no podían alejarse ni elegir el árbol, seguían comiendo hojas cada vez más cargadas de taninos y morían intoxicados, y fue esa mortandad la que llevó a estudiar el mecanismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El otro caso que el libro cuenta muy bien es el de las orugas. Un olmo atacado emite compuestos volátiles que atraen a avispas parásitas concretas, que ponen sus huevos dentro de las orugas y acaban con ellas, de modo que el árbol no se defiende directamente sino que llama a un aliado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mecanismo se ha estudiado sobre todo en cultivos y tiene aplicación agrícola. Hay variedades de maíz que atraen mejor a los enemigos naturales de sus plagas, y la investigación intenta seleccionarlas para reducir insecticidas, así que la parte útil de esta historia ya está en los campos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso apunta a algo que el libro no dice y que ordena bien todo el asunto. Los fenómenos mejor probados de la comunicación vegetal se han medido en plantas de cultivo y en invernaderos, y no en hayedos centenarios, precisamente porque en un bosque real es casi imposible controlar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todavía más fino es el asunto de la saliva. Hay plantas capaces de responder de manera distinta según qué insecto las esté mordiendo, porque detectan compuestos específicos de la saliva de cada especie, y ajustan qué defensa fabrican y a qué avispa llaman según el atacante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Wohlleben lo llama sentido del gusto y ahí la metáfora funciona bastante bien. No hay lengua ni percepción, pero sí hay receptores que distinguen moléculas concretas y una respuesta específica según cuál llegue, que es lo mismo que hace un sentido químico en un animal.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También distinguen una mordedura de un corte mecánico. Si se hace una herida con unas tijeras, la planta responde reparando el tejido; si la herida viene con saliva de oruga, activa además la maquinaria química de defensa, y esa diferencia se ha medido muchas veces en laboratorio.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Dentro del tronco también viajan señales eléctricas, medidas en laboratorio, que recorren las raíces a alrededor de un centímetro por segundo. Wohlleben lo compara con un sistema nervioso lentísimo, y la comparación es sugerente y también el sitio exacto donde el libro se pasa de frenada.",
           arte: "aprendizaje",
         },
-      ],
-    },
-
-    {
-      titulo: "El tiempo de los árboles",
-      tarjetas: [
         {
           forma: "texto",
           texto:
-            "Lo que mejor consigue el libro es sacarte de tu escala temporal. Una haya joven en un bosque puede pasar ochenta años esperando su turno bajo la sombra de los mayores, sin apenas engordar. Solo cuando cae un viejo y se abre un hueco de luz empieza a subir de verdad.",
+            "Para hacerse una idea de esa lentitud conviene compararla. Una señal nerviosa humana viaja a decenas de metros por segundo, así que un aviso que recorriera un árbol grande tardaría minutos en llegar de un extremo a otro, y eso ya descarta cualquier cosa parecida a una reacción.",
         },
         {
           forma: "texto",
           texto:
-            "Un árbol adulto puede bombear cientos de litros de agua al día, y nadie sabe del todo cómo la sube más de cien metros contra la gravedad. Las hojas de un roble no son iguales arriba que abajo — las de sol son más gruesas y pequeñas, las de sombra anchas y finas—, y el mismo árbol fabrica las dos.",
+            "Un árbol no tiene neuronas, ni cerebro, ni nada que centralice esas señales. Una señal eléctrica que recorre un tejido no es un pensamiento, igual que la corriente que atraviesa un cable no es una conversación, y esa distinción se pierde por completo en el vocabulario del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El caso del grito es el ejemplo más claro de esa confusión deliberada. Los troncos de los árboles con sed emiten crujidos ultrasónicos que se pueden registrar, y eso es cierto; lo que ocurre físicamente es que las columnas de agua del interior se rompen y las burbujas de aire chasquean.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese fenómeno se llama cavitación y es un problema serio para el árbol. Cada burbuja que aparece deja inutilizado un conducto por el que ya no subirá agua, y si se acumulan durante una sequía larga el sistema hidráulico se rompe entero y el árbol se seca de arriba abajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Llamar a eso un grito de sed es exacto como imagen y falso como descripción. Nadie está pidiendo ayuda: es el ruido de un sistema hidráulico que falla, y describirlo así no le quita ningún interés al fenómeno, que sirve para detectar estrés hídrico en cultivos con micrófonos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El capítulo mejor del libro es el de los años de fructificación de las hayas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el único donde la explicación evolutiva y la imagen poética coinciden del todo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todas las de una región dan fruto el mismo año y las siguientes temporadas casi ninguna.",
+        },
+      ],
+    },
+    {
+      titulo: "El bosque no es una comuna",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La sincronía de las hayas tiene una explicación que no es de solidaridad, sino de estrategia. Si dieran fruto todos los años, los jabalíes y los ratones tendrían comida constante y se multiplicarían hasta comérselo todo; concentrando la cosecha en un año de cada cinco, los depredadores no dan abasto y algunas semillas sobreviven.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El fenómeno tiene nombre técnico, vecería o año de semillado masivo, y consecuencias que se notan. En los años de gran cosecha se disparan las poblaciones de roedores del bosque, y con ellas las garrapatas y los casos humanos de las enfermedades que transmiten, un par de veranos después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa cadena se ha estudiado con detalle en bosques de robles de Estados Unidos. Un año de bellotas abundante llena el bosque de ratones, los ratones alimentan a las ninfas de garrapata y dos veranos después suben los casos de enfermedad de Lyme entre los excursionistas de la zona.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa lógica es la misma que la de cualquier ejemplo del libro cuando se mira dos veces. No hace falta que ningún árbol quiera nada ni coopere con nadie: basta con que la variante que sincroniza deje más descendencia que la que fructifica todos los años, y con el tiempo solo quedan las sincronizadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni siquiera hace falta que los árboles se pongan de acuerdo entre ellos para sincronizarse. Basta con que todos reaccionen al mismo desencadenante externo, como una primavera especialmente cálida, para que la floración masiva ocurra el mismo año en toda una región sin ninguna comunicación.",
         },
         {
           forma: "clave",
-          rotulo: "La escala",
-          frase: "Lo que para nosotros es un bosque quieto es, en su tiempo, un sitio donde todo se mueve. Solo que en siglos.",
+          rotulo: "Lo que el libro sí cuenta y nadie recuerda",
+          frase: "En sus páginas los árboles también compiten a muerte por la luz, se tapan, se estrangulan y matan a los de abajo.",
         },
         {
           forma: "texto",
           texto:
-            "Cuenta también por qué las hayas y los robles no dan fruto todos los años, sino de golpe cada varios: si produjeran cada temporada, las poblaciones de jabalíes y ardillas se ajustarían a esa cantidad y se lo comerían todo. Al hacerlo de forma irregular, los años de abundancia sobran bellotas y algunas llegan a germinar.",
+            "Wohlleben describe con detalle esa parte y el lector la olvida. Cuenta que las copas se pelean por cada rendija de cielo, que un haya que crece deprisa condena a las de al lado a la sombra, y que las lianas y las hiedras acaban ahogando a los troncos que trepan.",
         },
-      ],
-    },
-
-    {
-      titulo: "Dónde se le va la mano",
-      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Hay un detalle precioso sobre esa pelea que sí es cooperativo y está medido. Las copas de muchos árboles dejan un pasillo de unos centímetros entre ellas sin llegar a tocarse, un fenómeno llamado timidez de las copas, y se discute si es por rozamiento con el viento o por señales de luz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese pasillo se ve perfectamente tumbándose bajo un bosque de eucaliptos o de pinos y mirando arriba. Cualquiera puede comprobarlo sin instrumentos, y es de los pocos fenómenos del libro que un lector puede verificar por su cuenta la próxima vez que salga al campo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También cuenta que un árbol que se queda sin suficiente luz durante años simplemente se muere. En un hayedo joven pueden brotar miles de plantones por hectárea y llegar a viejos apenas unos pocos, y esa mortandad enorme y silenciosa es la que va seleccionando el bosque adulto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las proporciones asustan cuando se ponen en números. De los miles de hayucos que produce un solo árbol en un año bueno, la inmensa mayoría se los comen los animales, unos pocos germinan y prácticamente ninguno llega a ser un árbol adulto que ocupe un hueco en la bóveda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Puestos a discutir, este libro tiene una conversación pendiente con El gen egoísta, que está en este catálogo. Dawkins preguntaría de inmediato qué gana el árbol que alimenta a un tocón sin hojas, y qué impide que aparezca un tramposo que reciba azúcar y no dé ninguno.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La pregunta del tramposo es la que hunde casi todas las historias de cooperación mal contadas. En cualquier sistema donde repartir recursos sea voluntario, un individuo que solo reciba tendrá ventaja y su estrategia se extenderá, salvo que exista algún mecanismo que lo impida o lo castigue.",
+        },
         {
           forma: "arte",
           texto:
-            "Y aquí hay que ser honesto, porque el libro vendió millones y arrastra una polémica seria. Wohlleben escribe que los árboles «hablan», «amamantan a sus crías», «tienen amigos» y «sienten dolor». Cientos de científicos alemanes firmaron una petición pública contra esa forma de contarlo.",
-          arte: "noche",
+            "La respuesta más probable es incómoda para la lectura amable y sigue siendo fascinante. Al hongo le conviene que sus árboles se mantengan vivos, porque cada uno es una fuente de azúcar; puede que el reparto no lo esté organizando el bosque, sino el hongo, que administra su propia despensa.",
+          arte: "explorar",
         },
         {
           forma: "texto",
           texto:
-            "El reproche no es que los hechos sean falsos —las redes de hongos existen y las señales químicas están documentadas— sino que atribuirles intenciones y sentimientos confunde. Un árbol no tiene sistema nervioso ni cerebro. Que emita una sustancia al ser atacado no significa que sufra ni que quiera avisar a nadie.",
+            "Vista así, la red subterránea deja de ser una comunidad y pasa a ser algo más raro. Un organismo enorme que conecta a varios árboles, cobra su comisión en azúcares y tiene interés en que ninguno de sus socios muera del todo, incluido uno al que hace siglos que le cortaron la copa.",
         },
         {
           forma: "texto",
           texto:
-            "Además, investigaciones posteriores han puesto en duda hasta qué punto los árboles se «reparten» recursos de forma cooperativa: en muchos casos el hongo actúa en su propio beneficio y no como un cartero altruista. La imagen del bosque solidario es más bonita que la evidencia.",
+            "Los hongos implicados no son criaturas pequeñas, además. Uno de los organismos más grandes conocidos es una red de hongo en un bosque de Oregón que ocupa varios kilómetros cuadrados y se calcula que lleva miles de años ahí, más que cualquier árbol que haya crecido encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además pruebas de que esa red también se usa para atacar. Ciertas plantas envían por ella compuestos que inhiben el crecimiento de sus vecinas, y algunos hongos son abiertamente parásitos, de modo que estar conectado no siempre es una buena noticia para el árbol conectado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo más claro de red usada en contra son las plantas sin clorofila. Hay especies que no hacen fotosíntesis y viven enteras del azúcar que sacan de la red micorrícica de los árboles vecinos, sin dar nada a cambio; el tramposo que predice la teoría existe y tiene nombre propio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Son plantas blancas o rosadas que salen del suelo en los bosques umbríos y parecen setas. No tienen una sola hoja verde, viven del azúcar de los árboles que las rodean a través del hongo, y su existencia es la mejor prueba de que esa red se puede explotar sin dar nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo interesante es que ninguna de estas objeciones destruye el libro. Los fenómenos que describe existen casi todos; lo que se discute es su interpretación, y la diferencia entre un bosque solidario y un mercado subterráneo con un intermediario poderoso no cambia los datos, cambia el relato.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una razón para preferir el relato menos amable que no es de aguafiestas. Un bosque que funciona por intereses cruzados y sin nadie al mando explica igual de bien lo que se ve, no necesita ninguna intención y además predice cosas comprobables, como la existencia de tramposos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar también lo que Wohlleben no llega a afirmar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ni que el bosque sea un solo organismo, ni que haya nadie tomando decisiones.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No dice en ninguna página que los árboles sean conscientes ni que piensen.",
+        },
+      ],
+    },
+    {
+      titulo: "Cuatro mil firmas contra un guarda forestal",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "En 2017, dos años después de que el libro arrasara en Alemania, apareció un manifiesto público firmado por varios miles de personas, muchas de ellas biólogos y forestales, pidiendo que se hablara del bosque con hechos y no con cuentos de hadas. Era un texto dirigido explícitamente contra este libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle que da la medida del conflicto es quién firmaba. No eran negacionistas ni madereros: había catedráticos de ecología forestal, investigadores de institutos públicos y guardas en activo, gente que dedica su vida a los bosques y que consideró que aquel libro les hacía más daño que bien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los firmantes le reprochaban tres cosas concretas. Atribuir emociones e intenciones a organismos que no las tienen; presentar como establecido lo que son hipótesis en discusión; y describir el bosque gestionado por profesionales como una fábrica sin matices, cuando de eso viven miles de personas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese tercer reproche tiene un componente gremial que también conviene ver. Wohlleben ataca directamente el modelo de trabajo de la mayoría de sus antiguos colegas, y buena parte de la reacción alemana vino de un sector profesional que se sintió acusado en público por uno de los suyos.",
         },
         {
           forma: "clave",
-          rotulo: "Cómo leerlo",
-          frase: "Quédate con los hechos, que son asombrosos. Trata las emociones como lo que son: una forma de contarlo, no un hallazgo.",
+          rotulo: "El reproche de fondo",
+          frase: "Que un libro de éxito enorme decida lo que millones de personas creen saber sobre los bosques, sin pasar por el filtro de nadie.",
         },
         {
           forma: "texto",
           texto:
-            "Su parte práctica, que suele quedar tapada por la polémica, es la que más ha cambiado la gestión forestal. Wohlleben defiende que un bosque plantado en filas, de una sola especie y de la misma edad, es mucho más frágil de lo que parece: sin sotobosque el suelo se seca, sin árboles viejos no hay refugio, y una plaga o un temporal se lo llevan entero. Frente a eso propone dejar zonas sin tocar durante décadas y talar mucho menos. En la reserva que él dirige lo aplicó, y el argumento que convenció a su ayuntamiento no fue ecológico sino económico: la madera lenta vale más.",
+            "La defensa de Wohlleben ha sido siempre la misma y merece escucharse. Dice que la ciencia lleva décadas comunicando fatal, que el bosque le importaba a muy poca gente antes de su libro, y que ha conseguido que miles de personas defiendan hayedos que nunca habrían mirado dos veces.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El riesgo de esa estrategia también se puede formular sin acritud. Si la gente defiende el bosque porque cree que los árboles son amigos que se cuidan, esa defensa se tambalea el día en que alguien le explique que no lo son, y entonces se lleva por delante también lo cierto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y hay una novedad de 2023 que obliga a leerlo con más cuidado todavía. Una revisión publicada en Nature Ecology and Evolution examinó los estudios sobre redes de hongos en bosques y concluyó que la historia popular va muchísimo más lejos que las pruebas disponibles.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene ser justo con lo que esa revisión dice y lo que no. No afirma que las redes no existan ni que Simard se inventara nada: dice que hay muchas menos pruebas de campo de las que la gente cree y que la interpretación popular ha corrido mucho más que los datos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus autoras y autor, encabezados por la ecóloga Justine Karst, encontraron tres problemas. Muy pocos estudios de campo han medido de verdad esas redes; ninguno demuestra que el carbono transferido beneficie de forma apreciable al árbol que lo recibe; y las citas se habían ido deformando de un artículo a otro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El matiz sobre el carbono es el más importante de los tres. Que haya transferencia medida no significa que sea suficiente para cambiar nada: un plantón puede recibir una cantidad diminuta comparada con lo que fabrica él mismo, y eso convierte el rescate en un goteo simbólico.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Ese último punto es el más instructivo para cualquier lector de divulgación. Rastrearon cómo un hallazgo modesto se citaba cada vez con más seguridad en trabajos posteriores, hasta convertirse en un hecho establecido que ningún estudio original había demostrado nunca del todo.",
+          arte: "estanteria",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mecanismo tiene nombre y ocurre en todas las disciplinas. Un artículo dice que algo es posible, el siguiente lo cita diciendo que ocurre, el tercero lo da por sabido y ya nadie vuelve al original, de modo que una hipótesis se convierte en dato sin que nadie la haya comprobado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Simard y otros investigadores han respondido defendiendo su trabajo y el debate sigue abierto. Lo honesto en 2026 es decir que las micorrizas existen y son importantísimas, que el intercambio entre plantas está medido en experimentos, y que lo del bosque como comunidad organizada no está probado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una asimetría típica de estos casos que conviene tener presente. La versión bonita se ha contado en documentales, charlas y películas de éxito durante una década, y la revisión que la matiza salió en una revista técnica; la corrección nunca alcanza a la historia que corrige.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Este es exactamente el ejercicio que pedía Carl Sagan en El mundo y sus demonios, también en este catálogo. Su regla era preguntarse siempre qué prueba concreta sostiene una afirmación, y aplicada aquí separa muy bien las tres capas que el libro mezcla con tanta elegancia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sagan añadía además una advertencia que encaja perfectamente con este caso. Decía que hay que tener la mente abierta a las ideas nuevas y a la vez el escepticismo suficiente para examinarlas, y que la dificultad está en mantener las dos cosas a la vez sin renunciar a ninguna.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera capa es sólida: los hongos alimentan a los árboles y los árboles a los hongos. La segunda es plausible y discutida: unos árboles pasan recursos a otros. La tercera es literatura: el bosque como familia que cuida de sus mayores y de sus crías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa manera de separar capas sirve para cualquier libro de divulgación con éxito. Se pregunta qué parte está medida y replicada, qué parte tiene un estudio y una interpretación posible, y qué parte es la historia que el autor ha construido encima para que todo eso se entienda y se recuerde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que queda después de quitar la tercera capa sigue siendo mucho. Un suelo lleno de una red viva que negocia intercambios, árboles que se avisan con gases, semillas sincronizadas por regiones enteras y tocones alimentados durante siglos por raíces soldadas a las de sus vecinos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y queda un argumento forestal que no depende de nada de lo discutido. Un bosque viejo, con especies mezcladas y suelo sin compactar, resiste mejor las sequías, las plagas y los temporales que una plantación alineada, y eso está medido en tormentas concretas y en incendios concretos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mejor efecto del libro no es lo que enseña, es lo que provoca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Un paseo por el monte deja de ser un decorado y pasa a ser una escena con actores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Después de leerlo, nadie vuelve a mirar un tocón de la misma manera.",
         },
       ],
     },
