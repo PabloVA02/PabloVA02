@@ -5,115 +5,633 @@ export const BUSCA_SENTIDO: Resumen = {
   titulo: "El hombre en busca de sentido",
   autor: "Viktor Frankl",
   ano: 1946,
-  gancho: "Lo escribió en nueve días, y trata de por qué unos sobrevivían al campo y otros no.",
+  gancho: "Lo escribió en nueve días y quiso publicarlo sin firma. Le convencieron de poner su nombre justo antes de imprimirlo.",
   porQue:
-    "Un psiquiatra vienés observando Auschwitz desde dentro, como paciente y como científico a la vez. No hay otro libro igual.",
+    "Un psiquiatra vienés observando el campo desde dentro, como preso y como científico a la vez. No hay otro libro igual.",
   partes: [
     {
-      titulo: "El manuscrito cosido en el abrigo",
+      titulo: "Salida: un trozo de mármol encima de la mesa",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Cuando Viktor Frankl llegó a Auschwitz en 1944 llevaba escondido en el forro del abrigo el manuscrito de su vida: el libro donde desarrollaba su teoría psiquiátrica. Se lo quitaron en la primera desinfección, junto con todo lo demás. Perdió a su mujer, a su padre, a su madre y a su hermano. Sobrevivió tres años en cuatro campos.",
+            "En 1941, Viktor Frankl tenía en el bolsillo un visado para Estados Unidos y una decisión que tomar. Si se iba, se salvaba y dejaba a sus padres en Viena; si se quedaba, se quedaban los tres. Estuvo días dándole vueltas sin decidirse por ninguna de las dos cosas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel visado se lo habían concedido con cuentagotas. Estados Unidos daba entonces un número muy limitado de permisos a judíos austriacos, y el suyo había salido tras meses de espera y de gestiones que ya no se podían repetir si lo dejaba pasar. Renovarlo era imposible en aquel momento.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Sus padres no podían acompañarle y eso era el problema entero. El visado era individual, ellos no tenían ninguno y las posibilidades de conseguirlo se habían cerrado del todo, así que marcharse significaba dejarlos en Viena sin nadie que los atendiera. Su hermana ya había conseguido salir de Austria.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otro detalle de aquellos meses que casi no se cuenta. Se casó en diciembre de 1941 con Tilly Grosser, una enfermera del hospital, y las leyes raciales obligaron poco después a interrumpir el embarazo que ella tuvo, cosa que él mencionó muy pocas veces.",
         },
         {
           forma: "arte",
           texto:
-            "Reescribió el libro después, en nueve días, y quiso publicarlo sin firma. Sus amigos le convencieron de poner su nombre. Se ha traducido a más de cincuenta idiomas y él siempre dijo que su éxito era un síntoma triste: la prueba de cuánta gente vive sin una razón para levantarse.",
-          arte: "escritor",
-        },
-        {
-          forma: "clave",
-          rotulo: "La pregunta del libro",
-          frase: "En condiciones iguales de hambre y frío, unos se rendían y otros no. ¿Qué diferencia había?",
-        },
-      ],
-    },
-    {
-      titulo: "La última libertad",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "Su observación central es que en el campo se lo quitaban todo — nombre, pelo, ropa, familia, futuro— excepto una cosa. Cómo respondías. Había hombres que recorrían los barracones consolando a otros y dando su último trozo de pan. Eran pocos, dice, pero bastaban para demostrar algo definitivo.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La frase",
-          frase: "Al hombre se le puede arrebatar todo salvo una cosa: la elección de su actitud ante un conjunto de circunstancias.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Frankl no romantiza nada, y conviene subrayarlo porque el libro se cita a veces como si dijera que basta con querer. Él escribe expresamente lo contrario: los mejores no volvieron. La supervivencia dependió sobre todo del azar. Lo que observa es más modesto y más sólido: entre quienes tenían las mismas probabilidades, quien conservaba un porqué aguantaba más.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "Cita a Nietzsche una y otra vez: «quien tiene un porqué para vivir puede soportar casi cualquier cómo». Y describe el momento exacto en que un preso se rendía — dejaba de levantarse, se fumaba los cigarros que guardaba para cambiar. Todos sabían que ese hombre moría en cuarenta y ocho horas. Había dejado de esperar algo del futuro.",
-        },
-      ],
-    },
-    {
-      titulo: "Las tres fases",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "Frankl describe el paso por el campo como un proceso psicológico en tres fases, y lo hace con una frialdad clínica que impresiona más que cualquier lamento. La primera es el <em>shock</em> de la llegada: el andén, la selección con un movimiento de dedo hacia la izquierda o la derecha, el afeitado, la pérdida del nombre. Cuenta que muchos reaccionaban con un humor macabro y con una curiosidad extraña por lo que iba a pasar.",
-        },
-        {
-          forma: "texto",
-          texto:
-            "La segunda es la apatía. El preso deja de sentir asco, horror y compasión; ve morir a alguien al lado y sigue comiendo su sopa. Frankl no lo juzga: explica que es una coraza necesaria, porque un aparato emocional funcionando a pleno rendimiento allí dentro no habría durado una semana. Lo único que seguía atravesando la coraza eran las humillaciones — no los golpes, sino la injusticia de recibirlos.",
-        },
-        {
-          forma: "clave",
-          rotulo: "La tercera",
-          frase: "La liberación no traía alegría inmediata. Muchos tardaron días en poder sentir algo, y algunos nunca volvieron a hacerlo.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Y describe también el peligro moral de después: hombres liberados que se convirtieron en opresores, convencidos de que el sufrimiento padecido les autorizaba a todo. Frankl lo rechaza sin matices. Fue de los primeros en decir en público que del sufrimiento no se sale automáticamente mejor persona; se sale, casi siempre, más parecido a lo que ya se era.",
-          arte: "noche",
-        },
-        {
-          forma: "texto",
-          texto:
-            "El fragmento más recordado sucede en una marcha de madrugada, con los pies destrozados y el viento helado. Frankl empieza a hablar mentalmente con su mujer, cuya suerte desconoce —ya había muerto—, y descubre que la conversación imaginaria le sostiene igual que si fuera real. De ahí saca su conclusión sobre el amor: puede alcanzar a alguien que ya no está, porque su lugar no depende de su presencia física.",
-        },
-      ],
-    },
-    {
-      titulo: "Logoterapia",
-      tarjetas: [
-        {
-          forma: "texto",
-          texto:
-            "La segunda mitad expone su terapia. Frente a Freud, que ponía el placer en el centro, y a Adler, que ponía el poder, Frankl pone el <em>sentido</em>. Y su giro más útil: no somos nosotros quienes preguntamos qué sentido tiene la vida, es la vida la que nos pregunta a nosotros, cada día, y respondemos con lo que hacemos.",
-        },
-        {
-          forma: "arte",
-          texto:
-            "Señala tres caminos para encontrarlo, y ninguno es místico: hacer algo que importe, encontrarse con alguien a quien amar, y —el más duro— la actitud ante un sufrimiento que no se puede evitar. Ese tercero es el que da autoridad al libro: lo escribe alguien que estuvo allí.",
+            "Volvió a casa una tarde y vio sobre la mesa un trozo de mármol que su padre había recogido de los escombros de una sinagoga quemada. Era un fragmento de una tabla de la ley, y la letra que se leía correspondía al mandamiento de honrar al padre y a la madre.",
           arte: "memoria",
         },
         {
           forma: "texto",
           texto:
-            "Su ejemplo clínico es un médico anciano que no superaba la muerte de su mujer. Frankl no le consoló: le preguntó qué habría pasado si él hubiera muerto primero. «Para ella habría sido terrible, habría sufrido muchísimo.» Entonces le dijo: usted le ha ahorrado ese sufrimiento, y el precio es que ahora lo paga usted. El hombre se marchó tranquilo. No cambió nada, salvo el sentido.",
+            "Dejó caducar el visado. Un año después, en septiembre de 1942, los deportaron a él, a su mujer y a sus padres al gueto de Theresienstadt, y desde allí siguió el recorrido que acabaría llevándolo a Auschwitz dos años más tarde. Nadie de la familia se lo reprochó nunca.",
         },
         {
           forma: "texto",
           texto:
-            "Su técnica clínica más conocida es la <em>intención paradójica</em>: pedirle al paciente que intente deliberadamente aquello que teme. Al insomne, quedarse despierto toda la noche. Al que suda en público, proponerse sudar un litro. El miedo anticipado es lo que produce el síntoma, y buscarlo a propósito rompe el círculo. Frankl la describió décadas antes de que la terapia conductual llegara a lo mismo por su cuenta.",
+            "Theresienstadt no era un campo de exterminio sino un gueto y una escala. Allí murió su padre a los pocos meses, y allí Frankl organizó con otros presos un servicio de atención a los recién llegados, para los que se derrumbaban en las primeras horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel servicio funcionaba como una guardia psiquiátrica improvisada. Frankl y otros médicos presos vigilaban las llegadas de trenes para localizar a quienes estaban al borde del derrumbe, y pasaban con ellos las primeras horas, que eran las de más suicidios. Las primeras horas eran las peores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En aquel gueto había además una vida cultural clandestina. Se daban conferencias, se tocaba música y se representaban obras entre gente que sabía que la mayoría acabaría en un tren hacia el este, y Frankl dio allí charlas sobre psicología del insomnio y del miedo.",
         },
         {
           forma: "clave",
-          rotulo: "Para llevarte",
-          frase: "El sufrimiento deja de serlo en el momento en que encuentra un sentido.",
+          rotulo: "Lo que perdió",
+          frase: "A su padre, a su madre, a su hermano y a su mujer. Solo sobrevivió una hermana suya, que había emigrado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Antes de todo eso era un neurólogo con una carrera hecha. Había dirigido durante cuatro años el pabellón de mujeres con intento de suicidio de un hospital de Viena, por donde pasaban miles de pacientes al año, y había montado centros gratuitos de orientación para jóvenes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel pabellón tenía un nombre que lo dice todo. Lo llamaban el de las suicidas, y por sus camas pasaron durante cuatro años miles de mujeres que habían intentado quitarse la vida, con las que Frankl aprendió a hacer la única pregunta que le interesaba.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquella etapa viene también su trabajo con jóvenes. Montó en Viena unos centros gratuitos de orientación juvenil a finales de los años veinte, coincidiendo con la época en que la ciudad tenía las cifras de suicidio adolescente más altas de Europa. Los centros eran gratuitos y abiertos a cualquiera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquellos centros salió un dato que él repetía con orgullo. Durante el año 1931, según los registros que manejaba, no se suicidó ningún estudiante vienés, y esa cifra fue lo que le convenció de que la orientación temprana servía de algo. Ninguna otra ciudad europea registró algo parecido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De adolescente se carteaba con Freud. Le mandó un artículo con diecinueve años y Freud se lo hizo publicar en una revista de psicoanálisis, aunque después se pasó al círculo de Adler y acabó también fuera de él, expulsado antes de cumplir los veinticinco. Conservó aquella postal de Freud toda la vida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando llegó a Auschwitz llevaba escondido en el forro del abrigo el manuscrito de su vida, el libro donde desarrollaba su teoría. Se lo quitaron en la primera desinfección junto con todo lo demás, y aquella pérdida es la que abre el relato del campo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena de la desinfección la cuenta con detalle clínico. Los recién llegados entregan la ropa y todo lo que llevan encima, se les afeita el cuerpo entero y salen al otro lado sin nada, y ahí, dice, es donde uno descubre qué le queda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que le quedó, dice, fue una pregunta y unas gafas. En aquella cola cambió sus últimas pertenencias por nada y salió con lo puesto, y a partir de ahí el libro se dedica a averiguar qué hace una persona cuando ya no tiene nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel libro perdido tenía título y llegó a publicarse después. Salió en 1946, el mismo año que este, con el trabajo de reconstrucción que había empezado en el campo, y es el tratado técnico que este otro libro resume en cincuenta páginas. Se titula, en castellano, Psicoanálisis y existencialismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo reconstruyó a trozos y en condiciones absurdas. Durante una fiebre tifoidea, robando trocitos de papel, apuntó en taquigrafía las palabras clave del libro perdido, en parte para no dormirse, porque quedarse dormido con aquella fiebre podía significar no despertar. Aquellos papeles los guardaba dentro de la ropa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo liberaron los americanos en abril de 1945 en un campo del sur de Alemania. Volvió a Viena, se enteró allí de que su mujer y su madre habían muerto, y en cuanto pudo se sentó a dictar este libro, que salió al año siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo dictó en nueve días seguidos.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Con qué nombre quería firmarlo",
+          frase: "Con ninguno. La primera edición iba a salir anónima, y le convencieron a última hora.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Decía que quería demostrar que la vida tiene sentido en cualquier circunstancia.",
+        },
+      ],
+    },
+    {
+      titulo: "Primera parada: las tres fases del preso",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La primera mitad del libro no es un relato de atrocidades, y eso descoloca a mucho lector. Frankl mira lo que le pasa a la cabeza de un preso corriente, por fases, y usa el vocabulario de un médico que está describiendo un cuadro clínico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio libro avisa de eso en las primeras páginas. Dice que no va a contar los grandes horrores, que ya están contados en otros sitios, sino las mil pequeñas torturas del día a día que casi nunca aparecen en los relatos. La diferencia de enfoque se nota enseguida.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa decisión de enfoque es lo que lo separa de los demás testimonios. Los detalles que elige son minúsculos: el reparto de la sopa, el sitio en la fila, los zapatos rotos, el frío en los pies, y de ahí saca todo lo demás. Ningún otro testimonio se fija en eso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Diario de Ana Frank, que anda por este catálogo, hace algo parecido desde el otro lado del mismo periodo. Los dos son testimonios de detalles pequeños escritos por personas que no eran escritores, y los dos se leen hoy más que cualquier libro de historia sobre aquello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La primera fase es la de la llegada. Describe un mecanismo que llama la ilusión del indulto: el recién llegado se agarra a la idea de que a él no le va a pasar, de que hay algún error y de que en el último momento se arreglará.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese mecanismo tiene nombre en psiquiatría y él lo usa. Es una forma de negación que aparece también en enfermos que reciben un diagnóstico grave, y consiste en agarrarse a la excepción mientras haya cualquier resquicio, por pequeño que sea. El resquicio se cierra en pocas horas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta además un caso propio bastante duro. Al bajar del tren en Auschwitz preguntó por un compañero que había llegado antes, y le señalaron una chimenea diciendo que estaba allí arriba, y él no acabó de entenderlo hasta pasadas unas horas. Aquel compañero había llegado dos días antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese episodio marca el final de la primera fase. Cuando la negación se rompe, dice, lo que viene después no es la desesperación sino un humor negro sorprendente, y describe presos haciendo bromas sobre el horno el mismo día en que lo han entendido. Reírse allí también era una manera de aguantar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda fase es la apatía, y es la que ocupa más páginas. Consiste en dejar de sentir: los golpes dejan de indignar, los muertos dejan de impresionar y el preso se convierte en alguien que solo piensa en pan, en sopa y en no llamar la atención.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La descripción de esa insensibilidad es lo más frío del libro. Cuenta que los presos comían mirando cadáveres sin inmutarse, que dejaron de apartar la vista, y que aquello no era crueldad sino un mecanismo que se instalaba solo a las pocas semanas. El propio Frankl se sorprendió de su rapidez.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cuerpo lleva la cuenta, de van der Kolk, que anda por este catálogo, explica hoy ese mismo estado con otro vocabulario. Lo llama disociación y lo describe como una respuesta automática del sistema nervioso, no como una decisión ni como una falta de decencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre los dos libros está en lo que viene después. Van der Kolk trabaja con supervivientes que llevan el daño en el cuerpo décadas más tarde; Frankl escribe recién salido y no dispone todavía de ninguna palabra para eso. Setenta años de clínica separan a los dos autores.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su descripción de esa fase",
+          frase: "Una muerte emocional que protege, porque quien siguiera sintiéndolo todo no aguantaría ni una semana.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La tercera fase es la de después, y es la que menos se cuenta. Frankl dice que al salir muchos no sintieron alegría sino nada, que tuvieron que reaprender a alegrarse, y que a algunos les llegó luego una amargura difícil de manejar al ver que el mundo no entendía.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Dentro de esa descripción hay escenas mínimas que se recuerdan. Un preso que se queda mirando una puesta de sol desde el barracón, otro que guarda un trozo de pan para un compañero, la discusión sobre si merece la pena cambiar el pan por un cigarrillo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La observación que da título al libro llega de una manera lateral. Frankl se fija en que los que aguantaban mejor no eran los más fuertes ni los mejor alimentados, sino los que tenían algo pendiente fuera: alguien esperando o un trabajo sin terminar. Ninguno de ellos lo formulaba en voz alta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar el alcance de esa observación. Frankl no dice que el sentido protegiera del hambre ni del tifus ni de una selección: dice que, a igualdad de todo lo demás, quien tenía algo pendiente aguantaba un poco más antes de rendirse. Un poco más, y no siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él mismo desconfiaba de las lecturas fáciles de su libro. Repetía en entrevistas que no había ninguna receta, que la mayoría de los que tenían motivos para vivir murieron igual, y que su libro describía casos y no leyes generales. Le molestaba especialmente la palabra autoayuda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí viene su queja más repetida en los últimos años. Decía que le incomodaba ver su libro en las estanterías de autoayuda, que él había escrito un informe clínico y que la frase famosa se citaba casi siempre fuera de su contexto. Ese contexto es medio libro entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuenta dos casos concretos de presos que querían dejarse morir. A uno le recordó que tenía un hijo en el extranjero al que solo él podía criar; al otro, que había empezado una serie de libros científicos que nadie más podía terminar en su lugar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y cuenta el caso contrario, que es el más citado. Un compañero soñó en febrero que la guerra terminaría el 30 de marzo, y cuando llegó esa fecha y no pasó nada le subió la fiebre, cayó enfermo y murió al día siguiente. Nadie supo nunca de dónde salió aquella fecha.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Él mismo se sostuvo imaginando una sala de conferencias.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Qué se imaginaba diciendo allí",
+          frase: "Una charla sobre la psicología del campo de concentración, con él de pie y bien abrigado, contando aquello en pasado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese truco de mirarse desde el futuro lo recomendó después a sus pacientes.",
+        },
+      ],
+    },
+    {
+      titulo: "Segunda parada: la logoterapia en pocas páginas",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "La segunda mitad del libro es otra cosa y conviene saberlo. No estaba en la edición original de 1946: se añadió para la edición americana de los años sesenta, y es un resumen apretado de la terapia que Frankl llevaba veinte años construyendo. Son dos libros distintos entre las mismas tapas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese añadido explica una rareza de la lectura. El libro cambia de tono a la mitad, pasa del relato en primera persona a un manual con vocabulario técnico, y muchos lectores abandonan justo ahí sin saber que están empezando otro texto. Merece la pena pasar ese bache.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La edición española que más circula incluye además un texto posterior. Es un apéndice escrito en los años ochenta donde Frankl defiende lo que llama un optimismo trágico, que consiste en decir que sí a la vida sabiendo cómo es realmente. Ese texto es de 1984, casi cuarenta años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese apéndice contiene su respuesta a una objeción evidente. Le preguntaban cómo se puede decir que sí a la vida después de aquello, y él contestaba distinguiendo entre el optimismo, que espera que todo salga bien, y decir que sí sabiendo que puede no salir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A esa terapia la llamó logoterapia, del griego logos, entendido aquí como sentido. La presentaba como la tercera escuela vienesa de psicoterapia, después de la de Freud, que buscaba el placer, y la de Adler, que buscaba el poder. El nombre lo eligió él mismo, a propósito, para no decir espíritu.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa presentación era también una manera de situarse. Frankl había sido discípulo de los dos y había roto con los dos, y colocarse como tercera escuela era reclamar un sitio propio en una ciudad donde el psicoanálisis lo ocupaba casi todo. Freud y Adler dominaban la ciudad entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su ruptura con Adler fue además bastante fea. Lo expulsaron de la sociedad que Adler presidía cuando tenía veintidós años, por defender ideas que se apartaban de la doctrina oficial, y aquella expulsión le dejó fuera del circuito vienés durante bastante tiempo. Volvió a esa sociedad muchos años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Enquiridión, de Epicteto, que anda por este catálogo, contiene ya el núcleo de lo que Frankl formularía. El estoico dice que no nos perturban las cosas sino nuestros juicios sobre ellas, y toda la última libertad de Frankl cabe dentro de esa frase. Dieciocho siglos separan las dos formulaciones.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Su tesis central",
+          frase: "Lo que mueve a una persona no es buscar placer ni evitar dolor, sino encontrar una razón para lo que hace.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Enumera tres caminos para encontrar sentido y ninguno es introspectivo. El primero es hacer algo, crear una obra o realizar un acto; el segundo es experimentar algo o encontrar a alguien, que es la vía del amor; el tercero es la actitud ante un sufrimiento inevitable.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El orden de esos tres caminos no es casual. El primero está al alcance de cualquiera que pueda trabajar, el segundo de cualquiera que pueda querer a alguien, y el tercero queda reservado para cuando ya no queda ninguno de los otros dos. El tercero es el del campo de concentración.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda vía, la del amor, la explica con una escena del campo. Cuenta que una madrugada, caminando en la nieve hacia el trabajo, se puso a hablar mentalmente con su mujer, sin saber si estaba viva, y que aquella conversación imaginaria le sostuvo el día.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De aquella escena sale una de sus frases más citadas. Escribe que entendió entonces por qué la poesía y la religión llevan siglos diciendo que el amor es la meta última, y que un hombre puede ser feliz un momento contemplando a alguien que no está.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El tercer camino es el que se malinterpreta siempre. Frankl no dice que sufrir tenga valor: dice que cuando el sufrimiento no se puede evitar, todavía queda una decisión sobre cómo se lleva, y que esa decisión es lo último que se le puede quitar a alguien.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También describe un malestar que en 1946 casi no tenía nombre. Lo llama vacío existencial, y lo define como la sensación de que nada de lo que uno hace importa, que aparece sobre todo cuando se acaban las obligaciones y queda tiempo libre. Hoy ese vacío tiene mil nombres distintos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A su versión semanal la bautizó con un nombre que hizo fortuna. La neurosis del domingo: ese decaimiento que aparece cuando se para la máquina de la semana y el vacío que tapaba el trabajo se queda a la vista durante unas horas. La expresión se sigue usando sin citarle.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De la parte clínica salieron dos técnicas concretas que se siguen usando. La primera se llama intención paradójica y consiste en pedirle al paciente que intente provocar a propósito exactamente aquello que teme, para romper el círculo del miedo al síntoma. Ninguna de las dos exige creer nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La lógica de esa técnica es sencilla y contraintuitiva. Si el problema es el miedo a que ocurra algo, y ese miedo es justo lo que lo provoca, pedir que ocurra a propósito rompe el círculo porque desactiva la vigilancia que lo alimentaba. Funciona sobre todo con fobias e insomnio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea se parece bastante a lo que hacen hoy las terapias de exposición. La diferencia está en el tono: Frankl proponía además hacerlo con humor, pidiendo al paciente que exagerara el síntoma hasta lo ridículo para poder reírse de él. El humor era para él una herramienta clínica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que la logoterapia no sustituye a nada. Frankl insistía en que su método era un complemento y no un reemplazo de la psiquiatría, y en que una depresión con base biológica se trata con medicación y no con conversaciones sobre el sentido. Recetar sentido a un enfermo grave sería negligencia.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ejemplo clásico es el insomnio. Alguien que lleva meses sin dormir por miedo a no dormir recibe la instrucción de meterse en la cama e intentar quedarse despierto toda la noche, y la ansiedad que lo mantenía en vela se desmonta sola. Casi todos sus pacientes dormían a los pocos días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda técnica la llamó desreflexión.",
+        },
+        {
+          forma: "clave",
+          rotulo: "En qué consiste",
+          frase: "Dejar de vigilarse. Hay cosas, como dormir o la felicidad, que solo aparecen cuando se deja de mirarlas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos técnicas siguen apareciendo en manuales de terapia actuales.",
+        },
+      ],
+    },
+    {
+      titulo: "Tercera parada: lo que no dice y donde se le discute",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Conviene empezar precisando cuánto tiempo estuvo dónde, porque casi siempre se cuenta mal. Frankl pasó dos años y medio en campos, la mayor parte en el gueto de Theresienstadt, y su paso por Auschwitz duró unos pocos días antes de que lo enviaran a un campo de trabajo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese dato lo estableció un biógrafo suyo revisando los archivos. Los registros de traslados muestran que llegó a Auschwitz en octubre de 1944 y salió enseguida hacia un campo de trabajo de Baviera, donde pasó los últimos meses hasta la liberación. Los papeles alemanes de traslado se conservan.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella biografía levantó bastante polémica cuando salió. Su autor documentó fechas y traslados con los registros alemanes, y aunque nadie discute lo esencial del testimonio, sí quedó claro que la imagen difundida por editoriales y conferencias era más simple que los hechos. El autor la publicó ya en este siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene separar dos cosas que suelen mezclarse en esa discusión. Una es si el testimonio del campo es fiable, y nadie serio lo pone en duda; otra es si el envoltorio con el que se ha vendido el libro durante setenta años es exacto. Nadie discute lo primero; lo segundo sí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Eso no reduce nada de lo que cuenta, pero cambia el marco. La imagen popular es la de un hombre que pasó años en Auschwitz observando, y lo que hay detrás es un psiquiatra que estuvo dos años y medio preso en varios sitios y unos días en el más conocido.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La objeción de fondo es más seria y tiene nombre técnico. Es el sesgo de supervivencia: el libro lo escribe uno de los que salieron, y la conclusión sobre qué ayudaba a aguantar se saca únicamente del grupo de los que llegaron vivos al final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese sesgo aparece en cualquier estudio hecho solo con supervivientes. Si se pregunta a los que llegaron al final qué les ayudó, sus respuestas describen a los que llegaron, y no se puede saber cuántos tenían lo mismo y no llegaron. Faltan siempre los que no llegaron a contarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Es el mismo problema que tienen los libros de empresarios de éxito. Si solo se entrevista a quien llegó, cualquier costumbre que compartan parecerá la causa, y no hay manera de comprobarlo sin mirar también a los que hicieron lo mismo y fracasaron. El denominador nunca aparece en esos libros.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "De ahí sale la manera honesta de leer este libro. No como un método para sobrevivir a nada, sino como el testimonio de un médico que se puso a observar en el peor sitio posible y anotó lo que vio en la gente de alrededor.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que el propio Frankl escribió sobre eso",
+          frase: "Que los mejores no volvieron, y que quien volvió sabe que su supervivencia no fue un mérito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aun así, la frase se usa como si fuera una receta. La lectura popular dice que quien tiene un porqué sobrevive, y en un campo de exterminio lo que decidía era la selección al bajar del tren, la enfermedad, el destino de trabajo y la suerte pura.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay críticos que van más lejos y le reprochan el tono. Sostienen que convertir aquello en una lección espiritual sobre el crecimiento personal suaviza lo que fue un exterminio industrial, y que el libro se ha usado durante décadas exactamente para eso. La discusión sigue abierta entre historiadores.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El reproche viene sobre todo de estudiosos de la literatura del Holocausto. Sostienen que hay un tipo de relato consolador que el público prefiere, que este libro es el ejemplo mayor de ese tipo, y que esa preferencia deforma lo que se recuerda. Ese tipo de relato vende mucho más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Auschwitz: los nazis y la solución final, de Rees, que está en este catálogo, se construye justo al revés. Es un trabajo de historiador con cientos de entrevistas y documentos, y su objetivo es explicar cómo se organizó aquello, no qué se puede aprender de ello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los dos libros se necesitan y por eso están los dos aquí. Uno explica cómo se llegó a construir aquella maquinaria y quién tomó cada decisión; el otro cuenta qué le pasa por dentro a una persona cualquiera metida en ella durante meses. Leerlos seguidos cambia bastante la impresión.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Si esto es un hombre, de Primo Levi, que anda por este catálogo, es el contrapeso exacto. Levi escribe casi al mismo tiempo, con la misma precisión de científico, y su conclusión no consuela en ningún momento ni ofrece ninguna salida ascendente. Levi se quitó la vida cuarenta años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Precisar lo que este libro no afirma quita bastantes malentendidos. No dice que el sufrimiento sea necesario, y lo escribe con todas las letras: si la causa del sufrimiento se puede quitar, quitarla es lo sensato, y aguantar por aguantar no es heroísmo sino masoquismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa aclaración está en la parte de logoterapia y se cita poco. Frankl escribe que el sufrimiento evitable no tiene ningún valor, que buscarlo es masoquismo y no heroísmo, y que un médico que no intenta quitarlo primero está haciendo mal su trabajo. Casi ningún resumen del libro la recoge.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una frase suya que se repite poco y aclara mucho. Escribió que el sentido de la vida cambia de una persona a otra y de un día a otro, y que por eso no tiene ningún sentido preguntarse por el sentido en abstracto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa idea es la que sostiene su técnica clínica. Si el sentido es distinto para cada uno y cambia con el tiempo, el terapeuta no puede darlo ni recetarlo: solo puede ayudar a que el paciente lo encuentre en su situación concreta. El terapeuta acompaña, no dicta nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tampoco dice que el sentido se invente. Insiste en que no se fabrica sino que se descubre, que está fuera y no dentro, y que la pregunta correcta no es qué espero yo de la vida sino qué espera la vida de mí en esta situación concreta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La segunda mitad tampoco tiene mucho respaldo experimental.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Lo que sí ha aguantado",
+          frase: "Las dos técnicas clínicas y una pregunta que ninguna terapia se había hecho tan de frente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El resto se sostiene por la fuerza del relato, no por los datos.",
+        },
+      ],
+    },
+    {
+      titulo: "Destino: la última de las libertades",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Todo el libro va hacia una frase que aparece a mitad de la primera parte. Dice que al hombre se le puede quitar todo menos una cosa: la última de las libertades humanas, que es elegir la actitud personal ante un conjunto de circunstancias dadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena en la que la coloca es muy concreta. Habla de los presos que recorrían los barracones consolando a otros y dando su último trozo de pan, y dice que fueron pocos, pero que bastaron para demostrar que aquello se podía elegir. Frankl no dice cuántos fueron exactamente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El énfasis en que fueron pocos es deliberado. Frankl insiste en que aquello no era lo normal, y esa insistencia es la que separa su libro de la versión motivacional en la que todo el mundo puede elegir siempre cómo se siente. La versión de cartel se salta ese matiz.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otra frase suya del mismo tramo que se cita mucho menos. Dice que los mejores no volvieron, que los que volvieron lo saben, y que por eso ningún superviviente debería contar su supervivencia como si fuera una prueba de nada. Volver no fue nunca un mérito propio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa frase es la que ha viajado más lejos y la que peor se cita. Se ha convertido en cartel motivacional, en diapositiva de empresa y en consuelo barato, y su autor la escribió pensando en presos que decidían dar su último trozo de pan a otro.",
+        },
+        {
+          forma: "clave",
+          rotulo: "La cita con la que la acompaña",
+          frase: "«Quien tiene un porqué para vivir puede soportar casi cualquier cómo.»",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene decir de dónde sale esa cita, porque casi nadie lo hace. Es de Nietzsche, pero no de Así habló Zaratustra, que es donde suele situarse, sino de un libro suyo muy posterior y muy breve, escrito en 1888, en una lista de máximas sueltas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro del que sale es el que Nietzsche escribió más deprisa. Lo terminó en unas semanas de 1888, el último año antes de su derrumbe, y consiste en máximas cortas y ataques a filósofos, sin la forma de novela profética del anterior. Aquella máxima ocupa una sola línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los 7 hábitos de la gente altamente efectiva, de Covey, que anda por este catálogo, le atribuye además una frase que nunca escribió. La del espacio entre el estímulo y la respuesta no aparece en ningún libro de Frankl, y hoy se cita como caso de dicho apócrifo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo curioso es que la idea sí es suya, aunque la frase no. Frankl escribió muchas veces que entre lo que le pasa a alguien y su reacción hay un margen de decisión, y alguien lo resumió mejor que él y le puso su firma encima.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Así habló Zaratustra, de Nietzsche, que está en este catálogo, es sin embargo el pariente cercano del libro. Los dos sostienen que hay que inventarse una razón para vivir sin garantías externas, y los dos desconfían de la felicidad como objetivo directo. Nietzsche murió cuarenta y cinco años antes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El mito de Sísifo, de Camus, que anda por este catálogo, es la respuesta contraria escrita cuatro años antes. Camus sostiene que no hay ningún sentido que encontrar y que aun así hay que vivir; Frankl sostiene que el sentido está ahí y que la tarea es dar con él.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La diferencia entre los dos está en una preposición. Camus dice que hay que vivir sin sentido; Frankl dice que hay que vivir buscándolo, y los dos coinciden en que rendirse no es una respuesta aceptable a la falta de garantías. Ninguno de los dos ofrece garantías.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El extranjero, de Camus, que también está en este catálogo, lleva esa postura a un personaje. Meursault no busca ningún sentido y no finge sentir lo que no siente, y ese es exactamente el tipo de hombre que Frankl consideraría enfermo. Meursault acaba condenado por no llorar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar que Frankl no niega el absurdo. Admite que hay situaciones sin ninguna explicación posible y momentos en que no se ve ningún sentido; su tesis es que en esos momentos la tarea consiste en actuar como si lo hubiera hasta encontrarlo. Actuar primero y entender después, dice.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También discute, sin nombrarlo casi, con el existencialismo francés de su época. Para Sartre el hombre se inventa a sí mismo y sus valores; para Frankl eso es imposible, porque un sentido que uno mismo se fabrica no sostiene nada cuando aprieta de verdad. Sartre publicó su conferencia el mismo año.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Lo que vino después fue una vida larga y muy trabajada. Frankl volvió a dar clase en Viena, publicó una treintena de libros, dio conferencias por medio mundo hasta pasados los ochenta y siguió pasando consulta casi hasta el final. Dio clase en Viena hasta muy mayor.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La logoterapia se extendió más de lo que suele contarse. Hay institutos con su nombre en varios continentes, se enseña en facultades de psicología y su influencia se nota en las terapias que hoy trabajan con valores y con compromiso personal. El primer instituto se abrió en California.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su influencia se nota sobre todo en un sitio concreto. Las terapias que hoy trabajan con valores personales y con el compromiso de actuar según ellos, en vez de con la eliminación de los síntomas, están mucho más cerca de Frankl que de Freud. Ninguna de esas escuelas le cita mucho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Y ahí termina el viaje que empezó con un trozo de mármol encima de una mesa. Un médico de treinta y seis años renunció a salvarse para quedarse con sus padres, perdió a casi toda su familia y escribió en nueve días el libro que iba a publicar sin firma.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se sacó el carné de piloto a los sesenta y siete años y escalaba montañas hasta bien mayor. Murió en Viena en 1997, a los noventa y dos, y para entonces el libro llevaba ya décadas apareciendo en las listas de los más influyentes. Nunca dejó de subir a los Alpes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se han vendido más de dieciséis millones de ejemplares.",
+        },
+        {
+          forma: "clave",
+          rotulo: "De dónde sale lo de libro influyente",
+          frase: "De una encuesta a lectores estadounidenses de 1991, hecha por un club de lectura con la Biblioteca del Congreso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro que iba a salir sin firma acabó siendo el más leído de su autor.",
         },
       ],
     },
