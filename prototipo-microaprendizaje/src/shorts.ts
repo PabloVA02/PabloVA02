@@ -1,6 +1,10 @@
 import { CATASTROFES } from "./historias/catastrofes";
+import { COCINA } from "./historias/cocina";
+import { COSMOS } from "./historias/cosmos";
 import { CRIMEN } from "./historias/crimen";
+import { CUERPO } from "./historias/cuerpo";
 import { FIGURAS } from "./historias/figuras";
+import { PALABRAS } from "./historias/palabras";
 
 /* ==========================================================================
    Shorts: historias sueltas de dos minutos.
@@ -61,7 +65,8 @@ export type Destacado =
 export type Pagina = {
   /** Rótulo corto, dos o tres palabras: le da al ojo dónde agarrarse. */
   rotulo: string;
-  /** El bloque. Unas 110-130 palabras; admite <strong> y <em>. */
+  /** El bloque. Entre 90 y 115 palabras, que es lo que mide el muro entero;
+      admite <strong> y <em>. */
   texto: string;
   destacado?: Destacado;
 };
@@ -84,6 +89,17 @@ export type Short = {
   /** La frase que remata el título en la portada. Una sola, en voz alta. */
   gancho: string;
   categoria: string;
+  /**
+   * Marca las que son UN DATO y no una historia.
+   *
+   * La diferencia no es de tamaño, es de forma: una historia tiene fechas,
+   * gente y un giro —alguien hizo algo y salió de otra manera—; un dato
+   * curioso es una sola cosa cierta que se sostiene sola y que las tres
+   * páginas se dedican a rodear. Las dos enganchan, pero no se leen igual, y
+   * decirlo en la portada evita la decepción de entrar buscando una cosa y
+   * encontrarse la otra.
+   */
+  curioso?: true;
   /** Color de acento: tiñe el fondo de lectura, el cartel y el progreso. */
   color: string;
   /** La portada, cuando ya hay foto real. Si no, manda `encargo`. */
@@ -117,4 +133,12 @@ function intercala(...grupos: Short[][]): Short[] {
   return salida;
 }
 
-export const SHORTS: Short[] = intercala(FIGURAS, CATASTROFES, CRIMEN);
+export const SHORTS: Short[] = intercala(
+  FIGURAS,
+  COSMOS,
+  CATASTROFES,
+  CUERPO,
+  CRIMEN,
+  PALABRAS,
+  COCINA,
+);

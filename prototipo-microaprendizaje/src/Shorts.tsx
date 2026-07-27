@@ -530,6 +530,7 @@ function Portada({ short }: { short: Short }) {
         initial="hidden"
         animate="shown"
       >
+        {short.curioso && <span className="muro-insignia">Dato curioso</span>}
         {short.categoria} · {MINUTOS} min
       </motion.span>
       <motion.h2 custom={1} variants={enterVariants} initial="hidden" animate="shown">

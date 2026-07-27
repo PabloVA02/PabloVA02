@@ -2355,6 +2355,18 @@ button {
   margin-bottom: 9px;
 }
 
+/* «Dato curioso» va delante de la categoría y en caja, no en color: el color
+   ya lo lleva la línea entera y dos acentos seguidos no se distinguen. */
+.muro-insignia {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 3px 7px 2px;
+  border-radius: 5px;
+  background: var(--acento, var(--ochre));
+  color: var(--night);
+  letter-spacing: 0.08em;
+}
+
 .muro-hoja h2 {
   font-size: 26px;
   font-weight: 760;
