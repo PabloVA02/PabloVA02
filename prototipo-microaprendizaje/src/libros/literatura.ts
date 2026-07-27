@@ -3585,118 +3585,635 @@ export const FRANKENSTEIN: Resumen = {
   ano: 1818,
   gancho: "Lo escribió una chica de dieciocho años, de vacaciones, por ganar una apuesta sobre quién contaba la mejor historia de miedo.",
   porQue:
-    "Inventó la ciencia ficción. Y casi todo lo que la gente cree saber de esta historia por las películas está mal.",
+    "Inventó la ciencia ficción, y casi todo lo que la gente cree saber de esta historia viene del teatro y del cine, no del libro.",
   partes: [
     {
-      titulo: "El verano sin sol",
+      titulo: "El verano sin sol en Ginebra",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "En 1816 la erupción del volcán Tambora llenó la atmósfera de ceniza y Europa se quedó sin verano: lluvia y frío durante meses. Un grupo de amigos ingleses alquiló una villa junto al lago de Ginebra y se pasaron las tardes encerrados. Entre ellos estaban lord Byron y una chica de dieciocho años llamada Mary.",
+            "En abril de 1815 estalló en Indonesia el volcán Tambora, en la mayor erupción registrada por escrito. La ceniza dio la vuelta al planeta, bajó la temperatura media casi un grado, y el año siguiente se conoció en Europa y en América como el año sin verano.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella erupción tuvo consecuencias que hoy se estudian como caso climático. Hubo nevadas en junio en Nueva Inglaterra, se perdieron cosechas en media Europa, subió el precio del pan y hubo hambre y motines en varios países durante dos años seguidos. Fue el peor año agrícola del siglo en Europa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquel verano de 1816 llovió sin parar a orillas del lago de Ginebra. Un grupo de ingleses que había alquilado una casa de campo se pasó semanas encerrado, leyendo en voz alta cuentos alemanes de fantasmas junto a la chimenea y sin poder salir a ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La casa se llamaba Villa Diodati y la había alquilado Byron, que era entonces el hombre más famoso de Inglaterra. Los Shelley vivían en una casa más pequeña a unos minutos de allí, y subían cada tarde a cenar y a quedarse hasta la madrugada.",
+        },
+        {
+          forma: "clave",
+          rotulo: "Quiénes estaban allí",
+          frase: "Lord Byron, su médico Polidori, el poeta Percy Shelley, Mary Godwin de dieciocho años y su hermanastra Claire, embarazada de Byron.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Byron había salido de Inglaterra unos meses antes huyendo de un escándalo enorme. Se hablaba de deudas, de su matrimonio roto y de su relación con su hermanastra, y en la práctica no volvería a pisar el país en el resto de su vida. Murió en Grecia ocho años después.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Una noche Byron propuso que cada uno escribiera una historia de miedo. Los dos poetas famosos abandonaron a los pocos días, aburridos; de aquella apuesta salieron en cambio los dos monstruos más duraderos de la literatura moderna, y ninguno lo escribió un poeta. La apuesta la ganó la más joven de la casa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Byron escribió un fragmento sobre un viajero que muere y lo dejó a medias. Percy Shelley empezó algo basado en recuerdos de infancia y lo abandonó enseguida, y los dos volvieron a sus poemas sin darle mayor importancia al juego de aquella noche. Ninguno de los dos volvió sobre aquello.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El médico de Byron, John Polidori, sacó de allí un relato titulado El vampiro. Se publicó en 1819, fijó al vampiro aristocrático y seductor que llegaría hasta Drácula, y para colmo apareció primero firmado por Byron, que tuvo que desmentirlo por carta. Aquel relato fundó un género entero.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La relación entre Byron y su médico era pésima y acabó peor. Polidori tenía veinte años, quería ser escritor y aguantaba humillaciones constantes, y murió en Londres cinco años después, a los veinticinco, arruinado por las deudas de juego. Le pagaban por acompañarlo y por aguantarlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mary tardó varios días en encontrar una idea y lo pasó fatal. Contó después que cada mañana le preguntaban si ya tenía algo y ella tenía que decir que no, y que la humillación de esa pregunta diaria fue lo que la puso a pensar en serio.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El bloqueo duró más de una semana según su propio relato. Ella lo contó quince años después en un prólogo, con el detalle exacto de la pregunta de cada mañana, y ese texto es hoy la única fuente sobre lo que pasó en aquella casa.",
         },
         {
           forma: "arte",
           texto:
-            "Aburridos, Byron propuso un juego: que cada uno escribiera una historia de terror. Los poetas famosos lo abandonaron a los pocos días. Mary tardó en tener una idea, hasta que una noche imaginó a un estudiante arrodillado junto a algo que él mismo había fabricado y que acababa de abrir los ojos.",
+            "La idea le llegó de madrugada, medio dormida, después de una conversación entre Byron y Percy sobre la posibilidad de reanimar materia muerta. Dijo que vio con los ojos cerrados a un estudiante pálido arrodillado junto a la cosa que había ensamblado. La escena de la novela conserva esa imagen casi intacta.",
           arte: "noche",
         },
         {
-          forma: "clave",
-          rotulo: "El dato que sorprende",
-          frase: "Tenía dieciocho años. Se publicó anónimo, y muchos críticos supusieron que lo había escrito su marido.",
+          forma: "texto",
+          texto:
+            "Conviene precisar que ese relato es una reconstrucción posterior. Mary lo escribió en 1831, quince años después, cuando ya sabía que el libro se había hecho famoso, y los diarios de aquel verano no mencionan ninguna noche concreta de revelación. Es un relato reconstruido quince años después de los hechos.",
         },
         {
           forma: "texto",
           texto:
-            "Su vida da para otro libro: hija de una de las primeras feministas de la historia, que murió al darla a luz; se fugó a los dieciséis con un poeta casado; perdió varios hijos. Escribió la novela mientras enterraba a un bebé. Eso está dentro del texto más de lo que parece.",
+            "La conversación que la disparó tenía nombres propios y ciencia real detrás. Hablaban del galvanismo, es decir de los experimentos con electricidad y músculos, y de las especulaciones de Erasmus Darwin, abuelo de Charles, sobre la generación espontánea de la vida. Los dos poetas discutían de ciencia hasta la madrugada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Erasmus Darwin era médico, poeta y naturalista, y había especulado en verso sobre el origen de la vida. Mary lo menciona en el prólogo diciendo que se hablaba de un experimento suyo con un fideo que se movía solo, cosa que él nunca afirmó. La atribución es suya y es falsa.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El galvanismo venía de Luigi Galvani, que en los años ochenta del siglo dieciocho descubrió que una descarga hacía moverse a la pata de una rana muerta. Su sobrino Giovanni Aldini convirtió aquello en espectáculo público por media Europa. El nombre del fenómeno viene de su apellido y se sigue usando.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El descubrimiento fue en parte un accidente de laboratorio. Galvani estaba disecando ranas cerca de una máquina eléctrica, vio saltar una pata al tocarla con el bisturí, y de ahí dedujo que había electricidad dentro del propio tejido animal. De aquella disputa salió después la pila eléctrica de Volta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El espectáculo más famoso de Aldini fue en Londres en enero de 1803. Aplicó electricidad al cadáver recién ahorcado de un asesino llamado George Forster ante un público de médicos y curiosos, y la mandíbula se movió y un ojo llegó a abrirse. El público salió convencido de haber visto revivir a un muerto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquello se contó en los periódicos y llegó a todo el mundo culto de la época. Mary tenía cinco años cuando ocurrió, creció con esa clase de noticias de fondo, y por eso su novela no trata de magia sino de algo que parecía a punto de ocurrir.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El objetivo declarado de Aldini no era el espectáculo sino la medicina. Quería demostrar que la electricidad podía reanimar a un ahogado, y de aquella línea de trabajo salió con el tiempo el desfibrilador que hoy hay en cualquier hospital. La intención era médica y el efecto fue teatral.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Empezó a escribir aquel mismo verano y terminó en mayo de 1817.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Tenía dieciocho años al empezar y diecinueve al acabar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro salió el primero de enero de 1818, sin su nombre en la portada.",
         },
       ],
     },
     {
-      titulo: "Lo que las películas cambiaron",
+      titulo: "La hija que aprendió a leer en una tumba",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Primero, lo evidente: Frankenstein es el nombre del <strong>científico</strong>, no de la criatura. La criatura no tiene nombre en toda la novela, y ese detalle es intencionado — es alguien a quien nadie se molestó en nombrar.",
+            "Mary Godwin nació en 1797 y su madre murió once días después, de una infección de parto. Esa madre era Mary Wollstonecraft, la autora de la Vindicación de los derechos de la mujer, uno de los primeros textos feministas modernos, publicado cinco años antes. Su madre murió sin llegar a conocerla.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Murió de fiebres puerperales, la infección que mataba entonces a muchísimas mujeres después del parto. La causa, unas manos sin lavar, no se entendería hasta cuarenta años más tarde, con los trabajos de Semmelweis en un hospital de Viena. El médico que la atendió se lavaba las manos menos que un carnicero de la época.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su padre era William Godwin, filósofo político famoso por defender que el Estado sobra. La casa estaba llena de libros y de visitas ilustres, y la niña creció leyendo a sus dos padres y sabiendo que su nacimiento había matado a uno de ellos. Creció rodeada de filósofos y de deudas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Godwin volvió a casarse y la casa se llenó de hijos de varios matrimonios. La madrastra no soportaba a Mary y la mandó lejos una temporada, y de aquella casa salió también Claire, la hermanastra que acabaría embarazada de Byron en Ginebra. Fueron dos familias metidas a la fuerza en una.",
         },
         {
           forma: "clave",
-          rotulo: "El error más grande",
-          frase: "No es un monstruo mudo que gruñe. Habla con elegancia, cita a Milton y razona mejor que su creador.",
+          rotulo: "Dónde aprendió a leer",
+          frase: "En el cementerio de Saint Pancras, deletreando el nombre de su madre en la lápida. Allí mismo se citaría después con Percy Shelley.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El cementerio funcionaba entonces como un sitio corriente para pasar la tarde. Mary iba allí a leer y a estar sola desde niña, y a los dieciséis empezó a citarse con Percy junto a esa misma lápida, que sigue existiendo aunque los restos ya no estén.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se fugó con Percy en 1814, cuando ella tenía dieciséis años y él estaba casado. El escándalo la dejó fuera de la sociedad respetable durante años, y su padre, que había escrito contra el matrimonio, dejó de hablarle en cuanto lo hizo en la práctica.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Se llevaron a Claire con ellos y recorrieron Francia y Suiza con muy poco dinero. Volvieron a las seis semanas, endeudados y con Mary embarazada, y desde entonces vivieron cambiando de casa continuamente para esquivar a los acreedores. Aquel viaje de seis semanas lo contaron después los dos en un libro conjunto.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En febrero de 1815 tuvo una hija prematura que murió a los pocos días. En su diario anotó semanas después un sueño: que la niña había vuelto a la vida frotándola delante del fuego, y que al despertar se dio cuenta de que no había ningún bebé.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La niña nació dos meses antes de tiempo y vivió menos de dos semanas. Mary tenía diecisiete años, no había podido despedirse nunca de su propia madre porque no llegó a conocerla, y en el diario apenas escribe frases sueltas durante semanas. No llegó a ponerle nombre en el diario.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa anotación tiene fecha de marzo de 1815 y es anterior al libro. Quien la lee entiende de dónde sale la escena central de la novela, y por qué el asunto de devolver la vida a un cuerpo no era para ella un juego intelectual.",
         },
         {
           forma: "arte",
           texto:
-            "La criatura aprende sola, escondida en un cobertizo, observando durante meses a una familia campesina a la que espía por una rendija. Aprende a hablar oyéndoles, a leer viéndoles enseñar a otra persona, y encuentra tres libros abandonados con los que se forma. Cuando por fin se atreve a presentarse, huyen de él.",
-          arte: "estanteria",
+            "De sus cuatro hijos solo sobrevivió uno. Perdió a la niña prematura, después a Clara con un año, después a William con tres, y esa cadena de muertes atraviesa toda su vida adulta y también su manera de escribir sobre padres e hijos. Enterró a tres antes de cumplir veintiséis años.",
+          arte: "memoria",
         },
         {
           forma: "texto",
           texto:
-            "Tampoco hay laboratorio con rayos, ni ayudante jorobado, ni tornillos en el cuello. Todo eso lo inventó el cine en 1931. Mary Shelley no explica el método: Victor dice que descubrió el secreto de la vida y se niega expresamente a contarlo, para que nadie repita su error.",
+            "El único que sobrevivió fue Percy Florence, nacido en 1819. Llegó a heredar un título y una finca, cuidó de su madre hasta que ella murió en 1851, y fue quien conservó los papeles que hoy permiten reconstruir toda esta historia. Sin él no habría archivo que consultar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mientras terminaba el libro pasó además otra cosa que casi nunca se cuenta. La primera mujer de Percy, Harriet, apareció ahogada en un estanque de Londres en diciembre de 1816, embarazada, y Percy se casó con Mary dos semanas después. Aquella boda le devolvió el trato con su padre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El libro se publicó anónimo, en tres tomos y con una tirada de quinientos ejemplares. Llevaba un prólogo escrito por Percy y una dedicatoria a William Godwin, y esas dos cosas juntas hicieron que medio mundo diera por hecho que el autor era Percy. La confusión duró años y a nadie le extrañó.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El anonimato era normal en la época y no se debía a que fuera mujer. Muchas primeras novelas salían sin firma, incluidas las de autores hombres, pero en este caso la coincidencia del prólogo y la dedicatoria hizo el resto del trabajo. La firma llegó cinco años más tarde.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Walter Scott, que lo reseñó con entusiasmo, se lo atribuyó a Percy sin dudarlo. Otros críticos lo despacharon como una obra absurda y monstruosa, y hubo quien lo consideró un libro peligroso por lo que insinuaba sobre la religión. Ninguno pensó en una autora de veinte años.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El nombre de Mary Shelley no apareció en la portada hasta la edición francesa de 1823. Para entonces Percy llevaba un año muerto, ahogado en un naufragio frente a la costa italiana, y ella tenía veinticinco años y un hijo que mantener. A partir de ahí escribió por dinero y sin parar.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En 1831 publicó una versión revisada que es la que casi todo el mundo lee. La reescribió bastante, suavizó la culpa de Víctor convirtiéndolo en juguete del destino, y añadió la introducción donde cuenta por primera vez la historia del verano de Ginebra. Es la versión que se traduce casi siempre.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese prólogo de 1831 es donde nace todo lo que sabemos del verano de Ginebra. Es un texto excelente y también una operación literaria: Mary tenía treinta y tres años, era viuda y estaba construyendo su propia leyenda con bastante habilidad. Sabía perfectamente lo que estaba haciendo al escribirlo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un cambio de 1831 que conviene conocer porque altera el sentido. En la versión de 1818, Elizabeth es prima carnal de Víctor; en la de 1831 pasa a ser una huérfana adoptada, y con ese retoque desaparece un incesto que estaba en el original.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos versiones se siguen editando y no dicen lo mismo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La de 1818 es más dura y más joven; la de 1831, más resignada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Casi todas las traducciones al español vienen de la segunda.",
         },
       ],
     },
     {
-      titulo: "Quién es el monstruo",
+      titulo: "Lo que el libro no cuenta",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Victor Frankenstein pasa dos años obsesionado, sin dormir ni ver a su familia, hasta lograr dar vida a su criatura. Y en el instante en que abre los ojos, le parece horrible, sale corriendo de la habitación y se va a dormir a otro sitio. Cuando vuelve, se ha ido. No la busca.",
+            "La novela no empieza en un laboratorio sino en un barco atrapado en el hielo del Ártico. Un capitán inglés llamado Robert Walton escribe cartas a su hermana contando que ha recogido a un hombre agotado que venía persiguiendo a alguien por el hielo. Empieza y termina en el hielo del Ártico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa hermana se llama Margaret Saville y no aparece nunca en el libro. Sus iniciales coinciden con las de Mary Shelley antes de casarse, detalle que a los estudiosos les encanta y que puede ser perfectamente una casualidad sin importancia. Es la destinataria muda de todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todo el libro está construido como tres relatos metidos uno dentro de otro. Las cartas del capitán contienen la historia que le cuenta Víctor Frankenstein, y dentro de esa está la historia que la criatura le contó a Víctor en una cabaña de los Alpes.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa estructura de cajas dentro de cajas era moda gótica y aquí tiene función. Cada narrador cuenta su versión y ninguno es fiable del todo, de modo que el lector tiene que decidir por su cuenta quién exagera y quién se está justificando. Ninguno de los tres narradores es de fiar.",
         },
         {
           forma: "clave",
-          rotulo: "El abandono",
-          frase: "El crimen de Victor no es crear vida. Es crearla y salir de la habitación.",
+          rotulo: "El error más repetido",
+          frase: "Frankenstein es el apellido del estudiante que la fabrica. La criatura no tiene nombre en todo el libro.",
         },
         {
           forma: "texto",
           texto:
-            "La criatura pasa meses aprendiendo a ser humana y descubre que su aspecto le condena: los niños gritan, los adultos disparan. Solo un anciano ciego le trata bien, hasta que su familia entra y lo ve. Después de intentarlo todo, la criatura vuelve a buscar a su creador y le pide una sola cosa: una compañera, y desaparecerán juntos.",
+            "La criatura recibe muchos nombres a lo largo del libro y ninguno propio. La llaman demonio, engendro, ser, miserable y desdichado, y esa falta de nombre es exactamente lo que le reprocha a su creador cuando por fin se encuentran cara a cara. Nunca la llaman por un nombre propio.",
         },
         {
           forma: "texto",
           texto:
-            "Victor empieza a fabricarla y después la destruye delante de él, por miedo a que se reproduzcan. A partir de ahí la criatura se dedica a quitarle todo lo que quiere, y el resto de la novela es una persecución mutua hasta el hielo del Ártico.",
+            "La novela nunca explica cómo se le da vida al cuerpo, y eso es una decisión deliberada. Víctor dice de forma explícita que no piensa revelar el procedimiento para que nadie lo repita, y ahí acaba toda la información técnica del libro. Ni una fórmula ni un aparato en todo el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese silencio es lo que ha permitido que el libro sobreviva doscientos años. Si Mary Shelley hubiera detallado un procedimiento, la novela habría caducado con el siguiente descubrimiento, y en cambio el hueco lo rellena cada época con su propia tecnología. El hueco lo rellena cada época con lo suyo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "No hay ninguna tormenta, ningún rayo y ninguna palanca en esa escena. Víctor está solo en su habitación de estudiante en Ingolstadt, en noviembre, con una vela casi consumida, y lo único que se describe es el ojo amarillo que se abre. Toda la escena cabe en media página.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El laboratorio tampoco existe como tal dentro del libro. Víctor trabaja en su cuarto de alquiler y en salas de disección, recoge material en cementerios y mataderos, y lo más parecido a un equipo son unos instrumentos que no se describen nunca. Trabaja de noche y en cuartos alquilados.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su reacción es la que organiza toda la historia y no es la que se recuerda. En cuanto la criatura abre los ojos, Víctor sale corriendo de la habitación, se mete en la cama y se pasa meses enfermo sin volver a preocuparse de lo que ha dejado allí.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Cuando vuelve a su habitación, la criatura ya no está y él se alegra. Pasa después casi dos años sin pensar en el asunto, terminando sus estudios y recuperándose, y en ese tiempo la criatura aprende a hablar y a odiar por su cuenta. Nunca sale a buscarla ni pregunta por ella.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "La criatura no gruñe: habla mejor que casi todos los personajes del libro. Aprende solo, escondido en un cobertizo pegado a la casa de una familia, escuchando cómo enseñan francés a una joven turca recién llegada y espiando por una rendija durante meses. Sus discursos son los mejores párrafos del libro.",
+          arte: "aprendizaje",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La escena de esa educación es larga y es lo mejor de la novela. La criatura pasa un invierno entero pegada a la pared, aprendiendo palabras, sintiendo cariño por gente que no sabe que existe y ayudándoles de noche sin que la vean nunca. Es la parte que las películas no adaptan nunca.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También aprende a leer y encuentra por casualidad tres libros abandonados. Son el Paraíso perdido de Milton, las Vidas paralelas de Plutarco y las penas del joven Werther de Goethe, y con esas tres lecturas se construye una idea del mundo. Con esos tres libros se construye una moral entera.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El Paraíso perdido es el que más le afecta y por una razón concreta. Se identifica con Adán, criado por un dios que sí lo cuidaba, y luego con Satanás, y de ahí sale el epígrafe del libro, donde Adán le pregunta a Dios si acaso pidió ser creado.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El plan de la criatura es tímido y termina fatal. Espera a que el anciano ciego de la familia esté solo para presentarse, porque él no puede verle la cara, y cuando los hijos vuelven a casa lo muelen a palos y la familia se muda al día siguiente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese momento es el eje moral de la novela y dura tres páginas. Habla con el anciano ciego, que lo trata con amabilidad porque no lo ve, y en cuanto entran los que sí pueden verlo se acaba para siempre cualquier posibilidad de vida en común.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "A partir de ahí empieza a matar, y siempre a la gente que Víctor quiere. Primero al hermano pequeño, después incrimina a la criada de la familia, que acaba ahorcada, más adelante al mejor amigo y por fin a Elizabeth la noche de la boda.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En medio de todo eso hay un pacto y una ruptura. La criatura pide una compañera, promete desaparecer con ella al fin del mundo, Víctor empieza a fabricarla y la destruye a medias por miedo a que tengan descendencia, y ahí se decide el final.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El motivo por el que Víctor la destruye está dicho con toda claridad. Teme que la pareja tenga hijos y que nazca una raza que compita con la humana, y esa preocupación por la descendencia es lo único parecido a un cálculo que hace en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La persecución acaba donde había empezado el libro, en el hielo del Ártico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Víctor muere en el barco sin haber pedido perdón a nadie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La criatura llora sobre su cuerpo y se marcha a morir sola.",
         },
       ],
     },
     {
-      titulo: "Por qué sigue importando",
+      titulo: "El monstruo que inventó el teatro",
       tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "Cinco años después de publicarse, la novela llegó a los escenarios de Londres. Una adaptación de 1823 titulada Presunción la convirtió en espectáculo popular, y Mary Shelley fue a verla y escribió a una amiga que le había divertido bastante. El teatro llegó antes que el cine y decidió más.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En apenas tres años se estrenaron más de una decena de adaptaciones distintas. La historia se volvió propiedad del público antes de que su autora cumpliera treinta años, y ninguna de aquellas obras le pagó nada porque la ley no cubría eso. El copyright de la época no protegía las adaptaciones.",
+        },
+        {
+          forma: "clave",
+          rotulo: "El invento de aquella obra",
+          frase: "Al actor no le dieron ni una línea. El monstruo mudo que gruñe y señala nace en un teatro de 1823, no en el libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El actor que lo estrenó se llamaba Thomas Potter Cooke y lo interpretó cientos de veces. Salía pintado de azul, con una túnica corta, y su manera de moverse fijó durante un siglo entero cómo se supone que anda una criatura fabricada. Aquel azul se convirtió en tradición durante décadas.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquella decisión fue práctica y tuvo consecuencias enormes. Un personaje que argumenta durante cincuenta páginas no cabe en una función de dos horas, así que lo convirtieron en presencia física y en amenaza, y así se quedó para siempre. Un monstruo que argumenta no cabe en dos horas de función.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una consecuencia política de ese cambio que se pasa por alto. Un monstruo que argumenta obliga al público a escuchar su queja; uno mudo solo puede dar miedo, y con el silencio desaparece la mitad del libro que acusa a Víctor. Callar al personaje es absolver a su creador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En el programa de mano, el papel de la criatura aparecía marcado con una raya. Ni nombre ni descripción, solo un guion en el sitio donde iría el personaje, y a Mary Shelley ese detalle le pareció una buena manera de decir lo innombrable. Aquel guion decía más que cualquier descripción.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ella lo comentó por carta a una amiga en el verano de 1823. Escribió que aquel guion en el sitio del nombre le parecía muy expresivo, y esa frase suya es la mejor reseña que ha recibido nunca una adaptación de su novela. Le hizo gracia y lo dijo por escrito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La imagen que todo el mundo tiene en la cabeza es de 1931 y de Hollywood. La película de Universal, con Boris Karloff, fijó la cara plana, los párpados pesados, la frente con cicatriz y los dos tornillos que salen del cuello. Casi nada de eso está en la novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Karloff no era una estrella cuando lo contrataron y no aparecía en los créditos de cabecera. En el cartel su nombre se sustituyó por un signo de interrogación, y aquella película lo convirtió de golpe en uno de los actores más reconocibles del mundo. Tenía cuarenta y cuatro años y llevaba veinte de papeles pequeños.",
+        },
         {
           forma: "arte",
           texto:
-            "Está considerada la primera novela de ciencia ficción porque el prodigio no viene de la magia ni de un dios: viene de un hombre con conocimientos, trabajando solo, sin que nadie le supervise. Es la primera vez que la literatura se pregunta qué pasa cuando alguien puede hacer algo antes de haber pensado si debe.",
+            "Esa cara la diseñó un maquillador llamado Jack Pierce y la empresa la registró como propiedad suya. Por eso otras películas de monstruos tienen que dibujarlo distinto: la criatura es de Mary Shelley, pero esa cara concreta tiene dueño legal. La criatura es libre; su cara concreta, no.",
           arte: "museo",
         },
         {
+          forma: "texto",
+          texto:
+            "El maquillaje tardaba entre tres y cuatro horas cada mañana. Llevaba plataformas en los zapatos, un traje acolchado y unas piezas rígidas en las piernas, y el peso total rondaba los treinta kilos que Karloff arrastraba durante todo el día de rodaje. Perdió varios kilos durante el rodaje por el peso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Los tornillos del cuello no son tornillos y casi nadie lo sabe. En el diseño original son electrodos, es decir bornes por donde entraría la corriente, y forman parte de una explicación eléctrica que en el libro no aparece por ninguna parte. En el libro no hay electricidad por ninguna parte.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La cabeza plana tiene la misma lógica dentro de aquella película. Pierce decidió que un cirujano abriría el cráneo por arriba con un corte recto y lo volvería a cerrar con grapas, y por eso la frente parece una tapa mal puesta. Toda esa anatomía es invención del maquillador.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La frase que se grita en la película tampoco está en la novela. Está viva, repetido tres veces por el doctor mientras la camilla baja del techo, es de guion cinematográfico de 1931 y se cita constantemente como si fuera de Mary Shelley. Se le atribuye a Mary Shelley constantemente.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay además una parte censurada de esa escena que casi nadie ha visto entera. En el estreno el doctor añadía que ahora sabía lo que se siente siendo Dios, la frase se cortó por blasfema durante décadas y solo se recuperó en los años ochenta.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El ayudante jorobado es otra invención pura del cine. En la película de 1931 se llama Fritz, el nombre Ygor aparece en una secuela de 1939 y corresponde a un herrero con el cuello roto, y ninguno de los dos existe en el libro. No hay ningún ayudante en toda la novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "También es de guion el gag del cerebro equivocado. La idea de que el ayudante roba por error un cerebro anormal explica el comportamiento de la criatura de una forma que la novela rechaza expresamente, porque allí nace inteligente y se vuelve violenta después. El libro dice lo contrario con todas las letras.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El detalle del frasco con la etiqueta es de una comicidad involuntaria. En la película el ayudante deja caer el cerebro bueno y se lleva el otro, y esa escena tonta ha determinado cómo entiende el personaje casi todo el mundo desde entonces. Una escena tonta que ha durado un siglo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ese cambio no es un detalle de atrezo: le da la vuelta a la tesis. Si el monstruo es malo por tener un cerebro defectuoso, el problema es biológico; si es malo porque lo abandonaron y lo apalearon, el problema es de quien lo hizo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El color verde de la piel viene del cartel y no de la película. Los carteles se imprimieron en verde para que destacaran, la película es en blanco y negro, y el maquillaje real era gris azulado para que la cámara lo viera cadavérico. La película que todos citan es en blanco y negro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Ninguna de estas cosas está en la novela de 1818.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Todas están en la cabeza de casi cualquier persona que la mencione.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Pocas historias han sido tan tapadas por su propia fama.",
+        },
+      ],
+    },
+    {
+      titulo: "Quién abandonó a quién",
+      tarjetas: [
+        {
+          forma: "texto",
+          texto:
+            "El subtítulo del libro es El moderno Prometeo y conviene leerlo entero. Prometeo robó el fuego a los dioses para dárselo a los hombres y fue castigado eternamente, y en algunas versiones del mito es además quien fabrica a los humanos con barro. El título completo lleva las dos partes del mito.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Percy Shelley estaba escribiendo por entonces su propia obra sobre el mismo mito. Publicó en 1820 un poema largo titulado Prometeo liberado, de modo que en aquella pareja el asunto se discutía en casa y el subtítulo no tiene nada de casual. El mito se discutía en aquella casa todos los días.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las dos mitades del mito están en la novela y por eso el título funciona. Víctor roba un poder que no le corresponde y fabrica a un ser con materia muerta, y el castigo que recibe consiste en sobrevivir a todos los que quería. Sobrevive a todos y ese es el castigo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay una diferencia importante con el mito que el libro subraya. Prometeo roba el fuego para dárselo a los hombres, por generosidad; Víctor fabrica a la criatura para su propia gloria, y ese egoísmo es lo que convierte la historia en tragedia. Prometeo da; Víctor se sirve.",
+        },
+        {
           forma: "clave",
-          rotulo: "La pregunta de 1818",
-          frase: "No es si podemos crear algo nuevo. Es si estamos dispuestos a hacernos cargo de ello después.",
+          rotulo: "El verdadero delito",
+          frase: "No es fabricarlo. Es echar a correr al verlo abrir los ojos y no volver a hacerse cargo de él nunca.",
         },
         {
           forma: "texto",
           texto:
-            "Se cita constantemente en los debates sobre inteligencia artificial y biotecnología, y casi siempre mal: se usa como advertencia contra crear cosas. La novela dice algo más incómodo — el desastre no lo provoca la creación sino el abandono, y la criatura se vuelve violenta después de agotar todas las formas de pedir ayuda.",
+            "La criatura se lo dice a la cara cuando se encuentran en el glaciar. Le recuerda que debería ser su Adán y que en cambio se ha convertido en su ángel caído, y le echa en cara no la existencia sino la falta de cuidado después de dársela.",
         },
         {
           forma: "texto",
           texto:
-            "Como lectura tiene sus peajes: es de 1818, con prosa densa, cartas dentro de cartas y personajes que sueltan discursos larguísimos. La parte del principio en el barco se hace lenta. Merece la pena aguantar hasta que habla la criatura, porque ahí el libro se vuelve otra cosa.",
+            "El libro sostiene esa idea con una insistencia que hoy sorprende. La criatura empieza siendo amable, ayuda en secreto a la familia del cobertizo recogiéndoles leña, y solo se vuelve asesina después de que todos los humanos que ve la rechacen a golpes. Nace bueno y lo vuelven monstruo a golpes.",
         },
         {
           forma: "texto",
           texto:
-            "La novela está construida como muñecas rusas: un explorador escribe cartas a su hermana contando lo que le contó Victor, que a su vez reproduce lo que le contó la criatura. Tres voces encajadas, y ninguna imparcial. Ese montaje obliga al lector a decidir a quién cree, y es la razón por la que dos personas pueden terminar el libro con veredictos opuestos sobre quién tiene la culpa.",
+            "Hay una prueba clarísima de que la crueldad es aprendida. La criatura salva de ahogarse a una niña en un río, y el hombre que llega detrás le pega un tiro por toda respuesta, y ese es el momento exacto en que decide odiar a la especie entera.",
         },
         {
           forma: "texto",
           texto:
-            "Mary Shelley publicó una segunda edición en 1831 con cambios notables: suavizó a Victor, reforzó la idea del destino y añadió un prólogo contando el origen del libro. La mayoría de ediciones actuales usan esa versión, más resignada; la de 1818 es más cruda y responsabiliza mucho más a su protagonista.",
+            "La lectura habitual del libro, que trata de la soberbia científica, es posterior. Se impuso en el siglo veinte con la bomba atómica y la ingeniería genética de fondo, y encaja mucho mejor con la película de 1931 que con las páginas de la novela.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "El propio nombre se ha convertido en prefijo para todo eso. Se habla de frankenciencia y de monstruos de laboratorio cada vez que aparece una técnica nueva, y esa asociación automática dice más de nuestros miedos que del libro de 1818. Dice más de nosotros que del libro.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Conviene precisar qué no dice el libro, porque se le atribuye con frecuencia. No dice que la ciencia sea mala, no condena la curiosidad, y el propio capitán del barco, que también persigue un descubrimiento peligroso, decide volver a casa y es tratado con respeto.",
+        },
+        {
+          forma: "arte",
+          texto:
+            "Leído como una historia de paternidad, el libro cambia por completo. Una mujer que mató a su madre al nacer y que enterró a tres hijos escribe sobre alguien que crea una vida y sale corriendo, y esa lectura explica cada escena importante del libro.",
+          arte: "escritor",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay un detalle biográfico que refuerza esa lectura hasta lo incómodo. Mientras escribía, su compañero Percy tenía dos hijos abandonados con su primera mujer, y ella misma había perdido ya a una hija a la que no consiguió mantener con vida. El abandono no era para ella un asunto teórico.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Aquí conviene decir dónde flojea, porque el libro tiene costuras muy visibles. El tercio central avanza a base de casualidades enormes, empezando por la familia del cobertizo, que casualmente está enseñando un idioma en voz alta justo al lado de la criatura. Las costuras del libro se ven bastante.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Hay otra casualidad todavía peor un poco más adelante. La criatura descubre quién la fabricó porque encuentra el diario de Víctor en el bolsillo del abrigo que cogió al huir del laboratorio, escrito con todos los detalles del proceso. Con el proceso entero descrito paso a paso.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Víctor tampoco ayuda como protagonista y muchos lectores lo detestan. Se desmaya, enferma, se lamenta durante páginas enteras, calla cuando su silencio manda a la horca a una inocente, y no toma una sola decisión útil en toda la novela. Se pasa media novela enfermo en la cama.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Su mayor infamia es el juicio de Justine y el libro no lo disimula. Sabe perfectamente quién ha matado a su hermano pequeño, asiste al proceso, ve cómo condenan a una inocente y no dice nada por miedo a que lo tomen por loco. Calla y deja que la ahorquen.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Las mujeres del libro están ahí sobre todo para morirse. Elizabeth espera, Justine es ejecutada por un crimen que no cometió, la madre muere pronto, y la hermana del capitán, a quien va dirigido el libro entero, no dice ni una palabra. Ninguna de ellas decide nada.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Esa última ausencia tiene algo de involuntariamente perfecto. Toda la novela son cartas a una mujer que nunca responde, escritas por hombres que se explican largamente entre ellos, y la única que podría juzgarlos se queda fuera del texto. Los hombres se explican entre ellos y ella no contesta jamás una sola línea.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "En este catálogo conversa directamente con Un mundo feliz. Huxley imagina la fabricación de personas como política de Estado y con manual; Shelley la imagina como capricho privado de un estudiante, y las dos preguntan qué le debemos a lo que hemos hecho. Las dos preguntan qué le debemos a lo que fabricamos.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "La palabra que hoy más se usa de aquí es un invento de 1992. Un profesor de literatura llamado Paul Lewis escribió a un periódico llamando comida Frankenstein a los alimentos modificados genéticamente, y de ahí salió una etiqueta que dio la vuelta al mundo.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Mary Shelley llamó al libro, en su prólogo de 1831, su horrenda progenie.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Le dijo que fuera y prosperara, con el cariño de quien sabe lo que ha hecho.",
+        },
+        {
+          forma: "texto",
+          texto:
+            "Doscientos años después, sigue siendo lo que más gente conoce sin haberlo leído.",
         },
       ],
     },
