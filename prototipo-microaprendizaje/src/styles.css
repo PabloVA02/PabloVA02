@@ -1341,6 +1341,9 @@ button {
   flex: 1;
   min-height: 0;
   overflow-y: auto;
+  /* Sin esto, un rótulo que asome un pelo por el costado ensancha el lienzo
+     y la meta —que va al 50%— deja de estar en el centro de la pantalla. */
+  overflow-x: hidden;
   scrollbar-width: none;
   padding-bottom: 20px;
 }
@@ -1348,37 +1351,57 @@ button {
 
 .camino-lienzo { position: relative; width: 100%; }
 
+.camino-cielo,
 .camino-trazo {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
 }
+.camino-cielo { pointer-events: none; }
 
 .nodo-hueco {
   position: absolute;
   transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 128px;
+  display: grid;
+  place-items: center;
+  width: 78px;
+  height: 78px;
 }
 
 /* Botón elevado: el reborde inferior más oscuro da el relieve sin sombras
-   difusas, que a este tamaño se ven sucias. */
+   difusas, que a este tamaño se ven sucias. Al pulsar, el botón baja y el
+   reborde se encoge lo mismo que ha bajado — si solo bajase, el conjunto se
+   leería como que resbala, no como que se hunde. */
 .nodo {
   position: relative;
-  width: 66px;
-  height: 66px;
+  width: 68px;
+  height: 68px;
   border-radius: 999px;
+  padding: 0;
+  border: 0;
   display: grid;
   place-items: center;
   font-size: 22px;
   font-weight: 750;
   color: var(--ink);
-  background: rgba(242, 236, 225, 0.14);
-  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.32);
+  /* Opaco a propósito, no un blanco al 14%: translúcido dejaba ver el trazo
+     pasando por dentro del nodo y parecía un agujero. Es `--night` con ese
+     14% de papel ya mezclado. */
+  background: #433d4a;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.36);
   z-index: 2;
+}
+
+/* Brillo de arriba: da la curvatura de la ficha sin usar un degradado, que
+   sobre el fondo de noche siempre se ve sucio. */
+.nodo-cara {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.28), inset 0 -6px 0 rgba(0, 0, 0, 0.1);
 }
 
 .nodo[data-estado="bloqueado"] {
@@ -1386,21 +1409,24 @@ button {
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.24);
   cursor: default;
 }
+.nodo[data-estado="bloqueado"] .nodo-cara {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.09);
+}
 
 .nodo[data-estado="actual"] {
-  width: 76px;
-  height: 76px;
-  font-size: 25px;
-  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.34);
+  width: 78px;
+  height: 78px;
+  font-size: 26px;
+  box-shadow: 0 7px 0 rgba(0, 0, 0, 0.38);
 }
 
 .nodo-aro {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 76px;
-  height: 76px;
-  margin: -38px 0 0 -38px;
+  width: 78px;
+  height: 78px;
+  margin: -39px 0 0 -39px;
   border-radius: 999px;
   border: 3px solid;
   pointer-events: none;
@@ -1408,16 +1434,20 @@ button {
 }
 
 .nodo-globo {
-  margin-bottom: 9px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 11px;
   padding: 6px 15px;
   border-radius: 999px;
   background: var(--paper);
   color: var(--ink);
   font-size: 12.5px;
   font-weight: 750;
-  letter-spacing: 0.02em;
-  position: relative;
-  z-index: 3;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+  z-index: 4;
 }
 .nodo-globo::after {
   content: "";
@@ -1432,13 +1462,31 @@ button {
   transform: rotate(45deg);
 }
 
-.nodo-rotulo { margin-top: 9px; }
+/* El rótulo al costado, nunca debajo: debajo se comía el trazo y el nodo
+   siguiente, que es lo que hacía que el camino pareciese roto. */
+.nodo-rotulo {
+  position: absolute;
+  top: 50%;
+  width: 118px;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+.nodo-rotulo[data-lado="izq"] { right: 100%; margin-right: 12px; text-align: right; }
+.nodo-rotulo[data-lado="der"] { left: 100%; margin-left: 12px; text-align: left; }
+
+.nodo-paso {
+  margin: 0 0 3px;
+  font-size: 9.5px;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(242, 236, 225, 0.34);
+}
 
 .nodo-nombre {
   margin: 0;
   font-size: 12px;
   line-height: 1.28;
-  text-align: center;
   color: rgba(242, 236, 225, 0.82);
   letter-spacing: -0.005em;
 }
@@ -1450,31 +1498,93 @@ button {
   margin: 3px 0 0;
   font-size: 10.5px;
   line-height: 1;
-  text-align: center;
   color: rgba(242, 236, 225, 0.42);
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.01em;
 }
 .nodo-min[data-bloqueado="true"] { color: rgba(242, 236, 225, 0.24); }
 
+/* --- Los adornos del camino: figura y cofre ---
+   `.camino-adorno` solo coloca y `.adorno-vaiven` solo anima: si se juntan,
+   el transform que escribe framer borra el centrado. */
+
+.camino-adorno {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1;
+}
+.adorno-vaiven {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.figura-peana,
+.cofre-peana {
+  position: absolute;
+  bottom: -12px;
+  width: 74px;
+  height: 15px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.34);
+}
+.cofre-peana { width: 58px; height: 12px; bottom: -8px; }
+
+.figura-medallon {
+  width: 84px;
+  height: 84px;
+  border-radius: 999px;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.3), inset 0 2px 0 rgba(255, 255, 255, 0.22);
+}
+.figura-medallon svg { width: 100%; height: 100%; display: block; }
+
+.cofre-caja {
+  width: 56px;
+  height: 56px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  background: rgba(242, 236, 225, 0.11);
+  color: rgba(242, 236, 225, 0.42);
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.28), inset 0 2px 0 rgba(255, 255, 255, 0.12);
+}
+.camino-adorno[data-abierto="true"] .cofre-caja {
+  background: rgba(242, 236, 225, 0.2);
+}
+
+/* Se centra con left/right y no con translateX por lo mismo que los adornos:
+   la meta también es un motion.div y su transform lo escribe framer. */
 .camino-meta {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 7px;
+  gap: 9px;
+}
+.meta-destello {
+  position: absolute;
+  top: 0;
+  width: 62px;
+  height: 62px;
+  border-radius: 999px;
+  border: 3px solid;
+  pointer-events: none;
 }
 .meta-copa {
-  width: 54px;
-  height: 54px;
+  width: 62px;
+  height: 62px;
   border-radius: 999px;
   display: grid;
   place-items: center;
-  font-size: 22px;
   background: rgba(242, 236, 225, 0.1);
   color: var(--ochre);
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.26), inset 0 2px 0 rgba(255, 255, 255, 0.14);
 }
 .camino-meta p {
   margin: 0;
@@ -1482,6 +1592,7 @@ button {
   font-weight: 650;
   color: rgba(242, 236, 225, 0.5);
 }
+.camino-meta[data-entero="true"] p { color: rgba(242, 236, 225, 0.78); }
 
 /* --------------------------------------------------------------------------
    Introducción

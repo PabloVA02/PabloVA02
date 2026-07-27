@@ -188,3 +188,29 @@ export function GlyphCandado() {
     </svg>
   );
 }
+
+/* El cofre del camino. La tapa es un arco elíptico y no medio círculo: a este
+   tamaño el medio círculo se lee como una burbuja, no como una tapa. */
+export function GlyphCofre({ tamano = 26 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      <path d="M3.6 10.6 V18.6 A1.6 1.6 0 0 0 5.2 20.2 H18.8 A1.6 1.6 0 0 0 20.4 18.6 V10.6" {...trazo} />
+      <path d="M3.6 10.6 A 8.6 6.4 0 0 1 20.4 10.6" {...trazo} />
+      <path d="M3.6 10.6 H20.4" {...trazo} />
+      <path d="M10.4 10.6 H13.6 V13.8 H10.4 Z" {...trazo} />
+    </svg>
+  );
+}
+
+/** La copa de la meta: solo aparece cuando el libro está entero. */
+export function GlyphTrofeo({ tamano = 26 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      <path d="M7.5 4 H16.5 V8.6 A4.5 4.5 0 0 1 7.5 8.6 Z" {...trazo} />
+      <path d="M7.5 5.2 H5.2 A2.3 2.3 0 0 0 7.7 7.9" {...trazo} />
+      <path d="M16.5 5.2 H18.8 A2.3 2.3 0 0 1 16.3 7.9" {...trazo} />
+      <path d="M12 13.1 V16.2" {...trazo} />
+      <path d="M9 16.2 H15 L16.1 19.8 H7.9 Z" {...trazo} />
+    </svg>
+  );
+}
