@@ -1,0 +1,120 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   Mapas.
+
+   Un mapa es la única mentira que todo el mundo acepta sin discutir, porque
+   la Tierra es curva y el papel no, y no hay manera de aplanar una esfera sin
+   romper algo. Toda proyección elige qué estropear.
+
+   La regla del tema: la historia empieza por lo que el mapa hace bien —para
+   eso se diseñó— y solo después cuenta el precio. Mercator no es un error:
+   es la única proyección donde una línea recta es un rumbo constante, y por
+   eso los barcos la querían. Que Groenlandia salga enorme es la factura.
+
+   Va bien con lo que no está: islas fantasma, meridianos que alguien votó,
+   fronteras trazadas por gente que nunca pisó el sitio. El mapa como
+   documento de quién mandaba cuando se dibujó.
+   ========================================================================== */
+
+export const MAPAS: Short[] = [
+  {
+    id: "groenlandia-mercator",
+    titulo: "Groenlandia no es del tamaño de África",
+    gancho: "En el mapa parecen iguales. África es catorce veces más grande.",
+    categoria: "Mapas",
+    color: "var(--sage)",
+    curioso: true,
+    encargo: "Un planisferio Mercator antiguo, papel amarillento, sin rótulos legibles.",
+    entrada:
+      "En el mapa que cuelga en casi todas las aulas del mundo, Groenlandia ocupa aproximadamente lo mismo que el continente africano. En la realidad, África mide unos 30 millones de kilómetros cuadrados y Groenlandia poco más de dos. La diferencia no es un fallo de imprenta: es el precio exacto que se pagó por un mapa que servía para navegar.",
+    paginas: [
+      {
+        rotulo: "El trato",
+        texto:
+          "Gerardus Mercator publicó su proyección en 1569 con un objetivo muy concreto: que un rumbo de brújula constante se dibujara como una línea recta. Para conseguirlo hay que estirar el mapa hacia los polos, y hay que estirarlo en las dos direcciones a la vez para que las formas locales no se deformen. El resultado es que cada país conserva su silueta reconocible y pierde por completo su tamaño relativo. El estiramiento crece según te alejas del ecuador y se vuelve infinito en los polos, razón por la cual en un Mercator la Antártida no cabe y se recorta.",
+        destacado: { tipo: "cifra", cifra: "14x", unidad: "más grande es África que Groenlandia" },
+      },
+      {
+        rotulo: "Quién sale ganando",
+        texto:
+          "Las consecuencias no se reparten igual. Los países ecuatoriales —casi toda África, Indonesia, Brasil, la India— salen pequeños; los del norte de Europa y Norteamérica salen inflados. Alaska parece del tamaño de Brasil y cabe cinco veces dentro. Ese sesgo se ha discutido mucho desde los años setenta, cuando el historiador Arno Peters lo denunció y promovió una proyección alternativa que respeta las áreas a costa de deformar las formas hasta lo desagradable. La discusión sigue abierta y no tiene solución limpia, porque no existe ningún mapa plano que conserve a la vez áreas, formas y distancias.",
+        destacado: {
+          tipo: "frase",
+          frase: "No hay mapa honesto. Solo hay mapas que confiesan qué mienten.",
+        },
+      },
+      {
+        rotulo: "Lo que queda",
+        texto:
+          "La ironía es que Mercator ganó la partida por un motivo que no tiene nada que ver con la geografía: los mapas web. Google Maps y casi todos los servicios de cartografía en línea usan una variante llamada Mercator esférico, porque conserva los ángulos y eso permite hacer zoom sin que las calles se tuerzan. Es decir: la proyección de un cartógrafo flamenco del siglo XVI, pensada para barcos de vela, es la que todo el planeta lleva en el bolsillo. Al ampliar sobre una ciudad las distorsiones desaparecen. El problema solo existe cuando se mira el mundo entero de una vez.",
+      },
+    ],
+  },
+
+  {
+    id: "isla-sandy",
+    titulo: "La isla que estuvo en los mapas 136 años",
+    gancho: "Un barco australiano fue a verla en 2012 y encontró 1.400 metros de agua.",
+    categoria: "Mapas",
+    color: "var(--slate)",
+    encargo: "Mar abierto sin costa a la vista, oleaje bajo, cielo cubierto.",
+    entrada:
+      "En noviembre de 2012, el buque oceanográfico australiano <em>Southern Surveyor</em> pasaba por el mar del Coral cuando la tripulación notó algo incómodo: sus cartas náuticas señalaban una isla justo delante y el sonar decía que allí no había fondo hasta mil cuatrocientos metros. Navegaron por encima de ella. La isla llevaba en los mapas desde 1876.",
+    paginas: [
+      {
+        rotulo: "El origen",
+        texto:
+          "La primera anotación conocida la hizo un ballenero británico llamado <em>Velocity</em>, que en 1876 informó de arena y rompientes en aquel punto, entre Australia y Nueva Caledonia. El dato entró en el aviso a navegantes del Almirantazgo y de ahí saltó a las cartas. En cartografía, un error copiado es un error inmortal: nadie vuelve a comprobar lo que ya está impreso, y cada edición nueva se dibuja a partir de la anterior. Sandy Island sobrevivió a la llegada del avión, del satélite y de la cartografía digital, y acabó apareciendo como una mancha negra en Google Earth.",
+        destacado: { tipo: "cifra", cifra: "1876", unidad: "el año en que se anotó por primera vez" },
+      },
+      {
+        rotulo: "La comprobación",
+        texto:
+          "Los franceses, que administran Nueva Caledonia, la habían quitado de sus cartas hacía décadas: sus levantamientos no la encontraban. Pero las bases de datos internacionales seguían arrastrándola, y una isla que existe en un fichero existe en todos los mapas que beben de ese fichero. Lo que hizo el <em>Southern Surveyor</em> fue lo único que zanja estas cosas: ir, mirar y medir. Publicaron el resultado y las bases se corrigieron en semanas. Hay un nombre para esto en el oficio, <em>isla fantasma</em>, y no es raro: en el Pacífico y en el Ártico se han borrado decenas.",
+        destacado: {
+          tipo: "frase",
+          frase: "Un error impreso no se corrige solo. Hay que ir hasta allí.",
+        },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Se especula con que el <em>Velocity</em> viera en realidad una balsa de piedra pómez, esas islas flotantes de roca volcánica ligera que sueltan las erupciones submarinas y que pueden llegar a medir kilómetros y durar meses. Vista desde la cubierta, una balsa así es indistinguible de tierra firme. Si es eso, la tripulación no se inventó nada: vio una isla, apuntó una isla, y la isla se marchó navegando. El caso se ha convertido en el ejemplo de manual de cómo un dato mal comprobado puede vivir siglo y medio dentro de la infraestructura que todos damos por buena.",
+      },
+    ],
+  },
+
+  {
+    id: "meridiano-cero",
+    titulo: "El meridiano cero se votó, y Francia dijo no",
+    gancho: "Ganó Greenwich por 22 votos a 1. París tardó 27 años en rendirse.",
+    categoria: "Mapas",
+    color: "var(--ochre)",
+    encargo: "La línea del meridiano marcada en el suelo del observatorio de Greenwich.",
+    entrada:
+      "El ecuador no lo eligió nadie: está donde la Tierra gira más rápido y no hay discusión posible. El meridiano cero, en cambio, podía estar en cualquier sitio, porque en un planeta que gira no hay ningún punto especial de este a oeste. Así que hubo que decidirlo, y decidirlo significa una sala, unos delegados y una votación.",
+    paginas: [
+      {
+        rotulo: "La votación",
+        texto:
+          "En octubre de 1884, veinticinco países se reunieron en Washington en la Conferencia Internacional del Meridiano. Cada nación marítima había usado el suyo: París, Cádiz, Nápoles, Filadelfia, la isla del Hierro. La propuesta de adoptar Greenwich salió adelante por <strong>22 votos a favor y uno en contra</strong> —Santo Domingo—, con dos abstenciones: Francia y Brasil. El argumento no fue el prestigio, fue la aritmética: en torno a dos tercios del tonelaje mercante del mundo navegaba ya con cartas británicas referidas a Greenwich, y rehacerlas todas costaba una fortuna que nadie quería pagar.",
+        destacado: { tipo: "cifra", cifra: "22-1", unidad: "votos, con Francia absteniéndose" },
+      },
+      {
+        rotulo: "El desaire",
+        texto:
+          "Francia no lo aceptó de inmediato. Siguió usando el meridiano de París en su cartografía y en su hora oficial durante casi tres décadas, y cuando por fin cedió, en 1911, lo hizo por la puerta de atrás: la ley no menciona Greenwich. Define la hora legal francesa como la hora media de París retrasada nueve minutos y veintiún segundos, que es exactamente la hora de Greenwich dicha sin pronunciar la palabra. Es probablemente la manera más elegante que existe de perder una discusión sin admitirlo por escrito, y aguantó así en el boletín oficial durante décadas.",
+        destacado: {
+          tipo: "frase",
+          frase: "Aceptaron la hora de Greenwich sin escribir «Greenwich».",
+        },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Hoy hay una rareza que descoloca a quien va de visita: si se planta uno sobre la línea de latón del observatorio con el móvil en la mano, el GPS no marca cero. Marca unos cien metros de diferencia. No es que el aparato falle ni que la línea esté mal trazada; es que el meridiano de referencia moderno se define respecto al centro de masas de la Tierra, medido por satélite, mientras que el de 1884 se fijó con un telescopio y una plomada, y la plomada se desvía un poco por el relieve del terreno. Dos ceros a cien metros el uno del otro.",
+      },
+    ],
+  },
+];

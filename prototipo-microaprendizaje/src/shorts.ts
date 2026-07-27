@@ -1,9 +1,13 @@
+import { BICHOS } from "./historias/bichos";
 import { CATASTROFES } from "./historias/catastrofes";
 import { COCINA } from "./historias/cocina";
 import { COSMOS } from "./historias/cosmos";
 import { CRIMEN } from "./historias/crimen";
 import { CUERPO } from "./historias/cuerpo";
+import { DINERO } from "./historias/dinero";
 import { FIGURAS } from "./historias/figuras";
+import { INVENTOS } from "./historias/inventos";
+import { MAPAS } from "./historias/mapas";
 import { PALABRAS } from "./historias/palabras";
 
 /* ==========================================================================
@@ -137,8 +141,12 @@ export const SHORTS: Short[] = intercala(
   FIGURAS,
   COSMOS,
   CATASTROFES,
+  BICHOS,
   CUERPO,
+  MAPAS,
   CRIMEN,
   PALABRAS,
+  INVENTOS,
   COCINA,
+  DINERO,
 );
