@@ -33,14 +33,23 @@ export const FIGURAS: Short[] = [
     gancho: "Lo apuñalaron sesenta hombres a la vez. El médico encontró que solo un golpe lo mató.",
     categoria: "Figuras",
     color: "var(--clay)",
+    /* Estaba el busto de los Museos Vaticanos, y el busto ilustra a César; lo
+       que promete el título son las veintitrés puñaladas. El cuadro de
+       Camuccini enseña el asesinato en marcha —el nudo de togas y los puñales
+       en alto— y eso se lee de un vistazo, que es todo el tiempo que tiene una
+       portada en un pase. */
     foto: {
-      archivo: "Gaius Iulius Caesar (Vatican Museum).jpg",
-      autor: "Museos Vaticanos",
+      archivo: "Vincenzo Camuccini - La morte di Cesare.jpg",
+      autor: "Vincenzo Camuccini · Museo di Capodimonte",
       licencia: "Dominio público",
-      foco: "50% 32%",
-      alt: "Busto romano de Julio César en mármol blanco, de tres cuartos.",
+      /* El original es muy apaisado y la acción no está en el centro
+         geométrico: César cae de espaldas con la túnica ocre a la izquierda
+         del eje, y el racimo de brazos armados queda justo encima. El foco
+         apunta ahí y no al medio, donde solo hay pared. */
+      foco: "45% 62%",
+      alt: "El asesinato de Julio César pintado por Camuccini: los conspiradores, en toga blanca, alzan los puñales sobre César, que cae vestido de ocre.",
     },
-    encargo: "Un busto de César en mármol, casi de perfil, sobre fondo oscuro.",
+    encargo: "El asesinato de César con los puñales en alto, encuadrado a plomo sobre la escena.",
     entrada:
       "15 de marzo del 44 a. C. César entra en la curia sin escolta: había disuelto su guardia personal, convencido de que un dictador que necesita guardaespaldas ya ha perdido. Dentro le esperan unos sesenta senadores, muchos de ellos perdonados por él tras la guerra civil. Tarda menos de un minuto en caer, al pie de una estatua de Pompeyo, el enemigo al que había derrotado.",
     paginas: [
