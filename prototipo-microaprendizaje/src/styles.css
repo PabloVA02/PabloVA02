@@ -2521,6 +2521,59 @@ button {
   filter: saturate(0.84) contrast(1.05);
 }
 
+/* Panorámica: la imagen entera dentro del marco en vez de un recorte.
+   `object-position` deja de decidir qué se pierde y pasa a decidir a qué
+   altura se apoya la banda; en `figuras.ts` va al 15 %, arriba del todo, que
+   es donde el cuadro no estorba al texto.
+
+   El desplazamiento de parallax se anula aquí. `.foto-desplaza` monta la caja
+   44 px más ancha por cada lado para poder correrla sin destapar el fondo, y
+   con la imagen ajustada a lo ancho ese sobreancho la encoge y la descentra:
+   el cuadro quedaría flotando con dos dedos de aire a un lado. */
+.foto-desplaza:has(> .foto-panorama) {
+  inset: 0;
+}
+
+/* La banda nítida. No lleva `object-fit: contain` sobre el marco entero, que
+   era lo primero que probé: encajaba bien, pero la caja seguía midiendo
+   430×860 y el canto de la imagen caía donde le tocaba, no donde yo pudiera
+   difuminarlo. Aquí la caja ES la banda —ancho completo, alto por proporción
+   natural—, así que la máscara de abajo cae exactamente sobre los dos cantos
+   horizontales y los deshace contra el relleno. Ni línea recta ni franja. */
+.foto-panoramica {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: var(--alto, 12%);
+  width: 100%;
+  height: auto;
+  transform-origin: center;
+  /* Sin rebaja de saturación, al revés que en la foto normal. Lo que allí se
+     corrige es que cien imágenes de cien procedencias llegan con temperaturas
+     incompatibles; un óleo llega con la paleta ya decidida por el pintor, y
+     bajársela solo lo convierte en una mancha marrón. */
+  filter: contrast(1.04);
+  --difumina: linear-gradient(to bottom, transparent 0%, #000 8%, #000 86%, transparent 100%);
+  -webkit-mask-image: var(--difumina);
+  mask-image: var(--difumina);
+}
+
+/* El relleno de detrás. Recortado, muy desenfocado y a media luz: no es una
+   segunda lectura de la imagen, es el color del cuadro extendido hasta los
+   bordes para que la banda nítida no se apoye en un rectángulo negro.
+   La escala tapa el halo transparente que el desenfoque deja en el canto. */
+.foto-panorama {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.25);
+  transform-origin: center;
+  pointer-events: none;
+  filter: blur(26px) saturate(1.3) brightness(0.62);
+}
+
 /* La copia que deriva por delante del disco. Va en luz suave y desenfocada
    para que no compita con la fotografía de abajo: lo que se busca no es ver
    dos planetas, es que las bandas de nube parezcan avanzar. */
@@ -2553,6 +2606,14 @@ button {
   background: var(--acento, var(--ochre));
   mix-blend-mode: soft-light;
   opacity: 0.5;
+}
+
+/* Media dosis para las panorámicas. El tinte existe para atar entre sí cien
+   fotografías traídas de cien archivos distintos; un cuadro de museo ya viene
+   atado, y a dosis entera lo que hace es apagarle el ocre de César y el azul
+   de la toga, que es exactamente lo que había que enseñar. */
+.foto-tinte.es-suave {
+  opacity: 0.24;
 }
 
 /* Grano. La aplicación entera es papel cálido y una fotografía digital limpia

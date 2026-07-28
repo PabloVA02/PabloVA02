@@ -111,18 +111,46 @@ function Fotografia({
 
       <motion.div className="foto-desplaza" style={desplaza ? { x: desplaza } : undefined}>
       <AnimatePresence>
+        {/* Relleno para las panorámicas. La misma imagen, recortada a lo bruto,
+            desenfocada hasta que no se lee nada y oscurecida: solo aporta
+            color de fondo, y ese color sale del propio cuadro, así que la
+            banda nítida de arriba no flota sobre un rectángulo ajeno. Se pinta
+            antes que la foto para quedar por debajo. */}
+        {estado === "lista" && foto?.panoramica && (
+          <motion.img
+            key="panorama"
+            className="foto-panorama"
+            src={urlFoto(foto)}
+            alt=""
+            aria-hidden
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.7 }}
+          />
+        )}
+
         {estado === "lista" && foto && (
           <motion.img
             key="foto"
-            className="foto-img"
+            className={foto.panoramica ? "foto-panoramica" : "foto-img"}
             src={urlFoto(foto)}
             alt={foto.alt}
-            style={{ objectPosition: foto.foco ?? "50% 50%" }}
+            style={
+              foto.panoramica
+                ? { ["--alto" as string]: foto.panoramica.alto }
+                : { objectPosition: foto.foco ?? "50% 50%" }
+            }
             initial={{ opacity: 0, scale: 1.08 }}
             animate={
               reducido || !deriva
                 ? { opacity: 1, scale: 1.02 }
-                : { opacity: 1, scale: [1.08, 1.16] }
+                : foto.panoramica
+                  ? /* La panorámica ya toca los dos costados del marco: el
+                       zoom de reposo de la foto normal le comería los bordes
+                       laterales, que es lo único que aquí no sobra. Sube un
+                       6 % en lugar de un 16 %. */
+                    { opacity: 1, scale: [1, 1.06] }
+                  : { opacity: 1, scale: [1.08, 1.16] }
             }
             transition={
               reducido || !deriva
@@ -187,7 +215,7 @@ function Fotografia({
           completa se notan en el desplazamiento. */}
       {estado === "lista" && (
         <>
-          <div className="foto-tinte" />
+          <div className={foto?.panoramica ? "foto-tinte es-suave" : "foto-tinte"} />
           {deriva && (
             <svg className="foto-grano" aria-hidden>
               <filter id="grano-muro">

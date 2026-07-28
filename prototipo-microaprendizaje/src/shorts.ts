@@ -81,6 +81,24 @@ type FotoComun = {
    * el suelo tarda doscientos cuarenta y tres.
    */
   esfera?: { cx: string; cy: string; rx: string; ry: string };
+  /**
+   * Para originales muy apaisados —un cuadro de museo, un mosaico, una vista
+   * aérea— dentro de un marco de móvil.
+   *
+   * El recorte normal se come el cuadro: en un marco de 430×860 una imagen de
+   * 2048×1161 entra por un ojo de cerradura del 28 % de su ancho, así que de
+   * un asesinato con sesenta senadores se ven tres togas. La alternativa es
+   * enseñarlo entero y colocarlo arriba, con una copia desenfocada llenando el
+   * resto para que no queden franjas negras. Es lo mismo que se hizo a mano
+   * con la foto de Venus, pero sin tocar el archivo: vale para cualquier
+   * imagen ancha que llegue después.
+   *
+   * `alto` es a qué altura del marco se apoya la banda. No es un `foco`: aquí
+   * no se pierde nada al recortar, así que lo único que queda por decidir es
+   * dónde descansa la imagen, y para eso `object-position` no sirve —mide
+   * sobre el hueco sobrante, no sobre el marco—.
+   */
+  panoramica?: { alto: string };
 };
 
 /**

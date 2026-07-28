@@ -1,4 +1,5 @@
 import type { Short } from "../shorts";
+import cesarFoto from "../fotos/cesar-camuccini.jpg";
 
 /* ==========================================================================
    Figuras.
@@ -39,14 +40,21 @@ export const FIGURAS: Short[] = [
        en alto— y eso se lee de un vistazo, que es todo el tiempo que tiene una
        portada en un pase. */
     foto: {
-      archivo: "Vincenzo Camuccini - La morte di Cesare.jpg",
+      /* Empotrada, no traída de Commons. Es lo mismo que se hizo con Venus y
+         por el mismo motivo: la portada de un short es lo primero que se ve, y
+         no puede depender de que una petición a otro dominio llegue a tiempo
+         —ni de que llegue—. */
+      local: cesarFoto,
       autor: "Vincenzo Camuccini · Museo di Capodimonte",
       licencia: "Dominio público",
-      /* El original es muy apaisado y la acción no está en el centro
-         geométrico: César cae de espaldas con la túnica ocre a la izquierda
-         del eje, y el racimo de brazos armados queda justo encima. El foco
-         apunta ahí y no al medio, donde solo hay pared. */
-      foco: "45% 62%",
+      /* El original es de 1920×1088, casi el doble de ancho que de alto, y el
+         marco del muro es de móvil. El recorte se queda con el 72 % central:
+         fuera el muro vacío de la derecha y el figurante del borde, dentro la
+         estatua de Pompeyo, el racimo de puñales y César cayendo de ocre, que
+         es lo que promete el título. Quedan 1200×944. */
+      /* El cuadro entra entero y se apoya arriba; el pie del velo lo va
+         apagando justo donde arranca el texto. */
+      panoramica: { alto: "9%" },
       alt: "El asesinato de Julio César pintado por Camuccini: los conspiradores, en toga blanca, alzan los puñales sobre César, que cae vestido de ocre.",
     },
     encargo: "El asesinato de César con los puñales en alto, encuadrado a plomo sobre la escena.",
