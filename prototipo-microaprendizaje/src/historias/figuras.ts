@@ -59,12 +59,12 @@ export const FIGURAS: Short[] = [
     },
     encargo: "El asesinato de César con los puñales en alto, encuadrado a plomo sobre la escena.",
     entrada:
-      "César había entendido algo que sus asesinos no: un dictador que necesita guardaespaldas ha dejado ya de mandar. Por eso disolvió la suya. El 15 de marzo del 44 a. C. entró solo en la curia, entre sesenta senadores a los que él mismo había perdonado, y murió en menos de un minuto al pie de la estatua de su peor enemigo.",
+      "El 15 de marzo del 44 a. C., Julio César entró en la curia sin un solo hombre armado a su lado. No fue un descuido: había disuelto su escolta meses antes, convencido de que un dictador que necesita guardaespaldas ha dejado ya de mandar. Dentro le esperaban sesenta senadores, y a casi todos los había perdonado él en persona.",
     paginas: [
       {
         rotulo: "El río",
         texto:
-          "Roma tenía una ley sencilla: ningún general podía entrar en Italia al mando de sus tropas. La frontera era un riachuelo del norte, el Rubicón, y toda su fuerza consistía en que nadie la cruzaba. En enero del 49 a. C. César la cruzó con la Legio XIII detrás, y con ello no ganó una batalla: demostró que la ley era un acuerdo, y que un acuerdo se puede romper. Suetonio cuenta que lo dijo en griego, citando una comedia, y que la frase no era el solemne «la suerte está echada», sino algo más parecido a <em>tiremos el dado y veamos</em>. Pompeyo huyó sin combatir.",
+          "Aquella clemencia venía de lejos, y también aquella confianza. En enero del 49 se había plantado en la orilla de un riachuelo del norte de Italia con la Legio XIII a la espalda. El Rubicón no defendía nada: era un hilo de agua que se cruza sin mojarse la rodilla. Lo único que lo convertía en frontera era una ley que prohibía a un general entrar en Italia al frente de sus tropas, y lo único que sostenía aquella ley era que nadie la había cruzado jamás. César la cruzó, y descubrió algo que ya no pudo olvidar: la república entera se apoyaba sobre un acuerdo, y los acuerdos se rompen.",
         destacado: {
           tipo: "frase",
           frase: "El río más famoso de la historia y no se sabe cuál era.",
@@ -73,13 +73,13 @@ export const FIGURAS: Short[] = [
       {
         rotulo: "El año más largo",
         texto:
-          "Un calendario parece un hecho de la naturaleza y es un acuerdo entre personas, de modo que se puede manipular como cualquier otro acuerdo. En Roma lo ajustaban los pontífices intercalando meses sueltos, y como los cargos duraban justo un año, cada uno alargaba el suyo y recortaba el del rival. Un siglo de trampas menudas dejó el calendario tres meses desfasado: las fiestas de la cosecha caían en primavera. César, asesorado por el astrónomo Sosígenes de Alejandría, hizo que el año 46 a. C. durase <strong>445 días</strong> y fijó el resto en 365 y cuarto. Nadie tuvo que volver a tocarlo hasta 1582.",
+          "Y si la ley era un acuerdo, el calendario también lo era. En Roma lo administraban los pontífices, que intercalaban meses sueltos para cuadrarlo con el año solar; como los cargos duraban justo doce meses, cada uno alargaba el suyo y recortaba el del rival. Un siglo de trampas menudas había desplazado el año tres meses enteros: las fiestas de la cosecha se celebraban en primavera, con los campos todavía verdes. César, asesorado por el astrónomo Sosígenes de Alejandría, hizo que el 46 durase <strong>445 días</strong> y fijó el resto en 365 y cuarto. Nadie tuvo que volver a tocarlo hasta 1582.",
         destacado: { tipo: "cifra", cifra: "445", unidad: "días tuvo el año 46 a. C." },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Lo mataron para salvar la república y le firmaron la sentencia: catorce años después su sobrino nieto era Augusto y Roma, un imperio. Del «¿tú también, Bruto?» no hay rastro fuera de Shakespeare; Suetonio sostiene que casi todas las fuentes lo hacen morir callado. Lo que sí hubo fue un informe. El médico Antistio examinó el cuerpo, contó veintitrés heridas y dictaminó que solo una, la segunda, en el pecho, era mortal de necesidad: sesenta hombres apuñalando a la vez para que contase un único golpe. Pasa por ser la primera autopsia registrada. El nombre sobrevivió a todos ellos: de César salen <strong>káiser</strong> y <strong>zar</strong>.",
+          "Quien reordena el tiempo ha dejado de ser un cónsul, y eso fue exactamente lo que sesenta senadores no pudieron tolerar. Lo mataron para salvar la república y le firmaron el certificado de defunción: catorce años después su sobrino nieto era Augusto, y Roma, un imperio. Del «¿tú también, Bruto?» no queda rastro fuera de Shakespeare. Lo que sí hubo fue un informe. El médico Antistio examinó el cuerpo, contó veintitrés heridas y dictaminó que solo una, la segunda, en el pecho, era mortal de necesidad: sesenta hombres apuñalando a la vez para que contara un único golpe. El nombre les sobrevivió a todos.",
       },
     ],
   },

@@ -27,18 +27,18 @@ export const BICHOS: Short[] = [
     curioso: true,
     encargo: "Un pulpo común sobre fondo oscuro, los brazos extendidos, piel texturada.",
     entrada:
-      "Un pulpo no es un animal extravagante: es un animal que está pagando una factura. Sus antepasados eran moluscos con concha y en algún momento renunciaron a ella, a cambio de poder colarse por cualquier grieta. Quedarse blando en un mar lleno de dientes obligó a rehacer todo lo demás. Los tres corazones y la sangre azul son las cuotas de aquella renuncia.",
+      "Ningún animal es raro porque sí. El pulpo desciende de moluscos que llevaban concha y que en algún momento renunciaron a ella, a cambio de poder colarse por cualquier grieta del arrecife. Fue un buen trato, pero se sigue pagando: quedarse blando en un mar lleno de dientes obliga a rehacer todo lo demás. Los tres corazones son una de las cuotas.",
     paginas: [
       {
         rotulo: "El azul",
         texto:
-          "Nuestra sangre transporta el oxígeno con hierro, y el hierro la vuelve roja; la del pulpo lo transporta con cobre, y el cobre la vuelve azulada. La hemocianina que emplea es, medida en oxígeno por litro, bastante peor que nuestra hemoglobina, y a cambio funciona bien en agua fría y pobre en oxígeno, que es justamente donde vive medio linaje de cefalópodos. Cuando el reparto es flojo caben dos soluciones: mejorarlo o poner más bombas. El pulpo puso más bombas. Dos branquiales empujan la sangre hacia las branquias y una tercera, la sistémica, la manda al resto del cuerpo.",
+          "La primera cuota fue la sangre. La nuestra transporta el oxígeno con hierro, y el hierro la vuelve roja; la del pulpo lo transporta con cobre, y el cobre la vuelve azulada. La hemocianina que emplea es, medida en oxígeno por litro, bastante peor que nuestra hemoglobina, aunque rinde bien en agua fría y pobre, que es donde vive medio linaje de cefalópodos. Cuando el reparto es flojo caben dos soluciones: mejorarlo o poner más bombas. El pulpo puso más bombas. Dos branquiales empujan la sangre hacia las branquias y una tercera, la sistémica, la manda al resto del cuerpo.",
         destacado: { tipo: "cifra", cifra: "3", unidad: "corazones, y nueve cerebros" },
       },
       {
         rotulo: "Por qué camina",
         texto:
-          "Esa tercera bomba tiene un defecto notable: cuando el pulpo nada a chorro, expulsando agua por el sifón, el corazón sistémico deja de latir. Nadar le corta el suministro al cuerpo. Por eso, aunque tenga prisa, prefiere caminar por el fondo con los brazos y se reserva el chorro para huir. Y esos brazos tampoco esperan órdenes: dos tercios de sus neuronas no están en la cabeza, sino repartidas en ocho ganglios, uno por brazo, capaces de resolver solos cómo agarrar algo. El cerebro central pide un resultado. El método lo decide el brazo.",
+          "Y esa tercera tiene un defecto que le condiciona la vida entera: cuando el pulpo nada a chorro, expulsando agua por el sifón, el corazón sistémico deja de latir. Nadar le corta el suministro. Por eso, aunque tenga prisa, prefiere caminar por el fondo con los brazos y se reserva el chorro para las huidas. Y esos brazos tampoco esperan órdenes: dos tercios de sus neuronas no están en la cabeza, sino repartidas en ocho ganglios, uno por brazo, capaces de resolver solos cómo agarrar algo. El cerebro central pide un resultado. El método lo decide el brazo.",
         destacado: {
           tipo: "frase",
           frase: "Nadar le para el corazón. Literalmente, no como metáfora.",
@@ -47,7 +47,7 @@ export const BICHOS: Short[] = [
       {
         rotulo: "Lo que queda",
         texto:
-          "Toda esa maquinaria dura poquísimo. La mayoría de las especies vive uno o dos años y muere después de reproducirse: la hembra deja de comer mientras vigila los huevos y se apaga cuando eclosionan. Nada de lo que un pulpo aprende llega a la generación siguiente, porque no llega a conocerla. Es la inteligencia más solitaria del planeta, reinventada desde cero en cada individuo, sin escuelas, sin relatos y sin herencia. Nuestro último antepasado común vivió hace unos 600 millones de años y era, casi con seguridad, un gusano plano sin nada parecido a un cerebro.",
+          "Todo ese ingenio —nueve centros de decisión, tres bombas, una piel que cambia de color sin verlo— dura poquísimo. La mayoría de las especies vive uno o dos años y muere después de reproducirse: la hembra deja de comer mientras vigila los huevos y se apaga cuando eclosionan. Nada de lo que un pulpo aprende llega a la generación siguiente, porque no llega a conocerla. Es la inteligencia más solitaria del planeta, reinventada desde cero en cada individuo, sin escuelas, sin relatos y sin herencia. Nuestro último antepasado común vivió hace unos 600 millones de años y era un gusano plano.",
       },
     ],
   },

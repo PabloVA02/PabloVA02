@@ -3222,7 +3222,7 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "El hambre no era un desastre excepcional: era el fondo del cuadro. Francia, uno de los países más ricos de Europa, sufrió más de una docena de hambrunas graves entre los siglos XVII y XVIII. Se vivía al borde, y una mala cosecha bastaba para llevarse a un porcentaje de la población que hoy sería una catástrofe nacional.",
+            "Empecemos por el hambre, que no era un desastre excepcional sino el fondo del cuadro. Francia, uno de los países más ricos de Europa, sufrió más de una docena de hambrunas graves entre los siglos XVII y XVIII. Se vivía al borde, y una mala cosecha bastaba para llevarse a un porcentaje de la población que hoy sería una catástrofe nacional.",
         },
         {
           forma: "clave",
@@ -3373,7 +3373,7 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "El capítulo sobre la felicidad recoge la investigación del bienestar subjetivo y llega a una conclusión que incomoda a las dos orillas. La gente de los países ricos se declara algo más feliz que la de los pobres, pero muchísimo menos de lo que cabría esperar; y dentro de un mismo país, subir de renta apenas mueve la aguja pasado cierto umbral.",
+            "Conviene volver un momento al segundo proyecto, porque el capítulo que le dedica recoge la investigación del bienestar subjetivo y llega a una conclusión que incomoda a las dos orillas. La gente de los países ricos se declara algo más feliz que la de los pobres, pero muchísimo menos de lo que cabría esperar; y dentro de un mismo país, subir de renta apenas mueve la aguja pasado cierto umbral.",
         },
         {
           forma: "texto",
@@ -3554,7 +3554,7 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Antes de eso desarrolla un contraste que ilumina todo el argumento. Explica por qué la Unión Soviética perdió frente a Estados Unidos, y la respuesta no es moral sino técnica: un sistema que procesa toda la información en un centro es más lento que uno donde millones de agentes deciden en paralelo y se coordinan por precios.",
+            "Para entender por qué teme eso, conviene un rodeo por la Guerra Fría. Explica por qué la Unión Soviética perdió frente a Estados Unidos, y la respuesta no es moral sino técnica: un sistema que procesa toda la información en un centro es más lento que uno donde millones de agentes deciden en paralelo y se coordinan por precios.",
         },
         {
           forma: "arte",
@@ -3565,7 +3565,7 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Lo mismo ocurre con la conducción, con las inversiones y con la elección de estudios. Cada delegación concreta está justificada por resultados medibles, y ninguna se impone por la fuerza. Harari no describe una tiranía: describe una serie de decisiones voluntarias, todas sensatas, cuyo resultado agregado no eligió absolutamente nadie.",
+            "Y de vuelta a las delegaciones cotidianas: lo mismo ocurre con la conducción, con las inversiones y con la elección de estudios. Cada delegación concreta está justificada por resultados medibles, y ninguna se impone por la fuerza. Harari no describe una tiranía: describe una serie de decisiones voluntarias, todas sensatas, cuyo resultado agregado no eligió absolutamente nadie.",
         },
         {
           forma: "texto",
@@ -3647,7 +3647,7 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "El mandato ha cambiado sin que nadie lo anunciara: de «escucha a tu corazón» a «comparte lo que sientes». Son dos religiones distintas, y la segunda desplaza a la primera igual que la primera desplazó a la Iglesia, sin ninguna guerra y sin que casi nadie note el momento del relevo.",
+            "Con el dataísmo, en todo caso, el mandato ha cambiado sin que nadie lo anunciara: de «escucha a tu corazón» a «comparte lo que sientes». Son dos religiones distintas, y la segunda desplaza a la primera igual que la primera desplazó a la Iglesia, sin ninguna guerra y sin que casi nadie note el momento del relevo.",
         },
         {
           forma: "arte",

@@ -20,22 +20,22 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Ese origen explica casi todo el tono. Está escrito para chavales de dieciocho años que no saben nada del asunto y a los que hay que mantener despiertos dos horas, y por eso cada capítulo abre con una escena y no con una tesis. Fue oral antes que escrito.",
+            "Se nota en cada página que salió de un aula. Está escrito para chavales de dieciocho años que no saben nada del asunto y a los que hay que mantener despiertos dos horas, y por eso cada capítulo abre con una escena y no con una tesis. Fue oral antes que escrito.",
         },
         {
           forma: "texto",
           texto:
-            "La misma aula explica una decisión rara en un académico. No hay notas al pie, apenas se nombra a otros historiadores dentro del texto y no se recogen las discusiones entre especialistas: en una clase de primero, esas cosas pierden a media aula. Las notas van todas al final.",
+            "De haber nacido oral viene también una decisión rara en un académico. No hay notas al pie, apenas se nombra a otros historiadores dentro del texto y no se recogen las discusiones entre especialistas: en una clase de primero, esas cosas pierden a media aula. Las notas van todas al final.",
         },
         {
           forma: "texto",
           texto:
-            "No es, por tanto, una investigación con hallazgos propios ni un manual con el estado de la cuestión. Es una síntesis con tesis: alguien que ha leído a los especialistas y decide contarlo todo seguido, en el mismo tono y sin pedir permiso a nadie.",
+            "Nada de eso lo convierte en un manual. No es una investigación con hallazgos propios ni un estado de la cuestión: es una síntesis con tesis, alguien que ha leído a los especialistas y decide contarlo todo seguido, en el mismo tono y sin pedir permiso a nadie.",
         },
         {
           forma: "texto",
           texto:
-            "Y quien lo cuenta no venía de la prehistoria ni de la antropología. Yuval Noah Harari se doctoró en Oxford con una tesis sobre memorias de caballeros medievales, y sus dos primeros libros trataban de cómo se narraba la guerra en la Edad Media y del papel que jugaba allí la experiencia militar.",
+            "Quien se tomó ese permiso no venía de la prehistoria ni de la antropología. Yuval Noah Harari se doctoró en Oxford con una tesis sobre memorias de caballeros medievales, y sus dos primeros libros trataban de cómo se narraba la guerra en la Edad Media y del papel que jugaba allí la experiencia militar.",
         },
         {
           forma: "clave",
@@ -45,63 +45,63 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "El libro salió en hebreo en 2011 y tardó tres años en llegar al inglés. Esa segunda edición fue la que lo cambió todo: hasta entonces era un manual universitario con éxito local, y a partir de 2014 empezó a venderse en sesenta idiomas a la vez.",
+            "El salto tardó en notarse fuera de Israel. El libro salió en hebreo en 2011 y tardó tres años en llegar al inglés. Esa segunda edición fue la que lo cambió todo: hasta entonces era un manual universitario con éxito local, y a partir de 2014 empezó a venderse en sesenta idiomas a la vez.",
         },
         {
           forma: "texto",
           texto:
-            "La traducción no la esperó sentado. Contrató él mismo a una traductora, revisó el texto entero y aprovechó para actualizar varios capítulos con hallazgos posteriores, de modo que la versión que ha leído el mundo no es exactamente la que leyeron los israelíes. Nunca lo ha ocultado.",
+            "Aquel paso al inglés no lo esperó sentado. Contrató él mismo a una traductora, revisó el texto entero y aprovechó para actualizar varios capítulos con hallazgos posteriores, de modo que la versión que ha leído el mundo no es exactamente la que leyeron los israelíes. Nunca lo ha ocultado.",
         },
         {
           forma: "texto",
           texto:
-            "Llegó además en un momento afortunado. Hacia 2014 se vendían muy bien los libros de una sola idea grande firmados por académicos con credenciales, y este traía una ventaja decisiva sobre los demás: se podía resumir en una sola frase que cualquiera repetía después de la cena.",
+            "La versión revisada llegó, además, en el momento exacto. Hacia 2014 se vendían muy bien los libros de una sola idea grande firmados por académicos con credenciales, y este traía una ventaja decisiva sobre los demás: se podía resumir en una sola frase que cualquiera repetía después de la cena.",
         },
         {
           forma: "texto",
           texto:
-            "El hueco lo habían abierto otros antes que él. Llevaba una década funcionando el ensayo de tesis única y trescientas páginas, y lo que este añadía no era el formato sino la escala: su asunto era, literalmente, todo lo que le ha pasado a la especie.",
+            "El hueco donde encajó aquella frase lo habían abierto otros. Llevaba una década funcionando el ensayo de tesis única y trescientas páginas, y lo que este añadía no era el formato sino la escala: su asunto era, literalmente, todo lo que le ha pasado a la especie.",
         },
         {
           forma: "texto",
           texto:
-            "La cifra que circula pide cautela. Se habla de más de veinticinco millones de ejemplares en más de sesenta idiomas, un número que da la editorial sumando todas las ediciones, incluidas las de bolsillo y la adaptación en cómic. Ningún editor desglosa nunca esos totales.",
+            "Cuánto vendió exactamente es harina de otro costal. Se habla de más de veinticinco millones de ejemplares en más de sesenta idiomas, un número que da la editorial sumando todas las ediciones, incluidas las de bolsillo y la adaptación en cómic. Ningún editor desglosa nunca esos totales.",
         },
         {
           forma: "texto",
           texto:
-            "Buena parte del empujón vino de tres nombres. Un presidente de Estados Unidos, el fundador de una empresa de software y el de una red social lo citaron como lectura del año casi a la vez, entre 2015 y 2016, y las ventas dejaron de parecerse a las de un libro de historia.",
+            "De dónde vino el empujón se sabe con precisión: de tres nombres. Un presidente de Estados Unidos, el fundador de una empresa de software y el de una red social lo citaron como lectura del año casi a la vez, y las ventas dejaron de parecerse a las de un libro de historia.",
         },
         {
           forma: "arte",
           texto:
-            "Quien escribe todo esto tiene una rutina poco habitual para un historiador. Harari medita dos horas cada día y se retira sesenta días al año a un centro de silencio, sin libros, sin teléfono y sin dirigirle la palabra a nadie. Es además vegano desde hace años.",
+            "El historiador que hay detrás de todo esto lleva una vida poco habitual en el oficio. Medita dos horas cada día y se retira sesenta días al año a un centro de silencio, sin libros, sin teléfono y sin dirigirle la palabra a nadie. Es además vegano desde hace años.",
           arte: "noche",
         },
         {
           forma: "texto",
           texto:
-            "Empezó en el año 2000, mientras terminaba el doctorado en Oxford. Practica una técnica de origen birmano centrada en observar las sensaciones del cuerpo, y desde entonces no ha fallado un solo retiro anual, ni siquiera en los años en que el libro se convirtió en un fenómeno.",
+            "Lo de meditar empezó en el año 2000, mientras terminaba el doctorado en Oxford. Practica una técnica de origen birmano centrada en observar las sensaciones del cuerpo, y desde entonces no ha fallado un solo retiro anual, ni siquiera en los años en que el libro se convirtió en un fenómeno.",
         },
         {
           forma: "texto",
           texto:
-            "Los retiros son más duros de lo que suenan. Diez horas diarias sentado, sin leer, sin escribir, sin mirar a nadie a los ojos y sin hablar durante casi dos meses, con una sola comida sólida al día y ningún contacto con el exterior, ni siquiera por escrito.",
+            "Y esos retiros son bastante más duros de lo que suenan. Diez horas diarias sentado, sin leer, sin escribir, sin mirar a nadie a los ojos y sin hablar durante casi dos meses, con una sola comida sólida al día y ningún contacto con el exterior, ni siquiera por escrito.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí sale su obsesión recurrente. Repite en cada entrevista que el problema del siglo veintiuno no será la falta de información sino la incapacidad de distinguir lo que importa dentro de un diluvio de datos, y esa idea reaparece, con distintos disfraces, en todos sus libros.",
+            "De aquellas semanas de silencio sale su obsesión recurrente. Repite en cada entrevista que el problema del siglo veintiuno no será la falta de información sino la incapacidad de distinguir lo que importa dentro de un diluvio de datos, y esa idea reaparece, con distintos disfraces, en todos sus libros.",
         },
         {
           forma: "texto",
           texto:
-            "Sostiene que sin esa práctica no habría escrito el libro. Dice que allí aprendió a separar lo que ocurre de verdad de las historias que la cabeza se cuenta sobre lo que ocurre, y esa distinción es, exactamente, el asunto de las cuatrocientas páginas que vienen detrás.",
+            "Va más lejos todavía: sostiene que sin esa práctica no habría escrito este. Dice que allí aprendió a separar lo que ocurre de verdad de las historias que la cabeza se cuenta sobre lo que ocurre, y esa distinción es, exactamente, el asunto de las cuatrocientas páginas que vienen detrás.",
         },
         {
           forma: "texto",
           texto:
-            "El libro se sostiene sobre cuatro momentos. La revolución cognitiva, hace unos setenta mil años; la agrícola, hace unos doce mil; la unificación de la humanidad, en los últimos milenios; y la científica, hace quinientos años, que es la única de las cuatro que sigue en marcha.",
+            "Esas páginas se sostienen sobre cuatro momentos. La revolución cognitiva, hace unos setenta mil años; la agrícola, hace unos doce mil; la unificación de la humanidad, en los últimos milenios; y la científica, hace quinientos años, que es la única de las cuatro que sigue en marcha.",
         },
         {
           forma: "texto",
@@ -151,7 +151,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "La pieza más citada del periodo cabe en dos manos. Se encontró en una cueva del sur de Alemania, tiene unos cuarenta mil años y representa un cuerpo humano con cabeza de león: el primer objeto conocido que retrata algo que nadie había visto jamás.",
+            "De todo lo que aparece entonces, la pieza más citada cabe en dos manos. Se encontró en una cueva del sur de Alemania, tiene unos cuarenta mil años y representa un cuerpo humano con cabeza de león: el primer objeto conocido que retrata algo que nadie había visto jamás.",
         },
         {
           forma: "texto",
@@ -161,7 +161,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Muchos animales se comunican, y algunos avisan del peligro con una precisión que nos avergonzaría. Ninguno, sostiene Harari, se pasa la tarde entera hablando de cosas que no ha visto nadie y que no están en ningún sitio del mundo físico: espíritus, antepasados, leones con cabeza de hombre.",
+            "Ningún otro animal ha tallado jamás algo que no existe. Muchos se comunican, y algunos avisan del peligro con una precisión que nos avergonzaría; ninguno se pasa la tarde entera hablando de cosas que no ha visto nadie y que no están en ningún sitio: espíritus, antepasados, leones con cabeza de hombre.",
         },
         {
           forma: "texto",
@@ -196,7 +196,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "El umbral ha tenido una carrera propia fuera de la antropología. Hay empresas que parten sus oficinas al llegar a ese tamaño, ejércitos que organizan sus unidades alrededor de esa cifra y aplicaciones que la citan para decidir cuántos contactos tiene sentido mantener. La cifra ha tenido más éxito que su autor.",
+            "Ese umbral ha tenido después una carrera propia fuera de la antropología. Hay empresas que parten sus oficinas al llegar a ese tamaño, ejércitos que organizan sus unidades alrededor de esa cifra y aplicaciones que la citan para decidir cuántos contactos tiene sentido mantener. La cifra ha tenido más éxito que su autor.",
         },
         {
           forma: "texto",
@@ -206,7 +206,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Conviene saber de dónde sale. Lo propuso un antropólogo británico en los años noventa comparando el tamaño del cerebro con el de los grupos en distintos primates, y los estudios posteriores han dado resultados bastante dispares entre sí. La cifra es una brújula, no un metro.",
+            "Y conviene saber de dónde salió. Lo propuso un antropólogo británico en los años noventa comparando el tamaño del cerebro con el de los grupos en distintos primates, y los estudios posteriores han dado resultados bastante dispares entre sí. La cifra es una brújula, no un metro.",
         },
         {
           forma: "texto",
@@ -286,7 +286,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "El argumento incómodo está bien documentado. Los primeros agricultores trabajaban más horas que los cazadores, comían peor y de menos cosas, tenían más caries, más anemia y más hernias, y vivían por primera vez pegados a los animales. Las grandes epidemias de la humanidad empiezan exactamente en ese momento.",
+            "El argumento incómodo, en todo caso, está bien documentado. Los primeros agricultores trabajaban más horas que los cazadores, comían peor y de menos cosas, tenían más caries, más anemia y más hernias, y vivían por primera vez pegados a los animales. Las grandes epidemias de la humanidad empiezan exactamente en ese momento.",
         },
         {
           forma: "texto",
@@ -361,7 +361,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Su ejemplo es de los que se quedan. Un musulmán y un cristiano del siglo doce que no se fiaban en absoluto el uno del otro podían fiarse los dos, sin discutirlo, de la misma moneda de oro. El metal no tenía religión, y con eso bastaba para cerrar el trato.",
+            "El ejemplo que pone es de los que se quedan. Un musulmán y un cristiano del siglo doce que no se fiaban en absoluto el uno del otro podían fiarse los dos, sin discutirlo, de la misma moneda de oro. El metal no tenía religión, y con eso bastaba para cerrar el trato.",
         },
         {
           forma: "texto",
@@ -441,7 +441,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Los cazadores recolectores salen bastante idealizados. El libro los describe con jornadas cortas, dieta variada y poco estrés, y esa imagen viene de unos pocos estudios sobre grupos actuales que viven en desiertos, no de los que ocupaban las tierras fértiles hace treinta mil años.",
+            "No todo lo que se recuerda, sin embargo, resiste una comprobación. Los cazadores recolectores salen idealizados: el libro los describe con jornadas cortas, dieta variada y poco estrés, y esa imagen viene de unos pocos estudios sobre grupos actuales que viven en desiertos, no de los que ocupaban las tierras fértiles hace treinta mil años.",
         },
         {
           forma: "texto",
@@ -471,7 +471,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Él ha respondido a eso más de una vez, y con un argumento razonable. Dice que su oficio no es aportar datos nuevos sino juntar los que ya existen en una historia que se entienda, y que quien quiera profundizar tiene la bibliografía al final del volumen.",
+            "A eso ha respondido más de una vez, y con un argumento razonable: dice que su oficio no es aportar datos nuevos sino juntar los que ya existen en una historia que se entienda, y que quien quiera profundizar tiene la bibliografía al final del volumen.",
         },
         {
           forma: "texto",
@@ -536,7 +536,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Su respuesta provisional es que probablemente no. Tenemos más comida, más años y menos violencia que ningún antepasado, y aun así no hay ninguna prueba de que un campesino medieval fuera menos feliz que un oficinista de hoy, ni ninguna manera fiable de compararlos, porque a nadie se le ocurrió preguntar entonces.",
+            "La respuesta provisional que da es que probablemente no. Tenemos más comida, más años y menos violencia que ningún antepasado, y aun así no hay ninguna prueba de que un campesino medieval fuera menos feliz que un oficinista de hoy, ni ninguna manera fiable de compararlos, porque a nadie se le ocurrió preguntar entonces.",
         },
         {
           forma: "clave",
