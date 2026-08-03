@@ -59,30 +59,27 @@ export const FIGURAS: Short[] = [
     },
     encargo: "El asesinato de César con los puñales en alto, encuadrado a plomo sobre la escena.",
     entrada:
-      "A Julio César le avisaron. Un adivino le había dicho que se guardase de los idus de marzo; su mujer había soñado con él muerto y le rogó que no saliera de casa; y un hombre le puso en la mano, esa misma mañana, un papel con los nombres de los conjurados. César se guardó el papel sin leerlo y entró en la curia. Era media mañana.",
+      "Roma, año 44 antes de Cristo. Julio César es el hombre más poderoso del mundo conocido: ha conquistado la Galia, la actual Francia, ha ganado una guerra civil contra sus propios compatriotas y gobierna de hecho todo el Mediterráneo. Aquella mañana de marzo entra a una reunión del Senado sin guardaespaldas. Dentro le esperan unos sesenta hombres con un puñal escondido bajo la ropa.",
     paginas: [
       {
-        rotulo: "La conjura",
+        rotulo: "El casi rey",
         texto:
-          "No lo mataba un enemigo: lo mataban los suyos. Eran más de sesenta senadores, y casi todos le debían a él el cargo, la fortuna o la vida. El año anterior se había hecho nombrar dictador perpetuo, y ese título sonaba en Roma a lo único que la república no estaba dispuesta a tolerar, que era un rey. Cayo Casio puso la idea y buscó después al hombre que podía darle respetabilidad: Marco Junio Bruto, hijo de una antigua amante de César y perdonado por él al acabar la guerra civil. Con Bruto dentro, aquello dejaba de ser un crimen y pasaba por un acto de gobierno.",
-        destacado: {
-          tipo: "frase",
-          frase: "Casi todos los que lo apuñalaron le debían a él el cargo, la fortuna o la vida.",
-        },
+          "Para entender por qué querían matarlo hay que saber una cosa de Roma: llevaba casi quinientos años sin rey, y estaba orgullosísima de ello. El poder se repartía entre varios cargos que duraban un año, precisamente para que nadie mandase demasiado tiempo. César rompió esa regla. Se hizo nombrar dictador de por vida, puso su propia cara en las monedas —un honor reservado hasta entonces a los dioses y a los muertos— y presidía el Senado sentado en una silla dorada. Nunca llegó a coronarse rey. Pero para muchos senadores, la diferencia había dejado de existir.",
+        destacado: { tipo: "cifra", cifra: "500", unidad: "años llevaba Roma sin un rey" },
       },
       {
-        rotulo: "La curia",
+        rotulo: "La emboscada",
         texto:
-          "El plan era sencillo y salió mal casi todo el rato. Un senador entretuvo a Marco Antonio en la puerta, porque Antonio era fuerte y era leal. Dentro, Tilio Cimbro se acercó a César con una petición para su hermano desterrado, y al ver que se la negaba le tiró de la toga con las dos manos: esa era la señal. El primer golpe se lo dio Casca por detrás y le entró de refilón, en el hombro; César llegó a agarrarle el brazo. A partir de ahí no hubo ningún orden. Sesenta hombres apretados en un espacio pequeño, apuñalando a la vez, acabaron hiriéndose entre ellos.",
+          "Decidieron matarlo dentro del Senado, delante de todos, para que aquello pareciera una ejecución y no un asesinato. Un senador se le acercó con una petición y le agarró la toga: esa era la señal. César trató de defenderse con lo único que llevaba encima, un punzón de escribir. Entre los hombres que lo rodeaban con el puñal en la mano estaba Bruto, al que él había perdonado en la guerra civil y protegido durante años. Al reconocerlo, cuentan las fuentes antiguas, dejó de resistirse y se cubrió la cara con la toga.",
         destacado: {
           tipo: "frase",
-          frase: "A Bruto lo alcanzó una puñalada en la mano. Se la dio uno de los suyos.",
+          frase: "Lo único que llevaba encima para defenderse era un punzón de escribir.",
         },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Cuando terminaron, el cuerpo se quedó tirado tres horas al pie de una estatua de Pompeyo, y los conjurados salieron a la calle a anunciar que Roma volvía a ser libre. No los siguió nadie. Un médico, Antistio, examinó después el cadáver y contó veintitrés heridas; de las veintitrés, escribió, una sola era mortal: la segunda, entre la primera y la segunda costilla. Pasa por ser la primera autopsia de la que queda constancia. Y de todo aquello salió justo lo contrario de lo que buscaban: catorce años más tarde, el sobrino nieto de César era Augusto y Roma, un imperio.",
+          "El cuerpo se quedó tirado en el suelo casi tres horas, hasta que tres esclavos se lo llevaron a casa en una camilla. Un médico lo examinó y contó veintitrés puñaladas. Solo una, escribió, había sido mortal: la segunda, la del pecho. Las otras veintidós sobraban. Los asesinos salieron a la calle gritando que Roma volvía a ser libre, y no los siguió nadie. Diecisiete años más tarde, el sobrino nieto de César gobernaba como primer emperador. Habían matado a un hombre para no tener un rey, y lo que consiguieron fue un imperio.",
       },
     ],
   },
