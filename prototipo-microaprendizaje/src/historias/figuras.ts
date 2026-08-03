@@ -59,12 +59,12 @@ export const FIGURAS: Short[] = [
     },
     encargo: "El asesinato de César con los puñales en alto, encuadrado a plomo sobre la escena.",
     entrada:
-      "El 15 de marzo del 44 a. C., Julio César entró en la curia sin un solo hombre armado a su lado. No fue un descuido: había disuelto su escolta meses antes, convencido de que un dictador que necesita guardaespaldas ha dejado ya de mandar. Dentro le esperaban sesenta senadores, y a casi todos los había perdonado él en persona.",
+      "Sesenta hombres esperaban dentro de la curia aquella mañana, y César lo sabía casi todo de casi todos: los había perdonado uno por uno al acabar la guerra civil. Entró sin escolta, porque la había disuelto meses antes, convencido de que un dictador que necesita guardaespaldas ha dejado ya de mandar. Tenía razón. No le sirvió de nada.",
     paginas: [
       {
         rotulo: "El río",
         texto:
-          "Aquella clemencia venía de lejos, y también aquella confianza. En enero del 49 se había plantado en la orilla de un riachuelo del norte de Italia con la Legio XIII a la espalda. El Rubicón no defendía nada: era un hilo de agua que se cruza sin mojarse la rodilla. Lo único que lo convertía en frontera era una ley que prohibía a un general entrar en Italia al frente de sus tropas, y lo único que sostenía aquella ley era que nadie la había cruzado jamás. César la cruzó, y descubrió algo que ya no pudo olvidar: la república entera se apoyaba sobre un acuerdo, y los acuerdos se rompen.",
+          "Aquella certeza suya venía de un río. En enero del 49 se detuvo a la orilla del Rubicón, que no era una defensa ni un obstáculo: un hilo de agua del norte de Italia que se cruza sin mojarse la rodilla. Lo único que lo convertía en frontera era una ley —ningún general entra en Italia al frente de sus tropas— y lo único que sostenía aquella ley era la costumbre de no romperla. César la rompió con la Legio XIII detrás, y en aquel vado aprendió lo que ya no soltó: Roma no se aguantaba sobre piedra, sino sobre un acuerdo.",
         destacado: {
           tipo: "frase",
           frase: "El río más famoso de la historia y no se sabe cuál era.",
@@ -73,13 +73,13 @@ export const FIGURAS: Short[] = [
       {
         rotulo: "El año más largo",
         texto:
-          "Y si la ley era un acuerdo, el calendario también lo era. En Roma lo administraban los pontífices, que intercalaban meses sueltos para cuadrarlo con el año solar; como los cargos duraban justo doce meses, cada uno alargaba el suyo y recortaba el del rival. Un siglo de trampas menudas había desplazado el año tres meses enteros: las fiestas de la cosecha se celebraban en primavera, con los campos todavía verdes. César, asesorado por el astrónomo Sosígenes de Alejandría, hizo que el 46 durase <strong>445 días</strong> y fijó el resto en 365 y cuarto. Nadie tuvo que volver a tocarlo hasta 1582.",
+          "Y si Roma era un acuerdo, el calendario también lo era. Lo administraban los pontífices, que intercalaban meses sueltos para cuadrarlo con el sol; como los cargos duraban justo doce meses, cada uno alargaba el suyo y recortaba el del rival. Cien años de trampas pequeñas habían corrido el año tres meses enteros: las fiestas de la vendimia se celebraban con los campos todavía verdes. César llamó a un astrónomo de Alejandría, Sosígenes, y ordenó que el 46 durase <strong>445 días</strong>. Luego fijó el año en 365 y cuarto. Nadie tuvo que volver a tocarlo hasta 1582.",
         destacado: { tipo: "cifra", cifra: "445", unidad: "días tuvo el año 46 a. C." },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quien reordena el tiempo ha dejado de ser un cónsul, y eso fue exactamente lo que sesenta senadores no pudieron tolerar. Lo mataron para salvar la república y le firmaron el certificado de defunción: catorce años después su sobrino nieto era Augusto, y Roma, un imperio. Del «¿tú también, Bruto?» no queda rastro fuera de Shakespeare. Lo que sí hubo fue un informe. El médico Antistio examinó el cuerpo, contó veintitrés heridas y dictaminó que solo una, la segunda, en el pecho, era mortal de necesidad: sesenta hombres apuñalando a la vez para que contara un único golpe. El nombre les sobrevivió a todos.",
+          "Quien manda sobre el calendario ha dejado de ser un magistrado, y eso fue lo que sesenta togas no pudieron tolerar. Lo mataron para salvar la república y lo que hicieron fue ponerle fecha: catorce años después su sobrino nieto era Augusto, y Roma, un imperio. Del «¿tú también, Bruto?» no queda rastro fuera de Shakespeare. Lo que sí hubo fue un informe. El médico Antistio contó veintitrés heridas y dictaminó que una sola, la segunda, en el pecho, había sido mortal. Sesenta hombres apuñalando a la vez para que contara un único golpe. El nombre les sobrevivió a todos.",
       },
     ],
   },

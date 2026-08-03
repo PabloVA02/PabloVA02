@@ -29,24 +29,24 @@ export const CATASTROFES: Short[] = [
     },
     encargo: "El reactor 4 reventado, visto desde el aire, con el tejado abierto.",
     entrada:
-      "A la 1:23 de la madrugada del 26 de abril de 1986, una prueba de <em>seguridad</em> dejó al reactor 4 de Chernóbil a una potencia que ya no podía bajar nadie. En cuatro segundos se multiplicó por cien. Ahí terminó la parte que le tocaba a la física. Todo lo que vino después de aquellos cuatro segundos lo decidieron personas.",
+      "La 1:23 de la madrugada del 26 de abril de 1986. Una prueba de <em>seguridad</em> deja al reactor 4 de Chernóbil en una potencia que ya nadie puede bajar, y en cuatro segundos se multiplica por cien. Ahí termina la parte que le tocaba a la física. Todo lo que viene después lo deciden personas con nombre y apellidos.",
     paginas: [
       {
         rotulo: "La tapa",
         texto:
-          "Lo que hizo la física en esos cuatro segundos fue levantar la tapa del reactor —<strong>1.200 toneladas</strong> de acero y hormigón que los operarios llamaban «Elena»— y dejarla caer de canto, con el núcleo abierto al cielo. Encima no había nada: el diseño soviético RBMK prescindía del edificio de contención, esa cúpula que en Occidente se levanta precisamente para el día en que todo falle. El grafito se puso a arder y ardió diez días seguidos. La columna subió kilómetros y el viento repartió el yodo y el cesio por media Europa. Los bomberos subieron al tejado con el uniforme puesto.",
+          "Lo que hizo la física en esos cuatro segundos fue levantar la tapa del reactor —<strong>1.200 toneladas</strong> de acero y hormigón que los operarios llamaban «Elena»— y dejarla caer de canto, con el núcleo abierto al cielo. Encima no había nada. El diseño soviético RBMK prescindía del edificio de contención, esa cúpula que en Occidente se levanta precisamente para el día en que todo falle. El grafito se puso a arder y ardió diez días seguidos, y el viento fue repartiendo el yodo y el cesio por media Europa. Los bomberos subieron al tejado con el uniforme puesto.",
         destacado: { tipo: "cifra", cifra: "1.200", unidad: "toneladas de tapa" },
       },
       {
         rotulo: "El sábado siguiente",
         texto:
-          "Y lo que decidieron las personas fue callarse. A tres kilómetros dormían las 49.000 de Prípiat, una ciudad nueva levantada para los trabajadores de la central, con una edad media de veintiséis años. El sábado amaneció soleado y no se suspendió absolutamente nada: hubo bodas, los niños jugaron en la calle y algunos subieron al puente del ferrocarril a mirar el resplandor bonito. El parque de atracciones abría el 1 de mayo. La orden de evacuar tardó <strong>36 horas</strong>, y cuando llegaron los 1.200 autobuses se anunció por megafonía que cogieran la documentación y comida para tres días.",
+          "Lo que decidieron las personas fue callarse. A tres kilómetros dormían las cuarenta y nueve mil de Prípiat, una ciudad levantada para los trabajadores de la central: edad media, veintiséis años. El sábado amaneció soleado y no se suspendió nada. Hubo bodas. Los niños jugaron en la calle y algunos subieron al puente del ferrocarril a mirar el resplandor, que era bonito. El parque de atracciones abría el 1 de mayo. La orden de evacuar tardó <strong>36 horas</strong>, y cuando llegaron los mil doscientos autobuses se anunció por megafonía que cogieran la documentación y comida para tres días.",
         destacado: { tipo: "frase", frase: "Se les dijo que era para tres días." },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Ninguno volvió. Aquella noche murieron dos personas y en los meses siguientes otras veintiocho, casi todas bomberos y operarios que estuvieron a pie de reactor sin saber qué apagaban. El total a largo plazo se sigue discutiendo, y la discusión forma parte de la historia: consiste en decidir cuántos cánceres de una población enorme se le atribuyen a una sola noche. Lo demás no se discute. La zona sigue cerrada cuarenta años después, la noria de Prípiat no llegó a girar nunca con nadie dentro, y por aquellas calles pasean hoy alces y caballos de Przewalski. Prosperan justo donde nosotros ya no podemos estar.",
+          "Ninguno volvió. Aquella noche murieron dos personas y en los meses siguientes otras veintiocho, casi todas bomberos y operarios que estuvieron a pie de reactor sin saber qué apagaban. El total a largo plazo se sigue discutiendo, y la discusión forma parte de la historia: consiste en decidir cuántos cánceres de una población enorme se le cargan a una sola noche. Lo demás no se discute. Cuarenta años después la zona sigue cerrada, la noria de Prípiat no llegó a girar con nadie dentro, y por aquellas calles pasean alces y caballos de Przewalski. Prosperan justo donde nosotros ya no podemos estar.",
       },
     ],
   },

@@ -48,24 +48,24 @@ export const COSMOS: Short[] = [
     encargo:
       "Venus en falso color radar, la superficie sin nubes, ocupando casi todo el encuadre.",
     entrada:
-      "Un día cabe dentro de un año. Lo damos por hecho porque en el único planeta que conocemos de cerca ocurre así: la Tierra gira sobre sí misma trescientas sesenta y cinco veces por cada vuelta que le da al Sol. Pero eso no es una ley del universo. Es una costumbre local, y basta con asomarse al planeta vecino para verla rota.",
+      "Piensa en cuántas veces has dicho «dentro de un año» sin pararte a pensarlo. La frase funciona porque aquí un día cabe holgadamente dentro de un año: trescientas sesenta y cinco vueltas sobre nosotros mismos por cada vuelta al Sol. Pero eso no es una ley del universo. Es una costumbre local, y el planeta vecino la rompe.",
     paginas: [
       {
         rotulo: "Las dos vueltas",
         texto:
-          "En Venus la cuenta sale al revés: <strong>243 días terrestres</strong> para dar una vuelta sobre su eje y solo <strong>225</strong> para dar la vuelta al Sol, de manera que allí el día dura más que el año. Gira además tan despacio que un coche por autopista adelantaría a su ecuador, que avanza a unos 6,5 km/h frente a los 1.670 del nuestro. Y gira al revés, en sentido retrógrado, así que el Sol sale por el oeste. Nada de esto exigió una catástrofe: bastaron las mareas del Sol y el rozamiento de una atmósfera densísima, frenándolo durante miles de millones de años hasta invertirle el giro.",
+          "En Venus la cuenta sale del revés: <strong>243 días terrestres</strong> para girar una vez sobre su eje, <strong>225</strong> para dar la vuelta al Sol. Allí el día dura más que el año. Y gira tan despacio que un coche por autopista adelantaría a su ecuador, que avanza a 6,5 km/h frente a los 1.670 del nuestro; gira además al revés, de modo que el Sol sale por el oeste. Para dejarlo así no hizo falta ningún cataclismo. Bastaron las mareas del Sol y el rozamiento de una atmósfera espesa, empujando durante miles de millones de años hasta invertirle el giro.",
         destacado: { tipo: "cifra", cifra: "243", unidad: "días terrestres dura una vuelta" },
       },
       {
         rotulo: "El día que sí se ve",
         texto:
-          "Aunque esa cifra, la de los 243 días, no es la que notaría nadie. Es el día sidéreo: una vuelta completa medida contra las estrellas, que es como lo cuenta un instrumento y no como lo vive un cuerpo. Quien estuviera de pie en la superficie mediría el tiempo que va de un amanecer al siguiente, y ahí las cuentas cambian: como el planeta gira hacia un lado mientras orbita hacia el otro, los dos movimientos se suman en lugar de restarse. El Sol vuelve al mismo punto del cielo cada <strong>117 días terrestres</strong>. En un año venusiano caben, pues, dos amaneceres escasos.",
+          "Aunque esos 243 días no son los que notaría nadie. Son el día sidéreo, una vuelta medida contra las estrellas: así lo cuenta un instrumento, no un cuerpo. Quien estuviera de pie ahí abajo mediría otra cosa, el trecho que va de un amanecer al siguiente, y ahí las cuentas se descolocan: como el planeta gira hacia un lado mientras orbita hacia el otro, los dos movimientos se suman en vez de restarse. El Sol vuelve al mismo punto del cielo cada <strong>117 días terrestres</strong>. En un año venusiano caben, pues, dos amaneceres escasos.",
         destacado: { tipo: "cifra", cifra: "117", unidad: "días entre un amanecer y el siguiente" },
       },
       {
         rotulo: "Lo que queda",
         texto:
-          "Salvo que nadie va a estar de pie en esa superficie, ni a contar amaneceres. La capa de nubes de ácido sulfúrico es opaca; debajo hace unos 465 °C, más que en Mercurio, que está mucho más cerca del Sol; y la presión al nivel del suelo equivale a estar a novecientos metros bajo el mar. En 1982 la sonda soviética Venera 13 se posó allí y aguantó 127 minutos, casi el doble de lo previsto. Le dio tiempo a mandar las únicas fotografías en color que existen del suelo venusiano: piedras planas, un cielo naranja. Después, silencio.",
+          "Salvo que nadie estará de pie ahí abajo contando amaneceres. La capa de nubes de ácido sulfúrico es opaca; debajo hace 465 grados, más que en Mercurio pese a estar mucho más lejos del Sol; y la presión al nivel del suelo es la de novecientos metros de océano encima. En 1982 la sonda soviética Venera 13 se posó allí y aguantó 127 minutos, casi el doble de lo previsto. Le dio tiempo a mandar las únicas fotografías en color que existen del suelo de Venus: piedras planas, un cielo naranja. Luego, silencio.",
       },
     ],
   },
