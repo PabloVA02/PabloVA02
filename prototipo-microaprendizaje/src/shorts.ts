@@ -2,6 +2,7 @@ import { ARTE } from "./historias/arte";
 import { AVIACION } from "./historias/aviacion";
 import { BICHOS } from "./historias/bichos";
 import { CATASTROFES } from "./historias/catastrofes";
+import { CIENCIA } from "./historias/ciencia";
 import { CINE } from "./historias/cine";
 import { CIUDADES } from "./historias/ciudades";
 import { COCINA } from "./historias/cocina";
@@ -225,6 +226,7 @@ export const SHORTS: Short[] = intercala(
   POLITICA,
   BICHOS,
   MOTOR,
+  CIENCIA,
   ARTE,
   GUERRA,
   AVIACION,

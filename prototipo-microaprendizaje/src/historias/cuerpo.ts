@@ -119,4 +119,96 @@ export const CUERPO: Short[] = [
       },
     ],
   },
+  {
+    id: "hipo-antiguo",
+    titulo: "El hipo es un resto de cuando éramos peces",
+    gancho: "No sirve para nada y ningún medicamento lo cura. La explicación mejor es que sobra desde hace millones de años.",
+    categoria: "Cuerpo",
+    color: "var(--slate)",
+    curioso: true,
+    encargo: "Un renacuajo o un anfibio pequeño flotando en agua verdosa muy cercana.",
+    entrada:
+      "El hipo consiste en una contracción brusca del diafragma —el músculo grande que hay bajo los pulmones— seguida del cierre de golpe de la garganta, que es lo que produce el ruido. Ocurre unas veinte veces por minuto y no se puede controlar. Y a diferencia de toser o estornudar, que sirven para expulsar algo, no cumple ninguna función conocida en un adulto.",
+    paginas: [
+      {
+        rotulo: "El nervio largo",
+        texto:
+          "La pista está en el recorrido absurdo del nervio que lo provoca. El que controla el diafragma sale del cuello, a la altura de las vértebras tercera, cuarta y quinta, y baja hasta el pecho, mucho más lejos de lo que haría falta si el cuerpo se hubiera diseñado de cero. Ese trazado tiene sentido en un pez, donde el mismo circuito nervioso gobernaba las branquias, que están al lado. Al pasar a respirar por pulmones, el músculo se desplazó hacia abajo y el nervio se estiró detrás, dejando este cableado heredado.",
+        destacado: { tipo: "frase", frase: "El nervio baja del cuello al pecho porque en un pez no tenía que bajar." },
+      },
+      {
+        rotulo: "Los renacuajos",
+        texto:
+          "La otra pista viene de los anfibios. Un renacuajo respira por branquias y para hacerlo bombea agua por la boca mientras cierra la glotis, la tapa de la garganta, para que el agua no se le vaya al pulmón incipiente: es exactamente el mismo movimiento que el hipo, contracción más cierre brusco. Los fetos humanos hipan dentro del útero desde la novena semana, mucho antes de respirar, y hay estudios que sostienen que ese ejercicio ayuda a entrenar el diafragma y a aprender a coordinar la deglución.",
+        destacado: { tipo: "cifra", cifra: "9", unidad: "semanas de feto y ya hipa" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Los remedios caseros —contener la respiración, beber del lado contrario del vaso, un susto— funcionan a veces por el mismo motivo: casi todos suben el dióxido de carbono en sangre o estimulan el nervio que va del cerebro al abdomen, y eso interrumpe el reflejo. Ninguno está demostrado. El récord conocido lo tiene un estadounidense que estuvo con hipo sesenta y ocho años seguidos, desde 1922, y que llegó a casarse dos veces y a tener ocho hijos sin que parara.",
+      },
+    ],
+  },
+
+  {
+    id: "huesos-oido",
+    titulo: "Dos huesos del oído fueron mandíbula de reptil",
+    gancho: "Los tres huesos más pequeños del cuerpo entran en una moneda de dos céntimos. Dos vienen de una quijada.",
+    categoria: "Cuerpo",
+    color: "var(--forest)",
+    curioso: true,
+    encargo: "Tres huesecillos diminutos sobre un paño oscuro, fotografiados muy de cerca.",
+    entrada:
+      "Dentro de cada oído hay tres huesos que son los más pequeños del cuerpo humano: juntos pesan menos que un grano de arroz y caben de sobra en una moneda pequeña. Se llaman martillo, yunque y estribo por la forma que tienen, transmiten la vibración del tímpano hacia el interior del oído y son los únicos huesos del cuerpo que ya nacen con su tamaño definitivo: no crecen ni un milímetro en toda la vida. El más pequeño mide tres milímetros.",
+    paginas: [
+      {
+        rotulo: "La quijada",
+        texto:
+          "Dos de esos tres huesos no empezaron ahí. En los reptiles, la mandíbula inferior está formada por varias piezas y dos de ellas ocupan la parte de atrás, justo al lado del oído. En la línea que lleva a los mamíferos, la mandíbula se fue simplificando hasta quedar en un solo hueso, y aquellas dos piezas sobrantes se encogieron, se desprendieron y quedaron atrapadas dentro del oído medio, donde encontraron un oficio nuevo. Se conservan fósiles de la transición en los que la pieza aparece a medio camino, todavía unida a la mandíbula y ya orientada hacia el oído, y algunos animales intermedios oían y masticaban con el mismo hueso. Es una de las secuencias mejor documentadas de todo el registro fósil.",
+        destacado: { tipo: "frase", frase: "Dos piezas de una quijada quedaron atrapadas dentro del oído." },
+      },
+      {
+        rotulo: "Para qué sirven",
+        texto:
+          "El motivo de que hagan falta tres es de física. El sonido llega por el aire, que es ligero, y tiene que pasar a un líquido, que es lo que llena el caracol del oído interno; sin ayuda, casi toda la energía rebotaría en la frontera igual que rebota una voz en la superficie de una piscina. La cadena de huesecillos hace de palanca y concentra la fuerza del tímpano en una ventana veinte veces más pequeña, multiplicando la presión lo suficiente para mover el líquido. Sin ellos oiríamos como debajo del agua.",
+        destacado: { tipo: "cifra", cifra: "20x", unidad: "más pequeña es la ventana de salida" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Esa herencia explica de paso por qué los mamíferos oímos agudos que un reptil no percibe: los huesos sueltos y pequeños vibran mejor con frecuencias altas que una mandíbula entera. Y hay un músculo diminuto pegado al estribo, el más pequeño del cuerpo, que se contrae automáticamente ante un ruido fuerte para frenar la cadena y proteger el oído; tarda unos cuarenta milisegundos en reaccionar, de modo que llega tarde ante un disparo o una explosión, que es exactamente cuando haría falta. Sirve contra el ruido continuo de una obra o de un motor, y no sirve absolutamente de nada contra lo que aparece de golpe.",
+      },
+    ],
+  },
+
+  {
+    id: "huellas-dactilares",
+    titulo: "Las huellas no sirven para agarrar mejor",
+    gancho: "Se enseñó durante un siglo que daban agarre. Los experimentos dicen que reducen el contacto.",
+    categoria: "Cuerpo",
+    color: "var(--clay)",
+    curioso: true,
+    encargo: "Una yema de dedo iluminada de lado, con los surcos marcados por la sombra.",
+    entrada:
+      "Todo el mundo ha oído la explicación en el colegio: las huellas de los dedos existen para que las cosas no se nos resbalen, como los dibujos de un neumático. Es una idea razonable, se repite en los libros de texto desde hace más de cien años y, según los experimentos que se han hecho desde 2009, es probablemente falsa.",
+    paginas: [
+      {
+        rotulo: "La medida",
+        texto:
+          "Un equipo británico midió la fricción real de un dedo humano contra una superficie de vidrio, variando la presión, y encontró lo contrario de lo esperado: la piel de la yema se comporta como una goma, y en una goma el rozamiento depende del área que toca. Los surcos, al ser valles, levantan parte de la piel y reducen el contacto en torno a un tercio respecto a una yema lisa. Es decir: agarraríamos mejor un vaso si tuviéramos las yemas completamente lisas, sin ningún dibujo. El experimento se repitió con distintos materiales y presiones y el resultado se sostuvo en todos, lo que dejó sin apoyo la explicación que llevaba un siglo en los libros de texto.",
+        destacado: { tipo: "cifra", cifra: "1/3", unidad: "menos superficie de contacto que una yema lisa" },
+      },
+      {
+        rotulo: "Para qué son",
+        texto:
+          "Las explicaciones que se manejan ahora son otras dos, y no se excluyen. Una es el tacto fino: los surcos amplifican la vibración cuando el dedo recorre una superficie, y esa vibración llega a unos receptores concretos que están justo debajo, de modo que las crestas funcionan como la aguja de un tocadiscos y permiten notar rugosidades de una milésima de milímetro. La otra explicación es el agua: los canales que quedan entre los surcos evacuan el líquido de la superficie, igual que hace el dibujo de un neumático con la lluvia, y eso sí mejora el agarre cuando la piel está mojada o sudada. Las dos ideas conviven y ninguna está cerrada del todo.",
+        destacado: { tipo: "frase", frase: "Los surcos funcionan como la aguja de un tocadiscos." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El dibujo se forma entre la décima y la decimosexta semana de embarazo, cuando la piel del feto crece más rápido que la capa de debajo y se arruga; depende de la presión del líquido, de la postura y de la nutrición, y por eso ni siquiera dos gemelos idénticos, con el mismo ADN, tienen la misma huella. No cambia en toda la vida salvo por una cicatriz profunda. Y existen unas pocas familias en el mundo con una mutación rarísima que hace nacer sin ninguna huella, con las yemas lisas: no pueden sacarse el pasaporte ni cruzar una frontera automática sin llevar encima un informe médico que lo explique. La afección tiene nombre propio desde 2011.",
+      },
+    ],
+  },
 ];

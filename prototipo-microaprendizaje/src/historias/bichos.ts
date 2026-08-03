@@ -118,4 +118,96 @@ export const BICHOS: Short[] = [
       },
     ],
   },
+  {
+    id: "cuervos-caras",
+    titulo: "Los cuervos reconocen caras y avisan a los demás",
+    gancho: "Unos científicos se pusieron una máscara para capturarlos. Cinco años después los seguían insultando por la calle.",
+    categoria: "Bichos",
+    color: "var(--slate)",
+    curioso: true,
+    encargo: "Un cuervo negro de perfil sobre una rama pelada, con el ojo muy nítido.",
+    entrada:
+      "Estados Unidos, 2006. Un grupo de biólogos de una universidad de Seattle necesita capturar cuervos del campus para anillarlos, y sospecha que los animales aprenden a reconocer a quien los atrapa. Para comprobarlo se les ocurre un método sencillo: hacer las capturas siempre con la misma máscara de goma puesta, y después pasear por allí con ella y sin ella.",
+    paginas: [
+      {
+        rotulo: "La máscara",
+        texto:
+          "Anillaron a siete cuervos llevando una máscara concreta, la cara de un hombre cualquiera. A partir de ese día, quien se paseara con esa máscara recibía una bronca: los pájaros graznaban con un sonido de alarma específico, se acercaban en picado y varios se sumaban desde los árboles de alrededor. Con otra máscara distinta no pasaba nada. El detalle importante es que daba exactamente igual quién fuera la persona que llevaba la máscara puesta: podía ser un estudiante recién llegado que no había tocado un cuervo en su vida, y lo perseguían igual desde que ponía un pie en el campus. Lo que reconocían era la cara, no al hombre.",
+        destacado: { tipo: "frase", frase: "Con una máscara le graznaban. Con otra, ni lo miraban." },
+      },
+      {
+        rotulo: "El boca a boca",
+        texto:
+          "Con los años, el número de cuervos que reaccionaba creció en vez de menguar, hasta el cuarenta y siete por ciento de los del campus: muchos más de los siete capturados, y muchos ni siquiera nacidos aquel día. La conclusión es que se lo enseñaban unos a otros, y que los jóvenes aprendían de los adultos a quién había que gritar sin haber tenido nunca un mal encuentro. El experimento siguió activo diecisiete años, con salidas periódicas a pasearse por el campus con la máscara puesta y una libreta, y la última bronca documentada fue en 2023.",
+        destacado: { tipo: "cifra", cifra: "17", unidad: "años duró el rencor de los cuervos" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Los estudios de imagen cerebral hechos después mostraron que ver la máscara peligrosa les activa zonas asociadas al miedo y a la memoria, parecidas a las nuestras. Estos animales también fabrican herramientas, doblando un alambre en forma de gancho para sacar comida de un tubo, y guardan objetos brillantes. Y hay quien deja comida en la ventana durante meses para ganárselos y acaba recibiendo pequeños regalos dejados en el mismo sitio: un tornillo, una cuenta de collar, un trozo de cristal pulido, un pendiente suelto. El caso mejor documentado es el de una niña de Seattle que llegó a reunir una colección entera. El rencor y la gratitud viajan por el mismo camino.",
+      },
+    ],
+  },
+
+  {
+    id: "hormigas-agricultoras",
+    titulo: "Hay hormigas que cultivan hongos desde antes que nosotros",
+    gancho: "No comen hoja: la usan de abono. Inventaron la agricultura cincuenta y nueve millones de años antes que nosotros.",
+    categoria: "Bichos",
+    color: "var(--forest)",
+    curioso: true,
+    encargo: "Una fila de hormigas cargando trozos de hoja verde por el suelo del bosque.",
+    entrada:
+      "En los bosques de América hay filas de hormigas que cargan trozos de hoja recortados como banderines, diez veces su propio peso, y los meten bajo tierra. Todo el mundo da por hecho que se los comen; no pueden, porque no digieren la celulosa. Los usan de abono para un cultivo que atienden desde hace sesenta millones de años.",
+    paginas: [
+      {
+        rotulo: "La granja",
+        texto:
+          "Dentro del hormiguero, que puede tener el volumen de una furgoneta y bajar seis metros, mastican las hojas hasta hacer una pasta y la extienden en cámaras donde crece un hongo concreto, que es lo único que comen. Ese hongo no existe en libertad: depende por completo de ellas y ellas de él, hasta el punto de que una reina fundadora se lleva un trocito en la boca al abandonar su nido para empezar otro. Las obreras más pequeñas se dedican solo a desherbar, retirando esporas de hongos que no son el suyo.",
+        destacado: { tipo: "frase", frase: "Una reina que se marcha se lleva un trozo del cultivo en la boca." },
+      },
+      {
+        rotulo: "El herbicida",
+        texto:
+          "El sistema tiene además su propio control de plagas. Un hongo parásito ataca los cultivos y las hormigas lo combaten con una bacteria que llevan encima del cuerpo, en unas cavidades de la coraza pensadas para alojarla, y que produce un compuesto que lo frena. Es decir: fabrican su antibiótico sobre la piel. Los investigadores dieron con ese mecanismo buscando compuestos nuevos para medicina humana, en una época en que las bacterias empezaban a resistirse a todo lo conocido. Varios de los antibióticos aislados desde entonces salieron de mirar muy de cerca la coraza de un insecto que cultiva su propia comida y sabe protegerla.",
+        destacado: { tipo: "cifra", cifra: "60", unidad: "millones de años cultivando" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Un hormiguero maduro puede tener ocho millones de individuos y cortar en una noche todas las hojas de un árbol grande, lo que las convierte en la peor plaga agrícola de varios países. También son, por biomasa, uno de los mayores herbívoros del continente, aunque no coman ni una hoja. Y llevan haciendo esto desde mucho antes de que existieran los primates, los perros o los caballos. Cuando nuestra especie inventó la agricultura en el Creciente Fértil, hace unos doce mil años, y lo celebramos como el gran salto de la humanidad, ellas llevaban con la suya cincuenta y nueve millones de años largos y ya la habían perfeccionado.",
+      },
+    ],
+  },
+
+  {
+    id: "ballenas-canto",
+    titulo: "Las ballenas cambian de canción todas a la vez",
+    gancho: "Todos los machos de un océano cantan lo mismo. Cuando aparece una versión nueva, se extiende en dos años.",
+    categoria: "Bichos",
+    color: "var(--ochre)",
+    curioso: true,
+    encargo: "Una ballena jorobada suspendida en agua azul profunda, vista desde abajo.",
+    entrada:
+      "Océano Pacífico, 1967. Un biólogo estadounidense consigue grabaciones militares submarinas y descubre que unos sonidos largos y repetitivos que salen en las cintas no son ruido de máquinas: son ballenas jorobadas cantando. Los machos emiten secuencias de hasta veinte minutos que repiten durante horas, y el sonido viaja bajo el agua cientos de kilómetros.",
+    paginas: [
+      {
+        rotulo: "La misma canción",
+        texto:
+          "Al comparar grabaciones apareció lo desconcertante: todos los machos de una misma zona del océano cantan exactamente la misma canción, y su estructura es mucho más ordenada de lo que parece. Cada canción se compone de unidades que forman frases, las frases se agrupan en temas y los temas se suceden siempre en el mismo orden, como las estrofas de una copla. Un macho puede repetirla sin pausa durante veinticuatro horas. Y todos los de una misma población cantan la versión vigente casi nota por nota, hasta el punto de que un investigador puede identificar el océano por la melodía, igual que se identifica un acento.",
+        destacado: { tipo: "cifra", cifra: "20", unidad: "minutos puede durar una canción" },
+      },
+      {
+        rotulo: "La moda",
+        texto:
+          "Lo asombroso es que esa canción cambia. Cada pocos años aparece una variación —a veces traída por un grupo que viene de otra zona— y se impone: todos los machos la adoptan y abandonan la anterior, sin volver a ella nunca. Se documentó una versión que salió del este de Australia y cruzó el Pacífico hacia el oeste, población por población, tardando unos dos años en recorrer seis mil kilómetros y sustituyendo por completo a la que había en cada sitio por el que pasaba. Es la única moda cultural conocida a esa escala fuera de nosotros.",
+        destacado: { tipo: "frase", frase: "Una canción cruzó el Pacífico en dos años y borró a las demás." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "No se sabe para qué cantan. Las explicaciones más manejadas son atraer a las hembras o marcar territorio frente a otros machos, y ninguna encaja del todo con las observaciones. Aquellas grabaciones de los años sesenta se publicaron en un disco que vendió más de cien mil copias y que se considera clave en la campaña que llevó a prohibir la caza comercial en 1986. Aquellas grabaciones se publicaron en un disco que vendió más de cien mil copias y que se considera decisivo en la campaña que llevó a prohibir la caza comercial en 1986. Una copia viaja hoy fuera del sistema solar, en el disco de oro de las Voyager.",
+      },
+    ],
+  },
 ];

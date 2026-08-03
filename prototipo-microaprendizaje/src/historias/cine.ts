@@ -116,4 +116,95 @@ export const CINE: Short[] = [
       },
     ],
   },
+  {
+    id: "chaplin-concurso",
+    titulo: "Chaplin perdió un concurso de imitadores de Chaplin",
+    gancho: "Se presentó de incógnito a un certamen de dobles suyos en San Francisco y no pasó de la ronda inicial.",
+    categoria: "Cine",
+    color: "var(--ochre)",
+    curioso: true,
+    encargo: "Un bombín, un bastón y unos zapatos grandes sobre un fondo claro, en blanco y negro.",
+    entrada:
+      "Estados Unidos, años veinte. Un cómico británico afincado en el cine mudo se ha convertido en la cara más reconocible del planeta: bombín, bigote recortado, bastón y unos zapatos enormes. Es tan popular que en las ciudades se organizan concursos para ver quién lo imita mejor, con premio en metálico. Y en uno de ellos se presenta él, sin decir quién es.",
+    paginas: [
+      {
+        rotulo: "El concurso",
+        texto:
+          "La historia la contó él mismo en varias entrevistas y la recogió la prensa de la época, aunque los detalles bailan según quién la cuente: unas versiones lo sitúan en un teatro de San Francisco y otras en Suiza, ya mayor. La coincidencia está en lo importante. Se apuntó como uno más, hizo su propio andar de pies hacia fuera delante de un jurado que buscaba parecidos, y quedó fuera en las primeras rondas. En una de las versiones llegó a ser tercero; en otra, ni eso.",
+        destacado: { tipo: "frase", frase: "El jurado buscaba a alguien que se pareciera a él. Y él no se parecía bastante." },
+      },
+      {
+        rotulo: "Por qué perdió",
+        texto:
+          "La explicación tiene su lógica y dice bastante de cómo funcionan las imitaciones. Los concursantes no copiaban a la persona, copiaban el personaje tal y como se veía en pantalla, exagerando el bigote, el vaivén del bastón y la manera de andar hasta convertirlo en una caricatura reconocible desde el fondo de la sala. Él, en cambio, hacía el gesto de verdad, más contenido, con el ritmo de quien lo ha inventado. Al lado de las caricaturas, el original parecía una imitación floja.",
+        destacado: { tipo: "frase", frase: "Los demás copiaban el personaje. Él hacía el gesto de verdad." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Aquel personaje le duró veinticinco años y lo retiró en 1936, justo cuando el cine hablado se había impuesto del todo; su primera película con diálogo llegó en 1940 y fue una parodia de Hitler, con quien compartía bigote y año de nacimiento, separados por cuatro días. Murió en Suiza la Nochebuena de 1977 y dos meses después unos ladrones robaron su ataúd para pedir rescate; lo encontraron enterrado en un maizal a veinte kilómetros. Está enterrado de nuevo bajo dos metros de hormigón.",
+      },
+    ],
+  },
+
+  {
+    id: "king-kong-maqueta",
+    titulo: "King Kong medía cuarenta y cinco centímetros",
+    gancho: "El gorila que aterrorizó a Nueva York era un muñeco de metal y goma que se movía a mano, fotograma a fotograma.",
+    categoria: "Cine",
+    color: "var(--slate)",
+    curioso: true,
+    encargo: "Una maqueta de rascacielos de los años treinta con un muñeco articulado encima.",
+    entrada:
+      "Hollywood, 1933. Se estrena una película sobre un gorila gigante traído de una isla perdida que acaba subido a un rascacielos de Nueva York con una mujer en la mano. El público sale convencido de haber visto un animal enorme. Lo que había delante de la cámara era un armazón de metal de cuarenta y cinco centímetros forrado de goma y pelo de conejo.",
+    paginas: [
+      {
+        rotulo: "Un dedo por foto",
+        texto:
+          "La técnica consistía en fotografiar el muñeco, moverlo un poco, fotografiarlo otra vez y repetir: veinticuatro fotos para cada segundo de película. Un animador tardaba una jornada entera en sacar adelante unos pocos segundos, y durante el rodaje el pelo del muñeco se aplastaba con los dedos, de modo que en la película acabada el pelaje del gorila hierve y tiembla continuamente. No fue un fallo que se ocultara ni que se pudiera arreglar: al público le pareció que el animal respiraba de puro nervio, y el efecto se quedó como marca de la casa. Los planos más largos del gorila costaron semanas de trabajo para durar menos de un minuto en pantalla.",
+        destacado: { tipo: "cifra", cifra: "24", unidad: "fotos por cada segundo de película" },
+      },
+      {
+        rotulo: "Las manos grandes",
+        texto:
+          "Para los planos cercanos se construyeron piezas sueltas a tamaño real. Una mano de casi dos metros y medio, con estructura de acero y muelles, en la que la actriz se sentaba sujeta por unos cinturones mientras dos operarios la levantaban con una grúa; se cayó de ella más de una vez. Se construyó también una cabeza de casi dos metros con tres hombres metidos dentro accionando palancas para mover las cejas, los labios y los párpados, y un pie enorme para los planos en que aplastaba a alguien. El rascacielos por el que trepa era una maqueta de escayola de siete metros colocada en un tejado.",
+        destacado: { tipo: "frase", frase: "Dentro de la cabeza del gorila había tres hombres con palancas." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "La película salvó al estudio, que estaba al borde de la quiebra en plena crisis económica, y se reestrenó cuatro veces en veinte años. De los muñecos originales no se conserva ninguno entero: la goma se descompone con el tiempo y los armazones se desmontaron para reutilizar las piezas en otros rodajes. De los muñecos solo queda un esqueleto metálico incompleto, sin piel ni pelo, en manos de un coleccionista privado que lo compró en una subasta. El animal más grande de la historia del cine cabía de sobra dentro de una caja de zapatos, y así estuvo guardado décadas.",
+      },
+    ],
+  },
+
+  {
+    id: "llegada-sonido",
+    titulo: "El sonido dejó sin trabajo a media industria",
+    gancho: "Los estudios se resistieron cuatro años. Cuando cedieron, se arruinaron carreras enteras en un semestre.",
+    categoria: "Cine",
+    color: "var(--plum)",
+    encargo: "Un micrófono de estudio de los años treinta colgado sobre un plató vacío.",
+    entrada:
+      "Hollywood, 1927. El cine lleva treinta años siendo mudo y funciona: hay orquestas en las salas, actores famosos en todo el mundo sin que nadie sepa cómo suena su voz, y películas que se exportan cambiando solo los carteles de texto. Aquel año se estrena una película con unos minutos de diálogo sincronizado, y en cuatro años no queda nada del sistema anterior.",
+    paginas: [
+      {
+        rotulo: "La cámara enjaulada",
+        texto:
+          "Grabar sonido obligó a cambiarlo todo dentro del plató. Los micrófonos de la época recogían cualquier ruido, así que había que esconderlos en un jarrón o entre las flores y los actores tenían que hablar hacia ellos sin moverse. La cámara, que hacía un zumbido continuo, se metía en una cabina insonorizada del tamaño de un armario, con el operador dentro pasando calor; en algunos rodajes hubo desmayos. El resultado fueron películas mucho más quietas que las mudas, con los actores plantados alrededor de una mesa o de un teléfono, hablando hacia un florero. Los primeros años del cine sonoro se ven, comparados con lo anterior, sorprendentemente rígidos y teatrales.",
+        destacado: { tipo: "frase", frase: "La cámara se encerró en una cabina, con el operador dentro." },
+      },
+      {
+        rotulo: "Las voces",
+        texto:
+          "Y llegó la criba. Actores adorados durante una década resultaron tener voces agudas, acentos extranjeros marcados o problemas para memorizar diálogo largo, algo que en el mudo no importaba nada porque el texto se improvisaba. Varias estrellas desaparecieron de las carteleras en menos de un año. Los músicos de las salas —unos veintidós mil solo en Estados Unidos— se quedaron sin trabajo de golpe, y los rótulos de texto, que para exportar una película solo había que cambiar de idioma e intercalar, dejaron de servir de golpe. Hubo que inventar el doblaje y los subtítulos, y durante un par de años algunos estudios llegaron a rodar la misma película dos y tres veces con repartos distintos para cada país.",
+        destacado: { tipo: "cifra", cifra: "22.000", unidad: "músicos de sala se quedaron sin trabajo" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El doblaje se inventó ahí, y en España se volvió obligatorio en 1941 por una orden que exigía proyectar todas las películas extranjeras habladas en español, con la censura de por medio; de aquella orden viene que hoy sea el país europeo donde menos se ve cine en versión original. De las películas mudas, en cambio, se ha perdido cerca del setenta y cinco por ciento de todo lo que se rodó: nadie las guardó, porque el negocio dejó de existir en unos meses y el material era caro de almacenar. Muchas se quemaron a propósito para recuperar la plata de la emulsión.",
+      },
+    ],
+  },
 ];
