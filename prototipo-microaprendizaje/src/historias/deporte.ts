@@ -116,4 +116,94 @@ export const DEPORTE: Short[] = [
       },
     ],
   },
+  {
+    id: "maraton-1904",
+    titulo: "El maratón de 1904 lo ganó alguien que fue en coche",
+    gancho: "Catorce de treinta y dos llegaron a meta. Al segundo le habían dado veneno para ratas.",
+    categoria: "Deporte",
+    color: "var(--clay)",
+    curioso: true,
+    encargo: "Una carretera polvorienta de principios del siglo XX con un coche antiguo levantando polvo.",
+    entrada:
+      "San Luis, Estados Unidos, agosto de 1904. Se corre el maratón de los terceros Juegos Olímpicos de la historia, a las tres de la tarde, con treinta y dos grados y por caminos de tierra. Los organizadores han decidido que solo habrá un punto de agua en cuarenta kilómetros, porque quieren estudiar los efectos de la deshidratación en el cuerpo humano.",
+    paginas: [
+      {
+        rotulo: "La carrera",
+        texto:
+          "Los coches de los jueces iban por delante levantando nubes de polvo que los corredores tenían que tragarse. Uno de los favoritos empezó a vomitar sangre por el polvo y tuvo que retirarse; otro se salió del camino perseguido por dos perros y acabó a más de un kilómetro. Dos participantes cubanos, que habían viajado sin dinero, corrieron con pantalones largos cortados a tijera en la línea de salida, y uno de ellos se paró a comer manzanas de un huerto, se puso malo y echó una siesta bajo un árbol. Aun así terminó cuarto.",
+        destacado: { tipo: "cifra", cifra: "14", unidad: "de 32 corredores llegaron a meta" },
+      },
+      {
+        rotulo: "El coche",
+        texto:
+          "El primero en cruzar la meta lo hizo fresco y sonriente, y se le fotografió con la corona. Al rato se supo que a los catorce kilómetros se había subido a un coche por un calambre, había recorrido dieciséis kilómetros sentado y se había bajado cerca del final para entrar corriendo. Él sostuvo siempre que había sido una broma. Le retiraron el premio. El que quedó primero de verdad llegó tan mal que sus entrenadores tuvieron que sostenerlo, y confesaron después lo que le habían dado por el camino.",
+        destacado: { tipo: "frase", frase: "Hizo dieciséis kilómetros sentado en un coche." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Le habían suministrado sulfato de estricnina —veneno para ratas, que en dosis mínimas estimula el músculo— mezclado con clara de huevo y regado con brandy, dos veces durante la carrera. Estuvo a punto de morir aquella noche y no volvió a competir. Nada de aquello era ilegal entonces, porque no existía ninguna norma antidopaje. La prueba se ganó en tres horas y veintiocho minutos, el peor tiempo olímpico de la historia, y estuvo a punto de suprimirse del programa para siempre.",
+      },
+    ],
+  },
+
+  {
+    id: "juegos-1936",
+    titulo: "En 1936 un rival alemán le enseñó a saltar",
+    gancho: "Los Juegos eran el escaparate del nazismo. El favorito local ayudó al hombre que iba a ganarle.",
+    categoria: "Deporte",
+    color: "var(--forest)",
+    encargo: "Un foso de salto de longitud con la arena rastrillada y una pista de ceniza al lado.",
+    entrada:
+      "Berlín, agosto de 1936. Alemania organiza unos Juegos Olímpicos pensados como demostración de la superioridad de una raza sobre las demás: banderas por toda la ciudad, un estadio nuevo para cien mil personas y una película encargada para la posteridad. Entre los atletas invitados hay un estadounidense negro, hijo de aparceros y nieto de esclavos, que corre y salta como nadie.",
+    paginas: [
+      {
+        rotulo: "El salto nulo",
+        texto:
+          "En la clasificación de salto de longitud hizo dos nulos seguidos y le quedaba uno para quedarse fuera; había hecho un intento de calentamiento que los jueces contaron como válido, y estaba desconcertado. Entonces se le acercó el favorito local, rubio y alto, que era el rival directo por el oro, y le sugirió que marcara con una toalla un punto varios centímetros antes de la tabla y saltara desde ahí, sacrificando distancia a cambio de asegurar el intento. Le hizo caso, se clasificó de sobra y al día siguiente ganó la final.",
+        destacado: { tipo: "frase", frase: "El rival por el oro le dijo dónde poner la marca." },
+      },
+      {
+        rotulo: "La foto",
+        texto:
+          "El alemán, que quedó segundo, fue el primero en felicitarlo y dieron juntos la vuelta al estadio del brazo, delante de las tribunas llenas de banderas y de la grada oficial. La imagen se publicó en medio mundo. Al alemán le costó cara: le avisaron de que no volviera a hacer nada parecido, no le dejaron competir fuera del país y acabó movilizado, muriendo en el frente italiano en 1943, con veintiséis años. El estadounidense ganó cuatro medallas de oro en aquellos Juegos.",
+        destacado: { tipo: "cifra", cifra: "4", unidad: "medallas de oro en unos Juegos hostiles" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Al volver a su país no le esperaba ningún recibimiento oficial: tuvo que entrar por la puerta de servicio del hotel donde se celebraba su propio homenaje, porque los negros no usaban el ascensor principal, y ningún presidente lo invitó a la Casa Blanca hasta veinte años después. Para ganarse la vida acabó corriendo carreras de exhibición contra caballos. Los dos atletas se escribieron cartas el resto de sus vidas, y él repitió siempre que el gesto de aquella tarde valía más que sus cuatro medallas juntas.",
+      },
+    ],
+  },
+
+  {
+    id: "mano-de-dios",
+    titulo: "Dos goles en cuatro minutos, uno con la mano",
+    gancho: "El primero fue trampa y lo vio todo el estadio menos el árbitro. El segundo es el mejor de la historia.",
+    categoria: "Deporte",
+    color: "var(--slate)",
+    encargo: "Un balón de fútbol de los ochenta sobre césped seco, con la sombra alargada.",
+    entrada:
+      "Ciudad de México, 22 de junio de 1986. Se juega un cuartos de final del Mundial entre Argentina e Inglaterra, cuatro años después de que los dos países se hubieran hecho la guerra por unas islas del Atlántico sur. Hay ciento catorce mil personas en el estadio y treinta grados a mediodía. En el minuto cincuenta y uno pasa lo primero.",
+    paginas: [
+      {
+        rotulo: "El puño",
+        texto:
+          "Un balón queda colgado en el área y el delantero argentino, que mide metro sesenta y cinco, salta contra un portero que le saca veinte centímetros y que llega con el puño por delante. La pelota entra. Lo que no se ve desde el campo, pero sí en las fotos publicadas al día siguiente, es que la tocó con la mano izquierda, pegada a la cabeza para disimular. Los jugadores ingleses protestaron rodeando al árbitro; el árbitro, que estaba lejos y tapado, dio el gol por bueno y no consultó a nadie.",
+        destacado: { tipo: "frase", frase: "Lo vio el estadio entero. No lo vio el único que decidía." },
+      },
+      {
+        rotulo: "Los sesenta metros",
+        texto:
+          "Cuatro minutos después recogió el balón en su propio campo, se giró sobre sí mismo entre dos rivales y arrancó. Recorrió sesenta metros en diez segundos y medio, dejando atrás a cinco jugadores sin que ninguno llegara a tocarle, y terminó regateando también al portero para meterla casi sin ángulo. El relator uruguayo que narraba el partido se quedó sin palabras y acabó gritando cosas que no venían a cuento. Una encuesta de la federación internacional lo eligió, catorce años después, el mejor gol de la historia de los Mundiales.",
+        destacado: { tipo: "cifra", cifra: "10,5", unidad: "segundos duró la jugada del segundo gol" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Al terminar, preguntado por el primero, dijo que lo había marcado un poco con la cabeza y otro poco con la mano de Dios, y la frase se quedó. Años más tarde admitió sin rodeos que había sido con la mano y que lo hizo a propósito. Argentina ganó el partido, ganó el Mundial y aquellos dos goles quedaron pegados el uno al otro: en cuatro minutos, el mismo hombre hizo la mayor trampa y la mayor jugada que se recuerdan en un campo de fútbol.",
+      },
+    ],
+  },
 ];

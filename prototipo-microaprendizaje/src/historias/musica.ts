@@ -117,4 +117,94 @@ export const MUSICA: Short[] = [
       },
     ],
   },
+  {
+    id: "beethoven-sordo",
+    titulo: "Beethoven dirigió una obra que no llegó a oír",
+    gancho: "Se quedó sordo con treinta años y siguió componiendo veinticinco más. Hubo que girarlo para que viera los aplausos.",
+    categoria: "Música",
+    color: "var(--plum)",
+    encargo: "Un piano de cola antiguo con la tapa levantada, en una habitación con poca luz.",
+    entrada:
+      "Viena, 1802. Un compositor alemán de treinta y un años, ya famoso en media Europa, escribe una carta a sus hermanos confesando algo que lleva seis años ocultando: se está quedando sordo. En la carta dice que ha pensado en quitarse la vida y que lo único que lo detiene es la música que todavía no ha escrito. No llegó a enviarla nunca.",
+    paginas: [
+      {
+        rotulo: "El silencio",
+        texto:
+          "La sordera avanzó despacio y por partes. Primero fueron pitidos y dificultad para seguir una conversación en una sala con ruido; después dejó de oír los agudos y tuvo que abandonar los conciertos como pianista, que era de lo que vivía. Probaba a serrar las patas del piano para tocarlo sentado en el suelo y notar la vibración por la madera, y sujetaba una varilla entre los dientes apoyada en la caja para que el sonido le llegara por el hueso del cráneo. Sus cuadernos de conversación, donde las visitas le escribían, se conservan a cientos.",
+        destacado: { tipo: "frase", frase: "Mordía una varilla apoyada en el piano para oír por el hueso." },
+      },
+      {
+        rotulo: "El estreno",
+        texto:
+          "En mayo de 1824, ya completamente sordo, estrenó en Viena la sinfonía que había tardado seis años en terminar, con un coro cantando al final, algo que nadie había metido antes en una sinfonía. Se colocó en el escenario marcando los tiempos, aunque la orquesta tenía orden de seguir al director de verdad, que estaba al lado. Al acabar continuó moviendo los brazos unos compases de más. Una de las cantantes solistas se acercó y lo giró por el hombro para que viera al público de pie, con los pañuelos en alto.",
+        destacado: { tipo: "cifra", cifra: "6", unidad: "años tardó en escribir esa sinfonía" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Murió tres años después, y a su entierro fueron entre diez y treinta mil personas en una ciudad de trescientos mil habitantes; se cerraron las escuelas ese día. El coro final de aquella sinfonía es hoy el himno oficial de la Unión Europea, sin letra para no favorecer a ningún idioma, y su partitura original está inscrita en un registro de la Unesco. La escribió alguien que no llegó a escucharla ni una sola vez, ni siquiera la noche del estreno.",
+      },
+    ],
+  },
+
+  {
+    id: "vinilo-microsurco",
+    titulo: "El disco duró tres minutos porque no cabía más",
+    gancho: "La duración de una canción pop la fijó un trozo de laca girando a setenta y ocho vueltas.",
+    categoria: "Música",
+    color: "var(--ochre)",
+    curioso: true,
+    encargo: "Un disco negro girando en un plato, con la aguja apoyada y el brillo del surco.",
+    entrada:
+      "Estados Unidos, principios del siglo XX. La música grabada se vende en discos de laca de veinticinco centímetros que giran a setenta y ocho vueltas por minuto y que solo aguantan unos tres minutos por cara. No es una decisión artística: es lo que cabe en el surco a esa velocidad. Y esa limitación técnica acabó decidiendo cómo suena hoy una canción.",
+    paginas: [
+      {
+        rotulo: "Tres minutos",
+        texto:
+          "Un músico que quisiera grabar tenía que meter su pieza en ese hueco, así que las canciones se acortaron, se recortaron los solos y se fijó una estructura que sigue viva: estrofa, estribillo, estrofa, estribillo, puente y final. Las radios, que compraban aquellos discos, adoptaron la misma medida para calcular su programación, y los compositores empezaron a escribir directamente pensando en ella. Lo que había nacido como un límite físico de la laca se convirtió en la forma normal de una canción popular, y ahí sigue.",
+        destacado: { tipo: "cifra", cifra: "3 min", unidad: "cabían por cara en un disco de laca" },
+      },
+      {
+        rotulo: "El surco fino",
+        texto:
+          "En 1948 apareció el disco de vinilo con surco más estrecho y velocidad más lenta, treinta y tres vueltas por minuto, que permitía más de veinte minutos por cara. Aquello hizo posible el álbum tal y como lo entendemos: una obra pensada como un conjunto y no como una colección de canciones sueltas. La competencia sacó otro formato de cuarenta y cinco vueltas y siete pulgadas, pensado para una sola canción, y durante años convivieron los dos, obligando a las casas a comprar tocadiscos con tres velocidades.",
+        destacado: { tipo: "frase", frase: "El surco más fino inventó el álbum tal y como lo conocemos." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El vinilo casi desapareció en los noventa con el disco compacto y ha vuelto: desde 2020 vende más que el compacto en varios países, sobre todo entre gente que no vivió su primera época. Y la medida de tres minutos aguanta pese a que ya no exista ninguna razón técnica para respetarla, porque las plataformas de escucha pagan por reproducción a partir de treinta segundos y premian las canciones cortas. Un límite de la laca de hace un siglo sigue decidiendo cuánto dura lo que suena en el coche.",
+      },
+    ],
+  },
+
+  {
+    id: "woodstock",
+    titulo: "Woodstock salió gratis porque no dio tiempo a vallar",
+    gancho: "Vendieron ciento ochenta y seis mil entradas y aparecieron cuatrocientas mil personas.",
+    categoria: "Música",
+    color: "var(--forest)",
+    encargo: "Un campo embarrado lleno de gente y de tiendas de campaña vistas desde una loma.",
+    entrada:
+      "Estado de Nueva York, agosto de 1969. Cuatro socios de veintitantos años organizan un festival de tres días en una granja alquilada y esperan unas cincuenta mil personas. Han vendido entradas por correo, tienen contratados a treinta y dos grupos y les faltan dos días para empezar. Todavía no han montado ni las vallas ni las taquillas, y tienen que elegir entre una cosa y otra.",
+    paginas: [
+      {
+        rotulo: "La decisión",
+        texto:
+          "Eligieron el escenario, porque sin escenario no había festival. Cuando llegó el jueves, decenas de miles de personas ya estaban acampadas dentro del recinto sin haber pasado por ninguna parte, y no había manera humana de sacarlas. Uno de los organizadores subió al escenario y anunció que a partir de ese momento aquello era gratis. La carretera de acceso se colapsó durante treinta kilómetros y mucha gente abandonó el coche y siguió andando; los grupos tuvieron que llegar en helicóptero porque no había otra forma de entrar.",
+        destacado: { tipo: "cifra", cifra: "400.000", unidad: "personas para 186.000 entradas" },
+      },
+      {
+        rotulo: "El barro",
+        texto:
+          "Llovió el segundo día y el campo, que era un prado de vacas, se convirtió en un barrizal en el que la gente se deslizaba de pie. Se acabó la comida el primer día y los vecinos de los pueblos de alrededor empezaron a hacer bocadillos y a bajarlos en camionetas; un convento cercano preparó varios cientos. Hubo dos muertes, una por sobredosis y otra por un tractor que atropelló a un chico que dormía dentro de un saco entre la hierba alta, y nacieron dos niños en el propio recinto. El ejército tuvo que mandar helicópteros con material médico, mantas y comida. Aquellos tres días acabaron durando cuatro.",
+        destacado: { tipo: "frase", frase: "Se acabó la comida el primer día. La trajeron los vecinos." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El último grupo tocó un lunes a las nueve de la mañana ante unas treinta mil personas que quedaban, con el guitarrista destrozando el himno de Estados Unidos con la distorsión mientras el resto recogía. Los organizadores perdieron más de un millón de dólares de la época y tardaron una década en pagar las deudas, que al final acabó cubriendo el dinero de la película documental. El granjero que había alquilado el terreno, y al que sus vecinos dejaron de saludar durante años, dijo siempre que lo volvería a hacer. El campo sigue siendo un prado, con una piedra en medio y un museo al lado.",
+      },
+    ],
+  },
 ];

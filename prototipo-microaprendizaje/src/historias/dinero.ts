@@ -116,4 +116,95 @@ export const DINERO: Short[] = [
       },
     ],
   },
+  {
+    id: "tulipanes-holanda",
+    titulo: "Un bulbo de tulipán llegó a costar una casa",
+    gancho: "Se compraban flores que aún no habían salido de la tierra. En un mes no valían nada.",
+    categoria: "Dinero",
+    color: "var(--plum)",
+    curioso: true,
+    encargo: "Unos tulipanes rayados de rojo y blanco sobre fondo oscuro, estilo bodegón antiguo.",
+    entrada:
+      "Holanda, invierno de 1636. El país es el más rico de Europa y por sus puertos entra de todo, incluida una flor traída de Turquía que allí no crecía: el tulipán. Los más caros son los que salen con las pétalos rayados de dos colores, y nadie sabe entonces por qué salen así. Cuestan más que una casa junto a un canal.",
+    paginas: [
+      {
+        rotulo: "El virus bonito",
+        texto:
+          "Aquellas rayas, que era justo lo que se pagaba, no eran una variedad mejor: eran una enfermedad. Un virus transmitido por pulgones alteraba el color del pétalo y producía dibujos irrepetibles, y de paso debilitaba la planta, de modo que las más caras eran también las que menos bulbos daban. Nadie lo supo hasta el siglo XX. Un bulbo enfermo podía valer diez veces el sueldo anual de un artesano, y hay contratos firmados por el precio de una vivienda con jardín en el centro de Ámsterdam.",
+        destacado: { tipo: "frase", frase: "Lo que se pagaba a precio de casa era, literalmente, una planta enferma." },
+      },
+      {
+        rotulo: "Vender lo que no hay",
+        texto:
+          "En invierno los bulbos están bajo tierra y no se pueden ni ver ni entregar, así que el negocio se movió a los papeles: se firmaban contratos por bulbos que se entregarían en primavera, y esos contratos se revendían muchas veces antes de que la flor existiera. Se cerraban en tabernas, con testigos y con vino pagado por el comprador. Alguien podía comprar y vender el mismo bulbo tres veces en una tarde sin haberlo tenido nunca en la mano ni saber de qué color saldría.",
+        destacado: { tipo: "cifra", cifra: "3", unidad: "reventas en una tarde, sin ver el bulbo" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "En febrero de 1637, en una subasta de la ciudad de Haarlem, no apareció ningún comprador. La noticia corrió en días y los precios se desplomaron hasta casi cero; los tribunales se llenaron de pleitos por contratos que nadie quería pagar y acabaron resolviéndose con quitas. El daño real a la economía holandesa fue menor de lo que cuenta la leyenda, porque afectó a un grupo reducido. Pero desde entonces, cada vez que un precio sube sin motivo, alguien saca a relucir los tulipanes.",
+      },
+    ],
+  },
+
+  {
+    id: "crisis-2008",
+    titulo: "La crisis de 2008 empezó en casas que nadie podía pagar",
+    gancho: "Se prestaba dinero a quien no podía devolverlo, se troceaba la deuda y se vendía como segura.",
+    categoria: "Dinero",
+    color: "var(--slate)",
+    encargo: "Un cartel de «se vende» torcido delante de una casa vacía de las afueras.",
+    entrada:
+      "Estados Unidos, verano de 2007. Durante casi diez años los bancos han dado hipotecas a gente sin ingresos estables ni ahorros, con la idea de que las casas siempre suben y de que, si alguien no paga, se vende el piso y en paz. Los precios llevan meses cayendo. Y entonces se descubre que esa deuda está repartida por medio mundo.",
+    paginas: [
+      {
+        rotulo: "El paquete",
+        texto:
+          "El truco consistía en juntar miles de hipotecas en un mismo paquete y venderlo troceado a inversores de todo el planeta. El argumento era estadístico y sonaba sensato: aunque algunas hipotecas fueran malas, era improbable que fallaran todas a la vez, así que el conjunto podía considerarse seguro. Las agencias que puntúan el riesgo les daban la nota máxima, la misma que a la deuda de un Estado. Nadie había comprobado qué había dentro, y dentro había préstamos concedidos sin pedir ni una nómina.",
+        destacado: { tipo: "frase", frase: "Miles de hipotecas malas juntas recibían la nota de un Estado." },
+      },
+      {
+        rotulo: "El efecto dominó",
+        texto:
+          "Cuando los precios de la vivienda bajaron, la premisa se rompió entera: los impagos no llegaron sueltos, llegaron todos a la vez y por el mismo motivo. En septiembre de 2008 quebró un banco de inversión con ciento cincuenta y ocho años de historia y los mercados se congelaron, porque nadie sabía cuánta basura tenía el banco de al lado. Los gobiernos acabaron rescatando con dinero público a los mismos bancos que habían montado los paquetes, por una cifra que en Europa y Estados Unidos superó el billón de euros.",
+        destacado: { tipo: "cifra", cifra: "158", unidad: "años tenía el banco que quebró" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "En España el golpe llegó con retraso y por otro lado: el ladrillo. Se habían levantado más viviendas que en Alemania, Francia e Italia juntas, y al pararse la obra el paro subió del ocho al veintiséis por ciento en cinco años. Casi ningún banquero fue a la cárcel en ningún país, y las hipotecas siguen empaquetándose hoy con reglas más estrictas. Aquella idea de que las casas siempre suben tardó una generación en desaparecer de las conversaciones.",
+      },
+    ],
+  },
+
+  {
+    id: "papel-moneda",
+    titulo: "El billete lo inventó China ochocientos años antes",
+    gancho: "Europa tardó siglos en fiarse de un papel. En China ya estaban resolviendo la inflación.",
+    categoria: "Dinero",
+    color: "var(--ochre)",
+    curioso: true,
+    encargo: "Un billete antiguo de papel de morera con caracteres impresos en tinta negra.",
+    entrada:
+      "China, siglo VII. Los comerciantes que recorren el país cargan sacos de monedas de cobre atadas con cuerdas, y una cantidad grande pesa tanto que hacen falta carros y guardias para moverla. A alguien se le ocurre dejar las monedas depositadas en una casa de confianza y llevar en su lugar un recibo escrito. Ese recibo es el primer billete de la historia.",
+    paginas: [
+      {
+        rotulo: "Del recibo al billete",
+        texto:
+          "Al principio era un papel privado que valía solo entre quienes se conocían. Dos siglos después, el Estado se dio cuenta del negocio, prohibió los recibos particulares y empezó a emitirlos él, impresos en papel de morera con tinta de varios colores y sellos difíciles de copiar; se avisaba en el propio billete de que falsificarlo se castigaba con la muerte, y se prometía una recompensa a quien delatara al falsificador. Circulaban con fecha de caducidad, y cada tres años había que ir a cambiarlos por otros nuevos pagando una comisión.",
+        destacado: { tipo: "frase", frase: "El propio billete avisaba de que falsificarlo se pagaba con la muerte." },
+      },
+      {
+        rotulo: "El primer descubrimiento",
+        texto:
+          "También fueron los primeros en descubrir el problema, porque imprimir es más fácil que fabricar monedas. Cuando el Estado necesitaba dinero para una guerra imprimía más papel, y el papel perdía valor: en el siglo XIII un mercader italiano que viajó hasta allí escribió asombrado que el emperador fabricaba dinero de la nada y que todos lo aceptaban. En un momento dado, un billete llegó a valer una centésima parte de lo que decía. El gobierno acabó retirándolos del todo en el siglo XV y volviendo a la plata.",
+        destacado: { tipo: "cifra", cifra: "1/100", unidad: "de su valor llegó a valer un billete" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "En Europa el primer papel moneda no aparece hasta 1661, en Suecia, y también acabó mal: se imprimió de más y el banco quebró en tres años. Costó otro siglo largo que la gente se fiara de un trozo de papel sin oro detrás, y hasta 1971 los billetes prometían formalmente convertirse en metal si alguien lo pedía. Hoy no lo promete ninguno. Lo único que sostiene el dinero es exactamente lo mismo que sostenía aquellos recibos: que el de enfrente también lo acepte.",
+      },
+    ],
+  },
 ];

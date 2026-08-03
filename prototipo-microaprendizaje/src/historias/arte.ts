@@ -117,4 +117,94 @@ export const ARTE: Short[] = [
       },
     ],
   },
+  {
+    id: "van-gogh-ventas",
+    titulo: "Van Gogh vendió un cuadro en toda su vida",
+    gancho: "Pintó novecientos en diez años. Su hermano le pagó los pinceles hasta el final.",
+    categoria: "Arte",
+    color: "var(--ochre)",
+    encargo: "Un campo de trigo amarillo bajo un cielo azul cargado, pintado a brochazos gruesos.",
+    entrada:
+      "Holanda, 1880. Un hombre de veintisiete años acaba de fracasar como marchante de arte, como maestro y como predicador entre mineros, y decide que va a ser pintor. No sabe dibujar. Le quedan diez años de vida y en ellos va a hacer unas novecientas pinturas y mil cien dibujos, casi todo en los últimos cuatro.",
+    paginas: [
+      {
+        rotulo: "El hermano",
+        texto:
+          "Lo sostuvo su hermano pequeño, que trabajaba vendiendo cuadros de otros y le mandaba dinero todos los meses durante una década: pinceles, lienzos, tabaco y el alquiler. Se escribieron más de seiscientas cartas, que se conservan y que son el mejor retrato que existe de un pintor por dentro, porque en ellas explica qué está intentando hacer con cada color. Vivía con lo justo y a veces gastaba en pintura el dinero de la comida; en una carta reconoce haber pasado cuatro días alimentándose solo de café y pan seco.",
+        destacado: { tipo: "cifra", cifra: "600", unidad: "cartas se escribieron los dos hermanos" },
+      },
+      {
+        rotulo: "La única venta",
+        texto:
+          "En vida vendió un cuadro documentado, un paisaje con viñas, por cuatrocientos francos, unos meses antes de morir, y lo compró la hermana de un pintor amigo suyo. Un crítico le dedicó un artículo elogioso en enero de 1890 y en vez de alegrarle le angustió: escribió a su hermano diciendo que temía no estar a la altura de lo que allí se afirmaba y le pidió que le rogara al crítico que no volviera a escribir sobre él. Murió en julio de aquel mismo año de un disparo en el pecho, con treinta y siete años, en un pueblo a las afueras de París donde había pintado setenta cuadros en setenta días.",
+        destacado: { tipo: "frase", frase: "Setenta cuadros en setenta días, y después el disparo." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Su hermano murió seis meses más tarde, y fue la viuda de este, que apenas lo había tratado, quien se puso a colocar aquellos cuadros amontonados: organizó exposiciones, publicó las cartas y tardó veinte años en conseguir que se le tomara en serio. Hoy sus obras están entre las más caras que se venden en una subasta y hay un museo entero dedicado a él en Ámsterdam, con dos millones de visitantes al año. De los novecientos cuadros que pintó, la inmensa mayoría los vio por primera vez gente que ya no tenía manera de decírselo. El primero que se cotizó en millones se vendió noventa y siete años después de su muerte.",
+      },
+    ],
+  },
+
+  {
+    id: "sixtina-tumbado",
+    titulo: "La Capilla Sixtina no se pintó tumbado",
+    gancho: "Cuatro años de pie con el cuello doblado hacia atrás. Escribió un poema quejándose.",
+    categoria: "Arte",
+    color: "var(--slate)",
+    curioso: true,
+    encargo: "Una bóveda pintada vista desde abajo, con andamios de madera en un lateral.",
+    entrada:
+      "Roma, 1508. El Papa encarga a un escultor florentino de treinta y tres años que pinte el techo de una capilla del Vaticano. El hombre protesta: dice que él es escultor, no pintor, que apenas ha trabajado al fresco y que el encargo es una trampa de sus enemigos. Acepta porque no puede negarse. Tardará cuatro años y pintará más de trescientas figuras.",
+    paginas: [
+      {
+        rotulo: "El andamio",
+        texto:
+          "La leyenda de que pintó tumbado boca arriba viene de una película, y es falsa. Diseñó él mismo un andamio de madera apoyado en la propia pared, mediante soportes metidos en agujeros que aún se ven, y trabajaba de pie sobre la plataforma, con la cabeza echada hacia atrás y el brazo levantado por encima de la cara durante horas. La pintura le goteaba encima. En un poema burlón que le mandó a un amigo cuenta que se le había hinchado el bocio, que la barba apuntaba al cielo y que ya no veía bien de cerca.",
+        destacado: { tipo: "frase", frase: "«La barba apunta al cielo», escribió en un poema quejándose." },
+      },
+      {
+        rotulo: "Contra reloj",
+        texto:
+          "La técnica del fresco no perdona: se pinta sobre yeso húmedo y hay que terminar el trozo antes de que seque, porque después ya no se puede retocar sin que se note. Eso obliga a planificar cada jornada y a no equivocarse. Se calcula el trabajo en unas quinientas cincuenta jornadas de pintura repartidas a lo largo de cuatro años, y en la bóveda se distinguen todavía a simple vista las costuras entre una jornada y la siguiente, como las junturas de un mosaico. Al principio contrató a media docena de ayudantes traídos de Florencia y acabó despidiéndolos a casi todos, convencido de que le estropeaban más de lo que le adelantaban.",
+        destacado: { tipo: "cifra", cifra: "550", unidad: "jornadas de yeso fresco, sin retoque posible" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Volvió veinticinco años después, ya con sesenta, para pintar la pared del fondo, y aquello le costó una polémica que duró siglos: un cardenal se quejó de tantos desnudos y, tras su muerte, se contrató a un pintor para taparlos con paños; el hombre se ganó el apodo del calzonero. Una limpieza hecha en los años ochenta quitó siglos de humo de vela y de cola aplicada por restauradores anteriores, y devolvió unos colores tan chillones que varios expertos acusaron públicamente al equipo de haberse pasado y de haber arrancado los últimos retoques del pintor. Hoy entran allí veinte mil personas al día, en fila y sin poder pararse.",
+      },
+    ],
+  },
+
+  {
+    id: "el-grito-robos",
+    titulo: "El Grito lo han robado dos veces",
+    gancho: "La primera vez dejaron una nota: «Gracias por la pésima seguridad». Tardaron tres meses en recuperarlo.",
+    categoria: "Arte",
+    color: "var(--clay)",
+    encargo: "Un cielo naranja ondulado sobre un puente de madera, en tonos de tiza.",
+    entrada:
+      "Oslo, 12 de febrero de 1994. Es el día en que empiezan los Juegos Olímpicos de invierno en Noruega y la ciudad entera está pendiente de la ceremonia. A las seis y media de la mañana, dos hombres apoyan una escalera en la fachada de la galería nacional, rompen una ventana y se llevan uno de los cuadros más reconocibles del mundo. Tardan cincuenta segundos.",
+    paginas: [
+      {
+        rotulo: "La nota",
+        texto:
+          "Una cámara de seguridad grabó el asalto entero, y un guardia llegó a verlo en el monitor mientras ocurría, pero dio por hecho que era una falsa alarma de las que saltaban a diario y no avisó a nadie hasta pasado un buen rato. Los ladrones dejaron en el hueco de la pared una nota manuscrita que decía «gracias por la pésima seguridad», y poco después pidieron un rescate de un millón de dólares. La policía noruega recuperó el cuadro tres meses más tarde con una operación encubierta montada junto a la policía británica, en la que un agente se hizo pasar por comprador extranjero.",
+        destacado: { tipo: "frase", frase: "«Gracias por la pésima seguridad», decía la nota que dejaron." },
+      },
+      {
+        rotulo: "La segunda vez",
+        texto:
+          "Diez años después, en agosto de 2004, dos encapuchados entraron a plena luz del día en otro museo de la misma ciudad, con el público dentro, amenazaron a los vigilantes con una pistola y arrancaron de la pared otra versión del mismo cuadro y una segunda pintura del mismo autor. Salieron corriendo y los metieron en un coche. Esta vez tardaron dos años en aparecer, y cuando lo hicieron los dos lienzos estaban dañados: uno tenía un roto en una esquina y el otro una mancha de humedad, en la parte baja, que no se ha podido eliminar del todo y que sigue viéndose si uno se acerca.",
+        destacado: { tipo: "cifra", cifra: "2", unidad: "robos del mismo cuadro en diez años" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Existen cuatro versiones de la escena hechas por el mismo pintor entre 1893 y 1910, dos pintadas y dos al pastel, y por eso pudieron robarlo dos veces sin que desapareciera. La figura del centro no está gritando, según explicó él mismo en su diario: está tapándose los oídos porque ha oído un grito que atraviesa la naturaleza. Y en una de las versiones hay una frase escrita a lápiz en una esquina, tan pequeña que no se descubrió hasta hace poco, en la que alguien afirma que aquello solo pudo pintarlo un loco. El análisis de la letra concluyó en 2021 que la escribió el propio pintor.",
+      },
+    ],
+  },
 ];

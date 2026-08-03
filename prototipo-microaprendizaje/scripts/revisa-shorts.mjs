@@ -92,6 +92,10 @@ for (const ruta of ficheros) {
         .map((x) => x.trim())
         .filter((x) => !x.split(" ").every((w) => CONOCIDOS.has(w) || delTitulo.has(w))),
     );
+    /* Un apellido suelto que ya forma parte de un nombre completo contado
+       antes es la misma persona, no un frenazo nuevo. */
+    for (const p of [...propios])
+      if ([...propios].some((q) => q !== p && q.split(" ").includes(p))) propios.delete(p);
     if (propios.size > 2)
       aviso(id, `${propios.size} nombres propios poco conocidos: ${[...propios].join(", ")}`);
 
