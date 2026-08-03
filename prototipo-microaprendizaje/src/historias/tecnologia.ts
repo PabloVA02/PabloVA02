@@ -117,4 +117,95 @@ export const TECNOLOGIA: Short[] = [
       },
     ],
   },
+
+  {
+    id: "iphone-2007",
+    titulo: "El iPhone que enseñaron en 2007 no funcionaba",
+    gancho: "Se colgaba cada pocos minutos. Ensayaron una secuencia exacta de acciones que aguantase noventa minutos.",
+    categoria: "Tecnología",
+    color: "var(--slate)",
+    encargo: "Un escenario oscuro con una pantalla gigante y una silueta sola delante.",
+    entrada:
+      "San Francisco, enero de 2007. El fundador de una empresa de ordenadores sale al escenario a presentar un teléfono sin teclas, algo que entonces no existía: todos los móviles del mundo tenían botones. Va a manejarlo en directo, delante de miles de personas, durante noventa minutos. Y el aparato que lleva en la mano está a medio terminar.",
+    paginas: [
+      {
+        rotulo: "El camino dorado",
+        texto:
+          "Los ingenieros llevaban meses buscando una secuencia de acciones que el teléfono aguantara sin colgarse, y la llamaban entre ellos el camino dorado. Si mandabas un correo y luego navegabas, funcionaba; si lo hacías al revés, se bloqueaba. Podía reproducir un trozo de canción o un trozo de vídeo, pero no una canción entera y después un vídeo. Aprendió el orden exacto de memoria y lo ensayó cinco días seguidos, encerrado en el auditorio vacío con los ingenieros mirando desde la penumbra, y aun así el aparato se le murió decenas de veces: se reiniciaba solo, perdía la conexión o se quedaba con la pantalla congelada a media frase.",
+        destacado: { tipo: "frase", frase: "Correo y luego navegar, funcionaba. Al revés, se bloqueaba." },
+      },
+      {
+        rotulo: "Los apaños",
+        texto:
+          "La demostración iba llena de trucos. Como la memoria se agotaba, había varios teléfonos escondidos bajo la mesa y un ayudante los cambiaba entre secciones sin que se notara. La cobertura del edificio era mala, así que instalaron una antena portátil solo para el acto y programaron la pantalla para que enseñara siempre cinco rayas de señal, pasara lo que pasara. Había también dos ordenadores idénticos preparados por si fallaba el que movía la pantalla gigante, y la llamada que hizo en directo la contestó un compañero al que habían avisado de descolgar al primer tono y no improvisar ni una palabra. Nada de lo que se vio aquella mañana estaba dejado al azar.",
+        destacado: { tipo: "frase", frase: "La pantalla enseñaba cinco rayas de cobertura siempre, hubiera o no." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Salió bien. No se colgó ni una sola vez en los noventa minutos, y los ingenieros, que lo veían desde la quinta fila con una botella de whisky escondida, se la bebieron entera al terminar. El teléfono no llegó a las tiendas hasta seis meses después y todavía faltaba mucho por arreglar. Aquel día se enseñó algo que aún no existía del todo. Quince años después ha cambiado la forma del objeto que más miramos —un rectángulo de cristal, sin un solo botón para escribir— y ha barrido del mercado a todos los teléfonos con teclas, incluidos los de las marcas que aquella mañana se rieron.",
+      },
+    ],
+  },
+
+  {
+    id: "ajedrez-maquina",
+    titulo: "La máquina ganó al ajedrez por un error",
+    gancho: "La jugada que hundió al campeón del mundo fue un movimiento elegido al azar por avería.",
+    categoria: "Tecnología",
+    color: "var(--plum)",
+    encargo: "Un tablero de ajedrez a media partida, con una mano humana en el borde.",
+    entrada:
+      "Nueva York, mayo de 1997. El mejor jugador de ajedrez de la historia, un ruso de treinta y cuatro años, se sienta a jugar contra un ordenador del tamaño de dos armarios. Ya se enfrentaron el año anterior y ganó él con holgura. Esta vez pierde el duelo, y se pasa los siguientes veinte años convencido de que le hicieron trampa.",
+    paginas: [
+      {
+        rotulo: "La jugada rara",
+        texto:
+          "Todo se torció en la segunda partida. La máquina hizo un movimiento que no encajaba con su manera de jugar: en lugar de comerse una pieza que tenía a tiro, algo que un ordenador hace casi siempre porque cuenta material, renunció a ella y colocó un peón en una posición sutil, de esas que se aprenden con años de intuición. El ruso se quedó mirando el tablero un rato largo, se levantó, dio una vuelta por la sala y volvió a sentarse. Concluyó que detrás de aquello había una persona ayudando, se vino abajo y acabó abandonando una partida que, como se comprobó después analizándola con calma, podía haber empatado sin dificultad.",
+        destacado: { tipo: "frase", frase: "Renunció a comer una pieza. Ningún ordenador hacía eso." },
+      },
+      {
+        rotulo: "Qué había pasado",
+        texto:
+          "La explicación tardó quince años en aparecer y la dio uno de los programadores. Aquella jugada no fue genialidad: fue un fallo. El ordenador se había quedado sin tiempo para terminar el cálculo, y cuando eso ocurría el programa tenía instrucciones de elegir un movimiento al azar entre los posibles. Salió aquel. Es decir: la jugada que convenció al mejor jugador del mundo de que enfrente tenía una inteligencia superior fue, literalmente, un número sacado a suertes. Ni siquiera era buena. Simplemente resultó ser tan impropia de una máquina que el hombre que la sufrió no encontró otra explicación que la trampa.",
+        destacado: { tipo: "cifra", cifra: "15", unidad: "años se tardó en explicar la jugada" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Perdió el duelo por tres y medio a dos y medio, pidió la revancha y la empresa se negó: desmontó la máquina y la retiró para siempre, lo cual alimentó la sospecha durante años. Hoy un programa gratuito corriendo en un móvil juega bastante mejor que aquel armario. Y el propio ruso acabó admitiendo, ya mayor, que no hubo trampa; que perdió porque se puso nervioso. Y aquí está lo que se queda de todo esto: la primera vez que una máquina nos ganó en algo que considerábamos exclusivamente nuestro, no ganó por ser más lista. Ganó porque se estropeó a tiempo y porque, al otro lado del tablero, había un ser humano capaz de asustarse.",
+      },
+    ],
+  },
+
+  {
+    id: "primer-mensaje-red",
+    titulo: "El primer mensaje de internet fue «LO»",
+    gancho: "Iban a escribir «login». El sistema se cayó a la tercera letra y así se quedó.",
+    categoria: "Tecnología",
+    color: "var(--forest)",
+    curioso: true,
+    encargo: "Un armario de ordenador de los sesenta, lleno de cintas y luces, en penumbra.",
+    entrada:
+      "California, 29 de octubre de 1969. Dos ordenadores del tamaño de una nevera, separados por seiscientos kilómetros, van a intentar hablarse por primera vez a través de una línea de teléfono. Un estudiante de veintiún años se sienta delante de uno; un compañero espera junto al otro, con el auricular en la oreja para ir cantando lo que aparece.",
+    paginas: [
+      {
+        rotulo: "Las dos letras",
+        texto:
+          "El plan era escribir <em>login</em>, que en inglés significa «entrar», para iniciar sesión en la máquina de enfrente. El estudiante tecleó la ele y preguntó por teléfono si se veía. Se veía. Tecleó la o y preguntó otra vez. También. Tecleó la ge y el sistema del otro lado se cayó entero. Así que el primer mensaje que viajó por la red que acabaría siendo internet fue <strong>LO</strong>: dos letras, y por avería. Tardaron una hora en encontrar el fallo, repararlo y escribir la palabra entera, esta vez sin incidencias. Para entonces ya había anochecido y en el laboratorio no quedaba casi nadie.",
+        destacado: { tipo: "frase", frase: "Dos letras y una avería. Ese fue el mensaje." },
+      },
+      {
+        rotulo: "Para qué era",
+        texto:
+          "Aquello formaba parte de un encargo del ejército de Estados Unidos, y la leyenda dice que se hizo para resistir un ataque nuclear. Los propios ingenieros lo han negado siempre: lo que querían era compartir unos ordenadores carísimos entre varias universidades, porque cada uno costaba lo que un edificio y se pasaba parado la mitad del tiempo. La red creció despacio y sin que nadie le viera el negocio. Al acabar aquel año había cuatro máquinas conectadas en todo el mundo, las cuatro en universidades de California y de Utah; diez años más tarde eran poco más de doscientas, y aún faltaban dos décadas para que existiera la primera página web.",
+        destacado: { tipo: "cifra", cifra: "4", unidad: "ordenadores conectados a fin de 1969" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El estudiante que tecleó aquello no anotó la hora ni guardó ningún recuerdo especial: escribió en el cuaderno de incidencias del laboratorio una línea seca, que había hablado con la otra máquina, y se fue a cenar. Décadas más tarde contaba que nadie se dio cuenta de que aquello era histórico porque nadie estaba haciendo historia: estaban arreglando un cacharro que se caía. Hoy pasan por esa red más de cinco mil millones de personas, y todo empezó con una palabra de cinco letras que no se pudo terminar de escribir.",
+      },
+    ],
+  },
 ];
