@@ -1,5 +1,6 @@
 import { ARTE } from "./historias/arte";
 import { AVIACION } from "./historias/aviacion";
+import { BARCOS } from "./historias/barcos";
 import { BICHOS } from "./historias/bichos";
 import { CATASTROFES } from "./historias/catastrofes";
 import { CIENCIA } from "./historias/ciencia";
@@ -14,14 +15,17 @@ import { CUERPO } from "./historias/cuerpo";
 import { DEPORTE } from "./historias/deporte";
 import { DINERO } from "./historias/dinero";
 import { DINOSAURIOS } from "./historias/dinosaurios";
+import { ELECTRICIDAD } from "./historias/electricidad";
 import { EMPRESAS } from "./historias/empresas";
 import { ESCRITURA } from "./historias/escritura";
 import { ESPACIO } from "./historias/espacio";
 import { ESPANA } from "./historias/espana";
 import { ESPIONAJE } from "./historias/espionaje";
 import { FIGURAS } from "./historias/figuras";
+import { FOTOGRAFIA } from "./historias/fotografia";
 import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
+import { HIGIENE } from "./historias/higiene";
 import { INVENTOS } from "./historias/inventos";
 import { JUEGOS } from "./historias/juegos";
 import { JUSTICIA } from "./historias/justicia";
@@ -225,11 +229,13 @@ export const SHORTS: Short[] = intercala(
   FIGURAS,
   ESPACIO,
   ROPA,
+  BARCOS,
   COSMOS,
   CATASTROFES,
   ESPANA,
   POLITICA,
   DINOSAURIOS,
+  ELECTRICIDAD,
   BICHOS,
   MOTOR,
   CIENCIA,
@@ -240,11 +246,13 @@ export const SHORTS: Short[] = intercala(
   MAPAS,
   CREENCIAS,
   ESCRITURA,
+  HIGIENE,
   MUSICA,
   CINE,
   PREHISTORIA,
   COMIDA,
   JUSTICIA,
+  FOTOGRAFIA,
   CRIMEN,
   PALABRAS,
   MAR,
