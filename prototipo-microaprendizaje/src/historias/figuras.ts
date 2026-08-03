@@ -59,27 +59,30 @@ export const FIGURAS: Short[] = [
     },
     encargo: "El asesinato de César con los puñales en alto, encuadrado a plomo sobre la escena.",
     entrada:
-      "Sesenta hombres esperaban dentro de la curia aquella mañana, y César lo sabía casi todo de casi todos: los había perdonado uno por uno al acabar la guerra civil. Entró sin escolta, porque la había disuelto meses antes, convencido de que un dictador que necesita guardaespaldas ha dejado ya de mandar. Tenía razón. No le sirvió de nada.",
+      "A Julio César le avisaron. Un adivino le había dicho que se guardase de los idus de marzo; su mujer había soñado con él muerto y le rogó que no saliera de casa; y un hombre le puso en la mano, esa misma mañana, un papel con los nombres de los conjurados. César se guardó el papel sin leerlo y entró en la curia. Era media mañana.",
     paginas: [
       {
-        rotulo: "El río",
+        rotulo: "La conjura",
         texto:
-          "Aquella certeza suya venía de un río. En enero del 49 se detuvo a la orilla del Rubicón, que no era una defensa ni un obstáculo: un hilo de agua del norte de Italia que se cruza sin mojarse la rodilla. Lo único que lo convertía en frontera era una ley —ningún general entra en Italia al frente de sus tropas— y lo único que sostenía aquella ley era la costumbre de no romperla. César la rompió con la Legio XIII detrás, y en aquel vado aprendió lo que ya no soltó: Roma no se aguantaba sobre piedra, sino sobre un acuerdo.",
+          "No lo mataba un enemigo: lo mataban los suyos. Eran más de sesenta senadores, y casi todos le debían a él el cargo, la fortuna o la vida. El año anterior se había hecho nombrar dictador perpetuo, y ese título sonaba en Roma a lo único que la república no estaba dispuesta a tolerar, que era un rey. Cayo Casio puso la idea y buscó después al hombre que podía darle respetabilidad: Marco Junio Bruto, hijo de una antigua amante de César y perdonado por él al acabar la guerra civil. Con Bruto dentro, aquello dejaba de ser un crimen y pasaba por un acto de gobierno.",
         destacado: {
           tipo: "frase",
-          frase: "El río más famoso de la historia y no se sabe cuál era.",
+          frase: "Casi todos los que lo apuñalaron le debían a él el cargo, la fortuna o la vida.",
         },
       },
       {
-        rotulo: "El año más largo",
+        rotulo: "La curia",
         texto:
-          "Y si Roma era un acuerdo, el calendario también lo era. Lo administraban los pontífices, que intercalaban meses sueltos para cuadrarlo con el sol; como los cargos duraban justo doce meses, cada uno alargaba el suyo y recortaba el del rival. Cien años de trampas pequeñas habían corrido el año tres meses enteros: las fiestas de la vendimia se celebraban con los campos todavía verdes. César llamó a un astrónomo de Alejandría, Sosígenes, y ordenó que el 46 durase <strong>445 días</strong>. Luego fijó el año en 365 y cuarto. Nadie tuvo que volver a tocarlo hasta 1582.",
-        destacado: { tipo: "cifra", cifra: "445", unidad: "días tuvo el año 46 a. C." },
+          "El plan era sencillo y salió mal casi todo el rato. Un senador entretuvo a Marco Antonio en la puerta, porque Antonio era fuerte y era leal. Dentro, Tilio Cimbro se acercó a César con una petición para su hermano desterrado, y al ver que se la negaba le tiró de la toga con las dos manos: esa era la señal. El primer golpe se lo dio Casca por detrás y le entró de refilón, en el hombro; César llegó a agarrarle el brazo. A partir de ahí no hubo ningún orden. Sesenta hombres apretados en un espacio pequeño, apuñalando a la vez, acabaron hiriéndose entre ellos.",
+        destacado: {
+          tipo: "frase",
+          frase: "A Bruto lo alcanzó una puñalada en la mano. Se la dio uno de los suyos.",
+        },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quien manda sobre el calendario ha dejado de ser un magistrado, y eso fue lo que sesenta togas no pudieron tolerar. Lo mataron para salvar la república y lo que hicieron fue ponerle fecha: catorce años después su sobrino nieto era Augusto, y Roma, un imperio. Del «¿tú también, Bruto?» no queda rastro fuera de Shakespeare. Lo que sí hubo fue un informe. El médico Antistio contó veintitrés heridas y dictaminó que una sola, la segunda, en el pecho, había sido mortal. Sesenta hombres apuñalando a la vez para que contara un único golpe. El nombre les sobrevivió a todos.",
+          "Cuando terminaron, el cuerpo se quedó tirado tres horas al pie de una estatua de Pompeyo, y los conjurados salieron a la calle a anunciar que Roma volvía a ser libre. No los siguió nadie. Un médico, Antistio, examinó después el cadáver y contó veintitrés heridas; de las veintitrés, escribió, una sola era mortal: la segunda, entre la primera y la segunda costilla. Pasa por ser la primera autopsia de la que queda constancia. Y de todo aquello salió justo lo contrario de lo que buscaban: catorce años más tarde, el sobrino nieto de César era Augusto y Roma, un imperio.",
       },
     ],
   },
