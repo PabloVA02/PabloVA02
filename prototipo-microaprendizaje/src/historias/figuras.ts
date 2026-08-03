@@ -59,12 +59,12 @@ export const FIGURAS: Short[] = [
     },
     encargo: "El asesinato de César con los puñales en alto, encuadrado a plomo sobre la escena.",
     entrada:
-      "15 de marzo del 44 a. C. César entra en la curia sin escolta: había disuelto su guardia personal, convencido de que un dictador que necesita guardaespaldas ya ha perdido. Dentro le esperan unos sesenta senadores, muchos de ellos perdonados por él tras la guerra civil. Tarda menos de un minuto en caer, al pie de una estatua de Pompeyo, el enemigo al que había derrotado.",
+      "César había entendido algo que sus asesinos no: un dictador que necesita guardaespaldas ha dejado ya de mandar. Por eso disolvió la suya. El 15 de marzo del 44 a. C. entró solo en la curia, entre sesenta senadores a los que él mismo había perdonado, y murió en menos de un minuto al pie de la estatua de su peor enemigo.",
     paginas: [
       {
         rotulo: "El río",
         texto:
-          "Enero del 49 a. C. Una ley romana prohibía a un general entrar en Italia al mando de sus tropas, y la frontera era un riachuelo del norte llamado Rubicón. Cruzarlo con la Legio XIII detrás no era una maniobra militar: era declararle la guerra a su propio país, y no tenía vuelta atrás. Suetonio cuenta que César lo dijo en griego, citando una comedia de Menandro, y que la frase no significa «la suerte está echada» en plan solemne, sino algo más parecido a <em>tiremos el dado y veamos</em>. Pompeyo abandonó Roma sin presentar batalla. Y hoy nadie sabe con seguridad por dónde pasaba exactamente aquel río.",
+          "Roma tenía una ley sencilla: ningún general podía entrar en Italia al mando de sus tropas. La frontera era un riachuelo del norte, el Rubicón, y toda su fuerza consistía en que nadie la cruzaba. En enero del 49 a. C. César la cruzó con la Legio XIII detrás, y con ello no ganó una batalla: demostró que la ley era un acuerdo, y que un acuerdo se puede romper. Suetonio cuenta que lo dijo en griego, citando una comedia, y que la frase no era el solemne «la suerte está echada», sino algo más parecido a <em>tiremos el dado y veamos</em>. Pompeyo huyó sin combatir.",
         destacado: {
           tipo: "frase",
           frase: "El río más famoso de la historia y no se sabe cuál era.",
@@ -73,13 +73,13 @@ export const FIGURAS: Short[] = [
       {
         rotulo: "El año más largo",
         texto:
-          "El calendario romano lo ajustaban los pontífices metiendo meses extra, y como los cargos duraban un año, alargaban el suyo y acortaban el del rival. Resultado: en tiempos de César el calendario iba tres meses desfasado y las fiestas de la cosecha caían en primavera. Asesorado por el astrónomo Sosígenes de Alejandría, César hizo que el año 46 a. C. durase <strong>445 días</strong> para recolocar las estaciones de una vez, y fijó el año en 365 días y cuarto, con su bisiesto. Ese calendario aguantó sin retoques hasta 1582. El mes de julio se llama así por él.",
+          "Un calendario parece un hecho de la naturaleza y es un acuerdo entre personas, de modo que se puede manipular como cualquier otro acuerdo. En Roma lo ajustaban los pontífices intercalando meses sueltos, y como los cargos duraban justo un año, cada uno alargaba el suyo y recortaba el del rival. Un siglo de trampas menudas dejó el calendario tres meses desfasado: las fiestas de la cosecha caían en primavera. César, asesorado por el astrónomo Sosígenes de Alejandría, hizo que el año 46 a. C. durase <strong>445 días</strong> y fijó el resto en 365 y cuarto. Nadie tuvo que volver a tocarlo hasta 1582.",
         destacado: { tipo: "cifra", cifra: "445", unidad: "días tuvo el año 46 a. C." },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Lo mataron para salvar la república y la remataron: en catorce años su sobrino nieto Octavio era Augusto, y Roma, un imperio. Lo de «¿tú también, Bruto?» es de Shakespeare; Suetonio dice que la mayoría de las fuentes lo cuentan muriendo en silencio, y solo recoge como rumor un «¿también tú, hijo?» dicho en griego. Lo que sí hubo fue un informe: el médico Antistio examinó el cuerpo, contó veintitrés heridas y concluyó que solo una, la segunda, en el pecho, era mortal de necesidad. Pasa por ser la primera autopsia de la que queda constancia. Y su nombre dejó de ser un nombre: de César salen <strong>káiser</strong> y <strong>zar</strong>, veinte siglos después.",
+          "Lo mataron para salvar la república y le firmaron la sentencia: catorce años después su sobrino nieto era Augusto y Roma, un imperio. Del «¿tú también, Bruto?» no hay rastro fuera de Shakespeare; Suetonio sostiene que casi todas las fuentes lo hacen morir callado. Lo que sí hubo fue un informe. El médico Antistio examinó el cuerpo, contó veintitrés heridas y dictaminó que solo una, la segunda, en el pecho, era mortal de necesidad: sesenta hombres apuñalando a la vez para que contase un único golpe. Pasa por ser la primera autopsia registrada. El nombre sobrevivió a todos ellos: de César salen <strong>káiser</strong> y <strong>zar</strong>.",
       },
     ],
   },

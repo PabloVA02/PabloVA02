@@ -5,9 +5,9 @@ export const SAPIENS: Resumen = {
   titulo: "Sapiens",
   autor: "Yuval Noah Harari",
   ano: 2011,
-  gancho: "Salió de una asignatura de introducción que en su facultad nadie con antigüedad quería dar.",
+  gancho: "Nadie con antigüedad quería dar aquella asignatura de primero. Se la endosaron a un recién llegado.",
   porQue:
-    "Cuenta la historia entera de nuestra especie en un solo hilo, y su tesis central, que dominamos el planeta por creernos cosas que no existen, explica más de lo que parece.",
+    "Cuenta la historia entera de nuestra especie en un solo hilo, y su tesis —que dominamos el planeta por creernos cosas que no existen— explica bastante más de lo que promete.",
   partes: [
     {
       titulo: "Salida: la asignatura que nadie quería dar",
@@ -15,27 +15,27 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "En la Universidad Hebrea de Jerusalén había una asignatura obligatoria de primero, historia del mundo desde la piedra hasta hoy, que ningún profesor con antigüedad quería impartir. Se la dieron a un historiador joven recién llegado, y de aquellas clases salió este libro. Aquello ocurrió a mediados de los años dos mil.",
+            "En la Universidad Hebrea de Jerusalén nadie con antigüedad quería dar la asignatura obligatoria de primero: historia del mundo, de la piedra a hoy, dos horas seguidas por semana. Se la endosaron a un historiador recién llegado. De aquellas clases salió el libro de historia más vendido del siglo.",
         },
         {
           forma: "texto",
           texto:
-            "Ese origen explica bastante del tono del libro. Está escrito para alumnos de dieciocho años que no saben nada del asunto, con la obligación de mantenerlos despiertos dos horas seguidas, y por eso cada capítulo empieza con una escena y no con una tesis. Se nota que fue oral antes que escrito.",
+            "Ese origen explica casi todo el tono. Está escrito para chavales de dieciocho años que no saben nada del asunto y a los que hay que mantener despiertos dos horas, y por eso cada capítulo abre con una escena y no con una tesis. Fue oral antes que escrito.",
         },
         {
           forma: "texto",
           texto:
-            "También explica una decisión formal poco frecuente. El libro no tiene notas al pie en las páginas, apenas nombra a otros historiadores dentro del texto y evita las discusiones entre especialistas, porque en una clase de primero esas cosas hacen perder a media aula. Las notas van todas al final del volumen.",
+            "La misma aula explica una decisión rara en un académico. No hay notas al pie, apenas se nombra a otros historiadores dentro del texto y no se recogen las discusiones entre especialistas: en una clase de primero, esas cosas pierden a media aula. Las notas van todas al final.",
         },
         {
           forma: "texto",
           texto:
-            "Conviene precisar qué tipo de libro es entonces. No es una investigación con hallazgos propios ni un manual con estado de la cuestión: es una síntesis con tesis, escrita por alguien que leyó a los especialistas y decidió contarlo todo seguido y en el mismo tono.",
+            "No es, por tanto, una investigación con hallazgos propios ni un manual con el estado de la cuestión. Es una síntesis con tesis: alguien que ha leído a los especialistas y decide contarlo todo seguido, en el mismo tono y sin pedir permiso a nadie.",
         },
         {
           forma: "texto",
           texto:
-            "Yuval Noah Harari no venía de la prehistoria ni de la antropología. Se había doctorado en Oxford con una tesis sobre memorias de caballeros medievales, y sus dos primeros libros trataban de cómo se contaba la guerra en la Edad Media y del papel de la experiencia militar.",
+            "Y quien lo cuenta no venía de la prehistoria ni de la antropología. Yuval Noah Harari se doctoró en Oxford con una tesis sobre memorias de caballeros medievales, y sus dos primeros libros trataban de cómo se narraba la guerra en la Edad Media y del papel que jugaba allí la experiencia militar.",
         },
         {
           forma: "clave",
@@ -45,83 +45,83 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "El libro se publicó primero en hebreo, en 2011, y tardó tres años en aparecer en inglés. Esa segunda edición es la que lo cambió todo: hasta entonces era un manual universitario con éxito local, y a partir de 2014 empezó a venderse en todo el mundo.",
+            "El libro salió en hebreo en 2011 y tardó tres años en llegar al inglés. Esa segunda edición fue la que lo cambió todo: hasta entonces era un manual universitario con éxito local, y a partir de 2014 empezó a venderse en sesenta idiomas a la vez.",
         },
         {
           forma: "texto",
           texto:
-            "La traducción al inglés la impulsó él mismo. Contrató a una traductora, revisó el texto entero y aprovechó para actualizar varios capítulos con hallazgos posteriores, de modo que la versión que ha leído el mundo no es exactamente la que leyeron los israelíes. Nunca ha ocultado esas diferencias entre ediciones.",
+            "La traducción no la esperó sentado. Contrató él mismo a una traductora, revisó el texto entero y aprovechó para actualizar varios capítulos con hallazgos posteriores, de modo que la versión que ha leído el mundo no es exactamente la que leyeron los israelíes. Nunca lo ha ocultado.",
         },
         {
           forma: "texto",
           texto:
-            "Aquella versión inglesa llegó en un momento afortunado. En 2014 empezaban a venderse muy bien los libros de ideas grandes escritos por académicos, y este ocupó ese hueco con una ventaja: se podía resumir en una frase que cualquiera repetía después de la cena. Ese resumen cabía en una sola línea.",
+            "Llegó además en un momento afortunado. Hacia 2014 se vendían muy bien los libros de una sola idea grande firmados por académicos con credenciales, y este traía una ventaja decisiva sobre los demás: se podía resumir en una sola frase que cualquiera repetía después de la cena.",
         },
         {
           forma: "texto",
           texto:
-            "Aquel hueco lo habían abierto otros antes. Libros de divulgación con una idea grande y trescientas páginas venían funcionando desde hacía una década, y este llegó con la ventaja de que su asunto era literalmente todo lo que le ha pasado a la especie. Ninguno abarcaba tanto terreno de golpe.",
+            "El hueco lo habían abierto otros antes que él. Llevaba una década funcionando el ensayo de tesis única y trescientas páginas, y lo que este añadía no era el formato sino la escala: su asunto era, literalmente, todo lo que le ha pasado a la especie.",
         },
         {
           forma: "texto",
           texto:
-            "La cifra que circula conviene mirarla de cerca. Se habla de más de veinticinco millones de ejemplares en más de sesenta idiomas, un número que da la editorial sumando todas las ediciones, incluidas las de bolsillo y la adaptación en cómic que salió después. Ningún editor desglosa nunca esos totales.",
+            "La cifra que circula pide cautela. Se habla de más de veinticinco millones de ejemplares en más de sesenta idiomas, un número que da la editorial sumando todas las ediciones, incluidas las de bolsillo y la adaptación en cómic. Ningún editor desglosa nunca esos totales.",
         },
         {
           forma: "texto",
           texto:
-            "Buena parte de ese empujón vino de tres recomendaciones. Un presidente de Estados Unidos, el fundador de una empresa de software y el de una red social lo citaron como lectura del año casi a la vez, entre 2015 y 2016, y las ventas se dispararon.",
+            "Buena parte del empujón vino de tres nombres. Un presidente de Estados Unidos, el fundador de una empresa de software y el de una red social lo citaron como lectura del año casi a la vez, entre 2015 y 2016, y las ventas dejaron de parecerse a las de un libro de historia.",
         },
         {
           forma: "arte",
           texto:
-            "Quien escribe tiene además una rutina poco habitual para un historiador. Harari medita dos horas cada día y se retira sesenta días al año a un centro de meditación silenciosa, sin libros, sin teléfono y sin hablar con nadie durante todo ese tiempo. Es además vegano desde hace muchos años.",
+            "Quien escribe todo esto tiene una rutina poco habitual para un historiador. Harari medita dos horas cada día y se retira sesenta días al año a un centro de silencio, sin libros, sin teléfono y sin dirigirle la palabra a nadie. Es además vegano desde hace años.",
           arte: "noche",
         },
         {
           forma: "texto",
           texto:
-            "Empezó a meditar en 2000, cuando estaba terminando el doctorado en Oxford. Practica una técnica de origen birmano centrada en observar las sensaciones del cuerpo, y desde entonces no ha fallado ni un retiro anual, ni siquiera cuando el libro se convirtió en un fenómeno.",
+            "Empezó en el año 2000, mientras terminaba el doctorado en Oxford. Practica una técnica de origen birmano centrada en observar las sensaciones del cuerpo, y desde entonces no ha fallado un solo retiro anual, ni siquiera en los años en que el libro se convirtió en un fenómeno.",
         },
         {
           forma: "texto",
           texto:
-            "Los retiros son bastante más duros de lo que suenan. Diez horas diarias sentado, sin leer, sin escribir, sin mirar a nadie a los ojos y sin hablar durante casi dos meses, con una sola comida sólida al día y sin ningún contacto con el exterior.",
+            "Los retiros son más duros de lo que suenan. Diez horas diarias sentado, sin leer, sin escribir, sin mirar a nadie a los ojos y sin hablar durante casi dos meses, con una sola comida sólida al día y ningún contacto con el exterior, ni siquiera por escrito.",
         },
         {
           forma: "texto",
           texto:
-            "De esa práctica salió además su tema recurrente. Harari repite en entrevistas que el gran problema del siglo veintiuno no será la falta de información sino la incapacidad de distinguir lo que importa, y ahí es donde encaja lo que aprendió sentado en silencio. Aquella idea aparece en todos sus libros.",
+            "De ahí sale su obsesión recurrente. Repite en cada entrevista que el problema del siglo veintiuno no será la falta de información sino la incapacidad de distinguir lo que importa dentro de un diluvio de datos, y esa idea reaparece, con distintos disfraces, en todos sus libros.",
         },
         {
           forma: "texto",
           texto:
-            "Dice que sin esa práctica no habría escrito el libro. Sostiene que aprendió allí a distinguir lo que ocurre de verdad de las historias que la cabeza se cuenta sobre lo que ocurre, y que esa distinción es exactamente el asunto de estas páginas. Nunca ha separado las dos cosas.",
+            "Sostiene que sin esa práctica no habría escrito el libro. Dice que allí aprendió a separar lo que ocurre de verdad de las historias que la cabeza se cuenta sobre lo que ocurre, y esa distinción es, exactamente, el asunto de las cuatrocientas páginas que vienen detrás.",
         },
         {
           forma: "texto",
           texto:
-            "El libro está construido sobre cuatro momentos. La revolución cognitiva, hace unos setenta mil años; la agrícola, hace unos doce mil; la unificación de la humanidad, en los últimos milenios; y la científica, hace unos quinientos años, que es la que sigue en marcha. Cada una acelera respecto a la anterior.",
+            "El libro se sostiene sobre cuatro momentos. La revolución cognitiva, hace unos setenta mil años; la agrícola, hace unos doce mil; la unificación de la humanidad, en los últimos milenios; y la científica, hace quinientos años, que es la única de las cuatro que sigue en marcha.",
         },
         {
           forma: "texto",
           texto:
-            "Esas cuatro fechas son la columna del libro y conviene fijarlas. Setenta mil años para el lenguaje, doce mil para la agricultura, unos cinco mil para el dinero y los imperios y quinientos para la ciencia moderna, que va mucho más deprisa que todo lo anterior.",
+            "Esas cuatro fechas son la columna vertebral y conviene fijarlas: setenta mil años para el lenguaje, doce mil para la agricultura, unos cinco mil para el dinero y los imperios, quinientos para la ciencia moderna. Cada tramo es más corto que el anterior, y la diferencia no es pequeña.",
         },
         {
           forma: "texto",
           texto:
-            "La aceleración entre esas cuatro fechas es el otro asunto del libro. Entre la primera y la segunda pasan cincuenta y ocho mil años, entre la segunda y la cuarta once mil quinientos, y lo que ha cambiado en los últimos dos siglos no cabe en esa escala.",
+            "Y ahí está la segunda tesis, la que casi nadie cita. Entre el primer momento y el segundo pasan cincuenta y ocho mil años; entre el segundo y el cuarto, once mil quinientos; y lo que ha cambiado en los últimos dos siglos ya no cabe en esa escala.",
         },
         {
           forma: "texto",
           texto:
-            "Esa aceleración es la que sostiene el final del libro. Si el ritmo del cambio se multiplica en cada etapa, no hay ninguna razón para suponer que la nuestra sea la última, y de ahí sale la pregunta sobre qué viene después del sapiens. Nadie sabe cuánto durará la etapa actual.",
+            "La aceleración es lo que sostiene el final del libro. Si el ritmo se multiplica en cada etapa, no hay ninguna razón para suponer que la nuestra sea la última, y de ahí sale la pregunta incómoda con la que cierra: qué viene después del sapiens.",
         },
         {
           forma: "texto",
           texto:
-            "Empieza recordando algo que casi nadie tiene presente.",
+            "Pero antes de mirar hacia delante, obliga a mirar atrás.",
         },
         {
           forma: "clave",
@@ -131,7 +131,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Hoy queda una, y eso es lo primero que el libro quiere explicar.",
+            "Hoy queda una. Explicar por qué es todo el libro.",
         },
       ],
     },
@@ -141,42 +141,42 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Hace unos setenta mil años algo cambió dentro del cráneo del sapiens. No se sabe qué fue exactamente, probablemente una mutación en la manera de procesar el lenguaje, y a partir de ahí aquella especie empezó a hacer cosas que ninguna otra hacía. Los huesos son iguales antes y después.",
+            "Hace unos setenta mil años algo cambió dentro del cráneo del sapiens. No sabemos qué, probablemente una manera nueva de procesar el lenguaje, y lo desconcertante es que los huesos son idénticos antes y después. Lo que cambia no está en el esqueleto, sino en lo que aquella gente empezó a fabricar.",
         },
         {
           forma: "texto",
           texto:
-            "Los indicios de ese cambio son objetos, no huesos. En ese tramo aparecen de golpe barcos, lámparas de aceite, arcos, agujas y las primeras figuras talladas que representan algo que no existe, y todo eso junto es lo que hace pensar en un salto. Antes de ese tramo no aparece casi nada.",
+            "Y lo que empezó a fabricar aparece de golpe. En ese tramo surgen barcos, lámparas de aceite, arcos, agujas de coser y las primeras figuras talladas que representan algo que no existe en ninguna parte. Antes de ese tramo, durante cientos de miles de años, casi nada.",
         },
         {
           forma: "texto",
           texto:
-            "La pieza más citada de ese periodo es una figura pequeña de marfil. Se encontró en una cueva del sur de Alemania, tiene unos cuarenta mil años y representa un cuerpo humano con cabeza de león, algo que nadie había visto nunca en la naturaleza.",
+            "La pieza más citada del periodo cabe en dos manos. Se encontró en una cueva del sur de Alemania, tiene unos cuarenta mil años y representa un cuerpo humano con cabeza de león: el primer objeto conocido que retrata algo que nadie había visto jamás.",
         },
         {
           forma: "texto",
           texto:
-            "Aquella figura tardó décadas en reconstruirse. Apareció en 1939 en cientos de fragmentos de marfil de mamut, se guardó en cajas durante años y solo al montarla se vio que era un cuerpo humano con cabeza de animal, es decir, algo imaginado. Mide unos treinta centímetros de alto.",
+            "Tardó décadas en existir del todo. Apareció en 1939 en cientos de fragmentos de marfil de mamut, se guardó en cajas durante años y solo al montarla se vio lo que era. Mide treinta centímetros, y alguien invirtió en tallarla cientos de horas con herramientas de piedra.",
         },
         {
           forma: "texto",
           texto:
-            "Muchos animales se comunican y algunos avisan del peligro con precisión. Lo que no hace ninguno, según Harari, es hablar durante horas de cosas que no ha visto nadie y que no existen en ningún sitio: espíritus, antepasados, leones con cabeza de hombre. Ninguna otra especie inventa personajes.",
+            "Muchos animales se comunican, y algunos avisan del peligro con una precisión que nos avergonzaría. Ninguno, sostiene Harari, se pasa la tarde entera hablando de cosas que no ha visto nadie y que no están en ningún sitio del mundo físico: espíritus, antepasados, leones con cabeza de hombre.",
         },
         {
           forma: "texto",
           texto:
-            "El ejemplo que usa para marcar la diferencia es un mono avisando de un león. Ese aviso es información útil y precisa, pero ningún mono ha convencido nunca a otros de que el león es el espíritu protector de la tribu y hay que dejarle comida.",
+            "La comparación que usa es un mono avisando de un león. El aviso es información útil y comprobable. Lo que ningún mono ha conseguido nunca es convencer a los demás de que ese león es el espíritu protector de la tribu y de que hay que dejarle comida.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí sale la parte de la tesis que más se discute. Que el lenguaje sirva para inventar no lo niega casi nadie; lo que se discute es si eso fue una mutación concreta hace setenta mil años o un proceso mucho más largo y gradual.",
+            "Aquí empieza la parte discutida. Que el lenguaje sirva para inventar no lo niega casi nadie; lo que se discute es si aquello fue una mutación concreta hace setenta mil años o un proceso mucho más largo, empezado mucho antes y sin ningún momento señalado.",
         },
         {
           forma: "texto",
           texto:
-            "Conviene precisar que el libro no aporta pruebas nuevas sobre eso. Recoge la hipótesis más difundida en los años noventa y dos mil, la cuenta muy bien, y no discute las versiones alternativas que sitúan el cambio mucho antes y de forma más gradual. Recoger bien tampoco es poca cosa.",
+            "El libro no aporta pruebas nuevas sobre ese punto. Recoge la hipótesis más difundida en los años noventa, la cuenta mejor que nadie y pasa de largo por las versiones alternativas. Contar bien no es poco mérito, pero conviene saber en qué terreno se está pisando.",
         },
         {
           forma: "clave",
@@ -186,67 +186,67 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "El problema que resuelve esa capacidad es de número. Un grupo de primates que se conocen entre sí no puede pasar de unas ciento cincuenta personas sin romperse, porque el chismorreo y el trato directo no dan para más, y ese techo se conoce desde hace décadas.",
+            "El problema que esa capacidad resuelve es aritmético. Un grupo de primates que se conocen entre sí no pasa de unas ciento cincuenta personas sin romperse: el trato directo y el chismorreo no dan para más, y por encima de esa cifra el grupo se parte en dos.",
         },
         {
           forma: "texto",
           texto:
-            "Por encima de esa cifra empiezan a hacer falta reglas escritas. Un grupo pequeño se ordena solo, con reputación y chismorreo; a partir de cierto tamaño hacen falta jefes, normas y una historia común que explique por qué hay que obedecerlas. El chismorreo deja de ser suficiente.",
+            "A partir de ahí hace falta otra cosa. Un grupo pequeño se ordena solo, con reputación y rumores; uno grande necesita jefes, normas escritas y, sobre todo, una historia común que explique por qué hay que obedecerlas. El chismorreo, pasado cierto tamaño, deja de sostener el edificio.",
         },
         {
           forma: "texto",
           texto:
-            "Ese umbral se sigue usando fuera de la antropología. Hay empresas que parten sus oficinas al llegar a ese tamaño, ejércitos que organizan sus unidades alrededor de esa cifra y aplicaciones que la citan para justificar cuántos contactos tiene sentido mantener. La cifra ha tenido más éxito que su autor.",
+            "El umbral ha tenido una carrera propia fuera de la antropología. Hay empresas que parten sus oficinas al llegar a ese tamaño, ejércitos que organizan sus unidades alrededor de esa cifra y aplicaciones que la citan para decidir cuántos contactos tiene sentido mantener. La cifra ha tenido más éxito que su autor.",
         },
         {
           forma: "texto",
           texto:
-            "El propio autor de la cifra ha pedido prudencia con ella. Sostiene que se trata de un orden de magnitud y no de un número exacto, y que el margen real va de cien a doscientos y depende de la sociedad y de la persona.",
+            "Su autor pide bastante más prudencia que quienes lo citan. Sostiene que se trata de un orden de magnitud y no de un número exacto, que el margen real va de cien a doscientos y que depende de la sociedad, del oficio y de la persona.",
         },
         {
           forma: "texto",
           texto:
-            "Conviene decir de dónde sale ese ciento cincuenta. Lo propuso un antropólogo británico en los años noventa comparando el tamaño del cerebro y el de los grupos en distintos primates, y es una cifra discutida, con estudios posteriores que dan resultados bastante distintos. El margen real es bastante más amplio.",
+            "Conviene saber de dónde sale. Lo propuso un antropólogo británico en los años noventa comparando el tamaño del cerebro con el de los grupos en distintos primates, y los estudios posteriores han dado resultados bastante dispares entre sí. La cifra es una brújula, no un metro.",
         },
         {
           forma: "texto",
           texto:
-            "Lo que rompe ese techo es una historia compartida. Dos desconocidos que creen en el mismo dios, en el mismo país o en el mismo billete pueden cooperar sin haberse visto nunca, y así se pasa de bandas de ciento cincuenta a ciudades de millones.",
+            "Lo que rompe ese techo es una historia compartida. Dos desconocidos que creen en el mismo dios, en el mismo país o en el mismo billete pueden cooperar sin haberse visto nunca, y así se pasa de bandas de ciento cincuenta a ciudades de veinte millones.",
         },
         {
           forma: "texto",
           texto:
-            "A esas historias las llama realidades imaginadas u órdenes imaginados. La lista incluye los dioses, las naciones, el dinero, los derechos humanos, las empresas y la ley, y todas comparten una característica: existen solo mientras haya bastante gente que se las crea. Ninguna existe en la naturaleza.",
+            "A esas historias las llama realidades imaginadas, u órdenes imaginados. La lista incluye los dioses, las naciones, el dinero, las empresas, la ley y los derechos humanos, y la lista podría seguir, pero todas comparten un rasgo: existen mientras haya bastante gente creyéndoselas, y ni un minuto más.",
         },
         {
           forma: "texto",
           texto:
-            "Distingue con cuidado entre tres tipos de realidad. La objetiva, que existe aunque nadie la crea, como una montaña; la subjetiva, que existe solo dentro de una cabeza, como un dolor; y la intersubjetiva, que existe en la conversación de mucha gente y desaparece si dejan de creerla.",
+            "Para no confundirse, distingue tres tipos de realidad. La objetiva existe aunque nadie la crea, como una montaña. La subjetiva existe dentro de una sola cabeza, como un dolor de muelas. Y la intersubjetiva existe únicamente en la conversación de mucha gente, y desaparece en cuanto dejan de mantenerla.",
         },
         {
           forma: "texto",
           texto:
-            "Esa tercera categoría es la que hace todo el trabajo del libro. Un billete, una frontera o una empresa no están en la cabeza de nadie en particular y tampoco existen en la naturaleza: viven en el acuerdo, y por eso pueden cambiar de un día para otro.",
+            "Esa tercera categoría hace todo el trabajo del libro. Un billete, una frontera o una sociedad anónima no están en la cabeza de nadie en particular y tampoco existen en la naturaleza: viven en el acuerdo. Y un acuerdo, por antiguo que sea, puede romperse en una sola tarde.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí sale su ejemplo favorito sobre lo frágiles que son. Un imperio, una moneda o una religión pueden desaparecer en una generación si la gente deja de creérselos, y eso ha pasado bastantes veces sin que cambiara nada en el mundo físico. Aquellas caídas no dejaron ninguna ruina.",
+            "De ahí su ejemplo favorito sobre lo frágiles que son. Un imperio, una moneda o una religión pueden desaparecer en una sola generación si la gente deja de creérselos, y eso ha ocurrido decenas de veces sin que se moviera una piedra del mundo físico.",
         },
         {
           forma: "texto",
           texto:
-            "El ejemplo que usa para explicarlo es una marca de coches. Una empresa no es su fábrica ni sus obreros ni sus coches: es una figura jurídica que existe porque unos papeles lo dicen, y puede acumular deudas, ser demandada y sobrevivir a todos sus empleados.",
+            "Para lo contrario, lo duraderas que son, usa una marca de coches. Una empresa no es su fábrica, ni sus obreros, ni sus coches: es una figura jurídica que existe porque unos papeles lo dicen, puede endeudarse, ser demandada y sobrevivir a todos sus empleados.",
         },
         {
           forma: "texto",
           texto:
-            "Precisar lo que Harari no afirma evita el malentendido más común. No dice que esas cosas sean falsas ni poco importantes: dice justo lo contrario, que son las fuerzas más poderosas que existen y que casi todo lo humano se ha construido encima de ellas.",
+            "Y aquí conviene desactivar el malentendido más común. Harari no dice que esas cosas sean falsas ni prescindibles: dice justo lo contrario, que son las fuerzas más poderosas que existen sobre la Tierra y que casi todo lo humano se ha construido encima de ellas.",
         },
         {
           forma: "texto",
           texto:
-            "Sobre los neandertales, el libro cambió entre ediciones.",
+            "Sobre los neandertales, en cambio, el libro tuvo que corregirse entre ediciones.",
         },
         {
           forma: "clave",
@@ -256,7 +256,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Esa cifra salió del primer genoma neandertal, publicado en 2010.",
+            "La cifra salió del primer genoma neandertal, publicado en 2010.",
         },
       ],
     },
@@ -266,42 +266,42 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Hace unos doce mil años, en el Creciente Fértil, unos cuantos grupos empezaron a plantar en vez de recoger. Ese cambio se cuenta siempre como el gran paso adelante de la humanidad, y el capítulo que le dedica se titula el mayor fraude de la historia.",
+            "Hace unos doce mil años, en el Creciente Fértil, unos cuantos grupos empezaron a plantar en vez de recoger. Todos los libros cuentan ese momento como el gran paso adelante de la humanidad. El capítulo que Harari le dedica se titula «el mayor fraude de la historia».",
         },
         {
           forma: "texto",
           texto:
-            "Aquello no ocurrió en un sitio ni de golpe. La agricultura apareció por separado en al menos siete regiones del mundo a lo largo de milenios, con plantas distintas en cada una, y en ninguna de ellas hubo una decisión consciente de cambiar de vida.",
+            "No ocurrió en un sitio ni de golpe. La agricultura apareció por separado en al menos siete regiones del mundo, con plantas distintas en cada una y con milenios de diferencia entre ellas, y en ninguna hubo una reunión donde alguien decidiera cambiar de vida.",
         },
         {
           forma: "texto",
           texto:
-            "Los cultivos de cada región cuentan esa historia por separado. Trigo y cebada en Oriente Próximo, arroz y mijo en China, maíz y calabaza en México, patata en los Andes, y en cada sitio las mismas consecuencias con siglos o milenios de diferencia. Ninguno de esos grupos se copió del otro.",
+            "Los cultivos lo cuentan por separado: trigo y cebada en Oriente Próximo, arroz y mijo en China, maíz y calabaza en México, patata en los Andes. Ninguno de esos pueblos se copió de otro, y en todos se repitieron después, con siglos de diferencia, las mismas consecuencias.",
         },
         {
           forma: "texto",
           texto:
-            "Esa repetición independiente es lo que hace difícil hablar de error. Si siete grupos humanos sin contacto entre sí llegan a lo mismo por caminos distintos, la explicación no puede ser una mala decisión, sino algo estructural en la relación entre población y comida. El propio libro reconoce ese punto.",
+            "Esa repetición es lo que hace difícil hablar de error. Cuando siete grupos sin contacto entre sí llegan a lo mismo por caminos distintos, la explicación no puede ser una mala decisión: tiene que haber algo estructural en la relación entre la comida y las bocas que hay.",
         },
         {
           forma: "texto",
           texto:
-            "El argumento es incómodo y bastante bien documentado. Los primeros agricultores trabajaban más horas que los cazadores, comían peor y de menos cosas, tenían más caries, más anemia y más hernias, y vivían por primera vez pegados a animales y a sus enfermedades. Las epidemias empiezan justo en ese momento.",
+            "El argumento incómodo está bien documentado. Los primeros agricultores trabajaban más horas que los cazadores, comían peor y de menos cosas, tenían más caries, más anemia y más hernias, y vivían por primera vez pegados a los animales. Las grandes epidemias de la humanidad empiezan exactamente en ese momento.",
         },
         {
           forma: "texto",
           texto:
-            "Los huesos lo confirman con bastante claridad. Los esqueletos de los primeros agricultores son más bajos que los de los cazadores de la misma zona, tienen peores dientes y muestran señales de trabajo repetitivo en columna, rodillas y dedos de los pies. Aquellos cuerpos hablan mejor que las crónicas.",
+            "Los huesos lo confirman sin necesidad de crónicas. Los esqueletos de los primeros agricultores son más bajos que los de los cazadores de la misma zona, tienen peor dentadura y muestran el desgaste del trabajo repetitivo en la columna, en las rodillas y en los dedos de los pies.",
         },
         {
           forma: "texto",
           texto:
-            "Hay otro dato que suele sorprender más. La estatura media de los europeos no volvió a los niveles de los cazadores del Paleolítico hasta bien entrado el siglo veinte, después de casi diez mil años de dietas basadas en unos pocos cereales. Recuperar esa estatura costó casi cien siglos.",
+            "Un dato lo resume mejor que ninguno: la estatura media de los europeos no volvió a los niveles del Paleolítico hasta bien entrado el siglo veinte. Casi diez mil años de dietas montadas sobre dos o tres cereales cuestan exactamente eso, y la cuenta la fue pagando cada generación.",
         },
         {
           forma: "texto",
           texto:
-            "La contrapartida de todo eso también está en el libro. La agricultura permitió alimentar a muchísima más gente en el mismo terreno, y sin ese excedente no habría habido ciudades, ni escritura, ni especialistas, ni nada de lo que vino después. Sin excedente no hay nada de eso.",
+            "La contrapartida está también en el libro, y es enorme. La agricultura alimentaba a muchísima más gente en el mismo terreno, y sin ese excedente no habría habido ciudades, ni escritura, ni especialistas, ni nada de lo que vino después. El fraude, si lo hubo, nos construyó.",
         },
         {
           forma: "clave",
@@ -311,67 +311,67 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Detrás de esa provocación hay una distinción que sí se sostiene. El éxito de una especie se mide en número de copias del ADN, y con ese criterio el trigo y las vacas ganaron; el bienestar de cada individuo concreto se mide de otra manera y fue a peor.",
+            "Detrás de la provocación hay una distinción que se sostiene. El éxito de una especie se mide en copias de su ADN, y con esa vara el trigo y las vacas ganaron de calle. El bienestar de cada individuo concreto se mide de otra manera, y fue a peor.",
         },
         {
           forma: "texto",
           texto:
-            "Conviene decir de dónde viene ese argumento, porque no es suyo. Un biólogo estadounidense publicó en 1987 un artículo corto titulado el peor error de la historia de la especie humana, con esa misma tesis, y Harari lo desarrolla y lo populariza treinta años después.",
+            "El argumento no es suyo, y nunca lo ha escondido. Un biólogo estadounidense publicó en 1987 un artículo de tres páginas titulado «el peor error de la historia de la especie humana», con esta misma tesis. Harari lo desarrolla y lo populariza treinta años después.",
         },
         {
           forma: "texto",
           texto:
-            "Aquel artículo se publicó en una revista de divulgación y ocupaba tres páginas. Su autor sostenía que la agricultura fue una catástrofe de la que nunca nos hemos recuperado, y aquella frase, escrita en 1987, sigue apareciendo en los programas de las facultades. Su título lo decía todo de entrada.",
+            "Aquel artículo salió en una revista de divulgación y sigue en los programas de las facultades. Sostenía que la agricultura fue una catástrofe de la que no nos hemos recuperado nunca, y el título ya lo decía todo antes de que uno llegara al primer párrafo.",
         },
         {
           forma: "texto",
           texto:
-            "Armas, gérmenes y acero, de ese mismo autor, está en este catálogo y desarrolla la otra mitad del argumento. Allí no se pregunta si la agricultura fue buena, sino por qué apareció antes en unos continentes que en otros y qué se siguió de eso.",
+            "Armas, gérmenes y acero, del mismo autor y en este catálogo, desarrolla la otra mitad. Allí no se pregunta si la agricultura fue buena, sino por qué apareció antes en unos continentes que en otros, y qué se siguió de eso para el resto de la historia.",
         },
         {
           forma: "texto",
           texto:
-            "Los dos libros se complementan y conviene leerlos en orden. El de Diamond explica la geografía y los cultivos con muchísimo detalle; este da por sabido todo eso y se dedica a lo que pasó dentro de la cabeza de la gente mientras ocurría. Leerlos juntos cubre casi todo el terreno.",
+            "Los dos libros se complementan mejor de lo que parece. Diamond explica la geografía y los cultivos con un detalle apabullante; Harari da todo eso por sabido y se ocupa de lo que pasaba dentro de la cabeza de la gente mientras ocurría. Leerlos seguidos cubre el terreno.",
         },
         {
           forma: "texto",
           texto:
-            "Armas, gérmenes y acero, del mismo autor, que anda por este catálogo, es el libro largo de aquella idea. Allí se explica por qué la agricultura apareció en unos sitios y no en otros, y por qué eso decidió qué pueblos conquistaron a cuáles. Aquel volumen es de 1997.",
+            "Falta explicar por qué nadie dio marcha atrás, y ahí Harari aporta algo propio. Lo llama la trampa del lujo: cada mejora se convierte en necesidad, la población crece hasta comerse el excedente, y para cuando alguien se da cuenta ya hay demasiadas bocas para volver a cazar.",
         },
         {
           forma: "texto",
           texto:
-            "Harari añade una explicación de por qué no hubo marcha atrás. La llama la trampa del lujo: cada mejora se convierte en necesidad, la población crece con la comida disponible y para cuando alguien se da cuenta ya hay demasiadas bocas para volver a cazar.",
+            "La tercera parte del libro se ocupa de cómo se juntó todo. Sostiene que tres fuerzas han empujado a la humanidad hacia la unidad durante milenios —el dinero, los imperios y las religiones universales— y que las tres funcionan, por debajo, con exactamente el mismo mecanismo.",
         },
         {
           forma: "texto",
           texto:
-            "La tercera parte del libro se ocupa de cómo se juntó todo. Sostiene que tres fuerzas han ido empujando a la humanidad hacia la unidad durante milenios: el dinero, los imperios y las religiones universales, y que las tres funcionan con el mismo mecanismo. Ninguna de las tres actúa sola.",
+            "Ese mecanismo es el de siempre. Ninguna de las tres existe fuera de la cabeza de la gente, las tres exigen que millones de desconocidos se crean lo mismo, y las tres permiten cooperar a una escala que ninguna banda de primates alcanzaría jamás por sí sola.",
         },
         {
           forma: "texto",
           texto:
-            "El mecanismo común a las tres es el mismo de siempre. Ninguna existe fuera de la cabeza de la gente, todas exigen que millones de desconocidos se crean lo mismo, y las tres permiten cooperar a escalas que ninguna banda de primates alcanzaría jamás. La escala es lo que cambia todo.",
+            "El dinero es el caso que mejor lo demuestra. Un billete es un papel sin valor propio y funciona porque cada uno confía en que los demás lo aceptarán; es decir, lo único que sostiene el sistema entero es la confianza en la confianza ajena.",
         },
         {
           forma: "texto",
           texto:
-            "El caso del dinero es el que mejor demuestra la tesis. Un billete es un papel sin valor propio, y funciona porque cada persona confía en que las demás lo aceptarán, de modo que lo único que sostiene el sistema es la confianza en la confianza ajena.",
+            "Y no lo dice como reproche. Lo llama el sistema de confianza más eficaz que se ha inventado nunca, recuerda que permitió comerciar entre culturas enemigas y admite que casi nada de la vida moderna existiría sin él. La ficción no es el problema: es la herramienta.",
         },
         {
           forma: "texto",
           texto:
-            "Conviene precisar que Harari no dice que el dinero sea un engaño. Lo llama el sistema de confianza más eficaz que se ha inventado, señala que permitió comerciar entre desconocidos y culturas enemigas, y admite que casi nada de la vida moderna existiría sin él.",
+            "Su ejemplo es de los que se quedan. Un musulmán y un cristiano del siglo doce que no se fiaban en absoluto el uno del otro podían fiarse los dos, sin discutirlo, de la misma moneda de oro. El metal no tenía religión, y con eso bastaba para cerrar el trato.",
         },
         {
           forma: "texto",
           texto:
-            "De las tres, la que mejor explica es el dinero. Lo define como el sistema de confianza mutua más universal que se ha inventado: un musulmán y un cristiano que no se fiaban el uno del otro podían fiarse los dos de la misma moneda de oro.",
+            "Y funciona sobre todo porque casi nadie se pregunta por qué funciona. Un sistema de creencias que se examina cada mañana no aguanta; el dinero aguanta porque lo usamos sin mirarlo, como se usa un idioma, sin pararnos a pensar que alguien tuvo que inventarlo.",
         },
         {
           forma: "texto",
           texto:
-            "Y funciona porque casi nadie se pregunta por qué funciona.",
+            "Ninguna otra ficción ha tenido nunca esa aceptación universal.",
         },
         {
           forma: "clave",
@@ -381,7 +381,7 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "La revolución científica, dice, empieza cuando alguien admite que no sabe.",
+            "La revolución científica empieza, en cambio, cuando alguien admite que no sabe.",
         },
       ],
     },
@@ -391,47 +391,47 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "El defecto más serio del libro es de tono y no de datos. Harari cuenta con la misma seguridad lo que está demostrado, lo que se discute y lo que es una conjetura suya, y el lector no tiene ninguna manera de distinguir en qué categoría está cada frase.",
+            "El defecto más serio del libro no está en los datos, sino en el tono. Harari cuenta con idéntica seguridad lo que está demostrado, lo que se discute y lo que es una conjetura suya, y el lector no tiene ninguna manera de saber en cuál de las tres está.",
         },
         {
           forma: "texto",
           texto:
-            "Ese problema se nota sobre todo en las transiciones. Un párrafo describe un hallazgo arqueológico con fechas y yacimientos, el siguiente explica qué debieron de sentir aquellas personas, y entre los dos no hay ningún cambio de tono que avise al lector. Ningún signo tipográfico marca ese salto.",
+            "Se nota sobre todo en las costuras. Un párrafo describe un hallazgo con fechas y yacimientos, el siguiente explica qué debieron de sentir aquellas personas, y entre uno y otro no hay ningún cambio de registro que avise. Ni una cursiva, ni un «probablemente», ni una nota que separe el hallazgo de la conjetura.",
         },
         {
           forma: "texto",
           texto:
-            "El caso más señalado es el de la revolución cognitiva. Que hubo un cambio en el comportamiento hace decenas de miles de años lo acepta casi todo el mundo; que fuera una mutación genética concreta y súbita es una hipótesis que el libro presenta como un hecho.",
+            "El caso más señalado es la propia revolución cognitiva. Que hubo un cambio de comportamiento hace decenas de miles de años lo acepta casi todo el mundo; que fuera una mutación genética concreta y repentina es una hipótesis, y el libro la presenta como un hecho.",
         },
         {
           forma: "texto",
           texto:
-            "Hay otras afirmaciones sueltas que los especialistas discuten. La cronología de algunas migraciones, el papel exacto del sapiens en varias extinciones y la lectura que hace del imperialismo europeo aparecen contadas con más seguridad de la que permiten las pruebas disponibles. La seguridad del tono no admite matices.",
+            "Hay otras afirmaciones que los especialistas discuten. La cronología de varias migraciones, el papel exacto del sapiens en algunas extinciones y la lectura del imperialismo europeo aparecen contadas con más aplomo del que permiten las pruebas. El tono, siempre el mismo, no deja sitio para el matiz.",
         },
         {
           forma: "texto",
           texto:
-            "Historiadores y antropólogos se lo han reprochado por escrito. Una reseña muy citada de un antropólogo británico repasa el libro capítulo a capítulo y concluye que es entretenido y estimulante, pero que no debería tomarse como una aportación seria al conocimiento. Aquella reseña se publicó en 2017.",
+            "Se lo han reprochado por escrito. Una reseña muy citada de un antropólogo británico repasa el libro capítulo a capítulo y concluye que es entretenido y estimulante, pero que no debería tomarse como una aportación seria al conocimiento. Aquella reseña se publicó en 2017 y sigue siendo la más citada en contra.",
         },
         {
           forma: "texto",
           texto:
-            "La tesis central tampoco es suya, aunque casi nunca se diga. La idea de que las naciones son comunidades imaginadas la formuló un politólogo en 1983 en un libro célebre, y la de que la sociedad se sostiene en representaciones colectivas viene de la sociología del siglo diecinueve.",
+            "La tesis central tampoco es suya, aunque casi nunca se diga. Que las naciones son comunidades imaginadas lo formuló un politólogo en 1983, en un libro célebre, y la idea de que la sociedad se sostiene sobre representaciones colectivas viene de la sociología del siglo diecinueve.",
         },
         {
           forma: "texto",
           texto:
-            "Hay además un filósofo que había formulado eso mismo con precisión. En los años noventa describió cómo funcionan los hechos institucionales, esas cosas que existen porque colectivamente aceptamos que existen, con el dinero y el matrimonio como ejemplos principales. Aquel trabajo se titula, en castellano, La construcción de la realidad social.",
+            "Un filósofo lo había formulado además con toda precisión. En los años noventa describió cómo funcionan los hechos institucionales —esas cosas que existen porque colectivamente aceptamos que existen— con el dinero y el matrimonio como ejemplos principales. Se titula La construcción de la realidad social.",
         },
         {
           forma: "texto",
           texto:
-            "El gen egoísta, de Dawkins, que anda por este catálogo, aporta la otra pieza que Harari usa sin desarrollar. La idea de que las ideas se copian, mutan y compiten como si fueran organismos está debajo de todo el tratamiento de las religiones en este libro.",
+            "El gen egoísta, de Dawkins, que anda por este catálogo, aporta otra pieza que Harari usa sin desarrollar: la idea de que las ideas se copian, mutan y compiten entre sí como si fueran organismos. Todo el tratamiento que hace de las religiones descansa sobre esa idea, sin decirlo.",
         },
         {
           forma: "texto",
           texto:
-            "El origen de las especies, de Darwin, que también anda por este catálogo, es el cimiento de todo el planteamiento. Sapiens está escrito desde la biología evolutiva de principio a fin, y trata a la especie humana como una más, sin ningún lugar especial reservado.",
+            "Y El origen de las especies, también en este catálogo, es el cimiento de todo. Sapiens está escrito desde la biología evolutiva de la primera página a la última, y trata a la especie humana como una más, sin reservarle ningún lugar especial en la creación.",
         },
         {
           forma: "clave",
@@ -441,62 +441,62 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "La vida de los cazadores recolectores sale bastante idealizada. El libro los describe con jornadas cortas, dieta variada y poco estrés, y esa imagen viene de unos pocos estudios sobre grupos actuales que viven en desiertos, no de los que vivían en tierras fértiles hace treinta mil años.",
+            "Los cazadores recolectores salen bastante idealizados. El libro los describe con jornadas cortas, dieta variada y poco estrés, y esa imagen viene de unos pocos estudios sobre grupos actuales que viven en desiertos, no de los que ocupaban las tierras fértiles hace treinta mil años.",
         },
         {
           forma: "texto",
           texto:
-            "La discusión sobre las horas de trabajo es un buen ejemplo. La cifra de las tres o cuatro horas diarias viene de un estudio de los años sesenta sobre un grupo del Kalahari, y depende mucho de qué se cuente como trabajo y de qué estación del año se mida.",
+            "La cifra de las tres o cuatro horas de trabajo diario ilustra bien el problema. Sale de un estudio de los años sesenta sobre un grupo del Kalahari, y varía muchísimo según qué se cuente como trabajo y en qué estación del año se mida.",
         },
         {
           forma: "texto",
           texto:
-            "Hay además un problema con la muestra. Los grupos cazadores que se han podido estudiar en el siglo veinte vivían en los sitios que nadie más quería, desiertos y selvas remotas, y no se parecen mucho a los que ocupaban las mejores tierras hace treinta mil años.",
+            "Y hay un problema de muestra que no tiene arreglo. Los grupos cazadores que se han podido estudiar en el siglo veinte vivían en los sitios que nadie más quería —desiertos, selvas remotas—, y no se parecen gran cosa a los que ocupaban los mejores valles.",
         },
         {
           forma: "texto",
           texto:
-            "Esa idealización tiene además una consecuencia práctica. De este capítulo salieron buena parte de las dietas y las rutinas que se venden hoy como ancestrales, montadas sobre una imagen del pasado que el propio libro presenta con bastantes más matices. Ninguna dieta actual reproduce lo que comían.",
+            "Esa idealización ha tenido consecuencias fuera del libro. De este capítulo salieron buena parte de las dietas y las rutinas que hoy se venden como ancestrales, montadas sobre una imagen del pasado que el propio Harari presenta con bastantes más matices de los que llegan al público.",
         },
         {
           forma: "texto",
           texto:
-            "La extinción de la megafauna es otro punto discutido. Harari atribuye a la llegada del sapiens la desaparición de los grandes animales de Australia y América, y hay una discusión abierta entre los que culpan a la caza y los que culpan al cambio de clima.",
+            "La extinción de la megafauna es otro punto abierto. Harari atribuye a la llegada del sapiens la desaparición de los grandes animales de Australia y de América, y la discusión entre los que culpan a la caza y los que culpan al clima sigue sin cerrarse.",
         },
         {
           forma: "texto",
           texto:
-            "El aparato de notas es fino para la escala del proyecto. Un libro que cubre setenta mil años en cuatrocientas páginas cita relativamente pocas fuentes, y casi ninguna aparece en el texto, de modo que comprobar una afirmación concreta cuesta bastante trabajo. Verificar una frase suelta lleva horas.",
+            "El aparato de notas es escaso para la escala del proyecto. Un libro que cubre setenta mil años en cuatrocientas páginas cita pocas fuentes, y casi ninguna dentro del texto, de modo que comprobar una afirmación concreta cuesta más trabajo del que nadie va a invertir.",
         },
         {
           forma: "texto",
           texto:
-            "El propio Harari ha respondido a eso más de una vez. Dice que su oficio no es aportar datos nuevos sino juntar los que ya existen en una historia que se entienda, y que quien quiera profundizar tiene la bibliografía al final del volumen. Esa bibliografía existe y es larga.",
+            "Él ha respondido a eso más de una vez, y con un argumento razonable. Dice que su oficio no es aportar datos nuevos sino juntar los que ya existen en una historia que se entienda, y que quien quiera profundizar tiene la bibliografía al final del volumen.",
         },
         {
           forma: "texto",
           texto:
-            "Esa defensa es razonable y también tiene un límite. Un libro que se lee como divulgación se cita después como autoridad, y las afirmaciones más discutibles acaban repetidas en artículos, charlas y conversaciones como si fueran conocimiento asentado. Nadie lee la bibliografía antes de repetir la frase en una cena.",
+            "La defensa es razonable y tiene un límite. Un libro que se escribe como divulgación se cita después como autoridad, y las afirmaciones más discutibles acaban repetidas en artículos, en charlas y en cenas como si fueran conocimiento asentado. Nadie consulta la bibliografía antes de repetir una frase.",
         },
         {
           forma: "texto",
           texto:
-            "Y ahí está la razón por la que sigue mereciendo la pena. Un lector que no vaya a leer nunca veinte libros de arqueología, economía y biología se lleva de este una estructura donde colocar todo lo demás, y eso vale más que la suma de sus errores.",
+            "Y aun así merece la pena, por una razón concreta. Un lector que no va a leer nunca veinte libros de arqueología, economía y biología se lleva de este una estructura donde colocar todo lo demás, y una estructura vale más que la suma de sus errores.",
         },
         {
           forma: "texto",
           texto:
-            "Precisar lo que el libro no propone quita otro malentendido. No dice que haya que volver a cazar y recolectar, ni que la agricultura fuera una decisión que alguien tomó mal: dice que fue un proceso lento del que nadie vio las consecuencias a tiempo.",
+            "Precisar lo que no propone quita otro malentendido. No dice que haya que volver a cazar y recolectar, ni que la agricultura fuera una decisión que alguien tomó mal: dice que fue un proceso lento del que nadie vio las consecuencias mientras las estaba causando.",
         },
         {
           forma: "texto",
           texto:
-            "Tampoco es un libro de predicciones, aunque se lea así. Sapiens mira hacia atrás y se detiene en el presente; el que se dedica a lo que viene es el siguiente, y las dos cosas se mezclan constantemente cuando se habla de este autor. Los dos títulos se citan casi siempre juntos.",
+            "Tampoco es un libro de predicciones, aunque se lea así. Sapiens mira hacia atrás y se detiene en el presente; el que se ocupa de lo que viene es el siguiente. Los dos títulos se citan casi siempre juntos, y casi siempre se confunde lo que dice cada uno.",
         },
         {
           forma: "texto",
           texto:
-            "Lo que hace bien es difícil de imitar.",
+            "Lo que hace bien, en cambio, es difícil de imitar.",
         },
         {
           forma: "clave",
@@ -516,27 +516,27 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Cerca del final hay un capítulo que no encaja en ningún libro de historia. Se pregunta si todo aquello nos ha hecho más felices, y señala que es la pregunta que ningún historiador hace nunca, aunque sea la única que le importa al lector. Ocupa unas quince páginas del volumen.",
+            "Cerca del final hay un capítulo que no encaja en ningún libro de historia. Se pregunta si todo aquello nos ha hecho más felices, y observa que es la pregunta que ningún historiador se hace nunca, aunque sea la única que le importa de verdad al lector.",
         },
         {
           forma: "texto",
           texto:
-            "La pregunta la formula de una manera que incomoda. Dice que la historia se cuenta siempre como un progreso, con más comida y más conocimiento en cada etapa, y que nadie se molesta en comprobar si las personas concretas lo estaban pasando mejor o peor.",
+            "La formula además de una manera que incomoda. La historia se cuenta siempre como un progreso —más comida, más años, más conocimiento en cada etapa— y nadie se molesta en comprobar si las personas concretas que vivían dentro de cada etapa lo pasaban mejor o peor.",
         },
         {
           forma: "texto",
           texto:
-            "El ejemplo que pone es de los que se quedan. Compara a un campesino chino del siglo doce con un obrero de una fábrica del siglo veinte y pregunta cuál de los dos tenía una vida mejor, sabiendo que no hay ninguna manera honesta de contestar.",
+            "El ejemplo que pone es de los que se quedan. Compara a un campesino chino del siglo doce con un obrero de una fábrica del siglo veinte y pregunta cuál de los dos tenía mejor vida, sabiendo perfectamente que no hay ninguna manera honesta de contestar.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí sale la parte más útil de ese capítulo. Sostiene que las expectativas pesan más que las condiciones: la gente no compara su vida con la de sus bisabuelos, sino con la de sus vecinos y con la que creía que le iba a tocar.",
+            "De ahí sale la parte más útil del capítulo. Sostiene que las expectativas pesan bastante más que las condiciones materiales: nadie compara su vida con la de sus bisabuelos, sino con la de sus vecinos y con la que creía que le iba a tocar.",
         },
         {
           forma: "texto",
           texto:
-            "Su respuesta provisional es que probablemente no. Tenemos más comida, más años y menos violencia que ningún antepasado, y no hay ninguna prueba de que un campesino medieval fuera menos feliz que un oficinista actual, ni manera fiable de compararlos. Ninguna cifra histórica permite zanjarlo.",
+            "Su respuesta provisional es que probablemente no. Tenemos más comida, más años y menos violencia que ningún antepasado, y aun así no hay ninguna prueba de que un campesino medieval fuera menos feliz que un oficinista de hoy, ni ninguna manera fiable de compararlos, porque a nadie se le ocurrió preguntar entonces.",
         },
         {
           forma: "clave",
@@ -546,52 +546,52 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Ese punto de partida es el argumento más duro del capítulo. Si el ánimo de cada uno oscila alrededor de un nivel propio y vuelve a él después de una lotería o de un accidente, entonces mejorar las condiciones externas cambia mucho menos de lo que se supone.",
+            "Ese punto de partida es el argumento más duro del libro. Si el ánimo de cada uno oscila alrededor de un nivel propio y regresa a él después de una lotería o de un accidente, entonces mejorar las condiciones externas cambia mucho menos de lo que suponemos.",
         },
         {
           forma: "texto",
           texto:
-            "Los estudios que cita van en esa dirección aunque no la cierran. Gente que gana la lotería y gente que sufre un accidente grave vuelven en pocos meses a un nivel de ánimo parecido al que tenían antes, aunque la vuelta no sea completa ni igual para todos.",
+            "Los estudios que cita apuntan en esa dirección sin cerrarla. Quien gana la lotería y quien sufre un accidente grave que lo deja en una silla vuelven, en unos meses, a un ánimo parecido al que tenían antes, aunque el regreso no sea completo ni igual para todos.",
         },
         {
           forma: "texto",
           texto:
-            "La expresión técnica para eso es adaptación hedónica. Describe la tendencia a acostumbrarse a lo bueno y a lo malo, y explica por qué una mudanza, un ascenso o un coche nuevo dejan de producir efecto a las pocas semanas de haber llegado. Ese efecto se ha medido muchas veces.",
+            "El nombre técnico es adaptación hedónica. Describe la tendencia a acostumbrarse a lo bueno y a lo malo, y explica por qué una mudanza, un ascenso o un coche nuevo dejan de producir efecto a las pocas semanas de haber llegado, y vuelven a dejarnos donde estábamos.",
         },
         {
           forma: "texto",
           texto:
-            "Ese mecanismo tiene una explicación evolutiva bastante sencilla. Un animal permanentemente satisfecho deja de buscar comida y de reproducirse, así que la naturaleza premió a los que se acostumbran deprisa y vuelven a querer más al cabo de poco tiempo. Estar contento del todo no compensaba evolutivamente.",
+            "Y tiene una explicación evolutiva bastante brutal. Un animal permanentemente satisfecho deja de buscar comida y de reproducirse, así que la selección natural premió a los que se acostumbran deprisa y vuelven a querer más. Estar contento del todo nunca compensó, y de ese cálculo antiguo venimos todos.",
         },
         {
           forma: "texto",
           texto:
-            "Ahí es donde asoma el meditador. Harari dedica unas páginas a la respuesta budista, que sitúa el problema en la persecución misma de las sensaciones agradables, y sostiene que es la única tradición que ha estudiado eso en serio durante siglos. Aquella tradición lleva dos mil quinientos años observándolo.",
+            "Aquí es donde asoma el meditador. Harari dedica unas páginas a la respuesta budista, que sitúa el problema en la persecución misma de las sensaciones agradables, y sostiene que es la única tradición que lleva dos mil quinientos años estudiando eso en serio y con método propio.",
         },
         {
           forma: "texto",
           texto:
-            "Ese capítulo es también el más criticado por sus colegas. Le reprochan que abandona el oficio de historiador, que la ciencia de la felicidad que cita es endeble y que la conclusión estaba escrita antes de empezar, por la práctica personal del autor. Ningún historiador escribiría esas páginas.",
+            "Es también el capítulo que más le reprochan sus colegas. Le dicen que abandona el oficio de historiador, que la ciencia de la felicidad que cita es endeble y que la conclusión estaba escrita antes incluso de empezar el capítulo, por la práctica personal del autor.",
         },
         {
           forma: "texto",
           texto:
-            "La objeción de método es la más razonable de todas. Comparar la felicidad de un campesino del año mil con la de un oficinista actual exigiría medir algo que no se midió entonces, y ningún dato histórico permite acercarse a esa comparación. Faltan los datos y faltarán siempre.",
+            "La objeción de método es la más difícil de responder. Comparar la felicidad de un campesino del año mil con la de un oficinista actual exigiría medir algo que nadie midió entonces, y ningún dato histórico permite acercarse siquiera a esa comparación. Faltan los datos, y faltarán siempre.",
         },
         {
           forma: "texto",
           texto:
-            "Hay además una objeción de fondo sobre el propio marco. Si toda la felicidad se reduce a bioquímica, entonces la historia entera da igual, y esa conclusión deja sin sentido el resto del libro, que trata precisamente de lo que la historia ha cambiado. El libro no resuelve esa contradicción.",
+            "Hay además una objeción de fondo, y es la más grave. Si toda la felicidad se reduce a bioquímica, la historia entera da igual; y esa conclusión deja sin sentido las cuatrocientas páginas anteriores, que tratan precisamente de todo lo que la historia sí ha cambiado. El libro no resuelve la contradicción.",
         },
         {
           forma: "texto",
           texto:
-            "El propio libro deja esa tensión sin resolver del todo. Reconoce que su respuesta es provisional, que la ciencia de la felicidad está empezando y que la pregunta merecería un libro entero, y a continuación pasa al capítulo siguiente. Ese libro entero que menciona no lo ha llegado a escribir nunca.",
+            "El propio libro deja esa tensión sin resolver. Reconoce que su respuesta es provisional, que la ciencia de la felicidad está empezando y que la pregunta merecería un libro entero, y acto seguido pasa al capítulo siguiente. Ese libro entero no lo ha escrito nunca.",
         },
         {
           forma: "texto",
           texto:
-            "El libro termina mirando hacia lo que viene. Sostiene que por primera vez una especie está en condiciones de rediseñarse a sí misma, con ingeniería genética, con prótesis y con máquinas, y que eso puede acabar con el sapiens tal como lo conocemos. Ninguna de las tres es ciencia ficción.",
+            "El final mira hacia delante. Sostiene que por primera vez una especie está en condiciones de rediseñarse a sí misma —con ingeniería genética, con prótesis, con máquinas— y que eso puede terminar con el sapiens tal y como lo conocemos. Nada de eso es ciencia ficción.",
         },
         {
           forma: "texto",
@@ -601,22 +601,22 @@ export const SAPIENS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Homo Deus, del mismo autor, que está en este catálogo, es el libro que desarrolla esas tres. Allí sostiene que la humanidad, resueltos el hambre y la peste, se pondrá a perseguir la inmortalidad y la felicidad química, con las consecuencias que eso traiga. Aquel volumen salió cuatro años después.",
+            "Homo Deus, del mismo autor y en este catálogo, es el libro que desarrolla esas tres. Allí sostiene que la humanidad, resueltos el hambre y la peste, se pondrá a perseguir la inmortalidad y la felicidad química. Salió cuatro años después de este y se cita casi siempre pegado a él.",
         },
         {
           forma: "texto",
           texto:
-            "Y ahí termina el viaje que empezó en un aula de primero de carrera. Un medievalista al que le tocó la asignatura que nadie quería contó setenta mil años en cuatrocientas páginas, y acabó explicando el mundo a más lectores que cualquier historiador vivo. Nadie en aquella facultad lo vio venir.",
+            "Y ahí termina el viaje que empezó en un aula de primero de carrera. Un medievalista al que le endosaron la asignatura que nadie quería contó setenta mil años en cuatrocientas páginas y acabó explicando el mundo a más lectores que cualquier historiador vivo. Nadie en aquella facultad lo vio venir.",
         },
         {
           forma: "texto",
           texto:
-            "La última frase del libro es una advertencia y no una celebración. Dice que nos hemos convertido en dioses, que no rendimos cuentas ante nadie y que no sabemos lo que queremos, y que no hay nada más peligroso que eso. Con esa advertencia se cierra el volumen.",
+            "La última frase no es una celebración, sino una advertencia. Dice que nos hemos convertido en dioses, que no rendimos cuentas ante nadie, que no sabemos lo que queremos, y que no hay en el mundo nada más peligroso que eso. Es la última línea del volumen.",
         },
         {
           forma: "texto",
           texto:
-            "Lo que vino después fueron dos libros más y una industria. Uno sobre el futuro en 2015, otro sobre el presente en 2018, una adaptación en cómic y una empresa propia dedicada a gestionar conferencias, proyectos educativos y traducciones. Aquella empresa la dirige su marido, que es además su agente literario.",
+            "Lo que vino después fueron dos libros más y una industria. Uno sobre el futuro en 2015, otro sobre el presente en 2018, una adaptación en cómic y una empresa propia dedicada a conferencias, proyectos educativos y traducciones, que dirige su marido, que es además su agente literario.",
         },
         {
           forma: "texto",

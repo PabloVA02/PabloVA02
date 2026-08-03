@@ -3217,12 +3217,12 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Harari abre con una afirmación que suena a provocación y que sostiene con datos durante cien páginas: por primera vez en la historia, la humanidad ha dejado atrás los tres jinetes que la acompañaron desde siempre. El hambre, las epidemias y la guerra han pasado de ser fuerzas de la naturaleza a ser problemas gestionables.",
+            "Durante toda la historia conocida, tres cosas decidieron cuánta gente había en el mundo: el hambre, la peste y la guerra. Harari abre sosteniendo que las tres han dejado de ser fuerzas de la naturaleza para convertirse en problemas administrables, y dedica cien páginas a demostrarlo. Es la mejor noticia del libro, y también la única.",
         },
         {
           forma: "texto",
           texto:
-            "Durante milenios, el hambre no era un desastre excepcional sino el fondo de la vida. Francia, uno de los países más ricos de Europa, sufrió más de una docena de hambrunas graves entre los siglos XVII y XVIII. Los campesinos vivían al borde, y una mala cosecha se llevaba a un porcentaje de la población.",
+            "El hambre no era un desastre excepcional: era el fondo del cuadro. Francia, uno de los países más ricos de Europa, sufrió más de una docena de hambrunas graves entre los siglos XVII y XVIII. Se vivía al borde, y una mala cosecha bastaba para llevarse a un porcentaje de la población que hoy sería una catástrofe nacional.",
         },
         {
           forma: "clave",
@@ -3232,29 +3232,29 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "arte",
           texto:
-            "Esa comparación es la más citada del libro y también la más discutida, porque juntar causas de muerte tan distintas es discutible metodológicamente. Pero la dirección del dato no está en duda: por primera vez, más gente muere por comer de más que por comer de menos.",
+            "Es la comparación más citada del libro y también la más frágil, porque juntar causas de muerte tan distintas tiene su miga metodológica. La dirección del dato, en cambio, no la discute nadie: por primera vez desde que existimos, muere más gente por comer de más que por comer de menos.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Con las epidemias hace el mismo recorrido. La peste negra mató en pocos años a entre un cuarto y la mitad de la población europea. Los pueblos americanos perdieron la mayor parte de sus habitantes por enfermedades traídas del otro lado del Atlántico. La gripe de 1918 mató a decenas de millones en menos de un año.",
+            "Con las epidemias el recorrido es el mismo. La peste negra se llevó en pocos años a entre un cuarto y la mitad de Europa. Los pueblos americanos perdieron la mayor parte de sus habitantes por enfermedades que cruzaron el Atlántico dentro de unos cuerpos sanos. La gripe de 1918 mató a decenas de millones en menos de un año.",
         },
         {
           forma: "texto",
           texto:
-            "Y el cambio no es solo médico, es de expectativa. Antes, ante una epidemia, la gente rezaba y organizaba procesiones porque la enfermedad se entendía como un castigo divino. Hoy, cuando aparece un virus nuevo, la reacción automática es preguntar a los científicos cuándo estará la vacuna — y esperar respuesta.",
+            "Pero lo que ha cambiado no es solo la medicina: es lo que esperamos. Ante una epidemia se rezaba y se organizaban procesiones, porque la enfermedad era un castigo y no un fenómeno. Hoy, cuando aparece un virus nuevo, la primera pregunta es cuándo estará la vacuna. Y esperamos que la respuesta traiga fecha.",
         },
         {
           forma: "arte",
           texto:
-            "Con la guerra el argumento es más incómodo pero está bien construido. Durante la mayor parte de la historia, la violencia era la principal causa de muerte de un varón adulto y saquear al vecino era un negocio rentable: sus campos, sus rebaños y sus esclavos se podían llevar en carros.",
+            "Con la guerra el argumento es más incómodo y está mejor construido. Durante casi toda la historia la violencia fue la principal causa de muerte de un varón adulto, y saquear al vecino era un negocio con buen margen: sus campos, sus rebaños y sus esclavos cabían en unos carros y se llevaban a casa.",
           arte: "mapa",
         },
         {
           forma: "texto",
           texto:
-            "Hoy la riqueza principal de un país es su conocimiento y sus instituciones, y eso no se puede saquear. Invadir Silicon Valley no te da Silicon Valley: te da unos edificios vacíos. Harari sostiene que la guerra dejó de ser rentable, y no solo inmoral, y que esa es la razón profunda de su declive.",
+            "Hoy la riqueza de un país está en su conocimiento y en sus instituciones, y eso no cabe en ningún carro. Invadir Silicon Valley no te da Silicon Valley: te da unos edificios vacíos. La guerra, sostiene Harari, dejó de ser rentable antes que de ser inmoral, y ahí está la razón profunda de su declive.",
         },
         {
           forma: "clave",
@@ -3264,60 +3264,59 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Conviene subrayarlo porque el libro se ha criticado mucho por optimista desde que estallaron guerras posteriores. Harari escribe expresamente que la humanidad podría volver a la carnicería en cualquier momento y que la ausencia de guerra no es una ley, sino un logro frágil que hay que mantener.",
+            "Merece la pena insistir, porque el libro se ha criticado mucho por optimista desde que estallaron las guerras posteriores. Harari escribe expresamente que podríamos volver a la carnicería en cualquier momento, y que la ausencia de guerra no es una ley de la historia sino un logro frágil que hay que sostener todos los días.",
         },
         {
           forma: "texto",
           texto:
-            "Su conclusión es la que da sentido al resto del libro. Si ya no dedicamos la energía colectiva a sobrevivir, la dedicaremos a otra cosa. Y esa otra cosa, dice, será perseguir tres objetivos: la inmortalidad, la felicidad permanente y la divinidad — es decir, la capacidad de rediseñarnos.",
+            "De esa buena noticia sale todo lo demás. Si la energía colectiva deja de gastarse en sobrevivir, se gastará en otra cosa, y esa otra cosa tiene nombre: la inmortalidad, la felicidad permanente y la divinidad, entendida como la capacidad de rediseñarnos. Los tres proyectos del siglo, dice, ya están en marcha.",
         },
         {
           forma: "texto",
           texto:
-            "Antes de llegar ahí, Harari desmonta una intuición muy extendida sobre el hambre. La gente suele pensar que las hambrunas históricas eran fallos de producción, y en buena parte eran fallos de distribución y de política: había grano, y no llegaba. Lo que ha cambiado no es solo la agricultura, es la logística y la capacidad del Estado.",
+            "Antes de llegar ahí desmonta una intuición muy extendida. Solemos imaginar las hambrunas históricas como fallos de producción, y en buena parte fueron fallos de reparto y de política: había grano, y no llegaba. Lo que ha cambiado no es solo la agricultura, sino la logística y la capacidad de un Estado para mover comida a tiempo.",
         },
         {
           forma: "texto",
           texto:
-            "Pone el ejemplo de las hambrunas del siglo XX, que fueron casi todas políticas: bloqueos, colectivizaciones forzosas, guerras civiles. Y señala el dato que lo confirma — no ha habido una hambruna grande en un país democrático con prensa libre, porque un gobierno que puede caer no deja morir de hambre a su población en silencio.",
+            "Las hambrunas del siglo XX lo confirman: casi todas fueron políticas —bloqueos, colectivizaciones forzosas, guerras civiles—. Y hay un dato que cierra el argumento: no ha habido una hambruna grande en un país democrático con prensa libre, porque un gobierno que puede caer no deja morir de hambre a su población en silencio.",
         },
         {
           forma: "arte",
           texto:
-            "Con las epidemias hace una precisión que se le suele pasar al lector rápido. No dice que no vaya a haber más pandemias: dice que ha cambiado quién manda. Antes una epidemia era un acontecimiento natural ante el que solo cabía rezar; ahora es un problema técnico que moviliza laboratorios, y el fracaso se considera responsabilidad de alguien.",
+            "Sobre las epidemias hace una precisión que se le pasa al lector rápido. No dice que no vaya a haber más pandemias. Dice que ha cambiado quién manda: antes eran un acontecimiento natural ante el que solo cabía rezar; ahora son un problema técnico que moviliza laboratorios, y el fracaso tiene responsables con nombre.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Su repaso de la peste negra incluye el detalle que mejor explica aquella impotencia: los médicos de la época no tenían ni la idea de que existieran microorganismos. Trataban con sangrías y con hierbas, y las autoridades organizaban procesiones que juntaban a miles de personas — es decir, hacían exactamente lo peor posible con la mejor intención.",
+            "El repaso de la peste negra incluye el detalle que mejor explica aquella impotencia: los médicos no tenían siquiera la idea de que existieran los microorganismos. Trataban con sangrías y con hierbas, y las autoridades organizaban procesiones que juntaban a miles de personas. Hacían exactamente lo peor posible con la mejor intención del mundo.",
         },
         {
           forma: "texto",
           texto:
-            "Sobre la guerra añade un factor que la mayoría de los resúmenes omite: las armas nucleares. Harari sostiene que la posibilidad de destrucción mutua convirtió una guerra entre grandes potencias en un suicidio colectivo, y que eso, más que ninguna mejora moral, es lo que cambió el cálculo de los gobiernos.",
+            "Sobre la guerra añade un factor que la mayoría de los resúmenes se salta: las armas nucleares. La posibilidad de destrucción mutua convirtió una guerra entre grandes potencias en un suicidio, y eso —más que ninguna mejora moral de la especie— es lo que cambió el cálculo de los gobiernos a partir de 1945.",
         },
         {
           forma: "texto",
           texto:
-            "Y matiza la buena noticia con honestidad. Escribe que si vives en Siria o en el Congo, decirte que la violencia ha disminuido en el mundo suena a broma cruel. Su afirmación es estadística y global, y él insiste en que una media baja no significa nada para quien está dentro de la excepción.",
+            "Y matiza la buena noticia sin trampas. Escribe que a quien vive en Siria o en el Congo, decirle que la violencia ha disminuido en el mundo le sonará a broma cruel. Su afirmación es estadística y global, e insiste en que una media baja no significa absolutamente nada para quien está dentro de la excepción.",
         },
         {
           forma: "arte",
           texto:
-            "El título viene de ahí. Homo sapiens, el hombre que sabe, tratará de convertirse en Homo Deus, el hombre que crea. No por soberbia sino por continuidad: quien ha resuelto el hambre y las epidemias no se detiene, empieza a pelearse con la vejez.",
+            "El título sale de ahí. Homo sapiens, el hombre que sabe, tratará de convertirse en Homo Deus, el hombre que crea. Y no por soberbia, sino por inercia: quien ha resuelto el hambre y las epidemias no se para a celebrarlo, se pone a pelearse con lo siguiente, que es la vejez.",
           arte: "explorar",
         },
       ],
     },
-
     {
       titulo: "La muerte como problema técnico",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Harari sostiene que ha ocurrido un cambio silencioso en cómo entendemos la muerte. Durante toda la historia fue un misterio religioso: nadie sabía por qué moría la gente, y las respuestas eran teológicas. Hoy, en un certificado de defunción, no se puede escribir «voluntad de Dios». Hay que escribir un fallo concreto.",
+            "Ha ocurrido un cambio silencioso en la manera de entender la muerte, y casi nadie lo ha notado. Durante toda la historia fue un misterio religioso: nadie sabía por qué moría la gente y las respuestas eran teológicas. Hoy, en un certificado de defunción, no se puede escribir «voluntad de Dios». Hay que escribir un fallo concreto.",
         },
         {
           forma: "clave",
@@ -3327,23 +3326,23 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "De ahí la enorme inversión que se ha volcado en investigar el envejecimiento. Harari repasa los proyectos de las grandes tecnológicas dedicados a alargar la vida y las cifras que manejan, y anota una diferencia importante: no persiguen la eternidad, persiguen la <em>amortalidad</em>.",
+            "De ahí el dinero que se ha volcado en investigar el envejecimiento. Harari repasa los proyectos de las grandes tecnológicas dedicados a alargar la vida y las cifras que manejan, y anota una diferencia que lo cambia todo: no persiguen la eternidad, persiguen la <em>amortalidad</em>.",
         },
         {
           forma: "texto",
           texto:
-            "Un amortal no es inmortal: puede morir de un accidente o de un misil, pero no de vejez ni de enfermedad. Y esa distinción tiene una consecuencia psicológica que Harari desarrolla muy bien — un amortal sería la persona más miedosa de la historia, porque tendría infinito que perder al cruzar la calle.",
+            "Un amortal no es un inmortal. Puede morir de un accidente o de un misil, pero no de vejez ni de enfermedad, y esa distinción tiene una consecuencia psicológica que el libro desarrolla muy bien: un amortal sería la persona más miedosa que ha existido nunca, porque al cruzar la calle se jugaría infinito.",
         },
         {
           forma: "arte",
           texto:
-            "También plantea el problema social que casi nadie discute. Si un tratamiento así apareciera, no sería gratis ni universal desde el primer día. La brecha entre ricos y pobres ha sido siempre de dinero y de oportunidades; por primera vez podría ser de años de vida, y eso cambia la naturaleza de la desigualdad.",
+            "Está además el problema social que casi nadie discute. Un tratamiento así no sería gratis ni universal desde el primer día. La brecha entre ricos y pobres ha sido siempre de dinero y de oportunidades; por primera vez podría medirse en años de vida, y eso no es una desigualdad mayor: es una desigualdad de otra naturaleza.",
           arte: "museo",
         },
         {
           forma: "texto",
           texto:
-            "El segundo objetivo es la felicidad, y aquí Harari es más pesimista. Repasa la evidencia de que el bienestar subjetivo apenas ha subido pese a que la riqueza se ha multiplicado, y explica el motivo biológico: nuestro sistema de recompensa está diseñado para volver siempre a su punto de partida.",
+            "El segundo proyecto es la felicidad, y ahí el libro se pone pesimista. La riqueza se ha multiplicado y el bienestar declarado apenas se ha movido, y el motivo no es cultural sino biológico: el sistema de recompensa que llevamos dentro está calibrado para volver siempre al mismo sitio.",
         },
         {
           forma: "clave",
@@ -3353,70 +3352,69 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Si la felicidad depende de sensaciones internas y no de condiciones externas, dice, entonces la única forma de conseguirla de verdad es intervenir en la bioquímica. Y señala que ya lo estamos haciendo a gran escala: el consumo de antidepresivos y de estimulantes ha crecido de forma sostenida durante décadas.",
+            "Si la felicidad depende de sensaciones internas y no de condiciones externas, la única palanca que queda es intervenir en la bioquímica. Y ya lo estamos haciendo a gran escala: el consumo de antidepresivos y de estimulantes lleva décadas creciendo, receta a receta, sin que nadie lo haya decidido de golpe.",
         },
         {
           forma: "texto",
           texto:
-            "Su pregunta no es si eso está bien o mal. Es qué ocurre cuando la sociedad pasa de tratar enfermos a mejorar a los sanos — cuando el objetivo deja de ser devolver a alguien a la normalidad y pasa a ser situarle por encima de ella.",
+            "La pregunta que le interesa no es si eso está bien o mal. Es qué ocurre cuando una sociedad pasa de tratar enfermos a mejorar a los sanos: cuando el objetivo deja de ser devolver a alguien a la normalidad y empieza a ser subirlo por encima de ella, con la misma receta y el mismo médico.",
         },
         {
           forma: "arte",
           texto:
-            "El tercer objetivo, la divinidad, es el rediseño de la propia especie. Harari lo desglosa en tres vías: la ingeniería biológica, la fusión de cuerpo y máquina, y la creación de vida completamente inorgánica. Ninguna es ciencia ficción lejana: las tres tienen ya laboratorios y presupuestos.",
+            "El tercer proyecto, la divinidad, es el rediseño de la propia especie, y lo desglosa en tres vías: la ingeniería biológica, la fusión de cuerpo y máquina, y la creación de vida completamente inorgánica. Ninguna de las tres es ciencia ficción lejana. Las tres tienen ya laboratorios, presupuestos y calendario.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Y hace una observación histórica que ayuda a entenderlo. Ningún proyecto de esta escala empieza declarándose. La bomba atómica salió de una carta y de la física teórica; internet salió de un proyecto militar de comunicaciones. Lo que hoy son investigaciones dispersas sobre longevidad y genética, dice, es exactamente así como empiezan las cosas grandes.",
+            "Y hace una observación histórica que ayuda a situarse. Ningún proyecto de esta escala empieza declarándose. La bomba atómica salió de una carta y de unos cuantos papeles de física teórica; internet, de un encargo militar de comunicaciones. Lo que hoy son investigaciones dispersas sobre longevidad y genética empieza exactamente así.",
         },
         {
           forma: "texto",
           texto:
-            "Su capítulo sobre la felicidad recoge la investigación del bienestar subjetivo y llega a una conclusión que incomoda a las dos orillas del debate. La gente de los países ricos declara ser algo más feliz que la de los pobres, pero mucho menos de lo que cabría esperar por la diferencia de riqueza. Y dentro de un mismo país, subir de renta apenas mueve la aguja pasado un umbral.",
+            "El capítulo sobre la felicidad recoge la investigación del bienestar subjetivo y llega a una conclusión que incomoda a las dos orillas. La gente de los países ricos se declara algo más feliz que la de los pobres, pero muchísimo menos de lo que cabría esperar; y dentro de un mismo país, subir de renta apenas mueve la aguja pasado cierto umbral.",
         },
         {
           forma: "texto",
           texto:
-            "Su explicación es el mecanismo de la adaptación. Consigues el trabajo, el piso o el coche que llevabas años deseando, y a los pocos meses el nivel de satisfacción vuelve al que tenías antes. No es un defecto de carácter: es un sistema que la evolución dejó calibrado para que nunca dejemos de querer más.",
+            "La explicación es la adaptación. Consigues el trabajo, el piso o el coche que llevabas años deseando y a los pocos meses la satisfacción ha vuelto exactamente donde estaba. No es un defecto de carácter ni una falta de gratitud: es un sistema que la evolución dejó calibrado para que nunca dejemos de querer más.",
         },
         {
           forma: "arte",
           texto:
-            "Harari lo lleva a un extremo lógico que resulta perturbador. Si la felicidad son sensaciones y las sensaciones son bioquímica, entonces mejorar el mundo no la aumenta de forma sostenida. La única palanca que queda es intervenir directamente, y esa puerta ya está abierta.",
+            "Llevado a su extremo lógico, el argumento resulta perturbador. Si la felicidad son sensaciones y las sensaciones son bioquímica, mejorar el mundo no la aumenta de forma sostenida; la única palanca real es intervenir directamente en el cuerpo. Y esa puerta, insiste, no está por abrirse: lleva décadas abierta.",
           arte: "museo",
         },
         {
           forma: "texto",
           texto:
-            "Repasa entonces cómo ha crecido el consumo de psicofármacos y de sustancias que mejoran el rendimiento, y hace la observación clave: la medicina ha ido desplazando su frontera. Primero servía para devolver a un enfermo a la normalidad; cada vez más se usa para llevar a alguien sano por encima de ella.",
+            "La frontera de la medicina se ha ido desplazando sin que nadie firmara nada. Primero servía para devolver a un enfermo a la normalidad; cada vez más se usa para llevar a alguien sano por encima de ella. Cada caso concreto parece razonable, y de la suma de casos razonables sale un cambio de época.",
         },
         {
           forma: "texto",
           texto:
-            "Y señala que ese desplazamiento no lo decide ningún comité. Ocurre paciente a paciente, receta a receta, y cada caso individual parece razonable. Es el mismo patrón con el que, según él, van a llegar todos los cambios grandes del siglo.",
+            "Ese desplazamiento no lo decide ningún comité, y ahí está lo inquietante. Ocurre paciente a paciente, receta a receta, y nadie llega a votar sobre el conjunto. Es el patrón con el que, según él, van a llegar todos los cambios grandes del siglo: sin anuncio, sin debate y sin nadie a quien reclamar.",
         },
         {
           forma: "texto",
           texto:
-            "Sobre la tercera vía —el rediseño de la especie— añade un matiz importante. Harari no cree que vayamos a fabricar superhombres de laboratorio a corto plazo. Cree que llegaremos ahí por acumulación de pequeñas mejoras médicas perfectamente justificables, cada una destinada a curar algo concreto.",
+            "Sobre el rediseño de la especie añade un matiz importante. No cree que vayamos a fabricar superhombres de laboratorio a corto plazo. Cree que llegaremos ahí por acumulación de pequeñas mejoras médicas perfectamente justificables, cada una destinada a curar algo concreto, y ninguna presentada nunca como lo que en conjunto es.",
         },
         {
           forma: "texto",
           texto:
-            "Su marco general lo resume en una frase incómoda: los grandes proyectos del siglo XXI no serán elegidos por nadie en una votación. Emergerán de la suma de decisiones de empresas, gobiernos y consumidores, cada una razonable por separado.",
+            "Su marco general cabe en una frase incómoda: los grandes proyectos del siglo XXI no los va a elegir nadie en una votación. Emergerán de la suma de decisiones de empresas, gobiernos y consumidores, cada una razonable por separado y ninguna pensada para el resultado que producen juntas.",
         },
       ],
     },
-
     {
       titulo: "El relato que nos gobierna",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La parte central del libro retoma la idea que hizo famoso a <em>Sapiens</em>: que dominamos el planeta gracias a las ficciones compartidas. El dinero, los estados, las empresas y los derechos humanos no existen fuera de nuestras cabezas, y sin embargo organizan la vida de ocho mil millones de personas.",
+            "La parte central retoma la idea que hizo famoso a <em>Sapiens</em>: dominamos el planeta gracias a las ficciones compartidas. El dinero, los estados, las empresas y los derechos humanos no existen fuera de nuestras cabezas, y sin embargo organizan la vida de ocho mil millones de personas sin que ninguna se lo pregunte por la mañana.",
         },
         {
           forma: "clave",
@@ -3426,23 +3424,23 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Es una definición amplia a propósito y molesta a mucha gente. Su argumento es que la función de esos relatos es la misma: fijan qué está bien y qué está mal, y su autoridad no se somete a votación. La diferencia entre unos y otros no es que unos sean ficciones y otros hechos.",
+            "Es una definición amplia a propósito, y molesta a mucha gente. El argumento es que la función de esos relatos es idéntica: fijan qué está bien y qué está mal, y su autoridad no se somete a votación. La diferencia entre unos y otros no es que unos sean ficciones y los otros hechos comprobables.",
         },
         {
           forma: "arte",
           texto:
-            "El capítulo más duro es sobre los animales. Harari sostiene que la revolución agrícola fue el mayor crimen de la historia por su escala: hoy hay decenas de miles de millones de animales viviendo en granjas industriales, y su mundo emocional —que la ciencia reconoce— está sistemáticamente frustrado.",
+            "El capítulo más duro es el de los animales. Harari sostiene que la revolución agrícola fue el mayor crimen de la historia por pura escala: hoy viven en granjas industriales decenas de miles de millones de animales cuyo mundo emocional —que la ciencia reconoce sin discusión— está sistemáticamente frustrado desde que nacen.",
           arte: "noche",
         },
         {
           forma: "texto",
           texto:
-            "Su argumento no es sentimental sino de coherencia. Si defendemos que los humanos merecen consideración porque sentimos, y la ciencia muestra que otros animales sienten también, entonces la línea que trazamos entre ellos y nosotros no la sostiene la biología: la sostiene una historia que nos contamos.",
+            "El argumento no es sentimental, es de coherencia. Si defendemos que los humanos merecemos consideración porque sentimos, y la ciencia muestra que otros animales sienten también, entonces la línea que trazamos entre ellos y nosotros no la sostiene la biología. La sostiene una historia que nos contamos, y las historias se cambian.",
         },
         {
           forma: "texto",
           texto:
-            "Después dedica un tramo largo a explicar el humanismo, que él considera la religión dominante de los últimos siglos. Su dogma central: la autoridad última está dentro de cada persona. Lo que sientes es lo que importa, y por eso votas, eliges pareja, eliges carrera y el cliente siempre tiene razón.",
+            "Después dedica un tramo largo al humanismo, que considera la religión dominante de los últimos siglos. Su dogma central cabe en una línea: la autoridad última está dentro de cada persona. Lo que sientes es lo que importa, y de ahí sale que votes, que elijas pareja, que elijas carrera y que el cliente lleve siempre razón.",
         },
         {
           forma: "clave",
@@ -3452,60 +3450,59 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Harari muestra hasta qué punto ha calado desmontando ejemplos cotidianos. El arte moderno considera bello lo que el espectador siente, no lo que cumple una regla. La educación moderna pide pensar por uno mismo, no memorizar la autoridad. La política moderna pregunta qué quiere el votante, no qué manda la tradición.",
+            "Para enseñar hasta qué punto ha calado, desmonta ejemplos cotidianos. El arte moderno considera bello lo que el espectador siente, no lo que cumple una regla. La educación moderna pide pensar por uno mismo, no memorizar la autoridad. Y la política moderna pregunta qué quiere el votante, no qué manda la tradición.",
         },
         {
           forma: "arte",
           texto:
-            "Y traza sus tres ramas históricas, que explican buena parte del siglo XX. El humanismo liberal, que dice que cada individuo decide. El socialista, que dice que decide el colectivo. Y el evolutivo, que sostenía que unos humanos son superiores a otros — y que produjo el nazismo.",
+            "Sus tres ramas históricas explican buena parte del siglo XX. El humanismo liberal sostiene que decide cada individuo. El socialista, que decide el colectivo. Y el evolutivo sostenía que unos humanos son superiores a otros, y de ahí salió el nazismo, que no se presentaba como un rechazo del progreso sino como su aplicación biológica.",
           arte: "memoria",
         },
         {
           forma: "texto",
           texto:
-            "Su recorrido histórico del humanismo empieza en un sitio inesperado: la Edad Media. Explica que entonces la autoridad no estaba dentro de nadie, sino en las escrituras y en la Iglesia. Si querías saber si algo estaba bien, no te preguntabas cómo te sentías: consultabas a quien tenía la autoridad para interpretar el texto.",
+            "El recorrido histórico empieza en un sitio inesperado: la Edad Media. Entonces la autoridad no estaba dentro de nadie, sino en las escrituras y en la Iglesia. Si querías saber si algo estaba bien, no te preguntabas cómo te sentías; consultabas a quien tenía potestad para interpretar el texto, y eso zanjaba la discusión.",
         },
         {
           forma: "arte",
           texto:
-            "Y muestra con un ejemplo doméstico lo radical que fue el cambio. Antes, un matrimonio lo arreglaban las familias según criterios de tierra y linaje, y preguntar a los novios si se querían habría sido tan raro como preguntarle a un caballo. Hoy nos parece evidente que decide el sentimiento de los dos.",
+            "Un ejemplo doméstico mide lo radical que fue el cambio. Antes, un matrimonio lo arreglaban las familias según criterios de tierra y de linaje, y preguntar a los novios si se querían habría resultado tan extravagante como preguntárselo a un caballo. Hoy nos parece evidente que eso lo deciden los sentimientos de dos personas.",
           arte: "memoria",
         },
         {
           forma: "texto",
           texto:
-            "Aplica el mismo análisis a la economía. El capitalismo de consumo funciona sobre un dogma humanista: que el cliente siempre tiene razón, y que si algo te apetece está justificado comprarlo. Ninguna sociedad anterior habría aceptado que el deseo individual fuera un argumento suficiente.",
+            "El mismo análisis se aplica a la economía. El capitalismo de consumo funciona sobre un dogma humanista: que el cliente siempre tiene razón y que si algo te apetece, apetecerlo ya es un argumento. Ninguna sociedad anterior a la nuestra habría aceptado que el deseo individual bastara para justificar nada.",
         },
         {
           forma: "texto",
           texto:
-            "Y a la educación, donde el giro es más visible. Un maestro medieval te enseñaba a repetir la autoridad; un maestro moderno te pide que pienses por ti mismo y valora tu opinión. Harari no dice que lo segundo sea peor. Dice que es un dogma tan indemostrable como el anterior, y que lo hemos olvidado.",
+            "Y a la educación, donde el giro se ve mejor que en ninguna parte. Un maestro medieval te enseñaba a repetir la autoridad; uno moderno te pide que pienses por ti mismo y valora tu opinión. Harari no dice que lo segundo sea peor: dice que es un dogma tan indemostrable como el anterior, y que lo hemos olvidado.",
         },
         {
           forma: "texto",
           texto:
-            "Su análisis del humanismo evolutivo es el más duro. Explica que el nazismo no se presentaba a sí mismo como un rechazo del progreso sino como su aplicación biológica, y que esa es exactamente la razón por la que resultó atractivo para gente formada. No fue un rebrote de la superstición: fue ciencia mal entendida al servicio de una ideología.",
+            "Su lectura del humanismo evolutivo es la más incómoda del libro. El nazismo resultó atractivo para gente formada precisamente porque no se presentaba como superstición, sino como ciencia aplicada a la política. No fue un rebrote de la Edad Media: fue biología mal entendida al servicio de una ideología, con universidades detrás.",
         },
         {
           forma: "texto",
           texto:
-            "De ahí saca la advertencia que atraviesa el libro. Las peores catástrofes del siglo XX no las causaron el fanatismo religioso ni la ignorancia, sino relatos modernos que se creían científicos. Y el relato que viene, dice, también se va a presentar con datos y con laboratorios detrás.",
+            "De ahí sale la advertencia que atraviesa el libro entero. Las peores catástrofes del siglo XX no las causaron el fanatismo religioso ni la ignorancia, sino relatos modernos que se creían científicos. Y el relato que viene, avisa, también va a presentarse con datos, con gráficas y con laboratorios detrás.",
         },
         {
           forma: "texto",
           texto:
-            "Su tesis es que el liberal ganó las dos guerras del siglo pasado y la Guerra Fría, y que por eso hoy nos parece evidente. Pero un relato que gana no es un relato verdadero: es un relato que funcionó bien en unas condiciones concretas. Y esas condiciones, dice, están a punto de cambiar.",
+            "El liberal ganó las dos guerras mundiales y la Guerra Fría, y por eso hoy nos parece evidente. Pero un relato que gana no es un relato verdadero: es un relato que funcionó bien en unas condiciones concretas. Y esas condiciones, sostiene Harari, están a punto de cambiar.",
         },
       ],
     },
-
     {
       titulo: "El algoritmo que te conoce mejor",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "La última parte es la que hizo famoso el libro, y su argumento es más sutil de lo que suele resumirse. Harari no dice que las máquinas se rebelarán ni que habrá robots asesinos. Dice algo más incómodo: que el humanismo se caerá solo, porque su base científica ya no se sostiene.",
+            "La última parte es la que hizo famoso al libro, y su argumento es bastante más sutil de lo que suele resumirse. Harari no dice que las máquinas se rebelarán ni que vendrán robots asesinos. Dice algo peor: que el humanismo se caerá solo, porque la base científica sobre la que se apoya ya no se sostiene.",
         },
         {
           forma: "clave",
@@ -3515,18 +3512,18 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Repasa los experimentos sobre decisión que muestran actividad cerebral antes de que el sujeto sea consciente de haber elegido, y los estudios sobre pacientes con el cerebro dividido, en los que las dos mitades dan respuestas distintas y una de ellas inventa explicaciones para lo que hizo la otra sin saberlo.",
+            "Repasa los experimentos sobre decisión que detectan actividad cerebral antes de que el sujeto sea consciente de haber elegido, y los estudios sobre pacientes con el cerebro dividido, donde las dos mitades dan respuestas distintas y una de ellas se inventa explicaciones para lo que hizo la otra sin haberse enterado.",
         },
         {
           forma: "arte",
           texto:
-            "De ahí saca su distinción entre el yo que experimenta y el yo que narra, tomada de la psicología. El primero vive los momentos; el segundo construye la historia y toma las decisiones importantes. Y el segundo, dice, se equivoca constantemente sobre lo que quería el primero.",
+            "De ahí saca la distinción entre el yo que experimenta y el yo que narra, tomada de la psicología. El primero vive los momentos; el segundo construye la historia y toma las decisiones importantes. Y el segundo, sostiene, se equivoca constantemente sobre lo que quería el primero, aunque los dos sean la misma persona.",
           arte: "museo",
         },
         {
           forma: "texto",
           texto:
-            "Si no hay un yo unificado sino procesos bioquímicos, entonces «escucha a tu corazón» pierde su fundamento. Y aparece una alternativa práctica: si tus decisiones son el resultado de un algoritmo biológico, otro algoritmo con más datos podría decidir mejor que tú sobre tu propia vida.",
+            "Si no hay un yo unificado sino procesos bioquímicos, «escucha a tu corazón» se queda sin fundamento. Y aparece una alternativa práctica que no había existido nunca: si tus decisiones son el resultado de un algoritmo biológico, otro algoritmo con más datos podría decidir mejor que tú sobre tu propia vida.",
         },
         {
           forma: "clave",
@@ -3536,71 +3533,70 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Harari lo plantea como una transferencia gradual de autoridad, no como una conquista. Primero el sistema te sugiere una ruta y aciertas al hacerle caso. Después te sugiere una serie, una compra, una dieta. Y llega un punto en que consultar es lo razonable, porque el historial demuestra que acierta más que tu intuición.",
+            "Lo plantea como una transferencia gradual de autoridad, no como una conquista. Primero el sistema te sugiere una ruta y aciertas al hacerle caso. Después te sugiere una serie, una compra, una dieta. Y llega un punto en que consultar es lo razonable, porque el historial demuestra que acierta más que tu intuición.",
         },
         {
           forma: "texto",
           texto:
-            "Su ejemplo médico es el más claro: un sistema que lleve décadas registrando tu genoma y tus constantes detectará un problema antes que cualquier síntoma. Rechazarlo por defender tu autonomía sería absurdo. Y sin embargo, aceptar eso es empezar a delegar decisiones sobre tu propio cuerpo.",
+            "El ejemplo médico es el más convincente del libro precisamente porque no da ningún miedo. Un sistema que lleve treinta años registrando tu genoma, tus constantes y tu sueño detectará una anomalía meses antes que cualquier síntoma. Nadie razonable lo rechazaría para defender su autonomía, y ahí empieza exactamente el problema.",
         },
         {
           forma: "arte",
           texto:
-            "Su otra advertencia es económica y probablemente la más urgente. La historia dio derechos a las masas en buena parte porque hacían falta: soldados para los ejércitos y obreros para las fábricas. Si la automatización hace que muchos trabajos dejen de ser necesarios, esa palanca desaparece.",
+            "La otra advertencia es económica, y probablemente la más urgente. La historia concedió derechos a las masas en buena parte porque hacían falta: soldados para los ejércitos y obreros para las fábricas. Si la automatización hace que muchos trabajos dejen de ser necesarios, esa palanca —la única que ha funcionado— desaparece.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "Acuña para eso una expresión que se ha repetido mucho: la clase inútil. No significa que esas personas no valgan, sino que el sistema económico no encuentra qué hacer con ellas. Y advierte de que gestionar a millones de personas sin función económica es un problema político sin precedentes.",
+            "Para eso acuña una expresión que se ha repetido hasta el desgaste: la clase inútil. No significa que esas personas no valgan nada; significa que el sistema económico no encuentra qué hacer con ellas. Y gestionar a millones de personas sin función económica es un problema político sin ningún precedente histórico.",
         },
         {
           forma: "texto",
           texto:
-            "Antes de eso desarrolla un contraste histórico que ilumina el argumento. Explica por qué la Unión Soviética perdió frente a Estados Unidos, y su respuesta no es moral sino técnica: un sistema que procesa toda la información en un centro es más lento que uno donde millones de agentes deciden en paralelo y se coordinan por precios.",
+            "Antes de eso desarrolla un contraste que ilumina todo el argumento. Explica por qué la Unión Soviética perdió frente a Estados Unidos, y la respuesta no es moral sino técnica: un sistema que procesa toda la información en un centro es más lento que uno donde millones de agentes deciden en paralelo y se coordinan por precios.",
         },
         {
           forma: "arte",
           texto:
-            "Y añade el giro que hace inquietante esa explicación. Si el liberalismo ganó porque procesaba mejor los datos, entonces su victoria no era una verdad moral sino una ventaja técnica. Y las ventajas técnicas caducan cuando aparece una tecnología que centraliza mejor de lo que descentraliza el mercado.",
+            "Y ahí llega el giro que vuelve inquietante esa explicación. Si el liberalismo ganó porque procesaba mejor los datos, su victoria no era una verdad moral sino una ventaja técnica. Y las ventajas técnicas caducan en cuanto aparece una tecnología que centraliza mejor de lo que el mercado descentraliza.",
           arte: "explorar",
         },
         {
           forma: "texto",
           texto:
-            "Su ejemplo del médico algorítmico es el más convincente del libro precisamente porque no da miedo. Un sistema que lleve treinta años registrando tus constantes, tu genoma y tu sueño detectará una anomalía meses antes que cualquier síntoma. Nadie razonable lo rechazaría por defender su autonomía.",
+            "Lo mismo ocurre con la conducción, con las inversiones y con la elección de estudios. Cada delegación concreta está justificada por resultados medibles, y ninguna se impone por la fuerza. Harari no describe una tiranía: describe una serie de decisiones voluntarias, todas sensatas, cuyo resultado agregado no eligió absolutamente nadie.",
         },
         {
           forma: "texto",
           texto:
-            "Lo mismo con la conducción, con las inversiones, con la elección de estudios. Cada delegación concreta está justificada por resultados. Harari no describe una imposición: describe una serie de decisiones voluntarias, todas sensatas, cuyo resultado agregado nadie eligió.",
+            "Al humanista le queda un argumento, y el libro lo desmonta con cuidado: que hay algo en la experiencia humana que ningún dato captura. Puede ser cierto, admite, pero es exactamente lo que se dijo de la navegación, del diagnóstico y del ajedrez, y en los tres casos duró lo que tardó el sistema en acertar más.",
         },
         {
           forma: "texto",
           texto:
-            "Sobre la clase inútil hace una precisión que se pierde siempre al citarle. No dice que esas personas carezcan de valor; dice que el sistema económico no encontrará qué hacer con ellas, y que históricamente los derechos se concedieron cuando las masas eran necesarias como soldados y como obreros.",
+            "El escenario que más le preocupa no es el de las máquinas contra los hombres, sino el de una minoría con acceso a las mejoras frente a una mayoría sin él. No serían dos clases sociales: con el tiempo serían dos biologías distintas, y contra eso no sirve ninguna de las revoluciones conocidas.",
         },
         {
           forma: "arte",
           texto:
-            "Su pregunta política es la que sigue abierta: qué motivo tendrá una élite económica para sostener a millones de personas sin función productiva. Harari no responde. Solo señala que ninguna sociedad anterior ha tenido que resolver eso, y que la respuesta no vendrá de la tecnología sino de una decisión colectiva.",
+            "La pregunta política queda abierta: qué motivo tendrá una élite económica para sostener a millones de personas sin función productiva. Harari no responde. Se limita a señalar que ninguna sociedad anterior ha tenido que resolverlo, y que la respuesta no vendrá de la tecnología sino de una decisión colectiva que aún no se ha tomado.",
           arte: "noche",
         },
         {
           forma: "texto",
           texto:
-            "Su tercer escenario es el que él llama <em>dataísmo</em>: la idea de que el valor de cualquier cosa se mide por su aportación al procesamiento de información. Bajo esa lógica, la experiencia que no se registra ni se comparte no cuenta, y la privacidad deja de ser un derecho para convertirse en un desperdicio.",
+            "El tercer escenario es el que llama <em>dataísmo</em>: la idea de que el valor de cualquier cosa se mide por lo que aporta al procesamiento de información. Bajo esa lógica la privacidad deja de ser un derecho y pasa a ser un desperdicio, porque los datos que te guardas no le sirven a nadie.",
         },
       ],
     },
-
     {
       titulo: "Las preguntas que deja",
       tarjetas: [
         {
           forma: "texto",
           texto:
-            "Harari insiste una y otra vez en algo que se olvida al resumirle: no está prediciendo. Escribe que las posibilidades que describe son posibilidades y no profecías, y que el objetivo de un libro así es ampliar el abanico de futuros que somos capaces de imaginar, no acertar cuál llegará.",
+            "Harari insiste una y otra vez en algo que se pierde siempre al resumirle: no está prediciendo nada. Escribe que las posibilidades que describe son posibilidades y no profecías, y que el objetivo de un libro así es ampliar el abanico de futuros que somos capaces de imaginar, no acertar cuál de ellos llegará.",
         },
         {
           forma: "clave",
@@ -3610,23 +3606,23 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "El libro termina con tres preguntas y ninguna respuesta. Si los organismos son algoritmos y la vida es procesamiento de datos, ¿qué valor tiene la conciencia? ¿Qué pasará con la sociedad cuando algoritmos no conscientes nos conozcan mejor que nosotros mismos? Y la tercera, que es la de fondo: ¿qué preferimos ser, inteligentes o conscientes?",
+            "El libro termina con tres preguntas y ninguna respuesta. Si los organismos son algoritmos y la vida es procesamiento de datos, ¿qué valor tiene la conciencia? ¿Qué pasará con la sociedad cuando algoritmos sin conciencia nos conozcan mejor que nosotros mismos? Y la de fondo: ¿qué preferimos ser, inteligentes o conscientes?",
         },
         {
           forma: "arte",
           texto:
-            "Esa última distinción es la aportación más fina del libro. La inteligencia resuelve problemas; la conciencia siente. Durante toda la historia han venido juntas porque el único procesador disponible era un cerebro animal. Ahora, por primera vez, se están separando — hay sistemas cada vez más inteligentes que no sienten nada.",
+            "Esa última distinción es la aportación más fina del libro. La inteligencia resuelve problemas; la conciencia siente. Durante toda la historia han ido juntas porque el único procesador disponible era un cerebro animal. Ahora, por primera vez, se están separando: hay sistemas cada vez más inteligentes que no sienten absolutamente nada.",
           arte: "explorar",
         },
         {
           forma: "texto",
           texto:
-            "Ahora las críticas, que son serias y conviene conocerlas. Muchos historiadores le reprochan generalizar en exceso y presentar como consenso interpretaciones muy discutidas. Su afirmación de que el hambre y la guerra están «resueltos» ha envejecido regular, y él mismo la ha matizado varias veces en entrevistas posteriores.",
+            "El dataísmo es la idea de que el universo entero consiste en flujos de datos, y de que el valor de cualquier fenómeno —una persona, una empresa, una canción— se mide por cuánto aporta al procesamiento de esa información. Es una religión sin dioses, y como todas empieza siendo una descripción y acaba siendo un mandato.",
         },
         {
           forma: "texto",
           texto:
-            "También se le señala que salta con demasiada facilidad de la neurociencia a la filosofía: que los experimentos sobre decisión no demuestran lo que él concluye sobre el libre albedrío, y que la comunidad científica está lejos de haber cerrado ese asunto.",
+            "Bajo esa lógica, una experiencia que no se registra ni se comparte empieza a percibirse como una experiencia que no cuenta del todo. Y eso ya puede observarse sin ninguna tecnología futura: mucha gente vive un momento mientras lo graba, y lo evalúa después por la reacción que provoca en los demás.",
         },
         {
           forma: "clave",
@@ -3636,48 +3632,48 @@ export const HOMO_DEUS: Resumen = {
         {
           forma: "texto",
           texto:
-            "Y hay una crítica de estilo que comparten incluso sus lectores: el libro es repetitivo. La idea del algoritmo aparece formulada de cinco maneras distintas, y las últimas cien páginas dan vueltas sobre lo mismo. La primera parte, en cambio, es de las mejores divulgaciones históricas que se han escrito.",
+            "Las críticas son serias y conviene conocerlas. Muchos historiadores le reprochan generalizar en exceso y presentar como consenso interpretaciones muy discutidas. Su afirmación de que el hambre y la guerra están «resueltos» ha envejecido regular desde 2015, y él mismo la ha matizado varias veces en entrevistas posteriores.",
         },
         {
           forma: "texto",
           texto:
-            "Si vienes de <em>Sapiens</em>, este es más especulativo y menos sólido, y hay que leerlo sabiéndolo. Pero funciona bien como lo que pretende ser: un libro que no te dice qué va a pasar, sino que te deja incómodo con lo que damos por evidente.",
+            "Se le señala además que salta con demasiada facilidad de la neurociencia a la filosofía. Los experimentos sobre decisión no demuestran lo que él concluye sobre el libre albedrío, y la comunidad científica está lejísimos de haber cerrado ese asunto, aunque en el libro se lea como si estuviera zanjado hace tiempo.",
         },
         {
           forma: "texto",
           texto:
-            "Su definición de dataísmo merece explicarse con calma. Es la idea de que el universo entero consiste en flujos de datos, y de que el valor de cualquier fenómeno —una persona, una empresa, una canción— se mide por cuánto aporta al procesamiento de esa información.",
+            "Y hay una crítica de estilo que comparten hasta sus lectores más fieles: el libro es repetitivo. La idea del algoritmo aparece formulada de cinco maneras distintas y las últimas cien páginas dan vueltas sobre lo mismo. La primera parte, en cambio, es de las mejores divulgaciones históricas que se han escrito.",
         },
         {
           forma: "texto",
           texto:
-            "Bajo esa lógica, la privacidad deja de ser un derecho y pasa a ser un desperdicio, porque los datos que no compartes no benefician al sistema. Y una experiencia que no se registra ni se comparte, dice, empieza a percibirse como una experiencia que no cuenta del todo.",
+            "El mandato ha cambiado sin que nadie lo anunciara: de «escucha a tu corazón» a «comparte lo que sientes». Son dos religiones distintas, y la segunda desplaza a la primera igual que la primera desplazó a la Iglesia, sin ninguna guerra y sin que casi nadie note el momento del relevo.",
         },
         {
           forma: "arte",
           texto:
-            "Harari señala que ese cambio ya se puede observar sin ninguna tecnología futura. Mucha gente vive una experiencia mientras la graba, y la evalúa después por la reacción que provoca. El mandato ha pasado de «escucha a tu corazón» a «comparte lo que sientes», y son dos religiones distintas.",
+            "También apunta un cambio dentro de la propia ciencia, y este es más técnico. Durante siglos, entender algo significaba tener una teoría que lo explicara. Cada vez más, sistemas que analizan cantidades enormes de datos predicen fenómenos con una precisión altísima sin que nadie sepa formular por qué funcionan.",
           arte: "aprendizaje",
         },
         {
           forma: "texto",
           texto:
-            "También apunta un cambio en la propia ciencia, y este es más técnico. Durante siglos, entender algo significaba tener una teoría que lo explicara. Cada vez más, sistemas que analizan cantidades enormes de datos predicen fenómenos con precisión sin que nadie sepa formular por qué funcionan.",
+            "Es una novedad histórica y él la subraya: por primera vez podríamos tener capacidad de predecir sin comprensión. Un modelo acierta y no hay ninguna explicación que un humano pueda leer. La utilidad se separa del entendimiento, y toda nuestra idea de conocimiento estaba montada sobre que las dos iban juntas.",
         },
         {
           forma: "texto",
           texto:
-            "Eso es una novedad histórica y él la subraya: por primera vez podríamos tener capacidad de predecir sin comprensión. Un modelo acierta y no hay una explicación que un humano pueda leer. La utilidad se separa del entendimiento.",
+            "Su recomendación final es la más modesta y la que menos se cita. Si no sabemos qué va a pasar, lo más útil es desconfiar de que sepamos lo que queremos, y mirar con mucha atención quién está construyendo estos sistemas y con qué incentivos. La pregunta no es qué podrá hacer la tecnología, sino quién decide para qué.",
         },
         {
           forma: "texto",
           texto:
-            "Su recomendación final es la más modesta y la que menos se cita. Dice que si no sabemos qué va a pasar, lo más útil es no confiar en que sepamos lo que queremos, y prestar mucha atención a quién está construyendo estos sistemas y con qué incentivos. La pregunta importante, escribe, no es qué podrá hacer la tecnología sino quién decidirá para qué se usa.",
+            "Si vienes de <em>Sapiens</em>, este es más especulativo y menos sólido, y conviene leerlo sabiéndolo. Pero funciona bien como lo que pretende ser: no un libro que te diga qué va a pasar, sino uno que te deja incómodo con las cosas que dabas por evidentes antes de abrirlo.",
         },
         {
           forma: "texto",
           texto:
-            "Y deja una idea que se queda dando vueltas mucho después. Que el peligro más probable no es una máquina que decida rebelarse, sino millones de personas cediendo tranquilamente sus decisiones a sistemas que aciertan más que ellas — una por una, cada vez por un buen motivo.",
+            "Y deja una idea que se queda dando vueltas mucho después de cerrarlo. Que el peligro más probable no es una máquina que decida rebelarse, sino millones de personas cediendo tranquilamente sus decisiones a sistemas que aciertan más que ellas. Una por una, cada vez por un buen motivo.",
         },
       ],
     },

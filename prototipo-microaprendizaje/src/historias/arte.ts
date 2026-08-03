@@ -26,12 +26,12 @@ export const ARTE: Short[] = [
     color: "var(--plum)",
     encargo: "Una pared de museo vacía con los cuatro ganchos de un cuadro descolgado.",
     entrada:
-      "Lunes 21 de agosto de 1911, día de cierre del Louvre. Vincenzo Peruggia, un pintor de brocha gorda italiano que había trabajado montando las vitrinas del museo, se esconde dentro durante la noche. Por la mañana descuelga un retrato pequeño, le quita el marco en una escalera de servicio, se lo mete bajo la bata y sale por la puerta.",
+      "La fama no es una propiedad de los objetos: es algo que una multitud decide y luego olvida haber decidido. El lunes 21 de agosto de 1911, con el Louvre cerrado, Vincenzo Peruggia descolgó un retrato pequeño de una sala llena de obras mejor valoradas, le quitó el marco en una escalera de servicio, se lo metió bajo la bata y salió por la puerta.",
     paginas: [
       {
         rotulo: "Antes",
         texto:
-          "Conviene entender qué era entonces ese cuadro. La Gioconda tenía prestigio entre críticos y pintores, y Leonardo era Leonardo, pero no era el objeto más famoso del planeta ni de lejos: en las guías del Louvre de la época aparece sin ningún trato especial, y en la misma sala colgaban obras que se consideraban superiores. Nadie notó el robo hasta el día siguiente, y aun entonces se pensó que el cuadro estaba en el taller de fotografía. Pasaron más de veinticuatro horas hasta que alguien dio la alarma en serio.",
+          "En 1911 la Gioconda no era el objeto más famoso del planeta; ni siquiera era el más famoso de su sala. Tenía prestigio entre críticos y pintores, y Leonardo era Leonardo, pero en las guías del Louvre de la época aparece sin ningún trato especial y a su lado colgaban obras que se tenían por superiores. La mejor prueba es lo que pasó al descolgarla: nadie la echó en falta hasta el día siguiente, y aun entonces se supuso que estaría en el taller de fotografía. Tardaron más de veinticuatro horas en dar la alarma en serio.",
         destacado: {
           tipo: "frase",
           frase: "Tardaron un día entero en darse cuenta de que faltaba.",
@@ -40,13 +40,13 @@ export const ARTE: Short[] = [
       {
         rotulo: "El vacío",
         texto:
-          "Lo que vino después fue el primer fenómeno mediático moderno alrededor de una obra de arte. Los periódicos de medio mundo publicaron la imagen en portada durante semanas, y en el Louvre se formaron colas para ver el hueco en la pared, con los ganchos vacíos: la gente hacía cola para mirar donde no había nada. La policía interrogó a Guillaume Apollinaire, que llegó a pasar varios días detenido, y a un joven Pablo Picasso. El cuadro apareció en Florencia en <strong>1913</strong>, cuando Peruggia intentó vendérselo a un anticuario que avisó a las autoridades.",
+          "Lo que vino después fue el primer fenómeno mediático moderno construido alrededor de una obra de arte. Los periódicos de medio mundo llevaron la imagen a portada durante semanas, y en el Louvre se formaron colas para ver el hueco de la pared: cuatro ganchos y nada más. Miles de personas hicieron cola para mirar donde no había nada, y esa es exactamente la operación por la que un cuadro se convierte en un icono. La policía interrogó a Guillaume Apollinaire, que pasó varios días detenido, y a un Picasso de treinta años. El cuadro reapareció en Florencia en <strong>1913</strong>.",
         destacado: { tipo: "cifra", cifra: "2 años", unidad: "en paradero desconocido" },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Peruggia alegó patriotismo —decía querer devolver a Italia una obra que Napoleón había saqueado, lo cual es falso: Leonardo se llevó el cuadro a Francia él mismo y allí lo vendió—. Cumplió unos siete meses de cárcel y en Italia hubo quien lo trató de héroe. El cuadro volvió al Louvre en 1914 convertido en otra cosa: ya no era una pintura, era una celebridad. Hoy la ve más gente que a ninguna otra obra del mundo, y una parte importante de esa multitud está ahí, sin saberlo, por lo que hizo un albañil una madrugada de agosto.",
+          "Peruggia alegó patriotismo: quería devolverle a Italia una obra que Napoleón había saqueado. Era falso —Leonardo se llevó él mismo el cuadro a Francia y allí lo vendió—, pero cumplió apenas siete meses de cárcel y en Italia hubo quien lo trató de héroe. La pintura volvió al Louvre en 1914 convertida en otra cosa: ya no era una pintura, era una celebridad, y las celebridades se visitan, no se miran. Hoy pasa ante ella más gente que ante ninguna otra obra del mundo, casi toda por lo que hizo un albañil una madrugada de agosto.",
       },
     ],
   },
