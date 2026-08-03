@@ -117,4 +117,93 @@ export const MEDICINA: Short[] = [
       },
     ],
   },
+  {
+    id: "penicilina-placa",
+    titulo: "La penicilina salió de una placa sin lavar",
+    gancho: "Un moho se coló en un cultivo olvidado durante las vacaciones y mató a las bacterias de alrededor.",
+    categoria: "Medicina",
+    color: "var(--forest)",
+    encargo: "Una placa de laboratorio con una mancha de moho verdoso y un halo limpio alrededor.",
+    entrada:
+      "Londres, septiembre de 1928. Un médico escocés vuelve de un mes de vacaciones y encuentra su laboratorio tal y como lo dejó: desordenado, con placas de cultivo apiladas junto a la ventana. Trabaja con una bacteria que provoca infecciones y había dejado colonias creciendo antes de marcharse. Al mirarlas ve que una está contaminada por un moho, y que a su alrededor no crece absolutamente nada.",
+    paginas: [
+      {
+        rotulo: "El moho",
+        texto:
+          "Podía haber tirado la placa, que es lo que se hace siempre con una muestra contaminada, y de hecho ya la había apartado a un lado del montón para deshacerse de ella. Se fijó de casualidad, mientras le enseñaba el desorden a un compañero que había pasado a saludarle. Alrededor de la mancha verdosa había un anillo limpio donde las bacterias se habían disuelto por completo. Cultivó aquel moho, comprobó que el líquido que soltaba mataba varios tipos de bacteria sin dañar los tejidos animales y publicó el hallazgo al año siguiente. No le hizo caso prácticamente nadie.",
+        destacado: { tipo: "frase", frase: "Ya había apartado la placa para tirarla cuando se fijó." },
+      },
+      {
+        rotulo: "Diez años parado",
+        texto:
+          "El problema era práctico y él lo sabía: no conseguía extraer la sustancia en cantidad suficiente ni conservarla estable, y no era químico. Lo dejó estar y siguió con otros asuntos durante una década. Diez años después, un equipo de Oxford rescató aquel artículo olvidado y logró purificarla, trabajando con material improvisado —bañeras, latas de leche y hasta orinales de hospital— porque estaban en plena guerra y no había ni dinero ni cristalería. El primer paciente tratado, un policía con una infección grave por un arañazo de rosal, mejoró de forma espectacular y murió cuando se acabaron las existencias.",
+        destacado: { tipo: "cifra", cifra: "10", unidad: "años estuvo el hallazgo olvidado" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "La producción industrial la resolvió Estados Unidos y llegó justo a tiempo para el desembarco de Normandía, donde salvó a miles de heridos que hasta entonces habrían muerto de infección en la propia camilla. El descubridor compartió el premio de medicina en 1945 y avisó en su discurso de algo que entonces sonó exagerado: que usarla mal volvería resistentes a las bacterias. Tenía razón. Hoy las bacterias resistentes matan a más de un millón de personas al año en todo el mundo, y la placa sin lavar de la que salió todo se conserva en la vitrina de un museo de Londres.",
+      },
+    ],
+  },
+
+  {
+    id: "eter-anestesia",
+    titulo: "Antes de 1846 se operaba a la gente despierta",
+    gancho: "El único remedio contra el dolor era la velocidad. Los cirujanos famosos lo eran por sus tiempos.",
+    categoria: "Medicina",
+    color: "var(--slate)",
+    encargo: "Un anfiteatro de operaciones antiguo, con gradas de madera alrededor de una mesa.",
+    entrada:
+      "Boston, 16 de octubre de 1846. Un dentista sube a un anfiteatro de operaciones lleno de médicos escépticos con un frasco de cristal y un tubo de goma en la mano. Va a demostrar que puede dormir a un paciente para que lo operen sin dolor. Hasta ese día, la cirugía consistía en cortar lo más deprisa posible mientras varios hombres sujetaban al enfermo contra la mesa.",
+    paginas: [
+      {
+        rotulo: "La velocidad",
+        texto:
+          "El único recurso contra el dolor era la rapidez, y los cirujanos célebres lo eran por sus tiempos: uno británico presumía de amputar una pierna en menos de treinta segundos, y en una ocasión, con las prisas, le cortó también dos dedos a su ayudante. Los gritos se oían desde la calle, y por eso los hospitales colocaban los quirófanos en la última planta del edificio. Muchos enfermos preferían morirse a pasar por allí, y bastantes se morían de la impresión durante la propia operación. Solo se operaba lo imprescindible: amputaciones, piedras y dientes.",
+        destacado: { tipo: "cifra", cifra: "30 s", unidad: "tardaba en amputar una pierna" },
+      },
+      {
+        rotulo: "La demostración",
+        texto:
+          "Aquella mañana le administró un vapor de éter a un joven al que había que quitarle un tumor en el cuello. El paciente se durmió en pocos minutos, el cirujano cortó y no hubo ni un grito en toda la sala, que estaba llena de médicos esperando el escándalo. Al despertar, el joven dijo que había notado algo raro, como si le rascaran, pero ningún dolor. El cirujano se volvió hacia las gradas y dijo una frase que quedó escrita: «Caballeros, esto no es un engaño». La noticia dio la vuelta al mundo en dos meses.",
+        destacado: { tipo: "frase", frase: "«Caballeros, esto no es un engaño.»" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El dentista intentó patentar el invento con un nombre comercial, ocultando que se trataba de éter corriente, y se pasó el resto de su vida enredado en pleitos con otros que reclamaban la autoría; murió arruinado a los cuarenta y nueve años. La sustancia era conocida desde hacía tres siglos y se usaba en fiestas para reírse un rato. Lo que cambió no fue la química, sino que a alguien se le ocurriera para qué servía. Aquel anfiteatro de Boston se conserva y se llama, desde entonces, la cúpula del éter.",
+      },
+    ],
+  },
+
+  {
+    id: "expedicion-vacuna",
+    titulo: "Llevaron la vacuna a América dentro de veintidós niños",
+    gancho: "No había manera de conservarla en un barco. La solución fue ir contagiándolos de dos en dos.",
+    categoria: "Medicina",
+    color: "var(--clay)",
+    encargo: "Un velero del XIX visto desde el muelle, con el mar picado y cielo bajo.",
+    entrada:
+      "La Coruña, noviembre de 1803. La viruela mata cada año a cientos de miles de personas en el imperio español y desde hace siete años existe una vacuna que funciona. El problema es llevarla: es un líquido que se estropea en pocos días y a América se tarda dos meses de navegación. Un médico militar propone al rey una solución incómoda.",
+    paginas: [
+      {
+        rotulo: "La cadena viva",
+        texto:
+          "La vacuna se hacía entonces con el líquido de las ampollas que salían en la piel de la persona vacunada, y ese material solo servía durante unos días. Así que el plan consistía en llevar la vacuna dentro de personas, viva, pasándola de brazo a brazo durante toda la travesía. Se eligieron veintidós niños de un orfanato de La Coruña, de entre tres y nueve años, ninguno de los cuales había pasado la enfermedad. Se vacunaba a dos, y cuando les salían las ampollas, unos diez días después, se usaba su líquido para vacunar a los dos siguientes.",
+        destacado: { tipo: "cifra", cifra: "22", unidad: "niños de un orfanato hicieron de nevera" },
+      },
+      {
+        rotulo: "El viaje",
+        texto:
+          "Iba con ellos la rectora del orfanato, que se embarcó para cuidarlos y acabó siendo la única adulta que estuvo en la expedición de principio a fin. La ruta duró tres años y no paró en América: desde allí saltó a Filipinas y llegó hasta China, reclutando por el camino a más niños en cada puerto para no romper la cadena. Se calcula que se vacunó a cientos de miles de personas. Los primeros veintidós no volvieron a España: el rey ordenó que se les buscara acomodo y educación en México, y allí se quedaron.",
+        destacado: { tipo: "frase", frase: "Tres años de viaje, de brazo en brazo, sin romper la cadena." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Está considerada la primera campaña internacional de vacunación de la historia y se estudia como tal en salud pública. La viruela, que había matado a más gente que ninguna otra enfermedad conocida, fue declarada erradicada del planeta en 1980, la única que lo ha conseguido hasta hoy. De aquellos veintidós niños apenas quedan los nombres apuntados en una lista de embarque, sin apellidos en algunos casos porque no los tenían. La mujer que los cuidó durante los tres años murió en México sin pensión y sin reconocimiento de ninguna clase, y hasta hace un par de décadas casi nadie sabía siquiera que había existido.",
+      },
+    ],
+  },
 ];

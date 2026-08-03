@@ -107,4 +107,94 @@ export const ESPANA: Short[] = [
       },
     ],
   },
+  {
+    id: "guernica-vuelta",
+    titulo: "El Guernica estuvo cuarenta y cuatro años fuera",
+    gancho: "Su autor dejó dicho que no volvería a España mientras no hubiera libertades. Se cumplió.",
+    categoria: "España",
+    color: "var(--slate)",
+    encargo: "Un lienzo enorme en blanco y negro visto de lado, con una sala vacía delante.",
+    entrada:
+      "París, primavera de 1937. España lleva un año en guerra civil y el gobierno republicano ha encargado un cuadro grande para su pabellón en una exposición internacional. El pintor elegido, malagueño y ya famoso en medio mundo, lleva meses sin empezar. El 26 de abril, la aviación alemana bombardea un pueblo vasco en día de mercado y él encuentra por fin su asunto.",
+    paginas: [
+      {
+        rotulo: "El encargo",
+        texto:
+          "Lo pintó en cinco semanas, en un desván alquilado del centro de París, sobre un lienzo de casi ocho metros de ancho que no cabía de pie y hubo que inclinar contra la pared para poder llegar arriba con una escalera. Trabajaba sobre todo de noche, con luz artificial, y en parte por eso el cuadro no tiene un solo color: es gris, blanco y negro, como las fotografías de periódico por las que se enteró de lo ocurrido. No hay aviones ni bombas pintados en ninguna parte. Hay un caballo gritando, una madre con un hijo muerto en brazos y una bombilla encendida.",
+        destacado: { tipo: "frase", frase: "No hay ni un avión pintado. Hay un caballo gritando y una bombilla." },
+      },
+      {
+        rotulo: "El destierro",
+        texto:
+          "En el pabellón pasó bastante desapercibido y algunos críticos lo encontraron confuso, demasiado abstracto para denunciar nada. Después empezó a viajar por Europa y por Estados Unidos para recaudar dinero destinado a los refugiados españoles, y cuando la guerra la ganó el otro bando el pintor dejó dicho que aquel cuadro no volvería a España mientras no hubiera libertades públicas. Se quedó depositado en un museo de Nueva York durante cuatro décadas, enrollado en varias ocasiones para moverlo. Él murió en 1973 sin volver tampoco: había jurado no pisar el país mientras gobernara el mismo hombre.",
+        destacado: { tipo: "cifra", cifra: "44", unidad: "años estuvo fuera de España" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Llegó a Madrid en septiembre de 1981, seis años después de la muerte del dictador, dentro de una caja blindada y con escolta armada desde el aeropuerto. Se expuso los primeros años tras un cristal antibalas, porque se temían atentados contra él. Hoy cuelga sin protección en un museo del centro de la ciudad y lo miran más de tres millones de personas al año. El pueblo que le da nombre fue reconstruido y en su ayuntamiento hay una copia hecha en azulejos: el original no ha estado allí nunca.",
+      },
+    ],
+  },
+
+  {
+    id: "gripe-espanola",
+    titulo: "La gripe española ni empezó ni fue peor aquí",
+    gancho: "Se llamó así porque España era el único país que no censuraba a sus periódicos.",
+    categoria: "España",
+    color: "var(--forest)",
+    curioso: true,
+    encargo: "Una sala de hospital de 1918 con camas alineadas y enfermeras con mascarilla.",
+    entrada:
+      "1918. El mundo lleva cuatro años en guerra y aparece una gripe que en dos años mata a más gente que las balas: entre veinticinco y cincuenta millones de personas, y hay estimaciones que doblan esa cifra. Se la conoce en todo el planeta como gripe española. No empezó aquí, no fue más grave aquí y probablemente ni siquiera pasó primero por aquí.",
+    paginas: [
+      {
+        rotulo: "La censura",
+        texto:
+          "España no participó en la Primera Guerra Mundial y por eso su prensa no estaba censurada por motivos militares. En Francia, en Alemania, en Gran Bretaña y en Estados Unidos, los gobiernos prohibieron informar de la epidemia para no hundir la moral de las tropas ni dar pistas al enemigo: los periódicos hablaban de una gripe leve y estacional mientras los hospitales de campaña se llenaban de muertos. Aquí, en cambio, se contó con detalle desde el primer día, y cuando el propio rey enfermó salió en portada. El resto de Europa leyó las noticias españolas y sacó la conclusión más fácil.",
+        destacado: { tipo: "frase", frase: "Aquí se contaba porque aquí no había censura de guerra." },
+      },
+      {
+        rotulo: "De dónde salió",
+        texto:
+          "El origen se sigue discutiendo cien años después. La primera oleada bien documentada apareció en un cuartel de Kansas, en Estados Unidos, en marzo de 1918, entre soldados que estaban a punto de embarcar hacia Europa; hay investigadores que apuntan a China y otros al norte de Francia. Lo que sí está claro es lo raro que era aquel virus: mataba sobre todo a adultos jóvenes y sanos, de veinte a cuarenta años, justo al revés que cualquier gripe corriente, porque el daño lo hacía la reacción desmedida del propio sistema inmunitario del enfermo.",
+        destacado: { tipo: "cifra", cifra: "20-40", unidad: "años tenían la mayoría de los muertos" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Aquí se la llamó el soldado de Nápoles, por una zarzuela de moda cuya melodía se pegaba igual de rápido que la enfermedad. Murieron unas trescientas mil personas en España y en algunos pueblos hubo que abrir fosas comunes porque no daba tiempo a enterrar de uno en uno. El nombre injusto se quedó pegado y sirvió de lección: desde 2015, la Organización Mundial de la Salud pide no bautizar enfermedades con nombres de lugares ni de pueblos, precisamente para que no se repita. Y todo el mundo sigue llamándola española.",
+      },
+    ],
+  },
+
+  {
+    id: "colon-asia",
+    titulo: "Colón murió creyendo que había llegado a Asia",
+    gancho: "Hizo cuatro viajes y en los cuatro siguió buscando China. Obligó a su tripulación a firmarlo.",
+    categoria: "España",
+    color: "var(--ochre)",
+    encargo: "Una carabela pequeña fondeada frente a una costa de arena blanca y palmeras.",
+    entrada:
+      "1492. Un marino genovés convence a los reyes de Castilla y de Aragón de financiar un viaje que él considera corto: cruzar el Atlántico hacia el oeste para llegar a las Indias, es decir, a Asia, y traer especias sin tener que pasar por territorio turco. Zarpa con tres barcos y unos noventa hombres. Se equivocaba en casi todos sus cálculos.",
+    paginas: [
+      {
+        rotulo: "El error de cuentas",
+        texto:
+          "Nadie discutía en 1492 que la Tierra fuese redonda; eso se sabía desde la Antigüedad y se enseñaba en las universidades. Lo que se discutía era su tamaño, y ahí él estaba muy equivocado: calculaba que de Canarias a Japón había unos cuatro mil kilómetros, cuando en realidad hay casi veinte mil. Los expertos de la corte portuguesa habían rechazado el proyecto justo por eso, porque sus cuentas eran mejores que las suyas. Si no llega a haber un continente entero de por medio, aquella expedición se habría muerto de sed a mitad de camino.",
+        destacado: { tipo: "cifra", cifra: "4.000", unidad: "km calculó; hay casi 20.000" },
+      },
+      {
+        rotulo: "La insistencia",
+        texto:
+          "Tocó tierra el 12 de octubre en una isla del Caribe convencido de estar en las afueras de Asia. Hizo cuatro viajes y en todos siguió buscando el paso hacia la China de los emperadores, comparando lo que veía con lo que había leído en los libros de viajes. En el tercero llegó a la costa de la actual Venezuela y escribió que aquello debía de ser el paraíso terrenal. En el cuarto obligó a su tripulación a firmar ante notario un documento jurando que Cuba era tierra firme continental, con una multa para quien se desdijera.",
+        destacado: { tipo: "frase", frase: "Hizo firmar ante notario que Cuba era tierra firme." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Murió en Valladolid en 1506, rico pero apartado, sin haber admitido nunca su error y todavía reclamando por escrito los títulos que le habían prometido. El continente acabó llevando el nombre de otro navegante, un florentino que sí escribió que aquello era un mundo nuevo y cuyos textos leyó un cartógrafo alemán que hacía mapas. A los habitantes de aquellas tierras se les sigue llamando indios cinco siglos después, por un destino que nunca fue el suyo. El nombre de las Indias se quedó pegado a un sitio que estaba al otro lado del planeta.",
+      },
+    ],
+  },
 ];

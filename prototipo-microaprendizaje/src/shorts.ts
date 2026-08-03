@@ -5,6 +5,7 @@ import { CATASTROFES } from "./historias/catastrofes";
 import { CINE } from "./historias/cine";
 import { CIUDADES } from "./historias/ciudades";
 import { COCINA } from "./historias/cocina";
+import { COMIDA } from "./historias/comida";
 import { COSMOS } from "./historias/cosmos";
 import { CREENCIAS } from "./historias/creencias";
 import { CRIMEN } from "./historias/crimen";
@@ -30,6 +31,7 @@ import { MUSICA } from "./historias/musica";
 import { OBJETOS } from "./historias/objetos";
 import { PALABRAS } from "./historias/palabras";
 import { PLANTAS } from "./historias/plantas";
+import { POLITICA } from "./historias/politica";
 import { PREHISTORIA } from "./historias/prehistoria";
 import { SUENO } from "./historias/sueno";
 import { TECNOLOGIA } from "./historias/tecnologia";
@@ -220,6 +222,7 @@ export const SHORTS: Short[] = intercala(
   COSMOS,
   CATASTROFES,
   ESPANA,
+  POLITICA,
   BICHOS,
   MOTOR,
   ARTE,
@@ -231,6 +234,7 @@ export const SHORTS: Short[] = intercala(
   MUSICA,
   CINE,
   PREHISTORIA,
+  COMIDA,
   CRIMEN,
   PALABRAS,
   MAR,

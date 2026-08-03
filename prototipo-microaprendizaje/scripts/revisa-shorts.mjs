@@ -38,6 +38,12 @@ const CONOCIDOS = new Set([
   "Franco","Hitler","Stalin","Napoleón","Colón","Cervantes","Picasso","Einstein","Darwin",
   "Newton","Galileo","Shakespeare","Mozart","Beethoven","Leonardo","Miguel","Ángel",
   "Melchor","Gaspar","Baltasar","Sagan","Armstrong","Elcano","Magallanes","Laika",
+  "Castilla","Aragón","Navarra","Canarias","Baleares","Caribe","Antigüedad","Indias",
+  "Valladolid","Salamanca","Granada","Toledo","Córdoba","Coruña","Cádiz","Cantabria",
+  "Bretaña","Kansas","Texas","Florida","Boston","Chicago","Washington","Atlanta","Detroit",
+  "Nápoles","Florencia","Sicilia","Baviera","Normandía","Yemen","Etiopía","Kenia","Nigeria",
+  "Organización","Salud","Naciones","Unidas","Supremo","Tribunal","Constitución","Cortes",
+  "Oxford","Cambridge","Sorbona","Louvre","Prado","Smithsonian","Vaticana","Sixtina",
 ]);
 
 let fallos = 0;
@@ -78,11 +84,11 @@ for (const ruta of ficheros) {
 
     /* Regla 2: como mucho dos nombres propios que el lector no reconozca. */
     const cuerpo = [entrada, ...paginas.map((p) => p[2])].join(" ").replace(/<[^>]+>/g, "");
-    const delTitulo = new Set(titulo.match(/[A-ZÁÉÍÓÚÑ][a-zá-úñ]{2,}/g) ?? []);
+    const delTitulo = new Set(titulo.match(/[A-ZÁÉÍÓÚÑ][a-zá-úüñ]{2,}/g) ?? []);
     /* Un nombre de varias palabras —Juan Sebastián Elcano— es UN frenazo, no
        tres, así que primero se juntan las mayúsculas seguidas. */
     const propios = new Set(
-      (cuerpo.match(/(?<![.:;!?»)]\s|^|«|— |\n)\b[A-ZÁÉÍÓÚÑ][a-zá-úñ]{2,}(?: (?:de |del |la )?[A-ZÁÉÍÓÚÑ][a-zá-úñ]{2,})*/g) ?? [])
+      (cuerpo.match(/(?<![.:;!?»)]\s|^|«|— |\n)\b[A-ZÁÉÍÓÚÑ][a-zá-úüñ]{2,}(?: (?:de |del |la )?[A-ZÁÉÍÓÚÑ][a-zá-úüñ]{2,})*/g) ?? [])
         .map((x) => x.trim())
         .filter((x) => !x.split(" ").every((w) => CONOCIDOS.has(w) || delTitulo.has(w))),
     );
