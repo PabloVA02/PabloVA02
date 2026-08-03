@@ -6,12 +6,16 @@ import { CINE } from "./historias/cine";
 import { CIUDADES } from "./historias/ciudades";
 import { COCINA } from "./historias/cocina";
 import { COSMOS } from "./historias/cosmos";
+import { CREENCIAS } from "./historias/creencias";
 import { CRIMEN } from "./historias/crimen";
 import { CUERPO } from "./historias/cuerpo";
 import { DEPORTE } from "./historias/deporte";
 import { DINERO } from "./historias/dinero";
+import { ESPACIO } from "./historias/espacio";
+import { ESPANA } from "./historias/espana";
 import { ESPIONAJE } from "./historias/espionaje";
 import { FIGURAS } from "./historias/figuras";
+import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
 import { INVENTOS } from "./historias/inventos";
 import { JUEGOS } from "./historias/juegos";
@@ -209,13 +213,17 @@ function intercala(...grupos: Short[][]): Short[] {
 
 export const SHORTS: Short[] = intercala(
   FIGURAS,
+  ESPACIO,
   COSMOS,
   CATASTROFES,
+  ESPANA,
   BICHOS,
   ARTE,
+  GUERRA,
   AVIACION,
   CUERPO,
   MAPAS,
+  CREENCIAS,
   MUSICA,
   CINE,
   CRIMEN,
