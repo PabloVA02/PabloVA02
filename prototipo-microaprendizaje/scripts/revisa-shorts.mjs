@@ -37,6 +37,7 @@ const CONOCIDOS = new Set([
   "Génesis","Adán","Eva","Noé","Moisés","Mateo","Marcos","Lucas","Juan","Pedro","Pablo",
   "Franco","Hitler","Stalin","Napoleón","Colón","Cervantes","Picasso","Einstein","Darwin",
   "Newton","Galileo","Shakespeare","Mozart","Beethoven","Leonardo","Miguel","Ángel",
+  "Nilo","Danubio","Támesis","Sena","Ebro","Rin","Ganges","Cleopatra","Ptolomeo",
   "Melchor","Gaspar","Baltasar","Sagan","Armstrong","Elcano","Magallanes","Laika",
   "Castilla","Aragón","Navarra","Canarias","Baleares","Caribe","Antigüedad","Indias",
   "Valladolid","Salamanca","Granada","Toledo","Córdoba","Coruña","Cádiz","Cantabria",
