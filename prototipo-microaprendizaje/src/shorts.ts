@@ -1,9 +1,12 @@
 import { ACERO } from "./historias/acero";
 import { ADUANAS } from "./historias/aduanas";
 import { AGUA } from "./historias/agua";
+import { AGUJA } from "./historias/aguja";
 import { AIRE_ACONDICIONADO } from "./historias/aireacondicionado";
 import { ALCOHOL } from "./historias/alcohol";
 import { ALGODON } from "./historias/algodon";
+import { ALMOHADA } from "./historias/almohada";
+import { ANCLA } from "./historias/ancla";
 import { ANDAMIOS } from "./historias/andamios";
 import { ANESTESIA } from "./historias/anestesia";
 import { ANTIBIOTICOS } from "./historias/antibioticos";
@@ -206,6 +209,7 @@ import { VENTANAS } from "./historias/ventanas";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
 import { VIKINGOS } from "./historias/vikingos";
+import { VIRUS_INFORMATICOS } from "./historias/virusinformaticos";
 import { VOLCANES } from "./historias/volcanes";
 import { ZAPATOS } from "./historias/zapatos";
 import { ZOOS } from "./historias/zoos";
@@ -392,6 +396,7 @@ function intercala(...grupos: Short[][]): Short[] {
 
 export const SHORTS: Short[] = intercala(
   FIGURAS,
+  VIRUS_INFORMATICOS,
   ESCALERAS_MECANICAS,
   ESPACIO,
   SAL,
@@ -401,10 +406,12 @@ export const SHORTS: Short[] = intercala(
   MONASTERIOS,
   GAFAS_DE_SOL,
   IMPUESTOS,
+  ANCLA,
   SEDA,
   COLCHONES,
   CAZA,
   CIRCO,
+  ALMOHADA,
   DESAGUES,
   ISLAS,
   IMANES,
@@ -539,6 +546,7 @@ export const SHORTS: Short[] = intercala(
   APELLIDOS,
   GUANTES,
   BIBLIOTECAS,
+  AGUJA,
   TEJADOS,
   MAR,
   PEGAMENTO,
