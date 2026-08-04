@@ -43,13 +43,17 @@ import { MUSICA } from "./historias/musica";
 import { OBJETOS } from "./historias/objetos";
 import { PALABRAS } from "./historias/palabras";
 import { PLANTAS } from "./historias/plantas";
+import { PLASTICO } from "./historias/plastico";
 import { POLITICA } from "./historias/politica";
 import { PREHISTORIA } from "./historias/prehistoria";
+import { PUBLICIDAD } from "./historias/publicidad";
+import { RELOJES } from "./historias/relojes";
 import { ROPA } from "./historias/ropa";
 import { SUENO } from "./historias/sueno";
 import { TECNOLOGIA } from "./historias/tecnologia";
 import { TRENES } from "./historias/trenes";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
+import { VOLCANES } from "./historias/volcanes";
 
 /* ==========================================================================
    Shorts: historias sueltas de dos minutos.
@@ -238,6 +242,7 @@ export const SHORTS: Short[] = intercala(
   BARCOS,
   EPIDEMIAS,
   COSMOS,
+  VOLCANES,
   CATASTROFES,
   ESPANA,
   TRENES,
@@ -251,6 +256,7 @@ export const SHORTS: Short[] = intercala(
   GUERRA,
   AVIACION,
   CUERPO,
+  PUBLICIDAD,
   MAPAS,
   CREENCIAS,
   ESCRITURA,
@@ -258,6 +264,7 @@ export const SHORTS: Short[] = intercala(
   HIGIENE,
   MEDIDAS,
   MUSICA,
+  RELOJES,
   CINE,
   PREHISTORIA,
   COMIDA,
@@ -267,6 +274,7 @@ export const SHORTS: Short[] = intercala(
   VIDEOJUEGOS,
   PALABRAS,
   MAR,
+  PLASTICO,
   CIUDADES,
   SUENO,
   EMPRESAS,

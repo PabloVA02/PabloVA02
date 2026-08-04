@@ -1,0 +1,110 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   Volcanes.
+
+   El riesgo del tema es el documental de sobremesa: columnas de humo,
+   cifras de muertos y adjetivos. Impresiona diez segundos y no queda nada.
+
+   La regla del tema: un volcán solo interesa por lo que le hace a la gente
+   que vive alrededor y, sobre todo, POR LO QUE PASA DESPUÉS Y LEJOS. Una
+   cosecha perdida a diez mil kilómetros. Un verano que no llega. Un
+   campesino que intenta tapar una grieta con ramas. La montaña es el
+   principio de la historia, nunca el final.
+
+   Y no se cuenta la erupción como espectáculo: se cuenta como una cadena
+   de consecuencias que va del suelo al aire y del aire a la mesa.
+   ========================================================================== */
+
+export const VOLCANES: Short[] = [
+  {
+    id: "tambora-ano-sin-verano",
+    titulo: "Un volcán dejó al mundo sin verano",
+    gancho: "Reventó en Indonesia en 1815. Al año siguiente nevó en junio al otro lado del planeta.",
+    categoria: "Volcanes",
+    color: "var(--slate)",
+    encargo: "Un cielo cargado de ceniza sobre un campo de trigo verde y helado.",
+    entrada:
+      "Isla de Sumbawa, en la actual Indonesia, abril de 1815. Un volcán que llevaba siglos tranquilo revienta con la mayor explosión de la que hay registro escrito. Se oye a dos mil kilómetros de distancia, mata a decenas de miles de personas en pocos días y lanza a la atmósfera tanta ceniza que el cielo se oscurece durante semanas.",
+    paginas: [
+      {
+        rotulo: "La explosión",
+        texto:
+          "La montaña se llamaba Tambora y había estado dormida tanto tiempo que en sus laderas había pueblos, cultivos y un pequeño reino con su propio idioma. Medía más de cuatro mil metros; después de aquello medía mil quinientos menos, porque se voló a sí misma la cumbre. Cayó tanta ceniza sobre las islas vecinas que hundió los tejados, y una ola provocada por el derrumbe barrió las costas cercanas. En la isla no quedó nada en pie: aquel reino desapareció entero, con su lengua incluida, y hoy se conoce solo por una lista de palabras que un marino había anotado años antes por curiosidad.",
+        destacado: { tipo: "cifra", cifra: "1.500", unidad: "metros de montaña desaparecieron" },
+      },
+      {
+        rotulo: "El año sin verano",
+        texto:
+          "La ceniza más fina subió a la parte alta de la atmósfera y dio la vuelta al planeta, filtrando la luz del sol durante meses. El verano siguiente, el de 1816, no llegó. En junio nevó en el noreste de Estados Unidos, en agosto se helaron las cosechas y en Europa llovió sin parar de mayo a septiembre. Se perdieron a la vez el trigo, el maíz y la patata, el pan se puso por las nubes y hubo motines de hambre en Francia, en Suiza y en las islas británicas. Fue la última gran hambruna del continente europeo, y nadie relacionó entonces aquel frío con una montaña del otro lado del mundo.",
+        destacado: { tipo: "frase", frase: "En junio nevó, y en agosto se helaron las cosechas." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Aquel verano sin sol dejó un rastro extraño. Un grupo de ingleses que veraneaba junto a un lago suizo se pasó las tardes encerrado por la lluvia y, para entretenerse, se retaron a escribir historias de miedo: de allí salió Frankenstein. En Alemania, la falta de avena para alimentar a los caballos empujó a un inventor a construir un artilugio de dos ruedas con el que moverse sin animal, el abuelo de la bicicleta. Y la relación entre los volcanes y el clima tardó un siglo en entenderse. Hoy el año 1816 se estudia como el ensayo que hizo la naturaleza de lo que pasaría si el cielo se cubriera de golpe.",
+      },
+    ],
+  },
+
+  {
+    id: "paricutin",
+    titulo: "Le creció un volcán en el maizal",
+    gancho: "Vio salir humo de una grieta mientras araba. En un año la montaña pasaba de trescientos metros.",
+    categoria: "Volcanes",
+    color: "var(--clay)",
+    curioso: true,
+    encargo: "Una torre de iglesia asomando sola sobre un campo de roca negra.",
+    entrada:
+      "Michoacán, en el centro de México, febrero de 1943. Un campesino está arando su maizal cuando el suelo se abre delante de él y empieza a salir humo con olor a azufre. Aquella misma tarde la grieta escupe piedras ardiendo. Es el único volcán del mundo cuyo nacimiento vio y contó alguien desde el primer minuto.",
+    paginas: [
+      {
+        rotulo: "La grieta",
+        texto:
+          "El hombre intentó taparla con tierra y ramas, porque pensó que era cosa de un rato y le estaba estropeando la siembra. A la mañana siguiente tenía en mitad del campo un montículo de dos metros que escupía ceniza. A la semana medía cincuenta metros; al mes, ciento cincuenta. El estruendo se oía a treinta kilómetros y de noche el resplandor se veía desde la ciudad más cercana. Los geólogos llegaron enseguida desde varios países, plantaron sus tiendas alrededor y se encontraron con algo que nunca habían tenido delante: un volcán entero naciendo, con fecha y hora exactas de comienzo, y a una distancia desde la que se podía medir sin peligro.",
+        destacado: { tipo: "frase", frase: "Intentó tapar la grieta con tierra y ramas." },
+      },
+      {
+        rotulo: "Nueve años",
+        texto:
+          "Estuvo en erupción nueve años seguidos, de 1943 a 1952, casi sin descanso. La lava avanzaba despacio, a paso de persona, y por eso no mató prácticamente a nadie: hubo tiempo de sacar a la gente, a los animales y hasta las puertas y las vigas de las casas. Sepultó dos pueblos enteros bajo varios metros de piedra. De uno de ellos solo quedaron fuera la torre y parte de la fachada de la iglesia, que asoman todavía sobre un mar de roca negra como si el edificio se hubiera hundido en el suelo. Cuando se apagó, la montaña medía cuatrocientos veinticuatro metros y llevaba allí menos de una década.",
+        destacado: { tipo: "cifra", cifra: "424", unidad: "metros de montaña en nueve años" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "No ha vuelto a despertar, y hoy se sube caminando en un par de horas con guías del pueblo que colocan la torre de la iglesia en todas las fotografías. Al campesino que araba aquella mañana le compraron el terreno y se pasó los años siguientes cobrando la entrada a los curiosos que venían a ver su volcán. Para la geología aquello fue un regalo irrepetible: se pudo medir por primera vez cómo crece una montaña desde cero, cuánto material expulsa y a qué ritmo se enfría, datos que hasta entonces solo se deducían. Sigue siendo el volcán mejor documentado de la historia, y empezó como una grieta en un maizal.",
+      },
+    ],
+  },
+
+  {
+    id: "laki",
+    titulo: "Una grieta en Islandia envenenó media Europa",
+    gancho: "Ocho meses soltando gas. Se murió el ganado, después la gente, y la niebla llegó hasta Italia.",
+    categoria: "Volcanes",
+    color: "var(--plum)",
+    encargo: "Una llanura de musgo verde partida por una fisura larga y oscura.",
+    entrada:
+      "Islandia, junio de 1783. Se abre en el sur de la isla una grieta de veintisiete kilómetros y empieza a manar lava por más de un centenar de bocas a la vez. No es una explosión, es un desagüe: brota sin parar durante ocho meses y suelta a la atmósfera una cantidad descomunal de gases venenosos.",
+    paginas: [
+      {
+        rotulo: "La niebla seca",
+        texto:
+          "Lo que mató no fue la lava, sino el aire. La erupción soltó millones de toneladas de compuestos de azufre y de flúor que formaron una neblina azulada con olor a huevo podrido, y ese flúor se depositó sobre la hierba de los pastos. El ganado que comía allí se hinchaba y se le caían los dientes. Murieron la mitad de las vacas y tres de cada cuatro ovejas y caballos del país. Sin animales no había leche, ni lana, ni carne, y detrás llegó el hambre: en dos años murió una de cada cinco personas de Islandia, la peor catástrofe de su historia.",
+        destacado: { tipo: "cifra", cifra: "1 de cada 5", unidad: "islandeses murió en dos años" },
+      },
+      {
+        rotulo: "El verano raro",
+        texto:
+          "Aquella neblina cruzó el mar y llegó a Noruega, a las islas británicas, a Francia y hasta a Italia, y la gente la llamó la niebla seca porque no se deshacía con el viento ni con la lluvia. El sol se veía rojo al mediodía y se podía mirar de frente sin daño. El verano fue asfixiante y el invierno siguiente, uno de los más fríos que se recuerdan en el continente. Un naturalista inglés anotó en su diario que el aire olía a azufre y que los segadores enfermaban del pecho; los estudios modernos calculan decenas de miles de muertes solo en Inglaterra por problemas respiratorios aquel año.",
+        destacado: { tipo: "frase", frase: "El sol se veía rojo al mediodía y se podía mirar de frente." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Las malas cosechas de aquellos años encarecieron el pan en Francia, y hay historiadores que las cuentan entre los ingredientes del malestar que estalló seis años más tarde en la Revolución; no fueron la causa, pero empujaron. En Islandia la situación llegó a ser tan desesperada que en Copenhague se discutió en serio evacuar la isla entera y llevarse a los supervivientes a Dinamarca. No se hizo. La grieta sigue donde estaba, cubierta hoy de un musgo verde y blando, y se puede recorrer andando: un tajo de veintisiete kilómetros que se abrió en el suelo y cambió el clima de un continente sin que nadie entendiera por qué.",
+      },
+    ],
+  },
+];
