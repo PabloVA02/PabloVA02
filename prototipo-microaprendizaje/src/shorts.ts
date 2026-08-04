@@ -27,6 +27,7 @@ import { BICICLETAS } from "./historias/bicicletas";
 import { BIOMIMESIS } from "./historias/biomimesis";
 import { BOMBEROS } from "./historias/bomberos";
 import { BOSQUES } from "./historias/bosques";
+import { BOTICARIOS } from "./historias/boticarios";
 import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
 import { CAJEROS } from "./historias/cajeros";
@@ -98,6 +99,7 @@ import { HIGIENE } from "./historias/higiene";
 import { HOSPITALES } from "./historias/hospitales";
 import { HUELGAS } from "./historias/huelgas";
 import { IDIOMAS_MUERTOS } from "./historias/idiomasmuertos";
+import { IMANES } from "./historias/imanes";
 import { IMPRENTA_ORIENTAL } from "./historias/imprentaoriental";
 import { IMPUESTOS } from "./historias/impuestos";
 import { INFANCIA } from "./historias/infancia";
@@ -137,6 +139,7 @@ import { OBJETOS } from "./historias/objetos";
 import { ORO } from "./historias/oro";
 import { PALABRAS } from "./historias/palabras";
 import { PAPEL } from "./historias/papel";
+import { PAPEL_DE_ALUMINIO } from "./historias/papeldealuminio";
 import { PARAGUAS } from "./historias/paraguas";
 import { PARQUES } from "./historias/parques";
 import { PASAPORTES } from "./historias/pasaportes";
@@ -146,6 +149,7 @@ import { PERIODICOS } from "./historias/periodicos";
 import { PERROS } from "./historias/perros";
 import { PESCA } from "./historias/pesca";
 import { PETROLEO } from "./historias/petroleo";
+import { PILAS } from "./historias/pilas";
 import { PLANTAS } from "./historias/plantas";
 import { PLASTICO } from "./historias/plastico";
 import { PLATA } from "./historias/plata";
@@ -398,6 +402,7 @@ export const SHORTS: Short[] = intercala(
   CIRCO,
   DESAGUES,
   ISLAS,
+  IMANES,
   CUERO,
   SILLAS,
   CORCHO,
@@ -508,12 +513,14 @@ export const SHORTS: Short[] = intercala(
   ANDAMIOS,
   ASTILLEROS,
   GREMIOS,
+  PILAS,
   VENTANAS,
   LANA,
   GASOLINERAS,
   CRIMEN,
   NUDOS,
   CRUZADAS,
+  BOTICARIOS,
   ROBOTS,
   TE,
   CEPILLO_DE_DIENTES,
@@ -529,6 +536,7 @@ export const SHORTS: Short[] = intercala(
   MAR,
   SEXTANTE,
   ALGODON,
+  PAPEL_DE_ALUMINIO,
   MAPAS_DEL_METRO,
   RELOJES_DE_SOL,
   GAFAS,
