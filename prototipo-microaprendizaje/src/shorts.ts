@@ -1,5 +1,7 @@
+import { ACERO } from "./historias/acero";
 import { AGUA } from "./historias/agua";
 import { ALCOHOL } from "./historias/alcohol";
+import { APELLIDOS } from "./historias/apellidos";
 import { ARTE } from "./historias/arte";
 import { ASCENSORES } from "./historias/ascensores";
 import { AVIACION } from "./historias/aviacion";
@@ -12,8 +14,10 @@ import { BICHOS } from "./historias/bichos";
 import { BOMBEROS } from "./historias/bomberos";
 import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
+import { CASTILLOS } from "./historias/castillos";
 import { CATASTROFES } from "./historias/catastrofes";
 import { CEMENTO } from "./historias/cemento";
+import { CERILLAS } from "./historias/cerillas";
 import { CIENCIA } from "./historias/ciencia";
 import { CINE } from "./historias/cine";
 import { CIUDADES } from "./historias/ciudades";
@@ -302,6 +306,7 @@ export const SHORTS: Short[] = intercala(
   DINOSAURIOS,
   FARAONES,
   ELECTRICIDAD,
+  ACERO,
   AGUA,
   BICHOS,
   PERROS,
@@ -317,6 +322,7 @@ export const SHORTS: Short[] = intercala(
   RUEDA,
   BOMBEROS,
   GUERRA,
+  CASTILLOS,
   VIKINGOS,
   ESCLAVITUD,
   AVIACION,
@@ -329,6 +335,7 @@ export const SHORTS: Short[] = intercala(
   PERIODICOS,
   MUERTE,
   HIGIENE,
+  CERILLAS,
   SEMAFOROS,
   MEDIDAS,
   BRUJULA,
@@ -347,6 +354,7 @@ export const SHORTS: Short[] = intercala(
   TE,
   VIDEOJUEGOS,
   PALABRAS,
+  APELLIDOS,
   BIBLIOTECAS,
   MAR,
   GAFAS,
