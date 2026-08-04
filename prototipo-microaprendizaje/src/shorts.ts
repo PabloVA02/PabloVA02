@@ -5,6 +5,7 @@ import { ALCOHOL } from "./historias/alcohol";
 import { ANESTESIA } from "./historias/anestesia";
 import { ANTIBIOTICOS } from "./historias/antibioticos";
 import { APELLIDOS } from "./historias/apellidos";
+import { ARADO } from "./historias/arado";
 import { ARTE } from "./historias/arte";
 import { ASCENSORES } from "./historias/ascensores";
 import { AVIACION } from "./historias/aviacion";
@@ -24,6 +25,7 @@ import { CASTILLOS } from "./historias/castillos";
 import { CATASTROFES } from "./historias/catastrofes";
 import { CEMENTERIOS } from "./historias/cementerios";
 import { CEMENTO } from "./historias/cemento";
+import { CENSOS } from "./historias/censos";
 import { CERILLAS } from "./historias/cerillas";
 import { CIENCIA } from "./historias/ciencia";
 import { CINE } from "./historias/cine";
@@ -62,6 +64,7 @@ import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
 import { HIGIENE } from "./historias/higiene";
 import { HOSPITALES } from "./historias/hospitales";
+import { IMPRENTA_ORIENTAL } from "./historias/imprentaoriental";
 import { IMPUESTOS } from "./historias/impuestos";
 import { INVENTOS } from "./historias/inventos";
 import { ISLAS } from "./historias/islas";
@@ -95,6 +98,7 @@ import { PERROS } from "./historias/perros";
 import { PETROLEO } from "./historias/petroleo";
 import { PLANTAS } from "./historias/plantas";
 import { PLASTICO } from "./historias/plastico";
+import { PLATA } from "./historias/plata";
 import { POLITICA } from "./historias/politica";
 import { POLVORA } from "./historias/polvora";
 import { PREHISTORIA } from "./historias/prehistoria";
@@ -343,6 +347,7 @@ export const SHORTS: Short[] = intercala(
   LAVADORA,
   ZOOS,
   PERROS,
+  PLATA,
   CABALLOS,
   PUENTES,
   TUNELES,
@@ -373,6 +378,7 @@ export const SHORTS: Short[] = intercala(
   CREENCIAS,
   JARDINES,
   ESCRITURA,
+  CENSOS,
   PERIODICOS,
   MUERTE,
   CEMENTERIOS,
@@ -395,6 +401,7 @@ export const SHORTS: Short[] = intercala(
   AIRE_ACONDICIONADO,
   ALCOHOL,
   JUSTICIA,
+  IMPRENTA_ORIENTAL,
   FOTOGRAFIA,
   MUSEOS,
   CRIMEN,
@@ -409,6 +416,7 @@ export const SHORTS: Short[] = intercala(
   GAFAS,
   PLASTICO,
   CIUDADES,
+  ARADO,
   CEMENTO,
   AZAR,
   SUENO,
