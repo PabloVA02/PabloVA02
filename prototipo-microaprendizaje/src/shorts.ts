@@ -96,6 +96,7 @@ import { FAROS_DE_COCHE } from "./historias/farosdecoche";
 import { FIGURAS } from "./historias/figuras";
 import { FOTOGRAFIA } from "./historias/fotografia";
 import { FRIGORIFICO } from "./historias/frigorifico";
+import { FUNICULARES } from "./historias/funiculares";
 import { GAFAS } from "./historias/gafas";
 import { GAFAS_DE_SOL } from "./historias/gafasdesol";
 import { GASOLINERAS } from "./historias/gasolineras";
@@ -125,8 +126,10 @@ import { LAVADORA } from "./historias/lavadora";
 import { LEJIA } from "./historias/lejia";
 import { LENGUAS } from "./historias/lenguas";
 import { LEVADURA } from "./historias/levadura";
+import { LIMPIAPARABRISAS } from "./historias/limpiaparabrisas";
 import { LLAVES } from "./historias/llaves";
 import { MADERA } from "./historias/madera";
+import { MANIQUIES } from "./historias/maniquies";
 import { MAPAS } from "./historias/mapas";
 import { MAPAS_DEL_METRO } from "./historias/mapasdelmetro";
 import { MAQUINA_ESCRIBIR } from "./historias/maquinaescribir";
@@ -170,6 +173,7 @@ import { PLASTICO } from "./historias/plastico";
 import { PLATA } from "./historias/plata";
 import { POLITICA } from "./historias/politica";
 import { POLVORA } from "./historias/polvora";
+import { POSTALES } from "./historias/postales";
 import { PREHISTORIA } from "./historias/prehistoria";
 import { PUBLICIDAD } from "./historias/publicidad";
 import { PUENTES } from "./historias/puentes";
@@ -412,6 +416,7 @@ export const SHORTS: Short[] = intercala(
   ESCALERAS_MECANICAS,
   ESPACIO,
   FAROS_DE_COCHE,
+  LIMPIAPARABRISAS,
   SAL,
   ROPA,
   SEGUROS,
@@ -533,6 +538,7 @@ export const SHORTS: Short[] = intercala(
   BALANZAS,
   COMIDA,
   ALMACENES,
+  MANIQUIES,
   LEJIA,
   AIRE_ACONDICIONADO,
   ALCOHOL,
@@ -593,6 +599,7 @@ export const SHORTS: Short[] = intercala(
   VENENOS,
   EMPRESAS,
   CORREOS,
+  POSTALES,
   DEPORTE,
   UNIFORMES,
   HOSPITALES,
@@ -618,6 +625,7 @@ export const SHORTS: Short[] = intercala(
   MAQUINA_ESCRIBIR,
   ESPECIAS,
   TELEFERICOS,
+  FUNICULARES,
   FRIGORIFICO,
   MATEMATICAS,
   HIELO,

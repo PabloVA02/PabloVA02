@@ -160,6 +160,39 @@ antes. Y nada de incisos largos entre guiones en mitad de una explicación.
 La prueba es leerlo en voz alta: no hay que quedarse sin aire, y tampoco debe
 sonar a lista de la compra.
 
+## 11. Decir de qué se está hablando, con todas las letras
+
+La regla que pidió Pablo después de leer una tanda entera: «muchas veces no
+se sabe ni de lo que estás hablando». Se incumple de tres maneras.
+
+**La cosa sin nombrar.** Toda pieza, oficio o material se explica **en la
+misma frase en que aparece por primera vez**, con palabras de decir en voz
+alta. Nada de confiar en que se deduce.
+
+Mal: «Cada cabina lleva unas mordazas que agarran el raíl.» —¿qué es una
+mordaza?—.
+
+Bien: «Debajo de cada cabina hay dos piezas de hierro que abrazan el raíl,
+como unas tenazas abiertas.»
+
+Igual con la biela, la luna del escaparate, el torno, el litógrafo, el
+condensador, la leva. Si hace falta nombrar la palabra técnica, va **después**
+de la explicación, no antes: «unos discos con el borde lleno de bultos, que se
+llaman levas».
+
+**El párrafo que no dice de qué va.** Cada página abre nombrando su asunto.
+
+Mal: «El salto llegó con el escaparate de cristal grande.» —¿el salto de
+qué?—.
+
+Bien: «Lo que cambió el maniquí fue el escaparate.»
+
+**El sujeto flotante.** Una idea por frase, y en cada frase se sabe quién hace
+qué. Si una frase mete dos ideas, se parte en dos.
+
+La prueba: **coger una frase suelta, al azar, y leerla sin las de alrededor.**
+Si no se sabe de qué está hablando, esa frase está mal escrita.
+
 ## Medidas
 
 | Campo | Medida |
