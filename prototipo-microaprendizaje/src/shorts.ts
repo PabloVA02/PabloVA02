@@ -7,6 +7,7 @@ import { ALGODON } from "./historias/algodon";
 import { ANDAMIOS } from "./historias/andamios";
 import { ANESTESIA } from "./historias/anestesia";
 import { ANTIBIOTICOS } from "./historias/antibioticos";
+import { APARCAMIENTOS } from "./historias/aparcamientos";
 import { APELLIDOS } from "./historias/apellidos";
 import { ARADO } from "./historias/arado";
 import { ARCHIVOS } from "./historias/archivos";
@@ -41,6 +42,7 @@ import { CAZA } from "./historias/caza";
 import { CEMENTERIOS } from "./historias/cementerios";
 import { CEMENTO } from "./historias/cemento";
 import { CENSOS } from "./historias/censos";
+import { CEPILLO_DE_DIENTES } from "./historias/cepillodedientes";
 import { CERILLAS } from "./historias/cerillas";
 import { CIENCIA } from "./historias/ciencia";
 import { CINE } from "./historias/cine";
@@ -83,6 +85,7 @@ import { FIGURAS } from "./historias/figuras";
 import { FOTOGRAFIA } from "./historias/fotografia";
 import { FRIGORIFICO } from "./historias/frigorifico";
 import { GAFAS } from "./historias/gafas";
+import { GAFAS_DE_SOL } from "./historias/gafasdesol";
 import { GASOLINERAS } from "./historias/gasolineras";
 import { GLOBOS } from "./historias/globos";
 import { GREMIOS } from "./historias/gremios";
@@ -106,6 +109,7 @@ import { JUEGOS } from "./historias/juegos";
 import { JUSTICIA } from "./historias/justicia";
 import { LANA } from "./historias/lana";
 import { LAVADORA } from "./historias/lavadora";
+import { LEJIA } from "./historias/lejia";
 import { LENGUAS } from "./historias/lenguas";
 import { LEVADURA } from "./historias/levadura";
 import { LLAVES } from "./historias/llaves";
@@ -386,6 +390,7 @@ export const SHORTS: Short[] = intercala(
   ROPA,
   TINTA,
   MONASTERIOS,
+  GAFAS_DE_SOL,
   IMPUESTOS,
   SEDA,
   COLCHONES,
@@ -399,6 +404,7 @@ export const SHORTS: Short[] = intercala(
   PEREGRINOS,
   LEVADURA,
   BARCOS,
+  APARCAMIENTOS,
   PUERTOS,
   CARBON,
   SUBMARINOS,
@@ -490,6 +496,7 @@ export const SHORTS: Short[] = intercala(
   ASCENSORES,
   BALANZAS,
   COMIDA,
+  LEJIA,
   AIRE_ACONDICIONADO,
   ALCOHOL,
   CODIGOS_DE_BARRAS,
@@ -509,6 +516,7 @@ export const SHORTS: Short[] = intercala(
   CRUZADAS,
   ROBOTS,
   TE,
+  CEPILLO_DE_DIENTES,
   VIDEOJUEGOS,
   PALABRAS,
   CAL,
