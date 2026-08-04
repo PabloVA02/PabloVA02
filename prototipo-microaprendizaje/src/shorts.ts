@@ -8,6 +8,7 @@ import { CINE } from "./historias/cine";
 import { CIUDADES } from "./historias/ciudades";
 import { COCINA } from "./historias/cocina";
 import { COMIDA } from "./historias/comida";
+import { CORREOS } from "./historias/correos";
 import { COSMOS } from "./historias/cosmos";
 import { CREENCIAS } from "./historias/creencias";
 import { CRIMEN } from "./historias/crimen";
@@ -37,6 +38,7 @@ import { MATEMATICAS } from "./historias/matematicas";
 import { MEDICINA } from "./historias/medicina";
 import { MEDIDAS } from "./historias/medidas";
 import { MOTOR } from "./historias/motor";
+import { MUERTE } from "./historias/muerte";
 import { MUSICA } from "./historias/musica";
 import { OBJETOS } from "./historias/objetos";
 import { PALABRAS } from "./historias/palabras";
@@ -46,6 +48,8 @@ import { PREHISTORIA } from "./historias/prehistoria";
 import { ROPA } from "./historias/ropa";
 import { SUENO } from "./historias/sueno";
 import { TECNOLOGIA } from "./historias/tecnologia";
+import { TRENES } from "./historias/trenes";
+import { VIDEOJUEGOS } from "./historias/videojuegos";
 
 /* ==========================================================================
    Shorts: historias sueltas de dos minutos.
@@ -236,6 +240,7 @@ export const SHORTS: Short[] = intercala(
   COSMOS,
   CATASTROFES,
   ESPANA,
+  TRENES,
   POLITICA,
   DINOSAURIOS,
   ELECTRICIDAD,
@@ -249,6 +254,7 @@ export const SHORTS: Short[] = intercala(
   MAPAS,
   CREENCIAS,
   ESCRITURA,
+  MUERTE,
   HIGIENE,
   MEDIDAS,
   MUSICA,
@@ -258,11 +264,13 @@ export const SHORTS: Short[] = intercala(
   JUSTICIA,
   FOTOGRAFIA,
   CRIMEN,
+  VIDEOJUEGOS,
   PALABRAS,
   MAR,
   CIUDADES,
   SUENO,
   EMPRESAS,
+  CORREOS,
   DEPORTE,
   INVENTOS,
   OBJETOS,
