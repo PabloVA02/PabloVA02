@@ -1,0 +1,104 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   Las grúas.
+
+   Levantar cosas pesadas sin más energía que la humana o la animal. El tema
+   se estropea si se convierte en una lista de máquinas: hay que explicar la
+   ganancia mecánica, que es lo que de verdad asombra.
+
+   La regla del tema: cada short explica UN TRUCO FÍSICO con números —cuánto
+   se multiplica la fuerza, a cambio de qué— y después cuenta quién estaba
+   dentro de la rueda o al final de la cuerda, porque esa parte se olvida
+   siempre. Nada de altura de rascacielos por sí sola.
+   ========================================================================== */
+
+export const GRUAS: Short[] = [
+  {
+    id: "la-rueda-de-ardilla",
+    titulo: "Las catedrales se levantaron con hombres andando",
+    gancho: "Caminaban por el interior de una rueda enorme, como un hámster, y así subían dos toneladas de piedra.",
+    categoria: "Grúas",
+    color: "var(--plum)",
+    encargo: "Una rueda de madera enorme bajo el techo de una iglesia, con una cuerda enrollada en su eje.",
+    entrada:
+      "Europa, siglos XIII a XVI. Para construir una catedral hay que subir bloques de piedra de una o dos toneladas hasta treinta o cuarenta metros de altura, y no existe ningún motor. La solución que se usó durante siglos sigue colgada en el desván de muchas catedrales: una rueda de madera de varios metros de diámetro con un hombre andando por dentro.",
+    paginas: [
+      {
+        rotulo: "Por qué funciona",
+        texto:
+          "El mecanismo aprovecha una idea muy simple. La cuerda que sube la piedra se enrolla en un eje delgado, y ese eje va unido a una rueda enorme por la que camina una persona. Cuanto mayor sea la diferencia entre el radio de la rueda y el del eje, más se multiplica la fuerza que hace quien camina. Con una rueda de cuatro metros y un eje de treinta centímetros, la fuerza se multiplica por trece. Así, dos hombres empujando con su propio peso levantan lo que ni veinte moverían a pulso.",
+        destacado: { tipo: "cifra", cifra: "13", unidad: "veces se multiplicaba la fuerza" },
+      },
+      {
+        rotulo: "El precio",
+        texto:
+          "Lo que se gana en fuerza se paga en distancia, y esa es la regla de oro de cualquier máquina. Para subir la piedra un metro, los hombres de dentro tenían que caminar trece. Subir un bloque a treinta metros suponía varios centenares de metros andados dentro de la rueda, despacio y con mucho cuidado. Si la carga tiraba de golpe, la rueda giraba al revés y los lanzaba contra las tablas. Muchas de estas ruedas no tenían freno mecánico: todo dependía de un hombre con una palanca de madera apoyada contra el borde.",
+        destacado: { tipo: "frase", frase: "Lo que se gana en fuerza se paga en distancia caminada." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedan decenas de ruedas originales en catedrales de media Europa, algunas todavía en uso para subir materiales de restauración. Quedó también el nombre de la máquina en varios idiomas, que viene del pájaro: se llamó grúa porque el brazo con la cuerda recordaba al cuello y el pico de una grulla estirando para picar. Y quedó el principio, que no ha cambiado en los aparatos modernos. Toda grúa multiplica la fuerza a costa de recorrer más cable. Lo único distinto es que hoy quien camina dentro de la rueda es un motor eléctrico.",
+      },
+    ],
+  },
+  {
+    id: "el-contrapeso-de-la-torre",
+    titulo: "Una grúa de obra se sostiene por detrás",
+    gancho: "Los bloques de hormigón de la parte de atrás pesan lo justo para que la máquina no vuelque hacia delante.",
+    categoria: "Grúas",
+    color: "var(--slate)",
+    encargo: "Una grúa torre recortada contra el cielo, con sus bloques de contrapeso al fondo del brazo.",
+    entrada:
+      "Cualquier obra desde 1949, año en que se patentó la grúa torre montable que hoy vemos por todas partes. Es una estructura de celosía metálica muy alta y muy delgada, con un brazo largo que gira, y a cualquiera le sorprende que no se caiga cuando levanta varias toneladas en la punta. El truco está en el otro extremo del brazo.",
+    paginas: [
+      {
+        rotulo: "La balanza",
+        texto:
+          "Una grúa torre funciona como una balanza gigante apoyada sobre la torre. Cuando la carga cuelga del brazo largo, tiende a hacer girar toda la estructura hacia ese lado, y ese esfuerzo depende de dos cosas: cuánto pesa la carga y a qué distancia del centro está. Por eso una grúa puede levantar mucho más peso cerca de la torre que en la punta del brazo, y por eso cada máquina lleva una tabla que dice cuánto puede izar a cada distancia. Al otro lado va el brazo corto, con bloques de hormigón que compensan.",
+        destacado: { tipo: "frase", frase: "Puede levantar mucho más peso cerca de la torre que en la punta." },
+      },
+      {
+        rotulo: "Trepar sola",
+        texto:
+          "La parte que más desconcierta es cómo crecen. Una grúa torre se monta con unos pocos tramos y después se alarga a sí misma con una pieza llamada jaula de trepado, que abraza la torre. La jaula sube empujando con gatos hidráulicos la parte superior de la grúa, dejando un hueco, y en ese hueco se mete un tramo nuevo que llega colgado de la propia grúa. Repitiendo la operación, la máquina se hace tan alta como haga falta, y en los rascacielos se amarra al edificio cada cierta altura.",
+        destacado: { tipo: "cifra", cifra: "1949", unidad: "el año de la grúa torre moderna" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó una máquina tan estandarizada que se alquila por meses igual que un coche, y una silueta que define el paisaje de cualquier ciudad en obras. Quedó también una costumbre de seguridad que llama la atención de cualquiera que mire una obra por la tarde: cuando termina la jornada, el freno de giro se deja suelto a propósito. Así, si por la noche entra viento fuerte, el brazo gira solo y se pone a favor, como una veleta. Si estuviera frenado, tendría que aguantar de lado un empujón capaz de tumbar la grúa entera.",
+      },
+    ],
+  },
+  {
+    id: "el-puerto-y-la-carga",
+    titulo: "Descargar un barco costaba una semana de trabajo",
+    gancho: "Cuadrillas de estibadores sacaban a mano sacos y cajas de una en una. Una grúa cambió el oficio entero.",
+    categoria: "Grúas",
+    color: "var(--ochre)",
+    encargo: "Un muelle con grúas de pórtico sobre raíles y contenedores apilados.",
+    entrada:
+      "Puertos de todo el mundo, hasta los años sesenta. Un barco de carga llega lleno de sacos, cajas, barriles y fardos de tamaños distintos, y todo eso hay que sacarlo pieza a pieza. Cuadrillas de estibadores bajan a la bodega, atan la carga a mano, la suben con una pluma y la vuelven a colocar y ordenar en el muelle. Un barco mediano podía pasar así una semana entera amarrado.",
+    paginas: [
+      {
+        rotulo: "El cuello de botella",
+        texto:
+          "El coste de aquello era enorme y estaba mal repartido. Un barco parado no gana dinero, y en muchos casos el gasto de cargar y descargar superaba al del viaje por mar. Además el trabajo era peligroso, con cargas mal atadas, bodegas oscuras y fardos que se soltaban a media altura. Cuando en 1956 empezaron a usarse cajas metálicas de medidas iguales, el problema cambió de naturaleza. Ya no había que manipular mil objetos distintos, sino mover cajas idénticas, y eso lo puede hacer una máquina si se construye a esa medida.",
+        destacado: { tipo: "frase", frase: "Con cajas todas iguales, el trabajo lo puede hacer una máquina." },
+      },
+      {
+        rotulo: "La grúa de pórtico",
+        texto:
+          "La máquina que apareció es una grúa de pórtico: una estructura enorme montada sobre raíles en el muelle, con un brazo que se adentra sobre el barco. De ella cuelga un bastidor que se engancha solo a las cuatro esquinas de la caja mediante unos pestillos giratorios. El operario trabaja sentado en una cabina acristalada a treinta metros de altura, mirando hacia abajo entre sus pies, y mueve una caja cada dos o tres minutos. Un barco que antes tardaba una semana en descargarse pasó a resolverse en menos de un día.",
+        destacado: { tipo: "cifra", cifra: "1", unidad: "día, frente a una semana de antes" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó una transformación que se llevó por delante un oficio entero y los barrios que vivían de él. Los puertos históricos, pegados al centro de las ciudades, no tenían sitio para las nuevas grúas ni para las explanadas de contenedores, así que la actividad se trasladó a terminales nuevas más afuera. Los muelles antiguos se convirtieron en paseos, museos y viviendas caras. Y quedó el motivo de fondo, que no fue la grúa sino la caja: en cuanto todo tuvo la misma medida, la máquina pudo sustituir a la cuadrilla.",
+      },
+    ],
+  },
+];

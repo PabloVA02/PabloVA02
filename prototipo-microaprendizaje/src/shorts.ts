@@ -41,6 +41,8 @@ import { CORREOS } from "./historias/correos";
 import { COSMOS } from "./historias/cosmos";
 import { CREENCIAS } from "./historias/creencias";
 import { CRIMEN } from "./historias/crimen";
+import { CRUZADAS } from "./historias/cruzadas";
+import { CUBIERTOS } from "./historias/cubiertos";
 import { CUERPO } from "./historias/cuerpo";
 import { DEPORTE } from "./historias/deporte";
 import { DESIERTOS } from "./historias/desiertos";
@@ -65,6 +67,7 @@ import { FRIGORIFICO } from "./historias/frigorifico";
 import { GAFAS } from "./historias/gafas";
 import { GLOBOS } from "./historias/globos";
 import { GREMIOS } from "./historias/gremios";
+import { GRUAS } from "./historias/gruas";
 import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
 import { HIGIENE } from "./historias/higiene";
@@ -359,7 +362,9 @@ export const SHORTS: Short[] = intercala(
   TRENES,
   CARRETERAS,
   POLITICA,
+  CUBIERTOS,
   DINOSAURIOS,
+  GRUAS,
   FARAONES,
   ELECTRICIDAD,
   ACERO,
@@ -429,6 +434,7 @@ export const SHORTS: Short[] = intercala(
   GREMIOS,
   LANA,
   CRIMEN,
+  CRUZADAS,
   TE,
   VIDEOJUEGOS,
   PALABRAS,
