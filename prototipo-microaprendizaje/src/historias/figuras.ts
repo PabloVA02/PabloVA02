@@ -86,7 +86,7 @@ export const FIGURAS: Short[] = [
 
   {
     id: "cleopatra",
-    titulo: "Cleopatra: más cerca de la Luna que de las pirámides",
+    titulo: "Cleopatra vivió más cerca de la Luna",
     gancho: "Cuando ella nació, la Gran Pirámide ya era más antigua que ella para nosotros.",
     categoria: "Figuras",
     color: "var(--plum)",
@@ -99,18 +99,18 @@ export const FIGURAS: Short[] = [
     },
     encargo: "Un busto o un relieve de Cleopatra, mejor de perfil, muy iluminado por un lado.",
     entrada:
-      "Cleopatra VII no era egipcia: era griega, macedonia, la última de una dinastía que llevaba trescientos años gobernando Egipto sin molestarse en aprender la lengua del país. Ella fue la primera de los Ptolomeos que sí la aprendió, y no por cariño: la usó como se usa una herramienta de trabajo, junto a otras ocho lenguas.",
+      "Egipto, siglo I antes de Cristo. Cleopatra VII no era egipcia: era griega, de familia macedonia, la última de una dinastía que llevaba trescientos años gobernando el país sin molestarse en aprender su lengua. Ella fue la primera de esa familia que sí la aprendió, y no por cariño. La usó como se usa una herramienta de trabajo, junto a otras ocho lenguas.",
     paginas: [
       {
-        rotulo: "La cuenta que no cuadra",
+        rotulo: "La cuenta",
         texto:
-          "La Gran Pirámide se terminó hacia el 2560 a. C. Cleopatra murió en el 30 a. C. Entre las dos hay <strong>2.530 años</strong>. Entre Cleopatra y el primer hombre en la Luna hay 1.999. Es decir: está más cerca de Neil Armstrong que de la pirámide que tenía al lado de casa. Cuando ella subió al trono, Keops llevaba levantado más tiempo del que nos separa hoy de ella, y Gizeh ya era una parada de turistas: hay grafitis en griego rascados en las piedras por visitantes de su época. Los faraones que aparecen en los libros de texto eran, para ella, arqueología.",
+          "La gran pirámide se terminó hacia el año 2560 antes de Cristo y Cleopatra murió en el año 30. Entre las dos fechas hay dos mil quinientos treinta años. Entre Cleopatra y el primer hombre que pisó la Luna hay mil novecientos noventa y nueve. Es decir, ella vivió más cerca de la llegada a la Luna que de la pirámide que tenía al lado de casa. Cuando subió al trono, esa pirámide llevaba en pie más tiempo del que nos separa hoy de ella. Ya era una parada de turistas, con grafitis en griego rascados en las piedras por visitantes de su época.",
         destacado: { tipo: "cifra", cifra: "2.530", unidad: "años entre la pirámide y ella" },
       },
       {
         rotulo: "El saco de ropa",
         texto:
-          "La alfombra enrollada es de Hollywood. Plutarco dice un saco de ropa de cama: Apolodoro el siciliano la metió dentro, se lo cargó al hombro y la coló en el palacio de Alejandría, delante de César. Cleopatra tenía veintiún años y su hermano acababa de echarla del trono; nueve meses después nació un niño al que llamó Cesarión. Y sobre lo otro, Plutarco es explícito y sorprendente: dice que su belleza no era de las que dejan sin habla, que lo irresistible era el trato, la conversación y una voz que manejaba como un instrumento.",
+          "La alfombra enrollada de las películas no aparece en ninguna fuente antigua. Un biógrafo griego que escribió un siglo después habla de un saco de ropa de cama. Un hombre de confianza suyo la metió dentro, se lo cargó al hombro y la coló en el palacio, delante de César. Cleopatra tenía veintiún años y su hermano acababa de echarla del trono. Nueve meses después nació un niño al que puso el nombre del propio César. Y sobre su belleza, aquel biógrafo es explícito: dice que no era de las que dejan sin habla. Lo irresistible era el trato, la conversación y una voz que manejaba como un instrumento.",
         destacado: {
           tipo: "frase",
           frase: "«Su hermosura no era incomparable». Lo irresistible era hablar con ella.",
@@ -119,7 +119,7 @@ export const FIGURAS: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "Tras la derrota de Accio, en el 31 a. C., Octavio entró en Egipto y ella se mató antes de acabar exhibida en un desfile en Roma. Lo del áspid es dudoso desde el principio: Plutarco ya escribe que nadie sabe cómo entró el veneno, que se habló de una serpiente escondida en una cesta de higos y que en el cuerpo no se encontraron marcas claras. Con su muerte, Egipto pasó a ser una provincia romana más. No terminó un reinado: terminaron tres mil años de faraones, y la última fue una mujer que hablaba griego en casa.",
+          "En el año 31 antes de Cristo, Roma la derrotó junto a su aliado en una gran batalla naval. El vencedor entró en Egipto al año siguiente y ella se mató antes de acabar exhibida en un desfile en Roma. Lo de la serpiente venenosa es dudoso desde el principio, y el propio biógrafo griego ya lo decía. Escribió que nadie sabía cómo entró el veneno y que en el cuerpo no aparecieron marcas claras. Con su muerte, Egipto pasó a ser una provincia romana más, gobernada desde fuera. No terminó un reinado: terminaron tres mil años de faraones, y la última fue una mujer que hablaba griego en casa.",
       },
     ],
   },
@@ -139,18 +139,18 @@ export const FIGURAS: Short[] = [
     },
     encargo: "El detalle de la cara de Alejandro en el mosaico de Issos, con el ojo muy abierto.",
     entrada:
-      "En trece años, un macedonio de veinte convirtió un reino de montaña en el mayor imperio conocido hasta entonces: de Grecia al Indo. Fundó unas setenta ciudades y a casi todas les puso su nombre. A los treinta y dos estaba muerto en Babilonia, sin heredero claro, y sus generales se repartieron el mundo antes de enterrarlo.",
+      "Siglo IV antes de Cristo. En trece años, un rey macedonio que empezó con veinte convirtió un reino de montaña en el mayor imperio conocido hasta entonces, desde Grecia hasta la India. Fundó unas setenta ciudades y a casi todas les puso su nombre. A los treinta y dos estaba muerto, sin heredero claro, y sus generales se repartieron el mundo antes de enterrarlo.",
     paginas: [
       {
         rotulo: "El nudo",
         texto:
-          "En Gordio, Frigia, había un carro atado con un nudo imposible de deshacer y un oráculo: quien lo desatara reinaría en Asia. Llevaba generaciones venciendo a todo el que lo intentaba. Alejandro lo miró un rato y lo partió de un tajo con la espada —otra versión, la de su ingeniero Aristóbulo, dice que sacó la clavija del yugo y el nudo se soltó solo—. Lo importante no es cómo lo hizo, sino lo que hizo después: asegurarse de que la historia se contara en todas partes. No resolvió el acertijo. Cambió las reglas del acertijo y convirtió el gesto en propaganda.",
+          "En una ciudad de la actual Turquía había un carro atado con un nudo imposible de deshacer. Un oráculo decía que quien lo desatara reinaría en Asia, y llevaba generaciones venciendo a todo el que lo intentaba. Alejandro lo miró un rato y lo partió de un tajo con la espada. Otra versión, la de su propio ingeniero, dice que sacó la clavija del yugo y el nudo se soltó solo. Lo importante no es cómo lo hizo, sino lo que hizo después, que fue asegurarse de que la historia se contara en todas partes. No resolvió el acertijo: cambió las reglas del acertijo y convirtió el gesto en propaganda.",
         destacado: { tipo: "cifra", cifra: "0", unidad: "batallas perdidas en 13 años" },
       },
       {
-        rotulo: "El cadáver secuestrado",
+        rotulo: "El cadáver robado",
         texto:
-          "Murió en Babilonia en junio del 323 a. C. tras diez días de fiebre. Preguntado por quién heredaba, dejó dicho —o eso se contó— que el más fuerte. El cortejo fúnebre salió hacia Macedonia con un carro de oro tirado por sesenta y cuatro mulas, y a mitad de camino Ptolomeo lo interceptó y se lo llevó a Egipto: en aquel mundo, tener el cuerpo era tener el derecho a heredarlo. Estuvo expuesto en Alejandría durante siglos. Lo visitó Julio César. Lo visitó Augusto, que según Suetonio le rompió un trozo de nariz al inclinarse a besarlo. Después, la tumba se perdió y no ha vuelto a aparecer.",
+          "Murió en Babilonia en junio del año 323 antes de Cristo, después de diez días de fiebre. Cuando le preguntaron quién heredaba, dejó dicho, o eso se contó, que el más fuerte. El cortejo fúnebre salió hacia su tierra con un carro de oro tirado por sesenta y cuatro mulas. A mitad de camino, uno de sus generales lo interceptó y se llevó el cuerpo a Egipto. En aquel mundo, tener el cadáver del rey era tener el derecho a heredar lo suyo. Estuvo expuesto en Alejandría durante siglos y lo visitaron los emperadores romanos, hasta que la tumba se perdió y no ha vuelto a aparecer.",
         destacado: {
           tipo: "frase",
           frase: "Se robaron el cadáver porque el cadáver era el título de propiedad.",
@@ -159,14 +159,14 @@ export const FIGURAS: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "El imperio duró menos que él: a los pocos años de morir estaba partido en tres, y sus generales se mataron entre ellos durante cuarenta. Lo que no se deshizo fue lo otro. El griego se convirtió en la lengua franca desde Egipto hasta la frontera de la India y aguantó mil años; en Afganistán y Pakistán aparecieron budas esculpidos con pliegues de túnica griega; Alejandría acabó teniendo la mayor biblioteca del mundo antiguo. Y el Nuevo Testamento se escribió en griego corriente, el de los mercados, porque era el idioma en el que se entendía medio mundo. Ese es su verdadero imperio, y ese sí duró.",
+          "El imperio duró menos que él, porque a los pocos años de morir estaba partido en tres. Sus generales se mataron entre ellos durante cuarenta años por los pedazos. Lo que no se deshizo fue lo otro, y es lo que de verdad quedó. El griego se convirtió en la lengua común desde Egipto hasta la frontera de la India y aguantó mil años. En Afganistán y en Pakistán aparecieron budas esculpidos con pliegues de túnica griega, y Alejandría acabó teniendo la mayor biblioteca del mundo antiguo. Y el Nuevo Testamento se escribió en griego corriente, el de los mercados, porque era el idioma en el que se entendía medio mundo.",
       },
     ],
   },
 
   {
     id: "gengis",
-    titulo: "Gengis Kan: uno de cada 200 hombres desciende de él",
+    titulo: "Gengis Kan dejó su ADN en dieciséis millones",
     gancho: "Un estudio de ADN encontró su firma en dieciséis millones de hombres vivos.",
     categoria: "Figuras",
     color: "var(--slate)",
@@ -184,30 +184,29 @@ export const FIGURAS: Short[] = [
       {
         rotulo: "El linaje",
         texto:
-          "En 2003, un equipo internacional analizó el cromosoma Y de más de dos mil hombres de Asia y encontró algo que no encaja con la biología normal: una misma firma genética en torno al <strong>8 %</strong> de los varones de la antigua zona del imperio mongol, unos dieciséis millones de personas. Una línea familiar no se extiende así sola; hace falta poder. El rastro apunta a la Mongolia del siglo XII y a una familia con acceso ilimitado a mujeres durante generaciones. No hay confirmación directa —no se ha encontrado la tumba, así que no hay ADN con el que comparar—, pero la coincidencia de fecha y mapa es difícil de explicar de otra manera.",
+          "En 2003 un equipo internacional analizó el cromosoma Y de más de dos mil hombres de Asia. Ese cromosoma pasa de padre a hijo casi sin cambios, así que sirve para seguir una línea masculina. Encontraron la misma firma genética en el ocho por ciento de los varones del antiguo imperio mongol. Son unos dieciséis millones de personas vivas, y una línea así no se extiende sola. Hace falta poder, y el rastro apunta al siglo XII y a una familia con acceso ilimitado a mujeres. No hay confirmación directa, porque sin la tumba no hay ADN con el que comparar.",
         destacado: { tipo: "cifra", cifra: "16", unidad: "millones de hombres" },
       },
       {
-        rotulo: "La tumba que no aparece",
+        rotulo: "La tumba",
         texto:
-          "Murió en 1227 y quiso desaparecer. Lo enterraron en secreto en algún punto del norte de Mongolia, probablemente cerca del monte Burkhan Khaldun, y las crónicas cuentan que mataron a los que llevaban el féretro, y después a los que los habían matado; que hicieron pasar mil caballos por encima para borrar la tierra, y que hasta desviaron un río. Ochocientos años después sigue sin aparecer. Se ha buscado con satélites y con miles de voluntarios peinando imágenes por internet, y en Mongolia hay además una objeción de fondo: mucha gente considera que buscarla es profanarla.",
+          "Murió en 1227 y quiso desaparecer, y lo consiguió mejor que nadie. Lo enterraron en secreto en algún punto del norte de la estepa, probablemente cerca de una montaña sagrada. Las crónicas cuentan que mataron a los que llevaban el féretro, y después a los que los habían matado. Cuentan también que hicieron pasar mil caballos por encima para borrar la tierra removida. Ochocientos años después sigue sin aparecer, y se ha buscado con satélites y con miles de voluntarios peinando imágenes por internet. Hay además una objeción de fondo en el país, porque mucha gente considera que buscarla es profanarla.",
         destacado: {
           tipo: "frase",
           frase: "Ocho siglos buscando la tumba de quien hizo todo lo posible por no tener una.",
         },
       },
       {
-        rotulo: "Lo que montó",
+        rotulo: "Lo que quedó",
         texto:
-          "Debajo de la matanza —ciudades enteras borradas, cifras de muertos que se cuentan por millones— había un Estado que funcionaba mejor que los de al lado. Los mongoles no tenían escritura y él mandó adaptarles el alfabeto uigur. Ascendió a generales por mérito y no por cuna, algo insólito en el siglo XIII. Eximió de impuestos a los religiosos de cualquier credo. Y montó el <em>yam</em>, un correo de postas con relevos de caballos cada 40 kilómetros que permitía cruzar el imperio en semanas: la razón de que un veneciano como Marco Polo pudiera plantarse en China y volver para contarlo.",
-        destacado: { tipo: "cifra", cifra: "40", unidad: "km entre postas del correo" },
+          "Debajo de la matanza, con ciudades enteras borradas y muertos por millones, había un Estado que funcionaba mejor que los de al lado. Los mongoles no tenían escritura y él mandó adaptarles un alfabeto de otro pueblo vecino. Ascendió a generales por mérito y no por cuna, que era insólito en el siglo XIII. Eximió de impuestos a los religiosos de cualquier credo, fuera cual fuera. Y montó un correo de postas con relevos de caballos cada cuarenta kilómetros, que permitía cruzar el imperio en semanas. Por eso un mercader veneciano pudo plantarse en China y volver para contarlo.",
       },
     ],
   },
 
   {
     id: "napoleon",
-    titulo: "Napoleón: el chiste del bajito es un error de unidades",
+    titulo: "Napoleón no era bajito: fallaron las unidades",
     gancho: "Medía por encima de la media de su época. La leyenda nace de dos pies distintos.",
     categoria: "Figuras",
     color: "var(--sage)",
@@ -221,35 +220,34 @@ export const FIGURAS: Short[] = [
     },
     encargo: "El retrato de David en el despacho, o el sombrero bicornio solo, sobre fondo liso.",
     entrada:
-      "En el acta de su autopsia consta «cinco pies y dos pulgadas». Leído con pulgadas inglesas sale un hombre de 1,57 y de ahí viene el chiste que lleva dos siglos rodando. Pero la medida estaba tomada en pies franceses, que eran más largos que los ingleses. Convertida bien, da entre 1,68 y 1,70: por encima de la media francesa de su tiempo.",
+      "Francia, comienzos del siglo XIX. En el acta de su autopsia consta que medía cinco pies y dos pulgadas. Leído con pulgadas inglesas sale un hombre de 1,57, y de ahí viene el chiste que lleva dos siglos rodando. Pero la medida se tomó en pies franceses, que eran más largos que los ingleses. Bien convertida da entre 1,68 y 1,70, por encima de la media de su tiempo.",
     paginas: [
       {
-        rotulo: "De dónde sale el bajito",
+        rotulo: "El apodo",
         texto:
-          "El pie de rey francés medía 32,5 centímetros; el inglés, 30,5. Dos centímetros de diferencia por pie bastan para inventar un complejo nacional. A eso se le sumaron tres cosas: sus soldados le llamaban <em>le petit caporal</em>, que era un apodo cariñoso y no una descripción; iba siempre rodeado por los granaderos de la Guardia, elegidos por ser altísimos; y en Londres el caricaturista James Gillray se pasó años dibujándolo como un enano rabioso con un sombrero enorme, «Little Boney». La caricatura ganó por goleada al dato, y sigue ganando.",
+          "El pie de rey francés medía 32,5 centímetros y el inglés medía 30,5. Dos centímetros de diferencia por pie bastan para inventar un complejo nacional. A eso se le sumaron tres cosas más, y ninguna de las tres tiene que ver con su estatura real. Sus soldados le llamaban el cabito, que era un apodo cariñoso y no una descripción. Iba siempre rodeado por los granaderos de su guardia personal, elegidos precisamente por ser altísimos. Y en Londres un caricaturista se pasó años dibujándolo como un enano rabioso con un sombrero enorme, y la caricatura le ganó al dato.",
         destacado: { tipo: "cifra", cifra: "1,68 m", unidad: "sobre la media de su época" },
       },
       {
         rotulo: "Lo que sí midió",
         texto:
-          "Mientras tanto hacía algo que sí ha durado: el Código Civil de 1804. Dos mil doscientos ochenta y un artículos redactados en cuatro años, con él presidiendo en persona más de la mitad de las sesiones y discutiendo artículo por artículo. Fijó la igualdad ante la ley, la propiedad privada, el matrimonio civil y el final de los privilegios feudales; y de paso dejó a las mujeres legalmente sometidas al marido, un retroceso que costó siglo y medio deshacer. Es la base del derecho civil de medio mundo, de Bélgica a Japón, pasando por Luisiana. Él lo sabía: dijo que sus cuarenta batallas se olvidarían y el código no.",
+          "Mientras tanto hizo algo que sí ha durado: el código civil francés de 1804. Un código civil es el libro de leyes que regula la vida corriente: la propiedad, la herencia, el matrimonio. Son dos mil doscientos ochenta y un artículos escritos en cuatro años, con él presidiendo la mitad de las sesiones. Fijó la igualdad ante la ley, la propiedad privada, el matrimonio civil y el fin de los privilegios feudales. Y de paso dejó a las mujeres sometidas legalmente al marido, un retroceso que costó siglo y medio deshacer. Es la base del derecho civil de medio mundo, y él lo sabía: dijo que sus batallas se olvidarían y el código no.",
         destacado: {
           tipo: "frase",
           frase: "«Waterloo borrará el recuerdo de mis victorias. Mi Código Civil vivirá.»",
         },
       },
       {
-        rotulo: "La isla",
+        rotulo: "Lo que quedó",
         texto:
-          "Lo desterraron a Santa Elena, un peñasco en mitad del Atlántico a unos 1.900 kilómetros de la costa africana más próxima, elegido justamente porque escapar de allí no era cuestión de audacia sino de geografía. Aguantó seis años y murió a los 51. La autopsia dijo cáncer de estómago, el mismo que se llevó a su padre. La teoría del envenenamiento con arsénico salió de unos análisis de su pelo, pero se explica mejor por el papel pintado verde de su habitación —el pigmento de la época llevaba arsénico y soltaba vapores con la humedad— y por los tónicos que se tomaban entonces. En 1840 Francia se lo llevó de vuelta a París.",
-        destacado: { tipo: "cifra", cifra: "1.900", unidad: "km hasta la costa más cercana" },
+          "Lo desterraron a una isla del Atlántico sur, a mil novecientos kilómetros de la costa africana más próxima. La eligieron precisamente porque escapar de allí no era cuestión de audacia, sino de geografía. Aguantó seis años y murió a los cincuenta y uno, y la autopsia dijo cáncer de estómago. La teoría del envenenamiento con arsénico salió de unos análisis de su pelo hechos mucho después. Se explica mejor por el papel pintado verde de su habitación, cuyo pigmento llevaba arsénico y soltaba vapores con la humedad. En 1840 Francia se lo llevó de vuelta a París, donde sigue.",
       },
     ],
   },
 
   {
     id: "juana",
-    titulo: "Juana de Arco: 19 años y un juicio que se conserva entero",
+    titulo: "Juana de Arco: su juicio se conserva entero",
     gancho: "Sabemos lo que dijo palabra por palabra porque sus jueces lo apuntaron todo para hundirla.",
     categoria: "Figuras",
     color: "var(--plum)",
@@ -267,13 +265,13 @@ export const FIGURAS: Short[] = [
       {
         rotulo: "Nueve días",
         texto:
-          "Orleans llevaba siete meses sitiada cuando ella llegó, el 29 de abril de 1429. El 8 de mayo los ingleses levantaban el cerco. No mandaba el ejército —no tenía instrucción militar y los capitanes de verdad estaban allí—, pero hizo dos cosas que ellos no podían hacer: convenció a una tropa derrotada de que iba a ganar y forzó los ataques que los mandos preferían aplazar. En uno de ellos recibió un flechazo en el hombro, se retiró a que se lo curaran y volvió a la línea esa misma tarde, con el estandarte, que era lo único que llevaba en la mano.",
+          "Orleans llevaba siete meses sitiada cuando ella llegó, el 29 de abril de 1429. El 8 de mayo los ingleses levantaban el cerco. No mandaba el ejército, porque no tenía instrucción militar y los capitanes de verdad estaban allí. Pero hizo dos cosas que ellos no podían hacer. Convenció a una tropa derrotada de que iba a ganar y forzó los ataques que los mandos preferían aplazar. En uno de ellos recibió un flechazo en el hombro y se retiró a que se lo curaran. Volvió a la línea esa misma tarde con el estandarte, que era lo único que llevaba en la mano.",
         destacado: { tipo: "cifra", cifra: "9", unidad: "días para romper 7 meses de asedio" },
       },
       {
         rotulo: "El juicio",
         texto:
-          "En 1431 la juzga en Ruan un tribunal eclesiástico presidido por un obispo francés al servicio de los ingleses. Setenta cargos reducidos a doce, sin abogado, una chica de diecinueve años analfabeta frente a decenas de doctores en teología, y notarios apuntándolo todo. Le tendieron una trampa clásica: «¿Estás en gracia de Dios?». Si decía que sí, era presunción, herejía; si decía que no, se condenaba con su propia boca. Contestó que si no lo estaba, que Dios la pusiera en ella, y que si lo estaba, que Dios la mantuviera. Un asesor declaró después que los que la interrogaban se quedaron sin saber qué decir.",
+          "En 1431 la juzga un tribunal eclesiástico presidido por un obispo francés al servicio de los ingleses. Setenta cargos reducidos a doce, sin abogado, una chica de diecinueve años analfabeta frente a decenas de doctores en teología, y notarios apuntándolo todo. Le tendieron una trampa clásica: «¿Estás en gracia de Dios?». Si decía que sí, era presunción, herejía; si decía que no, se condenaba con su propia boca. Contestó que si no lo estaba, que Dios la pusiera en ella, y que si lo estaba, que Dios la mantuviera. Un asesor declaró después que los que la interrogaban se quedaron sin saber qué decir.",
         destacado: {
           tipo: "frase",
           frase: "«Si no lo estoy, que Dios me ponga en ella.»",
@@ -282,7 +280,7 @@ export const FIGURAS: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "La condenaron por vestir ropa de hombre y la quemaron el 30 de mayo de 1431 en la plaza del Mercado Viejo. Quemaron el cuerpo tres veces y echaron las cenizas al Sena para que no quedaran reliquias. En 1456, un proceso de nulidad revisó el caso y la absolvió; en 1920 la Iglesia la hizo santa. Y el expediente que la mató —cientos de páginas de interrogatorio, con sus respuestas anotadas por escribanos que estaban en contra de ella— es hoy la fuente principal de su vida y uno de los testimonios más detallados que existen de una persona corriente del siglo XV.",
+          "La condenaron por vestir ropa de hombre y la quemaron el 30 de mayo de 1431 en la plaza del mercado. Quemaron el cuerpo tres veces y echaron las cenizas al Sena para que no quedaran reliquias. En 1456, un proceso de nulidad revisó el caso y la absolvió; en 1920 la Iglesia la hizo santa. Y el expediente que la mató es hoy la fuente principal de su vida. Son cientos de páginas de interrogatorio, con sus respuestas anotadas por escribanos hostiles a ella. Es uno de los testimonios más detallados que existen de una persona corriente del siglo XV.",
       },
     ],
   },
