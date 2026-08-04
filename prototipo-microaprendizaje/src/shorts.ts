@@ -21,6 +21,7 @@ import { BANCA } from "./historias/banca";
 import { BANDERAS } from "./historias/banderas";
 import { BARCOS } from "./historias/barcos";
 import { BASURA } from "./historias/basura";
+import { BASURA_ELECTRONICA } from "./historias/basuraelectronica";
 import { BIBLIOTECAS } from "./historias/bibliotecas";
 import { BICHOS } from "./historias/bichos";
 import { BICICLETAS } from "./historias/bicicletas";
@@ -143,6 +144,7 @@ import { PAPEL_DE_ALUMINIO } from "./historias/papeldealuminio";
 import { PARAGUAS } from "./historias/paraguas";
 import { PARQUES } from "./historias/parques";
 import { PASAPORTES } from "./historias/pasaportes";
+import { PEGAMENTO } from "./historias/pegamento";
 import { PEREGRINOS } from "./historias/peregrinos";
 import { PERFUME } from "./historias/perfume";
 import { PERIODICOS } from "./historias/periodicos";
@@ -173,6 +175,7 @@ import { SAL } from "./historias/sal";
 import { SAMURAIS } from "./historias/samurais";
 import { SANGRE } from "./historias/sangre";
 import { SEDA } from "./historias/seda";
+import { SEGUROS } from "./historias/seguros";
 import { SEMAFOROS } from "./historias/semaforos";
 import { SEXTANTE } from "./historias/sextante";
 import { SILLAS } from "./historias/sillas";
@@ -188,6 +191,7 @@ import { TELEFERICOS } from "./historias/telefericos";
 import { TELEFONO } from "./historias/telefono";
 import { TELESCOPIO } from "./historias/telescopio";
 import { TELEVISION } from "./historias/television";
+import { TERMO } from "./historias/termo";
 import { TERMOMETRO } from "./historias/termometro";
 import { TINTA } from "./historias/tinta";
 import { TINTES } from "./historias/tintes";
@@ -392,6 +396,7 @@ export const SHORTS: Short[] = intercala(
   ESPACIO,
   SAL,
   ROPA,
+  SEGUROS,
   TINTA,
   MONASTERIOS,
   GAFAS_DE_SOL,
@@ -510,6 +515,7 @@ export const SHORTS: Short[] = intercala(
   IMPRENTA_ORIENTAL,
   FOTOGRAFIA,
   MUSEOS,
+  BASURA_ELECTRONICA,
   ANDAMIOS,
   ASTILLEROS,
   GREMIOS,
@@ -528,12 +534,14 @@ export const SHORTS: Short[] = intercala(
   PALABRAS,
   CAL,
   VELAS,
+  TERMO,
   ROTONDAS,
   APELLIDOS,
   GUANTES,
   BIBLIOTECAS,
   TEJADOS,
   MAR,
+  PEGAMENTO,
   SEXTANTE,
   ALGODON,
   PAPEL_DE_ALUMINIO,
