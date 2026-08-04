@@ -22,6 +22,13 @@ export const RAYOSX: Short[] = [
     gancho: "Vio los huesos y el anillo de boda, y dijo que acababa de ver su propia muerte.",
     categoria: "Rayos X",
     color: "var(--slate)",
+    foto: {
+      archivo: "First medical X-ray by Wilhelm Röntgen of his wife Anna Bertha Ludwig's hand - 18951222.jpg",
+      autor: "Wilhelm Conrad Röntgen",
+      licencia: "Dominio público",
+      foco: "50% 45%",
+      alt: "La primera radiografía médica: los huesos de una mano con el anillo de casada.",
+    },
     encargo: "Una radiografía antigua de una mano con un anillo alrededor de un dedo.",
     entrada:
       "Wurzburgo, en Alemania, noviembre de 1895. Un físico de cincuenta años trabaja a oscuras con un tubo de vacío envuelto en cartón negro y ve que una pantalla colocada al otro lado del laboratorio se ilumina sola. Algo está atravesando el cartón, el aire y la mesa. Lo llama rayos equis porque no tiene ni idea de qué es.",

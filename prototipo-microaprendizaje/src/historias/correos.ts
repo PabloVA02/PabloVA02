@@ -24,6 +24,13 @@ export const CORREOS: Short[] = [
     gancho: "Y podía negarse a pagarla. Media Inglaterra mandaba mensajes en el sobre para no tener que abrirlo.",
     categoria: "Correos",
     color: "var(--slate)",
+    foto: {
+      archivo: "Penny black.jpg",
+      autor: "Correo británico, 1840",
+      licencia: "Dominio público",
+      foco: "50% 50%",
+      alt: "El primer sello del mundo: el perfil de la reina Victoria sobre fondo negro.",
+    },
     encargo: "Un sello negro pequeño pegado en la esquina de un sobre amarillento.",
     entrada:
       "Reino Unido, década de 1830. El correo funciona al revés de como lo conocemos: la carta se entrega sin pagar nada y quien la recibe abona el porte, calculado según la distancia y el número de hojas. El precio de una carta larga desde Escocia puede equivaler al jornal de un día de un obrero, así que muchos se niegan a aceptarla.",

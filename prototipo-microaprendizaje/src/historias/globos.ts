@@ -22,6 +22,13 @@ export const GLOBOS: Short[] = [
     categoria: "Globos",
     color: "var(--clay)",
     curioso: true,
+    foto: {
+      archivo: "Grafika przedstawiająca lot balonu Montgolfiera ze zwierzętami z 19 września 1783 roku.jpg",
+      autor: "Grabado de época, 1783",
+      licencia: "Dominio público",
+      foco: "50% 40%",
+      alt: "Grabado del globo de 1783 elevándose con la cesta de los tres animales.",
+    },
     encargo: "Una cesta de mimbre colgada de un globo de tela pintada, vista desde abajo contra el cielo.",
     entrada:
       "Francia, 19 de septiembre de 1783. En el patio del palacio real, delante de la corte y de una multitud enorme, dos hermanos fabricantes de papel han montado un globo de tela forrada con papel que se hincha con el humo de una hoguera. Debajo cuelga una cesta con tres pasajeros: una oveja, un pato y un gallo.",

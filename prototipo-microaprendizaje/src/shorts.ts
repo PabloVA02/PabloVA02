@@ -2,6 +2,7 @@ import { ACERO } from "./historias/acero";
 import { AGUA } from "./historias/agua";
 import { AIRE_ACONDICIONADO } from "./historias/aireacondicionado";
 import { ALCOHOL } from "./historias/alcohol";
+import { ALGODON } from "./historias/algodon";
 import { ANESTESIA } from "./historias/anestesia";
 import { ANTIBIOTICOS } from "./historias/antibioticos";
 import { APELLIDOS } from "./historias/apellidos";
@@ -17,6 +18,7 @@ import { BASURA } from "./historias/basura";
 import { BIBLIOTECAS } from "./historias/bibliotecas";
 import { BICHOS } from "./historias/bichos";
 import { BOMBEROS } from "./historias/bomberos";
+import { BOSQUES } from "./historias/bosques";
 import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
 import { CAMAS } from "./historias/camas";
@@ -84,6 +86,7 @@ import { MEDICINA } from "./historias/medicina";
 import { MEDIDAS } from "./historias/medidas";
 import { MERCADOS } from "./historias/mercados";
 import { MICROSCOPIO } from "./historias/microscopio";
+import { MONASTERIOS } from "./historias/monasterios";
 import { MONEDA } from "./historias/moneda";
 import { MONTANAS } from "./historias/montanas";
 import { MOTOR } from "./historias/motor";
@@ -131,6 +134,7 @@ import { TERMOMETRO } from "./historias/termometro";
 import { TRASPLANTES } from "./historias/trasplantes";
 import { TRENES } from "./historias/trenes";
 import { TUNELES } from "./historias/tuneles";
+import { UNIFORMES } from "./historias/uniformes";
 import { VEJEZ } from "./historias/vejez";
 import { VELAS } from "./historias/velas";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
@@ -323,6 +327,7 @@ export const SHORTS: Short[] = intercala(
   FIGURAS,
   ESPACIO,
   ROPA,
+  MONASTERIOS,
   IMPUESTOS,
   SEDA,
   CIRCO,
@@ -419,6 +424,7 @@ export const SHORTS: Short[] = intercala(
   APELLIDOS,
   BIBLIOTECAS,
   MAR,
+  ALGODON,
   RELOJES_DE_SOL,
   GAFAS,
   PLASTICO,
@@ -431,6 +437,7 @@ export const SHORTS: Short[] = intercala(
   EMPRESAS,
   CORREOS,
   DEPORTE,
+  UNIFORMES,
   HOSPITALES,
   INVENTOS,
   BANCA,
@@ -445,6 +452,7 @@ export const SHORTS: Short[] = intercala(
   ESCUELA,
   TECNOLOGIA,
   COCINA,
+  BOSQUES,
   MAQUINA_ESCRIBIR,
   ESPECIAS,
   FRIGORIFICO,
