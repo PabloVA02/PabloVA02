@@ -1,3 +1,4 @@
+import { AGUA } from "./historias/agua";
 import { ARTE } from "./historias/arte";
 import { AVIACION } from "./historias/aviacion";
 import { AZAR } from "./historias/azar";
@@ -25,6 +26,7 @@ import { ESCRITURA } from "./historias/escritura";
 import { ESPACIO } from "./historias/espacio";
 import { ESPANA } from "./historias/espana";
 import { ESPIONAJE } from "./historias/espionaje";
+import { FAROS } from "./historias/faros";
 import { FIGURAS } from "./historias/figuras";
 import { FOTOGRAFIA } from "./historias/fotografia";
 import { GUERRA } from "./historias/guerra";
@@ -55,8 +57,10 @@ import { RELOJES } from "./historias/relojes";
 import { ROPA } from "./historias/ropa";
 import { SUENO } from "./historias/sueno";
 import { TECNOLOGIA } from "./historias/tecnologia";
+import { TELEFONO } from "./historias/telefono";
 import { TRENES } from "./historias/trenes";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
+import { VIDRIO } from "./historias/vidrio";
 import { VOLCANES } from "./historias/volcanes";
 
 /* ==========================================================================
@@ -244,6 +248,7 @@ export const SHORTS: Short[] = intercala(
   ESPACIO,
   ROPA,
   BARCOS,
+  FAROS,
   EPIDEMIAS,
   COSMOS,
   VOLCANES,
@@ -253,6 +258,7 @@ export const SHORTS: Short[] = intercala(
   POLITICA,
   DINOSAURIOS,
   ELECTRICIDAD,
+  AGUA,
   BICHOS,
   PUENTES,
   MOTOR,
@@ -264,6 +270,7 @@ export const SHORTS: Short[] = intercala(
   CUERPO,
   PUBLICIDAD,
   MAPAS,
+  TELEFONO,
   CREENCIAS,
   ESCRITURA,
   MUERTE,
@@ -285,6 +292,7 @@ export const SHORTS: Short[] = intercala(
   CIUDADES,
   AZAR,
   SUENO,
+  VIDRIO,
   EMPRESAS,
   CORREOS,
   DEPORTE,
