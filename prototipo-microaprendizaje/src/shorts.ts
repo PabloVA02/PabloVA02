@@ -72,6 +72,8 @@ import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
 import { HIGIENE } from "./historias/higiene";
 import { HOSPITALES } from "./historias/hospitales";
+import { HUELGAS } from "./historias/huelgas";
+import { IDIOMAS_MUERTOS } from "./historias/idiomasmuertos";
 import { IMPRENTA_ORIENTAL } from "./historias/imprentaoriental";
 import { IMPUESTOS } from "./historias/impuestos";
 import { INFANCIA } from "./historias/infancia";
@@ -92,6 +94,7 @@ import { MEDICINA } from "./historias/medicina";
 import { MEDIDAS } from "./historias/medidas";
 import { MERCADOS } from "./historias/mercados";
 import { MICROSCOPIO } from "./historias/microscopio";
+import { MINERIA } from "./historias/mineria";
 import { MONASTERIOS } from "./historias/monasterios";
 import { MONEDA } from "./historias/moneda";
 import { MONTANAS } from "./historias/montanas";
@@ -99,6 +102,7 @@ import { MOTOR } from "./historias/motor";
 import { MUERTE } from "./historias/muerte";
 import { MUSEOS } from "./historias/museos";
 import { MUSICA } from "./historias/musica";
+import { NOMBRES_DE_CALLES } from "./historias/nombresdecalles";
 import { OBJETOS } from "./historias/objetos";
 import { ORO } from "./historias/oro";
 import { PALABRAS } from "./historias/palabras";
@@ -373,6 +377,7 @@ export const SHORTS: Short[] = intercala(
   LAVADORA,
   ZOOS,
   PERROS,
+  MINERIA,
   PLATA,
   CABALLOS,
   PUENTES,
@@ -453,6 +458,7 @@ export const SHORTS: Short[] = intercala(
   AZAR,
   RIOS,
   SUENO,
+  HUELGAS,
   VIDRIO,
   EMPRESAS,
   CORREOS,
@@ -461,6 +467,7 @@ export const SHORTS: Short[] = intercala(
   HOSPITALES,
   INVENTOS,
   BANCA,
+  NOMBRES_DE_CALLES,
   MERCADOS,
   OBJETOS,
   ESPEJOS,
@@ -470,6 +477,7 @@ export const SHORTS: Short[] = intercala(
   TABACO,
   LENGUAS,
   ESCUELA,
+  IDIOMAS_MUERTOS,
   TECNOLOGIA,
   COCINA,
   BOSQUES,
