@@ -32,6 +32,7 @@ import { CARRETERAS } from "./historias/carreteras";
 import { CASCOS } from "./historias/cascos";
 import { CASTILLOS } from "./historias/castillos";
 import { CATASTROFES } from "./historias/catastrofes";
+import { CAZA } from "./historias/caza";
 import { CEMENTERIOS } from "./historias/cementerios";
 import { CEMENTO } from "./historias/cemento";
 import { CENSOS } from "./historias/censos";
@@ -41,6 +42,7 @@ import { CINE } from "./historias/cine";
 import { CIRCO } from "./historias/circo";
 import { CIUDADES } from "./historias/ciudades";
 import { COCINA } from "./historias/cocina";
+import { CODIGOS_DE_BARRAS } from "./historias/codigosdebarras";
 import { COMIDA } from "./historias/comida";
 import { CORREOS } from "./historias/correos";
 import { COSMOS } from "./historias/cosmos";
@@ -75,6 +77,7 @@ import { GREMIOS } from "./historias/gremios";
 import { GRUAS } from "./historias/gruas";
 import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
+import { HIERRO } from "./historias/hierro";
 import { HIGIENE } from "./historias/higiene";
 import { HOSPITALES } from "./historias/hospitales";
 import { HUELGAS } from "./historias/huelgas";
@@ -115,6 +118,7 @@ import { ORO } from "./historias/oro";
 import { PALABRAS } from "./historias/palabras";
 import { PAPEL } from "./historias/papel";
 import { PARAGUAS } from "./historias/paraguas";
+import { PARQUES } from "./historias/parques";
 import { PASAPORTES } from "./historias/pasaportes";
 import { PEREGRINOS } from "./historias/peregrinos";
 import { PERFUME } from "./historias/perfume";
@@ -357,6 +361,7 @@ export const SHORTS: Short[] = intercala(
   MONASTERIOS,
   IMPUESTOS,
   SEDA,
+  CAZA,
   CIRCO,
   ISLAS,
   PEREGRINOS,
@@ -396,6 +401,7 @@ export const SHORTS: Short[] = intercala(
   PUENTES,
   TUNELES,
   MOTOR,
+  HIERRO,
   TERMOMETRO,
   PETROLEO,
   REDES,
@@ -431,6 +437,7 @@ export const SHORTS: Short[] = intercala(
   TINTES,
   CEMENTERIOS,
   HIGIENE,
+  PARQUES,
   ANTIBIOTICOS,
   CERILLAS,
   SEMAFOROS,
@@ -450,6 +457,7 @@ export const SHORTS: Short[] = intercala(
   COMIDA,
   AIRE_ACONDICIONADO,
   ALCOHOL,
+  CODIGOS_DE_BARRAS,
   JUSTICIA,
   BICICLETAS,
   IMPRENTA_ORIENTAL,
