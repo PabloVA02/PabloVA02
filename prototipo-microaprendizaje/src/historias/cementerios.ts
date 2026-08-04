@@ -1,0 +1,109 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   Cementerios.
+
+   El riesgo del tema es lo lúgubre por lo lúgubre: cipreses, silencio,
+   mármol. Atmósfera sin información.
+
+   La regla del tema: un cementerio se cuenta como PROBLEMA DE SUELO Y DE
+   DINERO. Cuánto espacio hay, quién paga, cuánto dura una concesión, qué
+   pasa cuando nadie renueva. Todo lo que parece costumbre inmemorial es
+   en realidad una ordenanza municipal con fecha.
+
+   Y se cuenta sin solemnidad y sin morbo: con los datos delante, como
+   quien explica cualquier otro servicio público.
+   ========================================================================== */
+
+export const CEMENTERIOS: Short[] = [
+  {
+    id: "enterrar-fuera",
+    titulo: "Se enterraba dentro de la iglesia",
+    gancho: "Bajo las losas del suelo, por capas. En verano el olor era insoportable y los pozos se contaminaban.",
+    categoria: "Cementerios",
+    color: "var(--slate)",
+    encargo: "Un suelo de iglesia con losas gastadas y letras grabadas medio borradas.",
+    entrada:
+      "España, 1787. Un decreto real ordena que los enterramientos dejen de hacerse en las iglesias y en los recintos parroquiales del interior de los pueblos, y que se construyan cementerios en las afueras, ventilados y lejos de las casas. La medida tarda décadas en cumplirse y provoca resistencia en casi todas partes del país.",
+    paginas: [
+      {
+        rotulo: "Bajo las losas",
+        texto:
+          "Durante siglos lo normal fue enterrar en el suelo de la iglesia, y cuanto más cerca del altar, mejor sitio y más caro: las familias con dinero tenían su losa con nombre, y el resto iba a fosas comunes bajo el pavimento o en el patio anexo. Las capas se superponían y los huesos antiguos se sacaban a un osario cuando hacía falta espacio para los nuevos. En verano el olor era insoportable y hay actas de ayuntamientos quejándose de que no se podía oír misa. Los pozos cercanos se contaminaban y nadie relacionaba una cosa con la otra.",
+        destacado: { tipo: "frase", frase: "Cuanto más cerca del altar, mejor sitio y más caro." },
+      },
+      {
+        rotulo: "La resistencia",
+        texto:
+          "La orden se apoyaba en los médicos de la época, que atribuían las enfermedades a los aires corrompidos, una teoría errónea en el mecanismo pero acertada en la conclusión práctica. La resistencia fue grande y por motivos entendibles: enterrar fuera del pueblo se percibía como un castigo y como una pérdida de posición, las parroquias perdían los ingresos de las sepulturas y las familias no querían dejar a sus muertos lejos y sin vigilancia. Hicieron falta epidemias, multas y varias décadas de insistencia administrativa para que el cambio llegara a completarse en todo el país.",
+        destacado: { tipo: "cifra", cifra: "1787", unidad: "el decreto que sacó a los muertos" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El resultado es el cementerio tal como lo conocemos: un recinto amurallado a las afueras, con calles, numeración y registro escrito, es decir, una institución administrativa moderna y no un anexo de la iglesia. Fue uno de los primeros asuntos en los que el Estado le quitó a la parroquia una competencia de toda la vida, y por eso costó tanto imponerlo. Los suelos de las iglesias antiguas siguen llenos de losas con nombres y fechas, y bajo bastantes de ellas queda todavía lo que había. Al entrar a ver un retablo se pisa, sin saberlo, un cementerio.",
+      },
+    ],
+  },
+
+  {
+    id: "cementerio-jardin",
+    titulo: "Un cementerio no vendía y mudaron a dos famosos",
+    gancho: "Estaba lejos y vacío. Trasladaron los restos de unos muertos célebres y se llenó en diez años.",
+    categoria: "Cementerios",
+    color: "var(--plum)",
+    curioso: true,
+    encargo: "Una avenida arbolada entre panteones de piedra con esculturas.",
+    entrada:
+      "París, 1804. Se inaugura en una colina de las afueras el primer cementerio ajardinado de Europa, con árboles, avenidas y parcelas en propiedad, pensado como un parque por el que pasear entre monumentos. En el primer año se hacen trece enterramientos. Está demasiado lejos del centro, en un barrio pobre, y nadie quiere ir a parar allí.",
+    paginas: [
+      {
+        rotulo: "El parque",
+        texto:
+          "La idea era romper con el osario y ofrecer otra cosa: una tumba individual, en propiedad y a perpetuidad, con un monumento al gusto de la familia, dentro de un recinto ajardinado que se pudiera visitar como quien va de paseo un domingo por la tarde. Era un cambio enorme respecto a la fosa común y encajaba con la mentalidad burguesa del momento, que valoraba el nombre propio y la memoria familiar. El problema era comercial: la gente asociaba el sitio con el barrio en el que estaba y prefería las parroquias de siempre.",
+        destacado: { tipo: "cifra", cifra: "13", unidad: "enterramientos en el primer año" },
+      },
+      {
+        rotulo: "El traslado",
+        texto:
+          "La administración del cementerio recurrió entonces a una campaña de promoción sin ningún disimulo. En 1817 trasladó allí, con ceremonia pública y monumento aparte, los supuestos restos de una pareja legendaria de enamorados medievales cuya historia conocía todo el mundo, y también los de un dramaturgo y un fabulista muy famosos del siglo anterior. La prensa lo cubrió con detalle, la gente subió a verlo y las ventas de parcelas se dispararon en cuestión de meses. En 1830 había más de treinta mil tumbas en la colina, y hoy pasa del millón de enterramientos acumulados a lo largo de dos siglos.",
+        destacado: { tipo: "frase", frase: "Trasladaron a los muertos famosos para vender parcelas." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El modelo se copió en toda Europa y en América a lo largo del siglo XIX, y de ahí vienen los cementerios ajardinados con avenidas y escultura que hay en casi cualquier ciudad grande. Aquel de París recibe hoy más de tres millones de visitantes al año, más que muchos museos, y hay que regular el acceso a algunas tumbas concretas por la cantidad de gente que se acerca a verlas. Las parcelas a perpetuidad, mientras tanto, se han convertido en un problema de gestión: cuando una familia deja de aparecer, la tumba acaba recuperándose.",
+      },
+    ],
+  },
+
+  {
+    id: "tumbas-de-alquiler",
+    titulo: "En España la tumba se alquila por años",
+    gancho: "El nicho se paga por un plazo, y si nadie renueva la concesión, los restos van al osario común.",
+    categoria: "Cementerios",
+    color: "var(--ochre)",
+    encargo: "Un muro de nichos de varias alturas con flores en algunas repisas.",
+    entrada:
+      "España, siglo XXI. La mayoría de los enterramientos no se hacen en tierra sino en nichos, unos huecos apilados en muros de varias alturas, y casi ninguno se compra para siempre: se contrata una concesión por un plazo, habitualmente de diez, veinticinco o cincuenta años, que después hay que renovar volviendo a pagar por ella.",
+    paginas: [
+      {
+        rotulo: "El nicho",
+        texto:
+          "El sistema de nichos apilados se generalizó en el siglo XIX por una razón de espacio y de coste: en un muro de cinco alturas caben muchísimos más enterramientos por metro cuadrado que en tierra, y la obra sale más barata que excavar y mantener sepulturas individuales. En algunas ciudades del sur y del levante hay muros enormes con miles de huecos, con escaleras de mano para llegar a las filas altas y con una repisa estrecha para las flores. El resultado es un paisaje muy reconocible que sorprende a cualquier visitante extranjero.",
+        destacado: { tipo: "frase", frase: "En un muro de cinco alturas cabe mucha más gente." },
+      },
+      {
+        rotulo: "La renovación",
+        texto:
+          "Cuando vence el plazo, el ayuntamiento o la empresa concesionaria avisa a la familia por carta y mediante un edicto público colocado en el propio cementerio. Si nadie responde ni paga, se procede a exhumar lo que queda y a trasladarlo a un osario común dentro del mismo recinto, y el hueco se vuelve a ofrecer. No es un procedimiento oculto ni excepcional: está en las ordenanzas municipales y ocurre continuamente, sobre todo con enterramientos de familias que se mudaron de ciudad o que se extinguieron sin dejar a nadie.",
+        destacado: { tipo: "cifra", cifra: "50", unidad: "años dura una concesión larga" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El resultado es que un cementerio español es, en la práctica, un espacio que se recicla, y que la idea de descansar para siempre en un sitio concreto depende de que alguien siga pagando cada cierto número de años. Es justo lo contrario de la perpetuidad que se vendía en el modelo de cementerio ajardinado del siglo XIX, y responde exactamente a lo mismo: falta de espacio y coste de mantenimiento. En los últimos años, además, la incineración ha pasado de ser minoritaria a superar la mitad de los casos en muchas ciudades.",
+      },
+    ],
+  },
+];

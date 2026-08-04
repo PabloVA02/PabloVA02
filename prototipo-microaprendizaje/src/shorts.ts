@@ -16,6 +16,7 @@ import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
 import { CASTILLOS } from "./historias/castillos";
 import { CATASTROFES } from "./historias/catastrofes";
+import { CEMENTERIOS } from "./historias/cementerios";
 import { CEMENTO } from "./historias/cemento";
 import { CERILLAS } from "./historias/cerillas";
 import { CIENCIA } from "./historias/ciencia";
@@ -63,6 +64,8 @@ import { MAR } from "./historias/mar";
 import { MATEMATICAS } from "./historias/matematicas";
 import { MEDICINA } from "./historias/medicina";
 import { MEDIDAS } from "./historias/medidas";
+import { MICROSCOPIO } from "./historias/microscopio";
+import { MONEDA } from "./historias/moneda";
 import { MONTANAS } from "./historias/montanas";
 import { MOTOR } from "./historias/motor";
 import { MUERTE } from "./historias/muerte";
@@ -102,6 +105,7 @@ import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
 import { VIKINGOS } from "./historias/vikingos";
 import { VOLCANES } from "./historias/volcanes";
+import { ZOOS } from "./historias/zoos";
 
 /* ==========================================================================
    Shorts: historias sueltas de dos minutos.
@@ -309,6 +313,7 @@ export const SHORTS: Short[] = intercala(
   ACERO,
   AGUA,
   BICHOS,
+  ZOOS,
   PERROS,
   CABALLOS,
   PUENTES,
@@ -316,6 +321,7 @@ export const SHORTS: Short[] = intercala(
   PETROLEO,
   REDES,
   CIENCIA,
+  MICROSCOPIO,
   PASAPORTES,
   PERFUME,
   ARTE,
@@ -334,6 +340,7 @@ export const SHORTS: Short[] = intercala(
   ESCRITURA,
   PERIODICOS,
   MUERTE,
+  CEMENTERIOS,
   HIGIENE,
   CERILLAS,
   SEMAFOROS,
@@ -388,4 +395,5 @@ export const SHORTS: Short[] = intercala(
   JUEGOS,
   TELEVISION,
   DINERO,
+  MONEDA,
 );
