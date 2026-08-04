@@ -1,0 +1,105 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   Los venenos.
+
+   Sustancias que matan en dosis pequeñas, y una historia que va de la
+   química y de la sospecha. El tema se estropea si se convierte en catálogo
+   morboso de asesinatos.
+
+   La regla del tema: se cuenta LA DETECCIÓN. Un veneno solo funciona
+   mientras no se puede demostrar, así que la historia real es la de los
+   métodos para encontrarlo, con sus fechas y sus juicios. Y se explica
+   siempre qué le hace la sustancia al cuerpo, en una frase clara.
+   ========================================================================== */
+
+export const VENENOS: Short[] = [
+  {
+    id: "el-veneno-perfecto",
+    titulo: "Hubo un veneno que no se podía detectar",
+    gancho: "Mataba con síntomas de enfermedad común y no dejaba rastro visible. Se le llamó el polvo de la herencia.",
+    categoria: "Venenos",
+    color: "var(--slate)",
+    encargo: "Un frasco pequeño de cristal oscuro con polvo blanco, sobre madera antigua.",
+    entrada:
+      "Europa, siglos XVII y XVIII. El arsénico es un polvo blanco, sin sabor apreciable, que se vende legalmente en cualquier botica para matar ratas. Ingerido en dosis pequeñas produce vómitos, diarrea y dolor abdominal, exactamente los mismos síntomas que un cólera o una intoxicación por alimentos, que entonces mataban a muchísima gente y no extrañaban a nadie.",
+    paginas: [
+      {
+        rotulo: "Sin rastro",
+        texto:
+          "Aquella coincidencia de síntomas era la mitad del problema. La otra mitad es que no existía ninguna forma de demostrar la presencia del veneno en un cadáver, así que la única prueba posible era un testigo o una confesión. Los médicos de la época sospechaban a menudo, y sospechar no servía de nada ante un tribunal. En Francia y en Italia se documentaron redes que vendían el polvo a mujeres que querían enviudar, con juicios sonados de por medio. En el habla popular se le acabó llamando el polvo de la herencia, y el nombre lo dice todo.",
+        destacado: { tipo: "frase", frase: "Sospechar no servía de nada: no había forma de demostrarlo." },
+      },
+      {
+        rotulo: "La prueba",
+        texto:
+          "La situación cambió en 1836, cuando un químico inglés publicó un método capaz de detectar cantidades diminutas en un resto orgánico. El procedimiento aprovecha una reacción química sencilla. Si en la muestra hay arsénico, al tratarla se forma un gas. Al calentar ese gas dentro de un tubo, queda un depósito metálico brillante en el vidrio, imposible de confundir con otra cosa. Cuatro años después, aquel ensayo se usó en un juicio famoso en Francia. El propio químico repitió la prueba delante del tribunal, con el público mirando, y la acusada fue condenada.",
+        destacado: { tipo: "cifra", cifra: "1836", unidad: "el año del método que lo detectó" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El envenenamiento con arsénico se hundió como método en pocas décadas, no porque la gente se volviera mejor, sino porque dejó de ser indetectable. Quedó una idea que gobierna la medicina legal desde entonces: lo que decide no es la sospecha, sino la prueba reproducible que puede repetirse ante un juez. Y quedó una consecuencia curiosa. El pelo y las uñas van guardando el metal a medida que crecen, así que hoy se analizan restos históricos con esa técnica. Varias leyendas famosas de envenenamiento se han confirmado así, y unas cuantas más se han descartado.",
+      },
+    ],
+  },
+  {
+    id: "la-dosis-hace-el-veneno",
+    titulo: "Todo es veneno según la cantidad",
+    gancho: "El agua puede matar y el arsénico se recetaba como medicina. Lo que decide no es la sustancia, sino la dosis.",
+    categoria: "Venenos",
+    color: "var(--ochre)",
+    curioso: true,
+    encargo: "Una balanza de laboratorio antigua con dos platillos y pesas diminutas.",
+    entrada:
+      "Suiza, hacia 1538. Un médico y alquimista bastante peleón escribe una frase que hoy es el fundamento de la toxicología. Viene a decir que todas las cosas son veneno y que solo la dosis hace que algo no lo sea. Suena a juego de palabras y es una descripción exacta de cómo funciona el cuerpo ante cualquier sustancia.",
+    paginas: [
+      {
+        rotulo: "La curva",
+        texto:
+          "La idea es que casi ninguna sustancia es buena o mala en sí misma, sino que su efecto cambia con la cantidad. El agua es imprescindible, y beber varios litros seguidos puede diluir las sales del cuerpo hasta provocar la muerte. La vitamina A es necesaria, y en exceso resulta tóxica. Muchos medicamentos matan al doble de la dosis que curan, y por eso las cajas traen esas instrucciones tan insistentes. Por eso los toxicólogos trabajan con curvas que relacionan cantidad y efecto, y no con listas de sustancias buenas y malas.",
+        destacado: { tipo: "frase", frase: "Beber demasiada agua de golpe también puede matar." },
+      },
+      {
+        rotulo: "Medicina y veneno",
+        texto:
+          "Esa lógica explica algo que desconcierta al mirar la historia de la medicina: que durante siglos se recetaran cosas que hoy consideramos veneno puro. El arsénico en dosis mínimas se usó contra la sífilis y otras dolencias. La digital, sacada de una planta muy tóxica, sigue empleándose para el corazón. Y varios fármacos contra el cáncer son sustancias que matan células, con la dosis calculada para que hagan más daño al tumor que al paciente. La diferencia entre curar y envenenar es, en muchos casos, una cuestión de miligramos, de peso corporal y de cálculo cuidadoso.",
+        destacado: { tipo: "cifra", cifra: "1538", unidad: "el año de la frase sobre la dosis" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó el principio que sostiene toda la regulación sanitaria actual, desde los límites de residuos en los alimentos hasta las normas de calidad del aire. Ninguna de esas normas prohíbe una sustancia por el hecho de existir: lo que fijan es cuánta cantidad se considera aceptable y en qué condiciones. Y quedó un aviso útil para leer noticias, porque titulares del tipo tal alimento contiene una sustancia tóxica no dicen nada por sí solos. La pregunta que hay que hacerse siempre es cuánta cantidad, con qué frecuencia y a partir de qué nivel se ha visto daño.",
+      },
+    ],
+  },
+  {
+    id: "el-catador-del-rey",
+    titulo: "Los reyes tenían a alguien para probar la comida",
+    gancho: "Servía de poco contra los venenos lentos, pero era una señal muy clara para quien estuviera pensándolo.",
+    categoria: "Venenos",
+    color: "var(--plum)",
+    encargo: "Una mesa larga puesta con vajilla antigua y una copa de plata en primer plano.",
+    entrada:
+      "Cortes europeas y asiáticas, desde la Antigüedad hasta el siglo XIX. Un gobernante come rodeado de gente que podría beneficiarse de su muerte, y su cocina la manejan decenas de personas. De ahí nace un puesto de trabajo peculiar: el catador, que prueba delante de todos cada plato y cada bebida antes de que lleguen a la mesa del rey.",
+    paginas: [
+      {
+        rotulo: "Lo que protegía",
+        texto:
+          "Contra un veneno rápido y potente, el sistema funcionaba de verdad. Si el catador caía fulminado delante de todos, el plato se retiraba y la comida se acababa ahí. Contra los venenos lentos, en cambio, no servía de nada: una dosis pequeña repetida durante semanas no produce ningún efecto inmediato, y el catador seguía tan campante mientras el rey se iba consumiendo. Su función principal era otra, y bastante eficaz: recordar a todo el que anduviera cerca que envenenar la comida costaría primero la vida de un hombre y desataría una investigación inmediata.",
+        destacado: { tipo: "frase", frase: "Contra un veneno lento no servía: el catador seguía tan campante." },
+      },
+      {
+        rotulo: "Otras defensas",
+        texto:
+          "Alrededor del catador se montó con el tiempo todo un protocolo de seguridad bastante elaborado. Los platos se cubrían con tapas selladas desde la cocina hasta la mesa y la vajilla del rey se guardaba bajo llave. Se usaban además copas de materiales a los que se atribuía la capacidad de detectar venenos, como ciertos cuernos o piedras, sin ninguna base real. También se organizaban las cocinas para que cada persona tocara solo una parte del proceso. Así resultaba muy difícil que alguien manipulara un plato entero sin que otro lo viera hacerlo.",
+        destacado: { tipo: "cifra", cifra: "1", unidad: "hombre probaba cada plato antes que el rey" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "El oficio desapareció con la química analítica, que permitió comprobar la comida sin sacrificar a nadie, y con unas cocinas de palacio mucho más controladas. Quedó la palabra en varios idiomas y quedó el gesto, repetido en cientos de películas de época. Y quedó la misma lógica, aplicada hoy a otras cosas: los alimentos de un mandatario en viaje oficial se analizan en laboratorio, igual que se revisa un vehículo antes de que lo use. Cambió el método y desapareció el riesgo para quien probaba, pero la desconfianza sigue exactamente donde estaba hace mil años.",
+      },
+    ],
+  },
+];

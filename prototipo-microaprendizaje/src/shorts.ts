@@ -1,4 +1,5 @@
 import { ACERO } from "./historias/acero";
+import { ADUANAS } from "./historias/aduanas";
 import { AGUA } from "./historias/agua";
 import { AIRE_ACONDICIONADO } from "./historias/aireacondicionado";
 import { ALCOHOL } from "./historias/alcohol";
@@ -17,6 +18,7 @@ import { BARCOS } from "./historias/barcos";
 import { BASURA } from "./historias/basura";
 import { BIBLIOTECAS } from "./historias/bibliotecas";
 import { BICHOS } from "./historias/bichos";
+import { BICICLETAS } from "./historias/bicicletas";
 import { BOMBEROS } from "./historias/bomberos";
 import { BOSQUES } from "./historias/bosques";
 import { BRUJULA } from "./historias/brujula";
@@ -106,6 +108,7 @@ import { NOMBRES_DE_CALLES } from "./historias/nombresdecalles";
 import { OBJETOS } from "./historias/objetos";
 import { ORO } from "./historias/oro";
 import { PALABRAS } from "./historias/palabras";
+import { PAPEL } from "./historias/papel";
 import { PARAGUAS } from "./historias/paraguas";
 import { PASAPORTES } from "./historias/pasaportes";
 import { PEREGRINOS } from "./historias/peregrinos";
@@ -151,6 +154,7 @@ import { TUNELES } from "./historias/tuneles";
 import { UNIFORMES } from "./historias/uniformes";
 import { VEJEZ } from "./historias/vejez";
 import { VELAS } from "./historias/velas";
+import { VENENOS } from "./historias/venenos";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
 import { VIKINGOS } from "./historias/vikingos";
@@ -403,6 +407,7 @@ export const SHORTS: Short[] = intercala(
   CUERPO,
   PUBLICIDAD,
   MAPAS,
+  PAPEL,
   ORO,
   BANDERAS,
   TELEFONO,
@@ -433,6 +438,7 @@ export const SHORTS: Short[] = intercala(
   AIRE_ACONDICIONADO,
   ALCOHOL,
   JUSTICIA,
+  BICICLETAS,
   IMPRENTA_ORIENTAL,
   FOTOGRAFIA,
   MUSEOS,
@@ -460,6 +466,7 @@ export const SHORTS: Short[] = intercala(
   SUENO,
   HUELGAS,
   VIDRIO,
+  VENENOS,
   EMPRESAS,
   CORREOS,
   DEPORTE,
@@ -475,6 +482,7 @@ export const SHORTS: Short[] = intercala(
   PLANTAS,
   PARAGUAS,
   TABACO,
+  ADUANAS,
   LENGUAS,
   ESCUELA,
   IDIOMAS_MUERTOS,
