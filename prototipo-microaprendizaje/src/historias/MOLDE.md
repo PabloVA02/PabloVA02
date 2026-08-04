@@ -4,6 +4,24 @@ Aprobado sobre el de Julio César. Todo short nuevo se escribe contra esta
 lista y se corrige contra ella. Si un short falla una sola de estas reglas,
 no está terminado.
 
+## La estructura, elegida entre seis
+
+Se le enseñaron a Pablo seis maneras distintas de contar el mismo short
+—cronológica, empezando por el final, en forma de pregunta, colgada de un
+objeto, en segunda persona y desmontando un mito— y eligió **la primera**:
+**introducción, cuerpo y final**. Esa es la estructura de la app y no se
+cambia de un short a otro.
+
+Y dejó tres condiciones, por este orden de importancia:
+
+1. **Divertido de leer.** No es un requisito decorativo, es el primero. Un
+   short correcto que se lee sin gusto está mal. Hay que buscar el detalle
+   que da risa o pasma, y ponerlo donde caiga bien.
+2. **Coherente, todo conectado.** Cada frase enlaza con la anterior y cada
+   página con la siguiente. Nada de datos sueltos puestos uno detrás de otro.
+3. **Entendible sin ningún contexto previo.** Es la regla madre y la 11
+   juntas: quien lo lee no sabe nada del asunto y no tiene por qué.
+
 ## La regla madre
 
 **Se escribe para alguien que no sabe nada del asunto.** Ni de Roma, ni de
