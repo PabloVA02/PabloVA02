@@ -49,6 +49,7 @@ const CONOCIDOS = new Set([
   "Crimea","Siberia","Andes","Amazonas","Congreso",
   "Möbius","Vía","Láctea","Oriente","Próximo",
   "Singapur","Santa","Tierra","Michoacán",
+  "Idaho","Emiratos","Golfo","Viena","Generalitat","Caspio",
   "Castilla","Aragón","Navarra","Canarias","Baleares","Caribe","Antigüedad","Indias",
   "Valladolid","Salamanca","Granada","Toledo","Córdoba","Coruña","Cádiz","Cantabria",
   "Bretaña","Kansas","Texas","Florida","Boston","Chicago","Washington","Atlanta","Detroit",
@@ -76,7 +77,7 @@ for (const ruta of ficheros) {
     if (ne < 53 || ne > 72) aviso(id, `entrada de ${ne} palabras (53-72)`);
     /* Regla 1 del molde: situar. Una entrada que no trae ni año ni siglo ni una
        referencia temporal deja al lector sin suelo. */
-    if (!/\b(1[0-9]{3}|20[0-9]{2}|[1-9][0-9]{0,4} (a\. C\.|antes de Cristo)|siglo [IVX]+|hace [\wáéíóú ]{0,30}(mil|millones|siglos|años))/i.test(entrada))
+    if (!/\b(1[0-9]{3}|20[0-9]{2}|[1-9][0-9]{0,4} (a\. C\.|antes de Cristo)|siglos? [IVX]+|año [1-9][0-9]{0,3}\b|hace [\wáéíóú ]{0,30}(mil|millones|siglos|años))/i.test(entrada))
       aviso(id, "la entrada no sitúa en el tiempo");
 
     const paginas = [...b.matchAll(/rotulo: "([^"]*)",\n\s+texto:\n\s+"((?:[^"\\]|\\.)*)"/g)];

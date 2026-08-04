@@ -13,6 +13,7 @@ import { BOMBEROS } from "./historias/bomberos";
 import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
 import { CATASTROFES } from "./historias/catastrofes";
+import { CEMENTO } from "./historias/cemento";
 import { CIENCIA } from "./historias/ciencia";
 import { CINE } from "./historias/cine";
 import { CIUDADES } from "./historias/ciudades";
@@ -76,15 +77,18 @@ import { REDES } from "./historias/redes";
 import { RELOJES } from "./historias/relojes";
 import { ROPA } from "./historias/ropa";
 import { RUEDA } from "./historias/rueda";
+import { SANGRE } from "./historias/sangre";
 import { SEMAFOROS } from "./historias/semaforos";
 import { SUENO } from "./historias/sueno";
 import { TE } from "./historias/te";
 import { TECNOLOGIA } from "./historias/tecnologia";
 import { TELEFONO } from "./historias/telefono";
 import { TELESCOPIO } from "./historias/telescopio";
+import { TELEVISION } from "./historias/television";
 import { TRENES } from "./historias/trenes";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
+import { VIKINGOS } from "./historias/vikingos";
 import { VOLCANES } from "./historias/volcanes";
 
 /* ==========================================================================
@@ -300,6 +304,7 @@ export const SHORTS: Short[] = intercala(
   RUEDA,
   BOMBEROS,
   GUERRA,
+  VIKINGOS,
   ESCLAVITUD,
   AVIACION,
   CUERPO,
@@ -333,6 +338,7 @@ export const SHORTS: Short[] = intercala(
   GAFAS,
   PLASTICO,
   CIUDADES,
+  CEMENTO,
   AZAR,
   SUENO,
   VIDRIO,
@@ -353,7 +359,9 @@ export const SHORTS: Short[] = intercala(
   MATEMATICAS,
   HIELO,
   MEDICINA,
+  SANGRE,
   ESPIONAJE,
   JUEGOS,
+  TELEVISION,
   DINERO,
 );
