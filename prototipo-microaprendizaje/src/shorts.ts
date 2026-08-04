@@ -17,6 +17,7 @@ import { DINERO } from "./historias/dinero";
 import { DINOSAURIOS } from "./historias/dinosaurios";
 import { ELECTRICIDAD } from "./historias/electricidad";
 import { EMPRESAS } from "./historias/empresas";
+import { EPIDEMIAS } from "./historias/epidemias";
 import { ESCRITURA } from "./historias/escritura";
 import { ESPACIO } from "./historias/espacio";
 import { ESPANA } from "./historias/espana";
@@ -34,6 +35,7 @@ import { MAPAS } from "./historias/mapas";
 import { MAR } from "./historias/mar";
 import { MATEMATICAS } from "./historias/matematicas";
 import { MEDICINA } from "./historias/medicina";
+import { MEDIDAS } from "./historias/medidas";
 import { MOTOR } from "./historias/motor";
 import { MUSICA } from "./historias/musica";
 import { OBJETOS } from "./historias/objetos";
@@ -230,6 +232,7 @@ export const SHORTS: Short[] = intercala(
   ESPACIO,
   ROPA,
   BARCOS,
+  EPIDEMIAS,
   COSMOS,
   CATASTROFES,
   ESPANA,
@@ -247,6 +250,7 @@ export const SHORTS: Short[] = intercala(
   CREENCIAS,
   ESCRITURA,
   HIGIENE,
+  MEDIDAS,
   MUSICA,
   CINE,
   PREHISTORIA,

@@ -108,4 +108,93 @@ export const COMIDA: Short[] = [
       },
     ],
   },
+  {
+    id: "chocolate-bebida",
+    titulo: "El chocolate se bebió amargo durante siglos",
+    gancho: "En América era una bebida picante y espesa. Tardó cien años en llevar azúcar y trescientos en ser una tableta.",
+    categoria: "Comida",
+    color: "var(--clay)",
+    encargo: "Una jícara de barro con espuma oscura y una vara de madera para batir.",
+    entrada:
+      "México, 1519. Los españoles que llegan a la corte mexica encuentran una bebida que no se parece a nada conocido: granos de cacao tostados y molidos, batidos con agua fría hasta hacer espuma y aderezados con chile y flores. Es amarga, espesa y se toma en vasos de oro. Se usa además como moneda: con cien granos se compraba un pavo.",
+    paginas: [
+      {
+        rotulo: "La bebida",
+        texto:
+          "El cacao llevaba al menos tres mil años cultivándose en la zona y tenía un peso ritual enorme; se servía en banquetes, se ofrecía a los dioses y solo lo tomaban los nobles, los guerreros y los comerciantes. La espuma era la parte más apreciada y se conseguía vertiendo el líquido de un recipiente a otro desde lo alto, o batiéndolo con una vara. A los primeros europeos que lo probaron les pareció horrible; uno escribió que era una bebida más apropiada para cerdos que para personas, aunque acabó tomándola a diario.",
+        destacado: { tipo: "cifra", cifra: "100", unidad: "granos de cacao costaba un pavo" },
+      },
+      {
+        rotulo: "El azúcar",
+        texto:
+          "En Europa se le quitó el chile y se le puso azúcar, canela y vainilla, y así se convirtió en la bebida de moda de las cortes durante casi dos siglos; en España se tomaba caliente y muy espesa, mojando bizcochos. Seguía siendo un líquido: nadie comía chocolate. La barra sólida no fue posible hasta 1828, cuando un químico holandés inventó una prensa capaz de separar la manteca del cacao del resto, lo que permitió obtener polvo por un lado y grasa por otro y recombinarlos en la proporción que se quisiera.",
+        destacado: { tipo: "frase", frase: "Durante dos siglos, el chocolate solo se bebía." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "La primera tableta para comer se vendió en 1847 y la de leche llegó en 1875, cuando un suizo tuvo la idea de mezclarle leche condensada, que su vecino acababa de inventar. Hoy el noventa y cinco por ciento del cacao del mundo lo cultivan pequeños agricultores de África occidental que en muchos casos no han probado nunca una tableta, porque no se fabrican allí. Y el árbol sigue siendo tan delicado que solo crece en una franja estrecha alrededor del ecuador, polinizado por un mosquito diminuto.",
+      },
+    ],
+  },
+
+  {
+    id: "sal-sueldo",
+    titulo: "La sal fue estratégica antes que barata",
+    gancho: "Sin ella no había manera de guardar comida. Los imperios la gravaron y las revoluciones empezaron por ahí.",
+    categoria: "Comida",
+    color: "var(--slate)",
+    encargo: "Montones blancos de sal en unas salinas, con el agua rosada al fondo.",
+    entrada:
+      "Antes de que existiera el frigorífico, hacia cualquier año de los últimos cinco mil, la única manera de conservar carne y pescado más de unos días era la sal. Un ejército sin sal no podía alejarse, una ciudad sin sal no podía almacenar. Por eso fue durante milenios una mercancía estratégica, y por eso casi todos los Estados acabaron poniéndole impuestos.",
+    paginas: [
+      {
+        rotulo: "Por qué funciona",
+        texto:
+          "El mecanismo es sencillo y no se entendió hasta el siglo XIX. La sal saca el agua de las células por diferencia de concentración, y las bacterias que pudren la comida necesitan agua para vivir: sin ella se secan y se quedan quietas. Eso permitió que existieran el jamón, el bacalao seco, los arenques y las anchoas, y con ellos que un barco pudiera cruzar un océano o que una ciudad aguantara un invierno. Las rutas comerciales más antiguas de Europa no llevaban seda ni oro: llevaban sal en carros.",
+        destacado: { tipo: "frase", frase: "Las bacterias necesitan agua. La sal se la quita." },
+      },
+      {
+        rotulo: "El impuesto",
+        texto:
+          "Al ser imprescindible y fácil de controlar en su origen, se convirtió en la fuente de ingresos favorita de los gobiernos. En Francia existió durante cuatro siglos un impuesto que obligaba a cada familia a comprar una cantidad mínima al precio que fijara el Estado, con un ejército de guardias persiguiendo el contrabando; miles de personas fueron a galeras por ello y su supresión fue una de las primeras exigencias de la Revolución. En la India, la administración británica prohibió recogerla en la playa, y esa prohibición dio pie a una marcha de trescientos kilómetros en 1930.",
+        destacado: { tipo: "cifra", cifra: "400", unidad: "años duró el impuesto francés" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Hoy es de lo más barato que hay en un supermercado, y de la producción mundial solo un seis por ciento acaba en la comida: el resto va a la industria química y a echarla en las carreteras heladas. Lo que sí sigue haciendo falta es una pizca de yodo añadido, que se empezó a mezclar en los años veinte y que ha eliminado en medio mundo una enfermedad de la tiroides que causaba bocio y retrasos de desarrollo. Es probablemente la medida de salud pública más barata que existe.",
+      },
+    ],
+  },
+
+  {
+    id: "azucar-esclavitud",
+    titulo: "El azúcar movió el mayor comercio de esclavos",
+    gancho: "Era un lujo de farmacia. Cuando se abarató, hicieron falta millones de personas para cortar caña.",
+    categoria: "Comida",
+    color: "var(--forest)",
+    encargo: "Un cañaveral alto y espeso con el sol filtrándose entre las hojas.",
+    entrada:
+      "Europa, siglo XV. El azúcar es una mercancía de lujo que se vende en las boticas por onzas, se guarda bajo llave y se receta como medicina; un banquete importante puede llevar una escultura hecha de azúcar como demostración de riqueza. Viene de la caña, que solo crece en climas cálidos y húmedos, y su cultivo exige una cantidad de trabajo desmedida.",
+    paginas: [
+      {
+        rotulo: "El trabajo",
+        texto:
+          "Cortar caña es de lo más duro que existe: hay que hacerlo a machete, bajo el sol, y una vez cortada empieza a fermentar, así que tiene que molerse en pocas horas. Eso obliga a tener el molino al lado del campo y a trabajar en turnos continuos durante la cosecha, con las calderas hirviendo día y noche. Los accidentes eran constantes, sobre todo manos atrapadas en los rodillos, y por eso en muchos ingenios había un machete colgado al lado de la máquina para amputar el brazo antes de que arrastrara al cuerpo entero.",
+        destacado: { tipo: "frase", frase: "Junto al molino colgaba un machete, por si un brazo entraba." },
+      },
+      {
+        rotulo: "La cuenta",
+        texto:
+          "Cuando las plantaciones se trasladaron al Caribe y a Brasil, la demanda de mano de obra se disparó y se cubrió con el comercio transatlántico de esclavos. De los aproximadamente doce millones de africanos embarcados a la fuerza entre los siglos XVI y XIX, la gran mayoría acabó en zonas de caña; solo Brasil recibió más de cuatro millones. El azúcar dejó de ser un lujo y pasó a ser un producto corriente en menos de un siglo, y ese abaratamiento se pagó exactamente con eso.",
+        destacado: { tipo: "cifra", cifra: "12", unidad: "millones de personas embarcadas a la fuerza" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Lo que rompió el monopolio de la caña fue una guerra: cuando la marina británica bloqueó los puertos europeos a principios del XIX, en el continente se buscó una alternativa y se desarrolló la remolacha azucarera, que crece en clima frío. Hoy sale de ahí una quinta parte del azúcar mundial. Y el consumo por persona se ha multiplicado por más de veinte desde entonces: de aquella onza guardada bajo llave en la botica se ha pasado a una media de unos treinta kilos al año.",
+      },
+    ],
+  },
 ];

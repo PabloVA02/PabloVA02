@@ -117,4 +117,93 @@ export const AVIACION: Short[] = [
       },
     ],
   },
+  {
+    id: "wright-doce-segundos",
+    titulo: "El primer vuelo duró doce segundos",
+    gancho: "Lo vieron cinco personas. Los periódicos no fueron y la agencia de noticias descartó la nota.",
+    categoria: "Aviación",
+    color: "var(--slate)",
+    encargo: "Una playa de arena gris con un aparato de tela y madera y un cielo blanco.",
+    entrada:
+      "Carolina del Norte, Estados Unidos, 17 de diciembre de 1903. Dos hermanos que tienen una tienda de bicicletas en Ohio llevan cuatro años yendo a una playa ventosa a probar planeadores. Aquella mañana hace un frío de perros y sopla viento de treinta kilómetros por hora. Han montado un motor sobre las alas y van a intentar despegar por sus propios medios.",
+    paginas: [
+      {
+        rotulo: "Los doce segundos",
+        texto:
+          "Echaron a suertes quién pilotaba. El aparato recorrió unos doce metros de raíl, se levantó y voló treinta y seis metros en doce segundos antes de posarse en la arena, una distancia más corta que la envergadura de un avión de pasajeros actual. Aquel día hicieron cuatro vuelos y el último llegó a los doscientos sesenta metros y cincuenta y nueve segundos. Después, una racha de viento volcó el aparato en tierra y lo destrozó; no volvió a volar nunca. Había cinco testigos, cuatro de ellos del puesto de salvamento marítimo de al lado.",
+        destacado: { tipo: "cifra", cifra: "36", unidad: "metros duró el primer vuelo" },
+      },
+      {
+        rotulo: "Lo que nadie contó",
+        texto:
+          "Mandaron un telegrama a su padre pidiéndole que avisara a la prensa y la noticia se filtró mal: un periódico publicó una versión llena de errores y de frases inventadas, y varias agencias la descartaron por increíble. Ellos no ayudaron: durante cinco años volaron casi en secreto, sin exhibiciones públicas, porque temían que les copiaran el sistema de control antes de tener la patente. Aquello alimentó la sospecha de que mentían, y en Francia se les llegó a llamar farsantes en la prensa hasta que en 1908 volaron delante de todo el mundo.",
+        destacado: { tipo: "frase", frase: "Varias agencias descartaron la noticia por increíble." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Lo que ellos aportaron no fue el motor ni las alas, que ya existían, sino la manera de girar: entendieron que un avión no vira como un barco sino inclinándose, y diseñaron un sistema para torcer las puntas de las alas que es el antepasado directo de lo que llevan hoy todos los aviones. Un trozo de la tela de aquel aparato viajó a la Luna en 1969, en el bolsillo de un astronauta. Y aquellos treinta y seis metros caben enteros dentro del pasillo de un avión grande de hoy.",
+      },
+    ],
+  },
+
+  {
+    id: "gimli-sin-combustible",
+    titulo: "Un avión se quedó sin gasolina por una conversión",
+    gancho: "Cargaron la mitad de combustible del necesario. El país acababa de cambiar de sistema de medidas.",
+    categoria: "Aviación",
+    color: "var(--slate)",
+    encargo: "Una pista de aeródromo abandonada con hierba entre el asfalto y un hangar al fondo.",
+    entrada:
+      "Canadá, 23 de julio de 1983. Un avión con sesenta y nueve personas a bordo cruza el país a doce mil metros cuando se apagan los dos motores, uno detrás de otro, en menos de un minuto. No hay avería: se ha quedado sin combustible en pleno vuelo. El fallo empezó en tierra, con una multiplicación mal hecha.",
+    paginas: [
+      {
+        rotulo: "El número",
+        texto:
+          "Canadá había cambiado hacía poco al sistema métrico y aquel era uno de los primeros aviones de la compañía que medía el combustible en kilos en vez de en libras. El indicador automático estaba averiado, así que había que calcular la carga a mano, con una varilla metida en el depósito que daba una medida en centímetros y una tabla para convertirla. El personal aplicó el factor de las libras, que es casi el doble que el de los kilos, y el resultado fue que subieron a bordo poco más de la mitad del combustible que hacía falta.",
+        destacado: { tipo: "frase", frase: "Usaron el factor de las libras. Cargaron la mitad." },
+      },
+      {
+        rotulo: "El planeador",
+        texto:
+          "Sin motores se pierde también la mayor parte de la electricidad y de la presión hidráulica, así que los pilotos se quedaron con unos pocos instrumentos de emergencia y con los mandos muy duros. Una turbinita de emergencia salió sola al viento y les dio lo justo para gobernar. El comandante era piloto de planeadores en su tiempo libre y aplicó lo que sabía: buscar el ángulo de descenso que más distancia da por cada metro perdido. El copiloto recordó un aeródromo militar cerrado a ochenta kilómetros, donde había estado destinado.",
+        destacado: { tipo: "cifra", cifra: "80", unidad: "kilómetros planeando sin motores" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Lo que no sabían es que aquella base ya no era militar: la pista se usaba como circuito de coches y aquel día había carreras, con familias acampadas en la hierba de al lado. Llegaron demasiado altos y el comandante hizo una maniobra de planeador para perder altura de golpe, cruzando el aparato de costado. Al tocar, el tren delantero se plegó y el morro frenó contra el asfalto a pocos metros de la gente. No murió nadie; solo hubo heridas leves al evacuar por los toboganes, demasiado inclinados porque el morro estaba en el suelo. El avión se reparó y voló veinticinco años más.",
+      },
+    ],
+  },
+
+  {
+    id: "ventanas-cuadradas",
+    titulo: "El primer avión de reacción tenía ventanas cuadradas",
+    gancho: "Tres se partieron en el aire en un año. La culpa era de las esquinas.",
+    categoria: "Aviación",
+    color: "var(--clay)",
+    encargo: "Una ventanilla ovalada de avión desde dentro, con el ala y nubes al fondo.",
+    entrada:
+      "Reino Unido, 1954. Hace dos años que vuela el primer avión de pasajeros con motores de reacción, un aparato precioso que ha puesto a la industria británica por delante de todos. En doce meses, tres de ellos se desintegran en pleno vuelo sin dar aviso ni tiempo a nada. Se suspenden todos los vuelos y empieza la investigación más grande hecha hasta entonces.",
+    paginas: [
+      {
+        rotulo: "La piscina",
+        texto:
+          "Se recuperaron los restos del fondo del mar y se reconstruyó el avión sobre un armazón de madera, pieza a pieza. Después se metió otro aparato entero, completo, dentro de un tanque de agua gigante construido a propósito, y se le fue inflando y desinflando el fuselaje con bombas para simular miles de despegues y aterrizajes en unas semanas. A los tres mil ciclos, la estructura reventó dentro del tanque. Al examinar la grieta se vio que arrancaba justo en la esquina de una abertura del techo, cerca de una ventanilla cuadrada.",
+        destacado: { tipo: "cifra", cifra: "3.000", unidad: "ciclos aguantó antes de reventar" },
+      },
+      {
+        rotulo: "Las esquinas",
+        texto:
+          "El motivo es de geometría y hoy se enseña en primero de ingeniería. Un avión de reacción vuela mucho más alto, así que la diferencia de presión entre dentro y fuera es enorme y el fuselaje se hincha y se deshincha en cada vuelo como un globo. En una esquina en ángulo recto, esa tensión no se reparte: se concentra en el vértice, multiplicada por tres o por cuatro, y ahí acaba apareciendo una grieta que crece un poco en cada ciclo hasta que el metal cede de golpe. Un óvalo no tiene ningún punto donde concentrarse.",
+        destacado: { tipo: "frase", frase: "En una esquina en ángulo recto la tensión se multiplica por cuatro." },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Aquel avión perdió el mercado y la industria británica no volvió a encabezarlo nunca; los fabricantes estadounidenses aprovecharon los resultados de la investigación, que se publicaron enteros, para diseñar los suyos con ventanillas redondeadas. Es la razón de que hoy todas las ventanillas del mundo sean ovaladas, y también las puertas y las trampillas. La investigación inauguró además la costumbre de reconstruir los restos de un accidente sobre un armazón de madera, pieza a pieza, que sigue siendo el método estándar setenta años después. Aquel tanque de agua estuvo funcionando hasta los años setenta, y hoy hay uno equivalente en cada fabricante grande del mundo.",
+      },
+    ],
+  },
 ];
