@@ -3,6 +3,7 @@ import { AGUA } from "./historias/agua";
 import { AIRE_ACONDICIONADO } from "./historias/aireacondicionado";
 import { ALCOHOL } from "./historias/alcohol";
 import { ANESTESIA } from "./historias/anestesia";
+import { ANTIBIOTICOS } from "./historias/antibioticos";
 import { APELLIDOS } from "./historias/apellidos";
 import { ARTE } from "./historias/arte";
 import { ASCENSORES } from "./historias/ascensores";
@@ -66,6 +67,7 @@ import { INVENTOS } from "./historias/inventos";
 import { ISLAS } from "./historias/islas";
 import { JUEGOS } from "./historias/juegos";
 import { JUSTICIA } from "./historias/justicia";
+import { LAVADORA } from "./historias/lavadora";
 import { LENGUAS } from "./historias/lenguas";
 import { LLAVES } from "./historias/llaves";
 import { MAPAS } from "./historias/mapas";
@@ -101,11 +103,13 @@ import { RADIO } from "./historias/radio";
 import { RAYOSX } from "./historias/rayosx";
 import { REDES } from "./historias/redes";
 import { RELOJES } from "./historias/relojes";
+import { RELOJES_DE_SOL } from "./historias/relojesdesol";
 import { ROPA } from "./historias/ropa";
 import { RUEDA } from "./historias/rueda";
 import { SANGRE } from "./historias/sangre";
 import { SEDA } from "./historias/seda";
 import { SEMAFOROS } from "./historias/semaforos";
+import { SOMBREROS } from "./historias/sombreros";
 import { SUBMARINOS } from "./historias/submarinos";
 import { SUENO } from "./historias/sueno";
 import { TABACO } from "./historias/tabaco";
@@ -332,6 +336,7 @@ export const SHORTS: Short[] = intercala(
   ACERO,
   AGUA,
   BICHOS,
+  LAVADORA,
   ZOOS,
   PERROS,
   CABALLOS,
@@ -366,6 +371,7 @@ export const SHORTS: Short[] = intercala(
   MUERTE,
   CEMENTERIOS,
   HIGIENE,
+  ANTIBIOTICOS,
   CERILLAS,
   SEMAFOROS,
   MEDIDAS,
@@ -391,6 +397,7 @@ export const SHORTS: Short[] = intercala(
   APELLIDOS,
   BIBLIOTECAS,
   MAR,
+  RELOJES_DE_SOL,
   GAFAS,
   PLASTICO,
   CIUDADES,
@@ -423,6 +430,7 @@ export const SHORTS: Short[] = intercala(
   RAYOSX,
   SANGRE,
   ESPIONAJE,
+  SOMBREROS,
   JUEGOS,
   LLAVES,
   TELEVISION,
