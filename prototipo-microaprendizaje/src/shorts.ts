@@ -24,10 +24,12 @@ import { BOMBEROS } from "./historias/bomberos";
 import { BOSQUES } from "./historias/bosques";
 import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
+import { CAJEROS } from "./historias/cajeros";
 import { CAMAS } from "./historias/camas";
 import { CANALES } from "./historias/canales";
 import { CARBON } from "./historias/carbon";
 import { CARRETERAS } from "./historias/carreteras";
+import { CASCOS } from "./historias/cascos";
 import { CASTILLOS } from "./historias/castillos";
 import { CATASTROFES } from "./historias/catastrofes";
 import { CEMENTERIOS } from "./historias/cementerios";
@@ -81,6 +83,7 @@ import { IMPRENTA_ORIENTAL } from "./historias/imprentaoriental";
 import { IMPUESTOS } from "./historias/impuestos";
 import { INFANCIA } from "./historias/infancia";
 import { INVENTOS } from "./historias/inventos";
+import { INVERNADEROS } from "./historias/invernaderos";
 import { ISLAS } from "./historias/islas";
 import { JARDINES } from "./historias/jardines";
 import { JUEGOS } from "./historias/juegos";
@@ -127,6 +130,7 @@ import { POLVORA } from "./historias/polvora";
 import { PREHISTORIA } from "./historias/prehistoria";
 import { PUBLICIDAD } from "./historias/publicidad";
 import { PUENTES } from "./historias/puentes";
+import { PUERTOS } from "./historias/puertos";
 import { RADIO } from "./historias/radio";
 import { RAYOSX } from "./historias/rayosx";
 import { REDES } from "./historias/redes";
@@ -357,6 +361,7 @@ export const SHORTS: Short[] = intercala(
   ISLAS,
   PEREGRINOS,
   BARCOS,
+  PUERTOS,
   CARBON,
   SUBMARINOS,
   FAROS,
@@ -439,6 +444,7 @@ export const SHORTS: Short[] = intercala(
   CINE,
   ARCHIVOS,
   RADIO,
+  CASCOS,
   PREHISTORIA,
   ASCENSORES,
   COMIDA,
@@ -487,6 +493,7 @@ export const SHORTS: Short[] = intercala(
   ESPEJOS,
   BASURA,
   PLANTAS,
+  CAJEROS,
   PARAGUAS,
   TABACO,
   ADUANAS,
@@ -513,5 +520,6 @@ export const SHORTS: Short[] = intercala(
   LLAVES,
   TELEVISION,
   DINERO,
+  INVERNADEROS,
   MONEDA,
 );
