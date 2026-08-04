@@ -53,6 +53,7 @@ import { CREENCIAS } from "./historias/creencias";
 import { CRIMEN } from "./historias/crimen";
 import { CRUZADAS } from "./historias/cruzadas";
 import { CUBIERTOS } from "./historias/cubiertos";
+import { CUERO } from "./historias/cuero";
 import { CUERPO } from "./historias/cuerpo";
 import { DEPORTE } from "./historias/deporte";
 import { DESIERTOS } from "./historias/desiertos";
@@ -100,6 +101,7 @@ import { LENGUAS } from "./historias/lenguas";
 import { LLAVES } from "./historias/llaves";
 import { MADERA } from "./historias/madera";
 import { MAPAS } from "./historias/mapas";
+import { MAPAS_DEL_METRO } from "./historias/mapasdelmetro";
 import { MAQUINA_ESCRIBIR } from "./historias/maquinaescribir";
 import { MAR } from "./historias/mar";
 import { MATEMATICAS } from "./historias/matematicas";
@@ -144,6 +146,7 @@ import { REDES } from "./historias/redes";
 import { RELOJES } from "./historias/relojes";
 import { RELOJES_DE_SOL } from "./historias/relojesdesol";
 import { RIOS } from "./historias/rios";
+import { ROBOTS } from "./historias/robots";
 import { ROPA } from "./historias/ropa";
 import { RUEDA } from "./historias/rueda";
 import { SAMURAIS } from "./historias/samurais";
@@ -171,6 +174,7 @@ import { UNIFORMES } from "./historias/uniformes";
 import { VEJEZ } from "./historias/vejez";
 import { VELAS } from "./historias/velas";
 import { VENENOS } from "./historias/venenos";
+import { VENTANAS } from "./historias/ventanas";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
 import { VIKINGOS } from "./historias/vikingos";
@@ -368,6 +372,7 @@ export const SHORTS: Short[] = intercala(
   CAZA,
   CIRCO,
   ISLAS,
+  CUERO,
   SILLAS,
   PEREGRINOS,
   BARCOS,
@@ -471,9 +476,11 @@ export const SHORTS: Short[] = intercala(
   MUSEOS,
   ASTILLEROS,
   GREMIOS,
+  VENTANAS,
   LANA,
   CRIMEN,
   CRUZADAS,
+  ROBOTS,
   TE,
   VIDEOJUEGOS,
   PALABRAS,
@@ -482,6 +489,7 @@ export const SHORTS: Short[] = intercala(
   BIBLIOTECAS,
   MAR,
   ALGODON,
+  MAPAS_DEL_METRO,
   RELOJES_DE_SOL,
   GAFAS,
   PLASTICO,
