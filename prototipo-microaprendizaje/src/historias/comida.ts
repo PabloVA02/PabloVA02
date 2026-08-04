@@ -187,7 +187,7 @@ export const COMIDA: Short[] = [
       {
         rotulo: "La cuenta",
         texto:
-          "Cuando las plantaciones se trasladaron al Caribe y a Brasil, la demanda de mano de obra se disparó y se cubrió con el comercio transatlántico de esclavos. De los aproximadamente doce millones de africanos embarcados a la fuerza entre los siglos XVI y XIX, la gran mayoría acabó en zonas de caña; solo Brasil recibió más de cuatro millones. En las islas del Caribe, la esperanza de vida de un trabajador de plantación al llegar era de siete años, y las plantaciones se reponían comprando más gente en lugar de mejorar las condiciones. El azúcar dejó de ser un lujo y pasó a ser un producto corriente en menos de un siglo, y ese abaratamiento se pagó exactamente con eso.",
+          "Cuando las plantaciones se trasladaron al Caribe y a Brasil, la demanda de mano de obra se disparó y se cubrió con el comercio transatlántico de esclavos. De los aproximadamente doce millones de africanos embarcados a la fuerza entre los siglos XVI y XIX, la gran mayoría acabó en zonas de caña; solo Brasil recibió más de cuatro millones. En las islas del Caribe, la esperanza de vida de un trabajador al llegar era de siete años, y las plantaciones se reponían comprando más gente. El azúcar dejó de ser un lujo y pasó a ser un producto corriente en menos de un siglo, y ese abaratamiento se pagó exactamente con eso.",
         destacado: { tipo: "cifra", cifra: "12", unidad: "millones de personas embarcadas a la fuerza" },
       },
       {
