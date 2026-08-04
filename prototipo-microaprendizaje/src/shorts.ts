@@ -21,6 +21,7 @@ import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
 import { CAMAS } from "./historias/camas";
 import { CARBON } from "./historias/carbon";
+import { CARRETERAS } from "./historias/carreteras";
 import { CASTILLOS } from "./historias/castillos";
 import { CATASTROFES } from "./historias/catastrofes";
 import { CEMENTERIOS } from "./historias/cementerios";
@@ -71,6 +72,7 @@ import { ISLAS } from "./historias/islas";
 import { JARDINES } from "./historias/jardines";
 import { JUEGOS } from "./historias/juegos";
 import { JUSTICIA } from "./historias/justicia";
+import { LANA } from "./historias/lana";
 import { LAVADORA } from "./historias/lavadora";
 import { LENGUAS } from "./historias/lenguas";
 import { LLAVES } from "./historias/llaves";
@@ -80,6 +82,7 @@ import { MAR } from "./historias/mar";
 import { MATEMATICAS } from "./historias/matematicas";
 import { MEDICINA } from "./historias/medicina";
 import { MEDIDAS } from "./historias/medidas";
+import { MERCADOS } from "./historias/mercados";
 import { MICROSCOPIO } from "./historias/microscopio";
 import { MONEDA } from "./historias/moneda";
 import { MONTANAS } from "./historias/montanas";
@@ -128,6 +131,7 @@ import { TERMOMETRO } from "./historias/termometro";
 import { TRASPLANTES } from "./historias/trasplantes";
 import { TRENES } from "./historias/trenes";
 import { TUNELES } from "./historias/tuneles";
+import { VEJEZ } from "./historias/vejez";
 import { VELAS } from "./historias/velas";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
@@ -335,8 +339,10 @@ export const SHORTS: Short[] = intercala(
   CATASTROFES,
   MONTANAS,
   ESPANA,
+  VEJEZ,
   POLVORA,
   TRENES,
+  CARRETERAS,
   POLITICA,
   DINOSAURIOS,
   FARAONES,
@@ -404,6 +410,7 @@ export const SHORTS: Short[] = intercala(
   IMPRENTA_ORIENTAL,
   FOTOGRAFIA,
   MUSEOS,
+  LANA,
   CRIMEN,
   TE,
   VIDEOJUEGOS,
@@ -427,6 +434,7 @@ export const SHORTS: Short[] = intercala(
   HOSPITALES,
   INVENTOS,
   BANCA,
+  MERCADOS,
   OBJETOS,
   ESPEJOS,
   BASURA,

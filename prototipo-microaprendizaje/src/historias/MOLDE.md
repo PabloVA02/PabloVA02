@@ -12,7 +12,10 @@ sabido. El vocabulario puede ser rico; los requisitos previos, ninguno.
 
 ## 1. Situar antes de contar
 
-La primera o segunda frase de la entrada dice **cuándo, dónde y quién**.
+La entrada tiene que dejar claro **cuándo, dónde y quién** antes de que la
+historia arranque. Esa es la obligación; la forma de cumplirla, no.
+
+La manera más segura es la del César, y sirve casi siempre:
 
 > «Roma, año 44 antes de Cristo. Julio César es el hombre más poderoso del
 > mundo conocido: ha conquistado la Galia, la actual Francia, ha ganado una
@@ -21,8 +24,21 @@ La primera o segunda frase de la entrada dice **cuándo, dónde y quién**.
 
 Año. Lugar. Quién es. Qué ha hecho. Y solo entonces el gancho.
 
+Pero **no hay que empezar siempre por el año**. Una entrada puede abrir con
+una pregunta o con una escena, siempre que sitúe enseguida:
+
+> «¿Por qué las pistas de circo miden todas lo mismo? La respuesta está en un
+> antiguo sargento de caballería que en 1768 descubrió, galopando en círculo
+> junto al río de Londres, que a cierta velocidad el caballo lo sostenía.»
+
+Lo que no vale es entrar en materia dando por sabido el mundo:
+
 Mal: «El 15 de marzo del 44 a. C. César entró en la curia sin escolta.»
 —supone que sabes quién es, qué es la curia y por qué importa aquel día—.
+
+El validador lo comprueba buscando una referencia temporal en la entrada
+**o en la página 1**: año, siglo, década, época o un «hace tantos años». Si
+no aparece en ninguna de las dos, el lector se ha quedado sin suelo.
 
 ## 2. Dos nombres propios como máximo
 

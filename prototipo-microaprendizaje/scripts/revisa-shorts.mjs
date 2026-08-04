@@ -80,12 +80,19 @@ for (const ruta of ficheros) {
     const entrada = /entrada:\n\s+"((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
     const ne = palabras(entrada);
     if (ne < 53 || ne > 72) aviso(id, `entrada de ${ne} palabras (53-72)`);
-    /* Regla 1 del molde: situar. Una entrada que no trae ni año ni siglo ni una
-       referencia temporal deja al lector sin suelo. */
-    if (!/\b(1[0-9]{3}|20[0-9]{2}|[1-9][0-9]{0,4} (a\. C\.|antes de Cristo)|siglos? [IVX]+|año [1-9][0-9]{0,3}\b|hace [\wáéíóú ]{0,30}(mil|millones|siglos|años))/i.test(entrada))
-      aviso(id, "la entrada no sitúa en el tiempo");
 
     const paginas = [...b.matchAll(/rotulo: "([^"]*)",\n\s+texto:\n\s+"((?:[^"\\]|\\.)*)"/g)];
+
+    /* Regla 1 del molde: situar. No obliga a abrir con el año —una entrada
+       puede empezar por una pregunta o por una escena—, pero el lector tiene
+       que saber cuándo pasa esto antes de que la historia arranque. Así que se
+       busca la referencia temporal en la entrada Y en la página 1, y se admite
+       cualquier forma de decirla: año, siglo, década, época o «hace tanto». */
+    const situa =
+      /\b(1[0-9]{3}|20[0-9]{2}|[1-9][0-9]{0,4} (a\. C\.|antes de Cristo)|siglos? [IVX]+|años? [1-9][0-9]{0,3}\b|década de (1[0-9]{3}|20[0-9]{2})|años (veinte|treinta|cuarenta|cincuenta|sesenta|setenta|ochenta|noventa)|(edad media|antigüedad|prehistoria|renacimiento|ilustración|revolución industrial|imperio romano)|hace [\wáéíóú ]{0,30}(mil|millones|siglos|años|décadas))/i;
+    if (!situa.test(entrada) && !(paginas[0] && situa.test(paginas[0][2])))
+      aviso(id, "no sitúa en el tiempo (ni en la entrada ni en la página 1)");
+
     if (paginas.length !== 3) aviso(id, `${paginas.length} páginas (deben ser 3)`);
     paginas.forEach(([, rotulo, texto], i) => {
       const n = palabras(texto);
@@ -105,7 +112,10 @@ for (const ruta of ficheros) {
     /* Un nombre de varias palabras —Juan Sebastián Elcano— es UN frenazo, no
        tres, así que primero se juntan las mayúsculas seguidas. */
     const propios = new Set(
-      (cuerpo.match(/(?<![.:;!?»)]\s|^|«|— |\n)\b[A-ZÁÉÍÓÚÑ][a-zá-úüñ]{2,}(?: (?:de |del |la )?[A-ZÁÉÍÓÚÑ][a-zá-úüñ]{2,})*/g) ?? [])
+      /* El «¿» y el «¡» abren frase igual que un punto: la palabra siguiente va
+         en mayúscula por posición, no por ser un nombre. Sin esto, cualquier
+         entrada que empiece preguntando «¿Por qué…» delata un Por inexistente. */
+      (cuerpo.match(/(?<![.:;!?»)]\s|^|«|¿|¡|— |\n)\b[A-ZÁÉÍÓÚÑ][a-zá-úüñ]{2,}(?: (?:de |del |la )?[A-ZÁÉÍÓÚÑ][a-zá-úüñ]{2,})*/g) ?? [])
         .map((x) => x.trim())
         .filter((x) => !x.split(" ").every((w) => CONOCIDOS.has(w) || delTitulo.has(w))),
     );
