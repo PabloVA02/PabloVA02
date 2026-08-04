@@ -37,6 +37,7 @@ import { CABALLOS } from "./historias/caballos";
 import { CAJEROS } from "./historias/cajeros";
 import { CAL } from "./historias/cal";
 import { CAMAS } from "./historias/camas";
+import { CAMPANAS } from "./historias/campanas";
 import { CANALES } from "./historias/canales";
 import { CARBON } from "./historias/carbon";
 import { CARRETERAS } from "./historias/carreteras";
@@ -130,6 +131,7 @@ import { MEDIDAS } from "./historias/medidas";
 import { MERCADOS } from "./historias/mercados";
 import { MICROSCOPIO } from "./historias/microscopio";
 import { MINERIA } from "./historias/mineria";
+import { MOLINOS } from "./historias/molinos";
 import { MONASTERIOS } from "./historias/monasterios";
 import { MONEDA } from "./historias/moneda";
 import { MONTANAS } from "./historias/montanas";
@@ -138,6 +140,7 @@ import { MUERTE } from "./historias/muerte";
 import { MUSEOS } from "./historias/museos";
 import { MUSICA } from "./historias/musica";
 import { NOMBRES_DE_CALLES } from "./historias/nombresdecalles";
+import { NOTARIOS } from "./historias/notarios";
 import { NUDOS } from "./historias/nudos";
 import { OBJETOS } from "./historias/objetos";
 import { ORO } from "./historias/oro";
@@ -209,6 +212,7 @@ import { VENTANAS } from "./historias/ventanas";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
 import { VIKINGOS } from "./historias/vikingos";
+import { VINAGRE } from "./historias/vinagre";
 import { VIRUS_INFORMATICOS } from "./historias/virusinformaticos";
 import { VOLCANES } from "./historias/volcanes";
 import { ZAPATOS } from "./historias/zapatos";
@@ -408,6 +412,7 @@ export const SHORTS: Short[] = intercala(
   IMPUESTOS,
   ANCLA,
   SEDA,
+  CAMPANAS,
   COLCHONES,
   CAZA,
   CIRCO,
@@ -510,6 +515,7 @@ export const SHORTS: Short[] = intercala(
   RADIO,
   CASCOS,
   PREHISTORIA,
+  MOLINOS,
   ASCENSORES,
   BALANZAS,
   COMIDA,
@@ -525,12 +531,14 @@ export const SHORTS: Short[] = intercala(
   BASURA_ELECTRONICA,
   ANDAMIOS,
   ASTILLEROS,
+  VINAGRE,
   GREMIOS,
   PILAS,
   VENTANAS,
   LANA,
   GASOLINERAS,
   CRIMEN,
+  NOTARIOS,
   NUDOS,
   CRUZADAS,
   BOTICARIOS,
