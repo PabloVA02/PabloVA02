@@ -1,0 +1,104 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   Las balanzas.
+
+   Pesar es una de las cosas más antiguas que se hacen, y casi nadie sabe
+   que hay tres maneras distintas de hacerlo. El tema se estropea si se
+   cuenta como historia de las medidas.
+
+   La regla del tema: cada short explica QUÉ MIDE DE VERDAD el aparato
+   (masa comparada, palanca, deformación) antes de contar para qué sirvió,
+   porque de esa diferencia sale todo lo demás, incluido el fraude.
+   ========================================================================== */
+
+export const BALANZAS: Short[] = [
+  {
+    id: "los-dos-platillos",
+    titulo: "La balanza de dos platillos no mide peso",
+    gancho: "Compara. Y por eso da lo mismo en la Luna que en la Tierra, cosa que ninguna báscula moderna consigue.",
+    categoria: "Objetos",
+    color: "var(--slate)",
+    encargo: "Balanza de dos platillos de latón en equilibrio, con pesas pequeñas en uno de ellos.",
+    entrada:
+      "Egipto y Mesopotamia, desde hace unos cinco mil años. La balanza de dos platillos colgados de una barra es uno de los instrumentos más antiguos que existen y también uno de los más listos. No dice cuánto pesa una cosa: dice si pesa lo mismo que otra. Esa diferencia, que parece una tontería, es lo que la vuelve exacta en cualquier sitio del universo.",
+    paginas: [
+      {
+        rotulo: "Comparar, no medir",
+        texto:
+          "Una báscula de baño mide la fuerza con la que la Tierra tira de uno y la traduce a kilos. Si esa báscula se lleva a la Luna, marca la sexta parte, porque allí la gravedad es más floja. La balanza de platillos no tiene ese problema, ya que la gravedad tira igual de los dos lados. Si la barra se queda horizontal, las dos cargas tienen la misma masa, y eso vale en la Luna y en Marte. Solo hace falta un juego de pesas de referencia y una barra que gire con poco rozamiento. Con brazos largos y un buen apoyo, una balanza de laboratorio nota una diferencia de un décimo de miligramo.",
+        destacado: { tipo: "frase", frase: "La gravedad tira igual de los dos platillos: se anula." },
+      },
+      {
+        rotulo: "El fiel",
+        texto:
+          "La aguja que marca el equilibrio se llama fiel, y la palabra no es casual: la balanza era una promesa. Todo mercado antiguo tenía un funcionario encargado de comprobar las pesas de los vendedores contra un patrón oficial. El fraude clásico consistía en alargar un brazo más que el otro, cosa invisible a ojo y decisiva en la cuenta. Se detecta con un truco simple: se pesa, se cambian las cargas de platillo y se mira otra vez. Si la balanza es honrada da lo mismo, y si tiene un brazo largo se desequilibra al revés. Las penas por manipular pesas fueron durísimas en casi todas las épocas, desde multas enormes hasta la marca a fuego.",
+        destacado: { tipo: "cifra", cifra: "5.000", unidad: "años lleva funcionando el mismo instrumento" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó como símbolo de la justicia en tribunales de medio mundo, y el motivo es exactamente el que se acaba de contar. Una balanza no opina ni interpreta: solo compara dos cosas y enseña cuál de las dos pesa más. Quedó también en los laboratorios de precisión, donde para las medidas más finas se sigue usando el mismo principio de comparación de siempre. Y quedó su límite, porque comparar es lento y necesita pesas, de modo que para la vida diaria se impuso el aparato que da un número al instante y sin pesas.",
+      },
+    ],
+  },
+  {
+    id: "la-romana",
+    titulo: "Con una sola pesa se puede pesar todo",
+    gancho: "La romana usa una pesa pequeña que se desliza por un brazo largo. La palanca hace todo el trabajo.",
+    categoria: "Objetos",
+    color: "var(--ochre)",
+    encargo: "Romana de hierro colgada con un gancho, con la pesa corrida por el brazo graduado.",
+    entrada:
+      "Imperio romano, siglo I. La balanza de platillos tiene un problema práctico serio, porque para pesar cien kilos hacen falta cien kilos de pesas y alguien que las cargue. Los romanos difundieron un instrumento que resuelve eso con una sola pesa pequeña y un brazo con marcas. Se llama romana por ellos y sigue colgada en almacenes y en cocinas de pueblo.",
+    paginas: [
+      {
+        rotulo: "La palanca",
+        texto:
+          "Una palanca es una barra que gira sobre un punto de apoyo, y su regla es la misma desde que se descubrió. Lo que cuenta no es solo el peso, sino el peso multiplicado por la distancia hasta el punto de apoyo. Un kilo colgado a un metro equilibra diez kilos colgados a diez centímetros, y ahí está todo el truco. La romana cuelga la carga muy cerca del gancho de apoyo, en el lado corto de la barra. Por el lado largo se desliza una pesa pequeña hasta que la barra queda horizontal. El número grabado en ese punto del brazo es el peso, y una pesa de dos kilos llega a medir cincuenta.",
+        destacado: { tipo: "frase", frase: "Un kilo a un metro equilibra diez kilos a diez centímetros." },
+      },
+      {
+        rotulo: "En el mercado",
+        texto:
+          "La romana se impuso en el comercio porque es ligera, se lleva colgada del cinturón y no necesita mesa. Un tendero podía pesar un saco entero levantándolo con un brazo mientras corría la pesa con el otro. Muchas llevan dos ganchos de apoyo distintos, de modo que colgándola de uno u otro cambia la escala. Se le da la vuelta a la barra y aparece la segunda numeración grabada en la otra cara. Su punto débil es que las marcas del brazo hay que grabarlas bien, y una romana falsa engaña sin que se note. Por eso los inspectores de pesos y medidas las sellaban con un punzón y las revisaban cada cierto tiempo.",
+        destacado: { tipo: "cifra", cifra: "50", unidad: "kilos mide una romana con pesa de dos" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó el nombre, porque en español la palabra romana significa exactamente esa balanza y no otra cosa. Quedaron muchas colgadas todavía en almacenes, en lonjas y en casas de campo, funcionando sin ninguna pila. Quedó también el principio en sitios donde no se le espera, como las básculas de pesar camiones y las de hospital antiguas. Aquellas básculas de consulta con una barra y unos cursores que se deslizaban eran romanas con otro nombre. Y quedó la elegancia de un invento que resuelve un problema de fuerza con geometría, sin gastar ni un gramo de más.",
+      },
+    ],
+  },
+  {
+    id: "la-bascula-digital",
+    titulo: "La báscula digital pesa con un trozo doblado",
+    gancho: "Dentro no hay muelles ni pesas. Hay una pieza de metal que se dobla un poco y unos hilos que notan cuánto.",
+    categoria: "Tecnología",
+    color: "var(--plum)",
+    curioso: true,
+    encargo: "Interior abierto de una báscula de baño con el bloque de aluminio y los cables a la vista.",
+    entrada:
+      "Estados Unidos, 1938. Un ingeniero descubre que si se pega un hilo metálico muy fino a una pieza que se deforma, su resistencia eléctrica cambia de forma medible. Ese hallazgo, que parece de laboratorio, es el corazón de casi todas las básculas que existen hoy, desde la del baño hasta la que pesa un camión entero en una báscula de carretera.",
+    paginas: [
+      {
+        rotulo: "El hilo",
+        texto:
+          "Cuando un hilo de metal se estira, se vuelve más largo y delgado, y la electricidad lo atraviesa peor. Ese empeoramiento se llama resistencia y se puede medir con mucha exactitud aunque el estiramiento sea diminuto. La pieza que hay dentro de una báscula es un bloque de aluminio con una forma pensada para doblarse siempre igual. Al subirse alguien encima, ese bloque cede unas centésimas de milímetro, tan poco que a ojo no pasa nada. Los hilos pegados a su superficie se estiran con él, cambia su resistencia y un circuito la convierte en kilos. Se ponen cuatro hilos para que el calor y la posición del pie no falseen la medida.",
+        destacado: { tipo: "frase", frase: "El bloque cede centésimas de milímetro y eso ya se mide." },
+      },
+      {
+        rotulo: "El precio",
+        texto:
+          "El invento tiene una consecuencia que nadie suele pensar: la báscula digital mide fuerza, no masa. Como la gravedad no es exactamente igual en todo el planeta, la misma báscula marca distinto en el ecuador que cerca del polo. La diferencia llega al medio por ciento, que en una persona son unos cuantos cientos de gramos. Por eso las básculas de comercio se calibran en el sitio donde van a trabajar y llevan un precinto oficial. Moverlas de ciudad obliga a repetir el ajuste, cosa que sorprende a cualquiera que abra una tienda nueva. La balanza de platillos, con sus cinco mil años, no necesitaba nada de esto.",
+        destacado: { tipo: "cifra", cifra: "1938", unidad: "el año del hilo que mide deformaciones" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó un sensor que se usa en muchísimos sitios donde no se está pesando nada, porque mide deformaciones. Va pegado a las alas de los aviones, a los puentes, a las grúas y a las prensas industriales. En un puente grande hay cientos de esos hilos avisando de cuánto se dobla la estructura con cada camión que pasa. Quedó también la báscula de baño barata, que es el mismo aparato de precisión vendido por veinte euros. Y quedó el contraste con el que empezó este tema, porque la balanza más antigua compara y la más moderna calcula, y solo una de las dos serviría en la Luna.",
+      },
+    ],
+  },
+];

@@ -15,6 +15,7 @@ import { ASCENSORES } from "./historias/ascensores";
 import { ASTILLEROS } from "./historias/astilleros";
 import { AVIACION } from "./historias/aviacion";
 import { AZAR } from "./historias/azar";
+import { BALANZAS } from "./historias/balanzas";
 import { BANCA } from "./historias/banca";
 import { BANDERAS } from "./historias/banderas";
 import { BARCOS } from "./historias/barcos";
@@ -103,6 +104,7 @@ import { JUSTICIA } from "./historias/justicia";
 import { LANA } from "./historias/lana";
 import { LAVADORA } from "./historias/lavadora";
 import { LENGUAS } from "./historias/lenguas";
+import { LEVADURA } from "./historias/levadura";
 import { LLAVES } from "./historias/llaves";
 import { MADERA } from "./historias/madera";
 import { MAPAS } from "./historias/mapas";
@@ -154,7 +156,9 @@ import { RELOJES_DE_SOL } from "./historias/relojesdesol";
 import { RIOS } from "./historias/rios";
 import { ROBOTS } from "./historias/robots";
 import { ROPA } from "./historias/ropa";
+import { ROTONDAS } from "./historias/rotondas";
 import { RUEDA } from "./historias/rueda";
+import { SAL } from "./historias/sal";
 import { SAMURAIS } from "./historias/samurais";
 import { SANGRE } from "./historias/sangre";
 import { SEDA } from "./historias/seda";
@@ -374,6 +378,7 @@ export const SHORTS: Short[] = intercala(
   FIGURAS,
   ESCALERAS_MECANICAS,
   ESPACIO,
+  SAL,
   ROPA,
   MONASTERIOS,
   IMPUESTOS,
@@ -386,6 +391,7 @@ export const SHORTS: Short[] = intercala(
   CUERO,
   SILLAS,
   PEREGRINOS,
+  LEVADURA,
   BARCOS,
   PUERTOS,
   CARBON,
@@ -476,6 +482,7 @@ export const SHORTS: Short[] = intercala(
   CASCOS,
   PREHISTORIA,
   ASCENSORES,
+  BALANZAS,
   COMIDA,
   AIRE_ACONDICIONADO,
   ALCOHOL,
@@ -499,6 +506,7 @@ export const SHORTS: Short[] = intercala(
   PALABRAS,
   CAL,
   VELAS,
+  ROTONDAS,
   APELLIDOS,
   BIBLIOTECAS,
   TEJADOS,
