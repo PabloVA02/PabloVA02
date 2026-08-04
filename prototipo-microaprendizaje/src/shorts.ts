@@ -4,6 +4,7 @@ import { AGUA } from "./historias/agua";
 import { AIRE_ACONDICIONADO } from "./historias/aireacondicionado";
 import { ALCOHOL } from "./historias/alcohol";
 import { ALGODON } from "./historias/algodon";
+import { ANDAMIOS } from "./historias/andamios";
 import { ANESTESIA } from "./historias/anestesia";
 import { ANTIBIOTICOS } from "./historias/antibioticos";
 import { APELLIDOS } from "./historias/apellidos";
@@ -27,6 +28,7 @@ import { BOSQUES } from "./historias/bosques";
 import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
 import { CAJEROS } from "./historias/cajeros";
+import { CAL } from "./historias/cal";
 import { CAMAS } from "./historias/camas";
 import { CANALES } from "./historias/canales";
 import { CARBON } from "./historias/carbon";
@@ -45,6 +47,7 @@ import { CIRCO } from "./historias/circo";
 import { CIUDADES } from "./historias/ciudades";
 import { COCINA } from "./historias/cocina";
 import { CODIGOS_DE_BARRAS } from "./historias/codigosdebarras";
+import { COLCHONES } from "./historias/colchones";
 import { COMIDA } from "./historias/comida";
 import { CONTRASENAS } from "./historias/contrasenas";
 import { CORREOS } from "./historias/correos";
@@ -161,6 +164,7 @@ import { SUENO } from "./historias/sueno";
 import { TABACO } from "./historias/tabaco";
 import { TE } from "./historias/te";
 import { TECNOLOGIA } from "./historias/tecnologia";
+import { TEJADOS } from "./historias/tejados";
 import { TELEFERICOS } from "./historias/telefericos";
 import { TELEFONO } from "./historias/telefono";
 import { TELESCOPIO } from "./historias/telescopio";
@@ -369,6 +373,7 @@ export const SHORTS: Short[] = intercala(
   MONASTERIOS,
   IMPUESTOS,
   SEDA,
+  COLCHONES,
   CAZA,
   CIRCO,
   ISLAS,
@@ -474,6 +479,7 @@ export const SHORTS: Short[] = intercala(
   IMPRENTA_ORIENTAL,
   FOTOGRAFIA,
   MUSEOS,
+  ANDAMIOS,
   ASTILLEROS,
   GREMIOS,
   VENTANAS,
@@ -484,9 +490,11 @@ export const SHORTS: Short[] = intercala(
   TE,
   VIDEOJUEGOS,
   PALABRAS,
+  CAL,
   VELAS,
   APELLIDOS,
   BIBLIOTECAS,
+  TEJADOS,
   MAR,
   ALGODON,
   MAPAS_DEL_METRO,

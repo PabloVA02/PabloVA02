@@ -1,0 +1,104 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   La cal.
+
+   El primer material que el ser humano fabricó cambiando la química de una
+   piedra. Se cuece, se apaga, se extiende y vuelve a ser piedra. El tema se
+   estropea si se cuenta como química de manual.
+
+   La regla del tema: cada short sigue EL CICLO COMPLETO de la piedra (horno,
+   agua, aire) y termina en un uso concreto que el lector reconoce: la
+   fachada blanca de un pueblo, un campo de cultivo, un muro viejo.
+   ========================================================================== */
+
+export const CAL: Short[] = [
+  {
+    id: "la-piedra-que-vuelve",
+    titulo: "La cal vuelve a ser piedra al secarse",
+    gancho: "Se cuece caliza, se apaga con agua y se extiende en la pared. Con el tiempo vuelve a ser la misma piedra.",
+    categoria: "Objetos",
+    color: "var(--ochre)",
+    encargo: "Balsa de cal apagándose, con la pasta blanca borboteando y humeando.",
+    entrada:
+      "Todo el Mediterráneo, desde hace al menos siete mil años. La cal es el primer material que el ser humano fabricó transformando químicamente una piedra, mucho antes de saber una palabra de química. El truco consiste en quemar caliza a temperatura alta, y lo asombroso es lo que ocurre después: el material se puede extender como una pasta y luego se endurece hasta volver a ser piedra.",
+    paginas: [
+      {
+        rotulo: "Cocer y apagar",
+        texto:
+          "El horno de cal es un pozo donde se apilan caliza y leña y se mantiene el fuego días enteros. A unos novecientos grados la piedra suelta el gas que lleva dentro y queda un terrón blanco y ligero, la cal viva. Ese terrón es peligroso, porque si le cae agua reacciona con violencia y quema la piel. Apagarla consiste en echarle agua de forma controlada en una balsa, donde borbotea, humea y se deshace en pasta blanca. Esa pasta mejora cuanto más reposa, y en los buenos talleres se guardaba bajo agua durante años antes de usarla. Con ella se hacía el mortero que une las piedras y el revoco que cubre la pared.",
+        destacado: { tipo: "frase", frase: "Si le cae agua, la cal viva hierve y quema la piel." },
+      },
+      {
+        rotulo: "El aire la endurece",
+        texto:
+          "Lo que ocurre en la pared es que la cal vuelve a capturar del aire el mismo gas que perdió en el horno. Ese gas es el dióxido de carbono, y al combinarse con la pasta la convierte otra vez en carbonato de calcio, es decir, en caliza. Por eso un revoco de cal no se seca, sino que fragua desde fuera hacia dentro y tarda meses o años en endurecer del todo. Tiene a cambio una virtud que el cemento no tiene, porque es un material blando que deja respirar a la pared y permite que la humedad salga. También se repara sola: una grieta fina se vuelve a cerrar con el tiempo.",
+        destacado: { tipo: "cifra", cifra: "900", unidad: "grados hacen falta para cocer la caliza" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedaron en pie los edificios hechos con ella, porque una fábrica de piedra con mortero de cal se mueve un poco sin romperse. Quedó casi arrinconada durante el siglo XX, cuando el cemento la sustituyó por rápido, fuerte y barato, y nadie miró atrás. Y ha vuelto por dos motivos, ya que en la restauración de edificios antiguos el cemento los estropea y en obra nueva la cal absorbe parte del gas que costó cocerla. Quedó también el gesto de encalar la fachada cada primavera en los pueblos del sur, que no era adorno: la cal desinfecta y refleja el sol.",
+      },
+    ],
+  },
+  {
+    id: "los-pueblos-blancos",
+    titulo: "Encalar las casas era una medida de higiene",
+    gancho: "La estampa turística del sur empezó siendo desinfectante, aislante y tapagrietas, todo por el precio de un cubo.",
+    categoria: "Objetos",
+    color: "var(--slate)",
+    encargo: "Calle estrecha de casas encaladas al mediodía, con la sombra muy marcada.",
+    entrada:
+      "Andalucía y todo el sur de Europa, desde la Antigüedad y con fuerza a partir del siglo XIX. Los pueblos blancos se fotografían hoy como estampa turística, pero aquella capa de cal no se daba por gusto estético. Encalar era barato, mataba bichos y microbios, tapaba las grietas y devolvía la luz del sol en vez de tragarla. Era, en la práctica, la desinfección que tenía una familia pobre.",
+    paginas: [
+      {
+        rotulo: "Contra el bicho",
+        texto:
+          "La cal apagada es fuertemente alcalina, lo que significa que destruye las proteínas de lo que toca. Aplicada en la pared, mata hongos, larvas y buena parte de los microbios que viven en las grietas del muro. En los siglos de epidemias, encalar era de las pocas medidas que un ayuntamiento podía ordenar y una familia podía cumplir. Tras un brote de cólera o de peste, las ordenanzas obligaban a blanquear casas, establos y hasta pozos. Se echaba también en las fosas y en los mataderos, porque seca la materia orgánica y frena el olor. Nadie sabía por qué funcionaba, ya que la teoría de los microbios llegó mucho después, pero se veía que funcionaba.",
+        destacado: { tipo: "frase", frase: "Nadie sabía por qué funcionaba, pero se veía que funcionaba." },
+      },
+      {
+        rotulo: "El sol",
+        texto:
+          "La segunda razón es térmica y se nota con la mano en cualquier tarde de agosto. Una pared blanca devuelve casi toda la luz que recibe, mientras que una oscura la absorbe y se convierte en un radiador. La diferencia entre una fachada encalada y la misma pared en piedra desnuda puede pasar de diez grados a pleno sol. En casas de muros gruesos, eso decide si de noche el interior se refresca o sigue soltando el calor del día. Por eso el blanco domina en el sur y desaparece en el norte, donde interesa lo contrario. No es una decisión de gusto, sino de latitud, tomada mucho antes de que existiera la palabra eficiencia.",
+        destacado: { tipo: "cifra", cifra: "10", unidad: "grados de diferencia entre pared blanca y oscura" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedaron los pueblos blancos convertidos en imagen de marca, con ordenanzas municipales que obligan a encalar y ayudas para pagarlo. Quedó el trabajo anual de darle una mano cada primavera, que sigue haciéndose en muchos sitios aunque ya casi nadie recuerde el motivo sanitario. Y ha vuelto la idea por la puerta grande, porque varias ciudades grandes están pintando de blanco tejados y calles enteras para bajar la temperatura del verano. Lo llaman ahora tejado frío y lo presentan como novedad, cuando en realidad es lo mismo que llevan siglos haciendo los pueblos del sur con un cubo y una brocha.",
+      },
+    ],
+  },
+  {
+    id: "echar-cal-al-campo",
+    titulo: "Echar cal al campo cambia la cosecha",
+    gancho: "No alimenta a la planta y aun así sube el grano. La explicación tardó un siglo en llegar.",
+    categoria: "Objetos",
+    color: "var(--plum)",
+    curioso: true,
+    encargo: "Horno de cal circular de piedra abandonado en un campo, medio cubierto de hiedra.",
+    entrada:
+      "Inglaterra, siglo XVIII. En plena revolución agrícola, los propietarios están probando maneras de sacar más grano de la misma tierra, y una de las que mejor funciona parece magia: echar cal molida sobre el campo. No aporta ningún alimento a la planta y aun así la cosecha sube. La explicación tardó otro siglo en llegar y tiene que ver con la acidez del suelo.",
+    paginas: [
+      {
+        rotulo: "El suelo ácido",
+        texto:
+          "Un suelo ácido tiene demasiados iones de hidrógeno sueltos, y eso pasa sobre todo donde llueve mucho. La lluvia arrastra hacia abajo el calcio y el magnesio, que son los que mantienen el equilibrio, y el terreno se acidifica. El problema no es que la acidez queme la raíz, sino que bloquea los nutrientes: el fósforo se queda pegado y la planta no lo alcanza. Además libera aluminio, que en cantidad daña las raíces finas y frena el crecimiento. La cal, al ser alcalina, neutraliza esa acidez y devuelve el suelo al punto donde las raíces trabajan. El efecto tarda meses en notarse y dura varios años, así que se echa cada cierto tiempo.",
+        destacado: { tipo: "frase", frase: "La acidez no quema la raíz: le esconde la comida." },
+      },
+      {
+        rotulo: "Los hornos del campo",
+        texto:
+          "Aquella práctica creó un paisaje que todavía se ve, porque la cal pesa demasiado para transportarla lejos con carros. La solución fue cocerla en el sitio, y los campos ingleses se llenaron de hornos pequeños, uno por finca grande. Eran torres de piedra de unos cuatro metros, abiertas por arriba, donde se alternaban capas de caliza y carbón. El trabajo era duro e insalubre, porque el horno suelta gases que desplazan el aire y han matado a más de un operario dormido cerca. Cuando llegaron el ferrocarril y las fábricas grandes, aquellos hornos se abandonaron en pocas décadas. Muchos siguen ahí, medio comidos por la hiedra, y la gente pasa al lado sin saber qué son.",
+        destacado: { tipo: "cifra", cifra: "4", unidad: "metros medía el horno de cal de una finca" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó el encalado como una de las prácticas agrícolas más extendidas del mundo, con millones de toneladas movidas cada año. Quedó también un análisis de rutina, porque hoy se mide la acidez del suelo con un aparato antes de decidir cuánta cal echar y dónde. Quedaron los hornos abandonados en los campos de media Europa, protegidos en algunos sitios como patrimonio industrial y convertidos en refugio de murciélagos. Y quedó la misma piedra haciendo tres trabajos distintos: sujeta las paredes, blanquea las fachadas y corrige la tierra, según se cueza, se apague o se muela.",
+      },
+    ],
+  },
+];
