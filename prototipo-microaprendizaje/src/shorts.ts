@@ -1,5 +1,6 @@
 import { ACERO } from "./historias/acero";
 import { AGUA } from "./historias/agua";
+import { AIRE_ACONDICIONADO } from "./historias/aireacondicionado";
 import { ALCOHOL } from "./historias/alcohol";
 import { ANESTESIA } from "./historias/anestesia";
 import { APELLIDOS } from "./historias/apellidos";
@@ -16,6 +17,7 @@ import { BICHOS } from "./historias/bichos";
 import { BOMBEROS } from "./historias/bomberos";
 import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
+import { CAMAS } from "./historias/camas";
 import { CARBON } from "./historias/carbon";
 import { CASTILLOS } from "./historias/castillos";
 import { CATASTROFES } from "./historias/catastrofes";
@@ -24,6 +26,7 @@ import { CEMENTO } from "./historias/cemento";
 import { CERILLAS } from "./historias/cerillas";
 import { CIENCIA } from "./historias/ciencia";
 import { CINE } from "./historias/cine";
+import { CIRCO } from "./historias/circo";
 import { CIUDADES } from "./historias/ciudades";
 import { COCINA } from "./historias/cocina";
 import { COMIDA } from "./historias/comida";
@@ -111,6 +114,7 @@ import { TECNOLOGIA } from "./historias/tecnologia";
 import { TELEFONO } from "./historias/telefono";
 import { TELESCOPIO } from "./historias/telescopio";
 import { TELEVISION } from "./historias/television";
+import { TRASPLANTES } from "./historias/trasplantes";
 import { TRENES } from "./historias/trenes";
 import { TUNELES } from "./historias/tuneles";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
@@ -305,6 +309,7 @@ export const SHORTS: Short[] = intercala(
   ROPA,
   IMPUESTOS,
   SEDA,
+  CIRCO,
   ISLAS,
   BARCOS,
   CARBON,
@@ -344,6 +349,7 @@ export const SHORTS: Short[] = intercala(
   RUEDA,
   BOMBEROS,
   GUERRA,
+  TRASPLANTES,
   CASTILLOS,
   VIKINGOS,
   ESCLAVITUD,
@@ -367,11 +373,13 @@ export const SHORTS: Short[] = intercala(
   MUSICA,
   GLOBOS,
   RELOJES,
+  CAMAS,
   CINE,
   RADIO,
   PREHISTORIA,
   ASCENSORES,
   COMIDA,
+  AIRE_ACONDICIONADO,
   ALCOHOL,
   JUSTICIA,
   FOTOGRAFIA,
