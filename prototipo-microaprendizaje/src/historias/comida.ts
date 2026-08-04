@@ -133,7 +133,7 @@ export const COMIDA: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "La primera tableta para comer se vendió en 1847 y la de leche llegó en 1875, cuando un suizo tuvo la idea de mezclarle leche condensada, que su vecino acababa de inventar. Hoy el noventa y cinco por ciento del cacao del mundo lo cultivan pequeños agricultores de África occidental que en muchos casos no han probado nunca una tableta, porque no se fabrican allí. Y el árbol sigue siendo tan delicado que solo crece en una franja estrecha alrededor del ecuador, polinizado por un mosquito diminuto.",
+          "La primera tableta para comer se vendió en 1847 y la de leche llegó en 1875, cuando un suizo tuvo la idea de mezclarle leche condensada, que su vecino acababa de inventar. Hoy el noventa y cinco por ciento del cacao del mundo lo cultivan pequeños agricultores de África occidental que en muchos casos no han probado nunca una tableta, porque no se fabrican allí. Y el árbol sigue siendo tan delicado que solo crece en una franja estrecha a ambos lados del ecuador, a la sombra de otros más altos y polinizado por un mosquito diminuto que nadie ha conseguido criar en cantidad. Por eso no hay plantaciones industriales como las de trigo.",
       },
     ],
   },
@@ -146,7 +146,7 @@ export const COMIDA: Short[] = [
     color: "var(--slate)",
     encargo: "Montones blancos de sal en unas salinas, con el agua rosada al fondo.",
     entrada:
-      "Antes de que existiera el frigorífico, hacia cualquier año de los últimos cinco mil, la única manera de conservar carne y pescado más de unos días era la sal. Un ejército sin sal no podía alejarse, una ciudad sin sal no podía almacenar. Por eso fue durante milenios una mercancía estratégica, y por eso casi todos los Estados acabaron poniéndole impuestos.",
+      "Hasta 1900, más o menos, no existía el frigorífico, y la única manera de conservar carne y pescado más de unos días era la sal. Un ejército sin sal no podía alejarse, una ciudad sin sal no podía almacenar. Por eso fue durante milenios una mercancía estratégica, y por eso casi todos los Estados acabaron poniéndole impuestos.",
     paginas: [
       {
         rotulo: "Por qué funciona",
@@ -187,13 +187,13 @@ export const COMIDA: Short[] = [
       {
         rotulo: "La cuenta",
         texto:
-          "Cuando las plantaciones se trasladaron al Caribe y a Brasil, la demanda de mano de obra se disparó y se cubrió con el comercio transatlántico de esclavos. De los aproximadamente doce millones de africanos embarcados a la fuerza entre los siglos XVI y XIX, la gran mayoría acabó en zonas de caña; solo Brasil recibió más de cuatro millones. El azúcar dejó de ser un lujo y pasó a ser un producto corriente en menos de un siglo, y ese abaratamiento se pagó exactamente con eso.",
+          "Cuando las plantaciones se trasladaron al Caribe y a Brasil, la demanda de mano de obra se disparó y se cubrió con el comercio transatlántico de esclavos. De los aproximadamente doce millones de africanos embarcados a la fuerza entre los siglos XVI y XIX, la gran mayoría acabó en zonas de caña; solo Brasil recibió más de cuatro millones. En las islas del Caribe, la esperanza de vida de un trabajador de plantación al llegar era de siete años, y las plantaciones se reponían comprando más gente en lugar de mejorar las condiciones. El azúcar dejó de ser un lujo y pasó a ser un producto corriente en menos de un siglo, y ese abaratamiento se pagó exactamente con eso.",
         destacado: { tipo: "cifra", cifra: "12", unidad: "millones de personas embarcadas a la fuerza" },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Lo que rompió el monopolio de la caña fue una guerra: cuando la marina británica bloqueó los puertos europeos a principios del XIX, en el continente se buscó una alternativa y se desarrolló la remolacha azucarera, que crece en clima frío. Hoy sale de ahí una quinta parte del azúcar mundial. Y el consumo por persona se ha multiplicado por más de veinte desde entonces: de aquella onza guardada bajo llave en la botica se ha pasado a una media de unos treinta kilos al año.",
+          "Lo que rompió el monopolio de la caña fue una guerra: cuando la marina británica bloqueó los puertos europeos a principios del XIX, en el continente se buscó una alternativa y se desarrolló la remolacha azucarera, que crece en clima frío. Hoy sale de ahí una quinta parte del azúcar mundial. Y el consumo por persona se ha multiplicado por más de veinte desde entonces: de aquella onza guardada bajo llave en la botica y recetada como medicina se ha pasado a una media de unos treinta kilos por persona y año en los países ricos, la mayor parte escondida dentro de productos que no saben dulces.",
       },
     ],
   },
