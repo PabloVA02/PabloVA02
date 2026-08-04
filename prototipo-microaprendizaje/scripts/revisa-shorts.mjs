@@ -42,6 +42,8 @@ const CONOCIDOS = new Set([
   "Islandia","Escocia","Gales","Irlanda","Baviera","Prusia","Nevada","Jersey","Seattle",
   "Melchor","Gaspar","Baltasar","Sagan","Armstrong","Elcano","Magallanes","Laika",
   "Frankenstein","Copenhague","Michoacán",
+  "Manhattan","Brooklyn","Haití","Jamaica","Alabama","Montecarlo","Mónaco",
+  "Terranova","Halloween","Escandinavia","Virginia",
   "Castilla","Aragón","Navarra","Canarias","Baleares","Caribe","Antigüedad","Indias",
   "Valladolid","Salamanca","Granada","Toledo","Córdoba","Coruña","Cádiz","Cantabria",
   "Bretaña","Kansas","Texas","Florida","Boston","Chicago","Washington","Atlanta","Detroit",

@@ -1,5 +1,6 @@
 import { ARTE } from "./historias/arte";
 import { AVIACION } from "./historias/aviacion";
+import { AZAR } from "./historias/azar";
 import { BARCOS } from "./historias/barcos";
 import { BICHOS } from "./historias/bichos";
 import { CATASTROFES } from "./historias/catastrofes";
@@ -19,6 +20,7 @@ import { DINOSAURIOS } from "./historias/dinosaurios";
 import { ELECTRICIDAD } from "./historias/electricidad";
 import { EMPRESAS } from "./historias/empresas";
 import { EPIDEMIAS } from "./historias/epidemias";
+import { ESCLAVITUD } from "./historias/esclavitud";
 import { ESCRITURA } from "./historias/escritura";
 import { ESPACIO } from "./historias/espacio";
 import { ESPANA } from "./historias/espana";
@@ -47,6 +49,8 @@ import { PLASTICO } from "./historias/plastico";
 import { POLITICA } from "./historias/politica";
 import { PREHISTORIA } from "./historias/prehistoria";
 import { PUBLICIDAD } from "./historias/publicidad";
+import { PUENTES } from "./historias/puentes";
+import { RADIO } from "./historias/radio";
 import { RELOJES } from "./historias/relojes";
 import { ROPA } from "./historias/ropa";
 import { SUENO } from "./historias/sueno";
@@ -250,10 +254,12 @@ export const SHORTS: Short[] = intercala(
   DINOSAURIOS,
   ELECTRICIDAD,
   BICHOS,
+  PUENTES,
   MOTOR,
   CIENCIA,
   ARTE,
   GUERRA,
+  ESCLAVITUD,
   AVIACION,
   CUERPO,
   PUBLICIDAD,
@@ -266,6 +272,7 @@ export const SHORTS: Short[] = intercala(
   MUSICA,
   RELOJES,
   CINE,
+  RADIO,
   PREHISTORIA,
   COMIDA,
   JUSTICIA,
@@ -276,6 +283,7 @@ export const SHORTS: Short[] = intercala(
   MAR,
   PLASTICO,
   CIUDADES,
+  AZAR,
   SUENO,
   EMPRESAS,
   CORREOS,

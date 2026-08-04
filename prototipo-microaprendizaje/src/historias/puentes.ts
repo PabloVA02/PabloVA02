@@ -1,0 +1,110 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   Puentes.
+
+   El riesgo del tema es la ficha técnica: vanos, toneladas de acero y
+   récords de longitud. Eso no lo recuerda nadie diez minutos después.
+
+   La regla del tema: un puente se cuenta por QUIÉN LO PAGA CON EL CUERPO.
+   Los obreros que salen doblados de un cajón sumergido. El ingeniero que
+   queda inválido y dirige la obra con prismáticos desde una ventana. Los
+   peatones que se agarran a la barandilla. La ingeniería aquí es siempre
+   una historia de gente que descubre algo tarde.
+
+   Y en los fallos no se busca al culpable: se busca lo que nadie sabía
+   todavía, porque casi siempre el error estaba en el manual, no en la obra.
+   ========================================================================== */
+
+export const PUENTES: Short[] = [
+  {
+    id: "brooklyn-roebling",
+    titulo: "El puente de Brooklyn lo dirigió su mujer",
+    gancho: "El ingeniero jefe quedó inválido a media obra. Ella aprendió el oficio y mandó once años.",
+    categoria: "Puentes",
+    color: "var(--slate)",
+    encargo: "Los cables de un puente colgante antiguo vistos desde abajo, contra el cielo.",
+    entrada:
+      "Nueva York, 1869. Se empieza a construir el puente colgante más largo del mundo para unir Manhattan con la ciudad vecina de Brooklyn, que entonces era independiente. Hay que hundir en el fondo del río dos torres de piedra de más de ochenta metros. El ingeniero que lo diseñó muere de tétanos antes de poner la primera piedra.",
+    paginas: [
+      {
+        rotulo: "Los cajones",
+        texto:
+          "El hijo tomó el relevo. Para cimentar las torres se usaron unos cajones enormes de madera, hundidos boca abajo en el lecho del río y llenos de aire a presión para que no entrara el agua; dentro, los obreros excavaban el fondo a pico y pala en un ambiente asfixiante, con velas que apenas ardían. Al subir demasiado deprisa a la superficie, muchos salían doblados de dolor, con las articulaciones agarrotadas y sangrando por la nariz. Nadie sabía por qué. Hoy se llama enfermedad de los buzos y se debe al nitrógeno que se disuelve en la sangre y forma burbujas al descomprimir.",
+        destacado: { tipo: "frase", frase: "Dentro del cajón las velas apenas ardían." },
+      },
+      {
+        rotulo: "Ella",
+        texto:
+          "El hijo cayó enfermo de lo mismo en 1872 y quedó tan tocado que apenas podía moverse, ni hablar mucho rato, ni soportar la luz del día. Se instaló en una casa desde la que se veía la obra y la vigilaba con unos prismáticos. Su mujer, que no tenía ninguna formación técnica, se puso a estudiar: cálculo de tensiones, comportamiento de los cables de acero, resistencia de materiales. Durante once años fue ella quien iba cada día al tajo, transmitía las órdenes, discutía con los contratistas y respondía a los ingenieros, hasta el punto de que muchos daban por hecho que el proyecto era suyo.",
+        destacado: { tipo: "cifra", cifra: "11", unidad: "años dirigiendo la obra en su lugar" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Se inauguró en mayo de 1883 y ella fue la primera en cruzarlo en carruaje, con un gallo en el regazo como símbolo de victoria. Seis días después alguien gritó en el paso peatonal que el puente se caía; hubo una estampida y murieron doce personas. Para demostrar que aguantaba, un empresario de circo lo cruzó al año siguiente con veintiún elefantes en fila. Sigue en pie y por él pasan cada día más de cien mil vehículos, casi siglo y medio después. En una placa de bronce, junto al nombre de los dos ingenieros, está el de la mujer que hizo el trabajo.",
+      },
+    ],
+  },
+
+  {
+    id: "tacoma-narrows",
+    titulo: "Un puente se retorció como una cinta",
+    gancho: "Cuatro meses después de inaugurarlo se ondulaba con viento flojo. Un profesor lo filmó cayendo.",
+    categoria: "Puentes",
+    color: "var(--clay)",
+    encargo: "Una calzada de puente vacía, torcida, vista en escorzo en blanco y negro.",
+    entrada:
+      "Estado de Washington, en el noroeste de Estados Unidos, julio de 1940. Se inaugura un puente colgante muy largo y muy estrecho sobre un brazo de mar. Desde el primer día se mueve: con viento suave la calzada sube y baja en ondas, y hay conductores que van a cruzarlo por gusto, como quien se sube a una atracción de feria.",
+    paginas: [
+      {
+        rotulo: "El galope",
+        texto:
+          "Los ingenieros de la época venían de una carrera por hacer puentes cada vez más finos y elegantes, con menos acero y por tanto más baratos. Este tenía una calzada de solo dos metros y medio de canto para más de ochocientos metros entre torres, y en lugar de la celosía abierta que se usaba antes se le pusieron unas vigas macizas a los lados que funcionaban como una vela. Los obreros ya se mareaban durante la construcción. Se probaron cables de anclaje y amortiguadores hidráulicos, y ninguno de los remedios sirvió: el puente seguía ondulando en cuanto soplaba algo de aire.",
+        destacado: { tipo: "frase", frase: "Los obreros ya se mareaban durante la construcción." },
+      },
+      {
+        rotulo: "La caída",
+        texto:
+          "La mañana del 7 de noviembre de 1940 el viento soplaba a unos sesenta y cinco kilómetros por hora, nada excepcional en aquella zona. El movimiento cambió de golpe: en vez de subir y bajar en ondas, la calzada empezó a retorcerse sobre sí misma, un lado arriba y el otro abajo, con giros de casi cuarenta y cinco grados. Un profesor de la universidad cercana estaba allí con una cámara de cine y lo filmó todo. Un periodista que había dejado el coche en mitad del puente intentó rescatar a su perro y tuvo que salir a gatas. El tramo central se desprendió y cayó al agua.",
+        destacado: { tipo: "cifra", cifra: "45", unidad: "grados llegó a girar la calzada" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "No murió nadie salvo el perro. Aquella película en blanco y negro se convirtió en el material didáctico más visto de la ingeniería y se sigue proyectando en clase en todo el mundo. La explicación tardó años en afinarse y no es la resonancia sencilla que se cuenta a veces, sino un efecto en el que el propio movimiento del tablero genera las fuerzas que lo amplifican. Desde entonces cualquier puente largo se ensaya antes con maquetas en un túnel de viento. El que se construyó después en el mismo sitio es más ancho, más rígido y tiene la calzada agujereada para que el aire pase a través.",
+      },
+    ],
+  },
+
+  {
+    id: "puente-tambaleante",
+    titulo: "Cerraron un puente nuevo a los dos días",
+    gancho: "Ochenta mil personas lo estrenaron a la vez y se bamboleó tanto que se agarraban a la barandilla.",
+    categoria: "Puentes",
+    color: "var(--plum)",
+    curioso: true,
+    encargo: "Una pasarela peatonal metálica muy fina sobre un río gris, vista desde la orilla.",
+    entrada:
+      "Londres, 10 de junio del año 2000. Se abre al público una pasarela peatonal nueva sobre el Támesis, muy plana y muy delgada, pensada como una cinta de acero tendida entre las dos orillas. El primer día la cruzan unas ochenta mil personas. Y el puente empieza a moverse de lado, tanto que muchos se paran a media travesía.",
+    paginas: [
+      {
+        rotulo: "El bamboleo",
+        texto:
+          "El balanceo era lateral, no vertical, y llegó a siete centímetros a cada lado. La gente reaccionaba como se reacciona en la cubierta de un barco: separando las piernas y ajustando el paso al vaivén. Ahí estaba el problema. Al acompasarse sin darse cuenta, todos empujaban en la misma dirección a la vez y aumentaban el movimiento, que a su vez obligaba a acompasarse todavía más. Los cálculos de diseño habían tenido en cuenta el viento y el peso, pero no la fuerza de costado que hacen unos miles de personas al andar. Se cerró el segundo día, con la promesa de reabrirlo enseguida.",
+        destacado: { tipo: "frase", frase: "Cada paso acompasado empujaba el puente un poco más." },
+      },
+      {
+        rotulo: "Los ensayos",
+        texto:
+          "Reabrirlo costó casi dos años y varios millones de libras. Antes de tocar nada hubo que entender el fenómeno, que apenas estaba estudiado, y para eso se organizaron ensayos con voluntarios: grupos de hasta dos mil personas caminando por la pasarela mientras unos sensores medían cuánto se movía y a partir de cuántos peatones aparecía el efecto. Encontraron un umbral bastante claro, en torno a ciento cincuenta personas en el tramo más largo. La solución fueron noventa y un amortiguadores repartidos bajo el tablero, parecidos a los de un coche pero del tamaño de un tronco, que se comen la energía del vaivén.",
+        destacado: { tipo: "cifra", cifra: "91", unidad: "amortiguadores instalados debajo" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Volvió a abrir en febrero de 2002 y desde entonces no se ha movido, aunque el apodo que le pusieron en aquellos dos días, el puente tambaleante, no se lo ha quitado nadie. El episodio dejó un capítulo nuevo en los manuales: hoy se calcula el empuje lateral de los peatones en cualquier pasarela larga, un cálculo que antes no se hacía porque nadie sabía que hiciera falta. Se revisaron después puentes antiguos de medio mundo y se encontró el mismo efecto en pequeño. Lo raro no fue que se moviera: lo raro es que hasta el año 2000 nadie hubiera mirado.",
+      },
+    ],
+  },
+];
