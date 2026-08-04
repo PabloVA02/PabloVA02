@@ -1,0 +1,105 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   La silla de ruedas.
+
+   Un objeto que pasó de mueble a vehículo, y de vehículo a herramienta
+   deportiva. El tema se estropea si se cuenta con lástima o como historia
+   de superación.
+
+   La regla del tema: cada short parte de UN PROBLEMA MECÁNICO CONCRETO
+   (agarrar la rueda, caber en un coche, subir un escalón, no volcar) y lo
+   resuelve con física. La persona que la usa aparece como usuaria de un
+   aparato, nunca como paciente.
+   ========================================================================== */
+
+export const SILLA_DE_RUEDAS: Short[] = [
+  {
+    id: "la-silla-que-empujaba-otro",
+    titulo: "La silla de ruedas la empujaba siempre otro",
+    gancho: "Durante siglos fue un mueble con ruedas, no un vehículo. Nadie pensó que su usuario quisiera moverla solo.",
+    categoria: "Objetos",
+    color: "var(--slate)",
+    encargo: "Silla de ruedas antigua de mimbre y madera con ruedecillas pequeñas debajo.",
+    entrada:
+      "Europa, siglos XVI a XIX. Las primeras sillas con ruedas para personas enfermas eran sillones pesados de madera con ruedecillas debajo. El detalle importante es que ninguna se podía mover desde el asiento, porque las ruedas quedaban lejos de las manos. Alguien tenía que empujar siempre, y esa dependencia se daba por supuesta sin discutirla en ningún momento.",
+    paginas: [
+      {
+        rotulo: "El aro",
+        texto:
+          "El invento que lo cambió todo es una pieza tan sencilla que cuesta creer que tardara tanto. Se trata de un aro metálico montado por fuera de la rueda grande y a pocos centímetros de ella. Ese aro permite empujar sin tocar el neumático, que va sucio y mojado de la calle. Sin él, mover la silla exigiría agarrar la goma con las manos y acabar negro. Con el aro, y colocando las ruedas grandes atrás y junto al asiento, el usuario se mueve solo. Aquella combinación convirtió un mueble en un vehículo, y a un paciente en una persona autónoma.",
+        destacado: { tipo: "frase", frase: "El aro convirtió un mueble en un vehículo." },
+      },
+      {
+        rotulo: "Poder plegarla",
+        texto:
+          "El segundo salto llegó en 1933, cuando dos ingenieros diseñaron una silla que se plegaba. Uno de ellos era ingeniero de minas y había quedado en silla de ruedas tras un accidente. Su queja era muy concreta, porque su silla no cabía en un coche y no podía salir de casa. La solución fue un armazón de tubo de acero con una cruz articulada bajo el asiento. Esa cruz permite juntar las dos ruedas y dejar la silla plana como una carpeta. El diseño pesaba la mitad que los anteriores y sigue siendo el esquema básico de hoy.",
+        destacado: { tipo: "cifra", cifra: "1933", unidad: "el año de la primera silla plegable" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó un objeto que ha ido perdiendo peso sin parar, de treinta kilos a menos de diez. Las sillas deportivas de competición bajan de cinco kilos usando fibra de carbono y titanio. Quedó también una diferencia enorme de precio entre lo que cubre la sanidad y lo que existe. Una silla estándar pesada se financia sin problema, y una ligera a medida cuesta miles de euros. Y quedó un cambio de lenguaje que refleja exactamente lo que cambió el aro de empuje. Ya no se dice que alguien está postrado, sino que alguien usa una silla de ruedas.",
+      },
+    ],
+  },
+  {
+    id: "el-bordillo",
+    titulo: "Un bordillo de doce centímetros lo cambia todo",
+    gancho: "Un escalón pequeño no es un detalle: es una pared. Bajarlo costó una campaña de años y mucho cemento.",
+    categoria: "Ciudades",
+    color: "var(--clay)",
+    encargo: "Esquina de acera con el bordillo rebajado formando una rampa hasta el asfalto.",
+    entrada:
+      "Estados Unidos, 1972. Un grupo de estudiantes en silla de ruedas de una universidad de California se harta de no poder cruzar la calle y sale de noche con sacos de cemento. Rompen los bordillos de varias esquinas y construyen rampas caseras ellos mismos. La ciudad acaba adoptando la idea, y el rebaje de bordillo se convierte en norma en medio mundo.",
+    paginas: [
+      {
+        rotulo: "Una pared",
+        texto:
+          "Una silla de ruedas manual sube un escalón de dos centímetros sin ningún problema. A partir de cuatro o cinco ya hace falta levantar las ruedas pequeñas de delante. Un bordillo normal mide entre doce y quince centímetros, y eso es sencillamente infranqueable. La rueda delantera choca contra la pared vertical y la silla se para en seco. Sin rampa, esa esquina convierte una manzana entera en un sitio del que no se puede salir. El mismo escalón afecta también a un carrito de bebé, a una maleta y a quien usa bastón.",
+        destacado: { tipo: "frase", frase: "Doce centímetros de escalón son una pared vertical." },
+      },
+      {
+        rotulo: "El efecto acera",
+        texto:
+          "Aquellas rampas nocturnas acabaron dando nombre a una idea que se estudia en diseño. Se llama efecto de la acera rebajada y describe algo que se repite una y otra vez. Una solución pensada para un grupo pequeño acaba beneficiando a muchísima más gente de la prevista. Las cuentas de uso lo confirman, porque la mayoría de quienes usan un rebaje no van en silla. Van con carrito, con carro de la compra, con muletas, en patinete o arrastrando una maleta. Lo mismo pasa con los subtítulos, con los mandos grandes y con las puertas automáticas.",
+        destacado: { tipo: "cifra", cifra: "1972", unidad: "el año de las rampas hechas de noche" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó una normativa de accesibilidad en casi todos los países desarrollados, con medidas exactas. Fija la pendiente máxima de una rampa, el ancho de una puerta y el radio de giro necesario. Quedó también un rebaje mal hecho que se ve en muchas ciudades y no sirve de nada. Si la rampa acaba en un escalón de dos dedos, la silla se sigue quedando fuera. Y quedó una manera de comprobar cualquier obra que no necesita ningún aparato de medida. Basta empujar un carrito de la compra por ahí y ver dónde hay que levantarlo.",
+      },
+    ],
+  },
+  {
+    id: "la-silla-de-baloncesto",
+    titulo: "Las ruedas del baloncesto van inclinadas",
+    gancho: "Forman una uve invertida y no es un capricho de diseño. Esa inclinación decide si el jugador vuelca o gira.",
+    categoria: "Deporte",
+    color: "var(--ochre)",
+    curioso: true,
+    encargo: "Silla de baloncesto adaptado vista de frente, con las ruedas muy inclinadas.",
+    entrada:
+      "Estados Unidos, 1946, cuando los hospitales de veteranos de la Segunda Guerra Mundial organizan los primeros partidos en silla de ruedas. De aquellos partidos sale un deporte que hoy es paralímpico y una silla que no se parece nada a la de calle. El detalle más visible es que las ruedas van muy inclinadas hacia fuera por abajo.",
+    paginas: [
+      {
+        rotulo: "La inclinación",
+        texto:
+          "Inclinar las ruedas hacia fuera separa los puntos de apoyo en el suelo sin ensanchar el asiento. Con la base más ancha, la silla aguanta un giro brusco sin volcar de lado. Como el asiento sigue estrecho, el jugador puede pasar entre otros dos sin engancharse. La inclinación cambia además el gesto de empujar, porque el aro queda más cerca de los hombros. Eso permite dar impulsos más largos y más potentes con menos esfuerzo en cada brazada. El precio es que la silla ocupa más ancho y desgasta antes los neumáticos por el borde.",
+        destacado: { tipo: "frase", frase: "Base ancha abajo y asiento estrecho arriba." },
+      },
+      {
+        rotulo: "Cada deporte",
+        texto:
+          "Cada deporte en silla usa un diseño distinto, y las diferencias saltan a la vista. La de baloncesto lleva un parachoques bajo y una rueda antivuelco detrás para los frenazos. La de rugby va blindada por delante como un carro de combate, porque ahí los choques están permitidos. La de atletismo tiene tres ruedas y el asiento casi tumbado, para reducir la resistencia del aire. Ninguna de esas sillas sirve para ir por la calle, porque no giran en un pasillo. Un deportista tiene dos sillas, igual que un ciclista tiene una bici de carretera y otra de ciudad.",
+        destacado: { tipo: "cifra", cifra: "1946", unidad: "el año de los primeros partidos" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó un deporte que se juega en más de un centenar de países y llena pabellones. Quedaron también unas reglas de clasificación que puntúan a cada jugador según su movilidad. La suma de puntos de los cinco que están en pista no puede pasar de un tope. Eso obliga a que en el campo haya siempre jugadores con distintos grados de movilidad. Y quedó una parte del diseño deportivo que se ha ido colando en las sillas de calle. Las ruedas algo inclinadas, el peso ligero y el respaldo bajo salieron todos del pabellón.",
+      },
+    ],
+  },
+];

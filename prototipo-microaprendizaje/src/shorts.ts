@@ -1,3 +1,4 @@
+import { ABANICO } from "./historias/abanico";
 import { ACERO } from "./historias/acero";
 import { ADUANAS } from "./historias/aduanas";
 import { AGUA } from "./historias/agua";
@@ -5,6 +6,7 @@ import { AGUJA } from "./historias/aguja";
 import { AIRE_ACONDICIONADO } from "./historias/aireacondicionado";
 import { ALCOHOL } from "./historias/alcohol";
 import { ALGODON } from "./historias/algodon";
+import { ALMACENES } from "./historias/almacenes";
 import { ALMOHADA } from "./historias/almohada";
 import { ANCLA } from "./historias/ancla";
 import { ANDAMIOS } from "./historias/andamios";
@@ -87,6 +89,7 @@ import { ESPEJOS } from "./historias/espejos";
 import { ESPIONAJE } from "./historias/espionaje";
 import { FARAONES } from "./historias/faraones";
 import { FAROS } from "./historias/faros";
+import { FAROS_DE_COCHE } from "./historias/farosdecoche";
 import { FIGURAS } from "./historias/figuras";
 import { FOTOGRAFIA } from "./historias/fotografia";
 import { FRIGORIFICO } from "./historias/frigorifico";
@@ -185,6 +188,7 @@ import { SEGUROS } from "./historias/seguros";
 import { SEMAFOROS } from "./historias/semaforos";
 import { SEXTANTE } from "./historias/sextante";
 import { SILLAS } from "./historias/sillas";
+import { SILLA_DE_RUEDAS } from "./historias/sillaruedas";
 import { SOMBREROS } from "./historias/sombreros";
 import { SUBASTAS } from "./historias/subastas";
 import { SUBMARINOS } from "./historias/submarinos";
@@ -403,6 +407,7 @@ export const SHORTS: Short[] = intercala(
   VIRUS_INFORMATICOS,
   ESCALERAS_MECANICAS,
   ESPACIO,
+  FAROS_DE_COCHE,
   SAL,
   ROPA,
   SEGUROS,
@@ -419,6 +424,7 @@ export const SHORTS: Short[] = intercala(
   ALMOHADA,
   DESAGUES,
   ISLAS,
+  ABANICO,
   IMANES,
   CUERO,
   SILLAS,
@@ -519,6 +525,7 @@ export const SHORTS: Short[] = intercala(
   ASCENSORES,
   BALANZAS,
   COMIDA,
+  ALMACENES,
   LEJIA,
   AIRE_ACONDICIONADO,
   ALCOHOL,
@@ -533,6 +540,7 @@ export const SHORTS: Short[] = intercala(
   ASTILLEROS,
   VINAGRE,
   GREMIOS,
+  SILLA_DE_RUEDAS,
   PILAS,
   VENTANAS,
   LANA,
