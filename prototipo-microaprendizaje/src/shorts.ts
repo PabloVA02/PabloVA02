@@ -8,6 +8,7 @@ import { ANESTESIA } from "./historias/anestesia";
 import { ANTIBIOTICOS } from "./historias/antibioticos";
 import { APELLIDOS } from "./historias/apellidos";
 import { ARADO } from "./historias/arado";
+import { ARCHIVOS } from "./historias/archivos";
 import { ARTE } from "./historias/arte";
 import { ASCENSORES } from "./historias/ascensores";
 import { AVIACION } from "./historias/aviacion";
@@ -88,6 +89,7 @@ import { LANA } from "./historias/lana";
 import { LAVADORA } from "./historias/lavadora";
 import { LENGUAS } from "./historias/lenguas";
 import { LLAVES } from "./historias/llaves";
+import { MADERA } from "./historias/madera";
 import { MAPAS } from "./historias/mapas";
 import { MAQUINA_ESCRIBIR } from "./historias/maquinaescribir";
 import { MAR } from "./historias/mar";
@@ -144,10 +146,12 @@ import { SUENO } from "./historias/sueno";
 import { TABACO } from "./historias/tabaco";
 import { TE } from "./historias/te";
 import { TECNOLOGIA } from "./historias/tecnologia";
+import { TELEFERICOS } from "./historias/telefericos";
 import { TELEFONO } from "./historias/telefono";
 import { TELESCOPIO } from "./historias/telescopio";
 import { TELEVISION } from "./historias/television";
 import { TERMOMETRO } from "./historias/termometro";
+import { TINTES } from "./historias/tintes";
 import { TRASPLANTES } from "./historias/trasplantes";
 import { TRENES } from "./historias/trenes";
 import { TUNELES } from "./historias/tuneles";
@@ -398,6 +402,7 @@ export const SHORTS: Short[] = intercala(
   ANESTESIA,
   RUEDA,
   BOMBEROS,
+  MADERA,
   GUERRA,
   TRASPLANTES,
   CASTILLOS,
@@ -418,6 +423,7 @@ export const SHORTS: Short[] = intercala(
   CENSOS,
   PERIODICOS,
   MUERTE,
+  TINTES,
   CEMENTERIOS,
   HIGIENE,
   ANTIBIOTICOS,
@@ -431,6 +437,7 @@ export const SHORTS: Short[] = intercala(
   RELOJES,
   CAMAS,
   CINE,
+  ARCHIVOS,
   RADIO,
   PREHISTORIA,
   ASCENSORES,
@@ -491,6 +498,7 @@ export const SHORTS: Short[] = intercala(
   BOSQUES,
   MAQUINA_ESCRIBIR,
   ESPECIAS,
+  TELEFERICOS,
   FRIGORIFICO,
   MATEMATICAS,
   HIELO,
