@@ -1,8 +1,10 @@
 import { ABANICO } from "./historias/abanico";
 import { ACERO } from "./historias/acero";
+import { ACUARIOS } from "./historias/acuarios";
 import { ADUANAS } from "./historias/aduanas";
 import { AGUA } from "./historias/agua";
 import { AGUJA } from "./historias/aguja";
+import { AIRBAGS } from "./historias/airbags";
 import { AIRE_ACONDICIONADO } from "./historias/aireacondicionado";
 import { ALCOHOL } from "./historias/alcohol";
 import { ALGODON } from "./historias/algodon";
@@ -43,6 +45,7 @@ import { CAMPANAS } from "./historias/campanas";
 import { CANALES } from "./historias/canales";
 import { CARBON } from "./historias/carbon";
 import { CARRETERAS } from "./historias/carreteras";
+import { CASAS_DE_EMPENO } from "./historias/casasdeempeno";
 import { CASCOS } from "./historias/cascos";
 import { CASTILLOS } from "./historias/castillos";
 import { CATASTROFES } from "./historias/catastrofes";
@@ -129,6 +132,7 @@ import { MAPAS_DEL_METRO } from "./historias/mapasdelmetro";
 import { MAQUINA_ESCRIBIR } from "./historias/maquinaescribir";
 import { MAR } from "./historias/mar";
 import { MATEMATICAS } from "./historias/matematicas";
+import { MATRICULAS } from "./historias/matriculas";
 import { MEDICINA } from "./historias/medicina";
 import { MEDIDAS } from "./historias/medidas";
 import { MERCADOS } from "./historias/mercados";
@@ -413,6 +417,7 @@ export const SHORTS: Short[] = intercala(
   SEGUROS,
   TINTA,
   MONASTERIOS,
+  AIRBAGS,
   GAFAS_DE_SOL,
   IMPUESTOS,
   ANCLA,
@@ -430,6 +435,7 @@ export const SHORTS: Short[] = intercala(
   SILLAS,
   CORCHO,
   PEREGRINOS,
+  MATRICULAS,
   LEVADURA,
   BARCOS,
   APARCAMIENTOS,
@@ -523,6 +529,7 @@ export const SHORTS: Short[] = intercala(
   PREHISTORIA,
   MOLINOS,
   ASCENSORES,
+  ACUARIOS,
   BALANZAS,
   COMIDA,
   ALMACENES,
@@ -544,6 +551,7 @@ export const SHORTS: Short[] = intercala(
   PILAS,
   VENTANAS,
   LANA,
+  CASAS_DE_EMPENO,
   GASOLINERAS,
   CRIMEN,
   NOTARIOS,
