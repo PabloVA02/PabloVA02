@@ -11,6 +11,7 @@ import { ARADO } from "./historias/arado";
 import { ARCHIVOS } from "./historias/archivos";
 import { ARTE } from "./historias/arte";
 import { ASCENSORES } from "./historias/ascensores";
+import { ASTILLEROS } from "./historias/astilleros";
 import { AVIACION } from "./historias/aviacion";
 import { AZAR } from "./historias/azar";
 import { BANCA } from "./historias/banca";
@@ -20,6 +21,7 @@ import { BASURA } from "./historias/basura";
 import { BIBLIOTECAS } from "./historias/bibliotecas";
 import { BICHOS } from "./historias/bichos";
 import { BICICLETAS } from "./historias/bicicletas";
+import { BIOMIMESIS } from "./historias/biomimesis";
 import { BOMBEROS } from "./historias/bomberos";
 import { BOSQUES } from "./historias/bosques";
 import { BRUJULA } from "./historias/brujula";
@@ -44,6 +46,7 @@ import { CIUDADES } from "./historias/ciudades";
 import { COCINA } from "./historias/cocina";
 import { CODIGOS_DE_BARRAS } from "./historias/codigosdebarras";
 import { COMIDA } from "./historias/comida";
+import { CONTRASENAS } from "./historias/contrasenas";
 import { CORREOS } from "./historias/correos";
 import { COSMOS } from "./historias/cosmos";
 import { CREENCIAS } from "./historias/creencias";
@@ -147,6 +150,7 @@ import { SAMURAIS } from "./historias/samurais";
 import { SANGRE } from "./historias/sangre";
 import { SEDA } from "./historias/seda";
 import { SEMAFOROS } from "./historias/semaforos";
+import { SILLAS } from "./historias/sillas";
 import { SOMBREROS } from "./historias/sombreros";
 import { SUBASTAS } from "./historias/subastas";
 import { SUBMARINOS } from "./historias/submarinos";
@@ -364,6 +368,7 @@ export const SHORTS: Short[] = intercala(
   CAZA,
   CIRCO,
   ISLAS,
+  SILLAS,
   PEREGRINOS,
   BARCOS,
   PUERTOS,
@@ -382,6 +387,7 @@ export const SHORTS: Short[] = intercala(
   VEJEZ,
   POLVORA,
   TRENES,
+  BIOMIMESIS,
   CARRETERAS,
   POLITICA,
   CUBIERTOS,
@@ -463,6 +469,7 @@ export const SHORTS: Short[] = intercala(
   IMPRENTA_ORIENTAL,
   FOTOGRAFIA,
   MUSEOS,
+  ASTILLEROS,
   GREMIOS,
   LANA,
   CRIMEN,
@@ -500,6 +507,7 @@ export const SHORTS: Short[] = intercala(
   OBJETOS,
   ESPEJOS,
   BASURA,
+  CONTRASENAS,
   PLANTAS,
   CAJEROS,
   PARAGUAS,
