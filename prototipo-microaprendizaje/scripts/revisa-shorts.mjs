@@ -54,6 +54,7 @@ const CONOCIDOS = new Set([
   "Anatolia","Molucas","Ámsterdam","Charleston","Marianas",
   "Sheffield","Damasco","Austria","Bajos","Escandinavia",
   "Lidia","Delft","Hamburgo","Canadá","Turquía",
+  "Wurzburgo","Nepal","Suiza","Física",
   "Castilla","Aragón","Navarra","Canarias","Baleares","Caribe","Antigüedad","Indias",
   "Valladolid","Salamanca","Granada","Toledo","Córdoba","Coruña","Cádiz","Cantabria",
   "Bretaña","Kansas","Texas","Florida","Boston","Chicago","Washington","Atlanta","Detroit",

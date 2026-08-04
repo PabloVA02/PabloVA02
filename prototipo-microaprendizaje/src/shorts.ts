@@ -7,6 +7,7 @@ import { ASCENSORES } from "./historias/ascensores";
 import { AVIACION } from "./historias/aviacion";
 import { AZAR } from "./historias/azar";
 import { BANCA } from "./historias/banca";
+import { BANDERAS } from "./historias/banderas";
 import { BARCOS } from "./historias/barcos";
 import { BASURA } from "./historias/basura";
 import { BIBLIOTECAS } from "./historias/bibliotecas";
@@ -86,6 +87,7 @@ import { PREHISTORIA } from "./historias/prehistoria";
 import { PUBLICIDAD } from "./historias/publicidad";
 import { PUENTES } from "./historias/puentes";
 import { RADIO } from "./historias/radio";
+import { RAYOSX } from "./historias/rayosx";
 import { REDES } from "./historias/redes";
 import { RELOJES } from "./historias/relojes";
 import { ROPA } from "./historias/ropa";
@@ -95,12 +97,14 @@ import { SEDA } from "./historias/seda";
 import { SEMAFOROS } from "./historias/semaforos";
 import { SUBMARINOS } from "./historias/submarinos";
 import { SUENO } from "./historias/sueno";
+import { TABACO } from "./historias/tabaco";
 import { TE } from "./historias/te";
 import { TECNOLOGIA } from "./historias/tecnologia";
 import { TELEFONO } from "./historias/telefono";
 import { TELESCOPIO } from "./historias/telescopio";
 import { TELEVISION } from "./historias/television";
 import { TRENES } from "./historias/trenes";
+import { TUNELES } from "./historias/tuneles";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
 import { VIKINGOS } from "./historias/vikingos";
@@ -317,6 +321,7 @@ export const SHORTS: Short[] = intercala(
   PERROS,
   CABALLOS,
   PUENTES,
+  TUNELES,
   MOTOR,
   PETROLEO,
   REDES,
@@ -335,6 +340,7 @@ export const SHORTS: Short[] = intercala(
   CUERPO,
   PUBLICIDAD,
   MAPAS,
+  BANDERAS,
   TELEFONO,
   CREENCIAS,
   ESCRITURA,
@@ -381,6 +387,7 @@ export const SHORTS: Short[] = intercala(
   ESPEJOS,
   BASURA,
   PLANTAS,
+  TABACO,
   LENGUAS,
   ESCUELA,
   TECNOLOGIA,
@@ -390,6 +397,7 @@ export const SHORTS: Short[] = intercala(
   MATEMATICAS,
   HIELO,
   MEDICINA,
+  RAYOSX,
   SANGRE,
   ESPIONAJE,
   JUEGOS,
