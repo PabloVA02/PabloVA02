@@ -37,6 +37,7 @@ import { ESCUELA } from "./historias/escuela";
 import { ESPACIO } from "./historias/espacio";
 import { ESPANA } from "./historias/espana";
 import { ESPIONAJE } from "./historias/espionaje";
+import { FARAONES } from "./historias/faraones";
 import { FAROS } from "./historias/faros";
 import { FIGURAS } from "./historias/figuras";
 import { FOTOGRAFIA } from "./historias/fotografia";
@@ -65,6 +66,8 @@ import { OBJETOS } from "./historias/objetos";
 import { PALABRAS } from "./historias/palabras";
 import { PASAPORTES } from "./historias/pasaportes";
 import { PERFUME } from "./historias/perfume";
+import { PERROS } from "./historias/perros";
+import { PETROLEO } from "./historias/petroleo";
 import { PLANTAS } from "./historias/plantas";
 import { PLASTICO } from "./historias/plastico";
 import { POLITICA } from "./historias/politica";
@@ -78,6 +81,7 @@ import { RELOJES } from "./historias/relojes";
 import { ROPA } from "./historias/ropa";
 import { RUEDA } from "./historias/rueda";
 import { SANGRE } from "./historias/sangre";
+import { SEDA } from "./historias/seda";
 import { SEMAFOROS } from "./historias/semaforos";
 import { SUENO } from "./historias/sueno";
 import { TE } from "./historias/te";
@@ -275,6 +279,7 @@ export const SHORTS: Short[] = intercala(
   FIGURAS,
   ESPACIO,
   ROPA,
+  SEDA,
   ISLAS,
   BARCOS,
   FAROS,
@@ -290,12 +295,15 @@ export const SHORTS: Short[] = intercala(
   TRENES,
   POLITICA,
   DINOSAURIOS,
+  FARAONES,
   ELECTRICIDAD,
   AGUA,
   BICHOS,
+  PERROS,
   CABALLOS,
   PUENTES,
   MOTOR,
+  PETROLEO,
   REDES,
   CIENCIA,
   PASAPORTES,

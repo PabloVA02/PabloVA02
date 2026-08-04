@@ -50,6 +50,7 @@ const CONOCIDOS = new Set([
   "Möbius","Vía","Láctea","Oriente","Próximo",
   "Singapur","Santa","Tierra","Michoacán",
   "Idaho","Emiratos","Golfo","Viena","Generalitat","Caspio",
+  "Guiza","Pensilvania","Chipre","Madagascar","Rojo","Valle",
   "Castilla","Aragón","Navarra","Canarias","Baleares","Caribe","Antigüedad","Indias",
   "Valladolid","Salamanca","Granada","Toledo","Córdoba","Coruña","Cádiz","Cantabria",
   "Bretaña","Kansas","Texas","Florida","Boston","Chicago","Washington","Atlanta","Detroit",
