@@ -65,6 +65,7 @@ import { HOSPITALES } from "./historias/hospitales";
 import { IMPUESTOS } from "./historias/impuestos";
 import { INVENTOS } from "./historias/inventos";
 import { ISLAS } from "./historias/islas";
+import { JARDINES } from "./historias/jardines";
 import { JUEGOS } from "./historias/juegos";
 import { JUSTICIA } from "./historias/justicia";
 import { LAVADORA } from "./historias/lavadora";
@@ -106,6 +107,7 @@ import { RELOJES } from "./historias/relojes";
 import { RELOJES_DE_SOL } from "./historias/relojesdesol";
 import { ROPA } from "./historias/ropa";
 import { RUEDA } from "./historias/rueda";
+import { SAMURAIS } from "./historias/samurais";
 import { SANGRE } from "./historias/sangre";
 import { SEDA } from "./historias/seda";
 import { SEMAFOROS } from "./historias/semaforos";
@@ -118,9 +120,11 @@ import { TECNOLOGIA } from "./historias/tecnologia";
 import { TELEFONO } from "./historias/telefono";
 import { TELESCOPIO } from "./historias/telescopio";
 import { TELEVISION } from "./historias/television";
+import { TERMOMETRO } from "./historias/termometro";
 import { TRASPLANTES } from "./historias/trasplantes";
 import { TRENES } from "./historias/trenes";
 import { TUNELES } from "./historias/tuneles";
+import { VELAS } from "./historias/velas";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
 import { VIKINGOS } from "./historias/vikingos";
@@ -343,6 +347,7 @@ export const SHORTS: Short[] = intercala(
   PUENTES,
   TUNELES,
   MOTOR,
+  TERMOMETRO,
   PETROLEO,
   REDES,
   CIENCIA,
@@ -366,6 +371,7 @@ export const SHORTS: Short[] = intercala(
   BANDERAS,
   TELEFONO,
   CREENCIAS,
+  JARDINES,
   ESCRITURA,
   PERIODICOS,
   MUERTE,
@@ -375,6 +381,7 @@ export const SHORTS: Short[] = intercala(
   CERILLAS,
   SEMAFOROS,
   MEDIDAS,
+  SAMURAIS,
   BRUJULA,
   MUSICA,
   GLOBOS,
@@ -394,6 +401,7 @@ export const SHORTS: Short[] = intercala(
   TE,
   VIDEOJUEGOS,
   PALABRAS,
+  VELAS,
   APELLIDOS,
   BIBLIOTECAS,
   MAR,
