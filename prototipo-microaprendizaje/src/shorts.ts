@@ -1,9 +1,11 @@
 import { AGUA } from "./historias/agua";
+import { ALCOHOL } from "./historias/alcohol";
 import { ARTE } from "./historias/arte";
 import { ASCENSORES } from "./historias/ascensores";
 import { AVIACION } from "./historias/aviacion";
 import { AZAR } from "./historias/azar";
 import { BARCOS } from "./historias/barcos";
+import { BASURA } from "./historias/basura";
 import { BIBLIOTECAS } from "./historias/bibliotecas";
 import { BICHOS } from "./historias/bichos";
 import { BOMBEROS } from "./historias/bomberos";
@@ -28,6 +30,7 @@ import { EMPRESAS } from "./historias/empresas";
 import { EPIDEMIAS } from "./historias/epidemias";
 import { ESCLAVITUD } from "./historias/esclavitud";
 import { ESCRITURA } from "./historias/escritura";
+import { ESCUELA } from "./historias/escuela";
 import { ESPACIO } from "./historias/espacio";
 import { ESPANA } from "./historias/espana";
 import { ESPIONAJE } from "./historias/espionaje";
@@ -70,6 +73,7 @@ import { SEMAFOROS } from "./historias/semaforos";
 import { SUENO } from "./historias/sueno";
 import { TECNOLOGIA } from "./historias/tecnologia";
 import { TELEFONO } from "./historias/telefono";
+import { TELESCOPIO } from "./historias/telescopio";
 import { TRENES } from "./historias/trenes";
 import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
@@ -265,6 +269,7 @@ export const SHORTS: Short[] = intercala(
   EPIDEMIAS,
   DESIERTOS,
   COSMOS,
+  TELESCOPIO,
   VOLCANES,
   CATASTROFES,
   MONTANAS,
@@ -303,6 +308,7 @@ export const SHORTS: Short[] = intercala(
   PREHISTORIA,
   ASCENSORES,
   COMIDA,
+  ALCOHOL,
   JUSTICIA,
   FOTOGRAFIA,
   CRIMEN,
@@ -322,8 +328,10 @@ export const SHORTS: Short[] = intercala(
   HOSPITALES,
   INVENTOS,
   OBJETOS,
+  BASURA,
   PLANTAS,
   LENGUAS,
+  ESCUELA,
   TECNOLOGIA,
   COCINA,
   MATEMATICAS,
