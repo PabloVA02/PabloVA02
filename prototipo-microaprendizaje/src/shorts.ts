@@ -39,6 +39,7 @@ import { ESPIONAJE } from "./historias/espionaje";
 import { FAROS } from "./historias/faros";
 import { FIGURAS } from "./historias/figuras";
 import { FOTOGRAFIA } from "./historias/fotografia";
+import { FRIGORIFICO } from "./historias/frigorifico";
 import { GAFAS } from "./historias/gafas";
 import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
@@ -57,13 +58,16 @@ import { MEDIDAS } from "./historias/medidas";
 import { MONTANAS } from "./historias/montanas";
 import { MOTOR } from "./historias/motor";
 import { MUERTE } from "./historias/muerte";
+import { MUSEOS } from "./historias/museos";
 import { MUSICA } from "./historias/musica";
 import { OBJETOS } from "./historias/objetos";
 import { PALABRAS } from "./historias/palabras";
+import { PASAPORTES } from "./historias/pasaportes";
 import { PERFUME } from "./historias/perfume";
 import { PLANTAS } from "./historias/plantas";
 import { PLASTICO } from "./historias/plastico";
 import { POLITICA } from "./historias/politica";
+import { POLVORA } from "./historias/polvora";
 import { PREHISTORIA } from "./historias/prehistoria";
 import { PUBLICIDAD } from "./historias/publicidad";
 import { PUENTES } from "./historias/puentes";
@@ -278,6 +282,7 @@ export const SHORTS: Short[] = intercala(
   CATASTROFES,
   MONTANAS,
   ESPANA,
+  POLVORA,
   TRENES,
   POLITICA,
   DINOSAURIOS,
@@ -289,6 +294,7 @@ export const SHORTS: Short[] = intercala(
   MOTOR,
   REDES,
   CIENCIA,
+  PASAPORTES,
   PERFUME,
   ARTE,
   RUEDA,
@@ -317,6 +323,7 @@ export const SHORTS: Short[] = intercala(
   ALCOHOL,
   JUSTICIA,
   FOTOGRAFIA,
+  MUSEOS,
   CRIMEN,
   TE,
   VIDEOJUEGOS,
@@ -342,6 +349,7 @@ export const SHORTS: Short[] = intercala(
   ESCUELA,
   TECNOLOGIA,
   COCINA,
+  FRIGORIFICO,
   MATEMATICAS,
   HIELO,
   MEDICINA,
