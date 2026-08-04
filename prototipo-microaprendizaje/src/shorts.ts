@@ -1,9 +1,12 @@
 import { AGUA } from "./historias/agua";
 import { ARTE } from "./historias/arte";
+import { ASCENSORES } from "./historias/ascensores";
 import { AVIACION } from "./historias/aviacion";
 import { AZAR } from "./historias/azar";
 import { BARCOS } from "./historias/barcos";
+import { BIBLIOTECAS } from "./historias/bibliotecas";
 import { BICHOS } from "./historias/bichos";
+import { BOMBEROS } from "./historias/bomberos";
 import { CATASTROFES } from "./historias/catastrofes";
 import { CIENCIA } from "./historias/ciencia";
 import { CINE } from "./historias/cine";
@@ -41,6 +44,7 @@ import { MAR } from "./historias/mar";
 import { MATEMATICAS } from "./historias/matematicas";
 import { MEDICINA } from "./historias/medicina";
 import { MEDIDAS } from "./historias/medidas";
+import { MONTANAS } from "./historias/montanas";
 import { MOTOR } from "./historias/motor";
 import { MUERTE } from "./historias/muerte";
 import { MUSICA } from "./historias/musica";
@@ -253,6 +257,7 @@ export const SHORTS: Short[] = intercala(
   COSMOS,
   VOLCANES,
   CATASTROFES,
+  MONTANAS,
   ESPANA,
   TRENES,
   POLITICA,
@@ -264,6 +269,7 @@ export const SHORTS: Short[] = intercala(
   MOTOR,
   CIENCIA,
   ARTE,
+  BOMBEROS,
   GUERRA,
   ESCLAVITUD,
   AVIACION,
@@ -281,12 +287,14 @@ export const SHORTS: Short[] = intercala(
   CINE,
   RADIO,
   PREHISTORIA,
+  ASCENSORES,
   COMIDA,
   JUSTICIA,
   FOTOGRAFIA,
   CRIMEN,
   VIDEOJUEGOS,
   PALABRAS,
+  BIBLIOTECAS,
   MAR,
   PLASTICO,
   CIUDADES,
