@@ -1,6 +1,7 @@
 import { ACERO } from "./historias/acero";
 import { AGUA } from "./historias/agua";
 import { ALCOHOL } from "./historias/alcohol";
+import { ANESTESIA } from "./historias/anestesia";
 import { APELLIDOS } from "./historias/apellidos";
 import { ARTE } from "./historias/arte";
 import { ASCENSORES } from "./historias/ascensores";
@@ -15,6 +16,7 @@ import { BICHOS } from "./historias/bichos";
 import { BOMBEROS } from "./historias/bomberos";
 import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
+import { CARBON } from "./historias/carbon";
 import { CASTILLOS } from "./historias/castillos";
 import { CATASTROFES } from "./historias/catastrofes";
 import { CEMENTERIOS } from "./historias/cementerios";
@@ -62,6 +64,7 @@ import { ISLAS } from "./historias/islas";
 import { JUEGOS } from "./historias/juegos";
 import { JUSTICIA } from "./historias/justicia";
 import { LENGUAS } from "./historias/lenguas";
+import { LLAVES } from "./historias/llaves";
 import { MAPAS } from "./historias/mapas";
 import { MAQUINA_ESCRIBIR } from "./historias/maquinaescribir";
 import { MAR } from "./historias/mar";
@@ -78,6 +81,7 @@ import { MUSICA } from "./historias/musica";
 import { OBJETOS } from "./historias/objetos";
 import { ORO } from "./historias/oro";
 import { PALABRAS } from "./historias/palabras";
+import { PARAGUAS } from "./historias/paraguas";
 import { PASAPORTES } from "./historias/pasaportes";
 import { PERFUME } from "./historias/perfume";
 import { PERIODICOS } from "./historias/periodicos";
@@ -303,6 +307,7 @@ export const SHORTS: Short[] = intercala(
   SEDA,
   ISLAS,
   BARCOS,
+  CARBON,
   SUBMARINOS,
   FAROS,
   EPIDEMIAS,
@@ -335,6 +340,7 @@ export const SHORTS: Short[] = intercala(
   PASAPORTES,
   PERFUME,
   ARTE,
+  ANESTESIA,
   RUEDA,
   BOMBEROS,
   GUERRA,
@@ -394,6 +400,7 @@ export const SHORTS: Short[] = intercala(
   ESPEJOS,
   BASURA,
   PLANTAS,
+  PARAGUAS,
   TABACO,
   LENGUAS,
   ESCUELA,
@@ -409,6 +416,7 @@ export const SHORTS: Short[] = intercala(
   SANGRE,
   ESPIONAJE,
   JUEGOS,
+  LLAVES,
   TELEVISION,
   DINERO,
   MONEDA,
