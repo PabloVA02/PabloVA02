@@ -4,12 +4,14 @@ import { ARTE } from "./historias/arte";
 import { ASCENSORES } from "./historias/ascensores";
 import { AVIACION } from "./historias/aviacion";
 import { AZAR } from "./historias/azar";
+import { BANCA } from "./historias/banca";
 import { BARCOS } from "./historias/barcos";
 import { BASURA } from "./historias/basura";
 import { BIBLIOTECAS } from "./historias/bibliotecas";
 import { BICHOS } from "./historias/bichos";
 import { BOMBEROS } from "./historias/bomberos";
 import { BRUJULA } from "./historias/brujula";
+import { CABALLOS } from "./historias/caballos";
 import { CATASTROFES } from "./historias/catastrofes";
 import { CIENCIA } from "./historias/ciencia";
 import { CINE } from "./historias/cine";
@@ -69,8 +71,10 @@ import { RADIO } from "./historias/radio";
 import { REDES } from "./historias/redes";
 import { RELOJES } from "./historias/relojes";
 import { ROPA } from "./historias/ropa";
+import { RUEDA } from "./historias/rueda";
 import { SEMAFOROS } from "./historias/semaforos";
 import { SUENO } from "./historias/sueno";
+import { TE } from "./historias/te";
 import { TECNOLOGIA } from "./historias/tecnologia";
 import { TELEFONO } from "./historias/telefono";
 import { TELESCOPIO } from "./historias/telescopio";
@@ -280,12 +284,14 @@ export const SHORTS: Short[] = intercala(
   ELECTRICIDAD,
   AGUA,
   BICHOS,
+  CABALLOS,
   PUENTES,
   MOTOR,
   REDES,
   CIENCIA,
   PERFUME,
   ARTE,
+  RUEDA,
   BOMBEROS,
   GUERRA,
   ESCLAVITUD,
@@ -312,6 +318,7 @@ export const SHORTS: Short[] = intercala(
   JUSTICIA,
   FOTOGRAFIA,
   CRIMEN,
+  TE,
   VIDEOJUEGOS,
   PALABRAS,
   BIBLIOTECAS,
@@ -327,6 +334,7 @@ export const SHORTS: Short[] = intercala(
   DEPORTE,
   HOSPITALES,
   INVENTOS,
+  BANCA,
   OBJETOS,
   BASURA,
   PLANTAS,
