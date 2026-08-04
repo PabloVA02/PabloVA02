@@ -22,6 +22,7 @@ import { BOSQUES } from "./historias/bosques";
 import { BRUJULA } from "./historias/brujula";
 import { CABALLOS } from "./historias/caballos";
 import { CAMAS } from "./historias/camas";
+import { CANALES } from "./historias/canales";
 import { CARBON } from "./historias/carbon";
 import { CARRETERAS } from "./historias/carreteras";
 import { CASTILLOS } from "./historias/castillos";
@@ -63,12 +64,14 @@ import { FOTOGRAFIA } from "./historias/fotografia";
 import { FRIGORIFICO } from "./historias/frigorifico";
 import { GAFAS } from "./historias/gafas";
 import { GLOBOS } from "./historias/globos";
+import { GREMIOS } from "./historias/gremios";
 import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
 import { HIGIENE } from "./historias/higiene";
 import { HOSPITALES } from "./historias/hospitales";
 import { IMPRENTA_ORIENTAL } from "./historias/imprentaoriental";
 import { IMPUESTOS } from "./historias/impuestos";
+import { INFANCIA } from "./historias/infancia";
 import { INVENTOS } from "./historias/inventos";
 import { ISLAS } from "./historias/islas";
 import { JARDINES } from "./historias/jardines";
@@ -102,6 +105,7 @@ import { PEREGRINOS } from "./historias/peregrinos";
 import { PERFUME } from "./historias/perfume";
 import { PERIODICOS } from "./historias/periodicos";
 import { PERROS } from "./historias/perros";
+import { PESCA } from "./historias/pesca";
 import { PETROLEO } from "./historias/petroleo";
 import { PLANTAS } from "./historias/plantas";
 import { PLASTICO } from "./historias/plastico";
@@ -392,6 +396,7 @@ export const SHORTS: Short[] = intercala(
   ORO,
   BANDERAS,
   TELEFONO,
+  PESCA,
   CREENCIAS,
   JARDINES,
   ESCRITURA,
@@ -421,6 +426,7 @@ export const SHORTS: Short[] = intercala(
   IMPRENTA_ORIENTAL,
   FOTOGRAFIA,
   MUSEOS,
+  GREMIOS,
   LANA,
   CRIMEN,
   TE,
@@ -435,6 +441,7 @@ export const SHORTS: Short[] = intercala(
   GAFAS,
   PLASTICO,
   CIUDADES,
+  INFANCIA,
   ARADO,
   CEMENTO,
   AZAR,
@@ -467,6 +474,7 @@ export const SHORTS: Short[] = intercala(
   HIELO,
   ZAPATOS,
   MEDICINA,
+  CANALES,
   RAYOSX,
   SANGRE,
   ESPIONAJE,
