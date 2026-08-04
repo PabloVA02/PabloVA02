@@ -27,19 +27,19 @@ export const ALGODON: Short[] = [
       {
         rotulo: "El peine",
         texto:
-          "El aparato es de una simplicidad casi ofensiva: un cilindro con ganchos de alambre que gira dentro de un cajón, atraviesa una rejilla y arrastra la fibra hacia un lado dejando las semillas al otro, demasiado gordas para pasar. Un cepillo giratorio recoge la fibra del alambre para que no se atasque. Con manivela, una persona limpiaba entonces unos veinticinco kilos al día, cincuenta veces más que a mano; con tracción animal o de agua, mucho más. Copiarlo era tan fácil que la patente resultó imposible de defender y su inventor apenas ganó dinero.",
+          "El aparato es de una simplicidad casi ofensiva. Dentro de un cajón gira un cilindro erizado de ganchos de alambre, que atraviesan una rejilla y arrastran la fibra hacia un lado. Las semillas, demasiado gordas para pasar entre los barrotes, se quedan al otro. Un cepillo giratorio recoge la fibra del alambre para que no se atasque. Con manivela, una persona limpiaba entonces unos veinticinco kilos al día, cincuenta veces más que a mano; con tracción animal o de agua, mucho más. Copiarlo era tan fácil que la patente resultó imposible de defender y su inventor apenas ganó dinero.",
         destacado: { tipo: "cifra", cifra: "50", unidad: "veces más rápido que a mano" },
       },
       {
         rotulo: "El efecto contrario",
         texto:
-          "Lo esperable era que una máquina que ahorra trabajo redujera la necesidad de mano de obra. Pasó justo lo contrario. Al desaparecer el cuello de botella de la limpieza, se volvió rentable plantar algodón en todas partes, y lo que ahora hacía falta a manos llenas era sembrar, cuidar y sobre todo recoger, tareas que ninguna máquina sabía hacer. La superficie cultivada se disparó, el sur se llenó de plantaciones y el número de personas esclavizadas en aquellos estados pasó de unas setecientas mil en 1790 a casi cuatro millones en 1860.",
+          "Lo esperable era que una máquina que ahorra trabajo redujera la necesidad de mano de obra. Pasó justo lo contrario. Al desaparecer el atasco de la limpieza, se volvió rentable plantar algodón en todas partes. Y lo que hacía falta entonces a manos llenas era sembrar, cuidar y sobre todo recoger, tareas que ninguna máquina sabía hacer. La superficie cultivada se disparó, el sur se llenó de plantaciones y el número de personas esclavizadas en aquellos estados pasó de unas setecientas mil en 1790 a casi cuatro millones en 1860.",
         destacado: { tipo: "frase", frase: "El cuello de botella se movió al campo, y allí no había máquinas." },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó un ejemplo que se estudia hoy en economía y en historia de la tecnología: una innovación que ahorra trabajo en un punto de la cadena puede disparar la demanda de trabajo en otro, y el efecto neto depende de qué parte se automatiza. Aquel aparato hizo del algodón la primera exportación del país y alimentó las fábricas textiles del otro lado del Atlántico. Y quedó la parte incómoda de la historia: el invento que se enseñaba como ejemplo de ingenio americano fue también el que ató la esclavitud a la economía durante otras dos generaciones.",
+          "Quedó un ejemplo que se estudia hoy en economía y en historia de la tecnología. Una máquina que ahorra trabajo en un punto de la cadena puede disparar la demanda de trabajo en el siguiente, y el resultado final depende de qué parte se automatiza. Aquel aparato hizo del algodón la primera exportación del país y alimentó las fábricas textiles del otro lado del Atlántico. Y quedó la parte incómoda de la historia: el invento que se enseñaba como ejemplo de ingenio americano fue también el que ató la esclavitud a la economía durante otras dos generaciones.",
       },
     ],
   },
@@ -52,12 +52,12 @@ export const ALGODON: Short[] = [
     curioso: true,
     encargo: "Una tela blanquísima y translúcida colgando, con la luz pasando a través.",
     entrada:
-      "Bengala, siglos XVII y XVIII. En la llanura de un gran río se teje el tejido más fino del mundo, una muselina de algodón tan ligera que una pieza de varios metros cabe en una caja de cerillas y pasa entera por un anillo. Se exporta a las cortes europeas a precios altísimos, y en el siglo XIX desaparece por completo.",
+      "Bengala, siglos XVII y XVIII. En la llanura de un gran río se teje el tejido más fino del mundo. Es una muselina de algodón tan ligera que una pieza de varios metros cabe en una caja de cerillas y pasa entera por un anillo. Se exporta a las cortes europeas a precios altísimos, y en el siglo XIX desaparece por completo.",
     paginas: [
       {
         rotulo: "El hilo",
         texto:
-          "Todo dependía de una variedad de algodón que solo crecía bien en las orillas de aquel río, con una fibra especialmente fina y corta. Hilarla exigía una habilidad extraordinaria y unas condiciones muy concretas: se trabajaba de madrugada o sobre el agua, en barcas, porque con el aire seco del día el hilo se quebraba y solo la humedad alta permitía trabajarlo. Las mejores hilanderas eran mujeres jóvenes con la vista muy fina, y se decía que a partir de cierta edad ya no se podía hilar la calidad más alta.",
+          "Todo dependía de una variedad de algodón que solo crecía bien en las orillas de aquel río, con una fibra especialmente fina y corta. Hilarla exigía una habilidad extraordinaria y unas condiciones muy concretas. Se trabajaba de madrugada, o directamente sobre el agua, en barcas: con el aire seco del día el hilo se quebraba, y solo con mucha humedad aguantaba. Las mejores hilanderas eran mujeres jóvenes con la vista muy fina, y se decía que a partir de cierta edad ya no se podía hilar la calidad más alta.",
         destacado: { tipo: "frase", frase: "Se hilaba sobre el agua, porque con aire seco el hilo se rompía." },
       },
       {
@@ -69,7 +69,7 @@ export const ALGODON: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedaron piezas en museos, tan finas que cuesta creer que se hicieran a mano. Y quedó un intento de recuperación: desde 2014, un equipo de botánicos y tejedores ha buscado la planta original a partir de muestras de herbario y de análisis genético, ha encontrado parientes silvestres a orillas del mismo río y ha conseguido tejer de nuevo piezas con hilo comparable, aunque todavía no igual. El proyecto ha necesitado años de trabajo para recomponer algo que se hacía de madrugada, junto al agua, y que nadie se molestó en escribir.",
+          "Quedaron piezas en museos, tan finas que cuesta creer que se hicieran a mano. Y quedó un intento de recuperación. Desde 2014, un equipo de botánicos y tejedores busca la planta original a partir de muestras de herbario y de análisis genético. Han encontrado parientes silvestres a orillas del mismo río y han vuelto a tejer piezas con un hilo parecido, aunque todavía no igual. El proyecto ha necesitado años de trabajo para recomponer algo que se hacía de madrugada, junto al agua, y que nadie se molestó en escribir.",
       },
     ],
   },
@@ -81,7 +81,7 @@ export const ALGODON: Short[] = [
     color: "var(--plum)",
     encargo: "Un campo de algodón con las cápsulas blancas abiertas bajo un sol duro.",
     entrada:
-      "El algodón se cultiva desde hace más de cinco mil años y hoy ocupa cerca del dos por ciento de la tierra de labranza del mundo, pero se lleva una parte mucho mayor del agua de riego. La razón está en la planta: es un arbusto de zonas cálidas que necesita agua constante durante meses, y casi todo el algodón del mundo se cultiva en sitios donde no llueve lo suficiente.",
+      "El algodón se cultiva desde hace más de cinco mil años y hoy ocupa cerca del dos por ciento de la tierra de labranza. Del agua de riego, en cambio, se lleva una parte mucho mayor. La razón está en la planta: es un arbusto de zonas cálidas que necesita agua constante durante meses, y casi todo el algodón del mundo se cultiva en sitios donde no llueve lo suficiente.",
     paginas: [
       {
         rotulo: "La cuenta",
@@ -98,7 +98,7 @@ export const ALGODON: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó una forma de mirar los objetos que se llama huella hídrica y que sirve para cualquier cosa: sumar el agua que ha hecho falta a lo largo de toda la cadena, no solo la que sale del grifo al usarla. Con ese criterio, la ropa que compramos pesa mucho más de lo que parece. Y quedó una consecuencia práctica que no tiene nada de moralista: alargar la vida de una prenda de algodón es, con diferencia, la decisión que más agua ahorra, muy por encima de cómo se lave.",
+          "Quedó una forma de mirar los objetos que se llama huella hídrica y que vale para cualquier cosa. Consiste en sumar toda el agua que ha hecho falta a lo largo de la cadena, y no solo la que sale del grifo al usarlos. Con ese criterio, la ropa que compramos pesa mucho más de lo que parece. Y quedó una consecuencia práctica que no tiene nada de moralista: alargar la vida de una prenda de algodón es, con diferencia, la decisión que más agua ahorra, muy por encima de cómo se lave.",
       },
     ],
   },

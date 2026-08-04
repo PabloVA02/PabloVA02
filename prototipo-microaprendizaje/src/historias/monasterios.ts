@@ -27,7 +27,7 @@ export const MONASTERIOS: Short[] = [
       {
         rotulo: "El que vela",
         texto:
-          "La solución inicial fue humana. Un monje se encargaba de no dormir, o de dormir a ratos, y de avisar al resto tocando una campanilla. Para orientarse usaba cualquier cosa que midiera el paso del tiempo: una vela marcada con rayas que se consumía a ritmo conocido, un reloj de agua que goteaba de un recipiente a otro, la posición de determinadas estrellas por una ventana. La regla lo dice sin rodeos: si el hermano encargado se equivoca y la comunidad se levanta tarde, la culpa es suya y debe reconocerlo en público.",
+          "La solución inicial fue humana. Un monje se encargaba de no dormir, o de dormir a ratos, y de avisar al resto tocando una campanilla. Para orientarse usaba cualquier cosa que midiera el paso del tiempo. Una vela marcada con rayas, que se consumía a un ritmo conocido. Un reloj de agua, que goteaba de un recipiente a otro. O la posición de ciertas estrellas vistas por una ventana. La regla lo dice sin rodeos: si el hermano encargado se equivoca y la comunidad se levanta tarde, la culpa es suya y debe reconocerlo en público.",
         destacado: { tipo: "frase", frase: "Si la comunidad se levantaba tarde, la culpa era suya." },
       },
       {
@@ -39,7 +39,7 @@ export const MONASTERIOS: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó la costumbre de organizar el día en tramos iguales anunciados por una campana, que salió del claustro a la torre de la iglesia, y de la torre de la iglesia al campanario del ayuntamiento y a la sirena de la fábrica. Quedaron los nombres de aquellas horas en el idioma, incluida la siesta, que era la sexta. Y quedó una ironía que a los propios monjes les habría hecho gracia: la disciplina horaria que se inventó para no faltar a la oración es la misma que rige hoy los turnos, los fichajes y los horarios de tren.",
+          "Quedó la costumbre de partir el día en tramos iguales anunciados por una campana. Del claustro pasó a la torre de la iglesia. De ahí, al reloj del ayuntamiento y a la sirena de la fábrica. Quedaron los nombres de aquellas horas en el idioma, incluida la siesta, que era la sexta. Y quedó una ironía que a los propios monjes les habría hecho gracia. La disciplina horaria se inventó para no faltar a la oración. Es la misma que rige hoy los turnos, los fichajes y los horarios de tren.",
       },
     ],
   },
@@ -62,13 +62,13 @@ export const MONASTERIOS: Short[] = [
       {
         rotulo: "Guardar el año",
         texto:
-          "El queso responde a lo mismo. La leche se estropea en horas y el queso curado dura años, así que un monasterio con vacas u ovejas convertía el excedente de primavera en comida de invierno, y de paso en mercancía para vender. Varias abadías desarrollaron quesos de corteza lavada, licores de hierbas destilados como remedio medicinal y vinos de gran calidad, y algunos de esos productos conservan hoy el nombre y la receta. La regla monástica exigía trabajar con las manos unas horas al día, y ese mandato, repetido durante siglos en cientos de casas, acabó produciendo una industria alimentaria completa.",
+          "El queso responde a lo mismo. La leche se estropea en horas y el queso curado dura años. Así que un monasterio con vacas u ovejas convertía el sobrante de primavera en comida de invierno. Y, de paso, en mercancía para vender. Varias abadías desarrollaron quesos de corteza lavada, licores de hierbas destilados como remedio medicinal y vinos de gran calidad, y algunos de esos productos conservan hoy el nombre y la receta. La regla monástica exigía trabajar con las manos unas horas al día, y ese mandato, repetido durante siglos en cientos de casas, acabó produciendo una industria alimentaria completa.",
         destacado: { tipo: "cifra", cifra: "100", unidad: "personas había que alimentar a diario" },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedaron marcas. Un puñado de cervecerías monásticas siguen produciendo bajo control de la comunidad, con la condición de que el negocio no busque beneficio más allá de mantener la casa y ayudar a obras sociales, y sus botellas se venden en medio mundo. Quedaron denominaciones de queso, licores de hierbas cuya receta guarda una comunidad y viñedos que llevan mil años en producción. Y quedó una idea que explica el edificio entero: aquellos claustros no eran solo lugares de retiro, eran las empresas mejor organizadas de su tiempo, con inventario, especialización del trabajo y libros de cuentas que hoy estudian los historiadores de la economía.",
+          "Quedaron marcas. Un puñado de cervecerías monásticas siguen produciendo bajo control de la comunidad. La condición es estricta: el negocio no puede buscar beneficio más allá de mantener la casa y ayudar a obras sociales. Sus botellas se venden en medio mundo. Quedaron denominaciones de queso, licores de hierbas cuya receta guarda una comunidad y viñedos que llevan mil años en producción. Y quedó una idea que explica el edificio entero. Aquellos claustros no eran solo lugares de retiro: eran las empresas mejor organizadas de su tiempo. Tenían inventario, reparto de tareas y libros de cuentas que hoy estudian los historiadores de la economía.",
       },
     ],
   },
@@ -80,24 +80,24 @@ export const MONASTERIOS: Short[] = [
     color: "var(--plum)",
     encargo: "Un atril inclinado con un libro grande abierto y un tintero al lado.",
     entrada:
-      "Europa, siglos VIII a XIV. Antes de la imprenta, un libro es un objeto artesanal carísimo: hace falta el pergamino, hecho con pieles de animal raspadas y estiradas; la tinta, cocida a mano; los colores, molidos a partir de piedras; y sobre todo un copista que escriba letra a letra durante meses. Los monasterios eran el sitio donde se hacía eso.",
+      "Europa, siglos VIII a XIV. Antes de la imprenta, un libro es un objeto artesanal carísimo. Hace falta pergamino, que se obtiene raspando y estirando pieles de animal, además de tinta cocida a mano y de colores molidos a partir de piedras traídas de lejos. Y hace falta, sobre todo, alguien que lo copie letra a letra durante meses. Los monasterios eran el sitio donde se hacía eso.",
     paginas: [
       {
         rotulo: "Las pieles",
         texto:
-          "La cuenta material asusta. Un libro grande podía llevarse las pieles de doscientos animales, porque de cada oveja salen dos hojas dobles útiles después de raspar, estirar y cortar. Ese material había que producirlo en la propia granja del monasterio. La tinta negra se cocía con agallas de roble y sulfato de hierro; el azul más caro venía de una piedra traída de Asia y costaba más que el oro por peso, así que se reservaba para el manto de las figuras importantes. Cada página era una inversión que había que decidir de antemano, y por eso los libros se encargaban, no se compraban hechos.",
+          "La cuenta material asusta. Un libro grande podía llevarse las pieles de doscientos animales, porque de cada oveja salen dos hojas dobles útiles después de raspar, estirar y cortar. Ese material había que producirlo en la propia granja del monasterio. La tinta negra se cocía con agallas de roble y sulfato de hierro. El azul más caro venía de una piedra traída de Asia y costaba más que el oro a igualdad de peso. Por eso se reservaba para el manto de las figuras importantes. Cada página era una inversión que había que decidir de antemano, y por eso los libros se encargaban, no se compraban hechos.",
         destacado: { tipo: "cifra", cifra: "200", unidad: "animales podía costar un solo libro" },
       },
       {
         rotulo: "La sala",
         texto:
-          "El taller de copia era una sala fría, con ventanas grandes y sin fuego, porque una chispa podía acabar con todo. Se trabajaba solo con luz natural, de pie o sentado ante atriles inclinados, y en silencio: los copistas se comunicaban con señas para no distraerse. En los márgenes de los manuscritos conservados aparecen sus quejas escritas en letra pequeña, y son de lo más humano que se conserva de la Edad Media: que si hace frío, que si la tinta es mala, que si se acaba ya el trabajo, que si duele la espalda.",
+          "El taller de copia era una sala fría, con ventanas grandes y sin fuego, porque una chispa podía acabar con todo. Se trabajaba solo con luz natural, de pie o sentado ante atriles inclinados, y en silencio: los copistas se comunicaban con señas para no distraerse. En los márgenes de los manuscritos aparecen sus quejas, escritas en letra pequeña. Son de lo más humano que ha llegado de la Edad Media. Que si hace frío. Que si la tinta es mala. Que si duele la espalda y cuándo se acaba esto.",
         destacado: { tipo: "frase", frase: "En los márgenes se quejaban del frío y de la mala tinta." },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó todo lo que sabemos de la Antigüedad. Casi ningún texto griego o latino se conserva en su original: lo que ha llegado hasta nosotros son copias de copias hechas en aquellas salas, y muchas obras sobreviven en un único manuscrito que alguien decidió copiar en algún momento. Quedaron también los hábitos de lectura: el espacio entre palabras, los signos de puntuación, los índices y los números de página se inventaron ahí para poder consultar sin leerlo todo. Cuando llegó la imprenta, el libro ya tenía forma de libro: lo único que cambió fue cuántas copias podían hacerse y a qué precio.",
+          "Quedó todo lo que sabemos de la Antigüedad. Casi ningún texto griego o latino se conserva en su original. Lo que ha llegado hasta nosotros son copias de copias hechas en aquellas salas. Y muchas obras sobreviven en un único manuscrito, porque alguien decidió copiarlas una vez. Quedaron también los hábitos de lectura: el espacio entre palabras, los signos de puntuación, los índices y los números de página se inventaron ahí para poder consultar sin leerlo todo. Cuando llegó la imprenta, el libro ya tenía forma de libro: lo único que cambió fue cuántas copias podían hacerse y a qué precio.",
       },
     ],
   },

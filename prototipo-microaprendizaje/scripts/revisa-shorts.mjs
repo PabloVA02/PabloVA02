@@ -126,6 +126,26 @@ for (const ruta of ficheros) {
     if (propios.size > 2)
       aviso(id, `${propios.size} nombres propios poco conocidos: ${[...propios].join(", ")}`);
 
+    /* Regla 10 del molde: fácil de leer. Una frase kilométrica obliga al
+       lector a volver atrás, y eso es exactamente lo que no puede pasar. */
+    for (const [i, t] of [entrada, ...paginas.map((p) => p[2])].entries()) {
+      const frases = t.replace(/<[^>]+>/g, "").split(/(?<=[.!?])\s+/);
+      const donde = i ? "la página " + i : "la entrada";
+      const larga = frases.find((f) => palabras(f) > 35);
+      if (larga)
+        aviso(id, `frase de ${palabras(larga)} palabras en ${donde}: «${larga.slice(0, 45)}…»`);
+      /* Y el defecto contrario: tres frases seguidas muy cortas suenan a
+         telegrama. La media también avisa de un texto picado. */
+      for (let k = 0; k + 2 < frases.length; k++)
+        if (frases.slice(k, k + 3).every((f) => palabras(f) < 10)) {
+          aviso(id, `picadillo en ${donde}: «${frases[k].slice(0, 40)}…»`);
+          break;
+        }
+      const media = palabras(t) / Math.max(frases.length, 1);
+      if (frases.length > 3 && media < 13)
+        aviso(id, `frases de ${media.toFixed(1)} palabras de media en ${donde} (mín. 13)`);
+    }
+
     /* Erratas */
     for (const t of [entrada, ...paginas.map((p) => p[2])]) {
       if (/ {2}/.test(t)) aviso(id, "doble espacio");

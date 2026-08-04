@@ -95,6 +95,71 @@ No: la enumeración de cargos, la lista de batallas, la fecha exacta de todo.
 Frase larga con subordinadas y detrás una corta que aterriza. «Tenía razón.
 No le sirvió de nada.» Si todas las frases miden lo mismo, suena a máquina.
 
+## 8. El marco grande, con su nombre
+
+Situar el año y el sitio no basta. Hay que decir **de qué acontecimiento
+conocido forma parte** la historia, con el nombre que el lector ha oído
+alguna vez, y **qué se jugaba**.
+
+Mal: «Reino Unido, 1917. Los submarinos alemanes están hundiendo mercantes a
+un ritmo insostenible.» —¿qué guerra?, ¿por qué los hunden?, ¿qué pasa si
+siguen?—.
+
+Bien: «Océano Atlántico, 1917. Europa lleva tres años en la Primera Guerra
+Mundial y Alemania ha decidido ganarla por hambre. Gran Bretaña es una isla:
+casi toda su comida llega en barco. Por eso sus submarinos hunden cualquier
+carguero que se acerque. Al país le quedan seis semanas de trigo.»
+
+La prueba: si el lector no sabe **por qué alguien hacía eso**, la entrada no
+está terminada.
+
+## 9. Ningún aparato sin explicar antes de usarlo
+
+Cuando aparece una máquina, una pieza o un procedimiento, se explica **qué es
+y qué limitación tiene** antes de contar lo que se hizo con él. Una frase
+basta, pero tiene que ir delante.
+
+Mal: «El submarino apuntaba con un periscopio y disparaba un torpedo hacia
+donde el barco estaría al cabo de un minuto.» —tres cosas nuevas de golpe—.
+
+Bien: «Debajo del agua está ciego. Lo único que ve es lo que entra por el
+periscopio, un tubo con espejos que asoma un palmo sobre las olas. La imagen
+es pequeña y temblorosa… Un torpedo de 1917 no persigue nada: va en línea
+recta y a velocidad fija, así que hay que dispararlo al sitio donde el barco
+estará dentro de un minuto.»
+
+## 10. Fácil de leer, pero no picado
+
+Es la regla que más se incumple, y se incumple por los dos lados.
+
+**Por arriba: la frase kilométrica.** Ninguna frase pasa de 35 palabras. Si
+pasa, el lector tiene que volver atrás para saber de qué se hablaba.
+
+**Por abajo: el picadillo.** Tampoco vale trocearlo todo. Una ristra de
+frases de seis palabras suena a telegrama y cansa igual:
+
+Mal: «El submarino disparó. El torpedo iba recto. El barco viraba. No acertó.»
+
+Bien: «El torpedo salía en línea recta y a velocidad fija, así que el capitán
+no apuntaba al barco, sino al punto donde el barco estaría al cabo de un
+minuto. Si el otro viraba, fallaba.»
+
+**La medida buena está en el medio**: la mayoría de las frases entre quince y
+veinticinco palabras, enlazadas con «porque», «así que», «y por eso», «lo que
+significa que». Y de vez en cuando una corta que remata. Una, no cuatro
+seguidas.
+
+**Enumerar dentro de la frase, no en frases sueltas.** No «Las bandas. Los
+chalecos. Los bomberos.», sino «las bandas, los chalecos de los operarios de
+carretera y los uniformes de emergencias».
+
+**El orden manda más que la longitud**: primero lo que hace falta para
+entender lo siguiente. Si hay que retroceder a explicar algo, es que iba
+antes. Y nada de incisos largos entre guiones en mitad de una explicación.
+
+La prueba es leerlo en voz alta: no hay que quedarse sin aire, y tampoco debe
+sonar a lista de la compra.
+
 ## Medidas
 
 | Campo | Medida |
@@ -117,4 +182,7 @@ acontecimiento: se pinta la insignia «Dato curioso» en la portada.
 4. ¿Se cuenta una sola cosa, en orden?
 5. ¿La última frase recoge la primera?
 6. ¿Hay al menos un detalle físico por página?
-7. ¿Están todas las medidas dentro de rango?
+7. ¿Se dice de qué guerra, qué país o qué época conocida forma parte?
+8. ¿Hay algún aparato o término usado antes de explicarlo?
+9. ¿Hay alguna frase de más de 35 palabras?
+10. ¿Están todas las medidas dentro de rango?

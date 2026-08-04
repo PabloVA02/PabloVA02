@@ -28,7 +28,7 @@ export const ZAPATOS: Short[] = [
       {
         rotulo: "La horma",
         texto:
-          "El motivo era económico. Una horma es el molde de madera sobre el que se monta el zapato, y hacer hormas simétricas significaba la mitad de moldes, la mitad de patrones y un almacén mucho más simple, porque cualquier zapato servía para cualquier pie. Con cueros rígidos y costuras a mano, además, la diferencia se notaba menos de lo que parece: el cuero cede y termina tomando la forma del pie al cabo de unas semanas, aunque esas semanas fueran una tortura para el que estrenaba. Los zapatos de lujo sí se hacían a medida, con horma propia del cliente, y esa era buena parte de lo que se pagaba.",
+          "El motivo era económico. Una horma es el molde de madera sobre el que se monta el zapato. Hacer hormas simétricas significaba la mitad de moldes y la mitad de patrones. Y un almacén mucho más simple, porque cualquier zapato valía para cualquier pie. Con cueros rígidos y costuras a mano, además, la diferencia se notaba menos de lo que parece. El cuero cede y acaba tomando la forma del pie en unas semanas. Otra cosa es lo que dolían esas semanas. Los zapatos de lujo sí se hacían a medida, con horma propia del cliente, y esa era buena parte de lo que se pagaba.",
         destacado: { tipo: "frase", frase: "El zapato no se adaptaba al pie: el pie se adaptaba al zapato." },
       },
       {
@@ -40,7 +40,7 @@ export const ZAPATOS: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó una asimetría que hoy damos por evidente y que tiene siglo y medio, no más. Quedó también la horma como objeto: cada modelo de zapato se sigue construyendo sobre una, y las diferencias entre marcas que hacen que un número te valga en una y no en otra son diferencias de horma, no de talla. Y quedó el consejo antiguo de alternar los zapatos, que se daba para que se gastaran igual y hoy se repite por otra razón: para que el cuero se seque del todo entre puesta y puesta.",
+          "Quedó una asimetría que hoy damos por evidente y que tiene siglo y medio, no más. Quedó también la horma como objeto: cada modelo de zapato se sigue construyendo sobre una. Y de ahí viene algo que desconcierta a todo el mundo. Si un número te vale en una marca y no en otra, la culpa no es de la talla, es de la horma. Y quedó el consejo antiguo de ir alternando los zapatos. Antes se daba para que se gastaran por igual. Hoy se repite por otra razón: para que el cuero se seque del todo entre una puesta y la siguiente.",
       },
     ],
   },
@@ -57,19 +57,19 @@ export const ZAPATOS: Short[] = [
       {
         rotulo: "Tres sistemas",
         texto:
-          "Hoy conviven tres escalas incompatibles y por eso nadie sabe qué número calza de verdad. La británica empieza a contar desde el zapato más pequeño fabricable, la americana usa el mismo paso de grano pero arranca en otro punto, y la europea, llamada punto francés, mide la longitud de la horma en unidades de dos tercios de centímetro. Como la horma es más larga que el pie —hace falta holgura para los dedos—, el número europeo no coincide con la longitud del pie ni con ninguna medida que el usuario pueda tomarse en casa.",
+          "Hoy conviven tres escalas incompatibles y por eso nadie sabe qué número calza de verdad. La británica empieza a contar desde el zapato más pequeño que se podía fabricar. La americana usa el mismo paso de grano, pero arranca en otro punto. Y la europea, llamada punto francés, mide la horma en unidades de dos tercios de centímetro. La horma es siempre más larga que el pie, porque los dedos necesitan holgura. Por eso el número europeo no coincide con lo que mide tu pie ni con nada que puedas medirte en casa.",
         destacado: { tipo: "cifra", cifra: "8,5", unidad: "milímetros de diferencia entre dos números" },
       },
       {
         rotulo: "Medir el pie",
         texto:
-          "El aparato metálico con reglas deslizantes que había en todas las zapaterías se patentó en 1927 y mide tres cosas a la vez: el largo del pie, el ancho y la posición del arco. Se recomienda medir a última hora del día, porque el pie se hincha con las horas y puede crecer casi un número entero, y con el peso repartido sobre los dos pies, porque de pie se alarga. Uno de cada tres adultos tiene además un pie medio número mayor que el otro, y la regla es comprar por el grande.",
+          "El aparato metálico con reglas deslizantes que había en todas las zapaterías se patentó en 1927 y mide tres cosas a la vez: el largo del pie, el ancho y la posición del arco. Se recomienda medir a última hora del día, porque el pie se hincha con las horas y puede crecer casi un número entero. Y de pie, con el peso repartido sobre los dos, porque así se alarga. Uno de cada tres adultos tiene además un pie medio número mayor que el otro, y la regla es comprar por el grande.",
         destacado: { tipo: "frase", frase: "El pie crece a lo largo del día: hay que medirlo por la tarde." },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó un lío de tallas que las tiendas online intentan resolver con tablas de equivalencia que no siempre cuadran, porque cada fabricante usa su horma. Quedó el grano de cebada convertido en unidad de calzado, seis siglos después de un decreto que buscaba otra cosa. Y quedó un dato que explica muchas molestias: los estudios sobre calzado encuentran que una proporción altísima de la gente lleva zapatos que no son de su medida, casi siempre pequeños, porque compró el número que cree tener desde hace años y no el que le vale ahora, cuando el pie de un adulto sigue cambiando de forma con la edad.",
+          "Quedó un lío de tallas que las tiendas online intentan resolver con tablas de equivalencia que no siempre cuadran, porque cada fabricante usa su horma. Quedó el grano de cebada convertido en unidad de calzado, seis siglos después de un decreto que buscaba otra cosa. Y quedó un dato que explica muchas molestias. Los estudios sobre calzado encuentran que muchísima gente lleva zapatos que no son de su medida, casi siempre pequeños. El motivo es sencillo: compran el número que creen tener desde hace años. El pie de un adulto, mientras tanto, sigue cambiando de forma.",
       },
     ],
   },
@@ -92,13 +92,13 @@ export const ZAPATOS: Short[] = [
       {
         rotulo: "El pegamento",
         texto:
-          "A partir de los años cincuenta se impuso pegar la suela con adhesivos, un método muchísimo más rápido y barato: ni costuras, ni tira intermedia, ni oficio. El zapato resultante es ligero y cómodo, pero cuando la suela se gasta o se despega no hay costura que abrir y el arreglo es una chapuza que dura poco. La mayoría del calzado que se vende hoy está montado así, y por eso el negocio del zapatero se hundió: no es que la gente prefiera tirar, es que el objeto ya no se deja arreglar.",
+          "A partir de los años cincuenta se impuso pegar la suela con adhesivos, un método muchísimo más rápido y barato: ni costuras, ni tira intermedia, ni oficio. El zapato resultante es ligero y cómodo, pero cuando la suela se gasta o se despega no hay costura que abrir y el arreglo es una chapuza que dura poco. La mayoría del calzado que se vende hoy está montado así, y por eso se hundió el negocio del zapatero. No es que la gente prefiera tirar. Es que el objeto ya no se deja arreglar.",
         destacado: { tipo: "cifra", cifra: "20", unidad: "años podía durar un par cosido" },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedan pocos talleres, casi siempre de gente mayor, y una división clara del mercado: el calzado cosido sigue existiendo, cuesta varias veces más y se vende con el argumento de que se resuela. Quedó también un debate que se repite con las lavadoras, los móviles y los coches: si un objeto se fabrica de manera que no pueda repararse, el ahorro del comprador dura lo que dura el objeto. Y quedó un olor —cuero, cola y betún— que todavía puede encontrarse al pasar por delante de alguno de esos talleres, cada vez en menos calles.",
+          "Quedan pocos talleres, casi siempre de gente mayor, y una división clara del mercado: el calzado cosido sigue existiendo, cuesta varias veces más y se vende con el argumento de que se resuela. Quedó también un debate que se repite con las lavadoras, los móviles y los coches. Si un objeto se fabrica de forma que no pueda repararse, el ahorro del comprador dura lo que dure el objeto. Y quedó un olor —cuero, cola y betún— que todavía puede encontrarse al pasar por delante de alguno de esos talleres, cada vez en menos calles.",
       },
     ],
   },

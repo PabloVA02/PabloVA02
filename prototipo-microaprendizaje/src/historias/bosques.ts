@@ -22,12 +22,12 @@ export const BOSQUES: Short[] = [
     color: "var(--ochre)",
     encargo: "Un roble grande y solitario con las ramas muy abiertas en un claro.",
     entrada:
-      "Europa, siglos XVI a XIX. Un barco de guerra de línea es la máquina más compleja y más cara de su tiempo, y está hecho casi enteramente de madera: unos dos mil robles adultos por navío, es decir, unas veinte hectáreas de bosque. El problema es que un roble tarda entre ochenta y ciento veinte años en alcanzar el tamaño necesario.",
+      "Europa, siglos XVI a XIX. Un barco de guerra de línea es la máquina más compleja y más cara de su tiempo, y está hecha casi enteramente de madera. Cada navío se lleva unos dos mil robles adultos, es decir, unas veinte hectáreas de bosque. El problema es que un roble tarda entre ochenta y ciento veinte años en alcanzar el tamaño necesario.",
     paginas: [
       {
         rotulo: "Piezas curvas",
         texto:
-          "No valía cualquier tronco. El casco de un barco necesita piezas rectas para la quilla y la tablazón, pero también muchas piezas curvas —cuadernas, codos, refuerzos— y esas se conseguían buscando ramas y troncos que ya tuvieran la curvatura adecuada, porque una pieza cortada a contraveta se parte. Los inspectores de marina recorrían los bosques marcando árboles concretos con un hacha, y en algunos países estaba prohibido talar los marcados bajo penas severas. Un roble torcido en el sitio justo valía más que diez rectos, y los astilleros mandaban plantillas de madera con la forma exacta que necesitaban para que los buscadores no se equivocaran.",
+          "No valía cualquier tronco. El casco necesita piezas rectas para la quilla y el forro, pero también muchas piezas curvas para las costillas y los refuerzos. Y esas no se pueden cortar de cualquier tronco: una pieza serrada a contraveta se parte. Había que buscar ramas y troncos que ya tuvieran esa curva. Los inspectores de marina recorrían los bosques marcando árboles concretos con un hacha, y en algunos países estaba prohibido talar los marcados bajo penas severas. Un roble torcido en el sitio justo valía más que diez rectos, y los astilleros mandaban plantillas de madera con la forma exacta que necesitaban para que los buscadores no se equivocaran.",
         destacado: { tipo: "cifra", cifra: "2.000", unidad: "robles por barco de guerra" },
       },
       {
@@ -39,7 +39,7 @@ export const BOSQUES: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedaron bosques enteros que hoy son parques naturales y que existen porque alguien los plantó pensando en la guerra. Y quedó una ironía cronológica: cuando aquellos robles alcanzaron por fin el tamaño de corta, a mediados del siglo XIX, los barcos ya se hacían de hierro y nadie los necesitaba. Algunos siguen en pie. En Inglaterra hubo un caso célebre: un almirante donó al Estado un bosque entero para asegurar la madera de la flota, y aquellos árboles, ya inútiles para barcos, se ofrecieron doscientos años más tarde para restaurar los techos de una catedral quemada.",
+          "Quedaron bosques enteros que hoy son parques naturales y que existen porque alguien los plantó pensando en la guerra. Y quedó una ironía cronológica: cuando aquellos robles alcanzaron por fin el tamaño de corta, a mediados del siglo XIX, los barcos ya se hacían de hierro y nadie los necesitaba. Algunos siguen en pie. En Inglaterra hubo un caso célebre. Un almirante donó al Estado un bosque entero para asegurar la madera de la flota, y aquellos árboles, ya inútiles para barcos, se ofrecieron dos siglos después para rehacer el techo de una catedral quemada.",
       },
     ],
   },
@@ -52,7 +52,7 @@ export const BOSQUES: Short[] = [
     curioso: true,
     encargo: "Una ladera de monte cubierta de árboles jóvenes de repoblación.",
     entrada:
-      "Europa, hacia 1900. Después de siglos de talas para leña, carbón vegetal, pasto y campos de cultivo, el continente ha llegado a su mínimo histórico de superficie arbolada: en algunos países quedaba menos de una décima parte del territorio con árboles, y montes enteros eran laderas peladas con matorral. Desde entonces, la tendencia se ha invertido por completo.",
+      "Europa, hacia 1900. Después de siglos de talas para leña, carbón vegetal, pasto y campos de cultivo, el continente ha llegado a su mínimo histórico de superficie arbolada. En algunos países quedaba con árboles menos de una décima parte del territorio, y montes enteros eran laderas peladas. Desde entonces, la tendencia se ha invertido por completo.",
     paginas: [
       {
         rotulo: "Por qué crece",
@@ -63,13 +63,13 @@ export const BOSQUES: Short[] = [
       {
         rotulo: "Los números",
         texto:
-          "Hoy alrededor del cuarenta por ciento de la superficie de la Unión Europea está arbolada, y esa superficie ha crecido de forma continuada durante décadas. España es uno de los casos más marcados: ha pasado de unos siete millones de hectáreas arboladas a comienzos del siglo XX a más de dieciocho millones, con la superficie forestal total rondando la mitad del país. En términos de metros cuadrados de árbol por habitante, este continente está mejor que en cualquier momento desde la Edad Media, y buena parte de ese avance ha ocurrido sin que nadie lo notara, ladera a ladera y década a década.",
+          "Hoy alrededor del cuarenta por ciento de la superficie de la Unión Europea está arbolada, y esa superficie ha crecido de forma continuada durante décadas. España es uno de los casos más marcados. Ha pasado de unos siete millones de hectáreas arboladas a comienzos del siglo XX a más de dieciocho millones hoy, casi la mitad del país contando todo el monte. En metros cuadrados de árbol por habitante, el continente está mejor que en cualquier momento desde la Edad Media. Y casi todo ese avance ha ocurrido sin que nadie lo notara, ladera a ladera.",
         destacado: { tipo: "cifra", cifra: "40", unidad: "por ciento de la UE está arbolado" },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó un dato optimista con letra pequeña. Más bosque no significa mejor bosque: buena parte de lo recuperado son masas jóvenes y densas, muchas veces de una sola especie, con poca diversidad y con una acumulación de material seco que las hace mucho más inflamables que los montes antiguos, que estaban aclarados por el pastoreo y la recogida de leña. Los grandes incendios de las últimas décadas tienen ahí una de sus causas. El continente pasó de quedarse sin árboles a tener que aprender a gestionarlos, que es un problema mucho mejor que el anterior pero sigue siendo un problema.",
+          "Quedó un dato optimista con letra pequeña. Más bosque no significa mejor bosque. Buena parte de lo recuperado son masas jóvenes y muy densas, a menudo de una sola especie, con poca variedad de plantas y de bichos. Y acumulan tanto material seco que arden mucho mejor que los montes antiguos, que el pastoreo y la recogida de leña mantenían aclarados. Los grandes incendios de las últimas décadas tienen ahí una de sus causas. El continente pasó de quedarse sin árboles a tener que aprender a gestionarlos, que es un problema mucho mejor que el anterior pero sigue siendo un problema.",
       },
     ],
   },
@@ -86,7 +86,7 @@ export const BOSQUES: Short[] = [
       {
         rotulo: "Coto real",
         texto:
-          "La protección empezó en el siglo XV, cuando un rey lo declaró coto propio, y siguió con los zares rusos, que mantuvieron guardas, prohibieron talar y castigaron la caza furtiva con dureza. Lo que para los vecinos fue una injusticia durante generaciones resultó ser, sin que nadie lo pretendiera, la única forma de conservación eficaz de la época: mientras el resto del continente se convertía en campos de cultivo, allí siguieron cayéndose los árboles viejos y pudriéndose donde caían, que es exactamente lo que un bosque necesita para ser un bosque viejo.",
+          "La protección empezó en el siglo XV, cuando un rey lo declaró coto propio, y siguió con los zares rusos, que mantuvieron guardas, prohibieron talar y castigaron la caza furtiva con dureza. Lo que para los vecinos fue una injusticia durante generaciones resultó ser, sin que nadie lo pretendiera, la conservación más eficaz de su tiempo. Mientras el resto del continente se convertía en campos de cultivo, allí los árboles viejos siguieron cayéndose y pudriéndose donde caían, que es exactamente lo que un bosque necesita para hacerse viejo. Nadie retiraba la madera muerta porque nadie podía entrar a por ella.",
         destacado: { tipo: "frase", frase: "Lo salvó el privilegio de caza, no ninguna ley de protección." },
       },
       {
@@ -98,7 +98,7 @@ export const BOSQUES: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó un bosque partido por una frontera y por una valla, con la parte más antigua protegida como patrimonio mundial, y quedó una discusión que no se cierra: si hay que dejarlo absolutamente a su aire o intervenir cuando una plaga de escarabajo ataca a los abetos, como ocurrió en la última década. Los partidarios de no tocar nada recuerdan lo que enseña su propia historia: aquel bosque llegó hasta aquí precisamente porque, durante quinientos años, nadie estuvo autorizado a entrar a arreglarlo. Los que defienden intervenir responden que el clima y las plagas de ahora tampoco son los de entonces.",
+          "Quedó un bosque partido por una frontera y por una valla, con la parte más antigua protegida como patrimonio mundial. Y quedó una discusión que no se cierra: si hay que dejarlo del todo a su aire o intervenir cuando una plaga de escarabajo ataca a los abetos, como pasó en la última década. Los partidarios de no tocar nada recuerdan lo que enseña su propia historia: aquel bosque llegó hasta aquí precisamente porque, durante quinientos años, nadie estuvo autorizado a entrar a arreglarlo. Los que defienden intervenir responden que el clima y las plagas de ahora tampoco son los de entonces.",
       },
     ],
   },

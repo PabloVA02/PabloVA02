@@ -33,46 +33,47 @@ export const UNIFORMES: Short[] = [
       {
         rotulo: "El cambio",
         texto:
-          "Todo se dio la vuelta con dos inventos casi simultáneos. La pólvora sin humo, generalizada a partir de 1886, dejó el campo despejado; y el fusil de repetición con cerrojo alcanzaba con puntería a varios centenares de metros. De pronto un hombre de rojo en un campo era un blanco visible y alcanzable. El cambio empezó en la India británica, donde las tropas teñían sus uniformes blancos con tierra, té o café para ensuciarlos y camuflarlos: de ahí viene la palabra caqui, que en la lengua local significa polvoriento. El ejército británico lo adoptó oficialmente en 1902, después de una guerra en Sudáfrica en la que sus casacas rojas habían resultado ser blancos perfectos.",
+          "Todo se dio la vuelta con dos inventos casi simultáneos. La pólvora sin humo, generalizada a partir de 1886, dejó el campo despejado; y el fusil de repetición con cerrojo alcanzaba con puntería a varios centenares de metros. De pronto un hombre de rojo en un campo era un blanco visible y alcanzable. El cambio empezó en la India británica. Allí las tropas teñían sus uniformes blancos con tierra, con té o con café, para que dejaran de verse tanto. De ahí viene la palabra caqui, que en la lengua local significa polvoriento. El ejército británico lo adoptó en 1902, después de una guerra en Sudáfrica en la que sus casacas rojas fueron blancos perfectos.",
         destacado: { tipo: "cifra", cifra: "1886", unidad: "el año de la pólvora sin humo" },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó el caqui y todos sus descendientes: verdes, grises, arenas y estampados de camuflaje diseñados para cada terreno. Y quedaron los colores vivos donde todavía cumplen su función original, que es que te vean: la guardia ceremonial, las bandas, los chalecos de los operarios de carretera y los uniformes de los servicios de emergencia. La lógica no ha cambiado en cuatro siglos, solo el sentido: primero se vestía de rojo para que te reconocieran los tuyos entre el humo, y hoy de amarillo reflectante para que no te atropelle un coche. En los dos casos, el color lo decide la distancia a la que hace falta que alguien te vea.",
+          "Quedó el caqui y todos sus descendientes: verdes, grises, arenas y estampados de camuflaje diseñados para cada terreno. Y quedaron los colores vivos allí donde todavía sirven para lo mismo, que es que te vean: la guardia ceremonial, los chalecos de los operarios de carretera y los uniformes de emergencias. La lógica no ha cambiado en cuatro siglos, solo el sentido. Antes se vestía de rojo para que te reconocieran los tuyos entre el humo; hoy, de amarillo, para que te vea un coche a tiempo. En los dos casos, el color lo decide la distancia a la que hace falta que alguien te vea.",
       },
     ],
   },
   {
     id: "barcos-pintados-a-rayas",
-    titulo: "Se pintaron barcos de guerra a rayas locas",
-    gancho: "No era para esconderlos: era para que el submarino calculara mal la dirección y la velocidad.",
+    titulo: "Pintaron los barcos a rayas para confundir",
+    gancho: "No era para esconderlos. Era para que el submarino no supiera hacia dónde iban.",
     categoria: "Uniformes",
     color: "var(--slate)",
     curioso: true,
-    encargo: "Un barco de carga pintado con grandes formas geométricas en blanco y negro.",
+    encargo: "Un carguero pintado con grandes bandas y cuñas en blanco y negro, visto de costado.",
     entrada:
-      "Reino Unido, 1917. Los submarinos alemanes están hundiendo mercantes a un ritmo insostenible. En mar abierto no hay forma de esconder un barco: se ve su humo a kilómetros. Un pintor de marinas que sirve en la marina propone entonces algo distinto: si no se puede ocultar el barco, hay que hacer que el enemigo calcule mal dónde va.",
+      "Océano Atlántico, 1917. Europa lleva tres años en la Primera Guerra Mundial y Alemania ha decidido ganarla por hambre. Gran Bretaña es una isla: casi toda su comida y su combustible llegan en barco. Por eso los submarinos alemanes hunden cualquier carguero que se acerque a sus puertos. Solo en abril echan a pique casi novecientos, y al país le quedan seis semanas de trigo.",
     paginas: [
       {
-        rotulo: "Engañar la vista",
+        rotulo: "El tubo",
         texto:
-          "El submarino de la época apuntaba con un periscopio y disparaba un torpedo hacia donde el barco estaría al cabo de un minuto, así que necesitaba estimar tres cosas de un vistazo: la distancia, la velocidad y el rumbo. Los cascos se pintaron con grandes bandas y cuñas de colores contrastados que cortaban la silueta, falseaban dónde estaba la proa y creaban líneas engañosas de perspectiva. Un barco así no desaparece —se ve más, incluso—, pero es dificilísimo decir si viene hacia ti o se aleja, y a qué ritmo.",
-        destacado: { tipo: "frase", frase: "No se trataba de esconderlo, sino de que apuntaran mal." },
+          "Un submarino de entonces pasa casi todo el tiempo navegando en la superficie, como un barco normal, y solo se sumerge para atacar. Debajo del agua está prácticamente ciego. Lo único que ve es lo que entra por el periscopio, un tubo con espejos dentro que asoma un palmo por encima de las olas. La imagen que llega es pequeña, temblorosa y sin color. Y no se puede mirar mucho rato, porque ese tubo deja una estela blanca que delata la posición del submarino. Con unos segundos de mirada, el capitán tiene que calcular tres cosas: a qué distancia está el barco, a qué velocidad va y hacia dónde.",
+        destacado: { tipo: "frase", frase: "Debajo del agua solo ve lo que entra por un tubo con espejos." },
       },
       {
-        rotulo: "Todos distintos",
+        rotulo: "Apuntar al futuro",
         texto:
-          "Se pintaron más de cuatro mil barcos británicos y unos mil doscientos americanos, cada uno con un diseño diferente para que el enemigo no pudiera aprenderse los patrones ni identificar el modelo por su pintura. Los diseños los preparaban artistas en un taller, se probaban con maquetas de madera vistas por un periscopio en miniatura dentro de un teatrito y se aprobaban antes de mandarlos a los astilleros. Los dos lados de un mismo barco se pintaban distintos a propósito, para despistar también a quien lo hubiera visto antes por el otro costado y creyera reconocerlo.",
+          "Esos tres datos hacen falta porque el capitán no dispara al barco: dispara al sitio donde el barco estará dentro de un minuto. Un torpedo de 1917 no persigue nada. Sale del submarino, va en línea recta y a velocidad fija, y si el blanco sigue navegando mientras tanto, llega tarde y pasa por detrás. Ahí es donde entró la pintura. Un pintor de marinas alistado en la armada británica propuso cubrir los cascos con bandas y cuñas de colores muy contrastados. No para ocultar el barco, que en mar abierto es imposible, sino para romper su silueta: que no se vea dónde acaba la proa y que parezca ir hacia otro lado.",
         destacado: { tipo: "cifra", cifra: "4.000", unidad: "barcos británicos se pintaron así" },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó la duda de si sirvió: las estadísticas de la época no fueron concluyentes, porque al mismo tiempo se organizaron los convoyes escoltados, que sí redujeron las pérdidas de forma clara. Con el radar, en la guerra siguiente, el engaño visual perdió sentido y la práctica se abandonó. Quedaron, en cambio, las fotografías, que parecen arte de vanguardia y de hecho lo influyeron, y quedó la idea de fondo, que sigue viva en el diseño de los prototipos de coches que circulan camuflados: si no puedes ocultar algo, confunde su forma.",
+          "Se pintaron más de cuatro mil barcos británicos, cada uno distinto, para que el enemigo no pudiera aprenderse los dibujos. Los diseños se probaban antes con maquetas de madera miradas por un periscopio de juguete, dentro de un teatrito. Nunca se demostró del todo que funcionara. Al mismo tiempo se organizaron los convoyes: los mercantes dejaron de cruzar solos y pasaron a hacerlo en grupo, escoltados por buques de guerra. Esa medida sí redujo los hundimientos de forma clara. Con la llegada del radar, engañar al ojo dejó de servir. Quedaron las fotografías, que parecen cuadros de vanguardia, y quedó la idea: cuando no puedes esconder algo, confunde su forma.",
       },
     ],
   },
+
   {
     id: "el-uniforme-escolar",
     titulo: "El uniforme escolar nació como ropa de caridad",
@@ -86,19 +87,19 @@ export const UNIFORMES: Short[] = [
       {
         rotulo: "La señal",
         texto:
-          "El uniforme cumplía dos funciones a la vez, y las dos eran del interés de quien pagaba, no del niño que lo llevaba puesto. Servía para que los niños estuvieran vestidos y abrigados sin depender de sus familias, y servía para que se supiera de un vistazo, en la calle y en la iglesia, quiénes eran los beneficiarios de la caridad de la institución. Era, por tanto, una etiqueta social visible, no un símbolo de prestigio. Los propios estatutos regulaban con detalle qué prendas llevaba cada alumno, cuántas veces al año se reponían y prohibían venderlas o cambiarlas por otras.",
+          "El uniforme cumplía dos funciones a la vez, y las dos eran del interés de quien pagaba, no del niño que lo llevaba puesto. Servía para que los niños estuvieran vestidos y abrigados sin depender de sus familias. Y servía para que se supiera de un vistazo, en la calle y en la iglesia, quiénes vivían de la caridad de aquella casa. Era, por tanto, una etiqueta social visible, no un símbolo de prestigio. Los propios estatutos regulaban con detalle qué prendas llevaba cada alumno, cuántas veces al año se reponían y prohibían venderlas o cambiarlas por otras.",
         destacado: { tipo: "frase", frase: "Se veía de lejos quién era el niño que estudiaba gratis." },
       },
       {
         rotulo: "La vuelta",
         texto:
-          "Con el tiempo, el significado se invirtió por completo. En el siglo XIX, los internados caros de Inglaterra adoptaron uniformes propios con corbata, escudo y colores de casa, y lo que había sido marca de pobreza se convirtió en señal de pertenencia a una institución exclusiva. De ahí se exportó al mundo entero por vía colonial y de imitación, y hoy es obligatorio en países enteros, con debates recurrentes: quienes lo defienden dicen que borra las diferencias de dinero entre alumnos, y quienes lo critican, que solo las traslada de la ropa al bolso o al calzado.",
+          "Con el tiempo, el significado se invirtió por completo. En el siglo XIX, los internados caros de Inglaterra adoptaron uniformes propios, con corbata, escudo y colores de casa. Lo que había sido marca de pobreza se convirtió en señal de pertenecer a un sitio exclusivo. De ahí se exportó al mundo entero, primero por vía colonial y luego por imitación. Hoy es obligatorio en países enteros y el debate se repite igual en todos. Quienes lo defienden dicen que borra las diferencias de dinero entre alumnos. Quienes lo critican, que solo las traslada al bolso o al calzado.",
         destacado: { tipo: "cifra", cifra: "1552", unidad: "el año del primer uniforme escolar" },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó aquella escuela, que sigue existiendo casi cinco siglos después y cuyos alumnos llevan todavía el abrigo largo azul y las medias amarillas, prácticamente iguales a los de 1552, en lo que probablemente sea el uniforme más antiguo del mundo en uso continuado. Y quedó una inversión de significado que merece la pena tener en la cabeza: la misma prenda, sin cambiar de forma ni de color, pasó de señalar a los niños pobres a señalar a los de las escuelas caras, según quién decidiera ponérsela y cuánto costara la escuela que la exigía.",
+          "Quedó aquella escuela, que sigue existiendo casi cinco siglos después. Sus alumnos llevan todavía el abrigo largo azul y las medias amarillas, casi iguales a los de 1552. Es, probablemente, el uniforme más antiguo del mundo que sigue usándose a diario, y los vecinos del barrio los reconocen desde lejos por el azul. Y quedó una vuelta de significado que conviene tener en la cabeza. La misma prenda, sin cambiar de forma ni de color, pasó de señalar a los niños pobres a señalar a los de las escuelas caras. Lo único que cambió fue quién la exigía.",
       },
     ],
   },

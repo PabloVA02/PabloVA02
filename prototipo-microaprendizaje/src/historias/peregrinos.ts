@@ -24,24 +24,24 @@ export const PEREGRINOS: Short[] = [
     curioso: true,
     encargo: "Un libro medieval abierto con letra apretada y una inicial pintada en rojo.",
     entrada:
-      "Europa, hacia 1140. Un códice reúne cinco libros sobre el santuario del noroeste de la península, y el quinto es algo que no se parece a nada anterior: un manual práctico para quien va a hacer el camino a pie. Divide la ruta en etapas, nombra los ríos, evalúa las posadas y advierte de los peligros con una franqueza que no ha envejecido nada.",
+      "Europa, hacia 1140. Un códice reúne cinco libros sobre el santuario del noroeste de la península. El quinto no se parece a nada anterior: es un manual práctico para quien va a hacer el camino a pie. Divide la ruta en etapas, nombra los ríos, evalúa las posadas y advierte de los peligros con una franqueza que no ha envejecido nada.",
     paginas: [
       {
         rotulo: "El agua",
         texto:
-          "El capítulo más famoso es una lista de ríos con veredicto: en este se puede beber, en este otro no, y en aquel el agua mata a las caballerías. El autor cuenta que vio a unos lugareños afilar el cuchillo junto a un arroyo mientras animaban a los peregrinos a que abrevaran allí a sus monturas, para quedarse con la carne del animal muerto. Detalla también qué comarcas tienen buen pan y buen vino, cuáles están llenas de moscas y en cuáles conviene no dormir a la intemperie, con juicios sobre el carácter de sus habitantes que hoy costaría publicar.",
+          "El capítulo más famoso es una lista de ríos con veredicto: en este se puede beber, en este otro no, y en aquel el agua mata a las caballerías. El autor cuenta que vio a unos lugareños afilar el cuchillo junto a un arroyo mientras animaban a los peregrinos a que abrevaran allí a sus monturas, para quedarse con la carne del animal muerto. Detalla también qué comarcas tienen buen pan y buen vino, cuáles están llenas de moscas y en cuáles conviene no dormir al raso. Y opina sobre el carácter de sus habitantes con una crudeza que hoy costaría publicar.",
         destacado: { tipo: "frase", frase: "Animaban a beber a los caballos para quedarse con la carne." },
       },
       {
         rotulo: "Los tramos",
         texto:
-          "Además de avisar, organiza. El libro divide el camino en trece etapas grandes, enumera los santuarios que hay que visitar por el camino, describe la catedral de destino con sus medidas y sus puertas, y explica cómo se reparten las ofrendas. Da consejos sobre los cambistas, que engañaban con las monedas de cada reino, y sobre los guías falsos. Está escrito en latín y pensado para leerse en voz alta a grupos que en su mayoría no sabían leer, lo que explica su tono de advertencia repetida y su gusto por las listas fáciles de recordar.",
+          "Además de avisar, organiza. El libro divide el camino en trece etapas grandes y enumera los santuarios que hay que visitar. Describe la catedral de destino con sus medidas y sus puertas. Y explica cómo se reparten las ofrendas que deja la gente. Da consejos sobre los cambistas, que engañaban con las monedas de cada reino, y sobre los guías falsos. Está escrito en latín y pensado para leerse en voz alta a grupos que en su mayoría no sabían leer. Eso explica su tono de aviso repetido y su gusto por las listas fáciles de recordar.",
         destacado: { tipo: "cifra", cifra: "13", unidad: "etapas en que dividía el camino" },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Quedó el manuscrito, que se conserva en la catedral de destino y que fue robado en 2011 por un antiguo empleado, apareciendo un año después en el garaje de su casa. Y quedó el género: aquel quinto libro es el antepasado directo de cualquier guía de viaje moderna, con sus etapas, sus alojamientos recomendados y sus avisos. Ocho siglos después, las guías del mismo camino siguen diciendo básicamente lo mismo —dónde dormir, dónde beber, de quién fiarse—, solo que ahora nadie afila un cuchillo junto al río esperando a que pase un caballo sediento.",
+          "Quedó el manuscrito, que se conserva en la catedral de destino y que fue robado en 2011 por un antiguo empleado, apareciendo un año después en el garaje de su casa. Y quedó el género: aquel quinto libro es el antepasado directo de cualquier guía de viaje moderna, con sus etapas, sus alojamientos recomendados y sus avisos. Ocho siglos después, las guías del mismo camino siguen diciendo lo mismo: dónde dormir, dónde beber y de quién fiarse. La diferencia es que ya nadie afila un cuchillo junto al río esperando a que pase un caballo sediento.",
       },
     ],
   },
@@ -58,13 +58,13 @@ export const PEREGRINOS: Short[] = [
       {
         rotulo: "El distintivo",
         texto:
-          "El sistema estaba bastante organizado y cada gran santuario tenía el suyo, distinto y reconocible: una concha de vieira en el del noroeste peninsular, unas palmas en el de Tierra Santa, una insignia de plomo con la imagen del santo en otros. Se vendían en puestos autorizados junto a la iglesia, y la venta era un ingreso importante, tan importante que hubo pleitos entre obispados por el monopolio. Falsificarlas o venderlas por el camino estaba perseguido con penas eclesiásticas, precisamente porque el objeto valía como certificado y no como recuerdo.",
+          "El sistema estaba bien organizado y cada gran santuario tenía el suyo, distinto y reconocible. Una concha de vieira en el del noroeste peninsular. Unas palmas en el de Tierra Santa. Una insignia de plomo con la imagen del santo en otros. Se vendían en puestos autorizados junto a la iglesia, y la venta era un ingreso importante, tan importante que hubo pleitos entre obispados por el monopolio. Falsificarlas o venderlas por el camino estaba perseguido con penas eclesiásticas, precisamente porque el objeto valía como certificado y no como recuerdo.",
         destacado: { tipo: "frase", frase: "Era un certificado, no un recuerdo: por eso se perseguía la copia." },
       },
       {
         rotulo: "El salvoconducto",
         texto:
-          "Con la concha viajaba el papel. Antes de salir, el peregrino conseguía en su parroquia una carta que decía quién era y adónde iba, y esa carta funcionaba como salvoconducto: le abría las puertas de los hospitales de peregrinos, donde se dormía y se comía gratis unas noches, y lo protegía de que lo tomaran por vagabundo, cosa castigada con dureza en muchos sitios. Al llegar al destino se sellaba, y ese sello era la prueba definitiva. El sistema, con otro nombre y otros sellos, sigue funcionando exactamente igual hoy, y sin él muchos albergues no dejan pasar a nadie.",
+          "Con la concha viajaba el papel. Antes de salir, el peregrino conseguía en su parroquia una carta que decía quién era y adónde iba. Esa carta funcionaba como salvoconducto. Le abría las puertas de los hospitales de peregrinos, donde se dormía y se comía gratis unas noches. Y evitaba que lo tomaran por vagabundo, algo castigado con dureza. Al llegar al destino se sellaba, y ese sello era la prueba definitiva. El sistema, con otro nombre y otros sellos, sigue funcionando exactamente igual hoy, y sin él muchos albergues no dejan pasar a nadie.",
         destacado: { tipo: "cifra", cifra: "3", unidad: "noches gratis solía dar cada hospital" },
       },
       {
@@ -88,7 +88,7 @@ export const PEREGRINOS: Short[] = [
       {
         rotulo: "La sentencia",
         texto:
-          "Las actas conservadas son sorprendentemente precisas. Fijan el santuario según la gravedad del delito, con una escala clara: los más leves se pagaban con un viaje corto dentro de la región; los graves, con destinos a mil o dos mil kilómetros; y los peores, con el santuario más lejano posible. Se anotaba la fecha límite de regreso, a veces la ruta obligatoria y las ciudades por las que había que pasar. Para la ciudad tenía una ventaja doble: se quitaba de encima durante meses a alguien conflictivo sin coste de prisión, y el condenado pagaba su propio castigo con sus piernas y su bolsillo.",
+          "Las actas conservadas son sorprendentemente precisas. Fijan el santuario según la gravedad del delito, con una escala clara. Los más leves se pagaban con un viaje corto dentro de la región. Los graves, con destinos a mil o dos mil kilómetros. Los peores, con el santuario más lejano que hubiera. Se anotaba la fecha límite de regreso, a veces la ruta obligatoria y las ciudades por las que había que pasar. Para la ciudad tenía una ventaja doble: se quitaba de encima durante meses a alguien conflictivo sin coste de prisión, y el condenado pagaba su propio castigo con sus piernas y su bolsillo.",
         destacado: { tipo: "frase", frase: "Cuanto peor el delito, más lejos había que llegar." },
       },
       {
@@ -100,7 +100,7 @@ export const PEREGRINOS: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "La práctica desapareció con la Reforma y con las nuevas cárceles, pero dejó los archivos, que son una mina para los historiadores: gracias a esas sentencias sabemos cuánta gente recorría los caminos, de dónde salía y qué precio tenía cada delito. Y quedó una idea que ha vuelto por otra puerta: la pena que consiste en hacer algo trabajoso y verificable en lugar de encerrar a alguien es, en el fondo, el mismo razonamiento que hay detrás de los trabajos en beneficio de la comunidad que imponen hoy los juzgados.",
+          "La práctica desapareció en el siglo XVI, con la Reforma y con las primeras cárceles modernas, pero dejó los archivos. Son una mina para los historiadores: gracias a esas sentencias sabemos cuánta gente recorría los caminos, de dónde salía y qué precio exacto tenía cada delito en cada ciudad. Y quedó una idea que ha vuelto por otra puerta. Castigar obligando a hacer algo trabajoso y comprobable, en lugar de encerrar a alguien, es el mismo razonamiento que hay detrás de los trabajos en beneficio de la comunidad que imponen hoy los juzgados.",
       },
     ],
   },
