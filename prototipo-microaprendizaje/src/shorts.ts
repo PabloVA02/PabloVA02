@@ -51,6 +51,7 @@ import { CODIGOS_DE_BARRAS } from "./historias/codigosdebarras";
 import { COLCHONES } from "./historias/colchones";
 import { COMIDA } from "./historias/comida";
 import { CONTRASENAS } from "./historias/contrasenas";
+import { CORCHO } from "./historias/corcho";
 import { CORREOS } from "./historias/correos";
 import { COSMOS } from "./historias/cosmos";
 import { CREENCIAS } from "./historias/creencias";
@@ -82,9 +83,11 @@ import { FIGURAS } from "./historias/figuras";
 import { FOTOGRAFIA } from "./historias/fotografia";
 import { FRIGORIFICO } from "./historias/frigorifico";
 import { GAFAS } from "./historias/gafas";
+import { GASOLINERAS } from "./historias/gasolineras";
 import { GLOBOS } from "./historias/globos";
 import { GREMIOS } from "./historias/gremios";
 import { GRUAS } from "./historias/gruas";
+import { GUANTES } from "./historias/guantes";
 import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
 import { HIERRO } from "./historias/hierro";
@@ -178,6 +181,7 @@ import { TELEFONO } from "./historias/telefono";
 import { TELESCOPIO } from "./historias/telescopio";
 import { TELEVISION } from "./historias/television";
 import { TERMOMETRO } from "./historias/termometro";
+import { TINTA } from "./historias/tinta";
 import { TINTES } from "./historias/tintes";
 import { TRASPLANTES } from "./historias/trasplantes";
 import { TRENES } from "./historias/trenes";
@@ -380,6 +384,7 @@ export const SHORTS: Short[] = intercala(
   ESPACIO,
   SAL,
   ROPA,
+  TINTA,
   MONASTERIOS,
   IMPUESTOS,
   SEDA,
@@ -390,6 +395,7 @@ export const SHORTS: Short[] = intercala(
   ISLAS,
   CUERO,
   SILLAS,
+  CORCHO,
   PEREGRINOS,
   LEVADURA,
   BARCOS,
@@ -497,6 +503,7 @@ export const SHORTS: Short[] = intercala(
   GREMIOS,
   VENTANAS,
   LANA,
+  GASOLINERAS,
   CRIMEN,
   NUDOS,
   CRUZADAS,
@@ -508,6 +515,7 @@ export const SHORTS: Short[] = intercala(
   VELAS,
   ROTONDAS,
   APELLIDOS,
+  GUANTES,
   BIBLIOTECAS,
   TEJADOS,
   MAR,
