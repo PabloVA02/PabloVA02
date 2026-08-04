@@ -98,6 +98,7 @@ import { ORO } from "./historias/oro";
 import { PALABRAS } from "./historias/palabras";
 import { PARAGUAS } from "./historias/paraguas";
 import { PASAPORTES } from "./historias/pasaportes";
+import { PEREGRINOS } from "./historias/peregrinos";
 import { PERFUME } from "./historias/perfume";
 import { PERIODICOS } from "./historias/periodicos";
 import { PERROS } from "./historias/perros";
@@ -115,6 +116,7 @@ import { RAYOSX } from "./historias/rayosx";
 import { REDES } from "./historias/redes";
 import { RELOJES } from "./historias/relojes";
 import { RELOJES_DE_SOL } from "./historias/relojesdesol";
+import { RIOS } from "./historias/rios";
 import { ROPA } from "./historias/ropa";
 import { RUEDA } from "./historias/rueda";
 import { SAMURAIS } from "./historias/samurais";
@@ -122,6 +124,7 @@ import { SANGRE } from "./historias/sangre";
 import { SEDA } from "./historias/seda";
 import { SEMAFOROS } from "./historias/semaforos";
 import { SOMBREROS } from "./historias/sombreros";
+import { SUBASTAS } from "./historias/subastas";
 import { SUBMARINOS } from "./historias/submarinos";
 import { SUENO } from "./historias/sueno";
 import { TABACO } from "./historias/tabaco";
@@ -141,6 +144,7 @@ import { VIDEOJUEGOS } from "./historias/videojuegos";
 import { VIDRIO } from "./historias/vidrio";
 import { VIKINGOS } from "./historias/vikingos";
 import { VOLCANES } from "./historias/volcanes";
+import { ZAPATOS } from "./historias/zapatos";
 import { ZOOS } from "./historias/zoos";
 
 /* ==========================================================================
@@ -332,10 +336,12 @@ export const SHORTS: Short[] = intercala(
   SEDA,
   CIRCO,
   ISLAS,
+  PEREGRINOS,
   BARCOS,
   CARBON,
   SUBMARINOS,
   FAROS,
+  SUBASTAS,
   EPIDEMIAS,
   DESIERTOS,
   COSMOS,
@@ -432,6 +438,7 @@ export const SHORTS: Short[] = intercala(
   ARADO,
   CEMENTO,
   AZAR,
+  RIOS,
   SUENO,
   VIDRIO,
   EMPRESAS,
@@ -458,6 +465,7 @@ export const SHORTS: Short[] = intercala(
   FRIGORIFICO,
   MATEMATICAS,
   HIELO,
+  ZAPATOS,
   MEDICINA,
   RAYOSX,
   SANGRE,

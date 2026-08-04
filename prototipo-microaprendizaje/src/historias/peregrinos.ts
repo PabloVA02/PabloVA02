@@ -1,0 +1,107 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   Los peregrinos.
+
+   Millones de personas cruzando Europa a pie durante siglos, con una
+   infraestructura entera montada alrededor. El tema se estropea si se cuenta
+   como devoción: hay que contarlo como movimiento de gente, con sus rutas,
+   sus posadas, sus estafas y sus papeles.
+
+   La regla del tema: se cuenta la LOGÍSTICA. Dónde se dormía, qué se comía,
+   quién cobraba, cómo se demostraba que habías llegado. La fe es el motivo,
+   pero lo que hay que explicar es cómo se sostenía materialmente un viaje de
+   mil kilómetros hecho andando por gente sin dinero.
+   ========================================================================== */
+
+export const PEREGRINOS: Short[] = [
+  {
+    id: "la-primera-guia-de-viaje",
+    titulo: "La primera guía de viaje avisaba del agua mala",
+    gancho: "Siglo XII: qué ríos matan al caballo, qué posaderos engañan y cuántos días hay de etapa en etapa.",
+    categoria: "Peregrinos",
+    color: "var(--ochre)",
+    curioso: true,
+    encargo: "Un libro medieval abierto con letra apretada y una inicial pintada en rojo.",
+    entrada:
+      "Europa, hacia 1140. Un códice reúne cinco libros sobre el santuario del noroeste de la península, y el quinto es algo que no se parece a nada anterior: un manual práctico para quien va a hacer el camino a pie. Divide la ruta en etapas, nombra los ríos, evalúa las posadas y advierte de los peligros con una franqueza que no ha envejecido nada.",
+    paginas: [
+      {
+        rotulo: "El agua",
+        texto:
+          "El capítulo más famoso es una lista de ríos con veredicto: en este se puede beber, en este otro no, y en aquel el agua mata a las caballerías. El autor cuenta que vio a unos lugareños afilar el cuchillo junto a un arroyo mientras animaban a los peregrinos a que abrevaran allí a sus monturas, para quedarse con la carne del animal muerto. Detalla también qué comarcas tienen buen pan y buen vino, cuáles están llenas de moscas y en cuáles conviene no dormir a la intemperie, con juicios sobre el carácter de sus habitantes que hoy costaría publicar.",
+        destacado: { tipo: "frase", frase: "Animaban a beber a los caballos para quedarse con la carne." },
+      },
+      {
+        rotulo: "Los tramos",
+        texto:
+          "Además de avisar, organiza. El libro divide el camino en trece etapas grandes, enumera los santuarios que hay que visitar por el camino, describe la catedral de destino con sus medidas y sus puertas, y explica cómo se reparten las ofrendas. Da consejos sobre los cambistas, que engañaban con las monedas de cada reino, y sobre los guías falsos. Está escrito en latín y pensado para leerse en voz alta a grupos que en su mayoría no sabían leer, lo que explica su tono de advertencia repetida y su gusto por las listas fáciles de recordar.",
+        destacado: { tipo: "cifra", cifra: "13", unidad: "etapas en que dividía el camino" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó el manuscrito, que se conserva en la catedral de destino y que fue robado en 2011 por un antiguo empleado, apareciendo un año después en el garaje de su casa. Y quedó el género: aquel quinto libro es el antepasado directo de cualquier guía de viaje moderna, con sus etapas, sus alojamientos recomendados y sus avisos. Ocho siglos después, las guías del mismo camino siguen diciendo básicamente lo mismo —dónde dormir, dónde beber, de quién fiarse—, solo que ahora nadie afila un cuchillo junto al río esperando a que pase un caballo sediento.",
+      },
+    ],
+  },
+  {
+    id: "la-concha-y-el-papel",
+    titulo: "La concha demostraba que habías llegado",
+    gancho: "Era el recibo del viaje, se vendía solo en el destino y falsificarla podía costar la excomunión.",
+    categoria: "Peregrinos",
+    color: "var(--slate)",
+    encargo: "Una concha de vieira atada con un cordel a un zurrón de cuero gastado.",
+    entrada:
+      "Europa, siglos XII a XV. Un peregrino que vuelve de un santuario lejano necesita demostrarlo: ha estado meses fuera, ha gastado el dinero de su casa y, en muchos casos, viajaba para cumplir una promesa o una condena. La prueba es un objeto pequeño que solo se consigue en el destino y que se cose a la ropa o al sombrero, bien a la vista, para que cualquiera lo reconozca de lejos.",
+    paginas: [
+      {
+        rotulo: "El distintivo",
+        texto:
+          "El sistema estaba bastante organizado y cada gran santuario tenía el suyo, distinto y reconocible: una concha de vieira en el del noroeste peninsular, unas palmas en el de Tierra Santa, una insignia de plomo con la imagen del santo en otros. Se vendían en puestos autorizados junto a la iglesia, y la venta era un ingreso importante, tan importante que hubo pleitos entre obispados por el monopolio. Falsificarlas o venderlas por el camino estaba perseguido con penas eclesiásticas, precisamente porque el objeto valía como certificado y no como recuerdo.",
+        destacado: { tipo: "frase", frase: "Era un certificado, no un recuerdo: por eso se perseguía la copia." },
+      },
+      {
+        rotulo: "El salvoconducto",
+        texto:
+          "Con la concha viajaba el papel. Antes de salir, el peregrino conseguía en su parroquia una carta que decía quién era y adónde iba, y esa carta funcionaba como salvoconducto: le abría las puertas de los hospitales de peregrinos, donde se dormía y se comía gratis unas noches, y lo protegía de que lo tomaran por vagabundo, cosa castigada con dureza en muchos sitios. Al llegar al destino se sellaba, y ese sello era la prueba definitiva. El sistema, con otro nombre y otros sellos, sigue funcionando exactamente igual hoy, y sin él muchos albergues no dejan pasar a nadie.",
+        destacado: { tipo: "cifra", cifra: "3", unidad: "noches gratis solía dar cada hospital" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó la concha, convertida en el símbolo del camino y en la señal amarilla que marca la ruta. Quedó la credencial con sus sellos, que hoy se rellena en albergues y bares y que sigue dando derecho a dormir barato y a un certificado al llegar. Y quedó una palabra: a los que volvían con la palma de Tierra Santa se les llamaba palmeros, y de ahí viene el apellido. La lógica de fondo es la misma de entonces: un viaje largo solo cuenta si puedes demostrar que lo has hecho.",
+      },
+    ],
+  },
+  {
+    id: "condenados-a-peregrinar",
+    titulo: "Hubo jueces que condenaban a hacer el camino",
+    gancho: "En lugar de cárcel o multa: andar mil kilómetros y volver con la prueba sellada.",
+    categoria: "Peregrinos",
+    color: "var(--plum)",
+    curioso: true,
+    encargo: "Un camino de tierra entre campos, con un mojón de piedra en primer plano.",
+    entrada:
+      "Países Bajos y norte de Europa, siglos XIV a XVI. Los tribunales de varias ciudades comerciales imponen una pena poco habitual a quien ha cometido delitos de sangre, injurias o peleas graves: la peregrinación judicial. La sentencia fija el destino, el plazo y la obligación de volver con un documento sellado que demuestre que se ha llegado.",
+    paginas: [
+      {
+        rotulo: "La sentencia",
+        texto:
+          "Las actas conservadas son sorprendentemente precisas. Fijan el santuario según la gravedad del delito, con una escala clara: los más leves se pagaban con un viaje corto dentro de la región; los graves, con destinos a mil o dos mil kilómetros; y los peores, con el santuario más lejano posible. Se anotaba la fecha límite de regreso, a veces la ruta obligatoria y las ciudades por las que había que pasar. Para la ciudad tenía una ventaja doble: se quitaba de encima durante meses a alguien conflictivo sin coste de prisión, y el condenado pagaba su propio castigo con sus piernas y su bolsillo.",
+        destacado: { tipo: "frase", frase: "Cuanto peor el delito, más lejos había que llegar." },
+      },
+      {
+        rotulo: "El negocio",
+        texto:
+          "Como pasa siempre que un castigo se puede comprar, apareció el mercado. Había hombres que se ofrecían a hacer el viaje en lugar del condenado, por dinero, y ciudades que permitían conmutar la pena por una cantidad destinada a obras públicas. Se llegó a profesionalizar: existían peregrinos de oficio que encadenaban encargos y volvían con varios certificados de una tacada. Los tribunales respondieron endureciendo los requisitos: sellos intermedios por el camino, plazos más ajustados y descripciones físicas del penado escritas en el propio documento, para que no lo hiciera otro por él.",
+        destacado: { tipo: "cifra", cifra: "2.000", unidad: "kilómetros podía imponer una sentencia" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "La práctica desapareció con la Reforma y con las nuevas cárceles, pero dejó los archivos, que son una mina para los historiadores: gracias a esas sentencias sabemos cuánta gente recorría los caminos, de dónde salía y qué precio tenía cada delito. Y quedó una idea que ha vuelto por otra puerta: la pena que consiste en hacer algo trabajoso y verificable en lugar de encerrar a alguien es, en el fondo, el mismo razonamiento que hay detrás de los trabajos en beneficio de la comunidad que imponen hoy los juzgados.",
+      },
+    ],
+  },
+];
