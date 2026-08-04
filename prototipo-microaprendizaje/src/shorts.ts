@@ -36,6 +36,8 @@ import { ESCRITURA } from "./historias/escritura";
 import { ESCUELA } from "./historias/escuela";
 import { ESPACIO } from "./historias/espacio";
 import { ESPANA } from "./historias/espana";
+import { ESPECIAS } from "./historias/especias";
+import { ESPEJOS } from "./historias/espejos";
 import { ESPIONAJE } from "./historias/espionaje";
 import { FARAONES } from "./historias/faraones";
 import { FAROS } from "./historias/faros";
@@ -66,6 +68,7 @@ import { OBJETOS } from "./historias/objetos";
 import { PALABRAS } from "./historias/palabras";
 import { PASAPORTES } from "./historias/pasaportes";
 import { PERFUME } from "./historias/perfume";
+import { PERIODICOS } from "./historias/periodicos";
 import { PERROS } from "./historias/perros";
 import { PETROLEO } from "./historias/petroleo";
 import { PLANTAS } from "./historias/plantas";
@@ -83,6 +86,7 @@ import { RUEDA } from "./historias/rueda";
 import { SANGRE } from "./historias/sangre";
 import { SEDA } from "./historias/seda";
 import { SEMAFOROS } from "./historias/semaforos";
+import { SUBMARINOS } from "./historias/submarinos";
 import { SUENO } from "./historias/sueno";
 import { TE } from "./historias/te";
 import { TECNOLOGIA } from "./historias/tecnologia";
@@ -282,6 +286,7 @@ export const SHORTS: Short[] = intercala(
   SEDA,
   ISLAS,
   BARCOS,
+  SUBMARINOS,
   FAROS,
   EPIDEMIAS,
   DESIERTOS,
@@ -321,6 +326,7 @@ export const SHORTS: Short[] = intercala(
   TELEFONO,
   CREENCIAS,
   ESCRITURA,
+  PERIODICOS,
   MUERTE,
   HIGIENE,
   SEMAFOROS,
@@ -357,12 +363,14 @@ export const SHORTS: Short[] = intercala(
   INVENTOS,
   BANCA,
   OBJETOS,
+  ESPEJOS,
   BASURA,
   PLANTAS,
   LENGUAS,
   ESCUELA,
   TECNOLOGIA,
   COCINA,
+  ESPECIAS,
   FRIGORIFICO,
   MATEMATICAS,
   HIELO,
