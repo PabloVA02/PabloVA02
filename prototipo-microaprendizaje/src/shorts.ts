@@ -59,12 +59,14 @@ import { CUBIERTOS } from "./historias/cubiertos";
 import { CUERO } from "./historias/cuero";
 import { CUERPO } from "./historias/cuerpo";
 import { DEPORTE } from "./historias/deporte";
+import { DESAGUES } from "./historias/desagues";
 import { DESIERTOS } from "./historias/desiertos";
 import { DINERO } from "./historias/dinero";
 import { DINOSAURIOS } from "./historias/dinosaurios";
 import { ELECTRICIDAD } from "./historias/electricidad";
 import { EMPRESAS } from "./historias/empresas";
 import { EPIDEMIAS } from "./historias/epidemias";
+import { ESCALERAS_MECANICAS } from "./historias/escalerasmecanicas";
 import { ESCLAVITUD } from "./historias/esclavitud";
 import { ESCRITURA } from "./historias/escritura";
 import { ESCUELA } from "./historias/escuela";
@@ -121,6 +123,7 @@ import { MUERTE } from "./historias/muerte";
 import { MUSEOS } from "./historias/museos";
 import { MUSICA } from "./historias/musica";
 import { NOMBRES_DE_CALLES } from "./historias/nombresdecalles";
+import { NUDOS } from "./historias/nudos";
 import { OBJETOS } from "./historias/objetos";
 import { ORO } from "./historias/oro";
 import { PALABRAS } from "./historias/palabras";
@@ -156,6 +159,7 @@ import { SAMURAIS } from "./historias/samurais";
 import { SANGRE } from "./historias/sangre";
 import { SEDA } from "./historias/seda";
 import { SEMAFOROS } from "./historias/semaforos";
+import { SEXTANTE } from "./historias/sextante";
 import { SILLAS } from "./historias/sillas";
 import { SOMBREROS } from "./historias/sombreros";
 import { SUBASTAS } from "./historias/subastas";
@@ -368,6 +372,7 @@ function intercala(...grupos: Short[][]): Short[] {
 
 export const SHORTS: Short[] = intercala(
   FIGURAS,
+  ESCALERAS_MECANICAS,
   ESPACIO,
   ROPA,
   MONASTERIOS,
@@ -376,6 +381,7 @@ export const SHORTS: Short[] = intercala(
   COLCHONES,
   CAZA,
   CIRCO,
+  DESAGUES,
   ISLAS,
   CUERO,
   SILLAS,
@@ -485,6 +491,7 @@ export const SHORTS: Short[] = intercala(
   VENTANAS,
   LANA,
   CRIMEN,
+  NUDOS,
   CRUZADAS,
   ROBOTS,
   TE,
@@ -496,6 +503,7 @@ export const SHORTS: Short[] = intercala(
   BIBLIOTECAS,
   TEJADOS,
   MAR,
+  SEXTANTE,
   ALGODON,
   MAPAS_DEL_METRO,
   RELOJES_DE_SOL,
