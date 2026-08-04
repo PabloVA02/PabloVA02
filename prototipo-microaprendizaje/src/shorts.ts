@@ -7,6 +7,7 @@ import { BARCOS } from "./historias/barcos";
 import { BIBLIOTECAS } from "./historias/bibliotecas";
 import { BICHOS } from "./historias/bichos";
 import { BOMBEROS } from "./historias/bomberos";
+import { BRUJULA } from "./historias/brujula";
 import { CATASTROFES } from "./historias/catastrofes";
 import { CIENCIA } from "./historias/ciencia";
 import { CINE } from "./historias/cine";
@@ -19,6 +20,7 @@ import { CREENCIAS } from "./historias/creencias";
 import { CRIMEN } from "./historias/crimen";
 import { CUERPO } from "./historias/cuerpo";
 import { DEPORTE } from "./historias/deporte";
+import { DESIERTOS } from "./historias/desiertos";
 import { DINERO } from "./historias/dinero";
 import { DINOSAURIOS } from "./historias/dinosaurios";
 import { ELECTRICIDAD } from "./historias/electricidad";
@@ -36,6 +38,7 @@ import { GAFAS } from "./historias/gafas";
 import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
 import { HIGIENE } from "./historias/higiene";
+import { HOSPITALES } from "./historias/hospitales";
 import { INVENTOS } from "./historias/inventos";
 import { ISLAS } from "./historias/islas";
 import { JUEGOS } from "./historias/juegos";
@@ -60,6 +63,7 @@ import { PREHISTORIA } from "./historias/prehistoria";
 import { PUBLICIDAD } from "./historias/publicidad";
 import { PUENTES } from "./historias/puentes";
 import { RADIO } from "./historias/radio";
+import { REDES } from "./historias/redes";
 import { RELOJES } from "./historias/relojes";
 import { ROPA } from "./historias/ropa";
 import { SEMAFOROS } from "./historias/semaforos";
@@ -259,6 +263,7 @@ export const SHORTS: Short[] = intercala(
   BARCOS,
   FAROS,
   EPIDEMIAS,
+  DESIERTOS,
   COSMOS,
   VOLCANES,
   CATASTROFES,
@@ -272,6 +277,7 @@ export const SHORTS: Short[] = intercala(
   BICHOS,
   PUENTES,
   MOTOR,
+  REDES,
   CIENCIA,
   PERFUME,
   ARTE,
@@ -289,6 +295,7 @@ export const SHORTS: Short[] = intercala(
   HIGIENE,
   SEMAFOROS,
   MEDIDAS,
+  BRUJULA,
   MUSICA,
   RELOJES,
   CINE,
@@ -312,6 +319,7 @@ export const SHORTS: Short[] = intercala(
   EMPRESAS,
   CORREOS,
   DEPORTE,
+  HOSPITALES,
   INVENTOS,
   OBJETOS,
   PLANTAS,
