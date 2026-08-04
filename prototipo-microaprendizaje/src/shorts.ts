@@ -51,16 +51,19 @@ import { FIGURAS } from "./historias/figuras";
 import { FOTOGRAFIA } from "./historias/fotografia";
 import { FRIGORIFICO } from "./historias/frigorifico";
 import { GAFAS } from "./historias/gafas";
+import { GLOBOS } from "./historias/globos";
 import { GUERRA } from "./historias/guerra";
 import { HIELO } from "./historias/hielo";
 import { HIGIENE } from "./historias/higiene";
 import { HOSPITALES } from "./historias/hospitales";
+import { IMPUESTOS } from "./historias/impuestos";
 import { INVENTOS } from "./historias/inventos";
 import { ISLAS } from "./historias/islas";
 import { JUEGOS } from "./historias/juegos";
 import { JUSTICIA } from "./historias/justicia";
 import { LENGUAS } from "./historias/lenguas";
 import { MAPAS } from "./historias/mapas";
+import { MAQUINA_ESCRIBIR } from "./historias/maquinaescribir";
 import { MAR } from "./historias/mar";
 import { MATEMATICAS } from "./historias/matematicas";
 import { MEDICINA } from "./historias/medicina";
@@ -73,6 +76,7 @@ import { MUERTE } from "./historias/muerte";
 import { MUSEOS } from "./historias/museos";
 import { MUSICA } from "./historias/musica";
 import { OBJETOS } from "./historias/objetos";
+import { ORO } from "./historias/oro";
 import { PALABRAS } from "./historias/palabras";
 import { PASAPORTES } from "./historias/pasaportes";
 import { PERFUME } from "./historias/perfume";
@@ -295,6 +299,7 @@ export const SHORTS: Short[] = intercala(
   FIGURAS,
   ESPACIO,
   ROPA,
+  IMPUESTOS,
   SEDA,
   ISLAS,
   BARCOS,
@@ -340,6 +345,7 @@ export const SHORTS: Short[] = intercala(
   CUERPO,
   PUBLICIDAD,
   MAPAS,
+  ORO,
   BANDERAS,
   TELEFONO,
   CREENCIAS,
@@ -353,6 +359,7 @@ export const SHORTS: Short[] = intercala(
   MEDIDAS,
   BRUJULA,
   MUSICA,
+  GLOBOS,
   RELOJES,
   CINE,
   RADIO,
@@ -392,6 +399,7 @@ export const SHORTS: Short[] = intercala(
   ESCUELA,
   TECNOLOGIA,
   COCINA,
+  MAQUINA_ESCRIBIR,
   ESPECIAS,
   FRIGORIFICO,
   MATEMATICAS,

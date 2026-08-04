@@ -1,0 +1,109 @@
+import type { Short } from "../shorts";
+
+/* ==========================================================================
+   La máquina de escribir.
+
+   Un cacharro de hierro con teclas del que ya nadie se acuerda y que estuvo
+   cien años en el centro de todas las oficinas del mundo. El riesgo del tema
+   es la nostalgia: el ruido de las teclas, el olor de la cinta, la carta de
+   amor mecanografiada. Nada de eso.
+
+   La regla del tema: se cuenta lo que la máquina LE HIZO AL TRABAJO. Quién
+   entró en la oficina gracias a ella, qué se dejó de hacer a mano, qué se
+   escondió y qué se pudo rastrear. Y siempre hay una pieza física —el
+   rodillo, el tipo desgastado, el pedal— que explica el resto.
+   ========================================================================== */
+
+export const MAQUINA_ESCRIBIR: Short[] = [
+  {
+    id: "escribir-sin-ver",
+    titulo: "Las primeras máquinas no dejaban ver lo escrito",
+    gancho: "Los tipos golpeaban por debajo del rodillo. Para leer la línea había que levantar el carro con la mano.",
+    categoria: "Máquina de escribir",
+    color: "var(--ochre)",
+    curioso: true,
+    encargo: "Un carro de máquina de escribir levantado, con el papel a medio escribir asomando.",
+    entrada:
+      "Estados Unidos, 1874. Sale a la venta la primera máquina de escribir fabricada en serie, un armatoste de hierro negro decorado con flores pintadas, con pedal para devolver el carro y un defecto que hoy parece inconcebible: quien escribe no ve lo que está escribiendo. Las letras aparecen en la cara oculta del papel, debajo del rodillo.",
+    paginas: [
+      {
+        rotulo: "El golpe de abajo",
+        texto:
+          "El motivo era mecánico. Las barras con las letras estaban dispuestas en una cesta bajo el rodillo y subían a golpearlo desde abajo, que era la forma más sencilla de que volvieran solas a su sitio por su propio peso. El resultado es que la línea recién escrita quedaba tapada por el propio rodillo, y para comprobarla había que parar, agarrar el carro con las dos manos y levantarlo. Los manuales de la época recomendaban hacerlo cada pocas líneas. La primera máquina la fabricó una empresa de armas y máquinas de coser, y de ahí venían el pedal y las flores pintadas del chasis.",
+        destacado: { tipo: "frase", frase: "Para leer lo escrito había que levantar el carro con las manos." },
+      },
+      {
+        rotulo: "La escritura visible",
+        texto:
+          "Durante veinte años los fabricantes discutieron si aquello importaba, y muchos sostenían que no: un buen mecanógrafo, decían, no debe mirar el papel, igual que un pianista no mira las teclas. La cosa cambió en 1893, cuando apareció la primera máquina de éxito con los tipos colocados delante, golpeando la cara visible del papel. Se la llamó de escritura visible y en menos de una década arrasó con todas las demás. El argumento comercial no fue la comodidad, sino el error: en una carta comercial, una errata que no se ve hasta el final obliga a repetir la hoja entera.",
+        destacado: { tipo: "cifra", cifra: "1893", unidad: "el año de la primera escritura visible" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedó una lección que se repite con cada tecnología nueva y que conviene tener a mano: durante veinte años, quienes fabricaban aquellas máquinas defendieron que no ver lo que escribes era un detalle sin importancia, y solo cambiaron de opinión cuando un competidor demostró lo contrario vendiendo más. También quedó la costumbre, que sigue viva en cualquier teclado moderno, de mirar la pantalla y no los dedos. Y quedan las máquinas: las de escritura ciega son hoy piezas de coleccionista precisamente por lo mismo que las hundió, porque hay que levantar el carro para leer lo que uno acaba de teclear.",
+      },
+    ],
+  },
+
+  {
+    id: "la-maquina-y-la-oficina",
+    titulo: "La máquina metió a las mujeres en la oficina",
+    gancho: "En inglés, la misma palabra designaba al aparato y a la persona que lo manejaba.",
+    categoria: "Máquina de escribir",
+    color: "var(--slate)",
+    encargo: "Una sala larga con filas de mesas iguales y máquinas de escribir negras alineadas.",
+    entrada:
+      "Estados Unidos y Reino Unido, entre 1880 y 1900. Hasta entonces la oficina es un sitio de hombres: el copista, que pasa a mano los documentos con letra cuidada, es un oficio masculino con aprendizaje largo y aspiraciones de ascenso. En veinte años eso se da la vuelta por completo, y la palanca del cambio es una máquina de hierro con teclas.",
+    paginas: [
+      {
+        rotulo: "Las demostradoras",
+        texto:
+          "El fabricante tenía un problema de ventas: nadie sabía para qué servía aquel trasto ni si merecía la pena su precio, equivalente a varios meses de sueldo. La solución fue enseñarlo funcionando, y para las demostraciones en ferias y en escaparates se contrató a mujeres jóvenes, que trabajaban por bastante menos dinero. El efecto fue inesperado. Los clientes que compraban la máquina querían también a alguien que supiera usarla, y quienes sabían usarla eran ellas. Se abrieron academias de mecanografía por todas partes, con cursos de pocos meses, y en las oficinas apareció un oficio nuevo que no tenía dueño previo.",
+        destacado: { tipo: "frase", frase: "El fabricante contrató mujeres para demostrar la máquina, y se quedaron." },
+      },
+      {
+        rotulo: "El vuelco",
+        texto:
+          "Las cifras del cambio son brutales. En 1870, menos de una de cada veinte personas que trabajaban en oficinas en aquel país era mujer; en 1930 eran cerca de la mitad. La palabra inglesa para la máquina, además, se usó durante años para nombrar también a la persona que la manejaba, de modo que en los anuncios de empleo se pedía una máquina de escribir y se estaba pidiendo una mecanógrafa. Fue una puerta de entrada real al trabajo asalariado y a la ciudad, y al mismo tiempo un techo: el sueldo era la mitad del de un copista y el puesto no llevaba a ninguna parte.",
+        destacado: { tipo: "cifra", cifra: "50", unidad: "por ciento de los oficinistas, mujeres en 1930" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "Quedaron dos cosas contradictorias, y las dos siguen a la vista. Una es que millones de mujeres cobraron su primer sueldo propio gracias a un oficio que existía porque nadie lo había reclamado antes, y que eso cambió las casas, las ciudades y las leyes mucho más deprisa que cualquier discurso. La otra es que el trabajo se encasilló como femenino y se pagó peor por eso mismo durante un siglo entero. El oficio desapareció con el ordenador personal, cuando escribir a máquina dejó de ser una profesión y pasó a ser algo que se supone que sabe hacer cualquiera, jefes incluidos.",
+      },
+    ],
+  },
+
+  {
+    id: "maquinas-por-seguridad",
+    titulo: "Algunas oficinas volvieron a la máquina de escribir",
+    gancho: "Un aparato de hierro no se puede piratear desde el otro lado del mundo. Pero deja su propia huella.",
+    categoria: "Máquina de escribir",
+    color: "var(--clay)",
+    curioso: true,
+    encargo: "Una máquina de escribir eléctrica moderna sobre una mesa de despacho vacía.",
+    entrada:
+      "Rusia y Alemania, 2013. Ese verano se publica que los servicios de espionaje de varios países interceptan comunicaciones digitales a una escala que nadie sospechaba. La reacción de algunas oficinas oficiales no fue comprar más ordenadores, sino menos: un servicio del Estado ruso encargó máquinas de escribir eléctricas para redactar sus documentos más reservados.",
+    paginas: [
+      {
+        rotulo: "Lo que no conecta",
+        texto:
+          "El razonamiento es difícil de rebatir. Un documento escrito en un ordenador conectado puede copiarse, reenviarse y filtrarse sin dejar rastro y sin que nadie entre en el edificio. Un documento escrito a máquina existe en un número exacto de copias, todas físicas, todas contables, y sacarlo de un despacho obliga a alguien a cruzar una puerta con papeles encima. Ese mismo año, un comité del parlamento alemán que investigaba el espionaje debatió en serio hacer lo mismo, y en varias embajadas se recuperaron aparatos que llevaban veinte años en un almacén.",
+        destacado: { tipo: "frase", frase: "Una máquina de escribir no está conectada a nada." },
+      },
+      {
+        rotulo: "La huella del tipo",
+        texto:
+          "La seguridad, sin embargo, no es completa, y eso también se sabe desde hace mucho. Cada máquina desgasta sus tipos de forma distinta: una letra ligeramente torcida, una que golpea más flojo, un punto que sale desplazado medio milímetro. Con una lupa y un documento de referencia, un perito puede decir si dos textos salieron del mismo aparato, y durante toda la Guerra Fría hubo servicios que archivaban muestras de escritura de las máquinas que exportaban. Por eso el encargo ruso especificaba que cada aparato quedara asignado a un documento concreto: no era solo para esconder, también era para poder rastrear una filtración.",
+        destacado: { tipo: "cifra", cifra: "2013", unidad: "el año en que volvieron a comprarse" },
+      },
+      {
+        rotulo: "Lo que quedó",
+        texto:
+          "La última fábrica de máquinas de escribir manuales del mundo cerró en la India en 2011, y desde entonces lo que existe es un mercado de aparatos reparados por talleres pequeños que llevan años sin competencia. Siguen comprándolos oficinas oficiales, notarías de países con papeleo antiguo, algunos escritores y quien necesita rellenar impresos preimpresos, que es una tarea que un ordenador hace regular. La conclusión de aquel verano de 2013 se ha quedado como una regla no escrita de la seguridad: lo que no se puede robar desde lejos hay que ir a buscarlo en persona, y eso todavía disuade a mucha gente.",
+      },
+    ],
+  },
+];
