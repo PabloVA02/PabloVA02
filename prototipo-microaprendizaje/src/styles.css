@@ -5535,3 +5535,141 @@ button {
   white-space: nowrap;
   box-shadow: 0 8px 24px rgba(10, 8, 14, 0.4);
 }
+
+/* ==========================================================================
+   EL MODELO BEIGE. Decidido con Pablo maqueta a maqueta y aprobado sobre el
+   short de Cesar.
+
+   La pantalla deja de ser una fotografia a sangre con el texto encima y pasa
+   a ser una pagina: una banda de imagen arriba, su pie contando que es lo que
+   se ve, y el texto debajo sobre el papel hueso de la app.
+
+   Va al final del fichero a proposito: manda sobre lo de arriba, que es el
+   modelo anterior y se conserva para no romper el resto de pantallas.
+   ========================================================================== */
+
+.muro-pagina { background: var(--paper); }
+
+.muro-gesto {
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+}
+
+/* La banda: 28 % de alto, igual en las cuatro pantallas */
+.muro-foto {
+  position: relative;
+  inset: auto;
+  flex: 0 0 28%;
+  overflow: hidden;
+}
+.muro-foto .foto-caja,
+.muro-foto .foto-desplaza { position: absolute; inset: 0; }
+.muro-foto .foto-fondo { background: var(--paper-deep); }
+
+/* El pie de la imagen. Es una ficha, no una firma: que clase de objeto es,
+   de que ano, de donde salio y quien lo hizo. */
+.muro-credito {
+  flex: none;
+  margin: 0;
+  padding: 10px var(--shell-pad) 0;
+  font-size: 10.5px;
+  line-height: 1.42;
+  font-style: italic;
+  letter-spacing: 0;
+  color: color-mix(in srgb, var(--ink-soft) 78%, transparent);
+}
+
+/* El cuerpo: margenes iguales arriba y abajo, y el texto bajando hasta el de
+   abajo porque tiene el largo que le toca. Cuando no llega —la ultima
+   pantalla— sobra aire, y eso es el final. */
+.muro-hoja,
+.muro-hoja[data-forma="portada"],
+.muro-hoja[data-forma="pagina"] {
+  position: relative;
+  inset: auto;
+  flex: 1;
+  min-height: 0;
+  padding: 25px var(--shell-pad) 25px;
+  background: none;
+}
+.muro-hoja-cuerpo { display: flex; flex-direction: column; height: 100%; }
+
+.muro-etiqueta {
+  font-size: 10px;
+  color: color-mix(in srgb, var(--acento, var(--ochre)) 88%, var(--ink));
+  margin-bottom: 8px;
+}
+.muro-insignia { color: var(--paper); }
+
+/* El titular: palo seco, pequeno y muy espaciado, en mayusculas. Es el que
+   eligio Pablo de ocho, y el unico que no descoloca lo que hay debajo. */
+.muro-hoja h2 {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.32;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+/* El texto de leer: la misma medida en la entrada y en las tres paginas, y
+   el mismo gris calido, para que no se note el salto al pasar de pantalla. */
+.muro-entrada,
+.short-cuerpo {
+  font-size: 17px;
+  line-height: 1.52;
+  color: var(--ink-soft);
+}
+.muro-entrada { margin-top: 13px; }
+.muro-entrada strong,
+.short-cuerpo strong { color: var(--ink); font-weight: 700; }
+
+/* La capitular: tres lineas de alto, con remates, en el color del tema. Solo
+   en la portada, que es donde empieza algo. */
+.muro-entrada::first-letter {
+  float: left;
+  font-size: 52px;
+  line-height: 0.8;
+  font-weight: 600;
+  padding: 4px 8px 0 0;
+  color: var(--acento, var(--ochre));
+}
+
+.short-pagina { display: flex; flex-direction: column; height: 100%; }
+.short-indice { color: var(--acento, var(--ochre)); opacity: 0.55; font-size: 22px; }
+.short-rotulo { color: color-mix(in srgb, var(--ink-soft) 82%, transparent); }
+.short-rotulo-fila::after { opacity: 0.3; }
+.short-cuerpo { margin-top: 12px; }
+
+/* El dato se apoya abajo, separado por un filete finisimo del color del tema */
+.short-destacado {
+  margin-top: auto;
+  padding: 14px 0 0;
+  border: none;
+  border-top: 1px solid color-mix(in srgb, var(--acento, var(--ochre)) 26%, transparent);
+  border-radius: 0;
+  background: none;
+}
+.short-unidad { color: var(--ink-soft); }
+.short-comilla { color: var(--paper); }
+
+/* La barra de tramos: fina de verdad, del color del tema y sobre la imagen */
+.muro-tramos { top: 10px; }
+.muro-tramo { height: 2px; background: rgba(242, 236, 225, 0.34); }
+
+/* El pie: en la ultima pantalla, guardar y compartir. En las demas, nada */
+.muro-pie { color: color-mix(in srgb, var(--ink-soft) 70%, transparent); }
+.muro-tirar { color: var(--acento, var(--ochre)); }
+
+/* El pie, ya sobre papel: los iconos eran claros porque flotaban sobre una
+   fotografia oscura, y ahora estan sobre el hueso. */
+.muro-pie { padding-bottom: 6px; }
+.muro-accion {
+  color: var(--acento, var(--ochre));
+  background: color-mix(in srgb, var(--acento, var(--ochre)) 9%, transparent);
+  border: 1px solid color-mix(in srgb, var(--acento, var(--ochre)) 26%, transparent);
+}
+.muro-accion[data-on="true"] { background: var(--acento, var(--ochre)); color: var(--paper); }
+.muro-flecha { color: var(--acento, var(--ochre)); }

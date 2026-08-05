@@ -1,5 +1,8 @@
 import type { Short } from "../shorts";
 import cesarFoto from "../fotos/cesar-camuccini.jpg";
+import cesarMoneda from "../fotos/cesar-2-moneda.jpg";
+import cesarGerome from "../fotos/cesar-3-gerome.jpg";
+import cesarAugusto from "../fotos/cesar-4-augusto.jpg";
 
 /* ==========================================================================
    Figuras.
@@ -58,6 +61,31 @@ export const FIGURAS: Short[] = [
       alt: "El asesinato de Julio César pintado por Camuccini: los conspiradores, en toga blanca, alzan los puñales sobre César, que cae vestido de ocre.",
     },
     encargo: "El asesinato de César con los puñales en alto, encuadrado a plomo sobre la escena.",
+    /* Una imagen por página, y el pie de cada una dice QUÉ es lo que se ve:
+       qué clase de objeto, de qué año, de dónde salió y quién lo hizo. */
+    fotos: [
+      {
+        local: cesarMoneda,
+        autor: "Denario de plata acuñado en Roma el año 44 a. C. La leyenda dice CAESAR DICT PERPETVO: César, dictador perpetuo",
+        licencia: "Dominio público",
+        foco: "50% 50%",
+        alt: "Denario romano con el retrato de César de perfil y la leyenda alrededor.",
+      },
+      {
+        local: cesarGerome,
+        autor: "Óleo de Jean-Léon Gérôme, 1867. Walters Art Museum, Baltimore",
+        licencia: "Dominio público",
+        foco: "50% 62%",
+        alt: "La muerte de César: el cuerpo en el suelo y los conspiradores saliendo con los puñales en alto.",
+      },
+      {
+        local: cesarAugusto,
+        autor: "Estatua de mármol del siglo I, hallada en Prima Porta, cerca de Roma. Museos Vaticanos",
+        licencia: "Dominio público",
+        foco: "50% 14%",
+        alt: "El Augusto de Prima Porta, con el brazo levantado y el peto labrado.",
+      },
+    ],
     entrada:
       "Roma, año 44 antes de Cristo. Julio César es el hombre más poderoso del mundo conocido: ha conquistado la Galia, la actual Francia, ha ganado una guerra civil contra sus propios compatriotas y gobierna de hecho todo el Mediterráneo. Aquella mañana de marzo entra a una reunión del Senado sin guardaespaldas, porque hace poco despidió a su escolta para demostrar que se fiaba. Dentro le esperan unos sesenta hombres con un puñal escondido bajo la ropa, y casi ninguno es soldado. Para entender por qué van a matarlo hay que saber una cosa de Roma.",
     paginas: [

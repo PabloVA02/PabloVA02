@@ -141,6 +141,7 @@ function Fotografia({
                 : { objectPosition: foto.foco ?? "50% 50%" }
             }
             initial={{ opacity: 0, scale: 1.08 }}
+            exit={{ opacity: 0, transition: { duration: 0.45, ease: "easeOut" } }}
             animate={
               reducido || !deriva
                 ? { opacity: 1, scale: 1.02 }
@@ -582,7 +583,9 @@ function PaginaShort({
             desplaza={xFoto}
           />
         </motion.div>
-        <div className="muro-velo" data-hondo={!portada} />
+        {/* El pie de la imagen, en las cuatro pantallas. No es una firma: dice
+            qué es lo que se está viendo, de qué año y de dónde salió. */}
+        <p className="muro-credito">{fotoDe(short, paso)?.autor ?? short.encargo}</p>
 
         <motion.div className="muro-hoja" data-forma={portada ? "portada" : "pagina"} style={{ x: xHoja }}>
           <AnimatePresence mode="wait" custom={sentido}>
@@ -593,9 +596,13 @@ function PaginaShort({
               // Se avanza tirando hacia la derecha, así que la pantalla que se
               // va sale por la derecha y la que llega entra por la izquierda:
               // el papel sigue al dedo en lugar de contradecirlo.
-              initial={{ opacity: 0, x: sentido * -30 }}
-              animate={{ opacity: 1, x: 0, transition: { ...spring, delay: 0.04 } }}
-              exit={{ opacity: 0, x: sentido * 26, transition: { duration: 0.15 } }}
+              /* El texto entra subiendo un poco y con el dedo: sigue el
+                 sentido del gesto en horizontal y sube en vertical, que es lo
+                 que hace que el cambio se sienta como pasar una hoja y no
+                 como cambiar de diapositiva. */
+              initial={{ opacity: 0, x: sentido * -22, y: 14 }}
+              animate={{ opacity: 1, x: 0, y: 0, transition: { ...spring, delay: 0.05 } }}
+              exit={{ opacity: 0, x: sentido * 20, y: -10, transition: { duration: 0.16 } }}
             >
               {portada ? (
                 <Portada short={short} />
@@ -610,15 +617,16 @@ function PaginaShort({
               <span className="muro-tirar">
                 <motion.span
                   className="muro-flecha"
-                  animate={reducido ? {} : { x: [0, 7, 0] }}
+                  animate={reducido ? {} : ultima ? { y: [0, 6, 0] } : { x: [0, 7, 0] }}
                   transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut", delay: 1 }}
                 >
-                  →
+                  {ultima ? "↓" : "→"}
                 </motion.span>
                 {portada ? "Desliza para seguir" : "Siguiente historia"}
               </span>
             )}
 
+            {ultima && (
             <div className="muro-acciones">
               <motion.button
                 className="muro-accion"
@@ -644,6 +652,7 @@ function PaginaShort({
                 <GlyphHeart on={guardado} />
               </motion.button>
             </div>
+            )}
           </div>
         </motion.div>
       </motion.div>
@@ -681,20 +690,11 @@ function Portada({ short }: { short: Short }) {
         animate="shown"
       >
         {short.curioso && <span className="muro-insignia">Dato curioso</span>}
-        {short.categoria} · {MINUTOS} min
+        {MINUTOS} min de lectura
       </motion.span>
       <motion.h2 custom={1} variants={enterVariants} initial="hidden" animate="shown">
         {short.titulo}
       </motion.h2>
-      <motion.p
-        className="muro-gancho"
-        custom={2}
-        variants={enterVariants}
-        initial="hidden"
-        animate="shown"
-      >
-        {short.gancho}
-      </motion.p>
       <motion.p
         className="muro-entrada"
         /* La capitular necesita empezar por letra. Hay entradas que abren con
@@ -709,15 +709,6 @@ function Portada({ short }: { short: Short }) {
         animate="shown"
         dangerouslySetInnerHTML={{ __html: short.entrada }}
       />
-      <motion.p
-        className="muro-credito"
-        custom={4}
-        variants={enterVariants}
-        initial="hidden"
-        animate="shown"
-      >
-        {short.foto ? `${short.foto.autor} · ${short.foto.licencia}` : short.encargo}
-      </motion.p>
     </>
   );
 }
