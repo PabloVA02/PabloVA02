@@ -21,12 +21,15 @@ export const CATASTROFES: Short[] = [
     categoria: "Catástrofes",
     color: "var(--sage)",
     foto: {
-      archivo: "IAEA 02790015 (5613115146).jpg",
-      autor: "IAEA Imagebank",
-      /* SIN VERIFICAR: la CC BY-SA pide el nombre del autor y aquí solo está
-         el del banco de imágenes. Falta la ficha con el fotógrafo. */
-      licencia: "Sin verificar",
-      foco: "50% 45%",
+      archivo: "IAEA 02790015 (5613115146) (cropped).jpg",
+      /* El banco de imágenes del organismo es aquí el licenciante, no un
+         intermediario: es quien publicó la foto con esa licencia, así que
+         nombrarlo cumple la atribución. */
+      autor:
+        "El reactor 4 de Chernóbil destruido, fotografiado desde el aire en 1986. Banco de imágenes del Organismo Internacional de Energía Atómica.",
+      licencia: "CC BY-SA 2.0",
+      fuente: "https://commons.wikimedia.org/wiki/File:IAEA_02790015_(5613115146)_(cropped).jpg",
+      foco: "50% 55%",
       alt: "El reactor 4 de Chernóbil destruido, fotografiado desde un helicóptero.",
     },
     encargo: "El reactor 4 reventado, visto desde el aire, con el tejado abierto.",
@@ -101,14 +104,13 @@ export const CATASTROFES: Short[] = [
     categoria: "Catástrofes",
     color: "var(--clay)",
     foto: {
-      archivo: "Plastercasts of victims of the eruption of Mount Vesuvius, Pompeii.jpg",
-      autor: "Wikimedia Commons",
-      /* MAL ATRIBUIDA: la CC BY-SA obliga a nombrar al autor, y «Wikimedia
-         Commons» no es el autor sino el sitio donde está alojada. Tal como
-         está, la atribución no cumple la licencia que ella misma declara. */
-      licencia: "Sin verificar",
-      foco: "50% 50%",
-      alt: "Vaciados en yeso de víctimas de la erupción, expuestos en Pompeya.",
+      archivo: "Cast victim eruptions Pompeii.jpg",
+      autor:
+        "Vaciado en yeso de una víctima de la erupción del año 79, hecho rellenando con escayola el hueco que dejó el cuerpo en la ceniza. Fotografía de Jebulon.",
+      licencia: "CC0",
+      fuente: "https://commons.wikimedia.org/wiki/File:Cast_victim_eruptions_Pompeii.jpg",
+      foco: "50% 45%",
+      alt: "Vaciado en yeso de una víctima de Pompeya, con la cabeza apoyada en el brazo.",
     },
     encargo: "Un vaciado en yeso de una víctima de Pompeya, en su vitrina.",
     entrada:

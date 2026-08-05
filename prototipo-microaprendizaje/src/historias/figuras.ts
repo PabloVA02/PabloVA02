@@ -1,8 +1,6 @@
 import type { Short } from "../shorts";
 import cesarFoto from "../fotos/cesar-camuccini.jpg";
-import cesarMoneda from "../fotos/cesar-2-moneda.jpg";
 import cesarGerome from "../fotos/cesar-3-gerome.jpg";
-import cesarAugusto from "../fotos/cesar-4-augusto.jpg";
 
 /* ==========================================================================
    Figuras.
@@ -76,13 +74,18 @@ export const FIGURAS: Short[] = [
         alt: "El asesinato de Julio César pintado por Camuccini.",
       },
       {
-        local: cesarMoneda,
-        autor: "Denario de plata acuñado en Roma el año 44 a. C. La leyenda dice CAESAR DICT PERPETVO: César, dictador perpetuo.",
-        /* SIN VERIFICAR. La moneda es del año 44 antes de Cristo, pero la
-           fotografía es de alguien y tiene su propia licencia. Falta la ficha. */
-        licencia: "Sin verificar",
+        /* La moneda es del año 44 antes de Cristo, pero la fotografía es de
+           2013 y de un señor con nombre. Su licencia obliga a nombrarlo, así
+           que va en el pie. */
+        archivo:
+          "06 Julius Caesar, Aemilia Denarius. Caesar CAESAR DICT PERPETVO, Fasces Caduceus axe globe hands L.AEMILIVS BVCA. Winckless collection.jpg",
+        autor:
+          "Denario de plata acuñado en Roma el año 44 a. C. La leyenda dice CAESAR DICT PERPETVO: César, dictador perpetuo. Fotografía de Andrew McCabe.",
+        licencia: "CC BY 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:06_Julius_Caesar,_Aemilia_Denarius._Caesar_CAESAR_DICT_PERPETVO,_Fasces_Caduceus_axe_globe_hands_L.AEMILIVS_BVCA._Winckless_collection.jpg",
         foco: "50% 50%",
-        alt: "Denario romano con el retrato de César de perfil y la leyenda alrededor.",
+        alt: "Las dos caras de un denario romano: el retrato de César de perfil y, al otro lado, un hacha, un caduceo y dos manos entrelazadas.",
       },
       {
         local: cesarGerome,
@@ -93,14 +96,20 @@ export const FIGURAS: Short[] = [
         alt: "La muerte de César: el cuerpo en el suelo y los conspiradores saliendo con los puñales en alto.",
       },
       {
-        local: cesarAugusto,
-        autor: "Estatua de mármol del siglo I, hallada en Prima Porta, cerca de Roma. Museos Vaticanos.",
-        /* SIN VERIFICAR. La estatua es del siglo I; la fotografía, no. Una
-           escultura tiene volumen y la foto elige punto de vista y luz, así
-           que el fotógrafo tiene derechos propios. Falta la ficha. */
-        licencia: "Sin verificar",
-        foco: "50% 14%",
-        alt: "El Augusto de Prima Porta, con el brazo levantado y el peto labrado.",
+        /* La estatua es del siglo I; la fotografía, de 2023. Una escultura
+           tiene volumen y la foto elige punto de vista y luz, así que el
+           fotógrafo tiene derechos propios y hay que nombrarlo.
+
+           El original mide 2813x4500, o sea que es larguísimo de alto y en una
+           banda del 28 % solo cabe una franja. El foco va arriba, al pecho y a
+           la cara, que es donde está el emperador. */
+        archivo: "Augustus of Prima Porta (inv. 2290).jpg",
+        autor:
+          "Augusto de Prima Porta, estatua de mármol del siglo I hallada cerca de Roma. Museos Vaticanos. Fotografía de Joel Bellviure.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Augustus_of_Prima_Porta_(inv._2290).jpg",
+        foco: "50% 24%",
+        alt: "El Augusto de Prima Porta: el emperador con el brazo levantado, el peto labrado y la toga recogida en la cintura.",
       },
     ],
     /* Texto literal de la maqueta que aprobó Pablo. Si algo de aquí no
@@ -137,12 +146,13 @@ export const FIGURAS: Short[] = [
     categoria: "Figuras",
     color: "var(--plum)",
     foto: {
-      archivo: "Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
-      autor: "Altes Museum, Berlín",
-      /* SIN VERIFICAR: es un busto, o sea un objeto con volumen, y la foto
-         tiene su propio autor por mucho que la escultura sea antigua. */
-      licencia: "Sin verificar",
-      foco: "50% 34%",
+      archivo: "Cleopatra VII, 40-30 BCE; Altes Museum, Berlin (1) (28399854659).jpg",
+      autor:
+        "Busto de mármol de Cleopatra VII, tallado entre los años 40 y 30 antes de Cristo. Altes Museum, Berlín. Fotografía de Richard Mortel.",
+      licencia: "CC BY 2.0",
+      fuente:
+        "https://commons.wikimedia.org/wiki/File:Cleopatra_VII,_40-30_BCE;_Altes_Museum,_Berlin_(1)_(28399854659).jpg",
+      foco: "40% 42%",
       alt: "Busto de mármol de Cleopatra VII conservado en el Altes Museum de Berlín.",
     },
     encargo: "Un busto o un relieve de Cleopatra, mejor de perfil, muy iluminado por un lado.",
@@ -179,13 +189,15 @@ export const FIGURAS: Short[] = [
     categoria: "Figuras",
     color: "var(--ochre)",
     foto: {
-      archivo: "BattleofIssus333BC-mosaic-detail1.jpg",
-      autor: "Mosaico de Alejandro, Pompeya",
-      /* SIN VERIFICAR: el mosaico es plano pero está montado en un museo, y
-         la fotografía puede tener autor propio. Falta la ficha. */
-      licencia: "Sin verificar",
-      foco: "50% 40%",
-      alt: "Detalle del mosaico de Pompeya en el que Alejandro carga en la batalla de Issos.",
+      archivo:
+        "The Alexander Mosaic depicting the Battle of Issus between Alexander the Great & Darius III of Persia, from the House of the Faun in Pompeii, Naples Archaeological Museum (15045481312).jpg",
+      autor:
+        "Mosaico de la Casa del Fauno de Pompeya, copia de una pintura griega perdida. Museo Arqueológico de Nápoles. Fotografía de Carole Raddato.",
+      licencia: "CC BY-SA 2.0",
+      fuente:
+        "https://commons.wikimedia.org/wiki/File:The_Alexander_Mosaic_depicting_the_Battle_of_Issus_between_Alexander_the_Great_%26_Darius_III_of_Persia,_from_the_House_of_the_Faun_in_Pompeii,_Naples_Archaeological_Museum_(15045481312).jpg",
+      foco: "50% 38%",
+      alt: "El mosaico de Pompeya: Alejandro carga por la izquierda y Darío huye en su carro por la derecha.",
     },
     encargo: "El detalle de la cara de Alejandro en el mosaico de Issos, con el ojo muy abierto.",
     entrada:

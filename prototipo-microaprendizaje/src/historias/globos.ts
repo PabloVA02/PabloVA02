@@ -24,9 +24,14 @@ export const GLOBOS: Short[] = [
     curioso: true,
     foto: {
       archivo: "Grafika przedstawiająca lot balonu Montgolfiera ze zwierzętami z 19 września 1783 roku.jpg",
-      autor: "Grabado de época, 1783",
-      licencia: "Dominio público",
-      pdPorEdad: 1800,
+      /* La estampa es de 1783 y sí es de dominio público, pero lo que se ve
+         aquí es la digitalización que hizo el museo, y esa la publicó con su
+         propia licencia. Manda la licencia del fichero que se usa. */
+      autor:
+        "Grabado del vuelo del globo de los hermanos Montgolfier del 19 de septiembre de 1783, con la oveja, el pato y el gallo. Museo Nacional de Cracovia.",
+      licencia: "CC BY-SA 4.0",
+      fuente:
+        "https://commons.wikimedia.org/wiki/File:Grafika_przedstawiaj%C4%85ca_lot_balonu_Montgolfiera_ze_zwierz%C4%99tami_z_19_wrze%C5%9Bnia_1783_roku.jpg",
       foco: "50% 40%",
       alt: "Grabado del globo de 1783 elevándose con la cesta de los tres animales.",
     },
