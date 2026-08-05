@@ -21,7 +21,7 @@ import type { Short } from "../shorts";
 export const CUERPO: Short[] = [
   {
     id: "bacterias-diez-a-uno",
-    titulo: "Diez bacterias por célula: el dato que no era",
+    titulo: "Diez bacterias por célula",
     gancho: "La cifra más repetida de la microbiología salió de una estimación de 1972.",
     categoria: "Cuerpo",
     color: "var(--sage)",
@@ -54,7 +54,7 @@ export const CUERPO: Short[] = [
 
   {
     id: "huesos-se-rehacen",
-    titulo: "Tu esqueleto se rehace entero cada diez años",
+    titulo: "Tu esqueleto se rehace entero",
     gancho: "El hueso se derriba y se levanta todos los días, y tú no notas la obra.",
     categoria: "Cuerpo",
     color: "var(--clay)",
@@ -88,7 +88,7 @@ export const CUERPO: Short[] = [
 
   {
     id: "olfato-atajo",
-    titulo: "El olfato es el único sentido sin aduana",
+    titulo: "El olfato no pasa aduana",
     gancho: "Todo lo que ves y oyes pasa un control antes de llegar. Un olor, no.",
     categoria: "Cuerpo",
     color: "var(--plum)",
@@ -121,7 +121,7 @@ export const CUERPO: Short[] = [
   },
   {
     id: "hipo-antiguo",
-    titulo: "El hipo es un resto de cuando éramos peces",
+    titulo: "El hipo viene de los peces",
     gancho: "No sirve para nada y ningún medicamento lo cura. La explicación mejor es que sobra desde hace millones de años.",
     categoria: "Cuerpo",
     color: "var(--slate)",
@@ -152,7 +152,7 @@ export const CUERPO: Short[] = [
 
   {
     id: "huesos-oido",
-    titulo: "Dos huesos del oído fueron mandíbula de reptil",
+    titulo: "Dos huesos que fueron mandíbula",
     gancho: "Los tres huesos más pequeños del cuerpo entran en una moneda de dos céntimos. Dos vienen de una quijada.",
     categoria: "Cuerpo",
     color: "var(--forest)",
@@ -183,7 +183,7 @@ export const CUERPO: Short[] = [
 
   {
     id: "huellas-dactilares",
-    titulo: "Las huellas no sirven para agarrar mejor",
+    titulo: "Las huellas no dan agarre",
     gancho: "Se enseñó durante un siglo que daban agarre. Los experimentos dicen que reducen el contacto.",
     categoria: "Cuerpo",
     color: "var(--clay)",

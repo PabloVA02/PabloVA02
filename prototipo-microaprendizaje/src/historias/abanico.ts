@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const ABANICO: Short[] = [
   {
     id: "el-abanico-plegable",
-    titulo: "El abanico plegable llegó de Japón a Europa",
+    titulo: "El abanico llegó de Japón",
     gancho: "En Europa se abanicaban con una pantalla rígida. El plegable es un invento japonés que cabe en un puño.",
     categoria: "Objetos",
     color: "var(--ochre)",
@@ -43,7 +43,7 @@ export const ABANICO: Short[] = [
   },
   {
     id: "el-lenguaje-del-abanico",
-    titulo: "El lenguaje del abanico se inventó para vender",
+    titulo: "El lenguaje del abanico es falso",
     gancho: "Los gestos secretos que todo el mundo cita salen de un folleto publicitario de una tienda de París.",
     categoria: "Creencias",
     color: "var(--plum)",
@@ -73,7 +73,7 @@ export const ABANICO: Short[] = [
   },
   {
     id: "abanicarse-calienta",
-    titulo: "Por encima de cierto calor, abanicarse calienta",
+    titulo: "Abanicarse a veces calienta",
     gancho: "Si el aire está más caliente que la piel, moverlo trae calor en vez de llevárselo. La frontera está medida.",
     categoria: "Cuerpo",
     color: "var(--slate)",

@@ -93,7 +93,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "pompeya",
-    titulo: "Pompeya: el hueco que dejaron los cuerpos",
+    titulo: "Los huecos de Pompeya",
     gancho: "Los cuerpos se deshicieron. El agujero que dejaron, no.",
     categoria: "Catástrofes",
     color: "var(--clay)",
@@ -129,7 +129,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "halifax",
-    titulo: "Halifax: la mayor explosión antes de Hiroshima",
+    titulo: "La explosión de Halifax",
     gancho: "Un barco cargado de explosivos ardió veinte minutos delante de una ciudad que salió a mirarlo.",
     categoria: "Catástrofes",
     color: "var(--ochre)",
@@ -159,7 +159,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "vajont",
-    titulo: "Vajont: la presa aguantó, el monte no",
+    titulo: "El Vajont: aguantó la presa",
     gancho: "La obra resistió perfectamente. El monte de al lado, no.",
     categoria: "Catástrofes",
     color: "var(--slate)",
@@ -189,7 +189,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "tenerife",
-    titulo: "Tenerife: dos aviones, una pista y una palabra",
+    titulo: "Dos aviones en Tenerife",
     gancho: "El peor accidente de la aviación empezó con una bomba en otro aeropuerto.",
     categoria: "Catástrofes",
     color: "var(--clay)",
@@ -218,7 +218,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "krakatoa",
-    titulo: "Krakatoa: el sonido más fuerte jamás registrado",
+    titulo: "El sonido del Krakatoa",
     gancho: "Se oyó a 4.800 kilómetros. A esa distancia ya no es un sonido: es un rumor que nadie explica.",
     categoria: "Catástrofes",
     color: "var(--plum)",
@@ -248,7 +248,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "melaza",
-    titulo: "Boston: una ola de melaza mató a veintiuno",
+    titulo: "La ola de melaza de Boston",
     gancho: "Un muro de sirope de ocho metros bajando por la calle a 50 km/h. Suena a broma. Mató a 21 personas.",
     categoria: "Catástrofes",
     color: "var(--ochre)",

@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const CRIMEN: Short[] = [
   {
     id: "dahmer",
-    titulo: "Jeffrey Dahmer: la policía se lo devolvió",
+    titulo: "Dahmer y el chico devuelto",
     gancho: "Un chico escapó y pidió ayuda en la calle. Tres agentes lo entregaron de vuelta.",
     categoria: "Crimen",
     color: "var(--slate)",
@@ -50,7 +50,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "cooper",
-    titulo: "Cooper saltó de un avión con el rescate",
+    titulo: "Cooper saltó con el rescate",
     gancho: "El único secuestro de avión sin resolver de la historia de Estados Unidos.",
     categoria: "Crimen",
     color: "var(--sage)",
@@ -80,7 +80,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "dyatlov",
-    titulo: "Paso Diátlov: cortaron la tienda desde dentro",
+    titulo: "Diátlov: la tienda rajada por dentro",
     gancho: "Nueve montañeros expertos huyeron descalzos a veinte bajo cero. Nadie sabe de qué.",
     categoria: "Misterios",
     color: "var(--plum)",
@@ -110,7 +110,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "alcatraz",
-    titulo: "Alcatraz: dejaron cabezas falsas en la almohada",
+    titulo: "Las cabezas falsas de Alcatraz",
     gancho: "Escaparon de la prisión de la que era imposible escapar. Y quizá lo lograron.",
     categoria: "Crimen",
     color: "var(--ochre)",
@@ -140,7 +140,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "tylenol",
-    titulo: "Tylenol: por eso los botes traen precinto",
+    titulo: "El Tylenol y el precinto",
     gancho: "Siete muertes en 1982 cambiaron el envase de todo lo que compras.",
     categoria: "Crimen",
     color: "var(--clay)",
@@ -170,7 +170,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "isdal",
-    titulo: "La mujer de Isdal: le limaron las huellas",
+    titulo: "La mujer sin huellas de Isdal",
     gancho: "Apareció quemada en un valle noruego con ocho identidades falsas y ningún nombre.",
     categoria: "Misterios",
     color: "var(--slate)",
@@ -200,7 +200,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "golden-state",
-    titulo: "Golden State Killer: lo cazó un primo lejano",
+    titulo: "El asesino y su primo lejano",
     gancho: "Cuarenta años impune. Lo delató un pariente al que no conocía subiendo su ADN a una web.",
     categoria: "Crimen",
     color: "var(--sage)",
@@ -230,7 +230,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "celeste",
-    titulo: "Mary Celeste: llegó perfecto y sin nadie",
+    titulo: "El Mary Celeste llegó vacío",
     gancho: "Comida en la mesa, carga intacta, mar en calma. Faltaban las diez personas.",
     categoria: "Misterios",
     color: "var(--slate)",
@@ -260,7 +260,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "hinterkaifeck",
-    titulo: "Hinterkaifeck: alguien vivió con los muertos",
+    titulo: "Hinterkaifeck: vivió con los muertos",
     gancho: "Comieron, dieron de comer al ganado y encendieron el fuego. Con los cuerpos en el granero.",
     categoria: "Misterios",
     color: "var(--plum)",
@@ -290,7 +290,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "zodiaco",
-    titulo: "Zodiac: su clave aguantó cincuenta y un años",
+    titulo: "La clave del Zodiac",
     gancho: "La descifraron tres aficionados en 2020. Dentro no había ningún nombre.",
     categoria: "Crimen",
     color: "var(--ochre)",

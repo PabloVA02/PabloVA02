@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const ADUANAS: Short[] = [
   {
     id: "la-linea-de-la-sal",
-    titulo: "Una línea de aduanas cruzaba Francia por dentro",
+    titulo: "Francia tenía aduanas por dentro",
     gancho: "Separaba las regiones donde la sal era barata de aquellas donde costaba veinte veces más. Y estaba vigilada.",
     categoria: "Aduanas",
     color: "var(--ochre)",
@@ -44,7 +44,7 @@ export const ADUANAS: Short[] = [
   },
   {
     id: "el-arancel-de-la-lana",
-    titulo: "Sacar lana del país se pagaba con la mano",
+    titulo: "Sacar lana costaba una mano",
     gancho: "Inglaterra vivía de exportar tejido, no materia prima. Sacar lana sin permiso llegó a castigarse con mutilación.",
     categoria: "Aduanas",
     color: "var(--slate)",
@@ -73,7 +73,7 @@ export const ADUANAS: Short[] = [
   },
   {
     id: "el-canal-verde",
-    titulo: "El pasillo verde del aeropuerto es una apuesta",
+    titulo: "El pasillo verde es una apuesta",
     gancho: "Nadie revisa a todo el mundo, porque sería imposible. El sistema funciona con muestreo y con perfiles.",
     categoria: "Aduanas",
     color: "var(--plum)",

@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const ACERO: Short[] = [
   {
     id: "acero-de-damasco",
-    titulo: "El acero de Damasco tenía nanotubos dentro",
+    titulo: "El acero de Damasco",
     gancho: "Hojas con vetas como el agua, imposibles de imitar, y la receta se perdió en el siglo XVIII.",
     categoria: "Acero",
     color: "var(--slate)",
@@ -48,7 +48,7 @@ export const ACERO: Short[] = [
 
   {
     id: "acero-barato",
-    titulo: "El acero pasó de joya a material de puentes",
+    titulo: "El acero fue una joya",
     gancho: "En 1856 se abarató tanto que en veinte años se usaba para vías, vigas y latas de conserva.",
     categoria: "Acero",
     color: "var(--clay)",
@@ -78,7 +78,7 @@ export const ACERO: Short[] = [
 
   {
     id: "inoxidable-por-descarte",
-    titulo: "El acero inoxidable apareció en un montón de desechos",
+    titulo: "El inoxidable salió de la basura",
     gancho: "Buscaba un acero para cañones y descartó unas muestras. Semanas después seguían brillando.",
     categoria: "Acero",
     color: "var(--ochre)",
