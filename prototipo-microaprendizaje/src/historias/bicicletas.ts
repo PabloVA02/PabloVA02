@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const BICICLETAS: Short[] = [
   {
     id: "la-bicicleta-sin-pedales",
-    titulo: "La primera bicicleta no tenía pedales",
+    titulo: "La bicicleta sin pedales",
     gancho: "Se avanzaba dando zancadas en el suelo, sentado. Y se inventó por culpa de un volcán al otro lado del mundo.",
     categoria: "Bicicletas",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const BICICLETAS: Short[] = [
   },
   {
     id: "la-bicicleta-y-las-mujeres",
-    titulo: "La bicicleta cambió la ropa y las costumbres",
+    titulo: "La bicicleta cambió la ropa",
     gancho: "Permitió salir del pueblo sin permiso ni acompañante, y por eso hubo médicos que la declararon peligrosa.",
     categoria: "Bicicletas",
     color: "var(--plum)",
@@ -74,7 +74,7 @@ export const BICICLETAS: Short[] = [
   },
   {
     id: "la-maquina-mas-eficiente",
-    titulo: "Nada mueve a una persona gastando menos",
+    titulo: "Nada gasta menos que ella",
     gancho: "En energía por kilómetro, una bicicleta gana a cualquier animal y a cualquier máquina. Incluso a caminar.",
     categoria: "Bicicletas",
     color: "var(--slate)",

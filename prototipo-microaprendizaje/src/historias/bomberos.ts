@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const BOMBEROS: Short[] = [
   {
     id: "placas-de-seguro",
-    titulo: "Tras el gran incendio nacieron los seguros",
+    titulo: "Del incendio salió el seguro",
     gancho: "Cada compañía tenía sus bomberos y su placa. Con la placa de otra, pasaban de largo.",
     categoria: "Bomberos",
     color: "var(--clay)",
@@ -49,7 +49,7 @@ export const BOMBEROS: Short[] = [
 
   {
     id: "puertas-hacia-fuera",
-    titulo: "Las puertas abren hacia fuera por un incendio",
+    titulo: "Las puertas abren hacia fuera",
     gancho: "En un taller de Nueva York murieron ciento cuarenta y seis personas detrás de una puerta atascada.",
     categoria: "Bomberos",
     color: "var(--slate)",
@@ -79,7 +79,7 @@ export const BOMBEROS: Short[] = [
 
   {
     id: "policia-desarmada",
-    titulo: "La primera policía tuvo que ir desarmada",
+    titulo: "La primera policía iba desarmada",
     gancho: "Londres llevaba cuarenta años rechazando tener policía. Solo la aceptó si parecía inofensiva.",
     categoria: "Bomberos",
     color: "var(--plum)",

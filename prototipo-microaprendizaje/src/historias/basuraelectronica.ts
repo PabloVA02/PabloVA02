@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const BASURA_ELECTRONICA: Short[] = [
   {
     id: "la-montana-de-aparatos",
-    titulo: "Tiramos nueve kilos de aparatos por persona",
+    titulo: "Nueve kilos de aparatos por cabeza",
     gancho: "Es el flujo de residuos que más crece del planeta y el que peor se recicla de todos.",
     categoria: "Basura",
     color: "var(--slate)",
@@ -44,7 +44,7 @@ export const BASURA_ELECTRONICA: Short[] = [
   },
   {
     id: "quemar-cables-para-sacar-cobre",
-    titulo: "Se queman cables para sacar el cobre",
+    titulo: "Queman cables para sacar cobre",
     gancho: "Es la manera más rápida de separar el metal del plástico, y la que llena el aire de dioxinas.",
     categoria: "Basura",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const BASURA_ELECTRONICA: Short[] = [
   },
   {
     id: "el-oro-de-los-moviles",
-    titulo: "Un móvil tiene más oro que una mina",
+    titulo: "Tu móvil tiene más oro",
     gancho: "A igualdad de peso, una tonelada de placas viejas rinde más oro que una tonelada de roca extraída.",
     categoria: "Basura",
     color: "var(--ochre)",

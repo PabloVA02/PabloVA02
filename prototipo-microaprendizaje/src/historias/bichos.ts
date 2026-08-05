@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const BICHOS: Short[] = [
   {
     id: "pulpo-corazones",
-    titulo: "El pulpo tiene tres corazones y sangre azul",
+    titulo: "Tres corazones y sangre azul",
     gancho: "Y el corazón principal se le para cada vez que nada.",
     categoria: "Bichos",
     color: "var(--slate)",
@@ -54,7 +54,7 @@ export const BICHOS: Short[] = [
 
   {
     id: "flamencos-grises",
-    titulo: "Los flamencos nacen grises y se tiñen comiendo",
+    titulo: "Los flamencos nacen grises",
     gancho: "El rosa no es suyo: lo alquilan a unos crustáceos y lo devuelven al criar.",
     categoria: "Bichos",
     color: "var(--clay)",
@@ -88,7 +88,7 @@ export const BICHOS: Short[] = [
 
   {
     id: "medusa-inmortal",
-    titulo: "La medusa que vuelve a ser cría",
+    titulo: "La medusa que rejuvenece",
     gancho: "Un estudiante la olvidó en un acuario y descubrió que rebobinaba.",
     categoria: "Bichos",
     color: "var(--plum)",
@@ -120,7 +120,7 @@ export const BICHOS: Short[] = [
   },
   {
     id: "cuervos-caras",
-    titulo: "Los cuervos reconocen caras y avisan a los demás",
+    titulo: "Los cuervos recuerdan tu cara",
     gancho: "Unos científicos se pusieron una máscara para capturarlos. Cinco años después los seguían insultando por la calle.",
     categoria: "Bichos",
     color: "var(--slate)",
@@ -151,7 +151,7 @@ export const BICHOS: Short[] = [
 
   {
     id: "hormigas-agricultoras",
-    titulo: "Hay hormigas que cultivan hongos desde antes que nosotros",
+    titulo: "Hormigas que cultivan hongos",
     gancho: "No comen hoja: la usan de abono. Inventaron la agricultura cincuenta y nueve millones de años antes que nosotros.",
     categoria: "Bichos",
     color: "var(--forest)",
@@ -182,7 +182,7 @@ export const BICHOS: Short[] = [
 
   {
     id: "ballenas-canto",
-    titulo: "Las ballenas cambian de canción todas a la vez",
+    titulo: "Las ballenas cambian de canción",
     gancho: "Todos los machos de un océano cantan lo mismo. Cuando aparece una versión nueva, se extiende en dos años.",
     categoria: "Bichos",
     color: "var(--ochre)",

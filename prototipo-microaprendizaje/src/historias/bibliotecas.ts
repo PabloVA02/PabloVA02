@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const BIBLIOTECAS: Short[] = [
   {
     id: "alejandria-declive",
-    titulo: "La biblioteca de Alejandría no ardió de golpe",
+    titulo: "Alejandría no ardió de golpe",
     gancho: "No hubo una noche ni un incendio único. Se apagó despacio, por recortes y por descuido.",
     categoria: "Bibliotecas",
     color: "var(--ochre)",
@@ -49,7 +49,7 @@ export const BIBLIOTECAS: Short[] = [
 
   {
     id: "libros-encadenados",
-    titulo: "En las bibliotecas los libros iban encadenados",
+    titulo: "Los libros iban encadenados",
     gancho: "Una cadena de hierro por volumen, remachada a la tapa. Un libro costaba lo que una casa pequeña.",
     categoria: "Bibliotecas",
     color: "var(--slate)",
@@ -80,7 +80,7 @@ export const BIBLIOTECAS: Short[] = [
 
   {
     id: "manuscritos-tombuctu",
-    titulo: "Sacaron los manuscritos escondidos en baúles",
+    titulo: "Los manuscritos salieron en baúles",
     gancho: "Una ciudad ocupada, bibliotecas de siglos y un plan clandestino con burros, camionetas y barcas.",
     categoria: "Bibliotecas",
     color: "var(--plum)",

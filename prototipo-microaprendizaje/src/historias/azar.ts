@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const AZAR: Short[] = [
   {
     id: "probabilidad-partida-cortada",
-    titulo: "La probabilidad nació de una apuesta interrumpida",
+    titulo: "Una apuesta que se interrumpió",
     gancho: "Un jugador preguntó cómo repartir el bote si la partida se corta. Dos matemáticos se escribieron.",
     categoria: "Azar",
     color: "var(--ochre)",
@@ -49,7 +49,7 @@ export const AZAR: Short[] = [
 
   {
     id: "ruleta-veintiseis",
-    titulo: "El negro salió veintiséis veces seguidas",
+    titulo: "Negro veintiséis veces seguidas",
     gancho: "En un casino, en 1913. La sala se arruinó apostando al rojo porque ya tenía que tocar.",
     categoria: "Azar",
     color: "var(--slate)",
@@ -80,7 +80,7 @@ export const AZAR: Short[] = [
 
   {
     id: "loteria-todas-combinaciones",
-    titulo: "Compró todas las combinaciones de una lotería",
+    titulo: "Compró la lotería entera",
     gancho: "Ganó catorce botes. En el último movió a dos mil quinientos inversores y siete millones de boletos.",
     categoria: "Azar",
     color: "var(--plum)",

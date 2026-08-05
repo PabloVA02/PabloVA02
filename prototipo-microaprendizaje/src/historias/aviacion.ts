@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const AVIACION: Short[] = [
   {
     id: "lista-comprobacion",
-    titulo: "La lista de comprobación nació de un despegue",
+    titulo: "La lista nació de un choque",
     gancho: "El avión más avanzado de 1935 se estrelló por una palanca que nadie soltó.",
     categoria: "Aviación",
     color: "var(--slate)",
@@ -53,7 +53,7 @@ export const AVIACION: Short[] = [
 
   {
     id: "agujero-ventanilla",
-    titulo: "El agujerito de la ventanilla del avión sirve",
+    titulo: "El agujero de la ventanilla",
     gancho: "No es un defecto ni un desgaste: decide qué cristal aguanta la presión.",
     categoria: "Aviación",
     color: "var(--sage)",
@@ -87,7 +87,7 @@ export const AVIACION: Short[] = [
 
   {
     id: "caja-negra-naranja",
-    titulo: "La caja negra es naranja y la rechazaron",
+    titulo: "La caja negra es naranja",
     gancho: "Su inventor tardó años en convencer a nadie. Le dijeron que no servía.",
     categoria: "Aviación",
     color: "var(--clay)",
@@ -149,7 +149,7 @@ export const AVIACION: Short[] = [
 
   {
     id: "gimli-sin-combustible",
-    titulo: "Un avión se quedó sin gasolina por una conversión",
+    titulo: "Sin gasolina por confundir unidades",
     gancho: "Cargaron la mitad de combustible del necesario. El país acababa de cambiar de sistema de medidas.",
     categoria: "Aviación",
     color: "var(--slate)",
@@ -179,7 +179,7 @@ export const AVIACION: Short[] = [
 
   {
     id: "ventanas-cuadradas",
-    titulo: "El primer avión de reacción tenía ventanas cuadradas",
+    titulo: "Las ventanas cuadradas lo partieron",
     gancho: "Tres se partieron en el aire en un año. La culpa era de las esquinas.",
     categoria: "Aviación",
     color: "var(--clay)",

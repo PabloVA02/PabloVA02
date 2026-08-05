@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const BANDERAS: Short[] = [
   {
     id: "bandera-no-rectangular",
-    titulo: "Solo una bandera nacional no es rectangular",
+    titulo: "La bandera que no es rectángulo",
     gancho: "Son dos banderines superpuestos, y su forma exacta viene dibujada en la constitución.",
     categoria: "Banderas",
     color: "var(--plum)",
@@ -49,7 +49,7 @@ export const BANDERAS: Short[] = [
 
   {
     id: "codigo-de-banderas",
-    titulo: "En el mar cada bandera dice una frase",
+    titulo: "Cada bandera dice una frase",
     gancho: "Una sola tela izada significa que hay un buzo abajo, o que el barco lleva carga peligrosa.",
     categoria: "Banderas",
     color: "var(--slate)",
@@ -79,7 +79,7 @@ export const BANDERAS: Short[] = [
 
   {
     id: "banderas-de-conveniencia",
-    titulo: "Un barco elige su país como quien compra",
+    titulo: "El barco elige su país",
     gancho: "Se matricula donde salga barato, aunque el dueño no haya pisado nunca ese país.",
     categoria: "Banderas",
     color: "var(--ochre)",

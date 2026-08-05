@@ -48,7 +48,7 @@ export const ASCENSORES: Short[] = [
 
   {
     id: "musica-de-ascensor",
-    titulo: "La música de ascensor calmaba el miedo",
+    titulo: "La música contra el miedo",
     gancho: "Al quitar a los ascensoristas, mucha gente no se atrevía a entrar sola. Se probó con música.",
     categoria: "Ascensores",
     color: "var(--slate)",
@@ -79,7 +79,7 @@ export const ASCENSORES: Short[] = [
 
   {
     id: "botones-placebo",
-    titulo: "Hay botones que no están conectados a nada",
+    titulo: "Botones que no hacen nada",
     gancho: "El de cerrar la puerta del ascensor casi nunca funciona. Y aun así lo pulsamos dos veces.",
     categoria: "Ascensores",
     color: "var(--plum)",

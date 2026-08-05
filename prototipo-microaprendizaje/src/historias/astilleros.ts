@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ASTILLEROS: Short[] = [
   {
     id: "un-barco-al-dia",
-    titulo: "Venecia podía armar una galera en un día",
+    titulo: "Una galera en un día",
     gancho: "Con los cascos hechos y las piezas numeradas por adelantado, el montaje final era casi una cadena de montaje.",
     categoria: "Astilleros",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const ASTILLEROS: Short[] = [
   },
   {
     id: "el-barco-por-modulos",
-    titulo: "Los barcos se construyen hoy por trozos",
+    titulo: "Los barcos se hacen a trozos",
     gancho: "Se fabrican bloques enormes en distintos talleres y se sueldan al final, como un juguete de piezas gigante.",
     categoria: "Astilleros",
     color: "var(--ochre)",
@@ -74,7 +74,7 @@ export const ASTILLEROS: Short[] = [
   },
   {
     id: "la-botadura",
-    titulo: "Botar un barco es soltarlo cuesta abajo",
+    titulo: "Botar es soltarlo cuesta abajo",
     gancho: "Se apoya sobre una cuna engrasada y se corta la sujeción. A partir de ahí lo único que lo frena es el agua.",
     categoria: "Astilleros",
     color: "var(--plum)",

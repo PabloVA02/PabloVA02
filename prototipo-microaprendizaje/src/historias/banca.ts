@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const BANCA: Short[] = [
   {
     id: "templarios-credito",
-    titulo: "Los templarios inventaron la carta de crédito",
+    titulo: "Los templarios y el crédito",
     gancho: "Un peregrino depositaba el oro en París y lo cobraba en Jerusalén, sin llevarlo por el camino.",
     categoria: "Banca",
     color: "var(--ochre)",
@@ -48,7 +48,7 @@ export const BANCA: Short[] = [
 
   {
     id: "seguro-en-cafeteria",
-    titulo: "El seguro marítimo nació en una cafetería",
+    titulo: "El seguro nació en un café",
     gancho: "Los marinos iban allí a enterarse de qué barcos habían llegado. El dueño empezó a imprimir listas.",
     categoria: "Banca",
     color: "var(--slate)",
@@ -78,7 +78,7 @@ export const BANCA: Short[] = [
 
   {
     id: "banco-hundido",
-    titulo: "Un solo empleado hundió un banco de doscientos años",
+    titulo: "Un empleado hundió el banco",
     gancho: "Escondió las pérdidas en una cuenta de errores durante tres años y nadie miró qué había dentro.",
     categoria: "Banca",
     color: "var(--plum)",

@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const BASURA: Short[] = [
   {
     id: "gabarra-de-basura",
-    titulo: "Una gabarra de basura navegó seis meses",
+    titulo: "La barcaza que nadie quería",
     gancho: "Salió con tres mil toneladas y ningún puerto la quiso. Recorrió diez mil kilómetros y volvió llena.",
     categoria: "Basura",
     color: "var(--slate)",
@@ -48,7 +48,7 @@ export const BASURA: Short[] = [
 
   {
     id: "simbolo-reciclaje",
-    titulo: "El símbolo del reciclaje lo dibujó un estudiante",
+    titulo: "El símbolo lo dibujó un estudiante",
     gancho: "Ganó un concurso en 1970, cobró una beca pequeña y el dibujo acabó sin dueño.",
     categoria: "Basura",
     color: "var(--ochre)",
@@ -78,7 +78,7 @@ export const BASURA: Short[] = [
   },
   {
     id: "traperos",
-    titulo: "La basura fue durante siglos un negocio",
+    titulo: "La basura era un negocio",
     gancho: "Antes de los cubos había miles de personas viviendo de recoger trapos, huesos y ceniza.",
     categoria: "Basura",
     color: "var(--clay)",

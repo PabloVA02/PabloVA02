@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const BALANZAS: Short[] = [
   {
     id: "los-dos-platillos",
-    titulo: "La balanza de dos platillos no mide peso",
+    titulo: "La balanza no mide peso",
     gancho: "Compara. Y por eso da lo mismo en la Luna que en la Tierra, cosa que ninguna báscula moderna consigue.",
     categoria: "Objetos",
     color: "var(--slate)",
@@ -44,7 +44,7 @@ export const BALANZAS: Short[] = [
   },
   {
     id: "la-romana",
-    titulo: "Con una sola pesa se puede pesar todo",
+    titulo: "Cuatro pesas para pesarlo todo",
     gancho: "La romana usa una pesa pequeña que se desliza por un brazo largo. La palanca hace todo el trabajo.",
     categoria: "Objetos",
     color: "var(--ochre)",
@@ -73,7 +73,7 @@ export const BALANZAS: Short[] = [
   },
   {
     id: "la-bascula-digital",
-    titulo: "La báscula digital pesa con un trozo doblado",
+    titulo: "La báscula pesa con un doblez",
     gancho: "Dentro no hay muelles ni pesas. Hay una pieza de metal que se dobla un poco y unos hilos que notan cuánto.",
     categoria: "Tecnología",
     color: "var(--plum)",

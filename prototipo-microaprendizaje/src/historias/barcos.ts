@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const BARCOS: Short[] = [
   {
     id: "contenedor",
-    titulo: "Una caja de metal abarató el mundo entero",
+    titulo: "La caja que abarató el mundo",
     gancho: "Antes, descargar un barco costaba una semana y la mitad del precio del viaje. La caja lo dejó en horas.",
     categoria: "Barcos",
     color: "var(--slate)",
@@ -50,7 +50,7 @@ export const BARCOS: Short[] = [
 
   {
     id: "escorbuto-limones",
-    titulo: "El escorbuto mató a más marineros que el mar",
+    titulo: "El escorbuto mataba más",
     gancho: "Se supo cómo curarlo en 1747 y se tardó cuarenta y ocho años en aplicarlo.",
     categoria: "Barcos",
     color: "var(--forest)",
@@ -80,7 +80,7 @@ export const BARCOS: Short[] = [
 
   {
     id: "canal-suez",
-    titulo: "Una zanja en Egipto quitó siete mil kilómetros",
+    titulo: "Una zanja quitó siete mil kilómetros",
     gancho: "Antes había que rodear África entera. Lo intentaron los faraones, los persas y Napoleón.",
     categoria: "Barcos",
     color: "var(--ochre)",

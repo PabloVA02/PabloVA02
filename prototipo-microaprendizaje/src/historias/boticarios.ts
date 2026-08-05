@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const BOTICARIOS: Short[] = [
   {
     id: "la-botica-y-sus-cajones",
-    titulo: "La botica guardaba veneno y azúcar juntos",
+    titulo: "Veneno y azúcar juntos",
     gancho: "El boticario vendía especias, tintes, cosméticos y medicinas del mismo armario, y muchas de esas cosas eran lo mismo.",
     categoria: "Historia",
     color: "var(--clay)",
@@ -44,7 +44,7 @@ export const BOTICARIOS: Short[] = [
   },
   {
     id: "separar-al-que-receta",
-    titulo: "El médico no puede vender lo que receta",
+    titulo: "Quien receta no puede vender",
     gancho: "La separación entre quien prescribe y quien despacha es una ley del siglo XIII, y sigue en pie por la misma razón.",
     categoria: "Medicina",
     color: "var(--slate)",
@@ -73,7 +73,7 @@ export const BOTICARIOS: Short[] = [
   },
   {
     id: "refrescos-de-farmacia",
-    titulo: "Varios refrescos salieron de una farmacia",
+    titulo: "Los refrescos salieron de la botica",
     gancho: "El mostrador de la botica servía agua con gas por motivos médicos. De ahí salieron algunas marcas enormes.",
     categoria: "Empresas",
     color: "var(--ochre)",

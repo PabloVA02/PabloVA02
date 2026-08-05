@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const BIOMIMESIS: Short[] = [
   {
     id: "el-velcro-y-el-cardo",
-    titulo: "El velcro salió de los cardos del perro",
+    titulo: "El velcro salió de un cardo",
     gancho: "Un ingeniero volvió de cazar con el pantalón lleno de bolitas pegadas y las miró al microscopio.",
     categoria: "Copiar a la naturaleza",
     color: "var(--ochre)",
@@ -46,7 +46,7 @@ export const BIOMIMESIS: Short[] = [
   },
   {
     id: "el-tren-y-el-pajaro",
-    titulo: "Un tren dejó de tronar copiando a un pájaro",
+    titulo: "El tren dejó de tronar",
     gancho: "Al salir del túnel provocaba un estruendo enorme. Lo resolvieron dándole al morro forma de pico de martín pescador.",
     categoria: "Copiar a la naturaleza",
     color: "var(--slate)",
@@ -75,7 +75,7 @@ export const BIOMIMESIS: Short[] = [
   },
   {
     id: "la-hoja-que-no-se-moja",
-    titulo: "Hay hojas que se limpian solas con la lluvia",
+    titulo: "Hojas que se limpian solas",
     gancho: "El agua resbala en bolas y arrastra la suciedad. La clave está en unas rugosidades que no se ven.",
     categoria: "Copiar a la naturaleza",
     color: "var(--plum)",
