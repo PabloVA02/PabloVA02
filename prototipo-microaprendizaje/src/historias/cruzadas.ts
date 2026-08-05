@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CRUZADAS: Short[] = [
   {
     id: "el-sermon-que-movio-europa",
-    titulo: "Un sermón puso en marcha a decenas de miles",
+    titulo: "Un sermón movió a miles",
     gancho: "El papa ofreció el perdón de todos los pecados a quien fuera a luchar a Tierra Santa. Funcionó demasiado bien.",
     categoria: "Cruzadas",
     color: "var(--plum)",
@@ -45,7 +45,7 @@ export const CRUZADAS: Short[] = [
   },
   {
     id: "la-cruzada-que-no-llego",
-    titulo: "Una cruzada acabó saqueando una ciudad cristiana",
+    titulo: "Saquearon una ciudad cristiana",
     gancho: "Se apuntaron menos hombres de los previstos, no pudieron pagar los barcos y terminaron atacando a quien no debían.",
     categoria: "Cruzadas",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const CRUZADAS: Short[] = [
   },
   {
     id: "lo-que-trajeron-de-vuelta",
-    titulo: "De aquellas guerras volvieron palabras y azúcar",
+    titulo: "Volvieron con palabras y azúcar",
     gancho: "Molinos, cultivos y un vocabulario entero que hoy usamos sin saber de dónde salió.",
     categoria: "Cruzadas",
     color: "var(--ochre)",

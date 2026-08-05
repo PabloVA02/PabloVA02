@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const CORREOS: Short[] = [
   {
     id: "penny-black",
-    titulo: "Antes del sello pagaba quien recibía la carta",
+    titulo: "Pagaba quien recibía la carta",
     gancho: "Y podía negarse a pagarla. Media Inglaterra mandaba mensajes en el sobre para no tener que abrirlo.",
     categoria: "Correos",
     color: "var(--slate)",
@@ -57,7 +57,7 @@ export const CORREOS: Short[] = [
 
   {
     id: "pony-express",
-    titulo: "El correo a caballo del oeste duró dieciocho meses",
+    titulo: "Dieciocho meses a caballo",
     gancho: "Ochenta jinetes cruzaban tres mil kilómetros en diez días. Un cable telegráfico los dejó sin trabajo.",
     categoria: "Correos",
     color: "var(--ochre)",
@@ -88,7 +88,7 @@ export const CORREOS: Short[] = [
 
   {
     id: "cartas-que-llegan-tarde",
-    titulo: "Hay cartas que tardaron un siglo en llegar",
+    titulo: "Cartas que tardaron un siglo",
     gancho: "Un baúl de correo del siglo XVII se abrió en 2015. Sus dueños llevaban trescientos años muertos.",
     categoria: "Correos",
     color: "var(--plum)",

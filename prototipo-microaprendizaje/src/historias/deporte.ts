@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const DEPORTE: Short[] = [
   {
     id: "maraton-42195",
-    titulo: "El maratón mide lo que medía un jardín inglés",
+    titulo: "El maratón lo midió un jardín",
     gancho: "Los 195 metros de más salieron de dónde había que poner la meta en 1908.",
     categoria: "Deporte",
     color: "var(--sage)",
@@ -52,7 +52,7 @@ export const DEPORTE: Short[] = [
 
   {
     id: "fosbury-espalda",
-    titulo: "Saltar de espaldas era ridículo hasta que ganó",
+    titulo: "Saltar de espaldas parecía ridículo",
     gancho: "En 1968 nadie lo hacía. Diez años después no lo hacía nadie de otra forma.",
     categoria: "Deporte",
     color: "var(--slate)",
@@ -85,7 +85,7 @@ export const DEPORTE: Short[] = [
 
   {
     id: "pelota-golf-hoyuelos",
-    titulo: "Una pelota de golf abollada vuela el doble",
+    titulo: "Abollada vuela el doble",
     gancho: "Los jugadores del XIX guardaban las viejas: rayadas llegaban más lejos.",
     categoria: "Deporte",
     color: "var(--clay)",
@@ -118,7 +118,7 @@ export const DEPORTE: Short[] = [
   },
   {
     id: "maraton-1904",
-    titulo: "El maratón de 1904 lo ganó alguien que fue en coche",
+    titulo: "Ganó el maratón en coche",
     gancho: "Catorce de treinta y dos llegaron a meta. Al segundo le habían dado veneno para ratas.",
     categoria: "Deporte",
     color: "var(--clay)",
@@ -149,7 +149,7 @@ export const DEPORTE: Short[] = [
 
   {
     id: "juegos-1936",
-    titulo: "En 1936 un rival alemán le enseñó a saltar",
+    titulo: "El rival le enseñó a saltar",
     gancho: "Los Juegos eran el escaparate del nazismo. El favorito local ayudó al hombre que iba a ganarle.",
     categoria: "Deporte",
     color: "var(--forest)",
@@ -179,7 +179,7 @@ export const DEPORTE: Short[] = [
 
   {
     id: "mano-de-dios",
-    titulo: "Dos goles en cuatro minutos, uno con la mano",
+    titulo: "Dos goles y uno con la mano",
     gancho: "El primero fue trampa y lo vio todo el estadio menos el árbitro. El segundo es el mejor de la historia.",
     categoria: "Deporte",
     color: "var(--slate)",

@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const CORCHO: Short[] = [
   {
     id: "la-corteza-que-se-quita",
-    titulo: "El alcornoque es el único árbol que se desnuda",
+    titulo: "El árbol al que se desnuda",
     gancho: "Se le arranca la corteza entera cada nueve años y no le pasa nada. Ningún otro árbol aguanta eso.",
     categoria: "Plantas",
     color: "var(--ochre)",
@@ -44,7 +44,7 @@ export const CORCHO: Short[] = [
   },
   {
     id: "por-que-el-tapon-sella",
-    titulo: "El corcho es el único material que se comprime",
+    titulo: "Se aplasta sin ensancharse",
     gancho: "Casi todo lo que se aprieta por un lado se ensancha por otro. El corcho no, y por eso entra en el cuello de la botella.",
     categoria: "Objetos",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const CORCHO: Short[] = [
   },
   {
     id: "el-corcho-que-no-es-tapon",
-    titulo: "Con el corcho sobrante se hacen suelos y cohetes",
+    titulo: "Del sobrante salen suelos y cohetes",
     gancho: "Solo una parte de la corteza sirve para tapones. El resto se tritura y acaba en sitios donde nadie lo busca.",
     categoria: "Objetos",
     color: "var(--slate)",

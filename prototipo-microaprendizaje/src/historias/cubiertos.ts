@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CUBIERTOS: Short[] = [
   {
     id: "el-tenedor-mal-visto",
-    titulo: "El tenedor se consideró un capricho indecente",
+    titulo: "El tenedor era un capricho indecente",
     gancho: "Una princesa lo llevó a Venecia en el siglo XI y los clérigos dijeron que era despreciar los dedos que Dios dio.",
     categoria: "Cubiertos",
     color: "var(--ochre)",
@@ -46,7 +46,7 @@ export const CUBIERTOS: Short[] = [
   },
   {
     id: "el-cuchillo-de-punta-redonda",
-    titulo: "A los cuchillos de mesa les quitaron la punta",
+    titulo: "Al cuchillo le quitaron la punta",
     gancho: "Todo el mundo llevaba el suyo afilado a la mesa. Un ministro francés decidió que aquello se acababa.",
     categoria: "Cubiertos",
     color: "var(--slate)",
@@ -75,7 +75,7 @@ export const CUBIERTOS: Short[] = [
   },
   {
     id: "la-cuchara-mas-antigua",
-    titulo: "La cuchara es mucho más antigua que las otras",
+    titulo: "La cuchara es la más vieja",
     gancho: "Existe desde la prehistoria porque hay una cosa que no se puede comer de otra manera: la sopa.",
     categoria: "Cubiertos",
     color: "var(--clay)",

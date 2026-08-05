@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const DESIERTOS: Short[] = [
   {
     id: "sahara-verde",
-    titulo: "El Sáhara fue verde hace seis mil años",
+    titulo: "El Sáhara estuvo verde",
     gancho: "Hay pinturas rupestres de gente nadando en cuevas del desierto más seco del mundo.",
     categoria: "Desiertos",
     color: "var(--ochre)",
@@ -48,7 +48,7 @@ export const DESIERTOS: Short[] = [
 
   {
     id: "desierto-sin-lluvia",
-    titulo: "Hay desiertos donde no ha llovido nunca",
+    titulo: "Hay desiertos sin una gota",
     gancho: "Algunas estaciones no han registrado una gota en todo el siglo que llevan midiendo.",
     categoria: "Desiertos",
     color: "var(--slate)",
@@ -78,7 +78,7 @@ export const DESIERTOS: Short[] = [
 
   {
     id: "tormentas-de-polvo",
-    titulo: "El polvo tapó el sol en media América",
+    titulo: "El polvo tapó el sol",
     gancho: "Araron tanta hierba que el suelo se levantó con el viento y viajó dos mil kilómetros.",
     categoria: "Desiertos",
     color: "var(--clay)",

@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const CREENCIAS: Short[] = [
   {
     id: "manzana-genesis",
-    titulo: "En la Biblia no pone que fuera una manzana",
+    titulo: "En la Biblia no pone manzana",
     gancho: "El texto dice «fruto», sin más. La manzana llegó mil años después, y por un juego de palabras en latín.",
     categoria: "Creencias",
     color: "var(--forest)",
@@ -49,7 +49,7 @@ export const CREENCIAS: Short[] = [
 
   {
     id: "reyes-magos",
-    titulo: "Los Reyes Magos ni eran reyes ni eran tres",
+    titulo: "Ni eran reyes ni eran tres",
     gancho: "El Evangelio no dice cuántos son, ni sus nombres, ni que fueran reyes. Se fue completando en quince siglos.",
     categoria: "Creencias",
     color: "var(--plum)",
@@ -80,7 +80,7 @@ export const CREENCIAS: Short[] = [
 
   {
     id: "navidad-25",
-    titulo: "La Navidad no cae el día que nació nadie",
+    titulo: "Nadie nació ese día",
     gancho: "Ningún evangelio dice cuándo nació Jesús. La fecha se fijó trescientos años después, y por buenos motivos.",
     categoria: "Creencias",
     color: "var(--ochre)",

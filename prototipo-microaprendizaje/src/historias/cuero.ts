@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CUERO: Short[] = [
   {
     id: "por-que-no-se-pudre",
-    titulo: "Curtir es impedir que la piel se pudra",
+    titulo: "Curtir es que no se pudra",
     gancho: "Una piel sin tratar se descompone en días. El curtido cambia su química para que las bacterias no puedan con ella.",
     categoria: "Cuero",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const CUERO: Short[] = [
   },
   {
     id: "el-barrio-de-los-curtidores",
-    titulo: "Los curtidores vivían fuera de la ciudad",
+    titulo: "Los curtidores vivían fuera",
     gancho: "Su oficio apestaba tanto que las leyes municipales lo expulsaban al otro lado del río, junto a los mataderos.",
     categoria: "Cuero",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const CUERO: Short[] = [
   },
   {
     id: "el-cuero-que-no-es-cuero",
-    titulo: "Casi todo el cuero sintético es plástico",
+    titulo: "Casi todo el cuero falso es plástico",
     gancho: "Se llama de muchas maneras, pero la mayoría son telas recubiertas de plástico. Y algunas alternativas nuevas también.",
     categoria: "Cuero",
     color: "var(--plum)",

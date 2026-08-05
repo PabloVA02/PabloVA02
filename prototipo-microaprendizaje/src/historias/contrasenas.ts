@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const CONTRASENAS: Short[] = [
   {
     id: "la-primera-contrasena",
-    titulo: "La primera contraseña de ordenador se robó enseguida",
+    titulo: "La primera contraseña duró poco",
     gancho: "Un investigador quería más horas de máquina, imprimió el fichero de claves y se hizo pasar por los demás.",
     categoria: "Contraseñas",
     color: "var(--slate)",
@@ -44,7 +44,7 @@ export const CONTRASENAS: Short[] = [
   },
   {
     id: "las-reglas-que-no-servian",
-    titulo: "Las reglas de contraseñas complicadas eran un error",
+    titulo: "Las reglas raras eran un error",
     gancho: "Su propio autor pidió perdón. Obligar a poner símbolos y cambiarla cada mes hizo las claves más previsibles.",
     categoria: "Contraseñas",
     color: "var(--ochre)",
@@ -74,7 +74,7 @@ export const CONTRASENAS: Short[] = [
   },
   {
     id: "el-segundo-factor",
-    titulo: "La contraseña sola ya no basta para nada",
+    titulo: "La contraseña ya no basta",
     gancho: "Si alguien la roba, entra. Por eso ahora se pide además algo que tienes encima, como el móvil.",
     categoria: "Contraseñas",
     color: "var(--plum)",

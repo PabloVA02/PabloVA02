@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const DINOSAURIOS: Short[] = [
   {
     id: "dinosaurios-plumas",
-    titulo: "Casi todos los dinosaurios tenían plumas",
+    titulo: "Casi todos tenían plumas",
     gancho: "Un yacimiento chino conserva la piel. Lo que apareció alrededor de los huesos no eran escamas.",
     categoria: "Dinosaurios",
     color: "var(--forest)",
@@ -51,7 +51,7 @@ export const DINOSAURIOS: Short[] = [
 
   {
     id: "meteorito-yucatan",
-    titulo: "El meteorito cayó en el peor sitio posible",
+    titulo: "Cayó en el peor sitio posible",
     gancho: "Lo que decidió la extinción no fue el tamaño de la roca, sino lo que había justo debajo.",
     categoria: "Dinosaurios",
     color: "var(--clay)",
@@ -81,7 +81,7 @@ export const DINOSAURIOS: Short[] = [
 
   {
     id: "brontosaurio",
-    titulo: "El Brontosaurio dejó de existir durante un siglo",
+    titulo: "El Brontosaurio dejó de existir",
     gancho: "Se montó con la cabeza de otro animal y en 1903 le quitaron hasta el nombre. Volvió en 2015.",
     categoria: "Dinosaurios",
     color: "var(--slate)",

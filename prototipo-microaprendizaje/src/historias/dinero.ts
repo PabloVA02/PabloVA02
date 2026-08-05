@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const DINERO: Short[] = [
   {
     id: "pengo-hungria",
-    titulo: "El billete más grande de la historia no compraba nada",
+    titulo: "El billete más grande no compraba nada",
     gancho: "Hungría llegó a un billete de cien trillones. Los precios doblaban cada 15 horas.",
     categoria: "Dinero",
     color: "var(--ochre)",
@@ -52,7 +52,7 @@ export const DINERO: Short[] = [
 
   {
     id: "piedras-yap",
-    titulo: "La isla donde el dinero pesa dos toneladas",
+    titulo: "El dinero que pesa dos toneladas",
     gancho: "Una moneda se hundió en el mar y su dueño siguió siendo rico.",
     categoria: "Dinero",
     color: "var(--slate)",
@@ -85,7 +85,7 @@ export const DINERO: Short[] = [
 
   {
     id: "dolar-valle-checo",
-    titulo: "El dólar se llama así por un valle de Bohemia",
+    titulo: "El dólar viene de un valle",
     gancho: "La moneda de Estados Unidos lleva el nombre de una mina checa del siglo XVI.",
     categoria: "Dinero",
     color: "var(--sage)",
@@ -118,7 +118,7 @@ export const DINERO: Short[] = [
   },
   {
     id: "tulipanes-holanda",
-    titulo: "Un bulbo de tulipán llegó a costar una casa",
+    titulo: "Un tulipán costaba una casa",
     gancho: "Se compraban flores que aún no habían salido de la tierra. En un mes no valían nada.",
     categoria: "Dinero",
     color: "var(--plum)",
@@ -149,7 +149,7 @@ export const DINERO: Short[] = [
 
   {
     id: "crisis-2008",
-    titulo: "La crisis de 2008 empezó en casas que nadie podía pagar",
+    titulo: "Casas que nadie podía pagar",
     gancho: "Se prestaba dinero a quien no podía devolverlo, se troceaba la deuda y se vendía como segura.",
     categoria: "Dinero",
     color: "var(--slate)",
@@ -179,7 +179,7 @@ export const DINERO: Short[] = [
 
   {
     id: "papel-moneda",
-    titulo: "El billete lo inventó China ochocientos años antes",
+    titulo: "El billete es ochocientos años más viejo",
     gancho: "Europa tardó siglos en fiarse de un papel. En China ya estaban resolviendo la inflación.",
     categoria: "Dinero",
     color: "var(--ochre)",

@@ -23,7 +23,7 @@ import venusFoto from "../fotos/venus-dia.jpg";
 export const COSMOS: Short[] = [
   {
     id: "venus-dia",
-    titulo: "Venus: allí el día dura más que el año",
+    titulo: "En Venus el día dura más",
     gancho: "Da una vuelta sobre sí mismo en 243 días y una vuelta al Sol en 225.",
     categoria: "Cosmos",
     color: "var(--ochre)",
@@ -72,7 +72,7 @@ export const COSMOS: Short[] = [
 
   {
     id: "saturno-flota",
-    titulo: "Saturno flotaría en el agua (con truco)",
+    titulo: "Saturno flotaría en el agua",
     gancho: "Es el único planeta menos denso que el agua. La bañera es el problema.",
     categoria: "Cosmos",
     color: "var(--slate)",
@@ -106,7 +106,7 @@ export const COSMOS: Short[] = [
 
   {
     id: "luna-se-aleja",
-    titulo: "La Luna se aleja y se llevará los eclipses",
+    titulo: "La Luna se lleva los eclipses",
     gancho: "Se va 3,8 centímetros al año. Lo sabemos porque hay espejos allí arriba.",
     categoria: "Cosmos",
     color: "var(--plum)",

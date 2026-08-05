@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const DESAGUES: Short[] = [
   {
     id: "el-sifon-del-fregadero",
-    titulo: "El tubo curvo del fregadero es una trampa",
+    titulo: "El tubo curvo es una trampa",
     gancho: "Retiene siempre un dedo de agua, y ese dedo es lo único que impide que el olor de la alcantarilla entre en casa.",
     categoria: "Objetos",
     color: "var(--slate)",
@@ -44,7 +44,7 @@ export const DESAGUES: Short[] = [
   },
   {
     id: "el-iceberg-de-grasa",
-    titulo: "Las toallitas forman bloques enormes en las cloacas",
+    titulo: "Las toallitas hacen bloques enormes",
     gancho: "Bajo una calle de Londres apareció una masa de doscientas cincuenta toneladas, dura como el hormigón.",
     categoria: "Objetos",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const DESAGUES: Short[] = [
   },
   {
     id: "el-remolino-del-desague",
-    titulo: "El desagüe no gira según el hemisferio",
+    titulo: "El desagüe no gira por el hemisferio",
     gancho: "La fuerza que se invoca para explicarlo existe y mueve los huracanes. En un lavabo es tan pequeña que la tapa cualquier cosa.",
     categoria: "Objetos",
     color: "var(--plum)",
