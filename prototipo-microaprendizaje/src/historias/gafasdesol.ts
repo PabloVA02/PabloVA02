@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const GAFAS_DE_SOL: Short[] = [
   {
     id: "las-gafas-de-hueso",
-    titulo: "Gafas de hueso",
+    titulo: "Las primeras gafas de sol",
     gancho: "Eran una tira de hueso con dos ranuras finísimas, y protegían de la nieve mejor que cualquier cristal oscuro.",
     categoria: "Objetos",
     color: "var(--slate)",

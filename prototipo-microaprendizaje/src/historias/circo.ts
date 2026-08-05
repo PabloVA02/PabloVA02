@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CIRCO: Short[] = [
   {
     id: "pista-de-trece-metros",
-    titulo: "La pista, 13 metros",
+    titulo: "La pista es redonda",
     gancho: "Trece metros de diámetro, en cualquier país y desde 1768. Lo decide la fuerza que empuja al caballo.",
     categoria: "Circo",
     color: "var(--clay)",

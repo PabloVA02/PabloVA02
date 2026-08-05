@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const ISLAS: Short[] = [
   {
     id: "estatuas-caminando",
-    titulo: "Estatuas que andaron",
+    titulo: "Las estatuas de la isla",
     gancho: "Los isleños lo dijeron siempre y nadie les creyó. Se ha probado con cuerdas y dieciocho personas.",
     categoria: "Islas",
     color: "var(--slate)",

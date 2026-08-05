@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const AIRBAGS: Short[] = [
   {
     id: "explotar-para-salvar",
-    titulo: "El airbag explota",
+    titulo: "Cómo se infla un airbag",
     gancho: "No se infla con aire comprimido. Quema una pastilla química y llena la bolsa en cuatro centésimas de segundo.",
     categoria: "Tecnología",
     color: "var(--slate)",

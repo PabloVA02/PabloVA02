@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const SEGUROS: Short[] = [
   {
     id: "la-tabla-de-mortalidad",
-    titulo: "La tabla de morir",
+    titulo: "Cómo se calcula un seguro",
     gancho: "Nadie sabe cuándo morirá una persona. Con cien mil personas, en cambio, la cifra se predice con bastante precisión.",
     categoria: "Dinero",
     color: "var(--slate)",

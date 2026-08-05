@@ -33,7 +33,7 @@ import cesarAugusto from "../fotos/cesar-4-augusto.jpg";
 export const FIGURAS: Short[] = [
   {
     id: "cesar",
-    titulo: "César, 23 puñaladas",
+    titulo: "Por qué mataron a César",
     gancho: "A Julio César lo apuñalaron veintitrés veces sesenta senadores a la vez. El médico que examinó el cuerpo escribió que solo una fue mortal.",
     categoria: "Figuras",
     color: "var(--clay)",

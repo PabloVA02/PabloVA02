@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const ROPA: Short[] = [
   {
     id: "boton-ojal",
-    titulo: "El botón, sin ojal",
+    titulo: "El botón antes que el ojal",
     gancho: "Durante treinta siglos fue un adorno cosido a la tela. A nadie se le ocurrió abrir un agujero enfrente.",
     categoria: "Ropa",
     color: "var(--ochre)",

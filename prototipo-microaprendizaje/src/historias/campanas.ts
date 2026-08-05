@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const CAMPANAS: Short[] = [
   {
     id: "la-campana-que-marcaba-el-dia",
-    titulo: "La campana mandaba",
+    titulo: "Para qué era la campana",
     gancho: "Antes del reloj de bolsillo, el sonido de la campana era la única manera de saber la hora todos a la vez.",
     categoria: "Historia",
     color: "var(--clay)",

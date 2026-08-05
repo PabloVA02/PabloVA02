@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const SEDA: Short[] = [
   {
     id: "secreto-de-la-seda",
-    titulo: "La seda en un bastón",
+    titulo: "Cómo se robó la seda",
     gancho: "China lo guardó tres mil años bajo pena de muerte. Dos monjes lo sacaron en cañas huecas.",
     categoria: "Seda",
     color: "var(--ochre)",

@@ -440,19 +440,28 @@ seis líneas de hueco. Se van alargando por tandas, y
 Regla de Pablo y sin excepción: **el título ocupa una línea, nunca dos.**
 
 No se cuenta por palabras sino por letras, porque lo que decide si cabe es
-cuánto mide pintado. **Veintiuna letras** es lo que entra en el móvil más
-estrecho que soportamos. Hasta veinticuatro pasa: la app encoge el título lo
-justo para que quepa. De ahí en adelante hay que acortarlo a mano, porque
-encogido se nota.
+cuánto mide pintado. **Veintisiete letras** es el tope: la app encoge el
+título hasta el 78 % antes de rendirse, y con eso entra en una línea en
+cualquier móvil encogiendo cuatro o cinco puntos porcentuales, que no se ven.
 
 Para medir uno antes de escribirlo: `node cabe.mjs "tu título"` en el
 scratchpad, que lo pinta con la letra de la app y dice si entra.
 
-**Y tiene que decir de qué va.** Corto no es lo mismo que vago. «Bajarse a
-rascar» cabe de sobra y no dice nada; «Nieve en el cristal» cabe igual y
-sitúa el tema. El título nombra la cosa de la que se habla —el ancla, el
-sifón, el abanico, el gusano— o dice algo concreto que le pasa. Si al leerlo
-solo no se sabe de qué va el short, no vale aunque suene bien.
+**Y tiene que decir de qué va, leyéndolo solo.** No basta con nombrar algo de
+refilón: «Nieve en el cristal» sigue sin decir que el short va del
+limpiaparabrisas. Hay que nombrar el tema.
+
+Dos formas que funcionan, las dos aprobadas por Pablo:
+
+- **Preguntar.** «Por qué mataron a César», «Por qué agarra un ancla», «Cómo
+  se infla un airbag», «Para qué era la campana».
+- **Nombrar la cosa.** «El primer virus de internet», «El impuesto de
+  ventanas», «Las primeras gafas de sol», «El sifón del desagüe».
+
+Lo que no vale es la insinuación bonita: «bajarse a rascar», «un dedo de
+agua», «cuatro centésimas». Caben de sobra y no dicen nada. Corto no es lo
+mismo que claro, y aquí manda claro: para eso el tope son veintisiete letras
+y no veintiuna.
 
 Y ojo al orden de trabajo: **el título y la entrada del mismo short se hacen a
 la vez**. El título decide si ocupa una línea o dos, y eso cambia cuántas

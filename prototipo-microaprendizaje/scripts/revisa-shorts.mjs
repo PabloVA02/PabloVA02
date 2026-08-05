@@ -94,13 +94,19 @@ for (const ruta of ficheros) {
 
        Medido en el navegador con la letra del título: 13,6 puntos por letra.
        El renglón más estrecho que soportamos es el de un móvil de 320, que da
-       283 puntos, o sea 21 letras. Hasta 24 pasa, porque la app encoge el
-       título lo justo para que entre; de 24 en adelante lo encogería tanto
-       que ya se notaría, y entonces hay que acortarlo a mano. */
+       283 puntos. Como la app encoge el título hasta el 78 % antes de rendirse,
+       el tope real son 283 / 0,78 = 363 puntos, o sea 27 letras. Por debajo de
+       ahí entra en una línea en cualquier móvil, y lo que se encoge son cuatro
+       o cinco puntos porcentuales, que no se ven.
+
+       No se baja más el tope a propósito. Un título de 21 letras cabe de sobra
+       pero se queda en insinuación —«bajarse a rascar»— y Pablo pidió lo
+       contrario: que se sepa de qué va el short leyendo solo el título. Para
+       eso hacen falta letras. */
     if (palabras(titulo) < 2 || palabras(titulo) > 6)
       aviso(id, `título de ${palabras(titulo)} palabras (2-6)`);
-    if (titulo.length > 24)
-      flojo(id, `título de ${titulo.length} letras: no cabe en una línea (21, tope 24)`, "titulo");
+    if (titulo.length > 27)
+      flojo(id, `título de ${titulo.length} letras: no cabe en una línea (tope 27)`, "titulo");
 
     const entrada = /entrada:\n\s+"((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
     const ne = palabras(entrada);

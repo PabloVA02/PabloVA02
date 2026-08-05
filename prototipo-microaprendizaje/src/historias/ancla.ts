@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const ANCLA: Short[] = [
   {
     id: "el-ancla-no-sujeta-por-peso",
-    titulo: "El ancla muerde",
+    titulo: "Por qué agarra un ancla",
     gancho: "Un buque de cien mil toneladas se queda quieto con un ancla de diez. Lo que sujeta es el fondo y la cadena.",
     categoria: "Barcos",
     color: "var(--slate)",

@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const ESCALERAS_MECANICAS: Short[] = [
   {
     id: "la-escalera-de-feria",
-    titulo: "La escalera de feria",
+    titulo: "La escalera mecánica",
     gancho: "No llevaba a ninguna parte: subías, mirabas y volvías a bajar. Setenta y cinco mil personas pagaron por probarla.",
     categoria: "Objetos",
     color: "var(--clay)",

@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CAZA: Short[] = [
   {
     id: "cazar-corriendo-detras",
-    titulo: "Cazar cansando",
+    titulo: "Cazar corriendo detrás",
     gancho: "No corremos rápido, pero sudamos y no paramos. Un animal grande se sobrecalienta antes que nosotros.",
     categoria: "Caza",
     color: "var(--ochre)",

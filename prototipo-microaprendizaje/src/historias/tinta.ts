@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const TINTA: Short[] = [
   {
     id: "la-tinta-que-se-come-el-papel",
-    titulo: "Tinta que come papel",
+    titulo: "La tinta que come el papel",
     gancho: "Durante mil cuatrocientos años se escribió en Europa con una tinta ácida. Hoy los archiveros pelean contra los agujeros que va dejando.",
     categoria: "Historia",
     color: "var(--clay)",

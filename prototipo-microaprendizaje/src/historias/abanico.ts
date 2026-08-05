@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const ABANICO: Short[] = [
   {
     id: "el-abanico-plegable",
-    titulo: "El abanico plegable",
+    titulo: "De dónde viene el abanico",
     gancho: "En Europa se abanicaban con una pantalla rígida. El plegable es un invento japonés que cabe en un puño.",
     categoria: "Objetos",
     color: "var(--ochre)",

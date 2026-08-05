@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const SAL: Short[] = [
   {
     id: "por-que-la-sal-conserva",
-    titulo: "La sal no mata, seca",
+    titulo: "Por qué la sal conserva",
     gancho: "Un jamón curado pasa meses a temperatura ambiente sin estropearse. El motivo no es que la sal envenene nada.",
     categoria: "Objetos",
     color: "var(--ochre)",

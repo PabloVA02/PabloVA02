@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const IMPUESTOS: Short[] = [
   {
     id: "impuesto-de-las-ventanas",
-    titulo: "Impuesto por ventana",
+    titulo: "El impuesto de ventanas",
     gancho: "Se cobraba por hueco en la fachada, así que media Inglaterra emparedó los suyos con ladrillo.",
     categoria: "Impuestos",
     color: "var(--slate)",

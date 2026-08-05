@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ALMOHADA: Short[] = [
   {
     id: "la-almohada-de-madera",
-    titulo: "Almohada de madera",
+    titulo: "Almohadas de madera",
     gancho: "De madera, de piedra o de cerámica. No eran una tortura: cumplían un trabajo que la blanda no hace.",
     categoria: "Objetos",
     color: "var(--ochre)",

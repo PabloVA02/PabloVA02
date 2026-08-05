@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const FAROS_DE_COCHE: Short[] = [
   {
     id: "deslumbrar-al-de-enfrente",
-    titulo: "Faros que no ciegan",
+    titulo: "Por qué el faro no ciega",
     gancho: "Un faro que ilumina bien la carretera ciega al que viene de frente. Toda la historia es ese equilibrio.",
     categoria: "Tecnología",
     color: "var(--slate)",
