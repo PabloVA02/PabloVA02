@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const PAPEL: Short[] = [
   {
     id: "el-papel-era-ropa-vieja",
-    titulo: "El papel se hacía con ropa vieja",
+    titulo: "Papel hecho de ropa vieja",
     gancho: "Trapos de lino y de algodón, machacados hasta deshacerlos. Había recogedores de trapo por las calles.",
     categoria: "Papel",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const PAPEL: Short[] = [
   },
   {
     id: "el-papel-que-se-deshace",
-    titulo: "Los libros del siglo XX se están desintegrando",
+    titulo: "Los libros se están deshaciendo",
     gancho: "Millones de volúmenes se vuelven quebradizos y se rompen al pasar la página. La culpa es de un ácido.",
     categoria: "Papel",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const PAPEL: Short[] = [
   },
   {
     id: "el-tamano-de-un-folio",
-    titulo: "El folio mide lo que mide por una razón",
+    titulo: "Por qué el folio mide eso",
     gancho: "Si lo doblas por la mitad sale exactamente la mitad, con la misma forma. Eso no ocurre por casualidad.",
     categoria: "Papel",
     color: "var(--plum)",

@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const PEGAMENTO: Short[] = [
   {
     id: "por-que-pega-el-pegamento",
-    titulo: "Un pegamento tiene que hacer dos cosas",
+    titulo: "Pegar dos cosas y pegarse",
     gancho: "Agarrarse a las dos superficies y agarrarse a sí mismo. Si falla una de las dos, la unión se abre.",
     categoria: "Ciencia",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const PEGAMENTO: Short[] = [
   },
   {
     id: "el-pegamento-instantaneo",
-    titulo: "El pegamento instantáneo necesita agua para pegar",
+    titulo: "Necesita agua para agarrar",
     gancho: "Por eso pega los dedos al instante y cuesta que agarre en una madera muy seca. Reacciona con la humedad.",
     categoria: "Ciencia",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const PEGAMENTO: Short[] = [
   },
   {
     id: "pegar-un-avion",
-    titulo: "Los aviones se pegan en vez de remacharse",
+    titulo: "Los aviones van pegados",
     gancho: "Un remache exige un agujero, y un agujero es por donde empieza una grieta. El pegamento no perfora nada.",
     categoria: "Tecnología",
     color: "var(--plum)",

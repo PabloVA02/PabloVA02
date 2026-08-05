@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const NOMBRES_DE_CALLES: Short[] = [
   {
     id: "los-numeros-de-las-casas",
-    titulo: "Numerar las casas se hizo para reclutar soldados",
+    titulo: "Numerar casas para reclutar",
     gancho: "No fue idea del cartero. Fue un ejército que necesitaba saber en qué casa vivía cada hombre en edad de servir.",
     categoria: "Calles",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const NOMBRES_DE_CALLES: Short[] = [
   },
   {
     id: "las-calles-de-los-oficios",
-    titulo: "Las calles se llamaban como el oficio de allí",
+    titulo: "La calle llevaba su oficio",
     gancho: "Curtidores, herreros, plateros. El nombre era una dirección real, no un homenaje.",
     categoria: "Calles",
     color: "var(--ochre)",
@@ -75,7 +75,7 @@ export const NOMBRES_DE_CALLES: Short[] = [
   },
   {
     id: "la-direccion-que-no-existe",
-    titulo: "La mitad del mundo no tiene dirección postal",
+    titulo: "Media humanidad sin dirección",
     gancho: "Sin dirección no hay cuenta bancaria, ni ambulancia que te encuentre, ni paquete que llegue.",
     categoria: "Calles",
     color: "var(--plum)",

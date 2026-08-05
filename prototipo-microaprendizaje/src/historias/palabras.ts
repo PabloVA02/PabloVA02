@@ -21,7 +21,7 @@ import type { Short } from "../shorts";
 export const PALABRAS: Short[] = [
   {
     id: "salario-sal",
-    titulo: "«Salario»: la sal que nadie ha podido demostrar",
+    titulo: "La sal que nadie ha demostrado",
     gancho: "A los legionarios les pagaban en monedas. Lo de la sal es más resbaladizo.",
     categoria: "Palabras",
     color: "var(--ochre)",
@@ -54,7 +54,7 @@ export const PALABRAS: Short[] = [
 
   {
     id: "ok-broma",
-    titulo: "«OK» nació como una broma mal escrita",
+    titulo: "Nació como una broma mal escrita",
     gancho: "La palabra más usada del planeta empezó siendo un chiste de periodistas de Boston.",
     categoria: "Palabras",
     color: "var(--slate)",

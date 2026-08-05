@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const NUDOS: Short[] = [
   {
     id: "el-nudo-que-aprieta-solo",
-    titulo: "Un buen nudo aprieta más cuanto más tiras",
+    titulo: "Aprieta más cuanto más tiras",
     gancho: "La cuerda no sujeta por ser fuerte, sino por cómo se dobla sobre sí misma. Y ahí mismo está su punto débil.",
     categoria: "Objetos",
     color: "var(--ochre)",
@@ -43,7 +43,7 @@ export const NUDOS: Short[] = [
   },
   {
     id: "por-que-se-mide-en-nudos",
-    titulo: "Los barcos miden su velocidad con una cuerda",
+    titulo: "La velocidad se medía con cuerda",
     gancho: "Una tablilla lastrada, un cordel con nudos y un reloj de arena. De ahí viene la unidad que se sigue usando hoy.",
     categoria: "Objetos",
     color: "var(--slate)",
@@ -72,7 +72,7 @@ export const NUDOS: Short[] = [
   },
   {
     id: "el-nudo-del-cirujano",
-    titulo: "El cirujano ata nudos que no pueden aflojarse",
+    titulo: "Un nudo que no puede ceder",
     gancho: "El hilo se moja, resbala y trabaja dentro de algo que se mueve. Si el nudo cede un milímetro, la herida se abre.",
     categoria: "Objetos",
     color: "var(--plum)",

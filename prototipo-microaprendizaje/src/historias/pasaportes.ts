@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const PASAPORTES: Short[] = [
   {
     id: "pasaporte-1914",
-    titulo: "Antes de 1914 se viajaba sin papeles",
+    titulo: "Antes se viajaba sin papeles",
     gancho: "Se cruzaba media Europa sin enseñar nada. La guerra puso el control y ya no se quitó.",
     categoria: "Pasaportes",
     color: "var(--slate)",
@@ -48,7 +48,7 @@ export const PASAPORTES: Short[] = [
 
   {
     id: "pasaporte-para-apatridas",
-    titulo: "Hubo un pasaporte para gente sin país",
+    titulo: "Un pasaporte sin país",
     gancho: "Cuatrocientas cincuenta mil personas sin Estado viajaron con un documento que no era de nadie.",
     categoria: "Pasaportes",
     color: "var(--ochre)",

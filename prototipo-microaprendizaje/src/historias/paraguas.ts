@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const PARAGUAS: Short[] = [
   {
     id: "el-hombre-del-paraguas",
-    titulo: "Al primero que sacó un paraguas le tiraban basura",
+    titulo: "Al primero le tiraban basura",
     gancho: "Los cocheros de alquiler lo insultaban por la calle: si no llovía encima, nadie pagaba un carruaje.",
     categoria: "Paraguas",
     color: "var(--clay)",
@@ -47,7 +47,7 @@ export const PARAGUAS: Short[] = [
 
   {
     id: "varillas-de-acero",
-    titulo: "El acero convirtió el paraguas en un objeto barato",
+    titulo: "El acero lo puso al alcance",
     gancho: "Una varilla con forma de U pesa la mitad y aguanta el doble. Cambió el precio y cambió quién lo llevaba.",
     categoria: "Paraguas",
     color: "var(--slate)",
@@ -77,7 +77,7 @@ export const PARAGUAS: Short[] = [
 
   {
     id: "paraguas-de-bolsillo",
-    titulo: "El paraguas plegable tardó dos siglos en llegar",
+    titulo: "Dos siglos para que se plegara",
     gancho: "La idea era vieja y evidente. Lo difícil era que el tubo aguantara plegarse mil veces sin partirse.",
     categoria: "Paraguas",
     color: "var(--plum)",

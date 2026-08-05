@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const OBJETOS: Short[] = [
   {
     id: "codigo-barras",
-    titulo: "El código de barras se dibujó en la arena",
+    titulo: "Dibujado en la arena",
     gancho: "Un estudiante trazó puntos y rayas de morse en la playa y los estiró hacia abajo.",
     categoria: "Objetos",
     color: "var(--ochre)",
@@ -53,7 +53,7 @@ export const OBJETOS: Short[] = [
 
   {
     id: "cremallera-tardanza",
-    titulo: "La cremallera tardó cuarenta años en gustarle a alguien",
+    titulo: "Cuarenta años sin gustarle a nadie",
     gancho: "Se presentó en una Exposición Universal y no vendió casi nada durante décadas.",
     categoria: "Objetos",
     color: "var(--slate)",

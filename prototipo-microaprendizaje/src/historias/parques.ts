@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const PARQUES: Short[] = [
   {
     id: "el-parque-como-medicina",
-    titulo: "Los parques se hicieron por motivos de salud",
+    titulo: "Pulmones contra el aire viciado",
     gancho: "Se creía que las enfermedades venían del aire viciado, así que se plantaron pulmones verdes en las ciudades.",
     categoria: "Parques",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const PARQUES: Short[] = [
   },
   {
     id: "el-parque-que-desalojo",
-    titulo: "Para hacer un gran parque se derribó un barrio",
+    titulo: "Un barrio entero por un césped",
     gancho: "Mil seiscientas personas vivían en el terreno elegido, y la ciudad las expropió para plantar césped.",
     categoria: "Parques",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const PARQUES: Short[] = [
   },
   {
     id: "el-arbol-de-la-acera",
-    titulo: "Un árbol de calle vive mucho menos",
+    titulo: "El árbol de calle vive poco",
     gancho: "Diez o quince años frente a más de cien. El problema no es el humo, es el sitio que tienen las raíces.",
     categoria: "Parques",
     color: "var(--plum)",

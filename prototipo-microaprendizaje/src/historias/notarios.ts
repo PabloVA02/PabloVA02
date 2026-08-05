@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const NOTARIOS: Short[] = [
   {
     id: "el-que-daba-fe",
-    titulo: "El notario existe porque la memoria falla",
+    titulo: "Los testigos se mueren",
     gancho: "Antes del documento escrito, un contrato valía lo que recordaran los testigos. Y los testigos se mueren.",
     categoria: "Historia",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const NOTARIOS: Short[] = [
   },
   {
     id: "el-testamento",
-    titulo: "Un testamento se puede hacer de varias maneras",
+    titulo: "Un testamento dictado a cinco vecinos",
     gancho: "El más seguro se firma ante notario. El más raro se dicta de palabra a cinco vecinos en peligro de muerte.",
     categoria: "Justicia",
     color: "var(--clay)",
@@ -74,7 +74,7 @@ export const NOTARIOS: Short[] = [
   },
   {
     id: "la-firma-y-el-sello",
-    titulo: "La firma manuscrita es una prueba bastante mala",
+    titulo: "La firma es una prueba mala",
     gancho: "Cambia cada vez que se hace, se imita con práctica y no dice nada del papel que hay encima. Y sigue en pie.",
     categoria: "Justicia",
     color: "var(--ochre)",

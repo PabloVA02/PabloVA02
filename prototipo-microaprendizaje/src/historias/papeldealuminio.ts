@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const PAPEL_DE_ALUMINIO: Short[] = [
   {
     id: "la-cara-brillante",
-    titulo: "El papel de aluminio tiene dos caras distintas",
+    titulo: "Las dos caras dan igual",
     gancho: "Una brilla y la otra es mate, y no sirven para cosas diferentes. La diferencia viene de cómo se fabrica.",
     categoria: "Objetos",
     color: "var(--slate)",
@@ -43,7 +43,7 @@ export const PAPEL_DE_ALUMINIO: Short[] = [
   },
   {
     id: "el-aluminio-en-el-microondas",
-    titulo: "El aluminio en el microondas suelta chispas",
+    titulo: "El problema son las puntas",
     gancho: "No es que el metal esté prohibido, porque el horno entero es metálico. El problema son los bordes y las puntas.",
     categoria: "Ciencia",
     color: "var(--clay)",
@@ -72,7 +72,7 @@ export const PAPEL_DE_ALUMINIO: Short[] = [
   },
   {
     id: "reciclar-aluminio-si-compensa",
-    titulo: "Reciclar aluminio ahorra el noventa por ciento",
+    titulo: "El reciclaje que gana claro",
     gancho: "Fundir una lata usada cuesta una fracción de lo que cuesta sacar el metal de la roca. Es el reciclaje que gana claro.",
     categoria: "Ciencia",
     color: "var(--ochre)",

@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const ORO: Short[] = [
   {
     id: "medallas-disueltas",
-    titulo: "Dos medallas de oro se disolvieron para esconderlas",
+    titulo: "Dos medallas disueltas en un frasco",
     gancho: "Pasaron la guerra en un frasco naranja, en una estantería, a la vista de todo el mundo.",
     categoria: "Oro",
     color: "var(--plum)",
@@ -48,7 +48,7 @@ export const ORO: Short[] = [
 
   {
     id: "oro-del-mar",
-    titulo: "Alemania buscó oro en el agua del mar",
+    titulo: "Buscar oro en el mar",
     gancho: "El plan era pagar la indemnización de una guerra entera filtrando el océano. El mar tenía mil veces menos de lo calculado.",
     categoria: "Oro",
     color: "var(--slate)",
@@ -78,7 +78,7 @@ export const ORO: Short[] = [
 
   {
     id: "todo-el-oro-en-un-cubo",
-    titulo: "Todo el oro extraído cabe en un cubo",
+    titulo: "Todo el oro en un cubo",
     gancho: "Un cubo de veintidós metros de lado contiene cada moneda, cada anillo y cada lingote jamás extraídos.",
     categoria: "Oro",
     color: "var(--ochre)",
