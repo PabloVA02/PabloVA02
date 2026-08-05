@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const IMANES: Short[] = [
   {
     id: "por-que-un-iman-es-iman",
-    titulo: "Un imán es hierro con los átomos alineados",
+    titulo: "Un imán es hierro bien peinado",
     gancho: "Todo el hierro tiene imanes diminutos dentro apuntando en desorden. Un imán es el mismo hierro con todos mirando igual.",
     categoria: "Ciencia",
     color: "var(--slate)",
@@ -44,7 +44,7 @@ export const IMANES: Short[] = [
   },
   {
     id: "el-iman-de-neodimio",
-    titulo: "Un imán del tamaño de una moneda levanta kilos",
+    titulo: "Una moneda que levanta kilos",
     gancho: "El imán de neodimio es tan fuerte que rompe dedos y perfora intestinos. Salió de la crisis del petróleo.",
     categoria: "Tecnología",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const IMANES: Short[] = [
   },
   {
     id: "el-iman-del-altavoz",
-    titulo: "Un altavoz es un imán empujando papel",
+    titulo: "El altavoz es un imán empujando",
     gancho: "Dentro de cualquier altavoz hay un imán quieto y una bobina que se mueve. El sonido es esa bobina temblando.",
     categoria: "Tecnología",
     color: "var(--ochre)",

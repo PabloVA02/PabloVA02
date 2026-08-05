@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const JARDINES: Short[] = [
   {
     id: "jardin-ingles-y-frances",
-    titulo: "Dos formas de jardín, dos ideas del mundo",
+    titulo: "Dos jardines, dos ideas del mundo",
     gancho: "Uno recorta la naturaleza en líneas rectas. El otro la finge salvaje, y le cuesta más trabajo.",
     categoria: "Jardines",
     color: "var(--slate)",
@@ -46,7 +46,7 @@ export const JARDINES: Short[] = [
 
   {
     id: "el-jardin-que-robo-el-caucho",
-    titulo: "Un jardín botánico se llevó el caucho de Brasil",
+    titulo: "Un jardín robó el caucho",
     gancho: "Setenta mil semillas salieron del Amazonas en 1876. De ellas nacieron las plantaciones de medio mundo.",
     categoria: "Jardines",
     color: "var(--plum)",
@@ -76,7 +76,7 @@ export const JARDINES: Short[] = [
 
   {
     id: "jardines-colgantes",
-    titulo: "Los jardines colgantes quizá no estaban allí",
+    titulo: "Los jardines colgantes no estaban allí",
     gancho: "Son la única de las siete maravillas de la que no se ha encontrado un solo ladrillo.",
     categoria: "Jardines",
     color: "var(--ochre)",

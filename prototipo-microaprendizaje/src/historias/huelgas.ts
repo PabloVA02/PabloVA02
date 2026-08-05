@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const HUELGAS: Short[] = [
   {
     id: "la-huelga-mas-antigua",
-    titulo: "La primera huelga conocida fue en el año 1152",
+    titulo: "La primera huelga fue faraónica",
     gancho: "Los obreros que construían las tumbas de los faraones se sentaron porque llevaban dieciocho días sin cobrar.",
     categoria: "Huelgas",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const HUELGAS: Short[] = [
   },
   {
     id: "la-caja-de-resistencia",
-    titulo: "Una huelga se gana con la caja",
+    titulo: "Una huelga se gana ahorrando",
     gancho: "Aguanta quien puede comer más semanas sin sueldo. Por eso los sindicatos guardaban dinero antes de parar.",
     categoria: "Huelgas",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const HUELGAS: Short[] = [
   },
   {
     id: "los-servicios-minimos",
-    titulo: "Hay huelgas que no pueden pararlo todo",
+    titulo: "Huelgas que no pueden parar",
     gancho: "Un hospital o un tren no pueden cerrar del todo, así que alguien tiene que decidir qué sigue funcionando.",
     categoria: "Huelgas",
     color: "var(--plum)",

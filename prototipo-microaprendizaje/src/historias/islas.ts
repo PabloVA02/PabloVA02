@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const ISLAS: Short[] = [
   {
     id: "estatuas-caminando",
-    titulo: "Las estatuas de la isla de Pascua caminaron",
+    titulo: "Las estatuas fueron andando",
     gancho: "Los isleños lo dijeron siempre y nadie les creyó. Se ha probado con cuerdas y dieciocho personas.",
     categoria: "Islas",
     color: "var(--slate)",
@@ -48,7 +48,7 @@ export const ISLAS: Short[] = [
 
   {
     id: "isla-que-se-hundio",
-    titulo: "Se pelearon por una isla que se hundió",
+    titulo: "Se pelearon por una isla hundida",
     gancho: "Emergió del Mediterráneo en 1831, le clavaron tres banderas y desapareció antes de fin de año.",
     categoria: "Islas",
     color: "var(--ochre)",
@@ -79,7 +79,7 @@ export const ISLAS: Short[] = [
 
   {
     id: "isla-nueva-cerrada",
-    titulo: "Hay una isla nueva y nadie puede pisarla",
+    titulo: "Una isla nueva que nadie pisa",
     gancho: "Nació en 1963 y se cerró al público para ver qué llega solo. Apareció una tomatera.",
     categoria: "Islas",
     color: "var(--plum)",

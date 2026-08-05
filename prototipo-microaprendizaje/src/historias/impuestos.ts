@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const IMPUESTOS: Short[] = [
   {
     id: "impuesto-de-las-ventanas",
-    titulo: "El impuesto que hizo tapiar las ventanas",
+    titulo: "El impuesto que tapió ventanas",
     gancho: "Se cobraba por hueco en la fachada, así que media Inglaterra emparedó los suyos con ladrillo.",
     categoria: "Impuestos",
     color: "var(--slate)",
@@ -48,7 +48,7 @@ export const IMPUESTOS: Short[] = [
 
   {
     id: "impuesto-sobre-la-orina",
-    titulo: "Roma cobraba un impuesto por la orina recogida",
+    titulo: "Roma cobraba por la orina",
     gancho: "Se recogía en tinajas en las esquinas y valía dinero. De ahí viene lo de que el dinero no huele.",
     categoria: "Impuestos",
     color: "var(--ochre)",
@@ -79,7 +79,7 @@ export const IMPUESTOS: Short[] = [
 
   {
     id: "impuesto-sobre-la-barba",
-    titulo: "Rusia cobró por llevar barba y daba recibo",
+    titulo: "Pagar por llevar barba",
     gancho: "Una ficha de metal colgada al cuello demostraba que la barba estaba pagada.",
     categoria: "Impuestos",
     color: "var(--plum)",

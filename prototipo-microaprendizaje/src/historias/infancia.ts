@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const INFANCIA: Short[] = [
   {
     id: "ninos-pintados-como-adultos",
-    titulo: "En los cuadros antiguos los niños parecen adultos",
+    titulo: "Los niños pintados como adultos",
     gancho: "Cara de señor, ropa de señor y postura de señor. Y eso ha dado lugar a una teoría discutida.",
     categoria: "Infancia",
     color: "var(--clay)",
@@ -46,7 +46,7 @@ export const INFANCIA: Short[] = [
   },
   {
     id: "la-primera-ley-de-fabricas",
-    titulo: "La primera ley contra el trabajo infantil fracasó",
+    titulo: "La ley que nadie cumplió",
     gancho: "Prohibía emplear a menores de nueve años, pero no puso a nadie a comprobarlo. No sirvió de nada.",
     categoria: "Infancia",
     color: "var(--slate)",

@@ -21,7 +21,7 @@ import type { Short } from "../shorts";
 export const INVENTOS: Short[] = [
   {
     id: "microondas-chocolatina",
-    titulo: "El microondas nació de una chocolatina derretida",
+    titulo: "Una chocolatina derretida en el bolsillo",
     gancho: "Un ingeniero de radares notó algo pegajoso en el bolsillo y fue a por maíz.",
     categoria: "Inventos",
     color: "var(--clay)",
@@ -54,7 +54,7 @@ export const INVENTOS: Short[] = [
 
   {
     id: "posit-pegamento-malo",
-    titulo: "El pósit: un pegamento que no pegaba",
+    titulo: "Un pegamento que no pegaba",
     gancho: "Tardó doce años en encontrar para qué servía, y lo salvó un coro de iglesia.",
     categoria: "Inventos",
     color: "var(--ochre)",
@@ -87,7 +87,7 @@ export const INVENTOS: Short[] = [
 
   {
     id: "edison-bombilla",
-    titulo: "Edison no inventó la bombilla, y él nunca lo dijo",
+    titulo: "Edison no inventó la bombilla",
     gancho: "Cuando se puso, ya llevaba cuarenta años inventada. Lo que faltaba era otra cosa.",
     categoria: "Inventos",
     color: "var(--plum)",

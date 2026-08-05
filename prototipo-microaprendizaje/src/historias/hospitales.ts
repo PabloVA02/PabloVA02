@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const HOSPITALES: Short[] = [
   {
     id: "triaje-ambulancias",
-    titulo: "El triaje lo inventó un cirujano de guerra",
+    titulo: "El triaje lo inventó la guerra",
     gancho: "Decidió atender por gravedad y no por graduación. A un coronel le tocaba esperar.",
     categoria: "Hospitales",
     color: "var(--clay)",
@@ -49,7 +49,7 @@ export const HOSPITALES: Short[] = [
 
   {
     id: "grafico-mortalidad",
-    titulo: "Un gráfico demostró que morían de suciedad",
+    titulo: "Morían de suciedad, no de heridas",
     gancho: "En aquella guerra murieron más soldados de infección que de heridas. Lo enseñó con un dibujo.",
     categoria: "Hospitales",
     color: "var(--slate)",
