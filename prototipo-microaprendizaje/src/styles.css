@@ -5865,3 +5865,26 @@ button {
 @media (max-height: 700px) {
   .muro-foto { height: 18%; }
 }
+
+/* El margen de la derecha, a plomo.
+   Con el texto alineado a la izquierda, una palabra larga que no cabe se va
+   entera a la línea siguiente y deja un mordisco en el margen derecho: en la
+   entrada de César sobraban 24 puntos de media y hasta 100 en la peor línea.
+   Se justifica, que es lo que hace cualquier libro, y se parten las palabras
+   para que la justificación no tenga que estirar los espacios: sin partir,
+   una línea con tres palabras largas se abre en canal.
+
+   `hyphenate-limit-chars: 6 3 3` prohíbe los cortes feos: solo parte palabras
+   de seis letras o más, y nunca deja menos de tres letras a un lado. La
+   última línea del párrafo se queda a la izquierda, como debe ser.
+
+   Ojo: la partición la hace el navegador con el diccionario del idioma, y lo
+   coge del `lang="es"` del documento. */
+.muro-entrada,
+.short-cuerpo {
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+}
