@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const LANA: Short[] = [
   {
     id: "el-asiento-de-lana",
-    titulo: "El presidente británico se sienta sobre lana",
+    titulo: "Se sienta sobre un saco",
     gancho: "Un saco relleno de lana preside la cámara alta desde el siglo XIV, para que nadie olvide de qué vivía el país.",
     categoria: "Lana",
     color: "var(--ochre)",
@@ -46,7 +46,7 @@ export const LANA: Short[] = [
   },
   {
     id: "la-oveja-prohibida",
-    titulo: "Sacar una oveja de España costaba la vida",
+    titulo: "Sacar una oveja costaba la vida",
     gancho: "La merina daba la lana más fina del mundo y su exportación estuvo prohibida durante siglos.",
     categoria: "Lana",
     color: "var(--slate)",
@@ -75,7 +75,7 @@ export const LANA: Short[] = [
   },
   {
     id: "las-canadas-reales",
-    titulo: "Hay caminos de ganado protegidos desde 1273",
+    titulo: "Caminos de ovejas con ley propia",
     gancho: "Ciento veinticinco mil kilómetros de vías por las que aún pueden pasar ovejas, incluso por el centro de Madrid.",
     categoria: "Lana",
     color: "var(--clay)",

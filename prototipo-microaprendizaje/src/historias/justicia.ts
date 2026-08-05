@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const JUSTICIA: Short[] = [
   {
     id: "juicios-animales",
-    titulo: "En Europa se juzgó a animales con abogado",
+    titulo: "Juicios a animales con abogado",
     gancho: "Cerdos ahorcados, ratas citadas por edicto y un abogado de oficio pagado por el tribunal.",
     categoria: "Justicia",
     color: "var(--forest)",
@@ -51,7 +51,7 @@ export const JUSTICIA: Short[] = [
 
   {
     id: "alcatraz-fuga",
-    titulo: "De Alcatraz se fugaron tres y nunca aparecieron",
+    titulo: "Tres se fugaron y no aparecieron",
     gancho: "Cavaron con cucharas, dejaron cabezas de papel maché en las camas y salieron en una balsa de impermeables.",
     categoria: "Justicia",
     color: "var(--slate)",
@@ -81,7 +81,7 @@ export const JUSTICIA: Short[] = [
 
   {
     id: "primera-huella",
-    titulo: "La primera condena por una huella fue en Argentina",
+    titulo: "La primera condena por una huella",
     gancho: "Un policía guardaba fichas con huellas por su cuenta. Un pulgar ensangrentado en un marco resolvió el caso.",
     categoria: "Justicia",
     color: "var(--clay)",

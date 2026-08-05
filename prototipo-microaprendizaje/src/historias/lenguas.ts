@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const LENGUAS: Short[] = [
   {
     id: "euskera-aislado",
-    titulo: "El euskera no se parece a ningún otro idioma",
+    titulo: "El euskera no se parece",
     gancho: "Ni al español, ni al francés, ni a nada conocido en el planeta.",
     categoria: "Lenguas",
     color: "var(--sage)",
@@ -54,7 +54,7 @@ export const LENGUAS: Short[] = [
 
   {
     id: "hebreo-revivido",
-    titulo: "Un idioma que volvió a tener hablantes nativos",
+    titulo: "El idioma que resucitó",
     gancho: "Un hombre crió a su hijo hablándole solo en una lengua que nadie usaba en casa.",
     categoria: "Lenguas",
     color: "var(--clay)",
@@ -87,7 +87,7 @@ export const LENGUAS: Short[] = [
 
   {
     id: "silbo-gomero",
-    titulo: "En La Gomera se habla español silbando",
+    titulo: "En La Gomera se habla silbando",
     gancho: "Cruza tres kilómetros de barranco, y desde 1999 se enseña en el colegio.",
     categoria: "Lenguas",
     color: "var(--slate)",

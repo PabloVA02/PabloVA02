@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const LAVADORA: Short[] = [
   {
     id: "el-dia-de-la-colada",
-    titulo: "La colada era el peor día de la semana",
+    titulo: "El peor día de la semana",
     gancho: "Doscientos litros de agua acarreados a mano, hervidos y tirados. Y eso, todos los lunes.",
     categoria: "Lavadora",
     color: "var(--slate)",
@@ -46,7 +46,7 @@ export const LAVADORA: Short[] = [
 
   {
     id: "la-primera-electrica",
-    titulo: "Las primeras lavadoras eléctricas arrancaban dedos",
+    titulo: "Las primeras arrancaban dedos",
     gancho: "El motor iba a la vista y el escurridor de rodillos no tenía freno: si te pillaba la mano, seguía girando.",
     categoria: "Lavadora",
     color: "var(--clay)",

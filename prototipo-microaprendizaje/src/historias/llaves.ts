@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const LLAVES: Short[] = [
   {
     id: "cerradura-del-escaparate",
-    titulo: "Una cerradura estuvo sin abrirse sesenta y siete años",
+    titulo: "Sesenta y siete años sin abrirse",
     gancho: "Colgaba en un escaparate con un premio al lado. Nadie la abrió hasta que llegó un cerrajero con paciencia.",
     categoria: "Llaves",
     color: "var(--slate)",
@@ -46,7 +46,7 @@ export const LLAVES: Short[] = [
 
   {
     id: "cerradura-de-madera",
-    titulo: "Tu cerradura se inventó hace tres mil años",
+    titulo: "Tu cerradura tiene tres mil años",
     gancho: "Era de madera, pesaba lo suyo y funcionaba exactamente igual que la de acero de hoy.",
     categoria: "Llaves",
     color: "var(--ochre)",
@@ -77,7 +77,7 @@ export const LLAVES: Short[] = [
 
   {
     id: "llaves-de-la-ciudad",
-    titulo: "Las llaves de la ciudad abrían la muralla",
+    titulo: "Las llaves de la ciudad abrían",
     gancho: "Antes de ser un regalo protocolario eran las llaves reales de las puertas, y entregarlas significaba rendirse.",
     categoria: "Llaves",
     color: "var(--clay)",

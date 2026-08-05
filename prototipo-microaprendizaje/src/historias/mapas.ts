@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const MAPAS: Short[] = [
   {
     id: "groenlandia-mercator",
-    titulo: "Groenlandia no es del tamaño de África",
+    titulo: "Groenlandia no es tan grande",
     gancho: "En el mapa parecen iguales. África es catorce veces más grande.",
     categoria: "Mapas",
     color: "var(--sage)",
@@ -54,7 +54,7 @@ export const MAPAS: Short[] = [
 
   {
     id: "isla-sandy",
-    titulo: "La isla que estuvo en los mapas 136 años",
+    titulo: "La isla que nunca existió",
     gancho: "Un barco australiano fue a verla en 2012 y encontró 1.400 metros de agua.",
     categoria: "Mapas",
     color: "var(--slate)",
@@ -87,7 +87,7 @@ export const MAPAS: Short[] = [
 
   {
     id: "meridiano-cero",
-    titulo: "El meridiano cero se votó, y Francia dijo no",
+    titulo: "El meridiano cero se votó",
     gancho: "Ganó Greenwich por 22 votos a 1. París tardó 27 años en rendirse.",
     categoria: "Mapas",
     color: "var(--ochre)",

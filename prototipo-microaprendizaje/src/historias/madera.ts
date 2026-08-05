@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const MADERA: Short[] = [
   {
     id: "la-madera-sigue-moviendose",
-    titulo: "Un mueble de madera se mueve toda su vida",
+    titulo: "La madera no para de moverse",
     gancho: "Encoge y se hincha con la humedad del aire, y por eso los muebles antiguos están hechos sin pegar del todo.",
     categoria: "Madera",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const MADERA: Short[] = [
   },
   {
     id: "el-barco-y-el-bosque",
-    titulo: "Un imperio se quedó sin madera para sus barcos",
+    titulo: "Un imperio sin madera para barcos",
     gancho: "Venecia dependía de sus bosques para mantener la flota, y llegó a numerar y proteger árboles uno a uno.",
     categoria: "Madera",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const MADERA: Short[] = [
   },
   {
     id: "la-madera-que-no-arde",
-    titulo: "Una viga de madera aguanta más que el acero",
+    titulo: "La viga gana al acero",
     gancho: "En un incendio, la madera se carboniza por fuera y el interior sigue sujetando. El acero, en cambio, se dobla.",
     categoria: "Madera",
     color: "var(--plum)",
