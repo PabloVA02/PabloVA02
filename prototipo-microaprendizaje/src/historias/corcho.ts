@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const CORCHO: Short[] = [
   {
     id: "la-corteza-que-se-quita",
-    titulo: "El árbol al que se desnuda",
+    titulo: "El árbol que se desnuda",
     gancho: "Se le arranca la corteza entera cada nueve años y no le pasa nada. Ningún otro árbol aguanta eso.",
     categoria: "Plantas",
     color: "var(--ochre)",
     encargo: "Alcornoque recién descorchado, con el tronco desnudo de un naranja intenso.",
     entrada:
-      "Cuenca mediterránea, con la explotación organizada desde el siglo XVIII. El alcornoque es una encina con una particularidad rarísima: fabrica dos cortezas, una interior que lo mantiene vivo y otra exterior de corcho que puede perder sin morirse. Esa corteza exterior se le quita a hachazos cada nueve años, y el árbol la vuelve a formar. Un alcornoque puede repetir esa operación quince veces a lo largo de dos siglos.",
+      "Cuenca mediterránea, con la explotación organizada desde el siglo XVIII. El alcornoque es una encina con una particularidad rarísima: fabrica dos cortezas, una interior que lo mantiene vivo y otra exterior de corcho que puede perder sin morirse. Esa corteza exterior se le quita a hachazos cada nueve años, y el árbol la vuelve a formar. Un alcornoque puede repetir esa operación quince veces a lo largo de dos siglos, y de hecho vive más si se le pela que si se le deja en paz. Ningún otro árbol del mundo aguanta que le arranquen la corteza entera, porque en casi todos los demás la corteza y el tejido vivo son la misma cosa.",
     paginas: [
       {
         rotulo: "Dos cortezas",

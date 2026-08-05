@@ -16,13 +16,13 @@ import type { Short } from "../shorts";
 export const CUERO: Short[] = [
   {
     id: "por-que-no-se-pudre",
-    titulo: "Curtir es que no se pudra",
+    titulo: "Por qué se curte el cuero",
     gancho: "Una piel sin tratar se descompone en días. El curtido cambia su química para que las bacterias no puedan con ella.",
     categoria: "Cuero",
     color: "var(--ochre)",
     encargo: "Pieles colgadas de un tendedero de madera en un patio con tinas.",
     entrada:
-      "Todas las culturas, desde hace al menos ocho mil años. Una piel recién quitada a un animal es materia orgánica llena de agua y de proteína, así que empieza a descomponerse en cuestión de horas y en pocos días queda inservible. Curtirla consiste en modificar químicamente esa proteína para que las bacterias y los hongos ya no puedan alimentarse de ella.",
+      "Todas las culturas, desde hace al menos ocho mil años. Una piel recién quitada a un animal es materia orgánica llena de agua y de proteína, así que empieza a descomponerse en cuestión de horas y en pocos días queda inservible. Curtirla consiste en modificar químicamente esa proteína para que las bacterias y los hongos ya no puedan alimentarse de ella. No es secarla, ni limpiarla, ni taparla: es cambiarla por dentro de manera irreversible. Hecho eso, la misma piel que se pudría en una semana aguanta siglos, y en los museos hay zapatos y correas de hace tres mil años en mejor estado que la madera que los acompañaba.",
     paginas: [
       {
         rotulo: "El proceso",

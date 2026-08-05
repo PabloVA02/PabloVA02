@@ -17,14 +17,14 @@ import type { Short } from "../shorts";
 export const PEREGRINOS: Short[] = [
   {
     id: "la-primera-guia-de-viaje",
-    titulo: "La guía que avisaba del agua",
+    titulo: "La primera guía de viaje",
     gancho: "Siglo XII: qué ríos matan al caballo, qué posaderos engañan y cuántos días hay de etapa en etapa.",
     categoria: "Peregrinos",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un libro medieval abierto con letra apretada y una inicial pintada en rojo.",
     entrada:
-      "Europa, hacia 1140. Un códice reúne cinco libros sobre el santuario del noroeste de la península. El quinto no se parece a nada anterior: es un manual práctico para quien va a hacer el camino a pie. Divide la ruta en etapas, nombra los ríos, evalúa las posadas y advierte de los peligros con una franqueza que no ha envejecido nada.",
+      "Europa, hacia 1140. Un códice reúne cinco libros sobre el santuario del noroeste de la península. El quinto no se parece a nada anterior: es un manual práctico para quien va a hacer el camino a pie. Divide la ruta en etapas, nombra los ríos, evalúa las posadas y advierte de los peligros con una franqueza que no ha envejecido nada. Dice qué agua mata al caballo que la bebe, qué posaderos cobran de más y qué pueblos conviene cruzar sin pararse. Es, ochocientos años antes de que existiera la palabra, exactamente una guía de viaje. Y está escrita con la mala leche de alguien que ha hecho el camino y ha pagado de más.",
     paginas: [
       {
         rotulo: "El agua",

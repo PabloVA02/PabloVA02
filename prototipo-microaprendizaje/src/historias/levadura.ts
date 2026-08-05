@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const LEVADURA: Short[] = [
   {
     id: "lo-que-hace-subir-el-pan",
-    titulo: "El pan sube porque algo come",
+    titulo: "Por qué sube el pan",
     gancho: "La levadura es un ser vivo. Se come el azúcar de la masa y suelta gas, y ese gas es lo que abomba el pan.",
     categoria: "Comida",
     color: "var(--ochre)",
     encargo: "Corte de una hogaza recién partida con la miga llena de agujeros irregulares.",
     entrada:
-      "Egipto y Mesopotamia, desde hace unos cinco mil años. Durante casi toda la historia se hizo pan sin saber por qué subía, dejando la masa al aire hasta que se hinchaba sola. La explicación no llegó hasta el siglo XIX, cuando el microscopio mostró que aquella espuma estaba llena de organismos vivos. La levadura es un hongo microscópico que se alimenta de azúcar y suelta gas.",
+      "Egipto y Mesopotamia, desde hace unos cinco mil años. Durante casi toda la historia se hizo pan sin saber por qué subía, dejando la masa al aire hasta que se hinchaba sola. La explicación no llegó hasta el siglo XIX, cuando el microscopio mostró que aquella espuma estaba llena de organismos vivos. La levadura es un hongo microscópico que se alimenta del azúcar de la harina y suelta gas. Ese gas queda atrapado en la masa y es lo que la abomba. Dicho de otra manera: el pan sube porque tiene dentro millones de seres vivos comiendo, y el horno los mata justo cuando ya han hecho su trabajo.",
     paginas: [
       {
         rotulo: "El gas atrapado",

@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const MATRICULAS: Short[] = [
   {
     id: "identificar-un-coche",
-    titulo: "La matrícula nació para multar",
+    titulo: "Por qué hay matrículas",
     gancho: "El primer país que las exigió lo hizo porque los coches atropellaban y se iban sin que nadie los reconociera.",
     categoria: "Historia",
     color: "var(--clay)",
     encargo: "Placa de matrícula esmaltada de principios del siglo XX atornillada a un coche.",
     entrada:
-      "Francia, 1893. París tiene ya unos cuantos automóviles circulando y ninguna manera de saber de quién es cada uno. Un vehículo que atropella a alguien y sigue su camino resulta imposible de identificar, porque todos se parecen. La ciudad aprueba entonces una ordenanza que obliga a llevar una placa con un número visible, y la idea se copia en toda Europa en pocos años.",
+      "Francia, 1893. París tiene ya unos cuantos automóviles circulando y ninguna manera de saber de quién es cada uno. Un vehículo que atropella a alguien y sigue su camino resulta imposible de identificar, porque todos se parecen. La ciudad aprueba entonces una ordenanza que obliga a llevar una placa con un número visible, y la idea se copia en toda Europa en pocos años. La matrícula no nace para ordenar el tráfico ni para cobrar impuestos. Nace por una razón mucho más simple: para poder ponerle nombre a un coche desde la acera, sin pararlo y sin preguntarle nada a nadie.",
     paginas: [
       {
         rotulo: "Leerla de lejos",

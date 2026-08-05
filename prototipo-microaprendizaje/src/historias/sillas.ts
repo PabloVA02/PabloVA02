@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const SILLAS: Short[] = [
   {
     id: "sentarse-era-un-privilegio",
-    titulo: "Sentarse en una silla era cosa de mandar",
+    titulo: "La silla era de mandar",
     gancho: "En una casa medieval había una silla y muchos bancos. La silla la ocupaba quien presidía, y de ahí vienen varias palabras.",
     categoria: "Sillas",
     color: "var(--ochre)",
     encargo: "Una silla de madera oscura con respaldo alto en una sala vacía.",
     entrada:
-      "Europa, siglos XII a XVI. En una casa acomodada de esa época hay arcones, bancos corridos y taburetes, pero apenas una o dos sillas con respaldo y brazos. Sentarse en una de ellas no es una cuestión de comodidad, sino de rango, y el sitio de cada persona en la sala está perfectamente definido por lo que tiene debajo.",
+      "Europa, siglos XII a XVI. En una casa acomodada de esa época hay arcones, bancos corridos y taburetes, pero apenas una o dos sillas con respaldo y brazos. Sentarse en una de ellas no es una cuestión de comodidad, sino de rango. El sitio de cada persona en la sala está perfectamente definido por lo que tiene debajo: la silla para quien preside, el banco para los demás y el suelo para el resto. De ahí salen unas cuantas palabras que todavía usamos sin saber de dónde vienen, empezando por la que designa a quien manda en una reunión. Y de ahí sale también la costumbre, que duró siglos, de que en una casa hubiera una sola silla de verdad y todo el mundo supiera de quién era.",
     paginas: [
       {
         rotulo: "El asiento",

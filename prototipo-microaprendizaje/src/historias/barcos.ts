@@ -20,13 +20,13 @@ import type { Short } from "../shorts";
 export const BARCOS: Short[] = [
   {
     id: "contenedor",
-    titulo: "La caja que abarató el mundo",
+    titulo: "El contenedor lo cambió",
     gancho: "Antes, descargar un barco costaba una semana y la mitad del precio del viaje. La caja lo dejó en horas.",
     categoria: "Barcos",
     color: "var(--slate)",
     encargo: "Una pila de contenedores de colores en un muelle, vistos desde abajo.",
     entrada:
-      "Puerto de Nueva Jersey, 26 de abril de 1956. Un antiguo camionero convertido en empresario ha comprado un petrolero viejo, le ha soldado una cubierta plana encima y ha subido cincuenta y ocho cajas metálicas idénticas, con la mercancía dentro. Nadie en el sector cree que aquello tenga futuro. Es la operación que va a cambiar el precio de casi todo.",
+      "Puerto de Nueva Jersey, 26 de abril de 1956. Un antiguo camionero convertido en empresario ha comprado un petrolero viejo, le ha soldado una cubierta plana encima y ha subido cincuenta y ocho cajas metálicas idénticas, con la mercancía dentro. Nadie en el sector cree que aquello tenga futuro. Descargar un barco cuesta entonces una semana de trabajo de cuadrillas enteras, y ese trabajo se lleva más de la mitad de lo que cuesta el viaje. Aquellas cajas idénticas van a dejarlo en unas horas. Con eso van a cambiar el precio de casi todo lo que se compra, y de paso van a vaciar los muelles de las ciudades y a llevárselos a las afueras.",
     paginas: [
       {
         rotulo: "Antes de la caja",

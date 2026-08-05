@@ -18,13 +18,13 @@ import type { Short } from "../shorts";
 export const SUBMARINOS: Short[] = [
   {
     id: "ictineo",
-    titulo: "Un catalán construyó un submarino en 1859",
+    titulo: "El submarino de 1859",
     gancho: "Hizo sesenta inmersiones, inventó un motor que fabricaba su propio aire y murió arruinado.",
     categoria: "Submarinos",
     color: "var(--slate)",
     encargo: "Un casco de madera con forma de pez y ojos de buey de cristal, en un puerto.",
     entrada:
-      "Barcelona, 1859. Un impresor y activista político que ha visto morir a unos pescadores de coral bajando a pulmón decide construir un aparato para trabajar bajo el agua sin tener que salir a respirar. Bota un casco de madera de olivo con forma de pez, forrado de cobre y de siete metros de largo. Lo llama el pez de madera.",
+      "Barcelona, 1859. Un impresor y activista político que ha visto morir a unos pescadores de coral bajando a pulmón decide construir un aparato para trabajar bajo el agua sin tener que salir a respirar. Bota un casco de madera de olivo con forma de pez, forrado de cobre y de siete metros de largo. Lo llama el pez de madera. Con él va a hacer sesenta inmersiones y va a resolver, cuarenta años antes que nadie, el problema que hundía a todos los demás submarinos de su siglo. También va a morir sin un duro, con la nave desguazada por sus acreedores.",
     paginas: [
       {
         rotulo: "El pez",

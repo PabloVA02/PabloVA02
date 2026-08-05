@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const IMANES: Short[] = [
   {
     id: "por-que-un-iman-es-iman",
-    titulo: "Un imán es hierro bien peinado",
+    titulo: "Qué es un imán por dentro",
     gancho: "Todo el hierro tiene imanes diminutos dentro apuntando en desorden. Un imán es el mismo hierro con todos mirando igual.",
     categoria: "Ciencia",
     color: "var(--slate)",
     encargo: "Limaduras de hierro dibujando las líneas del campo alrededor de un imán de barra.",
     entrada:
-      "Grecia y China, con el fenómeno descrito desde hace más de dos mil quinientos años. Una piedra concreta, la magnetita, atrae al hierro sin tocarlo y sin gastarse, y durante siglos eso no tuvo ninguna explicación. Hoy sabemos que cualquier trozo de hierro está lleno de imanes microscópicos que se anulan entre sí. Un imán de verdad es el mismo hierro con todos ellos apuntando en la misma dirección.",
+      "Grecia y China, con el fenómeno descrito desde hace más de dos mil quinientos años. Una piedra concreta, la magnetita, atrae al hierro sin tocarlo y sin gastarse, y durante siglos eso no tuvo ninguna explicación. Hoy sabemos que cualquier trozo de hierro está lleno de imanes microscópicos que se anulan entre sí. Un imán de verdad es el mismo hierro con todos ellos apuntando en la misma dirección. No se le ha añadido nada ni se le ha quitado nada: solo se ha puesto en orden lo que ya estaba dentro, y por eso un imán no se gasta al levantar peso. Esa idea tardó dos mil años en llegar, y explica de paso por qué un imán deja de serlo si se le pega un martillazo.",
     paginas: [
       {
         rotulo: "Los dominios",

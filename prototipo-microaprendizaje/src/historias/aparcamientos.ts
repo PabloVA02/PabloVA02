@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const APARCAMIENTOS: Short[] = [
   {
     id: "el-parquimetro",
-    titulo: "El parquímetro contra los oficinistas",
+    titulo: "El primer parquímetro",
     gancho: "Los empleados dejaban el coche todo el día delante de las tiendas, y los comerciantes se quedaban sin clientes.",
     categoria: "Ciudades",
     color: "var(--clay)",
     encargo: "Parquímetro de los años treinta sobre un poste, con la aguja y la ranura de la moneda.",
     entrada:
-      "Oklahoma, Estados Unidos, 1935. En el centro de la ciudad no queda un solo hueco libre, porque los empleados de las oficinas aparcan a las ocho y no mueven el coche hasta las seis. Los comerciantes se quejan de que ningún cliente puede parar a comprar. Un abogado que dirige la cámara de comercio local propone algo que nunca se ha hecho: cobrar por el tiempo.",
+      "Oklahoma, Estados Unidos, 1935. En el centro de la ciudad no queda un solo hueco libre, porque los empleados de las oficinas aparcan a las ocho y no mueven el coche hasta las seis. Los comerciantes se quejan de que ningún cliente puede parar a comprar. Un abogado que dirige la cámara de comercio local propone algo que nunca se ha hecho: cobrar por el tiempo que un coche ocupa un hueco. No por aparcar, que era gratis en todas partes, sino por quedarse. La idea es que el que paga por horas se va antes y deja el hueco libre para el siguiente. En 1935 hubo quien lo llevó a los tribunales por considerarlo un impuesto sobre el aire.",
     paginas: [
       {
         rotulo: "Rotar el hueco",

@@ -17,14 +17,14 @@ import type { Short } from "../shorts";
 export const CARBON: Short[] = [
   {
     id: "canario-en-la-mina",
-    titulo: "El canario tenía reanimador",
+    titulo: "El canario de la mina",
     gancho: "No se llevaba para que muriera: la jaula tenía una botella de oxígeno para revivirlo.",
     categoria: "Carbón",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una jaula metálica pequeña con puerta de cristal y un grifo de latón en un costado.",
     entrada:
-      "Reino Unido, 1911. Un fisiólogo que lleva años estudiando por qué mueren los mineros después de las explosiones publica una recomendación práctica: bajar a la mina con un pájaro pequeño en una jaula. No es una superstición de oficio ni una costumbre antigua, sino una propuesta científica basada en cómo respiran los animales pequeños.",
+      "Reino Unido, 1911. Un fisiólogo que lleva años estudiando por qué mueren los mineros después de las explosiones publica una recomendación práctica: bajar a la mina con un pájaro pequeño en una jaula. No es una superstición de oficio ni una costumbre antigua, sino una propuesta científica basada en cómo respiran los animales pequeños. El pájaro no va a la mina como amuleto ni como sacrificio: va como instrumento de medida. Y su jaula, que es lo que casi nadie sabe, lleva incorporado un sistema para devolverlo a la vida en cuanto ha dado el aviso: una botellita de oxígeno y una portezuela que se cierra.",
     paginas: [
       {
         rotulo: "Por qué un pájaro",

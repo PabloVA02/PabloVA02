@@ -16,13 +16,13 @@ import type { Short } from "../shorts";
 export const PUERTOS: Short[] = [
   {
     id: "el-problema-de-la-marea",
-    titulo: "Con marea baja el barco se sienta",
+    titulo: "Puertos con marea de 6 m",
     gancho: "En los puertos del norte de Europa el agua sube y baja varios metros, así que hubo que inventar dársenas con puerta.",
     categoria: "Puertos",
     color: "var(--slate)",
     encargo: "Un muelle de piedra con un barco apoyado en el fango durante la marea baja.",
     entrada:
-      "Liverpool, 1715. En muchos puertos del norte de Europa la diferencia entre marea alta y baja supera los seis metros. Cada doce horas el agua se retira y deja los barcos apoyados sobre el fondo. Un barco cargado que se sienta en el fango sufre esfuerzos que puede no aguantar, y descargarlo se convierte en un trabajo imposible de planificar.",
+      "Liverpool, 1715. En muchos puertos del norte de Europa la diferencia entre marea alta y baja supera los seis metros. Cada doce horas el agua se retira y deja los barcos apoyados sobre el fondo. Un barco cargado que se sienta en el fango sufre esfuerzos que puede no aguantar. Y descargarlo se convierte en un trabajo imposible de planificar, porque la altura del muelle respecto a la cubierta cambia cada hora. Con seis metros de diferencia, media jornada el barco está arriba del muelle y la otra media, abajo del todo. La solución que se inventa en Liverpool consiste en encerrar el agua para que deje de subir y bajar.",
     paginas: [
       {
         rotulo: "La dársena",
