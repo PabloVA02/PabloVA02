@@ -21,6 +21,48 @@ export const ESPACIO: Short[] = [
     categoria: "Espacio",
     color: "var(--slate)",
     encargo: "Un módulo lunar posado sobre el polvo gris, con la sombra larga y el negro absoluto detrás.",
+    /* Una imagen por pantalla y cada una habla de su página: la bajada, la
+       sala de control durante la alarma, el suelo que había que esquivar y lo
+       que se dejó allí. Todas de la NASA, que publica sus fotos sin derechos. */
+    fotos: [
+      {
+        archivo: "Astronaut Edwin Aldrin descends the Lunar Module ladder, AS11-40-5868 (21037483754).jpg",
+        autor:
+          "Aldrin bajando la escalerilla del módulo lunar, 20 de julio de 1969. Fotografía de Neil Armstrong. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Astronaut_Edwin_Aldrin_descends_the_Lunar_Module_ladder,_AS11-40-5868_(21037483754).jpg",
+        foco: "62% 55%",
+        alt: "Un astronauta baja de espaldas por la escalerilla del módulo lunar, forrado de láminas doradas, sobre el polvo gris.",
+      },
+      {
+        archivo:
+          "View of Mission Control Center (MCC) - Lunar Surface - Apollo XI - Extravehicular Activity (EVA) - MSC (S69-39817).jpg",
+        autor:
+          "La sala de control de Houston durante la misión, 20 de julio de 1969. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:View_of_Mission_Control_Center_(MCC)_-_Lunar_Surface_-_Apollo_XI_-_Extravehicular_Activity_(EVA)_-_MSC_(S69-39817).jpg",
+        foco: "50% 40%",
+        alt: "La sala de control de Houston a oscuras, con las pantallas encendidas y la imagen en blanco y negro de la Luna proyectada al fondo.",
+      },
+      {
+        archivo: "AS11-40-5890 (21473295409).jpg",
+        autor:
+          "El suelo del Mar de la Tranquilidad fotografiado desde el punto de aterrizaje, 20 de julio de 1969. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:AS11-40-5890_(21473295409).jpg",
+        foco: "50% 60%",
+        alt: "La superficie de la Luna sembrada de piedras hasta el horizonte, con el cielo completamente negro encima.",
+      },
+      {
+        archivo: "Deployed experiments and Lunar Module, AS11-40-5950.jpg",
+        autor:
+          "Los instrumentos dejados en la Luna, con el módulo al fondo. El panel plano de la derecha es el espejo con el que todavía se mide la distancia. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Deployed_experiments_and_Lunar_Module,_AS11-40-5950.jpg",
+        foco: "50% 45%",
+        alt: "Instrumentos científicos posados en el polvo lunar, con huellas de botas alrededor y el módulo lunar y la bandera al fondo.",
+      },
+    ],
     entrada:
       "Mar de la Tranquilidad, en la Luna, el 20 de julio de 1969. Dos hombres bajan hacia la superficie dentro de una nave del tamaño de un coche pequeño, con paredes de aluminio tan finas que se abollarían con un dedo. No hay manera de haber ensayado esto en la Tierra: la Luna no tiene aire, así que allí no sirven ni las alas ni los paracaídas y hay que frenar solo con el motor. Abajo les espera un terreno que nadie ha visto de cerca: las mejores fotos que existen lo enseñan desde tan lejos que una roca de dos metros no aparece. Y arriba, en la sala de control, la edad media de los ingenieros que vigilan el descenso es de veintiséis años.",
     paginas: [

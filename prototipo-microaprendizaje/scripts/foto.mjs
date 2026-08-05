@@ -87,14 +87,45 @@ async function ver(titulo, salida = "foto.jpg") {
   const nombre = titulo.replace(/^File:/, "");
   const u = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(nombre)}?width=1000`;
   const { writeFileSync } = await import("node:fs");
-  writeFileSync(salida, await trae(u, true));
+  const datos = await trae(u, true);
+  /* Si el fichero no existe, Commons devuelve una página de error con estado
+     200 y sin ella acabábamos guardando HTML con nombre de foto. */
+  if (datos.slice(0, 15).toString("latin1").includes("<")) 
+    throw new Error("eso no es una imagen: el fichero no existe en Commons");
+  writeFileSync(salida, datos);
   console.log("guardada en", salida, "— ábrela y MÍRALA antes de meterla.");
 }
 
+/* Lo que hay dentro de una categoría de Commons. Buscar por texto libre falla
+   mucho —el buscador solo mira el nombre del fichero y la descripción—, y en
+   cambio las categorías las mantienen a mano y agrupan por lo que SE VE. */
+/* Qué categorías existen con ese nombre. Sirve para no adivinar. */
+async function categorias(texto) {
+  const d = await pide({ action: "query", list: "search", srsearch: texto,
+                         srnamespace: 14, srlimit: 15 });
+  for (const r of d.query?.search ?? []) console.log("  " + r.title);
+}
+
+async function categoria(nombre) {
+  const d = await pide({ action: "query", generator: "categorymembers",
+    gcmtitle: nombre.startsWith("Category:") ? nombre : `Category:${nombre}`,
+    gcmtype: "file", gcmlimit: "60", prop: "imageinfo", iiprop: "url|size|extmetadata" });
+  const paginas = Object.values(d.query?.pages ?? {});
+  if (!paginas.length) return console.log("categoría vacía o inexistente");
+  paginas.sort((a, b) => (b.imageinfo?.[0]?.width ?? 0) - (a.imageinfo?.[0]?.width ?? 0));
+  for (const p of paginas.slice(0, 20)) {
+    const i = p.imageinfo?.[0]; if (!i) continue;
+    const lic = limpia(i.extmetadata?.LicenseShortName?.value);
+    console.log(`${i.width >= 1200 ? "✓" : "·"} ${String(i.width).padStart(5)}x${String(i.height).padEnd(5)} ${lic.padEnd(22)} ${p.title}`);
+  }
+}
+
 const [orden, ...resto] = process.argv.slice(2);
-const acciones = { buscar: () => buscar(resto.join(" ")), ficha: () => ficha(resto[0]), ver: () => ver(resto[0], resto[1]) };
+const acciones = { buscar: () => buscar(resto.join(" ")), ficha: () => ficha(resto[0]),
+                   ver: () => ver(resto[0], resto[1]), categoria: () => categoria(resto.join(" ")),
+                   categorias: () => categorias(resto.join(" ")) };
 if (!acciones[orden]) {
-  console.log("uso: node scripts/foto.mjs buscar «texto» | ficha «File:…» | ver «File:…» [salida.jpg]");
+  console.log("uso: node scripts/foto.mjs buscar «texto» | categoria «nombre» | ficha «File:…» | ver «File:…» [salida.jpg]");
   process.exit(1);
 }
 await acciones[orden]();
