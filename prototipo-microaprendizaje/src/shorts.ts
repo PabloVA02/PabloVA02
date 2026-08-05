@@ -385,6 +385,21 @@ export type Short = {
   color: string;
   /** La portada, cuando ya hay foto real. Si no, manda `encargo`. */
   foto?: Foto;
+  /**
+   * Una imagen por pantalla, en orden: portada, página 1, página 2, página 3.
+   *
+   * Decisión de Pablo, y con razón: si la portada lleva foto y detrás vienen
+   * tres pantallas de texto, la segunda es donde la gente se sale. Cuatro
+   * imágenes tiran del lector hacia delante.
+   *
+   * Se ordenan de lejos a cerca —la escena entera, un plano medio, un detalle
+   * y otra vez abierto para cerrar— para que se noten distintas sin parecer
+   * puestas al azar.
+   *
+   * Lo que falte cae en `foto`, así que una historia con una sola imagen sigue
+   * funcionando: se queda la misma las cuatro pantallas, como hasta ahora.
+   */
+  fotos?: (Foto | undefined)[];
   /** Qué imagen le toca a esta historia. Es el pie y es el encargo. */
   encargo: string;
   /** Texto de la portada, debajo de la foto. Unas 60 palabras. */

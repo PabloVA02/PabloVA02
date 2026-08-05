@@ -307,6 +307,15 @@ function acentoDe(short: Short) {
   return `var(${ACENTOS[n % ACENTOS.length]})`;
 }
 
+/**
+ * Qué fotografía le toca a cada pantalla. `fotos` manda y `foto` es el
+ * respaldo, de manera que las historias que solo tienen una imagen siguen
+ * funcionando exactamente igual que antes.
+ */
+function fotoDe(short: Short, paso: number) {
+  return short.fotos?.[paso] ?? short.foto;
+}
+
 function respaldoDe(short: Short) {
   const propio = PORTADAS[short.id];
   if (propio) return propio;
@@ -566,7 +575,7 @@ function PaginaShort({
           transition={springSoft}
         >
           <Fotografia
-            foto={short.foto}
+            foto={fotoDe(short, paso)}
             Respaldo={respaldoDe(short)}
             reducido={reducido}
             deriva={activo}

@@ -333,6 +333,26 @@ cierra el short va dentro del texto y con el mismo tipo que todo lo demás: no
 se pone más grande ni se centra ni se separa. Lo único que la distingue es que
 es la última que se lee.
 
+## 16. El pie de foto cuenta qué se está viendo
+
+Decidido por Pablo mirando la maqueta. Un pie que pone «Vincenzo Camuccini ·
+Museo di Capodimonte» es una firma, no una explicación: dice quién lo hizo y no
+dice qué es.
+
+**Qué clase de objeto es, de qué año, de dónde salió y quién lo hizo.** En ese
+orden, porque lo primero que necesita el lector es saber qué tiene delante.
+
+| Firma | Ficha |
+| --- | --- |
+| Vincenzo Camuccini · Museo di Capodimonte | Óleo de Vincenzo Camuccini, 1806. Museo di Capodimonte, Nápoles. |
+| Denario de plata, 44 a. C. | Denario de plata acuñado en Roma el año 44 a. C. La leyenda dice CAESAR DICT PERPETVO: César, dictador perpetuo. |
+| Busto de Augusto · Museos Vaticanos | Estatua de mármol del siglo I, hallada en Prima Porta, cerca de Roma. Museos Vaticanos. |
+
+Y cuando la imagen lleva algo escrito —una moneda, una lápida, un cartel—,
+**el pie lo traduce**. En el caso de la moneda de César, lo que pone en ella es
+justo lo que cuenta esa página, así que traducirlo convierte la fotografía en
+una prueba en vez de en un adorno.
+
 ## Medidas
 
 | Campo | Medida |
