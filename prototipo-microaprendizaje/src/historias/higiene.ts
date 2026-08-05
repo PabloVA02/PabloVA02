@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const HIGIENE: Short[] = [
   {
     id: "gran-hedor",
-    titulo: "Londres construyó su alcantarillado por el olor",
+    titulo: "El alcantarillado nació del olor",
     gancho: "El cólera mataba a miles y nadie se movió. Bastó un verano de peste en el Parlamento.",
     categoria: "Higiene",
     color: "var(--forest)",
@@ -50,7 +50,7 @@ export const HIGIENE: Short[] = [
 
   {
     id: "jabon-historia",
-    titulo: "El jabón se usó milenios antes de lavarse",
+    titulo: "El jabón no era para lavarse",
     gancho: "Servía para limpiar lana y para curar heridas. Frotarse el cuerpo con él es una costumbre reciente.",
     categoria: "Higiene",
     color: "var(--ochre)",
@@ -81,7 +81,7 @@ export const HIGIENE: Short[] = [
 
   {
     id: "papel-higienico",
-    titulo: "El papel higiénico tardó siglos en no llevar astillas",
+    titulo: "El papel llevaba astillas",
     gancho: "China lo usaba en el siglo VI. En Occidente se vendió como remedio médico y con garantía de suavidad.",
     categoria: "Higiene",
     color: "var(--slate)",

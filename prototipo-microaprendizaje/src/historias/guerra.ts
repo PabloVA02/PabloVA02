@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const GUERRA: Short[] = [
   {
     id: "hiroshima",
-    titulo: "La bomba de Hiroshima cabía en un avión",
+    titulo: "La bomba cabía en un avión",
     gancho: "Pesaba cuatro toneladas y borró una ciudad. El piloto durmió bien el resto de su vida; el copiloto no.",
     categoria: "Guerra",
     color: "var(--clay)",
@@ -48,7 +48,7 @@ export const GUERRA: Short[] = [
 
   {
     id: "petrov",
-    titulo: "Un hombre solo decidió que no había guerra nuclear",
+    titulo: "Un hombre solo dijo que no",
     gancho: "El panel decía que venían cinco misiles. Su trabajo era avisar. Pensó que el ordenador se equivocaba.",
     categoria: "Guerra",
     color: "var(--slate)",
@@ -78,7 +78,7 @@ export const GUERRA: Short[] = [
 
   {
     id: "tregua-1914",
-    titulo: "La Navidad en que dos ejércitos dejaron de disparar",
+    titulo: "La Navidad en que nadie disparó",
     gancho: "Salieron de las trincheras, se dieron la mano y jugaron al fútbol. Los mandos se aseguraron de que no se repitiera.",
     categoria: "Guerra",
     color: "var(--forest)",

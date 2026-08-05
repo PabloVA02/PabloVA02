@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const GREMIOS: Short[] = [
   {
     id: "de-donde-viene-obra-maestra",
-    titulo: "De ahí viene lo de llamar obra maestra",
+    titulo: "De dónde viene la obra maestra",
     gancho: "Era la pieza que un artesano presentaba para que le dejaran abrir taller propio. Si no gustaba, seguía de empleado.",
     categoria: "Gremios",
     color: "var(--ochre)",
@@ -46,7 +46,7 @@ export const GREMIOS: Short[] = [
   },
   {
     id: "los-anos-de-camino",
-    titulo: "Había que pasar tres años viajando y sin volver",
+    titulo: "Tres años fuera sin volver",
     gancho: "El oficial salía de su ciudad con la ropa puesta y no podía acercarse a su casa hasta cumplir el plazo.",
     categoria: "Gremios",
     color: "var(--slate)",
@@ -75,7 +75,7 @@ export const GREMIOS: Short[] = [
   },
   {
     id: "el-gremio-contra-el-invento",
-    titulo: "Un gremio prohibió una máquina que ahorraba trabajo",
+    titulo: "Prohibieron la máquina que ahorraba",
     gancho: "Un telar nuevo hacía el trabajo de varios tejedores. La ciudad lo prohibió y ordenó estrangular a su inventor.",
     categoria: "Gremios",
     color: "var(--plum)",

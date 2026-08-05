@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const GAFAS: Short[] = [
   {
     id: "gafas-sin-inventor",
-    titulo: "Las gafas se inventaron y nadie las firmó",
+    titulo: "Nadie firmó las gafas",
     gancho: "Un fraile contó en un sermón que existían desde hacía veinte años y que su autor callaba.",
     categoria: "Gafas",
     color: "var(--ochre)",
@@ -49,7 +49,7 @@ export const GAFAS: Short[] = [
 
   {
     id: "primeras-lentillas",
-    titulo: "Las primeras lentillas eran de vidrio soplado",
+    titulo: "Las lentillas eran de vidrio",
     gancho: "Cubrían el ojo entero, se apoyaban en la parte blanca y aguantabas dos horas con suerte.",
     categoria: "Gafas",
     color: "var(--slate)",
@@ -80,7 +80,7 @@ export const GAFAS: Short[] = [
 
   {
     id: "gafas-caras",
-    titulo: "Las gafas cuestan tanto por una sola empresa",
+    titulo: "Cuestan tanto por una sola empresa",
     gancho: "El mismo grupo fabrica las monturas, tiene las marcas, las ópticas y hasta un seguro de la vista.",
     categoria: "Gafas",
     color: "var(--plum)",

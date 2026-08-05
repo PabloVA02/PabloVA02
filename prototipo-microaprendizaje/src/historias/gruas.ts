@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const GRUAS: Short[] = [
   {
     id: "la-rueda-de-ardilla",
-    titulo: "Las catedrales se levantaron con hombres andando",
+    titulo: "Las catedrales se alzaron andando",
     gancho: "Caminaban por el interior de una rueda enorme, como un hámster, y así subían dos toneladas de piedra.",
     categoria: "Grúas",
     color: "var(--plum)",
@@ -45,7 +45,7 @@ export const GRUAS: Short[] = [
   },
   {
     id: "el-contrapeso-de-la-torre",
-    titulo: "Una grúa de obra se sostiene por detrás",
+    titulo: "La grúa se sostiene por detrás",
     gancho: "Los bloques de hormigón de la parte de atrás pesan lo justo para que la máquina no vuelque hacia delante.",
     categoria: "Grúas",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const GRUAS: Short[] = [
   },
   {
     id: "el-puerto-y-la-carga",
-    titulo: "Descargar un barco costaba una semana de trabajo",
+    titulo: "Descargar un barco costaba semanas",
     gancho: "Cuadrillas de estibadores sacaban a mano sacos y cajas de una en una. Una grúa cambió el oficio entero.",
     categoria: "Grúas",
     color: "var(--ochre)",

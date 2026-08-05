@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const GLOBOS: Short[] = [
   {
     id: "primeros-pasajeros-del-aire",
-    titulo: "Los primeros pasajeros del aire fueron tres animales",
+    titulo: "Los primeros pasajeros eran animales",
     gancho: "Una oveja, un pato y un gallo subieron en cesta delante del rey. Nadie sabía si se podía respirar allí arriba.",
     categoria: "Globos",
     color: "var(--clay)",
@@ -55,7 +55,7 @@ export const GLOBOS: Short[] = [
 
   {
     id: "correo-en-globo",
-    titulo: "París sitiado mandó su correo en globo",
+    titulo: "El correo salió en globo",
     gancho: "Sesenta y seis globos salieron de la ciudad cercada. Las respuestas volvieron en palomas, fotografiadas en miniatura.",
     categoria: "Globos",
     color: "var(--slate)",
@@ -85,7 +85,7 @@ export const GLOBOS: Short[] = [
 
   {
     id: "globos-bomba",
-    titulo: "Japón bombardeó América con globos de papel",
+    titulo: "Bombas de papel cruzando el Pacífico",
     gancho: "Nueve mil globos de papel de morera cruzaron el Pacífico solos, empujados por una corriente de aire que nadie más conocía.",
     categoria: "Globos",
     color: "var(--plum)",

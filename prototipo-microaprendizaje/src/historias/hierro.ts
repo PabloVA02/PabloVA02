@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const HIERRO: Short[] = [
   {
     id: "el-hierro-caido-del-cielo",
-    titulo: "El primer hierro trabajado vino de meteoritos",
+    titulo: "El primer hierro cayó del cielo",
     gancho: "Antes de saber fundir el mineral, algunos pueblos forjaban hierro que había caído del cielo, y lo llamaban así.",
     categoria: "Hierro",
     color: "var(--slate)",
@@ -46,7 +46,7 @@ export const HIERRO: Short[] = [
   },
   {
     id: "la-esponja-de-hierro",
-    titulo: "Los primeros herreros nunca vieron hierro líquido",
+    titulo: "Nunca vieron el hierro líquido",
     gancho: "Sacaban del horno una masa esponjosa mezclada con escoria y la golpeaban durante horas para limpiarla.",
     categoria: "Hierro",
     color: "var(--ochre)",
@@ -75,7 +75,7 @@ export const HIERRO: Short[] = [
   },
   {
     id: "por-que-se-oxida",
-    titulo: "El hierro se oxida por volver a ser piedra",
+    titulo: "Se oxida por volver a piedra",
     gancho: "El óxido no es una enfermedad del metal: es el estado en el que estaba antes de que lo sacáramos del suelo.",
     categoria: "Hierro",
     color: "var(--plum)",

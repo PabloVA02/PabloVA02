@@ -21,7 +21,7 @@ import type { Short } from "../shorts";
 export const HIELO: Short[] = [
   {
     id: "comercio-hielo",
-    titulo: "Se vendía hielo de Boston en la India",
+    titulo: "Hielo de Boston en la India",
     gancho: "Lo serraban de un estanque helado y llegaba a Calcuta cuatro meses después.",
     categoria: "Hielo",
     color: "var(--slate)",
@@ -54,7 +54,7 @@ export const HIELO: Short[] = [
 
   {
     id: "nucleos-hielo",
-    titulo: "En el hielo hay aire de hace 800.000 años",
+    titulo: "Aire de hace ochocientos mil años",
     gancho: "Burbujas atrapadas que se pueden abrir y medir: la atmósfera de entonces, entera.",
     categoria: "Hielo",
     color: "var(--sage)",
@@ -88,7 +88,7 @@ export const HIELO: Short[] = [
 
   {
     id: "hielo-resbala",
-    titulo: "Por qué resbala el hielo se explicaba mal",
+    titulo: "Por qué resbala se explicaba mal",
     gancho: "La versión del peso que lo derrite no cuadra con los números. Faraday acertó antes.",
     categoria: "Hielo",
     color: "var(--plum)",
