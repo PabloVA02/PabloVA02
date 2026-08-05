@@ -23,7 +23,9 @@ export const CATASTROFES: Short[] = [
     foto: {
       archivo: "IAEA 02790015 (5613115146).jpg",
       autor: "IAEA Imagebank",
-      licencia: "CC BY-SA 2.0",
+      /* SIN VERIFICAR: la CC BY-SA pide el nombre del autor y aquí solo está
+         el del banco de imágenes. Falta la ficha con el fotógrafo. */
+      licencia: "Sin verificar",
       foco: "50% 45%",
       alt: "El reactor 4 de Chernóbil destruido, fotografiado desde un helicóptero.",
     },
@@ -61,6 +63,7 @@ export const CATASTROFES: Short[] = [
       archivo: "RMS Titanic 3.jpg",
       autor: "Francis Godolphin Osbourne Stuart",
       licencia: "Dominio público",
+      pdPorEdad: 1923,
       foco: "50% 50%",
       alt: "El Titanic atracado en Southampton antes de zarpar.",
     },
@@ -100,7 +103,10 @@ export const CATASTROFES: Short[] = [
     foto: {
       archivo: "Plastercasts of victims of the eruption of Mount Vesuvius, Pompeii.jpg",
       autor: "Wikimedia Commons",
-      licencia: "CC BY-SA 3.0",
+      /* MAL ATRIBUIDA: la CC BY-SA obliga a nombrar al autor, y «Wikimedia
+         Commons» no es el autor sino el sitio donde está alojada. Tal como
+         está, la atribución no cumple la licencia que ella misma declara. */
+      licencia: "Sin verificar",
       foco: "50% 50%",
       alt: "Vaciados en yeso de víctimas de la erupción, expuestos en Pompeya.",
     },

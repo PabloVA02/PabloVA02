@@ -71,13 +71,16 @@ const CONOCIDOS = new Set([
 let fallos = 0;
 let flojos = 0;
 let titulosLargos = 0;
+let fotosDudosas = 0;
 let total = 0;
 const aviso = (id, texto) => { console.log(`  ✗ ${id}: ${texto}`); fallos++; };
 /* Un aviso flojo no tumba el validador: señala trabajo pendiente de las tandas
    viejas, no un error de la tanda que se acaba de escribir. Sale solo si se
    pide con --flojos, para que el recuento de siempre siga limpio. */
 const flojo = (id, texto, cual) => { if (verFlojos) console.log(`  · ${id}: ${texto}`);
-  if (cual === "titulo") titulosLargos++; else flojos++; };
+  if (cual === "titulo") titulosLargos++;
+  else if (cual === "foto") fotosDudosas++;
+  else flojos++; };
 
 for (const ruta of ficheros) {
   const s = readFileSync(ruta, "utf8");
@@ -171,6 +174,29 @@ for (const ruta of ficheros) {
       if (palabras(unidad) > 9)
         aviso(id, `el dato «${unidad}» pasa de nueve palabras`);
 
+    /* LAS LICENCIAS DE LAS FOTOS.
+
+       El pie de foto dice quién hizo la imagen y con qué licencia, y eso se
+       publica: es una afirmación de hecho, no un adorno. Una licencia puesta
+       a ojo es una licencia inventada aunque acierte.
+
+       Solo hay dos maneras de justificarla:
+         · `pdPorEdad`, para una obra PLANA —cuadro, grabado, miniatura,
+           sello— cuyo autor lleva más de setenta años muerto. La foto de una
+           obra plana no crea derechos nuevos, así que se justifica sola.
+         · `fuente`, la ficha de donde sale la licencia.
+
+       Lo que no vale es dar por hecho que la foto de una estatua o de una
+       moneda es libre porque el objeto sea antiguo: el objeto lo será, la
+       fotografía tiene su propio autor. */
+    for (const m of b.matchAll(/licencia: "([^"]*)"/g)) {
+      const lic = m[1];
+      const tramo = b.slice(Math.max(0, m.index - 400), m.index + 400);
+      if (lic === "Sin verificar") { flojo(id, "foto con licencia sin verificar", "foto"); continue; }
+      if (!/pdPorEdad:|fuente:/.test(tramo))
+        flojo(id, `foto con licencia «${lic}» sin ficha ni año de dominio público`, "foto");
+    }
+
     /* Regla 2: como mucho dos nombres propios que el lector no reconozca. */
     const cuerpo = [entrada, ...paginas.map((p) => p[2])].join(" ").replace(/<[^>]+>/g, "");
     /* Los nombres que ya aparecen en el título o en el gancho no cuentan como
@@ -228,5 +254,6 @@ for (const ruta of ficheros) {
 
 console.log(`\n${total} shorts revisados · ${fallos} avisos`
   + (flojos ? ` · ${flojos} entradas cortas` : "")
-  + (titulosLargos ? ` · ${titulosLargos} títulos que no caben en una línea` : ""));
+  + (titulosLargos ? ` · ${titulosLargos} títulos que no caben en una línea` : "")
+  + (fotosDudosas ? ` · ${fotosDudosas} fotos con la licencia sin justificar` : ""));
 process.exit(fallos ? 1 : 0);

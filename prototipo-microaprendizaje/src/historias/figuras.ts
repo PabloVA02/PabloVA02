@@ -50,6 +50,7 @@ export const FIGURAS: Short[] = [
       local: cesarFoto,
       autor: "Vincenzo Camuccini · Museo di Capodimonte",
       licencia: "Dominio público",
+      pdPorEdad: 1844,
       /* El original es de 1920×1088, casi el doble de ancho que de alto, y el
          marco del muro es de móvil. El recorte se queda con el 72 % central:
          fuera el muro vacío de la derecha y el figurante del borde, dentro la
@@ -70,13 +71,16 @@ export const FIGURAS: Short[] = [
         local: cesarFoto,
         autor: "Óleo de Vincenzo Camuccini, 1806. Museo di Capodimonte, Nápoles.",
         licencia: "Dominio público",
+        pdPorEdad: 1844,
         foco: "50% 50%",
         alt: "El asesinato de Julio César pintado por Camuccini.",
       },
       {
         local: cesarMoneda,
         autor: "Denario de plata acuñado en Roma el año 44 a. C. La leyenda dice CAESAR DICT PERPETVO: César, dictador perpetuo.",
-        licencia: "Dominio público",
+        /* SIN VERIFICAR. La moneda es del año 44 antes de Cristo, pero la
+           fotografía es de alguien y tiene su propia licencia. Falta la ficha. */
+        licencia: "Sin verificar",
         foco: "50% 50%",
         alt: "Denario romano con el retrato de César de perfil y la leyenda alrededor.",
       },
@@ -84,13 +88,17 @@ export const FIGURAS: Short[] = [
         local: cesarGerome,
         autor: "Óleo de Jean-Léon Gérôme, 1867. Walters Art Museum, Baltimore.",
         licencia: "Dominio público",
+        pdPorEdad: 1904,
         foco: "50% 62%",
         alt: "La muerte de César: el cuerpo en el suelo y los conspiradores saliendo con los puñales en alto.",
       },
       {
         local: cesarAugusto,
         autor: "Estatua de mármol del siglo I, hallada en Prima Porta, cerca de Roma. Museos Vaticanos.",
-        licencia: "Dominio público",
+        /* SIN VERIFICAR. La estatua es del siglo I; la fotografía, no. Una
+           escultura tiene volumen y la foto elige punto de vista y luz, así
+           que el fotógrafo tiene derechos propios. Falta la ficha. */
+        licencia: "Sin verificar",
         foco: "50% 14%",
         alt: "El Augusto de Prima Porta, con el brazo levantado y el peto labrado.",
       },
@@ -131,7 +139,9 @@ export const FIGURAS: Short[] = [
     foto: {
       archivo: "Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
       autor: "Altes Museum, Berlín",
-      licencia: "Dominio público",
+      /* SIN VERIFICAR: es un busto, o sea un objeto con volumen, y la foto
+         tiene su propio autor por mucho que la escultura sea antigua. */
+      licencia: "Sin verificar",
       foco: "50% 34%",
       alt: "Busto de mármol de Cleopatra VII conservado en el Altes Museum de Berlín.",
     },
@@ -171,7 +181,9 @@ export const FIGURAS: Short[] = [
     foto: {
       archivo: "BattleofIssus333BC-mosaic-detail1.jpg",
       autor: "Mosaico de Alejandro, Pompeya",
-      licencia: "Dominio público",
+      /* SIN VERIFICAR: el mosaico es plano pero está montado en un museo, y
+         la fotografía puede tener autor propio. Falta la ficha. */
+      licencia: "Sin verificar",
       foco: "50% 40%",
       alt: "Detalle del mosaico de Pompeya en el que Alejandro carga en la batalla de Issos.",
     },
@@ -212,6 +224,7 @@ export const FIGURAS: Short[] = [
       archivo: "YuanEmperorAlbumGenghisPortrait.jpg",
       autor: "Álbum imperial Yuan, Museo del Palacio Nacional",
       licencia: "Dominio público",
+      pdPorEdad: 1400,
       foco: "50% 30%",
       alt: "Retrato clásico de Gengis Kan del álbum de emperadores de la dinastía Yuan.",
     },
@@ -253,6 +266,7 @@ export const FIGURAS: Short[] = [
         "Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
       autor: "Jacques-Louis David",
       licencia: "Dominio público",
+      pdPorEdad: 1825,
       foco: "50% 26%",
       alt: "Retrato de Napoleón en su despacho de las Tullerías, pintado por Jacques-Louis David.",
     },
@@ -293,6 +307,7 @@ export const FIGURAS: Short[] = [
       archivo: "Joan of Arc miniature graded.jpg",
       autor: "Miniatura del siglo XV, Archivos Nacionales de Francia",
       licencia: "Dominio público",
+      pdPorEdad: 1500,
       foco: "50% 30%",
       alt: "Miniatura del siglo XV que representa a Juana de Arco con armadura y estandarte.",
     },

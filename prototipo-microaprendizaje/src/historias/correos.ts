@@ -28,6 +28,7 @@ export const CORREOS: Short[] = [
       archivo: "Penny black.jpg",
       autor: "Correo británico, 1840",
       licencia: "Dominio público",
+      pdPorEdad: 1840,
       foco: "50% 50%",
       alt: "El primer sello del mundo: el perfil de la reina Victoria sobre fondo negro.",
     },

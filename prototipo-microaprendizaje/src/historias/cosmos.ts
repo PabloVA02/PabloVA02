@@ -32,6 +32,7 @@ export const COSMOS: Short[] = [
       local: venusFoto,
       autor: "NASA / JPL-Caltech",
       licencia: "Dominio público",
+      fuente: "https://www.nasa.gov/nasa-brand-center/images-and-media/",
       /* La imagen viene ya recompuesta en vertical, con el planeta arriba y el
          negro abajo para que el texto se apoye en algo. El original de la NASA
          es apaisado 2:1 y el marco del muro es de móvil: recortado al vuelo

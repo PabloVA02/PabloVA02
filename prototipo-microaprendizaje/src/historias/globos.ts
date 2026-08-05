@@ -26,6 +26,7 @@ export const GLOBOS: Short[] = [
       archivo: "Grafika przedstawiająca lot balonu Montgolfiera ze zwierzętami z 19 września 1783 roku.jpg",
       autor: "Grabado de época, 1783",
       licencia: "Dominio público",
+      pdPorEdad: 1800,
       foco: "50% 40%",
       alt: "Grabado del globo de 1783 elevándose con la cesta de los tres animales.",
     },

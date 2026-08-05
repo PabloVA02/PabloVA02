@@ -270,6 +270,24 @@ import { ZOOS } from "./historias/zoos";
 type FotoComun = {
   autor: string;
   licencia: string;
+  /**
+   * La ficha de donde sale la licencia. Sin esto, `licencia` es una creencia,
+   * no un dato, y la diferencia importa porque el pie de foto se publica.
+   *
+   * Hay un caso en el que se puede omitir: una obra plana —un cuadro, un
+   * grabado, una miniatura, un sello— cuyo autor lleva más de setenta años
+   * muerto. Ahí es de dominio público por edad, y la fotografía de una obra
+   * plana no crea derechos nuevos. Se pone `pdPorEdad` con el año de muerte
+   * del autor y queda justificado solo.
+   *
+   * Lo que NO vale es dar por hecho que la foto de una estatua o de una
+   * moneda es de dominio público porque el objeto sea antiguo. El objeto lo
+   * será; la fotografía, que es de un cuerpo con volumen y con luz elegida,
+   * tiene su propio autor y su propia licencia.
+   */
+  fuente?: string;
+  /** Año de muerte del autor de una obra plana, cuando es de dominio público por edad. */
+  pdPorEdad?: number;
   /** Qué parte no se puede perder al recortar (CSS object-position). */
   foco?: string;
   /** Descripción para quien no ve la imagen. */

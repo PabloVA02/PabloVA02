@@ -26,6 +26,7 @@ export const RAYOSX: Short[] = [
       archivo: "First medical X-ray by Wilhelm Röntgen of his wife Anna Bertha Ludwig's hand - 18951222.jpg",
       autor: "Wilhelm Conrad Röntgen",
       licencia: "Dominio público",
+      pdPorEdad: 1923,
       foco: "50% 45%",
       alt: "La primera radiografía médica: los huesos de una mano con el anillo de casada.",
     },
