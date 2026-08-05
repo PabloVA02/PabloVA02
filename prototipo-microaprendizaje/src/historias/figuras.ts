@@ -68,62 +68,56 @@ export const FIGURAS: Short[] = [
          para que el orden de la lista sea el orden de las pantallas. */
       {
         local: cesarFoto,
-        autor: "Óleo de Vincenzo Camuccini, 1806. Museo di Capodimonte, Nápoles",
+        autor: "Óleo de Vincenzo Camuccini, 1806. Museo di Capodimonte, Nápoles.",
         licencia: "Dominio público",
-        panoramica: { alto: "9%" },
+        foco: "50% 50%",
         alt: "El asesinato de Julio César pintado por Camuccini.",
       },
       {
         local: cesarMoneda,
-        autor: "Denario de plata acuñado en Roma el año 44 a. C. La leyenda dice CAESAR DICT PERPETVO: César, dictador perpetuo",
+        autor: "Denario de plata acuñado en Roma el año 44 a. C. La leyenda dice CAESAR DICT PERPETVO: César, dictador perpetuo.",
         licencia: "Dominio público",
         foco: "50% 50%",
         alt: "Denario romano con el retrato de César de perfil y la leyenda alrededor.",
       },
       {
         local: cesarGerome,
-        autor: "Óleo de Jean-Léon Gérôme, 1867. Walters Art Museum, Baltimore",
+        autor: "Óleo de Jean-Léon Gérôme, 1867. Walters Art Museum, Baltimore.",
         licencia: "Dominio público",
         foco: "50% 62%",
         alt: "La muerte de César: el cuerpo en el suelo y los conspiradores saliendo con los puñales en alto.",
       },
       {
         local: cesarAugusto,
-        autor: "Estatua de mármol del siglo I, hallada en Prima Porta, cerca de Roma. Museos Vaticanos",
+        autor: "Estatua de mármol del siglo I, hallada en Prima Porta, cerca de Roma. Museos Vaticanos.",
         licencia: "Dominio público",
         foco: "50% 14%",
         alt: "El Augusto de Prima Porta, con el brazo levantado y el peto labrado.",
       },
     ],
+    /* Texto literal de la maqueta que aprobó Pablo. Si algo de aquí no
+       coincide con ella, manda ella. */
     entrada:
-      "Roma, año 44 antes de Cristo. Julio César es el hombre más poderoso del mundo conocido: ha conquistado la Galia, la actual Francia, ha ganado una guerra civil contra sus propios compatriotas y gobierna de hecho todo el Mediterráneo. Aquella mañana de marzo entra a una reunión del Senado sin guardaespaldas, porque hace poco despidió a su escolta para demostrar que se fiaba. Dentro le esperan unos sesenta hombres con un puñal escondido bajo la ropa, y casi ninguno es soldado. Para entender por qué van a matarlo hay que saber una cosa de Roma.",
+      "Roma, año 44 antes de Cristo. Julio César es el hombre más poderoso del mundo conocido: ha conquistado la Galia, la actual Francia, ha ganado una guerra civil contra sus propios compatriotas y gobierna de hecho todo el Mediterráneo. Aquella mañana de marzo entra a una reunión del Senado sin guardaespaldas, porque hace poco despidió a su escolta para demostrar que se fiaba. Sus amigos le insistieron en que la recuperara y él contestó que prefería morir una vez a vivir esperándolo. Dentro le esperan unos sesenta hombres con un puñal escondido bajo la ropa, y casi ninguno es soldado.",
     paginas: [
       {
         rotulo: "El casi rey",
         texto:
-          "Roma llevaba casi quinientos años sin rey y estaba orgullosísima de ello. El poder se repartía entre varios cargos que duraban un año, para que nadie mandase demasiado tiempo. César rompió esa regla por todos lados. Se hizo nombrar dictador de por vida, puso su cara en las monedas y presidía el Senado desde una silla dorada. La cara en la moneda era un honor reservado hasta entonces a los dioses y a los muertos. Nunca llegó a coronarse rey, pero para muchos senadores la diferencia ya no existía. Y decidieron matarlo de una manera muy concreta.",
-        /* El texto de esta página ya dice que Roma llevaba quinientos años sin
-           rey, así que el dato no puede repetirlo: tiene que traer algo que el
-           lector no haya leído. */
-        destacado: { tipo: "cifra", cifra: "55", unidad: "años tenía aquella mañana" },
+          "Roma llevaba casi quinientos años sin rey y estaba orgullosísima de ello. El poder se repartía entre varios cargos que duraban un año, precisamente para que nadie mandase demasiado tiempo seguido. César rompió esa regla por todos lados. Se hizo nombrar dictador de por vida, puso su cara en las monedas y presidía el Senado sentado en una silla dorada. La cara en la moneda era un honor reservado hasta entonces a los dioses y a los muertos. Y el Senado le fue votando honores cada vez más raros, hasta ponerle una estatua junto a las de los antiguos reyes. Nunca llegó a coronarse rey, pero para muchos senadores la diferencia había dejado de existir.",
+        destacado: { tipo: "cifra", cifra: "5", unidad: "años mandó en Roma antes de que lo mataran" },
       },
       {
+        /* Esta es la página que en la maqueta va sin dato: el texto llega
+           hasta abajo y no hace falta nada más. */
         rotulo: "La emboscada",
         texto:
-          "Podían haberlo matado de noche, en la calle, sin testigos. Lo mataron dentro del Senado y delante de todos, para que pareciera una sentencia y no un asesinato. Un senador se le acercó con una petición y le agarró la toga: esa era la señal. César intentó defenderse con lo único que llevaba encima, un punzón de escribir. Entre los que lo rodeaban estaba Bruto, al que él había perdonado en la guerra civil. Al reconocerlo dejó de resistirse y se cubrió la cara con la toga. Cuando terminaron, salieron a la calle a celebrarlo.",
-        destacado: {
-          tipo: "frase",
-          frase: "Cayó a los pies de una estatua de Pompeyo, el rival al que había derrotado.",
-        },
+          "Podían haberlo matado de noche, en la calle y sin testigos, y no lo hicieron. Lo mataron dentro de una reunión del Senado y delante de todo el mundo, porque querían que aquello pareciera una sentencia y no un asesinato. Acordaron además que apuñalara cada uno de ellos, para que ninguno pudiera denunciar a los demás sin condenarse a sí mismo. Un senador se le acercó con una petición y le agarró la toga: esa era la señal. César intentó defenderse con lo único que llevaba encima, un punzón de escribir. Entre los que lo rodeaban estaba Bruto, al que él había perdonado en la guerra civil, y al reconocerlo dejó de resistirse y se cubrió la cara con la toga.",
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "No los siguió nadie. Los asesinos esperaban que la ciudad los recibiera como libertadores, y la ciudad se quedó mirando desde los portales. Un médico examinó el cuerpo y contó veintitrés puñaladas, y dejó escrito que solo una había sido mortal. Tres esclavos se lo llevaron a casa en una litera, con un brazo colgando. En dos años los cabecillas habían muerto, y diecisiete años después el sobrino nieto de César gobernaba Roma como primer emperador. Habían matado a un hombre para no tener un rey, y lo que consiguieron fue un imperio.",
-        /* La última pantalla lleva además los dos botones y el aviso de que la
-           siguiente historia va hacia abajo, así que su texto va más corto que
-           el de las otras dos: si no, no cabe nada de eso. */
-        destacado: { tipo: "cifra", cifra: "3", unidad: "horas tirado en el suelo" },
+          "No los siguió nadie. Los asesinos salieron a la calle con las manos manchadas gritando que Roma volvía a ser libre, y la ciudad se quedó mirando desde los portales. En dos años los cabecillas habían muerto, casi todos matándose ellos mismos tras perder la guerra que provocaron. Diecisiete años después, el sobrino nieto de César gobernaba Roma como primer emperador. Habían matado a un hombre para no tener un rey, y lo que consiguieron fue un imperio.",
+        destacado: { tipo: "cifra", cifra: "2", unidad: "palabras salieron de su nombre: káiser y zar" },
       },
     ],
   },

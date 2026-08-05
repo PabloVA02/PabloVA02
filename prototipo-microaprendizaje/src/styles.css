@@ -5799,3 +5799,17 @@ button {
    liso, y el punteado en multiply lo ensuciaba lo justo para que no fuera el
    mismo color. Se conserva en el resto de pantallas. */
 .shell:has(.muro-pagina)::after { display: none; }
+
+/* La maqueta no equilibra ni afina los saltos de línea: deja que el texto
+   caiga como caiga. La app sí lo hacía, y por eso el título partía en otro
+   sitio y las últimas líneas del párrafo se recolocaban. Aquí no. */
+.muro-hoja h2,
+.muro-entrada,
+.short-cuerpo { text-wrap: auto; }
+
+/* Y la foto va SIN filtro. La app le baja la saturación y le sube el
+   contraste para que el tinte de encima case con ella; aquí no hay tinte y no
+   hay nada que casar, así que ese retoque solo era una foto distinta de la
+   que Pablo pasó. La maqueta la pinta cruda y así va. */
+.muro-foto .foto-img,
+.muro-foto .foto-panoramica { filter: none; }

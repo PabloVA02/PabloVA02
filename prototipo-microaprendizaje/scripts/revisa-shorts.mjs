@@ -111,21 +111,27 @@ for (const ruta of ficheros) {
          hueco muerto al final de la pagina, ni tan largo que no quepa. El
          techo sube a 132 para la medida nueva; el suelo se queda en 90 hasta
          que los 757 shorts viejos esten alargados. */
+      /* La página 3 va más corta a propósito y con permiso de la maqueta: es
+         la única que además lleva los dos botones y el aviso de que la
+         siguiente historia va hacia abajo, así que si le pidiéramos las mismas
+         palabras que a las otras dos no cabría nada de eso. La suya, 87. */
+      const suelo = i === 2 ? 75 : 90;
       const n = palabras(texto);
-      if (n < 90 || n > 132) aviso(id, `página ${i + 1} de ${n} palabras (90-132)`);
+      if (n < suelo || n > 132) aviso(id, `página ${i + 1} de ${n} palabras (${suelo}-132)`);
       if (palabras(rotulo) > 4) aviso(id, `rótulo «${rotulo}» de más de 4 palabras`);
     });
     if (paginas.length === 3 && !/^Lo que qued[óa]$/.test(paginas[2][1]))
       aviso(id, `la página 3 se titula «${paginas[2][1]}» y debería ser «Lo que quedó»`);
 
-    /* Regla 15: el dato es una cifra y hasta seis palabras, en cualquiera de
-       las tres páginas. La regla vieja pedía frase en la página 3 y queda sin
-       efecto: ahora todos los datos son cifra. Lo que sí se vigila es que la
-       frase que acompaña a la cifra no se alargue, porque entonces deja de ser
-       un dato y vuelve a ser un resumen. */
+    /* Regla 15: el dato es una cifra y la frase corta que la explica. El tope
+       eran seis palabras y lo subo a nueve, que es lo que mide el más largo de
+       la maqueta aprobada («años mandó en Roma antes de que lo mataran»). Lo
+       que se vigila sigue siendo lo mismo: que la frase no se alargue hasta
+       volver a ser un resumen. Y no todas las páginas llevan dato: en la
+       maqueta la del medio va sin él y el texto llega hasta abajo. */
     for (const [, unidad] of b.matchAll(/unidad: "((?:[^"\\]|\\.)*)"/g))
-      if (palabras(unidad) > 6)
-        aviso(id, `el dato «${unidad}» pasa de seis palabras`);
+      if (palabras(unidad) > 9)
+        aviso(id, `el dato «${unidad}» pasa de nueve palabras`);
 
     /* Regla 2: como mucho dos nombres propios que el lector no reconozca. */
     const cuerpo = [entrada, ...paginas.map((p) => p[2])].join(" ").replace(/<[^>]+>/g, "");

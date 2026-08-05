@@ -63,6 +63,13 @@ function Fotografia({
   deriva = true,
   /** Parallax. Se aplica DENTRO de la caja recortada, nunca fuera. */
   desplaza,
+  /**
+   * La foto tal cual, sin nada encima ni debajo: es como la pinta la maqueta
+   * de lectura. Apaga el relleno desenfocado de las panorámicas, el zoom de
+   * reposo y el tinte, y deja solo la imagen recortada a la caja. Lo demás de
+   * la app la sigue enseñando con sus efectos.
+   */
+  plana = false,
 }: {
   /** Si no hay foto asignada todavía, se dibuja el respaldo y ya está. */
   foto?: Foto;
@@ -71,6 +78,7 @@ function Fotografia({
   reducido: boolean;
   deriva?: boolean;
   desplaza?: MotionValue<number>;
+  plana?: boolean;
 }) {
   // Sin foto asignada no se espera a nada: el cartel es el estado final, no un
   // sustituto provisional que haya que anunciar con un barrido de carga.
@@ -116,7 +124,7 @@ function Fotografia({
             color de fondo, y ese color sale del propio cuadro, así que la
             banda nítida de arriba no flota sobre un rectángulo ajeno. Se pinta
             antes que la foto para quedar por debajo. */}
-        {estado === "lista" && foto?.panoramica && (
+        {estado === "lista" && foto?.panoramica && !plana && (
           <motion.img
             key="panorama"
             className="foto-panorama"
@@ -132,18 +140,20 @@ function Fotografia({
         {estado === "lista" && foto && (
           <motion.img
             key="foto"
-            className={foto.panoramica ? "foto-panoramica" : "foto-img"}
+            className={foto.panoramica && !plana ? "foto-panoramica" : "foto-img"}
             src={urlFoto(foto)}
             alt={foto.alt}
             style={
-              foto.panoramica
+              foto.panoramica && !plana
                 ? { ["--alto" as string]: foto.panoramica.alto }
                 : { objectPosition: foto.foco ?? "50% 50%" }
             }
-            initial={{ opacity: 0, scale: 1.08 }}
+            initial={{ opacity: 0, scale: plana ? 1 : 1.08 }}
             exit={{ opacity: 0, transition: { duration: 0.45, ease: "easeOut" } }}
             animate={
-              reducido || !deriva
+              plana
+                ? { opacity: 1, scale: 1 }
+                : reducido || !deriva
                 ? { opacity: 1, scale: 1.02 }
                 : foto.panoramica
                   ? /* La panorámica ya toca los dos costados del marco: el
@@ -154,7 +164,9 @@ function Fotografia({
                   : { opacity: 1, scale: [1.08, 1.16] }
             }
             transition={
-              reducido || !deriva
+              plana
+                ? { opacity: { duration: 0.5 } }
+                : reducido || !deriva
                 ? springSoft
                 : {
                     opacity: { duration: 0.7 },
@@ -169,7 +181,7 @@ function Fotografia({
             antes del borde, así que nunca asoma el canto de la copia y no hay
             costura que disimular. Va con la misma escala que la foto de abajo
             para no despegarse de ella durante el zoom de reposo. */}
-        {estado === "lista" && foto?.esfera && deriva && !reducido && (
+        {estado === "lista" && foto?.esfera && deriva && !reducido && !plana && (
           <motion.img
             key="atmosfera"
             className="foto-atmosfera"
@@ -214,7 +226,7 @@ function Fotografia({
           vez lo ensucia— y solo en la historia que se está mirando, porque el
           muro mantiene montadas las vecinas y tres filtros de ruido a pantalla
           completa se notan en el desplazamiento. */}
-      {estado === "lista" && (
+      {estado === "lista" && !plana && (
         <>
           <div className={foto?.panoramica ? "foto-tinte es-suave" : "foto-tinte"} />
           {deriva && (
@@ -460,11 +472,11 @@ function PaginaShort({
 
   const total = short.paginas.length + 1;
 
-  // Un solo valor de gesto para toda la historia. El texto va pegado al dedo y
-  // la foto se mueve en contra: 1 − 0,55 = 0,45 de recorrido neto frente al
-  // 0,92 del texto. El parallax sale de la resta, no de una segunda animación.
+  // Un solo valor de gesto para toda la historia: el texto va pegado al dedo.
+  // La foto ya no se mueve en contra —el parallax le cambiaba el encuadre a
+  // media pasada, y la maqueta la tiene quieta—, así que del gesto solo cuelga
+  // la hoja.
   const x = useMotionValue(0);
-  const xFoto = useTransform(x, (v) => -v * 0.55);
   const xHoja = useTransform(x, (v) => v * 0.92);
 
   // El cronómetro arranca cuando la historia se pone delante, no cuando se
@@ -567,22 +579,19 @@ function PaginaShort({
           avanzar(1);
         }}
       >
-        {/* La foto es de la historia, no de la pantalla: se queda montada las
-            cuatro y solo se aparta un poco cuando el texto crece. */}
-        <motion.div
-          className="muro-foto"
-          initial={false}
-          animate={{ scale: portada ? 1 : 1.06, y: portada ? 0 : -16 }}
-          transition={springSoft}
-        >
+        {/* La foto va tal cual, como en la maqueta: ni zoom de reposo, ni
+            relleno desenfocado, ni tinte, ni la banda escalada al pasar de
+            página. Todo eso recortaba el cuadro por su cuenta, y Pablo pidió
+            que la foto se vea como la pasa. Aquí es lo que es: recortada al
+            alto de la banda y centrada donde diga su foco. */}
+        <div className="muro-foto">
           <Fotografia
             foto={fotoDe(short, paso)}
             Respaldo={respaldoDe(short)}
             reducido={reducido}
-            deriva={activo}
-            desplaza={xFoto}
+            plana
           />
-        </motion.div>
+        </div>
         {/* El pie de la imagen, en las cuatro pantallas. No es una firma: dice
             qué es lo que se está viendo, de qué año y de dónde salió. */}
         <p className="muro-credito">{fotoDe(short, paso)?.autor ?? short.encargo}</p>
