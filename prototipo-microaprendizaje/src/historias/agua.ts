@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const AGUA: Short[] = [
   {
     id: "mar-de-aral",
-    titulo: "Un mar entero se secó en cincuenta años",
+    titulo: "El mar que se secó",
     gancho: "Era el cuarto lago del mundo. Hoy hay barcos oxidados tumbados en mitad de un desierto de sal.",
     categoria: "Agua",
     color: "var(--ochre)",
@@ -50,7 +50,7 @@ export const AGUA: Short[] = [
 
   {
     id: "acueductos-romanos",
-    titulo: "Roma traía el agua desde cincuenta kilómetros",
+    titulo: "El agua de Roma venía lejos",
     gancho: "Once conducciones, treinta centímetros de caída por kilómetro y ni una sola bomba.",
     categoria: "Agua",
     color: "var(--slate)",
@@ -80,7 +80,7 @@ export const AGUA: Short[] = [
 
   {
     id: "dia-cero",
-    titulo: "Una ciudad puso fecha al fin del agua",
+    titulo: "La ciudad sin agua",
     gancho: "Publicaron cada semana los días que faltaban para cerrar los grifos a cuatro millones de personas.",
     categoria: "Agua",
     color: "var(--plum)",

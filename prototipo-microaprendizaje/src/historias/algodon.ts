@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ALGODON: Short[] = [
   {
     id: "la-maquina-que-empeoro-todo",
-    titulo: "Una máquina para ahorrar trabajo multiplicó la esclavitud",
+    titulo: "La máquina que multiplicó esclavos",
     gancho: "Separaba la fibra de la semilla cincuenta veces más rápido. El resultado fue mucha más gente esclavizada, no menos.",
     categoria: "Algodón",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const ALGODON: Short[] = [
   },
   {
     id: "la-muselina-que-se-perdio",
-    titulo: "Se tejía una tela tan fina que parecía niebla",
+    titulo: "La tela que parecía niebla",
     gancho: "Se hilaba de madrugada, junto al río y con la humedad justa, porque el hilo se rompía con el aire seco.",
     categoria: "Algodón",
     color: "var(--ochre)",
@@ -75,7 +75,7 @@ export const ALGODON: Short[] = [
   },
   {
     id: "la-camiseta-y-el-agua",
-    titulo: "Una camiseta se lleva dos mil litros de agua",
+    titulo: "Una camiseta y dos mil litros",
     gancho: "No es lo que gastas lavándola: es lo que bebió la planta antes de convertirse en tela.",
     categoria: "Algodón",
     color: "var(--plum)",

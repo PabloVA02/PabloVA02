@@ -296,6 +296,41 @@ El campo `gancho` **se sigue escribiendo** aunque no se pinte en la portada:
 sirve para las pantallas de lista y de búsqueda, donde hace falta una línea
 que explique el short sin abrirlo.
 
+## 15. Lo que se ve en pantalla
+
+Decidido con Pablo maqueta a maqueta. Esto manda sobre cómo se escribe, porque
+el tamaño de letra y la longitud del texto son la misma decisión.
+
+**Una sola medida de lectura.** La entrada de la portada y el texto de las tres
+páginas se pintan exactamente igual: 17 puntos en un móvil normal, que es el
+tamaño con el que viene configurado de fábrica para leer párrafos. No hay un
+texto principal y otro secundario.
+
+**La banda de imagen ocupa el 28 % de alto, igual en las cuatro pantallas.**
+Debajo va el crédito de la imagen en cursiva pequeña: autor y sitio.
+
+**Márgenes idénticos en las cuatro**, arriba, abajo y a los lados. La última
+pantalla se ve más suelta porque lleva menos texto, no porque cambie nada.
+
+**Fuera los rótulos.** «El casi rey», «La emboscada» y «Lo que quedó» ya no se
+pintan: ocupaban un renglón para no decir nada que el texto no dijera dos
+palabras después. Se siguen escribiendo en el fichero porque ordenan al que
+escribe, pero el lector no los ve.
+
+**El dato es una cifra y cuatro palabras**, no un párrafo. Va al pie, separado
+por una línea fina, con el número en el color del acento. No lleva etiqueta que
+ponga «dato curioso»: lo delimitan la línea y el tamaño.
+
+Y tiene una condición que lo es todo: **el dato no puede repetir nada del texto
+de arriba**. Si el texto ya dice que Roma llevaba quinientos años sin rey, el
+dato no puede ser «500 · años sin rey», porque eso es releer. Tiene que ser
+algo que el lector no ha visto: cuántos años gobernó, cuántas palabras salieron
+de su nombre.
+
+**Solo la última pantalla cambia de composición**: el texto se acorta, aparece
+el remate en 20 puntos y todo se centra. Ahí ya no hay que seguir leyendo, hay
+que quedarse con una frase.
+
 ## Medidas
 
 | Campo | Medida |
@@ -303,9 +338,9 @@ que explique el short sin abrirlo.
 | `titulo` | 3–6 palabras: la cosa nombrada más el gancho |
 | `gancho` | una o dos frases; no se pinta en la portada, sirve para listas |
 | `entrada` | 85–110 palabras |
-| `texto` de cada página | 90–116 palabras |
-| `rotulo` | 2–4 palabras; el de la página 3 es «Lo que quedó» |
-| `destacado` | en las tres páginas; en la 3 siempre de tipo frase |
+| `texto` de cada página | 90–116 palabras; 85–100 si la página lleva dato |
+| `rotulo` | 2–4 palabras; ya no se pinta, pero ordena al que escribe |
+| `destacado` | cifra y hasta 6 palabras, con información que no esté en el texto |
 
 `curioso: true` cuando la historia es un dato curioso y no un
 acontecimiento: se pinta la insignia «Dato curioso» en la portada.

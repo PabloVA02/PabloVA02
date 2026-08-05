@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const ANCLA: Short[] = [
   {
     id: "el-ancla-no-sujeta-por-peso",
-    titulo: "El ancla no sujeta un barco por su peso",
+    titulo: "El ancla no sujeta por peso",
     gancho: "Un buque de cien mil toneladas se queda quieto con un ancla de diez. Lo que sujeta es el fondo y la cadena.",
     categoria: "Barcos",
     color: "var(--slate)",
@@ -44,7 +44,7 @@ export const ANCLA: Short[] = [
   },
   {
     id: "el-ancla-flotante",
-    titulo: "Hay un ancla que no toca el fondo",
+    titulo: "El ancla que no toca fondo",
     gancho: "En mitad del océano no hay fondo al alcance. Se echa un saco de tela que frena el barco contra el propio agua.",
     categoria: "Barcos",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const ANCLA: Short[] = [
   },
   {
     id: "el-ancla-de-los-edificios",
-    titulo: "Los edificios también se anclan al suelo",
+    titulo: "Los edificios llevan anclas",
     gancho: "Un rascacielos no se cae por su peso: se caería levantándose. El viento tira hacia arriba de una esquina.",
     categoria: "Ciudades",
     color: "var(--ochre)",

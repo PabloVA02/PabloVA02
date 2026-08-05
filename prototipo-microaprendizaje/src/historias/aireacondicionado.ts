@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const AIRE_ACONDICIONADO: Short[] = [
   {
     id: "aire-para-una-imprenta",
-    titulo: "El aire acondicionado se inventó para imprimir",
+    titulo: "El aire acondicionado nació imprimiendo",
     gancho: "El problema era la humedad, que descolocaba los colores. El frío salió por accidente.",
     categoria: "Aire acondicionado",
     color: "var(--slate)",
@@ -47,7 +47,7 @@ export const AIRE_ACONDICIONADO: Short[] = [
 
   {
     id: "cines-de-verano",
-    titulo: "Los cines fueron los primeros sitios refrigerados",
+    titulo: "Los cines inventaron el verano",
     gancho: "Antes se cerraban en verano por el calor. Al enfriarlos, la gente entraba solo por estar fresca.",
     categoria: "Aire acondicionado",
     color: "var(--clay)",
@@ -77,7 +77,7 @@ export const AIRE_ACONDICIONADO: Short[] = [
 
   {
     id: "el-mapa-que-cambio",
-    titulo: "El aire acondicionado movió a millones de personas",
+    titulo: "El aire acondicionado movió ciudades",
     gancho: "Zonas donde nadie quería vivir por el calor se llenaron en treinta años. Y el reparto del poder cambió con ellas.",
     categoria: "Aire acondicionado",
     color: "var(--plum)",

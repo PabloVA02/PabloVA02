@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const ALCOHOL: Short[] = [
   {
     id: "alcohol-envenenado",
-    titulo: "El gobierno envenenó el alcohol a propósito",
+    titulo: "El alcohol envenenado a propósito",
     gancho: "Durante la ley seca se adulteró el alcohol industrial para que nadie lo bebiera. Se lo bebieron igual.",
     categoria: "Alcohol",
     color: "var(--clay)",
@@ -48,7 +48,7 @@ export const ALCOHOL: Short[] = [
 
   {
     id: "cerveza-y-pan",
-    titulo: "Quizá dejamos de ser nómadas por la cerveza",
+    titulo: "Nos asentamos por la cerveza",
     gancho: "La discusión lleva setenta años abierta: si el primer cereal se sembró para pan o para fermentarlo.",
     categoria: "Alcohol",
     color: "var(--ochre)",
@@ -79,7 +79,7 @@ export const ALCOHOL: Short[] = [
 
   {
     id: "ginebra-londres",
-    titulo: "Londres se emborrachó de ginebra treinta años",
+    titulo: "La fiebre de la ginebra",
     gancho: "Un cartel de la época prometía borrachera por un penique y borrachera total por dos.",
     categoria: "Alcohol",
     color: "var(--slate)",

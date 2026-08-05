@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const AGUJA: Short[] = [
   {
     id: "la-aguja-con-ojo",
-    titulo: "La aguja con ojo permitió poblar el frío",
+    titulo: "La aguja que pobló el frío",
     gancho: "Sin ropa cosida a medida no se puede vivir a treinta bajo cero. La aguja es la herramienta que abrió el norte.",
     categoria: "Prehistoria",
     color: "var(--clay)",
@@ -45,7 +45,7 @@ export const AGUJA: Short[] = [
   },
   {
     id: "la-aguja-hipodermica",
-    titulo: "El número de una aguja va al revés",
+    titulo: "El número de la aguja engaña",
     gancho: "Cuanto más alto es el número, más fina es la aguja. La numeración viene de cómo se fabricaba el tubo.",
     categoria: "Medicina",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const AGUJA: Short[] = [
   },
   {
     id: "la-aguja-del-tocadiscos",
-    titulo: "La aguja de un disco lee una montaña rusa",
+    titulo: "La aguja del disco",
     gancho: "El surco no es una línea: es un valle con dos paredes que se mueven. La aguja las sigue y tiembla.",
     categoria: "Música",
     color: "var(--plum)",

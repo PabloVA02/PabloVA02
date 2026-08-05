@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ALMACENES: Short[] = [
   {
     id: "el-pale",
-    titulo: "El palé decidió el tamaño de medio mundo",
+    titulo: "El palé mide medio mundo",
     gancho: "Una plataforma de madera que nadie mira fija el ancho de un camión, de un contenedor y de una estantería.",
     categoria: "Empresas",
     color: "var(--clay)",
@@ -45,7 +45,7 @@ export const ALMACENES: Short[] = [
   },
   {
     id: "el-almacen-desordenado",
-    titulo: "Los almacenes modernos guardan las cosas sin orden",
+    titulo: "El almacén sin ningún orden",
     gancho: "Un libro al lado de una sartén y un juguete encima. Colocarlo todo por categorías sería mucho más lento.",
     categoria: "Empresas",
     color: "var(--slate)",
@@ -75,7 +75,7 @@ export const ALMACENES: Short[] = [
   },
   {
     id: "el-ultimo-kilometro",
-    titulo: "El último kilómetro cuesta media entrega",
+    titulo: "El último kilómetro cuesta la mitad",
     gancho: "Traer un paquete de China a España es barato. Subirlo a un cuarto piso sin ascensor es lo caro.",
     categoria: "Empresas",
     color: "var(--ochre)",

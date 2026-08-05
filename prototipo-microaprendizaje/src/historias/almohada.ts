@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ALMOHADA: Short[] = [
   {
     id: "la-almohada-de-madera",
-    titulo: "Durante siglos se durmió sobre almohadas duras",
+    titulo: "Las almohadas eran de madera",
     gancho: "De madera, de piedra o de cerámica. No eran una tortura: cumplían un trabajo que la blanda no hace.",
     categoria: "Objetos",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const ALMOHADA: Short[] = [
   },
   {
     id: "lo-que-vive-en-la-almohada",
-    titulo: "Una almohada vieja pesa el doble por dentro",
+    titulo: "Tu almohada pesa el doble",
     gancho: "Lo que engorda no es el relleno. Son las células de piel, el sudor y los ácaros que viven de todo eso.",
     categoria: "Cuerpo",
     color: "var(--slate)",
@@ -75,7 +75,7 @@ export const ALMOHADA: Short[] = [
   },
   {
     id: "el-cojin-de-viaje",
-    titulo: "El cojín de viaje se lleva del revés",
+    titulo: "El cojín de viaje",
     gancho: "La abertura debería ir delante, sujetando la barbilla. Puesto como todo el mundo lo pone, no impide lo que falla.",
     categoria: "Objetos",
     color: "var(--plum)",
