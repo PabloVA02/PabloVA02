@@ -26,7 +26,7 @@ export const AVIACION: Short[] = [
     color: "var(--slate)",
     encargo: "Una tablilla de vuelo con una lista mecanografiada sujeta con pinza metálica.",
     entrada:
-      "30 de octubre de 1935, base aérea de Wright Field, Ohio. El Ejército estadounidense evalúa el bombardero que quiere comprar y el favorito es el Boeing 299, una máquina enorme, cuatro motores, más instrumentos de los que nadie había visto en una cabina. Despega, sube unos setenta metros, se encabrita y cae. Mueren dos de los cinco tripulantes.",
+      "Base aérea de Wright Field, en Ohio, el 30 de octubre de 1935. El Ejército estadounidense evalúa el bombardero que quiere comprar y el favorito es el Boeing 299, una máquina enorme, cuatro motores, más instrumentos de los que nadie había visto en una cabina. Despega, sube unos setenta metros, se encabrita y cae. Mueren dos de los cinco tripulantes.",
     paginas: [
       {
         rotulo: "El pestillo",

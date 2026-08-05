@@ -255,8 +255,53 @@ function Fotografia({
 
 const ACENTOS = ["--clay", "--ochre", "--sage", "--plum", "--slate"] as const;
 
+/* Los temas grandes llevan el color puesto a mano, porque el color dice de qué
+   se habla y eso no se deja al azar: lo que pasa hace mucho es naranja de
+   barro, lo que pasa en un laboratorio es azul pizarra, lo que crece es verde.
+   Los demás lo reciben por reparto, que para un tema de tres historias vale. */
+const COLOR_DEL_TEMA: Record<string, (typeof ACENTOS)[number]> = {
+  // De barro: el tiempo pasado
+  Historia: "--clay",
+  Figuras: "--clay",
+  España: "--clay",
+  Prehistoria: "--clay",
+  Faraones: "--clay",
+  Cruzadas: "--clay",
+  Vikingos: "--clay",
+  Arte: "--clay",
+  // Ocre: lo que se come, se bebe y se cuenta en dinero
+  Comida: "--ochre",
+  Cocina: "--ochre",
+  Dinero: "--ochre",
+  Empresas: "--ochre",
+  Especias: "--ochre",
+  // Verde: lo vivo
+  Plantas: "--sage",
+  Bichos: "--sage",
+  Cuerpo: "--sage",
+  Medicina: "--sage",
+  Bosques: "--sage",
+  Perros: "--sage",
+  // Ciruela: lo raro y lo que da miedo
+  Misterios: "--plum",
+  Crimen: "--plum",
+  Catástrofes: "--plum",
+  Creencias: "--plum",
+  Muerte: "--plum",
+  Venenos: "--plum",
+  // Pizarra: lo que se mide y lo que se fabrica
+  Ciencia: "--slate",
+  Tecnología: "--slate",
+  Objetos: "--slate",
+  Espacio: "--slate",
+  Cosmos: "--slate",
+  Matemáticas: "--slate",
+};
+
 function acentoDe(short: Short) {
   const t = short.categoria ?? "";
+  const puesto = COLOR_DEL_TEMA[t];
+  if (puesto) return `var(${puesto})`;
   let n = 0;
   for (let i = 0; i < t.length; i++) n = (n * 31 + t.charCodeAt(i)) >>> 0;
   return `var(${ACENTOS[n % ACENTOS.length]})`;
@@ -643,6 +688,12 @@ function Portada({ short }: { short: Short }) {
       </motion.p>
       <motion.p
         className="muro-entrada"
+        /* La capitular necesita empezar por letra. Hay entradas que abren con
+           una pregunta —«¿Por qué…»— y ahí la letra grande saldría con la
+           apertura de interrogación pegada, que queda mal. En esos casos no se
+           pone: es preferible una portada sin capitular que una con un signo
+           de tres centímetros. */
+        data-capitular={/^\s*[a-záéíóúüñ]/i.test(short.entrada) ? "si" : "no"}
         custom={3}
         variants={enterVariants}
         initial="hidden"

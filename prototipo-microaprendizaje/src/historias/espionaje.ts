@@ -59,7 +59,7 @@ export const ESPIONAJE: Short[] = [
     color: "var(--plum)",
     encargo: "Un maletín de cuero antiguo con una cadena y una esposa metálica atada al asa.",
     entrada:
-      "30 de abril de 1943, amanecer, aguas frente a la costa de Huelva. Un submarino británico emerge y su tripulación deposita en el mar el cuerpo de un hombre con uniforme de oficial de Marina, chaleco salvavidas y una cartera de cuero encadenada al cinturón. La marea lo lleva a la playa. Dentro de la cartera hay documentos secretos, y todos son falsos.",
+      "Aguas frente a la costa de Huelva, al amanecer del 30 de abril de 1943. Un submarino británico emerge y su tripulación deposita en el mar el cuerpo de un hombre con uniforme de oficial de Marina, chaleco salvavidas y una cartera de cuero encadenada al cinturón. La marea lo lleva a la playa. Dentro de la cartera hay documentos secretos, y todos son falsos.",
     paginas: [
       {
         rotulo: "El personaje",

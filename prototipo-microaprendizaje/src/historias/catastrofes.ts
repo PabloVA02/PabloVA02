@@ -66,7 +66,7 @@ export const CATASTROFES: Short[] = [
     },
     encargo: "El Titanic entero, atracado o zarpando, con las cuatro chimeneas.",
     entrada:
-      "23:39 del 14 de abril de 1912. El vigía Frederick Fleet ve una masa negra delante y toca la campana tres veces. Desde ese aviso hasta el impacto pasan unos treinta y siete segundos. En ese tiempo el oficial de guardia da la orden que cualquiera habría dado: todo a babor y máquinas atrás. Y ahí, en esa orden razonable, empieza lo peor de la noche.",
+      "Atlántico Norte, a las 23:39 del 14 de abril de 1912. El vigía Frederick Fleet ve una masa negra delante y toca la campana tres veces. Desde ese aviso hasta el impacto pasan unos treinta y siete segundos. En ese tiempo el oficial de guardia da la orden que cualquiera habría dado: todo a babor y máquinas atrás. Y ahí, en esa orden razonable, empieza lo peor de la noche.",
     paginas: [
       {
         rotulo: "El roce",
@@ -135,7 +135,7 @@ export const CATASTROFES: Short[] = [
     color: "var(--ochre)",
     encargo: "La nube de la explosión de Halifax de 1917, o la ciudad arrasada después.",
     entrada:
-      "6 de diciembre de 1917, puerto de Halifax, en Canadá. Europa lleva tres años en la Primera Guerra Mundial y por aquí salen los convoyes que la abastecen. Un carguero francés cargado hasta arriba de explosivos para el frente choca de refilón con un barco noruego en un canal estrecho. Del roce salta una chispa, y el barco más peligroso del Atlántico empieza a arder despacio, a la vista de todos.",
+      "Puerto de Halifax, en Canadá, el 6 de diciembre de 1917. Europa lleva tres años en la Primera Guerra Mundial y por aquí salen los convoyes que la abastecen. Un carguero francés cargado hasta arriba de explosivos para el frente choca de refilón con un barco noruego en un canal estrecho. Del roce salta una chispa, y el barco más peligroso del Atlántico empieza a arder despacio, a la vista de todos.",
     paginas: [
       {
         rotulo: "Todos a la ventana",
@@ -165,7 +165,7 @@ export const CATASTROFES: Short[] = [
     color: "var(--slate)",
     encargo: "La presa del Vajont hoy, intacta, con la cicatriz del monte Toc detrás.",
     entrada:
-      "9 de octubre de 1963, valle del Vajont, en los Alpes italianos. Allí acaba de levantarse la presa de bóveda más alta del mundo, doscientos sesenta metros de hormigón. Esa noche, a las diez y media, se desprende un trozo entero de la montaña vecina y cae dentro del embalse. La presa aguanta el golpe sin romperse y sigue hoy en pie, y aun así murieron unas dos mil personas.",
+      "Valle del Vajont, en los Alpes italianos, el 9 de octubre de 1963. Allí acaba de levantarse la presa de bóveda más alta del mundo, doscientos sesenta metros de hormigón. Esa noche, a las diez y media, se desprende un trozo entero de la montaña vecina y cae dentro del embalse. La presa aguanta el golpe sin romperse y sigue hoy en pie, y aun así murieron unas dos mil personas.",
     paginas: [
       {
         rotulo: "El monte que avisaba",
@@ -195,7 +195,7 @@ export const CATASTROFES: Short[] = [
     color: "var(--clay)",
     encargo: "Un Boeing 747 de los años setenta en pista, con niebla.",
     entrada:
-      "27 de marzo de 1977, aeropuerto de Tenerife, en las islas Canarias. Es un aeropuerto pequeño de montaña que aquella tarde está lleno de aviones enormes que no deberían estar ahí, porque un artefacto explosivo en la isla vecina ha obligado a desviar todo el tráfico. Dos aviones de pasajeros de los más grandes que existen esperan aparcados a que reabra el otro aeropuerto. Entonces baja la niebla.",
+      "Aeropuerto de Tenerife, en las islas Canarias, el 27 de marzo de 1977. Es un aeropuerto pequeño de montaña que aquella tarde está lleno de aviones enormes que no deberían estar ahí, porque un artefacto explosivo en la isla vecina ha obligado a desviar todo el tráfico. Dos aviones de pasajeros de los más grandes que existen esperan aparcados a que reabra el otro aeropuerto. Entonces baja la niebla.",
     paginas: [
       {
         rotulo: "Prisa y niebla",
@@ -224,7 +224,7 @@ export const CATASTROFES: Short[] = [
     color: "var(--plum)",
     encargo: "Litografía de la erupción del Krakatoa de 1883.",
     entrada:
-      "27 de agosto de 1883, en el estrecho que separa dos grandes islas de Indonesia. La isla volcánica de Krakatoa lleva meses inquieta y esa mañana se rompe del todo. Son cuatro explosiones enormes, y la última revienta el volcán y hunde buena parte de la isla bajo el mar. Aquello produce además el fenómeno acústico mejor documentado de la historia.",
+      "Estrecho entre dos grandes islas de Indonesia, el 27 de agosto de 1883. La isla volcánica de Krakatoa lleva meses inquieta y esa mañana se rompe del todo. Son cuatro explosiones enormes, y la última revienta el volcán y hunde buena parte de la isla bajo el mar. Aquello produce además el fenómeno acústico mejor documentado de la historia.",
     paginas: [
       {
         rotulo: "Cuatro mil ochocientos kilómetros",
@@ -254,7 +254,7 @@ export const CATASTROFES: Short[] = [
     color: "var(--ochre)",
     encargo: "El depósito reventado del North End de Boston tras la riada de melaza de 1919.",
     entrada:
-      "15 de enero de 1919, barrio del North End de Boston. Hace un día raro de invierno, casi cálido. En el muelle hay un depósito de acero de quince metros de alto con nueve millones de litros de melaza dentro. Con esa melaza se fabricaba ron y también alcohol industrial para explosivos. A mediodía, el depósito se abre con un ruido de ametralladora: son los remaches saltando.",
+      "Barrio del North End, en Boston, el 15 de enero de 1919. Hace un día raro de invierno, casi cálido. En el muelle hay un depósito de acero de quince metros de alto con nueve millones de litros de melaza dentro. Con esa melaza se fabricaba ron y también alcohol industrial para explosivos. A mediodía, el depósito se abre con un ruido de ametralladora: son los remaches saltando.",
     paginas: [
       {
         rotulo: "Nadie lo probó nunca",

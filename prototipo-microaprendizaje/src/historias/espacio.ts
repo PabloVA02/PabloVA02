@@ -22,7 +22,7 @@ export const ESPACIO: Short[] = [
     color: "var(--slate)",
     encargo: "Un módulo lunar posado sobre el polvo gris, con la sombra larga y el negro absoluto detrás.",
     entrada:
-      "20 de julio de 1969. Dos hombres bajan hacia la Luna dentro de una nave del tamaño de un coche pequeño, con paredes de aluminio tan finas que se abollarían con un dedo. Abajo les espera un terreno que nadie ha visto de cerca. Y arriba, en la sala de control de Houston, la edad media de los ingenieros es de veintiséis años.",
+      "Mar de la Tranquilidad, en la Luna, el 20 de julio de 1969. Dos hombres bajan hacia la Luna dentro de una nave del tamaño de un coche pequeño, con paredes de aluminio tan finas que se abollarían con un dedo. Abajo les espera un terreno que nadie ha visto de cerca. Y arriba, en la sala de control de Houston, la edad media de los ingenieros es de veintiséis años.",
     paginas: [
       {
         rotulo: "La alarma",

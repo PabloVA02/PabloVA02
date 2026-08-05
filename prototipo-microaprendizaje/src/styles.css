@@ -52,6 +52,14 @@
   --serifa: "Iowan Old Style", Charter, "Bitstream Charter", Georgia,
     "Noto Serif", "Times New Roman", serif;
 
+  /* Y una segunda serifa solo para los titulares. Iowan y Charter están hechas
+     para leer párrafos: son robustas y anchas, y en un titular quedan planas.
+     Hoefler Text y Baskerville tienen el trazo fino y el contraste alto, que es
+     lo que hace que un título de tres palabras parezca escrito y no compuesto.
+     Las dos vienen en iOS; fuera cae en Palatino o en Georgia, que sirven. */
+  --titular: "Hoefler Text", Baskerville, "Palatino Linotype", Palatino,
+    "Iowan Old Style", Georgia, "Noto Serif", serif;
+
   --radius-card: 26px;
   --shell-pad: 22px;
 
@@ -2404,11 +2412,11 @@ button {
 }
 
 .muro-hoja h2 {
-  font-family: var(--serifa);
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 1.14;
-  letter-spacing: -0.028em;
+  font-family: var(--titular);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.004em;
   color: var(--paper);
   text-wrap: balance;
 }
@@ -2433,6 +2441,22 @@ button {
   line-height: 1.54;
   color: rgba(242, 236, 225, 0.72);
   text-wrap: pretty;
+}
+
+/* La capitular: tres líneas de alto, con remates y en el color del tema.
+   Solo aquí, que es donde empieza algo. El `padding` de la derecha es lo que
+   separa la letra del texto que la rodea; sin él, la primera línea se pega.
+
+   Si la entrada empieza por número o por comilla —«1969, en la Luna…»— la
+   letra grande sale rara. Esos shorts se reescriben para que empiecen por
+   palabra, que es más fácil que hacerle una excepción a la regla. */
+.muro-entrada[data-capitular="si"]::first-letter {
+  float: left;
+  font-size: 46px;
+  line-height: 0.8;
+  font-weight: 600;
+  padding: 4px 8px 0 0;
+  color: var(--acento, var(--ochre));
 }
 
 .muro-entrada em { font-style: italic; }
@@ -2698,7 +2722,7 @@ button {
   height: 1px;
   border-radius: 999px;
   background: var(--acento, var(--ochre));
-  opacity: 0.5;
+  opacity: 0.26;
 }
 
 /* El número de página, grande y apagado: sitúa sin competir con el rótulo */
@@ -2737,7 +2761,7 @@ button {
   padding: 12px 15px;
   border-radius: 16px;
   background: rgba(242, 236, 225, 0.05);
-  border: 1px solid color-mix(in srgb, var(--acento, var(--ochre)) 32%, transparent);
+  border: 1px solid color-mix(in srgb, var(--acento, var(--ochre)) 24%, transparent);
 }
 
 /* La cifra y su unidad comparten línea. De pie ocupaban dos alturas, y encima
