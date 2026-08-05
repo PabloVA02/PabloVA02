@@ -21,7 +21,7 @@ export const FAROS_DE_COCHE: Short[] = [
     color: "var(--slate)",
     encargo: "Haz de un faro de cruce proyectado en una pared, con el corte horizontal marcado.",
     entrada:
-      "Estados Unidos, 1924. Los coches llevan ya faros eléctricos potentes y cada noche se producen accidentes porque los conductores se ciegan unos a otros. La solución que se impone es un faro con dos filamentos dentro de la misma bombilla. Uno alumbra lejos y el otro alumbra más abajo y más cerca, y un interruptor de pie decide cuál se enciende.",
+      "Estados Unidos, 1924. Los coches llevan ya faros eléctricos potentes y cada noche se producen accidentes porque los conductores se ciegan unos a otros. El problema no tiene una salida evidente: la misma luz que hace falta para ver la carretera es la que deslumbra al que viene de frente. Se prueba con cristales de colores y con rejillas delante, y todo eso quita tanta luz que no se ve nada. La solución que se impone es un faro con dos filamentos dentro de la misma bombilla. Uno alumbra lejos y el otro alumbra más abajo y más cerca, y un interruptor de pie decide cuál de los dos se enciende. Ese pedal sobrevivió en los coches hasta los años setenta.",
     paginas: [
       {
         rotulo: "El corte",

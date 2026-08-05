@@ -22,7 +22,7 @@ export const ESPACIO: Short[] = [
     color: "var(--slate)",
     encargo: "Un módulo lunar posado sobre el polvo gris, con la sombra larga y el negro absoluto detrás.",
     entrada:
-      "Mar de la Tranquilidad, en la Luna, el 20 de julio de 1969. Dos hombres bajan hacia la Luna dentro de una nave del tamaño de un coche pequeño, con paredes de aluminio tan finas que se abollarían con un dedo. Abajo les espera un terreno que nadie ha visto de cerca. Y arriba, en la sala de control de Houston, la edad media de los ingenieros es de veintiséis años.",
+      "Mar de la Tranquilidad, en la Luna, el 20 de julio de 1969. Dos hombres bajan hacia la superficie dentro de una nave del tamaño de un coche pequeño, con paredes de aluminio tan finas que se abollarían con un dedo. No hay manera de haber ensayado esto en la Tierra: la Luna no tiene aire, así que allí no sirven ni las alas ni los paracaídas y hay que frenar solo con el motor. Abajo les espera un terreno que nadie ha visto de cerca: las mejores fotos que existen lo enseñan desde tan lejos que una roca de dos metros no aparece. Y arriba, en la sala de control, la edad media de los ingenieros es de veintiséis años.",
     paginas: [
       {
         rotulo: "La alarma",
@@ -33,7 +33,7 @@ export const ESPACIO: Short[] = [
       {
         rotulo: "El pedregal",
         texto:
-          "Superada la alarma, apareció el problema de verdad. Por la ventanilla, el punto exacto donde iban a posarse resultó ser un cráter rodeado de rocas del tamaño de un coche. Aterrizar ahí significaba volcar. Armstrong tomó los mandos a mano, pasó de largo y voló en horizontal buscando un sitio liso, mientras el combustible bajaba y en Houston alguien cantaba en voz alta los segundos que quedaban. Se posaron sobre una llanura de polvo con reserva para <strong>25 segundos</strong> más de vuelo, y con el motor levantando una nube gris que no llegaba a asentarse porque allí no hay aire que la frene. En los ensayos, ningún piloto había apurado tanto.",
+          "Superada la alarma, apareció el problema de verdad. Por la ventanilla, el punto exacto donde iban a posarse resultó ser un cráter rodeado de rocas del tamaño de un coche. Aterrizar ahí significaba volcar. Armstrong tomó los mandos a mano, pasó de largo y voló en horizontal buscando un sitio liso, mientras el combustible bajaba y desde el control alguien cantaba en voz alta los segundos que quedaban. Se posaron sobre una llanura de polvo con reserva para <strong>25 segundos</strong> más de vuelo. El motor levantó una nube gris que no llegaba a asentarse, porque allí no hay aire que la frene. En los ensayos, ningún piloto había apurado tanto.",
         destacado: { tipo: "cifra", cifra: "25", unidad: "segundos de combustible sobraron" },
       },
       {

@@ -20,7 +20,7 @@ export const ESCALERAS_MECANICAS: Short[] = [
     color: "var(--clay)",
     encargo: "Rampa mecánica de listones de madera de 1896, con gente de época subida de pie.",
     entrada:
-      "Nueva York, 1896. En el parque de atracciones de Coney Island se instala un aparato nuevo que la gente paga por probar: una rampa inclinada que sube sola. No tiene escalones ni sirve para ir a ninguna parte, porque solo lleva a una plataforma y se vuelve a bajar. Durante dos semanas la usan setenta y cinco mil personas por pura diversión.",
+      "Nueva York, 1896. En el parque de atracciones de Coney Island se instala un aparato nuevo que la gente paga por probar: una rampa inclinada que sube sola. No tiene escalones ni sirve para ir a ninguna parte, porque solo lleva a una plataforma y se vuelve a bajar. La ciudad ya tiene ascensores en los edificios altos, pero un ascensor sube a doce personas cada vez y hay que esperarlo abajo. Esto no se espera: se pisa y ya está subiendo. Durante dos semanas la usan setenta y cinco mil personas por pura diversión. Pagan cinco centavos por subir a una plataforma y bajar andando, y nadie ve para qué sirve.",
     paginas: [
       {
         rotulo: "La rampa",

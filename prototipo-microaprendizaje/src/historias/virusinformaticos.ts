@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const VIRUS_INFORMATICOS: Short[] = [
   {
     id: "el-primer-gusano",
-    titulo: "Un experimento tumbó la mitad de internet",
+    titulo: "Un experimento tumbó internet",
     gancho: "Un estudiante quería medir cuántos ordenadores había conectados. Un error de cálculo colapsó la red entera.",
     categoria: "Tecnología",
     color: "var(--slate)",
     encargo: "Terminal de ordenador de 1988 con líneas de texto verde sobre fondo negro.",
     entrada:
-      "Estados Unidos, noviembre de 1988. Internet es todavía una red de universidades y centros militares con unos sesenta mil ordenadores conectados. Un estudiante de posgrado suelta un programa que se copia solo de máquina en máquina para contar cuántas hay. El programa lleva un error de cálculo en una sola decisión, y en pocas horas deja inservible una décima parte de la red.",
+      "Estados Unidos, noviembre de 1988. Internet es todavía una red de universidades y centros militares con unos sesenta mil ordenadores conectados. No hay contraseñas serias ni programas que vigilen nada, porque a nadie se le ha ocurrido que el ataque pueda venir de dentro. Los administradores se conocen entre ellos y se llaman por teléfono cuando falla algo. Un estudiante de posgrado suelta un programa que se copia solo de máquina en máquina para contar cuántas hay. El programa lleva un error de cálculo en una sola decisión, y en pocas horas deja inservible una décima parte de la red.",
     paginas: [
       {
         rotulo: "Copiarse solo",
@@ -44,7 +44,7 @@ export const VIRUS_INFORMATICOS: Short[] = [
   },
   {
     id: "el-virus-que-pedia-rescate",
-    titulo: "El primer secuestro de datos se mandó por correo",
+    titulo: "El rescate llegó por correo",
     gancho: "Veinte mil disquetes repartidos por correo postal en 1989, con un programa que escondía el disco y pedía dinero.",
     categoria: "Tecnología",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const VIRUS_INFORMATICOS: Short[] = [
   },
   {
     id: "por-que-se-llaman-virus",
-    titulo: "Se llaman virus por una razón biológica",
+    titulo: "Se llaman virus con razón",
     gancho: "No es una metáfora perezosa. Un virus informático hace exactamente lo mismo que uno biológico, paso por paso.",
     categoria: "Ciencia",
     color: "var(--plum)",

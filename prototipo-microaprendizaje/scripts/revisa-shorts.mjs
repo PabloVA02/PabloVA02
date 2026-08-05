@@ -5,8 +5,13 @@ import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 const DIR = "src/historias";
-const ficheros = process.argv.slice(2).length
-  ? process.argv.slice(2)
+/* --flojos enseña además el trabajo pendiente de las tandas viejas: las
+   entradas cortas que dejan hueco al final de la portada. */
+const args = process.argv.slice(2);
+const verFlojos = args.includes("--flojos");
+const sueltos = args.filter((a) => a !== "--flojos");
+const ficheros = sueltos.length
+  ? sueltos
   : readdirSync(DIR).filter((f) => f.endsWith(".ts")).map((f) => join(DIR, f));
 
 const palabras = (t) => (t.replace(/<[^>]+>/g, "").match(/\S+/g) ?? []).length;
@@ -64,8 +69,13 @@ const CONOCIDOS = new Set([
 ]);
 
 let fallos = 0;
+let flojos = 0;
 let total = 0;
 const aviso = (id, texto) => { console.log(`  ✗ ${id}: ${texto}`); fallos++; };
+/* Un aviso flojo no tumba el validador: señala trabajo pendiente de las tandas
+   viejas, no un error de la tanda que se acaba de escribir. Sale solo si se
+   pide con --flojos, para que el recuento de siempre siga limpio. */
+const flojo = (id, texto) => { if (verFlojos) console.log(`  · ${id}: ${texto}`); flojos++; };
 
 for (const ruta of ficheros) {
   const s = readFileSync(ruta, "utf8");
@@ -83,13 +93,24 @@ for (const ruta of ficheros) {
 
     const entrada = /entrada:\n\s+"((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
     const ne = palabras(entrada);
-    /* La entrada creció. Pablo leyó una portada y dijo que la introducción se
-       quedaba corta, y tenía razón: la entrada iba de 53 a 72 palabras y cada
-       página va de 90 a 116, así que la primera pantalla pesaba la mitad que
-       las otras tres. La medida nueva es 85-110. El mínimo se deja en 53 para
-       que los shorts escritos antes del cambio no revienten el validador de
-       golpe; se van subiendo en la pasada de revisión. */
-    if (ne < 53 || ne > 115) aviso(id, `entrada de ${ne} palabras (unas 100)`);
+    /* La entrada mide unas 100 palabras, y esto no es una cifra de gusto: es
+       lo que hace falta para que el texto llegue abajo con el mismo margen
+       que arriba. Medido en pantalla, con 100 palabras sobran 37 puntos bajo
+       el texto —el margen— y con 62 sobran 199, que son seis líneas de aire.
+       Pablo lo vio de un vistazo: «no ajustas bien el margen de abajo».
+
+       El número exacto no es el mismo para todos, y esto importa: depende de
+       si el título cabe en una línea o parte en dos, y de lo largas que sean
+       las palabras. Medido, el margen bueno sale con 100 palabras cuando el
+       título ocupa dos líneas y con 120 cuando ocupa una. Así que la regla de
+       verdad es «que el texto llegue abajo dejando una línea», y la horquilla
+       de aquí solo caza los que se pasan de largo o se quedan muy cortos.
+
+       El suelo se deja en 53 para que los 756 shorts escritos con la medida
+       vieja no revienten el validador de golpe. Se van subiendo por tandas, y
+       cuando no quede ninguno corto el suelo sube a 92. */
+    if (ne < 53 || ne > 128) aviso(id, `entrada de ${ne} palabras (100-125)`);
+    if (ne >= 53 && ne < 92) flojo(id, `entrada de ${ne} palabras: deja hueco abajo (unas 100)`);
 
     const paginas = [...b.matchAll(/rotulo: "([^"]*)",\n\s+texto:\n\s+"((?:[^"\\]|\\.)*)"/g)];
 
@@ -188,5 +209,5 @@ for (const ruta of ficheros) {
   }
 }
 
-console.log(`\n${total} shorts revisados · ${fallos} avisos`);
+console.log(`\n${total} shorts revisados · ${fallos} avisos` + (flojos ? ` · ${flojos} entradas cortas` : ""));
 process.exit(fallos ? 1 : 0);

@@ -24,7 +24,7 @@ export const LIMPIAPARABRISAS: Short[] = [
     color: "var(--plum)",
     encargo: "Una palanca de laton dentro de un coche antiguo, unida a un brazo por fuera del cristal.",
     entrada:
-      "Nueva York, invierno de 1902. El automóvil lleva quince años vendiéndose y empieza a llevar delante un cristal, el parabrisas, que corta el viento en la cara. Ese cristal trae un problema que no tenía el coche de caballos: en cuanto nieva o llueve se ciega y no se ve la calle. La única salida es parar, bajarse y limpiarlo con la mano cada pocas manzanas.",
+      "Nueva York, invierno de 1902. El automóvil lleva quince años vendiéndose y empieza a llevar delante un cristal, el parabrisas, que corta el viento en la cara. Ese cristal trae un problema que no tenía el coche de caballos: en cuanto nieva o llueve se ciega y no se ve la calle. Los conductores prueban de todo. Hay quien lo unta con media cebolla, porque el jugo hace que el agua resbale, y quien conduce asomado por el lateral. La única salida de verdad es parar, bajarse y limpiarlo con la mano cada pocas manzanas. En una nevada de las de aquella ciudad, eso son varias paradas por calle y las manos moradas de frío.",
     paginas: [
       {
         rotulo: "El tranvía",
