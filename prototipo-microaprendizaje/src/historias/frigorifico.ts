@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const FRIGORIFICO: Short[] = [
   {
     id: "neveras-que-mataban",
-    titulo: "Las primeras neveras mataban familias enteras",
+    titulo: "Las primeras neveras mataban",
     gancho: "Enfriaban con gases tóxicos y una fuga de noche podía acabar con toda la casa dormida.",
     categoria: "Frigorífico",
     color: "var(--slate)",
@@ -48,7 +48,7 @@ export const FRIGORIFICO: Short[] = [
 
   {
     id: "agujero-de-ozono",
-    titulo: "El agujero de ozono se está cerrando",
+    titulo: "El agujero de ozono se cierra",
     gancho: "Es el único problema ambiental global que se ha resuelto, y el tratado se firmó en dos años.",
     categoria: "Frigorífico",
     color: "var(--ochre)",
@@ -78,7 +78,7 @@ export const FRIGORIFICO: Short[] = [
 
   {
     id: "cadena-de-frio",
-    titulo: "El frigorífico cambió lo que comemos",
+    titulo: "La nevera cambió lo que comemos",
     gancho: "Antes había que comprar cada día. Con nevera en casa apareció la compra semanal.",
     categoria: "Frigorífico",
     color: "var(--clay)",

@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const ESPECIAS: Short[] = [
   {
     id: "isla-por-manhattan",
-    titulo: "Cambiaron Manhattan por una isla de especias",
+    titulo: "Cambiaron Manhattan por una isla",
     gancho: "En 1667 pareció un negocio excelente. La isla medía tres kilómetros y tenía nuez moscada.",
     categoria: "Especias",
     color: "var(--ochre)",
@@ -48,7 +48,7 @@ export const ESPECIAS: Short[] = [
 
   {
     id: "mito-carne-podrida",
-    titulo: "Las especias no servían para tapar carne podrida",
+    titulo: "No servían para tapar la podredumbre",
     gancho: "Quien podía pagar pimienta podía pagar carne fresca. El mito lo inventaron en el siglo XIX.",
     categoria: "Especias",
     color: "var(--clay)",

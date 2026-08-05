@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const FARAONES: Short[] = [
   {
     id: "constructores-piramides",
-    titulo: "Las pirámides no las levantaron esclavos",
+    titulo: "Las pirámides no las hicieron esclavos",
     gancho: "Se ha excavado el poblado de los obreros: cobraban en pan y cerveza y tenían médicos.",
     categoria: "Faraones",
     color: "var(--ochre)",
@@ -48,7 +48,7 @@ export const FARAONES: Short[] = [
 
   {
     id: "faraona-borrada",
-    titulo: "Un faraón borró a su antecesora de los muros",
+    titulo: "Borró a su antecesora",
     gancho: "Reinó veintidós años y después alguien picó su nombre de cada monumento del país.",
     categoria: "Faraones",
     color: "var(--slate)",
@@ -78,7 +78,7 @@ export const FARAONES: Short[] = [
 
   {
     id: "maldicion-inventada",
-    titulo: "La maldición de la momia la inventó la prensa",
+    titulo: "La maldición la inventó la prensa",
     gancho: "Un periódico tenía la exclusiva y los demás necesitaban llenar páginas. Se inventaron una amenaza.",
     categoria: "Faraones",
     color: "var(--plum)",

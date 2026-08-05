@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const FOTOGRAFIA: Short[] = [
   {
     id: "primera-foto",
-    titulo: "La primera fotografía tardó ocho horas en hacerse",
+    titulo: "La primera foto tardó ocho horas",
     gancho: "El sol cruzó el cielo mientras se tomaba, así que en la imagen los dos lados están iluminados.",
     categoria: "Fotografía",
     color: "var(--ochre)",
@@ -50,7 +50,7 @@ export const FOTOGRAFIA: Short[] = [
 
   {
     id: "canica-azul",
-    titulo: "La Tierra entera se ha fotografiado una vez",
+    titulo: "La Tierra entera, una sola vez",
     gancho: "Hizo falta que la nave estuviera entre el Sol y el planeta. Solo ha ocurrido en un vuelo tripulado.",
     categoria: "Fotografía",
     color: "var(--slate)",
@@ -80,7 +80,7 @@ export const FOTOGRAFIA: Short[] = [
 
   {
     id: "hadas-recortadas",
-    titulo: "Dos niñas engañaron a media Inglaterra con recortes",
+    titulo: "Dos niñas engañaron a Inglaterra",
     gancho: "Fotografiaron hadas de cartón sujetas con alfileres. Un escritor famosísimo las defendió hasta morir.",
     categoria: "Fotografía",
     color: "var(--plum)",

@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const ESPANA: Short[] = [
   {
     id: "hora-espana",
-    titulo: "España vive en la hora que no le toca",
+    titulo: "España vive en la hora equivocada",
     gancho: "Por geografía nos corresponde la hora de Londres. Tenemos la de Berlín desde 1940 y nadie la ha cambiado.",
     categoria: "España",
     color: "var(--ochre)",
@@ -49,7 +49,7 @@ export const ESPANA: Short[] = [
 
   {
     id: "himno-sin-letra",
-    titulo: "El himno de España no tiene letra",
+    titulo: "El himno no tiene letra",
     gancho: "Es uno de los cuatro del mundo sin palabras. Se ha intentado ponérselas al menos cinco veces.",
     categoria: "España",
     color: "var(--clay)",
@@ -80,7 +80,7 @@ export const ESPANA: Short[] = [
 
   {
     id: "elcano",
-    titulo: "Elcano dio la vuelta al mundo, no Magallanes",
+    titulo: "La vuelta la dio otro",
     gancho: "Magallanes murió a mitad de camino. Volvieron dieciocho hombres de doscientos cuarenta, en un barco que hacía agua.",
     categoria: "España",
     color: "var(--slate)",
@@ -109,7 +109,7 @@ export const ESPANA: Short[] = [
   },
   {
     id: "guernica-vuelta",
-    titulo: "El Guernica estuvo cuarenta y cuatro años fuera",
+    titulo: "El Guernica tardó cuarenta años",
     gancho: "Su autor dejó dicho que no volvería a España mientras no hubiera libertades. Se cumplió.",
     categoria: "España",
     color: "var(--slate)",
@@ -139,7 +139,7 @@ export const ESPANA: Short[] = [
 
   {
     id: "gripe-espanola",
-    titulo: "La gripe española ni empezó ni fue peor aquí",
+    titulo: "La gripe española no era española",
     gancho: "Se llamó así porque España era el único país que no censuraba a sus periódicos.",
     categoria: "España",
     color: "var(--forest)",
@@ -170,7 +170,7 @@ export const ESPANA: Short[] = [
 
   {
     id: "colon-asia",
-    titulo: "Colón murió creyendo que había llegado a Asia",
+    titulo: "Murió creyendo que era Asia",
     gancho: "Hizo cuatro viajes y en los cuatro siguió buscando China. Obligó a su tripulación a firmarlo.",
     categoria: "España",
     color: "var(--ochre)",

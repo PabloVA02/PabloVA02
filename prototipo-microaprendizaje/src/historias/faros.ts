@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const FAROS: Short[] = [
   {
     id: "eddystone",
-    titulo: "El faro que se llevó a su constructor",
+    titulo: "El faro se llevó a su constructor",
     gancho: "Decía que quería estar dentro en la peor tormenta posible. La tuvo, y no apareció ni una tabla.",
     categoria: "Faros",
     color: "var(--slate)",
@@ -49,7 +49,7 @@ export const FAROS: Short[] = [
 
   {
     id: "lente-fresnel",
-    titulo: "Una lente de anillos triplicó el alcance",
+    titulo: "Una lente de anillos triplicó todo",
     gancho: "Antes, un faro se veía a ocho kilómetros. Con aquel cristal escalonado, a más de treinta.",
     categoria: "Faros",
     color: "var(--ochre)",
@@ -79,7 +79,7 @@ export const FAROS: Short[] = [
 
   {
     id: "tres-fareros",
-    titulo: "Por eso los faros tenían tres fareros",
+    titulo: "Por qué siempre eran tres fareros",
     gancho: "Dos hombres solos en una roca. Uno murió, y el otro pasó cuatro meses con el cuerpo fuera.",
     categoria: "Faros",
     color: "var(--plum)",

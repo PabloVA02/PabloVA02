@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const ESPIONAJE: Short[] = [
   {
     id: "sello-theremin",
-    titulo: "Un micrófono sin pilas escuchó siete años",
+    titulo: "Un micrófono sin pilas, siete años",
     gancho: "Iba dentro de un regalo colgado en la pared del embajador. No tenía nada que detectar.",
     categoria: "Espionaje",
     color: "var(--slate)",
@@ -53,7 +53,7 @@ export const ESPIONAJE: Short[] = [
 
   {
     id: "mincemeat",
-    titulo: "Un cadáver con documentos falsos engañó a Hitler",
+    titulo: "Un cadáver engañó a Hitler",
     gancho: "Lo soltó un submarino frente a Huelva con una cartera esposada a la muñeca.",
     categoria: "Espionaje",
     color: "var(--plum)",
@@ -86,7 +86,7 @@ export const ESPIONAJE: Short[] = [
 
   {
     id: "emisoras-numeros",
-    titulo: "Hay emisoras que solo dictan números, y siguen",
+    titulo: "Emisoras que solo dictan números",
     gancho: "Una lleva desde los años ochenta emitiendo un zumbido en la misma frecuencia.",
     categoria: "Espionaje",
     color: "var(--clay)",

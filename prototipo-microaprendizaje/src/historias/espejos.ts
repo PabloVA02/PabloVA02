@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const ESPEJOS: Short[] = [
   {
     id: "espejo-de-metal",
-    titulo: "Durante milenios el espejo fue metal pulido",
+    titulo: "El espejo era metal pulido",
     gancho: "Bronce o plata bruñidos a mano, una imagen oscura y deformada, y un precio de joya.",
     categoria: "Espejos",
     color: "var(--slate)",
@@ -49,7 +49,7 @@ export const ESPEJOS: Short[] = [
 
   {
     id: "test-del-espejo",
-    titulo: "Muy pocos animales se reconocen en un espejo",
+    titulo: "Casi ningún animal se reconoce",
     gancho: "Se les pinta una marca en la frente mientras duermen y se mira si se la tocan al verse.",
     categoria: "Espejos",
     color: "var(--ochre)",
@@ -80,7 +80,7 @@ export const ESPEJOS: Short[] = [
 
   {
     id: "espejo-no-invierte",
-    titulo: "El espejo no invierte la izquierda y la derecha",
+    titulo: "El espejo no cambia los lados",
     gancho: "Invierte el delante y el detrás. Lo demás lo pones tú al darte la vuelta mentalmente.",
     categoria: "Espejos",
     color: "var(--plum)",
