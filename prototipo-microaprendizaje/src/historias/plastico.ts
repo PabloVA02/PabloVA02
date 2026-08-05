@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const PLASTICO: Short[] = [
   {
     id: "bolas-de-billar",
-    titulo: "El primer plástico se hizo para salvar elefantes",
+    titulo: "Se inventó para salvar elefantes",
     gancho: "Las bolas de billar se hacían de marfil y se acababan los colmillos. Ofrecieron un premio.",
     categoria: "Plástico",
     color: "var(--ochre)",
@@ -79,7 +79,7 @@ export const PLASTICO: Short[] = [
 
   {
     id: "tupperware",
-    titulo: "El táper no se vendió en las tiendas",
+    titulo: "El táper no se vendía",
     gancho: "El cierre era genial y nadie lo compraba, porque en la tienda nadie te enseñaba a cerrarlo.",
     categoria: "Plástico",
     color: "var(--plum)",

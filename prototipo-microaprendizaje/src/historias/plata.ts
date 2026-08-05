@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const PLATA: Short[] = [
   {
     id: "la-montana-de-plata",
-    titulo: "Un cerro dio la mitad de la plata mundial",
+    titulo: "El cerro que pagó Europa",
     gancho: "De un cerro cónico de los Andes salió durante dos siglos el metal que pagaba las guerras de Europa.",
     categoria: "Plata",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const PLATA: Short[] = [
   },
   {
     id: "el-galeon-de-manila",
-    titulo: "Una línea de barcos unió América con Asia",
+    titulo: "Plata de ida, seda de vuelta",
     gancho: "Doscientos cincuenta años de travesías con plata en un sentido y seda en el otro. Fue el primer comercio global.",
     categoria: "Plata",
     color: "var(--ochre)",
@@ -74,7 +74,7 @@ export const PLATA: Short[] = [
   },
   {
     id: "la-plata-se-pone-negra",
-    titulo: "La plata se ennegrece por culpa de los huevos",
+    titulo: "La plata se ennegrece por azufre",
     gancho: "No es suciedad ni óxido: es azufre. Y de ahí viene la leyenda de que detecta venenos.",
     categoria: "Plata",
     color: "var(--plum)",

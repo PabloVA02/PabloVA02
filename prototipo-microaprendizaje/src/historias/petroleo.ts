@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const PETROLEO: Short[] = [
   {
     id: "primer-pozo",
-    titulo: "El primer pozo de petróleo era para lámparas",
+    titulo: "El primer pozo era para lámparas",
     gancho: "Se perforó para sacar aceite de alumbrado. La gasolina era un residuo que se tiraba al río.",
     categoria: "Petróleo",
     color: "var(--slate)",
@@ -48,7 +48,7 @@ export const PETROLEO: Short[] = [
 
   {
     id: "crisis-del-petroleo",
-    titulo: "Una crisis del petróleo cambió los domingos",
+    titulo: "El domingo sin coches",
     gancho: "Hubo países que prohibieron circular en coche un día a la semana y adelantaron los relojes.",
     categoria: "Petróleo",
     color: "var(--clay)",
@@ -78,7 +78,7 @@ export const PETROLEO: Short[] = [
 
   {
     id: "petroleo-que-se-acaba",
-    titulo: "Llevan un siglo diciendo que el petróleo se acaba",
+    titulo: "Un siglo diciendo que se acaba",
     gancho: "En 1919 se anunció que quedaba para nueve años. La fecha se ha ido moviendo desde entonces.",
     categoria: "Petróleo",
     color: "var(--plum)",

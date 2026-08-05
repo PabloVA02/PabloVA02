@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const PEREGRINOS: Short[] = [
   {
     id: "la-primera-guia-de-viaje",
-    titulo: "La primera guía de viaje avisaba del agua mala",
+    titulo: "La guía que avisaba del agua",
     gancho: "Siglo XII: qué ríos matan al caballo, qué posaderos engañan y cuántos días hay de etapa en etapa.",
     categoria: "Peregrinos",
     color: "var(--ochre)",
@@ -76,7 +76,7 @@ export const PEREGRINOS: Short[] = [
   },
   {
     id: "condenados-a-peregrinar",
-    titulo: "Hubo jueces que condenaban a hacer el camino",
+    titulo: "Condenado a andar mil kilómetros",
     gancho: "En lugar de cárcel o multa: andar mil kilómetros y volver con la prueba sellada.",
     categoria: "Peregrinos",
     color: "var(--plum)",

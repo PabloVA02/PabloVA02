@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const PERIODICOS: Short[] = [
   {
     id: "bulo-de-la-luna",
-    titulo: "Un periódico contó que había hombres murciélago",
+    titulo: "Hombres murciélago en la Luna",
     gancho: "En 1835 publicó seis entregas sobre la vida en la Luna y se convirtió en el diario más vendido.",
     categoria: "Periódicos",
     color: "var(--plum)",
@@ -79,7 +79,7 @@ export const PERIODICOS: Short[] = [
 
   {
     id: "maquina-de-lineas",
-    titulo: "Una máquina hizo el periódico cuatro veces más rápido",
+    titulo: "Se acabó poner letras a mano",
     gancho: "Antes, un hombre colocaba las letras a mano una por una. Un diario grande empleaba a cientos.",
     categoria: "Periódicos",
     color: "var(--ochre)",

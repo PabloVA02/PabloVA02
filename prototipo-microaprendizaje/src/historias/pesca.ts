@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const PESCA: Short[] = [
   {
     id: "el-bacalao-que-cruzo-el-oceano",
-    titulo: "El bacalao seco permitió cruzar el Atlántico",
+    titulo: "El bacalao cruzó el Atlántico",
     gancho: "Aguantaba años sin estropearse y pesaba poco. Era la comida que hacía posible un viaje sin escalas.",
     categoria: "Pesca",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const PESCA: Short[] = [
   },
   {
     id: "la-primera-queja-por-el-arrastre",
-    titulo: "En 1376 ya se protestó contra el arrastre",
+    titulo: "Protestaban contra el arrastre en 1376",
     gancho: "Unos pescadores pidieron al rey que prohibiera una red nueva. Decían que arrasaba el fondo del mar.",
     categoria: "Pesca",
     color: "var(--ochre)",
@@ -75,7 +75,7 @@ export const PESCA: Short[] = [
   },
   {
     id: "el-bacalao-que-no-volvio",
-    titulo: "Un caladero infinito se vació en veinte años",
+    titulo: "El caladero infinito se vació",
     gancho: "Se pescó allí quinientos años. En 1992 se cerró de golpe y dejó a treinta mil personas sin trabajo.",
     categoria: "Pesca",
     color: "var(--plum)",

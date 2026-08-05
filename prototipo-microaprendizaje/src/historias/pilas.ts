@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const PILAS: Short[] = [
   {
     id: "por-que-se-gasta-una-pila",
-    titulo: "Una pila no se queda sin electricidad",
+    titulo: "Una pila no guarda electricidad",
     gancho: "No guarda electricidad dentro. Guarda dos materiales que quieren reaccionar, y se acaba cuando uno se consume.",
     categoria: "Ciencia",
     color: "var(--ochre)",
@@ -44,7 +44,7 @@ export const PILAS: Short[] = [
   },
   {
     id: "la-bateria-de-litio",
-    titulo: "La batería de litio arde por dentro",
+    titulo: "Arde por dentro",
     gancho: "Cuando falla, la reacción se calienta a sí misma y ya no hay manera de pararla desde fuera.",
     categoria: "Tecnología",
     color: "var(--slate)",
@@ -73,7 +73,7 @@ export const PILAS: Short[] = [
   },
   {
     id: "las-pilas-en-la-basura",
-    titulo: "Una pila en la basura contamina mucha agua",
+    titulo: "El mito caducado, el problema no",
     gancho: "La cifra que se repite está caducada y el problema sigue siendo real. Lo que falla no es el mito: es la recogida.",
     categoria: "Ciencia",
     color: "var(--plum)",

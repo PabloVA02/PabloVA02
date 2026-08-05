@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const POLITICA: Short[] = [
   {
     id: "muro-berlin",
-    titulo: "El Muro cayó por una nota mal leída",
+    titulo: "El Muro cayó por leer mal",
     gancho: "Un portavoz leyó un papel que no había leído antes y le preguntaron desde cuándo valía.",
     categoria: "Política",
     color: "var(--slate)",
@@ -50,7 +50,7 @@ export const POLITICA: Short[] = [
 
   {
     id: "watergate",
-    titulo: "A un presidente lo tumbó una cinta adhesiva",
+    titulo: "Lo tumbó una cinta adhesiva",
     gancho: "Un vigilante de veinticuatro años vio un pestillo tapado, lo destapó, y a la vuelta estaba tapado otra vez.",
     categoria: "Política",
     color: "var(--clay)",
@@ -80,7 +80,7 @@ export const POLITICA: Short[] = [
 
   {
     id: "voto-mujeres-espana",
-    titulo: "El voto femenino lo defendió una sola diputada",
+    titulo: "Ganó el voto, perdió el escaño",
     gancho: "Las dos únicas mujeres del Congreso discutieron entre ellas. Ganó la que lo defendía, y perdió el escaño.",
     categoria: "Política",
     color: "var(--plum)",

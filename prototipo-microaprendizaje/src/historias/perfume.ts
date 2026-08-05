@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const PERFUME: Short[] = [
   {
     id: "perfume-numero-cinco",
-    titulo: "El perfume más vendido salió de un error",
+    titulo: "Salió de un error de dosis",
     gancho: "Un ayudante se pasó con la dosis de un ingrediente nuevo, y se quedó esa muestra.",
     categoria: "Perfume",
     color: "var(--ochre)",
@@ -50,7 +50,7 @@ export const PERFUME: Short[] = [
 
   {
     id: "ambar-gris",
-    titulo: "En la playa aparecen piedras que valen fortunas",
+    titulo: "Piedras de playa que valen fortunas",
     gancho: "Una masa cerosa que huele a establo y que después de años en el mar huele a otra cosa.",
     categoria: "Perfume",
     color: "var(--slate)",
@@ -81,7 +81,7 @@ export const PERFUME: Short[] = [
 
   {
     id: "olor-sin-patente",
-    titulo: "Un olor no se puede registrar como marca",
+    titulo: "Un olor no se puede registrar",
     gancho: "Copiar un perfume caro es legal mientras no copies el nombre ni el frasco. Y se hace en serie.",
     categoria: "Perfume",
     color: "var(--plum)",

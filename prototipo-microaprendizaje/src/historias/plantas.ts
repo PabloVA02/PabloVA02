@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const PLANTAS: Short[] = [
   {
     id: "arboles-se-avisan",
-    titulo: "Las acacias avisan y los kudús se envenenan",
+    titulo: "Las acacias se avisan entre ellas",
     gancho: "Murieron tres mil antílopes en granjas sudafricanas y las culpables eran las hojas.",
     categoria: "Plantas",
     color: "var(--sage)",
@@ -53,7 +53,7 @@ export const PLANTAS: Short[] = [
 
   {
     id: "platano-clon",
-    titulo: "Todos los plátanos que comes son el mismo plátano",
+    titulo: "Todos los plátanos son el mismo",
     gancho: "Genéticamente idénticos, sin semillas, y ya perdimos una variedad entera así.",
     categoria: "Plantas",
     color: "var(--ochre)",
@@ -86,7 +86,7 @@ export const PLANTAS: Short[] = [
 
   {
     id: "pando-arbol",
-    titulo: "Un bosque entero que es un solo árbol",
+    titulo: "Un bosque que es un árbol",
     gancho: "Cuarenta y siete mil troncos en Utah comparten raíz y son el mismo individuo.",
     categoria: "Plantas",
     color: "var(--clay)",

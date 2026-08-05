@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const PERROS: Short[] = [
   {
     id: "zorros-de-siberia",
-    titulo: "Un experimento con zorros explicó a los perros",
+    titulo: "Unos zorros explicaron al perro",
     gancho: "Seleccionaron solo por mansedumbre y salieron orejas caídas, colas curvadas y manchas blancas.",
     categoria: "Perros",
     color: "var(--ochre)",
@@ -48,7 +48,7 @@ export const PERROS: Short[] = [
 
   {
     id: "razas-de-concurso",
-    titulo: "Casi todas las razas de perro son recientes",
+    titulo: "Casi ninguna raza es antigua",
     gancho: "Se fijaron en concursos del siglo XIX. Antes había perros de oficio, no razas cerradas.",
     categoria: "Perros",
     color: "var(--slate)",
@@ -79,7 +79,7 @@ export const PERROS: Short[] = [
 
   {
     id: "gato-del-granero",
-    titulo: "El gato se domesticó solo en los graneros",
+    titulo: "El gato se domesticó solo",
     gancho: "Llegó detrás de los ratones que llegaron detrás del grano, y apenas ha cambiado desde entonces.",
     categoria: "Perros",
     color: "var(--plum)",

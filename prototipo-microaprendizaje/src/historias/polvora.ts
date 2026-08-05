@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const POLVORA: Short[] = [
   {
     id: "polvora-inmortalidad",
-    titulo: "La pólvora se inventó buscando la inmortalidad",
+    titulo: "Buscaban la inmortalidad",
     gancho: "Unos alquimistas mezclaban ingredientes para vivir eternamente y les ardió el laboratorio.",
     categoria: "Pólvora",
     color: "var(--clay)",
@@ -48,7 +48,7 @@ export const POLVORA: Short[] = [
 
   {
     id: "fuegos-de-color",
-    titulo: "Los fuegos artificiales fueron naranjas mil años",
+    titulo: "Mil años de fuegos amarillentos",
     gancho: "El color viene de sales metálicas, y hasta 1830 solo se sabían hacer chispas amarillentas.",
     categoria: "Pólvora",
     color: "var(--plum)",
@@ -79,7 +79,7 @@ export const POLVORA: Short[] = [
 
   {
     id: "esquela-equivocada",
-    titulo: "Leyó su propia esquela y cambió el testamento",
+    titulo: "Leyó su propia esquela",
     gancho: "Un periódico lo dio por muerto por error y lo llamó mercader de la muerte.",
     categoria: "Pólvora",
     color: "var(--slate)",
