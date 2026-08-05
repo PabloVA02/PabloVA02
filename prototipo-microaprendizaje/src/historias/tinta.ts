@@ -16,13 +16,13 @@ import type { Short } from "../shorts";
 export const TINTA: Short[] = [
   {
     id: "la-tinta-que-se-come-el-papel",
-    titulo: "La tinta de los manuscritos se come el papel",
+    titulo: "La tinta se come el papel",
     gancho: "Durante mil cuatrocientos años se escribió en Europa con una tinta ácida. Hoy los archiveros pelean contra los agujeros que va dejando.",
     categoria: "Historia",
     color: "var(--clay)",
     encargo: "Página de manuscrito antiguo con el papel oscurecido y perforado alrededor de las letras.",
     entrada:
-      "Europa, del siglo V al XIX. Durante mil cuatrocientos años, casi todo lo que se escribió en el continente se escribió con la misma tinta, hecha con unas bolas que crecen en las hojas del roble. Era negra, barata y no se borraba, que era exactamente lo que hacía falta. Su defecto tardó siglos en aparecer: se está comiendo los documentos desde dentro.",
+      "Europa, del siglo V al XIX. Durante mil cuatrocientos años, casi todo lo que se escribió en el continente se escribió con la misma tinta, hecha con unas bolas que crecen en las hojas del roble. Era negra, barata y no se borraba, que era exactamente lo que hacía falta cuando un documento tenía que aguantar generaciones. Con ella están escritos los evangelios copiados a mano, las cuentas de los reinos y las partituras de Bach. Su defecto tardó siglos en aparecer y hoy no tiene marcha atrás. Esa tinta se está comiendo los documentos desde dentro, letra por letra, y en los archivos hay hojas donde el texto ha caído literalmente al suelo.",
     paginas: [
       {
         rotulo: "Bolas de roble",
@@ -45,7 +45,7 @@ export const TINTA: Short[] = [
   },
   {
     id: "la-tinta-del-boligrafo",
-    titulo: "El bolígrafo necesitó inventar una tinta nueva",
+    titulo: "Una bola necesita tinta espesa",
     gancho: "La pluma escribe con tinta líquida que corre sola por el plumín. Una bola que gira necesita algo mucho más espeso.",
     categoria: "Objetos",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const TINTA: Short[] = [
   },
   {
     id: "la-tinta-de-los-billetes",
-    titulo: "El billete lleva una tinta que cambia de color",
+    titulo: "La tinta que cambia de color",
     gancho: "No es un truco del papel. Son escamas metálicas que devuelven un color distinto según el ángulo desde el que se miran.",
     categoria: "Tecnología",
     color: "var(--plum)",

@@ -19,19 +19,19 @@ import type { Short } from "../shorts";
 export const ROPA: Short[] = [
   {
     id: "boton-ojal",
-    titulo: "El botón es más viejo que el ojal",
+    titulo: "El botón antes que el ojal",
     gancho: "Durante treinta siglos fue un adorno cosido a la tela. A nadie se le ocurrió abrir un agujero enfrente.",
     categoria: "Ropa",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un puñado de botones antiguos de nácar y hueso sobre un paño oscuro.",
     entrada:
-      "Los botones más antiguos que se conocen aparecieron en el valle del Indo, en el actual Pakistán, hace unos cinco mil años, y estaban tallados en concha. No servían para abrochar nada: eran adorno, se cosían encima de la tela y ahí se quedaban. La idea de hacerle un agujero al tejido para meterlos por él tardó tres mil años en aparecer.",
+      "Los botones más antiguos que se conocen aparecieron en el valle del Indo, en el actual Pakistán, hace unos cinco mil años, y estaban tallados en concha. No servían para abrochar nada: eran adorno, se cosían encima de la tela y ahí se quedaban. La ropa de entonces no necesitaba abrocharse porque no se ajustaba al cuerpo: eran piezas que se echaban por encima y se sujetaban con un cinturón o con un alfiler. La idea de hacerle un agujero al tejido para meter el botón por él tardó tres mil años en aparecer. Es tan pequeño que cuesta llamarlo invento, y nadie dio con él en treinta siglos. Cuando llegó, cambió la ropa entera.",
     paginas: [
       {
         rotulo: "El ojal",
         texto:
-          "Llegó a Europa hacia el siglo XIII, probablemente traído de Oriente Próximo por los ejércitos que volvían de las cruzadas, y cambió la ropa entera de arriba abajo. Hasta entonces las prendas eran túnicas holgadas que se metían por la cabeza y se ceñían con un cinturón, sencillamente porque no había manera de cerrarlas bien por delante. Con el ojal se pudo cortar la tela ajustada al cuerpo y cerrarla después, y de ahí sale toda la sastrería moderna: la chaqueta, la camisa y el chaleco existen porque alguien se atrevió a agujerear un tejido caro y a rematar el corte a mano.",
+          "Llegó a Europa hacia el siglo XIII, probablemente traído de Oriente Próximo por los ejércitos que volvían de las cruzadas, y cambió la ropa entera de arriba abajo. Hasta entonces las prendas eran túnicas holgadas que se metían por la cabeza y se ceñían con un cinturón, sencillamente porque no había manera de cerrarlas bien por delante. Con el ojal se pudo cortar la tela ajustada al cuerpo y cerrarla después, y de ahí sale toda la sastrería moderna. La chaqueta, la camisa y el chaleco existen porque alguien se atrevió a agujerear un tejido caro y a rematar el corte a mano.",
         destacado: { tipo: "frase", frase: "Antes del ojal, la ropa se metía por la cabeza y se ataba." },
       },
       {
@@ -43,14 +43,14 @@ export const ROPA: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "El botón llegó a ser un objeto de lujo desmedido: los había de oro, de marfil y con miniaturas pintadas dentro protegidas por un cristal, y un traje de gala del siglo XVIII podía llevar más de cien, la mayoría puramente decorativos y sin ojal enfrente. Los tres que hay hoy en el puño de una chaqueta no abrochan nada desde hace más de un siglo y se siguen cosiendo uno por uno; se cuenta que Napoleón mandó ponerlos para que sus soldados dejaran de limpiarse la nariz con la manga, aunque no hay ni un solo documento que lo respalde.",
+          "El botón llegó a ser un objeto de lujo desmedido. Los había de oro, de marfil y con miniaturas pintadas dentro protegidas por un cristal. Un traje de gala del siglo XVIII podía llevar más de cien, la mayoría decorativos y sin ojal enfrente. Los tres que hay hoy en el puño de una chaqueta no abrochan nada desde hace más de un siglo, y se siguen cosiendo uno por uno. Se cuenta que Napoleón mandó ponerlos para que sus soldados dejaran de limpiarse la nariz con la manga, aunque no hay ni un documento que lo respalde.",
       },
     ],
   },
 
   {
     id: "vaqueros-mineros",
-    titulo: "Los vaqueros se inventaron para no romper bolsillos",
+    titulo: "Remaches para que aguante el bolsillo",
     gancho: "Un sastre puso remaches de cobre en las esquinas. No tenía dinero para patentarlo y buscó socio.",
     categoria: "Ropa",
     color: "var(--slate)",
@@ -61,38 +61,38 @@ export const ROPA: Short[] = [
       {
         rotulo: "La patente",
         texto:
-          "No tenía los sesenta y ocho dólares que costaba registrar una patente, así que escribió a su proveedor de tela, un comerciante alemán instalado en San Francisco que le vendía el algodón y que se había hecho rico surtiendo de ropa y lonas a los buscadores de oro. Le propuso pagar el trámite a medias y repartirse el invento por la mitad. El otro aceptó, la patente se concedió en mayo de 1873 a nombre de los dos y empezaron a fabricar pantalones de tela azul con remaches en las esquinas de los bolsillos y en la base de la bragueta.",
+          "No tenía los sesenta y ocho dólares que costaba registrar una patente, así que escribió a su proveedor de tela. Era un comerciante alemán instalado en San Francisco, que le vendía el algodón y se había hecho rico surtiendo de ropa y lonas a los buscadores de oro. Le propuso pagar el trámite a medias y repartirse el invento por la mitad. El otro aceptó y la patente se concedió en mayo de 1873 a nombre de los dos. Empezaron a fabricar pantalones de tela azul con remaches en las esquinas de los bolsillos y en la base de la bragueta.",
         destacado: { tipo: "cifra", cifra: "68", unidad: "dólares que no tenía para patentarlo" },
       },
       {
         rotulo: "El azul",
         texto:
-          "El color viene del tinte de aquella tela, un algodón grueso importado de Francia que se teñía con añil porque era barato y porque disimulaba bien la suciedad de una jornada de mina. El añil tiñe solo la superficie de la fibra y no llega al interior, y por eso el pantalón se destiñe por los pliegues, las rodillas y los bolsillos hasta dibujar el cuerpo de quien lo lleva; lo que hoy se vende como desgaste de diseño era la prueba de haber trabajado con él. Al principio ni siquiera llevaban trabillas para el cinturón, sino botones para tirantes.",
+          "El color viene del tinte de aquella tela, un algodón grueso importado de Francia que se teñía con añil porque era barato y porque disimulaba bien la suciedad de una jornada de mina. El añil tiñe solo la superficie de la fibra y no llega al interior. Por eso el pantalón se destiñe por los pliegues, las rodillas y los bolsillos hasta dibujar el cuerpo de quien lo lleva. Lo que hoy se vende como desgaste de diseño era la prueba de haber trabajado con él. Al principio ni siquiera llevaban trabillas para el cinturón, sino botones para tirantes.",
         destacado: { tipo: "frase", frase: "El desgaste que hoy se paga era la prueba de haber trabajado." },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "Fueron ropa de minero, de granjero y de obrero durante setenta años, hasta que en los años cincuenta el cine los puso encima de actores jóvenes y rebeldes y varios institutos estadounidenses llegaron a prohibirlos en clase por considerarlos una provocación. A partir de ahí ya no hubo marcha atrás. Hoy se fabrican más de mil millones de pares al año y hacen falta unos siete mil litros de agua para cada uno, entre el cultivo del algodón y los lavados de fábrica que imitan el desgaste. Los remaches siguen ahí, en un pantalón que ya no rompe nadie.",
+          "Fueron ropa de minero, de granjero y de obrero durante setenta años. En los años cincuenta el cine los puso encima de actores jóvenes y rebeldes, y varios institutos estadounidenses llegaron a prohibirlos en clase por considerarlos una provocación. A partir de ahí ya no hubo marcha atrás. Hoy se fabrican más de mil millones de pares al año. Cada uno se lleva unos siete mil litros de agua, entre el cultivo del algodón y los lavados de fábrica que imitan el desgaste. Los remaches siguen ahí, en un pantalón que ya no rompe nadie.",
       },
     ],
   },
 
   {
     id: "tacon-jinetes",
-    titulo: "El tacón lo inventaron los hombres para montar",
+    titulo: "El tacón se inventó para montar",
     gancho: "Servía para que el pie no se saliera del estribo. Acabó en las alfombras rojas seiscientos años después.",
     categoria: "Ropa",
     color: "var(--clay)",
     curioso: true,
     encargo: "Un zapato de tacón antiguo, de cuero y madera, sobre un suelo de baldosa.",
     entrada:
-      "Persia, el actual Irán, siglo X. La caballería de aquel ejército necesita que el pie del jinete no se escape del estribo cuando se pone de pie sobre la montura para disparar el arco, así que las botas llevan un taco de madera clavado bajo el talón. No es un adorno ni una moda: es una pieza de equitación. Y así, tal cual, entra en Europa seiscientos años más tarde.",
+      "Persia, el actual Irán, siglo X. La caballería de aquel ejército necesita que el pie del jinete no se escape del estribo cuando se pone de pie sobre la montura para disparar el arco. Las botas llevan por eso un taco de madera clavado bajo el talón. No es un adorno ni una moda: es una pieza de equitación. Y así, tal cual, entra en Europa seiscientos años más tarde.",
     paginas: [
       {
         rotulo: "La corte",
         texto:
-          "Llegó a finales del siglo XVI con las embajadas persas, y la aristocracia europea lo adoptó de inmediato por lo que significaba más que por cómo se veía: llevar tacón indicaba que uno montaba a caballo, es decir, que era militar y noble, y de paso volvía imposible trabajar el campo con esos zapatos puestos. El rey de Francia se hizo unos con la suela y el tacón pintados de rojo, un tinte carísimo, y prohibió por decreto que los usara así nadie que no fuera de su corte. Medía metro sesenta y tres y llegó a calzar tacones de diez centímetros.",
+          "Llegó a finales del siglo XVI con las embajadas persas, y la aristocracia europea lo adoptó de inmediato por lo que significaba más que por cómo se veía. Llevar tacón indicaba que uno montaba a caballo, es decir, que era militar y noble. Y de paso volvía imposible trabajar el campo con esos zapatos puestos. El rey de Francia se hizo unos con la suela y el tacón pintados de rojo, un tinte carísimo, y prohibió por decreto que los usara así nadie que no fuera de su corte. Medía metro sesenta y tres y llegó a calzar tacones de diez centímetros.",
         destacado: { tipo: "frase", frase: "El tacón decía que montabas a caballo. Y que no trabajabas el campo." },
       },
       {
@@ -104,7 +104,7 @@ export const ROPA: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "El tacón de aguja tal y como se conoce hoy no existió hasta los años cincuenta, cuando se pudo meter dentro una varilla de acero que aguantara el peso sin partirse; con madera sola no daba de sí y se astillaba. Uno de diez centímetros multiplica varias veces la presión sobre la punta del pie y desplaza el peso hacia delante, lo que obliga a la espalda a compensar arqueándose. Y sigue habiendo empresas, festivales y alfombras rojas donde se exige llevarlo, mil años después de dejar de servir para lo único que servía.",
+          "El tacón de aguja tal y como se conoce hoy no existió hasta los años cincuenta. Entonces se pudo meter dentro una varilla de acero que aguantara el peso sin partirse; con madera sola no daba de sí y se astillaba. Uno de diez centímetros multiplica varias veces la presión sobre la punta del pie y desplaza el peso hacia delante, lo que obliga a la espalda a compensar arqueándose. Y sigue habiendo empresas, festivales y alfombras rojas donde se exige llevarlo, mil años después de dejar de servir para lo único que servía.",
       },
     ],
   },

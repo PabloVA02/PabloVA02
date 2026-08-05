@@ -22,7 +22,7 @@ export const MONASTERIOS: Short[] = [
     color: "var(--slate)",
     encargo: "Una campana de bronce colgada en una espadaña de piedra al amanecer.",
     entrada:
-      "Europa, siglo VI. Una regla monástica escrita en Italia organiza el día de una comunidad religiosa en ocho momentos de oración repartidos entre el amanecer y la noche, incluido uno en plena madrugada. La regla se copia y se adopta en cientos de casas por todo el continente, y con ella se cuela un problema técnico nuevo: hay que saber la hora sin sol.",
+      "Europa, siglo VI. Una regla monástica escrita en Italia organiza el día de una comunidad religiosa en ocho momentos de oración repartidos entre el amanecer y la noche, incluido uno en plena madrugada. Fuera de los monasterios nadie necesita saber la hora con esa precisión: se trabaja mientras hay luz y se para cuando se acaba. La regla se copia y se adopta en cientos de casas por todo el continente, y con ella se cuela un problema técnico nuevo. Hay que saber la hora de noche, sin sol, todos los días y sin fallar. De esa obligación, y no de la ciencia ni del comercio, sale el primer aparato de Europa que mide el tiempo solo, sin que nadie tenga que estar mirándolo.",
     paginas: [
       {
         rotulo: "El que vela",

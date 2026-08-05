@@ -16,13 +16,13 @@ import type { Short } from "../shorts";
 export const SAL: Short[] = [
   {
     id: "por-que-la-sal-conserva",
-    titulo: "La sal no mata los microbios: los seca",
+    titulo: "La sal no mata, seca",
     gancho: "Un jamón curado pasa meses a temperatura ambiente sin estropearse. El motivo no es que la sal envenene nada.",
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Jamones colgados en un secadero con las paredes de piedra y poca luz.",
     entrada:
-      "Todas las culturas del mundo, desde hace por lo menos cinco mil años. Antes de que existiera el frigorífico, la única manera de guardar carne o pescado más de dos días era cubrirlos de sal. Funcionaba tan bien que ciudades enteras vivieron de ello durante siglos. Lo curioso es que la sal no envenena a las bacterias, sino que les hace algo mucho más simple: les quita el agua.",
+      "Todas las culturas del mundo, desde hace por lo menos cinco mil años. Antes de que existiera el frigorífico, la única manera de guardar carne o pescado más de dos días era cubrirlos de sal. Un animal sacrificado en otoño tenía que dar de comer hasta la primavera, y sin eso no se pasaba el invierno. Funcionaba tan bien que ciudades enteras vivieron de ello durante siglos, y hubo guerras por controlar un yacimiento. Los caminos por los que se transportaba se llaman todavía hoy vías de la sal, y por uno de ellos entra la sal a Roma desde el siglo IV antes de Cristo. Lo curioso es que la sal no envenena a las bacterias. Les hace algo mucho más simple: les quita el agua.",
     paginas: [
       {
         rotulo: "El agua robada",
@@ -45,7 +45,7 @@ export const SAL: Short[] = [
   },
   {
     id: "las-caravanas-de-sal",
-    titulo: "La sal se cambiaba por oro al peso",
+    titulo: "Sal por oro, al peso",
     gancho: "Miles de camellos cruzando el Sáhara cargados solo con losas blancas. Al otro lado del desierto esperaba el oro.",
     categoria: "Historia",
     color: "var(--clay)",
@@ -74,7 +74,7 @@ export const SAL: Short[] = [
   },
   {
     id: "la-sal-de-las-carreteras",
-    titulo: "La sal en la carretera derrite el hielo",
+    titulo: "El hielo deja de poder existir",
     gancho: "No lo derrite por calor. Baja la temperatura a la que el agua puede congelarse, y el hielo deja de poder existir.",
     categoria: "Objetos",
     color: "var(--slate)",

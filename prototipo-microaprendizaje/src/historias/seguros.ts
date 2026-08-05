@@ -16,13 +16,13 @@ import type { Short } from "../shorts";
 export const SEGUROS: Short[] = [
   {
     id: "la-tabla-de-mortalidad",
-    titulo: "El seguro de vida se calcula con una tabla",
+    titulo: "Nadie sabe cuándo, cien mil sí",
     gancho: "Nadie sabe cuándo morirá una persona. Con cien mil personas, en cambio, la cifra se predice con bastante precisión.",
     categoria: "Dinero",
     color: "var(--slate)",
     encargo: "Página de una tabla de mortalidad del siglo XVIII, con columnas de edades y cifras.",
     entrada:
-      "Londres, 1762. Se funda la primera compañía que vende seguros de vida calculando el precio según la edad del cliente, cosa que hasta entonces nadie hacía. Antes se cobraba a todos lo mismo, y el negocio se hundía siempre porque los enfermos eran los que más contrataban. La idea nueva era usar una tabla de mortalidad, que dice cuánta gente de cada edad muere en un año.",
+      "Londres, 1762. Se funda la primera compañía que vende seguros de vida calculando el precio según la edad del cliente, cosa que hasta entonces nadie hacía. Antes se cobraba a todos lo mismo y el negocio se hundía siempre por la misma razón. El que se sabía enfermo contrataba y el que se sabía sano no, así que la compañía acababa pagando más de lo que ingresaba. La idea nueva era usar una tabla de mortalidad, que dice cuánta gente de cada edad muere en un año. Con esa tabla delante, el precio deja de ser una apuesta y pasa a ser una cuenta. Es la primera vez que alguien le pone número al futuro de una persona.",
     paginas: [
       {
         rotulo: "Muchos a la vez",
@@ -45,7 +45,7 @@ export const SEGUROS: Short[] = [
   },
   {
     id: "el-seguro-que-no-cubre",
-    titulo: "La letra pequeña de un seguro tiene su lógica",
+    titulo: "La letra pequeña tiene su lógica",
     gancho: "Las exclusiones no son solo trampas comerciales. Sin algunas de ellas el reparto del riesgo se rompe entero.",
     categoria: "Dinero",
     color: "var(--clay)",
@@ -74,7 +74,7 @@ export const SEGUROS: Short[] = [
   },
   {
     id: "la-tontina",
-    titulo: "Un contrato pagaba más cuanto más gente moría",
+    titulo: "Cobraba más si morían más",
     gancho: "Se llamaba tontina y fue legal en media Europa durante dos siglos. El último superviviente se quedaba con todo.",
     categoria: "Historia",
     color: "var(--plum)",
