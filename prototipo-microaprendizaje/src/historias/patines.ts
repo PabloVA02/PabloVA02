@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const PATINES: Short[] = [
   {
     id: "los-huesos-atados-a-los-pies",
-    titulo: "Los primeros patines eran huesos de animal",
+    titulo: "Los patines de hueso",
     gancho: "No servían para deslizarse solos. Había que empujarse con un palo, como quien mueve una barca.",
     categoria: "Patines",
     color: "var(--slate)",
@@ -46,7 +46,7 @@ export const PATINES: Short[] = [
   },
   {
     id: "el-violin-y-el-espejo",
-    titulo: "El primer patinador de ruedas no sabía frenar",
+    titulo: "El violín sobre ruedas",
     gancho: "Entró en un salón de baile tocando el violín sobre ruedas. Acabó contra un espejo de pared.",
     categoria: "Patines",
     color: "var(--clay)",
@@ -76,7 +76,7 @@ export const PATINES: Short[] = [
   },
   {
     id: "el-eje-que-gira",
-    titulo: "Un trozo de goma hizo que los patines giraran",
+    titulo: "La goma bajo el patín",
     gancho: "Durante cien años los patines solo iban rectos. La solución fue apoyar el eje sobre una goma.",
     categoria: "Patines",
     color: "var(--ochre)",

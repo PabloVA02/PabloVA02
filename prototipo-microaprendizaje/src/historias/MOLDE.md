@@ -27,7 +27,7 @@ Y dejó tres condiciones, por este orden de importancia:
 Decidido viendo maquetas. Una portada con un titular enorme y nada más obliga
 al lector a apostar a ciegas, y el que duda no pasa de pantalla. **Si ya está
 leyendo, seguir es lo cómodo.** Por eso la portada enseña el título, el
-gancho y **la entrada entera**. Sin categoría: ver la regla 14.
+y **la entrada entera**, sin categoría y sin gancho: ver la regla 14.
 
 De ahí sale la medida nueva de la entrada: **85–110 palabras**, no 53–72. Con
 la medida vieja la portada pesaba la mitad que las otras tres pantallas y se
@@ -260,39 +260,48 @@ contando por qué—.
 La prueba: tapar la página siguiente y leer la última frase. Si no da ganas de
 destaparla, esa frase está mal.
 
-## 14. El título golpea. El gancho explica
+## 14. El título nombra la cosa y engancha
 
-Decidido por Pablo mirando portadas montadas. Un título de ocho palabras con
-dos puntos en medio explica demasiado y no golpea nada, y encima suena raro:
-«Julio César: 23 puñaladas y solo una mortal» se lee como un pie de foto.
+Decidido por Pablo en dos pasos. Primero: un título de ocho palabras con dos
+puntos en medio explica demasiado y se lee como un pie de foto —«Julio César:
+23 puñaladas y solo una mortal»—. Y después, viendo el otro extremo: un título
+que no nombra al protagonista —«Sobraban veintidós puñaladas»— es demasiado
+listo y no dice de qué va.
 
-**De tres a seis palabras.** Que digan una cosa rara y obliguen a preguntar.
+**El sitio bueno está en medio: se nombra la cosa y se le pega el gancho.**
+De tres a seis palabras.
 
-| Mal | Bien |
-| --- | --- |
-| Julio César: 23 puñaladas y solo una mortal | Sobraban veintidós puñaladas |
-| Los primeros patines eran huesos de animal | Los patines que no patinaban |
-| La linterna se llamó así porque solo daba destellos | Solo daba destellos |
-| El último número de la tarjeta es un chivato | La cifra que te delata |
-| La escoba se aplanó y empezó a barrer bien | La escoba era redonda |
+| Mal, explica | Mal, se pasa de listo | Bien |
+| --- | --- | --- |
+| Julio César: 23 puñaladas y solo una mortal | Sobraban veintidós puñaladas | Las 23 puñaladas de César |
+| Los primeros patines eran huesos de animal | Los que no patinaban | Los patines de hueso |
+| La linterna se llamó así porque solo daba destellos | Solo daba destellos | La linterna solo daba destellos |
+| El último número de la tarjeta es un chivato | La cifra que te delata | La última cifra de tu tarjeta |
+| Cleopatra vivió más cerca de la Luna | Más cerca de la Luna | Cleopatra, más cerca de la Luna |
 
-El título **ya no tiene que decir de qué va el short**, porque debajo van el
-gancho, la entrada y la imagen, y los tres llegan medio segundo después. Lo
-único que tiene que hacer el título es que el pulgar se pare.
+Si el short va de Venus, en el título va Venus. Si va de Julio César, va Julio
+César. Y al lado, lo que se va a contar, en cuatro palabras.
 
-**El que sitúa es el gancho**, y por eso el gancho crece: ahí se dice quién es
-y de qué se habla, con todas las letras. Si el título es «Sobraban veintidós
-puñaladas», el gancho tiene que decir que hablamos de Julio César.
+## La portada: título y entrada. Nada más
 
-Y la portada **no lleva categoría**. Una etiqueta que pone «Figuras» encima
-del título le roba el primer golpe de vista a lo único que importa.
+Sin categoría y **sin gancho**. Una etiqueta encima del título le roba el
+primer golpe de vista, y un subtítulo entre el título y la entrada repite lo
+que la entrada va a decir mejor dos líneas después.
+
+En la portada quedan tres cosas: la banda de imagen con su crédito, el título
+y la entrada entera. Quien sitúa es la entrada, que para eso empieza por el
+año y el sitio.
+
+El campo `gancho` **se sigue escribiendo** aunque no se pinte en la portada:
+sirve para las pantallas de lista y de búsqueda, donde hace falta una línea
+que explique el short sin abrirlo.
 
 ## Medidas
 
 | Campo | Medida |
 | --- | --- |
-| `titulo` | 3–6 palabras. Un golpe, no un resumen |
-| `gancho` | una o dos frases; es quien sitúa, porque el título ya no lo hace |
+| `titulo` | 3–6 palabras: la cosa nombrada más el gancho |
+| `gancho` | una o dos frases; no se pinta en la portada, sirve para listas |
 | `entrada` | 85–110 palabras |
 | `texto` de cada página | 90–116 palabras |
 | `rotulo` | 2–4 palabras; el de la página 3 es «Lo que quedó» |

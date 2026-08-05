@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const MANIQUIES: Short[] = [
   {
     id: "el-cuerpo-de-mimbre",
-    titulo: "El maniquí nació con la ropa en serie",
+    titulo: "Los maniquíes eran cestas",
     gancho: "Mientras la ropa se hacía a medida no hacía falta enseñarla puesta. En cuanto se fabricó por tallas, sí.",
     categoria: "Maniquíes",
     color: "var(--clay)",
@@ -48,7 +48,7 @@ export const MANIQUIES: Short[] = [
   },
   {
     id: "la-talla-del-escaparate",
-    titulo: "Los maniquíes no tienen ninguna talla real",
+    titulo: "El maniquí no tiene talla",
     gancho: "Un maniquí de escaparate no reproduce un cuerpo: reproduce un perchero que sostiene la ropa sin arrugas.",
     categoria: "Maniquíes",
     color: "var(--plum)",
@@ -78,7 +78,7 @@ export const MANIQUIES: Short[] = [
   },
   {
     id: "las-figuras-que-se-mueven",
-    titulo: "Los escaparates de Navidad llevan un siglo moviéndose",
+    titulo: "Las figuras del escaparate navideño",
     gancho: "Figuras con motor, discos y varillas que repiten el mismo gesto durante seis semanas seguidas sin pararse.",
     categoria: "Maniquíes",
     color: "var(--ochre)",

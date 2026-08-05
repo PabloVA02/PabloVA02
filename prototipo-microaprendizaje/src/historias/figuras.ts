@@ -30,8 +30,8 @@ import cesarFoto from "../fotos/cesar-camuccini.jpg";
 export const FIGURAS: Short[] = [
   {
     id: "cesar",
-    titulo: "Julio César: 23 puñaladas y solo una mortal",
-    gancho: "Lo apuñalaron sesenta hombres a la vez. El médico encontró que solo un golpe lo mató.",
+    titulo: "Las 23 puñaladas de César",
+    gancho: "A Julio César lo apuñalaron veintitrés veces sesenta senadores a la vez. El médico que examinó el cuerpo escribió que solo una fue mortal.",
     categoria: "Figuras",
     color: "var(--clay)",
     /* Estaba el busto de los Museos Vaticanos, y el busto ilustra a César; lo
@@ -59,18 +59,18 @@ export const FIGURAS: Short[] = [
     },
     encargo: "El asesinato de César con los puñales en alto, encuadrado a plomo sobre la escena.",
     entrada:
-      "Roma, año 44 antes de Cristo. Julio César es el hombre más poderoso del mundo conocido: ha conquistado la Galia, la actual Francia, ha ganado una guerra civil contra sus propios compatriotas y gobierna de hecho todo el Mediterráneo. Aquella mañana de marzo entra a una reunión del Senado sin guardaespaldas. Dentro le esperan unos sesenta hombres con un puñal escondido bajo la ropa.",
+      "Roma, año 44 antes de Cristo. Julio César es el hombre más poderoso del mundo conocido: ha conquistado la Galia, la actual Francia, ha ganado una guerra civil contra sus propios compatriotas y gobierna de hecho todo el Mediterráneo. Aquella mañana de marzo entra a una reunión del Senado sin guardaespaldas, porque hace poco despidió a su escolta para demostrar que se fiaba. Dentro le esperan unos sesenta hombres con un puñal escondido bajo la ropa, y casi ninguno es soldado. Para entender por qué van a matarlo hay que saber una cosa de Roma.",
     paginas: [
       {
         rotulo: "El casi rey",
         texto:
-          "Para entender por qué querían matarlo hay que saber una cosa de Roma: llevaba casi quinientos años sin rey, y estaba orgullosísima de ello. El poder se repartía entre varios cargos que duraban un año, precisamente para que nadie mandase demasiado tiempo. César rompió esa regla. Se hizo nombrar dictador de por vida, puso su propia cara en las monedas —un honor reservado hasta entonces a los dioses y a los muertos— y presidía el Senado sentado en una silla dorada. Nunca llegó a coronarse rey. Pero para muchos senadores, la diferencia había dejado de existir.",
+          "Roma llevaba casi quinientos años sin rey y estaba orgullosísima de ello. El poder se repartía entre varios cargos que duraban un año, para que nadie mandase demasiado tiempo. César rompió esa regla por todos lados. Se hizo nombrar dictador de por vida, puso su cara en las monedas y presidía el Senado desde una silla dorada. La cara en la moneda era un honor reservado hasta entonces a los dioses y a los muertos. Nunca llegó a coronarse rey, pero para muchos senadores la diferencia ya no existía. Y decidieron matarlo de una manera muy concreta.",
         destacado: { tipo: "cifra", cifra: "500", unidad: "años llevaba Roma sin un rey" },
       },
       {
         rotulo: "La emboscada",
         texto:
-          "Decidieron matarlo dentro del Senado, delante de todos, para que aquello pareciera una ejecución y no un asesinato. Un senador se le acercó con una petición y le agarró la toga: esa era la señal. César trató de defenderse con lo único que llevaba encima, un punzón de escribir. Entre los hombres que lo rodeaban con el puñal en la mano estaba Bruto, al que él había perdonado en la guerra civil y protegido durante años. Al reconocerlo, cuentan las fuentes antiguas, dejó de resistirse y se cubrió la cara con la toga.",
+          "Podían haberlo matado de noche, en la calle, sin testigos. Lo mataron dentro del Senado y delante de todos, para que pareciera una sentencia y no un asesinato. Un senador se le acercó con una petición y le agarró la toga: esa era la señal. César intentó defenderse con lo único que llevaba encima, un punzón de escribir. Entre los que lo rodeaban estaba Bruto, al que él había perdonado en la guerra civil. Al reconocerlo dejó de resistirse y se cubrió la cara con la toga. Cuando terminaron, salieron a la calle a celebrarlo.",
         destacado: {
           tipo: "frase",
           frase: "Lo único que llevaba encima para defenderse era un punzón de escribir.",
@@ -79,15 +79,19 @@ export const FIGURAS: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "El cuerpo se quedó tirado en el suelo casi tres horas, hasta que tres esclavos se lo llevaron a casa en una camilla. Un médico lo examinó y contó veintitrés puñaladas. Solo una, escribió, había sido mortal: la segunda, la del pecho. Las otras veintidós sobraban. Los asesinos salieron a la calle gritando que Roma volvía a ser libre, y no los siguió nadie. Diecisiete años más tarde, el sobrino nieto de César gobernaba como primer emperador. Habían matado a un hombre para no tener un rey, y lo que consiguieron fue un imperio.",
+          "No los siguió nadie. Los asesinos esperaban que la ciudad los recibiera como libertadores, y la ciudad se quedó mirando desde los portales. El cuerpo estuvo tirado en el suelo casi tres horas, hasta que tres esclavos se lo llevaron a casa en una camilla. Un médico lo examinó y contó veintitrés puñaladas, y dejó escrito que solo una había sido mortal: la segunda, la del pecho. Las otras veintidós sobraban. En dos años los cabecillas habían muerto, y diecisiete años después el sobrino nieto de César gobernaba como primer emperador.",
+        destacado: {
+          tipo: "frase",
+          frase: "Mataron a un hombre para no tener un rey y les salió un imperio.",
+        },
       },
     ],
   },
 
   {
     id: "cleopatra",
-    titulo: "Cleopatra vivió más cerca de la Luna",
-    gancho: "Cuando ella nació, la Gran Pirámide ya era más antigua que ella para nosotros.",
+    titulo: "Cleopatra, más cerca de la Luna",
+    gancho: "Cleopatra vivió más cerca en el tiempo de la llegada del hombre a la Luna que de las pirámides que tenía al lado de casa.",
     categoria: "Figuras",
     color: "var(--plum)",
     foto: {
@@ -126,8 +130,8 @@ export const FIGURAS: Short[] = [
 
   {
     id: "alejandro",
-    titulo: "Alejandro Magno: 32 años y ni una derrota",
-    gancho: "Murió más joven de lo que se retira hoy un futbolista, y su cadáver fue lo primero que se robaron.",
+    titulo: "Alejandro y su cadáver robado",
+    gancho: "Alejandro Magno levantó el mayor imperio conocido en trece años sin perder una batalla. Murió a los treinta y dos y le robaron el cadáver.",
     categoria: "Figuras",
     color: "var(--ochre)",
     foto: {
@@ -166,8 +170,8 @@ export const FIGURAS: Short[] = [
 
   {
     id: "gengis",
-    titulo: "Gengis Kan dejó su ADN en dieciséis millones",
-    gancho: "Un estudio de ADN encontró su firma en dieciséis millones de hombres vivos.",
+    titulo: "Los nietos de Gengis Kan",
+    gancho: "Un estudio de ADN encontró la firma genética de Gengis Kan en dieciséis millones de hombres vivos hoy.",
     categoria: "Figuras",
     color: "var(--slate)",
     foto: {
@@ -206,8 +210,8 @@ export const FIGURAS: Short[] = [
 
   {
     id: "napoleon",
-    titulo: "Napoleón no era bajito: fallaron las unidades",
-    gancho: "Medía por encima de la media de su época. La leyenda nace de dos pies distintos.",
+    titulo: "Napoleón no era bajito",
+    gancho: "Napoleón medía por encima de la media de su época. La leyenda del bajito nace de dos pies que no medían lo mismo.",
     categoria: "Figuras",
     color: "var(--sage)",
     foto: {
@@ -247,8 +251,8 @@ export const FIGURAS: Short[] = [
 
   {
     id: "juana",
-    titulo: "Juana de Arco: su juicio se conserva entero",
-    gancho: "Sabemos lo que dijo palabra por palabra porque sus jueces lo apuntaron todo para hundirla.",
+    titulo: "El juicio de Juana de Arco",
+    gancho: "De Juana de Arco sabemos lo que dijo palabra por palabra, porque el tribunal que la quemó lo anotó todo para hundirla.",
     categoria: "Figuras",
     color: "var(--plum)",
     foto: {

@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const POSTALES: Short[] = [
   {
     id: "la-carta-sin-sobre",
-    titulo: "La postal nació por ahorrarse el sobre",
+    titulo: "La postal nació sin sobre",
     gancho: "Un funcionario austriaco propuso en 1869 una tarjeta sin sobre y a mitad de precio. La objeción fue que el cartero podría leerla.",
     categoria: "Postales",
     color: "var(--ochre)",
@@ -46,7 +46,7 @@ export const POSTALES: Short[] = [
   },
   {
     id: "la-raya-del-reverso",
-    titulo: "La postal ilustrada obligó a partir el reverso",
+    titulo: "La raya de la postal",
     gancho: "Al principio la foto ocupaba toda una cara y el mensaje se escribía en los márgenes. La raya del medio lo arregló.",
     categoria: "Postales",
     color: "var(--slate)",
@@ -76,7 +76,7 @@ export const POSTALES: Short[] = [
   },
   {
     id: "aquellos-colores-pintados",
-    titulo: "Aquellas postales en color eran fotos pintadas",
+    titulo: "Postales pintadas a mano",
     gancho: "La fotografía en color no existía todavía. El cielo azul y los tejados rojos los ponía a mano un taller con pinceles.",
     categoria: "Postales",
     color: "var(--clay)",

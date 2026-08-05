@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const LINTERNA: Short[] = [
   {
     id: "el-destello",
-    titulo: "La linterna se llamó así porque solo daba destellos",
+    titulo: "La linterna solo daba destellos",
     gancho: "Las pilas de 1899 se agotaban en minutos. Había que encenderla a ratitos, y de ahí le viene el nombre.",
     categoria: "Linterna",
     color: "var(--slate)",
@@ -46,7 +46,7 @@ export const LINTERNA: Short[] = [
   },
   {
     id: "la-luz-azul-que-faltaba",
-    titulo: "La luz blanca esperó treinta años a un azul",
+    titulo: "El led azul que faltaba",
     gancho: "Había diodos rojos y verdes desde los años sesenta. Sin el azul no había blanco, y el azul se resistió.",
     categoria: "Linterna",
     color: "var(--plum)",
@@ -75,7 +75,7 @@ export const LINTERNA: Short[] = [
   },
   {
     id: "el-sereno",
-    titulo: "El sereno tenía las llaves de todo el barrio",
+    titulo: "El sereno y sus llaves",
     gancho: "En España se daban dos palmadas en la calle y aparecía un hombre con un farol y un manojo de llaves.",
     categoria: "Linterna",
     color: "var(--ochre)",

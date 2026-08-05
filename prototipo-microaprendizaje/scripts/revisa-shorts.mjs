@@ -75,7 +75,11 @@ for (const ruta of ficheros) {
     total++;
 
     const titulo = /titulo: "((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
-    if (palabras(titulo) > 9) aviso(id, `título de ${palabras(titulo)} palabras (máx. 8-9)`);
+    /* Regla 14: el título golpea, no resume. De tres a seis palabras. Los
+       títulos escritos antes del cambio son largos y van saliendo aquí; esa
+       lista es justamente el trabajo pendiente. */
+    if (palabras(titulo) < 3 || palabras(titulo) > 6)
+      aviso(id, `título de ${palabras(titulo)} palabras (3-6)`);
 
     const entrada = /entrada:\n\s+"((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
     const ne = palabras(entrada);
@@ -108,13 +112,22 @@ for (const ruta of ficheros) {
     if (paginas.length === 3 && !/^Lo que qued[óa]$/.test(paginas[2][1]))
       aviso(id, `la página 3 se titula «${paginas[2][1]}» y debería ser «Lo que quedó»`);
 
-    /* Regla 6: el destacado solo va en las páginas 1 y 2. */
+    /* Regla 12: la maqueta no se mueve, así que la página 3 también lleva
+       destacado, y de tipo frase. Antes iba sin él y quedaba un hueco donde
+       las otras dos tienen chapa. No se exige todavía porque los 757 shorts
+       anteriores no lo llevan; se van poniendo en la pasada de revisión. */
     const trozoP3 = b.slice(b.lastIndexOf('rotulo: "Lo que qued'));
-    if (/destacado:/.test(trozoP3)) aviso(id, "la página 3 lleva destacado");
+    if (/destacado: \{ tipo: "cifra"/.test(trozoP3))
+      aviso(id, "el destacado de la página 3 debe ser frase, no cifra");
 
     /* Regla 2: como mucho dos nombres propios que el lector no reconozca. */
     const cuerpo = [entrada, ...paginas.map((p) => p[2])].join(" ").replace(/<[^>]+>/g, "");
-    const delTitulo = new Set(titulo.match(/[A-ZÁÉÍÓÚÑ][a-zá-úüñ]{2,}/g) ?? []);
+    /* Los nombres que ya aparecen en el título o en el gancho no cuentan como
+       frenazo dentro del texto: el lector acaba de leerlos. Desde la regla 14
+       el título es un golpe de tres palabras y quien nombra al protagonista es
+       el gancho, así que hay que mirar los dos. */
+    const gancho = /gancho: "((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
+    const delTitulo = new Set(`${titulo} ${gancho}`.match(/[A-ZÁÉÍÓÚÑ][a-zá-úüñ]{2,}/g) ?? []);
     /* Un nombre de varias palabras —Juan Sebastián Elcano— es UN frenazo, no
        tres, así que primero se juntan las mayúsculas seguidas. */
     const propios = new Set(

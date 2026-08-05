@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const FUNICULARES: Short[] = [
   {
     id: "dos-cabinas-un-cable",
-    titulo: "El funicular sube una cabina bajando otra",
+    titulo: "El funicular sube porque otro baja",
     gancho: "Dos vagones atados al mismo cable se equilibran entre sí. El motor solo tiene que vencer la diferencia de peso.",
     categoria: "Funiculares",
     color: "var(--slate)",
@@ -47,7 +47,7 @@ export const FUNICULARES: Short[] = [
   },
   {
     id: "el-funicular-de-agua",
-    titulo: "Hubo funiculares que subían con agua",
+    titulo: "El funicular que subía con agua",
     gancho: "La cabina de arriba llenaba un depósito hasta pesar más que la de abajo. Luego lo vaciaba y subía la otra.",
     categoria: "Funiculares",
     color: "var(--clay)",
@@ -77,7 +77,7 @@ export const FUNICULARES: Short[] = [
   },
   {
     id: "subir-al-barrio-de-arriba",
-    titulo: "Valparaíso subió a sus cerros en ascensores",
+    titulo: "Los ascensores de Valparaíso",
     gancho: "Una ciudad chilena construida sobre cuarenta cerros llenó las laderas de funiculares de madera. Los llaman ascensores y siguen funcionando.",
     categoria: "Funiculares",
     color: "var(--plum)",

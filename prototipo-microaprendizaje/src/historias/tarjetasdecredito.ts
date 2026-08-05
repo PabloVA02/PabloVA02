@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const TARJETAS_DE_CREDITO: Short[] = [
   {
     id: "la-cena-sin-cartera",
-    titulo: "La primera tarjeta de crédito era de cartón",
+    titulo: "La primera tarjeta era de cartón",
     gancho: "Solo la aceptaban catorce restaurantes de Nueva York. Y la historia de su origen está adornada.",
     categoria: "Tarjetas",
     color: "var(--clay)",
@@ -47,7 +47,7 @@ export const TARJETAS_DE_CREDITO: Short[] = [
   },
   {
     id: "los-numeros-en-relieve",
-    titulo: "Los números salían en relieve para calcarlos",
+    titulo: "Los números en relieve",
     gancho: "Antes de que hubiera teléfono en cada tienda, la tarjeta se copiaba con papel de calco y un rodillo.",
     categoria: "Tarjetas",
     color: "var(--slate)",
@@ -77,7 +77,7 @@ export const TARJETAS_DE_CREDITO: Short[] = [
   },
   {
     id: "el-digito-que-comprueba",
-    titulo: "El último número de la tarjeta es un chivato",
+    titulo: "La última cifra de tu tarjeta",
     gancho: "No forma parte de la cuenta. Está para detectar si te has equivocado tecleando, y se comprueba a mano.",
     categoria: "Tarjetas",
     color: "var(--plum)",

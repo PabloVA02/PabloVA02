@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const ESCOBA: Short[] = [
   {
     id: "la-escoba-plana",
-    titulo: "La escoba se aplanó y empezó a barrer bien",
+    titulo: "La escoba era redonda",
     gancho: "Durante siglos fue un manojo redondo que se deshacía en semanas. Alguien la cosió plana y triplicó el ancho.",
     categoria: "Escoba",
     color: "var(--ochre)",
@@ -46,7 +46,7 @@ export const ESCOBA: Short[] = [
   },
   {
     id: "la-planta-que-solo-sirve-para-barrer",
-    titulo: "Hay un cereal que solo sirve para escobas",
+    titulo: "El cereal de las escobas",
     gancho: "Se cultiva como el maíz, pero no se come. Lo único que se aprovecha son las ramitas del racimo.",
     categoria: "Escoba",
     color: "var(--clay)",
@@ -76,7 +76,7 @@ export const ESCOBA: Short[] = [
   },
   {
     id: "la-escoba-de-la-bruja",
-    titulo: "La bruja voladora nació de un objeto doméstico",
+    titulo: "La escoba de la bruja",
     gancho: "En los juicios por brujería no aparecen escobas volando. La imagen la fabricaron los libros ilustrados.",
     categoria: "Escoba",
     color: "var(--plum)",

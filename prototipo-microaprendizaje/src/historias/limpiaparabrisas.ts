@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const LIMPIAPARABRISAS: Short[] = [
   {
     id: "bajarse-a-rascar-el-cristal",
-    titulo: "Conducir con nieve obligaba a parar y limpiar",
+    titulo: "Antes había que bajarse a rascar",
     gancho: "Antes de 1903 el conductor bajaba del coche cada pocos minutos a despejar el cristal. Una visitante de Nueva York patentó la solución.",
     categoria: "Limpiaparabrisas",
     color: "var(--plum)",
@@ -47,7 +47,7 @@ export const LIMPIAPARABRISAS: Short[] = [
   },
   {
     id: "el-que-se-para-a-ratos",
-    titulo: "El limpiaparabrisas que se para copia al ojo",
+    titulo: "El limpiaparabrisas copia al párpado",
     gancho: "Con llovizna, barrer sin parar chirría y estorba. Un ingeniero pensó en el párpado, que tampoco se mueve todo el rato.",
     categoria: "Limpiaparabrisas",
     color: "var(--ochre)",
@@ -76,7 +76,7 @@ export const LIMPIAPARABRISAS: Short[] = [
   },
   {
     id: "las-esquinas-que-nadie-limpia",
-    titulo: "Ningún limpiaparabrisas llega a las cuatro esquinas",
+    titulo: "Las esquinas que nadie limpia",
     gancho: "El cristal es un rectángulo y la escobilla dibuja un abanico. La parte que queda sucia está calculada, no olvidada.",
     categoria: "Limpiaparabrisas",
     color: "var(--slate)",
