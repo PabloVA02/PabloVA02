@@ -37,7 +37,7 @@ export const CEMENTO: Short[] = [
         rotulo: "La grieta",
         texto:
           "Un trabajo publicado en 2023 les encontró sentido. Cuando aparece una grieta y entra agua, esa agua encuentra los grumos de cal, los disuelve y vuelve a cristalizar el material dentro de la fisura, sellándola desde dentro. En los ensayos, unas muestras hechas con la receta antigua y agrietadas a propósito se cerraron por completo en un par de semanas, mientras que las de hormigón moderno seguían abiertas y perdiendo agua. Es decir, el material se cura solo, y con agua de mar todavía mejor, porque aporta minerales que refuerzan la reacción.",
-        destacado: { tipo: "cifra", cifra: "2", unidad: "semanas en cerrarse una grieta sola" },
+        destacado: { tipo: "cifra", cifra: "2", unidad: "semanas y la grieta se cierra" },
       },
       {
         rotulo: "Lo que quedó",
@@ -49,7 +49,7 @@ export const CEMENTO: Short[] = [
 
   {
     id: "hormigon-de-macetas",
-    titulo: "El hormigón armado lo inventó un jardinero",
+    titulo: "El hormigón armado, cosa de jardinero",
     gancho: "Se le rompían las macetas grandes, así que probó a meterles una malla de alambre dentro.",
     categoria: "Cemento",
     color: "var(--slate)",
@@ -67,7 +67,7 @@ export const CEMENTO: Short[] = [
         rotulo: "Del tiesto al puente",
         texto:
           "El jardinero fue ampliando la patente a depósitos, tuberías, traviesas de ferrocarril, vigas y puentes, sin ser ingeniero y sin saber calcular una estructura. De eso se encargaron otros: en las décadas siguientes se desarrollaron las fórmulas para decidir dónde colocar el acero y en qué cantidad, que es lo que convirtió el invento en una técnica seria. Hacia 1900 ya se levantaban edificios enteros con ese sistema, y la construcción cambió de raíz, porque de pronto se podía hacer casi cualquier forma con un molde de madera y unas barras dentro.",
-        destacado: { tipo: "cifra", cifra: "1867", unidad: "la patente que salió de una maceta" },
+        destacado: { tipo: "cifra", cifra: "1867", unidad: "la patente salida de una maceta" },
       },
       {
         rotulo: "Lo que quedó",
@@ -79,7 +79,7 @@ export const CEMENTO: Short[] = [
 
   {
     id: "arena-que-falta",
-    titulo: "La arena del desierto no sirve para construir",
+    titulo: "La arena del desierto no sirve",
     gancho: "Hay países rodeados de dunas que importan arena en barco. Los granos están demasiado redondos.",
     categoria: "Cemento",
     color: "var(--clay)",

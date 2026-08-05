@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CEPILLO_DE_DIENTES: Short[] = [
   {
     id: "el-pelo-de-cerdo",
-    titulo: "El cepillo de dientes llevaba pelo de cerdo",
+    titulo: "El cepillo, de pelo de cerdo",
     gancho: "Se arrancaba del cuello del animal, se pudría dentro de la boca y era lo mejor que había hasta 1938.",
     categoria: "Objetos",
     color: "var(--clay)",
@@ -34,7 +34,7 @@ export const CEPILLO_DE_DIENTES: Short[] = [
         rotulo: "La fibra nueva",
         texto:
           "En 1938, una empresa química estadounidense sacó al mercado la primera fibra sintética fabricada del todo en laboratorio. Aquella fibra era el nailon, y el primer producto en el que se usó no fueron las medias, sino un cepillo. El nailon es macizo, no absorbe agua y mantiene la misma rigidez mojado que seco. Resuelve de golpe los tres defectos del pelo de cerdo, y encima cuesta una fracción. Los primeros modelos eran demasiado duros y destrozaban las encías, así que hubo que afinar el grosor. Hoy las puntas se redondean una a una con una máquina, porque una punta cortada raspa el esmalte.",
-        destacado: { tipo: "cifra", cifra: "1938", unidad: "el año del primer cepillo de nailon" },
+        destacado: { tipo: "cifra", cifra: "1938", unidad: "el primer cepillo de nailon" },
       },
       {
         rotulo: "Lo que quedó",
@@ -45,7 +45,7 @@ export const CEPILLO_DE_DIENTES: Short[] = [
   },
   {
     id: "la-placa-no-es-comida",
-    titulo: "La placa dental no es comida: es una colonia",
+    titulo: "La placa no es comida",
     gancho: "No se quita el resto del bocadillo. Se desmonta una película de bacterias vivas pegadas al diente.",
     categoria: "Medicina",
     color: "var(--slate)",
@@ -63,7 +63,7 @@ export const CEPILLO_DE_DIENTES: Short[] = [
         rotulo: "El ácido",
         texto:
           "Esas bacterias comen azúcar y sueltan ácido, exactamente igual que la levadura suelta gas. El ácido queda atrapado bajo el gel, pegado al diente, y ahí disuelve el mineral del esmalte. La saliva repara ese daño devolviendo minerales, y la carrera está en cuál de los dos gana. Por eso importa más la frecuencia con la que se come azúcar que la cantidad total. Un refresco bebido a sorbos durante dos horas hace más daño que el mismo refresco de golpe. El flúor del dentífrico ayuda porque se incorpora al esmalte y lo vuelve más resistente al ácido.",
-        destacado: { tipo: "cifra", cifra: "24", unidad: "horas tarda la placa en organizarse por capas" },
+        destacado: { tipo: "cifra", cifra: "24", unidad: "horas y la placa se organiza" },
       },
       {
         rotulo: "Lo que quedó",
@@ -74,7 +74,7 @@ export const CEPILLO_DE_DIENTES: Short[] = [
   },
   {
     id: "el-cepillo-electrico",
-    titulo: "El cepillo eléctrico se inventó para hospitales",
+    titulo: "El cepillo eléctrico nació en hospitales",
     gancho: "No nació como un lujo. Se hizo para gente con las manos paralizadas y para quien llevaba aparatos fijos.",
     categoria: "Tecnología",
     color: "var(--plum)",
@@ -93,7 +93,7 @@ export const CEPILLO_DE_DIENTES: Short[] = [
         rotulo: "Los estudios",
         texto:
           "La pregunta obvia es si limpia mejor que uno de toda la vida, y la respuesta tiene matices. Las revisiones grandes encuentran una ventaja real y moderada, sobre todo en los modelos que giran y oscilan. Esa ventaja no viene tanto del motor como de dos cosas que el motor obliga a hacer. La primera es el temporizador, porque casi todo el mundo se cepilla mucho menos tiempo del que cree. La segunda es el sensor de presión, que avisa cuando se aprieta demasiado y se daña la encía. Un cepillo manual usado dos minutos y sin apretar consigue casi lo mismo por mucho menos dinero.",
-        destacado: { tipo: "cifra", cifra: "2", unidad: "minutos, que es lo que casi nadie llega a cepillarse" },
+        destacado: { tipo: "cifra", cifra: "2", unidad: "minutos que casi nadie cumple" },
       },
       {
         rotulo: "Lo que quedó",

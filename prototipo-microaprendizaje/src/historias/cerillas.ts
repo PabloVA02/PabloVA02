@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const CERILLAS: Short[] = [
   {
     id: "antes-de-la-cerilla",
-    titulo: "Encender el fuego costaba media hora",
+    titulo: "Encender fuego costaba media hora",
     gancho: "Pedernal, eslabón y yesca. Y si se apagaba de noche, tocaba ir a pedir brasas al vecino.",
     categoria: "Cerillas",
     color: "var(--ochre)",
@@ -77,7 +77,7 @@ export const CERILLAS: Short[] = [
 
   {
     id: "cerilla-de-seguridad",
-    titulo: "La cerilla de seguridad solo prende en su caja",
+    titulo: "La cerilla que solo prende ahí",
     gancho: "Media reacción va en la cabeza y la otra media en el raspador. Por separado no arden.",
     categoria: "Cerillas",
     color: "var(--plum)",
@@ -96,7 +96,7 @@ export const CERILLAS: Short[] = [
         rotulo: "El monopolio",
         texto:
           "La cerilla de seguridad se fabricó a escala en Suecia a partir de 1855 y el país acabó controlando buena parte del mercado mundial, con una industria que en su mejor momento exportaba a todos los continentes. En los años veinte, un financiero sueco construyó sobre ese negocio un imperio que prestaba dinero a gobiernos enteros a cambio de monopolios nacionales de cerillas, y llegó a financiar a más de una docena de países. El montaje resultó ser en buena parte un fraude contable y se derrumbó en 1932, en un escándalo enorme.",
-        destacado: { tipo: "cifra", cifra: "1844", unidad: "el año de la idea de separarlo" },
+        destacado: { tipo: "cifra", cifra: "1844", unidad: "el año de separar los dos" },
       },
       {
         rotulo: "Lo que quedó",

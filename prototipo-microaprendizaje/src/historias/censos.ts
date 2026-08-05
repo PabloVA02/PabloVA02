@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CENSOS: Short[] = [
   {
     id: "el-censor-romano",
-    titulo: "El que contaba a la gente vigilaba sus costumbres",
+    titulo: "Contar gente era vigilarla",
     gancho: "Del cargo romano que hacía el recuento viene la palabra censura, y no por casualidad.",
     categoria: "Censos",
     color: "var(--clay)",
@@ -45,7 +45,7 @@ export const CENSOS: Short[] = [
   },
   {
     id: "tarjetas-perforadas",
-    titulo: "El censo de 1890 se contó con tarjetas agujereadas",
+    titulo: "Un censo contado con agujeros",
     gancho: "El anterior había tardado ocho años en sumarse. Con máquinas, el nuevo estuvo en seis semanas.",
     categoria: "Censos",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const CENSOS: Short[] = [
   },
   {
     id: "la-paradoja-del-reparto",
-    titulo: "Aumentar los escaños hizo perder uno a un estado",
+    titulo: "Sumar escaños hizo perder uno",
     gancho: "El censo reparte escaños con una fórmula, y en 1880 se descubrió que la fórmula hacía cosas absurdas.",
     categoria: "Censos",
     color: "var(--ochre)",

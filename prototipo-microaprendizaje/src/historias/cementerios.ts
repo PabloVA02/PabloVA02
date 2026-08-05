@@ -36,7 +36,7 @@ export const CEMENTERIOS: Short[] = [
         rotulo: "La resistencia",
         texto:
           "La orden se apoyaba en los médicos de la época, que atribuían las enfermedades a los aires corrompidos, una teoría errónea en el mecanismo pero acertada en la conclusión práctica. La resistencia fue grande y por motivos entendibles: enterrar fuera del pueblo se percibía como un castigo y como una pérdida de posición, las parroquias perdían los ingresos de las sepulturas y las familias no querían dejar a sus muertos lejos y sin vigilancia. Hicieron falta epidemias, multas y varias décadas de insistencia administrativa para que el cambio llegara a completarse en todo el país.",
-        destacado: { tipo: "cifra", cifra: "1787", unidad: "el decreto que sacó a los muertos" },
+        destacado: { tipo: "cifra", cifra: "1787", unidad: "el decreto que sacó los muertos" },
       },
       {
         rotulo: "Lo que quedó",
@@ -48,7 +48,7 @@ export const CEMENTERIOS: Short[] = [
 
   {
     id: "cementerio-jardin",
-    titulo: "Un cementerio no vendía y mudaron a dos famosos",
+    titulo: "Mudaron a dos famosos para vender",
     gancho: "Estaba lejos y vacío. Trasladaron los restos de unos muertos célebres y se llenó en diez años.",
     categoria: "Cementerios",
     color: "var(--plum)",
@@ -79,7 +79,7 @@ export const CEMENTERIOS: Short[] = [
 
   {
     id: "tumbas-de-alquiler",
-    titulo: "En España la tumba se alquila por años",
+    titulo: "La tumba se alquila por años",
     gancho: "El nicho se paga por un plazo, y si nadie renueva la concesión, los restos van al osario común.",
     categoria: "Cementerios",
     color: "var(--ochre)",

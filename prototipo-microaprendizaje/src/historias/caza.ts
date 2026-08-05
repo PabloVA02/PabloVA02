@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CAZA: Short[] = [
   {
     id: "cazar-corriendo-detras",
-    titulo: "El ser humano caza cansando a la presa",
+    titulo: "Cazamos cansando a la presa",
     gancho: "No corremos rápido, pero sudamos y no paramos. Un animal grande se sobrecalienta antes que nosotros.",
     categoria: "Caza",
     color: "var(--ochre)",
@@ -35,7 +35,7 @@ export const CAZA: Short[] = [
         rotulo: "Seguir el rastro",
         texto:
           "La otra mitad de la técnica es intelectual, y según los que la practican resulta bastante más difícil que la parte de correr. Cuando el antílope desaparece entre la maleza hay que averiguar por dónde ha ido. Los cazadores leen huellas, ramas rotas y excrementos, pero sobre todo predicen adónde iría un animal asustado en ese terreno concreto. Los antropólogos que los han acompañado describen ese rastreo como un ejercicio continuo de hipótesis y comprobación, bastante parecido al método científico, solo que hecho a paso ligero y con cuarenta grados.",
-        destacado: { tipo: "cifra", cifra: "4", unidad: "horas puede durar una persecución así" },
+        destacado: { tipo: "cifra", cifra: "4", unidad: "horas persiguiendo sin parar" },
       },
       {
         rotulo: "Lo que quedó",
@@ -46,7 +46,7 @@ export const CAZA: Short[] = [
   },
   {
     id: "el-bosque-del-rey",
-    titulo: "Cazar un ciervo podía costar la vista",
+    titulo: "Cazar un ciervo costaba la vista",
     gancho: "Los bosques reales estaban reservados al rey, y las penas por matar un ciervo llegaron a la mutilación.",
     categoria: "Caza",
     color: "var(--slate)",
@@ -58,7 +58,7 @@ export const CAZA: Short[] = [
         rotulo: "La ley del bosque",
         texto:
           "Aquella normativa protegía dos cosas: los animales de caza mayor y el bosque que los alimenta. Estaba prohibido matar un ciervo, pero también talar, roturar un campo o dejar suelto un perro grande sin mutilarle una pata para que no pudiera perseguir. Las penas fueron extremas durante décadas, con casos de ceguera y mutilación por matar un venado, y se juzgaban en tribunales especiales con sus propios funcionarios. En algún momento del siglo XII, cerca de un tercio del país estuvo sometido a ese régimen especial, con sus guardas y sus jueces propios.",
-        destacado: { tipo: "cifra", cifra: "33", unidad: "por ciento del país fue bosque real" },
+        destacado: { tipo: "cifra", cifra: "33", unidad: "por ciento del país, bosque real" },
       },
       {
         rotulo: "La reacción",
