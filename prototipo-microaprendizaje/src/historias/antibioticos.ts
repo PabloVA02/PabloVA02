@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ANTIBIOTICOS: Short[] = [
   {
     id: "un-punado-de-tierra",
-    titulo: "El remedio contra la tuberculosis salió del suelo",
+    titulo: "La cura estaba en la tierra",
     gancho: "Un equipo cribó más de diez mil muestras de tierra buscando microbios que se mataran entre ellos.",
     categoria: "Antibióticos",
     color: "var(--plum)",
@@ -46,7 +46,7 @@ export const ANTIBIOTICOS: Short[] = [
 
   {
     id: "el-aviso-de-1945",
-    titulo: "El descubridor avisó del problema al recoger el premio",
+    titulo: "Avisó al recoger el premio",
     gancho: "En 1945 explicó en público cómo se crean bacterias resistentes. Describió exactamente lo que hacemos hoy.",
     categoria: "Antibióticos",
     color: "var(--slate)",
@@ -76,7 +76,7 @@ export const ANTIBIOTICOS: Short[] = [
 
   {
     id: "antibioticos-en-el-pienso",
-    titulo: "La mayoría de los antibióticos van a animales",
+    titulo: "Casi todos van a animales",
     gancho: "Se descubrió por casualidad en 1950 que engordaban a los animales, y desde entonces van en el pienso.",
     categoria: "Antibióticos",
     color: "var(--ochre)",

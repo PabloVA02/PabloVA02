@@ -26,10 +26,10 @@ Y dejó tres condiciones, por este orden de importancia:
 
 Decidido viendo maquetas. Una portada con un titular enorme y nada más obliga
 al lector a apostar a ciegas, y el que duda no pasa de pantalla. **Si ya está
-leyendo, seguir es lo cómodo.** Por eso la portada enseña el título, el
-y **la entrada entera**, sin categoría y sin gancho: ver la regla 14.
+leyendo, seguir es lo cómodo.** Por eso la portada enseña el título y **la
+entrada entera**, sin categoría y sin gancho: ver la regla 14.
 
-De ahí sale la medida nueva de la entrada: **85–110 palabras**, no 53–72. Con
+De ahí sale la medida nueva de la entrada: **95–110 palabras**, no 53–72. Con
 la medida vieja la portada pesaba la mitad que las otras tres pantallas y se
 notaba al pasar. Con la nueva cabe el marco completo —qué se jugaba y por qué
 alguien hacía lo que hacía— en vez de meterlo a empujones en la página 1.
@@ -337,10 +337,24 @@ que quedarse con una frase.
 | --- | --- |
 | `titulo` | 3–6 palabras: la cosa nombrada más el gancho |
 | `gancho` | una o dos frases; no se pinta en la portada, sirve para listas |
-| `entrada` | 85–110 palabras |
-| `texto` de cada página | 90–116 palabras; 85–100 si la página lleva dato |
+| `entrada` | 95–110 palabras |
+| `texto` de cada página | 110–130 palabras; 95–112 si la página lleva dato |
 | `rotulo` | 2–4 palabras; ya no se pinta, pero ordena al que escribe |
 | `destacado` | cifra y hasta 6 palabras, con información que no esté en el texto |
+
+**Sobre estas medidas.** Salen de medir lo que de verdad llena una pantalla de
+móvil con la letra a 17 puntos y la banda de imagen al 28 %: una página se
+completa hasta el margen de abajo con unas 125 palabras, y con unas 105 si
+lleva dato, porque la cifra ocupa su sitio. Escribir menos deja un hueco muerto
+al final de la página, que es lo que hay que evitar.
+
+La última página es la excepción y va corta a propósito: unas 70 palabras, el
+remate y el dato. Ahí el aire de más no es un fallo, es el final.
+
+Los shorts escritos antes de este cambio se quedan unas cincuenta palabras
+cortos y se van alargando en la pasada de revisión. **El validador mantiene de
+momento el rango viejo de 90–116**, porque con el nuevo saltarían los 757 a la
+vez y no se vería nada.
 
 `curioso: true` cuando la historia es un dato curioso y no un
 acontecimiento: se pinta la insignia «Dato curioso» en la portada.

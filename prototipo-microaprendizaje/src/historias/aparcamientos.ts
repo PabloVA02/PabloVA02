@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const APARCAMIENTOS: Short[] = [
   {
     id: "el-parquimetro",
-    titulo: "El parquímetro se inventó contra los oficinistas",
+    titulo: "El parquímetro contra los oficinistas",
     gancho: "Los empleados dejaban el coche todo el día delante de las tiendas, y los comerciantes se quedaban sin clientes.",
     categoria: "Ciudades",
     color: "var(--clay)",
@@ -44,7 +44,7 @@ export const APARCAMIENTOS: Short[] = [
   },
   {
     id: "el-aparcamiento-subterraneo",
-    titulo: "Un aparcamiento bajo tierra es un problema de aire",
+    titulo: "El garaje, problema de aire",
     gancho: "Lo difícil no es excavar. Es sacar los gases de cientos de motores de un sitio cerrado sin que se acumulen.",
     categoria: "Ciudades",
     color: "var(--slate)",
@@ -73,7 +73,7 @@ export const APARCAMIENTOS: Short[] = [
   },
   {
     id: "la-plaza-mas-cara",
-    titulo: "Una plaza de garaje cuesta más que un piso",
+    titulo: "La plaza cara",
     gancho: "En algunas ciudades una plaza se ha vendido por lo que vale una vivienda entera, y la razón no es el capricho.",
     categoria: "Ciudades",
     color: "var(--ochre)",

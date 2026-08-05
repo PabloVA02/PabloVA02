@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const APELLIDOS: Short[] = [
   {
     id: "apellidos-por-impuestos",
-    titulo: "Los apellidos aparecieron para cobrar impuestos",
+    titulo: "Los apellidos nacieron cobrando",
     gancho: "Con dos Juanes en la aldea bastaba un mote. Con un registro fiscal hacía falta algo fijo.",
     categoria: "Apellidos",
     color: "var(--slate)",
@@ -48,7 +48,7 @@ export const APELLIDOS: Short[] = [
 
   {
     id: "islandia-sin-apellidos",
-    titulo: "En Islandia no existen los apellidos",
+    titulo: "Islandia no tiene apellidos",
     gancho: "Cada uno se llama hijo o hija de su padre, y la guía telefónica se ordena por el nombre de pila.",
     categoria: "Apellidos",
     color: "var(--ochre)",
@@ -79,7 +79,7 @@ export const APELLIDOS: Short[] = [
 
   {
     id: "apellidos-por-decreto",
-    titulo: "Hubo países que impusieron los apellidos por ley",
+    titulo: "Apellidos repartidos por ley",
     gancho: "En 1787 se obligó a los judíos del imperio austríaco a adoptar uno, y había tarifa según lo bonito.",
     categoria: "Apellidos",
     color: "var(--plum)",

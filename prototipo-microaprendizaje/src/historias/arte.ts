@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const ARTE: Short[] = [
   {
     id: "gioconda-robo",
-    titulo: "La Gioconda se hizo famosa al ser robada",
+    titulo: "La Gioconda se hizo famosa robada",
     gancho: "En 1911 era un cuadro más. Salió del Louvre bajo una bata de trabajo.",
     categoria: "Arte",
     color: "var(--plum)",
@@ -53,7 +53,7 @@ export const ARTE: Short[] = [
 
   {
     id: "marmol-pintado",
-    titulo: "Las estatuas griegas eran de colores chillones",
+    titulo: "Las estatuas griegas iban pintadas",
     gancho: "El blanco puro que admiramos es pintura perdida y un ideal del siglo XVIII.",
     categoria: "Arte",
     color: "var(--clay)",
@@ -86,7 +86,7 @@ export const ARTE: Short[] = [
 
   {
     id: "azul-ultramar",
-    titulo: "Hubo un azul que costaba más que el oro",
+    titulo: "El azul más caro que oro",
     gancho: "Venía de una sola montaña de Afganistán y salía en los contratos por escrito.",
     categoria: "Arte",
     color: "var(--slate)",
@@ -119,7 +119,7 @@ export const ARTE: Short[] = [
   },
   {
     id: "van-gogh-ventas",
-    titulo: "Van Gogh vendió un cuadro en toda su vida",
+    titulo: "Van Gogh vendió un cuadro",
     gancho: "Pintó novecientos en diez años. Su hermano le pagó los pinceles hasta el final.",
     categoria: "Arte",
     color: "var(--ochre)",
@@ -149,7 +149,7 @@ export const ARTE: Short[] = [
 
   {
     id: "sixtina-tumbado",
-    titulo: "La Capilla Sixtina no se pintó tumbado",
+    titulo: "La Sixtina no se pintó tumbado",
     gancho: "Cuatro años de pie con el cuello doblado hacia atrás. Escribió un poema quejándose.",
     categoria: "Arte",
     color: "var(--slate)",
@@ -180,7 +180,7 @@ export const ARTE: Short[] = [
 
   {
     id: "el-grito-robos",
-    titulo: "El Grito lo han robado dos veces",
+    titulo: "El Grito, robado dos veces",
     gancho: "La primera vez dejaron una nota: «Gracias por la pésima seguridad». Tardaron tres meses en recuperarlo.",
     categoria: "Arte",
     color: "var(--clay)",

@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ARCHIVOS: Short[] = [
   {
     id: "el-archivo-de-un-imperio",
-    titulo: "Un imperio entero cabe en ocho kilómetros de estantes",
+    titulo: "Un imperio en ocho kilómetros",
     gancho: "Cuarenta y tres mil legajos con la contabilidad, los pleitos y las cartas de América durante tres siglos.",
     categoria: "Archivos",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const ARCHIVOS: Short[] = [
   },
   {
     id: "el-papel-que-se-quema",
-    titulo: "Los archivos arden antes que los edificios",
+    titulo: "Los archivos arden primero",
     gancho: "Cuando cae una ciudad, lo primero que desaparece suele ser el papel: por fuego, por saqueo o a propósito.",
     categoria: "Archivos",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const ARCHIVOS: Short[] = [
   },
   {
     id: "cuanto-dura-un-archivo-digital",
-    titulo: "Un fichero digital dura menos que un pergamino",
+    titulo: "El pergamino dura más",
     gancho: "No por la calidad del soporte, sino porque en veinte años nadie tiene el programa que sabía abrirlo.",
     categoria: "Archivos",
     color: "var(--plum)",

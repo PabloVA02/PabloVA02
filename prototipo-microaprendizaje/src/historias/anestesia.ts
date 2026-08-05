@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const ANESTESIA: Short[] = [
   {
     id: "gas-de-la-risa-de-feria",
-    titulo: "El gas de la risa tardó cuarenta años",
+    titulo: "El gas de la risa",
     gancho: "Se vendía en fiestas y espectáculos de feria mientras en los quirófanos se seguía operando en carne viva.",
     categoria: "Anestesia",
     color: "var(--plum)",
@@ -47,7 +47,7 @@ export const ANESTESIA: Short[] = [
 
   {
     id: "anestesia-de-una-hoja",
-    titulo: "El primer anestésico local salió de una hoja",
+    titulo: "El anestésico salió de una hoja",
     gancho: "Se probó en la lengua: si adormece la lengua, adormecerá el ojo. Y funcionó.",
     categoria: "Anestesia",
     color: "var(--ochre)",
@@ -77,7 +77,7 @@ export const ANESTESIA: Short[] = [
 
   {
     id: "no-se-sabe-como-funciona",
-    titulo: "Todavía no se sabe cómo funciona la anestesia general",
+    titulo: "Nadie sabe cómo funciona",
     gancho: "Se usa millones de veces al año y el mecanismo exacto sigue siendo materia de discusión.",
     categoria: "Anestesia",
     color: "var(--slate)",

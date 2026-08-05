@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const ANDAMIOS: Short[] = [
   {
     id: "el-andamio-de-bambu",
-    titulo: "En Hong Kong los andamios son de bambú",
+    titulo: "Los andamios de bambú",
     gancho: "Rascacielos de acero y cristal levantados desde una estructura de cañas atadas a mano. No es folclore: funciona mejor.",
     categoria: "Objetos",
     color: "var(--slate)",
@@ -44,7 +44,7 @@ export const ANDAMIOS: Short[] = [
   },
   {
     id: "la-catedral-y-su-andamio",
-    titulo: "Las catedrales se construyeron con andamios colgados",
+    titulo: "Las catedrales, con andamios colgados",
     gancho: "No llegaban desde el suelo: se apoyaban en el propio muro, en agujeros que todavía se ven.",
     categoria: "Objetos",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const ANDAMIOS: Short[] = [
   },
   {
     id: "el-tubo-y-la-grapa",
-    titulo: "El andamio de metal empezó con un enganche",
+    titulo: "El enganche que salvó vidas",
     gancho: "Antes de 1913 cada andamio se ataba con cuerda y dependía del oficio del montador. Una pieza de hierro acabó con eso.",
     categoria: "Objetos",
     color: "var(--ochre)",

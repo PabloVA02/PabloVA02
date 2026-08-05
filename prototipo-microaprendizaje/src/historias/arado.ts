@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ARADO: Short[] = [
   {
     id: "el-arado-pesado",
-    titulo: "Un arado nuevo abrió el norte de Europa",
+    titulo: "El arado que abrió el norte",
     gancho: "Las tierras húmedas y pesadas del norte eran inservibles hasta que apareció una cuchilla que las volteaba.",
     categoria: "Arado",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const ARADO: Short[] = [
   },
   {
     id: "el-arado-de-acero",
-    titulo: "La tierra se pegaba al arado y lo paraba",
+    titulo: "La tierra que paraba el arado",
     gancho: "En las praderas americanas había que parar cada pocos metros a rascar el barro. Un herrero probó con acero pulido.",
     categoria: "Arado",
     color: "var(--ochre)",
@@ -74,7 +74,7 @@ export const ARADO: Short[] = [
   },
   {
     id: "la-hipotesis-del-arado",
-    titulo: "El arado y el trabajo de las mujeres",
+    titulo: "El arado y ellas",
     gancho: "Donde se aró con tracción animal, hoy hay menos mujeres trabajando fuera de casa. Y no es casualidad.",
     categoria: "Arado",
     color: "var(--plum)",
