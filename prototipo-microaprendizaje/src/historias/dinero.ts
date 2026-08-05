@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const DINERO: Short[] = [
   {
     id: "pengo-hungria",
-    titulo: "El billete más grande no compraba nada",
+    titulo: "El billete que no compraba nada",
     gancho: "Hungría llegó a un billete de cien trillones. Los precios doblaban cada 15 horas.",
     categoria: "Dinero",
     color: "var(--ochre)",
@@ -179,7 +179,7 @@ export const DINERO: Short[] = [
 
   {
     id: "papel-moneda",
-    titulo: "El billete es ochocientos años más viejo",
+    titulo: "El billete lo inventó China",
     gancho: "Europa tardó siglos en fiarse de un papel. En China ya estaban resolviendo la inflación.",
     categoria: "Dinero",
     color: "var(--ochre)",

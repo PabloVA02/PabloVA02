@@ -74,7 +74,7 @@ export const CUERO: Short[] = [
   },
   {
     id: "el-cuero-que-no-es-cuero",
-    titulo: "Casi todo el cuero falso es plástico",
+    titulo: "El cuero falso es plástico",
     gancho: "Se llama de muchas maneras, pero la mayoría son telas recubiertas de plástico. Y algunas alternativas nuevas también.",
     categoria: "Cuero",
     color: "var(--plum)",

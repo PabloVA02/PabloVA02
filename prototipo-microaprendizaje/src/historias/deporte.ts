@@ -179,7 +179,7 @@ export const DEPORTE: Short[] = [
 
   {
     id: "mano-de-dios",
-    titulo: "Dos goles y uno con la mano",
+    titulo: "Dos goles, uno con la mano",
     gancho: "El primero fue trampa y lo vio todo el estadio menos el árbitro. El segundo es el mejor de la historia.",
     categoria: "Deporte",
     color: "var(--slate)",

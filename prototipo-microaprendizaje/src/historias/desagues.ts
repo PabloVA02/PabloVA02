@@ -73,7 +73,7 @@ export const DESAGUES: Short[] = [
   },
   {
     id: "el-remolino-del-desague",
-    titulo: "El desagüe no gira por el hemisferio",
+    titulo: "El desagüe no gira al revés",
     gancho: "La fuerza que se invoca para explicarlo existe y mueve los huracanes. En un lavabo es tan pequeña que la tapa cualquier cosa.",
     categoria: "Objetos",
     color: "var(--plum)",
