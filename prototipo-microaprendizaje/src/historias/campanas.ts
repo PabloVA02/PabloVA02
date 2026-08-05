@@ -20,6 +20,46 @@ export const CAMPANAS: Short[] = [
     categoria: "Historia",
     color: "var(--clay)",
     encargo: "Campana de bronce colgada en un campanario de piedra, vista desde abajo.",
+    /* La campana de cerca, la torre desde donde se oye, el día en que se funde
+       y las manos que todavía la tocan a mano. */
+    fotos: [
+      {
+        archivo: "02640jfBells Rarity Santa Rita Cascia Church belfry bells tower interior Pampangafvf 03.jpg",
+        autor:
+          "Una de las cuatro campanas del campanario de una iglesia de Pampanga, en Filipinas, fundidas en 1876. Fotografía de Judgefloro, 2016.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:02640jfBells_Rarity_Santa_Rita_Cascia_Church_belfry_bells_tower_interior_Pampangafvf_03.jpg",
+        foco: "50% 45%",
+        alt: "Una campana grande de bronce vista desde abajo dentro de un campanario, con la inscripción recorriendo el borde.",
+      },
+      {
+        archivo: "Badajoz. Campanario de la torre de la catedral. España. Spain.jpg",
+        autor:
+          "El campanario de la catedral de Badajoz, del siglo XVI. Desde ahí se oía la hora en todo el pueblo a la vez. Fotografía de Carlos Teixidor Cadenas, 2025.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Badajoz._Campanario_de_la_torre_de_la_catedral._Espa%C3%B1a._Spain.jpg",
+        foco: "50% 45%",
+        alt: "La parte alta de una torre de piedra renacentista, con los huecos de las campanas abiertos a los cuatro lados.",
+      },
+      {
+        archivo: "Casting the Suffrage \"Liberty Bell\" at Troy LCCN2014698748.jpg",
+        autor:
+          "La colada de una campana en una fundición de Troy, Estados Unidos, en 1915: el metal fundido entra por arriba en el molde enterrado. Biblioteca del Congreso.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Casting_the_Suffrage_%22Liberty_Bell%22_at_Troy_LCCN2014698748.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía antigua de una fundición: varios operarios manejan un crisol sobre el suelo mientras un grupo de mujeres con sombrero mira desde un lado.",
+      },
+      {
+        archivo: "Bell ringing at Crosthwaite, Keswick.jpg",
+        autor:
+          "Un equipo de campaneros tocando a cuerda en una iglesia inglesa, 2017. Fotografía de Doug Sim.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bell_ringing_at_Crosthwaite,_Keswick.jpg",
+        foco: "50% 55%",
+        alt: "Vista desde arriba de una sala circular donde ocho personas tiran a la vez de sendas cuerdas que suben al techo.",
+      },
+    ],
     entrada:
       "Europa, siglos IX a XIX. Antes de que existieran los relojes personales, nadie sabía qué hora era salvo mirando el sol. La campana de la iglesia resolvía ese problema para todo el mundo a la vez, porque el sonido llega igual al que está en el campo y al que está en casa. Un pueblo entero trabajaba, comía y se acostaba al ritmo de un badajo, y quien no lo oía quedaba literalmente fuera de la vida del pueblo. Hasta el término que marca los límites de una parroquia se definía por eso: pertenecía a ella todo aquel que alcanzara a oír su campana. Un mapa hecho con sonido, y sin una sola línea dibujada.",
     paginas: [

@@ -22,6 +22,47 @@ export const SEDA: Short[] = [
     categoria: "Seda",
     color: "var(--ochre)",
     encargo: "Capullos blancos de gusano de seda amontonados en una cesta de mimbre.",
+    /* El capullo, el bicho que lo teje, el momento en que llegó a Occidente y
+       lo que se sigue haciendo con él. La tercera es una estampa de 1595 que
+       cuenta exactamente esta historia: los monjes entregando los huevos. */
+    fotos: [
+      {
+        archivo: "Silk cocoon, Sopura Silk Mills Ltd (04).jpg",
+        autor:
+          "Capullos de gusano de seda recogidos en una hilandería de Bangladés. Cada uno es un solo hilo de casi un kilómetro. Fotografía de Moheen Reeyad, 2017.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Silk_cocoon,_Sopura_Silk_Mills_Ltd_(04).jpg",
+        foco: "50% 50%",
+        alt: "Un montón de capullos ovalados de color amarillo intenso, apilados sobre una tela blanca.",
+      },
+      {
+        archivo: "Da Lat - Silkworms eating mulberry leaves.jpg",
+        autor:
+          "Orugas de seda comiendo hoja de morera, que es lo único que comen. Da Lat, Vietnam, 2015. Fotografía de P. Hughes.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Da_Lat_-_Silkworms_eating_mulberry_leaves.jpg",
+        foco: "50% 50%",
+        alt: "Decenas de orugas blancas y gordas moviéndose sobre un lecho de hojas verdes dentro de una bandeja.",
+      },
+      {
+        archivo: "Emperor Justinian Receiving the First Imported Silkworm Eggs from Nestorian Monks, Plate 2 from \"The Introduction of the Silkworm\" -Vermis Sericus- MET DP841101.jpg",
+        autor:
+          "El emperador recibiendo los primeros huevos de gusano traídos de Asia por dos monjes. Estampa de hacia 1595, de la serie «Vermis Sericus». Museo Metropolitano de Arte, Nueva York.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Emperor_Justinian_Receiving_the_First_Imported_Silkworm_Eggs_from_Nestorian_Monks,_Plate_2_from_%22The_Introduction_of_the_Silkworm%22_-Vermis_Sericus-_MET_DP841101.jpg",
+        foco: "50% 45%",
+        alt: "Grabado antiguo: un emperador sentado en su trono recibe a dos religiosos que le tienden un bastón hueco, rodeados de cortesanos.",
+      },
+      {
+        archivo: "Making silk from cocoon at Korean Folk Village.jpg",
+        autor:
+          "Sacando el hilo de los capullos en agua caliente, como se ha hecho siempre. Aldea Folclórica de Corea. Fotografía de Misok Kim, 2015.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Making_silk_from_cocoon_at_Korean_Folk_Village.jpg",
+        foco: "50% 40%",
+        alt: "Una mujer con traje tradicional, agachada junto a un puchero humeante, tira con los dedos de los hilos de unos capullos.",
+      },
+    ],
     entrada:
       "Constantinopla, año 552. El imperio bizantino compra seda a precio de oro a intermediarios persas, que a su vez la traen de China, y el desequilibrio comercial es enorme. China guarda desde hace tres mil años cómo se hace la seda, y sacar el secreto del país se castiga con la muerte. Ni siquiera se sabe fuera si es un mineral, una planta o el pelo de algún animal. Dos monjes que han viajado por Asia se presentan ante el emperador con una oferta concreta: pueden traer ese secreto, si les financia el viaje. El emperador acepta, y lo que traen de vuelta no es un plano ni una receta, sino algo vivo escondido en una caña hueca.",
     paginas: [
