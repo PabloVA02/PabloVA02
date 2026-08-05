@@ -5539,40 +5539,76 @@ button {
 }
 
 /* ==========================================================================
-   EL MODELO BEIGE, PORTADO DE LA MAQUETA APROBADA.
+   EL MODELO BEIGE, CALCADO DE LA MAQUETA APROBADA
 
-   No es una interpretacion: son los mismos valores de la maqueta que aprobo
-   Pablo, pasados de cqw a puntos sobre un movil de 390 (1 cqw = 3,9 puntos).
-   Si algo no cuadra con la maqueta, manda la maqueta.
+   Esto no es una version libre de la maqueta: son sus mismas reglas y sus
+   mismos numeros, copiados uno a uno del <style> de
+   claude.ai/code/artifact/bef12080-8576-4a6d-87cc-f52569559a5c.
 
-   Va al final del fichero a proposito: pisa al modelo anterior, que se
-   conserva porque lo usan otras pantallas de la app.
+   Por eso las medidas van en cqw y no en puntos. En la maqueta la pantalla
+   del movil es el contenedor y todo se mide contra su ancho, asi que basta
+   con declarar aqui ese mismo contenedor —.muro-pagina— para que 4.55cqw
+   valga aqui exactamente lo que vale alli, en cualquier movil. Traducirlo a
+   puntos era lo que dejaba las cosas descolocadas: se redondeaba cada valor
+   y a la tercera suma ya no cuadraba nada.
+
+   Va al final del fichero a proposito: pisa al modelo oscuro, que se
+   conserva porque lo usan las demas pantallas de la app.
    ========================================================================== */
 
-.muro-pagina { background: var(--paper); }
+:root {
+  /* Las dos familias de la maqueta. Ninguna se descarga: las dos listas
+     acaban en una que trae cualquier sistema. */
+  --serifa: "Iowan Old Style", Charter, "Bitstream Charter", Georgia,
+    "Noto Serif", "Times New Roman", serif;
+  --sans: "Avenir Next", Avenir, "Segoe UI Variable Display", "Segoe UI",
+    system-ui, -apple-system, "Helvetica Neue", sans-serif;
+}
+
+/* ---- la pantalla: es el contenedor contra el que se mide todo ---- */
+.muro-pagina {
+  container-type: inline-size;
+  background: var(--paper);
+  color: var(--ink);
+}
 .muro-gesto { display: flex; flex-direction: column; background: var(--paper); }
 
-/* La banda de imagen: 28 % de alto, igual en las cuatro pantallas */
-.muro-foto { position: relative; inset: auto; flex: 0 0 28%; overflow: hidden; }
+/* ---- la barra de arriba ----
+   Tres tramos, uno por pagina, no cuatro: en la portada aun no se ha leido
+   nada y la barra esta entera vacia. Va mas ancha que el texto, de 5cqw a
+   5cqw, que es como esta en la maqueta. */
+.muro-tramos { top: 3.2cqw; left: 5cqw; right: 5cqw; gap: 1.4cqw; }
+.muro-tramo {
+  flex: 1;
+  height: 0.42cqw;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--acento, var(--ochre)) 22%, transparent);
+}
+.muro-tramo-relleno { background: color-mix(in srgb, var(--acento, var(--ochre)) 95%, transparent); }
+
+/* ---- la banda de imagen ----
+   28 % de alto, igual en las cuatro. La foto va tal cual: ni filtro, ni velo,
+   ni degradado. Lo que Pablo pasa es lo que se ve. */
+.muro-foto { position: relative; inset: auto; height: 28%; flex: none; overflow: hidden; }
 .muro-foto .foto-caja,
 .muro-foto .foto-desplaza { position: absolute; inset: 0; }
 .muro-foto .foto-fondo { background: var(--paper-deep); }
 .muro-velo { display: none; }
 
-/* El pie de la imagen: una ficha, no una firma */
+/* ---- el pie de la imagen ---- */
 .muro-credito {
   flex: none;
   margin: 0;
-  padding: 11px var(--shell-pad) 0;
-  font-size: 10.5px;
+  padding: 2.8cqw 5.8cqw 0;
+  font-size: 2.75cqw;
   line-height: 1.42;
-  font-style: italic;
   letter-spacing: 0;
   color: var(--ink-soft);
   opacity: 0.7;
+  font-style: italic;
 }
 
-/* El cuerpo: margenes iguales arriba y abajo */
+/* ---- el cuerpo: mismo margen arriba, abajo y a los dos lados ---- */
 .muro-hoja,
 .muro-hoja[data-forma="portada"],
 .muro-hoja[data-forma="pagina"] {
@@ -5580,33 +5616,36 @@ button {
   inset: auto;
   flex: 1;
   min-height: 0;
-  padding: 25px var(--shell-pad);
+  padding: 6.4cqw 5.8cqw 6.4cqw;
   background: none;
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 3.4cqw;
 }
 /* La cadena tiene que estirarse entera para que el dato pueda apoyarse
    abajo: si un eslabon no crece, el margen automatico no tiene contra que
    empujar y el dato se queda a media pantalla con un hueco debajo. */
-.muro-hoja-cuerpo { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 13px; }
+.muro-hoja-cuerpo { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 3.4cqw; }
 
-/* El titular numero 3: palo seco, pequeno y muy espaciado */
+/* El titular numero 3: palo seco, pequeno y muy espaciado. Es el unico de los
+   ocho que no mueve nada de lo que hay debajo. */
 .muro-hoja h2 {
-  font-family: inherit;
-  font-size: 17px;
-  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 4.4cqw;
   line-height: 1.32;
+  font-weight: 700;
   letter-spacing: 0.13em;
   text-transform: uppercase;
   color: var(--ink);
+  margin: 0;
 }
 
-/* Una sola medida de lectura, y el mismo gris en las cuatro pantallas */
+/* Una sola medida de lectura: la entrada de la portada y el texto de las tres
+   paginas miden exactamente lo mismo, y llevan el mismo gris calido. */
 .muro-entrada,
 .short-cuerpo {
   font-family: var(--serifa);
-  font-size: 17.5px;
+  font-size: 4.55cqw;
   line-height: 1.52;
   color: var(--ink-soft);
   margin: 0;
@@ -5614,49 +5653,57 @@ button {
 .muro-entrada strong,
 .short-cuerpo strong { color: var(--ink); font-weight: 700; }
 
-/* La capitular: tres lineas, con remates, en el color del tema */
+/* La capitular clasica: tres lineas de alto, con remates, en el color del
+   tema. Solo en la portada, que es donde empieza algo. */
 .muro-entrada::first-letter {
+  font-family: var(--serifa);
   float: left;
-  font-size: 52px;
+  font-size: 13.5cqw;
   line-height: 0.8;
-  font-weight: 600;
-  padding: 4px 8px 0 0;
+  padding: 1.1cqw 2cqw 0 0;
   color: var(--acento, var(--ochre));
+  font-weight: 600;
 }
 
 .short-pagina { display: flex; flex-direction: column; flex: 1; min-height: 0; }
 
-/* El dato: una cifra y cuatro palabras, apoyado abajo */
+/* El dato: una cifra y cuatro palabras. Lo delimita la linea de arriba y el
+   tamano del numero, asi que no le hace falta ninguna etiqueta. */
 .short-destacado,
 .short-destacado[data-tipo="cifra"],
 .short-destacado[data-tipo="frase"] {
   margin-top: auto;
-  padding: 13px 0 0;
   border: none;
-  border-top: 1px solid color-mix(in srgb, var(--acento, var(--ochre)) 26%, transparent);
+  border-top: 0.28cqw solid color-mix(in srgb, var(--acento, var(--ochre)) 26%, transparent);
   border-radius: 0;
   background: none;
+  padding: 3.4cqw 0 0;
   display: flex;
   align-items: baseline;
-  gap: 11px;
+  gap: 2.8cqw;
 }
-.short-numero { font-size: 29.5px; font-weight: 600; letter-spacing: -0.03em; color: var(--acento, var(--ochre)); }
+.short-numero {
+  font-size: 7.6cqw;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: var(--acento, var(--ochre));
+  flex: none;
+}
 .short-unidad {
-  font-size: 13px;
+  font-size: 3.4cqw;
   line-height: 1.35;
   color: var(--ink-soft);
   text-transform: none;
   letter-spacing: 0;
   font-weight: 400;
 }
-
-/* Ni la marca ni el contador salen mientras se lee: en la maqueta la pantalla
-   es la pagina entera y estas dos chapas flotaban justo encima de la imagen. */
-.muro-marca,
-.muro-cuenta { display: none; }
+/* La maqueta solo lleva datos de cifra. Cuando el dato es una frase se queda
+   en el mismo sitio y con el mismo filete; lo unico que cambia es que una
+   frase no se puede leer a tamano de pie de foto. */
 .short-destacado[data-tipo="frase"] p {
   font-family: var(--serifa);
-  font-size: 16px;
+  font-size: 4.1cqw;
   line-height: 1.4;
   font-weight: 600;
   color: var(--ink);
@@ -5664,31 +5711,32 @@ button {
 /* Sin la chapa del rayo: en la maqueta el destacado es un filete y un texto,
    y nada mas. El icono venia del modelo oscuro, donde hacia falta separar. */
 .short-comilla { display: none; }
-.short-comilla { background: var(--acento, var(--ochre)); color: var(--paper); }
 
-/* La barra de tramos: fina de verdad y del color del tema */
-.muro-tramos { top: 12px; left: var(--shell-pad); right: var(--shell-pad); gap: 5px; }
-.muro-tramo { height: 1.5px; background: color-mix(in srgb, var(--acento, var(--ochre)) 22%, transparent); }
-.muro-tramo-relleno { background: var(--acento, var(--ochre)); }
+/* Ni la marca ni el contador salen mientras se lee: en la maqueta la pantalla
+   es la pagina entera y estas dos chapas flotaban justo encima de la imagen. */
+.muro-marca,
+.muro-cuenta { display: none; }
 
-/* El pie. En la portada, "Seguir". En la ultima, los botones y el aviso de
-   que la siguiente historia se pide hacia abajo. En las de en medio, nada. */
+/* ---- el pie ----
+   En la portada, "Seguir". En la ultima, los botones y el aviso de que la
+   siguiente historia se pide hacia abajo. En las de en medio, nada. */
 .muro-pie { display: none; }
 .muro-tirar {
   margin-top: auto;
-  padding-top: 13px;
+  padding-top: 3.4cqw;
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 12px;
+  gap: 2cqw;
+  font-size: 3.05cqw;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 600;
   color: var(--acento, var(--ochre));
 }
-/* La flecha del modelo oscuro era una pastilla clara de 26px con la punta
-   pintada de color papel: sobre el beige quedaba un borron y la flecha
-   invisible. Aqui es solo la punta, del color del tema. */
+.short-destacado + .muro-tirar { margin-top: 2.4cqw; }
+/* La flecha del modelo oscuro era una pastilla clara de 26 puntos con la
+   punta pintada de color papel: sobre el beige quedaba un borron y la flecha
+   invisible. En la maqueta es solo la punta, del color del tema. */
 .muro-flecha {
   display: inline;
   width: auto;
@@ -5696,51 +5744,56 @@ button {
   border-radius: 0;
   background: none;
   color: inherit;
-  font-size: 15px;
+  font-size: 3.8cqw;
   line-height: 1;
 }
 
+/* La ultima pantalla es la unica con botones, porque es la unica donde el
+   lector ya ha terminado y puede querer hacer algo con lo que ha leido. */
 .muro-acciones {
   margin-top: auto;
   margin-left: 0;
   width: 100%;
-  padding-top: 17px;
+  padding-top: 4.4cqw;
   display: flex;
-  gap: 10px;
+  gap: 2.6cqw;
 }
 .muro-accion {
   flex: 1;
   width: auto;
   height: auto;
-  border-radius: 11px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 7px;
-  padding: 12px 0;
+  gap: 1.8cqw;
   font-family: inherit;
-  font-size: 12px;
+  font-size: 3.05cqw;
   font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--acento, var(--ochre));
   background: transparent;
-  border: 1px solid color-mix(in srgb, var(--acento, var(--ochre)) 34%, transparent);
+  border: 0.28cqw solid color-mix(in srgb, var(--acento, var(--ochre)) 34%, transparent);
+  border-radius: 2.8cqw;
+  padding: 3cqw 0;
 }
-.muro-accion svg { width: 16px; height: 16px; }
+.muro-accion svg { width: 4.2cqw; height: 4.2cqw; }
 .muro-accion[data-on="true"] { background: var(--acento, var(--ochre)); color: var(--paper); }
 
+/* El siguiente short se pide hacia abajo, no hacia el lado: a los lados se
+   pasan las paginas de este, y abajo se cambia de historia. */
 .muro-siguiente {
-  margin-top: 13px;
+  margin-top: 3.4cqw;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  font-size: 12px;
+  gap: 2cqw;
+  font-size: 3.05cqw;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 600;
   color: color-mix(in srgb, var(--ink-soft) 78%, transparent);
 }
+.muro-siguiente .muro-flecha { font-size: 4cqw; }
 
 /* El grano de la app no sale mientras se lee: la maqueta aprobada es beige
    liso, y el punteado en multiply lo ensuciaba lo justo para que no fuera el

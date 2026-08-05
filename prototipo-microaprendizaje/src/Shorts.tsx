@@ -671,14 +671,18 @@ function PaginaShort({
       </motion.div>
 
       {/* Los tramos van fuera de la capa que se arrastra: son de la historia,
-          no de la pantalla, y moverlos con el dedo los volvería ilegibles. */}
+          no de la pantalla, y moverlos con el dedo los volvería ilegibles.
+
+          Hay un tramo por página, no uno por pantalla: en la portada aún no
+          se ha leído nada y la barra está entera vacía, que es como está en
+          la maqueta. */}
       <div className="muro-tramos" aria-hidden>
-        {Array.from({ length: total }, (_, i) => (
+        {short.paginas.map((_, i) => (
           <span key={i} className="muro-tramo">
             <motion.span
               className="muro-tramo-relleno"
               initial={false}
-              animate={{ scaleX: i <= paso ? 1 : 0 }}
+              animate={{ scaleX: i < paso ? 1 : 0 }}
               transition={springTight}
             />
           </span>
