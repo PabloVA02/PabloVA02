@@ -244,6 +244,24 @@ function Fotografia({
  * su cartel hecho a mano, dibujado para ESA historia, y esos ganan siempre.
  * El resto usa el cartel generado a partir del id.
  */
+/* --------------------------------------------------------------------------
+   El color de una historia lo decide SU TEMA, no la historia suelta. Todos
+   los shorts de Cocina son del mismo color y todos los de Figuras de otro, de
+   manera que el color dice de qué se está hablando antes de leer una palabra.
+
+   Se reparte por el nombre de la categoría, no a mano: así un tema nuevo
+   recibe el suyo el día que se escribe y nadie tiene que acordarse de nada.
+   -------------------------------------------------------------------------- */
+
+const ACENTOS = ["--clay", "--ochre", "--sage", "--plum", "--slate"] as const;
+
+function acentoDe(short: Short) {
+  const t = short.categoria ?? "";
+  let n = 0;
+  for (let i = 0; i < t.length; i++) n = (n * 31 + t.charCodeAt(i)) >>> 0;
+  return `var(${ACENTOS[n % ACENTOS.length]})`;
+}
+
 function respaldoDe(short: Short) {
   const propio = PORTADAS[short.id];
   if (propio) return propio;
@@ -468,7 +486,7 @@ function PaginaShort({
     <section
       className="muro-pagina"
       data-indice={indice}
-      style={{ ["--acento" as string]: short.color }}
+      style={{ ["--acento" as string]: acentoDe(short) }}
     >
       {/* El gesto vive en la página entera: se desliza desde cualquier punto,
           no hay que ir a buscar el texto de abajo. `touch-action: pan-y` deja

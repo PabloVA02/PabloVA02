@@ -43,6 +43,15 @@
   --plum-veil: #ded3dc;
   --slate-veil: #cfd9de;
 
+  /* La letra de leer. Todo lo que es texto largo —la entrada de la portada y
+     el cuerpo de las páginas— va con remates: una serifa dice "esto se lee" y
+     el palo seco dice "esto es una interfaz". Curva es lo primero.
+
+     No se descarga nada: las cuatro primeras vienen de fábrica en iOS, en
+     Android y en Windows, así que siempre cae en una buena de pantalla. */
+  --serifa: "Iowan Old Style", Charter, "Bitstream Charter", Georgia,
+    "Noto Serif", "Times New Roman", serif;
+
   --radius-card: 26px;
   --shell-pad: 22px;
 
@@ -2269,8 +2278,8 @@ button {
        se come la barra de tramos y el contador. */
     linear-gradient(
       to bottom,
-      color-mix(in srgb, var(--sombra) 52%, transparent) 0%,
-      transparent 16%
+      color-mix(in srgb, var(--sombra) 40%, transparent) 0%,
+      transparent 9%
     ),
     /* Los tramos no están repartidos a ojo: el bloque de texto de la portada
        ocupa de la quinta parte a los dos tercios de la altura, contando desde
@@ -2293,8 +2302,8 @@ button {
   background:
     linear-gradient(
       to bottom,
-      color-mix(in srgb, var(--sombra) 52%, transparent) 0%,
-      transparent 16%
+      color-mix(in srgb, var(--sombra) 40%, transparent) 0%,
+      transparent 9%
     ),
     linear-gradient(
       to top,
@@ -2319,10 +2328,10 @@ button {
 
 .muro-tramo {
   flex: 1;
-  height: 3px;
+  height: 2px;
   border-radius: 999px;
   overflow: hidden;
-  background: rgba(242, 236, 225, 0.26);
+  background: rgba(242, 236, 225, 0.22);
 }
 
 .muro-tramo-relleno {
@@ -2331,7 +2340,7 @@ button {
   height: 100%;
   border-radius: 999px;
   transform-origin: left center;
-  background: var(--paper);
+  background: var(--acento, var(--ochre));
 }
 
 /* La capa del gesto cubre la página entera: se desliza desde cualquier punto.
@@ -2395,8 +2404,9 @@ button {
 }
 
 .muro-hoja h2 {
-  font-size: 26px;
-  font-weight: 760;
+  font-family: var(--serifa);
+  font-size: 27px;
+  font-weight: 600;
   line-height: 1.14;
   letter-spacing: -0.028em;
   color: var(--paper);
@@ -2405,9 +2415,10 @@ button {
 
 /* El gancho: una línea, en voz alta. Es lo que decide si alguien se queda */
 .muro-gancho {
+  font-family: var(--serifa);
   margin-top: 11px;
-  font-size: 15.5px;
-  font-weight: 650;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 1.34;
   letter-spacing: -0.012em;
   color: rgba(242, 236, 225, 0.95);
@@ -2416,9 +2427,10 @@ button {
 
 /* Y debajo el párrafo de entrada, ya en voz normal */
 .muro-entrada {
+  font-family: var(--serifa);
   margin-top: 10px;
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.54;
   color: rgba(242, 236, 225, 0.72);
   text-wrap: pretty;
 }
@@ -2677,6 +2689,18 @@ button {
   gap: 10px;
 }
 
+/* Un filete del color del tema debajo del rótulo: marca dónde empieza el
+   texto y mete el acento en la página sin gastar sitio. Un píxel de alto —si
+   se engorda parece un subrayado y compite con la fotografía. */
+.short-rotulo-fila::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  border-radius: 999px;
+  background: var(--acento, var(--ochre));
+  opacity: 0.5;
+}
+
 /* El número de página, grande y apagado: sitúa sin competir con el rótulo */
 .short-indice {
   font-size: 26px;
@@ -2697,7 +2721,8 @@ button {
 }
 
 .short-cuerpo {
-  font-size: 14.5px;
+  font-family: var(--serifa);
+  font-size: 15.5px;
   line-height: 1.56;
   color: rgba(242, 236, 225, 0.88);
   text-wrap: pretty;
@@ -2711,8 +2736,8 @@ button {
 .short-destacado {
   padding: 12px 15px;
   border-radius: 16px;
-  background: rgba(242, 236, 225, 0.06);
-  border: 1px solid rgba(242, 236, 225, 0.09);
+  background: rgba(242, 236, 225, 0.05);
+  border: 1px solid color-mix(in srgb, var(--acento, var(--ochre)) 32%, transparent);
 }
 
 /* La cifra y su unidad comparten línea. De pie ocupaban dos alturas, y encima
@@ -2730,8 +2755,9 @@ button {
 }
 
 .short-destacado[data-tipo="frase"] p {
-  font-size: 15px;
-  font-weight: 680;
+  font-family: var(--serifa);
+  font-size: 15.5px;
+  font-weight: 600;
   line-height: 1.34;
   letter-spacing: -0.015em;
   color: var(--paper);
