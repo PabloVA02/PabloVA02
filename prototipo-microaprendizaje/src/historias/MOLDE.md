@@ -401,3 +401,26 @@ acontecimiento: se pinta la insignia «Dato curioso» en la portada.
 8. ¿Hay algún aparato o término usado antes de explicarlo?
 9. ¿Hay alguna frase de más de 35 palabras?
 10. ¿Están todas las medidas dentro de rango?
+
+## 16. La entrada llega abajo
+
+La entrada de la portada tiene que llegar hasta abajo dejando **una línea de
+margen**, el mismo que hay arriba. No es capricho: Pablo lo vio de un vistazo
+—«no ajustas bien el margen de abajo»— y medido en pantalla la diferencia era
+de seis líneas de aire.
+
+**El número de palabras no es el mismo para todos.** Depende de si el título
+cabe en una línea o parte en dos, y de lo largas que sean las palabras. Medido:
+
+| título | palabras | margen que queda |
+|---|---|---|
+| de dos líneas | unas 100 | 37 pt |
+| de una línea | unas 120 | 37 pt |
+
+Así que la regla es **«que el texto llegue abajo dejando una línea»**, y las
+cifras de arriba son la ayuda para acertar a la primera. La horquilla del
+validador, 100-125, solo caza los que se pasan o se quedan muy cortos.
+
+Los 756 shorts escritos con la medida vieja —mediana de 62 palabras— llevan
+seis líneas de hueco. Se van alargando por tandas, y
+`node scripts/revisa-shorts.mjs --flojos` los lista.
