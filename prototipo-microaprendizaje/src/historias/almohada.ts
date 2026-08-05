@@ -16,13 +16,13 @@ import type { Short } from "../shorts";
 export const ALMOHADA: Short[] = [
   {
     id: "la-almohada-de-madera",
-    titulo: "Las almohadas eran de madera",
+    titulo: "Almohada de madera",
     gancho: "De madera, de piedra o de cerámica. No eran una tortura: cumplían un trabajo que la blanda no hace.",
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Reposacabezas egipcio de madera con la curva para el cuello, sobre fondo neutro.",
     entrada:
-      "Egipto y China, desde hace unos cinco mil años. Las almohadas más antiguas que se conservan son bloques de madera, de piedra o de cerámica esmaltada, con una curva para el cuello. Parecen instrumentos de castigo y no lo eran. Servían para levantar la cabeza del suelo, para que no se acercaran los bichos y para no estropear el peinado, que costaba horas.",
+      "Egipto y China, desde hace unos cinco mil años. Las almohadas más antiguas que se conservan son bloques de madera, de piedra o de cerámica esmaltada, con una curva para el cuello. Parecen instrumentos de castigo y no lo eran. Servían para levantar la cabeza del suelo, para que no se acercaran los bichos y, sobre todo, para no estropear el peinado. Un peinado de aquellos costaba horas de trabajo y se llevaba puesto días enteros, así que dormir sin aplastarlo compensaba la incomodidad. Y esa almohada dura hacía además una cosa que la blanda no hace, que es la razón por la que en algunos países se sigue usando.",
     paginas: [
       {
         rotulo: "Sostener el cuello",

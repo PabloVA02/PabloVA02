@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const CAMPANAS: Short[] = [
   {
     id: "la-campana-que-marcaba-el-dia",
-    titulo: "La campana mandaba en el pueblo",
+    titulo: "La campana mandaba",
     gancho: "Antes del reloj de bolsillo, el sonido de la campana era la única manera de saber la hora todos a la vez.",
     categoria: "Historia",
     color: "var(--clay)",
     encargo: "Campana de bronce colgada en un campanario de piedra, vista desde abajo.",
     entrada:
-      "Europa, siglos IX a XIX. Antes de que existieran los relojes personales, nadie sabía qué hora era salvo mirando el sol. La campana de la iglesia resolvía ese problema para todo el mundo a la vez, porque el sonido llega igual al que está en el campo y al que está en casa. Un pueblo entero trabajaba, comía y se acostaba al ritmo de un badajo.",
+      "Europa, siglos IX a XIX. Antes de que existieran los relojes personales, nadie sabía qué hora era salvo mirando el sol. La campana de la iglesia resolvía ese problema para todo el mundo a la vez, porque el sonido llega igual al que está en el campo y al que está en casa. Un pueblo entero trabajaba, comía y se acostaba al ritmo de un badajo, y quien no lo oía quedaba literalmente fuera de la vida del pueblo. Hasta el término que marca los límites de una parroquia se definía por eso: pertenecía a ella todo aquel que alcanzara a oír su campana. Un mapa hecho con sonido, y sin una sola línea dibujada.",
     paginas: [
       {
         rotulo: "Golpes y toques",

@@ -14,13 +14,13 @@ import type { Short } from "../shorts";
 export const GAFAS_DE_SOL: Short[] = [
   {
     id: "las-gafas-de-hueso",
-    titulo: "Las primeras gafas eran de hueso",
+    titulo: "Gafas de hueso",
     gancho: "Eran una tira de hueso con dos ranuras finísimas, y protegían de la nieve mejor que cualquier cristal oscuro.",
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Gafas de nieve inuit talladas en hueso, con dos ranuras horizontales y cordel de tendón.",
     entrada:
-      "Ártico, desde hace por lo menos dos mil años. En primavera, la nieve devuelve casi toda la luz que le llega y quien camina sobre ella recibe el doble de sol que en cualquier otro sitio. El resultado es una quemadura en la superficie del ojo que deja ciego durante días y duele como si hubiera arena dentro. Los pueblos del Ártico lo resolvieron con una tira de hueso.",
+      "Ártico, desde hace por lo menos dos mil años. En primavera, la nieve devuelve casi toda la luz que le llega y quien camina sobre ella recibe el doble de sol que en cualquier otro sitio. El resultado es una quemadura en la superficie del ojo que deja ciego durante días y duele como si hubiera arena dentro. El problema no tiene arreglo una vez hecho. No hay pomada ni descanso que devuelvan la vista antes de dos o tres días, y en un sitio donde cazar es comer, tres días ciego son muchos días. Los pueblos del Ártico lo resolvieron hace milenios con una tira de hueso atada a la cabeza, y la solución que encontraron no se parece nada a unas gafas de sol modernas.",
     paginas: [
       {
         rotulo: "La ranura",

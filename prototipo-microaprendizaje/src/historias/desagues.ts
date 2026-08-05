@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const DESAGUES: Short[] = [
   {
     id: "el-sifon-del-fregadero",
-    titulo: "El tubo curvo es una trampa",
+    titulo: "El sifón del desagüe",
     gancho: "Retiene siempre un dedo de agua, y ese dedo es lo único que impide que el olor de la alcantarilla entre en casa.",
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Sifón de fregadero visto de lado, en corte, con el agua retenida en la curva.",
     entrada:
-      "Reino Unido, 1775. Un relojero de Londres patenta una pieza que no parece nada: un tubo doblado en forma de ese que se coloca debajo de cada desagüe. La ciudad huele mal por dentro porque los retretes conectan directamente con las cloacas y el aire de abajo sube por el agujero. Esa curva tan simple es la que separa el olor de la casa del olor de la alcantarilla.",
+      "Reino Unido, 1775. Un relojero de Londres patenta una pieza que no parece nada: un tubo doblado en forma de ese que se coloca debajo de cada desagüe. La ciudad huele mal por dentro porque los retretes conectan directamente con las cloacas y el aire de abajo sube por el agujero. Nadie entiende todavía que ese aire transmita enfermedades, pero todo el mundo sabe que la casa apesta. Esa curva tan simple es la que separa el olor de la casa del olor de la alcantarilla, y lo hace sin electricidad, sin piezas móviles y sin gastar nada. Lleva doscientos cincuenta años funcionando igual.",
     paginas: [
       {
         rotulo: "El tapón de agua",

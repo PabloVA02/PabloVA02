@@ -5897,3 +5897,30 @@ button {
   white-space: nowrap;
   font-size: calc(4.4cqw * var(--encoge, 1));
 }
+
+/* Pantallas bajas: que el texto no llegue nunca a pisar el «Seguir».
+
+   Un iPhone SE mide 667 de alto. Con la banda ya rebajada al 18 % le quedan
+   unas catorce líneas para el texto, y una entrada de las que llenan una
+   pantalla normal ocupa diecisiete: rebosaba cuatro puntos y tapaba el
+   «Seguir». Alargar menos las entradas no vale, porque entonces en un móvil
+   normal quedaría el hueco de siempre.
+
+   Así que en las pantallas bajas cede la medida de lectura, no el texto. Es
+   la misma proporción que ya hace `cqw` con el ancho: en un móvil más pequeño
+   la letra es más pequeña. Sigue siendo UNA medida por pantalla, que es la
+   regla de Pablo: la portada y las tres páginas miden lo mismo entre ellas.
+   En cualquier móvil de 780 para arriba —o sea, todos los de los últimos diez
+   años— no cambia absolutamente nada. */
+@media (max-height: 780px) {
+  .muro-entrada,
+  .short-cuerpo { font-size: 4.4cqw; }
+  .muro-hoja,
+  .muro-hoja[data-forma="portada"],
+  .muro-hoja[data-forma="pagina"] { padding: 5.4cqw 5.8cqw; gap: 2.8cqw; }
+  .muro-hoja-cuerpo { gap: 2.8cqw; }
+}
+@media (max-height: 700px) {
+  .muro-entrada,
+  .short-cuerpo { font-size: 4.25cqw; }
+}

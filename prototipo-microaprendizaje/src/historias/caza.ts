@@ -16,14 +16,14 @@ import type { Short } from "../shorts";
 export const CAZA: Short[] = [
   {
     id: "cazar-corriendo-detras",
-    titulo: "Cazamos cansando a la presa",
+    titulo: "Cazar cansando",
     gancho: "No corremos rápido, pero sudamos y no paramos. Un animal grande se sobrecalienta antes que nosotros.",
     categoria: "Caza",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una llanura seca con hierba alta y huellas marcadas en el polvo.",
     entrada:
-      "Sur de África, con una técnica documentada por antropólogos desde el siglo XIX y estudiada a fondo en 2004. Un grupo de cazadores elige un antílope, lo levanta y lo sigue al trote durante horas bajo el sol del mediodía. No intentan alcanzarlo, porque es imposible: lo que hacen es impedirle descansar hasta que el animal se derrumba por calor.",
+      "Sur de África, con una técnica documentada por antropólogos desde el siglo XIX y estudiada a fondo en 2004. Un grupo de cazadores elige un antílope, lo levanta y lo sigue al trote durante horas bajo el sol del mediodía. No intentan alcanzarlo, porque es imposible: un antílope corre el doble de rápido que un hombre. Lo que hacen es impedirle descansar hasta que el animal se derrumba por calor. La persecución dura entre dos y cinco horas, y termina con el cazador acercándose andando a un antílope que ya no puede levantarse. Ningún otro animal grande caza así, y la razón está en el cuerpo humano.",
     paginas: [
       {
         rotulo: "El sudor",

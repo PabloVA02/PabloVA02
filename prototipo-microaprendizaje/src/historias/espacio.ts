@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ESPACIO: Short[] = [
   {
     id: "luna-combustible",
-    titulo: "Bajaban a ciegas",
+    titulo: "El alunizaje a ciegas",
     gancho: "El ordenador de a bordo se colapsó, el sitio previsto era un pedregal y quedaba gasolina para medio minuto.",
     categoria: "Espacio",
     color: "var(--slate)",

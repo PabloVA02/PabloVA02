@@ -14,13 +14,13 @@ import type { Short } from "../shorts";
 export const ABANICO: Short[] = [
   {
     id: "el-abanico-plegable",
-    titulo: "El abanico llegó de Japón",
+    titulo: "El abanico plegable",
     gancho: "En Europa se abanicaban con una pantalla rígida. El plegable es un invento japonés que cabe en un puño.",
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Abanico plegable abierto sobre una mesa, con el varillaje de madera a la vista.",
     entrada:
-      "Japón, siglo VIII, y Europa a partir del XVI. El abanico rígido, que es una pantalla con mango, existe en casi todas las culturas calurosas desde hace milenios. El plegable, en cambio, se inventó en Japón y tardó siglos en llegar a Europa por la ruta de los portugueses. Su gracia es que se guarda en un puño y se despliega en un gesto.",
+      "Japón, siglo VIII, y Europa a partir del XVI. El abanico rígido, que es una pantalla con mango, existe en casi todas las culturas calurosas desde hace milenios. El plegable, en cambio, se inventó en Japón y tardó siglos en llegar a Europa por la ruta de los portugueses. Su gracia es que se guarda en un puño y se despliega en un gesto, y esa gracia salió de mirar algo que no tenía nada que ver con el calor. Lo que hay detrás del abanico plegable es un murciélago, y detrás de su éxito en Europa hay algo todavía más raro: un idioma entero hecho de gestos con la muñeca.",
     paginas: [
       {
         rotulo: "Mover el aire",

@@ -18,13 +18,13 @@ import type { Short } from "../shorts";
 export const IMPUESTOS: Short[] = [
   {
     id: "impuesto-de-las-ventanas",
-    titulo: "El impuesto que tapió ventanas",
+    titulo: "Impuesto por ventana",
     gancho: "Se cobraba por hueco en la fachada, así que media Inglaterra emparedó los suyos con ladrillo.",
     categoria: "Impuestos",
     color: "var(--slate)",
     encargo: "Una fachada de ladrillo con dos ventanas tapiadas y el marco todavía marcado en la pared.",
     entrada:
-      "Inglaterra, 1696. La corona necesita dinero y no se atreve a preguntar cuánto gana cada uno, porque husmear en los ingresos de un hombre se considera entonces una intromisión intolerable. Así que grava algo que puede contarse desde la calle sin entrar en ninguna casa: las ventanas. Cada vivienda paga una cantidad fija y, a partir de cierto número de huecos, un suplemento por cada uno.",
+      "Inglaterra, 1696. La corona necesita dinero y no se atreve a preguntar cuánto gana cada uno, porque husmear en los ingresos de un hombre se considera entonces una intromisión intolerable. Así que grava algo que puede contarse desde la calle sin entrar en ninguna casa: las ventanas. Cada vivienda paga una cantidad fija y, a partir de cierto número de huecos, un suplemento por cada uno. La lógica es impecable sobre el papel: quien tiene más ventanas tiene una casa más grande, y quien tiene una casa más grande tiene más dinero. Lo que la corona no calculó es hasta dónde iba a llegar la gente para no pagarlo.",
     paginas: [
       {
         rotulo: "La cuenta desde fuera",

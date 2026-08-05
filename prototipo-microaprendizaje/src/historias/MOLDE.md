@@ -421,6 +421,16 @@ Así que la regla es **«que el texto llegue abajo dejando una línea»**, y las
 cifras de arriba son la ayuda para acertar a la primera. La horquilla del
 validador, 100-125, solo caza los que se pasan o se quedan muy cortos.
 
+**No hace falta que todas midan igual.** Pablo: «puede haber en algunas dos
+líneas más o dos líneas menos, no pasa nada». Lo que sí es obligatorio es que
+el texto **no llegue nunca a tapar el "Seguir"**. La banda buena va de una a
+tres líneas de hueco; por debajo de una es peligroso y por encima de cuatro se
+ve el agujero.
+
+Y hay que mirarlo en un móvil bajo, no solo en uno normal: en un iPhone SE
+—667 de alto— cabe menos, y ahí es donde el texto pisa el «Seguir» primero.
+`choque.mjs` en el scratchpad lo comprueba en cuatro tamaños de golpe.
+
 Los 756 shorts escritos con la medida vieja —mediana de 62 palabras— llevan
 seis líneas de hueco. Se van alargando por tandas, y
 `node scripts/revisa-shorts.mjs --flojos` los lista.
@@ -437,6 +447,12 @@ encogido se nota.
 
 Para medir uno antes de escribirlo: `node cabe.mjs "tu título"` en el
 scratchpad, que lo pinta con la letra de la app y dice si entra.
+
+**Y tiene que decir de qué va.** Corto no es lo mismo que vago. «Bajarse a
+rascar» cabe de sobra y no dice nada; «Nieve en el cristal» cabe igual y
+sitúa el tema. El título nombra la cosa de la que se habla —el ancla, el
+sifón, el abanico, el gusano— o dice algo concreto que le pasa. Si al leerlo
+solo no se sabe de qué va el short, no vale aunque suene bien.
 
 Y ojo al orden de trabajo: **el título y la entrada del mismo short se hacen a
 la vez**. El título decide si ocupa una línea o dos, y eso cambia cuántas

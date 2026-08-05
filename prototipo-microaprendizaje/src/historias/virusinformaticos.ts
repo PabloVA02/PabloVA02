@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const VIRUS_INFORMATICOS: Short[] = [
   {
     id: "el-primer-gusano",
-    titulo: "Contó y tumbó la red",
+    titulo: "El gusano de 1988",
     gancho: "Un estudiante quería medir cuántos ordenadores había conectados. Un error de cálculo colapsó la red entera.",
     categoria: "Tecnología",
     color: "var(--slate)",

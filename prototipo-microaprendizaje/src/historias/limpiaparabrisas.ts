@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const LIMPIAPARABRISAS: Short[] = [
   {
     id: "bajarse-a-rascar-el-cristal",
-    titulo: "Bajarse a rascar",
+    titulo: "Nieve en el cristal",
     gancho: "Antes de 1903 el conductor bajaba del coche cada pocos minutos a despejar el cristal. Una visitante de Nueva York patentó la solución.",
     categoria: "Limpiaparabrisas",
     color: "var(--plum)",

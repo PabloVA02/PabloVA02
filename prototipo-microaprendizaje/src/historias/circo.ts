@@ -16,14 +16,14 @@ import type { Short } from "../shorts";
 export const CIRCO: Short[] = [
   {
     id: "pista-de-trece-metros",
-    titulo: "Todas las pistas miden lo mismo",
+    titulo: "La pista, 13 metros",
     gancho: "Trece metros de diámetro, en cualquier país y desde 1768. Lo decide la fuerza que empuja al caballo.",
     categoria: "Circo",
     color: "var(--clay)",
     curioso: true,
     encargo: "Una pista circular de serrín vista desde arriba, con la valla baja de madera roja.",
     entrada:
-      "Londres, 1768. Un antiguo sargento de caballería que se gana la vida enseñando equitación monta un espectáculo en un terreno cercado junto al río: galopa en círculo de pie sobre la silla. Cobra entrada. Aquello, que parece una acrobacia de feria, es en realidad el nacimiento del circo moderno, y su medida es lo que se ha quedado hasta hoy.",
+      "Londres, 1768. Un antiguo sargento de caballería que se gana la vida enseñando equitación monta un espectáculo en un terreno cercado junto al río: galopa en círculo de pie sobre la silla. Cobra entrada. Aquello, que parece una acrobacia de feria, es en realidad el nacimiento del circo moderno. Y lo más raro es lo que se ha quedado hasta hoy. No los caballos, ni el número, ni la carpa: lo que ha llegado idéntico hasta las pistas de ahora es la medida exacta del círculo que aquel hombre dibujó en el suelo. Trece metros de diámetro, en Londres, en Moscú y en Buenos Aires, desde hace más de dos siglos. Y no la eligió por gusto.",
     paginas: [
       {
         rotulo: "La fuerza del giro",

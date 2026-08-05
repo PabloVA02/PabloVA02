@@ -18,13 +18,13 @@ import type { Short } from "../shorts";
 export const ISLAS: Short[] = [
   {
     id: "estatuas-caminando",
-    titulo: "Las estatuas fueron andando",
+    titulo: "Estatuas que andaron",
     gancho: "Los isleños lo dijeron siempre y nadie les creyó. Se ha probado con cuerdas y dieciocho personas.",
     categoria: "Islas",
     color: "var(--slate)",
     encargo: "Una estatua de piedra de espaldas al mar, con la base ancha y el cuerpo inclinado.",
     entrada:
-      "Pacífico sur, siglo XVII. En una isla de veinticuatro kilómetros de largo, a tres mil quinientos kilómetros de la costa más cercana, hay casi un millar de estatuas de piedra de hasta ochenta toneladas, talladas en una cantera y trasladadas a plataformas repartidas por toda la costa. Nadie de fuera sabe cómo se movieron.",
+      "Pacífico sur, siglo XVII. En una isla de veinticuatro kilómetros de largo, a tres mil quinientos kilómetros de la costa más cercana, hay casi un millar de estatuas de piedra de hasta ochenta toneladas. Están talladas en una misma cantera y repartidas por plataformas de toda la costa. La isla no tiene árboles grandes, ni animales de tiro, ni ruedas, y sus habitantes eran unos pocos miles. Nadie de fuera sabe cómo se movieron esas piedras, y durante dos siglos se dio por hecho que la explicación tenía que ser que las arrastraron tumbadas sobre troncos. Los propios isleños contaban otra cosa, y nadie les hizo caso.",
     paginas: [
       {
         rotulo: "Los troncos",

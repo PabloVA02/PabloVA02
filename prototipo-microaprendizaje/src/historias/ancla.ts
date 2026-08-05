@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const ANCLA: Short[] = [
   {
     id: "el-ancla-no-sujeta-por-peso",
-    titulo: "El ancla no sujeta por peso",
+    titulo: "El ancla muerde",
     gancho: "Un buque de cien mil toneladas se queda quieto con un ancla de diez. Lo que sujeta es el fondo y la cadena.",
     categoria: "Barcos",
     color: "var(--slate)",
     encargo: "Ancla de uñas enterrada a medias en la arena del fondo, con la cadena tumbada.",
     entrada:
-      "Todos los mares del mundo, con el diseño actual asentado desde 1821. Un barco grande lleva un ancla que pesa una milésima parte de lo que pesa él, y aun así aguanta el viento y la corriente. La explicación no está en el hierro, sino en dos cosas: la forma del ancla, que se clava en el fondo, y el peso de la cadena tumbada.",
+      "Todos los mares del mundo, con el diseño actual asentado desde 1821. Un barco grande lleva un ancla que pesa una milésima parte de lo que pesa él, y aun así aguanta el viento y la corriente. Un ancla que sujetara por peso tendría que pesar tanto como el barco. La explicación no está en el hierro, sino en dos cosas que trabajan juntas. Una es la forma del ancla, que se clava en el fondo en cuanto se tira de ella. La otra es el peso de la cadena tumbada, que se encarga de que se tire siempre en la dirección correcta. Si la cadena se levantara del fondo, el ancla saldría de un tirón y el barco se iría a la deriva.",
     paginas: [
       {
         rotulo: "Morder el fondo",

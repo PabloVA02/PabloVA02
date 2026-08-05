@@ -17,13 +17,13 @@ import type { Short } from "../shorts";
 export const SEDA: Short[] = [
   {
     id: "secreto-de-la-seda",
-    titulo: "El secreto de la seda salió en un bastón",
+    titulo: "La seda en un bastón",
     gancho: "China lo guardó tres mil años bajo pena de muerte. Dos monjes lo sacaron en cañas huecas.",
     categoria: "Seda",
     color: "var(--ochre)",
     encargo: "Capullos blancos de gusano de seda amontonados en una cesta de mimbre.",
     entrada:
-      "Constantinopla, año 552. El imperio bizantino compra seda a precio de oro a intermediarios persas, que a su vez la traen de China, y el desequilibrio comercial es enorme. Dos monjes que han viajado por Asia se presentan ante el emperador con una oferta concreta: pueden traer el secreto de cómo se fabrica, si les financia el viaje.",
+      "Constantinopla, año 552. El imperio bizantino compra seda a precio de oro a intermediarios persas, que a su vez la traen de China, y el desequilibrio comercial es enorme. China guarda desde hace tres mil años cómo se hace la seda, y sacar el secreto del país se castiga con la muerte. Ni siquiera se sabe fuera si es un mineral, una planta o el pelo de algún animal. Dos monjes que han viajado por Asia se presentan ante el emperador con una oferta concreta: pueden traer ese secreto, si les financia el viaje. El emperador acepta, y lo que traen de vuelta no es un plano ni una receta, sino algo vivo escondido en una caña hueca.",
     paginas: [
       {
         rotulo: "El gusano",

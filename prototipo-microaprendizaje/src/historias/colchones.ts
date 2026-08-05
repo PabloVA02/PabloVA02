@@ -14,13 +14,13 @@ import type { Short } from "../shorts";
 export const COLCHONES: Short[] = [
   {
     id: "de-paja-a-muelles",
-    titulo: "El colchón, un saco de paja",
+    titulo: "El colchón de paja",
     gancho: "Durante siglos se dormía sobre paja, lana o crin de caballo, y todos esos rellenos tenían el mismo defecto.",
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Un jergón de tela rayada abierto por una costura, con la paja saliendo.",
     entrada:
-      "Europa, siglo XIX. Hasta entonces, dormir bien dependía del relleno que uno pudiera pagar: paja para los jornaleros, lana o crin de caballo para los acomodados y plumón para los ricos. Todos esos rellenos tenían el mismo defecto, porque se apelmazaban con el peso del cuerpo y había que ahuecarlos a mano cada mañana, un trabajo que en las casas grandes ocupaba a una criada.",
+      "Europa, siglo XIX. Hasta entonces, dormir bien dependía del relleno que uno pudiera pagar: paja para los jornaleros, lana o crin de caballo para los acomodados y plumón para los ricos. Todos esos rellenos tenían el mismo defecto. Se apelmazaban con el peso del cuerpo y había que ahuecarlos a mano cada mañana, un trabajo que en las casas grandes ocupaba a una criada entera. Y ninguno se podía lavar por dentro, así que el colchón acumulaba durante años todo lo que le fuera cayendo. Lo que cambió la cama no fue un material nuevo ni un relleno mejor, sino una pieza de alambre.",
     paginas: [
       {
         rotulo: "El relleno",
