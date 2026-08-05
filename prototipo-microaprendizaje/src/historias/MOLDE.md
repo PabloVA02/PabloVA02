@@ -227,6 +227,39 @@ qué. Si una frase mete dos ideas, se parte en dos.
 La prueba: **coger una frase suelta, al azar, y leerla sin las de alrededor.**
 Si no se sabe de qué está hablando, esa frase está mal escrita.
 
+## 12. La maqueta no se mueve. Solo cambian el texto y la imagen
+
+Decidido por Pablo: al pasar de página **no cambia nada de la estructura**.
+Misma banda de imagen arriba, misma tarjeta debajo, mismos márgenes, mismo
+tamaño de letra, misma chapa en el mismo sitio. Lo único que se renueva es el
+texto y la fotografía.
+
+La razón es que una maqueta que se repite se vuelve invisible, y una maqueta
+invisible deja leer. Si cada página se monta distinta, el lector gasta el
+primer segundo entendiendo la página en vez de leyéndola, y ese segundo es
+justo el que decide si sigue.
+
+Consecuencia para el molde: **la página 3 también lleva destacado**, y lleva
+frase, no cifra. Antes iba sin él para que la última línea rematara sola, pero
+eso dejaba un hueco donde las otras dos tienen chapa y rompía la regla. La
+frase destacada de la página 3 es el remate del short.
+
+## 13. Cada página termina abriendo la siguiente
+
+La regla que más engancha y la que no cuesta nada. **La última frase de una
+página deja algo sin resolver que la página siguiente resuelve en la primera.**
+No es un truco de suspense barato: es no cerrar del todo antes de tiempo.
+
+Mal: «…y presidía el Senado sentado en una silla dorada. Nunca llegó a
+coronarse rey.» —cerrado; el lector puede irse tranquilo—.
+
+Bien: «…y presidía el Senado sentado en una silla dorada. Aquella mañana de
+marzo entró a la reunión sin una sola escolta.» —y la página 2 empieza
+contando por qué—.
+
+La prueba: tapar la página siguiente y leer la última frase. Si no da ganas de
+destaparla, esa frase está mal.
+
 ## Medidas
 
 | Campo | Medida |
@@ -236,7 +269,7 @@ Si no se sabe de qué está hablando, esa frase está mal escrita.
 | `entrada` | 85–110 palabras |
 | `texto` de cada página | 90–116 palabras |
 | `rotulo` | 2–4 palabras; el de la página 3 es «Lo que quedó» |
-| `destacado` | solo en las páginas 1 y 2, nunca en la 3 |
+| `destacado` | en las tres páginas; en la 3 siempre de tipo frase |
 
 `curioso: true` cuando la historia es un dato curioso y no un
 acontecimiento: se pinta la insignia «Dato curioso» en la portada.
