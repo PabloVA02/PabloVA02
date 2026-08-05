@@ -18,14 +18,14 @@ import type { Short } from "../shorts";
 export const ESPANA: Short[] = [
   {
     id: "hora-espana",
-    titulo: "España vive en la hora equivocada",
+    titulo: "España va con la hora mal",
     gancho: "Por geografía nos corresponde la hora de Londres. Tenemos la de Berlín desde 1940 y nadie la ha cambiado.",
     categoria: "España",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un mapa de husos horarios de Europa con la franja de España desplazada.",
     entrada:
-      "La hora de un país no la decide la naturaleza: la decide un gobierno, y en España la decidió uno en 1940. El mundo está dividido en franjas verticales, y a España, que está a la misma altura que Inglaterra y Portugal, le tocaría su misma hora. Pero nuestros relojes marcan lo mismo que los de Berlín, mil quinientos kilómetros más al este.",
+      "La hora de un país no la decide la naturaleza: la decide un gobierno, y en España la decidió uno en 1940. El mundo está dividido en franjas verticales, y a España, que está a la misma altura que Inglaterra y Portugal, le tocaría su misma hora. Pero nuestros relojes marcan lo mismo que los de Berlín, mil quinientos kilómetros más al este. No es una curiosidad sin consecuencias: explica por qué aquí se come a las dos y media y los telediarios de la noche empiezan cuando en media Europa la gente ya duerme. La jornada partida y las cenas tardías salen en buena parte de una decisión administrativa que no tuvo nada que ver con el sol.",
     paginas: [
       {
         rotulo: "El cambio",

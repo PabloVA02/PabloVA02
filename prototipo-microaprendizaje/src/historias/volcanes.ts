@@ -19,13 +19,13 @@ import type { Short } from "../shorts";
 export const VOLCANES: Short[] = [
   {
     id: "tambora-ano-sin-verano",
-    titulo: "Un volcán dejó al mundo sin verano",
+    titulo: "El año que no hubo verano",
     gancho: "Reventó en Indonesia en 1815. Al año siguiente nevó en junio al otro lado del planeta.",
     categoria: "Volcanes",
     color: "var(--slate)",
     encargo: "Un cielo cargado de ceniza sobre un campo de trigo verde y helado.",
     entrada:
-      "Isla de Sumbawa, en la actual Indonesia, abril de 1815. Un volcán que llevaba siglos tranquilo revienta con la mayor explosión de la que hay registro escrito. Se oye a dos mil kilómetros de distancia, mata a decenas de miles de personas en pocos días y lanza a la atmósfera tanta ceniza que el cielo se oscurece durante semanas.",
+      "Isla de Sumbawa, en la actual Indonesia, abril de 1815. Un volcán que llevaba siglos tranquilo revienta con la mayor explosión de la que hay registro escrito. Se oye a dos mil kilómetros de distancia, mata a decenas de miles de personas en pocos días y lanza a la atmósfera tanta ceniza que el cielo se oscurece durante semanas. Pero lo que sube más alto no es la ceniza, que cae en unos días, sino un gas que se queda flotando a doce kilómetros de altura. Ese gas va a dar la vuelta al mundo y a arruinar la cosecha del año siguiente en tres continentes. En junio nevó al otro lado del Atlántico y el precio del trigo se triplicó, y nadie relacionó entonces las dos cosas.",
     paginas: [
       {
         rotulo: "La explosión",

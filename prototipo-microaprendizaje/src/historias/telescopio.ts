@@ -18,13 +18,13 @@ import type { Short } from "../shorts";
 export const TELESCOPIO: Short[] = [
   {
     id: "telescopio-sin-patente",
-    titulo: "El telescopio se patentó y se lo denegaron",
+    titulo: "Le negaron el telescopio",
     gancho: "Un fabricante de lentes lo pidió en 1608 y le contestaron que cualquiera podía copiarlo.",
     categoria: "Telescopios",
     color: "var(--ochre)",
     encargo: "Un catalejo de latón y cuero apoyado sobre una mesa junto a unos papeles.",
     entrada:
-      "Países Bajos, octubre de 1608. Un fabricante de lentes de una ciudad del norte solicita a las autoridades el privilegio exclusivo sobre un aparato con dos lentes dentro de un tubo que acerca los objetos lejanos. En pocas semanas aparecen otros dos solicitantes con el mismo invento, y el gobierno decide no concedérselo a ninguno de los tres.",
+      "Países Bajos, octubre de 1608. Un fabricante de lentes de una ciudad del norte solicita a las autoridades el privilegio exclusivo sobre un aparato con dos lentes dentro de un tubo que acerca los objetos lejanos. En pocas semanas aparecen otros dos solicitantes con el mismo invento, y el gobierno decide no concedérselo a ninguno de los tres. El argumento del dictamen es demoledor y probablemente cierto: el aparato es tan sencillo que cualquiera que lo vea una vez puede copiarlo, así que no tiene sentido conceder un privilegio imposible de hacer cumplir. Esa decisión es la razón de que un año después hubiera telescopios en media Europa, y de que uno acabara apuntando al cielo.",
     paginas: [
       {
         rotulo: "Demasiado fácil",

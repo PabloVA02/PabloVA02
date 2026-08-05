@@ -18,13 +18,13 @@ import type { Short } from "../shorts";
 export const POLVORA: Short[] = [
   {
     id: "polvora-inmortalidad",
-    titulo: "Buscaban la inmortalidad",
+    titulo: "La pólvora era un elixir",
     gancho: "Unos alquimistas mezclaban ingredientes para vivir eternamente y les ardió el laboratorio.",
     categoria: "Pólvora",
     color: "var(--clay)",
     encargo: "Un cuenco de cerámica con polvo negro y unos rollos de papel escritos al lado.",
     entrada:
-      "China, siglo IX. Los alquimistas de la corte llevan siglos buscando un elixir que alargue la vida, mezclando minerales y sustancias con la esperanza de dar con la fórmula definitiva. Un texto de la época advierte por escrito a los colegas de una combinación concreta que no deben probar, porque a varios les ha quemado la barba y la casa entera.",
+      "China, siglo IX. Los alquimistas de la corte llevan siglos buscando un elixir que alargue la vida, mezclando minerales y sustancias con la esperanza de dar con la fórmula definitiva. Un texto de la época advierte por escrito a los colegas de una combinación concreta que no deben probar. La razón que da es muy práctica: a varios les ha quemado la barba, las manos y la casa entera. Ese aviso, escrito para que nadie repitiera el experimento, es la primera receta de pólvora que se conserva. La sustancia que iba a cambiar la guerra durante mil años apareció así: como un accidente que alguien se molestó en documentar para que no volviera a ocurrir.",
     paginas: [
       {
         rotulo: "El aviso",

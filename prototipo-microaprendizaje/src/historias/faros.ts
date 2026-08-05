@@ -25,7 +25,7 @@ export const FAROS: Short[] = [
     color: "var(--slate)",
     encargo: "Una roca negra batida por el mar con los restos de unos hierros clavados.",
     entrada:
-      "Canal de la Mancha, 1698. Frente a la costa suroeste de Inglaterra hay un arrecife que asoma poco más de un metro con la marea baja y que lleva siglos tragándose barcos. Un excéntrico inglés se ofrece a levantar allí el primer faro construido en mar abierto. Nadie lo había intentado nunca en ninguna parte.",
+      "Canal de la Mancha, 1698. Frente a la costa suroeste de Inglaterra hay un arrecife que asoma poco más de un metro con la marea baja y que lleva siglos tragándose barcos. Un excéntrico inglés se ofrece a levantar allí el primer faro construido en mar abierto. Nadie lo había intentado nunca, y no por falta de ganas. Solo se puede trabajar unas horas al día, con marea baja y buen tiempo, y lo que se deje sin sujetar se lo lleva la marea siguiente. La obra se hace desde una barca, subiendo cada piedra a mano, y hay veranos en que el mar no deja acercarse. El hombre que la dirige jura que aguantará cualquier cosa, y lo dice tan alto que acaba costándole la vida.",
     paginas: [
       {
         rotulo: "La torre de madera",

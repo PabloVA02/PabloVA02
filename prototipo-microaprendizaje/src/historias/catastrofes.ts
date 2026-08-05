@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CATASTROFES: Short[] = [
   {
     id: "chernobil",
-    titulo: "Chernóbil: 36 horas de silencio",
+    titulo: "Las 36 horas de Chernóbil",
     gancho: "El reactor ya ardía y nadie había avisado a la ciudad de al lado.",
     categoria: "Catástrofes",
     color: "var(--sage)",
@@ -31,7 +31,7 @@ export const CATASTROFES: Short[] = [
     },
     encargo: "El reactor 4 reventado, visto desde el aire, con el tejado abierto.",
     entrada:
-      "La 1:23 de la madrugada del 26 de abril de 1986. Una prueba de seguridad deja al reactor 4 de Chernóbil en una potencia que ya nadie puede bajar, y en cuatro segundos se multiplica por cien. Ahí termina la parte que le tocaba a la física. Todo lo que viene después lo deciden personas con nombre y apellidos.",
+      "La 1:23 de la madrugada del 26 de abril de 1986. Una prueba de seguridad deja al reactor 4 de Chernóbil en una potencia que ya nadie puede bajar, y en cuatro segundos se multiplica por cien. Ahí termina la parte que le tocaba a la física. Todo lo que viene después lo deciden personas con nombre y apellidos: cuándo se avisa, a quién se avisa y qué se le cuenta. La ciudad de al lado, con cincuenta mil habitantes y a tres kilómetros del reactor, siguió con su vida normal durante treinta y seis horas. Los niños fueron al colegio, hubo bodas y la gente salió a ver el resplandor desde el puente del ferrocarril, porque era bonito. Nadie les había dicho nada.",
     paginas: [
       {
         rotulo: "La tapa",

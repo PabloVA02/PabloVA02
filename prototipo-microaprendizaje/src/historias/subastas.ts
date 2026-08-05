@@ -16,13 +16,13 @@ import type { Short } from "../shorts";
 export const SUBASTAS: Short[] = [
   {
     id: "el-imperio-subastado",
-    titulo: "El Imperio romano se vendió en una subasta",
+    titulo: "Subastaron el Imperio",
     gancho: "La guardia mató al emperador, salió a la muralla y ofreció el trono al mejor postor. Duró sesenta y seis días.",
     categoria: "Subastas",
     color: "var(--clay)",
     encargo: "Una muralla de piedra vista desde abajo, con la luz dura del mediodía.",
     entrada:
-      "Roma, marzo del año 193. La guardia imperial, un cuerpo de élite de miles de hombres acuartelado en la ciudad, acaba de asesinar al emperador porque no les ha pagado lo prometido. En lugar de proclamar a otro, sus oficiales hacen algo sin precedentes: anuncian desde la muralla del campamento que el imperio se entrega a quien ofrezca más dinero a la tropa.",
+      "Roma, marzo del año 193. La guardia imperial, un cuerpo de élite de miles de hombres acuartelado en la ciudad, acaba de asesinar al emperador porque no les ha pagado lo prometido. En lugar de proclamar a otro, sus oficiales hacen algo sin precedentes: anuncian desde la muralla del campamento que el imperio se entrega a quien ofrezca más dinero a la tropa. No es una metáfora ni una exageración de los cronistas: hubo dos pujadores, se gritaron cifras desde abajo y desde arriba, y el cargo se adjudicó al que subió la última cantidad. El ganador entró en Roma esa misma tarde como emperador y duró sesenta y seis días.",
     paginas: [
       {
         rotulo: "La puja",

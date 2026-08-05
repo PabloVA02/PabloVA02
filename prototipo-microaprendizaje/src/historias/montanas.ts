@@ -19,14 +19,14 @@ import type { Short } from "../shorts";
 export const MONTANAS: Short[] = [
   {
     id: "altura-everest",
-    titulo: "Al Everest le sumaron dos pies",
+    titulo: "Cómo se midió el Everest",
     gancho: "El cálculo dio una cifra tan redonda que temieron que pareciera un número puesto a ojo.",
     categoria: "Montañas",
     color: "var(--slate)",
     curioso: true,
     encargo: "Un teodolito de latón sobre un trípode apuntando a una cordillera lejana.",
     entrada:
-      "India, 1852. Un equipo lleva décadas midiendo el subcontinente con teodolitos y cadenas, triangulando desde la costa hacia el norte. Un matemático de la oficina de cálculo revisa los datos de un pico lejano del Himalaya, catalogado sin nombre y con un número, y entra en el despacho del jefe a decir que ha encontrado la montaña más alta del mundo.",
+      "India, 1852. Un equipo lleva décadas midiendo el subcontinente con teodolitos y cadenas, triangulando desde la costa hacia el norte. Un matemático de la oficina de cálculo revisa los datos de un pico lejano del Himalaya, catalogado sin nombre y con un número. Entra en el despacho del jefe a decir que ha encontrado la montaña más alta del mundo. El número que le sale es tan redondo que le da apuro publicarlo, porque cualquiera va a pensar que lo ha puesto a ojo. Lo que hace a continuación es una de esas decisiones pequeñas que se quedan en los libros para siempre. Y la montaña acabó llamándose como un funcionario que nunca la vio.",
     paginas: [
       {
         rotulo: "La medición",

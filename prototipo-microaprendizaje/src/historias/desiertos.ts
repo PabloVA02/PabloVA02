@@ -24,7 +24,7 @@ export const DESIERTOS: Short[] = [
     color: "var(--ochre)",
     encargo: "Una pared de roca con figuras humanas pintadas en ocre, en penumbra.",
     entrada:
-      "Sudoeste de Egipto, 1933. Un explorador húngaro que busca un oasis perdido encuentra en una cueva del desierto, a cientos de kilómetros de cualquier agua, unas pinturas rupestres con figuras humanas en postura de nadar. Alrededor no hay más que arena y roca en todas direcciones. El hallazgo tardó décadas en tomarse en serio.",
+      "Sudoeste de Egipto, 1933. Un explorador húngaro que busca un oasis perdido encuentra en una cueva del desierto, a cientos de kilómetros de cualquier agua, unas pinturas rupestres con figuras humanas en postura de nadar. Alrededor no hay más que arena y roca en todas direcciones, en el sitio más seco del planeta, donde puede no llover en varios años seguidos. El hallazgo tardó décadas en tomarse en serio, porque la alternativa a que aquello fuera un dibujo simbólico resultaba mucho más difícil de creer: que quien lo pintó estuviera dibujando lo que veía. Porque si allí hubo gente nadando, el desierto más seco del mundo estuvo lleno de agua. Y eso es lo que pasó.",
     paginas: [
       {
         rotulo: "Los lagos",

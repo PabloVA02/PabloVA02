@@ -19,13 +19,13 @@ import type { Short } from "../shorts";
 export const EPIDEMIAS: Short[] = [
   {
     id: "bomba-broad-street",
-    titulo: "Un mapa paró una epidemia",
+    titulo: "Un mapa paró el cólera",
     gancho: "Nadie sabía qué era el cólera. Un médico dibujó dónde vivía cada muerto y quitó el asa de una bomba.",
     categoria: "Epidemias",
     color: "var(--slate)",
     encargo: "Una bomba de agua de hierro fundido en una calle empedrada, sin gente alrededor.",
     entrada:
-      "Londres, agosto de 1854. En un barrio del centro mueren quinientas personas en diez días por un brote de cólera, una enfermedad que en aquel momento nadie sabe cómo se contagia. La explicación oficial es que la causa está en el aire viciado que sale de la basura y las cloacas. Un médico del barrio, de cuarenta y un años, no se lo cree y decide comprobarlo a pie.",
+      "Londres, agosto de 1854. En un barrio del centro mueren quinientas personas en diez días por un brote de cólera, una enfermedad que en aquel momento nadie sabe cómo se contagia. La explicación oficial es que la causa está en el aire viciado que sale de la basura y las cloacas. Un médico del barrio, de cuarenta y un años, no se lo cree. Piensa que la enfermedad entra por la boca y no por la nariz, y que si tiene razón los muertos no estarán repartidos sino agrupados alrededor de algo que la gente bebe. Así que sale a comprobarlo a pie, preguntando en cada portal quién ha muerto y de dónde sacaba el agua. Lo que hizo con esas respuestas no fue un descubrimiento de laboratorio: fue un dibujo.",
     paginas: [
       {
         rotulo: "El mapa",

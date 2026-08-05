@@ -23,7 +23,7 @@ import venusFoto from "../fotos/venus-dia.jpg";
 export const COSMOS: Short[] = [
   {
     id: "venus-dia",
-    titulo: "En Venus el día dura más",
+    titulo: "En Venus el día es largo",
     gancho: "Da una vuelta sobre sí mismo en 243 días y una vuelta al Sol en 225.",
     categoria: "Cosmos",
     color: "var(--ochre)",
@@ -49,7 +49,7 @@ export const COSMOS: Short[] = [
     encargo:
       "Venus en falso color radar, la superficie sin nubes, ocupando casi todo el encuadre.",
     entrada:
-      "Piensa en cuántas veces has dicho «dentro de un año» sin pararte a pensarlo. La frase funciona porque aquí un día cabe holgadamente dentro de un año: trescientas sesenta y cinco vueltas sobre nosotros mismos por cada vuelta al Sol. Pero eso no es una ley del universo. Es una costumbre local, y el planeta vecino la rompe.",
+      "Piensa en cuántas veces has dicho «dentro de un año» sin pararte a pensarlo. La frase funciona porque aquí un día cabe holgadamente dentro de un año: trescientas sesenta y cinco vueltas sobre nosotros mismos por cada vuelta al Sol. Pero eso no es una ley del universo. Es una costumbre local de este planeta, y basta con mirar al vecino para que se caiga: en Venus, el día es más largo que el año. No es un error de cálculo ni una manera de hablar. Un venusiano cumpliría años dos veces antes de ver amanecer una sola vez. Y por si fuera poco, allí el Sol sale por el oeste, porque el planeta gira al revés que todos los demás.",
     paginas: [
       {
         rotulo: "Las dos vueltas",

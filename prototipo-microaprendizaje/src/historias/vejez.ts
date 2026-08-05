@@ -16,14 +16,14 @@ import type { Short } from "../shorts";
 export const VEJEZ: Short[] = [
   {
     id: "la-media-engana",
-    titulo: "En Roma no se moría a los treinta",
+    titulo: "Morir a los 30 en Roma",
     gancho: "La media era de treinta años porque morían muchísimos niños. Quien llegaba a los veinte solía pasar de los cincuenta.",
     categoria: "Vejez",
     color: "var(--slate)",
     curioso: true,
     encargo: "Una lápida romana desgastada con una inscripción todavía legible.",
     entrada:
-      "¿Es verdad que en la Antigüedad la gente se moría a los treinta años? La frase se repite constantemente y sale de un dato real: la esperanza de vida al nacer en el Imperio romano rondaba los veinticinco o treinta años. El problema no es el número, es lo que significa una media cuando la mitad de la muestra se muere de bebé.",
+      "¿Es verdad que en la Antigüedad la gente se moría a los treinta años? La frase se repite constantemente y sale de un dato real: la esperanza de vida al nacer en el Imperio romano rondaba los veinticinco o treinta años. El problema no es el número, que es correcto, sino lo que significa una media cuando una parte enorme de la muestra se muere antes de los cinco años. Una media no describe a nadie en concreto: describe un reparto. Y cuando el reparto tiene un montón de ceros a un lado, el promedio deja de parecerse a la vida de nadie. En Roma había gente mayor por todas partes, y el Senado estaba lleno de señores de sesenta años dando órdenes.",
     paginas: [
       {
         rotulo: "La media",
