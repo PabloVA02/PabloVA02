@@ -89,7 +89,7 @@ for (const ruta of ficheros) {
        las otras tres. La medida nueva es 85-110. El mínimo se deja en 53 para
        que los shorts escritos antes del cambio no revienten el validador de
        golpe; se van subiendo en la pasada de revisión. */
-    if (ne < 53 || ne > 110) aviso(id, `entrada de ${ne} palabras (85-110)`);
+    if (ne < 53 || ne > 115) aviso(id, `entrada de ${ne} palabras (unas 100)`);
 
     const paginas = [...b.matchAll(/rotulo: "([^"]*)",\n\s+texto:\n\s+"((?:[^"\\]|\\.)*)"/g)];
 
@@ -105,20 +105,27 @@ for (const ruta of ficheros) {
 
     if (paginas.length !== 3) aviso(id, `${paginas.length} páginas (deben ser 3)`);
     paginas.forEach(([, rotulo, texto], i) => {
+      /* Regla 15 y la charla con Pablo: la medida buena no es un numero exacto
+         sino el tiempo, unos dos o tres minutos el short entero. Lo que se
+         vigila aqui es solo que el texto no se quede tan corto que deje un
+         hueco muerto al final de la pagina, ni tan largo que no quepa. El
+         techo sube a 132 para la medida nueva; el suelo se queda en 90 hasta
+         que los 757 shorts viejos esten alargados. */
       const n = palabras(texto);
-      if (n < 90 || n > 116) aviso(id, `página ${i + 1} de ${n} palabras (90-116)`);
+      if (n < 90 || n > 132) aviso(id, `página ${i + 1} de ${n} palabras (90-132)`);
       if (palabras(rotulo) > 4) aviso(id, `rótulo «${rotulo}» de más de 4 palabras`);
     });
     if (paginas.length === 3 && !/^Lo que qued[óa]$/.test(paginas[2][1]))
       aviso(id, `la página 3 se titula «${paginas[2][1]}» y debería ser «Lo que quedó»`);
 
-    /* Regla 12: la maqueta no se mueve, así que la página 3 también lleva
-       destacado, y de tipo frase. Antes iba sin él y quedaba un hueco donde
-       las otras dos tienen chapa. No se exige todavía porque los 757 shorts
-       anteriores no lo llevan; se van poniendo en la pasada de revisión. */
-    const trozoP3 = b.slice(b.lastIndexOf('rotulo: "Lo que qued'));
-    if (/destacado: \{ tipo: "cifra"/.test(trozoP3))
-      aviso(id, "el destacado de la página 3 debe ser frase, no cifra");
+    /* Regla 15: el dato es una cifra y hasta seis palabras, en cualquiera de
+       las tres páginas. La regla vieja pedía frase en la página 3 y queda sin
+       efecto: ahora todos los datos son cifra. Lo que sí se vigila es que la
+       frase que acompaña a la cifra no se alargue, porque entonces deja de ser
+       un dato y vuelve a ser un resumen. */
+    for (const [, unidad] of b.matchAll(/unidad: "((?:[^"\\]|\\.)*)"/g))
+      if (palabras(unidad) > 6)
+        aviso(id, `el dato «${unidad}» pasa de seis palabras`);
 
     /* Regla 2: como mucho dos nombres propios que el lector no reconozca. */
     const cuerpo = [entrada, ...paginas.map((p) => p[2])].join(" ").replace(/<[^>]+>/g, "");
