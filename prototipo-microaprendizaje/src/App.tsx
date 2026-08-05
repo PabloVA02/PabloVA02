@@ -150,7 +150,9 @@ export default function App() {
   return (
     <div className="stage">
       <div className="shell">
-        <StatusBar />
+        {/* La barra de la hora no sale mientras se lee: en la maqueta la
+            pantalla es la pagina entera, de borde a borde. */}
+        {pantalla !== "shorts" && <StatusBar />}
         <AnimatePresence mode="wait">
           {pantalla === "intro" && (
             <Onboarding

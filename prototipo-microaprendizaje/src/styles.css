@@ -114,8 +114,10 @@ button {
 
 .shell {
   position: relative;
-  width: min(100vw, 375px);
-  height: min(100svh, 812px);
+  /* En un movil ocupa la pantalla entera. El tope solo existe para que en un
+     ordenador no se estire a lo ancho de un monitor. */
+  width: min(100vw, 430px);
+  height: min(100svh, 932px);
   min-height: 600px;
   overflow: hidden;
   isolation: isolate;
@@ -5578,13 +5580,16 @@ button {
   inset: auto;
   flex: 1;
   min-height: 0;
-  padding: 25px var(--shell-pad) 30px;
+  padding: 25px var(--shell-pad);
   background: none;
   display: flex;
   flex-direction: column;
   gap: 13px;
 }
-.muro-hoja-cuerpo { display: flex; flex-direction: column; gap: 13px; }
+/* La cadena tiene que estirarse entera para que el dato pueda apoyarse
+   abajo: si un eslabon no crece, el margen automatico no tiene contra que
+   empujar y el dato se queda a media pantalla con un hueco debajo. */
+.muro-hoja-cuerpo { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 13px; }
 
 /* El titular numero 3: palo seco, pequeno y muy espaciado */
 .muro-hoja h2 {
@@ -5649,7 +5654,16 @@ button {
    es la pagina entera y estas dos chapas flotaban justo encima de la imagen. */
 .muro-marca,
 .muro-cuenta { display: none; }
-.short-destacado[data-tipo="frase"] p { font-family: var(--serifa); font-size: 15px; color: var(--ink); }
+.short-destacado[data-tipo="frase"] p {
+  font-family: var(--serifa);
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--ink);
+}
+/* Sin la chapa del rayo: en la maqueta el destacado es un filete y un texto,
+   y nada mas. El icono venia del modelo oscuro, donde hacia falta separar. */
+.short-comilla { display: none; }
 .short-comilla { background: var(--acento, var(--ochre)); color: var(--paper); }
 
 /* La barra de tramos: fina de verdad y del color del tema */
@@ -5715,3 +5729,8 @@ button {
   font-weight: 600;
   color: color-mix(in srgb, var(--ink-soft) 78%, transparent);
 }
+
+/* El grano de la app no sale mientras se lee: la maqueta aprobada es beige
+   liso, y el punteado en multiply lo ensuciaba lo justo para que no fuera el
+   mismo color. Se conserva en el resto de pantallas. */
+.shell:has(.muro-pagina)::after { display: none; }
