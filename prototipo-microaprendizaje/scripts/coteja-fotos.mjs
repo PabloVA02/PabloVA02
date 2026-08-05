@@ -20,8 +20,14 @@ const ejecuta = promisify(execFile);
 const DIR = "src/historias";
 const UA = "Curva/1.0 (proyecto educativo; contacto: pabloverdalo@gmail.com)";
 const limpia = (t) => String(t ?? "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+/* Las licencias se escriben en castellano en el código y Commons las dice en
+   inglés, así que se comparan traducidas. La lista es corta y explícita a
+   propósito: si algún día hay que añadir una, mejor que sea a mano y mirando
+   la ficha, y no con una regla que se coma las diferencias. */
 const misma = (a, b) => {
-  const n = (t) => t.toLowerCase().replace(/\s|-/g, "").replace("dominiopúblico", "publicdomain");
+  const n = (t) => t.toLowerCase().replace(/\s|-/g, "")
+    .replace("dominiopúblico", "publicdomain")
+    .replace("sinrestriccionesconocidas", "norestrictions");
   return n(a) === n(b);
 };
 

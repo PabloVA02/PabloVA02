@@ -20,6 +20,47 @@ export const FAROS_DE_COCHE: Short[] = [
     categoria: "Tecnología",
     color: "var(--slate)",
     encargo: "Haz de un faro de cruce proyectado en una pared, con el corte horizontal marcado.",
+    /* El faro por fuera, la bombilla por dentro, el haz puesto en la carretera
+       y el diodo del final. La bombilla es la que hace el short: en ella se ve
+       la cazoleta metálica que tapa la mitad de arriba de la luz. */
+    fotos: [
+      {
+        archivo: "Light fantastic (854006082).jpg",
+        autor:
+          "El faro de un coche visto de cerca: cada luz sale por una lente redonda, y la pantalla que le corta la mitad de arriba al haz va justo detrás. Fotografía de Andrew Fogg, 2007.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Light_fantastic_(854006082).jpg",
+        foco: "50% 50%",
+        alt: "Primer plano del faro de un coche, con dos lentes redondas grandes rodeadas de aros luminosos de color dorado.",
+      },
+      {
+        archivo: "Halogenlamph4mayak.JPG",
+        autor:
+          "Una bombilla H4, la de dos filamentos: uno alumbra lejos y el otro, tapado por debajo por una cazoleta metálica, alumbra corto y bajo. Fotografía de Racer009, 2014.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Halogenlamph4mayak.JPG",
+        foco: "50% 20%",
+        alt: "Una bombilla de coche de cristal transparente vista muy de cerca, con dos filamentos en espiral dentro y una pequeña copa metálica bajo uno de ellos.",
+      },
+      {
+        archivo: "Dülmen, Kirchspiel, Börnste, BMW Mini -- 2019 -- 7207-13.jpg",
+        autor:
+          "Un coche con las luces de cruce encendidas en una carretera de Renania del Norte-Westfalia, donde se circula por la derecha y el haz alumbra más lejos por ese lado. Fotografía de Dietmar Rabich, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_B%C3%B6rnste,_BMW_Mini_--_2019_--_7207-13.jpg",
+        foco: "45% 60%",
+        alt: "Un coche pequeño con los faros encendidos en una carretera estrecha entre árboles, al anochecer, con troncos apilados a un lado.",
+      },
+      {
+        archivo: "Audi TT 8S Matrix-LED-Scheinwerfer Abblendlicht LED-Tagfahrlicht.jpg",
+        autor:
+          "Un faro de diodos encendido en la luz de cruce, de 2014. La luz sale de puntos muy pequeños y muy blancos, y eso es lo que hace que moleste más aunque cumpla la norma. Fotografía de Mario von Berg.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Audi_TT_8S_Matrix-LED-Scheinwerfer_Abblendlicht_LED-Tagfahrlicht.jpg",
+        foco: "50% 50%",
+        alt: "Un faro moderno encendido sobre fondo negro, con una tira fina de luces blancas y un bloque de diodos brillando en el centro.",
+      },
+    ],
     entrada:
       "Estados Unidos, 1924. Los coches llevan ya faros eléctricos potentes y cada noche se producen accidentes porque los conductores se ciegan unos a otros. El problema no tiene una salida evidente: la misma luz que hace falta para ver la carretera es la que deslumbra al que viene de frente. Se prueba con cristales de colores y con rejillas delante, y todo eso quita tanta luz que no se ve nada. La solución que se impone es un faro con dos filamentos dentro de la misma bombilla. Uno alumbra lejos y el otro alumbra más abajo y más cerca, y un interruptor de pie decide cuál de los dos se enciende. Ese pedal sobrevivió en los coches durante medio siglo, hasta bien entrados los años setenta.",
     paginas: [

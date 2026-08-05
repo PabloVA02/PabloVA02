@@ -20,6 +20,47 @@ export const VIRUS_INFORMATICOS: Short[] = [
     categoria: "Tecnología",
     color: "var(--slate)",
     encargo: "Terminal de ordenador de 1988 con líneas de texto verde sobre fondo negro.",
+    /* Una por pantalla y cada una de su página: la pantalla desde la que se
+       trabajaba, las dos máquinas que el gusano sabía infectar —la de mesa y
+       la del armario— y el edificio donde se montó la guardia que quedó. */
+    fotos: [
+      {
+        archivo: "DEC VT100 (15272092560).jpg",
+        autor:
+          "Un terminal DEC VT100, de 1978: la pantalla con la que se manejaban aquellos ordenadores, solo texto verde sobre negro. Fotografía de Wolfgang Stief.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DEC_VT100_(15272092560).jpg",
+        foco: "45% 42%",
+        alt: "Un terminal beige de los años ochenta con letras verdes en la pantalla y un listado de papel continuo colgando por encima.",
+      },
+      {
+        archivo: "Sun3 60.jpg",
+        autor:
+          "Una estación de trabajo Sun-3, de mediados de los ochenta. Es uno de los dos tipos de máquina que el gusano sabía infectar. Fotografía de Emiliano Russo, 2006.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sun3_60.jpg",
+        foco: "50% 62%",
+        alt: "Un ordenador de sobremesa beige y plano, con su teclado delante y un ratón conectado por un cable rizado.",
+      },
+      {
+        archivo: "VAX 11 780 Computer ー Computer History Museum (30861740596).jpg",
+        autor:
+          "Un VAX-11/780, el otro objetivo del gusano y el ordenador corriente en las universidades de entonces: ocupaba un armario entero. Museo de Historia de la Informática, California. Fotografía de Ik T, 2016.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:VAX_11_780_Computer_%E3%83%BC_Computer_History_Museum_(30861740596).jpg",
+        foco: "50% 12%",
+        alt: "Un armario metálico del tamaño de un frigorífico grande, con el rótulo VAX 11/780 en una franja azul en lo alto.",
+      },
+      {
+        archivo: "Software Engineering Institute - IMG 1196.JPG",
+        autor:
+          "El Instituto de Ingeniería del Software de la Universidad Carnegie Mellon, en Pittsburgh. Allí se montó, a las pocas semanas del gusano, el primer equipo de respuesta a emergencias informáticas. Fotografía de Daderot, 2010.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Software_Engineering_Institute_-_IMG_1196.JPG",
+        foco: "50% 72%",
+        alt: "La fachada de hormigón y cristal de un edificio universitario, con el rótulo Software Engineering Institute grabado en la piedra.",
+      },
+    ],
     entrada:
       "Estados Unidos, noviembre de 1988. Internet es todavía una red de universidades y centros militares con unos sesenta mil ordenadores conectados. No hay contraseñas serias ni programas que vigilen nada, porque a nadie se le ha ocurrido que el ataque pueda venir de dentro. Los administradores se conocen entre ellos y se llaman por teléfono cuando falla algo. Un estudiante de posgrado suelta un programa que se copia solo de máquina en máquina para contar cuántas hay. El programa lleva un error de cálculo en una sola decisión, y en pocas horas deja inservible una décima parte de la red. Nunca había pasado nada parecido.",
     paginas: [

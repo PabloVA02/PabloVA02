@@ -19,6 +19,47 @@ export const ESCALERAS_MECANICAS: Short[] = [
     categoria: "Objetos",
     color: "var(--clay)",
     encargo: "Rampa mecánica de listones de madera de 1896, con gente de época subida de pie.",
+    /* De la máquina de madera a la de acero, y cada imagen en su página: los
+       peldaños de listones, un peldaño de cerca, el peine del arranque donde
+       se aplanan y el aeropuerto donde acabó todo esto. */
+    fotos: [
+      {
+        archivo: "Macy’s Herald Square Wooden Escalator Built in 1902.jpg",
+        autor:
+          "Escalera mecánica de peldaños de madera en unos grandes almacenes de Nueva York, todavía en servicio. Fotografía de Don Ramey Logan, 2022.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Macy%E2%80%99s_Herald_Square_Wooden_Escalator_Built_in_1902.jpg",
+        foco: "50% 50%",
+        alt: "Vista desde abajo de una escalera mecánica de madera: decenas de listones alargados, iluminados de color miel, subiendo hacia la oscuridad.",
+      },
+      {
+        archivo: "Wooden escalator at Greenford 4.jpg",
+        autor:
+          "Peldaños de madera de una escalera mecánica del metro de Londres, en la estación de Greenford. Fotografía de R/DV/RS, 2008.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wooden_escalator_at_Greenford_4.jpg",
+        foco: "50% 45%",
+        alt: "Tres peldaños de madera vistos de cerca, cada uno rayado por ranuras paralelas, con el canto metálico brillante entre uno y otro.",
+      },
+      {
+        archivo: "Wooden escalator (part) - Flickr - James E. Petts.jpg",
+        autor:
+          "El arranque de una escalera de madera: ahí los peldaños se aplanan y sus ranuras encajan en el peine metálico del suelo. Depósito de Acton del Museo del Transporte de Londres. Fotografía de James Petts, 2012.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wooden_escalator_(part)_-_Flickr_-_James_E._Petts.jpg",
+        foco: "55% 62%",
+        alt: "El pie de una escalera mecánica antigua, con el pasamanos de latón curvándose y la placa ranurada por donde salen los peldaños.",
+      },
+      {
+        archivo: "Helsinki-Vantaa airport escalators 4.jpg",
+        autor:
+          "Escaleras mecánicas del aeropuerto de Helsinki, 2022. Fotografía de kallerna.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Helsinki-Vantaa_airport_escalators_4.jpg",
+        foco: "50% 55%",
+        alt: "Dos escaleras mecánicas de acero, vacías, subiendo en paralelo entre paredes de hormigón claro de un aeropuerto.",
+      },
+    ],
     entrada:
       "Nueva York, 1896. En el parque de atracciones de Coney Island se instala un aparato nuevo que la gente paga por probar: una rampa inclinada que sube sola. No tiene escalones ni sirve para ir a ninguna parte, porque solo lleva a una plataforma y se vuelve a bajar. La ciudad ya tiene ascensores en los edificios altos, pero un ascensor sube a doce personas cada vez y hay que esperarlo abajo. Esto no se espera: se pisa y ya está subiendo. Durante dos semanas la usan setenta y cinco mil personas por pura diversión. Pagan cinco centavos por subir a una plataforma y bajar andando, y nadie ve todavía para qué sirve aquello más allá del rato que dura.",
     paginas: [

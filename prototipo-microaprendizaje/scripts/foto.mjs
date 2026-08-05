@@ -3,9 +3,13 @@
    memoria de nadie.
 
    Uso:
+     node scripts/foto.mjs tema "escalator"               → por dónde empezar
      node scripts/foto.mjs buscar "faro de eddystone"     → hasta 12 candidatas
      node scripts/foto.mjs ficha "File:Nombre.jpg"        → el objeto Foto
      node scripts/foto.mjs ver "File:Nombre.jpg" out.jpg  → se la descarga
+
+   Y para elegir sin bajarlas de una en una, la hoja de contacto:
+     node scripts/contacto.mjs hoja.png "File:Una.jpg" "File:Otra.jpg" …
 
    Hace falta que el entorno tenga abiertos commons.wikimedia.org y
    upload.wikimedia.org (Acceso a la red → Personalizado). */
@@ -35,10 +39,10 @@ async function pide(params) {
   return JSON.parse(await trae(u.toString()));
 }
 
-async function buscar(texto) {
+async function buscar(texto, cuantas = 12) {
   const d = await pide({
     action: "query", generator: "search", gsrsearch: `filetype:bitmap ${texto}`,
-    gsrnamespace: 6, gsrlimit: 12, prop: "imageinfo",
+    gsrnamespace: 6, gsrlimit: cuantas, prop: "imageinfo",
     iiprop: "url|size|extmetadata", iiurlwidth: 400,
   });
   const paginas = Object.values(d.query?.pages ?? {});
@@ -66,8 +70,14 @@ async function ficha(titulo) {
   const lic = limpia(e.LicenseShortName?.value) || "(sin licencia en la ficha)";
   const fecha = limpia(e.DateTimeOriginal?.value).split("date QS")[0];
   const nombre = p.title.replace(/^File:/, "");
+  /* La descripción es lo que dice QUÉ es el objeto, y el pie que se publica va
+     de eso. Sin ella se acaba escribiendo el año de la fotografía como si
+     fuera el año de la cosa fotografiada. */
+  const desc = limpia(e.ImageDescription?.value);
 
-  console.log(`\n${p.title}\n  ${i.width}x${i.height}   ${lic}\n  autor: ${autor}\n  fecha: ${fecha || "(sin fecha)"}\n  ficha: https://commons.wikimedia.org/wiki/${encodeURIComponent(p.title)}\n`);
+  console.log(`\n${p.title}\n  ${i.width}x${i.height}   ${lic}\n  autor: ${autor}\n  fecha: ${fecha || "(sin fecha)"}\n  ficha: https://commons.wikimedia.org/wiki/${encodeURIComponent(p.title)}`);
+  if (desc) console.log(`  dice: ${desc.slice(0, 400)}`);
+  console.log("");
   if (i.width < 1200) console.log("  AVISO: menos de 1200 de ancho. En la banda se verá blanda.\n");
 
   console.log(`    foto: {
@@ -106,26 +116,48 @@ async function categorias(texto) {
   for (const r of d.query?.search ?? []) console.log("  " + r.title);
 }
 
-async function categoria(nombre) {
+async function categoria(nombre, cuantas = 20) {
   const d = await pide({ action: "query", generator: "categorymembers",
     gcmtitle: nombre.startsWith("Category:") ? nombre : `Category:${nombre}`,
     gcmtype: "file", gcmlimit: "60", prop: "imageinfo", iiprop: "url|size|extmetadata" });
   const paginas = Object.values(d.query?.pages ?? {});
   if (!paginas.length) return console.log("categoría vacía o inexistente");
   paginas.sort((a, b) => (b.imageinfo?.[0]?.width ?? 0) - (a.imageinfo?.[0]?.width ?? 0));
-  for (const p of paginas.slice(0, 20)) {
+  for (const p of paginas.slice(0, cuantas)) {
     const i = p.imageinfo?.[0]; if (!i) continue;
     const lic = limpia(i.extmetadata?.LicenseShortName?.value);
     console.log(`${i.width >= 1200 ? "✓" : "·"} ${String(i.width).padStart(5)}x${String(i.height).padEnd(5)} ${lic.padEnd(22)} ${p.title}`);
   }
 }
 
+/* Un tema entero de una vez: las categorías que existen con ese nombre, lo
+   mejor de las dos primeras, y además la búsqueda de texto libre.
+
+   Es lo que se acaba haciendo a mano en tres llamadas —`categorias`, luego
+   `categoria` de la que parezca, luego `buscar` por si acaso—, y con 755
+   shorts por delante esas tres llamadas por imagen son media sesión. Las
+   categorías van primero porque las mantiene gente a mano y agrupan por lo
+   que SE VE; la búsqueda por texto solo mira el nombre del fichero. */
+async function tema(texto) {
+  const d = await pide({ action: "query", list: "search", srsearch: texto,
+                         srnamespace: 14, srlimit: 6 });
+  const cats = (d.query?.search ?? []).map((r) => r.title);
+  if (cats.length) console.log("categorías:  " + cats.join("   ·   "));
+  for (const c of cats.slice(0, 2)) {
+    console.log(`\n── ${c}`);
+    await categoria(c, 6);
+  }
+  console.log("\n── por el nombre del fichero");
+  await buscar(texto, 6);
+}
+
 const [orden, ...resto] = process.argv.slice(2);
 const acciones = { buscar: () => buscar(resto.join(" ")), ficha: () => ficha(resto[0]),
                    ver: () => ver(resto[0], resto[1]), categoria: () => categoria(resto.join(" ")),
-                   categorias: () => categorias(resto.join(" ")) };
+                   categorias: () => categorias(resto.join(" ")),
+                   tema: () => tema(resto.join(" ")) };
 if (!acciones[orden]) {
-  console.log("uso: node scripts/foto.mjs buscar «texto» | categoria «nombre» | ficha «File:…» | ver «File:…» [salida.jpg]");
+  console.log("uso: node scripts/foto.mjs tema «asunto» | buscar «texto» | categoria «nombre» | ficha «File:…» | ver «File:…» [salida.jpg]");
   process.exit(1);
 }
 await acciones[orden]();

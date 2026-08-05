@@ -23,6 +23,47 @@ export const LIMPIAPARABRISAS: Short[] = [
     categoria: "Limpiaparabrisas",
     color: "var(--plum)",
     encargo: "Una palanca de laton dentro de un coche antiguo, unida a un brazo por fuera del cristal.",
+    /* El coche en la nieve, el tranvía donde se le ocurrió, el dibujo de la
+       patente y el cristal de hoy. El dibujo es el que cierra el short: se ve
+       que el brazo de 1903 y el de ahora son el mismo. */
+    fotos: [
+      {
+        archivo: "Thomas Flyer participating in New York-to-Paris automobile race in front of a streetcar during the winter LCCN2017648794.jpg",
+        autor:
+          "Un automóvil de la carrera Nueva York-París, en 1908, sobre una carretera nevada; detrás asoma un tranvía. Fotografía de Spooner & Wells. Biblioteca del Congreso, Estados Unidos.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Thomas_Flyer_participating_in_New_York-to-Paris_automobile_race_in_front_of_a_streetcar_during_the_winter_LCCN2017648794.jpg",
+        foco: "50% 45%",
+        alt: "Fotografía antigua en blanco y negro: un coche abierto con cuatro hombres muy abrigados, parado en una carretera nevada junto a un río.",
+      },
+      {
+        archivo: "Peoples Railway Company of Dayton, Ohio, car -135 - DPLA - 7aa8eaafcb0ab45d26a33fa2389b90cb (page 1).jpg",
+        autor:
+          "Un tranvía cerrado de la compañía de Dayton, Ohio, hacia 1900, con su conductor al lado. El cristal de delante es el que había que abrir para ver la vía. Fotografía de William J. B. Gwinn.",
+        licencia: "Sin restricciones conocidas",
+        fuente: "https://commons.wikimedia.org/wiki/File:Peoples_Railway_Company_of_Dayton,_Ohio,_car_-135_-_DPLA_-_7aa8eaafcb0ab45d26a33fa2389b90cb_(page_1).jpg",
+        foco: "50% 42%",
+        alt: "Fotografía antigua de un tranvía de madera con las ventanas cerradas, parado en la calle con dos empleados de pie delante.",
+      },
+      {
+        archivo: "Anderson Window Cleaning Device 1903.png",
+        autor:
+          "El dibujo de la patente de 1903: un brazo con una tira de goma por fuera del cristal, movido con una palanca desde el asiento. Oficina de Patentes de Estados Unidos.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Anderson_Window_Cleaning_Device_1903.png",
+        foco: "50% 30%",
+        alt: "Lámina de patente a tinta: el marco de un parabrisas visto de frente, con un brazo que lo barre en abanico, y varios despieces del mecanismo debajo.",
+      },
+      {
+        archivo: "Rainy Windshield Wipers.jpg",
+        autor:
+          "Un parabrisas bajo la lluvia con las escobillas en marcha, 2016. La goma es la misma pieza que dibujó aquella patente. Fotografía de NWSPhoenix.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rainy_Windshield_Wipers.jpg",
+        foco: "50% 55%",
+        alt: "Vista desde dentro de un coche: el cristal cubierto de gotas y dos escobillas cruzándolo, con la carretera borrosa al fondo.",
+      },
+    ],
     entrada:
       "Nueva York, invierno de 1902. El automóvil lleva quince años vendiéndose y empieza a llevar delante un cristal, el parabrisas, que corta el viento en la cara. Ese cristal trae un problema que no tenía el coche de caballos: en cuanto nieva o llueve se ciega y no se ve la calle. Los conductores prueban de todo. Hay quien lo unta con media cebolla, porque el jugo hace que el agua resbale, y quien conduce asomado por el lateral. La única salida de verdad es parar, bajarse y limpiarlo con la mano cada pocas manzanas. En una nevada de las de aquella ciudad eso son varias paradas por calle, con las manos moradas de frío y el motor al ralentí.",
     paginas: [

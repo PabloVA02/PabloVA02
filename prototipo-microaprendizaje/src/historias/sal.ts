@@ -21,6 +21,47 @@ export const SAL: Short[] = [
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Jamones colgados en un secadero con las paredes de piedra y poca luz.",
+    /* Lo que la sal hace, contado en cuatro objetos: la pieza colgada, el
+       cristal que le roba el agua, el pescado que se guarda con él y la tienda
+       que sigue viviendo de todo eso. */
+    fotos: [
+      {
+        archivo: "Secadero natural de la empresa Jamón Or de Guijuelo, Salamanca.jpg",
+        autor:
+          "Un secadero natural de jamones en Guijuelo, Salamanca. Cada pieza pierde ahí casi un tercio de su peso. Fotografía de Guanbirra, 2011.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Secadero_natural_de_la_empresa_Jam%C3%B3n_Or_de_Guijuelo,_Salamanca.jpg",
+        foco: "50% 50%",
+        alt: "Cientos de jamones colgados en filas apretadas del techo de un secadero, con la pezuña hacia abajo.",
+      },
+      {
+        archivo: "Salt Crystals1.jpg",
+        autor:
+          "Cristales de sal gorda vistos de cerca. Es lo que saca el agua de la carne y de las bacterias que hay en ella. Fotografía de Donald Olszewski.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Salt_Crystals1.jpg",
+        foco: "50% 50%",
+        alt: "Una cuchara con trozos gruesos de sal rosada y translúcida, apoyada sobre un plato de colores.",
+      },
+      {
+        archivo: "Dried and salted cod.jpg",
+        autor:
+          "Bacalao salado y secado, apilado bajo un tejadillo de madera sujeto con piedras. Fotografía coloreada a mano de Anders Beer Wilse, Noruega.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Dried_and_salted_cod.jpg",
+        foco: "50% 55%",
+        alt: "Un montón enorme de pescados abiertos y secos, apilados unos sobre otros y cubiertos por un tejadillo de tablas con piedras encima.",
+      },
+      {
+        archivo: "Salt cod shop (7008016739).jpg",
+        autor:
+          "Un puesto de bacalao salado, con las piezas abiertas en cajas y el precio de cada corte. Fotografía de Michael Clarke, 2012.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Salt_cod_shop_(7008016739).jpg",
+        foco: "50% 60%",
+        alt: "El escaparate de una pescadería con cajas de bacalao salado y carteles amarillos de oferta con los precios.",
+      },
+    ],
     entrada:
       "Todas las culturas del mundo, desde hace por lo menos cinco mil años. Antes de que existiera el frigorífico, la única manera de guardar carne o pescado más de dos días era cubrirlos de sal. Un animal sacrificado en otoño tenía que dar de comer hasta la primavera, y sin eso no se pasaba el invierno. Funcionaba tan bien que ciudades enteras vivieron de ello durante siglos, y hubo guerras por controlar un yacimiento. Los caminos por los que se transportaba se llaman todavía hoy vías de la sal, y por uno de ellos entra la sal a Roma desde el siglo IV antes de Cristo. Lo curioso es que la sal no envenena a las bacterias. Les hace algo mucho más simple: les quita el agua.",
     paginas: [
