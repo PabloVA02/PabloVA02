@@ -5578,7 +5578,7 @@ button {
   inset: auto;
   flex: 1;
   min-height: 0;
-  padding: 25px var(--shell-pad);
+  padding: 25px var(--shell-pad) 30px;
   background: none;
   display: flex;
   flex-direction: column;
@@ -5636,7 +5636,19 @@ button {
   gap: 11px;
 }
 .short-numero { font-size: 29.5px; font-weight: 600; letter-spacing: -0.03em; color: var(--acento, var(--ochre)); }
-.short-unidad { font-size: 13px; line-height: 1.35; color: var(--ink-soft); }
+.short-unidad {
+  font-size: 13px;
+  line-height: 1.35;
+  color: var(--ink-soft);
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+/* Ni la marca ni el contador salen mientras se lee: en la maqueta la pantalla
+   es la pagina entera y estas dos chapas flotaban justo encima de la imagen. */
+.muro-marca,
+.muro-cuenta { display: none; }
 .short-destacado[data-tipo="frase"] p { font-family: var(--serifa); font-size: 15px; color: var(--ink); }
 .short-comilla { background: var(--acento, var(--ochre)); color: var(--paper); }
 
@@ -5662,7 +5674,14 @@ button {
 }
 .muro-flecha { font-size: 15px; line-height: 1; }
 
-.muro-acciones { margin-top: auto; padding-top: 17px; display: flex; gap: 10px; }
+.muro-acciones {
+  margin-top: auto;
+  margin-left: 0;
+  width: 100%;
+  padding-top: 17px;
+  display: flex;
+  gap: 10px;
+}
 .muro-accion {
   flex: 1;
   width: auto;

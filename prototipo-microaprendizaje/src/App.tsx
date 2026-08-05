@@ -38,13 +38,28 @@ type Pantalla =
   | "shorts" | "perfil" | "ajustes" | "oferta" | "alta"
   | "anti";
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
-const CON_BARRA: Pantalla[] = ["inicio", "shorts", "perfil"];
+/* La barra de pestañas no sale mientras se lee un short. En la maqueta que
+   aprobó Pablo la pantalla es la página entera, y una barra flotando encima
+   se comía las dos últimas líneas del texto y el "Seguir". Se vuelve a ver en
+   cuanto se sale del muro. */
+const CON_BARRA: Pantalla[] = ["inicio", "perfil"];
 
 /** Racha de ejemplo del prototipo. */
 const RACHA = 3;
 
+/* Atajo para mirar una pantalla suelta sin pasar por el onboarding entero:
+   ?p=shorts abre directamente el muro. Sirve para revisar el diseño en el
+   navegador y para las capturas, y no molesta a nadie: sin el parámetro la
+   app arranca donde siempre. */
+function pantallaInicial(): Pantalla {
+  if (typeof window === "undefined") return "intro";
+  const p = new URLSearchParams(window.location.search).get("p");
+  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes"];
+  return validas.includes(p ?? "") ? (p as Pantalla) : "intro";
+}
+
 export default function App() {
-  const [pantalla, setPantalla] = useState<Pantalla>("intro");
+  const [pantalla, setPantalla] = useState<Pantalla>(pantallaInicial);
   /* Las preferencias viven aquí arriba y no en la pantalla de ajustes: sus
      efectos —el tema y la escala de texto— tienen que seguir aplicados
      mientras se lee, que es cuando importan. */

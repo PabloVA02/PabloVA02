@@ -64,6 +64,15 @@ export const FIGURAS: Short[] = [
     /* Una imagen por página, y el pie de cada una dice QUÉ es lo que se ve:
        qué clase de objeto, de qué año, de dónde salió y quién lo hizo. */
     fotos: [
+      /* El hueco 0 es LA PORTADA: es la misma imagen de `foto`, repetida aquí
+         para que el orden de la lista sea el orden de las pantallas. */
+      {
+        local: cesarFoto,
+        autor: "Óleo de Vincenzo Camuccini, 1806. Museo di Capodimonte, Nápoles",
+        licencia: "Dominio público",
+        panoramica: { alto: "9%" },
+        alt: "El asesinato de Julio César pintado por Camuccini.",
+      },
       {
         local: cesarMoneda,
         autor: "Denario de plata acuñado en Roma el año 44 a. C. La leyenda dice CAESAR DICT PERPETVO: César, dictador perpetuo",
@@ -93,7 +102,10 @@ export const FIGURAS: Short[] = [
         rotulo: "El casi rey",
         texto:
           "Roma llevaba casi quinientos años sin rey y estaba orgullosísima de ello. El poder se repartía entre varios cargos que duraban un año, para que nadie mandase demasiado tiempo. César rompió esa regla por todos lados. Se hizo nombrar dictador de por vida, puso su cara en las monedas y presidía el Senado desde una silla dorada. La cara en la moneda era un honor reservado hasta entonces a los dioses y a los muertos. Nunca llegó a coronarse rey, pero para muchos senadores la diferencia ya no existía. Y decidieron matarlo de una manera muy concreta.",
-        destacado: { tipo: "cifra", cifra: "500", unidad: "años llevaba Roma sin un rey" },
+        /* El texto de esta página ya dice que Roma llevaba quinientos años sin
+           rey, así que el dato no puede repetirlo: tiene que traer algo que el
+           lector no haya leído. */
+        destacado: { tipo: "cifra", cifra: "55", unidad: "años tenía aquella mañana" },
       },
       {
         rotulo: "La emboscada",
@@ -107,11 +119,11 @@ export const FIGURAS: Short[] = [
       {
         rotulo: "Lo que quedó",
         texto:
-          "No los siguió nadie. Los asesinos esperaban que la ciudad los recibiera como libertadores, y la ciudad se quedó mirando desde los portales. El cuerpo estuvo tirado en el suelo casi tres horas, hasta que tres esclavos se lo llevaron a casa en una camilla. Un médico lo examinó y contó veintitrés puñaladas, y dejó escrito que solo una había sido mortal: la segunda, la del pecho. Las otras veintidós sobraban. En dos años los cabecillas habían muerto, y diecisiete años después el sobrino nieto de César gobernaba como primer emperador.",
-        destacado: {
-          tipo: "frase",
-          frase: "Mataron a un hombre para no tener un rey y les salió un imperio.",
-        },
+          "No los siguió nadie. Los asesinos esperaban que la ciudad los recibiera como libertadores, y la ciudad se quedó mirando desde los portales. Un médico examinó el cuerpo y contó veintitrés puñaladas, y dejó escrito que solo una había sido mortal. En dos años los cabecillas habían muerto, y diecisiete años después el sobrino nieto de César gobernaba Roma como primer emperador. Habían matado a un hombre para no tener un rey, y lo que consiguieron fue un imperio.",
+        /* La última pantalla lleva además los dos botones y el aviso de que la
+           siguiente historia va hacia abajo, así que su texto va más corto que
+           el de las otras dos: si no, no cabe nada de eso. */
+        destacado: { tipo: "cifra", cifra: "3", unidad: "horas estuvo el cuerpo en el suelo" },
       },
     ],
   },
