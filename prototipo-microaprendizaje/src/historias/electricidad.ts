@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const ELECTRICIDAD: Short[] = [
   {
     id: "guerra-corrientes",
-    titulo: "Dos empresas se pelearon matando animales en público",
+    titulo: "Se pelearon matando animales",
     gancho: "Una defendía una corriente y la otra la contraria. La campaña incluyó electrocutar a un elefante.",
     categoria: "Electricidad",
     color: "var(--clay)",
@@ -50,7 +50,7 @@ export const ELECTRICIDAD: Short[] = [
 
   {
     id: "rana-voltio",
-    titulo: "La pila salió de una discusión sobre ranas",
+    titulo: "La pila salió de unas ranas",
     gancho: "Un anatomista creyó haber encontrado la electricidad de los seres vivos. Su rival demostró que era el metal.",
     categoria: "Electricidad",
     color: "var(--forest)",
@@ -81,7 +81,7 @@ export const ELECTRICIDAD: Short[] = [
 
   {
     id: "pararrayos-cometa",
-    titulo: "El pararrayos se probó con una cometa",
+    titulo: "El pararrayos se probó con cometa",
     gancho: "Dos personas repitieron el experimento y una murió. Iglesias enteras se negaron a instalarlo.",
     categoria: "Electricidad",
     color: "var(--slate)",

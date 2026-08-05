@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const ESCUELA: Short[] = [
   {
     id: "examenes-imperiales",
-    titulo: "Los exámenes duraban tres días encerrado",
+    titulo: "Un examen de tres días encerrado",
     gancho: "En una celda de poco más de un metro, con la comida, un orinal y una vela.",
     categoria: "Escuela",
     color: "var(--plum)",
@@ -48,7 +48,7 @@ export const ESCUELA: Short[] = [
 
   {
     id: "vacaciones-de-verano",
-    titulo: "Las vacaciones de verano no vienen de la cosecha",
+    titulo: "El verano no es agrícola",
     gancho: "En el campo se libraba en primavera y en otoño, que es cuando hay faena. El verano es cosa de ciudad.",
     categoria: "Escuela",
     color: "var(--ochre)",
@@ -79,7 +79,7 @@ export const ESCUELA: Short[] = [
 
   {
     id: "pizarra-de-aula",
-    titulo: "La pizarra cambió la forma de dar clase",
+    titulo: "La pizarra cambió la clase",
     gancho: "Antes, el maestro atendía de uno en uno. Con una pared negra pudo hablarle a cuarenta a la vez.",
     categoria: "Escuela",
     color: "var(--slate)",

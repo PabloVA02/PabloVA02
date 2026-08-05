@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const ESCRITURA: Short[] = [
   {
     id: "gutenberg-arruinado",
-    titulo: "Gutenberg perdió su imprenta antes de cobrar nada",
+    titulo: "Perdió su imprenta antes de cobrar",
     gancho: "Se pasó veinte años endeudado montando el invento. Su socio se lo quedó todo con una demanda.",
     categoria: "Escritura",
     color: "var(--slate)",
@@ -50,7 +50,7 @@ export const ESCRITURA: Short[] = [
 
   {
     id: "piedra-rosetta",
-    titulo: "Una piedra rota devolvió la voz a Egipto",
+    titulo: "Una piedra rota devolvió Egipto",
     gancho: "Los jeroglíficos llevaban mil cuatrocientos años sin poder leerse. La clave apareció en una zanja.",
     categoria: "Escritura",
     color: "var(--ochre)",
@@ -80,7 +80,7 @@ export const ESCRITURA: Short[] = [
 
   {
     id: "braille-militar",
-    titulo: "El braille salió de un código militar nocturno",
+    titulo: "El braille salió del ejército",
     gancho: "Un capitán quería que sus soldados leyeran órdenes sin encender una luz. Era demasiado complicado.",
     categoria: "Escritura",
     color: "var(--plum)",

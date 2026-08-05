@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const EMPRESAS: Short[] = [
   {
     id: "coca-cola-origen",
-    titulo: "La Coca-Cola nació como jarabe de farmacia",
+    titulo: "Nació como jarabe de farmacia",
     gancho: "Su inventor murió arruinado dos años después de crearla, sin haber ganado nada con ella.",
     categoria: "Empresas",
     color: "var(--clay)",
@@ -50,7 +50,7 @@ export const EMPRESAS: Short[] = [
 
   {
     id: "nokia-papel",
-    titulo: "Nokia hizo papel higiénico y botas de goma",
+    titulo: "Nokia hizo botas de goma",
     gancho: "Ciento treinta años fabricando de todo, y se salvó tirando por la borda lo único que ganaba dinero.",
     categoria: "Empresas",
     color: "var(--slate)",
@@ -81,7 +81,7 @@ export const EMPRESAS: Short[] = [
 
   {
     id: "google-errata",
-    titulo: "Google se llama así por una falta de ortografía",
+    titulo: "Google es una falta de ortografía",
     gancho: "Iban a ponerle el nombre de un número enorme. Lo escribieron mal al comprar el dominio.",
     categoria: "Empresas",
     color: "var(--plum)",

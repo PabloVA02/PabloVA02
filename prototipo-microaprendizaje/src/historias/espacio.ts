@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ESPACIO: Short[] = [
   {
     id: "luna-combustible",
-    titulo: "Pisaron la Luna con veinticinco segundos de margen",
+    titulo: "Quedaban veinticinco segundos",
     gancho: "El ordenador de a bordo se colapsó, el sitio previsto era un pedregal y quedaba gasolina para medio minuto.",
     categoria: "Espacio",
     color: "var(--slate)",
@@ -46,7 +46,7 @@ export const ESPACIO: Short[] = [
 
   {
     id: "laika",
-    titulo: "Laika: la perra que no iba a volver",
+    titulo: "La perra que no volvía",
     gancho: "La subieron sabiendo que no había manera de bajarla. Tardaron cuarenta y cinco años en contar cómo murió.",
     categoria: "Espacio",
     color: "var(--plum)",
@@ -77,7 +77,7 @@ export const ESPACIO: Short[] = [
 
   {
     id: "disco-voyager",
-    titulo: "Un disco con saludos viaja fuera del sistema solar",
+    titulo: "Un disco con saludos, ahí fuera",
     gancho: "Lleva música, un beso, una tormenta y las instrucciones para ponerlo. Nadie sabe si alguien lo escuchará.",
     categoria: "Espacio",
     color: "var(--ochre)",

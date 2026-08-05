@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const ESCLAVITUD: Short[] = [
   {
     id: "haiti-indemnizacion",
-    titulo: "Haití pagó a Francia por haberse liberado",
+    titulo: "Pagaron por haberse liberado",
     gancho: "Ganó su independencia peleando, y luego indemnizó a sus antiguos dueños durante ciento veintidós años.",
     categoria: "Esclavitud",
     color: "var(--clay)",
@@ -50,7 +50,7 @@ export const ESCLAVITUD: Short[] = [
 
   {
     id: "zong-seguro",
-    titulo: "Reclamaron al seguro por las personas ahogadas",
+    titulo: "Reclamaron al seguro por los ahogados",
     gancho: "El capitán echó al agua a ciento treinta y dos cautivos y sus dueños pidieron cobrar la póliza.",
     categoria: "Esclavitud",
     color: "var(--slate)",
@@ -80,7 +80,7 @@ export const ESCLAVITUD: Short[] = [
 
   {
     id: "ultimo-barco-negrero",
-    titulo: "El último barco negrero llegó por una apuesta",
+    titulo: "El último barco, por una apuesta",
     gancho: "El comercio llevaba medio siglo prohibido y se castigaba con la horca. Un rico apostó a que podía.",
     categoria: "Esclavitud",
     color: "var(--plum)",

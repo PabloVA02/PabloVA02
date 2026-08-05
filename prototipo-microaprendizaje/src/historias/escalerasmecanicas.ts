@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const ESCALERAS_MECANICAS: Short[] = [
   {
     id: "la-escalera-de-feria",
-    titulo: "La escalera mecánica nació como atracción de feria",
+    titulo: "Nació como atracción de feria",
     gancho: "No llevaba a ninguna parte: subías, mirabas y volvías a bajar. Setenta y cinco mil personas pagaron por probarla.",
     categoria: "Objetos",
     color: "var(--clay)",
@@ -43,7 +43,7 @@ export const ESCALERAS_MECANICAS: Short[] = [
   },
   {
     id: "el-fuego-que-se-tumbo",
-    titulo: "Un incendio descubrió un efecto que nadie conocía",
+    titulo: "Un incendio descubrió el efecto chimenea",
     gancho: "En una escalera mecánica de madera del metro de Londres, la llama no subió hacia arriba: se tumbó sobre los peldaños y corrió.",
     categoria: "Objetos",
     color: "var(--slate)",
@@ -72,7 +72,7 @@ export const ESCALERAS_MECANICAS: Short[] = [
   },
   {
     id: "la-cinta-del-aeropuerto",
-    titulo: "La cinta del aeropuerto casi nunca ahorra tiempo",
+    titulo: "La cinta no te ahorra tiempo",
     gancho: "Los estudios con cámaras dicen que los pasajeros van de media más lentos con cinta que sin ella.",
     categoria: "Objetos",
     color: "var(--ochre)",

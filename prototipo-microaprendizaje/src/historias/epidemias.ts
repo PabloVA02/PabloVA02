@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const EPIDEMIAS: Short[] = [
   {
     id: "bomba-broad-street",
-    titulo: "Un mapa con rayitas paró una epidemia",
+    titulo: "Un mapa paró una epidemia",
     gancho: "Nadie sabía qué era el cólera. Un médico dibujó dónde vivía cada muerto y quitó el asa de una bomba.",
     categoria: "Epidemias",
     color: "var(--slate)",
@@ -49,7 +49,7 @@ export const EPIDEMIAS: Short[] = [
 
   {
     id: "ultima-viruela",
-    titulo: "La viruela es la única enfermedad erradicada",
+    titulo: "La única enfermedad borrada del mundo",
     gancho: "Mató a más gente que cualquier otra. La campaña final consistió en perseguir a los enfermos uno a uno.",
     categoria: "Epidemias",
     color: "var(--forest)",
@@ -79,7 +79,7 @@ export const EPIDEMIAS: Short[] = [
 
   {
     id: "peste-negra",
-    titulo: "La peste negra vació un tercio de Europa",
+    titulo: "Vació un tercio de Europa",
     gancho: "Llegó en barcos con las tripulaciones ya muertas. En cuatro años cambió los sueldos de un continente.",
     categoria: "Epidemias",
     color: "var(--clay)",
