@@ -21,6 +21,47 @@ export const MONASTERIOS: Short[] = [
     categoria: "Monasterios",
     color: "var(--slate)",
     encargo: "Una campana de bronce colgada en una espadaña de piedra al amanecer.",
+    /* La campana que manda, lo que se usaba para saber cuándo tocarla, la
+       máquina que vino a sustituir al monje que no dormía, y la torre del
+       ayuntamiento adonde acabó llegando todo esto. */
+    fotos: [
+      {
+        archivo: "El nido de la espadaña - Ermita del pueblo (Sotopalacio - Burgos) (18246823181).jpg",
+        autor:
+          "La espadaña de una ermita de Burgos, con sus dos campanas y un nido encima. Fotografía de jacilluch, 2013.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:El_nido_de_la_espada%C3%B1a_-_Ermita_del_pueblo_(Sotopalacio_-_Burgos)_(18246823181).jpg",
+        foco: "50% 55%",
+        alt: "El remate de piedra de una iglesia pequeña, con dos campanas colgadas en sus arcos y un nido de cigüeña en lo alto.",
+      },
+      {
+        archivo: "Espoo candle clock.JPG",
+        autor:
+          "Un reloj de vela: la cera baja a un ritmo conocido y las rayas marcadas al lado dicen la hora. Museo del Reloj de Espoo, Finlandia. Fotografía de Catlemur, 2015.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Espoo_candle_clock.JPG",
+        foco: "55% 45%",
+        alt: "Una vela larga encendida en un candelero de latón, dentro de una vitrina, con números romanos marcados a lo largo de la cera.",
+      },
+      {
+        archivo: "Interieur toren, uurwerk, detail - Winkel - 20324195 - RCE.jpg",
+        autor:
+          "El mecanismo de un reloj de torre: ruedas dentadas movidas por pesas, que a la hora sueltan un martillo sobre la campana. Iglesia de Winkel, Países Bajos. Fotografía de Gerard Dukker, 1999.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Interieur_toren,_uurwerk,_detail_-_Winkel_-_20324195_-_RCE.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía en blanco y negro del engranaje de hierro de un reloj de torre, con ruedas dentadas grandes y ejes cuadrados.",
+      },
+      {
+        archivo: "Sydney Town Hall clock tower. (21090328131).jpg",
+        autor:
+          "El reloj del ayuntamiento de Sídney, instalado en 1884, entre los rascacielos que llegaron después. Fotografía de Bernard Spragg, 2015.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sydney_Town_Hall_clock_tower._(21090328131).jpg",
+        foco: "60% 45%",
+        alt: "Una torre de reloj de piedra del siglo XIX encajonada entre fachadas de cristal de oficinas.",
+      },
+    ],
     entrada:
       "Europa, siglo VI. Una regla monástica escrita en Italia organiza el día de una comunidad religiosa en ocho momentos de oración repartidos entre el amanecer y la noche, incluido uno en plena madrugada. Fuera de los monasterios nadie necesita saber la hora con esa precisión: se trabaja mientras hay luz y se para cuando se acaba. La regla se copia y se adopta en cientos de casas por todo el continente, y con ella se cuela un problema técnico nuevo. Hay que saber la hora de noche, sin sol, todos los días y sin fallar. De esa obligación, y no de la ciencia ni del comercio, sale el primer aparato de Europa que mide el tiempo solo, sin que nadie tenga que estar mirándolo.",
     paginas: [

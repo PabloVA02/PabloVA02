@@ -21,6 +21,47 @@ export const TINTA: Short[] = [
     categoria: "Historia",
     color: "var(--clay)",
     encargo: "Página de manuscrito antiguo con el papel oscurecido y perforado alrededor de las letras.",
+    /* Lo escrito, de dónde salía la tinta, lo que la tinta hace ahora y quién
+       corre contra ello. Las dos últimas son la misma cosa vista de cerca y de
+       lejos: el agujero en una hoja y el archivo entero comido. */
+    fotos: [
+      {
+        archivo: "Page from the 'Garden of knowledge (Viridarium)', a medieval encyclopaedia (CBL W 080, f.13r).jpg",
+        autor:
+          "Página de una enciclopedia manuscrita entre 1386 y 1425, escrita con esta misma tinta. Biblioteca Chester Beatty, Dublín.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Page_from_the_%27Garden_of_knowledge_(Viridarium)%27,_a_medieval_encyclopaedia_(CBL_W_080,_f.13r).jpg",
+        foco: "50% 45%",
+        alt: "Una página de pergamino cubierta de letra gótica apretada en tinta marrón, con letras capitulares rojas y un animalillo dibujado al margen.",
+      },
+      {
+        archivo: "Gall from Oak Gall Wasp (Cynips quercusfolii).jpg",
+        autor:
+          "La agalla que forma un roble alrededor del huevo de una avispa. Machacada y puesta a remojo, suelta lo que hace negra a la tinta. Fotografía de wackybadger, 2013.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gall_from_Oak_Gall_Wasp_(Cynips_quercusfolii).jpg",
+        foco: "55% 45%",
+        alt: "Una bola verde y lisa del tamaño de una canica, pegada al envés de una hoja de roble.",
+      },
+      {
+        archivo: "Tintenfraß.jpg",
+        autor:
+          "Un expediente con el papel comido justo por donde pasaba la escritura. Archivo Regional de Hesse, Alemania, 2010.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tintenfra%C3%9F.jpg",
+        foco: "50% 45%",
+        alt: "Dos manos con guantes blancos sostienen un legajo abierto: una mancha oscura ha carcomido el papel hasta abrir un agujero alargado.",
+      },
+      {
+        archivo: "Staatsarchiv Zürich.JPG",
+        autor:
+          "Un libro de archivo deshecho por el mismo motivo: las hojas se han roto por donde había letra. Archivo del Cantón de Zúrich. Fotografía de Juerg Hug, 2011.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Staatsarchiv_Z%C3%BCrich.JPG",
+        foco: "50% 50%",
+        alt: "Un libro manuscrito abierto cuyas páginas centrales están rotas en tiras y astillas de papel.",
+      },
+    ],
     entrada:
       "Europa, del siglo V al XIX. Durante mil cuatrocientos años, casi todo lo que se escribió en el continente se escribió con la misma tinta, hecha con unas bolas que crecen en las hojas del roble. Era negra, barata y no se borraba, que era exactamente lo que hacía falta cuando un documento tenía que aguantar generaciones. Con ella están escritos los evangelios copiados a mano, las cuentas de los reinos y las partituras de Bach. Su defecto tardó siglos en aparecer y hoy no tiene marcha atrás. Esa tinta se está comiendo los documentos desde dentro, letra por letra, y en los archivos hay hojas donde el texto ha caído literalmente al suelo.",
     paginas: [

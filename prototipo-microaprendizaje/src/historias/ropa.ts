@@ -25,6 +25,47 @@ export const ROPA: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un puñado de botones antiguos de nácar y hueso sobre un paño oscuro.",
+    /* El botón, el ojal, el lado y el lujo: una imagen por página y las cuatro
+       del mismo objeto visto de otra manera. La del ojal es la que hace el
+       short, porque el ojal es la pieza que tardó cuatro mil años en llegar. */
+    fotos: [
+      {
+        archivo: "Box Full of Buttons For Sewing (42958527870).jpg",
+        autor:
+          "Una caja de botones de costura. Los primeros que se conocen, de hace cinco mil años, eran así de pequeños y no abrochaban nada. Fotografía de Dejan Krsmanovic, 2018.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Box_Full_of_Buttons_For_Sewing_(42958527870).jpg",
+        foco: "50% 50%",
+        alt: "Una caja de plástico llena de botones de todos los tamaños y colores, amontonados unos sobre otros.",
+      },
+      {
+        archivo: "Bound buttonhole.jpg",
+        autor:
+          "Un ojal rematado a mano en un paño de lana. Es la pieza que faltaba: un corte con los bordes cosidos para que no se deshilache. Fotografía de Kelly Hogaboom, 2012.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bound_buttonhole.jpg",
+        foco: "55% 45%",
+        alt: "Una mano sujeta un paño de lana azul en el que hay abierto un ojal alargado con los bordes rematados.",
+      },
+      {
+        archivo: "Wilhelmina von Hallwyls bröllopsklänning. Detalj. Bröstet vänster sida - Hallwylska museet - 87238.tif",
+        autor:
+          "El pecho de un vestido de novia sueco del siglo XIX, con los botones forrados de la misma tela en fila. Museo Hallwyl, Estocolmo.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wilhelmina_von_Hallwyls_br%C3%B6llopskl%C3%A4nning._Detalj._Br%C3%B6stet_v%C3%A4nster_sida_-_Hallwylska_museet_-_87238.tif",
+        foco: "55% 50%",
+        alt: "Detalle de un vestido blanco de novia: una hilera de botones forrados en tela, con cordoncillo trenzado y borlas al lado.",
+      },
+      {
+        archivo: "Buttons (France), 18th century (CH 18690625).jpg",
+        autor:
+          "Un botón francés del siglo XVIII, de metal labrado con dos anillos de puntas facetadas. Museo Cooper Hewitt, Nueva York.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Buttons_(France),_18th_century_(CH_18690625).jpg",
+        foco: "50% 38%",
+        alt: "Un botón redondo de metal oscuro, con un bulto en el centro rodeado de dos coronas de puntas brillantes, sobre un cartón de museo.",
+      },
+    ],
     entrada:
       "Los botones más antiguos que se conocen aparecieron en el valle del Indo, en el actual Pakistán, hace unos cinco mil años, y estaban tallados en concha. No servían para abrochar nada: eran adorno, se cosían encima de la tela y ahí se quedaban. La ropa de entonces no necesitaba abrocharse porque no se ajustaba al cuerpo: eran piezas que se echaban por encima y se sujetaban con un cinturón o con un alfiler. La idea de hacerle un agujero al tejido para meter el botón por él tardó tres mil años en aparecer. Es tan pequeño que cuesta llamarlo invento, y aun así nadie dio con él en treinta siglos de gente cosiendo ropa. Cuando llegó, cambió la ropa entera.",
     paginas: [

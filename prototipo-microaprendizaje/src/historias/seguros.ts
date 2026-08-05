@@ -21,6 +21,50 @@ export const SEGUROS: Short[] = [
     categoria: "Dinero",
     color: "var(--slate)",
     encargo: "Página de una tabla de mortalidad del siglo XVIII, con columnas de edades y cifras.",
+    /* La tabla, la multitud de la que sale, el reconocimiento que separa a unos
+       de otros y la máquina de echar las cuentas.
+
+       Ojo con la primera: en Commons está guardada como «City of London» y la
+       hoja, leída, dice Dublín y lista parroquias de Dublín. El pie va por lo
+       que pone la hoja, que es lo que se ve. */
+    fotos: [
+      {
+        archivo: "Quarterly Bill of Mortality for the City of London. Wellcome M0013809.jpg",
+        autor:
+          "Un boletín trimestral de mortalidad impreso para la ciudad de Dublín: las parroquias en filas, y en columnas los nacidos, los casados y los muertos por edad y por enfermedad. Colección Wellcome, Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Quarterly_Bill_of_Mortality_for_the_City_of_London._Wellcome_M0013809.jpg",
+        foco: "50% 22%",
+        alt: "Hoja impresa antigua con el título «A Quarterly Bill of Mortality» y una rejilla de casillas con los nombres de las parroquias a la izquierda.",
+      },
+      {
+        archivo: "Aerial view of Victorious Festival 1.jpg",
+        autor:
+          "Un festival visto desde el aire, en 2022. De uno solo de esos puntos no se puede predecir nada; de todos a la vez, bastante. Fotografía de Tim Sheerman-Chase.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Victorious_Festival_1.jpg",
+        foco: "50% 68%",
+        alt: "Vista aérea de un recinto junto al mar con una multitud enorme y apretada delante de un escenario.",
+      },
+      {
+        archivo: "Antique stethoscope.JPG",
+        autor:
+          "Un estetoscopio antiguo, de los de madera y una sola oreja. El reconocimiento médico existe porque la compañía necesita saber lo que el cliente ya sabe. Centro Médico Seton, California. Fotografía de BrokenSphere, 2008.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Antique_stethoscope.JPG",
+        foco: "50% 50%",
+        alt: "Un estetoscopio antiguo de madera torneada, con un tubo metálico flexible, expuesto en una vitrina.",
+      },
+      {
+        archivo: "Mechanical-calculator-Brunsviga-15-01a.jpg",
+        autor:
+          "Una calculadora mecánica Brunsviga, fabricada entre 1934 y 1947. Con una máquina de manivela como esta se echaban estas cuentas antes del ordenador. Fotografía de Uwe Aranas, 2015.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mechanical-calculator-Brunsviga-15-01a.jpg",
+        foco: "50% 50%",
+        alt: "Una calculadora mecánica de sobremesa, con filas de ruedas numeradas y una manivela en el lateral.",
+      },
+    ],
     entrada:
       "Londres, 1762. Se funda la primera compañía que vende seguros de vida calculando el precio según la edad del cliente, cosa que hasta entonces nadie hacía. Antes se cobraba a todos lo mismo y el negocio se hundía siempre por la misma razón. El que se sabía enfermo contrataba y el que se sabía sano no, así que la compañía acababa pagando más de lo que ingresaba. La idea nueva era usar una tabla de mortalidad, que dice cuánta gente de cada edad muere en un año. Con esa tabla delante, el precio deja de ser una apuesta y pasa a ser una cuenta. Es la primera vez que alguien le pone un número al futuro de una persona y acierta lo bastante como para vivir de ello.",
     paginas: [
