@@ -20,6 +20,47 @@ export const DESAGUES: Short[] = [
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Sifón de fregadero visto de lado, en corte, con el agua retenida en la curva.",
+    /* La pieza, la gota que demuestra que retiene agua, el edificio entero con
+       su bajante —que es el enemigo del sifón— y el bajo del fregadero, que es
+       donde uno se encuentra con todo esto. */
+    fotos: [
+      {
+        archivo: "Brass P trap.jpg",
+        autor:
+          "Un sifón de latón, el tubo doblado que va debajo de cada desagüe. Fotografía de Raquel Baranow, 2022.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Brass_P_trap.jpg",
+        foco: "50% 45%",
+        alt: "Un tubo de latón oscurecido, doblado en forma de ese, saliendo de una pared pintada de amarillo.",
+      },
+      {
+        archivo: "Leaking PVC Pipe Under Sink - P Trap (52842956605).jpg",
+        autor:
+          "Un sifón de plástico bajo un fregadero, con una gota colgando. En la curva se queda siempre un dedo de agua, y ese es todo el invento. Fotografía de Tony Webster, 2023.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Leaking_PVC_Pipe_Under_Sink_-_P_Trap_(52842956605).jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de un sifón blanco de plástico con sus tuercas, y una gota de agua colgando de la parte baja de la curva.",
+      },
+      {
+        archivo: "Modern plumbing illustrated - a comprehensive and thoroughly practical work on the modern and most approved methods of plumbing construction (1907) (14597192450).jpg",
+        autor:
+          "Lámina de un manual de fontanería de 1907, de R. M. Starbuck: el desagüe de una casa entera, con la bajante subiendo de la bodega al tejado y un sifón en cada aparato.",
+        licencia: "Sin restricciones conocidas",
+        fuente: "https://commons.wikimedia.org/wiki/File:Modern_plumbing_illustrated_-_a_comprehensive_and_thoroughly_practical_work_on_the_modern_and_most_approved_methods_of_plumbing_construction_(1907)_(14597192450).jpg",
+        foco: "50% 50%",
+        alt: "Lámina técnica antigua con el corte de una casa de tres plantas y toda la red de tuberías de desagüe dibujada y rotulada.",
+      },
+      {
+        archivo: "247 Home Rescue back of sink plumbing.jpg",
+        autor:
+          "El bajo de un fregadero: llaves, tubos y el sifón, que se desenrosca a mano. Ahí es donde aparecen los anillos que se caen por el desagüe. Fotografía de 247 Home Rescue, 2014.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:247_Home_Rescue_back_of_sink_plumbing.jpg",
+        foco: "50% 50%",
+        alt: "Vista del interior de un mueble de fregadero, con tubos blancos y metálicos y llaves de paso contra la pared alicatada.",
+      },
+    ],
     entrada:
       "Reino Unido, 1775. Un relojero de Londres patenta una pieza que no parece nada: un tubo doblado en forma de ese que se coloca debajo de cada desagüe. La ciudad huele mal por dentro porque los retretes conectan directamente con las cloacas y el aire de abajo sube por el agujero. Nadie entiende todavía que ese aire transmita enfermedades, pero todo el mundo sabe que la casa apesta. Esa curva tan simple es la que separa el olor de la casa del olor de la alcantarilla, y lo hace sin electricidad, sin piezas móviles y sin gastar nada. Lleva doscientos cincuenta años funcionando igual.",
     paginas: [

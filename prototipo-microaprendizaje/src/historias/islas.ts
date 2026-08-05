@@ -23,6 +23,47 @@ export const ISLAS: Short[] = [
     categoria: "Islas",
     color: "var(--slate)",
     encargo: "Una estatua de piedra de espaldas al mar, con la base ancha y el cuerpo inclinado.",
+    /* Las que llegaron a su plataforma, una de las que se quedaron a medio
+       camino —de pie, que es el dato que lo cambia todo—, una de cerca para ver
+       el tamaño, y la cantera con la isla pelada detrás. */
+    fotos: [
+      {
+        archivo: "Rapa Nui Moai (Easter Island).jpg",
+        autor:
+          "Una fila de estatuas sobre su plataforma en Rapa Nui, la isla de Pascua, con el moño de piedra roja puesto. Fotografía de Docrgd, 2010.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rapa_Nui_Moai_(Easter_Island).jpg",
+        foco: "50% 50%",
+        alt: "Cinco estatuas de piedra en fila sobre una plataforma baja, con cilindros rojizos encima de la cabeza y una ladera de hierba detrás.",
+      },
+      {
+        archivo: "Moai at Rano Raraku (Easter Island).jpg",
+        autor:
+          "Una estatua de las que nunca llegaron a su plataforma, en la ladera de la cantera de Rano Raraku. Está de pie y enterrada hasta los hombros. Fotografía de Mc vc, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Moai_at_Rano_Raraku_(Easter_Island).jpg",
+        foco: "50% 55%",
+        alt: "Una cabeza y unos hombros de piedra asomando derechos de la hierba de una ladera, con el cielo azul detrás.",
+      },
+      {
+        archivo: "Rapa Nui, Rano Raraku.JPG",
+        autor:
+          "Otra de la misma ladera, vista desde abajo. Las dos personas del fondo dan la medida: las mayores pasan de las setenta toneladas. Fotografía de Javier Ramos Pinochet, 2012.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rapa_Nui,_Rano_Raraku.JPG",
+        foco: "45% 50%",
+        alt: "Una estatua de perfil recortada contra el cielo, con la nariz y el mentón muy marcados, y dos personas diminutas sentadas al fondo.",
+      },
+      {
+        archivo: "Easter Island, Rano Raraku, moais (6686043521).jpg",
+        autor:
+          "La cantera de Rano Raraku entera, con las estatuas repartidas por la falda y ni un árbol en la isla. Fotografía de Arian Zwegers, 2011.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Easter_Island,_Rano_Raraku,_moais_(6686043521).jpg",
+        foco: "50% 60%",
+        alt: "Una loma de roca oscura cubierta de hierba, con decenas de estatuas pequeñas repartidas por la ladera y ningún árbol a la vista.",
+      },
+    ],
     entrada:
       "Pacífico sur, siglo XVII. En una isla de veinticuatro kilómetros de largo, a tres mil quinientos kilómetros de la costa más cercana, hay casi un millar de estatuas de piedra de hasta ochenta toneladas. Están talladas en una misma cantera y repartidas por plataformas de toda la costa. La isla no tiene árboles grandes, ni animales de tiro, ni ruedas, y sus habitantes eran unos pocos miles. Nadie de fuera sabe cómo se movieron esas piedras, y durante dos siglos se dio por hecho que la explicación tenía que ser que las arrastraron tumbadas sobre troncos. Los propios isleños contaban otra cosa, y nadie les hizo caso.",
     paginas: [
