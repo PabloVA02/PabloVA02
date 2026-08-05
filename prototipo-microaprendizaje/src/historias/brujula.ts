@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const BRUJULA: Short[] = [
   {
     id: "brujula-adivinacion",
-    titulo: "La brújula se inventó para adivinar",
+    titulo: "La brújula nació adivinando",
     gancho: "Antes de servir para navegar pasó mil años orientando casas y tumbas.",
     categoria: "Brújula",
     color: "var(--ochre)",
@@ -37,7 +37,7 @@ export const BRUJULA: Short[] = [
         rotulo: "Al barco",
         texto:
           "Pasaron más de mil años hasta que a alguien se le ocurrió sacarla al mar. Los primeros textos que describen una aguja imantada usada para navegar son chinos del siglo XI, y en Europa aparecen a finales del XII. El montaje mejoró deprisa: primero la aguja flotando sobre una paja en un cuenco de agua, después clavada sobre un pivote y por último dentro de una caja con la rosa de los vientos dibujada debajo. De pronto se podía mantener el rumbo con el cielo cubierto, que era justo lo que impedía alejarse de la costa.",
-        destacado: { tipo: "cifra", cifra: "1.000", unidad: "años entre el adivino y el marino" },
+        destacado: { tipo: "cifra", cifra: "1.000", unidad: "años del adivino al marino" },
       },
       {
         rotulo: "Lo que quedó",
@@ -49,7 +49,7 @@ export const BRUJULA: Short[] = [
 
   {
     id: "polo-magnetico-corre",
-    titulo: "El norte magnético se mueve y acelera",
+    titulo: "El norte se mueve y acelera",
     gancho: "Ha corrido tanto que hubo que actualizar el modelo mundial fuera de plazo y repintar pistas.",
     categoria: "Brújula",
     color: "var(--slate)",
@@ -68,7 +68,7 @@ export const BRUJULA: Short[] = [
         rotulo: "La carrera",
         texto:
           "Durante el siglo XX el polo norte magnético se desplazaba unos quince kilómetros al año por el norte de Canadá, un ritmo lento y previsible. A partir de los años noventa aceleró hasta cincuenta o sesenta kilómetros anuales y enfiló hacia Siberia, cruzando el meridiano cero en 2017. Se cree que el causante es un chorro de hierro líquido en el núcleo externo del planeta, a tres mil kilómetros bajo los pies, que ha ido tirando del campo. Varios aeropuertos han tenido que renumerar pistas, porque el número pintado indica su orientación magnética.",
-        destacado: { tipo: "cifra", cifra: "55", unidad: "kilómetros al año, frente a 15 antes" },
+        destacado: { tipo: "cifra", cifra: "55", unidad: "kilómetros al año, antes 15" },
       },
       {
         rotulo: "Lo que quedó",
@@ -80,7 +80,7 @@ export const BRUJULA: Short[] = [
 
   {
     id: "inversion-polos",
-    titulo: "Los polos magnéticos ya se han cambiado",
+    titulo: "Los polos ya se han cambiado",
     gancho: "El fondo del océano está rayado como un código de barras, y esas rayas lo contaron todo.",
     categoria: "Brújula",
     color: "var(--plum)",

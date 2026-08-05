@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const CARRETERAS: Short[] = [
   {
     id: "el-firme-que-drena",
-    titulo: "La carretera moderna se inventó para el agua",
+    titulo: "La carretera se inventó drenando",
     gancho: "El enemigo no es el peso de los carros, es la lluvia. Un ingeniero escocés lo entendió antes que nadie.",
     categoria: "Carreteras",
     color: "var(--slate)",
@@ -33,7 +33,7 @@ export const CARRETERAS: Short[] = [
         rotulo: "El polvo",
         texto:
           "El método se extendió por Europa y América en pocas décadas porque era barato y rápido, pero tenía un problema evidente en cuanto llegaron los coches. Las ruedas de hierro de los carros apisonaban la piedra, mientras que los neumáticos de goma, girando deprisa, chupaban el polvo del firme y lo levantaban. Las carreteras se deshacían y los pueblos vivían entre nubes de tierra. La solución llegó hacia 1900 y consistió en rociar la superficie con alquitrán para pegar el polvo. De ahí viene el nombre del asfalto moderno en varios idiomas, que junta el apellido del ingeniero con la palabra alquitrán.",
-        destacado: { tipo: "cifra", cifra: "1816", unidad: "el año del método del firme drenante" },
+        destacado: { tipo: "cifra", cifra: "1816", unidad: "el año del firme drenante" },
       },
       {
         rotulo: "Lo que quedó",
@@ -44,7 +44,7 @@ export const CARRETERAS: Short[] = [
   },
   {
     id: "conducir-por-la-derecha",
-    titulo: "Por qué unos países conducen por la izquierda",
+    titulo: "Conducir por la izquierda",
     gancho: "Tiene que ver con la espada, con los carros de varios caballos y con quién ganó cada guerra.",
     categoria: "Carreteras",
     color: "var(--ochre)",
@@ -63,7 +63,7 @@ export const CARRETERAS: Short[] = [
         rotulo: "Los carreteros",
         texto:
           "Lo que dio la vuelta a la costumbre fueron los carros grandes de mercancías. En Francia y en América se tiraba de ellos con varias parejas de caballos y sin pescante: el conductor iba montado en el caballo trasero izquierdo, para tener el látigo en la mano derecha. Desde ahí se ve mejor el borde del carro si se circula por la derecha, así que esos países se pasaron a ese lado. Después llegaron la Revolución francesa y las conquistas napoleónicas, que impusieron la derecha en media Europa, y cada imperio exportó su costumbre a sus colonias.",
-        destacado: { tipo: "cifra", cifra: "1", unidad: "de cada 3 personas conduce por la izquierda" },
+        destacado: { tipo: "cifra", cifra: "1", unidad: "de cada tres, por la izquierda" },
       },
       {
         rotulo: "Lo que quedó",
@@ -74,7 +74,7 @@ export const CARRETERAS: Short[] = [
   },
   {
     id: "el-peaje-y-la-barrera",
-    titulo: "Las carreteras se pagaban con una barrera",
+    titulo: "Las carreteras se pagaban con barreras",
     gancho: "Compañías privadas arreglaban un tramo y cobraban por pasar. Hubo revueltas para quemar las barreras.",
     categoria: "Carreteras",
     color: "var(--plum)",
@@ -86,7 +86,7 @@ export const CARRETERAS: Short[] = [
         rotulo: "El trato",
         texto:
           "El acuerdo era claro y estaba en cada ley particular. Una compañía se comprometía a reparar y mantener un tramo concreto, y a cambio podía instalar barreras y cobrar una tarifa fijada por ley a cada viajero, según llevara carro, caballo o ganado. La barrera se giraba para dejar pasar cuando se pagaba, y por eso al sistema se le llamó de la barrera giratoria. Llegó a haber más de mil compañías en el país y decenas de miles de kilómetros gestionados así, con casillas de cobro cada pocas millas.",
-        destacado: { tipo: "cifra", cifra: "1.000", unidad: "compañías llegaron a cobrar peajes" },
+        destacado: { tipo: "cifra", cifra: "1.000", unidad: "compañías cobrando peaje" },
       },
       {
         rotulo: "Las revueltas",

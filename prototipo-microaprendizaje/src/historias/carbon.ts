@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const CARBON: Short[] = [
   {
     id: "canario-en-la-mina",
-    titulo: "El canario de la mina tenía su propio reanimador",
+    titulo: "El canario tenía reanimador",
     gancho: "No se llevaba para que muriera: la jaula tenía una botella de oxígeno para revivirlo.",
     categoria: "Carbón",
     color: "var(--ochre)",
@@ -36,7 +36,7 @@ export const CARBON: Short[] = [
         rotulo: "La jaula con grifo",
         texto:
           "Lo que casi nadie sabe es que la idea nunca fue sacrificar al animal. Las jaulas que se fabricaron para esto son aparatos ingeniosos: llevan una puerta de cristal que se cierra en cuanto el pájaro se tambalea, un compartimento estanco y una botella pequeña de oxígeno con su grifo, de modo que al aislarlo y abrir el gas el canario se recupera en pocos minutos y puede volver a bajar otro día. Los mineros les ponían nombre y los cuidaban como a un compañero, y los equipos de rescate llevaban dos o tres para poder ir turnándolos.",
-        destacado: { tipo: "cifra", cifra: "2", unidad: "veces más rápido renueva el aire un canario" },
+        destacado: { tipo: "cifra", cifra: "2", unidad: "veces más rápido respira" },
       },
       {
         rotulo: "Lo que quedó",
@@ -48,7 +48,7 @@ export const CARBON: Short[] = [
 
   {
     id: "lampara-que-no-prende",
-    titulo: "Una malla de alambre evitó que la lámpara explotara",
+    titulo: "Una malla apagó las explosiones",
     gancho: "La llama sigue ardiendo dentro, pero el fuego no sale. El truco es que el metal roba el calor.",
     categoria: "Carbón",
     color: "var(--slate)",
@@ -66,7 +66,7 @@ export const CARBON: Short[] = [
         rotulo: "El resultado inesperado",
         texto:
           "El inventor renunció a patentarla y la cedió al uso público, un gesto que se le agradeció con medallas y homenajes. Lo que pasó después es más incómodo y se estudia hoy en los cursos de seguridad como ejemplo clásico. Con una lámpara segura, las empresas pudieron abrir vetas más profundas y más gaseosas que antes estaban descartadas por imposibles, y mandar allí a más gente durante más horas. El número de accidentes por millón de toneladas bajó, pero el número absoluto de muertos en las minas británicas subió durante las décadas siguientes.",
-        destacado: { tipo: "cifra", cifra: "1815", unidad: "el año de la lámpara de seguridad" },
+        destacado: { tipo: "cifra", cifra: "1815", unidad: "el año de la lámpara" },
       },
       {
         rotulo: "Lo que quedó",
@@ -78,7 +78,7 @@ export const CARBON: Short[] = [
 
   {
     id: "fuego-bajo-el-pueblo",
-    titulo: "Un pueblo lleva sesenta años ardiendo por debajo",
+    titulo: "Un pueblo lleva sesenta años ardiendo",
     gancho: "Empezó en el vertedero en 1962, bajó a la veta de carbón y ya no hubo forma de apagarlo.",
     categoria: "Carbón",
     color: "var(--clay)",
@@ -90,7 +90,7 @@ export const CARBON: Short[] = [
         rotulo: "Cómo arde una veta",
         texto:
           "Un incendio de carbón subterráneo no se parece a ningún otro. Arde despacio, sin llama visible y a temperaturas que superan los quinientos grados, alimentado por el aire que entra por cualquier grieta o pozo antiguo. Apagarlo exige excavar y retirar todo el carbón que arde, o inundar la veta entera, y en los años sesenta se intentaron varias veces las dos cosas sin conseguirlo, porque el fuego avanzaba por galerías que no estaban cartografiadas. Cada intento fallido costaba una fortuna y el frente se movía unos metros más, siempre por debajo del pueblo.",
-        destacado: { tipo: "cifra", cifra: "500", unidad: "grados alcanza el carbón que arde abajo" },
+        destacado: { tipo: "cifra", cifra: "500", unidad: "grados bajo el pueblo" },
       },
       {
         rotulo: "La grieta",

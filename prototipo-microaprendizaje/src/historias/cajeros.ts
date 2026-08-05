@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CAJEROS: Short[] = [
   {
     id: "el-primer-cajero",
-    titulo: "El primer cajero funcionaba con vales radiactivos",
+    titulo: "Vales radiactivos en el cajero",
     gancho: "No había tarjetas ni red, así que se usaban papeletas impregnadas con una sustancia que la máquina reconocía.",
     categoria: "Cajeros",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const CAJEROS: Short[] = [
   },
   {
     id: "el-cajero-por-dentro",
-    titulo: "Un cajero cuenta los billetes uno a uno",
+    titulo: "Cuenta los billetes uno a uno",
     gancho: "Los separa por rozamiento, mide su grosor al pasar y descarta el que no encaja, todo en dos segundos.",
     categoria: "Cajeros",
     color: "var(--ochre)",
@@ -64,7 +64,7 @@ export const CAJEROS: Short[] = [
         rotulo: "El reparto",
         texto:
           "Hay además un problema de logística que se resuelve con matemáticas y con estadística, no con mecánica. Cuando alguien pide una cantidad, el programa decide qué combinación de billetes entrega. Procura gastar los de valor pequeño sin agotarlos antes de la siguiente recarga, que puede tardar días en llegar. Los bancos estiman con datos históricos cuánto se sacará de cada cajero según el día de la semana. Llenarlo tiene su coste, porque hay que mover un furgón blindado y porque ese dinero está parado en la máquina en lugar de producir intereses.",
-        destacado: { tipo: "cifra", cifra: "2", unidad: "segundos tarda en contar y comprobar" },
+        destacado: { tipo: "cifra", cifra: "2", unidad: "segundos por fajo de billetes" },
       },
       {
         rotulo: "Lo que quedó",
@@ -75,7 +75,7 @@ export const CAJEROS: Short[] = [
   },
   {
     id: "el-desierto-de-cajeros",
-    titulo: "Hay pueblos enteros que se han quedado sin cajero",
+    titulo: "Pueblos enteros sin cajero",
     gancho: "Cuando cierra la última oficina, el efectivo desaparece del pueblo y quien no usa el móvil se queda fuera.",
     categoria: "Cajeros",
     color: "var(--plum)",

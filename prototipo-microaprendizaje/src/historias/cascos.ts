@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const CASCOS: Short[] = [
   {
     id: "el-casco-se-rompe-a-proposito",
-    titulo: "Un casco de bici sirve una sola vez",
+    titulo: "El casco sirve una sola vez",
     gancho: "No protege por ser duro, sino porque su interior se aplasta y alarga el golpe unas milésimas de segundo.",
     categoria: "Cascos",
     color: "var(--ochre)",
@@ -44,7 +44,7 @@ export const CASCOS: Short[] = [
   },
   {
     id: "el-casco-de-obra",
-    titulo: "El casco de obra nació en el mar",
+    titulo: "El casco de obra nació navegando",
     gancho: "Un fabricante de gorros impermeables para pescadores empezó a endurecerlos con laca para los obreros de un puente.",
     categoria: "Cascos",
     color: "var(--slate)",
@@ -62,7 +62,7 @@ export const CASCOS: Short[] = [
         rotulo: "Los colores",
         texto:
           "Con los años apareció una segunda función, la de identificar de un vistazo quién es quién en una obra grande. Aunque no existe una norma internacional única, en muchos países se ha impuesto una convención parecida. El blanco es para jefes de obra y técnicos, el amarillo para los operarios, el azul para electricistas, el verde para seguridad y el rojo para el equipo contra incendios. En una obra con cientos de personas y varias empresas trabajando a la vez, distinguir de lejos a quién hay que dirigirse ahorra un tiempo enorme y evita accidentes.",
-        destacado: { tipo: "cifra", cifra: "3", unidad: "centímetros de hueco deja el arnés" },
+        destacado: { tipo: "cifra", cifra: "3", unidad: "centímetros de hueco dentro" },
       },
       {
         rotulo: "Lo que quedó",
@@ -73,7 +73,7 @@ export const CASCOS: Short[] = [
   },
   {
     id: "el-casco-que-gira",
-    titulo: "El peligro no es el golpe recto",
+    titulo: "El peligro no es el golpe",
     gancho: "La mayoría de las caídas llegan de lado y hacen que el cerebro rote. Los cascos nuevos añaden una capa que resbala.",
     categoria: "Cascos",
     color: "var(--plum)",
@@ -92,7 +92,7 @@ export const CASCOS: Short[] = [
         rotulo: "La capa deslizante",
         texto:
           "La solución que se ha extendido es tan simple como discutida: añadir dentro del casco una capa fina que puede desplazarse unos milímetros respecto a la carcasa. Al recibir un golpe oblicuo, esa capa desliza y se lleva parte de la rotación antes de que llegue a la cabeza. Es lo mismo que hace el cuero cabelludo, que se mueve un poco sobre el cráneo. Los ensayos de laboratorio muestran reducciones importantes de la rotación transmitida, y varios centros independientes puntúan hoy los cascos también por este criterio, además de por el golpe recto.",
-        destacado: { tipo: "cifra", cifra: "15", unidad: "milímetros llega a deslizar la capa" },
+        destacado: { tipo: "cifra", cifra: "15", unidad: "milímetros desliza la capa" },
       },
       {
         rotulo: "Lo que quedó",

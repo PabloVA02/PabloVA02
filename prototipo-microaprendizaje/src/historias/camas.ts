@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CAMAS: Short[] = [
   {
     id: "la-segunda-mejor-cama",
-    titulo: "La cama era el mueble más caro",
+    titulo: "La cama, el mueble más caro",
     gancho: "Se ponía en el testamento con nombre y apellidos, antes que las tierras y que el dinero.",
     categoria: "Camas",
     color: "var(--ochre)",
@@ -47,7 +47,7 @@ export const CAMAS: Short[] = [
 
   {
     id: "dormir-con-desconocidos",
-    titulo: "En las posadas se compartía cama con desconocidos",
+    titulo: "Se compartía cama con desconocidos",
     gancho: "Pagabas por un sitio en el colchón, no por la habitación. Y el sitio venía con vecino.",
     categoria: "Camas",
     color: "var(--slate)",
@@ -65,7 +65,7 @@ export const CAMAS: Short[] = [
         rotulo: "La casa entera",
         texto:
           "Dentro de las casas pasaba lo mismo. En las viviendas rurales, la familia entera dormía en la misma habitación y muchas veces en el mismo camastro, con los criados a los pies o en un jergón al lado, y los niños repartidos entre los adultos. La intimidad no era un valor: era un lujo caro que exigía muros, puertas y calefacción. El cambio llegó con las casas urbanas de más habitaciones, con las estufas y con las campañas de higiene del siglo XIX, que empezaron a describir la cama compartida como un peligro de contagio y de indecencia.",
-        destacado: { tipo: "cifra", cifra: "XIX", unidad: "el siglo en que la cama se volvió individual" },
+        destacado: { tipo: "cifra", cifra: "XIX", unidad: "el siglo de la cama individual" },
       },
       {
         rotulo: "Lo que quedó",
@@ -77,7 +77,7 @@ export const CAMAS: Short[] = [
 
   {
     id: "el-segundo-sueno",
-    titulo: "Antes se dormía en dos turnos con vigilia",
+    titulo: "Se dormía en dos turnos",
     gancho: "Un primer sueño, una hora despierto en mitad de la noche y un segundo sueño hasta el amanecer.",
     categoria: "Camas",
     color: "var(--plum)",
@@ -96,7 +96,7 @@ export const CAMAS: Short[] = [
         rotulo: "La luz lo borró",
         texto:
           "La costumbre desapareció entre finales del siglo XVIII y mediados del XIX, primero en las ciudades y luego en el campo, y el sospechoso principal es la luz artificial: el alumbrado de gas en las calles, la lámpara de aceite barata y después la bombilla alargaron la tarde varias horas y comprimieron la noche en un solo bloque. Un experimento de los años noventa apuntó en la misma dirección: personas sometidas durante semanas a catorce horas diarias de oscuridad acabaron durmiendo espontáneamente en dos tramos separados por un rato de vigilia tranquila.",
-        destacado: { tipo: "cifra", cifra: "14", unidad: "horas de oscuridad partían el sueño en dos" },
+        destacado: { tipo: "cifra", cifra: "14", unidad: "horas de oscuridad al día" },
       },
       {
         rotulo: "Lo que quedó",

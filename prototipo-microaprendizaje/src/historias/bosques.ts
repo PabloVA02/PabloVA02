@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const BOSQUES: Short[] = [
   {
     id: "robles-para-barcos",
-    titulo: "Se plantaban robles para barcos de otro siglo",
+    titulo: "Robles para barcos de otro siglo",
     gancho: "Un navío se llevaba dos mil árboles, y ninguno servía hasta cien años después de plantarlo.",
     categoria: "Bosques",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const BOSQUES: Short[] = [
   },
   {
     id: "europa-tiene-mas-bosque",
-    titulo: "Europa tiene hoy más bosque que hace un siglo",
+    titulo: "Europa tiene más bosque que antes",
     gancho: "El continente estuvo casi pelado en 1900. Desde entonces la superficie arbolada no ha dejado de crecer.",
     categoria: "Bosques",
     color: "var(--slate)",
@@ -64,7 +64,7 @@ export const BOSQUES: Short[] = [
         rotulo: "Los números",
         texto:
           "Hoy alrededor del cuarenta por ciento de la superficie de la Unión Europea está arbolada, y esa superficie ha crecido de forma continuada durante décadas. España es uno de los casos más marcados. Ha pasado de unos siete millones de hectáreas arboladas a comienzos del siglo XX a más de dieciocho millones hoy, casi la mitad del país contando todo el monte. En metros cuadrados de árbol por habitante, el continente está mejor que en cualquier momento desde la Edad Media. Y casi todo ese avance ha ocurrido sin que nadie lo notara, ladera a ladera.",
-        destacado: { tipo: "cifra", cifra: "40", unidad: "por ciento de la UE está arbolado" },
+        destacado: { tipo: "cifra", cifra: "40", unidad: "por ciento de Europa, arbolado" },
       },
       {
         rotulo: "Lo que quedó",
@@ -75,7 +75,7 @@ export const BOSQUES: Short[] = [
   },
   {
     id: "el-bosque-que-no-se-toco",
-    titulo: "Queda un trozo del bosque original de Europa",
+    titulo: "Queda un trozo del bosque original",
     gancho: "Sobrevivió porque durante siglos fue coto de caza de reyes y nadie más pudo entrar.",
     categoria: "Bosques",
     color: "var(--plum)",
@@ -93,7 +93,7 @@ export const BOSQUES: Short[] = [
         rotulo: "La madera muerta",
         texto:
           "Esa madera caída es la clave de todo. En un bosque explotado se retira, y con ella desaparecen miles de especies que dependen de ella: hongos, escarabajos, pájaros que anidan en troncos huecos. Aquí hay árboles de cuarenta metros, robles de varios siglos y una cantidad de madera muerta por hectárea que multiplica varias veces la de un bosque gestionado. Es también el sitio donde el bisonte europeo, extinguido en libertad en 1927, volvió a vivir suelto a partir de los pocos ejemplares que quedaban en zoológicos. Hoy pastan allí varios centenares.",
-        destacado: { tipo: "cifra", cifra: "1927", unidad: "el año en que el bisonte se extinguió en libertad" },
+        destacado: { tipo: "cifra", cifra: "1927", unidad: "se extinguió el bisonte libre" },
       },
       {
         rotulo: "Lo que quedó",

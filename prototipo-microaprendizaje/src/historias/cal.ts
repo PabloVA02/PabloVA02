@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const CAL: Short[] = [
   {
     id: "la-piedra-que-vuelve",
-    titulo: "La cal vuelve a ser piedra al secarse",
+    titulo: "La cal vuelve a ser piedra",
     gancho: "Se cuece caliza, se apaga con agua y se extiende en la pared. Con el tiempo vuelve a ser la misma piedra.",
     categoria: "Objetos",
     color: "var(--ochre)",
@@ -33,7 +33,7 @@ export const CAL: Short[] = [
         rotulo: "El aire la endurece",
         texto:
           "Lo que ocurre en la pared es que la cal vuelve a capturar del aire el mismo gas que perdió en el horno. Ese gas es el dióxido de carbono, y al combinarse con la pasta la convierte otra vez en carbonato de calcio, es decir, en caliza. Por eso un revoco de cal no se seca, sino que fragua desde fuera hacia dentro y tarda meses o años en endurecer del todo. Tiene a cambio una virtud que el cemento no tiene, porque es un material blando que deja respirar a la pared y permite que la humedad salga. También se repara sola: una grieta fina se vuelve a cerrar con el tiempo.",
-        destacado: { tipo: "cifra", cifra: "900", unidad: "grados hacen falta para cocer la caliza" },
+        destacado: { tipo: "cifra", cifra: "900", unidad: "grados para cocer la caliza" },
       },
       {
         rotulo: "Lo que quedó",
@@ -44,7 +44,7 @@ export const CAL: Short[] = [
   },
   {
     id: "los-pueblos-blancos",
-    titulo: "Encalar las casas era una medida de higiene",
+    titulo: "Encalar era una medida de higiene",
     gancho: "La estampa turística del sur empezó siendo desinfectante, aislante y tapagrietas, todo por el precio de un cubo.",
     categoria: "Objetos",
     color: "var(--slate)",
@@ -62,7 +62,7 @@ export const CAL: Short[] = [
         rotulo: "El sol",
         texto:
           "La segunda razón es térmica y se nota con la mano en cualquier tarde de agosto. Una pared blanca devuelve casi toda la luz que recibe, mientras que una oscura la absorbe y se convierte en un radiador. La diferencia entre una fachada encalada y la misma pared en piedra desnuda puede pasar de diez grados a pleno sol. En casas de muros gruesos, eso decide si de noche el interior se refresca o sigue soltando el calor del día. Por eso el blanco domina en el sur y desaparece en el norte, donde interesa lo contrario. No es una decisión de gusto, sino de latitud, tomada mucho antes de que existiera la palabra eficiencia.",
-        destacado: { tipo: "cifra", cifra: "10", unidad: "grados de diferencia entre pared blanca y oscura" },
+        destacado: { tipo: "cifra", cifra: "10", unidad: "grados menos con la pared blanca" },
       },
       {
         rotulo: "Lo que quedó",
@@ -73,7 +73,7 @@ export const CAL: Short[] = [
   },
   {
     id: "echar-cal-al-campo",
-    titulo: "Echar cal al campo cambia la cosecha",
+    titulo: "La cal cambia la cosecha",
     gancho: "No alimenta a la planta y aun así sube el grano. La explicación tardó un siglo en llegar.",
     categoria: "Objetos",
     color: "var(--plum)",
@@ -92,7 +92,7 @@ export const CAL: Short[] = [
         rotulo: "Los hornos del campo",
         texto:
           "Aquella práctica creó un paisaje que todavía se ve, porque la cal pesa demasiado para transportarla lejos con carros. La solución fue cocerla en el sitio, y los campos ingleses se llenaron de hornos pequeños, uno por finca grande. Eran torres de piedra de unos cuatro metros, abiertas por arriba, donde se alternaban capas de caliza y carbón. El trabajo era duro e insalubre, porque el horno suelta gases que desplazan el aire y han matado a más de un operario dormido cerca. Cuando llegaron el ferrocarril y las fábricas grandes, aquellos hornos se abandonaron en pocas décadas. Muchos siguen ahí, medio comidos por la hiedra, y la gente pasa al lado sin saber qué son.",
-        destacado: { tipo: "cifra", cifra: "4", unidad: "metros medía el horno de cal de una finca" },
+        destacado: { tipo: "cifra", cifra: "4", unidad: "metros medía el horno" },
       },
       {
         rotulo: "Lo que quedó",

@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CANALES: Short[] = [
   {
     id: "un-caballo-en-el-agua",
-    titulo: "Un caballo tira treinta veces más en el agua",
+    titulo: "El caballo tira treinta veces más",
     gancho: "El mismo animal, la misma cuerda. Cambia solo el rozamiento, y por eso Europa se llenó de canales.",
     categoria: "Canales",
     color: "var(--slate)",
@@ -28,7 +28,7 @@ export const CANALES: Short[] = [
         rotulo: "El rozamiento",
         texto:
           "Un carro cargado sobre un camino de tierra tiene que vencer el rozamiento de las ruedas contra el suelo, y ese suelo está lleno de baches, barro y cuestas. Una barcaza flotando apenas roza con nada: el agua se aparta a su paso y no hay pendiente que subir. Por eso el mismo caballo que arrastra una tonelada en un carro puede tirar de treinta en una barcaza, andando por un camino paralelo al canal llamado camino de sirga. La carga se mueve despacio, a paso de hombre, pero se mueve muchísima de una vez.",
-        destacado: { tipo: "cifra", cifra: "30", unidad: "veces más carga con el mismo caballo" },
+        destacado: { tipo: "cifra", cifra: "30", unidad: "veces más carga, mismo caballo" },
       },
       {
         rotulo: "El carbón barato",
@@ -45,7 +45,7 @@ export const CANALES: Short[] = [
   },
   {
     id: "como-funciona-una-esclusa",
-    titulo: "Una esclusa sube un barco sin bombas ni motores",
+    titulo: "La esclusa sube barcos sin motor",
     gancho: "Es una caja con dos puertas donde el agua entra y sale sola. La levanta la gravedad, y nada más.",
     categoria: "Canales",
     color: "var(--ochre)",
@@ -64,7 +64,7 @@ export const CANALES: Short[] = [
         rotulo: "Las puertas en pico",
         texto:
           "La pieza más ingeniosa es la forma de las puertas. En lugar de cerrar en línea recta, se juntan formando un ángulo que apunta hacia el lado del agua alta, como la proa de un barco. Así, cuanto más empuja el agua, más se aprietan entre sí y mejor cierran, y no hace falta ningún cerrojo capaz de aguantar esa presión. El diseño es del siglo XV y suele atribuirse a Leonardo, aunque hay canales anteriores con soluciones parecidas y la autoría se discute. Se sigue usando exactamente igual en las esclusas modernas.",
-        destacado: { tipo: "cifra", cifra: "0", unidad: "motores hacen falta para subir el barco" },
+        destacado: { tipo: "cifra", cifra: "0", unidad: "motores hacen falta: ninguno" },
       },
       {
         rotulo: "Lo que quedó",
@@ -75,7 +75,7 @@ export const CANALES: Short[] = [
   },
   {
     id: "el-canal-que-hizo-nueva-york",
-    titulo: "Un canal decidió qué ciudad sería la más grande",
+    titulo: "Un canal eligió la capital",
     gancho: "Abarató el transporte veinte veces y desvió hacia un solo puerto el comercio de medio continente.",
     categoria: "Canales",
     color: "var(--plum)",
@@ -87,7 +87,7 @@ export const CANALES: Short[] = [
         rotulo: "El precio del grano",
         texto:
           "Los números explican el resto de la historia. Antes del canal, llevar una tonelada de harina desde los lagos hasta la costa costaba unos cien dólares y tardaba tres semanas en carro. Después costaba unos diez y tardaba una. Con esa diferencia, las tierras del interior pasaron de ser casi inútiles para el comercio a ser un granero exportador, y se llenaron de colonos en pocos años. El canal se pagó a sí mismo con los peajes en menos de una década, algo insólito para una obra pública de ese tamaño.",
-        destacado: { tipo: "cifra", cifra: "10", unidad: "veces más barato llevar una tonelada" },
+        destacado: { tipo: "cifra", cifra: "10", unidad: "veces más barata la tonelada" },
       },
       {
         rotulo: "La ciudad ganadora",

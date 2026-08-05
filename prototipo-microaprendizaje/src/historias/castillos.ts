@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const CASTILLOS: Short[] = [
   {
     id: "escaleras-de-caracol",
-    titulo: "Las escaleras de los castillos giran a la derecha",
+    titulo: "Las escaleras giran a la derecha",
     gancho: "Se dice que era para favorecer al defensor diestro. La explicación es más floja de lo que parece.",
     categoria: "Castillos",
     color: "var(--plum)",
@@ -37,7 +37,7 @@ export const CASTILLOS: Short[] = [
         rotulo: "Las otras razones",
         texto:
           "Los historiadores de la construcción apuntan a motivos más prosaicos. El sentido del giro depende de por dónde entra la escalera en la torre y de cómo encaja con las plantas y con la puerta de acceso, y esas dos cosas mandan sobre cualquier consideración táctica. Además, la mayoría de los canteros trabajaba con plantillas heredadas y repetía lo que sabía hacer sin darle vueltas. Y hay un detalle práctico decisivo: una escalera de caracol es incomodísima para pelear en cualquier sentido, y en un asedio lo que importaba era el muro exterior.",
-        destacado: { tipo: "cifra", cifra: "2", unidad: "sentidos de giro, y los dos existen" },
+        destacado: { tipo: "cifra", cifra: "2", unidad: "sentidos de giro, los dos existen" },
       },
       {
         rotulo: "Lo que quedó",
@@ -49,7 +49,7 @@ export const CASTILLOS: Short[] = [
 
   {
     id: "letrinas-y-foso",
-    titulo: "El foso del castillo casi nunca llevaba agua",
+    titulo: "El foso casi nunca tenía agua",
     gancho: "Y la letrina desaguaba por fuera del muro, justo en la zona que nadie quería escalar.",
     categoria: "Castillos",
     color: "var(--slate)",
@@ -67,7 +67,7 @@ export const CASTILLOS: Short[] = [
         rotulo: "El foso",
         texto:
           "El foso, mientras tanto, no era casi nunca un canal de agua con peces dentro. Lo habitual era una zanja seca, ancha y profunda, con las paredes muy inclinadas, cuya función principal no era ahogar a nadie sino impedir que se acercaran las torres de asalto y, sobre todo, que se pudieran excavar túneles por debajo del muro. Un foso con agua exige un río cerca, filtra a los cimientos y se convierte en un problema sanitario serio, sobre todo con las letrinas desaguando justo encima. Los pocos que sí llevaban agua estaban casi siempre en terreno llano y junto a un cauce.",
-        destacado: { tipo: "cifra", cifra: "1", unidad: "conducto que salía al exterior del muro" },
+        destacado: { tipo: "cifra", cifra: "1", unidad: "conducto salía fuera del muro" },
       },
       {
         rotulo: "Lo que quedó",
@@ -79,7 +79,7 @@ export const CASTILLOS: Short[] = [
 
   {
     id: "guerra-de-minas",
-    titulo: "Los asedios se ganaban excavando por debajo",
+    titulo: "Los asedios se ganaban por debajo",
     gancho: "Se cavaba un túnel bajo la muralla, se apuntalaba con madera engrasada y se le prendía fuego.",
     categoria: "Castillos",
     color: "var(--clay)",

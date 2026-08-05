@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const CABALLOS: Short[] = [
   {
     id: "caballo-que-contaba",
-    titulo: "El caballo que sabía contar no contaba",
+    titulo: "El caballo que sabía contar",
     gancho: "Daba con la pata el resultado exacto de una multiplicación. Leía la cara del que preguntaba.",
     categoria: "Caballos",
     color: "var(--clay)",
@@ -49,7 +49,7 @@ export const CABALLOS: Short[] = [
 
   {
     id: "tres-sementales",
-    titulo: "Todos los caballos de carreras vienen de tres",
+    titulo: "Todos vienen de tres caballos",
     gancho: "Tres sementales importados hace tres siglos están en el árbol de cada purasangre vivo.",
     categoria: "Caballos",
     color: "var(--slate)",
@@ -61,7 +61,7 @@ export const CABALLOS: Short[] = [
         rotulo: "El libro",
         texto:
           "En 1791 se publicó el primer registro genealógico de la raza, un libro donde se anotaba el padre y la madre de cada ejemplar, y desde entonces no se ha permitido cruzar con ningún caballo de fuera: para ser purasangre hay que descender de animales inscritos en ese libro. Es un club cerrado desde hace más de doscientos años. La consecuencia es que la variedad genética de la raza resulta estrechísima, y los estudios de ADN confirman que en torno al noventa y cinco por ciento de los machos descienden de uno solo de aquellos tres.",
-        destacado: { tipo: "cifra", cifra: "95 %", unidad: "descienden de un solo semental" },
+        destacado: { tipo: "cifra", cifra: "95 %", unidad: "vienen de un solo padre" },
       },
       {
         rotulo: "El límite",
@@ -79,7 +79,7 @@ export const CABALLOS: Short[] = [
 
   {
     id: "estribo-guerra",
-    titulo: "El estribo cambió la manera de guerrear",
+    titulo: "El estribo cambió la guerra",
     gancho: "Sin él, un jinete que embiste con la lanza se cae del caballo por el propio golpe.",
     categoria: "Caballos",
     color: "var(--plum)",

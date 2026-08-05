@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const CAMPANAS: Short[] = [
   {
     id: "la-campana-que-marcaba-el-dia",
-    titulo: "La campana organizaba la vida de un pueblo",
+    titulo: "La campana mandaba en el pueblo",
     gancho: "Antes del reloj de bolsillo, el sonido de la campana era la única manera de saber la hora todos a la vez.",
     categoria: "Historia",
     color: "var(--clay)",
@@ -33,7 +33,7 @@ export const CAMPANAS: Short[] = [
         rotulo: "Fundirla bien",
         texto:
           "Fundir una campana era una de las operaciones más difíciles que hacía un artesano medieval. El metal es una mezcla de cobre y estaño en una proporción muy concreta que decide el sonido. Con poco estaño la campana suena sorda, y con demasiado se vuelve frágil y se raja. El tono depende del grosor de la pared y del diámetro, así que la nota se decide al diseñarla. Si sale desafinada se puede corregir quitando metal por dentro con un torno, y nunca añadiendo. Por eso las campanas antiguas se fundían en un hoyo junto a la propia iglesia, para no moverlas.",
-        destacado: { tipo: "cifra", cifra: "20", unidad: "% de estaño lleva el metal de una campana" },
+        destacado: { tipo: "cifra", cifra: "20", unidad: "por ciento de estaño" },
       },
       {
         rotulo: "Lo que quedó",
@@ -44,7 +44,7 @@ export const CAMPANAS: Short[] = [
   },
   {
     id: "cinco-notas-a-la-vez",
-    titulo: "Una campana suena varias notas a la vez",
+    titulo: "Una campana suena a cinco notas",
     gancho: "El golpe hace vibrar el bronce de cinco maneras distintas al mismo tiempo. Por eso cuesta tanto afinarla.",
     categoria: "Música",
     color: "var(--slate)",
@@ -62,7 +62,7 @@ export const CAMPANAS: Short[] = [
         rotulo: "Quitar metal",
         texto:
           "Afinar una campana consiste en corregir cada una de esas notas por separado. Cada nota depende sobre todo de una zona concreta de la pared, y adelgazar esa zona la baja. Se mete la campana en un torno vertical y se va quitando metal por dentro, milímetro a milímetro. El proceso no tiene marcha atrás, porque el metal que se quita no se puede devolver. Hasta el siglo XX se hacía a oído, comparando con un diapasón y con mucha experiencia. Hoy se mide con un analizador de frecuencias, y el gesto del torno sigue siendo el mismo.",
-        destacado: { tipo: "cifra", cifra: "5", unidad: "notas distintas suenan en cada golpe" },
+        destacado: { tipo: "cifra", cifra: "5", unidad: "notas en un solo golpe" },
       },
       {
         rotulo: "Lo que quedó",
@@ -73,7 +73,7 @@ export const CAMPANAS: Short[] = [
   },
   {
     id: "la-campana-y-el-rayo",
-    titulo: "Tocar la campana contra la tormenta mataba",
+    titulo: "Tocar contra la tormenta mataba",
     gancho: "Se creía que el sonido rompía las nubes. El campanario es lo más alto del pueblo y el campanero, el primero en caer.",
     categoria: "Creencias",
     color: "var(--plum)",
@@ -92,7 +92,7 @@ export const CAMPANAS: Short[] = [
         rotulo: "El recuento",
         texto:
           "A finales del siglo XVIII, un estudio alemán recopiló los casos de un periodo de treinta y tres años. Contó casi cuatrocientos campanarios alcanzados por un rayo y más de un centenar de campaneros muertos. Aquellos datos llegaron justo cuando acababa de inventarse el pararrayos y la discusión estaba abierta. Varias autoridades prohibieron la costumbre por decreto, y en muchos sitios la prohibición se ignoró durante décadas. La resistencia venía de que la práctica llevaba siglos y estaba respaldada por la costumbre religiosa. Lo que acabó con ella no fue el argumento, sino instalar pararrayos en las propias torres.",
-        destacado: { tipo: "cifra", cifra: "400", unidad: "campanarios alcanzados en treinta y tres años" },
+        destacado: { tipo: "cifra", cifra: "400", unidad: "campanarios alcanzados en 33 años" },
       },
       {
         rotulo: "Lo que quedó",
