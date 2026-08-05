@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const FAROS: Short[] = [
   {
     id: "eddystone",
-    titulo: "El faro se llevó a su autor",
+    titulo: "El faro mató a su autor",
     gancho: "Decía que quería estar dentro en la peor tormenta posible. La tuvo, y no apareció ni una tabla.",
     categoria: "Faros",
     color: "var(--slate)",
