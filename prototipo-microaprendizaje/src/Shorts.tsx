@@ -9,7 +9,7 @@ import {
   type MotionValue,
   type PanInfo,
 } from "framer-motion";
-import { MINUTOS, SHORTS, urlFoto, type Foto, type Pagina, type Short } from "./shorts";
+import { SHORTS, urlFoto, type Foto, type Pagina, type Short } from "./shorts";
 import { PORTADAS } from "./portadas";
 import { Cartel } from "./Cartel";
 import { GlyphHeart, GlyphRayo, GlyphShare } from "./glyphs";
@@ -607,53 +607,66 @@ function PaginaShort({
               {portada ? (
                 <Portada short={short} />
               ) : (
-                <CuerpoPagina pagina={short.paginas[paso - 1]} numero={paso} reducido={reducido} />
+                <CuerpoPagina pagina={short.paginas[paso - 1]} reducido={reducido} />
               )}
             </motion.div>
           </AnimatePresence>
 
-          <div className="muro-pie">
-            {(portada || ultima) && (
-              <span className="muro-tirar">
+          {/* El pie, exactamente como en la maqueta aprobada: en la portada
+              solo "Seguir"; en las dos de en medio, nada; y en la ultima los
+              dos botones y el aviso de que la siguiente historia va abajo. */}
+          {portada && (
+            <span className="muro-tirar">
+              Seguir
+              <motion.span
+                className="muro-flecha"
+                animate={reducido ? {} : { x: [0, 7, 0] }}
+                transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+              >
+                →
+              </motion.span>
+            </span>
+          )}
+
+          {ultima && (
+            <>
+              <div className="muro-acciones">
+                <motion.button
+                  className="muro-accion"
+                  data-on={guardado}
+                  whileTap={{ scale: 0.94 }}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setGuardado((v) => !v);
+                  }}
+                  animate={guardado ? { scale: [1, 1.06, 1] } : {}}
+                  transition={springPop}
+                  aria-pressed={guardado}
+                >
+                  <GlyphHeart on={guardado} />
+                  Guardar
+                </motion.button>
+                <motion.button
+                  className="muro-accion"
+                  whileTap={{ scale: 0.94 }}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <GlyphShare />
+                  Compartir
+                </motion.button>
+              </div>
+              <span className="muro-siguiente">
+                Siguiente short
                 <motion.span
                   className="muro-flecha"
-                  animate={reducido ? {} : ultima ? { y: [0, 6, 0] } : { x: [0, 7, 0] }}
+                  animate={reducido ? {} : { y: [0, 6, 0] }}
                   transition={{ duration: 1.9, repeat: Infinity, ease: "easeInOut", delay: 1 }}
                 >
-                  {ultima ? "↓" : "→"}
+                  ↓
                 </motion.span>
-                {portada ? "Desliza para seguir" : "Siguiente historia"}
               </span>
-            )}
-
-            {ultima && (
-            <div className="muro-acciones">
-              <motion.button
-                className="muro-accion"
-                whileTap={{ scale: 0.86 }}
-                onClick={(e) => e.stopPropagation()}
-                aria-label="Compartir"
-              >
-                <GlyphShare />
-              </motion.button>
-              <motion.button
-                className="muro-accion"
-                data-on={guardado}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setGuardado((v) => !v);
-                }}
-                whileTap={{ scale: 0.86 }}
-                animate={guardado ? { scale: [1, 1.28, 1] } : {}}
-                transition={springPop}
-                aria-label="Guardar historia"
-                aria-pressed={guardado}
-              >
-                <GlyphHeart on={guardado} />
-              </motion.button>
-            </div>
-            )}
-          </div>
+            </>
+          )}
         </motion.div>
       </motion.div>
 
@@ -682,16 +695,6 @@ function PaginaShort({
 function Portada({ short }: { short: Short }) {
   return (
     <>
-      <motion.span
-        className="muro-etiqueta"
-        custom={0}
-        variants={enterVariants}
-        initial="hidden"
-        animate="shown"
-      >
-        {short.curioso && <span className="muro-insignia">Dato curioso</span>}
-        {MINUTOS} min de lectura
-      </motion.span>
       <motion.h2 custom={1} variants={enterVariants} initial="hidden" animate="shown">
         {short.titulo}
       </motion.h2>
@@ -722,37 +725,13 @@ function Portada({ short }: { short: Short }) {
 
 function CuerpoPagina({
   pagina,
-  numero,
   reducido,
 }: {
   pagina: Pagina;
-  /** 1, 2 o 3. Se pinta grande y translúcido junto al rótulo. */
-  numero: number;
   reducido: boolean;
 }) {
   return (
     <div className="short-pagina">
-      <div className="short-rotulo-fila">
-        <motion.span
-          className="short-indice"
-          initial={{ opacity: 0, x: -14 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ ...springSoft, delay: 0.04 }}
-          aria-hidden
-        >
-          {numero}
-        </motion.span>
-        <motion.span
-          className="short-rotulo"
-          custom={1}
-          variants={enterVariants}
-          initial="hidden"
-          animate="shown"
-        >
-          {pagina.rotulo}
-        </motion.span>
-      </div>
-
       <motion.p
         className="short-cuerpo"
         custom={2}

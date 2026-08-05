@@ -5537,52 +5537,40 @@ button {
 }
 
 /* ==========================================================================
-   EL MODELO BEIGE. Decidido con Pablo maqueta a maqueta y aprobado sobre el
-   short de Cesar.
+   EL MODELO BEIGE, PORTADO DE LA MAQUETA APROBADA.
 
-   La pantalla deja de ser una fotografia a sangre con el texto encima y pasa
-   a ser una pagina: una banda de imagen arriba, su pie contando que es lo que
-   se ve, y el texto debajo sobre el papel hueso de la app.
+   No es una interpretacion: son los mismos valores de la maqueta que aprobo
+   Pablo, pasados de cqw a puntos sobre un movil de 390 (1 cqw = 3,9 puntos).
+   Si algo no cuadra con la maqueta, manda la maqueta.
 
-   Va al final del fichero a proposito: manda sobre lo de arriba, que es el
-   modelo anterior y se conserva para no romper el resto de pantallas.
+   Va al final del fichero a proposito: pisa al modelo anterior, que se
+   conserva porque lo usan otras pantallas de la app.
    ========================================================================== */
 
 .muro-pagina { background: var(--paper); }
+.muro-gesto { display: flex; flex-direction: column; background: var(--paper); }
 
-.muro-gesto {
-  display: flex;
-  flex-direction: column;
-  background: var(--paper);
-}
-
-/* La banda: 28 % de alto, igual en las cuatro pantallas */
-.muro-foto {
-  position: relative;
-  inset: auto;
-  flex: 0 0 28%;
-  overflow: hidden;
-}
+/* La banda de imagen: 28 % de alto, igual en las cuatro pantallas */
+.muro-foto { position: relative; inset: auto; flex: 0 0 28%; overflow: hidden; }
 .muro-foto .foto-caja,
 .muro-foto .foto-desplaza { position: absolute; inset: 0; }
 .muro-foto .foto-fondo { background: var(--paper-deep); }
+.muro-velo { display: none; }
 
-/* El pie de la imagen. Es una ficha, no una firma: que clase de objeto es,
-   de que ano, de donde salio y quien lo hizo. */
+/* El pie de la imagen: una ficha, no una firma */
 .muro-credito {
   flex: none;
   margin: 0;
-  padding: 10px var(--shell-pad) 0;
+  padding: 11px var(--shell-pad) 0;
   font-size: 10.5px;
   line-height: 1.42;
   font-style: italic;
   letter-spacing: 0;
-  color: color-mix(in srgb, var(--ink-soft) 78%, transparent);
+  color: var(--ink-soft);
+  opacity: 0.7;
 }
 
-/* El cuerpo: margenes iguales arriba y abajo, y el texto bajando hasta el de
-   abajo porque tiene el largo que le toca. Cuando no llega —la ultima
-   pantalla— sobra aire, y eso es el final. */
+/* El cuerpo: margenes iguales arriba y abajo */
 .muro-hoja,
 .muro-hoja[data-forma="portada"],
 .muro-hoja[data-forma="pagina"] {
@@ -5590,20 +5578,15 @@ button {
   inset: auto;
   flex: 1;
   min-height: 0;
-  padding: 25px var(--shell-pad) 25px;
+  padding: 25px var(--shell-pad);
   background: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
 }
-.muro-hoja-cuerpo { display: flex; flex-direction: column; height: 100%; }
+.muro-hoja-cuerpo { display: flex; flex-direction: column; gap: 13px; }
 
-.muro-etiqueta {
-  font-size: 10px;
-  color: color-mix(in srgb, var(--acento, var(--ochre)) 88%, var(--ink));
-  margin-bottom: 8px;
-}
-.muro-insignia { color: var(--paper); }
-
-/* El titular: palo seco, pequeno y muy espaciado, en mayusculas. Es el que
-   eligio Pablo de ocho, y el unico que no descoloca lo que hay debajo. */
+/* El titular numero 3: palo seco, pequeno y muy espaciado */
 .muro-hoja h2 {
   font-family: inherit;
   font-size: 17px;
@@ -5614,20 +5597,19 @@ button {
   color: var(--ink);
 }
 
-/* El texto de leer: la misma medida en la entrada y en las tres paginas, y
-   el mismo gris calido, para que no se note el salto al pasar de pantalla. */
+/* Una sola medida de lectura, y el mismo gris en las cuatro pantallas */
 .muro-entrada,
 .short-cuerpo {
-  font-size: 17px;
+  font-family: var(--serifa);
+  font-size: 17.5px;
   line-height: 1.52;
   color: var(--ink-soft);
+  margin: 0;
 }
-.muro-entrada { margin-top: 13px; }
 .muro-entrada strong,
 .short-cuerpo strong { color: var(--ink); font-weight: 700; }
 
-/* La capitular: tres lineas de alto, con remates, en el color del tema. Solo
-   en la portada, que es donde empieza algo. */
+/* La capitular: tres lineas, con remates, en el color del tema */
 .muro-entrada::first-letter {
   float: left;
   font-size: 52px;
@@ -5637,39 +5619,80 @@ button {
   color: var(--acento, var(--ochre));
 }
 
-.short-pagina { display: flex; flex-direction: column; height: 100%; }
-.short-indice { color: var(--acento, var(--ochre)); opacity: 0.55; font-size: 22px; }
-.short-rotulo { color: color-mix(in srgb, var(--ink-soft) 82%, transparent); }
-.short-rotulo-fila::after { opacity: 0.3; }
-.short-cuerpo { margin-top: 12px; }
+.short-pagina { display: flex; flex-direction: column; flex: 1; min-height: 0; }
 
-/* El dato se apoya abajo, separado por un filete finisimo del color del tema */
-.short-destacado {
+/* El dato: una cifra y cuatro palabras, apoyado abajo */
+.short-destacado,
+.short-destacado[data-tipo="cifra"],
+.short-destacado[data-tipo="frase"] {
   margin-top: auto;
-  padding: 14px 0 0;
+  padding: 13px 0 0;
   border: none;
   border-top: 1px solid color-mix(in srgb, var(--acento, var(--ochre)) 26%, transparent);
   border-radius: 0;
   background: none;
+  display: flex;
+  align-items: baseline;
+  gap: 11px;
 }
-.short-unidad { color: var(--ink-soft); }
-.short-comilla { color: var(--paper); }
+.short-numero { font-size: 29.5px; font-weight: 600; letter-spacing: -0.03em; color: var(--acento, var(--ochre)); }
+.short-unidad { font-size: 13px; line-height: 1.35; color: var(--ink-soft); }
+.short-destacado[data-tipo="frase"] p { font-family: var(--serifa); font-size: 15px; color: var(--ink); }
+.short-comilla { background: var(--acento, var(--ochre)); color: var(--paper); }
 
-/* La barra de tramos: fina de verdad, del color del tema y sobre la imagen */
-.muro-tramos { top: 10px; }
-.muro-tramo { height: 2px; background: rgba(242, 236, 225, 0.34); }
+/* La barra de tramos: fina de verdad y del color del tema */
+.muro-tramos { top: 12px; left: var(--shell-pad); right: var(--shell-pad); gap: 5px; }
+.muro-tramo { height: 1.5px; background: color-mix(in srgb, var(--acento, var(--ochre)) 22%, transparent); }
+.muro-tramo-relleno { background: var(--acento, var(--ochre)); }
 
-/* El pie: en la ultima pantalla, guardar y compartir. En las demas, nada */
-.muro-pie { color: color-mix(in srgb, var(--ink-soft) 70%, transparent); }
-.muro-tirar { color: var(--acento, var(--ochre)); }
-
-/* El pie, ya sobre papel: los iconos eran claros porque flotaban sobre una
-   fotografia oscura, y ahora estan sobre el hueso. */
-.muro-pie { padding-bottom: 6px; }
-.muro-accion {
+/* El pie. En la portada, "Seguir". En la ultima, los botones y el aviso de
+   que la siguiente historia se pide hacia abajo. En las de en medio, nada. */
+.muro-pie { display: none; }
+.muro-tirar {
+  margin-top: auto;
+  padding-top: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
   color: var(--acento, var(--ochre));
-  background: color-mix(in srgb, var(--acento, var(--ochre)) 9%, transparent);
-  border: 1px solid color-mix(in srgb, var(--acento, var(--ochre)) 26%, transparent);
 }
+.muro-flecha { font-size: 15px; line-height: 1; }
+
+.muro-acciones { margin-top: auto; padding-top: 17px; display: flex; gap: 10px; }
+.muro-accion {
+  flex: 1;
+  width: auto;
+  height: auto;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 12px 0;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--acento, var(--ochre));
+  background: transparent;
+  border: 1px solid color-mix(in srgb, var(--acento, var(--ochre)) 34%, transparent);
+}
+.muro-accion svg { width: 16px; height: 16px; }
 .muro-accion[data-on="true"] { background: var(--acento, var(--ochre)); color: var(--paper); }
-.muro-flecha { color: var(--acento, var(--ochre)); }
+
+.muro-siguiente {
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: color-mix(in srgb, var(--ink-soft) 78%, transparent);
+}
