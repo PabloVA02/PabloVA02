@@ -26,8 +26,8 @@ Y dejó tres condiciones, por este orden de importancia:
 
 Decidido viendo maquetas. Una portada con un titular enorme y nada más obliga
 al lector a apostar a ciegas, y el que duda no pasa de pantalla. **Si ya está
-leyendo, seguir es lo cómodo.** Por eso la portada enseña categoría, título,
-gancho y **la entrada entera**.
+leyendo, seguir es lo cómodo.** Por eso la portada enseña el título, el
+gancho y **la entrada entera**. Sin categoría: ver la regla 14.
 
 De ahí sale la medida nueva de la entrada: **85–110 palabras**, no 53–72. Con
 la medida vieja la portada pesaba la mitad que las otras tres pantallas y se
@@ -260,12 +260,39 @@ contando por qué—.
 La prueba: tapar la página siguiente y leer la última frase. Si no da ganas de
 destaparla, esa frase está mal.
 
+## 14. El título golpea. El gancho explica
+
+Decidido por Pablo mirando portadas montadas. Un título de ocho palabras con
+dos puntos en medio explica demasiado y no golpea nada, y encima suena raro:
+«Julio César: 23 puñaladas y solo una mortal» se lee como un pie de foto.
+
+**De tres a seis palabras.** Que digan una cosa rara y obliguen a preguntar.
+
+| Mal | Bien |
+| --- | --- |
+| Julio César: 23 puñaladas y solo una mortal | Sobraban veintidós puñaladas |
+| Los primeros patines eran huesos de animal | Los patines que no patinaban |
+| La linterna se llamó así porque solo daba destellos | Solo daba destellos |
+| El último número de la tarjeta es un chivato | La cifra que te delata |
+| La escoba se aplanó y empezó a barrer bien | La escoba era redonda |
+
+El título **ya no tiene que decir de qué va el short**, porque debajo van el
+gancho, la entrada y la imagen, y los tres llegan medio segundo después. Lo
+único que tiene que hacer el título es que el pulgar se pare.
+
+**El que sitúa es el gancho**, y por eso el gancho crece: ahí se dice quién es
+y de qué se habla, con todas las letras. Si el título es «Sobraban veintidós
+puñaladas», el gancho tiene que decir que hablamos de Julio César.
+
+Y la portada **no lleva categoría**. Una etiqueta que pone «Figuras» encima
+del título le roba el primer golpe de vista a lo único que importa.
+
 ## Medidas
 
 | Campo | Medida |
 | --- | --- |
-| `titulo` | SUJETO + PROMESA, 8 palabras o menos |
-| `gancho` | una o dos frases, lo que promete el título |
+| `titulo` | 3–6 palabras. Un golpe, no un resumen |
+| `gancho` | una o dos frases; es quien sitúa, porque el título ya no lo hace |
 | `entrada` | 85–110 palabras |
 | `texto` de cada página | 90–116 palabras |
 | `rotulo` | 2–4 palabras; el de la página 3 es «Lo que quedó» |
