@@ -6,41 +6,60 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs`.
 | | hecho | queda |
 |---|---|---|
 | shorts escritos | 757 | 243 para llegar a 1000 |
+| **shorts con sus cuatro fotos** | **15** | **742** |
 | portadas con título de una línea y texto que llega abajo | 60 | 697 |
 | títulos que no caben en una línea | | 451 |
 | entradas que dejan hueco abajo | | 690 |
-| fotos con la licencia sin justificar | | 6 |
-| shorts con fotografía | 13 | 744 |
+| fotos con la licencia sin justificar | | 0 |
+
+Los dos primeros salen de `node scripts/toca.mjs`, que además lista los
+siguientes en orden de lectura. Los demás, de `node scripts/revisa-shorts.mjs`.
 
 ## Lo que toca ahora
 
-**Poner fotografías.** Pablo abrió el acceso a Wikimedia justo para esto. El
-método está en `FOTOS.md` y la herramienta en `scripts/foto.mjs`.
+**Poner fotografías**, cuatro por short y en orden de lectura. Pablo abrió el
+acceso a Wikimedia justo para esto. El método está en `FOTOS.md`.
 
-Dos cosas antes de empezar por lo nuevo: **las seis fotos que dicen «Sin
-verificar»** son las únicas que hoy afirman algo que no se puede respaldar
-—`node scripts/revisa-shorts.mjs --flojos | grep foto`—, así que van primero.
+## Cómo se pone un short con sus cuatro fotos
 
-## Cómo se trabaja un short
+Es un cuarto de hora por short y no baja de ahí, porque la mitad del trabajo es
+mirar. Con las herramientas puestas salen unos cuatro por tanda.
 
-**El título y la entrada del mismo short se hacen a la vez.** El título decide
-si ocupa una línea o dos, y eso cambia cuántas palabras caben debajo. Hacerlos
-por separado obliga a rehacer la entrada; ya pasó dos veces.
-
-1. Título: que quepa en una línea y que **diga de qué va**.
-   `node scripts/cabe.mjs "tu título"` — tope 363 puntos. Reglas en
-   `src/historias/MOLDE.md`, regla 17.
-2. Entrada: que llegue abajo dejando **entre una y tres líneas**. Regla 16.
-3. `npx vite build`, servir el `dist` en el 4173 y medir con
-   `node scripts/hueco.mjs`.
-4. `node scripts/choque.mjs` para que no tape el «Seguir» en un móvil bajo.
-5. `node scripts/revisa-shorts.mjs src/historias/…ts` a cero.
-6. `npx tsc --noEmit`.
-7. Commit desde `/home/user/PabloVA02`, con `git commit -F` y nunca `-m`.
+1. `node scripts/toca.mjs` — cuál va ahora y qué le falta.
+2. Leer las cuatro pantallas del short. Cada imagen habla de SU página, así que
+   hay que saber qué cuenta cada una antes de buscar nada.
+3. `node scripts/foto.mjs tema "asunto"` — categorías y candidatas de una vez.
+   Las categorías aciertan mucho más que el texto libre.
+4. `node scripts/contacto.mjs hoja.png "File:…" …` con seis u ocho candidatas,
+   y **mirar la hoja**. Trae cada una entera y debajo recortada como se vería en
+   la banda, así que de paso se elige el `foco`. `--grande` para los detalles
+   pequeños: si esa ventana está tapiada de verdad, si eso es un ancla o una
+   piedra.
+5. `node scripts/foto.mjs ficha "File:…"` de las cuatro elegidas: de ahí salen
+   la licencia y el autor, que **no se ponen de memoria**, y la descripción.
+6. Escribir el bloque `fotos: [ … ]` entre `encargo` y `entrada`.
+7. `npx tsc --noEmit` y `node scripts/coteja-fotos.mjs` a cero.
+8. `npx vite build`, servir el `dist` en el 4173 y
+   `node scripts/mirar.mjs 11 12 13 14` — las cuatro pantallas de cada uno,
+   seguidas, con el aire que queda debajo del texto. Es la comprobación final:
+   ahí se ve si el encuadre se come lo importante.
+9. Commit desde `/home/user/PabloVA02`, con `git commit -F` y nunca `-m`.
 
 Se va **en orden de lectura**, que es el de `intercala()` en `src/shorts.ts`:
 el primer short de cada fichero, en el orden en que están listados. Así lo que
 se arregla es lo primero que Pablo ve al abrir la app.
+
+## Y cuando se pase del sesenta
+
+Los sesenta primeros ya tienen el título en una línea y la entrada llegando
+abajo. Del 61 en adelante hay que hacer las dos cosas a la vez que la foto:
+
+1. Título: que quepa en una línea y que **diga de qué va**.
+   `node scripts/cabe.mjs "tu título"` — tope 363 puntos. Regla 17 del molde.
+2. Entrada: que llegue abajo dejando **entre una y tres líneas**. Regla 16.
+   `mirar.mjs` ya da esa cifra; `hueco.mjs` la da de sesenta seguidos y
+   `choque.mjs` comprueba que no tape el «Seguir» en un móvil bajo.
+3. `node scripts/revisa-shorts.mjs src/historias/…ts` a cero.
 
 ## Lo que está cerrado y no se toca
 
@@ -52,10 +71,17 @@ se arregla es lo primero que Pablo ve al abrir la app.
 
 ## Lo que sigue pendiente
 
-- **GitHub.** El push da 403: las credenciales de la sesión son de solo
-  lectura, y la API tampoco deja crear ramas. La rama del remoto está parada
-  en `cfb69e9`. Lo que hay se salva mandando un bundle
+- **GitHub.** El push sigue dando 403: las credenciales de la sesión son de
+  solo lectura. La rama del remoto está parada en `bf853f9`, doscientos y pico
+  commits por detrás. Lo que hay se salva mandando un bundle
   (`git bundle create x.bundle --all`) y Pablo lo sube con sus credenciales.
-  No intentar el push cada turno.
+  No intentar el push cada turno: se ha probado en tres sesiones distintas.
+- **Wikipedia, cerrada.** El entorno tiene abiertos `commons.wikimedia.org` y
+  `upload.wikimedia.org`, pero no `es.wikipedia.org` ni `en.wikipedia.org`.
+  Se nota: las imágenes que un artículo ya ha elegido son mejores que las que
+  devuelve buscar por el nombre del fichero, y ahora hay que llegar a ellas por
+  categorías. Si Pablo añade `*.wikipedia.org` a la red del entorno
+  (claude.ai/code → entorno → engranaje → **Acceso a la red** → Personalizado),
+  buscar la foto de cada short baja de tres llamadas a una.
 - **Los shorts anteriores al molde** arrastran unos 1250 avisos de ritmo y de
   marco. Se van arreglando al pasar por cada fichero.

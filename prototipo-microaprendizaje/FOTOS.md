@@ -22,19 +22,48 @@ la red** → Personalizado).
 ## Cómo se busca una
 
 ```
-node scripts/foto.mjs buscar "eddystone lighthouse"
-node scripts/foto.mjs ficha "File:Eddystone Lighthouse RMG BHC1796.tiff"
-node scripts/foto.mjs ver   "File:Eddystone Lighthouse RMG BHC1796.tiff" /tmp/x.jpg
+node scripts/foto.mjs tema   "eddystone lighthouse"
+node scripts/foto.mjs ficha  "File:Eddystone Lighthouse RMG BHC1796.tiff"
+node scripts/contacto.mjs hoja.png "File:Una.jpg" "File:Otra.jpg" …
 ```
 
-- `buscar` da hasta doce candidatas ordenadas por tamaño, con su licencia. Las
-  marcadas con ✓ tienen ancho de sobra.
-- `ficha` saca el autor, la fecha y la licencia **de Commons**, y escupe el
-  objeto listo para pegar.
-- `ver` se la descarga. **Hay que mirarla siempre antes de meterla.** El
-  buscador acierta con el nombre y falla con el contenido más de lo que
-  parece: sale el edificio equivocado, o un plano técnico donde se pedía una
-  fotografía, o una reproducción con el marco incluido.
+- `tema` es por donde se empieza: da las categorías que existen con ese
+  nombre, lo mejor de las dos primeras y además la búsqueda por texto. Las
+  categorías las mantiene gente a mano y agrupan por lo que SE VE; el buscador
+  de texto solo mira el nombre del fichero, y por eso «morris worm» devuelve
+  una historia de los pájaros británicos del reverendo Morris.
+- `buscar` y `categoria` son las dos mitades de `tema`, por si hace falta una
+  sola. Las candidatas marcadas con ✓ tienen ancho de sobra.
+- `ficha` saca el autor, la fecha, la licencia y la descripción **de Commons**,
+  y escupe el objeto listo para pegar. La descripción importa tanto como la
+  licencia: sin ella se acaba publicando el año de la fotografía como si fuera
+  el de la cosa fotografiada.
+- `ver` se descarga una sola.
+
+## Mirarlas es la mitad del trabajo
+
+**Hay que mirar cada una antes de meterla**, sin excepción. El buscador acierta
+con el nombre y falla con el contenido más de lo que parece: sale el edificio
+equivocado, o un plano técnico donde se pedía una fotografía, o el faro de un
+tren japonés donde se pedía el de un coche. Y las fichas de Commons también se
+equivocan: el boletín de mortalidad del short del seguro está guardado como «de
+la ciudad de Londres» y la hoja, leída, dice Dublín.
+
+`contacto.mjs` es para eso. Baja seis u ocho candidatas y las pone en **una
+sola imagen**, cada una entera y debajo recortada como se vería en la banda, lo
+que además sirve para elegir el `foco` sin ir a ciegas. Con `--grande` van una
+por fila y al doble de alto, que hace falta para los detalles pequeños.
+
+Y al final, con la app construida y servida en el 4173:
+
+```
+node scripts/mirar.mjs 11 12 13 14
+```
+
+saca **las cuatro pantallas de cada short seguidas**, con las fotos traídas de
+Commons de verdad, y dice cuánto aire queda debajo del texto. Es la única
+comprobación que enseña las dos cosas a la vez: si la imagen es la que toca y
+si el texto llega al margen sin tapar el «Seguir».
 
 ## Las tres reglas que no se saltan
 
