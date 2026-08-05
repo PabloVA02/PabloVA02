@@ -327,9 +327,11 @@ dato no puede ser «500 · años sin rey», porque eso es releer. Tiene que ser
 algo que el lector no ha visto: cuántos años gobernó, cuántas palabras salieron
 de su nombre.
 
-**Solo la última pantalla cambia de composición**: el texto se acorta, aparece
-el remate en 20 puntos y todo se centra. Ahí ya no hay que seguir leyendo, hay
-que quedarse con una frase.
+**Ninguna pantalla cambia de composición, tampoco la última.** El mismo beige
+en las cuatro, la misma letra, los mismos márgenes arriba y abajo. La frase que
+cierra el short va dentro del texto y con el mismo tipo que todo lo demás: no
+se pone más grande ni se centra ni se separa. Lo único que la distingue es que
+es la última que se lee.
 
 ## Medidas
 
@@ -337,24 +339,32 @@ que quedarse con una frase.
 | --- | --- |
 | `titulo` | 3–6 palabras: la cosa nombrada más el gancho |
 | `gancho` | una o dos frases; no se pinta en la portada, sirve para listas |
-| `entrada` | 95–110 palabras |
-| `texto` de cada página | 110–130 palabras; 95–112 si la página lleva dato |
+| `entrada` | unas 100 palabras |
+| `texto` de cada página | lo que llene la pantalla: unas 125, o 105 con dato |
 | `rotulo` | 2–4 palabras; ya no se pinta, pero ordena al que escribe |
 | `destacado` | cifra y hasta 6 palabras, con información que no esté en el texto |
 
-**Sobre estas medidas.** Salen de medir lo que de verdad llena una pantalla de
-móvil con la letra a 17 puntos y la banda de imagen al 28 %: una página se
-completa hasta el margen de abajo con unas 125 palabras, y con unas 105 si
-lleva dato, porque la cifra ocupa su sitio. Escribir menos deja un hueco muerto
-al final de la página, que es lo que hay que evitar.
+**Estas cifras son orientativas, no una jaula.** Lo dijo Pablo y tiene razón:
+la medida buena no es un número exacto de palabras, es el tiempo. **Un short se
+lee entre dos y tres minutos**, que en castellano y en un móvil son unas 400 a
+550 palabras contando la entrada. Dentro de eso, cada historia pide lo suyo y
+se le da.
 
-La última página es la excepción y va corta a propósito: unas 70 palabras, el
-remate y el dato. Ahí el aire de más no es un fallo, es el final.
+El orden de trabajo es ese: **primero se cuenta la historia lo mejor posible, y
+después se ajusta** para que caiga bien en las pantallas. Nunca al revés.
 
-Los shorts escritos antes de este cambio se quedan unas cincuenta palabras
-cortos y se van alargando en la pasada de revisión. **El validador mantiene de
-momento el rango viejo de 90–116**, porque con el nuevo saltarían los 757 a la
-vez y no se vería nada.
+Lo único que sí se respeta es que **el texto llegue hasta el margen de abajo**
+en vez de dejar un hueco muerto, y eso es lo que da las cifras de arriba: con
+la letra a 17 puntos y la banda al 28 %, una página se llena con unas 125
+palabras, o 105 si lleva dato.
+
+**La última página puede quedarse corta y no pasa nada**: ahí se acaba la
+historia, y que sobre aire abajo es lo que tiene que pasar cuando algo termina.
+Lo que no cambia es nada más — mismo fondo, misma letra, mismos márgenes que
+las otras tres.
+
+**El validador mantiene de momento el rango viejo de 90–116**, porque con el
+nuevo saltarían los 757 shorts a la vez y no se vería nada.
 
 `curioso: true` cuando la historia es un dato curioso y no un
 acontecimiento: se pinta la insignia «Dato curioso» en la portada.
