@@ -113,17 +113,17 @@ export const FIGURAS: Short[] = [
           "Podían haberlo matado de noche, en la calle, sin testigos. Lo mataron dentro del Senado y delante de todos, para que pareciera una sentencia y no un asesinato. Un senador se le acercó con una petición y le agarró la toga: esa era la señal. César intentó defenderse con lo único que llevaba encima, un punzón de escribir. Entre los que lo rodeaban estaba Bruto, al que él había perdonado en la guerra civil. Al reconocerlo dejó de resistirse y se cubrió la cara con la toga. Cuando terminaron, salieron a la calle a celebrarlo.",
         destacado: {
           tipo: "frase",
-          frase: "Lo único que llevaba encima para defenderse era un punzón de escribir.",
+          frase: "Cayó a los pies de una estatua de Pompeyo, el rival al que había derrotado.",
         },
       },
       {
         rotulo: "Lo que quedó",
         texto:
-          "No los siguió nadie. Los asesinos esperaban que la ciudad los recibiera como libertadores, y la ciudad se quedó mirando desde los portales. Un médico examinó el cuerpo y contó veintitrés puñaladas, y dejó escrito que solo una había sido mortal. En dos años los cabecillas habían muerto, y diecisiete años después el sobrino nieto de César gobernaba Roma como primer emperador. Habían matado a un hombre para no tener un rey, y lo que consiguieron fue un imperio.",
+          "No los siguió nadie. Los asesinos esperaban que la ciudad los recibiera como libertadores, y la ciudad se quedó mirando desde los portales. Un médico examinó el cuerpo y contó veintitrés puñaladas, y dejó escrito que solo una había sido mortal. Tres esclavos se lo llevaron a casa en una litera, con un brazo colgando. En dos años los cabecillas habían muerto, y diecisiete años después el sobrino nieto de César gobernaba Roma como primer emperador. Habían matado a un hombre para no tener un rey, y lo que consiguieron fue un imperio.",
         /* La última pantalla lleva además los dos botones y el aviso de que la
            siguiente historia va hacia abajo, así que su texto va más corto que
            el de las otras dos: si no, no cabe nada de eso. */
-        destacado: { tipo: "cifra", cifra: "3", unidad: "horas estuvo el cuerpo en el suelo" },
+        destacado: { tipo: "cifra", cifra: "3", unidad: "horas tirado en el suelo" },
       },
     ],
   },
@@ -310,7 +310,7 @@ export const FIGURAS: Short[] = [
         rotulo: "Nueve días",
         texto:
           "Orleans llevaba siete meses sitiada cuando ella llegó, el 29 de abril de 1429. El 8 de mayo los ingleses levantaban el cerco. No mandaba el ejército, porque no tenía instrucción militar y los capitanes de verdad estaban allí. Pero hizo dos cosas que ellos no podían hacer. Convenció a una tropa derrotada de que iba a ganar y forzó los ataques que los mandos preferían aplazar. En uno de ellos recibió un flechazo en el hombro y se retiró a que se lo curaran. Volvió a la línea esa misma tarde con el estandarte, que era lo único que llevaba en la mano.",
-        destacado: { tipo: "cifra", cifra: "9", unidad: "días para romper 7 meses de asedio" },
+        destacado: { tipo: "cifra", cifra: "9", unidad: "días para romper el asedio" },
       },
       {
         rotulo: "El juicio",

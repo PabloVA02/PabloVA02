@@ -5686,7 +5686,19 @@ button {
   font-weight: 600;
   color: var(--acento, var(--ochre));
 }
-.muro-flecha { font-size: 15px; line-height: 1; }
+/* La flecha del modelo oscuro era una pastilla clara de 26px con la punta
+   pintada de color papel: sobre el beige quedaba un borron y la flecha
+   invisible. Aqui es solo la punta, del color del tema. */
+.muro-flecha {
+  display: inline;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font-size: 15px;
+  line-height: 1;
+}
 
 .muro-acciones {
   margin-top: auto;
