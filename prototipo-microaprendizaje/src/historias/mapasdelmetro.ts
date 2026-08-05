@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const MAPAS_DEL_METRO: Short[] = [
   {
     id: "el-plano-que-miente",
-    titulo: "El plano del metro miente sobre las distancias",
+    titulo: "El plano del metro miente",
     gancho: "Lo dibujó un delineante en paro que decidió que la geografía sobraba, y le funcionó tan bien que lo copió el mundo entero.",
     categoria: "Mapas del metro",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const MAPAS_DEL_METRO: Short[] = [
   },
   {
     id: "la-distancia-deformada",
-    titulo: "Un plano deformado cambia dónde vive la gente",
+    titulo: "Un plano decide dónde vives",
     gancho: "Si un barrio aparece cerca en el mapa del metro, se percibe como bien comunicado aunque el tren tarde media hora.",
     categoria: "Mapas del metro",
     color: "var(--ochre)",
@@ -75,7 +75,7 @@ export const MAPAS_DEL_METRO: Short[] = [
   },
   {
     id: "los-colores-y-los-daltonicos",
-    titulo: "Los colores del metro fallan a mucha gente",
+    titulo: "Las líneas que no se distinguen",
     gancho: "Uno de cada doce hombres no distingue bien el rojo del verde, y muchas redes usan las dos líneas juntas.",
     categoria: "Mapas del metro",
     color: "var(--plum)",

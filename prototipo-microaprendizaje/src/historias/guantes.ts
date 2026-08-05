@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const GUANTES: Short[] = [
   {
     id: "el-guante-del-quirofano",
-    titulo: "El primer guante de cirugía fue por amor",
+    titulo: "El primer guante fue por amor",
     gancho: "Una enfermera tenía las manos destrozadas por el desinfectante. El cirujano encargó unos guantes de goma para ella.",
     categoria: "Medicina",
     color: "var(--slate)",
@@ -43,7 +43,7 @@ export const GUANTES: Short[] = [
   },
   {
     id: "el-guante-de-trabajo",
-    titulo: "El guante de trabajo se elige por el corte",
+    titulo: "Cuatro números que nadie lee",
     gancho: "La etiqueta lleva cuatro números que casi nadie lee. Dicen cuánto aguanta frente a la lija, la cuchilla, el desgarro y la punta.",
     categoria: "Objetos",
     color: "var(--clay)",
@@ -72,7 +72,7 @@ export const GUANTES: Short[] = [
   },
   {
     id: "el-guante-y-la-pantalla",
-    titulo: "La pantalla del móvil no responde al guante",
+    titulo: "La pantalla no siente el guante",
     gancho: "No detecta presión ni calor. Detecta que un cuerpo conductor le está robando un poco de carga eléctrica.",
     categoria: "Tecnología",
     color: "var(--plum)",

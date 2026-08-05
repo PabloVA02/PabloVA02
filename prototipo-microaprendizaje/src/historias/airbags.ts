@@ -44,7 +44,7 @@ export const AIRBAGS: Short[] = [
   },
   {
     id: "saber-que-es-un-choque",
-    titulo: "El coche distingue un bache de un choque",
+    titulo: "Un bache no es un choque",
     gancho: "Un frenazo fuerte y un golpe a treinta por hora se parecen mucho. Decidir mal cuesta vidas en los dos sentidos.",
     categoria: "Tecnología",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const AIRBAGS: Short[] = [
   },
   {
     id: "la-mayor-llamada-a-revision",
-    titulo: "El mayor aviso de seguridad fue por un airbag",
+    titulo: "El airbag que reventaba",
     gancho: "El gas se generaba con una sustancia barata que se estropea con la humedad. Al estropearse, el bote reventaba.",
     categoria: "Catástrofes",
     color: "var(--plum)",

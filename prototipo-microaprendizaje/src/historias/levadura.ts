@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const LEVADURA: Short[] = [
   {
     id: "lo-que-hace-subir-el-pan",
-    titulo: "El pan sube porque un hongo come azúcar",
+    titulo: "El pan sube porque algo come",
     gancho: "La levadura es un ser vivo. Se come el azúcar de la masa y suelta gas, y ese gas es lo que abomba el pan.",
     categoria: "Comida",
     color: "var(--ochre)",
@@ -44,7 +44,7 @@ export const LEVADURA: Short[] = [
   },
   {
     id: "la-masa-madre",
-    titulo: "La masa madre es un bote lleno de bichos",
+    titulo: "Un bote lleno de bichos vivos",
     gancho: "No lleva levadura de sobre: lleva la que había en el aire y en la harina. Y hay que darle de comer todos los días.",
     categoria: "Comida",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const LEVADURA: Short[] = [
   },
   {
     id: "el-hongo-que-nadie-eligio",
-    titulo: "La levadura se domesticó sin que nadie la viera",
+    titulo: "Domesticada sin verla nunca",
     gancho: "Es el primer organismo que el ser humano crió a ciegas durante miles de años, sin saber siquiera que existía.",
     categoria: "Ciencia",
     color: "var(--plum)",

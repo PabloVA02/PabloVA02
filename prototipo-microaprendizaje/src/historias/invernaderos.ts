@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const INVERNADEROS: Short[] = [
   {
     id: "por-que-calienta-el-cristal",
-    titulo: "Un invernadero calienta porque encierra el aire",
+    titulo: "No es el efecto invernadero",
     gancho: "No es por el efecto invernadero de la atmósfera, aunque se llame igual. Es mucho más simple: el aire caliente no puede escaparse.",
     categoria: "Invernaderos",
     color: "var(--ochre)",
@@ -46,7 +46,7 @@ export const INVERNADEROS: Short[] = [
   },
   {
     id: "el-mar-de-plastico",
-    titulo: "Hay un mar de plástico visible desde el espacio",
+    titulo: "El mar de plástico",
     gancho: "Treinta mil hectáreas de invernaderos seguidos en una comarca que hace setenta años era la más pobre de España.",
     categoria: "Invernaderos",
     color: "var(--slate)",
@@ -75,7 +75,7 @@ export const INVERNADEROS: Short[] = [
   },
   {
     id: "cultivar-sin-tierra",
-    titulo: "Se puede cultivar sin tierra, solo con agua",
+    titulo: "Cultivar sin tierra",
     gancho: "Las raíces cuelgan en una solución con los minerales justos. La planta no echa de menos el suelo.",
     categoria: "Invernaderos",
     color: "var(--plum)",

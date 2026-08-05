@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const IMPRENTA_ORIENTAL: Short[] = [
   {
     id: "tipos-de-barro",
-    titulo: "Los tipos móviles se inventaron cuatro siglos antes",
+    titulo: "Tipos móviles de barro cocido",
     gancho: "Un artesano chino talló cada carácter en barro y lo coció, hacia el año 1040.",
     categoria: "Imprenta oriental",
     color: "var(--plum)",
@@ -45,7 +45,7 @@ export const IMPRENTA_ORIENTAL: Short[] = [
   },
   {
     id: "el-libro-coreano",
-    titulo: "El libro impreso más antiguo con tipos de metal",
+    titulo: "El libro que ganó a Gutenberg",
     gancho: "Se imprimió en un templo coreano en 1377, setenta y ocho años antes que la Biblia de Gutenberg.",
     categoria: "Imprenta oriental",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const IMPRENTA_ORIENTAL: Short[] = [
   },
   {
     id: "un-alfabeto-de-encargo",
-    titulo: "Un rey inventó un alfabeto para su pueblo",
+    titulo: "Un rey diseñó un alfabeto",
     gancho: "Coreano, 1443: veintiocho letras diseñadas desde cero, con la forma de la boca al pronunciarlas.",
     categoria: "Imprenta oriental",
     color: "var(--ochre)",

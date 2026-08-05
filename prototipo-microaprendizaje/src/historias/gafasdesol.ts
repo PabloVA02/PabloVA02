@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const GAFAS_DE_SOL: Short[] = [
   {
     id: "las-gafas-de-hueso",
-    titulo: "Las primeras gafas de sol no tenían cristal",
+    titulo: "Las primeras gafas eran de hueso",
     gancho: "Eran una tira de hueso con dos ranuras finísimas, y protegían de la nieve mejor que cualquier cristal oscuro.",
     categoria: "Objetos",
     color: "var(--slate)",
@@ -43,7 +43,7 @@ export const GAFAS_DE_SOL: Short[] = [
   },
   {
     id: "el-cristal-oscuro-que-engana",
-    titulo: "Unas gafas oscuras malas son peores que ninguna",
+    titulo: "Gafas oscuras peores que ninguna",
     gancho: "El cristal oscuro abre la pupila y deja entrar más luz. Si no filtra el ultravioleta, el ojo recibe más daño que sin nada.",
     categoria: "Medicina",
     color: "var(--ochre)",
@@ -72,7 +72,7 @@ export const GAFAS_DE_SOL: Short[] = [
   },
   {
     id: "el-cristal-polarizado",
-    titulo: "El cristal polarizado corta el brillo del agua",
+    titulo: "El cristal que corta el brillo",
     gancho: "No oscurece más: filtra solo la luz que rebota en horizontal, que es justo la que deslumbra.",
     categoria: "Tecnología",
     color: "var(--plum)",

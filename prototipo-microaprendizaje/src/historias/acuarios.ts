@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ACUARIOS: Short[] = [
   {
     id: "el-primer-acuario",
-    titulo: "El acuario se inventó al entender el equilibrio",
+    titulo: "La planta que salvó al pez",
     gancho: "Antes había peceras y el agua se pudría en días. La clave fue meter plantas junto a los peces.",
     categoria: "Ciencia",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const ACUARIOS: Short[] = [
   },
   {
     id: "el-cristal-que-no-es-cristal",
-    titulo: "El cristal de un acuario grande es de plástico",
+    titulo: "El cristal que no es cristal",
     gancho: "Un panel de treinta metros no puede ser de vidrio: se rajaría de golpe. Es acrílico fundido en varias piezas.",
     categoria: "Tecnología",
     color: "var(--clay)",
@@ -74,7 +74,7 @@ export const ACUARIOS: Short[] = [
   },
   {
     id: "el-pez-payaso",
-    titulo: "Una película sobre peces vació los arrecifes",
+    titulo: "Una película vació los arrecifes",
     gancho: "La historia iba justamente de un pez capturado que quería volver al mar. El efecto en las tiendas fue el contrario.",
     categoria: "Plantas",
     color: "var(--ochre)",

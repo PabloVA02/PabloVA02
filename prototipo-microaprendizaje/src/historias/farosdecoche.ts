@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const FAROS_DE_COCHE: Short[] = [
   {
     id: "deslumbrar-al-de-enfrente",
-    titulo: "La luz de cruce nació contra el deslumbramiento",
+    titulo: "Ver sin cegar al de enfrente",
     gancho: "Un faro que ilumina bien la carretera ciega al que viene de frente. Toda la historia es ese equilibrio.",
     categoria: "Tecnología",
     color: "var(--slate)",
@@ -44,7 +44,7 @@ export const FAROS_DE_COCHE: Short[] = [
   },
   {
     id: "el-faro-que-gira",
-    titulo: "Hubo un coche con faros que giraban",
+    titulo: "Faros que seguían la curva",
     gancho: "Un faro fijo alumbra recto en una curva, es decir, a la cuneta. La idea de girarlos es de 1928.",
     categoria: "Tecnología",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const FAROS_DE_COCHE: Short[] = [
   },
   {
     id: "por-que-el-faro-es-amarillo",
-    titulo: "Los faros franceses fueron amarillos por ley",
+    titulo: "Por qué Francia los quiso amarillos",
     gancho: "Durante casi sesenta años, un coche francés se distinguía a un kilómetro. El motivo oficial cambió varias veces.",
     categoria: "Historia",
     color: "var(--ochre)",

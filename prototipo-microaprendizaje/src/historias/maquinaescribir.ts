@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const MAQUINA_ESCRIBIR: Short[] = [
   {
     id: "escribir-sin-ver",
-    titulo: "Las primeras máquinas no dejaban ver lo escrito",
+    titulo: "Escribir a ciegas",
     gancho: "Los tipos golpeaban por debajo del rodillo. Para leer la línea había que levantar el carro con la mano.",
     categoria: "Máquina de escribir",
     color: "var(--ochre)",
@@ -48,7 +48,7 @@ export const MAQUINA_ESCRIBIR: Short[] = [
 
   {
     id: "la-maquina-y-la-oficina",
-    titulo: "La máquina metió a las mujeres en la oficina",
+    titulo: "La máquina abrió la oficina",
     gancho: "En inglés, la misma palabra designaba al aparato y a la persona que lo manejaba.",
     categoria: "Máquina de escribir",
     color: "var(--slate)",
@@ -78,7 +78,7 @@ export const MAQUINA_ESCRIBIR: Short[] = [
 
   {
     id: "maquinas-por-seguridad",
-    titulo: "Algunas oficinas volvieron a la máquina de escribir",
+    titulo: "Hierro que no se piratea",
     gancho: "Un aparato de hierro no se puede piratear desde el otro lado del mundo. Pero deja su propia huella.",
     categoria: "Máquina de escribir",
     color: "var(--clay)",

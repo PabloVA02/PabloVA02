@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const MEDIDAS: Short[] = [
   {
     id: "metro-meridiano",
-    titulo: "El metro se midió andando entre dos ciudades",
+    titulo: "El metro se midió a pie",
     gancho: "Dos astrónomos tardaron siete años en medir un trozo de meridiano, en plena Revolución francesa.",
     categoria: "Medidas",
     color: "var(--ochre)",
@@ -49,7 +49,7 @@ export const MEDIDAS: Short[] = [
 
   {
     id: "diez-dias-perdidos",
-    titulo: "En 1582 se borraron diez días del calendario",
+    titulo: "Los diez días que no existieron",
     gancho: "Se acostaron el jueves 4 de octubre y se levantaron el viernes 15. Hubo protestas por los alquileres.",
     categoria: "Medidas",
     color: "var(--plum)",
@@ -80,7 +80,7 @@ export const MEDIDAS: Short[] = [
 
   {
     id: "horas-del-tren",
-    titulo: "Los husos horarios los inventaron los trenes",
+    titulo: "La hora la puso el tren",
     gancho: "Cada ciudad tenía su propia hora según el sol. Con vías de por medio, eso empezó a matar gente.",
     categoria: "Medidas",
     color: "var(--slate)",

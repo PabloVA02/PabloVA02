@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const MERCADOS: Short[] = [
   {
     id: "el-dia-de-mercado",
-    titulo: "El día de mercado lo concedía el rey",
+    titulo: "El mercado lo daba el rey",
     gancho: "Era un privilegio escrito que valía dinero, y los pueblos vecinos pleiteaban durante años por conseguirlo.",
     categoria: "Mercados",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const MERCADOS: Short[] = [
   },
   {
     id: "la-lonja-y-el-precio",
-    titulo: "En la lonja el precio se canta",
+    titulo: "El precio se canta a gritos",
     gancho: "Todo el mundo oye lo que paga el otro. Esa transparencia obligatoria es lo que convierte un sitio en mercado.",
     categoria: "Mercados",
     color: "var(--ochre)",
@@ -74,7 +74,7 @@ export const MERCADOS: Short[] = [
   },
   {
     id: "el-primer-mercado-de-futuros",
-    titulo: "El primer mercado de futuros vendía arroz",
+    titulo: "Vender arroz que aún no existe",
     gancho: "En Osaka, en 1730, se compraban cosechas que todavía no existían, con contratos de papel y sin arroz de por medio.",
     categoria: "Mercados",
     color: "var(--plum)",

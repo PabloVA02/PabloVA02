@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const IDIOMAS_MUERTOS: Short[] = [
   {
     id: "el-ultimo-hablante",
-    titulo: "Hay lenguas que se quedan con un solo hablante",
+    titulo: "Una lengua con un solo hablante",
     gancho: "Cuando eso pasa, ya no se puede conversar. La lengua sigue existiendo, pero no se puede usar.",
     categoria: "Lenguas perdidas",
     color: "var(--plum)",
@@ -44,7 +44,7 @@ export const IDIOMAS_MUERTOS: Short[] = [
   },
   {
     id: "una-lengua-que-volvio",
-    titulo: "Una lengua muerta volvió a hablarse en la calle",
+    titulo: "La lengua que resucitó",
     gancho: "Se conservaba solo para rezar y estudiar. Hoy es el idioma materno de millones de personas.",
     categoria: "Lenguas perdidas",
     color: "var(--ochre)",
@@ -73,7 +73,7 @@ export const IDIOMAS_MUERTOS: Short[] = [
   },
   {
     id: "el-diccionario-de-la-cocina",
-    titulo: "Una lengua se salva en la cocina",
+    titulo: "Una lengua se salva jugando",
     gancho: "Los planes que funcionan no empiezan por la gramática: empiezan por que los niños la oigan jugando.",
     categoria: "Lenguas perdidas",
     color: "var(--slate)",

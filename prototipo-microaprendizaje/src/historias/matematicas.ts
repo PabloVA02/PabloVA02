@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const MATEMATICAS: Short[] = [
   {
     id: "cumpleanos-23",
-    titulo: "Con 23 personas es más probable que no",
+    titulo: "Veintitrés personas y un cumpleaños",
     gancho: "En una clase pequeña, apostar a que dos cumplen el mismo día es apostar a favor.",
     categoria: "Matemáticas",
     color: "var(--plum)",
@@ -54,7 +54,7 @@ export const MATEMATICAS: Short[] = [
 
   {
     id: "cero-numero",
-    titulo: "El cero tardó siglos en ser aceptado como número",
+    titulo: "Contar la nada parecía un disparate",
     gancho: "Servía como hueco en una cifra, pero contar «nada» parecía un disparate.",
     categoria: "Matemáticas",
     color: "var(--ochre)",
@@ -87,7 +87,7 @@ export const MATEMATICAS: Short[] = [
 
   {
     id: "raiz-de-dos",
-    titulo: "El número que rompió una escuela filosófica",
+    titulo: "El número que rompió una secta",
     gancho: "Los pitagóricos creían que todo era una fracción. La diagonal del cuadrado no lo es.",
     categoria: "Matemáticas",
     color: "var(--clay)",

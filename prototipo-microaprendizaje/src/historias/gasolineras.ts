@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const GASOLINERAS: Short[] = [
   {
     id: "la-primera-gasolinera",
-    titulo: "La gasolina se vendía en la farmacia",
+    titulo: "La gasolina se vendía en farmacias",
     gancho: "Se compraba en latas, como un producto de limpieza, y se volcaba en el depósito con un embudo.",
     categoria: "Historia",
     color: "var(--clay)",
@@ -44,7 +44,7 @@ export const GASOLINERAS: Short[] = [
   },
   {
     id: "por-que-el-surtidor-se-para",
-    titulo: "La pistola de la gasolina se para sola",
+    titulo: "La pistola que se para sola",
     gancho: "No hay sensor ni electrónica. Hay un tubito que respira aire, y en cuanto se tapa el mecanismo se suelta.",
     categoria: "Tecnología",
     color: "var(--slate)",
@@ -73,7 +73,7 @@ export const GASOLINERAS: Short[] = [
   },
   {
     id: "la-gasolinera-que-vende-cafe",
-    titulo: "La gasolinera gana más con el café",
+    titulo: "La gasolinera vive del café",
     gancho: "El margen del combustible son céntimos por litro. El de un café pasa del cincuenta por ciento.",
     categoria: "Empresas",
     color: "var(--ochre)",

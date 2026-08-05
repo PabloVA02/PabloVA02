@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CASAS_DE_EMPENO: Short[] = [
   {
     id: "las-tres-bolas",
-    titulo: "Las tres bolas doradas señalan una casa de empeños",
+    titulo: "Las tres bolas doradas",
     gancho: "El símbolo lleva ochocientos años colgado y viene del escudo de una familia de banqueros italianos.",
     categoria: "Dinero",
     color: "var(--ochre)",
@@ -45,7 +45,7 @@ export const CASAS_DE_EMPENO: Short[] = [
   },
   {
     id: "que-se-empena",
-    titulo: "Lo que se empeña dice cómo va la economía",
+    titulo: "Primero el reloj, luego la alianza",
     gancho: "En los buenos tiempos entran relojes y consolas. En los malos entran alianzas y herramientas de trabajo.",
     categoria: "Dinero",
     color: "var(--slate)",
@@ -75,7 +75,7 @@ export const CASAS_DE_EMPENO: Short[] = [
   },
   {
     id: "empenar-un-cuadro",
-    titulo: "También se empeñan cuadros y aviones privados",
+    titulo: "También se empeñan aviones",
     gancho: "El préstamo con prenda no es solo para apuros. Hay casas que prestan millones sobre una obra de arte.",
     categoria: "Dinero",
     color: "var(--plum)",

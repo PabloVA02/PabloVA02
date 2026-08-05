@@ -53,7 +53,7 @@ export const MEDICINA: Short[] = [
 
   {
     id: "semmelweis-manos",
-    titulo: "Lavarse las manos era una idea insultante",
+    titulo: "Lavarse las manos era un insulto",
     gancho: "Bajó la mortalidad de dieciocho al dos por ciento y lo echaron del hospital.",
     categoria: "Medicina",
     color: "var(--slate)",
@@ -86,7 +86,7 @@ export const MEDICINA: Short[] = [
 
   {
     id: "placebo-abierto",
-    titulo: "El placebo funciona aunque te digan que lo es",
+    titulo: "Funciona aunque sepas que es azúcar",
     gancho: "Les dieron pastillas de azúcar avisando de que eran azúcar. Mejoraron igual.",
     categoria: "Medicina",
     color: "var(--ochre)",
@@ -119,7 +119,7 @@ export const MEDICINA: Short[] = [
   },
   {
     id: "penicilina-placa",
-    titulo: "La penicilina salió de una placa sin lavar",
+    titulo: "La penicilina salió de un descuido",
     gancho: "Un moho se coló en un cultivo olvidado durante las vacaciones y mató a las bacterias de alrededor.",
     categoria: "Medicina",
     color: "var(--forest)",
@@ -149,7 +149,7 @@ export const MEDICINA: Short[] = [
 
   {
     id: "eter-anestesia",
-    titulo: "Antes de 1846 se operaba a la gente despierta",
+    titulo: "Operar a la gente despierta",
     gancho: "El único remedio contra el dolor era la velocidad. Los cirujanos famosos lo eran por sus tiempos.",
     categoria: "Medicina",
     color: "var(--slate)",
@@ -179,7 +179,7 @@ export const MEDICINA: Short[] = [
 
   {
     id: "expedicion-vacuna",
-    titulo: "Llevaron la vacuna a América dentro de veintidós niños",
+    titulo: "La vacuna viajó dentro de niños",
     gancho: "No había manera de conservarla en un barco. La solución fue ir contagiándolos de dos en dos.",
     categoria: "Medicina",
     color: "var(--clay)",

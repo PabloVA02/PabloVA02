@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const LEJIA: Short[] = [
   {
     id: "el-agua-que-mata-microbios",
-    titulo: "La lejía salvó más vidas que casi ningún medicamento",
+    titulo: "La lejía salvó más vidas",
     gancho: "Clorar el agua de las ciudades fue la medida sanitaria más barata y más eficaz que se ha tomado nunca.",
     categoria: "Medicina",
     color: "var(--slate)",
@@ -45,7 +45,7 @@ export const LEJIA: Short[] = [
   },
   {
     id: "no-mezcles-lejia",
-    titulo: "Mezclar lejía con amoniaco fabrica un gas de guerra",
+    titulo: "Gas de guerra en un cubo",
     gancho: "No es una exageración de la etiqueta. La reacción produce en un cubo el mismo tipo de compuesto que se usó en 1915.",
     categoria: "Ciencia",
     color: "var(--clay)",
@@ -74,7 +74,7 @@ export const LEJIA: Short[] = [
   },
   {
     id: "la-lejia-y-la-ropa-blanca",
-    titulo: "La lejía no blanquea: rompe el color",
+    titulo: "La lejía no blanquea, destruye",
     gancho: "No añade blanco. Destruye las moléculas que dan color a la mancha, y por eso destruye también el del tejido.",
     categoria: "Historia",
     color: "var(--ochre)",

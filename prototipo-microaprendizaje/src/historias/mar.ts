@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const MAR: Short[] = [
   {
     id: "ola-draupner",
-    titulo: "Las olas gigantes fueron cuento hasta 1995",
+    titulo: "La ola que era un cuento",
     gancho: "Un láser midió 25,6 metros en el mar del Norte y se acabó la discusión.",
     categoria: "Mar",
     color: "var(--slate)",
@@ -53,7 +53,7 @@ export const MAR: Short[] = [
 
   {
     id: "punto-nemo",
-    titulo: "El sitio más lejano de tierra firme del planeta",
+    titulo: "El sitio más lejos de tierra",
     gancho: "Cuando pasa la Estación Espacial, los humanos más cercanos están arriba.",
     categoria: "Mar",
     color: "var(--sage)",
@@ -87,7 +87,7 @@ export const MAR: Short[] = [
 
   {
     id: "ballena-52-hercios",
-    titulo: "La ballena que canta en una frecuencia sola",
+    titulo: "La ballena que nadie contesta",
     gancho: "La escucharon los hidrófonos militares durante décadas. Nunca hubo respuesta.",
     categoria: "Mar",
     color: "var(--plum)",

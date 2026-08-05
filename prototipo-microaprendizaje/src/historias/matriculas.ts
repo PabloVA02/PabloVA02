@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const MATRICULAS: Short[] = [
   {
     id: "identificar-un-coche",
-    titulo: "La matrícula existe para poder poner multas",
+    titulo: "La matrícula nació para multar",
     gancho: "El primer país que las exigió lo hizo porque los coches atropellaban y se iban sin que nadie los reconociera.",
     categoria: "Historia",
     color: "var(--clay)",
@@ -44,7 +44,7 @@ export const MATRICULAS: Short[] = [
   },
   {
     id: "leerla-con-una-camara",
-    titulo: "Una cámara lee matrículas en la oscuridad",
+    titulo: "Leer matrículas a oscuras",
     gancho: "No la ilumina con luz visible ni usa flash. La alumbra con infrarrojos y la placa se lo devuelve todo.",
     categoria: "Tecnología",
     color: "var(--slate)",
@@ -73,7 +73,7 @@ export const MATRICULAS: Short[] = [
   },
   {
     id: "la-matricula-mas-cara",
-    titulo: "Una matrícula se ha vendido por millones",
+    titulo: "Una placa que costó un edificio",
     gancho: "En varios países la placa se subasta, y una con un solo dígito ha llegado a costar más que un edificio.",
     categoria: "Dinero",
     color: "var(--ochre)",
