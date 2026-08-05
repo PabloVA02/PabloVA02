@@ -19,13 +19,13 @@ import type { Short } from "../shorts";
 export const TRENES: Short[] = [
   {
     id: "ancho-iberico",
-    titulo: "España eligió unas vías más anchas que Europa",
+    titulo: "La vía española es ancha",
     gancho: "Durante siglo y medio hubo que cambiar de tren en la frontera. La razón no fue militar, aunque eso se repita.",
     categoria: "Trenes",
     color: "var(--ochre)",
     encargo: "Dos raíles de acero perdiéndose en la distancia sobre balasto gris.",
     entrada:
-      "Madrid, 1844. España va a construir su primer ferrocarril y una comisión de ingenieros tiene que decidir la distancia entre los dos raíles, una medida que después no se puede cambiar sin rehacer la red entera. En Europa se está imponiendo un ancho de metro y medio escaso. La comisión española recomienda seis pies castellanos, casi veinte centímetros más.",
+      "Madrid, 1844. España va a construir su primer ferrocarril y una comisión de ingenieros tiene que decidir la distancia entre los dos raíles, una medida que después no se puede cambiar sin rehacer la red entera. En Europa se está imponiendo un ancho de metro y medio escaso. La comisión española recomienda seis pies castellanos, casi veinte centímetros más. La consecuencia de esa decisión duró siglo y medio: hasta hace nada, todo el que cruzaba la frontera en tren tenía que bajarse y cambiar de vagón, y toda la mercancía había que descargarla y volverla a cargar. La razón de aquella elección se repite siempre y casi siempre está mal contada.",
     paginas: [
       {
         rotulo: "El informe",

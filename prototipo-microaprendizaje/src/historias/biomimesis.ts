@@ -16,14 +16,14 @@ import type { Short } from "../shorts";
 export const BIOMIMESIS: Short[] = [
   {
     id: "el-velcro-y-el-cardo",
-    titulo: "El velcro salió de un cardo",
+    titulo: "El velcro sale de un cardo",
     gancho: "Un ingeniero volvió de cazar con el pantalón lleno de bolitas pegadas y las miró al microscopio.",
     categoria: "Copiar a la naturaleza",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una bolita seca de cardo enganchada en un tejido de lana.",
     entrada:
-      "Suiza, 1941. Un ingeniero eléctrico vuelve de una jornada de caza en los Alpes con el pantalón y el pelo de su perro cubiertos de esas bolitas de cardo que se pegan a todo. En lugar de limpiarlas y olvidarse, se lleva unas cuantas a casa y las mira con un microscopio para entender por qué se agarran con tanta fuerza.",
+      "Suiza, 1941. Un ingeniero eléctrico vuelve de una jornada de caza en los Alpes con el pantalón y el pelo de su perro cubiertos de esas bolitas de cardo que se pegan a todo. En lugar de limpiarlas y olvidarse, se lleva unas cuantas a casa y las mira con un microscopio para entender por qué se agarran con tanta fuerza. Lo que ve no es pegamento ni electricidad: son cientos de ganchitos diminutos, y cada uno ha encontrado un lazo de tela donde engancharse. Tarda ocho años en fabricar eso mismo con hilo, y otros diez en que alguien se lo compre. Lo que llevaba en el pantalón era el sistema con el que las semillas viajan pegadas al lomo de los animales.",
     paginas: [
       {
         rotulo: "El gancho",

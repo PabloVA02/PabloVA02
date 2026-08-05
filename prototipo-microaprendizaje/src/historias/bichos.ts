@@ -20,14 +20,14 @@ import type { Short } from "../shorts";
 export const BICHOS: Short[] = [
   {
     id: "pulpo-corazones",
-    titulo: "Tres corazones y sangre azul",
+    titulo: "El pulpo, tres corazones",
     gancho: "Y el corazón principal se le para cada vez que nada.",
     categoria: "Bichos",
     color: "var(--slate)",
     curioso: true,
     encargo: "Un pulpo común sobre fondo oscuro, los brazos extendidos, piel texturada.",
     entrada:
-      "Ningún animal es raro porque sí. Los antepasados del pulpo llevaban concha y la soltaron a cambio de poder colarse por cualquier grieta: un bicho que pasa por donde le pase el pico es un bicho difícil de cenar. Fue un buen trato. Pero quedarse blando en un mar lleno de dientes obliga a rehacerlo todo, y esa factura se sigue pagando.",
+      "Ningún animal es raro porque sí. Los antepasados del pulpo llevaban concha y la soltaron a cambio de poder colarse por cualquier grieta: un bicho que pasa por donde le pase el pico es un bicho difícil de cenar. Fue un buen trato. Pero quedarse blando en un mar lleno de dientes obliga a rehacerlo todo por dentro, y esa factura se sigue pagando. El pulpo tiene tres corazones, la sangre azul y un cerebro repartido por los brazos, y ninguna de esas tres cosas es un capricho de la evolución: las tres salen de haber soltado la concha. Y hay una cuarta consecuencia más rara todavía: el corazón que le mueve la sangre por el cuerpo se le para cada vez que nada.",
     paginas: [
       {
         rotulo: "El azul",

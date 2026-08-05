@@ -16,14 +16,14 @@ import type { Short } from "../shorts";
 export const CUBIERTOS: Short[] = [
   {
     id: "el-tenedor-mal-visto",
-    titulo: "El tenedor era un capricho indecente",
+    titulo: "El tenedor fue indecente",
     gancho: "Una princesa lo llevó a Venecia en el siglo XI y los clérigos dijeron que era despreciar los dedos que Dios dio.",
     categoria: "Cubiertos",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un tenedor antiguo de dos púas de plata sobre un mantel de lino.",
     entrada:
-      "Venecia, siglo XI. Una princesa bizantina se casa con el hijo del gobernante de la ciudad y trae de su tierra una costumbre desconocida. Come con un pequeño instrumento de dos púas de oro, en lugar de usar las manos. La reacción de la sociedad veneciana no es de curiosidad, sino de escándalo, y los cronistas de la época lo dejaron por escrito.",
+      "Venecia, siglo XI. Una princesa bizantina se casa con el hijo del gobernante de la ciudad y trae de su tierra una costumbre desconocida. Come con un pequeño instrumento de dos púas de oro, en lugar de usar las manos. La reacción de la sociedad veneciana no es de curiosidad, sino de escándalo, y los cronistas lo dejaron por escrito con nombres y apellidos. El argumento contra el tenedor no era de higiene ni de comodidad: era religioso. Y tardó seiscientos años en dejar de esgrimirse, hasta el punto de que en algunos países de Europa el tenedor no entró en las casas normales hasta el siglo XVIII, setecientos años después de aquella boda.",
     paginas: [
       {
         rotulo: "El escándalo",

@@ -16,13 +16,13 @@ import type { Short } from "../shorts";
 export const GRUAS: Short[] = [
   {
     id: "la-rueda-de-ardilla",
-    titulo: "Las catedrales se alzaron andando",
+    titulo: "La grúa de las catedrales",
     gancho: "Caminaban por el interior de una rueda enorme, como un hámster, y así subían dos toneladas de piedra.",
     categoria: "Grúas",
     color: "var(--plum)",
     encargo: "Una rueda de madera enorme bajo el techo de una iglesia, con una cuerda enrollada en su eje.",
     entrada:
-      "Europa, siglos XIII a XVI. Para construir una catedral hay que subir bloques de piedra de una o dos toneladas hasta treinta o cuarenta metros de altura, y no existe ningún motor. La solución que se usó durante siglos sigue colgada en el desván de muchas catedrales: una rueda de madera de varios metros de diámetro con un hombre andando por dentro.",
+      "Europa, siglos XIII a XVI. Para construir una catedral hay que subir bloques de piedra de una o dos toneladas hasta treinta o cuarenta metros de altura, y no existe ningún motor. La solución que se usó durante siglos sigue colgada en el desván de muchas catedrales: una rueda de madera de varios metros de diámetro con uno o dos hombres andando por dentro, como un hámster. No es una anécdota pintoresca: es la máquina que levantó las catedrales de media Europa, y sigue instalada bajo los tejados de muchas de ellas porque nunca se llegó a desmontar. Un hombre dentro de una rueda de cuatro metros levanta dos toneladas él solo.",
     paginas: [
       {
         rotulo: "Por qué funciona",

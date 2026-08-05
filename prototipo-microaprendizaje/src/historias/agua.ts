@@ -20,13 +20,13 @@ import type { Short } from "../shorts";
 export const AGUA: Short[] = [
   {
     id: "mar-de-aral",
-    titulo: "El mar que se secó",
+    titulo: "El mar de Aral se secó",
     gancho: "Era el cuarto lago del mundo. Hoy hay barcos oxidados tumbados en mitad de un desierto de sal.",
     categoria: "Agua",
     color: "var(--ochre)",
     encargo: "Un barco pesquero oxidado escorado sobre arena seca, sin agua a la vista.",
     entrada:
-      "Asia central, 1960. El mar de Aral es el cuarto lago del planeta, con sesenta y ocho mil kilómetros cuadrados de agua salada, una flota pesquera que saca cuarenta mil toneladas de pescado al año y puertos con astilleros y fábricas de conservas. Ese año empieza un plan para desviar los dos ríos que lo alimentan.",
+      "Asia central, 1960. El mar de Aral es el cuarto lago del planeta, con sesenta y ocho mil kilómetros cuadrados de agua salada, una flota pesquera que saca cuarenta mil toneladas de pescado al año y puertos con astilleros y fábricas de conservas. Ese año empieza un plan para desviar los dos ríos que lo alimentan hacia campos de algodón en mitad del desierto. Nadie lo hace a escondidas ni por error: está calculado, publicado y aprobado, y los propios planificadores escriben que el lago se irá secando. Lo consideran un precio razonable, y lo dicen con estas palabras: el mar de Aral tiene que morir con elegancia.",
     paginas: [
       {
         rotulo: "El algodón",

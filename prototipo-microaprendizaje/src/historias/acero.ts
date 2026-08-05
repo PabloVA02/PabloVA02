@@ -24,7 +24,7 @@ export const ACERO: Short[] = [
     color: "var(--slate)",
     encargo: "La hoja de una espada antigua con ondulaciones claras y oscuras en la superficie.",
     entrada:
-      "Oriente Próximo, siglos IX a XVIII. Los herreros forjan hojas de espada con un dibujo de bandas onduladas en la superficie, como vetas de madera o remolinos de agua, y con una fama enorme de dureza y de filo. El acero de partida llega en tortas desde la India. En algún momento del siglo XVIII la producción se para y la técnica se pierde.",
+      "Oriente Próximo, siglos IX a XVIII. Los herreros forjan hojas de espada con un dibujo de bandas onduladas en la superficie, como vetas de madera o remolinos de agua, y con una fama enorme de dureza y de filo. El acero de partida llega en tortas desde la India. En algún momento del siglo XVIII la producción se para y la técnica se pierde por completo. No queda un solo herrero capaz de repetirla, ni un manual, ni una receta: solo quedan las hojas ya hechas. Durante doscientos años nadie ha conseguido fabricar una igual sabiendo de antemano lo que iba a salir. Y cuando se metió una hoja antigua en un microscopio de los buenos, lo que apareció dentro no lo esperaba nadie.",
     paginas: [
       {
         rotulo: "Las vetas",

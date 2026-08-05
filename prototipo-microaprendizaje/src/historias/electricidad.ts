@@ -20,13 +20,13 @@ import type { Short } from "../shorts";
 export const ELECTRICIDAD: Short[] = [
   {
     id: "guerra-corrientes",
-    titulo: "Se pelearon matando animales",
+    titulo: "La guerra de la corriente",
     gancho: "Una defendía una corriente y la otra la contraria. La campaña incluyó electrocutar a un elefante.",
     categoria: "Electricidad",
     color: "var(--clay)",
     encargo: "Postes de madera con decenas de cables cruzados sobre una calle de 1890.",
     entrada:
-      "Estados Unidos, finales de la década de 1880. La luz eléctrica acaba de llegar a las ciudades y hay dos maneras incompatibles de repartirla. Una empresa apuesta por la corriente continua y otra por la alterna, que viaja mucho más lejos sin perderse por el camino. Solo puede ganar una, porque ninguna casa va a instalarse dos redes.",
+      "Estados Unidos, finales de la década de 1880. La luz eléctrica acaba de llegar a las ciudades y hay dos maneras incompatibles de repartirla. Una empresa apuesta por la corriente continua y otra por la alterna, que viaja mucho más lejos sin perderse por el camino. Solo puede ganar una, porque ninguna ciudad va a instalarse dos redes enteras. Lo que sigue no es un debate técnico entre ingenieros: es una campaña de propaganda que incluye electrocutar animales en público para demostrar que la corriente del rival mata. Terminó con un elefante electrocutado delante de mil quinientas personas y con una cámara grabándolo.",
     paginas: [
       {
         rotulo: "Las dos corrientes",

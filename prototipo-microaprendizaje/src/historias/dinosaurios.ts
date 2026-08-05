@@ -20,14 +20,14 @@ import type { Short } from "../shorts";
 export const DINOSAURIOS: Short[] = [
   {
     id: "dinosaurios-plumas",
-    titulo: "Casi todos tenían plumas",
+    titulo: "Dinosaurios con plumas",
     gancho: "Un yacimiento chino conserva la piel. Lo que apareció alrededor de los huesos no eran escamas.",
     categoria: "Dinosaurios",
     color: "var(--forest)",
     curioso: true,
     encargo: "Una losa de pizarra gris con el esqueleto de un animal pequeño marcado y una aureola de filamentos.",
     entrada:
-      "China, 1996. Un granjero encuentra en unas pizarras del noreste del país el fósil de un animal del tamaño de un pavo, con dientes, cola larga y garras, y con algo que nadie esperaba: una franja oscura de filamentos rodeando todo el cuerpo. Tiene ciento veinticinco millones de años y desmonta de golpe el dibujo que llevábamos un siglo haciendo.",
+      "China, 1996. Un granjero encuentra en unas pizarras del noreste del país el fósil de un animal del tamaño de un pavo, con dientes, cola larga y garras, y con algo que nadie esperaba: una franja oscura de filamentos rodeando todo el cuerpo. Tiene ciento veinticinco millones de años. Esa franja oscura no son escamas ni un accidente del fósil: es plumaje, y aparece en un animal que no volaba ni se le parecía. Desmonta de golpe el dibujo que llevábamos un siglo haciendo, y desde entonces han aparecido decenas de fósiles iguales en el mismo sitio. Aquellas pizarras conservan lo que casi nunca se conserva: no el hueso, sino lo que había pegado al hueso.",
     paginas: [
       {
         rotulo: "El yacimiento",

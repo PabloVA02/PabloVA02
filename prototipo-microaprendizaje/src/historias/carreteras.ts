@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const CARRETERAS: Short[] = [
   {
     id: "el-firme-que-drena",
-    titulo: "La carretera se inventó drenando",
+    titulo: "La carretera es un drenaje",
     gancho: "El enemigo no es el peso de los carros, es la lluvia. Un ingeniero escocés lo entendió antes que nadie.",
     categoria: "Carreteras",
     color: "var(--slate)",
     encargo: "Un tramo de camino de piedra machacada con una cuneta a un lado.",
     entrada:
-      "Escocia, 1816. Los caminos europeos son tan malos que un viaje de cien kilómetros puede llevar tres días, y en invierno muchos quedan intransitables. Un ingeniero de caminos que lleva años reparándolos publica entonces un método distinto y mucho más barato que el romano. Toda su idea cabe en una frase: mantener seco el suelo que hay debajo.",
+      "Escocia, 1816. Los caminos europeos son tan malos que un viaje de cien kilómetros puede llevar tres días, y en invierno muchos quedan intransitables. Un ingeniero de caminos que lleva años reparándolos publica entonces un método distinto y mucho más barato que el romano. Toda su idea cabe en una frase: mantener seco el suelo que hay debajo. Lo que rompe un camino no es el peso de los carros, como todo el mundo creía, sino el agua que se queda dentro y lo convierte en barro. Un firme seco aguanta cargas enormes; el mismo firme empapado se deshace con la mitad. De ahí salen tres cosas que tiene cualquier carretera y que casi nadie mira.",
     paginas: [
       {
         rotulo: "Piedra pequeña",

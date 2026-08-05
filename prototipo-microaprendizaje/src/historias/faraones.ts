@@ -18,13 +18,13 @@ import type { Short } from "../shorts";
 export const FARAONES: Short[] = [
   {
     id: "constructores-piramides",
-    titulo: "Las pirámides no las hicieron esclavos",
+    titulo: "Las pirámides sin esclavos",
     gancho: "Se ha excavado el poblado de los obreros: cobraban en pan y cerveza y tenían médicos.",
     categoria: "Faraones",
     color: "var(--ochre)",
     encargo: "Bloques de piedra caliza enormes vistos desde muy cerca, al sol.",
     entrada:
-      "Meseta de Guiza, siglo XXVI antes de Cristo. Se construye la pirámide más grande de Egipto con más de dos millones de bloques de piedra. La idea de que la levantaron esclavos a latigazos viene de un historiador griego que escribió dos mil años después y de las películas. Las excavaciones cuentan una cosa bastante distinta.",
+      "Meseta de Guiza, siglo XXVI antes de Cristo. Se construye la pirámide más grande de Egipto con más de dos millones de bloques de piedra. La idea de que la levantaron esclavos a latigazos viene de un historiador griego que escribió dos mil años después y de las películas. Las excavaciones de las últimas décadas cuentan una cosa bastante distinta. A un tiro de piedra de la pirámide apareció el poblado donde vivían los obreros, con sus panaderías, sus almacenes de cerveza, sus corrales y sus cementerios. Y lo que hay enterrado allí no encaja con la imagen del esclavo a latigazos: hay tumbas con nombre propio y listas de reparto de pan y cerveza.",
     paginas: [
       {
         rotulo: "El poblado",

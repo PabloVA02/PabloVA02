@@ -26,7 +26,7 @@ export const POLITICA: Short[] = [
     color: "var(--slate)",
     encargo: "Un muro de hormigón pintado con gente encima al anochecer, focos de fondo.",
     entrada:
-      "Berlín, 9 de noviembre de 1989. Alemania lleva veintiocho años partida en dos por un muro de hormigón que separa la mitad comunista de la occidental dentro de la misma ciudad. Aquella tarde, un portavoz del gobierno del Este sale a dar una rueda de prensa rutinaria con unos folios en la mano que no ha terminado de leer.",
+      "Berlín, 9 de noviembre de 1989. Alemania lleva veintiocho años partida en dos por un muro de hormigón que separa la mitad comunista de la occidental dentro de la misma ciudad. Aquella tarde, un portavoz del gobierno del Este sale a dar una rueda de prensa rutinaria con unos folios en la mano que no ha terminado de leer. En ellos hay un cambio en las normas de viaje que el gobierno pensaba aplicar poco a poco y con orden. Lo que pasa en los treinta segundos siguientes no lo había planeado nadie, y menos él. Un periodista le pregunta algo que no viene en los folios, él busca la respuesta entre los papeles, no la encuentra y contesta lo primero que le parece razonable.",
     paginas: [
       {
         rotulo: "El papel",
