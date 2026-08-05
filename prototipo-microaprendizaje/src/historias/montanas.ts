@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const MONTANAS: Short[] = [
   {
     id: "altura-everest",
-    titulo: "Al Everest le sumaron dos pies a propósito",
+    titulo: "Al Everest le sumaron dos pies",
     gancho: "El cálculo dio una cifra tan redonda que temieron que pareciera un número puesto a ojo.",
     categoria: "Montañas",
     color: "var(--slate)",
@@ -50,7 +50,7 @@ export const MONTANAS: Short[] = [
 
   {
     id: "mont-blanc-premio",
-    titulo: "Subieron al Mont Blanc por un premio",
+    titulo: "Subieron por un premio",
     gancho: "Un naturalista ofreció dinero a quien encontrara la ruta. Tardaron veintiséis años en cobrarlo.",
     categoria: "Montañas",
     color: "var(--ochre)",
@@ -80,7 +80,7 @@ export const MONTANAS: Short[] = [
 
   {
     id: "punto-mas-lejano",
-    titulo: "El pico más lejano del centro terrestre",
+    titulo: "El pico más lejos del centro",
     gancho: "La Tierra está abombada por el ecuador, y ahí gana un volcán bastante más bajo.",
     categoria: "Montañas",
     color: "var(--plum)",

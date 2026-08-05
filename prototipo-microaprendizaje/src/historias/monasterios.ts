@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const MONASTERIOS: Short[] = [
   {
     id: "las-ocho-horas-del-dia",
-    titulo: "Rezar a horas fijas obligó a medir el tiempo",
+    titulo: "Ocho rezos y un reloj",
     gancho: "Ocho servicios diarios, uno de ellos de madrugada. Alguien tenía que despertarse antes que todos y no fallar.",
     categoria: "Monasterios",
     color: "var(--slate)",
@@ -74,7 +74,7 @@ export const MONASTERIOS: Short[] = [
   },
   {
     id: "el-taller-de-copiar",
-    titulo: "Copiar un libro costaba un año de trabajo",
+    titulo: "Un libro, un año de trabajo",
     gancho: "Tres monjes escribiendo, uno preparando pieles y otro moliendo colores. Un solo ejemplar.",
     categoria: "Monasterios",
     color: "var(--plum)",

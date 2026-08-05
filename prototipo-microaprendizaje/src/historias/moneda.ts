@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const MONEDA: Short[] = [
   {
     id: "primera-moneda",
-    titulo: "Las primeras monedas eran de oro impuro",
+    titulo: "Las primeras monedas engañaban",
     gancho: "Un metal natural con oro y plata mezclados en proporción variable, imposible de juzgar a ojo.",
     categoria: "Monedas",
     color: "var(--ochre)",
@@ -47,7 +47,7 @@ export const MONEDA: Short[] = [
 
   {
     id: "canto-estriado",
-    titulo: "Las monedas llevan estrías para que no las recorten",
+    titulo: "Las rayas del canto delatan",
     gancho: "Se rebañaba plata del borde y se seguía gastando. Con rayas en el canto, el recorte se ve.",
     categoria: "Monedas",
     color: "var(--slate)",
@@ -77,7 +77,7 @@ export const MONEDA: Short[] = [
 
   {
     id: "moneda-que-cuesta-mas",
-    titulo: "Hay monedas que cuestan más de lo que valen",
+    titulo: "Un céntimo que cuesta dos",
     gancho: "Fabricar un céntimo puede costar dos. Varios países los han retirado y redondean el total.",
     categoria: "Monedas",
     color: "var(--clay)",

@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const MOLINOS: Short[] = [
   {
     id: "el-molino-de-viento",
-    titulo: "Un molino de viento se orienta solo",
+    titulo: "El molino gira la cabeza",
     gancho: "El viento cambia de dirección todo el rato, y un molino tiene que girar la cabeza entera para seguirlo.",
     categoria: "Tecnología",
     color: "var(--ochre)",
@@ -44,7 +44,7 @@ export const MOLINOS: Short[] = [
   },
   {
     id: "las-muelas-del-molino",
-    titulo: "Las piedras del molino no llegan a tocarse",
+    titulo: "Dos piedras que no se tocan",
     gancho: "Si se rozaran, el grano saldría quemado y la harina sabría a piedra. El hueco entre las dos es de un pelo.",
     categoria: "Comida",
     color: "var(--clay)",
@@ -73,7 +73,7 @@ export const MOLINOS: Short[] = [
   },
   {
     id: "el-molinero-y-el-pueblo",
-    titulo: "El molinero era el vecino peor visto",
+    titulo: "El vecino peor visto",
     gancho: "Cobraba en especie, quedándose una parte del grano. Y nadie podía comprobar cuánta se quedaba.",
     categoria: "Historia",
     color: "var(--slate)",

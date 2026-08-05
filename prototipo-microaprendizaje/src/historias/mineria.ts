@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const MINERIA: Short[] = [
   {
     id: "la-bomba-que-cambio-el-mundo",
-    titulo: "La máquina de vapor nació para achicar agua",
+    titulo: "El vapor nació achicando agua",
     gancho: "Las minas se inundaban y no había forma de vaciarlas. De ese problema salió la máquina que movió el siglo XIX.",
     categoria: "Minería",
     color: "var(--slate)",
@@ -44,7 +44,7 @@ export const MINERIA: Short[] = [
   },
   {
     id: "los-ninos-de-la-puerta",
-    titulo: "Había niños de cinco años abriendo puertas bajo tierra",
+    titulo: "Niños de cinco años bajo tierra",
     gancho: "Doce horas sentados a oscuras, esperando a abrir cuando pasaba una vagoneta. El aire de la mina dependía de ellos.",
     categoria: "Minería",
     color: "var(--plum)",
@@ -73,7 +73,7 @@ export const MINERIA: Short[] = [
   },
   {
     id: "el-derrumbe-de-la-mina",
-    titulo: "El techo de una mina se sostiene con pilares",
+    titulo: "El mineral que nunca se saca",
     gancho: "Se deja sin extraer una parte del mineral para que aguante la roca de encima. Sacarlo es lo último que se hace.",
     categoria: "Minería",
     color: "var(--ochre)",

@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const MUSICA: Short[] = [
   {
     id: "cage-433",
-    titulo: "La obra de cuatro minutos sin una sola nota",
+    titulo: "Cuatro minutos sin una nota",
     gancho: "El pianista abrió la tapa, no tocó nada y medio público se marchó furioso.",
     categoria: "Música",
     color: "var(--plum)",
@@ -53,7 +53,7 @@ export const MUSICA: Short[] = [
 
   {
     id: "amen-break",
-    titulo: "Seis segundos de batería en un millón de canciones",
+    titulo: "Seis segundos, un millón de canciones",
     gancho: "El batería murió sin techo. Nunca cobró un céntimo por el fragmento.",
     categoria: "Música",
     color: "var(--clay)",
@@ -86,7 +86,7 @@ export const MUSICA: Short[] = [
 
   {
     id: "diapason-440",
-    titulo: "El la de la orquesta ha ido subiendo con los siglos",
+    titulo: "La afinación no es una ley",
     gancho: "La afinación no es una ley física: es un acuerdo, y se firmó en 1955.",
     categoria: "Música",
     color: "var(--ochre)",
@@ -119,7 +119,7 @@ export const MUSICA: Short[] = [
   },
   {
     id: "beethoven-sordo",
-    titulo: "Beethoven dirigió una obra que no llegó a oír",
+    titulo: "Dirigió lo que no podía oír",
     gancho: "Se quedó sordo con treinta años y siguió componiendo veinticinco más. Hubo que girarlo para que viera los aplausos.",
     categoria: "Música",
     color: "var(--plum)",
@@ -149,7 +149,7 @@ export const MUSICA: Short[] = [
 
   {
     id: "vinilo-microsurco",
-    titulo: "El disco duró tres minutos porque no cabía más",
+    titulo: "Tres minutos porque no cabía más",
     gancho: "La duración de una canción pop la fijó un trozo de laca girando a setenta y ocho vueltas.",
     categoria: "Música",
     color: "var(--ochre)",
@@ -180,7 +180,7 @@ export const MUSICA: Short[] = [
 
   {
     id: "woodstock",
-    titulo: "Woodstock salió gratis porque no dio tiempo a vallar",
+    titulo: "Woodstock salió gratis sin querer",
     gancho: "Vendieron ciento ochenta y seis mil entradas y aparecieron cuatrocientas mil personas.",
     categoria: "Música",
     color: "var(--forest)",

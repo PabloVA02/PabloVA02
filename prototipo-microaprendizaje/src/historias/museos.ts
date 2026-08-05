@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const MUSEOS: Short[] = [
   {
     id: "gabinete-curiosidades",
-    titulo: "Los museos empezaron siendo cuartos de rarezas",
+    titulo: "Empezaron como cuartos de rarezas",
     gancho: "Un cuerno de narval se vendía como cuerno de unicornio y costaba una fortuna.",
     categoria: "Museos",
     color: "var(--plum)",
@@ -48,7 +48,7 @@ export const MUSEOS: Short[] = [
 
   {
     id: "museo-con-cita-previa",
-    titulo: "El primer museo nacional pedía cita por carta",
+    titulo: "Gratis, pero había que escribir",
     gancho: "Era gratis desde 1759, pero había que solicitarlo por escrito y esperar a que lo aprobaran.",
     categoria: "Museos",
     color: "var(--slate)",
@@ -78,7 +78,7 @@ export const MUSEOS: Short[] = [
 
   {
     id: "objetos-devueltos",
-    titulo: "Los museos han empezado a devolver piezas",
+    titulo: "Los museos empiezan a devolver",
     gancho: "Miles de objetos saqueados en asaltos coloniales están volviendo a sus países de origen.",
     categoria: "Museos",
     color: "var(--ochre)",

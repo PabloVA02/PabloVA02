@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const MUERTE: Short[] = [
   {
     id: "ataud-con-timbre",
-    titulo: "Se patentaron ataúdes con campana por fuera",
+    titulo: "Ataúdes con campana",
     gancho: "El miedo a despertarse enterrado era tan real que hubo decenas de inventos para avisar desde dentro.",
     categoria: "Muerte",
     color: "var(--slate)",
@@ -50,7 +50,7 @@ export const MUERTE: Short[] = [
 
   {
     id: "momias-pintura",
-    titulo: "Con momias egipcias se fabricaba pintura marrón",
+    titulo: "Pintura hecha de momias",
     gancho: "Se molían para hacer un color muy apreciado por los pintores. Dejó de venderse en 1964 por falta de existencias.",
     categoria: "Muerte",
     color: "var(--clay)",
@@ -81,7 +81,7 @@ export const MUERTE: Short[] = [
 
   {
     id: "cementerio-mudado",
-    titulo: "París vació sus cementerios de noche y en carros",
+    titulo: "París vació sus cementerios de noche",
     gancho: "Un muro reventó por el peso de los muertos. Trasladaron seis millones a unas canteras bajo la ciudad.",
     categoria: "Muerte",
     color: "var(--forest)",

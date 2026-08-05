@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const MICROSCOPIO: Short[] = [
   {
     id: "comerciante-de-telas",
-    titulo: "Un comerciante de telas vio las bacterias",
+    titulo: "Un vendedor de telas las vio",
     gancho: "Sin estudios y con lentes que pulía él mismo, doscientos años antes que ningún científico.",
     categoria: "Microscopios",
     color: "var(--ochre)",
@@ -48,7 +48,7 @@ export const MICROSCOPIO: Short[] = [
 
   {
     id: "celda-de-monje",
-    titulo: "La célula se llama así por una celda",
+    titulo: "La celda que dio nombre",
     gancho: "Miró una lámina de corcho, vio huecos ordenados y le recordaron a los cuartos de un monasterio.",
     categoria: "Microscopios",
     color: "var(--slate)",
@@ -79,7 +79,7 @@ export const MICROSCOPIO: Short[] = [
 
   {
     id: "limite-de-la-luz",
-    titulo: "La luz limita lo que se puede ver",
+    titulo: "La luz no da para más",
     gancho: "Por debajo de doscientos nanómetros ninguna lente sirve. Hubo que cambiar la luz por electrones.",
     categoria: "Microscopios",
     color: "var(--plum)",

@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const MOTOR: Short[] = [
   {
     id: "bertha-benz",
-    titulo: "El primer viaje en coche lo hizo ella",
+    titulo: "El primer viaje lo hizo ella",
     gancho: "Su marido llevaba dos años sin vender ninguno. Ella cogió uno de madrugada y se fue.",
     categoria: "Motor",
     color: "var(--clay)",
@@ -46,7 +46,7 @@ export const MOTOR: Short[] = [
 
   {
     id: "cinturon-volvo",
-    titulo: "Regalaron el invento que más vidas ha salvado",
+    titulo: "Regalaron la patente que salva vidas",
     gancho: "Podían haber cobrado por cada coche del mundo durante veinte años. Abrieron la patente gratis.",
     categoria: "Motor",
     color: "var(--slate)",
