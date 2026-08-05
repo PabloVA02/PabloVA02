@@ -25,10 +25,11 @@ export const CORREOS: Short[] = [
     categoria: "Correos",
     color: "var(--slate)",
     foto: {
-      archivo: "Penny black.jpg",
-      autor: "Correo británico, 1840",
+      archivo: "\"Penny Black\" postage stamps MET DP328201.jpg",
+      autor:
+        "Bloque de cuatro Penny Black sin usar, emitidos el 6 de mayo de 1840. Grabado del retrato de William Wyon. Metropolitan Museum, Nueva York.",
       licencia: "Dominio público",
-      pdPorEdad: 1840,
+      pdPorEdad: 1851,
       foco: "50% 50%",
       alt: "El primer sello del mundo: el perfil de la reina Victoria sobre fondo negro.",
     },

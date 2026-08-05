@@ -39,8 +39,11 @@ function fotos(texto, fichero) {
     }
     const bloque = texto.slice(m.index, i + 1);
     for (const b of bloque.split(/\n\s{6}\{/)) {
-      const arch = /archivo:\s*\n?\s*"((?:[^"\\]|\\.)*)"/.exec(b)?.[1];
-      if (!arch) continue;
+      const crudo = /archivo:\s*\n?\s*"((?:[^"\\]|\\.)*)"/.exec(b)?.[1];
+      if (!crudo) continue;
+      /* El nombre viene tal cual está escrito en el código, o sea con las
+         comillas escapadas. En Commons el fichero se llama con comillas. */
+      const arch = crudo.replace(/\\(["\\])/g, "$1");
       salida.push({ fichero, archivo: arch,
         licencia: /licencia: "([^"]*)"/.exec(b)?.[1] ?? "(ninguna)",
         fuente: /fuente:\s*\n?\s*"([^"]*)"/.exec(b)?.[1] });
