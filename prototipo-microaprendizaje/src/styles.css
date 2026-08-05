@@ -5813,3 +5813,18 @@ button {
    que Pablo pasó. La maqueta la pinta cruda y así va. */
 .muro-foto .foto-img,
 .muro-foto .foto-panoramica { filter: none; }
+
+/* Nada de negro alrededor. El muro y su carril venian del modelo oscuro y
+   asomaban por los bordes al arrastrar y en las esquinas redondeadas del
+   telefono. Mientras se lee, todo lo que hay detras es el mismo beige. */
+.muro,
+.muro-pase { background: var(--paper); color: var(--ink); }
+
+/* La ranura de cada historia. Ocupa la pantalla entera y es la que engancha
+   el desplazamiento, este montada o no la historia que va dentro. */
+.muro-ranura {
+  height: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  background: var(--paper);
+}

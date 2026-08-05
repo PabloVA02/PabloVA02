@@ -46,6 +46,9 @@ import { enterVariants, spring, springPop, springSoft, springTight } from "./mot
 const UMBRAL_PX = 62;
 const UMBRAL_VEL = 480;
 
+/** Cuántas historias se montan a cada lado de la que se está leyendo. */
+const VECINAS = 2;
+
 /** Lo que se espera a una fotografía antes de rendirse y dibujar la nuestra. */
 const ESPERA_MAX = 6000;
 
@@ -423,17 +426,29 @@ export function MuroShorts({ onLeido }: { onLeido: (s: Short, minutos: number) =
         </span>
       </motion.div>
 
+      {/* Cada historia tiene su ranura, y la ranura no se desmonta nunca: es
+          lo que hace que el desplazamiento tenga siempre la altura de las 757
+          y que el observador que dice cuál está delante se monte una sola vez.
+
+          Dentro de la ranura solo hay historia si está cerca. Antes se
+          montaban las 757 a la vez —757 fotografías precargándose, 757 juegos
+          de animaciones y 757 filtros de ruido—, y el desplazamiento iba a
+          tirones. Con dos por cada lado hay una pantalla entera de margen
+          para que la foto de la siguiente llegue antes de que se vea. */}
       <div className="muro-pase" ref={scroll}>
         {SHORTS.map((s, i) => (
-          <PaginaShort
-            key={s.id}
-            short={s}
-            indice={i}
-            activo={i === activo}
-            reducido={!!reducido}
-            onLeido={onLeido}
-            onSiguiente={() => irASiguiente(i)}
-          />
+          <div key={s.id} className="muro-ranura" data-indice={i}>
+            {Math.abs(i - activo) <= VECINAS && (
+              <PaginaShort
+                short={s}
+                indice={i}
+                activo={i === activo}
+                reducido={!!reducido}
+                onLeido={onLeido}
+                onSiguiente={() => irASiguiente(i)}
+              />
+            )}
+          </div>
         ))}
       </div>
     </motion.div>
@@ -574,9 +589,17 @@ function PaginaShort({
           // click ya había pasado página. Se limpia detrás del click.
           window.setTimeout(() => (arrastro.current = false), 0);
         }}
-        onClick={() => {
+        /* Tocar también vale para volver: la mitad derecha avanza y la
+           izquierda retrocede, que es como funciona cualquier lector de
+           historias. Desde la portada no hay nada a lo que volver, así que
+           ahí las dos mitades avanzan. El tercio izquierdo es más estrecho
+           que el derecho a propósito: se avanza mil veces por cada vez que se
+           vuelve, y el dedo cae solo en el lado de avanzar. */
+        onClick={(e) => {
           if (arrastro.current) return;
-          avanzar(1);
+          const caja = e.currentTarget.getBoundingClientRect();
+          const atras = e.clientX - caja.left < caja.width * 0.3;
+          avanzar(atras && paso > 0 ? -1 : 1);
         }}
       >
         {/* La foto va tal cual, como en la maqueta: ni zoom de reposo, ni
