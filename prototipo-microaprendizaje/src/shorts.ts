@@ -83,6 +83,7 @@ import { EMPRESAS } from "./historias/empresas";
 import { EPIDEMIAS } from "./historias/epidemias";
 import { ESCALERAS_MECANICAS } from "./historias/escalerasmecanicas";
 import { ESCLAVITUD } from "./historias/esclavitud";
+import { ESCOBA } from "./historias/escoba";
 import { ESCRITURA } from "./historias/escritura";
 import { ESCUELA } from "./historias/escuela";
 import { ESPACIO } from "./historias/espacio";
@@ -127,6 +128,7 @@ import { LEJIA } from "./historias/lejia";
 import { LENGUAS } from "./historias/lenguas";
 import { LEVADURA } from "./historias/levadura";
 import { LIMPIAPARABRISAS } from "./historias/limpiaparabrisas";
+import { LINTERNA } from "./historias/linterna";
 import { LLAVES } from "./historias/llaves";
 import { MADERA } from "./historias/madera";
 import { MANIQUIES } from "./historias/maniquies";
@@ -160,6 +162,7 @@ import { PAPEL_DE_ALUMINIO } from "./historias/papeldealuminio";
 import { PARAGUAS } from "./historias/paraguas";
 import { PARQUES } from "./historias/parques";
 import { PASAPORTES } from "./historias/pasaportes";
+import { PATINES } from "./historias/patines";
 import { PEGAMENTO } from "./historias/pegamento";
 import { PEREGRINOS } from "./historias/peregrinos";
 import { PERFUME } from "./historias/perfume";
@@ -202,6 +205,7 @@ import { SUBASTAS } from "./historias/subastas";
 import { SUBMARINOS } from "./historias/submarinos";
 import { SUENO } from "./historias/sueno";
 import { TABACO } from "./historias/tabaco";
+import { TARJETAS_DE_CREDITO } from "./historias/tarjetasdecredito";
 import { TE } from "./historias/te";
 import { TECNOLOGIA } from "./historias/tecnologia";
 import { TEJADOS } from "./historias/tejados";
@@ -516,6 +520,7 @@ export const SHORTS: Short[] = intercala(
   TINTES,
   CEMENTERIOS,
   HIGIENE,
+  ESCOBA,
   PARQUES,
   ANTIBIOTICOS,
   CERILLAS,
@@ -571,6 +576,7 @@ export const SHORTS: Short[] = intercala(
   PALABRAS,
   CAL,
   VELAS,
+  LINTERNA,
   TERMO,
   ROTONDAS,
   APELLIDOS,
@@ -613,6 +619,7 @@ export const SHORTS: Short[] = intercala(
   CONTRASENAS,
   PLANTAS,
   CAJEROS,
+  TARJETAS_DE_CREDITO,
   PARAGUAS,
   TABACO,
   ADUANAS,
@@ -630,6 +637,7 @@ export const SHORTS: Short[] = intercala(
   MATEMATICAS,
   HIELO,
   ZAPATOS,
+  PATINES,
   MEDICINA,
   CANALES,
   RAYOSX,

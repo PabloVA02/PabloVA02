@@ -22,6 +22,22 @@ Y dejó tres condiciones, por este orden de importancia:
 3. **Entendible sin ningún contexto previo.** Es la regla madre y la 11
    juntas: quien lo lee no sabe nada del asunto y no tiene por qué.
 
+## La portada lleva texto, no solo título
+
+Decidido viendo maquetas. Una portada con un titular enorme y nada más obliga
+al lector a apostar a ciegas, y el que duda no pasa de pantalla. **Si ya está
+leyendo, seguir es lo cómodo.** Por eso la portada enseña categoría, título,
+gancho y **la entrada entera**.
+
+De ahí sale la medida nueva de la entrada: **85–110 palabras**, no 53–72. Con
+la medida vieja la portada pesaba la mitad que las otras tres pantallas y se
+notaba al pasar. Con la nueva cabe el marco completo —qué se jugaba y por qué
+alguien hacía lo que hacía— en vez de meterlo a empujones en la página 1.
+
+Los shorts escritos antes de este cambio tienen entradas de 53–72 y se van
+subiendo en la pasada de revisión; el validador mantiene el mínimo viejo para
+no marcarlos todos de golpe.
+
 ## La regla madre
 
 **Se escribe para alguien que no sabe nada del asunto.** Ni de Roma, ni de
@@ -217,7 +233,7 @@ Si no se sabe de qué está hablando, esa frase está mal escrita.
 | --- | --- |
 | `titulo` | SUJETO + PROMESA, 8 palabras o menos |
 | `gancho` | una o dos frases, lo que promete el título |
-| `entrada` | 53–72 palabras |
+| `entrada` | 85–110 palabras |
 | `texto` de cada página | 90–116 palabras |
 | `rotulo` | 2–4 palabras; el de la página 3 es «Lo que quedó» |
 | `destacado` | solo en las páginas 1 y 2, nunca en la 3 |

@@ -79,7 +79,13 @@ for (const ruta of ficheros) {
 
     const entrada = /entrada:\n\s+"((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
     const ne = palabras(entrada);
-    if (ne < 53 || ne > 72) aviso(id, `entrada de ${ne} palabras (53-72)`);
+    /* La entrada creció. Pablo leyó una portada y dijo que la introducción se
+       quedaba corta, y tenía razón: la entrada iba de 53 a 72 palabras y cada
+       página va de 90 a 116, así que la primera pantalla pesaba la mitad que
+       las otras tres. La medida nueva es 85-110. El mínimo se deja en 53 para
+       que los shorts escritos antes del cambio no revienten el validador de
+       golpe; se van subiendo en la pasada de revisión. */
+    if (ne < 53 || ne > 110) aviso(id, `entrada de ${ne} palabras (85-110)`);
 
     const paginas = [...b.matchAll(/rotulo: "([^"]*)",\n\s+texto:\n\s+"((?:[^"\\]|\\.)*)"/g)];
 
