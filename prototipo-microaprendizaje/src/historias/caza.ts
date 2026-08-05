@@ -22,6 +22,47 @@ export const CAZA: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una llanura seca con hierba alta y huellas marcadas en el polvo.",
+    /* Los que cazan así, el animal parado a la sombra —que es justo lo que la
+       técnica aprovecha—, la huella que hay que leer y la carrera larga en la
+       que todavía se nota de qué estamos hechos. */
+    fotos: [
+      {
+        archivo: "Bushmen of Kalahari.jpg",
+        autor:
+          "Cazadores san en el Kalahari, 2016. Es el pueblo del que los antropólogos documentaron esta forma de cazar. Fotografía de Amhogas.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bushmen_of_Kalahari.jpg",
+        foco: "50% 50%",
+        alt: "Cuatro personas sentadas en el suelo seco de la sabana, con arcos y flechas al lado, hablando entre ellas.",
+      },
+      {
+        archivo: "Kudu enjoying shade.jpg",
+        autor:
+          "Un kudú parado a la sombra. Un antílope corre el doble de rápido que un hombre, pero tiene que detenerse a soltar el calor y nosotros no. Fotografía de Sikolethu, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kudu_enjoying_shade.jpg",
+        foco: "55% 50%",
+        alt: "Un antílope grande de rayas blancas y cuernos en espiral, quieto bajo un árbol seco de la sabana.",
+      },
+      {
+        archivo: "Sand dune with animal track.JPG",
+        autor:
+          "El rastro de un animal cruzando una duna. Cuando la presa desaparece de la vista, esto es lo único que queda. Fotografía de Brocken Inaglory, 2007.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sand_dune_with_animal_track.JPG",
+        foco: "50% 55%",
+        alt: "La cresta de una duna naranja partiendo la imagen en luz y sombra, con una línea de huellas pequeñas bajando por la ladera.",
+      },
+      {
+        archivo: "Maigua Ojeda 250km Atacama Crossing.jpg",
+        autor:
+          "Una corredora en la travesía de 250 kilómetros del desierto de Atacama, 2025. En carreras muy largas y con calor es donde el cuerpo humano compite de verdad. Fotografía de Carmen Vallejo López.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Maigua_Ojeda_250km_Atacama_Crossing.jpg",
+        foco: "50% 55%",
+        alt: "Una corredora con mochila y gorra avanza sola por un terreno de arena y roca, con una ladera desnuda al fondo.",
+      },
+    ],
     entrada:
       "Sur de África, con una técnica documentada por antropólogos desde el siglo XIX y estudiada a fondo en 2004. Un grupo de cazadores elige un antílope, lo levanta y lo sigue al trote durante horas bajo el sol del mediodía. No intentan alcanzarlo, porque es imposible: un antílope corre el doble de rápido que un hombre. Lo que hacen es impedirle descansar hasta que el animal se derrumba por calor. La persecución dura entre dos y cinco horas, y termina con el cazador acercándose andando a un antílope que ya no puede levantarse. Ningún otro animal grande caza así, y la razón está en el cuerpo humano.",
     paginas: [

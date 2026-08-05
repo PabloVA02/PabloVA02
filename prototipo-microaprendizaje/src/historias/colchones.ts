@@ -19,6 +19,46 @@ export const COLCHONES: Short[] = [
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Un jergón de tela rayada abierto por una costura, con la paja saliendo.",
+    /* La cama de paja, el trabajo de rellenarla, el anuncio del invento que la
+       jubiló y el sitio donde acaban todos hoy. */
+    fotos: [
+      {
+        archivo: "Medieval Austrian bed with straw mattress (26797624432).jpg",
+        autor:
+          "Una cama antigua austríaca con su jergón, el saco de tela que se rellenaba de paja. Fotografía de Thomas Quine, 2014.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Medieval_Austrian_bed_with_straw_mattress_(26797624432).jpg",
+        foco: "50% 45%",
+        alt: "Una cama estrecha de madera tallada, arrimada a una pared encalada, con un colchón de tela clara y sin sábanas.",
+      },
+      {
+        archivo: "Poston, Arizona. Filling straw ticks for mattresses at Colorado River Relocation center for evacuee . . . - NARA - 536109.jpg",
+        autor:
+          "Rellenando de paja las fundas de los colchones en el campo de internamiento de Poston, Arizona, en mayo de 1942. Fotografía de Fred Clark. Archivos Nacionales de Estados Unidos.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Poston,_Arizona._Filling_straw_ticks_for_mattresses_at_Colorado_River_Relocation_center_for_evacuee_._._._-_NARA_-_536109.jpg",
+        foco: "50% 45%",
+        alt: "Fotografía antigua: tres personas metiendo brazadas de paja en unos sacos de tela blanca, en el suelo y al aire libre.",
+      },
+      {
+        archivo: "Serta 'Perfect Sleeper', 1948.jpg",
+        autor:
+          "Anuncio de un colchón de muelles en una revista estadounidense, 1948: cuarenta y nueve dólares con cincuenta. El muelle llevaba ya casi ochenta años patentado y todavía se vendía como novedad.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Serta_%27Perfect_Sleeper%27,_1948.jpg",
+        foco: "50% 18%",
+        alt: "Anuncio en color de los años cuarenta con una mujer tumbada sobre un colchón de rayas y el precio en grande debajo.",
+      },
+      {
+        archivo: "Mattress in Coventry July 29 2021.jpg",
+        autor:
+          "Un colchón abandonado en la acera, en Coventry, 2021. Dentro lleva acero, espuma y tela pegados, y separarlos cuesta más de lo que valen. Fotografía de Rubbish computer.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mattress_in_Coventry_July_29_2021.jpg",
+        foco: "50% 55%",
+        alt: "Un colchón blanco tirado en el suelo de una calle, apoyado contra un contenedor metálico.",
+      },
+    ],
     entrada:
       "Europa, siglo XIX. Hasta entonces, dormir bien dependía del relleno que uno pudiera pagar: paja para los jornaleros, lana o crin de caballo para los acomodados y plumón para los ricos. Todos esos rellenos tenían el mismo defecto. Se apelmazaban con el peso del cuerpo y había que ahuecarlos a mano cada mañana, un trabajo que en las casas grandes ocupaba a una criada entera. Y ninguno se podía lavar por dentro, así que el colchón acumulaba durante años todo lo que le fuera cayendo. Lo que cambió la cama no fue un material nuevo ni un relleno mejor, sino una pieza de alambre.",
     paginas: [

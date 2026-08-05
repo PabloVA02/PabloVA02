@@ -22,6 +22,46 @@ export const CIRCO: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Una pista circular de serrín vista desde arriba, con la valla baja de madera roja.",
+    /* El número, el truco que lo hace posible, el cartel de los que lo
+       copiaron y la pista pintada un siglo después, con la misma medida. */
+    fotos: [
+      {
+        archivo: "Theatrical and circus life; (1893) (14765938152).jpg",
+        autor:
+          "Grabado de un libro sobre la vida del circo, 1893: los números a caballo, que fueron el circo entero durante un siglo.",
+        licencia: "Sin restricciones conocidas",
+        fuente: "https://commons.wikimedia.org/wiki/File:Theatrical_and_circus_life;_(1893)_(14765938152).jpg",
+        foco: "50% 50%",
+        alt: "Grabado antiguo con un caballo al galope y varios acróbatas saltando y haciendo el pino sobre otros caballos alrededor.",
+      },
+      {
+        archivo: "Adolphe Franconi standing on the back of a horse, facing right, legs spread, with right foot on the rump of the horse, right hand extended to the left, holding a hat in his left hand, during LCCN2017650407.jpg",
+        autor:
+          "Dibujo de Martha Sarah Rolls, entre 1820 y 1827: un jinete de circo de pie sobre el lomo de un caballo al galope. Biblioteca del Congreso, Estados Unidos.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Adolphe_Franconi_standing_on_the_back_of_a_horse,_facing_right,_legs_spread,_with_right_foot_on_the_rump_of_the_horse,_right_hand_extended_to_the_left,_holding_a_hat_in_his_left_hand,_during_LCCN2017650407.jpg",
+        foco: "50% 50%",
+        alt: "Dibujo a lápiz de un hombre erguido sobre el lomo de un caballo lanzado al galope, con un sombrero en la mano.",
+      },
+      {
+        archivo: "Astley's Royal Amphitheatre (London, England), May 24, 1852 - DPLA - c731c6f54e3ca533a15d878cd0ef5f91.jpg",
+        autor:
+          "Cartel del anfiteatro de Astley, en Londres, del 24 de mayo de 1852. Es la casa donde nació el circo, ochenta y cuatro años después de la primera función. Universidad Estatal de Illinois.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Astley's_Royal_Amphitheatre_(London,_England),_May_24,_1852_-_DPLA_-_c731c6f54e3ca533a15d878cd0ef5f91.jpg",
+        foco: "50% 25%",
+        alt: "Cartel impreso a dos columnas, con el nombre del anfiteatro en letras enormes y la lista de números de la función debajo.",
+      },
+      {
+        archivo: "Center Ring, Gifford Beal, 1922 - Phillips Collection - DSC04889.JPG",
+        autor:
+          "«La pista central», óleo de Gifford Beal, 1922. Ciento cincuenta años después de Londres, y en otro continente, la pista sigue midiendo lo mismo. Phillips Collection, Washington.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Center_Ring,_Gifford_Beal,_1922_-_Phillips_Collection_-_DSC04889.JPG",
+        foco: "50% 45%",
+        alt: "Cuadro de trazo suelto: la pista redonda de un circo con caballos y figuras claras, rodeada por el público en penumbra.",
+      },
+    ],
     entrada:
       "Londres, 1768. Un antiguo sargento de caballería que se gana la vida enseñando equitación monta un espectáculo en un terreno cercado junto al río: galopa en círculo de pie sobre la silla. Cobra entrada. Aquello, que parece una acrobacia de feria, es en realidad el nacimiento del circo moderno. Y lo más raro es lo que se ha quedado hasta hoy. No los caballos, ni el número, ni la carpa: lo que ha llegado idéntico hasta las pistas de ahora es la medida exacta del círculo que aquel hombre dibujó en el suelo. Trece metros de diámetro, en Londres, en Moscú y en Buenos Aires, desde hace más de dos siglos. Y no la eligió por gusto.",
     paginas: [

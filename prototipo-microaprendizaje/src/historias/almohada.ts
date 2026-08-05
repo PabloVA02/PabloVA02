@@ -21,6 +21,46 @@ export const ALMOHADA: Short[] = [
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Reposacabezas egipcio de madera con la curva para el cuello, sobre fondo neutro.",
+    /* La de madera, la blanda de ahora, la de porcelana que protegía el peinado
+       y la cama con seis almohadas que no hacen falta. */
+    fotos: [
+      {
+        archivo: "Headrest MET DP300243.jpg",
+        autor:
+          "Reposacabezas egipcio de madera, con su pie y la media luna donde se apoyaba la nuca. Museo Metropolitano de Arte, Nueva York.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Headrest_MET_DP300243.jpg",
+        foco: "50% 38%",
+        alt: "Una pieza de madera clara con forma de seta: un pie estrecho y arriba una media luna cóncava donde se apoyaba la nuca.",
+      },
+      {
+        archivo: "Hotel Pillow and Bedding (39935420303).jpg",
+        autor:
+          "Una almohada blanda de hoy. Lo que decide si sirve no es lo mullida que sea, sino si rellena el hueco que queda entre la oreja y el hombro. Fotografía de Tony Webster, 2019.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hotel_Pillow_and_Bedding_(39935420303).jpg",
+        foco: "50% 45%",
+        alt: "Primer plano de dos almohadas blancas mullidas sobre una cama hecha, con la sábana doblada por delante.",
+      },
+      {
+        archivo: "Jin Porcelain Pillow 34.jpg",
+        autor:
+          "Almohada de porcelana china de la dinastía Jin, entre los siglos XII y XIII. Dura, alta y fresca: levantaba la cabeza del suelo y no deshacía el peinado. Fotografía de Gary Todd.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Jin_Porcelain_Pillow_34.jpg",
+        foco: "50% 50%",
+        alt: "Un bloque de cerámica esmaltada en color crema, con forma de cojín octogonal y un dibujo pintado en la cara de arriba.",
+      },
+      {
+        archivo: "44 Made bed with richly decorated pillows and ornate bedspread.jpg",
+        autor:
+          "Una cama hecha con seis almohadas, casi todas decorativas. Fotografía de Marek Ślusarczyk, 2010.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:44_Made_bed_with_richly_decorated_pillows_and_ornate_bedspread.jpg",
+        foco: "50% 55%",
+        alt: "Una cama de hotel hecha, con varias almohadas y cojines apilados contra el cabecero y una colcha estampada.",
+      },
+    ],
     entrada:
       "Egipto y China, desde hace unos cinco mil años. Las almohadas más antiguas que se conservan son bloques de madera, de piedra o de cerámica esmaltada, con una curva para el cuello. Parecen instrumentos de castigo y no lo eran. Servían para levantar la cabeza del suelo, para que no se acercaran los bichos y, sobre todo, para no estropear el peinado. Un peinado de aquellos costaba horas de trabajo y se llevaba puesto días enteros, así que dormir sin aplastarlo compensaba la incomodidad. Y esa almohada dura hacía además una cosa que la blanda no hace, que es la razón por la que en algunos países se sigue usando.",
     paginas: [
