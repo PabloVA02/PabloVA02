@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const CINE: Short[] = [
   {
     id: "grito-wilhelm",
-    titulo: "El mismo grito lleva setenta años en el cine",
+    titulo: "El mismo grito setenta años",
     gancho: "Está en Star Wars, en Indiana Jones y en cuatrocientas películas más.",
     categoria: "Cine",
     color: "var(--clay)",
@@ -52,7 +52,7 @@ export const CINE: Short[] = [
 
   {
     id: "psicosis-ducha",
-    titulo: "La escena de la ducha: 45 segundos y una semana",
+    titulo: "Cuarenta y cinco segundos, una semana",
     gancho: "El cuchillo no toca la piel en ningún fotograma. La sangre era sirope.",
     categoria: "Cine",
     color: "var(--slate)",
@@ -85,7 +85,7 @@ export const CINE: Short[] = [
 
   {
     id: "cine-mudo",
-    titulo: "El cine mudo nunca fue mudo, ni iba tan rápido",
+    titulo: "El cine mudo nunca fue mudo",
     gancho: "Siempre sonó música en la sala, y esos movimientos acelerados son un error nuestro.",
     categoria: "Cine",
     color: "var(--ochre)",
@@ -118,7 +118,7 @@ export const CINE: Short[] = [
   },
   {
     id: "chaplin-concurso",
-    titulo: "Chaplin perdió un concurso de imitadores de Chaplin",
+    titulo: "Chaplin perdió imitándose a sí mismo",
     gancho: "Se presentó de incógnito a un certamen de dobles suyos en San Francisco y no pasó de la ronda inicial.",
     categoria: "Cine",
     color: "var(--ochre)",
@@ -149,7 +149,7 @@ export const CINE: Short[] = [
 
   {
     id: "king-kong-maqueta",
-    titulo: "King Kong medía cuarenta y cinco centímetros",
+    titulo: "King Kong medía un palmo",
     gancho: "El gorila que aterrorizó a Nueva York era un muñeco de metal y goma que se movía a mano, fotograma a fotograma.",
     categoria: "Cine",
     color: "var(--slate)",
@@ -180,7 +180,7 @@ export const CINE: Short[] = [
 
   {
     id: "llegada-sonido",
-    titulo: "El sonido dejó sin trabajo a media industria",
+    titulo: "El sonido despidió a media industria",
     gancho: "Los estudios se resistieron cuatro años. Cuando cedieron, se arruinaron carreras enteras en un semestre.",
     categoria: "Cine",
     color: "var(--plum)",

@@ -21,7 +21,7 @@ import type { Short } from "../shorts";
 export const COCINA: Short[] = [
   {
     id: "ketchup-pescado",
-    titulo: "El kétchup empezó siendo salsa de pescado",
+    titulo: "El kétchup era salsa de pescado",
     gancho: "Sin tomate, sin azúcar y sin nada rojo. Durante siglos.",
     categoria: "Cocina",
     color: "var(--clay)",
@@ -54,7 +54,7 @@ export const COCINA: Short[] = [
 
   {
     id: "zanahoria-naranja",
-    titulo: "La zanahoria naranja es un invento reciente",
+    titulo: "La zanahoria no era naranja",
     gancho: "Antes eran moradas, blancas y amarillas. Lo de los holandeses es discutible.",
     categoria: "Cocina",
     color: "var(--ochre)",
@@ -87,7 +87,7 @@ export const COCINA: Short[] = [
 
   {
     id: "miel-no-caduca",
-    titulo: "La miel es el único alimento que no caduca",
+    titulo: "La miel no caduca nunca",
     gancho: "Se han abierto tarros de tres mil años y seguían siendo miel.",
     categoria: "Cocina",
     color: "var(--sage)",

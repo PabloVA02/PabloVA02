@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CIRCO: Short[] = [
   {
     id: "pista-de-trece-metros",
-    titulo: "Todas las pistas de circo miden lo mismo",
+    titulo: "Todas las pistas miden lo mismo",
     gancho: "Trece metros de diámetro, en cualquier país y desde 1768. Lo decide la fuerza que empuja al caballo.",
     categoria: "Circo",
     color: "var(--clay)",
@@ -47,7 +47,7 @@ export const CIRCO: Short[] = [
 
   {
     id: "circo-de-tres-pistas",
-    titulo: "El circo de tres pistas era imposible de ver",
+    titulo: "Tres pistas y ninguna se veía",
     gancho: "Ocurrían tres cosas a la vez y nadie podía seguirlas todas. Ese era exactamente el negocio.",
     categoria: "Circo",
     color: "var(--slate)",
@@ -77,7 +77,7 @@ export const CIRCO: Short[] = [
 
   {
     id: "hombre-bala",
-    titulo: "El cañón del hombre bala no dispara pólvora",
+    titulo: "El cañón no dispara pólvora",
     gancho: "El estruendo y el humo son teatro. Lo que lo lanza es un muelle o aire comprimido.",
     categoria: "Circo",
     color: "var(--ochre)",

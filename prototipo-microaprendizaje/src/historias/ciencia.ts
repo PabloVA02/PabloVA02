@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const CIENCIA: Short[] = [
   {
     id: "tabla-periodica",
-    titulo: "La tabla periódica dejó huecos para lo que faltaba",
+    titulo: "La tabla dejó huecos a propósito",
     gancho: "Su autor no solo ordenó lo que se conocía: predijo tres elementos que nadie había visto.",
     categoria: "Ciencia",
     color: "var(--slate)",
@@ -50,7 +50,7 @@ export const CIENCIA: Short[] = [
 
   {
     id: "cuaderno-radiactivo",
-    titulo: "Sus cuadernos siguen radiactivos cien años después",
+    titulo: "Sus cuadernos siguen radiactivos",
     gancho: "Guardaba material luminoso en un cajón porque le parecía bonito. Aquello la mató, y su libreta sigue peligrosa.",
     categoria: "Ciencia",
     color: "var(--forest)",
@@ -80,7 +80,7 @@ export const CIENCIA: Short[] = [
 
   {
     id: "eclipse-1919",
-    titulo: "Un eclipse de 1919 hizo famoso a Einstein",
+    titulo: "Un eclipse hizo famoso a Einstein",
     gancho: "Su teoría decía que la luz se curva. Hubo que esperar a que una isla africana dejara de tener nubes.",
     categoria: "Ciencia",
     color: "var(--plum)",

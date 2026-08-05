@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CODIGOS_DE_BARRAS: Short[] = [
   {
     id: "las-rayas-en-la-arena",
-    titulo: "El código de barras se dibujó en la arena",
+    titulo: "Lo dibujó en la arena",
     gancho: "Un estudiante estiró con los dedos los puntos y rayas del alfabeto morse en una playa, y salieron barras.",
     categoria: "Códigos de barras",
     color: "var(--slate)",
@@ -46,7 +46,7 @@ export const CODIGOS_DE_BARRAS: Short[] = [
   },
   {
     id: "el-precio-no-esta-dentro",
-    titulo: "El código de barras no lleva el precio",
+    titulo: "El código no lleva el precio",
     gancho: "Solo lleva un número que identifica el producto. El precio está en el ordenador de la tienda, y por eso cambia.",
     categoria: "Códigos de barras",
     color: "var(--ochre)",
@@ -75,7 +75,7 @@ export const CODIGOS_DE_BARRAS: Short[] = [
   },
   {
     id: "lo-que-cambio-en-la-tienda",
-    titulo: "Las rayas cambiaron lo que hay en el estante",
+    titulo: "Las rayas cambiaron el estante",
     gancho: "Al saber al minuto qué se vende, las tiendas dejaron de comprar a ojo y los productos lentos desaparecieron.",
     categoria: "Códigos de barras",
     color: "var(--plum)",

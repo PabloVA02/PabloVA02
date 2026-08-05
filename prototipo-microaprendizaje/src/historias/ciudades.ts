@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const CIUDADES: Short[] = [
   {
     id: "chaflanes-cerda",
-    titulo: "Las esquinas cortadas de Barcelona son un plan de 1859",
+    titulo: "Las esquinas cortadas de Barcelona",
     gancho: "Su autor diseñó manzanas con jardín dentro. Se construyeron los cuatro lados.",
     categoria: "Ciudades",
     color: "var(--ochre)",
@@ -52,7 +52,7 @@ export const CIUDADES: Short[] = [
 
   {
     id: "venecia-pilotes",
-    titulo: "Venecia está de pie sobre millones de troncos",
+    titulo: "Venecia se apoya en troncos",
     gancho: "La madera lleva mil años bajo el agua y no se ha podrido.",
     categoria: "Ciudades",
     color: "var(--sage)",
@@ -86,7 +86,7 @@ export const CIUDADES: Short[] = [
 
   {
     id: "mapa-beck",
-    titulo: "El plano del metro miente y por eso funciona",
+    titulo: "El plano del metro miente",
     gancho: "Un delineador lo dibujó en su tiempo libre y se lo rechazaron por raro.",
     categoria: "Ciudades",
     color: "var(--slate)",

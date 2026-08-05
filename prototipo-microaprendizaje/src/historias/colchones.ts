@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const COLCHONES: Short[] = [
   {
     id: "de-paja-a-muelles",
-    titulo: "El colchón fue un saco de paja",
+    titulo: "El colchón, un saco de paja",
     gancho: "Durante siglos se dormía sobre paja, lana o crin de caballo, y todos esos rellenos tenían el mismo defecto.",
     categoria: "Objetos",
     color: "var(--ochre)",
@@ -43,7 +43,7 @@ export const COLCHONES: Short[] = [
   },
   {
     id: "el-colchon-de-agua",
-    titulo: "La cama de agua se inventó dos veces",
+    titulo: "La cama de agua, dos veces",
     gancho: "Primero en un hospital del siglo XIX, para que los enfermos no se llenaran de llagas. Un siglo después volvió como mueble de moda.",
     categoria: "Objetos",
     color: "var(--slate)",
@@ -72,7 +72,7 @@ export const COLCHONES: Short[] = [
   },
   {
     id: "la-espuma-que-recuerda",
-    titulo: "La espuma viscoelástica se inventó para aviones",
+    titulo: "La espuma vino de los aviones",
     gancho: "Un centro espacial buscaba un asiento que amortiguase el golpe del despegue. Acabó en los colchones de medio mundo.",
     categoria: "Objetos",
     color: "var(--plum)",

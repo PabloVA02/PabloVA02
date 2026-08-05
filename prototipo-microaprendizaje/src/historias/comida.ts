@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const COMIDA: Short[] = [
   {
     id: "patata-europa",
-    titulo: "A la patata hubo que convencer a Europa",
+    titulo: "Hubo que engañar para comer patatas",
     gancho: "La tomaban por comida de cerdos y por causa de la lepra. Hubo que robarla para que se comiera.",
     categoria: "Comida",
     color: "var(--forest)",
@@ -49,7 +49,7 @@ export const COMIDA: Short[] = [
 
   {
     id: "cafe-prohibido",
-    titulo: "El café se prohibió por ser políticamente peligroso",
+    titulo: "El café se prohibió por peligroso",
     gancho: "En sus locales cualquiera podía sentarse a discutir por un penique. A un rey le pareció demasiado.",
     categoria: "Comida",
     color: "var(--ochre)",
@@ -80,7 +80,7 @@ export const COMIDA: Short[] = [
 
   {
     id: "pizza-margarita",
-    titulo: "La margarita se llama así por una reina",
+    titulo: "Una pizza con nombre de reina",
     gancho: "La pizza era comida de pobres. Una visita real de 1889 le dio permiso para subir de clase.",
     categoria: "Comida",
     color: "var(--clay)",
@@ -110,7 +110,7 @@ export const COMIDA: Short[] = [
   },
   {
     id: "chocolate-bebida",
-    titulo: "El chocolate se bebió amargo durante siglos",
+    titulo: "El chocolate se bebía amargo",
     gancho: "En América era una bebida picante y espesa. Tardó cien años en llevar azúcar y trescientos en ser una tableta.",
     categoria: "Comida",
     color: "var(--clay)",
@@ -140,7 +140,7 @@ export const COMIDA: Short[] = [
 
   {
     id: "sal-sueldo",
-    titulo: "La sal fue estratégica antes que barata",
+    titulo: "La sal pagaba los sueldos",
     gancho: "Sin ella no había manera de guardar comida. Los imperios la gravaron y las revoluciones empezaron por ahí.",
     categoria: "Comida",
     color: "var(--slate)",
@@ -170,7 +170,7 @@ export const COMIDA: Short[] = [
 
   {
     id: "azucar-esclavitud",
-    titulo: "El azúcar movió el mayor comercio de esclavos",
+    titulo: "El azúcar movió el mayor comercio",
     gancho: "Era un lujo de farmacia. Cuando se abarató, hicieron falta millones de personas para cortar caña.",
     categoria: "Comida",
     color: "var(--forest)",
