@@ -20,6 +20,47 @@ export const AIRBAGS: Short[] = [
     categoria: "Tecnología",
     color: "var(--slate)",
     encargo: "Airbag desplegado en el volante de un coche accidentado, ya flácido.",
+    /* La bolsa después, la caja antes, el coche entero y la etiqueta que salió
+       de los niños muertos. Las dos primeras son el mismo objeto en sus dos
+       estados, que es justo lo que cuesta imaginarse: eso sale de ahí. */
+    fotos: [
+      {
+        archivo: "Abandoned car interior showing a deployed airbag and a worn steering wheel in a forgotten location.jpg",
+        autor:
+          "Un airbag ya disparado, colgando del volante. Se llena y se vacía en menos de dos décimas de segundo, y así es como se queda. Fotografía de Shixart1985.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Abandoned_car_interior_showing_a_deployed_airbag_and_a_worn_steering_wheel_in_a_forgotten_location.jpg",
+        foco: "50% 42%",
+        alt: "El interior polvoriento de un coche abandonado, con la bolsa blanca del airbag colgando flácida sobre el volante.",
+      },
+      {
+        archivo: "Renault Talisman Grandtour (5) - Undeployed airbag.jpg",
+        autor:
+          "El airbag del acompañante sin disparar, con el salpicadero quitado: la caja blanca lleva dentro la bolsa doblada y el bote que la llena. Fotografía de Cjp24, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Renault_Talisman_Grandtour_(5)_-_Undeployed_airbag.jpg",
+        foco: "50% 40%",
+        alt: "Una caja blanca rectangular atornillada dentro del armazón de un salpicadero desmontado, entre cables y travesaños metálicos.",
+      },
+      {
+        archivo: "Ford Fiesta 2008 Crashed.jpg",
+        autor:
+          "Los dos airbags delanteros de un coche accidentado, ya desinflados. Lo que amortigua no es el gas quieto: es el gas escapándose mientras el cuerpo aplasta la bolsa. Fotografía de StomboyCarGeek.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ford_Fiesta_2008_Crashed.jpg",
+        foco: "50% 55%",
+        alt: "El interior de un coche siniestrado con las dos bolsas de los airbags arrugadas sobre el volante y el salpicadero.",
+      },
+      {
+        archivo: "Suzuki Swift 2011 - Multilanguage Airbag Label.jpg",
+        autor:
+          "La etiqueta que llevan hoy todos los coches, en seis idiomas: nunca una silla infantil de espaldas delante de un airbag activo. Fotografía de StomboyCarGeek, 2021.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Suzuki_Swift_2011_-_Multilanguage_Airbag_Label.jpg",
+        foco: "50% 22%",
+        alt: "Una pegatina de aviso con el dibujo tachado de una silla infantil delante de un airbag, y el texto repetido en varios idiomas debajo.",
+      },
+    ],
     entrada:
       "Estados Unidos y Alemania, con la patente original de 1953 y la instalación de serie desde 1981. Un airbag tiene que estar completamente lleno antes de que la cabeza del conductor llegue al volante, y ese plazo es de unas cuatro centésimas de segundo. Para hacerse una idea, un parpadeo dura ocho veces más. Ningún compresor puede llenar nada en ese tiempo, y llevar el gas ya comprimido en un depósito tampoco vale, porque un depósito a presión dentro del volante es una bomba esperando. La única manera de mover tanto gas tan rápido es provocar una reacción química explosiva a un palmo de la cara del conductor, y que salga bien todas las veces.",
     paginas: [

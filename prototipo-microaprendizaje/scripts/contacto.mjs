@@ -14,6 +14,7 @@
    Uso:
      node scripts/contacto.mjs salida.png "File:Una.jpg" "File:Otra.jpg" …
      node scripts/contacto.mjs salida.png --foco 50%,20% "File:Una.jpg"
+     node scripts/contacto.mjs salida.png --grande "File:Una.jpg"   una por fila
 */
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
@@ -44,6 +45,11 @@ async function baja(nombre) {
 const args = process.argv.slice(2);
 const salida = args.shift();
 let foco = "50% 50%";
+/* Para cuando hay que comprobar un detalle pequeño —si esa ventana está
+   cegada de verdad, si eso que asoma es lo que parece—: una por fila y al
+   doble de alto. En la rejilla de dos no se ve. */
+let grande = false;
+for (let i = 0; i < args.length; i++) if (args[i] === "--grande") { grande = true; args.splice(i, 1); break; }
 if (args[0] === "--foco") { args.shift(); foco = args.shift().replace(",", " "); }
 if (!salida || !args.length) {
   console.log('uso: node scripts/contacto.mjs salida.png "File:Una.jpg" …');
@@ -68,12 +74,12 @@ if (!fichas.length) { console.log("ninguna se pudo bajar"); process.exit(1); }
    justo lo que se viene a comprobar. */
 const html = `<!doctype html><meta charset="utf-8"><style>
   body { margin: 0; background: #22201d; font: 13px system-ui, sans-serif; color: #f2ece1; }
-  .rejilla { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; padding: 14px; }
+  .rejilla { display: grid; grid-template-columns: repeat(${grande ? 1 : 2}, 1fr); gap: 14px; padding: 14px; }
   figure { margin: 0; background: #2e2b27; border-radius: 6px; overflow: hidden; }
   figcaption { padding: 6px 9px; line-height: 1.35; }
   .n { display: inline-block; background: #f2ece1; color: #22201d; font-weight: 700;
        border-radius: 3px; padding: 0 6px; margin-right: 6px; }
-  .entera { width: 100%; height: 300px; object-fit: contain; background: #14120f; display: block; }
+  .entera { width: 100%; height: ${grande ? 640 : 300}px; object-fit: contain; background: #14120f; display: block; }
   .franja { width: 100%; height: 92px; object-fit: cover; object-position: ${foco}; display: block;
             border-top: 2px solid #22201d; }
   .pie { padding: 3px 9px 7px; opacity: .55; font-size: 11px; }
@@ -87,7 +93,7 @@ ${fichas.map((f) => `<figure>
 </div>`;
 
 const navegador = await chromium.launch();
-const pagina = await navegador.newPage({ viewport: { width: 1100, height: 800 } });
+const pagina = await navegador.newPage({ viewport: { width: grande ? 1000 : 1100, height: 800 } });
 await pagina.setContent(html, { waitUntil: "load" });
 await pagina.screenshot({ path: salida, fullPage: true });
 await navegador.close();

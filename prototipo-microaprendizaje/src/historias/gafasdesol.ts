@@ -19,6 +19,46 @@ export const GAFAS_DE_SOL: Short[] = [
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Gafas de nieve inuit talladas en hueso, con dos ranuras horizontales y cordel de tendón.",
+    /* Las gafas, otras gafas distintas, la luz de la que protegen y el sitio
+       inesperado donde el mismo truco sigue trabajando. */
+    fotos: [
+      {
+        archivo: "Snow goggles MET DP-15396-001.jpg",
+        autor:
+          "Gafas de nieve talladas en marfil entre los años 800 y 1200, con dos ranuras estrechas en vez de cristales. Museo Metropolitano de Arte, Nueva York.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Snow_goggles_MET_DP-15396-001.jpg",
+        foco: "50% 38%",
+        alt: "Una pieza de marfil amarillento con forma de antifaz, ajustada a la nariz, con dos rendijas horizontales talladas a la altura de los ojos.",
+      },
+      {
+        archivo: "Snow goggles, Alaska Eskimo, 1883 - Ethnological Museum, Berlin - DSC01065.JPG",
+        autor:
+          "Tres pares de gafas de nieve de Alaska, recogidos en 1883: cada pueblo les daba su forma y las hacía del material que tenía. Museo Etnológico de Berlín. Fotografía de Daderot, 2014.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Snow_goggles,_Alaska_Eskimo,_1883_-_Ethnological_Museum,_Berlin_-_DSC01065.JPG",
+        foco: "50% 55%",
+        alt: "Tres antifaces de madera oscura expuestos en una vitrina, cada uno con una ranura larga y fina abierta de lado a lado.",
+      },
+      {
+        archivo: "Glassy sea ice with iceberg (7873357450).jpg",
+        autor:
+          "El sol saliendo sobre el hielo marino en la costa este de Groenlandia, en abril de 2012. Fotografía de Jefferson Beck, NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Glassy_sea_ice_with_iceberg_(7873357450).jpg",
+        foco: "50% 62%",
+        alt: "Una llanura de hielo marino fino con el reflejo blanco del sol bajo extendido sobre ella, y témpanos al fondo.",
+      },
+      {
+        archivo: "Arc welding (13151937313).jpg",
+        autor:
+          "Un soldador trabajando tras el cristal de su careta. Mira el arco por una ventana pequeña y muy filtrada, por el mismo motivo que las gafas de hueso. Base aérea de Little Rock, Estados Unidos, 2014.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Arc_welding_(13151937313).jpg",
+        foco: "55% 45%",
+        alt: "Un soldador con careta y guantes trabaja en una nave oscura, iluminado por el resplandor rojo y violeta del arco.",
+      },
+    ],
     entrada:
       "Ártico, desde hace por lo menos dos mil años. En primavera, la nieve devuelve casi toda la luz que le llega y quien camina sobre ella recibe el doble de sol que en cualquier otro sitio. El resultado es una quemadura en la superficie del ojo que deja ciego durante días y duele como si hubiera arena dentro. El problema no tiene arreglo una vez hecho. No hay pomada ni descanso que devuelvan la vista antes de dos o tres días, y en un sitio donde cazar es comer, tres días ciego son muchos días. Los pueblos del Ártico lo resolvieron hace milenios con una tira de hueso atada a la cabeza, y la solución que encontraron no se parece nada a unas gafas de sol modernas.",
     paginas: [

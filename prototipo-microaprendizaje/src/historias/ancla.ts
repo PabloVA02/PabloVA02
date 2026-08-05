@@ -20,6 +20,47 @@ export const ANCLA: Short[] = [
     categoria: "Barcos",
     color: "var(--slate)",
     encargo: "Ancla de uñas enterrada a medias en la arena del fondo, con la cadena tumbada.",
+    /* El ancla donde trabaja —en el fondo—, el ancla en seco para verle las
+       uñas, la cadena que es la otra mitad del truco, y una proa con el ancla
+       echada, que es de donde viene la expresión. */
+    fotos: [
+      {
+        archivo: "Ancla, Anchor Bay, Malta, Malta, 2021-08-24, DD 12.jpg",
+        autor:
+          "Un ancla en el fondo de la bahía de Anchor Bay, en Malta, ya cubierta de vida marina. Fotografía de Diego Delso, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ancla,_Anchor_Bay,_Malta,_Malta,_2021-08-24,_DD_12.jpg",
+        foco: "50% 50%",
+        alt: "Un ancla grande posada en el fondo arenoso de un mar transparente, incrustada de algas y piedra.",
+      },
+      {
+        archivo: "Sydney (AU), Coastal Cliff Walk, Dunbar Anchor -- 2019 -- 2328.jpg",
+        autor:
+          "El ancla del velero Dunbar, naufragado en 1857 y rescatada un siglo después. Se le ven las dos uñas, las palas que se clavan en el fondo. Sídney, Australia. Fotografía de Dietmar Rabich, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Coastal_Cliff_Walk,_Dunbar_Anchor_--_2019_--_2328.jpg",
+        foco: "45% 55%",
+        alt: "Un ancla antigua de hierro, con sus dos brazos curvados acabados en pala, apoyada sobre un muro de piedra junto a una placa de bronce.",
+      },
+      {
+        archivo: "ARTHUR B. HOMER Windlass & Anchor Chain.jpg",
+        autor:
+          "El molinete de un carguero de los Grandes Lagos, la máquina que recoge la cadena, con los eslabones enfilados hacia el pozo. Puerto de Duluth, 1978. Fotografía de Gary Todd.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:ARTHUR_B._HOMER_Windlass_%26_Anchor_Chain.jpg",
+        foco: "50% 50%",
+        alt: "Maquinaria pesada de cubierta pintada de marrón, con un tambor dentado por el que pasa una cadena de eslabones muy gruesos.",
+      },
+      {
+        archivo: "La proa del buque. Tenía el ancla echada. La marea estaba muy alta (16626733765).jpg",
+        autor:
+          "La proa de un patrullero de la Armada española con el ancla echada, en los muelles de Marín, Pontevedra. Fotografía de Contando Estrelas, 2015.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:La_proa_del_buque._Ten%C3%ADa_el_ancla_echada._La_marea_estaba_muy_alta_(16626733765).jpg",
+        foco: "50% 50%",
+        alt: "La proa de un barco de guerra gris vista de cerca, con la cadena del ancla saliendo por el escobén hacia el agua.",
+      },
+    ],
     entrada:
       "Todos los mares del mundo, con el diseño actual asentado desde 1821. Un barco grande lleva un ancla que pesa una milésima parte de lo que pesa él, y aun así aguanta el viento y la corriente. Un ancla que sujetara por peso tendría que pesar tanto como el barco. La explicación no está en el hierro, sino en dos cosas que trabajan juntas. Una es la forma del ancla, que se clava en el fondo en cuanto se tira de ella. La otra es el peso de la cadena tumbada, que se encarga de que se tire siempre en la dirección correcta. Si la cadena se levantara del fondo, el ancla saldría de un tirón y el barco se iría a la deriva.",
     paginas: [

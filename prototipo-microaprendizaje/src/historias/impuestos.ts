@@ -23,6 +23,47 @@ export const IMPUESTOS: Short[] = [
     categoria: "Impuestos",
     color: "var(--slate)",
     encargo: "Una fachada de ladrillo con dos ventanas tapiadas y el marco todavía marcado en la pared.",
+    /* Empieza y acaba con la misma cosa a dos escalas: la mansión que cegó dos
+       ventanas enteras y el ventanuco de sótano que alguien tapó con cuatro
+       ladrillos. En medio, el recaudador y el día que lo quitaron. */
+    fotos: [
+      {
+        archivo: "At Basildon Park 2024 06.jpg",
+        autor:
+          "La fachada de una casa señorial inglesa del siglo XVIII: dos de sus ventanas son de piedra maciza, cegadas, y están al lado de las de verdad. Basildon Park, Berkshire. Fotografía de Mike Peel, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:At_Basildon_Park_2024_06.jpg",
+        foco: "50% 55%",
+        alt: "Fachada de sillería vista desde abajo, con ventanas acristaladas arriba y, en la planta principal, dos huecos con su moldura pero tapiados en piedra.",
+      },
+      {
+        archivo: "\"The friend of the people\" & his petty-new tax-gatherer paying John Bull a visit - DPLA - 5e6fb84b4b62160604886cf52faa9c27.jpg",
+        autor:
+          "Estampa de James Gillray, 28 de mayo de 1806: el recaudador se planta en la puerta de John Bull, el inglés de a pie, gritándole «¡impuestos!».",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:%22The_friend_of_the_people%22_%26_his_petty-new_tax-gatherer_paying_John_Bull_a_visit_-_DPLA_-_5e6fb84b4b62160604886cf52faa9c27.jpg",
+        foco: "50% 45%",
+        alt: "Caricatura coloreada a mano: dos hombres con sombrero de copa acorralan en su puerta a un hombre grueso, entre bocadillos de texto y papeles.",
+      },
+      {
+        archivo: "A Vision of the Repeal of the Window Tax. Wellcome M0012506.jpg",
+        autor:
+          "Caricatura del año en que se derogó el impuesto: el sol vuelve a entrar en la casa y los niños lo saludan. «Hola, viejo amigo, cuánto nos alegra verte por aquí.» Colección Wellcome, Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_Vision_of_the_Repeal_of_the_Window_Tax._Wellcome_M0012506.jpg",
+        foco: "50% 45%",
+        alt: "Grabado en blanco y negro: un sol con cara sonriente entra por la izquierda y una familia con varios niños lo recibe con los brazos abiertos.",
+      },
+      {
+        archivo: "Light no longer required - geograph.org.uk - 6069320.jpg",
+        autor:
+          "Un hueco de ventana cegado con ladrillo nuevo, con su marco de piedra todavía puesto. Fotografía de Bob Harvey, 2019.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Light_no_longer_required_-_geograph.org.uk_-_6069320.jpg",
+        foco: "50% 42%",
+        alt: "Muro de ladrillo rojo oscuro junto a una acera, con un hueco pequeño enmarcado en piedra y relleno de ladrillo naranja más reciente.",
+      },
+    ],
     entrada:
       "Inglaterra, 1696. La corona necesita dinero y no se atreve a preguntar cuánto gana cada uno, porque husmear en los ingresos de un hombre se considera entonces una intromisión intolerable. Así que grava algo que puede contarse desde la calle sin entrar en ninguna casa: las ventanas. Cada vivienda paga una cantidad fija y, a partir de cierto número de huecos, un suplemento por cada uno. La lógica es impecable sobre el papel: quien tiene más ventanas tiene una casa más grande, y quien tiene una casa más grande tiene más dinero. Lo que la corona no calculó es hasta dónde iba a llegar la gente para no pagarlo.",
     paginas: [
