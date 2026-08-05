@@ -70,12 +70,14 @@ const CONOCIDOS = new Set([
 
 let fallos = 0;
 let flojos = 0;
+let titulosLargos = 0;
 let total = 0;
 const aviso = (id, texto) => { console.log(`  ✗ ${id}: ${texto}`); fallos++; };
 /* Un aviso flojo no tumba el validador: señala trabajo pendiente de las tandas
    viejas, no un error de la tanda que se acaba de escribir. Sale solo si se
    pide con --flojos, para que el recuento de siempre siga limpio. */
-const flojo = (id, texto) => { if (verFlojos) console.log(`  · ${id}: ${texto}`); flojos++; };
+const flojo = (id, texto, cual) => { if (verFlojos) console.log(`  · ${id}: ${texto}`);
+  if (cual === "titulo") titulosLargos++; else flojos++; };
 
 for (const ruta of ficheros) {
   const s = readFileSync(ruta, "utf8");
@@ -85,11 +87,20 @@ for (const ruta of ficheros) {
     total++;
 
     const titulo = /titulo: "((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
-    /* Regla 14: el título golpea, no resume. De tres a seis palabras. Los
-       títulos escritos antes del cambio son largos y van saliendo aquí; esa
-       lista es justamente el trabajo pendiente. */
-    if (palabras(titulo) < 3 || palabras(titulo) > 6)
-      aviso(id, `título de ${palabras(titulo)} palabras (3-6)`);
+    /* Regla 14: el título golpea, no resume. Y regla nueva de Pablo, sin
+       excepción: «todos los títulos deben ocupar una línea, nunca más de
+       una». Lo que decide si cabe no es cuántas palabras tiene sino cuánto
+       mide pintado, así que aquí se cuenta por letras y no por palabras.
+
+       Medido en el navegador con la letra del título: 13,6 puntos por letra.
+       El renglón más estrecho que soportamos es el de un móvil de 320, que da
+       283 puntos, o sea 21 letras. Hasta 24 pasa, porque la app encoge el
+       título lo justo para que entre; de 24 en adelante lo encogería tanto
+       que ya se notaría, y entonces hay que acortarlo a mano. */
+    if (palabras(titulo) < 2 || palabras(titulo) > 6)
+      aviso(id, `título de ${palabras(titulo)} palabras (2-6)`);
+    if (titulo.length > 24)
+      flojo(id, `título de ${titulo.length} letras: no cabe en una línea (21, tope 24)`, "titulo");
 
     const entrada = /entrada:\n\s+"((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
     const ne = palabras(entrada);
@@ -209,5 +220,7 @@ for (const ruta of ficheros) {
   }
 }
 
-console.log(`\n${total} shorts revisados · ${fallos} avisos` + (flojos ? ` · ${flojos} entradas cortas` : ""));
+console.log(`\n${total} shorts revisados · ${fallos} avisos`
+  + (flojos ? ` · ${flojos} entradas cortas` : "")
+  + (titulosLargos ? ` · ${titulosLargos} títulos que no caben en una línea` : ""));
 process.exit(fallos ? 1 : 0);

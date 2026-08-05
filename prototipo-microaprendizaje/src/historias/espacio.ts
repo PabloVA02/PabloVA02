@@ -16,13 +16,13 @@ import type { Short } from "../shorts";
 export const ESPACIO: Short[] = [
   {
     id: "luna-combustible",
-    titulo: "Quedaban veinticinco segundos",
+    titulo: "Bajaban a ciegas",
     gancho: "El ordenador de a bordo se colapsó, el sitio previsto era un pedregal y quedaba gasolina para medio minuto.",
     categoria: "Espacio",
     color: "var(--slate)",
     encargo: "Un módulo lunar posado sobre el polvo gris, con la sombra larga y el negro absoluto detrás.",
     entrada:
-      "Mar de la Tranquilidad, en la Luna, el 20 de julio de 1969. Dos hombres bajan hacia la superficie dentro de una nave del tamaño de un coche pequeño, con paredes de aluminio tan finas que se abollarían con un dedo. No hay manera de haber ensayado esto en la Tierra: la Luna no tiene aire, así que allí no sirven ni las alas ni los paracaídas y hay que frenar solo con el motor. Abajo les espera un terreno que nadie ha visto de cerca: las mejores fotos que existen lo enseñan desde tan lejos que una roca de dos metros no aparece. Y arriba, en la sala de control, la edad media de los ingenieros es de veintiséis años.",
+      "Mar de la Tranquilidad, en la Luna, el 20 de julio de 1969. Dos hombres bajan hacia la superficie dentro de una nave del tamaño de un coche pequeño, con paredes de aluminio tan finas que se abollarían con un dedo. No hay manera de haber ensayado esto en la Tierra: la Luna no tiene aire, así que allí no sirven ni las alas ni los paracaídas y hay que frenar solo con el motor. Abajo les espera un terreno que nadie ha visto de cerca: las mejores fotos que existen lo enseñan desde tan lejos que una roca de dos metros no aparece. Y arriba, en la sala de control, la edad media de los ingenieros que vigilan el descenso es de veintiséis años.",
     paginas: [
       {
         rotulo: "La alarma",

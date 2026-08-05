@@ -54,6 +54,24 @@ no la tiene. No se vuelven a meter.
 - **Un solo tamaño de lectura.** La entrada de la portada y el texto de las
   tres páginas miden lo mismo. No se toca ni para que quepa más.
 
+## El título, en una línea. Siempre
+
+Pablo, sin excepción: «todos los títulos deben ocupar una línea, nunca más de
+una». Contarle las palabras no lo garantiza, porque lo que decide si cabe no
+es cuántas palabras tiene sino cuánto mide pintado, y eso cambia con el móvil
+y con la letra que tenga instalada. Medidos los 757 títulos con la tipografía
+del título: **solo 31 caben en una línea en todas las pantallas**.
+
+Así que va garantizado en dos sitios:
+
+- `white-space: nowrap` en el CSS, para que no parta nunca.
+- `useUnaLinea` en `Shorts.tsx` mide el título ya pintado y, si se sale, lo
+  encoge lo justo para entrar. El suelo está en el 78 %.
+
+El título corto sigue siendo el objetivo —encogido se nota—, y el validador lo
+persigue: avisa por encima de 24 letras. El renglón más estrecho que
+soportamos, el de un móvil de 320, da 283 puntos, o sea **21 letras**.
+
 ## La barra de arriba
 
 Un tramo por **página**, o sea tres, no cuatro. En la portada está entera

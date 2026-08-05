@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const MONASTERIOS: Short[] = [
   {
     id: "las-ocho-horas-del-dia",
-    titulo: "Ocho rezos y un reloj",
+    titulo: "Ocho rezos, un reloj",
     gancho: "Ocho servicios diarios, uno de ellos de madrugada. Alguien tenía que despertarse antes que todos y no fallar.",
     categoria: "Monasterios",
     color: "var(--slate)",

@@ -424,3 +424,21 @@ validador, 100-125, solo caza los que se pasan o se quedan muy cortos.
 Los 756 shorts escritos con la medida vieja —mediana de 62 palabras— llevan
 seis líneas de hueco. Se van alargando por tandas, y
 `node scripts/revisa-shorts.mjs --flojos` los lista.
+
+## 17. El título, en una línea
+
+Regla de Pablo y sin excepción: **el título ocupa una línea, nunca dos.**
+
+No se cuenta por palabras sino por letras, porque lo que decide si cabe es
+cuánto mide pintado. **Veintiuna letras** es lo que entra en el móvil más
+estrecho que soportamos. Hasta veinticuatro pasa: la app encoge el título lo
+justo para que quepa. De ahí en adelante hay que acortarlo a mano, porque
+encogido se nota.
+
+Para medir uno antes de escribirlo: `node cabe.mjs "tu título"` en el
+scratchpad, que lo pinta con la letra de la app y dice si entra.
+
+Y ojo al orden de trabajo: **el título y la entrada del mismo short se hacen a
+la vez**. El título decide si ocupa una línea o dos, y eso cambia cuántas
+palabras caben debajo. Alargar la entrada antes de acortar el título obliga a
+rehacerla entera.

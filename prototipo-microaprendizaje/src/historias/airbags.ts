@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const AIRBAGS: Short[] = [
   {
     id: "explotar-para-salvar",
-    titulo: "El airbag es una explosión controlada",
+    titulo: "Cuatro centésimas",
     gancho: "No se infla con aire comprimido. Quema una pastilla química y llena la bolsa en cuatro centésimas de segundo.",
     categoria: "Tecnología",
     color: "var(--slate)",
     encargo: "Airbag desplegado en el volante de un coche accidentado, ya flácido.",
     entrada:
-      "Estados Unidos y Alemania, con la patente original de 1953 y la instalación de serie desde 1981. Un airbag tiene que estar completamente lleno antes de que la cabeza del conductor llegue al volante, y ese plazo es de unas cuatro centésimas de segundo. Para hacerse una idea, un parpadeo dura ocho veces más. Ningún compresor puede llenar nada en ese tiempo, y llevar el gas ya comprimido en un depósito tampoco vale, porque un depósito a presión dentro del volante es una bomba esperando. La única manera de mover tanto gas tan rápido es provocar una reacción química explosiva.",
+      "Estados Unidos y Alemania, con la patente original de 1953 y la instalación de serie desde 1981. Un airbag tiene que estar completamente lleno antes de que la cabeza del conductor llegue al volante, y ese plazo es de unas cuatro centésimas de segundo. Para hacerse una idea, un parpadeo dura ocho veces más. Ningún compresor puede llenar nada en ese tiempo, y llevar el gas ya comprimido en un depósito tampoco vale, porque un depósito a presión dentro del volante es una bomba esperando. La única manera de mover tanto gas tan rápido es provocar una reacción química explosiva a un palmo de la cara del conductor, y que salga bien todas las veces.",
     paginas: [
       {
         rotulo: "La pastilla",

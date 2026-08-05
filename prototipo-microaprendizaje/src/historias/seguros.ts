@@ -16,13 +16,13 @@ import type { Short } from "../shorts";
 export const SEGUROS: Short[] = [
   {
     id: "la-tabla-de-mortalidad",
-    titulo: "Nadie sabe cuándo, cien mil sí",
+    titulo: "Uno no, cien mil sí",
     gancho: "Nadie sabe cuándo morirá una persona. Con cien mil personas, en cambio, la cifra se predice con bastante precisión.",
     categoria: "Dinero",
     color: "var(--slate)",
     encargo: "Página de una tabla de mortalidad del siglo XVIII, con columnas de edades y cifras.",
     entrada:
-      "Londres, 1762. Se funda la primera compañía que vende seguros de vida calculando el precio según la edad del cliente, cosa que hasta entonces nadie hacía. Antes se cobraba a todos lo mismo y el negocio se hundía siempre por la misma razón. El que se sabía enfermo contrataba y el que se sabía sano no, así que la compañía acababa pagando más de lo que ingresaba. La idea nueva era usar una tabla de mortalidad, que dice cuánta gente de cada edad muere en un año. Con esa tabla delante, el precio deja de ser una apuesta y pasa a ser una cuenta. Es la primera vez que alguien le pone número al futuro de una persona.",
+      "Londres, 1762. Se funda la primera compañía que vende seguros de vida calculando el precio según la edad del cliente, cosa que hasta entonces nadie hacía. Antes se cobraba a todos lo mismo y el negocio se hundía siempre por la misma razón. El que se sabía enfermo contrataba y el que se sabía sano no, así que la compañía acababa pagando más de lo que ingresaba. La idea nueva era usar una tabla de mortalidad, que dice cuánta gente de cada edad muere en un año. Con esa tabla delante, el precio deja de ser una apuesta y pasa a ser una cuenta. Es la primera vez que alguien le pone un número al futuro de una persona y acierta lo bastante como para vivir de ello.",
     paginas: [
       {
         rotulo: "Muchos a la vez",

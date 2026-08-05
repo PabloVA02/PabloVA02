@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactElement } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, type ReactElement } from "react";
 import {
   AnimatePresence,
   animate,
@@ -728,10 +728,48 @@ function PaginaShort({
    La portada de una historia: de qué va y por qué te importa
    -------------------------------------------------------------------------- */
 
+/**
+ * El título en una sola línea, siempre.
+ *
+ * Pablo lo pidió así y no admite excepción: «todos los títulos deben ocupar
+ * una línea, nunca más de una». Contarle las palabras al título no lo
+ * garantiza, porque lo que decide si cabe no es cuántas palabras tiene sino
+ * cuánto miden pintadas, y eso cambia con el móvil: la misma frase entra en
+ * una pantalla de 430 y se parte en una de 320, y entra con la letra de un
+ * iPhone y se parte con la de un Android. Medidos los 757 títulos, solo 31
+ * caben en una línea en todas partes.
+ *
+ * Así que se mide de verdad, ya pintado, y si se sale se encoge lo justo para
+ * entrar. El suelo está en el 78 %: por debajo de ahí el título empezaría a
+ * parecer otra cosa, y antes que eso vale más acortarlo a mano —que es el
+ * trabajo que queda pendiente en el molde—. Con un título corto no se toca
+ * nada y sale a su tamaño.
+ */
+function useUnaLinea(texto: string) {
+  const ref = useRef<HTMLHeadingElement>(null);
+  useLayoutEffect(() => {
+    const e = ref.current;
+    if (!e) return;
+    const ajusta = () => {
+      e.style.setProperty("--encoge", "1");
+      const cabe = e.clientWidth;
+      const mide = e.scrollWidth;
+      if (mide > cabe && cabe > 0)
+        e.style.setProperty("--encoge", String(Math.max(0.78, cabe / mide)));
+    };
+    ajusta();
+    const ro = new ResizeObserver(ajusta);
+    ro.observe(e);
+    return () => ro.disconnect();
+  }, [texto]);
+  return ref;
+}
+
 function Portada({ short }: { short: Short }) {
+  const titulo = useUnaLinea(short.titulo);
   return (
     <>
-      <motion.h2 custom={1} variants={enterVariants} initial="hidden" animate="shown">
+      <motion.h2 ref={titulo} custom={1} variants={enterVariants} initial="hidden" animate="shown">
         {short.titulo}
       </motion.h2>
       <motion.p

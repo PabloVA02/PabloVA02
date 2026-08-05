@@ -18,13 +18,13 @@ import type { Short } from "../shorts";
 export const LIMPIAPARABRISAS: Short[] = [
   {
     id: "bajarse-a-rascar-el-cristal",
-    titulo: "Antes había que bajarse a rascar",
+    titulo: "Bajarse a rascar",
     gancho: "Antes de 1903 el conductor bajaba del coche cada pocos minutos a despejar el cristal. Una visitante de Nueva York patentó la solución.",
     categoria: "Limpiaparabrisas",
     color: "var(--plum)",
     encargo: "Una palanca de laton dentro de un coche antiguo, unida a un brazo por fuera del cristal.",
     entrada:
-      "Nueva York, invierno de 1902. El automóvil lleva quince años vendiéndose y empieza a llevar delante un cristal, el parabrisas, que corta el viento en la cara. Ese cristal trae un problema que no tenía el coche de caballos: en cuanto nieva o llueve se ciega y no se ve la calle. Los conductores prueban de todo. Hay quien lo unta con media cebolla, porque el jugo hace que el agua resbale, y quien conduce asomado por el lateral. La única salida de verdad es parar, bajarse y limpiarlo con la mano cada pocas manzanas. En una nevada de las de aquella ciudad, eso son varias paradas por calle y las manos moradas de frío.",
+      "Nueva York, invierno de 1902. El automóvil lleva quince años vendiéndose y empieza a llevar delante un cristal, el parabrisas, que corta el viento en la cara. Ese cristal trae un problema que no tenía el coche de caballos: en cuanto nieva o llueve se ciega y no se ve la calle. Los conductores prueban de todo. Hay quien lo unta con media cebolla, porque el jugo hace que el agua resbale, y quien conduce asomado por el lateral. La única salida de verdad es parar, bajarse y limpiarlo con la mano cada pocas manzanas. En una nevada de las de aquella ciudad eso son varias paradas por calle, con las manos moradas de frío y el motor al ralentí.",
     paginas: [
       {
         rotulo: "El tranvía",

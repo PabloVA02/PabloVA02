@@ -19,14 +19,14 @@ import type { Short } from "../shorts";
 export const ROPA: Short[] = [
   {
     id: "boton-ojal",
-    titulo: "El botón antes que el ojal",
+    titulo: "El botón, sin ojal",
     gancho: "Durante treinta siglos fue un adorno cosido a la tela. A nadie se le ocurrió abrir un agujero enfrente.",
     categoria: "Ropa",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un puñado de botones antiguos de nácar y hueso sobre un paño oscuro.",
     entrada:
-      "Los botones más antiguos que se conocen aparecieron en el valle del Indo, en el actual Pakistán, hace unos cinco mil años, y estaban tallados en concha. No servían para abrochar nada: eran adorno, se cosían encima de la tela y ahí se quedaban. La ropa de entonces no necesitaba abrocharse porque no se ajustaba al cuerpo: eran piezas que se echaban por encima y se sujetaban con un cinturón o con un alfiler. La idea de hacerle un agujero al tejido para meter el botón por él tardó tres mil años en aparecer. Es tan pequeño que cuesta llamarlo invento, y nadie dio con él en treinta siglos. Cuando llegó, cambió la ropa entera.",
+      "Los botones más antiguos que se conocen aparecieron en el valle del Indo, en el actual Pakistán, hace unos cinco mil años, y estaban tallados en concha. No servían para abrochar nada: eran adorno, se cosían encima de la tela y ahí se quedaban. La ropa de entonces no necesitaba abrocharse porque no se ajustaba al cuerpo: eran piezas que se echaban por encima y se sujetaban con un cinturón o con un alfiler. La idea de hacerle un agujero al tejido para meter el botón por él tardó tres mil años en aparecer. Es tan pequeño que cuesta llamarlo invento, y aun así nadie dio con él en treinta siglos de gente cosiendo ropa. Cuando llegó, cambió la ropa entera.",
     paginas: [
       {
         rotulo: "El ojal",

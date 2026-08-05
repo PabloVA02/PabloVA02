@@ -15,13 +15,13 @@ import type { Short } from "../shorts";
 export const VIRUS_INFORMATICOS: Short[] = [
   {
     id: "el-primer-gusano",
-    titulo: "Un experimento tumbó internet",
+    titulo: "Contó y tumbó la red",
     gancho: "Un estudiante quería medir cuántos ordenadores había conectados. Un error de cálculo colapsó la red entera.",
     categoria: "Tecnología",
     color: "var(--slate)",
     encargo: "Terminal de ordenador de 1988 con líneas de texto verde sobre fondo negro.",
     entrada:
-      "Estados Unidos, noviembre de 1988. Internet es todavía una red de universidades y centros militares con unos sesenta mil ordenadores conectados. No hay contraseñas serias ni programas que vigilen nada, porque a nadie se le ha ocurrido que el ataque pueda venir de dentro. Los administradores se conocen entre ellos y se llaman por teléfono cuando falla algo. Un estudiante de posgrado suelta un programa que se copia solo de máquina en máquina para contar cuántas hay. El programa lleva un error de cálculo en una sola decisión, y en pocas horas deja inservible una décima parte de la red.",
+      "Estados Unidos, noviembre de 1988. Internet es todavía una red de universidades y centros militares con unos sesenta mil ordenadores conectados. No hay contraseñas serias ni programas que vigilen nada, porque a nadie se le ha ocurrido que el ataque pueda venir de dentro. Los administradores se conocen entre ellos y se llaman por teléfono cuando falla algo. Un estudiante de posgrado suelta un programa que se copia solo de máquina en máquina para contar cuántas hay. El programa lleva un error de cálculo en una sola decisión, y en pocas horas deja inservible una décima parte de la red. Nunca había pasado nada parecido.",
     paginas: [
       {
         rotulo: "Copiarse solo",

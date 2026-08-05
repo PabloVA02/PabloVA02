@@ -33,7 +33,7 @@ import cesarAugusto from "../fotos/cesar-4-augusto.jpg";
 export const FIGURAS: Short[] = [
   {
     id: "cesar",
-    titulo: "Las 23 puñaladas de César",
+    titulo: "Las 23 puñaladas",
     gancho: "A Julio César lo apuñalaron veintitrés veces sesenta senadores a la vez. El médico que examinó el cuerpo escribió que solo una fue mortal.",
     categoria: "Figuras",
     color: "var(--clay)",
@@ -98,7 +98,7 @@ export const FIGURAS: Short[] = [
     /* Texto literal de la maqueta que aprobó Pablo. Si algo de aquí no
        coincide con ella, manda ella. */
     entrada:
-      "Roma, año 44 antes de Cristo. Julio César es el hombre más poderoso del mundo conocido: ha conquistado la Galia, la actual Francia, ha ganado una guerra civil contra sus propios compatriotas y gobierna de hecho todo el Mediterráneo. Aquella mañana de marzo entra a una reunión del Senado sin guardaespaldas, porque hace poco despidió a su escolta para demostrar que se fiaba. Sus amigos le insistieron en que la recuperara y él contestó que prefería morir una vez a vivir esperándolo. Dentro le esperan unos sesenta hombres con un puñal escondido bajo la ropa, y casi ninguno es soldado.",
+      "Roma, año 44 antes de Cristo. Julio César es el hombre más poderoso del mundo conocido: ha conquistado la Galia, la actual Francia, ha ganado una guerra civil contra sus propios compatriotas y gobierna de hecho todo el Mediterráneo. Aquella mañana de marzo entra a una reunión del Senado sin guardaespaldas, porque hace poco despidió a su escolta para demostrar que se fiaba. Sus amigos le insistieron en que la recuperara y él contestó que prefería morir una vez a vivir esperándolo. Dentro le esperan unos sesenta hombres con un puñal escondido bajo la ropa, y casi ninguno de ellos es soldado. Son senadores, la gente con la que lleva años gobernando.",
     paginas: [
       {
         rotulo: "El casi rey",

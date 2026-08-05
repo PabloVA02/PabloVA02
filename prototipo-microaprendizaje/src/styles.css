@@ -5888,3 +5888,12 @@ button {
   -webkit-hyphens: auto;
   hyphenate-limit-chars: 6 3 3;
 }
+
+/* El título, en una sola línea siempre. Lo pidió Pablo sin excepción. Aquí va
+   la mitad que se puede escribir en CSS —que no parta y que obedezca a la
+   escala que le calcula useUnaLinea—; la otra mitad es la medida, que hay que
+   hacer con el título ya pintado porque depende de la letra del móvil. */
+.muro-hoja h2 {
+  white-space: nowrap;
+  font-size: calc(4.4cqw * var(--encoge, 1));
+}
