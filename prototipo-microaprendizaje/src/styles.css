@@ -5828,3 +5828,40 @@ button {
   scroll-snap-stop: always;
   background: var(--paper);
 }
+
+/* ==========================================================================
+   QUE QUEPA EN CUALQUIER MOVIL
+
+   Dos cosas que solo se ven midiendo la app en los tamanos de verdad.
+   ========================================================================== */
+
+/* 1. Los moviles grandes se salian del tope. El marco estaba clavado en 430
+      por 932, que era el movil mas grande el dia que se escribio; un iPhone
+      16 Pro Max mide 440 por 956 y un Pixel 9 Pro XL 448 por 998, asi que
+      sobraban hasta nueve puntos a un lado y treinta y tres abajo, y por ese
+      hueco asomaba el fondo. El tope existe para que en un ordenador la app
+      no se estire de lado a lado de un monitor, no para recortar telefonos:
+      ahora solo se aplica cuando la ventana es mas ancha que cualquier
+      telefono. Debajo de eso, la pantalla entera, mida lo que mida. */
+.shell {
+  width: 100vw;
+  height: 100svh;
+  min-height: 0;
+}
+@media (min-width: 520px) {
+  .shell {
+    width: min(100vw, 430px);
+    height: min(100svh, 932px);
+    min-height: 600px;
+  }
+}
+
+/* 2. En los moviles bajos —un iPhone SE mide 667 de alto— la entrada de cien
+      palabras no cabia y se cortaba por abajo. No se toca ni el tamano de
+      lectura ni los margenes, que son de Pablo: lo que cede es la banda de
+      imagen, que baja del 28 % al 18 %. Son setenta puntos de mas para el
+      texto, justo lo que faltaba, y solo pasa en pantallas de menos de 700,
+      que hoy son las pequenas y las viejas. */
+@media (max-height: 700px) {
+  .muro-foto { height: 18%; }
+}
