@@ -19,6 +19,16 @@ algún día vuelve el 403, es que se cerró el acceso a la red del entorno
 (claude.ai/code → el botón con el nombre del entorno → engranaje → **Acceso a
 la red** → Personalizado).
 
+## Buscar solo entre las buenas
+
+`buscar` **solo mira dentro de los sellos de calidad de Commons** —«Quality
+images» y «Featured pictures»—, que son categorías que se reparten a mano
+exigiendo nitidez, luz y composición. La diferencia es enorme: en vez de la
+foto correcta y fea, sale la que además se puede mirar.
+
+Si no sale nada con sello, `todo` busca en todo Commons. Pero entonces hay que
+mirar la imagen con más cuidado todavía.
+
 ## Cómo se busca una
 
 ```

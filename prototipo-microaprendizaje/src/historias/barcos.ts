@@ -38,13 +38,12 @@ export const BARCOS: Short[] = [
         alt: "Un buque de casco azul turquesa cargado hasta arriba de contenedores de colores, amarrado bajo las grúas del puerto y con el mar abierto detrás.",
       },
       {
-        archivo: "Stevedores ny 1912.jpg",
-        autor:
-          "Estibadores cargando barriles en un muelle del Hudson, Nueva York. Fotografía de Lewis Hine, hacia 1912.",
-        licencia: "Dominio público",
-        fuente: "https://commons.wikimedia.org/wiki/File:Stevedores_ny_1912.jpg",
-        foco: "50% 55%",
-        alt: "Fotografía antigua de varios hombres rodando barriles de madera a mano en un muelle, bajo la pluma de una grúa.",
+        archivo: "Container Ship MSC Tianping in Fremantle Harbour, November 2024 01.jpg",
+        autor: "Un portacontenedores atracado bajo las grúas del puerto de Fremantle, en Australia. Fotografía de Calistemon.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Container_Ship_MSC_Tianping_in_Fremantle_Harbour,_November_2024_01.jpg",
+        foco: "50% 50%",
+        alt: "Un buque portacontenedores amarrado, con las grúas de pórtico del muelle inclinadas sobre la cubierta.",
       },
       {
         archivo: "Containerhafen Niehl.jpg",

@@ -52,6 +52,7 @@ function fotos(texto, fichero) {
       const arch = crudo.replace(/\\(["\\])/g, "$1");
       salida.push({ fichero, archivo: arch,
         licencia: /licencia: "([^"]*)"/.exec(b)?.[1] ?? "(ninguna)",
+        bloque: b,
         fuente: /fuente:\s*\n?\s*"([^"]*)"/.exec(b)?.[1] });
     }
   }
@@ -86,7 +87,13 @@ for (const f of todas) {
   if (i.width < 1600) problemas.push(`solo ${i.width} de ancho, se verá blanda (mínimo 1600)`);
   /* Y que tenga píxeles de verdad, no solo anchura: un panorama de 4000 × 400
      no llena una banda. */
-  if (i.width * i.height < 2_000_000) problemas.push(`solo ${(i.width*i.height/1e6).toFixed(1)} megapíxeles`);
+  /* Salvo si es la reproducción de un cuadro: una superficie plana y pintada
+     no tiene grano ni detalle fino que perder, así que aguanta el aumento
+     mucho mejor que una fotografía. Se reconoce por `pdPorEdad`, que solo se
+     pone en obras planas de autor muerto hace más de setenta años. */
+  const cuadro = /pdPorEdad:/.test(f.bloque ?? "");
+  if (!cuadro && i.width * i.height < 2_000_000)
+    problemas.push(`solo ${(i.width*i.height/1e6).toFixed(1)} megapíxeles`);
   /* Las dos formas del mismo nombre: en la URL los espacios son guiones bajos. */
   const igual = (t) => decodeURIComponent(t).replace(/_/g, " ").toLowerCase();
   if (f.fuente && !igual(f.fuente).includes(igual(f.archivo).slice(0, 40)))

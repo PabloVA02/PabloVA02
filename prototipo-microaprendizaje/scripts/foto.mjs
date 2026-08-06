@@ -152,7 +152,8 @@ async function tema(texto) {
 }
 
 const [orden, ...resto] = process.argv.slice(2);
-const acciones = { buscar: () => buscar(resto.join(" ")), ficha: () => ficha(resto[0]),
+const acciones = { buscar: () => buscar(resto.join(" ")),
+                   todo: () => buscar(resto.join(" "), false), ficha: () => ficha(resto[0]),
                    ver: () => ver(resto[0], resto[1]), categoria: () => categoria(resto.join(" ")),
                    categorias: () => categorias(resto.join(" ")),
                    tema: () => tema(resto.join(" ")) };

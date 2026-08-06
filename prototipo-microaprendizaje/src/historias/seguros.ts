@@ -47,13 +47,12 @@ export const SEGUROS: Short[] = [
         alt: "Vista aérea de un recinto junto al mar con una multitud enorme y apretada delante de un escenario.",
       },
       {
-        archivo: "Antique stethoscope.JPG",
-        autor:
-          "Un estetoscopio antiguo, de los de madera y una sola oreja. El reconocimiento médico existe porque la compañía necesita saber lo que el cliente ya sabe. Centro Médico Seton, California. Fotografía de BrokenSphere, 2008.",
-        licencia: "CC BY-SA 3.0",
-        fuente: "https://commons.wikimedia.org/wiki/File:Antique_stethoscope.JPG",
-        foco: "50% 50%",
-        alt: "Un estetoscopio antiguo de madera torneada, con un tubo metálico flexible, expuesto en una vitrina.",
+        archivo: "Female doctor listens to the patient using a stethoscope closeup.jpg",
+        autor: "Un reconocimiento médico con estetoscopio. Fotografía de Shixart1985.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Female_doctor_listens_to_the_patient_using_a_stethoscope_closeup.jpg",
+        foco: "50% 45%",
+        alt: "Primer plano de una doctora auscultando a un paciente con el estetoscopio apoyado en el pecho.",
       },
       {
         archivo: "Mechanical-calculator-Brunsviga-15-01a.jpg",

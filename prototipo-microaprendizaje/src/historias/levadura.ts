@@ -24,13 +24,12 @@ export const LEVADURA: Short[] = [
        retiene el gas, el horno y la miga. */
     fotos: [
       {
-        archivo: "Sourdough bread cut with lame, after baking.jpg",
-        autor:
-          "Hogaza de masa madre recién sacada del horno, con los cortes de la cuchilla abiertos por el último empujón del gas. Fotografía de Joy, 2018.",
-        licencia: "CC BY 2.0",
-        fuente: "https://commons.wikimedia.org/wiki/File:Sourdough_bread_cut_with_lame,_after_baking.jpg",
+        archivo: "Home made sour dough bread.jpg",
+        autor: "Panes de masa madre recién sacados del horno. Fotografía de Tomás Castelazo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Home_made_sour_dough_bread.jpg",
         foco: "50% 50%",
-        alt: "Un pan redondo y dorado visto desde arriba, con la corteza cubierta de cortes en forma de hojas que se han abierto al cocerse.",
+        alt: "Siete panes redondos de corteza dorada y enharinada, apoyados unos en otros sobre un paño de rayas.",
       },
       {
         archivo: "Gluten strands in bread dough.jpg",
