@@ -115,8 +115,31 @@ qué clase de objeto es, de qué año y de dónde salió:
 > Denario de plata acuñado en Roma el año 44 a. C. La leyenda dice CAESAR DICT
 > PERPETVO: César, dictador perpetuo.
 
-**3. Mil doscientos de ancho como mínimo.** La banda ocupa el ancho entero de
-la pantalla a doble densidad. Por debajo de eso se ve blanda.
+**3. Mil seiscientos de ancho y dos megapíxeles como mínimo.** La banda ocupa
+el ancho entero de la pantalla, y los móviles de hoy pintan a tres veces la
+densidad: 430 × 3 son 1290 puntos solo de ancho, y eso sin contar que `foco`
+recorta. Con 1200 justos ya se ve blanda.
+
+**4. Y sobre todo: que sea bonita y que se entienda de un vistazo.** Es la
+regla que manda sobre las demás, y es de Pablo: «que sean bonitas, porque hay
+imágenes que no se aprecia bien qué son».
+
+La banda mide 28 % del alto de un móvil. Ahí no cabe un documento, ni una
+tabla, ni un plano lleno de letra pequeña, ni una escena con quince cosas: se
+ve una franja borrosa y el lector no sabe qué está mirando. Lo que funciona es
+**una cosa grande, bien iluminada y con color**.
+
+Se descarta, aunque el tema encaje:
+
+- documentos, tablas, boletines y páginas de libro;
+- diagramas y planos con rótulos que no se pueden leer a ese tamaño;
+- blanco y negro apagado, sin contraste, donde no se distingue la forma;
+- fotos con quince elementos y ninguno protagonista;
+- cualquier cosa con marca de agua.
+
+Mejor una foto preciosa que se entiende y que solo roza el tema, que una
+exacta que parece una mancha. Si al mirar la franja de arriba hay que pensar
+qué es, no vale.
 
 ## Qué imagen va en cada pantalla
 

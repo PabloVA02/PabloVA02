@@ -79,7 +79,14 @@ for (const f of todas) {
   const real = limpia(i.extmetadata?.LicenseShortName?.value) || "(sin licencia en la ficha)";
   const problemas = [];
   if (!misma(real, f.licencia)) problemas.push(`el código dice «${f.licencia}» y Commons dice «${real}»`);
-  if (i.width < 1200) problemas.push(`solo ${i.width} de ancho, se verá blanda`);
+  /* El listón sube. La banda ocupa el ancho entero de la pantalla y los
+     móviles de hoy pintan a tres veces la densidad: 430 × 3 son 1290 puntos
+     solo de ancho, y eso sin contar que `foco` recorta. Con 1200 justos la
+     imagen ya va al límite y se ve blanda. 1600 es el mínimo con margen. */
+  if (i.width < 1600) problemas.push(`solo ${i.width} de ancho, se verá blanda (mínimo 1600)`);
+  /* Y que tenga píxeles de verdad, no solo anchura: un panorama de 4000 × 400
+     no llena una banda. */
+  if (i.width * i.height < 2_000_000) problemas.push(`solo ${(i.width*i.height/1e6).toFixed(1)} megapíxeles`);
   /* Las dos formas del mismo nombre: en la URL los espacios son guiones bajos. */
   const igual = (t) => decodeURIComponent(t).replace(/_/g, " ").toLowerCase();
   if (f.fuente && !igual(f.fuente).includes(igual(f.archivo).slice(0, 40)))
