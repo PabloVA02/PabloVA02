@@ -24,6 +24,48 @@ export const EPIDEMIAS: Short[] = [
     categoria: "Epidemias",
     color: "var(--slate)",
     encargo: "Una bomba de agua de hierro fundido en una calle empedrada, sin gente alrededor.",
+    /* El mapa entero en la portada, el detalle del foco en la página del
+       mapa, la calle de hoy donde estaba la bomba, y el bicho que Snow nunca
+       llegó a ver. */
+    fotos: [
+      {
+        archivo: "Snow-cholera-map-1.jpg",
+        autor:
+          "El mapa que dibujó John Snow en 1854: cada rayita negra es un muerto y los círculos marcan las bombas de agua del barrio.",
+        licencia: "Dominio público",
+        pdPorEdad: 1858,
+        fuente: "https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg",
+        foco: "52% 48%",
+        alt: "Un plano del Soho londinense trazado a mano, con montones de rayitas negras amontonadas alrededor de un punto.",
+      },
+      {
+        archivo: "Map showing deaths from Cholera in Broad Street... Wellcome L0063431.jpg",
+        autor:
+          "Detalle del mismo mapa alrededor de la bomba de Broad Street, donde las rayitas se apelotonan. Colección Wellcome, Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Map_showing_deaths_from_Cholera_in_Broad_Street..._Wellcome_L0063431.jpg",
+        foco: "50% 45%",
+        alt: "Detalle del mapa del cólera, con las marcas de las muertes concentradas en unas pocas manzanas.",
+      },
+      {
+        archivo: "John Snow, Soho, W1 (3696013128).jpg",
+        autor:
+          "La esquina del Soho donde estaba la bomba de Broad Street. El pub de la planta baja lleva el nombre de Snow. Fotografía de Ewan Munro.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:John_Snow,_Soho,_W1_(3696013128).jpg",
+        foco: "50% 55%",
+        alt: "Un edificio de ladrillo en una esquina de Londres con un pub en los bajos y el rótulo John Snow.",
+      },
+      {
+        archivo: "Vibrio cholerae growth on TCBS agar of Rice water stool culture of Cholera patient.jpg",
+        autor:
+          "Cultivo de la bacteria del cólera, la que Snow nunca llegó a ver: murió cinco años antes de que se identificara. Fotografía de Ajay Kumar Chaurasiya.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vibrio_cholerae_growth_on_TCBS_agar_of_Rice_water_stool_culture_of_Cholera_patient.jpg",
+        foco: "50% 50%",
+        alt: "Una placa de laboratorio con el medio de cultivo verde y colonias amarillas de bacterias.",
+      },
+    ],
     entrada:
       "Londres, agosto de 1854. En un barrio del centro mueren quinientas personas en diez días por un brote de cólera, una enfermedad que en aquel momento nadie sabe cómo se contagia. La explicación oficial es que la causa está en el aire viciado que sale de la basura y las cloacas. Un médico del barrio, de cuarenta y un años, no se lo cree. Piensa que la enfermedad entra por la boca y no por la nariz, y que si tiene razón los muertos no estarán repartidos sino agrupados alrededor de algo que la gente bebe. Así que sale a comprobarlo a pie, preguntando en cada portal quién ha muerto y de dónde sacaba el agua. Lo que hizo con esas respuestas no fue un descubrimiento de laboratorio: fue un dibujo.",
     paginas: [
