@@ -1,6 +1,5 @@
 import type { Short } from "../shorts";
 import cesarFoto from "../fotos/cesar-camuccini.jpg";
-import cesarGerome from "../fotos/cesar-3-gerome.jpg";
 
 /* ==========================================================================
    Figuras.
@@ -66,6 +65,11 @@ export const FIGURAS: Short[] = [
       /* El hueco 0 es LA PORTADA: es la misma imagen de `foto`, repetida aquí
          para que el orden de la lista sea el orden de las pantallas. */
       {
+        /* Empotrada, como la de la lista y por lo mismo: la portada del
+           primer short es lo primero que ve alguien que abre la app, y no
+           puede depender de que una petición a otro dominio llegue a tiempo.
+           Es un recorte del cuadro de Camuccini, de 1806, así que la licencia
+           la justifica su edad igual que si viniera de Commons. */
         local: cesarFoto,
         autor: "Óleo de Vincenzo Camuccini, 1806. Museo di Capodimonte, Nápoles.",
         licencia: "Dominio público",
@@ -88,10 +92,11 @@ export const FIGURAS: Short[] = [
         alt: "Las dos caras de un denario romano: el retrato de César de perfil y, al otro lado, un hacha, un caduceo y dos manos entrelazadas.",
       },
       {
-        local: cesarGerome,
+        archivo: "Jean-Léon Gérôme - The Death of Caesar - Walters 37884.jpg",
         autor: "Óleo de Jean-Léon Gérôme, 1867. Walters Art Museum, Baltimore.",
         licencia: "Dominio público",
         pdPorEdad: 1904,
+        fuente: "https://commons.wikimedia.org/wiki/File:Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_The_Death_of_Caesar_-_Walters_37884.jpg",
         foco: "50% 62%",
         alt: "La muerte de César: el cuerpo en el suelo y los conspiradores saliendo con los puñales en alto.",
       },
