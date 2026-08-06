@@ -20,6 +20,47 @@ export const SILLAS: Short[] = [
     categoria: "Sillas",
     color: "var(--ochre)",
     encargo: "Una silla de madera oscura con respaldo alto en una sala vacía.",
+    /* De arriba abajo del short: el asiento como cargo, la silla del que
+       manda, la que lo tiró todo abajo y el resultado. */
+    fotos: [
+      {
+        archivo: "Cluny - Mero - Trône de Dagobert.jpg",
+        autor:
+          "El llamado trono de Dagoberto, en bronce dorado. Museo de Cluny, París. Fotografía de Cangadoba.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cluny_-_Mero_-_Tr%C3%B4ne_de_Dagobert.jpg",
+        foco: "50% 40%",
+        alt: "Un sillón plegable de bronce dorado con las patas talladas en forma de leones y respaldo calado.",
+      },
+      {
+        archivo: "Silla episcopal del coro de la Catedral de Coria (Cáceres).jpg",
+        autor:
+          "Silla episcopal del coro de la catedral de Coria, más alta que las de al lado y bajo dosel. Fotografía de José Luis Filpo Cabana.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Silla_episcopal_del_coro_de_la_Catedral_de_Coria_(C%C3%A1ceres).jpg",
+        foco: "50% 45%",
+        alt: "Silla de coro tallada en madera oscura, con respaldo altísimo rematado en un dosel.",
+      },
+      {
+        archivo:
+          "Chair No. 14, Thonet, design 1859, manufactured c. 1920, bentwood beech, walnut stain, woven cane seat - Germanisches Nationalmuseum - Nuremberg, Germany - DSC03037.jpg",
+        autor:
+          "La silla número 14 de Thonet, diseñada en 1859: seis piezas de haya curvada al vapor, dos tuercas y diez tornillos. Fotografía de Daderot.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chair_No._14,_Thonet,_design_1859,_manufactured_c._1920,_bentwood_beech,_walnut_stain,_woven_cane_seat_-_Germanisches_Nationalmuseum_-_Nuremberg,_Germany_-_DSC03037.jpg",
+        foco: "50% 45%",
+        alt: "Una silla de madera curvada con asiento de rejilla, la clásica de los cafés vieneses.",
+      },
+      {
+        archivo: "Thonet MAK Vienna 2020 05.jpg",
+        autor:
+          "Sala del Museo de Artes Aplicadas de Viena dedicada a la silla de serie. Fotografía de Gryffindor.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Thonet_MAK_Vienna_2020_05.jpg",
+        foco: "50% 55%",
+        alt: "Una sala de museo con decenas de sillas distintas repartidas por el suelo y sobre tarimas.",
+      },
+    ],
     entrada:
       "Europa, siglos XII a XVI. En una casa acomodada de esa época hay arcones, bancos corridos y taburetes, pero apenas una o dos sillas con respaldo y brazos. Sentarse en una de ellas no es una cuestión de comodidad, sino de rango. El sitio de cada persona en la sala está perfectamente definido por lo que tiene debajo: la silla para quien preside, el banco para los demás y el suelo para el resto. De ahí salen unas cuantas palabras que todavía usamos sin saber de dónde vienen, empezando por la que designa a quien manda en una reunión. Y de ahí sale también la costumbre, que duró siglos, de que en una casa hubiera una sola silla de verdad y todo el mundo supiera de quién era.",
     paginas: [
