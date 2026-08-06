@@ -24,6 +24,41 @@ export const TRENES: Short[] = [
     categoria: "Trenes",
     color: "var(--ochre)",
     encargo: "Dos raíles de acero perdiéndose en la distancia sobre balasto gris.",
+    fotos: [
+      {
+        archivo: "RENFE 334 020 Calasparra.jpg",
+        autor: "Un tren de Renfe cruzando el paisaje de Calasparra, en Murcia. Fotografía de David Gubler.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:RENFE_334_020_Calasparra.jpg",
+        foco: "50% 55%",
+        alt: "Un tren blanco y morado saliendo de una curva entre cerros pelados, con la luz baja de la tarde.",
+      },
+      {
+        archivo: "Negativo de vidrio al colodión, de J. Laurent y Cª, en diciembre de 1874, puente de Vilches nº 39, Jaén, Fototeca del IPCE, España.jpg",
+        autor:
+          "El puente de Vilches, en Jaén, fotografiado por J. Laurent en diciembre de 1874. Fototeca del Instituto del Patrimonio Cultural de España.",
+        licencia: "Dominio público",
+        pdPorEdad: 1886,
+        foco: "50% 50%",
+        alt: "Un puente de hierro sobre un valle, en una fotografía antigua de placa de vidrio.",
+      },
+      {
+        archivo: "Spacing of rails in South Australian Railways triple gauge track (L-R 1067, 1435 and 1600 mm).jpg",
+        autor: "Tres anchos de vía compartiendo traviesa, en Australia del Sur. Fotografía de SCHolar44.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Spacing_of_rails_in_South_Australian_Railways_triple_gauge_track_(L-R_1067,_1435_and_1600_mm).jpg",
+        foco: "50% 50%",
+        alt: "Cuatro carriles clavados a la misma traviesa de madera, separados a distintas distancias.",
+      },
+      {
+        archivo: "J29 559 Talgo 6, Maschinenendwagen.jpg",
+        autor: "Un Talgo, el tren que se inventó en España para poder cambiar de ancho sin parar. Fotografía de Falk2.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:J29_559_Talgo_6,_Maschinenendwagen.jpg",
+        foco: "50% 50%",
+        alt: "El coche extremo de un Talgo en una estación, bajo y alargado, con la librea blanca y roja.",
+      },
+    ],
     entrada:
       "Madrid, 1844. España va a construir su primer ferrocarril y una comisión de ingenieros tiene que decidir la distancia entre los dos raíles, una medida que después no se puede cambiar sin rehacer la red entera. En Europa se está imponiendo un ancho de metro y medio escaso. La comisión española recomienda seis pies castellanos, casi veinte centímetros más. La consecuencia de esa decisión duró siglo y medio: hasta hace nada, todo el que cruzaba la frontera en tren tenía que bajarse y cambiar de vagón, y toda la mercancía había que descargarla y volverla a cargar. La razón de aquella elección se repite siempre y casi siempre está mal contada.",
     paginas: [

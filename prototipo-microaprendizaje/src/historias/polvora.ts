@@ -23,6 +23,40 @@ export const POLVORA: Short[] = [
     categoria: "Pólvora",
     color: "var(--clay)",
     encargo: "Un cuenco de cerámica con polvo negro y unos rollos de papel escritos al lado.",
+    fotos: [
+      {
+        archivo: "Fireworks, Changsha, Hunan, China, 30 June 2021B.jpg",
+        autor: "Fuegos artificiales en Changsha, en la provincia china de Hunan. Fotografía de Huangdan2060.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fireworks,_Changsha,_Hunan,_China,_30_June_2021B.jpg",
+        foco: "50% 45%",
+        alt: "Un ramo de fuegos artificiales dorados y rojos abriéndose en un cielo negro.",
+      },
+      {
+        archivo: "IFC Countdown Spectacular 2009.jpg",
+        autor: "Fuegos artificiales sobre los rascacielos de Hong Kong. Fotografía de ncburton.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:IFC_Countdown_Spectacular_2009.jpg",
+        foco: "50% 45%",
+        alt: "Surtidores de fuegos artificiales saliendo de las azoteas de varios rascacielos frente al mar.",
+      },
+      {
+        archivo: "Karaman Museum 2072.jpg",
+        autor: "Cañón de bronce del siglo XV, con el tubo reventado por un costado. Museo de Karaman, Turquía. Fotografía de Dosseman.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Karaman_Museum_2072.jpg",
+        foco: "50% 45%",
+        alt: "Un cañón corto de bronce con anillos de refuerzo, apoyado en dos cuñas de madera sobre una vitrina.",
+      },
+      {
+        archivo: "Post-medieval stone shot (FindID 974247).jpg",
+        autor: "Balas de piedra talladas para cañón, de los primeros tiempos de la artillería.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Post-medieval_stone_shot_(FindID_974247).jpg",
+        foco: "50% 50%",
+        alt: "Varias bolas de piedra gris talladas a mano, alineadas sobre fondo neutro.",
+      },
+    ],
     entrada:
       "China, siglo IX. Los alquimistas de la corte llevan siglos buscando un elixir que alargue la vida, mezclando minerales y sustancias con la esperanza de dar con la fórmula definitiva. Un texto de la época advierte por escrito a los colegas de una combinación concreta que no deben probar. La razón que da es muy práctica: a varios les ha quemado la barba, las manos y la casa entera. Ese aviso, escrito para que nadie repitiera el experimento, es la primera receta de pólvora que se conserva. La sustancia que iba a cambiar la guerra durante mil años apareció así: como un accidente que alguien se molestó en documentar para que no volviera a ocurrir.",
     paginas: [
