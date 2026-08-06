@@ -24,6 +24,42 @@ export const FAROS: Short[] = [
     categoria: "Faros",
     color: "var(--slate)",
     encargo: "Una roca negra batida por el mar con los restos de unos hierros clavados.",
+    /* De arriba abajo del short: el faro en el mar, la torre de madera que
+       hubo allí, la tormenta y la torre que aguantó ciento veintitrés años. */
+    fotos: [
+      {
+        archivo: "Anton Melbye, Eddystone fyrtårn, 1846, KMS851, Statens Museum for Kunst.jpg",
+        autor: "El faro de Eddystone con mar gruesa. Óleo de Anton Melbye, 1846. Statens Museum for Kunst, Copenhague.",
+        licencia: "Dominio público",
+        pdPorEdad: 1875,
+        foco: "45% 66%",
+        alt: "Pintura de una torre blanca y esbelta en mitad del mar, con las olas rompiendo contra su base bajo un cielo cargado.",
+      },
+      {
+        archivo: "Eddystone Lighthouse RMG BHC1796.tiff",
+        autor: "El faro de madera que Rudyerd levantó en Eddystone en 1708, el que sustituyó al que se llevó la tormenta. Pintura de Isaac Sailmaker, hacia 1708.",
+        licencia: "Dominio público",
+        pdPorEdad: 1721,
+        foco: "50% 62%",
+        alt: "Pintura antigua de una torre cónica clara sobre un arrecife, rodeada de veleros con las banderas desplegadas.",
+      },
+      {
+        archivo: "Tempête de mer avec épaves de navires.JPG",
+        autor: "Tempestad con restos de naufragio. Óleo de Joseph Vernet, 1770.",
+        licencia: "Dominio público",
+        pdPorEdad: 1789,
+        foco: "45% 55%",
+        alt: "Pintura de un barco desarbolado empujado contra unas rocas, con gente sacando cosas del agua entre la espuma.",
+      },
+      {
+        archivo: "Smeatons tower - Plymouth Hoe.jpg",
+        autor: "La torre de Smeaton, el tercer faro de Eddystone, desmontada piedra a piedra y rearmada en el Hoe de Plymouth. Fotografía de Herbythyme, 2010.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Smeatons_tower_-_Plymouth_Hoe.jpg",
+        foco: "35% 55%",
+        alt: "Un faro de franjas rojas y blancas sobre el césped de un paseo marítimo, con el mar y la costa al fondo.",
+      },
+    ],
     entrada:
       "Canal de la Mancha, 1698. Frente a la costa suroeste de Inglaterra hay un arrecife que asoma poco más de un metro con la marea baja y que lleva siglos tragándose barcos. Un excéntrico inglés se ofrece a levantar allí el primer faro construido en mar abierto. Nadie lo había intentado nunca, y no por falta de ganas. Solo se puede trabajar unas horas al día, con marea baja y buen tiempo, y lo que se deje sin sujetar se lo lleva la marea siguiente. La obra se hace desde una barca, subiendo cada piedra a mano, y hay veranos en que el mar no deja acercarse. El hombre que la dirige jura que aguantará cualquier cosa, y lo dice tan alto que acaba costándole la vida.",
     paginas: [

@@ -23,6 +23,42 @@ export const SUBMARINOS: Short[] = [
     categoria: "Submarinos",
     color: "var(--slate)",
     encargo: "Un casco de madera con forma de pez y ojos de buey de cristal, en un puerto.",
+    /* De arriba abajo del short: el primer Ictíneo entero, sus ojos de buey,
+       y el segundo, que es el del motor químico. */
+    fotos: [
+      {
+        archivo: "J23 527 U-Boot Ictíneo.jpg",
+        autor: "Réplica del Ictíneo I de Narcís Monturiol, botado en 1859, ante el Museu Marítim de Barcelona. Fotografía de Falk2, 2015.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:J23_527_U-Boot_Ict%C3%ADneo.jpg",
+        foco: "50% 50%",
+        alt: "Un casco de madera clara con forma de pez, apoyado en soportes, con ojos de buey redondos repartidos por el costado.",
+      },
+      {
+        archivo: "Museu Maritim (23846721075).jpg",
+        autor: "El Ictíneo I visto de frente: dos cascos, uno interior esférico para la presión y otro exterior con la forma. Museu Marítim de Barcelona. Fotografía de z0rc, 2015.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Museu_Maritim_(23846721075).jpg",
+        foco: "50% 50%",
+        alt: "La proa redondeada de un submarino de duelas de madera, con los ojos de buey de cristal y las juntas remachadas a la vista.",
+      },
+      {
+        archivo: "2009-365-291 We All Live in a Wooden Submarine (4027741542).jpg",
+        autor: "Réplica del Ictíneo II, el segundo modelo, el del motor que fabricaba su propio aire. Puerto de Barcelona. Fotografía de cogdogblog, 2009.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2009-365-291_We_All_Live_in_a_Wooden_Submarine_(4027741542).jpg",
+        foco: "50% 55%",
+        alt: "La proa de un submarino de madera vista desde abajo, alzada sobre unos soportes contra el cielo.",
+      },
+      {
+        archivo: "A historic submarine in Barcelona port (5078945393).jpg",
+        autor: "El Ictíneo II entero, siete metros de casco de madera de olivo. Puerto de Barcelona. Fotografía de Alexey Klyukin, 2010.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_historic_submarine_in_Barcelona_port_(5078945393).jpg",
+        foco: "50% 50%",
+        alt: "Un submarino de madera oscura y barnizada, con forma de huso, expuesto sobre el césped junto al mar.",
+      },
+    ],
     entrada:
       "Barcelona, 1859. Un impresor y activista político que ha visto morir a unos pescadores de coral bajando a pulmón decide construir un aparato para trabajar bajo el agua sin tener que salir a respirar. Bota un casco de madera de olivo con forma de pez, forrado de cobre y de siete metros de largo. Lo llama el pez de madera. Con él va a hacer sesenta inmersiones y va a resolver, cuarenta años antes que nadie, el problema que hundía a todos los demás submarinos de su siglo. También va a morir sin un duro, con la nave desguazada por sus acreedores.",
     paginas: [

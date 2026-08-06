@@ -23,6 +23,42 @@ export const CARBON: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una jaula metálica pequeña con puerta de cristal y un grifo de latón en un costado.",
+    /* De arriba abajo del short: el pájaro, el hombre al que avisa, la jaula
+       con su botella de oxígeno y la mina de hoy. */
+    fotos: [
+      {
+        archivo: "Canari en cage, janvier 2022, DSC 1791.jpg",
+        autor: "Un canario doméstico en su jaula. Fotografía de Habib M'henni, 2022.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Canari_en_cage,_janvier_2022,_DSC_1791.jpg",
+        foco: "45% 45%",
+        alt: "Un canario amarillo anaranjado posado en el barrote de una jaula, de perfil y muy cerca.",
+      },
+      {
+        archivo: "Coal Miner 1958.JPG",
+        autor: "Minero de carbón de Bachra, India. Fotografía de Biswarup Ganguly, 2009.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Coal_Miner_1958.JPG",
+        foco: "55% 45%",
+        alt: "Retrato de un minero con casco blanco y pañuelo al cuello, con montones de carbón desenfocados detrás.",
+      },
+      {
+        archivo: "Canary resuscitator apedale.JPG",
+        autor: "Una jaula reanimadora de canarios, con la portezuela de cristal y la botella de oxígeno encima. Apedale Heritage Centre. Fotografía de Geni, 2025.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Canary_resuscitator_apedale.JPG",
+        foco: "50% 40%",
+        alt: "Una caja metálica con una puerta redonda de cristal y rejilla, y una pequeña botella de gas montada encima.",
+      },
+      {
+        archivo: "Coal miners working at Baikaimskaya mine 2.jpg",
+        autor: "Galería de la mina de Baikaimskaya, en Kuzbass, con los mineros trabajando al fondo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Coal_miners_working_at_Baikaimskaya_mine_2.jpg",
+        foco: "45% 50%",
+        alt: "Una galería de mina que se pierde en la oscuridad, con una cinta transportadora, focos encendidos y siluetas de mineros a lo lejos.",
+      },
+    ],
     entrada:
       "Reino Unido, 1911. Un fisiólogo que lleva años estudiando por qué mueren los mineros después de las explosiones publica una recomendación práctica: bajar a la mina con un pájaro pequeño en una jaula. No es una superstición de oficio ni una costumbre antigua, sino una propuesta científica basada en cómo respiran los animales pequeños. El pájaro no va a la mina como amuleto ni como sacrificio: va como instrumento de medida. Y su jaula, que es lo que casi nadie sabe, lleva incorporado un sistema para devolverlo a la vida en cuanto ha dado el aviso: una botellita de oxígeno y una portezuela que se cierra.",
     paginas: [

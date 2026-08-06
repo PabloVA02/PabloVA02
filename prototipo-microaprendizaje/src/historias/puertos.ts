@@ -21,6 +21,42 @@ export const PUERTOS: Short[] = [
     categoria: "Puertos",
     color: "var(--slate)",
     encargo: "Un muelle de piedra con un barco apoyado en el fango durante la marea baja.",
+    /* De arriba abajo del short: el puerto en seco, la dársena cerrada, los
+       kilómetros de muelle que salieron de ahí y el problema de hoy. */
+    fotos: [
+      {
+        archivo: "Georges Pierre Seurat - Port-en-Bessin, The Outer Harbor (Low Tide) - 4-1934 - Saint Louis Art Museum.jpg",
+        autor: "Port-en-Bessin, el antepuerto con marea baja. Óleo de Georges Seurat, 1888. Saint Louis Art Museum.",
+        licencia: "Dominio público",
+        pdPorEdad: 1891,
+        foco: "50% 60%",
+        alt: "Pintura puntillista de un puerto vacío de agua, con el fondo del canal al descubierto entre dos muelles y el pueblo al fondo.",
+      },
+      {
+        archivo: "Albert Dock - geograph.org.uk - 6220207.jpg",
+        autor: "El Albert Dock de Liverpool, una dársena cerrada donde el nivel del agua no depende de la marea. Fotografía de Chris Heaton, 2019.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Albert_Dock_-_geograph.org.uk_-_6220207.jpg",
+        foco: "50% 45%",
+        alt: "Una lámina de agua quieta rodeada por cuatro lados de almacenes de ladrillo rojo con columnas en la planta baja.",
+      },
+      {
+        archivo: "Albert Dock & Pumphouse from Strand Street.jpg",
+        autor: "Los muelles de Liverpool desde Strand Street, con la casa de bombas que movía las compuertas. Fotografía de Rodhullandemu, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Albert_Dock_%26_Pumphouse_from_Strand_Street.jpg",
+        foco: "50% 55%",
+        alt: "Vista de una dársena con barcos amarrados, una chimenea de ladrillo en el centro y almacenes alineados al fondo.",
+      },
+      {
+        archivo: "Hapag-Lloyd Container Ship Tokyo Express in Colon Panama 2016 6070.jpg",
+        autor: "Un portacontenedores en la terminal de Colón, a la entrada del canal de Panamá. Fotografía de Paul Harrison, 2015.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hapag-Lloyd_Container_Ship_Tokyo_Express_in_Colon_Panama_2016_6070.jpg",
+        foco: "50% 60%",
+        alt: "Un buque de carga negro bajo una hilera de grúas azules, con el agua en primer término y montes al fondo.",
+      },
+    ],
     entrada:
       "Liverpool, 1715. En muchos puertos del norte de Europa la diferencia entre marea alta y baja supera los seis metros. Cada doce horas el agua se retira y deja los barcos apoyados sobre el fondo. Un barco cargado que se sienta en el fango sufre esfuerzos que puede no aguantar. Y descargarlo se convierte en un trabajo imposible de planificar, porque la altura del muelle respecto a la cubierta cambia cada hora. Con seis metros de diferencia, media jornada el barco está arriba del muelle y la otra media, abajo del todo. La solución que se inventa en Liverpool consiste en encerrar el agua para que deje de subir y bajar.",
     paginas: [
