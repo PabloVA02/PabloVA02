@@ -151,6 +151,12 @@ Mejor una foto preciosa que se entiende y que solo roza el tema, que una
 exacta que parece una mancha. Si al mirar la franja de arriba hay que pensar
 qué es, no vale.
 
+**Y la de la portada es la más bonita de las cuatro.** No la más exacta: la
+más bonita. Es la que decide si alguien entra en el short o pasa de largo, así
+que de las candidatas que se hayan bajado, la mejor va delante y las otras se
+reparten por las páginas. Si solo hay una imagen buena de un tema, va en la
+portada.
+
 ## Qué imagen va en cada pantalla
 
 Cuatro imágenes **distintas entre sí**, una por pantalla, y cada una habla de
