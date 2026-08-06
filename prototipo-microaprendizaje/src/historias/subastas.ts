@@ -21,6 +21,44 @@ export const SUBASTAS: Short[] = [
     categoria: "Subastas",
     color: "var(--clay)",
     encargo: "Una muralla de piedra vista desde abajo, con la luz dura del mediodía.",
+    fotos: [
+      {
+        archivo: "Relief of Soldiers of the Praetorian Guard 01 (51220287737).jpg",
+        autor:
+          "Relieve de soldados de la guardia pretoriana, siglo II. Museo del Louvre. Fotografía de Jamie Heath.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Relief_of_Soldiers_of_the_Praetorian_Guard_01_(51220287737).jpg",
+        foco: "50% 40%",
+        alt: "Relieve de mármol con cinco soldados romanos de perfil, con cascos de penacho y escudos ovalados.",
+      },
+      {
+        archivo: "Coin Hoard (FindID 514220).jpg",
+        autor:
+          "Un tesorillo de monedas romanas de plata y bronce, tal como se encontró. Museo Británico.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Coin_Hoard_(FindID_514220).jpg",
+        foco: "50% 50%",
+        alt: "Quince monedas romanas ordenadas en filas sobre fondo blanco, la mayoría de bronce con la pátina verde.",
+      },
+      {
+        archivo: "Relief of Soldiers of the Praetorian Guard 04 (51220287572).jpg",
+        autor:
+          "Detalle del mismo relieve: las caras de los pretorianos, una a una. Fotografía de Jamie Heath.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Relief_of_Soldiers_of_the_Praetorian_Guard_04_(51220287572).jpg",
+        foco: "50% 40%",
+        alt: "Primer plano del relieve: cuatro rostros de soldados romanos bajo cascos con penacho labrado.",
+      },
+      {
+        archivo: "Ruins on Palatine Hill, Rome, Italy.jpg",
+        autor:
+          "Las ruinas del palacio imperial en el monte Palatino, en Roma. Fotografía de Christoph Strässler.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ruins_on_Palatine_Hill,_Rome,_Italy.jpg",
+        foco: "50% 45%",
+        alt: "Restos de muros de ladrillo entre pinos, con la hierba creciendo sobre los cimientos.",
+      },
+    ],
     entrada:
       "Roma, marzo del año 193. La guardia imperial, un cuerpo de élite de miles de hombres acuartelado en la ciudad, acaba de asesinar al emperador porque no les ha pagado lo prometido. En lugar de proclamar a otro, sus oficiales hacen algo sin precedentes: anuncian desde la muralla del campamento que el imperio se entrega a quien ofrezca más dinero a la tropa. No es una metáfora ni una exageración de los cronistas: hubo dos pujadores, se gritaron cifras desde abajo y desde arriba, y el cargo se adjudicó al que subió la última cantidad. El ganador entró en Roma esa misma tarde como emperador y duró sesenta y seis días.",
     paginas: [
