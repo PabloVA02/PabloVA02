@@ -25,6 +25,40 @@ export const MONTANAS: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Un teodolito de latón sobre un trípode apuntando a una cordillera lejana.",
+    fotos: [
+      {
+        archivo: "Sunset view of Everest.jpg",
+        autor: "El Everest al atardecer, con la última luz solo en la cima. Fotografía de Mahatma4711.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sunset_view_of_Everest.jpg",
+        foco: "50% 50%",
+        alt: "La cumbre del Everest encendida de naranja sobre un cielo violeta, con el resto de la cordillera ya en sombra.",
+      },
+      {
+        archivo: "Panorama of Himalayas from Ranikhet, Uttarakhand, India.jpg",
+        autor: "La cadena del Himalaya desde Ranikhet, en la India. Fotografía de Harshit SR.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Panorama_of_Himalayas_from_Ranikhet,_Uttarakhand,_India.jpg",
+        foco: "50% 50%",
+        alt: "Una hilera de picos nevados recortados contra el cielo, vistos desde muy lejos.",
+      },
+      {
+        archivo: "Gorak Shep to Everest Base Camp-50-Khumbu-Gletscher-Eisspitzen-2007-gje.jpg",
+        autor: "Las agujas de hielo del glaciar del Khumbu, en la ruta al campo base del Everest. Fotografía de Uwe Gille.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gorak_Shep_to_Everest_Base_Camp-50-Khumbu-Gletscher-Eisspitzen-2007-gje.jpg",
+        foco: "50% 50%",
+        alt: "Un campo de agujas de hielo blanco azulado sobre la morrena gris de un glaciar.",
+      },
+      {
+        archivo: "North Col of Mount Everest.JPG",
+        autor: "El collado norte del Everest fotografiado desde la Estación Espacial. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:North_Col_of_Mount_Everest.JPG",
+        foco: "50% 50%",
+        alt: "La cumbre del Everest y sus glaciares vistos desde muy arriba, con las sombras marcando los valles.",
+      },
+    ],
     entrada:
       "India, 1852. Un equipo lleva décadas midiendo el subcontinente con teodolitos y cadenas, triangulando desde la costa hacia el norte. Un matemático de la oficina de cálculo revisa los datos de un pico lejano del Himalaya, catalogado sin nombre y con un número. Entra en el despacho del jefe a decir que ha encontrado la montaña más alta del mundo. El número que le sale es tan redondo que le da apuro publicarlo, porque cualquiera va a pensar que lo ha puesto a ojo. Lo que hace a continuación es una de esas decisiones pequeñas que se quedan en los libros para siempre. Y la montaña acabó llamándose como un funcionario que nunca la vio.",
     paginas: [

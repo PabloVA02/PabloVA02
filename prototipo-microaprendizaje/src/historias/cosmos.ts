@@ -48,6 +48,40 @@ export const COSMOS: Short[] = [
     },
     encargo:
       "Venus en falso color radar, la superficie sin nubes, ocupando casi todo el encuadre.",
+    fotos: [
+      {
+        archivo: "Venus globe.jpg",
+        autor: "Venus reconstruido con el radar de la sonda Magallanes: bajo sus nubes no se ve nada con luz normal. NASA y JPL.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Venus_globe.jpg",
+        foco: "50% 50%",
+        alt: "El disco entero de Venus en tonos dorados, con la superficie llena de vetas y cráteres.",
+      },
+      {
+        archivo: "Venus Over Dunes (39916414910).jpg",
+        autor: "Venus sobre las dunas al anochecer: es el lucero del atardecer. Parque Nacional Great Sand Dunes.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Venus_Over_Dunes_(39916414910).jpg",
+        foco: "50% 45%",
+        alt: "Un punto de luz muy brillante en un cielo azul oscuro sobre la silueta de unas dunas.",
+      },
+      {
+        archivo: "SDO's Ultra-high Definition View of 2012 Venus Transit (171 Angstrom Full Disc).jpg",
+        autor: "Venus cruzando por delante del Sol en 2012, visto en ultravioleta por el observatorio SDO. NASA.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_(171_Angstrom_Full_Disc).jpg",
+        foco: "50% 50%",
+        alt: "El disco del Sol en dorado con un punto negro y redondo recortado sobre él.",
+      },
+      {
+        archivo: "View of Earth showing the Arctic, Europe, and Asia.jpg",
+        autor: "La Tierra desde el satélite Suomi NPP, para comparar: aquí el día dura veinticuatro horas. NASA y NOAA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:View_of_Earth_showing_the_Arctic,_Europe,_and_Asia.jpg",
+        foco: "50% 45%",
+        alt: "El disco de la Tierra sobre el negro del espacio, con las nubes girando sobre el Atlántico.",
+      },
+    ],
     entrada:
       "Piensa en cuántas veces has dicho «dentro de un año» sin pararte a pensarlo. La frase funciona porque aquí un día cabe holgadamente dentro de un año: trescientas sesenta y cinco vueltas sobre nosotros mismos por cada vuelta al Sol. Pero eso no es una ley del universo. Es una costumbre local de este planeta, y basta con mirar al vecino para que se caiga: en Venus, el día es más largo que el año. No es un error de cálculo ni una manera de hablar. Un venusiano cumpliría años dos veces antes de ver amanecer una sola vez. Y por si fuera poco, allí el Sol sale por el oeste, porque el planeta gira al revés que todos los demás.",
     paginas: [
