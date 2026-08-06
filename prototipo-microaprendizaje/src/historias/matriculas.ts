@@ -20,6 +20,46 @@ export const MATRICULAS: Short[] = [
     categoria: "Historia",
     color: "var(--clay)",
     encargo: "Placa de matrícula esmaltada de principios del siglo XX atornillada a un coche.",
+    /* La Habana es el sitio del mundo donde mejor se ve una matrícula: coches
+       viejos, colores planos y la placa siempre a la vista. */
+    fotos: [
+      {
+        archivo: "La Habana Vieja (29621843287).jpg",
+        autor:
+          "Un coche de los años cincuenta en La Habana Vieja. Fotografía de Antonio Schubert, 2016.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:La_Habana_Vieja_(29621843287).jpg",
+        foco: "50% 50%",
+        alt: "Un coche antiguo de color azul desvaído, de perfil, contra una pared roja lisa.",
+      },
+      {
+        archivo: "La Habana (43423554120).jpg",
+        autor:
+          "La parte de atrás de un Hillman en una calle de La Habana, con la matrícula puesta donde se lee. Fotografía de Antonio Schubert, 2017.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:La_Habana_(43423554120).jpg",
+        foco: "50% 50%",
+        alt: "La trasera de un coche rojo antiguo, con la placa blanca de la matrícula en el centro y la calle vacía al fondo.",
+      },
+      {
+        archivo: "Habana Vieja (35981862770).jpg",
+        autor:
+          "Un coche parado en una calle de La Habana Vieja. Fotografía de Antonio Schubert, 2015.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Habana_Vieja_(35981862770).jpg",
+        foco: "50% 45%",
+        alt: "Un coche granate de los años cincuenta parado junto a una fachada ocre, con el brazo del conductor apoyado en la ventanilla.",
+      },
+      {
+        archivo: "Habana (18568982609).jpg",
+        autor:
+          "Coches aparcados en La Habana, con la rueda de repuesto y la placa en la trasera. Fotografía de Antonio Schubert, 2015.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Habana_(18568982609).jpg",
+        foco: "50% 50%",
+        alt: "Detalle de la trasera de un coche rojo con la rueda de repuesto forrada en blanco y la matrícula debajo, junto a otro coche amarillo.",
+      },
+    ],
     entrada:
       "Francia, 1893. París tiene ya unos cuantos automóviles circulando y ninguna manera de saber de quién es cada uno. Un vehículo que atropella a alguien y sigue su camino resulta imposible de identificar, porque todos se parecen. La ciudad aprueba entonces una ordenanza que obliga a llevar una placa con un número visible, y la idea se copia en toda Europa en pocos años. La matrícula no nace para ordenar el tráfico ni para cobrar impuestos. Nace por una razón mucho más simple: para poder ponerle nombre a un coche desde la acera, sin pararlo y sin preguntarle nada a nadie.",
     paginas: [

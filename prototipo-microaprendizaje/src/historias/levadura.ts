@@ -20,6 +20,46 @@ export const LEVADURA: Short[] = [
     categoria: "Comida",
     color: "var(--ochre)",
     encargo: "Corte de una hogaza recién partida con la miga llena de agujeros irregulares.",
+    /* De arriba abajo del short: la hogaza abierta por el horno, la red que
+       retiene el gas, el horno y la miga. */
+    fotos: [
+      {
+        archivo: "Sourdough bread cut with lame, after baking.jpg",
+        autor:
+          "Hogaza de masa madre recién sacada del horno, con los cortes de la cuchilla abiertos por el último empujón del gas. Fotografía de Joy, 2018.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sourdough_bread_cut_with_lame,_after_baking.jpg",
+        foco: "50% 50%",
+        alt: "Un pan redondo y dorado visto desde arriba, con la corteza cubierta de cortes en forma de hojas que se han abierto al cocerse.",
+      },
+      {
+        archivo: "Gluten strands in bread dough.jpg",
+        autor:
+          "Los hilos de gluten de una masa ya fermentada, estirados al separarla. Fotografía de General Views, 2015.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gluten_strands_in_bread_dough.jpg",
+        foco: "50% 50%",
+        alt: "Masa de pan separada en dos, con cientos de hilos blancos y finísimos tendidos entre las dos mitades.",
+      },
+      {
+        archivo: "Baking Bread Communal Oven, 2011.jpg",
+        autor:
+          "Un panadero metiendo el pan en el horno comunal de leña, en Marruecos. Fotografía de travelwayoflife, 2011.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Baking_Bread_Communal_Oven,_2011.jpg",
+        foco: "58% 38%",
+        alt: "Un hombre desliza con una pala una torta de pan hacia la boca encendida de un horno de leña.",
+      },
+      {
+        archivo: "Slices of sourdough bread.jpg",
+        autor:
+          "Rebanadas de pan de masa madre, con la miga llena de agujeros de tamaños distintos. Fotografía de Angel Ganev, 2015.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Slices_of_sourdough_bread.jpg",
+        foco: "50% 50%",
+        alt: "Tres rebanadas de pan apoyadas en un plato, con la miga clara agujereada y la corteza tostada.",
+      },
+    ],
     entrada:
       "Egipto y Mesopotamia, desde hace unos cinco mil años. Durante casi toda la historia se hizo pan sin saber por qué subía, dejando la masa al aire hasta que se hinchaba sola. La explicación no llegó hasta el siglo XIX, cuando el microscopio mostró que aquella espuma estaba llena de organismos vivos. La levadura es un hongo microscópico que se alimenta del azúcar de la harina y suelta gas. Ese gas queda atrapado en la masa y es lo que la abomba. Dicho de otra manera: el pan sube porque tiene dentro millones de seres vivos comiendo, y el horno los mata justo cuando ya han hecho su trabajo.",
     paginas: [

@@ -43,13 +43,13 @@ export const CUERO: Short[] = [
         alt: "Un hombre con delantal, metido hasta la cintura en una tina de piedra, tirando de una piel blanquecina y empapada.",
       },
       {
-        archivo: "Peeling hemlock bark for tanning.jpg",
+        archivo: "Leather tanning, Fes.jpg",
         autor:
-          "Pelando y apilando corteza de abeto para la curtiduría de Prattsville, Nueva York, que hacia 1840 era la mayor del mundo. Grabado de hacia 1850.",
-        licencia: "Dominio público",
-        fuente: "https://commons.wikimedia.org/wiki/File:Peeling_hemlock_bark_for_tanning.jpg",
-        foco: "50% 55%",
-        alt: "Grabado de un bosque talado donde varios hombres arrancan la corteza de los troncos caídos y la amontonan.",
+          "Las tinas de curtido y de tinte de Fez, cada una con una concentración distinta. Fotografía de Bernard Gagnon, 2005.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Leather_tanning,_Fes.jpg",
+        foco: "60% 78%",
+        alt: "Decenas de tinas redondas y cuadradas pegadas unas a otras, llenas de líquidos blancos, ocres y rojos, con un hombre trabajando entre ellas.",
       },
       {
         archivo: "Leather Craftsman (46403248732).jpg",

@@ -25,6 +25,46 @@ export const BARCOS: Short[] = [
     categoria: "Barcos",
     color: "var(--slate)",
     encargo: "Una pila de contenedores de colores en un muelle, vistos desde abajo.",
+    /* De arriba abajo del short: el barco de hoy, el muelle de antes, la caja
+       repetida hasta el infinito y el campo entero de cajas. */
+    fotos: [
+      {
+        archivo: "MAERSK HANOI Container Ship (Port Koper SIKOP, 2023).jpg",
+        autor:
+          "El portacontenedores Maersk Hanoi, 353 metros de eslora, atracado en el puerto de Koper. Fotografía de Petar Milošević, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:MAERSK_HANOI_Container_Ship_(Port_Koper_SIKOP,_2023).jpg",
+        foco: "50% 55%",
+        alt: "Un buque de casco azul turquesa cargado hasta arriba de contenedores de colores, amarrado bajo las grúas del puerto y con el mar abierto detrás.",
+      },
+      {
+        archivo: "Stevedores ny 1912.jpg",
+        autor:
+          "Estibadores cargando barriles en un muelle del Hudson, Nueva York. Fotografía de Lewis Hine, hacia 1912.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Stevedores_ny_1912.jpg",
+        foco: "50% 55%",
+        alt: "Fotografía antigua de varios hombres rodando barriles de madera a mano en un muelle, bajo la pluma de una grúa.",
+      },
+      {
+        archivo: "Containerhafen Niehl.jpg",
+        autor:
+          "Contenedores apilados en el puerto de Niehl, Colonia. Fotografía de glasseyes view, 2014.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Containerhafen_Niehl.jpg",
+        foco: "50% 45%",
+        alt: "Una pared de contenedores de chapa ondulada apilados unos sobre otros, con una grúa verde delante.",
+      },
+      {
+        archivo: "Barbados Port Inc Container Park Bridgetown 0254.jpg",
+        autor:
+          "La campa de contenedores del puerto de Bridgetown, Barbados. Fotografía de Paul Harrison, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Barbados_Port_Inc_Container_Park_Bridgetown_0254.jpg",
+        foco: "50% 50%",
+        alt: "Vista desde arriba de hileras y filas de contenedores rojos, azules y naranjas ordenados en una explanada.",
+      },
+    ],
     entrada:
       "Puerto de Nueva Jersey, 26 de abril de 1956. Un antiguo camionero convertido en empresario ha comprado un petrolero viejo, le ha soldado una cubierta plana encima y ha subido cincuenta y ocho cajas metálicas idénticas, con la mercancía dentro. Nadie en el sector cree que aquello tenga futuro. Descargar un barco cuesta entonces una semana de trabajo de cuadrillas enteras, y ese trabajo se lleva más de la mitad de lo que cuesta el viaje. Aquellas cajas idénticas van a dejarlo en unas horas. Con eso van a cambiar el precio de casi todo lo que se compra, y de paso van a vaciar los muelles de las ciudades y a llevárselos a las afueras.",
     paginas: [

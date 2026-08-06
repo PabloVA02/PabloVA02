@@ -20,6 +20,46 @@ export const APARCAMIENTOS: Short[] = [
     categoria: "Ciudades",
     color: "var(--clay)",
     encargo: "Parquímetro de los años treinta sobre un poste, con la aguja y la ranura de la moneda.",
+    /* De arriba abajo del short: el aparato, la calle que vino a ordenar, lo
+       que costaba y en qué se ha convertido. */
+    fotos: [
+      {
+        archivo: "Josh Newton 2015 (Unsplash).jpg",
+        autor:
+          "Dos parquímetros de moneda con la ventanilla en «tiempo agotado». Fotografía de Josh Newton, 2015.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Josh_Newton_2015_(Unsplash).jpg",
+        foco: "50% 45%",
+        alt: "Dos parquímetros azules de pintura desconchada, uno al lado del otro, con la esfera de las horas y el letrero de tiempo agotado.",
+      },
+      {
+        archivo: "Cars parked diagonally, Omaha, Nebraska ppmsca.10438u.jpg",
+        autor:
+          "Coches aparcados en batería junto a los parquímetros. Omaha, Nebraska, noviembre de 1938. Fotografía de John Vachon.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cars_parked_diagonally,_Omaha,_Nebraska_ppmsca.10438u.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía en blanco y negro de una fila larga de coches de los años treinta aparcados en diagonal, con un parquímetro delante de cada uno.",
+      },
+      {
+        archivo: "Nostaligic Pricing (52395904850).jpg",
+        autor:
+          "Parquímetro conservado con la tarifa de 1960: doce minutos por un centavo. Fotografía de Ron Reiring, 2022.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nostaligic_Pricing_(52395904850).jpg",
+        foco: "55% 50%",
+        alt: "Un parquímetro plateado sobre su poste, con el capó blanco y brillante de un coche antiguo detrás.",
+      },
+      {
+        archivo: "Georgetown, Malaysia (4570232019).jpg",
+        autor:
+          "Parquímetro doble en George Town, Penang. Fotografía de yeowatzup, 2010.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Georgetown,_Malaysia_(4570232019).jpg",
+        foco: "45% 50%",
+        alt: "Un parquímetro doble pintado de verde, con los números 13 y 15, delante de una verja roja.",
+      },
+    ],
     entrada:
       "Oklahoma, Estados Unidos, 1935. En el centro de la ciudad no queda un solo hueco libre, porque los empleados de las oficinas aparcan a las ocho y no mueven el coche hasta las seis. Los comerciantes se quejan de que ningún cliente puede parar a comprar. Un abogado que dirige la cámara de comercio local propone algo que nunca se ha hecho: cobrar por el tiempo que un coche ocupa un hueco. No por aparcar, que era gratis en todas partes, sino por quedarse. La idea es que el que paga por horas se va antes y deja el hueco libre para el siguiente. En 1935 hubo quien lo llevó a los tribunales por considerarlo un impuesto sobre el aire.",
     paginas: [
