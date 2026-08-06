@@ -22,7 +22,7 @@
    fotos pasan por Chromium, que las reescribe en WebP: es la mitad de peso
    que el JPEG de Commons a la misma vista, y es lo que hace que quepan.
 
-       node scripts/movil.mjs [--ancho 440] [--calidad 0.78]
+       node scripts/movil.mjs [--ancho 400] [--calidad 0.74]
 
    Deja `movil.html` en la raíz. Se publica tal cual.
    ========================================================================== */
@@ -46,9 +46,12 @@ const arg = (nombre, porDefecto) => {
   return i > 0 ? process.argv[i + 1] : porDefecto;
 };
 /* Ancho de la copia que viaja dentro. La banda de imagen ocupa el ancho del
-   teléfono, 375 puntos, así que 440 va sobrado incluso en una pantalla densa. */
-const ANCHO = Number(arg("--ancho", 440));
-const CALIDAD = Number(arg("--calidad", 0.78));
+   teléfono, 375 puntos, así que 400 llega. Subirlo se nota poco en pantalla y
+   mucho en el peso, y el peso es lo que decide si la página se puede publicar:
+   a 440 las ciento cuarenta y dos fotos de ahora ya dejaban un mega de margen
+   sobre el tope de 16. */
+const ANCHO = Number(arg("--ancho", 400));
+const CALIDAD = Number(arg("--calidad", 0.74));
 /* A Commons se le pide más grande de lo que se guarda: reducir a partir de una
    imagen holgada sale más limpio que pedirle a Commons la miniatura justa. */
 const ORIGEN = 800;
