@@ -350,6 +350,12 @@ export function urlFoto(foto: Foto, ancho = 1400) {
   // pregunta por `archivo` y no por `local` porque `archivo` es el campo
   // obligatorio de su variante, y es el único que discrimina la unión.
   if (foto.archivo === undefined) return foto.local;
+  // Un visor que no deja salir a la red —el simulador de móvil que se publica
+  // como artefacto tiene esa política— deja las fotos empotradas en esta
+  // tabla antes de arrancar la app. Si el fichero está ahí, se usa; si no, se
+  // pide a Commons como siempre. `scripts/movil.mjs` es quien la rellena.
+  const empotrada = (globalThis as Record<string, any>).__FOTOS?.[foto.archivo];
+  if (empotrada) return empotrada as string;
   const nombre = encodeURIComponent(foto.archivo.replace(/ /g, "_"));
   return `https://commons.wikimedia.org/wiki/Special:FilePath/${nombre}?width=${ancho}`;
 }

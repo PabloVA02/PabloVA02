@@ -53,7 +53,11 @@ const RACHA = 3;
    app arranca donde siempre. */
 function pantallaInicial(): Pantalla {
   if (typeof window === "undefined") return "intro";
-  const p = new URLSearchParams(window.location.search).get("p");
+  /* En un visor que no da URL propia —el simulador de móvil que se publica
+     como artefacto— no hay parámetro que poner, así que la página deja dicho
+     por dónde quiere que se abra antes de arrancar la app. */
+  const p = (globalThis as Record<string, any>).__PANTALLA
+    ?? new URLSearchParams(window.location.search).get("p");
   const validas = ["intro", "shorts", "inicio", "perfil", "ajustes"];
   return validas.includes(p ?? "") ? (p as Pantalla) : "intro";
 }

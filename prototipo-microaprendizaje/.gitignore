@@ -5,3 +5,7 @@ dist/
 artefacto.html
 dist-uno/
 vite.uno.config.mjs
+
+# El simulador de móvil: catorce megas de app y fotos. Se rehace con
+# `npx vite build --config vite.uno.config.mjs && node scripts/movil.mjs`
+movil.html
