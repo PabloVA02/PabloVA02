@@ -23,6 +23,47 @@ export const DESIERTOS: Short[] = [
     categoria: "Desiertos",
     color: "var(--ochre)",
     encargo: "Una pared de roca con figuras humanas pintadas en ocre, en penumbra.",
+    /* Lo que hay hoy, lo que hubo, por qué cambió y lo que queda: el desierto
+       al amanecer, un oasis con agua de verdad entre las dunas, la Tierra
+       entera —que es de lo que depende todo esto— y las pinturas de gente y
+       ganado en mitad de la nada. */
+    fotos: [
+      {
+        archivo: "Erg Chebbi sunset.jpg",
+        autor: "El erg Chebbi, en el Sáhara marroquí, al caer el sol. Fotografía de Thomas Fuhrmann.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Erg_Chebbi_sunset.jpg",
+        foco: "50% 45%",
+        alt: "Dunas de arena naranja rizadas por el viento, con el sol tocando el horizonte al fondo.",
+      },
+      {
+        archivo: "Libya 5391 Ubari Lakes Luca Galuzzi 2007.jpg",
+        autor:
+          "Uno de los lagos de Ubari, en el desierto de Libia: agua y palmeras entre las dunas. Fotografía de Luca Galuzzi.",
+        licencia: "CC BY-SA 2.5",
+        fuente: "https://commons.wikimedia.org/wiki/File:Libya_5391_Ubari_Lakes_Luca_Galuzzi_2007.jpg",
+        foco: "50% 55%",
+        alt: "Un lago verde rodeado de palmeras datileras, con una duna enorme de arena clara detrás.",
+      },
+      {
+        archivo: "View of Earth showing the Arctic, Europe, and Asia.jpg",
+        autor:
+          "La Tierra desde el satélite Suomi NPP. La inclinación del eje decide cuánto sol recibe cada franja del planeta. NASA y NOAA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:View_of_Earth_showing_the_Arctic,_Europe,_and_Asia.jpg",
+        foco: "50% 50%",
+        alt: "La Tierra vista desde el espacio como un disco completo, con el Ártico arriba y Europa y Asia debajo.",
+      },
+      {
+        archivo: "The Tanzoumaitak cave painting in Tassili n'ajjer.jpg",
+        autor:
+          "Pinturas rupestres de Tanzoumaitak, en el Tassili n'Ajjer argelino, hoy en pleno desierto. Fotografía de Issam Barhoumi.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_Tanzoumaitak_cave_painting_in_Tassili_n%27ajjer.jpg",
+        foco: "50% 35%",
+        alt: "Figuras humanas y animales pintadas en ocre sobre la pared inclinada de un abrigo de roca.",
+      },
+    ],
     entrada:
       "Sudoeste de Egipto, 1933. Un explorador húngaro que busca un oasis perdido encuentra en una cueva del desierto, a cientos de kilómetros de cualquier agua, unas pinturas rupestres con figuras humanas en postura de nadar. Alrededor no hay más que arena y roca en todas direcciones, en el sitio más seco del planeta, donde puede no llover en varios años seguidos. El hallazgo tardó décadas en tomarse en serio, porque la alternativa a que aquello fuera un dibujo simbólico resultaba mucho más difícil de creer: que quien lo pintó estuviera dibujando lo que veía. Porque si allí hubo gente nadando, el desierto más seco del mundo estuvo lleno de agua. Y eso es lo que pasó.",
     paginas: [
