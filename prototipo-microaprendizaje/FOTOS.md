@@ -65,6 +65,28 @@ Commons de verdad, y dice cuánto aire queda debajo del texto. Es la única
 comprobación que enseña las dos cosas a la vez: si la imagen es la que toca y
 si el texto llega al margen sin tapar el «Seguir».
 
+## Antes que nada: que sea bonita y que se entienda
+
+Es la petición de Pablo y manda sobre todo lo demás.
+
+1. **Bonita.** La foto es lo primero que ve quien abre la app. Una imagen
+   correcta pero fea hunde el short entero.
+2. **Que se entienda de un vistazo qué es.** Aquí caen dos clases de imagen
+   que parecen buenas en la hoja de contacto y no lo son en la banda: los
+   **carteles y las láminas** —un grabado gris, un plano técnico, una placa
+   escaneada— y los **objetos ampliadísimos**, donde se ve una textura y no se
+   sabe de qué. La banda es un 28 % del alto, así que una imagen muy apaisada
+   se recorta a un trozo: la placa de matrícula española mide 2844 × 509 y en
+   la banda solo caben dos caracteres.
+3. **La de la portada, la más bonita de las cuatro.** Se elige primero.
+4. Que hable exactamente de lo que cuenta la página es **deseable, no
+   obligatorio**. Antes que una foto fea que ilustra el párrafo, va una bonita
+   que ilustra el tema. En el short de las matrículas las cuatro son coches de
+   La Habana, y funciona mejor que cuatro placas.
+
+`contacto.mjs` enseña la banda recortada debajo de cada candidata justo para
+poder juzgar el punto 2 sin construir la app.
+
 ## Las tres reglas que no se saltan
 
 **1. La licencia se lee, no se supone.** El pie se publica: es una afirmación

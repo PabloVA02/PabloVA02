@@ -6,7 +6,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs`.
 | | hecho | queda |
 |---|---|---|
 | shorts escritos | 757 | 243 para llegar a 1000 |
-| **shorts con sus cuatro fotos** | **15** | **742** |
+| **shorts con sus cuatro fotos** | **33** | **724** |
 | portadas con título de una línea y texto que llega abajo | 60 | 697 |
 | títulos que no caben en una línea | | 451 |
 | entradas que dejan hueco abajo | | 690 |
@@ -18,7 +18,10 @@ siguientes en orden de lectura. Los demás, de `node scripts/revisa-shorts.mjs`.
 ## Lo que toca ahora
 
 **Poner fotografías**, cuatro por short y en orden de lectura. Pablo abrió el
-acceso a Wikimedia justo para esto. El método está en `FOTOS.md`.
+acceso a Wikimedia justo para esto. El método está en `FOTOS.md`, y lo primero
+que hay que leer de ahí es lo que Pablo pide de la imagen: **bonita, que se
+entienda de un vistazo qué es, y la de la portada la más bonita de las
+cuatro**. Eso va por delante de que ilustre el párrafo exacto.
 
 ## Cómo se pone un short con sus cuatro fotos
 
@@ -44,6 +47,20 @@ mirar. Con las herramientas puestas salen unos cuatro por tanda.
    seguidas, con el aire que queda debajo del texto. Es la comprobación final:
    ahí se ve si el encuadre se come lo importante.
 9. Commit desde `/home/user/PabloVA02`, con `git commit -F` y nunca `-m`.
+
+## Y para que Pablo lo vea
+
+```
+npx vite build --config vite.uno.config.mjs && node scripts/movil.mjs
+```
+
+deja `movil.html`: la app entera dentro de un teléfono, en un solo fichero y
+con las fotos empotradas, porque el visor donde se publica tiene la salida a
+la red cerrada. Se publica **actualizando el artefacto que ya existe**,
+`https://claude.ai/code/artifact/b8c9ffd9-e1f0-4e9e-a89f-0c69e0027ae2`, y no
+creando uno nuevo. Abre por el muro de shorts. El tope son 16 MB y la app
+compilada ya se come diez, así que el margen lo dan el `--ancho` y la
+`--calidad` de las fotos.
 
 Se va **en orden de lectura**, que es el de `intercala()` en `src/shorts.ts`:
 el primer short de cada fichero, en el orden en que están listados. Así lo que
