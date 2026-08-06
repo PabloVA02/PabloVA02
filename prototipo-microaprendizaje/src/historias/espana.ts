@@ -24,6 +24,40 @@ export const ESPANA: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un mapa de husos horarios de Europa con la franja de España desplazada.",
+    fotos: [
+      {
+        archivo: "Madrid. Puerta del Sol square. Clock. Spain (2746517432).jpg",
+        autor: "El reloj de la Casa de Correos, en la Puerta del Sol de Madrid. Fotografía de Tomás Fano.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Madrid._Puerta_del_Sol_square._Clock._Spain_(2746517432).jpg",
+        foco: "50% 45%",
+        alt: "La torre del reloj de la Puerta del Sol, con su campana y su esfera, contra un cielo azul intenso.",
+      },
+      {
+        archivo: "Tourists taking pictures at Prime Meridian monument, Greenwich Observatory, London.jpg",
+        autor: "La línea del meridiano de Greenwich, desde donde se cuentan los husos horarios. Fotografía de Daniel Case.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tourists_taking_pictures_at_Prime_Meridian_monument,_Greenwich_Observatory,_London.jpg",
+        foco: "50% 55%",
+        alt: "Una línea metálica marcada en el suelo del patio del observatorio, con gente fotografiándose sobre ella.",
+      },
+      {
+        archivo: "Shadow on noon (an Interactive Sundial) (28695825562).jpg",
+        autor: "Un reloj de sol: la hora que marca la sombra es la del lugar, no la del país. Fotografía de Leonora Enking.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Shadow_on_noon_(an_Interactive_Sundial)_(28695825562).jpg",
+        foco: "50% 50%",
+        alt: "La sombra de una persona cayendo sobre las horas marcadas en el suelo de un reloj de sol.",
+      },
+      {
+        archivo: "Puerta del Sol - Reloj.jpg",
+        autor: "La esfera del reloj de la Puerta del Sol de cerca. Fotografía de Tamorlan.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Puerta_del_Sol_-_Reloj.jpg",
+        foco: "50% 40%",
+        alt: "La esfera blanca del reloj con números romanos, enmarcada en ladrillo rojo.",
+      },
+    ],
     entrada:
       "La hora de un país no la decide la naturaleza: la decide un gobierno, y en España la decidió uno en 1940. El mundo está dividido en franjas verticales, y a España, que está a la misma altura que Inglaterra y Portugal, le tocaría su misma hora. Pero nuestros relojes marcan lo mismo que los de Berlín, mil quinientos kilómetros más al este. No es una curiosidad sin consecuencias: explica por qué aquí se come a las dos y media y los telediarios de la noche empiezan cuando en media Europa la gente ya duerme. La jornada partida y las cenas tardías salen en buena parte de una decisión administrativa que no tuvo nada que ver con el sol.",
     paginas: [

@@ -22,6 +22,42 @@ export const VEJEZ: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Una lápida romana desgastada con una inscripción todavía legible.",
+    fotos: [
+      {
+        archivo: "Funerary relief of Publius Gessius and family (Boston MFA 37.100) 01.jpg",
+        autor:
+          "Relieve funerario de una familia romana, del siglo I antes de Cristo. Museo de Bellas Artes de Boston. Fotografía de Mark Landon.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Funerary_relief_of_Publius_Gessius_and_family_(Boston_MFA_37.100)_01.jpg",
+        foco: "50% 40%",
+        alt: "Tres retratos de piedra asomados a huecos rectangulares, con sus nombres grabados debajo.",
+      },
+      {
+        archivo: "Child sarcophagus Louvre Ma329 n01.jpg",
+        autor: "Sarcófago de un niño romano. Museo del Louvre. Fotografía de Marie-Lan Nguyen.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Child_sarcophagus_Louvre_Ma329_n01.jpg",
+        foco: "50% 50%",
+        alt: "Un sarcófago pequeño de mármol tallado con figuras en relieve por todo el frente.",
+      },
+      {
+        archivo: "Fayum egyptian funerary portrait 1627 NAMAthens.jpg",
+        autor:
+          "Retrato de El Fayum, pintado sobre la tabla que cubría la cara de una momia en el Egipto romano. Fotografía de Jebulon.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fayum_egyptian_funerary_portrait_1627_NAMAthens.jpg",
+        foco: "50% 30%",
+        alt: "El retrato pintado de una persona joven de ojos grandes y oscuros, sobre una tabla de madera.",
+      },
+      {
+        archivo: "Tombstone of Flavia Augustina YORYM 1998 18.jpg",
+        autor: "Lápida de Flavia Augustina, con su marido y sus dos hijos, hallada en York.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tombstone_of_Flavia_Augustina_YORYM_1998_18.jpg",
+        foco: "50% 40%",
+        alt: "Una lápida romana con cuatro figuras talladas de pie y una inscripción larga debajo.",
+      },
+    ],
     entrada:
       "¿Es verdad que en la Antigüedad la gente se moría a los treinta años? La frase se repite constantemente y sale de un dato real: la esperanza de vida al nacer en el Imperio romano rondaba los veinticinco o treinta años. El problema no es el número, que es correcto, sino lo que significa una media cuando una parte enorme de la muestra se muere antes de los cinco años. Una media no describe a nadie en concreto: describe un reparto. Y cuando el reparto tiene un montón de ceros a un lado, el promedio deja de parecerse a la vida de nadie. En Roma había gente mayor por todas partes, y el Senado estaba lleno de señores de sesenta años dando órdenes.",
     paginas: [
