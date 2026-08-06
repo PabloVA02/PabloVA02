@@ -33,6 +33,46 @@ export const CATASTROFES: Short[] = [
       alt: "El reactor 4 de Chernóbil destruido, fotografiado desde un helicóptero.",
     },
     encargo: "El reactor 4 reventado, visto desde el aire, con el tejado abierto.",
+    fotos: [
+      {
+        /* La noria de Prípiat nunca llegó a abrirse: la feria estaba prevista
+           para el 1 de mayo y la ciudad se evacuó el 27 de abril. */
+        archivo: "Ferris wheel in Pripyat (02710145).jpg",
+        autor:
+          "La noria de Prípiat, en el parque que iba a inaugurarse cinco días después del accidente. Banco de imágenes del Organismo Internacional de Energía Atómica.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ferris_wheel_in_Pripyat_(02710145).jpg",
+        foco: "50% 45%",
+        alt: "Una noria amarilla oxidada contra un cielo azul, con el bosque creciendo alrededor del asfalto.",
+      },
+      {
+        archivo: "IAEA 02790015 (5613115146) (cropped).jpg",
+        autor:
+          "El reactor 4 destruido, fotografiado desde el aire en 1986. Banco de imágenes del Organismo Internacional de Energía Atómica.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:IAEA_02790015_(5613115146)_(cropped).jpg",
+        foco: "50% 55%",
+        alt: "El edificio del reactor reventado y abierto por arriba, visto desde un helicóptero.",
+      },
+      {
+        archivo: "Во тьму Into darkness (36689677804).jpg",
+        autor:
+          "Un pasillo de escuela en Prípiat, con los cuadernos por el suelo desde el día de la evacuación. Fotografía de spoilt.exile.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BE_%D1%82%D1%8C%D0%BC%D1%83_Into_darkness_(36689677804).jpg",
+        foco: "50% 50%",
+        alt: "Un pasillo con las paredes descascarilladas, la luz entrando por los ventanales y papeles cubriendo el suelo.",
+      },
+      {
+        archivo: "Pripyat Basketball Court.jpg",
+        autor:
+          "El gimnasio de una escuela de Prípiat, cuarenta años después. Fotografía de Ingmar Runge.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pripyat_Basketball_Court.jpg",
+        foco: "50% 45%",
+        alt: "Un gimnasio abandonado con la canasta todavía colgada y el suelo de madera levantado.",
+      },
+    ],
     entrada:
       "La 1:23 de la madrugada del 26 de abril de 1986. Una prueba de seguridad deja al reactor 4 de Chernóbil en una potencia que ya nadie puede bajar, y en cuatro segundos se multiplica por cien. Ahí termina la parte que le tocaba a la física. Todo lo que viene después lo deciden personas con nombre y apellidos: cuándo se avisa, a quién se avisa y qué se le cuenta. La ciudad de al lado, con cincuenta mil habitantes y a tres kilómetros del reactor, siguió con su vida normal durante treinta y seis horas. Los niños fueron al colegio, hubo bodas y la gente salió a ver el resplandor desde el puente del ferrocarril, porque era bonito. Nadie les había dicho nada.",
     paginas: [
