@@ -24,6 +24,40 @@ export const VOLCANES: Short[] = [
     categoria: "Volcanes",
     color: "var(--slate)",
     encargo: "Un cielo cargado de ceniza sobre un campo de trigo verde y helado.",
+    fotos: [
+      {
+        archivo: "Mount Tambora Volcano, Sumbawa Island, Indonesia.jpg",
+        autor: "El cráter del Tambora, en la isla de Sumbawa, visto desde la Estación Espacial. Mide seis kilómetros de boca. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mount_Tambora_Volcano,_Sumbawa_Island,_Indonesia.jpg",
+        foco: "50% 45%",
+        alt: "Un cráter enorme y redondo visto desde arriba, con las paredes en sombra y el fondo llano.",
+      },
+      {
+        archivo: "Raikoke Volcano Erupts (48132762546).jpg",
+        autor: "Una columna de ceniza saliendo del volcán Raikoke, fotografiada desde la Estación Espacial en 2019. NASA.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Raikoke_Volcano_Erupts_(48132762546).jpg",
+        foco: "50% 40%",
+        alt: "Una columna de ceniza gris subiendo desde una isla y aplastándose al llegar arriba, vista desde el espacio.",
+      },
+      {
+        archivo: "Conservation Help Continues After Winter Storm Atlas (11948327154).jpg",
+        autor: "Nieve sobre el pasto fuera de temporada. Departamento de Agricultura de Estados Unidos.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Conservation_Help_Continues_After_Winter_Storm_Atlas_(11948327154).jpg",
+        foco: "50% 50%",
+        alt: "Un campo abierto cubierto de nieve con la hierba asomando.",
+      },
+      {
+        archivo: "Ash Plume over Australia (MODIS 2022-01-19).jpg",
+        autor: "La ceniza de una erupción extendiéndose por la atmósfera durante días, vista por el satélite Aqua. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ash_Plume_over_Australia_(MODIS_2022-01-19).jpg",
+        foco: "50% 50%",
+        alt: "Una mancha de ceniza extendida sobre el mar y las nubes, vista desde un satélite.",
+      },
+    ],
     entrada:
       "Isla de Sumbawa, en la actual Indonesia, abril de 1815. Un volcán que llevaba siglos tranquilo revienta con la mayor explosión de la que hay registro escrito. Se oye a dos mil kilómetros de distancia, mata a decenas de miles de personas en pocos días y lanza a la atmósfera tanta ceniza que el cielo se oscurece durante semanas. Pero lo que sube más alto no es la ceniza, que cae en unos días, sino un gas que se queda flotando a doce kilómetros de altura. Ese gas va a dar la vuelta al mundo y a arruinar la cosecha del año siguiente en tres continentes. En junio nevó al otro lado del Atlántico y el precio del trigo se triplicó, y nadie relacionó entonces las dos cosas.",
     paginas: [

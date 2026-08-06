@@ -23,6 +23,40 @@ export const TELESCOPIO: Short[] = [
     categoria: "Telescopios",
     color: "var(--ochre)",
     encargo: "Un catalejo de latón y cuero apoyado sobre una mesa junto a unos papeles.",
+    fotos: [
+      {
+        archivo: "Τηλεσκόπια Γαλιλαίου 0623.jpg",
+        autor: "Los dos telescopios que conserva el Museo Galileo de Florencia, construidos por él mismo hacia 1610. Fotografía de C messier.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:%CE%A4%CE%B7%CE%BB%CE%B5%CF%83%CE%BA%CF%8C%CF%80%CE%B9%CE%B1_%CE%93%CE%B1%CE%BB%CE%B9%CE%BB%CE%B1%CE%AF%CE%BF%CF%85_0623.jpg",
+        foco: "50% 35%",
+        alt: "Dos catalejos largos de madera y cuero colgados en una vitrina de museo.",
+      },
+      {
+        archivo: "Jupiter and galilean moons.jpg",
+        autor: "Júpiter con sus cuatro lunas mayores, las que vio Galileo. Fotografía de Freak-Line-Community.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Jupiter_and_galilean_moons.jpg",
+        foco: "50% 50%",
+        alt: "Júpiter con sus bandas de nubes y cuatro puntos de luz alineados a su lado.",
+      },
+      {
+        archivo: "LRO Tycho Central Peak.jpg",
+        autor: "El pico central del cráter Tycho, en la Luna, fotografiado por la sonda Lunar Reconnaissance Orbiter. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:LRO_Tycho_Central_Peak.jpg",
+        foco: "50% 50%",
+        alt: "Un pico de roca en el centro de un cráter lunar, con una sombra larguísima sobre el suelo gris.",
+      },
+      {
+        archivo: "Inouye Solar Telescope Releases First Image of a Sunspot (NSO-DKIST-first-suspot).tiff",
+        autor: "Una mancha solar vista por el telescopio Inouye, en Hawái. Observatorio Solar Nacional de Estados Unidos.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Inouye_Solar_Telescope_Releases_First_Image_of_a_Sunspot_(NSO-DKIST-first-suspot).tiff",
+        foco: "50% 50%",
+        alt: "Una mancha oscura sobre la superficie hirviendo del Sol, rodeada de células de gas incandescente.",
+      },
+    ],
     entrada:
       "Países Bajos, octubre de 1608. Un fabricante de lentes de una ciudad del norte solicita a las autoridades el privilegio exclusivo sobre un aparato con dos lentes dentro de un tubo que acerca los objetos lejanos. En pocas semanas aparecen otros dos solicitantes con el mismo invento, y el gobierno decide no concedérselo a ninguno de los tres. El argumento del dictamen es demoledor y probablemente cierto: el aparato es tan sencillo que cualquiera que lo vea una vez puede copiarlo, así que no tiene sentido conceder un privilegio imposible de hacer cumplir. Esa decisión es la razón de que un año después hubiera telescopios en media Europa, y de que uno acabara apuntando al cielo.",
     paginas: [
