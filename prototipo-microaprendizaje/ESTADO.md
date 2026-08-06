@@ -89,10 +89,24 @@ abajo. Del 61 en adelante hay que hacer las dos cosas a la vez que la foto:
 ## Lo que sigue pendiente
 
 - **GitHub.** El push sigue dando 403: las credenciales de la sesión son de
-  solo lectura. La rama del remoto está parada en `bf853f9`, doscientos y pico
-  commits por detrás. Lo que hay se salva mandando un bundle
-  (`git bundle create x.bundle --all`) y Pablo lo sube con sus credenciales.
-  No intentar el push cada turno: se ha probado en tres sesiones distintas.
+  solo lectura. La rama del remoto está parada en `bf853f9`, ciento cincuenta
+  y pico commits por detrás. Lo que hay se salva mandando un bundle
+  (`git bundle create x.bundle claude/app-development-xpo6fx`) y Pablo lo sube
+  con sus credenciales. No intentar el push cada turno: se ha probado en
+  cuatro sesiones distintas, y en la cuarta se descartaron además las dos
+  vías que quedaban:
+
+  - `add_repo` con `access: "push"` devuelve `already_present` y no vuelve a
+    emitir credenciales, así que no arregla nada.
+  - Las herramientas MCP de GitHub sí escriben —`get_me` responde como
+    PabloVA02, el dueño— pero la única primitiva de escritura es
+    `push_files`, que exige mandar el contenido de cada fichero dentro de la
+    llamada. Son 5,5 MB en 263 ficheros, y además aplastaría los ciento
+    cincuenta commits en uno. No es viable.
+
+  Lo que sí está comprobado: github.com se alcanza (200) y el proxy no
+  registra ningún fallo contra github, o sea que el 403 es denegación de
+  escritura, no red.
 - **Wikipedia, cerrada.** El entorno tiene abiertos `commons.wikimedia.org` y
   `upload.wikimedia.org`, pero no `es.wikipedia.org` ni `en.wikipedia.org`.
   Se nota: las imágenes que un artículo ya ha elegido son mejores que las que
