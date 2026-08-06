@@ -20,6 +20,47 @@ export const IMANES: Short[] = [
     categoria: "Ciencia",
     color: "var(--slate)",
     encargo: "Limaduras de hierro dibujando las líneas del campo alrededor de un imán de barra.",
+    /* Una por pantalla: la piedra que empezó todo, las líneas del campo que
+       explican los dominios, un imán cargado de limaduras y el imán moderno
+       que salió de todo aquello. */
+    fotos: [
+      {
+        archivo: "Lodestone (Magnet Cove Complex, mid-Cretaceous, 96-102 Ma; Magnet Cove, Arkansas, USA) 2.jpg",
+        autor:
+          "Magnetita, la piedra que atrae al hierro por sí sola. Ejemplar de Magnet Cove, Arkansas. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lodestone_(Magnet_Cove_Complex,_mid-Cretaceous,_96-102_Ma;_Magnet_Cove,_Arkansas,_USA)_2.jpg",
+        foco: "50% 50%",
+        alt: "Un trozo de magnetita, una piedra negra de brillo metálico con vetas oxidadas.",
+      },
+      {
+        archivo: "Bar-magnets-attracting-iron-filings max.jpg",
+        autor:
+          "Limaduras de hierro espolvoreadas entre dos imanes: dibujan solas las líneas del campo. Fotografía de MikeRun y Vera Wurmsdobler.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bar-magnets-attracting-iron-filings_max.jpg",
+        foco: "50% 50%",
+        alt: "Dos imanes marcados con norte y sur, con las limaduras de hierro dibujando las líneas curvas que van de uno a otro.",
+      },
+      {
+        archivo: "Horseshoe magnet metal shavings.jpg",
+        autor:
+          "Un imán de herradura cubierto de limaduras, apelotonadas en los dos extremos y no en el medio. Fotografía de Maciej J. Mrowinski.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Horseshoe_magnet_metal_shavings.jpg",
+        foco: "50% 45%",
+        alt: "Un imán de herradura azul y rojo sobre fondo blanco, con las limaduras erizadas en las dos puntas.",
+      },
+      {
+        archivo: "Neodymium magnet - 19-11-2010.JPG",
+        autor:
+          "Un imán de neodimio sacado del brazo de un disco duro. De este tamaño tira más que cualquier herradura de las de antes.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Neodymium_magnet_-_19-11-2010.JPG",
+        foco: "50% 50%",
+        alt: "Una pieza pequeña de metal gris con forma de sector de círculo, sobre una superficie clara.",
+      },
+    ],
     entrada:
       "Grecia y China, con el fenómeno descrito desde hace más de dos mil quinientos años. Una piedra concreta, la magnetita, atrae al hierro sin tocarlo y sin gastarse, y durante siglos eso no tuvo ninguna explicación. Hoy sabemos que cualquier trozo de hierro está lleno de imanes microscópicos que se anulan entre sí. Un imán de verdad es el mismo hierro con todos ellos apuntando en la misma dirección. No se le ha añadido nada ni se le ha quitado nada: solo se ha puesto en orden lo que ya estaba dentro, y por eso un imán no se gasta al levantar peso. Esa idea tardó dos mil años en llegar, y explica de paso por qué un imán deja de serlo si se le pega un martillazo.",
     paginas: [
