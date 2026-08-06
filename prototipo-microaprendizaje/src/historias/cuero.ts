@@ -21,6 +21,46 @@ export const CUERO: Short[] = [
     categoria: "Cuero",
     color: "var(--ochre)",
     encargo: "Pieles colgadas de un tendedero de madera en un patio con tinas.",
+    /* De arriba abajo del short: el patio entero, la parte sucia, de dónde
+       salen los taninos y en qué acaba la piel. */
+    fotos: [
+      {
+        archivo: "Fez Chouara Tannery (54239949701).jpg",
+        autor:
+          "La curtiduría de Chouara, en Fez, con las pieles secándose en las terrazas y las tinas abajo. Fotografía de Jorge Franganillo, 2024.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fez_Chouara_Tannery_(54239949701).jpg",
+        foco: "50% 45%",
+        alt: "Vista desde arriba de un patio de curtiduría lleno de tinas redondas, con pieles claras colgadas de barandillas y palos en las terrazas de alrededor.",
+      },
+      {
+        archivo: "Traditional handicraft, leather industry.jpg",
+        autor:
+          "Un curtidor sacando una piel encalada de la tina, en Marruecos. Fotografía de Amine Boussiar, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Traditional_handicraft,_leather_industry.jpg",
+        foco: "50% 50%",
+        alt: "Un hombre con delantal, metido hasta la cintura en una tina de piedra, tirando de una piel blanquecina y empapada.",
+      },
+      {
+        archivo: "Peeling hemlock bark for tanning.jpg",
+        autor:
+          "Pelando y apilando corteza de abeto para la curtiduría de Prattsville, Nueva York, que hacia 1840 era la mayor del mundo. Grabado de hacia 1850.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Peeling_hemlock_bark_for_tanning.jpg",
+        foco: "50% 55%",
+        alt: "Grabado de un bosque talado donde varios hombres arrancan la corteza de los troncos caídos y la amontonan.",
+      },
+      {
+        archivo: "Leather Craftsman (46403248732).jpg",
+        autor:
+          "Un guarnicionero cosiendo a máquina en su taller. Fotografía de Dennis Sylvester Hurd, 2018.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Leather_Craftsman_(46403248732).jpg",
+        foco: "55% 50%",
+        alt: "Un hombre de perfil ante una máquina de coser antigua, con una pieza de cuero en la mano y la pared verde detrás.",
+      },
+    ],
     entrada:
       "Todas las culturas, desde hace al menos ocho mil años. Una piel recién quitada a un animal es materia orgánica llena de agua y de proteína, así que empieza a descomponerse en cuestión de horas y en pocos días queda inservible. Curtirla consiste en modificar químicamente esa proteína para que las bacterias y los hongos ya no puedan alimentarse de ella. No es secarla, ni limpiarla, ni taparla: es cambiarla por dentro de manera irreversible. Hecho eso, la misma piel que se pudría en una semana aguanta siglos, y en los museos hay zapatos y correas de hace tres mil años en mejor estado que la madera que los acompañaba.",
     paginas: [

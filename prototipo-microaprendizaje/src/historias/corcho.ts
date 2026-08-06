@@ -20,6 +20,46 @@ export const CORCHO: Short[] = [
     categoria: "Plantas",
     color: "var(--ochre)",
     encargo: "Alcornoque recién descorchado, con el tronco desnudo de un naranja intenso.",
+    /* De arriba abajo del short: el árbol pelado, las dos cortezas con la
+       frontera a la vista, el hombre que la quita y el bosque que sale de ahí. */
+    fotos: [
+      {
+        archivo: "Robledo del Mazo 06.jpg",
+        autor:
+          "Alcornoque recién descorchado en Robledo del Mazo, Toledo, 2022. Fotografía de LBM1948.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Robledo_del_Mazo_06.jpg",
+        foco: "50% 55%",
+        alt: "El tronco de un alcornoque con la parte baja pelada y de un naranja encendido, bajo la copa verde.",
+      },
+      {
+        archivo: "Cheneliege.jpg",
+        autor:
+          "Alcornoque andaluz con la línea del descorche a media altura: encima la corteza de corcho, debajo el tronco pelado. Fotografía de Marc Chazelle, 2010.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cheneliege.jpg",
+        foco: "45% 50%",
+        alt: "Un tronco donde se ve el corte horizontal que separa la corteza gruesa y agrietada de arriba del tronco liso de abajo.",
+      },
+      {
+        archivo: "Oudere man schilt de schors van een kurkeik, Bestanddeelnr 254-0672.jpg",
+        autor:
+          "Un descorchador abriendo la corteza a golpes de hacha en Llagostera, Gerona. Fotografía de Willem van de Poll, Nationaal Archief.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Oudere_man_schilt_de_schors_van_een_kurkeik,_Bestanddeelnr_254-0672.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía en blanco y negro de un hombre inclinado sobre un alcornoque, separando con el hacha una plancha de corcho ya despegada.",
+      },
+      {
+        archivo: "Quercus suber dehesa.jpg",
+        autor:
+          "Alcornocal adehesado cerca de Arcos de la Frontera, Cádiz. Fotografía de Cillas.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Quercus_suber_dehesa.jpg",
+        foco: "50% 60%",
+        alt: "Una hilera de alcornoques con los troncos pelados y anaranjados, muy separados entre sí sobre suelo desnudo.",
+      },
+    ],
     entrada:
       "Cuenca mediterránea, con la explotación organizada desde el siglo XVIII. El alcornoque es una encina con una particularidad rarísima: fabrica dos cortezas, una interior que lo mantiene vivo y otra exterior de corcho que puede perder sin morirse. Esa corteza exterior se le quita a hachazos cada nueve años, y el árbol la vuelve a formar. Un alcornoque puede repetir esa operación quince veces a lo largo de dos siglos, y de hecho vive más si se le pela que si se le deja en paz. Ningún otro árbol del mundo aguanta que le arranquen la corteza entera, porque en casi todos los demás la corteza y el tejido vivo son la misma cosa.",
     paginas: [

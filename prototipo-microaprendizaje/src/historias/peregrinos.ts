@@ -23,6 +23,46 @@ export const PEREGRINOS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un libro medieval abierto con letra apretada y una inicial pintada en rojo.",
+    /* De arriba abajo del short: el libro, el río del que avisa, la catedral
+       que describe y quien lo sigue haciendo ochocientos años después. */
+    fotos: [
+      {
+        archivo: "Códice Calixtino (Catedral de Santiago de Compostela).jpg",
+        autor:
+          "El Códice Calixtino, manuscrito iluminado del siglo XII. Archivo de la catedral de Santiago de Compostela. Fotografía de Manuel, 2008.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:C%C3%B3dice_Calixtino_(Catedral_de_Santiago_de_Compostela).jpg",
+        foco: "50% 50%",
+        alt: "Un códice medieval abierto sobre fondo negro, con una página iluminada en rojo y oro y otra de letra apretada.",
+      },
+      {
+        archivo: "Rio Arga en Puente la Reina.jpg",
+        autor:
+          "El río Arga a su paso por Puente la Reina, Navarra, uno de los ríos que el libro clasifica. Fotografía de aherrero, 2009.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rio_Arga_en_Puente_la_Reina.jpg",
+        foco: "50% 45%",
+        alt: "Un río quieto que refleja una arboleda de otoño en rojos y amarillos.",
+      },
+      {
+        archivo: "Catedral de Santiago de Compostela, Panorama del Portico de la Gloria.jpg",
+        autor:
+          "La fachada del Obradoiro de la catedral de Santiago de Compostela, el destino que el libro describe con sus medidas y sus puertas. Fotografía de D. Rovchak, 2013.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Catedral_de_Santiago_de_Compostela,_Panorama_del_Portico_de_la_Gloria.jpg",
+        foco: "40% 50%",
+        alt: "La fachada barroca de la catedral de Santiago iluminada por el sol bajo, recortada contra un cielo de tormenta.",
+      },
+      {
+        archivo: "Camino de Santiago (5364961214).jpg",
+        autor:
+          "Un peregrino en la meseta entre Burgos y León, noviembre de 2010. Fotografía de Rocco Rossi.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Camino_de_Santiago_(5364961214).jpg",
+        foco: "50% 55%",
+        alt: "Un caminante de espaldas con mochila grande, siguiendo un sendero de tierra por una llanura sin árboles.",
+      },
+    ],
     entrada:
       "Europa, hacia 1140. Un códice reúne cinco libros sobre el santuario del noroeste de la península. El quinto no se parece a nada anterior: es un manual práctico para quien va a hacer el camino a pie. Divide la ruta en etapas, nombra los ríos, evalúa las posadas y advierte de los peligros con una franqueza que no ha envejecido nada. Dice qué agua mata al caballo que la bebe, qué posaderos cobran de más y qué pueblos conviene cruzar sin pararse. Es, ochocientos años antes de que existiera la palabra, exactamente una guía de viaje. Y está escrita con la mala leche de alguien que ha hecho el camino y ha pagado de más.",
     paginas: [

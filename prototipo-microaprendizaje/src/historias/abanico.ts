@@ -19,6 +19,46 @@ export const ABANICO: Short[] = [
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Abanico plegable abierto sobre una mesa, con el varillaje de madera a la vista.",
+    /* De arriba abajo del short: el objeto entero, para qué se usa, cómo está
+       hecho y en qué se ha convertido. */
+    fotos: [
+      {
+        archivo: "Eventail chinois asymétrique Alcazar Seville Spain.jpg",
+        autor:
+          "Abanico plegable del siglo XVIII, con el varillaje de carey grabado y el país de seda pintado con una escena china. Real Alcázar de Sevilla. Fotografía de Jebulon.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Eventail_chinois_asym%C3%A9trique_Alcazar_Seville_Spain.jpg",
+        foco: "50% 45%",
+        alt: "Un abanico abierto sobre un soporte, con una escena china pintada en el país y las varillas oscuras abriéndose en abanico.",
+      },
+      {
+        archivo: "Laika ac Mitami Matsuri (7574258620).jpg",
+        autor:
+          "Un abanico rígido metido en el fajín, en un festival de verano japonés, julio de 2012. Fotografía de Laika ac.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Laika_ac_Mitami_Matsuri_(7574258620).jpg",
+        foco: "50% 50%",
+        alt: "Una mujer de espaldas con yukata azul entre la gente, con un abanico redondo de papel metido en el fajín.",
+      },
+      {
+        archivo: "Fan, folding (AM 3122-1).jpg",
+        autor:
+          "Abanico inglés de madera y papel del siglo XVIII, con varias de sus varillas sueltas al lado. Auckland War Memorial Museum.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fan,_folding_(AM_3122-1).jpg",
+        foco: "50% 45%",
+        alt: "Un abanico de papel medio abierto sobre fondo azul, con el varillaje de madera a la vista y tres varillas separadas a los lados.",
+      },
+      {
+        archivo: "A woman reading under a punkah, 1863 - BL WD 2904.jpg",
+        autor:
+          "Una mujer leyendo bajo la panca, el abanico de techo que movía a mano un criado tirando de una cuerda. Acuarela de 1863, Berhampur, India. British Library.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_woman_reading_under_a_punkah,_1863_-_BL_WD_2904.jpg",
+        foco: "50% 32%",
+        alt: "Acuarela de un salón colonial de techos altos con una larga tabla colgada del techo sobre la mesa, y una mujer de blanco sentada leyendo.",
+      },
+    ],
     entrada:
       "Japón, siglo VIII, y Europa a partir del XVI. El abanico rígido, que es una pantalla con mango, existe en casi todas las culturas calurosas desde hace milenios. El plegable, en cambio, se inventó en Japón y tardó siglos en llegar a Europa por la ruta de los portugueses. Su gracia es que se guarda en un puño y se despliega en un gesto, y esa gracia salió de mirar algo que no tenía nada que ver con el calor. Lo que hay detrás del abanico plegable es un murciélago, y detrás de su éxito en Europa hay algo todavía más raro: un idioma entero hecho de gestos con la muñeca.",
     paginas: [
