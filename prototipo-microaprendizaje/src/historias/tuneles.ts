@@ -23,8 +23,44 @@ export const TUNELES: Short[] = [
     categoria: "Túneles",
     color: "var(--slate)",
     encargo: "Un armazón de hierro con casillas dentro de una galería de ladrillo.",
+    fotos: [
+      {
+        archivo: "Meyers Universum Band 06 35.jpg",
+        autor: "El túnel del Támesis abierto al público, grabado de Meyer's Universum, 1839.",
+        licencia: "Dominio público",
+        pdPorEdad: 1839,
+        fuente: "https://commons.wikimedia.org/wiki/File:Meyers_Universum_Band_06_35.jpg",
+        foco: "50% 45%",
+        alt: "Grabado de la galería doble del túnel, con arcos de ladrillo, farolas de gas y paseantes con sombrero de copa.",
+      },
+      {
+        archivo: "Original brickwork.jpg",
+        autor: "El ladrillo original del túnel, montado detrás del escudo hace ciento noventa años. Fotografía de Lars Plougmann, 2010.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Original_brickwork.jpg",
+        foco: "50% 35%",
+        alt: "Arcos de ladrillo ennegrecido bajo tierra, con un paso abierto entre las dos galerías.",
+      },
+      {
+        archivo: "Old Limehouse RMG PW0712.tiff",
+        autor: "El Támesis a la altura de Limehouse, aguafuerte de William Lionel Wyllie, hacia 1920.",
+        licencia: "Dominio público",
+        pdPorEdad: 1931,
+        fuente: "https://commons.wikimedia.org/wiki/File:Old_Limehouse_RMG_PW0712.tiff",
+        foco: "50% 55%",
+        alt: "Aguafuerte del río con gabarras, mástiles y remolcadores amarrados junto a los muelles.",
+      },
+      {
+        archivo: "Thames Tunnel walk.jpg",
+        autor: "El mismo túnel hoy, con la vía de tren dentro. Fotografía de Lars Plougmann, 2010.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Thames_Tunnel_walk.jpg",
+        foco: "50% 45%",
+        alt: "La bóveda del túnel iluminada por farolas, con dos raíles perdiéndose en el fondo.",
+      },
+    ],
     entrada:
-      "Londres, 1825. Empieza a excavarse un túnel bajo el río Támesis para unir las dos orillas, algo que nadie ha conseguido nunca bajo un río navegable: dos intentos anteriores se inundaron y se abandonaron. El terreno es arena y grava empapada, que se derrumba en cuanto se abre un hueco. La obra tardará dieciocho años en terminarse.",
+      "Londres, 1825. Empieza a excavarse un túnel bajo el río Támesis para unir las dos orillas a la altura de los muelles, donde el tráfico de barcos hace imposible levantar un puente. Nadie lo ha conseguido nunca por debajo de un río navegable: hubo dos intentos anteriores y los dos se inundaron y se abandonaron a medias. El terreno tampoco ayuda, porque no es roca sino arena y grava empapada que se derrumba en cuanto se abre un hueco, y encima pasa por arriba un río entero con sus mareas. La obra tardará dieciocho años en terminarse.",
     paginas: [
       {
         rotulo: "El gusano",

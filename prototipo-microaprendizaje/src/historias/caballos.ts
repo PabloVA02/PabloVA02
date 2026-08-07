@@ -24,8 +24,44 @@ export const CABALLOS: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Un caballo oscuro en un patio empedrado con una pizarra apoyada delante.",
+    fotos: [
+      {
+        archivo: "Hans 1910.jpg",
+        autor: "El caballo del que hablaba media Europa, fotografiado por Karl Krall en 1910.",
+        licencia: "Dominio público",
+        pdPorEdad: 1929,
+        fuente: "https://commons.wikimedia.org/wiki/File:Hans_1910.jpg",
+        foco: "50% 45%",
+        alt: "Un caballo oscuro y lustroso, de pie sobre un patio adoquinado, mirando a la cámara.",
+      },
+      {
+        archivo: "Hans zeigt Zahlen an.jpg",
+        autor: "El animal señalando con el hocico una de las cifras puestas en el suelo. Fotografía de Karl Krall.",
+        licencia: "Dominio público",
+        pdPorEdad: 1929,
+        fuente: "https://commons.wikimedia.org/wiki/File:Hans_zeigt_Zahlen_an.jpg",
+        foco: "55% 55%",
+        alt: "El caballo baja la cabeza hacia unas tarjetas con números colocadas sobre los adoquines.",
+      },
+      {
+        archivo: "Dark horse eye (Unsplash).jpg",
+        autor: "El ojo de un caballo de cerca. Fotografía de Jez Timms, Menorca, 2016.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Dark_horse_eye_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Primer plano del ojo de un caballo oscuro, con las pestañas y los pelos del flequillo cruzándolo.",
+      },
+      {
+        archivo: "Horse December 2014-1.jpg",
+        autor: "Retrato de un caballo lusitano. Fotografía de Alvesgaspar, Portugal, 2014.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Horse_December_2014-1.jpg",
+        foco: "55% 45%",
+        alt: "Cabeza de un caballo tordo de perfil contra una pared encalada, con la luz del atardecer.",
+      },
+    ],
     entrada:
-      "Berlín, 1904. Un maestro jubilado exhibe en el patio de su casa a un caballo al que asegura haber enseñado aritmética. Le plantean una suma y el animal golpea el suelo con la pata delantera el número exacto de veces. Acierta con restas, con fracciones, con la hora y hasta deletreando palabras mediante un código de golpes.",
+      "Berlín, 1904. Un maestro jubilado exhibe en el patio de su casa, delante de quien quiera pasarse a verlo, a un caballo al que asegura haber enseñado aritmética como se le enseña a un niño. Le plantean una suma en voz alta o escrita en una pizarra y el animal golpea el suelo con la pata delantera el número exacto de veces, ni una más. Acierta con restas, con fracciones, con la hora que marca un reloj y hasta deletreando palabras mediante un código de golpes. No cobra entrada, y los periódicos empiezan a llamarlo el caballo que sabe contar.",
     paginas: [
       {
         rotulo: "La comisión",
