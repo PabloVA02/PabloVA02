@@ -26,6 +26,45 @@ export const DINOSAURIOS: Short[] = [
     color: "var(--forest)",
     curioso: true,
     encargo: "Una losa de pizarra gris con el esqueleto de un animal pequeño marcado y una aureola de filamentos.",
+    fotos: [
+      {
+        archivo: "Berlin Archaeopteryx.jpg",
+        autor:
+          "El ejemplar de Berlín de Archaeopteryx, de hace unos 150 millones de años, con las plumas marcadas en la piedra. Fotografía de Emily Willoughby.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Berlin_Archaeopteryx.jpg",
+        foco: "50% 45%",
+        alt: "Un esqueleto pequeño extendido sobre una losa de piedra clara, con el abanico de las plumas impreso alrededor de los brazos.",
+      },
+      {
+        archivo:
+          "Sinosauropteryx prima, feathered dinosaur plate, Early Cretaceous, Yixian Formation, Liaoning, China - Houston Museum of Natural Science - DSC01872.JPG",
+        autor:
+          "Sinosauropteryx, del yacimiento de Liaoning, en China: el primer dinosaurio que se encontró con plumas. Fotografía de Daderot.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sinosauropteryx_prima,_feathered_dinosaur_plate,_Early_Cretaceous,_Yixian_Formation,_Liaoning,_China_-_Houston_Museum_of_Natural_Science_-_DSC01872.JPG",
+        foco: "50% 45%",
+        alt: "Un esqueleto de dinosaurio pequeño en una losa oscura, con una pelusa clara marcada a lo largo del lomo y la cola.",
+      },
+      {
+        archivo: "Pfauenfeder Detail-20230511-RM-163536.jpg",
+        autor: "Una pluma de pavo real de cerca. Fotografía de Ermell.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pfauenfeder_Detail-20230511-RM-163536.jpg",
+        foco: "50% 45%",
+        alt: "El ojo azul y verde de una pluma de pavo real, con las barbas abiertas alrededor.",
+      },
+      {
+        archivo:
+          "Caudipteryx zoui, feathered dinosaur plate, Early Cretaceous, Yixian Formation, Liaoning, China - Houston Museum of Natural Science - DSC01866.JPG",
+        autor:
+          "Caudipteryx, otro emplumado del mismo yacimiento: tenía plumas de abanico en la cola y no volaba. Fotografía de Daderot.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Caudipteryx_zoui,_feathered_dinosaur_plate,_Early_Cretaceous,_Yixian_Formation,_Liaoning,_China_-_Houston_Museum_of_Natural_Science_-_DSC01866.JPG",
+        foco: "50% 45%",
+        alt: "Un esqueleto de dinosaurio acurrucado en una losa, con las plumas de la cola marcadas en la roca.",
+      },
+    ],
     entrada:
       "China, 1996. Un granjero encuentra en unas pizarras del noreste del país el fósil de un animal del tamaño de un pavo, con dientes, cola larga y garras, y con algo que nadie esperaba: una franja oscura de filamentos rodeando todo el cuerpo. Tiene ciento veinticinco millones de años. Esa franja oscura no son escamas ni un accidente del fósil: es plumaje, y aparece en un animal que no volaba ni se le parecía. Desmonta de golpe el dibujo que llevábamos un siglo haciendo, y desde entonces han aparecido decenas de fósiles iguales en el mismo sitio. Aquellas pizarras conservan lo que casi nunca se conserva: no el hueso, sino lo que había pegado al hueso.",
     paginas: [
