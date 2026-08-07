@@ -22,6 +22,41 @@ export const CUBIERTOS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un tenedor antiguo de dos púas de plata sobre un mantel de lino.",
+    fotos: [
+      {
+        archivo: "Karl Fabergé Russian silver place setting.jpg",
+        autor: "Un cubierto completo de plata en su estuche, de la casa Fabergé.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Karl_Faberg%C3%A9_Russian_silver_place_setting.jpg",
+        foco: "50% 55%",
+        alt: "Cuchillo, cuchara y tenedor de plata labrada colocados en un estuche de madera forrado.",
+      },
+      {
+        archivo: "The Feast in the House of Levi by Paolo Veronese (edited 2).jpg",
+        autor: "«La cena en casa de Leví», de Veronese, 1573. Galería de la Academia, Venecia.",
+        licencia: "Dominio público",
+        pdPorEdad: 1588,
+        fuente: "https://commons.wikimedia.org/wiki/File:The_Feast_in_the_House_of_Levi_by_Paolo_Veronese_(edited_2).jpg",
+        foco: "50% 45%",
+        alt: "Un banquete pintado bajo arcos de mármol, con decenas de figuras alrededor de una mesa larga.",
+      },
+      {
+        archivo: "GeorgianSilverForks.jpg",
+        autor: "Tenedores ingleses de plata del siglo XVIII, ya con cuatro púas.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:GeorgianSilverForks.jpg",
+        foco: "50% 50%",
+        alt: "Varios tenedores antiguos de plata alineados, con los mangos grabados.",
+      },
+      {
+        archivo: "Fork (AM 1932.233-4).jpg",
+        autor: "Un tenedor antiguo de dos púas, de los de pinchar y llevar a la boca. Museo de Auckland.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fork_(AM_1932.233-4).jpg",
+        foco: "50% 50%",
+        alt: "Un tenedor de dos dientes largos con el mango torneado, sobre fondo claro.",
+      },
+    ],
     entrada:
       "Venecia, siglo XI. Una princesa bizantina se casa con el hijo del gobernante de la ciudad y trae de su tierra una costumbre desconocida. Come con un pequeño instrumento de dos púas de oro, en lugar de usar las manos. La reacción de la sociedad veneciana no es de curiosidad, sino de escándalo, y los cronistas lo dejaron por escrito con nombres y apellidos. El argumento contra el tenedor no era de higiene ni de comodidad: era religioso. Y tardó seiscientos años en dejar de esgrimirse, hasta el punto de que en algunos países de Europa el tenedor no entró en las casas normales hasta el siglo XVIII, setecientos años después de aquella boda.",
     paginas: [

@@ -20,6 +20,40 @@ export const CARRETERAS: Short[] = [
     categoria: "Carreteras",
     color: "var(--slate)",
     encargo: "Un tramo de camino de piedra machacada con una cuneta a un lado.",
+    fotos: [
+      {
+        archivo: "Appian Way.jpg",
+        autor: "La Vía Apia a las afueras de Roma, empedrada hace más de dos mil años. Fotografía de Livioandronico2013.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Appian_Way.jpg",
+        foco: "50% 55%",
+        alt: "Una calzada romana de losas grandes y desgastadas, entre pinos, perdiéndose en línea recta.",
+      },
+      {
+        archivo: "L06 933 Via Appia antica, Originalstraßenbelag.jpg",
+        autor: "El firme original de la Vía Apia visto de cerca. Fotografía de Falk2.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:L06_933_Via_Appia_antica,_Originalstra%C3%9Fenbelag.jpg",
+        foco: "50% 55%",
+        alt: "Losas de piedra encajadas unas contra otras, con las juntas marcadas por el uso.",
+      },
+      {
+        archivo: "Harjanne Oy black Scania dumper with trailer.jpg",
+        autor: "Un camión de áridos: la carretera moderna sigue siendo, sobre todo, piedra machacada.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Harjanne_Oy_black_Scania_dumper_with_trailer.jpg",
+        foco: "50% 50%",
+        alt: "Un camión volquete negro con remolque cargado de grava.",
+      },
+      {
+        archivo: "Wet road surface (Unsplash).jpg",
+        autor: "Asfalto mojado. El agua que se ve encima es justo la que no debe quedarse dentro.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wet_road_surface_(Unsplash).jpg",
+        foco: "50% 55%",
+        alt: "La superficie de una carretera mojada, con los reflejos alargados de las luces.",
+      },
+    ],
     entrada:
       "Escocia, 1816. Los caminos europeos son tan malos que un viaje de cien kilómetros puede llevar tres días, y en invierno muchos quedan intransitables. Un ingeniero de caminos que lleva años reparándolos publica entonces un método distinto y mucho más barato que el romano. Toda su idea cabe en una frase: mantener seco el suelo que hay debajo. Lo que rompe un camino no es el peso de los carros, como todo el mundo creía, sino el agua que se queda dentro y lo convierte en barro. Un firme seco aguanta cargas enormes; el mismo firme empapado se deshace con la mitad. De ahí salen tres cosas que tiene cualquier carretera y que casi nadie mira.",
     paginas: [
