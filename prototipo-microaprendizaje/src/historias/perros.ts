@@ -23,6 +23,40 @@ export const PERROS: Short[] = [
     categoria: "Perros",
     color: "var(--ochre)",
     encargo: "Un zorro plateado con una mancha blanca en la frente mirando de frente.",
+    fotos: [
+      {
+        archivo: "Portrait of a red fox in Rautas fjällurskog.jpg",
+        autor: "Un zorro rojo en la nieve, en Laponia. Fotografía de ClaudiaTen.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog.jpg",
+        foco: "55% 45%",
+        alt: "Un zorro naranja de cola espesa mirando a cámara sobre la nieve blanca.",
+      },
+      {
+        archivo: "Vulpes Vulpes in snow.jpg",
+        autor: "Otro zorro rojo. Fotografía de peggycadigan.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vulpes_Vulpes_in_snow.jpg",
+        foco: "50% 45%",
+        alt: "Un zorro caminando por la nieve con las orejas erguidas.",
+      },
+      {
+        archivo: "German Shepherd Dog, Puppy, 5 months, Portrait.jpg",
+        autor: "Un cachorro de pastor alemán de cinco meses. Fotografía de Kristjan S.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:German_Shepherd_Dog,_Puppy,_5_months,_Portrait.jpg",
+        foco: "50% 40%",
+        alt: "Un cachorro de pastor alemán con las orejas grandes y levantadas, mirando de frente.",
+      },
+      {
+        archivo: "DSC09611a Search and Rescue Dog, Austrian Red Cross Perchtoldsdorf, 2024-10.jpg",
+        autor: "Un perro de rescate en un ejercicio de la Cruz Roja austriaca. Fotografía de Aciarium.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DSC09611a_Search_and_Rescue_Dog,_Austrian_Red_Cross_Perchtoldsdorf,_2024-10.jpg",
+        foco: "50% 40%",
+        alt: "Un perro de trabajo con arnés, atento, en un descampado.",
+      },
+    ],
     entrada:
       "Siberia, 1959. Un genetista soviético empieza un experimento en una granja de zorros plateados criados para peletería. La idea es sencilla: en cada generación, elegir solo a los animales que menos miedo tienen a la mano de un humano y cruzarlos entre sí. No selecciona por aspecto, ni por tamaño, ni por color de pelo. Solo por carácter.",
     paginas: [

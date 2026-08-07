@@ -20,6 +20,40 @@ export const MINERIA: Short[] = [
     categoria: "Minería",
     color: "var(--slate)",
     encargo: "Una casa de máquinas de ladrillo con una viga enorme de madera asomando.",
+    fotos: [
+      {
+        archivo: "Headframe in former mine La Découverte 04.jpg",
+        autor: "El castillete de una mina: la torre de la que colgaban las jaulas del pozo. Fotografía de Krzysztof Golik.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Headframe_in_former_mine_La_D%C3%A9couverte_04.jpg",
+        foco: "50% 45%",
+        alt: "Una torre metálica de mina con sus dos grandes poleas arriba, recortada contra el cielo.",
+      },
+      {
+        archivo: "Boulton & Watt steam engine, Sydney Powerhouse Museum, 2014 (15240699214).jpg",
+        autor: "Una máquina de vapor de Boulton y Watt, en el Powerhouse Museum de Sídney.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Boulton_%26_Watt_steam_engine,_Sydney_Powerhouse_Museum,_2014_(15240699214).jpg",
+        foco: "50% 45%",
+        alt: "Una máquina de vapor antigua con su balancín y su volante, montada en una sala de museo.",
+      },
+      {
+        archivo: "Homestake Mine Ross Shaft Headframe.jpg",
+        autor: "El castillete del pozo Ross, en la mina Homestake.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Homestake_Mine_Ross_Shaft_Headframe.jpg",
+        foco: "50% 45%",
+        alt: "Una torre de extracción minera de acero, con la maquinaria de las poleas en lo alto.",
+      },
+      {
+        archivo: "Coal mine interior in Ashland, PA - May 2024.jpg",
+        autor: "Una galería de mina de carbón por dentro, entibada con madera. Fotografía de LostplanetKD73.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Coal_mine_interior_in_Ashland,_PA_-_May_2024.jpg",
+        foco: "50% 50%",
+        alt: "Una galería estrecha de mina apuntalada con vigas de madera, iluminada al fondo.",
+      },
+    ],
     entrada:
       "Inglaterra, 1712. Las minas de carbón y de estaño se han hecho tan profundas que se inundan constantemente, porque por debajo de cierto nivel el agua del terreno entra sola. Sacarla con cubos y caballos cuesta más que el mineral que se extrae, así que muchas galerías buenas se abandonan llenas de agua. Ese es el problema que resuelve la primera máquina de vapor útil.",
     paginas: [
