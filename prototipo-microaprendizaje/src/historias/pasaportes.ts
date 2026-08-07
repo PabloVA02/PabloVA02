@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const PASAPORTES: Short[] = [
   {
     id: "pasaporte-1914",
-    titulo: "Antes se viajaba sin papeles",
+    titulo: "Viajar sin papeles se acabó",
     gancho: "Se cruzaba media Europa sin enseñar nada. La guerra puso el control y ya no se quitó.",
     categoria: "Pasaportes",
     color: "var(--slate)",
     encargo: "Un pasaporte antiguo abierto con una fotografía pegada y sellos de tinta.",
+    fotos: [
+      {
+        archivo: "Gare Du Nord Interior, Paris, France - Diliff.jpg",
+        autor: "La Gare du Nord de París bajo su bóveda de hierro. Fotografía de David Iliff.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gare_Du_Nord_Interior,_Paris,_France_-_Diliff.jpg",
+        foco: "50% 55%",
+        alt: "El interior de una estación enorme con columnas de hierro, andenes iluminados y trenes esperando.",
+      },
+      {
+        archivo: "An Advanced Post, Day Art.IWMART1157.jpg",
+        autor: "«Un puesto avanzado, de día», óleo de John Nash, 1918. Imperial War Museum.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:An_Advanced_Post,_Day_Art.IWMART1157.jpg",
+        foco: "50% 40%",
+        alt: "Soldados con capote color mostaza apretados en una trinchera, con los fusiles apoyados y los ojos cerrados.",
+      },
+      {
+        archivo: "Hall of Mirrors, Versailles (4304198440).jpg",
+        autor: "La galería de los Espejos de Versalles, vacía, en una fotografía de archivo.",
+        licencia: "No restrictions",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hall_of_Mirrors,_Versailles_(4304198440).jpg",
+        foco: "50% 50%",
+        alt: "Una galería larguísima con arcos, espejos y ventanales, sin nadie dentro, en tonos sepia.",
+      },
+      {
+        archivo: "Pasová kontrola, Letiště Burgas.jpg",
+        autor: "Cola de control de pasaportes en el aeropuerto de Burgas. Fotografía de Ondřej Žváček, 2019.",
+        licencia: "CC BY 2.5",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pasov%C3%A1_kontrola,_Leti%C5%A1t%C4%9B_Burgas.jpg",
+        foco: "50% 60%",
+        alt: "Una multitud apretada esperando de pie delante de las cabinas de control de pasaportes de un aeropuerto.",
+      },
+    ],
     entrada:
-      "Europa, 1914. Un ciudadano corriente puede coger un tren en París, bajarse en Berlín, seguir hasta Moscú y volver sin enseñar un solo documento en ninguna frontera. Los pasaportes existen, pero son cartas de recomendación de un gobierno a otro, voluntarias y poco usadas. Ese verano estalla la guerra y todo eso cambia en unas semanas.",
+      "Europa, 1914. Un ciudadano corriente puede comprar un billete, coger un tren en París, bajarse en Berlín, seguir hasta Moscú y volver a casa sin enseñar un solo documento en ninguna frontera del camino. Los pasaportes existen, pero son otra cosa: cartas de recomendación de un gobierno a otro, voluntarias, que se piden si uno quiere y que no hacen falta para nada. Hay quien viaja toda su vida sin haber tenido uno en la mano. Ese verano estalla la guerra, y en cuestión de semanas los países empiezan a exigir papeles en las estaciones y en los puertos.",
     paginas: [
       {
         rotulo: "Los espías",

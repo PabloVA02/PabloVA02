@@ -15,14 +15,48 @@ import type { Short } from "../shorts";
 export const MADERA: Short[] = [
   {
     id: "la-madera-sigue-moviendose",
-    titulo: "La madera no para de moverse",
+    titulo: "La madera sigue moviéndose",
     gancho: "Encoge y se hincha con la humedad del aire, y por eso los muebles antiguos están hechos sin pegar del todo.",
     categoria: "Madera",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una junta de madera vista de cerca, con la veta marcada y una pequeña separación.",
+    fotos: [
+      {
+        archivo: "Weathered wood grain texture macro closeup detail.jpg",
+        autor: "La veta de un tronco a la intemperie, vista de cerca.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Weathered_wood_grain_texture_macro_closeup_detail.jpg",
+        foco: "50% 55%",
+        alt: "Madera vieja abierta a lo largo de la fibra, con los bordes deshilachados y encendidos por una luz cálida.",
+      },
+      {
+        archivo: "2022-03-26 pine tree trunk.JPG",
+        autor: "El corte de un pino recién talado, con la grieta abierta desde el centro.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2022-03-26_pine_tree_trunk.JPG",
+        foco: "50% 50%",
+        alt: "Un tocón cortado a ras de suelo, con los anillos concéntricos claros y una hendidura que llega hasta el borde.",
+      },
+      {
+        archivo: "Timber stacked in sawmill yard (21313837969).jpg",
+        autor: "Tablones apilados para secar al aire en el patio de un aserradero.",
+        licencia: "No restrictions",
+        fuente: "https://commons.wikimedia.org/wiki/File:Timber_stacked_in_sawmill_yard_(21313837969).jpg",
+        foco: "45% 55%",
+        alt: "Montones enormes de tablas cruzadas para que corra el aire entre ellas, con unos hombres de pie encima.",
+      },
+      {
+        archivo: "Skansen w Maurzycach, Łowicki Park Etnograficzny w Maurzycach, 2025, SOULinPIX, KsP 245.jpg",
+        autor: "Granero de tablas y techo de paja en el museo etnográfico de Maurzyce, Polonia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Skansen_w_Maurzycach,_%C5%81owicki_Park_Etnograficzny_w_Maurzycach,_2025,_SOULinPIX,_KsP_245.jpg",
+        foco: "50% 55%",
+        alt: "Un edificio bajo y largo de tablas grises con las juntas abiertas, bajo un tejado de paja y un cielo de nubes.",
+      },
+    ],
     entrada:
-      "Cualquier taller de carpintería, desde hace milenios y todavía hoy. La madera es un material poroso que absorbe y suelta agua según el aire que la rodea, así que nunca se está quieta del todo. Un tablón encoge en invierno con la calefacción y se hincha en verano con la humedad, y ese movimiento puede llegar a varios milímetros por cada palmo de ancho.",
+      "Cualquier taller de carpintería, desde hace milenios y todavía hoy. La madera parece un material muerto y estable, y no lo es: sigue siendo un tejido poroso que absorbe y suelta agua según el aire que la rodea, de modo que nunca se está quieta del todo, ni siquiera un siglo después de que se cortara el árbol. Un tablón encoge en invierno con la calefacción puesta y se hincha en verano con la humedad, y ese movimiento puede llegar a varios milímetros por cada palmo de ancho. Suena a poco y no lo es: sobra para partir un tablero, atrancar una puerta o levantar un suelo entero.",
     paginas: [
       {
         rotulo: "El movimiento",

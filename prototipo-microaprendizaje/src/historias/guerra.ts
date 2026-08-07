@@ -23,8 +23,42 @@ export const GUERRA: Short[] = [
     categoria: "Guerra",
     color: "var(--clay)",
     encargo: "Una columna de humo altísima vista desde muy lejos, en blanco y negro.",
+    fotos: [
+      {
+        archivo: "Atomic cloud over Hiroshima.jpg",
+        autor: "La columna de humo sobre Hiroshima, fotografiada desde uno de los aviones el 6 de agosto de 1945.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Hiroshima.jpg",
+        foco: "50% 42%",
+        alt: "Una columna de humo blanco altísima que se abre en hongo sobre una llanura oscura, en blanco y negro.",
+      },
+      {
+        archivo: "Enola Gay 81-9471.jpg",
+        autor: "El bombardero que llevó la bomba, en la pista de las islas Marianas.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Enola_Gay_81-9471.jpg",
+        foco: "45% 52%",
+        alt: "Un cuatrimotor plateado aparcado en una pista, con el nombre pintado en el morro y las hélices paradas.",
+      },
+      {
+        archivo: "Shadow of a ladder on the gasholder at Minami-machi, Hiroshima City - 15 October 1945 - Kikuchi Shunkichi.png",
+        autor: "La sombra de una escalera marcada por el calor en el gasómetro de Minami-machi. Fotografía de Shunkichi Kikuchi, octubre de 1945.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Shadow_of_a_ladder_on_the_gasholder_at_Minami-machi,_Hiroshima_City_-_15_October_1945_-_Kikuchi_Shunkichi.png",
+        foco: "55% 40%",
+        alt: "Una pared de chapa remachada quemada, con la silueta oscura de una escalera impresa en la pintura.",
+      },
+      {
+        archivo: "Atomic Bomb Dome, Hiroshima, South view 20190417 1.jpg",
+        autor: "La Cúpula de la Bomba Atómica, dejada en pie tal como quedó. Hiroshima, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Atomic_Bomb_Dome,_Hiroshima,_South_view_20190417_1.jpg",
+        foco: "50% 45%",
+        alt: "El esqueleto de un edificio de ladrillo con la estructura metálica de la cúpula al aire, junto a un río.",
+      },
+    ],
     entrada:
-      "Japón, 6 de agosto de 1945. La Segunda Guerra Mundial lleva seis años y en Europa ya ha terminado, pero Japón sigue luchando. Estados Unidos ha construido en secreto un arma nueva, de una potencia que nadie ha visto: en lugar de quemar un explosivo, parte átomos. Aquella mañana, un bombardero despega con una sola bomba dentro y con la orden de soltarla sobre una ciudad de trescientos cincuenta mil habitantes.",
+      "Japón, 6 de agosto de 1945. La Segunda Guerra Mundial lleva seis años y en Europa ya ha terminado, pero Japón sigue luchando y se prepara para una invasión que se da por segura. Estados Unidos ha construido mientras tanto, en secreto y con decenas de miles de trabajadores que no sabían en qué estaban participando, un arma de una potencia que nadie ha visto todavía: en lugar de quemar un explosivo químico, parte átomos, y una sola unidad hace el trabajo de miles de toneladas de bombas corrientes. Aquella mañana un bombardero despega con una sola bomba dentro y con la orden de soltarla sobre una ciudad de trescientos cincuenta mil habitantes.",
     paginas: [
       {
         rotulo: "El objetivo",

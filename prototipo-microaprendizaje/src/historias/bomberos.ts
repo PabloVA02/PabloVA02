@@ -19,13 +19,49 @@ import type { Short } from "../shorts";
 export const BOMBEROS: Short[] = [
   {
     id: "placas-de-seguro",
-    titulo: "Del incendio salió el seguro",
+    titulo: "El seguro nació de un fuego",
     gancho: "Cada compañía tenía sus bomberos y su placa. Con la placa de otra, pasaban de largo.",
     categoria: "Bomberos",
     color: "var(--clay)",
     encargo: "Una placa metálica antigua con un emblema clavada en una fachada de ladrillo.",
+    fotos: [
+      {
+        archivo: "Verschuier-fire.jpg",
+        autor: "El gran incendio de Londres visto desde el río, óleo de Lieve Verschuier, 1666.",
+        licencia: "Dominio público",
+        pdPorEdad: 1686,
+        fuente: "https://commons.wikimedia.org/wiki/File:Verschuier-fire.jpg",
+        foco: "50% 45%",
+        alt: "La ciudad ardiendo al fondo con el cielo rojo, y en primer término barcas cargadas de gente huyendo por el agua.",
+      },
+      {
+        archivo: "Great Fire London.jpg",
+        autor: "El incendio de 1666 pintado por un artista anónimo hacia 1675. Museum of London.",
+        licencia: "Dominio público",
+        pdPorEdad: 1700,
+        fuente: "https://commons.wikimedia.org/wiki/File:Great_Fire_London.jpg",
+        foco: "50% 50%",
+        alt: "Una línea entera de casas en llamas junto al Támesis, con el puente de Londres a la izquierda y la Torre a la derecha.",
+      },
+      {
+        archivo: "Two old fire insurance plaques. 11 Princelet Street.jpg",
+        autor: "Dos placas de compañías de seguros contra incendios en una fachada de Londres. Fotografía de Maggie Jones.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Two_old_fire_insurance_plaques._11_Princelet_Street.jpg",
+        foco: "50% 45%",
+        alt: "Dos placas de metal, una verdosa con tres caras y otra con un sol y un número, clavadas en un muro de ladrillo.",
+      },
+      {
+        archivo: "1882 Horse-drawn Shand, Mason & Co. steam fire engine pic2.JPG",
+        autor: "Bomba de vapor de incendios tirada por caballos, de 1882. Fotografía de Alf van Beem.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:1882_Horse-drawn_Shand,_Mason_%26_Co._steam_fire_engine_pic2.JPG",
+        foco: "50% 62%",
+        alt: "Una máquina de latón y hierro sobre ruedas de radios rojos, con la caldera vertical y la manguera enrollada detrás.",
+      },
+    ],
     entrada:
-      "Londres, septiembre de 1666. Un fuego empezado en una panadería arrasa la ciudad durante cuatro días: arden trece mil casas, ochenta y siete iglesias y la catedral, y ochenta mil personas se quedan sin techo. No existe ningún servicio de bomberos ni ninguna manera de recuperar lo perdido. La reconstrucción hay que pagarla del propio bolsillo.",
+      "Londres, septiembre de 1666. Un fuego que empieza de madrugada en una panadería de Pudding Lane se extiende con el viento por calles de casas de madera pegadas unas a otras y arde durante cuatro días seguidos. Cuando por fin se apaga han desaparecido trece mil casas, ochenta y siete iglesias y la catedral, y ochenta mil personas se han quedado sin techo, acampadas en los campos de las afueras. No existe ningún servicio de bomberos organizado, sino vecinos con cubos y ganchos para derribar tejados, y tampoco existe ninguna manera de recuperar lo perdido: la reconstrucción hay que pagarla del propio bolsillo.",
     paginas: [
       {
         rotulo: "La póliza",

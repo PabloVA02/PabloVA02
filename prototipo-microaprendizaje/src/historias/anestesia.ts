@@ -17,13 +17,47 @@ import type { Short } from "../shorts";
 export const ANESTESIA: Short[] = [
   {
     id: "gas-de-la-risa-de-feria",
-    titulo: "El gas de la risa",
+    titulo: "De la feria al quirófano",
     gancho: "Se vendía en fiestas y espectáculos de feria mientras en los quirófanos se seguía operando en carne viva.",
     categoria: "Anestesia",
     color: "var(--plum)",
     encargo: "Una bolsa de tela hinchada con una boquilla de madera, sobre una mesa de salón antiguo.",
+    fotos: [
+      {
+        archivo: "Nitrous oxide cylinder, Europe, 1840-1868 Wellcome L0058164.jpg",
+        autor: "Recipiente de óxido nitroso europeo, entre 1840 y 1868. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nitrous_oxide_cylinder,_Europe,_1840-1868_Wellcome_L0058164.jpg",
+        foco: "55% 50%",
+        alt: "Un cilindro barrigudo de latón lacado en negro, con aros metálicos y una llave de paso de bronce.",
+      },
+      {
+        archivo: "Ramsay Grove Museum of Victorian Life Interior Drawing Room 2.jpg",
+        autor: "Un salón victoriano reconstruido, con la repisa de la chimenea cargada de adornos. Fotografía de Zairon, 2022.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ramsay_Grove_Museum_of_Victorian_Life_Interior_Drawing_Room_2.jpg",
+        foco: "50% 45%",
+        alt: "Una habitación de papel pintado verde con chimenea negra, jarrones de porcelana, una piel de tigre y un piano.",
+      },
+      {
+        archivo: "Copy of the Squire-type ether inhaler first used in 1846 Wellcome L0057829.jpg",
+        autor: "Copia del inhalador de éter tipo Squire, el primero que se usó en un quirófano en 1846. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Copy_of_the_Squire-type_ether_inhaler_first_used_in_1846_Wellcome_L0057829.jpg",
+        foco: "50% 45%",
+        alt: "Un recipiente de vidrio en forma de campana con una esponja dentro y un tubo de goma que sale hacia una boquilla.",
+      },
+      {
+        archivo: "Two nitrous oxide cylinders, England, 1915-1940 Wellcome L0058165.jpg",
+        autor: "Dos bombonas de óxido nitroso inglesas, entre 1915 y 1940. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Two_nitrous_oxide_cylinders,_England,_1915-1940_Wellcome_L0058165.jpg",
+        foco: "50% 45%",
+        alt: "Dos botellas negras de gas tumbadas sobre un fondo espejado, con las llaves de latón unidas por un puente.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1799. Un joven químico de veinte años que investiga gases en un instituto médico prueba en sí mismo uno recién descubierto, el óxido nitroso. Anota que le provoca euforia, risa incontrolable y una curiosa insensibilidad: escribe que le calmó un dolor de muelas y sugiere por escrito que quizá sirva para operar sin dolor. Nadie le hace caso durante cuarenta y cinco años.",
+      "Inglaterra, 1799. Un joven químico de veinte años que investiga gases en un instituto médico de Bristol hace lo que se hacía entonces: probarlos en sí mismo. Le toca el turno a uno recién descubierto, el óxido nitroso, y respira tanto y tan a menudo que llega a preocupar a sus colegas. Anota con detalle lo que siente: euforia, risa incontrolable y una curiosa insensibilidad. Escribe además que en pleno efecto se le pasó un dolor de muelas que llevaba días molestándole, y sugiere por escrito que quizá el gas sirva para operar sin dolor. Nadie le hace caso durante cuarenta y cinco años.",
     paginas: [
       {
         rotulo: "La bolsa del salón",

@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const RUEDA: Short[] = [
   {
     id: "rueda-tardia",
-    titulo: "La rueda llegó tarde y no para viajar",
+    titulo: "La rueda no era para viajar",
     gancho: "Se usó antes para hacer vasijas que para mover nada. Y en América, solo en juguetes.",
     categoria: "Rueda",
     color: "var(--slate)",
     encargo: "Un torno de alfarero de piedra girando con barro encima.",
+    fotos: [
+      {
+        archivo: "02025 0230 Early medieval potter at work.jpg",
+        autor: "Un alfarero trabajando sobre un torno de disco, en una recreación de oficios antiguos.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:02025_0230_Early_medieval_potter_at_work.jpg",
+        foco: "58% 62%",
+        alt: "Un hombre inclinado sobre un gran disco de madera que gira, modelando con las dos manos un cuenco de barro.",
+      },
+      {
+        archivo: "Old wooden wheels (53620865911).jpg",
+        autor: "Ruedas de carro de madera apoyadas en un pajar. Fotografía de Winniepix, 2024.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Old_wooden_wheels_(53620865911).jpg",
+        foco: "55% 50%",
+        alt: "Dos ruedas de radios de madera gastada apoyadas contra unas tablas, con los bujes de hierro en el centro.",
+      },
+      {
+        archivo: "Wheel VeracruzCulture.jpg",
+        autor: "Figura de cerámica con ruedas de la cultura de Veracruz, en México.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wheel_VeracruzCulture.jpg",
+        foco: "48% 55%",
+        alt: "Un animal de barro con la boca abierta montado sobre cuatro ruedecitas de cerámica que giran de verdad.",
+      },
+      {
+        archivo: "Calle Inca Roca - Cusco - Peru - dry stone wall.jpg",
+        autor: "Muro incaico de la calle Hatun Rumiyoc, en Cuzco. Fotografía de AgainErick, 2009.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Calle_Inca_Roca_-_Cusco_-_Peru_-_dry_stone_wall.jpg",
+        foco: "42% 50%",
+        alt: "Un muro de piedras enormes encajadas sin mortero, cada una con su forma, junto a una calle empedrada.",
+      },
+    ],
     entrada:
-      "Mesopotamia, hacia el año 3500 antes de Cristo. Aparecen las primeras ruedas de las que hay constancia, y no son de carro: son tornos de alfarero, discos pesados que giran en horizontal para modelar vasijas. Para entonces la humanidad lleva ya milenios cultivando, tejiendo, fundiendo metales, escribiendo en tablillas y levantando ciudades amuralladas con miles de habitantes dentro.",
+      "Mesopotamia, hacia el año 3500 antes de Cristo. Aparecen las primeras ruedas de las que hay constancia, y no son ruedas de carro: son tornos de alfarero, discos pesados que giran en horizontal sobre un pivote para modelar vasijas con las dos manos. Pasarán unos siglos antes de que a alguien se le ocurra ponerlas de canto y engancharlas a un animal. Y para entonces la humanidad lleva ya varios milenios cultivando cereales, tejiendo, fundiendo metales, escribiendo en tablillas de barro y levantando ciudades amuralladas con miles de habitantes dentro. La rueda no está al principio de nada: llega tarde.",
     paginas: [
       {
         rotulo: "El eje",
