@@ -18,11 +18,46 @@ import type { Short } from "../shorts";
 export const ZOOS: Short[] = [
   {
     id: "coleccion-real",
-    titulo: "Los reyes coleccionaban animales como joyas",
+    titulo: "El zoo era del rey",
     gancho: "Un elefante regalado en 1255 vivió dos años en una fortaleza de Londres bebiendo vino.",
     categoria: "Zoos",
     color: "var(--clay)",
     encargo: "Una torre de piedra medieval con jaulas de madera adosadas al muro.",
+    fotos: [
+      {
+        archivo: "Wien-Schönbrunn, Tiergarten, der Kaiserpavillon.JPG",
+        autor:
+          "El pabellón imperial del zoo de Schönbrunn, en Viena, de 1752: el zoológico más antiguo del mundo que sigue abierto. Fotografía de Dguendel.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wien-Sch%C3%B6nbrunn,_Tiergarten,_der_Kaiserpavillon.JPG",
+        foco: "50% 45%",
+        alt: "Un pabellón barroco amarillo de planta octogonal con cúpula de cobre verde, en un jardín.",
+      },
+      {
+        archivo: "Schloss Schönbrunn von der Gloriette aus..jpg",
+        autor: "El palacio de Schönbrunn, del que el zoo era el jardín de fieras. Fotografía de Erlingerl1.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Schloss_Sch%C3%B6nbrunn_von_der_Gloriette_aus..jpg",
+        foco: "50% 50%",
+        alt: "El palacio amarillo de Schönbrunn visto desde arriba, con sus jardines recortados delante.",
+      },
+      {
+        archivo: "Lion zoo Addis Ababa 4.jpg",
+        autor: "Un león en un zoológico. Fotografía de Jean-François Paumier.",
+        licencia: "CC BY 2.5",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lion_zoo_Addis_Ababa_4.jpg",
+        foco: "50% 40%",
+        alt: "Un león de melena oscura tumbado, mirando de frente.",
+      },
+      {
+        archivo: "London, Tower of London -- 2016 -- 4689.jpg",
+        autor: "La Torre de Londres, que tuvo su propia colección de fieras durante seiscientos años.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:London,_Tower_of_London_--_2016_--_4689.jpg",
+        foco: "50% 50%",
+        alt: "Las torres de piedra de la Torre de Londres con sus almenas, junto al río.",
+      },
+    ],
     entrada:
       "Londres, 1255. Llega a la ciudad un elefante africano, regalo de un rey a otro, y se instala en la fortaleza real junto a los leones, un oso polar y un lince que ya viven allí. Es el primer elefante que se ve en las islas desde la época romana, y se le construye una casa de madera de doce metros de largo.",
     paginas: [

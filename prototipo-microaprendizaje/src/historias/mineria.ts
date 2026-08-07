@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const MINERIA: Short[] = [
   {
     id: "la-bomba-que-cambio-el-mundo",
-    titulo: "El vapor nació achicando agua",
+    titulo: "El vapor achicaba agua",
     gancho: "Las minas se inundaban y no había forma de vaciarlas. De ese problema salió la máquina que movió el siglo XIX.",
     categoria: "Minería",
     color: "var(--slate)",

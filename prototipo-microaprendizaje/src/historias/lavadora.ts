@@ -21,6 +21,42 @@ export const LAVADORA: Short[] = [
     categoria: "Lavadora",
     color: "var(--slate)",
     encargo: "Una tina de zinc con ropa y una tabla de restregar apoyada dentro.",
+    fotos: [
+      {
+        archivo:
+          "A woman doing laundry at a sink with a washboard - DPLA - 15aa1922feffe3b0747ff2f07dbb13ef.jpg",
+        autor: "Una mujer lavando a mano sobre la tabla de restregar, en los años treinta. Fotografía de John Sanromá.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_woman_doing_laundry_at_a_sink_with_a_washboard_-_DPLA_-_15aa1922feffe3b0747ff2f07dbb13ef.jpg",
+        foco: "50% 50%",
+        alt: "Una mujer inclinada sobre una pila, restregando ropa contra una tabla de madera acanalada.",
+      },
+      {
+        archivo: "Women washing laundry in a river, NINO F Scholten Jourdain Mer Morte 1 090.tiff",
+        autor: "Lavando en el río, que es como se hizo la colada durante milenios. Fotografía de Frank Scholten.",
+        licencia: "Dominio público",
+        pdPorEdad: 1942,
+        fuente: "https://commons.wikimedia.org/wiki/File:Women_washing_laundry_in_a_river,_NINO_F_Scholten_Jourdain_Mer_Morte_1_090.tiff",
+        foco: "50% 50%",
+        alt: "Varias mujeres agachadas en la orilla de un río, frotando ropa contra las piedras.",
+      },
+      {
+        archivo: "Guam women washing laundry in stream, June 1945.tif",
+        autor: "Colada en un arroyo, Guam, 1945. Archivos Nacionales de Estados Unidos.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Guam_women_washing_laundry_in_stream,_June_1945.tif",
+        foco: "50% 50%",
+        alt: "Mujeres lavando ropa metidas hasta las rodillas en un arroyo, entre la vegetación.",
+      },
+      {
+        archivo: "A woman doing laundry at a sink with a washboard - DPLA - 2579d506de283563dca22c303a9b5e69.jpg",
+        autor: "La misma colada, un momento después. Fotografía de John Sanromá.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_woman_doing_laundry_at_a_sink_with_a_washboard_-_DPLA_-_2579d506de283563dca22c303a9b5e69.jpg",
+        foco: "50% 50%",
+        alt: "La misma escena de la pila y la tabla de restregar, con la ropa a remojo.",
+      },
+    ],
     entrada:
       "Europa y América, 1900. En una casa sin agua corriente, lavar la ropa de una familia ocupa un día completo de trabajo físico duro, y por eso tiene día fijo en la semana. Los manuales domésticos de la época lo describen paso a paso con una frialdad que asusta: acarrear, hervir, restregar, aclarar tres veces, escurrir y tender.",
     paginas: [

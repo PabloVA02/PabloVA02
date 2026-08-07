@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const PERROS: Short[] = [
   {
     id: "zorros-de-siberia",
-    titulo: "Unos zorros explicaron al perro",
+    titulo: "El zorro explica al perro",
     gancho: "Seleccionaron solo por mansedumbre y salieron orejas caídas, colas curvadas y manchas blancas.",
     categoria: "Perros",
     color: "var(--ochre)",
