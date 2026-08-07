@@ -25,6 +25,43 @@ export const ELECTRICIDAD: Short[] = [
     categoria: "Electricidad",
     color: "var(--clay)",
     encargo: "Postes de madera con decenas de cables cruzados sobre una calle de 1890.",
+    fotos: [
+      {
+        archivo: "Nikola Tesla, with his equipment EDIT.jpg",
+        autor:
+          "Tesla sentado en su laboratorio de Colorado Springs mientras su bobina descarga, 1899. Fotografía de Dickenson V. Alley.",
+        licencia: "Dominio público",
+        pdPorEdad: 1929,
+        fuente: "https://commons.wikimedia.org/wiki/File:Nikola_Tesla,_with_his_equipment_EDIT.jpg",
+        foco: "50% 45%",
+        alt: "Un hombre leyendo sentado en una nave de madera mientras chispas enormes cruzan el aire por encima de él.",
+      },
+      {
+        archivo: "Vintage edison light bulb.jpg",
+        autor: "Una bombilla de filamento a la vista, como las que había que alimentar.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vintage_edison_light_bulb.jpg",
+        foco: "50% 45%",
+        alt: "Una bombilla de cristal transparente con el filamento encendido en naranja dentro.",
+      },
+      {
+        archivo: "Niagara Falls, mill district on American shore, ca. 1900.jpg",
+        autor: "Las fábricas al pie del Niágara hacia 1900, donde se decidió la pelea. Detroit Publishing Co.",
+        licencia: "Dominio público",
+        pdPorEdad: 1924,
+        fuente: "https://commons.wikimedia.org/wiki/File:Niagara_Falls,_mill_district_on_American_shore,_ca._1900.jpg",
+        foco: "50% 50%",
+        alt: "Una hilera de fábricas de ladrillo con chimeneas junto al río, en una fotografía antigua.",
+      },
+      {
+        archivo: "FvfCoralnaBatoSRc0731 03.JPG",
+        autor: "Torres de alta tensión: la corriente alterna ganó porque se puede subir de voltaje y llevar lejos.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:FvfCoralnaBatoSRc0731_03.JPG",
+        foco: "50% 45%",
+        alt: "Torres metálicas de alta tensión con sus cables cruzando el cielo.",
+      },
+    ],
     entrada:
       "Estados Unidos, finales de la década de 1880. La luz eléctrica acaba de llegar a las ciudades y hay dos maneras incompatibles de repartirla. Una empresa apuesta por la corriente continua y otra por la alterna, que viaja mucho más lejos sin perderse por el camino. Solo puede ganar una, porque ninguna ciudad va a instalarse dos redes enteras. Lo que sigue no es un debate técnico entre ingenieros: es una campaña de propaganda que incluye electrocutar animales en público para demostrar que la corriente del rival mata. Terminó con un elefante electrocutado delante de mil quinientas personas y con una cámara grabándolo.",
     paginas: [

@@ -25,6 +25,40 @@ export const AGUA: Short[] = [
     categoria: "Agua",
     color: "var(--ochre)",
     encargo: "Un barco pesquero oxidado escorado sobre arena seca, sin agua a la vista.",
+    fotos: [
+      {
+        archivo: "Aral Sea.jpg",
+        autor: "Barcos varados en la arena donde estaba el mar de Aral. Fotografía de Ecpirolli.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Aral_Sea.jpg",
+        foco: "50% 50%",
+        alt: "Dos barcos oxidados encallados sobre arena seca, con nieve a manchas y un cielo plomizo.",
+      },
+      {
+        archivo: "Closeup image of a cotton field in Raichur Karnataka.jpg",
+        autor: "Un campo de algodón. El cultivo que se llevó el agua de los ríos que alimentaban el Aral.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Closeup_image_of_a_cotton_field_in_Raichur_Karnataka.jpg",
+        foco: "50% 50%",
+        alt: "Cápsulas de algodón abiertas y blancas sobre las matas verdes de un campo.",
+      },
+      {
+        archivo: "Earth from Space- The shrinking Aral Sea ESA507898.jpg",
+        autor: "El mar de Aral desde el satélite, con la marca de la orilla antigua a la vista. Agencia Espacial Europea.",
+        licencia: "Attribution",
+        fuente: "https://commons.wikimedia.org/wiki/File:Earth_from_Space-_The_shrinking_Aral_Sea_ESA507898.jpg",
+        foco: "50% 50%",
+        alt: "Vista de satélite del Aral: una mancha de agua pequeña dentro del cerco blanco de lo que fue el mar.",
+      },
+      {
+        archivo: "Cotton boll nearly ready for harvest.jpg",
+        autor: "Una cápsula de algodón a punto de recogerse. Fotografía de Michael Bass-Deschênes.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cotton_boll_nearly_ready_for_harvest.jpg",
+        foco: "50% 45%",
+        alt: "Una cápsula de algodón abierta, con la fibra blanca saliendo de las valvas secas.",
+      },
+    ],
     entrada:
       "Asia central, 1960. El mar de Aral es el cuarto lago del planeta, con sesenta y ocho mil kilómetros cuadrados de agua salada, una flota pesquera que saca cuarenta mil toneladas de pescado al año y puertos con astilleros y fábricas de conservas. Ese año empieza un plan para desviar los dos ríos que lo alimentan hacia campos de algodón en mitad del desierto. Nadie lo hace a escondidas ni por error: está calculado, publicado y aprobado, y los propios planificadores escriben que el lago se irá secando. Lo consideran un precio razonable, y lo dicen con estas palabras: el mar de Aral tiene que morir con elegancia.",
     paginas: [
