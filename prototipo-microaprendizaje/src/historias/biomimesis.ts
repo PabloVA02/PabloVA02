@@ -22,6 +22,40 @@ export const BIOMIMESIS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una bolita seca de cardo enganchada en un tejido de lana.",
+    fotos: [
+      {
+        archivo: "Bur Macro BlackBg.jpg",
+        autor: "Una cabezuela de cardo vista de cerca: cada punta acaba en un gancho. Fotografía de Zephyris.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bur_Macro_BlackBg.jpg",
+        foco: "50% 45%",
+        alt: "Una bola verde erizada de espinas sobre fondo negro, con cada espina terminada en un garfio anaranjado.",
+      },
+      {
+        archivo: "Arctium lappa BW 2026 G1.jpg",
+        autor: "La bardana, la planta de esos cardos, en el campo. Fotografía de George Chernilevsky.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Arctium_lappa_BW_2026_G1.jpg",
+        foco: "50% 45%",
+        alt: "Una mata de bardana con sus cabezuelas espinosas y flores moradas.",
+      },
+      {
+        archivo: "Suchý zip na spacáku.jpg",
+        autor: "Las dos caras del velcro: los ganchos y el bucle. Fotografía de Topi Pigula.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Such%C3%BD_zip_na_spac%C3%A1ku.jpg",
+        foco: "55% 50%",
+        alt: "Dos tiras negras de velcro cosidas a una tela: una de ganchos rígidos y otra de rizo blando.",
+      },
+      {
+        archivo: "2023 Opaski rzepowe.jpg",
+        autor: "Bridas de velcro, uno de los mil sitios donde acabó el invento. Fotografía de Jacek Halicki.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2023_Opaski_rzepowe.jpg",
+        foco: "50% 50%",
+        alt: "Dos bridas de velcro enrolladas sobre fondo blanco, con la cara de ganchos y la de rizo a la vista.",
+      },
+    ],
     entrada:
       "Suiza, 1941. Un ingeniero eléctrico vuelve de una jornada de caza en los Alpes con el pantalón y el pelo de su perro cubiertos de esas bolitas de cardo que se pegan a todo. En lugar de limpiarlas y olvidarse, se lleva unas cuantas a casa y las mira con un microscopio para entender por qué se agarran con tanta fuerza. Lo que ve no es pegamento ni electricidad: son cientos de ganchitos diminutos, y cada uno ha encontrado un lazo de tela donde engancharse. Tarda ocho años en fabricar eso mismo con hilo, y otros diez en que alguien se lo compre. Lo que llevaba en el pantalón era el sistema con el que las semillas viajan pegadas al lomo de los animales.",
     paginas: [

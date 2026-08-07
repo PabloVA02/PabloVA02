@@ -25,6 +25,41 @@ export const POLITICA: Short[] = [
     categoria: "Política",
     color: "var(--slate)",
     encargo: "Un muro de hormigón pintado con gente encima al anochecer, focos de fondo.",
+    fotos: [
+      {
+        archivo: "BrandenburgerTorDezember1989.jpg",
+        autor:
+          "La Puerta de Brandeburgo en diciembre de 1989, con gente encaramada al muro por los dos lados. Fotografía de F. Lee Corkran.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:BrandenburgerTorDezember1989.jpg",
+        foco: "50% 50%",
+        alt: "Una multitud a los pies del muro pintado de grafitis, con la Puerta de Brandeburgo detrás.",
+      },
+      {
+        archivo: "Lascar Short section of the Berlin Wall - Potsdamer Platz (4472165454).jpg",
+        autor: "Un trozo del muro conservado en la Potsdamer Platz de Berlín. Fotografía de Jorge Láscar.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lascar_Short_section_of_the_Berlin_Wall_-_Potsdamer_Platz_(4472165454).jpg",
+        foco: "50% 50%",
+        alt: "Varios paneles de hormigón del muro, cubiertos de pegatinas y pintadas, en medio de una plaza.",
+      },
+      {
+        archivo: "Brandenburg Gate 2017 002.jpg",
+        autor: "La Puerta de Brandeburgo hoy, sin muro delante. Fotografía de Mike Peel.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_2017_002.jpg",
+        foco: "50% 45%",
+        alt: "La Puerta de Brandeburgo iluminada, con la cuadriga de bronce encima y gente paseando por delante.",
+      },
+      {
+        archivo: "Lascar Brandenburg Gate (4471389757).jpg",
+        autor: "La cuadriga de la Puerta de Brandeburgo de cerca. Fotografía de Jorge Láscar.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lascar_Brandenburg_Gate_(4471389757).jpg",
+        foco: "50% 45%",
+        alt: "El carro tirado por cuatro caballos que corona la Puerta de Brandeburgo, recortado contra el cielo.",
+      },
+    ],
     entrada:
       "Berlín, 9 de noviembre de 1989. Alemania lleva veintiocho años partida en dos por un muro de hormigón que separa la mitad comunista de la occidental dentro de la misma ciudad. Aquella tarde, un portavoz del gobierno del Este sale a dar una rueda de prensa rutinaria con unos folios en la mano que no ha terminado de leer. En ellos hay un cambio en las normas de viaje que el gobierno pensaba aplicar poco a poco y con orden. Lo que pasa en los treinta segundos siguientes no lo había planeado nadie, y menos él. Un periodista le pregunta algo que no viene en los folios, él busca la respuesta entre los papeles, no la encuentra y contesta lo primero que le parece razonable.",
     paginas: [
