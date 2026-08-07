@@ -68,12 +68,24 @@ let mal = 0;
 for (const f of todas) {
   const u = "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo"
     + "&iiprop=extmetadata%7Csize&titles=" + encodeURIComponent("File:" + f.archivo);
+  /* Commons corta si se le pide muy seguido y contesta con un aviso en texto
+     plano en vez de JSON. Se espera un poco entre peticiones y se reintenta
+     dos veces antes de darlo por fallo, que si no salen «errores» que no lo
+     son y hacen desconfiar del listado entero. */
   let p;
-  try {
-    const { stdout } = await ejecuta("curl", ["-sS", "--max-time", "30", "-H", `User-Agent: ${UA}`, u],
-      { maxBuffer: 16 * 1024 * 1024 });
-    p = Object.values(JSON.parse(stdout).query.pages)[0];
-  } catch (e) { console.log(`  ? ${f.fichero}: no se pudo consultar — ${e.message}`); mal++; continue; }
+  for (let intento = 0; intento < 3; intento++) {
+    try {
+      const { stdout } = await ejecuta("curl", ["-sS", "--max-time", "30", "-H", `User-Agent: ${UA}`, u],
+        { maxBuffer: 16 * 1024 * 1024 });
+      p = Object.values(JSON.parse(stdout).query.pages)[0];
+      break;
+    } catch (e) {
+      if (intento === 2) { console.log(`  ? ${f.fichero}: no se pudo consultar — ${e.message}`); mal++; }
+      else await new Promise((r) => setTimeout(r, 1500 * (intento + 1)));
+    }
+  }
+  if (!p) continue;
+  await new Promise((r) => setTimeout(r, 120));
 
   if (p.missing !== undefined) { console.log(`  ✗ ${f.fichero}: NO EXISTE en Commons — ${f.archivo}`); mal++; continue; }
   const i = p.imageinfo[0];
