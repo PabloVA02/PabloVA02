@@ -21,6 +21,41 @@ export const PLATA: Short[] = [
     categoria: "Plata",
     color: "var(--slate)",
     encargo: "Un cerro cónico y pelado dominando un pueblo de tejados bajos a gran altitud.",
+    fotos: [
+      {
+        archivo: "Cerro Rico over Potosí, Bolivia.jpg",
+        autor: "El Cerro Rico sobre Potosí, en Bolivia: de ahí salió la plata. Fotografía de Jbmurray.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cerro_Rico_over_Potos%C3%AD,_Bolivia.jpg",
+        foco: "50% 40%",
+        alt: "Un cerro cónico y pelado, con vetas de colores, levantándose justo detrás de los tejados de una ciudad.",
+      },
+      {
+        archivo: "Potosí - hora Cerro Rico - 4.824 m.n.m. - panoramio.jpg",
+        autor: "El Cerro Rico desde otro ángulo, a casi cinco mil metros. Fotografía de Pavel Špindler.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Potos%C3%AD_-_hora_Cerro_Rico_-_4.824_m.n.m._-_panoramio.jpg",
+        foco: "50% 45%",
+        alt: "La mole del Cerro Rico, agujereada de bocaminas, con la ciudad a sus pies.",
+      },
+      {
+        archivo: "Spanish Eight Reales (FindID 492568).jpg",
+        autor: "Un real de a ocho español, la moneda de plata que circuló por medio mundo.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Spanish_Eight_Reales_(FindID_492568).jpg",
+        foco: "50% 50%",
+        alt: "Las dos caras de una moneda grande de plata con el escudo y las columnas.",
+      },
+      {
+        archivo:
+          "Post-Medieval Coin, Colonial Spanish silver 1-real 'cob' piece of Philip III or Philip IV (FindID 898989).jpg",
+        autor: "Un real recortado a martillo, de los que se acuñaban en América.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Post-Medieval_Coin,_Colonial_Spanish_silver_1-real_%27cob%27_piece_of_Philip_III_or_Philip_IV_(FindID_898989).jpg",
+        foco: "50% 50%",
+        alt: "Una moneda de plata irregular, cortada a golpes y con el sello marcado encima.",
+      },
+    ],
     entrada:
       "Andes, 1545. Un pastor que busca una llama perdida enciende fuego para pasar la noche en la ladera de un cerro y descubre por la mañana un hilo de metal fundido entre las cenizas. La historia es probablemente una leyenda, pero la montaña era real y resultó ser la mayor concentración de plata jamás encontrada. A cuatro mil metros de altura se levantó una ciudad.",
     paginas: [

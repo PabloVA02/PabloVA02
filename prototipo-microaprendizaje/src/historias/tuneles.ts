@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const TUNELES: Short[] = [
   {
     id: "tunel-bajo-el-rio",
-    titulo: "Un molusco inspiró el primer túnel submarino",
+    titulo: "Un molusco hizo el túnel",
     gancho: "Un gusano que perfora la madera de los barcos y va revistiendo el agujero por detrás.",
     categoria: "Túneles",
     color: "var(--slate)",

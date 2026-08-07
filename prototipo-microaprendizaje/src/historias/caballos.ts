@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const CABALLOS: Short[] = [
   {
     id: "caballo-que-contaba",
-    titulo: "El caballo que sabía contar",
+    titulo: "El caballo que contaba",
     gancho: "Daba con la pata el resultado exacto de una multiplicación. Leía la cara del que preguntaba.",
     categoria: "Caballos",
     color: "var(--clay)",

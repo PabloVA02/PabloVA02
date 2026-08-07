@@ -19,11 +19,47 @@ import type { Short } from "../shorts";
 export const PUENTES: Short[] = [
   {
     id: "brooklyn-roebling",
-    titulo: "El puente de Brooklyn lo dirigió su mujer",
+    titulo: "El puente lo dirigió ella",
     gancho: "El ingeniero jefe quedó inválido a media obra. Ella aprendió el oficio y mandó once años.",
     categoria: "Puentes",
     color: "var(--slate)",
     encargo: "Los cables de un puente colgante antiguo vistos desde abajo, contra el cielo.",
+    fotos: [
+      {
+        archivo: "Brooklyn Bridge at sunset from Brooklyn Bridge Park, New York City.jpg",
+        autor: "El puente de Brooklyn al atardecer, desde el parque de la orilla. Fotografía de SebastianBlumeArt.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_at_sunset_from_Brooklyn_Bridge_Park,_New_York_City.jpg",
+        foco: "50% 45%",
+        alt: "El puente de Brooklyn con su torre de piedra y sus tirantes, bajo un cielo de nubes encendidas.",
+      },
+      {
+        archivo:
+          "Detail view of underside of deck showing connection between diagonal cable and superstructure. Jet Lowe, photographer, 1982. - Brooklyn Bridge, Spanning East River between Park HAER NY,31-NEYO,90-55.tif",
+        autor: "El amarre de los tirantes al tablero del puente. Fotografía de Jet Lowe, 1982.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Detail_view_of_underside_of_deck_showing_connection_between_diagonal_cable_and_superstructure._Jet_Lowe,_photographer,_1982._-_Brooklyn_Bridge,_Spanning_East_River_between_Park_HAER_NY,31-NEYO,90-55.tif",
+        foco: "50% 50%",
+        alt: "El entramado de acero bajo el tablero del puente, con los cables anclados uno a uno.",
+      },
+      {
+        archivo: "Caisson for the Construction of a Pier(GN04899).jpg",
+        autor: "Un cajón de cimentación como los que se hundieron bajo el río para levantar las torres.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Caisson_for_the_Construction_of_a_Pier(GN04899).jpg",
+        foco: "50% 50%",
+        alt: "Un cajón enorme de obra a medio hundir en el agua, con la estructura de trabajo encima.",
+      },
+      {
+        archivo: "Currier and Ives Brooklyn Bridge2.jpg",
+        autor: "El puente recién terminado en una litografía de Currier and Ives, 1883.",
+        licencia: "Dominio público",
+        pdPorEdad: 1888,
+        fuente: "https://commons.wikimedia.org/wiki/File:Currier_and_Ives_Brooklyn_Bridge2.jpg",
+        foco: "50% 45%",
+        alt: "Litografía en color del puente de Brooklyn con veleros cruzando por debajo.",
+      },
+    ],
     entrada:
       "Nueva York, 1869. Se empieza a construir el puente colgante más largo del mundo para unir Manhattan con la ciudad vecina de Brooklyn, que entonces era independiente. Hay que hundir en el fondo del río dos torres de piedra de más de ochenta metros. El ingeniero que lo diseñó muere de tétanos antes de poner la primera piedra.",
     paginas: [
