@@ -19,14 +19,48 @@ import type { Short } from "../shorts";
 export const PERFUME: Short[] = [
   {
     id: "perfume-numero-cinco",
-    titulo: "Salió de un error de dosis",
+    titulo: "Pidió que no oliera a flor",
     gancho: "Un ayudante se pasó con la dosis de un ingrediente nuevo, y se quedó esa muestra.",
     categoria: "Perfume",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un frasco de perfume rectangular y sencillo sobre un fondo blanco liso.",
+    fotos: [
+      {
+        archivo: "Chanel - Flickr - Kevin Rheese.jpg",
+        autor: "El frasco rectangular de tapón octogonal, iluminado de cerca. Fotografía de Kevin Rheese, 2015.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chanel_-_Flickr_-_Kevin_Rheese.jpg",
+        foco: "50% 55%",
+        alt: "Un frasco de perfume de vidrio grueso con tapón cuadrado, recortado contra una luz rosa y naranja.",
+      },
+      {
+        archivo: "Perfume Organ.jpg",
+        autor: "El órgano de un perfumista: cada frasco, una materia prima. Fotografía de Mx. Granger, 2024.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Perfume_Organ.jpg",
+        foco: "50% 50%",
+        alt: "Estanterías de madera en gradas con cientos de frascos etiquetados, llenos de líquidos ámbar y marrón.",
+      },
+      {
+        archivo: "Leather covered perfume case, Netherlands, 1671-1700 Wellcome L0058618.jpg",
+        autor: "Estuche de perfume forrado de piel con frascos de plata, Países Bajos, finales del siglo XVII. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Leather_covered_perfume_case,_Netherlands,_1671-1700_Wellcome_L0058618.jpg",
+        foco: "50% 55%",
+        alt: "Un cofre de piel abierto con forro rosa y cuatro frascos de vidrio con tapones de plata encajados dentro.",
+      },
+      {
+        archivo: "Lavender field at the foot of the Alps, Provence, France (51695209778).jpg",
+        autor: "Campo de lavanda al pie de los Alpes, en Provenza. Fotografía de dronepicr, 2021.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lavender_field_at_the_foot_of_the_Alps,_Provence,_France_(51695209778).jpg",
+        foco: "50% 62%",
+        alt: "Hileras moradas de lavanda que se pierden en el horizonte, con montañas al fondo y nubes altas.",
+      },
+    ],
     entrada:
-      "Sur de Francia, 1920. Una modista parisina que ha revolucionado la ropa femenina quiere un perfume distinto de todo lo que existe. Los de la época imitan una flor concreta: rosa, jazmín, violeta. Ella pide algo que no huela a ninguna flor identificable, sino a mujer limpia, y le encarga la mezcla a un perfumista ruso.",
+      "Sur de Francia, 1920. Una modista parisina que acaba de cambiar la manera de vestir de media Europa quiere ahora un perfume, y lo quiere distinto de todo lo que hay en las tiendas. Los de la época imitan siempre una flor concreta y se llaman como ella: rosa, jazmín, violeta, lirio del valle. A ella le parecen todos iguales y todos empalagosos. Lo que pide es algo que no huela a ninguna flor identificable, que no se pueda nombrar señalando un jardín, sino que huela sencillamente a mujer limpia. Le encarga la mezcla a un perfumista ruso instalado en Grasse.",
     paginas: [
       {
         rotulo: "Las muestras",

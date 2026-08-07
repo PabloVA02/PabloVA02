@@ -20,13 +20,50 @@ import type { Short } from "../shorts";
 export const ARTE: Short[] = [
   {
     id: "gioconda-robo",
-    titulo: "La Gioconda se hizo famosa robada",
+    titulo: "El robo hizo la Gioconda",
     gancho: "En 1911 era un cuadro más. Salió del Louvre bajo una bata de trabajo.",
     categoria: "Arte",
     color: "var(--plum)",
     encargo: "Una pared de museo vacía con los cuatro ganchos de un cuadro descolgado.",
+    fotos: [
+      {
+        archivo: "Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
+        autor: "El retrato de Leonardo da Vinci, pintado entre 1503 y 1506. Museo del Louvre.",
+        licencia: "Dominio público",
+        pdPorEdad: 1519,
+        fuente: "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+        foco: "50% 30%",
+        alt: "El retrato de una mujer sentada con las manos cruzadas, con un paisaje de rocas y agua detrás.",
+      },
+      {
+        archivo: "Alexandre Brun - View of the Salon Carré at the Louvre.jpg",
+        autor: "El Salón Cuadrado del Louvre, óleo de Alexandre Brun, hacia 1880.",
+        licencia: "Dominio público",
+        pdPorEdad: 1911,
+        fuente: "https://commons.wikimedia.org/wiki/File:Alexandre_Brun_-_View_of_the_Salon_Carr%C3%A9_at_the_Louvre.jpg",
+        foco: "50% 45%",
+        alt: "Una sala de museo con las paredes cubiertas de cuadros del suelo al techo y dos visitantes diminutos.",
+      },
+      {
+        archivo: "Grande Galerie Louvre by Thomas Allom.jpg",
+        autor: "La Gran Galería del Louvre con los copistas trabajando, grabado de Thomas Allom, hacia 1844.",
+        licencia: "Dominio público",
+        pdPorEdad: 1872,
+        fuente: "https://commons.wikimedia.org/wiki/File:Grande_Galerie_Louvre_by_Thomas_Allom.jpg",
+        foco: "50% 45%",
+        alt: "Grabado de una galería abovedada larguísima, con caballetes y pintores copiando los cuadros de las paredes.",
+      },
+      {
+        archivo: "Crowd looking at the Mona Lisa at the Louvre.jpg",
+        autor: "La cola diaria delante del cuadro. Fotografía de Victor Grigas, 2014.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Crowd_looking_at_the_Mona_Lisa_at_the_Louvre.jpg",
+        foco: "62% 45%",
+        alt: "Una multitud apretada levantando móviles y cámaras hacia un cuadro pequeño colgado en una pared beige.",
+      },
+    ],
     entrada:
-      "La fama no está dentro de los objetos. Es algo que decide una multitud y que luego olvida haber decidido, y de tarde en tarde se ve cómo se fabrica una. El lunes 21 de agosto de 1911, con el Louvre cerrado, un albañil italiano llamado Vincenzo Peruggia descolgó un retrato pequeño, le quitó el marco en una escalera de servicio, se lo metió bajo la bata y salió por la puerta.",
+      "La fama no está dentro de los objetos. Es algo que decide una multitud y que después olvida haber decidido, y de tarde en tarde se puede ver cómo se fabrica una desde cero. El lunes 21 de agosto de 1911, con el Louvre cerrado al público por ser día de limpieza, un albañil italiano llamado Vincenzo Peruggia que había trabajado en el propio museo descolgó de la pared un retrato pequeño, se metió en una escalera de servicio, le quitó allí mismo el marco y el cristal, escondió la tabla bajo la bata blanca de trabajo y salió tranquilamente por la puerta. Nadie lo paró.",
     paginas: [
       {
         rotulo: "Antes",

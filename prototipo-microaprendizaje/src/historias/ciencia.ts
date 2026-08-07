@@ -20,13 +20,47 @@ import type { Short } from "../shorts";
 export const CIENCIA: Short[] = [
   {
     id: "tabla-periodica",
-    titulo: "La tabla dejó huecos a propósito",
+    titulo: "Mendeléiev dejó huecos",
     gancho: "Su autor no solo ordenó lo que se conocía: predijo tres elementos que nadie había visto.",
     categoria: "Ciencia",
     color: "var(--slate)",
     encargo: "Una cuartilla antigua con símbolos químicos escritos a mano y tachones.",
+    fotos: [
+      {
+        archivo: "Bismuth Cristal artificiel GLAM MHNL Minéralogie FL 2016 A 11.JPG",
+        autor: "Cristal artificial de bismuto, Museo de Historia Natural de Lille. Fotografía de Lamiot, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bismuth_Cristal_artificiel_GLAM_MHNL_Min%C3%A9ralogie_FL_2016_A_11.JPG",
+        foco: "52% 50%",
+        alt: "Un cristal metálico con escalones cuadrados que se hunden en espiral hacia el centro, tornasolado en verdes y dorados.",
+      },
+      {
+        archivo: "Gold nugget (Australia) 4 (16848647509).jpg",
+        autor: "Pepita de oro australiana. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gold_nugget_(Australia)_4_(16848647509).jpg",
+        foco: "50% 45%",
+        alt: "Una masa de oro macizo con la superficie llena de pliegues y huecos, brillando bajo la luz.",
+      },
+      {
+        archivo: "Gallium crystals 1.JPG",
+        autor: "Cristales de galio, el elemento que la tabla predijo antes de que nadie lo encontrara. Fotografía de Maxim Bilovitskiy.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gallium_crystals_1.JPG",
+        foco: "50% 50%",
+        alt: "Seis trozos de metal plateado con caras planas como espejos, sobre un fondo gris claro.",
+      },
+      {
+        archivo: "Geissler tubes (switched on).jpg",
+        autor: "Tubos de Geissler encendidos, con gases enrarecidos dando cada uno su color. Fotografía de Paul Downey.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Geissler_tubes_(switched_on).jpg",
+        foco: "52% 48%",
+        alt: "Tubos de vidrio curvados y encendidos en azul, verde y naranja sobre un fondo oscuro.",
+      },
+    ],
     entrada:
-      "Rusia, 1869. Se conocen sesenta y tres elementos químicos —el oxígeno, el hierro, el oro— y no hay manera de ordenarlos: cada uno se descubrió por su lado y nadie sabe si son sesenta y tres o si faltan. Un profesor de química de treinta y cinco años está escribiendo un manual para sus alumnos y necesita presentarlos en algún orden que se entienda.",
+      "Rusia, 1869. Se conocen sesenta y tres elementos químicos —el oxígeno, el hierro, el oro— y no hay ninguna manera aceptada de ordenarlos. Cada uno se descubrió por su lado, en un laboratorio distinto y en un país distinto, y no existe forma de saber si la lista está completa o si faltan diez, cien o ninguno. Se han propuesto agrupaciones sueltas, tríos de elementos que se parecen, pero nada que valga para todos a la vez. Un profesor de química de treinta y cinco años está escribiendo un manual para sus alumnos y necesita presentarlos en algún orden que se entienda al leerlo.",
     paginas: [
       {
         rotulo: "Las cartas",

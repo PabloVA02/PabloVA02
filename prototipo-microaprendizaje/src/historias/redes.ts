@@ -19,14 +19,48 @@ import type { Short } from "../shorts";
 export const REDES: Short[] = [
   {
     id: "primer-emoticono",
-    titulo: "El primer emoticono se propuso para marcar bromas",
+    titulo: "Un bulo trajo el emoticono",
     gancho: "En un foro universitario discutían si un aviso de mercurio derramado iba en serio.",
     categoria: "Redes",
     color: "var(--slate)",
     curioso: true,
     encargo: "Una pantalla verde de terminal antigua con dos puntos, un guion y un paréntesis.",
+    fotos: [
+      {
+        archivo: "TSD Computer -,Schreib und Bürotechnik DEC ASCII Computer-Terminal digital VT 100.jpg",
+        autor: "Un terminal DEC VT100, de los que se usaban para escribir en los tablones de aquellos años. Fotografía de NoRud.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:TSD_Computer_-,Schreib_und_B%C3%BCrotechnik_DEC_ASCII_Computer-Terminal_digital_VT_100.jpg",
+        foco: "50% 45%",
+        alt: "Un terminal de ordenador de carcasa color crema con pantalla apagada y teclado negro, sobre una mesa de madera.",
+      },
+      {
+        archivo: "Adler Typewriter Keyboard Close-up.jpg",
+        autor: "El teclado de una máquina de escribir Adler, con los signos de puntuación en la fila de arriba. Fotografía de Maksym Kozlenko.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Adler_Typewriter_Keyboard_Close-up.jpg",
+        foco: "50% 55%",
+        alt: "Teclado negro de máquina de escribir visto desde arriba, con las teclas de puntuación y paréntesis a la vista.",
+      },
+      {
+        archivo: "Magnetic tape library at USDA.jpg",
+        autor: "Un almacén de cintas magnéticas de copia de seguridad, Departamento de Agricultura de Estados Unidos, 1966.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Magnetic_tape_library_at_USDA.jpg",
+        foco: "50% 40%",
+        alt: "Pasillo estrecho entre estanterías llenas de bobinas de cinta magnética, con tres hombres al fondo.",
+      },
+      {
+        archivo: "Emoji bales (36765488293).jpg",
+        autor: "Balas de forraje envueltas y pintadas como emoticonos. Fotografía de Tony Hisgett, 2017.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Emoji_bales_(36765488293).jpg",
+        foco: "50% 50%",
+        alt: "Seis balas redondas envueltas en plástico lila, apiladas en pirámide y pintadas con caras sonrientes.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1982. En el tablón electrónico de una universidad, los profesores y estudiantes de informática discuten un problema práctico: en los mensajes escritos no se distingue una broma de un aviso serio. Alguien había puesto una advertencia falsa sobre un derrame de mercurio en un ascensor del edificio y varios profesores se la creyeron del todo.",
+      "Estados Unidos, 1982. En el tablón electrónico de una universidad, un sitio donde profesores y estudiantes de informática dejan mensajes escritos que lee todo el departamento, se discute un problema muy práctico. En un texto sin cara ni voz no hay manera de distinguir una broma de un aviso serio, y la confusión ya ha dado algún disgusto: alguien colgó una advertencia falsa sobre un derrame de mercurio en un ascensor del edificio, escrita con toda la seriedad del mundo, y varios profesores se la creyeron y evacuaron. El hilo que se abre a continuación busca una solución sencilla.",
     paginas: [
       {
         rotulo: "La propuesta",

@@ -18,13 +18,48 @@ import type { Short } from "../shorts";
 export const MICROSCOPIO: Short[] = [
   {
     id: "comerciante-de-telas",
-    titulo: "Un vendedor de telas las vio",
+    titulo: "Un pañero vio las bacterias",
     gancho: "Sin estudios y con lentes que pulía él mismo, doscientos años antes que ningún científico.",
     categoria: "Microscopios",
     color: "var(--ochre)",
     encargo: "Una placa de latón pequeña con una lente diminuta y una aguja delante.",
+    fotos: [
+      {
+        archivo: "Jan Verkolje - Antonie van Leeuwenhoek.jpg",
+        autor: "Antonie van Leeuwenhoek retratado por Jan Verkolje hacia 1685, con uno de sus aparatos sobre la mesa.",
+        licencia: "Dominio público",
+        pdPorEdad: 1693,
+        fuente: "https://commons.wikimedia.org/wiki/File:Jan_Verkolje_-_Antonie_van_Leeuwenhoek.jpg",
+        foco: "52% 35%",
+        alt: "Óleo de un hombre de melena rizada y bata naranja, sentado a una mesa con papeles y un instrumento de latón.",
+      },
+      {
+        archivo: "Glaskugeln -- 2021 -- 9208.jpg",
+        autor: "Bolas de vidrio macizo. Fotografía de Dietmar Rabich, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Glaskugeln_--_2021_--_9208.jpg",
+        foco: "50% 50%",
+        alt: "Esferas de vidrio del color de la miel amontonadas, cada una con un punto de luz dentro.",
+      },
+      {
+        archivo: "Dülmen, Kirchspiel, Welte, Morgentau auf Grashalmen -- 2021 -- 7569.jpg",
+        autor: "Rocío de la mañana sobre las briznas de hierba. Fotografía de Dietmar Rabich, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_Welte,_Morgentau_auf_Grashalmen_--_2021_--_7569.jpg",
+        foco: "50% 55%",
+        alt: "Hierba a contraluz al amanecer, con gotas de agua colgando de cada punta como lentes diminutas.",
+      },
+      {
+        archivo: "Coscinodiscus oculus-iridis (Ehrenberg) Ehrenberg 1840 diatom shell. Colored SEM image.jpg",
+        autor: "Caparazón de una diatomea visto al microscopio electrónico y coloreado. Fotografía de Pável Sómov.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Coscinodiscus_oculus-iridis_(Ehrenberg)_Ehrenberg_1840_diatom_shell._Colored_SEM_image.jpg",
+        foco: "50% 50%",
+        alt: "Un disco verde perfectamente redondo, perforado por miles de agujeros ordenados, sobre fondo negro.",
+      },
+    ],
     entrada:
-      "Delft, en los Países Bajos, 1674. Un comerciante de telas de cuarenta y dos años, sin formación universitaria y sin saber latín, mira una gota de agua de un lago con un aparato que ha fabricado él mismo y ve dentro seres diminutos moviéndose. Nadie ha visto nunca eso, y nadie volverá a verlo con esa nitidez en dos siglos.",
+      "Delft, en los Países Bajos, 1674. Un comerciante de telas de cuarenta y dos años, sin formación universitaria y sin saber latín —el idioma en el que se escribía entonces toda la ciencia—, coge una gota de agua de un lago cercano y la mira con un aparato que ha fabricado él mismo en su casa. Dentro hay seres diminutos moviéndose por su cuenta, algunos alargados, otros redondos, unos más veloces que otros. Nadie ha visto nunca nada parecido, y nadie volverá a verlo con esa nitidez hasta doscientos años después. El hombre empezó a fabricar lentes para contar los hilos de la tela.",
     paginas: [
       {
         rotulo: "La lente",
