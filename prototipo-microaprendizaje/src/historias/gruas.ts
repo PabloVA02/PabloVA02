@@ -21,6 +21,41 @@ export const GRUAS: Short[] = [
     categoria: "Grúas",
     color: "var(--plum)",
     encargo: "Una rueda de madera enorme bajo el techo de una iglesia, con una cuerda enrollada en su eje.",
+    fotos: [
+      {
+        archivo: "Salisbury Cathedral, tower interior, treadmill crane.jpg",
+        autor:
+          "La rueda de andar que sigue montada en la torre de la catedral de Salisbury, con la maroma enrollada en el eje. Fotografía de Gaius Cornelius.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Salisbury_Cathedral,_tower_interior,_treadmill_crane.jpg",
+        foco: "50% 45%",
+        alt: "Una rueda enorme de madera dentro de una torre de piedra, con una maroma gruesa enrollada en su eje.",
+      },
+      {
+        archivo: "Salisbury Cathedral Spire - Wiltshire.jpg",
+        autor: "La aguja de la catedral de Salisbury, ciento veintitrés metros. Fotografía de Sumit Surai.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Salisbury_Cathedral_Spire_-_Wiltshire.jpg",
+        foco: "50% 40%",
+        alt: "La aguja de piedra de una catedral gótica levantándose sobre el resto del edificio.",
+      },
+      {
+        archivo: "Flying Buttresses Notre Dame Paris 04 2024 8737.jpg",
+        autor: "Los arbotantes de Notre Dame de París, que llevan el peso de la bóveda hasta el suelo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Flying_Buttresses_Notre_Dame_Paris_04_2024_8737.jpg",
+        foco: "50% 50%",
+        alt: "Una hilera de arcos de piedra apoyados en contrafuertes, saliendo del costado de una catedral.",
+      },
+      {
+        archivo: "Gothic cloisters of Sé do Porto Portugal (17120324410).png",
+        autor: "El claustro gótico de la catedral de Oporto. Fotografía de Terry Kearney.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gothic_cloisters_of_S%C3%A9_do_Porto_Portugal_(17120324410).png",
+        foco: "50% 50%",
+        alt: "Los arcos y las bóvedas de piedra de un claustro gótico, en penumbra.",
+      },
+    ],
     entrada:
       "Europa, siglos XIII a XVI. Para construir una catedral hay que subir bloques de piedra de una o dos toneladas hasta treinta o cuarenta metros de altura, y no existe ningún motor. La solución que se usó durante siglos sigue colgada en el desván de muchas catedrales: una rueda de madera de varios metros de diámetro con uno o dos hombres andando por dentro, como un hámster. No es una anécdota pintoresca: es la máquina que levantó las catedrales de media Europa, y sigue instalada bajo los tejados de muchas de ellas porque nunca se llegó a desmontar. Un hombre dentro de una rueda de cuatro metros levanta dos toneladas él solo.",
     paginas: [

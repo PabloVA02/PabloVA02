@@ -23,6 +23,43 @@ export const FARAONES: Short[] = [
     categoria: "Faraones",
     color: "var(--ochre)",
     encargo: "Bloques de piedra caliza enormes vistos desde muy cerca, al sol.",
+    fotos: [
+      {
+        archivo: "Sunset at the Pyramids.jpg",
+        autor: "Las pirámides de Guiza al atardecer. Fotografía de Spottedviper.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sunset_at_the_Pyramids.jpg",
+        foco: "50% 55%",
+        alt: "Las siluetas de dos pirámides recortadas contra un cielo naranja con el sol encima.",
+      },
+      {
+        archivo: "Towards Pyramid of Khafre.jpg",
+        autor: "Los bloques de la pirámide de Kefrén vistos de cerca. Fotografía de Bilal Detailz.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Towards_Pyramid_of_Khafre.jpg",
+        foco: "50% 50%",
+        alt: "Las hiladas de bloques de piedra de una pirámide, cada uno del tamaño de una persona.",
+      },
+      {
+        archivo: "Deir el-Medina-12-Grab 1-Sennedjem-Feldbau-1982-gje.jpg",
+        autor:
+          "Pintura de la tumba de Sennedjem, en el poblado de obreros de Deir el-Medina. Fotografía de Gerd Eichmann.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Deir_el-Medina-12-Grab_1-Sennedjem-Feldbau-1982-gje.jpg",
+        foco: "50% 45%",
+        alt: "Pintura egipcia de colores vivos con figuras trabajando el campo, en la pared de una tumba.",
+      },
+      {
+        archivo:
+          "Schiaparelli's excavations - Theban region, Deir el-Medina, Excavations at the village, temple and chapels, 1906-1909, photo 8 of 38 - Archivio fotografico Museo Egizio, Turin C02039.jpg",
+        autor:
+          "Las excavaciones del poblado de Deir el-Medina, donde vivían los obreros. Archivo fotográfico del Museo Egipcio de Turín.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Schiaparelli%27s_excavations_-_Theban_region,_Deir_el-Medina,_Excavations_at_the_village,_temple_and_chapels,_1906-1909,_photo_8_of_38_-_Archivio_fotografico_Museo_Egizio,_Turin_C02039.jpg",
+        foco: "50% 50%",
+        alt: "Los cimientos de un poblado de casas pequeñas excavado en la ladera del desierto.",
+      },
+    ],
     entrada:
       "Meseta de Guiza, siglo XXVI antes de Cristo. Se construye la pirámide más grande de Egipto con más de dos millones de bloques de piedra. La idea de que la levantaron esclavos a latigazos viene de un historiador griego que escribió dos mil años después y de las películas. Las excavaciones de las últimas décadas cuentan una cosa bastante distinta. A un tiro de piedra de la pirámide apareció el poblado donde vivían los obreros, con sus panaderías, sus almacenes de cerveza, sus corrales y sus cementerios. Y lo que hay enterrado allí no encaja con la imagen del esclavo a latigazos: hay tumbas con nombre propio y listas de reparto de pan y cerveza.",
     paginas: [
