@@ -23,6 +23,41 @@ export const ACERO: Short[] = [
     categoria: "Acero",
     color: "var(--slate)",
     encargo: "La hoja de una espada antigua con ondulaciones claras y oscuras en la superficie.",
+    fotos: [
+      {
+        archivo: "Front and back of blades of hair-cutting shears made from Damascus steel.jpg",
+        autor: "Las vetas del acero de damasco en las hojas de unas tijeras. Fotografía de Pittigrilli.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Front_and_back_of_blades_of_hair-cutting_shears_made_from_Damascus_steel.jpg",
+        foco: "50% 50%",
+        alt: "Dos hojas de acero pulido recorridas por vetas onduladas claras y oscuras, como las de la madera.",
+      },
+      {
+        archivo:
+          "A masterpiece of blacksmith craftsmanship - Damascus knife in a very modern Bowie knife design forged from cannon steel from the Leopard I main battle tank. Length of the knife blade 26 centimeters. Picture one.jpg",
+        autor: "Un cuchillo forjado en acero de damasco moderno. Fotografía de Lupus in Saxonia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_masterpiece_of_blacksmith_craftsmanship_-_Damascus_knife_in_a_very_modern_Bowie_knife_design_forged_from_cannon_steel_from_the_Leopard_I_main_battle_tank._Length_of_the_knife_blade_26_centimeters._Picture_one.jpg",
+        foco: "50% 50%",
+        alt: "La hoja de un cuchillo grande con el dibujo del damasco recorriéndola de punta a mango.",
+      },
+      {
+        archivo: "Nanotube Soot (6648549965).jpg",
+        autor: "Hollín de nanotubos de carbono al microscopio. Es la clase de estructura que se encontró dentro del acero antiguo.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nanotube_Soot_(6648549965).jpg",
+        foco: "50% 50%",
+        alt: "Una maraña de filamentos finísimos vista al microscopio electrónico.",
+      },
+      {
+        archivo: "Quantum dot circuit (24964113547).jpg",
+        autor: "Imagen de microscopio electrónico: así se mira hoy lo que hay dentro de un metal.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Quantum_dot_circuit_(24964113547).jpg",
+        foco: "50% 50%",
+        alt: "Estructuras metálicas muy ampliadas al microscopio electrónico, en grises.",
+      },
+    ],
     entrada:
       "Oriente Próximo, siglos IX a XVIII. Los herreros forjan hojas de espada con un dibujo de bandas onduladas en la superficie, como vetas de madera o remolinos de agua, y con una fama enorme de dureza y de filo. El acero de partida llega en tortas desde la India. En algún momento del siglo XVIII la producción se para y la técnica se pierde por completo. No queda un solo herrero capaz de repetirla, ni un manual, ni una receta: solo quedan las hojas ya hechas. Durante doscientos años nadie ha conseguido fabricar una igual sabiendo de antemano lo que iba a salir. Y cuando se metió una hoja antigua en un microscopio de los buenos, lo que apareció dentro no lo esperaba nadie.",
     paginas: [

@@ -26,6 +26,40 @@ export const BICHOS: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Un pulpo común sobre fondo oscuro, los brazos extendidos, piel texturada.",
+    fotos: [
+      {
+        archivo: "Octopus vulgaris.004 - Aquarium Finisterrae.jpg",
+        autor: "Las ventosas de un pulpo común vistas desde debajo del cristal. Fotografía de Fernando Losada Rodríguez.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Octopus_vulgaris.004_-_Aquarium_Finisterrae.jpg",
+        foco: "50% 45%",
+        alt: "Los brazos de un pulpo pegados al cristal, con las ventosas blancas alineadas y muy nítidas.",
+      },
+      {
+        archivo: "Dettaglio dell'occhio di un polpo.jpg",
+        autor: "El ojo de un pulpo de cerca. Fotografía de Federico Stefanelli.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Dettaglio_dell%27occhio_di_un_polpo.jpg",
+        foco: "50% 45%",
+        alt: "El ojo dorado y rasgado de un pulpo, con la piel rugosa alrededor.",
+      },
+      {
+        archivo: "Octopus arm showing suckers 0451.jpg",
+        autor: "Un brazo de pulpo con sus dos filas de ventosas. Fotografía de Betty Wills.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Octopus_arm_showing_suckers_0451.jpg",
+        foco: "50% 45%",
+        alt: "Un brazo de pulpo enroscado, con las ventosas en dos hileras a lo largo.",
+      },
+      {
+        archivo: "Pulpo común (Octopus vulgaris), Parque natural de la Arrábida, Portugal, 2020-07-21, DD 46.jpg",
+        autor: "Un pulpo común camuflado entre las algas, en Portugal. Fotografía de Diego Delso.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pulpo_com%C3%BAn_(Octopus_vulgaris),_Parque_natural_de_la_Arr%C3%A1bida,_Portugal,_2020-07-21,_DD_46.jpg",
+        foco: "50% 45%",
+        alt: "Un pulpo confundido con el fondo de algas: solo se le distinguen el ojo y una hilera de ventosas.",
+      },
+    ],
     entrada:
       "Ningún animal es raro porque sí. Los antepasados del pulpo llevaban concha y la soltaron a cambio de poder colarse por cualquier grieta: un bicho que pasa por donde le pase el pico es un bicho difícil de cenar. Fue un buen trato. Pero quedarse blando en un mar lleno de dientes obliga a rehacerlo todo por dentro, y esa factura se sigue pagando. El pulpo tiene tres corazones, la sangre azul y un cerebro repartido por los brazos, y ninguna de esas tres cosas es un capricho de la evolución: las tres salen de haber soltado la concha. Y hay una cuarta consecuencia más rara todavía: el corazón que le mueve la sangre por el cuerpo se le para cada vez que nada.",
     paginas: [
