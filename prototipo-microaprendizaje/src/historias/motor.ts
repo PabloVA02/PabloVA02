@@ -16,13 +16,48 @@ import type { Short } from "../shorts";
 export const MOTOR: Short[] = [
   {
     id: "bertha-benz",
-    titulo: "El primer viaje lo hizo ella",
+    titulo: "El coche lo probó su mujer",
     gancho: "Su marido llevaba dos años sin vender ninguno. Ella cogió uno de madrugada y se fue.",
     categoria: "Motor",
     color: "var(--clay)",
     encargo: "Un carruaje de tres ruedas con motor, en un camino de tierra, a primera hora.",
+    fotos: [
+      {
+        archivo: "Beaulieu Motor Museum, Benz Patent Motorwagen (1886) - geograph.org.uk - 8064654.jpg",
+        autor: "El triciclo de motor de 1886, el coche del viaje. Fotografía de Michael Garlick, Museo de Beaulieu.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Beaulieu_Motor_Museum,_Benz_Patent_Motorwagen_(1886)_-_geograph.org.uk_-_8064654.jpg",
+        foco: "50% 50%",
+        alt: "Un carruaje de tres ruedas con radios de bicicleta, banco de madera y motor de latón a la vista.",
+      },
+      {
+        archivo: "Dülmen, Dernekamp, Allee -- 2026 -- 1265.jpg",
+        autor: "Una carretera de árboles al amanecer en Westfalia. Fotografía de Dietmar Rabich, 2026.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Dernekamp,_Allee_--_2026_--_1265.jpg",
+        foco: "50% 55%",
+        alt: "Un camino estrecho entre dos hileras de árboles viejos, con niebla y luz temprana al fondo.",
+      },
+      {
+        archivo: "Verkehrsmuseum Dresden Replika Benz-Patent-Motorwagen von 1886 Detail Motor VIII.jpg",
+        autor: "El motor del Benz de cerca: cilindro, volante y cadena. Fotografía de NoRud, Museo del Transporte de Dresde.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Verkehrsmuseum_Dresden_Replika_Benz-Patent-Motorwagen_von_1886_Detail_Motor_VIII.jpg",
+        foco: "50% 50%",
+        alt: "Un cilindro rojo horizontal con piezas de latón, un volante rojo enorme y una cadena de transmisión.",
+      },
+      {
+        archivo: "Berthabenzportrait.jpg",
+        autor: "Bertha Benz retratada en el estudio de Bühler, Mannheim, hacia 1871.",
+        licencia: "Dominio público",
+        pdPorEdad: 1900,
+        fuente: "https://commons.wikimedia.org/wiki/File:Berthabenzportrait.jpg",
+        foco: "50% 40%",
+        alt: "Retrato ovalado de una mujer joven con trenza y cuello de encaje, mirando de frente.",
+      },
+    ],
     entrada:
-      "Alemania, agosto de 1888. Un ingeniero lleva dos años con un invento que no compra nadie: un carro de tres ruedas con motor de gasolina, ruidoso y lento, que la gente mira con desconfianza. Su mujer decide que el problema no es el aparato, sino que nadie lo ha visto andar. Una madrugada coge a sus dos hijos adolescentes y se va con él.",
+      "Alemania, agosto de 1888. Un ingeniero lleva dos años con un invento que no compra nadie: un carro de tres ruedas con motor de gasolina, ruidoso, lento y con un depósito minúsculo, que la gente mira con la misma desconfianza con la que miraría una caldera suelta por la calle. Lo ha enseñado en ferias, ha salido en algún periódico y no ha vendido ni una unidad. Su mujer llega a una conclusión distinta a la de él: el problema no es el aparato, sino que nadie lo ha visto recorrer una distancia de verdad. Una madrugada, sin decirle nada a su marido, coge a sus dos hijos adolescentes y se va con él.",
     paginas: [
       {
         rotulo: "Ciento seis kilómetros",

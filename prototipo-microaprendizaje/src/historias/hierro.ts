@@ -16,14 +16,48 @@ import type { Short } from "../shorts";
 export const HIERRO: Short[] = [
   {
     id: "el-hierro-caido-del-cielo",
-    titulo: "El primer hierro cayó del cielo",
+    titulo: "El hierro cayó del cielo",
     gancho: "Antes de saber fundir el mineral, algunos pueblos forjaban hierro que había caído del cielo, y lo llamaban así.",
     categoria: "Hierro",
     color: "var(--slate)",
     curioso: true,
     encargo: "Un trozo de meteorito metálico cortado y pulido, con dibujo de cristales.",
+    fotos: [
+      {
+        archivo: "Iron meteorite. Hammersley Range, Australia-8911.jpg",
+        autor: "Meteorito de hierro de la sierra de Hammersley, cortado y atacado con ácido. Fotografía de Raimond Spekking.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Iron_meteorite._Hammersley_Range,_Australia-8911.jpg",
+        foco: "50% 42%",
+        alt: "Una lámina de metal gris con un enrejado de bandas cruzadas dibujado en la superficie pulida.",
+      },
+      {
+        archivo: "2024-12-20 15-29-16 CZ PRG Tutankhamun exhib JHe N9.jpg",
+        autor: "La daga de hierro de Tutankamón junto a su vaina de oro. Fotografía de Juhele, exposición de Praga, 2024.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2024-12-20_15-29-16_CZ_PRG_Tutankhamun_exhib_JHe_N9.jpg",
+        foco: "50% 45%",
+        alt: "Un puñal de hoja clara con empuñadura labrada, tumbado sobre fondo negro al lado de una funda dorada.",
+      },
+      {
+        archivo: "Aurora and perseids.jpg",
+        autor: "Perseidas cruzando el cielo bajo una aurora. Fotografía de Stephan Sprinz, agosto de 2024.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Aurora_and_perseids.jpg",
+        foco: "50% 45%",
+        alt: "Cielo nocturno con estelas de meteoros y una franja verde de aurora sobre el horizonte.",
+      },
+      {
+        archivo: "Banded iron formation Dales Gorge.jpg",
+        autor: "Formación de hierro bandeado en la garganta de Dales, Australia. Fotografía de Graeme Churchard, 2013.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Banded_iron_formation_Dales_Gorge.jpg",
+        foco: "50% 50%",
+        alt: "Roca con capas rojas, ocres y grises apiladas una encima de otra como las hojas de un libro.",
+      },
+    ],
     entrada:
-      "Egipto y Oriente Próximo, hacia el año 3200 antes de Cristo, más de mil años antes de que nadie supiera fundir mineral de hierro. En varias tumbas de esa época aparecen cuentas y pequeñas hojas de hierro, un metal que entonces era rarísimo y valía más que el oro. El análisis químico ha demostrado de dónde salía: de meteoritos.",
+      "Egipto y Oriente Próximo, hacia el año 3200 antes de Cristo, más de mil años antes de que nadie en la zona supiera sacar hierro del mineral. En varias tumbas de esa época aparecen cuentas ensartadas en collares y alguna hoja pequeña, todas de hierro, un metal que entonces era tan raro que valía más que el oro y se reservaba para ajuares de gente muy principal. Durante mucho tiempo nadie supo explicar de dónde había salido aquel material, porque la tecnología para obtenerlo sencillamente no existía todavía. El análisis químico de las piezas acabó dando una respuesta que estaba escrita desde el principio: venían de meteoritos.",
     paginas: [
       {
         rotulo: "La prueba",

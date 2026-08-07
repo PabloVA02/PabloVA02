@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const PETROLEO: Short[] = [
   {
     id: "primer-pozo",
-    titulo: "El primer pozo era para lámparas",
+    titulo: "El pozo era para lámparas",
     gancho: "Se perforó para sacar aceite de alumbrado. La gasolina era un residuo que se tiraba al río.",
     categoria: "Petróleo",
     color: "var(--slate)",
     encargo: "Una torre de madera de perforación junto a un arroyo entre árboles.",
+    fotos: [
+      {
+        archivo: "Drake Oil Well.jpg",
+        autor: "La réplica del pozo Drake, en Titusville, Pensilvania. Fotografía de PLBthetoonist, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Drake_Oil_Well.jpg",
+        foco: "50% 50%",
+        alt: "Una caseta de madera oscura con una torre de perforación puntiaguda, rodeada de pinos.",
+      },
+      {
+        archivo: "Brass kerosene lamp.jpg",
+        autor: "Lámpara de queroseno de latón con tubo de vidrio. Fotografía de W. Carter, 2019.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Brass_kerosene_lamp.jpg",
+        foco: "50% 45%",
+        alt: "Una lámpara de latón brillante con el tubo de vidrio encima, sobre fondo negro.",
+      },
+      {
+        archivo: "Vintage Gas Pump (Unsplash).jpg",
+        autor: "Surtidores de gasolina antiguos. Fotografía de Evan Kirby, 2017.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vintage_Gas_Pump_(Unsplash).jpg",
+        foco: "45% 50%",
+        alt: "Dos surtidores de gasolina de color turquesa con la manguera colgando y los contadores a la vista.",
+      },
+      {
+        archivo: "Blue hour fog over Preemraff oil refinery by Brofjorden.jpg",
+        autor: "Una refinería reflejada en el agua a la hora azul. Fotografía de W. Carter, Suecia, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg",
+        foco: "62% 50%",
+        alt: "Las luces de una refinería encendidas al anochecer, reflejadas enteras en un agua sin una onda.",
+      },
+    ],
     entrada:
-      "Pensilvania, agosto de 1859. Un antiguo revisor de tren perfora un agujero de veintiún metros junto a un arroyo donde el petróleo brota solo y mancha el agua. La compañía que lo contrató está a punto de retirarle el dinero y mandarle parar. Aquel día encuentra crudo y funda, sin saberlo, la industria más grande del siglo siguiente.",
+      "Pensilvania, agosto de 1859. Un antiguo revisor de tren lleva meses perforando un agujero junto a un arroyo donde el petróleo brota solo y mancha el agua, algo que la gente del valle conocía desde siempre y aprovechaba para remedios y ungüentos. Nadie ha intentado antes sacarlo con una máquina de perforar en vez de recogerlo de la superficie, y el pozo se derrumba una y otra vez hasta que se le ocurre entubarlo con tubería de hierro. La compañía que lo contrató está a punto de retirarle el dinero y mandarle parar. A veintiún metros encuentra crudo, y funda sin saberlo la industria más grande del siglo siguiente.",
     paginas: [
       {
         rotulo: "La lámpara",

@@ -17,13 +17,47 @@ import type { Short } from "../shorts";
 export const TERMOMETRO: Short[] = [
   {
     id: "treinta-escalas-distintas",
-    titulo: "Hubo más de treinta escalas de temperatura",
+    titulo: "Cada termómetro, una escala",
     gancho: "Cada fabricante ponía la suya, así que dos termómetros de dos ciudades no decían lo mismo.",
     categoria: "Termómetro",
     color: "var(--slate)",
     encargo: "Varios termómetros antiguos de vidrio con escalas distintas, alineados sobre un paño.",
+    fotos: [
+      {
+        archivo: "Copy of Gallileo Firenze thermometer-MHS 1882-P5200181-white.jpg",
+        autor: "Copia de un termómetro florentino de vidrio soplado del siglo XVII. Fotografía de Rama, Museo de Historia de la Ciencia.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Copy_of_Gallileo_Firenze_thermometer-MHS_1882-P5200181-white.jpg",
+        foco: "50% 50%",
+        alt: "Un tubo de vidrio enroscado en espiral sobre una bola llena de líquido rojo, montado en un pie.",
+      },
+      {
+        archivo: "Hoar frost ice crystals on snow in Tuntorp 8.jpg",
+        autor: "Cristales de escarcha sobre la nieve. Fotografía de W. Carter, Suecia, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hoar_frost_ice_crystals_on_snow_in_Tuntorp_8.jpg",
+        foco: "50% 55%",
+        alt: "Cristales de hielo transparentes creciendo sobre la nieve, recortados contra un fondo azul oscuro.",
+      },
+      {
+        archivo: "Mercury escaped.jpg",
+        autor: "Mercurio derramado de un tubo roto. Fotografía de Tavo Romann, 2017.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mercury_escaped.jpg",
+        foco: "50% 50%",
+        alt: "Gotas de mercurio brillantes como espejos repartidas sobre una superficie naranja, junto a dos tubos de vidrio.",
+      },
+      {
+        archivo: "Clinical thermometer, Europe, 1851-1900 Wellcome L0058018.jpg",
+        autor: "Termómetro clínico europeo de la segunda mitad del siglo XIX, con su estuche. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Clinical_thermometer,_Europe,_1851-1900_Wellcome_L0058018.jpg",
+        foco: "50% 55%",
+        alt: "Un termómetro de vidrio con la escala grabada, tumbado en diagonal junto a su estuche de madera oscura.",
+      },
+    ],
     entrada:
-      "Europa, 1700. Existen termómetros desde hace casi cien años, tubos de vidrio con alcohol coloreado que suben y bajan con el calor, pero no sirven para casi nada. El motivo es que no hay escala común: cada artesano marca su tubo tomando como referencia lo que le parece, desde el día más frío recordado hasta la temperatura de un sótano concreto.",
+      "Europa, 1700. Existen termómetros desde hace casi cien años: tubos de vidrio con alcohol coloreado que suben y bajan con el calor y que cualquiera reconoce al verlos. Y sin embargo no sirven para casi nada, porque dos de ellos puestos uno al lado del otro marcan números distintos para la misma habitación. El motivo es que no hay una escala común: cada artesano gradúa su tubo tomando como referencia lo que le parece, desde el día más frío que recuerda la ciudad hasta la temperatura de un sótano concreto o la de la sangre de un animal. Con esas cifras no se puede comparar nada ni repetir un experimento en otro sitio.",
     paginas: [
       {
         rotulo: "Dos puntos",
