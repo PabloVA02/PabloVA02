@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const ALCOHOL: Short[] = [
   {
     id: "alcohol-envenenado",
-    titulo: "El alcohol envenenado a propósito",
+    titulo: "Envenenaron el alcohol",
     gancho: "Durante la ley seca se adulteró el alcohol industrial para que nadie lo bebiera. Se lo bebieron igual.",
     categoria: "Alcohol",
     color: "var(--clay)",
     encargo: "Una botella sin etiqueta y un vaso sobre la barra de madera de un local a oscuras.",
+    fotos: [
+      {
+        archivo: "Drankverboden, prohibitie, drooglegging, SFA002010424.jpg",
+        autor: "Una antigua taberna convertida en zapatería durante la ley seca: la barra sigue ahí, y la botella también. Estados Unidos, 1920.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Drankverboden,_prohibitie,_drooglegging,_SFA002010424.jpg",
+        foco: "50% 45%",
+        alt: "Interior de un local con una barra de madera curva, cajas de zapatos en los estantes y varios clientes.",
+      },
+      {
+        archivo: "Drankverboden, prohibitie, drooglegging, SFA002010416.jpg",
+        autor: "Agentes desmontando una destilería clandestina en los pantanos cercanos a Washington, 1924.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Drankverboden,_prohibitie,_drooglegging,_SFA002010416.jpg",
+        foco: "50% 45%",
+        alt: "Dos hombres vaciando bidones junto a una caseta de tablas en un bosque encharcado, en sepia.",
+      },
+      {
+        archivo: "5 Prohibition Disposal(9) (cropped).jpg",
+        autor: "Agentes vaciando barriles de licor incautado por una alcantarilla de Nueva York durante la ley seca.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:5_Prohibition_Disposal(9)_(cropped).jpg",
+        foco: "50% 50%",
+        alt: "Dos hombres inclinan un barril y el líquido cae a chorro por una boca de alcantarilla abierta en la calle.",
+      },
+      {
+        archivo: "Drankverboden Drooglegging (Prohibition) Verenigde Staten van Amerika Grote groep agenten op, SFA022008269.jpg",
+        autor: "Policías sacando barriles incautados a la calle ante una multitud, Estados Unidos, 1920.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Drankverboden_Drooglegging_(Prohibition)_Verenigde_Staten_van_Amerika_Grote_groep_agenten_op,_SFA022008269.jpg",
+        foco: "50% 45%",
+        alt: "Una calle llena de gente con agentes de uniforme haciendo rodar un barril entre la multitud.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1926. El país lleva seis años con el alcohol prohibido y la ley no funciona: se bebe más o menos lo mismo, pero en locales clandestinos y con licor de procedencia dudosa. Buena parte de ese licor sale de robar alcohol industrial, que es puro y se usa en fábricas, y de quitarle después los aditivos que lo hacen imbebible.",
+      "Estados Unidos, 1926. El país lleva seis años con el alcohol prohibido y la ley no está funcionando: se bebe más o menos lo mismo que antes, solo que en locales clandestinos y con licor de procedencia dudosa. Buena parte de ese licor no se destila en ningún alambique escondido, sino que sale de robar alcohol industrial, que es puro, barato y se fabrica legalmente por millones de litros para las fábricas. Al alcohol industrial se le añaden por ley sustancias que lo hacen imbebible, así que el negocio consiste en quitárselas. Y ahí es donde el gobierno decide subir la apuesta.",
     paginas: [
       {
         rotulo: "La fórmula",
