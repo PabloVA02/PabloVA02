@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const PARQUES: Short[] = [
   {
     id: "el-parque-como-medicina",
-    titulo: "Pulmones contra el aire viciado",
+    titulo: "Parques contra el aire malo",
     gancho: "Se creía que las enfermedades venían del aire viciado, así que se plantaron pulmones verdes en las ciudades.",
     categoria: "Parques",
     color: "var(--ochre)",
     encargo: "Una avenida arbolada de un parque urbano con bancos de hierro.",
+    fotos: [
+      {
+        archivo: "Waterfall in the Grotte, Parc des Buttes-Chaumont, Paris 19e 140427 1.jpg",
+        autor: "La gruta artificial del parque de Buttes-Chaumont, en París, levantada sobre una antigua cantera de yeso.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Waterfall_in_the_Grotte,_Parc_des_Buttes-Chaumont,_Paris_19e_140427_1.jpg",
+        foco: "50% 45%",
+        alt: "Una cascada cayendo dentro de una cueva de roca y estalactitas, con luz verde entrando por el hueco de arriba.",
+      },
+      {
+        archivo: "Parc des Buttes-Chaumont, November 2019.jpg",
+        autor: "Un paseo del mismo parque en noviembre. Fotografía de Jami430.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Parc_des_Buttes-Chaumont,_November_2019.jpg",
+        foco: "50% 55%",
+        alt: "Un camino de tierra mojada curvándose entre arbustos, con bancos de hierro verdes y hojas caídas.",
+      },
+      {
+        archivo: "The Victorian bandstand in sefton park, Liverpool, England.jpg",
+        autor: "El quiosco de música de Sefton Park, en Liverpool. Fotografía de Fatih Renkligil.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_Victorian_bandstand_in_sefton_park,_Liverpool,_England.jpg",
+        foco: "50% 50%",
+        alt: "Un templete octogonal de hierro pintado de rojo con la cubierta de cobre verdoso, entre árboles pelados.",
+      },
+      {
+        archivo: "Barcas - Estanque del Retiro - Madrid 01.jpg",
+        autor: "El estanque del Retiro de Madrid al atardecer. Fotografía de Javier Pérez Montes.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Barcas_-_Estanque_del_Retiro_-_Madrid_01.jpg",
+        foco: "50% 50%",
+        alt: "Una pareja remando en una barca sobre un estanque dorado por la luz baja, con más barcas al fondo.",
+      },
+    ],
     entrada:
-      "Europa, mediados del siglo XIX. Las ciudades industriales han crecido a una velocidad brutal, con barrios obreros hacinados, sin alcantarillado y con epidemias de cólera cada pocos años. La medicina de la época atribuye esas enfermedades a los miasmas, unos vapores malsanos que se creía que salían de la basura y del agua estancada, y de ahí sale una receta urbanística.",
+      "Europa, mediados del siglo XIX. Las ciudades industriales han crecido a una velocidad que nadie había visto antes, absorbiendo en pocas décadas a millones de personas venidas del campo, con barrios obreros hacinados, sin alcantarillado y con epidemias de cólera cada pocos años que se llevan a miles cada vez. Nadie sabe todavía por qué. La medicina de la época atribuye esas enfermedades a los miasmas, unos vapores malsanos que se creía que salían de la basura, del agua estancada y de los muertos, y de esa explicación equivocada sale una receta urbanística que va a cambiar la cara de las ciudades.",
     paginas: [
       {
         rotulo: "El aire",

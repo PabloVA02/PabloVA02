@@ -22,6 +22,40 @@ export const ESCOBA: Short[] = [
     categoria: "Escoba",
     color: "var(--ochre)",
     encargo: "Una escoba de sorgo cosida con dos filas de puntadas, apoyada en una pared.",
+    fotos: [
+      {
+        archivo: "Broom maker in his workshop with a young attendant PK-T-33, PK-T-AW-2367.tiff",
+        autor: "Un escobero atando una escoba en su taller, dibujo de Gijsbertus van den Berg, 1799.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Broom_maker_in_his_workshop_with_a_young_attendant_PK-T-33,_PK-T-AW-2367.tiff",
+        foco: "50% 55%",
+        alt: "Dibujo de un hombre sentado atando un manojo de paja con un torno de cuerda, con escobas redondas en el suelo.",
+      },
+      {
+        archivo: "Broomcorn field in Ain.jpg",
+        autor: "Un campo de sorgo escobero, con las panojas ya formadas. Fotografía de Tangopaso.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Broomcorn_field_in_Ain.jpg",
+        foco: "50% 40%",
+        alt: "Cañas altas de sorgo con penachos amarillentos en lo alto, apretadas en un bancal.",
+      },
+      {
+        archivo: "June 1962 INTERIOR OF ELDERS' ROOM, SHOWING SHAKER FURNITURE AND STOVE - Shaker Church Family Main Dwelling House, U.S. Route 20, Hancock, Berkshire County, MA HABS MASS,2-HANC,4-32.tif",
+        autor: "El cuarto de los ancianos en una casa shaker de Hancock, Massachusetts. Fotografía de Jack Boucher, 1962.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:June_1962_INTERIOR_OF_ELDERS%27_ROOM,_SHOWING_SHAKER_FURNITURE_AND_STOVE_-_Shaker_Church_Family_Main_Dwelling_House,_U.S._Route_20,_Hancock,_Berkshire_County,_MA_HABS_MASS,2-HANC,4-32.tif",
+        foco: "45% 48%",
+        alt: "Una habitación de tablas con armarios empotrados, cajas redondas apiladas, sillas de anea y una estufa de hierro.",
+      },
+      {
+        archivo: "2014-365-42 Dust My Broom (12475384764).jpg",
+        autor: "Una escoba plana gastada por el uso. Fotografía de Alan Levine.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2014-365-42_Dust_My_Broom_(12475384764).jpg",
+        foco: "50% 55%",
+        alt: "La cabeza de una escoba de fibra clara, aplastada y abierta en abanico, apoyada contra un escalón.",
+      },
+    ],
     entrada:
       "Estado de Nueva York, 1798. Una escoba de esa época es un manojo de ramas o de fibras atado alrededor de un palo, con forma redonda, como un pincel gordo. Barre poco porque toca el suelo con una superficie pequeña, y se deshace en pocas semanas porque el atado se afloja y las fibras se van saliendo de una en una. Es un objeto que todo el mundo tiene y que nadie ha mirado con atención. Un miembro de una comunidad religiosa del norte del estado se pone a mirarlo, y le da una vuelta que sigue vigente.",
     paginas: [
