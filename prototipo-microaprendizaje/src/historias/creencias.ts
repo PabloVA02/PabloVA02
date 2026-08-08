@@ -18,14 +18,50 @@ import type { Short } from "../shorts";
 export const CREENCIAS: Short[] = [
   {
     id: "manzana-genesis",
-    titulo: "En la Biblia no pone manzana",
+    titulo: "La Biblia no dice manzana",
     gancho: "El texto dice «fruto», sin más. La manzana llegó mil años después, y por un juego de palabras en latín.",
     categoria: "Creencias",
     color: "var(--forest)",
     curioso: true,
     encargo: "Un árbol frondoso con una fruta indefinida, pintado al óleo, luz de tarde.",
+    fotos: [
+      {
+        archivo: "Lucas Cranach the Elder - Adam and Eve - Google Art Project.jpg",
+        autor: "Adán y Eva, óleo de Lucas Cranach el Viejo, 1526. Courtauld Gallery, Londres.",
+        licencia: "Dominio público",
+        pdPorEdad: 1553,
+        fuente: "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_the_Elder_-_Adam_and_Eve_-_Google_Art_Project.jpg",
+        foco: "50% 22%",
+        alt: "Adán y Eva desnudos bajo un manzano, con la serpiente enroscada en una rama y una manzana entre los dos.",
+      },
+      {
+        archivo: "Fruits of Roxburgh fig.jpg",
+        autor: "Higos creciendo directamente del tronco de una higuera. Fotografía de Santhiya Kavitha.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fruits_of_Roxburgh_fig.jpg",
+        foco: "30% 55%",
+        alt: "Racimos de higos verdes y morados brotando pegados a la corteza gris de un tronco.",
+      },
+      {
+        archivo: "Bohemia apples in basket 2.jpg",
+        autor: "Manzanas recién cogidas en un cesto de mimbre. Fotografía de T. Kebert.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bohemia_apples_in_basket_2.jpg",
+        foco: "50% 50%",
+        alt: "Un cesto lleno de manzanas rojas y brillantes, con una rama de hojas verdes encima.",
+      },
+      {
+        archivo: "Circle of Jacob Savery (I) - Paradise with the fall of man (Aschaffenburg).jpg",
+        autor: "El paraíso con la caída, óleo del círculo de Jacob Savery. Museo de Aschaffenburg.",
+        licencia: "Dominio público",
+        pdPorEdad: 1603,
+        fuente: "https://commons.wikimedia.org/wiki/File:Circle_of_Jacob_Savery_(I)_-_Paradise_with_the_fall_of_man_(Aschaffenburg).jpg",
+        foco: "45% 50%",
+        alt: "Un paisaje lleno de animales de todas las especies, con dos figuras diminutas junto a un árbol al fondo.",
+      },
+    ],
     entrada:
-      "La escena la conoce todo el mundo aunque no haya abierto una Biblia: un jardín, una serpiente, una mujer y una manzana. Está en el primer libro del Antiguo Testamento, el Génesis, escrito en hebreo hace unos dos mil quinientos años. Y si uno va al texto original y busca la manzana, no la encuentra. No aparece ninguna fruta con nombre.",
+      "La escena la conoce todo el mundo aunque no haya abierto una Biblia en su vida: un jardín, un árbol, una serpiente, una mujer y una manzana. Está contada en el primer libro del Antiguo Testamento, el Génesis, escrito en hebreo hace unos dos mil quinientos años, y se ha pintado miles de veces desde entonces, siempre con la misma fruta roja y redonda en el centro del cuadro. Y sin embargo, si uno se va al texto original y busca la manzana, no la encuentra por ninguna parte. No aparece esa fruta ni ninguna otra con nombre propio.",
     paginas: [
       {
         rotulo: "Qué pone",

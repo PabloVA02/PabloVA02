@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const PESCA: Short[] = [
   {
     id: "el-bacalao-que-cruzo-el-oceano",
-    titulo: "El bacalao cruzó el Atlántico",
+    titulo: "El bacalao cruzó el océano",
     gancho: "Aguantaba años sin estropearse y pesaba poco. Era la comida que hacía posible un viaje sin escalas.",
     categoria: "Pesca",
     color: "var(--slate)",
     encargo: "Bacalaos abiertos y secos colgados de un tendedero de madera al viento.",
+    fotos: [
+      {
+        archivo: "Loaded Drying Racks for Stockfish at Reine, Lofoten, Norway.jpg",
+        autor: "Secaderos de bacalao cargados en Reine, en las islas Lofoten. Fotografía de Christoph Strässler.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Loaded_Drying_Racks_for_Stockfish_at_Reine,_Lofoten,_Norway.jpg",
+        foco: "50% 50%",
+        alt: "Bastidores de madera cubiertos de pescado abierto secándose al aire, con montañas nevadas al fondo.",
+      },
+      {
+        archivo: "Bahar ic-Caghaq Saltpans.jpg",
+        autor: "Salinas excavadas en la roca de la costa maltesa. Fotografía de Marika Caruana.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bahar_ic-Caghaq_Saltpans.jpg",
+        foco: "40% 60%",
+        alt: "Balsas cuadradas talladas en la piedra junto al mar, con un arcoíris sobre un cielo de tormenta.",
+      },
+      {
+        archivo: "St. Andrews Church - Flickr - rustyruth1959.jpg",
+        autor: "El interior de una iglesia parroquial inglesa. Fotografía de rustyruth1959.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:St._Andrews_Church_-_Flickr_-_rustyruth1959.jpg",
+        foco: "50% 50%",
+        alt: "La nave de una iglesia con bancos de madera, cirios altos y un arco de piedra al fondo.",
+      },
+      {
+        archivo: "Dried and salted cod.jpg",
+        autor: "Una pila de bacalao seco tapada con listones y piedras. Fotografía de Anders Beer Wilse.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Dried_and_salted_cod.jpg",
+        foco: "50% 55%",
+        alt: "Cientos de bacalaos secos apilados formando un bloque, con una tapa de tablas sujeta por cantos rodados.",
+      },
+    ],
     entrada:
-      "Atlántico norte, siglos XV y XVI. Un barco que se aleja de la costa tiene un problema antes que ningún otro: la comida. La carne se pudre en días y el agua se corrompe, así que la autonomía de una tripulación depende de lo que pueda guardarse meses. La solución venía del norte, y era un pescado partido, salado y secado al viento.",
+      "Atlántico norte, siglos XV y XVI. Un barco que se aleja de la costa tiene un problema antes que ningún otro, y no es el viento ni la navegación: es la comida. La carne se pudre en cuestión de días, el agua dulce se corrompe en los toneles y la verdura no aguanta nada, de modo que la autonomía real de una tripulación no la marca el casco sino lo que se pueda guardar durante meses sin que se estropee. La solución venía del norte y llevaba siglos usándose allí: un pescado partido en dos, salado y secado al viento hasta quedar duro como una tabla.",
     paginas: [
       {
         rotulo: "Sal y viento",

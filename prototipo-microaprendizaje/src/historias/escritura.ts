@@ -20,13 +20,48 @@ import type { Short } from "../shorts";
 export const ESCRITURA: Short[] = [
   {
     id: "gutenberg-arruinado",
-    titulo: "Perdió su imprenta antes de cobrar",
+    titulo: "Gutenberg acabó arruinado",
     gancho: "Se pasó veinte años endeudado montando el invento. Su socio se lo quedó todo con una demanda.",
     categoria: "Escritura",
     color: "var(--slate)",
     encargo: "Tipos de plomo desordenados en una caja de madera, vistos muy de cerca.",
+    fotos: [
+      {
+        archivo: "Caratteri mobili del Museo della stampa Lodovico Pavoni.jpg",
+        autor: "Tipos móviles de plomo en su caja. Museo de la Imprenta Lodovico Pavoni.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Caratteri_mobili_del_Museo_della_stampa_Lodovico_Pavoni.jpg",
+        foco: "45% 50%",
+        alt: "Cientos de letras de plomo agrupadas por tipo dentro de una caja de madera abierta, vistas desde arriba.",
+      },
+      {
+        archivo: "Musée de l'imprimerie de Nantes - 075 - Presse à bras en bois, commandé par Gutenberg.jpg",
+        autor: "Una prensa de brazo de madera como las del primer taller. Museo de la Imprenta de Nantes.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_l%27imprimerie_de_Nantes_-_075_-_Presse_%C3%A0_bras_en_bois,_command%C3%A9e_par_Gutenberg.jpg",
+        foco: "50% 42%",
+        alt: "Un armazón de madera con husillo y palanca, con pliegos impresos apilados en la platina.",
+      },
+      {
+        archivo: "William Tombleson Guttenberg's Monument at Mayence 1832.jpg",
+        autor: "El monumento a Gutenberg en Maguncia, grabado de William Tombleson, 1832.",
+        licencia: "Dominio público",
+        pdPorEdad: 1840,
+        fuente: "https://commons.wikimedia.org/wiki/File:William_Tombleson_Guttenberg%27s_Monument_at_Mayence_1832.jpg",
+        foco: "50% 42%",
+        alt: "Grabado de una estatua sobre pedestal en una placita, rodeada de verja y con la iglesia detrás.",
+      },
+      {
+        archivo: "Bibliothèque monastère Strahov.jpg",
+        autor: "La sala filosófica de la biblioteca del monasterio de Strahov, en Praga. Fotografía de Yelkrokoyade.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_monast%C3%A8re_Strahov.jpg",
+        foco: "50% 45%",
+        alt: "Una sala altísima de estanterías doradas llenas de libros hasta el techo, con un fresco pintado arriba.",
+      },
+    ],
     entrada:
-      "Maguncia, Alemania, 1450. Un orfebre de unos cincuenta años lleva más de una década trabajando en secreto en una idea: fabricar letras sueltas de metal, colocarlas en un molde, entintarlas y prensarlas sobre papel, para poder recomponer el molde y usarlas otra vez. Necesita dinero para probarlo a lo grande y pide un préstamo enorme a un comerciante de la ciudad.",
+      "Maguncia, Alemania, 1450. Un orfebre de unos cincuenta años lleva más de una década trabajando en secreto, y con bastante discreción respecto a sus vecinos, en una idea que suena sencilla y no lo es: fabricar letras sueltas de metal, alinearlas en un molde para componer una página entera, entintarlas y prensarlas sobre papel, y poder después deshacer la composición y usar las mismas letras para la página siguiente. Ha gastado en ello todo lo que tenía y necesita mucho más para probarlo a gran escala, así que pide un préstamo enorme a un comerciante de la ciudad.",
     paginas: [
       {
         rotulo: "El invento",
