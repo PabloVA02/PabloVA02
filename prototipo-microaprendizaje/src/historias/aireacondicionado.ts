@@ -17,13 +17,47 @@ import type { Short } from "../shorts";
 export const AIRE_ACONDICIONADO: Short[] = [
   {
     id: "aire-para-una-imprenta",
-    titulo: "El aire acondicionado nació imprimiendo",
+    titulo: "Nació para secar el papel",
     gancho: "El problema era la humedad, que descolocaba los colores. El frío salió por accidente.",
     categoria: "Aire acondicionado",
     color: "var(--slate)",
     encargo: "Un taller de imprenta antiguo con tuberías metálicas cruzando el techo.",
+    fotos: [
+      {
+        archivo: "Impressora Marinoni e máquina de linotipo na oficina gráfica de O Taquaryense.jpg",
+        autor: "Una prensa tipográfica Marinoni de 1910, todavía en uso en el taller de un periódico brasileño. Fotografía de João V Souza P.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Impressora_Marinoni_e_m%C3%A1quina_de_linotipo_na_oficina_gr%C3%A1fica_de_O_Taquaryense.jpg",
+        foco: "50% 45%",
+        alt: "Una prensa de imprenta de hierro pintada de verde, con ruedas dentadas grandes y rodillos de tinta.",
+      },
+      {
+        archivo: "Lienz SG8.JPG",
+        autor: "Niebla de amanecer en el valle del Rin: el vapor de agua que el aire deja de sostener al enfriarse. Fotografía de böhringer friedrich.",
+        licencia: "CC BY-SA 2.5",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lienz_SG8.JPG",
+        foco: "50% 45%",
+        alt: "Un valle al amanecer con bancos de niebla baja entre los árboles y montañas azuladas al fondo.",
+      },
+      {
+        archivo: "Puolauskone Finlaysonilla vuonna 1956. Kuva Vapriikin kuva-arkisto. (16248845287).jpg",
+        autor: "Una máquina de bobinar en la hilatura de algodón de Finlayson, 1956. Archivo del museo Vapriikki.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Puolauskone_Finlaysonilla_vuonna_1956._Kuva_Vapriikin_kuva-arkisto._(16248845287).jpg",
+        foco: "50% 45%",
+        alt: "Filas de bobinas de hilo en una máquina de hilatura, fotografiadas en blanco y negro.",
+      },
+      {
+        archivo: "Bonn, Post-Tower -- 2017 -- 2131.jpg",
+        autor: "La fachada acristalada de una torre de oficinas en Bonn. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bonn,_Post-Tower_--_2017_--_2131.jpg",
+        foco: "50% 45%",
+        alt: "Un edificio alto enteramente de cristal, con el cielo y las nubes reflejados en sus plantas.",
+      },
+    ],
     entrada:
-      "Brooklyn, 1902. Una imprenta que hace tiradas en color tiene un problema que le está costando una fortuna: en verano el papel absorbe humedad, se dilata unas décimas de milímetro y las cuatro pasadas de color dejan de encajar entre sí, de modo que las imágenes salen con los bordes desplazados. Piden ayuda a una empresa de calefacción, que manda a un ingeniero de veinticinco años.",
+      "Brooklyn, 1902. Una imprenta que hace tiradas en color tiene un problema que le está costando una fortuna y que nadie sabe cómo atajar: en verano el papel absorbe humedad del aire, se dilata unas décimas de milímetro y las cuatro pasadas de color dejan de encajar entre sí, de modo que las imágenes salen con los bordes desplazados y la tirada entera va a la basura. Han probado a cambiar de papel, de tinta y de horario, y nada. Piden ayuda a una empresa de calefacción, que les manda a un ingeniero de veinticinco años recién salido de la universidad.",
     paginas: [
       {
         rotulo: "Secar enfriando",
