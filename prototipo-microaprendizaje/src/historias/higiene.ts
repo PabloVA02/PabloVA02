@@ -20,13 +20,48 @@ import type { Short } from "../shorts";
 export const HIGIENE: Short[] = [
   {
     id: "gran-hedor",
-    titulo: "El alcantarillado nació del olor",
+    titulo: "El hedor trajo las cloacas",
     gancho: "El cólera mataba a miles y nadie se movió. Bastó un verano de peste en el Parlamento.",
     categoria: "Higiene",
     color: "var(--forest)",
     encargo: "Un túnel de ladrillo en arco, con agua oscura corriendo por el fondo.",
+    fotos: [
+      {
+        archivo: "The construction of the great sewage tunnels, near old Ford, Wellcome V0020257.jpg",
+        autor: "Los grandes colectores de Londres en obras, cerca de Old Ford. Grabado publicado hacia 1860. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_construction_of_the_great_sewage_tunnels,_near_old_Ford,_Wellcome_V0020257.jpg",
+        foco: "50% 32%",
+        alt: "Grabado de dos bóvedas de ladrillo a medio cerrar en una zanja, con decenas de obreros trabajando encima y dentro.",
+      },
+      {
+        archivo: "Flushing the Sewers.jpg",
+        autor: "«Limpiando las alcantarillas», grabado de London Labour and the London Poor, de Henry Mayhew, 1851.",
+        licencia: "Dominio público",
+        pdPorEdad: 1887,
+        fuente: "https://commons.wikimedia.org/wiki/File:Flushing_the_Sewers.jpg",
+        foco: "45% 42%",
+        alt: "Tres hombres con farol y sombrero de ala dentro de una galería abovedada, empujando el agua con una compuerta.",
+      },
+      {
+        archivo: "London MMB »031 Waterloo Millennium Pier, Palace of Westminster and Thames Embankment.jpg",
+        autor: "El palacio de Westminster desde el otro lado del Támesis. Fotografía de mattbuck.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:London_MMB_%C2%BB031_Waterloo_Millennium_Pier,_Palace_of_Westminster_and_Thames_Embankment.jpg",
+        foco: "45% 48%",
+        alt: "El Parlamento y su torre del reloj iluminados de noche, reflejados en el agua oscura del río.",
+      },
+      {
+        archivo: "Abbey Mills Pumping Station (51551458944).jpg",
+        autor: "La estación de bombeo de Abbey Mills, terminada en 1868. Fotografía de Simon, Londres.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Abbey_Mills_Pumping_Station_(51551458944).jpg",
+        foco: "45% 42%",
+        alt: "Un edificio de ladrillo amarillo y rojo con arcos, torretas y una linterna central, más parecido a una iglesia que a una fábrica.",
+      },
+    ],
     entrada:
-      "Londres, verano de 1858. La ciudad tiene dos millones y medio de habitantes y un solo sitio donde acaba todo lo que sale de sus casas: el río que la atraviesa. Aquel julio hace un calor excepcional, el caudal baja y el agua se convierte en una masa marrón que fermenta al sol. El Parlamento está justo en la orilla.",
+      "Londres, verano de 1858. La ciudad tiene dos millones y medio de habitantes, más que ninguna otra del mundo en ese momento, y un solo sitio donde acaba todo lo que sale de sus casas: el río que la atraviesa por el centro. No hay depuración de ninguna clase ni nada que se le parezca; simplemente se echa al agua y se confía en que la marea lo saque. Aquel julio hace un calor excepcional, el caudal baja hasta dejar los bajíos al aire y el río se convierte en una masa marrón que fermenta al sol. Y el Parlamento está justo en la orilla, con las ventanas al agua.",
     paginas: [
       {
         rotulo: "El río",
