@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const GLOBOS: Short[] = [
   {
     id: "primeros-pasajeros-del-aire",
-    titulo: "Los primeros pasajeros eran animales",
+    titulo: "Primero voló una oveja",
     gancho: "Una oveja, un pato y un gallo subieron en cesta delante del rey. Nadie sabía si se podía respirar allí arriba.",
     categoria: "Globos",
     color: "var(--clay)",
@@ -36,8 +36,45 @@ export const GLOBOS: Short[] = [
       alt: "Grabado del globo de 1783 elevándose con la cesta de los tres animales.",
     },
     encargo: "Una cesta de mimbre colgada de un globo de tela pintada, vista desde abajo contra el cielo.",
+    fotos: [
+      {
+        archivo: "Grafika przedstawiająca lot balonu Montgolfiera ze zwierzętami z 19 września 1783 roku.jpg",
+        autor:
+          "Grabado del vuelo del globo de los hermanos Montgolfier del 19 de septiembre de 1783, con la oveja, el pato y el gallo. Museo Nacional de Cracovia.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Grafika_przedstawiaj%C4%85ca_lot_balonu_Montgolfiera_ze_zwierz%C4%99tami_z_19_wrze%C5%9Bnia_1783_roku.jpg",
+        foco: "50% 40%",
+        alt: "Grabado del globo de 1783 elevándose con la cesta de los tres animales.",
+      },
+      {
+        archivo: "Flocking Back to the Hills of Cronan Ranch (28238246698).jpg",
+        autor: "Un rebaño de ovejas subiendo por la ladera. Fotografía del Bureau of Land Management.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Flocking_Back_to_the_Hills_of_Cronan_Ranch_(28238246698).jpg",
+        foco: "50% 55%",
+        alt: "Muchas ovejas blancas apretadas subiendo una cuesta de hierba seca.",
+      },
+      {
+        archivo: "Grande Montgolfière de Versailles enlevant un mouton, un coq et un canard.png",
+        autor: "El globo de Versalles despegando ante la multitud, grabado publicado por Jules Turgan.",
+        licencia: "Dominio público",
+        pdPorEdad: 1887,
+        fuente: "https://commons.wikimedia.org/wiki/File:Grande_Montgolfi%C3%A8re_de_Versailles_enlevant_un_mouton,_un_coq_et_un_canard.png",
+        foco: "50% 38%",
+        alt: "Grabado de un globo enorme decorado elevándose sobre un patio de palacio abarrotado de gente.",
+      },
+      {
+        archivo: "Nevsehir Balloons.jpg",
+        autor: "Globos aerostáticos al amanecer sobre Capadocia. Fotografía de Deved3218.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nevsehir_Balloons.jpg",
+        foco: "50% 45%",
+        alt: "Decenas de globos de colores flotando a distintas alturas sobre un valle de roca clara.",
+      },
+    ],
     entrada:
-      "Francia, 19 de septiembre de 1783. En el patio del palacio real, delante de la corte y de una multitud enorme, dos hermanos fabricantes de papel han montado un globo de tela forrada con papel que se hincha con el humo de una hoguera. Debajo cuelga una cesta con tres pasajeros: una oveja, un pato y un gallo.",
+      "Francia, 19 de septiembre de 1783. En el patio del palacio real, delante del rey, de la corte entera y de una multitud que los cronistas calculan en más de cien mil personas, dos hermanos fabricantes de papel han montado un globo de tela forrada con papel que se hincha con el humo de una hoguera de paja y lana mojada. Es azul, está pintado con adornos dorados y mide diecisiete metros de alto. Debajo, colgada de la boca, hay una cesta de mimbre con tres pasajeros dentro: una oveja, un pato y un gallo.",
     paginas: [
       {
         rotulo: "Por qué animales",

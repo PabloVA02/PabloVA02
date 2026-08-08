@@ -24,8 +24,42 @@ export const BRUJULA: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una cuchara de piedra oscura sobre una placa cuadrada de bronce con signos grabados.",
+    fotos: [
+      {
+        archivo: "Lodestone (Magnet Cove Complex, mid-Cretaceous, 96-102 Ma; Magnet Cove, Arkansas, USA) 2.jpg",
+        autor: "Un trozo de magnetita imantada, la piedra con la que se tallaban las cucharas. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lodestone_(Magnet_Cove_Complex,_mid-Cretaceous,_96-102_Ma;_Magnet_Cove,_Arkansas,_USA)_2.jpg",
+        foco: "50% 45%",
+        alt: "Un pedrusco de superficie metálica y quebrada, con brillos plateados y manchas de óxido anaranjado.",
+      },
+      {
+        archivo: "Magnetite (GeoDIL number - 1390).jpg",
+        autor: "Otra muestra de magnetita, el mineral de hierro que atrae al hierro. Fotografía de Darla Sondrol.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Magnetite_(GeoDIL_number_-_1390).jpg",
+        foco: "50% 45%",
+        alt: "Un mineral negro de caras angulosas y brillo metálico apoyado sobre un fondo claro.",
+      },
+      {
+        archivo: "Binnacle from SMS Emden.jpg",
+        autor: "La bitácora de un barco, con la brújula montada dentro. Fotografía de SuperJew.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Binnacle_from_SMS_Emden.jpg",
+        foco: "50% 45%",
+        alt: "Un pedestal de latón con una cúpula de cristal encima, con la rosa de los vientos visible dentro.",
+      },
+      {
+        archivo: "Sunset Sailing on the Tall Ship Inland Seas (48312103756).jpg",
+        autor: "Un velero navegando al atardecer. Fotografía de Erik Drost.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sunset_Sailing_on_the_Tall_Ship_Inland_Seas_(48312103756).jpg",
+        foco: "50% 50%",
+        alt: "Las velas y la jarcia de un barco recortadas contra un cielo naranja sobre el agua.",
+      },
+    ],
     entrada:
-      "China, siglo II antes de Cristo. Los adivinos usan un instrumento formado por una placa cuadrada de bronce con inscripciones y una cuchara de piedra imantada que gira encima y se detiene siempre apuntando en la misma dirección. No sirve para viajar: sirve para decidir dónde se pone una casa o una tumba.",
+      "China, siglo II antes de Cristo. Los adivinos de la corte usan un instrumento que consiste en una placa cuadrada de bronce cubierta de inscripciones y, encima, una cuchara tallada en piedra imantada que gira sobre su panza hasta detenerse siempre apuntando en la misma dirección. Nadie lo entiende como un aparato de orientación, porque a nadie se le ha ocurrido todavía que haga falta uno: sirve para decidir dónde se coloca una casa, dónde se cava una tumba o en qué día conviene empezar un viaje. Tardará más de mil años en subirse a un barco.",
     paginas: [
       {
         rotulo: "La cuchara",
