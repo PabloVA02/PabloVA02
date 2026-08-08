@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const ASCENSORES: Short[] = [
   {
     id: "freno-otis",
-    titulo: "Cortó la cuerda con él dentro",
+    titulo: "El ascensor que no se cae",
     gancho: "Se subió a la plataforma en una feria, mandó cortar el cable de un hachazo y no se movió.",
     categoria: "Ascensores",
     color: "var(--clay)",
     encargo: "Una plataforma de madera abierta colgada entre dos guías, vista desde abajo.",
+    fotos: [
+      {
+        archivo: "Elisha OTIS 1854.jpg",
+        autor: "La demostración de Elisha Otis en el Crystal Palace de Nueva York, en 1854, según una ilustración posterior.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Elisha_OTIS_1854.jpg",
+        foco: "50% 40%",
+        alt: "Un hombre de levita, sombrero en mano, sobre una plataforma colgada en alto mientras un ayudante corta la cuerda.",
+      },
+      {
+        archivo: "The top of Lisbon Santa Justa Lift (26463851550).jpg",
+        autor: "La parte alta del elevador de Santa Justa, en Lisboa, inaugurado en 1902. Fotografía de Pedro Ribeiro Simões.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_top_of_Lisbon_Santa_Justa_Lift_(26463851550).jpg",
+        foco: "50% 45%",
+        alt: "Una torre de hierro calado con pasarelas y barandillas ornamentadas, recortada contra un cielo azul limpio.",
+      },
+      {
+        archivo: "Manhattan skyline from Upper New York Bay, 20231001 1043 0903.jpg",
+        autor: "El sur de Manhattan visto desde la bahía. Fotografía de Jakub Hałun.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Manhattan_skyline_from_Upper_New_York_Bay,_20231001_1043_0903.jpg",
+        foco: "50% 50%",
+        alt: "Una hilera de rascacielos de cristal apretados junto al agua, con las torres más altas al fondo.",
+      },
+      {
+        archivo: "2016 366 334 Still Life With Elevator Parts (30519760263).jpg",
+        autor: "Piezas desmontadas del motor de un ascensor, apiladas en un taller. Fotografía de Edna Winti.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2016_366_334_Still_Life_With_Elevator_Parts_(30519760263).jpg",
+        foco: "50% 50%",
+        alt: "Un rotor de cobre y varias carcasas metálicas verdes y grises apoyadas sobre una tabla contra un muro.",
+      },
+    ],
     entrada:
-      "Nueva York, 1854. Los montacargas existen desde hace siglos y funcionan con una cuerda y una polea, pero nadie se sube a ellos por voluntad propia: si la cuerda se rompe, la plataforma cae a plomo. Un mecánico que trabaja en una fábrica de camas monta un aparato en una feria y anuncia una demostración pública.",
+      "Nueva York, 1854. Los montacargas existen desde hace siglos y funcionan con lo más sencillo del mundo, una cuerda y una polea, pero nadie se sube a ellos por voluntad propia: si la cuerda se rompe, la plataforma cae a plomo hasta el fondo. Se usan para sacos, para carbón y para ladrillos, y de vez en cuando para obreros que no tienen otro remedio. Un mecánico que trabaja en una fábrica de camas y que ha resuelto ese problema por su cuenta monta un aparato en la feria mundial de la ciudad y anuncia que va a demostrarlo delante de todo el que quiera mirar.",
     paginas: [
       {
         rotulo: "El hachazo",
