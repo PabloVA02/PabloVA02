@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const SILLA_DE_RUEDAS: Short[] = [
   {
     id: "la-silla-que-empujaba-otro",
-    titulo: "La silla de ruedas la empujaba siempre otro",
+    titulo: "La silla la empujaba otro",
     gancho: "Durante siglos fue un mueble con ruedas, no un vehículo. Nadie pensó que su usuario quisiera moverla solo.",
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Silla de ruedas antigua de mimbre y madera con ruedecillas pequeñas debajo.",
+    fotos: [
+      {
+        archivo: "Early wheelchair (39723826015).jpg",
+        autor: "Un carruaje para enfermos del castillo de Frederiksborg, en Dinamarca. Fotografía de Thomas Quine.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Early_wheelchair_(39723826015).jpg",
+        foco: "50% 50%",
+        alt: "Un asiento antiguo de madera con capota de cuero, una rueda grande de radios detrás y una ruedecilla delante.",
+      },
+      {
+        archivo: "Küschall wheelchair R33.jpg",
+        autor: "Una silla de ruedas manual moderna: el aro fino azul va montado por fuera del neumático. Fotografía de Tim99.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:K%C3%BCschall_wheelchair_R33.jpg",
+        foco: "50% 50%",
+        alt: "Una silla de ruedas ligera vista de lado, con la rueda grande y un aro delgado montado por fuera de ella.",
+      },
+      {
+        archivo: "Wheelchairs for visitors at the entrance - NÄL hospital 3.jpg",
+        autor: "Sillas de transporte encajadas unas en otras en la entrada de un hospital sueco. Fotografía de W. Carter.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wheelchairs_for_visitors_at_the_entrance_-_N%C3%84L_hospital_3.jpg",
+        foco: "50% 58%",
+        alt: "Una fila de sillas metálicas plegables metidas unas dentro de otras contra una pared de ladrillo.",
+      },
+      {
+        archivo: "2026 Barcelona Marathon wheelchair race at passeig de gracia by JJxFile.jpg",
+        autor: "La carrera en silla de ruedas del maratón de Barcelona, en el paseo de Gracia. Fotografía de Jorge Jaramillo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2026_Barcelona_Marathon_wheelchair_race_at_passeig_de_gracia_by_JJxFile.jpg",
+        foco: "50% 45%",
+        alt: "Varios corredores en sillas de ruedas de competición avanzando inclinados por una avenida ancha.",
+      },
+    ],
     entrada:
-      "Europa, siglos XVI a XIX. Las primeras sillas con ruedas para personas enfermas eran sillones pesados de madera con ruedecillas debajo. El detalle importante es que ninguna se podía mover desde el asiento, porque las ruedas quedaban lejos de las manos. Alguien tenía que empujar siempre, y esa dependencia se daba por supuesta sin discutirla en ningún momento.",
+      "Europa, siglos XVI a XIX. Las primeras sillas con ruedas para personas enfermas no eran vehículos: eran sillones pesados de madera a los que alguien había puesto ruedecillas debajo, y así funcionaban y así se vendían. El detalle que hoy salta a la vista es que ninguna se podía mover desde el asiento, porque las ruedas quedaban demasiado lejos de las manos o iban tapadas por el armazón. Alguien tenía que empujar siempre. Y eso, durante trescientos años, no le pareció un defecto de diseño a nadie: se daba por supuesto que quien iba sentado no querría moverse solo.",
     paginas: [
       {
         rotulo: "El aro",
