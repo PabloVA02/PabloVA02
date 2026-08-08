@@ -20,8 +20,42 @@ export const ANDAMIOS: Short[] = [
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Fachada de rascacielos cubierta de andamio de cañas de bambú atadas en cruz.",
+    fotos: [
+      {
+        archivo: "Bamboo scaffolding on a building in Hong Kong (1).JPG",
+        autor: "Una torre entera envuelta en andamio de bambú, en Hong Kong. Fotografía de Clément Bucco-Lechat.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bamboo_scaffolding_on_a_building_in_Hong_Kong_(1).JPG",
+        foco: "50% 45%",
+        alt: "Un rascacielos cubierto de arriba abajo por una malla y una retícula de cañas, con las puntas asomando en lo alto.",
+      },
+      {
+        archivo: "JP 日本 Japan tourism 京都 Kyoto 嵐山竹林 Arashiyama Bamboo Grove n Sagano Bamboo PathSagaogurayama Tabuchiyamacho Ukyo Ward Kyoto City June 2026 R12S 01.jpg",
+        autor: "El bosque de bambú de Arashiyama, en Kioto. Fotografía de JuenKoom Yee HowP.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:JP_%E6%97%A5%E6%9C%AC_Japan_tourism_%E4%BA%AC%E9%83%BD_Kyoto_%E5%B5%90%E5%B1%B1%E7%AB%B9%E6%9E%97_Arashiyama_Bamboo_Grove_n_Sagano_Bamboo_PathSagaogurayama_Tabuchiyamacho_Ukyo_Ward_Kyoto_City_June_2026_R12S_01.jpg",
+        foco: "50% 45%",
+        alt: "Decenas de cañas verdes altísimas y rectas subiendo juntas hacia la luz de un bosque de bambú.",
+      },
+      {
+        archivo: "Bamboo scaffolding on a building in Hong Kong - detail.JPG",
+        autor: "Las uniones de un andamio de bambú: cañas cruzadas y atadas con cinta de nailon. Fotografía de Clément Bucco-Lechat.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bamboo_scaffolding_on_a_building_in_Hong_Kong_-_detail.JPG",
+        foco: "50% 20%",
+        alt: "Cañas de bambú cruzadas en ángulo recto y sujetas con vueltas de cinta negra en cada cruce.",
+      },
+      {
+        archivo: "Bamboo scaffolding on a building in Hong Kong (2).JPG",
+        autor: "Un edificio en obras entre los rascacielos de Hong Kong. Fotografía de Clément Bucco-Lechat.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bamboo_scaffolding_on_a_building_in_Hong_Kong_(2).JPG",
+        foco: "50% 45%",
+        alt: "Una torre cubierta de malla verde rodeada de edificios altos de cristal y hormigón.",
+      },
+    ],
     entrada:
-      "Hong Kong, siglo XXI. En una ciudad de rascacielos de acero y cristal, las obras se rodean de cañas de bambú atadas a mano con cintas de plástico. No es folclore ni ahorro pintoresco, porque el bambú funciona mejor que el metal en ese sitio concreto. Es una tradición china de más de mil años que ha sobrevivido justo donde parecía imposible.",
+      "Hong Kong, siglo XXI. En una de las ciudades con más rascacielos del mundo, todos de acero y de cristal, las obras se siguen rodeando de cañas de bambú atadas a mano, una por una, con cintas de plástico. No hay tornillos, ni soldaduras, ni piezas de catálogo. Lo primero que uno piensa es que se trata de folclore, o de ahorro pintoresco en un sitio donde la mano de obra sale barata, y las dos cosas son falsas: en ese clima y en esa ciudad, el bambú funciona mejor que el metal. Es una tradición china de más de mil años que ha sobrevivido justo donde parecía imposible.",
     paginas: [
       {
         rotulo: "Por qué aguanta",
