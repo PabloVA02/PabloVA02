@@ -25,8 +25,42 @@ export const MUSICA: Short[] = [
     categoria: "Música",
     color: "var(--plum)",
     encargo: "Un piano de cola con la tapa del teclado abierta y el taburete vacío.",
+    fotos: [
+      {
+        archivo: "Abandoned grand piano - Abandoned Ballroom (6).jpg",
+        autor: "Un piano de cola abandonado en un salón de baile en ruinas. Fotografía de Jan Bommes.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Abandoned_grand_piano_-_Abandoned_Ballroom_(6).jpg",
+        foco: "50% 50%",
+        alt: "Un piano de cola descascarillado en mitad de una sala vacía, con las cortinas movidas por el aire y polvo en el suelo.",
+      },
+      {
+        archivo: "D e w - Flickr - jonhyblaze.jpg",
+        autor: "Rocío sobre la hierba a primera hora. Fotografía de afk.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:D_e_w_-_Flickr_-_jonhyblaze.jpg",
+        foco: "50% 50%",
+        alt: "Hierba cubierta de gotas de rocío en penumbra, con la luz entrando de lado entre la niebla.",
+      },
+      {
+        archivo: "Orpheum Theatre, Adams Street and 2nd Avenue, Phoenix, AZ - 54442983944.jpg",
+        autor: "El patio de butacas de un teatro, vacío. Fotografía de W. Lemay.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Orpheum_Theatre,_Adams_Street_and_2nd_Avenue,_Phoenix,_AZ_-_54442983944.jpg",
+        foco: "50% 50%",
+        alt: "Filas de butacas rojas vacías bajo los palcos dorados de un teatro antiguo.",
+      },
+      {
+        archivo: "Auditório Radamés Gnattali.jpg",
+        autor: "Un auditorio de conciertos con el escenario preparado. Fotografía de Casa do Choro.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Audit%C3%B3rio_Radam%C3%A9s_Gnattali.jpg",
+        foco: "50% 50%",
+        alt: "Una sala de conciertos con las butacas vacías y el escenario iluminado al fondo.",
+      },
+    ],
     entrada:
-      "Woodstock, estado de Nueva York, 29 de agosto de 1952. El pianista David Tudor se sienta, pone un cronómetro sobre el piano y cierra la tapa del teclado. La vuelve a abrir para marcar el final de un movimiento, la cierra otra vez. Cuatro minutos y treinta y tres segundos después se levanta. No ha pulsado una tecla.",
+      "Woodstock, estado de Nueva York, 29 de agosto de 1952. En una sala pequeña con el público sentado y expectante, el pianista David Tudor se acerca al instrumento, se sienta, deja un cronómetro encima del piano y cierra la tapa del teclado. Al cabo de un rato la vuelve a abrir para marcar el final de un movimiento y la cierra otra vez. Y otra. Cuatro minutos y treinta y tres segundos después de empezar, se levanta y saluda. En todo ese tiempo no ha pulsado una sola tecla, y buena parte de la sala está entre desconcertada y enfadada.",
     paginas: [
       {
         rotulo: "Lo que sí suena",
