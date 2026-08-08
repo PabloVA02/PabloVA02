@@ -21,8 +21,42 @@ export const LEJIA: Short[] = [
     categoria: "Medicina",
     color: "var(--slate)",
     encargo: "Depósito de agua potable de principios del siglo XX con las válvulas de dosificación.",
+    fotos: [
+      {
+        archivo: "Roubaix reservoir du fontenoy.jpg",
+        autor: "El depósito de agua del Fontenoy, en Roubaix, Francia. Fotografía de Velvet.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Roubaix_reservoir_du_fontenoy.jpg",
+        foco: "50% 40%",
+        alt: "Un depósito cilíndrico de chapa remachada sobre arcos de ladrillo, recortado contra un cielo azul intenso.",
+      },
+      {
+        archivo: "Vibrio parahaemolyticus 01.jpg",
+        autor: "Bacterias del género Vibrio, el mismo al que pertenece la del cólera, al microscopio electrónico. CDC.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vibrio_parahaemolyticus_01.jpg",
+        foco: "50% 30%",
+        alt: "Tres bacterias alargadas y brillantes sobre una superficie gris llena de poros diminutos.",
+      },
+      {
+        archivo: "Värmebölja i Gävle 1947 - XLM.CL014444-3.jpg",
+        autor: "Un niño se refresca en una fuente pública durante una ola de calor, Gävle, 1947. Länsmuseet Gävleborg.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:V%C3%A4rmeb%C3%B6lja_i_G%C3%A4vle_1947_-_XLM.CL014444-3.jpg",
+        foco: "50% 45%",
+        alt: "Fotografía antigua de un niño inclinado sobre una fuente de beber, con el pelo empapado.",
+      },
+      {
+        archivo: "Lille reservoir de l'arbonnoise.jpg",
+        autor: "El depósito de l'Arbonnoise, en Lille. Fotografía de Velvet.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lille_reservoir_de_l%27arbonnoise.jpg",
+        foco: "50% 45%",
+        alt: "Un edificio industrial de ladrillo que aloja un depósito de agua, con arcos y ventanas altas.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1908. Las ciudades industriales llevan décadas sufriendo brotes de fiebre tifoidea y de cólera, dos enfermedades que se cogen bebiendo agua contaminada con heces. Un médico convence a la empresa que abastece a una ciudad de medio millón de habitantes para que le eche cloro al agua. Es la primera vez que se hace a esa escala, y funciona en semanas.",
+      "Estados Unidos, 1908. Las ciudades industriales llevan décadas sufriendo brotes de fiebre tifoidea y de cólera, dos enfermedades que se cogen de la manera más simple y más difícil de evitar que existe: bebiendo agua contaminada con heces. Se sabe desde hace medio siglo por dónde viene el problema, pero arreglarlo significa alcantarillado nuevo, embalses limpios y décadas de obra pública. Un médico propone entonces un atajo que a mucha gente le parece una barbaridad: echarle al agua de toda la ciudad la misma sustancia con la que se blanquea la ropa. Se prueba en medio millón de personas y funciona en semanas.",
     paginas: [
       {
         rotulo: "Cómo mata",
