@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const MUSEOS: Short[] = [
   {
     id: "gabinete-curiosidades",
-    titulo: "Empezaron como cuartos de rarezas",
+    titulo: "Cuartos llenos de rarezas",
     gancho: "Un cuerno de narval se vendía como cuerno de unicornio y costaba una fortuna.",
     categoria: "Museos",
     color: "var(--plum)",
     encargo: "Un cuarto abarrotado de estantes con conchas, fósiles y un cocodrilo colgado del techo.",
+    fotos: [
+      {
+        archivo: "Escritoio de un naturalista.jpg",
+        autor: "El escritorio de un naturalista, con cráneos, conchas, amonites y un libro abierto. Fotografía de Brandon Antonio Segura Torres y Priscilla Vieto Bonilla.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Escritoio_de_un_naturalista.jpg",
+        foco: "50% 45%",
+        alt: "Un cráneo de caballo, una cornamenta, fósiles y caracolas amontonados sobre una mesa con luz cálida.",
+      },
+      {
+        archivo: "Narwhal tusk, 1701-1930 Wellcome L0059030.jpg",
+        autor: "Un colmillo de narval, el que se vendía como cuerno de unicornio. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Narwhal_tusk,_1701-1930_Wellcome_L0059030.jpg",
+        foco: "50% 50%",
+        alt: "Una vara larga de marfil claro con la superficie retorcida en espiral, sobre fondo oscuro.",
+      },
+      {
+        archivo: "Kunstkammer Schausammlung Wahre Schätze.jpg",
+        autor: "La cámara de arte y maravillas ducal, hoy ordenada en vitrinas. Museo Estatal de Historia de Turingia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kunstkammer_Schausammlung_Wahre_Sch%C3%A4tze.jpg",
+        foco: "50% 50%",
+        alt: "Una sala con vitrinas altas de madera oscura llenas de copas, bronces y minerales colocados en filas.",
+      },
+      {
+        archivo: "Blue Whale Skeleton in Great Hall (36495359945).jpg",
+        autor: "El esqueleto de ballena azul colgado en la sala principal del Museo de Historia Natural de Londres. Fotografía de Gary Todd.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Blue_Whale_Skeleton_in_Great_Hall_(36495359945).jpg",
+        foco: "50% 32%",
+        alt: "El esqueleto completo de una ballena suspendido del techo de una nave con arcos de piedra y vidrieras.",
+      },
+    ],
     entrada:
-      "Europa, siglo XVI. Los nobles y los comerciantes ricos empiezan a reunir en una habitación de su casa objetos raros traídos de todas partes: conchas, fósiles, minerales, animales disecados, instrumentos, monedas antiguas y cosas de procedencia dudosa. Lo llaman gabinete de curiosidades, se enseña a las visitas como quien enseña una casa nueva, y es el antepasado directo de cualquier museo actual.",
+      "Europa, siglo XVI. Los nobles y los comerciantes ricos empiezan a reunir en una habitación de su casa todos los objetos raros que consiguen traer de donde sea: conchas, fósiles, minerales, animales disecados, instrumentos, monedas antiguas, plumas de pájaros que nadie ha visto y unas cuantas cosas de procedencia más que dudosa. Lo llaman gabinete de curiosidades, y no es un almacén privado: se enseña a las visitas con orgullo, como quien enseña una casa nueva. De aquellos cuartos abarrotados y sin ningún orden salió, sin que nadie se lo propusiera, cualquier museo que uno visite hoy.",
     paginas: [
       {
         rotulo: "El unicornio",
