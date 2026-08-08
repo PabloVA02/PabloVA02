@@ -15,13 +15,47 @@ import type { Short } from "../shorts";
 export const BASURA_ELECTRONICA: Short[] = [
   {
     id: "la-montana-de-aparatos",
-    titulo: "Nueve kilos de aparatos por cabeza",
+    titulo: "Nueve kilos de aparatos",
     gancho: "Es el flujo de residuos que más crece del planeta y el que peor se recicla de todos.",
     categoria: "Basura",
     color: "var(--slate)",
     encargo: "Montón de aparatos eléctricos viejos apilados en un punto limpio.",
+    fotos: [
+      {
+        archivo: "RS 42471-12 PCB details 01.jpg",
+        autor: "Detalle de una placa de circuito impreso de los años setenta. Fotografía de Mister rf.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:RS_42471-12_PCB_details_01.jpg",
+        foco: "50% 45%",
+        alt: "Condensadores naranjas y transistores plateados en primer plano sobre una placa verde.",
+      },
+      {
+        archivo: "Electronic waste 2.jpg",
+        autor: "Un contenedor de aparatos electrónicos en un punto limpio. Fotografía de Tiia Monto.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Electronic_waste_2.jpg",
+        foco: "50% 68%",
+        alt: "Una caja metálica azul con ordenadores viejos, un monitor y un teclado tirados en el fondo.",
+      },
+      {
+        archivo: "Gold nugget (placer gold) (Pennsylvania Mountain, Alma Mining District, Park County, Colorado, USA) 2 (17062525062).jpg",
+        autor: "Una pepita de oro de aluvión de Colorado. Museo de Naturaleza y Ciencia de Denver. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gold_nugget_(placer_gold)_(Pennsylvania_Mountain,_Alma_Mining_District,_Park_County,_Colorado,_USA)_2_(17062525062).jpg",
+        foco: "50% 45%",
+        alt: "Un grumo de oro macizo de superficie rugosa y brillo intenso sobre fondo negro.",
+      },
+      {
+        archivo: "DFC 4508 A narrow pathway winds through a cluttered scrapyard piled high with discarded metal plastic pipes and other tangled debris.jpg",
+        autor: "Un pasillo estrecho entre montones de chatarra en un desguace. Fotografía de PattayaPatrol.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DFC_4508_A_narrow_pathway_winds_through_a_cluttered_scrapyard_piled_high_with_discarded_metal_plastic_pipes_and_other_tangled_debris.jpg",
+        foco: "50% 45%",
+        alt: "Pilas altísimas de metal y tubos enredados a los dos lados de un pasillo estrecho.",
+      },
+    ],
     entrada:
-      "Todo el planeta, con el primer recuento mundial publicado en 2014. Cada año se tiran más de sesenta millones de toneladas de aparatos eléctricos y electrónicos, desde móviles hasta lavadoras. La cifra crece más deprisa que la población y que la economía, y se recicla en regla menos de la cuarta parte. El resto acaba en un cajón, en un vertedero o en un contenedor mal etiquetado.",
+      "Todo el planeta, con el primer recuento mundial publicado en 2014. Cada año se tiran más de sesenta millones de toneladas de aparatos eléctricos y electrónicos, y ahí entra todo: móviles, secadores, portátiles, lavadoras, cargadores sueltos y juguetes con pilas. Salen a unos nueve kilos por habitante del planeta y al año, aunque el reparto real es brutalmente desigual. Es el flujo de residuos que crece más deprisa que ningún otro, más que la población y más que la economía, y se recicla en regla menos de la cuarta parte. El resto acaba en un cajón de casa, en un vertedero o en un contenedor mal etiquetado camino de otro país.",
     paginas: [
       {
         rotulo: "Por qué crece",
