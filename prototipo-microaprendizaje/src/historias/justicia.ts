@@ -20,14 +20,48 @@ import type { Short } from "../shorts";
 export const JUSTICIA: Short[] = [
   {
     id: "juicios-animales",
-    titulo: "Juicios a animales con abogado",
+    titulo: "Juzgaron a una cerda",
     gancho: "Cerdos ahorcados, ratas citadas por edicto y un abogado de oficio pagado por el tribunal.",
     categoria: "Justicia",
     color: "var(--forest)",
     curioso: true,
     encargo: "Una sala de tribunal medieval vacía, con banco de madera y suelo de losa.",
+    fotos: [
+      {
+        archivo: "Sow and five piglets.jpg",
+        autor: "Una cerda tumbada con sus lechones.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sow_and_five_piglets.jpg",
+        foco: "50% 45%",
+        alt: "Una cerda grande echada sobre virutas de madera, con varios lechones rosados alrededor.",
+      },
+      {
+        archivo: "Salle des gens d'armes de la Conciergerie (45904398255).jpg",
+        autor: "La sala de los hombres de armas de la Conciergerie, en el antiguo palacio de justicia de París. Fotografía de Xin Sy.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Salle_des_gens_d%27armes_de_la_Conciergerie_(45904398255).jpg",
+        foco: "50% 50%",
+        alt: "Bóvedas de crucería de piedra clara apoyadas en columnas gruesas, vistas desde abajo.",
+      },
+      {
+        archivo: "A Rat Seen in Profile. MET DP809442.jpg",
+        autor: "Rata de perfil, dibujo de Giorgio Duranti, siglo XVIII. Metropolitan Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_Rat_Seen_in_Profile._MET_DP809442.jpg",
+        foco: "50% 50%",
+        alt: "Dibujo a tinta de una rata vista de lado, con la cola extendida sobre el papel claro.",
+      },
+      {
+        archivo: "Study of a Dog MET DT9830.jpg",
+        autor: "Estudio de un perro, dibujo de Edwin Landseer. Metropolitan Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Study_of_a_Dog_MET_DT9830.jpg",
+        foco: "50% 50%",
+        alt: "Dibujo a lápiz de un perro tumbado, con la cabeza vuelta hacia el espectador.",
+      },
+    ],
     entrada:
-      "Francia, 1457. Una cerda y sus seis lechones comparecen ante un tribunal acusados de haber matado a un niño en un pueblo de Borgoña. Hay juez, hay fiscal y hay un abogado defensor nombrado y pagado por el propio tribunal. No es una farsa ni una broma de carnaval: es un procedimiento ordinario, y hay más de doscientos casos documentados en Europa.",
+      "Francia, 1457. Una cerda y sus seis lechones comparecen ante un tribunal de un pueblo de Borgoña acusados de haber matado a un niño. Hay juez, hay fiscal, hay testigos y hay un abogado defensor nombrado y pagado por el propio tribunal, como se hace con cualquier acusado sin recursos. Lo que resulta difícil de creer hoy es que no se trata de una farsa, ni de una broma de carnaval, ni de un caso aislado que quedó en las crónicas por raro: es un procedimiento ordinario, con su papeleo y sus honorarios, y hay más de doscientos casos documentados en Europa.",
     paginas: [
       {
         rotulo: "El procedimiento",

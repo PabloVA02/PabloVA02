@@ -22,8 +22,42 @@ export const CODIGOS_DE_BARRAS: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Un código de barras impreso en un envase, muy de cerca y algo desenfocado.",
+    fotos: [
+      {
+        archivo: "EAN-13 barcode on a gummy candy package.jpg",
+        autor: "Un código de barras EAN-13 impreso en el envase de unas gominolas, visto muy de cerca.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:EAN-13_barcode_on_a_gummy_candy_package.jpg",
+        foco: "50% 40%",
+        alt: "Barras negras de distintos grosores sobre fondo blanco, con una hilera de cifras debajo.",
+      },
+      {
+        archivo: "Ripples (15108827028).jpg",
+        autor: "La arena de una playa vista a ras de suelo. Fotografía de oatsy40.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ripples_(15108827028).jpg",
+        foco: "50% 45%",
+        alt: "Ondulaciones de arena mojada en primer plano, con el mar y un cielo blanco al fondo.",
+      },
+      {
+        archivo: "Optical fiber in protective coating that transports a Laser beam - Laser Physics Lab - NTNU-NT.jpg",
+        autor: "Una fibra óptica transportando un haz láser, en un laboratorio de física. NTNU.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Optical_fiber_in_protective_coating_that_transports_a_Laser_beam_-_Laser_Physics_Lab_-_NTNU-NT.jpg",
+        foco: "50% 45%",
+        alt: "Un hilo fino que brilla con luz intensa recorriéndolo por dentro, sobre un fondo oscuro.",
+      },
+      {
+        archivo: "SPAR kolonial mat varehandel hyller (Supermarket interior GROCERY store aisle shelves) Frokostblandinger gryn müsli Axa frukt energi 4-korn blåbær (cereals muesli) etc Tjøme NORWAY 2023-08-31 IMG 1095.jpg",
+        autor: "Estanterías de un supermercado noruego: cada envase lleva su código impreso.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:SPAR_kolonial_mat_varehandel_hyller_(Supermarket_interior_GROCERY_store_aisle_shelves)_Frokostblandinger_gryn_m%C3%BCsli_Axa_frukt_energi_4-korn_bl%C3%A5b%C3%A6r_(cereals_muesli)_etc_Tj%C3%B8me_NORWAY_2023-08-31_IMG_1095.jpg",
+        foco: "50% 45%",
+        alt: "Baldas de supermercado llenas de cajas de cereales alineadas y colocadas de frente.",
+      },
+    ],
     entrada:
-      "Florida, Estados Unidos, 1949. Un directivo de una cadena de supermercados pide ayuda a una universidad porque las colas de sus cajas son insoportables: cada producto hay que teclearlo a mano y el inventario se lleva en papel. Dos estudiantes recogen el encargo, y uno de ellos, sentado en la playa, encuentra la idea que faltaba.",
+      "Florida, Estados Unidos, 1949. Un directivo de una cadena de supermercados va a una universidad a pedir ayuda con un problema que le parece irresoluble: las colas de sus cajas son insoportables porque cada producto hay que teclearlo a mano, artículo por artículo, y el inventario se lleva a lápiz en libretas que nunca cuadran. Casi nadie le hace caso, pero dos estudiantes recogen el encargo. Uno de ellos, sentado en la playa unos meses después, encuentra la idea que faltaba sin más herramienta que los cuatro dedos de una mano.",
     paginas: [
       {
         rotulo: "Del morse",
