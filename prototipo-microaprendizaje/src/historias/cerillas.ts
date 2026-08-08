@@ -17,13 +17,47 @@ import type { Short } from "../shorts";
 export const CERILLAS: Short[] = [
   {
     id: "antes-de-la-cerilla",
-    titulo: "Encender fuego costaba media hora",
+    titulo: "Media hora para hacer fuego",
     gancho: "Pedernal, eslabón y yesca. Y si se apagaba de noche, tocaba ir a pedir brasas al vecino.",
     categoria: "Cerillas",
     color: "var(--ochre)",
     encargo: "Una caja metálica pequeña abierta con pedernal, eslabón y un trozo de yesca.",
+    fotos: [
+      {
+        archivo: "Safety matches Independence.jpg",
+        autor: "Una caja de cerillas de seguridad americana, abierta. Fotografía de Agnat.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Safety_matches_Independence.jpg",
+        foco: "50% 42%",
+        alt: "Una caja de cartón azul con cerillas de cabeza roja asomando, sobre una tela oscura.",
+      },
+      {
+        archivo: "2026-03-21 Z5-2200 Achim-Lammerts Fomes-fomentarius.jpg",
+        autor: "El hongo yesquero (<em>Fomes fomentarius</em>) en un tronco. Fotografía de Achim Lammerts.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2026-03-21_Z5-2200_Achim-Lammerts_Fomes-fomentarius.jpg",
+        foco: "55% 50%",
+        alt: "Un hongo con forma de pezuña, gris y con bandas, saliendo de un tronco cubierto de musgo.",
+      },
+      {
+        archivo: "Matchstick in the Dark (Unsplash).jpg",
+        autor: "Una fila de cerillas ardiendo a la vez. Fotografía de Jamie Street.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Matchstick_in_the_Dark_(Unsplash).jpg",
+        foco: "45% 50%",
+        alt: "Muchas cerillas puestas en fila prendiendo unas de otras, con la llama corriendo por encima.",
+      },
+      {
+        archivo: "Close-up of a Fire.jpg",
+        autor: "Llamas y brasas de cerca. Fotografía de Thomas Kirchel.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Close-up_of_a_Fire.jpg",
+        foco: "50% 50%",
+        alt: "Un fuego de leña visto de cerca, con las llamas naranjas subiendo entre los troncos al rojo.",
+      },
+    ],
     entrada:
-      "Europa, siglo XVIII. No existe nada parecido a una cerilla. Para hacer fuego hay que golpear un eslabón de acero contra un pedernal, dirigir la chispa hacia una yesca preparada, soplar con paciencia hasta conseguir un rescoldo y pasarlo a paja o a virutas. Con las manos frías o con humedad, la operación puede llevar media hora larga.",
+      "Europa, siglo XVIII. No existe nada que se parezca ni de lejos a una cerilla, y encender fuego es una tarea con su técnica y su mal humor. Hay que golpear un eslabón de acero contra un pedernal en el ángulo justo, dirigir la chispa que salta hacia un trozo de yesca preparada de antemano, soplar con mucha paciencia hasta conseguir un rescoldo que no se apague y pasarlo con cuidado a la paja o a las virutas. Con las manos frías, con viento o con la yesca algo húmeda, la operación entera puede llevar media hora larga.",
     paginas: [
       {
         rotulo: "La yesca",

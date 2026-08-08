@@ -24,8 +24,42 @@ export const MEDIDAS: Short[] = [
     categoria: "Medidas",
     color: "var(--ochre)",
     encargo: "Una barra metálica larga apoyada sobre soportes en una sala de museo.",
+    fotos: [
+      {
+        archivo: "Platinum-Iridium meter bar.jpg",
+        autor: "El metro patrón de platino e iridio, con su perfil en forma de equis.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Platinum-Iridium_meter_bar.jpg",
+        foco: "50% 45%",
+        alt: "Una barra metálica brillante de sección en equis, apoyada en dos soportes sobre un fondo rojo.",
+      },
+      {
+        archivo: "Star trails (starstax).jpg",
+        autor: "Estelas de estrellas sobre un observatorio, en una exposición larga. Fotografía de A. Duro, ESO.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Star_trails_(starstax).jpg",
+        foco: "50% 45%",
+        alt: "Círculos concéntricos de luz dibujados por las estrellas en el cielo nocturno sobre un horizonte oscuro.",
+      },
+      {
+        archivo: "Sedan, Église Saint-Charles-Borromée de Sedan -- 2017 -- 4893.jpg",
+        autor: "Los campanarios de una iglesia francesa sobre los tejados. Fotografía de Dietmar Rabich, 2017.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sedan,_%C3%89glise_Saint-Charles-Borrom%C3%A9e_de_Sedan_--_2017_--_4893.jpg",
+        foco: "40% 45%",
+        alt: "Dos torres de piedra con remate de pizarra asomando por encima de los tejados de una ciudad.",
+      },
+      {
+        archivo: "Post Medieval trade weight of Charles I or II (FindID 461853).jpg",
+        autor: "Una pesa de comercio del siglo XVII, de las que el sistema métrico dejó fuera de uso.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Post_Medieval_trade_weight_of_Charles_I_or_II_(FindID_461853).jpg",
+        foco: "42% 45%",
+        alt: "Una pesa cuadrada de metal oscuro con un sello acuñado en la cara, muy gastada por el uso.",
+      },
+    ],
     entrada:
-      "Francia, 1792. El país acaba de derribar a su rey y decide de paso acabar con otro desorden: en el reino se usan más de doscientas cincuenta mil unidades de medida distintas, porque cada comarca tiene su propia libra y su propia vara, y a menudo cambian de un pueblo al siguiente. La Academia de Ciencias propone inventar una medida que no dependa de nadie.",
+      "Francia, 1792. El país acaba de derribar a su rey y decide de paso acabar con otro desorden que llevaba siglos enquistado: en el reino se usan más de doscientas cincuenta mil unidades de medida distintas, porque cada comarca tiene su propia libra y su propia vara, a veces cambian de un pueblo al siguiente y casi siempre las fija el señor del lugar, que es quien sale ganando. Comprar grano en dos mercados vecinos exige saber dos sistemas. La Academia de Ciencias propone entonces algo nuevo: inventar una medida que no dependa de ningún rey ni de ninguna costumbre local.",
     paginas: [
       {
         rotulo: "La cuenta",
