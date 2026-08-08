@@ -21,8 +21,42 @@ export const ALMACENES: Short[] = [
     categoria: "Empresas",
     color: "var(--clay)",
     encargo: "Palés de madera apilados en una nave, con las marcas quemadas en los tacos.",
+    fotos: [
+      {
+        archivo: "Hallennes palettes rue paul colette.jpg",
+        autor: "Palés de madera apilados junto a una carretera, en el norte de Francia. Fotografía de Velvet.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hallennes_palettes_rue_paul_colette.jpg",
+        foco: "50% 45%",
+        alt: "Un muro de palés de madera apilados de canto hasta varios metros de altura contra un cielo azul.",
+      },
+      {
+        archivo: "Colorful Semi-Trucks.jpg",
+        autor: "Cabezas tractoras aparcadas en fila, con sus remolques detrás.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Colorful_Semi-Trucks.jpg",
+        foco: "50% 45%",
+        alt: "Cinco camiones de colores aparcados en diagonal, con una montaña seca al fondo bajo un cielo azul.",
+      },
+      {
+        archivo: "Blue Pallets (36692286725).jpg",
+        autor: "Palés azules de los que circulan en régimen de intercambio, apilados en un depósito. Fotografía de oatsy40.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Blue_Pallets_(36692286725).jpg",
+        foco: "50% 55%",
+        alt: "Una hilera larguísima de palés azules apilados a gran altura bajo un cielo encapotado.",
+      },
+      {
+        archivo: "Eimskip container terminal at Port of Reykjavík.jpg",
+        autor: "La terminal de contenedores del puerto de Reikiavik, nevada. Fotografía de Quintin Soloviev.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Eimskip_container_terminal_at_Port_of_Reykjav%C3%ADk.jpg",
+        foco: "50% 30%",
+        alt: "Contenedores de colores apilados sobre nieve, con grúas azules y montañas nevadas al fondo.",
+      },
+    ],
     entrada:
-      "Estados Unidos, años cuarenta del siglo XX, durante la Segunda Guerra Mundial. El ejército necesita cargar y descargar barcos a toda velocidad y adopta una plataforma de madera que se mueve con carretilla elevadora. Un estibador tardaba tres días en descargar un barco a mano, y con palés tarda unas horas. Aquella plataforma acabó fijando medidas en toda la cadena de transporte.",
+      "Estados Unidos, años cuarenta del siglo XX, en plena Segunda Guerra Mundial. El ejército necesita cargar y descargar barcos a una velocidad que no se había pedido nunca, y adopta para ello una plataforma de madera que se mueve entera con una carretilla elevadora. La diferencia es brutal: donde una cuadrilla de estibadores tardaba tres días en vaciar un barco a mano, con palés se tarda unas horas. Lo que nadie previó entonces es que aquella tabla con tacos acabaría fijando las medidas de casi todo lo que se transporta, desde el camión hasta la caja de galletas.",
     paginas: [
       {
         rotulo: "La medida",
