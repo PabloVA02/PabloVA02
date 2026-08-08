@@ -21,8 +21,42 @@ export const ACUARIOS: Short[] = [
     categoria: "Ciencia",
     color: "var(--slate)",
     encargo: "Acuario victoriano de cristal y hierro con plantas acuáticas y unos pocos peces.",
+    fotos: [
+      {
+        archivo: "Planted Tank 03 - Flickr - The Wandering Angel.jpg",
+        autor: "Un acuario plantado con peces neón entre la vegetación. Fotografía de The Wandering Angel.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Planted_Tank_03_-_Flickr_-_The_Wandering_Angel.jpg",
+        foco: "50% 45%",
+        alt: "Un acuario lleno de plantas verdes altas con pececillos azules y rojos nadando entre las hojas.",
+      },
+      {
+        archivo: "The guppy (51713178218).jpg",
+        autor: "Un guppy, uno de los peces de acuario más extendidos del mundo. Fotografía de Carlos Eduardo Joos.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_guppy_(51713178218).jpg",
+        foco: "50% 40%",
+        alt: "Un pez pequeño de cola azul moteada y cuerpo dorado, de perfil sobre un fondo oscuro.",
+      },
+      {
+        archivo: "Planted Nano Aquarium.JPG",
+        autor: "Un acuario pequeño recién plantado, con la grava a la vista. Fotografía de Tdwittt.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Planted_Nano_Aquarium.JPG",
+        foco: "50% 50%",
+        alt: "Un acuario cúbico pequeño con matas de plantas bajas sobre un lecho de grava clara.",
+      },
+      {
+        archivo: "Aeration tanks at the Scarborough Sewage Disposal Plant (I0004239).jpg",
+        autor: "Tanques de aireación de una depuradora de aguas residuales, hacia 1925. Archivos de Ontario.",
+        licencia: "OGL-ON",
+        fuente: "https://commons.wikimedia.org/wiki/File:Aeration_tanks_at_the_Scarborough_Sewage_Disposal_Plant_(I0004239).jpg",
+        foco: "50% 50%",
+        alt: "Depósitos rectangulares de agua en plena ebullición vistos entre barandillas metálicas, en blanco y negro.",
+      },
+    ],
     entrada:
-      "Londres, 1850. Un naturalista publica que un recipiente cerrado con agua puede mantener peces vivos de manera indefinida si lleva también plantas y algo de luz. Hasta entonces cualquier pecera acababa igual, con el agua turbia y los peces muertos en pocos días. La idea nueva era que las plantas y los animales podían mantenerse mutuamente dentro del mismo cristal.",
+      "Londres, 1850. Un naturalista publica una idea que suena a truco de feria: un recipiente cerrado con agua puede mantener peces vivos indefinidamente si lleva también plantas dentro y le da algo de luz. Hasta entonces cualquier pecera acababa igual, con el agua turbia, un olor imposible y los peces muertos en cuestión de días, y la única forma de retrasarlo era cambiar el agua entera cada dos por tres. Lo nuevo no era el cristal ni los peces, sino la idea de que las plantas y los animales podían sostenerse unos a otros sin que nadie tocase nada.",
     paginas: [
       {
         rotulo: "El ciclo",
