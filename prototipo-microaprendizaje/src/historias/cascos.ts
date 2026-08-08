@@ -20,8 +20,42 @@ export const CASCOS: Short[] = [
     categoria: "Cascos",
     color: "var(--ochre)",
     encargo: "Un casco de ciclismo partido por dentro, con el corcho blanco a la vista.",
+    fotos: [
+      {
+        archivo: "Bicycle Helmet 0085.jpg",
+        autor: "Un casco de bicicleta corriente, con la espuma gris asomando por las rejillas. Fotografía de Ashley Pomeroy.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bicycle_Helmet_0085.jpg",
+        foco: "50% 50%",
+        alt: "Un casco blanco y negro de ciclista visto de lado sobre fondo claro, con la correa colgando.",
+      },
+      {
+        archivo: "Cracked bicycle helmet.jpg",
+        autor: "Un casco partido después de un accidente: la espuma se ha aplastado y agrietado. Fotografía de Andrew Kvalheim.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cracked_bicycle_helmet.jpg",
+        foco: "50% 45%",
+        alt: "Primer plano de un casco con una grieta abierta que atraviesa la carcasa y deja ver la espuma interior.",
+      },
+      {
+        archivo: "Purple bicycle leaning against a stone wall.jpg",
+        autor: "Una bicicleta apoyada en un muro de piedra.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Purple_bicycle_leaning_against_a_stone_wall.jpg",
+        foco: "50% 50%",
+        alt: "Una bicicleta morada apoyada contra un muro de piedra irregular, con el manillar hacia la cámara.",
+      },
+      {
+        archivo: "Revo Wild Country outdoor with rope.jpg",
+        autor: "Una cuerda de escalada pasada por un aparato de seguro: también se estira a propósito para alargar la frenada. Fotografía de Polarbear24.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Revo_Wild_Country_outdoor_with_rope.jpg",
+        foco: "50% 50%",
+        alt: "Una cuerda azul trenzada pasando por una pieza metálica redonda sujeta a un mosquetón, sobre roca gris.",
+      },
+    ],
     entrada:
-      "Cualquier caída en bicicleta, con cascos regulados por normas desde los años setenta. Lo que hace daño en un golpe no es el impacto en sí, sino la brusquedad con que el cerebro se frena dentro del cráneo. Por eso un casco no funciona como una armadura: funciona como un colchón que se destruye para estirar ese frenazo el mayor tiempo posible.",
+      "Cualquier caída en bicicleta, en cualquier calle, con cascos regulados por normas desde los años setenta. Lo que hace daño en un golpe no es el impacto en sí, sino la brusquedad con la que el cerebro se frena dentro del cráneo: es un órgano blando flotando en líquido, y cuando la cabeza se para de golpe él sigue moviéndose un instante más. Por eso un casco no funciona como una armadura, que sería lo intuitivo. Funciona justo al revés, como un colchón que se destruye a sí mismo para estirar ese frenazo todo lo que puede. Un casco que sale intacto de un accidente serio es un casco que no ha hecho su trabajo.",
     paginas: [
       {
         rotulo: "Estirar el golpe",

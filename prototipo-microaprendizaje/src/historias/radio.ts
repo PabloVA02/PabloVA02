@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const RADIO: Short[] = [
   {
     id: "senal-transatlantica",
-    titulo: "Tres pitidos cruzaron el Atlántico sin cable",
+    titulo: "Cruzó el océano sin cable",
     gancho: "Los físicos dijeron que era imposible, porque la Tierra es curva. Tenían razón y se equivocaban.",
     categoria: "Radio",
     color: "var(--slate)",
     encargo: "Una cometa sujeta a un cable subiendo sobre un acantilado gris y ventoso.",
+    fotos: [
+      {
+        archivo: "Aerial view of Signal Hill, St. John's, Newfoundland at sunset by photographer Erik Mclean of Introspective Design.jpg",
+        autor: "Signal Hill, en Terranova, el promontorio desde el que se escuchó la señal. Fotografía de Erikallen920.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Signal_Hill,_St._John%27s,_Newfoundland_at_sunset_by_photographer_Erik_Mclean_of_Introspective_Design.jpg",
+        foco: "50% 45%",
+        alt: "Un cabo oscuro sobre el mar al atardecer, con una torre pequeña recortada en lo alto contra un cielo naranja.",
+      },
+      {
+        archivo: "Box kite in flight.tif",
+        autor: "Una cometa de caja en vuelo, del tipo que se usaba para subir antenas y aparatos de medida. Fotografía de SteveStrummer.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Box_kite_in_flight.tif",
+        foco: "50% 45%",
+        alt: "Una cometa con forma de caja de tela blanca y roja suspendida en un cielo azul con nubes.",
+      },
+      {
+        archivo: "Aurora borealis above Storfjorden and the Lyngen Alps in moonlight, 2012 March.jpg",
+        autor: "Auroras boreales sobre el fiordo de Lyngen, en Noruega: la capa alta de la atmósfera, iluminada. Fotografía de Simo Räsänen.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Aurora_borealis_above_Storfjorden_and_the_Lyngen_Alps_in_moonlight,_2012_March.jpg",
+        foco: "50% 45%",
+        alt: "Cintas verdes de luz cruzando un cielo nocturno sobre montañas nevadas y un fiordo en calma.",
+      },
+      {
+        archivo: "Marconi operator aboard ship \"Deutschland\", at his instruments LCCN2014683102.jpg",
+        autor: "El telegrafista de un transatlántico alemán en su cabina, hacia 1914, con el equipo de radio de la época.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Marconi_operator_aboard_ship_%22Deutschland%22,_at_his_instruments_LCCN2014683102.jpg",
+        foco: "50% 45%",
+        alt: "Un hombre con auriculares sentado ante una mesa llena de bobinas, interruptores y cajas de madera.",
+      },
+    ],
     entrada:
-      "Terranova, en el extremo este de Canadá, diciembre de 1901. Un joven italiano espera en una habitación fría de un antiguo hospital, con un auricular pegado a la oreja y una antena de cien metros colgada de una cometa. Al otro lado del océano, a tres mil kilómetros, una estación emite sin descanso la letra ese.",
+      "Terranova, en el extremo este de Canadá, diciembre de 1901. Un joven italiano espera en una habitación fría de un antiguo hospital militar, con un auricular pegado a la oreja y una antena de cien metros colgada de una cometa que el viento zarandea afuera. Al otro lado del océano, a tres mil kilómetros, una estación en la costa de Cornualles emite sin descanso una sola letra en morse, la ese: tres puntos, tres pitidos cortos, lo más simple que se puede mandar. Si consigue oírlos, habrá demostrado algo que la mitad de los físicos de Europa considera físicamente imposible.",
     paginas: [
       {
         rotulo: "La cometa",
