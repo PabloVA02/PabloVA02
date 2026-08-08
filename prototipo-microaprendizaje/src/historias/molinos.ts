@@ -20,8 +20,42 @@ export const MOLINOS: Short[] = [
     categoria: "Tecnología",
     color: "var(--ochre)",
     encargo: "Molino de viento holandés con la rueda pequeña de orientación en la parte trasera del tejado.",
+    fotos: [
+      {
+        archivo: "Nes (NL), Windmühle \"Phenix\" -- 2026 -- 1900.jpg",
+        autor: "El molino Phenix, en la isla de Ameland, Países Bajos. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nes_(NL),_Windm%C3%BChle_%22Phenix%22_--_2026_--_1900.jpg",
+        foco: "50% 45%",
+        alt: "Un molino de viento de tejado de paja con cuatro aspas de rejilla blanca, recortado contra nubes altas.",
+      },
+      {
+        archivo: "Stock Tower Windmill Essex 1965.jpg",
+        autor: "Un molino de torre inglés, con el cuerpo de ladrillo fijo y solo el tejado giratorio. Fotografía de Sludge G, 1965.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Stock_Tower_Windmill_Essex_1965.jpg",
+        foco: "50% 45%",
+        alt: "Fotografía en blanco y negro de una torre de ladrillo cónica coronada por un tejado curvo de madera.",
+      },
+      {
+        archivo: "Flügel und Windrose Tjücher-Mühle.JPG",
+        autor: "La rueda de orientación en la parte de atrás del tejado de un molino de Frisia Oriental. Fotografía de 4028mdk09.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fl%C3%BCgel_und_Windrose_Tj%C3%BCcher-M%C3%BChle.JPG",
+        foco: "50% 40%",
+        alt: "Vista desde abajo del tejado de un molino, con una rueda pequeña de palas montada detrás en ángulo recto.",
+      },
+      {
+        archivo: "Wind Turbines, Baltic Sea.jpg",
+        autor: "Aerogeneradores en el mar Báltico. Fotografía de John Samuel.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wind_Turbines,_Baltic_Sea.jpg",
+        foco: "50% 50%",
+        alt: "Varias torres blancas de aerogenerador saliendo del agua, alineadas hasta perderse en la bruma.",
+      },
+    ],
     entrada:
-      "Países Bajos e Inglaterra, siglos XII a XIX. Un molino de viento solo funciona si sus aspas miran de frente al viento, y el viento cambia de dirección varias veces al día. Girar un tejado de varias toneladas cada vez que rola el viento es el problema central del invento. La historia de los molinos es en realidad la historia de cómo se resolvió eso.",
+      "Países Bajos e Inglaterra, siglos XII a XIX. Un molino de viento solo funciona si sus aspas miran de frente al viento, y el viento no tiene ninguna intención de quedarse quieto: cambia de dirección varias veces al día, a veces en cuestión de minutos. Girar un tejado de varias toneladas, con el eje, las aspas y media maquinaria encima, cada vez que rola el viento, es el problema central del invento, y estuvo sin resolver del todo durante seiscientos años. La historia de los molinos, contada de verdad, es la historia de cómo se fue resolviendo eso hasta que dejó de hacer falta nadie.",
     paginas: [
       {
         rotulo: "Girar la casa",

@@ -20,13 +20,47 @@ import type { Short } from "../shorts";
 export const PREHISTORIA: Short[] = [
   {
     id: "lanzas-madera",
-    titulo: "Las lanzas más antiguas tienen trescientos mil años",
+    titulo: "Lanzas de hace 300.000 años",
     gancho: "Son de madera y no deberían existir: la madera se pudre. Estas cayeron en el sitio exacto.",
     categoria: "Prehistoria",
     color: "var(--forest)",
     encargo: "Una vara de madera oscura y afilada, tumbada sobre arena húmeda.",
+    fotos: [
+      {
+        archivo: "Senden, Venner Moor -- 2016 -- 5866.jpg",
+        autor: "Un tocón afilado asomando en el lago helado de una antigua turbera, en Westfalia. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Senden,_Venner_Moor_--_2016_--_5866.jpg",
+        foco: "50% 45%",
+        alt: "Una punta de madera negra saliendo del agua oscura de un lago, recortada contra el brillo del hielo.",
+      },
+      {
+        archivo: "Senden, Venner Moor -- 2016 -- 5886.jpg",
+        autor: "La vegetación de una turbera: debajo, el suelo encharcado que conserva la madera durante milenios. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Senden,_Venner_Moor_--_2016_--_5886.jpg",
+        foco: "50% 45%",
+        alt: "Helechos secos de color cobre entre troncos finos, iluminados por el sol bajo del invierno.",
+      },
+      {
+        archivo: "Askania-Nova Steppe 24 Przewalski's Horses (YDS 1683).jpg",
+        autor: "Caballos salvajes en la estepa de Askania-Nova, en Ucrania. Fotografía de Nataliya Shestakova.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Askania-Nova_Steppe_24_Przewalski%27s_Horses_(YDS_1683).jpg",
+        foco: "50% 50%",
+        alt: "Una manada de caballos pardos de crin corta pastando en una llanura de hierba seca bajo un cielo amplio.",
+      },
+      {
+        archivo: "2019-09-01 ISTAF 2019 Javelin throw (Martin Rulsch) 037.jpg",
+        autor: "Un lanzamiento de jabalina en una competición de atletismo. Fotografía de Martin Rulsch.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2019-09-01_ISTAF_2019_Javelin_throw_(Martin_Rulsch)_037.jpg",
+        foco: "50% 40%",
+        alt: "Una jabalina saliendo despedida hacia arriba en el momento del lanzamiento, sobre el césped de un estadio.",
+      },
+    ],
     entrada:
-      "Alemania, 1994. Unos arqueólogos excavan en una mina de carbón a cielo abierto, en un terreno que hace trescientos mil años era la orilla de un lago. Entre el barro empiezan a asomar unas varas larguísimas, afiladas por los dos extremos. Nadie esperaba encontrar algo así, porque la madera se pudre y a esa edad no debería quedar ni el rastro.",
+      "Alemania, 1994. Unos arqueólogos excavan en una mina de carbón a cielo abierto, en un terreno que hace trescientos mil años era la orilla de un lago. Entre el barro empiezan a asomar unas varas larguísimas, más altas que un hombre, afiladas por los dos extremos y con la superficie todavía lisa. Nadie esperaba encontrar algo así, y no por falta de interés: la madera se pudre. De todo lo que fabricaron nuestros antepasados, lo de madera es precisamente lo que nunca llega, y a esa edad no debería quedar ni el rastro de una astilla. Aquellas ocho varas cambiaron lo que se creía saber sobre quién las hizo.",
     paginas: [
       {
         rotulo: "Por qué se salvaron",
