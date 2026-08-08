@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const SEMAFOROS: Short[] = [
   {
     id: "primer-semaforo",
-    titulo: "El primer semáforo explotó al mes",
+    titulo: "El primer semáforo explotó",
     gancho: "Funcionaba con gas y lo movía un policía a mano. Le estalló en la cara.",
     categoria: "Semáforos",
     color: "var(--clay)",
     encargo: "Un poste de hierro con dos brazos y faroles de gas en un cruce con niebla.",
+    fotos: [
+      {
+        archivo: "Semaphore signals at Droitwich Spa (16729278074).jpg",
+        autor: "Señales de brazo de ferrocarril, el aparato del que salió el semáforo. Fotografía de Jeremy Segrott.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Semaphore_signals_at_Droitwich_Spa_(16729278074).jpg",
+        foco: "50% 26%",
+        alt: "Dos brazos de señal pintados de rojo y blanco sobre un poste de hierro, con las lámparas rojas encendidas.",
+      },
+      {
+        archivo: "\"Farting lane\" gaslight London. (39839843585).jpg",
+        autor: "Una farola de gas todavía encendida en una calle de Londres. Fotografía de Loco Steve.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:%22Farting_lane%22_gaslight_London._(39839843585).jpg",
+        foco: "50% 28%",
+        alt: "Un farol de hierro fundido con la llama de gas encendida dentro del vidrio, en una calle mojada al anochecer.",
+      },
+      {
+        archivo: "Traffic signal at FL20 and FL71.jpg",
+        autor: "Un semáforo eléctrico de tres luces colgado sobre un cruce.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Traffic_signal_at_FL20_and_FL71.jpg",
+        foco: "50% 40%",
+        alt: "Un semáforo de tres focos suspendido de un cable, recortado contra un cielo despejado.",
+      },
+      {
+        archivo: "South Gate of Taipei City at night (51601392336).jpg",
+        autor: "Un cruce iluminado de noche en Taipéi. Fotografía de 大頭家族.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:South_Gate_of_Taipei_City_at_night_(51601392336).jpg",
+        foco: "50% 50%",
+        alt: "Una avenida de noche con los faros de los coches en estelas y los semáforos encendidos sobre la calzada.",
+      },
+    ],
     entrada:
-      "Londres, diciembre de 1868. Frente al Parlamento hay un cruce donde se juntan carruajes, carros de reparto y peatones, y donde mueren atropelladas varias personas al año. Un ingeniero ferroviario propone trasladar a la calle algo que ya funciona en las vías: una señal de brazos con luces de colores manejada por un empleado.",
+      "Londres, diciembre de 1868. Frente al Parlamento hay un cruce por el que pasan a la vez carruajes de caballos, carros de reparto, jinetes y peatones intentando llegar al otro lado, y donde mueren atropelladas varias personas cada año sin que nadie sepa muy bien qué hacer. No existe ninguna norma sobre quién pasa primero ni ningún aparato que lo indique. Un ingeniero de ferrocarriles propone entonces trasladar a la calle algo que en las vías lleva décadas funcionando sin problemas: una señal de brazos articulados, con luces de colores para la noche, manejada a mano por un empleado.",
     paginas: [
       {
         rotulo: "El poste de gas",

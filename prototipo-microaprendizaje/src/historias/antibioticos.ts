@@ -21,8 +21,42 @@ export const ANTIBIOTICOS: Short[] = [
     categoria: "Antibióticos",
     color: "var(--plum)",
     encargo: "Un puñado de tierra oscura sobre una placa de laboratorio de cristal.",
+    fotos: [
+      {
+        archivo: "Miracle Flowers.jpg",
+        autor: "Colonias de hongos creciendo en una placa de cultivo. Fotografía de Tetyana Petruk.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Miracle_Flowers.jpg",
+        foco: "50% 45%",
+        alt: "Dos colonias redondas de moho, con la superficie plegada y cubierta de polvo blanco, sobre un medio ámbar.",
+      },
+      {
+        archivo: "Streptomyces gardneri strain ChNPU F3.jpg",
+        autor: "Una cepa de <em>Streptomyces</em> sembrada en placa, el género del que salió la estreptomicina.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Streptomyces_gardneri_strain_ChNPU_F3.jpg",
+        foco: "58% 45%",
+        alt: "Una placa de Petri con decenas de colonias blancas repartidas en trazos sobre el medio de cultivo.",
+      },
+      {
+        archivo: "Mystical galaxy.jpg",
+        autor: "Colonias con su halo alrededor: donde crece el hongo, la bacteria no crece. Fotografía de Tetyana Petruk.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mystical_galaxy.jpg",
+        foco: "50% 45%",
+        alt: "Varias colonias de moho sobre agar ámbar, cada una rodeada de un anillo más claro donde no ha crecido nada.",
+      },
+      {
+        archivo: "A collection of generic medicine pills on a white background.jpg",
+        autor: "Comprimidos y cápsulas de medicamentos genéricos. Fotografía de Subhrajyoti Parida.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_collection_of_generic_medicine_pills_on_a_white_background.jpg",
+        foco: "50% 50%",
+        alt: "Un montón de pastillas y cápsulas de colores repartidas sobre un fondo blanco.",
+      },
+    ],
     entrada:
-      "Nueva Jersey, 1943. Un laboratorio universitario de ciencias del suelo lleva veinte años estudiando los microbios de la tierra de labranza, un asunto agrícola sin ningún prestigio médico. Su director tiene una intuición sencilla: en un gramo de tierra viven miles de millones de microorganismos peleando por comida, así que allí abajo tiene que haber armas químicas de sobra.",
+      "Nueva Jersey, 1943. Un laboratorio universitario de ciencias del suelo lleva veinte años estudiando los microbios de la tierra de labranza, un asunto que interesa a los agrónomos y a nadie más, sin ningún prestigio dentro de la medicina. Su director tiene una intuición muy sencilla y muy poco glamurosa: en un solo gramo de tierra viven miles de millones de microorganismos apretados unos contra otros y peleando por la misma comida, de modo que allí abajo, después de millones de años de guerra química, tiene que haber armas de sobra. Solo hay que ponerse a buscarlas una por una.",
     paginas: [
       {
         rotulo: "Cribar el barro",
