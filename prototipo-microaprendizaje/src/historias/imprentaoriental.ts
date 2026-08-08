@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const IMPRENTA_ORIENTAL: Short[] = [
   {
     id: "tipos-de-barro",
-    titulo: "Tipos móviles de barro cocido",
+    titulo: "Tipos móviles de barro",
     gancho: "Un artesano chino talló cada carácter en barro y lo coció, hacia el año 1040.",
     categoria: "Imprenta oriental",
     color: "var(--plum)",
     encargo: "Piezas pequeñas de barro cocido con caracteres grabados, ordenadas en una bandeja.",
+    fotos: [
+      {
+        archivo: "Beijing printing museum.wooden movable types.jpg",
+        autor: "Tipos móviles chinos colocados en su bandeja, en el Museo de la Imprenta de Pekín. Fotografía de Popolon.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Beijing_printing_museum.wooden_movable_types.jpg",
+        foco: "50% 45%",
+        alt: "Decenas de piezas cúbicas con caracteres grabados en la cara superior, dentro de una bandeja sobre terciopelo rojo.",
+      },
+      {
+        archivo: "Beijing printing museum.bronze movable types.jpg",
+        autor: "Tipos móviles de bronce del mismo museo. Fotografía de Popolon.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Beijing_printing_museum.bronze_movable_types.jpg",
+        foco: "50% 45%",
+        alt: "Piezas metálicas cuadradas con caracteres en relieve, alineadas unas junto a otras.",
+      },
+      {
+        archivo: "Yueshan Daozong - Calligraphy in Semi-Cursive Style (xing-caoshu) - 2003.353 - Cleveland Museum of Art.tif",
+        autor: "Caligrafía en estilo semicursivo del monje Yueshan Daozong, siglo XVII. Cleveland Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Yueshan_Daozong_-_Calligraphy_in_Semi-Cursive_Style_(xing-caoshu)_-_2003.353_-_Cleveland_Museum_of_Art.tif",
+        foco: "50% 50%",
+        alt: "Grandes caracteres chinos trazados a pincel con tinta negra sobre papel envejecido.",
+      },
+      {
+        archivo: "A page from an album of hand-colored woodblock prints depicting ancient sages - Vanderbilt Fine Arts Gallery - 1995.017c.tif",
+        autor: "Página de un álbum de xilografías coloreadas a mano con sabios antiguos. Vanderbilt Fine Arts Gallery.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_page_from_an_album_of_hand-colored_woodblock_prints_depicting_ancient_sages_-_Vanderbilt_Fine_Arts_Gallery_-_1995.017c.tif",
+        foco: "50% 45%",
+        alt: "Estampa antigua coloreada a mano con figuras de túnica larga sobre un fondo claro.",
+      },
+    ],
     entrada:
-      "China, hacia el año 1040. Un artesano tiene una idea que un funcionario y científico de la época se molesta en describir por escrito con todo detalle, lo que nos permite conocerla: en lugar de tallar una página entera en un bloque de madera, tallar cada carácter por separado en una pastilla de barro, cocerla hasta endurecerla y componer con ellas cualquier texto.",
+      "China, hacia el año 1040. Un artesano tiene una idea que, por suerte para nosotros, un funcionario y científico de la época se molesta en describir por escrito con todo lujo de detalles: en lugar de tallar una página entera en un bloque de madera, que es como se venía haciendo desde hacía siglos, tallar cada carácter por separado en una pastilla de barro, cocerla hasta que endurezca y componer con esas piezas cualquier texto que haga falta. Es exactamente el principio que Europa descubrirá cuatro siglos más tarde, y en China no llegó a imponerse. El motivo tiene que ver con el propio idioma.",
     paginas: [
       {
         rotulo: "La bandeja",

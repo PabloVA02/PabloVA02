@@ -19,14 +19,50 @@ import type { Short } from "../shorts";
 export const FOTOGRAFIA: Short[] = [
   {
     id: "primera-foto",
-    titulo: "La primera foto tardó ocho horas",
+    titulo: "La foto tardó ocho horas",
     gancho: "El sol cruzó el cielo mientras se tomaba, así que en la imagen los dos lados están iluminados.",
     categoria: "Fotografía",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una placa metálica gastada con una vista borrosa de tejados y un patio.",
+    fotos: [
+      {
+        archivo: "Niépce Heliograph 1827 Le Gras.jpg",
+        autor: "La heliografía sobre placa de peltre tomada por Nicéphore Niépce en Le Gras: la imagen fotográfica más antigua que se conserva.",
+        licencia: "Dominio público",
+        pdPorEdad: 1833,
+        fuente: "https://commons.wikimedia.org/wiki/File:Ni%C3%A9pce_Heliograph_1827_Le_Gras.jpg",
+        foco: "50% 45%",
+        alt: "Una placa de metal gris y rayada donde apenas se distinguen unos tejados y un patio entre la bruma.",
+      },
+      {
+        archivo: "Daguerreotype camera, replica of Voigtlander's first metal camera from 1841, TM32508 - Tekniska museet - Stockholm, Sweden - DSC01429.JPG",
+        autor: "Réplica de una cámara de daguerrotipo metálica de 1841. Museo Técnico de Estocolmo. Fotografía de Daderot.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Daguerreotype_camera,_replica_of_Voigtlander%27s_first_metal_camera_from_1841,_TM32508_-_Tekniska_museet_-_Stockholm,_Sweden_-_DSC01429.JPG",
+        foco: "50% 45%",
+        alt: "Una cámara antigua con cuerpo cónico de latón montada sobre un pie de tres patas.",
+      },
+      {
+        archivo: "Boulevard du Temple by Daguerre.jpg",
+        autor: "El bulevar del Temple de París, daguerrotipo de Louis Daguerre, 1838. Abajo a la izquierda, un limpiabotas y su cliente: los únicos que se estuvieron quietos.",
+        licencia: "Dominio público",
+        pdPorEdad: 1851,
+        fuente: "https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg",
+        foco: "50% 55%",
+        alt: "Una calle ancha con edificios y árboles, completamente vacía de gente y de carruajes.",
+      },
+      {
+        archivo: "-Girl with Portrait of George Washington- MET DT324289.jpg",
+        autor: "Retrato al daguerrotipo de una niña, por Southworth y Hawes, hacia 1850. Metropolitan Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:-Girl_with_Portrait_of_George_Washington-_MET_DT324289.jpg",
+        foco: "50% 40%",
+        alt: "Daguerrotipo de una niña muy quieta, con el rostro serio, sentada junto a un retrato enmarcado.",
+      },
+    ],
     entrada:
-      "Borgoña, Francia, 1826. Un inventor de sesenta años que lleva una década intentando fijar imágenes coloca en la ventana de su cuarto una caja con una lente y, dentro, una placa de peltre cubierta con una sustancia derivada del betún que se endurece con la luz. Enfoca hacia el patio, abre el objetivo y se va a hacer otras cosas.",
+      "Borgoña, Francia, 1826. Un inventor de sesenta años que lleva una década intentando fijar imágenes coloca en la ventana de su cuarto una caja con una lente y, dentro, una placa de peltre cubierta con una sustancia derivada del betún de Judea que tiene una propiedad rara: se endurece donde le da la luz. Enfoca hacia el patio de su casa, abre el objetivo y se va a hacer otras cosas, porque no hay nada que vigilar. No es un experimento de una tarde. Cuando vuelva a mirar habrá pasado tanto tiempo que el sol habrá cruzado el cielo entero.",
     paginas: [
       {
         rotulo: "Ocho horas",
