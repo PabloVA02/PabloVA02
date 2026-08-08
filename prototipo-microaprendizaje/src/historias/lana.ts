@@ -22,8 +22,42 @@ export const LANA: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un asiento grande sin respaldo, tapizado en tela roja, en una sala solemne.",
+    fotos: [
+      {
+        archivo: "Woolsack (Irish House of Lords).jpg",
+        autor: "El saco de lana de la antigua Cámara de los Lores irlandesa. Fotografía de Kaihsu Tai.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Woolsack_(Irish_House_of_Lords).jpg",
+        foco: "50% 55%",
+        alt: "Un bloque acolchado tapizado en tela roja, sin respaldo, sobre un suelo de damero en una sala de madera.",
+      },
+      {
+        archivo: "Flocking Back to the Hills of Cronan Ranch (40304104730).jpg",
+        autor: "Un rebaño de ovejas cruzando una loma. Fotografía del Bureau of Land Management.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Flocking_Back_to_the_Hills_of_Cronan_Ranch_(40304104730).jpg",
+        foco: "50% 50%",
+        alt: "Una hilera larga de ovejas subiendo por una colina verde bajo un cielo azul intenso.",
+      },
+      {
+        archivo: "Wool on legs.jpg",
+        autor: "El vellón de una oveja, la materia prima de todo el negocio. Fotografía de Sudzie.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wool_on_legs.jpg",
+        foco: "50% 45%",
+        alt: "El lomo de una oveja visto de cerca, con la lana rizada y apelmazada en mechones.",
+      },
+      {
+        archivo: "Long Melford Holy Trinity Church 01.jpg",
+        autor: "La iglesia de la Santísima Trinidad de Long Melford, en Suffolk, levantada con dinero de la lana. Fotografía de Oxyman.",
+        licencia: "CC BY 2.5",
+        fuente: "https://commons.wikimedia.org/wiki/File:Long_Melford_Holy_Trinity_Church_01.jpg",
+        foco: "50% 45%",
+        alt: "Una iglesia de piedra larguísima con una hilera continua de ventanas altas, rodeada de lápidas.",
+      },
+    ],
     entrada:
-      "¿Por qué el presidente de la cámara alta británica se sienta en un saco? En el siglo XIV, cuando la lana era la mayor fuente de riqueza de Inglaterra y el impuesto sobre su exportación financiaba las guerras del rey, se colocó en la sala un asiento relleno de lana para recordar a los legisladores de dónde salía el dinero. Ahí sigue.",
+      "¿Por qué el presidente de la cámara alta británica se sienta en un saco? La respuesta está en el siglo XIV. En aquel momento la lana era, con diferencia, la mayor fuente de riqueza de Inglaterra, y el impuesto sobre su exportación era lo que financiaba las guerras del rey, las embajadas y buena parte de la corte. Para que ningún legislador lo olvidara mientras debatía, se colocó en el centro de la sala un asiento grande relleno de lana, sin respaldo y sin brazos, donde se sentaba quien presidía. Seis siglos y medio después ahí sigue.",
     paginas: [
       {
         rotulo: "El negocio",
