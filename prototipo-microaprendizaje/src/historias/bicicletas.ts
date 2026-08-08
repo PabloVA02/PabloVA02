@@ -21,8 +21,42 @@ export const BICICLETAS: Short[] = [
     categoria: "Bicicletas",
     color: "var(--ochre)",
     encargo: "Una máquina de madera con dos ruedas y sin pedales, apoyada en una pared.",
+    fotos: [
+      {
+        archivo: "Draisine or Laufmaschine, c. 1820 - Kurpfälzisches Museum der Stadt Heidelberg - Heidelberg, Germany - DSC01526.jpg",
+        autor: "Una draisiana de hacia 1820, el antepasado de la bicicleta. Museo del Palatinado, Heidelberg. Fotografía de Daderot.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Draisine_or_Laufmaschine,_c._1820_-_Kurpf%C3%A4lzisches_Museum_der_Stadt_Heidelberg_-_Heidelberg,_Germany_-_DSC01526.jpg",
+        foco: "50% 55%",
+        alt: "Un armazón de madera amarilla con dos ruedas de radios, un sillín acolchado y ningún pedal.",
+      },
+      {
+        archivo: "Mount Tambora Volcano, Sumbawa Island, Indonesia.jpg",
+        autor: "El cráter del Tambora, en la isla de Sumbawa, fotografiado desde la Estación Espacial. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mount_Tambora_Volcano,_Sumbawa_Island,_Indonesia.jpg",
+        foco: "50% 45%",
+        alt: "Un cráter enorme y circular abierto en la cima de una montaña verde, visto desde muy arriba.",
+      },
+      {
+        archivo: "00 8333 Hochrad.jpg",
+        autor: "Un biciclo de rueda alta, de los que aparecieron a partir de 1870. Fotografía de W. Bulach.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:00_8333_Hochrad.jpg",
+        foco: "50% 45%",
+        alt: "Una bicicleta antigua con una rueda delantera enorme y una trasera diminuta.",
+      },
+      {
+        archivo: "Bike on rainy street (Unsplash).jpg",
+        autor: "Una bicicleta aparcada en una calle mojada. Fotografía de Ornella Binni.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bike_on_rainy_street_(Unsplash).jpg",
+        foco: "50% 45%",
+        alt: "Una bicicleta apoyada en un poste sobre el adoquinado brillante de una calle con lluvia.",
+      },
+    ],
     entrada:
-      "Alemania, 1817. Un funcionario forestal presenta un aparato de madera con dos ruedas en línea, un sillín y un manillar, pero sin pedales ni cadena: se avanza empujando el suelo con los pies. Lo construye después de dos años pésimos para la agricultura europea, con cosechas perdidas y avena carísima, en los que mucha gente tuvo que sacrificar sus caballos.",
+      "Alemania, 1817. Un funcionario forestal presenta un aparato de madera con dos ruedas puestas en línea, un sillín y un manillar, pero sin pedales, sin cadena y sin frenos: se avanza empujando el suelo con los pies, sentado, como quien da zancadas largas. Suena a juguete, y de hecho es lo que muchos pensaron al verlo. Pero lo construye después de dos años pésimos para la agricultura europea, con las cosechas perdidas y la avena a un precio imposible, en los que mucha gente había tenido que sacrificar sus caballos porque no podía darles de comer.",
     paginas: [
       {
         rotulo: "El año sin verano",
