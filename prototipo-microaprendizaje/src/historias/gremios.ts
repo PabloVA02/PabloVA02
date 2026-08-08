@@ -16,14 +16,49 @@ import type { Short } from "../shorts";
 export const GREMIOS: Short[] = [
   {
     id: "de-donde-viene-obra-maestra",
-    titulo: "De dónde viene la obra maestra",
+    titulo: "La obra maestra, un examen",
     gancho: "Era la pieza que un artesano presentaba para que le dejaran abrir taller propio. Si no gustaba, seguía de empleado.",
     categoria: "Gremios",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una cerradura antigua muy trabajada, con la llave apoyada al lado sobre un paño.",
+    fotos: [
+      {
+        archivo: "Lock MET cdi32-75-55v2.jpg",
+        autor: "Cerradura francesa de hierro forjado del siglo XV, con su llave. Metropolitan Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lock_MET_cdi32-75-55v2.jpg",
+        foco: "50% 50%",
+        alt: "Una cerradura cuadrada de hierro calado con hojas y flores labradas, y una llave elaborada al lado.",
+      },
+      {
+        archivo: "George III Marquetry Commode, attributed to Pierre Langlois, c. 1760, kingwood and various inlaid woods jwith ormolu mounts - Chazen Museum of Art - DSC02100.JPG",
+        autor: "Cómoda de marquetería atribuida a Pierre Langlois, hacia 1760. Chazen Museum of Art. Fotografía de Daderot.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:George_III_Marquetry_Commode,_attributed_to_Pierre_Langlois,_c._1760,_kingwood_and_various_inlaid_woods_jwith_ormolu_mounts_-_Chazen_Museum_of_Art_-_DSC02100.JPG",
+        foco: "50% 50%",
+        alt: "Un mueble curvo con flores taraceadas en maderas de colores y remates dorados en las esquinas.",
+      },
+      {
+        archivo: "Rembrandt - De Staalmeesters- het college van staalmeesters (waardijns) van het Amsterdamse lakenbereidersgilde - Google Art Project.jpg",
+        autor: "Los síndicos del gremio de pañeros de Ámsterdam, óleo de Rembrandt, 1662.",
+        licencia: "Dominio público",
+        pdPorEdad: 1669,
+        fuente: "https://commons.wikimedia.org/wiki/File:Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_(waardijns)_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg",
+        foco: "50% 45%",
+        alt: "Cinco hombres de negro con sombrero sentados a una mesa cubierta con un tapete rojo, mirando al frente.",
+      },
+      {
+        archivo: "Vintage smith's workshop - 0158.jpg",
+        autor: "Un herrero golpeando hierro al rojo sobre el yunque. Fotografía de Jorge Royan.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vintage_smith%27s_workshop_-_0158.jpg",
+        foco: "50% 45%",
+        alt: "Unas manos sujetan con tenazas una barra incandescente sobre un yunque mientras cae el martillo.",
+      },
+    ],
     entrada:
-      "Europa, siglos XIII a XVIII. Para ejercer un oficio en una ciudad hay que pertenecer a su gremio, la asociación que agrupa a todos los que lo practican. Se entra de niño como aprendiz, se pasa años de oficial trabajando para otro, y solo se llega a maestro superando una prueba: fabricar una pieza que demuestre que se domina el oficio entero.",
+      "Europa, siglos XIII a XVIII. Para ejercer un oficio en una ciudad no basta con saber hacerlo: hay que pertenecer a su gremio, la asociación que agrupa a todos los que lo practican y que decide quién puede abrir taller y quién no. El camino está marcado desde niño. Se entra de aprendiz a los diez o doce años, viviendo en casa del maestro; se pasan después años de oficial trabajando para otro y cobrando un jornal; y solo se llega a maestro superando una prueba muy concreta: fabricar, uno mismo y bajo vigilancia, una pieza que demuestre que se domina el oficio entero.",
     paginas: [
       {
         rotulo: "La pieza",
