@@ -19,13 +19,48 @@ import type { Short } from "../shorts";
 export const RELOJES: Short[] = [
   {
     id: "longitud-harrison",
-    titulo: "Un reloj resolvió el mayor problema del mar",
+    titulo: "El reloj que salvó barcos",
     gancho: "Un carpintero sin estudios ganó el premio y tardó cuarenta años en cobrarlo entero.",
     categoria: "Relojes",
     color: "var(--slate)",
     encargo: "Un reloj de latón grande dentro de una caja de madera con tapa de cristal.",
+    fotos: [
+      {
+        archivo: "Marine Chronometer- Arnold & Dent, No. 1131.jpg",
+        autor: "Un cronómetro de marina de Arnold y Dent, montado en su caja sobre cardanes. Fotografía de Will Fisher.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Marine_Chronometer-_Arnold_%26_Dent,_No._1131.jpg",
+        foco: "50% 45%",
+        alt: "La esfera blanca de un reloj grande con números romanos, encajada en un aro de latón dentro de una caja oscura.",
+      },
+      {
+        archivo: "Backhuysen, Ludolf, I - Christ in the Storm on the Sea of Galilee - Google Art Project.jpg",
+        autor: "Barco en la tormenta, óleo de Ludolf Bakhuizen, 1695.",
+        licencia: "Dominio público",
+        pdPorEdad: 1708,
+        fuente: "https://commons.wikimedia.org/wiki/File:Backhuysen,_Ludolf,_I_-_Christ_in_the_Storm_on_the_Sea_of_Galilee_-_Google_Art_Project.jpg",
+        foco: "50% 50%",
+        alt: "Una embarcación escorada entre olas altísimas bajo un cielo negro, con la vela a punto de romperse.",
+      },
+      {
+        archivo: "Frodsham chronometer mechanism.jpg",
+        autor: "El mecanismo de un cronómetro de marina de Frodsham, con sus ruedas a la vista.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Frodsham_chronometer_mechanism.jpg",
+        foco: "50% 45%",
+        alt: "Un engranaje de latón con muelles y ruedas dentadas diminutas, visto de cerca dentro de la caja.",
+      },
+      {
+        archivo: "Global Navigation Satellite System (GNSS) Satellite Fleet (SVS5627 - gnss 02 usa 00001).jpg",
+        autor: "La constelación de satélites de navegación alrededor de la Tierra. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Global_Navigation_Satellite_System_(GNSS)_Satellite_Fleet_(SVS5627_-_gnss_02_usa_00001).jpg",
+        foco: "50% 50%",
+        alt: "La Tierra vista desde lejos rodeada de decenas de órbitas de satélites cruzándose entre sí.",
+      },
+    ],
     entrada:
-      "Reino Unido, 1714. Un barco en alta mar sabe calcular sin problema a qué altura está del ecuador, mirando el sol al mediodía, pero no tiene manera fiable de saber a qué distancia está hacia el este o hacia el oeste. Se navega a ojo. El Parlamento ofrece veinte mil libras, una fortuna descomunal, a quien lo resuelva.",
+      "Reino Unido, 1714. Un barco en alta mar sabe calcular sin ningún problema a qué altura está del ecuador: basta con medir el sol al mediodía y hacer una cuenta que cualquier piloto conoce. Lo que no tiene es manera fiable de saber a qué distancia está hacia el este o hacia el oeste, y sin eso la posición queda a medias. Se navega estimando la velocidad y el rumbo desde el último punto conocido, es decir, a ojo, y los errores se acumulan semana tras semana. El Parlamento ofrece veinte mil libras, una fortuna descomunal para la época, a quien lo resuelva.",
     paginas: [
       {
         rotulo: "El naufragio",
