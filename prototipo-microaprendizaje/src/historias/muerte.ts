@@ -25,8 +25,42 @@ export const MUERTE: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Un campanario pequeño de hierro sobre hierba, con una cuerda que baja al suelo.",
+    fotos: [
+      {
+        archivo: "Père-Lachaise - Division 4 - Dantan 04.jpg",
+        autor: "Medallón de mármol en una tumba del cementerio de Père-Lachaise, París. Fotografía de Coyau.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:P%C3%A8re-Lachaise_-_Division_4_-_Dantan_04.jpg",
+        foco: "50% 50%",
+        alt: "La cara de un niño dormido esculpida en mármol blanco, encajada en un disco de piedra desgastada.",
+      },
+      {
+        archivo: "2016-366-321 The Bell Tolls for Sunset (31010064416).jpg",
+        autor: "Una campanilla colgada de una cadena, al atardecer. Fotografía de Alan Levine.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2016-366-321_The_Bell_Tolls_for_Sunset_(31010064416).jpg",
+        foco: "42% 50%",
+        alt: "La silueta de una campana pequeña colgando de una cadena fina, recortada contra un cielo rosa y violeta.",
+      },
+      {
+        archivo: "Grave of Hugh Duncan Baillie in the Lebanon Circle in Highgate Cemetery.jpg",
+        autor: "Puerta de hierro de una cripta en el Círculo del Líbano, cementerio de Highgate, Londres.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Grave_of_Hugh_Duncan_Baillie_in_the_Lebanon_Circle_in_Highgate_Cemetery.jpg",
+        foco: "62% 50%",
+        alt: "Una puerta de hierro oxidada y cerrada dentro de un marco de piedra, con agujeros de ventilación repartidos.",
+      },
+      {
+        archivo: "Korfu (GR), Korfu, Britischer Friedhof -- 2018 -- 1198.jpg",
+        autor: "El cementerio británico de Corfú. Fotografía de Dietmar Rabich, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Korfu_(GR),_Korfu,_Britischer_Friedhof_--_2018_--_1198.jpg",
+        foco: "50% 50%",
+        alt: "Cruces de madera gastada clavadas en tierra seca, bajo pinos altos, con lápidas de piedra al fondo.",
+      },
+    ],
     entrada:
-      "Europa y Estados Unidos, siglo XIX. La medicina todavía no distingue bien la muerte de un desmayo profundo, un coma o una catalepsia, y circulan historias de ataúdes abiertos con arañazos por dentro. El miedo tiene nombre propio y llega a ser una obsesión social. Entre 1868 y 1930 se registran en la oficina de patentes estadounidense más de treinta inventos para salir de una tumba.",
+      "Europa y Estados Unidos, siglo XIX. La medicina todavía no sabe distinguir con seguridad la muerte de un desmayo profundo, de un coma o de una catalepsia, y no existe ningún aparato que lo resuelva: el médico se fía del pulso, del espejo delante de la boca y de poco más. Mientras tanto circulan de boca en boca historias de ataúdes abiertos años después con arañazos por dentro de la tapa. El miedo llega a tener nombre propio y a convertirse en una obsesión social de la época. Entre 1868 y 1930 se registran en la oficina de patentes estadounidense más de treinta inventos para salir de una tumba.",
     paginas: [
       {
         rotulo: "El invento",

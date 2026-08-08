@@ -15,13 +15,47 @@ import type { Short } from "../shorts";
 export const TINTES: Short[] = [
   {
     id: "el-purpura-de-los-caracoles",
-    titulo: "El púrpura salía de un molusco y apestaba",
+    titulo: "Púrpura de caracol podrido",
     gancho: "Hacían falta miles de caracoles marinos para teñir una sola prenda, y las fábricas olían tan mal que iban fuera de la ciudad.",
     categoria: "Tintes",
     color: "var(--plum)",
     encargo: "Una tela violeta oscura junto a varias conchas marinas rotas.",
+    fotos: [
+      {
+        archivo: "Mosaic of Justinian I - San Vitale - Ravenna 2016.jpg",
+        autor: "Justiniano con la clámide de púrpura, mosaico del siglo VI. Basílica de San Vitale, Rávena.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinian_I_-_San_Vitale_-_Ravenna_2016.jpg",
+        foco: "52% 48%",
+        alt: "Mosaico dorado con un emperador de manto oscuro en el centro, rodeado de soldados y clérigos.",
+      },
+      {
+        archivo: "Bolinus brandaris 01.jpg",
+        autor: "Concha de <em>Bolinus brandaris</em>, el caracol del que se sacaba el tinte. Fotografía de H. Zell.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bolinus_brandaris_01.jpg",
+        foco: "50% 35%",
+        alt: "Conchas puntiagudas y cubiertas de espinas, fotografiadas por varios lados sobre fondo negro.",
+      },
+      {
+        archivo: "Mosaic of Theodora - San Vitale - Ravenna 2016.jpg",
+        autor: "La emperatriz Teodora y su séquito, mosaico del siglo VI. Basílica de San Vitale, Rávena.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mosaic_of_Theodora_-_San_Vitale_-_Ravenna_2016.jpg",
+        foco: "55% 45%",
+        alt: "Una emperatriz con corona de perlas y manto oscuro, acompañada de damas con túnicas bordadas.",
+      },
+      {
+        archivo: "Amethyst geode (Serra Geral Formation, Lower Cretaceous; southeastern Brazil) 3 (32905093352).jpg",
+        autor: "Geoda de amatista abierta, del sureste de Brasil. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Amethyst_geode_(Serra_Geral_Formation,_Lower_Cretaceous;_southeastern_Brazil)_3_(32905093352).jpg",
+        foco: "45% 45%",
+        alt: "Una piedra abierta por la mitad, llena de cristales violetas apretados unos contra otros.",
+      },
+    ],
     entrada:
-      "Mediterráneo oriental, desde el siglo XV antes de Cristo. Las ciudades fenicias de la costa producen un tinte que no existe en ninguna otra parte: un violeta intenso que no destiñe con el sol ni con el lavado, sino que incluso mejora. Sale de una glándula de unos caracoles marinos, y para conseguir unos pocos gramos hay que sacrificar miles de animales.",
+      "Mediterráneo oriental, desde el siglo XV antes de Cristo. Las ciudades fenicias de la costa producen un tinte que no existe en ninguna otra parte del mundo conocido: un violeta intenso y profundo que, al revés que todos los demás colores de la época, no destiñe con el sol ni con el lavado, sino que con los años incluso mejora. Ese detalle es el que lo vuelve legendario, porque una prenda teñida así se hereda. Sale de una glándula minúscula que llevan dentro unos caracoles marinos, y para reunir unos pocos gramos hay que pescar y romper miles de animales, uno a uno.",
     paginas: [
       {
         rotulo: "El proceso",
