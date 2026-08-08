@@ -21,8 +21,42 @@ export const CENSOS: Short[] = [
     categoria: "Censos",
     color: "var(--clay)",
     encargo: "Una tablilla de cera con anotaciones y un punzón encima.",
+    fotos: [
+      {
+        archivo: "Tablette a ecrire et stylet - Narbo Via.jpg",
+        autor: "Tablilla de escribir romana y su punzón de hueso. Museo Narbo Via, Narbona.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tablette_a_ecrire_et_stylet_-_Narbo_Via.jpg",
+        foco: "50% 35%",
+        alt: "Una tablilla de madera rayada y un punzón claro y afilado, apoyados sobre un soporte gris de museo.",
+      },
+      {
+        archivo: "Silver denarius of Octavian MET sf0817088r.jpg",
+        autor: "Denario de plata de Octaviano. Metropolitan Museum of Art, Nueva York.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Silver_denarius_of_Octavian_MET_sf0817088r.jpg",
+        foco: "50% 45%",
+        alt: "Una moneda de plata gastada con un perfil masculino de nariz recta acuñado en relieve.",
+      },
+      {
+        archivo: "Marble portrait bust of a man MET DP123861.jpg",
+        autor: "Busto romano de un hombre, en mármol. Metropolitan Museum of Art, Nueva York.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Marble_portrait_bust_of_a_man_MET_DP123861.jpg",
+        foco: "55% 30%",
+        alt: "Un busto de mármol blanco visto de perfil, con el pelo rizado a cincel y un gesto severo.",
+      },
+      {
+        archivo: "Crowd in Willis Street, Wellington, awaiting the results of the 1931 general election, 1931 (3327041430).jpg",
+        autor: "Una multitud esperando resultados electorales en Wellington, 1931. National Library of New Zealand.",
+        licencia: "No restrictions",
+        fuente: "https://commons.wikimedia.org/wiki/File:Crowd_in_Willis_Street,_Wellington,_awaiting_the_results_of_the_1931_general_election,_1931_(3327041430).jpg",
+        foco: "50% 72%",
+        alt: "Una calle abarrotada de gente con sombrero, todos mirando hacia un tablero enorme colgado en una fachada.",
+      },
+    ],
     entrada:
-      "Roma, siglo V antes de Cristo. Cada cinco años, dos magistrados elegidos para el cargo hacen el recuento de todos los ciudadanos varones y de sus bienes. No es una estadística: de ese registro dependen cuántos impuestos paga cada uno, en qué unidad del ejército sirve y con cuánto peso vota su grupo en las asambleas. Ser contado y ser clasificado es la misma operación.",
+      "Roma, siglo V antes de Cristo. Cada cinco años, dos magistrados elegidos expresamente para el cargo hacen el recuento de todos los ciudadanos varones de la ciudad y de todo lo que poseen, hasta el último esclavo y la última cabeza de ganado. No es una estadística ni un ejercicio de curiosidad administrativa: de lo que quede escrito en ese registro dependen cuántos impuestos paga cada uno, en qué unidad del ejército tiene que servir y con cuánto peso vota su grupo en las asambleas. Ser contado y ser clasificado son, desde el principio, la misma operación.",
     paginas: [
       {
         rotulo: "Clases",
