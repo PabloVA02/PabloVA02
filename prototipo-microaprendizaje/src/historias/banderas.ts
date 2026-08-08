@@ -18,14 +18,48 @@ import type { Short } from "../shorts";
 export const BANDERAS: Short[] = [
   {
     id: "bandera-no-rectangular",
-    titulo: "La bandera que no es rectángulo",
+    titulo: "La única bandera con picos",
     gancho: "Son dos banderines superpuestos, y su forma exacta viene dibujada en la constitución.",
     categoria: "Banderas",
     color: "var(--plum)",
     curioso: true,
     encargo: "Una bandera con el borde derecho en doble pico ondeando contra el cielo.",
+    fotos: [
+      {
+        archivo: "Lenno - Villa del Balbianello 0414.JPG",
+        autor: "La bandera de Nepal, con sus dos picos, el sol y la luna. Fotografía de Phyrexian.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lenno_-_Villa_del_Balbianello_0414.JPG",
+        foco: "50% 22%",
+        alt: "Una bandera roja ribeteada de azul terminada en dos puntas, con una luna creciente arriba y un sol abajo.",
+      },
+      {
+        archivo: "Annapurna Massif-5133.jpg",
+        autor: "El macizo del Annapurna, en Nepal. Fotografía de Bijay Chaurasia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Annapurna_Massif-5133.jpg",
+        foco: "50% 40%",
+        alt: "Una cordillera nevada de picos triangulares recortada contra un cielo azul intenso, con hierba seca delante.",
+      },
+      {
+        archivo: "Nepal shining - Flickr - Momentchensammler.jpg",
+        autor: "Banderines de oración tendidos desde una estupa de Katmandú. Fotografía de Alexander Mueller.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nepal_shining_-_Flickr_-_Momentchensammler.jpg",
+        foco: "50% 45%",
+        alt: "Cuerdas de banderines de colores saliendo en abanico desde la punta dorada de un templo, contra el cielo.",
+      },
+      {
+        archivo: "Palace of Nations - flags.JPG",
+        autor: "La avenida de banderas del Palacio de las Naciones, en Ginebra. Fotografía de Benoît Prieur.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Palace_of_Nations_-_flags.JPG",
+        foco: "50% 42%",
+        alt: "Dos hileras larguísimas de mástiles con banderas rectangulares que se pierden hacia un edificio de piedra.",
+      },
+    ],
     entrada:
-      "Nepal, 1962. La constitución del país fija la bandera nacional con una peculiaridad que no tiene ninguna otra del mundo: no es un rectángulo, sino dos triángulos superpuestos que forman una figura con el borde derecho terminado en doble pico. Además, el texto legal no la describe con palabras sino con instrucciones de dibujo.",
+      "Nepal, 1962. La constitución del país fija la bandera nacional y lo hace con dos peculiaridades que no tiene ninguna otra del mundo. La primera se ve de lejos: no es un rectángulo, sino dos banderines triangulares superpuestos que forman una figura con el borde derecho terminado en doble pico, como una montaña con dos cumbres. La segunda está en la letra pequeña, y es todavía más rara: el texto legal no describe la bandera con palabras ni con proporciones, como hacen todos los demás países, sino con una lista de instrucciones de dibujo que hay que seguir con regla y compás.",
     paginas: [
       {
         rotulo: "El anexo",

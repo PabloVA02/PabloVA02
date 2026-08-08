@@ -20,13 +20,47 @@ import type { Short } from "../shorts";
 export const TELEFONO: Short[] = [
   {
     id: "patente-telefono",
-    titulo: "El teléfono se patentó por unas horas",
+    titulo: "El teléfono, por unas horas",
     gancho: "Dos solicitudes el mismo día en la misma oficina. El orden de la cola decidió el invento del siglo.",
     categoria: "Teléfono",
     color: "var(--clay)",
     encargo: "Un aparato telefónico de madera de finales del XIX sobre una mesa de despacho.",
+    fotos: [
+      {
+        archivo: "Antique wall telephone (43917500625).jpg",
+        autor: "Un teléfono de pared de manivela, de los primeros que se instalaron en las casas. Fotografía de Ben P L.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Antique_wall_telephone_(43917500625).jpg",
+        foco: "55% 45%",
+        alt: "Una caja de roble colgada en la pared, con la manivela a un lado, el auricular negro colgando y la bocina de metal.",
+      },
+      {
+        archivo: "Alexander Graham Bell 1895 NPG 77 363.jpg",
+        autor: "Alexander Graham Bell retratado en 1895. National Portrait Gallery.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_1895_NPG_77_363.jpg",
+        foco: "50% 30%",
+        alt: "Retrato en sepia de un hombre de pelo y barba blancos, con traje oscuro, mirando de lado.",
+      },
+      {
+        archivo: "Wisconsin Bell Telephone Company Switchboard.jpg",
+        autor: "Un operador en la centralita de la compañía telefónica de Wisconsin.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wisconsin_Bell_Telephone_Company_Switchboard.jpg",
+        foco: "50% 45%",
+        alt: "Un hombre sentado de perfil ante un panel de madera lleno de clavijas, relojes y conmutadores.",
+      },
+      {
+        archivo: "4 women at tel. (i.e., telephone) switchboard LOC matpc.08799.jpg",
+        autor: "Cuatro telefonistas conectando llamadas a mano. Colección Matson.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:4_women_at_tel._(i.e.,_telephone)_switchboard_LOC_matpc.08799.jpg",
+        foco: "58% 62%",
+        alt: "Cuatro mujeres con auriculares sentadas en fila frente a un tablero de clavijas y cables cruzados.",
+      },
+    ],
     entrada:
-      "Washington, 14 de febrero de 1876. En la oficina de patentes de Estados Unidos entran dos documentos sobre el mismo asunto: transmitir la voz humana por un hilo eléctrico. Los presentan dos inventores que llevan años trabajando por separado y que no se conocen entre sí. Entre una entrega y la otra pasan solo unas horas.",
+      "Washington, 14 de febrero de 1876. En la oficina de patentes de Estados Unidos entran ese mismo día dos documentos que describen el mismo asunto: transmitir la voz humana por un hilo eléctrico, una idea que hasta entonces se consideraba poco menos que un disparate porque el telégrafo solo sabía mandar golpes. Los presentan dos inventores que llevan años trabajando en ello por separado, en ciudades distintas, y que no se conocen entre sí ni saben lo que está haciendo el otro. Entre una entrega y la otra pasan solo unas horas, y de esas horas depende todo lo que viene después.",
     paginas: [
       {
         rotulo: "El mismo día",

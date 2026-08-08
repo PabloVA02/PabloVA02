@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const ORO: Short[] = [
   {
     id: "medallas-disueltas",
-    titulo: "Dos medallas disueltas en un frasco",
+    titulo: "Disolvieron dos Nobel",
     gancho: "Pasaron la guerra en un frasco naranja, en una estantería, a la vista de todo el mundo.",
     categoria: "Oro",
     color: "var(--plum)",
     encargo: "Un frasco de laboratorio con un líquido anaranjado en una estantería de madera.",
+    fotos: [
+      {
+        archivo: "Nobel prize medal for medicine, Sweden, 1945, to Sir Alexander Fleming (1881-1955) who discovered Penicillin. On display at the National Museum of Scotland.jpg",
+        autor: "Una medalla Nobel de oro macizo, la concedida a Alexander Fleming en 1945. Museo Nacional de Escocia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nobel_prize_medal_for_medicine,_Sweden,_1945,_to_Sir_Alexander_Fleming_(1881-1955)_who_discovered_Penicillin._On_display_at_the_National_Museum_of_Scotland.jpg",
+        foco: "50% 45%",
+        alt: "Una medalla de oro con el perfil de Alfred Nobel en relieve, sostenida por un soporte metálico.",
+      },
+      {
+        archivo: "Iron Age coins, Hoard of Catuvellauni Staters (FindID 550072).jpg",
+        autor: "Monedas de oro de la Edad del Hierro, enterradas dos mil años y sin una mancha. Birmingham Museums Trust.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Iron_Age_coins,_Hoard_of_Catuvellauni_Staters_(FindID_550072).jpg",
+        foco: "50% 50%",
+        alt: "Un montón de monedas de oro con relieves gastados, amontonadas sobre un fondo blanco.",
+      },
+      {
+        archivo: "Chemistry Laboratory (acf62eb944754c95935e60828c18452a).jpg",
+        autor: "Un laboratorio de química de principios del siglo XX, con los frascos alineados al fondo.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chemistry_Laboratory_(acf62eb944754c95935e60828c18452a).jpg",
+        foco: "50% 45%",
+        alt: "Una nave larga con mesas de trabajo, barriles y estanterías cargadas de frascos, en blanco y negro.",
+      },
+      {
+        archivo: "Gold ingot and bar of Banque de France.jpg",
+        autor: "Dos lingotes de oro fundido. Fotografía de Ibex73.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gold_ingot_and_bar_of_Banque_de_France.jpg",
+        foco: "50% 45%",
+        alt: "Un lingote grande y otro pequeño de oro, brillando sobre una tela gris oscura.",
+      },
+    ],
     entrada:
-      "Copenhague, 9 de abril de 1940. Las tropas alemanas entran en Dinamarca al amanecer. En un instituto de física de la ciudad hay dos medallas Nobel de oro macizo que dos científicos alemanes habían sacado de su país en secreto, algo castigado allí con penas gravísimas. Si aparecen, delatan a sus dueños. Un químico del instituto decide esconderlas de la única forma que se le ocurre.",
+      "Copenhague, 9 de abril de 1940. Las tropas alemanas entran en Dinamarca al amanecer y en cuestión de horas el país está ocupado. En un instituto de física de la ciudad hay dos medallas Nobel de oro macizo que no son de ningún danés: se las habían mandado allí para ponerlas a salvo dos científicos alemanes que las habían sacado de su país en secreto, algo castigado en Alemania con penas gravísimas. Llevan el nombre grabado, así que si aparecen en un registro delatan a sus dueños y probablemente los condenan. Un químico del instituto decide esconderlas de la única forma que se le ocurre.",
     paginas: [
       {
         rotulo: "El único líquido",
