@@ -21,8 +21,42 @@ export const CASAS_DE_EMPENO: Short[] = [
     categoria: "Dinero",
     color: "var(--ochre)",
     encargo: "Fachada con el letrero de tres bolas doradas colgado sobre la puerta.",
+    fotos: [
+      {
+        archivo: "Rothman's Pawn Shop, 149 Eighth Avenue, Manhattan (NYPL b13668355-482720).jpg",
+        autor: "La casa de empeños Rothman's, en la Octava Avenida de Manhattan, con sus tres bolas en la fachada. Fotografía de Berenice Abbott, 1938.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rothman%27s_Pawn_Shop,_149_Eighth_Avenue,_Manhattan_(NYPL_b13668355-482720).jpg",
+        foco: "50% 38%",
+        alt: "Fachada de una tienda con tres discos grandes colgados sobre el escaparate y carteles pintados a los lados.",
+      },
+      {
+        archivo: "Watch, pocket (AM 1942.92-2).jpg",
+        autor: "Un reloj de bolsillo de hacia 1818, de los objetos que más entraban por la puerta. Auckland Museum.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Watch,_pocket_(AM_1942.92-2).jpg",
+        foco: "50% 50%",
+        alt: "La esfera blanca de un reloj de bolsillo antiguo con números romanos y agujas doradas.",
+      },
+      {
+        archivo: "Palazzo del Monte di Pieta in Padua (1).jpg",
+        autor: "El palacio del Monte de Piedad de Padua, en el Véneto. Fotografía de Tournasol7.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Palazzo_del_Monte_di_Pieta_in_Padua_(1).jpg",
+        foco: "50% 40%",
+        alt: "Un palacio renacentista de arcadas blancas al fondo de una plaza empedrada vacía, con cielo azul.",
+      },
+      {
+        archivo: "HK Yau Ma Tei 廟衙 夜市 Temple Street night building facades pawn shop sign Apr-2013.JPG",
+        autor: "El letrero de una casa de empeños en Temple Street, Hong Kong. Fotografía de Marim68821.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:HK_Yau_Ma_Tei_%E5%BB%9F%E8%A1%99_%E5%A4%9C%E5%B8%82_Temple_Street_night_building_facades_pawn_shop_sign_Apr-2013.JPG",
+        foco: "50% 25%",
+        alt: "Un rótulo rojo y dorado colgado sobre una calle nocturna llena de letreros luminosos.",
+      },
+    ],
     entrada:
-      "Italia y después toda Europa, desde el siglo XIII. Las casas de empeño llevan colgadas tres bolas doradas encima de la puerta en medio mundo, y casi nadie sabe por qué. La explicación más aceptada las hace venir del escudo de una familia de banqueros de Florencia que se dedicaba justamente a eso. Aquel escudo llevaba unas esferas doradas sobre fondo dorado.",
+      "Italia y después toda Europa, desde el siglo XIII. Las casas de empeño llevan colgadas tres bolas doradas encima de la puerta en medio mundo, desde Londres hasta Nueva York, y prácticamente nadie que pase por delante sabe por qué. No es un dibujo de monedas, ni un adorno cualquiera. La explicación más aceptada las hace venir del escudo de una familia de banqueros de Florencia que se dedicaba exactamente a este negocio y que acabó gobernando la ciudad; aquel escudo llevaba unas esferas doradas sobre fondo dorado. El símbolo se copió, se abarató y sobrevivió ocho siglos.",
     paginas: [
       {
         rotulo: "Prestar con prenda",
