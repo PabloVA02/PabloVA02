@@ -16,13 +16,48 @@ import type { Short } from "../shorts";
 export const VENTANAS: Short[] = [
   {
     id: "el-hueco-antes-del-vidrio",
-    titulo: "Antes del cristal, las ventanas se tapaban con tela",
+    titulo: "Ventanas sin cristal",
     gancho: "Con papel aceitado, tripa de animal o láminas de mineral traslúcido. Todo servía menos dejar entrar el aire.",
     categoria: "Ventanas",
     color: "var(--ochre)",
     encargo: "Una ventana antigua con postigos de madera medio cerrados y luz entrando de lado.",
+    fotos: [
+      {
+        archivo: "Fenetre bleue Jurilovca Musee Village Bucarest.jpg",
+        autor: "La ventana de una casa de 1898 con los postigos entreabiertos. Museo del Pueblo, Bucarest. Fotografía de Myrabella.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fenetre_bleue_Jurilovca_Musee_Village_Bucarest.jpg",
+        foco: "50% 45%",
+        alt: "Una ventana con contraventanas de madera pintadas de azul, rojo y verde, medio abiertas sobre un muro blanco.",
+      },
+      {
+        archivo: "Muscovite mica 2.jpg",
+        autor: "Moscovita, la mica que se separa en láminas traslúcidas y se usó para cerrar ventanas. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Muscovite_mica_2.jpg",
+        foco: "50% 45%",
+        alt: "Un mineral formado por hojas finísimas apiladas, de brillo dorado y bordes irregulares.",
+      },
+      {
+        archivo: "Jan Vermeer van Delft - The Glass of Wine - Google Art Project.jpg",
+        autor: "La copa de vino, óleo de Johannes Vermeer, hacia 1660. A la izquierda, la ventana emplomada con su vidriera de escudo.",
+        licencia: "Dominio público",
+        pdPorEdad: 1675,
+        fuente: "https://commons.wikimedia.org/wiki/File:Jan_Vermeer_van_Delft_-_The_Glass_of_Wine_-_Google_Art_Project.jpg",
+        foco: "50% 32%",
+        alt: "Una habitación con una gran ventana emplomada abierta a la izquierda y dos figuras junto a una mesa.",
+      },
+      {
+        archivo: "Bard-lès-Pesmes (Haute-Saône) Bâtiments et constructions hdsr S5 16.jpg",
+        autor: "Un postigo de tablas cerrado sobre el hueco de una ventana, en un pueblo del este de Francia. Fotografía de Hyppolyte de Saint-Rambert.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bard-l%C3%A8s-Pesmes_(Haute-Sa%C3%B4ne)_B%C3%A2timents_et_constructions_hdsr_S5_16.jpg",
+        foco: "50% 45%",
+        alt: "Una contraventana de tablas grises muy gastadas, con dos pernios de hierro oxidado, cerrando un hueco en un muro.",
+      },
+    ],
     entrada:
-      "Europa, siglos V a XV. El vidrio plano existe desde época romana, pero fabricarlo es tan caro y tan difícil que durante toda la Edad Media queda reservado a iglesias y a palacios. Una casa corriente tiene huecos en la pared sin cristal, y el problema de siempre es que la luz y el frío entran exactamente por el mismo sitio.",
+      "Europa, siglos V a XV. El vidrio plano existe desde época romana y nadie lo ha olvidado, pero fabricarlo es tan caro y tan difícil que durante toda la Edad Media queda reservado a iglesias y a palacios. Una casa corriente tiene huecos abiertos en la pared, sin nada que los cierre, y con eso aparece el problema que va a durar mil años: la luz y el frío entran exactamente por el mismo sitio. Cada solución que se pruebe durante esos siglos será un intento de separar las dos cosas, y ninguna lo conseguirá del todo hasta que el vidrio se abarate.",
     paginas: [
       {
         rotulo: "Los apaños",
