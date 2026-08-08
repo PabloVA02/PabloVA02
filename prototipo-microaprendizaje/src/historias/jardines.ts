@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const JARDINES: Short[] = [
   {
     id: "jardin-ingles-y-frances",
-    titulo: "Dos jardines, dos ideas del mundo",
+    titulo: "Dos jardines, dos ideas",
     gancho: "Uno recorta la naturaleza en líneas rectas. El otro la finge salvaje, y le cuesta más trabajo.",
     categoria: "Jardines",
     color: "var(--slate)",
     encargo: "Un seto recortado en línea recta junto a una pradera ondulada con árboles sueltos.",
+    fotos: [
+      {
+        archivo: "Vue aérienne du domaine de Versailles par ToucanWings - Creative Commons By Sa 3.0 - 003.jpg",
+        autor: "Los parterres de Versalles vistos desde el aire. Fotografía de ToucanWings.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_003.jpg",
+        foco: "62% 55%",
+        alt: "Parterres de dibujos simétricos con tejos cónicos alineados y un estanque redondo, junto a la fachada del palacio.",
+      },
+      {
+        archivo: "Getty Villa - Outer Peristyle Garden - Pacific Palisades1.jpg",
+        autor: "Setos de boj recortados alrededor de un estanque alargado. Fotografía de Dale Cruse.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Getty_Villa_-_Outer_Peristyle_Garden_-_Pacific_Palisades1.jpg",
+        foco: "50% 45%",
+        alt: "Un jardín geométrico con setos bajos recortados a escuadra a los lados de una piscina larga y turquesa.",
+      },
+      {
+        archivo: "Prior Park Landscape Garden.jpg",
+        autor: "El jardín paisajista de Prior Park, en Bath. Fotografía de Spencer Means.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Prior_Park_Landscape_Garden.jpg",
+        foco: "45% 55%",
+        alt: "Una ladera de hierba que baja hasta un lago con un puente cubierto de columnas, entre arboledas sueltas.",
+      },
+      {
+        archivo: "Münster, Park Sentmaring -- 2021 -- 9120.jpg",
+        autor: "Un parque público en otoño. Fotografía de Dietmar Rabich, Münster, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:M%C3%BCnster,_Park_Sentmaring_--_2021_--_9120.jpg",
+        foco: "50% 50%",
+        alt: "Hayas enormes de tronco verdoso alineadas sobre una alfombra de hojas caídas, con luz de tarde entre las ramas.",
+      },
+    ],
     entrada:
-      "Europa, siglos XVII y XVIII. El jardín de moda es el francés: avenidas rectas, setos recortados con escuadra, estanques geométricos y estatuas colocadas en los ejes. Todo se ve de un vistazo desde la ventana del palacio y todo obedece. Un siglo después, en Inglaterra, se impone justo lo contrario, y el cambio no es solo de gusto.",
+      "Europa, siglos XVII y XVIII. El jardín de moda es el francés y se reconoce a la primera: avenidas rectas que se cruzan en ángulo recto, setos recortados con escuadra, estanques de contorno geométrico y estatuas colocadas exactamente sobre los ejes. Todo se abarca de un vistazo desde la ventana del palacio y todo obedece, empezando por los árboles. Un siglo después, al otro lado del canal, se impone justo lo contrario: praderas onduladas, arboledas sueltas y ninguna línea recta a la vista. Y el cambio no es solo una cuestión de gusto, porque detrás de cada uno de los dos hay una idea distinta de quién manda.",
     paginas: [
       {
         rotulo: "La escuadra",

@@ -21,8 +21,42 @@ export const PAPEL: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una tina con pulpa de papel gris y un molde de rejilla apoyado encima.",
+    fotos: [
+      {
+        archivo: "2021 PapiermuehleInnen.jpg",
+        autor: "El almacén de trapos de un molino papelero, con la ropa clasificada en cestos. Fotografía de Stefan Oemisch.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2021_PapiermuehleInnen.jpg",
+        foco: "35% 50%",
+        alt: "Cestos de mimbre llenos de trapos blancos y ropa doblada en un arcón de madera, sobre un suelo de tablas.",
+      },
+      {
+        archivo: "Green paper pulp made from beaten rag fibers.jpg",
+        autor: "Pulpa de papel obtenida machacando fibras de trapo. Fotografía de Michelle Cornelison.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Green_paper_pulp_made_from_beaten_rag_fibers.jpg",
+        foco: "55% 45%",
+        alt: "Una mano sacando de la tina un puñado de pasta verdosa y empapada, deshecha en fibras finísimas.",
+      },
+      {
+        archivo: "Arbeiders achter mengvaten in een papierfabriek, Bestanddeelnr 190-0425.jpg",
+        autor: "Operarios junto a las tinas de mezcla de una fábrica de papel. Fotografía de Willem van de Poll.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Arbeiders_achter_mengvaten_in_een_papierfabriek,_Bestanddeelnr_190-0425.jpg",
+        foco: "45% 45%",
+        alt: "Grandes tinas redondas llenas de pasta blanca en una nave, con dos operarios trabajando entre ellas.",
+      },
+      {
+        archivo: "The rotary press of newspaper Hufvudstadsbladet 1927 (Numeroimaton; JOKAHBL3A A01-19).tif",
+        autor: "La rotativa del diario Hufvudstadsbladet en 1927. Museovirasto, Finlandia.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_rotary_press_of_newspaper_Hufvudstadsbladet_1927_(Numeroimaton;_JOKAHBL3A_A01-19).tif",
+        foco: "45% 45%",
+        alt: "Una máquina de imprimir enorme de dos pisos, llena de rodillos y engranajes, en blanco y negro.",
+      },
+    ],
     entrada:
-      "Europa, siglos XIII a XIX. El papel llega desde China a través del mundo islámico y se fabrica durante seiscientos años con una sola materia prima: trapos viejos de lino y de cáñamo. La madera no se usa, porque nadie sabe todavía separar sus fibras. Así que la industria del papel depende por completo de la ropa que la gente desecha.",
+      "Europa, siglos XIII a XIX. El papel llega desde China a través del mundo islámico y, una vez aquí, se fabrica durante seiscientos años con una sola materia prima, que no es la que todo el mundo imagina: trapos viejos de lino y de cáñamo, es decir, ropa usada. La madera no se toca, porque nadie sabe todavía cómo separar sus fibras sin destrozarlas, y no se sabrá hasta bien entrado el siglo XIX. Así que una industria entera, la que sostiene los libros, los contratos y la correspondencia de medio continente, depende por completo de la ropa que la gente tira.",
     paginas: [
       {
         rotulo: "Del trapo",
