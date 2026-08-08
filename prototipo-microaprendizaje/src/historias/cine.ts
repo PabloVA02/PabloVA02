@@ -24,8 +24,42 @@ export const CINE: Short[] = [
     categoria: "Cine",
     color: "var(--clay)",
     encargo: "Una bobina de cinta magnética de sonido abierta sobre una mesa de montaje.",
+    fotos: [
+      {
+        archivo: "Sun Studio's Ampex Reel to Reel.jpg",
+        autor: "Un magnetófono Ampex de bobina abierta, del tipo con el que se guardaban y montaban los efectos de sonido. Fotografía de H. Michael Miley.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sun_Studio%27s_Ampex_Reel_to_Reel.jpg",
+        foco: "50% 45%",
+        alt: "Dos bobinas de cinta magnética montadas en un aparato metálico, con un medidor de aguja entre ellas.",
+      },
+      {
+        archivo: "Beatles microphones, EMI RM-1B & HB-1E, Abbey Road Studios, 80th Anniversary, March 9, 2012.jpg",
+        autor: "Micrófonos de cinta de los años treinta, de los usados en las sesiones de doblaje. Estudios Abbey Road. Fotografía de MrJamesAckerley.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Beatles_microphones,_EMI_RM-1B_%26_HB-1E,_Abbey_Road_Studios,_80th_Anniversary,_March_9,_2012.jpg",
+        foco: "50% 45%",
+        alt: "Dos micrófonos antiguos de rejilla metálica colgados de sus soportes sobre un fondo oscuro.",
+      },
+      {
+        archivo: "Film cans downstairs in The Electric cinema, Birmingham, England, UK, on 25 September 2022 (01).jpg",
+        autor: "Estanterías de latas de película en los sótanos de un cine de Birmingham. Fotografía de MatthewHoobin.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Film_cans_downstairs_in_The_Electric_cinema,_Birmingham,_England,_UK,_on_25_September_2022_(01).jpg",
+        foco: "50% 45%",
+        alt: "Filas de latas redondas de metal apiladas de canto en estantes, cada una con su etiqueta escrita a mano.",
+      },
+      {
+        archivo: "Kino Atlas Interier J.jpg",
+        autor: "La sala pequeña del cine Atlas de Praga, vacía. Fotografía de Mojmir Churavy.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kino_Atlas_Interier_J.jpg",
+        foco: "50% 55%",
+        alt: "Filas de butacas rojas mirando hacia una pantalla blanca iluminada en una sala vacía.",
+      },
+    ],
     entrada:
-      "Hay un alarido concreto —corto, agudo, con un quiebro al final— que suena cada vez que alguien cae de un tejado, recibe un flechazo o sale despedido por una explosión. Es siempre exactamente el mismo archivo de sonido, grabado en 1951 por un actor que no llegó a saber en qué se convertiría. En el oficio se le llama el grito Wilhelm.",
+      "Hay un alarido concreto —corto, agudo, con un quiebro al final— que suena cada vez que alguien cae de un tejado, recibe un flechazo o sale despedido por una explosión. No se parece al mismo grito: es literalmente el mismo, el mismo archivo de sonido copiado una y otra vez, grabado en una tarde de 1951 por un actor que cobró su jornal y nunca supo en qué iba a convertirse aquello. Está en Star Wars, en Indiana Jones, en dibujos animados y en anuncios, y una vez que se aprende a reconocerlo ya no hay manera de dejar de oírlo. En el oficio se le llama el grito Wilhelm.",
     paginas: [
       {
         rotulo: "El origen",

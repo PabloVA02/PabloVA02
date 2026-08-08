@@ -22,8 +22,44 @@ export const CAMAS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una cama antigua de madera oscura con dosel y cortinas gruesas.",
+    fotos: [
+      {
+        archivo: "Fontainebleau (77) Château Chambre de l'Impératrice Lit 400.jpg",
+        autor: "La cama con dosel del dormitorio de la emperatriz, en el castillo de Fontainebleau. Fotografía de GFreihalter.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fontainebleau_(77)_Ch%C3%A2teau_Chambre_de_l%27Imp%C3%A9ratrice_Lit_400.jpg",
+        foco: "50% 45%",
+        alt: "Un dosel bordado en oro sobre una cama con colgaduras de seda clara, rematado por un penacho de plumas.",
+      },
+      {
+        archivo: "Museum der Stadt Steyr - Himmelbett 1.jpg",
+        autor: "Cama con dosel de 1691, con ropa de cama estampada. Museo de la ciudad de Steyr. Fotografía de Christoph Waghubinger.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Museum_der_Stadt_Steyr_-_Himmelbett_1.jpg",
+        foco: "50% 45%",
+        alt: "Una cama de madera con cuatro postes y techo de tela, con cortinas y colcha de flores estampadas.",
+      },
+      {
+        archivo: "Versailles King's bedchamber - DPLA - acc841684f4bc5fa6430aadefea596ff.jpg",
+        autor: "El dormitorio del rey en Versalles, con la cama tras una barandilla para que se viera sin poder acercarse. Fotografía de 1913.",
+        licencia: "Dominio público",
+        pdPorEdad: 1951,
+        fuente: "https://commons.wikimedia.org/wiki/File:Versailles_King%27s_bedchamber_-_DPLA_-_acc841684f4bc5fa6430aadefea596ff.jpg",
+        foco: "50% 45%",
+        alt: "Una cama con dosel rojo y dorado al fondo de una sala, separada del resto por una verja baja de madera.",
+      },
+      {
+        archivo: "Vincent van Gogh - De slaapkamer - Google Art Project.jpg",
+        autor: "El dormitorio, óleo de Vincent van Gogh, 1888.",
+        licencia: "Dominio público",
+        pdPorEdad: 1890,
+        fuente: "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg",
+        foco: "50% 55%",
+        alt: "Una cama sencilla de madera contra una pared azul, con dos almohadas blancas y una colcha roja.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1616. Un dramaturgo de Stratford redacta su testamento y deja a su mujer una sola cosa nombrada expresamente: su segunda mejor cama. La frase ha alimentado siglos de especulación sobre su matrimonio, y casi todo el mundo la ha leído como un desprecio. Para entender lo que significa hay que saber cuánto valía entonces una cama.",
+      "Inglaterra, 1616. Un dramaturgo de Stratford redacta su testamento y deja a su mujer una sola cosa nombrada expresamente: su segunda mejor cama. La frase ha alimentado siglos de especulación sobre aquel matrimonio, y casi todo el mundo la ha leído como un desaire, como si el marido hubiera querido dejar constancia por escrito de que ella no merecía lo mejor de la casa. La lectura parece razonable hasta que uno mira los inventarios de la época y descubre dos cosas que entonces sabía cualquiera: cuánto valía una cama y para quién se reservaba la mejor de todas. Con esos dos datos, la frase cambia de sentido por completo.",
     paginas: [
       {
         rotulo: "Un año de sueldo",

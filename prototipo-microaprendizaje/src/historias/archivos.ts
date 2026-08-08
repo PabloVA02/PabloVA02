@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const ARCHIVOS: Short[] = [
   {
     id: "el-archivo-de-un-imperio",
-    titulo: "Un imperio en ocho kilómetros",
+    titulo: "Ocho kilómetros de papeles",
     gancho: "Cuarenta y tres mil legajos con la contabilidad, los pleitos y las cartas de América durante tres siglos.",
     categoria: "Archivos",
     color: "var(--ochre)",
     encargo: "Una sala abovedada con estanterías de madera llenas de legajos atados.",
+    fotos: [
+      {
+        archivo: "Galería meridional, planta alta del Archivo de Indias (Sevilla).jpg",
+        autor: "La galería alta del Archivo General de Indias, con los legajos en estanterías de caoba. Fotografía de Emilio J. Rodríguez Posada.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Galer%C3%ADa_meridional,_planta_alta_del_Archivo_de_Indias_(Sevilla).jpg",
+        foco: "50% 50%",
+        alt: "Una galería larga con bóveda de medio cañón y las dos paredes cubiertas de estanterías con cajas iguales.",
+      },
+      {
+        archivo: "Archivo de Indias 002.jpg",
+        autor: "La antigua lonja de comerciantes de Sevilla, el edificio que guarda los ocho kilómetros de legajos. Fotografía de Anual.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Archivo_de_Indias_002.jpg",
+        foco: "50% 45%",
+        alt: "Un edificio cuadrado de piedra y ladrillo visto desde arriba, con balaustrada en el tejado y palmeras alrededor.",
+      },
+      {
+        archivo: "El Puente de Barcas, Sevilla (Vista de la ciudad de Sevilla).jpg",
+        autor: "El puente de barcas de Sevilla, detalle de una vista de la ciudad pintada en el siglo XVI.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:El_Puente_de_Barcas,_Sevilla_(Vista_de_la_ciudad_de_Sevilla).jpg",
+        foco: "50% 55%",
+        alt: "Pintura antigua de un río con veleros amarrados y un puente flotante por el que cruzan carros y jinetes.",
+      },
+      {
+        archivo: "Escalera del Archivo General de Indias.jpg",
+        autor: "La escalera de mármol del Archivo General de Indias, reformada entre 1784 y 1790. Fotografía de Jl FilpoC.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Escalera_del_Archivo_General_de_Indias.jpg",
+        foco: "50% 45%",
+        alt: "Un hueco de escalera de piedra clara con arcos, balaustrada y zócalo de mármol rojo y negro.",
+      },
+    ],
     entrada:
-      "Sevilla, 1785. La corona española decide reunir en un solo edificio los papeles de la administración de América, que estaban repartidos entre varias ciudades y se consultaban con enorme dificultad. Se elige para ello la antigua lonja de comerciantes, un edificio grande y sólido, y se empiezan a trasladar carros de documentos desde archivos de media península.",
+      "Sevilla, 1785. La corona española decide reunir en un solo edificio los papeles de la administración de América, que llevaban dos siglos repartidos entre Simancas, Cádiz y la propia Sevilla y que hacía falta pedir por carta y esperar meses. Se elige para ello la antigua lonja de comerciantes, un edificio grande, cuadrado y sólido que había quedado medio vacío, y se empiezan a subir por su escalera de mármol carros enteros de documentos traídos desde archivos de media península. Nadie sabe todavía cuánto papel hay. Cuando se termine de contar, la respuesta se medirá en kilómetros de estantería.",
     paginas: [
       {
         rotulo: "Qué hay dentro",
