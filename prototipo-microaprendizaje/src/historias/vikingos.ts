@@ -18,14 +18,48 @@ import type { Short } from "../shorts";
 export const VIKINGOS: Short[] = [
   {
     id: "cascos-sin-cuernos",
-    titulo: "Los vikingos nunca llevaron cascos con cuernos",
+    titulo: "Cascos vikingos sin cuernos",
     gancho: "El casco con cuernos lo diseñó un figurinista de ópera en 1876 y ya no hubo manera de quitarlo.",
     categoria: "Vikingos",
     color: "var(--slate)",
     curioso: true,
     encargo: "Un casco de hierro liso y abollado sobre un fondo oscuro de museo.",
+    fotos: [
+      {
+        archivo: "Cultural History (historisk) Museum Oslo. VIKINGR Norwegian Viking-Age Exhibition 08 Iron helmet from Gjermundbu (Gjermundbuhjelmen). Best-preserved viking helmet, grave find, destroyed in funeral. Equestrian warrior 950-1000. 4665.jpg",
+        autor: "El casco de Gjermundbu, el único casco vikingo completo que se conserva. Museo de Historia Cultural de Oslo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cultural_History_(historisk)_Museum_Oslo._VIKINGR_Norwegian_Viking-Age_Exhibition_08_Iron_helmet_from_Gjermundbu_(Gjermundbuhjelmen)._Best-preserved_viking_helmet,_grave_find,_destroyed_in_funeral._Equestrian_warrior_950-1000._4665.jpg",
+        foco: "58% 48%",
+        alt: "Un casquete de hierro corroído con una máscara en forma de gafas sobre los ojos, sin nada en lo alto.",
+      },
+      {
+        archivo: "Wolin 2018 07.jpg",
+        autor: "Muro de escudos en el festival de Wolin, Polonia. Fotografía de Jakub T. Jankiewicz, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wolin_2018_07.jpg",
+        foco: "50% 55%",
+        alt: "Una fila apretada de hombres con escudos redondos pintados, lanzas y hachas, todos con la cabeza descubierta.",
+      },
+      {
+        archivo: "Bronze Age Helmets, Nationalmuseet Copenhagen.jpg",
+        autor: "Cascos con cuernos de la Edad del Bronce, mil años anteriores a los vikingos. Museo Nacional de Dinamarca.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bronze_Age_Helmets,_Nationalmuseet_Copenhagen.jpg",
+        foco: "58% 50%",
+        alt: "Dos cascos de bronce verdoso con cuernos largos y curvados, expuestos sobre un fondo negro.",
+      },
+      {
+        archivo: "Oseberg Ship - Viking Ship Museum (Oslo).jpg",
+        autor: "El barco de Oseberg, enterrado hacia el año 834 y desenterrado en 1904. Museo de Barcos Vikingos, Oslo.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Oseberg_Ship_-_Viking_Ship_Museum_(Oslo).jpg",
+        foco: "55% 50%",
+        alt: "Un barco largo de madera oscura dentro de una sala abovedada, con la proa enroscándose en espiral hacia arriba.",
+      },
+    ],
     entrada:
-      "Escandinavia, siglos VIII a XI. Los guerreros del norte asaltan monasterios, comercian por medio mundo y navegan hasta el Mediterráneo y el mar Caspio. De todos aquellos siglos se conserva un solo casco vikingo completo, encontrado en una tumba de Noruega, y es un simple casquete de hierro con una protección para los ojos. No tiene cuernos.",
+      "Escandinavia, siglos VIII a XI. Los guerreros del norte asaltan monasterios en Inglaterra y en Irlanda, comercian con plata por media Europa, fundan ciudades y llegan navegando hasta el Mediterráneo y hasta el mar Caspio. Trescientos años de historia bien documentada, con crónicas escritas por sus víctimas y por ellos mismos. Y de todos aquellos siglos se conserva un solo casco vikingo completo, encontrado en una tumba del sur de Noruega en 1943: un simple casquete de hierro remachado, con una pieza en forma de gafas para proteger los ojos. No tiene cuernos por ninguna parte.",
     paginas: [
       {
         rotulo: "Por qué no",

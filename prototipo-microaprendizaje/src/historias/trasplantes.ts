@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const TRASPLANTES: Short[] = [
   {
     id: "trasplante-entre-gemelos",
-    titulo: "El primer trasplante que funcionó fue entre gemelos",
+    titulo: "El donante era su gemelo",
     gancho: "El cuerpo del receptor no atacó al riñón nuevo porque era, molécula a molécula, el suyo propio.",
     categoria: "Trasplantes",
     color: "var(--plum)",
     encargo: "Dos camas de hospital paralelas en una habitación de los años cincuenta.",
+    fotos: [
+      {
+        archivo: "Beilinson Hospital ward 1950.jpg",
+        autor: "Una sala de hospital en 1950. Fotografía de Fritz Cohen.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Beilinson_Hospital_ward_1950.jpg",
+        foco: "50% 50%",
+        alt: "Camas de metal alineadas junto a los ventanales de una sala, con enfermeras de uniforme repartiendo bandejas.",
+      },
+      {
+        archivo: "T Lymphocyte, also known as a T cell (yellow color).jpg",
+        autor: "Un linfocito T visto al microscopio electrónico y coloreado. Fotografía del NIAID.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:T_Lymphocyte,_also_known_as_a_T_cell_(yellow_color).jpg",
+        foco: "58% 50%",
+        alt: "Una célula redonda de superficie plegada y erizada, teñida de amarillo sobre un fondo rosa.",
+      },
+      {
+        archivo: "Amputation set, Europe, 1891-1910 Wellcome L0057842.jpg",
+        autor: "Instrumental quirúrgico europeo, entre 1891 y 1910, con su caja de esterilizar. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Amputation_set,_Europe,_1891-1910_Wellcome_L0057842.jpg",
+        foco: "50% 55%",
+        alt: "Bandejas de acero con bisturíes, pinzas y una sierra alineados uno junto a otro sobre fondo negro.",
+      },
+      {
+        archivo: "CDC scientist transfers H7N9.png",
+        autor: "Trabajo de laboratorio en una cabina de seguridad biológica. Fotografía de los CDC.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:CDC_scientist_transfers_H7N9.png",
+        foco: "55% 50%",
+        alt: "Una investigadora con bata azul, mascarilla y pantalla facial pipeteando en una gradilla de tubos verdes.",
+      },
+    ],
     entrada:
-      "Boston, diciembre de 1954. Un joven de veintitrés años se muere por un fallo de los riñones y tiene un hermano gemelo idéntico sano. Los cirujanos llevan medio siglo sabiendo coser vasos sanguíneos y han trasplantado riñones muchas veces en animales y algunas en personas, siempre con el mismo final: el órgano funciona unos días y luego se destruye. Con estos dos hermanos deciden probar.",
+      "Boston, diciembre de 1954. Un joven de veintitrés años se está muriendo por un fallo de los riñones, en una época en la que todavía no existe la diálisis tal como la conocemos, y resulta que tiene un hermano gemelo idéntico y sano. Los cirujanos llevan medio siglo sabiendo coser vasos sanguíneos con precisión, y han trasplantado riñones muchas veces en animales y unas cuantas en personas, siempre con el mismo final: el órgano funciona unos días, se hincha, deja de filtrar y se destruye solo. Nadie sabe todavía por qué pasa eso. Con estos dos hermanos deciden probar.",
     paginas: [
       {
         rotulo: "El rechazo",

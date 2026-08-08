@@ -20,13 +20,49 @@ import type { Short } from "../shorts";
 export const ESCLAVITUD: Short[] = [
   {
     id: "haiti-indemnizacion",
-    titulo: "Pagaron por haberse liberado",
+    titulo: "Haití pagó por ser libre",
     gancho: "Ganó su independencia peleando, y luego indemnizó a sus antiguos dueños durante ciento veintidós años.",
     categoria: "Esclavitud",
     color: "var(--clay)",
     encargo: "Un campo de caña de azúcar al atardecer, con montañas al fondo.",
+    fotos: [
+      {
+        archivo: "The Citadelle Laferrière, Haiti (7761638618).jpg",
+        autor: "La Citadelle Laferrière, levantada en Haití tras la independencia. Fotografía de Alex Proimos, 2012.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_Citadelle_Laferri%C3%A8re,_Haiti_(7761638618).jpg",
+        foco: "45% 45%",
+        alt: "Una fortaleza de piedra en lo alto de un cerro boscoso, con la niebla subiendo por la ladera de la derecha.",
+      },
+      {
+        archivo: "Portrait de Toussaint Louverture, à cheval1.jpg",
+        autor: "Toussaint Louverture a caballo, grabado publicado en París hacia 1802.",
+        licencia: "Dominio público",
+        pdPorEdad: 1803,
+        fuente: "https://commons.wikimedia.org/wiki/File:Portrait_de_Toussaint_Louverture,_%C3%A0_cheval1.jpg",
+        foco: "50% 35%",
+        alt: "Grabado de un militar con bicornio emplumado montado en un caballo blanco, señalando al frente con el brazo.",
+      },
+      {
+        archivo: "Charles Edward Dixon Duguay Trouin 1789 HMS Implacable Battle of Cape Ortegal Trafalgar (cropped).jpg",
+        autor: "Un navío de línea francés a toda vela, acuarela de Charles Edward Dixon.",
+        licencia: "Dominio público",
+        pdPorEdad: 1934,
+        fuente: "https://commons.wikimedia.org/wiki/File:Charles_Edward_Dixon_Duguay_Trouin_1789_HMS_Implacable_Battle_of_Cape_Ortegal_Trafalgar_(cropped).jpg",
+        foco: "50% 55%",
+        alt: "Un barco de guerra de tres palos con las portas abiertas navegando sobre un mar verde y agitado.",
+      },
+      {
+        archivo: "Palais du sans-soucis.JPG",
+        autor: "Las ruinas del palacio de Sans-Souci, en Milot. Fotografía de Iconem, 2014.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Palais_du_sans-soucis.JPG",
+        foco: "45% 45%",
+        alt: "Un palacio sin techo con las ventanas vacías y la escalinata invadida de hierba, al pie de una montaña verde.",
+      },
+    ],
     entrada:
-      "Caribe, 1791. La colonia francesa más rica del mundo produce buena parte del azúcar y del café que se consume en Europa, y lo hace con casi medio millón de personas esclavizadas frente a unos treinta mil colonos. Aquel agosto estalla una revuelta en las plantaciones del norte. Trece años más tarde nace de allí un país nuevo.",
+      "Caribe, 1791. La colonia francesa más rica del mundo, en la mitad occidental de una isla, produce buena parte del azúcar y del café que se consume en Europa, y lo hace con casi medio millón de personas esclavizadas frente a unos treinta mil colonos blancos. La proporción explica el miedo con el que se vivía allí y la dureza con la que se gobernaba. Aquel agosto estalla una revuelta en las plantaciones del norte que nadie consigue sofocar, y que acaba en una guerra larga contra Francia, contra Inglaterra y contra España a la vez. Trece años más tarde nace de allí un país nuevo.",
     paginas: [
       {
         rotulo: "La única",

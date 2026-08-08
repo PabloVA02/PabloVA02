@@ -18,14 +18,48 @@ import type { Short } from "../shorts";
 export const CASTILLOS: Short[] = [
   {
     id: "escaleras-de-caracol",
-    titulo: "Las escaleras giran a la derecha",
+    titulo: "La escalera gira a derechas",
     gancho: "Se dice que era para favorecer al defensor diestro. La explicación es más floja de lo que parece.",
     categoria: "Castillos",
     color: "var(--plum)",
     curioso: true,
     encargo: "Una escalera de caracol de piedra vista desde abajo, con el eje central gastado.",
+    fotos: [
+      {
+        archivo: "SpiralStairs CaernarfonCastle.jpg",
+        autor: "Escalera de caracol del castillo de Caernarfon, en Gales. Fotografía de Martinvl, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:SpiralStairs_CaernarfonCastle.jpg",
+        foco: "48% 58%",
+        alt: "Peldaños de piedra cubiertos de musgo girando alrededor de un eje central, con una cuerda a modo de pasamanos.",
+      },
+      {
+        archivo: "Albion Soeborg Medieval Sword 13 (8499204550).jpg",
+        autor: "Empuñadura y cruz de una espada medieval, en una reproducción moderna. Fotografía de Søren Niedziella.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Albion_Soeborg_Medieval_Sword_13_(8499204550).jpg",
+        foco: "50% 50%",
+        alt: "El puño de cuero y la cruz de acero de una espada, apoyada en diagonal sobre un fondo blanco.",
+      },
+      {
+        archivo: "Chinon (Indre-et-Loire) (22415606670).jpg",
+        autor: "Una torre del castillo de Chinon, en el valle del Loira. Fotografía de Daniel Jolivet, 2015.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chinon_(Indre-et-Loire)_(22415606670).jpg",
+        foco: "38% 50%",
+        alt: "Una torre redonda de sillería dorada con una saetera estrecha, junto al foso y la muralla.",
+      },
+      {
+        archivo: "Krak des Chevaliers, NW Syria - 3.jpg",
+        autor: "El Krak de los Caballeros, en el noroeste de Siria. Fotografía de James Gordon, 2008.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Krak_des_Chevaliers,_NW_Syria_-_3.jpg",
+        foco: "50% 42%",
+        alt: "Un castillo enorme de torres redondas sobre una loma pelada, con el talud inclinado cayendo hacia el valle.",
+      },
+    ],
     entrada:
-      "Europa, siglos XII a XV. Las torres de los castillos se suben por escaleras de caracol estrechas, casi siempre con giro a la derecha para el que sube. La explicación que se repite en todas las visitas guiadas es que así el defensor, que baja, tiene sitio para mover el brazo derecho y el atacante no. Suena convincente y conviene mirarla despacio.",
+      "Europa, siglos XII a XV. Las torres de los castillos se suben por escaleras de caracol estrechas, con los peldaños empotrados en un eje central de piedra, y casi siempre con giro a la derecha para el que sube. La explicación que se repite en todas las visitas guiadas del continente es la misma: el giro se eligió para favorecer al defensor, que baja y tiene sitio de sobra para mover el brazo derecho, mientras que el atacante que sube se encuentra la columna pegada al brazo de la espada. Suena convincente, se cuenta con mucha seguridad y conviene mirarla despacio.",
     paginas: [
       {
         rotulo: "El argumento",
