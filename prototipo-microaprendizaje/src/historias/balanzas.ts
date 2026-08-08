@@ -20,8 +20,42 @@ export const BALANZAS: Short[] = [
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Balanza de dos platillos de latón en equilibrio, con pesas pequeñas en uno de ellos.",
+    fotos: [
+      {
+        archivo: "Balance, letter (51360856670).jpg",
+        autor: "Una balanza de cartas de latón sobre base de madera, con su juego de pesas. Auckland Museum.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Balance,_letter_(51360856670).jpg",
+        foco: "50% 45%",
+        alt: "Una balanza de dos platillos de latón sobre una base oscura, con seis pesas cilíndricas alineadas delante.",
+      },
+      {
+        archivo: "Earthrise over Compton crater -LRO full res.jpg",
+        autor: "La Tierra saliendo por el horizonte de la Luna, vista por la sonda LRO. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Earthrise_over_Compton_crater_-LRO_full_res.jpg",
+        foco: "50% 30%",
+        alt: "La Tierra azul y blanca asomando sobre la superficie gris y llena de cráteres de la Luna.",
+      },
+      {
+        archivo: "Set of 17th century nested brass weights. Wellcome L0057063.jpg",
+        autor: "Juego de pesas encajables de latón, Europa, siglo XVII. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Set_of_17th_century_nested_brass_weights._Wellcome_L0057063.jpg",
+        foco: "50% 45%",
+        alt: "Vasos de latón de tamaños decrecientes que encajan unos dentro de otros, abiertos sobre fondo negro.",
+      },
+      {
+        archivo: "BD Weighing of the Heart.jpg",
+        autor: "El pesaje del corazón, del Libro de los Muertos de Ani, hacia 1300 a. C. British Museum.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:BD_Weighing_of_the_Heart.jpg",
+        foco: "50% 45%",
+        alt: "Pintura egipcia sobre papiro con una balanza grande en el centro y figuras de dioses a los lados.",
+      },
+    ],
     entrada:
-      "Egipto y Mesopotamia, desde hace unos cinco mil años. La balanza de dos platillos colgados de una barra es uno de los instrumentos más antiguos que existen y también uno de los más listos. No dice cuánto pesa una cosa: dice si pesa lo mismo que otra. Esa diferencia, que parece una tontería, es lo que la vuelve exacta en cualquier sitio del universo.",
+      "Egipto y Mesopotamia, desde hace unos cinco mil años. La balanza de dos platillos colgados de una barra es uno de los instrumentos más antiguos que existen y, mirado de cerca, también uno de los más listos que se han inventado nunca. No dice cuánto pesa una cosa. Dice si pesa lo mismo que otra, que es una pregunta distinta y mucho más fácil de contestar bien. Esa diferencia, que suena a matiz de pedante, es exactamente lo que la vuelve exacta en cualquier sitio del universo, y lo que ninguna báscula moderna puede prometer.",
     paginas: [
       {
         rotulo: "Comparar, no medir",

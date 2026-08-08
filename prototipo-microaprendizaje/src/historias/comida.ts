@@ -19,13 +19,49 @@ import type { Short } from "../shorts";
 export const COMIDA: Short[] = [
   {
     id: "patata-europa",
-    titulo: "Hubo que engañar para comer patatas",
+    titulo: "Nadie quería comer patatas",
     gancho: "La tomaban por comida de cerdos y por causa de la lepra. Hubo que robarla para que se comiera.",
     categoria: "Comida",
     color: "var(--forest)",
     encargo: "Unas patatas con tierra encima sobre un saco de arpillera, luz de ventana.",
+    fotos: [
+      {
+        archivo: "Albert Anker - Stilleben, Kaffee und Kartoffeln.jpg",
+        autor: "Bodegón con café y patatas, óleo de Albert Anker, 1897.",
+        licencia: "Dominio público",
+        pdPorEdad: 1910,
+        fuente: "https://commons.wikimedia.org/wiki/File:Albert_Anker_-_Stilleben,_Kaffee_und_Kartoffeln.jpg",
+        foco: "50% 62%",
+        alt: "Unas patatas cocidas junto a una taza, un jarro rojo y una cafetera de peltre sobre una mesa de madera.",
+      },
+      {
+        archivo: "Van Gogh - Stillleben mit Kartoffeln in gelber Schüssel.jpeg",
+        autor: "Bodegón con patatas en un cuenco amarillo, óleo de Vincent van Gogh, 1888.",
+        licencia: "Dominio público",
+        pdPorEdad: 1890,
+        fuente: "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Stillleben_mit_Kartoffeln_in_gelber_Sch%C3%BCssel.jpeg",
+        foco: "50% 50%",
+        alt: "Un montón de patatas pardas amontonadas en un cuenco amarillo, pintadas a pinceladas gruesas.",
+      },
+      {
+        archivo: "Deserted Village at Slievemore (Juli 2018).jpg",
+        autor: "El poblado abandonado de Slievemore, en la isla de Achill, Irlanda. Fotografía de Veenpluis.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Deserted_Village_at_Slievemore_(Juli_2018).jpg",
+        foco: "50% 55%",
+        alt: "Una hilera de casas de piedra sin tejado sobre una ladera verde, con la bahía y un monte al fondo.",
+      },
+      {
+        archivo: "Svalbard Global Seed Vault February 2025.jpg",
+        autor: "La entrada del banco mundial de semillas de Svalbard, en el Ártico noruego. Fotografía de Michael Major para Crop Trust.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Svalbard_Global_Seed_Vault_February_2025.jpg",
+        foco: "50% 50%",
+        alt: "Una cuña de hormigón iluminada saliendo de una ladera nevada, con la puerta del almacén al fondo.",
+      },
+    ],
     entrada:
-      "Europa, siglo XVIII. Hace doscientos años que llegó de América un tubérculo que crece bajo tierra, aguanta el frío y da más calorías por hectárea que cualquier cereal conocido. Y no se lo come nadie. Los campesinos lo consideran alimento de cerdos, corre la sospecha de que provoca lepra y varios países han llegado a prohibir su cultivo por decreto.",
+      "Europa, siglo XVIII. Hace doscientos años que llegó de América un tubérculo que crece bajo tierra, aguanta el frío, no le hace falta molino ni horno y da más calorías por hectárea que cualquier cereal conocido. Sobre el papel es la solución al hambre de medio continente. Y no se lo come nadie. Los campesinos lo tienen por alimento de cerdos, corre la sospecha de que provoca lepra, los médicos desconfían porque no aparece en la Biblia, y varios países han llegado a prohibir su cultivo por decreto. Convencerlos costó casi un siglo y un buen número de trucos.",
     paginas: [
       {
         rotulo: "El truco del huerto",
