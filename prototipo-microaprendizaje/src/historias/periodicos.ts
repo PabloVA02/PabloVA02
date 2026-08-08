@@ -18,14 +18,50 @@ import type { Short } from "../shorts";
 export const PERIODICOS: Short[] = [
   {
     id: "bulo-de-la-luna",
-    titulo: "Hombres murciélago en la Luna",
+    titulo: "Vida en la Luna, en portada",
     gancho: "En 1835 publicó seis entregas sobre la vida en la Luna y se convirtió en el diario más vendido.",
     categoria: "Periódicos",
     color: "var(--plum)",
     curioso: true,
     encargo: "Un grabado antiguo de criaturas aladas en un paisaje lunar con árboles.",
+    fotos: [
+      {
+        archivo: "Lunar animals and other objects Discovered by Sir John Herschel in his observatory at the Cape of Good Hope and copied from sketches in the Edinburgh Journal of Science. LCCN2003665049.jpg",
+        autor: "«Animales lunares y otros objetos», litografía publicada por Benjamin Day en 1835 para acompañar la serie.",
+        licencia: "Dominio público",
+        pdPorEdad: 1889,
+        fuente: "https://commons.wikimedia.org/wiki/File:Lunar_animals_and_other_objects_Discovered_by_Sir_John_Herschel_in_his_observatory_at_the_Cape_of_Good_Hope_and_copied_from_sketches_in_the_Edinburgh_Journal_of_Science._LCCN2003665049.jpg",
+        foco: "50% 40%",
+        alt: "Litografía de hombres con alas de murciélago volando sobre un valle con cascadas, unicornios y palmeras.",
+      },
+      {
+        archivo: "Dearborn Telescope with open dome.jpg",
+        autor: "Un telescopio refractor bajo la cúpula abierta, iluminado de rojo para no estropear la vista. Fotografía de Jackricono.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Dearborn_Telescope_with_open_dome.jpg",
+        foco: "45% 55%",
+        alt: "El tubo de un telescopio antiguo apuntando por la rendija de una cúpula, con estrellas en el cielo oscuro.",
+      },
+      {
+        archivo: "February 23rd 1908 Boys Selling Newspapers on Brooklyn Bridge.jpg",
+        autor: "Vendedores de periódicos en Nueva York. Fotografía de Lewis Hine, 1908.",
+        licencia: "Dominio público",
+        pdPorEdad: 1940,
+        fuente: "https://commons.wikimedia.org/wiki/File:February_23rd_1908_Boys_Selling_Newspapers_on_Brooklyn_Bridge.jpg",
+        foco: "50% 55%",
+        alt: "Un grupo de chicos con gorra cargando fajos de periódicos delante del escaparate de una cafetería.",
+      },
+      {
+        archivo: "Full disc of moon photographed by Apollo 17 crewmen during transearth coast (as17-152-23311).jpg",
+        autor: "La Luna fotografiada desde el Apolo 17 en el viaje de vuelta, 1972. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Full_disc_of_moon_photographed_by_Apollo_17_crewmen_during_transearth_coast_(as17-152-23311).jpg",
+        foco: "50% 45%",
+        alt: "El disco entero de la Luna sobre fondo negro, con los mares oscuros y los cráteres del borde a contraluz.",
+      },
+    ],
     entrada:
-      "Nueva York, agosto de 1835. Un periódico barato publica en portada la primera de seis entregas en las que asegura que un astrónomo famoso ha descubierto vida en la Luna con un telescopio nuevo instalado en Sudáfrica. Describe bosques, playas, bisontes, unicornios azules y hombres alados con cara de murciélago que conversan entre ellos.",
+      "Nueva York, agosto de 1835. Un periódico barato de los que se venden por un centavo en la calle publica en portada la primera de seis entregas en las que asegura, con toda seriedad y con firma, que un astrónomo famosísimo ha descubierto vida en la Luna gracias a un telescopio nuevo instalado en el cabo de Buena Esperanza. A lo largo de la semana va describiendo bosques y playas, manadas de bisontes, cabras de un solo cuerno, castores que caminan de pie y hombres alados con cara de murciélago que se sientan a conversar entre ellos junto a un río.",
     paginas: [
       {
         rotulo: "El detalle",
