@@ -25,8 +25,42 @@ export const AVIACION: Short[] = [
     categoria: "Aviación",
     color: "var(--slate)",
     encargo: "Una tablilla de vuelo con una lista mecanografiada sujeta con pinza metálica.",
+    fotos: [
+      {
+        archivo: "Boeing B-17G Flying Fortress 124485 DF-A Duxford Flying Evening 2024 03.jpg",
+        autor: "Un B-17, el bombardero que salió de aquel avión de pruebas. Fotografía de Julian Herzog, Duxford, 2024.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Boeing_B-17G_Flying_Fortress_124485_DF-A_Duxford_Flying_Evening_2024_03.jpg",
+        foco: "50% 45%",
+        alt: "Un cuatrimotor plateado visto desde abajo mientras vira, con las hélices girando contra un cielo azul claro.",
+      },
+      {
+        archivo: "B-17G cockpit.jpg",
+        autor: "La cabina de un B-17, con los dos volantes y la palanca de gases al centro. Fotografía de Thornfield Hall.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:B-17G_cockpit.jpg",
+        foco: "50% 55%",
+        alt: "Dos volantes negros a los lados de una consola llena de palancas, con paneles de relojes cubriendo el frente.",
+      },
+      {
+        archivo: "Boeing B-17G Flying Fortress 124485 DF-A and Supermarine Spitfire Mk LFXVIe WZ-RR Duxford Flying Evening 2024 01.jpg",
+        autor: "Un B-17 y un Spitfire volando en formación. Fotografía de Julian Herzog, Duxford, 2024.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Boeing_B-17G_Flying_Fortress_124485_DF-A_and_Supermarine_Spitfire_Mk_LFXVIe_WZ-RR_Duxford_Flying_Evening_2024_01.jpg",
+        foco: "50% 50%",
+        alt: "Un bombardero verde oliva con las letras DF-A pintadas en el fuselaje, con un caza volando justo encima.",
+      },
+      {
+        archivo: "787-flight-deck.jpg",
+        autor: "La cabina de un avión de línea moderno, con las pantallas encendidas.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:787-flight-deck.jpg",
+        foco: "50% 52%",
+        alt: "Una cabina oscura con cinco pantallas azules encendidas y filas de interruptores en el techo.",
+      },
+    ],
     entrada:
-      "Base aérea de Wright Field, en Ohio, el 30 de octubre de 1935. El Ejército estadounidense evalúa el bombardero que quiere comprar y el favorito es el Boeing 299, una máquina enorme, cuatro motores, más instrumentos de los que nadie había visto en una cabina. Despega, sube unos setenta metros, se encabrita y cae. Mueren dos de los cinco tripulantes.",
+      "Base aérea de Wright Field, en Ohio, el 30 de octubre de 1935. El Ejército estadounidense está evaluando el bombardero que quiere comprar y el favorito de todos es el Boeing 299, una máquina enorme para su época: cuatro motores en vez de dos, el doble de alcance que sus rivales y más instrumentos, palancas y mandos de los que nadie había visto juntos en una cabina. A los mandos va el piloto de pruebas jefe del cuerpo, uno de los más veteranos del país. El avión despega, sube unos setenta metros, se encabrita y cae. Mueren dos de los cinco tripulantes, y el piloto es uno de ellos.",
     paginas: [
       {
         rotulo: "El pestillo",

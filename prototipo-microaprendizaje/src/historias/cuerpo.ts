@@ -26,8 +26,42 @@ export const CUERPO: Short[] = [
     categoria: "Cuerpo",
     color: "var(--sage)",
     encargo: "Colonias bacterianas en una placa de Petri, luz rasante, fondo oscuro.",
+    fotos: [
+      {
+        archivo: "Разнообразие почвенной микрофлоры в чашке Петри.jpg",
+        autor: "Microflora de un puñado de tierra, cultivada en una placa de Petri. Fotografía de Oksana Lastochkina.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D0%B7%D0%BD%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B8%D0%B5_%D0%BF%D0%BE%D1%87%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9_%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%84%D0%BB%D0%BE%D1%80%D1%8B_%D0%B2_%D1%87%D0%B0%D1%88%D0%BA%D0%B5_%D0%9F%D0%B5%D1%82%D1%80%D0%B8.jpg",
+        foco: "58% 50%",
+        alt: "Una placa redonda con colonias de moho ocres, verdes, negras y crema repartidas sobre el medio de cultivo.",
+      },
+      {
+        archivo: "E. coli Bacteria (7316101966).jpg",
+        autor: "Escherichia coli al microscopio electrónico. Fotografía del NIAID.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:E._coli_Bacteria_(7316101966).jpg",
+        foco: "50% 30%",
+        alt: "Bastoncillos alargados y rugosos amontonados unos sobre otros, en blanco y negro.",
+      },
+      {
+        archivo: "Red blood cells (2).jpg",
+        autor: "Glóbulos rojos al microscopio electrónico de barrido.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Red_blood_cells_(2).jpg",
+        foco: "50% 32%",
+        alt: "Discos hundidos por el centro, apilados unos sobre otros sobre un fondo negro.",
+      },
+      {
+        archivo: "Cross-section histology of small intestinal villi of the terminal ileum.jpg",
+        autor: "Corte de las vellosidades del intestino delgado visto al microscopio. Imagen de Mikael Häggström.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cross-section_histology_of_small_intestinal_villi_of_the_terminal_ileum.jpg",
+        foco: "50% 50%",
+        alt: "Un mosaico de celdas rosas y moradas, cada una con un centro punteado, como un panal teñido.",
+      },
+    ],
     entrada:
-      "Durante cuarenta años se repitió en libros de texto, charlas y titulares: en tu cuerpo hay diez bacterias por cada célula humana, así que eres más ellas que tú. Es una idea preciosa y da para varias frases lapidarias. El problema apareció cuando en 2016 tres investigadores se sentaron a rehacer la cuenta y fueron a buscar de dónde había salido la original.",
+      "Durante cuarenta años se repitió en libros de texto, en charlas divulgativas y en titulares de periódico: en tu cuerpo hay diez bacterias por cada célula humana, de modo que, contando por unidades, eres más ellas que tú. Es una idea preciosa, encaja en un tuit y da para varias frases lapidarias sobre lo poco humanos que somos. Se citaba en artículos científicos serios y nadie parecía haber comprobado el dato. El problema apareció en 2016, cuando tres investigadores se sentaron a rehacer la cuenta desde cero y, de paso, fueron a buscar de dónde había salido la original.",
     paginas: [
       {
         rotulo: "El origen",

@@ -26,8 +26,43 @@ export const MAPAS: Short[] = [
     color: "var(--sage)",
     curioso: true,
     encargo: "Un planisferio Mercator antiguo, papel amarillento, sin rótulos legibles.",
+    fotos: [
+      {
+        archivo: "Mercator 1569 world map composite.jpg",
+        autor: "El mapamundi que Gerardus Mercator publicó en Duisburgo en 1569, con sus dieciocho hojas montadas.",
+        licencia: "Dominio público",
+        pdPorEdad: 1594,
+        fuente: "https://commons.wikimedia.org/wiki/File:Mercator_1569_world_map_composite.jpg",
+        foco: "50% 45%",
+        alt: "Un mapamundi grabado del siglo XVI, con las costas dibujadas a mano, rosas de los vientos y barcos entre los océanos.",
+      },
+      {
+        archivo: "Sextant-MnM 11 NA 59-IMG 5971.JPG",
+        autor: "Un sextante de latón, el instrumento para el que servían aquellos mapas. Fotografía de Rama, Museo Nacional de la Marina.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sextant-MnM_11_NA_59-IMG_5971.JPG",
+        foco: "50% 55%",
+        alt: "Un sextante de latón con su arco graduado y sus espejos, iluminado sobre un fondo negro.",
+      },
+      {
+        archivo: "Africa from low orbiting satellite Suomi NPP.jpg",
+        autor: "África vista desde el satélite Suomi NPP, sin proyección de por medio. NASA y NOAA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Africa_from_low_orbiting_satellite_Suomi_NPP.jpg",
+        foco: "50% 45%",
+        alt: "La Tierra fotografiada desde el espacio, con África entera ocupando el centro del globo azul.",
+      },
+      {
+        archivo: "South coast of Greenland 03.jpg",
+        autor: "La costa sur de Groenlandia desde el aire. Fotografía de Hans Bernhard.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:South_coast_of_Greenland_03.jpg",
+        foco: "50% 42%",
+        alt: "Fiordos oscuros abriéndose entre montañas peladas, con el casquete de hielo asomando por detrás.",
+      },
+    ],
     entrada:
-      "En el mapa que cuelga en casi todas las aulas del mundo, Groenlandia ocupa aproximadamente lo mismo que el continente africano. En la realidad, África mide unos 30 millones de kilómetros cuadrados y Groenlandia poco más de dos. La diferencia no es un fallo de imprenta: es el precio exacto que se pagó por un mapa que servía para navegar.",
+      "En el mapa que cuelga en casi todas las aulas del mundo, Groenlandia ocupa aproximadamente lo mismo que el continente africano entero, y a nadie le extraña porque es la imagen del planeta con la que hemos crecido. En la realidad, África mide unos treinta millones de kilómetros cuadrados y Groenlandia poco más de dos: cabe catorce veces. La diferencia no es un fallo de imprenta ni un descuido de nadie, sino el precio exacto que se pagó, a conciencia y por escrito, a cambio de un mapa que servía para cruzar un océano sin perderse.",
     paginas: [
       {
         rotulo: "El trato",

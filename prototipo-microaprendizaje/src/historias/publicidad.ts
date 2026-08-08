@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const PUBLICIDAD: Short[] = [
   {
     id: "diamante-para-siempre",
-    titulo: "El anillo de diamantes lo inventó un anuncio",
+    titulo: "Un anuncio creó el anillo",
     gancho: "En 1938 casi nadie los regalaba. Una agencia decidió cuánto había que gastarse y todos obedecimos.",
     categoria: "Publicidad",
     color: "var(--ochre)",
     encargo: "Un anillo pequeño solo sobre terciopelo oscuro, con un foco muy duro.",
+    fotos: [
+      {
+        archivo: "Diamond princess cut.jpg",
+        autor: "Un diamante de talla princesa montado en su anillo. Fotografía de Stephen Durham.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Diamond_princess_cut.jpg",
+        foco: "50% 45%",
+        alt: "Un diamante cuadrado sujeto por cuatro garras, con las facetas encendidas por una luz cálida.",
+      },
+      {
+        archivo: "Cullinan Diamond (replica) (Premier Kimberlite Pipe, Precambrian; Premier Mine, South Africa) 1 (17872546950).jpg",
+        autor: "Réplica del diamante en bruto más grande encontrado nunca, extraído en Sudáfrica. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cullinan_Diamond_(replica)_(Premier_Kimberlite_Pipe,_Precambrian;_Premier_Mine,_South_Africa)_1_(17872546950).jpg",
+        foco: "50% 48%",
+        alt: "Un pedrusco transparente del tamaño de un puño, con las caras irregulares y sin pulir.",
+      },
+      {
+        archivo: "Neon Night 1 (22755978604).jpg",
+        autor: "Un rótulo de neón encendido en Nueva York. Fotografía de Billie Grace Ward.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Neon_Night_1_(22755978604).jpg",
+        foco: "50% 45%",
+        alt: "Letras de neón rojo encendidas sobre la entrada de un local, con los toldos a rayas debajo.",
+      },
+      {
+        archivo: "White wedding.jpg",
+        autor: "Las alianzas en la bandeja, durante una ceremonia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:White_wedding.jpg",
+        foco: "55% 50%",
+        alt: "Dos manos sosteniendo un platillo con dos anillos, entre ropas blancas, en blanco y negro.",
+      },
+    ],
     entrada:
-      "Nueva York, 1938. La mayor empresa de diamantes del mundo tiene un problema: sus piedras casi no se venden. Después de la crisis económica de los años treinta, un diamante es un lujo prescindible y en Estados Unidos solo una de cada diez novias recibe uno al comprometerse. La empresa contrata a una agencia de publicidad para arreglarlo.",
+      "Nueva York, 1938. La mayor empresa de diamantes del mundo, que controla casi toda la producción del planeta y decide cuántas piedras salen al mercado cada año, tiene un problema serio: no se venden. Después de la crisis económica de los años treinta un diamante es exactamente lo que parece, un lujo prescindible, y los precios llevan una década cayendo. En Estados Unidos solo una de cada diez novias recibe uno al comprometerse, y en Europa la costumbre es todavía más rara. La empresa contrata entonces a una agencia de publicidad de Filadelfia para que le arregle el asunto.",
     paginas: [
       {
         rotulo: "El plan",
