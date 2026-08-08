@@ -15,13 +15,47 @@ import type { Short } from "../shorts";
 export const PILAS: Short[] = [
   {
     id: "por-que-se-gasta-una-pila",
-    titulo: "Una pila no guarda electricidad",
+    titulo: "La pila no guarda corriente",
     gancho: "No guarda electricidad dentro. Guarda dos materiales que quieren reaccionar, y se acaba cuando uno se consume.",
     categoria: "Ciencia",
     color: "var(--ochre)",
     encargo: "Pila alcalina cortada por la mitad a lo largo, con las capas interiores a la vista.",
+    fotos: [
+      {
+        archivo: "Volta battery-MHS 373-IMG 3840-black.jpg",
+        autor: "Una pila de Volta: discos de dos metales distintos apilados con paño húmedo entre ellos. Museo de Historia de la Ciencia de Ginebra. Fotografía de Rama.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Volta_battery-MHS_373-IMG_3840-black.jpg",
+        foco: "50% 50%",
+        alt: "Una columna de discos metálicos apilados entre cuatro varillas, sobre un pie torneado y fondo negro.",
+      },
+      {
+        archivo: "Filament bulb.jpg",
+        autor: "El filamento encendido de una bombilla incandescente. Fotografía de Subasis Mahat.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Filament_bulb.jpg",
+        foco: "50% 45%",
+        alt: "Un hilo enrollado brillando anaranjado dentro del vidrio de una bombilla, sobre fondo oscuro.",
+      },
+      {
+        archivo: "Ice Crystals on Window Pane.jpg",
+        autor: "Cristales de hielo creciendo sobre el vidrio de una ventana. Fotografía de Jojoo64.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ice_Crystals_on_Window_Pane.jpg",
+        foco: "50% 45%",
+        alt: "Agujas de escarcha ramificadas extendiéndose sobre un cristal, iluminadas a contraluz.",
+      },
+      {
+        archivo: "Vintage Roberts Portable Transistor Radio, Model R500, Multi-Band - MW-LW-SW, 7 Transistors, Made In Great Britain, Circa 1963 (13223505614).jpg",
+        autor: "Una radio de transistores portátil de hacia 1963, de las que funcionan con pilas. Fotografía de Joe Haupt.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vintage_Roberts_Portable_Transistor_Radio,_Model_R500,_Multi-Band_-_MW-LW-SW,_7_Transistors,_Made_In_Great_Britain,_Circa_1963_(13223505614).jpg",
+        foco: "50% 62%",
+        alt: "Una radio antigua forrada de piel verde con asa, rejilla dorada de altavoz y dos ruedas de mando.",
+      },
+    ],
     entrada:
-      "Todo el mundo, con la pila alcalina moderna en el mercado desde 1959. Casi todo el mundo imagina una pila como un depósito lleno de electricidad que se va vaciando. No hay nada de eso dentro. Lo que hay son dos materiales distintos separados por una pasta, y una reacción química que solo puede ocurrir si los electrones dan un rodeo por fuera.",
+      "Todo el mundo, con la pila alcalina moderna en el mercado desde 1959. Casi cualquiera que se pare a pensarlo imagina una pila como un depósito lleno de electricidad que se va vaciando poco a poco, como un botellín de agua. No hay absolutamente nada de eso dentro. Lo que hay son dos materiales distintos, separados por una pasta que no deja que se toquen, y una reacción química que se muere de ganas de ocurrir pero que solo puede hacerlo si los electrones dan un rodeo larguísimo por fuera. Ese rodeo, obligado, es la corriente.",
     paginas: [
       {
         rotulo: "El rodeo",
