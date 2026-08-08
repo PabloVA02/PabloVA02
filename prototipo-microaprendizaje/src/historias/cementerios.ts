@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const CEMENTERIOS: Short[] = [
   {
     id: "enterrar-fuera",
-    titulo: "Se enterraba dentro de la iglesia",
+    titulo: "Se enterraba en la iglesia",
     gancho: "Bajo las losas del suelo, por capas. En verano el olor era insoportable y los pozos se contaminaban.",
     categoria: "Cementerios",
     color: "var(--slate)",
     encargo: "Un suelo de iglesia con losas gastadas y letras grabadas medio borradas.",
+    fotos: [
+      {
+        archivo: "Church of St Mary, Tilty Essex England - chancel ledger memorial.jpg",
+        autor: "Losa sepulcral en el suelo del presbiterio de la iglesia de Tilty, Essex. Fotografía de Acabashi.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Church_of_St_Mary,_Tilty_Essex_England_-_chancel_ledger_memorial.jpg",
+        foco: "50% 45%",
+        alt: "Una losa de piedra clara encajada en el suelo, con una inscripción latina medio borrada por las pisadas.",
+      },
+      {
+        archivo: "Stift Altenburg Krypta 02.JPG",
+        autor: "La cripta de la abadía de Altenburg, en Austria. Fotografía de Uoaei1.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Stift_Altenburg_Krypta_02.JPG",
+        foco: "50% 40%",
+        alt: "Un pasillo abovedado bajo tierra, con las bóvedas cubiertas de frescos de flores y guirnaldas.",
+      },
+      {
+        archivo: "St Andrew's west tower and graveyard - geograph.org.uk - 8257857.jpg",
+        autor: "La torre de una iglesia parroquial con su camposanto alrededor. Fotografía de Neil Owen.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:St_Andrew%27s_west_tower_and_graveyard_-_geograph.org.uk_-_8257857.jpg",
+        foco: "45% 55%",
+        alt: "Una torre de piedra maciza entre árboles pelados, rodeada de lápidas inclinadas sobre la hierba.",
+      },
+      {
+        archivo: "Cementerio de Laño.jpg",
+        autor: "El cementerio de Laño, a las afueras del pueblo. Fotografía de Mentxuwiki.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cementerio_de_La%C3%B1o.jpg",
+        foco: "45% 55%",
+        alt: "Un recinto rectangular de muro de piedra con una cancela de hierro y una cruz encima, en pleno campo.",
+      },
+    ],
     entrada:
-      "España, 1787. Un decreto real ordena que los enterramientos dejen de hacerse en las iglesias y en los recintos parroquiales del interior de los pueblos, y que se construyan cementerios en las afueras, ventilados y lejos de las casas. La medida tarda décadas en cumplirse y provoca resistencia en casi todas partes del país.",
+      "España, 1787. Un decreto real ordena algo que hoy parece de sentido común y que entonces sonó a disparate: que los enterramientos dejen de hacerse dentro de las iglesias y en los recintos parroquiales del interior de los pueblos, y que cada localidad construya un cementerio en las afueras, ventilado, cercado y lejos de las casas. Hasta ese momento lo normal, en toda Europa, era enterrar bajo el suelo de la iglesia o en el patio de al lado, a unos metros de donde vivía y bebía la gente. La medida tarda décadas en cumplirse y provoca resistencia en casi todas partes.",
     paginas: [
       {
         rotulo: "Bajo las losas",
