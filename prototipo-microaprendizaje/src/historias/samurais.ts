@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const SAMURAIS: Short[] = [
   {
     id: "el-arma-era-el-arco",
-    titulo: "El arma del samurái no era la espada",
+    titulo: "El samurái iba con arco",
     gancho: "Durante siglos su oficio se llamó, literalmente, el camino del caballo y el arco.",
     categoria: "Samuráis",
     color: "var(--clay)",
     encargo: "Un arco largo asimétrico de bambú apoyado contra una pared de madera.",
+    fotos: [
+      {
+        archivo: "MET DP121467.jpg",
+        autor: "Guerrero a caballo con el arco y la aljaba, estampa de Utagawa Hiroshige, hacia 1835. Metropolitan Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:MET_DP121467.jpg",
+        foco: "50% 42%",
+        alt: "Estampa de un jinete con armadura sobre un caballo negro en la orilla, con el arco largo colgado del hombro.",
+      },
+      {
+        archivo: "Acteur als boogschutter, RP-P-2017-6127.jpg",
+        autor: "Un actor en el papel de arquero, estampa de 1847. Rijksmuseum, Ámsterdam.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Acteur_als_boogschutter,_RP-P-2017-6127.jpg",
+        foco: "45% 42%",
+        alt: "Un hombre de kimono estampado sujetando un arco amarillo altísimo, con la espada al cinto.",
+      },
+      {
+        archivo: "Polearm (AM 1934.316-1).jpg",
+        autor: "Una lanza japonesa, el arma que sustituyó al arco en los ejércitos grandes. Auckland Museum.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Polearm_(AM_1934.316-1).jpg",
+        foco: "50% 50%",
+        alt: "Una hoja de lanza de acero montada en un asta lacada, fotografiada sobre fondo liso.",
+      },
+      {
+        archivo: "Blade and Mounting for a Sword (Katana) MET DT217427.jpg",
+        autor: "Hoja y montura de una katana, siglo XVI. Metropolitan Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Blade_and_Mounting_for_a_Sword_(Katana)_MET_DT217427.jpg",
+        foco: "50% 50%",
+        alt: "Una hoja curva de acero pulido junto a su vaina lacada y su empuñadura trenzada.",
+      },
+    ],
     entrada:
-      "Japón, siglos X a XVI. El guerrero a caballo que sirve a un señor no se define por la espada, sino por el arco. Su oficio se nombra con una expresión que puede traducirse como el camino del caballo y el arco, y los relatos de guerra de la época describen duelos a flechazos entre jinetes que se presentan a gritos antes de disparar.",
+      "Japón, siglos X a XVI. El guerrero a caballo que sirve a un señor no se define en absoluto por la espada, que es lo que todo el mundo imagina, sino por el arco. Su oficio se nombra con una expresión que puede traducirse como el camino del caballo y el arco, y así aparece en los documentos de la época, sin que nadie sienta la necesidad de mencionar la hoja. Los relatos de guerra describen combates que empiezan con jinetes gritando su nombre y su linaje a distancia, para que el rival sepa a quién se enfrenta, y siguen con un duelo a flechazos al galope.",
     paginas: [
       {
         rotulo: "El arco raro",
