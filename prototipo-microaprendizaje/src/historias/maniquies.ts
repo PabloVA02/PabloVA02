@@ -24,8 +24,42 @@ export const MANIQUIES: Short[] = [
     categoria: "Maniquíes",
     color: "var(--clay)",
     encargo: "Un maniqui de mimbre trenzado sin cabeza, sobre un pie de madera.",
+    fotos: [
+      {
+        archivo: "Mannequin oxford st window (Unsplash).jpg",
+        autor: "Un maniquí en un escaparate de Oxford Street, Londres. Fotografía de Clem Onojeghuo.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mannequin_oxford_st_window_(Unsplash).jpg",
+        foco: "50% 40%",
+        alt: "El rostro de un maniquí de peluca oscura tras un cristal, con la mano levantada junto a la cara.",
+      },
+      {
+        archivo: "Fourmi en osier.JPG",
+        autor: "Una figura trenzada en mimbre, en el pueblo cestero de Villaines-les-Rochers, Francia. Fotografía de Als33120.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fourmi_en_osier.JPG",
+        foco: "50% 50%",
+        alt: "Una hormiga gigante tejida con varas de mimbre, colgada sobre una pared de ladrillo y piedra.",
+      },
+      {
+        archivo: "Galerie Lafayette Haussmann Dome.jpg",
+        autor: "La cúpula de vidrio de los almacenes Galeries Lafayette, en París. Fotografía de Benh Lieu Song.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Galerie_Lafayette_Haussmann_Dome.jpg",
+        foco: "50% 45%",
+        alt: "Una cúpula enorme de vidrio de colores sobre balcones dorados vistos desde abajo.",
+      },
+      {
+        archivo: "Show window, mannequin, Fortuna department store, Fontana department store Fortepan 76444.jpg",
+        autor: "Escaparate de unos grandes almacenes con maniquíes de caballero, 1990. Fortepan.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Show_window,_mannequin,_Fortuna_department_store,_Fontana_department_store_Fortepan_76444.jpg",
+        foco: "50% 40%",
+        alt: "Maniquíes de traje y sombrero sentados en un escaparate, en blanco y negro, con trajes colgados detrás.",
+      },
+    ],
     entrada:
-      "Francia e Inglaterra, mediados del siglo XIX. La máquina de coser y los primeros patrones por tallas permiten coser ropa antes de saber quién la va a llevar. Hasta entonces el cliente elegía la tela y un sastre le tomaba medidas, así que nadie necesitaba enseñar una prenda puesta. Ahora hay prendas ya hechas colgando en la tienda, y hay que convencer a alguien de que le quedarán bien.",
+      "Francia e Inglaterra, mediados del siglo XIX. La máquina de coser y los primeros patrones por tallas permiten hacer ropa antes de saber quién se la va a poner, que es un cambio mucho más grande de lo que parece. Hasta entonces el cliente elegía la tela, un sastre le tomaba medidas y la prenda no existía hasta que él la encargaba, así que a nadie se le ocurría enseñar un vestido puesto: no había nada que enseñar. De pronto hay prendas ya hechas colgando en una tienda y hay que convencer a un desconocido de que esa, en concreto, le va a quedar bien.",
     paginas: [
       {
         rotulo: "El mimbre",
