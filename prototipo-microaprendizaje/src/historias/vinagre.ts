@@ -15,13 +15,48 @@ import type { Short } from "../shorts";
 export const VINAGRE: Short[] = [
   {
     id: "el-vino-que-sale-mal",
-    titulo: "El vinagre es vino estropeado a propósito",
+    titulo: "El vinagre es vino agrio",
     gancho: "Unas bacterias se comen el alcohol y sueltan ácido. El truco está en dejarlas trabajar en vez de impedirlo.",
     categoria: "Comida",
     color: "var(--clay)",
     encargo: "Barrica de vinagre con la película blanquecina de la madre flotando en la superficie.",
+    fotos: [
+      {
+        archivo: "'Still-life (Ontbijtstuk with Berkemeyer)' by Pieter Claesz., Cincinnati.jpg",
+        autor: "Bodegón de desayuno con una copa de vino, óleo de Pieter Claesz, 1641.",
+        licencia: "Dominio público",
+        pdPorEdad: 1660,
+        fuente: "https://commons.wikimedia.org/wiki/File:%27Still-life_(Ontbijtstuk_with_Berkemeyer)%27_by_Pieter_Claesz.,_Cincinnati.jpg",
+        foco: "50% 50%",
+        alt: "Una copa de vidrio verde medio llena, junto a un plato de peltre y pan, sobre un mantel arrugado.",
+      },
+      {
+        archivo: "Colonie batteriche o vita marina?.jpg",
+        autor: "Colonias de bacterias creciendo en una placa de cultivo. Fotografía de Chiara Marraccini.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Colonie_batteriche_o_vita_marina%3F.jpg",
+        foco: "50% 50%",
+        alt: "Manchas blancas de bordes ondulados creciendo sobre un medio oscuro dentro de una placa redonda.",
+      },
+      {
+        archivo: "Acetaia Modena.JPG",
+        autor: "Una vinagrería de Módena: barricas pequeñas tapadas solo con un paño para que entre el aire. Fotografía de Chapeau.judicael.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Acetaia_Modena.JPG",
+        foco: "50% 55%",
+        alt: "Varias filas de barricas pequeñas de madera oscura con un trapo blanco sobre el agujero de arriba.",
+      },
+      {
+        archivo: "Pickles de chauchas, pepinos y morrones rojos.jpg",
+        autor: "Encurtidos de judías verdes, pepino y pimiento rojo. Fotografía de Horacio Cambeiro.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pickles_de_chauchas,_pepinos_y_morrones_rojos.jpg",
+        foco: "50% 55%",
+        alt: "Un plato con verduras encurtidas verdes y rojas delante de un tarro de cristal lleno del mismo preparado.",
+      },
+    ],
     entrada:
-      "Todo el Mediterráneo, desde hace por lo menos cinco mil años. El vinagre no se inventó: apareció solo, cada vez que un recipiente de vino se quedaba destapado más de la cuenta. Unas bacterias del aire se posan en el líquido, se comen el alcohol y lo convierten en ácido. La palabra lo dice sin disimulo, porque vinagre significa literalmente vino agrio.",
+      "Todo el Mediterráneo, desde hace por lo menos cinco mil años. El vinagre no lo inventó nadie: aparecía solo, una y otra vez, cada vez que un recipiente de vino se quedaba destapado más de la cuenta. Unas bacterias que van flotando en el aire se posan en el líquido, se comen el alcohol y lo convierten en ácido. Durante milenios eso fue simplemente una desgracia, la señal de que se había echado a perder una cosecha, hasta que alguien se dio cuenta de que el resultado servía para conservar comida. La palabra lo dice sin disimulo: vinagre significa vino agrio.",
     paginas: [
       {
         rotulo: "Comerse el alcohol",
