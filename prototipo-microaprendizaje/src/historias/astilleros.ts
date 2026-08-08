@@ -21,8 +21,42 @@ export const ASTILLEROS: Short[] = [
     categoria: "Astilleros",
     color: "var(--slate)",
     encargo: "Un canal estrecho entre naves de ladrillo con arcos, sin barcos dentro.",
+    fotos: [
+      {
+        archivo: "Vista Arsenale di Venezia - panoramio.jpg",
+        autor: "El Arsenal de Venecia visto desde arriba, con sus naves de ladrillo alineadas junto al canal. Fotografía de Marco Usan.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vista_Arsenale_di_Venezia_-_panoramio.jpg",
+        foco: "50% 42%",
+        alt: "Una hilera larga de naves de ladrillo con arcos a la orilla de un canal, vistas desde lo alto.",
+      },
+      {
+        archivo: "Venice- The entrance to the Arsenal (SM stf144).png",
+        autor: "La entrada del Arsenal de Venecia, fotografía de Carlo Naya, 1875.",
+        licencia: "PDM-owner",
+        fuente: "https://commons.wikimedia.org/wiki/File:Venice-_The_entrance_to_the_Arsenal_(SM_stf144).png",
+        foco: "50% 42%",
+        alt: "Fotografía antigua de una puerta monumental con torres almenadas y leones de mármol delante.",
+      },
+      {
+        archivo: "Cordage chantier de l'Hermione Rochefort sur Mer.jpg",
+        autor: "Cabos ordenados en el astillero donde se reconstruyó la fragata Hermione, en Rochefort. Fotografía de Jebulon.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cordage_chantier_de_l%27Hermione_Rochefort_sur_Mer.jpg",
+        foco: "50% 45%",
+        alt: "Cabos gruesos de fibra enrollados y colgados en orden sobre una pared de madera.",
+      },
+      {
+        archivo: "Arsenale ingresso Venezia notte.jpg",
+        autor: "La puerta del Arsenal de noche. Fotografía de Wolfgang Moroder.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Arsenale_ingresso_Venezia_notte.jpg",
+        foco: "50% 45%",
+        alt: "La portada de piedra del Arsenal iluminada de noche, con el agua del canal delante.",
+      },
+    ],
     entrada:
-      "Venecia, siglos XV y XVI. El astillero de la república es la mayor instalación industrial de Europa, con miles de trabajadores y un recinto amurallado propio. Su fama viene de una capacidad concreta: en momentos de urgencia militar podía botar una galera terminada y equipada en un solo día, algo que dejaba atónitos a los visitantes extranjeros.",
+      "Venecia, siglos XV y XVI. El astillero de la república no es un taller grande: es la mayor instalación industrial de Europa, con miles de trabajadores fijos, un recinto amurallado propio y sus propias leyes dentro. Su fama, sin embargo, no viene del tamaño sino de una capacidad muy concreta que los embajadores extranjeros contaban en sus cartas sin acabar de creérsela. En momentos de urgencia militar, el Arsenal podía botar una galera terminada, armada y aprovisionada en un solo día. Y no era un alarde puntual: se hizo varias veces, delante de testigos, para impresionar a las visitas.",
     paginas: [
       {
         rotulo: "Piezas en almacén",
