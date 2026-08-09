@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const BIBLIOTECAS: Short[] = [
   {
     id: "alejandria-declive",
-    titulo: "Alejandría no ardió de golpe",
+    titulo: "Alejandría no ardió",
     gancho: "No hubo una noche ni un incendio único. Se apagó despacio, por recortes y por descuido.",
     categoria: "Bibliotecas",
     color: "var(--ochre)",
     encargo: "Rollos de papiro amontonados en estantes de madera en penumbra.",
+    fotos: [
+      {
+        archivo: "Ephesus Celsus Library Façade.jpg",
+        autor: "La fachada de la biblioteca de Celso, en Éfeso, siglo II: de la biblioteca solo queda esto. Fotografía de Benh Lieu Song.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ephesus_Celsus_Library_Fa%C3%A7ade.jpg",
+        foco: "50% 32%",
+        alt: "Una fachada de mármol de dos pisos con columnas, frontones partidos y estatuas en las hornacinas.",
+      },
+      {
+        archivo: "Papyrus in Greek regarding tax issues (3rd ca. BC.) (3210586934).jpg",
+        autor: "Papiro griego del siglo III antes de Cristo, de la misma época que la biblioteca. Fotografía de Tilemahos Efthimiadis.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Papyrus_in_Greek_regarding_tax_issues_(3rd_ca._BC.)_(3210586934).jpg",
+        foco: "50% 50%",
+        alt: "Una tira de papiro color miel, rota por los bordes, con ocho renglones de letras griegas en tinta negra.",
+      },
+      {
+        archivo: "Ephesus Library of Celsus Detail inside facade in 2011 3640.jpg",
+        autor: "La cornisa labrada de la biblioteca de Celso, agrietada por dentro. Fotografía de Dosseman.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ephesus_Library_of_Celsus_Detail_inside_facade_in_2011_3640.jpg",
+        foco: "50% 50%",
+        alt: "Un friso de mármol con un águila tallada entre hojas, atravesado por grietas y con piezas partidas.",
+      },
+      {
+        archivo: "Ephesus Library of Celsus Detail of facade in 2011 3634.jpg",
+        autor: "El frontón partido de la fachada, visto desde abajo. Fotografía de Dosseman.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ephesus_Library_of_Celsus_Detail_of_facade_in_2011_3634.jpg",
+        foco: "50% 45%",
+        alt: "Un frontón curvo de piedra labrada con un rostro en el centro, recortado contra un cielo azul.",
+      },
+    ],
     entrada:
-      "Egipto, siglo III antes de Cristo. Los reyes de Alejandría fundan una institución que quiere reunir copias de todos los libros que existen: mandan requisar los rollos de los barcos que atracan en el puerto, los copian y devuelven la copia, quedándose el original. Llegan a juntar varios cientos de miles de textos.",
+      "Egipto, siglo III antes de Cristo. Los reyes de Alejandría fundan una institución con una ambición que hoy suena desmesurada y entonces lo era todavía más: reunir una copia de todos los libros que existen en el mundo. Para conseguirlo no se limitan a comprar. Mandan requisar los rollos que llevan los barcos que atracan en el puerto, los hacen copiar deprisa y devuelven la copia al dueño, quedándose ellos el original. Con ese método y unos cuantos más llegan a juntar varios cientos de miles de textos, y con ellos la mayor concentración de saber escrito del Mediterráneo.",
     paginas: [
       {
         rotulo: "La copia forzosa",
