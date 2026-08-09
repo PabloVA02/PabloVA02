@@ -15,13 +15,47 @@ import type { Short } from "../shorts";
 export const GASOLINERAS: Short[] = [
   {
     id: "la-primera-gasolinera",
-    titulo: "La gasolina se vendía en farmacias",
+    titulo: "Gasolina en la droguería",
     gancho: "Se compraba en latas, como un producto de limpieza, y se volcaba en el depósito con un embudo.",
     categoria: "Historia",
     color: "var(--clay)",
     encargo: "Surtidor antiguo con cilindro de cristal graduado en lo alto, junto a un coche de época.",
+    fotos: [
+      {
+        archivo: "Hungary Fortepan 94719.jpg",
+        autor: "Un surtidor de gasolina en Hungría, 1968. Fortepan.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hungary_Fortepan_94719.jpg",
+        foco: "50% 45%",
+        alt: "Un surtidor rojo y blanco con la manguera enrollada en el suelo, ante una estación de líneas rectas.",
+      },
+      {
+        archivo: "1913 Ford T pic1.JPG",
+        autor: "Un Ford T de 1913, de los coches que había que llenar a mano con latas y un embudo. Fotografía de Alf van Beem.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:1913_Ford_T_pic1.JPG",
+        foco: "50% 45%",
+        alt: "Un automóvil antiguo granate con radiador de latón, capota de lona y ruedas de radios de madera.",
+      },
+      {
+        archivo: "FtLauderdaleAntiqueCarMusuemAug08GasPumpsPackardParts.jpg",
+        autor: "Dos surtidores antiguos con el cilindro de cristal graduado a la vista. Museo del Automóvil de Fort Lauderdale. Fotografía de Infrogmation.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:FtLauderdaleAntiqueCarMusuemAug08GasPumpsPackardParts.jpg",
+        foco: "50% 55%",
+        alt: "Dos columnas rojas rematadas por un cilindro de cristal con marcas de litros, con mangueras colgando.",
+      },
+      {
+        archivo: "DZ6 2617 Empty Shell station at night - bright lights and clean pumps ready for early-morning customers. (55017570203).jpg",
+        autor: "Una estación de servicio vacía de madrugada. Fotografía de PattayaPatrol.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DZ6_2617_Empty_Shell_station_at_night_-_bright_lights_and_clean_pumps_ready_for_early-morning_customers._(55017570203).jpg",
+        foco: "50% 62%",
+        alt: "Una marquesina iluminada sobre varias islas de surtidores en una explanada vacía por la noche.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1905. Hay ya decenas de miles de automóviles circulando por el país y no existe todavía ni un solo sitio pensado para llenarlos. La gasolina se compra en latas, en droguerías y en ferreterías, y se vuelca en el depósito con un embudo. Aquel año abre en una ciudad del medio oeste el primer local dedicado únicamente a despachar combustible.",
+      "Estados Unidos, 1905. Hay ya decenas de miles de automóviles circulando por el país y no existe todavía ni un solo sitio pensado para llenarlos. Nadie ha construido nunca uno porque a nadie se le ha ocurrido que haga falta: la gasolina se compra en latas, en droguerías, en farmacias y en ferreterías, junto a los productos de limpieza, y se vuelca en el depósito con un embudo en mitad de la calle. Aquel año abre en una ciudad del medio oeste el primer local dedicado únicamente a despachar combustible, y con él empieza a inventarse todo lo demás.",
     paginas: [
       {
         rotulo: "Latas y embudos",
