@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const CEPILLO_DE_DIENTES: Short[] = [
   {
     id: "el-pelo-de-cerdo",
-    titulo: "El cepillo, de pelo de cerdo",
+    titulo: "El cepillo era de cerdo",
     gancho: "Se arrancaba del cuello del animal, se pudría dentro de la boca y era lo mejor que había hasta 1938.",
     categoria: "Objetos",
     color: "var(--clay)",
     encargo: "Cepillo antiguo de mango de hueso con las cerdas naturales muy abiertas.",
+    fotos: [
+      {
+        archivo: "Silver toothbrush set, Birmingham, England, 1793 Wellcome L0058115.jpg",
+        autor: "Cepillo de dientes de plata con cerdas naturales y su estuche de piel, Birmingham, 1793. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Silver_toothbrush_set,_Birmingham,_England,_1793_Wellcome_L0058115.jpg",
+        foco: "50% 30%",
+        alt: "Un cepillo antiguo de mango de plata con cerdas amarillentas, saliendo de un estuche rojo, sobre fondo negro.",
+      },
+      {
+        archivo: "Inkognito. - Flickr - simon berger.jpg",
+        autor: "Un cerdo dormido, con la cerda del lomo y del cuello a la vista. Fotografía de Simon Berger.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Inkognito._-_Flickr_-_simon_berger.jpg",
+        foco: "50% 60%",
+        alt: "Un cerdo blanco y negro tumbado sobre serrín, con el pelo áspero del lomo iluminado a contraluz.",
+      },
+      {
+        archivo: "A Toothbrush.JPG",
+        autor: "Un cepillo moderno de mango translúcido y filamentos de nailon. Fotografía de Dwight Burdette.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_Toothbrush.JPG",
+        foco: "50% 50%",
+        alt: "Un cepillo de dientes verde transparente tumbado sobre fondo blanco, con las cerdas blancas rectas.",
+      },
+      {
+        archivo: "Colorful toothbrush.jpg",
+        autor: "Tres cepillos usados en un vaso. Fotografía de Gausanchennai.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Colorful_toothbrush.jpg",
+        foco: "50% 30%",
+        alt: "Tres cepillos de dientes con las cerdas abiertas y gastadas, asomando de un vaso naranja.",
+      },
+    ],
     entrada:
-      "China, siglo XV, y Europa a partir del XVIII. El primer cepillo con cerdas parecido al actual se fabricaba clavando pelo de cerdo en un mango de hueso o de bambú. Ese pelo era la única fibra disponible con la rigidez adecuada, y tenía dos problemas graves. Absorbe agua, así que se reblandece y se pudre, y además guarda bacterias dentro de su propio hueco.",
+      "China, siglo XV, y Europa a partir del XVIII. El primer cepillo con cerdas parecido al que usamos hoy se fabricaba clavando a mano pelo de cerdo en un mango de hueso, de marfil o de bambú, agujero a agujero. Ese pelo no se eligió por gusto: era la única fibra disponible en el mundo con la rigidez adecuada para arrastrar la suciedad sin destrozar la encía. Y tenía dos problemas graves que nadie supo resolver durante siglos. Absorbe agua, así que se reblandece y se acaba pudriendo, y guarda bacterias dentro de su propio hueco.",
     paginas: [
       {
         rotulo: "Pelo de cuello",
