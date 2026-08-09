@@ -15,13 +15,47 @@ import type { Short } from "../shorts";
 export const ROTONDAS: Short[] = [
   {
     id: "por-que-son-mas-seguras",
-    titulo: "La rotonda es más segura por una razón geométrica",
+    titulo: "El cruce más seguro",
     gancho: "En un cruce normal hay treinta y dos puntos donde dos coches pueden chocar. En una rotonda hay ocho, y ninguno es frontal.",
     categoria: "Ciudades",
     color: "var(--slate)",
     encargo: "Rotonda vista desde el aire con los coches trazando la curva.",
+    fotos: [
+      {
+        archivo: "Drone view of roundabout (Unsplash).jpg",
+        autor: "Una rotonda vista desde arriba, con los coches trazando la curva. Fotografía de Enrapture Media.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Drone_view_of_roundabout_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Vista cenital de una rotonda ajardinada con cuatro isletas verdes y coches girando alrededor.",
+      },
+      {
+        archivo: "Roundabout interchange.jpg",
+        autor: "Un enlace en rotonda sobre una autovía, visto desde arriba. Fotografía de Petar Milošević.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Roundabout_interchange.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía cenital en blanco y negro de un anillo de asfalto que cruza por encima de una autopista recta.",
+      },
+      {
+        archivo: "Magic Roundabout, Swindon.jpg",
+        autor: "La llamada rotonda mágica de Swindon: cinco minirrotondas alrededor de una sexta. Fotografía de SP13.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Magic_Roundabout,_Swindon.jpg",
+        foco: "50% 55%",
+        alt: "Panorámica de una explanada de asfalto enorme con varias isletas y coches entrando por todos lados.",
+      },
+      {
+        archivo: "Roundabout September 2014 12.jpg",
+        autor: "Una rotonda pequeña de barrio, con dos coches dentro. Fotografía de Arild Vågen.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Roundabout_September_2014_12.jpg",
+        foco: "50% 50%",
+        alt: "Una rotonda modesta rodeada de césped y árboles de otoño, con pasos de cebra en cada entrada.",
+      },
+    ],
     entrada:
-      "Reino Unido, 1966. Hasta ese año las glorietas funcionaban mal, porque el que entraba tenía preferencia y se llenaban hasta bloquearse. Aquel año el país cambió la norma y dio la preferencia al que ya está dentro. Con ese cambio de una sola línea, la rotonda pasó de ser un estorbo a ser el cruce más seguro que existe.",
+      "Reino Unido, 1966. Las glorietas existen desde hace décadas y funcionan francamente mal: el que entra tiene preferencia, así que en cuanto hay tráfico la rotonda se llena de coches que no pueden salir y se bloquea entera. En varios países se estaban desmontando por inútiles. Aquel año el Reino Unido cambia la norma y hace lo contrario: la preferencia pasa a ser de quien ya está dentro. Con ese cambio de una sola línea en el código de circulación, sin tocar una piedra, la rotonda pasó de ser un estorbo a ser el cruce más seguro que existe.",
     paginas: [
       {
         rotulo: "Puntos de choque",
