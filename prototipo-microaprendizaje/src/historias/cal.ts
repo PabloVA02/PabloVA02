@@ -20,8 +20,42 @@ export const CAL: Short[] = [
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Balsa de cal apagándose, con la pasta blanca borboteando y humeando.",
+    fotos: [
+      {
+        archivo: "Flowers and Whitewashed Buildings in Mykonos, 2024.jpg",
+        autor: "Casas encaladas en Mykonos. Fotografía de Julian Lupyan.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Flowers_and_Whitewashed_Buildings_in_Mykonos,_2024.jpg",
+        foco: "50% 40%",
+        alt: "Fachadas blanquísimas de cal con contraventanas rojas y verdes, buganvilla en flor y cielo azul.",
+      },
+      {
+        archivo: "Calcium oxide powder.JPG",
+        autor: "Óxido de calcio, la cal viva que sale del horno. Fotografía de Leiem.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Calcium_oxide_powder.JPG",
+        foco: "50% 45%",
+        alt: "Un montón de polvo blanco y terrones sobre un vidrio de reloj redondo.",
+      },
+      {
+        archivo: "Wall painting - idyllic landscape with sarcophagus of Osiris - Pompeii (VIII 7 28 - sanctuary of Isis - ekklesiasterion) - Napoli MAN 8570 - 01.jpg",
+        autor: "Pintura mural de Pompeya, hecha sobre el revoco de cal todavía fresco. Fotografía de ArchaiOptix.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wall_painting_-_idyllic_landscape_with_sarcophagus_of_Osiris_-_Pompeii_(VIII_7_28_-_sanctuary_of_Isis_-_ekklesiasterion)_-_Napoli_MAN_8570_-_01.jpg",
+        foco: "50% 45%",
+        alt: "Un fresco romano con un templete entre árboles, pintado en azules, ocres y rosas sobre el muro.",
+      },
+      {
+        archivo: "Lime residue thermal water Katlanovo spa 1.jpg",
+        autor: "Costra de cal arrancada de las tuberías de un balneario termal, en Macedonia del Norte. Fotografía de kallerna.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lime_residue_thermal_water_Katlanovo_spa_1.jpg",
+        foco: "50% 45%",
+        alt: "Placas rotas de cal endurecida, blancas y anaranjadas, con el interior fibroso como un coral.",
+      },
+    ],
     entrada:
-      "Todo el Mediterráneo, desde hace al menos siete mil años. La cal es el primer material que el ser humano fabricó transformando químicamente una piedra, mucho antes de saber una palabra de química. El truco consiste en quemar caliza a temperatura alta, y lo asombroso es lo que ocurre después: el material se puede extender como una pasta y luego se endurece hasta volver a ser piedra.",
+      "Todo el Mediterráneo, desde hace al menos siete mil años. La cal es el primer material que el ser humano fabricó transformando químicamente una piedra, y lo hizo miles de años antes de saber una sola palabra de química. El procedimiento es sencillo de describir y durísimo de ejecutar: quemar caliza durante días a temperatura muy alta. Lo asombroso viene después, cuando el resultado se apaga con agua y se convierte en una pasta que se puede extender con la mano en una pared. Porque esa pasta, con el tiempo, vuelve a endurecerse hasta ser la misma piedra del principio.",
     paginas: [
       {
         rotulo: "Cocer y apagar",
