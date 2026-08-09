@@ -16,14 +16,48 @@ import type { Short } from "../shorts";
 export const ROBOTS: Short[] = [
   {
     id: "la-palabra-robot",
-    titulo: "La palabra robot nació en el teatro",
+    titulo: "Robot nació en un teatro",
     gancho: "La escribió un dramaturgo checo en 1920, y viene de una palabra que significa trabajo forzado.",
     categoria: "Robots",
     color: "var(--plum)",
     curioso: true,
     encargo: "Un escenario de teatro antiguo vacío con un foco encendido.",
+    fotos: [
+      {
+        archivo: "Narodni Divadlo, National Theater, Prague - 8779.jpg",
+        autor: "Los palcos del Teatro Nacional de Praga. Fotografía de Jorge Royan.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Narodni_Divadlo,_National_Theater,_Prague_-_8779.jpg",
+        foco: "50% 45%",
+        alt: "Palcos vacíos de un teatro con butacas de terciopelo granate, columnas blancas y molduras doradas.",
+      },
+      {
+        archivo: "Glasabstapeln durch Roboter.jpg",
+        autor: "Un robot apilando planchas de vidrio a la salida de la cinta transportadora. Fotografía del grupo Grenzebach.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Glasabstapeln_durch_Roboter.jpg",
+        foco: "50% 45%",
+        alt: "Un brazo mecánico con ventosas levantando una plancha grande de vidrio en una nave industrial.",
+      },
+      {
+        archivo: "Narodni Divadlo, Estates Theater, Prague - 8638.jpg",
+        autor: "Las butacas del Teatro de los Estados de Praga, vistas desde arriba. Fotografía de Jorge Royan.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Narodni_Divadlo,_Estates_Theater,_Prague_-_8638.jpg",
+        foco: "50% 50%",
+        alt: "Cientos de butacas idénticas vistas desde lo alto, formando una retícula que llena toda la imagen.",
+      },
+      {
+        archivo: "Bras robotisés.jpg",
+        autor: "Brazos robóticos industriales en vitrinas iluminadas. Fotografía de Gzen92.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bras_robotis%C3%A9s.jpg",
+        foco: "50% 45%",
+        alt: "Tres brazos mecánicos blancos articulados dentro de cajas de cristal con luz azul.",
+      },
+    ],
     entrada:
-      "Praga, 1920. Un dramaturgo checo estrena una obra sobre una fábrica que produce trabajadores artificiales de carne sintética, fabricados para hacer las tareas que los humanos no quieren. La obra se traduce a treinta idiomas en pocos años y con ella viaja una palabra nueva que no existía antes en ninguna lengua y que hoy usa todo el mundo.",
+      "Praga, 1920. Un dramaturgo checo estrena una obra sobre una fábrica situada en una isla que produce trabajadores artificiales de carne sintética, fabricados en serie para hacer las tareas que los humanos no quieren hacer. La obra funciona: se traduce a treinta idiomas en pocos años y se representa desde Nueva York hasta Tokio. Y con ella viaja una palabra nueva, que no existía antes en ninguna lengua del mundo y que hoy usa todo el planeta sin saber de dónde salió ni lo que significaba en realidad.",
     paginas: [
       {
         rotulo: "El nombre",
