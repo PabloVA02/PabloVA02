@@ -20,8 +20,42 @@ export const BOTICARIOS: Short[] = [
     categoria: "Historia",
     color: "var(--clay)",
     encargo: "Interior de botica antigua con las paredes de botes de cerámica rotulados en latín.",
+    fotos: [
+      {
+        archivo: "Albarello drug jar used for cinchona bark, Spain, 1731-1770 Wellcome L0057419.jpg",
+        autor: "Bote de botica español del siglo XVIII para corteza de quina, rotulado «Cort. Calisay». Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Albarello_drug_jar_used_for_cinchona_bark,_Spain,_1731-1770_Wellcome_L0057419.jpg",
+        foco: "50% 45%",
+        alt: "Un bote de cerámica blanca con guirnaldas pintadas y una cartela con el nombre del contenido en latín.",
+      },
+      {
+        archivo: "Bronze mortar and pestle, European, 18th century Wellcome L0057078.jpg",
+        autor: "Mortero y mano de bronce europeos del siglo XVIII. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bronze_mortar_and_pestle,_European,_18th_century_Wellcome_L0057078.jpg",
+        foco: "50% 50%",
+        alt: "Un mortero de bronce oscuro con la mano apoyada al lado, sobre fondo negro.",
+      },
+      {
+        archivo: "Thériaque - musée HCL - pot canon - pharmacie à l'Hôtel-Dieu.jpg",
+        autor: "Bote de triaca de la farmacia del Hôtel-Dieu de Lyon. Fotografía de Aurélie Troccon y Manon Mauquin.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Th%C3%A9riaque_-_mus%C3%A9e_HCL_-_pot_canon_-_pharmacie_%C3%A0_l%27H%C3%B4tel-Dieu.jpg",
+        foco: "50% 45%",
+        alt: "Un tarro cilíndrico de cerámica pintada con el nombre del preparado escrito en la panza.",
+      },
+      {
+        archivo: "Farmacia di santa maria novella, sala dell'antica spezieria, 01.jpg",
+        autor: "La antigua botica de Santa Maria Novella, en Florencia. Fotografía de Francesco Bini.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Farmacia_di_santa_maria_novella,_sala_dell%27antica_spezieria,_01.jpg",
+        foco: "50% 20%",
+        alt: "El techo de estuco blanco y dorado de una botica antigua sobre vitrinas de madera oscura.",
+      },
+    ],
     entrada:
-      "Europa, siglos XIII a XVIII. Una botica era una tienda con las paredes cubiertas de cajones y de botes de cerámica rotulados en latín. Dentro había raíces secas, minerales molidos, grasas animales, especias y unos cuantos venenos, todo junto. El boticario no era un vendedor: era un artesano que fabricaba cada preparado a mano y a petición del médico.",
+      "Europa, siglos XIII a XVIII. Una botica era una tienda pequeña con las paredes cubiertas de cajones y de botes de cerámica rotulados en latín, y con un olor que se recordaba toda la vida. Dentro de aquellos botes había raíces secas, minerales molidos, grasas animales, especias caras, resinas, azúcar y unos cuantos venenos, todo en la misma habitación y muchas veces en el mismo estante. El boticario no era un vendedor que despachaba cajas: era un artesano que fabricaba cada preparado a mano, uno a uno, a petición del médico y delante del cliente.",
     paginas: [
       {
         rotulo: "Botes y mortero",
