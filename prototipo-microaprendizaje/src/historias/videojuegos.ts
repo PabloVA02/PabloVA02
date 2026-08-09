@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const VIDEOJUEGOS: Short[] = [
   {
     id: "tetris-moscu",
-    titulo: "El creador de Tetris no cobró en diez años",
+    titulo: "Tetris no era suyo",
     gancho: "Lo programó en un instituto estatal soviético, así que el juego era del Estado y no suyo.",
     categoria: "Videojuegos",
     color: "var(--plum)",
     encargo: "Piezas geométricas de colores cayendo sobre un fondo oscuro cuadriculado.",
+    fotos: [
+      {
+        archivo: "1986 year. 5¼-inch floppy disks.jpg",
+        autor: "Disquetes de cinco pulgadas y cuarto, de 1986. Fotografía de Dmitry Makeev.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:1986_year._5%C2%BC-inch_floppy_disks.jpg",
+        foco: "50% 50%",
+        alt: "Dos disquetes negros cuadrados vistos por las dos caras, uno con la etiqueta impresa y el otro liso.",
+      },
+      {
+        archivo: "Moscow Hammond Slides 63.jpg",
+        autor: "La plaza Roja de Moscú nevada, en 1964. Fotografía de Thomas T. Hammond.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Moscow_Hammond_Slides_63.jpg",
+        foco: "50% 40%",
+        alt: "Una plaza cubierta de nieve ante la muralla del Kremlin, con una cola larguísima de gente al fondo.",
+      },
+      {
+        archivo: "Nintendo-Game-Boy-Advance-Rose-Colored-Gaming-Original-Game-Boy.jpg",
+        autor: "Una consola portátil de Nintendo, del tipo por cuyos derechos se peleó medio sector. Fotografía de Evan-Amos.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Advance-Rose-Colored-Gaming-Original-Game-Boy.jpg",
+        foco: "50% 45%",
+        alt: "Una consola portátil de color hueso con pantalla cuadrada, cruceta y dos botones rojos, sobre fondo blanco.",
+      },
+      {
+        archivo: "Handheld game consoles at The Village Barber.jpg",
+        autor: "Consolas portátiles amontonadas en el estante de una barbería. Fotografía de Tessa Bury.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Handheld_game_consoles_at_The_Village_Barber.jpg",
+        foco: "50% 45%",
+        alt: "Media docena de consolas portátiles de colores apoyadas unas sobre otras en una balda de madera.",
+      },
+    ],
     entrada:
-      "Moscú, junio de 1984. Un informático de veintinueve años que trabaja en un instituto de la Academia de Ciencias soviética programa en sus ratos libres un juego de piezas que caen y hay que encajar. Lo hace en un ordenador que no tiene ni gráficos: las piezas se dibujan con caracteres de texto. Lo copia en un disquete y se lo pasa a un compañero.",
+      "Moscú, junio de 1984. Un informático de veintinueve años que trabaja en un instituto de la Academia de Ciencias soviética programa en sus ratos libres un juego de piezas que caen y hay que encajar unas con otras. Lo hace en un ordenador que ni siquiera tiene gráficos: las piezas se dibujan con caracteres de texto, corchetes y barras. No hay tienda donde venderlo ni empresa a la que enseñárselo, así que hace lo único que se puede hacer allí en 1984: lo copia en un disquete y se lo pasa a un compañero de pasillo.",
     paginas: [
       {
         rotulo: "La copia",
