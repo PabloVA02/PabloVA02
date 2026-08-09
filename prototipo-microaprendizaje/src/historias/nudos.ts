@@ -14,13 +14,47 @@ import type { Short } from "../shorts";
 export const NUDOS: Short[] = [
   {
     id: "el-nudo-que-aprieta-solo",
-    titulo: "Aprieta más cuanto más tiras",
+    titulo: "Aprieta cuanto más tiras",
     gancho: "La cuerda no sujeta por ser fuerte, sino por cómo se dobla sobre sí misma. Y ahí mismo está su punto débil.",
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Primer plano de un as de guía hecho con cabo grueso de barco, muy tensado.",
+    fotos: [
+      {
+        archivo: "A colorful knot on a boat.jpg",
+        autor: "Un nudo hecho con cabo trenzado de colores, amarrado en una embarcación. Fotografía de Goose Green Photography.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_colorful_knot_on_a_boat.jpg",
+        foco: "50% 45%",
+        alt: "Un nudo apretado de cuerda amarilla, roja y negra sobre el borde azul de una barca, con el chicote deshilachado.",
+      },
+      {
+        archivo: "2010-365-315 Not Tied (5168145497).jpg",
+        autor: "Una cuerda anudada alrededor del tronco de un árbol. Fotografía de Alan Levine.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2010-365-315_Not_Tied_(5168145497).jpg",
+        foco: "50% 45%",
+        alt: "Primer plano en blanco y negro de una cuerda que se cruza sobre sí misma contra la corteza de un árbol.",
+      },
+      {
+        archivo: "Double Figure-Eight Loop.jpg",
+        autor: "Un nudo de ocho doble, de los que se usan en escalada. Fotografía de Arbitrarily0.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Double_Figure-Eight_Loop.jpg",
+        foco: "50% 50%",
+        alt: "Un nudo grueso hecho con cordino azul y negro, con dos gazas abiertas, sobre una mesa de madera clara.",
+      },
+      {
+        archivo: "A knot on a winter boot.jpg",
+        autor: "El nudo de un cordón de bota. Fotografía de Goose Green Photography.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_knot_on_a_winter_boot.jpg",
+        foco: "50% 45%",
+        alt: "Primer plano de un lazo de cordón gris con herretes metálicos sobre el cuero de una bota.",
+      },
+    ],
     entrada:
-      "En cualquier puerto y en cualquier obra, desde hace por lo menos quince mil años. Un nudo no es un enredo: es una máquina hecha de cuerda, con piezas que se llaman senos, cocas y chicotes, y que hace un trabajo concreto. Los buenos comparten una propiedad que parece contradictoria, porque cuanto más se tira de ellos más apretados quedan y menos posibilidades hay de que se suelten.",
+      "En cualquier puerto y en cualquier obra, desde hace por lo menos quince mil años. Un nudo no es un enredo ni una chapuza: es una máquina hecha de cuerda, con piezas que tienen nombre propio —senos, cocas, chicotes— y que hace un trabajo concreto y previsible. Hay cientos catalogados, cada uno bueno para una cosa y peligroso para otra. Y los que de verdad funcionan comparten una propiedad que suena a contradicción: cuanto más fuerte se tira de ellos, más apretados quedan y menos posibilidades hay de que se suelten. Entender por qué explica también cómo se rompen.",
     paginas: [
       {
         rotulo: "Cómo agarra",
