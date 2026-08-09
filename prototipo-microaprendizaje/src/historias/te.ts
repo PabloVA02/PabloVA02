@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const TE: Short[] = [
   {
     id: "robo-del-te",
-    titulo: "Robaron el té a China disfrazados de chinos",
+    titulo: "Robaron el té a China",
     gancho: "Un botánico escocés se afeitó media cabeza, se puso una coleta postiza y entró en las montañas.",
     categoria: "Té",
     color: "var(--ochre)",
     encargo: "Una ladera con terrazas de arbustos de té entre la niebla de la mañana.",
+    fotos: [
+      {
+        archivo: "Scenic Tea Plantation.jpg",
+        autor: "Laderas de té al amanecer, entre la niebla. Fotografía de Hayleys Plantations.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Scenic_Tea_Plantation.jpg",
+        foco: "50% 55%",
+        alt: "Colinas cubiertas de arbustos de té recortadas por la niebla, bajo un cielo naranja de amanecer.",
+      },
+      {
+        archivo: "KITLV - 110104 - Landscape in China - circa 1871.tif",
+        autor: "Las montañas de Wuyi, en Fujian, de donde salía el mejor té negro. Fotografía de hacia 1871.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:KITLV_-_110104_-_Landscape_in_China_-_circa_1871.tif",
+        foco: "50% 45%",
+        alt: "Fotografía antigua en sepia de dos farallones de roca a los lados del cauce seco de un río.",
+      },
+      {
+        archivo: "London - Kew Gardens - Glasshouse Walkway - View SSE on Palm House 1848 by Decimus Burton & Richard Turner.jpg",
+        autor: "El Palm House de Kew, de 1848: las cajas que llevaron el té a la India eran invernaderos como este, en miniatura. Fotografía de Txllxt TxllxT.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:London_-_Kew_Gardens_-_Glasshouse_Walkway_-_View_SSE_on_Palm_House_1848_by_Decimus_Burton_%26_Richard_Turner.jpg",
+        foco: "50% 45%",
+        alt: "Un invernadero curvo de vidrio y hierro blanco reflejado en un estanque, entre parterres.",
+      },
+      {
+        archivo: "Tea Leaves. Also known as \"Camellia Sinensis\".jpg",
+        autor: "Hojas de Camellia sinensis, el arbusto del que salen todos los tés. Fotografía de Vicky Omondi.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tea_Leaves._Also_known_as_%22Camellia_Sinensis%22.jpg",
+        foco: "50% 45%",
+        alt: "Brotes tiernos de hojas verdes y dentadas en la punta de una rama de té.",
+      },
+    ],
     entrada:
-      "China, 1848. Una compañía comercial británica encarga a un botánico escocés una misión muy concreta: entrar en las zonas prohibidas a los extranjeros, averiguar cómo se cultiva y se procesa el té y sacar de allí plantas y semillas para llevarlas a la India. El té solo se produce en China, y ese desequilibrio comercial está arruinando a los británicos.",
+      "China, 1848. Una compañía comercial británica encarga a un botánico escocés una misión que hoy llamaríamos sin rodeos espionaje industrial: entrar en las zonas del interior prohibidas a los extranjeros, averiguar cómo se cultiva y se procesa el té, y sacar de allí plantas vivas, semillas y, si puede, operarios que sepan hacerlo, para montar el negocio en la India. El motivo es puramente contable. El té solo se produce en China, Gran Bretaña se lo bebe entero y ese desequilibrio comercial se está pagando con plata y con opio.",
     paginas: [
       {
         rotulo: "El disfraz",
