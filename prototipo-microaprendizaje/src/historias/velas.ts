@@ -16,13 +16,48 @@ import type { Short } from "../shorts";
 export const VELAS: Short[] = [
   {
     id: "vela-de-sebo",
-    titulo: "Las velas corrientes olían a grasa quemada",
+    titulo: "Las velas eran de sebo",
     gancho: "Se hacían con sebo de vaca, chisporroteaban y había que cortarles la mecha cada pocos minutos.",
     categoria: "Velas",
     color: "var(--ochre)",
     encargo: "Una vela gruesa de sebo con la mecha larga y negra, humeando.",
+    fotos: [
+      {
+        archivo: "Georges de La Tour 006.jpg",
+        autor: "La Magdalena penitente, óleo de Georges de La Tour, hacia 1638: una habitación entera alumbrada por una sola llama.",
+        licencia: "Dominio público",
+        pdPorEdad: 1652,
+        fuente: "https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour_006.jpg",
+        foco: "50% 28%",
+        alt: "Una mujer sentada en penumbra ante un espejo y una calavera, iluminada por la llama de una vela escondida detrás.",
+      },
+      {
+        archivo: "Three Persons Viewing the Gladiator by Candlelight Met DP-18854-001.jpg",
+        autor: "Tres personas contemplando una estatua a la luz de una vela, grabado de William Pether, 1769. Metropolitan Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Three_Persons_Viewing_the_Gladiator_by_Candlelight_Met_DP-18854-001.jpg",
+        foco: "50% 35%",
+        alt: "Tres figuras inclinadas alrededor de una estatuilla, con las caras iluminadas por una vela y el resto en negro.",
+      },
+      {
+        archivo: "Snuffer and wick trimmer (51360098113).jpg",
+        autor: "Despabiladeras y apagavelas de latón: las tijeras cortan la mecha y la caja recoge el trozo. Auckland Museum.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Snuffer_and_wick_trimmer_(51360098113).jpg",
+        foco: "50% 50%",
+        alt: "Unas tijeras de latón con una cajita en la hoja, junto a un apagavelas cónico del mismo metal.",
+      },
+      {
+        archivo: "Candle in Paris.jpg",
+        autor: "Una vela encendida en un candelero de iglesia, en París. Fotografía de Barbara-Ingeborg.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Candle_in_Paris.jpg",
+        foco: "50% 45%",
+        alt: "Una velita encendida sobre una rejilla de hierro, con la llama reflejada en la cera derretida.",
+      },
+    ],
     entrada:
-      "Europa, siglos XIV a XIX. Una casa corriente se alumbra con velas de sebo, es decir, de grasa animal fundida, que son las baratas. Las de cera de abeja, que arden limpias y huelen bien, cuestan varias veces más y quedan para las iglesias y para las casas ricas. La diferencia entre unas y otras marca de un vistazo la posición de quien vive allí.",
+      "Europa, siglos XIV a XIX. Una casa corriente se alumbra con velas de sebo, es decir, de grasa animal fundida, que son las baratas y las que hay en todas partes. Las de cera de abeja arden limpias, no gotean apenas y huelen bien, pero cuestan varias veces más y quedan para las iglesias, los palacios y las casas ricas. La diferencia entre unas y otras no es un detalle de comodidad: se nota al entrar por la puerta, en el olor y en el color del techo, y marca de un vistazo la posición de quien vive allí.",
     paginas: [
       {
         rotulo: "El sebo",
