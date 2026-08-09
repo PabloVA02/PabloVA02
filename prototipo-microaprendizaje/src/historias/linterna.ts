@@ -17,13 +17,47 @@ import type { Short } from "../shorts";
 export const LINTERNA: Short[] = [
   {
     id: "el-destello",
-    titulo: "La linterna solo daba destellos",
+    titulo: "Solo daba destellos",
     gancho: "Las pilas de 1899 se agotaban en minutos. Había que encenderla a ratitos, y de ahí le viene el nombre.",
     categoria: "Linterna",
     color: "var(--slate)",
     encargo: "Una linterna de tubo de carton de 1900 con la bombilla y la pila a la vista.",
+    fotos: [
+      {
+        archivo: "Gare Montparnasse marchande de lampes électriques, PH43271.jpg",
+        autor: "Un puesto de lámparas y pilas eléctricas de bolsillo en la estación de Montparnasse, París, entre 1915 y 1918.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gare_Montparnasse_marchande_de_lampes_%C3%A9lectriques,_PH43271.jpg",
+        foco: "50% 45%",
+        alt: "Un puesto callejero con cajas de linternas y pilas, y un cartel pintado a mano con un haz de luz.",
+      },
+      {
+        archivo: "General Electric drawn (ductile) tungsten filament incandescent bulb, c. 1911 (NMAH EM.318637).jpg",
+        autor: "Una bombilla incandescente de filamento de hacia 1911. National Museum of American History.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:General_Electric_drawn_(ductile)_tungsten_filament_incandescent_bulb,_c._1911_(NMAH_EM.318637).jpg",
+        foco: "50% 45%",
+        alt: "Una bombilla antigua de vidrio soplado con el filamento montado en una araña de alambres finos.",
+      },
+      {
+        archivo: "Miner's helmet with carbide lamp.jpg",
+        autor: "Casco de minero con lámpara de carburo, hacia 1940: otro de los oficios que compraron linternas en cuanto pudieron. Fotografía de Jim Heaphy.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Miner%27s_helmet_with_carbide_lamp.jpg",
+        foco: "50% 35%",
+        alt: "Un casco de minero muy gastado con una lámpara de latón sujeta al frente.",
+      },
+      {
+        archivo: "Black Diamond Historical Museum - flashlights 01.jpg",
+        autor: "Linternas antiguas alineadas en una vitrina de museo. Fotografía de Joe Mabel.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Black_Diamond_Historical_Museum_-_flashlights_01.jpg",
+        foco: "50% 50%",
+        alt: "Media docena de linternas de metal y baquelita con reflectores cromados, puestas en fila.",
+      },
+    ],
     entrada:
-      "Nueva York, 1899. La bombilla eléctrica lleva veinte años funcionando en las casas de las ciudades ricas, pero siempre enchufada a una instalación fija, con su cable y su contador. Para llevar luz en la mano solo hay velas y lámparas de aceite, que se apagan con el viento y gotean. En un establo o en una mina, además, prenden fuego a lo que tocan y son un peligro serio. Ese año, un fabricante junta por primera vez una bombilla pequeña y una pila seca dentro de un tubo de cartón.",
+      "Nueva York, 1899. La bombilla eléctrica lleva veinte años funcionando en las casas de las ciudades ricas, pero siempre enchufada a una instalación fija, con su cable y su contador: la luz eléctrica es algo que está en un sitio, no algo que se lleva encima. Para llevar luz en la mano solo hay velas y lámparas de aceite, que se apagan con el viento, gotean y hay que proteger con un cristal. En un establo, en un barco o en una mina son además un peligro serio, porque prenden fuego a lo que tocan. Ese año, un fabricante mete por primera vez una bombilla pequeña y una pila seca dentro de un tubo de cartón.",
     paginas: [
       {
         rotulo: "A ratitos",
