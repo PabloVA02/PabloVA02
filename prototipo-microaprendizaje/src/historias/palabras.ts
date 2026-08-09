@@ -21,13 +21,47 @@ import type { Short } from "../shorts";
 export const PALABRAS: Short[] = [
   {
     id: "salario-sal",
-    titulo: "La sal que nadie ha demostrado",
+    titulo: "Nadie cobró en sal",
     gancho: "A los legionarios les pagaban en monedas. Lo de la sal es más resbaladizo.",
     categoria: "Palabras",
     color: "var(--ochre)",
     encargo: "Sal marina gruesa amontonada, luz lateral, granos bien definidos.",
+    fotos: [
+      {
+        archivo: "Bolivian rose salt.jpg",
+        autor: "Cristales de sal gruesa, de hasta cinco milímetros. Fotografía de Ivar Leidus.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bolivian_rose_salt.jpg",
+        foco: "50% 50%",
+        alt: "Un montón de cristales de sal traslúcidos, blancos y rosados, iluminados de lado sobre fondo negro.",
+      },
+      {
+        archivo: "Roman coin, Denarius of Augustus (FindID 804163).jpg",
+        autor: "Un denario romano de plata de época de Augusto, por las dos caras. Portable Antiquities Scheme.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Roman_coin,_Denarius_of_Augustus_(FindID_804163).jpg",
+        foco: "50% 32%",
+        alt: "Las dos caras de una moneda de plata gastada, con un perfil masculino en una y dos figuras en la otra.",
+      },
+      {
+        archivo: "Salt pans at Żonqor Point 06.jpg",
+        autor: "Salinas excavadas en la roca en Żonqor Point, Malta. Fotografía de Kritzolina.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Salt_pans_at_%C5%BBonqor_Point_06.jpg",
+        foco: "50% 45%",
+        alt: "Balsas poco profundas talladas en la piedra caliza junto al mar, con agua quieta dentro.",
+      },
+      {
+        archivo: "Salt Pans of Tuticorin 1.jpg",
+        autor: "Salinas de Tuticorin, en el sur de la India, con los montones de sal recogida. Fotografía de Rangan Datta.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Salt_Pans_of_Tuticorin_1.jpg",
+        foco: "50% 50%",
+        alt: "Una llanura de balsas de evaporación con montones blancos de sal recortados contra un cielo gris.",
+      },
+    ],
     entrada:
-      "La explicación se cuenta en todas partes: los soldados romanos cobraban en sal, la sal era carísima, de ahí sale «salario» y de ahí que alguien «valga su sal». Es corta, memorable y encaja con la palabra latina, que efectivamente es <em>salarium</em>, de <em>sal</em>. Pero cuando se va a buscar el pago en sal a las fuentes romanas, el pago no aparece.",
+      "La explicación se cuenta en todas partes, en los libros de curiosidades y en las clases de latín: los soldados romanos cobraban en sal, la sal era carísima, de ahí sale «salario» y de ahí que en inglés se diga que alguien «vale su sal». Es corta, es memorable y encaja perfectamente con la palabra latina, que efectivamente es <em>salarium</em> y viene de <em>sal</em>. El problema aparece cuando uno va a buscar ese pago en sal a las fuentes romanas, que están bastante bien conservadas en lo que a sueldos militares se refiere. El pago no aparece por ninguna parte.",
     paginas: [
       {
         rotulo: "Lo que sí hay",
