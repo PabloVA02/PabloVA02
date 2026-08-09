@@ -21,8 +21,42 @@ export const NOTARIOS: Short[] = [
     categoria: "Historia",
     color: "var(--slate)",
     encargo: "Libro de protocolo notarial cosido y numerado, abierto sobre una mesa de madera.",
+    fotos: [
+      {
+        archivo: "Post Medieval seal matrix (oblique) (FindID 590595).jpg",
+        autor: "Matriz de sello de plata del siglo XVII, hallada en Shropshire. Birmingham Museums Trust.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Post_Medieval_seal_matrix_(oblique)_(FindID_590595).jpg",
+        foco: "50% 40%",
+        alt: "Un sello de plata pequeño con la cara grabada y el mango calado en forma de volutas.",
+      },
+      {
+        archivo: "Parchment Document and Seal of Philip of Alsace, Count of Flanders (1168–91) and of Vermondois (1155–91) MET 54698.jpg",
+        autor: "El sello de cera colgado de un documento de 1176 del conde de Flandes. Metropolitan Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Parchment_Document_and_Seal_of_Philip_of_Alsace,_Count_of_Flanders_(1168%E2%80%9391)_and_of_Vermondois_(1155%E2%80%9391)_MET_54698.jpg",
+        foco: "50% 65%",
+        alt: "Un disco de cera oscura con una figura estampada, colgando de una tira de pergamino escrito.",
+      },
+      {
+        archivo: "Strahov Library, Prague - 7501.jpg",
+        autor: "La sala filosófica de la biblioteca de Strahov, en Praga. Fotografía de Jorge Royan.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Strahov_Library,_Prague_-_7501.jpg",
+        foco: "50% 55%",
+        alt: "Una sala altísima con estanterías de madera dorada llenas de volúmenes y un techo pintado al fresco.",
+      },
+      {
+        archivo: "Fountain pen writing (literacy).jpg",
+        autor: "El plumín de una estilográfica sobre un texto manuscrito. Fotografía de Petar Milošević.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fountain_pen_writing_(literacy).jpg",
+        foco: "50% 45%",
+        alt: "Primer plano de un plumín dorado apoyado sobre un papel escrito a mano en tinta negra.",
+      },
+    ],
     entrada:
-      "Bolonia y toda Europa, siglo XII. Hasta entonces, un acuerdo importante se cerraba delante de testigos y valía lo que ellos recordaran. El problema es evidente: los testigos se mueren, se mudan, se equivocan o se compran. En las ciudades italianas aparece entonces un oficio nuevo, el de una persona que escribe lo acordado y cuyo escrito tiene valor por sí mismo ante un juez.",
+      "Bolonia y toda Europa, siglo XII. Hasta entonces, un acuerdo importante se cerraba delante de testigos y valía exactamente lo que ellos recordaran el día que hiciera falta. El problema salta a la vista en cuanto uno lo piensa dos segundos: los testigos se mueren, se mudan a otra ciudad, se les mezclan las fechas o, sencillamente, se compran. En las ciudades italianas aparece entonces un oficio nuevo que resuelve eso de raíz: una persona que escribe lo acordado y cuyo escrito, por sí solo y sin necesidad de que nadie lo confirme, tiene valor ante un juez.",
     paginas: [
       {
         rotulo: "Dar fe",
