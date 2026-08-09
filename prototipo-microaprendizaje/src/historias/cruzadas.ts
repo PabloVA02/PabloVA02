@@ -21,8 +21,42 @@ export const CRUZADAS: Short[] = [
     categoria: "Cruzadas",
     color: "var(--plum)",
     encargo: "Un campo abierto con una tarima de madera vacía y estandartes clavados en el suelo.",
+    fotos: [
+      {
+        archivo: "Krak des Chevaliers landscape (cropped).jpg",
+        autor: "El Krak de los Caballeros, en Siria, la mayor fortaleza que levantaron los cruzados.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Krak_des_Chevaliers_landscape_(cropped).jpg",
+        foco: "50% 45%",
+        alt: "Un castillo enorme de piedra clara sobre una loma verde, con valles y montañas al fondo.",
+      },
+      {
+        archivo: "Clermont-Ferrand Cathedral.jpg",
+        autor: "La catedral de Clermont-Ferrand, en la ciudad donde se convocó la asamblea de 1095. Fotografía de Ernesto.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Clermont-Ferrand_Cathedral.jpg",
+        foco: "50% 45%",
+        alt: "Una catedral gótica de piedra volcánica negra con dos torres altas y agujas afiladas.",
+      },
+      {
+        archivo: "Middelalder (medieval) ridder ringbrynje (chain mail haubrek) med hette, okse på tappert (tabard), hjelm (spangen helmet) med neseskinne (Mannequin) etc Bergenhus festningsmuseum Military Museum Bergen, Norway 2021 6490.jpg",
+        autor: "Reproducción del equipo de un guerrero del siglo XI: cota de malla, capucha y yelmo con nasal. Museo de la fortaleza de Bergenhus. Fotografía de Wolfmann.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Middelalder_(medieval)_ridder_ringbrynje_(chain_mail_haubrek)_med_hette,_okse_p%C3%A5_tappert_(tabard),_hjelm_(spangen_helmet)_med_neseskinne_(Mannequin)_etc_Bergenhus_festningsmuseum_Military_Museum_Bergen,_Norway_2021_6490.jpg",
+        foco: "50% 35%",
+        alt: "Un maniquí con cota de malla hasta la rodilla, capucha de anillas y casco cónico con protector de nariz.",
+      },
+      {
+        archivo: "Krak des Chevaliers Castle, Inner and outer walls, Syria.jpg",
+        autor: "Las murallas interior y exterior del Krak de los Caballeros. Fotografía de Vyacheslav Argenberg.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Krak_des_Chevaliers_Castle,_Inner_and_outer_walls,_Syria.jpg",
+        foco: "50% 50%",
+        alt: "El paso estrecho entre dos líneas de muralla de piedra, con torres redondas y almenas.",
+      },
+    ],
     entrada:
-      "Clermont, Francia, noviembre de 1095. El papa convoca una asamblea de obispos y termina con un discurso al aire libre. Pide a los caballeros cristianos que dejen de guerrear entre ellos y vayan a ayudar al imperio de Oriente contra los turcos, y de paso a recuperar Jerusalén. A cambio ofrece algo que nadie había ofrecido antes en esos términos.",
+      "Clermont, Francia, noviembre de 1095. El papa convoca una asamblea de obispos que dura una semana y la remata con un discurso al aire libre, fuera de la ciudad, porque no cabe la gente dentro. Pide a los caballeros cristianos dos cosas: que dejen de guerrear entre ellos, que es lo que llevan haciendo toda su vida, y que vayan en cambio a ayudar al imperio de Oriente contra los turcos y, de paso, a recuperar Jerusalén. A cambio ofrece algo que nadie había ofrecido antes en esos términos, y la respuesta desborda por completo lo que esperaba.",
     paginas: [
       {
         rotulo: "El trato",
