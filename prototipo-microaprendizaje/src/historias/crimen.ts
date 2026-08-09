@@ -25,8 +25,42 @@ export const CRIMEN: Short[] = [
     categoria: "Crimen",
     color: "var(--slate)",
     encargo: "El edificio de apartamentos Oxford, en Milwaukee, o una calle nocturna de la ciudad.",
+    fotos: [
+      {
+        archivo: "Milwaukee pano west night.jpg",
+        autor: "Milwaukee, Wisconsin, al anochecer. Fotografía de Dori.",
+        licencia: "CC BY-SA 3.0 us",
+        fuente: "https://commons.wikimedia.org/wiki/File:Milwaukee_pano_west_night.jpg",
+        foco: "50% 50%",
+        alt: "Vista amplia de una ciudad al anochecer, con las luces encendidas y el cielo todavía azul.",
+      },
+      {
+        archivo: "Milwaukee January 2023 10 (E. Wisconsin Avenue).jpg",
+        autor: "Una avenida del centro de Milwaukee en invierno. Fotografía de Michael Barera.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Milwaukee_January_2023_10_(E._Wisconsin_Avenue).jpg",
+        foco: "50% 45%",
+        alt: "Una avenida ancha cubierta de nieve sucia entre edificios de piedra, sin nadie en las aceras.",
+      },
+      {
+        archivo: "Revox B77 MK II reel-to-reel audio tape recorder, ca. 1982 (cropped and edited).jpg",
+        autor: "Un magnetófono de bobina abierta de los años ochenta. Fotografía de Norbert Schnitzler.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Revox_B77_MK_II_reel-to-reel_audio_tape_recorder,_ca._1982_(cropped_and_edited).jpg",
+        foco: "50% 45%",
+        alt: "Un magnetófono con dos bobinas de cinta montadas y una hilera de mandos e indicadores debajo.",
+      },
+      {
+        archivo: "Milwaukee November 2022 12 (Milwaukee River from Milwaukee Skywalk).jpg",
+        autor: "El río Milwaukee a su paso por el centro de la ciudad. Fotografía de Michael Barera.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Milwaukee_November_2022_12_(Milwaukee_River_from_Milwaukee_Skywalk).jpg",
+        foco: "50% 50%",
+        alt: "Un río estrecho encajonado entre edificios altos, con puentes y un paseo a la orilla.",
+      },
+    ],
     entrada:
-      "Milwaukee, Estados Unidos, 27 de mayo de 1991, a las tres de la madrugada. Dos mujeres encuentran en la calle a un chico desnudo, aturdido y sangrando, y llaman a emergencias. Aparece entonces un vecino de aspecto tranquilo que explica que es su novio, que han bebido y que han discutido. La policía llega, y ahí es donde esta historia deja de ser un caso más.",
+      "Milwaukee, Estados Unidos, 27 de mayo de 1991, a las tres de la madrugada. Dos mujeres encuentran en la calle a un chico desnudo, aturdido y sangrando, y hacen lo que haría cualquiera: llaman a emergencias y se quedan con él hasta que llegue alguien. Aparece entonces un vecino de aspecto tranquilo y educado que explica que el chico es su novio, que han bebido demasiado y que han discutido. La policía llega a los pocos minutos y tiene delante las dos versiones. Lo que decida hacer en el cuarto de hora siguiente es lo que convierte esto en algo más que un aviso nocturno.",
     paginas: [
       {
         rotulo: "En la calle",
