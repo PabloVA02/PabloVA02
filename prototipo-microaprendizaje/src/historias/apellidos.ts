@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const APELLIDOS: Short[] = [
   {
     id: "apellidos-por-impuestos",
-    titulo: "Los apellidos nacieron cobrando",
+    titulo: "El apellido nació cobrando",
     gancho: "Con dos Juanes en la aldea bastaba un mote. Con un registro fiscal hacía falta algo fijo.",
     categoria: "Apellidos",
     color: "var(--slate)",
     encargo: "Un libro de registro antiguo abierto con columnas de nombres escritos a pluma.",
+    fotos: [
+      {
+        archivo: "Vintage smith's workshop - 0169.jpg",
+        autor: "Un herrero forjando sobre el yunque: de este oficio salen Herrero, Smith, Ferrari y Schmidt. Fotografía de Jorge Royan.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vintage_smith%27s_workshop_-_0169.jpg",
+        foco: "50% 45%",
+        alt: "Unas manos sujetan con tenazas una barra al rojo sobre un yunque, con el martillo levantado al lado.",
+      },
+      {
+        archivo: "Medieval seal matrix (FindID 974315).jpg",
+        autor: "Sello personal medieval, entre 1150 y 1275, con el nombre de su dueño grabado alrededor. Portable Antiquities Scheme.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Medieval_seal_matrix_(FindID_974315).jpg",
+        foco: "50% 35%",
+        alt: "Un sello ovalado de plomo con una flor de lis en el centro y letras gastadas rodeando el borde.",
+      },
+      {
+        archivo: "-2022-04-01 Remoat view of Saint Giles parish church, Bradfield, Norfolk.JPG",
+        autor: "La torre de una iglesia parroquial de Norfolk asomando sobre los setos: allí se guardaban los registros. Fotografía de Kolforn.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:-2022-04-01_Remoat_view_of_Saint_Giles_parish_church,_Bradfield,_Norfolk.JPG",
+        foco: "50% 45%",
+        alt: "Una torre de piedra cuadrada asomando entre árboles al otro lado de un campo arado.",
+      },
+      {
+        archivo: "Commuters passing Old Xi'erqi Station (20170904083909).jpg",
+        autor: "Gente saliendo de una estación a primera hora de la mañana. Fotografía de N509FZ.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Commuters_passing_Old_Xi%27erqi_Station_(20170904083909).jpg",
+        foco: "50% 55%",
+        alt: "Cientos de personas caminando por una explanada ancha a la salida de una estación.",
+      },
+    ],
     entrada:
-      "Europa, siglos XI a XV. La mayoría de la gente tiene un solo nombre, y en una aldea de doscientas personas eso funciona sin ningún problema: para distinguir a dos que se llaman igual se añade el oficio, el padre, el sitio de donde vienen o un mote. Nada de eso es hereditario ni oficial hasta que aparecen los registros escritos.",
+      "Europa, siglos XI a XV. La inmensa mayoría de la gente tiene un solo nombre, y en una aldea de doscientas personas eso funciona sin el menor problema: cuando hay dos que se llaman igual, se les distingue añadiendo el oficio, el nombre del padre, el sitio del que vinieron o directamente un mote sobre su aspecto. Nada de eso es hereditario, nada es oficial y nada está escrito; el mote de un hombre puede cambiar tres veces en su vida y morir con él. Todo eso empieza a congelarse cuando aparece alguien con un libro y ganas de cobrar.",
     paginas: [
       {
         rotulo: "Los cuatro tipos",
