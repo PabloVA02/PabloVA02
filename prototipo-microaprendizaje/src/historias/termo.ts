@@ -15,13 +15,47 @@ import type { Short } from "../shorts";
 export const TERMO: Short[] = [
   {
     id: "el-vacio-que-aisla",
-    titulo: "Un termo aísla con nada dentro de la pared",
+    titulo: "El termo aísla con nada",
     gancho: "Entre las dos paredes de un termo no hay aire ni espuma. No hay nada, y eso es exactamente lo que aísla.",
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Frasco de vidrio de doble pared plateado por dentro, en corte.",
+    fotos: [
+      {
+        archivo: "Dewargefäß Deutsches Museum.jpg",
+        autor: "Un vaso Dewar de vidrio plateado por dentro. Deutsches Museum. Fotografía de LepoRello.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Dewargef%C3%A4%C3%9F_Deutsches_Museum.jpg",
+        foco: "50% 40%",
+        alt: "Un cilindro de vidrio con la pared interior plateada como un espejo, sobre un soporte transparente.",
+      },
+      {
+        archivo: "Sun - SDO - 2014-06-10 304.jpg",
+        autor: "El Sol en ultravioleta, visto por el observatorio SDO. NASA.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sun_-_SDO_-_2014-06-10_304.jpg",
+        foco: "50% 50%",
+        alt: "El disco del Sol en tonos rojos y anaranjados sobre fondo negro, con una erupción en el borde izquierdo.",
+      },
+      {
+        archivo: "Ri 2014 - Thermos flask - James Dewar (27).jpg",
+        autor: "Uno de los frascos de doble pared originales de James Dewar, en la Royal Institution de Londres. Fotografía de Vera de Kok.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ri_2014_-_Thermos_flask_-_James_Dewar_(27).jpg",
+        foco: "50% 40%",
+        alt: "Un frasco de vidrio grueso con un segundo recipiente dentro, en una vitrina, con un retrato al fondo.",
+      },
+      {
+        archivo: "Liquid helium dewars.jpg",
+        autor: "Depósitos de helio líquido montados sobre ruedas en un laboratorio. Fotografía de Adville.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Liquid_helium_dewars.jpg",
+        foco: "50% 62%",
+        alt: "Dos cilindros grandes de acero inoxidable con ruedas, en el suelo de una nave industrial.",
+      },
+    ],
     entrada:
-      "Escocia, 1892. Un físico que trabaja con gases licuados necesita un recipiente capaz de mantener líquidos a doscientos grados bajo cero durante horas. Ningún material aislante conocido sirve para eso. Su solución fue construir un frasco de vidrio de doble pared y sacar todo el aire del hueco entre las dos, dejando el vacío más completo que podía conseguir.",
+      "Escocia, 1892. Un físico que trabaja con gases licuados tiene un problema muy concreto: necesita un recipiente capaz de mantener líquidos a doscientos grados bajo cero durante horas, y ningún material aislante conocido aguanta eso ni de lejos. El corcho, la lana, el serrín y las plumas retienen calor porque atrapan aire quieto entre sus fibras, pero el aire acaba conduciendo. Su solución fue dejar de buscar un material mejor y quitar el material del todo: construyó un frasco de vidrio de doble pared y sacó todo el aire del hueco entre ellas, dejando el vacío más completo que podía conseguir.",
     paginas: [
       {
         rotulo: "Tres maneras",
