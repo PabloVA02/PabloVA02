@@ -21,8 +21,42 @@ export const AGUJA: Short[] = [
     categoria: "Prehistoria",
     color: "var(--clay)",
     encargo: "Aguja de hueso paleolítica con su ojo perforado, junto a una regla de escala.",
+    fotos: [
+      {
+        archivo: "Aiguille os 246.1 Global.jpg",
+        autor: "Aguja de hueso del Magdaleniense, hallada en la cueva de Gourdan, Francia. Mide 59 milímetros. Fotografía de Didier Descouens.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Aiguille_os_246.1_Global.jpg",
+        foco: "50% 50%",
+        alt: "Una aguja de hueso pulida vista por sus cuatro caras sobre fondo negro, con el ojo perforado en el extremo grueso.",
+      },
+      {
+        archivo: "Kapataq BM Am2001 15 1.jpg",
+        autor: "Chaqueta de invierno con capucha, de piel de zorro, hecha en Qaanaaq, en el norte de Groenlandia. British Museum.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kapataq_BM_Am2001_15_1.jpg",
+        foco: "50% 40%",
+        alt: "Una chaqueta de piel blanca y parda con capucha, cosida a medida, expuesta sobre un maniquí.",
+      },
+      {
+        archivo: "Sewing needle eye with thread.jpg",
+        autor: "El ojo de una aguja moderna con el hilo pasado, visto de muy cerca. Fotografía de Dmeranda.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sewing_needle_eye_with_thread.jpg",
+        foco: "50% 50%",
+        alt: "Macro del extremo de una aguja de acero con un hilo blanco pasado por el agujero alargado.",
+      },
+      {
+        archivo: "Spruce trees in the snow (52828594353).jpg",
+        autor: "Abetos en la tundra nevada del refugio de Selawik, Alaska. Fotografía de Lisa Hupp para el USFWS.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Spruce_trees_in_the_snow_(52828594353).jpg",
+        foco: "50% 50%",
+        alt: "Abetos oscuros y dispersos sobre una llanura completamente nevada, bajo un cielo pálido.",
+      },
+    ],
     entrada:
-      "Siberia y Europa, desde hace unos cuarenta mil años. Las agujas de hueso con un agujero en un extremo aparecen en los yacimientos justo cuando el ser humano empieza a colonizar las zonas más frías del planeta. No es casualidad. Una piel echada por encima abriga poco, y una prenda cosida y ajustada al cuerpo cambia por completo lo que se puede soportar.",
+      "Siberia y Europa, desde hace unos cuarenta mil años. Las agujas de hueso con un agujero perforado en un extremo empiezan a aparecer en los yacimientos justo cuando el ser humano se mete en las zonas más frías del planeta, y eso no es una casualidad ni una coincidencia bonita. Una piel echada por encima de los hombros abriga bastante poco, porque el aire entra y sale por todos lados. Una prenda cosida, cerrada y ajustada al cuerpo cambia por completo la temperatura que un ser humano puede soportar, y con ella el mapa de dónde puede vivir.",
     paginas: [
       {
         rotulo: "El aire quieto",
