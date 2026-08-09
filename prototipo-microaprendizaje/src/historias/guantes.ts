@@ -14,13 +14,47 @@ import type { Short } from "../shorts";
 export const GUANTES: Short[] = [
   {
     id: "el-guante-del-quirofano",
-    titulo: "El primer guante fue por amor",
+    titulo: "El guante fue por amor",
     gancho: "Una enfermera tenía las manos destrozadas por el desinfectante. El cirujano encargó unos guantes de goma para ella.",
     categoria: "Medicina",
     color: "var(--slate)",
     encargo: "Par de guantes de goma finos sobre una mesa de instrumental quirúrgico antiguo.",
+    fotos: [
+      {
+        archivo: "Rubber tree and latex cup.jpg",
+        autor: "Un árbol del caucho sangrado, con el látex cayendo al cuenco: la materia prima de los primeros guantes. Fotografía de Wee Hong.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rubber_tree_and_latex_cup.jpg",
+        foco: "50% 55%",
+        alt: "El tronco de un árbol con un corte en diagonal por el que baja un hilo blanco hasta un cuenco negro.",
+      },
+      {
+        archivo: "Lister-type carbolic steam spray, England, 1869-1890 Wellcome L0058935.jpg",
+        autor: "Pulverizador de vapor de ácido fénico, Inglaterra, 1869-1890: el desinfectante que destrozaba las manos. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lister-type_carbolic_steam_spray,_England,_1869-1890_Wellcome_L0058935.jpg",
+        foco: "50% 50%",
+        alt: "Un aparato de latón con caldera, tubos y boquilla, montado sobre un pie, fotografiado sobre fondo negro.",
+      },
+      {
+        archivo: "Amputation set, comprising saw, three large knives, one fing Wellcome L0057731.jpg",
+        autor: "Estuche de instrumental quirúrgico del siglo XIX, con sierra y cuchillos. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Amputation_set,_comprising_saw,_three_large_knives,_one_fing_Wellcome_L0057731.jpg",
+        foco: "50% 50%",
+        alt: "Una caja forrada con instrumentos de acero encajados en huecos de terciopelo: una sierra y varios cuchillos.",
+      },
+      {
+        archivo: "Metal carbolic steam spray, cased, Europe, 1872-1900 Wellcome L0057240.jpg",
+        autor: "Otro pulverizador de ácido fénico, guardado en su caja de viaje. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Metal_carbolic_steam_spray,_cased,_Europe,_1872-1900_Wellcome_L0057240.jpg",
+        foco: "50% 50%",
+        alt: "Un aparato metálico desmontado y colocado dentro de una caja con compartimentos forrados.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1890. Los hospitales acaban de aceptar que hay que desinfectarlo todo, y para eso usan una solución muy fuerte que abrasa la piel. La enfermera jefe de un quirófano tiene las manos llenas de eczemas y está a punto de dejar el trabajo. El cirujano que dirige el servicio encarga a una fábrica de neumáticos unos guantes finos de goma.",
+      "Estados Unidos, 1890. Los hospitales acaban de aceptar, después de décadas de discusión, que hay que desinfectarlo todo antes de operar, y para eso usan soluciones muy fuertes de ácido fénico y de sublimado corrosivo que efectivamente matan los microbios y de paso abrasan la piel de quien las maneja. La enfermera jefe de un quirófano tiene las manos llenas de eczemas, no se le curan nunca y está a punto de dejar el trabajo. El cirujano que dirige el servicio, que además está enamorado de ella, encarga a una fábrica de neumáticos unos guantes finos de goma hechos a su medida.",
     paginas: [
       {
         rotulo: "Proteger la mano",
