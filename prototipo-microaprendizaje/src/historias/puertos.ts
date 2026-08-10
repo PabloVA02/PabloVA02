@@ -81,14 +81,48 @@ export const PUERTOS: Short[] = [
   },
   {
     id: "el-dique-que-rompe-las-olas",
-    titulo: "Un dique no para las olas: las desordena",
+    titulo: "El dique desordena la ola",
     gancho: "Los bloques de hormigón con forma extraña que se ven en los puertos están calculados para que el agua se enrede entre ellos.",
     categoria: "Puertos",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una escollera con grandes bloques de hormigón de cuatro brazos apilados.",
+    fotos: [
+      {
+        archivo: "Tetrapoden als Wellenbrecher - Monaco - wundervoll.media.jpg",
+        autor: "Tetrápodos protegiendo el dique del puerto de Mónaco, 2018. Fotografía de Wundervollmedia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tetrapoden_als_Wellenbrecher_-_Monaco_-_wundervoll.media.jpg",
+        foco: "50% 50%",
+        alt: "Un dique visto desde arriba, con bloques de hormigón amontonados en la cara del mar y el agua rompiendo en espuma contra ellos.",
+      },
+      {
+        archivo: "ടെട്രാപോഡ് 06.jpg",
+        autor: "Tetrápodos de hormigón encajados unos en otros, Kerala (India), 2025. Fotografía de Anish Nellickal.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:%E0%B4%9F%E0%B5%86%E0%B4%9F%E0%B5%8D%E0%B4%B0%E0%B4%BE%E0%B4%AA%E0%B5%8B%E0%B4%A1%E0%B5%8D_06.jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de varios bloques de hormigón de cuatro brazos trabados entre sí, dejando huecos oscuros.",
+      },
+      {
+        archivo: "Port of Varna, December, 2018-1.jpg",
+        autor: "Dique y dársena del puerto de Varna, Bulgaria, diciembre de 2018. Fotografía de Alexey Komarov.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Port_of_Varna,_December,_2018-1.jpg",
+        foco: "50% 50%",
+        alt: "Vista del dique de abrigo de un puerto, con el agua picada por fuera y en calma por dentro.",
+      },
+      {
+        archivo: "DolosseGreenPoint.jpg",
+        autor: "Dolos, otra familia de bloques de abrigo, en Green Point, Ciudad del Cabo, 2018. Fotografía de The Interior.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DolosseGreenPoint.jpg",
+        foco: "50% 50%",
+        alt: "Bloques de hormigón con forma de hueso retorcido apilados a lo largo de una orilla rocosa.",
+      },
+    ],
     entrada:
-      "Puertos de todo el mundo, con un diseño que se patentó en Francia en 1950. Un dique de abrigo tiene que proteger la dársena del oleaje, y la forma más antigua de hacerlo era amontonar piedra hasta formar un muro. El problema es que un muro vertical devuelve la ola con toda su fuerza y acaba socavado por debajo, así que se buscó otra manera.",
+      "Puertos de todo el mundo, con un diseño que se patentó en Francia en 1950. Un dique de abrigo tiene que proteger la dársena del oleaje, y la forma más antigua de hacerlo era amontonar piedra hasta formar un muro macizo delante del puerto. El problema es que un muro vertical devuelve la ola entera con toda su fuerza, y esa ola reflejada excava el fondo justo al pie del muro hasta descalzarlo. Así se perdieron diques enteros durante siglos, y por eso se buscó otra manera de plantar cara al mar que no consistiera en pararlo.",
     paginas: [
       {
         rotulo: "Enredar el agua",

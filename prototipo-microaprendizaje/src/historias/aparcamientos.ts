@@ -89,8 +89,42 @@ export const APARCAMIENTOS: Short[] = [
     categoria: "Ciudades",
     color: "var(--slate)",
     encargo: "Planta de garaje subterráneo vacía, con los conductos de ventilación a la vista en el techo.",
+    fotos: [
+      {
+        archivo: "Spiral Parking Garage Ramp, John Hancock Center, Michigan Avenue, Streeterville, Chicago, IL.jpg",
+        autor: "Rampa helicoidal del aparcamiento del John Hancock Center, Chicago, 2024. Fotografía de w_lemay.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Spiral_Parking_Garage_Ramp,_John_Hancock_Center,_Michigan_Avenue,_Streeterville,_Chicago,_IL.jpg",
+        foco: "50% 45%",
+        alt: "Un cilindro de hormigón con las plantas del aparcamiento enroscadas en espiral, iluminado de noche entre rascacielos.",
+      },
+      {
+        archivo: "East ramp of Alewife parking garage, December 2018.jpg",
+        autor: "Rampa del aparcamiento de la estación de Alewife, Cambridge (Massachusetts), 2018. Fotografía de Daderot.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:East_ramp_of_Alewife_parking_garage,_December_2018.jpg",
+        foco: "50% 50%",
+        alt: "El exterior de una rampa curva de hormigón que sube por fuera de un aparcamiento de varias plantas.",
+      },
+      {
+        archivo: "East spiral ramp at Alewife station parking garage March 2025.jpg",
+        autor: "La misma rampa helicoidal de Alewife vista desde abajo, 2025. Fotografía de 4300streetcar.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:East_spiral_ramp_at_Alewife_station_parking_garage_March_2025.jpg",
+        foco: "50% 50%",
+        alt: "Vista en contrapicado de una rampa en espiral de hormigón que da vueltas sobre sí misma.",
+      },
+      {
+        archivo: "Parking garage spiral Flagstaff AZ 2026-04-07 08-49-48.jpg",
+        autor: "Rampa en espiral de un aparcamiento en Flagstaff, Arizona, 2026. Fotografía de G. Edward Johnson.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Parking_garage_spiral_Flagstaff_AZ_2026-04-07_08-49-48.jpg",
+        foco: "50% 50%",
+        alt: "Una rampa de aparcamiento que desciende girando, con las líneas del suelo marcando la curva.",
+      },
+    ],
     entrada:
-      "Europa y Estados Unidos, con los primeros grandes aparcamientos bajo plaza construidos desde los años cincuenta del siglo XX. Meter coches bajo tierra parece un problema de excavación y de estructura, y en realidad el asunto más serio es otro. Un motor de gasolina produce monóxido de carbono, un gas sin olor y sin color que mata en minutos. En un sótano cerrado ese gas no se va solo.",
+      "Europa y Estados Unidos, con los primeros grandes aparcamientos bajo plaza construidos desde los años cincuenta del siglo XX. Meter coches bajo tierra parece un problema de excavación y de estructura, que es lo que salta a la vista, y en realidad el asunto más serio es otro y no se ve. Un motor de gasolina produce monóxido de carbono, un gas sin olor, sin color y sin sabor que mata en minutos y del que nadie se da cuenta a tiempo. En un sótano cerrado ese gas no se va solo, así que hay que sacarlo a la fuerza y sin parar.",
     paginas: [
       {
         rotulo: "El gas invisible",
