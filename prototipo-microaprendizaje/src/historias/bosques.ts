@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const BOSQUES: Short[] = [
   {
     id: "robles-para-barcos",
-    titulo: "Robles para barcos de otro siglo",
+    titulo: "Robles para barcos futuros",
     gancho: "Un navío se llevaba dos mil árboles, y ninguno servía hasta cien años después de plantarlo.",
     categoria: "Bosques",
     color: "var(--ochre)",
     encargo: "Un roble grande y solitario con las ramas muy abiertas en un claro.",
+    fotos: [
+      {
+        archivo: "Ancient oak trees in Sherwood Forest - geograph.org.uk - 6356602.jpg",
+        autor: "Robles centenarios en el bosque de Sherwood, en Inglaterra. Fotografía de Phil Champion.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ancient_oak_trees_in_Sherwood_Forest_-_geograph.org.uk_-_6356602.jpg",
+        foco: "50% 50%",
+        alt: "Un roble enorme de tronco retorcido junto a un camino de tierra, con una rama gruesa saliendo casi horizontal.",
+      },
+      {
+        archivo: "Big Belly Oak, Savernake Forest - geograph.org.uk - 6395730.jpg",
+        autor: "El Big Belly Oak, en el bosque de Savernake, con más de mil años. Fotografía de Noisar.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Big_Belly_Oak,_Savernake_Forest_-_geograph.org.uk_-_6395730.jpg",
+        foco: "50% 45%",
+        alt: "Un roble de tronco abombado y hueco, con una banda metálica ciñéndolo para que no se abra.",
+      },
+      {
+        archivo: "An ancient oak tree in Sherwood Forest - geograph.org.uk - 6356877.jpg",
+        autor: "Otro roble viejo de Sherwood, con las ramas bajas muy abiertas. Fotografía de Phil Champion.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:An_ancient_oak_tree_in_Sherwood_Forest_-_geograph.org.uk_-_6356877.jpg",
+        foco: "50% 45%",
+        alt: "Un roble antiguo con la copa ancha y varias ramas gruesas que se curvan hacia el suelo.",
+      },
+      {
+        archivo: "Quercus alba fallen-leaves acorns.jpg",
+        autor: "Bellotas y hojas caídas de roble blanco. Fotografía de Dcrjsr.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Quercus_alba_fallen-leaves_acorns.jpg",
+        foco: "50% 50%",
+        alt: "Bellotas marrones repartidas sobre un lecho de hojas secas de roble.",
+      },
+    ],
     entrada:
-      "Europa, siglos XVI a XIX. Un barco de guerra de línea es la máquina más compleja y más cara de su tiempo, y está hecha casi enteramente de madera. Cada navío se lleva unos dos mil robles adultos, es decir, unas veinte hectáreas de bosque. El problema es que un roble tarda entre ochenta y ciento veinte años en alcanzar el tamaño necesario.",
+      "Europa, siglos XVI a XIX. Un barco de guerra de línea es la máquina más compleja y más cara de su tiempo, un arma que cuesta lo que una ciudad pequeña, y está hecha casi enteramente de madera. Cada navío se lleva unos dos mil robles adultos, es decir, alrededor de veinte hectáreas de bosque talado para uno solo. El problema no es cortarlos, que se hace en unas semanas, sino de dónde salen: un roble tarda entre ochenta y ciento veinte años en alcanzar el tamaño que hace falta.",
     paginas: [
       {
         rotulo: "Piezas curvas",
