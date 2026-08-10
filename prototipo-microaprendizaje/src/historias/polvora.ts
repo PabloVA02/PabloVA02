@@ -82,14 +82,48 @@ export const POLVORA: Short[] = [
 
   {
     id: "fuegos-de-color",
-    titulo: "Mil años de fuegos amarillentos",
+    titulo: "Mil años de fuego naranja",
     gancho: "El color viene de sales metálicas, y hasta 1830 solo se sabían hacer chispas amarillentas.",
     categoria: "Pólvora",
     color: "var(--plum)",
     curioso: true,
     encargo: "Una explosión de fuegos artificiales azul intenso sobre un cielo negro.",
+    fotos: [
+      {
+        archivo: "A Firework Bouquet (Unsplash).jpg",
+        autor: "Ramillete de fuegos artificiales sobre cielo negro. Fotografía de Vernon Raineil Cenzon, 2017.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_Firework_Bouquet_(Unsplash).jpg",
+        foco: "50% 45%",
+        alt: "Muchas palmeras de fuegos artificiales azules, naranjas, verdes y blancas abriéndose a la vez sobre el cielo negro.",
+      },
+      {
+        archivo: "2019 한강불꽃축제-1.jpg",
+        autor: "Festival de fuegos artificiales del río Han, Seúl, 2019. Fotografía de Kwon Jung-sik.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2019_%ED%95%9C%EA%B0%95%EB%B6%88%EA%BD%83%EC%B6%95%EC%A0%9C-1.jpg",
+        foco: "50% 45%",
+        alt: "Fuegos artificiales rosas y dorados sobre un río, con la ciudad iluminada al fondo.",
+      },
+      {
+        archivo: "Andrew Ruiz 2017-05-28 (Unsplash).jpg",
+        autor: "Explosión de artificio vista de cerca. Fotografía de Andrew Ruiz, 2017.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Andrew_Ruiz_2017-05-28_(Unsplash).jpg",
+        foco: "50% 45%",
+        alt: "Una bola de fuego artificial abriéndose en filamentos de luz sobre fondo oscuro.",
+      },
+      {
+        archivo: "Año nuevo la paz 2024.jpg",
+        autor: "Fuegos de fin de año sobre La Paz, 2023. Fotografía de Jail Ibáñez.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A%C3%B1o_nuevo_la_paz_2024.jpg",
+        foco: "50% 45%",
+        alt: "Estallidos de fuegos artificiales sobre los tejados de una ciudad en la noche de fin de año.",
+      },
+    ],
     entrada:
-      "Italia, 1830. Los fuegos artificiales llevan casi mil años existiendo y son casi todos del mismo color: el naranja amarillento de la pólvora ardiendo con limaduras de metal dentro. Ese año, unos pirotécnicos italianos empiezan a añadir sales metálicas a las mezclas y descubren que cada metal produce una llama de un color distinto.",
+      "Italia, 1830. Los fuegos artificiales llevan casi mil años existiendo, desde que los inventaron en China, y en todo ese tiempo han sido casi siempre del mismo color: el naranja amarillento de la pólvora ardiendo con limaduras de hierro dentro. Un espectáculo entero se veía en una sola gama, y a nadie se le ocurría que pudiera ser de otra manera. Ese año unos pirotécnicos italianos empiezan a añadir sales metálicas a la mezcla y descubren algo que la química acababa de empezar a explicar: cada metal produce una llama de un color distinto y siempre el mismo.",
     paginas: [
       {
         rotulo: "Cada metal",

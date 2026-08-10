@@ -85,8 +85,42 @@ export const BIOMIMESIS: Short[] = [
     categoria: "Copiar a la naturaleza",
     color: "var(--slate)",
     encargo: "El morro alargado y puntiagudo de un tren de alta velocidad.",
+    fotos: [
+      {
+        archivo: "JRW 500 series Shinkansen at Okayama Station 2012-11-28.jpg",
+        autor: "Tren Shinkansen de la serie 500, el del morro rediseñado, en la estación de Okayama, 2012. Fotografía de Kazokuda.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:JRW_500_series_Shinkansen_at_Okayama_Station_2012-11-28.jpg",
+        foco: "50% 50%",
+        alt: "Un tren de alta velocidad con el morro larguísimo y afilado, detenido junto al andén.",
+      },
+      {
+        archivo: "Shinkansen 500 (8086233447).jpg",
+        autor: "La serie 500 circulando por vía abierta. Fotografía de Takeshi Kuboki, 2010.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Shinkansen_500_(8086233447).jpg",
+        foco: "50% 50%",
+        alt: "El tren blanco y azul avanzando por la vía, visto desde delante en escorzo.",
+      },
+      {
+        archivo: "Common Kingfisher 2025 09 28 03.jpg",
+        autor: "Martín pescador común (Alcedo atthis). Fotografía de Alexis Lours, 2025.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_2025_09_28_03.jpg",
+        foco: "50% 45%",
+        alt: "Un martín pescador azul y naranja posado en una rama, con el pico largo y recto apuntando hacia delante.",
+      },
+      {
+        archivo: "Shinkansen 500 at Hiroshima Station 2025-03-27.jpg",
+        autor: "La serie 500 en la estación de Hiroshima, todavía en servicio en 2025. Fotografía de Eric Salard.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Shinkansen_500_at_Hiroshima_Station_2025-03-27.jpg",
+        foco: "50% 50%",
+        alt: "El morro puntiagudo del tren asomando en el andén de una estación cubierta.",
+      },
+    ],
     entrada:
-      "Japón, principios de los años noventa. Los trenes de alta velocidad tienen un problema serio en un país lleno de montañas y de túneles. Al entrar en uno a más de doscientos kilómetros por hora, empujan el aire de dentro como un émbolo. Al salir se produce un estampido que se oye a cientos de metros.",
+      "Japón, principios de los años noventa. Los trenes de alta velocidad tienen un problema serio en un país lleno de montañas y, por tanto, de túneles muy largos. Al entrar en uno a más de doscientos kilómetros por hora, el tren empuja el aire de dentro como si fuera el émbolo de una jeringuilla, porque casi llena el tubo y ese aire no tiene por dónde escapar. Al llegar a la boca de salida, toda esa presión se libera de golpe y produce un estampido que se oye a cientos de metros y despierta a pueblos enteros.",
     paginas: [
       {
         rotulo: "El émbolo",
