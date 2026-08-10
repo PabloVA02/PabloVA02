@@ -94,8 +94,42 @@ export const DESIERTOS: Short[] = [
     categoria: "Desiertos",
     color: "var(--slate)",
     encargo: "Una llanura agrietada de sal blanca con montañas peladas al fondo.",
+    fotos: [
+      {
+        archivo: "Anfiteatro, Valle de la Luna, San Pedro de Atacama, Chile, 2016-02-01, DD 149.JPG",
+        autor: "El anfiteatro del Valle de la Luna, cerca de San Pedro de Atacama, 2016. Fotografía de Diego Delso.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Anfiteatro,_Valle_de_la_Luna,_San_Pedro_de_Atacama,_Chile,_2016-02-01,_DD_149.JPG",
+        foco: "50% 55%",
+        alt: "Cortados de roca rojiza sobre una llanura cubierta de costra blanca de sal, bajo un cielo sin nubes.",
+      },
+      {
+        archivo: "Miscanti Lagoon near San Pedro de Atacama Chile Luca Galuzzi 2006.jpg",
+        autor: "Laguna Miscanti, en el altiplano sobre el desierto de Atacama, 2006. Fotografía de Luca Galuzzi.",
+        licencia: "CC BY-SA 2.5",
+        fuente: "https://commons.wikimedia.org/wiki/File:Miscanti_Lagoon_near_San_Pedro_de_Atacama_Chile_Luca_Galuzzi_2006.jpg",
+        foco: "50% 50%",
+        alt: "Una laguna azul intenso al pie de unos volcanes pelados, con la orilla blanca de sal.",
+      },
+      {
+        archivo: "Oficinas salitreras de Humberstone y Santa Laura, Chile, 2016-02-11, DD 89.jpg",
+        autor: "Oficinas salitreras de Humberstone y Santa Laura, abandonadas en el desierto chileno, 2016. Fotografía de Diego Delso.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Oficinas_salitreras_de_Humberstone_y_Santa_Laura,_Chile,_2016-02-11,_DD_89.jpg",
+        foco: "50% 55%",
+        alt: "Naves y estructuras metálicas oxidadas de una explotación de salitre vacía en mitad del desierto.",
+      },
+      {
+        archivo: "ALMAs OSF An Oasis in the Desert.jpg",
+        autor: "Instalaciones del observatorio ALMA en el desierto de Atacama. Fotografía de J. Velásquez para el ESO, 2015.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:ALMAs_OSF_An_Oasis_in_the_Desert.jpg",
+        foco: "50% 50%",
+        alt: "Antenas y edificios de un observatorio astronómico levantados sobre una explanada árida rodeada de cerros.",
+      },
+    ],
     entrada:
-      "Norte de Chile, 1971. Un equipo instala estaciones meteorológicas en una franja de desierto encajada entre la cordillera y la costa. Décadas después, algunas de esas estaciones no han registrado ni una sola precipitación medible. Es el sitio no polar más seco del planeta, y lleva así varios millones de años seguidos, desde mucho antes de que existiera nuestra especie.",
+      "Norte de Chile, 1971. Un equipo instala estaciones meteorológicas en una franja de desierto encajada entre la cordillera y la costa, con la idea de medir cuánto llueve allí exactamente. Décadas después, algunas de esas estaciones no han registrado todavía ni una sola precipitación medible: ni un chubasco, ni una tormenta perdida, nada. Es el sitio no polar más seco del planeta y lleva así varios millones de años seguidos, desde mucho antes de que existiera nuestra especie, lo que significa que ese suelo guarda intacto todo lo que le ha ido cayendo encima.",
     paginas: [
       {
         rotulo: "Tres barreras",

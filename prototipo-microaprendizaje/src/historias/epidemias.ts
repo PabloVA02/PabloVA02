@@ -91,13 +91,47 @@ export const EPIDEMIAS: Short[] = [
 
   {
     id: "ultima-viruela",
-    titulo: "La única enfermedad borrada del mundo",
+    titulo: "La única borrada del mundo",
     gancho: "Mató a más gente que cualquier otra. La campaña final consistió en perseguir a los enfermos uno a uno.",
     categoria: "Epidemias",
     color: "var(--forest)",
     encargo: "Una nevera portátil de campaña con viales, sobre tierra seca y polvorienta.",
+    fotos: [
+      {
+        archivo: "Smallpox vaccine.jpg",
+        autor: "Vial de vacuna liofilizada contra la viruela y la aguja bifurcada con la que se administraba. Fotografía de James Gathany para los CDC, 2002.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Smallpox_vaccine.jpg",
+        foco: "50% 50%",
+        alt: "Un frasco pequeño de vacuna junto a una aguja fina rematada en dos puntas, sobre un fondo azul.",
+      },
+      {
+        archivo: "US Navy 030305-N-3235P-513 A Hospital Corpsman dips a bifurcated vaccinating needle into an open vial of Small Pox Vaccine.jpg",
+        autor: "Un sanitario moja la aguja bifurcada en el vial: entre las dos puntas queda retenida una gota exacta. Fotografía de la Armada de Estados Unidos, 2003.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:US_Navy_030305-N-3235P-513_A_Hospital_Corpsman_dips_a_bifurcated_vaccinating_needle_into_an_open_vial_of_Small_Pox_Vaccine.jpg",
+        foco: "50% 50%",
+        alt: "Unas manos enguantadas introduciendo una aguja de dos puntas en un frasco abierto de vacuna.",
+      },
+      {
+        archivo: "Smallpox vaccine injection.jpg",
+        autor: "Demostración de la técnica de los quince pinchazos con aguja bifurcada. Fotografía de James Gathany para los CDC, 2002.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Smallpox_vaccine_injection.jpg",
+        foco: "50% 50%",
+        alt: "Una mano sujetando la aguja bifurcada contra la piel de un brazo para clavarla varias veces seguidas.",
+      },
+      {
+        archivo: "Directors of Global Smallpox Eradication Program.jpg",
+        autor: "Tres directores sucesivos del programa mundial de erradicación leyendo la noticia de que la viruela había sido eliminada, 1980. Fotografía de los CDC.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Directors_of_Global_Smallpox_Eradication_Program.jpg",
+        foco: "50% 45%",
+        alt: "Tres hombres de traje inclinados sobre un papel, leyendo juntos la misma hoja.",
+      },
+    ],
     entrada:
-      "Somalia, octubre de 1977. Un cocinero de hospital de veintitrés años acompaña en coche a dos enfermos hasta un centro de aislamiento y se contagia. Su caso será el último de viruela adquirida de forma natural en la historia del planeta, después de una enfermedad que se calcula que mató a trescientos millones de personas solo en el siglo XX.",
+      "Somalia, octubre de 1977. Un cocinero de hospital de veintitrés años acompaña en coche a dos enfermos hasta un centro de aislamiento y se contagia por el camino. Su caso será el último de viruela adquirida de forma natural en la historia del planeta. Detrás quedaba una enfermedad que se calcula que mató a trescientos millones de personas solo en el siglo XX, y delante quedaba lo más difícil: demostrar que no quedaba ninguna más. Para eso hubo que recorrer aldea por aldea preguntando a la gente si había visto a alguien con fiebre y granos.",
     paginas: [
       {
         rotulo: "El cerco",
