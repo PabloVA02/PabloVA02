@@ -88,13 +88,47 @@ export const SEGUROS: Short[] = [
   },
   {
     id: "el-seguro-que-no-cubre",
-    titulo: "La letra pequeña tiene su lógica",
+    titulo: "La letra pequeña sirve",
     gancho: "Las exclusiones no son solo trampas comerciales. Sin algunas de ellas el reparto del riesgo se rompe entero.",
     categoria: "Dinero",
     color: "var(--clay)",
     encargo: "Contrato de seguro con un párrafo subrayado y una lupa encima.",
+    fotos: [
+      {
+        archivo: "Lightning In The Blue Hour.jpg",
+        autor: "Un rayo ramificado cayendo sobre la sierra a última hora de la tarde. Fotografía de A Guy Named Nyal.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lightning_In_The_Blue_Hour.jpg",
+        foco: "50% 45%",
+        alt: "Un relámpago blanco con muchas ramas atravesando un cielo azul oscuro, sobre la silueta de unas montañas.",
+      },
+      {
+        archivo: "Shelf Cloud 4 8 2013 (146961335).jpeg",
+        autor: "Una nube de estante avanzando por delante de una tormenta. Fotografía de Sumie Dh.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Shelf_Cloud_4_8_2013_(146961335).jpeg",
+        foco: "50% 50%",
+        alt: "Una masa de nube baja con el frente recto y amenazante, extendida de lado a lado del horizonte.",
+      },
+      {
+        archivo: "Delaware Seashore Evening Storm - Flickr - aparlette.jpg",
+        autor: "Tormenta al atardecer sobre la costa de Delaware. Fotografía de Andrew Parlette.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Delaware_Seashore_Evening_Storm_-_Flickr_-_aparlette.jpg",
+        foco: "50% 50%",
+        alt: "Nubes de tormenta cargadas sobre el mar, con la luz del sol filtrándose por debajo.",
+      },
+      {
+        archivo: "Lightning over the Atlantic - Flickr - aparlette.jpg",
+        autor: "Relámpagos sobre el Atlántico esa misma noche. Fotografía de Andrew Parlette.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lightning_over_the_Atlantic_-_Flickr_-_aparlette.jpg",
+        foco: "50% 45%",
+        alt: "Varios rayos cayendo a la vez sobre el mar, iluminando las nubes desde dentro.",
+      },
+    ],
     entrada:
-      "Todo el mundo, con la regulación europea de contratos de seguro reforzada desde 1980. Cualquier póliza incluye una lista de cosas que no cubre, y esa lista tiene fama de trampa. Una parte lo es, y otra parte es la condición para que el producto pueda existir. Un seguro reparte un riesgo entre muchos, y solo funciona si nadie puede provocar el suceso ni elegir el momento.",
+      "Todo el mundo, con la regulación europea de contratos de seguro reforzada desde 1980. Cualquier póliza que uno firme incluye una lista de cosas que no cubre, y esa lista tiene una fama pésima y bastante merecida. Una parte de ella es efectivamente una trampa comercial, escrita para no pagar. La otra parte, en cambio, es la condición sin la cual el producto no podría existir: un seguro reparte un riesgo entre mucha gente, y solo funciona si nadie puede provocar el suceso a voluntad ni elegir el momento en que ocurre.",
     paginas: [
       {
         rotulo: "Riesgo asegurable",
