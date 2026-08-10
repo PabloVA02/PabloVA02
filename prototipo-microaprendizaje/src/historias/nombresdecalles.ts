@@ -21,8 +21,43 @@ export const NOMBRES_DE_CALLES: Short[] = [
     categoria: "Calles",
     color: "var(--slate)",
     encargo: "Un número de casa antiguo, de azulejo pintado, sobre una pared encalada.",
+    fotos: [
+      {
+        archivo: "Empress Maria-Theresia De Visch.jpg",
+        autor: "La emperatriz María Teresa de Austria, óleo de Matthias de Visch, 1749, según Martin van Meytens.",
+        licencia: "Dominio público",
+        pdPorEdad: 1765,
+        fuente: "https://commons.wikimedia.org/wiki/File:Empress_Maria-Theresia_De_Visch.jpg",
+        foco: "50% 38%",
+        alt: "Una emperatriz sentada en el trono con un vestido enorme de encaje rosa y plata, la corona sobre un cojín a su lado.",
+      },
+      {
+        archivo: "Paczkow 01.jpg",
+        autor: "Paczków, en Silesia, una de las pocas ciudades europeas que conserva casi entera su muralla medieval. Fotografía de Scotch Mist.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Paczkow_01.jpg",
+        foco: "50% 50%",
+        alt: "Una ciudad pequeña rodeada de muralla, con tejados rojos apretados y la torre de una iglesia sobresaliendo.",
+      },
+      {
+        archivo: "Krāsotāju iela, Красильная улица, Färber Straße, Krahsohtaju eela.jpg",
+        autor: "Placa de una calle de Riga con el nombre actual y, debajo, el mismo nombre en las tres lenguas oficiales que tuvo la ciudad. Fotografía de Turaids.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kr%C4%81sot%C4%81ju_iela,_%D0%9A%D1%80%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%83%D0%BB%D0%B8%D1%86%D0%B0,_F%C3%A4rber_Stra%C3%9Fe,_Krahsohtaju_eela.jpg",
+        foco: "50% 40%",
+        alt: "Dos placas rectangulares clavadas en una pared con el nombre de una calle repetido en varios idiomas.",
+      },
+      {
+        archivo: "81 rue Mouffetard, motif de la porte, 5ème arrondissement, Paris. PH24440.jpg",
+        autor: "La puerta del número 81 de la rue Mouffetard de París, fotografiada por Charles Lansiaux en 1917.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:81_rue_Mouffetard,_motif_de_la_porte,_5%C3%A8me_arrondissement,_Paris._PH24440.jpg",
+        foco: "50% 40%",
+        alt: "Una puerta antigua de madera labrada con su número encima, en una fotografía en blanco y negro.",
+      },
+    ],
     entrada:
-      "Imperio austríaco, 1770. Hasta entonces las casas europeas no tienen número: se localizan por el nombre del propietario, por un cartel pintado o por referencias como la casa del olmo. Ese año, la emperatriz ordena numerarlas todas en sus territorios, y no lo hace por comodidad de nadie, sino porque quiere hacer un censo militar fiable.",
+      "Imperio austríaco, 1770. Hasta entonces las casas europeas no tienen número y a nadie le hace falta: cada una se localiza por el nombre de quien vive en ella, por un cartel pintado sobre la puerta o por referencias del tipo la casa del olmo o la de detrás de la fragua. Ese año, la emperatriz María Teresa ordena numerarlas todas en sus territorios, una por una y sin excepciones. No lo hace por comodidad del vecindario ni del correo, sino porque quiere un censo militar que no se le pueda falsear.",
     paginas: [
       {
         rotulo: "Contar hombres",
