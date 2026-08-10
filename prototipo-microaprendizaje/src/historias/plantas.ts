@@ -20,13 +20,47 @@ import type { Short } from "../shorts";
 export const PLANTAS: Short[] = [
   {
     id: "arboles-se-avisan",
-    titulo: "Las acacias se avisan entre ellas",
+    titulo: "Las acacias se avisan",
     gancho: "Murieron tres mil antílopes en granjas sudafricanas y las culpables eran las hojas.",
     categoria: "Plantas",
     color: "var(--sage)",
     encargo: "Una acacia de copa plana recortada contra un cielo de sabana al atardecer.",
+    fotos: [
+      {
+        archivo: "WO124 Umbrella Thorn Acacia Tree - DPLA - fe73ffcc3b695806850aae36a566f331.jpg",
+        autor: "Una acacia de copa plana, la llamada espino paraguas, sola en la sabana africana.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:WO124_Umbrella_Thorn_Acacia_Tree_-_DPLA_-_fe73ffcc3b695806850aae36a566f331.jpg",
+        foco: "50% 50%",
+        alt: "Un árbol solitario con la copa completamente plana y las ramas retorcidas, sobre una llanura de hierba seca.",
+      },
+      {
+        archivo: "Acacia mellifera on a farm in Namibia.jpg",
+        autor: "Una acacia mellifera en una finca del centro de Namibia. Fotografía de Tim Brunauer para la GIZ.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Acacia_mellifera_on_a_farm_in_Namibia.jpg",
+        foco: "50% 50%",
+        alt: "Un arbusto espinoso de ramas bajas y muy abiertas en un terreno arenoso y despejado.",
+      },
+      {
+        archivo: "Masai Giraffe (giraffa camelopardalis tippelskirchi).jpg",
+        autor: "Una jirafa masái ramoneando. Fotografía de Gregory Moine.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Masai_Giraffe_(giraffa_camelopardalis_tippelskirchi).jpg",
+        foco: "50% 45%",
+        alt: "Una jirafa estirando el cuello hacia las ramas altas de un árbol, con la sabana detrás.",
+      },
+      {
+        archivo: "Vachellia drepanolobium.jpg",
+        autor: "La acacia silbadora, Vachellia drepanolobium, de las sabanas de África oriental. Fotografía de Jozef020.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vachellia_drepanolobium.jpg",
+        foco: "50% 45%",
+        alt: "Un árbol pequeño de espinas blancas y largas con unas bolas huecas en la base de cada par.",
+      },
+    ],
     entrada:
-      "Años ochenta, granjas de caza del norte de Sudáfrica. Miles de kudús —un antílope grande— empiezan a morir sin causa aparente dentro de cercados donde tienen comida de sobra. Las jirafas, en cambio, sueltas y en la misma zona, están bien. El zoólogo Wouter van Hoven fue a mirar qué comían unos y otras, y encontró una respuesta que estaba en las hojas.",
+      "Años ochenta, granjas de caza del norte de Sudáfrica. Miles de kudús, un antílope grande de cuernos en espiral, empiezan a morir sin causa aparente dentro de cercados donde tienen comida de sobra y ni un depredador cerca. Las jirafas, en cambio, que andan sueltas por la misma zona y comen de los mismos árboles, están perfectamente. El zoólogo Wouter van Hoven fue a mirar despacio qué comían unos y otras, y cómo lo comían, y encontró que la respuesta entera estaba en las hojas.",
     paginas: [
       {
         rotulo: "El taninos",
