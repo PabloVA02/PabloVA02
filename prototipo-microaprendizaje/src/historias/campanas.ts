@@ -84,13 +84,47 @@ export const CAMPANAS: Short[] = [
   },
   {
     id: "cinco-notas-a-la-vez",
-    titulo: "Una campana suena a cinco notas",
+    titulo: "Una campana da cinco notas",
     gancho: "El golpe hace vibrar el bronce de cinco maneras distintas al mismo tiempo. Por eso cuesta tanto afinarla.",
     categoria: "Música",
     color: "var(--slate)",
     encargo: "Interior de una campana visto desde abajo, con el badajo colgando en el centro.",
+    fotos: [
+      {
+        archivo: "Schönheide im Erzgebirge Martin-Luther-Kirche Glocke von 1774.jpg",
+        autor: "Campana de 1774 colgada en el campanario de madera de la iglesia de Schönheide, Sajonia. Fotografía de Klaaschwotzer.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sch%C3%B6nheide_im_Erzgebirge_Martin-Luther-Kirche_Glocke_von_1774.jpg",
+        foco: "50% 45%",
+        alt: "Una campana de bronce oscuro colgada en el centro de un armazón de vigas de madera clara, vista desde abajo.",
+      },
+      {
+        archivo: "Garnisonkirche Dresden, drei Glocken.jpg",
+        autor: "Las tres campanas de la antigua iglesia de la guarnición de Dresde, 2012. Fotografía de TMg.",
+        licencia: "CC BY-SA 3.0 de",
+        fuente: "https://commons.wikimedia.org/wiki/File:Garnisonkirche_Dresden,_drei_Glocken.jpg",
+        foco: "50% 50%",
+        alt: "Tres campanas de bronce alineadas dentro de una torre, sujetas a sus yugos de hierro.",
+      },
+      {
+        archivo: "Klokkengieten voor het Nationaal Legermonument Grebbeberg door de firma Eijsbou…, Bestanddeelnr 905-6639.jpg",
+        autor: "Fundición de campanas en el taller de Eijsbouts, Asten (Países Bajos), abril de 1953. Fotografía de Harry Pot, Anefo.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AKlokkengieten%20voor%20het%20Nationaal%20Legermonument%20Grebbeberg%20door%20de%20firma%20Eijsbou%E2%80%A6%2C%20Bestanddeelnr%20905-6639.jpg",
+        foco: "50% 50%",
+        alt: "Varios hombres alrededor de un crisol en una fundición de campanas, con el metal a punto de colarse.",
+      },
+      {
+        archivo: "Clavier de carillon - Taninges.jpg",
+        autor: "Teclado de palancas de madera del carillón de Taninges, Alta Saboya, 2016. Fotografía de Lcs74.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Clavier_de_carillon_-_Taninges.jpg",
+        foco: "50% 50%",
+        alt: "Un teclado de carillón con dos filas de palancas de madera redondeadas, unidas por varillas que suben hacia las campanas.",
+      },
+    ],
     entrada:
-      "Países Bajos, siglo XVII. Dos hermanos fundidores descubren cómo afinar una campana de manera que todas sus notas encajen entre sí, cosa que nadie había conseguido antes. El problema es que una campana no da una nota, sino cinco al mismo tiempo. Cada zona del bronce vibra a su ritmo, y si esas notas no casan el resultado suena a lata.",
+      "Países Bajos, siglo XVII. Dos hermanos fundidores dan con la manera de afinar una campana para que todas sus notas encajen entre sí, algo que nadie había conseguido hasta entonces. El problema que llevaban siglos arrastrando los campaneros es que una campana no da una nota, sino cinco a la vez. Cada zona del bronce vibra a su ritmo y suena a su altura, y si esas cinco notas no casan entre ellas el resultado suena a lata por muy buena que sea la fundición. Afinarlas una por una, y de oído, era el secreto que faltaba.",
     paginas: [
       {
         rotulo: "Cinco notas",
