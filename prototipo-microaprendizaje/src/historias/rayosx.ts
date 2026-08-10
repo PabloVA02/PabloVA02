@@ -18,21 +18,48 @@ import type { Short } from "../shorts";
 export const RAYOSX: Short[] = [
   {
     id: "mano-con-anillo",
-    titulo: "La primera radiografía fue la mano de su mujer",
+    titulo: "La mano de su mujer",
     gancho: "Vio los huesos y el anillo de boda, y dijo que acababa de ver su propia muerte.",
     categoria: "Rayos X",
     color: "var(--slate)",
-    foto: {
-      archivo: "First medical X-ray by Wilhelm Röntgen of his wife Anna Bertha Ludwig's hand - 18951222.jpg",
-      autor: "Wilhelm Conrad Röntgen",
-      licencia: "Dominio público",
-      pdPorEdad: 1923,
-      foco: "50% 45%",
-      alt: "La primera radiografía médica: los huesos de una mano con el anillo de casada.",
-    },
     encargo: "Una radiografía antigua de una mano con un anillo alrededor de un dedo.",
+    fotos: [
+      {
+        archivo: "First medical X-ray by Wilhelm Röntgen of his wife Anna Bertha Ludwig's hand - 18951222.jpg",
+        autor: "La primera radiografía médica de la historia: la mano de Anna Bertha Ludwig, hecha por Wilhelm Röntgen el 22 de diciembre de 1895.",
+        licencia: "Dominio público",
+        pdPorEdad: 1923,
+        fuente: "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg",
+        foco: "50% 45%",
+        alt: "Los huesos de una mano en gris claro sobre fondo negro, con un anillo destacando en un dedo.",
+      },
+      {
+        archivo: "Wue RoentgenGedSt Geraet1912.JPG",
+        autor: "Aparato de rayos X de 1912 conservado en el museo Röntgen de Wurzburgo. Fotografía de Kai Borgeest.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wue_RoentgenGedSt_Geraet1912.JPG",
+        foco: "50% 50%",
+        alt: "Un armazón metálico con dos tubos de vidrio y bobinas, montado sobre una peana de madera.",
+      },
+      {
+        archivo: "Podoscope par The Pedoscope Compagny 01.jpg",
+        autor: "Un pedoscopio de rayos X, de los que había en las zapaterías para ver el pie dentro del zapato.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Podoscope_par_The_Pedoscope_Compagny_01.jpg",
+        foco: "50% 40%",
+        alt: "Un mueble de madera con forma de columna, con un hueco abajo para los pies y visores en la parte de arriba.",
+      },
+      {
+        archivo: "Podoscope par The Pedoscope Compagny 03.jpg",
+        autor: "El mismo aparato por dentro, con el tubo emisor debajo de la plataforma.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Podoscope_par_The_Pedoscope_Compagny_03.jpg",
+        foco: "50% 50%",
+        alt: "El interior de un mueble de zapatería con la maquinaria y los cables del emisor de rayos X a la vista.",
+      },
+    ],
     entrada:
-      "Wurzburgo, en Alemania, noviembre de 1895. Un físico de cincuenta años trabaja a oscuras con un tubo de vacío envuelto en cartón negro y ve que una pantalla colocada al otro lado del laboratorio se ilumina sola. Algo está atravesando el cartón, el aire y la mesa. Lo llama rayos equis porque no tiene ni idea de qué es.",
+      "Wurzburgo, en Alemania, noviembre de 1895. Un físico de cincuenta años trabaja a oscuras con un tubo de vacío cuidadosamente envuelto en cartón negro, y ve que una pantalla colocada al otro lado del laboratorio se ilumina sola cuando enciende el tubo. Algo está saliendo de ahí y atravesando el cartón, el aire y la mesa que hay en medio, sin que él pueda verlo ni explicarlo. Lo llama rayos equis, con la equis de las incógnitas, porque no tiene la menor idea de qué es.",
     paginas: [
       {
         rotulo: "Siete semanas",
