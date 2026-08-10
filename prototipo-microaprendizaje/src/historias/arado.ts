@@ -21,8 +21,42 @@ export const ARADO: Short[] = [
     categoria: "Arado",
     color: "var(--slate)",
     encargo: "Un arado de madera con reja de hierro tirado por bueyes en un campo embarrado.",
+    fotos: [
+      {
+        archivo: "BLW Stained Glass Panel - Labours of the Months (October).jpg",
+        autor: "Los trabajos de octubre, deshacer terrones y sembrar el trigo. Vidriera inglesa de entre 1450 y 1475, procedente de Cassiobury Park. Fotografía de David Jackson.",
+        licencia: "CC BY-SA 2.0 uk",
+        fuente: "https://commons.wikimedia.org/wiki/File:BLW_Stained_Glass_Panel_-_Labours_of_the_Months_(October).jpg",
+        foco: "50% 50%",
+        alt: "Un medallón de vidriera en amarillos y blancos con un caballo, una grada de madera y dos campesinos sembrando.",
+      },
+      {
+        archivo: "Ploughing in Wood Walton Fen - geograph.org.uk - 1707063.jpg",
+        autor: "Un arado de seis vertederas volteando tierra de turba en los fens de Cambridgeshire. Fotografía de Michael Trolove.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ploughing_in_Wood_Walton_Fen_-_geograph.org.uk_-_1707063.jpg",
+        foco: "50% 55%",
+        alt: "Un tractor arrastrando un arado que va dando la vuelta a franjas de tierra negra y brillante.",
+      },
+      {
+        archivo: "Photo Plow pulled by oxs 1940 - Touring Club Italiano 1.2732.jpg",
+        autor: "Arado tirado por bueyes, fotografiado en Italia en 1940. Archivo del Touring Club Italiano.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Photo_Plow_pulled_by_oxs_1940_-_Touring_Club_Italiano_1.2732.jpg",
+        foco: "50% 50%",
+        alt: "Una yunta de bueyes uncida a un arado avanzando por un campo, en una fotografía en blanco y negro.",
+      },
+      {
+        archivo: "Juignac 16 Labours-octobre 2011.jpg",
+        autor: "Campos recién arados en las lomas de la Charente, en octubre. Fotografía de JLPC.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Juignac_16_Labours-octobre_2011.jpg",
+        foco: "50% 50%",
+        alt: "Un paisaje ondulado de campos labrados en franjas pardas y ocres, con hileras de árboles al fondo.",
+      },
+    ],
     entrada:
-      "Europa, siglos VI a XI. El arado que se usa en el sur, heredado de Roma, es un palo reforzado que abre un surco superficial y no da la vuelta a la tierra. Funciona bien en los suelos ligeros y secos del Mediterráneo. En las llanuras del norte, con tierras arcillosas, profundas y encharcadas, apenas sirve, y por eso vastas zonas fértiles siguen sin cultivarse.",
+      "Europa, siglos VI a XI. El arado que se usa en el sur, heredado de Roma, es poco más que un palo reforzado con hierro que abre un surco superficial y no llega a dar la vuelta a la tierra. En los suelos ligeros y secos del Mediterráneo cumple de sobra y nadie echa nada en falta. En las llanuras del norte, en cambio, con tierras arcillosas, profundas y encharcadas media parte del año, apenas araña la superficie. Por eso vastas extensiones de tierra buenísima siguen sin cultivar, cubiertas de bosque y de pasto, durante siglos.",
     paginas: [
       {
         rotulo: "Voltear",
