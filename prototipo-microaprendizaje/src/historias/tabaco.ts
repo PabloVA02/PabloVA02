@@ -18,14 +18,48 @@ import type { Short } from "../shorts";
 export const TABACO: Short[] = [
   {
     id: "tabaco-medicina",
-    titulo: "El tabaco se recetaba como medicina",
+    titulo: "El tabaco se recetaba",
     gancho: "Para el asma, el dolor de muelas y hasta para reanimar ahogados soplándoles humo por dentro.",
     categoria: "Tabaco",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un fuelle de madera con un tubo largo dentro de una caja abierta.",
+    fotos: [
+      {
+        archivo: "Resuscitation set, Europe, 1801-1850 Wellcome L0057782.jpg",
+        autor: "Equipo europeo de reanimación de la primera mitad del siglo XIX, con su fuelle, sus cánulas y su caja forrada. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Resuscitation_set,_Europe,_1801-1850_Wellcome_L0057782.jpg",
+        foco: "50% 50%",
+        alt: "Una caja de caoba forrada de paño verde con un fuelle de madera tachonado de latón, tubos y boquillas de marfil.",
+      },
+      {
+        archivo: "Resuscitation bellows, Wellcome Collections objects Wellcome L0070206.jpg",
+        autor: "Fuelle de reanimación con su tubo flexible. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Resuscitation_bellows,_Wellcome_Collections_objects_Wellcome_L0070206.jpg",
+        foco: "50% 50%",
+        alt: "Un fuelle de madera con remaches de latón y una manguera trenzada saliendo de la boquilla.",
+      },
+      {
+        archivo: "Starr-130913-1162-Nicotiana tabacum-flowers-NW Lake-Laysan (24597087323).jpg",
+        autor: "Flores de Nicotiana tabacum, la planta del tabaco. Fotografía de Forest y Kim Starr.",
+        licencia: "CC BY 3.0 us",
+        fuente: "https://commons.wikimedia.org/wiki/File:Starr-130913-1162-Nicotiana_tabacum-flowers-NW_Lake-Laysan_(24597087323).jpg",
+        foco: "50% 50%",
+        alt: "Racimos de flores tubulares de color rosa pálido abriéndose en la punta de un tallo verde.",
+      },
+      {
+        archivo: "Nicotiana tabacum sl24.jpg",
+        autor: "Hojas anchas de la planta del tabaco. Fotografía de Stefan Lefnaer.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nicotiana_tabacum_sl24.jpg",
+        foco: "50% 50%",
+        alt: "Hojas grandes, ovaladas y algo pegajosas de un verde claro, con el nervio central muy marcado.",
+      },
+    ],
     entrada:
-      "Europa, siglos XVI a XVIII. El tabaco llega de América y entra en las farmacias antes que en las tabernas: se receta en polvo, en humo y en emplastos para el dolor de cabeza, el asma, las muelas, las heridas y la peste. Los médicos discuten sus virtudes en tratados serios y se le atribuyen propiedades de todo tipo.",
+      "Europa, siglos XVI a XVIII. El tabaco llega de América y entra en las boticas mucho antes que en las tabernas: se receta en polvo, en humo, en infusión y en emplastos, y se le atribuyen efectos contra el dolor de cabeza, el asma, las muelas, las heridas infectadas, los cólicos y hasta la peste. No es una superstición popular, sino medicina oficial de su tiempo: los médicos discuten sus virtudes en tratados serios, con citas y con casos, y las farmacias lo despachan como cualquier otro remedio del catálogo.",
     paginas: [
       {
         rotulo: "Las lavativas",
