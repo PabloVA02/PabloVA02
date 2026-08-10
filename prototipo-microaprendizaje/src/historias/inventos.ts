@@ -21,13 +21,47 @@ import type { Short } from "../shorts";
 export const INVENTOS: Short[] = [
   {
     id: "microondas-chocolatina",
-    titulo: "Una chocolatina derretida en el bolsillo",
+    titulo: "La chocolatina del bolsillo",
     gancho: "Un ingeniero de radares notó algo pegajoso en el bolsillo y fue a por maíz.",
     categoria: "Inventos",
     color: "var(--clay)",
     encargo: "Un magnetrón antiguo de radar, metal y cobre, sobre fondo neutro.",
+    fotos: [
+      {
+        archivo: "Popcorn - Studio - 2011.jpg",
+        autor: "Granos de maíz para palomitas, sin reventar.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Popcorn_-_Studio_-_2011.jpg",
+        foco: "50% 50%",
+        alt: "Cientos de granos de maíz dorados y brillantes llenando toda la imagen.",
+      },
+      {
+        archivo: "Popcorn 6.jpg",
+        autor: "Palomitas reventadas junto a los granos que no llegaron a abrirse. Fotografía de Deavmi.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Popcorn_6.jpg",
+        foco: "50% 50%",
+        alt: "Palomitas blancas de formas irregulares esparcidas sobre una superficie lisa, con algunos granos amarillos entre ellas.",
+      },
+      {
+        archivo: "Chain Home Radar Mast - geograph.org.uk - 3221459.jpg",
+        autor: "Torre de radar de la red Chain Home, en Inglaterra: la tecnología de la que salió el magnetrón. Fotografía de J. Hannan-Briggs.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chain_Home_Radar_Mast_-_geograph.org.uk_-_3221459.jpg",
+        foco: "50% 45%",
+        alt: "Una torre de celosía metálica muy alta recortada contra un cielo gris, con travesaños regulares.",
+      },
+      {
+        archivo: "NS Savannah microwave oven MD8.jpg",
+        autor: "Horno de microondas instalado en la cocina del carguero nuclear NS Savannah, botado en 1959.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:NS_Savannah_microwave_oven_MD8.jpg",
+        foco: "50% 40%",
+        alt: "Un horno metálico empotrado en un mueble de acero, con la puerta cuadrada y varios mandos redondos al lado.",
+      },
+    ],
     entrada:
-      "En 1945, Percy Spencer trabajaba en Raytheon con magnetrones, los tubos que generan las microondas de los radares militares. Un día, de pie junto a uno encendido, notó que la chocolatina que llevaba en el bolsillo del pantalón se había convertido en una pasta. La anécdota es famosa. Lo interesante es lo que hizo a continuación, que fue lo contrario de asustarse.",
+      "Estados Unidos, 1945. Percy Spencer trabajaba en Raytheon con magnetrones, los tubos que generan las microondas de los radares militares y que la guerra acababa de convertir en un producto de fabricación masiva. Un día, de pie junto a uno encendido, notó que la chocolatina que llevaba en el bolsillo del pantalón se había convertido en una pasta pegajosa. Hasta ahí la anécdota, que es famosa y se cuenta siempre igual. Lo interesante viene después, y es exactamente lo contrario de asustarse y apartarse del aparato.",
     paginas: [
       {
         rotulo: "El maíz",
