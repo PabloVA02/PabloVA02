@@ -22,6 +22,40 @@ export const INVERNADEROS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "El interior de un invernadero de cristal con gotas de condensación en el techo.",
+    fotos: [
+      {
+        archivo: "Glass Roof of the Edgerton Greenhouse Interior.JPG",
+        autor: "El interior de un invernadero visto contra la cubierta de cristal. Fotografía de Karl Thomas Moore.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Glass_Roof_of_the_Edgerton_Greenhouse_Interior.JPG",
+        foco: "50% 50%",
+        alt: "Ramas de hojas verdes finas recortadas contra un techo de cristal muy iluminado y desenfocado.",
+      },
+      {
+        archivo: "Greenhouses in qom 07.jpg",
+        autor: "Invernaderos de cultivo en Qom, Irán. Fotografía de Mostafa Meraji.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Greenhouses_in_qom_07.jpg",
+        foco: "50% 50%",
+        alt: "Hileras largas de plantas bajo una cubierta translúcida sostenida por una estructura ligera.",
+      },
+      {
+        archivo: "Greenhouses in qom 13.jpg",
+        autor: "Otro invernadero del mismo grupo, con las plantas ya crecidas. Fotografía de Mostafa Meraji.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Greenhouses_in_qom_13.jpg",
+        foco: "50% 50%",
+        alt: "El interior de un invernadero con pasillos entre bancadas de plantas y la luz filtrándose desde arriba.",
+      },
+      {
+        archivo: "Greenhouses in qom 15.jpg",
+        autor: "Cultivo bajo cubierta en Qom. Fotografía de Mostafa Meraji.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Greenhouses_in_qom_15.jpg",
+        foco: "50% 50%",
+        alt: "Plantas en macetas alineadas dentro de un invernadero, con la estructura metálica visible al fondo.",
+      },
+    ],
     entrada:
       "Cualquier huerto cubierto, con una explicación que se aclaró definitivamente en un experimento publicado en 1909. La idea intuitiva es que el cristal atrapa la radiación del sol como hace la atmósfera con los gases de efecto invernadero, y esa comparación se repite en muchos libros. Un físico americano decidió comprobarlo con dos cajas iguales, una con techo de cristal y otra con techo de sal.",
     paginas: [
