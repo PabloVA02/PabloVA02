@@ -19,13 +19,48 @@ import type { Short } from "../shorts";
 export const DEPORTE: Short[] = [
   {
     id: "maraton-42195",
-    titulo: "El maratón lo midió un jardín",
+    titulo: "El jardín midió el maratón",
     gancho: "Los 195 metros de más salieron de dónde había que poner la meta en 1908.",
     categoria: "Deporte",
     color: "var(--sage)",
     encargo: "Una línea de meta pintada en una pista de atletismo, vista rasante.",
+    fotos: [
+      {
+        archivo: "Windsor Castle geograph-4089712-by-Ben-Brooksbank.jpg",
+        autor: "Los jardines del castillo de Windsor vistos desde el propio castillo. Fotografía de Ben Brooksbank.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Windsor_Castle_geograph-4089712-by-Ben-Brooksbank.jpg",
+        foco: "50% 55%",
+        alt: "Un jardín inglés en terrazas con césped rayado, setos recortados en bola y arriates de flores rojas.",
+      },
+      {
+        archivo: "ΚΑΛΛΙΜΑΡΜΑΡΟ ΣΤΑΔΙΟ 4.jpg",
+        autor: "El estadio Panathinaikó de Atenas, todo de mármol, donde se corrió el maratón de 1896.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:%CE%9A%CE%91%CE%9B%CE%9B%CE%99%CE%9C%CE%91%CE%A1%CE%9C%CE%91%CE%A1%CE%9F_%CE%A3%CE%A4%CE%91%CE%94%CE%99%CE%9F_4.jpg",
+        foco: "50% 50%",
+        alt: "Un estadio alargado de gradas de mármol blanco en forma de herradura, con la pista de tierra en el centro.",
+      },
+      {
+        archivo: "Windsor Castle, from the North East (BM 1895,0408.39.1).jpg",
+        autor: "El castillo de Windsor desde el nordeste, litografía de William Westall de 1831. British Museum.",
+        licencia: "Dominio público",
+        pdPorEdad: 1850,
+        fuente: "https://commons.wikimedia.org/wiki/File:Windsor_Castle,_from_the_North_East_(BM_1895,0408.39.1).jpg",
+        foco: "50% 45%",
+        alt: "Una litografía del castillo con sus torres almenadas al fondo y un paseo de jardín en primer término.",
+      },
+      {
+        archivo: "Citius, Altius, Fortius.jpg",
+        autor: "El mismo estadio ateniense hoy, con el Discóbolo de Konstantinos Dimitriadis a la entrada. Fotografía de Rob Oo.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Citius,_Altius,_Fortius.jpg",
+        foco: "50% 50%",
+        alt: "Las gradas de mármol de un estadio bajo un cielo azul, con una estatua de bronce de un lanzador de disco delante.",
+      },
+    ],
     entrada:
-      "Un maratón mide 42 kilómetros y 195 metros. Es una distancia tan poco redonda que parece calculada por alguien con muy mala idea, y en cierto modo lo fue: no viene de la Grecia clásica ni de ningún cálculo, sino de una organización británica ajustando el recorrido a la comodidad de la familia real.",
+      "Un maratón mide cuarenta y dos kilómetros y ciento noventa y cinco metros. Es una distancia tan poco redonda que parece calculada por alguien con muy mala idea, y en cierto modo lo fue, aunque no por maldad sino por comodidad ajena. No viene de la Grecia clásica, ni de la distancia real entre dos sitios, ni de ningún cálculo deportivo. Viene de una organización británica que en 1908 ajustó el recorrido para que la salida cayera debajo de una ventana del castillo de Windsor y la meta delante del palco real.",
     paginas: [
       {
         rotulo: "Antes de 1908",
