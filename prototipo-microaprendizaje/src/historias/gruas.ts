@@ -80,13 +80,47 @@ export const GRUAS: Short[] = [
   },
   {
     id: "el-contrapeso-de-la-torre",
-    titulo: "La grúa se sostiene por detrás",
+    titulo: "Se sostiene por detrás",
     gancho: "Los bloques de hormigón de la parte de atrás pesan lo justo para que la máquina no vuelque hacia delante.",
     categoria: "Grúas",
     color: "var(--slate)",
     encargo: "Una grúa torre recortada contra el cielo, con sus bloques de contrapeso al fondo del brazo.",
+    fotos: [
+      {
+        archivo: "Crane against blue sky.jpg",
+        autor: "Grúa torre recortada contra el cielo, con el contrapeso en la parte trasera del brazo. Fotografía de ProjectManhattan, 2014.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Crane_against_blue_sky.jpg",
+        foco: "50% 50%",
+        alt: "La parte alta de una grúa torre contra un cielo azul con nubes, con el brazo largo a un lado y los bloques de contrapeso al otro.",
+      },
+      {
+        archivo: "Tower crane rising at hollywoodHUB construction site, Portland, Oregon.jpg",
+        autor: "Grúa torre levantada en una obra de Portland, Oregón. Fotografía de PortlandAppraisalBlog.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tower_crane_rising_at_hollywoodHUB_construction_site,_Portland,_Oregon.jpg",
+        foco: "50% 45%",
+        alt: "Una grúa torre completa sobre una obra, con la torre de celosía y el brazo horizontal extendido.",
+      },
+      {
+        archivo: "King's Cross Central development tower cranes, London, England 01.jpg",
+        autor: "Grúas torre en las obras de King's Cross, Londres, 2019. Fotografía de Acabashi.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:King's_Cross_Central_development_tower_cranes,_London,_England_01.jpg",
+        foco: "50% 45%",
+        alt: "Varias grúas torre de distintas alturas trabajando sobre un edificio en construcción.",
+      },
+      {
+        archivo: "Crane at dusk (5066600657).jpg",
+        autor: "Grúa torre al anochecer. Fotografía de Quinn Dombrowski, 2010.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Crane_at_dusk_(5066600657).jpg",
+        foco: "50% 50%",
+        alt: "La silueta de una grúa torre recortada contra un cielo de atardecer.",
+      },
+    ],
     entrada:
-      "Cualquier obra desde 1949, año en que se patentó la grúa torre montable que hoy vemos por todas partes. Es una estructura de celosía metálica muy alta y muy delgada, con un brazo largo que gira, y a cualquiera le sorprende que no se caiga cuando levanta varias toneladas en la punta. El truco está en el otro extremo del brazo.",
+      "Cualquier obra desde 1949, año en que se patentó la grúa torre montable que hoy vemos por todas partes. Es una estructura de celosía metálica muy alta y muy delgada, con un brazo largo que gira sobre la punta, y a cualquiera que se pare a mirarla le sorprende que no se venza hacia delante cuando levanta varias toneladas en el extremo. No hay ningún tirante escondido ni ningún anclaje al suelo que lo impida: el truco está entero en el otro extremo del brazo, en unos bloques de hormigón que la mayoría de la gente ni mira.",
     paginas: [
       {
         rotulo: "La balanza",

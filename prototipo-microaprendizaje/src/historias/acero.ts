@@ -88,8 +88,42 @@ export const ACERO: Short[] = [
     categoria: "Acero",
     color: "var(--clay)",
     encargo: "Un convertidor con forma de pera inclinado soltando una llamarada enorme.",
+    fotos: [
+      {
+        archivo: "A scene in a steel mill, Republic Steel, Youngstown, Ohio.jpg",
+        autor: "Convertidor Bessemer soplando en la acería de Republic Steel, Youngstown (Ohio), noviembre de 1941. Fotografía de Alfred T. Palmer.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_scene_in_a_steel_mill,_Republic_Steel,_Youngstown,_Ohio.jpg",
+        foco: "50% 45%",
+        alt: "Una llamarada blanca saliendo de la boca de un convertidor en una nave oscura, con chispas cayendo como lluvia.",
+      },
+      {
+        archivo: "A scene in a steel mill, Republic Steel, Youngstown, Ohio. Molten iron is blown in an Eastern Bessemer converter to change it to steel for war essentials LCCN2017878216.tif",
+        autor: "Otra toma del mismo convertidor en plena colada, 1941. Fotografía de Alfred T. Palmer, Biblioteca del Congreso.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_scene_in_a_steel_mill,_Republic_Steel,_Youngstown,_Ohio._Molten_iron_is_blown_in_an_Eastern_Bessemer_converter_to_change_it_to_steel_for_war_essentials_LCCN2017878216.tif",
+        foco: "50% 45%",
+        alt: "El interior de una acería iluminado por la llama del convertidor, con la estructura de la nave en penumbra.",
+      },
+      {
+        archivo: "Usine de Neunkirchen 1922 Aciérie Thomas.png",
+        autor: "Acería Thomas de Neunkirchen, 1922. El revestimiento básico del convertidor fue lo que resolvió el problema del fósforo.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Usine_de_Neunkirchen_1922_Aci%C3%A9rie_Thomas.png",
+        foco: "50% 50%",
+        alt: "Vista de una nave de acería con los convertidores alineados y las pasarelas de servicio.",
+      },
+      {
+        archivo: "Building a Skyscraper, Placing Steel Beams, Metropolitan Tower, New York City (NYPL b11708059-G91F204 026F).tiff",
+        autor: "Colocación de vigas de acero en la Metropolitan Tower de Nueva York, principios del siglo XX. New York Public Library.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Building_a_Skyscraper,_Placing_Steel_Beams,_Metropolitan_Tower,_New_York_City_(NYPL_b11708059-G91F204_026F).tiff",
+        foco: "50% 50%",
+        alt: "Obreros montando vigas de acero en la estructura de un rascacielos en construcción.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1856. El acero es un material caro y escaso que se fabrica en cantidades pequeñas y se reserva para muelles, herramientas y cubiertos: producir una tonelada cuesta días de trabajo y una montaña de carbón. Un ingeniero presenta ante la asociación británica un procedimiento que promete hacerlo en veinte minutos y sin combustible añadido.",
+      "Inglaterra, 1856. El acero es un material caro y escaso que se fabrica en cantidades pequeñas y se reserva para muelles, herramientas y cubiertos, porque producir una sola tonelada cuesta días de trabajo y una montaña de carbón. Todo lo demás se hace de hierro, que es más barato y bastante peor. Ese año un ingeniero se presenta ante la asociación británica de la ciencia con un procedimiento que promete lo mismo en veinte minutos y sin añadir combustible ninguno, y la sala lo escucha entre la incredulidad y la sospecha.",
     paginas: [
       {
         rotulo: "El aire",
