@@ -16,13 +16,48 @@ import type { Short } from "../shorts";
 export const SOMBREROS: Short[] = [
   {
     id: "el-sombrerero-loco",
-    titulo: "Los sombrereros enfermaban por el mercurio del fieltro",
+    titulo: "El mercurio del fieltro",
     gancho: "Temblor de manos, dientes perdidos y carácter irritable. No era una expresión: era una intoxicación laboral.",
     categoria: "Sombreros",
     color: "var(--plum)",
     encargo: "Un taller con moldes de madera para sombreros y vapor saliendo de una cuba.",
+    fotos: [
+      {
+        archivo: "Top hat - Hardy Brothers (1).jpg",
+        autor: "Una chistera de felpa de seda sobre fieltro. Fotografía de Toxophilus.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Top_hat_-_Hardy_Brothers_(1).jpg",
+        foco: "50% 55%",
+        alt: "Un sombrero de copa negro y brillante, con cinta y ala curvada, apoyado sobre una tabla de madera clara.",
+      },
+      {
+        archivo: "Hat, top (AM 1965.13-3).jpg",
+        autor: "Sombrero de copa de la década de 1880, fabricado por Cooper Box & Co. Auckland War Memorial Museum.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hat,_top_(AM_1965.13-3).jpg",
+        foco: "50% 50%",
+        alt: "Una chistera antigua de copa alta y fieltro negro, algo desgastada por el uso.",
+      },
+      {
+        archivo: "Collapsible top hat IMGP9692.jpg",
+        autor: "Una chistera plegable, del tipo que se llevaba doblada bajo el brazo. Fotografía de Nikodem Nijaki.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Collapsible_top_hat_IMGP9692.jpg",
+        foco: "50% 50%",
+        alt: "Un sombrero de copa con muelles interiores que permiten aplastarlo, medio abierto sobre fondo neutro.",
+      },
+      {
+        archivo: "Robert Howlett (Isambard Kingdom Brunel Standing Before the Launching Chains of the Great Eastern), The Metropolitan Museum of Art - restoration1.jpg",
+        autor: "El ingeniero Isambard Kingdom Brunel ante las cadenas de botadura del Great Eastern, fotografiado por Robert Howlett en 1857. Metropolitan Museum, Nueva York.",
+        licencia: "Dominio público",
+        pdPorEdad: 1858,
+        fuente: "https://commons.wikimedia.org/wiki/File:Robert_Howlett_(Isambard_Kingdom_Brunel_Standing_Before_the_Launching_Chains_of_the_Great_Eastern),_The_Metropolitan_Museum_of_Art_-_restoration1.jpg",
+        foco: "50% 40%",
+        alt: "Un hombre con chistera alta y traje embarrado, de pie con las manos en los bolsillos delante de unas cadenas gigantescas.",
+      },
+    ],
     entrada:
-      "Francia e Inglaterra, siglos XVIII y XIX. El fieltro de los buenos sombreros se hace con pelo de conejo o de liebre, que por sí solo no se apelmaza bien. Los talleres descubrieron que tratándolo con una disolución de mercurio el pelo se riza microscópicamente y se enreda con facilidad, y el resultado es un fieltro más denso y más barato. Se llamó, sin ninguna ironía, el secreto.",
+      "Francia e Inglaterra, siglos XVIII y XIX. El fieltro de los buenos sombreros se hace con pelo de conejo o de liebre, que por sí solo no se apelmaza bien y da un material flojo. Los talleres descubrieron que, tratando el pelo con una disolución de nitrato de mercurio, cada pelo se riza microscópicamente y se enreda con los de al lado con muchísima más facilidad. El resultado es un fieltro más denso, más rápido de hacer y bastante más barato. Al procedimiento se le llamó, sin la menor ironía, el secreto.",
     paginas: [
       {
         rotulo: "El vapor del taller",
