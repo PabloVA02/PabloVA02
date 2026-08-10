@@ -89,8 +89,42 @@ export const CORCHO: Short[] = [
     categoria: "Objetos",
     color: "var(--clay)",
     encargo: "Tapón de corcho a medio entrar en el cuello de una botella, visto muy de cerca.",
+    fotos: [
+      {
+        archivo: "Rolhas de Cortiça Natural - Cork stopper for a wine bottle.jpg",
+        autor: "Tapones de corcho natural usados, marcados a fuego por las bodegas. Fotografía de Hudson C. S. de Souza, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rolhas_de_Corti%C3%A7a_Natural_-_Cork_stopper_for_a_wine_bottle.jpg",
+        foco: "50% 50%",
+        alt: "Un montón apretado de tapones de corcho, algunos con la punta teñida de vino tinto.",
+      },
+      {
+        archivo: "Korkeiche (Quercus suber) im Naturpark Los Alcornocales 8 - Detaillansicht.JPG",
+        autor: "Corteza de alcornoque (Quercus suber) en el parque natural de Los Alcornocales, Cádiz. Fotografía de Tschips, 2013.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Korkeiche_(Quercus_suber)_im_Naturpark_Los_Alcornocales_8_-_Detaillansicht.JPG",
+        foco: "50% 50%",
+        alt: "Detalle de la corteza gruesa y agrietada de un alcornoque, con los surcos profundos del corcho.",
+      },
+      {
+        archivo: "09-06-2017 Harvested cork, Foz do Ribeiro, São Bartolomeu de Messines (1).JPG",
+        autor: "Planchas de corcho recién sacadas y apiladas en el Algarve portugués, junio de 2017. Fotografía de Kolforn.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:09-06-2017_Harvested_cork,_Foz_do_Ribeiro,_S%C3%A3o_Bartolomeu_de_Messines_(1).JPG",
+        foco: "50% 50%",
+        alt: "Planchas curvas de corcho recién descorchado apiladas en el suelo del monte.",
+      },
+      {
+        archivo: "Quercus suber dehesa.jpg",
+        autor: "Dehesa de alcornoques con los troncos pelados hasta media altura. Fotografía de Cillas.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Quercus_suber_dehesa.jpg",
+        foco: "50% 50%",
+        alt: "Alcornoques repartidos por una dehesa, con la parte baja del tronco descorchada y de color rojizo.",
+      },
+    ],
     entrada:
-      "Francia, finales del siglo XVII. Las botellas de vidrio empiezan a fabricarse en serie y hace falta algo que las tape bien, porque el trapo con cera no aguanta la presión ni el transporte. El corcho se impone en pocas décadas por una propiedad física que no tiene casi ningún otro material. Cuando lo aprietas por los lados, no se ensancha por arriba ni por abajo.",
+      "Francia, finales del siglo XVII. Las botellas de vidrio empiezan a fabricarse en serie y hace falta algo que las tape de verdad, porque el trapo con cera que se venía usando no aguanta ni la presión de dentro ni el traqueteo del transporte. El corcho se impone en pocas décadas por una propiedad física que no tiene casi ningún otro material del mundo, y que es más rara de lo que parece. Cuando lo aprietas por los lados no se ensancha por arriba ni por abajo: se estrecha entero, y por eso cabe en un cuello más fino que él.",
     paginas: [
       {
         rotulo: "Apretar sin crecer",

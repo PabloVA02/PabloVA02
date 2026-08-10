@@ -87,11 +87,45 @@ export const PEREGRINOS: Short[] = [
   },
   {
     id: "la-concha-y-el-papel",
-    titulo: "La concha demostraba que habías llegado",
+    titulo: "La concha era el recibo",
     gancho: "Era el recibo del viaje, se vendía solo en el destino y falsificarla podía costar la excomunión.",
     categoria: "Peregrinos",
     color: "var(--slate)",
     encargo: "Una concha de vieira atada con un cordel a un zurrón de cuero gastado.",
+    fotos: [
+      {
+        archivo: "2010-Catedral de Santiago de Compostela-Galicia (Spain) 3.jpg",
+        autor: "Las torres de la catedral de Santiago de Compostela, 2010. Fotografía de Luis Miguel Bugallo Sánchez.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2010-Catedral_de_Santiago_de_Compostela-Galicia_(Spain)_3.jpg",
+        foco: "50% 45%",
+        alt: "Las torres barrocas de la catedral de Santiago recortadas contra un cielo azul, con los tejados rojos de la ciudad delante.",
+      },
+      {
+        archivo: "Close-up view on Pecten maximus (Ifremer 00618-73027 - 28923).jpg",
+        autor: "Vieira viva (Pecten maximus), la concha de Santiago, en el fondo marino. Fotografía de Matthias Huber, Ifremer.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Close-up_view_on_Pecten_maximus_(Ifremer_00618-73027_-_28923).jpg",
+        foco: "50% 50%",
+        alt: "Una vieira abierta en el fondo del mar, con las estrías de la concha y el borde del manto visibles.",
+      },
+      {
+        archivo: "Lead alloy Medieval Pilgrim badge (FindID 768597).jpg",
+        autor: "Insignia de peregrino de aleación de plomo, siglos XIV a XVI, hallada en Inglaterra. Portable Antiquities Scheme.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lead_alloy_Medieval_Pilgrim_badge_(FindID_768597).jpg",
+        foco: "50% 50%",
+        alt: "Una insignia medieval de plomo calada, con una figura dentro de un marco arquitectónico rematado por una cruz.",
+      },
+      {
+        archivo: "Camino Primitivo, marcador Asturias-Galicia.jpg",
+        autor: "Mojón del Camino Primitivo en la raya entre Asturias y Galicia, 2019. Fotografía de Simon Burchell.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Camino_Primitivo,_marcador_Asturias-Galicia.jpg",
+        foco: "50% 50%",
+        alt: "Un mojón de piedra con la concha amarilla del camino, en medio del monte.",
+      },
+    ],
     entrada:
       "Europa, siglos XII a XV. Un peregrino que vuelve de un santuario lejano necesita demostrarlo: ha estado meses fuera, ha gastado el dinero de su casa y, en muchos casos, viajaba para cumplir una promesa o una condena. La prueba es un objeto pequeño que solo se consigue en el destino y que se cose a la ropa o al sombrero, bien a la vista, para que cualquiera lo reconozca de lejos.",
     paginas: [
