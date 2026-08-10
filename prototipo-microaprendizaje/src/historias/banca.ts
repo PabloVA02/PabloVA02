@@ -23,8 +23,42 @@ export const BANCA: Short[] = [
     categoria: "Banca",
     color: "var(--ochre)",
     encargo: "Un documento antiguo doblado con sellos de cera sobre una mesa de madera.",
+    fotos: [
+      {
+        archivo: "Temple Church is a late 12th-century church.jpg",
+        autor: "La iglesia del Temple de Londres, de planta redonda, construida para los templarios a finales del siglo XII.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Temple_Church_is_a_late_12th-century_church.jpg",
+        foco: "50% 45%",
+        alt: "Un templo circular de piedra dorada con ventanas de arco de medio punto y un remate almenado, bajo un cielo azul.",
+      },
+      {
+        archivo: "Medieval coin hoard, Pennies of Henry II to Henry III (FindID 576061).jpg",
+        autor: "Tesorillo de peniques de plata ingleses acuñados entre 1180 y 1247, hallado en Staffordshire. Portable Antiquities Scheme.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Medieval_coin_hoard,_Pennies_of_Henry_II_to_Henry_III_(FindID_576061).jpg",
+        foco: "50% 50%",
+        alt: "Una decena de monedas de plata medievales, desgastadas y con la cruz marcada, colocadas en filas.",
+      },
+      {
+        archivo: "Triforium of the Temple Church, London.jpg",
+        autor: "El triforio circular de la misma iglesia por dentro. Fotografía de Shortenfs.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Triforium_of_the_Temple_Church,_London.jpg",
+        foco: "50% 50%",
+        alt: "Una galería de arcos apoyados en columnas dobles de mármol, recorriendo en círculo el interior del templo.",
+      },
+      {
+        archivo: "Seal matrix wax impression (FindID 480917).jpg",
+        autor: "Matriz de sello medieval con su impresión en cera, el modo de autenticar un documento. Portable Antiquities Scheme.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Seal_matrix_wax_impression_(FindID_480917).jpg",
+        foco: "50% 45%",
+        alt: "Un sello de metal junto al disco de cera donde ha dejado grabado su dibujo y una inscripción alrededor.",
+      },
+    ],
     entrada:
-      "Europa, siglo XII. Ir en peregrinación a Tierra Santa supone tres o cuatro mil kilómetros de camino con dinero encima, por una ruta llena de bandidos donde nadie puede defender su bolsa. Una orden militar de monjes soldados encuentra la solución: que el dinero no viaje. El peregrino deja su oro en una casa de la orden y recibe a cambio un documento.",
+      "Europa, siglo XII. Ir en peregrinación a Tierra Santa supone tres o cuatro mil kilómetros de camino con todo el dinero encima, por rutas llenas de bandidos y de señores con peaje donde nadie puede defender su bolsa más de una vez. Una orden militar de monjes soldados encuentra una solución que parece obvia y que en aquel momento no lo era en absoluto: que el dinero no viaje. El peregrino deja su oro en una casa de la orden antes de salir y recibe a cambio un documento doblado.",
     paginas: [
       {
         rotulo: "El papel",
