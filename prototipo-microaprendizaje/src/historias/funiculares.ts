@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const FUNICULARES: Short[] = [
   {
     id: "dos-cabinas-un-cable",
-    titulo: "El funicular sube porque otro baja",
+    titulo: "Sube porque otro baja",
     gancho: "Dos vagones atados al mismo cable se equilibran entre sí. El motor solo tiene que vencer la diferencia de peso.",
     categoria: "Funiculares",
     color: "var(--slate)",
     encargo: "Dos cabinas de funicular cruzandose a media ladera en una via unica.",
+    fotos: [
+      {
+        archivo: "Vevey–Chardonne–Mont Pèlerin funicular railway 01.jpg",
+        autor: "La vía del funicular de Vevey a Mont Pèlerin bajando hacia el lago Lemán, en Suiza. Fotografía de Llez.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vevey%E2%80%93Chardonne%E2%80%93Mont_P%C3%A8lerin_funicular_railway_01.jpg",
+        foco: "50% 55%",
+        alt: "Una vía de raíles cayendo en línea recta por una ladera, con la ciudad y un lago grande al fondo.",
+      },
+      {
+        archivo: "Vevey–Chardonne–Mont Pèlerin funicular railway 04.jpg",
+        autor: "Uno de los dos coches del mismo funicular, con el piso escalonado para ir siempre horizontal. Fotografía de Llez.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vevey%E2%80%93Chardonne%E2%80%93Mont_P%C3%A8lerin_funicular_railway_04.jpg",
+        foco: "50% 50%",
+        alt: "Un vagón con el suelo cortado en peldaños subiendo por una vía muy inclinada.",
+      },
+      {
+        archivo: "Caumasee with funicular 20210614.jpg",
+        autor: "El pequeño funicular que baja al lago de Cauma, en los Grisones suizos. Fotografía de Daniel Kraft.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Caumasee_with_funicular_20210614.jpg",
+        foco: "50% 50%",
+        alt: "Un lago de agua turquesa rodeado de bosque, con una vía corta bajando por la ladera hasta la orilla.",
+      },
+      {
+        archivo: "Funicular in Dubuque, Iowa.png",
+        autor: "El funicular de Dubuque, en Iowa, que sube apenas noventa metros de cuesta. Fotografía de Funknendai.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Funicular_in_Dubuque,_Iowa.png",
+        foco: "50% 50%",
+        alt: "Una caseta de madera roja en lo alto de una vía corta y empinada encajada entre casas.",
+      },
+    ],
     entrada:
-      "Suiza y Austria, segunda mitad del siglo XIX. Las ciudades crecen hacia laderas muy empinadas y hace falta subir gente por cuestas donde ningún tranvía puede. La solución que se inventa se llama funicular: un vagón que sube por una vía de raíles clavada en la ladera, tirado por un cable de acero. Y lo curioso es de dónde saca la fuerza para subir.",
+      "Suiza y Austria, segunda mitad del siglo XIX. Las ciudades crecen hacia laderas cada vez más empinadas y hace falta subir gente por cuestas donde ningún tranvía puede trepar, porque las ruedas de acero patinan sobre el raíl en cuanto la pendiente se pronuncia. La solución que se inventa entonces se llama funicular: un vagón que sube por una vía de raíles clavada en la ladera, tirado por un cable de acero. Lo curioso, y lo que casi nadie sabe al montarse, es de dónde saca la fuerza para subir.",
     paginas: [
       {
         rotulo: "El equilibrio",
