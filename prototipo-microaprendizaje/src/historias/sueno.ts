@@ -20,13 +20,47 @@ import type { Short } from "../shorts";
 export const SUENO: Short[] = [
   {
     id: "randy-gardner",
-    titulo: "Once días sin dormir, con dos científicos mirando",
+    titulo: "Once días sin dormir",
     gancho: "Tenía diecisiete años y era un trabajo para la feria de ciencias del instituto.",
     categoria: "Sueño",
     color: "var(--plum)",
     encargo: "Un despertador analógico marcando una hora de madrugada, luz muy tenue.",
+    fotos: [
+      {
+        archivo: "Old alarm clock on the bookshelf - 50233824038.jpg",
+        autor: "Un despertador de cuerda con campanas, sobre una estantería de libros. Fotografía de Nenad Stojkovic.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Old_alarm_clock_on_the_bookshelf_-_50233824038.jpg",
+        foco: "50% 50%",
+        alt: "Un despertador antiguo de metal con dos campanas y esfera blanca, apoyado en una balda de madera.",
+      },
+      {
+        archivo: "Full moon over Gullmarn fjord at Holma Marina 1.jpg",
+        autor: "Luna llena entre las nubes sobre el fiordo de Gullmarn, en Suecia. Fotografía de W. carter.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Full_moon_over_Gullmarn_fjord_at_Holma_Marina_1.jpg",
+        foco: "50% 45%",
+        alt: "La luna llena atravesando un banco de nubes sobre un agua oscura y quieta.",
+      },
+      {
+        archivo: "Early fix of Comet C 2023 A3 (Tsuchinshan–ATLAS).jpg",
+        autor: "El cielo de antes del amanecer del 27 de septiembre de 2024, con el cometa Tsuchinshan-ATLAS asomando. Fotografía de Astrobond.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Early_fix_of_Comet_C_2023_A3_(Tsuchinshan%E2%80%93ATLAS).jpg",
+        foco: "50% 50%",
+        alt: "Un cielo azul oscuro que empieza a clarear por abajo, con una raya de luz difusa cerca del horizonte.",
+      },
+      {
+        archivo: "Andaman Islands, Full moon night, Forest by the sea at night.jpg",
+        autor: "Noche de luna llena en la costa del mar de Andamán. Fotografía de Vyacheslav Argenberg.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Andaman_Islands,_Full_moon_night,_Forest_by_the_sea_at_night.jpg",
+        foco: "50% 50%",
+        alt: "Palmeras y arena iluminadas de azul por la luz de la luna, con el mar liso al fondo.",
+      },
+    ],
     entrada:
-      "San Diego, diciembre de 1963. Randy Gardner, estudiante de bachillerato, decide batir el récord de tiempo sin dormir como proyecto para la feria de ciencias de su instituto. Empieza un martes con dos amigos vigilándolo por turnos. A los pocos días la historia sale en la prensa, y aparece por su casa un investigador del sueño de la Universidad de Stanford.",
+      "San Diego, diciembre de 1963. Randy Gardner, estudiante de bachillerato de diecisiete años, decide batir el récord de tiempo sin dormir y presentarlo como proyecto para la feria de ciencias de su instituto. Empieza un martes por la mañana, con dos amigos que se turnan para vigilarlo y para impedir que se le cierren los ojos. A los pocos días la historia sale en la prensa local y luego en la nacional, y una tarde aparece por su casa un investigador del sueño de la Universidad de Stanford dispuesto a quedarse hasta el final.",
     paginas: [
       {
         rotulo: "La cuenta atrás",
