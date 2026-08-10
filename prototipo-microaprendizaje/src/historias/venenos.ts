@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const VENENOS: Short[] = [
   {
     id: "el-veneno-perfecto",
-    titulo: "Hubo un veneno que no se podía detectar",
+    titulo: "El veneno sin rastro",
     gancho: "Mataba con síntomas de enfermedad común y no dejaba rastro visible. Se le llamó el polvo de la herencia.",
     categoria: "Venenos",
     color: "var(--slate)",
     encargo: "Un frasco pequeño de cristal oscuro con polvo blanco, sobre madera antigua.",
+    fotos: [
+      {
+        archivo: "Realgar & pararealgar & calcite on marble (Middle Eocene mineralization, 39 Ma; Getchell Mine, northern Osgood Mountains, northern Nevada, USA) 2 (18909791261).jpg",
+        autor: "Cristales de rejalgar, un sulfuro de arsénico, sobre calcita blanca. Mina de Getchell, Nevada. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Realgar_%26_pararealgar_%26_calcite_on_marble_(Middle_Eocene_mineralization,_39_Ma;_Getchell_Mine,_northern_Osgood_Mountains,_northern_Nevada,_USA)_2_(18909791261).jpg",
+        foco: "50% 50%",
+        alt: "Cristales rojo oscuro y anaranjados incrustados entre cristales blancos y translúcidos, vistos muy de cerca.",
+      },
+      {
+        archivo: "Orpiment crystals (Twin Creeks Mine, Humboldt County, Nevada, USA) (18720354540).jpg",
+        autor: "Cristales de oropimente, el otro mineral de arsénico, de un amarillo muy vivo. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Orpiment_crystals_(Twin_Creeks_Mine,_Humboldt_County,_Nevada,_USA)_(18720354540).jpg",
+        foco: "50% 50%",
+        alt: "Un racimo de cristales amarillo dorado, brillantes y facetados, sobre roca oscura.",
+      },
+      {
+        archivo: "Chemical apparatus. mid 19th C Wellcome M0018217.jpg",
+        autor: "Aparatos de química de mediados del siglo XIX: dos retortas y una campana de vidrio. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chemical_apparatus._mid_19th_C_Wellcome_M0018217.jpg",
+        foco: "50% 50%",
+        alt: "Dos recipientes de vidrio de cuello largo y curvo junto a una campana transparente, sobre fondo claro.",
+      },
+      {
+        archivo: "Orpiment with arsenic (GeoDIL number - 1232).jpg",
+        autor: "Oropimente con arsénico nativo. Colección GeoDIL. Fotografía de Nessa Eull.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Orpiment_with_arsenic_(GeoDIL_number_-_1232).jpg",
+        foco: "50% 50%",
+        alt: "Una masa mineral amarilla y translúcida pegada a una costra gris metálica.",
+      },
+    ],
     entrada:
-      "Europa, siglos XVII y XVIII. El arsénico es un polvo blanco, sin sabor apreciable, que se vende legalmente en cualquier botica para matar ratas. Ingerido en dosis pequeñas produce vómitos, diarrea y dolor abdominal, exactamente los mismos síntomas que un cólera o una intoxicación por alimentos, que entonces mataban a muchísima gente y no extrañaban a nadie.",
+      "Europa, siglos XVII y XVIII. El arsénico se presenta como un polvo blanco, sin olor y sin sabor apreciable, y se vende legalmente en cualquier botica del continente porque es lo que se usa para matar ratas. Ingerido en dosis pequeñas produce vómitos, diarrea y dolor abdominal fuerte, que son exactamente los mismos síntomas de un cólera o de una intoxicación por alimentos en mal estado. Y esas dos cosas mataban entonces a muchísima gente todos los años, de manera que un muerto así no le extrañaba absolutamente a nadie.",
     paginas: [
       {
         rotulo: "Sin rastro",
