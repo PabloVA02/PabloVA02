@@ -23,8 +23,42 @@ export const BASURA: Short[] = [
     categoria: "Basura",
     color: "var(--slate)",
     encargo: "Una gabarra baja cargada de bolsas de basura navegando en mar abierto.",
+    fotos: [
+      {
+        archivo: "TUGBOAT HERDS TWO LADEN GARBAGE SCOWS DOWN THE EAST RIVER FROM TRANSFER POINT AT 91ST STREET. DESTINATION IS THE... - NARA - 549799.jpg",
+        autor: "Un remolcador conduciendo dos gabarras cargadas de basura por el East River de Nueva York, en 1973. Archivos Nacionales de Estados Unidos.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:TUGBOAT_HERDS_TWO_LADEN_GARBAGE_SCOWS_DOWN_THE_EAST_RIVER_FROM_TRANSFER_POINT_AT_91ST_STREET._DESTINATION_IS_THE..._-_NARA_-_549799.jpg",
+        foco: "50% 50%",
+        alt: "Un remolcador rojo navegando entre dos montañas de basura amontonada en gabarras, con rascacielos al fondo.",
+      },
+      {
+        archivo: "DUMP TRUCKS, EARTHMOVERS AND SEAGULLS AT THE CROTON LANDFILL OPERATION - NARA - 549953.jpg",
+        autor: "Camiones y máquinas trabajando en el vertedero de Croton, en agosto de 1973. Fotografía de Wil Blanche.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:DUMP_TRUCKS,_EARTHMOVERS_AND_SEAGULLS_AT_THE_CROTON_LANDFILL_OPERATION_-_NARA_-_549953.jpg",
+        foco: "50% 50%",
+        alt: "Camiones volquete y una excavadora sobre un terraplén de residuos, rodeados de gaviotas en vuelo.",
+      },
+      {
+        archivo: "SEAGULLS FEED OFF GARBAGE AT THE DUMP IN HACKENSACK MEADOWS. IN TIME THIS LANDFILL WILL PROVIDE RECREATION FOR THE... - NARA - 549737.jpg",
+        autor: "Gaviotas alimentándose en el vertedero de Hackensack Meadows, Nueva Jersey, en marzo de 1973. Fotografía de Gary Miller.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:SEAGULLS_FEED_OFF_GARBAGE_AT_THE_DUMP_IN_HACKENSACK_MEADOWS._IN_TIME_THIS_LANDFILL_WILL_PROVIDE_RECREATION_FOR_THE..._-_NARA_-_549737.jpg",
+        foco: "50% 50%",
+        alt: "Una llanura de basura removida cubierta por cientos de gaviotas blancas posadas y volando.",
+      },
+      {
+        archivo: "Rusty fender car junkyard (Unsplash).jpg",
+        autor: "Carrocerías oxidadas en un desguace. Fotografía de Sean Stratton.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rusty_fender_car_junkyard_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "El guardabarros comido de óxido de un coche antiguo, con la pintura levantada en costras.",
+      },
+    ],
     entrada:
-      "Estados Unidos, marzo de 1987. Una gabarra cargada con más de tres mil toneladas de basura doméstica sale de un puerto cercano a Nueva York rumbo al sur. La idea es descargarla en una granja donde convertirla en abono y en gas, un negocio nuevo del que un empresario espera sacar mucho dinero. El plan se tuerce a los pocos días de zarpar.",
+      "Estados Unidos, marzo de 1987. Una gabarra cargada con más de tres mil toneladas de basura doméstica sale de un puerto cercano a Nueva York rumbo al sur, remolcada y sin ninguna prisa. La idea es descargarla en una granja de Carolina del Norte y convertirla allí en abono y en gas, un negocio nuevo del que un empresario espera sacar mucho dinero y que sobre el papel beneficia a todo el mundo. El plan se tuerce a los pocos días de zarpar, por un rumor que nadie llegó a confirmar nunca.",
     paginas: [
       {
         rotulo: "El viaje",
