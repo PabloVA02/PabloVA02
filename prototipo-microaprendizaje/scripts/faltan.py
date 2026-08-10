@@ -25,15 +25,21 @@ def cuantas(b):
 
 cuantos = int(sys.argv[1]) if len(sys.argv) > 1 else 6
 n = 0
+# Se recorre short a short, y se da una vuelta entera por los primeros de cada
+# tema antes de pasar a los segundos: así el muro se llena de forma pareja.
+faltan = []
 for g in grupos:
     f = imp.get(g)
     if not f: continue
     t = io.open("src/historias/%s.ts" % f, encoding="utf8").read()
-    b = next(bloques(t), "")
-    c = cuantas(b)
-    if c >= 4: continue
-    tit = re.search(r'titulo: "([^"]+)"', b)
-    pag = [m.group(1) for m in re.finditer(r'rotulo: "([^"]*)"', b)]
-    print("%-20s %d/4  «%s» | %s" % (f, c, tit.group(1), " · ".join(pag)))
+    for k, b in enumerate(bloques(t)):
+        c = cuantas(b)
+        if c >= 4: continue
+        tit = re.search(r'titulo: "([^"]+)"', b)
+        pag = [m.group(1) for m in re.finditer(r'rotulo: "([^"]*)"', b)]
+        faltan.append((k, f, c, tit.group(1) if tit else "?", " · ".join(pag)))
+
+for k, f, c, tit, pag in sorted(faltan, key=lambda x: x[0]):
+    print("%-20s #%d %d/4  «%s» | %s" % (f, k + 1, c, tit, pag))
     n += 1
     if n >= cuantos: break
