@@ -14,13 +14,47 @@ import type { Short } from "../shorts";
 export const SEXTANTE: Short[] = [
   {
     id: "medir-el-angulo-del-sol",
-    titulo: "El sextante mide un ángulo, nada más",
+    titulo: "El sextante no calcula nada",
     gancho: "No calcula nada ni sabe nada. Mide con muchísima precisión la altura de un astro sobre el horizonte, y el resto lo pone quien lo sostiene.",
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Sextante de latón sujetado a la altura del ojo, con el horizonte marino de fondo.",
+    fotos: [
+      {
+        archivo: "Sextant-MnM 11 NA 59-IMG 5971.JPG",
+        autor: "Sextante de latón del siglo XIX conservado en el Musée national de la Marine, en París. Fotografía de Rama.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sextant-MnM_11_NA_59-IMG_5971.JPG",
+        foco: "50% 50%",
+        alt: "Un sextante de latón sobre fondo negro, con el arco graduado, el brazo móvil y los dos espejos iluminados de lado.",
+      },
+      {
+        archivo: "Sextant-MnM 11 NA 20-IMG 5964-black.jpg",
+        autor: "Otro sextante del mismo museo, con los dos espejos y el juego de filtros de colores abatibles. Fotografía de Rama.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sextant-MnM_11_NA_20-IMG_5964-black.jpg",
+        foco: "50% 50%",
+        alt: "Un sextante visto de frente sobre fondo negro, con varios cristales tintados levantados delante del espejo.",
+      },
+      {
+        archivo: "Chronometer-MnM 13 NA 1-IMG 6378.JPG",
+        autor: "Cronómetro de marina en su caja de madera: el reloj que guardaba la hora del puerto de salida. Musée national de la Marine. Fotografía de Rama.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chronometer-MnM_13_NA_1-IMG_6378.JPG",
+        foco: "50% 45%",
+        alt: "Un reloj de esfera blanca montado sobre aros de latón dentro de una caja de madera abierta.",
+      },
+      {
+        archivo: "Dramatic Atlantic Ocean sunrise under a cloudy sky near Sagres, Faro, Algarve, Portugal, February 2025 (54452275690).jpg",
+        autor: "Amanecer sobre el Atlántico frente a Sagres, en el Algarve portugués. Fotografía de Sergei Gussev.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Dramatic_Atlantic_Ocean_sunrise_under_a_cloudy_sky_near_Sagres,_Faro,_Algarve,_Portugal,_February_2025_(54452275690).jpg",
+        foco: "50% 50%",
+        alt: "Una franja de luz naranja entre nubes oscuras y el mar azul, con la línea del horizonte marcada de lado a lado.",
+      },
+    ],
     entrada:
-      "Alta mar, con el instrumento en su forma definitiva desde 1731. Un barco necesita saber dónde está y no tiene ninguna referencia alrededor, así que mira hacia arriba. El sextante es un aparato de mano que hace una sola cosa: medir con mucha precisión el ángulo que hay entre un astro y la línea del horizonte. De ese ángulo, con unas tablas, sale la posición.",
+      "Alta mar, con el instrumento en su forma definitiva desde 1731. Un barco en mitad del océano necesita saber dónde está y no tiene ni una sola referencia alrededor, porque el agua es igual en todas direcciones y no hay nada que señalar en un mapa. Así que mira hacia arriba, que es lo único que cambia. El sextante es un aparato de mano que hace una sola cosa y la hace muy bien: medir con enorme precisión el ángulo que hay entre un astro y la línea del horizonte. De ese ángulo, con unas tablas y un reloj, sale la posición.",
     paginas: [
       {
         rotulo: "Dos espejos",
