@@ -16,14 +16,48 @@ import type { Short } from "../shorts";
 export const RELOJES_DE_SOL: Short[] = [
   {
     id: "horas-desiguales",
-    titulo: "Durante siglos las horas no duraron lo mismo",
+    titulo: "Las horas no duraban igual",
     gancho: "El día de luz se partía en doce, así que una hora de verano duraba setenta y cinco minutos y una de invierno, cuarenta y cinco.",
     categoria: "Relojes de sol",
     color: "var(--ochre)",
     curioso: true,
     encargo: "La sombra de una varilla sobre una piedra tallada con líneas radiales.",
+    fotos: [
+      {
+        archivo: "Cadran solaire Louvre Ma 5074 n1.jpg",
+        autor: "Reloj de sol romano de mármol, con el cuenco tallado de líneas rectas y curvas. Museo del Louvre, París. Fotografía de Coyau.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cadran_solaire_Louvre_Ma_5074_n1.jpg",
+        foco: "50% 48%",
+        alt: "Un cuenco de mármol claro con dos asas talladas, grabado por dentro con líneas rectas que salen del centro y arcos que las cruzan.",
+      },
+      {
+        archivo: "Meridiana con quadrante concavo, II sec. d.C. -FG.jpg",
+        autor: "Reloj de sol cóncavo del siglo II, hallado en Ostia, junto a la Puerta Romana. Museos Vaticanos. Fotografía de Fabrizio Garrisi.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Meridiana_con_quadrante_concavo,_II_sec._d.C._-FG.jpg",
+        foco: "50% 50%",
+        alt: "Un bloque de mármol vaciado en forma de media esfera, con las líneas de las horas grabadas en el hueco.",
+      },
+      {
+        archivo: "Meridiana con le teste di elio, atena e dioniso, da atene, I sec dc ca. 03.JPG",
+        autor: "Reloj de sol ateniense del siglo I, decorado con las cabezas de Helios, Atenea y Dioniso. Antikensammlung, Berlín. Fotografía de Sailko.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Meridiana_con_le_teste_di_elio,_atena_e_dioniso,_da_atene,_I_sec_dc_ca._03.JPG",
+        foco: "50% 50%",
+        alt: "Una pieza de mármol tallada con tres rostros en relieve bajo un cuadrante hundido lleno de líneas grabadas.",
+      },
+      {
+        archivo: "20191218 Nadivalaya Yantra, Jantar Mantar, Jaipur, 0926 9023.jpg",
+        autor: "El Nadivalaya Yantra del observatorio Jantar Mantar de Jaipur, construido en el siglo XVIII. Fotografía de Jakub Hałun.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:20191218_Nadivalaya_Yantra,_Jantar_Mantar,_Jaipur,_0926_9023.jpg",
+        foco: "50% 50%",
+        alt: "Un gran disco de piedra inclinado, con las horas marcadas alrededor y una varilla saliendo del centro.",
+      },
+    ],
     entrada:
-      "Mediterráneo, siglos IV antes de Cristo a XIV después. La forma normal de contar el tiempo no es la nuestra. Se toma el rato que hay entre que sale el sol y se pone, se divide en doce partes iguales y a cada parte se le llama hora. Como el día de luz dura mucho más en junio que en diciembre, esas horas se estiran y se encogen con las estaciones.",
+      "Mediterráneo, siglos IV antes de Cristo a XIV después. Durante casi dos mil años, la forma normal de contar el tiempo no fue en absoluto la nuestra. Se tomaba el rato que hay entre que sale el sol y se pone, se dividía en doce partes iguales y a cada parte se le llamaba hora. Como el día de luz dura mucho más en junio que en diciembre, esas horas se estiraban y se encogían con las estaciones sin que nadie lo considerase un problema. Nadie tenía por qué notarlo, porque no existía ningún aparato capaz de medir nada más corto.",
     paginas: [
       {
         rotulo: "La hora elástica",
