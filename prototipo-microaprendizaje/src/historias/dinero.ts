@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const DINERO: Short[] = [
   {
     id: "pengo-hungria",
-    titulo: "El billete que no compraba nada",
+    titulo: "El billete no compraba nada",
     gancho: "Hungría llegó a un billete de cien trillones. Los precios doblaban cada 15 horas.",
     categoria: "Dinero",
     color: "var(--ochre)",
     encargo: "Un billete húngaro de 1946 con la cifra enorme, arrugado, luz rasante.",
+    fotos: [
+      {
+        archivo: "10 Milliard Pengo 1946 front.jpg",
+        autor: "Billete húngaro de diez mil millones de pengő, emitido en Budapest el 10 de junio de 1946.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:10_Milliard_Pengo_1946_front.jpg",
+        foco: "50% 50%",
+        alt: "Un billete verde y rojo con un retrato de perfil a la izquierda y la cifra escrita en letras grandes.",
+      },
+      {
+        archivo: "Hungarian 100M Pengo - Front.jpg",
+        autor: "Otro billete húngaro del mismo año, esta vez de cien millones de pengő. Fotografía de RMF2.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hungarian_100M_Pengo_-_Front.jpg",
+        foco: "50% 50%",
+        alt: "Un billete apaisado con orlas grabadas y la denominación repetida en las cuatro esquinas.",
+      },
+      {
+        archivo: "Hungarian 100M Pengo - Back.jpg",
+        autor: "El reverso del mismo billete. Fotografía de RMF2.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hungarian_100M_Pengo_-_Back.jpg",
+        foco: "50% 50%",
+        alt: "La cara trasera de un billete, con un dibujo grabado en tinta de un solo color y el valor en el centro.",
+      },
+      {
+        archivo: "GER-116-Reichsbanknote-10 Billion Mark (1923).jpg",
+        autor: "Billete alemán de diez mil millones de marcos, emitido en Berlín en septiembre de 1923.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:GER-116-Reichsbanknote-10_Billion_Mark_(1923).jpg",
+        foco: "50% 50%",
+        alt: "Un billete verde y crema con la cifra escrita a mano alzada en letra gótica enorme.",
+      },
+    ],
     entrada:
-      "En el verano de 1946, Hungría imprimió un billete con veinte ceros: cien trillones de pengő. Es el billete de mayor denominación jamás puesto en circulación por ningún país. Con él no se compraba prácticamente nada, y no porque hubiera escasez de cosas, sino porque el dinero había dejado de significar algo en el plazo de unos meses.",
+      "En el verano de 1946, Hungría imprimió un billete con veinte ceros detrás del uno: cien trillones de pengő. Sigue siendo el billete de mayor denominación jamás puesto en circulación por ningún país del mundo, y hay que verlo para creérselo. Con él no se compraba prácticamente nada, ni siquiera un billete de tranvía, y lo llamativo es que no era por escasez de cosas que comprar: los campos daban cosecha y las tiendas abrían. El dinero, sencillamente, había dejado de significar algo en cuestión de meses.",
     paginas: [
       {
         rotulo: "La cuesta",
