@@ -90,8 +90,42 @@ export const FARAONES: Short[] = [
     categoria: "Faraones",
     color: "var(--slate)",
     encargo: "Un relieve egipcio con una figura picada y el hueco liso donde estaba.",
+    fotos: [
+      {
+        archivo: "Templo funerario de Hatshepsut, Valle de las Reyes, Luxor, Egipto, 2022-04-03, DD 118.jpg",
+        autor: "Templo funerario de Hatshepsut en Deir el-Bahari, Luxor, 2022. Fotografía de Diego Delso.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Templo_funerario_de_Hatshepsut,_Valle_de_las_Reyes,_Luxor,_Egipto,_2022-04-03,_DD_118.jpg",
+        foco: "50% 50%",
+        alt: "Un templo de terrazas escalonadas con columnatas, encajado al pie de un acantilado de roca dorada.",
+      },
+      {
+        archivo: "Templo funerario de Hatshepsut, Luxor, Egipto, 2022-04-03, DD 13.jpg",
+        autor: "El mismo templo al amanecer, con las rampas que suben entre terrazas. Fotografía de Diego Delso, 2022.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Templo_funerario_de_Hatshepsut,_Luxor,_Egipto,_2022-04-03,_DD_13.jpg",
+        foco: "50% 50%",
+        alt: "Vista lateral del templo escalonado con la luz rasante marcando las columnas.",
+      },
+      {
+        archivo: "Large Kneeling Statue of Hatshepsut MET DP117949.jpg",
+        autor: "Gran estatua arrodillada de Hatshepsut, recompuesta a partir de los fragmentos en que la rompieron. Metropolitan Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Large_Kneeling_Statue_of_Hatshepsut_MET_DP117949.jpg",
+        foco: "50% 35%",
+        alt: "Una estatua de granito de una figura arrodillada ofreciendo dos vasijas, con las juntas de los pedazos a la vista.",
+      },
+      {
+        archivo: "Hatshepsut statue base MET DP116043.jpg",
+        autor: "Base de una estatua de Hatshepsut con los jeroglíficos de su nombre. Metropolitan Museum of Art.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hatshepsut_statue_base_MET_DP116043.jpg",
+        foco: "50% 50%",
+        alt: "La base de piedra de una estatua egipcia cubierta de jeroglíficos tallados.",
+      },
+    ],
     entrada:
-      "Egipto, siglo XV antes de Cristo. Una mujer gobierna el país durante unos veintidós años como faraón de pleno derecho, con la barba postiza ceremonial y todos los títulos, y deja un reinado próspero, con expediciones comerciales y obras enormes. Décadas después de su muerte, alguien ordena borrar de forma sistemática su nombre y su imagen.",
+      "Egipto, siglo XV antes de Cristo. Una mujer gobierna el país durante unos veintidós años como faraón de pleno derecho, con la barba postiza ceremonial y la lista entera de títulos, y deja tras de sí un reinado próspero, con expediciones comerciales lejanas y obras de piedra enormes que todavía están en pie. Décadas después de su muerte, alguien da la orden de borrarla: picar su figura de los relieves, tapar sus obeliscos y sustituir su nombre por el de otros en las listas oficiales de reyes. El trabajo se hizo a conciencia y aun así salió mal.",
     paginas: [
       {
         rotulo: "El reinado",

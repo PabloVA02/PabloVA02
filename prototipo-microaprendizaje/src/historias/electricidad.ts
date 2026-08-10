@@ -93,8 +93,42 @@ export const ELECTRICIDAD: Short[] = [
     color: "var(--forest)",
     curioso: true,
     encargo: "Una mesa de laboratorio del XVIII con instrumentos de cobre y un tarro de cristal.",
+    fotos: [
+      {
+        archivo: "Volta battery-MHS 373-IMG 3840-black.jpg",
+        autor: "Pila de Volta original conservada en el Musée d'histoire des sciences de Ginebra. Fotografía de Rama, 2018.",
+        licencia: "CC BY-SA 3.0 fr",
+        foco: "50% 50%",
+        fuente: "https://commons.wikimedia.org/wiki/File:Volta_battery-MHS_373-IMG_3840-black.jpg",
+        alt: "Una columna de discos metálicos apilados entre tres varillas, con base y remate de madera dorada, sobre fondo negro.",
+      },
+      {
+        archivo: "Green frog (Rana esculenta complex) Danube delta 2.jpg",
+        autor: "Rana verde (complejo Pelophylax esculentus) en el delta del Danubio. Fotografía de Charles J. Sharp, 2022.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Green_frog_(Rana_esculenta_complex)_Danube_delta_2.jpg",
+        foco: "50% 50%",
+        alt: "Una rana verde con la piel moteada, quieta sobre la vegetación de una orilla.",
+      },
+      {
+        archivo: "Volta battery-MHS 373-IMG 3842.JPG",
+        autor: "Detalle de la misma pila: discos de cobre y de cinc separados por cartones empapados en salmuera. Fotografía de Rama, 2018.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Volta_battery-MHS_373-IMG_3842.JPG",
+        foco: "50% 50%",
+        alt: "Primer plano del apilamiento de discos metálicos con las capas de cartón asomando entre ellos.",
+      },
+      {
+        archivo: "Volta battery-MHS 373-IMG 3840-white.jpg",
+        autor: "La pila de Volta recortada sobre fondo claro. Fotografía de Rama, Musée d'histoire des sciences de Ginebra.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Volta_battery-MHS_373-IMG_3840-white.jpg",
+        foco: "50% 50%",
+        alt: "La torre de discos de la pila vista entera, con su armazón de tres columnas.",
+      },
+    ],
     entrada:
-      "Bolonia, Italia, 1780. Un profesor de anatomía está diseccionando ranas en su mesa cuando roza con un bisturí el nervio de una pata ya separada del cuerpo y la pata da una patada. El animal lleva horas muerto. Repite el experimento durante años y concluye que ha encontrado algo enorme: una electricidad propia de los seres vivos.",
+      "Bolonia, Italia, 1780. Un profesor de anatomía está diseccionando ranas encima de su mesa cuando roza con un bisturí el nervio de una pata ya separada del cuerpo, y la pata da una patada limpia. El animal lleva horas muerto y no queda en él nada que pueda moverse por su cuenta. El profesor repite el experimento durante años, con toda clase de variantes, y llega a una conclusión enorme y equivocada a medias: que ha encontrado una electricidad propia de los seres vivos, distinta de la de las máquinas. Media Europa se lo cree.",
     paginas: [
       {
         rotulo: "La electricidad animal",
