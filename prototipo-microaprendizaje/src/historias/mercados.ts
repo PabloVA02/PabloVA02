@@ -21,8 +21,42 @@ export const MERCADOS: Short[] = [
     categoria: "Mercados",
     color: "var(--slate)",
     encargo: "Una plaza porticada de pueblo con soportales de piedra y suelo empedrado.",
+    fotos: [
+      {
+        archivo: "Halles Fanjeaux.jpg",
+        autor: "El interior de la lonja medieval de Fanjeaux, en el sur de Francia, con sus pilares de roble sobre basas de piedra. Fotografía de Mich-nguyen.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Halles_Fanjeaux.jpg",
+        foco: "50% 50%",
+        alt: "Un cobertizo grande y vacío sostenido por postes de madera gruesos, con el suelo liso y el pueblo asomando por los lados.",
+      },
+      {
+        archivo: "Medieval Cross, Stow-On-The Wold.jpg",
+        autor: "La cruz de mercado medieval de Stow-on-the-Wold, en Inglaterra. Fotografía de Jim Linwood.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Medieval_Cross,_Stow-On-The_Wold.jpg",
+        foco: "50% 45%",
+        alt: "Una columna de piedra rematada en cruz, levantada sobre unos escalones circulares en mitad de una plaza.",
+      },
+      {
+        archivo: "Interior of the Sukiennice in Main Square (9156926049).jpg",
+        autor: "El interior de la Lonja de los Paños de Cracovia, centro del comercio internacional de la ciudad desde el siglo XIV. Fotografía de Jorge Láscar.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Interior_of_the_Sukiennice_in_Main_Square_(9156926049).jpg",
+        foco: "50% 50%",
+        alt: "Una galería abovedada larguísima con puestos de madera a los dos lados y lámparas colgando del techo.",
+      },
+      {
+        archivo: "Fanjeaux-Charpente des Halles-01.jpg",
+        autor: "La armadura de madera de la misma lonja de Fanjeaux vista desde abajo. Fotografía de Daniel Villafruela.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fanjeaux-Charpente_des_Halles-01.jpg",
+        foco: "50% 50%",
+        alt: "Vigas y tirantes de roble cruzándose bajo un tejado, ensamblados unos en otros sin un solo tornillo.",
+      },
+    ],
     entrada:
-      "Europa, siglos XI a XV. Un pueblo no puede celebrar mercado porque le apetezca: necesita un privilegio otorgado por el rey o por el señor del lugar, escrito en un documento que fija el día de la semana, el sitio exacto y los impuestos que se cobrarán. Ese papel vale una fortuna, porque un mercado semanal cambia por completo la economía de un lugar.",
+      "Europa, siglos XI a XV. Un pueblo no puede celebrar mercado porque le apetezca ni porque le convenga: necesita un privilegio otorgado por el rey o por el señor del lugar, escrito en un documento que fija el día de la semana, el sitio exacto donde puede montarse y los impuestos que se cobrarán en él. Ese papel vale una fortuna y se guarda como una reliquia, porque un mercado semanal cambia por completo la economía de un sitio: le trae dinero, oficios, posadas y forasteros que antes pasaban de largo.",
     paginas: [
       {
         rotulo: "El calendario",
