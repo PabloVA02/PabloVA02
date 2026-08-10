@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const CAJEROS: Short[] = [
   {
     id: "el-primer-cajero",
-    titulo: "Vales radiactivos en el cajero",
+    titulo: "El vale era radiactivo",
     gancho: "No había tarjetas ni red, así que se usaban papeletas impregnadas con una sustancia que la máquina reconocía.",
     categoria: "Cajeros",
     color: "var(--slate)",
     encargo: "Un cajero automático antiguo empotrado en la fachada de un banco.",
+    fotos: [
+      {
+        archivo: "DFC 4172 A handheld magnifying glass resting on a scattered pile of coins and medallions highlighting intricate details.jpg",
+        autor: "Una lupa de mano sobre un montón de monedas y medallas en un puesto de mercado.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DFC_4172_A_handheld_magnifying_glass_resting_on_a_scattered_pile_of_coins_and_medallions_highlighting_intricate_details.jpg",
+        foco: "50% 50%",
+        alt: "Una lupa de mango crema apoyada sobre cientos de monedas y medallas doradas y plateadas amontonadas.",
+      },
+      {
+        archivo: "Geiger counter usage.jpg",
+        autor: "Medición de radiación con un contador Geiger-Müller en un laboratorio estadounidense, 1963.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Geiger_counter_usage.jpg",
+        foco: "50% 45%",
+        alt: "Una persona pasando la sonda de un contador Geiger sobre unas muestras colocadas en una bandeja.",
+      },
+      {
+        archivo: "Telephone modele U43-MGR Lyon-IMG 9923.jpg",
+        autor: "Teléfono de baquelita modelo U43, de 1961, de la administración francesa de correos y teléfonos. Fotografía de Rama.",
+        licencia: "CC BY-SA 2.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Telephone_modele_U43-MGR_Lyon-IMG_9923.jpg",
+        foco: "50% 50%",
+        alt: "Un teléfono negro de baquelita con disco de marcar numerado, visto sobre fondo neutro.",
+      },
+      {
+        archivo: "University National Bank building - door to safe deposit room 02.jpg",
+        autor: "La puerta acorazada de la cámara de un banco de Seattle. Fotografía de Joe Mabel.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:University_National_Bank_building_-_door_to_safe_deposit_room_02.jpg",
+        foco: "50% 50%",
+        alt: "Una puerta circular de acero enorme, con anillos concéntricos de pestillos y engranajes a la vista.",
+      },
+    ],
     entrada:
-      "Londres, junio de 1967. Un banco instala en la pared de una sucursal una máquina que entrega dinero fuera del horario de oficina. Hasta entonces, sacar efectivo dependía por completo de que hubiera un empleado detrás del mostrador. El problema técnico es enorme: la máquina tiene que reconocer al cliente sin estar conectada a ningún ordenador central, porque esa red todavía no existe.",
+      "Londres, junio de 1967. Un banco instala en la pared exterior de una sucursal una máquina capaz de entregar dinero fuera del horario de oficina, algo que hasta ese momento no existía en ninguna parte. Sacar efectivo dependía por completo de que hubiera un empleado detrás del mostrador y de que el mostrador estuviera abierto. El problema técnico que hay que resolver es mayúsculo: la máquina tiene que reconocer al cliente ella sola, sin estar conectada a ningún ordenador central, porque esa red todavía no se ha inventado.",
     paginas: [
       {
         rotulo: "El vale",
