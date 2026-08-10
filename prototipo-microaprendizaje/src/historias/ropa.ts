@@ -91,13 +91,47 @@ export const ROPA: Short[] = [
 
   {
     id: "vaqueros-mineros",
-    titulo: "Remaches para que aguante el bolsillo",
+    titulo: "Remaches en los bolsillos",
     gancho: "Un sastre puso remaches de cobre en las esquinas. No tenía dinero para patentarlo y buscó socio.",
     categoria: "Ropa",
     color: "var(--slate)",
     encargo: "Un pantalón de tela azul gastado, con remaches de cobre brillando en los bolsillos.",
+    fotos: [
+      {
+        archivo: "Wrangler 13MWZ jeans back detail (2026-01-27) 2.jpg",
+        autor: "El bolsillo trasero de un pantalón vaquero, con los remaches metálicos en las dos esquinas de arriba. Fotografía de Olgierd Rudak.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wrangler_13MWZ_jeans_back_detail_(2026-01-27)_2.jpg",
+        foco: "50% 45%",
+        alt: "Primer plano de un bolsillo de tela vaquera azul con pespuntes en zigzag y dos remaches dorados en las esquinas.",
+      },
+      {
+        archivo: "Jeans Jeans Jeans.jpg",
+        autor: "Un montón de pantalones vaqueros doblados.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Jeans_Jeans_Jeans.jpg",
+        foco: "50% 50%",
+        alt: "Pilas de pantalones vaqueros de distintos tonos de azul, apilados unos sobre otros.",
+      },
+      {
+        archivo: "Recycled thread made from old jeans, on display in Hikarie.jpg",
+        autor: "Hilo reciclado hecho con vaqueros viejos, en una exposición en Tokio. Fotografía de Syced.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Recycled_thread_made_from_old_jeans,_on_display_in_Hikarie.jpg",
+        foco: "50% 50%",
+        alt: "Madejas de hilo en varios tonos de azul índigo, colocadas en fila sobre un expositor.",
+      },
+      {
+        archivo: "Cavalier de chameaux au passage dans une dune de sable au Maroc.jpg",
+        autor: "El desierto por el que se movía el índigo antes de que se fabricara en laboratorio.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cavalier_de_chameaux_au_passage_dans_une_dune_de_sable_au_Maroc.jpg",
+        foco: "50% 50%",
+        alt: "Camellos cruzando una duna de arena anaranjada bajo un cielo despejado.",
+      },
+    ],
     entrada:
-      "Nevada, Estados Unidos, 1873. Un sastre de origen letón recibe el encargo de una mujer que quiere un pantalón de trabajo para su marido, leñador, porque rompe los bolsillos cada dos por tres al meter las herramientas. Se le ocurre reforzar las esquinas con remaches de cobre, como los de las mantas de caballo. Funciona tan bien que teme que se lo copien.",
+      "Nevada, Estados Unidos, 1873. Un sastre de origen letón recibe el encargo de una mujer que quiere un pantalón de trabajo para su marido, que es leñador y rompe los bolsillos cada dos por tres al meter y sacar las herramientas. A él se le ocurre una solución que no tiene nada de sofisticada: reforzar las cuatro esquinas con remaches de cobre, como los que ya se usaban en las mantas de caballo. Funciona tan bien y de manera tan evidente que enseguida le entra el miedo a que se lo copien.",
     paginas: [
       {
         rotulo: "La patente",
