@@ -16,14 +16,48 @@ import type { Short } from "../shorts";
 export const ZAPATOS: Short[] = [
   {
     id: "izquierdo-y-derecho-iguales",
-    titulo: "Los zapatos no distinguían izquierdo de derecho",
+    titulo: "Los zapatos eran iguales",
     gancho: "Se hacían los dos iguales, rectos, y era el pie el que tenía que amoldarse a base de usarlos.",
     categoria: "Zapatos",
     color: "var(--clay)",
     curioso: true,
     encargo: "Un par de zapatos antiguos de cuero idénticos entre sí, puestos uno junto a otro.",
+    fotos: [
+      {
+        archivo: "Byzantine - Pair of Shoes - Walters 73140, 73141.jpg",
+        autor: "Par de zapatos bizantinos de cuero repujado y dorado. Walters Art Museum, Baltimore.",
+        licencia: "Dominio público",
+        fuente: "https://commons.wikimedia.org/wiki/File:Byzantine_-_Pair_of_Shoes_-_Walters_73140,_73141.jpg",
+        foco: "50% 50%",
+        alt: "Dos zapatos de cuero oscuro con la punta afilada y adornos dorados, iguales entre sí, sobre fondo blanco.",
+      },
+      {
+        archivo: "Cobbler repairing shoes in old workshop (Bazaar in Bitola, Macedonia, 2025).jpg",
+        autor: "Un zapatero remendón en su taller del bazar de Bitola, en Macedonia del Norte. Fotografía de Petar Milošević.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cobbler_repairing_shoes_in_old_workshop_(Bazaar_in_Bitola,_Macedonia,_2025).jpg",
+        foco: "50% 50%",
+        alt: "Un taller pequeño lleno de hormas, cuchillas y zapatos a medio arreglar, con la luz entrando por delante.",
+      },
+      {
+        archivo: "Boots (AM 762134-1).jpg",
+        autor: "Par de botas militares de la Primera Guerra Mundial. Auckland War Memorial Museum.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Boots_(AM_762134-1).jpg",
+        foco: "50% 50%",
+        alt: "Dos botas altas de cuero pardo con cordones y suela claveteada, colocadas juntas.",
+      },
+      {
+        archivo: "Shoes in a spanish shoe store.jpg",
+        autor: "El escaparate de una zapatería española. Fotografía de Tomás Castelazo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Shoes_in_a_spanish_shoe_store.jpg",
+        foco: "50% 50%",
+        alt: "Hileras de zapatos de distintos colores colocados en estantes tras un cristal.",
+      },
+    ],
     entrada:
-      "Europa y América, hasta bien entrado el siglo XIX. El calzado corriente se fabrica sobre una horma recta, es decir, simétrica, de modo que los dos zapatos de un par son idénticos y valen para cualquier pie. Se recomendaba cambiarlos de lado cada día para que se gastaran por igual, y el ajuste al pie se conseguía con el uso, a base de ampollas.",
+      "Europa y América, hasta bien entrado el siglo XIX. El calzado corriente se fabrica sobre una horma recta, es decir, simétrica, de modo que los dos zapatos de un par salen idénticos y cualquiera de ellos vale para cualquier pie. No es un descuido ni una chapuza: está pensado así y todo el mundo lo da por normal. Se recomendaba incluso cambiarlos de lado cada mañana para que se gastaran por igual y duraran más. El ajuste al pie se conseguía después, con el uso, a base de ampollas.",
     paginas: [
       {
         rotulo: "La horma",
