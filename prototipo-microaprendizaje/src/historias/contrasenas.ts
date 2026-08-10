@@ -15,13 +15,47 @@ import type { Short } from "../shorts";
 export const CONTRASENAS: Short[] = [
   {
     id: "la-primera-contrasena",
-    titulo: "La primera contraseña duró poco",
+    titulo: "La primera contraseña cayó",
     gancho: "Un investigador quería más horas de máquina, imprimió el fichero de claves y se hizo pasar por los demás.",
     categoria: "Contraseñas",
     color: "var(--slate)",
     encargo: "Un listado de papel continuo con líneas impresas en tinta azulada.",
+    fotos: [
+      {
+        archivo: "IBM Card punch (51333058324).jpg",
+        autor: "Una perforadora de tarjetas IBM 029, la máquina con la que se escribía para un ordenador en los años sesenta. Fotografía de Steve Elliott.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:IBM_Card_punch_(51333058324).jpg",
+        foco: "50% 45%",
+        alt: "Una máquina gris de oficina con teclado de teclas azules y grises y una bandeja de tarjetas de cartulina clara.",
+      },
+      {
+        archivo: "Punched card program deck.agr.jpg",
+        autor: "Un mazo de tarjetas perforadas: un programa entero, una instrucción por tarjeta. Fotografía de Arnold Reinhold.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Punched_card_program_deck.agr.jpg",
+        foco: "50% 50%",
+        alt: "Un taco de tarjetas de cartulina color crema, llenas de agujeritos rectangulares, apiladas de canto.",
+      },
+      {
+        archivo: "Card alignment station.agr.JPG",
+        autor: "Mesa para alinear a mano un mazo de tarjetas antes de meterlo en la máquina. Computer History Museum. Fotografía de Arnold Reinhold.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Card_alignment_station.agr.JPG",
+        foco: "50% 50%",
+        alt: "Una plataforma metálica con un tope en ángulo recto donde se golpean las tarjetas para cuadrarlas.",
+      },
+      {
+        archivo: "Cern datacenter.jpg",
+        autor: "Sala de servidores del CERN. Fotografía de Hugo van Meijeren.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cern_datacenter.jpg",
+        foco: "50% 50%",
+        alt: "Pasillo entre armarios de servidores llenos de cables y luces pequeñas, bajo tubos fluorescentes.",
+      },
+    ],
     entrada:
-      "Massachusetts, 1962. Un instituto tecnológico americano tiene un ordenador enorme que comparten decenas de investigadores por turnos. Para separar el trabajo de cada uno se instala un sistema de cuentas con contraseña, el primero de la historia. Al poco tiempo, uno de los usuarios se queda sin sus horas asignadas y decide buscarse la vida.",
+      "Massachusetts, 1962. Un instituto tecnológico americano tiene un ordenador enorme, carísimo y único, que comparten decenas de investigadores repartiéndose las horas por turnos. Para que el trabajo de cada uno no se mezcle con el de los demás se instala un sistema de cuentas con contraseña, el primero de la historia del que se tiene noticia. Funciona bien durante un tiempo, hasta que uno de los usuarios agota las horas que tenía asignadas, necesita muchas más para terminar su tesis y decide buscarse la vida por su cuenta.",
     paginas: [
       {
         rotulo: "El fichero",
