@@ -85,13 +85,47 @@ export const DESAGUES: Short[] = [
   },
   {
     id: "el-iceberg-de-grasa",
-    titulo: "Las toallitas hacen bloques enormes",
+    titulo: "Un tapón de 250 toneladas",
     gancho: "Bajo una calle de Londres apareció una masa de doscientas cincuenta toneladas, dura como el hormigón.",
     categoria: "Objetos",
     color: "var(--clay)",
     encargo: "Operario con mono y casco frente a un bloque gris compacto que tapa un colector.",
+    fotos: [
+      {
+        archivo: "Fatberg at Museum of London.jpg",
+        autor: "Trozo seco del bloque de Whitechapel, expuesto en el Museo de Londres en 2018. Fotografía de Lord Belbury.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fatberg_at_Museum_of_London.jpg",
+        foco: "50% 50%",
+        alt: "Un pedazo de masa gris y rugosa, del tamaño de un ladrillo grande, sobre una base oscura dentro de una vitrina.",
+      },
+      {
+        archivo: "Musee des Egouts de Paris FRA 002.JPG",
+        autor: "Galería del alcantarillado de París, visitable como museo. Fotografía de ignis, 2006.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Musee_des_Egouts_de_Paris_FRA_002.JPG",
+        foco: "50% 50%",
+        alt: "Una galería abovedada de alcantarilla con un canal de agua corriendo por el centro y pasarelas a los lados.",
+      },
+      {
+        archivo: "Removal of screened solid material (6898385444).jpg",
+        autor: "Retirada de los sólidos retenidos en las rejas de una depuradora, Ruai (Kenia), 2011. Fotografía de SuSanA Secretariat.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Removal_of_screened_solid_material_(6898385444).jpg",
+        foco: "50% 50%",
+        alt: "Operarios retirando con horcas la masa de residuos que ha quedado atrapada en la reja de entrada de una depuradora.",
+      },
+      {
+        archivo: "Whitechapel Fatberg commemorative manhole cover.jpg",
+        autor: "Tapa de alcantarilla conmemorativa colocada en Whitechapel, Londres, donde se deshizo el bloque en 2017. Fotografía de Amanda Slater.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Whitechapel_Fatberg_commemorative_manhole_cover.jpg",
+        foco: "50% 50%",
+        alt: "Una tapa de registro redonda en la acera con una inscripción que recuerda el bloque de grasa vencido allí en 2017.",
+      },
+    ],
     entrada:
-      "Londres, 2017. Los operarios del alcantarillado encuentran bajo una calle del este de la ciudad un bloque compacto de doscientas cincuenta toneladas y más de doscientos metros de largo. Está hecho de grasa de cocina, toallitas húmedas, bastoncillos y pañales, todo pegado en una masa dura como el hormigón. Hacen falta nueve semanas de trabajo con mangueras de alta presión y palas para deshacerlo.",
+      "Londres, 2017. Los operarios del alcantarillado encuentran bajo una calle del este de la ciudad un bloque compacto de doscientas cincuenta toneladas y más de doscientos metros de largo, del peso de once autobuses puestos en fila. Está hecho de grasa de cocina, toallitas húmedas, bastoncillos y pañales, todo pegado en una masa dura como el hormigón que hay que romper a golpes. Hacen falta nueve semanas de trabajo con mangueras de alta presión y palas para deshacerlo, y el hallazgo no es una rareza: cada gran ciudad tiene los suyos y todos se forman igual.",
     paginas: [
       {
         rotulo: "Cómo se forma",
