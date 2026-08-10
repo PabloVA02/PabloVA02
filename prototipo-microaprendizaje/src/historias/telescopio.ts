@@ -82,13 +82,47 @@ export const TELESCOPIO: Short[] = [
 
   {
     id: "espejo-mal-pulido",
-    titulo: "El telescopio espacial salió con el espejo mal",
+    titulo: "La curva estaba equivocada",
     gancho: "Estaba pulido con una precisión perfecta a la forma equivocada, por una mota de pintura desprendida.",
     categoria: "Telescopios",
     color: "var(--slate)",
     encargo: "Un espejo circular enorme siendo manipulado por técnicos con traje blanco.",
+    fotos: [
+      {
+        archivo: "Engineers inspecting the Hubble Space Telescope's Primary Mirror 8109563.jpg",
+        autor: "Ingenieros revisando el espejo principal del telescopio espacial Hubble antes del pulido. Fotografía de la NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Engineers_inspecting_the_Hubble_Space_Telescope's_Primary_Mirror_8109563.jpg",
+        foco: "50% 50%",
+        alt: "Dos técnicos inclinados sobre un disco de vidrio enorme con estructura de panal, montado en su bancada.",
+      },
+      {
+        archivo: "Hubble mirror polishing.jpg",
+        autor: "Pulido del espejo principal del Hubble, 1979. NASA Marshall Space Flight Center.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hubble_mirror_polishing.jpg",
+        foco: "50% 50%",
+        alt: "El espejo circular en la máquina de pulir, con los operarios trabajando sobre su superficie.",
+      },
+      {
+        archivo: "Hubble First Servicing EVA - GPN-2000-001085.jpg",
+        autor: "Primer paseo espacial de la misión de reparación del Hubble, 9 de diciembre de 1993. Fotografía de la NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hubble_First_Servicing_EVA_-_GPN-2000-001085.jpg",
+        foco: "50% 45%",
+        alt: "Un astronauta trabajando fuera de la nave junto al telescopio abierto, sujeto al brazo robótico.",
+      },
+      {
+        archivo: "Stephan's Quintet Hubble 2009.full.jpg",
+        autor: "El Quinteto de Stephan fotografiado por el Hubble en 2009, ya corregido. NASA, ESA y el equipo Hubble SM4 ERO.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Stephan's_Quintet_Hubble_2009.full.jpg",
+        foco: "50% 45%",
+        alt: "Un grupo de galaxias en interacción sobre el fondo negro del espacio, con los brazos espirales deformados.",
+      },
+    ],
     entrada:
-      "Órbita terrestre, mayo de 1990. Un telescopio espacial que ha costado más de mil quinientos millones de dólares y quince años de trabajo manda sus primeras imágenes, y salen borrosas. Las estrellas aparecen con un halo alrededor en vez de como puntos limpios. El problema está en el espejo principal, de dos metros y medio, y no tiene arreglo desde el suelo.",
+      "Órbita terrestre, mayo de 1990. Un telescopio espacial que ha costado más de mil quinientos millones de dólares y quince años de trabajo manda sus primeras imágenes, y salen borrosas. Las estrellas aparecen rodeadas de un halo en vez de como puntos limpios, y ninguna corrección de enfoque lo arregla. El problema está en el espejo principal, de dos metros y medio, que ya está a seiscientos kilómetros de altura dentro de un tubo cerrado. No hay manera de tocarlo desde el suelo, y lo que aparece después al buscar la causa es todavía peor que el fallo.",
     paginas: [
       {
         rotulo: "Dos micras",

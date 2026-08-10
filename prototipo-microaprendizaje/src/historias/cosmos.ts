@@ -113,8 +113,42 @@ export const COSMOS: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Saturno con los anillos casi de canto, sobre negro, ocupando el ancho entero.",
+    fotos: [
+      {
+        archivo: "Saturn from Cassini Orbiter (2004-10-06).jpg",
+        autor: "Saturno fotografiado por la sonda Cassini el 6 de octubre de 2004. NASA/JPL/Space Science Institute.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Saturn_from_Cassini_Orbiter_(2004-10-06).jpg",
+        foco: "50% 50%",
+        alt: "Saturno de color crema sobre fondo negro, atravesado por sus anillos, con la sombra del planeta proyectada sobre ellos.",
+      },
+      {
+        archivo: "Saturn global view from Cassini, rings open.jpg",
+        autor: "Vista global de Saturno con los anillos abiertos, compuesta a partir de imágenes de Cassini de 2012. NASA/JPL-Caltech/SSI.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Saturn_global_view_from_Cassini,_rings_open.jpg",
+        foco: "50% 50%",
+        alt: "El planeta entero con los anillos muy abiertos, visto desde arriba del plano ecuatorial.",
+      },
+      {
+        archivo: "Saturn during Equinox.jpg",
+        autor: "Saturno durante su equinoccio, cuando el Sol ilumina los anillos de canto. NASA/JPL/Space Science Institute, 2008.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Saturn_during_Equinox.jpg",
+        foco: "50% 50%",
+        alt: "Saturno con los anillos vistos casi de perfil, reducidos a una línea finísima que cruza la imagen.",
+      },
+      {
+        archivo: "Top view of the rings of Saturn by Cassini - October 10, 2013.jpg",
+        autor: "Los anillos vistos desde arriba por Cassini, octubre de 2013. NASA/JPL-Caltech/SSI/Cornell.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Top_view_of_the_rings_of_Saturn_by_Cassini_-_October_10,_2013.jpg",
+        foco: "50% 50%",
+        alt: "Los anillos de Saturno vistos en picado, con sus bandas claras y oscuras concéntricas.",
+      },
+    ],
     entrada:
-      "La frase circula desde hace décadas y es cierta en su parte medible: Saturno tiene una densidad media de 0,687 gramos por centímetro cúbico y el agua tiene uno. Es el único planeta del sistema solar del que se puede decir eso. Lo que pasa es que la imagen que evoca —un planeta a remojo— es imposible por motivos que resultan más interesantes que la frase.",
+      "La frase circula desde hace décadas y es cierta en su parte medible: Saturno tiene una densidad media de 0,687 gramos por centímetro cúbico y el agua tiene uno, así que la cifra sale y no hay trampa en ella. Es el único planeta del sistema solar del que se puede decir eso, y por eso la frase ha viajado por libros de texto y programas de televisión durante generaciones. Lo que pasa es que la imagen que evoca, la de un planeta puesto a remojo en una bañera enorme, es imposible por unos motivos que resultan bastante más interesantes que la propia frase.",
     paginas: [
       {
         rotulo: "La cifra",
