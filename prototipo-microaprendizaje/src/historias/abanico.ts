@@ -83,14 +83,48 @@ export const ABANICO: Short[] = [
   },
   {
     id: "el-lenguaje-del-abanico",
-    titulo: "El lenguaje del abanico es falso",
+    titulo: "El código lo daba la tienda",
     gancho: "Los gestos secretos que todo el mundo cita salen de un folleto publicitario de una tienda de París.",
     categoria: "Creencias",
     color: "var(--plum)",
     curioso: true,
     encargo: "Folleto decimonónico con dibujos de gestos de abanico y sus significados.",
+    fotos: [
+      {
+        archivo: "(Barcelona) Before the Ball - Francesc Masriera - Museu Nacional d'Art de Catalunya.jpg",
+        autor: "«Antes del baile», óleo de Francesc Masriera, 1886. Museu Nacional d'Art de Catalunya, Barcelona.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:(Barcelona)_Before_the_Ball_-_Francesc_Masriera_-_Museu_Nacional_d'Art_de_Catalunya.jpg",
+        foco: "50% 35%",
+        alt: "Tres mujeres vestidas para un baile en un salón, una de ellas con un abanico de plumas en la mano.",
+      },
+      {
+        archivo: "Eventail plié Château St Ange, 1998.100.1.jpg",
+        autor: "Abanico plegable italiano de piel, nácar y hueso dorado, entre 1805 y 1815. Château de Saint-Ange.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Eventail_pli%C3%A9_Ch%C3%A2teau_St_Ange,_1998.100.1.jpg",
+        foco: "50% 50%",
+        alt: "Un abanico abierto con el país pintado a mano, un castillo junto al río en el centro y las varillas de hueso doradas.",
+      },
+      {
+        archivo: "Edouard Manet - Woman with a Fan - Google Art Project.jpg",
+        autor: "«Mujer con abanico», óleo de Édouard Manet, 1862.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Edouard_Manet_-_Woman_with_a_Fan_-_Google_Art_Project.jpg",
+        foco: "50% 45%",
+        alt: "Retrato de una mujer recostada que se tapa media cara con un abanico abierto.",
+      },
+      {
+        archivo: "Portrait of a Young Woman with a Fan MET DP121328.jpg",
+        autor: "«Retrato de una joven con abanico», óleo de Rembrandt, 1633. Metropolitan Museum of Art, Nueva York.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Young_Woman_with_a_Fan_MET_DP121328.jpg",
+        foco: "50% 35%",
+        alt: "Retrato de una mujer con gorguera blanca y vestido oscuro que sostiene un abanico plegado.",
+      },
+    ],
     entrada:
-      "París y Londres, siglo XIX. Circula desde entonces la idea de que las mujeres se comunicaban en secreto moviendo el abanico de una manera u otra, cada gesto con su significado. La historia es preciosa y su origen documentado es bastante menos romántico. Las listas de gestos que se citan hoy vienen de folletos que repartían las propias tiendas de abanicos.",
+      "París y Londres, siglo XIX. Circula desde entonces la idea de que las mujeres se comunicaban en secreto moviendo el abanico de una manera u otra, cada gesto con su significado exacto: apoyarlo en la mejilla, cerrarlo de golpe, abanicarse deprisa. La historia es preciosa y se repite en documentales y guías de museo como si estuviera probada. Su origen documentado es bastante menos romántico, porque las listas de gestos que se citan hoy no salen de ninguna carta ni de ningún diario: vienen de los folletos que repartían las propias tiendas de abanicos.",
     paginas: [
       {
         rotulo: "El folleto",
