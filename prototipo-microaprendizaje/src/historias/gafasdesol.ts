@@ -83,13 +83,47 @@ export const GAFAS_DE_SOL: Short[] = [
   },
   {
     id: "el-cristal-oscuro-que-engana",
-    titulo: "Gafas oscuras peores que ninguna",
+    titulo: "Peores que no llevar nada",
     gancho: "El cristal oscuro abre la pupila y deja entrar más luz. Si no filtra el ultravioleta, el ojo recibe más daño que sin nada.",
     categoria: "Medicina",
     color: "var(--ochre)",
     encargo: "Par de gafas de sol muy oscuras sobre un mostrador de mercadillo, sin etiqueta.",
+    fotos: [
+      {
+        archivo: "Sunglasses Carried by Charles A. Lindbergh on His New York to Paris Flight - DPLA - b1febcdb411187b4982ec18b75ff7f64 (page 1).jpg",
+        autor: "Gafas de sol de cristales verdes y montura de alambre, con su estuche de ante. Missouri Historical Society.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sunglasses_Carried_by_Charles_A._Lindbergh_on_His_New_York_to_Paris_Flight_-_DPLA_-_b1febcdb411187b4982ec18b75ff7f64_(page_1).jpg",
+        foco: "50% 55%",
+        alt: "Unas gafas redondas de lentes verde botella junto a un estuche alargado de ante marrón, sobre fondo blanco.",
+      },
+      {
+        archivo: "World through her eye - Flickr - shioshvili.jpg",
+        autor: "Un ojo visto muy de cerca, con el iris y la pupila. Fotografía de Vladimer Shioshvili.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:World_through_her_eye_-_Flickr_-_shioshvili.jpg",
+        foco: "50% 50%",
+        alt: "Macro de un ojo con el iris veteado y la pupila negra abierta en el centro.",
+      },
+      {
+        archivo: "Sunglasses Carried by Charles A. Lindbergh on His New York to Paris Flight - DPLA - b1febcdb411187b4982ec18b75ff7f64 (page 7).jpg",
+        autor: "Las mismas gafas de cerca, con el cristal a contraluz. Missouri Historical Society.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sunglasses_Carried_by_Charles_A._Lindbergh_on_His_New_York_to_Paris_Flight_-_DPLA_-_b1febcdb411187b4982ec18b75ff7f64_(page_7).jpg",
+        foco: "50% 50%",
+        alt: "Detalle de una lente circular verde montada en un aro fino de metal.",
+      },
+      {
+        archivo: "Sunglasses Carried by Charles A. Lindbergh on His New York to Paris Flight - DPLA - b1febcdb411187b4982ec18b75ff7f64 (page 12).jpg",
+        autor: "Otro ángulo del mismo par y su funda. Missouri Historical Society.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sunglasses_Carried_by_Charles_A._Lindbergh_on_His_New_York_to_Paris_Flight_-_DPLA_-_b1febcdb411187b4982ec18b75ff7f64_(page_12).jpg",
+        foco: "50% 50%",
+        alt: "Las gafas plegadas vistas desde arriba, con las patillas cruzadas sobre el fondo claro.",
+      },
+    ],
     entrada:
-      "Todo el mundo, con las normas de etiquetado europeas vigentes desde 1995. En cualquier mercadillo se venden gafas de sol muy oscuras y muy baratas, y esas gafas pueden hacer más daño que ir sin nada. El motivo es un mecanismo del ojo que funciona en contra: la pupila se abre en la penumbra y se cierra con la luz. Un cristal oscuro sin filtro la engaña.",
+      "Todo el mundo, con las normas de etiquetado europeas vigentes desde 1995. En cualquier mercadillo se venden gafas de sol muy oscuras y muy baratas, y lo que casi nadie sabe al comprarlas es que esas gafas pueden hacer bastante más daño que ir sin nada puesto. El motivo es un mecanismo del propio ojo que en este caso trabaja en contra de uno: la pupila se abre en la penumbra para dejar entrar más luz y se cierra cuando hay mucha. Un cristal oscuro sin filtro engaña a ese mecanismo.",
     paginas: [
       {
         rotulo: "La pupila abierta",
