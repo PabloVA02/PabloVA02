@@ -90,8 +90,42 @@ export const ANCLA: Short[] = [
     categoria: "Barcos",
     color: "var(--clay)",
     encargo: "Cono de tela reforzada abierto bajo el agua, tirando de un cabo hacia la superficie.",
+    fotos: [
+      {
+        archivo: "Sea Anchor (36776431450).jpg",
+        autor: "Ancla flotante naranja largada desde una embarcación frente a Port Fairy, Victoria (Australia), 2017. Fotografía de Ed Dunens.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sea_Anchor_(36776431450).jpg",
+        foco: "50% 50%",
+        alt: "Un cono de tela naranja abierto justo bajo la superficie del agua azul oscuro, con los cabos blancos del arnés recogiéndose en una driza amarilla.",
+      },
+      {
+        archivo: "Royal Navy Ship in Rough Weather MOD 45154618.jpg",
+        autor: "El destructor HMS Dauntless partiendo mar gruesa en el Atlántico Sur, 2012. Fotografía de LA(Phot) Wilson, Ministerio de Defensa británico.",
+        licencia: "OGL v1.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Royal_Navy_Ship_in_Rough_Weather_MOD_45154618.jpg",
+        foco: "50% 50%",
+        alt: "Un buque de guerra gris visto de frente, hundiendo la proa en una ola que revienta en espuma blanca a ambos lados del casco.",
+      },
+      {
+        archivo: "Yacht with red spinnaker at full sail on blue ocean with clouds.jpg",
+        autor: "Velero navegando con spinaker desplegado en mar abierto. El mismo principio del ancla flotante, con aire en vez de agua.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Yacht_with_red_spinnaker_at_full_sail_on_blue_ocean_with_clouds.jpg",
+        foco: "50% 50%",
+        alt: "Un velero con una enorme vela roja hinchada como un globo, avanzando sobre agua azul bajo un cielo de nubes altas.",
+      },
+      {
+        archivo: "Apollo 15 descends to splashdown.jpg",
+        autor: "La cápsula del Apolo 15 bajando al Pacífico bajo sus paracaídas, 7 de agosto de 1971. Fotografía de la NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Apollo_15_descends_to_splashdown.jpg",
+        foco: "50% 50%",
+        alt: "Una cápsula espacial suspendida de grandes paracaídas blancos y anaranjados, descendiendo sobre el océano abierto.",
+      },
+    ],
     entrada:
-      "Alta mar, con el recurso usado por los navegantes desde el siglo XVIII. Cuando un barco se ve sorprendido por un temporal lejos de la costa, el fondo puede estar a cuatro mil metros y no hay ancla que llegue. El peligro no es hundirse, sino ponerse de lado a las olas y volcar. La solución es un ancla que no se clava en nada y trabaja contra el agua.",
+      "Alta mar, con el recurso que usan los navegantes desde el siglo XVIII. Cuando un barco se ve sorprendido por un temporal lejos de la costa, el fondo puede estar a cuatro mil metros y no hay cadena en el mundo que llegue hasta él. El peligro tampoco es hundirse por el agua que entra, sino quedarse quieto, ponerse de lado a las olas y volcar de un golpe. La solución que encontraron es un ancla que no se clava en nada y que trabaja únicamente contra el agua que la rodea, frenando el barco con la fuerza que él mismo le presta.",
     paginas: [
       {
         rotulo: "Poner la proa",
