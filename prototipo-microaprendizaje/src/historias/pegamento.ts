@@ -21,8 +21,42 @@ export const PEGAMENTO: Short[] = [
     categoria: "Ciencia",
     color: "var(--ochre)",
     encargo: "Dos tablas de madera separándose con el cordón de cola blanca a medio secar.",
+    fotos: [
+      {
+        archivo: "Amber (resinite) 2.jpg",
+        autor: "Un nódulo de ámbar, resina de árbol endurecida: el pegamento más antiguo que existe. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Amber_(resinite)_2.jpg",
+        foco: "50% 45%",
+        alt: "Un bloque de ámbar rojizo y brillante con los pliegues de la resina marcados en la superficie.",
+      },
+      {
+        archivo: "Weathered wood grain texture macro closeup detail.jpg",
+        autor: "La veta de una madera envejecida vista de muy cerca: una superficie lisa a simple vista. Fotografía de MacrofyStudio.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Weathered_wood_grain_texture_macro_closeup_detail.jpg",
+        foco: "50% 55%",
+        alt: "Macro de un canto de madera deshilachado en crestas y grietas, iluminado con luz cálida.",
+      },
+      {
+        archivo: "Fossiliferous amber (Dominican Republic) 1.jpg",
+        autor: "Ámbar de la República Dominicana con un insecto atrapado dentro. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fossiliferous_amber_(Dominican_Republic)_1.jpg",
+        foco: "50% 50%",
+        alt: "Una pieza pulida de ámbar dorado con un insecto oscuro suspendido en el centro.",
+      },
+      {
+        archivo: "2023 Kleje.jpg",
+        autor: "Cuatro tubos de pegamento de distinto tipo. Fotografía de Jacek Halicki.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2023_Kleje.jpg",
+        foco: "50% 50%",
+        alt: "Cuatro tubos pequeños de adhesivo colocados sobre un fondo blanco liso.",
+      },
+    ],
     entrada:
-      "Todas las culturas, con la primera cola de brea documentada hace unos doscientos mil años. Pegar dos cosas parece un asunto de fuerza y en realidad es un asunto de dos fuerzas distintas que hay que equilibrar. Una es la adhesión, que es lo que agarra el pegamento a la superficie. La otra es la cohesión, que es lo que mantiene unido el pegamento consigo mismo.",
+      "Todas las culturas, con la primera cola de brea documentada hace unos doscientos mil años. Pegar dos cosas parece el más simple de los problemas y un asunto de fuerza bruta, y en realidad es un asunto de dos fuerzas distintas que hay que equilibrar entre sí. Una es la adhesión, que es lo que agarra el pegamento a la superficie que toca. La otra es la cohesión, que es lo que mantiene al pegamento unido consigo mismo. Un adhesivo que se agarre muy bien pero se rompa por dentro no sirve, y uno durísimo que no moje la superficie tampoco.",
     paginas: [
       {
         rotulo: "Dos fuerzas",
