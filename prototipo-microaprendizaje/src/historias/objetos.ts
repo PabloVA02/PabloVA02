@@ -25,8 +25,42 @@ export const OBJETOS: Short[] = [
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Un código de barras impreso muy ampliado, en blanco y negro, casi abstracto.",
+    fotos: [
+      {
+        archivo: "Morse key-CNAM 14674-2-IMG 5195-black.jpg",
+        autor: "Manipulador de telégrafo morse conservado en el Musée des arts et métiers de París. Fotografía de Rama.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Morse_key-CNAM_14674-2-IMG_5195-black.jpg",
+        foco: "50% 55%",
+        alt: "Una palanca de latón con pomo negro montada sobre una peana de caoba, iluminada sobre fondo negro.",
+      },
+      {
+        archivo: "退潮后的潮间带长出河川般的潮沟.jpg",
+        autor: "Surcos dejados por el agua en la arena de una playa de Xiamen al bajar la marea.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:%E9%80%80%E6%BD%AE%E5%90%8E%E7%9A%84%E6%BD%AE%E9%97%B4%E5%B8%A6%E9%95%BF%E5%87%BA%E6%B2%B3%E5%B7%9D%E8%88%AC%E7%9A%84%E6%BD%AE%E6%B2%9F.jpg",
+        foco: "50% 50%",
+        alt: "Decenas de canalillos finos y paralelos abiertos en la arena mojada, con agua corriendo por dentro.",
+      },
+      {
+        archivo: "Laser DSC09088.JPG",
+        autor: "Demostración de un láser de helio-neón en el laboratorio Kastler-Brossel de París. Fotografía de David Monniaux.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Laser_DSC09088.JPG",
+        foco: "50% 50%",
+        alt: "Un tubo de descarga encendido en naranja sobre un banco óptico, con un punto rojo marcado en una pantalla.",
+      },
+      {
+        archivo: "Super Associated East Harlem 1968 2nd Av 101 St jeh.jpg",
+        autor: "Pasillo de verduras de un supermercado de East Harlem, Nueva York. Fotografía de Jim Henderson.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Super_Associated_East_Harlem_1968_2nd_Av_101_St_jeh.jpg",
+        foco: "50% 50%",
+        alt: "Un pasillo de supermercado con cajas de fruta y verdura apiladas a los dos lados bajo luz de fluorescente.",
+      },
+    ],
     entrada:
-      "Miami Beach, finales de los años cuarenta. Norman Joseph Woodland, un estudiante de posgrado, está sentado en la arena dándole vueltas a un encargo: encontrar la manera de que una máquina lea automáticamente el precio de un producto en una caja de supermercado. Se sabía el código morse desde los boy scouts. Metió los dedos en la arena y trazó cuatro puntos y rayas.",
+      "Miami Beach, finales de los años cuarenta. Norman Joseph Woodland, un estudiante de posgrado, está sentado en la arena de la playa dándole vueltas a un encargo que le han hecho y que parece imposible: encontrar la manera de que una máquina lea automáticamente el precio de un producto al pasar por la caja de un supermercado. Se sabía el código morse de memoria desde los boy scouts. Casi sin pensarlo metió los cuatro dedos en la arena mojada y trazó una serie de puntos y rayas delante de él.",
     paginas: [
       {
         rotulo: "El gesto",
