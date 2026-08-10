@@ -15,13 +15,48 @@ import type { Short } from "../shorts";
 export const TEJADOS: Short[] = [
   {
     id: "por-que-el-tejado-se-inclina",
-    titulo: "La inclinación del tejado la decide la lluvia",
+    titulo: "La lluvia decide el tejado",
     gancho: "En el norte son casi triángulos y en el sur casi planos. No es estilo: es cuánta agua y cuánta nieve hay que quitarse de encima.",
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Dos tejados juntos en la misma imagen: uno muy picudo y otro casi plano.",
+    fotos: [
+      {
+        archivo: "Axel Lindahl - 150446499e (2).jpg",
+        autor: "La iglesia de madera de Heddal, en Noruega, fotografiada por Axel Lindahl en el siglo XIX.",
+        licencia: "Dominio público",
+        pdPorEdad: 1906,
+        fuente: "https://commons.wikimedia.org/wiki/File:Axel_Lindahl_-_150446499e_(2).jpg",
+        foco: "50% 38%",
+        alt: "Una iglesia de madera con seis tejados picudos apilados unos sobre otros, cubiertos de tejuela.",
+      },
+      {
+        archivo: "Winter view of typical norwegian hytte (cabin) coverd in snow in Rekdalsetra area - Rekdal, Vestnes, Norway 2017-12-29.jpg",
+        autor: "Una cabaña noruega con el tejado cargado de nieve y una fila de carámbanos en el alero. Fotografía de Mænsard vokser.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Winter_view_of_typical_norwegian_hytte_(cabin)_coverd_in_snow_in_Rekdalsetra_area_-_Rekdal,_Vestnes,_Norway_2017-12-29.jpg",
+        foco: "50% 42%",
+        alt: "Una cabaña de troncos con medio metro de nieve sobre el tejado y carámbanos colgando del borde.",
+      },
+      {
+        archivo: "Castle, Silves (20518366418).jpg",
+        autor: "Tejas curvas de barro en el castillo de Silves, Portugal. Fotografía de Paul Wilkinson.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Castle,_Silves_(20518366418).jpg",
+        foco: "50% 50%",
+        alt: "Hileras de tejas curvas de barro rosado y ocre, manchadas de líquenes, vistas de muy cerca.",
+      },
+      {
+        archivo: "Shibam Hadramaut.jpg",
+        autor: "Las casas torre de adobe de Shibam, en Yemen, con sus azoteas planas. Fotografía de Ala Askool.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Shibam_Hadramaut.jpg",
+        foco: "50% 50%",
+        alt: "Un bloque apretado de torres de barro de varias plantas, todas rematadas en azotea plana, de noche.",
+      },
+    ],
     entrada:
-      "Cualquier sitio del mundo, y desde hace por lo menos diez mil años. La pendiente de un tejado no es una decisión de estilo, sino la respuesta a una pregunta muy concreta: cuánta agua o cuánta nieve tiene que quitarse de encima y con qué material. Por eso en el norte de Europa los tejados son casi triángulos y en el sur del Mediterráneo son casi planos.",
+      "Cualquier sitio del mundo, y desde hace por lo menos diez mil años. La pendiente de un tejado parece lo más gratuito que tiene una casa, una cuestión de gusto o de tradición local, y no lo es en absoluto: es la respuesta a una pregunta muy concreta que se hace cada constructor en cada sitio. Cuánta agua cae aquí, cuánta nieve se acumula encima y con qué material voy a cubrirlo. De esas tres respuestas sale el ángulo. Por eso en el norte de Europa los tejados son casi triángulos y en el sur del Mediterráneo son casi planos.",
     paginas: [
       {
         rotulo: "Agua y nieve",
