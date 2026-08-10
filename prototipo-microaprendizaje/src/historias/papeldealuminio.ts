@@ -14,13 +14,48 @@ import type { Short } from "../shorts";
 export const PAPEL_DE_ALUMINIO: Short[] = [
   {
     id: "la-cara-brillante",
-    titulo: "Las dos caras dan igual",
+    titulo: "La cara brillante da igual",
     gancho: "Una brilla y la otra es mate, y no sirven para cosas diferentes. La diferencia viene de cómo se fabrica.",
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Rollo de papel de aluminio a medio desplegar, con la cara brillante y la mate visibles.",
+    fotos: [
+      {
+        archivo: "Aluminum foil 1.jpg",
+        autor: "Una hoja de papel de aluminio doméstico, arrugada y extendida.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Aluminum_foil_1.jpg",
+        foco: "50% 50%",
+        alt: "Una lámina de aluminio llena de arrugas y pliegues que devuelven la luz en franjas claras y oscuras.",
+      },
+      {
+        archivo: "A sample of aluminium foil on a piece of paper.jpg",
+        autor: "Tres bolas de papel de aluminio estrujado, con la cara pulida y la mate mezcladas en cada pliegue.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_sample_of_aluminium_foil_on_a_piece_of_paper.jpg",
+        foco: "33% 50%",
+        alt: "Tres pelotas de aluminio arrugado, muy brillantes, sobre una superficie clara y lisa.",
+      },
+      {
+        archivo: "140531 Forellen auf dem Grill.jpg",
+        autor: "Cuatro truchas envueltas en papel de aluminio sobre la parrilla. Fotografía de Ansgar Koreng.",
+        licencia: "CC BY-SA 3.0 de",
+        fuente: "https://commons.wikimedia.org/wiki/File:140531_Forellen_auf_dem_Grill.jpg",
+        foco: "50% 50%",
+        alt: "Cuatro paquetes alargados de papel de aluminio puestos en fila sobre las barras de una barbacoa encendida.",
+      },
+      {
+        archivo: "Van Gogh - Stillleben mit Makrelen, Zitronen und Tomaten.jpeg",
+        autor: "Bodegón con caballas, limones y tomates, óleo de Vincent van Gogh, 1886.",
+        licencia: "Dominio público",
+        pdPorEdad: 1890,
+        fuente: "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Stillleben_mit_Makrelen,_Zitronen_und_Tomaten.jpeg",
+        foco: "50% 50%",
+        alt: "Un bodegón pintado con dos caballas plateadas, limones amarillos y tomates rojos sobre un mantel claro.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1947. La fábrica que produce papel de aluminio para uso doméstico introduce una mejora en el laminado que sigue explicando algo que la gente se pregunta desde entonces. Para hacerlo tan fino hay que pasar dos hojas juntas por el rodillo a la vez. Las caras que tocan el rodillo salen pulidas y las que se tocan entre sí salen mate.",
+      "Estados Unidos, 1947. La fábrica que produce papel de aluminio para uso doméstico introduce una mejora en el laminado, y esa mejora sigue explicando hoy algo que la gente se pregunta cada vez que abre un rollo en la cocina. Para dejar el metal tan fino no basta con apretarlo más: hay que pasar dos hojas juntas por el rodillo a la vez, porque una sola se rompería. Las dos caras que tocan el rodillo pulido salen como un espejo, y las dos que se tocan entre sí salen mate. La diferencia de brillo no es una decisión de nadie, sino una consecuencia.",
     paginas: [
       {
         rotulo: "Dos hojas",
