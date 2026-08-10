@@ -89,8 +89,42 @@ export const ESPANA: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Una partitura antigua sobre paño rojo, con la tinta desvaída.",
+    fotos: [
+      {
+        archivo: "Palacio Real de Madrid, fachada este.jpg",
+        autor: "Fachada este del Palacio Real de Madrid al atardecer, 2016. Fotografía de Malopez 21.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid,_fachada_este.jpg",
+        foco: "50% 45%",
+        alt: "La fachada larga y clara del Palacio Real de Madrid, iluminada por el sol bajo, con la plaza delante.",
+      },
+      {
+        archivo: "Charles III of Spain high resolution.jpg",
+        autor: "Retrato de Carlos III, que en 1770 declaró aquella marcha militar «marcha de honor».",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Charles_III_of_Spain_high_resolution.jpg",
+        foco: "50% 35%",
+        alt: "Retrato de cuerpo entero de un rey del siglo XVIII con casaca bordada y banda cruzada al pecho.",
+      },
+      {
+        archivo: "Fachada Este - Palacio Real - Madrid 03.jpg",
+        autor: "Detalle de la fachada del Palacio Real de Madrid, 2024. Fotografía de Javier Pérez Montes.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fachada_Este_-_Palacio_Real_-_Madrid_03.jpg",
+        foco: "50% 45%",
+        alt: "Columnas, balcones y estatuas de la fachada del palacio recortados contra el cielo.",
+      },
+      {
+        archivo: "Palacio Real, Aranjuez, Madrid.jpg",
+        autor: "Palacio Real de Aranjuez, otra de las residencias donde sonaba la marcha en los actos con el rey delante.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Palacio_Real,_Aranjuez,_Madrid.jpg",
+        foco: "50% 50%",
+        alt: "El palacio de Aranjuez con su fachada de ladrillo y piedra y los jardines delante.",
+      },
+    ],
     entrada:
-      "Cuando suena el himno de España en una final, los jugadores mueven la boca o no la mueven, pero no cantan: no hay nada que cantar. Es uno de los cuatro del mundo sin letra oficial. Y no es que se perdiera: desde 1928 se ha intentado escribirla al menos cinco veces, y las cinco han acabado retiradas.",
+      "Cuando suena el himno de España en una final, los jugadores mueven la boca o no la mueven, pero no cantan nada: sencillamente no hay nada que cantar. Es uno de los cuatro himnos del mundo sin letra oficial, junto a los de San Marino, Bosnia y Kosovo. Y no es que la letra se perdiera por el camino ni que nadie se acordara de escribirla: desde 1928 se ha intentado ponérsela al menos cinco veces, con concursos, comisiones y jurados, y las cinco veces la propuesta ha acabado retirada antes de llegar a ninguna parte.",
     paginas: [
       {
         rotulo: "De dónde sale",

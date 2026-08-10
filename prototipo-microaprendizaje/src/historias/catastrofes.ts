@@ -98,21 +98,48 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "titanic",
-    titulo: "Titanic: treinta y siete segundos",
+    titulo: "Titanic: 37 segundos",
     gancho: "Lo vieron a tiempo. Ese fue exactamente el problema.",
     categoria: "Catástrofes",
     color: "var(--slate)",
-    foto: {
-      archivo: "RMS Titanic 3.jpg",
-      autor: "Francis Godolphin Osbourne Stuart",
-      licencia: "Dominio público",
-      pdPorEdad: 1923,
-      foco: "50% 50%",
-      alt: "El Titanic atracado en Southampton antes de zarpar.",
-    },
     encargo: "El Titanic entero, atracado o zarpando, con las cuatro chimeneas.",
+    fotos: [
+      {
+        archivo: "RMS Titanic 3.jpg",
+        autor: "El Titanic saliendo de Southampton, 10 de abril de 1912. Fotografía de Francis Godolphin Osbourne Stuart.",
+        licencia: "Dominio público",
+        pdPorEdad: 1923,
+        fuente: "https://commons.wikimedia.org/wiki/File:RMS_Titanic_3.jpg",
+        foco: "50% 50%",
+        alt: "El Titanic visto de costado con sus cuatro chimeneas, saliendo del puerto entre remolcadores.",
+      },
+      {
+        archivo: "Iceberg A22A, South Atlantic Ocean.jpg",
+        autor: "Iceberg fotografiado desde la Estación Espacial Internacional, 2007. NASA, Johnson Space Center.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Iceberg_A22A,_South_Atlantic_Ocean.jpg",
+        foco: "50% 50%",
+        alt: "Un iceberg enorme y blanco visto desde el aire sobre el mar oscuro, con el hielo sumergido asomando alrededor.",
+      },
+      {
+        archivo: "Carpathia - Titanic lifeboats.jpg",
+        autor: "Botes salvavidas del Titanic recogidos junto al Carpathia, 18 de abril de 1912.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Carpathia_-_Titanic_lifeboats.jpg",
+        foco: "50% 50%",
+        alt: "Varios botes de madera vacíos amarrados al costado de un buque, fotografiados desde cubierta.",
+      },
+      {
+        archivo: "Carpathia Deck.jpg",
+        autor: "Cubierta del Carpathia con los supervivientes recogidos del Titanic, abril de 1912.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Carpathia_Deck.jpg",
+        foco: "50% 50%",
+        alt: "Gente abrigada agrupada en la cubierta de un barco después del rescate.",
+      },
+    ],
     entrada:
-      "Atlántico Norte, a las 23:39 del 14 de abril de 1912. El vigía Frederick Fleet ve una masa negra delante y toca la campana tres veces. Desde ese aviso hasta el impacto pasan unos treinta y siete segundos. En ese tiempo el oficial de guardia da la orden que cualquiera habría dado: todo a babor y máquinas atrás. Y ahí, en esa orden razonable, empieza lo peor de la noche.",
+      "Atlántico Norte, a las 23:39 del 14 de abril de 1912. El vigía Frederick Fleet ve una masa negra delante, toca la campana tres veces y descuelga el teléfono del puente. Desde ese aviso hasta el impacto pasan unos treinta y siete segundos, que es tiempo de sobra para reaccionar y muy poco para acertar. En ese rato el oficial de guardia da la orden que cualquiera habría dado en su lugar: todo a babor y máquinas atrás. Y ahí, en esa orden perfectamente razonable, empieza lo peor de la noche.",
     paginas: [
       {
         rotulo: "El roce",
