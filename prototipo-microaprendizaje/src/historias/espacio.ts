@@ -94,8 +94,42 @@ export const ESPACIO: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Una perra pequeña de morro blanco, mirada tranquila, en blanco y negro de los años cincuenta.",
+    fotos: [
+      {
+        archivo: "Лайка (собака-космонавт)1.jpg",
+        autor: "Laika en el arnés de la cápsula, fotografiada antes del lanzamiento de noviembre de 1957.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B0%D0%B9%D0%BA%D0%B0_(%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82)1.jpg",
+        foco: "50% 38%",
+        alt: "Una perra pequeña de morro blanco y orejas oscuras, sujeta con correas dentro de un habitáculo metálico.",
+      },
+      {
+        archivo: "Модель собаки Лайки.jpg",
+        autor: "Reproducción de Laika expuesta en un museo. Fotografía de Florist.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C_%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B8_%D0%9B%D0%B0%D0%B9%D0%BA%D0%B8.jpg",
+        foco: "50% 45%",
+        alt: "Una figura de perro de tamaño natural dentro de un contenedor cilíndrico con ventanilla.",
+      },
+      {
+        archivo: "USSR Sputnik I, 1957, 1st Man-made Satellite (Replica) (10437199454).jpg",
+        autor: "Réplica del Sputnik 1, el satélite lanzado un mes antes. Fotografía de Gary Todd.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:USSR_Sputnik_I,_1957,_1st_Man-made_Satellite_(Replica)_(10437199454).jpg",
+        foco: "50% 50%",
+        alt: "Una esfera metálica pulida con cuatro antenas largas y finas saliendo hacia atrás.",
+      },
+      {
+        archivo: "Sputnik1MoFS.JPG",
+        autor: "Otra réplica del Sputnik 1, en el Museum of Flight de Seattle. Fotografía de Ciar.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sputnik1MoFS.JPG",
+        foco: "50% 50%",
+        alt: "La bola brillante del satélite colgada del techo, con sus antenas abiertas en abanico.",
+      },
+    ],
     entrada:
-      "Moscú, otoño de 1957. La Unión Soviética acaba de meter en órbita el primer satélite de la historia y quiere rematar la jugada antes de que acabe el año. El plazo que da el gobierno para lanzar un ser vivo es de cuatro semanas. En ese mes no da tiempo a diseñar nada que sepa volver a la Tierra, así que se diseña solo la ida.",
+      "Moscú, otoño de 1957. La Unión Soviética acaba de meter en órbita el primer satélite de la historia y quiere rematar la jugada antes de que acabe el año, coincidiendo con el aniversario de la revolución. El plazo que da el gobierno para lanzar un ser vivo al espacio es de cuatro semanas justas. En un mes no da tiempo material a diseñar nada que sepa volver a la Tierra, ni a probarlo, así que los ingenieros hacen lo único que pueden hacer: diseñan solamente la ida.",
     paginas: [
       {
         rotulo: "La calle",
