@@ -20,13 +20,47 @@ import type { Short } from "../shorts";
 export const EMPRESAS: Short[] = [
   {
     id: "coca-cola-origen",
-    titulo: "Nació como jarabe de farmacia",
+    titulo: "Nació en una farmacia",
     gancho: "Su inventor murió arruinado dos años después de crearla, sin haber ganado nada con ella.",
     categoria: "Empresas",
     color: "var(--clay)",
     encargo: "Un frasco de farmacia del XIX con etiqueta manuscrita, sobre un mostrador de madera.",
+    fotos: [
+      {
+        archivo: "Equi's Store, Holyoke, Massachusetts circa 1910.jpg",
+        autor: "Mostrador de refrescos de una tienda de Holyoke, Massachusetts, hacia 1910, con la barra de mármol italiano.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Equi's_Store,_Holyoke,_Massachusetts_circa_1910.jpg",
+        foco: "50% 50%",
+        alt: "Un local alargado con barra de mármol, taburetes de hierro curvado y vitrinas de madera a los dos lados.",
+      },
+      {
+        archivo: "Erythroxylum coca Krasnodrzew pospolity 2024-02-29 Graz 03.jpg",
+        autor: "Una mata de coca, Erythroxylum coca, en el jardín botánico de Graz. Fotografía de Agnieszka Kwiecień.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Erythroxylum_coca_Krasnodrzew_pospolity_2024-02-29_Graz_03.jpg",
+        foco: "50% 50%",
+        alt: "Ramas de un arbusto con hojas ovaladas de un verde intenso y nervio marcado, iluminadas de lado.",
+      },
+      {
+        archivo: "Mate de coca Stevage.jpg",
+        autor: "Un mate de coca servido en Villazón, Bolivia: la hoja infusionada, como se toma allí desde siempre. Fotografía de Stevage.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mate_de_coca_Stevage.jpg",
+        foco: "50% 50%",
+        alt: "Un vaso de infusión clara con varias hojas verdes flotando dentro, sobre un plato.",
+      },
+      {
+        archivo: "Women gathering leaves of the coca plant (Erythroxylum coca) Wellcome V0043210.jpg",
+        autor: "Recolección de hoja de coca en Bolivia, grabado sobre madera de hacia 1867. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Women_gathering_leaves_of_the_coca_plant_(Erythroxylum_coca)_Wellcome_V0043210.jpg",
+        foco: "50% 50%",
+        alt: "Un grabado antiguo con varias figuras recogiendo hojas entre arbustos bajos, con montañas al fondo.",
+      },
+    ],
     entrada:
-      "Atlanta, en el sur de Estados Unidos, 1886. Un farmacéutico veterano de la guerra civil americana, enganchado a la morfina desde que lo hirieron, lleva años buscando algo que le quite el dolor sin engancharle más. Prepara jarabes en el patio de su casa y los vende en la farmacia de la esquina. Uno de ellos lleva hoja de coca y nuez de cola.",
+      "Atlanta, en el sur de Estados Unidos, 1886. Un farmacéutico veterano de la guerra civil americana, enganchado a la morfina desde que lo hirieron en combate, lleva años buscando algo que le quite el dolor sin engancharle todavía más. Prepara jarabes en un caldero en el patio de su casa y los vende por vasos en la farmacia de la esquina, como hacía entonces media profesión. Uno de esos jarabes lleva hoja de coca y nuez de cola, y es el que acabará convirtiéndose en el refresco más vendido del planeta, sin que él llegue a enterarse.",
     paginas: [
       {
         rotulo: "El jarabe",
