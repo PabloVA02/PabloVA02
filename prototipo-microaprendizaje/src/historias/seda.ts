@@ -88,14 +88,48 @@ export const SEDA: Short[] = [
 
   {
     id: "seda-de-arana",
-    titulo: "Se tejió un manto con un millón de arañas",
+    titulo: "Tela de un millón de arañas",
     gancho: "Ochenta personas recogiendo arañas cada mañana durante ocho años para hacer dos piezas de tela.",
     categoria: "Seda",
     color: "var(--plum)",
     curioso: true,
     encargo: "Una tela dorada brillante con bordados, extendida bajo una luz cálida.",
+    fotos: [
+      {
+        archivo: "Golden orb-weavers (Nephila pilipes) female and male Double Haven.jpg",
+        autor: "Hembra y macho de araña de seda dorada (Nephila pilipes) en su tela, Hong Kong, 2024. Fotografía de Charles J. Sharp.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Golden_orb-weavers_(Nephila_pilipes)_female_and_male_Double_Haven.jpg",
+        foco: "50% 50%",
+        alt: "Una araña grande de patas negras y abdomen rayado, colgada en el centro de una tela tupida sobre un fondo verde desenfocado.",
+      },
+      {
+        archivo: "Nephila plumipes Eastern Golden Orb-weaver removing leaf from its web Beor St Creek 7th Brigade Park Chermside P1030895.jpg",
+        autor: "Araña de seda dorada oriental (Nephila plumipes) limpiando su tela, Chermside, Australia, 2014. Fotografía de John Robert McPherson.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nephila_plumipes_Eastern_Golden_Orb-weaver_removing_leaf_from_its_web_Beor_St_Creek_7th_Brigade_Park_Chermside_P1030895.jpg",
+        foco: "50% 50%",
+        alt: "Una araña de patas largas trabajando en su tela entre la vegetación, con los hilos tensados en abanico a su alrededor.",
+      },
+      {
+        archivo: "Guarding the rainbow strands - Flickr - conall...jpg",
+        autor: "Hilos de tela de araña descomponiendo la luz del sol, Irlanda del Norte, 2015. Fotografía de Conall, Downpatrick.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Guarding_the_rainbow_strands_-_Flickr_-_conall...jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de hilos de seda de araña que brillan con colores de arcoíris al atravesarlos la luz, sobre un fondo oscuro.",
+      },
+      {
+        archivo: "Mulberry leaves and silkworms.jpg",
+        autor: "Gusanos de seda alimentándose de hojas de morera. Es la vía por la que hoy se intenta producir seda de araña.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mulberry_leaves_and_silkworms.jpg",
+        foco: "50% 50%",
+        alt: "Varios gusanos de seda blancos comiendo hojas verdes de morera muy juntas.",
+      },
+    ],
     entrada:
-      "Madagascar, 2004. Dos aficionados a los textiles emprenden un proyecto que llevaba un siglo sin intentarse: tejer una tela con seda de araña, un material más resistente que el acero a igualdad de peso y más elástico que la goma. El problema es que las arañas no se pueden criar juntas en una granja, porque se comen entre ellas.",
+      "Madagascar, 2004. Dos aficionados a los textiles emprenden un proyecto que llevaba un siglo sin intentarse: tejer una tela entera con seda de araña, un material más resistente que el acero a igualdad de peso y más elástico que la goma. La idea había tentado a mucha gente desde el siglo XVIII y siempre había acabado igual, porque las arañas no se pueden criar juntas en una granja: encerradas se comen unas a otras. Si se quería seda de araña había que ir a buscarla al campo, araña por araña, y devolverlas después a su sitio exacto.",
     paginas: [
       {
         rotulo: "La recogida",
