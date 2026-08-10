@@ -85,13 +85,47 @@ export const FAROS: Short[] = [
 
   {
     id: "lente-fresnel",
-    titulo: "Una lente de anillos triplicó todo",
+    titulo: "Tiraron el vidrio del medio",
     gancho: "Antes, un faro se veía a ocho kilómetros. Con aquel cristal escalonado, a más de treinta.",
     categoria: "Faros",
     color: "var(--ochre)",
     encargo: "Una lente enorme de anillos de vidrio vista de cerca, con la luz atravesándola.",
+    fotos: [
+      {
+        archivo: "First order Fresnel lens at Point Reyes lighthouse.jpg",
+        autor: "Lente de Fresnel de primer orden del faro de Point Reyes, California, vista desde abajo. Fotografía de Frank Schulenburg, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:First_order_Fresnel_lens_at_Point_Reyes_lighthouse.jpg",
+        foco: "50% 45%",
+        alt: "El interior de una lente de faro montada en bronce, con anillos de vidrio escalonados y paneles rojos en el centro.",
+      },
+      {
+        archivo: "Inside the Fresnel Lens of the Tybee Island Lighthouse (33766615286).jpg",
+        autor: "Interior de la lente del faro de Tybee Island, Georgia, 2017. Fotografía de Tom Driggers.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Inside_the_Fresnel_Lens_of_the_Tybee_Island_Lighthouse_(33766615286).jpg",
+        foco: "50% 50%",
+        alt: "Vista desde dentro de una lente de faro, rodeada por los anillos y prismas de vidrio que descomponen la luz.",
+      },
+      {
+        archivo: "2009 01 03 - Barnegat Light - Barnegat Lighthouse (3166825081).jpg",
+        autor: "El faro de Barnegat, Nueva Jersey, 2009. Fotografía de thisisbossi.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2009_01_03_-_Barnegat_Light_-_Barnegat_Lighthouse_(3166825081).jpg",
+        foco: "50% 45%",
+        alt: "Una torre de faro rayada en rojo y blanco recortada contra el cielo.",
+      },
+      {
+        archivo: "Hyper-radiant Fresnel Lens.jpg",
+        autor: "Lente de Fresnel hiperradiante, el mayor tamaño que llegó a fabricarse. Fotografía de Lighthouselover143, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hyper-radiant_Fresnel_Lens.jpg",
+        foco: "50% 45%",
+        alt: "Una lente de faro gigantesca, más alta que una persona, con los anillos de vidrio montados en un armazón metálico.",
+      },
+    ],
     entrada:
-      "Francia, 1822. Un faro de la época funciona con lámparas de aceite y espejos curvos detrás, y desperdicia casi toda la luz, que se escapa hacia arriba, hacia abajo y hacia los lados. Un ingeniero de caminos de salud frágil propone una lente completamente distinta, hecha de anillos concéntricos de vidrio en vez de una pieza maciza.",
+      "Francia, 1822. Un faro de la época funciona con lámparas de aceite y espejos curvos detrás, y desperdicia casi toda la luz que produce, porque se le escapa hacia arriba, hacia abajo y hacia los lados sin llegar nunca al mar. La solución evidente sería una lente enorme delante de la llama, pero una lente así tendría que ser tan gruesa y tan pesada que ningún vidriero podría fundirla ni ninguna torre sostenerla. Un ingeniero de caminos de salud frágil propuso entonces algo distinto: una lente hecha de anillos concéntricos en vez de una pieza maciza.",
     paginas: [
       {
         rotulo: "El vidrio que sobra",

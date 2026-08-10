@@ -84,13 +84,47 @@ export const CARBON: Short[] = [
 
   {
     id: "lampara-que-no-prende",
-    titulo: "Una malla apagó las explosiones",
+    titulo: "La llama no cruza la malla",
     gancho: "La llama sigue ardiendo dentro, pero el fuego no sale. El truco es que el metal roba el calor.",
     categoria: "Carbón",
     color: "var(--slate)",
     encargo: "Una lámpara de minero de latón con el cilindro de malla metálica alrededor de la llama.",
+    fotos: [
+      {
+        archivo: "Pozu Tres Amigos 12.jpg",
+        autor: "Sala de máquinas de extracción del pozo Tres Amigos, cuenca minera asturiana. Fotografía de SoyXer.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pozu_Tres_Amigos_12.jpg",
+        foco: "50% 50%",
+        alt: "La gran rueda de una máquina de extracción minera abandonada, dentro de una nave con las paredes cubiertas de verdín.",
+      },
+      {
+        archivo: "Lampe Lux.jpg",
+        autor: "Lámpara de seguridad de minero con su cilindro de tela metálica alrededor de la llama. Fotografía de CéCédille, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lampe_Lux.jpg",
+        foco: "50% 45%",
+        alt: "Una lámpara de minero de latón con la llama encerrada tras una malla metálica fina.",
+      },
+      {
+        archivo: "Coal Miners 2001.JPG",
+        autor: "Mineros del carbón saliendo del tajo. Fotografía de Biswarup Ganguly.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Coal_Miners_2001.JPG",
+        foco: "50% 45%",
+        alt: "Un grupo de mineros con la ropa y la cara tiznadas de carbón.",
+      },
+      {
+        archivo: "Pozu Tres Amigos 06.jpg",
+        autor: "Instalaciones abandonadas del pozo Tres Amigos, Asturias. Fotografía de SoyXer.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pozu_Tres_Amigos_06.jpg",
+        foco: "50% 50%",
+        alt: "Naves y maquinaria de una mina de carbón cerrada, invadidas por la vegetación.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1815. Una explosión en una mina del norte mata a noventa y dos personas y una asociación de vecinos pide ayuda a los científicos. El problema es conocido: en las galerías se acumula un gas inflamable que sale de la propia veta, y la única luz disponible es una llama desnuda. Iluminar y volar por los aires son, hasta entonces, la misma operación.",
+      "Inglaterra, 1815. Una explosión en una mina del norte mata a noventa y dos personas y una asociación de vecinos pide ayuda a los científicos del país. El problema es viejo y conocido por todos los que bajan: en las galerías se acumula un gas inflamable que sale de la propia veta según se pica, no huele a nada y prende con cualquier chispa. Y la única luz disponible bajo tierra es una llama desnuda metida en un candil. Iluminar el tajo y volar por los aires son, hasta ese momento, exactamente la misma operación.",
     paginas: [
       {
         rotulo: "El cilindro de malla",
