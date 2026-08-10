@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const VIDRIO: Short[] = [
   {
     id: "vidrieros-murano",
-    titulo: "Los vidrieros vivían presos en una isla",
+    titulo: "Los vidrieros eran presos",
     gancho: "Venecia les dio espada y privilegios de noble. Marcharse del país se castigaba con la muerte.",
     categoria: "Vidrio",
     color: "var(--plum)",
     encargo: "Un horno de vidrio antiguo con la boca al rojo y unas cañas de soplar apoyadas.",
+    fotos: [
+      {
+        archivo: "Canale San Giovanni (Murano).jpg",
+        autor: "La isla de Murano, en la laguna de Venecia, vista desde el agua.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Canale_San_Giovanni_(Murano).jpg",
+        foco: "50% 50%",
+        alt: "Una hilera de casas de ladrillo rojizo al borde del agua, con un campanario de piedra inclinado detrás.",
+      },
+      {
+        archivo: "(Bemberg Foundation) - 18th Century Venetian 'Mirror' Gilded wood and glass.jpg",
+        autor: "Espejo veneciano del siglo XVIII, de madera dorada y cristal. Fundación Bemberg, Toulouse. Fotografía de Didier Descouens.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:(Bemberg_Foundation)_-_18th_Century_Venetian_'Mirror'_Gilded_wood_and_glass.jpg",
+        foco: "50% 35%",
+        alt: "Un espejo alto con marco de madera tallada y dorada, rematado por volutas y hojas.",
+      },
+      {
+        archivo: "Galerie des Glaces (23934705229).jpg",
+        autor: "La galería de los Espejos de Versalles, levantada con espejos franceses después de que Francia se llevara a los maestros venecianos. Fotografía de Jorge Láscar.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Galerie_des_Glaces_(23934705229).jpg",
+        foco: "50% 45%",
+        alt: "Una galería larguísima con arcos de espejos a un lado, ventanales al otro y arañas de cristal colgando.",
+      },
+      {
+        archivo: "Corning Museum of Glass - 20220312 - 03 - Hot Glass Show.jpg",
+        autor: "Una bola de vidrio fundido recalentándose en el horno, a más de mil grados. Museo del Vidrio de Corning. Fotografía de Andre Carrotflower.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Corning_Museum_of_Glass_-_20220312_-_03_-_Hot_Glass_Show.jpg",
+        foco: "50% 45%",
+        alt: "La boca encendida de un horno de vidrio con una caña metida dentro y una masa incandescente en la punta.",
+      },
+    ],
     entrada:
-      "Venecia, 1291. La ciudad ordena trasladar todos los hornos de vidrio a una isla de la laguna, a kilómetro y medio del centro. La excusa oficial es el riesgo de incendio, razonable en una ciudad llena de casas de madera. La consecuencia real es que los mejores vidrieros de Europa quedan concentrados y vigilados en un sitio del que no pueden salir.",
+      "Venecia, 1291. La ciudad ordena trasladar todos los hornos de vidrio a una isla de la laguna, a kilómetro y medio escaso del centro. La excusa oficial es el riesgo de incendio, que es razonable de verdad en una ciudad apretada y llena de casas de madera, y nadie discute la medida. La consecuencia real, en cambio, va mucho más allá: los mejores vidrieros de Europa quedan concentrados en un sitio pequeño, rodeado de agua y fácil de vigilar, del que a partir de entonces no pueden salir.",
     paginas: [
       {
         rotulo: "El privilegio",
