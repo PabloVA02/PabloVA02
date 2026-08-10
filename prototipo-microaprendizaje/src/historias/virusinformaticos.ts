@@ -90,8 +90,42 @@ export const VIRUS_INFORMATICOS: Short[] = [
     categoria: "Tecnología",
     color: "var(--clay)",
     encargo: "Disquete de cinco pulgadas y cuarto con una etiqueta escrita a máquina.",
+    fotos: [
+      {
+        archivo: "Smoke Signal Broadcasting floppies.jpg",
+        autor: "Disquetes de cinco pulgadas y cuarto en sus fundas de papel, con las etiquetas escritas a máquina. Fotografía de DigitalIceAge.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Smoke_Signal_Broadcasting_floppies.jpg",
+        foco: "50% 50%",
+        alt: "Cuatro discos flexibles negros asomando en abanico de unos sobres de papel color crema, sobre una mesa de madera oscura.",
+      },
+      {
+        archivo: "Chief Post Office mail room, Wellington 1920.jpg",
+        autor: "La sala de correo de una oficina postal en 1920. Archives New Zealand.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chief_Post_Office_mail_room,_Wellington_1920.jpg",
+        foco: "50% 50%",
+        alt: "Una nave con montones de sacas y paquetes por el suelo y estanterías de casilleros al fondo.",
+      },
+      {
+        archivo: "General Post Office mail sorting room, Wellington c.1900s.jpg",
+        autor: "Sala de clasificación de correo a principios del siglo XX. Archives New Zealand.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:General_Post_Office_mail_sorting_room,_Wellington_c.1900s.jpg",
+        foco: "50% 50%",
+        alt: "Largas mesas de clasificación con casilleros de madera numerados llenos de cartas.",
+      },
+      {
+        archivo: "Royal Mail Sorting Office, Kirkleatham Business Park - geograph.org.uk - 6073477.jpg",
+        autor: "Un centro de clasificación postal moderno. Fotografía de JThomas.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Royal_Mail_Sorting_Office,_Kirkleatham_Business_Park_-_geograph.org.uk_-_6073477.jpg",
+        foco: "50% 50%",
+        alt: "Una nave industrial larga y baja con muelles de carga y furgonetas aparcadas delante.",
+      },
+    ],
     entrada:
-      "Reino Unido, diciembre de 1989. Se celebra una conferencia mundial sobre una enfermedad y a los asistentes les llega por correo postal un disquete que promete un cuestionario de riesgo. Veinte mil personas lo reciben en noventa países. Al ejecutarlo noventa veces, el programa esconde los ficheros del disco y pide ciento ochenta y nueve dólares a un apartado de correos de Panamá.",
+      "Reino Unido, diciembre de 1989. Se celebra una conferencia mundial sobre una enfermedad y, semanas después, a los asistentes les llega por correo postal un disquete que promete un cuestionario para calcular su riesgo personal. Veinte mil personas lo reciben en noventa países, y muchas lo meten en el ordenador sin pensárselo dos veces, porque en 1989 nadie desconfía de un sobre. Al ejecutarlo por nonagésima vez, el programa esconde los ficheros del disco y pide ciento ochenta y nueve dólares a un apartado de correos de Panamá.",
     paginas: [
       {
         rotulo: "El engaño",
