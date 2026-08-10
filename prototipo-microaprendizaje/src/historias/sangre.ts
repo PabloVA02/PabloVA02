@@ -17,13 +17,47 @@ import type { Short } from "../shorts";
 export const SANGRE: Short[] = [
   {
     id: "grupos-sanguineos",
-    titulo: "Antes de 1901 una transfusión era una lotería",
+    titulo: "La transfusión era lotería",
     gancho: "Unas salvaban al enfermo y otras lo mataban en minutos, y nadie sabía distinguir cuál sería.",
     categoria: "Sangre",
     color: "var(--clay)",
     encargo: "Placas de vidrio con gotas de sangre y unas pipetas al lado.",
+    fotos: [
+      {
+        archivo: "Red Blood Cells.jpg",
+        autor: "Glóbulos rojos humanos vistos al microscopio. Fotografía de Vijayanrajapuram.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Red_Blood_Cells.jpg",
+        foco: "50% 50%",
+        alt: "Un círculo claro visto por el microscopio, lleno de discos rosados apiñados sobre fondo negro.",
+      },
+      {
+        archivo: "Frog`s red blood cells under a microscope.jpg",
+        autor: "Glóbulos rojos de rana, que a diferencia de los humanos conservan su núcleo. Fotografía de Yana Balakhonova.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Frog%60s_red_blood_cells_under_a_microscope.jpg",
+        foco: "50% 50%",
+        alt: "Células ovaladas de color claro con un punto oscuro en el centro, repartidas por el campo del microscopio.",
+      },
+      {
+        archivo: "Blood transfusion Wellcome L0024143.jpg",
+        autor: "Material de transfusión de sangre del ejército británico, entre 1939 y 1945. Wellcome Collection.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Blood_transfusion_Wellcome_L0024143.jpg",
+        foco: "50% 50%",
+        alt: "Frascos, tubos de goma y soportes de un equipo de transfusión de campaña, en una fotografía antigua.",
+      },
+      {
+        archivo: "Centro de Transfusión de la Comunidad de Madrid.jpg",
+        autor: "El Centro de Transfusión de la Comunidad de Madrid. Fotografía de Tiia Monto.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Centro_de_Transfusi%C3%B3n_de_la_Comunidad_de_Madrid.jpg",
+        foco: "50% 50%",
+        alt: "Un edificio moderno y alargado de ladrillo y cristal, con el aparcamiento delante.",
+      },
+    ],
     entrada:
-      "Viena, 1901. Un médico de treinta y tres años mezcla en placas de vidrio la sangre de sus compañeros de laboratorio, la de su ayudante y la suya propia, combinándolas de todas las maneras posibles. En algunas mezclas los glóbulos rojos se apelotonan formando grumos visibles a simple vista; en otras no ocurre nada. Está delante del motivo.",
+      "Viena, 1901. Un médico de treinta y tres años se pone a mezclar en placas de vidrio la sangre de sus compañeros de laboratorio, la de su ayudante y la suya propia, combinándolas de todas las maneras posibles y anotando qué pasa en cada caso. El resultado no es sutil ni hace falta microscopio para verlo: en algunas mezclas los glóbulos rojos se apelotonan formando grumos visibles a simple vista, y en otras no ocurre absolutamente nada. Tiene delante el motivo por el que las transfusiones mataban a la mitad de la gente.",
     paginas: [
       {
         rotulo: "Los grupos",
