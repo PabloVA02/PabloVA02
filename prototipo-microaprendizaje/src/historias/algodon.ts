@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const ALGODON: Short[] = [
   {
     id: "la-maquina-que-empeoro-todo",
-    titulo: "La máquina que multiplicó esclavos",
+    titulo: "La máquina trajo esclavos",
     gancho: "Separaba la fibra de la semilla cincuenta veces más rápido. El resultado fue mucha más gente esclavizada, no menos.",
     categoria: "Algodón",
     color: "var(--slate)",
     encargo: "Un cajón de madera con rodillo de púas metálicas y fibra de algodón alrededor.",
+    fotos: [
+      {
+        archivo: "Cotton harvester at sunset with dark orange sky in Batesville, Texas cotton field.jpg",
+        autor: "Una cosechadora de algodón al atardecer en un campo de Batesville, Texas.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cotton_harvester_at_sunset_with_dark_orange_sky_in_Batesville,_Texas_cotton_field.jpg",
+        foco: "50% 42%",
+        alt: "La silueta negra de una cosechadora recortada contra un sol enorme y un cielo rojo, sobre un campo de algodón.",
+      },
+      {
+        archivo: "Cotton gin EWM 2007.jpg",
+        autor: "Una desmotadora de algodón conservada en el museo Eli Whitney, con el cilindro de ganchos, el cepillo y la fibra ya separada. Fotografía de Tom Murphy VII.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cotton_gin_EWM_2007.jpg",
+        foco: "50% 50%",
+        alt: "El interior de un cajón de madera con un cilindro dentado, un cepillo giratorio, un volante de hierro y copos de algodón por el fondo.",
+      },
+      {
+        archivo: "Cotton plant, Ware County, GA, US.jpg",
+        autor: "Una mata de algodón con las cápsulas abiertas, en el condado de Ware, Georgia. Fotografía de Jud McCranie.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cotton_plant,_Ware_County,_GA,_US.jpg",
+        foco: "50% 50%",
+        alt: "Una planta de algodón con hojas verdes y varias cápsulas secas reventadas dejando salir la fibra blanca.",
+      },
+      {
+        archivo: "Coosa Valley, Alabama. Warehousing cotton (Talladega) - NARA - 522571.jpg",
+        autor: "Almacén de balas de algodón en Talladega, Alabama, en mayo de 1941. Fotografía de Irving Rusinow.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Coosa_Valley,_Alabama._Warehousing_cotton_(Talladega)_-_NARA_-_522571.jpg",
+        foco: "50% 50%",
+        alt: "Pilas de balas de algodón envueltas en arpillera dentro de una nave de madera en penumbra.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1793. El algodón que crece bien en el sur del país tiene semillas verdes pegadas a la fibra, y separarlas a mano es lentísimo: una persona limpia menos de medio kilo al día. Eso limita el cultivo a una escala pequeña. Un joven mecánico de paso por una plantación construye en pocas semanas un aparato que lo cambia todo.",
+      "Estados Unidos, 1793. El algodón que crece bien en el sur del país tiene unas semillas verdes fuertemente pegadas a la fibra, y separarlas a mano es de una lentitud desesperante: una persona sentada un día entero limpia menos de medio kilo. Ese cuello de botella mantiene el cultivo a una escala pequeña, casi doméstica, porque no compensa plantar más de lo que se puede limpiar después. Un joven mecánico que está de paso por una plantación construye en pocas semanas un aparato de manivela que lo cambia todo, y lo cambia en la dirección contraria a la que cualquiera habría supuesto.",
     paginas: [
       {
         rotulo: "El peine",
