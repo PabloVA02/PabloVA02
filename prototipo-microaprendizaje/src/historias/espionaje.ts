@@ -20,13 +20,47 @@ import type { Short } from "../shorts";
 export const ESPIONAJE: Short[] = [
   {
     id: "sello-theremin",
-    titulo: "Un micrófono sin pilas, siete años",
+    titulo: "Un micrófono sin pilas",
     gancho: "Iba dentro de un regalo colgado en la pared del embajador. No tenía nada que detectar.",
     categoria: "Espionaje",
     color: "var(--slate)",
     encargo: "Un escudo de madera tallado con un águila, colgado en una pared con panelado.",
+    fotos: [
+      {
+        archivo: "Spaso House Exterior.JPG",
+        autor: "Spaso House, la residencia del embajador de Estados Unidos en Moscú, donde estuvo colgado el escudo. Fotografía de Valeriy Yevseyev para la embajada.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Spaso_House_Exterior.JPG",
+        foco: "50% 50%",
+        alt: "Una mansión neoclásica amarilla con columnas blancas y un pórtico curvo, rodeada de césped y rosales.",
+      },
+      {
+        archivo: "Spaso House Library.JPG",
+        autor: "La biblioteca de Spaso House. Fotografía de Valeriy Yevseyev para la embajada.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Spaso_House_Library.JPG",
+        foco: "50% 50%",
+        alt: "Una sala con estanterías de madera oscura llenas de libros, butacas y una lámpara encendida.",
+      },
+      {
+        archivo: "Spaso House Dining Room.JPG",
+        autor: "El comedor de la residencia. Fotografía de Valeriy Yevseyev para la embajada.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Spaso_House_Dining_Room.JPG",
+        foco: "50% 50%",
+        alt: "Un comedor formal con mesa larga puesta, sillas tapizadas y molduras blancas en las paredes.",
+      },
+      {
+        archivo: "Moscow - Red Square and Kremlin towers - 2024.jpg",
+        autor: "La Plaza Roja y las torres del Kremlin, en Moscú.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Moscow_-_Red_Square_and_Kremlin_towers_-_2024.jpg",
+        foco: "50% 50%",
+        alt: "La muralla del Kremlin con sus torres de ladrillo rojo y remates verdes, vista desde la plaza.",
+      },
+    ],
     entrada:
-      "En 1945, un grupo de niños de una organización juvenil soviética entregó al embajador de Estados Unidos en Moscú un regalo de buena voluntad: un escudo con el águila americana, tallado en madera con notable primor. El embajador lo colgó en la pared de su despacho, en la residencia oficial. Estuvo ahí siete años, y durante siete años funcionó.",
+      "En 1945, un grupo de niños de una organización juvenil soviética entregó al embajador de Estados Unidos en Moscú un regalo de buena voluntad delante de las cámaras: un escudo con el águila americana, tallado en madera con notable primor y evidente esfuerzo. El embajador, encantado con el detalle, lo colgó en la pared de su despacho, en la residencia oficial, que es exactamente donde estaba previsto que lo colgara. Allí estuvo siete años, colgado a la vista de todos, y durante esos siete años estuvo funcionando.",
     paginas: [
       {
         rotulo: "Sin pilas",
