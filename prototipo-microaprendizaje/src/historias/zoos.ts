@@ -83,13 +83,47 @@ export const ZOOS: Short[] = [
 
   {
     id: "personas-exhibidas",
-    titulo: "En las exposiciones se exhibía a personas",
+    titulo: "Se exhibía a personas",
     gancho: "Poblados enteros montados para que el público paseara alrededor. Duró hasta bien entrado el siglo XX.",
     categoria: "Zoos",
     color: "var(--slate)",
     encargo: "Una valla de madera con carteles de feria antiguos y un camino de tierra.",
+    fotos: [
+      {
+        archivo: "Carl Hagenbeck's Tierpark, Stellingen-Hamburg, Nordland-Panorama.jpg",
+        autor: "Panorama del Nordland en el parque de Carl Hagenbeck, Stellingen (Hamburgo). Postal coloreada a mano anterior a 1910.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Carl_Hagenbeck's_Tierpark,_Stellingen-Hamburg,_Nordland-Panorama.jpg",
+        foco: "50% 50%",
+        alt: "Un recinto de roca artificial escalonado con renos arriba, osos polares en el segundo nivel y focas en el agua del primer plano.",
+      },
+      {
+        archivo: "Exposition universelle de 1889 un minaret, Paris, PH76561.jpg",
+        autor: "Alminar levantado como decorado en la Exposición Universal de París de 1889. Fotografía de Hippolyte Blancard.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Exposition_universelle_de_1889_un_minaret,_Paris,_PH76561.jpg",
+        foco: "50% 45%",
+        alt: "Copia de época de un alminar construido en escayola dentro del recinto de una exposición, entre palmeras plantadas.",
+      },
+      {
+        archivo: "Palais Porte Doree Facade.jpg",
+        autor: "Fachada del Palacio de la Puerta Dorada de París, levantado para la exposición colonial de 1931. Fotografía de AlSepPhoenix, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Palais_Porte_Doree_Facade.jpg",
+        foco: "50% 50%",
+        alt: "Una fachada monumental de piedra cubierta de relieves tallados de lado a lado.",
+      },
+      {
+        archivo: "Le Palais de la Porte Dorée 12.jpg",
+        autor: "El mismo edificio, hoy sede del museo de la historia de la inmigración. Fotografía de NicolasPamart2610, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Le_Palais_de_la_Porte_Dor%C3%A9e_12.jpg",
+        foco: "50% 50%",
+        alt: "Vista del palacio de la Puerta Dorada desde el exterior, con su pórtico de columnas y el estanque delante.",
+      },
+    ],
     entrada:
-      "Europa y Estados Unidos, entre 1870 y 1930. Las exposiciones universales y muchos parques zoológicos incluyen entre sus atracciones aldeas reconstruidas con personas traídas de colonias africanas, asiáticas y del Ártico, que viven allí durante meses mientras el público pasea alrededor y las observa. Se vendían millones de entradas cada temporada y las secciones se anunciaban en carteles por toda la ciudad.",
+      "Europa y Estados Unidos, entre 1870 y 1930. Las exposiciones universales y muchos parques zoológicos incluyen entre sus atracciones aldeas reconstruidas con personas traídas de colonias africanas, asiáticas y del Ártico, que viven allí durante meses mientras el público pasea alrededor y las observa desde un camino marcado. No era una atracción de barraca ni un espectáculo clandestino: se vendían millones de entradas cada temporada, las secciones se anunciaban en carteles por toda la ciudad y los ayuntamientos las inauguraban. Todo aquello está documentado con contratos y con contabilidad.",
     paginas: [
       {
         rotulo: "El montaje",

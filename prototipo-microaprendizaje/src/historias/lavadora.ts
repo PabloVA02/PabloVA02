@@ -82,13 +82,47 @@ export const LAVADORA: Short[] = [
 
   {
     id: "la-primera-electrica",
-    titulo: "Las primeras arrancaban dedos",
+    titulo: "La lavadora arrancaba dedos",
     gancho: "El motor iba a la vista y el escurridor de rodillos no tenía freno: si te pillaba la mano, seguía girando.",
     categoria: "Lavadora",
     color: "var(--clay)",
     encargo: "Una lavadora antigua de tambor de madera con dos rodillos de goma encima.",
+    fotos: [
+      {
+        archivo: "MieleKraftmaschineH1a.jpg",
+        autor: "Lavadora Miele de bombo de madera con motor eléctrico acoplado, uno de los primeros modelos. Fotografía de Christoph Rieder, 2022.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:MieleKraftmaschineH1a.jpg",
+        foco: "50% 45%",
+        alt: "Un bombo de duelas de madera con dos grandes engranajes de hierro fundido al aire y un motor eléctrico unido por una correa.",
+      },
+      {
+        archivo: "MieleKraftmaschineH3a.jpg",
+        autor: "Detalle del mecanismo: piñones, correa y motor, todo a la intemperie. Fotografía de Christoph Rieder, 2022.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:MieleKraftmaschineH3a.jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de los engranajes dentados y la correa de transmisión de una lavadora antigua, sin ninguna carcasa.",
+      },
+      {
+        archivo: "MieleKraftmaschineH6a.jpg",
+        autor: "La misma máquina vista por el otro costado, con el bombo y el bastidor de fundición. Fotografía de Christoph Rieder, 2022.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:MieleKraftmaschineH6a.jpg",
+        foco: "50% 50%",
+        alt: "Vista lateral del bombo de madera montado sobre patas de hierro, con la polea del motor debajo.",
+      },
+      {
+        archivo: "Feldbach-Nostalgiewelt Posch-washing machines-04ASD.jpg",
+        autor: "Colección de lavadoras antiguas en el museo Nostalgiewelt de Feldbach, Austria, 2020. Fotografía de Asurnipal.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Feldbach-Nostalgiewelt_Posch-washing_machines-04ASD.jpg",
+        foco: "50% 50%",
+        alt: "Varias lavadoras de distintas épocas alineadas en una sala de museo.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1908. Sale a la venta la primera lavadora eléctrica fabricada en serie: un tambor de madera montado sobre un bastidor, movido por un motor eléctrico acoplado con una correa. La idea es sencilla y la ejecución, temeraria. El motor va colgado debajo, sin carcasa, la correa gira al aire y todo el conjunto se moja constantemente con agua jabonosa.",
+      "Estados Unidos, 1908. Sale a la venta la primera lavadora eléctrica fabricada en serie: un bombo de madera montado sobre un bastidor de hierro y movido por un motor eléctrico acoplado con una correa. La idea es sencilla y la ejecución, temeraria. El motor va colgado debajo sin carcasa ninguna, la correa gira al aire a la altura de las piernas y todo el conjunto se moja sin parar con agua jabonosa, que es exactamente lo que hace falta para que la electricidad busque camino por donde no debe.",
     paginas: [
       {
         rotulo: "El motor al aire",
