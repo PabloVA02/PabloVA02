@@ -90,8 +90,42 @@ export const FAROS_DE_COCHE: Short[] = [
     categoria: "Tecnología",
     color: "var(--clay)",
     encargo: "Coche de los años veinte con tres faros delanteros, el central algo girado.",
+    fotos: [
+      {
+        archivo: "Macro of the vintage car headlight in Cancale (Unsplash).jpg",
+        autor: "El faro redondo de un coche antiguo, con su aro cromado. Fotografía de Erwan Hesry.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Macro_of_the_vintage_car_headlight_in_Cancale_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de un faro circular con el cristal estriado, engastado en una carrocería color crema.",
+      },
+      {
+        archivo: "Car headlight beams through the rain 01.jpg",
+        autor: "Los haces de unos faros abriéndose paso bajo la lluvia. Fotografía de Bright Kwame Ayisi.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Car_headlight_beams_through_the_rain_01.jpg",
+        foco: "50% 50%",
+        alt: "Dos conos de luz blanca atravesando la lluvia en la oscuridad, con el asfalto brillando debajo.",
+      },
+      {
+        archivo: "Cunningham Special, Bj. 1924, Scheinwerfer.JPG",
+        autor: "Los faros de un Cunningham Special de 1924. Fotografía de Lothar Spurzem.",
+        licencia: "CC BY-SA 2.0 de",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cunningham_Special,_Bj._1924,_Scheinwerfer.JPG",
+        foco: "50% 50%",
+        alt: "Dos faros grandes de latón montados sobre una barra delante del radiador de un coche antiguo.",
+      },
+      {
+        archivo: "Car headlight beams through the rain 2.jpg",
+        autor: "Otro coche con las luces encendidas en una noche de lluvia. Fotografía de Bright Kwame Ayisi.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Car_headlight_beams_through_the_rain_2.jpg",
+        foco: "50% 50%",
+        alt: "Los faros encendidos de un coche visto de frente, con las gotas de lluvia cruzando el haz.",
+      },
+    ],
     entrada:
-      "Francia y Estados Unidos, 1928. Un fabricante saca un coche cuyo faro central gira con el volante, siguiendo la curva en vez de apuntar recto. La idea resuelve un problema evidente que todo el mundo ha sufrido de noche. En una carretera con curvas, el faro alumbra siempre hacia delante y la carretera se va hacia un lado.",
+      "Francia y Estados Unidos, 1928. Un fabricante saca al mercado un coche cuyo faro central gira con el volante, de modo que la luz sigue la curva en vez de apuntar siempre recta hacia delante. La idea resuelve un problema que cualquiera que haya conducido de noche por carretera de montaña ha sufrido sin ponerle nombre: en una curva cerrada, el coche apunta a un sitio y la carretera se va hacia el otro, así que los faros alumbran la cuneta y el resto queda a oscuras.",
     paginas: [
       {
         rotulo: "Alumbrar la curva",
