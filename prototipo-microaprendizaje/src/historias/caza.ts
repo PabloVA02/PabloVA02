@@ -87,13 +87,47 @@ export const CAZA: Short[] = [
   },
   {
     id: "el-bosque-del-rey",
-    titulo: "Cazar un ciervo costaba la vista",
+    titulo: "Un ciervo costaba los ojos",
     gancho: "Los bosques reales estaban reservados al rey, y las penas por matar un ciervo llegaron a la mutilación.",
     categoria: "Caza",
     color: "var(--slate)",
     encargo: "Un bosque cerrado de robles con una linde de piedras bajas.",
+    fotos: [
+      {
+        archivo: "Ancient oak trees in Sherwood Forest - geograph.org.uk - 6356602.jpg",
+        autor: "Robles centenarios en el bosque de Sherwood, Nottinghamshire, 2019. Fotografía de Phil Champion.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ancient_oak_trees_in_Sherwood_Forest_-_geograph.org.uk_-_6356602.jpg",
+        foco: "50% 45%",
+        alt: "Un camino de tierra entre dos robles enormes y retorcidos, con el bosque cerrado y verde alrededor.",
+      },
+      {
+        archivo: "Cervus elaphus Luc Viatour 3.jpg",
+        autor: "Ciervo común (Cervus elaphus) en el bosque de Freyr, cerca de Han-sur-Lesse, Bélgica. Fotografía de Luc Viatour, 2011.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_3.jpg",
+        foco: "50% 45%",
+        alt: "Un ciervo macho con la cornamenta completa, de pie entre la hierba alta al borde de un bosque.",
+      },
+      {
+        archivo: "An ancient oak tree in Sherwood Forest - geograph.org.uk - 6356877.jpg",
+        autor: "Roble viejo apuntalado en el bosque de Sherwood, 2019. Fotografía de Phil Champion.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:An_ancient_oak_tree_in_Sherwood_Forest_-_geograph.org.uk_-_6356877.jpg",
+        foco: "50% 55%",
+        alt: "Un roble muy viejo de tronco hueco y ramas abiertas, rodeado de helechos.",
+      },
+      {
+        archivo: "Major Oak (9504).jpg",
+        autor: "El Major Oak de Sherwood, apuntalado con puntales de hierro y madera, 2014. Fotografía de Nilfanion.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Major_Oak_(9504).jpg",
+        foco: "50% 45%",
+        alt: "Un roble gigantesco con las ramas más largas sostenidas por postes, en medio de un claro del bosque.",
+      },
+    ],
     entrada:
-      "Inglaterra, después de la conquista normanda de 1066. El nuevo rey declara enormes extensiones de bosque como reserva de caza propia, sometidas a una ley aparte que no es la ley común del reino. En esos territorios viven campesinos que llevan generaciones sacando leña, pastos y algún animal para la olla, y de pronto todo eso queda prohibido.",
+      "Inglaterra, después de la conquista normanda de 1066. El nuevo rey declara enormes extensiones de bosque como reserva de caza propia, sometidas a una ley aparte que no es la ley común del reino. En esos territorios viven desde hace generaciones campesinos que sacan de allí la leña del invierno, los pastos del ganado y algún animal para la olla, y de un día para otro todo eso queda prohibido bajo penas que no se parecen a ninguna otra del país. La disputa por aquellos bosques duró siglo y medio y acabó cambiando el derecho inglés.",
     paginas: [
       {
         rotulo: "La ley del bosque",
