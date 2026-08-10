@@ -16,14 +16,50 @@ import type { Short } from "../shorts";
 export const INFANCIA: Short[] = [
   {
     id: "ninos-pintados-como-adultos",
-    titulo: "Los niños pintados como adultos",
+    titulo: "Niños pintados como adultos",
     gancho: "Cara de señor, ropa de señor y postura de señor. Y eso ha dado lugar a una teoría discutida.",
     categoria: "Infancia",
     color: "var(--clay)",
     curioso: true,
     encargo: "Un retrato antiguo de un niño vestido con ropa de adulto y gesto serio.",
+    fotos: [
+      {
+        archivo: "Diego Rodriguez de Silva y Velázquez - Infanta Margarita Teresa in a Blue Dress - Google Art Project.jpg",
+        autor: "La infanta Margarita Teresa a los ocho años, óleo de Diego Velázquez, 1659. Kunsthistorisches Museum, Viena.",
+        licencia: "Dominio público",
+        pdPorEdad: 1660,
+        fuente: "https://commons.wikimedia.org/wiki/File:Diego_Rodriguez_de_Silva_y_Vel%C3%A1zquez_-_Infanta_Margarita_Teresa_in_a_Blue_Dress_-_Google_Art_Project.jpg",
+        foco: "50% 28%",
+        alt: "Una niña de pelo claro con un enorme vestido azul y plata de corte adulto, muy seria, con una mano apoyada en un mueble.",
+      },
+      {
+        archivo: "Diederik van Hemert (1729-53), heer van Babiloniënbroek op zesjarige leeftijd, SK-A-3868.jpg",
+        autor: "Diederik van Hemert, señor de Babiloniënbroek, retratado a los seis años. Óleo de Harmen Serin, 1735. Rijksmuseum.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Diederik_van_Hemert_(1729-53),_heer_van_Babiloni%C3%ABnbroek_op_zesjarige_leeftijd,_SK-A-3868.jpg",
+        foco: "50% 25%",
+        alt: "Un niño pequeño pintado de cuerpo entero con casaca, chaleco y postura de caballero adulto.",
+      },
+      {
+        archivo: "Pieter Bruegel the Elder - Children’s Games - Google Art Project.jpg",
+        autor: "Juegos de niños, óleo de Pieter Brueghel el Viejo, 1560: más de ochenta juegos distintos en una sola plaza.",
+        licencia: "Dominio público",
+        pdPorEdad: 1569,
+        fuente: "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg",
+        foco: "50% 50%",
+        alt: "Una plaza pintada llena de decenas de niños jugando a la vez, con aros, peonzas, zancos y muñecas.",
+      },
+      {
+        archivo: "02023 Resurrection egg, Cedynia, 11th-13th centuries.jpg",
+        autor: "Sonajero de cerámica esmaltada hallado en Cedynia, Polonia, de entre los siglos XI y XIII.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:02023_Resurrection_egg,_Cedynia,_11th-13th_centuries.jpg",
+        foco: "50% 50%",
+        alt: "Un huevo de barro vidriado en verde y amarillo con dibujos en espiral, sobre fondo oscuro.",
+      },
+    ],
     entrada:
-      "Europa, siglos XIV a XVII. Cualquiera que pasee por un museo lo nota enseguida: en los cuadros de esa época los niños tienen cara de adulto en miniatura, van vestidos igual que sus padres y posan con la misma seriedad. En 1960, un historiador francés partió de esa observación para sostener algo que levantó una polémica que aún dura.",
+      "Europa, siglos XIV a XVII. Cualquiera que pasee por la sala de pintura antigua de un museo lo nota enseguida y le resulta incómodo sin saber muy bien por qué: en los cuadros de esa época los niños tienen cara de adulto en miniatura, van vestidos igual que sus padres, con las mismas telas y los mismos encajes, y posan con la misma seriedad. En 1960, un historiador francés partió de esa observación para sostener una tesis que levantó una polémica todavía viva sesenta años después.",
     paginas: [
       {
         rotulo: "La tesis",
