@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const RIOS: Short[] = [
   {
     id: "la-frontera-que-se-movio",
-    titulo: "Un río cambió de curso y movió la frontera",
+    titulo: "El río movió la frontera",
     gancho: "Se llevó seiscientas hectáreas de un país al otro, y el pleito duró cien años.",
     categoria: "Ríos",
     color: "var(--ochre)",
     encargo: "Un meandro de río visto desde el aire, con una orilla de tierra clara.",
+    fotos: [
+      {
+        archivo: "Gfp-texas-big-bend-national-park-overview-of-the-rio-grande-at-dusk.jpg",
+        autor: "El río Bravo al anochecer, a su paso por el parque de Big Bend, en Texas.",
+        licencia: "Public Domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gfp-texas-big-bend-national-park-overview-of-the-rio-grande-at-dusk.jpg",
+        foco: "50% 55%",
+        alt: "Un río ancho y tranquilo curvándose entre matorrales, con una playa de arena clara y montañas naranjas al fondo.",
+      },
+      {
+        archivo: "RedRiverMeandersArkansas1.jpg",
+        autor: "Los meandros del río Rojo en Arkansas vistos desde el aire, con los cauces abandonados marcados en la tierra. USDA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:RedRiverMeandersArkansas1.jpg",
+        foco: "50% 50%",
+        alt: "Una fotografía aérea de un río serpenteando entre campos, rodeado de lagunas curvas que fueron cauce.",
+      },
+      {
+        archivo: "ISS067-E-174541 El Paso and Juárez.jpg",
+        autor: "El Paso y Ciudad Juárez fotografiadas desde la Estación Espacial Internacional en 2022. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:ISS067-E-174541_El_Paso_and_Ju%C3%A1rez.jpg",
+        foco: "50% 50%",
+        alt: "Dos ciudades pegadas vistas desde el espacio, separadas por una línea clara que es el cauce del río.",
+      },
+      {
+        archivo: "Bridge of the Americas (El Paso–Ciudad Juárez), June 2016.jpg",
+        autor: "El puente de las Américas, entre El Paso y Ciudad Juárez, en 2016.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bridge_of_the_Americas_(El_Paso%E2%80%93Ciudad_Ju%C3%A1rez),_June_2016.jpg",
+        foco: "50% 50%",
+        alt: "Un puente ancho de varios carriles cruzando un cauce recto de hormigón entre dos ciudades.",
+      },
+    ],
     entrada:
-      "Frontera entre México y Estados Unidos, 1864. Un tratado firmado dieciséis años antes fija la línea entre los dos países en el cauce de un río. El problema aparece cuando el río se mueve. Corre por una llanura de arena y, en una crecida, se desplaza y deja al norte un terreno que estaba al sur. Con sus casas, sus campos y varios centenares de vecinos dentro.",
+      "Frontera entre México y Estados Unidos, 1864. Un tratado firmado dieciséis años antes fija la línea que separa los dos países en el cauce de un río, que en el papel parece la referencia más clara y más estable que existe. El problema aparece cuando el río se mueve, y este se mueve. Corre por una llanura de arena, sin roca que lo sujete, y en una crecida se desplaza hacia el sur y deja en la orilla norte un terreno que hasta entonces estaba en la otra. Con sus casas, sus campos y varios centenares de vecinos dentro.",
     paginas: [
       {
         rotulo: "Qué manda",
