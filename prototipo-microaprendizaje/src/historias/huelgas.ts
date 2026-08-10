@@ -15,14 +15,48 @@ import type { Short } from "../shorts";
 export const HUELGAS: Short[] = [
   {
     id: "la-huelga-mas-antigua",
-    titulo: "La primera huelga fue faraónica",
+    titulo: "La huelga más antigua",
     gancho: "Los obreros que construían las tumbas de los faraones se sentaron porque llevaban dieciocho días sin cobrar.",
     categoria: "Huelgas",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un trozo de piedra caliza con signos escritos en tinta negra.",
+    fotos: [
+      {
+        archivo: "Deir el-Medina-08-Grab 1-Sennedjem-18.-20.Dyn-1982-gje.jpg",
+        autor: "Pared pintada de la tumba de Sennedjem, en Deir el-Medina: uno de los trabajos de aquellos obreros. Fotografía de Gerd Eichmann.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Deir_el-Medina-08-Grab_1-Sennedjem-18.-20.Dyn-1982-gje.jpg",
+        foco: "50% 50%",
+        alt: "Una pared de tumba pintada en ocres y blancos con hileras de figuras egipcias sembrando, arando y adorando.",
+      },
+      {
+        archivo: "Hieratic ostracon with 'Necropolis Journal' entries, limestone - Museo Egizio, Turin S 5642 p01.jpg",
+        autor: "Lasca de caliza con anotaciones del diario de la necrópolis, escritas hacia 1180 antes de Cristo. Museo Egizio, Turín.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hieratic_ostracon_with_'Necropolis_Journal'_entries,_limestone_-_Museo_Egizio,_Turin_S_5642_p01.jpg",
+        foco: "50% 50%",
+        alt: "Un trozo irregular de piedra caliza clara cubierto de renglones de escritura egipcia en tinta negra.",
+      },
+      {
+        archivo: "Deir al Medineh near Luxor.jpg",
+        autor: "Las ruinas del poblado de obreros de Deir el-Medina, cerca de Luxor. Fotografía de Gildas Guionnet.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Deir_al_Medineh_near_Luxor.jpg",
+        foco: "50% 50%",
+        alt: "Los cimientos de decenas de casas pequeñas alineadas en un valle seco, con montañas de arena detrás.",
+      },
+      {
+        archivo: "Theban region, Valley of the Kings, 19th century pictures, F. Bonfils, photo 1 of 8 - Archivio fotografico Museo Egizio, Turin INV05 003.jpg",
+        autor: "El camino que lleva al Valle de los Reyes, fotografiado por Félix Bonfils en el siglo XIX. Museo Egizio, Turín.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Theban_region,_Valley_of_the_Kings,_19th_century_pictures,_F._Bonfils,_photo_1_of_8_-_Archivio_fotografico_Museo_Egizio,_Turin_INV05_003.jpg",
+        foco: "50% 40%",
+        alt: "Un desfiladero de roca desnuda con un sendero al fondo, en una fotografía antigua en tonos sepia.",
+      },
+    ],
     entrada:
-      "Egipto, año 1152 antes de Cristo. En un poblado junto al valle donde se excavan las tumbas reales viven los obreros especializados que las construyen y decoran. Cobran en especie: grano, aceite, pescado y cerveza, repartidos cada mes por la administración del faraón. Ese año el reparto empieza a llegar tarde, y un día deciden dejar de trabajar y sentarse.",
+      "Egipto, año 1152 antes de Cristo. En un poblado levantado a propósito junto al valle donde se excavan las tumbas reales viven los obreros especializados que las construyen y las decoran, con sus familias. No cobran en dinero, que todavía no existe, sino en especie: grano, aceite, pescado, verdura y cerveza, repartidos cada mes por la administración del faraón. Ese año el reparto empieza a llegar tarde, primero unos días y luego más, hasta que un día los hombres dejan las herramientas, salen del recinto y se sientan a la puerta de un templo.",
     paginas: [
       {
         rotulo: "El registro",
