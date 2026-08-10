@@ -86,13 +86,47 @@ export const MONASTERIOS: Short[] = [
   },
   {
     id: "cerveza-y-queso-de-abadia",
-    titulo: "Los monasterios eran fábricas de alimentos",
+    titulo: "Fábricas de alimentos",
     gancho: "Cerveza para beber durante el ayuno, quesos que aguantan meses y licores de hierbas: todo salió de una necesidad práctica.",
     categoria: "Monasterios",
     color: "var(--ochre)",
     encargo: "Una bodega abovedada de piedra con barricas alineadas y poca luz.",
+    fotos: [
+      {
+        archivo: "Wertheim - Kloster Bronnbach - Kreuzgang - Ansicht von NW.jpg",
+        autor: "El claustro del monasterio cisterciense de Bronnbach, en Alemania. Fotografía de Roman Eisele.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wertheim_-_Kloster_Bronnbach_-_Kreuzgang_-_Ansicht_von_NW.jpg",
+        foco: "50% 50%",
+        alt: "Una galería abovedada de arcos de piedra rojiza, con el sol dibujando rectángulos de luz en el suelo.",
+      },
+      {
+        archivo: "Taylor’s Port Wine Cellar, Vila Nova de Gaia, Oporto (48730636822).jpg",
+        autor: "Barricas apiladas en una bodega de vino de Oporto, en Vila Nova de Gaia. Fotografía de Ray in Manila.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Taylor%E2%80%99s_Port_Wine_Cellar,_Vila_Nova_de_Gaia,_Oporto_(48730636822).jpg",
+        foco: "50% 32%",
+        alt: "Dos paredes de barricas de roble apiladas hasta el techo, formando un pasillo que se pierde en la oscuridad.",
+      },
+      {
+        archivo: "Klosterruine, S, 2024 Dömös.jpg",
+        autor: "Las ruinas del monasterio de Dömös, en Hungría. Fotografía de Globetrotter19.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Klosterruine,_S,_2024_D%C3%B6m%C3%B6s.jpg",
+        foco: "50% 50%",
+        alt: "Cimientos y muros bajos de piedra de una iglesia derruida, con las bases de los pilares alineadas.",
+      },
+      {
+        archivo: "Paisley Abbey (St. Mirin, St. St. Milburga, St. Mary, St. James) (19073762563).jpg",
+        autor: "La abadía de Paisley, en Escocia. Fotografía de Hugh Llewelyn.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Paisley_Abbey_(St._Mirin,_St._St._Milburga,_St._Mary,_St._James)_(19073762563).jpg",
+        foco: "50% 45%",
+        alt: "Una iglesia abacial de piedra oscura con ventanales altos y contrafuertes, vista desde el jardín.",
+      },
+    ],
     entrada:
-      "Europa, siglos IX a XVIII. Una comunidad de cien personas encerrada en un recinto tiene que comer todos los días, guardar comida para el invierno y mantener el edificio, y no puede depender del mercado más cercano. Esa necesidad convirtió a los monasterios en unidades de producción muy serias, con contabilidad, especialización y algunos productos que siguen vendiéndose hoy.",
+      "Europa, siglos IX a XVIII. Una comunidad de cien personas encerrada en un recinto tiene que comer todos los días del año, guardar comida suficiente para pasar el invierno y mantener en pie un edificio enorme, y no puede depender de que el mercado más cercano tenga género. Esa necesidad, repetida durante siglos, convirtió a los monasterios en unidades de producción muy serias, con contabilidad, división del trabajo, especialización por casas y algunos productos que se siguen vendiendo hoy con el mismo nombre.",
     paginas: [
       {
         rotulo: "Beber seguro",
