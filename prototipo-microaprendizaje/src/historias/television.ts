@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const TELEVISION: Short[] = [
   {
     id: "chico-de-la-pizarra",
-    titulo: "Un chico de catorce años dibujó la televisión",
+    titulo: "Un chico de catorce años",
     gancho: "Se le ocurrió arando un campo en surcos paralelos y lo explicó en la pizarra de su instituto.",
     categoria: "Televisión",
     color: "var(--slate)",
     encargo: "Un campo arado con surcos paralelos que se pierden en el horizonte.",
+    fotos: [
+      {
+        archivo: "Early British television sets at the Early Television Museum June 2022 1.jpg",
+        autor: "Dos televisores británicos de los años treinta, uno con espejo abatible sobre el tubo. Early Television Museum, Ohio. Fotografía de DogsRNice.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Early_British_television_sets_at_the_Early_Television_Museum_June_2022_1.jpg",
+        foco: "50% 50%",
+        alt: "Dos muebles de madera veteada con pantallas pequeñas y redondeadas y filas de mandos negros.",
+      },
+      {
+        archivo: "17ЛО2И.jpg",
+        autor: "Un tubo de rayos catódicos abierto, con el cañón de electrones en el cuello. Fotografía de Mister rf.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:17%D0%9B%D0%9E2%D0%98.jpg",
+        foco: "50% 50%",
+        alt: "Una ampolla de vidrio con forma de embudo, terminada en un cuello estrecho lleno de piezas metálicas.",
+      },
+      {
+        archivo: "Prototype RCA color television at the Early Television Museum June 2022.jpg",
+        autor: "Un prototipo de televisor en color de RCA. Early Television Museum, Ohio. Fotografía de DogsRNice.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Prototype_RCA_color_television_at_the_Early_Television_Museum_June_2022.jpg",
+        foco: "50% 50%",
+        alt: "Un aparato de televisión experimental con la carcasa abierta y los circuitos a la vista.",
+      },
+      {
+        archivo: "Multiple early portable television sets at the Early Television Museum June 2022.jpg",
+        autor: "Varios televisores portátiles de los primeros años. Early Television Museum, Ohio. Fotografía de DogsRNice.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Multiple_early_portable_television_sets_at_the_Early_Television_Museum_June_2022.jpg",
+        foco: "50% 50%",
+        alt: "Una estantería con varios televisores pequeños de distintos colores y formas, todos con pantalla curva.",
+      },
+    ],
     entrada:
-      "Idaho, en el oeste de Estados Unidos, 1921. Un chico de catorce años que ara el campo de su familia con un caballo se queda mirando los surcos paralelos que va dejando detrás. Aquello le sugiere la idea de barrer una imagen línea por línea con un haz de electrones. Ese invierno lo dibuja en la pizarra de su clase de química.",
+      "Idaho, en el oeste de Estados Unidos, 1921. Un chico de catorce años que está arando el campo de su familia con un caballo se queda mirando los surcos paralelos que va dejando detrás, uno al lado del otro y todos iguales. Aquella imagen tan tonta le sugiere una idea que nadie había tenido: barrer una imagen entera línea por línea, muy deprisa, con un haz de electrones. Ese mismo invierno la dibuja en la pizarra de su clase de química, delante del profesor.",
     paginas: [
       {
         rotulo: "Las líneas",
