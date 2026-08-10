@@ -84,13 +84,47 @@ export const SUBMARINOS: Short[] = [
 
   {
     id: "primer-hundimiento",
-    titulo: "El primer submarino que hundió un barco desapareció",
+    titulo: "Hundió un barco y no volvió",
     gancho: "Se había hundido ya dos veces en pruebas con toda su tripulación dentro. La tercera fue definitiva.",
     categoria: "Submarinos",
     color: "var(--clay)",
     encargo: "Un casco cilíndrico de hierro remachado, estrecho y alargado, sobre unos caballetes.",
+    fotos: [
+      {
+        archivo: "Hunley 001.jpg",
+        autor: "Arqueólogos trabajando dentro del casco recuperado del Hunley, Charleston, 2005.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hunley_001.jpg",
+        foco: "50% 50%",
+        alt: "Dos personas inclinadas sobre el interior abierto de un casco de hierro remachado y cubierto de concreciones marinas.",
+      },
+      {
+        archivo: "H. L. Hunley in sodium hydroxide bath.jpg",
+        autor: "El casco del Hunley en su baño de conservación, Charleston, 2017. Fotografía de Pi3.124.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:H._L._Hunley_in_sodium_hydroxide_bath.jpg",
+        foco: "50% 55%",
+        alt: "El casco alargado y oxidado de un submarino antiguo, sumergido en un tanque de líquido verdoso.",
+      },
+      {
+        archivo: "Ivan Aivazovsky Segelschiff auf hoher See bei Mondschein 1840er.jpg",
+        autor: "«Velero en alta mar a la luz de la luna», óleo de Iván Aivazovski, década de 1840.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ivan_Aivazovsky_Segelschiff_auf_hoher_See_bei_Mondschein_1840er.jpg",
+        foco: "50% 50%",
+        alt: "Pintura de un velero de noche sobre un mar oscuro, con la luna abriendo un camino de luz en el agua.",
+      },
+      {
+        archivo: "H. L. Hunley in sodium hydroxide bath (3).jpg",
+        autor: "Otra vista del casco del Hunley en el laboratorio de conservación, 2017. Fotografía de Pi3.124.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:H._L._Hunley_in_sodium_hydroxide_bath_(3).jpg",
+        foco: "50% 55%",
+        alt: "Vista lateral del submarino recuperado, suspendido con eslingas dentro de su tanque de tratamiento.",
+      },
+    ],
     entrada:
-      "Charleston, en el sur de Estados Unidos, febrero de 1864. En plena guerra civil americana, un submarino de hierro movido a manivela por ocho hombres sale de noche a atacar un barco de guerra que bloquea el puerto. Consigue hundirlo con una carga explosiva montada en un palo. Después desaparece con toda su tripulación dentro.",
+      "Charleston, en el sur de Estados Unidos, febrero de 1864. En plena guerra civil americana, un submarino de hierro de doce metros, movido a manivela por ocho hombres sentados en fila, sale de noche a atacar un barco de guerra que bloquea el puerto. Dentro no hay más aire que el que entra por dos tubos cortos, y una vela encendida sirve de aviso: mientras arda, se puede respirar. Consigue hundir el barco con una carga explosiva montada en la punta de un palo. Después hace la señal de vuelta y desaparece con toda su tripulación dentro.",
     paginas: [
       {
         rotulo: "Las dos veces",

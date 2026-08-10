@@ -83,14 +83,48 @@ export const SUBASTAS: Short[] = [
   },
   {
     id: "la-vela-que-se-apaga",
-    titulo: "Se pujaba hasta que se apagaba una vela",
+    titulo: "El alfiler cerraba la puja",
     gancho: "Nadie sabía cuándo iba a terminar, y esa incertidumbre era justo lo que hacía funcionar el sistema.",
     categoria: "Subastas",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una vela pequeña casi consumida, con la llama a punto de morir, sobre una mesa.",
+    fotos: [
+      {
+        archivo: "Georges de La Tour 035.jpg",
+        autor: "«Los jugadores de dados», óleo de Georges de La Tour, 1650-1651.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour_035.jpg",
+        foco: "50% 45%",
+        alt: "Cinco figuras alrededor de una mesa iluminadas por una luz cálida escondida, todas mirando lo que hay sobre el tablero.",
+      },
+      {
+        archivo: "Candlelight Master Young Boy Singing.jpg",
+        autor: "«Joven cantando», del llamado Maestro de la Vela, hacia 1650.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Candlelight_Master_Young_Boy_Singing.jpg",
+        foco: "50% 40%",
+        alt: "Un muchacho iluminado por la llama de una vela que sostiene en la mano, con el fondo en negro.",
+      },
+      {
+        archivo: "Georges de La Tour L'Argent verse Musée des beaux-arts de Lviv.jpg",
+        autor: "«El pago del dinero», óleo de Georges de La Tour, entre 1630 y 1635. Museo de Bellas Artes de Leópolis.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour_L'Argent_verse_Mus%C3%A9e_des_beaux-arts_de_Lviv.jpg",
+        foco: "50% 45%",
+        alt: "Varias personas alrededor de una mesa con monedas, alumbradas por una única vela.",
+      },
+      {
+        archivo: "Maître à la Chandelle - Le Jeune Chanteur (1650).jpg",
+        autor: "«El joven cantor», del Maestro de la Vela, 1650.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ma%C3%AEtre_%C3%A0_la_Chandelle_-_Le_Jeune_Chanteur_(1650).jpg",
+        foco: "50% 40%",
+        alt: "Retrato a la luz de una vela, con la llama tapada en parte por la mano y la cara recortada en la penumbra.",
+      },
+    ],
     entrada:
-      "Europa, siglos XVI a XIX. En las subastas de barcos y de cargamentos se usa un método que hoy parece de teatro. Se enciende un cabo de vela con un alfiler clavado cerca de la punta, y las pujas se aceptan hasta que la llama llega al alfiler y este cae sobre la bandeja. Quien haya pujado el último se lleva el lote.",
+      "Europa, siglos XVI a XIX. En las subastas de barcos y de cargamentos se usa un método que hoy parece de teatro y que en realidad es un mecanismo muy fino. Se enciende un cabo de vela con un alfiler clavado cerca de la punta, y las pujas se aceptan hasta que la llama llega al alfiler y este cae sobre la bandeja de metal. Quien haya pujado el último se lleva el lote. Nadie en la sala sabe exactamente cuándo va a caer ese alfiler, y esa ignorancia compartida es justo lo que hace que el sistema funcione.",
     paginas: [
       {
         rotulo: "El alfiler",
