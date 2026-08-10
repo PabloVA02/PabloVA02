@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const UNIFORMES: Short[] = [
   {
     id: "del-rojo-al-caqui",
-    titulo: "Los soldados iban de rojo por el humo",
+    titulo: "Iban de rojo por el humo",
     gancho: "Con la pólvora negra no se veía nada a treinta metros, así que había que distinguir a los tuyos por el color.",
     categoria: "Uniformes",
     color: "var(--clay)",
     encargo: "Una casaca militar roja antigua con botones dorados, sobre fondo neutro.",
+    fotos: [
+      {
+        archivo: "Trooping the Colour (Hurley) 2025-06-14-11-42-A.jpg",
+        autor: "Formación de la guardia británica durante el desfile del Trooping the Colour, en Londres. Fotografía de Lauren Hurley.",
+        licencia: "OGL 3",
+        fuente: "https://commons.wikimedia.org/wiki/File:Trooping_the_Colour_(Hurley)_2025-06-14-11-42-A.jpg",
+        foco: "50% 50%",
+        alt: "Filas apretadas de soldados con casaca roja y gorro alto de piel negra, vistos desde arriba.",
+      },
+      {
+        archivo: "HRH The Price of Wales 71st Birthday Gun Salute MOD 45165445.jpg",
+        autor: "Salva de cañones en la Torre de Londres: la nube blanca que dejaba cada descarga de pólvora negra. Fotografía del sargento Randall.",
+        licencia: "OGL v1.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:HRH_The_Price_of_Wales_71st_Birthday_Gun_Salute_MOD_45165445.jpg",
+        foco: "50% 50%",
+        alt: "Una hilera de cañones disparando, con una gran nube de humo blanco levantándose por delante.",
+      },
+      {
+        archivo: "Danish-Norwegian foot artillery uniform ca 1810. Shako, plume, crossbelt, cartridge pouch, tunic coat. Norw. horse-drawn gun carriage 1809. Dragoner 1808 by A. Bloch. Forvarsmuseet Oslo 2020-02-24 2746.jpg",
+        autor: "Uniforme de artillero danés-noruego de hacia 1810, con casaca roja y azul, chacó y penacho. Museo de las Fuerzas Armadas, Oslo. Fotografía de Wolfmann.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Danish-Norwegian_foot_artillery_uniform_ca_1810._Shako,_plume,_crossbelt,_cartridge_pouch,_tunic_coat._Norw._horse-drawn_gun_carriage_1809._Dragoner_1808_by_A._Bloch._Forvarsmuseet_Oslo_2020-02-24_2746.jpg",
+        foco: "50% 35%",
+        alt: "Un maniquí con casaca roja de vueltas azules, correaje blanco cruzado al pecho y un gorro alto con plumero.",
+      },
+      {
+        archivo: "Cochineal (6505719409).jpg",
+        autor: "Cochinilla sobre una pala de chumbera: el insecto del que sale el carmín, el rojo más barato y estable que hubo. Fotografía de Leslie Seaton.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cochineal_(6505719409).jpg",
+        foco: "50% 50%",
+        alt: "Una hoja carnosa de chumbera con manchas de pelusa blanca y un punto rojo intenso en el centro de una de ellas.",
+      },
+    ],
     entrada:
-      "Europa, siglos XVII a XIX. Los ejércitos visten a sus soldados con colores llamativos: rojo, azul intenso, blanco. Visto desde hoy parece un suicidio, y la explicación está en el arma de la época. La pólvora negra produce en cada disparo una nube densa de humo blanco, y tras unas descargas el campo de batalla queda cubierto por una niebla en la que apenas se ve a treinta metros.",
+      "Europa, siglos XVII a XIX. Los ejércitos visten a sus soldados con colores llamativos y bien visibles: rojo encendido, azul intenso, blanco. Visto desde hoy parece un suicidio organizado, y la explicación no está en la vanidad de nadie sino en el arma de la época. La pólvora negra produce en cada disparo una nube densa de humo blanco que no se va, y después de tres o cuatro descargas el campo de batalla entero queda cubierto por una niebla espesa en la que apenas se distingue una figura a treinta metros.",
     paginas: [
       {
         rotulo: "Ver al tuyo",
