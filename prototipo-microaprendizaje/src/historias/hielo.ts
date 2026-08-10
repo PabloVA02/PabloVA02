@@ -26,8 +26,42 @@ export const HIELO: Short[] = [
     categoria: "Hielo",
     color: "var(--slate)",
     encargo: "Bloques de hielo cortados sobre un lago helado, con sierras y ganchos apoyados.",
+    fotos: [
+      {
+        archivo: "Five men cut large blocks of ice from frozen lake - NARA - 285481.jpg",
+        autor: "Cinco hombres cortando bloques de hielo en un lago helado, hacia 1935. Archivos Nacionales de Estados Unidos.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Five_men_cut_large_blocks_of_ice_from_frozen_lake_-_NARA_-_285481.jpg",
+        foco: "50% 50%",
+        alt: "Cinco trabajadores posando sobre el hielo con una sierra enorme y ganchos, junto a un bloque recién sacado del agua.",
+      },
+      {
+        archivo: "Walden Pond in winter, Concord MA.jpg",
+        autor: "El estanque de Walden, en Concord, Massachusetts, helado en invierno: de aquí salió parte de aquel hielo. Fotografía de John Phelan.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Walden_Pond_in_winter,_Concord_MA.jpg",
+        foco: "50% 50%",
+        alt: "Una lámina de agua congelada rodeada de bosque sin hojas, con la nieve pisada en la orilla.",
+      },
+      {
+        archivo: "The Princep Ghat.jpg",
+        autor: "El ghat de Prinsep, a orillas del Hugli en Calcuta, donde atracaban los barcos. Fotografía de Punit Agarwal.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_Princep_Ghat.jpg",
+        foco: "50% 50%",
+        alt: "Un pabellón de columnas blancas junto a un río ancho, con barcas amarradas y un puente al fondo.",
+      },
+      {
+        archivo: "Vivekananda House , a Heritage building in Chennai, India earlier known as Ice House.jpg",
+        autor: "La antigua Casa del Hielo de Madrás, hoy Vivekananda House, construida para almacenar el hielo llegado de Boston. Fotografía de N. Vivekananthamoorthy.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vivekananda_House_%2C_a_Heritage_building_in_Chennai%2C_India_earlier_known_as_Ice_House.jpg",
+        foco: "50% 50%",
+        alt: "Un edificio colonial redondeado y encalado, con galerías de arcos y una torreta encima.",
+      },
+    ],
     entrada:
-      "En 1806, un joven de Boston llamado Frederic Tudor cargó un barco con bloques de hielo cortados del estanque helado de la finca familiar y lo mandó a la isla caribeña de Martinica. Todo el mundo lo tomó por loco, y el primer viaje fue en efecto un desastre económico. Tardó casi treinta años en convertir aquella idea absurda en un negocio global.",
+      "En 1806, un joven de Boston llamado Frederic Tudor cargó un barco con bloques de hielo cortados del estanque helado de la finca familiar y lo mandó a la isla caribeña de Martinica, a vender frío donde nunca lo había habido. Todo el mundo en el puerto lo tomó por loco, incluidos los aseguradores, que se negaron a cubrir la carga. El primer viaje fue en efecto un desastre económico y estuvo a punto de arruinarle. Tardó casi treinta años en convertir aquella idea absurda en un negocio que daba la vuelta al mundo.",
     paginas: [
       {
         rotulo: "El serrín",
