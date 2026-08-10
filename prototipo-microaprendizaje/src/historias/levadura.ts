@@ -83,13 +83,47 @@ export const LEVADURA: Short[] = [
   },
   {
     id: "la-masa-madre",
-    titulo: "Un bote lleno de bichos vivos",
+    titulo: "Un bote de bichos vivos",
     gancho: "No lleva levadura de sobre: lleva la que había en el aire y en la harina. Y hay que darle de comer todos los días.",
     categoria: "Comida",
     color: "var(--clay)",
     encargo: "Bote de cristal con masa madre burbujeante y una goma marcando el nivel.",
+    fotos: [
+      {
+        archivo: "Home made sour dough bread.jpg",
+        autor: "Hogazas de pan de masa madre recién horneadas. Fotografía de Tomás Castelazo, 2020.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Home_made_sour_dough_bread.jpg",
+        foco: "50% 50%",
+        alt: "Siete hogazas redondas de corteza dorada y enharinada, apoyadas unas en otras sobre un paño de rayas.",
+      },
+      {
+        archivo: "Roggensauerteig — Rye Sourdough (Macro photo).jpg",
+        autor: "Masa madre de centeno vista de cerca, con las burbujas de gas de la fermentación. Fotografía de Maximilian Schönherr, 2023.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Roggensauerteig_%E2%80%94_Rye_Sourdough_(Macro_photo).jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de una masa de centeno agujereada por cientos de burbujas de distinto tamaño.",
+      },
+      {
+        archivo: "Sourdough starter at day 7.jpg",
+        autor: "Bote de masa madre al séptimo día, en plena actividad. Fotografía de Guitarbogus, 2020.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sourdough_starter_at_day_7.jpg",
+        foco: "50% 50%",
+        alt: "El interior de un tarro de cristal con masa madre cubierta de burbujas finas.",
+      },
+      {
+        archivo: "Sour dough bread 001.jpg",
+        autor: "Pan de masa madre cortado, con la miga alveolada que deja la fermentación larga. Fotografía de Jeuwre, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sour_dough_bread_001.jpg",
+        foco: "50% 50%",
+        alt: "Una hogaza partida que enseña la miga llena de agujeros irregulares y la corteza gruesa.",
+      },
+    ],
     entrada:
-      "Todo el mundo, desde el pan más antiguo que se conoce y hasta finales del siglo XIX. Antes de que existiera la levadura de panadería en tacos, el pan subía con un trozo de masa guardada de la hornada anterior. Ese trozo se mezclaba con harina y agua nueva y volvía a fermentar, de manera que la misma colonia de microbios pasaba de un pan al siguiente durante años.",
+      "Todo el mundo, desde el pan más antiguo que se conoce y hasta finales del siglo XIX. Antes de que existiera la levadura de panadería vendida en tacos, el pan subía con un trozo de masa guardada de la hornada anterior y apartado a propósito para eso. Ese trozo se mezclaba con harina y agua nueva y volvía a fermentar, de manera que la misma colonia de microbios pasaba de un pan al siguiente durante años y a veces durante generaciones. El panadero no compraba el fermento en ningún sitio: lo heredaba, lo alimentaba y lo pasaba a quien viniera detrás.",
     paginas: [
       {
         rotulo: "Dos inquilinos",

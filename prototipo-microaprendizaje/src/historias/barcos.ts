@@ -94,8 +94,42 @@ export const BARCOS: Short[] = [
     categoria: "Barcos",
     color: "var(--forest)",
     encargo: "Unos limones y una jarra sobre la mesa de madera de un camarote antiguo.",
+    fotos: [
+      {
+        archivo: "Jacob van Hulsdonck - Still life of lemons and pomegranate.jpg",
+        autor: "«Bodegón de limones y granada», óleo de Jacob van Hulsdonck, entre 1620 y 1630.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Jacob_van_Hulsdonck_-_Still_life_of_lemons_and_pomegranate.jpg",
+        foco: "50% 55%",
+        alt: "Un limón entero, medio limón y trozos de granada sobre una tabla de madera, con el fondo en penumbra.",
+      },
+      {
+        archivo: "Samuel Scott - A first-rate shortening sail.jpg",
+        autor: "«Navío de primera clase acortando vela», óleo de Samuel Scott, hacia 1736.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Samuel_Scott_-_A_first-rate_shortening_sail.jpg",
+        foco: "50% 45%",
+        alt: "Pintura de un gran navío de línea con la marinería trepando por la jarcia para recoger las velas.",
+      },
+      {
+        archivo: "Lemon Fruit in a Basket.jpg",
+        autor: "Limones recién recogidos en un cesto. Fotografía de Iwai-Dialax, 2025.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lemon_Fruit_in_a_Basket.jpg",
+        foco: "50% 50%",
+        alt: "Un cesto lleno de limones amarillos con alguna hoja verde entre ellos.",
+      },
+      {
+        archivo: "I. E. C. Rasmussen - Seascape with warship in high seas.jpg",
+        autor: "«Marina con buque de guerra en mar gruesa», óleo de Carl Rasmussen, siglo XIX.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:I._E._C._Rasmussen_-_Seascape_with_warship_in_high_seas.jpg",
+        foco: "50% 50%",
+        alt: "Pintura de un velero escorado entre olas grandes bajo un cielo cargado.",
+      },
+    ],
     entrada:
-      "Océanos del mundo, siglo XVII. En las travesías largas, los marineros empiezan a las pocas semanas con las encías hinchadas, se les caen los dientes, se les vuelven a abrir heridas cerradas años antes y acaban muriendo. Se calcula que el escorbuto mató a unos dos millones de marineros, más que los naufragios, los combates y las tormentas juntos.",
+      "Océanos del mundo, siglo XVII. En las travesías largas, los marineros empiezan a las pocas semanas con las encías hinchadas y sangrantes, se les caen los dientes, se les vuelven a abrir heridas que llevaban años cerradas y acaban muriendo sin que nadie sepa de qué. La enfermedad tenía además una lógica desesperante, porque desaparecía sola en cuanto el barco tocaba tierra y comía fresco, lo que alimentó todo tipo de teorías equivocadas sobre el aire de mar y la humedad. Se calcula que el escorbuto mató a unos dos millones de marineros, más que los naufragios, los combates y las tormentas juntos.",
     paginas: [
       {
         rotulo: "La prueba",
