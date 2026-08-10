@@ -88,8 +88,42 @@ export const COLCHONES: Short[] = [
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Una mano apretando la superficie de una cama de agua y la onda que se forma.",
+    fotos: [
+      {
+        archivo: "Demonstratie van een waterbed, Bestanddeelnr 924-5940.jpg",
+        autor: "Demostración de una cama de agua en una tienda de Ámsterdam, 28 de mayo de 1971. Fotografía de Hans Peters, Anefo.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Demonstratie_van_een_waterbed,_Bestanddeelnr_924-5940.jpg",
+        foco: "42% 55%",
+        alt: "Una mujer recostada sobre una cama de agua cubierta de pieles, en un dormitorio de los años setenta con discos apoyados al lado.",
+      },
+      {
+        archivo: "2006-01-28 drop-impact backjet.jpg",
+        autor: "Chorro de retorno de una gota al caer sobre una superficie de agua. Fotografía de Roger McLassus, 2006.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2006-01-28_drop-impact_backjet.jpg",
+        foco: "50% 50%",
+        alt: "Una columna de agua saltando hacia arriba tras el impacto de una gota, con la superficie ondulada alrededor.",
+      },
+      {
+        archivo: "Demonstratie van een waterbed, Bestanddeelnr 924-5942.jpg",
+        autor: "La misma demostración de cama de agua en Ámsterdam, mayo de 1971. Fotografía de Hans Peters, Anefo.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Demonstratie_van_een_waterbed,_Bestanddeelnr_924-5942.jpg",
+        foco: "50% 50%",
+        alt: "Vista de una cama de agua montada en su marco de madera dentro de una tienda de muebles.",
+      },
+      {
+        archivo: "Patient room with hospital bed.jpg",
+        autor: "Habitación con una cama de hospital vacía, Centro de Investigación Clínica de los NIH, Bethesda, 2004. Fotografía de Diane A. Reid.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Patient_room_with_hospital_bed.jpg",
+        foco: "50% 50%",
+        alt: "Una cama de hospital hecha y vacía, junto a la ventana de una habitación clara.",
+      },
+    ],
     entrada:
-      "Reino Unido, 1832. Un médico escocés está buscando la manera de que un enfermo que lleva meses en cama no se llene de llagas. El problema es de física más que de medicina: si todo el peso del cuerpo descansa sobre los mismos puntos, la piel se queda sin riego y se muere. Su idea fue apoyar al enfermo sobre agua, que reparte la presión por igual.",
+      "Reino Unido, 1832. Un médico escocés está buscando la manera de que un enfermo que lleva meses en cama no se llene de llagas. El problema es de física más que de medicina: si todo el peso del cuerpo descansa siempre sobre los mismos cuatro puntos, la piel de esos puntos se queda sin riego de sangre y acaba muriéndose. Su idea fue quitar los puntos de apoyo y sustituirlos por agua, que no se puede comprimir y reparte la presión por igual allí donde el cuerpo se hunde. Funcionó, y luego el invento desapareció y volvió más de un siglo después.",
     paginas: [
       {
         rotulo: "La presión",
