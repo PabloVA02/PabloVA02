@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const TELEFERICOS: Short[] = [
   {
     id: "bajar-mineral-por-el-aire",
-    titulo: "Los primeros cables llevaban piedra, no gente",
+    titulo: "Los cables llevaban piedra",
     gancho: "En la montaña, un cable en línea recta sustituye a una carretera de veinte kilómetros llena de curvas.",
     categoria: "Teleféricos",
     color: "var(--slate)",
     encargo: "Una torre metálica de cable aéreo en una ladera con niebla.",
+    fotos: [
+      {
+        archivo: "Fansipan cable car misty mountain valley Sa Pa Vietnam.png",
+        autor: "Dos cabinas cruzando el valle de Sa Pa, en el norte de Vietnam, por encima de los arrozales en bancales.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fansipan_cable_car_misty_mountain_valley_Sa_Pa_Vietnam.png",
+        foco: "50% 45%",
+        alt: "Dos cabinas colgadas de un cable atraviesan un valle enorme de laderas verdes y terrazas amarillas.",
+      },
+      {
+        archivo: "Rothornbahn Tal Lenzerheide.jpg",
+        autor: "El cable del Rothorn sobre el valle de Lenzerheide, en Suiza. Fotografía de Andres Passwirth.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rothornbahn_Tal_Lenzerheide.jpg",
+        foco: "50% 50%",
+        alt: "Una cabina suspendida sobre un valle alpino, con el cable tendido en línea recta entre dos laderas.",
+      },
+      {
+        archivo: "Stubnerkogelbahn1.JPG",
+        autor: "El teleférico del Stubnerkogel, en Austria, en invierno. Fotografía de Wald1siedel.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Stubnerkogelbahn1.JPG",
+        foco: "50% 50%",
+        alt: "Una cabina roja subiendo por el cable entre laderas nevadas y torres metálicas.",
+      },
+      {
+        archivo: "Stubnerkogel11.JPG",
+        autor: "La estación alta del mismo teleférico, a más de dos mil metros. Fotografía de Wald1siedel.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Stubnerkogel11.JPG",
+        foco: "50% 50%",
+        alt: "Una plataforma nevada en la cima con la maquinaria del cable y las montañas alrededor.",
+      },
+    ],
     entrada:
-      "Alpes y zonas mineras europeas, siglo XIX. Bajar mineral de una mina de montaña es carísimo: hay que abrir camino, mantenerlo, y las mulas o los carros tardan horas en cada viaje. La solución que se impone es tender un cable de acero entre la mina y el valle, y colgar de él vagonetas que bajan solas por su propio peso mientras suben las vacías.",
+      "Alpes y zonas mineras europeas, siglo XIX. Bajar mineral desde una mina de montaña resulta carísimo por una razón muy simple: hay que abrir un camino, mantenerlo abierto todo el año, y aun así las mulas o los carros tardan horas en cada viaje y solo llevan lo que llevan. La solución que acaba imponiéndose no es un camino mejor, sino ninguno: tender un cable de acero entre la mina y el valle y colgar de él vagonetas que bajan solas por su propio peso mientras arrastran hacia arriba a las vacías.",
     paginas: [
       {
         rotulo: "El peso que baja",
