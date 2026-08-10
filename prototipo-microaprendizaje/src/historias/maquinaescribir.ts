@@ -23,8 +23,42 @@ export const MAQUINA_ESCRIBIR: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un carro de máquina de escribir levantado, con el papel a medio escribir asomando.",
+    fotos: [
+      {
+        archivo: "Keyslugs on Vintage Typewriter.jpg",
+        autor: "Las barras portatipos de una máquina de escribir antigua, con la letra grabada en la punta. Fotografía de Mathieu Landretti.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Keyslugs_on_Vintage_Typewriter.jpg",
+        foco: "50% 50%",
+        alt: "Macro de varias varillas doradas terminadas en un bloque de metal con una letra en relieve.",
+      },
+      {
+        archivo: "Typewriter-12 hg.jpg",
+        autor: "El interior de una máquina de escribir mecánica. Fotografía de Hannes Grobe.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Typewriter-12_hg.jpg",
+        foco: "50% 50%",
+        alt: "Un enredo de palancas y varillas metálicas vistas desde arriba dentro del cuerpo de la máquina.",
+      },
+      {
+        archivo: "Olympia Simplex.jpg",
+        autor: "Una Olympia Simplex, ya de golpe frontal: la línea recién escrita queda a la vista.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Olympia_Simplex.jpg",
+        foco: "50% 50%",
+        alt: "Una máquina de escribir negra vista de frente, con el rodillo y el papel bien visibles por encima de las teclas.",
+      },
+      {
+        archivo: "Chinese typewriter 03.jpg",
+        autor: "Una máquina de escribir china de los años ochenta, con su bandeja de miles de caracteres. Fotografía de MatejK42.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chinese_typewriter_03.jpg",
+        foco: "50% 50%",
+        alt: "Una bandeja plana con centenares de tipos de plomo colocados en cuadrícula y un brazo que los recoge.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1874. Sale a la venta la primera máquina de escribir fabricada en serie, un armatoste de hierro negro decorado con flores pintadas, con pedal para devolver el carro y un defecto que hoy parece inconcebible: quien escribe no ve lo que está escribiendo. Las letras aparecen en la cara oculta del papel, debajo del rodillo.",
+      "Estados Unidos, 1874. Sale a la venta la primera máquina de escribir fabricada en serie, un armatoste de hierro negro decorado con flores pintadas a mano, con pedal para devolver el carro como si fuera una máquina de coser, y con un defecto que hoy parece sencillamente inconcebible: quien escribe no ve lo que está escribiendo. Las letras van apareciendo en la cara oculta del papel, debajo del rodillo, y para comprobar una línea hay que interrumpirse y levantar el carro con las dos manos.",
     paginas: [
       {
         rotulo: "El golpe de abajo",
