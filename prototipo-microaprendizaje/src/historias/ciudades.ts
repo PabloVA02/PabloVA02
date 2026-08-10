@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const CIUDADES: Short[] = [
   {
     id: "chaflanes-cerda",
-    titulo: "Las esquinas cortadas de Barcelona",
+    titulo: "Barcelona no tiene esquinas",
     gancho: "Su autor diseñó manzanas con jardín dentro. Se construyeron los cuatro lados.",
     categoria: "Ciudades",
     color: "var(--ochre)",
     encargo: "Una esquina achaflanada del Eixample vista desde el centro de la calzada.",
+    fotos: [
+      {
+        archivo: "Panorama from Guinardó Park, Barcelona ESP.jpg",
+        autor: "Barcelona vista desde el parque del Guinardó, con la cuadrícula del Eixample bajando hasta el mar. Fotografía de Benlet26.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Panorama_from_Guinard%C3%B3_Park,_Barcelona_ESP.jpg",
+        foco: "50% 55%",
+        alt: "Una panorámica de la ciudad al anochecer, con el cielo teñido de rosa y lila y una retícula de tejados extendiéndose hasta el mar.",
+      },
+      {
+        archivo: "Casa Mila, Barcelona (P1170595).jpg",
+        autor: "La Casa Milà de Antoni Gaudí, levantada sobre uno de los chaflanes del paseo de Gracia. Fotografía de Matti Blume.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Casa_Mila,_Barcelona_(P1170595).jpg",
+        foco: "50% 45%",
+        alt: "Una fachada ondulada de piedra clara que dobla la esquina en curva, con balcones de hierro retorcido.",
+      },
+      {
+        archivo: "The top floor of a small apartment building in the Eixample, Barcelona (49731113776).jpg",
+        autor: "El remate de la Casa Marià Pau, en el Eixample, construida entre 1905 y 1907. Fotografía de Spencer Means.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_top_floor_of_a_small_apartment_building_in_the_Eixample,_Barcelona_(49731113776).jpg",
+        foco: "50% 50%",
+        alt: "La última planta de un edificio modernista con galería acristalada, cornisa labrada y azulejos de colores.",
+      },
+      {
+        archivo: "Superilla del barri de Sant Antoni, Barcelona 2.jpg",
+        autor: "Un cruce del barrio de Sant Antoni convertido en plaza dentro de una supermanzana. Fotografía de Cataleirxs.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Superilla_del_barri_de_Sant_Antoni,_Barcelona_2.jpg",
+        foco: "50% 50%",
+        alt: "Un cruce de calles ocupado por bancos, jardineras y árboles jóvenes en lugar de coches.",
+      },
+    ],
     entrada:
-      "En el Eixample de Barcelona no hay esquinas en ángulo recto: cada cruce tiene los cuatro vértices cortados en diagonal, formando una plaza octogonal de unos veinte metros de lado. No es un capricho estético ni una tradición. Es una decisión de ingeniería tomada por un hombre concreto, Ildefons Cerdà, y aprobada en 1859.",
+      "En el Eixample de Barcelona no hay ni una sola esquina en ángulo recto: cada cruce tiene los cuatro vértices cortados en diagonal, de modo que lo que se abre delante de quien camina no es un cruce, sino una plaza octogonal de unos veinte metros de lado. No es un capricho estético, ni una tradición local, ni una manía de los constructores de la época. Es una decisión de ingeniería tomada por un hombre concreto, Ildefons Cerdà, defendida con datos de mortalidad y aprobada en 1859 contra la opinión de casi todo el mundo.",
     paginas: [
       {
         rotulo: "Para qué",
