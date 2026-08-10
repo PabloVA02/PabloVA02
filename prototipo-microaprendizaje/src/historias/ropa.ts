@@ -122,12 +122,12 @@ export const ROPA: Short[] = [
         alt: "Madejas de hilo en varios tonos de azul índigo, colocadas en fila sobre un expositor.",
       },
       {
-        archivo: "Cavalier de chameaux au passage dans une dune de sable au Maroc.jpg",
-        autor: "El desierto por el que se movía el índigo antes de que se fabricara en laboratorio.",
-        licencia: "CC BY-SA 4.0",
-        fuente: "https://commons.wikimedia.org/wiki/File:Cavalier_de_chameaux_au_passage_dans_une_dune_de_sable_au_Maroc.jpg",
+        archivo: "Starr-180421-0316-Indigofera suffruticosa-flowers leaves-Honolua Lipoa Point-Maui (43459116091).jpg",
+        autor: "La planta del índigo, Indigofera suffruticosa, de cuyas hojas salía el azul antes de que se fabricara en laboratorio. Fotografía de Forest y Kim Starr.",
+        licencia: "CC BY 3.0 us",
+        fuente: "https://commons.wikimedia.org/wiki/File:Starr-180421-0316-Indigofera_suffruticosa-flowers_leaves-Honolua_Lipoa_Point-Maui_(43459116091).jpg",
         foco: "50% 50%",
-        alt: "Camellos cruzando una duna de arena anaranjada bajo un cielo despejado.",
+        alt: "Ramas de un arbusto con hojas pequeñas y ovaladas y racimos de florecillas rosadas.",
       },
     ],
     entrada:
