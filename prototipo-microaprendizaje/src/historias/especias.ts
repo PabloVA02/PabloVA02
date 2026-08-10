@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const ESPECIAS: Short[] = [
   {
     id: "isla-por-manhattan",
-    titulo: "Cambiaron Manhattan por una isla",
+    titulo: "Manhattan por una isla",
     gancho: "En 1667 pareció un negocio excelente. La isla medía tres kilómetros y tenía nuez moscada.",
     categoria: "Especias",
     color: "var(--ochre)",
     encargo: "Nueces moscadas abiertas con su envoltura roja sobre una mesa de madera.",
+    fotos: [
+      {
+        archivo: "Nutmeg fruit with mace.jpg",
+        autor: "El fruto de la nuez moscada abierto en el árbol, con el macis rojo envolviendo la semilla. Fotografía de Schlawensko.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nutmeg_fruit_with_mace.jpg",
+        foco: "50% 50%",
+        alt: "Un fruto amarillo partido colgando de una rama, con una red de tiras rojas brillantes envolviendo la semilla oscura.",
+      },
+      {
+        archivo: "Nutmeg on Tree.jpg",
+        autor: "Frutos de nuez moscada todavía cerrados en la mata. Fotografía de Joe Ravi.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nutmeg_on_Tree.jpg",
+        foco: "50% 50%",
+        alt: "Dos frutos redondos y amarillentos colgando entre hojas verdes y lustrosas.",
+      },
+      {
+        archivo: "Manhattan skyline south by Don Ramey Logan.jpg",
+        autor: "El sur de Manhattan, la isla que los ingleses recibieron a cambio. Fotografía de Don Ramey Logan.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Manhattan_skyline_south_by_Don_Ramey_Logan.jpg",
+        foco: "50% 50%",
+        alt: "La punta sur de Manhattan vista desde el agua, con los rascacielos apretados sobre la isla.",
+      },
+      {
+        archivo: "Drying nutmeg.jpg",
+        autor: "Nuez moscada puesta a secar en Indonesia. Fotografía de Arie Basuki.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Drying_nutmeg.jpg",
+        foco: "50% 50%",
+        alt: "Una extensión de nueces pardas secándose al sol sobre una superficie plana.",
+      },
+    ],
     entrada:
-      "Molucas, en la actual Indonesia, 1667. Holandeses e ingleses firman un tratado para acabar una guerra y se intercambian territorios. Los ingleses ceden una islita de tres kilómetros de largo cubierta de árboles de nuez moscada. A cambio se quedan una isla lejana y poco rentable del otro lado del mundo, llamada entonces Nueva Ámsterdam.",
+      "Molucas, en la actual Indonesia, 1667. Holandeses e ingleses firman un tratado para acabar una guerra que llevaba años costándoles barcos y hombres, y de paso se intercambian territorios para dejar las cuentas claras. Los ingleses ceden una islita de tres kilómetros de largo, cubierta de árboles de nuez moscada, que los holandeses llevaban tiempo queriendo. A cambio se quedan con una isla lejana y bastante poco rentable del otro lado del mundo, llamada entonces Nueva Ámsterdam. En aquel momento nadie dudó de quién había salido ganando.",
     paginas: [
       {
         rotulo: "El monopolio",
