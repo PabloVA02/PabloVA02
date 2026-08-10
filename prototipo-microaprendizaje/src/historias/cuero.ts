@@ -90,8 +90,42 @@ export const CUERO: Short[] = [
     categoria: "Cuero",
     color: "var(--slate)",
     encargo: "Un patio con decenas de tinas redondas de piedra llenas de líquido oscuro.",
+    fotos: [
+      {
+        archivo: "Fez Chouara Tannery (54239949701).jpg",
+        autor: "La curtiduría de Chouara, en la medina de Fez (Marruecos), diciembre de 2024. Fotografía de Jorge Franganillo.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fez_Chouara_Tannery_(54239949701).jpg",
+        foco: "50% 60%",
+        alt: "Un patio lleno de tinas redondas de piedra con líquidos de colores, pieles tendidas en los muros y la medina alrededor.",
+      },
+      {
+        archivo: "Fez Chouara Tannery (54238811661).jpg",
+        autor: "Las tinas de la curtiduría de Chouara vistas desde una terraza, Fez, 2024. Fotografía de Jorge Franganillo.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fez_Chouara_Tannery_(54238811661).jpg",
+        foco: "50% 55%",
+        alt: "Vista cercana de las tinas de piedra llenas de líquido blanco y ocre, con operarios trabajando entre ellas.",
+      },
+      {
+        archivo: "Leather production process drying on the factory rooftop Dharavi India 22Aug2006.jpg",
+        autor: "Pieles puestas a secar en la azotea de un taller de Dharavi, Bombay, 2006. Fotografía de Everhard van Eimeren.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Leather_production_process_drying_on_the_factory_rooftop_Dharavi_India_22Aug2006.jpg",
+        foco: "50% 50%",
+        alt: "Decenas de pieles extendidas a secar al sol en la azotea de un taller, sujetas con listones.",
+      },
+      {
+        archivo: "Leather tanning in Fez, Morocco.jpg",
+        autor: "Curtidores trabajando entre las tinas de tinte al aire libre en Fez, 2017. Fotografía de Wowan1978.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Leather_tanning_in_Fez,_Morocco.jpg",
+        foco: "50% 50%",
+        alt: "Trabajadores metidos hasta las rodillas entre tinas de tinte de colores intensos en una curtiduría al aire libre.",
+      },
+    ],
     entrada:
-      "Ciudades europeas y del norte de África, siglos XII a XIX. Las ordenanzas municipales de la época regulan con detalle dónde puede instalarse cada oficio, y los curtidores aparecen siempre en el mismo sitio: fuera de las murallas, aguas abajo y a favor del viento. No es una cuestión de prestigio social, sino de olor, de agua sucia y de riesgo de enfermedad.",
+      "Ciudades europeas y del norte de África, siglos XII a XIX. Las ordenanzas municipales de la época regulan con detalle dónde puede instalarse cada oficio, y los curtidores aparecen siempre en el mismo sitio: fuera de las murallas, aguas abajo del río y a favor del viento. No es una cuestión de prestigio ni de desprecio social, aunque acabara siéndolo también, sino de olor, de agua sucia y de riesgo de enfermedad. Curtir una piel significa pararle la putrefacción a un material que se está pudriendo, y eso se hacía con cal, con excrementos y con corteza machacada.",
     paginas: [
       {
         rotulo: "El agua",
