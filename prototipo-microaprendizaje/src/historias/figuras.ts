@@ -146,21 +146,45 @@ export const FIGURAS: Short[] = [
 
   {
     id: "cleopatra",
-    titulo: "Cleopatra, más cerca de la Luna",
+    titulo: "Cleopatra y la Luna",
     gancho: "Cleopatra vivió más cerca en el tiempo de la llegada del hombre a la Luna que de las pirámides que tenía al lado de casa.",
     categoria: "Figuras",
     color: "var(--plum)",
-    foto: {
-      archivo: "Cleopatra VII, 40-30 BCE; Altes Museum, Berlin (1) (28399854659).jpg",
-      autor:
-        "Busto de mármol de Cleopatra VII, tallado entre los años 40 y 30 antes de Cristo. Altes Museum, Berlín. Fotografía de Richard Mortel.",
-      licencia: "CC BY 2.0",
-      fuente:
-        "https://commons.wikimedia.org/wiki/File:Cleopatra_VII,_40-30_BCE;_Altes_Museum,_Berlin_(1)_(28399854659).jpg",
-      foco: "40% 42%",
-      alt: "Busto de mármol de Cleopatra VII conservado en el Altes Museum de Berlín.",
-    },
     encargo: "Un busto o un relieve de Cleopatra, mejor de perfil, muy iluminado por un lado.",
+    fotos: [
+      {
+        archivo: "Cleopatra VII, 40-30 BCE; Altes Museum, Berlin (1) (28399854659).jpg",
+        autor: "Busto de mármol de Cleopatra VII, tallado entre los años 40 y 30 antes de Cristo. Altes Museum, Berlín. Fotografía de Richard Mortel.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cleopatra_VII,_40-30_BCE;_Altes_Museum,_Berlin_(1)_(28399854659).jpg",
+        foco: "40% 42%",
+        alt: "Busto de mármol de Cleopatra VII conservado en el Altes Museum de Berlín.",
+      },
+      {
+        archivo: "Giza, Sphynx and funerary temple of Khafre, 19th century pictures, 1865-1870, photo 3 of 9 - Archivio fotografico Museo Egizio, Turin INV02 008.jpg",
+        autor: "La Esfinge de Guiza medio enterrada en la arena, fotografiada entre 1865 y 1870. Museo Egizio, Turín.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Giza,_Sphynx_and_funerary_temple_of_Khafre,_19th_century_pictures,_1865-1870,_photo_3_of_9_-_Archivio_fotografico_Museo_Egizio,_Turin_INV02_008.jpg",
+        foco: "50% 50%",
+        alt: "La Esfinge sepultada hasta el cuello en la arena, con la pirámide de Keops al fondo, en una foto antigua en sepia.",
+      },
+      {
+        archivo: "The Giza Pyramids.jpg",
+        autor: "Las pirámides de Guiza, ya viejísimas cuando Cleopatra nació. Fotografía de Morhaf Kamal Aljanee.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_Giza_Pyramids.jpg",
+        foco: "50% 50%",
+        alt: "Tres pirámides escalonadas por la erosión, recortadas sobre el desierto y un cielo claro.",
+      },
+      {
+        archivo: "AS11-40-5877 - Apollo 11 - Apollo 11 Mission image - Astronaut bootprint on the lunar surface - NARA - 16685058.jpg",
+        autor: "La huella de una bota en el polvo de la Luna, fotografiada durante la misión Apolo 11 en julio de 1969. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:AS11-40-5877_-_Apollo_11_-_Apollo_11_Mission_image_-_Astronaut_bootprint_on_the_lunar_surface_-_NARA_-_16685058.jpg",
+        foco: "50% 50%",
+        alt: "La marca nítida de una suela con dibujo de tacos, impresa en un polvo gris muy fino.",
+      },
+    ],
     entrada:
       "Egipto, siglo I antes de Cristo. Cleopatra VII no era egipcia: era griega, de familia macedonia, la última de una dinastía que llevaba trescientos años gobernando el país sin molestarse en aprender su lengua. Ella fue la primera de esa familia que sí la aprendió, y no por cariño. La usó como se usa una herramienta de trabajo, junto a otras ocho lenguas.",
     paginas: [
