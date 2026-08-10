@@ -20,13 +20,47 @@ import type { Short } from "../shorts";
 export const JUEGOS: Short[] = [
   {
     id: "monopoly-denuncia",
-    titulo: "El Monopoly nació contra los monopolios",
+    titulo: "Nació contra los monopolios",
     gancho: "Lo diseñó una mujer en 1904 para enseñar por qué acaparar suelo arruina a todos.",
     categoria: "Juegos",
     color: "var(--ochre)",
     encargo: "Un tablero de juego de mesa antiguo con casillas de propiedades, muy gastado.",
+    fotos: [
+      {
+        archivo: "Landlords Game 1906 image courtesy of T Forsyth owner of the registered trademark 20151119.jpg",
+        autor: "El tablero de The Landlord's Game de 1906, con la patente de Lizzie J. Magie impresa en el centro. Imagen cedida por Thomas Forsyth.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Landlords_Game_1906_image_courtesy_of_T_Forsyth_owner_of_the_registered_trademark_20151119.jpg",
+        foco: "50% 50%",
+        alt: "Un tablero cuadrado de colores vivos con casillas de calles alrededor, una casilla de asilo de pobres y otra de cárcel en las esquinas.",
+      },
+      {
+        archivo: "Wuerfel - Flickr - wilhei55.jpg",
+        autor: "Un par de dados. Fotografía de Willi Heidelbach.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wuerfel_-_Flickr_-_wilhei55.jpg",
+        foco: "50% 50%",
+        alt: "Dos dados de esquinas redondeadas y puntos negros sobre una superficie clara.",
+      },
+      {
+        archivo: "Atlantic City Convention Hall, On Boardwalk, West of Mississippi Avenue, Atlantic City (Atlantic County, New Jersey).jpg",
+        autor: "El paseo marítimo de Atlantic City, cuyas calles dieron nombre a las casillas del juego. Fotografía de Jack Boucher, 1992.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Atlantic_City_Convention_Hall,_On_Boardwalk,_West_of_Mississippi_Avenue,_Atlantic_City_(Atlantic_County,_New_Jersey).jpg",
+        foco: "50% 50%",
+        alt: "Un edificio enorme de ladrillo y piedra junto al paseo de tablas de una ciudad costera.",
+      },
+      {
+        archivo: "Atlantic City Convention Hall, On Boardwalk, West of Mississippi Avenue, Atlantic City, Atlantic County, NJ HABS NJ,1-ATCI,18-11.tif",
+        autor: "Otra vista del mismo edificio en el paseo de Atlantic City. Historic American Buildings Survey.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Atlantic_City_Convention_Hall,_On_Boardwalk,_West_of_Mississippi_Avenue,_Atlantic_City,_Atlantic_County,_NJ_HABS_NJ,1-ATCI,18-11.tif",
+        foco: "50% 50%",
+        alt: "Fachada larga de un pabellón de congresos vista en diagonal, en blanco y negro.",
+      },
+    ],
     entrada:
-      "La versión oficial que la caja contó durante décadas es bonita: Charles Darrow, un parado de la Gran Depresión, inventa un juego en la mesa de su cocina, se lo compra Parker Brothers en 1935 y se hace millonario. La primera parte es falsa. El juego llevaba treinta años circulando, tenía una patente anterior y la había firmado una mujer.",
+      "La versión oficial que la caja del juego contó durante décadas es redonda y perfecta: Charles Darrow, un parado de la Gran Depresión, inventa un juego en la mesa de su cocina, se lo compra Parker Brothers en 1935 y se hace millonario de la noche a la mañana. La primera parte de esa historia es sencillamente falsa, y la empresa lo supo desde el principio. El juego llevaba treinta años circulando de mano en mano por el noreste del país, tenía una patente anterior registrada en regla, y esa patente la había firmado una mujer.",
     paginas: [
       {
         rotulo: "El original",
