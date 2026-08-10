@@ -87,13 +87,47 @@ export const CIRCO: Short[] = [
 
   {
     id: "circo-de-tres-pistas",
-    titulo: "Tres pistas y ninguna se veía",
+    titulo: "Tres pistas a la vez",
     gancho: "Ocurrían tres cosas a la vez y nadie podía seguirlas todas. Ese era exactamente el negocio.",
     categoria: "Circo",
     color: "var(--slate)",
     encargo: "Una carpa enorme por dentro, con tres pistas iluminadas y las gradas llenas.",
+    fotos: [
+      {
+        archivo: "Grand entree LCCN2003655655.jpg",
+        autor: "«Grand entree», litografía en color de Gibson & Co. Biblioteca del Congreso, Washington.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Grand_entree_LCCN2003655655.jpg",
+        foco: "50% 50%",
+        alt: "Lámina en color de una pista de circo con jinetes disfrazados dando la vuelta al ruedo, cortinas rojas y el público en las gradas.",
+      },
+      {
+        archivo: "Aladdin Shrine Circus performance - DPLA - 2500be2a09410f23453d5893da59061e.jpg",
+        autor: "Función del Aladdin Shrine Circus en el coliseo de la feria de Ohio, 1979. Fotografía de David E. Lucas.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Aladdin_Shrine_Circus_performance_-_DPLA_-_2500be2a09410f23453d5893da59061e.jpg",
+        foco: "50% 50%",
+        alt: "Números de circo en plena función dentro de un pabellón grande, con el público alrededor de la pista.",
+      },
+      {
+        archivo: "Steam Under the Stars (5850822958).jpg",
+        autor: "Locomotora de vapor C&O 614 maniobrando de noche en Clifton Forge, Virginia, 2011. Fotografía de jpmueller99.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Steam_Under_the_Stars_(5850822958).jpg",
+        foco: "50% 50%",
+        alt: "Una locomotora de vapor iluminada de noche en una playa de vías, con el vapor subiendo hacia el cielo estrellado.",
+      },
+      {
+        archivo: "Circus Conelli - Bauschänzli - Münsterbrücke IMG 4326.JPG",
+        autor: "La carpa del Circus Conelli iluminada sobre el Limmat, Zúrich, diciembre de 2009. Fotografía de Roland zh.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Circus_Conelli_-_Bausch%C3%A4nzli_-_M%C3%BCnsterbr%C3%BCcke_IMG_4326.JPG",
+        foco: "50% 50%",
+        alt: "Una carpa de circo iluminada de noche junto al río, con las luces reflejadas en el agua.",
+      },
+    ],
     entrada:
-      "Estados Unidos, década de 1880. Los circos ambulantes han crecido tanto que las carpas albergan a diez mil espectadores, y aparece un problema físico: desde la última fila no se ve a un acróbata pequeño ni se oye a un payaso. La solución de los empresarios no fue reducir el aforo, sino multiplicar el escenario: tres pistas funcionando a la vez.",
+      "Estados Unidos, década de 1880. Los circos ambulantes han crecido tanto que las carpas albergan a diez mil espectadores, y con el tamaño aparece un problema que es de física y no de espectáculo: desde la última fila no se distingue a un acróbata pequeño ni se oye lo que dice un payaso. La solución de los empresarios no fue reducir el aforo, que era de donde salía el dinero, sino multiplicar el escenario y poner tres pistas funcionando a la vez, para que ningún espectador tuviera nunca la parte buena demasiado lejos.",
     paginas: [
       {
         rotulo: "Todo a la vez",
