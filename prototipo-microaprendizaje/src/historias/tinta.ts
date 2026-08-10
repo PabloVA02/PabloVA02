@@ -86,13 +86,47 @@ export const TINTA: Short[] = [
   },
   {
     id: "la-tinta-del-boligrafo",
-    titulo: "Una bola necesita tinta espesa",
+    titulo: "La bola pide tinta espesa",
     gancho: "La pluma escribe con tinta líquida que corre sola por el plumín. Una bola que gira necesita algo mucho más espeso.",
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Punta de bolígrafo ampliada muchísimo, con la bola metálica en su casquillo.",
+    fotos: [
+      {
+        archivo: "Ballpoint Macro.jpg",
+        autor: "La punta de un bolígrafo ampliada, con la bola de acero encajada en el casquillo de latón. Fotografía de Prosthetic Head.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ballpoint_Macro.jpg",
+        foco: "50% 45%",
+        alt: "Macro de una punta de bolígrafo: un cono dorado con una bolita metálica manchada de tinta en el extremo.",
+      },
+      {
+        archivo: "Inkwell, portable (AM 72195-5).jpg",
+        autor: "Tintero portátil del siglo XIX. Auckland War Memorial Museum.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Inkwell,_portable_(AM_72195-5).jpg",
+        foco: "50% 50%",
+        alt: "Un frasco pequeño de tinta con tapa de rosca metálica, sobre fondo claro.",
+      },
+      {
+        archivo: "Portable Inkwell Initialled \"D.M.W. (48708729353).jpg",
+        autor: "Otro tintero de viaje, con las iniciales de su dueño grabadas. Auckland Museum.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Portable_Inkwell_Initialled_%22D.M.W._(48708729353).jpg",
+        foco: "50% 45%",
+        alt: "Un tintero de bolsillo cilíndrico con la tapa abierta y unas letras marcadas en el metal.",
+      },
+      {
+        archivo: "Sign here (Unsplash).jpg",
+        autor: "Un bolígrafo apoyado sobre unos papeles pendientes de firma.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sign_here_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Un bolígrafo colocado encima de unas hojas sobre una mesa, con luz suave.",
+      },
+    ],
     entrada:
-      "Hungría y Argentina, entre 1938 y 1943. Un periodista se harta de que la pluma le manche los dedos y le rompa el papel, y se fija en la tinta de imprenta, que seca en cuanto toca. El problema es que esa tinta es espesa como una pasta y no baja por ningún plumín. La solución fue cambiar la punta: una bolita de acero que gira y va untando.",
+      "Hungría y Argentina, entre 1938 y 1943. Un periodista se harta de que la pluma le manche los dedos, le rompa el papel y le obligue a llevar secante encima, y se fija en la tinta que usan las imprentas del periódico, que seca prácticamente en cuanto toca el papel. El problema es que esa tinta es espesa como una pasta y no baja por ningún plumín por mucho que se ensanche la ranura. La solución no estuvo en la tinta sino en cambiar la punta entera: una bolita de acero que gira y va untando.",
     paginas: [
       {
         rotulo: "La bola",
