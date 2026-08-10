@@ -95,8 +95,42 @@ export const IMPUESTOS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una tinaja de barro grande en la esquina de una calle empedrada antigua.",
+    fotos: [
+      {
+        archivo: "Pompeii Ruins (48440539286).jpg",
+        autor: "La basílica de Pompeya, con sus columnas y los muñones de ladrillo. Fotografía de Gary Todd.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pompeii_Ruins_(48440539286).jpg",
+        foco: "50% 50%",
+        alt: "Una hilera de columnas romanas truncadas sobre un suelo de tierra, bajo un cielo azul intenso.",
+      },
+      {
+        archivo: "Pompeii Ruins (48440776966).jpg",
+        autor: "Otro rincón de las ruinas de Pompeya. Fotografía de Gary Todd.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pompeii_Ruins_(48440776966).jpg",
+        foco: "50% 50%",
+        alt: "Muros bajos de piedra y ladrillo de una ciudad romana excavada, con columnas sueltas de pie.",
+      },
+      {
+        archivo: "Pompeii Ruins (48440953446).jpg",
+        autor: "Calles y patios de la ciudad enterrada por el Vesubio. Fotografía de Gary Todd.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pompeii_Ruins_(48440953446).jpg",
+        foco: "50% 50%",
+        alt: "Un patio romano descubierto, con el suelo empedrado y los cimientos de las habitaciones alrededor.",
+      },
+      {
+        archivo: "Pompeii Ruins Villa (48442954067).jpg",
+        autor: "El interior de una casa pompeyana, con los muros aún pintados. Fotografía de Gary Todd.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pompeii_Ruins_Villa_(48442954067).jpg",
+        foco: "50% 50%",
+        alt: "Una sala de casa romana con las paredes de estuco rojizo y el suelo de mosaico gastado.",
+      },
+    ],
     entrada:
-      "Roma, año 70. Un emperador acaba de llegar al poder con las arcas vacías después de una guerra civil y busca ingresos donde nadie ha mirado. Encuentra uno insólito: la orina que se recoge en las tinajas colocadas en las esquinas de la ciudad no es basura, sino materia prima industrial que se vende, y todo lo que se vende puede gravarse.",
+      "Roma, año 70. Un emperador acaba de llegar al poder con las arcas completamente vacías después de una guerra civil, y se pone a buscar ingresos en sitios donde a nadie se le había ocurrido mirar antes. Encuentra uno que a sus contemporáneos les parece insólito y hasta indecente: la orina que se recoge en las tinajas colocadas en las esquinas de la ciudad no es un desecho que haya que retirar, sino una materia prima industrial que se compra y se vende. Y todo lo que se vende se puede gravar.",
     paginas: [
       {
         rotulo: "El líquido industrial",
