@@ -15,13 +15,48 @@ import type { Short } from "../shorts";
 export const ADUANAS: Short[] = [
   {
     id: "la-linea-de-la-sal",
-    titulo: "Francia tenía aduanas por dentro",
+    titulo: "Aduanas dentro de Francia",
     gancho: "Separaba las regiones donde la sal era barata de aquellas donde costaba veinte veces más. Y estaba vigilada.",
     categoria: "Aduanas",
     color: "var(--ochre)",
     encargo: "Un sendero entre campos con una hilera de mojones de piedra.",
+    fotos: [
+      {
+        archivo: "Sissable10.JPG",
+        autor: "Las salinas de Guérande, en la Bretaña francesa, con la salicornia enrojecida y un montón de sal cubierto al fondo. Fotografía de Jibi44.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sissable10.JPG",
+        foco: "50% 55%",
+        alt: "Balsas de agua poco profunda separadas por caballones, con matas rojas y verdes creciendo entre ellas.",
+      },
+      {
+        archivo: "Eugène-Jacques Feyen-Les Paludières.jpg",
+        autor: "Las salineras, óleo de Eugène-Jacques Feyen hacia 1872. Museo de las Salinas de Batz-sur-Mer.",
+        licencia: "Dominio público",
+        pdPorEdad: 1908,
+        fuente: "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne-Jacques_Feyen-Les_Paludi%C3%A8res.jpg",
+        foco: "50% 40%",
+        alt: "Un cuadro con varias mujeres cargando cestos de sal por los caminos estrechos de una salina.",
+      },
+      {
+        archivo: "Boundary post and boundary stone - geograph.org.uk - 7751016.jpg",
+        autor: "Un poste y un mojón marcando un límite en pleno campo. Fotografía de Christine Johnstone.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Boundary_post_and_boundary_stone_-_geograph.org.uk_-_7751016.jpg",
+        foco: "50% 50%",
+        alt: "Una piedra baja y un poste clavados en la hierba, sin ninguna valla alrededor, señalando una raya invisible.",
+      },
+      {
+        archivo: "Piles of Salt Salar de Uyuni Bolivia Luca Galuzzi 2006 a.jpg",
+        autor: "Conos de sal amontonada para secarse en el salar de Uyuni, en Bolivia. Fotografía de Luca Galuzzi.",
+        licencia: "CC BY-SA 2.5",
+        fuente: "https://commons.wikimedia.org/wiki/File:Piles_of_Salt_Salar_de_Uyuni_Bolivia_Luca_Galuzzi_2006_a.jpg",
+        foco: "50% 55%",
+        alt: "Decenas de montoncitos cónicos de sal blanca alineados sobre una llanura blanca y lisa.",
+      },
+    ],
     entrada:
-      "Francia, siglos XV a XVIII. La corona cobra un impuesto sobre la sal que varía muchísimo de una región a otra, porque cada territorio negoció su régimen al incorporarse al reino. El resultado es una frontera fiscal dentro del propio país, con puestos de control, patrullas y una diferencia de precio que en algunos tramos llega a ser de veinte veces.",
+      "Francia, siglos XV a XVIII. La corona cobra un impuesto sobre la sal que varía muchísimo de una región a otra, no por capricho sino porque cada territorio negoció su propio régimen al incorporarse al reino y nadie se atrevió después a igualarlos. El resultado es una frontera fiscal trazada dentro del propio país, con sus puestos de control, sus patrullas y sus mojones, y con una diferencia de precio que en algunos tramos llega a ser de veinte veces entre un lado del camino y el otro.",
     paginas: [
       {
         rotulo: "El negocio",
