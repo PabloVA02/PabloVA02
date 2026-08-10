@@ -84,13 +84,47 @@ export const ESCALERAS_MECANICAS: Short[] = [
   },
   {
     id: "el-fuego-que-se-tumbo",
-    titulo: "Un incendio descubrió el efecto chimenea",
+    titulo: "La llama se tumbó",
     gancho: "En una escalera mecánica de madera del metro de Londres, la llama no subió hacia arriba: se tumbó sobre los peldaños y corrió.",
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Escalera mecánica antigua de metro, con peldaños de madera y el hueco de la maquinaria.",
+    fotos: [
+      {
+        archivo: "Wooden escalator part - ex-London Underground (7818895628).jpg",
+        autor: "El embarque de una escalera mecánica de listones de madera del metro de Londres. Fotografía de James Petts.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wooden_escalator_part_-_ex-London_Underground_(7818895628).jpg",
+        foco: "50% 55%",
+        alt: "La entrada de una escalera mecánica antigua, con el suelo de tablillas de madera y la balaustrada de latón.",
+      },
+      {
+        archivo: "Wooden escalator (part) - Flickr - James E. Petts.jpg",
+        autor: "Otro detalle de la misma escalera de madera. Fotografía de James Petts.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wooden_escalator_(part)_-_Flickr_-_James_E._Petts.jpg",
+        foco: "50% 50%",
+        alt: "Peldaños de listones de madera de una escalera mecánica antigua, con las ranuras entre tablillas bien visibles.",
+      },
+      {
+        archivo: "Arsenal Underground Station, 6 April 2023 platforms.jpg",
+        autor: "Andén de la estación de Arsenal, en la línea Piccadilly del metro de Londres. Fotografía de Hugh Llewelyn.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Arsenal_Underground_Station,_6_April_2023_platforms.jpg",
+        foco: "50% 50%",
+        alt: "Un andén de túnel abovedado y alicatado, vacío, con la vía a un lado.",
+      },
+      {
+        archivo: "Holloway Road Underground Station (Piccadilly Line) - 52814102299.jpg",
+        autor: "La estación de Holloway Road, en la misma línea. Fotografía de Hugh Llewelyn.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Holloway_Road_Underground_Station_(Piccadilly_Line)_-_52814102299.jpg",
+        foco: "50% 50%",
+        alt: "Otro andén subterráneo de bóveda alicatada, con la iluminación corrida a lo largo del techo.",
+      },
+    ],
     entrada:
-      "Londres, noviembre de 1987. El metro de la ciudad sigue teniendo escaleras mecánicas con peldaños de madera, instaladas décadas antes, y debajo de ellas se acumula pelusa y grasa. Una cerilla encendida cae por una ranura y prende ese depósito. Lo que pasa a continuación no lo había previsto ningún manual y cambió la manera de construir túneles en todo el mundo.",
+      "Londres, noviembre de 1987. El metro de la ciudad sigue teniendo escaleras mecánicas con peldaños de listones de madera, instaladas décadas antes y engrasadas a mano, y debajo de ellas se va acumulando año tras año una capa de pelusa, pelo y grasa que nadie limpia porque nadie la ve. Una cerilla encendida cae por una ranura entre dos tablillas y prende ese depósito. Lo que pasa a continuación no lo había previsto ningún manual de incendios, y acabó cambiando la manera de construir túneles en todo el mundo.",
     paginas: [
       {
         rotulo: "Un fuego tumbado",
