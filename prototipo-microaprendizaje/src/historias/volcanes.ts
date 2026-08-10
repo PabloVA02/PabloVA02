@@ -83,14 +83,48 @@ export const VOLCANES: Short[] = [
 
   {
     id: "paricutin",
-    titulo: "Le creció un volcán en el maizal",
+    titulo: "Un volcán en el maizal",
     gancho: "Vio salir humo de una grieta mientras araba. En un año la montaña pasaba de trescientos metros.",
     categoria: "Volcanes",
     color: "var(--clay)",
     curioso: true,
     encargo: "Una torre de iglesia asomando sola sobre un campo de roca negra.",
+    fotos: [
+      {
+        archivo: "San Juan Parangaricutiro, iglesia 03.jpg",
+        autor: "La torre de la iglesia de San Juan Parangaricutiro asomando sobre la colada del Parícutin, Michoacán. Fotografía de LBM1948, 2013.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:San_Juan_Parangaricutiro,_iglesia_03.jpg",
+        foco: "50% 50%",
+        alt: "Un campanario de piedra emergiendo de un mar de roca volcánica negra en el que ya crecen arbustos.",
+      },
+      {
+        archivo: "Parícutin 1.jpg",
+        autor: "El cono del volcán Parícutin, nacido en un maizal en 1943. Fotografía de LBM1948, 2013.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Par%C3%ADcutin_1.jpg",
+        foco: "50% 50%",
+        alt: "Un cono volcánico oscuro y pelado levantándose sobre el campo, con el cráter recortado arriba.",
+      },
+      {
+        archivo: "Parícutin 3.jpg",
+        autor: "Colada de lava solidificada del Parícutin, con la vegetación ganando terreno. Fotografía de LBM1948, 2013.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Par%C3%ADcutin_3.jpg",
+        foco: "50% 50%",
+        alt: "Un campo de bloques de lava negra y rota que se extiende hasta el pie del volcán.",
+      },
+      {
+        archivo: "San Juan Parangaricutiro, vistas 5.jpg",
+        autor: "Las ruinas de San Juan Parangaricutiro entre la roca, hoy visitadas a diario. Fotografía de LBM1948, 2013.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:San_Juan_Parangaricutiro,_vistas_5.jpg",
+        foco: "50% 50%",
+        alt: "Restos del muro y el altar de la iglesia sepultada, rodeados de lava endurecida.",
+      },
+    ],
     entrada:
-      "Michoacán, en el centro de México, febrero de 1943. Un campesino está arando su maizal cuando el suelo se abre delante de él y empieza a salir humo con olor a azufre. Aquella misma tarde la grieta escupe piedras ardiendo. Es el único volcán del mundo cuyo nacimiento vio y contó alguien desde el primer minuto.",
+      "Michoacán, en el centro de México, febrero de 1943. Un campesino está arando su maizal cuando el suelo se abre delante de él con un ruido sordo y empieza a salir humo con olor a azufre por la grieta. Aquella misma tarde la grieta escupe piedras ardiendo, y a la mañana siguiente hay un montículo donde antes había siembra. Es el único volcán del mundo cuyo nacimiento vio y contó alguien desde el primer minuto, y por eso los geólogos llegaron a tiempo de medirlo todo desde cero, cosa que no había pasado nunca.",
     paginas: [
       {
         rotulo: "La grieta",

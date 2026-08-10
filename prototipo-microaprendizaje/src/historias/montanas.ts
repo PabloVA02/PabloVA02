@@ -89,8 +89,42 @@ export const MONTANAS: Short[] = [
     categoria: "Montañas",
     color: "var(--ochre)",
     encargo: "Una cordada antigua con bastones largos cruzando un glaciar agrietado.",
+    fotos: [
+      {
+        archivo: "Glacier @ Montenvers Mer de Glace @ Chamonix (15399407166).jpg",
+        autor: "El glaciar del Mar de Hielo bajando desde el macizo del Mont Blanc, visto desde Montenvers, Chamonix. Fotografía de Guilhem Vellut, 2014.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Glacier_@_Montenvers_Mer_de_Glace_@_Chamonix_(15399407166).jpg",
+        foco: "50% 50%",
+        alt: "Un glaciar gris y estriado serpenteando por un valle alpino, con agujas nevadas al fondo.",
+      },
+      {
+        archivo: "Glacier @ Montenvers Mer de Glace @ Chamonix (15235867328).jpg",
+        autor: "Otra vista del Mar de Hielo desde Montenvers, con la lengua del glaciar y sus grietas. Fotografía de Guilhem Vellut, 2014.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Glacier_@_Montenvers_Mer_de_Glace_@_Chamonix_(15235867328).jpg",
+        foco: "50% 50%",
+        alt: "La superficie agrietada del glaciar vista desde arriba, entre paredes de roca oscura.",
+      },
+      {
+        archivo: "Mont Blanc Panorama (133793295).jpeg",
+        autor: "Panorámica del macizo del Mont Blanc. Fotografía de Alan Coles, 2010.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mont_Blanc_Panorama_(133793295).jpeg",
+        foco: "50% 50%",
+        alt: "La cadena nevada del Mont Blanc extendida de lado a lado bajo un cielo despejado.",
+      },
+      {
+        archivo: "Glacier @ Montenvers Mer de Glace @ Chamonix (15422104502).jpg",
+        autor: "El valle de Chamonix y el glaciar desde el mirador de Montenvers, hoy accesible en tren. Fotografía de Guilhem Vellut, 2014.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Glacier_@_Montenvers_Mer_de_Glace_@_Chamonix_(15422104502).jpg",
+        foco: "50% 50%",
+        alt: "Vista del glaciar y las montañas desde un mirador, con la roca pelada que el hielo ha dejado al retirarse.",
+      },
+    ],
     entrada:
-      "Alpes, 1760. Un naturalista suizo de veinte años visita el valle al pie de la montaña más alta de Europa occidental y ofrece una recompensa en dinero a quien encuentre un camino hasta la cumbre. Nadie sube montañas por gusto en aquella época: se consideran sitios peligrosos, inútiles y llenos de dragones en las leyendas del lugar.",
+      "Alpes, 1760. Un naturalista suizo de veinte años visita el valle al pie de la montaña más alta de Europa occidental y ofrece una recompensa en dinero a quien encuentre un camino hasta la cumbre. La oferta suena rara porque nadie sube montañas por gusto en aquella época: se consideran sitios peligrosos, inútiles y, según las leyendas del propio valle, llenos de dragones. Los que viven allí las miran como quien mira un muro, y los pocos que se meten arriba lo hacen a cazar gamuzas o a buscar cristales, nunca a llegar a la punta.",
     paginas: [
       {
         rotulo: "Los intentos",
