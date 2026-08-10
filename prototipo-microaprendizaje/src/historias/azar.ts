@@ -19,13 +19,49 @@ import type { Short } from "../shorts";
 export const AZAR: Short[] = [
   {
     id: "probabilidad-partida-cortada",
-    titulo: "Una apuesta que se interrumpió",
+    titulo: "La partida se interrumpió",
     gancho: "Un jugador preguntó cómo repartir el bote si la partida se corta. Dos matemáticos se escribieron.",
     categoria: "Azar",
     color: "var(--ochre)",
     encargo: "Unos dados antiguos de hueso y unas monedas sobre un tapete gastado.",
+    fotos: [
+      {
+        archivo: "David Teniers - Card Players L08033-21-lr-1.jpg",
+        autor: "Jugadores de cartas en una taberna, óleo de David Teniers el Joven, siglo XVII.",
+        licencia: "Dominio público",
+        pdPorEdad: 1690,
+        fuente: "https://commons.wikimedia.org/wiki/File:David_Teniers_-_Card_Players_L08033-21-lr-1.jpg",
+        foco: "50% 55%",
+        alt: "Cuatro hombres alrededor de una mesa baja de taberna, con las cartas en la mano y una jarra de barro en el suelo.",
+      },
+      {
+        archivo: "FR-631136102 GRA 6025 Portrait de Blaise Pascal par Edelinck.jpg",
+        autor: "Retrato de Blaise Pascal grabado a buril por Gérard Edelinck hacia 1691.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:FR-631136102_GRA_6025_Portrait_de_Blaise_Pascal_par_Edelinck.jpg",
+        foco: "50% 30%",
+        alt: "Un grabado de un hombre joven de melena larga y gesto grave, dentro de un óvalo.",
+      },
+      {
+        archivo: "Corbridge Roman Town Museum, Gaming board and counters, bone dice and shaker - geograph.org.uk - 7849634.jpg",
+        autor: "Tablero de juego romano con sus fichas, dados de hueso y cubilete. Museo de Corbridge, Inglaterra. Fotografía de Michael Garlick.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Corbridge_Roman_Town_Museum,_Gaming_board_and_counters,_bone_dice_and_shaker_-_geograph.org.uk_-_7849634.jpg",
+        foco: "50% 50%",
+        alt: "Un tablero cuadriculado antiguo con fichas redondas de dos colores, varios dados pequeños y un cubilete.",
+      },
+      {
+        archivo: "Edvard Munch - At the Roulette Table in Monte Carlo - Google Art Project.jpg",
+        autor: "En la mesa de ruleta de Montecarlo, óleo de Edvard Munch, 1892.",
+        licencia: "Dominio público",
+        pdPorEdad: 1944,
+        fuente: "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_At_the_Roulette_Table_in_Monte_Carlo_-_Google_Art_Project.jpg",
+        foco: "50% 50%",
+        alt: "Una escena pintada a brochazos sueltos con muchas figuras inclinadas sobre el tapete verde de una ruleta.",
+      },
+    ],
     entrada:
-      "Francia, 1654. Un aristócrata aficionado al juego lleva tiempo dándole vueltas a un problema de mesa que nadie sabe resolver bien: si dos jugadores apuestan a ganar tres rondas y la partida se interrumpe cuando uno va dos a uno, ¿cómo se reparte el dinero? Termina preguntándoselo por carta a un matemático conocido.",
+      "Francia, 1654. Un aristócrata aficionado al juego lleva tiempo dándole vueltas a un problema de mesa que nadie de su entorno sabe resolver de manera convincente. Si dos jugadores apuestan la misma cantidad a ganar tres rondas y la partida se interrumpe cuando uno va dos a uno, ¿cómo hay que repartir el dinero que hay encima de la mesa? La pregunta parece de tahúr y es de matemáticas. Termina planteándosela por carta a un matemático conocido, y de aquella correspondencia sale una de las herramientas más útiles que se han inventado nunca.",
     paginas: [
       {
         rotulo: "Las cartas",
