@@ -20,13 +20,47 @@ import type { Short } from "../shorts";
 export const MEDICINA: Short[] = [
   {
     id: "estetoscopio-verguenza",
-    titulo: "El estetoscopio se inventó por pudor",
+    titulo: "El estetoscopio, por pudor",
     gancho: "Un médico no quiso pegar la oreja al pecho de una paciente y enrolló un papel.",
     categoria: "Medicina",
     color: "var(--clay)",
     encargo: "Un estetoscopio de madera del siglo XIX, cilíndrico, sobre paño oscuro.",
+    fotos: [
+      {
+        archivo: "Laennec-type monaural stethoscope, France, 1851-1900 Wellcome L0057235.jpg",
+        autor: "Estetoscopio monoaural del tipo de Laennec, torneado en madera, Francia, entre 1851 y 1900. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Laennec-type_monaural_stethoscope,_France,_1851-1900_Wellcome_L0057235.jpg",
+        foco: "50% 50%",
+        alt: "Un cilindro de madera clara torneada, con dos aros de refuerzo y un agujero pequeño en el extremo.",
+      },
+      {
+        archivo: "Laennec stethoscope, English version Wellcome M0016403.jpg",
+        autor: "Un estetoscopio de Laennec en su versión inglesa, desmontado en sus piezas. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Laennec_stethoscope,_English_version_Wellcome_M0016403.jpg",
+        foco: "50% 50%",
+        alt: "Varias piezas de madera cilíndricas alineadas, que encajan unas en otras para formar un tubo.",
+      },
+      {
+        archivo: "6 portable stethoscopes. Wellcome M0014330.jpg",
+        autor: "Seis estetoscopios portátiles de distintos modelos. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:6_portable_stethoscopes._Wellcome_M0014330.jpg",
+        foco: "50% 50%",
+        alt: "Media docena de tubos de madera y metal de formas distintas, colocados uno junto a otro.",
+      },
+      {
+        archivo: "2023 Stetoskop.jpg",
+        autor: "Un estetoscopio moderno de dos auriculares. Fotografía de Jacek Halicki.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2023_Stetoskop.jpg",
+        foco: "50% 50%",
+        alt: "Un estetoscopio de goma negra y metal cromado, con la campana redonda y los dos tubos de las orejas.",
+      },
+    ],
     entrada:
-      "París, 1816. René Laennec tiene que auscultar a una mujer joven en el hospital Necker. El método de entonces era la aplicación inmediata: apoyar la oreja directamente sobre el pecho del paciente. Con una mujer joven y en aquella época, aquello le pareció impracticable. Cogió unas hojas de papel, las enrolló en un cilindro apretado y apoyó un extremo en el pecho.",
+      "París, 1816. René Laennec tiene que auscultar a una mujer joven en el hospital Necker y se encuentra con un problema que no es médico. El método de entonces se llamaba aplicación inmediata y consistía en apoyar la oreja directamente sobre el pecho del paciente, sin nada en medio. Con una mujer joven, en aquella época y delante de testigos, a Laennec le pareció sencillamente impracticable. Cogió unas hojas de papel que tenía a mano, las enrolló bien apretadas en un cilindro y apoyó un extremo en el pecho y el otro en su oído.",
     paginas: [
       {
         rotulo: "La sorpresa",
