@@ -24,8 +24,43 @@ export const GAFAS: Short[] = [
     categoria: "Gafas",
     color: "var(--ochre)",
     encargo: "Unas gafas medievales de dos aros unidos por un remache, sobre un libro abierto.",
+    fotos: [
+      {
+        archivo: "Cardinal Fernando Niño de Guevara (1541–1609) MET DT854.jpg",
+        autor: "El cardenal Fernando Niño de Guevara con sus gafas de aros, óleo de El Greco hacia 1600. Metropolitan Museum, Nueva York.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cardinal_Fernando_Ni%C3%B1o_de_Guevara_(1541%E2%80%931609)_MET_DT854.jpg",
+        foco: "50% 17%",
+        alt: "Un cardenal de barba blanca sentado, vestido de rojo intenso, con unas gafas redondas sujetas a la cabeza por cintas.",
+      },
+      {
+        archivo: "A bishop wearing spectacles and a monk reading a book. Repro Wellcome V0015821.jpg",
+        autor: "Un obispo con gafas y un monje leyendo, según una pintura de Pisanello. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_bishop_wearing_spectacles_and_a_monk_reading_a_book._Repro_Wellcome_V0015821.jpg",
+        foco: "50% 45%",
+        alt: "Dos figuras pintadas: una con unas gafas de dos aros sobre la nariz y otra inclinada sobre un libro abierto.",
+      },
+      {
+        archivo: "Eyck, Jan van - Madonna with Canon van der Paele.jpeg",
+        autor: "La Virgen del canónigo Van der Paele, de Jan van Eyck, 1436: el canónigo sostiene sus gafas junto al libro. Musea Brugge.",
+        licencia: "Dominio público",
+        pdPorEdad: 1441,
+        fuente: "https://commons.wikimedia.org/wiki/File:Eyck,_Jan_van_-_Madonna_with_Canon_van_der_Paele.jpeg",
+        foco: "50% 45%",
+        alt: "Una escena pintada con la Virgen sentada en el centro entre dos santos y un clérigo arrodillado con un libro y unas gafas en la mano.",
+      },
+      {
+        archivo: "Post-medieval spectacles, Silver spectacles frame (FindID 468635).jpg",
+        autor: "Gafas plegables de plata del siglo XVII con su estuche, halladas en Oxfordshire. Portable Antiquities Scheme.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Post-medieval_spectacles,_Silver_spectacles_frame_(FindID_468635).jpg",
+        foco: "50% 50%",
+        alt: "Dos aros finos de plata unidos por un puente en forma de uve, junto a un estuche alargado de metal.",
+      },
+    ],
     entrada:
-      "Italia, 1306. Un fraile predica un sermón en una iglesia de Florencia y menciona de pasada un invento reciente: unos cristales para ver de cerca que, según cuenta, se hicieron por primera vez hace unos veinte años. Añade que ha hablado con el hombre que los ideó y que este se niega a explicar cómo se fabrican.",
+      "Italia, 1306. Un fraile predica un sermón en una iglesia de Florencia y menciona de pasada un invento reciente que le tiene admirado: unos cristales para ver de cerca que, según cuenta, se hicieron por primera vez hace unos veinte años. Añade un detalle que lo cambia todo, porque dice que ha hablado en persona con el hombre que los ideó y que este se niega en redondo a explicar cómo se fabrican. Ese sermón es el documento más antiguo que menciona unas gafas, y en él ya aparece el silencio: el invento existe y su autor no quiere firmarlo.",
     paginas: [
       {
         rotulo: "El secreto",
