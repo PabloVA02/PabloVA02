@@ -89,8 +89,42 @@ export const MATRICULAS: Short[] = [
     categoria: "Tecnología",
     color: "var(--slate)",
     encargo: "Imagen en blanco y negro de una cámara de tráfico con la matrícula muy brillante.",
+    fotos: [
+      {
+        archivo: "DSCF1058 Nighttime long-exposure captures streaking headlights as cars speed through an empty urban interchange beneath glowing streetlights.jpg",
+        autor: "Enlace de carreteras de noche, en exposición larga. Fotografía de PattayaPatrol, 2025.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DSCF1058_Nighttime_long-exposure_captures_streaking_headlights_as_cars_speed_through_an_empty_urban_interchange_beneath_glowing_streetlights.jpg",
+        foco: "50% 50%",
+        alt: "Cruce de carreteras de noche bajo un viaducto, con las estelas blancas de los faros cruzando la imagen.",
+      },
+      {
+        archivo: "Yellow road marker. (16098269242).jpg",
+        autor: "Captafaro amarillo clavado en el asfalto, Nueva Zelanda, 2014. Fotografía de Bernard Spragg.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Yellow_road_marker._(16098269242).jpg",
+        foco: "50% 50%",
+        alt: "Un captafaro amarillo con su lente reflectante encajado en la calzada, visto de cerca.",
+      },
+      {
+        archivo: "Twilight Trails, Indian River Inlet's Evening Glow - Flickr - aparlette.jpg",
+        autor: "Estelas de tráfico al anochecer sobre el puente de Indian River Inlet, Delaware, 2023. Fotografía de Andrew Parlette.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Twilight_Trails,_Indian_River_Inlet's_Evening_Glow_-_Flickr_-_aparlette.jpg",
+        foco: "50% 50%",
+        alt: "Un puente atirantado al anochecer con dos ríos de luz roja y blanca dejados por los coches.",
+      },
+      {
+        archivo: "Automated License Plate Reader (ALPR) Disguised as Construction Barrel on Interstate 8, Big Horn, Arizona, March 2025.jpg",
+        autor: "Lector automático de matrículas camuflado dentro de un bidón de obras, interestatal 8, Arizona, 2025. Fotografía de Dugan Meyer.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Automated_License_Plate_Reader_(ALPR)_Disguised_as_Construction_Barrel_on_Interstate_8,_Big_Horn,_Arizona,_March_2025.jpg",
+        foco: "50% 50%",
+        alt: "Un bidón naranja de señalización al borde de una autopista del desierto, con una cámara escondida dentro.",
+      },
+    ],
     entrada:
-      "Reino Unido, 1976, cuando se desarrolla el primer sistema automático de lectura de matrículas. El problema técnico no era reconocer las letras, sino conseguir una imagen legible de noche, con lluvia y con faros de frente. La solución fue no usar luz visible en ningún momento. La cámara ilumina la matrícula con infrarrojos y aprovecha que la placa es retrorreflectante.",
+      "Reino Unido, 1976, cuando se desarrolla el primer sistema automático de lectura de matrículas. El problema técnico no era reconocer las letras, que ya se sabía hacer, sino conseguir una imagen legible de noche, con lluvia, con barro en la placa y con los faros de frente deslumbrando al objetivo. La solución fue renunciar del todo a la luz visible. La cámara alumbra la matrícula con infrarrojos que nadie ve y aprovecha algo que la placa lleva de fábrica: está pintada con un material que devuelve la luz por donde ha venido.",
     paginas: [
       {
         rotulo: "Devolver la luz",
