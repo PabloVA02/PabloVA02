@@ -25,8 +25,43 @@ export const MAR: Short[] = [
     categoria: "Mar",
     color: "var(--slate)",
     encargo: "Una ola enorme rompiendo contra una estructura metálica en mar abierto.",
+    fotos: [
+      {
+        archivo: "Oseberg A - Waves II.jpg",
+        autor: "Una ola rompiendo sobre la plataforma Oseberg A, en el mar del Norte. Fotografía de Richard Child.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Oseberg_A_-_Waves_II.jpg",
+        foco: "50% 55%",
+        alt: "Una plataforma petrolífera con el agua cayendo en cortina desde la cubierta y el mar blanco de espuma debajo.",
+      },
+      {
+        archivo: "Oseberg A - Waves IV.jpg",
+        autor: "La misma plataforma minutos después, con el mar reventando entre las patas de hormigón. Fotografía de Richard Child.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Oseberg_A_-_Waves_IV.jpg",
+        foco: "50% 60%",
+        alt: "Dos columnas de hormigón sosteniendo una plataforma, rodeadas de espuma que salta varios metros.",
+      },
+      {
+        archivo: "Katsushika Hokusai - Thirty-Six Views of Mount Fuji- The Great Wave Off the Coast of Kanagawa - Google Art Project.jpg",
+        autor: "La gran ola de Kanagawa, estampa de Katsushika Hokusai, hacia 1831.",
+        licencia: "Dominio público",
+        pdPorEdad: 1849,
+        fuente: "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_Thirty-Six_Views_of_Mount_Fuji-_The_Great_Wave_Off_the_Coast_of_Kanagawa_-_Google_Art_Project.jpg",
+        foco: "50% 45%",
+        alt: "Una ola azul enorme con la cresta rota en garras blancas cerniéndose sobre tres barcas alargadas.",
+      },
+      {
+        archivo: "DZ6 0640 A fleet of small boats dots a calm sea under a dramatic cloud-filled sky as rays of light break through toward the horizon.jpg",
+        autor: "Una bahía en calma al atardecer, con las barcas fondeadas. Fotografía de PattayaPatrol.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DZ6_0640_A_fleet_of_small_boats_dots_a_calm_sea_under_a_dramatic_cloud-filled_sky_as_rays_of_light_break_through_toward_the_horizon.jpg",
+        foco: "50% 45%",
+        alt: "Decenas de barcas pequeñas repartidas por un mar liso, bajo rayos de luz que atraviesan las nubes.",
+      },
+    ],
     entrada:
-      "Durante siglos, los marineros contaron encuentros con muros de agua que aparecían de la nada, verticales, muy por encima de todo lo demás. Los oceanógrafos lo achacaban al miedo y a la mala memoria: los modelos matemáticos decían que una ola así podía darse una vez cada diez mil años. El 1 de enero de 1995, una plataforma petrolífera la midió.",
+      "Durante siglos, los marineros volvieron a puerto contando lo mismo: muros de agua que aparecen de la nada, casi verticales, muy por encima de todo lo que hay alrededor, y que se van igual de rápido. Los oceanógrafos lo achacaban al miedo, a la exageración y a la mala memoria, y tenían un argumento de peso: los modelos matemáticos con los que se calculaba el oleaje decían que una ola de ese tamaño podía darse una vez cada diez mil años. El 1 de enero de 1995, una plataforma petrolífera del mar del Norte la midió con un láser.",
     paginas: [
       {
         rotulo: "La medición",
