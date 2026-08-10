@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const TARJETAS_DE_CREDITO: Short[] = [
   {
     id: "la-cena-sin-cartera",
-    titulo: "La primera tarjeta era de cartón",
+    titulo: "La tarjeta era de cartón",
     gancho: "Solo la aceptaban catorce restaurantes de Nueva York. Y la historia de su origen está adornada.",
     categoria: "Tarjetas",
     color: "var(--clay)",
     encargo: "Una tarjeta de cartulina de 1950 con una lista de restaurantes impresa detras.",
+    fotos: [
+      {
+        archivo: "Tick Tock Diner at night, exterior view, NYC February 2023.jpg",
+        autor: "La fachada del Tick Tock Diner, en la Octava Avenida de Nueva York, de noche. Fotografía de Mobilus In Mobili.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tick_Tock_Diner_at_night,_exterior_view,_NYC_February_2023.jpg",
+        foco: "50% 50%",
+        alt: "Un escaparate de restaurante con marcos de latón y tubos de neón rojos, verdes y azules encendidos.",
+      },
+      {
+        archivo: "Brooklyn Diner, New York City (2024)-L1006207.jpg",
+        autor: "Otro restaurante neoyorquino iluminado al caer la tarde. Fotografía de Frank Schulenburg.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Brooklyn_Diner,_New_York_City_(2024)-L1006207.jpg",
+        foco: "50% 50%",
+        alt: "El frente iluminado de un restaurante de ciudad, con ventanales grandes y rótulo encendido.",
+      },
+      {
+        archivo: "Hauppauge Palace Diner.jpg",
+        autor: "Un diner de Long Island, en el estado de Nueva York, al anochecer. Fotografía de Kenneth C. Zirkel.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hauppauge_Palace_Diner.jpg",
+        foco: "50% 50%",
+        alt: "Un edificio bajo y alargado de acero y cristal, con las luces del comedor encendidas y el aparcamiento delante.",
+      },
+      {
+        archivo: "Neon sign atop the Majestic Diner in Atlanta's Poncey-Highland neighborhood.jpg",
+        autor: "Rótulo de neón sobre el Majestic Diner, en Atlanta. Fotografía de Marc Merlin.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Neon_sign_atop_the_Majestic_Diner_in_Atlanta's_Poncey-Highland_neighborhood.jpg",
+        foco: "50% 35%",
+        alt: "Un cartel luminoso antiguo con letras de neón recortado contra el cielo oscuro.",
+      },
+    ],
     entrada:
-      "Nueva York, 1950. Pagar fuera de casa significa llevar dinero encima o tener cuenta abierta en cada sitio, con su libreta y su fiado, y eso solo funciona en el barrio donde a uno lo conocen. Fuera de ahí no hay crédito posible. Un empresario del sector financiero pone en marcha ese año un sistema distinto. Es una tarjeta que sirve en varios restaurantes a la vez, con una empresa en medio que paga a todos a fin de mes y luego le cobra al cliente.",
+      "Nueva York, 1950. Pagar fuera de casa significa llevar dinero encima o tener cuenta abierta en cada sitio, con su libreta y su fiado apuntado a mano, y eso solo funciona en el barrio donde a uno lo conocen de toda la vida. Fuera de ahí no hay crédito posible y no vale de nada tener buena fama. Un empresario del sector financiero pone en marcha ese año un sistema distinto, que a los comerciantes les parece al principio una tontería. Es una tarjeta que sirve en varios restaurantes a la vez, con una empresa en medio que paga a todos a fin de mes y luego le cobra al cliente.",
     paginas: [
       {
         rotulo: "La anécdota",
