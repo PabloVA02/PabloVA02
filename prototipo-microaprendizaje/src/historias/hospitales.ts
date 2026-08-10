@@ -19,13 +19,49 @@ import type { Short } from "../shorts";
 export const HOSPITALES: Short[] = [
   {
     id: "triaje-ambulancias",
-    titulo: "El triaje lo inventó la guerra",
+    titulo: "La guerra inventó el triaje",
     gancho: "Decidió atender por gravedad y no por graduación. A un coronel le tocaba esperar.",
     categoria: "Hospitales",
     color: "var(--clay)",
     encargo: "Un carro ligero de dos ruedas con toldo, tirado por caballos, en un camino embarrado.",
+    fotos: [
+      {
+        archivo: "Model ambulance, of McPherson, known as the Madras waggon, w Wellcome L0058527.jpg",
+        autor: "Maqueta de un carro-ambulancia militar del siglo XIX, del Royal Army Medical College. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Model_ambulance,_of_McPherson,_known_as_the_Madras_waggon,_w_Wellcome_L0058527.jpg",
+        foco: "50% 62%",
+        alt: "Un carro de madera con dos ruedas grandes de radios, con los laterales de rejilla y la trasera abierta.",
+      },
+      {
+        archivo: "Model ambulance, of McPherson, known as the Madras waggon, w Wellcome L0058528.jpg",
+        autor: "El mismo carro visto de perfil, con las camillas encajadas dentro. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Model_ambulance,_of_McPherson,_known_as_the_Madras_waggon,_w_Wellcome_L0058528.jpg",
+        foco: "50% 55%",
+        alt: "Perfil de un carro de madera con toldo bajo y bandejas alargadas para tumbar heridos.",
+      },
+      {
+        archivo: "German Sick, Captured at Messines, in a Canadian Hospital Art.IWMART3043.jpg",
+        autor: "Prisioneros alemanes enfermos atendidos en un hospital de campaña canadiense, óleo de William Orpen, 1917. Imperial War Museum.",
+        licencia: "Dominio público",
+        pdPorEdad: 1931,
+        fuente: "https://commons.wikimedia.org/wiki/File:German_Sick,_Captured_at_Messines,_in_a_Canadian_Hospital_Art.IWMART3043.jpg",
+        foco: "50% 50%",
+        alt: "Un hospital al aire libre pintado a plena luz, con una tienda a la izquierda y varios hombres tumbados bajo un árbol.",
+      },
+      {
+        archivo: "Late in September 1918, while gathering material for 'Gassed' near Peronne, Sargent was struck down with influenza and taken to a hospital near Roisel. Here, he spent a week in a hospital bed next to the war-wo Art.IWMART1611.jpg",
+        autor: "Interior de una tienda-hospital en el frente, acuarela de John Singer Sargent, 1918. Imperial War Museum.",
+        licencia: "Dominio público",
+        pdPorEdad: 1925,
+        fuente: "https://commons.wikimedia.org/wiki/File:Late_in_September_1918,_while_gathering_material_for_'Gassed'_near_Peronne,_Sargent_was_struck_down_with_influenza_and_taken_to_a_hospital_near_Roisel._Here,_he_spent_a_week_in_a_hospital_bed_next_to_the_war-wo_Art.IWMART1611.jpg",
+        foco: "50% 50%",
+        alt: "Filas de catres bajo la lona de una tienda, con mantas pardas y rojas y la luz entrando por el fondo.",
+      },
+    ],
     entrada:
-      "Europa, 1793. En los ejércitos de la época los heridos se recogen cuando termina la batalla, a veces al día siguiente, y se atiende primero a los oficiales por rango. Un cirujano militar francés de veinticuatro años decide cambiar las dos cosas a la vez y monta un servicio al que llama ambulancias volantes.",
+      "Europa, 1793. En los ejércitos de la época los heridos se recogen cuando termina la batalla, muchas veces al día siguiente por la mañana, y a la hora de atenderlos se empieza por los oficiales y se sigue por orden de graduación. Las dos costumbres parecen intocables y matan a muchísima gente. Un cirujano militar francés de veinticuatro años decide cambiarlas a la vez: monta un servicio de carros ligeros al que llama ambulancias volantes y, ya puestos, ordena atender por gravedad de la herida y no por rango.",
     paginas: [
       {
         rotulo: "Las ambulancias",
