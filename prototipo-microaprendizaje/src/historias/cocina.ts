@@ -21,13 +21,47 @@ import type { Short } from "../shorts";
 export const COCINA: Short[] = [
   {
     id: "ketchup-pescado",
-    titulo: "El kétchup era salsa de pescado",
+    titulo: "El kétchup era de pescado",
     gancho: "Sin tomate, sin azúcar y sin nada rojo. Durante siglos.",
     categoria: "Cocina",
     color: "var(--clay)",
     encargo: "Un bote de cristal de kétchup a contraluz, sin marca visible.",
+    fotos: [
+      {
+        archivo: "Tomatoes.jpg",
+        autor: "Tomates maduros amontonados en un puesto. Fotografía de Wilfredor.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tomatoes.jpg",
+        foco: "50% 50%",
+        alt: "Una montaña de tomates rojos muy brillantes vistos de cerca, llenando toda la imagen.",
+      },
+      {
+        archivo: "Goods from Across the Mediterranean - Pompeii Antiquarium.jpg",
+        autor: "Vasijas y ánforas mediterráneas halladas en Pompeya, del tipo en que viajaban las salsas de pescado. Fotografía de MumblerJamie.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Goods_from_Across_the_Mediterranean_-_Pompeii_Antiquarium.jpg",
+        foco: "50% 45%",
+        alt: "Un grupo de recipientes de barro antiguos de distintos tamaños, algunos rotos, colocados en fila.",
+      },
+      {
+        archivo: "Maduración del tomate (Solanum lycopersicum).jpg",
+        autor: "Las fases de maduración de un tomate, de verde a rojo. Fotografía de Juan Carlos Fonseca Mata.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Maduraci%C3%B3n%20del%20tomate%20(Solanum%20lycopersicum).jpg",
+        foco: "50% 50%",
+        alt: "Varios tomates del mismo tamaño en distintos colores, desde el verde hasta el rojo intenso.",
+      },
+      {
+        archivo: "Solanum Lycopersicum tomkin 1.jpg",
+        autor: "Una tomatera con el fruto todavía en la mata. Fotografía de Orengi Harvey.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Solanum_Lycopersicum_tomkin_1.jpg",
+        foco: "50% 50%",
+        alt: "Tomates colgando de una planta entre hojas dentadas, algunos ya rojos y otros verdes.",
+      },
+    ],
     entrada:
-      "El bote que hay en cualquier cocina es tomate, vinagre, azúcar y sal. La palabra que lleva escrita, en cambio, viene de muy lejos y no tenía nada que ver con el tomate: nombraba un líquido oscuro, salado y fermentado que se hacía con pescado y que se usaba exactamente igual que hoy usamos el kétchup, para dar sabor a lo que no lo tiene.",
+      "El bote que hay en cualquier cocina lleva dentro tomate, vinagre, azúcar y sal, y no hay ninguna sorpresa en eso. La palabra que lleva escrita en la etiqueta, en cambio, viene de muy lejos y no tenía absolutamente nada que ver con el tomate. Nombraba un líquido oscuro, espeso, muy salado y fermentado que se hacía con pescado y que se usaba exactamente igual que hoy usamos el kétchup: para dar sabor de golpe a un plato que no lo tiene. El tomate llegó a esa botella muy tarde y casi por casualidad.",
     paginas: [
       {
         rotulo: "El líquido oscuro",
