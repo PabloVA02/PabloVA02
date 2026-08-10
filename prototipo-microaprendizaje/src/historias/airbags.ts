@@ -90,8 +90,42 @@ export const AIRBAGS: Short[] = [
     categoria: "Tecnología",
     color: "var(--clay)",
     encargo: "Unidad de control de airbag abierta, con la placa y el acelerómetro visibles.",
+    fotos: [
+      {
+        archivo: "Abandoned car interior showing a deployed airbag and a worn steering wheel in a forgotten location.jpg",
+        autor: "Los airbags de un coche abandonado, ya disparados y deshinchados sobre el volante y el salpicadero. Fotografía de Shixart1985.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Abandoned_car_interior_showing_a_deployed_airbag_and_a_worn_steering_wheel_in_a_forgotten_location.jpg",
+        foco: "50% 50%",
+        alt: "El interior polvoriento de un coche con dos bolsas blancas de tela colgando flácidas del volante y del salpicadero.",
+      },
+      {
+        archivo: "Two JRC RC4580 dual op amps on a sound card PCB (144128909).jpg",
+        autor: "Componentes soldados en una placa de circuito impreso, vistos de cerca. Fotografía de Samtoucan.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Two_JRC_RC4580_dual_op_amps_on_a_sound_card_PCB_(144128909).jpg",
+        foco: "50% 50%",
+        alt: "Chips negros y componentes diminutos soldados sobre una placa verde llena de pistas de cobre.",
+      },
+      {
+        archivo: "Bga und via IMGP4531 wp.jpg",
+        autor: "Detalle de una placa electrónica con sus vías y contactos. Fotografía de Smial.",
+        licencia: "FAL",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bga_und_via_IMGP4531_wp.jpg",
+        foco: "50% 50%",
+        alt: "Macro de una placa de circuito con hileras de puntos de soldadura y pistas finísimas entre ellos.",
+      },
+      {
+        archivo: "Renault Laguna 01 airbag by-dpc.jpg",
+        autor: "Los airbags disparados de un turismo tras un accidente. Fotografía de David Pérez.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Renault_Laguna_01_airbag_by-dpc.jpg",
+        foco: "50% 50%",
+        alt: "El habitáculo de un coche accidentado con las bolsas del conductor y del acompañante desplegadas.",
+      },
+    ],
     entrada:
-      "Todos los coches modernos, con el sensor electrónico generalizado desde 1990. El airbag tiene que decidir en menos de veinte milésimas de segundo si lo que está pasando es un accidente. Si se dispara con un bordillo, hiere a alguien sin motivo y cuesta miles de euros. Si no se dispara en un choque de verdad, no sirve absolutamente de nada.",
+      "Todos los coches modernos, con el sensor electrónico generalizado desde 1990. El airbag tiene que tomar una decisión en menos de veinte milésimas de segundo, sin consultar con nadie: decidir si lo que está pasando ahí fuera es un accidente o no lo es. Si se dispara por un bordillo o un bache, hiere a alguien sin ningún motivo y cuesta miles de euros de reparación. Si no se dispara en un choque de verdad, no sirve absolutamente de nada y lo mismo daría no haberlo montado.",
     paginas: [
       {
         rotulo: "Medir el frenazo",
