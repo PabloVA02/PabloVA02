@@ -26,8 +26,42 @@ export const LENGUAS: Short[] = [
     color: "var(--sage)",
     curioso: true,
     encargo: "Una estela funeraria de piedra con inscripción antigua, musgo en las juntas.",
+    fotos: [
+      {
+        archivo: "Arraba - Flickr - Mr. Theklan.jpg",
+        autor: "Los pastos de Arraba, en el macizo del Gorbea, entre Álava y Vizcaya. Fotografía de Mr. Theklan.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Arraba_-_Flickr_-_Mr._Theklan.jpg",
+        foco: "50% 62%",
+        alt: "Una ladera de hierba muy verde con ovejas pastando y un farallón de roca gris al fondo, bajo cielo azul.",
+      },
+      {
+        archivo: "Estelas (7603923198).jpg",
+        autor: "Estelas funerarias discoidales, un tipo de monumento característico del país. Fotografía de jacilluch.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Estelas_(7603923198).jpg",
+        foco: "50% 45%",
+        alt: "Varias lápidas de piedra rematadas en disco, alineadas sobre la hierba.",
+      },
+      {
+        archivo: "Estela (7603924798).jpg",
+        autor: "Una de esas estelas de cerca, con el disco labrado y la piedra comida por los líquenes. Fotografía de jacilluch.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Estela_(7603924798).jpg",
+        foco: "50% 45%",
+        alt: "Un disco de piedra tallado con motivos geométricos sobre un pie rectangular, manchado de musgo.",
+      },
+      {
+        archivo: "Iztueta Garakoa.jpg",
+        autor: "El caserío Iztueta Garakoa, en Lazkao, Guipúzcoa. Fotografía de Txapisotegi.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Iztueta_Garakoa.jpg",
+        foco: "50% 50%",
+        alt: "Un caserío blanco de tejado a dos aguas y vigas de madera vista, rodeado de prados y arbolado.",
+      },
+    ],
     entrada:
-      "Casi todos los idiomas de Europa son primos. El español, el ruso, el griego, el alemán y el hindi descienden de una misma lengua reconstruida que se hablaba hace unos seis mil años; el húngaro, el finés y el estonio forman otra familia aparte. Y luego está el euskera, que se habla en el norte de España y el suroeste de Francia y no encaja en ninguna.",
+      "Casi todos los idiomas de Europa son primos entre sí, aunque no lo parezcan al oírlos. El español, el ruso, el griego, el alemán y hasta el hindi descienden de una misma lengua reconstruida que se hablaba hace unos seis mil años en algún punto de las estepas; el húngaro, el finés y el estonio forman otra familia aparte, con su propio antepasado común. Y luego está el euskera, que se habla en el norte de España y en el suroeste de Francia, y que no encaja en ninguna de las dos ni en ninguna otra del mundo.",
     paginas: [
       {
         rotulo: "Sin parientes",
