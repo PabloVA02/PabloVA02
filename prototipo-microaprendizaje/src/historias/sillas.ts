@@ -85,14 +85,48 @@ export const SILLAS: Short[] = [
   },
   {
     id: "la-silla-y-la-espalda",
-    titulo: "La silla perfecta no existe, y da igual",
+    titulo: "La silla perfecta no existe",
     gancho: "Ninguna postura aguanta ocho horas. Lo que hace daño no es cómo te sientas, sino cuánto rato llevas igual.",
     categoria: "Sillas",
     color: "var(--slate)",
     curioso: true,
     encargo: "Una silla de oficina con ruedas y respaldo de malla, vista de lado.",
+    fotos: [
+      {
+        archivo: "Chair No. 14, Thonet, design 1859, manufactured c. 1920, bentwood beech, walnut stain, woven cane seat - Germanisches Nationalmuseum - Nuremberg, Germany - DSC03037.jpg",
+        autor: "Silla número 14 de Thonet, diseñada en 1859 y fabricada hacia 1920. Germanisches Nationalmuseum, Núremberg. Fotografía de Daderot.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chair_No._14,_Thonet,_design_1859,_manufactured_c._1920,_bentwood_beech,_walnut_stain,_woven_cane_seat_-_Germanisches_Nationalmuseum_-_Nuremberg,_Germany_-_DSC03037.jpg",
+        foco: "50% 38%",
+        alt: "Una silla de madera curvada con asiento de rejilla de rota, expuesta sobre una tarima turquesa.",
+      },
+      {
+        archivo: "Office workers, Paris - UNESCO - PHOTO0000002920 0000.tiff",
+        autor: "Trabajo de oficina en los archivos de la Unesco, París, 1987. Fotografía de Dominique Roger.",
+        licencia: "CC BY-SA 3.0 igo",
+        fuente: "https://commons.wikimedia.org/wiki/File:Office_workers,_Paris_-_UNESCO_-_PHOTO0000002920_0000.tiff",
+        foco: "50% 50%",
+        alt: "Tres personas trabajando en una sala de archivo, dos sentadas leyendo y una de pie junto a un aparato.",
+      },
+      {
+        archivo: "London Millennium Bridge Tate Modern Museum Saint Paul's Cathedral Tamise River Night Explore Image Picture Long pose (16484823825).jpg",
+        autor: "Peatones cruzando el Millennium Bridge de Londres, en exposición larga, 2015. Fotografía de Benjamin Gillet.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:London_Millennium_Bridge_Tate_Modern_Museum_Saint_Paul's_Cathedral_Tamise_River_Night_Explore_Image_Picture_Long_pose_(16484823825).jpg",
+        foco: "50% 50%",
+        alt: "Una pasarela iluminada de noche con las figuras de los peatones convertidas en estelas borrosas por el movimiento.",
+      },
+      {
+        archivo: "Furnitures in the sunlight (Unsplash).jpg",
+        autor: "Muebles vacíos al sol junto a una ventana. Fotografía de Harry Tang, 2014.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Furnitures_in_the_sunlight_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Una silla y una mesa vacías recortadas por la luz del sol que entra por una ventana.",
+      },
+    ],
     entrada:
-      "Oficinas de todo el mundo, con estudios de ergonomía publicados desde los años cincuenta del siglo XX. La idea popular es que existe una postura correcta para sentarse y que basta con una buena silla para no tener dolores de espalda. Los datos de las últimas décadas apuntan a otra cosa bastante distinta, y bastante más incómoda de aplicar.",
+      "Oficinas de todo el mundo, con estudios de ergonomía publicados desde los años cincuenta del siglo XX. La idea popular es que existe una postura correcta para sentarse, con la espalda recta y los pies planos, y que basta con comprar una buena silla para librarse de los dolores de espalda. Los datos de las últimas décadas apuntan a otra cosa bastante distinta y bastante más incómoda de aplicar, porque no señalan a ninguna postura en concreto. Lo que aparece una y otra vez en las revisiones es el tiempo: cuánto rato se lleva sin cambiar de posición.",
     paginas: [
       {
         rotulo: "El disco",
