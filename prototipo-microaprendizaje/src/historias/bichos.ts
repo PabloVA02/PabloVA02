@@ -94,8 +94,42 @@ export const BICHOS: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Un flamenco adulto y un pollo gris juntos en la orilla, agua quieta.",
+    fotos: [
+      {
+        archivo: "Greater Flamingos on the lake.jpg",
+        autor: "Bando de flamencos comunes alimentándose en un lago, 2024. Fotografía de Timothy Akolamazima.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Greater_Flamingos_on_the_lake.jpg",
+        foco: "50% 45%",
+        alt: "Decenas de flamencos rosados filtrando agua con la cabeza baja, reflejados en un lago verde.",
+      },
+      {
+        archivo: "Chilean flamingo (Phoenicopterus chilensis) (24351280217).jpg",
+        autor: "Flamenco chileno (Phoenicopterus chilensis). Fotografía de Bernard Spragg, 2017.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Chilean_flamingo_(Phoenicopterus_chilensis)_(24351280217).jpg",
+        foco: "50% 45%",
+        alt: "Un flamenco de cerca, con el pico curvo hacia abajo y el plumaje rosado claro.",
+      },
+      {
+        archivo: "In harmony & Unison.jpg",
+        autor: "Flamencos moviéndose juntos por la laguna, 2020. Fotografía de Wildtalesimages.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:In_harmony_&_Unison.jpg",
+        foco: "50% 50%",
+        alt: "Un grupo de flamencos avanzando en formación por el agua poco profunda.",
+      },
+      {
+        archivo: "Sleeping Flamingos.jpg",
+        autor: "Flamencos durmiendo a la pata coja, con la cabeza metida bajo el ala. Fotografía de Christopher Woods, 2008.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sleeping_Flamingos.jpg",
+        foco: "50% 45%",
+        alt: "Varios flamencos apoyados en una sola pata, con el cuello doblado y el pico escondido entre las plumas.",
+      },
+    ],
     entrada:
-      "Un flamenco recién nacido es una bola gris blancuzca sin nada del color que hace famosa a la especie. Tardará años en ponerse rosa, y no lo hará por crecer: lo hará por comer. El pigmento no lo fabrica su cuerpo, lo saca entero de la dieta, y eso convierte el color en un dato público sobre lo bien que se está alimentando.",
+      "Un flamenco recién nacido es una bola gris blancuzca, con el pico recto y sin nada del color que hace famosa a la especie. Tardará dos o tres años en ponerse rosa, y no lo hará por crecer ni por madurar: lo hará por comer. El pigmento no lo fabrica su cuerpo en ninguna parte, lo saca entero de lo que filtra del agua, y eso convierte el color de un flamenco en un dato público que cualquiera puede leer desde lejos: lo bien o lo mal que se está alimentando ese animal en concreto.",
     paginas: [
       {
         rotulo: "De dónde sale",

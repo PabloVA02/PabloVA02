@@ -89,8 +89,42 @@ export const AGUA: Short[] = [
     categoria: "Agua",
     color: "var(--slate)",
     encargo: "Una fila de arcos de piedra cruzando un valle seco a primera hora de la mañana.",
+    fotos: [
+      {
+        archivo: "Pont du Gard aqueduct at sunset (sat10mar2012-18.24h).jpg",
+        autor: "El Pont du Gard, en el sur de Francia, al atardecer. Fotografía de Rik Schuiling, 2012.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_aqueduct_at_sunset_(sat10mar2012-18.24h).jpg",
+        foco: "50% 45%",
+        alt: "Tres pisos de arcos de piedra dorada cruzando un valle, iluminados por el sol bajo y enmarcados por ramas de olivo.",
+      },
+      {
+        archivo: "Pont du Gard Arch Underside.jpg",
+        autor: "Los arcos del Pont du Gard vistos desde abajo, con los bloques colocados sin argamasa. Fotografía de Elihbeckman, 2014.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_Arch_Underside.jpg",
+        foco: "50% 50%",
+        alt: "Vista en contrapicado del intradós de un arco romano, con las dovelas de piedra encajadas una a una.",
+      },
+      {
+        archivo: "Acueducto, Segovia, España, 2024-06-14, DD 18.jpg",
+        autor: "El acueducto de Segovia atravesando la ciudad, 2024. Fotografía de Diego Delso.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Acueducto,_Segovia,_Espa%C3%B1a,_2024-06-14,_DD_18.jpg",
+        foco: "50% 50%",
+        alt: "La doble arquería de granito del acueducto de Segovia elevándose sobre una plaza.",
+      },
+      {
+        archivo: "Acueducto, Segovia, España, 2024-06-14, DD 12.jpg",
+        autor: "Detalle de los bloques de granito del acueducto de Segovia, colocados sin argamasa. Fotografía de Diego Delso, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Acueducto,_Segovia,_Espa%C3%B1a,_2024-06-14,_DD_12.jpg",
+        foco: "50% 50%",
+        alt: "Los pilares y arcos de granito del acueducto vistos de cerca, con las juntas secas entre las piedras.",
+      },
+    ],
     entrada:
-      "Roma, siglo I. Una ciudad de un millón de habitantes necesita agua todos los días y no la tiene cerca en cantidad suficiente. La solución son once conducciones que la traen desde manantiales situados a decenas de kilómetros, unas por debajo del suelo y otras sobre arcos. No existe ninguna máquina capaz de empujar el agua hacia arriba.",
+      "Roma, siglo I. Una ciudad de un millón de habitantes necesita agua todos los días y no la tiene cerca en cantidad suficiente ni de calidad decente. La solución son once conducciones que la traen desde manantiales situados a decenas de kilómetros, la mayor parte del recorrido por debajo del suelo y solo los últimos tramos sobre arcos, que es lo único que ha quedado a la vista. No existe ninguna máquina capaz de empujar el agua hacia arriba, así que todo el sistema tiene que bajar sin parar desde el manantial hasta la fuente.",
     paginas: [
       {
         rotulo: "La pendiente",
