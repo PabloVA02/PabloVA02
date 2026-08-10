@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const PLASTICO: Short[] = [
   {
     id: "bolas-de-billar",
-    titulo: "Se inventó para salvar elefantes",
+    titulo: "Nació para salvar elefantes",
     gancho: "Las bolas de billar se hacían de marfil y se acababan los colmillos. Ofrecieron un premio.",
     categoria: "Plástico",
     color: "var(--ochre)",
     encargo: "Bolas de billar viejas amontonadas sobre un paño verde gastado.",
+    fotos: [
+      {
+        archivo: "Tusker in the African savannah (28976037938).jpg",
+        autor: "Un elefante africano con los colmillos crecidos, en la sabana de Kenia.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tusker_in_the_African_savannah_(28976037938).jpg",
+        foco: "50% 42%",
+        alt: "Un elefante caminando entre hierba alta y matorrales verdes, con los dos colmillos claros bien visibles.",
+      },
+      {
+        archivo: "Billiard balls red yellow white.jpg",
+        autor: "Un juego de bolas de billar de carambola, roja, blanca y amarilla. Fotografía de Oknazevad.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Billiard_balls_red_yellow_white.jpg",
+        foco: "50% 50%",
+        alt: "Tres bolas de billar brillantes juntas sobre el paño, una roja, una blanca y una amarilla.",
+      },
+      {
+        archivo: "Billiard Table at Cooch Behar Palace 03.jpg",
+        autor: "La mesa de billar del palacio de Cooch Behar, en la India. Fotografía de Kingshuk Mondal.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Billiard_Table_at_Cooch_Behar_Palace_03.jpg",
+        foco: "50% 50%",
+        alt: "Una gran mesa de billar de madera con paño verde en una sala de techos altos y suelo de baldosa.",
+      },
+      {
+        archivo: "Celluloid dresser vanity set-01.jpg",
+        autor: "Juego de tocador de celuloide: espejo, peine y recogedor de pelo, imitando el marfil. Minnesota Historical Society. Fotografía de Bob Herskovitz.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Celluloid_dresser_vanity_set-01.jpg",
+        foco: "50% 50%",
+        alt: "Un espejo de mano, un peine y un bote, todos de un material color crema veteado que imita el marfil.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1863. El billar se ha puesto de moda y las bolas se fabrican con marfil de colmillo de elefante, la única materia con la dureza y el rebote adecuados. De cada colmillo salen tres o cuatro bolas buenas. Un fabricante de Nueva York, harto de que le falte material, ofrece diez mil dólares a quien encuentre un sustituto.",
+      "Estados Unidos, 1863. El billar se ha puesto de moda en las ciudades del país y las bolas se fabrican con marfil de colmillo de elefante, la única materia conocida que tiene a la vez la dureza, la densidad y el rebote que hacen falta. El problema es el rendimiento, porque de cada colmillo salen apenas tres o cuatro bolas lo bastante buenas y el resto se tira. Un fabricante de Nueva York, harto de quedarse sin material y de ver subir el precio, publica un anuncio ofreciendo diez mil dólares a quien encuentre un sustituto que sirva.",
     paginas: [
       {
         rotulo: "El premio",
