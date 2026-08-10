@@ -18,13 +18,48 @@ import type { Short } from "../shorts";
 export const ESCUELA: Short[] = [
   {
     id: "examenes-imperiales",
-    titulo: "Un examen de tres días encerrado",
+    titulo: "Un examen de tres días",
     gancho: "En una celda de poco más de un metro, con la comida, un orinal y una vela.",
     categoria: "Escuela",
     color: "var(--plum)",
     encargo: "Filas larguísimas de celdas de ladrillo idénticas y abiertas por delante.",
+    fotos: [
+      {
+        archivo: "Turtle stelae (26431873708).jpg",
+        autor: "Una de las ochenta y dos estelas del Templo de la Literatura de Hanói, con los nombres de quienes aprobaron el examen. Fotografía de Mig Gilbert.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Turtle_stelae_(26431873708).jpg",
+        foco: "50% 45%",
+        alt: "Una losa de piedra cubierta de caracteres grabados, apoyada sobre una tortuga de piedra, bajo un pórtico de madera.",
+      },
+      {
+        archivo: "DGJ 1701 - Rub my head.. (3504631463).jpg",
+        autor: "La fila de tortugas de piedra que sostienen las estelas, en el mismo templo de Hanói. Fotografía de Dennis G. Jarvis.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DGJ_1701_-_Rub_my_head.._(3504631463).jpg",
+        foco: "50% 50%",
+        alt: "Varias estelas alineadas una detrás de otra, cada una sobre su tortuga, en un pabellón abierto.",
+      },
+      {
+        archivo: "Chinese - Brush Pot with a Man - Walters 491988 - View B.jpg",
+        autor: "Bote para pinceles chino de entre 1723 y 1730, con un hombre que sueña que llega a letrado. Walters Art Museum.",
+        licencia: "Dominio público",
+        pdPorEdad: 1800,
+        fuente: "https://commons.wikimedia.org/wiki/File:Chinese_-_Brush_Pot_with_a_Man_-_Walters_491988_-_View_B.jpg",
+        foco: "50% 45%",
+        alt: "Un recipiente cilíndrico tallado en relieve con la figura de un hombre tumbado y su mesa de escribir.",
+      },
+      {
+        archivo: "Hand Rubbing the Doctor's Stelae.jpg",
+        autor: "Una mano frotando la cabeza de una de las tortugas, costumbre que se hace por suerte. Fotografía de Caitlin Childs.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hand_Rubbing_the_Doctor's_Stelae.jpg",
+        foco: "50% 50%",
+        alt: "Una mano apoyada sobre la cabeza pulida y brillante de una tortuga de piedra.",
+      },
+    ],
     entrada:
-      "China, siglo VII. El imperio empieza a seleccionar a sus funcionarios mediante un examen abierto a casi cualquier varón, sin importar de qué familia venga. Es la primera vez en la historia que un puesto de poder se reparte por una prueba escrita y no por nacimiento. El sistema durará mil trescientos años, hasta 1905.",
+      "China, siglo VII. El imperio empieza a seleccionar a sus funcionarios mediante un examen abierto a casi cualquier varón, sin importar de qué familia venga ni de qué provincia llegue. Es la primera vez en la historia que un puesto de poder se reparte por una prueba escrita y no por nacimiento, y la idea resulta tan chocante entonces como práctica: el imperio necesita administradores capaces y las familias nobles no dan abasto. El sistema durará mil trescientos años, hasta que se suprime en 1905.",
     paginas: [
       {
         rotulo: "La celda",
