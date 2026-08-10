@@ -18,13 +18,47 @@ import type { Short } from "../shorts";
 export const FRIGORIFICO: Short[] = [
   {
     id: "neveras-que-mataban",
-    titulo: "Las primeras neveras mataban",
+    titulo: "Las neveras mataban",
     gancho: "Enfriaban con gases tóxicos y una fuga de noche podía acabar con toda la casa dormida.",
     categoria: "Frigorífico",
     color: "var(--slate)",
     encargo: "Una nevera blanca de los años treinta con el motor redondo encima.",
+    fotos: [
+      {
+        archivo: "General Electric \"Monitor-Top\" refrigerator at Chaim Weizmann mansion.jpg",
+        autor: "Un frigorífico Monitor Top de finales de los años veinte, con el compresor redondo a la vista encima del armario. Fotografía de Mr. Shoval.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:General_Electric_%22Monitor-Top%22_refrigerator_at_Chaim_Weizmann_mansion.jpg",
+        foco: "50% 35%",
+        alt: "Una nevera blanca esmaltada con un tambor redondo encima, en una cocina alicatada de la época.",
+      },
+      {
+        archivo: "Flame from the burner of a gas stove.jpg",
+        autor: "La llama de un quemador de gas: la nevera de Einstein y Szilárd se movía con calor, no con un motor.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Flame_from_the_burner_of_a_gas_stove.jpg",
+        foco: "50% 50%",
+        alt: "Una corona de llamas azules saliendo de un quemador de cocina sobre fondo oscuro.",
+      },
+      {
+        archivo: "1950s kitchen at the Ohio History Center June 2022.jpg",
+        autor: "Una cocina americana de los años cincuenta reconstruida en el Ohio History Center. Fotografía de DogsRNice.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:1950s_kitchen_at_the_Ohio_History_Center_June_2022.jpg",
+        foco: "50% 50%",
+        alt: "Una cocina de época con armarios de colores claros, encimera de formica y electrodomésticos blancos.",
+      },
+      {
+        archivo: "Open refrigerator with food at night.jpg",
+        autor: "Un frigorífico abierto de noche, con la comida iluminada por dentro. Fotografía de W. carter.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Open_refrigerator_with_food_at_night.jpg",
+        foco: "50% 45%",
+        alt: "La puerta abierta de una nevera en una cocina a oscuras, con los estantes llenos y la luz interior encendida.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1929. Los frigoríficos eléctricos llevan una década en las casas y funcionan con gases refrigerantes que son venenosos o inflamables: amoniaco, cloruro de metilo y dióxido de azufre. Aquel invierno, una fuga en un hospital mata a más de un centenar de personas, y la prensa recoge casos de familias enteras muertas mientras dormían.",
+      "Estados Unidos, 1929. Los frigoríficos eléctricos llevan ya una década metiéndose en las casas y funcionan con gases refrigerantes que son venenosos, inflamables o las dos cosas a la vez: amoniaco, cloruro de metilo y dióxido de azufre. Mientras el aparato esté bien cerrado no pasa nada, y el problema es que los aparatos se estropean. Aquel invierno, una fuga en un hospital de Cleveland mata a más de un centenar de personas, y la prensa empieza a recoger casos de familias enteras que aparecen muertas en la cama.",
     paginas: [
       {
         rotulo: "La nevera de Einstein",
