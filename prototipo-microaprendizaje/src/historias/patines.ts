@@ -22,6 +22,41 @@ export const PATINES: Short[] = [
     categoria: "Patines",
     color: "var(--slate)",
     encargo: "Una tibia de caballo pulida y agujereada por los extremos, sobre hielo.",
+    fotos: [
+      {
+        archivo: "Landschap met een bevroren gracht, schaatsers en een ijsschuit, SK-A-2510.jpg",
+        autor: "Diversión sobre el hielo en un canal helado, pintura de Adam van Breen, 1611. Rijksmuseum.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Landschap_met_een_bevroren_gracht,_schaatsers_en_een_ijsschuit,_SK-A-2510.jpg",
+        foco: "50% 50%",
+        alt: "Un canal helado lleno de gente patinando, con un trineo de vela, un pueblo al fondo y árboles pelados a los lados.",
+      },
+      {
+        archivo: "Sebastiaan Vrancx - Winter landscape with skaters on a frozen canal.jpg",
+        autor: "Paisaje de invierno con patinadores en un canal helado, de Sebastiaen Vrancx, primera mitad del siglo XVII.",
+        licencia: "Dominio público",
+        pdPorEdad: 1647,
+        fuente: "https://commons.wikimedia.org/wiki/File:Sebastiaan_Vrancx_-_Winter_landscape_with_skaters_on_a_frozen_canal.jpg",
+        foco: "50% 50%",
+        alt: "Una ciudad flamenca nevada con el canal helado en primer término y decenas de figuras cruzándolo.",
+      },
+      {
+        archivo: "Patineurs sur un canal gelé (Louvre, INV 1837).jpg",
+        autor: "Patinadores sobre un canal helado, cuadro conservado en el Museo del Louvre.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Patineurs_sur_un_canal_gel%C3%A9_(Louvre,_INV_1837).jpg",
+        foco: "50% 50%",
+        alt: "Figuras pequeñas patinando sobre un canal helado entre casas bajas, bajo un cielo pálido de invierno.",
+      },
+      {
+        archivo: "Elector Frederick V, dethroned King of Bohemia, on a frozen canal at The Hague.jpg",
+        autor: "El canal Paviljoensgracht de La Haya helado en 1621, en un grabado de Cornelis Ploos van Amstel de 1766.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Elector_Frederick_V,_dethroned_King_of_Bohemia,_on_a_frozen_canal_at_The_Hague.jpg",
+        foco: "50% 50%",
+        alt: "Un canal urbano helado con patinadores y trineos, y la torre de una iglesia recortada al fondo.",
+      },
+    ],
     entrada:
       "Sur de Finlandia, hace unos tres mil años. En invierno los lagos se hielan y quedan intransitables durante meses, lo que obliga a rodearlos y a perder días de camino en una tierra que tiene más agua que suelo firme. Los arqueólogos han encontrado allí tibias de caballo y de vaca pulidas por una cara y agujereadas por los extremos, y durante mucho tiempo nadie supo para qué servían. Son los patines más antiguos que se conocen. Y no funcionaban como los de ahora, porque un hueso no tiene filo y no muerde el hielo.",
     paginas: [
