@@ -20,22 +20,50 @@ import type { Short } from "../shorts";
 export const CORREOS: Short[] = [
   {
     id: "penny-black",
-    titulo: "Pagaba quien recibía la carta",
+    titulo: "Pagaba quien la recibía",
     gancho: "Y podía negarse a pagarla. Media Inglaterra mandaba mensajes en el sobre para no tener que abrirlo.",
     categoria: "Correos",
     color: "var(--slate)",
-    foto: {
-      archivo: "\"Penny Black\" postage stamps MET DP328201.jpg",
-      autor:
-        "Bloque de cuatro Penny Black sin usar, emitidos el 6 de mayo de 1840. Grabado del retrato de William Wyon. Metropolitan Museum, Nueva York.",
-      licencia: "Dominio público",
-      pdPorEdad: 1851,
-      foco: "50% 50%",
-      alt: "El primer sello del mundo: el perfil de la reina Victoria sobre fondo negro.",
-    },
     encargo: "Un sello negro pequeño pegado en la esquina de un sobre amarillento.",
+    fotos: [
+      {
+        archivo: "\"Penny Black\" postage stamps MET DP328201.jpg",
+        autor: "Bloque de cuatro Penny Black sin usar, emitidos el 6 de mayo de 1840. Grabado del retrato de William Wyon. Metropolitan Museum, Nueva York.",
+        licencia: "Dominio público",
+        pdPorEdad: 1851,
+        fuente: "https://commons.wikimedia.org/wiki/File:%22Penny_Black%22_postage_stamps_MET_DP328201.jpg",
+        foco: "50% 50%",
+        alt: "El primer sello del mundo: el perfil de la reina Victoria sobre fondo negro.",
+      },
+      {
+        archivo: "Stamp GB-Penny Black first day cover.jpg",
+        autor: "Carta doblada con un Penny Black matasellado el 6 de mayo de 1840, el primer día en que el sello tuvo validez.",
+        licencia: "Dominio público",
+        pdPorEdad: 1851,
+        fuente: "https://commons.wikimedia.org/wiki/File:Stamp_GB-Penny_Black_first_day_cover.jpg",
+        foco: "50% 50%",
+        alt: "Un pliego de papel amarillento doblado y escrito a mano, con un sello negro pequeño arriba y una cruz roja encima.",
+      },
+      {
+        archivo: "Stamp GB Penny Black plate reconstruction.jpg",
+        autor: "Reconstrucción de una plancha entera de Penny Black: doscientas cuarenta posiciones, cada una con sus letras de control.",
+        licencia: "Dominio público",
+        pdPorEdad: 1851,
+        fuente: "https://commons.wikimedia.org/wiki/File:Stamp_GB_Penny_Black_plate_reconstruction.jpg",
+        foco: "50% 45%",
+        alt: "Una cuadrícula de sellos negros iguales, casi todos con un aspa roja de matasellos encima.",
+      },
+      {
+        archivo: "Victorian Penfold in snow.jpg",
+        autor: "Un buzón victoriano del modelo Penfold, cubierto de nieve. Fotografía de kitmasterbloke.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Victorian_Penfold_in_snow.jpg",
+        foco: "50% 45%",
+        alt: "Un buzón cilíndrico de hierro rojo con remate hexagonal, con una capa de nieve encima.",
+      },
+    ],
     entrada:
-      "Reino Unido, década de 1830. El correo funciona al revés de como lo conocemos: la carta se entrega sin pagar nada y quien la recibe abona el porte, calculado según la distancia y el número de hojas. El precio de una carta larga desde Escocia puede equivaler al jornal de un día de un obrero, así que muchos se niegan a aceptarla.",
+      "Reino Unido, década de 1830. El correo funciona justo al revés de como lo conocemos hoy: la carta se entrega sin pagar nada por adelantado y es quien la recibe el que abona el porte, calculado según la distancia recorrida y el número de hojas que lleve dentro. El precio de una carta larga venida desde Escocia puede equivaler al jornal de un día entero de un obrero, de manera que muchísima gente, al ver quién la manda y de dónde viene, sencillamente se niega a aceptarla y el cartero se la lleva de vuelta.",
     paginas: [
       {
         rotulo: "El truco del sobre",
