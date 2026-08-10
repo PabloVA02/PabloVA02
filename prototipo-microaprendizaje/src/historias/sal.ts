@@ -91,8 +91,42 @@ export const SAL: Short[] = [
     categoria: "Historia",
     color: "var(--clay)",
     encargo: "Caravana de camellos en el desierto con losas rectangulares de sal atadas a los costados.",
+    fotos: [
+      {
+        archivo: "Salt transport by a camel train on Lake Assale (Karum) in Ethiopia.jpg",
+        autor: "Caravana de camellos cargados con losas de sal cruzando el lago Assale, en Etiopía. Fotografía de LeFnake.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Salt_transport_by_a_camel_train_on_Lake_Assale_(Karum)_in_Ethiopia.jpg",
+        foco: "50% 50%",
+        alt: "Una fila de camellos con placas rectangulares atadas a los costados avanzando por una llanura blanca de sal.",
+      },
+      {
+        archivo: "Cavalier de chameaux au passage dans une dune de sable au Maroc.jpg",
+        autor: "Camellos cruzando una duna en el Sáhara marroquí.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cavalier_de_chameaux_au_passage_dans_une_dune_de_sable_au_Maroc.jpg",
+        foco: "50% 50%",
+        alt: "Camellos bajando por la cresta de una duna de arena anaranjada, con sus sombras alargadas al lado.",
+      },
+      {
+        archivo: "20151122 Morocco 2777 Erg Chigaga sRGB.jpg",
+        autor: "El erg de Chigaga, en el sur de Marruecos. Fotografía de Dan Lundberg.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:20151122_Morocco_2777_Erg_Chigaga_sRGB.jpg",
+        foco: "50% 50%",
+        alt: "Un mar de dunas onduladas hasta el horizonte, sin un solo punto de referencia.",
+      },
+      {
+        archivo: "Above Moroccan Dunes.jpg",
+        autor: "Dunas marroquíes vistas desde lo alto. Fotografía de Patricia Ilizaliturri.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Above_Moroccan_Dunes.jpg",
+        foco: "50% 50%",
+        alt: "Crestas de arena dibujando líneas curvas y limpias sobre el desierto, con luz rasante.",
+      },
+    ],
     entrada:
-      "Desierto del Sáhara, siglos VIII a XVI. En el norte de África sobra sal y falta oro; al sur del desierto, en el África occidental, sobra el oro y no hay ni un yacimiento de sal. Entre los dos sitios hay dos mil kilómetros de arena. Durante ochocientos años, las caravanas de camellos cruzaron ese vacío llevando losas de sal en una dirección y polvo de oro en la otra.",
+      "Desierto del Sáhara, siglos VIII a XVI. En el norte de África sobra la sal y falta el oro; al sur del desierto, en el África occidental, pasa exactamente lo contrario: sobra el oro y no hay ni un solo yacimiento de sal en cientos de kilómetros a la redonda. Entre los dos sitios hay dos mil kilómetros de arena sin agua. Durante ochocientos años, las caravanas de camellos cruzaron ese vacío llevando losas de sal en una dirección y polvo de oro en la otra, y a veces cambiándolos peso por peso.",
     paginas: [
       {
         rotulo: "El cuerpo pide",
