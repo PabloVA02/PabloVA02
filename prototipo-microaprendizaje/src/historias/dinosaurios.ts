@@ -90,13 +90,47 @@ export const DINOSAURIOS: Short[] = [
 
   {
     id: "meteorito-yucatan",
-    titulo: "Cayó en el peor sitio posible",
+    titulo: "Cayó en el peor sitio",
     gancho: "Lo que decidió la extinción no fue el tamaño de la roca, sino lo que había justo debajo.",
     categoria: "Dinosaurios",
     color: "var(--clay)",
     encargo: "Un cielo rojo oscuro sobre un mar en calma, con una estela luminosa cruzándolo.",
+    fotos: [
+      {
+        archivo: "Malapascua Island, Ethereal sunset over Visayan Sea, Philippines.jpg",
+        autor: "Atardecer rojo sobre el mar de Visayas, Filipinas, 2009. Fotografía de Vyacheslav Argenberg.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Malapascua_Island,_Ethereal_sunset_over_Visayan_Sea,_Philippines.jpg",
+        foco: "50% 45%",
+        alt: "Un cielo cargado de nubes rojas y naranjas sobre un mar en calma, con dos barcas fondeadas en silueta.",
+      },
+      {
+        archivo: "Cenote Zaci, Valladolid de Yucatan, Julio 2012 04.jpg",
+        autor: "Cenote Zací, en Valladolid de Yucatán, 2012. Los cenotes dibujan en superficie el borde del cráter. Fotografía de Kirt Edblom.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cenote_Zaci,_Valladolid_de_Yucatan,_Julio_2012_04.jpg",
+        foco: "50% 50%",
+        alt: "Un pozo natural de agua verde encajado en la roca caliza, con las paredes cubiertas de raíces colgantes.",
+      },
+      {
+        archivo: "Red Sun and Waves (37665695081).jpg",
+        autor: "Sol enrojecido por el humo de un incendio sobre el mar, 2017. Fotografía de simonrumi.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Red_Sun_and_Waves_(37665695081).jpg",
+        foco: "50% 50%",
+        alt: "Un sol rojo apagado detrás de una capa de humo, con las olas oscuras rompiendo debajo.",
+      },
+      {
+        archivo: "Grey Heron in the water.jpg",
+        autor: "Garza real (Ardea cinerea) en el agua. Las aves son los únicos dinosaurios que quedaron después del impacto.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Grey_Heron_in_the_water.jpg",
+        foco: "50% 45%",
+        alt: "Una garza gris de cuello largo y pico afilado, quieta con las patas metidas en el agua.",
+      },
+    ],
     entrada:
-      "Península de Yucatán, en el actual México, hace sesenta y seis millones de años. Una roca de unos diez kilómetros de diámetro entra en la atmósfera a veinte kilómetros por segundo y golpea un mar poco profundo, dejando un cráter de ciento ochenta kilómetros de ancho. Y lo que decidió la extinción no fue la piedra: fue el terreno que había debajo.",
+      "Península de Yucatán, en el actual México, hace sesenta y seis millones de años. Una roca de unos diez kilómetros de diámetro entra en la atmósfera a veinte kilómetros por segundo y golpea un mar poco profundo, dejando un cráter de ciento ochenta kilómetros de ancho que todavía está ahí, enterrado. Rocas de ese tamaño han caído otras veces sin acabar con nada parecido a lo que acabó esta. Lo que decidió la extinción no fue la piedra ni el golpe: fue exactamente qué clase de terreno había justo debajo del punto donde cayó.",
     paginas: [
       {
         rotulo: "El suelo",

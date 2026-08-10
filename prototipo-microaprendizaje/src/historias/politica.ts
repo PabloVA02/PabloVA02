@@ -90,8 +90,42 @@ export const POLITICA: Short[] = [
     categoria: "Política",
     color: "var(--clay)",
     encargo: "Un pasillo de oficinas vacío de noche, con una puerta entreabierta al fondo.",
+    fotos: [
+      {
+        archivo: "2013 Watergate complex 01.JPG",
+        autor: "El complejo Watergate, junto al Potomac en Washington, 2013. Fotografía de Farragutful.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2013_Watergate_complex_01.JPG",
+        foco: "50% 40%",
+        alt: "Los edificios curvos y escalonados del complejo Watergate vistos desde la avenida, entre árboles.",
+      },
+      {
+        archivo: "2013 Watergate complex 02.JPG",
+        autor: "Otra vista del mismo complejo, con las oficinas donde entraron aquella noche. Fotografía de Farragutful, 2013.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2013_Watergate_complex_02.JPG",
+        foco: "50% 45%",
+        alt: "Fachada de balcones ondulados de un edificio de oficinas y apartamentos de los años sesenta.",
+      },
+      {
+        archivo: "Studer B67 reel-to-reel audio tape recorder, ca. 1978 (cropped and edited, larger 10 inch tapes).jpg",
+        autor: "Magnetófono de bobina abierta de finales de los setenta. Fotografía de Robert Taylor.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Studer_B67_reel-to-reel_audio_tape_recorder,_ca._1978_(cropped_and_edited,_larger_10_inch_tapes).jpg",
+        foco: "50% 50%",
+        alt: "Un magnetófono de dos bobinas grandes con la cinta pasando por los cabezales.",
+      },
+      {
+        archivo: "White House 05.jpg",
+        autor: "La Casa Blanca vista desde el norte, 2007. Fotografía de Ad Meskens.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:White_House_05.jpg",
+        foco: "50% 50%",
+        alt: "La fachada norte de la Casa Blanca con su pórtico de columnas, al atardecer.",
+      },
+    ],
     entrada:
-      "Washington, madrugada del 17 de junio de 1972. Un vigilante de veinticuatro años hace su ronda por un complejo de oficinas junto al río y ve algo raro: alguien ha pegado cinta adhesiva sobre el pestillo de una puerta para que no llegue a cerrar. La quita y sigue su ronda. Cuando vuelve a pasar por allí, la cinta está otra vez puesta.",
+      "Washington, madrugada del 17 de junio de 1972. Un vigilante de veinticuatro años hace su ronda por un complejo de oficinas junto al río y ve algo raro en un sótano: alguien ha pegado cinta adhesiva sobre el pestillo de una puerta para que no llegue a cerrar del todo. Piensa que la habrá dejado un operario, la quita y sigue su ronda tranquilamente. Cuando vuelve a pasar por allí un rato después, la cinta está otra vez puesta. Eso significa que quien la puso sigue dentro del edificio, y es lo único que hace falta para que empiece todo.",
     paginas: [
       {
         rotulo: "La llamada",
