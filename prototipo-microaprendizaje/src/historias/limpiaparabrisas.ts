@@ -88,13 +88,47 @@ export const LIMPIAPARABRISAS: Short[] = [
   },
   {
     id: "el-que-se-para-a-ratos",
-    titulo: "El limpiaparabrisas copia al párpado",
+    titulo: "Copiado del párpado",
     gancho: "Con llovizna, barrer sin parar chirría y estorba. Un ingeniero pensó en el párpado, que tampoco se mueve todo el rato.",
     categoria: "Limpiaparabrisas",
     color: "var(--ochre)",
     encargo: "Un parabrisas con llovizna fina y una escobilla detenida en el centro del cristal.",
+    fotos: [
+      {
+        archivo: "Driving on a rainy day through a blurred windshield on a country road in early morning hours.jpg",
+        autor: "La carretera vista a través de un parabrisas mojado, en una mañana de lluvia. Fotografía de Shixart1985.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Driving_on_a_rainy_day_through_a_blurred_windshield_on_a_country_road_in_early_morning_hours.jpg",
+        foco: "50% 45%",
+        alt: "Una carretera estrecha entre árboles pelados, vista borrosa a través del agua que corre por el cristal.",
+      },
+      {
+        archivo: "Small petals and water droplets on car windshield, Ponte de Sor, Portugal (approx. GPS location) julesvernex2.jpg",
+        autor: "Gotas de agua y pétalos pequeños sobre un parabrisas, en Ponte de Sor, Portugal. Fotografía de Jules Verne Times Two.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Small_petals_and_water_droplets_on_car_windshield,_Ponte_de_Sor,_Portugal_(approx._GPS_location)_julesvernex2.jpg",
+        foco: "50% 50%",
+        alt: "Cientos de gotas redondas sobre un cristal, con algunos pétalos blancos pegados entre ellas.",
+      },
+      {
+        archivo: "Rainy Windshield.jpg",
+        autor: "Un parabrisas cubierto de llovizna. Fotografía del Servicio Meteorológico Nacional de Phoenix.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rainy_Windshield.jpg",
+        foco: "50% 50%",
+        alt: "Un cristal salpicado de gotitas finas con el paisaje desdibujado detrás.",
+      },
+      {
+        archivo: "Raindrops on windshield in Kent, Washington.jpg",
+        autor: "Gotas de lluvia sobre el parabrisas de un coche parado, en Kent, Washington. Fotografía de Roc0ast3r.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Raindrops_on_windshield_in_Kent,_Washington.jpg",
+        foco: "50% 50%",
+        alt: "Gotas de distintos tamaños repartidas por el cristal, con luces desenfocadas al fondo.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1963. El limpiaparabrisas eléctrico lleva treinta años puesto de serie, pero solo tiene dos velocidades y las dos van sin parar nunca. Con lluvia fuerte va bien. Con llovizna, la goma pasa sobre un cristal casi seco: chirría, deja rayas y cansa la vista más que la lluvia misma. Un ingeniero de Detroit se pregunta por qué no puede pararse entre una pasada y la siguiente.",
+      "Estados Unidos, 1963. El limpiaparabrisas eléctrico lleva ya treinta años montado de serie en los coches, pero solo tiene dos velocidades y las dos barren sin parar nunca. Con lluvia fuerte funciona perfectamente y nadie se queja. Con llovizna, en cambio, la goma pasa una y otra vez sobre un cristal casi seco: chirría, deja rayas grasientas y cansa la vista bastante más que la propia lluvia. Un ingeniero de Detroit se hace la pregunta que nadie se había hecho: por qué no puede pararse entre una pasada y la siguiente.",
     paginas: [
       {
         rotulo: "El párpado",
