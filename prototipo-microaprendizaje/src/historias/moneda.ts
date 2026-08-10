@@ -17,13 +17,47 @@ import type { Short } from "../shorts";
 export const MONEDA: Short[] = [
   {
     id: "primera-moneda",
-    titulo: "Las primeras monedas engañaban",
+    titulo: "Las monedas engañaban",
     gancho: "Un metal natural con oro y plata mezclados en proporción variable, imposible de juzgar a ojo.",
     categoria: "Monedas",
     color: "var(--ochre)",
     encargo: "Unas pepitas de metal aplastadas con un sello marcado a golpe.",
+    fotos: [
+      {
+        archivo: "Athens - 454-404 BC - silver tetradrachm - head of Athena - owl - München SMS.jpg",
+        autor: "Tetradracma de plata de Atenas con la cabeza de Atenea, acuñado entre el 454 y el 404 antes de Cristo. Colección de Múnich. Fotografía de ArchaiOptix.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Athens_-_454-404_BC_-_silver_tetradrachm_-_head_of_Athena_-_owl_-_M%C3%BCnchen_SMS.jpg",
+        foco: "50% 50%",
+        alt: "Una moneda gruesa de plata oscurecida con un perfil femenino con casco, golpeado en relieve.",
+      },
+      {
+        archivo: "Gold fluvial pebbles (placer gold) (Washington State, USA) 3 (16846570129).jpg",
+        autor: "Pepitas de oro de aluvión recogidas en un río, como las que arrastraban los ríos de Lidia. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gold_fluvial_pebbles_(placer_gold)_(Washington_State,_USA)_3_(16846570129).jpg",
+        foco: "50% 50%",
+        alt: "Varias pepitas de oro pequeñas, irregulares y muy brillantes, sobre una superficie oscura.",
+      },
+      {
+        archivo: "Athens - 510-500 BC - silver tetradrachm - head of Athena - owl - München SMS.jpg",
+        autor: "Un tetradracma ateniense algo anterior, de hacia el año 500 antes de Cristo. Fotografía de ArchaiOptix.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Athens_-_510-500_BC_-_silver_tetradrachm_-_head_of_Athena_-_owl_-_M%C3%BCnchen_SMS.jpg",
+        foco: "50% 50%",
+        alt: "Una moneda de plata con el cuño desplazado hacia un lado y el relieve gastado por el uso.",
+      },
+      {
+        archivo: "Izmir Archaeology museum Greek coins 5810.jpg",
+        autor: "Monedas griegas expuestas en el Museo Arqueológico de Esmirna, en la misma región donde se acuñaron las primeras. Fotografía de Dosseman.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Izmir_Archaeology_museum_Greek_coins_5810.jpg",
+        foco: "50% 50%",
+        alt: "Un conjunto de monedas antiguas de distintos tamaños colocadas en filas dentro de una vitrina.",
+      },
+    ],
     entrada:
-      "Lidia, en la actual Turquía, siglo VII antes de Cristo. Aparecen las primeras monedas acuñadas del mundo: pepitas de electro, una aleación natural de oro y plata que se recoge en los ríos de la zona, aplastadas y marcadas con un sello oficial. El sello garantiza el peso de la pieza. El problema es que no garantiza la composición.",
+      "Lidia, en la actual Turquía, siglo VII antes de Cristo. Aparecen las primeras monedas acuñadas del mundo, y no son de oro ni de plata sino de electro: una aleación natural de las dos que se recoge en pepitas de los ríos de la zona, se aplasta a golpe de martillo y se marca con un sello oficial. El sello garantiza que la pieza pesa lo que dice pesar, y eso ya es un avance enorme frente a pesar cada pago. El problema, y no es pequeño, es que no garantiza de qué está hecha.",
     paginas: [
       {
         rotulo: "El engaño natural",
