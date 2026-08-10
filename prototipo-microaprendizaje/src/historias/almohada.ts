@@ -91,8 +91,42 @@ export const ALMOHADA: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Ácaro del polvo visto al microscopio electrónico sobre una fibra de tejido.",
+    fotos: [
+      {
+        archivo: "House dust mite (Dermatophagoides pteronyssinus).jpg",
+        autor: "Ácaro del polvo doméstico (Dermatophagoides pteronyssinus) sobre fibras de tejido, al microscopio. Fotografía de Gilles San Martin, 2010.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:House_dust_mite_(Dermatophagoides_pteronyssinus).jpg",
+        foco: "50% 50%",
+        alt: "Un ácaro translúcido y nacarado, de patas cortas y pelos largos, caminando sobre unas fibras oscuras de tela.",
+      },
+      {
+        archivo: "House dust mites (5247996458).jpg",
+        autor: "Varios ácaros del polvo entre fibras y restos de piel. Fotografía de Gilles San Martin, 2010. Miden tres décimas de milímetro.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:House_dust_mites_(5247996458).jpg",
+        foco: "50% 50%",
+        alt: "Un grupo de ácaros blanquecinos repartidos entre fibras enredadas y partículas de polvo.",
+      },
+      {
+        archivo: "Porto Clothes Line.JPG",
+        autor: "Ropa tendida en una fachada de Oporto, 2025. Fotografía de TeWeBs.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Porto_Clothes_Line.JPG",
+        foco: "50% 50%",
+        alt: "Sábanas y ropa colgadas de un tendedero al aire libre, movidas por el viento.",
+      },
+      {
+        archivo: "DZ6 0461 Cozy neatly made hotel room with a king bed soft pillows bedside lamps and calming neutral decor.jpg",
+        autor: "Cama hecha con almohadas y ropa blanca en una habitación de hotel, 2025. Fotografía de PattayaPatrol.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DZ6_0461_Cozy_neatly_made_hotel_room_with_a_king_bed_soft_pillows_bedside_lamps_and_calming_neutral_decor.jpg",
+        foco: "50% 50%",
+        alt: "Una cama bien hecha con sábanas blancas y varias almohadas mullidas, con dos lámparas encendidas a los lados.",
+      },
+    ],
     entrada:
-      "Cualquier dormitorio del mundo, con los estudios sobre ácaros publicados desde 1964. Una persona suelta cada noche una cantidad notable de piel muerta y cerca de medio litro de sudor. Una parte de todo eso acaba dentro de la almohada, que además está caliente y húmeda. Ese ambiente es exactamente el que necesitan unos animales microscópicos que se llaman ácaros del polvo.",
+      "Cualquier dormitorio del mundo, con los estudios sobre ácaros publicados desde 1964. Una persona suelta cada noche una cantidad notable de piel muerta y cerca de medio litro de sudor, y una buena parte de todo eso acaba dentro de la almohada, que además pasa la noche caliente y húmeda por el aliento y por la cabeza apoyada encima. Ese ambiente templado, oscuro y con comida de sobra es exactamente el que necesitan unos animales microscópicos que se llaman ácaros del polvo y que llevan viviendo con nosotros desde que dormimos bajo techo.",
     paginas: [
       {
         rotulo: "El ácaro",
