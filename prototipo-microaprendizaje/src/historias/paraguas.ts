@@ -16,14 +16,48 @@ import type { Short } from "../shorts";
 export const PARAGUAS: Short[] = [
   {
     id: "el-hombre-del-paraguas",
-    titulo: "Al primero le tiraban basura",
+    titulo: "Al primero lo insultaban",
     gancho: "Los cocheros de alquiler lo insultaban por la calle: si no llovía encima, nadie pagaba un carruaje.",
     categoria: "Paraguas",
     color: "var(--clay)",
     curioso: true,
     encargo: "Un paraguas negro grande abierto en una calle empedrada bajo lluvia fina.",
+    fotos: [
+      {
+        archivo: "Burgos in the rain - Flickr - conall...jpg",
+        autor: "Una calle porticada de Burgos bajo la lluvia. Fotografía de Conall.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Burgos_in_the_rain_-_Flickr_-_conall...jpg",
+        foco: "50% 55%",
+        alt: "Paraguas abiertos avanzando por una calle empedrada y mojada, con soportales de piedra a un lado.",
+      },
+      {
+        archivo: "Fine day in London, RP-F-F25501-S.jpg",
+        autor: "Un coche de caballos en una calle de Londres, fotografía de Hector Colard de hacia 1891. Rijksmuseum.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fine_day_in_London,_RP-F-F25501-S.jpg",
+        foco: "50% 45%",
+        alt: "Un carruaje tirado por un caballo parado en una calle londinense, en una fotografía antigua en sepia.",
+      },
+      {
+        archivo: "Wachtende rijtuigen bij de Waterloo Bridge in Londen, RP-P-OB-25.711.jpg",
+        autor: "Coches de alquiler esperando junto al puente de Waterloo, en Londres. Aguafuerte de Willem Witsen, 1890. Rijksmuseum.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wachtende_rijtuigen_bij_de_Waterloo_Bridge_in_Londen,_RP-P-OB-25.711.jpg",
+        foco: "50% 50%",
+        alt: "Un grabado de varios carruajes parados en fila junto a un puente, con los caballos cabizbajos.",
+      },
+      {
+        archivo: "Downpour in Chinatown.jpg",
+        autor: "Un aguacero en el barrio chino de Toronto.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Downpour_in_Chinatown.jpg",
+        foco: "50% 55%",
+        alt: "Lluvia fuerte cayendo sobre una calle comercial, con el asfalto encharcado y reflejos de los escaparates.",
+      },
+    ],
     entrada:
-      "Londres, hacia 1750. El paraguas existe y se conoce, pero en Inglaterra solo lo usan las mujeres, y las tiendas lo tienen por artículo femenino. Un hombre que ha viajado mucho por Europa y por Oriente decide que aquello es una tontería y empieza a salir a la calle con uno, todos los días, llueva o no. Lo hará durante treinta años seguidos.",
+      "Londres, hacia 1750. El paraguas existe desde hace siglos y todo el mundo sabe lo que es, pero en Inglaterra solo lo usan las mujeres y las tiendas lo tienen catalogado como artículo femenino, junto a los abanicos. Un hombre que ha viajado mucho por Europa y por Oriente, y que ha visto usarlo allí con normalidad, decide que aquello es una tontería y empieza a salir a la calle con uno todos los días, llueva o no llueva. Lo hará durante treinta años seguidos, aguantando de todo.",
     paginas: [
       {
         rotulo: "El enemigo del cochero",
