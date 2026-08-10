@@ -81,13 +81,47 @@ export const CUBIERTOS: Short[] = [
   },
   {
     id: "el-cuchillo-de-punta-redonda",
-    titulo: "Al cuchillo le quitaron la punta",
+    titulo: "El cuchillo perdió la punta",
     gancho: "Todo el mundo llevaba el suyo afilado a la mesa. Un ministro francés decidió que aquello se acababa.",
     categoria: "Cubiertos",
     color: "var(--slate)",
     encargo: "Un cuchillo de mesa antiguo con la punta redondeada, junto a un plato blanco.",
+    fotos: [
+      {
+        archivo: "Personnal Cutlery Maria Theresia Vienna 1.jpg",
+        autor: "Cubiertos personales de viaje de María Teresa de Austria, en su estuche. Silberkammer del Hofburg, Viena.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Personnal_Cutlery_Maria_Theresia_Vienna_1.jpg",
+        foco: "50% 50%",
+        alt: "Un estuche abierto con cuchillo, tenedor y cucharas de mangos dorados encajados en terciopelo negro.",
+      },
+      {
+        archivo: "Table-set of knife, fork, spoon and toothpick, silver. Wellcome M0013414.jpg",
+        autor: "Juego personal de cuchillo puntiagudo, tenedor de dos dientes, palillo y cuchara, en plata. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Table-set_of_knife,_fork,_spoon_and_toothpick,_silver._Wellcome_M0013414.jpg",
+        foco: "50% 50%",
+        alt: "Cuatro piezas de cubertería antigua alineadas: un cuchillo de punta aguda, un tenedor de dos dientes, un palillo y una cuchara.",
+      },
+      {
+        archivo: "Personal cutlery set emperor Francis II (I) Silberkammer catalog 6 Hofburg Vienna.jpg",
+        autor: "Cubiertos personales del emperador Francisco II, Silberkammer del Hofburg, Viena. Fotografía de Jebulon, 2012.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Personal_cutlery_set_emperor_Francis_II_(I)_Silberkammer_catalog_6_Hofburg_Vienna.jpg",
+        foco: "50% 50%",
+        alt: "Un juego de cubiertos imperiales guardado en su caja forrada, con las piezas encajadas una junto a otra.",
+      },
+      {
+        archivo: "Anonymous Fork and knife with amber figurines of a married couple.jpg",
+        autor: "Tenedor y cuchillo con mangos de ámbar tallado, década de 1670, justo después del decreto. Pomerania o Lübeck.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Anonymous_Fork_and_knife_with_amber_figurines_of_a_married_couple.jpg",
+        foco: "50% 45%",
+        alt: "Un cuchillo y un tenedor antiguos con los mangos labrados en ámbar con figuras de una pareja.",
+      },
+    ],
     entrada:
-      "Francia, 1669. Hasta ese momento, un invitado llega a una comida con su propio cuchillo colgado del cinturón, afilado y con la punta aguda, porque los cuchillos de mesa no los pone la casa. Se usa para cortar, para pinchar la carne y para llevársela a la boca. Ese año, el ministro principal del rey prohíbe por decreto los cuchillos puntiagudos en la mesa.",
+      "Francia, 1669. Hasta ese momento, un invitado llega a una comida con su propio cuchillo colgado del cinturón, afilado y con la punta aguda, porque los cuchillos de mesa no los pone la casa: cada uno trae el suyo igual que hoy trae la cartera. Se usa para cortar, para pinchar la carne y para llevársela a la boca, y el mismo filo sirve luego para cualquier otra cosa que haga falta. Ese año, el ministro principal del rey prohíbe por decreto los cuchillos puntiagudos en la mesa, y de esa prohibición sale media forma de comer que tenemos hoy.",
     paginas: [
       {
         rotulo: "El decreto",

@@ -84,8 +84,42 @@ export const CARRETERAS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una carretera secundaria con la línea central pintada, vista de frente.",
+    fotos: [
+      {
+        archivo: "Kungsgatan 1967.jpg",
+        autor: "La calle Kungsgatan de Estocolmo la mañana del 3 de septiembre de 1967, cuando Suecia cambió de lado de la carretera.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kungsgatan_1967.jpg",
+        foco: "50% 50%",
+        alt: "Una avenida abarrotada de coches y de gente en pleno atasco, fotografiada desde arriba en blanco y negro.",
+      },
+      {
+        archivo: "Sword and Scabbard MET DT107.jpg",
+        autor: "Espada con su vaina, Metropolitan Museum of Art, Nueva York. Se llevaba al costado izquierdo para desenvainar con la derecha.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sword_and_Scabbard_MET_DT107.jpg",
+        foco: "50% 50%",
+        alt: "Una espada larga junto a su vaina decorada, apoyadas sobre fondo neutro.",
+      },
+      {
+        archivo: "Horse-drawn wagons hauling grain to depot, ca.1920 (CHS-1419).jpg",
+        autor: "Carros de grano tirados por varias parejas de caballos, hacia 1920. Fotografía de C. C. Pierce.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Horse-drawn_wagons_hauling_grain_to_depot,_ca.1920_(CHS-1419).jpg",
+        foco: "50% 50%",
+        alt: "Una recua de caballos tirando de carros cargados de sacos por un camino de tierra.",
+      },
+      {
+        archivo: "Kungsgatan 3 september 1967 Dagen H.jpg",
+        autor: "Otra vista del mismo día del cambio en Estocolmo, 1967. Fotografía de Jacob Forsell.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kungsgatan_3_september_1967_Dagen_H.jpg",
+        foco: "50% 50%",
+        alt: "Coches de los años sesenta apiñados en una calle mientras la gente mira desde las aceras.",
+      },
+    ],
     entrada:
-      "Europa, siglos XVIII y XIX. Antes de que existieran normas de tráfico, cada país circulaba como se había circulado siempre, y las costumbres venían de muy atrás. Hoy un tercio de la población mundial conduce por la izquierda y el resto por la derecha. La división no es casual: puede seguirse en el mapa como se sigue una historia política.",
+      "Europa, siglos XVIII y XIX. Antes de que existieran normas de tráfico escritas, cada país circulaba como se había circulado siempre por allí, y esas costumbres venían de mucho más atrás de lo que parece. Hoy un tercio largo de la población mundial conduce por la izquierda y el resto por la derecha, y la frontera entre las dos zonas no cae donde caería si fuera cosa del azar. La división se puede seguir en el mapa igual que se sigue una historia política: dime quién mandaba allí en 1800 y te digo por qué lado se conduce.",
     paginas: [
       {
         rotulo: "La espada",
