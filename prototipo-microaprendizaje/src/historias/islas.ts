@@ -89,14 +89,48 @@ export const ISLAS: Short[] = [
 
   {
     id: "isla-que-se-hundio",
-    titulo: "Se pelearon por una isla hundida",
+    titulo: "Tres banderas, ninguna isla",
     gancho: "Emergió del Mediterráneo en 1831, le clavaron tres banderas y desapareció antes de fin de año.",
     categoria: "Islas",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una columna de vapor saliendo del mar abierto bajo un cielo cargado.",
+    fotos: [
+      {
+        archivo: "Kavachi Eruption.jpg",
+        autor: "Erupción del volcán submarino Kavachi, islas Salomón, 2016. Fotografía de Alex DeCiccio.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kavachi_Eruption.jpg",
+        foco: "50% 50%",
+        alt: "Una columna oscura de ceniza y agua reventando en la superficie del mar abierto bajo un cielo nublado.",
+      },
+      {
+        archivo: "John Ward of Hull - Warships on a calm sea.jpg",
+        autor: "«Barcos de guerra en mar en calma», óleo de John Ward de Hull, primera mitad del siglo XIX.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:John_Ward_of_Hull_-_Warships_on_a_calm_sea.jpg",
+        foco: "50% 50%",
+        alt: "Pintura de varios navíos de guerra de vela fondeados en un mar liso, con las banderas colgando.",
+      },
+      {
+        archivo: "Халатырский пляж на Камчатке.jpg",
+        autor: "Playa de arena volcánica negra batida por el oleaje, Jalaktyrski, Kamchatka. Fotografía de tanysolovey, 2021.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:%D0%A5%D0%B0%D0%BB%D0%B0%D1%82%D1%8B%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BB%D1%8F%D0%B6_%D0%BD%D0%B0_%D0%9A%D0%B0%D0%BC%D1%87%D0%B0%D1%82%D0%BA%D0%B5.jpg",
+        foco: "50% 50%",
+        alt: "Olas rompiendo sobre una playa de arena negra de origen volcánico, con la espuma corriendo hacia la orilla.",
+      },
+      {
+        archivo: "Mountains and sea from Solunto.jpg",
+        autor: "El mar frente a la costa norte de Sicilia, visto desde Solunto, 2023. Fotografía de Oxidising.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mountains_and_sea_from_Solunto.jpg",
+        foco: "50% 55%",
+        alt: "Vista del mar azul y las montañas de la costa siciliana desde un promontorio.",
+      },
+    ],
     entrada:
-      "Mediterráneo, julio de 1831. A unos sesenta kilómetros de la costa sur de Sicilia, los marineros ven salir del agua una columna de humo y de ceniza. Es un volcán submarino en erupción. En pocas semanas asoma una isla de cuatro kilómetros y medio de perímetro y sesenta metros de altura, con playa de arena negra.",
+      "Mediterráneo, julio de 1831. A unos sesenta kilómetros de la costa sur de Sicilia, los marineros que pasan por la zona ven salir del agua una columna de humo y de ceniza que se levanta cientos de metros. Es un volcán submarino en erupción, y en pocas semanas asoma sobre el agua una isla de cuatro kilómetros y medio de perímetro y sesenta metros de altura, con su playa de arena negra y su cráter humeando en el centro. Aparece en mitad de una de las rutas de navegación más transitadas del mundo, y eso lo cambia todo.",
     paginas: [
       {
         rotulo: "Tres banderas",
