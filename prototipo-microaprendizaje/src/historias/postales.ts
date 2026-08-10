@@ -22,8 +22,43 @@ export const POSTALES: Short[] = [
     categoria: "Postales",
     color: "var(--ochre)",
     encargo: "Una tarjeta de cartulina amarillenta con el sello impreso en la esquina y sin sobre.",
+    fotos: [
+      {
+        archivo: "Otto Pilzecker H. Otto Gruss aus Hannover 1898 Auesseres Stadtgebiet. Letzter Kosaken-Sitz an der Weide No. 1 Bildseite.jpg",
+        autor: "Postal litografiada «Gruss aus Hannover», de 1898, con el mensaje escrito a mano sobre la propia ilustración.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Otto_Pilzecker_H._Otto_Gruss_aus_Hannover_1898_Auesseres_Stadtgebiet._Letzter_Kosaken-Sitz_an_der_Weide_No._1_Bildseite.jpg",
+        foco: "50% 45%",
+        alt: "Una postal antigua con una casa de entramado de madera y tejado rojizo dibujada a color, y unas líneas manuscritas en la esquina.",
+      },
+      {
+        archivo: "Gruss aus Rawitsch.jpg",
+        autor: "Litografía de Rawicz, en Polonia, impresa en 1894 por Louis Fiedler para papel de carta y postales.",
+        licencia: "Dominio público",
+        pdPorEdad: 1920,
+        fuente: "https://commons.wikimedia.org/wiki/File:Gruss_aus_Rawitsch.jpg",
+        foco: "50% 50%",
+        alt: "Una lámina litografiada con varias vistas de una ciudad en tonos suaves, enmarcadas en óvalos.",
+      },
+      {
+        archivo: "Ernst Gradischnig Werkstätte, Lithographiepresse, Kärnten, Österreich.jpg",
+        autor: "Prensa litográfica de mano, del tipo con el que se imprimían las postales, una piedra y un color cada vez. Taller de Moosburg, Carintia.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ernst_Gradischnig_Werkst%C3%A4tte,_Lithographiepresse,_K%C3%A4rnten,_%C3%96sterreich.jpg",
+        foco: "50% 50%",
+        alt: "Una prensa de madera y hierro con una piedra plana debajo del rodillo y una manivela grande a un lado.",
+      },
+      {
+        archivo: "Dinan 21 Cartes postales 2007.jpg",
+        autor: "Postales a la venta delante de una tienda en Dinan, en la Bretaña francesa. Fotografía de JLPC.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Dinan_21_Cartes_postales_2007.jpg",
+        foco: "50% 50%",
+        alt: "Un expositor giratorio lleno de postales de colores en la calle, delante del escaparate de una tienda.",
+      },
+    ],
     entrada:
-      "Imperio austrohúngaro, 1869. Mandar una carta es caro porque el correo cobra según lo que pesa el envío, y el sobre y las hojas dobladas dentro suman bastante. Un profesor de economía propone entonces algo elemental: una cartulina rígida, del tamaño de la palma de la mano, que viaje desnuda y sin sobre. Se escribe por una cara, la dirección va en la otra y cuesta la mitad.",
+      "Imperio austrohúngaro, 1869. Mandar una carta es caro porque el correo cobra según lo que pesa el envío, y el sobre, la hoja doblada y el lacre suman bastante más de lo que parece. Un profesor de economía propone entonces algo elemental que a nadie se le había ocurrido llevar a la práctica: una cartulina rígida, del tamaño de la palma de la mano, que viaje desnuda y sin sobre ninguno. Se escribe por una cara, la dirección va en la otra, no hay nada que cerrar ni que pesar, y cuesta exactamente la mitad.",
     paginas: [
       {
         rotulo: "La objeción",
