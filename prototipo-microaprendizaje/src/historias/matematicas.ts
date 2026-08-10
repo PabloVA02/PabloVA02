@@ -20,14 +20,48 @@ import type { Short } from "../shorts";
 export const MATEMATICAS: Short[] = [
   {
     id: "cumpleanos-23",
-    titulo: "Veintitrés personas y un cumpleaños",
+    titulo: "Veintitrés cumpleaños",
     gancho: "En una clase pequeña, apostar a que dos cumplen el mismo día es apostar a favor.",
     categoria: "Matemáticas",
     color: "var(--plum)",
     curioso: true,
     encargo: "Un calendario de pared con varios días marcados a bolígrafo.",
+    fotos: [
+      {
+        archivo: "Candle Flames (5261895585).jpg",
+        autor: "Velas de cumpleaños encendidas sobre una tarta. Fotografía de Rafael Castillo.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Candle_Flames_(5261895585).jpg",
+        foco: "50% 50%",
+        alt: "Una fila de velas de rayas de colores ardiendo sobre una tarta, con el fondo en penumbra.",
+      },
+      {
+        archivo: "Modern Calendar (FindID 737052).jpg",
+        autor: "Disco interior de un calendario giratorio de 1908, con los meses, los días y las fechas grabados. North Lincolnshire Museum.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Modern_Calendar_(FindID_737052).jpg",
+        foco: "50% 50%",
+        alt: "Un disco de metal blanco estampado con hileras de números y los nombres de los meses alrededor.",
+      },
+      {
+        archivo: "Birthday cake (8973445388) (cropped).jpg",
+        autor: "Una tarta de cumpleaños con las velas puestas. Fotografía de James Petts.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Birthday_cake_(8973445388)_(cropped).jpg",
+        foco: "50% 50%",
+        alt: "Una tarta redonda cubierta de nata y fruta, con varias velas finas clavadas encima.",
+      },
+      {
+        archivo: "Birthday cake (8973445388).jpg",
+        autor: "La misma tarta vista entera. Fotografía de James Petts.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Birthday_cake_(8973445388).jpg",
+        foco: "50% 45%",
+        alt: "Una tarta sobre la mesa, con las velas apagadas y el glaseado brillante.",
+      },
+    ],
     entrada:
-      "Un año tiene 365 días, así que la intuición dice que para que dos personas compartan cumpleaños hace falta una multitud. La cuenta dice otra cosa: con 23 personas en una habitación, la probabilidad de que al menos dos coincidan supera el 50 %. No es un truco ni una trampa estadística. Es que la pregunta que uno cree estar haciéndose no es la que hace.",
+      "Un año tiene 365 días, así que la intuición dice, y lo dice con mucha seguridad, que para que dos personas de una sala compartan cumpleaños hace falta una multitud. La cuenta dice otra cosa bastante incómoda: con solo 23 personas en una habitación, la probabilidad de que al menos dos de ellas coincidan ya supera el cincuenta por ciento. No hay truco, ni letra pequeña, ni trampa estadística de ningún tipo. Lo que pasa es que la pregunta que uno cree estar haciéndose no es la que está haciendo.",
     paginas: [
       {
         rotulo: "El engaño",
