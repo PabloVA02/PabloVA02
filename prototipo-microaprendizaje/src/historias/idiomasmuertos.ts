@@ -15,13 +15,47 @@ import type { Short } from "../shorts";
 export const IDIOMAS_MUERTOS: Short[] = [
   {
     id: "el-ultimo-hablante",
-    titulo: "Una lengua con un solo hablante",
+    titulo: "Queda un solo hablante",
     gancho: "Cuando eso pasa, ya no se puede conversar. La lengua sigue existiendo, pero no se puede usar.",
     categoria: "Lenguas perdidas",
     color: "var(--plum)",
     encargo: "Un magnetófono antiguo con una cinta grabándose sobre una mesa.",
+    fotos: [
+      {
+        archivo: "Vintage AFCO Senior 75 Reel-To-Reel Tape Recorder, Battery And AC Power, Made In Japan (14146604475).jpg",
+        autor: "Magnetófono portátil de bobinas de los años sesenta, del tipo que se llevaba al campo para grabar hablantes. Fotografía de Joe Haupt.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vintage_AFCO_Senior_75_Reel-To-Reel_Tape_Recorder,_Battery_And_AC_Power,_Made_In_Japan_(14146604475).jpg",
+        foco: "50% 50%",
+        alt: "Un magnetófono de maleta con carcasa cromada y dos bobinas de cinta marrón montadas encima.",
+      },
+      {
+        archivo: "Vintage Mayfair Reel-To-Reel Portable Tape Recorder, Model Number Unknown, Made In Japan, Circa 1960s (37790408304).jpg",
+        autor: "Otro magnetófono portátil de la misma época, con la cinta enhebrada. Fotografía de Joe Haupt.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vintage_Mayfair_Reel-To-Reel_Portable_Tape_Recorder,_Model_Number_Unknown,_Made_In_Japan,_Circa_1960s_(37790408304).jpg",
+        foco: "50% 50%",
+        alt: "Un aparato de grabación de sobremesa con dos carretes y una hilera de teclas rectangulares.",
+      },
+      {
+        archivo: "EMI RM-1B microphone (1930s), Abbey Road Studios.jpg",
+        autor: "Micrófono de cinta EMI de los años treinta. Fotografía de Josephenus P. Riley.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:EMI_RM-1B_microphone_(1930s),_Abbey_Road_Studios.jpg",
+        foco: "50% 45%",
+        alt: "Un micrófono antiguo de rejilla metálica colgado de un soporte, sobre fondo oscuro.",
+      },
+      {
+        archivo: "Sakrisøy village and mountains Lofoten Norway.jpg",
+        autor: "El pueblo de Sakrisøy, en las islas Lofoten noruegas. Fotografía de Smtunli.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sakris%C3%B8y_village_and_mountains_Lofoten_Norway.jpg",
+        foco: "50% 50%",
+        alt: "Un puñado de casas de madera al borde del agua, con montañas nevadas levantándose justo detrás.",
+      },
+    ],
     entrada:
-      "En el mundo se hablan unas siete mil lenguas. Desde 1950 se han perdido cientos, y los lingüistas calculan que cerca de la mitad de las que quedan podrían dejar de hablarse durante este siglo. El proceso siempre acaba igual: una generación deja de enseñársela a la siguiente, los hablantes envejecen y llega un momento en que solo quedan dos personas, y luego una.",
+      "En el mundo se hablan hoy unas siete mil lenguas, y la cifra baja todos los años. Desde 1950 se han perdido cientos, y los lingüistas calculan que cerca de la mitad de las que quedan podrían dejar de hablarse durante este siglo. El proceso no varía mucho de un sitio a otro y siempre acaba igual: una generación deja de enseñársela a la siguiente porque le parece que no sirve para vivir, los hablantes que quedan envejecen juntos y llega un momento en que solo hay dos personas capaces de usarla, y después una sola.",
     paginas: [
       {
         rotulo: "La conversación",
