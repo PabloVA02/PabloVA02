@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const CANALES: Short[] = [
   {
     id: "un-caballo-en-el-agua",
-    titulo: "El caballo tira treinta veces más",
+    titulo: "Treinta veces más carga",
     gancho: "El mismo animal, la misma cuerda. Cambia solo el rozamiento, y por eso Europa se llenó de canales.",
     categoria: "Canales",
     color: "var(--slate)",
     encargo: "Un camino de sirga junto a un canal, con la cuerda tensa hacia una barcaza.",
+    fotos: [
+      {
+        archivo: "Lancaster Canal from White Horse Bridge - geograph.org.uk - 8106522.jpg",
+        autor: "El canal de Lancaster con su camino de sirga a un lado y una barcaza amarrada. Fotografía de Chris Heaton.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lancaster_Canal_from_White_Horse_Bridge_-_geograph.org.uk_-_8106522.jpg",
+        foco: "50% 55%",
+        alt: "Un canal estrecho de agua oscura entre setos, con una barcaza larga amarrada junto a un sendero de tierra.",
+      },
+      {
+        archivo: "Narrow boat on Pont Cysyllte Aqueduct - geograph.org.uk - 4897036.jpg",
+        autor: "Una barcaza cruzando el acueducto de Pontcysyllte, en Gales, a treinta y ocho metros sobre el valle. Fotografía de Gareth James.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Narrow_boat_on_Pont_Cysyllte_Aqueduct_-_geograph.org.uk_-_4897036.jpg",
+        foco: "50% 50%",
+        alt: "Una barcaza navegando por un canal metálico estrechísimo suspendido en el aire sobre un valle verde.",
+      },
+      {
+        archivo: "Lock gate - geograph.org.uk - 1780529.jpg",
+        autor: "Las puertas de madera de una esclusa, con el agua entrando por las compuertas. Fotografía de Nic Franklin-Woolley.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lock_gate_-_geograph.org.uk_-_1780529.jpg",
+        foco: "50% 50%",
+        alt: "Dos hojas de madera oscura cerradas en ángulo dentro de un canal, con agua chorreando por las juntas.",
+      },
+      {
+        archivo: "Boat on Pontcysyllte Aqueduct.jpg",
+        autor: "El mismo acueducto visto desde el camino lateral. Fotografía de Grahamec.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Boat_on_Pontcysyllte_Aqueduct.jpg",
+        foco: "50% 50%",
+        alt: "Un canal elevado sobre pilares de piedra altísimos, con una barcaza avanzando y el valle abajo.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1761. Un duque manda construir un canal para sacar el carbón de sus minas y llevarlo a la ciudad cercana. El precio del carbón cae a la mitad en cuanto se abre. Lo que hay detrás no es un truco financiero, sino una diferencia física que hoy hemos olvidado porque ya no movemos nada tirando de una cuerda.",
+      "Inglaterra, 1761. Un duque manda construir un canal para sacar el carbón de sus minas y llevarlo hasta la ciudad cercana, y la obra le parece a media Inglaterra un capricho carísimo de aristócrata. El precio del carbón en la ciudad cae a la mitad en cuanto el canal se abre al tráfico. Lo que hay detrás de esa caída no es un truco financiero ni un margen de intermediario, sino una diferencia física que hoy hemos olvidado por completo, sencillamente porque ya no movemos nada tirando de una cuerda.",
     paginas: [
       {
         rotulo: "El rozamiento",
