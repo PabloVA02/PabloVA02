@@ -16,13 +16,47 @@ import type { Short } from "../shorts";
 export const LLAVES: Short[] = [
   {
     id: "cerradura-del-escaparate",
-    titulo: "Sesenta y siete años sin abrirse",
+    titulo: "Sesenta y siete años",
     gancho: "Colgaba en un escaparate con un premio al lado. Nadie la abrió hasta que llegó un cerrajero con paciencia.",
     categoria: "Llaves",
     color: "var(--slate)",
     encargo: "Una cerradura de latón antigua colgada en un escaparate con un cartel escrito a mano.",
+    fotos: [
+      {
+        archivo: "Rusty keys Schlüssel Keys on key rings Schlüsselbund 01.JPG",
+        autor: "Decenas de llaves antiguas de hierro, enganchadas en sus aros sobre una mesa de madera. Fotografía de Iswoar.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rusty_keys_Schl%C3%BCssel_Keys_on_key_rings_Schl%C3%BCsselbund_01.JPG",
+        foco: "50% 50%",
+        alt: "Un montón de llaves oxidadas de paletón, colgadas de anillas y extendidas en círculo sobre un tablero gastado.",
+      },
+      {
+        archivo: "Machermo, Key, Lock, Nepal.jpg",
+        autor: "Una llave puesta en su cerradura, en Machermo, Nepal. Fotografía de Vyacheslav Argenberg.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Machermo,_Key,_Lock,_Nepal.jpg",
+        foco: "50% 50%",
+        alt: "Una cerradura metálica sencilla montada en una puerta de madera basta, con la llave metida dentro.",
+      },
+      {
+        archivo: "Key in lockbox.jpg",
+        autor: "Una llave dentro de una caja de seguridad.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Key_in_lockbox.jpg",
+        foco: "50% 50%",
+        alt: "Una caja metálica pequeña abierta con una llave suelta en el fondo.",
+      },
+      {
+        archivo: "Queensland Rail Station Key 1940s.jpg",
+        autor: "Llave de estación de los ferrocarriles de Queensland, de los años cuarenta. Fotografía de John Robert McPherson.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Queensland_Rail_Station_Key_1940s.jpg",
+        foco: "50% 50%",
+        alt: "Una llave larga de hierro con el paletón dentado y el anillo grande, apoyada sobre un fondo claro.",
+      },
+    ],
     entrada:
-      "Londres, 1790. Un fabricante de cerraduras coloca una en el escaparate de su tienda con un cartel que promete doscientas guineas —varios años de sueldo de un artesano— a quien consiga abrirla con cualquier herramienta que no sea su llave. No es una bravata de comerciante: la cerradura es realmente distinta de todo lo que existe y él lo sabe.",
+      "Londres, 1790. Un fabricante de cerraduras coloca una de las suyas en el escaparate de su tienda con un cartel escrito a mano que promete doscientas guineas, varios años de sueldo de un artesano, a quien consiga abrirla con cualquier herramienta que no sea su propia llave. No es la bravata de un comerciante que confía en que nadie lo intente: la cerradura es de verdad distinta de todo lo que existe entonces, él sabe perfectamente por qué, y está dispuesto a dejarla ahí colgada el tiempo que haga falta.",
     paginas: [
       {
         rotulo: "Los cilindros que bajan",
