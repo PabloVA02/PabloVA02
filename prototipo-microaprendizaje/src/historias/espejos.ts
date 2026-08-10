@@ -24,8 +24,42 @@ export const ESPEJOS: Short[] = [
     categoria: "Espejos",
     color: "var(--slate)",
     encargo: "Un disco de bronce antiguo con mango, apoyado sobre tela oscura.",
+    fotos: [
+      {
+        archivo: "Ancient Egyptian bronze mirror, Egypt, 800-100 BCE Wellcome L0065470.jpg",
+        autor: "Espejo egipcio de bronce pulido, de entre los años 800 y 100 antes de Cristo. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ancient_Egyptian_bronze_mirror,_Egypt,_800-100_BCE_Wellcome_L0065470.jpg",
+        foco: "50% 45%",
+        alt: "Un disco ovalado de metal dorado y muy pulido, con una espiga larga por mango, sobre fondo gris.",
+      },
+      {
+        archivo: "Etruscan mirror, engraved Dioskouroi, bronze, 300 BC, Prague, NM-H10 5943, 151177.jpg",
+        autor: "Espejo etrusco de bronce con los Dioscuros grabados en el reverso, hacia el año 300 antes de Cristo. Museo Nacional de Praga. Fotografía de Zde.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Etruscan_mirror,_engraved_Dioskouroi,_bronze,_300_BC,_Prague,_NM-H10_5943,_151177.jpg",
+        foco: "50% 40%",
+        alt: "Un disco de bronce verdoso con dos figuras armadas grabadas a línea fina en la cara de atrás.",
+      },
+      {
+        archivo: "Silver mirror on a bronze stand, Roman, 200 BCE-200 CE Wellcome L0057607.jpg",
+        autor: "Espejo romano de plata sobre un pie de bronce con la figura de un joven de pie sobre una tortuga. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Silver_mirror_on_a_bronze_stand,_Roman,_200_BCE-200_CE_Wellcome_L0057607.jpg",
+        foco: "50% 40%",
+        alt: "Un espejo redondo montado sobre una peana labrada, con la superficie mate y oscurecida por el tiempo.",
+      },
+      {
+        archivo: "CMOC Treasures of Ancient China exhibit - bronze mirror.jpg",
+        autor: "Espejo chino de bronce del periodo de los Reinos Combatientes, con el reverso decorado y un asa para colgarlo.",
+        licencia: "CC BY-SA 2.5",
+        fuente: "https://commons.wikimedia.org/wiki/File:CMOC_Treasures_of_Ancient_China_exhibit_-_bronze_mirror.jpg",
+        foco: "50% 50%",
+        alt: "Un disco de bronce oscuro decorado con motivos geométricos repetidos alrededor de un botón central.",
+      },
+    ],
     entrada:
-      "Anatolia, hacia el año 6000 antes de Cristo. Aparecen los espejos más antiguos que se conservan: discos de obsidiana, una piedra volcánica negra y vidriosa, pulidos hasta sacarles brillo. Devuelven una imagen oscura y algo deformada, pero es la primera vez que alguien puede verse la cara con cierta nitidez sin agacharse sobre el agua.",
+      "Anatolia, hacia el año 6000 antes de Cristo. Aparecen los espejos más antiguos que se conservan, y no son de cristal ni se parecen a lo que hoy llamamos espejo: son discos de obsidiana, una piedra volcánica negra y vidriosa, pulidos a mano durante días hasta sacarles brillo. Devuelven una imagen oscura, verdosa y algo deformada, bastante peor que la de cualquier escaparate de hoy. Aun así es la primera vez que un ser humano puede mirarse la cara con cierta nitidez sin tener que agacharse sobre el agua quieta.",
     paginas: [
       {
         rotulo: "El bronce",
