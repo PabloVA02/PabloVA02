@@ -20,13 +20,47 @@ import type { Short } from "../shorts";
 export const TECNOLOGIA: Short[] = [
   {
     id: "qwerty-mito",
-    titulo: "QWERTY no se diseñó para que escribas despacio",
+    titulo: "QWERTY no frena los dedos",
     gancho: "La historia del teclado que te frena a propósito no tiene ni un documento detrás.",
     categoria: "Tecnología",
     color: "var(--slate)",
     encargo: "Las teclas de una máquina de escribir antigua, muy de cerca, metal desgastado.",
+    fotos: [
+      {
+        archivo: "Sholes and Glidden Schreibmaschine 06.jpg",
+        autor: "El frente lacado y decorado a mano de una Sholes and Glidden, la primera máquina de escribir comercial. Fotografía de Eremeev.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sholes_and_Glidden_Schreibmaschine_06.jpg",
+        foco: "50% 55%",
+        alt: "Una carcasa negra brillante pintada con flores doradas y un retrato de una muchacha leyendo.",
+      },
+      {
+        archivo: "Sholes and Glidden Schreibmaschine 04.jpg",
+        autor: "La misma máquina vista de frente, con su teclado de cuatro filas. Fotografía de Eremeev.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sholes_and_Glidden_Schreibmaschine_04.jpg",
+        foco: "50% 50%",
+        alt: "Una máquina de escribir antigua con teclas redondas de porcelana blanca dispuestas en cuatro hileras.",
+      },
+      {
+        archivo: "Keyboard with German Dvorak layout 2010.jpg",
+        autor: "Un teclado con la distribución Dvorak, la alternativa que nunca se impuso. Fotografía de Karl432.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Keyboard_with_German_Dvorak_layout_2010.jpg",
+        foco: "50% 50%",
+        alt: "Un teclado de ordenador con las letras colocadas en un orden distinto del habitual.",
+      },
+      {
+        archivo: "Remington No. 1 typewriter, made by Remington & Songs, Ilion, NY, 1873-1878, the first Sholes & Glidden model typewriter made by Remington - Wisconsin Historical Museum - DSC02806.JPG",
+        autor: "Una Remington número 1, fabricada entre 1873 y 1878. Wisconsin Historical Museum. Fotografía de Daderot.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Remington_No._1_typewriter,_made_by_Remington_%26_Songs,_Ilion,_NY,_1873-1878,_the_first_Sholes_%26_Glidden_model_typewriter_made_by_Remington_-_Wisconsin_Historical_Museum_-_DSC02806.JPG",
+        foco: "50% 45%",
+        alt: "Una máquina de escribir de hierro negro montada sobre un pedestal con pedal, como una máquina de coser.",
+      },
+    ],
     entrada:
-      "Todo el mundo ha oído la explicación: las primeras máquinas de escribir se atascaban si ibas rápido, así que se repartieron las letras para obligarte a ir despacio. Es una historia perfecta —el diseño malo a propósito— y por eso se repite tanto. El problema es que cuando se buscan pruebas de que alguien lo hiciera con esa intención, no aparecen.",
+      "Todo el mundo ha oído alguna vez la explicación, y suele contarse con cara de estar revelando un secreto: las primeras máquinas de escribir se atascaban si ibas demasiado rápido, así que repartieron las letras a propósito para obligarte a teclear despacio. Es una historia perfecta, porque tiene villano, tiene ironía y explica de golpe una rareza que todos tenemos delante. El problema aparece en cuanto se buscan pruebas de que alguien lo hiciera con esa intención: no hay ni un documento de la época que lo diga.",
     paginas: [
       {
         rotulo: "El origen real",
