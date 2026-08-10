@@ -21,8 +21,42 @@ export const MAPAS_DEL_METRO: Short[] = [
     categoria: "Mapas del metro",
     color: "var(--slate)",
     encargo: "Un plano esquemático de metro con líneas de colores rectas y diagonales.",
+    fotos: [
+      {
+        archivo: "Mosaic Underground roundel, Maida Vale.jpg",
+        autor: "El emblema del metro de Londres hecho en mosaico en la estación de Maida Vale, inaugurada en 1915.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mosaic_Underground_roundel,_Maida_Vale.jpg",
+        foco: "50% 45%",
+        alt: "Un círculo rojo de teselas atravesado por una banda azul con la palabra Underground, sobre azulejos claros y verdes.",
+      },
+      {
+        archivo: "Belsize Park Station. Platform Tile Design.jpg",
+        autor: "El friso de azulejos del andén de Belsize Park: cada estación de la línea tenía su propio dibujo. Fotografía de Andrew Riley.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Belsize_Park_Station._Platform_Tile_Design.jpg",
+        foco: "50% 50%",
+        alt: "Una cenefa de azulejos con figuras geométricas repetidas en verde, crema y marrón a lo largo de la pared del andén.",
+      },
+      {
+        archivo: "Russell Square Underground Station - To the trains tiles 2024-07-23.jpg",
+        autor: "Un cartel de azulejos indicando el camino a los trenes en la estación de Russell Square. Fotografía de amandabhslater.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Russell_Square_Underground_Station_-_To_the_trains_tiles_2024-07-23.jpg",
+        foco: "50% 50%",
+        alt: "Un rótulo hecho con azulejos verdes y crema que dice «To the trains» sobre una pared alicatada.",
+      },
+      {
+        archivo: "Underground sign outside Temple Station London - geograph.org.uk - 2799647.jpg",
+        autor: "El emblema del metro en la calle, a la puerta de la estación de Temple, en Londres. Fotografía de Paul Farmer.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Underground_sign_outside_Temple_Station_London_-_geograph.org.uk_-_2799647.jpg",
+        foco: "50% 40%",
+        alt: "Un cartel circular rojo y azul del metro montado en un poste, con árboles y edificios detrás.",
+      },
+    ],
     entrada:
-      "Londres, 1931. La red de metro ha crecido tanto hacia las afueras que su plano oficial se ha vuelto ilegible. Está dibujado sobre la geografía real de la ciudad, así que el centro es un amasijo de estaciones y las líneas exteriores se pierden por los bordes. Un delineante de la propia compañía, que está en paro temporal, propone una solución radical en sus horas libres.",
+      "Londres, 1931. La red de metro ha crecido tanto hacia las afueras que su plano oficial se ha vuelto ilegible y la compañía lo sabe. Está dibujado sobre la geografía real de la ciudad, calle por calle y a escala, así que el centro es un amasijo de estaciones apelotonadas y las líneas exteriores se pierden por los bordes del papel. Un delineante de la propia compañía, que está en paro temporal y dibuja circuitos eléctricos, propone en sus horas libres una solución radical: tirar a la basura la geografía entera y quedarse solo con el orden de las paradas.",
     paginas: [
       {
         rotulo: "Tirar la geografía",
