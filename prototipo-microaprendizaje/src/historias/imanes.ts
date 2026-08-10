@@ -85,13 +85,47 @@ export const IMANES: Short[] = [
   },
   {
     id: "el-iman-de-neodimio",
-    titulo: "Una moneda que levanta kilos",
+    titulo: "Una moneda levanta kilos",
     gancho: "El imán de neodimio es tan fuerte que rompe dedos y perfora intestinos. Salió de la crisis del petróleo.",
     categoria: "Tecnología",
     color: "var(--clay)",
     encargo: "Dos imanes de neodimio pequeños pegados con fuerza sobre una mesa de acero.",
+    fotos: [
+      {
+        archivo: "Neodymium magnet balls 1370962 Nevit.jpg",
+        autor: "Bolas de imán de neodimio niqueladas, de unos cinco milímetros. Fotografía de Nevit Dilmen, 2013.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Neodymium_magnet_balls_1370962_Nevit.jpg",
+        foco: "50% 45%",
+        alt: "Decenas de bolitas metálicas brillantes pegadas unas a otras formando una retícula apretada.",
+      },
+      {
+        archivo: "Iron-filings-around-magnet.jpg",
+        autor: "Limaduras de hierro ordenadas por el campo de un imán, el experimento clásico de laboratorio.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Iron-filings-around-magnet.jpg",
+        foco: "50% 50%",
+        alt: "Limaduras de hierro dibujando arcos de un polo a otro de un imán sobre una superficie clara.",
+      },
+      {
+        archivo: "Bingham Canyon Open Pit Copper Mine 2012-09-17 21-25-59.jpg",
+        autor: "Mina de cobre a cielo abierto de Bingham Canyon, Utah, 2012. Fotografía de Jet6581. Las tierras raras salen de explotaciones parecidas.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Bingham_Canyon_Open_Pit_Copper_Mine_2012-09-17_21-25-59.jpg",
+        foco: "50% 50%",
+        alt: "Un enorme hoyo minero excavado en terrazas concéntricas que bajan hasta el fondo del valle.",
+      },
+      {
+        archivo: "Vattenfall Wind Power.jpg",
+        autor: "Aerogenerador marino instalado en el parque de Ormonde, mar de Irlanda, 2011. Fotografía de Davagh.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Vattenfall_Wind_Power.jpg",
+        foco: "50% 45%",
+        alt: "Un aerogenerador blanco levantado en mitad del mar, con la torre saliendo del agua y las palas contra el cielo.",
+      },
+    ],
     entrada:
-      "Japón y Estados Unidos, 1982. La crisis del petróleo de la década anterior ha empujado a fabricar motores eléctricos más pequeños y eficientes, y para eso hacen falta imanes muchísimo más potentes. Dos equipos que trabajan por separado dan aquel año con la misma aleación de hierro, boro y un metal poco común llamado neodimio. El resultado multiplica por diez la fuerza de un imán normal.",
+      "Japón y Estados Unidos, 1982. La crisis del petróleo de la década anterior ha empujado a fabricar motores eléctricos más pequeños y más eficientes, y para conseguirlo hacen falta imanes muchísimo más potentes de los que había. Dos equipos que trabajan por separado y sin saber el uno del otro dan aquel mismo año con la misma aleación de hierro, boro y un metal poco común llamado neodimio. El resultado multiplica por diez la fuerza de un imán corriente y cabe en la palma de la mano, y esa combinación de tamaño y fuerza es justo lo que lo hace peligroso.",
     paginas: [
       {
         rotulo: "Fuerza y peligro",
