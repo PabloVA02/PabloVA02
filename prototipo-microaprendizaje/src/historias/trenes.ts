@@ -84,14 +84,48 @@ export const TRENES: Short[] = [
 
   {
     id: "miedo-velocidad",
-    titulo: "Los médicos temían que la velocidad matara",
+    titulo: "La velocidad iba a matar",
     gancho: "Se advirtió de que a cincuenta por hora el cuerpo se desharía y de que los túneles provocarían locura.",
     categoria: "Trenes",
     color: "var(--slate)",
     curioso: true,
     encargo: "Una locomotora de vapor antigua vista de frente, con vapor saliendo por los lados.",
+    fotos: [
+      {
+        archivo: "Mikado 141.R.1244 Bad Zurzach.jpg",
+        autor: "Locomotora de vapor 141.R.1244 conservada en marcha, Bad Zurzach (Suiza), 2022. Fotografía de Chme82.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mikado_141.R.1244_Bad_Zurzach.jpg",
+        foco: "50% 50%",
+        alt: "Una locomotora de vapor negra y roja con las ruedas de radios blancos, parada junto al andén.",
+      },
+      {
+        archivo: "Steam locomotive Sofia - Bankya.jpg",
+        autor: "Locomotora de vapor en la línea de Sofía a Bankya, Bulgaria, 2011. Fotografía de Спасимир.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Steam_locomotive_Sofia_-_Bankya.jpg",
+        foco: "50% 50%",
+        alt: "Una máquina de vapor soltando penachos blancos mientras arrastra sus vagones por la vía.",
+      },
+      {
+        archivo: "Watford Railway Tunnel - geograph.org.uk - 1761031.jpg",
+        autor: "Boca del túnel ferroviario de Watford, Inglaterra, 2010. Fotografía de jonny davy.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Watford_Railway_Tunnel_-_geograph.org.uk_-_1761031.jpg",
+        foco: "50% 50%",
+        alt: "La entrada de ladrillo de un túnel de ferrocarril, con las vías metiéndose en la oscuridad.",
+      },
+      {
+        archivo: "Rain Steam and Speed the Great Western Railway.jpg",
+        autor: "«Lluvia, vapor y velocidad. El gran ferrocarril del Oeste», óleo de J. M. W. Turner, 1844. National Gallery, Londres.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rain_Steam_and_Speed_the_Great_Western_Railway.jpg",
+        foco: "50% 50%",
+        alt: "Pintura de un tren cruzando un viaducto entre la lluvia y el vapor, disuelto casi entero en la luz.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1830. Se inaugura la primera línea de ferrocarril del mundo para pasajeros entre dos ciudades, y los trenes alcanzan unos cuarenta kilómetros por hora. Es la primera vez en la historia que un ser humano se mueve más deprisa que un caballo al galope durante más de un minuto seguido, y nadie sabe qué le hace eso al cuerpo.",
+      "Inglaterra, 1830. Se inaugura la primera línea de ferrocarril del mundo para pasajeros entre dos ciudades, Liverpool y Mánchester, y los trenes alcanzan unos cuarenta kilómetros por hora. Es la primera vez en la historia que un ser humano se mueve más deprisa que un caballo al galope durante más de un minuto seguido, y nadie tiene la menor idea de qué le hace eso al cuerpo. No hay ninguna experiencia previa con la que comparar, así que la pregunta se contesta como se contestaban entonces las preguntas sin datos: imaginando lo peor.",
     paginas: [
       {
         rotulo: "Los avisos",

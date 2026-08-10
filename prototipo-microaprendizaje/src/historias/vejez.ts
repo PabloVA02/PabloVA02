@@ -82,13 +82,47 @@ export const VEJEZ: Short[] = [
   },
   {
     id: "jubilarse-a-los-sesenta-y-cinco",
-    titulo: "La edad de jubilación la fijó un canciller alemán",
+    titulo: "Jubilarse a los setenta",
     gancho: "Empezó en setenta años, cuando poca gente los alcanzaba, y bajó a sesenta y cinco casi treinta años después.",
     categoria: "Vejez",
     color: "var(--ochre)",
     encargo: "Un reloj de pared antiguo en una oficina con las persianas medio bajadas.",
+    fotos: [
+      {
+        archivo: "Franz von Lenbach - Bildnis Otto Eduard Leopold von Bismarck (Indianapolis).jpg",
+        autor: "Retrato de Otto von Bismarck, óleo de Franz von Lenbach. Indianapolis Museum of Art.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Franz_von_Lenbach_-_Bildnis_Otto_Eduard_Leopold_von_Bismarck_(Indianapolis).jpg",
+        foco: "50% 35%",
+        alt: "Retrato al óleo de un hombre mayor de bigote blanco y abrigo oscuro sobre un fondo ocre.",
+      },
+      {
+        archivo: "Franz von Lenbach - Bildnis Otto von Bismarck (1870).jpg",
+        autor: "Bismarck retratado por Lenbach hacia 1870, casi veinte años antes de la ley del seguro de vejez.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Franz_von_Lenbach_-_Bildnis_Otto_von_Bismarck_(1870).jpg",
+        foco: "50% 35%",
+        alt: "Retrato del canciller de medio cuerpo, con uniforme oscuro y la mirada de frente.",
+      },
+      {
+        archivo: "Historic Berlin Reichstag Building( Ank Kumar, Infosys) 01.jpg",
+        autor: "El edificio del Reichstag en Berlín, donde se aprobó aquella ley. Fotografía de Ank Kumar, 2015.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Historic_Berlin_Reichstag_Building(_Ank_Kumar,_Infosys)_01.jpg",
+        foco: "50% 50%",
+        alt: "La fachada de piedra del Reichstag con su pórtico de columnas y la cúpula de cristal encima.",
+      },
+      {
+        archivo: "Dülmen, Börnste, Waldweg -- 2024 -- 6257.jpg",
+        autor: "Camino de bosque en otoño, Dülmen (Alemania), 2024. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_B%C3%B6rnste,_Waldweg_--_2024_--_6257.jpg",
+        foco: "50% 50%",
+        alt: "Un camino de tierra entre árboles con las hojas doradas del otoño.",
+      },
+    ],
     entrada:
-      "¿De dónde sale la idea de dejar de trabajar a una edad fija? De una ley alemana de 1889, pensada como maniobra política: el canciller quiere quitarle banderas al movimiento obrero, que crece deprisa, y crea un seguro de vejez pagado entre empresas, trabajadores y Estado. La edad elegida son setenta años, en un país donde la esperanza de vida al nacer no llega a cuarenta.",
+      "¿De dónde sale la idea de dejar de trabajar a una edad fija? De una ley alemana de 1889, pensada como maniobra política antes que como conquista social: el canciller quiere quitarle banderas al movimiento obrero, que crece deprisa y organiza huelgas, y crea un seguro de vejez pagado a medias entre empresas, trabajadores y Estado. La edad elegida son setenta años, en un país donde la esperanza de vida al nacer no llega a cuarenta y donde casi nadie que empiece a cotizar va a llegar a cobrarlo. La cifra no salió de la medicina: salió de la caja.",
     paginas: [
       {
         rotulo: "El cálculo",
