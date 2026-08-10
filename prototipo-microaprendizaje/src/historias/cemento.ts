@@ -19,13 +19,47 @@ import type { Short } from "../shorts";
 export const CEMENTO: Short[] = [
   {
     id: "hormigon-romano",
-    titulo: "El hormigón romano se repara solo",
+    titulo: "El cemento romano se repara",
     gancho: "Dos mil años bajo el mar y los muelles siguen enteros. Los nuestros piden obras a los cincuenta.",
     categoria: "Cemento",
     color: "var(--ochre)",
     encargo: "Un muelle de piedra antiguo medio sumergido en agua clara.",
+    fotos: [
+      {
+        archivo: "Dome of Pantheon (Rome).jpg",
+        autor: "La cúpula del Panteón de Roma, de hormigón sin armar y con casi dos mil años. Fotografía de Livioandronico2013.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Dome_of_Pantheon_(Rome).jpg",
+        foco: "50% 50%",
+        alt: "Una cúpula vista desde abajo, con anillos de casetones cuadrados que van menguando hacia un agujero circular de luz.",
+      },
+      {
+        archivo: "LimestoneKilnsTalybont.jpg",
+        autor: "Hornos de cal en Talybont, en Gales, donde la piedra caliza se quemaba para obtener cal viva. Fotografía de Martinvl.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:LimestoneKilnsTalybont.jpg",
+        foco: "50% 50%",
+        alt: "Una pared de piedra con tres bocas de horno en arco, cubiertas de hierba y musgo.",
+      },
+      {
+        archivo: "Sunset trough the arches of the Colosseum, Rome.jpg",
+        autor: "El sol poniéndose entre los arcos del Coliseo, levantado sobre cimientos y bóvedas de hormigón. Fotografía de Quentin Lowagie.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sunset_trough_the_arches_of_the_Colosseum,_Rome.jpg",
+        foco: "50% 50%",
+        alt: "Arcos de piedra en contraluz con el cielo naranja del atardecer al fondo.",
+      },
+      {
+        archivo: "Pont du Gard 2017.jpg",
+        autor: "El acueducto romano del Pont du Gard, en el sur de Francia. Fotografía de Wolfgang Moroder.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_2017.jpg",
+        foco: "50% 50%",
+        alt: "Un puente de tres pisos de arcos de piedra dorada cruzando un río entre laderas de monte bajo.",
+      },
+    ],
     entrada:
-      "Bahía de Nápoles, siglo I. Los ingenieros romanos construyen puertos, malecones y depósitos con una mezcla que fragua debajo del agua y que aguanta el oleaje sin desmoronarse. Veinte siglos después, esas estructuras siguen en pie, mientras que un muelle moderno de hormigón armado necesita reparaciones importantes al cabo de unos cincuenta años.",
+      "Bahía de Nápoles, siglo I. Los ingenieros romanos construyen puertos, malecones, depósitos y cúpulas enormes con una mezcla que tiene una propiedad rarísima: fragua debajo del agua y aguanta el oleaje sin desmoronarse, cosa que ningún mortero corriente sabe hacer. Veinte siglos después, muchas de esas estructuras siguen exactamente donde las dejaron, con el mar golpeándolas dos veces al día. Un muelle moderno de hormigón armado, en cambio, necesita reparaciones serias al cabo de unos cincuenta años, y a veces bastante antes.",
     paginas: [
       {
         rotulo: "La ceniza",
