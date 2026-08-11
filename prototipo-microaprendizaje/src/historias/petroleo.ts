@@ -87,6 +87,40 @@ export const PETROLEO: Short[] = [
     categoria: "Petróleo",
     color: "var(--clay)",
     encargo: "Una autopista completamente vacía con gente paseando por el asfalto.",
+    fotos: [
+      {
+        archivo: "Een postkoets rijdt op de snelweg N206 richting Katwijk aan den Rijn, begeleid door een fietser, Bestanddeelnr 926-8011.jpg",
+        autor: "Una diligencia y un ciclista por la autopista N206 vacía durante un domingo sin coches, Países Bajos, 4 de noviembre de 1973. Fotografía de Anefo.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Een_postkoets_rijdt_op_de_snelweg_N206_richting_Katwijk_aan_den_Rijn,_begeleid_door_een_fietser,_Bestanddeelnr_926-8011.jpg",
+        foco: "50% 55%",
+        alt: "Un carruaje tirado por cuatro caballos y una ciclista avanzando por los carriles desiertos de una autopista.",
+      },
+      {
+        archivo: "EmptyHwy407.jpg",
+        autor: "Autopista vacía. Fotografía de Raysonho, 2020.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:EmptyHwy407.jpg",
+        foco: "50% 50%",
+        alt: "Varios carriles de autopista completamente vacíos perdiéndose hacia el horizonte.",
+      },
+      {
+        archivo: "Blue hour fog over Preemraff oil refinery by Brofjorden.jpg",
+        autor: "Refinería de Preemraff en Brofjorden, Suecia, entre la niebla de la hora azul. Fotografía de W. Carter, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Blue_hour_fog_over_Preemraff_oil_refinery_by_Brofjorden.jpg",
+        foco: "50% 50%",
+        alt: "Las torres y chimeneas iluminadas de una refinería asomando sobre una capa de niebla azulada.",
+      },
+      {
+        archivo: "Sunniland Oil Field preserved pumpjack.jpg",
+        autor: "Balancín de extracción conservado en el campo petrolífero de Sunniland, Florida, 2021. Fotografía de Declan M. Martin.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sunniland_Oil_Field_preserved_pumpjack.jpg",
+        foco: "50% 50%",
+        alt: "Una bomba de balancín de un pozo de petróleo, parada, con el brazo inclinado hacia el suelo.",
+      },
+    ],
     entrada:
       "Octubre de 1973. Los países árabes productores de petróleo recortan la producción y decretan un embargo contra varios países occidentales por su apoyo a Israel en una guerra. En dos meses el precio del barril se multiplica por cuatro. Las economías europeas y la estadounidense, construidas sobre petróleo barato, se paran casi en seco.",
     paginas: [

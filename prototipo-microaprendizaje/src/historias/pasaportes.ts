@@ -87,8 +87,44 @@ export const PASAPORTES: Short[] = [
     categoria: "Pasaportes",
     color: "var(--ochre)",
     encargo: "Un documento de viaje antiguo con un sello circular grande en la portada.",
+    fotos: [
+      {
+        archivo: "No-nb bldsa q3c040.jpg",
+        autor: "Dos tripulantes leen los barómetros a bordo del Fram durante la expedición ártica de Nansen, 1893-1896.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:No-nb_bldsa_q3c040.jpg",
+        pdPorEdad: 1930,
+        foco: "50% 50%",
+        alt: "Fotografía antigua en blanco y negro de dos hombres anotando medidas junto a unos instrumentos colgados en el camarote de un barco.",
+      },
+      {
+        archivo: "No-nb bldsa 3c189.jpg",
+        autor: "Velada musical a bordo del Fram: Fridtjof Nansen al órgano durante los años atrapados en el hielo.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:No-nb_bldsa_3c189.jpg",
+        pdPorEdad: 1930,
+        foco: "50% 50%",
+        alt: "Fotografía antigua en blanco y negro de varios hombres reunidos alrededor de un órgano en el interior de un barco.",
+      },
+      {
+        archivo: "Palace of Nations Geneva 20102014 02.jpg",
+        autor: "Palacio de las Naciones de Ginebra, sede de la organización internacional que emitió el documento.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Palace_of_Nations_Geneva_20102014_02.jpg",
+        foco: "50% 50%",
+        alt: "Fachada larga de un palacio de piedra clara con columnas, vista desde el jardín.",
+      },
+      {
+        archivo: "Palais des Nations Unies Genève.jpg",
+        autor: "El Palacio de las Naciones visto desde el parque, en Ginebra.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Palais_des_Nations_Unies_Gen%C3%A8ve.jpg",
+        foco: "50% 50%",
+        alt: "Edificio institucional de piedra clara con banderas delante y césped en primer plano.",
+      },
+    ],
     entrada:
-      "Ginebra, 1922. Después de la guerra y de varias revoluciones hay en Europa cientos de miles de personas a las que su país ya no reconoce: refugiados rusos, armenios y de otros lugares que no tienen documento válido y por tanto no pueden cruzar ninguna frontera legalmente ni trabajar en ningún sitio. Un explorador noruego propone entonces una solución.",
+      "Ginebra, 1922. Después de la guerra y de varias revoluciones hay en Europa cientos de miles de personas a las que su país ya no reconoce: refugiados rusos, armenios y de otros lugares que no tienen documento válido y que, por tanto, no pueden cruzar ninguna frontera legalmente ni trabajar en ningún sitio ni casarse ni cobrar un sueldo. Existen, pero administrativamente no están en ninguna parte. Un explorador noruego, más conocido hasta entonces por haberse dejado atrapar en el hielo del Ártico, propone entonces algo que hasta ese momento no se le había ocurrido a nadie.",
     paginas: [
       {
         rotulo: "El explorador",

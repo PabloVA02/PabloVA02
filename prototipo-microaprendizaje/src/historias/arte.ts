@@ -90,13 +90,48 @@ export const ARTE: Short[] = [
 
   {
     id: "marmol-pintado",
-    titulo: "Las estatuas griegas iban pintadas",
+    titulo: "Las estatuas iban pintadas",
     gancho: "El blanco puro que admiramos es pintura perdida y un ideal del siglo XVIII.",
     categoria: "Arte",
     color: "var(--clay)",
     encargo: "Un torso de mármol antiguo iluminado de lado, superficie con marcas de desgaste.",
+    fotos: [
+      {
+        archivo: "Marble torso of a youth MET DP107604.jpg",
+        autor: "Torso de mármol de un joven, copia romana de un original griego. Metropolitan Museum of Art, Nueva York.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Marble_torso_of_a_youth_MET_DP107604.jpg",
+        foco: "50% 45%",
+        alt: "Torso de mármol antiguo sin brazos ni cabeza, con la superficie gastada, sobre fondo oscuro.",
+      },
+      {
+        archivo: "Tomb slab of Nihebsedpepy.jpg",
+        autor: "Estela funeraria egipcia de Nihebsedpepy, hacia 2100 a. C., con la policromía original conservada.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tomb_slab_of_Nihebsedpepy.jpg",
+        foco: "50% 45%",
+        alt: "Losa de piedra egipcia grabada y pintada, con figuras y jeroglíficos en rojo, azul y ocre.",
+      },
+      {
+        archivo: "Antonio canova, beatrice.jpg",
+        autor: "«Beatriz», mármol de Antonio Canova, ejemplo del blanco liso que el neoclasicismo tomó por antiguo. Fotografía de Sailko.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Antonio_canova,_beatrice.jpg",
+        foco: "50% 35%",
+        alt: "Busto de mármol blanco de una mujer de perfil, con el pelo recogido y la superficie pulida.",
+      },
+      {
+        archivo: "Torso from archaic temple of Apollo, Parian marble, 510-500 BC, AM Delphi, 201376.jpg",
+        autor: "Torso arcaico en mármol de Paros del templo de Apolo, hacia 510 a. C. Museo Arqueológico de Delfos.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Torso_from_archaic_temple_of_Apollo,_Parian_marble,_510-500_BC,_AM_Delphi,_201376.jpg",
+        foco: "50% 50%",
+        alt: "Torso de mármol muy erosionado expuesto en una sala de museo, con la piedra veteada a la vista.",
+      },
+    ],
     entrada:
-      "La imagen que todo el mundo tiene de la Antigüedad clásica es de mármol blanco: templos blancos, dioses blancos, una sobriedad limpia. Es exactamente al revés. Aquellas esculturas y aquellos edificios estaban pintados con colores intensos —rojos, azules, ocres, dorados—, y lo que ha llegado a nosotros es lo que quedó cuando la pintura se cayó.",
+      "La imagen que todo el mundo tiene de la Antigüedad clásica es de mármol blanco: templos blancos, dioses blancos, una sobriedad limpia y algo severa. Es exactamente al revés. Aquellas esculturas y aquellos edificios estaban pintados con colores intensos —rojos, azules, ocres, dorados—, con los ojos y los labios marcados y hasta con adornos de metal encajados en la piedra. Lo que ha llegado hasta nosotros no es la obra: es lo que quedó de ella cuando la pintura se cayó, y esa ruina descolorida es la que acabamos convirtiendo en ideal de belleza.",
     paginas: [
       {
         rotulo: "Las pruebas",

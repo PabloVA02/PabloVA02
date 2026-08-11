@@ -84,14 +84,53 @@ export const PERFUME: Short[] = [
 
   {
     id: "ambar-gris",
-    titulo: "Piedras de playa que valen fortunas",
+    titulo: "Piedras de playa carísimas",
     gancho: "Una masa cerosa que huele a establo y que después de años en el mar huele a otra cosa.",
     categoria: "Perfume",
     color: "var(--slate)",
     curioso: true,
     encargo: "Una masa gris y rugosa del tamaño de un melón sobre arena mojada.",
+    fotos: [
+      {
+        archivo:
+          "Sperm whale (Physeter macrocephalus) diving, São Miguel Island, Azores, Portugal (PPL1-Corrected)-2.jpg",
+        autor: "Cachalote sumergiéndose frente a la isla de São Miguel, en las Azores.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Sperm_whale_(Physeter_macrocephalus)_diving,_S%C3%A3o_Miguel_Island,_Azores,_Portugal_(PPL1-Corrected)-2.jpg",
+        foco: "50% 50%",
+        alt: "Cachalote visto de espaldas hundiéndose en el mar azul, con la cola fuera del agua.",
+      },
+      {
+        archivo:
+          "Ambergris, found after a storm on Gisborne beach - Picton Heritage & Whaling Museum - Picton, NZ - DSC00296.jpg",
+        autor: "Trozo de ámbar gris recogido en una playa de Gisborne tras un temporal. Museo de Picton, Nueva Zelanda.",
+        licencia: "CC0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Ambergris,_found_after_a_storm_on_Gisborne_beach_-_Picton_Heritage_%26_Whaling_Museum_-_Picton,_NZ_-_DSC00296.jpg",
+        foco: "50% 50%",
+        alt: "Masa gris rugosa del tamaño de un melón expuesta en una vitrina de museo.",
+      },
+      {
+        archivo: "Perfume glass bottle.jpg",
+        autor: "Frasco de perfume de cristal tallado a contraluz.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Perfume_glass_bottle.jpg",
+        foco: "50% 45%",
+        alt: "Frasco de perfume de cristal con líquido ambarino iluminado por detrás.",
+      },
+      {
+        archivo: "Two sperm whales (Physeter macrocephalus), São Miguel Island, Azores, Portugal (PPL1-Corrected).jpg",
+        autor: "Dos cachalotes nadando juntos en aguas de las Azores.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Two_sperm_whales_(Physeter_macrocephalus),_S%C3%A3o_Miguel_Island,_Azores,_Portugal_(PPL1-Corrected).jpg",
+        foco: "50% 50%",
+        alt: "Dos cachalotes grises nadando en paralelo cerca de la superficie del mar.",
+      },
+    ],
     entrada:
-      "Costas de medio mundo, siglo XVI. De vez en cuando aparece varada en la arena una masa cerosa y grisácea, del tamaño de un melón o de un balón, que huele a establo. Quien la encuentra puede estar delante de varios cientos de miles de euros sin saberlo. Durante siglos nadie supo qué era ni de dónde salía.",
+      "Costas de medio mundo, siglo XVI. De vez en cuando aparece varada en la arena una masa cerosa y grisácea, del tamaño de un melón o de un balón, que huele a establo y que nadie recogería si supiera solo eso. Quien la encuentra puede estar delante de varios cientos de miles de euros sin sospecharlo siquiera. Durante siglos nadie supo qué era ni de dónde salía: se dijo que era espuma de mar endurecida, resina de árboles submarinos o excremento de pájaro gigante.",
     paginas: [
       {
         rotulo: "Qué es",

@@ -89,6 +89,40 @@ export const MICROSCOPIO: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Una lámina fina de corcho al microscopio, con celdillas hexagonales.",
+    fotos: [
+      {
+        archivo: "Flea Scanning Electron Micrograph False Color.jpg",
+        autor: "Pulga al microscopio electrónico, coloreada para distinguir las estructuras. Fotografía de Janice Haney Carr para los CDC.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Flea_Scanning_Electron_Micrograph_False_Color.jpg",
+        foco: "50% 45%",
+        alt: "Una pulga vista de perfil a gran aumento, con las placas del cuerpo y las cerdas de las patas perfectamente definidas.",
+      },
+      {
+        archivo: "Western honey bee on a honeycomb.jpg",
+        autor: "Abeja sobre un panal. Las celdillas del corcho le recordaron a Hooke a un panal como este. Fotografía de Matthew T. Rader.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Western_honey_bee_on_a_honeycomb.jpg",
+        foco: "50% 50%",
+        alt: "Una abeja caminando sobre las celdas hexagonales de cera de un panal.",
+      },
+      {
+        archivo: "Brass Microscope Used in the St. Louis City Chemist's Office - DPLA - 305b66e4df3e7be219ea8ca173cf3d37 (page 5).jpg",
+        autor: "Microscopio de latón de laboratorio, fabricado por Bausch & Lomb. Colección de la Biblioteca Pública de San Luis.",
+        licencia: "No restrictions",
+        fuente: "https://commons.wikimedia.org/wiki/File:Brass_Microscope_Used_in_the_St._Louis_City_Chemist's_Office_-_DPLA_-_305b66e4df3e7be219ea8ca173cf3d37_(page_5).jpg",
+        foco: "50% 50%",
+        alt: "Un microscopio antiguo de latón con su tubo, el espejo y los tornillos de enfoque.",
+      },
+      {
+        archivo: "Microscope à fluorescence (Ifremer 00642-75447 - 30190).jpg",
+        autor: "Microscopio de fluorescencia en un laboratorio del Ifremer. Fotografía de Olivier Dugornay.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Microscope_%C3%A0_fluorescence_(Ifremer_00642-75447_-_30190).jpg",
+        foco: "50% 50%",
+        alt: "Un microscopio moderno de laboratorio con su cabezal y los mandos de ajuste.",
+      },
+    ],
     entrada:
       "Londres, 1665. Un científico publica un libro con láminas grabadas de lo que ha visto con un microscopio compuesto: una pulga dibujada del tamaño de un palmo, el ojo de una mosca, el filo de una navaja lleno de mellas. En una de las láminas aparece una lámina fina de corcho, llena de huecos regulares separados por paredes.",
     paginas: [

@@ -84,11 +84,45 @@ export const REDES: Short[] = [
 
   {
     id: "scroll-infinito",
-    titulo: "El inventor del scroll infinito pidió perdón",
+    titulo: "Quitaron el botón de parar",
     gancho: "Quitó el botón de siguiente página para hacerlo más cómodo. Y quitó el sitio donde parar.",
     categoria: "Redes",
     color: "var(--plum)",
     encargo: "Un pulgar deslizando sobre una pantalla de móvil borrosa en la oscuridad.",
+    fotos: [
+      {
+        archivo: "The Depths of Orvieto - Flickr - aparlette.jpg",
+        autor: "El pozo de San Patricio de Orvieto visto desde el fondo, 2025. Fotografía de Andrew Parlette.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_Depths_of_Orvieto_-_Flickr_-_aparlette.jpg",
+        foco: "50% 50%",
+        alt: "El interior de un pozo circular de ladrillo visto desde abajo, con las ventanas girando en espiral hacia un círculo de luz.",
+      },
+      {
+        archivo: "Hand holding smartphone with blank white screen.jpg",
+        autor: "Mano sosteniendo un teléfono con la pantalla en blanco. Fotografía de Santeri Viinamäki, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hand_holding_smartphone_with_blank_white_screen.jpg",
+        foco: "50% 50%",
+        alt: "Una mano sujetando un teléfono móvil con la pantalla encendida y vacía.",
+      },
+      {
+        archivo: "DSCF1047 Empty highway at night with streaking taillights and illuminated roadside signs stretching into the distance.jpg",
+        autor: "Carretera de noche con las luces traseras convertidas en estelas, 2025. Fotografía de PattayaPatrol.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:DSCF1047_Empty_highway_at_night_with_streaking_taillights_and_illuminated_roadside_signs_stretching_into_the_distance.jpg",
+        foco: "50% 50%",
+        alt: "Una carretera nocturna que se pierde en la distancia, con estelas rojas de luces traseras.",
+      },
+      {
+        archivo: "Amboy (California, USA), Hist. Route 66 -- 2012 -- 1.jpg",
+        autor: "La antigua Ruta 66 a su paso por Amboy, California, 2012. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Amboy_(California,_USA),_Hist._Route_66_--_2012_--_1.jpg",
+        foco: "50% 50%",
+        alt: "Una carretera recta cruzando el desierto hasta perderse de vista en el horizonte.",
+      },
+    ],
     entrada:
       "Estados Unidos, 2006. Las páginas web muestran los resultados en tandas, con un botón al final para pasar a la siguiente. Un diseñador de interfaces de veintitrés años propone quitar ese botón y cargar el contenido siguiente de forma automática cuando el usuario llega abajo del todo. Le parece una mejora evidente de comodidad.",
     paginas: [
