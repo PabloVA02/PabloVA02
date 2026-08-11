@@ -7,8 +7,8 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | | hecho | queda |
 |---|---|---|
 | shorts escritos | 757 | 243 para llegar a 1000 |
-| shorts con sus cuatro fotos | 38 | 719 |
-| imágenes puestas | 162, todas verificadas | |
+| shorts con sus cuatro fotos | 300 | 457 |
+| imágenes puestas | 1210, todas verificadas | |
 | títulos que no caben en una línea | | 451 |
 | entradas que dejan hueco abajo | | 690 |
 
@@ -75,15 +75,45 @@ eso existe `fotos-al-vuelo.mjs`, que las baja con curl y se las entrega. Sin
 - `src/historias/MOLDE.md` — cómo se escribe un short.
 - `FOTOS.md` — de dónde salen las imágenes y qué se puede afirmar de ellas.
 
-## GitHub
+## GitHub — CÓMO SE GUARDA EL TRABAJO
 
-Pablo subió el trabajo desde su máquina el 6 de agosto: el remoto está en
-`bf853f9`. Desde aquí el push sigue dando 403 —las credenciales de la sesión
-son de solo lectura y la API tampoco deja crear ramas—, así que lo que se hace
-después se le manda en un bundle:
+Comprobado el 11 de agosto de 2026:
+
+- `git push` desde el contenedor → 403. No es el proxy: `curl
+  http://127.0.0.1:45837/__agentproxy/status` no registra ningún fallo de
+  salida, así que la petición llega y es GitHub quien la rechaza.
+- API del servidor MCP (`create_or_update_file`) → depende de que la app de
+  Claude esté **instalada** en la cuenta de Pablo y con acceso a este repo.
+  Estaba solo autorizada, no instalada, y por eso devolvía «Resource not
+  accessible by integration».
+
+Si la API escribe, **cada short se sube en cuanto pasa `tsc` y
+`coteja-fotos`**, fichero a fichero:
+
+1. `git rev-parse origin/claude/app-development-xpo6fx:prototipo-microaprendizaje/src/historias/X.ts`
+2. `mcp__github__create_or_update_file` con ese SHA y el contenido completo.
+
+Si no escribe, se entrega en bundle y lo sube Pablo:
 
 ```
-git bundle create curva.bundle --all
+git bundle create /ruta/scratchpad/curva-NNN.bundle --all
 ```
 
-y él lo sube con las suyas. No intentar el push cada turno.
+```
+git clone ~/Downloads/curva-NNN.bundle ~/curvaNNN
+cd ~/curvaNNN
+git checkout claude/app-development-xpo6fx
+git remote set-url origin https://github.com/PabloVA02/PabloVA02.git
+git fetch origin
+git push -u origin claude/app-development-xpo6fx
+```
+
+Dos trampas que costaron un rato: al clonar de un bundle `origin` apunta al
+propio fichero (hay que hacer `set-url`), y el clon no deja rama activa (hay
+que hacer `git checkout` de la rama).
+
+**Se entrega cada dos o tres shorts, nunca al final.** El 11 de agosto se
+perdieron unos diez shorts por acumularlo: el contenedor se restauró a un
+punto anterior tres veces seguidas y se llevó por delante los commits locales
+y hasta los bundles guardados en el scratchpad. Lo único que sobrevivió fue lo
+que ya se le había mandado a Pablo por el chat.
