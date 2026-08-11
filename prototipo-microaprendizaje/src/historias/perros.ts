@@ -88,8 +88,42 @@ export const PERROS: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Una mesa de exposición canina con una cinta de premio y una cinta métrica.",
+    fotos: [
+      {
+        archivo: "Golden retriever alert (30190754125).jpg",
+        autor: "Golden retriever tumbado en la hierba, 2016. Fotografía de David Whelan.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Golden_retriever_alert_(30190754125).jpg",
+        foco: "50% 45%",
+        alt: "Un perro dorado de pelo largo echado entre hierba alta, mirando hacia un lado con la luz del atardecer.",
+      },
+      {
+        archivo: "Doberman Pinscher dogs in the \" Judging Ring\" at Bombay Presidency Kennel Club Dog Show.jpg",
+        autor: "Dóberman presentados en el ring de un concurso canino, Bombay. Fotografía de Rudolph A. Furtado.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Doberman_Pinscher_dogs_in_the_%22_Judging_Ring%22_at_Bombay_Presidency_Kennel_Club_Dog_Show.jpg",
+        foco: "50% 55%",
+        alt: "Media docena de perros de la misma raza colocados en fila por sus manejadores para que el jurado los compare.",
+      },
+      {
+        archivo: "HK pet dog walking 老虎狗 English Bulldog November 2022 Px3 01.jpg",
+        autor: "Bulldog inglés, una de las razas de hocico aplastado con problemas respiratorios documentados. Fotografía de MOSCKAI Yinam, 2022.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:HK_pet_dog_walking_%E8%80%81%E8%99%8E%E7%8B%97_English_Bulldog_November_2022_Px3_01.jpg",
+        foco: "50% 45%",
+        alt: "Un bulldog de cara chata y pliegues marcados, de pie sobre el pavimento.",
+      },
+      {
+        archivo: "Kattai dog alias kattakal dog nagapattinam indian dog breed.jpg",
+        autor: "Perro kattai de Nagapattinam, un tipo local definido por su oficio y no por ningún libro genealógico.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kattai_dog_alias_kattakal_dog_nagapattinam_indian_dog_breed.jpg",
+        foco: "50% 50%",
+        alt: "Un perro delgado de pelo corto y patas largas, de pie en un camino de tierra.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1859. Se celebra en una ciudad del norte la primera exposición canina con premios y jurado. En pocas décadas aparecen los clubes, los libros genealógicos y los estándares escritos que describen con precisión cómo debe ser cada raza. Antes de eso existían tipos de perro definidos por su oficio, no razas cerradas con pedigrí.",
+      "Inglaterra, 1859. Se celebra en una ciudad del norte la primera exposición canina con premios, jaulas numeradas y jurado. En pocas décadas aparecen los clubes, los libros genealógicos y los estándares escritos que describen con precisión de milímetro cómo debe ser cada raza: la altura, el ángulo del cuello, la forma del cráneo. Antes de eso no existía nada de esto. Existían tipos de perro definidos por lo que hacían —un pastor, un ratonero, un perro de agua— y nadie llevaba la cuenta de quién era hijo de quién.",
     paginas: [
       {
         rotulo: "El estándar",

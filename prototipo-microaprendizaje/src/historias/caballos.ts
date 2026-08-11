@@ -85,13 +85,47 @@ export const CABALLOS: Short[] = [
 
   {
     id: "tres-sementales",
-    titulo: "Todos vienen de tres caballos",
+    titulo: "Vienen de tres caballos",
     gancho: "Tres sementales importados hace tres siglos están en el árbol de cada purasangre vivo.",
     categoria: "Caballos",
     color: "var(--slate)",
     encargo: "Un libro de registro antiguo abierto con columnas de nombres escritos a pluma.",
+    fotos: [
+      {
+        archivo: "Whistlejacket by George Stubbs edit.jpg",
+        autor: "«Whistlejacket», óleo de George Stubbs, hacia 1762. National Gallery, Londres. Un purasangre de la primera generación de la raza.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Whistlejacket_by_George_Stubbs_edit.jpg",
+        foco: "50% 45%",
+        alt: "Un caballo alazán encabritado, pintado a tamaño natural sobre un fondo liso de color ocre, sin paisaje ni jinete.",
+      },
+      {
+        archivo: "Mares and foals with an unfigured background (England,1762) - George Stubbs (1724 - 1806) (24880487840).jpg",
+        autor: "«Yeguas y potros», óleo de George Stubbs, 1762. Fotografía de Pedro Ribeiro Simões.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mares_and_foals_with_an_unfigured_background_(England,1762)_-_George_Stubbs_(1724_-_1806)_(24880487840).jpg",
+        foco: "50% 50%",
+        alt: "Una fila de yeguas con sus potros pintados de perfil sobre un fondo sin paisaje.",
+      },
+      {
+        archivo: "George Stubbs 004.jpg",
+        autor: "Caballos pintados por George Stubbs, 1770.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:George_Stubbs_004.jpg",
+        foco: "50% 50%",
+        alt: "Pintura de caballos de cuerpo entero en un paisaje abierto.",
+      },
+      {
+        archivo: "Kencot grazing horse West Oxfordshire England 01.jpg",
+        autor: "Caballo pastando en un prado de Oxfordshire. Fotografía de Acabashi.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kencot_grazing_horse_West_Oxfordshire_England_01.jpg",
+        foco: "50% 50%",
+        alt: "Un caballo pastando solo en un prado verde con setos al fondo.",
+      },
+    ],
     entrada:
-      "Inglaterra, entre 1690 y 1730. Los criadores ingleses importan de Oriente Próximo y del norte de África varios caballos de razas locales, más ligeros y rápidos que los europeos, para cruzarlos con sus yeguas. Tres de aquellos sementales dejarán descendencia masculina ininterrumpida hasta hoy, y de ellos sale la raza entera de carreras.",
+      "Inglaterra, entre 1690 y 1730. Los criadores ingleses importan de Oriente Próximo y del norte de África varios caballos de razas locales, más ligeros, más finos de hueso y más rápidos que los europeos, para cruzarlos con sus yeguas de campo. La mayoría de aquellos sementales no dejó rastro. Tres de ellos sí: su descendencia por línea de padres no se ha interrumpido nunca desde entonces, y de esos tres animales concretos, con nombre propio y fecha de llegada, sale la raza entera de carreras que corre hoy en el mundo.",
     paginas: [
       {
         rotulo: "El libro",
