@@ -78,13 +78,47 @@ export const MINERIA: Short[] = [
   },
   {
     id: "los-ninos-de-la-puerta",
-    titulo: "Niños de cinco años bajo tierra",
+    titulo: "Niños de cinco años abajo",
     gancho: "Doce horas sentados a oscuras, esperando a abrir cuando pasaba una vagoneta. El aire de la mina dependía de ellos.",
     categoria: "Minería",
     color: "var(--plum)",
     encargo: "Una galería estrecha de mina con una puerta de madera cerrada y un candil colgado.",
+    fotos: [
+      {
+        archivo: "Zeche Zollverein abends.jpg",
+        autor: "Castillete del pozo XII de la mina Zollverein, Essen (Alemania), al anochecer. Fotografía de Thomas Wolf, 2013.",
+        licencia: "CC BY-SA 3.0 de",
+        fuente: "https://commons.wikimedia.org/wiki/File:Zeche_Zollverein_abends.jpg",
+        foco: "50% 45%",
+        alt: "Una torre de extracción minera de acero con dos grandes poleas arriba, iluminada de naranja contra un cielo azul oscuro.",
+      },
+      {
+        archivo: "Essen (DE), Zeche Zollverein, Schacht XII -- 2022 -- 0026.jpg",
+        autor: "Instalaciones del pozo XII de Zollverein, hoy patrimonio industrial. Fotografía de Anil Öztas, 2022.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Essen_(DE),_Zeche_Zollverein,_Schacht_XII_--_2022_--_0026.jpg",
+        foco: "50% 50%",
+        alt: "Naves de ladrillo y estructuras metálicas del complejo minero, vacías y conservadas.",
+      },
+      {
+        archivo: "Globe Island, Rugeley - Memorial to the Miners (33779224193).jpg",
+        autor: "Monumento a los mineros en Rugeley, Staffordshire, 2017. Fotografía de Elliott Brown.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Globe_Island,_Rugeley_-_Memorial_to_the_Miners_(33779224193).jpg",
+        foco: "50% 45%",
+        alt: "Una escultura de bronce de un minero con su lámpara, levantada como monumento en una rotonda.",
+      },
+      {
+        archivo: "Essen (DE), Zeche Zollverein -- 2022 -- 0020.jpg",
+        autor: "El recinto de Zollverein, cerrado como mina en 1986 y hoy visitable. Fotografía de Anil Öztas, 2022.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Essen_(DE),_Zeche_Zollverein_--_2022_--_0020.jpg",
+        foco: "50% 50%",
+        alt: "Las cintas transportadoras y los edificios de la mina recortados contra el cielo.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1842. Una comisión parlamentaria publica un informe sobre el trabajo en las minas, con dibujos y con testimonios recogidos a los propios trabajadores. El país descubre entonces que en el fondo de sus minas trabajan miles de niños, algunos de cinco años. Uno de sus oficios consiste en pasar la jornada entera solo, a oscuras y sentado junto a una puerta.",
+      "Inglaterra, 1842. Una comisión parlamentaria publica un informe sobre el trabajo en las minas, hecho con testimonios recogidos a los propios trabajadores y con dibujos de lo que los inspectores vieron abajo. El país descubre entonces que en el fondo de sus minas trabajan miles de niños, algunos de cinco años, y que uno de los oficios que se les da consiste en pasar la jornada entera solo, sentado a oscuras junto a una puerta de madera. No es un trabajo simbólico ni un castigo: de esa puerta depende que el aire llegue al fondo.",
     paginas: [
       {
         rotulo: "Por qué la puerta",

@@ -80,13 +80,47 @@ export const PLATA: Short[] = [
   },
   {
     id: "el-galeon-de-manila",
-    titulo: "Plata de ida, seda de vuelta",
+    titulo: "Iba plata, volvía seda",
     gancho: "Doscientos cincuenta años de travesías con plata en un sentido y seda en el otro. Fue el primer comercio global.",
     categoria: "Plata",
     color: "var(--ochre)",
     encargo: "Un galeón antiguo cargado navegando en mar abierto al atardecer.",
+    fotos: [
+      {
+        archivo: "Dutch Ships loading Timber in a Northern Port RMG BHC0750.tiff",
+        autor: "«Barcos cargando en un puerto del norte», óleo de Andries van Eertvelt, 1610. Royal Museums Greenwich.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Dutch_Ships_loading_Timber_in_a_Northern_Port_RMG_BHC0750.tiff",
+        foco: "50% 50%",
+        alt: "Pintura de grandes barcos de vela fondeados en una bahía mientras las barcas llevan carga hacia la orilla.",
+      },
+      {
+        archivo: "Ming Porcelain Vases.jpg",
+        autor: "Porcelana china de la dinastía Ming. Fotografía de Gary Todd.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ming_Porcelain_Vases.jpg",
+        foco: "50% 45%",
+        alt: "Varios jarrones de porcelana blanca y azul alineados, con dibujos de flores y ramas.",
+      },
+      {
+        archivo: "Andries van Eertvelt - The Return to Amsterdam of the Second Expedition to the East Indies on 19th July 1599.jpg",
+        autor: "«El regreso a Ámsterdam de la segunda expedición a las Indias Orientales», óleo de Andries van Eertvelt, siglo XVII.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Andries_van_Eertvelt_-_The_Return_to_Amsterdam_of_the_Second_Expedition_to_the_East_Indies_on_19th_July_1599.jpg",
+        foco: "50% 50%",
+        alt: "Pintura de una flota de vuelta de un viaje largo, con las velas recogidas y las barcas saliendo a recibirla.",
+      },
+      {
+        archivo: "Ming Porcelain, Yongle Reign 18.jpg",
+        autor: "Pieza de porcelana del reinado Yongle, dinastía Ming. Fotografía de Gary Todd.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ming_Porcelain,_Yongle_Reign_18.jpg",
+        foco: "50% 45%",
+        alt: "Un cuenco de porcelana blanca decorado en azul cobalto, visto de cerca.",
+      },
+    ],
     entrada:
-      "Océano Pacífico, 1565. Un marino descubre la ruta de vuelta desde Filipinas hasta la costa americana subiendo hacia el norte para coger vientos favorables, algo que hasta entonces nadie había conseguido. Con esa ruta abierta se establece una línea regular de barcos entre un puerto de la costa mexicana y otro asiático que funcionará, con uno o dos viajes al año, durante dos siglos y medio.",
+      "Océano Pacífico, 1565. Un marino descubre la ruta de vuelta desde Filipinas hasta la costa americana subiendo hacia el norte a buscar los vientos del oeste, algo que hasta entonces nadie había conseguido y que había costado varias expediciones perdidas. Con esa ruta abierta se establece una línea regular de barcos entre un puerto de la costa mexicana y otro asiático, con uno o dos viajes al año, que funcionará durante dos siglos y medio sin apenas cambios. Es el primer servicio de transporte que une de forma estable dos continentes por el océano más grande del planeta.",
     paginas: [
       {
         rotulo: "Plata por seda",
