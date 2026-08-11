@@ -80,11 +80,45 @@ export const HIERRO: Short[] = [
   },
   {
     id: "la-esponja-de-hierro",
-    titulo: "Nunca vieron el hierro líquido",
+    titulo: "Nunca vieron hierro líquido",
     gancho: "Sacaban del horno una masa esponjosa mezclada con escoria y la golpeaban durante horas para limpiarla.",
     categoria: "Hierro",
     color: "var(--ochre)",
     encargo: "Un horno bajo de barro con la boca abierta y brasas al fondo.",
+    fotos: [
+      {
+        archivo: "Blacksmith (1).jpg",
+        autor: "Herrero levantando el martillo sobre una pieza al rojo, 2013. Fotografía de Sasener.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Blacksmith_(1).jpg",
+        foco: "50% 50%",
+        alt: "Un herrero con el martillo en alto sobre una barra de metal incandescente que le ilumina la cara desde abajo.",
+      },
+      {
+        archivo: "0910 6290m Blacksmith bellows, Fang, Gabon (5618236012).jpg",
+        autor: "Fragua alimentada a fuelle en un taller fang, Gabón, 2011. Fotografía de Ann Porteus.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:0910_6290m_Blacksmith_bellows,_Fang,_Gabon_(5618236012).jpg",
+        foco: "50% 50%",
+        alt: "Un fuelle de piel soplando sobre unas brasas en una fragua de tierra.",
+      },
+      {
+        archivo: "Blacksmith working.jpg",
+        autor: "Herrero trabajando una pieza caliente sobre el yunque. Fotografía de Jeff Kubina, 2008.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Blacksmith_working.jpg",
+        foco: "50% 50%",
+        alt: "Unas manos sujetando con tenazas una pieza al rojo sobre el yunque mientras cae el martillo.",
+      },
+      {
+        archivo: "Historic blast furnaces, Blaenavon Ironworks - geograph.org.uk - 5099239.jpg",
+        autor: "Altos hornos históricos de la ferrería de Blaenavon, Gales, 2016. Fotografía de M J Roscoe.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Historic_blast_furnaces,_Blaenavon_Ironworks_-_geograph.org.uk_-_5099239.jpg",
+        foco: "50% 50%",
+        alt: "Los muros de piedra y los arcos de unos altos hornos antiguos conservados como ruina industrial.",
+      },
+    ],
     entrada:
       "Oriente Próximo y Europa, desde el año 1200 antes de Cristo aproximadamente. El hierro funde a mil quinientos treinta y ocho grados, una temperatura que los hornos antiguos no alcanzaban ni de lejos. Sin embargo, se puede obtener el metal sin llegar a fundirlo, y ese descubrimiento es el que abre la Edad del Hierro y cambia la agricultura y la guerra.",
     paginas: [

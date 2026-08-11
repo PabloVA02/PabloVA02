@@ -81,11 +81,45 @@ export const MOTOR: Short[] = [
 
   {
     id: "cinturon-volvo",
-    titulo: "Regalaron la patente que salva vidas",
+    titulo: "Regalaron la patente",
     gancho: "Podían haber cobrado por cada coche del mundo durante veinte años. Abrieron la patente gratis.",
     categoria: "Motor",
     color: "var(--slate)",
     encargo: "Un cinturón de tres puntos abrochado sobre un asiento vacío, luz dura de estudio.",
+    fotos: [
+      {
+        archivo: "Dülmen, Merfeld, Volvo PV 544 B18 -- 2021 -- 0138.jpg",
+        autor: "Volvo PV 544, el modelo que en 1959 estrenó el cinturón de tres puntos de serie. Fotografía de Dietmar Rabich, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Merfeld,_Volvo_PV_544_B18_--_2021_--_0138.jpg",
+        foco: "50% 50%",
+        alt: "Un coche negro de los años cincuenta con la trasera redondeada, parado en una carretera al anochecer bajo nubes estriadas.",
+      },
+      {
+        archivo: "Dülmen, Merfeld, Volvo PV 544 B18 -- 2021 -- 9946.jpg",
+        autor: "Salpicadero del mismo Volvo, con los mandos rotulados en sueco. Fotografía de Dietmar Rabich, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Merfeld,_Volvo_PV_544_B18_--_2021_--_9946.jpg",
+        foco: "50% 50%",
+        alt: "Detalle de un salpicadero antiguo con tiradores negros de baquelita y molduras cromadas.",
+      },
+      {
+        archivo: "Dülmen, Merfeld, Volvo PV 544 B18 -- 2021 -- 9896.jpg",
+        autor: "Otro detalle del Volvo PV 544 restaurado. Fotografía de Dietmar Rabich, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Merfeld,_Volvo_PV_544_B18_--_2021_--_9896.jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de la carrocería y los cromados del coche.",
+      },
+      {
+        archivo: "Dülmen, Merfeld, Volvo PV 544 B18 -- 2021 -- 0120-4.jpg",
+        autor: "El coche completo al anochecer. Fotografía de Dietmar Rabich, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Merfeld,_Volvo_PV_544_B18_--_2021_--_0120-4.jpg",
+        foco: "50% 50%",
+        alt: "Vista lateral del coche negro con los faros encendidos sobre el asfalto.",
+      },
+    ],
     entrada:
       "Suecia, 1959. Los coches ya corren y las carreteras se llenan, pero dentro no hay nada que sujete a nadie: en un choque, el conductor sale despedido contra el volante o atraviesa el parabrisas. Una marca sueca contrata a un ingeniero que viene de diseñar asientos eyectables de avión y le encarga resolverlo. Tarda un año en dar con la respuesta.",
     paginas: [

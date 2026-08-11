@@ -84,13 +84,47 @@ export const TUNELES: Short[] = [
 
   {
     id: "tunel-parado-por-miedo",
-    titulo: "Pararon un túnel por miedo a una invasión",
+    titulo: "Un túnel parado por miedo",
     gancho: "En 1882 ya se habían excavado dos kilómetros desde cada orilla. Lo detuvo una campaña de opinión.",
     categoria: "Túneles",
     color: "var(--clay)",
     encargo: "Una galería antigua abandonada con raíles oxidados y agua en el suelo.",
+    fotos: [
+      {
+        archivo: "St Margaret's at Cliffe-cliffs 0387.JPG",
+        autor: "Acantilados de creta en St Margaret's at Cliffe, Kent, 2012. Fotografía de Clem Rutter.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:St_Margaret's_at_Cliffe-cliffs_0387.JPG",
+        foco: "50% 55%",
+        alt: "Un acantilado de creta blanca cortando en diagonal un cielo azul pálido, con dos pájaros volando.",
+      },
+      {
+        archivo: "Landslide near Dover Harbour.jpg",
+        autor: "Desprendimiento en los acantilados junto al puerto de Dover, 2012. Fotografía de Nilfanion.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Landslide_near_Dover_Harbour.jpg",
+        foco: "50% 50%",
+        alt: "La pared blanca del acantilado con una lengua de material desprendido bajando hasta la orilla.",
+      },
+      {
+        archivo: "Used Drill Head of a TBM (Tunnelbohrmaschine) VII.jpg",
+        autor: "Cabeza de corte usada de una tuneladora, retirada tras la excavación. Fotografía de Marcel Grieder, 2010.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Used_Drill_Head_of_a_TBM_(Tunnelbohrmaschine)_VII.jpg",
+        foco: "50% 50%",
+        alt: "Un disco enorme de acero oxidado erizado de cortadores circulares, apoyado en el suelo.",
+      },
+      {
+        archivo: "White Cliffs of Dover 02.JPG",
+        autor: "Los acantilados blancos de Dover vistos desde el mar, 2012. Fotografía de Immanuel Giel.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:White_Cliffs_of_Dover_02.JPG",
+        foco: "50% 50%",
+        alt: "La línea de acantilados blancos de la costa inglesa vista desde el agua.",
+      },
+    ],
     entrada:
-      "Canal de la Mancha, 1880. Dos compañías, una francesa y otra británica, empiezan a excavar por su cuenta un túnel bajo el mar para unir los dos países en tren. Usan máquinas perforadoras de aire comprimido y avanzan bien: en dos años llevan más de dos kilómetros excavados desde cada orilla, con la roca en buenas condiciones.",
+      "Canal de la Mancha, 1880. Dos compañías, una francesa y otra británica, empiezan a excavar cada una por su cuenta un túnel bajo el mar para unir los dos países en tren. Usan máquinas perforadoras de aire comprimido y avanzan bastante bien, porque bajo el canal hay una capa de marga gris que se excava con facilidad y no deja pasar el agua. En dos años llevan más de dos kilómetros hechos desde cada orilla y la obra va camino de terminarse. Lo que la detiene no tiene nada que ver con la roca ni con el dinero.",
     paginas: [
       {
         rotulo: "El pánico",

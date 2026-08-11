@@ -85,13 +85,47 @@ export const PUENTES: Short[] = [
 
   {
     id: "tacoma-narrows",
-    titulo: "Un puente se retorció como una cinta",
+    titulo: "El puente se retorció",
     gancho: "Cuatro meses después de inaugurarlo se ondulaba con viento flojo. Un profesor lo filmó cayendo.",
     categoria: "Puentes",
     color: "var(--clay)",
     encargo: "Una calzada de puente vacía, torcida, vista en escorzo en blanco y negro.",
+    fotos: [
+      {
+        archivo: "Mount Rainier at the Tacoma Narrows Bridge (18402622459).jpg",
+        autor: "El puente actual del estrecho de Tacoma, con el monte Rainier al fondo, 2015. Fotografía de Jonathan Miske.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mount_Rainier_at_the_Tacoma_Narrows_Bridge_(18402622459).jpg",
+        foco: "50% 45%",
+        alt: "Un puente colgante verde con sus dos torres, y detrás la mole nevada de un volcán sobre la ciudad.",
+      },
+      {
+        archivo: "Galloping Gertie fragment 01.jpg",
+        autor: "Fragmento conservado del puente de 1940, apodado «Galloping Gertie». Fotografía de Joe Mabel, 2012.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Galloping_Gertie_fragment_01.jpg",
+        foco: "50% 50%",
+        alt: "Un trozo de viga de acero remachada del puente original, expuesto como pieza suelta.",
+      },
+      {
+        archivo: "The Union Bridge, Scotland to England. The road deck. Cables and chains.jpg",
+        autor: "Calzada del Union Bridge, entre Escocia e Inglaterra, colgada de sus cables y cadenas. Fotografía de Rosser1954, 2020.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_Union_Bridge,_Scotland_to_England._The_road_deck._Cables_and_chains.jpg",
+        foco: "50% 50%",
+        alt: "El tablero estrecho de un puente colgante visto desde un extremo, con las péndolas sujetándolo a los cables.",
+      },
+      {
+        archivo: "Union Bridge, Scotland to England. Car on the road deck.jpg",
+        autor: "Un coche cruzando el mismo puente colgante. Fotografía de Rosser1954, 2020.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Union_Bridge,_Scotland_to_England._Car_on_the_road_deck.jpg",
+        foco: "50% 50%",
+        alt: "Un coche pequeño avanzando por la calzada de un puente colgante estrecho.",
+      },
+    ],
     entrada:
-      "Estado de Washington, en el noroeste de Estados Unidos, julio de 1940. Se inaugura un puente colgante muy largo y muy estrecho sobre un brazo de mar. Desde el primer día se mueve: con viento suave la calzada sube y baja en ondas, y hay conductores que van a cruzarlo por gusto, como quien se sube a una atracción de feria.",
+      "Estado de Washington, en el noroeste de Estados Unidos, julio de 1940. Se inaugura un puente colgante muy largo y muy estrecho sobre un brazo de mar, el tercero más largo del mundo en ese momento. Desde el primer día se mueve: con viento suave la calzada sube y baja en ondas largas, tanto que desde un coche se pierde de vista el de delante. La gente de la zona le pone un mote y hay conductores que van a cruzarlo los fines de semana por gusto, como quien se sube a una atracción de feria.",
     paginas: [
       {
         rotulo: "El galope",
