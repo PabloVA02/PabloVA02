@@ -81,11 +81,45 @@ export const TERMOMETRO: Short[] = [
 
   {
     id: "termometro-clinico",
-    titulo: "El termómetro de fiebre medía treinta centímetros",
+    titulo: "Medía treinta centímetros",
     gancho: "Había que sujetarlo veinte minutos bajo el brazo del enfermo. Y el médico no lo llevaba encima.",
     categoria: "Termómetro",
     color: "var(--clay)",
     encargo: "Un termómetro de vidrio largo dentro de un estuche de metal alargado.",
+    fotos: [
+      {
+        archivo: "Clinical thermometer, Europe, 1851-1900 Wellcome L0058018.jpg",
+        autor: "Termómetro clínico europeo de la segunda mitad del siglo XIX, con su estuche de madera. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Clinical_thermometer,_Europe,_1851-1900_Wellcome_L0058018.jpg",
+        foco: "50% 50%",
+        alt: "Un termómetro largo de vidrio con la escala grabada, apoyado junto a su funda cilíndrica de madera oscura.",
+      },
+      {
+        archivo: "FieberthermometerFadenAbrissZone.jpg",
+        autor: "Detalle del estrechamiento del tubo, la zona por donde se corta la columna al enfriarse. Fotografía de Ralf Pfeifer, 2020.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:FieberthermometerFadenAbrissZone.jpg",
+        foco: "50% 50%",
+        alt: "Primer plano del capilar de un termómetro con un estrangulamiento visible justo encima del depósito.",
+      },
+      {
+        archivo: "Fieberthermometer clinical thermometer 01.jpg",
+        autor: "Termómetro clínico de mercurio con su escala y su estuche. Fotografía de Iswoar, 2022.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fieberthermometer_clinical_thermometer_01.jpg",
+        foco: "50% 50%",
+        alt: "Un termómetro clínico moderno de vidrio junto a la caja donde se guarda.",
+      },
+      {
+        archivo: "Clinical thermometer 38.7.JPG",
+        autor: "Termómetro marcando 38,7 grados. Fotografía de Menchi, 2005.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Clinical_thermometer_38.7.JPG",
+        foco: "50% 50%",
+        alt: "La columna de un termómetro clínico detenida por encima de los treinta y ocho grados.",
+      },
+    ],
     entrada:
       "Inglaterra, 1866. Tomar la temperatura a un enfermo es un procedimiento raro y engorroso: el aparato mide un palmo y medio, hay que mantenerlo colocado unos veinte minutos y hay que leerlo sin sacarlo, porque en cuanto se retira el mercurio baja. Un médico de hospital decide que aquello tiene que caber en un bolsillo y funcionar en minutos.",
     paginas: [

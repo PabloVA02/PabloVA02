@@ -84,11 +84,45 @@ export const CIENCIA: Short[] = [
 
   {
     id: "cuaderno-radiactivo",
-    titulo: "Sus cuadernos siguen radiactivos",
+    titulo: "Cuadernos aún radiactivos",
     gancho: "Guardaba material luminoso en un cajón porque le parecía bonito. Aquello la mató, y su libreta sigue peligrosa.",
     categoria: "Ciencia",
     color: "var(--forest)",
     encargo: "Un cuaderno de laboratorio antiguo, abierto, con anotaciones a mano y manchas.",
+    fotos: [
+      {
+        archivo: "Marie Curie in her laboratory.jpg",
+        autor: "Marie Curie trabajando con sus instrumentos en el laboratorio, hacia 1900.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Marie_Curie_in_her_laboratory.jpg",
+        foco: "50% 45%",
+        alt: "Una mujer de bata sentada de perfil ante un aparato de medida, con la mano puesta sobre el mando.",
+      },
+      {
+        archivo: "Pierre and Marie Curie.jpg",
+        autor: "Pierre y Marie Curie en su laboratorio, hacia 1904.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pierre_and_Marie_Curie.jpg",
+        foco: "50% 45%",
+        alt: "Dos personas en bata rodeadas de mesas con frascos, tubos y aparatos de laboratorio.",
+      },
+      {
+        archivo: "Portrait of Marie Curie (1867 - 1934), Polish chemist Wellcome M0004624.jpg",
+        autor: "Retrato de Marie Curie. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Portrait_of_Marie_Curie_(1867_-_1934),_Polish_chemist_Wellcome_M0004624.jpg",
+        foco: "50% 30%",
+        alt: "Retrato de estudio de una mujer de pelo recogido y vestido oscuro, mirando de frente.",
+      },
+      {
+        archivo: "Marie et Pierre Curie.jpg",
+        autor: "Marie y Pierre Curie fotografiados en 1900.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Marie_et_Pierre_Curie.jpg",
+        foco: "50% 35%",
+        alt: "Retrato de una pareja de científicos de pie, con la ropa de trabajo de la época.",
+      },
+    ],
     entrada:
       "París, 1898. Un matrimonio de científicos trabaja en un cobertizo con goteras del que ellos mismos dicen que en invierno hace el mismo frío que en la calle. Están intentando aislar una sustancia nueva a partir de toneladas de un mineral de desecho traído de una mina de Bohemia, en la actual Chequia. Tardarán cuatro años y sacarán un décimo de gramo.",
     paginas: [
