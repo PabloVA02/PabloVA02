@@ -88,8 +88,44 @@ export const ALCOHOL: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un mortero excavado en la roca con restos de grano molido dentro.",
+    fotos: [
+      {
+        archivo: "Hordeum vulgare ripe, Gerst oogstrijp.jpg",
+        autor: "Espigas de cebada maduras en el campo, listas para la siega. Fotografía de Rasbak.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hordeum_vulgare_ripe,_Gerst_oogstrijp.jpg",
+        foco: "50% 50%",
+        alt: "Espigas doradas de cebada con las aristas largas, muy de cerca y con el campo detrás.",
+      },
+      {
+        archivo: "Enclosure with T Shaped Pillars, Karahantepe (Karahan Tepe), Turkey (2).jpg",
+        autor: "Recinto con pilares en forma de T en Karahan Tepe, en el sureste de Turquía.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Enclosure_with_T_Shaped_Pillars,_Karahantepe_(Karahan_Tepe),_Turkey_(2).jpg",
+        foco: "50% 50%",
+        alt: "Pilares de piedra en forma de T clavados en el suelo dentro de un recinto excavado.",
+      },
+      {
+        archivo: "Animal hunting scene. Gobekli Tepe.jpg",
+        autor: "Escena de caza tallada en la piedra de Göbekli Tepe, hacia el año 9000 antes de Cristo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Animal_hunting_scene._Gobekli_Tepe.jpg",
+        foco: "50% 50%",
+        alt: "Relieve prehistórico con figuras de animales talladas en bajorrelieve sobre un bloque de piedra.",
+      },
+      {
+        archivo: "Structure AB, Pillars Shrine with Porthole Window to AD and Carved Head, Karahantepe (Karahan Tepe), Turkey (2).jpg",
+        autor: "Estructura con pilares y una cabeza tallada en Karahan Tepe, Turquía.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Structure_AB,_Pillars_Shrine_with_Porthole_Window_to_AD_and_Carved_Head,_Karahantepe_(Karahan_Tepe),_Turkey_(2).jpg",
+        foco: "50% 50%",
+        alt: "Recinto de piedra prehistórico con pilares altos y una cabeza esculpida asomando del muro.",
+      },
+    ],
     entrada:
-      "Oriente Próximo, hacia el año 10000 antes de Cristo. Unos grupos de cazadores y recolectores empiezan a sembrar cereal, a quedarse en un mismo sitio y a levantar aldeas, en el cambio más grande de la historia de nuestra especie. La explicación clásica es que lo hicieron para comer pan. En 1953 un arqueólogo publicó un artículo preguntando si no sería más bien por la bebida.",
+      "Oriente Próximo, hacia el año 10000 antes de Cristo. Unos grupos de cazadores y recolectores empiezan a sembrar cereal, a quedarse en un mismo sitio y a levantar aldeas, en lo que probablemente es el cambio más grande de la historia entera de nuestra especie. La explicación de toda la vida es la evidente: lo hicieron para comer pan. En 1953, un arqueólogo publicó un artículo corto con una pregunta incómoda que sigue discutiéndose setenta años después: ¿y si no fue por el pan, sino por la bebida?",
     paginas: [
       {
         rotulo: "El grano difícil",

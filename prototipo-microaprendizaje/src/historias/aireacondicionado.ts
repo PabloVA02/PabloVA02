@@ -86,8 +86,43 @@ export const AIRE_ACONDICIONADO: Short[] = [
     categoria: "Aire acondicionado",
     color: "var(--clay)",
     encargo: "Una marquesina de cine antigua con carteles y bombillas encendidas de noche.",
+    fotos: [
+      {
+        archivo: "Teatro Éden, Lisbon (54871548264).jpg",
+        autor: "Fachada del Teatro Éden de Lisboa, un cine art déco de los años treinta. Fotografía de Dale Cruse.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Teatro_%C3%89den,_Lisbon_(54871548264).jpg",
+        foco: "50% 45%",
+        alt: "Fachada art déco de piedra clara con relieves y grandes ventanales, vista desde abajo.",
+      },
+      {
+        archivo: "Rodgers Theatre, 204-224 N. Broadway Street, Poplar Bluff, Mo, USA.jpg",
+        autor: "El cine Rodgers, abierto en 1949, con su torre luminosa. Fotografía de Michael Gäbler.",
+        licencia: "CC BY-SA 3.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Rodgers_Theatre,_204-224_N._Broadway_Street,_Poplar_Bluff,_Mo,_USA.jpg",
+        foco: "50% 50%",
+        alt: "Fachada de cine art déco con marquesina y rótulo vertical sobre la acera.",
+      },
+      {
+        archivo: "Former Granada Theatre, Buffalo, New York - 20201231.jpg",
+        autor: "El antiguo cine Granada de Buffalo, de 1928. Fotografía de Andre Carrotflower.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Former_Granada_Theatre,_Buffalo,_New_York_-_20201231.jpg",
+        foco: "50% 50%",
+        alt: "Cine de barrio antiguo con la marquesina vacía y la fachada de ladrillo claro.",
+      },
+      {
+        archivo: "Castro Theatre, San Francisco.jpg",
+        autor: "El rótulo vertical del cine Castro, en San Francisco. Fotografía de Daniel Lu.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Castro_Theatre,_San_Francisco.jpg",
+        foco: "45% 30%",
+        alt: "Rótulo vertical rojo de un cine antiguo sobresaliendo por encima de la calle.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1925. Las salas de cine son locales cerrados, sin ventanas y con cientos de personas dentro, así que en julio y agosto se vuelven insoportables y muchas simplemente echan el cierre hasta septiembre. Un empresario decide probar lo contrario: gastarse el dinero en refrigerar la sala y anunciarlo en la marquesina, con letras más grandes que el título de la película.",
+      "Estados Unidos, 1925. Las salas de cine son locales cerrados, sin ventanas y con cientos de personas dentro respirando, así que en julio y agosto se vuelven sencillamente insoportables y muchas echan el cierre hasta septiembre, dando el verano por perdido. Un empresario decide probar exactamente lo contrario: gastarse una fortuna en refrigerar la sala y luego anunciarlo en la marquesina de la calle, con letras más grandes que el título de la película. Lo que vende ya no es el cine: es el aire de dentro.",
     paginas: [
       {
         rotulo: "La marquesina",
