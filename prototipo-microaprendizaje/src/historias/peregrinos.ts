@@ -156,8 +156,42 @@ export const PEREGRINOS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Un camino de tierra entre campos, con un mojón de piedra en primer plano.",
+    fotos: [
+      {
+        archivo: "Etapa 25. Ribadeo - Lourenzá (3900896038).jpg",
+        autor: "Peregrinos entre Ribadeo y Lourenzá, Galicia, 2009.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AEtapa%2025.%20Ribadeo%20-%20Lourenz%C3%A1%20(3900896038).jpg",
+        foco: "50% 55%",
+        alt: "Camino de tierra con caminantes de espaldas y prados verdes bajando hacia el valle.",
+      },
+      {
+        archivo: "Las vieiras guían el Camino de Santiago (20069770068).jpg",
+        autor: "Señal de concha en el Camino de Santiago, 2015.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALas%20vieiras%20gu%C3%ADan%20el%20Camino%20de%20Santiago%20(20069770068).jpg",
+        foco: "50% 50%",
+        alt: "Concha de vieira marcando la dirección del camino sobre un mojón.",
+      },
+      {
+        archivo: "Camino de Santiago - Camino Portugués (2845757021).jpg",
+        autor: "Camino Portugués a Santiago, 2008.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACamino%20de%20Santiago%20-%20Camino%20Portugu%C3%A9s%20(2845757021).jpg",
+        foco: "50% 55%",
+        alt: "Sendero de piedra y hierba entre muros bajos en el Camino Portugués.",
+      },
+      {
+        archivo: "Belgium-6004 - Gruuthuse Museum (13902297314).jpg",
+        autor: "Museo Gruuthuse, Brujas, Bélgica, 2013.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABelgium-6004%20-%20Gruuthuse%20Museum%20(13902297314).jpg",
+        foco: "50% 55%",
+        alt: "Fachada gótica de ladrillo de un palacio de Brujas junto al canal.",
+      },
+    ],
     entrada:
-      "Países Bajos y norte de Europa, siglos XIV a XVI. Los tribunales de varias ciudades comerciales imponen una pena poco habitual a quien ha cometido delitos de sangre, injurias o peleas graves: la peregrinación judicial. La sentencia fija el destino, el plazo y la obligación de volver con un documento sellado que demuestre que se ha llegado.",
+      "Países Bajos y norte de Europa, siglos XIV a XVI. Los tribunales de varias ciudades comerciales ricas imponen una pena poco habitual a quien ha cometido delitos de sangre, injurias graves o peleas con heridos: la peregrinación judicial. No es una penitencia religiosa voluntaria, es una condena firme dictada por un juez civil. La sentencia fija el destino, a veces a mil kilómetros de allí, fija el plazo para cumplirla y fija la obligación de volver con un documento sellado en el sitio que demuestre, sin discusión posible, que se ha llegado hasta el final.",
     paginas: [
       {
         rotulo: "La sentencia",
