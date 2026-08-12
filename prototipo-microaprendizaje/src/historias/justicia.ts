@@ -90,8 +90,44 @@ export const JUSTICIA: Short[] = [
     categoria: "Justicia",
     color: "var(--slate)",
     encargo: "Una isla pequeña con un edificio blanco entre niebla, vista desde el agua.",
+    fotos: [
+      {
+        archivo: "San Francisco (CA, USA), Alcatraz -- 2022 -- 3017.jpg",
+        autor: "La isla de Alcatraz vista desde la bahía de San Francisco. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:San_Francisco_(CA,_USA),_Alcatraz_--_2022_--_3017.jpg",
+        foco: "50% 45%",
+        alt: "Isla baja con un edificio alargado y un faro, recortada sobre un mar gris bajo cielo cubierto.",
+      },
+      {
+        archivo: "San Francisco (CA, USA), Alcatraz -- 2022 -- 3133.jpg",
+        autor: "Los edificios de la prisión de Alcatraz vistos de cerca. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:San_Francisco_(CA,_USA),_Alcatraz_--_2022_--_3133.jpg",
+        foco: "50% 50%",
+        alt: "Bloque de celdas de hormigón descascarillado con las ventanas enrejadas, sobre la roca de la isla.",
+      },
+      {
+        archivo: "Alcatraz Kitchen (2023)-L1003585.jpg",
+        autor: "La cocina de la prisión de Alcatraz, conservada como estaba. Fotografía de Frank Schulenburg.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Alcatraz_Kitchen_(2023)-L1003585.jpg",
+        foco: "50% 50%",
+        alt: "Cocina industrial abandonada con fogones, cazuelas y azulejos desconchados.",
+      },
+      {
+        archivo: "San Francisco (CA, USA), Alcatraz, Zaun -- 2022 -- 3107.jpg",
+        autor: "Alambradas y vallas del recinto de Alcatraz. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:San_Francisco_(CA,_USA),_Alcatraz,_Zaun_--_2022_--_3107.jpg",
+        foco: "50% 50%",
+        alt: "Valla metálica oxidada con alambre de espino sobre el acantilado, con el mar detrás.",
+      },
+    ],
     entrada:
-      "Bahía de San Francisco, junio de 1962. Alcatraz es una prisión federal en una isla rodeada de corrientes frías y fuertes, y la administración presume de que en veintinueve años nadie se ha escapado con vida. La noche del 11 de junio, tres presos condenados por robo a mano armada desaparecen de sus celdas. No se les ha vuelto a ver desde entonces.",
+      "Bahía de San Francisco, junio de 1962. Alcatraz es una prisión federal montada en una isla rodeada de corrientes frías y fuertes, y la administración lleva veintinueve años presumiendo de que de allí no se ha escapado nadie con vida: quien lo intenta, dicen, se lo lleva el agua. La noche del 11 de junio, tres presos condenados por robo a mano armada desaparecen de sus celdas sin que nadie oiga nada. No se les ha vuelto a ver desde entonces, y el caso sigue oficialmente abierto sesenta años después.",
     paginas: [
       {
         rotulo: "Las cucharas",
