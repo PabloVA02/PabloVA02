@@ -86,6 +86,40 @@ export const LLAVES: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una cerradura grande de madera oscura con pasadores verticales, sobre una puerta de tablas.",
+    fotos: [
+      {
+        archivo: "Traditional wooden Tympanum, door n lock.jpg",
+        autor: "Puerta newarí de madera tallada con su cerrojo, en el valle de Katmandú.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATraditional%20wooden%20Tympanum%2C%20door%20n%20lock.jpg",
+        foco: "50% 48%",
+        alt: "Puerta baja de tablas de madera oscura bajo un tímpano labrado, entre muros de ladrillo naranja.",
+      },
+      {
+        archivo: "Traditional Wooden Door of a Himalayan Village House.jpg",
+        autor: "Puerta de una casa de montaña de casi un siglo en Bodhna, en el Himalaya indio.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATraditional%20Wooden%20Door%20of%20a%20Himalayan%20Village%20House.jpg",
+        foco: "50% 50%",
+        alt: "Puerta pequeña de tablones con su cerrojo, encajada en un muro de piedra y madera.",
+      },
+      {
+        archivo: "Aït Benhaddou Qsar (588071761).jpg",
+        autor: "Puerta tradicional de madera en el ksar de Ait Ben Hadu, en Marruecos.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AA%C3%AFt%20Benhaddou%20Qsar%20(588071761).jpg",
+        foco: "50% 50%",
+        alt: "Puerta de madera vieja con herrajes y clavos, en un muro de adobe.",
+      },
+      {
+        archivo: "Picked lock.jpg",
+        autor: "Cerradura de bombillo abierta con ganzúa, con el cilindro girado sin llave.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APicked%20lock.jpg",
+        foco: "50% 50%",
+        alt: "Cerradura metálica de puerta con dos ganzúas metidas en el bombín y el cilindro girado.",
+      },
+    ],
     entrada:
       "Mesopotamia, hace unos tres mil años. En las ruinas de un palacio del norte aparecieron restos y representaciones de un mecanismo que los arqueólogos tardaron en reconocer porque no esperaban encontrarlo tan pronto: una cerradura de pasadores, hecha enteramente de madera, con una llave del tamaño de un antebrazo que se llevaba al hombro.",
     paginas: [
