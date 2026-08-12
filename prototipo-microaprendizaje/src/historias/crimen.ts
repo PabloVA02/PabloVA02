@@ -84,7 +84,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "cooper",
-    titulo: "Cooper saltó con el rescate",
+    titulo: "Cooper saltó con el dinero",
     gancho: "El único secuestro de avión sin resolver de la historia de Estados Unidos.",
     categoria: "Crimen",
     color: "var(--sage)",
@@ -144,7 +144,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "alcatraz",
-    titulo: "Las cabezas falsas de Alcatraz",
+    titulo: "Cabezas falsas en Alcatraz",
     gancho: "Escaparon de la prisión de la que era imposible escapar. Y quizá lo lograron.",
     categoria: "Crimen",
     color: "var(--ochre)",
@@ -234,7 +234,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "golden-state",
-    titulo: "El asesino y su primo lejano",
+    titulo: "El asesino y un primo",
     gancho: "Cuarenta años impune. Lo delató un pariente al que no conocía subiendo su ADN a una web.",
     categoria: "Crimen",
     color: "var(--sage)",
@@ -264,7 +264,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "celeste",
-    titulo: "El Mary Celeste llegó vacío",
+    titulo: "El Mary Celeste, vacío",
     gancho: "Comida en la mesa, carga intacta, mar en calma. Faltaban las diez personas.",
     categoria: "Misterios",
     color: "var(--slate)",

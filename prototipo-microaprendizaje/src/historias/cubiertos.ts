@@ -81,7 +81,7 @@ export const CUBIERTOS: Short[] = [
   },
   {
     id: "el-cuchillo-de-punta-redonda",
-    titulo: "El cuchillo perdió la punta",
+    titulo: "El cuchillo sin punta",
     gancho: "Todo el mundo llevaba el suyo afilado a la mesa. Un ministro francés decidió que aquello se acababa.",
     categoria: "Cubiertos",
     color: "var(--slate)",

@@ -223,7 +223,7 @@ export const CUERPO: Short[] = [
 
   {
     id: "huesos-oido",
-    titulo: "Dos huesos que fueron mandíbula",
+    titulo: "Dos huesos, una mandíbula",
     gancho: "Los tres huesos más pequeños del cuerpo entran en una moneda de dos céntimos. Dos vienen de una quijada.",
     categoria: "Cuerpo",
     color: "var(--forest)",

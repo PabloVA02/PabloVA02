@@ -85,7 +85,7 @@ export const CUERO: Short[] = [
   },
   {
     id: "el-barrio-de-los-curtidores",
-    titulo: "Los curtidores vivían fuera",
+    titulo: "Los curtidores, fuera",
     gancho: "Su oficio apestaba tanto que las leyes municipales lo expulsaban al otro lado del río, junto a los mataderos.",
     categoria: "Cuero",
     color: "var(--slate)",

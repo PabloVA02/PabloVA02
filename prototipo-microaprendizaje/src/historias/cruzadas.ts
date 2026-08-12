@@ -79,7 +79,7 @@ export const CRUZADAS: Short[] = [
   },
   {
     id: "la-cruzada-que-no-llego",
-    titulo: "Saquearon una ciudad cristiana",
+    titulo: "Saquearon la ciudad amiga",
     gancho: "Se apuntaron menos hombres de los previstos, no pudieron pagar los barcos y terminaron atacando a quien no debían.",
     categoria: "Cruzadas",
     color: "var(--slate)",
@@ -108,7 +108,7 @@ export const CRUZADAS: Short[] = [
   },
   {
     id: "lo-que-trajeron-de-vuelta",
-    titulo: "Volvieron con palabras y azúcar",
+    titulo: "Volvieron con azúcar",
     gancho: "Molinos, cultivos y un vocabulario entero que hoy usamos sin saber de dónde salió.",
     categoria: "Cruzadas",
     color: "var(--ochre)",
