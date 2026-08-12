@@ -152,8 +152,42 @@ export const LEVADURA: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Células de levadura vistas al microscopio, redondeadas y algunas brotando.",
+    fotos: [
+      {
+        archivo: "Baking yeast cells under 40x microscope objective.jpg",
+        autor: "Levadura de panadería vista con objetivo de 40 aumentos, 2023.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABaking%20yeast%20cells%20under%2040x%20microscope%20objective.jpg",
+        foco: "50% 50%",
+        alt: "Campo redondo del microscopio lleno de células de levadura translúcidas y ovaladas.",
+      },
+      {
+        archivo: "Interieur brouwzaal, koperen ketel - Breda - 20349157 - RCE.jpg",
+        autor: "Caldera de cobre de la sala de cocción de una fábrica de cerveza de Breda, 2004.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AInterieur%20brouwzaal%2C%20koperen%20ketel%20-%20Breda%20-%2020349157%20-%20RCE.jpg",
+        foco: "50% 50%",
+        alt: "Gran caldera de cobre brillante en la sala de cocción de una cervecera.",
+      },
+      {
+        archivo: "Interieur, overzicht brouwzaal vanaf boven gezien - Breda - 20349160 - RCE.jpg",
+        autor: "Sala de cocción vista desde arriba, Breda, Países Bajos, 2004.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AInterieur%2C%20overzicht%20brouwzaal%20vanaf%20boven%20gezien%20-%20Breda%20-%2020349160%20-%20RCE.jpg",
+        foco: "50% 50%",
+        alt: "Vista desde lo alto de varias calderas de cobre alineadas en una cervecera.",
+      },
+      {
+        archivo: "Copper Kettle, New Glarus Brewery (2844738562).jpg",
+        autor: "Caldera de cobre en una fábrica de cerveza de Wisconsin, 2008.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACopper%20Kettle%2C%20New%20Glarus%20Brewery%20(2844738562).jpg",
+        foco: "50% 50%",
+        alt: "Caldera de cobre con la tapa abierta y los remaches a la vista.",
+      },
+    ],
     entrada:
-      "Europa y Asia, desde hace unos nueve mil años y hasta 1857. Durante todo ese tiempo se hizo pan, cerveza y vino sin tener ni idea de que el responsable era un ser vivo. Se creía que la fermentación era una reacción química espontánea de la materia. Un químico francés demostró en aquella fecha que el proceso lo hacían unos organismos microscópicos, y que si se mataban, se paraba.",
+      "Europa y Asia, desde hace unos nueve mil años y hasta 1857 nada menos. Durante todo ese tiempo larguísimo se hizo pan, se hizo cerveza y se hizo vino sin tener la menor idea de que el responsable de todo aquello era un ser vivo, ni de que hubiera nada vivo por medio. Se creía que la fermentación era una reacción química espontánea de la materia, algo que le pasaba a la masa por sí sola. Un químico francés demostró en aquella fecha que el proceso lo hacían unos organismos microscópicos, y que si se los mataba, el proceso se paraba en seco.",
     paginas: [
       {
         rotulo: "Criar a ciegas",
