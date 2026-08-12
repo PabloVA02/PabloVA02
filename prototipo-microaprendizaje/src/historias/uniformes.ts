@@ -85,8 +85,43 @@ export const UNIFORMES: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Un carguero pintado con grandes bandas y cuñas en blanco y negro, visto de costado.",
+    fotos: [
+      {
+        archivo: "Dazzle-ships in Drydock at Liverpool.jpg",
+        autor: "Óleo de Edward Wadsworth, 1919: barcos con camuflaje deslumbrante en el dique seco de Liverpool.",
+        licencia: "Public domain",
+        pdPorEdad: 1949,
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADazzle-ships%20in%20Drydock%20at%20Liverpool.jpg",
+        foco: "50% 45%",
+        alt: "Cuadro de un barco en dique seco pintado con enormes franjas y cuñas blancas y negras, con la obra viva roja.",
+      },
+      {
+        archivo: "Camouflage - Experiments - Dazzle painting or camouflage for ships. Room full of models of camouflaged in different colors to make them hard to see by the Uboats. From these models the big ships were painted - NARA - 20808956.jpg",
+        autor: "Sala llena de maquetas con distintos esquemas de camuflaje, de donde salían los que se pintaban en los barcos de verdad.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACamouflage%20-%20Experiments%20-%20Dazzle%20painting%20or%20camouflage%20for%20ships.%20Room%20full%20of%20models%20of%20camouflaged%20in%20different%20colors%20to%20make%20them%20hard%20to%20see%20by%20the%20Uboats.%20From%20these%20models%20the%20big%20ships%20were%20painted%20-%20NARA%20-%2020808956.jpg",
+        foco: "50% 50%",
+        alt: "Mesa larga con decenas de maquetas de barcos pintadas con rayas y ángulos de distintos colores.",
+      },
+      {
+        archivo: "Camouflage - Ships - Dazzle Painting or Flag for Ships. Models of two ships on same line of direction one plan and the other dazzled. This method of camouflage was used on battleships and transports to deceive U-(...) - NARA - 20809062.jpg",
+        autor: "Dos maquetas puestas en la misma dirección, una lisa y otra con el camuflaje pintado, para comparar a simple vista.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACamouflage%20-%20Ships%20-%20Dazzle%20Painting%20or%20Flag%20for%20Ships.%20Models%20of%20two%20ships%20on%20same%20line%20of%20direction%20one%20plan%20and%20the%20other%20dazzled.%20This%20method%20of%20camouflage%20was%20used%20on%20battleships%20and%20transports%20to%20deceive%20U-%28...%29%20-%20NARA%20-%2020809062.jpg",
+        foco: "50% 50%",
+        alt: "Dos modelos de barco alineados, el de arriba de un solo color y el de abajo cubierto de franjas quebradas.",
+      },
+      {
+        archivo: "Women's Reserve Camouflage Corps painting pretend ship in NYC.jpg",
+        autor: "Mujeres del Cuerpo de Camuflaje de la Reserva pintando un barco simulado en Nueva York.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWomen%27s%20Reserve%20Camouflage%20Corps%20painting%20pretend%20ship%20in%20NYC.jpg",
+        foco: "50% 50%",
+        alt: "Grupo de mujeres con monos de trabajo pintando franjas geométricas sobre un casco de barco de mentira.",
+      },
+    ],
     entrada:
-      "Océano Atlántico, 1917. Europa lleva tres años en la Primera Guerra Mundial y Alemania ha decidido ganarla por hambre. Gran Bretaña es una isla: casi toda su comida y su combustible llegan en barco. Por eso los submarinos alemanes hunden cualquier carguero que se acerque a sus puertos. Solo en abril echan a pique casi novecientos, y al país le quedan seis semanas de trigo.",
+      "Océano Atlántico, 1917. Europa lleva tres años en la Primera Guerra Mundial y Alemania ha decidido ganarla por hambre en vez de por tierra. Gran Bretaña es una isla y casi toda su comida y todo su combustible llegan en barco, así que los submarinos alemanes hunden cualquier carguero que se acerque a sus puertos, sin aviso y sin distinguir. Solo en el mes de abril echan a pique casi novecientos barcos. Los cálculos del Almirantazgo dicen que al país le quedan seis semanas de trigo, y esconder un barco en mitad del mar no es posible.",
     paginas: [
       {
         rotulo: "El tubo",
