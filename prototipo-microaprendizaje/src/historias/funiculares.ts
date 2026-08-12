@@ -87,6 +87,40 @@ export const FUNICULARES: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Un deposito de agua bajo el suelo de una cabina de madera, con el tapon abierto.",
+    fotos: [
+      {
+        archivo: "Carriage, Lynton and Lynmouth Cliff Railway, North Devon.jpg",
+        autor: "Coche del funicular de Lynton y Lynmouth, en Devon, que se mueve con agua desde 1890.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACarriage%2C%20Lynton%20and%20Lynmouth%20Cliff%20Railway%2C%20North%20Devon.jpg",
+        foco: "50% 48%",
+        alt: "Vagón de funicular de madera pintada de verde con cabina acristalada, parado en la estación de arriba.",
+      },
+      {
+        archivo: "Lynmouth & Lynton Cliff Railway (14036604700).jpg",
+        autor: "El mismo funicular visto desde abajo, subiendo el acantilado entre las dos poblaciones.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALynmouth%20%26%20Lynton%20Cliff%20Railway%20(14036604700).jpg",
+        foco: "50% 50%",
+        alt: "Vía de funicular subiendo por una ladera muy empinada cubierta de vegetación, con un coche a mitad de trayecto.",
+      },
+      {
+        archivo: "Funicular dos Guindais (55247069635).jpg",
+        autor: "Vía del funicular dos Guindais, en Oporto, bajando hacia el Duero.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFunicular%20dos%20Guindais%20(55247069635).jpg",
+        foco: "50% 50%",
+        alt: "Raíles de funicular bajando en curva entre muros de piedra, con el río y un puente al fondo.",
+      },
+      {
+        archivo: "Lynton (2020-09-17) 11.jpg",
+        autor: "Lynton, en Devon, en lo alto del acantilado al que sube el funicular.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALynton%20(2020-09-17)%2011.jpg",
+        foco: "50% 50%",
+        alt: "Casas de piedra de un pueblo costero inglés, con la ladera boscosa cayendo hacia el mar.",
+      },
+    ],
     entrada:
       "Costa del suroeste de Inglaterra, 1890. Dos pueblos de pescadores están uno encima del otro: el de abajo, junto al mar; el de arriba, en lo alto de un acantilado de ciento cincuenta metros. Solo los une un camino de mulas. No hay electricidad en la zona y traer carbón para una máquina de vapor cuesta más de lo que el viaje puede dar.",
     paginas: [
