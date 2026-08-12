@@ -188,7 +188,7 @@ export const CARBON: Short[] = [
       },
     ],
     entrada:
-      "Pensilvania, mayo de 1962. Un pueblo minero de más de mil habitantes limpia su vertedero antes de las fiestas del Día de los Caídos quemando la basura acumulada, como venía haciendo todos los años sin mayor problema. Lo que nadie tiene en cuenta es que el vertedero ocupa una antigua cantera y que en su fondo hay una grieta abierta que comunica con las galerías abandonadas de la mina, llenas todavía de carbón sin extraer. El fuego baja tranquilamente por esa grieta, prende la veta y ya nadie consigue apagarlo.",
+      "Pensilvania, mayo de 1962. Un pueblo minero de más de mil habitantes limpia su vertedero antes de las fiestas del Día de los Caídos quemando la basura acumulada, como venía haciendo todos los años sin mayor problema. Lo que nadie tiene en cuenta es que el vertedero ocupa una antigua cantera y que en su fondo hay una grieta abierta que comunica con las galerías abandonadas de la mina, llenas todavía de carbón sin extraer. El fuego baja tranquilamente por esa grieta, prende la veta de carbón que hay debajo del pueblo y ya nadie consigue apagarlo nunca.",
     paginas: [
       {
         rotulo: "Cómo arde una veta",
