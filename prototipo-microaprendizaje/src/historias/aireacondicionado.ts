@@ -122,7 +122,7 @@ export const AIRE_ACONDICIONADO: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1925. Las salas de cine son locales cerrados, sin ventanas y con cientos de personas dentro respirando, así que en julio y agosto se vuelven sencillamente insoportables y muchas echan el cierre hasta septiembre, dando el verano por perdido. Un empresario decide probar exactamente lo contrario: gastarse una fortuna en refrigerar la sala y luego anunciarlo en la marquesina de la calle, con letras más grandes que el título de la película. Lo que vende ya no es el cine: es el aire de dentro.",
+      "Estados Unidos, 1925. Las salas de cine son locales cerrados, sin ventanas y con cientos de personas dentro respirando, así que en julio y agosto se vuelven sencillamente insoportables y muchas echan el cierre hasta septiembre, dando el verano por perdido. Un empresario decide probar exactamente lo contrario: gastarse una fortuna en refrigerar la sala y luego anunciarlo en la marquesina de la calle, con letras más grandes que el título de la película. Lo que vende ya no es la película que echan: es el aire de dentro, y funciona tan bien que en pocos años el verano deja de ser temporada baja para convertirse en la mejor del año.",
     paginas: [
       {
         rotulo: "La marquesina",

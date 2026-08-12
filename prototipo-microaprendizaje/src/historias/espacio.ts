@@ -129,7 +129,7 @@ export const ESPACIO: Short[] = [
       },
     ],
     entrada:
-      "Moscú, otoño de 1957. La Unión Soviética acaba de meter en órbita el primer satélite de la historia y quiere rematar la jugada antes de que acabe el año, coincidiendo con el aniversario de la revolución. El plazo que da el gobierno para lanzar un ser vivo al espacio es de cuatro semanas justas. En un mes no da tiempo material a diseñar nada que sepa volver a la Tierra, ni a probarlo, así que los ingenieros hacen lo único que pueden hacer: diseñan solamente la ida.",
+      "Moscú, otoño de 1957. La Unión Soviética acaba de meter en órbita el primer satélite de la historia y quiere rematar la jugada antes de que acabe el año, coincidiendo con el aniversario de la revolución. El plazo que da el gobierno para lanzar un ser vivo al espacio es de cuatro semanas justas. En un mes no da tiempo material a diseñar nada que sepa volver a la Tierra, ni a probarlo, así que los ingenieros hacen lo único que se puede hacer en cuatro semanas: diseñan solamente la ida. Todo el mundo dentro del programa sabe desde el primer día cómo va a terminar aquello.",
     paginas: [
       {
         rotulo: "La calle",

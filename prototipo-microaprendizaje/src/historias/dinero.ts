@@ -59,7 +59,7 @@ export const DINERO: Short[] = [
       },
     ],
     entrada:
-      "En el verano de 1946, Hungría imprimió un billete con veinte ceros detrás del uno: cien trillones de pengő. Sigue siendo el billete de mayor denominación jamás puesto en circulación por ningún país del mundo, y hay que verlo para creérselo. Con él no se compraba prácticamente nada, ni siquiera un billete de tranvía, y lo llamativo es que no era por escasez de cosas que comprar: los campos daban cosecha y las tiendas abrían. El dinero, sencillamente, había dejado de significar algo en cuestión de meses.",
+      "En el verano de 1946, Hungría imprimió un billete con veinte ceros detrás del uno: cien trillones de pengő. Sigue siendo el billete de mayor denominación jamás puesto en circulación por ningún país del mundo, y hay que verlo para creérselo. Con él no se compraba prácticamente nada, ni siquiera un billete de tranvía, y lo llamativo es que no era por escasez de cosas que comprar: los campos daban cosecha y las tiendas abrían. El dinero, sencillamente, había dejado de significar nada en cuestión de meses, y la gente había vuelto a pagarse las cosas con harina, con tabaco y con horas de trabajo.",
     paginas: [
       {
         rotulo: "La cuesta",

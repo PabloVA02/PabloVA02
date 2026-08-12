@@ -58,7 +58,7 @@ export const ESPECIAS: Short[] = [
       },
     ],
     entrada:
-      "Molucas, en la actual Indonesia, 1667. Holandeses e ingleses firman un tratado para acabar una guerra que llevaba años costándoles barcos y hombres, y de paso se intercambian territorios para dejar las cuentas claras. Los ingleses ceden una islita de tres kilómetros de largo, cubierta de árboles de nuez moscada, que los holandeses llevaban tiempo queriendo. A cambio se quedan con una isla lejana y bastante poco rentable del otro lado del mundo, llamada entonces Nueva Ámsterdam. En aquel momento nadie dudó de quién había salido ganando.",
+      "Molucas, en la actual Indonesia, 1667. Holandeses e ingleses firman un tratado para acabar una guerra que llevaba años costándoles barcos y hombres, y de paso se intercambian territorios para dejar las cuentas claras. Los ingleses ceden una islita de tres kilómetros de largo, cubierta de árboles de nuez moscada, que los holandeses llevaban tiempo queriendo. A cambio se quedan con una isla lejana y bastante poco rentable del otro lado del mundo, llamada entonces Nueva Ámsterdam. En aquel momento nadie en las dos delegaciones dudó de quién había salido ganando con el cambio, y las crónicas de la época lo dan por descontado.",
     paginas: [
       {
         rotulo: "El monopolio",

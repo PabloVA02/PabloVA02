@@ -60,7 +60,7 @@ export const ESPIONAJE: Short[] = [
       },
     ],
     entrada:
-      "En 1945, un grupo de niños de una organización juvenil soviética entregó al embajador de Estados Unidos en Moscú un regalo de buena voluntad delante de las cámaras: un escudo con el águila americana, tallado en madera con notable primor y evidente esfuerzo. El embajador, encantado con el detalle, lo colgó en la pared de su despacho, en la residencia oficial, que es exactamente donde estaba previsto que lo colgara. Allí estuvo siete años, colgado a la vista de todos, y durante esos siete años estuvo funcionando.",
+      "En 1945, un grupo de niños de una organización juvenil soviética entregó al embajador de Estados Unidos en Moscú un regalo de buena voluntad delante de las cámaras: un escudo con el águila americana, tallado en madera con notable primor y evidente esfuerzo. El embajador, encantado con el detalle, lo colgó en la pared de su despacho, en la residencia oficial, que es exactamente donde estaba previsto que lo colgara. Allí estuvo siete años, colgado a la vista de todos y de todas las visitas, pasando por delante de cuatro embajadores y de varias inspecciones de seguridad. Durante esos siete años estuvo funcionando.",
     paginas: [
       {
         rotulo: "Sin pilas",

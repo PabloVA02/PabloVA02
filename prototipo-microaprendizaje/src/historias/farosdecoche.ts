@@ -125,7 +125,7 @@ export const FAROS_DE_COCHE: Short[] = [
       },
     ],
     entrada:
-      "Francia y Estados Unidos, 1928. Un fabricante saca al mercado un coche cuyo faro central gira con el volante, de modo que la luz sigue la curva en vez de apuntar siempre recta hacia delante. La idea resuelve un problema que cualquiera que haya conducido de noche por carretera de montaña ha sufrido sin ponerle nombre: en una curva cerrada, el coche apunta a un sitio y la carretera se va hacia el otro, así que los faros alumbran la cuneta y el resto queda a oscuras.",
+      "Francia y Estados Unidos, 1928. Un fabricante saca al mercado un coche cuyo faro central gira con el volante, de modo que la luz sigue la curva en vez de apuntar siempre recta hacia delante. La idea resuelve un problema que cualquiera que haya conducido de noche por carretera de montaña ha sufrido sin ponerle nombre: en una curva cerrada, el coche apunta a un sitio y la carretera se va hacia el otro, así que los faros alumbran la cuneta o el vacío mientras la carretera de verdad queda a oscuras justo donde hace falta verla.",
     paginas: [
       {
         rotulo: "Alumbrar la curva",
