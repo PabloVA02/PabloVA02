@@ -130,7 +130,7 @@ export const PERFUME: Short[] = [
       },
     ],
     entrada:
-      "Costas de medio mundo, siglo XVI. De vez en cuando aparece varada en la arena una masa cerosa y grisácea, del tamaño de un melón o de un balón, que huele a establo y que nadie recogería si supiera solo eso. Quien la encuentra puede estar delante de varios cientos de miles de euros sin sospecharlo siquiera. Durante siglos nadie supo qué era ni de dónde salía: se dijo que era espuma de mar endurecida, resina de árboles submarinos o excremento de pájaro gigante.",
+      "Costas de medio mundo, siglo XVI. De vez en cuando aparece varada en la arena una masa cerosa y grisácea, del tamaño de un melón o de un balón de playa, que huele a establo y que nadie en su sano juicio recogería si supiera solo eso de ella. Quien la encuentra puede estar delante de varios cientos de miles de euros sin sospecharlo siquiera, y lo normal es que la aparte con el pie y siga andando. Durante siglos nadie supo qué era ni de dónde salía, y las explicaciones que se dieron fueron tan variadas como falsas: espuma de mar endurecida, resina de árboles submarinos, excremento de un pájaro gigante.",
     paginas: [
       {
         rotulo: "Qué es",

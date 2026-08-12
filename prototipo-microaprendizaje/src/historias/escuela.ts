@@ -59,7 +59,7 @@ export const ESCUELA: Short[] = [
       },
     ],
     entrada:
-      "China, siglo VII. El imperio empieza a seleccionar a sus funcionarios mediante un examen abierto a casi cualquier varón, sin importar de qué familia venga ni de qué provincia llegue. Es la primera vez en la historia que un puesto de poder se reparte por una prueba escrita y no por nacimiento, y la idea resulta tan chocante entonces como práctica: el imperio necesita administradores capaces y las familias nobles no dan abasto. El sistema durará mil trescientos años, hasta que se suprime en 1905.",
+      "China, siglo VII. El imperio empieza a seleccionar a sus funcionarios mediante un examen abierto a casi cualquier varón, sin importar de qué familia venga, de qué provincia llegue ni cuánto dinero tenga detrás. Es la primera vez en la historia que un puesto de poder se reparte por una prueba escrita y no por nacimiento, y la idea resulta entonces tan chocante como práctica: el imperio ha crecido, necesita administradores capaces por miles y las familias nobles no dan abasto para llenar los puestos. El sistema no fue un experimento pasajero, porque durará mil trescientos años y solo se suprimirá, ya agotado, en 1905.",
     paginas: [
       {
         rotulo: "La celda",

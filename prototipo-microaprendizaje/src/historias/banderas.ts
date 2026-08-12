@@ -124,7 +124,7 @@ export const BANDERAS: Short[] = [
       },
     ],
     entrada:
-      "Mares del mundo, 1857. Se publica un código internacional de señales para que barcos de países distintos puedan entenderse sin compartir ningún idioma y sin oírse a gritos por encima del viento. Se basa en un juego de banderas de colores muy contrastados, cada una asociada a una letra del alfabeto y también, ella sola, a un mensaje completo que puede ser urgente. Sigue vigente hoy, actualizado varias veces, y cualquier marino del mundo lo entiende a un kilómetro de distancia sin necesidad de radio.",
+      "Mares del mundo, 1857. Se publica un código internacional de señales para que barcos de países distintos puedan entenderse sin compartir ningún idioma, sin radio y sin oírse a gritos por encima del viento. Se basa en un juego de banderas de colores muy contrastados, cada una asociada a una letra del alfabeto y también, ella sola y sin acompañamiento, a un mensaje completo que muchas veces es urgente. Ese doble uso es lo que lo hace práctico: una bandera izada en el mástil dice una frase entera. Sigue vigente hoy, actualizado varias veces, y cualquier marino del mundo lo entiende a un kilómetro de distancia.",
     paginas: [
       {
         rotulo: "Los colores",

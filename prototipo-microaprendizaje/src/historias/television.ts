@@ -58,7 +58,7 @@ export const TELEVISION: Short[] = [
       },
     ],
     entrada:
-      "Idaho, en el oeste de Estados Unidos, 1921. Un chico de catorce años que está arando el campo de su familia con un caballo se queda mirando los surcos paralelos que va dejando detrás, uno al lado del otro y todos iguales. Aquella imagen tan tonta le sugiere una idea que nadie había tenido: barrer una imagen entera línea por línea, muy deprisa, con un haz de electrones. Ese mismo invierno la dibuja en la pizarra de su clase de química, delante del profesor.",
+      "Idaho, en el oeste de Estados Unidos, 1921. Un chico de catorce años que está arando el campo de su familia con un caballo se queda mirando los surcos paralelos que va dejando detrás, uno al lado del otro, todos iguales y todos a la misma distancia. Aquella imagen, que no tiene nada de particular y que ha visto mil veces, le sugiere una idea que hasta entonces no había tenido nadie: barrer una imagen entera línea por línea, muy deprisa, con un haz de electrones, igual que el arado barre el campo. Ese mismo invierno la dibuja en la pizarra de su clase de química, delante del profesor.",
     paginas: [
       {
         rotulo: "Las líneas",

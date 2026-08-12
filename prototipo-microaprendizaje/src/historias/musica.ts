@@ -130,7 +130,7 @@ export const MUSICA: Short[] = [
       },
     ],
     entrada:
-      "En 1969, un grupo de soul de Washington llamado The Winstons grabó una cara B de relleno titulada <em>Amen, Brother</em>, de esas que se meten para completar el single y que no escucha casi nadie. En mitad del tema, el batería Gregory Coleman se queda solo durante cuatro compases: seis segundos de redoble improvisado, sin ningún otro instrumento encima. Nadie le dio la menor importancia entonces, ni siquiera el grupo. Ese fragmento es hoy, probablemente, el trozo de música más reutilizado de la historia.",
+      "En 1969, un grupo de soul de Washington llamado The Winstons grabó una cara B de relleno titulada <em>Amen, Brother</em>, de esas que se meten para completar el single y que no escucha casi nadie. En mitad del tema, el batería Gregory Coleman se queda solo durante cuatro compases: seis segundos de redoble improvisado, sin ningún otro instrumento encima, tocados de una sentada y sin repetir la toma. Nadie le dio la menor importancia entonces, ni siquiera el grupo, que cobró por el single y siguió su camino. Ese fragmento de seis segundos es hoy, con bastante probabilidad, el trozo de música más reutilizado de la historia.",
     paginas: [
       {
         rotulo: "El préstamo",

@@ -120,7 +120,7 @@ export const ROBOTS: Short[] = [
       },
     ],
     entrada:
-      "Investigación en inteligencia artificial, con una observación formulada en los años ochenta del siglo XX y que se sigue cumpliendo hoy. Varios investigadores se dieron cuenta a la vez de algo que resultaba llamativo y bastante humillante. Las tareas que a las personas nos parecen difíciles —el cálculo con números grandes, la lógica, el ajedrez— resultan relativamente fáciles de programar en una máquina, mientras que las que hace cualquier niño de dos años sin ningún esfuerzo son justamente las que más se resisten.",
+      "Investigación en inteligencia artificial, con una observación formulada en los años ochenta del siglo XX y que se sigue cumpliendo punto por punto hoy. Varios investigadores llegaron a la vez, cada uno por su lado, a una conclusión llamativa y bastante humillante para el oficio. Las tareas que a las personas nos parecen difíciles y nos dan prestigio, como el cálculo con números grandes, la lógica formal o el ajedrez, resultan relativamente fáciles de programar en una máquina y se resolvieron pronto. En cambio, las que hace cualquier niño de dos años sin el menor esfuerzo y sin que nadie se lo aplauda son justamente las que más se resisten, y algunas siguen sin resolverse.",
     paginas: [
       {
         rotulo: "El calcetín",
