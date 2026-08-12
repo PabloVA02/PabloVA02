@@ -78,13 +78,48 @@ export const BASURA_ELECTRONICA: Short[] = [
   },
   {
     id: "quemar-cables-para-sacar-cobre",
-    titulo: "Queman cables para sacar cobre",
+    titulo: "Queman cable por el cobre",
     gancho: "Es la manera más rápida de separar el metal del plástico, y la que llena el aire de dioxinas.",
     categoria: "Basura",
     color: "var(--clay)",
     encargo: "Humo negro saliendo de un montón de cables ardiendo en un descampado.",
+    fotos: [
+      {
+        archivo: "Agbogbloshie, Ghana - September 2019.jpg",
+        autor: "Quema de cables para recuperar el cobre en el desguace de Agbogbloshie, Ghana, en 2019. Fotografía de Muntaka Chasant.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Agbogbloshie,_Ghana_-_September_2019.jpg",
+        foco: "50% 45%",
+        alt: "Dos hombres junto a una hoguera de cables ardiendo, con humo negro alrededor y un montón de cable en primer plano.",
+      },
+      {
+        archivo: "DFC 4508 A narrow pathway winds through a cluttered scrapyard piled high with discarded metal plastic pipes and other tangled debris.jpg",
+        autor: "Pasillo entre montones de chatarra en un desguace.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:DFC_4508_A_narrow_pathway_winds_through_a_cluttered_scrapyard_piled_high_with_discarded_metal_plastic_pipes_and_other_tangled_debris.jpg",
+        foco: "50% 50%",
+        alt: "Camino estrecho entre pilas de metal, tubos y restos amontonados en un desguace.",
+      },
+      {
+        archivo: "RF Preamplifier for MC3362 NFM receiver (52072009241).jpg",
+        autor: "Placa de circuito impreso vista de cerca, con sus pistas y componentes.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:RF_Preamplifier_for_MC3362_NFM_receiver_(52072009241).jpg",
+        foco: "50% 50%",
+        alt: "Circuito impreso con pistas de cobre y componentes soldados, fotografiado muy de cerca.",
+      },
+      {
+        archivo: "Car parts and scrap metal piled inside a vehicle.jpg",
+        autor: "Piezas y chatarra amontonadas dentro de un vehículo desguazado. Fotografía de Shixart1985.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Car_parts_and_scrap_metal_piled_inside_a_vehicle.jpg",
+        foco: "50% 50%",
+        alt: "Montón de piezas metálicas oxidadas amontonadas sin orden dentro de una carrocería.",
+      },
+    ],
     entrada:
-      "África occidental y el sur de Asia, con el problema documentado desde los años noventa del siglo XX. Millones de aparatos europeos y estadounidenses acaban cada año en desguaces informales de esos países. Allí trabajan miles de personas, muchas de ellas menores, desmontando electrónica con martillos y con fuego. El método más rentable y más dañino consiste en quemar el plástico para quedarse con el cobre.",
+      "África occidental y el sur de Asia, con el problema documentado desde los años noventa del siglo XX. Millones de aparatos europeos y estadounidenses acaban cada año en desguaces informales de esos países, muchos declarados como donaciones de material usado para saltarse las normas de exportación de residuos. Allí trabajan miles de personas, muchas de ellas menores de edad, desmontando electrónica con martillos y con fuego. Y el método más rentable de todos, que es también el más dañino, consiste en prender el plástico para quedarse con el cobre.",
     paginas: [
       {
         rotulo: "El fuego",
