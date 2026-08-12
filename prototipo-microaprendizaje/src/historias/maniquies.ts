@@ -88,8 +88,42 @@ export const MANIQUIES: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Un maniqui blanco liso de tienda, sin rasgos en la cara, con una camisa puesta.",
+    fotos: [
+      {
+        archivo: "Dress form IMGP0821.jpg",
+        autor: "Maniquí de sastre de la primera mitad del siglo XX, forrado de lino y rematado con un pomo de madera.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADress%20form%20IMGP0821.jpg",
+        foco: "50% 58%",
+        alt: "Busto de maniquí de costura forrado en tela cruda, sin brazos ni cabeza, con un remate de madera torneada arriba.",
+      },
+      {
+        archivo: "Life-sized and smaller scale Dress forms.jpg",
+        autor: "Maniquíes de costura a tamaño real y a escala reducida, de los que se usan para probar patrones.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALife-sized%20and%20smaller%20scale%20Dress%20forms.jpg",
+        foco: "50% 50%",
+        alt: "Varios bustos de maniquí de distintos tamaños puestos en fila sobre sus pies metálicos.",
+      },
+      {
+        archivo: "Dress forms of type made by members of Extension classes in clothing under the - (3855498503).jpg",
+        autor: "Maniquíes hechos a mano en unas clases de costura de hacia 1914. Biblioteca de la Universidad de Cornell.",
+        licencia: "No restrictions",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADress%20forms%20of%20type%20made%20by%20members%20of%20Extension%20classes%20in%20clothing%20under%20the%20-%20(3855498503).jpg",
+        foco: "50% 50%",
+        alt: "Fila de maniquíes de tela caseros, cada uno con una silueta distinta, apoyados contra una pared.",
+      },
+      {
+        archivo: "Bond Street Winter Fashion 2016 (30907796334).jpg",
+        autor: "Escaparate de moda en Bond Street, Londres, en diciembre de 2016.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABond%20Street%20Winter%20Fashion%202016%20(30907796334).jpg",
+        foco: "50% 50%",
+        alt: "Escaparate iluminado con maniquíes vestidos y decoración de invierno detrás del cristal.",
+      },
+    ],
     entrada:
-      "Comercio de ropa, desde los años veinte del siglo XX. Cuando el maniquí de escayola sustituye al de cera, el fabricante tiene que decidir qué medidas le da, y esa decisión no la toma un sastre ni un médico. La toma quien vende, con un criterio comercial muy concreto: que la prenda caiga recta, sin bolsas ni arrugas, mirada desde cualquier punto de la calle.",
+      "Comercio de ropa, desde los años veinte del siglo XX. Cuando el maniquí de escayola sustituye al antiguo de cera, el fabricante tiene que decidir qué medidas exactas le da a cada modelo, y esa decisión, que va a acabar afectando a cómo se ve la gente, no la toma un sastre ni un médico ni nadie que estudie cuerpos. La toma quien vende, y la toma con un criterio comercial muy concreto y perfectamente razonable desde su lado del mostrador: que la prenda caiga recta, sin bolsas ni arrugas, mirada desde cualquier punto de la calle y a cualquier hora.",
     paginas: [
       {
         rotulo: "El perchero",
