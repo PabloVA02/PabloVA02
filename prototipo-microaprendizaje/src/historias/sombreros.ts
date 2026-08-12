@@ -87,6 +87,40 @@ export const SOMBREROS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un sombrero bombín negro y duro sobre una mesa de madera, de perfil.",
+    fotos: [
+      {
+        archivo: "Christy's Fur Devon Bowler - adjustable hunting pad.JPG",
+        autor: "Interior de un bombín de fieltro endurecido, con la almohadilla acolchada dentro de la copa.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AChristy's%20Fur%20Devon%20Bowler%20-%20adjustable%20hunting%20pad.JPG",
+        foco: "50% 42%",
+        alt: "Bombín negro visto por dentro, con el forro gris y un aro acolchado de raso rojo en el fondo de la copa.",
+      },
+      {
+        archivo: "John W. Bubbles bowler hat (32869849220).jpg",
+        autor: "Bombín de fieltro gris conservado en un museo.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AJohn%20W.%20Bubbles%20bowler%20hat%20(32869849220).jpg",
+        foco: "50% 50%",
+        alt: "Sombrero bombín de copa redonda y ala corta, apoyado sobre una peana clara.",
+      },
+      {
+        archivo: "Bowler hats by Sonia Rykiel in Paris 2008-09-06 0957.jpg",
+        autor: "Bombines expuestos en un escaparate de París.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABowler%20hats%20by%20Sonia%20Rykiel%20in%20Paris%202008-09-06%200957.jpg",
+        foco: "50% 50%",
+        alt: "Fila de bombines colocados uno junto a otro detrás de un cristal.",
+      },
+      {
+        archivo: "Portrait of man in derby hat (I0013520).tif",
+        autor: "Retrato de estudio de un hombre con bombín, entre 1898 y 1920. Archivos de Ontario.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APortrait%20of%20man%20in%20derby%20hat%20(I0013520).tif",
+        foco: "50% 35%",
+        alt: "Retrato antiguo en blanco y negro de un hombre con abrigo y sombrero bombín.",
+      },
+    ],
     entrada:
       "Londres, 1849. Un aristócrata inglés entra en una sombrerería con un encargo poco habitual: quiere un sombrero para los guardas que vigilan a caballo sus tierras. Los que llevan, de copa alta y blandos, se enganchan con las ramas bajas y se caen constantemente, y algunos guardas han terminado en el suelo. Pide una pieza baja, redonda y sobre todo dura.",
     paginas: [
