@@ -145,7 +145,7 @@ export const JARDINES: Short[] = [
 
   {
     id: "jardines-colgantes",
-    titulo: "Los jardines colgantes no estaban allí",
+    titulo: "Los jardines eran de Nínive",
     gancho: "Son la única de las siete maravillas de la que no se ha encontrado un solo ladrillo.",
     categoria: "Jardines",
     color: "var(--ochre)",

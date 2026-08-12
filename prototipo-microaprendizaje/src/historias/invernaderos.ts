@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const INVERNADEROS: Short[] = [
   {
     id: "por-que-calienta-el-cristal",
-    titulo: "No es el efecto invernadero",
+    titulo: "No es efecto invernadero",
     gancho: "No es por el efecto invernadero de la atmósfera, aunque se llame igual. Es mucho más simple: el aire caliente no puede escaparse.",
     categoria: "Invernaderos",
     color: "var(--ochre)",

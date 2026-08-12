@@ -85,7 +85,7 @@ export const JUSTICIA: Short[] = [
 
   {
     id: "alcatraz-fuga",
-    titulo: "Tres se fugaron y no aparecieron",
+    titulo: "Tres se fugaron sin rastro",
     gancho: "Cavaron con cucharas, dejaron cabezas de papel maché en las camas y salieron en una balsa de impermeables.",
     categoria: "Justicia",
     color: "var(--slate)",
@@ -115,7 +115,7 @@ export const JUSTICIA: Short[] = [
 
   {
     id: "primera-huella",
-    titulo: "La primera condena por una huella",
+    titulo: "Condenado por una huella",
     gancho: "Un policía guardaba fichas con huellas por su cuenta. Un pulgar ensangrentado en un marco resolvió el caso.",
     categoria: "Justicia",
     color: "var(--clay)",

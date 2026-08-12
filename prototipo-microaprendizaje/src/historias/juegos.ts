@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const JUEGOS: Short[] = [
   {
     id: "monopoly-denuncia",
-    titulo: "Nació contra los monopolios",
+    titulo: "Nació contra monopolios",
     gancho: "Lo diseñó una mujer en 1904 para enseñar por qué acaparar suelo arruina a todos.",
     categoria: "Juegos",
     color: "var(--ochre)",
@@ -87,7 +87,7 @@ export const JUEGOS: Short[] = [
 
   {
     id: "turco-ajedrez",
-    titulo: "El autómata que hacía trampas",
+    titulo: "El autómata tramposo",
     gancho: "Ganó a media Europa durante 84 años. Dentro iba una persona.",
     categoria: "Juegos",
     color: "var(--plum)",
@@ -153,7 +153,7 @@ export const JUEGOS: Short[] = [
 
   {
     id: "cubo-rubik-veinte",
-    titulo: "Veinte movimientos bastan siempre",
+    titulo: "Veinte movimientos bastan",
     gancho: "Hay 43 trillones de posiciones y ninguna necesita más. Se demostró en 2010.",
     categoria: "Juegos",
     color: "var(--clay)",

@@ -89,7 +89,7 @@ export const ISLAS: Short[] = [
 
   {
     id: "isla-que-se-hundio",
-    titulo: "Tres banderas, ninguna isla",
+    titulo: "Tres banderas, sin isla",
     gancho: "Emergió del Mediterráneo en 1831, le clavaron tres banderas y desapareció antes de fin de año.",
     categoria: "Islas",
     color: "var(--ochre)",
@@ -154,7 +154,7 @@ export const ISLAS: Short[] = [
 
   {
     id: "isla-nueva-cerrada",
-    titulo: "Una isla nueva que nadie pisa",
+    titulo: "Una isla que nadie pisa",
     gancho: "Nació en 1963 y se cerró al público para ver qué llega solo. Apareció una tomatera.",
     categoria: "Islas",
     color: "var(--plum)",
