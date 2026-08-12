@@ -83,8 +83,43 @@ export const PILAS: Short[] = [
     categoria: "Tecnología",
     color: "var(--slate)",
     encargo: "Batería de móvil hinchada, con la carcasa abombada y separada del marco.",
+    fotos: [
+      {
+        archivo: "Li-ion battery explosion.jpg",
+        autor: "Un ensayo de seguridad: una celda de litio golpeada con un mazo revienta en una lluvia de chispas. Fotografía de Tavo Romann.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Li-ion_battery_explosion.jpg",
+        foco: "45% 50%",
+        alt: "Surtidor de chispas naranjas saliendo de una pila golpeada por un mazo, sobre la hierba al anochecer.",
+      },
+      {
+        archivo: "Lithium-Ion Battery for BMW i3 - SB-LiMotive Cells.JPG",
+        autor: "Celdas de una batería de iones de litio para coche eléctrico. Fotografía de Rudolf Simon.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lithium-Ion_Battery_for_BMW_i3_-_SB-LiMotive_Cells.JPG",
+        foco: "50% 50%",
+        alt: "Módulo de batería con celdas planas alineadas y sus conexiones metálicas a la vista.",
+      },
+      {
+        archivo: "Lithium Energy Japan LEV50 Rechargeable Li-ion battery cell in Tokyo Motor Show 2011.jpg",
+        autor: "Celda recargable de iones de litio expuesta en el Salón del Automóvil de Tokio, 2011.",
+        licencia: "CC BY-SA 3.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Lithium_Energy_Japan_LEV50_Rechargeable_Li-ion_battery_cell_in_Tokyo_Motor_Show_2011.jpg",
+        foco: "50% 50%",
+        alt: "Celda de batería metálica rectangular con dos bornes en la tapa, sobre un expositor.",
+      },
+      {
+        archivo: "Alkaline AA batteries.jpg",
+        autor: "Pilas alcalinas corrientes, las que no llevan litio dentro. Fotografía de Maksym Kozlenko.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Alkaline_AA_batteries.jpg",
+        foco: "50% 50%",
+        alt: "Varias pilas cilíndricas colocadas juntas, con los polos metálicos brillando.",
+      },
+    ],
     entrada:
-      "Japón, 1991. Sale al mercado la primera batería recargable de iones de litio, un invento que estaba parado desde hacía quince años por un problema de seguridad. El litio es el metal más ligero que existe y guarda muchísima energía por gramo, y por eso es ideal para una batería. También es el motivo de que una batería estropeada pueda arder sin que nadie la apague.",
+      "Japón, 1991. Sale al mercado la primera batería recargable de iones de litio, un invento que llevaba quince años parado en los laboratorios por un problema de seguridad que nadie sabía resolver. El litio es el metal más ligero que existe y guarda muchísima energía por gramo, y por eso es ideal para una batería que tiene que caber en un bolsillo. Es también, exactamente por lo mismo, el motivo de que una batería estropeada pueda arder por dentro sin que nadie sea capaz de apagarla desde fuera.",
     paginas: [
       {
         rotulo: "Ida y vuelta",
