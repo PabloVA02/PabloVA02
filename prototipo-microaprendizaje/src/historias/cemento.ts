@@ -83,13 +83,47 @@ export const CEMENTO: Short[] = [
 
   {
     id: "hormigon-de-macetas",
-    titulo: "El hormigón armado, cosa de jardinero",
+    titulo: "El invento del jardinero",
     gancho: "Se le rompían las macetas grandes, así que probó a meterles una malla de alambre dentro.",
     categoria: "Cemento",
     color: "var(--slate)",
     encargo: "Una tinaja grande de cemento con un naranjo plantado dentro.",
+    fotos: [
+      {
+        archivo: "Rusty rebar nets.jpg",
+        autor: "Mallas de acero corrugado apiladas en una obra, esperando a que las cubra el hormigón.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARusty%20rebar%20nets.jpg",
+        foco: "50% 50%",
+        alt: "Rejillas de barras de acero oxidado superpuestas, formando un dibujo denso de cuadrados y diagonales.",
+      },
+      {
+        archivo: "Het betonvlechten voor de bouw. F57618.jpeg",
+        autor: "Ferrallistas atando la armadura de acero antes de hormigonar.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHet%20betonvlechten%20voor%20de%20bouw.%20F57618.jpeg",
+        foco: "50% 50%",
+        alt: "Obreros agachados sobre una parrilla de barras de acero, atándolas con alambre una a una.",
+      },
+      {
+        archivo: "William Jolly Bridge from Gallery of Modern Art South Brisbane P1300590.jpg",
+        autor: "El puente William Jolly, en Brisbane, con sus arcos de hormigón armado de 1932.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWilliam%20Jolly%20Bridge%20from%20Gallery%20of%20Modern%20Art%20South%20Brisbane%20P1300590.jpg",
+        foco: "50% 50%",
+        alt: "Puente de arcos claros de hormigón cruzando un río ancho, con la ciudad al fondo.",
+      },
+      {
+        archivo: "Reinforced concrete rusted rebars german bunkers Pointe du Hoc.jpg",
+        autor: "Búnker de la Punta del Hoc, en Normandía, con el acero interior oxidado y el hormigón reventado.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AReinforced%20concrete%20rusted%20rebars%20german%20bunkers%20Pointe%20du%20Hoc.jpg",
+        foco: "50% 50%",
+        alt: "Bloque de hormigón partido con las barras de acero asomando, comidas de óxido.",
+      },
+    ],
     entrada:
-      "Francia, 1867. Un jardinero que cultiva naranjos en tinajas tiene un problema práctico: los recipientes de barro se agrietan con las heladas y con las raíces, y los de cemento puro resultan frágiles y se parten al moverlos de sitio. Prueba a colocar una malla de alambre dentro del molde antes de verter la mezcla, y patenta el resultado ese mismo año.",
+      "Francia, 1867. Un jardinero que cultiva naranjos en tinajas tiene un problema puramente práctico y bastante caro: los recipientes de barro se le agrietan con las heladas y con las raíces, y los de cemento puro salen frágiles y se parten en cuanto hay que moverlos de sitio. Se le ocurre colocar una malla de alambre dentro del molde antes de verter la mezcla, para que la tinaja tenga algo a lo que agarrarse por dentro. Funciona, patenta el invento ese mismo año, y sin saberlo acaba de inventar el material con el que se construirá el siglo siguiente.",
     paginas: [
       {
         rotulo: "Los dos materiales",
