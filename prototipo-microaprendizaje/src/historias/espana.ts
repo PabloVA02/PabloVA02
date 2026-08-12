@@ -153,8 +153,42 @@ export const ESPANA: Short[] = [
     categoria: "España",
     color: "var(--slate)",
     encargo: "Un galeón pequeño y castigado entrando en un puerto al amanecer.",
+    fotos: [
+      {
+        archivo: "Réplica de la Nao Victoria (3).jpg",
+        autor: "Cubierta y jarcia de la réplica de la nao Victoria, 2025.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AR%C3%A9plica%20de%20la%20Nao%20Victoria%20(3).jpg",
+        foco: "50% 28%",
+        alt: "Mástiles, vergas y cabos de un barco de vela del siglo XVI recortados contra el cielo.",
+      },
+      {
+        archivo: "Réplica de la Nao Victoria (2).jpg",
+        autor: "La réplica de la nao Victoria amarrada en el Guadalquivir, Sevilla, 2025.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AR%C3%A9plica%20de%20la%20Nao%20Victoria%20(2).jpg",
+        foco: "42% 55%",
+        alt: "Barco de madera con tres palos amarrado junto al muelle de un río, con palmeras detrás.",
+      },
+      {
+        archivo: "Nao Victoria 500.jpg",
+        autor: "La nao Victoria en el quinto centenario de la vuelta al mundo, 2020.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANao%20Victoria%20500.jpg",
+        foco: "50% 50%",
+        alt: "Casco y velamen de la réplica de la nao Victoria vistos desde el costado.",
+      },
+      {
+        archivo: "Sevilla - Torre del Oro and river Guadalquivir - 1.jpg",
+        autor: "La Torre del Oro y el Guadalquivir, Sevilla, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASevilla%20-%20Torre%20del%20Oro%20and%20river%20Guadalquivir%20-%201.jpg",
+        foco: "50% 55%",
+        alt: "Torre almohade de piedra junto al río por el que salían las flotas a América.",
+      },
+    ],
     entrada:
-      "Sevilla, agosto de 1519. Cinco barcos zarpan con doscientos cuarenta hombres a bordo y una idea que suena razonable: llegar a las islas de las especias por el oeste, dando la vuelta al continente americano, y ahorrarse la ruta portuguesa. Manda un marino portugués al servicio del rey de España, Magallanes. Nadie ha hecho ese viaje antes, así que nadie sabe cuánto se tarda ni si se puede.",
+      "Sevilla, agosto de 1519. Cinco barcos zarpan del Guadalquivir con doscientos cuarenta hombres a bordo y una idea que sobre el papel suena razonable: llegar a las islas de las especias navegando hacia el oeste, dando la vuelta al continente americano por algún paso que tiene que estar por ahí, y ahorrarse así la ruta portuguesa alrededor de África. Manda la expedición un marino portugués al servicio del rey de España, Fernando de Magallanes. Nadie ha hecho ese viaje antes, de modo que nadie sabe cuánto se tarda, ni por dónde se pasa, ni siquiera si se puede.",
     paginas: [
       {
         rotulo: "El paso",
