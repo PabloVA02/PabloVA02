@@ -79,13 +79,47 @@ export const IMPRENTA_ORIENTAL: Short[] = [
   },
   {
     id: "el-libro-coreano",
-    titulo: "El libro que ganó a Gutenberg",
+    titulo: "Corea imprimió antes",
     gancho: "Se imprimió en un templo coreano en 1377, setenta y ocho años antes que la Biblia de Gutenberg.",
     categoria: "Imprenta oriental",
     color: "var(--slate)",
     encargo: "Un libro antiguo abierto con caracteres impresos en columnas verticales.",
+    fotos: [
+      {
+        archivo: "Haeinsa Temple 04.jpg",
+        autor: "Pabellón del templo de Haeinsa, en Corea del Sur, donde se guarda la mayor colección de tacos de imprenta budistas. Fotografía de Bernard Gagnon.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Haeinsa_Temple_04.jpg",
+        foco: "50% 45%",
+        alt: "Pabellón coreano de madera con tejado curvo y aleros pintados, con macetas de crisantemos delante.",
+      },
+      {
+        archivo: "Early Metal Blocks, Cheongju Early Printing Museum.jpg",
+        autor: "Tipos metálicos antiguos en el Museo de la Imprenta Antigua de Cheongju, Corea del Sur.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Early_Metal_Blocks,_Cheongju_Early_Printing_Museum.jpg",
+        foco: "50% 50%",
+        alt: "Piezas metálicas pequeñas con caracteres grabados, colocadas en filas dentro de una vitrina.",
+      },
+      {
+        archivo: "Haeinsa Temple 03.jpg",
+        autor: "Patio y edificios del templo de Haeinsa. Fotografía de Bernard Gagnon.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Haeinsa_Temple_03.jpg",
+        foco: "50% 50%",
+        alt: "Conjunto de pabellones de madera de un templo coreano entre montañas boscosas.",
+      },
+      {
+        archivo: "Haeinsa Temple 12.jpg",
+        autor: "Otro rincón del recinto del templo de Haeinsa. Fotografía de Bernard Gagnon.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Haeinsa_Temple_12.jpg",
+        foco: "50% 50%",
+        alt: "Muros de piedra y edificios de madera de un monasterio coreano, con escaleras y árboles.",
+      },
+    ],
     entrada:
-      "Corea, 1377. En el templo de una ciudad del centro del país se imprime una antología budista en dos volúmenes usando tipos de metal fundidos uno a uno. Es la obra impresa con tipos metálicos más antigua que se conserva en el mundo, setenta y ocho años anterior a la Biblia europea de 1455 con la que suele empezarse la historia de la imprenta.",
+      "Corea, 1377. En el templo de una ciudad del centro del país se imprime una antología budista en dos volúmenes usando tipos de metal fundidos uno a uno, en un taller que llevaba décadas perfeccionando el sistema. Es la obra impresa con tipos metálicos más antigua que se conserva en el mundo entero, setenta y ocho años anterior a la Biblia europea de 1455 con la que se suele empezar, en todos los libros de texto, la historia de la imprenta. Y sin embargo no cambió nada. Esa es la parte interesante del asunto.",
     paginas: [
       {
         rotulo: "Fundir en arena",
