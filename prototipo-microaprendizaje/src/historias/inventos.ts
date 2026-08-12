@@ -93,8 +93,42 @@ export const INVENTOS: Short[] = [
     categoria: "Inventos",
     color: "var(--ochre)",
     encargo: "Un taco de notas adhesivas amarillas, luz lateral, esquina levantada.",
+    fotos: [
+      {
+        archivo: "Sticky Note colors.jpg",
+        autor: "Tacos de notas adhesivas de colores apilados unos sobre otros.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASticky%20Note%20colors.jpg",
+        foco: "45% 50%",
+        alt: "Montón de blocs de notas adhesivas rosas, verdes, amarillos y naranjas apilados en desorden.",
+      },
+      {
+        archivo: "Research chemist in the Aeromaterials laboratory at the Naval Air Engineering Center - DPLA - b07eb975168811d2772a5827fe577855.jpg",
+        autor: "Químico trabajando con un aparato de destilación en un laboratorio de materiales, hacia 1965.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AResearch%20chemist%20in%20the%20Aeromaterials%20laboratory%20at%20the%20Naval%20Air%20Engineering%20Center%20-%20DPLA%20-%20b07eb975168811d2772a5827fe577855.jpg",
+        foco: "50% 50%",
+        alt: "Hombre de bata blanca manejando un montaje de vidrio de laboratorio con tubos y matraces.",
+      },
+      {
+        archivo: "Downtown Boise photographed from Camel's Back Park.jpg",
+        autor: "Boise, en Idaho, la ciudad donde se repartieron las primeras muestras gratis.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADowntown%20Boise%20photographed%20from%20Camel's%20Back%20Park.jpg",
+        foco: "50% 50%",
+        alt: "Vista de una ciudad de tamaño medio con unos pocos edificios altos, rodeada de árboles y colinas.",
+      },
+      {
+        archivo: "Sticky Notes in different colors.jpg",
+        autor: "Notas adhesivas sueltas de varios colores.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASticky%20Notes%20in%20different%20colors.jpg",
+        foco: "50% 50%",
+        alt: "Hojas cuadradas de papel adhesivo de colores repartidas sobre una superficie clara.",
+      },
+    ],
     entrada:
-      "En 1968, un químico de 3M llamado Spencer Silver buscaba un adhesivo más fuerte para la industria aeronáutica. Le salió lo contrario: unas microesferas que se pegaban con muy poca fuerza, se despegaban sin dejar rastro y podían volver a pegarse muchas veces. Un fracaso limpio. Silver estaba convencido de que aquello servía para algo, pero no sabía para qué.",
+      "En 1968, un químico de 3M llamado Spencer Silver buscaba un adhesivo más fuerte para la industria aeronáutica, que era lo que le habían pedido y para lo que había dinero. Le salió justo lo contrario: unas microesferas que se pegaban con muy poca fuerza, se despegaban sin dejar el menor rastro y podían volver a pegarse muchas veces sin perder agarre. Un fracaso limpio y perfectamente reproducible. Silver estaba convencido de que aquello servía para algo, porque no había visto nunca nada parecido, pero no tenía la menor idea de para qué.",
     paginas: [
       {
         rotulo: "Buscando problema",
