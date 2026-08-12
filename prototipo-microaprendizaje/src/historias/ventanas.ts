@@ -80,12 +80,47 @@ export const VENTANAS: Short[] = [
   },
   {
     id: "el-doble-cristal",
-    titulo: "Lo que aísla en una ventana es el aire",
+    titulo: "Lo que aísla es el aire",
     gancho: "No el cristal, que conduce el calor bastante bien. Lo que frena el frío es la cámara de aire quieto entre dos hojas.",
     categoria: "Ventanas",
     color: "var(--slate)",
     curioso: true,
     encargo: "Un perfil de ventana cortado, con dos cristales y la separación entre ellos.",
+    fotos: [
+      {
+        archivo: "Ice Crystals on Window Pane.jpg",
+        autor: "Cristales de hielo formados sobre el vidrio de una ventana. Fotografía de Jojoo64.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ice_Crystals_on_Window_Pane.jpg",
+        foco: "50% 50%",
+        alt: "Helechos de escarcha dibujados sobre un cristal, iluminados en azul sobre fondo oscuro.",
+      },
+      {
+        archivo: "Eisblumen am Fenster des Warteraums, Bahnhof Wolfsbergkogel; 29.11.2018.jpg",
+        autor: "Flores de hielo en la ventana de la sala de espera de una estación austriaca.",
+        licencia: "CC BY-SA 3.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Eisblumen_am_Fenster_des_Warteraums,_Bahnhof_Wolfsbergkogel;_29.11.2018.jpg",
+        foco: "50% 50%",
+        alt: "Ventana antigua cubierta de escarcha, con la luz de fuera pasando entre los dibujos de hielo.",
+      },
+      {
+        archivo: "Eisblumen an einem alten Fenster.jpg",
+        autor: "Escarcha en el cristal de una ventana vieja. Fotografía de Soluvo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Eisblumen_an_einem_alten_Fenster.jpg",
+        foco: "50% 50%",
+        alt: "Cristal helado con dibujos de hielo en forma de plumas, con el marco de madera al lado.",
+      },
+      {
+        archivo: "Ruhland, Grenzstr. 3, Eisblumen, 04.jpg",
+        autor: "Flores de hielo en una ventana de Ruhland, Alemania. Fotografía de Wilhelm Zimmerling.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ruhland,_Grenzstr._3,_Eisblumen,_04.jpg",
+        foco: "50% 50%",
+        alt: "Dibujos de escarcha sobre un cristal, con la luz del día detrás.",
+      },
+    ],
     entrada:
       "Estados Unidos, 1930. Se patenta un sistema para sellar dos hojas de vidrio dejando una cámara de aire entre ellas, y esa idea acaba cambiando la construcción de medio mundo. La razón es que el vidrio, por sí solo, es un aislante mediocre: una ventana simple pierde por metro cuadrado bastante más calor que la pared de al lado.",
     paginas: [
