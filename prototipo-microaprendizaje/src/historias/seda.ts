@@ -158,8 +158,44 @@ export const SEDA: Short[] = [
     categoria: "Seda",
     color: "var(--slate)",
     encargo: "Un escaparate de los años cuarenta con medias colgadas y un cartel escrito a mano.",
+    fotos: [
+      {
+        archivo: "Neoclassical furnishing fabric detail, Les quatres parties du monde, Lyon France, c. 1785, silk lampas - Patricia Harris Gallery of Textiles & Costume, Royal Ontario Museum - DSC09412.JPG",
+        autor: "Seda de Lyon, hacia 1785. Museo Real de Ontario, Toronto.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANeoclassical%20furnishing%20fabric%20detail%2C%20Les%20quatres%20parties%20du%20monde%2C%20Lyon%20France%2C%20c.%201785%2C%20silk%20lampas%20-%20Patricia%20Harris%20Gallery%20of%20Textiles%20%26%20Costume%2C%20Royal%20Ontario%20Museum%20-%20DSC09412.JPG",
+        foco: "60% 50%",
+        alt: "Tejido de seda verde oscuro con figuras, pájaros y flores tejidos en hilo color marfil.",
+      },
+      {
+        archivo: "Paterson, New Jersey - Textiles. Madison Silk Co. Setting new warp onto loom. - NARA - 518611.jpg",
+        autor: "Fábrica de seda en Paterson, Nueva Jersey. Foto de Lewis Hine, 1937.",
+        licencia: "Public domain",
+        pdPorEdad: 1940,
+        fuente: "https://commons.wikimedia.org/wiki/File%3APaterson%2C%20New%20Jersey%20-%20Textiles.%20Madison%20Silk%20Co.%20Setting%20new%20warp%20onto%20loom.%20-%20NARA%20-%20518611.jpg",
+        foco: "50% 50%",
+        alt: "Dos hombres montando la urdimbre de un telar en una nave con ventanales al fondo.",
+      },
+      {
+        archivo: "Paterson, New Jersey - Textiles. Wishnack Silk Company. Back view of the same loom showing the double beam. A single... - NARA - 518760.jpg",
+        autor: "Telar de una fábrica de seda de Paterson. Foto de Lewis Hine, 1937.",
+        licencia: "Public domain",
+        pdPorEdad: 1940,
+        fuente: "https://commons.wikimedia.org/wiki/File%3APaterson%2C%20New%20Jersey%20-%20Textiles.%20Wishnack%20Silk%20Company.%20Back%20view%20of%20the%20same%20loom%20showing%20the%20double%20beam.%20A%20single...%20-%20NARA%20-%20518760.jpg",
+        foco: "50% 50%",
+        alt: "Parte trasera de un telar de seda con los hilos tensados en el plegador.",
+      },
+      {
+        archivo: "Neoclassical furnishing fabric detail, Les quatres parties du monde, Lyon France, c. 1785, silk lampas - Patricia Harris Gallery of Textiles & Costume, Royal Ontario Museum - DSC09411.JPG",
+        autor: "Otro detalle de la misma seda de Lyon, hacia 1785.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANeoclassical%20furnishing%20fabric%20detail%2C%20Les%20quatres%20parties%20du%20monde%2C%20Lyon%20France%2C%20c.%201785%2C%20silk%20lampas%20-%20Patricia%20Harris%20Gallery%20of%20Textiles%20%26%20Costume%2C%20Royal%20Ontario%20Museum%20-%20DSC09411.JPG",
+        foco: "50% 50%",
+        alt: "Guirnaldas y cestos de flores tejidos en marfil sobre un fondo de seda verde.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 15 de mayo de 1940. Sale a la venta en todo el país la primera fibra completamente artificial, fabricada a partir de carbón, agua y aire, según la presenta su fabricante. Se vende en forma de medias femeninas, que hasta ese momento eran de seda japonesa y se rompían con mirarlas. En un solo día se venden cuatro millones de pares.",
+      "Estados Unidos, 15 de mayo de 1940. Sale a la venta en todo el país, el mismo día y a la misma hora, la primera fibra completamente artificial de la historia, fabricada a partir de carbón, agua y aire según la presenta orgulloso su fabricante. No sale en forma de cuerda ni de tela industrial, sino de medias femeninas, que hasta ese momento eran de seda japonesa, costaban caras y se rompían casi con mirarlas. En un solo día se venden cuatro millones de pares, y la industria de la seda, con siglos encima, empieza a morirse esa misma tarde.",
     paginas: [
       {
         rotulo: "El laboratorio",
