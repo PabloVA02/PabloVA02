@@ -153,8 +153,42 @@ export const CORCHO: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Bloque de corcho aglomerado cortado, con los granos y las juntas bien visibles.",
+    fotos: [
+      {
+        archivo: "Alcornoque centenario en el alcornocal de Valdelosa, Salamanca.jpg",
+        autor: "Alcornoque centenario recién descorchado en Valdelosa, Salamanca.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAlcornoque%20centenario%20en%20el%20alcornocal%20de%20Valdelosa%2C%20Salamanca.jpg",
+        foco: "50% 60%",
+        alt: "Alcornoque grande con el tronco pelado de color rojizo tras sacarle el corcho.",
+      },
+      {
+        archivo: "09-06-2017 Harvested cork, Foz do Ribeiro, São Bartolomeu de Messines (2).JPG",
+        autor: "Planchas de corcho apiladas en el Algarve, Portugal, 2017.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A09-06-2017%20Harvested%20cork%2C%20Foz%20do%20Ribeiro%2C%20S%C3%A3o%20Bartolomeu%20de%20Messines%20(2).JPG",
+        foco: "50% 50%",
+        alt: "Montón de planchas de corcho recién sacadas, apiladas al borde de un camino.",
+      },
+      {
+        archivo: "Space Shuttle external tank foam block.JPG",
+        autor: "Bloque de espuma aislante del depósito externo del transbordador espacial.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASpace%20Shuttle%20external%20tank%20foam%20block.JPG",
+        foco: "50% 50%",
+        alt: "Bloque de material aislante naranja usado para forrar el depósito de un cohete.",
+      },
+      {
+        archivo: "Cork oak forest with ferns Montresta and Bosa 1996.jpg",
+        autor: "Alcornocal con helechos entre Montresta y Bosa, Cerdeña, 1996.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACork%20oak%20forest%20with%20ferns%20Montresta%20and%20Bosa%201996.jpg",
+        foco: "50% 50%",
+        alt: "Bosque de alcornoques con el suelo cubierto de helechos verdes.",
+      },
+    ],
     entrada:
-      "Portugal y España, con la industria del aglomerado montada desde 1891. De cada plancha de corcho arrancada a un alcornoque, solo una parte tiene el grosor y la calidad que exige un tapón. El resto se trituraba y se tiraba hasta que un fabricante estadounidense descubrió por accidente que, calentado y prensado, el granulado se pega solo. Ese hallazgo convirtió el desecho en la mitad del negocio.",
+      "Portugal y España, con la industria del aglomerado ya montada desde 1891. De cada plancha de corcho arrancada al tronco de un alcornoque, solo una parte tiene el grosor limpio y la calidad que exige un tapón de vino, y esa parte es bastante menor de lo que se supone. Todo el resto se trituraba y se tiraba sin más, año tras año, hasta que un fabricante estadounidense descubrió por pura casualidad que, calentado y prensado en un molde, el granulado se pega solo sin necesidad de cola. Aquel hallazgo convirtió el desecho en la mitad del negocio.",
     paginas: [
       {
         rotulo: "Se pega solo",
