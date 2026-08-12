@@ -120,7 +120,7 @@ export const OBJETOS: Short[] = [
 
   {
     id: "lapices-sin-plomo",
-    titulo: "Los lápices nunca han llevado plomo",
+    titulo: "El lápiz nunca llevó plomo",
     gancho: "Es grafito, y el nombre equivocado viene de una confusión del siglo XVI.",
     categoria: "Objetos",
     color: "var(--sage)",

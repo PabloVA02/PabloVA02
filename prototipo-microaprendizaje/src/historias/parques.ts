@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const PARQUES: Short[] = [
   {
     id: "el-parque-como-medicina",
-    titulo: "Parques contra el aire malo",
+    titulo: "Parques contra el mal aire",
     gancho: "Se creía que las enfermedades venían del aire viciado, así que se plantaron pulmones verdes en las ciudades.",
     categoria: "Parques",
     color: "var(--ochre)",

@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const PLASTICO: Short[] = [
   {
     id: "bolas-de-billar",
-    titulo: "Nació para salvar elefantes",
+    titulo: "Nació por los elefantes",
     gancho: "Las bolas de billar se hacían de marfil y se acababan los colmillos. Ofrecieron un premio.",
     categoria: "Plástico",
     color: "var(--ochre)",

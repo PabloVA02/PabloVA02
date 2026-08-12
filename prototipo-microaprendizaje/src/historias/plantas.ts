@@ -87,7 +87,7 @@ export const PLANTAS: Short[] = [
 
   {
     id: "platano-clon",
-    titulo: "Todos los plátanos son el mismo",
+    titulo: "Los plátanos son clones",
     gancho: "Genéticamente idénticos, sin semillas, y ya perdimos una variedad entera así.",
     categoria: "Plantas",
     color: "var(--ochre)",

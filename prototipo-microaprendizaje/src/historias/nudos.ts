@@ -77,7 +77,7 @@ export const NUDOS: Short[] = [
   },
   {
     id: "por-que-se-mide-en-nudos",
-    titulo: "La velocidad se medía con cuerda",
+    titulo: "La velocidad con cuerda",
     gancho: "Una tablilla lastrada, un cordel con nudos y un reloj de arena. De ahí viene la unidad que se sigue usando hoy.",
     categoria: "Objetos",
     color: "var(--slate)",

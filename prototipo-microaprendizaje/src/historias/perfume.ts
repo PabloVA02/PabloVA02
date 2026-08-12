@@ -154,7 +154,7 @@ export const PERFUME: Short[] = [
 
   {
     id: "olor-sin-patente",
-    titulo: "Un olor no se puede registrar",
+    titulo: "El olor no se registra",
     gancho: "Copiar un perfume caro es legal mientras no copies el nombre ni el frasco. Y se hace en serie.",
     categoria: "Perfume",
     color: "var(--plum)",

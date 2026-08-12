@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const PILAS: Short[] = [
   {
     id: "por-que-se-gasta-una-pila",
-    titulo: "La pila no guarda corriente",
+    titulo: "La pila no guarda nada",
     gancho: "No guarda electricidad dentro. Guarda dos materiales que quieren reaccionar, y se acaba cuando uno se consume.",
     categoria: "Ciencia",
     color: "var(--ochre)",
