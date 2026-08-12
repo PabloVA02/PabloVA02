@@ -93,6 +93,40 @@ export const LENGUAS: Short[] = [
     categoria: "Lenguas",
     color: "var(--clay)",
     encargo: "Un diccionario antiguo abierto por una página con caracteres hebreos.",
+    fotos: [
+      {
+        archivo: "Dizengoff St looking north 1930s.jpg",
+        autor: "La calle Dizengoff de Tel Aviv en los años treinta, con los rótulos ya en hebreo.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADizengoff%20St%20looking%20north%201930s.jpg",
+        foco: "50% 50%",
+        alt: "Avenida ancha de una ciudad nueva con edificios blancos de balcones redondeados, un coche y algunos viandantes.",
+      },
+      {
+        archivo: "Bauhaus building at Dizingoff str.jpg",
+        autor: "Uno de aquellos edificios de la calle Dizengoff, todavía en pie.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABauhaus%20building%20at%20Dizingoff%20str.jpg",
+        foco: "50% 50%",
+        alt: "Edificio blanco de líneas curvas y balcones corridos, con árboles delante.",
+      },
+      {
+        archivo: "Beit-Ha’Ir-Museum-Tel-Aviv.jpg",
+        autor: "La plaza Bialik de Tel Aviv, con el antiguo ayuntamiento convertido en museo.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABeit-Ha%E2%80%99Ir-Museum-Tel-Aviv.jpg",
+        foco: "50% 50%",
+        alt: "Plaza pequeña rodeada de edificios de los años treinta, con una fuente y palmeras.",
+      },
+      {
+        archivo: "20230227 142451 February 2023 in Tel Aviv.jpg",
+        autor: "Calle de Tel Aviv en 2023, con la lengua ya en boca de todo el mundo.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A20230227%20142451%20February%202023%20in%20Tel%20Aviv.jpg",
+        foco: "50% 50%",
+        alt: "Calle animada de ciudad con gente andando, terrazas y edificios de varias alturas.",
+      },
+    ],
     entrada:
       "El hebreo dejó de usarse como lengua de conversación diaria hace unos mil ochocientos años. No desapareció —siguió leyéndose, rezándose y escribiéndose sin interrupción durante todo ese tiempo—, pero nadie lo aprendía de su madre ni discutía en él el precio de la verdura. Que hoy lo hablen millones de personas como lengua materna es obra, en buena parte, de un hombre muy testarudo.",
     paginas: [
