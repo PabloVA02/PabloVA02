@@ -79,7 +79,7 @@ export const CAJEROS: Short[] = [
   },
   {
     id: "el-cajero-por-dentro",
-    titulo: "Cuenta los billetes uno a uno",
+    titulo: "Billetes contados a mano",
     gancho: "Los separa por rozamiento, mide su grosor al pasar y descarta el que no encaja, todo en dos segundos.",
     categoria: "Cajeros",
     color: "var(--ochre)",

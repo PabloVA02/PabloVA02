@@ -79,7 +79,7 @@ export const CANALES: Short[] = [
   },
   {
     id: "como-funciona-una-esclusa",
-    titulo: "La esclusa sube barcos sin motor",
+    titulo: "La esclusa sube sin motor",
     gancho: "Es una caja con dos puertas donde el agua entra y sale sola. La levanta la gravedad, y nada más.",
     categoria: "Canales",
     color: "var(--ochre)",

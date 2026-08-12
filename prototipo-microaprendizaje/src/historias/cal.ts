@@ -78,7 +78,7 @@ export const CAL: Short[] = [
   },
   {
     id: "los-pueblos-blancos",
-    titulo: "Encalar era una medida de higiene",
+    titulo: "Encalar era higiene",
     gancho: "La estampa turística del sur empezó siendo desinfectante, aislante y tapagrietas, todo por el precio de un cubo.",
     categoria: "Objetos",
     color: "var(--slate)",

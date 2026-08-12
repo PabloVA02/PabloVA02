@@ -149,7 +149,7 @@ export const CABALLOS: Short[] = [
 
   {
     id: "estribo-guerra",
-    titulo: "El estribo cambió la guerra",
+    titulo: "El estribo cambió todo",
     gancho: "Sin él, un jinete que embiste con la lanza se cae del caballo por el propio golpe.",
     categoria: "Caballos",
     color: "var(--plum)",

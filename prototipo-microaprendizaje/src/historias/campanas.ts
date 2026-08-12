@@ -147,7 +147,7 @@ export const CAMPANAS: Short[] = [
   },
   {
     id: "la-campana-y-el-rayo",
-    titulo: "Tocar contra la tormenta mataba",
+    titulo: "Tocar campanas mataba",
     gancho: "Se creía que el sonido rompía las nubes. El campanario es lo más alto del pueblo y el campanero, el primero en caer.",
     categoria: "Creencias",
     color: "var(--plum)",

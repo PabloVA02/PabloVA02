@@ -78,7 +78,7 @@ export const BOTICARIOS: Short[] = [
   },
   {
     id: "separar-al-que-receta",
-    titulo: "Quien receta no puede vender",
+    titulo: "Recetar y vender, aparte",
     gancho: "La separación entre quien prescribe y quien despacha es una ley del siglo XIII, y sigue en pie por la misma razón.",
     categoria: "Medicina",
     color: "var(--slate)",
@@ -107,7 +107,7 @@ export const BOTICARIOS: Short[] = [
   },
   {
     id: "refrescos-de-farmacia",
-    titulo: "Los refrescos salieron de la botica",
+    titulo: "Refrescos de la botica",
     gancho: "El mostrador de la botica servía agua con gas por motivos médicos. De ahí salieron algunas marcas enormes.",
     categoria: "Empresas",
     color: "var(--ochre)",

@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const CAMAS: Short[] = [
   {
     id: "la-segunda-mejor-cama",
-    titulo: "La cama, el mueble más caro",
+    titulo: "La cama, mueble carísimo",
     gancho: "Se ponía en el testamento con nombre y apellidos, antes que las tierras y que el dinero.",
     categoria: "Camas",
     color: "var(--ochre)",

@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const BRUJULA: Short[] = [
   {
     id: "brujula-adivinacion",
-    titulo: "La brújula nació adivinando",
+    titulo: "Brújula de adivinos",
     gancho: "Antes de servir para navegar pasó mil años orientando casas y tumbas.",
     categoria: "Brújula",
     color: "var(--ochre)",
@@ -151,7 +151,7 @@ export const BRUJULA: Short[] = [
 
   {
     id: "inversion-polos",
-    titulo: "Los polos ya se han cambiado",
+    titulo: "Los polos ya se cambiaron",
     gancho: "El fondo del océano está rayado como un código de barras, y esas rayas lo contaron todo.",
     categoria: "Brújula",
     color: "var(--plum)",
