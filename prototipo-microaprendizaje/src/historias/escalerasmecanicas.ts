@@ -153,8 +153,42 @@ export const ESCALERAS_MECANICAS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Pasillo largo de aeropuerto con cinta transportadora vacía y gente andando al lado.",
+    fotos: [
+      {
+        archivo: "Manchester Airport Skylink (37111751642).jpg",
+        autor: "Pasarela Skylink del aeropuerto de Mánchester, 2017.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AManchester%20Airport%20Skylink%20(37111751642).jpg",
+        foco: "50% 50%",
+        alt: "Pasillo tubular de aeropuerto con luz azulada y dos cintas transportadoras vacías que se pierden al fondo.",
+      },
+      {
+        archivo: "Travelators at Sydney Airport Terminal 3.jpg",
+        autor: "Cintas transportadoras de la terminal 3 del aeropuerto de Sídney, 2017.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATravelators%20at%20Sydney%20Airport%20Terminal%203.jpg",
+        foco: "50% 50%",
+        alt: "Dos cintas transportadoras paralelas en una terminal de aeropuerto, con pasajeros de pie sobre ellas.",
+      },
+      {
+        archivo: "Manchester airport - Roussos.jpg",
+        autor: "Pasillo hacia la terminal 2 del aeropuerto de Mánchester, 2011.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AManchester%20airport%20-%20Roussos.jpg",
+        foco: "50% 50%",
+        alt: "Pasillo largo de aeropuerto con una cinta transportadora a un lado y el suelo libre al otro.",
+      },
+      {
+        archivo: "Manchester Airport sky walk.jpg",
+        autor: "Pasarela entre la estación de tren y la terminal 1 de Mánchester, 2005.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AManchester%20Airport%20sky%20walk.jpg",
+        foco: "50% 50%",
+        alt: "Interior de una pasarela acristalada de aeropuerto con estructura curva de metal y una cinta al fondo.",
+      },
+    ],
     entrada:
-      "Aeropuertos de todo el mundo, con la primera cinta instalada en 1958. La idea parece obvia: si el pasajero camina y además la cinta se mueve, debería llegar antes a la puerta de embarque. Los estudios de los últimos años dicen que en la práctica no suele ser así, y el motivo no está en la máquina, sino en lo que hace la gente al subirse.",
+      "Aeropuertos de todo el mundo, desde la primera cinta instalada en Love Field, en Dallas, en 1958. La idea parecía tan obvia que se copió enseguida en todas las terminales que crecían: si el pasajero camina y además el suelo se mueve debajo de él, debería llegar antes a la puerta de embarque, y las distancias enormes de un aeropuerto moderno dejarían de doler tanto. Los estudios hechos con cámaras en los últimos años dicen que en la práctica no sale así, y lo más curioso es que el motivo no está en la máquina, que funciona perfectamente, sino en lo que hace la gente al subirse a ella.",
     paginas: [
       {
         rotulo: "El paso corto",
