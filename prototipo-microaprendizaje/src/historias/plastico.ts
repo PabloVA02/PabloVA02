@@ -83,13 +83,47 @@ export const PLASTICO: Short[] = [
 
   {
     id: "baquelita",
-    titulo: "El plástico moderno nació buscando barniz",
+    titulo: "Nació buscando un barniz",
     gancho: "Un químico quería imitar la resina que sueltan unos insectos. Le salió un material que no existía.",
     categoria: "Plástico",
     color: "var(--slate)",
     encargo: "Un teléfono negro de sobremesa de los años treinta sobre madera oscura.",
+    fotos: [
+      {
+        archivo: "Bakelite Telephone (20967111954).jpg",
+        autor: "Teléfono de sobremesa con carcasa de baquelita, de los años treinta.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABakelite%20Telephone%20(20967111954).jpg",
+        foco: "58% 55%",
+        alt: "Teléfono negro brillante de disco, con el auricular apoyado encima, sobre una superficie verde azulada.",
+      },
+      {
+        archivo: "\"Old Faithful\" bakelite cooker.jpg",
+        autor: "«Old Faithful», la olla de acero a presión con la que Leo Baekeland fabricó la primera baquelita. Science History Institute, Filadelfia.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A%22Old%20Faithful%22%20bakelite%20cooker.jpg",
+        foco: "50% 50%",
+        alt: "Recipiente cilíndrico de acero remachado con tapa de tornillos y manómetro, expuesto en un museo.",
+      },
+      {
+        archivo: "W49 - Rotary dial telephone in black - case opened - upper part - rotary dial mechanics-9177.jpg",
+        autor: "El interior de un teléfono de disco: bajo la carcasa de baquelita, todo el mecanismo a la vista.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AW49%20-%20Rotary%20dial%20telephone%20in%20black%20-%20case%20opened%20-%20upper%20part%20-%20rotary%20dial%20mechanics-9177.jpg",
+        foco: "50% 50%",
+        alt: "Mecanismo de un disco de teléfono desmontado, con muelles, ruedas dentadas y contactos de latón.",
+      },
+      {
+        archivo: "Blue plastic on a fan coral, turkey beach, wakatobi, 2018 (45088490204).jpg",
+        autor: "Un trozo de plástico azul enganchado en una gorgonia, en aguas de Wakatobi (Indonesia).",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABlue%20plastic%20on%20a%20fan%20coral%2C%20turkey%20beach%2C%20wakatobi%2C%202018%20(45088490204).jpg",
+        foco: "50% 50%",
+        alt: "Abanico de coral bajo el agua con una lámina de plástico azul prendida entre sus ramas.",
+      },
+    ],
     entrada:
-      "Nueva York, 1907. Un químico belga instalado en Estados Unidos trabaja en el laboratorio del jardín de su casa. Busca un sustituto de la goma laca, un barniz aislante que se obtiene de las secreciones de un insecto del sudeste asiático y del que hacen falta cien mil bichos para reunir medio kilo. La industria eléctrica, que crece a toda velocidad, lo necesita a toneladas.",
+      "Nueva York, 1907. Un químico belga instalado en Estados Unidos trabaja en el laboratorio que se ha montado en el jardín de su casa. Busca un sustituto de la goma laca, un barniz aislante que se obtiene de las secreciones de un insecto del sudeste asiático y del que hacen falta cien mil bichos para reunir medio kilo. La industria eléctrica, que crece a toda velocidad y necesita aislar cada cable y cada enchufe, lo pide a toneladas y no hay insectos suficientes en el mundo para servirlas. Lo que le sale de la olla no es un barniz.",
     paginas: [
       {
         rotulo: "El accidente útil",
