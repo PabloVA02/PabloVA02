@@ -155,8 +155,42 @@ export const FAROS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Una cabaña de madera sobre pilotes de hierro clavados en una roca, con mar picado.",
+    fotos: [
+      {
+        archivo: "Tillamook Rock Lighthouse in November, 2009.jpg",
+        autor: "El faro de Tillamook Rock, Oregón, batido por una ola, 2009.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATillamook%20Rock%20Lighthouse%20in%20November%2C%202009.jpg",
+        foco: "50% 55%",
+        alt: "Faro sobre una roca en mar abierto con una ola enorme rompiendo a su lado.",
+      },
+      {
+        archivo: "Smalls LIghthouse - 10th June 2018.jpg",
+        autor: "El faro de las Smalls, frente a la costa de Gales, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASmalls%20LIghthouse%20-%2010th%20June%202018.jpg",
+        foco: "50% 55%",
+        alt: "Faro blanco de piedra sobre una roca baja rodeada de mar abierto.",
+      },
+      {
+        archivo: "Model of original Smalls Lighthouse.JPG",
+        autor: "Maqueta del faro de madera original de las Smalls.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AModel%20of%20original%20Smalls%20Lighthouse.JPG",
+        foco: "50% 50%",
+        alt: "Maqueta de una cabaña de madera montada sobre pilotes largos y delgados.",
+      },
+      {
+        archivo: "Tillamook Rock Lighthouse in April, 2010.jpg",
+        autor: "El faro de Tillamook Rock con la mar en calma, 2010.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATillamook%20Rock%20Lighthouse%20in%20April%2C%202010.jpg",
+        foco: "50% 55%",
+        alt: "El faro y sus edificios sobre una roca aislada, vistos desde el mar.",
+      },
+    ],
     entrada:
-      "Mar de Irlanda, invierno de 1801. Un faro de madera montado sobre pilotes, plantado en una roca a treinta kilómetros de la costa de Gales, tiene dos fareros. Se sabe que discutían a menudo y que en tierra se comentaba. Una tormenta larguísima impide durante semanas que ninguna barca pueda acercarse a relevarlos.",
+      "Mar de Irlanda, invierno de 1801. Un faro de madera montado sobre pilotes de hierro, plantado en una roca pelada a treinta kilómetros de la costa de Gales, tiene dos fareros y solo dos. Se sabe que los dos hombres discutían a menudo y que en tierra la cosa se comentaba, aunque nadie le diera importancia. Aquel invierno una tormenta larguísima, de las que duran semanas enteras, impide que ninguna barca pueda acercarse a la roca a relevarlos ni a llevarles nada. Y allí arriba pasa entonces lo peor que podía pasar.",
     paginas: [
       {
         rotulo: "El cajón",
