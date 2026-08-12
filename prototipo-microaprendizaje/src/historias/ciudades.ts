@@ -92,8 +92,43 @@ export const CIUDADES: Short[] = [
     color: "var(--sage)",
     curioso: true,
     encargo: "Los cimientos de ladrillo de un palacio veneciano al ras del agua del canal.",
+    fotos: [
+      {
+        archivo: "Palazzo Cavalli Franchetti (Venice).jpg",
+        autor: "El palacio Cavalli Franchetti al borde del Gran Canal, con el agua lamiendo la base.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APalazzo%20Cavalli%20Franchetti%20(Venice).jpg",
+        foco: "50% 72%",
+        alt: "Fachada gótica de un palacio veneciano sobre el canal, con amarraderos a rayas y lanchas de madera delante.",
+      },
+      {
+        archivo: "(Venice) - Santa Maria della Salute - Le due cupole e i due campanili.jpg",
+        autor: "Santa María de la Salud, la iglesia bajo la que se clavó más de un millón de pilotes.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A(Venice)%20-%20Santa%20Maria%20della%20Salute%20-%20Le%20due%20cupole%20e%20i%20due%20campanili.jpg",
+        foco: "50% 50%",
+        alt: "Iglesia de piedra blanca con dos cúpulas y dos campanarios, vista desde el agua.",
+      },
+      {
+        archivo: "Hotel Ca Sagredo - Grand Canal - Rialto - Venice Italy Venezia - Creative Commons by gnuckx (4795639882).jpg",
+        autor: "Palacio del siglo XV en el Gran Canal, con los postes de madera clavados delante de la puerta de agua.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHotel%20Ca%20Sagredo%20-%20Grand%20Canal%20-%20Rialto%20-%20Venice%20Italy%20Venezia%20-%20Creative%20Commons%20by%20gnuckx%20(4795639882).jpg",
+        foco: "50% 60%",
+        alt: "Palacio veneciano visto desde el canal, con troncos de amarre asomando del agua junto a la fachada.",
+      },
+      {
+        archivo: "(Barcelona) Santa Maria della Salute and the Dogana, Venice, at Sunset, across the Bacino - 1840 - William Turner Tate Britain.jpg",
+        autor: "Óleo de William Turner, 1840: la Salute y la Aduana al atardecer, vistas desde el otro lado del Bacino. Tate Britain.",
+        licencia: "Public domain",
+        pdPorEdad: 1851,
+        fuente: "https://commons.wikimedia.org/wiki/File%3A(Barcelona)%20Santa%20Maria%20della%20Salute%20and%20the%20Dogana%2C%20Venice%2C%20at%20Sunset%2C%20across%20the%20Bacino%20-%201840%20-%20William%20Turner%20Tate%20Britain.jpg",
+        foco: "50% 50%",
+        alt: "Pintura de Venecia al atardecer, con las cúpulas disueltas en una luz dorada y barcas en primer plano.",
+      },
+    ],
     entrada:
-      "Venecia no se levanta sobre roca ni sobre tierra firme: se levanta sobre el barro blando de una laguna. Para poder construir encima, quienes la hicieron clavaron troncos de árbol en el fango, uno junto a otro, hasta alcanzar una capa de arcilla compacta. Sobre esa cabellera de madera se apoyan las plataformas de piedra y, encima, los palacios.",
+      "Venecia no se levanta sobre roca ni sobre tierra firme, sino sobre el barro blando de una laguna, que es el peor sitio imaginable para poner una ciudad de piedra. Para poder construir encima, quienes la hicieron clavaron troncos de árbol en el fango, uno junto a otro y muy apretados, hasta alcanzar una capa de arcilla compacta que sí aguanta peso. Sobre esa cabellera de madera pusieron plataformas de piedra, y sobre las plataformas los palacios. Los troncos siguen ahí abajo, mil años después, y siguen aguantando.",
     paginas: [
       {
         rotulo: "El bosque de abajo",
