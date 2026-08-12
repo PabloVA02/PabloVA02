@@ -154,8 +154,42 @@ export const MONTANAS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Un volcán nevado de cono perfecto sobre una llanura seca y amarilla.",
+    fotos: [
+      {
+        archivo: "Chimborazo 01.jpg",
+        autor: "El volcán Chimborazo desde el páramo, Ecuador, 2013.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AChimborazo%2001.jpg",
+        foco: "50% 45%",
+        alt: "Volcán nevado alzándose sobre lomas de hierba amarilla bajo un cielo azul intenso.",
+      },
+      {
+        archivo: "Chimborazo 04.jpg",
+        autor: "El Chimborazo desde el altiplano ecuatoriano, 2014.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AChimborazo%2004.jpg",
+        foco: "50% 50%",
+        alt: "Panorámica del volcán con las laderas pardas y la cumbre cubierta de hielo.",
+      },
+      {
+        archivo: "Chimborazo 05.jpg",
+        autor: "Ladera del Chimborazo, Ecuador, 2014.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AChimborazo%2005.jpg",
+        foco: "50% 50%",
+        alt: "Falda del volcán con arena volcánica oscura y nieve en la parte alta.",
+      },
+      {
+        archivo: "Vicuña - Chimborazo, Ecuador.jpg",
+        autor: "Vicuña en la reserva del Chimborazo, Ecuador, 2011.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVicu%C3%B1a%20-%20Chimborazo%2C%20Ecuador.jpg",
+        foco: "50% 50%",
+        alt: "Vicuña pastando en el páramo con el volcán nevado detrás.",
+      },
+    ],
     entrada:
-      "Ecuador, 1802. Un naturalista alemán intenta subir un volcán nevado que en aquel momento se considera la montaña más alta del planeta. Se queda a unos cuatrocientos metros de la cumbre, agotado y con las encías sangrando, y anota que aquello es lo más alto que ha llegado un ser humano. Se equivocaba de montaña, y a la vez acertaba.",
+      "Ecuador, junio de 1802. Un naturalista alemán, Alexander von Humboldt, intenta subir un volcán nevado que en aquel momento todo el mundo considera la montaña más alta del planeta. Se queda a unos cuatrocientos metros de la cumbre, agotado, con soroche y con las encías sangrando, y anota en su cuaderno que aquello es lo más alto a lo que ha llegado nunca un ser humano. Se equivocaba de montaña, porque no era la más alta, y sin embargo, sin saberlo, estaba acertando de una manera mucho más interesante.",
     paginas: [
       {
         rotulo: "La bola achatada",
