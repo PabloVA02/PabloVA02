@@ -148,8 +148,42 @@ export const BIOMIMESIS: Short[] = [
     categoria: "Copiar a la naturaleza",
     color: "var(--plum)",
     encargo: "Una hoja verde con gotas de agua perfectamente redondas encima.",
+    fotos: [
+      {
+        archivo: "Hidrofobicidad y tensión superficial.jpg",
+        autor: "Gotas de agua sobre una hoja hidrófoba, 2023.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHidrofobicidad%20y%20tensi%C3%B3n%20superficial.jpg",
+        foco: "45% 50%",
+        alt: "Macro de una hoja verde con gotas de agua completamente redondas apoyadas encima.",
+      },
+      {
+        archivo: "Water droplets in a lotus leaf1.JPG",
+        autor: "Gotas sobre una hoja de loto, 2014.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWater%20droplets%20in%20a%20lotus%20leaf1.JPG",
+        foco: "50% 50%",
+        alt: "Hoja de loto con varias bolas de agua sueltas rodando por encima.",
+      },
+      {
+        archivo: "Shadows on Lotus Leaf.jpg",
+        autor: "Hoja de loto a contraluz, 2017.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AShadows%20on%20Lotus%20Leaf.jpg",
+        foco: "50% 50%",
+        alt: "Hoja redonda de loto con las nervaduras marcadas y sombras suaves encima.",
+      },
+      {
+        archivo: "Dew on nasturtium leaf.JPG",
+        autor: "Rocío sobre una hoja de capuchina.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADew%20on%20nasturtium%20leaf.JPG",
+        foco: "50% 50%",
+        alt: "Hoja circular cubierta de gotitas de rocío que no llegan a mojarla.",
+      },
+    ],
     entrada:
-      "Alemania, años setenta del siglo XX. Dos botánicos observan con microscopio electrónico las hojas de varias plantas y encuentran una diferencia llamativa. Las del loto, una planta que crece en aguas embarradas, aparecen siempre limpias, mientras que otras hojas retienen polvo y restos. La explicación no está en ninguna sustancia, sino en la forma microscópica de la superficie.",
+      "Alemania, años setenta del siglo XX. Dos botánicos se ponen a observar con microscopio electrónico las hojas de un montón de plantas distintas y encuentran enseguida una diferencia que llama mucho la atención. Las del loto, una planta que crece precisamente en aguas embarradas y turbias, aparecen siempre impecablemente limpias, mientras que otras hojas del mismo estanque retienen polvo, barro y restos. La explicación, y esto es lo bonito, no está en ninguna sustancia ni en ninguna cera especial, sino en la forma microscópica de la superficie.",
     paginas: [
       {
         rotulo: "La rugosidad",
