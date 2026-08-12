@@ -147,7 +147,7 @@ export const ACERO: Short[] = [
 
   {
     id: "inoxidable-por-descarte",
-    titulo: "El inoxidable salió de la basura",
+    titulo: "El acero de la basura",
     gancho: "Buscaba un acero para cañones y descartó unas muestras. Semanas después seguían brillando.",
     categoria: "Acero",
     color: "var(--ochre)",

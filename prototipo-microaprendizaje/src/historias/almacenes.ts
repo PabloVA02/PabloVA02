@@ -146,7 +146,7 @@ export const ALMACENES: Short[] = [
   },
   {
     id: "el-ultimo-kilometro",
-    titulo: "El último kilómetro cuesta la mitad",
+    titulo: "El último kilómetro",
     gancho: "Traer un paquete de China a España es barato. Subirlo a un cuarto piso sin ascensor es lo caro.",
     categoria: "Empresas",
     color: "var(--ochre)",

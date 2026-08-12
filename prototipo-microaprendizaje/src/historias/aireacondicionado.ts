@@ -146,7 +146,7 @@ export const AIRE_ACONDICIONADO: Short[] = [
 
   {
     id: "el-mapa-que-cambio",
-    titulo: "El aire acondicionado movió ciudades",
+    titulo: "El aire movió ciudades",
     gancho: "Zonas donde nadie quería vivir por el calor se llenaron en treinta años. Y el reparto del poder cambió con ellas.",
     categoria: "Aire acondicionado",
     color: "var(--plum)",

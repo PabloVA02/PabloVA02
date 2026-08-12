@@ -83,7 +83,7 @@ export const ABANICO: Short[] = [
   },
   {
     id: "el-lenguaje-del-abanico",
-    titulo: "El código lo daba la tienda",
+    titulo: "El código de la tienda",
     gancho: "Los gestos secretos que todo el mundo cita salen de un folleto publicitario de una tienda de París.",
     categoria: "Creencias",
     color: "var(--plum)",
@@ -147,7 +147,7 @@ export const ABANICO: Short[] = [
   },
   {
     id: "abanicarse-calienta",
-    titulo: "Abanicarse a veces calienta",
+    titulo: "Abanicarse calienta",
     gancho: "Si el aire está más caliente que la piel, moverlo trae calor en vez de llevárselo. La frontera está medida.",
     categoria: "Cuerpo",
     color: "var(--slate)",

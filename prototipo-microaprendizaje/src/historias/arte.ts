@@ -221,7 +221,7 @@ export const ARTE: Short[] = [
 
   {
     id: "sixtina-tumbado",
-    titulo: "La Sixtina no se pintó tumbado",
+    titulo: "La Sixtina no fue tumbado",
     gancho: "Cuatro años de pie con el cuello doblado hacia atrás. Escribió un poema quejándose.",
     categoria: "Arte",
     color: "var(--slate)",

@@ -84,7 +84,7 @@ export const AGUA: Short[] = [
 
   {
     id: "acueductos-romanos",
-    titulo: "El agua de Roma venía lejos",
+    titulo: "Roma bebía de lejos",
     gancho: "Once conducciones, treinta centímetros de caída por kilómetro y ni una sola bomba.",
     categoria: "Agua",
     color: "var(--slate)",

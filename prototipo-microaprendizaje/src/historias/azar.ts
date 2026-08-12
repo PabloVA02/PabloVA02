@@ -85,7 +85,7 @@ export const AZAR: Short[] = [
 
   {
     id: "ruleta-veintiseis",
-    titulo: "Negro veintiséis veces seguidas",
+    titulo: "Negro veintiséis veces",
     gancho: "En un casino, en 1913. La sala se arruinó apostando al rojo porque ya tenía que tocar.",
     categoria: "Azar",
     color: "var(--slate)",

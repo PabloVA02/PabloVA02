@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const AVIACION: Short[] = [
   {
     id: "lista-comprobacion",
-    titulo: "La lista nació de un choque",
+    titulo: "La lista salió de un choque",
     gancho: "El avión más avanzado de 1935 se estrelló por una palanca que nadie soltó.",
     categoria: "Aviación",
     color: "var(--slate)",
@@ -187,7 +187,7 @@ export const AVIACION: Short[] = [
   },
   {
     id: "wright-doce-segundos",
-    titulo: "El primer vuelo duró doce segundos",
+    titulo: "Doce segundos de vuelo",
     gancho: "Lo vieron cinco personas. Los periódicos no fueron y la agencia de noticias descartó la nota.",
     categoria: "Aviación",
     color: "var(--slate)",
@@ -217,7 +217,7 @@ export const AVIACION: Short[] = [
 
   {
     id: "gimli-sin-combustible",
-    titulo: "Sin gasolina por confundir unidades",
+    titulo: "Sin gasolina por las cifras",
     gancho: "Cargaron la mitad de combustible del necesario. El país acababa de cambiar de sistema de medidas.",
     categoria: "Aviación",
     color: "var(--slate)",
@@ -247,7 +247,7 @@ export const AVIACION: Short[] = [
 
   {
     id: "ventanas-cuadradas",
-    titulo: "Las ventanas cuadradas lo partieron",
+    titulo: "Las ventanas cuadradas",
     gancho: "Tres se partieron en el aire en un año. La culpa era de las esquinas.",
     categoria: "Aviación",
     color: "var(--clay)",

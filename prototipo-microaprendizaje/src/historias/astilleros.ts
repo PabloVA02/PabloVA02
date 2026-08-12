@@ -145,7 +145,7 @@ export const ASTILLEROS: Short[] = [
   },
   {
     id: "la-botadura",
-    titulo: "Botar es soltarlo cuesta abajo",
+    titulo: "Botar es dejarlo caer",
     gancho: "Se apoya sobre una cuna engrasada y se corta la sujeción. A partir de ahí lo único que lo frena es el agua.",
     categoria: "Astilleros",
     color: "var(--plum)",

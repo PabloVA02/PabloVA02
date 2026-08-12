@@ -145,7 +145,7 @@ export const BALANZAS: Short[] = [
   },
   {
     id: "la-bascula-digital",
-    titulo: "La báscula pesa con un doblez",
+    titulo: "La báscula y el doblez",
     gancho: "Dentro no hay muelles ni pesas. Hay una pieza de metal que se dobla un poco y unos hilos que notan cuánto.",
     categoria: "Tecnología",
     color: "var(--plum)",

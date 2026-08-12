@@ -79,7 +79,7 @@ export const AGUJA: Short[] = [
   },
   {
     id: "la-aguja-hipodermica",
-    titulo: "El número de la aguja engaña",
+    titulo: "La aguja engaña",
     gancho: "Cuanto más alto es el número, más fina es la aguja. La numeración viene de cómo se fabricaba el tubo.",
     categoria: "Medicina",
     color: "var(--slate)",

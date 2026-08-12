@@ -79,7 +79,7 @@ export const ADUANAS: Short[] = [
   },
   {
     id: "el-arancel-de-la-lana",
-    titulo: "Sacar lana costaba una mano",
+    titulo: "La lana costaba una mano",
     gancho: "Inglaterra vivía de exportar tejido, no materia prima. Sacar lana sin permiso llegó a castigarse con mutilación.",
     categoria: "Aduanas",
     color: "var(--slate)",
@@ -108,7 +108,7 @@ export const ADUANAS: Short[] = [
   },
   {
     id: "el-canal-verde",
-    titulo: "El pasillo verde es una apuesta",
+    titulo: "El pasillo verde",
     gancho: "Nadie revisa a todo el mundo, porque sería imposible. El sistema funciona con muestreo y con perfiles.",
     categoria: "Aduanas",
     color: "var(--plum)",

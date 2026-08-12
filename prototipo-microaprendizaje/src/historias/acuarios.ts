@@ -142,7 +142,7 @@ export const ACUARIOS: Short[] = [
   },
   {
     id: "el-pez-payaso",
-    titulo: "Una película vació los arrecifes",
+    titulo: "La película y los arrecifes",
     gancho: "La historia iba justamente de un pez capturado que quería volver al mar. El efecto en las tiendas fue el contrario.",
     categoria: "Plantas",
     color: "var(--ochre)",
