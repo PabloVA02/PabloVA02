@@ -83,14 +83,51 @@ export const RADIO: Short[] = [
 
   {
     id: "panico-marciano",
-    titulo: "El pánico marciano de la radio fue exagerado",
+    titulo: "El pánico marciano no fue",
     gancho: "La emisión de 1938 existió. La avalancha de gente huyendo la inflaron los periódicos del día siguiente.",
     categoria: "Radio",
     color: "var(--plum)",
     curioso: true,
     encargo: "Un micrófono de radio antiguo de rejilla metálica sobre una mesa vacía.",
+    fotos: [
+      {
+        archivo: "Radio announcer Kaisu Puuska (later Kaisu Puuska-Joki) in a continuity unit, 1930s..jpg",
+        autor: "Una locutora de radio ante el micrófono en su cabina, en los años treinta.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Radio_announcer_Kaisu_Puuska_(later_Kaisu_Puuska-Joki)_in_a_continuity_unit,_1930s..jpg",
+        foco: "50% 40%",
+        alt: "Fotografía en blanco y negro de una locutora sentada a la mesa de control junto a un micrófono grande.",
+      },
+      {
+        archivo: "Radio announcer Ebba Jakobson-Lilius in a continuity unit, 1930s..jpg",
+        autor: "Otra locutora en la cabina de continuidad de una emisora, en los años treinta.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Radio_announcer_Ebba_Jakobson-Lilius_in_a_continuity_unit,_1930s..jpg",
+        foco: "50% 45%",
+        alt: "Locutora de radio en blanco y negro ante los mandos de una mesa de emisión.",
+      },
+      {
+        archivo: "Radio reporter Alexis af Enehjelm, 1930s.jpg",
+        autor: "Un reportero de radio con su equipo de emisión, en los años treinta.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Radio_reporter_Alexis_af_Enehjelm,_1930s.jpg",
+        foco: "50% 40%",
+        alt: "Reportero de los años treinta con auriculares y micrófono, fotografiado en blanco y negro.",
+      },
+      {
+        archivo: "Radio reporter Alexis af Enehjelm interviewing a man fixing a car, 1930s.jpg",
+        autor: "Un reportero entrevistando a pie de calle con un micrófono de la época.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Radio_reporter_Alexis_af_Enehjelm_interviewing_a_man_fixing_a_car,_1930s.jpg",
+        foco: "50% 50%",
+        alt: "Escena antigua de una entrevista de radio junto a un coche, con el micrófono en la mano.",
+      },
+    ],
     entrada:
-      "Estados Unidos, la noche de Halloween de 1938. Una emisora emite una adaptación de una novela de invasión extraterrestre montada como si fuera un informativo, con boletines que interrumpen un programa de música. Al día siguiente los periódicos abren con miles de personas huyendo de sus casas presas del pánico. La historia se sigue contando así noventa años después.",
+      "Estados Unidos, la noche de Halloween de 1938. Una emisora radia una adaptación de una novela de invasión extraterrestre montada como si fuera un informativo de verdad, con boletines urgentes que van interrumpiendo un programa de música de baile. Al día siguiente los periódicos abren a toda página con miles de personas huyendo de sus casas presas del pánico, atascos en las carreteras y gente disparando a los depósitos de agua. La historia se sigue contando así casi noventa años después, y casi nada de ella se sostiene.",
     paginas: [
       {
         rotulo: "La emisión",

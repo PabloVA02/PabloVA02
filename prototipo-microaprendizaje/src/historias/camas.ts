@@ -83,13 +83,52 @@ export const CAMAS: Short[] = [
 
   {
     id: "dormir-con-desconocidos",
-    titulo: "Se compartía cama con desconocidos",
+    titulo: "La cama se compartía",
     gancho: "Pagabas por un sitio en el colchón, no por la habitación. Y el sitio venía con vecino.",
     categoria: "Camas",
     color: "var(--slate)",
     encargo: "Una habitación de posada antigua con dos camas anchas y una vela sobre la mesa.",
+    fotos: [
+      {
+        archivo: "FMP - Schlafzimmer 1.jpg",
+        autor: "Dormitorio de una casa campesina austriaca, en el museo al aire libre de Mittermayrhof. Fotografía de Wolfgang Sauber.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:FMP_-_Schlafzimmer_1.jpg",
+        foco: "40% 45%",
+        alt: "Habitación de madera con dos camas pintadas de colores, un armario abierto y ropa colgada.",
+      },
+      {
+        archivo:
+          "Vihorlat Museum in Humenné - Ethnographic open-air museum - Farmhouse from Kalná Roztoka, interior, main room ('chiža'), summer (August 2006) 01.jpg",
+        autor: "Sala principal de una casa campesina eslovaca, con la cama en un rincón. Museo etnográfico de Humenné.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Vihorlat_Museum_in_Humenn%C3%A9_-_Ethnographic_open-air_museum_-_Farmhouse_from_Kaln%C3%A1_Roztoka,_interior,_main_room_('chi%C5%BEa'),_summer_(August_2006)_01.jpg",
+        foco: "50% 50%",
+        alt: "Interior encalado de una casa campesina con una cama alta cubierta de mantas y un banco de madera.",
+      },
+      {
+        archivo: "Skansen w Maurzycach, Łowicki Park Etnograficzny w Maurzycach, 2025, SOULinPIX, KsP 213.jpg",
+        autor: "Interior de una casa del parque etnográfico de Maurzyce, en Polonia.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Skansen_w_Maurzycach,_%C5%81owicki_Park_Etnograficzny_w_Maurzycach,_2025,_SOULinPIX,_KsP_213.jpg",
+        foco: "50% 50%",
+        alt: "Habitación de madera de una casa rural antigua, con la cama hecha y ropa de cama apilada.",
+      },
+      {
+        archivo:
+          "Vihorlat Museum in Humenné - Ethnographic open-air museum - Farmhouse from Oľšinkov, interior, main room ('chiža'), summer (August 2006) 01.jpg",
+        autor: "Otra sala principal de casa campesina en el museo etnográfico de Humenné, Eslovaquia.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Vihorlat_Museum_in_Humenn%C3%A9_-_Ethnographic_open-air_museum_-_Farmhouse_from_O%C4%BE%C5%A1inkov,_interior,_main_room_('chi%C5%BEa'),_summer_(August_2006)_01.jpg",
+        foco: "50% 50%",
+        alt: "Cuarto único de una casa antigua con la cama, la mesa y los enseres compartiendo el mismo espacio.",
+      },
+    ],
     entrada:
-      "Europa y América, siglos XVI a XIX. Un viajero que llega a una posada al anochecer no alquila una habitación: alquila un sitio en una cama, y si esa cama tiene hueco, el posadero mete a otro. La costumbre está tan asumida que aparece con naturalidad en diarios de viaje, en contratos y hasta en las guías de buenos modales, que explican cómo comportarse con el compañero de colchón.",
+      "Europa y América, siglos XVI a XIX. Un viajero que llega a una posada al anochecer no alquila una habitación ni una cama: alquila un sitio en una cama, y si en esa cama queda hueco, el posadero mete a otro sin preguntar. La costumbre está tan asumida que aparece con toda naturalidad en diarios de viaje, en contratos de hospedaje y hasta en las guías de buenos modales, que dedican párrafos enteros a explicar cómo comportarse con el compañero de colchón: no acaparar la manta, no darse la vuelta de golpe y no hablar demasiado.",
     paginas: [
       {
         rotulo: "Reglas del colchón",

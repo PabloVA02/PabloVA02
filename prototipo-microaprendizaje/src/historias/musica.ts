@@ -87,13 +87,50 @@ export const MUSICA: Short[] = [
 
   {
     id: "amen-break",
-    titulo: "Seis segundos, un millón de canciones",
+    titulo: "Seis segundos de batería",
     gancho: "El batería murió sin techo. Nunca cobró un céntimo por el fragmento.",
     categoria: "Música",
     color: "var(--clay)",
     encargo: "Un vinilo de siete pulgadas girando en un plato, aguja apoyada.",
+    fotos: [
+      {
+        archivo: "Groove and needle in close embrace from beginning to end.jpg",
+        autor: "Dos agujas apoyadas sobre el surco de un disco. Fotografía de Franz van Duns.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Groove_and_needle_in_close_embrace_from_beginning_to_end.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía en blanco y negro de dos cápsulas de tocadiscos con sus agujas rozando un vinilo.",
+      },
+      {
+        archivo: "33rpm Record Grooves.JPG",
+        autor: "Los surcos de un disco de vinilo de 33 revoluciones, vistos muy de cerca.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:33rpm_Record_Grooves.JPG",
+        foco: "50% 50%",
+        alt: "Surcos concéntricos de un disco de vinilo reflejando la luz en franjas.",
+      },
+      {
+        archivo:
+          "Technics SL-1200MK5 Direct Drive Turntable System with Ortofon cartridge (2017-01-21 22.33.27 piqsels.com en).jpg",
+        autor: "Un plato Technics SL-1200 con la cápsula apoyada en el disco.",
+        licencia: "CC0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Technics_SL-1200MK5_Direct_Drive_Turntable_System_with_Ortofon_cartridge_(2017-01-21_22.33.27_piqsels.com_en).jpg",
+        foco: "50% 50%",
+        alt: "Tocadiscos de brazo plateado con un vinilo puesto y la aguja bajada sobre el surco.",
+      },
+      {
+        archivo: "LP Record Groove Close-Up (5248017534).jpg",
+        autor: "Detalle del surco de un elepé bajo la luz.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:LP_Record_Groove_Close-Up_(5248017534).jpg",
+        foco: "50% 50%",
+        alt: "Primerísimo plano del surco de un disco, con las ondulaciones grabadas visibles.",
+      },
+    ],
     entrada:
-      "En 1969, un grupo de soul de Washington llamado The Winstons grabó una cara B de relleno titulada <em>Amen, Brother</em>. En mitad del tema, el batería Gregory Coleman se queda solo cuatro compases: seis segundos de redoble improvisado. Nadie le dio importancia entonces. Ese fragmento es hoy, probablemente, el trozo de música más reutilizado de la historia.",
+      "En 1969, un grupo de soul de Washington llamado The Winstons grabó una cara B de relleno titulada <em>Amen, Brother</em>, de esas que se meten para completar el single y que no escucha casi nadie. En mitad del tema, el batería Gregory Coleman se queda solo durante cuatro compases: seis segundos de redoble improvisado, sin ningún otro instrumento encima. Nadie le dio la menor importancia entonces, ni siquiera el grupo. Ese fragmento es hoy, probablemente, el trozo de música más reutilizado de la historia.",
     paginas: [
       {
         rotulo: "El préstamo",

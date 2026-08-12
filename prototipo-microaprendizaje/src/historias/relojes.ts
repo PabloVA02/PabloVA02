@@ -84,14 +84,52 @@ export const RELOJES: Short[] = [
 
   {
     id: "reloj-pulsera-guerra",
-    titulo: "El reloj de pulsera era cosa de mujeres",
+    titulo: "Del bolsillo a la muñeca",
     gancho: "Un hombre lo llevaba en el bolsillo. Las trincheras cambiaron eso en cuatro años.",
     categoria: "Relojes",
     color: "var(--clay)",
     curioso: true,
     encargo: "Una muñeca con un reloj pequeño de correa de cuero, en blanco y negro.",
+    fotos: [
+      {
+        archivo: "Kapesní hodinky a malachitová osobní krabička Ludvíka II. Bavorského.jpg",
+        autor: "Reloj de bolsillo de oro con su caja de malaquita. Casa de la Historia de Baviera, Ratisbona.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Kapesn%C3%AD_hodinky_a_malachitov%C3%A1_osobn%C3%AD_krabi%C4%8Dka_Ludv%C3%ADka_II._Bavorsk%C3%A9ho.jpg",
+        foco: "40% 45%",
+        alt: "Reloj de bolsillo dorado abierto sobre una vitrina, junto a una cajita verde de malaquita.",
+      },
+      {
+        archivo: "Kapesní hodinky Ludvíka II. Bavorského.jpg",
+        autor: "El mismo reloj de bolsillo, con la tapa grabada abierta.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Kapesn%C3%AD_hodinky_Ludv%C3%ADka_II._Bavorsk%C3%A9ho.jpg",
+        foco: "50% 45%",
+        alt: "Reloj de bolsillo antiguo con la esfera blanca y las agujas paradas, visto de cerca.",
+      },
+      {
+        archivo: "Sigmund Freud Museum Vienna, Freud pocket watch Vacheron Constantin.jpg",
+        autor: "Reloj de bolsillo conservado en el Museo Sigmund Freud de Viena.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Sigmund_Freud_Museum_Vienna,_Freud_pocket_watch_Vacheron_Constantin.jpg",
+        foco: "50% 45%",
+        alt: "Reloj de bolsillo de metal claro expuesto sobre un soporte, con su cadena.",
+      },
+      {
+        archivo: "Angled view of a fashion wristwatch with purple dial and leather strap 01.jpg",
+        autor: "Reloj de pulsera moderno con correa de cuero.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Angled_view_of_a_fashion_wristwatch_with_purple_dial_and_leather_strap_01.jpg",
+        foco: "50% 50%",
+        alt: "Reloj de pulsera con esfera oscura y correa de cuero, fotografiado en escorzo.",
+      },
+    ],
     entrada:
-      "Europa, comienzos del siglo XX. Un hombre que quiere saber la hora saca un reloj del bolsillo del chaleco, tirando de una cadenita. Los que se llevan atados a la muñeca existen, pero son pulseras con esfera, joyas pequeñas que se regalan a las señoras. A un caballero de la época le parecería tan ridículo ponerse uno como ponerse unos pendientes.",
+      "Europa, comienzos del siglo XX. Un hombre que quiere saber la hora se lleva la mano al chaleco, tira de una cadenita y saca un reloj del bolsillo. Los relojes atados a la muñeca ya existen, pero no son relojes en el sentido serio de la palabra: son pulseras con esfera, joyas pequeñas y delicadas que se regalan a las señoras. A un caballero de la época le parecería tan ridículo ponerse uno como ponerse unos pendientes, y así lo escriben los anuncios de entonces sin ninguna ironía.",
     paginas: [
       {
         rotulo: "El bolsillo",
