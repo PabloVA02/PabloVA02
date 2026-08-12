@@ -79,14 +79,48 @@ export const VINAGRE: Short[] = [
   },
   {
     id: "el-vinagre-no-desinfecta",
-    titulo: "El vinagre limpia bien y desinfecta mal",
+    titulo: "El vinagre no desinfecta",
     gancho: "Contra la cal es imbatible. Contra las bacterias tarda horas y no llega donde llega la lejía.",
     categoria: "Ciencia",
     color: "var(--slate)",
     curioso: true,
     encargo: "Grifo con costra blanca de cal metido en una bolsa con vinagre atada alrededor.",
+    fotos: [
+      {
+        archivo: "Barrel of Traditional Balsamic Vinegar of Modena.jpg",
+        autor: "Barril de vinagre balsámico tradicional de Módena, con la tapa de piedra encima.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Barrel_of_Traditional_Balsamic_Vinegar_of_Modena.jpg",
+        foco: "50% 40%",
+        alt: "Barril de madera oscura sobre un caballete, con la boca abierta tapada por un paño y una piedra.",
+      },
+      {
+        archivo: "Acetaia Modena.JPG",
+        autor: "Batería de barriles de una acetaia de Módena, donde el vinagre pasa de uno a otro durante años.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Acetaia_Modena.JPG",
+        foco: "50% 50%",
+        alt: "Hilera de barriles de madera de tamaños decrecientes apoyados en una viga.",
+      },
+      {
+        archivo: "Castello di Levizzano Rangone abc7 acetaia.jpg",
+        autor: "Acetaia instalada bajo el tejado del castillo de Levizzano Rangone, en Italia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Castello_di_Levizzano_Rangone_abc7_acetaia.jpg",
+        foco: "50% 50%",
+        alt: "Desván con vigas de madera y filas de barriles pequeños de vinagre alineados.",
+      },
+      {
+        archivo: "Malpighi Vinegar Museum.jpg",
+        autor: "Sala del museo del vinagre Malpighi, en Módena.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Malpighi_Vinegar_Museum.jpg",
+        foco: "50% 45%",
+        alt: "Vitrinas y barriles antiguos expuestos en un museo dedicado al vinagre.",
+      },
+    ],
     entrada:
-      "Cocinas de todo el mundo, con los ensayos de laboratorio publicados desde 1997. El vinagre tiene fama de desinfectante natural y esa fama es solo parcialmente cierta. Los estudios que lo han medido encuentran que mata algunos microbios, tarda mucho más de lo que la gente cree y falla contra otros. Como quitagrasas y antical, en cambio, funciona de maravilla.",
+      "Cocinas de todo el mundo, con los ensayos de laboratorio publicados desde 1997 en adelante. El vinagre tiene fama de desinfectante natural, de esos que se recomiendan en casa para no usar química, y esa fama es solo parcialmente cierta. Los estudios que se han molestado en medirlo encuentran que sí mata algunos microbios, pero que tarda muchísimo más de lo que la gente cree y que falla del todo contra otros. Como quitagrasas y como antical, en cambio, funciona de maravilla y es dificilísimo de superar.",
     paginas: [
       {
         rotulo: "Qué mata",
