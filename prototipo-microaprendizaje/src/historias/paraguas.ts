@@ -57,7 +57,7 @@ export const PARAGUAS: Short[] = [
       },
     ],
     entrada:
-      "Londres, hacia 1750. El paraguas existe desde hace siglos y todo el mundo sabe lo que es, pero en Inglaterra solo lo usan las mujeres y las tiendas lo tienen catalogado como artículo femenino, junto a los abanicos. Un hombre que ha viajado mucho por Europa y por Oriente, y que ha visto usarlo allí con normalidad, decide que aquello es una tontería y empieza a salir a la calle con uno todos los días, llueva o no llueva. Lo hará durante treinta años seguidos, aguantando de todo.",
+      "Londres, hacia 1750. El paraguas existe desde hace siglos y todo el mundo sabe lo que es, pero en Inglaterra solo lo usan las mujeres y las tiendas lo tienen catalogado como artículo femenino, junto a los abanicos. Un hombre que ha viajado mucho por Europa y por Oriente, y que ha visto usarlo allí con normalidad, decide que aquello es una tontería y empieza a salir a la calle con uno todos los días, llueva o no llueva. Lo hará durante treinta años seguidos, aguantando burlas, insultos y alguna pedrada, hasta que la costumbre cambie de bando.",
     paginas: [
       {
         rotulo: "El enemigo del cochero",

@@ -129,7 +129,7 @@ export const ESCLAVITUD: Short[] = [
       },
     ],
     entrada:
-      "Atlántico, noviembre de 1781. Un barco negrero británico se ha desviado de su rumbo camino de Jamaica, lleva navegando mucho más tiempo del previsto y empieza a escasear el agua potable. Van a bordo cuatrocientas cuarenta personas esclavizadas, más del doble de las que el barco puede llevar, y una tripulación de diecisiete hombres. La tripulación toma entonces una decisión, la ejecuta durante tres días seguidos y la anota con toda naturalidad en el diario de a bordo, porque no la considera un crimen sino una operación contable.",
+      "Atlántico, noviembre de 1781. Un barco negrero británico se ha desviado de su rumbo camino de Jamaica, lleva navegando mucho más tiempo del previsto y empieza a escasear el agua potable. Van a bordo cuatrocientas cuarenta personas esclavizadas, más del doble de las que el barco puede llevar, y una tripulación de diecisiete hombres. La tripulación toma entonces una decisión, la ejecuta durante tres días seguidos y la anota con toda naturalidad en el diario de a bordo, porque quien la anota no la considera un crimen, sino una operación contable con la que se salvarían las cuentas del viaje.",
     paginas: [
       {
         rotulo: "El cálculo",

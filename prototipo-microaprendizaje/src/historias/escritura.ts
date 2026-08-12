@@ -125,7 +125,7 @@ export const ESCRITURA: Short[] = [
       },
     ],
     entrada:
-      "Egipto, julio de 1799. Unos soldados franceses que reparan las defensas de un fuerte cerca del delta del Nilo desentierran una losa de granito oscuro de poco más de un metro, rota por arriba, con tres bandas de escritura distinta talladas una debajo de otra. Un oficial que va con ellos se da cuenta de que aquello puede ser importante y ordena que no se toque. Nadie sabe todavía que acaban de encontrar la llave de una lengua que llevaba mil cuatrocientos años sin que nadie pudiera leerla.",
+      "Egipto, julio de 1799. Unos soldados franceses que reparan las defensas de un fuerte cerca del delta del Nilo desentierran una losa de granito oscuro de poco más de un metro, rota por arriba, con tres bandas de escritura distinta talladas una debajo de otra. Un oficial que va con ellos se da cuenta de que aquello puede ser importante y ordena que no se toque. Nadie sabe todavía que acaban de encontrar la llave de una lengua entera que llevaba mil cuatrocientos años delante de los ojos de todo el mundo sin que nadie pudiera leerla.",
     paginas: [
       {
         rotulo: "Los tres textos",

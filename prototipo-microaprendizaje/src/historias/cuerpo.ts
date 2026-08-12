@@ -132,7 +132,7 @@ export const CUERPO: Short[] = [
       },
     ],
     entrada:
-      "Un hueso parece lo más quieto que hay en el cuerpo: duro, seco, terminado, casi un mineral. Es exactamente lo contrario, y se sabe desde mediados del siglo XX, cuando se pudo seguir el rastro del calcio dentro de un organismo vivo y se vio que no paraba de moverse. Dentro de cada hueso trabaja una cuadrilla permanente que abre túneles, retira material viejo y lo repone con material nuevo. El esqueleto entero se sustituye cada década más o menos, sin que la forma cambie ni un milímetro.",
+      "Un hueso parece lo más quieto que hay en el cuerpo: duro, seco, terminado, casi un mineral. Es exactamente lo contrario, y se sabe desde mediados del siglo XX, cuando se pudo seguir el rastro del calcio dentro de un organismo vivo y se vio que no paraba de moverse. Dentro de cada hueso trabaja una cuadrilla permanente que abre túneles, retira material viejo y lo repone con material nuevo. El esqueleto entero se sustituye cada década más o menos, hueso por hueso, sin que la forma cambie ni un milímetro y sin que uno se entere de nada.",
     paginas: [
       {
         rotulo: "La cuadrilla",

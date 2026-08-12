@@ -124,7 +124,7 @@ export const ORO: Short[] = [
       },
     ],
     entrada:
-      "Alemania, 1920. El país acaba de perder una guerra mundial y debe una indemnización tan enorme que nadie sabe de dónde va a salir el dinero. Un químico famoso, premiado por haber encontrado la forma de fabricar abono a partir del aire, propone al gobierno una salida insólita: el agua del mar contiene oro disuelto, y hay muchísima agua de mar. Bastaría con filtrarla. Le montan una expedición en secreto, con el laboratorio metido en la bodega de un carguero y todo el material etiquetado como equipo oceanográfico.",
+      "Alemania, 1920. El país acaba de perder una guerra mundial y debe una indemnización tan enorme que nadie sabe de dónde va a salir el dinero. Un químico famoso, premiado por haber encontrado la forma de fabricar abono a partir del aire, propone al gobierno una salida insólita: el agua del mar contiene oro disuelto, y hay muchísima agua de mar. Bastaría con filtrarla. Le montan una expedición en secreto, con el laboratorio entero metido en la bodega de un carguero y todo el material etiquetado como equipo oceanográfico para que nadie preguntara.",
     paginas: [
       {
         rotulo: "El laboratorio flotante",

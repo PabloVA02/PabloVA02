@@ -125,7 +125,7 @@ export const GAFAS: Short[] = [
       },
     ],
     entrada:
-      "Alemania, 1888. Un fabricante de ojos de cristal para prótesis colabora con un médico en una idea bastante rara y bastante incómoda: colocar directamente sobre el ojo una cáscara de vidrio finísimo, soplada a medida, que corrija la vista sin ninguna montura por delante. La prueban primero con conejos, después con el propio fabricante, que se la pone él mismo, y por último con un grupo pequeño de voluntarios con mucha paciencia. Funciona, en el sentido de que se ve mejor. El problema es cuánto rato se aguanta.",
+      "Alemania, 1888. Un fabricante de ojos de cristal para prótesis colabora con un médico en una idea bastante rara y bastante incómoda: colocar directamente sobre el ojo una cáscara de vidrio finísimo, soplada a medida, que corrija la vista sin ninguna montura por delante. La prueban primero con conejos, después con el propio fabricante, que se la pone él mismo, y por último con un grupo pequeño de voluntarios con mucha paciencia. Funciona, en el sentido estricto de que con ella puesta se ve mejor que sin ella. El problema, y no es pequeño, es cuánto rato se aguanta puesta.",
     paginas: [
       {
         rotulo: "La cáscara",

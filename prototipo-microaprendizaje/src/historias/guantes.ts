@@ -117,7 +117,7 @@ export const GUANTES: Short[] = [
       },
     ],
     entrada:
-      "Industria europea y estadounidense, con las normas actuales vigentes desde 1994. Un guante de trabajo no es una prenda, sino un equipo de protección homologado, y lleva impresa en el puño una etiqueta llena de números que casi nadie se para a leer. Esos números no son un adorno ni una referencia de fábrica: dicen cuánto aguanta ese guante concreto frente a cuatro peligros distintos, que son la abrasión, el corte, el desgarro y la perforación. Elegir el guante equivocado para la máquina equivocada significa perder un dedo.",
+      "Industria europea y estadounidense, con las normas actuales vigentes desde 1994. Un guante de trabajo no es una prenda, sino un equipo de protección homologado, y lleva impresa en el puño una etiqueta llena de números que casi nadie se para a leer. Esos números no son un adorno ni una referencia de fábrica: dicen cuánto aguanta ese guante concreto frente a cuatro peligros distintos, que son la abrasión, el corte, el desgarro y la perforación. Elegir el guante equivocado para la máquina equivocada, aunque sea un guante caro y bueno, significa perder un dedo.",
     paginas: [
       {
         rotulo: "Cuatro números",

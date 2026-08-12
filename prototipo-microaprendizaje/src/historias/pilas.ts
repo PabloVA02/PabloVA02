@@ -119,7 +119,7 @@ export const PILAS: Short[] = [
       },
     ],
     entrada:
-      "Japón, 1991. Sale al mercado la primera batería recargable de iones de litio, un invento que llevaba quince años parado en los laboratorios por un problema de seguridad que nadie sabía resolver. El litio es el metal más ligero que existe y guarda muchísima energía por gramo, y por eso es ideal para una batería que tiene que caber en un bolsillo. Es también, exactamente por lo mismo, el motivo de que una batería estropeada pueda arder por dentro sin que nadie sea capaz de apagarla desde fuera.",
+      "Japón, 1991. Sale al mercado la primera batería recargable de iones de litio, un invento que llevaba quince años parado en los laboratorios por un problema de seguridad que nadie sabía resolver. El litio es el metal más ligero que existe y guarda muchísima energía por gramo, y por eso es ideal para una batería que tiene que caber en un bolsillo. Es también, exactamente por lo mismo, el motivo de que una batería estropeada pueda arder por dentro, alimentándose a sí misma, sin que nadie sea capaz de apagarla desde fuera.",
     paginas: [
       {
         rotulo: "Ida y vuelta",
