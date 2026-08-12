@@ -94,6 +94,40 @@ export const HIELO: Short[] = [
     color: "var(--sage)",
     curioso: true,
     encargo: "Un cilindro de hielo extraído de un sondeo, translúcido, sobre bandeja metálica.",
+    fotos: [
+      {
+        archivo: "Crevasse at Breiðamerkurjökull, Iceland, 20240719 1437 2641.jpg",
+        autor: "Pared de una grieta del glaciar Breiðamerkurjökull, en Islandia, con las capas y la ceniza atrapadas.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACrevasse%20at%20Brei%C3%B0amerkurj%C3%B6kull%2C%20Iceland%2C%2020240719%201437%202641.jpg",
+        foco: "50% 45%",
+        alt: "Hielo de glaciar visto muy de cerca, azul turquesa arriba y veteado de negro abajo.",
+      },
+      {
+        archivo: "Ice-core drill hg.jpg",
+        autor: "Sonda de perforación de hielo, del tipo con el que se sacan los cilindros de las capas profundas.",
+        licencia: "CC BY-SA 2.5",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AIce-core%20drill%20hg.jpg",
+        foco: "50% 50%",
+        alt: "Tubo metálico largo de perforación tumbado sobre soportes, con la corona cortante en un extremo.",
+      },
+      {
+        archivo: "Antarctica WAIS Divide Field Camp 10.jpg",
+        autor: "Campamento de sondeo de la División WAIS, en la Antártida.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAntarctica%20WAIS%20Divide%20Field%20Camp%2010.jpg",
+        foco: "50% 50%",
+        alt: "Campamento de tiendas y módulos sobre una llanura de nieve bajo un cielo despejado.",
+      },
+      {
+        archivo: "Glacier face Antarctic Peninsula.png",
+        autor: "Frente de un glaciar en la península Antártica.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AGlacier%20face%20Antarctic%20Peninsula.png",
+        foco: "50% 50%",
+        alt: "Pared de hielo cortada a pico sobre el mar, con vetas azules y la nieve encima.",
+      },
+    ],
     entrada:
       "Cuando nieva sobre la Antártida, entre los copos queda aire atrapado. La nieve siguiente aprieta a la anterior, y capa sobre capa, milenio sobre milenio, ese aire acaba encerrado en burbujas dentro del hielo profundo. Perforar y sacar un cilindro de ese hielo es traer a la superficie muestras de atmósfera antigua, sin reconstrucciones ni modelos: el aire de verdad.",
     paginas: [
