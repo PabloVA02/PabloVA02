@@ -84,8 +84,42 @@ export const AGUJA: Short[] = [
     categoria: "Medicina",
     color: "var(--slate)",
     encargo: "Varias agujas hipodérmicas de distintos calibres alineadas con sus capuchones de color.",
+    fotos: [
+      {
+        archivo: "Beveled tip of a hypodermic needle 20090714 003.JPG",
+        autor: "Punta biselada de una aguja hipodérmica fotografiada muy de cerca.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABeveled%20tip%20of%20a%20hypodermic%20needle%2020090714%20003.JPG",
+        foco: "50% 45%",
+        alt: "Aguja metálica finísima vista de perfil, con el corte oblicuo de la punta y el agujero del tubo visibles.",
+      },
+      {
+        archivo: "2023 Strzykawka szklana (1).jpg",
+        autor: "Jeringa de cristal de las que se esterilizaban y se volvían a usar, antes de las de plástico.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2023%20Strzykawka%20szklana%20(1).jpg",
+        foco: "50% 50%",
+        alt: "Jeringa antigua de vidrio con émbolo y anillas metálicas, apoyada sobre una superficie clara.",
+      },
+      {
+        archivo: "Syringe with needle (2).JPG",
+        autor: "Jeringas de distintos tamaños con sus agujas puestas.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASyringe%20with%20needle%20(2).JPG",
+        foco: "50% 50%",
+        alt: "Varias jeringas de plástico de distinta capacidad, cada una con su aguja y su capuchón de color.",
+      },
+      {
+        archivo: "COVID-19 vaccination center, fair grounds Cologne-6600.jpg",
+        autor: "Centro de vacunación montado en el recinto ferial de Colonia, diciembre de 2020.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACOVID-19%20vaccination%20center%2C%20fair%20grounds%20Cologne-6600.jpg",
+        foco: "50% 50%",
+        alt: "Nave enorme dividida en cabinas idénticas para vacunar, con pasillos anchos y señalización en el suelo.",
+      },
+    ],
     entrada:
-      "Escocia y Francia, 1853. Dos médicos desarrollan por separado el mismo aparato: una jeringa con una aguja hueca capaz de meter un líquido bajo la piel sin abrir la carne. Hasta entonces, un medicamento solo entraba por la boca o por una herida. La aguja hueca cambió la medicina y trajo consigo una numeración que sigue confundiendo a todo el mundo.",
+      "Escocia y Francia, 1853. Dos médicos desarrollan por separado y casi a la vez el mismo aparato: una jeringa con una aguja hueca capaz de meter un líquido bajo la piel sin tener que abrir la carne. Hasta entonces, un medicamento solo podía entrar en el cuerpo por la boca o aprovechando una herida, y eso limitaba muchísimo lo que se podía hacer con él. La aguja hueca cambió la medicina entera en unas décadas, y trajo de propina una numeración que sigue confundiendo a todo el que se la encuentra por primera vez.",
     paginas: [
       {
         rotulo: "Estirar el tubo",
