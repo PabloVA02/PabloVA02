@@ -93,8 +93,42 @@ export const COCINA: Short[] = [
     categoria: "Cocina",
     color: "var(--ochre)",
     encargo: "Zanahorias de varios colores —morada, blanca, amarilla, naranja— sobre madera.",
+    fotos: [
+      {
+        archivo: "Carottes et poireaux de la ferme Grandjard au marché de la place Albert Thomas.jpg",
+        autor: "Zanahorias y puerros de una granja en el mercado de la plaza Albert Thomas, en Saint-Étienne.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACarottes%20et%20poireaux%20de%20la%20ferme%20Grandjard%20au%20march%C3%A9%20de%20la%20place%20Albert%20Thomas.jpg",
+        foco: "55% 55%",
+        alt: "Cajas de madera en un puesto de mercado llenas de zanahorias naranjas, con puerros al lado.",
+      },
+      {
+        archivo: "Carrots of many colors.jpg",
+        autor: "Zanahorias de distintos colores obtenidas por selección en un centro de investigación agraria.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACarrots%20of%20many%20colors.jpg",
+        foco: "50% 50%",
+        alt: "Manojo de zanahorias moradas, blancas, amarillas, rojas y naranjas puestas unas junto a otras.",
+      },
+      {
+        archivo: "Carrots at Ljubljana Central Market.JPG",
+        autor: "Manojos de zanahorias en el mercado central de Liubliana.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACarrots%20at%20Ljubljana%20Central%20Market.JPG",
+        foco: "50% 50%",
+        alt: "Zanahorias atadas en manojos con las hojas puestas, colocadas en fila en un puesto.",
+      },
+      {
+        archivo: "Preparing and slicing carrots.jpg",
+        autor: "Zanahorias peladas pasando por una picadora de manivela.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APreparing%20and%20slicing%20carrots.jpg",
+        foco: "50% 50%",
+        alt: "Zanahorias peladas y cortadas en rodajas junto a un aparato de cocina de manivela.",
+      },
+    ],
     entrada:
-      "La historia se cuenta con mucha seguridad: los agricultores holandeses del siglo XVII seleccionaron zanahorias naranjas en honor a Guillermo de Orange, y por eso todas las zanahorias del mundo son hoy de ese color. La parte de que antes no eran naranjas es rigurosamente cierta. La parte del homenaje patriótico es donde la documentación se pone escurridiza.",
+      "La historia se cuenta siempre con mucha seguridad y queda muy bien contada: los agricultores holandeses del siglo XVII seleccionaron zanahorias naranjas en honor a Guillermo de Orange, y por eso todas las zanahorias del mundo son hoy de ese color y no de otro. Conviene separar las dos mitades de la frase antes de repetirla. La parte de que antes no eran naranjas, sino moradas, blancas y amarillas, es rigurosamente cierta y está bien documentada. La parte del homenaje patriótico es justo donde los papeles empiezan a ponerse escurridizos.",
     paginas: [
       {
         rotulo: "El color original",
