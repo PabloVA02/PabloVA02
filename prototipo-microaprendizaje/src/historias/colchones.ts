@@ -152,8 +152,42 @@ export const COLCHONES: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "La huella de una mano hundida en un bloque de espuma gris, recuperándose despacio.",
+    fotos: [
+      {
+        archivo: "Apollo 11 Saturn V builds thrust prior to liftoff (48293732417).jpg",
+        autor: "El Saturno V del Apolo 11 tomando empuje antes de despegar, 1969.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AApollo%2011%20Saturn%20V%20builds%20thrust%20prior%20to%20liftoff%20(48293732417).jpg",
+        foco: "45% 55%",
+        alt: "Cohete Saturno V blanco junto a su torre roja, con fuego y humo saliendo por debajo.",
+      },
+      {
+        archivo: "Launch of the Saturn V with Apollo 11 (48300001196).jpg",
+        autor: "Despegue del Saturno V del Apolo 11, 1969.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALaunch%20of%20the%20Saturn%20V%20with%20Apollo%2011%20(48300001196).jpg",
+        foco: "50% 50%",
+        alt: "El cohete Saturno V subiendo sobre una columna de fuego y humo.",
+      },
+      {
+        archivo: "Apollo 16 Saturn V launch.jpg",
+        autor: "Lanzamiento del Apolo 16, 1972.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AApollo%2016%20Saturn%20V%20launch.jpg",
+        foco: "50% 50%",
+        alt: "Saturno V despegando de la plataforma con una nube blanca extendiéndose a los lados.",
+      },
+      {
+        archivo: "DZ6 0461 Cozy neatly made hotel room with a king bed soft pillows bedside lamps and calming neutral decor.jpg",
+        autor: "Habitación de hotel con la cama hecha, 2025.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADZ6%200461%20Cozy%20neatly%20made%20hotel%20room%20with%20a%20king%20bed%20soft%20pillows%20bedside%20lamps%20and%20calming%20neutral%20decor.jpg",
+        foco: "50% 55%",
+        alt: "Cama grande hecha con ropa blanca y almohadas mullidas, con lámparas a los lados.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1966. La agencia espacial estadounidense está preparando los vuelos que llevarán hombres a la Luna y tiene un problema con los asientos. En el despegue y en el aterrizaje, el cuerpo recibe un empujón de varias veces su propio peso, y una espuma normal devuelve ese empujón como un muelle. Un ingeniero recibió el encargo de fabricar un material que absorbiera el golpe en lugar de rebotarlo.",
+      "Estados Unidos, 1966. La agencia espacial estadounidense está preparando los vuelos que llevarán hombres a la Luna y tiene un problema pequeño y muy terco con los asientos. En el despegue y en el aterrizaje, el cuerpo del astronauta recibe un empujón de varias veces su propio peso, y una espuma normal, por gruesa que sea, devuelve ese empujón como si fuera un muelle. Un ingeniero del centro de investigación recibió entonces un encargo que sonaba casi contradictorio: fabricar un material blando que absorbiera el golpe en vez de rebotarlo.",
     paginas: [
       {
         rotulo: "Rebotar o tragar",
