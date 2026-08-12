@@ -157,8 +157,44 @@ export const CIRCO: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un cañón de circo pintado de rojo apuntando hacia arriba, con una red al fondo.",
+    fotos: [
+      {
+        archivo: "Shooting a man out of a cannon.jpg",
+        autor: "Número del hombre bala bajo la carpa, 2024.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AShooting%20a%20man%20out%20of%20a%20cannon.jpg",
+        foco: "62% 32%",
+        alt: "Un acróbata volando por el aire entre una nube de humo, bajo la lona roja de un circo.",
+      },
+      {
+        archivo: "Human cannonball preparing to enter his gun.jpg",
+        autor: "El hombre bala antes de meterse en el cañón, 2024.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHuman%20cannonball%20preparing%20to%20enter%20his%20gun.jpg",
+        foco: "50% 45%",
+        alt: "Un acróbata subido al cañón del circo justo antes de introducirse en el tubo.",
+      },
+      {
+        archivo: "The human canon ball LCCN2014635898.jpg",
+        autor: "Cartel de circo del hombre bala, 1879.",
+        licencia: "Public domain",
+        pdPorEdad: 1930,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20human%20canon%20ball%20LCCN2014635898.jpg",
+        foco: "50% 45%",
+        alt: "Litografía antigua de un hombre saliendo disparado de un cañón sobre una ciudad.",
+      },
+      {
+        archivo: "The Barnum & Bailey greatest show on earth, the world's grandest, largest, best, amusement institution. The Flying Dillons in a series of most marvelous mid-air feats and startling LCCN92504593.jpg",
+        autor: "Cartel del circo Barnum & Bailey con los trapecistas Flying Dillons, 1895.",
+        licencia: "Public domain",
+        pdPorEdad: 1930,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20Barnum%20%26%20Bailey%20greatest%20show%20on%20earth%2C%20the%20world's%20grandest%2C%20largest%2C%20best%2C%20amusement%20institution.%20The%20Flying%20Dillons%20in%20a%20series%20of%20most%20marvelous%20mid-air%20feats%20and%20startling%20LCCN92504593.jpg",
+        foco: "50% 50%",
+        alt: "Cartel en color con varios trapecistas volando por el aire dentro de una carpa.",
+      },
+    ],
     entrada:
-      "Londres, 1877. En un espectáculo se presenta un número nuevo: una acróbata de catorce años se mete en la boca de un cañón, suena una detonación, sale humo y ella sale despedida por el aire hasta caer en unos brazos al otro lado de la sala. El público entiende que la ha disparado la pólvora. La pólvora, en realidad, no toca a la chica en ningún momento.",
+      "Londres, 1877. En un espectáculo del Royal Aquarium se presenta un número que nadie ha visto antes: una acróbata de catorce años se mete de pie en la boca de un cañón, suena una detonación tremenda, sale una nube de humo y ella sale despedida por el aire hasta caer, unos metros más allá, en los brazos de un compañero al otro lado de la sala. El público entiende sin que nadie se lo diga que la ha disparado la pólvora, y de eso se trata. La pólvora, en realidad, no toca a la chica en ningún momento.",
     paginas: [
       {
         rotulo: "El muelle escondido",
