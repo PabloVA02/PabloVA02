@@ -154,8 +154,42 @@ export const ANCLA: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Cabeza de anclaje con placa cuadrada de acero sobre un muro de contención de roca.",
+    fotos: [
+      {
+        archivo: "Steel frame building under construction in Taiwan.jpg",
+        autor: "Estructura de acero de un edificio en obras, Taiwán, 2024.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASteel%20frame%20building%20under%20construction%20in%20Taiwan.jpg",
+        foco: "45% 75%",
+        alt: "Esqueleto de vigas rojas de un edificio en construcción con una grúa verde encima.",
+      },
+      {
+        archivo: "Chicago (ILL) AIC, Lakeshore East \" AON tower \" (center) 346 mtrs 1973 (4825813645).jpg",
+        autor: "La torre Aon de Chicago, terminada en 1973.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AChicago%20(ILL)%20AIC%2C%20Lakeshore%20East%20%22%20AON%20tower%20%22%20(center)%20346%20mtrs%201973%20(4825813645).jpg",
+        foco: "50% 45%",
+        alt: "Rascacielos blanco y estrecho de Chicago visto desde abajo entre otros edificios.",
+      },
+      {
+        archivo: "Taipei, architecture - Taipei1015097.jpg",
+        autor: "Fachada de un edificio alto de Taipéi, 2025.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATaipei%2C%20architecture%20-%20Taipei1015097.jpg",
+        foco: "50% 50%",
+        alt: "Fachada de cristal de un edificio alto vista desde la calle, con el cielo reflejado.",
+      },
+      {
+        archivo: "Winnipeg (6387054355).jpg",
+        autor: "Edificios del centro de Winnipeg, Canadá, 2011.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWinnipeg%20(6387054355).jpg",
+        foco: "50% 50%",
+        alt: "Torres del centro de una ciudad recortadas contra el cielo.",
+      },
+    ],
     entrada:
-      "Cualquier ciudad con edificios altos, con el cálculo moderno asentado desde 1960. Un rascacielos parece que solo tiene que aguantar su propio peso hacia abajo, y ese es el problema fácil. El difícil es el viento, que lo empuja de lado y trata de volcarlo como si fuera una palanca. Al volcar, un lado del edificio se comprime y el otro se levanta del suelo.",
+      "Cualquier ciudad con edificios altos, con el cálculo moderno bien asentado desde 1960. Un rascacielos parece que solo tiene que aguantar su propio peso hacia abajo, contra el suelo, y ese resulta ser el problema fácil, el que se resuelve con hormigón y paciencia. El difícil es el viento, que lo empuja de lado sin descanso y trata de volcarlo como si fuera una palanca clavada en el suelo. Al volcar, un lado del edificio se comprime contra la tierra y el otro, el de sotavento, se levanta. Y eso último es lo que hay que sujetar.",
     paginas: [
       {
         rotulo: "Hacia arriba",
