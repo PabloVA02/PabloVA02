@@ -195,7 +195,7 @@ export const EPIDEMIAS: Short[] = [
       },
     ],
     entrada:
-      "Sicilia, octubre de 1347. Doce galeras procedentes de los puertos del mar Negro atracan una mañana en Mesina con la mayoría de la tripulación ya muerta a bordo y el resto agonizando en cubierta, cubiertos de bultos negros en el cuello y las ingles. Las autoridades del puerto, espantadas, mandan que las naves se marchen de allí inmediatamente, pero para entonces ya es tarde y las ratas han bajado a tierra. En apenas cuatro años la enfermedad recorre Europa entera de sur a norte, y no deja ninguna ciudad fuera.",
+      "Sicilia, octubre de 1347. Doce galeras procedentes de los puertos del mar Negro atracan una mañana en Mesina con la mayoría de la tripulación ya muerta a bordo y el resto agonizando en cubierta, cubiertos de bultos negros en el cuello y las ingles. Las autoridades del puerto, espantadas, mandan que las naves se marchen de allí inmediatamente, pero para entonces ya es tarde y las ratas han bajado a tierra. En apenas cuatro años la enfermedad recorre Europa entera de sur a norte, sin dejar fuera ninguna ciudad ni ninguna aldea del continente.",
     paginas: [
       {
         rotulo: "El bicho",
