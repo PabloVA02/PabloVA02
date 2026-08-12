@@ -157,8 +157,46 @@ export const SEGUROS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Documento notarial antiguo con una lista de nombres y varios tachados.",
+    fotos: [
+      {
+        archivo: "Cornelis Norbertus Gijsbrechts - Vanitas still life with a skull, sheet music, violin, globe, candle, hourglass and playing cards, all on a draped table.jpg",
+        autor: "Óleo de Cornelis Norbertus Gijsbrechts, 1662.",
+        licencia: "Public domain",
+        pdPorEdad: 1683,
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACornelis%20Norbertus%20Gijsbrechts%20-%20Vanitas%20still%20life%20with%20a%20skull%2C%20sheet%20music%2C%20violin%2C%20globe%2C%20candle%2C%20hourglass%20and%20playing%20cards%2C%20all%20on%20a%20draped%20table.jpg",
+        foco: "50% 60%",
+        alt: "Bodegón oscuro con una calavera, naipes, monedas, un reloj de arena y una vela encendida sobre una mesa.",
+      },
+      {
+        archivo: "Adriaen van Utrecht - Vanitas Still-Life with a Bouquet, a Skull and Precious Objects.jpg",
+        autor: "Óleo de Adriaen van Utrecht, 1643.",
+        licencia: "Public domain",
+        pdPorEdad: 1652,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAdriaen%20van%20Utrecht%20-%20Vanitas%20Still-Life%20with%20a%20Bouquet%2C%20a%20Skull%20and%20Precious%20Objects.jpg",
+        foco: "50% 55%",
+        alt: "Bodegón con un ramo de flores, joyas, monedas y una calavera sobre una mesa cubierta.",
+      },
+      {
+        archivo: "Guercino - A vanitas still life with a skull atop a book, an hourglass and two glass vases of flowers.jpg",
+        autor: "Óleo de Guercino, hacia 1619.",
+        licencia: "Public domain",
+        pdPorEdad: 1666,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AGuercino%20-%20A%20vanitas%20still%20life%20with%20a%20skull%20atop%20a%20book%2C%20an%20hourglass%20and%20two%20glass%20vases%20of%20flowers.jpg",
+        foco: "50% 50%",
+        alt: "Calavera apoyada sobre un libro, un reloj de arena y dos jarrones de flores en penumbra.",
+      },
+      {
+        archivo: "Nicolaes van Verendael - Vanitas still life with flowers, a skull, hourglass, conch shell and silver jug on a partially draped table.jpg",
+        autor: "Óleo atribuido a Nicolaes van Verendael, 1680.",
+        licencia: "Public domain",
+        pdPorEdad: 1691,
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANicolaes%20van%20Verendael%20-%20Vanitas%20still%20life%20with%20flowers%2C%20a%20skull%2C%20hourglass%2C%20conch%20shell%20and%20silver%20jug%20on%20a%20partially%20draped%20table.jpg",
+        foco: "50% 50%",
+        alt: "Flores, una calavera, un reloj de arena y una jarra de plata sobre una mesa con un paño.",
+      },
+    ],
     entrada:
-      "Francia, 1653. El Estado necesita dinero y un banquero italiano le propone un producto financiero que nadie ha visto: un grupo de personas pone dinero en común y cobra una renta anual de por vida. Cuando uno muere, su parte se reparte entre los que siguen vivos. El último superviviente acaba cobrando la renta de todos los demás.",
+      "Francia, 1653. El Estado necesita dinero con urgencia y un banquero napolitano llamado Lorenzo Tonti le propone un producto financiero que nadie ha visto antes: un grupo de personas pone dinero en común y cobra a cambio una renta anual de por vida, año tras año, sin devolución del capital. La gracia está en lo que pasa después, porque cuando uno de ellos muere su parte no vuelve a la familia, sino que se reparte entre los que siguen vivos. Y así, año tras año, la renta de cada superviviente sube. El último de todos acaba cobrando lo de los demás.",
     paginas: [
       {
         rotulo: "El invento",
