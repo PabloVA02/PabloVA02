@@ -84,6 +84,40 @@ export const ADUANAS: Short[] = [
     categoria: "Aduanas",
     color: "var(--slate)",
     encargo: "Un fardo de lana atado con cuerda en el muelle de un puerto.",
+    fotos: [
+      {
+        archivo: "Shepherd watching his flock grazing at Xaghra.jpg",
+        autor: "Pastor con su rebaño en Xagħra, en la isla de Gozo, a última hora de la tarde.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AShepherd%20watching%20his%20flock%20grazing%20at%20Xaghra.jpg",
+        foco: "50% 55%",
+        alt: "Hombre de pie con un cayado junto a media docena de ovejas de lana larga, en un terreno de matorral bajo.",
+      },
+      {
+        archivo: "WoolSheetsSouthMolton.jpg",
+        autor: "Sacas de vellones recién esquilados en un almacén de lana de Devon, en Inglaterra.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWoolSheetsSouthMolton.jpg",
+        foco: "50% 55%",
+        alt: "Sacas enormes de tela llenas de lana, cosidas y apiladas en la nave de un almacén.",
+      },
+      {
+        archivo: "Wool fleece 69.jpg",
+        autor: "Vellón entero recién esquilado, extendido en un cobertizo de esquileo.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWool%20fleece%2069.jpg",
+        foco: "50% 50%",
+        alt: "Vellón de oveja extendido sobre una mesa de listones, con los rizos de lana bien visibles.",
+      },
+      {
+        archivo: "Leeds Industrial Museum Hattersley standard loom batten 7048.JPG",
+        autor: "Telar mecánico en el Museo Industrial de Leeds, instalado en la que fue la mayor fábrica de paño del mundo.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALeeds%20Industrial%20Museum%20Hattersley%20standard%20loom%20batten%207048.JPG",
+        foco: "50% 50%",
+        alt: "Telar de hierro con la urdimbre tensada y el peine de madera, dentro de una nave de museo.",
+      },
+    ],
     entrada:
       "Inglaterra, siglos XIV a XVIII. El país produce una lana excelente y durante mucho tiempo la vende cruda a los tejedores del continente, que se quedan con el beneficio de transformarla. La corona decide invertir esa situación con leyes muy duras: cobra impuestos altísimos a la lana que sale y prohíbe directamente exportar oveja viva o lana sin trabajar.",
     paginas: [
