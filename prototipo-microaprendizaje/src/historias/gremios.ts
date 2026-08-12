@@ -86,8 +86,44 @@ export const GREMIOS: Short[] = [
     categoria: "Gremios",
     color: "var(--slate)",
     encargo: "Un joven con chaqueta negra de botones y un hatillo al hombro, de espaldas en una carretera.",
+    fotos: [
+      {
+        archivo: "19881005080NR Quedlinburg Lange Gasse 32.jpg",
+        autor: "Una esquina del casco antiguo de Quedlinburg, en 1988. Fotografía de Jörg Blobelt.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:19881005080NR_Quedlinburg_Lange_Gasse_32.jpg",
+        foco: "50% 50%",
+        alt: "Casas de entramado de madera en una plaza empedrada vacía, con la luz gris de la mañana.",
+      },
+      {
+        archivo: "Markgröningen - Altstadt - Finstere Gasse 9 - Ansicht von WNW (1).jpg",
+        autor: "Casa de entramado del casco antiguo de Markgröningen. Fotografía de Roman Eisele.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Markgr%C3%B6ningen_-_Altstadt_-_Finstere_Gasse_9_-_Ansicht_von_WNW_(1).jpg",
+        foco: "50% 55%",
+        alt: "Fachada de entramado de madera oscura sobre revoque blanco, con las vigas cruzadas a la vista.",
+      },
+      {
+        archivo: "Ummerstadt, 2013-10-30, 011.jpg",
+        autor: "Casas antiguas de la pequeña ciudad de Ummerstadt, en Turingia. Fotografía de Tilman2007.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ummerstadt,_2013-10-30,_011.jpg",
+        foco: "50% 50%",
+        alt: "Fachadas de entramado de madera de una calle antigua, con las ventanas alineadas.",
+      },
+      {
+        archivo: "Brackenheim - Altstadt - Fachwerkhaus Obertorstraße 12 - Ostfassade.jpg",
+        autor: "Casa gremial de entramado en Brackenheim. Fotografía de Roman Eisele.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Brackenheim_-_Altstadt_-_Fachwerkhaus_Obertorstra%C3%9Fe_12_-_Ostfassade.jpg",
+        foco: "50% 50%",
+        alt: "Casa antigua de vigas de madera oscura y paños encalados, vista desde la calle.",
+      },
+    ],
     entrada:
-      "Alemania y Centroeuropa, desde el siglo XV. Cuando un aprendiz termina su formación y pasa a oficial, muchos gremios le exigen algo más antes de dejarle optar a maestro: irse. Tiene que recorrer otras ciudades trabajando en talleres distintos durante un plazo que suele ser de tres años y un día, sin acercarse a menos de una distancia fijada de su pueblo.",
+      "Alemania y Centroeuropa, desde el siglo XV. Cuando un aprendiz termina su formación y pasa a oficial, muchos gremios le exigen una última cosa antes de dejarle optar siquiera a maestro: irse de casa. Tiene que recorrer otras ciudades trabajando en talleres distintos durante un plazo que suele fijarse en tres años y un día, sin acercarse en todo ese tiempo a menos de una distancia marcada de su pueblo. Sale con la ropa puesta, sin dinero y sin permiso para volver, y así ha seguido haciéndose hasta hoy.",
     paginas: [
       {
         rotulo: "Por qué",
