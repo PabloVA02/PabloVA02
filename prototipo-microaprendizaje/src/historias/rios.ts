@@ -85,8 +85,42 @@ export const RIOS: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Un río ancho y tranquilo entre colinas verdes, con niebla baja.",
+    fotos: [
+      {
+        archivo: "Whanganui River - New Zealand.jpg",
+        autor: "El río Whanganui, en la isla norte de Nueva Zelanda, entre colinas de pasto y bosque.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWhanganui%20River%20-%20New%20Zealand.jpg",
+        foco: "48% 55%",
+        alt: "Río ancho de agua parda serpenteando entre laderas muy verdes, visto desde lo alto entre pinos.",
+      },
+      {
+        archivo: "Whanganui River boat and swimmers.jpg",
+        autor: "Bañistas y una barca cerca de la desembocadura del Whanganui.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWhanganui%20River%20boat%20and%20swimmers.jpg",
+        foco: "50% 50%",
+        alt: "Gente bañándose junto a una barca amarrada, en la orilla ancha de un río.",
+      },
+      {
+        archivo: "Whanganui, New Zealand (002).JPG",
+        autor: "Paseo de madera junto al río, en la ciudad de Whanganui.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWhanganui%2C%20New%20Zealand%20(002).JPG",
+        foco: "50% 50%",
+        alt: "Pasarela de tablones que bordea la orilla del río, con hierba alta y árboles al lado.",
+      },
+      {
+        archivo: "Whanganui, New Zealand, Durie Hill Memorial Tower - view (1).JPG",
+        autor: "La ciudad de Whanganui y su río vistos desde la torre de Durie Hill.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWhanganui%2C%20New%20Zealand%2C%20Durie%20Hill%20Memorial%20Tower%20-%20view%20(1).JPG",
+        foco: "50% 50%",
+        alt: "Vista aérea de una ciudad pequeña partida en dos por un río, con puentes y campos alrededor.",
+      },
+    ],
     entrada:
-      "Nueva Zelanda, 2017. El parlamento aprueba una ley insólita: reconoce a un río del norte del país como persona jurídica, con derechos y deberes propios. Detrás hay un pleito que la comunidad indígena de su cuenca empezó en 1873. Es el litigio más largo de la historia del país y termina con una figura legal que casi nadie había usado antes para un accidente geográfico.",
+      "Nueva Zelanda, 2017. El parlamento aprueba una ley insólita que ocupa titulares en medio mundo: reconoce a un río de la isla norte como persona jurídica, con derechos y deberes propios, igual que una empresa. No es una declaración simbólica ni un gesto de buena voluntad, porque la figura tiene consecuencias en los tribunales desde el primer día. Detrás hay un pleito que la comunidad indígena de su cuenca empezó en 1873 y que ha pasado de padres a hijos durante cinco generaciones. Es el litigio más largo de la historia del país, y termina en un sitio donde nadie esperaba que terminase.",
     paginas: [
       {
         rotulo: "Qué significa",
