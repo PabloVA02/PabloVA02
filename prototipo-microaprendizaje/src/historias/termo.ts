@@ -78,14 +78,48 @@ export const TERMO: Short[] = [
   },
   {
     id: "frio-o-caliente",
-    titulo: "Un termo no calienta ni enfría nada",
+    titulo: "El termo no enfría nada",
     gancho: "Solo frena el paso del calor, y le da igual la dirección. Por eso sirve para el café y para el hielo.",
     categoria: "Ciencia",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Termo de acero abierto con vapor saliendo, sobre una mesa de cocina.",
+    fotos: [
+      {
+        archivo: "Thermos flask, Model 3750, designed by Raymond Loewy, American Thermos Bottle Corporation, 1937, chrome-plated brass, aluminum, bakelite - Museum für Angewandte Kunst Köln - Cologne, Germany - DSC09512.jpg",
+        autor: "Termo modelo 3750 diseñado por Raymond Loewy en 1937, en latón cromado y baquelita. Museo de Artes Aplicadas de Colonia.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThermos%20flask%2C%20Model%203750%2C%20designed%20by%20Raymond%20Loewy%2C%20American%20Thermos%20Bottle%20Corporation%2C%201937%2C%20chrome-plated%20brass%2C%20aluminum%2C%20bakelite%20-%20Museum%20f%C3%BCr%20Angewandte%20Kunst%20K%C3%B6ln%20-%20Cologne%2C%20Germany%20-%20DSC09512.jpg",
+        foco: "50% 45%",
+        alt: "Jarra termo esférica de metal cromado brillante, con asa curva y tapón oscuro, dentro de una vitrina.",
+      },
+      {
+        archivo: "Coffee steaming in a mug.jpg",
+        autor: "Taza de café humeante: ese vapor es calor escapándose hacia la habitación.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACoffee%20steaming%20in%20a%20mug.jpg",
+        foco: "50% 50%",
+        alt: "Taza llena de café oscuro con una columna de vapor subiendo, iluminada a contraluz.",
+      },
+      {
+        archivo: "Ice cubes from the mold.jpg",
+        autor: "Cubitos recién sacados de la cubitera, todavía escarchados.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AIce%20cubes%20from%20the%20mold.jpg",
+        foco: "50% 50%",
+        alt: "Montón de cubitos de hielo transparentes con la superficie blanca de escarcha.",
+      },
+      {
+        archivo: "Ice Crystals on Window Pane.jpg",
+        autor: "Cristales de hielo formados en un cristal de ventana, donde el calor de dentro se encuentra con el frío de fuera.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AIce%20Crystals%20on%20Window%20Pane.jpg",
+        foco: "50% 50%",
+        alt: "Dibujos de escarcha en forma de plumas y agujas extendidos sobre el vidrio de una ventana.",
+      },
+    ],
     entrada:
-      "Cualquier cocina, con la pregunta repetida desde que existen los termos en 1904. Mucha gente se pregunta cómo puede un mismo recipiente mantener el café caliente y el refresco frío, como si tuviera que decidir. No decide nada. Un termo no produce calor ni lo quita: solo pone una barrera para que el calor pase muy despacio en cualquier sentido.",
+      "Cualquier cocina, con la pregunta repetida desde que existen los termos en 1904. Mucha gente se pregunta cómo puede un mismo recipiente mantener el café caliente y el refresco frío, como si el aparato tuviera que enterarse de lo que le echan y decidir en consecuencia. No decide nada, porque no hay nada que decidir. Un termo no produce calor ni lo quita: lo único que hace es poner una barrera muy buena para que el calor pase despacísimo, y esa barrera funciona igual de bien en los dos sentidos.",
     paginas: [
       {
         rotulo: "Solo baja",
