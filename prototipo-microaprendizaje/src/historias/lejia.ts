@@ -84,6 +84,43 @@ export const LEJIA: Short[] = [
     categoria: "Ciencia",
     color: "var(--clay)",
     encargo: "Dos botes de limpieza distintos junto a un cubo, en un baño pequeño sin ventana.",
+    fotos: [
+      {
+        archivo: "First World War German gas mask with containe Wellcome L0035524.jpg",
+        autor: "Máscara antigás alemana de la Primera Guerra Mundial con su bote metálico. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:First_World_War_German_gas_mask_with_containe_Wellcome_L0035524.jpg",
+        foco: "55% 40%",
+        alt: "Máscara antigás de cuero con visor redondo junto a su bote cilíndrico de metal, sobre fondo blanco.",
+      },
+      {
+        archivo: "First World War German gas mask with containe Wellcome L0035523.jpg",
+        autor: "La misma máscara antigás vista desde otro ángulo. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:First_World_War_German_gas_mask_with_containe_Wellcome_L0035523.jpg",
+        foco: "50% 45%",
+        alt: "Máscara antigás antigua con las correas colgando y el filtro atornillado debajo.",
+      },
+      {
+        archivo: "Women war workers in the doping room of a gas-mask factory during the First World War. Q28587.jpg",
+        autor: "Trabajadoras en una fábrica de máscaras antigás británica, 1918. Fotografía de George P. Lewis.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Women_war_workers_in_the_doping_room_of_a_gas-mask_factory_during_the_First_World_War._Q28587.jpg",
+        foco: "50% 50%",
+        alt: "Nave con mesas largas donde decenas de mujeres montan máscaras antigás apiladas en montones.",
+      },
+      {
+        archivo: "Pile of Handmade White Soap Bars at a Market 02.jpg",
+        autor: "Productos de limpieza y jabón de los que hay en cualquier casa.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pile_of_Handmade_White_Soap_Bars_at_a_Market_02.jpg",
+        foco: "50% 70%",
+        alt: "Pastillas de jabón blanco apiladas en un puesto de mercado.",
+      },
+    ],
     entrada:
       "Cualquier cocina del mundo. Todos los botes de lejía llevan un aviso impreso que casi nadie lee y que dice que no se mezcle con otros productos. El aviso no es burocracia: la lejía reacciona con varias cosas corrientes y produce gases que mandan gente al hospital todos los años. El primer gas de guerra de la historia, usado en 1915, era pariente cercano de uno de ellos.",
     paginas: [
