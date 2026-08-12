@@ -147,8 +147,42 @@ export const CARRETERAS: Short[] = [
     categoria: "Carreteras",
     color: "var(--plum)",
     encargo: "Una barrera de madera pintada cruzando un camino, junto a una casilla de piedra.",
+    fotos: [
+      {
+        archivo: "Tollhouse US30 Frankco.JPG",
+        autor: "Casa de peaje de piedra junto a la antigua carretera, Pensilvania.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATollhouse%20US30%20Frankco.JPG",
+        foco: "50% 55%",
+        alt: "Casa pequeña de piedra a pie de carretera, con dos chimeneas de ladrillo y el tejado bajo.",
+      },
+      {
+        archivo: "Chambersburg and Bedford Turnpike Road Company Tollhouse Number 2.jpg",
+        autor: "Casilla de peaje número 2 de la compañía de la carretera de Chambersburg a Bedford, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AChambersburg%20and%20Bedford%20Turnpike%20Road%20Company%20Tollhouse%20Number%202.jpg",
+        foco: "50% 50%",
+        alt: "Antigua casilla de cobro de peaje conservada al borde de la carretera.",
+      },
+      {
+        archivo: "Narrow Lane through the Hedgerow - geograph.org.uk - 8248468.jpg",
+        autor: "Camino estrecho entre setos, Inglaterra, 2025.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANarrow%20Lane%20through%20the%20Hedgerow%20-%20geograph.org.uk%20-%208248468.jpg",
+        foco: "50% 55%",
+        alt: "Camino rural estrechísimo encajonado entre dos setos altos.",
+      },
+      {
+        archivo: "Hedgerow on Ufford Road, Bredfield - geograph.org.uk - 5969351.jpg",
+        autor: "Seto junto a la carretera de Ufford, Bredfield, Inglaterra, 2018.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHedgerow%20on%20Ufford%20Road%2C%20Bredfield%20-%20geograph.org.uk%20-%205969351.jpg",
+        foco: "50% 55%",
+        alt: "Carretera comarcal con un seto largo a un lado y campos abiertos al otro.",
+      },
+    ],
     entrada:
-      "Inglaterra, siglos XVIII y XIX. El mantenimiento de los caminos es responsabilidad de cada parroquia, que obliga a sus vecinos a trabajar unos días al año en ellos sin cobrar. El sistema funciona mal, porque nadie quiere arreglar un camino por el que solo pasan forasteros. Así que el parlamento autoriza otra fórmula: que compañías privadas se hagan cargo y cobren peaje.",
+      "Inglaterra, siglos XVIII y XIX. El mantenimiento de los caminos es responsabilidad de cada parroquia, que para eso obliga a sus propios vecinos a trabajar unos cuantos días al año en ellos sin cobrar un penique. El sistema funciona rematadamente mal, y por un motivo fácil de entender: nadie quiere pasarse una semana arreglando un camino por el que solo pasan forasteros de camino a otro sitio. Así que el parlamento autoriza otra fórmula, nueva y bastante audaz: que compañías privadas se hagan cargo de un tramo, lo arreglen y cobren peaje por pasar.",
     paginas: [
       {
         rotulo: "El trato",
