@@ -86,6 +86,40 @@ export const NOMBRES_DE_CALLES: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una placa de calle antigua de cerámica con un nombre de oficio.",
+    fotos: [
+      {
+        archivo: "Petite France during golden hour.jpg",
+        autor: "El barrio de los curtidores de Estrasburgo, con las casas de entramado asomadas al canal.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APetite%20France%20during%20golden%20hour.jpg",
+        foco: "50% 45%",
+        alt: "Hilera de casas antiguas de entramado de madera junto a un canal, reflejadas en el agua al atardecer.",
+      },
+      {
+        archivo: "Rouen (30784933502).jpg",
+        autor: "Calle del casco antiguo de Ruan, en Normandía, con las fachadas de entramado.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARouen%20(30784933502).jpg",
+        foco: "50% 50%",
+        alt: "Calle estrecha de casas medievales con vigas de madera a la vista y pisos que vuelan sobre la acera.",
+      },
+      {
+        archivo: "Rouen (30269029424).jpg",
+        autor: "Otra calle de Ruan, de las que se llamaban por lo que se hacía en ellas.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARouen%20(30269029424).jpg",
+        foco: "50% 50%",
+        alt: "Callejón antiguo entre casas de entramado, con tiendas en la planta baja.",
+      },
+      {
+        archivo: "Fuento de Cantos Tile signs 22 09 2012.JPG",
+        autor: "Rótulo antiguo de azulejo en Fuente de Cantos, en Badajoz.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFuento%20de%20Cantos%20Tile%20signs%2022%2009%202012.JPG",
+        foco: "50% 50%",
+        alt: "Panel de azulejos pintados a mano empotrado en una pared encalada.",
+      },
+    ],
     entrada:
       "Ciudades europeas, siglos XII a XVIII. Antes de que a nadie se le ocurriera dedicar calles a personas, los nombres eran descripciones prácticas de lo que había allí. Ese callejero funcionaba porque los oficios se agrupaban por barrios, en parte por normas de los gremios y en parte por pura conveniencia, de modo que el nombre de la calle era una indicación literal y no un homenaje a nadie: quien buscaba un cuchillo sabía a qué calle ir, y quien no sabía leer podía preguntar y llegar igual. Ese callejero, además, se hizo solo, sin comisión de nombres ni pleno municipal, y por eso cuenta cosas que ningún archivo cuenta.",
     paginas: [
