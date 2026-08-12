@@ -85,6 +85,40 @@ export const TELEFERICOS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un cable de acero grueso cortado, con los hilos abiertos como un pincel.",
+    fotos: [
+      {
+        archivo: "Old mooring steel wire rope.jpg",
+        autor: "Cable de acero de amarre de seis centímetros de grueso, con los cordones bien visibles.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AOld%20mooring%20steel%20wire%20rope.jpg",
+        foco: "50% 50%",
+        alt: "Cable de acero oxidado muy grueso, cruzando la imagen en diagonal sobre rocas de granito rosado.",
+      },
+      {
+        archivo: "Steel wire rope on a drum.jpg",
+        autor: "Cable de acero enrollado en el tambor de un cabrestante de remolcador.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASteel%20wire%20rope%20on%20a%20drum.jpg",
+        foco: "50% 50%",
+        alt: "Vueltas de cable de acero apretadas unas contra otras sobre el tambor de un torno.",
+      },
+      {
+        archivo: "Close-up of wire rope assembly, Jardim da Fundação Calouste Gulbenkian, Lisbon, Portugal julesvernex2.jpg",
+        autor: "Anclaje y terminal de un cable de acero, en Lisboa.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AClose-up%20of%20wire%20rope%20assembly%2C%20Jardim%20da%20Funda%C3%A7%C3%A3o%20Calouste%20Gulbenkian%2C%20Lisbon%2C%20Portugal%20julesvernex2.jpg",
+        foco: "50% 50%",
+        alt: "Extremo de un cable de acero sujeto con abrazaderas metálicas y un tensor.",
+      },
+      {
+        archivo: "Bremerhaven, Atlantic Hotel Sail City, Seilkonstruktion -- 2024 -- 2287.jpg",
+        autor: "Estructura de cables de acero en el mirador del Sail City de Bremerhaven.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABremerhaven%2C%20Atlantic%20Hotel%20Sail%20City%2C%20Seilkonstruktion%20--%202024%20--%202287.jpg",
+        foco: "50% 50%",
+        alt: "Haz de cables de acero tensados en abanico contra el cielo, sujetos a una estructura metálica.",
+      },
+    ],
     entrada:
       "Alemania, 1834. Un inspector de minas está harto de que las cuerdas de cáñamo y las cadenas de hierro se rompan al subir vagonetas por los pozos, con las muertes que eso provoca. Se le ocurre trenzar alambres finos de hierro formando una cuerda metálica, y prueba el invento en su propia mina. Ese cable es el antepasado de todos los que se usan hoy.",
     paginas: [
