@@ -77,13 +77,47 @@ export const SEXTANTE: Short[] = [
   },
   {
     id: "la-estrella-que-no-se-mueve",
-    titulo: "La estrella polar da la latitud sin cuentas",
+    titulo: "La polar da la latitud",
     gancho: "Su altura sobre el horizonte es directamente la latitud del que la mira. Noventa grados en el polo, cero en el ecuador.",
     categoria: "Objetos",
     color: "var(--plum)",
     encargo: "Cielo nocturno de exposición larga con las estrellas trazando círculos alrededor de una fija.",
+    fotos: [
+      {
+        archivo: "Star trails (starstax).jpg",
+        autor: "Exposición larga del cielo nocturno: las estrellas dibujan círculos alrededor del punto por donde pasa el eje de la Tierra.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AStar%20trails%20(starstax).jpg",
+        foco: "50% 32%",
+        alt: "Cielo nocturno con cientos de trazos luminosos formando círculos concéntricos sobre un paisaje de piedra.",
+      },
+      {
+        archivo: "Night sky at Paranal (img 2524-cc).jpg",
+        autor: "Trazos de estrellas sobre el observatorio de Paranal, en el desierto de Atacama.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANight%20sky%20at%20Paranal%20(img%202524-cc).jpg",
+        foco: "50% 45%",
+        alt: "Estelas de estrellas sobre una montaña con cúpulas de telescopio y un haz de láser naranja apuntando al cielo.",
+      },
+      {
+        archivo: "Cross-staff-MnM 11 NA 5-IMG 5989-black.jpg",
+        autor: "Ballestilla europea del Museo Nacional de la Marina de París: una vara graduada con una cruz que se desliza.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACross-staff-MnM%2011%20NA%205-IMG%205989-black.jpg",
+        foco: "50% 50%",
+        alt: "Vara de madera con marcas talladas y una pieza transversal, fotografiada sobre fondo negro.",
+      },
+      {
+        archivo: "Shooting Star over La Silla.jpg",
+        autor: "Cielo del hemisferio sur sobre el observatorio de La Silla, en Chile, con una estrella fugaz cruzándolo.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AShooting%20Star%20over%20La%20Silla.jpg",
+        foco: "50% 45%",
+        alt: "Noche estrellada sobre unas cúpulas de telescopio, con un trazo brillante que baja hacia el horizonte.",
+      },
+    ],
     entrada:
-      "Hemisferio norte, desde hace más de dos mil años. Todas las estrellas del cielo giran a lo largo de la noche, y hay una que apenas se mueve porque cae casi justo encima del eje de la Tierra. Esa quietud la convirtió en el instrumento de navegación más barato de la historia, porque su altura sobre el horizonte es directamente la latitud del que la mira.",
+      "Hemisferio norte, desde hace más de dos mil años. Todas las estrellas del cielo giran a lo largo de la noche, y quien mire un rato lo bastante largo las ve desfilar. Hay una, sin embargo, que apenas se mueve, porque cae casi justo encima del eje de la Tierra y se limita a dar una vuelta diminuta sobre sí misma. Esa quietud la convirtió en el instrumento de navegación más barato de la historia: su altura sobre el horizonte es, sin ninguna cuenta de por medio, la latitud del que la está mirando.",
     paginas: [
       {
         rotulo: "Por qué funciona",
