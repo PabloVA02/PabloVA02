@@ -88,6 +88,40 @@ export const ESPECIAS: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Un mostrador de mercado con montoncitos de especias de colores en cuencos.",
+    fotos: [
+      {
+        archivo: "Gewuerze 004 2024 08 10.jpg",
+        autor: "Anís estrellado, canela en rama y clavos de olor, fotografiados de cerca.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AGewuerze%20004%202024%2008%2010.jpg",
+        foco: "50% 50%",
+        alt: "Estrellas de anís, ramas de canela y clavos repartidos sobre un fondo blanco liso.",
+      },
+      {
+        archivo: "Black Pepper.jpg",
+        autor: "Granos de pimienta negra sobre una tabla de madera, en macro.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABlack%20Pepper.jpg",
+        foco: "50% 50%",
+        alt: "Montón de granos de pimienta negra arrugados, muy ampliados, sobre madera.",
+      },
+      {
+        archivo: "Common Spices in Bali, Indonesia.jpg",
+        autor: "Especias corrientes en Bali: clavo, canela, nuez moscada, jengibre y otras.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACommon%20Spices%20in%20Bali%2C%20Indonesia.jpg",
+        foco: "50% 50%",
+        alt: "Montoncitos de especias distintas colocados unos junto a otros sobre una superficie clara.",
+      },
+      {
+        archivo: "Spices.jpg",
+        autor: "Pimientas enteras y molidas, tomillo seco y romero sobre una tabla de cocina.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASpices.jpg",
+        foco: "50% 50%",
+        alt: "Especias secas repartidas en montoncitos sobre una tabla de madera oscura.",
+      },
+    ],
     entrada:
       "Europa, siglos XIII a XVI. Las especias asiáticas llegan por tierra y por mar y cuestan una fortuna: un puñado de pimienta puede valer lo que varios días de jornal de un obrero. La explicación que se repite en clase es que servían para disimular el sabor de la carne en mal estado. La cuenta, sencillamente, no sale por ningún lado.",
     paginas: [
