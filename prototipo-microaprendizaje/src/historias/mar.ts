@@ -94,8 +94,42 @@ export const MAR: Short[] = [
     color: "var(--sage)",
     curioso: true,
     encargo: "Mar abierto absolutamente vacío bajo un cielo gris, sin horizonte definido.",
+    fotos: [
+      {
+        archivo: "Tracy Caldwell Dyson in Cupola ISS.jpg",
+        autor: "La astronauta Tracy Caldwell Dyson mirando la Tierra desde la cúpula de la Estación Espacial Internacional, 2010. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATracy%20Caldwell%20Dyson%20in%20Cupola%20ISS.jpg",
+        foco: "50% 42%",
+        alt: "Mujer flotando junto a los ventanales de una nave espacial, apoyada en el marco y mirando hacia la Tierra azul.",
+      },
+      {
+        archivo: "ISS031-E-56860 - View of Pacific Ocean.jpg",
+        autor: "El Pacífico visto desde la Estación Espacial Internacional. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AISS031-E-56860%20-%20View%20of%20Pacific%20Ocean.jpg",
+        foco: "50% 50%",
+        alt: "Extensión de océano vista desde la órbita, con nubes dispersas y el brillo del sol sobre el agua.",
+      },
+      {
+        archivo: "The station pictured from the SpaceX Crew Dragon 5 (cropped).jpg",
+        autor: "La Estación Espacial Internacional fotografiada desde una nave que se alejaba, con la Tierra al fondo. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20station%20pictured%20from%20the%20SpaceX%20Crew%20Dragon%205%20(cropped).jpg",
+        foco: "50% 50%",
+        alt: "La estación espacial entera, con sus paneles solares extendidos, recortada sobre el azul del planeta.",
+      },
+      {
+        archivo: "Iceberg in Pléneau Bay, Antarctica (6058728043).jpg",
+        autor: "Iceberg en la bahía de Pléneau, en la Antártida: de un bloque así salió el sonido que llamaron Bloop.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AIceberg%20in%20Pl%C3%A9neau%20Bay%2C%20Antarctica%20(6058728043).jpg",
+        foco: "50% 50%",
+        alt: "Gran bloque de hielo flotando en un mar oscuro, con las paredes azuladas y la superficie erosionada.",
+      },
+    ],
     entrada:
-      "En el Pacífico sur hay un punto sin nada alrededor. La tierra firme más próxima está a 2.688 kilómetros, repartida en tres islas diminutas que apuntan en tres direcciones distintas. Se llama punto Nemo, por el capitán de Julio Verne, y no lo descubrió ningún navegante: lo calculó un ingeniero con un ordenador en 1992.",
+      "En el Pacífico sur hay un punto que no tiene nada alrededor. La tierra firme más próxima está a 2.688 kilómetros, y no es una costa, sino tres islas diminutas que quedan en tres direcciones distintas y a la misma distancia exacta. Se llama punto Nemo, por el capitán de Julio Verne, y no lo encontró ningún navegante ni aparece en ninguna carta antigua: lo calculó un ingeniero con un ordenador en 1992, resolviendo un problema de geometría que a mano no hay manera de abordar.",
     paginas: [
       {
         rotulo: "El cálculo",
