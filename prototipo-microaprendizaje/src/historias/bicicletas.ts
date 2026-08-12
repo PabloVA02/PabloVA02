@@ -84,8 +84,45 @@ export const BICICLETAS: Short[] = [
     categoria: "Bicicletas",
     color: "var(--plum)",
     encargo: "Una bicicleta antigua de señora apoyada en una verja, con la falda del cuadro bajo.",
+    fotos: [
+      {
+        archivo: "Women Repairing Bicycle, c. 1895.jpg",
+        autor: "Cuatro mujeres arreglando una bicicleta, hacia 1895. Universidad Estatal de Montana.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Women_Repairing_Bicycle,_c._1895.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía sepia de cuatro mujeres con faldas largas arreglando el piñón de una bicicleta.",
+      },
+      {
+        archivo: "Ride a Stearns and be content, bicycle advertising poster, 1896.jpg",
+        autor: "Cartel publicitario de bicicletas Stearns, dibujado por Edward Penfield en 1896.",
+        licencia: "Public domain",
+        pdPorEdad: 1925,
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Ride_a_Stearns_and_be_content,_bicycle_advertising_poster,_1896.jpg",
+        foco: "50% 45%",
+        alt: "Cartel modernista de colores planos con una mujer montada en bicicleta.",
+      },
+      {
+        archivo: "Woman's Red Wool Bicycling Jacket.jpg",
+        autor: "Chaqueta de lana roja para montar en bicicleta, hacia 1890.",
+        licencia: "Attribution",
+        fuente: "https://commons.wikimedia.org/wiki/File:Woman%27s_Red_Wool_Bicycling_Jacket.jpg",
+        foco: "50% 45%",
+        alt: "Chaqueta de lana roja de manga abullonada, expuesta sobre un maniquí sin cabeza.",
+      },
+      {
+        archivo: "L. A. W., bicycle race, safety, the finish (NYPL b11707602-G90F395 373ZF).tiff",
+        autor: "Llegada de una carrera de bicicletas de seguridad, hacia 1890. Biblioteca Pública de Nueva York.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:L._A._W.,_bicycle_race,_safety,_the_finish_(NYPL_b11707602-G90F395_373ZF).tiff",
+        foco: "50% 50%",
+        alt: "Fotografía antigua de varios ciclistas cruzando la meta ante un público apretado.",
+      },
+    ],
     entrada:
-      "Europa y Estados Unidos, década de 1890. La bicicleta con cadena y neumáticos se ha abaratado y se vende por millones. Cuesta unas semanas de sueldo, se aprende en una tarde y no hay que darle de comer. Para mucha gente es el primer medio de transporte propio de su vida, y para las mujeres de clase media supone algo más: poder salir sola y volver el mismo día.",
+      "Europa y Estados Unidos, década de 1890. La bicicleta con cadena y neumáticos de aire se ha abaratado de golpe y se vende por millones. Cuesta unas semanas de sueldo, se aprende en una tarde y, a diferencia de un caballo, no hay que darle de comer ni cuadra donde meterla. Para mucha gente es el primer medio de transporte propio que tiene en su vida, y para las mujeres de clase media supone además otra cosa, mucho más gorda: poder salir del pueblo sola, sin permiso y sin acompañante, y volver el mismo día.",
     paginas: [
       {
         rotulo: "La ropa",
