@@ -81,14 +81,48 @@ export const RELOJES_DE_SOL: Short[] = [
 
   {
     id: "el-canon-de-mediodia",
-    titulo: "Hubo relojes de sol que disparaban un cañón",
+    titulo: "El cañón del mediodía",
     gancho: "Una lupa concentraba el sol sobre la pólvora justo a mediodía. El estruendo ponía en hora a la ciudad entera.",
     categoria: "Relojes de sol",
     color: "var(--clay)",
     curioso: true,
     encargo: "Un cañoncito de latón sobre un pedestal de piedra con una lupa montada encima.",
+    fotos: [
+      {
+        archivo: "Noon cannon-OA 10762-IMG 4322.JPG",
+        autor: "Cañón de mediodía de latón sobre base de mármol, con su lente montada en el arco.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANoon%20cannon-OA%2010762-IMG%204322.JPG",
+        foco: "50% 52%",
+        alt: "Aparato de latón sobre una peana negra, con un arco graduado, una lupa y un cañoncito apuntando de lado.",
+      },
+      {
+        archivo: "Noon cannon-IMG 2162-black.jpg",
+        autor: "Otro cañón solar, fotografiado sobre fondo negro para que se vea el mecanismo entero.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANoon%20cannon-IMG%202162-black.jpg",
+        foco: "50% 50%",
+        alt: "Instrumento de latón con lente y cañón diminuto recortado sobre un fondo completamente negro.",
+      },
+      {
+        archivo: "Sintra, Palácio Nacional da Pena, relógio de sol.jpg",
+        autor: "El reloj de sol con cañón del Palacio da Pena, en Sintra, todavía en su terraza.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASintra%2C%20Pal%C3%A1cio%20Nacional%20da%20Pena%2C%20rel%C3%B3gio%20de%20sol.jpg",
+        foco: "50% 50%",
+        alt: "Reloj de sol de piedra al aire libre con un cañoncito encima, sobre la muralla de un palacio.",
+      },
+      {
+        archivo: "Sundial cannon clock 1.JPG",
+        autor: "Cañón solar conservado en un museo, con la lupa sobre el brazo giratorio.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASundial%20cannon%20clock%201.JPG",
+        foco: "50% 50%",
+        alt: "Reloj de sol de metal con esfera grabada, brazo con lente y un cañón pequeño montado en el centro.",
+      },
+    ],
     entrada:
-      "París, 1786. En los jardines de un palacio se instala un artefacto que se convierte en costumbre de la ciudad: un cañón en miniatura montado sobre una base de mármol, con una lente de aumento orientada al sur y colocada de modo que, en el instante exacto del mediodía solar, el punto de luz caiga sobre el oído del cañón y encienda la pólvora.",
+      "París, 1786. En los jardines de un palacio se instala un artefacto que en pocos años se convierte en costumbre de la ciudad: un cañón en miniatura montado sobre una base de mármol, con una lente de aumento orientada al sur y colocada con tanto cuidado que, en el instante exacto del mediodía solar y solo en ese instante, el punto de luz cae sobre el oído del cañón y prende la pólvora. Suena el disparo y la gente que lo oye saca su reloj y lo pone en hora. Es un reloj de sol que, en vez de mirarse, se oye.",
     paginas: [
       {
         rotulo: "El punto de luz",
