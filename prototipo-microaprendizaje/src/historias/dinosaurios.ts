@@ -195,7 +195,7 @@ export const DINOSAURIOS: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, finales del siglo XIX. Dos paleontólogos rivales se odian tanto y tan bien que dedican su vida entera a competir por publicar primero, comprando yacimientos y espiándose las excavaciones. Entre los dos describen más de ciento treinta especies nuevas en apenas treinta años, muchas de ellas hechas a la carrera, con los huesos todavía medio limpios y a veces sin comprobar nada. Uno de ellos bautiza en 1879 un saurio enorme de cuello largo al que llama Brontosaurio, «lagarto trueno», y ese nombre acabará dando muchísimo que hablar.",
+      "Estados Unidos, finales del siglo XIX. Dos paleontólogos rivales se odian tanto y tan bien que dedican su vida entera a competir por publicar primero, comprando yacimientos y espiándose las excavaciones. Entre los dos describen más de ciento treinta especies nuevas en apenas treinta años, muchas de ellas hechas a la carrera, con los huesos todavía medio limpios y a veces sin comprobar nada. Uno de ellos bautiza en 1879 un saurio enorme de cuello largo al que llama Brontosaurio, «lagarto trueno», y ese nombre, que suena de maravilla, acabará dando muchísimo más que hablar de lo que él imaginaba.",
     paginas: [
       {
         rotulo: "La cabeza ajena",
