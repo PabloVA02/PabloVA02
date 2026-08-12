@@ -190,7 +190,7 @@ export const TRENES: Short[] = [
       },
     ],
     entrada:
-      "Londres, enero de 1863. Se inaugura la primera línea de ferrocarril subterráneo del mundo, seis kilómetros excavados bajo el centro de una ciudad de tres millones de habitantes que está completamente colapsada de carruajes desde el amanecer. La idea es sacar el tráfico de las calles metiéndolo debajo. Hay un detalle, sin embargo, que hoy cuesta imaginar: la electricidad todavía no existe como fuerza motriz para mover trenes, así que los convoyes que van a circular por ese túnel cerrado son locomotoras de vapor alimentadas con carbón.",
+      "Londres, enero de 1863. Se inaugura la primera línea de ferrocarril subterráneo del mundo, seis kilómetros excavados bajo el centro de una ciudad de tres millones de habitantes que está completamente colapsada de carruajes desde el amanecer. La idea es sacar el tráfico de las calles metiéndolo debajo. Hay un detalle, sin embargo, que hoy cuesta imaginar: la electricidad todavía no existe como fuerza motriz para mover trenes, así que los convoyes que van a circular por ese túnel cerrado y estrecho son, sencillamente, locomotoras de vapor alimentadas con carbón, como las de la superficie.",
     paginas: [
       {
         rotulo: "La zanja",
