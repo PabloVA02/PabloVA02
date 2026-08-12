@@ -83,14 +83,48 @@ export const VIDEOJUEGOS: Short[] = [
 
   {
     id: "primer-videojuego",
-    titulo: "El primer videojuego se hizo para una feria",
+    titulo: "El videojuego de la feria",
     gancho: "Un físico conectó un osciloscopio a un ordenador analógico para que los visitantes no se aburrieran.",
     categoria: "Videojuegos",
     color: "var(--forest)",
     curioso: true,
     encargo: "Una pantalla redonda de osciloscopio verde con una línea luminosa curva.",
+    fotos: [
+      {
+        archivo: "Old oscilloscope with round screen without visible knobs or switches.jpg",
+        autor: "Osciloscopio antiguo de pantalla redonda, con la traza verde dibujada por el haz sobre la rejilla.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AOld%20oscilloscope%20with%20round%20screen%20without%20visible%20knobs%20or%20switches.jpg",
+        foco: "55% 45%",
+        alt: "Aparato gris con una pantalla circular oscura en la que brilla en verde una línea ondulada.",
+      },
+      {
+        archivo: "Donner model 3400 Analog Computer.jpg",
+        autor: "Ordenador analógico Donner 3400, de los que resolvían ecuaciones con resistencias y condensadores.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADonner%20model%203400%20Analog%20Computer.jpg",
+        foco: "50% 45%",
+        alt: "Armario de laboratorio lleno de clavijas, cables y mandos redondos ordenados en filas.",
+      },
+      {
+        archivo: "Wilson Cloud Chamber at AEC's Brookhaven National Laboratory.jpg",
+        autor: "Cámara de niebla de Wilson en el Laboratorio Nacional de Brookhaven, el mismo sitio donde se montó aquel tenis.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWilson%20Cloud%20Chamber%20at%20AEC%27s%20Brookhaven%20National%20Laboratory.jpg",
+        foco: "50% 50%",
+        alt: "Gran aparato de laboratorio con bobinas y ventanas circulares, atendido por técnicos en una nave.",
+      },
+      {
+        archivo: "MAGFest2025-Arcade-HighAngle.jpg",
+        autor: "Sala de máquinas recreativas vista desde arriba, con las pantallas encendidas en la penumbra.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMAGFest2025-Arcade-HighAngle.jpg",
+        foco: "50% 50%",
+        alt: "Vista elevada de una sala oscura con filas de máquinas recreativas iluminadas y gente jugando de pie.",
+      },
+    ],
     entrada:
-      "Nueva York, octubre de 1958. Un laboratorio nacional estadounidense abre sus puertas al público un par de días al año y la visita es un aburrimiento: paneles con fotografías y aparatos que no se pueden tocar. Un físico de cuarenta y tres años decide montar algo entretenido con lo que tiene en el laboratorio, y lo hace en tres semanas.",
+      "Nueva York, octubre de 1958. Un laboratorio nacional estadounidense abre sus puertas al público un par de días al año, y la visita es un aburrimiento de paneles con fotografías y aparatos acordonados que no se pueden tocar. Un físico de cuarenta y tres años, encargado del taller de instrumentación, decide que ese año habrá algo con lo que la gente pueda jugar de verdad. Lo monta en tres semanas con material prestado del propio laboratorio, sin pedir permiso a nadie y sin pensar ni por un momento que estaba haciendo el primero de una industria entera.",
     paginas: [
       {
         rotulo: "El montaje",
