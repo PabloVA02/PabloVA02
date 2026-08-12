@@ -82,7 +82,7 @@ export const LAVADORA: Short[] = [
 
   {
     id: "la-primera-electrica",
-    titulo: "La lavadora arrancaba dedos",
+    titulo: "Arrancaba dedos",
     gancho: "El motor iba a la vista y el escurridor de rodillos no tenía freno: si te pillaba la mano, seguía girando.",
     categoria: "Lavadora",
     color: "var(--clay)",

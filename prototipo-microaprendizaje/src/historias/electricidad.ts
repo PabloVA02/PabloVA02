@@ -152,7 +152,7 @@ export const ELECTRICIDAD: Short[] = [
 
   {
     id: "pararrayos-cometa",
-    titulo: "El pararrayos se probó con cometa",
+    titulo: "El pararrayos y la cometa",
     gancho: "Dos personas repitieron el experimento y una murió. Iglesias enteras se negaron a instalarlo.",
     categoria: "Electricidad",
     color: "var(--slate)",

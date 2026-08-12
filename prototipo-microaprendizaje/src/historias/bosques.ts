@@ -79,7 +79,7 @@ export const BOSQUES: Short[] = [
   },
   {
     id: "europa-tiene-mas-bosque",
-    titulo: "Europa tiene más bosque que antes",
+    titulo: "Más bosque que antes",
     gancho: "El continente estuvo casi pelado en 1900. Desde entonces la superficie arbolada no ha dejado de crecer.",
     categoria: "Bosques",
     color: "var(--slate)",
@@ -109,7 +109,7 @@ export const BOSQUES: Short[] = [
   },
   {
     id: "el-bosque-que-no-se-toco",
-    titulo: "Queda un trozo del bosque original",
+    titulo: "Un trozo del original",
     gancho: "Sobrevivió porque durante siglos fue coto de caza de reyes y nadie más pudo entrar.",
     categoria: "Bosques",
     color: "var(--plum)",

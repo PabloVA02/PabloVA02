@@ -251,7 +251,7 @@ export const MUSICA: Short[] = [
 
   {
     id: "woodstock",
-    titulo: "Woodstock salió gratis sin querer",
+    titulo: "Woodstock salió gratis",
     gancho: "Vendieron ciento ochenta y seis mil entradas y aparecieron cuatrocientas mil personas.",
     categoria: "Música",
     color: "var(--forest)",

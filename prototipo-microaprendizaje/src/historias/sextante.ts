@@ -14,7 +14,7 @@ import type { Short } from "../shorts";
 export const SEXTANTE: Short[] = [
   {
     id: "medir-el-angulo-del-sol",
-    titulo: "El sextante no calcula nada",
+    titulo: "El sextante no calcula",
     gancho: "No calcula nada ni sabe nada. Mide con muchísima precisión la altura de un astro sobre el horizonte, y el resto lo pone quien lo sostiene.",
     categoria: "Objetos",
     color: "var(--slate)",

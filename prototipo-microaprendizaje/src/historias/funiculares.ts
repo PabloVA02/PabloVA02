@@ -111,7 +111,7 @@ export const FUNICULARES: Short[] = [
   },
   {
     id: "subir-al-barrio-de-arriba",
-    titulo: "Los ascensores de Valparaíso",
+    titulo: "Ascensores de Valparaíso",
     gancho: "Una ciudad chilena construida sobre cuarenta cerros llenó las laderas de funiculares de madera. Los llaman ascensores y siguen funcionando.",
     categoria: "Funiculares",
     color: "var(--plum)",

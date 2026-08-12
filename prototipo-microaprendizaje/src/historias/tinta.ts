@@ -149,7 +149,7 @@ export const TINTA: Short[] = [
   },
   {
     id: "la-tinta-de-los-billetes",
-    titulo: "La tinta que cambia de color",
+    titulo: "Tinta que cambia de color",
     gancho: "No es un truco del papel. Son escamas metálicas que devuelven un color distinto según el ángulo desde el que se miran.",
     categoria: "Tecnología",
     color: "var(--plum)",

@@ -240,7 +240,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "isdal",
-    titulo: "La mujer sin huellas de Isdal",
+    titulo: "La mujer sin huellas",
     gancho: "Apareció quemada en un valle noruego con ocho identidades falsas y ningún nombre.",
     categoria: "Misterios",
     color: "var(--slate)",

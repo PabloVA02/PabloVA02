@@ -149,7 +149,7 @@ export const SAL: Short[] = [
   },
   {
     id: "la-sal-de-las-carreteras",
-    titulo: "El hielo deja de poder existir",
+    titulo: "El hielo ya no existe",
     gancho: "No lo derrite por calor. Baja la temperatura a la que el agua puede congelarse, y el hielo deja de poder existir.",
     categoria: "Objetos",
     color: "var(--slate)",

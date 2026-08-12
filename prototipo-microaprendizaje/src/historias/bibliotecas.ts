@@ -83,7 +83,7 @@ export const BIBLIOTECAS: Short[] = [
 
   {
     id: "libros-encadenados",
-    titulo: "Los libros iban encadenados",
+    titulo: "Libros encadenados",
     gancho: "Una cadena de hierro por volumen, remachada a la tapa. Un libro costaba lo que una casa pequeña.",
     categoria: "Bibliotecas",
     color: "var(--slate)",
@@ -148,7 +148,7 @@ export const BIBLIOTECAS: Short[] = [
 
   {
     id: "manuscritos-tombuctu",
-    titulo: "Los manuscritos salieron en baúles",
+    titulo: "Manuscritos en baúles",
     gancho: "Una ciudad ocupada, bibliotecas de siglos y un plan clandestino con burros, camionetas y barcas.",
     categoria: "Bibliotecas",
     color: "var(--plum)",

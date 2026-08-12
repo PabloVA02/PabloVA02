@@ -87,7 +87,7 @@ export const OBJETOS: Short[] = [
 
   {
     id: "cremallera-tardanza",
-    titulo: "Cuarenta años sin gustarle a nadie",
+    titulo: "Sin gustarle a nadie",
     gancho: "Se presentó en una Exposición Universal y no vendió casi nada durante décadas.",
     categoria: "Objetos",
     color: "var(--slate)",

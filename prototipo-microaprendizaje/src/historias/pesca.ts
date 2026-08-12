@@ -148,7 +148,7 @@ export const PESCA: Short[] = [
   },
   {
     id: "el-bacalao-que-no-volvio",
-    titulo: "El caladero infinito se vació",
+    titulo: "El caladero se vació",
     gancho: "Se pescó allí quinientos años. En 1992 se cerró de golpe y dejó a treinta mil personas sin trabajo.",
     categoria: "Pesca",
     color: "var(--plum)",

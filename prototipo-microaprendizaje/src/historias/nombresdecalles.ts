@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const NOMBRES_DE_CALLES: Short[] = [
   {
     id: "los-numeros-de-las-casas",
-    titulo: "Numerar casas para reclutar",
+    titulo: "Numerar para reclutar",
     gancho: "No fue idea del cartero. Fue un ejército que necesitaba saber en qué casa vivía cada hombre en edad de servir.",
     categoria: "Calles",
     color: "var(--slate)",

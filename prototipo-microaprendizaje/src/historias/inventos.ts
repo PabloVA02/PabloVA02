@@ -88,7 +88,7 @@ export const INVENTOS: Short[] = [
 
   {
     id: "posit-pegamento-malo",
-    titulo: "Un pegamento que no pegaba",
+    titulo: "Un pegamento que no pega",
     gancho: "Tardó doce años en encontrar para qué servía, y lo salvó un coro de iglesia.",
     categoria: "Inventos",
     color: "var(--ochre)",

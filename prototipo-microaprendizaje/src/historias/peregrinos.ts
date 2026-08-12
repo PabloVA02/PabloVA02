@@ -150,7 +150,7 @@ export const PEREGRINOS: Short[] = [
   },
   {
     id: "condenados-a-peregrinar",
-    titulo: "Condenado a andar mil kilómetros",
+    titulo: "Condenado a andar",
     gancho: "En lugar de cárcel o multa: andar mil kilómetros y volver con la prueba sellada.",
     categoria: "Peregrinos",
     color: "var(--plum)",

@@ -113,7 +113,7 @@ export const TABACO: Short[] = [
 
   {
     id: "filtro-que-no-filtra",
-    titulo: "El filtro del cigarrillo no protege",
+    titulo: "El filtro no protege",
     gancho: "Se puso en los años cincuenta para tranquilizar al fumador, y hasta falsea la medición oficial.",
     categoria: "Tabaco",
     color: "var(--plum)",

@@ -151,7 +151,7 @@ export const LIMPIAPARABRISAS: Short[] = [
   },
   {
     id: "las-esquinas-que-nadie-limpia",
-    titulo: "Las esquinas que nadie limpia",
+    titulo: "Las esquinas sin limpiar",
     gancho: "El cristal es un rectángulo y la escobilla dibuja un abanico. La parte que queda sucia está calculada, no olvidada.",
     categoria: "Limpiaparabrisas",
     color: "var(--slate)",

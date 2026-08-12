@@ -82,7 +82,7 @@ export const FRIGORIFICO: Short[] = [
 
   {
     id: "agujero-de-ozono",
-    titulo: "El agujero de ozono se cierra",
+    titulo: "El agujero se cierra",
     gancho: "Es el único problema ambiental global que se ha resuelto, y el tratado se firmó en dos años.",
     categoria: "Frigorífico",
     color: "var(--ochre)",

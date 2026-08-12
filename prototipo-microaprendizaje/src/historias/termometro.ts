@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const TERMOMETRO: Short[] = [
   {
     id: "treinta-escalas-distintas",
-    titulo: "Cada termómetro, una escala",
+    titulo: "Cada uno, su escala",
     gancho: "Cada fabricante ponía la suya, así que dos termómetros de dos ciudades no decían lo mismo.",
     categoria: "Termómetro",
     color: "var(--slate)",

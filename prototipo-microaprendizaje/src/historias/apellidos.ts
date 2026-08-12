@@ -147,7 +147,7 @@ export const APELLIDOS: Short[] = [
 
   {
     id: "apellidos-por-decreto",
-    titulo: "Apellidos repartidos por ley",
+    titulo: "Apellidos por ley",
     gancho: "En 1787 se obligó a los judíos del imperio austríaco a adoptar uno, y había tarifa según lo bonito.",
     categoria: "Apellidos",
     color: "var(--plum)",

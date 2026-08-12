@@ -82,7 +82,7 @@ export const BASURA: Short[] = [
 
   {
     id: "simbolo-reciclaje",
-    titulo: "El símbolo lo dibujó un estudiante",
+    titulo: "Lo dibujó un estudiante",
     gancho: "Ganó un concurso en 1970, cobró una beca pequeña y el dibujo acabó sin dueño.",
     categoria: "Basura",
     color: "var(--ochre)",

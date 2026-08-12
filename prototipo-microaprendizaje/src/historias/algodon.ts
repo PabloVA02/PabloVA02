@@ -143,7 +143,7 @@ export const ALGODON: Short[] = [
   },
   {
     id: "la-camiseta-y-el-agua",
-    titulo: "Una camiseta y dos mil litros",
+    titulo: "Dos mil litros de agua",
     gancho: "No es lo que gastas lavándola: es lo que bebió la planta antes de convertirse en tela.",
     categoria: "Algodón",
     color: "var(--plum)",

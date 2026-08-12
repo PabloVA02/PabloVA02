@@ -150,7 +150,7 @@ export const PERIODICOS: Short[] = [
 
   {
     id: "maquina-de-lineas",
-    titulo: "Se acabó poner letras a mano",
+    titulo: "Adiós al plomo",
     gancho: "Antes, un hombre colocaba las letras a mano una por una. Un diario grande empleaba a cientos.",
     categoria: "Periódicos",
     color: "var(--ochre)",

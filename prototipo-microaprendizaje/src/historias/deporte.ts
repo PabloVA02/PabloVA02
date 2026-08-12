@@ -87,7 +87,7 @@ export const DEPORTE: Short[] = [
 
   {
     id: "fosbury-espalda",
-    titulo: "Saltar de espaldas parecía ridículo",
+    titulo: "Saltar de espaldas",
     gancho: "En 1968 nadie lo hacía. Diez años después no lo hacía nadie de otra forma.",
     categoria: "Deporte",
     color: "var(--slate)",

@@ -146,7 +146,7 @@ export const LEVADURA: Short[] = [
   },
   {
     id: "el-hongo-que-nadie-eligio",
-    titulo: "Domesticada sin verla nunca",
+    titulo: "Domesticada sin verla",
     gancho: "Es el primer organismo que el ser humano crió a ciegas durante miles de años, sin saber siquiera que existía.",
     categoria: "Ciencia",
     color: "var(--plum)",

@@ -111,7 +111,7 @@ export const TARJETAS_DE_CREDITO: Short[] = [
   },
   {
     id: "el-digito-que-comprueba",
-    titulo: "La última cifra de tu tarjeta",
+    titulo: "La última cifra",
     gancho: "No forma parte de la cuenta. Está para detectar si te has equivocado tecleando, y se comprueba a mano.",
     categoria: "Tarjetas",
     color: "var(--plum)",

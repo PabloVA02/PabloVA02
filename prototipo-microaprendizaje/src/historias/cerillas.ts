@@ -17,7 +17,7 @@ import type { Short } from "../shorts";
 export const CERILLAS: Short[] = [
   {
     id: "antes-de-la-cerilla",
-    titulo: "Media hora para hacer fuego",
+    titulo: "Media hora de fuego",
     gancho: "Pedernal, eslabón y yesca. Y si se apagaba de noche, tocaba ir a pedir brasas al vecino.",
     categoria: "Cerillas",
     color: "var(--ochre)",

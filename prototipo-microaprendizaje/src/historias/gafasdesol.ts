@@ -146,7 +146,7 @@ export const GAFAS_DE_SOL: Short[] = [
   },
   {
     id: "el-cristal-polarizado",
-    titulo: "El cristal que corta el brillo",
+    titulo: "El cristal corta el brillo",
     gancho: "No oscurece más: filtra solo la luz que rebota en horizontal, que es justo la que deslumbra.",
     categoria: "Tecnología",
     color: "var(--plum)",
