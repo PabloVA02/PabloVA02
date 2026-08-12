@@ -109,7 +109,7 @@ export const ZAPATOS: Short[] = [
   },
   {
     id: "el-zapatero-remendon",
-    titulo: "Antes los zapatos se arreglaban tres o cuatro veces",
+    titulo: "Los zapatos se arreglaban",
     gancho: "La suela cosida se cambiaba entera, y un buen par duraba veinte años pasando varias veces por el taller.",
     categoria: "Zapatos",
     color: "var(--ochre)",

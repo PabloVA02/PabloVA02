@@ -148,7 +148,7 @@ export const SUBMARINOS: Short[] = [
 
   {
     id: "fondo-del-oceano",
-    titulo: "Bajaron once kilómetros y creyeron ver un pez",
+    titulo: "Once kilómetros abajo",
     gancho: "En 1960, dos hombres tocaron el punto más profundo del mar. Nadie volvió en cincuenta y dos años.",
     categoria: "Submarinos",
     color: "var(--plum)",

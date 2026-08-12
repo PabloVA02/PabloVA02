@@ -79,7 +79,7 @@ export const TELEFERICOS: Short[] = [
   },
   {
     id: "el-cable-de-acero",
-    titulo: "El cable no es una barra: son hilos trenzados",
+    titulo: "El cable son hilos",
     gancho: "Cientos de alambres finos enrollados aguantan mucho más que una barra maciza del mismo grosor, y avisan antes de romperse.",
     categoria: "Teleféricos",
     color: "var(--ochre)",
@@ -109,7 +109,7 @@ export const TELEFERICOS: Short[] = [
   },
   {
     id: "el-rescate-en-el-aire",
-    titulo: "Un teleférico parado tiene un plan para bajarte",
+    titulo: "El plan para bajarte",
     gancho: "Si falla el motor y el de emergencia, hay que descolgar a la gente una por una desde la propia cabina.",
     categoria: "Teleféricos",
     color: "var(--plum)",

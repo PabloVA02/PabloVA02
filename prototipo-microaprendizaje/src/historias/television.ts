@@ -82,7 +82,7 @@ export const TELEVISION: Short[] = [
 
   {
     id: "television-de-disco",
-    titulo: "La primera televisión funcionaba con un disco",
+    titulo: "Una televisión con disco",
     gancho: "Un disco de cartón agujereado en espiral, treinta líneas de imagen y un muñeco de ventrílocuo.",
     categoria: "Televisión",
     color: "var(--ochre)",

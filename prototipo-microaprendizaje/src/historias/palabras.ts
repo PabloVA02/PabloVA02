@@ -156,7 +156,7 @@ export const PALABRAS: Short[] = [
 
   {
     id: "cuarentena-cuarenta",
-    titulo: "«Cuarentena»: primero fueron treinta días",
+    titulo: "Fueron treinta días",
     gancho: "Ragusa lo inventó en 1377 y le pusieron treinta. Venecia subió a cuarenta.",
     categoria: "Palabras",
     color: "var(--clay)",

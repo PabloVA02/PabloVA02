@@ -145,7 +145,7 @@ export const VENTANAS: Short[] = [
   },
   {
     id: "la-ventana-que-mira",
-    titulo: "Las ventanas deciden cómo se vive en una casa",
+    titulo: "La ventana decide la casa",
     gancho: "Su orientación y su tamaño cambian la temperatura, la factura de la luz y hasta la hora a la que uno se levanta.",
     categoria: "Ventanas",
     color: "var(--plum)",

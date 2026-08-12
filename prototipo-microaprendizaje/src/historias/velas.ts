@@ -144,7 +144,7 @@ export const VELAS: Short[] = [
   },
   {
     id: "el-precio-de-la-luz",
-    titulo: "Una hora de luz costaba una jornada de trabajo",
+    titulo: "Una hora de luz, un jornal",
     gancho: "Un economista calculó cuánto había que trabajar para tener luz, desde la hoguera hasta la bombilla.",
     categoria: "Velas",
     color: "var(--plum)",

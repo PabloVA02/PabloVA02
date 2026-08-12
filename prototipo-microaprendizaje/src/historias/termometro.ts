@@ -145,7 +145,7 @@ export const TERMOMETRO: Short[] = [
 
   {
     id: "ya-no-son-treinta-y-siete",
-    titulo: "La temperatura normal del cuerpo ha bajado",
+    titulo: "El cuerpo se ha enfriado",
     gancho: "Los treinta y siete grados salen de un estudio de 1851. Hoy la media está por debajo.",
     categoria: "Termómetro",
     color: "var(--ochre)",

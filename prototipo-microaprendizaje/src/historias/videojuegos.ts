@@ -148,7 +148,7 @@ export const VIDEOJUEGOS: Short[] = [
 
   {
     id: "cartuchos-desierto",
-    titulo: "Enterraron millones de cartuchos en un vertedero",
+    titulo: "Cartuchos enterrados",
     gancho: "Durante treinta años se tomó por leyenda urbana. En 2014 excavaron y estaban allí.",
     categoria: "Videojuegos",
     color: "var(--ochre)",

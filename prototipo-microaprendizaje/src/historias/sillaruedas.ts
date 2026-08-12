@@ -143,7 +143,7 @@ export const SILLA_DE_RUEDAS: Short[] = [
   },
   {
     id: "la-silla-de-baloncesto",
-    titulo: "Las ruedas del baloncesto van inclinadas",
+    titulo: "Ruedas inclinadas",
     gancho: "Forman una uve invertida y no es un capricho de diseño. Esa inclinación decide si el jugador vuelca o gira.",
     categoria: "Deporte",
     color: "var(--ochre)",

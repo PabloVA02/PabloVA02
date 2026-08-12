@@ -148,7 +148,7 @@ export const VOLCANES: Short[] = [
 
   {
     id: "laki",
-    titulo: "Una grieta en Islandia envenenó media Europa",
+    titulo: "Una grieta en Islandia",
     gancho: "Ocho meses soltando gas. Se murió el ganado, después la gente, y la niebla llegó hasta Italia.",
     categoria: "Volcanes",
     color: "var(--plum)",

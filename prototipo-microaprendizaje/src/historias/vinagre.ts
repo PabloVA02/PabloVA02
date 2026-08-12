@@ -143,7 +143,7 @@ export const VINAGRE: Short[] = [
   },
   {
     id: "el-vinagre-de-los-ladrones",
-    titulo: "Un vinagre de hierbas protegía de la peste",
+    titulo: "El vinagre de los ladrones",
     gancho: "Cuatro ladrones robaban a los apestados sin contagiarse. La receta que confesaron se vendió durante siglos.",
     categoria: "Creencias",
     color: "var(--plum)",

@@ -87,7 +87,7 @@ export const SUENO: Short[] = [
 
   {
     id: "paralisis-sueno",
-    titulo: "Despertarte sin poder moverte tiene explicación",
+    titulo: "Despertar sin moverse",
     gancho: "El cerebro te desconecta los músculos cada noche. A veces tarda en reconectarlos.",
     categoria: "Sueño",
     color: "var(--slate)",

@@ -147,7 +147,7 @@ export const SUBASTAS: Short[] = [
   },
   {
     id: "la-maldicion-del-ganador",
-    titulo: "Ganar una subasta puede significar haber pagado de más",
+    titulo: "Ganar y salir perdiendo",
     gancho: "Si todos calculan a ojo lo que vale algo incierto, el que gana suele ser el que más se equivocó.",
     categoria: "Subastas",
     color: "var(--slate)",

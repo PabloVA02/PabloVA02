@@ -81,7 +81,7 @@ export const SOMBREROS: Short[] = [
 
   {
     id: "el-bombin-era-un-casco",
-    titulo: "El bombín se encargó como casco de trabajo",
+    titulo: "El bombín era un casco",
     gancho: "Lo pidió un terrateniente para sus guardas, que se descalabraban con las ramas bajas. Se probó pisándolo.",
     categoria: "Sombreros",
     color: "var(--ochre)",
@@ -112,7 +112,7 @@ export const SOMBREROS: Short[] = [
 
   {
     id: "por-que-nadie-lleva-sombrero",
-    titulo: "En veinte años dejamos todos de llevar sombrero",
+    titulo: "Adiós al sombrero",
     gancho: "Salir a la calle con la cabeza descubierta era impensable, y de pronto lo impensable fue lo contrario.",
     categoria: "Sombreros",
     color: "var(--slate)",

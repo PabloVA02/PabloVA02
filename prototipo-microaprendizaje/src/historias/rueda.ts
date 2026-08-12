@@ -150,7 +150,7 @@ export const RUEDA: Short[] = [
 
   {
     id: "rueda-hidraulica",
-    titulo: "La primera máquina que sustituyó al músculo",
+    titulo: "Sustituir al músculo",
     gancho: "Una rueda metida en el río hacía el trabajo de cuarenta personas moliendo grano.",
     categoria: "Rueda",
     color: "var(--ochre)",

@@ -87,7 +87,7 @@ export const TECNOLOGIA: Short[] = [
 
   {
     id: "primer-bug",
-    titulo: "El primer «bicho» de la informática era una polilla",
+    titulo: "Un bicho de verdad",
     gancho: "Está pegado con cinta en un cuaderno de 1947, y la nota lo delata todo.",
     categoria: "Tecnología",
     color: "var(--sage)",
@@ -120,7 +120,7 @@ export const TECNOLOGIA: Short[] = [
 
   {
     id: "cables-submarinos",
-    titulo: "Internet viaja por el fondo del mar, no por satélite",
+    titulo: "Internet va por el mar",
     gancho: "Casi todo lo que cruza un océano lo hace por un cable del grosor de una manguera.",
     categoria: "Tecnología",
     color: "var(--plum)",
@@ -154,7 +154,7 @@ export const TECNOLOGIA: Short[] = [
 
   {
     id: "iphone-2007",
-    titulo: "El iPhone que enseñaron en 2007 no funcionaba",
+    titulo: "El teléfono no funcionaba",
     gancho: "Se colgaba cada pocos minutos. Ensayaron una secuencia exacta de acciones que aguantase noventa minutos.",
     categoria: "Tecnología",
     color: "var(--slate)",

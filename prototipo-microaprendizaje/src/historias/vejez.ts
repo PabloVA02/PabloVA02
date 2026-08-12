@@ -145,7 +145,7 @@ export const VEJEZ: Short[] = [
   },
   {
     id: "las-zonas-longevas",
-    titulo: "Las zonas con más centenarios tienen malos registros",
+    titulo: "Centenarios sin papeles",
     gancho: "Un investigador comprobó algo incómodo: donde más ancianos de récord hay es donde peor se anotaban los nacimientos.",
     categoria: "Vejez",
     color: "var(--plum)",

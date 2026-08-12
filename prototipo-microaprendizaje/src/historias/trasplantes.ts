@@ -147,7 +147,7 @@ export const TRASPLANTES: Short[] = [
 
   {
     id: "modelo-espanol",
-    titulo: "España lleva treinta años primera en donaciones",
+    titulo: "Primera en donaciones",
     gancho: "No es que los españoles sean más generosos. Es que hay un médico dedicado a esto en cada hospital.",
     categoria: "Trasplantes",
     color: "var(--ochre)",

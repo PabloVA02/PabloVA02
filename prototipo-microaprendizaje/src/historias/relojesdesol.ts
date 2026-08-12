@@ -146,7 +146,7 @@ export const RELOJES_DE_SOL: Short[] = [
 
   {
     id: "reloj-que-solo-sirve-aqui",
-    titulo: "Un reloj de sol solo funciona donde se hizo",
+    titulo: "Solo sirve donde se hizo",
     gancho: "Si lo compras de recuerdo y lo pones en el jardín de tu casa, casi seguro que marca mal.",
     categoria: "Relojes de sol",
     color: "var(--slate)",

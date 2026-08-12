@@ -145,7 +145,7 @@ export const SAMURAIS: Short[] = [
   },
   {
     id: "prohibido-llevar-espada",
-    titulo: "En 1876 se prohibió llevar espada por la calle",
+    titulo: "Prohibido llevar espada",
     gancho: "Una ley acabó de golpe con la clase guerrera: sin espadas, sin sueldo y sin peinado propio.",
     categoria: "Samuráis",
     color: "var(--plum)",

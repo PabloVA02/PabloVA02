@@ -83,7 +83,7 @@ export const VIDRIO: Short[] = [
 
   {
     id: "vidrio-flotado",
-    titulo: "El cristal plano se fabrica flotando sobre estaño",
+    titulo: "Vidrio sobre estaño",
     gancho: "Antes había que pulirlo días enteros por las dos caras y tirar medio material por el camino.",
     categoria: "Vidrio",
     color: "var(--slate)",
@@ -113,7 +113,7 @@ export const VIDRIO: Short[] = [
 
   {
     id: "vidrio-no-fluye",
-    titulo: "El vidrio de las catedrales no se ha derretido",
+    titulo: "El vidrio no se derrite",
     gancho: "Se enseña que es más grueso abajo porque fluye despacio. Es falso, y la razón real es mejor.",
     categoria: "Vidrio",
     color: "var(--ochre)",

@@ -143,7 +143,7 @@ export const ROBOTS: Short[] = [
   },
   {
     id: "el-brazo-de-la-fabrica",
-    titulo: "El primer robot industrial pesaba dos toneladas",
+    titulo: "Dos toneladas de robot",
     gancho: "Trabajaba en una fundición sacando piezas al rojo vivo, un puesto en el que la gente se quemaba.",
     categoria: "Robots",
     color: "var(--slate)",

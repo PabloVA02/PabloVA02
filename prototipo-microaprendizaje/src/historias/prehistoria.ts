@@ -148,7 +148,7 @@ export const PREHISTORIA: Short[] = [
 
   {
     id: "fuego-cocina",
-    titulo: "Cocinar nos encogió la mandíbula y nos agrandó el cerebro",
+    titulo: "Cocinar cambió la cara",
     gancho: "Somos el único animal que no puede alimentarse de lo que le da la naturaleza tal cual.",
     categoria: "Prehistoria",
     color: "var(--ochre)",

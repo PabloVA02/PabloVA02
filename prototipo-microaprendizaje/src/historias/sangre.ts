@@ -81,7 +81,7 @@ export const SANGRE: Short[] = [
 
   {
     id: "primer-banco-de-sangre",
-    titulo: "El primer banco de sangre nació en una guerra",
+    titulo: "Sangre en la guerra",
     gancho: "En Barcelona, en 1936: se recogía, se clasificaba, se guardaba en frío y salía al frente en camión.",
     categoria: "Sangre",
     color: "var(--slate)",
@@ -111,7 +111,7 @@ export const SANGRE: Short[] = [
 
   {
     id: "sangre-de-cangrejo",
-    titulo: "La sangre azul de un cangrejo salva vidas",
+    titulo: "Sangre azul de cangrejo",
     gancho: "Detecta contaminación bacteriana en cantidades minúsculas y no se ha encontrado nada mejor.",
     categoria: "Sangre",
     color: "var(--plum)",

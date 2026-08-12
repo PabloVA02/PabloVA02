@@ -142,7 +142,7 @@ export const ROTONDAS: Short[] = [
   },
   {
     id: "la-rotonda-en-espiral",
-    titulo: "La rotonda holandesa obliga a elegir carril antes",
+    titulo: "Elegir carril antes",
     gancho: "Los carriles van en espiral y están separados por bordillos, así que dentro del anillo no se puede cambiar.",
     categoria: "Ciudades",
     color: "var(--ochre)",

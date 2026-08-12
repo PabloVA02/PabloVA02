@@ -79,7 +79,7 @@ export const RIOS: Short[] = [
   },
   {
     id: "un-rio-con-derechos",
-    titulo: "Hay un río que es legalmente una persona",
+    titulo: "Un río que es persona",
     gancho: "Desde 2017 tiene derechos propios y dos representantes que hablan en su nombre ante los tribunales.",
     categoria: "Ríos",
     color: "var(--slate)",

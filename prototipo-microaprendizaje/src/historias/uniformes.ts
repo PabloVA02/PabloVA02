@@ -79,7 +79,7 @@ export const UNIFORMES: Short[] = [
   },
   {
     id: "barcos-pintados-a-rayas",
-    titulo: "Pintaron los barcos a rayas para confundir",
+    titulo: "Barcos pintados a rayas",
     gancho: "No era para esconderlos. Era para que el submarino no supiera hacia dónde iban.",
     categoria: "Uniformes",
     color: "var(--slate)",
@@ -110,7 +110,7 @@ export const UNIFORMES: Short[] = [
 
   {
     id: "el-uniforme-escolar",
-    titulo: "El uniforme escolar nació como ropa de caridad",
+    titulo: "Ropa de caridad",
     gancho: "Era la señal de que aquel niño estudiaba gratis, y por eso se veía desde lejos.",
     categoria: "Uniformes",
     color: "var(--ochre)",

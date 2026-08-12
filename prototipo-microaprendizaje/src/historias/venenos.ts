@@ -109,7 +109,7 @@ export const VENENOS: Short[] = [
   },
   {
     id: "el-catador-del-rey",
-    titulo: "Los reyes tenían a alguien para probar la comida",
+    titulo: "Alguien probaba la comida",
     gancho: "Servía de poco contra los venenos lentos, pero era una señal muy clara para quien estuviera pensándolo.",
     categoria: "Venenos",
     color: "var(--plum)",

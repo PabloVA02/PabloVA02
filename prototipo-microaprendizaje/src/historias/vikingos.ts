@@ -147,7 +147,7 @@ export const VIKINGOS: Short[] = [
 
   {
     id: "asamblea-islandesa",
-    titulo: "El parlamento más antiguo se reunía al aire libre",
+    titulo: "Parlamento al aire libre",
     gancho: "Una llanura de lava, una pared que devuelve la voz y un hombre que recitaba las leyes de memoria.",
     categoria: "Vikingos",
     color: "var(--plum)",

@@ -149,7 +149,7 @@ export const SILLAS: Short[] = [
   },
   {
     id: "el-taburete-de-ordenar",
-    titulo: "En muchos oficios se trabajaba de pie a propósito",
+    titulo: "Trabajar de pie",
     gancho: "Los escritorios altos de los oficinistas antiguos no eran una manía: se creía que sentarse volvía perezoso.",
     categoria: "Sillas",
     color: "var(--plum)",

@@ -150,7 +150,7 @@ export const TELEFONO: Short[] = [
 
   {
     id: "telefono-rojo",
-    titulo: "El teléfono rojo ni era rojo ni era teléfono",
+    titulo: "Ni rojo ni teléfono",
     gancho: "La línea directa entre las dos capitales de la Guerra Fría era una máquina de escribir a distancia.",
     categoria: "Teléfono",
     color: "var(--plum)",

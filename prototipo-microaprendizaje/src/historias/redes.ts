@@ -148,7 +148,7 @@ export const REDES: Short[] = [
 
   {
     id: "primera-red-social",
-    titulo: "La primera red social se hundió por lenta",
+    titulo: "Se hundió por lenta",
     gancho: "Llegó al millón de usuarios antes que nadie y tardaba medio minuto en abrir un perfil.",
     categoria: "Redes",
     color: "var(--clay)",
