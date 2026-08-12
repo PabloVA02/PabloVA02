@@ -89,8 +89,42 @@ export const ESPEJOS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un chimpancé mirándose muy de cerca en un espejo grande.",
+    fotos: [
+      {
+        archivo: "077 Alpha male chimpanzee checking his arm at Kibale forest National Park Photo by Giles Laurent.jpg",
+        autor: "Chimpancé macho mirándose el brazo en el parque nacional de Kibale, en Uganda.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A077%20Alpha%20male%20chimpanzee%20checking%20his%20arm%20at%20Kibale%20forest%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg",
+        foco: "50% 45%",
+        alt: "Chimpancé sentado en el suelo del bosque, con un brazo extendido y la mirada puesta en su propia mano.",
+      },
+      {
+        archivo: "013 Alpha male chimpanzee at Kibale forest National Park Photo by Giles Laurent.jpg",
+        autor: "Otro retrato del mismo macho dominante en el bosque de Kibale.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A013%20Alpha%20male%20chimpanzee%20at%20Kibale%20forest%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg",
+        foco: "50% 45%",
+        alt: "Chimpancé adulto entre la vegetación, con la cara girada hacia un lado y la luz filtrándose entre las hojas.",
+      },
+      {
+        archivo: "Urraca (Pica pica), Almuradiel, Ciudad Real, España, 2021-12-19, DD 19.jpg",
+        autor: "Urraca común (Pica pica) en Almuradiel, Ciudad Real: una de las pocas especies que pasa la prueba.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AUrraca%20(Pica%20pica)%2C%20Almuradiel%2C%20Ciudad%20Real%2C%20Espa%C3%B1a%2C%202021-12-19%2C%20DD%2019.jpg",
+        foco: "50% 50%",
+        alt: "Urraca blanca y negra con reflejos azulados, posada y mirando de lado.",
+      },
+      {
+        archivo: "Elephant in Sauvti (close up) - Botswana - panoramio.jpg",
+        autor: "Elefante africano fotografiado de cerca en Savuti, Botsuana.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AElephant%20in%20Sauvti%20(close%20up)%20-%20Botswana%20-%20panoramio.jpg",
+        foco: "50% 50%",
+        alt: "Cabeza de elefante muy de cerca, con la trompa levantada y las orejas extendidas.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1970. Un psicólogo diseña una prueba muy sencilla para saber si un animal se reconoce a sí mismo. Le deja un espejo grande durante unos días, después le pinta una marca de color en la frente mientras está sedado y observa qué hace al volver a verse reflejado. Casi todas las especies fallan la prueba.",
+      "Estados Unidos, 1970. Un psicólogo diseña una prueba muy sencilla, casi de andar por casa, para saber si un animal se reconoce a sí mismo o no. Le deja un espejo grande en el recinto durante unos días, para que se acostumbre a él y deje de considerarlo una novedad; después, mientras el animal está sedado, le pinta una marca de color en la frente o en la oreja, en un sitio que no puede verse sin espejo; y por último observa qué hace cuando despierta y vuelve a mirarse. Casi todas las especies que se han probado fallan.",
     paginas: [
       {
         rotulo: "La marca",
