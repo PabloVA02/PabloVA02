@@ -85,6 +85,40 @@ export const ZAPATOS: Short[] = [
     categoria: "Zapatos",
     color: "var(--slate)",
     encargo: "Una regla de zapatero de madera con números grabados y un pie de metal.",
+    fotos: [
+      {
+        archivo: "CH.ZG.Zug Museum-Burg-Zug shoemaker's-workbench-around-1930.jpg",
+        autor: "Banco de trabajo de un zapatero suizo hacia 1930, con las herramientas colocadas. Museo Burg de Zug.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACH.ZG.Zug%20Museum-Burg-Zug%20shoemaker's-workbench-around-1930.jpg",
+        foco: "50% 28%",
+        alt: "Mesa de zapatero con alicates, martillos, leznas y limas ordenados en fila sobre el tablero.",
+      },
+      {
+        archivo: "Nottuln, Gladbeck, Gerstefeld -- 2024 -- 4344.jpg",
+        autor: "Campo de cebada a primera hora, en Renania del Norte-Westfalia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANottuln%2C%20Gladbeck%2C%20Gerstefeld%20--%202024%20--%204344.jpg",
+        foco: "50% 50%",
+        alt: "Campo de cebada con las espigas doradas y las barbas encendidas por la luz baja del sol.",
+      },
+      {
+        archivo: "Cobblers tripartite last early 20th century Sweden.jpg",
+        autor: "Horma de zapatero de tres piezas, de la primera mitad del siglo XX, en Suecia.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACobblers%20tripartite%20last%20early%2020th%20century%20Sweden.jpg",
+        foco: "50% 50%",
+        alt: "Horma metálica con tres pies de distintos tamaños montados sobre un mismo eje.",
+      },
+      {
+        archivo: "CH.ZG.Zug Museum-Burg-Zug shoemaker's-machines-around-1930.jpg",
+        autor: "Máquinas del mismo taller de zapatería, tal y como estaban hacia 1930.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACH.ZG.Zug%20Museum-Burg-Zug%20shoemaker's-machines-around-1930.jpg",
+        foco: "50% 45%",
+        alt: "Rincón de taller con máquinas de coser y pulir de hierro, correas y estantes con hormas.",
+      },
+    ],
     entrada:
       "Inglaterra, siglo XIV. Un rey fija por decreto que tres granos de cebada secos puestos en fila equivalen a una pulgada. Los zapateros adoptan esa unidad para medir hormas y establecen que cada número de calzado se diferencia del siguiente en un grano, es decir, un tercio de pulgada: unos ocho milímetros y medio. Ese sistema sigue vivo en los países anglosajones.",
     paginas: [
