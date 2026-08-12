@@ -190,7 +190,7 @@ export const POLVORA: Short[] = [
       },
     ],
     entrada:
-      "Francia, 1888. Un periódico publica por pura equivocación la necrológica de un industrial sueco, confundiéndolo con su hermano Ludvig, que sí acababa de fallecer en Cannes. El texto no es amable ni de lejos: lo llama sin rodeos el mercader de la muerte y le atribuye haberse hecho inmensamente rico inventando maneras de matar a más gente y más deprisa que nunca antes en la historia. Y él, que está vivo y en su casa, lee su propia esquela durante el desayuno, con el café delante.",
+      "Francia, 1888. Un periódico publica por pura equivocación la necrológica de un industrial sueco, confundiéndolo con su hermano Ludvig, que sí acababa de fallecer en Cannes. El texto no es amable ni de lejos: lo llama sin rodeos el mercader de la muerte y le atribuye haberse hecho inmensamente rico inventando maneras de matar a más gente y más deprisa que nunca antes en la historia. Y él, que está perfectamente vivo y sentado en su casa, acaba leyendo su propia esquela durante el desayuno, con el café delante y sin dar crédito.",
     paginas: [
       {
         rotulo: "La dinamita",
