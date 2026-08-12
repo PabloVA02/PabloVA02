@@ -155,8 +155,42 @@ export const TINTA: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Billete inclinado en dos posiciones, con la cifra en verde y en azul.",
+    fotos: [
+      {
+        archivo: "Pfauenfeder Detail-20230511-RM-163536.jpg",
+        autor: "Detalle del ojo de una pluma de pavo real, 2023.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APfauenfeder%20Detail-20230511-RM-163536.jpg",
+        foco: "50% 50%",
+        alt: "Macro del ojo de una pluma de pavo real, con el centro azul rodeado de oro y verde.",
+      },
+      {
+        archivo: "EUR 5 holographic band.jpg",
+        autor: "Banda holográfica de un billete de cinco euros, 2008.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AEUR%205%20holographic%20band.jpg",
+        foco: "50% 50%",
+        alt: "Franja holográfica de un billete de euro reflejando la luz en varios colores.",
+      },
+      {
+        archivo: "Uncut Strip of 50 Euro Banknotes.jpg",
+        autor: "Tira de billetes de cincuenta euros sin cortar, 2022.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AUncut%20Strip%20of%2050%20Euro%20Banknotes.jpg",
+        foco: "50% 50%",
+        alt: "Pliego de billetes de cincuenta euros todavía unidos, antes de separarlos.",
+      },
+      {
+        archivo: "Peacock Feather Close Up (201385355).jpeg",
+        autor: "Pluma de pavo real vista de cerca, 2017.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APeacock%20Feather%20Close%20Up%20(201385355).jpeg",
+        foco: "50% 50%",
+        alt: "Barbas de una pluma de pavo real con brillos verdes y azules cambiantes.",
+      },
+    ],
     entrada:
-      "Bancos centrales de todo el mundo, con la tecnología en circulación desde 1987. Un billete moderno lleva más de una docena de defensas contra la falsificación, y una de las más visibles no está en el papel, sino en la tinta. Basta inclinar el billete para que un número cambie de verde a azul. Detrás de ese efecto hay capas de metal más finas que un pelo.",
+      "Bancos centrales de todo el mundo, con la tecnología en circulación desde 1987. Un billete moderno lleva más de una docena de defensas distintas contra la falsificación, y la mayoría de ellas hay que buscarlas a contraluz o con lupa. Una de las más visibles, en cambio, no está escondida en el papel sino a la vista, en la tinta misma: basta inclinar el billete un poco para que un número cambie de verde a azul delante de los ojos. Detrás de ese efecto hay capas de metal más finas que un pelo, y el mismo truco que usan las plumas de un pavo real.",
     paginas: [
       {
         rotulo: "Capas finísimas",
