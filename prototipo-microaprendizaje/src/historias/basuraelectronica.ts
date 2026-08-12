@@ -119,7 +119,7 @@ export const BASURA_ELECTRONICA: Short[] = [
       },
     ],
     entrada:
-      "África occidental y el sur de Asia, con el problema documentado desde los años noventa del siglo XX. Millones de aparatos europeos y estadounidenses acaban cada año en desguaces informales de esos países, muchos declarados como donaciones de material usado para saltarse las normas de exportación de residuos. Allí trabajan miles de personas, muchas de ellas menores de edad, desmontando electrónica con martillos y con fuego. Y el método más rentable de todos, que es también el más dañino, consiste en prender el plástico para quedarse con el cobre.",
+      "África occidental y el sur de Asia, con el problema documentado desde los años noventa del siglo XX. Millones de aparatos europeos y estadounidenses acaban cada año en desguaces informales de esos países, muchos declarados como donaciones de material usado para saltarse las normas de exportación de residuos. Allí trabajan miles de personas, muchas de ellas menores de edad, desmontando electrónica con martillos y con fuego. Y el método más rentable de todos, que es también el más dañino, consiste en prender fuego al plástico que envuelve los cables para quedarse con el cobre limpio de dentro.",
     paginas: [
       {
         rotulo: "El fuego",

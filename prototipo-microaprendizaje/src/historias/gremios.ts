@@ -123,7 +123,7 @@ export const GREMIOS: Short[] = [
       },
     ],
     entrada:
-      "Alemania y Centroeuropa, desde el siglo XV. Cuando un aprendiz termina su formación y pasa a oficial, muchos gremios le exigen una última cosa antes de dejarle optar siquiera a maestro: irse de casa. Tiene que recorrer otras ciudades trabajando en talleres distintos durante un plazo que suele fijarse en tres años y un día, sin acercarse en todo ese tiempo a menos de una distancia marcada de su pueblo. Sale con la ropa puesta, sin dinero y sin permiso para volver, y así ha seguido haciéndose hasta hoy.",
+      "Alemania y Centroeuropa, desde el siglo XV. Cuando un aprendiz termina su formación y pasa a oficial, muchos gremios le exigen una última cosa antes de dejarle optar siquiera a maestro: irse de casa. Tiene que recorrer otras ciudades trabajando en talleres distintos durante un plazo que suele fijarse en tres años y un día, sin acercarse en todo ese tiempo a menos de una distancia marcada de su pueblo. Sale de casa con la ropa puesta, sin dinero y sin permiso para volver antes de tiempo, y así ha seguido haciéndose, con muy pocos cambios, hasta hoy mismo.",
     paginas: [
       {
         rotulo: "Por qué",

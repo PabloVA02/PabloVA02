@@ -127,7 +127,7 @@ export const COMIDA: Short[] = [
       },
     ],
     entrada:
-      "Londres, 1675. Hace apenas veinte años que abrió el primer local donde se sirve una bebida negra y amarga traída de Oriente, y ya hay más de tres mil repartidos por la ciudad. No son tabernas ni se parecen a una: no se sirve alcohol, se pagan un par de peniques por la entrada y la taza, se leen los periódicos en voz alta para quien no sabe leer y se discute de todo, incluido el gobierno. Aquel año, el rey firma un decreto para cerrarlos todos de golpe.",
+      "Londres, 1675. Hace apenas veinte años que abrió el primer local donde se sirve una bebida negra y amarga traída de Oriente, y ya hay más de tres mil repartidos por la ciudad. No son tabernas ni se parecen a una: no se sirve alcohol, se pagan un par de peniques por la entrada y la taza, se leen los periódicos en voz alta para quien no sabe leer y se discute de todo, incluido el gobierno. Aquel año, harto de lo que se dice dentro, el rey firma un decreto para cerrarlos todos de golpe y de un día para otro.",
     paginas: [
       {
         rotulo: "Un penique",

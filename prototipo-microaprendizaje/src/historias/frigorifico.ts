@@ -58,7 +58,7 @@ export const FRIGORIFICO: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1929. Los frigoríficos eléctricos llevan ya una década metiéndose en las casas y funcionan con gases refrigerantes que son venenosos, inflamables o las dos cosas a la vez: amoniaco, cloruro de metilo y dióxido de azufre. Mientras el aparato esté bien cerrado no pasa nada, y el problema es que los aparatos se estropean. Aquel invierno, una fuga en un hospital de Cleveland mata a más de un centenar de personas, y la prensa empieza a recoger casos de familias enteras que aparecen muertas en la cama.",
+      "Estados Unidos, 1929. Los frigoríficos eléctricos llevan ya una década metiéndose en las casas y funcionan con gases refrigerantes que son venenosos, inflamables o las dos cosas a la vez: amoniaco, cloruro de metilo y dióxido de azufre. Mientras el aparato esté bien cerrado no pasa nada, y el problema es que los aparatos se estropean. Aquel invierno, una fuga en un hospital de Cleveland mata a más de un centenar de personas, y la prensa empieza a recoger, uno detrás de otro, casos de familias enteras que aparecen muertas en la cama sin ninguna explicación.",
     paginas: [
       {
         rotulo: "La nevera de Einstein",

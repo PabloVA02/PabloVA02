@@ -127,7 +127,7 @@ export const HIGIENE: Short[] = [
       },
     ],
     entrada:
-      "Mesopotamia, hace unos cuatro mil quinientos años. En unas tablillas de arcilla aparece la receta más antigua que se conoce de algo parecido al jabón: grasa animal hervida con ceniza de madera, en proporciones anotadas con cuidado. Lo llamativo no es la receta, sino para qué servía. No se usaba para lavarse la piel: servía para desengrasar la lana antes de teñirla y para limpiar heridas. Que aquella pasta pudiera frotarse contra el propio cuerpo, y que eso fuera además una buena idea, tardó milenios en ocurrírsele a nadie.",
+      "Mesopotamia, hace unos cuatro mil quinientos años. En unas tablillas de arcilla aparece la receta más antigua que se conoce de algo parecido al jabón: grasa animal hervida con ceniza de madera, en proporciones anotadas con cuidado. Lo llamativo no es la receta, sino para qué servía. No se usaba para lavarse la piel: servía para desengrasar la lana antes de teñirla y para limpiar heridas. Que aquella pasta áspera pudiera frotarse contra el propio cuerpo, y que eso fuera además una buena idea y no un castigo, tardó milenios en ocurrírsele a nadie.",
     paginas: [
       {
         rotulo: "La química",

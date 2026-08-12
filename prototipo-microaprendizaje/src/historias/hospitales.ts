@@ -61,7 +61,7 @@ export const HOSPITALES: Short[] = [
       },
     ],
     entrada:
-      "Europa, 1793. En los ejércitos de la época los heridos se recogen cuando termina la batalla, muchas veces al día siguiente por la mañana, y a la hora de atenderlos se empieza por los oficiales y se sigue por orden de graduación. Las dos costumbres parecen intocables y matan a muchísima gente. Un cirujano militar francés de veinticuatro años decide cambiarlas a la vez: monta un servicio de carros ligeros al que llama ambulancias volantes y, ya puestos, ordena atender por gravedad de la herida y no por rango.",
+      "Europa, 1793. En los ejércitos de la época los heridos se recogen cuando termina la batalla, muchas veces al día siguiente por la mañana, y a la hora de atenderlos se empieza por los oficiales y se sigue por orden de graduación. Las dos costumbres parecen intocables y matan a muchísima gente. Un cirujano militar francés de veinticuatro años decide cambiarlas a la vez: monta un servicio de carros ligeros al que llama ambulancias volantes y, ya puestos, ordena atender a los heridos por gravedad de la herida y no por rango, empezando por quien peor está aunque sea del bando contrario.",
     paginas: [
       {
         rotulo: "Las ambulancias",

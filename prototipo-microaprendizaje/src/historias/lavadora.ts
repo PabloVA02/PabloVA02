@@ -122,7 +122,7 @@ export const LAVADORA: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1908. Sale a la venta la primera lavadora eléctrica fabricada en serie: un bombo de madera montado sobre un bastidor de hierro y movido por un motor eléctrico acoplado con una correa. La idea es sencilla y la ejecución, temeraria. El motor va colgado debajo sin carcasa ninguna, la correa gira al aire a la altura de las piernas y todo el conjunto se moja sin parar con agua jabonosa, que es exactamente lo que hace falta para que la electricidad busque camino por donde no debe.",
+      "Estados Unidos, 1908. Sale a la venta la primera lavadora eléctrica fabricada en serie: un bombo de madera montado sobre un bastidor de hierro y movido por un motor eléctrico acoplado con una correa. La idea es sencilla y la ejecución, temeraria. El motor va colgado debajo sin carcasa ninguna, la correa gira al aire a la altura de las piernas y todo el conjunto se moja sin parar con agua jabonosa, que es exactamente lo que hace falta para que la electricidad busque camino por donde no debe y lo encuentre.",
     paginas: [
       {
         rotulo: "El motor al aire",

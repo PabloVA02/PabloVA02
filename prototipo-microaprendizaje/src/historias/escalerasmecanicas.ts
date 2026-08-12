@@ -124,7 +124,7 @@ export const ESCALERAS_MECANICAS: Short[] = [
       },
     ],
     entrada:
-      "Londres, noviembre de 1987. El metro de la ciudad sigue teniendo escaleras mecánicas con peldaños de listones de madera, instaladas décadas antes y engrasadas a mano, y debajo de ellas se va acumulando año tras año una capa de pelusa, pelo y grasa que nadie limpia porque nadie la ve. Una cerilla encendida cae por una ranura entre dos tablillas y prende ese depósito. Lo que pasa a continuación no lo había previsto ningún manual de incendios, y acabó cambiando la manera de construir túneles en todo el mundo.",
+      "Londres, noviembre de 1987. El metro de la ciudad sigue teniendo escaleras mecánicas con peldaños de listones de madera, instaladas décadas antes y engrasadas a mano, y debajo de ellas se va acumulando año tras año una capa de pelusa, pelo y grasa que nadie limpia porque nadie la ve. Una cerilla encendida cae por una ranura entre dos tablillas y prende ese depósito. Lo que pasa a continuación, en menos de un minuto, no lo había previsto ningún manual de incendios del mundo, y acabó cambiando la manera de construir y de vigilar los túneles en todas partes.",
     paginas: [
       {
         rotulo: "Un fuego tumbado",
