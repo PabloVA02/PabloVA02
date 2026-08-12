@@ -154,8 +154,43 @@ export const MONASTERIOS: Short[] = [
     categoria: "Monasterios",
     color: "var(--plum)",
     encargo: "Un atril inclinado con un libro grande abierto y un tintero al lado.",
+    fotos: [
+      {
+        archivo: "2019-08-20 Hereford Cathedral Library 01.jpg",
+        autor: "Biblioteca encadenada de la catedral de Hereford, Inglaterra.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2019-08-20%20Hereford%20Cathedral%20Library%2001.jpg",
+        foco: "45% 50%",
+        alt: "Estantería de madera con libros antiguos sujetos por cadenas de hierro a una barra.",
+      },
+      {
+        archivo: "2019-08-20 Hereford Cathedral Library 04.jpg",
+        autor: "Estantes de la biblioteca encadenada de Hereford.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2019-08-20%20Hereford%20Cathedral%20Library%2004.jpg",
+        foco: "50% 50%",
+        alt: "Filas de volúmenes de cuero gastado con las cadenas colgando por delante.",
+      },
+      {
+        archivo: "Initial P- Saint Paul; Initial P- A Bishop Giving a Letter to a Messenger - Google Art Project.jpg",
+        autor: "Inicial iluminada de un manuscrito, hacia 1280.",
+        licencia: "Public domain",
+        pdPorEdad: 1350,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AInitial%20P-%20Saint%20Paul%3B%20Initial%20P-%20A%20Bishop%20Giving%20a%20Letter%20to%20a%20Messenger%20-%20Google%20Art%20Project.jpg",
+        foco: "50% 35%",
+        alt: "Letra capital pintada en oro y azul con dos figuras dentro, sobre pergamino escrito.",
+      },
+      {
+        archivo: "2017-10-04 Chained Library, Hereford.jpg",
+        autor: "Sala de la biblioteca encadenada de Hereford, 2017.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2017-10-04%20Chained%20Library%2C%20Hereford.jpg",
+        foco: "50% 50%",
+        alt: "Interior de madera oscura con estanterías de libros encadenados y un pupitre corrido.",
+      },
+    ],
     entrada:
-      "Europa, siglos VIII a XIV. Antes de la imprenta, un libro es un objeto artesanal carísimo. Hace falta pergamino, que se obtiene raspando y estirando pieles de animal, además de tinta cocida a mano y de colores molidos a partir de piedras traídas de lejos. Y hace falta, sobre todo, alguien que lo copie letra a letra durante meses. Los monasterios eran el sitio donde se hacía eso.",
+      "Europa, siglos VIII a XIV. Antes de la imprenta, un libro no es un producto sino un objeto artesanal carísimo, comparable a una casa pequeña. Hace falta pergamino, que se obtiene raspando y estirando pieles de animal durante semanas, además de tinta cocida a mano y de colores molidos a partir de piedras traídas de muy lejos. Y hace falta, sobre todo, alguien que lo copie letra a letra durante meses seguidos, sin equivocarse demasiado. Los monasterios eran el único sitio de Europa donde se podía reunir todo eso a la vez, y por eso el libro nació allí.",
     paginas: [
       {
         rotulo: "Las pieles",
