@@ -149,8 +149,42 @@ export const CUBIERTOS: Short[] = [
     categoria: "Cubiertos",
     color: "var(--clay)",
     encargo: "Una cuchara de madera muy gastada dentro de un cuenco de barro.",
+    fotos: [
+      {
+        archivo: "Cuenco y cuchara de madera procedentes de la Cueva de los Murciélagos, Albuñol. Museo Arqueológico Nacional de España.jpg",
+        autor: "Cuenco y cuchara de madera neolíticos de la Cueva de los Murciélagos, Albuñol. Museo Arqueológico Nacional, Madrid.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACuenco%20y%20cuchara%20de%20madera%20procedentes%20de%20la%20Cueva%20de%20los%20Murci%C3%A9lagos%2C%20Albu%C3%B1ol.%20Museo%20Arqueol%C3%B3gico%20Nacional%20de%20Espa%C3%B1a.jpg",
+        foco: "50% 55%",
+        alt: "Cuenco tallado en madera y una cuchara de madera muy antigua, los dos gastados por el uso.",
+      },
+      {
+        archivo: "Wooden spoons-black and white.jpg",
+        autor: "Cucharas de madera talladas a mano, 2013.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWooden%20spoons-black%20and%20white.jpg",
+        foco: "50% 50%",
+        alt: "Varias cucharas de madera de distintos tamaños puestas una junto a otra.",
+      },
+      {
+        archivo: "Wooden Cooking Spoon.jpg",
+        autor: "Cuchara de madera de cocina, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWooden%20Cooking%20Spoon.jpg",
+        foco: "50% 50%",
+        alt: "Cuchara de madera grande con el mango largo y la pala ancha.",
+      },
+      {
+        archivo: "Cucharas de madera 01.jpg",
+        autor: "Cucharas de madera mexicanas, 2025.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACucharas%20de%20madera%2001.jpg",
+        foco: "50% 50%",
+        alt: "Manojo de cucharas de madera con las palas gastadas por el uso.",
+      },
+    ],
     entrada:
-      "Todo el mundo, desde hace miles de años. Mientras el tenedor tardó siglos en aceptarse y el cuchillo se domesticó por decreto, la cuchara aparece en yacimientos de casi todas las culturas y nunca escandalizó a nadie. La razón es puramente práctica y no tiene que ver con los modales: los líquidos calientes no se pueden comer con los dedos.",
+      "Todo el mundo, desde hace miles y miles de años. Mientras el tenedor tardó siglos en aceptarse y provocó escándalos morales de verdad, y mientras el cuchillo hubo que domesticarlo por decreto real, la cuchara aparece tranquilamente en yacimientos de casi todas las culturas conocidas y no escandalizó nunca a nadie en ninguna parte. La razón es puramente práctica y no tiene absolutamente nada que ver con los modales ni con la etiqueta: los líquidos calientes no se pueden comer con los dedos, y no hay manera de discutir eso.",
     paginas: [
       {
         rotulo: "De concha a madera",
