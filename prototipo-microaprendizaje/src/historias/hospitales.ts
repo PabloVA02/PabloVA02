@@ -115,7 +115,7 @@ export const HOSPITALES: Short[] = [
 
   {
     id: "hospital-de-pobres",
-    titulo: "El hospital era cosa de pobres",
+    titulo: "El hospital era de pobres",
     gancho: "Quien tenía dinero se operaba en su casa, sobre la mesa del comedor, hasta hace un siglo.",
     categoria: "Hospitales",
     color: "var(--plum)",

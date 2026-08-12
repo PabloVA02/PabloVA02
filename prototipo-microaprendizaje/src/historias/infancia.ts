@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const INFANCIA: Short[] = [
   {
     id: "ninos-pintados-como-adultos",
-    titulo: "Niños pintados como adultos",
+    titulo: "Niños vestidos de adultos",
     gancho: "Cara de señor, ropa de señor y postura de señor. Y eso ha dado lugar a una teoría discutida.",
     categoria: "Infancia",
     color: "var(--clay)",

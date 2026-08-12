@@ -80,7 +80,7 @@ export const HIERRO: Short[] = [
   },
   {
     id: "la-esponja-de-hierro",
-    titulo: "Nunca vieron hierro líquido",
+    titulo: "Nadie vio hierro líquido",
     gancho: "Sacaban del horno una masa esponjosa mezclada con escoria y la golpeaban durante horas para limpiarla.",
     categoria: "Hierro",
     color: "var(--ochre)",

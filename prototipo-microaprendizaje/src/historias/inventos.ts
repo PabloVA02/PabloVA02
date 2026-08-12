@@ -21,7 +21,7 @@ import type { Short } from "../shorts";
 export const INVENTOS: Short[] = [
   {
     id: "microondas-chocolatina",
-    titulo: "La chocolatina del bolsillo",
+    titulo: "Chocolatina de bolsillo",
     gancho: "Un ingeniero de radares notó algo pegajoso en el bolsillo y fue a por maíz.",
     categoria: "Inventos",
     color: "var(--clay)",
@@ -121,7 +121,7 @@ export const INVENTOS: Short[] = [
 
   {
     id: "edison-bombilla",
-    titulo: "Edison no inventó la bombilla",
+    titulo: "Edison no hizo la bombilla",
     gancho: "Cuando se puso, ya llevaba cuarenta años inventada. Lo que faltaba era otra cosa.",
     categoria: "Inventos",
     color: "var(--plum)",

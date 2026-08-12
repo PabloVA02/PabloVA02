@@ -107,7 +107,7 @@ export const IDIOMAS_MUERTOS: Short[] = [
   },
   {
     id: "el-diccionario-de-la-cocina",
-    titulo: "Una lengua se salva jugando",
+    titulo: "Salvar la lengua jugando",
     gancho: "Los planes que funcionan no empiezan por la gramática: empiezan por que los niños la oigan jugando.",
     categoria: "Lenguas perdidas",
     color: "var(--slate)",

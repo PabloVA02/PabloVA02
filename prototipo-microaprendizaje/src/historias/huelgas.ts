@@ -79,7 +79,7 @@ export const HUELGAS: Short[] = [
   },
   {
     id: "la-caja-de-resistencia",
-    titulo: "Una huelga se gana ahorrando",
+    titulo: "La huelga de ahorrar",
     gancho: "Aguanta quien puede comer más semanas sin sueldo. Por eso los sindicatos guardaban dinero antes de parar.",
     categoria: "Huelgas",
     color: "var(--slate)",
@@ -108,7 +108,7 @@ export const HUELGAS: Short[] = [
   },
   {
     id: "los-servicios-minimos",
-    titulo: "Huelgas que no pueden parar",
+    titulo: "Huelgas que no paran nada",
     gancho: "Un hospital o un tren no pueden cerrar del todo, así que alguien tiene que decidir qué sigue funcionando.",
     categoria: "Huelgas",
     color: "var(--plum)",
