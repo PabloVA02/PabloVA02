@@ -128,7 +128,7 @@ export const LENGUAS: Short[] = [
       },
     ],
     entrada:
-      "El hebreo dejó de usarse como lengua de conversación diaria hace unos mil ochocientos años. No desapareció —siguió leyéndose, rezándose y escribiéndose sin interrupción durante todo ese tiempo—, pero nadie lo aprendía de su madre ni discutía en él el precio de la verdura. Que hoy lo hablen millones de personas como lengua materna, y que tenga palabras para el helicóptero y para el helado, es obra en muy buena parte de un solo hombre extraordinariamente testarudo que decidió que aquello podía hacerse.",
+      "El hebreo dejó de usarse como lengua de conversación diaria hace unos mil ochocientos años. No desapareció —siguió leyéndose, rezándose y escribiéndose sin interrupción durante todo ese tiempo—, pero nadie lo aprendía de su madre, nadie reñía a sus hijos en hebreo ni discutía en él el precio de la verdura en el mercado. Que hoy lo hablen millones de personas como lengua materna, y que tenga palabras para el helicóptero y para el helado, es obra en muy buena parte de un solo hombre extraordinariamente testarudo que decidió que aquello podía hacerse.",
     paginas: [
       {
         rotulo: "El experimento",

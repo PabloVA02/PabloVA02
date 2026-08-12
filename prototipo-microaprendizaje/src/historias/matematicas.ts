@@ -128,7 +128,7 @@ export const MATEMATICAS: Short[] = [
       },
     ],
     entrada:
-      "Hay dos ceros distintos y confundirlos estropea toda la historia. Uno es un hueco: la marca que distingue 105 de 15, y que varias civilizaciones inventaron pronto porque sin ella las cuentas no cuadran. El otro es un número de pleno derecho, con el que se puede sumar, restar y operar. Ese segundo cero, el que es un número y no una marca, tardó muchísimo más en llegar y encontró por el camino una resistencia feroz, con prohibiciones municipales incluidas. A la gente no le costaba entenderlo: le costaba aceptarlo.",
+      "Hay dos ceros distintos y confundirlos estropea toda la historia. Uno es un hueco, una señal de que ahí no hay nada: la marca que distingue 105 de 15, y que varias civilizaciones inventaron muy pronto y por su cuenta, porque sin ella las cuentas sencillamente no cuadran. El otro es un número de pleno derecho, con el que se puede sumar, restar y operar. Ese segundo cero, el que es un número y no una marca, tardó muchísimo más en llegar y encontró por el camino una resistencia feroz, con prohibiciones municipales incluidas. A la gente no le costaba entenderlo: le costaba aceptarlo.",
     paginas: [
       {
         rotulo: "El hueco",
