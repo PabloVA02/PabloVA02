@@ -7,10 +7,10 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | | hecho | queda |
 |---|---|---|
 | shorts escritos | 757 | 243 para llegar a 1000 |
-| shorts con sus cuatro fotos | 465 | 292 |
-| imágenes puestas | 1871, verificadas hasta 1854 | |
+| shorts con sus cuatro fotos | 489 | 268 |
+| imágenes puestas | 1967, verificadas hasta 1854 | |
 | títulos que no caben en una línea | | 0 |
-| entradas que dejan hueco abajo | | 313 |
+| entradas que dejan hueco abajo | | 291 |
 
 ## LO PRIMERO: la foto tiene que ser bonita
 
