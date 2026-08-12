@@ -127,7 +127,7 @@ export const MUERTE: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglo XVIII. Miles de momias egipcias llegan a los puertos europeos como mercancía corriente, en cajones, junto a la lana y las especias. Se venden en dos sitios distintos y por dos motivos distintos: en las boticas, molidas como medicina, porque se creía que curaban desde las hemorragias hasta la epilepsia; y en las tiendas de pintores, donde ese mismo polvo mezclado con aceite da un marrón cálido y transparente, muy apreciado para las sombras y las veladuras. El color llegó a tener nombre propio en los catálogos.",
+      "Europa, siglo XVIII. Miles de momias egipcias llegan a los puertos europeos como mercancía corriente, en cajones, junto a la lana y las especias. Se venden en dos sitios distintos y por dos motivos distintos: en las boticas, molidas como medicina, porque se creía que curaban desde las hemorragias hasta la epilepsia; y en las tiendas de pintores, donde ese mismo polvo mezclado con aceite da un marrón cálido y transparente, muy apreciado para las sombras y las veladuras. El color llegó a tener nombre propio en los catálogos de las tiendas de bellas artes, y se vendió durante casi dos siglos.",
     paginas: [
       {
         rotulo: "El color",

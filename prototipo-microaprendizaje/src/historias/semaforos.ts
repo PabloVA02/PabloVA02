@@ -124,7 +124,7 @@ export const SEMAFOROS: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1911. Las carreteras no tienen todavía ninguna marca pintada encima: son una franja de asfalto o de tierra por la que cada uno circula por donde puede y por donde le parece, y los choques frontales en las curvas ciegas son frecuentes y muy graves. Un responsable de carreteras de un condado va conduciendo detrás de un camión cisterna que pierde leche por una junta mal cerrada, y se pasa kilómetros mirando el rastro blanco que va dejando el camión justo en el centro de la calzada.",
+      "Estados Unidos, 1911. Las carreteras no tienen todavía ninguna marca pintada encima: son una franja de asfalto o de tierra por la que cada uno circula por donde puede y por donde le parece, y los choques frontales en las curvas ciegas son frecuentes y muy graves. Un responsable de carreteras de un condado va conduciendo detrás de un camión cisterna que pierde leche por una junta mal cerrada, y se pasa kilómetros enteros mirando el rastro blanco que va dejando el camión justo por el centro de la calzada, y viendo lo fácil que es seguirlo.",
     paginas: [
       {
         rotulo: "El reguero",

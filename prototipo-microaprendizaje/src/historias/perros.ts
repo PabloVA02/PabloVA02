@@ -123,7 +123,7 @@ export const PERROS: Short[] = [
       },
     ],
     entrada:
-      "Inglaterra, 1859. Se celebra en una ciudad del norte la primera exposición canina con premios, jaulas numeradas y jurado. En pocas décadas aparecen los clubes, los libros genealógicos y los estándares escritos que describen con precisión de milímetro cómo debe ser cada raza: la altura, el ángulo del cuello, la forma del cráneo. Antes de eso no existía nada de esto. Existían tipos de perro definidos por lo que hacían —un pastor, un ratonero, un perro de agua— y nadie llevaba la cuenta de quién era hijo de quién.",
+      "Inglaterra, 1859. Se celebra en una ciudad del norte la primera exposición canina con premios, jaulas numeradas y jurado. En pocas décadas aparecen los clubes, los libros genealógicos y los estándares escritos que describen con precisión de milímetro cómo debe ser cada raza: la altura, el ángulo del cuello, la forma del cráneo. Antes de eso no existía nada de esto. Existían tipos de perro definidos por lo que hacían —un pastor, un ratonero, un perro de agua— y a nadie se le había ocurrido llevar la cuenta por escrito de quién era hijo de quién.",
     paginas: [
       {
         rotulo: "El estándar",

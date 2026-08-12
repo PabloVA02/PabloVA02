@@ -58,7 +58,7 @@ export const BANCA: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglo XII. Ir en peregrinación a Tierra Santa supone tres o cuatro mil kilómetros de camino con todo el dinero encima, por rutas llenas de bandidos y de señores con peaje donde nadie puede defender su bolsa más de una vez. Una orden militar de monjes soldados encuentra una solución que parece obvia y que en aquel momento no lo era en absoluto: que el dinero no viaje. El peregrino deja su oro en una casa de la orden antes de salir y recibe a cambio un documento doblado.",
+      "Europa, siglo XII. Ir en peregrinación a Tierra Santa supone tres o cuatro mil kilómetros de camino con todo el dinero encima, por rutas llenas de bandidos y de señores con peaje donde nadie puede defender su bolsa más de una vez. Una orden militar de monjes soldados encuentra una solución que parece obvia y que en aquel momento no lo era en absoluto: que el dinero no viaje. El peregrino deja su oro en una casa de la orden antes de salir y recibe a cambio un documento doblado que no vale nada para quien se lo robe.",
     paginas: [
       {
         rotulo: "El papel",

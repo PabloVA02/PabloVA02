@@ -57,7 +57,7 @@ export const ZAPATOS: Short[] = [
       },
     ],
     entrada:
-      "Europa y América, hasta bien entrado el siglo XIX. El calzado corriente se fabrica sobre una horma recta, es decir, simétrica, de modo que los dos zapatos de un par salen idénticos y cualquiera de ellos vale para cualquier pie. No es un descuido ni una chapuza: está pensado así y todo el mundo lo da por normal. Se recomendaba incluso cambiarlos de lado cada mañana para que se gastaran por igual y duraran más. El ajuste al pie se conseguía después, con el uso, a base de ampollas.",
+      "Europa y América, hasta bien entrado el siglo XIX. El calzado corriente se fabrica sobre una horma recta, es decir, simétrica, de modo que los dos zapatos de un par salen idénticos y cualquiera de ellos vale para cualquier pie. No es un descuido ni una chapuza: está pensado así y todo el mundo lo da por normal. Se recomendaba incluso cambiarlos de lado cada mañana para que se gastaran por igual y duraran más. El ajuste al pie se conseguía después, con el uso y con el tiempo, a base de ampollas y de callos.",
     paginas: [
       {
         rotulo: "La horma",

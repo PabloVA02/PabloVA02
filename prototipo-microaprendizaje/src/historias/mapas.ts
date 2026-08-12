@@ -134,7 +134,7 @@ export const MAPAS: Short[] = [
       },
     ],
     entrada:
-      "En noviembre de 2012, el buque oceanográfico australiano <em>Southern Surveyor</em> pasaba por el mar del Coral cuando la tripulación notó algo incómodo: sus cartas náuticas señalaban una isla grande justo delante, del tamaño de Manhattan, y el sonar decía que allí no había fondo hasta mil cuatrocientos metros. Pusieron rumbo hacia ella y navegaron tranquilamente por encima, sin ver nada más que agua. La isla llevaba dibujada en los mapas del mundo desde 1876, y seguía apareciendo aquel mismo año en los mapas digitales que usa todo el planeta.",
+      "En noviembre de 2012, el buque oceanográfico australiano <em>Southern Surveyor</em> pasaba por el mar del Coral cuando la tripulación notó algo incómodo: sus cartas náuticas señalaban una isla grande justo delante, del tamaño de Manhattan, y el sonar decía que allí no había fondo hasta mil cuatrocientos metros. Pusieron rumbo hacia ella y navegaron tranquilamente por encima, sin ver nada más que agua. La isla llevaba dibujada en los mapas del mundo desde 1876, y seguía apareciendo aquel mismo año, tal cual, en los mapas digitales que usa hoy todo el planeta desde el móvil.",
     paginas: [
       {
         rotulo: "El origen",

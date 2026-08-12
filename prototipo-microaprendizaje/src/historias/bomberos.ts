@@ -127,7 +127,7 @@ export const BOMBEROS: Short[] = [
       },
     ],
     entrada:
-      "Nueva York, 25 de marzo de 1911. En los tres últimos pisos de un edificio de diez plantas trabajan unas quinientas personas, casi todas mujeres jóvenes y emigrantes, cosiendo blusas en mesas largas rodeadas de retales y de aceite de máquina. A las cuatro y media de la tarde, un sábado, poco antes de terminar la jornada, empieza un fuego en un cubo de recortes de tela debajo de una de las mesas. Lo que pasa en la media hora siguiente cambiará las puertas de todos los edificios del mundo.",
+      "Nueva York, 25 de marzo de 1911. En los tres últimos pisos de un edificio de diez plantas trabajan unas quinientas personas, casi todas mujeres jóvenes y emigrantes, cosiendo blusas en mesas largas rodeadas de retales y de aceite de máquina. A las cuatro y media de la tarde, un sábado, poco antes de terminar la jornada, empieza un fuego en un cubo de recortes de tela debajo de una de las mesas. Lo que pasa en la media hora siguiente acabará cambiando las puertas, las escaleras y las salidas de todos los edificios del mundo.",
     paginas: [
       {
         rotulo: "Las puertas",

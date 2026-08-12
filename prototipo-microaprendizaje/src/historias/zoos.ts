@@ -123,7 +123,7 @@ export const ZOOS: Short[] = [
       },
     ],
     entrada:
-      "Europa y Estados Unidos, entre 1870 y 1930. Las exposiciones universales y muchos parques zoológicos incluyen entre sus atracciones aldeas reconstruidas con personas traídas de colonias africanas, asiáticas y del Ártico, que viven allí durante meses mientras el público pasea alrededor y las observa desde un camino marcado. No era una atracción de barraca ni un espectáculo clandestino: se vendían millones de entradas cada temporada, las secciones se anunciaban en carteles por toda la ciudad y los ayuntamientos las inauguraban. Todo aquello está documentado con contratos y con contabilidad.",
+      "Europa y Estados Unidos, entre 1870 y 1930. Las exposiciones universales y muchos parques zoológicos incluyen entre sus atracciones aldeas reconstruidas con personas traídas de colonias africanas, asiáticas y del Ártico, que viven allí durante meses mientras el público pasea alrededor y las observa desde un camino marcado. No era una atracción de barraca ni un espectáculo clandestino: se vendían millones de entradas cada temporada, las secciones se anunciaban en carteles por toda la ciudad y los ayuntamientos las inauguraban. Todo aquello está documentado con contratos firmados, con recibos y con la contabilidad de cada temporada.",
     paginas: [
       {
         rotulo: "El montaje",
