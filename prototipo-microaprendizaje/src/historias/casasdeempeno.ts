@@ -121,7 +121,7 @@ export const CASAS_DE_EMPENO: Short[] = [
       },
     ],
     entrada:
-      "Todas las ciudades, con registros de empeño conservados desde el siglo XVIII. Los libros de las casas de empeño son una fuente histórica de primer orden, porque anotan cada objeto con su fecha. Leídos en conjunto cuentan cómo iba la vida de la gente corriente mejor que casi ningún otro documento. Lo que entra por la puerta cambia según el momento y según la desesperación.",
+      "Todas las ciudades, con registros de empeño conservados desde el siglo XVIII. Los libros de las casas de empeño son una fuente histórica de primer orden y no se escribieron para serlo: anotan cada objeto que entra, con su fecha, su tasación y a veces el nombre de quien lo trae. Leídos de uno en uno no dicen gran cosa. Leídos en conjunto, mes a mes y año a año, cuentan cómo iba de verdad la vida de la gente corriente mejor que casi cualquier otro documento, porque nadie miente al empeñar. Lo que entra por esa puerta cambia según el momento y según la desesperación de quien lo lleva.",
     paginas: [
       {
         rotulo: "El lunes",

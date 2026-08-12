@@ -119,7 +119,7 @@ export const GASOLINERAS: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1939. Repostar sigue exigiendo que alguien vigile el depósito para que no se desborde, y los derrames son constantes y peligrosos. Un ingeniero patenta una pistola que se cierra sola en el instante en que el líquido llega al borde. No lleva electricidad ni piezas móviles complicadas: funciona solo con la presión del aire y un diafragma de goma.",
+      "Estados Unidos, 1939. Repostar sigue exigiendo que alguien vigile el depósito para que no se desborde, y los derrames son constantes, sucios y peligrosos, porque la gasolina en el suelo arde con cualquier chispa. Un ingeniero patenta entonces una pistola que se cierra sola en el instante exacto en que el líquido llega al borde, sin que nadie tenga que estar mirando dentro. Lo llamativo del invento es lo que no lleva: no hay electricidad, no hay sensores y no hay nada que se pueda quedar sin batería. Funciona con la presión del aire y un diafragma de goma, y sigue funcionando igual casi noventa años después.",
     paginas: [
       {
         rotulo: "El tubito",

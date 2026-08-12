@@ -120,7 +120,7 @@ export const LANA: Short[] = [
       },
     ],
     entrada:
-      "Castilla, siglos XIV a XVIII. Una raza de oveja produce aquí una lana tan fina que no tiene competencia en Europa, y toda la industria textil del continente la quiere. La corona entiende enseguida el valor de ese monopolio y hace lo que hicieron todos los Estados con sus secretos industriales: prohibir la salida de los animales vivos, con penas durísimas para quien lo intentara.",
+      "Castilla, siglos XIV a XVIII. Una raza de oveja produce aquí una lana tan fina que no tiene competencia en toda Europa, y la industria textil del continente entero la quiere y la paga a precio de lujo. La corona entiende enseguida lo que tiene entre manos, porque el monopolio no está en la fábrica ni en la técnica, sino en el animal mismo. Y hace lo que han hecho todos los Estados con sus secretos industriales: prohibir la salida de las ovejas vivas del reino, con penas durísimas para quien lo intente, incluida la muerte. Durante cuatro siglos, sacar una oveja de España fue contrabando de Estado.",
     paginas: [
       {
         rotulo: "El pelo fino",

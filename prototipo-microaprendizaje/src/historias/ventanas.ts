@@ -122,7 +122,7 @@ export const VENTANAS: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1930. Se patenta un sistema para sellar dos hojas de vidrio dejando una cámara de aire entre ellas, y esa idea acaba cambiando la construcción de medio mundo. La razón es que el vidrio, por sí solo, es un aislante mediocre: una ventana simple pierde por metro cuadrado bastante más calor que la pared de al lado.",
+      "Estados Unidos, 1930. Se patenta un sistema para sellar dos hojas de vidrio dejando entre ellas una cámara de aire cerrada, y esa idea, que parece una ocurrencia de taller, acaba cambiando la construcción de medio mundo. La razón está en un dato que casi nadie tiene en la cabeza: el vidrio, por sí solo, es un aislante mediocre y deja pasar el calor bastante mejor que un ladrillo. Una ventana simple pierde por metro cuadrado mucho más calor que la pared que la rodea, de modo que el sitio por donde se escapa el invierno es exactamente el mismo por donde entra la luz.",
     paginas: [
       {
         rotulo: "El aire quieto",

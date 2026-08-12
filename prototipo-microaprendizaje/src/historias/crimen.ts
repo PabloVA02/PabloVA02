@@ -126,7 +126,7 @@ export const CRIMEN: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 24 de noviembre de 1971, la víspera del día de Acción de Gracias. Un hombre de traje oscuro y corbata compra un billete para un vuelo corto entre dos ciudades del noroeste del país. Ya en el aire le pasa una nota a la azafata, que se la guarda en el bolso sin leerla, creyendo que es un teléfono. Él se inclina y le dice que la lea.",
+      "Estados Unidos, 24 de noviembre de 1971, la víspera del día de Acción de Gracias. Un hombre de traje oscuro, corbata fina y gabardina compra en el mostrador un billete para un vuelo corto entre dos ciudades del noroeste del país, paga en efectivo y da un nombre que no es el suyo. Se sienta al fondo, pide un refresco y enciende un cigarrillo, como cualquiera de los otros treinta y cinco pasajeros. Ya en el aire le pasa una nota doblada a la azafata, que se la guarda en el bolso sin abrirla, convencida de que es un teléfono. Él se inclina hacia ella y le dice, en voz baja, que la lea.",
     paginas: [
       {
         rotulo: "Todo por favor",

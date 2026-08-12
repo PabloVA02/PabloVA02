@@ -122,7 +122,7 @@ export const LEJIA: Short[] = [
       },
     ],
     entrada:
-      "Cualquier cocina del mundo. Todos los botes de lejía llevan un aviso impreso que casi nadie lee y que dice que no se mezcle con otros productos. El aviso no es burocracia: la lejía reacciona con varias cosas corrientes y produce gases que mandan gente al hospital todos los años. El primer gas de guerra de la historia, usado en 1915, era pariente cercano de uno de ellos.",
+      "Cualquier cocina del mundo. Todos los botes de lejía llevan impreso un aviso que casi nadie lee, y que dice que no se mezcle con ningún otro producto de limpieza. No es una fórmula legal ni una precaución de fabricante: la lejía reacciona de verdad con varias cosas que hay debajo del fregadero de cualquier casa, y de esas reacciones salen gases que mandan gente al hospital todos los años, casi siempre por querer limpiar mejor. Para hacerse una idea de qué clase de gases son, basta un dato: el primero que se usó como arma de guerra, en 1915, es pariente cercano de uno de ellos.",
     paginas: [
       {
         rotulo: "Con amoniaco",

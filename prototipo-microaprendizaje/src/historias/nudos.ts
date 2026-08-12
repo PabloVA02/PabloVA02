@@ -117,7 +117,7 @@ export const NUDOS: Short[] = [
       },
     ],
     entrada:
-      "Océano Atlántico, siglo XVI. Un barco en alta mar no tiene ninguna referencia fija para saber a qué velocidad va, porque alrededor solo hay agua moviéndose. Y necesita saberlo con precisión, ya que la única manera de calcular dónde está consiste en multiplicar velocidad por tiempo y sumar rumbos. La solución fue tan casera que asombra: un trozo de madera, una cuerda con nudos y un reloj de arena.",
+      "Océano Atlántico, siglo XVI. Un barco en alta mar no tiene ninguna referencia fija con la que saber a qué velocidad va, porque todo lo que hay alrededor es agua que también se mueve. Y necesita saberlo con bastante precisión, porque la única manera de calcular dónde está consiste en multiplicar velocidad por tiempo, sumar los rumbos y fiarse del resultado durante semanas. Un error pequeño repetido cada día acaba poniendo la costa donde no está. La solución que se encontró para medir esa velocidad fue tan casera que asombra: un trozo de madera, una cuerda con nudos y un reloj de arena.",
     paginas: [
       {
         rotulo: "La corredera",
