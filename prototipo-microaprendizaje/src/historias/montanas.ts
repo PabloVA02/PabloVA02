@@ -189,7 +189,7 @@ export const MONTANAS: Short[] = [
       },
     ],
     entrada:
-      "Ecuador, junio de 1802. Un naturalista alemán, Alexander von Humboldt, intenta subir un volcán nevado que en aquel momento todo el mundo considera la montaña más alta del planeta. Se queda a unos cuatrocientos metros de la cumbre, agotado, con soroche y con las encías sangrando, y anota en su cuaderno que aquello es lo más alto a lo que ha llegado nunca un ser humano. Se equivocaba de montaña, porque no era la más alta, y sin embargo, sin saberlo, estaba acertando de una manera mucho más interesante.",
+      "Ecuador, junio de 1802. Un naturalista alemán, Alexander von Humboldt, intenta subir un volcán nevado que en aquel momento todo el mundo considera la montaña más alta del planeta. Se queda a unos cuatrocientos metros de la cumbre, agotado, con soroche y con las encías sangrando, y anota en su cuaderno que aquello es lo más alto a lo que ha llegado nunca un ser humano. Se equivocaba de montaña, porque no era la más alta, y sin embargo, sin saberlo, estaba acertando de una manera bastante más interesante que la que él tenía en la cabeza aquel día.",
     paginas: [
       {
         rotulo: "La bola achatada",
