@@ -125,7 +125,7 @@ export const ALCOHOL: Short[] = [
       },
     ],
     entrada:
-      "Oriente Próximo, hacia el año 10000 antes de Cristo. Unos grupos de cazadores y recolectores empiezan a sembrar cereal, a quedarse en un mismo sitio y a levantar aldeas, en lo que probablemente es el cambio más grande de la historia entera de nuestra especie. La explicación de toda la vida es la evidente: lo hicieron para comer pan. En 1953, un arqueólogo publicó un artículo corto con una pregunta incómoda que sigue discutiéndose setenta años después: ¿y si no fue por el pan, sino por la bebida?",
+      "Oriente Próximo, hacia el año 10000 antes de Cristo. Unos grupos de cazadores y recolectores empiezan a sembrar cereal, a quedarse en un mismo sitio y a levantar aldeas, en lo que probablemente es el cambio más grande de la historia entera de nuestra especie. La explicación de toda la vida es la evidente: lo hicieron para comer pan. En 1953, un arqueólogo publicó un artículo corto con una pregunta incómoda que sigue discutiéndose setenta años después y que suena a broma hasta que se miran los datos: ¿y si no fue por el pan, sino por la bebida?",
     paginas: [
       {
         rotulo: "El grano difícil",

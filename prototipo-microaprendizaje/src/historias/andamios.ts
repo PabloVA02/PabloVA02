@@ -118,7 +118,7 @@ export const ANDAMIOS: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglos XII a XV. Levantar una catedral gótica significaba trabajar a cuarenta metros de altura durante décadas seguidas, con bloques de piedra de varias toneladas y sin una sola máquina de motor en toda la obra. El problema no era solo subir el material hasta allí, que ya era gordo, sino sostener a los canteros mientras tallaban en lo alto, año tras año. La solución que encontraron fue un andamio que no llegaba desde el suelo, porque para hacerlo así habría hecho falta talar un bosque entero.",
+      "Europa, siglos XII a XV. Levantar una catedral gótica significaba trabajar a cuarenta metros de altura durante décadas seguidas, con bloques de piedra de varias toneladas y sin una sola máquina de motor en toda la obra. El problema no era solo subir el material hasta allí, que ya era gordo, sino sostener a los canteros mientras tallaban en lo alto, año tras año. La solución que encontraron fue un andamio que no llegaba desde el suelo, sino que salía de la propia pared, porque para levantarlo desde abajo habría hecho falta talar un bosque entero y volver a montarlo cada temporada.",
     paginas: [
       {
         rotulo: "Agujeros en el muro",

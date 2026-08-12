@@ -122,7 +122,7 @@ export const ANESTESIA: Short[] = [
       },
     ],
     entrada:
-      "Viena, 1884. Operar un ojo es hasta entonces un problema casi irresoluble: dormir al paciente entero le hace vomitar al despertar y los movimientos involuntarios arruinan el trabajo, pero mantenerlo despierto significa que note el bisturí en la córnea. No hay término medio, y por eso muchas operaciones sencillas sencillamente no se hacen. Un médico joven del servicio de oftalmología busca otra cosa: algo que quite la sensibilidad de una sola parte del cuerpo, la que se va a tocar, sin apagar al paciente ni tumbarlo durante horas.",
+      "Viena, 1884. Operar un ojo es hasta entonces un problema casi irresoluble: dormir al paciente entero le hace vomitar al despertar y los movimientos involuntarios arruinan el trabajo, pero mantenerlo despierto significa que note el bisturí en la córnea. No hay término medio, y por eso muchas operaciones sencillas sencillamente no se hacen. Un médico joven del servicio de oftalmología busca otra cosa: algo que quite la sensibilidad de una sola parte del cuerpo, la que se va a tocar, sin apagar al paciente, sin tumbarlo durante horas y sin que se le revuelva el estómago después.",
     paginas: [
       {
         rotulo: "Probar en la lengua",

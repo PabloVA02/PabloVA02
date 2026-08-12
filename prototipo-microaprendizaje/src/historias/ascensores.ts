@@ -125,7 +125,7 @@ export const ASCENSORES: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1922. Los ascensores llevan ya décadas funcionando y son fiables, pero muchos usuarios siguen sin fiarse del todo: subirse a una caja colgada de un cable, cerrar la puerta y quedarse a solas dentro incomoda a mucha gente, sobre todo desde que los edificios empiezan a quitar al ascensorista que iba dentro y hacía compañía. Un general retirado, apasionado de la electricidad, funda por esas fechas una empresa para mandar música por cable a comercios y edificios, y encuentra ahí, sin buscarlo, su primer mercado grande.",
+      "Estados Unidos, 1922. Los ascensores llevan ya décadas funcionando y son fiables, pero muchos usuarios siguen sin fiarse del todo: subirse a una caja colgada de un cable, cerrar la puerta y quedarse a solas dentro incomoda a mucha gente, sobre todo desde que los edificios empiezan a quitar al ascensorista que iba dentro y hacía compañía. Un general retirado, apasionado de la electricidad, funda por esas fechas una empresa para mandar música por cable a comercios y edificios, y encuentra ahí, sin haberlo buscado y casi por accidente, su primer mercado grande y el que le dará nombre para siempre.",
     paginas: [
       {
         rotulo: "El hilo musical",

@@ -120,7 +120,7 @@ export const ANTIBIOTICOS: Short[] = [
       },
     ],
     entrada:
-      "Estocolmo, diciembre de 1945. El médico escocés que había descubierto la penicilina diecisiete años antes recoge el premio Nobel y pronuncia el discurso de rigor ante la sala llena. En lugar de celebrar el hallazgo, dedica el final a una advertencia muy concreta, con un ejemplo inventado y detallado que se entiende a la primera, sobre cómo el propio medicamento va a dejar de funcionar si se usa mal. No habló en abstracto ni a largo plazo: describió el mecanismo exacto. Tardó menos de una década en cumplirse.",
+      "Estocolmo, diciembre de 1945. El médico escocés que había descubierto la penicilina diecisiete años antes recoge el premio Nobel y pronuncia el discurso de rigor ante la sala llena. En lugar de celebrar el hallazgo, dedica el final a una advertencia muy concreta, con un ejemplo inventado y detallado que se entiende a la primera, sobre cómo el propio medicamento va a dejar de funcionar si se usa mal. No habló en abstracto ni a largo plazo: describió el mecanismo exacto, paso por paso, delante de la gente que acababa de premiarlo. Tardó menos de una década en cumplirse, y se cumplió tal cual.",
     paginas: [
       {
         rotulo: "La dosis pequeña",

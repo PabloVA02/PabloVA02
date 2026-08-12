@@ -56,7 +56,7 @@ export const CAJEROS: Short[] = [
       },
     ],
     entrada:
-      "Londres, junio de 1967. Un banco instala en la pared exterior de una sucursal una máquina capaz de entregar dinero fuera del horario de oficina, algo que hasta ese momento no existía en ninguna parte. Sacar efectivo dependía por completo de que hubiera un empleado detrás del mostrador y de que el mostrador estuviera abierto. El problema técnico que hay que resolver es mayúsculo: la máquina tiene que reconocer al cliente ella sola, sin estar conectada a ningún ordenador central, porque esa red todavía no se ha inventado.",
+      "Londres, junio de 1967. Un banco instala en la pared exterior de una sucursal una máquina capaz de entregar dinero fuera del horario de oficina, algo que hasta ese momento no existía en ninguna parte. Sacar efectivo dependía por completo de que hubiera un empleado detrás del mostrador y de que el mostrador estuviera abierto. El problema técnico que hay que resolver es mayúsculo: la máquina tiene que reconocer al cliente ella sola, sin estar conectada a ningún ordenador central, porque esa red todavía no existe y no existirá hasta bastantes años después.",
     paginas: [
       {
         rotulo: "El vale",
