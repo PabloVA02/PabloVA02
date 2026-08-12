@@ -149,7 +149,7 @@ export const ESCRITURA: Short[] = [
 
   {
     id: "braille-militar",
-    titulo: "El braille salió del ejército",
+    titulo: "El braille es militar",
     gancho: "Un capitán quería que sus soldados leyeran órdenes sin encender una luz. Era demasiado complicado.",
     categoria: "Escritura",
     color: "var(--plum)",

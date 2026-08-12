@@ -207,7 +207,7 @@ export const ESPANA: Short[] = [
 
   {
     id: "gripe-espanola",
-    titulo: "La gripe española no era española",
+    titulo: "La gripe no era española",
     gancho: "Se llamó así porque España era el único país que no censuraba a sus periódicos.",
     categoria: "España",
     color: "var(--forest)",
@@ -238,7 +238,7 @@ export const ESPANA: Short[] = [
 
   {
     id: "colon-asia",
-    titulo: "Murió creyendo que era Asia",
+    titulo: "Murió creyendo ver Asia",
     gancho: "Hizo cuatro viajes y en los cuatro siguió buscando China. Obligó a su tripulación a firmarlo.",
     categoria: "España",
     color: "var(--ochre)",

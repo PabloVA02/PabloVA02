@@ -112,7 +112,7 @@ export const FRIGORIFICO: Short[] = [
 
   {
     id: "cadena-de-frio",
-    titulo: "La nevera cambió lo que comemos",
+    titulo: "La nevera cambió la comida",
     gancho: "Antes había que comprar cada día. Con nevera en casa apareció la compra semanal.",
     categoria: "Frigorífico",
     color: "var(--clay)",

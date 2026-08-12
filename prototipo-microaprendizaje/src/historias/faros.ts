@@ -85,7 +85,7 @@ export const FAROS: Short[] = [
 
   {
     id: "lente-fresnel",
-    titulo: "Tiraron el vidrio del medio",
+    titulo: "Quitaron el vidrio central",
     gancho: "Antes, un faro se veía a ocho kilómetros. Con aquel cristal escalonado, a más de treinta.",
     categoria: "Faros",
     color: "var(--ochre)",

@@ -115,7 +115,7 @@ export const EMPRESAS: Short[] = [
 
   {
     id: "google-errata",
-    titulo: "Google es una falta de ortografía",
+    titulo: "Google es una errata",
     gancho: "Iban a ponerle el nombre de un número enorme. Lo escribieron mal al comprar el dominio.",
     categoria: "Empresas",
     color: "var(--plum)",

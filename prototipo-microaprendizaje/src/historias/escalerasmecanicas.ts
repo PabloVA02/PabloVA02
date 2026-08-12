@@ -147,7 +147,7 @@ export const ESCALERAS_MECANICAS: Short[] = [
   },
   {
     id: "la-cinta-del-aeropuerto",
-    titulo: "La cinta no te ahorra tiempo",
+    titulo: "La cinta no ahorra tiempo",
     gancho: "Los estudios con cámaras dicen que los pasajeros van de media más lentos con cinta que sin ella.",
     categoria: "Objetos",
     color: "var(--ochre)",

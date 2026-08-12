@@ -113,7 +113,7 @@ export const ESPECIAS: Short[] = [
 
   {
     id: "pimienta-como-moneda",
-    titulo: "Roma pagó su rescate en pimienta",
+    titulo: "Roma pagó en pimienta",
     gancho: "Mil quinientas libras de pimienta, junto al oro y la plata exigidos para levantar el asedio.",
     categoria: "Especias",
     color: "var(--slate)",

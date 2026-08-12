@@ -114,7 +114,7 @@ export const ESPEJOS: Short[] = [
 
   {
     id: "espejo-no-invierte",
-    titulo: "El espejo no cambia los lados",
+    titulo: "El espejo no cambia lados",
     gancho: "Invierte el delante y el detrás. Lo demás lo pones tú al darte la vuelta mentalmente.",
     categoria: "Espejos",
     color: "var(--plum)",

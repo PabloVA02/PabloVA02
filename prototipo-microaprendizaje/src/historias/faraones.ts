@@ -149,7 +149,7 @@ export const FARAONES: Short[] = [
 
   {
     id: "maldicion-inventada",
-    titulo: "La maldición la inventó la prensa",
+    titulo: "La maldición es de prensa",
     gancho: "Un periódico tenía la exclusiva y los demás necesitaban llenar páginas. Se inventaron una amenaza.",
     categoria: "Faraones",
     color: "var(--plum)",
