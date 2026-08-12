@@ -152,8 +152,42 @@ export const TELESCOPIO: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Una antena metálica gigante con forma de cuerno apuntando al cielo en un descampado.",
+    fotos: [
+      {
+        archivo: "Holmdel Horn Antenna Full View.jpg",
+        autor: "La antena de bocina de Holmdel, Nueva Jersey, 2012.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHolmdel%20Horn%20Antenna%20Full%20View.jpg",
+        foco: "45% 60%",
+        alt: "Antena metálica enorme con forma de cuerno apoyada sobre una base giratoria.",
+      },
+      {
+        archivo: "Holmdel Horn Antenna.jpg",
+        autor: "La misma antena vista de frente, 2012.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHolmdel%20Horn%20Antenna.jpg",
+        foco: "50% 55%",
+        alt: "La bocina de aluminio apuntando hacia arriba entre los árboles.",
+      },
+      {
+        archivo: "Holmdel Horn Antenna view of inside of horn.jpg",
+        autor: "Interior de la bocina de la antena de Holmdel, 2023.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHolmdel%20Horn%20Antenna%20view%20of%20inside%20of%20horn.jpg",
+        foco: "50% 50%",
+        alt: "Vista desde dentro del cuerno metálico, con las paredes convergiendo al fondo.",
+      },
+      {
+        archivo: "Holmdel Horn Antenna with American Physical Society marker.jpg",
+        autor: "La antena de Holmdel en su emplazamiento actual, 2023.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHolmdel%20Horn%20Antenna%20with%20American%20Physical%20Society%20marker.jpg",
+        foco: "50% 55%",
+        alt: "La antena de bocina sobre su plataforma, con la hierba y los árboles alrededor.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1964. Dos ingenieros de un laboratorio telefónico ponen a punto una antena enorme con forma de cuerno, construida para rebotar señales en los primeros satélites de comunicaciones. Antes de usarla necesitan medir todo el ruido de fondo que capta, para poder restarlo después. Y encuentran un zumbido constante que no consiguen explicar ni eliminar.",
+      "Estados Unidos, 1964. Dos ingenieros de un laboratorio telefónico de Nueva Jersey ponen a punto una antena enorme con forma de cuerno, construida unos años antes para rebotar señales en los primeros satélites de comunicaciones. Antes de poder usarla para nada necesitan medir con precisión todo el ruido de fondo que capta el aparato, para poder restarlo después de las señales buenas. Y ahí es donde se topan con un zumbido constante, débil pero perfectamente medible, que viene de todas partes a la vez y que no consiguen explicar ni eliminar por más que lo intentan.",
     paginas: [
       {
         rotulo: "Las palomas",
