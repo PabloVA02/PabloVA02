@@ -216,7 +216,7 @@ export const CATASTROFES: Short[] = [
       },
     ],
     entrada:
-      "Año 79 después de Cristo, en la bahía de Nápoles. El Vesubio lleva ya medio día largo lanzando piedra pómez sobre Pompeya, hasta cubrir los tejados, así que mucha gente ha tenido tiempo de marcharse y la que queda se refugia dentro de las casas a esperar que pase. De madrugada llega entonces lo que de verdad mata, y que nadie esperaba: una avalancha de gas y ceniza a varios cientos de grados que baja por la ladera a más de cien kilómetros por hora y entra en la ciudad.",
+      "Año 79 después de Cristo, en la bahía de Nápoles. El Vesubio lleva ya medio día largo lanzando piedra pómez sobre Pompeya, hasta cubrir los tejados, así que mucha gente ha tenido tiempo de marcharse y la que queda se refugia dentro de las casas a esperar que pase. De madrugada llega entonces lo que de verdad mata, y que nadie esperaba: una avalancha de gas y ceniza a varios cientos de grados que baja por la ladera a más de cien kilómetros por hora y entra en la ciudad sin encontrar nada que la frene.",
     paginas: [
       {
         rotulo: "Ceniza que fragua",
