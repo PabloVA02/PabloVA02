@@ -86,6 +86,40 @@ export const SANGRE: Short[] = [
     categoria: "Sangre",
     color: "var(--slate)",
     encargo: "Frascos de vidrio etiquetados en una estantería de una cámara fría.",
+    fotos: [
+      {
+        archivo: "Donating platelets at Swedish blood donation center April 2025.jpg",
+        autor: "Donación en un centro de transfusión sueco, con los tubos de muestra en la bandeja.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADonating%20platelets%20at%20Swedish%20blood%20donation%20center%20April%202025.jpg",
+        foco: "50% 58%",
+        alt: "Brazo extendido con la aguja puesta y el tubo lleno de sangre subiendo hacia la máquina.",
+      },
+      {
+        archivo: "Dr Norman Bethune Statue.jpg",
+        autor: "Estatua de Norman Bethune, el cirujano que montó un servicio móvil de transfusión en la Guerra Civil española.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADr%20Norman%20Bethune%20Statue.jpg",
+        foco: "48% 42%",
+        alt: "Estatua de bronce de un médico sentado con bata y estetoscopio, en un parque nevado.",
+      },
+      {
+        archivo: "2024-02-20 Blood donation in Stadthalle Tauberbischofsheim 30.jpg",
+        autor: "Jornada de donación de sangre en el pabellón municipal de Tauberbischofsheim, en Alemania.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2024-02-20%20Blood%20donation%20in%20Stadthalle%20Tauberbischofsheim%2030.jpg",
+        foco: "50% 50%",
+        alt: "Camillas alineadas en una sala grande con donantes tumbados y personal sanitario alrededor.",
+      },
+      {
+        archivo: "PACOM Armed Services Blood Bank Center opens new facility 150318-M-TA471-137.jpg",
+        autor: "Un técnico retira la aguja a un donante en un banco de sangre militar en Okinawa, 2015.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APACOM%20Armed%20Services%20Blood%20Bank%20Center%20opens%20new%20facility%20150318-M-TA471-137.jpg",
+        foco: "50% 50%",
+        alt: "Sanitario con guantes atendiendo a un donante tumbado en una sala de extracción.",
+      },
+    ],
     entrada:
       "Barcelona, agosto de 1936. Un médico de poco más de treinta años propone al gobierno catalán algo que no existe en ninguna parte del mundo: un servicio que recoja sangre de donantes civiles en la ciudad, la analice, la conserve y la lleve hasta los hospitales de campaña del frente, a cientos de kilómetros. Se lo aprueban en unos pocos días.",
     paginas: [
