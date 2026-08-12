@@ -160,8 +160,44 @@ export const IMPUESTOS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Una ficha redonda de metal gastado con una barba grabada, sobre paño oscuro.",
+    fotos: [
+      {
+        archivo: "Pieter van der Werff - Portrait of Peter the Great - WGA25542.jpg",
+        autor: "Óleo de Pieter van der Werff con el zar Pedro I de Rusia.",
+        licencia: "Public domain",
+        pdPorEdad: 1722,
+        fuente: "https://commons.wikimedia.org/wiki/File%3APieter%20van%20der%20Werff%20-%20Portrait%20of%20Peter%20the%20Great%20-%20WGA25542.jpg",
+        foco: "50% 35%",
+        alt: "Retrato del zar Pedro I de joven, sin barba, con bastón de mando y capa de piel.",
+      },
+      {
+        archivo: "Kholmogory School (Russian) - Portrait of Peter the Great - 1988.123 - Cleveland Museum of Art.jpg",
+        autor: "Retrato de Pedro el Grande, escuela de Kholmogory, 1770. Museo de Arte de Cleveland.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AKholmogory%20School%20(Russian)%20-%20Portrait%20of%20Peter%20the%20Great%20-%201988.123%20-%20Cleveland%20Museum%20of%20Art.jpg",
+        foco: "50% 40%",
+        alt: "Retrato ruso del zar Pedro con armadura y banda azul cruzada al pecho.",
+      },
+      {
+        archivo: "Beard tax token badge.jpg",
+        autor: "Reproducción de la ficha rusa del impuesto sobre la barba.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABeard%20tax%20token%20badge.jpg",
+        foco: "50% 50%",
+        alt: "Chapa redonda con una barba y un bigote grabados, copia de la ficha del impuesto.",
+      },
+      {
+        archivo: "Bust of Peter the Great by Marie-Anne Collot 1770.JPG",
+        autor: "Busto de Pedro el Grande por Marie-Anne Collot, hacia 1770.",
+        licencia: "Public domain",
+        pdPorEdad: 1821,
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABust%20of%20Peter%20the%20Great%20by%20Marie-Anne%20Collot%201770.JPG",
+        foco: "50% 35%",
+        alt: "Busto de mármol del zar Pedro, con la cara afeitada y la mirada al frente.",
+      },
+    ],
     entrada:
-      "Rusia, 1698. El zar vuelve de un viaje de más de un año por los talleres y astilleros de Europa occidental, convencido de que su país tiene que parecerse a lo que ha visto. En la recepción de bienvenida hace algo que nadie esperaba: pide unas tijeras y corta él mismo las barbas de los nobles que han ido a saludarlo.",
+      "Rusia, 1698. El zar Pedro vuelve de un viaje de más de un año por los talleres, los astilleros y las cortes de Europa occidental, convencido hasta la médula de que su país tiene que parecerse cuanto antes a lo que acaba de ver allí. En la recepción de bienvenida, delante de todo el mundo, hace algo que nadie esperaba y que nadie olvidó: pide unas tijeras y corta él mismo, una por una, las barbas de los nobles que han ido a saludarlo. La barba, en aquella Rusia, no era un adorno sino una señal religiosa.",
     paginas: [
       {
         rotulo: "Las tijeras del zar",
