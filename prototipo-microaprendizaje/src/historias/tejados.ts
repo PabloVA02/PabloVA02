@@ -142,7 +142,7 @@ export const TEJADOS: Short[] = [
   },
   {
     id: "los-tejados-verdes",
-    titulo: "Poner césped en el tejado es muy antiguo",
+    titulo: "Césped en el tejado",
     gancho: "Escandinavia lleva mil años cubriendo las casas de hierba. Las ciudades han vuelto a hacerlo por motivos distintos.",
     categoria: "Objetos",
     color: "var(--ochre)",

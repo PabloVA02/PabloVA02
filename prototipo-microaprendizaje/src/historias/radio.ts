@@ -151,7 +151,7 @@ export const RADIO: Short[] = [
 
   {
     id: "radios-piratas",
-    titulo: "La radio joven se emitía desde un barco",
+    titulo: "Radio desde un barco",
     gancho: "El país tenía una sola emisora y apenas ponía discos. Unos barcos fondeados fuera de la ley lo rompieron.",
     categoria: "Radio",
     color: "var(--clay)",

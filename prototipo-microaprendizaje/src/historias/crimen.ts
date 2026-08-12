@@ -150,7 +150,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "dyatlov",
-    titulo: "Diátlov: la tienda rajada por dentro",
+    titulo: "Rajada por dentro",
     gancho: "Nueve montañeros expertos huyeron descalzos a veinte bajo cero. Nadie sabe de qué.",
     categoria: "Misterios",
     color: "var(--plum)",
@@ -330,7 +330,7 @@ export const CRIMEN: Short[] = [
 
   {
     id: "hinterkaifeck",
-    titulo: "Hinterkaifeck: vivió con los muertos",
+    titulo: "Vivió con los muertos",
     gancho: "Comieron, dieron de comer al ganado y encendieron el fuego. Con los cuerpos en el granero.",
     categoria: "Misterios",
     color: "var(--plum)",

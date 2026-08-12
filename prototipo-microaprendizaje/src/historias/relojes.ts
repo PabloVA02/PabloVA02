@@ -153,7 +153,7 @@ export const RELOJES: Short[] = [
 
   {
     id: "crisis-cuarzo",
-    titulo: "Suiza inventó el reloj que casi la arruina",
+    titulo: "El reloj que arruinó Suiza",
     gancho: "Enseñó el prototipo en una feria y no le vio salida. Los japoneses estaban mirando.",
     categoria: "Relojes",
     color: "var(--plum)",

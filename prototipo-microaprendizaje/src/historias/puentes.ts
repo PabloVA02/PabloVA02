@@ -149,7 +149,7 @@ export const PUENTES: Short[] = [
 
   {
     id: "puente-tambaleante",
-    titulo: "Cerraron un puente nuevo a los dos días",
+    titulo: "Cerrado a los dos días",
     gancho: "Ochenta mil personas lo estrenaron a la vez y se bamboleó tanto que se agarraban a la barandilla.",
     categoria: "Puentes",
     color: "var(--plum)",

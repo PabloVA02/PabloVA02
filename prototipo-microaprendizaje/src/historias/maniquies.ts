@@ -112,7 +112,7 @@ export const MANIQUIES: Short[] = [
   },
   {
     id: "las-figuras-que-se-mueven",
-    titulo: "Las figuras del escaparate navideño",
+    titulo: "El escaparate de Navidad",
     gancho: "Figuras con motor, discos y varillas que repiten el mismo gesto durante seis semanas seguidas sin pararse.",
     categoria: "Maniquíes",
     color: "var(--ochre)",

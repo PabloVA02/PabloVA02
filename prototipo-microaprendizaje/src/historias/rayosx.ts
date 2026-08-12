@@ -83,7 +83,7 @@ export const RAYOSX: Short[] = [
 
   {
     id: "fluoroscopio-de-zapateria",
-    titulo: "Las zapaterías tenían aparatos de rayos X",
+    titulo: "Rayos X en la zapatería",
     gancho: "Metías el pie y veías los huesos dentro del zapato. Estuvieron cuarenta años en las tiendas.",
     categoria: "Rayos X",
     color: "var(--clay)",
@@ -114,7 +114,7 @@ export const RAYOSX: Short[] = [
 
   {
     id: "ambulancias-radiologicas",
-    titulo: "Montó veinte ambulancias con rayos X",
+    titulo: "Ambulancias con rayos X",
     gancho: "Aprendió a conducir, sacó el carné y las llevó ella misma hasta el frente en 1914.",
     categoria: "Rayos X",
     color: "var(--plum)",

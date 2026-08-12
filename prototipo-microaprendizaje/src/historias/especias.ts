@@ -82,7 +82,7 @@ export const ESPECIAS: Short[] = [
 
   {
     id: "mito-carne-podrida",
-    titulo: "No servían para tapar la podredumbre",
+    titulo: "No tapaban nada",
     gancho: "Quien podía pagar pimienta podía pagar carne fresca. El mito lo inventaron en el siglo XIX.",
     categoria: "Especias",
     color: "var(--clay)",

@@ -163,7 +163,7 @@ export const GLOBOS: Short[] = [
 
   {
     id: "globos-bomba",
-    titulo: "Bombas de papel cruzando el Pacífico",
+    titulo: "Bombas de papel",
     gancho: "Nueve mil globos de papel de morera cruzaron el Pacífico solos, empujados por una corriente de aire que nadie más conocía.",
     categoria: "Globos",
     color: "var(--plum)",

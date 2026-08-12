@@ -148,7 +148,7 @@ export const SEMAFOROS: Short[] = [
 
   {
     id: "senal-octogonal",
-    titulo: "El stop es un octógono por una razón",
+    titulo: "El stop es un octógono",
     gancho: "Se reconoce por la silueta aunque esté nevada, borrada o vista por detrás.",
     categoria: "Semáforos",
     color: "var(--plum)",

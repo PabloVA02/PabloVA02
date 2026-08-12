@@ -111,7 +111,7 @@ export const INFANCIA: Short[] = [
   },
   {
     id: "el-juguete-como-negocio",
-    titulo: "El juguete industrial es de anteayer",
+    titulo: "El juguete es de anteayer",
     gancho: "Durante siglos los juguetes se hacían en casa con lo que había. Fabricarlos en serie es cosa del siglo XIX.",
     categoria: "Infancia",
     color: "var(--ochre)",

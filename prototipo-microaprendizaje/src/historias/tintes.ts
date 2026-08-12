@@ -141,7 +141,7 @@ export const TINTES: Short[] = [
   },
   {
     id: "el-agua-de-los-tintes",
-    titulo: "Teñir ropa es de lo que más agua ensucia",
+    titulo: "Teñir ensucia el agua",
     gancho: "Una parte enorme de la contaminación de los ríos textiles viene del baño de color, no de la fábrica de tela.",
     categoria: "Tintes",
     color: "var(--slate)",

@@ -112,7 +112,7 @@ export const TELEVISION: Short[] = [
 
   {
     id: "mando-a-distancia",
-    titulo: "El primer mando saltaba con las llaves",
+    titulo: "El mando y las llaves",
     gancho: "Funcionaba con ultrasonidos, y cualquier tintineo metálico cambiaba de canal sin tocar nada.",
     categoria: "Televisión",
     color: "var(--plum)",

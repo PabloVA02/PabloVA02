@@ -121,7 +121,7 @@ export const SUENO: Short[] = [
 
   {
     id: "bostezo-oxigeno",
-    titulo: "Bostezar no sirve para coger oxígeno",
+    titulo: "Bostezar no da oxígeno",
     gancho: "Lo probaron haciendo respirar oxígeno puro a los voluntarios. Bostezaban igual.",
     categoria: "Sueño",
     color: "var(--ochre)",

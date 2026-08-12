@@ -83,7 +83,7 @@ export const TABACO: Short[] = [
 
   {
     id: "duda-como-producto",
-    titulo: "La industria del tabaco vendía duda",
+    titulo: "Vendían duda",
     gancho: "Un memorándum interno lo dejó escrito: la duda es nuestro producto frente a los datos.",
     categoria: "Tabaco",
     color: "var(--slate)",

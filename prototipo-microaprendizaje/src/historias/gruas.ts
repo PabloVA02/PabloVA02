@@ -143,7 +143,7 @@ export const GRUAS: Short[] = [
   },
   {
     id: "el-puerto-y-la-carga",
-    titulo: "Descargar un barco costaba semanas",
+    titulo: "Semanas para descargar",
     gancho: "Cuadrillas de estibadores sacaban a mano sacos y cajas de una en una. Una grúa cambió el oficio entero.",
     categoria: "Grúas",
     color: "var(--ochre)",

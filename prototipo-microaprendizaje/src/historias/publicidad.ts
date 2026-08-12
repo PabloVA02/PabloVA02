@@ -150,7 +150,7 @@ export const PUBLICIDAD: Short[] = [
 
   {
     id: "papa-noel-rojo",
-    titulo: "Papá Noel no viste de rojo por Coca-Cola",
+    titulo: "El rojo de Papá Noel",
     gancho: "La marca lo pintó de rojo en 1931. Pero ya iba de rojo en postales de treinta años antes.",
     categoria: "Publicidad",
     color: "var(--clay)",

@@ -120,7 +120,7 @@ export const MEDICINA: Short[] = [
 
   {
     id: "placebo-abierto",
-    titulo: "Funciona aunque sepas que es azúcar",
+    titulo: "Funciona aunque lo sepas",
     gancho: "Les dieron pastillas de azúcar avisando de que eran azúcar. Mejoraron igual.",
     categoria: "Medicina",
     color: "var(--ochre)",

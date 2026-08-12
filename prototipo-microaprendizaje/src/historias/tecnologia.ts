@@ -184,7 +184,7 @@ export const TECNOLOGIA: Short[] = [
 
   {
     id: "ajedrez-maquina",
-    titulo: "La máquina ganó al ajedrez por un error",
+    titulo: "Ganó al ajedrez por error",
     gancho: "La jugada que hundió al campeón del mundo fue un movimiento elegido al azar por avería.",
     categoria: "Tecnología",
     color: "var(--plum)",
@@ -214,7 +214,7 @@ export const TECNOLOGIA: Short[] = [
 
   {
     id: "primer-mensaje-red",
-    titulo: "El primer mensaje de internet fue «LO»",
+    titulo: "El primer mensaje fue LO",
     gancho: "Iban a escribir «login». El sistema se cayó a la tercera letra y así se quedó.",
     categoria: "Tecnología",
     color: "var(--forest)",

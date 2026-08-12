@@ -153,7 +153,7 @@ export const SEDA: Short[] = [
 
   {
     id: "medias-de-nailon",
-    titulo: "El nailon acabó con la seda en un año",
+    titulo: "El nailon mató la seda",
     gancho: "Se vendieron cuatro millones de pares en un día y las medias de seda desaparecieron del mercado.",
     categoria: "Seda",
     color: "var(--slate)",

@@ -109,7 +109,7 @@ export const RIOS: Short[] = [
   },
   {
     id: "el-rio-que-no-llega-al-mar",
-    titulo: "Hay grandes ríos que ya no llegan al mar",
+    titulo: "Ríos que no llegan al mar",
     gancho: "Se reparten entre siete estados y dos países, y al final del recorrido no queda agua que repartir.",
     categoria: "Ríos",
     color: "var(--plum)",

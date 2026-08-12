@@ -140,7 +140,7 @@ export const SEXTANTE: Short[] = [
   },
   {
     id: "cuando-el-gps-miente",
-    titulo: "La señal del GPS es débil y falsificable",
+    titulo: "El GPS se puede falsear",
     gancho: "El receptor solo escucha y no comprueba nada. Basta emitir cerca algo parecido y más fuerte para que le haga caso.",
     categoria: "Objetos",
     color: "var(--ochre)",

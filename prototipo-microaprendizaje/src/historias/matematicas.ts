@@ -88,7 +88,7 @@ export const MATEMATICAS: Short[] = [
 
   {
     id: "cero-numero",
-    titulo: "Contar la nada parecía un disparate",
+    titulo: "Contar la nada",
     gancho: "Servía como hueco en una cifra, pero contar «nada» parecía un disparate.",
     categoria: "Matemáticas",
     color: "var(--ochre)",

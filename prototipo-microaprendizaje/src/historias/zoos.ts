@@ -147,7 +147,7 @@ export const ZOOS: Short[] = [
 
   {
     id: "zoo-sin-barrotes",
-    titulo: "Un zoo cambió los barrotes por fosos",
+    titulo: "Barrotes por fosos",
     gancho: "En 1907 abrió un parque donde los animales parecían sueltos y el público no veía ninguna reja.",
     categoria: "Zoos",
     color: "var(--plum)",

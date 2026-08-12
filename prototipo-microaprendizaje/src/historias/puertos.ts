@@ -145,7 +145,7 @@ export const PUERTOS: Short[] = [
   },
   {
     id: "la-ciudad-que-perdio-el-puerto",
-    titulo: "Hay ciudades que se quedaron sin mar",
+    titulo: "Ciudades sin mar",
     gancho: "Un río que arrastra sedimentos puede cegar un puerto en un siglo y dejarlo tierra adentro.",
     categoria: "Puertos",
     color: "var(--plum)",

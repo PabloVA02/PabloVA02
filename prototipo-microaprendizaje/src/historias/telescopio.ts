@@ -146,7 +146,7 @@ export const TELESCOPIO: Short[] = [
 
   {
     id: "ruido-de-fondo",
-    titulo: "Buscaron un zumbido y era el Big Bang",
+    titulo: "El zumbido del Big Bang",
     gancho: "Dos ingenieros limpiaron los excrementos de paloma de la antena. El ruido seguía exactamente igual.",
     categoria: "Telescopios",
     color: "var(--plum)",

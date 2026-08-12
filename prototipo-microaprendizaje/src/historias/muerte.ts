@@ -151,7 +151,7 @@ export const MUERTE: Short[] = [
 
   {
     id: "cementerio-mudado",
-    titulo: "París vació sus cementerios de noche",
+    titulo: "París vació el cementerio",
     gancho: "Un muro reventó por el peso de los muertos. Trasladaron seis millones a unas canteras bajo la ciudad.",
     categoria: "Muerte",
     color: "var(--forest)",

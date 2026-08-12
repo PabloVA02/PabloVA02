@@ -148,7 +148,7 @@ export const TUNELES: Short[] = [
 
   {
     id: "tunel-mas-largo",
-    titulo: "El túnel más largo tardó diecisiete años",
+    titulo: "Diecisiete años de túnel",
     gancho: "Cincuenta y siete kilómetros de roca bajo los Alpes, con la piedra a cuarenta y cinco grados.",
     categoria: "Túneles",
     color: "var(--ochre)",

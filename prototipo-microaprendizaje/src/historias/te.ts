@@ -147,7 +147,7 @@ export const TE: Short[] = [
 
   {
     id: "leche-en-el-te",
-    titulo: "La leche iba primero para salvar la taza",
+    titulo: "La leche, primero",
     gancho: "La porcelana barata se agrietaba con el té hirviendo. Con leche fría en el fondo, aguantaba.",
     categoria: "Té",
     color: "var(--clay)",

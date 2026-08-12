@@ -148,7 +148,7 @@ export const PASAPORTES: Short[] = [
 
   {
     id: "hombre-del-aeropuerto",
-    titulo: "Vivió dieciocho años en una terminal",
+    titulo: "Dieciocho años de escala",
     gancho: "Se quedó sin papeles en un aeropuerto y no podía entrar en el país ni salir de la zona de tránsito.",
     categoria: "Pasaportes",
     color: "var(--plum)",

@@ -148,7 +148,7 @@ export const FAROS_DE_COCHE: Short[] = [
   },
   {
     id: "por-que-el-faro-es-amarillo",
-    titulo: "Por qué Francia los quiso amarillos",
+    titulo: "Faros amarillos en Francia",
     gancho: "Durante casi sesenta años, un coche francés se distinguía a un kilómetro. El motivo oficial cambió varias veces.",
     categoria: "Historia",
     color: "var(--ochre)",

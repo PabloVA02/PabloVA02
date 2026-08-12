@@ -80,7 +80,7 @@ export const ZAPATOS: Short[] = [
   },
   {
     id: "el-numero-del-pie",
-    titulo: "El número del pie se midió en cebada",
+    titulo: "El pie medido en cebada",
     gancho: "Tres granos puestos en fila hacen una pulgada, y cada tercio de pulgada es un número. De ahí sale el 42.",
     categoria: "Zapatos",
     color: "var(--slate)",

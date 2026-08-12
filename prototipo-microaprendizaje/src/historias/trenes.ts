@@ -149,7 +149,7 @@ export const TRENES: Short[] = [
 
   {
     id: "metro-londres",
-    titulo: "El primer metro del mundo iba con vapor",
+    titulo: "Un metro de vapor",
     gancho: "Locomotoras de carbón en un túnel cerrado bajo la ciudad. El humo era el problema y no lo resolvieron.",
     categoria: "Trenes",
     color: "var(--plum)",

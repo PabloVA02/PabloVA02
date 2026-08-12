@@ -153,7 +153,7 @@ export const BARCOS: Short[] = [
 
   {
     id: "canal-suez",
-    titulo: "Una zanja quitó siete mil kilómetros",
+    titulo: "Siete mil kilómetros menos",
     gancho: "Antes había que rodear África entera. Lo intentaron los faraones, los persas y Napoleón.",
     categoria: "Barcos",
     color: "var(--ochre)",

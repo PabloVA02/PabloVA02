@@ -149,7 +149,7 @@ export const GAFAS: Short[] = [
 
   {
     id: "gafas-caras",
-    titulo: "Cuestan tanto por una sola empresa",
+    titulo: "Una sola empresa",
     gancho: "El mismo grupo fabrica las monturas, tiene las marcas, las ópticas y hasta un seguro de la vista.",
     categoria: "Gafas",
     color: "var(--plum)",

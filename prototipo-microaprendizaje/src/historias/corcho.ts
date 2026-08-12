@@ -147,7 +147,7 @@ export const CORCHO: Short[] = [
   },
   {
     id: "el-corcho-que-no-es-tapon",
-    titulo: "Del sobrante salen suelos y cohetes",
+    titulo: "Del sobrante, cohetes",
     gancho: "Solo una parte de la corteza sirve para tapones. El resto se tritura y acaba en sitios donde nadie lo busca.",
     categoria: "Objetos",
     color: "var(--slate)",

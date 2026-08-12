@@ -146,7 +146,7 @@ export const GREMIOS: Short[] = [
   },
   {
     id: "el-gremio-contra-el-invento",
-    titulo: "Prohibieron la máquina que ahorraba",
+    titulo: "Prohibida la máquina",
     gancho: "Un telar nuevo hacía el trabajo de varios tejedores. La ciudad lo prohibió y ordenó estrangular a su inventor.",
     categoria: "Gremios",
     color: "var(--plum)",
