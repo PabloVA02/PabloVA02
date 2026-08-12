@@ -83,6 +83,44 @@ export const BALANZAS: Short[] = [
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Romana de hierro colgada con un gancho, con la pesa corrida por el brazo graduado.",
+    fotos: [
+      {
+        archivo: "Roman, Incomplete steelyard and suspension weight (FindID 565530-430299).jpg",
+        autor: "Romana de bronce romana, del siglo I o II, con su contrapeso de piedra. Birmingham Museums Trust.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Roman,_Incomplete_steelyard_and_suspension_weight_(FindID_565530-430299).jpg",
+        foco: "45% 45%",
+        alt: "Balanza romana de bronce verdoso con ganchos y un contrapeso de piedra colgando del brazo.",
+      },
+      {
+        archivo: "Roman, Incomplete steelyard and suspension weight (FindID 565530).jpg",
+        autor: "El brazo graduado de la misma romana romana, con las muescas talladas.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Roman,_Incomplete_steelyard_and_suspension_weight_(FindID_565530).jpg",
+        foco: "50% 50%",
+        alt: "Barra de bronce antigua con muescas regulares talladas a lo largo, sobre fondo claro.",
+      },
+      {
+        archivo: "Roman, Incomplete steelyard and suspension weight (FindID 565530-430297).jpg",
+        autor: "Detalle de los ganchos y las anillas de la romana romana conservada en Birmingham.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Roman,_Incomplete_steelyard_and_suspension_weight_(FindID_565530-430297).jpg",
+        foco: "50% 50%",
+        alt: "Ganchos y eslabones de bronce con pátina verde de una balanza antigua.",
+      },
+      {
+        archivo: "DZ6 1813 A vendor smiles as she weighs and prepares ripe yellow mangoes at a bustling indoor market stall with stacks of packaged goods and fellow sellers visible in the background.jpg",
+        autor: "Una vendedora pesa mangos en el puesto de un mercado cubierto.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:DZ6_1813_A_vendor_smiles_as_she_weighs_and_prepares_ripe_yellow_mangoes_at_a_bustling_indoor_market_stall_with_stacks_of_packaged_goods_and_fellow_sellers_visible_in_the_background.jpg",
+        foco: "50% 50%",
+        alt: "Vendedora de mercado colocando fruta amarilla sobre el plato de una balanza.",
+      },
+    ],
     entrada:
       "Imperio romano, siglo I. La balanza de dos platillos tiene un problema práctico muy serio en cuanto se sale del joyero: para pesar cien kilos hacen falta cien kilos de pesas, y alguien que las cargue y las guarde. En un mercado, en un puerto o en una era eso es inviable. Los romanos difundieron entonces un instrumento que resuelve el asunto entero con una sola pesa pequeña y un brazo con marcas talladas. Se llama romana por ellos, y dos mil años después sigue colgada en almacenes y en cocinas de pueblo.",
     paginas: [

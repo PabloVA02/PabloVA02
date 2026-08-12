@@ -91,6 +91,41 @@ export const COMIDA: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una taza de café humeante sobre una mesa de madera con periódicos viejos.",
+    fotos: [
+      {
+        archivo: "Macro close up look of roasted coffee beans.jpg",
+        autor: "Granos de café tostado en una cuchara medidora, vistos muy de cerca.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Macro_close_up_look_of_roasted_coffee_beans.jpg",
+        foco: "50% 50%",
+        alt: "Puñado de granos de café tostado brillando en una cuchara, con el fondo desenfocado.",
+      },
+      {
+        archivo: "Coffee beans2.jpg",
+        autor: "Granos de café verde y tostado. Fotografía de Popo le Chien.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Coffee_beans2.jpg",
+        foco: "50% 50%",
+        alt: "Montón de granos de café extendidos, con sus hendiduras características a la vista.",
+      },
+      {
+        archivo: "Cup with picollo coffee in Třebíč, Třebíč District.jpg",
+        autor: "Una taza pequeña de café servida en un local. Fotografía de Frettie.",
+        licencia: "CC BY-SA 3.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Cup_with_picollo_coffee_in_T%C5%99eb%C3%AD%C4%8D,_T%C5%99eb%C3%AD%C4%8D_District.jpg",
+        foco: "50% 50%",
+        alt: "Taza blanca de café con su crema, sobre un platillo y una mesa oscura.",
+      },
+      {
+        archivo: "Coffee Beans Photographed in Macro.jpg",
+        autor: "Granos de café fotografiados en macro. Fotografía de Robert Knapp.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Coffee_Beans_Photographed_in_Macro.jpg",
+        foco: "50% 50%",
+        alt: "Granos de café oscuros y brillantes amontonados, iluminados de lado.",
+      },
+    ],
     entrada:
       "Londres, 1675. Hace apenas veinte años que abrió el primer local donde se sirve una bebida negra y amarga traída de Oriente, y ya hay más de tres mil repartidos por la ciudad. No son tabernas ni se parecen a una: no se sirve alcohol, se pagan un par de peniques por la entrada y la taza, se leen los periódicos en voz alta para quien no sabe leer y se discute de todo, incluido el gobierno. Aquel año, el rey firma un decreto para cerrarlos todos de golpe.",
     paginas: [
