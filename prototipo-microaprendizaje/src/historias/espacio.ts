@@ -159,6 +159,40 @@ export const ESPACIO: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un disco dorado grabado con símbolos, girando sobre negro absoluto.",
+    fotos: [
+      {
+        archivo: "Voyager-golden-record-gold-plating-8-23-77 30217603524 o.jpg",
+        autor: "Un técnico saca el disco de oro de la cuba de baño electrolítico, agosto de 1977. NASA/JPL.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVoyager-golden-record-gold-plating-8-23-77%2030217603524%20o.jpg",
+        foco: "45% 52%",
+        alt: "Hombre en bata clara levantando con un hilo un disco dorado sobre una cuba de laboratorio.",
+      },
+      {
+        archivo: "Voyager-golden-record-etching-7-28-77 30812854306 o.jpg",
+        autor: "Grabado del disco en el taller del laboratorio, julio de 1977. NASA/JPL.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVoyager-golden-record-etching-7-28-77%2030812854306%20o.jpg",
+        foco: "50% 50%",
+        alt: "Manos trabajando sobre un disco metálico en un banco de taller lleno de aparatos.",
+      },
+      {
+        archivo: "Voyager-golden-record-lamination-bonding-8-31-1977 30812615156 o.jpg",
+        autor: "Montaje y sellado del disco en su funda protectora, agosto de 1977. NASA/JPL.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVoyager-golden-record-lamination-bonding-8-31-1977%2030812615156%20o.jpg",
+        foco: "50% 50%",
+        alt: "Operarios manipulando el disco dorado y su tapa sobre una mesa de trabajo.",
+      },
+      {
+        archivo: "Voyager spacecraft.jpg",
+        autor: "Ilustración de la sonda Voyager en vuelo, con la antena y los brazos desplegados. NASA/JPL.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVoyager%20spacecraft.jpg",
+        foco: "50% 50%",
+        alt: "Sonda espacial con una antena parabólica grande y varios brazos, sobre fondo negro estrellado.",
+      },
+    ],
     entrada:
       "En 1977 la NASA lanzó dos sondas gemelas para fotografiar los planetas exteriores. Iban a pasar de largo y perderse para siempre en el espacio, y a alguien se le ocurrió que, ya que se iban, podían llevar algo encima. Un equipo dirigido por el astrónomo Carl Sagan tuvo seis semanas para decidir qué cabía en un disco que quizá no escuche nadie nunca.",
     paginas: [
