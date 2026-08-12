@@ -187,7 +187,7 @@ export const COLCHONES: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1966. La agencia espacial estadounidense está preparando los vuelos que llevarán hombres a la Luna y tiene un problema pequeño y muy terco con los asientos. En el despegue y en el aterrizaje, el cuerpo del astronauta recibe un empujón de varias veces su propio peso, y una espuma normal, por gruesa que sea, devuelve ese empujón como si fuera un muelle. Un ingeniero del centro de investigación recibió entonces un encargo que sonaba casi contradictorio: fabricar un material blando que absorbiera el golpe en vez de rebotarlo.",
+      "Estados Unidos, 1966. La agencia espacial estadounidense está preparando los vuelos que llevarán hombres a la Luna y tiene un problema pequeño y muy terco con los asientos. En el despegue y en el aterrizaje, el cuerpo del astronauta recibe un empujón de varias veces su propio peso, y una espuma normal, por gruesa que sea, devuelve ese empujón como si fuera un muelle. Un ingeniero del centro de investigación recibió entonces un encargo que sonaba casi contradictorio: fabricar un material blando que absorbiera el golpe entero en vez de devolverlo, y que después recuperase su forma él solo.",
     paginas: [
       {
         rotulo: "Rebotar o tragar",
