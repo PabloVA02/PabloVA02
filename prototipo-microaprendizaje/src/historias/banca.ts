@@ -87,8 +87,44 @@ export const BANCA: Short[] = [
     categoria: "Banca",
     color: "var(--slate)",
     encargo: "Un salón de café del siglo XVII con mesas largas, papeles y hombres de pie discutiendo.",
+    fotos: [
+      {
+        archivo: "Interior of Royal Exchange, London 2025-09-20 (1).jpg",
+        autor: "Patio cubierto de la Royal Exchange de Londres, el sitio donde se reunían los comerciantes de la City.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AInterior%20of%20Royal%20Exchange%2C%20London%202025-09-20%20(1).jpg",
+        foco: "50% 28%",
+        alt: "Patio interior de piedra clara con dos plantas de arcos y ventanas, cubierto por una claraboya de vidrio.",
+      },
+      {
+        archivo: "Ships on the River IJ in front of the Tollhouse near Amsterdam RMG F8704-001.tiff",
+        autor: "Óleo de Abraham Storck, hacia 1690: barcos en el río IJ, delante de la aduana de Ámsterdam. Royal Museums Greenwich.",
+        licencia: "Public domain",
+        pdPorEdad: 1708,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AShips%20on%20the%20River%20IJ%20in%20front%20of%20the%20Tollhouse%20near%20Amsterdam%20RMG%20F8704-001.tiff",
+        foco: "50% 50%",
+        alt: "Puerto pintado al óleo lleno de veleros y barcazas, con gente embarcando en primer plano.",
+      },
+      {
+        archivo: "A Dutch Merchantman Attacked by an English Privateer, off La Rochelle RMG BHC0723.tiff",
+        autor: "Óleo de Cornelis Claesz van Wieringen, 1616: un mercante holandés atacado por un corsario inglés frente a La Rochelle.",
+        licencia: "Public domain",
+        pdPorEdad: 1633,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AA%20Dutch%20Merchantman%20Attacked%20by%20an%20English%20Privateer%2C%20off%20La%20Rochelle%20RMG%20BHC0723.tiff",
+        foco: "50% 50%",
+        alt: "Dos barcos de vela acercándose entre sí con las velas hinchadas y humo de cañón sobre el mar picado.",
+      },
+      {
+        archivo: "Lloyd's Building - Atrium roof.jpg",
+        autor: "Cubierta del atrio del edificio de Lloyd\'s en Londres, terminado en 1986.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALloyd's%20Building%20-%20Atrium%20roof.jpg",
+        foco: "50% 50%",
+        alt: "Bóveda acristalada vista desde abajo, con una retícula de vigas metálicas y el cielo detrás.",
+      },
+    ],
     entrada:
-      "Londres, 1686. Un hombre abre una cafetería cerca del puerto, en una ciudad donde estos locales acaban de ponerse de moda y funcionan como oficinas: se leen periódicos, se cierran tratos y se discute de negocios durante horas por el precio de una taza. La suya se llena enseguida de capitanes, armadores y comerciantes.",
+      "Londres, 1686. Un hombre abre una cafetería cerca del puerto, en una ciudad donde estos locales acaban de ponerse de moda y funcionan en la práctica como oficinas: se leen los periódicos, se cierran tratos, se firman contratos y se discute de negocios durante horas por el precio de una taza. La suya está bien situada y se llena enseguida de capitanes, armadores, aseguradores y comerciantes que esperan noticias de sus barcos. El dueño no tarda en darse cuenta de que el negocio que tiene delante no es el café que sirve, sino lo que se habla en sus mesas.",
     paginas: [
       {
         rotulo: "Las listas",
