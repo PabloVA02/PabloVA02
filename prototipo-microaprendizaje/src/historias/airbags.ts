@@ -154,8 +154,42 @@ export const AIRBAGS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Generador de gas de airbag desmontado sobre un banco de taller.",
+    fotos: [
+      {
+        archivo: "Car scrapyard along the Fishermen's Trail near Monte dos Cairos, Portugal julesvernex2.jpg",
+        autor: "Desguace junto a la Ruta Vicentina, Monte dos Cairos, Portugal, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACar%20scrapyard%20along%20the%20Fishermen's%20Trail%20near%20Monte%20dos%20Cairos%2C%20Portugal%20julesvernex2.jpg",
+        foco: "50% 60%",
+        alt: "Coches viejos oxidados amontonados en un descampado, con el cielo azul al fondo.",
+      },
+      {
+        archivo: "Rusty fender car junkyard (Unsplash).jpg",
+        autor: "Aleta oxidada de un coche en un desguace, 2016.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARusty%20fender%20car%20junkyard%20(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Chapa de un coche abandonado comida por el óxido, con la pintura levantada.",
+      },
+      {
+        archivo: "Car scrapyard near Etterby - geograph.org.uk - 5476927.jpg",
+        autor: "Desguace cerca de Etterby, Inglaterra, 2017.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACar%20scrapyard%20near%20Etterby%20-%20geograph.org.uk%20-%205476927.jpg",
+        foco: "50% 50%",
+        alt: "Hilera de coches apilados en un desguace bajo un cielo nublado.",
+      },
+      {
+        archivo: "Car scrapyard at Cleveland Street, Birkenhead (2).JPG",
+        autor: "Desguace en Cleveland Street, Birkenhead, Inglaterra, 2012.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACar%20scrapyard%20at%20Cleveland%20Street%2C%20Birkenhead%20(2).JPG",
+        foco: "50% 50%",
+        alt: "Coches apilados unos encima de otros esperando a ser desguazados.",
+      },
+    ],
     entrada:
-      "Japón y todo el mundo, con el problema destapado a partir de 2008. Un fabricante de airbags cambió el compuesto que genera el gas por otro más barato y más potente. Ese compuesto tiene una debilidad conocida, porque absorbe humedad del aire y se degrada con los años. Degradado, arde demasiado deprisa y hace estallar el bote metálico que lo contiene.",
+      "Japón y después el mundo entero, con el problema destapado a partir de 2008. Un fabricante de airbags decidió años atrás cambiar el compuesto que genera el gas por otro bastante más barato y bastante más potente, y durante mucho tiempo pareció que la sustitución había salido bien. Ese compuesto, sin embargo, tiene una debilidad conocida desde el principio: absorbe humedad del aire y se degrada poco a poco con los años. Degradado, arde demasiado deprisa, y en vez de inflar la bolsa hace estallar el bote metálico que lo contiene.",
     paginas: [
       {
         rotulo: "La metralla",
