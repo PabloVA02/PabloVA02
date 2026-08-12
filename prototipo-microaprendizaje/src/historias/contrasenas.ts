@@ -78,7 +78,7 @@ export const CONTRASENAS: Short[] = [
   },
   {
     id: "las-reglas-que-no-servian",
-    titulo: "Las reglas raras eran un error",
+    titulo: "Reglas raras por error",
     gancho: "Su propio autor pidió perdón. Obligar a poner símbolos y cambiarla cada mes hizo las claves más previsibles.",
     categoria: "Contraseñas",
     color: "var(--ochre)",

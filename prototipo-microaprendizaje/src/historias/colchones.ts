@@ -146,7 +146,7 @@ export const COLCHONES: Short[] = [
   },
   {
     id: "la-espuma-que-recuerda",
-    titulo: "La espuma vino de los aviones",
+    titulo: "La espuma vino del avión",
     gancho: "Un centro espacial buscaba un asiento que amortiguase el golpe del despegue. Acabó en los colchones de medio mundo.",
     categoria: "Objetos",
     color: "var(--plum)",

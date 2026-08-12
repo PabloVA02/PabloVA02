@@ -88,7 +88,7 @@ export const COCINA: Short[] = [
 
   {
     id: "zanahoria-naranja",
-    titulo: "La zanahoria no era naranja",
+    titulo: "La zanahoria no era así",
     gancho: "Antes eran moradas, blancas y amarillas. Lo de los holandeses es discutible.",
     categoria: "Cocina",
     color: "var(--ochre)",

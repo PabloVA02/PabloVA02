@@ -118,7 +118,7 @@ export const CORREOS: Short[] = [
 
   {
     id: "cartas-que-llegan-tarde",
-    titulo: "Cartas que tardaron un siglo",
+    titulo: "Cartas de hace un siglo",
     gancho: "Un baúl de correo del siglo XVII se abrió en 2015. Sus dueños llevaban trescientos años muertos.",
     categoria: "Correos",
     color: "var(--plum)",

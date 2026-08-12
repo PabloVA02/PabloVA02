@@ -147,7 +147,7 @@ export const CODIGOS_DE_BARRAS: Short[] = [
   },
   {
     id: "lo-que-cambio-en-la-tienda",
-    titulo: "Las rayas cambiaron el estante",
+    titulo: "Las rayas cambiaron todo",
     gancho: "Al saber al minuto qué se vende, las tiendas dejaron de comprar a ojo y los productos lentos desaparecieron.",
     categoria: "Códigos de barras",
     color: "var(--plum)",

@@ -151,7 +151,7 @@ export const COMIDA: Short[] = [
 
   {
     id: "pizza-margarita",
-    titulo: "Una pizza con nombre de reina",
+    titulo: "Pizza con nombre de reina",
     gancho: "La pizza era comida de pobres. Una visita real de 1889 le dio permiso para subir de clase.",
     categoria: "Comida",
     color: "var(--clay)",
@@ -181,7 +181,7 @@ export const COMIDA: Short[] = [
   },
   {
     id: "chocolate-bebida",
-    titulo: "El chocolate se bebía amargo",
+    titulo: "El chocolate era amargo",
     gancho: "En América era una bebida picante y espesa. Tardó cien años en llevar azúcar y trescientos en ser una tableta.",
     categoria: "Comida",
     color: "var(--clay)",
@@ -241,7 +241,7 @@ export const COMIDA: Short[] = [
 
   {
     id: "azucar-esclavitud",
-    titulo: "El azúcar movió el mayor comercio",
+    titulo: "El azúcar movió el mundo",
     gancho: "Era un lujo de farmacia. Cuando se abarató, hicieron falta millones de personas para cortar caña.",
     categoria: "Comida",
     color: "var(--forest)",
