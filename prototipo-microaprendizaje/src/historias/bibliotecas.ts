@@ -89,8 +89,42 @@ export const BIBLIOTECAS: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Libros antiguos en un pupitre de madera con cadenas de hierro sujetas a una barra.",
+    fotos: [
+      {
+        archivo: "2019-08-20 Hereford Cathedral Library 01.jpg",
+        autor: "La biblioteca encadenada de la catedral de Hereford, en Inglaterra, con sus barras y sus cadenas originales.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2019-08-20%20Hereford%20Cathedral%20Library%2001.jpg",
+        foco: "42% 48%",
+        alt: "Estantería antigua de madera llena de libros puestos con el corte hacia fuera, cada uno atado con una cadena de hierro.",
+      },
+      {
+        archivo: "Lapis lazuli (lazuritic metamorphite) (Sar-e-Sang Deposit, Sakhi Formation, Precambrian, 2.4-2.7 Ga (?); Sar-e-Sang Mining District, Hindu-Kush Mountains, Afghanistan) 16.jpg",
+        autor: "Lapislázuli de Afganistán, la piedra de la que salía el azul de los manuscritos, más cara que la plata.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALapis%20lazuli%20(lazuritic%20metamorphite)%20(Sar-e-Sang%20Deposit%2C%20Sakhi%20Formation%2C%20Precambrian%2C%202.4-2.7%20Ga%20(%3F)%3B%20Sar-e-Sang%20Mining%20District%2C%20Hindu-Kush%20Mountains%2C%20Afghanistan)%2016.jpg",
+        foco: "50% 50%",
+        alt: "Piedra de un azul intenso con vetas blancas y motitas doradas.",
+      },
+      {
+        archivo: "2017-10-04 Chained Library, Hereford.jpg",
+        autor: "Detalle de las cadenas remachadas al canto de las tapas y colgadas de la barra del estante.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2017-10-04%20Chained%20Library%2C%20Hereford.jpg",
+        foco: "50% 45%",
+        alt: "Cadenas de hierro colgando en vertical delante de una fila de libros encuadernados en piel clara.",
+      },
+      {
+        archivo: "2019-08-20 Hereford Cathedral Library 04.jpg",
+        autor: "Otra vista de la sala de Hereford, hoy convertida en museo con sus pupitres de lectura.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2019-08-20%20Hereford%20Cathedral%20Library%2004.jpg",
+        foco: "50% 50%",
+        alt: "Sala revestida de madera con estanterías de libros antiguos y un banco corrido para leer de pie.",
+      },
+    ],
     entrada:
-      "Europa, siglo XV. Un libro se escribe a mano sobre piel de animal y tarda meses en copiarse. La biblioteca entera de una catedral puede tener doscientos volúmenes y estar entre las mejores del continente. Para que no desaparezcan, los ejemplares se sujetan a los muebles con cadenas de hierro que llegan a medir un metro.",
+      "Europa, siglo XV. Un libro se escribe a mano, letra a letra, sobre piel de animal preparada, y un ejemplar grande tarda meses en copiarse. La biblioteca entera de una catedral puede tener doscientos volúmenes y estar, con esos doscientos, entre las mejores del continente. Un objeto así no se deja suelto en una habitación a la que entra gente. Para que no desaparezcan, los ejemplares se sujetan al mueble con cadenas de hierro remachadas a la tapa, largas como un brazo, que llegan justo hasta el pupitre y ni un palmo más.",
     paginas: [
       {
         rotulo: "El precio",
