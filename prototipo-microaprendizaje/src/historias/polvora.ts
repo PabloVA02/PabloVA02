@@ -152,8 +152,45 @@ export const POLVORA: Short[] = [
     categoria: "Pólvora",
     color: "var(--slate)",
     encargo: "Una página de periódico antiguo doblada sobre una mesa de desayuno.",
+    fotos: [
+      {
+        archivo: "AlfredNobel adjusted.jpg",
+        autor: "Retrato de Alfred Nobel. Fotografía de Gösta Florman, antes de 1896.",
+        licencia: "Public domain",
+        pdPorEdad: 1900,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAlfredNobel%20adjusted.jpg",
+        foco: "55% 35%",
+        alt: "Hombre mayor de barba sentado de perfil en un sillón, con la mano en la mejilla.",
+      },
+      {
+        archivo: "Alfred Nobel (Bain).png",
+        autor: "Otro retrato de Alfred Nobel por Gösta Florman.",
+        licencia: "Public domain",
+        pdPorEdad: 1900,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAlfred%20Nobel%20(Bain).png",
+        foco: "50% 35%",
+        alt: "Retrato de estudio de Alfred Nobel con traje oscuro y barba recortada.",
+      },
+      {
+        archivo: "Portrait of Alfred Bernhard Nobel (1833-1896), Chemist (2551039289).jpg",
+        autor: "Alfred Nobel, químico e industrial sueco.",
+        licencia: "Public domain",
+        pdPorEdad: 1900,
+        fuente: "https://commons.wikimedia.org/wiki/File%3APortrait%20of%20Alfred%20Bernhard%20Nobel%20(1833-1896)%2C%20Chemist%20(2551039289).jpg",
+        foco: "50% 35%",
+        alt: "Fotografía antigua de Alfred Nobel mirando ligeramente a un lado.",
+      },
+      {
+        archivo: "Alfred Nobel SPA.jpg",
+        autor: "Retrato de Alfred Nobel.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAlfred%20Nobel%20SPA.jpg",
+        foco: "50% 40%",
+        alt: "Busto fotográfico de Alfred Nobel sobre fondo neutro.",
+      },
+    ],
     entrada:
-      "Francia, 1888. Un periódico publica por equivocación la necrológica de un industrial sueco, confundiéndolo con su hermano, que sí acababa de fallecer. El texto es demoledor: lo llama el mercader de la muerte y le atribuye haberse enriquecido inventando maneras de matar a más gente y más deprisa que nunca. Él lee su propia esquela durante el desayuno.",
+      "Francia, 1888. Un periódico publica por pura equivocación la necrológica de un industrial sueco, confundiéndolo con su hermano Ludvig, que sí acababa de fallecer en Cannes. El texto no es amable ni de lejos: lo llama sin rodeos el mercader de la muerte y le atribuye haberse hecho inmensamente rico inventando maneras de matar a más gente y más deprisa que nunca antes en la historia. Y él, que está vivo y en su casa, lee su propia esquela durante el desayuno, con el café delante.",
     paginas: [
       {
         rotulo: "La dinamita",
