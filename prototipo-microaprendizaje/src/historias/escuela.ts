@@ -89,8 +89,42 @@ export const ESCUELA: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un aula vacía con las sillas sobre las mesas y la luz entrando muy fuerte.",
+    fotos: [
+      {
+        archivo: "The one-room classroom inside the Octagonal Schoolhouse in Essex, NY.JPG",
+        autor: "Aula única de la escuela octogonal de Essex, en el estado de Nueva York, conservada como estaba.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20one-room%20classroom%20inside%20the%20Octagonal%20Schoolhouse%20in%20Essex%2C%20NY.JPG",
+        foco: "50% 58%",
+        alt: "Aula vacía con pupitres de madera y hierro colado, una estufa en el centro y la luz entrando por las ventanas.",
+      },
+      {
+        archivo: "Harvey One-Room School.jpg",
+        autor: "Escuela rural de un aula construida en 1876 en el condado de Crawford, Ohio.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHarvey%20One-Room%20School.jpg",
+        foco: "50% 50%",
+        alt: "Escuela pequeña de ladrillo con dos ventanas altas y una puerta, sola en mitad del campo.",
+      },
+      {
+        archivo: "Attlebury Schoolhouse, Stanford, NY.jpg",
+        autor: "Escuela de Attlebury, en Stanford, Nueva York, de las que cerraban según la faena del campo.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAttlebury%20Schoolhouse%2C%20Stanford%2C%20NY.jpg",
+        foco: "50% 50%",
+        alt: "Casita de madera blanca de una sola planta con ventanas grandes, junto a un camino de campo.",
+      },
+      {
+        archivo: "Elgin Schoolhouse State Historic Site.jpg",
+        autor: "Escuela de Elgin, en Nevada, que funcionó de 1922 a 1967 y hoy es sitio histórico.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AElgin%20Schoolhouse%20State%20Historic%20Site.jpg",
+        foco: "50% 50%",
+        alt: "Escuela de madera pintada de claro en un paisaje seco, con la campana sobre el tejado.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1840. Las escuelas rurales y las urbanas funcionan con calendarios opuestos. En el campo se dan clases en invierno y en pleno verano, y se cierra en primavera y en otoño, que es cuando hacen falta manos para sembrar y para recoger. En las ciudades, en cambio, se da clase casi todo el año, con hasta doscientos cincuenta días lectivos.",
+      "Estados Unidos, 1840. Las escuelas rurales y las urbanas funcionan con calendarios prácticamente opuestos, y ninguna de las dos se parece al que tenemos hoy. En el campo se dan clases en invierno y en pleno verano, y se cierra en primavera y en otoño, que es justo cuando hacen falta manos para sembrar y para recoger. En las ciudades, en cambio, se da clase casi todo el año, con hasta doscientos cincuenta días lectivos y vacaciones repartidas en trozos pequeños. Que los dos calendarios acabaran fundiéndose en uno solo no tuvo nada que ver con la cosecha.",
     paginas: [
       {
         rotulo: "El calor",
