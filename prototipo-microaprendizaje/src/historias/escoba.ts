@@ -86,6 +86,42 @@ export const ESCOBA: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Panojas de sorgo de escobas secandose colgadas boca abajo en un cobertizo.",
+    fotos: [
+      {
+        archivo: "Sorghum bicolor.JPG",
+        autor: "Panojas de sorgo (Sorghum bicolor) maduras en el campo.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sorghum_bicolor.JPG",
+        foco: "50% 40%",
+        alt: "Racimos densos de grano de sorgo en lo alto de sus tallos, recortados contra un cielo azul.",
+      },
+      {
+        archivo: "Sorghum bicolor (Moench).JPG",
+        autor: "Detalle de la panoja de sorgo, el racimo que remata el tallo.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sorghum_bicolor_(Moench).JPG",
+        foco: "50% 45%",
+        alt: "Racimo de sorgo visto de cerca, con las ramitas abiertas y los granos pequeños.",
+      },
+      {
+        archivo: "Sorghum Harvest.jpg",
+        autor: "Una cosechadora recogiendo sorgo en Oklahoma, 2014.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sorghum_Harvest.jpg",
+        foco: "50% 50%",
+        alt: "Cosechadora avanzando por un campo de sorgo y descargando el grano en un remolque.",
+      },
+      {
+        archivo:
+          "Starr-180326-2976-Sorghum sp-recently harvested in old cane field new crop aerial view-Kahului-Maui (41243017371).jpg",
+        autor: "Campos de sorgo recién cosechados vistos desde el aire, en Maui. Fotografía de Forest y Kim Starr.",
+        licencia: "CC BY 3.0 us",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Starr-180326-2976-Sorghum_sp-recently_harvested_in_old_cane_field_new_crop_aerial_view-Kahului-Maui_(41243017371).jpg",
+        foco: "50% 50%",
+        alt: "Vista aérea de parcelas de cultivo en franjas, unas segadas y otras todavía verdes.",
+      },
+    ],
     entrada:
       "Estados Unidos y el sur de Europa, siglo XIX. El sorgo es un cereal africano parecido al maíz que se cultiva en medio mundo para hacer harina y para dar de comer al ganado. Una de sus variedades salió rara: da un grano pequeño y de mal sabor. En cambio produce una panoja enorme, que es el racimo que remata el tallo, llena de ramitas largas, rectas y flexibles. A nadie le servía para comer. Y acabó cultivándose durante un siglo por lo único que hacía bien, que era barrer.",
     paginas: [

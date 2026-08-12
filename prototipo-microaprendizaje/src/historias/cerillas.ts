@@ -81,13 +81,50 @@ export const CERILLAS: Short[] = [
 
   {
     id: "cerilleras-de-londres",
-    titulo: "Las cerilleras perdían la mandíbula",
+    titulo: "El fósforo comía el hueso",
     gancho: "El fósforo blanco les pudría el hueso por dentro. En 1888 pararon la fábrica más grande de Londres.",
     categoria: "Cerillas",
     color: "var(--slate)",
     encargo: "Una nave industrial larga con mesas corridas y montones de palitos de madera.",
+    fotos: [
+      {
+        archivo: "View of the former Bryant ^ May match factory (Bow Quarter Estate) from the River Lea - geograph.org.uk - 4983705.jpg",
+        autor: "La antigua fábrica de cerillas Bryant & May, en Bow, vista desde el río Lea. Fotografía de Robert Lamb.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:View_of_the_former_Bryant_%5E_May_match_factory_(Bow_Quarter_Estate)_from_the_River_Lea_-_geograph.org.uk_-_4983705.jpg",
+        foco: "50% 50%",
+        alt: "Naves de ladrillo de una fábrica victoriana junto a un río, con la chimenea alta al fondo.",
+      },
+      {
+        archivo: "Security Lodge 3 Moreland Cottages Bow Quarter 60 Fairfield Road Bow London E3 2QN.jpg",
+        autor: "Entrada de la antigua fábrica Bryant & May, hoy viviendas. Fotografía de Spudgun67.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Security_Lodge_3_Moreland_Cottages_Bow_Quarter_60_Fairfield_Road_Bow_London_E3_2QN.jpg",
+        foco: "50% 50%",
+        alt: "Portería de ladrillo rojo con reloj a la entrada del recinto de una antigua fábrica.",
+      },
+      {
+        archivo: "View of Canary Wharf and the Bow Quarter Estate (former Bryant ^ May match factory) from the Greenway - geograph.org.uk - 2756182.jpg",
+        autor: "La antigua fábrica de cerillas y, al fondo, las torres de Canary Wharf.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:View_of_Canary_Wharf_and_the_Bow_Quarter_Estate_(former_Bryant_%5E_May_match_factory)_from_the_Greenway_-_geograph.org.uk_-_2756182.jpg",
+        foco: "50% 50%",
+        alt: "Tejados y chimenea de una fábrica antigua del este de Londres con rascacielos lejanos detrás.",
+      },
+      {
+        archivo: "Three Mills Lane view across the water.jpg",
+        autor: "El río Lea a su paso por Three Mills, en el este de Londres. Fotografía de Sallyanne4.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Three_Mills_Lane_view_across_the_water.jpg",
+        foco: "50% 50%",
+        alt: "Canal con barcazas amarradas junto a edificios industriales antiguos de ladrillo.",
+      },
+    ],
     entrada:
-      "Londres, 1888. En una fábrica de cerillas del este de la ciudad trabajan unas mil cuatrocientas mujeres y niñas, muchas de catorce años, mojando palos en pasta de fósforo blanco durante jornadas de catorce horas. Cobran muy poco y encima les descuentan multas por hablar, por ir al baño o por dejar caer cerillas al suelo.",
+      "Londres, 1888. En una fábrica de cerillas del este de la ciudad trabajan unas mil cuatrocientas mujeres y niñas, muchas de catorce años, mojando palos en pasta de fósforo blanco durante jornadas de catorce horas. Cobran muy poco y encima les descuentan multas por hablar, por ir al baño sin permiso o por dejar caer cerillas al suelo. Pero lo peor del trabajo no es el sueldo ni el trato: es lo que aquel fósforo blanco les está haciendo por dentro, y que en la fábrica se conoce desde hace años con un nombre propio.",
     paginas: [
       {
         rotulo: "La mandíbula",

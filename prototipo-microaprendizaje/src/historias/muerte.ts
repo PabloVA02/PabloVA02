@@ -90,8 +90,44 @@ export const MUERTE: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Un tubo de pintura al óleo antiguo, aplastado, con la etiqueta descolorida.",
+    fotos: [
+      {
+        archivo: "Fayum mummy portrait in the Pushkin Museum in Moscow (05).jpg",
+        autor: "Retrato funerario de El Fayum, pintado a la encáustica entre los siglos I y IV. Museo Pushkin, Moscú.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Fayum_mummy_portrait_in_the_Pushkin_Museum_in_Moscow_(05).jpg",
+        foco: "50% 40%",
+        alt: "Retrato antiguo pintado sobre tabla de una persona joven de ojos grandes y oscuros.",
+      },
+      {
+        archivo: "Fayum egyptian funerary portrait 1627 NAMAthens.jpg",
+        autor: "Retrato funerario de El Fayum pintado con cera caliente sobre madera. Museo Arqueológico Nacional de Atenas.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Fayum_egyptian_funerary_portrait_1627_NAMAthens.jpg",
+        foco: "50% 40%",
+        alt: "Retrato pintado sobre tabla de un hombre con barba, con los tonos marrones muy vivos.",
+      },
+      {
+        archivo: "Cadmium red pale oil paint 1.jpg",
+        autor: "Tubo de óleo con la pintura recién apretada sobre la paleta. Fotografía de W.carter.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cadmium_red_pale_oil_paint_1.jpg",
+        foco: "50% 50%",
+        alt: "Tubo de pintura al óleo aplastado junto a un montoncito de pintura sobre una paleta de madera.",
+      },
+      {
+        archivo: "Fayum mummy portrait in the Pushkin Museum in Moscow (13).jpg",
+        autor: "Otro retrato de El Fayum conservado en el Museo Pushkin de Moscú.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Fayum_mummy_portrait_in_the_Pushkin_Museum_in_Moscow_(13).jpg",
+        foco: "50% 40%",
+        alt: "Retrato antiguo sobre tabla, con la madera agrietada y la pintura marrón conservada.",
+      },
+    ],
     entrada:
-      "Europa, siglo XVIII. Miles de momias egipcias llegan a los puertos europeos como mercancía corriente. Se venden en las boticas molidas como medicina —se creía que curaban desde las hemorragias hasta la epilepsia— y en las tiendas de pintores, donde el polvo mezclado con aceite da un marrón cálido y transparente muy apreciado para las sombras.",
+      "Europa, siglo XVIII. Miles de momias egipcias llegan a los puertos europeos como mercancía corriente, en cajones, junto a la lana y las especias. Se venden en dos sitios distintos y por dos motivos distintos: en las boticas, molidas como medicina, porque se creía que curaban desde las hemorragias hasta la epilepsia; y en las tiendas de pintores, donde ese mismo polvo mezclado con aceite da un marrón cálido y transparente, muy apreciado para las sombras y las veladuras. El color llegó a tener nombre propio en los catálogos.",
     paginas: [
       {
         rotulo: "El color",

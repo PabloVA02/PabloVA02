@@ -82,14 +82,49 @@ export const CEMENTERIOS: Short[] = [
 
   {
     id: "cementerio-jardin",
-    titulo: "Mudaron a dos famosos para vender",
+    titulo: "Mudaron a dos famosos",
     gancho: "Estaba lejos y vacío. Trasladaron los restos de unos muertos célebres y se llenó en diez años.",
     categoria: "Cementerios",
     color: "var(--plum)",
     curioso: true,
     encargo: "Una avenida arbolada entre panteones de piedra con esculturas.",
+    fotos: [
+      {
+        archivo: "Père Lachaise Cemetery @ Paris (30636899203).jpg",
+        autor: "Una de las avenidas del cementerio del Père-Lachaise, en París. Fotografía de Guilhem Vellut.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:P%C3%A8re_Lachaise_Cemetery_@_Paris_(30636899203).jpg",
+        foco: "50% 50%",
+        alt: "Camino empedrado entre panteones de piedra y árboles sin hojas, cubierto de hojarasca.",
+      },
+      {
+        archivo: "Père Lachaise Cemetery @ Paris (31408231786).jpg",
+        autor: "Panteones y arbolado del Père-Lachaise en invierno. Fotografía de Guilhem Vellut.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:P%C3%A8re_Lachaise_Cemetery_@_Paris_(31408231786).jpg",
+        foco: "50% 50%",
+        alt: "Hilera de capillas funerarias de piedra bajo árboles altos, con la luz baja del invierno.",
+      },
+      {
+        archivo: "Père Lachaise Cemetery @ Paris (31444718565).jpg",
+        autor: "Monumentos y sepulturas del Père-Lachaise. Fotografía de Guilhem Vellut.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:P%C3%A8re_Lachaise_Cemetery_@_Paris_(31444718565).jpg",
+        foco: "50% 50%",
+        alt: "Tumbas antiguas con esculturas de piedra entre troncos y hojas caídas.",
+      },
+      {
+        archivo: "Crematorium @ Père Lachaise Cemetery @ Paris (31328990591).jpg",
+        autor: "El crematorio del Père-Lachaise, construido a finales del siglo XIX. Fotografía de Guilhem Vellut.",
+        licencia: "CC BY 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Crematorium_@_P%C3%A8re_Lachaise_Cemetery_@_Paris_(31328990591).jpg",
+        foco: "50% 50%",
+        alt: "Edificio de cúpula y arcos de ladrillo claro dentro del recinto del cementerio.",
+      },
+    ],
     entrada:
-      "París, 1804. Se inaugura en una colina de las afueras el primer cementerio ajardinado de Europa, con árboles, avenidas y parcelas en propiedad, pensado como un parque por el que pasear entre monumentos. En el primer año se hacen trece enterramientos. Está demasiado lejos del centro, en un barrio pobre, y nadie quiere ir a parar allí.",
+      "París, 1804. Se inaugura en una colina de las afueras el primer cementerio ajardinado de Europa, con árboles, avenidas trazadas como calles y parcelas que se compran en propiedad, pensado no como un camposanto sino como un parque por el que pasear entre monumentos. La idea es buena y la ejecución también. El problema es que en el primer año entero se hacen trece enterramientos: está demasiado lejos del centro, en un barrio pobre, y nadie de París quiere acabar allí.",
     paginas: [
       {
         rotulo: "El parque",

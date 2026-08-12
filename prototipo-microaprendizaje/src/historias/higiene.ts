@@ -85,14 +85,49 @@ export const HIGIENE: Short[] = [
 
   {
     id: "jabon-historia",
-    titulo: "El jabón no era para lavarse",
+    titulo: "El jabón era para la lana",
     gancho: "Servía para limpiar lana y para curar heridas. Frotarse el cuerpo con él es una costumbre reciente.",
     categoria: "Higiene",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una pastilla de jabón artesanal cortada a cuchillo sobre una tabla húmeda.",
+    fotos: [
+      {
+        archivo: "Pile of Handmade White Soap Bars at a Market.jpg",
+        autor: "Pastillas de jabón artesanal apiladas en un puesto de mercado.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pile_of_Handmade_White_Soap_Bars_at_a_Market.jpg",
+        foco: "50% 70%",
+        alt: "Montón de pastillas redondas de jabón blanco hecho a mano, amontonadas unas sobre otras.",
+      },
+      {
+        archivo: "Savons d'Alep traditionnels.jpg",
+        autor: "Jabones de Alepo tradicionales, hechos con aceite de oliva y de laurel.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Savons_d%27Alep_traditionnels.jpg",
+        foco: "50% 50%",
+        alt: "Bloques cuadrados de jabón de color arena apilados en filas, con el sello marcado encima.",
+      },
+      {
+        archivo: "Spinning and weaving at the Ohio State Fair - DPLA - 0048aafc0571218ae75ab0a9f02a8044.jpg",
+        autor: "Hilando lana recién esquilada en la feria del estado de Ohio, 1981. Fotografía de David E. Lucas.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Spinning_and_weaving_at_the_Ohio_State_Fair_-_DPLA_-_0048aafc0571218ae75ab0a9f02a8044.jpg",
+        foco: "50% 50%",
+        alt: "Varias personas trabajando alrededor de un montón de lana recién esquilada, con ruecas y telares.",
+      },
+      {
+        archivo: "Pile of Handmade White Soap Bars at a Market 02.jpg",
+        autor: "El mismo puesto de jabón artesanal, visto desde otro ángulo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pile_of_Handmade_White_Soap_Bars_at_a_Market_02.jpg",
+        foco: "50% 70%",
+        alt: "Pastillas de jabón blanco apiladas en un puesto, con el mercado desenfocado al fondo.",
+      },
+    ],
     entrada:
-      "Mesopotamia, hace unos cuatro mil quinientos años. En unas tablillas de arcilla aparece la receta más antigua que se conoce de algo parecido al jabón: grasa animal hervida con ceniza de madera. No se usaba para lavarse la piel, sino para desengrasar la lana antes de teñirla y para limpiar heridas. Que sirviera para el cuerpo tardó milenios en ocurrirse.",
+      "Mesopotamia, hace unos cuatro mil quinientos años. En unas tablillas de arcilla aparece la receta más antigua que se conoce de algo parecido al jabón: grasa animal hervida con ceniza de madera, en proporciones anotadas con cuidado. Lo llamativo no es la receta, sino para qué servía. No se usaba para lavarse la piel: servía para desengrasar la lana antes de teñirla y para limpiar heridas. Que aquella pasta pudiera frotarse contra el propio cuerpo, y que eso fuera además una buena idea, tardó milenios en ocurrírsele a nadie.",
     paginas: [
       {
         rotulo: "La química",

@@ -79,13 +79,48 @@ export const PARQUES: Short[] = [
   },
   {
     id: "el-parque-que-desalojo",
-    titulo: "Un barrio entero por un césped",
+    titulo: "Un barrio por un parque",
     gancho: "Mil seiscientas personas vivían en el terreno elegido, y la ciudad las expropió para plantar césped.",
     categoria: "Parques",
     color: "var(--slate)",
     encargo: "Un plano antiguo de ciudad con un rectángulo verde en el centro.",
+    fotos: [
+      {
+        archivo: "The Mall Central Park New York City October 30 2022 - Flickr - Anthony Quintano.jpg",
+        autor: "El paseo del Mall, en Central Park, una mañana de otoño. Fotografía de Anthony Quintano.",
+        licencia: "CC BY 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:The_Mall_Central_Park_New_York_City_October_30_2022_-_Flickr_-_Anthony_Quintano.jpg",
+        foco: "50% 40%",
+        alt: "Paseo ancho de un parque entre olmos altos con las hojas doradas, con farolas encendidas y bancos.",
+      },
+      {
+        archivo: "2024-11-19-Central Park-0669.jpg",
+        autor: "Central Park en noviembre, con los rascacielos asomando por encima de los árboles.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2024-11-19-Central_Park-0669.jpg",
+        foco: "50% 50%",
+        alt: "Césped y árboles de un gran parque urbano, con edificios altos recortados al fondo.",
+      },
+      {
+        archivo: "Central Park New York October 2016 004.jpg",
+        autor: "Un rincón de Central Park en otoño. Fotografía de King of Hearts.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Central_Park_New_York_October_2016_004.jpg",
+        foco: "50% 50%",
+        alt: "Praderas y afloramientos de roca dentro de un parque, con los árboles ya amarillos.",
+      },
+      {
+        archivo: "Prospect Park New York November 2016 001.jpg",
+        autor: "Prospect Park, en Brooklyn, obra de los mismos paisajistas. Fotografía de King of Hearts.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Prospect_Park_New_York_November_2016_001.jpg",
+        foco: "50% 50%",
+        alt: "Camino de parque entre árboles de otoño, con el suelo cubierto de hojas caídas.",
+      },
+    ],
     entrada:
-      "Nueva York, 1857. La ciudad decide reservar un rectángulo enorme en mitad de la isla para construir un parque, en un momento en que aquella zona es todavía periferia rocosa y pantanosa. El terreno no está vacío ni mucho menos. Allí viven unas mil seiscientas personas repartidas en varios asentamientos, con sus casas, sus huertos, tres iglesias y un colegio en funcionamiento.",
+      "Nueva York, 1857. La ciudad decide reservar un rectángulo enorme en mitad de la isla para construir un parque, en un momento en que aquella zona es todavía periferia rocosa y pantanosa, muy lejos de donde vive la gente con dinero. El terreno, sin embargo, no está vacío ni mucho menos. Allí viven unas mil seiscientas personas repartidas en varios asentamientos, con sus casas, sus huertos, tres iglesias y un colegio en funcionamiento. El más grande de ellos lleva treinta años en pie y tiene nombre propio.",
     paginas: [
       {
         rotulo: "Los vecinos",
