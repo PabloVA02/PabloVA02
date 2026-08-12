@@ -79,13 +79,47 @@ export const ARADO: Short[] = [
   },
   {
     id: "el-arado-de-acero",
-    titulo: "La tierra que paraba el arado",
+    titulo: "La tierra que se pegaba",
     gancho: "En las praderas americanas había que parar cada pocos metros a rascar el barro. Un herrero probó con acero pulido.",
     categoria: "Arado",
     color: "var(--ochre)",
     encargo: "Una hoja de arado de acero brillante apoyada en un banco de herrero.",
+    fotos: [
+      {
+        archivo: "Vintage smith's workshop - 0172.jpg",
+        autor: "Herrero forjando una barra al rojo sobre el yunque, en un taller tradicional alemán.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVintage%20smith%27s%20workshop%20-%200172.jpg",
+        foco: "55% 58%",
+        alt: "Manos de un herrero golpeando con el mazo un hierro incandescente apoyado en un yunque, con chispas saltando.",
+      },
+      {
+        archivo: "Vintage smith's workshop - 0158.jpg",
+        autor: "Taller de herrero conservado con sus herramientas, en Alemania.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVintage%20smith%27s%20workshop%20-%200158.jpg",
+        foco: "50% 50%",
+        alt: "Banco de trabajo de una herrería con tenazas, martillos y piezas de hierro colgadas en la pared.",
+      },
+      {
+        archivo: "Surrey County Ploughing Match 2009 (5) - geograph.org.uk - 1513372.jpg",
+        autor: "Concurso de arada en el condado de Surrey, con los surcos recién abiertos.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASurrey%20County%20Ploughing%20Match%202009%20(5)%20-%20geograph.org.uk%20-%201513372.jpg",
+        foco: "50% 50%",
+        alt: "Tractor arrastrando un arado por un campo, dejando detrás surcos paralelos de tierra volteada.",
+      },
+      {
+        archivo: "Dust storm approaching Stratford, Texas.jpg",
+        autor: "Tormenta de polvo acercándose a Stratford, en Texas, en 1935.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADust%20storm%20approaching%20Stratford%2C%20Texas.jpg",
+        foco: "50% 50%",
+        alt: "Muro enorme de polvo avanzando sobre unas casas bajas de una llanura, tapando el cielo entero.",
+      },
+    ],
     entrada:
-      "Praderas de Norteamérica, 1837. Los colonos llegados del este se encuentran con una tierra negra, grasa y fértil como no habían visto nunca, y con un problema que no esperaban: se pega al arado. Los arados de hierro fundido que traen acumulan barro en la hoja hasta convertirla en un bloque, y hay que parar cada pocos metros a rascarla con una paleta de madera.",
+      "Praderas de Norteamérica, 1837. Los colonos llegados del este se encuentran con una tierra negra, grasa y fértil como no habían visto nunca en su vida, y con un problema que no esperaba nadie: esa tierra se pega al arado. Los arados de hierro fundido que traen consigo van acumulando barro en la hoja hasta convertirla en un bloque informe que ya no corta nada, y hay que parar cada pocos metros a rascarla con una paleta de madera. Arar una hectárea puede llevar el día entero, y la mayor parte de ese día se va en limpiar.",
     paginas: [
       {
         rotulo: "La sierra vieja",
