@@ -93,8 +93,44 @@ export const CORREOS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un jinete pequeño al galope sobre una llanura seca y vacía al atardecer.",
+    fotos: [
+      {
+        archivo: "Albert Bierstadt - A Storm in the Rocky Mountains, Mt. Rosalie - Google Art Project.jpg",
+        autor: "Óleo de Albert Bierstadt, 1866: tormenta sobre las Montañas Rocosas, el terreno que había que cruzar. Brooklyn Museum.",
+        licencia: "Public domain",
+        pdPorEdad: 1902,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAlbert%20Bierstadt%20-%20A%20Storm%20in%20the%20Rocky%20Mountains%2C%20Mt.%20Rosalie%20-%20Google%20Art%20Project.jpg",
+        foco: "50% 50%",
+        alt: "Valle enorme de montaña con una tormenta descargando al fondo y un rayo de sol iluminando el lago.",
+      },
+      {
+        archivo: "Pony Express, The Changing of Mounts at a Relay Station, erected at This is the Place Park in Salt Lake Lake City, UT.jpg",
+        autor: "Monumento de Avard Fairbanks en Salt Lake City: el cambio de montura en una estación de relevo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APony%20Express%2C%20The%20Changing%20of%20Mounts%20at%20a%20Relay%20Station%2C%20erected%20at%20This%20is%20the%20Place%20Park%20in%20Salt%20Lake%20Lake%20City%2C%20UT.jpg",
+        foco: "50% 45%",
+        alt: "Escultura de bronce de un jinete pasando la valija a otro caballo mientras un hombre lo sujeta.",
+      },
+      {
+        archivo: "Albert Bierstadt - The Rocky Mountains, Lander's Peak.jpg",
+        autor: "Óleo de Albert Bierstadt, 1863: el pico Lander, en las Rocosas, con un campamento al pie.",
+        licencia: "Public domain",
+        pdPorEdad: 1902,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAlbert%20Bierstadt%20-%20The%20Rocky%20Mountains%2C%20Lander%27s%20Peak.jpg",
+        foco: "50% 50%",
+        alt: "Gran paisaje de montaña con una cascada, un lago y un campamento de tiendas en la pradera del fondo.",
+      },
+      {
+        archivo: "Rural electricity - Flickr - kevin dooley.jpg",
+        autor: "Postes y cables cruzando el campo: la línea que dejó sin trabajo a los jinetes.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARural%20electricity%20-%20Flickr%20-%20kevin%20dooley.jpg",
+        foco: "50% 50%",
+        alt: "Hilera de postes de madera con cables tendidos, recortados contra el cielo de una llanura.",
+      },
+    ],
     entrada:
-      "Estados Unidos, abril de 1860. Una carta de la costa este a California tarda entre tres y cuatro semanas por barco o por diligencia. Una empresa privada monta un servicio de relevos a caballo para hacerlo en diez días: casi doscientas estaciones repartidas cada quince kilómetros, quinientos caballos y ochenta jinetes cabalgando de día y de noche.",
+      "Estados Unidos, abril de 1860. Una carta de la costa este a California tarda entre tres y cuatro semanas, tanto si va por barco rodeando el continente como si va por diligencia atravesándolo. Una empresa privada monta entonces un servicio de relevos a caballo para hacerlo en diez días, y lo monta a lo grande: casi doscientas estaciones repartidas cada quince kilómetros a lo largo de tres mil kilómetros, quinientos caballos comprados y ochenta jinetes cabalgando de día y de noche, con lluvia, con nieve y con lo que haga falta. Funciona exactamente como estaba previsto, y aun así dura dieciocho meses.",
     paginas: [
       {
         rotulo: "El relevo",
