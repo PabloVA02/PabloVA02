@@ -86,8 +86,42 @@ export const PARAGUAS: Short[] = [
     categoria: "Paraguas",
     color: "var(--slate)",
     encargo: "Un detalle de varillas metálicas acanaladas abiertas contra un cielo gris.",
+    fotos: [
+      {
+        archivo: "Les Parapluies de Viborg.jpg",
+        autor: "Paraguas de colores colgados sobre una calle de Viborg, en Dinamarca, un día de lluvia.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALes%20Parapluies%20de%20Viborg.jpg",
+        foco: "50% 45%",
+        alt: "Docenas de paraguas abiertos de colores colgados de cables sobre una calle, entre los tejados.",
+      },
+      {
+        archivo: "Clear Umbrella Rain Liverpool (Unsplash).jpg",
+        autor: "Paraguas transparente bajo la lluvia en Liverpool, con las varillas a la vista.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AClear%20Umbrella%20Rain%20Liverpool%20(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Paraguas de plástico transparente visto desde debajo, con las varillas metálicas y las gotas encima.",
+      },
+      {
+        archivo: "Man with umbrella crossing road in the rain.jpg",
+        autor: "Hombre cruzando la calle con paraguas bajo la lluvia, en Mánchester.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMan%20with%20umbrella%20crossing%20road%20in%20the%20rain.jpg",
+        foco: "50% 50%",
+        alt: "Figura con paraguas negro cruzando una calzada mojada, con los coches y los edificios difuminados.",
+      },
+      {
+        archivo: "Umbrella in Wellington.jpg",
+        autor: "Lluvia y paraguas en una esquina de Wellington, en Nueva Zelanda.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AUmbrella%20in%20Wellington.jpg",
+        foco: "50% 50%",
+        alt: "Paraguas abierto en una acera mojada de ciudad, con el reflejo de las luces en el suelo.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1852. Hasta ese año el esqueleto de un paraguas se hace con barba de ballena o con tiras de madera, materiales caros, pesados y que se parten con el viento. Un fabricante de acero de una ciudad conocida por sus cuchillos patenta una idea que parece menor y no lo es: hacer las varillas de acero, pero no macizas, sino con la sección en forma de U.",
+      "Inglaterra, 1852. Hasta ese año el esqueleto de un paraguas se hace con barba de ballena o con tiras de madera curvada, materiales caros, pesados y que se parten en cuanto sopla algo de viento, de manera que un paraguas es a la vez un objeto de lujo y un objeto que dura poco. Un fabricante de acero de una ciudad conocida por sus cuchillos patenta entonces una idea que parece menor y que no lo es en absoluto: hacer las varillas de acero, pero no macizas, sino con la sección doblada en forma de U.",
     paginas: [
       {
         rotulo: "La forma en U",
