@@ -154,8 +154,42 @@ export const IMANES: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Altavoz abierto en corte con el imán circular, la bobina y el cono de cartón.",
+    fotos: [
+      {
+        archivo: "P21653A loudspeaker - front view.jpg",
+        autor: "Altavoz antiguo visto de frente, con el cono de papel y la suspensión.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AP21653A%20loudspeaker%20-%20front%20view.jpg",
+        foco: "38% 50%",
+        alt: "Altavoz cuadrado con el cono redondo de papel oscuro y el cableado enrollado al lado.",
+      },
+      {
+        archivo: "P21653A loudspeaker - back side view.jpg",
+        autor: "El mismo altavoz por detrás, con el imán redondo a la vista.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AP21653A%20loudspeaker%20-%20back%20side%20view.jpg",
+        foco: "40% 50%",
+        alt: "Parte trasera de un altavoz con el bloque cilíndrico del imán en el centro.",
+      },
+      {
+        archivo: "P21653A loudspeaker side view.jpg",
+        autor: "El altavoz de perfil.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AP21653A%20loudspeaker%20side%20view.jpg",
+        foco: "45% 50%",
+        alt: "Altavoz visto de lado, con el cono por delante y el imán detrás.",
+      },
+      {
+        archivo: "2016 Kolumna głośnikowa Altus 110.jpg",
+        autor: "Columna de altavoces Altus 110, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2016%20Kolumna%20g%C5%82o%C5%9Bnikowa%20Altus%20110.jpg",
+        foco: "50% 45%",
+        alt: "Caja de altavoces de madera con dos conos visibles en el frontal.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1925. Dos ingenieros publican el diseño de un altavoz que sigue siendo, casi cien años después, el que llevan el móvil, el coche y el cine. La idea es tan sencilla que parece imposible que funcione. Un imán quieto, una bobina de cobre metida en su campo y un cono de cartón pegado a la bobina que empuja el aire.",
+      "Estados Unidos, 1925. Dos ingenieros de los laboratorios de General Electric publican el diseño de un altavoz que sigue siendo, casi cien años después y sin cambios de fondo, el que llevan dentro el móvil, el coche, el cine y el equipo de música. La idea es tan sencilla cuando se explica que parece imposible que funcione tan bien. Un imán permanente que no se mueve nunca, una bobina de hilo de cobre metida dentro de su campo magnético y un cono de cartón pegado a esa bobina que empuja el aire.",
     paginas: [
       {
         rotulo: "Empujar el aire",
