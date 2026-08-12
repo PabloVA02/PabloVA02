@@ -84,8 +84,43 @@ export const CEPILLO_DE_DIENTES: Short[] = [
     categoria: "Medicina",
     color: "var(--slate)",
     encargo: "Diente ampliado con la película de placa teñida de rojo por un revelador.",
+    fotos: [
+      {
+        archivo: "Granulated White Sugar with Large Crystals, Bright Side Light.jpg",
+        autor: "Azúcar de mesa fotografiado de cerca con luz lateral, con los cristales grandes bien separados.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AGranulated%20White%20Sugar%20with%20Large%20Crystals%2C%20Bright%20Side%20Light.jpg",
+        foco: "50% 50%",
+        alt: "Montón de cristales de azúcar transparentes vistos muy de cerca, brillando con la luz que les llega de lado.",
+      },
+      {
+        archivo: "Mixed-culture biofilm.jpg",
+        autor: "Biopelícula de varias especies de bacterias vista con microscopio electrónico de barrido.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMixed-culture%20biofilm.jpg",
+        foco: "50% 28%",
+        alt: "Imagen de microscopio: un tapiz de bacterias con forma de bolita y de bastón enredadas unas con otras sobre una superficie.",
+      },
+      {
+        archivo: "Willem Claesz. Heda - Still Life with Oysters, a Rummer, a Lemon and a Silver Bowl - Google Art Project.jpg",
+        autor: "Óleo de Willem Claesz. Heda, 1634: ostras, una copa, un limón pelado y un cuenco de plata. Rijksmuseum, Ámsterdam.",
+        licencia: "Public domain",
+        pdPorEdad: 1680,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWillem%20Claesz.%20Heda%20-%20Still%20Life%20with%20Oysters%2C%20a%20Rummer%2C%20a%20Lemon%20and%20a%20Silver%20Bowl%20-%20Google%20Art%20Project.jpg",
+        foco: "50% 55%",
+        alt: "Bodegón sobre mantel blanco con ostras abiertas, una copa de vino, un limón a medio pelar y un cuenco de plata volcado.",
+      },
+      {
+        archivo: "Fluorite (Crystal Victory Mine, near Cave-in-Rock, Illinois, USA) 1 (34519726136).jpg",
+        autor: "Fluorita de Illinois, el mineral del que sale el flúor, con cristales cúbicos morados y amarillos.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFluorite%20(Crystal%20Victory%20Mine%2C%20near%20Cave-in-Rock%2C%20Illinois%2C%20USA)%201%20(34519726136).jpg",
+        foco: "50% 50%",
+        alt: "Grupo de cristales cúbicos de fluorita, unos morados oscuros y otros de un amarillo miel, encajados unos en otros.",
+      },
+    ],
     entrada:
-      "Todo el mundo, con el mecanismo entendido desde los años sesenta del siglo XX. Mucha gente cree que cepillarse sirve para quitar los restos de comida, y esa idea explica mal por qué hay que hacerlo todos los días. Lo que se quita es una película de bacterias vivas que se forma sobre el diente en horas. La comida no causa caries: la causan los ácidos que esas bacterias fabrican.",
+      "Todo el mundo, con el mecanismo entendido desde los años sesenta del siglo XX. Mucha gente cree que cepillarse sirve para quitar los restos de comida, y esa idea explica bastante mal por qué hay que hacerlo todos los días aunque no se haya comido nada pegajoso. Lo que se quita no son restos: es una película de bacterias vivas que se forma sobre el diente en cuestión de horas y que vuelve sola en cuanto se la deja tranquila. La comida por sí sola no causa caries, y en realidad tampoco el azúcar. La causan los ácidos que esas bacterias fabrican con él.",
     paginas: [
       {
         rotulo: "La película",
