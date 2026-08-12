@@ -85,6 +85,40 @@ export const CANALES: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Unas puertas de esclusa de madera oscura cerradas, con el agua a distinto nivel a cada lado.",
+    fotos: [
+      {
+        archivo: "Canal de Castilla, esclusa 42.jpg",
+        autor: "Esclusa 42 del Canal de Castilla, en Valladolid, con el agua colándose por las puertas del fondo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACanal%20de%20Castilla%2C%20esclusa%2042.jpg",
+        foco: "50% 58%",
+        alt: "Cámara alargada de una esclusa vista a lo largo, con muros de sillería y las puertas de madera al fondo.",
+      },
+      {
+        archivo: "Canal de Castilla, esclusa 41 01.jpg",
+        autor: "Esclusa 41 del mismo canal, unos metros más arriba.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACanal%20de%20Castilla%2C%20esclusa%2041%2001.jpg",
+        foco: "50% 55%",
+        alt: "Esclusa de piedra con sus pasarelas metálicas y el agua verde dentro del vaso.",
+      },
+      {
+        archivo: "Marquette canal de roubaix ecluse.jpg",
+        autor: "Esclusa de Marquette, en el canal de Roubaix, con las puertas cerradas en pico.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMarquette%20canal%20de%20roubaix%20ecluse.jpg",
+        foco: "50% 55%",
+        alt: "Par de puertas de esclusa cerradas formando un ángulo hacia el agua alta, con las pasarelas encima.",
+      },
+      {
+        archivo: "Royal Canal Lock 17 (Fern's Lock).jpg",
+        autor: "Esclusa 17 del Royal Canal irlandés, con el desnivel bien visible.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARoyal%20Canal%20Lock%2017%20(Fern's%20Lock).jpg",
+        foco: "50% 55%",
+        alt: "Esclusa de canal entre praderas, con el agua a dos alturas distintas a cada lado de las puertas.",
+      },
+    ],
     entrada:
       "Europa, desde el siglo XIV. Un canal necesita ir llano, porque el agua no sube cuestas, y el terreno casi nunca lo es. La solución que se impuso es una caja de piedra con una puerta en cada extremo, colocada donde el canal cambia de nivel. Con ella un barco sube o baja varios metros sin necesidad de ninguna máquina, solo abriendo y cerrando compuertas.",
     paginas: [
