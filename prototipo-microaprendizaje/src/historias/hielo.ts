@@ -129,7 +129,7 @@ export const HIELO: Short[] = [
       },
     ],
     entrada:
-      "Cuando nieva sobre la Antártida, entre los copos queda aire atrapado. La nieve siguiente aprieta a la anterior, y capa sobre capa, milenio sobre milenio, ese aire acaba encerrado en burbujas dentro del hielo profundo. Perforar el casquete y sacar un cilindro de ese hielo, metro a metro, es traer a la superficie muestras de atmósfera antigua tal cual eran, sin reconstrucciones, sin modelos y sin cálculos indirectos de ningún tipo: es el aire de verdad, el que respiraban los mamuts, guardado en una burbuja que nadie ha abierto todavía.",
+      "Cuando nieva sobre la Antártida, entre copo y copo queda aire atrapado, aire de ese mismo día. La nieve siguiente aprieta a la anterior, y capa sobre capa, milenio sobre milenio, ese aire acaba encerrado en burbujas dentro del hielo profundo. Perforar el casquete y sacar un cilindro de ese hielo, metro a metro, es traer a la superficie muestras de atmósfera antigua tal cual eran, sin reconstrucciones, sin modelos y sin cálculos indirectos de ningún tipo: es el aire de verdad, el que respiraban los mamuts, guardado en una burbuja que nadie ha abierto todavía.",
     paginas: [
       {
         rotulo: "El sondeo",

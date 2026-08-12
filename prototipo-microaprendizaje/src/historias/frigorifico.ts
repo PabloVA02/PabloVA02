@@ -122,7 +122,7 @@ export const FRIGORIFICO: Short[] = [
       },
     ],
     entrada:
-      "Antártida, 1985. Tres investigadores británicos publican unas mediciones que llevaban años haciendo desde una base en el hielo: cada primavera austral, la capa de ozono sobre el continente pierde más de la mitad de su espesor. Los satélites que sobrevolaban la zona tenían exactamente el mismo dato desde hacía tiempo, guardado en sus registros, y lo habían descartado automáticamente como error del aparato porque el programa que filtraba las lecturas estaba escrito para ignorar cualquier caída tan grande. Era demasiado grande para ser cierta, y por eso nadie la vio.",
+      "Antártida, mayo de 1985. Tres investigadores británicos publican en una revista unas mediciones que llevaban años haciendo desde una base en el hielo: cada primavera austral, la capa de ozono sobre el continente pierde más de la mitad de su espesor. Los satélites que sobrevolaban la zona tenían exactamente el mismo dato desde hacía tiempo, guardado en sus registros, y lo habían descartado automáticamente como error del aparato porque el programa que filtraba las lecturas estaba escrito para ignorar cualquier caída tan grande. Era demasiado grande para ser cierta, y por eso nadie la vio.",
     paginas: [
       {
         rotulo: "El filtro",
