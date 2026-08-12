@@ -153,8 +153,42 @@ export const APARCAMIENTOS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Plaza de garaje numerada y vacía entre dos coches, con las líneas muy marcadas.",
+    fotos: [
+      {
+        archivo: "Interior of Rupert Street parking garage - DSC 8057.jpg",
+        autor: "Interior del aparcamiento de Rupert Street, Bristol, 2026.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AInterior%20of%20Rupert%20Street%20parking%20garage%20-%20DSC%208057.jpg",
+        foco: "50% 55%",
+        alt: "Planta de un aparcamiento de hormigón con barandillas amarillas y coches aparcados.",
+      },
+      {
+        archivo: "Interior of Rupert Street parking garage - DSC 8051.jpg",
+        autor: "Otra planta del mismo aparcamiento de Bristol, 2026.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AInterior%20of%20Rupert%20Street%20parking%20garage%20-%20DSC%208051.jpg",
+        foco: "50% 50%",
+        alt: "Hilera de plazas marcadas en el suelo entre pilares de hormigón.",
+      },
+      {
+        archivo: "Interior of Rupert Street parking garage - PXL 20260518 152153849.jpg",
+        autor: "Rampa interior del aparcamiento de Rupert Street, 2026.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AInterior%20of%20Rupert%20Street%20parking%20garage%20-%20PXL%2020260518%20152153849.jpg",
+        foco: "50% 50%",
+        alt: "Rampa curva de un aparcamiento de varias plantas vista desde dentro.",
+      },
+      {
+        archivo: "Parking garage at level K2 of Redi in August 2024.jpg",
+        autor: "Aparcamiento subterráneo de Redi, Helsinki, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AParking%20garage%20at%20level%20K2%20of%20Redi%20in%20August%202024.jpg",
+        foco: "50% 50%",
+        alt: "Plazas vacías y numeradas en un aparcamiento subterráneo bien iluminado.",
+      },
+    ],
     entrada:
-      "Hong Kong y Londres, con los récords batidos entre 2017 y 2024. En las ciudades más densas del mundo se han vendido plazas de garaje individuales por cifras de más de medio millón de euros. No es una anécdota de ricos aburridos, sino la consecuencia lógica de una regla urbanística. Cuando una ciudad limita cuánto se puede construir, el suelo es lo único que no se fabrica.",
+      "Hong Kong y Londres, con los récords batidos una y otra vez entre 2017 y 2024. En las ciudades más densas del mundo se han vendido plazas de garaje individuales, una sola plaza numerada, por cifras que superan el medio millón de euros. No es una anécdota de ricos aburridos ni un capricho de coleccionista, sino la consecuencia perfectamente lógica de una regla urbanística que casi nadie mira. Cuando una ciudad limita cuánto se puede construir en cada parcela, el suelo se convierte en lo único que no se fabrica, y todo lo que ocupa suelo empieza a pesar.",
     paginas: [
       {
         rotulo: "El suelo escaso",
