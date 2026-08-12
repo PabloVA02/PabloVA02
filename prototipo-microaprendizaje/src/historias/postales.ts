@@ -87,8 +87,42 @@ export const POSTALES: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "El reverso de una postal antigua con una raya vertical impresa en el centro.",
+    fotos: [
+      {
+        archivo: "Postkarte (1900 - 1918), Kärnten, Österreich 01.jpg",
+        autor: "Reverso de una postal austriaca de principios del siglo XX, con la raya en el centro, el sello y el mensaje a un lado.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APostkarte%20(1900%20-%201918)%2C%20K%C3%A4rnten%2C%20%C3%96sterreich%2001.jpg",
+        foco: "50% 50%",
+        alt: "Cartulina amarillenta escrita a mano, partida por una línea roja vertical, con un sello morado en la esquina.",
+      },
+      {
+        archivo: "Rolf & Co 071614 Gruss aus Teistungen, Adressseite, um 1900.jpg",
+        autor: "Cara de la dirección de una postal alemana de hacia 1900, todavía sin raya: solo cabe el destinatario.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARolf%20%26%20Co%20071614%20Gruss%20aus%20Teistungen%2C%20Adressseite%2C%20um%201900.jpg",
+        foco: "50% 50%",
+        alt: "Reverso de postal antigua con el espacio del sello, unas líneas impresas y la dirección escrita a mano.",
+      },
+      {
+        archivo: "Pierre Dieulefils postcard 1662 back side with postmark.jpg",
+        autor: "Reverso de una postal de Pierre Dieulefils con matasellos, ya con el reverso dividido.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APierre%20Dieulefils%20postcard%201662%20back%20side%20with%20postmark.jpg",
+        foco: "50% 50%",
+        alt: "Dorso de una postal antigua con sellos, matasellos circulares y escritura a pluma.",
+      },
+      {
+        archivo: "Paris 75004 Allée Célestin-Hennion 20170527 kiosque de journaux.jpg",
+        autor: "Quiosco de prensa en París, con las postales colgadas en el expositor de la calle.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AParis%2075004%20All%C3%A9e%20C%C3%A9lestin-Hennion%2020170527%20kiosque%20de%20journaux.jpg",
+        foco: "50% 50%",
+        alt: "Quiosco verde de prensa en una calle, con revistas y tarjetas expuestas por fuera.",
+      },
+    ],
     entrada:
-      "Europa, hacia 1900. La postal lleva treinta años circulando como correo barato, y las imprentas ya saben pasar una fotografía a la cartulina. Y con ella aparece un problema de sitio que no tiene salida. Una cara la ocupa entera la dirección, porque el correo lo exige, y la otra se la come la fotografía. Al que escribe no le queda ni un hueco para el mensaje.",
+      "Europa, hacia 1900. La postal lleva ya treinta años circulando como correo barato y las imprentas han aprendido a pasar una fotografía a la cartulina con buena calidad y a buen precio. Justo entonces aparece un problema de sitio que no tiene salida por ninguna parte. Una cara la ocupa entera la dirección, porque la oficina de correos lo exige y no admite nada más escrito ahí, y la otra se la come la fotografía, que es lo que la gente compra. Al que escribe no le queda ni un hueco para poner cuatro palabras.",
     paginas: [
       {
         rotulo: "Los márgenes",
