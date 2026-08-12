@@ -84,6 +84,40 @@ export const CONTRASENAS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un papel adhesivo amarillo pegado en el borde de una pantalla.",
+    fotos: [
+      {
+        archivo: "Adler Typewriter Keyboard Close-up.jpg",
+        autor: "Teclado de una máquina de escribir Adler, con los símbolos repartidos por las teclas de números.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAdler%20Typewriter%20Keyboard%20Close-up.jpg",
+        foco: "50% 58%",
+        alt: "Teclado negro de máquina de escribir visto desde arriba, con las teclas redondas y una tecla roja a la derecha.",
+      },
+      {
+        archivo: "University National Bank building - door to safe deposit room 02.jpg",
+        autor: "Puerta acorazada de la cámara de un banco de Seattle, con los pestillos radiales a la vista.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AUniversity%20National%20Bank%20building%20-%20door%20to%20safe%20deposit%20room%2002.jpg",
+        foco: "45% 50%",
+        alt: "Puerta circular de acero de una cámara acorazada, abierta, con anillos de cerrojos alrededor.",
+      },
+      {
+        archivo: "Padlock in Solna.jpg",
+        autor: "Candado cerrado sobre una cadena, en Solna, Suecia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APadlock%20in%20Solna.jpg",
+        foco: "50% 50%",
+        alt: "Candado metálico colgado de una cadena, con el fondo desenfocado.",
+      },
+      {
+        archivo: "Console, IBM System 360 Model 65.jpg",
+        autor: "Consola del IBM System/360 Modelo 65, de 1965, con sus filas de luces e interruptores.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AConsole%2C%20IBM%20System%20360%20Model%2065.jpg",
+        foco: "50% 50%",
+        alt: "Panel de control de un ordenador grande antiguo, cubierto de pilotos de colores y palancas pequeñas.",
+      },
+    ],
     entrada:
       "Estados Unidos, 2003. Un organismo oficial de normalización publica una guía sobre contraseñas que se convierte en la referencia mundial. Recomienda mezclar mayúsculas, números y símbolos, y cambiar la clave cada pocos meses. Durante quince años, casi todas las empresas del mundo copiaron esas reglas tal cual, sin discutirlas, y las metieron en sus formularios y en sus manuales de seguridad. En 2017, el propio autor de aquel documento declaró públicamente que se había equivocado, que las recomendaciones no tenían detrás casi ningún dato y que había complicado la vida a millones de personas sin hacerlas más seguras.",
     paginas: [
