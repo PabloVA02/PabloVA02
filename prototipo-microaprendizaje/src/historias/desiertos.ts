@@ -158,8 +158,42 @@ export const DESIERTOS: Short[] = [
     categoria: "Desiertos",
     color: "var(--clay)",
     encargo: "Una pared de polvo oscuro avanzando sobre una granja de madera en la llanura.",
+    fotos: [
+      {
+        archivo: "Dust storm approaching Stratford, Texas.jpg",
+        autor: "Tormenta de polvo acercándose a Stratford, Texas, abril de 1935.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADust%20storm%20approaching%20Stratford%2C%20Texas.jpg",
+        foco: "50% 50%",
+        alt: "Pared de polvo enorme avanzando sobre unas casas bajas de madera en la llanura.",
+      },
+      {
+        archivo: "Dust Storm in Rolla, Kansas 05-06-35 (4546091662).jpg",
+        autor: "Tormenta de polvo en Rolla, Kansas, mayo de 1935.",
+        licencia: "No restrictions",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADust%20Storm%20in%20Rolla%2C%20Kansas%2005-06-35%20(4546091662).jpg",
+        foco: "50% 50%",
+        alt: "Nube de tierra oscura cubriendo el cielo sobre un pueblo de la llanura.",
+      },
+      {
+        archivo: "Dust Storms, \"Dust Storm Near Beaver, Oklahoma\" - NARA - 195354.tif",
+        autor: "Tormenta de polvo cerca de Beaver, Oklahoma, julio de 1935.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADust%20Storms%2C%20%22Dust%20Storm%20Near%20Beaver%2C%20Oklahoma%22%20-%20NARA%20-%20195354.tif",
+        foco: "50% 50%",
+        alt: "Frente de polvo cruzando el horizonte plano de Oklahoma.",
+      },
+      {
+        archivo: "Dust Storm, \"Dust Storm Approaching Spearman, Texas.\" - NARA - 196033.tif",
+        autor: "Tormenta de polvo acercándose a Spearman, Texas, abril de 1935.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADust%20Storm%2C%20%22Dust%20Storm%20Approaching%20Spearman%2C%20Texas.%22%20-%20NARA%20-%20196033.tif",
+        foco: "50% 50%",
+        alt: "Muro de tierra en movimiento visto desde un pueblo pequeño de Texas.",
+      },
+    ],
     entrada:
-      "Llanuras centrales de Estados Unidos, 1935. Una nube de tierra de dos kilómetros de alto avanza sobre los campos y deja las casas a oscuras a mediodía. La gente se mete debajo de las camas con trapos mojados en la cara. Aquel año hay decenas de tormentas así, y la peor cubre de polvo hasta la costa este.",
+      "Llanuras centrales de Estados Unidos, 1935. Una nube de tierra de dos kilómetros de alto y varios de ancho avanza rodando sobre los campos y deja las casas completamente a oscuras a mediodía, como si hubiera caído la noche de golpe. La gente se mete debajo de las camas con trapos mojados en la cara para poder respirar mientras pasa. Aquel año hay decenas de tormentas parecidas, una detrás de otra, y la peor de todas llega a cubrir de polvo la costa este del país, a dos mil kilómetros de allí.",
     paginas: [
       {
         rotulo: "El arado",
