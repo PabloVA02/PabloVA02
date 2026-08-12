@@ -92,8 +92,42 @@ export const DEPORTE: Short[] = [
     categoria: "Deporte",
     color: "var(--slate)",
     encargo: "Un listón de salto de altura contra el cielo, sin atleta en el encuadre.",
+    fotos: [
+      {
+        archivo: "The 1952 Summer Olympics in Helsinki High jump (JOKAVIU4N-10).tif",
+        autor: "Jueces midiendo la altura del listón en los Juegos de Helsinki de 1952, con el foso de arena delante.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%201952%20Summer%20Olympics%20in%20Helsinki%20High%20jump%20(JOKAVIU4N-10).tif",
+        foco: "50% 50%",
+        alt: "Tres hombres trajeados ajustando y midiendo el listón de salto de altura en un estadio lleno.",
+      },
+      {
+        archivo: "ASC Leiden - Rietveld Collection - Nigeria 1970 - 1973 - 01 - 087 Pan African Games Lagos January 7-18, 1973. A high jumper hits the bar in the stadium - Lagos.jpg",
+        autor: "Salto de altura en los Juegos Panafricanos de Lagos, enero de 1973.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AASC%20Leiden%20-%20Rietveld%20Collection%20-%20Nigeria%201970%20-%201973%20-%2001%20-%20087%20Pan%20African%20Games%20Lagos%20January%207-18%2C%201973.%20A%20high%20jumper%20hits%20the%20bar%20in%20the%20stadium%20-%20Lagos.jpg",
+        foco: "50% 50%",
+        alt: "Atleta cruzando el listón en un estadio, con el público en la grada al fondo.",
+      },
+      {
+        archivo: "20150726 1251 DM Leichtathletik Frauen Hochsprung 0290.jpg",
+        autor: "Salto de espaldas en el campeonato alemán de atletismo de 2015: hoy nadie salta de otra manera.",
+        licencia: "CC BY-SA 3.0 at",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A20150726%201251%20DM%20Leichtathletik%20Frauen%20Hochsprung%200290.jpg",
+        foco: "50% 45%",
+        alt: "Saltadora arqueada boca arriba justo por encima del listón, con la colchoneta debajo.",
+      },
+      {
+        archivo: "2023 Afriican Games High jump 6705 17.jpg",
+        autor: "Salto de altura en los Juegos Africanos de Accra, 2023.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2023%20Afriican%20Games%20High%20jump%206705%2017.jpg",
+        foco: "50% 45%",
+        alt: "Atleta pasando de espaldas por encima del listón sobre una colchoneta gruesa, en una pista al aire libre.",
+      },
+    ],
     entrada:
-      "En los Juegos de México de 1968, un estadounidense de veintiún años llamado Dick Fosbury se acercó al listón, giró en el último momento y lo cruzó de espaldas, cayendo de nuca. La grada se rió. Ganó el oro con 2,24 metros y récord olímpico, y de paso dejó obsoleto todo lo que se enseñaba en el salto de altura.",
+      "En los Juegos de México de 1968, un estadounidense de veintiún años llamado Dick Fosbury se acercó al listón con una carrera curva que ya llamaba la atención, giró en el último momento y lo cruzó de espaldas, cayendo de nuca sobre la colchoneta. La grada se rió, y los comentaristas también. Ganó el oro con 2,24 metros y récord olímpico, y de paso dejó obsoleto en una tarde todo lo que se enseñaba en el salto de altura desde hacía medio siglo. Lo raro no es que se le ocurriera: es que hasta entonces a nadie le hubiera salido a cuenta intentarlo.",
     paginas: [
       {
         rotulo: "La colchoneta",
