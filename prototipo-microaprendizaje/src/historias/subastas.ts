@@ -152,8 +152,42 @@ export const SUBASTAS: Short[] = [
     categoria: "Subastas",
     color: "var(--slate)",
     encargo: "Un martillo de subastas apoyado sobre una mesa vacía y pulida.",
+    fotos: [
+      {
+        archivo: "Oil Rig Graveyard Near Inverness.jpg",
+        autor: "Plataformas petrolíferas fondeadas en el fiordo de Cromarty, Escocia, 2018.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AOil%20Rig%20Graveyard%20Near%20Inverness.jpg",
+        foco: "50% 60%",
+        alt: "Siluetas de varias plataformas petrolíferas recortadas a contraluz sobre el agua.",
+      },
+      {
+        archivo: "Oil Rig - panoramio (3).jpg",
+        autor: "Plataforma petrolífera en alta mar, 2014.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AOil%20Rig%20-%20panoramio%20(3).jpg",
+        foco: "50% 50%",
+        alt: "Plataforma de perforación en mitad del mar con la torre levantada.",
+      },
+      {
+        archivo: "MV ART CARLSON - OFFSHORE - panoramio.jpg",
+        autor: "Buque de apoyo junto a una plataforma en alta mar, 2012.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMV%20ART%20CARLSON%20-%20OFFSHORE%20-%20panoramio.jpg",
+        foco: "50% 50%",
+        alt: "Barco de servicio navegando cerca de una instalación petrolífera marina.",
+      },
+      {
+        archivo: "Minke Field 2007.jpg",
+        autor: "Instalación petrolífera del campo Minke, mar del Norte, 2007.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMinke%20Field%202007.jpg",
+        foco: "50% 50%",
+        alt: "Plataforma marina con sus grúas y su torre bajo un cielo gris del mar del Norte.",
+      },
+    ],
     entrada:
-      "Golfo de México, 1971. Tres ingenieros de una petrolera publican un artículo sobre algo que llevaban años viendo en las subastas de derechos de perforación. Las empresas que ganaban la puja sacaban después, una y otra vez, menos beneficio del previsto. No era mala suerte ni mala gestión, y la explicación resultó ser puramente estadística. Le pusieron un nombre que ha hecho fortuna: la maldición del ganador.",
+      "Golfo de México, 1971. Tres ingenieros de una compañía petrolera publican un artículo corto sobre algo que llevaban años viendo repetirse delante de sus narices en las subastas de derechos de perforación. Las empresas que ganaban la puja, las que se llevaban el lote, sacaban después, una y otra vez y sin excepción clara, bastante menos beneficio del previsto. No era mala suerte ni mala gestión ni malos geólogos, y la explicación resultó ser puramente estadística. Le pusieron un nombre que ha hecho fortuna desde entonces: la maldición del ganador.",
     paginas: [
       {
         rotulo: "El promedio",
