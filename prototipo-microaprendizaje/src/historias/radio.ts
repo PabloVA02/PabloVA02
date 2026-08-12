@@ -127,7 +127,7 @@ export const RADIO: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, la noche de Halloween de 1938. Una emisora radia una adaptación de una novela de invasión extraterrestre montada como si fuera un informativo de verdad, con boletines urgentes que van interrumpiendo un programa de música de baile. Al día siguiente los periódicos abren a toda página con miles de personas huyendo de sus casas presas del pánico, atascos en las carreteras y gente disparando a los depósitos de agua. La historia se sigue contando así casi noventa años después, y casi nada de ella se sostiene.",
+      "Estados Unidos, la noche de Halloween de 1938. Una emisora radia una adaptación de una novela de invasión extraterrestre montada como si fuera un informativo de verdad, con boletines urgentes que van interrumpiendo un programa de música de baile. Al día siguiente los periódicos abren a toda página con miles de personas huyendo de sus casas presas del pánico, atascos en las carreteras y gente disparando a los depósitos de agua. La historia se sigue contando así casi noventa años después, en clase y en los documentales, y casi nada de ella se sostiene cuando se va a mirar.",
     paginas: [
       {
         rotulo: "La emisión",

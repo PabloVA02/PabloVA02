@@ -59,7 +59,7 @@ export const VIDRIO: Short[] = [
       },
     ],
     entrada:
-      "Venecia, 1291. La ciudad ordena trasladar todos los hornos de vidrio a una isla de la laguna, a kilómetro y medio escaso del centro. La excusa oficial es el riesgo de incendio, que es razonable de verdad en una ciudad apretada y llena de casas de madera, y nadie discute la medida. La consecuencia real, en cambio, va mucho más allá: los mejores vidrieros de Europa quedan concentrados en un sitio pequeño, rodeado de agua y fácil de vigilar, del que a partir de entonces no pueden salir.",
+      "Venecia, 1291. La ciudad ordena trasladar todos los hornos de vidrio a una isla de la laguna, a kilómetro y medio escaso del centro. La excusa oficial es el riesgo de incendio, que es razonable de verdad en una ciudad apretada y llena de casas de madera, y nadie discute la medida. La consecuencia real, en cambio, va mucho más allá: los mejores vidrieros de Europa quedan concentrados en un sitio pequeño, rodeado de agua y fácil de vigilar, del que a partir de entonces no pueden salir, ni con permiso ni sin él, durante el resto de su vida.",
     paginas: [
       {
         rotulo: "El privilegio",

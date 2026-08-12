@@ -129,7 +129,7 @@ export const RELOJES: Short[] = [
       },
     ],
     entrada:
-      "Europa, comienzos del siglo XX. Un hombre que quiere saber la hora se lleva la mano al chaleco, tira de una cadenita y saca un reloj del bolsillo. Los relojes atados a la muñeca ya existen, pero no son relojes en el sentido serio de la palabra: son pulseras con esfera, joyas pequeñas y delicadas que se regalan a las señoras. A un caballero de la época le parecería tan ridículo ponerse uno como ponerse unos pendientes, y así lo escriben los anuncios de entonces sin ninguna ironía.",
+      "Europa, comienzos del siglo XX. Un hombre que quiere saber la hora se lleva la mano al chaleco, tira de una cadenita y saca un reloj del bolsillo. Los relojes atados a la muñeca ya existen, pero no son relojes en el sentido serio de la palabra: son pulseras con esfera, joyas pequeñas y delicadas que se regalan a las señoras. A un caballero de la época le parecería tan ridículo ponerse uno como ponerse unos pendientes, y así lo escriben los catálogos y los anuncios de entonces, sin ninguna ironía y sin que nadie se lo discuta.",
     paginas: [
       {
         rotulo: "El bolsillo",

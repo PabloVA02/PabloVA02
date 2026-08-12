@@ -122,7 +122,7 @@ export const ASTILLEROS: Short[] = [
       },
     ],
     entrada:
-      "Astilleros de todo el mundo, con un método que se generalizó durante la Segunda Guerra Mundial y que hoy es el único que se usa. Hasta 1940, un barco se levantaba pieza a pieza sobre la grada, empezando por la quilla y subiendo hacia arriba, con todos los oficios trabajando a la vez en el mismo sitio, estorbándose unos a otros y esperando su turno. La guerra obligó a botar miles de cargueros a toda prisa, y para conseguirlo hubo que tirar el método entero y empezar de cero.",
+      "Astilleros de todo el mundo, con un método que se generalizó durante la Segunda Guerra Mundial y que hoy es el único que se usa. Hasta 1940, un barco se levantaba pieza a pieza sobre la grada, empezando por la quilla y subiendo hacia arriba, con todos los oficios trabajando a la vez en el mismo sitio, estorbándose unos a otros y esperando su turno. La guerra obligó a botar miles de cargueros a toda prisa, muchos más de los que aquel método permitía, y para conseguirlo hubo que tirar la manera de trabajar de siglos y empezar de cero.",
     paginas: [
       {
         rotulo: "Bloques",

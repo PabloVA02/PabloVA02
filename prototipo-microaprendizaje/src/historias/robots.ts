@@ -57,7 +57,7 @@ export const ROBOTS: Short[] = [
       },
     ],
     entrada:
-      "Praga, 1920. Un dramaturgo checo estrena una obra sobre una fábrica situada en una isla que produce trabajadores artificiales de carne sintética, fabricados en serie para hacer las tareas que los humanos no quieren hacer. La obra funciona: se traduce a treinta idiomas en pocos años y se representa desde Nueva York hasta Tokio. Y con ella viaja una palabra nueva, que no existía antes en ninguna lengua del mundo y que hoy usa todo el planeta sin saber de dónde salió ni lo que significaba en realidad.",
+      "Praga, 1920. Un dramaturgo checo estrena una obra sobre una fábrica situada en una isla que produce trabajadores artificiales de carne sintética, fabricados en serie para hacer las tareas que los humanos no quieren hacer. La obra funciona: se traduce a treinta idiomas en pocos años y se representa desde Nueva York hasta Tokio. Y con ella viaja una palabra nueva, que no existía antes en ninguna lengua del mundo y que hoy usa todo el planeta sin tener ni idea de dónde salió, quién la inventó ni lo que significaba en realidad en su idioma original.",
     paginas: [
       {
         rotulo: "El nombre",

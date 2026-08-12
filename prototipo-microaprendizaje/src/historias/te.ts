@@ -123,7 +123,7 @@ export const TE: Short[] = [
       },
     ],
     entrada:
-      "Boston, diciembre de 1773. Un grupo de colonos disfrazados sube de noche a tres barcos amarrados en el puerto y tira al agua trescientas cuarenta y dos cajas de té, una por una y sin robar nada. El acto se cuenta desde entonces como una protesta contra unos impuestos abusivos, y así ha llegado a los libros de texto de medio mundo. La ley que lo desencadenó, sin embargo, hacía justo lo contrario de lo que todos suponen: abarataba el té en las colonias en lugar de encarecerlo.",
+      "Boston, diciembre de 1773. Un grupo de colonos disfrazados sube de noche a tres barcos amarrados en el puerto y tira al agua trescientas cuarenta y dos cajas de té, una por una y sin robar nada. El acto se cuenta desde entonces como una protesta contra unos impuestos abusivos, y así ha llegado a los libros de texto de medio mundo. La ley que lo desencadenó, sin embargo, hacía justo lo contrario de lo que todos suponen: abarataba el té en las colonias en lugar de encarecerlo, y bastante. Ese detalle, que parece un matiz, es toda la historia.",
     paginas: [
       {
         rotulo: "La ley",

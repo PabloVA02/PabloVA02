@@ -60,7 +60,7 @@ export const TECNOLOGIA: Short[] = [
       },
     ],
     entrada:
-      "Todo el mundo ha oído alguna vez la explicación, y suele contarse con cara de estar revelando un secreto: las primeras máquinas de escribir se atascaban si ibas demasiado rápido, así que repartieron las letras a propósito para obligarte a teclear despacio. Es una historia perfecta, porque tiene villano, tiene ironía y explica de golpe una rareza que todos tenemos delante. El problema aparece en cuanto se buscan pruebas de que alguien lo hiciera con esa intención: no hay ni un documento de la época que lo diga.",
+      "Todo el mundo ha oído alguna vez la explicación, y suele contarse con cara de estar revelando un secreto: las primeras máquinas de escribir se atascaban si ibas demasiado rápido, así que repartieron las letras a propósito para obligarte a teclear despacio. Es una historia perfecta, porque tiene villano, tiene ironía y explica de golpe una rareza que todos tenemos delante. El problema aparece en cuanto se buscan pruebas de que alguien lo hiciera con esa intención: no hay ni un solo documento de la época que diga tal cosa, ni una carta, ni una patente, ni un manual.",
     paginas: [
       {
         rotulo: "El origen real",
