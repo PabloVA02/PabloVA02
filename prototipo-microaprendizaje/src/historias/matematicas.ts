@@ -93,6 +93,40 @@ export const MATEMATICAS: Short[] = [
     categoria: "Matemáticas",
     color: "var(--ochre)",
     encargo: "Un manuscrito antiguo con numerales indios escritos a tinta.",
+    fotos: [
+      {
+        archivo: "0121521 Sasbahu (Sahasrabahu) Temples, Gwalior Fort, Madhya Pradesh.jpg",
+        autor: "Templos Sasbahu, del siglo XI, en el fuerte de Gwalior, donde está grabada la inscripción del cero más antigua que se conserva fechada.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A0121521%20Sasbahu%20(Sahasrabahu)%20Temples%2C%20Gwalior%20Fort%2C%20Madhya%20Pradesh.jpg",
+        foco: "55% 50%",
+        alt: "Templo de piedra labrada de varios cuerpos, con escalinata y jardines delante, bajo un cielo azul.",
+      },
+      {
+        archivo: "Red Bead Abacus Display.jpg",
+        autor: "Ábaco de cuentas, la herramienta con la que se contaba antes de que el cero fuera un número.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARed%20Bead%20Abacus%20Display.jpg",
+        foco: "50% 50%",
+        alt: "Ábaco de madera con varillas y cuentas rojas alineadas en filas.",
+      },
+      {
+        archivo: "0121521 Sasbahu (Sahasrabahu) Temples, Gwalior Fort, Madhya Pradesh 011.jpg",
+        autor: "Detalle del labrado de los templos Sasbahu, en el mismo recinto de Gwalior.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A0121521%20Sasbahu%20(Sahasrabahu)%20Temples%2C%20Gwalior%20Fort%2C%20Madhya%20Pradesh%20011.jpg",
+        foco: "50% 50%",
+        alt: "Muro de templo cubierto de relieves y columnillas talladas en piedra arenisca.",
+      },
+      {
+        archivo: "Gwalior Fort -Gwalior -Madhya Pradesh -DSC 0001.jpg",
+        autor: "El fuerte de Gwalior, en Madhya Pradesh, encaramado en su meseta.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AGwalior%20Fort%20-Gwalior%20-Madhya%20Pradesh%20-DSC%200001.jpg",
+        foco: "50% 50%",
+        alt: "Murallas y torreones de un fuerte indio recortados en lo alto de un cerro.",
+      },
+    ],
     entrada:
       "Hay dos ceros distintos y confundirlos estropea toda la historia. Uno es un hueco: la marca que distingue 105 de 15, y que varias civilizaciones inventaron pronto porque sin ella las cuentas no cuadran. El otro es un número de pleno derecho, con el que se puede sumar, restar y operar. Ese segundo tardó muchísimo más y tuvo una resistencia feroz.",
     paginas: [
