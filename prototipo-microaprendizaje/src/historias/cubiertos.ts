@@ -184,7 +184,7 @@ export const CUBIERTOS: Short[] = [
       },
     ],
     entrada:
-      "Todo el mundo, desde hace miles y miles de años. Mientras el tenedor tardó siglos en aceptarse y provocó escándalos morales de verdad, y mientras el cuchillo hubo que domesticarlo por decreto real, la cuchara aparece tranquilamente en yacimientos de casi todas las culturas conocidas y no escandalizó nunca a nadie en ninguna parte. La razón es puramente práctica y no tiene absolutamente nada que ver con los modales ni con la etiqueta: los líquidos calientes no se pueden comer con los dedos, y no hay manera de discutir eso.",
+      "Todo el mundo, desde hace miles y miles de años. Mientras el tenedor tardó siglos en aceptarse y provocó escándalos morales de verdad, y mientras el cuchillo hubo que domesticarlo por decreto real, la cuchara aparece tranquilamente en yacimientos de casi todas las culturas conocidas y no escandalizó nunca a nadie en ninguna parte. La razón es puramente práctica y no tiene absolutamente nada que ver con los modales ni con la etiqueta: los líquidos calientes no se pueden comer con los dedos, y con eso no hay discusión posible en ninguna cultura del planeta.",
     paginas: [
       {
         rotulo: "De concha a madera",
