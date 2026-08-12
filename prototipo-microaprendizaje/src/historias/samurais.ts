@@ -79,13 +79,50 @@ export const SAMURAIS: Short[] = [
   },
   {
     id: "guerreros-funcionarios",
-    titulo: "Los samuráis pasaron dos siglos sin guerras",
+    titulo: "Dos siglos sin guerras",
     gancho: "Con el país en paz, la clase guerrera acabó llevando la contabilidad de los almacenes de arroz.",
     categoria: "Samuráis",
     color: "var(--slate)",
     encargo: "Un escritorio bajo de madera con pincel, tintero y papeles apilados.",
+    fotos: [
+      {
+        archivo: "The Samurai Collection September 2018 1 (dōmaru tōsei gusoku and warabe tōsei gusoku armor).jpg",
+        autor: "Armaduras de samurái expuestas sobre tatami. Colección Ann y Gabriel Barbier-Mueller, Dallas.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:The_Samurai_Collection_September_2018_1_(d%C5%8Dmaru_t%C5%8Dsei_gusoku_and_warabe_t%C5%8Dsei_gusoku_armor).jpg",
+        foco: "50% 50%",
+        alt: "Tres armaduras japonesas completas sentadas sobre esteras, con cascos de cuernos y placas laqueadas.",
+      },
+      {
+        archivo: "Samurai Museum Tokyo 2017 2.jpg",
+        autor: "Armaduras en el Museo del Samurái de Tokio. Fotografía de Monica Wong.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Samurai_Museum_Tokyo_2017_2.jpg",
+        foco: "50% 50%",
+        alt: "Armaduras japonesas alineadas en una sala de museo, con los cascos y las máscaras a la vista.",
+      },
+      {
+        archivo: "The Samurai Collection September 2018 6 (mogamidō gusoku armor with bagai horse armor and bagu horse tack).jpg",
+        autor: "Armadura de samurái con su arreo de caballo. Colección Ann y Gabriel Barbier-Mueller, Dallas.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:The_Samurai_Collection_September_2018_6_(mogamid%C5%8D_gusoku_armor_with_bagai_horse_armor_and_bagu_horse_tack).jpg",
+        foco: "50% 45%",
+        alt: "Armadura japonesa completa junto a la de un caballo, montadas sobre soportes en un museo.",
+      },
+      {
+        archivo: "Armor and hand warmer display - The Ann and Gabriel Barbier-Mueller Museum - DSC05626.jpg",
+        autor: "Armadura y calientamanos expuestos en el museo Barbier-Mueller de Dallas. Fotografía de Daderot.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Armor_and_hand_warmer_display_-_The_Ann_and_Gabriel_Barbier-Mueller_Museum_-_DSC05626.jpg",
+        foco: "50% 50%",
+        alt: "Armadura japonesa expuesta en una vitrina junto a objetos cotidianos de metal.",
+      },
+    ],
     entrada:
-      "Japón, 1603. Termina un siglo de guerra civil, un solo linaje se hace con el control del país y cierra las fronteras. Empiezan doscientos cincuenta años sin conflictos internos ni exteriores, un caso casi único en la historia. El problema es que el país tiene una clase social entera, entre el cinco y el siete por ciento de la población, cuyo oficio hereditario es combatir.",
+      "Japón, 1603. Termina un siglo largo de guerra civil, un solo linaje se hace con el control del país y cierra las fronteras casi por completo. Empiezan doscientos cincuenta años sin conflictos internos ni exteriores, un caso casi único en la historia de cualquier país grande. El problema, si se mira desde dentro, es que Japón tiene una clase social entera —entre el cinco y el siete por ciento de la población, con sus privilegios y su apellido— cuyo oficio hereditario, el único que se le permite tener, es combatir.",
     paginas: [
       {
         rotulo: "Sueldo en arroz",

@@ -83,14 +83,48 @@ export const SEMAFOROS: Short[] = [
 
   {
     id: "linea-blanca",
-    titulo: "La línea de la carretera la inspiró un camión",
+    titulo: "La línea la pintó un camión",
     gancho: "Un responsable de carreteras vio un camión de leche que goteaba y dejaba un rastro blanco.",
     categoria: "Semáforos",
     color: "var(--slate)",
     curioso: true,
     encargo: "Una carretera de montaña con la línea central recién pintada, vista a ras de suelo.",
+    fotos: [
+      {
+        archivo: "Eix Transversal C-25 04.jpg",
+        autor: "La C-25 atravesando las sierras del interior de Cataluña. Fotografía de Jordi Capdevila Solà.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Eix_Transversal_C-25_04.jpg",
+        foco: "50% 60%",
+        alt: "Carretera de dos carriles con las líneas blancas pintadas, cruzando un valle de montes verdes.",
+      },
+      {
+        archivo: "Eix Transversal C-25 05.jpg",
+        autor: "Otro tramo de la misma carretera catalana entre montañas.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Eix_Transversal_C-25_05.jpg",
+        foco: "50% 60%",
+        alt: "Vista panorámica de una carretera que se pierde entre colinas boscosas.",
+      },
+      {
+        archivo: "Einhausung Lövenich - A1-1645.jpg",
+        autor: "Entrada al tramo cubierto de la autopista A1 al oeste de Colonia. Fotografía de Raimond Spekking.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Einhausung_L%C3%B6venich_-_A1-1645.jpg",
+        foco: "50% 55%",
+        alt: "Autopista de varios carriles con las marcas viales blancas entrando en un tramo con techo de cristal.",
+      },
+      {
+        archivo: "C-58 a Torreblanca - P1080339.jpg",
+        autor: "La carretera C-58 a su paso por Torreblanca. Fotografía de Pere López Brosa.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:C-58_a_Torreblanca_-_P1080339.jpg",
+        foco: "50% 55%",
+        alt: "Calzada con líneas continuas y discontinuas pintadas, vista desde un lateral.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1911. Las carreteras no tienen ninguna marca pintada: son una franja de asfalto o de tierra por la que cada uno circula por donde puede, y los choques frontales en las curvas son frecuentes. Un responsable de carreteras de un condado va conduciendo detrás de un camión cisterna que pierde leche por una junta.",
+      "Estados Unidos, 1911. Las carreteras no tienen todavía ninguna marca pintada encima: son una franja de asfalto o de tierra por la que cada uno circula por donde puede y por donde le parece, y los choques frontales en las curvas ciegas son frecuentes y muy graves. Un responsable de carreteras de un condado va conduciendo detrás de un camión cisterna que pierde leche por una junta mal cerrada, y se pasa kilómetros mirando el rastro blanco que va dejando el camión justo en el centro de la calzada.",
     paginas: [
       {
         rotulo: "El reguero",

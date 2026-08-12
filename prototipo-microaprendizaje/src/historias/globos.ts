@@ -103,8 +103,43 @@ export const GLOBOS: Short[] = [
     categoria: "Globos",
     color: "var(--slate)",
     encargo: "Un globo de tela clara elevándose entre tejados grises al amanecer.",
+    fotos: [
+      {
+        archivo: "Hot air balloon IMGP0344a.jpg",
+        autor: "Globo aerostático en vuelo. Fotografía de Alexey V. Kurochkin.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hot_air_balloon_IMGP0344a.jpg",
+        foco: "50% 45%",
+        alt: "Globo aerostático de tela a cuadros rojos y negros flotando sobre un cielo azul limpio.",
+      },
+      {
+        archivo: "Münster, Montgolfiade (an den Aaseewiesen) -- 2019 -- 9764.jpg",
+        autor: "Varios globos en el aire durante una concentración en Münster. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:M%C3%BCnster,_Montgolfiade_(an_den_Aaseewiesen)_--_2019_--_9764.jpg",
+        foco: "50% 45%",
+        alt: "Cinco globos aerostáticos repartidos por un cielo con nubes altas.",
+      },
+      {
+        archivo: "Colorful hot air balloon in flight (Unsplash).jpg",
+        autor: "Globo aerostático visto desde abajo en pleno vuelo. Fotografía de Aaron Burden.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Colorful_hot_air_balloon_in_flight_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Globo de colores fotografiado desde debajo, con la boca abierta y la cesta colgando.",
+      },
+      {
+        archivo: "Hot-air balloon in Tambov - 03.jpg",
+        autor: "Globo aerostático elevándose al atardecer. Fotografía de Alexander Novikov.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Hot-air_balloon_in_Tambov_-_03.jpg",
+        foco: "50% 50%",
+        alt: "Globo hinchado despegando con la luz baja de la tarde detrás.",
+      },
+    ],
     entrada:
-      "París, septiembre de 1870. El ejército prusiano cierra el cerco alrededor de la ciudad y corta las carreteras, el ferrocarril y hasta el cable del telégrafo tendido por el lecho del río. Dos millones de personas quedan incomunicadas con el resto del país. Queda una sola vía abierta, la de arriba, y el gobierno decide usarla en serio.",
+      "París, septiembre de 1870. El ejército prusiano cierra el cerco alrededor de la ciudad y corta las carreteras, el ferrocarril y hasta el cable del telégrafo que iba tendido por el lecho del río. Dos millones de personas quedan de un día para otro incomunicadas con el resto del país: no entra ni sale una carta, ni una orden, ni una noticia. Queda una sola vía abierta, la de arriba, y el gobierno decide usarla en serio y a lo grande, montando fábricas de globos en las estaciones de tren vacías.",
     paginas: [
       {
         rotulo: "Fábricas en las estaciones",

@@ -85,8 +85,42 @@ export const ANTIBIOTICOS: Short[] = [
     categoria: "Antibióticos",
     color: "var(--slate)",
     encargo: "Una placa de laboratorio con colonias creciendo alrededor de un disco de papel.",
+    fotos: [
+      {
+        archivo: "Penicillium sp. Bytom.jpg",
+        autor: "Moho del género <em>Penicillium</em> creciendo sobre una fruta. Fotografía de Gower.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Penicillium_sp._Bytom.jpg",
+        foco: "50% 50%",
+        alt: "Macrofotografía de moho azul verdoso con forma de pompones creciendo sobre pulpa de fruta dorada.",
+      },
+      {
+        archivo: "Mold on Canned Sauce prob Penicillium 8120.jpg",
+        autor: "Colonias de moho, probablemente <em>Penicillium</em>, sobre una conserva abierta.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mold_on_Canned_Sauce_prob_Penicillium_8120.jpg",
+        foco: "50% 50%",
+        alt: "Manchas circulares de moho verde y blanco extendidas sobre la superficie de una salsa.",
+      },
+      {
+        archivo: "Stack of blood agar plates.jpg",
+        autor: "Pilas de placas de agar sangre preparadas en un laboratorio de microbiología.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Stack_of_blood_agar_plates.jpg",
+        foco: "50% 50%",
+        alt: "Columnas de placas de Petri rojizas apiladas unas sobre otras en una encimera.",
+      },
+      {
+        archivo: "Agar plates.jpg",
+        autor: "Siembra de bacterias en una placa de agar. Fotografía de Bill Branson, Institutos Nacionales de Salud.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Agar_plates.jpg",
+        foco: "50% 50%",
+        alt: "Manos con guantes extendiendo un cultivo sobre una placa de Petri en un laboratorio.",
+      },
+    ],
     entrada:
-      "Estocolmo, diciembre de 1945. El médico escocés que había descubierto la penicilina diecisiete años antes recoge el premio Nobel y pronuncia el discurso de rigor. En lugar de celebrar, dedica el final a una advertencia concreta, con un ejemplo inventado y detallado, sobre cómo el propio medicamento dejará de funcionar si se usa mal. Tardó menos de una década en cumplirse.",
+      "Estocolmo, diciembre de 1945. El médico escocés que había descubierto la penicilina diecisiete años antes recoge el premio Nobel y pronuncia el discurso de rigor ante la sala llena. En lugar de celebrar el hallazgo, dedica el final a una advertencia muy concreta, con un ejemplo inventado y detallado que se entiende a la primera, sobre cómo el propio medicamento va a dejar de funcionar si se usa mal. No habló en abstracto ni a largo plazo: describió el mecanismo exacto. Tardó menos de una década en cumplirse.",
     paginas: [
       {
         rotulo: "La dosis pequeña",

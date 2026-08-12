@@ -83,14 +83,51 @@ export const BRUJULA: Short[] = [
 
   {
     id: "polo-magnetico-corre",
-    titulo: "El norte se mueve y acelera",
+    titulo: "El norte magnético corre",
     gancho: "Ha corrido tanto que hubo que actualizar el modelo mundial fuera de plazo y repintar pistas.",
     categoria: "Brújula",
     color: "var(--slate)",
     curioso: true,
     encargo: "Una brújula de mano sobre un mapa topográfico plegado.",
+    fotos: [
+      {
+        archivo: "039 Northern lights over Mývatn (Iceland) Photo by Giles Laurent.jpg",
+        autor: "Auroras boreales sobre el lago Mývatn, en Islandia. Fotografía de Giles Laurent.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:039_Northern_lights_over_M%C3%BDvatn_(Iceland)_Photo_by_Giles_Laurent.jpg",
+        foco: "50% 40%",
+        alt: "Cortinas verdes de aurora boreal sobre un lago helado y montañas oscuras, bajo un cielo estrellado.",
+      },
+      {
+        archivo: "Brunton.JPG",
+        autor: "Brújula de geólogo con espejo y limbo graduado, abierta sobre la mano.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Brunton.JPG",
+        foco: "50% 50%",
+        alt: "Brújula metálica de campo abierta, con la aguja imantada y la escala de grados a la vista.",
+      },
+      {
+        archivo: "Aurora Australis Over the Tasman Sea from SouthWest National Park.jpg",
+        autor: "Aurora austral sobre el mar de Tasmania. Fotografía de Jamen Percy.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Aurora_Australis_Over_the_Tasman_Sea_from_SouthWest_National_Park.jpg",
+        foco: "50% 45%",
+        alt: "Resplandor verde y rosado de una aurora austral sobre el mar, con estrellas encima.",
+      },
+      {
+        archivo: "Aurora borealis above Storfjorden and the Lyngen Alps in moonlight, 2012 March.jpg",
+        autor: "Aurora boreal sobre el Storfjorden y los Alpes de Lyngen, en Noruega. Fotografía de Simo Räsänen.",
+        licencia: "CC BY-SA 3.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Aurora_borealis_above_Storfjorden_and_the_Lyngen_Alps_in_moonlight,_2012_March.jpg",
+        foco: "50% 50%",
+        alt: "Franja verde de aurora extendida sobre un fiordo nevado iluminado por la luna.",
+      },
+    ],
     entrada:
-      "Ártico, 2019. Los organismos que mantienen el modelo magnético mundial, ese que usan los móviles, los barcos y los aviones para corregir la brújula, publican una actualización de urgencia fuera del calendario habitual. El motivo es que el polo norte magnético se está desplazando bastante más deprisa de lo previsto y las cartas empezaban a quedarse cortas.",
+      "Ártico, 2019. Los organismos que mantienen el modelo magnético mundial —ese que usan por dentro los móviles, los barcos y los aviones para corregir lo que marca la brújula— publican una actualización de urgencia, fuera del calendario habitual de cinco años. No es un capricho burocrático: el polo norte magnético se está desplazando bastante más deprisa de lo previsto, las cartas empezaban a quedarse cortas y en algunos aeropuertos hubo que repintar el número de las pistas.",
     paginas: [
       {
         rotulo: "Dos nortes",

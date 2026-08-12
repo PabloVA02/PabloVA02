@@ -83,14 +83,48 @@ export const MEDIDAS: Short[] = [
 
   {
     id: "diez-dias-perdidos",
-    titulo: "Los diez días que no existieron",
+    titulo: "Los diez días perdidos",
     gancho: "Se acostaron el jueves 4 de octubre y se levantaron el viernes 15. Hubo protestas por los alquileres.",
     categoria: "Medidas",
     color: "var(--plum)",
     curioso: true,
     encargo: "Una hoja de calendario antiguo con los días impresos en dos columnas.",
+    fotos: [
+      {
+        archivo: "Wells Cathedral Clock (28080771737).jpg",
+        autor: "Esfera del reloj astronómico de la catedral de Wells, en Inglaterra, del siglo XIV.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wells_Cathedral_Clock_(28080771737).jpg",
+        foco: "50% 45%",
+        alt: "Gran esfera pintada de reloj medieval con círculos concéntricos, estrellas doradas y una luna.",
+      },
+      {
+        archivo: "Cadrans horloge astronomique Besancon.jpg",
+        autor: "Esferas del reloj astronómico de la catedral de Besanzón. Fotografía de PCouton.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cadrans_horloge_astronomique_Besancon.jpg",
+        foco: "50% 50%",
+        alt: "Decenas de esferas pequeñas de un reloj astronómico, cada una con sus agujas y sus cifras.",
+      },
+      {
+        archivo: "Tour du Gros-Horloge (30268931094).jpg",
+        autor: "El Gros-Horloge de Ruan, con su esfera dorada sobre el arco de la calle. Fotografía de Jorge Láscar.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tour_du_Gros-Horloge_(30268931094).jpg",
+        foco: "50% 50%",
+        alt: "Esfera dorada de un reloj antiguo empotrada en un arco de piedra sobre una calle estrecha.",
+      },
+      {
+        archivo: "Gros-Horloge (30599909950).jpg",
+        autor: "El arco del Gros-Horloge de Ruan iluminado de noche. Fotografía de Jorge Láscar.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gros-Horloge_(30599909950).jpg",
+        foco: "50% 50%",
+        alt: "Arco renacentista con un reloj dorado iluminado, visto desde la calle de noche.",
+      },
+    ],
     entrada:
-      "Roma, febrero de 1582. El calendario que usa Europa desde hace mil seiscientos años tiene un fallo pequeño y acumulativo: calcula el año once minutos más largo de lo que dura en realidad. Once minutos al año parecen nada, pero en dieciséis siglos se han convertido en diez días de desfase, y la primavera ha empezado a llegar antes de la fecha marcada.",
+      "Roma, febrero de 1582. El calendario que usa Europa desde hace mil seiscientos años tiene un fallo pequeño pero acumulativo: da el año por once minutos más largo de lo que dura en realidad. Once minutos al año no los nota nadie, pero en dieciséis siglos se han convertido en diez días enteros de desfase. La primavera ha empezado a llegar antes de la fecha marcada, y con ella se ha ido descolocando la Pascua, que es lo que de verdad preocupa en Roma. El papa firma entonces una bula que arregla el problema de la manera más brusca posible.",
     paginas: [
       {
         rotulo: "Por qué importaba",
