@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const MUSICA: Short[] = [
   {
     id: "cage-433",
-    titulo: "Cuatro minutos sin una nota",
+    titulo: "Cuatro minutos sin notas",
     gancho: "El pianista abrió la tapa, no tocó nada y medio público se marchó furioso.",
     categoria: "Música",
     color: "var(--plum)",

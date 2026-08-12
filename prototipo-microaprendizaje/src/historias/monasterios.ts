@@ -149,7 +149,7 @@ export const MONASTERIOS: Short[] = [
   },
   {
     id: "el-taller-de-copiar",
-    titulo: "Un libro, un año de trabajo",
+    titulo: "Un libro, un año entero",
     gancho: "Tres monjes escribiendo, uno preparando pieles y otro moliendo colores. Un solo ejemplar.",
     categoria: "Monasterios",
     color: "var(--plum)",

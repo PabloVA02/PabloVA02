@@ -148,7 +148,7 @@ export const MONTANAS: Short[] = [
 
   {
     id: "punto-mas-lejano",
-    titulo: "El pico más lejos del centro",
+    titulo: "El pico más lejos del eje",
     gancho: "La Tierra está abombada por el ecuador, y ahí gana un volcán bastante más bajo.",
     categoria: "Montañas",
     color: "var(--plum)",

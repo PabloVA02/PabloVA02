@@ -141,7 +141,7 @@ export const MINERIA: Short[] = [
   },
   {
     id: "el-derrumbe-de-la-mina",
-    titulo: "El mineral que nunca se saca",
+    titulo: "El mineral que no se saca",
     gancho: "Se deja sin extraer una parte del mineral para que aguante la roca de encima. Sacarlo es lo último que se hace.",
     categoria: "Minería",
     color: "var(--ochre)",

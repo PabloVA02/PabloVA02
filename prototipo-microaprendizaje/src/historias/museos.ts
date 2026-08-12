@@ -147,7 +147,7 @@ export const MUSEOS: Short[] = [
 
   {
     id: "objetos-devueltos",
-    titulo: "Los museos empiezan a devolver",
+    titulo: "Los museos ya devuelven",
     gancho: "Miles de objetos saqueados en asaltos coloniales están volviendo a sus países de origen.",
     categoria: "Museos",
     color: "var(--ochre)",

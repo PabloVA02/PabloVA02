@@ -145,7 +145,7 @@ export const MOTOR: Short[] = [
 
   {
     id: "ford-negro",
-    titulo: "Cualquier color, mientras sea negro",
+    titulo: "Negro, cualquier color",
     gancho: "No fue una manía del dueño. Era el único esmalte que secaba lo bastante rápido.",
     categoria: "Motor",
     color: "var(--ochre)",

@@ -108,7 +108,7 @@ export const MERCADOS: Short[] = [
   },
   {
     id: "el-primer-mercado-de-futuros",
-    titulo: "Vender arroz que aún no existe",
+    titulo: "Vender arroz que no existe",
     gancho: "En Osaka, en 1730, se compraban cosechas que todavía no existían, con contratos de papel y sin arroz de por medio.",
     categoria: "Mercados",
     color: "var(--plum)",

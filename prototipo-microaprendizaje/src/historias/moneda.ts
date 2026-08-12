@@ -81,7 +81,7 @@ export const MONEDA: Short[] = [
 
   {
     id: "canto-estriado",
-    titulo: "Las rayas del canto delatan",
+    titulo: "Las rayas del canto avisan",
     gancho: "Se rebañaba plata del borde y se seguía gastando. Con rayas en el canto, el recorte se ve.",
     categoria: "Monedas",
     color: "var(--slate)",
