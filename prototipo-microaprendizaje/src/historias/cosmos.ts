@@ -181,8 +181,42 @@ export const COSMOS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "La Luna llena muy nítida, sin paisaje delante, sobre cielo negro limpio.",
+    fotos: [
+      {
+        archivo: "A full Moon rises behind the ELT (potw2512a).tiff",
+        autor: "Luna llena saliendo detrás del Telescopio Extremadamente Grande, Chile, 2025.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AA%20full%20Moon%20rises%20behind%20the%20ELT%20(potw2512a).tiff",
+        foco: "50% 45%",
+        alt: "Luna llena enorme y anaranjada saliendo por detrás de la cúpula de un telescopio en una montaña.",
+      },
+      {
+        archivo: "Total solar eclipse ESA425433.jpg",
+        autor: "Eclipse total de Sol del 2 de julio de 2019.",
+        licencia: "CC BY-SA 3.0 igo",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATotal%20solar%20eclipse%20ESA425433.jpg",
+        foco: "50% 50%",
+        alt: "Disco negro de la Luna tapando el Sol, con la corona blanca alrededor.",
+      },
+      {
+        archivo: "Laser Ranging Retro-Reflector, Apollo (NASM2020-00369).jpg",
+        autor: "Reflector láser de las misiones Apolo. Museo Nacional del Aire y el Espacio.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALaser%20Ranging%20Retro-Reflector%2C%20Apollo%20(NASM2020-00369).jpg",
+        foco: "50% 50%",
+        alt: "Panel con decenas de prismas de vidrio que devuelven la luz por donde vino.",
+      },
+      {
+        archivo: "2024 Total Solar Eclipse Corona.jpg",
+        autor: "Corona solar durante el eclipse total de abril de 2024.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2024%20Total%20Solar%20Eclipse%20Corona.jpg",
+        foco: "50% 50%",
+        alt: "Corona del Sol extendiéndose en filamentos alrededor de la Luna oscura.",
+      },
+    ],
     entrada:
-      "Que un eclipse total de Sol funcione depende de una casualidad incómoda de creer: el Sol es unas cuatrocientas veces más grande que la Luna y está unas cuatrocientas veces más lejos, así que los dos se ven del mismo tamaño desde aquí. Esa coincidencia no es una ley de la naturaleza. Es un momento, y se está acabando.",
+      "Que un eclipse total de Sol funcione, que el disco negro tape el disco brillante justo justo y aparezca la corona, depende de una casualidad que cuesta creer cuando se piensa despacio: el Sol es unas cuatrocientas veces más grande que la Luna y está a la vez unas cuatrocientas veces más lejos, así que los dos se ven exactamente del mismo tamaño desde aquí abajo. Esa coincidencia no es ninguna ley de la naturaleza ni tenía por qué darse. Es un momento, un momento larguísimo pero un momento, y se está acabando.",
     paginas: [
       {
         rotulo: "Los espejos",
