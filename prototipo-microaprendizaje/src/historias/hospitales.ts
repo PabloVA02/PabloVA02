@@ -90,8 +90,42 @@ export const HOSPITALES: Short[] = [
     categoria: "Hospitales",
     color: "var(--slate)",
     encargo: "Un diagrama circular antiguo dividido en doce sectores de colores.",
+    fotos: [
+      {
+        archivo: "'One of the wards in the hospital at Scutari'. Wellcome M0007724 - restoration, cropped.jpg",
+        autor: "Litografía de William Simpson, 1856: una de las salas del hospital de Escútari. Colección Wellcome, Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A'One%20of%20the%20wards%20in%20the%20hospital%20at%20Scutari'.%20Wellcome%20M0007724%20-%20restoration%2C%20cropped.jpg",
+        foco: "50% 45%",
+        alt: "Sala larga de hospital militar con camas a un lado, una estufa en el centro y personal atendiendo a los heridos.",
+      },
+      {
+        archivo: "Crimean War; Florence Nightingale going around the wards at Wellcome M0003645.jpg",
+        autor: "Grabado de <em>The Illustrated London News</em>, febrero de 1855: la ronda nocturna por las salas de Escútari.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACrimean%20War%3B%20Florence%20Nightingale%20going%20around%20the%20wards%20at%20Wellcome%20M0003645.jpg",
+        foco: "50% 50%",
+        alt: "Estampa de una mujer con lámpara recorriendo de noche una sala llena de heridos tumbados en el suelo y en camastros.",
+      },
+      {
+        archivo: "Portrait of Florence Nightingale Wellcome L0010475.jpg",
+        autor: "Retrato de Florence Nightingale. Colección Wellcome, Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APortrait%20of%20Florence%20Nightingale%20Wellcome%20L0010475.jpg",
+        foco: "50% 35%",
+        alt: "Retrato de una mujer joven de mediados del siglo XIX, con el pelo recogido y vestido oscuro.",
+      },
+      {
+        archivo: "Crimean War; Florence Nightingale at Scutari Hospital. Tinte Wellcome V0015436.jpg",
+        autor: "Estampa coloreada del hospital de Escútari durante la guerra de Crimea. Colección Wellcome, Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACrimean%20War%3B%20Florence%20Nightingale%20at%20Scutari%20Hospital.%20Tinte%20Wellcome%20V0015436.jpg",
+        foco: "50% 50%",
+        alt: "Interior de un hospital de campaña con enfermas y enfermos, camillas y personal moviéndose entre las camas.",
+      },
+    ],
     entrada:
-      "Crimea, 1854. Una enfermera británica llega con un grupo de voluntarias a un hospital militar instalado en unos barracones. Hay ratas, no hay jabón, las letrinas desaguan por debajo del edificio y los heridos yacen sobre paja con el mismo uniforme con el que llegaron. La mortalidad es enorme y nadie sabe exactamente cuánta.",
+      "Crimea, 1854. Una enfermera británica llega con un grupo de treinta y ocho voluntarias a un hospital militar instalado en unos barracones prestados por el ejército turco. Lo que se encuentra dentro es peor que el frente: hay ratas, no hay jabón ni vendas limpias, las letrinas desaguan por debajo del edificio y los heridos yacen sobre paja con el mismo uniforme sucio con el que llegaron de la batalla. La mortalidad es enorme, eso lo ve cualquiera nada más entrar, pero nadie sabe exactamente cuánta ni de qué se muere la gente, porque no hay nadie contándolo.",
     paginas: [
       {
         rotulo: "Las cuentas",
