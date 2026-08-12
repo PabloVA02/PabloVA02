@@ -123,7 +123,7 @@ export const ACERO: Short[] = [
       },
     ],
     entrada:
-      "Inglaterra, 1856. El acero es un material caro y escaso que se fabrica en cantidades pequeñas y se reserva para muelles, herramientas y cubiertos, porque producir una sola tonelada cuesta días de trabajo y una montaña de carbón. Todo lo demás se hace de hierro, que es más barato y bastante peor. Ese año un ingeniero se presenta ante la asociación británica de la ciencia con un procedimiento que promete lo mismo en veinte minutos y sin añadir combustible ninguno, y la sala lo escucha entre la incredulidad y la sospecha.",
+      "Inglaterra, 1856. El acero es un material caro y escaso que se fabrica en cantidades pequeñas y se reserva para muelles, herramientas y cubiertos, porque producir una sola tonelada cuesta días de trabajo y una montaña de carbón. Todo lo demás se hace de hierro, que es más barato y bastante peor. Ese año un ingeniero se presenta ante la asociación británica de la ciencia con un procedimiento que promete lo mismo en veinte minutos y sin añadir combustible ninguno, y la sala lo escucha entre la incredulidad y la sospecha de que aquel hombre no sabe de lo que habla.",
     paginas: [
       {
         rotulo: "El aire",

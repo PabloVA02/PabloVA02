@@ -139,7 +139,7 @@ export const GLOBOS: Short[] = [
       },
     ],
     entrada:
-      "París, septiembre de 1870. El ejército prusiano cierra el cerco alrededor de la ciudad y corta las carreteras, el ferrocarril y hasta el cable del telégrafo que iba tendido por el lecho del río. Dos millones de personas quedan de un día para otro incomunicadas con el resto del país: no entra ni sale una carta, ni una orden, ni una noticia. Queda una sola vía abierta, la de arriba, y el gobierno decide usarla en serio y a lo grande, montando fábricas de globos en las estaciones de tren vacías.",
+      "París, septiembre de 1870. El ejército prusiano cierra el cerco alrededor de la ciudad y corta las carreteras, el ferrocarril y hasta el cable del telégrafo que iba tendido por el lecho del río. Dos millones de personas quedan de un día para otro incomunicadas con el resto del país: no entra ni sale una carta, ni una orden, ni una noticia. Queda una sola vía abierta, la de arriba, y el gobierno decide usarla en serio y a lo grande, montando fábricas de globos en las estaciones de tren que se habían quedado vacías.",
     paginas: [
       {
         rotulo: "Fábricas en las estaciones",

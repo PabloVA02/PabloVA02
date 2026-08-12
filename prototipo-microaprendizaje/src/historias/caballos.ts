@@ -125,7 +125,7 @@ export const CABALLOS: Short[] = [
       },
     ],
     entrada:
-      "Inglaterra, entre 1690 y 1730. Los criadores ingleses importan de Oriente Próximo y del norte de África varios caballos de razas locales, más ligeros, más finos de hueso y más rápidos que los europeos, para cruzarlos con sus yeguas de campo. La mayoría de aquellos sementales no dejó rastro. Tres de ellos sí: su descendencia por línea de padres no se ha interrumpido nunca desde entonces, y de esos tres animales concretos, con nombre propio y fecha de llegada, sale la raza entera de carreras que corre hoy en el mundo.",
+      "Inglaterra, entre 1690 y 1730. Los criadores ingleses importan de Oriente Próximo y del norte de África varios caballos de razas locales, más ligeros, más finos de hueso y más rápidos que los europeos, para cruzarlos con sus yeguas de campo. La mayoría de aquellos sementales no dejó rastro. Tres de ellos sí: su descendencia por línea de padres no se ha interrumpido nunca desde entonces, y de esos tres animales concretos, con nombre propio y fecha de llegada, sale la raza entera de caballos de carreras que corre hoy en todos los hipódromos del mundo.",
     paginas: [
       {
         rotulo: "El libro",

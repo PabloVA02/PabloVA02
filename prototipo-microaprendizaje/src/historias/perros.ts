@@ -58,7 +58,7 @@ export const PERROS: Short[] = [
       },
     ],
     entrada:
-      "Siberia, 1959. Un genetista soviético empieza un experimento en una granja de zorros plateados criados para peletería, aprovechando que allí hay miles de animales y nadie hace preguntas. La idea es de una sencillez casi ingenua: en cada generación, elegir únicamente a los zorros que menos miedo tienen a la mano de un humano y cruzarlos entre sí. No selecciona por aspecto, ni por tamaño, ni por color de pelo, ni por ninguna otra cosa. Solo por carácter. Lo que empieza a salir de esos cruces no estaba previsto por nadie.",
+      "Siberia, 1959. Un genetista soviético empieza un experimento en una granja de zorros plateados criados para peletería, aprovechando que allí hay miles de animales y nadie hace preguntas. La idea es de una sencillez casi ingenua: en cada generación, elegir únicamente a los zorros que menos miedo tienen a la mano de un humano y cruzarlos entre sí. No selecciona por aspecto, ni por tamaño, ni por color de pelo, ni por ninguna otra cosa. Solo por carácter. Lo que empieza a salir de esos cruces al cabo de unas pocas generaciones no lo tenía previsto nadie.",
     paginas: [
       {
         rotulo: "Los cambios",

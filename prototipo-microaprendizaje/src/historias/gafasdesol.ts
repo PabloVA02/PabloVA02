@@ -123,7 +123,7 @@ export const GAFAS_DE_SOL: Short[] = [
       },
     ],
     entrada:
-      "Todo el mundo, con las normas de etiquetado europeas vigentes desde 1995. En cualquier mercadillo se venden gafas de sol muy oscuras y muy baratas, y lo que casi nadie sabe al comprarlas es que esas gafas pueden hacer bastante más daño que ir sin nada puesto. El motivo es un mecanismo del propio ojo que en este caso trabaja en contra de uno: la pupila se abre en la penumbra para dejar entrar más luz y se cierra cuando hay mucha. Un cristal oscuro sin filtro engaña a ese mecanismo.",
+      "Todo el mundo, con las normas de etiquetado europeas vigentes desde 1995. En cualquier mercadillo se venden gafas de sol muy oscuras y muy baratas, y lo que casi nadie sabe al comprarlas es que esas gafas pueden hacer bastante más daño que ir sin nada puesto. El motivo es un mecanismo del propio ojo que en este caso trabaja en contra de uno: la pupila se abre en la penumbra para dejar entrar más luz y se cierra cuando hay mucha. Un cristal oscuro sin filtro engaña a ese mecanismo y lo deja abierto justo cuando debería cerrarse.",
     paginas: [
       {
         rotulo: "La pupila abierta",

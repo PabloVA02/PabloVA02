@@ -56,7 +56,7 @@ export const MERCADOS: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglos XI a XV. Un pueblo no puede celebrar mercado porque le apetezca ni porque le convenga: necesita un privilegio otorgado por el rey o por el señor del lugar, escrito en un documento que fija el día de la semana, el sitio exacto donde puede montarse y los impuestos que se cobrarán en él. Ese papel vale una fortuna y se guarda como una reliquia, porque un mercado semanal cambia por completo la economía de un sitio: le trae dinero, oficios, posadas y forasteros que antes pasaban de largo.",
+      "Europa, siglos XI a XV. Un pueblo no puede celebrar mercado porque le apetezca ni porque le convenga: necesita un privilegio otorgado por el rey o por el señor del lugar, escrito en un documento que fija el día de la semana, el sitio exacto donde puede montarse y los impuestos que se cobrarán en él. Ese papel vale una fortuna y se guarda como una reliquia, porque un mercado semanal cambia por completo la economía de un sitio: le trae dinero, oficios nuevos, posadas y forasteros que hasta entonces pasaban de largo por el camino.",
     paginas: [
       {
         rotulo: "El calendario",

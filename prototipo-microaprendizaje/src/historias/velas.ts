@@ -121,7 +121,7 @@ export const VELAS: Short[] = [
       },
     ],
     entrada:
-      "Inglaterra, 1860. Una ley del alumbrado necesita comprobar que las compañías de gas dan de verdad la luz que cobran, y para eso hace falta una unidad con la que discutir. Se define entonces una que hoy suena a broma: la luz que emite una vela fabricada con esperma de ballena, de un peso determinado, con una mecha determinada y que consuma unos gramos exactos por hora. Se llamó, sencillamente, bujía. Durante casi un siglo, cada farola y cada bombilla del país se midió comparándola con aquella vela de laboratorio.",
+      "Inglaterra, 1860. Una ley del alumbrado necesita comprobar que las compañías de gas dan de verdad la luz que cobran, y para eso hace falta una unidad con la que discutir. Se define entonces una que hoy suena a broma: la luz que emite una vela fabricada con esperma de ballena, de un peso determinado, con una mecha determinada y que consuma unos gramos exactos por hora. Se llamó, sencillamente, bujía. Durante casi un siglo, cada farola y cada bombilla del país se midió comparándola, una por una, con aquella vela de laboratorio.",
     paginas: [
       {
         rotulo: "La ballena",

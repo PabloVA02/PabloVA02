@@ -126,7 +126,7 @@ export const PERIODICOS: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, noviembre de 1948. Un diario de Chicago tiene que cerrar su primera edición antes de que se conozcan los resultados de las elecciones presidenciales: hay una huelga de tipógrafos, la composición va lentísima y eso obliga a adelantar la impresión varias horas. El periódico se fía entonces de lo único que tiene, las encuestas, que llevan meses dando una ventaja aplastante a uno de los dos candidatos y que ningún analista discute. Y titula a toda página, con las letras más grandes que tiene, que ese candidato ha ganado.",
+      "Estados Unidos, noviembre de 1948. Un diario de Chicago tiene que cerrar su primera edición antes de que se conozcan los resultados de las elecciones presidenciales: hay una huelga de tipógrafos, la composición va lentísima y eso obliga a adelantar la impresión varias horas. El periódico se fía entonces de lo único que tiene, las encuestas, que llevan meses dando una ventaja aplastante a uno de los dos candidatos y que ningún analista discute. Y titula a toda página, con las letras más grandes que tiene en la caja, que ese candidato ha ganado.",
     paginas: [
       {
         rotulo: "La huelga",

@@ -57,7 +57,7 @@ export const CODIGOS_DE_BARRAS: Short[] = [
       },
     ],
     entrada:
-      "Florida, Estados Unidos, 1949. Un directivo de una cadena de supermercados va a una universidad a pedir ayuda con un problema que le parece irresoluble: las colas de sus cajas son insoportables porque cada producto hay que teclearlo a mano, artículo por artículo, y el inventario se lleva a lápiz en libretas que nunca cuadran. Casi nadie le hace caso, pero dos estudiantes recogen el encargo. Uno de ellos, sentado en la playa unos meses después, encuentra la idea que faltaba sin más herramienta que los cuatro dedos de una mano.",
+      "Florida, Estados Unidos, 1949. Un directivo de una cadena de supermercados va a una universidad a pedir ayuda con un problema que le parece irresoluble: las colas de sus cajas son insoportables porque cada producto hay que teclearlo a mano, artículo por artículo, y el inventario se lleva a lápiz en libretas que nunca cuadran. Casi nadie le hace caso, pero dos estudiantes recogen el encargo. Uno de ellos, sentado en la playa unos meses después, encuentra la idea que faltaba sin más herramienta que la arena mojada y los cuatro dedos de una mano.",
     paginas: [
       {
         rotulo: "Del morse",

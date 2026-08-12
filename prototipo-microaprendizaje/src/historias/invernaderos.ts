@@ -57,7 +57,7 @@ export const INVERNADEROS: Short[] = [
       },
     ],
     entrada:
-      "Cualquier huerto cubierto del mundo, con una explicación que quedó aclarada de una vez en un experimento publicado en 1909 y que casi nadie ha leído desde entonces. La idea intuitiva, la que está en la cabeza de todos, es que el cristal atrapa la radiación del sol igual que hace la atmósfera con los gases de efecto invernadero, y esa comparación se repite tal cual en muchísimos libros de texto. Un físico americano decidió comprobarla con dos cajas idénticas, una con techo de cristal y otra con techo de sal.",
+      "Cualquier huerto cubierto del mundo, con una explicación que quedó aclarada de una vez en un experimento publicado en 1909 y que casi nadie ha leído desde entonces. La idea intuitiva, la que está en la cabeza de todos, es que el cristal atrapa la radiación del sol igual que hace la atmósfera con los gases de efecto invernadero, y esa comparación se repite tal cual en muchísimos libros de texto. Un físico americano decidió comprobarla en serio, con dos cajas idénticas puestas al sol, una con techo de cristal y otra con techo de sal transparente.",
     paginas: [
       {
         rotulo: "El experimento",

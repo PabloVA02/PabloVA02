@@ -128,7 +128,7 @@ export const LIMPIAPARABRISAS: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1963. El limpiaparabrisas eléctrico lleva ya treinta años montado de serie en los coches, pero solo tiene dos velocidades y las dos barren sin parar nunca. Con lluvia fuerte funciona perfectamente y nadie se queja. Con llovizna, en cambio, la goma pasa una y otra vez sobre un cristal casi seco: chirría, deja rayas grasientas y cansa la vista bastante más que la propia lluvia. Un ingeniero de Detroit se hace la pregunta que nadie se había hecho: por qué no puede pararse entre una pasada y la siguiente.",
+      "Estados Unidos, 1963. El limpiaparabrisas eléctrico lleva ya treinta años montado de serie en los coches, pero solo tiene dos velocidades y las dos barren sin parar nunca. Con lluvia fuerte funciona perfectamente y nadie se queja. Con llovizna, en cambio, la goma pasa una y otra vez sobre un cristal casi seco: chirría, deja rayas grasientas y cansa la vista bastante más que la propia lluvia. Un ingeniero de Detroit se hace la pregunta que nadie se había hecho: por qué no puede pararse un momento entre una pasada y la siguiente, como hace el párpado.",
     paginas: [
       {
         rotulo: "El párpado",

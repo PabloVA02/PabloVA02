@@ -139,7 +139,7 @@ export const CATASTROFES: Short[] = [
       },
     ],
     entrada:
-      "Atlántico Norte, a las 23:39 del 14 de abril de 1912. El vigía Frederick Fleet ve una masa negra delante, toca la campana tres veces y descuelga el teléfono del puente. Desde ese aviso hasta el impacto pasan unos treinta y siete segundos, que es tiempo de sobra para reaccionar y muy poco para acertar. En ese rato el oficial de guardia da la orden que cualquiera habría dado en su lugar: todo a babor y máquinas atrás. Y ahí, en esa orden perfectamente razonable, empieza lo peor de la noche.",
+      "Atlántico Norte, a las 23:39 del 14 de abril de 1912. El vigía Frederick Fleet ve una masa negra delante, toca la campana tres veces y descuelga el teléfono del puente. Desde ese aviso hasta el impacto pasan unos treinta y siete segundos, que es tiempo de sobra para reaccionar y muy poco para acertar. En ese rato el oficial de guardia da la orden que cualquiera habría dado en su lugar: todo a babor y máquinas atrás. Y ahí, en esa orden perfectamente razonable y aprendida en cualquier escuela náutica, empieza lo peor de la noche.",
     paginas: [
       {
         rotulo: "El roce",

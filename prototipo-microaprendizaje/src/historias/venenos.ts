@@ -56,7 +56,7 @@ export const VENENOS: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglos XVII y XVIII. El arsénico se presenta como un polvo blanco, sin olor y sin sabor apreciable, y se vende legalmente en cualquier botica del continente porque es lo que se usa para matar ratas. Ingerido en dosis pequeñas produce vómitos, diarrea y dolor abdominal fuerte, que son exactamente los mismos síntomas de un cólera o de una intoxicación por alimentos en mal estado. Y esas dos cosas mataban entonces a muchísima gente todos los años, de manera que un muerto así no le extrañaba absolutamente a nadie.",
+      "Europa, siglos XVII y XVIII. El arsénico se presenta como un polvo blanco, sin olor y sin sabor apreciable, y se vende legalmente en cualquier botica del continente porque es lo que se usa para matar ratas. Ingerido en dosis pequeñas produce vómitos, diarrea y dolor abdominal fuerte, que son exactamente los mismos síntomas de un cólera o de una intoxicación por alimentos en mal estado. Y esas dos cosas mataban entonces a muchísima gente todos los años, de manera que un muerto así no le extrañaba absolutamente a nadie ni hacía falta explicarlo.",
     paginas: [
       {
         rotulo: "Sin rastro",
