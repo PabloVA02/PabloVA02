@@ -78,13 +78,47 @@ export const ANDAMIOS: Short[] = [
   },
   {
     id: "la-catedral-y-su-andamio",
-    titulo: "Las catedrales, con andamios colgados",
+    titulo: "Andamios colgados",
     gancho: "No llegaban desde el suelo: se apoyaban en el propio muro, en agujeros que todavía se ven.",
     categoria: "Objetos",
     color: "var(--clay)",
     encargo: "Muro de iglesia de piedra con hileras de agujeros cuadrados a intervalos regulares.",
+    fotos: [
+      {
+        archivo: "Salisbury Cathedral, tower interior, treadmill crane.jpg",
+        autor: "Grúa de rueda medieval conservada en lo alto de la torre de la catedral de Salisbury.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Salisbury_Cathedral,_tower_interior,_treadmill_crane.jpg",
+        foco: "50% 45%",
+        alt: "Rueda enorme de madera con el tambor lleno de cuerda enrollada, dentro de la torre de una catedral.",
+      },
+      {
+        archivo: "Gante, catedral 01.jpg",
+        autor: "La catedral de Gante con los andamios de restauración montados en la fachada. Fotografía de LBM1948.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gante,_catedral_01.jpg",
+        foco: "50% 50%",
+        alt: "Torre de catedral gótica cubierta de andamios metálicos hasta arriba.",
+      },
+      {
+        archivo: "Grue medievale.jpg",
+        autor: "Reconstrucción de una grúa medieval de rueda, con su tambor y su pescante de madera.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Grue_medievale.jpg",
+        foco: "50% 50%",
+        alt: "Grúa de madera con una gran rueda lateral y un brazo largo, montada al aire libre.",
+      },
+      {
+        archivo: "Notre Dame Cathedral Renovation Feb 29,2020.jpg",
+        autor: "Notre-Dame de París rodeada de andamios durante los trabajos posteriores al incendio, en 2020.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Notre_Dame_Cathedral_Renovation_Feb_29,2020.jpg",
+        foco: "50% 50%",
+        alt: "Catedral gótica envuelta en un bosque de tubos de andamio y grúas.",
+      },
+    ],
     entrada:
-      "Europa, siglos XII a XV. Levantar una catedral gótica significaba trabajar a cuarenta metros de altura durante décadas, con piedra de varias toneladas y sin una sola máquina a motor. El problema no era solo subir el material, sino sostener a los canteros mientras tallaban en lo alto. La solución fue un andamio que no llegaba desde el suelo, porque habría hecho falta un bosque entero.",
+      "Europa, siglos XII a XV. Levantar una catedral gótica significaba trabajar a cuarenta metros de altura durante décadas seguidas, con bloques de piedra de varias toneladas y sin una sola máquina de motor en toda la obra. El problema no era solo subir el material hasta allí, que ya era gordo, sino sostener a los canteros mientras tallaban en lo alto, año tras año. La solución que encontraron fue un andamio que no llegaba desde el suelo, porque para hacerlo así habría hecho falta talar un bosque entero.",
     paginas: [
       {
         rotulo: "Agujeros en el muro",
