@@ -188,7 +188,7 @@ export const SUBMARINOS: Short[] = [
       },
     ],
     entrada:
-      "Pacífico occidental, enero de 1960. Dos hombres se meten en una cabina de acero de apenas dos metros de diámetro, colgada por debajo de un flotador enorme lleno de gasolina, y empiezan a bajar despacio hacia el fondo de la fosa más profunda del planeta. Tardan casi cinco horas en llegar a once kilómetros de profundidad, con la presión aumentando a cada metro que caen. Es el punto más hondo que existe en la Tierra, y allí abajo, para su sorpresa, encuentran algo que nadie esperaba encontrar.",
+      "Pacífico occidental, enero de 1960. Dos hombres se meten en una cabina de acero de apenas dos metros de diámetro, colgada por debajo de un flotador enorme lleno de gasolina, y empiezan a bajar despacio hacia el fondo de la fosa más profunda del planeta. Tardan casi cinco horas en llegar a once kilómetros de profundidad, con la presión aumentando a cada metro que caen. Es el punto más hondo que existe en la Tierra, más de dos kilómetros por debajo de la altura del Everest, y allí abajo, para su sorpresa, encuentran algo que nadie esperaba encontrar.",
     paginas: [
       {
         rotulo: "El globo invertido",
