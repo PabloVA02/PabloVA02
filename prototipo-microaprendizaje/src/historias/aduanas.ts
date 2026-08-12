@@ -119,7 +119,7 @@ export const ADUANAS: Short[] = [
       },
     ],
     entrada:
-      "Inglaterra, siglos XIV a XVIII. El país produce una lana excelente y durante mucho tiempo la vende cruda a los tejedores del continente, que se quedan con el beneficio de transformarla. La corona decide invertir esa situación con leyes muy duras: cobra impuestos altísimos a la lana que sale y prohíbe directamente exportar oveja viva o lana sin trabajar.",
+      "Inglaterra, siglos XIV a XVIII. El país produce una lana excelente y durante mucho tiempo la vende cruda a los tejedores del continente, que se quedan con el beneficio de transformarla. La corona decide invertir esa situación con leyes verdaderamente duras, de las que no admiten interpretación: cobra impuestos altísimos a cada saca de lana que sale del país y prohíbe directamente, bajo penas muy severas, exportar una oveja viva o una arroba de lana sin trabajar. La idea es sencilla y funcionó: si nadie puede sacar la materia prima, el paño habrá que tejerlo aquí.",
     paginas: [
       {
         rotulo: "Fabricar dentro",

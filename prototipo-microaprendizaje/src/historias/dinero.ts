@@ -126,7 +126,7 @@ export const DINERO: Short[] = [
       },
     ],
     entrada:
-      "En la isla de Yap, en el Pacífico occidental, el dinero tradicional son discos de piedra caliza con un agujero en el centro. Los hay pequeños y los hay de tres metros y media docena de toneladas. Nadie los mueve para pagar: se quedan donde están, apoyados en un camino o delante de una casa, y lo único que cambia es de quién se dice que son.",
+      "En la isla de Yap, en el Pacífico occidental, el dinero tradicional son discos de piedra caliza con un agujero en el centro. Los hay pequeños y los hay de tres metros y media docena de toneladas. Nadie los mueve para pagar: se quedan donde están, apoyados en un camino o delante de una casa, y lo único que cambia, cuando hay un trato, es de quién se dice que son. La propiedad vive en la memoria de la comunidad, no en un papel ni en el sitio donde está la piedra, y a nadie de la isla le parece eso raro ni provisional. Es un sistema que ha funcionado durante siglos sin un solo registro escrito.",
     paginas: [
       {
         rotulo: "El viaje",

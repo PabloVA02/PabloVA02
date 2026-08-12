@@ -120,7 +120,7 @@ export const CANALES: Short[] = [
       },
     ],
     entrada:
-      "Europa, desde el siglo XIV. Un canal necesita ir llano, porque el agua no sube cuestas, y el terreno casi nunca lo es. La solución que se impuso es una caja de piedra con una puerta en cada extremo, colocada donde el canal cambia de nivel. Con ella un barco sube o baja varios metros sin necesidad de ninguna máquina, solo abriendo y cerrando compuertas.",
+      "Europa, desde el siglo XIV. Un canal necesita ir llano, porque el agua no sube cuestas, y el terreno casi nunca lo es. La solución que se impuso es una caja de piedra con una puerta en cada extremo, colocada donde el canal cambia de nivel. Con ella un barco cargado sube o baja varios metros sin necesidad de ninguna máquina, sin motores y sin gastar más energía que la que ya trae el agua del río, solo abriendo y cerrando dos compuertas en el orden correcto. Es uno de esos inventos que llevan siglos funcionando exactamente igual porque no hay manera de mejorarlos.",
     paginas: [
       {
         rotulo: "Subir un barco",
