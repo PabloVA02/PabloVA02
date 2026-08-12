@@ -85,8 +85,42 @@ export const VENENOS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una balanza de laboratorio antigua con dos platillos y pesas diminutas.",
+    fotos: [
+      {
+        archivo: "Apothecary's balance with steel beam and brass pans in woode Wellcome L0058880.jpg",
+        autor: "Balanza de boticario con platillos de latón y su caja de pesas diminutas. Colección Wellcome, Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AApothecary%27s%20balance%20with%20steel%20beam%20and%20brass%20pans%20in%20woode%20Wellcome%20L0058880.jpg",
+        foco: "42% 50%",
+        alt: "Balanza de precisión sostenida por una mano, con dos platillos colgando y una caja de madera abierta al lado.",
+      },
+      {
+        archivo: "Apothecary's balance, Europe, 1901-1930 Wellcome L0057866.jpg",
+        autor: "Otra balanza de botica europea, de principios del siglo XX.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AApothecary%27s%20balance%2C%20Europe%2C%201901-1930%20Wellcome%20L0057866.jpg",
+        foco: "50% 50%",
+        alt: "Balanza pequeña de dos platillos sobre un pie de metal, con las pesas alineadas al lado.",
+      },
+      {
+        archivo: "Portrait of Paracelsus. Wellcome L0014988.jpg",
+        autor: "Retrato de Paracelso, el médico suizo que dejó escrito que la dosis lo decide todo.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APortrait%20of%20Paracelsus.%20Wellcome%20L0014988.jpg",
+        foco: "50% 40%",
+        alt: "Retrato antiguo de un hombre de gesto duro, con gorro y ropa oscura, mirando de frente.",
+      },
+      {
+        archivo: "Blue ridged glass bottle for arsenic, Europe, 1701-1935 Wellcome L0057809.jpg",
+        autor: "Frasco azul acanalado para arsénico: el relieve avisaba al tacto de que aquello no se bebía.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABlue%20ridged%20glass%20bottle%20for%20arsenic%2C%20Europe%2C%201701-1935%20Wellcome%20L0057809.jpg",
+        foco: "50% 50%",
+        alt: "Botella de vidrio azul oscuro con estrías en relieve y tapón, sobre fondo neutro.",
+      },
+    ],
     entrada:
-      "Suiza, hacia 1538. Un médico y alquimista bastante peleón escribe una frase que hoy es el fundamento de la toxicología. Viene a decir que todas las cosas son veneno y que solo la dosis hace que algo no lo sea. Suena a juego de palabras y es una descripción exacta de cómo funciona el cuerpo ante cualquier sustancia.",
+      "Suiza, hacia 1538. Un médico y alquimista bastante peleón, que se hacía llamar Paracelso y que se pasó la vida discutiendo con las facultades de medicina, escribe una frase que hoy es el fundamento entero de la toxicología. Viene a decir que todas las cosas son veneno, que no hay ninguna que no lo sea, y que lo único que hace que algo no envenene es la dosis. Dicho así suena a juego de palabras de alquimista, y sin embargo es una descripción exacta de lo que le pasa al cuerpo con cualquier sustancia que se le meta dentro, empezando por el agua.",
     paginas: [
       {
         rotulo: "La curva",
