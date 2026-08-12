@@ -154,8 +154,42 @@ export const SILLAS: Short[] = [
     categoria: "Sillas",
     color: "var(--plum)",
     encargo: "Un pupitre alto de madera con tapa inclinada y un taburete de tres patas.",
+    fotos: [
+      {
+        archivo: "Skansen w Maurzycach, Łowicki Park Etnograficzny w Maurzycach, 2025, SOULinPIX, KsP 207.jpg",
+        autor: "Escuela reconstruida en el museo etnográfico de Maurzyce, Polonia, 2025.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASkansen%20w%20Maurzycach%2C%20%C5%81owicki%20Park%20Etnograficzny%20w%20Maurzycach%2C%202025%2C%20SOULinPIX%2C%20KsP%20207.jpg",
+        foco: "50% 55%",
+        alt: "Aula antigua con pupitres de tapa inclinada y bancos corridos bajo un techo de vigas.",
+      },
+      {
+        archivo: "Chinese Rosewood and Inlay Desk Chair Displayed at the 1904 World's Fair - DPLA - 713985f10aa9df1993795ebe86e7cba9 (page 34).jpg",
+        autor: "Silla giratoria de palisandro con incrustaciones, expuesta en la Feria Mundial de 1904.",
+        licencia: "No restrictions",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AChinese%20Rosewood%20and%20Inlay%20Desk%20Chair%20Displayed%20at%20the%201904%20World's%20Fair%20-%20DPLA%20-%20713985f10aa9df1993795ebe86e7cba9%20(page%2034).jpg",
+        foco: "50% 55%",
+        alt: "Silla de despacho de madera roja con nácar incrustado, montada sobre un pie giratorio.",
+      },
+      {
+        archivo: "Chinese Rosewood and Inlay Desk Chair Displayed at the 1904 World's Fair - DPLA - 713985f10aa9df1993795ebe86e7cba9 (page 2).jpg",
+        autor: "Otra vista de la misma silla giratoria de 1904.",
+        licencia: "No restrictions",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AChinese%20Rosewood%20and%20Inlay%20Desk%20Chair%20Displayed%20at%20the%201904%20World's%20Fair%20-%20DPLA%20-%20713985f10aa9df1993795ebe86e7cba9%20(page%202).jpg",
+        foco: "50% 50%",
+        alt: "Detalle del pie de cuatro brazos sobre el que gira el asiento de la silla.",
+      },
+      {
+        archivo: "Desk (AM 1976.47).jpg",
+        autor: "Escritorio coreano de la dinastía Joseon, finales del siglo XVII.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADesk%20(AM%201976.47).jpg",
+        foco: "50% 50%",
+        alt: "Mesa baja de escribir, de madera oscura y patas cortas.",
+      },
+    ],
     entrada:
-      "Oficinas y talleres europeos, siglos XVIII y XIX. Los escritorios de contabilidad de esa época son altos, con la tapa inclinada, y delante de ellos hay taburetes estrechos y sin respaldo. Los empleados trabajaban de pie o medio apoyados durante jornadas larguísimas, y aquello no era un descuido del mobiliario, sino una decisión deliberada de los patronos.",
+      "Oficinas, escuelas y talleres europeos de los siglos XVIII y XIX. Los escritorios de contabilidad de aquella época son altos, con la tapa inclinada como un atril, y delante de ellos no hay sillones sino taburetes estrechos, duros y sin respaldo ninguno. Los empleados trabajaban así de pie, o medio apoyados en el borde del taburete, durante jornadas larguísimas de doce y catorce horas. Y aquello no era un descuido del mobiliario ni una cuestión de ahorro, sino una decisión perfectamente deliberada de los patronos, con una teoría detrás.",
     paginas: [
       {
         rotulo: "Estar despierto",
