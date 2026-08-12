@@ -84,8 +84,42 @@ export const HUELGAS: Short[] = [
     categoria: "Huelgas",
     color: "var(--slate)",
     encargo: "Una caja metálica con cerradura y un libro de cuentas encima.",
+    fotos: [
+      {
+        archivo: "Iron Strongbox.jpg",
+        autor: "Caja fuerte de hierro con cerradura, de las que guardaban el dinero en efectivo hacia 1900.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AIron%20Strongbox.jpg",
+        foco: "50% 52%",
+        alt: "Cofre rectangular de hierro oscuro con asa en la tapa y una cerradura pequeña en el frente.",
+      },
+      {
+        archivo: "Monnaie - Trésor de la Jeanne-Elisabeth (1755), pile de 13 pièces de 8 réaux - btv1b11358628q (1 of 2).jpg",
+        autor: "Pila de monedas de plata de ocho reales, rescatadas de un naufragio de 1755. Biblioteca Nacional de Francia.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMonnaie%20-%20Tr%C3%A9sor%20de%20la%20Jeanne-Elisabeth%20(1755)%2C%20pile%20de%2013%20pi%C3%A8ces%20de%208%20r%C3%A9aux%20-%20btv1b11358628q%20(1%20of%202).jpg",
+        foco: "50% 50%",
+        alt: "Columna de monedas de plata antiguas apiladas una sobre otra, con los cantos gastados.",
+      },
+      {
+        archivo: "Wroclaw National Museum 2022 Iron World Exhibition P11 chest lock with three keys.jpg",
+        autor: "Cerradura de arca de 1551 con sus tres llaves, en el Museo Nacional de Breslavia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWroclaw%20National%20Museum%202022%20Iron%20World%20Exhibition%20P11%20chest%20lock%20with%20three%20keys.jpg",
+        foco: "50% 50%",
+        alt: "Mecanismo de cerradura de hierro con muelles y palancas a la vista, con tres llaves antiguas al lado.",
+      },
+      {
+        archivo: "Huelga general del 14 de noviembre de 2012 en Madrid (2).jpg",
+        autor: "Manifestación de la huelga general del 14 de noviembre de 2012, en el paseo de las Delicias de Madrid.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHuelga%20general%20del%2014%20de%20noviembre%20de%202012%20en%20Madrid%20(2).jpg",
+        foco: "50% 50%",
+        alt: "Calle ancha llena de gente marchando detrás de una pancarta larga, al atardecer.",
+      },
+    ],
     entrada:
-      "Europa, siglo XIX. Cuando los obreros de una fábrica dejan de trabajar, dejan también de cobrar, mientras el dueño solo deja de ganar. Esa asimetría decide casi todos los conflictos: una familia sin ahorros aguanta días, y una empresa con existencias en el almacén, semanas. Los primeros sindicatos entendieron que el problema era ese y montaron una respuesta contable.",
+      "Europa, siglo XIX. Cuando los obreros de una fábrica dejan de trabajar, dejan también de cobrar, mientras que el dueño solo deja de ganar, que no es lo mismo ni de lejos. Esa asimetría, y no la razón que tenga cada parte, decide casi todos los conflictos: una familia sin ahorros aguanta unos días, y una empresa con el almacén lleno aguanta semanas o meses. Los primeros sindicatos entendieron enseguida que ahí estaba el problema de verdad, y que discursos había muchos y dinero ninguno. Su respuesta no fue política: fue contable.",
     paginas: [
       {
         rotulo: "El fondo",
