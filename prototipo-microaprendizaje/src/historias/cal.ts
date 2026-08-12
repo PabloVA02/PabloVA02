@@ -83,8 +83,42 @@ export const CAL: Short[] = [
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Calle estrecha de casas encaladas al mediodía, con la sombra muy marcada.",
+    fotos: [
+      {
+        archivo: "Frigiliana calles.jpg",
+        autor: "Calle escalonada de Frigiliana, en la Axarquía malagueña, con las fachadas encaladas y los tiestos de barro.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFrigiliana%20calles.jpg",
+        foco: "45% 52%",
+        alt: "Callejón en cuesta con escalones de piedra entre casas blancas, macetas de geranios y rejas negras.",
+      },
+      {
+        archivo: "Vejer de la Frontera (40424083591).jpg",
+        autor: "Vejer de la Frontera, en la provincia de Cádiz, encaramado en su cerro.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVejer%20de%20la%20Frontera%20(40424083591).jpg",
+        foco: "50% 50%",
+        alt: "Pueblo de casas blancas apiñadas en lo alto de una colina, con murallas y campanario recortados contra el cielo.",
+      },
+      {
+        archivo: "Frigiliana 20230910.jpg",
+        autor: "Fachadas de Frigiliana a media tarde, con la cal devolviendo la luz del sol.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFrigiliana%2020230910.jpg",
+        foco: "50% 50%",
+        alt: "Casas blancas escalonadas por la ladera, con tejados de teja y sombras muy marcadas.",
+      },
+      {
+        archivo: "Tsidi bou said.jpg",
+        autor: "Sidi Bou Saïd, en Túnez, otro pueblo que resuelve el calor con cal blanca y carpintería azul.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATsidi%20bou%20said.jpg",
+        foco: "50% 50%",
+        alt: "Casas blancas con puertas y celosías azules asomadas sobre el mar Mediterráneo.",
+      },
+    ],
     entrada:
-      "Andalucía y todo el sur de Europa, desde la Antigüedad y con fuerza a partir del siglo XIX. Los pueblos blancos se fotografían hoy como estampa turística, pero aquella capa de cal no se daba por gusto estético. Encalar era barato, mataba bichos y microbios, tapaba las grietas y devolvía la luz del sol en vez de tragarla. Era, en la práctica, la desinfección que tenía una familia pobre.",
+      "Andalucía y todo el sur de Europa, desde la Antigüedad y con mucha fuerza a partir del siglo XIX. Los pueblos blancos se fotografían hoy como estampa turística y se cuidan por ordenanza, pero aquella capa de cal no se daba por gusto estético ni por tradición. Encalar era barato, mataba bichos y microbios, tapaba las grietas del muro y devolvía la luz del sol en vez de tragarla. Era, en la práctica, toda la desinfección y todo el aislamiento que se podía permitir una familia pobre, y se repetía cada primavera con un cubo y una brocha.",
     paginas: [
       {
         rotulo: "Contra el bicho",
