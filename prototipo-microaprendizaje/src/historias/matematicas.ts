@@ -61,7 +61,7 @@ export const MATEMATICAS: Short[] = [
       },
     ],
     entrada:
-      "Un año tiene 365 días, así que la intuición dice, y lo dice con mucha seguridad, que para que dos personas de una sala compartan cumpleaños hace falta una multitud. La cuenta dice otra cosa bastante incómoda: con solo 23 personas en una habitación, la probabilidad de que al menos dos de ellas coincidan ya supera el cincuenta por ciento. No hay truco, ni letra pequeña, ni trampa estadística de ningún tipo. Lo que pasa es que la pregunta que uno cree estar haciéndose no es la que está haciendo.",
+      "Un año tiene 365 días, así que la intuición dice, y lo dice con mucha seguridad, que para que dos personas de una sala compartan cumpleaños hace falta una multitud. La cuenta dice otra cosa bastante incómoda: con solo 23 personas en una habitación, la probabilidad de que al menos dos de ellas coincidan ya supera el cincuenta por ciento. No hay truco, ni letra pequeña, ni trampa estadística de ningún tipo. Lo que pasa es que la pregunta que uno cree estar haciéndose no es, ni de lejos, la que está haciendo en realidad.",
     paginas: [
       {
         rotulo: "El engaño",

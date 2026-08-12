@@ -59,7 +59,7 @@ export const TABACO: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglos XVI a XVIII. El tabaco llega de América y entra en las boticas mucho antes que en las tabernas: se receta en polvo, en humo, en infusión y en emplastos, y se le atribuyen efectos contra el dolor de cabeza, el asma, las muelas, las heridas infectadas, los cólicos y hasta la peste. No es una superstición popular, sino medicina oficial de su tiempo: los médicos discuten sus virtudes en tratados serios, con citas y con casos, y las farmacias lo despachan como cualquier otro remedio del catálogo.",
+      "Europa, siglos XVI a XVIII. El tabaco llega de América y entra en las boticas mucho antes que en las tabernas: se receta en polvo, en humo, en infusión y en emplastos, y se le atribuyen efectos contra el dolor de cabeza, el asma, las muelas, las heridas infectadas, los cólicos y hasta la peste. No es una superstición popular, sino medicina oficial de su tiempo: los médicos discuten sus virtudes en tratados serios, con citas y con casos, y las farmacias lo despachan, pesado y envuelto, como cualquier otro remedio del catálogo.",
     paginas: [
       {
         rotulo: "Las lavativas",

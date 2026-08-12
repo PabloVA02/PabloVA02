@@ -56,7 +56,7 @@ export const LLAVES: Short[] = [
       },
     ],
     entrada:
-      "Londres, 1790. Un fabricante de cerraduras coloca una de las suyas en el escaparate de su tienda con un cartel escrito a mano que promete doscientas guineas, varios años de sueldo de un artesano, a quien consiga abrirla con cualquier herramienta que no sea su propia llave. No es la bravata de un comerciante que confía en que nadie lo intente: la cerradura es de verdad distinta de todo lo que existe entonces, él sabe perfectamente por qué, y está dispuesto a dejarla ahí colgada el tiempo que haga falta.",
+      "Londres, 1790. Un fabricante de cerraduras coloca una de las suyas en el escaparate de su tienda con un cartel escrito a mano que promete doscientas guineas, varios años de sueldo de un artesano, a quien consiga abrirla con cualquier herramienta que no sea su propia llave. No es la bravata de un comerciante que confía en que nadie lo intente: la cerradura es de verdad distinta de todo lo que existe entonces, él sabe perfectamente por qué, y está dispuesto a dejarla ahí colgada, en el escaparate y a la vista de toda la ciudad, el tiempo que haga falta.",
     paginas: [
       {
         rotulo: "Los cilindros que bajan",

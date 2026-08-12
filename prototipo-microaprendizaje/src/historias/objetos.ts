@@ -60,7 +60,7 @@ export const OBJETOS: Short[] = [
       },
     ],
     entrada:
-      "Miami Beach, finales de los años cuarenta. Norman Joseph Woodland, un estudiante de posgrado, está sentado en la arena de la playa dándole vueltas a un encargo que le han hecho y que parece imposible: encontrar la manera de que una máquina lea automáticamente el precio de un producto al pasar por la caja de un supermercado. Se sabía el código morse de memoria desde los boy scouts. Casi sin pensarlo metió los cuatro dedos en la arena mojada y trazó una serie de puntos y rayas delante de él.",
+      "Miami Beach, finales de los años cuarenta. Norman Joseph Woodland, un estudiante de posgrado, está sentado en la arena de la playa dándole vueltas a un encargo que le han hecho y que parece imposible: encontrar la manera de que una máquina lea automáticamente el precio de un producto al pasar por la caja de un supermercado. Se sabía el código morse de memoria desde los boy scouts. Casi sin pensarlo metió los cuatro dedos en la arena mojada y trazó delante de él una serie de puntos y rayas, y luego los estiró hacia abajo.",
     paginas: [
       {
         rotulo: "El gesto",

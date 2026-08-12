@@ -57,7 +57,7 @@ export const PLATA: Short[] = [
       },
     ],
     entrada:
-      "Andes, 1545. Un pastor que busca una llama perdida enciende fuego para pasar la noche en la ladera de un cerro y descubre por la mañana un hilo de metal fundido brillando entre las cenizas. La historia es casi con seguridad una leyenda contada después, pero la montaña era bien real y resultó ser la mayor concentración de plata jamás encontrada en el mundo. A cuatro mil metros de altura, donde no crece nada y cuesta respirar, se levantó en pocos años una ciudad tan poblada como Londres o París.",
+      "Andes, 1545. Un pastor que busca una llama perdida enciende fuego para pasar la noche en la ladera de un cerro y descubre por la mañana un hilo de metal fundido brillando entre las cenizas. La historia es casi con seguridad una leyenda contada después, pero la montaña era bien real y resultó ser la mayor concentración de plata jamás encontrada en el mundo. A cuatro mil metros de altura, donde no crece nada y cuesta respirar, se levantó en pocos años una ciudad tan poblada como Londres o como París, y con las mismas ganas de gastar.",
     paginas: [
       {
         rotulo: "La ciudad alta",

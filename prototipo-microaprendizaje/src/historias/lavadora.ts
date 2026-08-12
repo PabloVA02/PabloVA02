@@ -58,7 +58,7 @@ export const LAVADORA: Short[] = [
       },
     ],
     entrada:
-      "Europa y América, 1900. En una casa sin agua corriente, lavar la ropa de una familia ocupa un día completo de trabajo físico duro, de sol a sol, y por eso tiene día fijo en la semana y nombre propio: el día de la colada. Los manuales domésticos de la época lo describen paso a paso con una frialdad que asusta: acarrear el agua cubo a cubo, calentarla, hervir la ropa blanca, restregarla contra una tabla, aclararla tres veces, escurrirla a mano y tenderla. Y al día siguiente tocaba planchar.",
+      "Europa y América, 1900. En una casa sin agua corriente, lavar la ropa de una familia ocupa un día completo de trabajo físico duro, de sol a sol, y por eso tiene día fijo en la semana y nombre propio: el día de la colada. Los manuales domésticos de la época lo describen paso a paso con una frialdad que asusta: acarrear el agua cubo a cubo, calentarla, hervir la ropa blanca, restregarla contra una tabla, aclararla tres veces, escurrirla a mano y tenderla. Y al día siguiente, con la ropa aún húmeda colgada por toda la casa, tocaba planchar.",
     paginas: [
       {
         rotulo: "El agua",

@@ -122,7 +122,7 @@ export const SAMURAIS: Short[] = [
       },
     ],
     entrada:
-      "Japón, 1603. Termina un siglo largo de guerra civil, un solo linaje se hace con el control del país y cierra las fronteras casi por completo. Empiezan doscientos cincuenta años sin conflictos internos ni exteriores, un caso casi único en la historia de cualquier país grande. El problema, si se mira desde dentro, es que Japón tiene una clase social entera —entre el cinco y el siete por ciento de la población, con sus privilegios y su apellido— cuyo oficio hereditario, el único que se le permite tener, es combatir.",
+      "Japón, 1603. Termina un siglo largo de guerra civil, un solo linaje se hace con el control del país y cierra las fronteras casi por completo. Empiezan doscientos cincuenta años sin conflictos internos ni exteriores, un caso casi único en la historia de cualquier país grande. El problema, si se mira desde dentro, es que Japón tiene una clase social entera —entre el cinco y el siete por ciento de la población, con sus privilegios y su apellido— cuyo oficio hereditario, el único que la ley le permite tener, es combatir en unas guerras que ya no hay.",
     paginas: [
       {
         rotulo: "Sueldo en arroz",

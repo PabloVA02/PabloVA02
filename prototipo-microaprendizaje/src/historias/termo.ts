@@ -119,7 +119,7 @@ export const TERMO: Short[] = [
       },
     ],
     entrada:
-      "Cualquier cocina, con la pregunta repetida desde que existen los termos en 1904. Mucha gente se pregunta cómo puede un mismo recipiente mantener el café caliente y el refresco frío, como si el aparato tuviera que enterarse de lo que le echan y decidir en consecuencia. No decide nada, porque no hay nada que decidir. Un termo no produce calor ni lo quita: lo único que hace es poner una barrera muy buena para que el calor pase despacísimo, y esa barrera funciona igual de bien en los dos sentidos.",
+      "Cualquier cocina, con la pregunta repetida desde que existen los termos en 1904. Mucha gente se pregunta cómo puede un mismo recipiente mantener el café caliente y el refresco frío, como si el aparato tuviera que enterarse de lo que le echan y decidir en consecuencia. No decide nada, porque no hay nada que decidir. Un termo no produce calor ni lo quita: lo único que hace es poner una barrera muy buena para que el calor pase despacísimo, y esa barrera, que no sabe nada de lo que hay dentro, funciona igual de bien en los dos sentidos.",
     paginas: [
       {
         rotulo: "Solo baja",

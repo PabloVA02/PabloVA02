@@ -58,7 +58,7 @@ export const TE: Short[] = [
       },
     ],
     entrada:
-      "China, 1848. Una compañía comercial británica encarga a un botánico escocés una misión que hoy llamaríamos sin rodeos espionaje industrial: entrar en las zonas del interior prohibidas a los extranjeros, averiguar cómo se cultiva y se procesa el té, y sacar de allí plantas vivas, semillas y, si puede, operarios que sepan hacerlo, para montar el negocio en la India. El motivo es puramente contable. El té solo se produce en China, Gran Bretaña se lo bebe entero y ese desequilibrio comercial se está pagando con plata y con opio.",
+      "China, 1848. Una compañía comercial británica encarga a un botánico escocés una misión que hoy llamaríamos sin rodeos espionaje industrial: entrar en las zonas del interior prohibidas a los extranjeros, averiguar cómo se cultiva y se procesa el té, y sacar de allí plantas vivas, semillas y, si puede, operarios que sepan hacerlo, para montar el negocio en la India. El motivo es puramente contable. El té solo se produce en China, Gran Bretaña se lo bebe casi entero, y ese desequilibrio comercial se está pagando con plata primero y con opio después.",
     paginas: [
       {
         rotulo: "El disfraz",
