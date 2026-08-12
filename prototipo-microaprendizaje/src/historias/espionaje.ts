@@ -92,6 +92,40 @@ export const ESPIONAJE: Short[] = [
     categoria: "Espionaje",
     color: "var(--plum)",
     encargo: "Un maletín de cuero antiguo con una cadena y una esposa metálica atada al asa.",
+    fotos: [
+      {
+        archivo: "Pino vencido por el viento en los Enebrales de Punta Umbría 024a.jpg",
+        autor: "Pino doblado por el viento en los Enebrales de Punta Umbría, en la costa de Huelva donde apareció el cuerpo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APino%20vencido%20por%20el%20viento%20en%20los%20Enebrales%20de%20Punta%20Umbr%C3%ADa%20024a.jpg",
+        foco: "50% 50%",
+        alt: "Tronco de pino curvado casi hasta el suelo en un pinar costero de arena clara.",
+      },
+      {
+        archivo: "Regresando. Sendero del Río Piedras. JGL 9634.jpg",
+        autor: "Sendero junto al río Piedras, en la misma costa onubense.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARegresando.%20Sendero%20del%20R%C3%ADo%20Piedras.%20JGL%209634.jpg",
+        foco: "50% 50%",
+        alt: "Camino de arena entre marisma y pinos, con el agua del río a un lado.",
+      },
+      {
+        archivo: "HMS ESKIMO patrolling the landing area during the Allied invasion of Sicily, July 1943. A18092.jpg",
+        autor: "El destructor HMS Eskimo patrullando la zona de desembarco en Sicilia, julio de 1943.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHMS%20ESKIMO%20patrolling%20the%20landing%20area%20during%20the%20Allied%20invasion%20of%20Sicily%2C%20July%201943.%20A18092.jpg",
+        foco: "50% 50%",
+        alt: "Destructor de guerra navegando frente a la costa, con una columna de humo al fondo.",
+      },
+      {
+        archivo: "Italian POWs march to waiting landing craft during the Allied invasion of Sicily, July 1943. A17913.jpg",
+        autor: "Prisioneros italianos caminando por la playa hacia las lanchas, en el desembarco de Sicilia.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AItalian%20POWs%20march%20to%20waiting%20landing%20craft%20during%20the%20Allied%20invasion%20of%20Sicily%2C%20July%201943.%20A17913.jpg",
+        foco: "50% 50%",
+        alt: "Fila larga de hombres andando por la orilla al amanecer, con lanchas de desembarco varadas al fondo.",
+      },
+    ],
     entrada:
       "Aguas frente a la costa de Huelva, al amanecer del 30 de abril de 1943. Un submarino británico emerge y su tripulación deposita en el mar el cuerpo de un hombre con uniforme de oficial de Marina, chaleco salvavidas y una cartera de cuero encadenada al cinturón. La marea lo lleva a la playa. Dentro de la cartera hay documentos secretos, y todos son falsos.",
     paginas: [
