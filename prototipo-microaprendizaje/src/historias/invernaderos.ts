@@ -120,7 +120,7 @@ export const INVERNADEROS: Short[] = [
       },
     ],
     entrada:
-      "Almería, sureste de España, desde 1963. Es una comarca seca, con poca tierra buena y una emigración constante hacia Cataluña y hacia Europa. Ese año, un instituto público empieza a ensayar allí un sistema de cultivo bajo plástico con arena sobre el suelo. En cincuenta años, aquello se convierte en la mayor concentración de invernaderos del mundo.",
+      "Almería, sureste de España, desde 1963. Es una comarca seca, con poca tierra buena y una emigración constante hacia Cataluña y hacia Europa. Ese año, un instituto público empieza a ensayar allí un sistema de cultivo bajo plástico con arena sobre el suelo. Nadie espera gran cosa de aquel ensayo, que parece una ocurrencia técnica más. En cincuenta años, sin embargo, aquello se convierte en la mayor concentración de invernaderos del mundo, una mancha blanca de treinta mil hectáreas que se distingue perfectamente desde el espacio y que cambió la comarca entera.",
     paginas: [
       {
         rotulo: "La arena",

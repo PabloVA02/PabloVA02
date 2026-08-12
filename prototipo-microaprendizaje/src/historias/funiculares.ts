@@ -122,7 +122,7 @@ export const FUNICULARES: Short[] = [
       },
     ],
     entrada:
-      "Costa del suroeste de Inglaterra, 1890. Dos pueblos de pescadores están uno encima del otro: el de abajo, junto al mar; el de arriba, en lo alto de un acantilado de ciento cincuenta metros. Solo los une un camino de mulas. No hay electricidad en la zona y traer carbón para una máquina de vapor cuesta más de lo que el viaje puede dar.",
+      "Costa del suroeste de Inglaterra, 1890. Dos pueblos de pescadores están uno encima del otro: el de abajo, junto al mar; el de arriba, en lo alto de un acantilado de ciento cincuenta metros. Solo los une un camino de mulas. Solo los une un camino de mulas empinadísimo por el que hay que subir a mano todo lo que llega en barco. No hay electricidad en la zona ni la va a haber en años, y traer carbón hasta allí para alimentar una máquina de vapor cuesta bastante más de lo que el viaje puede dar. Hace falta otra cosa.",
     paginas: [
       {
         rotulo: "El contrapeso",

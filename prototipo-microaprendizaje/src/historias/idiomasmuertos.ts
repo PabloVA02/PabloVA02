@@ -118,7 +118,7 @@ export const IDIOMAS_MUERTOS: Short[] = [
       },
     ],
     entrada:
-      "Palestina otomana, 1881. El hebreo lleva casi dos mil años sin usarse para hablar. Se lee, se reza y se escribe en él, pero nadie lo tiene como lengua materna: las comunidades judías hablan las lenguas de los sitios donde viven. Ese año llega una familia que decide hacer un experimento doméstico: criar a su hijo hablándole solo en hebreo.",
+      "Palestina otomana, 1881. El hebreo lleva casi dos mil años sin usarse para hablar. Se lee, se reza y se escribe en él, pero nadie lo tiene como lengua materna: las comunidades judías hablan las lenguas de los sitios donde viven. Ese año llega a Jerusalén una familia que decide hacer, por su cuenta y sin pedir permiso a nadie, un experimento doméstico bastante temerario: criar a su hijo recién nacido hablándole únicamente en hebreo, sin una sola palabra de ninguna otra lengua. El niño sería el primer hablante nativo en dos milenios.",
     paginas: [
       {
         rotulo: "Inventar palabras",
