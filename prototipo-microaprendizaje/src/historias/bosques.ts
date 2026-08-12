@@ -56,7 +56,7 @@ export const BOSQUES: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglos XVI a XIX. Un barco de guerra de línea es la máquina más compleja y más cara de su tiempo, un arma que cuesta lo que una ciudad pequeña, y está hecha casi enteramente de madera. Cada navío se lleva unos dos mil robles adultos, es decir, alrededor de veinte hectáreas de bosque talado para uno solo. El problema no es cortarlos, que se hace en unas semanas, sino de dónde salen: un roble tarda entre ochenta y ciento veinte años en alcanzar el tamaño que hace falta.",
+      "Europa, siglos XVI a XIX. Un barco de guerra de línea es la máquina más compleja y más cara de su tiempo, un arma que cuesta lo que una ciudad pequeña, y está hecha casi enteramente de madera. Cada navío se lleva unos dos mil robles adultos, es decir, alrededor de veinte hectáreas de bosque talado para uno solo. El problema no es cortarlos, que se hace en unas semanas, sino de dónde salen: un roble tarda entre ochenta y ciento veinte años en alcanzar el tamaño que hace falta, de modo que la flota que se necesitará en 1800 hay que plantarla en 1700.",
     paginas: [
       {
         rotulo: "Piezas curvas",

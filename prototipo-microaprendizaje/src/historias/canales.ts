@@ -56,7 +56,7 @@ export const CANALES: Short[] = [
       },
     ],
     entrada:
-      "Inglaterra, 1761. Un duque manda construir un canal para sacar el carbón de sus minas y llevarlo hasta la ciudad cercana, y la obra le parece a media Inglaterra un capricho carísimo de aristócrata. El precio del carbón en la ciudad cae a la mitad en cuanto el canal se abre al tráfico. Lo que hay detrás de esa caída no es un truco financiero ni un margen de intermediario, sino una diferencia física que hoy hemos olvidado por completo, sencillamente porque ya no movemos nada tirando de una cuerda.",
+      "Inglaterra, 1761. Un duque manda construir un canal para sacar el carbón de sus minas y llevarlo hasta la ciudad cercana, y la obra le parece a media Inglaterra un capricho carísimo de aristócrata. El precio del carbón en la ciudad cae a la mitad en cuanto el canal se abre al tráfico. Lo que hay detrás de esa caída no es un truco financiero ni un margen de intermediario, sino una diferencia física que hoy hemos olvidado por completo, sencillamente porque hace mucho que ya nadie mueve nada tirando de una cuerda con un animal.",
     paginas: [
       {
         rotulo: "El rozamiento",

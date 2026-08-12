@@ -58,7 +58,7 @@ export const FUNICULARES: Short[] = [
       },
     ],
     entrada:
-      "Suiza y Austria, segunda mitad del siglo XIX. Las ciudades crecen hacia laderas cada vez más empinadas y hace falta subir gente por cuestas donde ningún tranvía puede trepar, porque las ruedas de acero patinan sobre el raíl en cuanto la pendiente se pronuncia. La solución que se inventa entonces se llama funicular: un vagón que sube por una vía de raíles clavada en la ladera, tirado por un cable de acero. Lo curioso, y lo que casi nadie sabe al montarse, es de dónde saca la fuerza para subir.",
+      "Suiza y Austria, segunda mitad del siglo XIX. Las ciudades crecen hacia laderas cada vez más empinadas y hace falta subir gente por cuestas donde ningún tranvía puede trepar, porque las ruedas de acero patinan sobre el raíl en cuanto la pendiente se pronuncia. La solución que se inventa entonces se llama funicular: un vagón que sube por una vía de raíles clavada en la ladera, tirado por un cable de acero. Lo curioso, y lo que casi nadie sabe mientras se monta en uno, es de dónde saca ese vagón la fuerza para subir la cuesta.",
     paginas: [
       {
         rotulo: "El equilibrio",

@@ -121,7 +121,7 @@ export const CASCOS: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, años veinte del siglo XX. En las obras grandes —presas, puentes, rascacielos— las herramientas y los remaches que se caen desde arriba matan trabajadores con una regularidad que se acepta como parte del oficio, y no existe ninguna protección estándar: el que quiere se pone un sombrero de fieltro y poco más. Un fabricante de gorros de lona impermeable para marineros prueba entonces a endurecer sus sombreros con vapor y con varias capas de laca negra, y le ofrece el resultado a los obreros de las obras públicas.",
+      "Estados Unidos, años veinte del siglo XX. En las obras grandes —presas, puentes, rascacielos— las herramientas y los remaches que se caen desde arriba matan trabajadores con una regularidad que se acepta como parte del oficio, y no existe ninguna protección estándar: el que quiere se pone un sombrero de fieltro y poco más. Un fabricante de gorros de lona impermeable para marineros prueba entonces a endurecer sus sombreros con vapor y con varias capas de laca negra, y le ofrece el resultado a los obreros de las obras públicas, que hasta ese día no habían tenido nada mejor que la suerte.",
     paginas: [
       {
         rotulo: "El hueco",

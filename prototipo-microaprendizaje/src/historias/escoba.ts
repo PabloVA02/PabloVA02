@@ -123,7 +123,7 @@ export const ESCOBA: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos y el sur de Europa, siglo XIX. El sorgo es un cereal africano parecido al maíz que se cultiva en medio mundo para hacer harina y para dar de comer al ganado. Una de sus variedades salió rara: da un grano pequeño y de mal sabor. En cambio produce una panoja enorme, que es el racimo que remata el tallo, llena de ramitas largas, rectas y flexibles. A nadie le servía para comer. Y acabó cultivándose durante un siglo por lo único que hacía bien, que era barrer.",
+      "Estados Unidos y el sur de Europa, siglo XIX. El sorgo es un cereal africano parecido al maíz que se cultiva en medio mundo para hacer harina y para dar de comer al ganado. Una de sus variedades salió rara: da un grano pequeño y de mal sabor. En cambio produce una panoja enorme, que es el racimo que remata el tallo, llena de ramitas largas, rectas y flexibles. A nadie le servía para comer. Y acabó cultivándose en medio mundo durante más de un siglo por lo único que hacía bien, que era barrer un suelo.",
     paginas: [
       {
         rotulo: "La panoja",

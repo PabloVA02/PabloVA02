@@ -59,7 +59,7 @@ export const ESPEJOS: Short[] = [
       },
     ],
     entrada:
-      "Anatolia, hacia el año 6000 antes de Cristo. Aparecen los espejos más antiguos que se conservan, y no son de cristal ni se parecen a lo que hoy llamamos espejo: son discos de obsidiana, una piedra volcánica negra y vidriosa, pulidos a mano durante días hasta sacarles brillo. Devuelven una imagen oscura, verdosa y algo deformada, bastante peor que la de cualquier escaparate de hoy. Aun así es la primera vez que un ser humano puede mirarse la cara con cierta nitidez sin tener que agacharse sobre el agua quieta.",
+      "Anatolia, hacia el año 6000 antes de Cristo. Aparecen los espejos más antiguos que se conservan, y no son de cristal ni se parecen a lo que hoy llamamos espejo: son discos de obsidiana, una piedra volcánica negra y vidriosa, pulidos a mano durante días hasta sacarles brillo. Devuelven una imagen oscura, verdosa y algo deformada, bastante peor que la de cualquier escaparate de hoy. Aun así es la primera vez en la historia que un ser humano puede mirarse la cara con cierta nitidez, cuando quiera y donde quiera, sin tener que agacharse sobre un charco de agua quieta.",
     paginas: [
       {
         rotulo: "El bronce",

@@ -126,7 +126,7 @@ export const FOTOGRAFIA: Short[] = [
       },
     ],
     entrada:
-      "A bordo de la última misión tripulada a la Luna, en diciembre de 1972. A unos cuarenta y cinco mil kilómetros de casa, uno de los tres astronautas coge una cámara Hasselblad y dispara hacia atrás, casi sin pensarlo, entre dos tareas del plan de vuelo. En la imagen sale el planeta completo, redondo y encendido de lado a lado, sin un solo trozo en sombra, con África en el centro y la Antártida entera iluminada abajo. Es la fotografía que más veces se ha reproducido en toda la historia.",
+      "A bordo de la última misión tripulada a la Luna, en diciembre de 1972. A unos cuarenta y cinco mil kilómetros de casa, uno de los tres astronautas coge una cámara Hasselblad y dispara hacia atrás, casi sin pensarlo, entre dos tareas del plan de vuelo. En la imagen sale el planeta completo, redondo y encendido de lado a lado, sin un solo trozo en sombra, con África en el centro y la Antártida entera iluminada abajo. Nadie la encargó ni la había planeado nadie, y es la fotografía que más veces se ha reproducido en toda la historia.",
     paginas: [
       {
         rotulo: "La casualidad",

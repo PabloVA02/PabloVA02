@@ -127,7 +127,7 @@ export const JUSTICIA: Short[] = [
       },
     ],
     entrada:
-      "Bahía de San Francisco, junio de 1962. Alcatraz es una prisión federal montada en una isla rodeada de corrientes frías y fuertes, y la administración lleva veintinueve años presumiendo de que de allí no se ha escapado nadie con vida: quien lo intenta, dicen, se lo lleva el agua. La noche del 11 de junio, tres presos condenados por robo a mano armada desaparecen de sus celdas sin que nadie oiga nada. No se les ha vuelto a ver desde entonces, y el caso sigue oficialmente abierto sesenta años después.",
+      "Bahía de San Francisco, junio de 1962. Alcatraz es una prisión federal montada en una isla rodeada de corrientes frías y fuertes, y la administración lleva veintinueve años presumiendo de que de allí no se ha escapado nadie con vida: quien lo intenta, dicen, se lo lleva el agua. La noche del 11 de junio, tres presos condenados por robo a mano armada desaparecen de sus celdas sin que nadie oiga nada. No se les ha vuelto a ver desde entonces, ni vivos ni muertos, y el caso sigue oficialmente abierto sesenta años después.",
     paginas: [
       {
         rotulo: "Las cucharas",

@@ -124,7 +124,7 @@ export const CIENCIA: Short[] = [
       },
     ],
     entrada:
-      "París, 1898. Un matrimonio de científicos trabaja en un cobertizo con goteras, prestado por la escuela donde da clase él, del que ellos mismos escriben que en invierno hace el mismo frío que en la calle y en verano un calor insoportable. Están intentando aislar una sustancia nueva a partir de toneladas de un mineral de desecho traído de una mina de Bohemia, en la actual Chequia, removiendo la pasta hirviendo con una barra de hierro casi tan alta como ella. Tardarán cuatro años y sacarán un décimo de gramo.",
+      "París, 1898. Un matrimonio de científicos trabaja en un cobertizo con goteras, prestado por la escuela donde da clase él, del que ellos mismos escriben que en invierno hace el mismo frío que en la calle y en verano un calor insoportable. Están intentando aislar una sustancia nueva a partir de toneladas de un mineral de desecho traído de una mina de Bohemia, en la actual Chequia, removiendo la pasta hirviendo con una barra de hierro casi tan alta como ella. Tardarán cuatro años en conseguirlo y sacarán, de todas aquellas toneladas, un décimo de gramo de sustancia pura.",
     paginas: [
       {
         rotulo: "El cobertizo",
