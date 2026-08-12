@@ -122,7 +122,7 @@ export const PATINES: Short[] = [
       },
     ],
     entrada:
-      "Londres, 1760. Un inventor belga afincado en la ciudad fabrica instrumentos musicales y autómatas, esos muñecos de relojería que escriben o tocan solos, y tiene fama de aparecer en las fiestas con algún cacharro nuevo. Ese año se presenta en un baile de disfraces con unas ruedas de metal atornilladas a las suelas de los zapatos, algo que nadie ha visto nunca. La idea es buena y el momento es perfecto, porque toda la sala está mirando. Lo que no ha pensado es cómo se para.",
+      "Londres, 1760. Un inventor belga afincado en la ciudad fabrica instrumentos musicales y autómatas, esos muñecos de relojería que escriben o tocan solos, y tiene fama de aparecer en las fiestas con algún cacharro nuevo. Ese año se presenta en un baile de disfraces con unas ruedas de metal atornilladas a las suelas de los zapatos, algo que nadie ha visto nunca. La idea es buena y el momento es perfecto, porque toda la sala está mirando. Lo único que no ha pensado, con todo su ingenio de relojero, es cómo se frena aquello.",
     paginas: [
       {
         rotulo: "Dos ruedas",

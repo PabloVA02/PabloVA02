@@ -121,7 +121,7 @@ export const MONEDA: Short[] = [
       },
     ],
     entrada:
-      "Inglaterra, 1696. El país tiene un problema monetario grave: las monedas de plata en circulación pesan bastante menos de lo que deberían, porque durante décadas la gente les ha ido rebañando el borde con una lima y guardándose las virutas. Se calcula que la mitad del peso de la plata circulante ha desaparecido de esa manera.",
+      "Inglaterra, 1696. El país tiene un problema monetario grave: las monedas de plata en circulación pesan bastante menos de lo que deberían, porque durante décadas la gente les ha ido rebañando el borde con una lima y guardándose las virutas. Se calcula que cerca de la mitad del peso de toda la plata circulante del reino ha desaparecido de esa manera, viruta a viruta, sin que nadie pudiera demostrar nada. El problema no es la codicia de la gente: es que una moneda redonda y lisa no tiene forma de delatar que le han quitado un poco de borde.",
     paginas: [
       {
         rotulo: "La lima",

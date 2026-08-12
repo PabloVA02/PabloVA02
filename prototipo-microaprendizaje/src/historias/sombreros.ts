@@ -122,7 +122,7 @@ export const SOMBREROS: Short[] = [
       },
     ],
     entrada:
-      "Londres, 1849. Un aristócrata inglés entra en una sombrerería con un encargo poco habitual: quiere un sombrero para los guardas que vigilan a caballo sus tierras. Los que llevan, de copa alta y blandos, se enganchan con las ramas bajas y se caen constantemente, y algunos guardas han terminado en el suelo. Pide una pieza baja, redonda y sobre todo dura.",
+      "Londres, 1849. Un aristócrata inglés entra en una sombrerería con un encargo poco habitual: quiere un sombrero para los guardas que vigilan a caballo sus tierras. Los que llevan, de copa alta y blandos, se enganchan con las ramas bajas y se caen constantemente, y algunos guardas han terminado en el suelo. Lo que pide, entonces, es una pieza baja, redonda, muy ajustada y sobre todo dura: algo que aguante un golpe seco contra una rama sin partirse ni salir volando. Lo que está encargando, aunque no lo llame así, es un casco.",
     paginas: [
       {
         rotulo: "La prueba del pisotón",
