@@ -121,7 +121,7 @@ export const BOTICARIOS: Short[] = [
       },
     ],
     entrada:
-      "Reino de Sicilia, 1240. El emperador que gobierna el sur de Italia y buena parte del Mediterráneo promulga un conjunto de leyes sanitarias que no tiene precedente en ninguna parte: fija la formación de los médicos, los exámenes que deben pasar y hasta el precio de los remedios. Entre todas ellas hay una que sigue vigente en casi todo el mundo ocho siglos después. Un médico no puede tener botica ni participar en el negocio de un boticario, porque el conflicto de intereses es demasiado evidente.",
+      "Reino de Sicilia, 1240. El emperador que gobierna el sur de Italia y buena parte del Mediterráneo promulga un conjunto de leyes sanitarias que no tiene precedente en ninguna parte: fija la formación de los médicos, los exámenes que deben pasar y hasta el precio de los remedios. Entre todas ellas hay una que sigue vigente en casi todo el mundo ocho siglos después. Un médico no puede tener botica ni participar en el negocio de un boticario, porque el conflicto de intereses es demasiado evidente para dejarlo a la buena voluntad de nadie. Quien decide qué hay que tomar no puede ser el mismo que cobra por vendértelo.",
     paginas: [
       {
         rotulo: "El conflicto",

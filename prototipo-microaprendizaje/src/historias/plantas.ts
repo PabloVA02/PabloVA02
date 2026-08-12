@@ -60,7 +60,7 @@ export const PLANTAS: Short[] = [
       },
     ],
     entrada:
-      "Años ochenta, granjas de caza del norte de Sudáfrica. Miles de kudús, un antílope grande de cuernos en espiral, empiezan a morir sin causa aparente dentro de cercados donde tienen comida de sobra y ni un depredador cerca. Las jirafas, en cambio, que andan sueltas por la misma zona y comen de los mismos árboles, están perfectamente. El zoólogo Wouter van Hoven fue a mirar despacio qué comían unos y otras, y cómo lo comían, y encontró que la respuesta entera estaba en las hojas.",
+      "Años ochenta, granjas de caza del norte de Sudáfrica. Miles de kudús, un antílope grande de cuernos en espiral, empiezan a morir sin causa aparente dentro de cercados donde tienen comida de sobra y ni un depredador cerca. Las jirafas, en cambio, que andan sueltas por la misma zona y comen de los mismos árboles, están perfectamente. El zoólogo Wouter van Hoven fue a mirar despacio qué comían unos y otras, y cómo lo comían, y encontró que la respuesta entera estaba en las hojas de las acacias, y en algo que aquellos árboles llevaban haciendo desde mucho antes de que existieran los cercados.",
     paginas: [
       {
         rotulo: "El taninos",

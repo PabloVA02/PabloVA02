@@ -125,7 +125,7 @@ export const AIRBAGS: Short[] = [
       },
     ],
     entrada:
-      "Todos los coches modernos, con el sensor electrónico generalizado desde 1990. El airbag tiene que tomar una decisión en menos de veinte milésimas de segundo, sin consultar con nadie: decidir si lo que está pasando ahí fuera es un accidente o no lo es. Si se dispara por un bordillo o un bache, hiere a alguien sin ningún motivo y cuesta miles de euros de reparación. Si no se dispara en un choque de verdad, no sirve absolutamente de nada y lo mismo daría no haberlo montado.",
+      "Todos los coches modernos, con el sensor electrónico generalizado desde 1990. El airbag tiene que tomar una decisión en menos de veinte milésimas de segundo, sin consultar con nadie: decidir si lo que está pasando ahí fuera es un accidente o no lo es. Si se dispara por un bordillo o un bache, hiere a alguien sin ningún motivo y cuesta miles de euros de reparación. Si no se dispara en un choque de verdad, no sirve absolutamente de nada y lo mismo daría no haberlo montado. Todo lo que hace un airbag, y todo lo que se discute de él, sale de esa cuenta de veinte milésimas.",
     paginas: [
       {
         rotulo: "Medir el frenazo",

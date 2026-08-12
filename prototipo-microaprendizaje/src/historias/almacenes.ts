@@ -123,7 +123,7 @@ export const ALMACENES: Short[] = [
       },
     ],
     entrada:
-      "Almacenes de comercio electrónico, con el sistema documentado desde 1997. Cualquiera se imagina un almacén de esos como una tienda gigante: los libros con los libros, las sartenes con las sartenes, todo ordenado por tipo y por marca. Los grandes almacenes de reparto funcionan exactamente al revés, guardando cada cosa que llega en el primer hueco libre que aparezca, sin mirar qué es ni junto a qué queda. El resultado parece un caos absoluto, y resulta ser la manera más rápida que existe de encontrar algo.",
+      "Almacenes de comercio electrónico, con el sistema documentado desde 1997. Cualquiera se imagina un almacén de esos como una tienda gigante: los libros con los libros, las sartenes con las sartenes, todo ordenado por tipo y por marca. Los grandes almacenes de reparto funcionan exactamente al revés, guardando cada cosa que llega en el primer hueco libre que aparezca, sin mirar qué es ni junto a qué queda. El resultado, visto desde el pasillo, parece un caos absoluto y a cualquiera le entran ganas de ordenarlo. Y resulta ser, con los números delante, la manera más rápida que se conoce de encontrar algo.",
     paginas: [
       {
         rotulo: "El hueco libre",

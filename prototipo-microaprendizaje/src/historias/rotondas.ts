@@ -119,7 +119,7 @@ export const ROTONDAS: Short[] = [
       },
     ],
     entrada:
-      "Swindon, Inglaterra, 1972. Un ingeniero de tráfico tiene que resolver un cruce donde confluyen cinco carreteras a la vez, y ninguna rotonda normal cabe en el hueco ni da abasto con el tráfico que pasa. Su solución fue montar cinco rotondas pequeñas en corro y dejar el centro libre como un anillo más, con la particularidad de que en ese anillo interior se circula al revés que en las otras cinco. La llamaron la rotonda mágica, medio en broma, y medio siglo después sigue funcionando igual.",
+      "Swindon, Inglaterra, 1972. Un ingeniero de tráfico tiene que resolver un cruce donde confluyen cinco carreteras a la vez, y ninguna rotonda normal cabe en el hueco ni da abasto con el tráfico que pasa. Su solución fue montar cinco rotondas pequeñas en corro y dejar el centro libre como un anillo más, con la particularidad de que en ese anillo interior se circula al revés que en las otras cinco. La llamaron la rotonda mágica, medio en broma y medio en protesta, y medio siglo después sigue funcionando exactamente igual, con las mismas cinco rotondas y el mismo anillo al revés.",
     paginas: [
       {
         rotulo: "Los dos sentidos",

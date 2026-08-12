@@ -129,7 +129,7 @@ export const MAR: Short[] = [
       },
     ],
     entrada:
-      "En el Pacífico sur hay un punto que no tiene nada alrededor. La tierra firme más próxima está a 2.688 kilómetros, y no es una costa, sino tres islas diminutas que quedan en tres direcciones distintas y a la misma distancia exacta. Se llama punto Nemo, por el capitán de Julio Verne, y no lo encontró ningún navegante ni aparece en ninguna carta antigua: lo calculó un ingeniero con un ordenador en 1992, resolviendo un problema de geometría que a mano no hay manera de abordar.",
+      "En el Pacífico sur hay un punto que no tiene nada alrededor. La tierra firme más próxima está a 2.688 kilómetros, y no es una costa, sino tres islas diminutas que quedan en tres direcciones distintas y a la misma distancia exacta. Se llama punto Nemo, por el capitán de Julio Verne, y no lo encontró ningún navegante ni aparece en ninguna carta antigua: lo calculó un ingeniero con un ordenador en 1992, resolviendo un problema de geometría que a mano no hay manera de abordar. Nunca ha ido a verlo, y tampoco tendría mucho sentido ir.",
     paginas: [
       {
         rotulo: "El cálculo",

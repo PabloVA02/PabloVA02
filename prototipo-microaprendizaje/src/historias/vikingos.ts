@@ -123,7 +123,7 @@ export const VIKINGOS: Short[] = [
       },
     ],
     entrada:
-      "Terranova, en el este de Canadá, año 1021. Un grupo de escandinavos corta árboles para reparar un barco en un campamento levantado junto a la costa. Llevan siglos navegando hacia el oeste, saltando de Noruega a Islandia y de Islandia a Groenlandia, y sin saberlo acaban de llegar al continente americano cuatro siglos y medio antes que ningún otro europeo. Se quedan allí unos pocos años, no fundan nada permanente y se van. Mil años después, alguien consigue poner fecha exacta a aquellos cortes de hacha.",
+      "Terranova, en el este de Canadá, año 1021. Un grupo de escandinavos corta árboles para reparar un barco en un campamento levantado junto a la costa. Llevan siglos navegando hacia el oeste, saltando de Noruega a Islandia y de Islandia a Groenlandia, y sin saberlo acaban de llegar al continente americano cuatro siglos y medio antes que ningún otro europeo. Se quedan allí unos pocos años, no fundan nada permanente y se van. Mil años después, alguien consigue poner fecha exacta a aquellos cortes de hacha, y no con una horquilla de siglos, sino con año, y ese año es 1021.",
     paginas: [
       {
         rotulo: "El campamento",

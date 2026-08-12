@@ -59,7 +59,7 @@ export const RAYOSX: Short[] = [
       },
     ],
     entrada:
-      "Wurzburgo, en Alemania, noviembre de 1895. Un físico de cincuenta años trabaja a oscuras con un tubo de vacío cuidadosamente envuelto en cartón negro, y ve que una pantalla colocada al otro lado del laboratorio se ilumina sola cuando enciende el tubo. Algo está saliendo de ahí y atravesando el cartón, el aire y la mesa que hay en medio, sin que él pueda verlo ni explicarlo. Lo llama rayos equis, con la equis de las incógnitas, porque no tiene la menor idea de qué es.",
+      "Wurzburgo, en Alemania, noviembre de 1895. Un físico de cincuenta años trabaja a oscuras con un tubo de vacío cuidadosamente envuelto en cartón negro, y ve que una pantalla colocada al otro lado del laboratorio se ilumina sola cuando enciende el tubo. Algo está saliendo de ahí y atravesando el cartón, el aire y la mesa que hay en medio, sin que él pueda verlo ni explicarlo. Lo llama rayos equis, con la equis que en matemáticas señala lo que no se conoce, porque no tiene la menor idea de qué son ni de dónde salen. En siete semanas de trabajo encerrado en el laboratorio va a averiguar casi todo lo que se sabría de ellos durante años.",
     paginas: [
       {
         rotulo: "Siete semanas",

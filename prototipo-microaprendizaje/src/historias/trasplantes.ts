@@ -123,7 +123,7 @@ export const TRASPLANTES: Short[] = [
       },
     ],
     entrada:
-      "Sudáfrica, 3 de diciembre de 1967. Un equipo quirúrgico saca el corazón de una joven que ha muerto atropellada esa misma tarde y lo cose dentro del pecho de un hombre de cincuenta y cuatro años con el suyo destrozado por los infartos. El paciente despierta, habla, come y se hace fotos sentado en la cama. La noticia da la vuelta al mundo en horas y convierte al cirujano en una celebridad mundial. Muere dieciocho días después, de una neumonía, con el corazón nuevo latiendo perfectamente.",
+      "Sudáfrica, 3 de diciembre de 1967. Un equipo quirúrgico saca el corazón de una joven que ha muerto atropellada esa misma tarde y lo cose dentro del pecho de un hombre de cincuenta y cuatro años con el suyo destrozado por los infartos. El paciente despierta, habla, come y se hace fotos sentado en la cama. La noticia da la vuelta al mundo en horas y convierte al cirujano en una celebridad mundial. Muere dieciocho días después, de una neumonía, con el corazón nuevo latiendo perfectamente hasta el final. Esa contradicción, la de una operación que sale bien y un paciente que se muere igual, es la historia entera de los trasplantes durante los quince años siguientes.",
     paginas: [
       {
         rotulo: "El problema legal",

@@ -61,7 +61,7 @@ export const INVENTOS: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1945. Percy Spencer trabajaba en Raytheon con magnetrones, los tubos que generan las microondas de los radares militares y que la guerra acababa de convertir en un producto de fabricación masiva. Un día, de pie junto a uno encendido, notó que la chocolatina que llevaba en el bolsillo del pantalón se había convertido en una pasta pegajosa. Hasta ahí la anécdota, que es famosa y se cuenta siempre igual. Lo interesante viene después, y es exactamente lo contrario de asustarse y apartarse del aparato.",
+      "Estados Unidos, 1945. Percy Spencer trabajaba en Raytheon con magnetrones, los tubos que generan las microondas de los radares militares y que la guerra acababa de convertir en un producto de fabricación masiva. Un día, de pie junto a uno encendido, notó que la chocolatina que llevaba en el bolsillo del pantalón se había convertido en una pasta pegajosa. Hasta ahí la anécdota, que es famosa y se cuenta siempre igual. Lo interesante viene después, y es exactamente lo contrario de asustarse y apartarse del aparato: lo que hizo Spencer fue ir a buscar más comida para ver hasta dónde llegaba aquello.",
     paginas: [
       {
         rotulo: "El maíz",

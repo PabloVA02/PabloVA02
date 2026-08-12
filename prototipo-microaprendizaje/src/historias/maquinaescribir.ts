@@ -58,7 +58,7 @@ export const MAQUINA_ESCRIBIR: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 1874. Sale a la venta la primera máquina de escribir fabricada en serie, un armatoste de hierro negro decorado con flores pintadas a mano, con pedal para devolver el carro como si fuera una máquina de coser, y con un defecto que hoy parece sencillamente inconcebible: quien escribe no ve lo que está escribiendo. Las letras van apareciendo en la cara oculta del papel, debajo del rodillo, y para comprobar una línea hay que interrumpirse y levantar el carro con las dos manos.",
+      "Estados Unidos, 1874. Sale a la venta la primera máquina de escribir fabricada en serie, un armatoste de hierro negro decorado con flores pintadas a mano, con pedal para devolver el carro como si fuera una máquina de coser, y con un defecto que hoy parece sencillamente inconcebible: quien escribe no ve lo que está escribiendo. Las letras van apareciendo en la cara oculta del papel, debajo del rodillo, y para comprobar una línea hay que interrumpirse, soltar el trabajo y levantar el carro con las dos manos. Esa incomodidad, que hoy parece un fallo de diseño de primero de carrera, se mantuvo durante veinte años y tuvo su motivo.",
     paginas: [
       {
         rotulo: "El golpe de abajo",

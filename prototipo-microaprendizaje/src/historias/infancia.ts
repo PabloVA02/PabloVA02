@@ -59,7 +59,7 @@ export const INFANCIA: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglos XIV a XVII. Cualquiera que pasee por la sala de pintura antigua de un museo lo nota enseguida y le resulta incómodo sin saber muy bien por qué: en los cuadros de esa época los niños tienen cara de adulto en miniatura, van vestidos igual que sus padres, con las mismas telas y los mismos encajes, y posan con la misma seriedad. En 1960, un historiador francés partió de esa observación para sostener una tesis que levantó una polémica todavía viva sesenta años después.",
+      "Europa, siglos XIV a XVII. Cualquiera que pasee por la sala de pintura antigua de un museo lo nota enseguida y le resulta incómodo sin saber muy bien por qué: en los cuadros de esa época los niños tienen cara de adulto en miniatura, van vestidos igual que sus padres, con las mismas telas y los mismos encajes, y posan con la misma seriedad. En 1960, un historiador francés partió de esa observación para sostener una tesis incómoda que levantó una polémica todavía viva sesenta años después, y que se resume en una frase muy corta: que la infancia, tal y como la entendemos hoy, no ha existido siempre.",
     paginas: [
       {
         rotulo: "La tesis",
