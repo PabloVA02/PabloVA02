@@ -88,8 +88,42 @@ export const TABACO: Short[] = [
     categoria: "Tabaco",
     color: "var(--slate)",
     encargo: "Un archivador metálico abierto lleno de carpetas de papel amarillento.",
+    fotos: [
+      {
+        archivo: "Tobacco plants in rows; Clover, VA; 2013-07-14.JPG",
+        autor: "Plantación de tabaco en hileras cerca de Clover, en Virginia.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATobacco%20plants%20in%20rows%3B%20Clover%2C%20VA%3B%202013-07-14.JPG",
+        foco: "50% 55%",
+        alt: "Campo de tabaco con las plantas de hojas anchas plantadas en surcos rectos, con árboles al fondo.",
+      },
+      {
+        archivo: "A typical Tobacco-barn in the Dordogne region, where the leaves from the tobacco plants can dry in the open air. That they can still live from such harvest^^ - panoramio.jpg",
+        autor: "Secadero de tabaco en la Dordoña francesa, con las paredes abiertas para que corra el aire.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AA%20typical%20Tobacco-barn%20in%20the%20Dordogne%20region%2C%20where%20the%20leaves%20from%20the%20tobacco%20plants%20can%20dry%20in%20the%20open%20air.%20That%20they%20can%20still%20live%20from%20such%20harvest%5E%5E%20-%20panoramio.jpg",
+        foco: "50% 50%",
+        alt: "Nave de madera con listones separados por donde entra el aire, usada para secar hojas de tabaco.",
+      },
+      {
+        archivo: "Modern techniques for drying tobacco plants in the Dordogne region - panoramio.jpg",
+        autor: "Secado moderno de tabaco en la misma región francesa.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AModern%20techniques%20for%20drying%20tobacco%20plants%20in%20the%20Dordogne%20region%20-%20panoramio.jpg",
+        foco: "50% 50%",
+        alt: "Estructura agrícola con plásticos y bastidores donde se cuelgan las hojas de tabaco a secar.",
+      },
+      {
+        archivo: "Still smoking (2329760820).jpg",
+        autor: "Cigarrillo encendido consumiéndose solo en un cenicero.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AStill%20smoking%20(2329760820).jpg",
+        foco: "50% 50%",
+        alt: "Cigarrillo apoyado y encendido, con la brasa naranja y una columna fina de humo subiendo.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1969. Un abogado de una tabacalera escribe un memorándum interno con una frase que décadas más tarde se hará famosa en los tribunales: la duda es nuestro producto, porque es la mejor manera de competir con los hechos que ya existen en la cabeza del público. El documento saldrá a la luz en 1998.",
+      "Estados Unidos, 1969. Un abogado de una tabacalera escribe un memorándum interno para uso de la casa con una frase que treinta años después se hará famosa en los tribunales de medio mundo: la duda es nuestro producto, porque es la mejor manera de competir con los hechos que ya están en la cabeza del público. No dice que haya que mentir, ni que haya que negar nada. Dice que basta con que la gente crea que el asunto está en discusión. El documento saldrá a la luz en 1998, dentro de un acuerdo judicial.",
     paginas: [
       {
         rotulo: "La estrategia",
