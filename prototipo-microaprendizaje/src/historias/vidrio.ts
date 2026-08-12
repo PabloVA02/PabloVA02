@@ -88,8 +88,42 @@ export const VIDRIO: Short[] = [
     categoria: "Vidrio",
     color: "var(--slate)",
     encargo: "Una cinta continua de vidrio incandescente saliendo de un horno industrial.",
+    fotos: [
+      {
+        archivo: "Folklore Furnace.jpg",
+        autor: "Vidriero sacando del horno una masa de vidrio al rojo en la punta de la caña.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFolklore%20Furnace.jpg",
+        foco: "55% 58%",
+        alt: "Hombre de perfil ante la boca encendida de un horno, sosteniendo una barra con vidrio incandescente en el extremo.",
+      },
+      {
+        archivo: "Taean Friendship Glass Factory - 03.jpg",
+        autor: "Nave de una fábrica de vidrio, con la línea de producción en marcha.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATaean%20Friendship%20Glass%20Factory%20-%2003.jpg",
+        foco: "50% 50%",
+        alt: "Interior de una fábrica de vidrio, con maquinaria alineada, cintas y operarios trabajando.",
+      },
+      {
+        archivo: "Glass-making Electric Furnace 1.jpg",
+        autor: "Horno eléctrico de vidrio abierto durante una demostración pública.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AGlass-making%20Electric%20Furnace%201.jpg",
+        foco: "50% 50%",
+        alt: "Boca de un horno de vidrio con el interior naranja incandescente y herramientas apoyadas al lado.",
+      },
+      {
+        archivo: "Clouds in a tall glass facade (Unsplash).jpg",
+        autor: "Nubes reflejadas en la fachada acristalada de un edificio de Londres.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AClouds%20in%20a%20tall%20glass%20facade%20(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Pared entera de cristal de un rascacielos, con el cielo y las nubes reflejados sin deformarse.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1952. Fabricar una luna de cristal plano y sin deformaciones es carísimo: se cuela el vidrio fundido, se deja enfriar y después hay que desbastarlo y pulirlo por las dos caras durante días, desperdiciando por el camino una parte enorme del material. Un ingeniero de una fábrica de vidrio propone entonces algo bastante raro.",
+      "Inglaterra, 1952. Fabricar una luna de cristal plano y sin deformaciones es carísimo, y lo es por una razón puramente mecánica: se cuela el vidrio fundido sobre una mesa, se deja enfriar y después hay que desbastarlo y pulirlo por las dos caras durante días, con abrasivos y con máquinas grandes, desperdiciando por el camino una parte enorme del material que ya se había pagado. Todo el mundo en el oficio da por hecho que ese es el precio de tener un cristal decente. Un ingeniero de una fábrica de vidrio propone entonces algo que suena a disparate.",
     paginas: [
       {
         rotulo: "La idea",
