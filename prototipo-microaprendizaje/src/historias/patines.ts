@@ -87,6 +87,40 @@ export const PATINES: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Un zapato del siglo XVIII con ruedas de metal atornilladas a la suela.",
+    fotos: [
+      {
+        archivo: "Roller skates 1928 (JOKAOT3UR8-1).tif",
+        autor: "Patinadora con patines de ruedas en línea para entrenar en verano, fotografiada en 1928.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARoller%20skates%201928%20(JOKAOT3UR8-1).tif",
+        foco: "45% 48%",
+        alt: "Mujer con boina y falda plisada en pose de patinaje, con patines de ruedas en línea en los pies.",
+      },
+      {
+        archivo: "Quad roller skates with leather protections (DSC07433).jpg",
+        autor: "Patines de cuatro ruedas con protecciones de cuero, de los que se usan en roller derby.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AQuad%20roller%20skates%20with%20leather%20protections%20(DSC07433).jpg",
+        foco: "50% 50%",
+        alt: "Par de patines de cuatro ruedas con la bota de cuero y los ejes metálicos a la vista.",
+      },
+      {
+        archivo: "Roller skaters on the move.jpg",
+        autor: "Patinadores entrenando en un aparcamiento de Nakuru, en Kenia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARoller%20skaters%20on%20the%20move.jpg",
+        foco: "50% 50%",
+        alt: "Grupo de patinadores en fila cruzando una explanada de asfalto.",
+      },
+      {
+        archivo: "Oaks Amusement Park - Roller Rink (6278719115).jpg",
+        autor: "Pista cubierta de patinaje del parque Oaks, en Portland.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AOaks%20Amusement%20Park%20-%20Roller%20Rink%20(6278719115).jpg",
+        foco: "50% 50%",
+        alt: "Pista de patinaje cubierta con suelo de madera brillante y luces de colores en el techo.",
+      },
+    ],
     entrada:
       "Londres, 1760. Un inventor belga afincado en la ciudad fabrica instrumentos musicales y autómatas, esos muñecos de relojería que escriben o tocan solos, y tiene fama de aparecer en las fiestas con algún cacharro nuevo. Ese año se presenta en un baile de disfraces con unas ruedas de metal atornilladas a las suelas de los zapatos, algo que nadie ha visto nunca. La idea es buena y el momento es perfecto, porque toda la sala está mirando. Lo que no ha pensado es cómo se para.",
     paginas: [
