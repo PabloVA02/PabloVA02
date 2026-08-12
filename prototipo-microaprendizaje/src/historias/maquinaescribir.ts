@@ -87,8 +87,42 @@ export const MAQUINA_ESCRIBIR: Short[] = [
     categoria: "Máquina de escribir",
     color: "var(--slate)",
     encargo: "Una sala larga con filas de mesas iguales y máquinas de escribir negras alineadas.",
+    fotos: [
+      {
+        archivo: "Underwood Typewriter Assembly 1962.jpg",
+        autor: "Cadena de montaje de máquinas de escribir en la fábrica de Underwood en Hartford, Connecticut, 1962.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AUnderwood%20Typewriter%20Assembly%201962.jpg",
+        foco: "45% 50%",
+        alt: "Fila de mujeres trabajando una detrás de otra en el montaje de máquinas de escribir sobre un banco largo.",
+      },
+      {
+        archivo: "UNDERWOOD TYPEWRITER CO. LCCN2016861738.jpg",
+        autor: "Local de la Underwood Typewriter Co., fotografiado hacia 1905.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AUNDERWOOD%20TYPEWRITER%20CO.%20LCCN2016861738.jpg",
+        foco: "50% 50%",
+        alt: "Interior de una tienda de máquinas de escribir de principios del siglo XX, con los aparatos expuestos en mesas.",
+      },
+      {
+        archivo: "SWEN. STENOGRAPHER TO THE PRESIDENT LOC hec.06843.tif",
+        autor: "Taquígrafo de la presidencia estadounidense fotografiado entre 1911 y 1917.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASWEN.%20STENOGRAPHER%20TO%20THE%20PRESIDENT%20LOC%20hec.06843.tif",
+        foco: "50% 45%",
+        alt: "Retrato de un oficinista sentado a su mesa con una máquina de escribir delante.",
+      },
+      {
+        archivo: "Máquina de escribir Underwood Standard.jpg",
+        autor: "Máquina de escribir Underwood Standard, el modelo que se llevó las oficinas del mundo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AM%C3%A1quina%20de%20escribir%20Underwood%20Standard.jpg",
+        foco: "50% 50%",
+        alt: "Máquina de escribir negra de varillas vista de frente, con el carro y las teclas redondas.",
+      },
+    ],
     entrada:
-      "Estados Unidos y Reino Unido, entre 1880 y 1900. Hasta entonces la oficina es un sitio de hombres: el copista, que pasa a mano los documentos con letra cuidada, es un oficio masculino con aprendizaje largo y aspiraciones de ascenso. En veinte años eso se da la vuelta por completo, y la palanca del cambio es una máquina de hierro con teclas.",
+      "Estados Unidos y Reino Unido, entre 1880 y 1900. Hasta entonces la oficina es un sitio de hombres, y no por casualidad: el copista, que pasa a mano los documentos con letra cuidada, es un oficio masculino con aprendizaje largo, escalafón propio y aspiraciones de ascenso dentro de la casa. En veinte años eso se da la vuelta por completo y la oficina se llena de mujeres, con otro sueldo y sin ese escalafón. La palanca de todo ese cambio no fue una ley ni una campaña: fue una máquina de hierro con teclas.",
     paginas: [
       {
         rotulo: "Las demostradoras",
