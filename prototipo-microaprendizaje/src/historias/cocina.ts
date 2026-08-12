@@ -128,7 +128,7 @@ export const COCINA: Short[] = [
       },
     ],
     entrada:
-      "La historia se cuenta siempre con mucha seguridad y queda muy bien contada: los agricultores holandeses del siglo XVII seleccionaron zanahorias naranjas en honor a Guillermo de Orange, y por eso todas las zanahorias del mundo son hoy de ese color y no de otro. Conviene separar las dos mitades de la frase antes de repetirla. La parte de que antes no eran naranjas, sino moradas, blancas y amarillas, es rigurosamente cierta y está bien documentada. La parte del homenaje patriótico es justo donde los papeles empiezan a ponerse escurridizos.",
+      "La historia se cuenta siempre con mucha seguridad y queda muy bien contada: los agricultores holandeses del siglo XVII seleccionaron zanahorias naranjas en honor a Guillermo de Orange, y por eso todas las zanahorias del mundo son hoy de ese color y no de otro. Conviene separar las dos mitades de la frase antes de repetirla. La parte de que antes no eran naranjas, sino moradas, blancas y amarillas, es rigurosamente cierta y está bien documentada. La parte del homenaje patriótico, en cambio, es justo donde los papeles empiezan a ponerse escurridizos y donde nadie consigue enseñar el documento que lo demuestre.",
     paginas: [
       {
         rotulo: "El color original",

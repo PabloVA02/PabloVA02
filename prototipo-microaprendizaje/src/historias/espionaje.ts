@@ -127,7 +127,7 @@ export const ESPIONAJE: Short[] = [
       },
     ],
     entrada:
-      "Aguas frente a la costa de Huelva, al amanecer del 30 de abril de 1943. Un submarino británico emerge y su tripulación deposita en el mar el cuerpo de un hombre con uniforme de oficial de Marina, chaleco salvavidas y una cartera de cuero encadenada al cinturón. La marea lo lleva a la playa. Dentro de la cartera hay documentos secretos, y todos son falsos.",
+      "Aguas frente a la costa de Huelva, al amanecer del 30 de abril de 1943. Un submarino británico emerge y su tripulación deposita en el mar el cuerpo de un hombre con uniforme de oficial de Marina, chaleco salvavidas y una cartera de cuero encadenada al cinturón. La marea lo lleva a la playa. La marea, que alguien ha calculado con cuidado desde Londres, lo lleva despacio hasta la playa. Dentro de aquella cartera hay documentos secretos de la más alta graduación, con sellos y firmas auténticas, y todos y cada uno de ellos son falsos.",
     paginas: [
       {
         rotulo: "El personaje",

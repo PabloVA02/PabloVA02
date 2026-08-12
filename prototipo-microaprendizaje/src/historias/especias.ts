@@ -123,7 +123,7 @@ export const ESPECIAS: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglos XIII a XVI. Las especias asiáticas llegan por tierra y por mar y cuestan una fortuna: un puñado de pimienta puede valer lo que varios días de jornal de un obrero. La explicación que se repite en clase es que servían para disimular el sabor de la carne en mal estado. La cuenta, sencillamente, no sale por ningún lado.",
+      "Europa, siglos XIII a XVI. Las especias asiáticas llegan por tierra y por mar y cuestan una fortuna: un puñado de pimienta puede valer lo que varios días de jornal de un obrero. La explicación que se repite en clase es que servían para disimular el sabor de la carne en mal estado. La cuenta, sencillamente, no sale por ningún lado en cuanto se miran los precios de las dos cosas: quien podía pagar la pimienta podía pagar carne fresca sin ningún problema, y quien comía carne pasada no tenía con qué comprar la pimienta.",
     paginas: [
       {
         rotulo: "El precio",
