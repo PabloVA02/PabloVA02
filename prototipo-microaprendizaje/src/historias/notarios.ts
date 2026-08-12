@@ -79,13 +79,50 @@ export const NOTARIOS: Short[] = [
   },
   {
     id: "el-testamento",
-    titulo: "Un testamento dictado a cinco vecinos",
+    titulo: "Dictado a cinco vecinos",
     gancho: "El más seguro se firma ante notario. El más raro se dicta de palabra a cinco vecinos en peligro de muerte.",
     categoria: "Justicia",
     color: "var(--clay)",
     encargo: "Sobre lacrado con un testamento manuscrito dentro de un cajón antiguo.",
+    fotos: [
+      {
+        archivo: "Ferdinand Georg Waldmüller 006.jpg",
+        autor: "Óleo de Ferdinand Georg Waldmüller, 1835: la familia del notario Josef August Eltz al completo, delante de su pueblo.",
+        licencia: "Public domain",
+        pdPorEdad: 1865,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFerdinand%20Georg%20Waldm%C3%BCller%20006.jpg",
+        foco: "50% 42%",
+        alt: "Retrato de grupo al aire libre: padres, hijos y abuelos posando en una ladera con un pueblo y montañas al fondo.",
+      },
+      {
+        archivo: "Man Writing a Letter by Gabriël Metsu.jpg",
+        autor: "Óleo de Gabriel Metsu, hacia 1665: un hombre escribiendo junto a la ventana. National Gallery of Ireland, Dublín.",
+        licencia: "Public domain",
+        pdPorEdad: 1667,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMan%20Writing%20a%20Letter%20by%20Gabri%C3%ABl%20Metsu.jpg",
+        foco: "50% 45%",
+        alt: "Hombre sentado a una mesa cubierta con un tapete, escribiendo con pluma a la luz que entra por la ventana.",
+      },
+      {
+        archivo: "Vernet, Claude Joseph - The Shipwreck - 1772.jpg",
+        autor: "Óleo de Joseph Vernet, 1772: un naufragio contra la costa en plena tormenta. National Gallery of Art, Washington.",
+        licencia: "Public domain",
+        pdPorEdad: 1789,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVernet%2C%20Claude%20Joseph%20-%20The%20Shipwreck%20-%201772.jpg",
+        foco: "45% 55%",
+        alt: "Barco desarbolado contra unas rocas mientras la gente de la costa tiende cuerdas entre olas y árboles doblados por el viento.",
+      },
+      {
+        archivo: "Rupit Castle Ruin and Village.jpg",
+        autor: "El pueblo de Rupit, en la comarca de Osona, con las ruinas de su castillo medieval. Fotografía de 2025.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARupit%20Castle%20Ruin%20and%20Village.jpg",
+        foco: "50% 45%",
+        alt: "Vista panorámica de un pueblo de casas de piedra con tejados de teja y campanario, encaramado sobre riscos entre bosques.",
+      },
+    ],
     entrada:
-      "España, con el código civil vigente desde 1889. La ley reconoce varias formas de hacer testamento, y no todas necesitan un notario delante. La más común se firma en una notaría, se guarda en el protocolo y queda anotada en un registro central. Las demás existen para situaciones raras, y una de ellas es tan antigua que parece sacada de otro siglo.",
+      "España, con el código civil vigente desde 1889. La ley reconoce varias formas distintas de hacer testamento, y no todas necesitan un notario delante. La más común se firma en una notaría, se guarda en el protocolo y queda anotada en un registro central, de modo que siempre se puede encontrar. Las demás existen para situaciones raras, para las prisas y para los sitios donde no hay nadie con título que pueda dar fe. Una de ellas es tan antigua que parece sacada de otro siglo, y sin embargo sigue escrita en el código, esperando el día que haga falta.",
     paginas: [
       {
         rotulo: "Escrito a mano",
