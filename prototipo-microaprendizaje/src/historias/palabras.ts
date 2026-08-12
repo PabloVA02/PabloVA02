@@ -88,13 +88,48 @@ export const PALABRAS: Short[] = [
 
   {
     id: "ok-broma",
-    titulo: "Nació como una broma mal escrita",
+    titulo: "Una broma mal escrita",
     gancho: "La palabra más usada del planeta empezó siendo un chiste de periodistas de Boston.",
     categoria: "Palabras",
     color: "var(--slate)",
     encargo: "Una página de periódico del siglo XIX en primer plano, tipografía de plomo.",
+    fotos: [
+      {
+        archivo: "Musée de l'imprimerie de Nantes - 020 - Linotype, Intertype.jpg",
+        autor: "Máquina de componer Intertype conservada en el Museo de la Imprenta de Nantes.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20l%27imprimerie%20de%20Nantes%20-%20020%20-%20Linotype%2C%20Intertype.jpg",
+        foco: "42% 58%",
+        alt: "Máquina de imprenta de hierro negro con un gran depósito inclinado lleno de canales metálicos paralelos.",
+      },
+      {
+        archivo: "Musée de l'imprimerie de Nantes - 022 - Linotype, assembleur de la linotype.jpg",
+        autor: "El ensamblador de una linotipia: la parte donde las matrices caen en fila para formar la línea.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20l%27imprimerie%20de%20Nantes%20-%20022%20-%20Linotype%2C%20assembleur%20de%20la%20linotype.jpg",
+        foco: "50% 50%",
+        alt: "Detalle mecánico de una máquina de componer, con piezas de latón y acero encajadas unas contra otras.",
+      },
+      {
+        archivo: "Martin Van Buren by George PA Healy, 1858.jpg",
+        autor: "Retrato de Martin Van Buren pintado por George P. A. Healy en 1858, casi veinte años después del OK Club.",
+        licencia: "Public domain",
+        pdPorEdad: 1894,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMartin%20Van%20Buren%20by%20George%20PA%20Healy%2C%201858.jpg",
+        foco: "50% 35%",
+        alt: "Retrato al óleo de un hombre mayor de pelo blanco y patillas, con levita oscura, sentado y mirando de frente.",
+      },
+      {
+        archivo: "Buzz Aldrin by Neil Armstrong.jpg",
+        autor: "Buzz Aldrin fotografiado por Neil Armstrong en el mar de la Tranquilidad, julio de 1969. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABuzz%20Aldrin%20by%20Neil%20Armstrong.jpg",
+        foco: "50% 40%",
+        alt: "Astronauta con traje blanco de pie en la Luna, con el reflejo del compañero y del módulo en el visor dorado.",
+      },
+    ],
     entrada:
-      "Se dice en casi todos los idiomas y muchos hablantes no sabrían decir de qué son iniciales. Hay decenas de teorías: que si el griego, que si el choctaw, que si un tal Obadiah Kelly, que si unas galletas escocesas. La respuesta buena está documentada con fecha exacta, y es más tonta que todas las teorías juntas.",
+      "Se dice en casi todos los idiomas del mundo y muchos hablantes no sabrían decir de qué son iniciales, ni siquiera si lo son. Hay decenas de teorías sobre su origen y casi todas suenan mejor que la verdadera: que si el griego, que si una lengua indígena de Norteamérica, que si un tal Obadiah Kelly que firmaba los albaranes, que si unas galletas escocesas. La respuesta buena está documentada con fecha exacta, día y periódico incluidos, y resulta ser más tonta que todas las teorías juntas. Es un chiste de imprenta que se le fue de las manos a sus autores.",
     paginas: [
       {
         rotulo: "La moda del error",
