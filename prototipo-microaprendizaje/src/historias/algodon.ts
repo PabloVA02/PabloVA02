@@ -85,8 +85,42 @@ export const ALGODON: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una tela blanquísima y translúcida colgando, con la luz pasando a través.",
+    fotos: [
+      {
+        archivo: "Moslin 1.jpg",
+        autor: "Un sari de muselina entero pasado por un anillo de dedo, en un taller de Bengala Occidental.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMoslin%201.jpg",
+        foco: "50% 50%",
+        alt: "Tela blanquísima y finísima recogida y atravesada por un anillo pequeño, sobre fondo azul oscuro.",
+      },
+      {
+        archivo: "Moslin 5.jpg",
+        autor: "Rueca especial con la que se hila el hilo finísimo de la muselina.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMoslin%205.jpg",
+        foco: "50% 50%",
+        alt: "Rueca de madera pequeña con una rueda de radios finos y un huso, apoyada en el suelo.",
+      },
+      {
+        archivo: "Quarry Bank Mill Styal.jpg",
+        autor: "La fábrica textil de Quarry Bank, en Cheshire, una de las que hilaron algodón a máquina desde 1784.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AQuarry%20Bank%20Mill%20Styal.jpg",
+        foco: "50% 50%",
+        alt: "Fábrica de ladrillo de varias plantas junto a un río, con hileras de ventanas iguales.",
+      },
+      {
+        archivo: "Moslin 8.jpg",
+        autor: "Sari de muselina a medio tejer en el telar, con los dibujos entrando hilo a hilo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMoslin%208.jpg",
+        foco: "50% 50%",
+        alt: "Tela translúcida sobre un telar, con motivos rosas y grises y los hilos de la urdimbre tensados detrás.",
+      },
+    ],
     entrada:
-      "Bengala, siglos XVII y XVIII. En la llanura de un gran río se teje el tejido más fino del mundo. Es una muselina de algodón tan ligera que una pieza de varios metros cabe en una caja de cerillas y pasa entera por un anillo. Se exporta a las cortes europeas a precios altísimos, y en el siglo XIX desaparece por completo.",
+      "Bengala, siglos XVII y XVIII. En la llanura de un gran río se teje el tejido más fino que se ha hecho nunca con algodón. Es una muselina tan ligera que una pieza de varios metros cabe en una caja de cerillas y pasa entera por un anillo de dedo, y tan translúcida que en las cortes europeas se llegó a discutir si era decente ponérsela. Se exportaba a precios altísimos y era el producto más caro que salía de la región. En el siglo XIX desapareció por completo, con la variedad de algodón, con los telares y con quien sabía hacerla.",
     paginas: [
       {
         rotulo: "El hilo",
