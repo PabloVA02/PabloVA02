@@ -92,6 +92,40 @@ export const OBJETOS: Short[] = [
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Una cremallera metálica abierta a medias, muy de cerca, dientes nítidos.",
+    fotos: [
+      {
+        archivo: "Cremallera.001 - Primer plano.jpg",
+        autor: "Cremallera de espiral de una mochila fotografiada muy de cerca.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACremallera.001%20-%20Primer%20plano.jpg",
+        foco: "50% 50%",
+        alt: "Macro de una cremallera de nailon color ámbar cosida entre dos tejidos negros.",
+      },
+      {
+        archivo: "Macro YKK Zipper.jpg",
+        autor: "Cremallera metálica cosida a una tela vaquera, vista en macro.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMacro%20YKK%20Zipper.jpg",
+        foco: "50% 50%",
+        alt: "Dientes metálicos de una cremallera encajados uno a uno sobre tejido vaquero azul.",
+      },
+      {
+        archivo: "Coil plastic and metal zippers.jpg",
+        autor: "Cremalleras de espiral, de plástico y de metal, una al lado de la otra.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACoil%20plastic%20and%20metal%20zippers.jpg",
+        foco: "50% 50%",
+        alt: "Tres cremalleras de distinto tipo alineadas, con sus tiradores y sus dientes bien visibles.",
+      },
+      {
+        archivo: "Black worn leather jacket detail 1.jpg",
+        autor: "Detalle de una cazadora de cuero muy usada, con la cremallera del bolsillo.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABlack%20worn%20leather%20jacket%20detail%201.jpg",
+        foco: "50% 50%",
+        alt: "Cuero negro gastado con costuras y una cremallera metálica cruzando el bolsillo.",
+      },
+    ],
     entrada:
       "En la Exposición Universal de Chicago de 1893, un ingeniero llamado Whitcomb Judson presentó un cierre para botas al que llamó <em>clasp locker</em>. Los visitantes lo miraron con curiosidad y no lo compró casi nadie. El aparato se atascaba, se abría solo en el peor momento y era carísimo. Tenía casi todo lo que hace falta para fracasar, y fracasó a conciencia durante veinte años largos, con dos empresas quebradas por el camino y una lista de compradores que cabía en media hoja. Nadie lo habría apostado entonces, pero ese cierre inútil acabaría metiéndose en la ropa de todo el planeta.",
     paginas: [
