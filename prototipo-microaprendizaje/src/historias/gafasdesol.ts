@@ -152,8 +152,42 @@ export const GAFAS_DE_SOL: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Misma escena de un río vista con y sin filtro polarizado, con el fondo visible en una mitad.",
+    fotos: [
+      {
+        archivo: "Dülmen, Hausdülmen, Kettbach -- 2015 -- 8499-503.jpg",
+        autor: "El arroyo Kettbach reflejando el cielo, Dülmen, Alemania, 2015.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AD%C3%BClmen%2C%20Hausd%C3%BClmen%2C%20Kettbach%20--%202015%20--%208499-503.jpg",
+        foco: "50% 60%",
+        alt: "Arroyo recto entre maizales que devuelve el cielo y las nubes como un espejo.",
+      },
+      {
+        archivo: "Haltern am See, Westruper Heide, Pfütze -- 2024 -- 5602-6.jpg",
+        autor: "Charco en el brezal de Westrup, Haltern am See, Alemania, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHaltern%20am%20See%2C%20Westruper%20Heide%2C%20Pf%C3%BCtze%20--%202024%20--%205602-6.jpg",
+        foco: "50% 55%",
+        alt: "Charco en un camino de brezal que refleja el cielo y los árboles del fondo.",
+      },
+      {
+        archivo: "Dülmen, Merfeld, Feldweg am Mühlenbach -- 2021 -- 4347-51.jpg",
+        autor: "Camino junto al Mühlenbach, Merfeld, Alemania, 2021.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AD%C3%BClmen%2C%20Merfeld%2C%20Feldweg%20am%20M%C3%BChlenbach%20--%202021%20--%204347-51.jpg",
+        foco: "50% 55%",
+        alt: "Camino de campo mojado en invierno junto a un arroyo, con la luz baja de la mañana.",
+      },
+      {
+        archivo: "Münster, Torminbrücke -- 2018 -- 3592.jpg",
+        autor: "El lago Aa desde el puente Tormin, Münster, Alemania, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AM%C3%BCnster%2C%20Torminbr%C3%BCcke%20--%202018%20--%203592.jpg",
+        foco: "50% 55%",
+        alt: "Agua quieta de un lago urbano al amanecer, con reflejos alargados sobre la superficie.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1936. Un estudiante había patentado años antes una lámina de plástico capaz de dejar pasar la luz que vibra en una dirección y bloquear la que vibra en otra. Aquel año esa lámina llega a las gafas de sol y resuelve un problema que ningún cristal oscuro había resuelto: el reflejo cegador del agua, de la nieve y del asfalto mojado.",
+      "Estados Unidos, 1936. Un estudiante de Harvard había patentado años antes, trabajando casi solo, una lámina de plástico capaz de dejar pasar la luz que vibra en una dirección y bloquear la que vibra en la otra. Aquel año esa lámina llega por fin a las gafas de sol y resuelve de golpe un problema que ningún cristal oscuro había conseguido resolver por más que se oscureciera: el reflejo cegador del agua, de la nieve y del asfalto mojado. No es que las gafas oscurezcan más, es que quitan una luz concreta y dejan pasar el resto.",
     paginas: [
       {
         rotulo: "Luz que vibra",
