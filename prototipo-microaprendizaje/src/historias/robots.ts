@@ -85,8 +85,42 @@ export const ROBOTS: Short[] = [
     categoria: "Robots",
     color: "var(--ochre)",
     encargo: "Una pinza robótica intentando agarrar un objeto blando sobre una mesa.",
+    fotos: [
+      {
+        archivo: "Robotic Arm Polishing Guitars at Martin Guitar Factory.jpg",
+        autor: "Un brazo robótico sujeta una caja de guitarra contra la pulidora en la fábrica de Martin. Fotografía de Henrysz.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Robotic_Arm_Polishing_Guitars_at_Martin_Guitar_Factory.jpg",
+        foco: "45% 50%",
+        alt: "Brazo robótico amarillo sosteniendo una guitarra contra un disco de pulir que gira a gran velocidad.",
+      },
+      {
+        archivo: "TOPIO 3 3.JPG",
+        autor: "TOPIO, un robot humanoide diseñado para jugar al pimpón, en una feria de Tokio en 2009.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:TOPIO_3_3.JPG",
+        foco: "50% 45%",
+        alt: "Robot humanoide de aspecto articulado sujetando una pala de pimpón junto a una mesa.",
+      },
+      {
+        archivo: "TOPIO 3.jpg",
+        autor: "El mismo robot humanoide, de cuerpo entero, en la feria IREX de Tokio.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:TOPIO_3.jpg",
+        foco: "50% 45%",
+        alt: "Robot humanoide de pie con los brazos extendidos, con las articulaciones y los cables a la vista.",
+      },
+      {
+        archivo: "Robots in Robot Dream Exhibition Hong Kong.JPG",
+        autor: "Robots expuestos en una muestra en Hong Kong.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Robots_in_Robot_Dream_Exhibition_Hong_Kong.JPG",
+        foco: "50% 50%",
+        alt: "Varios robots de distintos tamaños colocados juntos en una sala de exposición.",
+      },
+    ],
     entrada:
-      "Investigación en inteligencia artificial, con una observación formulada en los años ochenta del siglo XX. Varios investigadores se dieron cuenta de algo llamativo. Las tareas difíciles para las personas, como el cálculo o el ajedrez, resultan relativamente fáciles de programar, mientras que las que hace cualquier niño de dos años sin esfuerzo son las que más se resisten.",
+      "Investigación en inteligencia artificial, con una observación formulada en los años ochenta del siglo XX y que se sigue cumpliendo hoy. Varios investigadores se dieron cuenta a la vez de algo que resultaba llamativo y bastante humillante. Las tareas que a las personas nos parecen difíciles —el cálculo con números grandes, la lógica, el ajedrez— resultan relativamente fáciles de programar en una máquina, mientras que las que hace cualquier niño de dos años sin ningún esfuerzo son justamente las que más se resisten.",
     paginas: [
       {
         rotulo: "El calcetín",
