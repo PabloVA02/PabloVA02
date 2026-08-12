@@ -264,7 +264,7 @@ export const FIGURAS: Short[] = [
       },
     ],
     entrada:
-      "Siglo IV antes de Cristo. En trece años, un rey macedonio que empezó con veinte convirtió un reino de montaña en el mayor imperio conocido hasta entonces, desde Grecia hasta la India. Fundó unas setenta ciudades y a casi todas les puso su nombre. A los treinta y dos años estaba muerto en Babilonia, sin heredero claro y sin haber vuelto nunca a casa, y sus generales se repartieron el mundo conocido entre ellos antes incluso de haberlo enterrado.",
+      "Siglo IV antes de Cristo. En trece años, un rey macedonio que empezó con veinte convirtió un reino de montaña en el mayor imperio conocido hasta entonces, desde Grecia hasta la India. Fundó por el camino unas setenta ciudades y a casi todas ellas, con una falta de imaginación notable, les puso su propio nombre. A los treinta y dos años estaba muerto en Babilonia, sin heredero claro y sin haber vuelto nunca a casa, y sus generales se repartieron el mundo conocido entre ellos antes incluso de haberlo enterrado.",
     paginas: [
       {
         rotulo: "El nudo",

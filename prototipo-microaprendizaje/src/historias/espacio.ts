@@ -194,7 +194,7 @@ export const ESPACIO: Short[] = [
       },
     ],
     entrada:
-      "En 1977 la NASA lanzó dos sondas gemelas para fotografiar los planetas exteriores. Iban a pasar de largo y perderse para siempre en el espacio, y a alguien se le ocurrió que, ya que se iban, podían llevar algo encima. Un equipo pequeño dirigido por el astrónomo Carl Sagan tuvo seis semanas escasas, con el lanzamiento ya encima, para decidir qué cabía exactamente en un disco de cobre dorado que quizá no vaya a escuchar nadie nunca. Seis semanas para resumir un planeta entero.",
+      "En el verano de 1977 la NASA lanzó dos sondas gemelas, las Voyager, para fotografiar de cerca los planetas exteriores del sistema solar aprovechando una alineación que no se repite hasta dentro de siglo y medio. Iban a pasar de largo y perderse para siempre en el espacio, y a alguien se le ocurrió que, ya que se iban, podían llevar algo encima. Un equipo pequeño dirigido por el astrónomo Carl Sagan tuvo seis semanas escasas, con el lanzamiento ya encima, para decidir qué cabía exactamente en un disco de cobre dorado que quizá no vaya a escuchar nadie nunca. Seis semanas para resumir un planeta entero.",
     paginas: [
       {
         rotulo: "Qué metieron",
