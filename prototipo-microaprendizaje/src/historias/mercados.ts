@@ -84,8 +84,42 @@ export const MERCADOS: Short[] = [
     categoria: "Mercados",
     color: "var(--ochre)",
     encargo: "Una nave de lonja de pescado con cajas de hielo y un panel de precios.",
+    fotos: [
+      {
+        archivo: "20190705 Kanazawa fish market-1.jpg",
+        autor: "Puesto del mercado de pescado de Kanazawa, en Japón, con el género colocado por lotes.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A20190705%20Kanazawa%20fish%20market-1.jpg",
+        foco: "50% 55%",
+        alt: "Mostrador de pescadería lleno de pescados rojos y plateados alineados sobre plástico verde, con el vendedor detrás.",
+      },
+      {
+        archivo: "Tsukiji Fish Market, Tokyo.jpg",
+        autor: "El mercado de Tsukiji, en Tokio, en plena mañana de trabajo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATsukiji%20Fish%20Market%2C%20Tokyo.jpg",
+        foco: "50% 50%",
+        alt: "Nave de mercado con puestos, cajas apiladas y carretillas moviéndose entre los pasillos.",
+      },
+      {
+        archivo: "Fish market in Nouakchott - Mauritania.jpg",
+        autor: "Vendedoras de pescado delante del mercado de Nuakchot, en Mauritania.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFish%20market%20in%20Nouakchott%20-%20Mauritania.jpg",
+        foco: "50% 50%",
+        alt: "Mujeres con ropa de colores vendiendo pescado sobre mesas al aire libre, delante de un mercado.",
+      },
+      {
+        archivo: "Essaouira - fishing port 1989 05.jpg",
+        autor: "Puerto pesquero de Esauira, en Marruecos, con las barcas azules amarradas.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AEssaouira%20-%20fishing%20port%201989%2005.jpg",
+        foco: "50% 50%",
+        alt: "Puerto lleno de barcas de pesca azules amarradas unas junto a otras, con redes y cajas en el muelle.",
+      },
+    ],
     entrada:
-      "Cualquier puerto pesquero al amanecer, con un procedimiento heredado de las lonjas del siglo XIV del Mediterráneo. Los barcos descargan, las cajas se pesan y se ordenan, y entonces empieza la subasta. Lo llamativo no es el griterío, sino una regla que casi nadie asocia con el mercado: aquí está prohibido negociar en privado, y todos los precios se cantan delante de todos.",
+      "Cualquier puerto pesquero al amanecer, con un procedimiento heredado casi entero de las lonjas mediterráneas del siglo XIV. Los barcos descargan, las cajas se pesan, se ordenan por tamaño y por especie, y entonces empieza la subasta con los compradores sentados delante. Lo llamativo de la escena no es el griterío, que es lo primero que se ve, sino una regla que casi nadie asocia con la idea de mercado y que está escrita en el reglamento: aquí está prohibido negociar en privado, y todos los precios se cantan en voz alta delante de todos.",
     paginas: [
       {
         rotulo: "A la baja",
