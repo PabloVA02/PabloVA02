@@ -92,6 +92,40 @@ export const JUEGOS: Short[] = [
     categoria: "Juegos",
     color: "var(--plum)",
     encargo: "Un autómata mecánico del siglo XVIII con figura humana sentada ante un tablero.",
+    fotos: [
+      {
+        archivo: "The Turk.jpg",
+        autor: "Reconstrucción del Turco, el autómata ajedrecista de Kempelen, en el Heinz Nixdorf MuseumsForum de Paderborn.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20Turk.jpg",
+        foco: "45% 55%",
+        alt: "Figura de tamaño natural con turbante y casaca roja sentada ante un tablero de ajedrez, con la mano sobre una pieza.",
+      },
+      {
+        archivo: "Racknitz - The Turk 1.jpg",
+        autor: "Lámina de Joseph Racknitz, 1789, con su reconstrucción de cómo cabía una persona dentro del mueble.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARacknitz%20-%20The%20Turk%201.jpg",
+        foco: "50% 50%",
+        alt: "Grabado antiguo del autómata con el mueble abierto y una figura humana agazapada dentro.",
+      },
+      {
+        archivo: "Racknitz - The Turk 4.jpg",
+        autor: "Otra de las láminas de Racknitz, con el mecanismo del interior desmontado.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARacknitz%20-%20The%20Turk%204.jpg",
+        foco: "50% 50%",
+        alt: "Grabado con los engranajes y las puertas del mueble del autómata dibujados por separado.",
+      },
+      {
+        archivo: "Chess game Staunton No. 6.jpg",
+        autor: "Juego de ajedrez de madera con el patrón Staunton, el que se usa hoy en los torneos.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AChess%20game%20Staunton%20No.%206.jpg",
+        foco: "50% 50%",
+        alt: "Piezas de ajedrez de madera clara y oscura colocadas sobre el tablero al empezar la partida.",
+      },
+    ],
     entrada:
       "En 1770, el ingeniero húngaro Wolfgang von Kempelen presentó en la corte de Viena una máquina que jugaba al ajedrez: un mueble con engranajes a la vista y, sentada tras él, una figura de tamaño natural vestida a la turca que movía las piezas con el brazo. Antes de cada partida se abrían las puertas del mueble y se enseñaba el mecanismo. Ganaba casi siempre.",
     paginas: [
