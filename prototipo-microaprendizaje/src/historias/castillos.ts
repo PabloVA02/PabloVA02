@@ -83,13 +83,47 @@ export const CASTILLOS: Short[] = [
 
   {
     id: "letrinas-y-foso",
-    titulo: "El foso casi nunca tenía agua",
+    titulo: "El foso casi siempre seco",
     gancho: "Y la letrina desaguaba por fuera del muro, justo en la zona que nadie quería escalar.",
     categoria: "Castillos",
     color: "var(--slate)",
     encargo: "Un cubículo de piedra saliente colgado en lo alto de una muralla exterior.",
+    fotos: [
+      {
+        archivo: "Caerphilly Castle, The moat - geograph.org.uk - 6893360.jpg",
+        autor: "El foso inundado de Caerphilly, en Gales, uno de los pocos que sí llevaba agua. Fotografía de Michael Garlick.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Caerphilly_Castle,_The_moat_-_geograph.org.uk_-_6893360.jpg",
+        foco: "50% 45%",
+        alt: "Muralla de piedra larga y baja junto a una lámina de agua, bajo un cielo cargado de nubes.",
+      },
+      {
+        archivo: "Trenčín Castle 45.jpg",
+        autor: "Murallas y torres del castillo de Trenčín, en Eslovaquia. Fotografía de Scotch Mist.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Tren%C4%8D%C3%ADn_Castle_45.jpg",
+        foco: "50% 50%",
+        alt: "Muros de piedra de un castillo medieval sobre la roca, con torres y ventanas estrechas.",
+      },
+      {
+        archivo: "East dry moat of Nagoya Castle.jpg",
+        autor: "Foso seco en el lado este del castillo de Nagoya, en Japón.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:East_dry_moat_of_Nagoya_Castle.jpg",
+        foco: "50% 50%",
+        alt: "Zanja ancha y profunda sin agua, cubierta de hierba, al pie de un muro de piedra.",
+      },
+      {
+        archivo: "Carcassonne walls tower.jpg",
+        autor: "Murallas y torres de la ciudad fortificada de Carcasona, en Francia.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Carcassonne_walls_tower.jpg",
+        foco: "50% 50%",
+        alt: "Doble muralla medieval con torres redondas de tejado cónico y el foso seco entre ellas.",
+      },
+    ],
     entrada:
-      "Europa, siglo XIII. Un castillo es antes que nada un edificio donde vive gente durante años, no solo un decorado de asedio. Eso obliga a resolver cosas muy poco épicas: dónde duermen cien personas, de dónde sale el agua, dónde va la basura y qué se hace con los excrementos de toda la guarnición, día tras día.",
+      "Europa, siglo XIII. Un castillo es antes que nada un edificio donde vive gente durante años seguidos, no solo un decorado de asedio con banderas al viento. Eso obliga a resolver cosas muy poco épicas: dónde duermen cien personas, de dónde sale el agua limpia, dónde va la basura y qué se hace, día tras día, con los excrementos de toda la guarnición. Las dos respuestas que dio la Edad Media a esa última pregunta explican dos de las partes del castillo que todo el mundo cree conocer y casi nadie entiende bien.",
     paginas: [
       {
         rotulo: "La letrina",

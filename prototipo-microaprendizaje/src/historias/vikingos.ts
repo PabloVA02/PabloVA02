@@ -83,13 +83,47 @@ export const VIKINGOS: Short[] = [
 
   {
     id: "america-en-1021",
-    titulo: "Llegaron a América en el año 1021",
+    titulo: "Vikingos en América, 1021",
     gancho: "Se sabe el año exacto por una tormenta solar que dejó marca en los anillos de tres troncos.",
     categoria: "Vikingos",
     color: "var(--ochre)",
     encargo: "Una casa de bloques de tierra con hierba encima junto a una costa fría.",
+    fotos: [
+      {
+        archivo: "L'Anse aux Meadows, entrance to long house.jpg",
+        autor: "Entrada de una casa larga reconstruida en L'Anse aux Meadows, Terranova. Fotografía de D. Gordon E. Robertson.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:L%27Anse_aux_Meadows,_entrance_to_long_house.jpg",
+        foco: "50% 50%",
+        alt: "Puerta de madera de una casa hecha con bloques de tierra y tejado de hierba, entre el césped.",
+      },
+      {
+        archivo: "2022-08-27 05 View of L'Anse aux Meadows, NFL CAN.jpg",
+        autor: "El yacimiento de L'Anse aux Meadows junto a la costa de Terranova. Fotografía de Gordon Leggett.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2022-08-27_05_View_of_L%27Anse_aux_Meadows,_NFL_CAN.jpg",
+        foco: "50% 50%",
+        alt: "Prado costero verde con casas de tierra y hierba dispersas y el mar gris al fondo.",
+      },
+      {
+        archivo: "Growth Rings tree rings 03.jpg",
+        autor: "Anillos de crecimiento en el corte de un tronco. Fotografía de Vijayanrajapuram.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Growth_Rings_tree_rings_03.jpg",
+        foco: "50% 50%",
+        alt: "Corte transversal de un tronco con decenas de anillos concéntricos claros y oscuros.",
+      },
+      {
+        archivo: "Cliffs at Cape Pine Newfoundland.jpg",
+        autor: "Acantilados de Cape Pine, en el sur de Terranova.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Cliffs_at_Cape_Pine_Newfoundland.jpg",
+        foco: "50% 50%",
+        alt: "Acantilados bajos de roca oscura sobre un mar frío, con hierba en lo alto.",
+      },
+    ],
     entrada:
-      "Terranova, en el este de Canadá, año 1021. Un grupo de escandinavos corta árboles para reparar un barco en un campamento junto a la costa. Llevan siglos navegando hacia el oeste, saltando de Islandia a Groenlandia, y han llegado al continente americano cuatro siglos y medio antes que ningún otro europeo. Se quedan allí unos pocos años y se van.",
+      "Terranova, en el este de Canadá, año 1021. Un grupo de escandinavos corta árboles para reparar un barco en un campamento levantado junto a la costa. Llevan siglos navegando hacia el oeste, saltando de Noruega a Islandia y de Islandia a Groenlandia, y sin saberlo acaban de llegar al continente americano cuatro siglos y medio antes que ningún otro europeo. Se quedan allí unos pocos años, no fundan nada permanente y se van. Mil años después, alguien consigue poner fecha exacta a aquellos cortes de hacha.",
     paginas: [
       {
         rotulo: "El campamento",

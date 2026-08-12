@@ -79,13 +79,49 @@ export const MADERA: Short[] = [
   },
   {
     id: "el-barco-y-el-bosque",
-    titulo: "Un imperio sin madera para barcos",
+    titulo: "Venecia agotó sus bosques",
     gancho: "Venecia dependía de sus bosques para mantener la flota, y llegó a numerar y proteger árboles uno a uno.",
     categoria: "Madera",
     color: "var(--slate)",
     encargo: "Troncos flotando atados en un canal, vistos desde la orilla.",
+    fotos: [
+      {
+        archivo: "Venetian Arsenal (50443441693).jpg",
+        autor: "Puerta de tierra del Arsenal de Venecia, el astillero público de la República. Fotografía de Kent Wang.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Venetian_Arsenal_(50443441693).jpg",
+        foco: "50% 60%",
+        alt: "Puerta monumental de ladrillo y mármol con leones de piedra delante y una torre con reloj junto al canal.",
+      },
+      {
+        archivo: "Dülmen, Rorup, NSG Roruper Holz -- 2021 -- 8187-91.jpg",
+        autor: "Robledal maduro en la reserva de Roruper Holz, Alemania. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Rorup,_NSG_Roruper_Holz_--_2021_--_8187-91.jpg",
+        foco: "50% 50%",
+        alt: "Interior de un bosque de robles altos con la luz de la mañana entrando entre los troncos.",
+      },
+      {
+        archivo: "Ponderosa Pine - Western Larch forest, Dixie Mountain, Sumpter Valley, Oregon 5978.jpg",
+        autor: "Bosque de alerces y pinos en Dixie Mountain, Oregón. Fotografía de Chris Light.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Ponderosa_Pine_-_Western_Larch_forest,_Dixie_Mountain,_Sumpter_Valley,_Oregon_5978.jpg",
+        foco: "50% 50%",
+        alt: "Ladera de montaña cubierta de coníferas altas y delgadas, buenas para mástiles.",
+      },
+      {
+        archivo: "Arsenale di Venezia towers.jpg",
+        autor: "Las torres que guardan la entrada de agua del Arsenal de Venecia.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Arsenale_di_Venezia_towers.jpg",
+        foco: "50% 55%",
+        alt: "Dos torres de ladrillo almenadas a ambos lados de un canal de entrada, reflejadas en el agua.",
+      },
+    ],
     entrada:
-      "Venecia, siglos XV y XVI. La ciudad es la mayor potencia naval del Mediterráneo y su astillero público llega a emplear a miles de personas, capaz de armar una galera al día en momentos de urgencia. Todo eso depende de un material que no se puede fabricar deprisa: robles para los cascos y alerces para los mástiles, que tardan décadas o siglos en crecer.",
+      "Venecia, siglos XV y XVI. La ciudad es la mayor potencia naval del Mediterráneo y su astillero público llega a emplear a miles de personas, capaz de armar una galera al día en momentos de urgencia. Todo eso depende de un material que no se puede fabricar deprisa ni comprar a última hora: robles para los cascos y alerces para los mástiles, que tardan décadas o siglos en crecer. Una república que vive del mar descubre entonces que su verdadero límite no está en el mar, sino tierra adentro, en los bosques de los que saca la madera.",
     paginas: [
       {
         rotulo: "Contar árboles",

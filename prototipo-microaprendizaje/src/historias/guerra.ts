@@ -82,13 +82,50 @@ export const GUERRA: Short[] = [
 
   {
     id: "petrov",
-    titulo: "Un hombre solo dijo que no",
+    titulo: "La falsa alarma nuclear",
     gancho: "El panel decía que venían cinco misiles. Su trabajo era avisar. Pensó que el ordenador se equivocaba.",
     categoria: "Guerra",
     color: "var(--slate)",
     encargo: "Una sala de control en penumbra, llena de pantallas verdes de los años ochenta.",
+    fotos: [
+      {
+        archivo: "ISS-43 Earth sunrise, aurora and sparling cities in northern Europe.jpg",
+        autor: "Amanecer orbital sobre el norte de Europa, con una aurora y las luces de las ciudades. Fotografía de la NASA.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:ISS-43_Earth_sunrise,_aurora_and_sparling_cities_in_northern_Europe.jpg",
+        foco: "50% 45%",
+        alt: "La curvatura de la Tierra de noche vista desde la órbita, con una franja verde de aurora y luces anaranjadas de ciudades abajo.",
+      },
+      {
+        archivo: "ISS-43 Sunrise from orbit.jpg",
+        autor: "Amanecer visto desde la órbita: el reflejo del sol en las nubes altas fue lo que engañó a los satélites. Fotografía de la NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:ISS-43_Sunrise_from_orbit.jpg",
+        foco: "50% 50%",
+        alt: "El sol asomando por el borde de la Tierra desde el espacio, con la atmósfera encendida en naranja y azul.",
+      },
+      {
+        archivo: "Moscow, night view of the cathedral of Christ the Savior (30694801600).jpg",
+        autor: "Moscú de noche, con la catedral de Cristo Salvador junto al río.",
+        licencia: "CC BY 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Moscow,_night_view_of_the_cathedral_of_Christ_the_Savior_(30694801600).jpg",
+        foco: "50% 50%",
+        alt: "Catedral de cúpulas doradas iluminada de noche y reflejada en el río, con la ciudad detrás.",
+      },
+      {
+        archivo: "The Greater Tokyo Area in Japan pictured from the International Space Station (iss074e0170877).jpg",
+        autor: "El área metropolitana de Tokio de noche, fotografiada desde la Estación Espacial Internacional. NASA.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:The_Greater_Tokyo_Area_in_Japan_pictured_from_the_International_Space_Station_(iss074e0170877).jpg",
+        foco: "50% 50%",
+        alt: "Enorme mancha de luces de una ciudad de noche vista desde el espacio, recorrida por avenidas brillantes.",
+      },
+    ],
     entrada:
-      "Cerca de Moscú, madrugada del 26 de septiembre de 1983. La Unión Soviética y Estados Unidos llevan cuarenta años apuntándose con miles de bombas atómicas, y esas semanas son de las peores: los soviéticos acaban de derribar un avión de pasajeros surcoreano y han muerto doscientas sesenta y nueve personas. En un búnker, un teniente coronel de cuarenta y cuatro años vigila los satélites que detectan lanzamientos enemigos.",
+      "Cerca de Moscú, madrugada del 26 de septiembre de 1983. La Unión Soviética y Estados Unidos llevan cuarenta años apuntándose con miles de bombas atómicas, y esas semanas son de las peores: los soviéticos acaban de derribar un avión de pasajeros surcoreano y han muerto doscientas sesenta y nueve personas. Nadie se fía de nadie. En un búnker a las afueras, un teniente coronel de cuarenta y cuatro años vigila los satélites que detectan los lanzamientos enemigos, y a las cero horas y catorce minutos la sala entera se pone a sonar.",
     paginas: [
       {
         rotulo: "La alarma",

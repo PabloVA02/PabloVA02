@@ -83,14 +83,50 @@ export const RUEDA: Short[] = [
 
   {
     id: "maleta-con-ruedas",
-    titulo: "La maleta con ruedas tardó un siglo",
+    titulo: "La maleta tardó un siglo",
     gancho: "Había aviones, ordenadores y hombres en la Luna, y el equipaje se seguía cargando a pulso.",
     categoria: "Rueda",
     color: "var(--plum)",
     curioso: true,
     encargo: "Una maleta rígida de los años setenta con cuatro ruedecitas y una correa.",
+    fotos: [
+      {
+        archivo: "Suitcase BW 2025-08-17 14-54-11.jpg",
+        autor: "Maleta de viaje antigua de cuero con su neceser completo. Fotografía de Berthold Werner.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Suitcase_BW_2025-08-17_14-54-11.jpg",
+        foco: "50% 50%",
+        alt: "Maleta de cuero marrón abierta sobre una mesa de madera, con cepillos, frascos de cristal, peine y un espejo dentro de la tapa.",
+      },
+      {
+        archivo:
+          "BAGGAGE AT ALBUQUERQUE, NEW MEXICO, WAITING TO BE LOADED ON THE SOUTHWEST LIMITED ENROUTE FROM LOS ANGELES... - NARA - 555989.jpg",
+        autor: "Equipaje esperando a ser cargado en Albuquerque, Nuevo México, en 1974. Archivos Nacionales de Estados Unidos.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:BAGGAGE_AT_ALBUQUERQUE,_NEW_MEXICO,_WAITING_TO_BE_LOADED_ON_THE_SOUTHWEST_LIMITED_ENROUTE_FROM_LOS_ANGELES..._-_NARA_-_555989.jpg",
+        foco: "50% 50%",
+        alt: "Maletas y bultos amontonados en un andén a la espera de ser cargados en un tren.",
+      },
+      {
+        archivo: "Interior of Helsinki Airport Vantaa.jpg",
+        autor: "Interior de la terminal del aeropuerto de Helsinki-Vantaa.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Interior_of_Helsinki_Airport_Vantaa.jpg",
+        foco: "50% 55%",
+        alt: "Vestíbulo amplio y luminoso de un aeropuerto, con techo alto de madera y pasajeros caminando.",
+      },
+      {
+        archivo: "Old suitcases.JPG",
+        autor: "Baúles y maletas históricos expuestos junto a un vagón en el Museo del Transporte de Múnich.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Old_suitcases.JPG",
+        foco: "50% 55%",
+        alt: "Montón de maletas y baúles de cuero antiguos apilados y atados con una cuerda, en una sala de museo.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1970. Un ejecutivo del sector del equipaje vuelve de un viaje cargando dos maletas pesadas por un aeropuerto y ve pasar a un operario empujando una máquina montada sobre una plataforma con ruedas. Se le ocurre la idea evidente y patenta ese mismo año una maleta con cuatro ruedecitas y una correa para tirar de ella.",
+      "Estados Unidos, 1970. Un ejecutivo del sector del equipaje vuelve de un viaje cargando dos maletas pesadas por un aeropuerto y ve pasar a un operario empujando una máquina montada sobre una plataforma con ruedas. Se le ocurre la idea evidente: si aquello rueda, la maleta también puede rodar. Patenta ese mismo año una maleta con cuatro ruedecitas y una correa para tirar de ella. Han pasado cinco mil años desde la invención de la rueda y sesenta y siete desde el primer vuelo, y a nadie se le había ocurrido antes juntar las dos cosas.",
     paginas: [
       {
         rotulo: "El rechazo",

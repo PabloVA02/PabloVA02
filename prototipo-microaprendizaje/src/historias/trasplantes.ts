@@ -80,13 +80,50 @@ export const TRASPLANTES: Short[] = [
 
   {
     id: "primer-corazon",
-    titulo: "El primer corazón trasplantado latió dieciocho días",
+    titulo: "El corazón latió 18 días",
     gancho: "La técnica estaba resuelta desde hacía años. Lo que faltaba era una definición legal de la muerte.",
     categoria: "Trasplantes",
     color: "var(--slate)",
     encargo: "Un quirófano vacío de los años sesenta con la lámpara redonda encendida.",
+    fotos: [
+      {
+        archivo: "Cape Town (ZA), Table Mountain -- 2024 -- 2762+64+66+68+70+72.jpg",
+        autor: "Ciudad del Cabo desde la Montaña de la Mesa. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_2762%2B64%2B66%2B68%2B70%2B72.jpg",
+        foco: "50% 45%",
+        alt: "Panorámica desde lo alto de una montaña plana sobre el mar azul y un barrio costero al fondo.",
+      },
+      {
+        archivo: "Groote Schuur Hospital, Observatory, Cape Town, Western Cape. 02.JPG",
+        autor: "Hospital Groote Schuur de Ciudad del Cabo, donde se hizo la operación en 1967.",
+        licencia: "CC BY-SA 3.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Groote_Schuur_Hospital,_Observatory,_Cape_Town,_Western_Cape._02.JPG",
+        foco: "50% 50%",
+        alt: "Edificio hospitalario grande de fachada clara con muchas ventanas, visto desde la calle.",
+      },
+      {
+        archivo: "Heart valve replacement operations.jpg",
+        autor: "Cirugía cardíaca en el instituto Amosov de Kiev, 2019. Fotografía de Lena Gulenko.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Heart_valve_replacement_operations.jpg",
+        foco: "50% 40%",
+        alt: "Cuatro cirujanos con bata verde y mascarilla inclinados sobre la mesa de operaciones bajo la lámpara.",
+      },
+      {
+        archivo: "Cape Town (ZA), Table Mountain -- 2024 -- 2794+96+98+2800+01.jpg",
+        autor: "La bahía de Ciudad del Cabo vista desde la Montaña de la Mesa. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_2794%2B96%2B98%2B2800%2B01.jpg",
+        foco: "50% 50%",
+        alt: "Vista panorámica muy ancha de una bahía con la ciudad extendida entre la montaña y el mar.",
+      },
+    ],
     entrada:
-      "Sudáfrica, 3 de diciembre de 1967. Un equipo quirúrgico saca el corazón de una joven que ha muerto atropellada y lo cose dentro del pecho de un hombre de cincuenta y cuatro años con el suyo destrozado. El paciente despierta, habla y come. La noticia da la vuelta al mundo en horas y convierte al cirujano en una celebridad mundial. Muere dieciocho días después, de una neumonía.",
+      "Sudáfrica, 3 de diciembre de 1967. Un equipo quirúrgico saca el corazón de una joven que ha muerto atropellada esa misma tarde y lo cose dentro del pecho de un hombre de cincuenta y cuatro años con el suyo destrozado por los infartos. El paciente despierta, habla, come y se hace fotos sentado en la cama. La noticia da la vuelta al mundo en horas y convierte al cirujano en una celebridad mundial. Muere dieciocho días después, de una neumonía, con el corazón nuevo latiendo perfectamente.",
     paginas: [
       {
         rotulo: "El problema legal",

@@ -93,8 +93,42 @@ export const AVIACION: Short[] = [
     color: "var(--sage)",
     curioso: true,
     encargo: "Una ventanilla ovalada de avión a contraluz con el agujero inferior bien visible.",
+    fotos: [
+      {
+        archivo: "Above the Clouds - A Glimpse of Heaven.jpg",
+        autor: "El ala de un avión sobre el mar de nubes al atardecer, fotografiada desde la ventanilla.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Above_the_Clouds_-_A_Glimpse_of_Heaven.jpg",
+        foco: "50% 55%",
+        alt: "Ala de avión iluminada por el sol bajo, sobre una capa de nubes doradas vista desde arriba.",
+      },
+      {
+        archivo: "Airplane wing sky and clouds.jpg",
+        autor: "Ala de un avión de pasajeros en vuelo, con el cielo y las nubes al fondo.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Airplane_wing_sky_and_clouds.jpg",
+        foco: "50% 50%",
+        alt: "Ala blanca de un avión vista desde la ventanilla, con nubes blancas y cielo azul.",
+      },
+      {
+        archivo: "A wing tip of an airplane (40118125441).jpg",
+        autor: "Punta del ala de un avión en vuelo. Departamento de Agricultura de Estados Unidos.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:A_wing_tip_of_an_airplane_(40118125441).jpg",
+        foco: "50% 50%",
+        alt: "Extremo del ala de un avión recortado contra el cielo, con la tierra muy abajo.",
+      },
+      {
+        archivo: "In flight above scattered clouds (Unsplash).jpg",
+        autor: "Vuelo por encima de nubes dispersas. Fotografía de Harry Knight.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:In_flight_above_scattered_clouds_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Vista desde un avión en vuelo con nubes sueltas debajo y el horizonte curvado al fondo.",
+      },
+    ],
     entrada:
-      "Casi todo el mundo lo ha visto y muy poca gente sabe qué hace ahí: un agujero diminuto en la parte baja de la ventanilla del avión, siempre en el mismo sitio. No es un defecto de fabricación, ni una picadura, ni el resultado del uso. Está puesto a propósito, tiene nombre técnico y hace dos trabajos a la vez.",
+      "Casi todo el mundo lo ha visto alguna vez y muy poca gente sabe qué hace ahí: un agujero diminuto en la parte baja de la ventanilla del avión, siempre en el mismo sitio y en todos los aviones del mundo. No es un defecto de fabricación, ni una picadura de algo, ni el resultado del uso. Está puesto a propósito, tiene nombre técnico —orificio de respiración— y hace dos trabajos a la vez, uno de ellos bastante serio.",
     paginas: [
       {
         rotulo: "Tres cristales",

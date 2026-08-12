@@ -81,13 +81,48 @@ export const ANESTESIA: Short[] = [
 
   {
     id: "anestesia-de-una-hoja",
-    titulo: "El anestésico salió de una hoja",
+    titulo: "Anestesia de hoja de coca",
     gancho: "Se probó en la lengua: si adormece la lengua, adormecerá el ojo. Y funcionó.",
     categoria: "Anestesia",
     color: "var(--ochre)",
     encargo: "Un frasco de cristal pequeño con polvo blanco y un cuentagotas al lado.",
+    fotos: [
+      {
+        archivo: "Iris of human male.jpg",
+        autor: "Iris humano fotografiado con objetivo macro. Fotografía de Osmo Lundell.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Iris_of_human_male.jpg",
+        foco: "50% 50%",
+        alt: "Primerísimo plano de un iris humano azulado, con las fibras y la pupila negra en el centro.",
+      },
+      {
+        archivo: "Planta de la Coca (Erythroxylum coca).jpg",
+        autor: "Planta de coca (Erythroxylum coca) en el jardín botánico del centro Takiwasi, Perú, 2007.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Planta_de_la_Coca_(Erythroxylum_coca).jpg",
+        foco: "50% 45%",
+        alt: "Rama de arbusto de coca con hojas ovaladas de un verde intenso.",
+      },
+      {
+        archivo: "Blue evening view at old town of Heidelberg and Neckar river.jpg",
+        autor: "Heidelberg al anochecer, la ciudad donde se presentó el hallazgo en el congreso de oftalmología de 1884.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Blue_evening_view_at_old_town_of_Heidelberg_and_Neckar_river.jpg",
+        foco: "50% 55%",
+        alt: "Ciudad antigua junto a un río a la hora azul, con el puente iluminado y el castillo en la ladera.",
+      },
+      {
+        archivo: "Iris Macro, Eye close-up (11622304153).jpg",
+        autor: "Ojo humano en primer plano. Fotografía de Matt Ming.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Iris_Macro,_Eye_close-up_(11622304153).jpg",
+        foco: "50% 50%",
+        alt: "Ojo humano muy de cerca, con las pestañas enfocadas y el iris marrón detallado.",
+      },
+    ],
     entrada:
-      "Viena, 1884. Operar un ojo es hasta entonces un problema casi irresoluble: dormir al paciente entero le hace vomitar al despertar y los movimientos involuntarios arruinan el trabajo, pero mantenerlo despierto significa que note el bisturí. Un médico joven de oftalmología busca algo que quite la sensibilidad de una sola parte del cuerpo sin apagar al paciente.",
+      "Viena, 1884. Operar un ojo es hasta entonces un problema casi irresoluble: dormir al paciente entero le hace vomitar al despertar y los movimientos involuntarios arruinan el trabajo, pero mantenerlo despierto significa que note el bisturí en la córnea. No hay término medio, y por eso muchas operaciones sencillas sencillamente no se hacen. Un médico joven del servicio de oftalmología busca otra cosa: algo que quite la sensibilidad de una sola parte del cuerpo, la que se va a tocar, sin apagar al paciente ni tumbarlo durante horas.",
     paginas: [
       {
         rotulo: "Probar en la lengua",

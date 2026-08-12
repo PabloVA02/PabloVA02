@@ -85,13 +85,49 @@ export const BOMBEROS: Short[] = [
 
   {
     id: "puertas-hacia-fuera",
-    titulo: "Las puertas abren hacia fuera",
+    titulo: "La puerta abría al revés",
     gancho: "En un taller de Nueva York murieron ciento cuarenta y seis personas detrás de una puerta atascada.",
     categoria: "Bomberos",
     color: "var(--slate)",
     encargo: "Una barra antipánico metálica en una puerta gris de salida de emergencia.",
+    fotos: [
+      {
+        archivo: "Antique sewing machine (Unsplash).jpg",
+        autor: "Máquina de coser de manivela de principios del siglo XX. Fotografía de Annie Spratt.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Antique_sewing_machine_(Unsplash).jpg",
+        foco: "50% 45%",
+        alt: "Máquina de coser antigua negra con adornos dorados y una bobina de hilo, sobre una mesa de madera.",
+      },
+      {
+        archivo:
+          "Fire Escape, Commercial Building, N 1st Avenue and 3rd Street, Warehouse District, Minneapolis, MN - 51762652118.jpg",
+        autor: "Escalera de incendios exterior de hierro en un edificio industrial de Minneapolis.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Fire_Escape,_Commercial_Building,_N_1st_Avenue_and_3rd_Street,_Warehouse_District,_Minneapolis,_MN_-_51762652118.jpg",
+        foco: "50% 50%",
+        alt: "Escalera metálica de incendios en zigzag colgada de la fachada de ladrillo de un edificio antiguo.",
+      },
+      {
+        archivo: "New York - New York City - NARA - 68146037.jpg",
+        autor: "Manhattan desde el aire hacia 1920, con los edificios altos de la época. Archivos Nacionales de Estados Unidos.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:New_York_-_New_York_City_-_NARA_-_68146037.jpg",
+        foco: "50% 50%",
+        alt: "Vista aérea antigua en blanco y negro del bajo Manhattan, con edificios altos apiñados junto al agua.",
+      },
+      {
+        archivo: "Frankfurt, puerta.jpg",
+        autor: "Detalle de una puerta con su herraje, en Fráncfort.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Frankfurt,_puerta.jpg",
+        foco: "50% 50%",
+        alt: "Primer plano del canto de una puerta con su bisagra y su manilla metálica.",
+      },
+    ],
     entrada:
-      "Nueva York, 25 de marzo de 1911. En los tres últimos pisos de un edificio de diez plantas trabajan unas quinientas personas, casi todas mujeres jóvenes y emigrantes, cosiendo blusas en mesas largas rodeadas de retales. A las cuatro y media de la tarde, poco antes de terminar la jornada, empieza un fuego en un cubo de recortes de tela.",
+      "Nueva York, 25 de marzo de 1911. En los tres últimos pisos de un edificio de diez plantas trabajan unas quinientas personas, casi todas mujeres jóvenes y emigrantes, cosiendo blusas en mesas largas rodeadas de retales y de aceite de máquina. A las cuatro y media de la tarde, un sábado, poco antes de terminar la jornada, empieza un fuego en un cubo de recortes de tela debajo de una de las mesas. Lo que pasa en la media hora siguiente cambiará las puertas de todos los edificios del mundo.",
     paginas: [
       {
         rotulo: "Las puertas",

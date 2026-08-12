@@ -88,14 +88,51 @@ export const CUERPO: Short[] = [
 
   {
     id: "huesos-se-rehacen",
-    titulo: "Tu esqueleto se rehace entero",
+    titulo: "Tu esqueleto se rehace",
     gancho: "El hueso se derriba y se levanta todos los días, y tú no notas la obra.",
     categoria: "Cuerpo",
     color: "var(--clay)",
     curioso: true,
     encargo: "Un fémur humano seccionado a lo largo, con el hueso esponjoso visible.",
+    fotos: [
+      {
+        archivo: "Blue whale skeleton Hope Hintze Hall Natural History Museum London 2025 dllu.jpg",
+        autor: "Esqueleto de ballena azul colgado en el vestíbulo del Museo de Historia Natural de Londres. Fotografía de Daniel Lu.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Blue_whale_skeleton_Hope_Hintze_Hall_Natural_History_Museum_London_2025_dllu.jpg",
+        foco: "50% 45%",
+        alt: "Esqueleto enorme de ballena suspendido sobre el vestíbulo de un museo de arcos de piedra, con visitantes debajo.",
+      },
+      {
+        archivo: "Natural History Museum Hintze Hall.jpg",
+        autor: "El vestíbulo Hintze del Museo de Historia Natural de Londres.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_Hintze_Hall.jpg",
+        foco: "50% 50%",
+        alt: "Nave de museo con arcos de ladrillo, escalinata de piedra y esqueletos expuestos.",
+      },
+      {
+        archivo: "X-ray of the bones of a hand with a ring on one finger Wellcome V0029523.jpg",
+        autor: "Radiografía de una mano con un anillo, hecha por Wilhelm Röntgen en 1895. Wellcome Collection.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:X-ray_of_the_bones_of_a_hand_with_a_ring_on_one_finger_Wellcome_V0029523.jpg",
+        pdPorEdad: 1923,
+        foco: "50% 50%",
+        alt: "Radiografía antigua de una mano: los huesos claros sobre fondo oscuro y un anillo en un dedo.",
+      },
+      {
+        archivo: "Natural History Museum, London (46263138575).jpg",
+        autor: "Escalinata y galerías del Museo de Historia Natural de Londres. Fotografía de Martin Pettitt.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Natural_History_Museum,_London_(46263138575).jpg",
+        foco: "50% 50%",
+        alt: "Interior de museo victoriano con arcos de piedra clara, vidrieras y una escalera ancha.",
+      },
+    ],
     entrada:
-      "Un hueso parece lo más quieto que hay en el cuerpo: duro, seco, terminado. Es exactamente lo contrario, y se sabe desde mediados del siglo XX, cuando se pudo seguir el rastro del calcio dentro de un organismo vivo. Dentro de cada hueso trabaja una cuadrilla permanente que abre túneles, retira material y lo repone. El esqueleto entero se sustituye cada década, sin que la forma cambie ni un milímetro.",
+      "Un hueso parece lo más quieto que hay en el cuerpo: duro, seco, terminado, casi un mineral. Es exactamente lo contrario, y se sabe desde mediados del siglo XX, cuando se pudo seguir el rastro del calcio dentro de un organismo vivo y se vio que no paraba de moverse. Dentro de cada hueso trabaja una cuadrilla permanente que abre túneles, retira material viejo y lo repone con material nuevo. El esqueleto entero se sustituye cada década más o menos, sin que la forma cambie ni un milímetro.",
     paginas: [
       {
         rotulo: "La cuadrilla",
