@@ -92,6 +92,40 @@ export const MEDICINA: Short[] = [
     categoria: "Medicina",
     color: "var(--slate)",
     encargo: "Una palangana de porcelana con agua turbia en una sala de hospital antigua.",
+    fotos: [
+      {
+        archivo: "Washing hands (cropped).jpg",
+        autor: "Manos lavándose bajo el grifo, el gesto que costó veinte años de discusión.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWashing%20hands%20(cropped).jpg",
+        foco: "58% 62%",
+        alt: "Dos manos frotándose bajo el chorro de un grifo, con el agua cayendo entre los dedos.",
+      },
+      {
+        archivo: "Semmelweis-Ulloi26.JPG",
+        autor: "Facultad de medicina de la Universidad Semmelweis, en Budapest, que lleva su nombre.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASemmelweis-Ulloi26.JPG",
+        foco: "50% 32%",
+        alt: "Edificio universitario del siglo XIX de ladrillo y piedra, con ventanas de medio punto en varias plantas.",
+      },
+      {
+        archivo: "Semmelweis Ignác 1864.jpg",
+        autor: "Última fotografía conocida de Ignaz Semmelweis, tomada en 1864 por Ludwig Angerer.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASemmelweis%20Ign%C3%A1c%201864.jpg",
+        foco: "50% 38%",
+        alt: "Retrato fotográfico de un hombre de mediana edad con levita oscura, mirando a la cámara.",
+      },
+      {
+        archivo: "Use of a touchless hand washing tap and solid bar soap dispenser.jpg",
+        autor: "Grifo sin contacto y dispensador de jabón, herederos directos de aquella idea.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AUse%20of%20a%20touchless%20hand%20washing%20tap%20and%20solid%20bar%20soap%20dispenser.jpg",
+        foco: "50% 50%",
+        alt: "Manos bajo un grifo automático junto a un dispensador de jabón en pastilla.",
+      },
+    ],
     entrada:
       "Hospital General de Viena, 1847. La maternidad tiene dos pabellones. En uno atienden los médicos y los estudiantes; en el otro, las comadronas. Las mujeres que llegan de parto suplican que las lleven al segundo, y algunas prefieren dar a luz en la calle. Tienen motivos: en el pabellón de los médicos se muere aproximadamente una de cada seis.",
     paginas: [
