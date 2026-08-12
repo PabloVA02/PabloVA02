@@ -189,7 +189,7 @@ export const AIRBAGS: Short[] = [
       },
     ],
     entrada:
-      "Japón y después el mundo entero, con el problema destapado a partir de 2008. Un fabricante de airbags decidió años atrás cambiar el compuesto que genera el gas por otro bastante más barato y bastante más potente, y durante mucho tiempo pareció que la sustitución había salido bien. Ese compuesto, sin embargo, tiene una debilidad conocida desde el principio: absorbe humedad del aire y se degrada poco a poco con los años. Degradado, arde demasiado deprisa, y en vez de inflar la bolsa hace estallar el bote metálico que lo contiene.",
+      "Japón y después el mundo entero, con el problema destapado a partir de 2008. Un fabricante de airbags decidió años atrás cambiar el compuesto que genera el gas por otro bastante más barato y bastante más potente, y durante mucho tiempo pareció que la sustitución había salido bien. Ese compuesto, sin embargo, tiene una debilidad conocida desde el principio: absorbe humedad del aire y se degrada poco a poco con los años. Degradado, arde demasiado deprisa, y entonces, en vez de inflar la bolsa como debería, hace estallar el bote metálico que lo contiene y lo convierte en metralla.",
     paginas: [
       {
         rotulo: "La metralla",
