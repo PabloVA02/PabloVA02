@@ -82,6 +82,40 @@ export const NUDOS: Short[] = [
     categoria: "Objetos",
     color: "var(--slate)",
     encargo: "Marinero echando por la popa una tablilla de madera atada a un cordel con nudos.",
+    fotos: [
+      {
+        archivo: "Walker's Excelsior III Patent Log Huolintatalo.jpg",
+        autor: "Corredera de patente en su caja de madera, con el cordel y el contador. Museo de la Fundación John Nurminen, Helsinki.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Walker%27s_Excelsior_III_Patent_Log_Huolintatalo.jpg",
+        foco: "50% 62%",
+        alt: "Caja de madera abierta con un instrumento de latón, una hélice y un cordel enrollado dentro.",
+      },
+      {
+        archivo: "Sand clock Enschede.jpg",
+        autor: "Reloj de arena, el cronómetro con el que se contaban los nudos. Fotografía de Gianluca Miscione.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sand_clock_Enschede.jpg",
+        foco: "50% 50%",
+        alt: "Reloj de arena de madera y vidrio con la arena cayendo por el estrechamiento.",
+      },
+      {
+        archivo: "Sextant-MnM 11 NA 59-IMG 5971.JPG",
+        autor: "Sextante de latón, el otro instrumento de a bordo para saber dónde se estaba. Museo Nacional de la Marina, París.",
+        licencia: "CC BY-SA 3.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sextant-MnM_11_NA_59-IMG_5971.JPG",
+        foco: "50% 55%",
+        alt: "Sextante de latón con su arco graduado y sus espejos, sobre fondo negro.",
+      },
+      {
+        archivo: "Sand Clock.jpg",
+        autor: "Otro reloj de arena con la arena a medio caer.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sand_Clock.jpg",
+        foco: "50% 50%",
+        alt: "Reloj de arena visto de cerca, con el hilo de arena cayendo al bulbo inferior.",
+      },
+    ],
     entrada:
       "Océano Atlántico, siglo XVI. Un barco en alta mar no tiene ninguna referencia fija para saber a qué velocidad va, porque alrededor solo hay agua moviéndose. Y necesita saberlo con precisión, ya que la única manera de calcular dónde está consiste en multiplicar velocidad por tiempo y sumar rumbos. La solución fue tan casera que asombra: un trozo de madera, una cuerda con nudos y un reloj de arena.",
     paginas: [
