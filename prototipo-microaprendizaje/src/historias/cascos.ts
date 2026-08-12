@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const CASCOS: Short[] = [
   {
     id: "el-casco-se-rompe-a-proposito",
-    titulo: "El casco sirve una sola vez",
+    titulo: "El casco vale una sola vez",
     gancho: "No protege por ser duro, sino porque su interior se aplasta y alarga el golpe unas milésimas de segundo.",
     categoria: "Cascos",
     color: "var(--ochre)",

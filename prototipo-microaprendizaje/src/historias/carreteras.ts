@@ -142,7 +142,7 @@ export const CARRETERAS: Short[] = [
   },
   {
     id: "el-peaje-y-la-barrera",
-    titulo: "Las carreteras se pagaban con barreras",
+    titulo: "Peajes de barrera",
     gancho: "Compañías privadas arreglaban un tramo y cobraban por pasar. Hubo revueltas para quemar las barreras.",
     categoria: "Carreteras",
     color: "var(--plum)",

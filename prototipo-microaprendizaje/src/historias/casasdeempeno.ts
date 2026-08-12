@@ -79,7 +79,7 @@ export const CASAS_DE_EMPENO: Short[] = [
   },
   {
     id: "que-se-empena",
-    titulo: "Primero el reloj, luego la alianza",
+    titulo: "El reloj antes del anillo",
     gancho: "En los buenos tiempos entran relojes y consolas. En los malos entran alianzas y herramientas de trabajo.",
     categoria: "Dinero",
     color: "var(--slate)",

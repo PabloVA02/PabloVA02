@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const CEMENTO: Short[] = [
   {
     id: "hormigon-romano",
-    titulo: "El cemento romano se repara",
+    titulo: "El cemento romano se cura",
     gancho: "Dos mil años bajo el mar y los muelles siguen enteros. Los nuestros piden obras a los cincuenta.",
     categoria: "Cemento",
     color: "var(--ochre)",
@@ -113,7 +113,7 @@ export const CEMENTO: Short[] = [
 
   {
     id: "arena-que-falta",
-    titulo: "La arena del desierto no sirve",
+    titulo: "La arena del desierto",
     gancho: "Hay países rodeados de dunas que importan arena en barco. Los granos están demasiado redondos.",
     categoria: "Cemento",
     color: "var(--clay)",

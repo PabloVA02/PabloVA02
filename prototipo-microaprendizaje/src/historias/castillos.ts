@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const CASTILLOS: Short[] = [
   {
     id: "escaleras-de-caracol",
-    titulo: "La escalera gira a derechas",
+    titulo: "La escalera gira a derecha",
     gancho: "Se dice que era para favorecer al defensor diestro. La explicación es más floja de lo que parece.",
     categoria: "Castillos",
     color: "var(--plum)",
@@ -147,7 +147,7 @@ export const CASTILLOS: Short[] = [
 
   {
     id: "guerra-de-minas",
-    titulo: "Los asedios se ganaban por debajo",
+    titulo: "Los asedios, por debajo",
     gancho: "Se cavaba un túnel bajo la muralla, se apuntalaba con madera engrasada y se le prendía fuego.",
     categoria: "Castillos",
     color: "var(--clay)",

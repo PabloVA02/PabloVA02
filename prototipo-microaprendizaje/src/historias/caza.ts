@@ -150,7 +150,7 @@ export const CAZA: Short[] = [
   },
   {
     id: "la-caza-que-paga-el-campo",
-    titulo: "Sin cazadores hay demasiados jabalíes",
+    titulo: "Sin caza sobran jabalíes",
     gancho: "Al desaparecer el lobo y el oso, la única cosa que regula ciertas poblaciones es la escopeta o el coche.",
     categoria: "Caza",
     color: "var(--plum)",

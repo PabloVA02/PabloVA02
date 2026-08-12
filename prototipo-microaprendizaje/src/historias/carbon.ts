@@ -148,7 +148,7 @@ export const CARBON: Short[] = [
 
   {
     id: "fuego-bajo-el-pueblo",
-    titulo: "Un pueblo lleva sesenta años ardiendo",
+    titulo: "Sesenta años ardiendo",
     gancho: "Empezó en el vertedero en 1962, bajó a la veta de carbón y ya no hubo forma de apagarlo.",
     categoria: "Carbón",
     color: "var(--clay)",

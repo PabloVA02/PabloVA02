@@ -148,7 +148,7 @@ export const CEMENTERIOS: Short[] = [
 
   {
     id: "tumbas-de-alquiler",
-    titulo: "La tumba se alquila por años",
+    titulo: "La tumba se alquila",
     gancho: "El nicho se paga por un plazo, y si nadie renueva la concesión, los restos van al osario común.",
     categoria: "Cementerios",
     color: "var(--ochre)",
