@@ -85,14 +85,14 @@ export const COMIDA: Short[] = [
 
   {
     id: "cafe-prohibido",
-    titulo: "El café se prohibió por peligroso",
+    titulo: "Prohibieron el café",
     gancho: "En sus locales cualquiera podía sentarse a discutir por un penique. A un rey le pareció demasiado.",
     categoria: "Comida",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una taza de café humeante sobre una mesa de madera con periódicos viejos.",
     entrada:
-      "Londres, 1675. Hace veinte años que abrió el primer local donde se sirve una bebida negra y amarga traída de Oriente, y ya hay más de tres mil repartidos por la ciudad. No son tabernas: no se sirve alcohol, se leen los periódicos en voz alta y se discute de todo. Aquel año, el rey firma un decreto para cerrarlos todos.",
+      "Londres, 1675. Hace apenas veinte años que abrió el primer local donde se sirve una bebida negra y amarga traída de Oriente, y ya hay más de tres mil repartidos por la ciudad. No son tabernas ni se parecen a una: no se sirve alcohol, se pagan un par de peniques por la entrada y la taza, se leen los periódicos en voz alta para quien no sabe leer y se discute de todo, incluido el gobierno. Aquel año, el rey firma un decreto para cerrarlos todos de golpe.",
     paginas: [
       {
         rotulo: "Un penique",

@@ -79,7 +79,7 @@ export const ALMACENES: Short[] = [
   },
   {
     id: "el-almacen-desordenado",
-    titulo: "El almacén sin ningún orden",
+    titulo: "El almacén sin orden",
     gancho: "Un libro al lado de una sartén y un juguete encima. Colocarlo todo por categorías sería mucho más lento.",
     categoria: "Empresas",
     color: "var(--slate)",

@@ -80,7 +80,7 @@ export const CODIGOS_DE_BARRAS: Short[] = [
   },
   {
     id: "el-precio-no-esta-dentro",
-    titulo: "El código no lleva el precio",
+    titulo: "El código no dice el precio",
     gancho: "Solo lleva un número que identifica el producto. El precio está en el ordenador de la tienda, y por eso cambia.",
     categoria: "Códigos de barras",
     color: "var(--ochre)",

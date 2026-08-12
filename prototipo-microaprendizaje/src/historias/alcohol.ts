@@ -82,7 +82,7 @@ export const ALCOHOL: Short[] = [
 
   {
     id: "cerveza-y-pan",
-    titulo: "Nos asentamos por la cerveza",
+    titulo: "Nos asentó la cerveza",
     gancho: "La discusión lleva setenta años abierta: si el primer cereal se sembró para pan o para fermentarlo.",
     categoria: "Alcohol",
     color: "var(--ochre)",

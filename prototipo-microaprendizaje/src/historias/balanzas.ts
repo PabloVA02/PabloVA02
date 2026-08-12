@@ -78,13 +78,13 @@ export const BALANZAS: Short[] = [
   },
   {
     id: "la-romana",
-    titulo: "Cuatro pesas para pesarlo todo",
+    titulo: "Una pesa lo pesa todo",
     gancho: "La romana usa una pesa pequeña que se desliza por un brazo largo. La palanca hace todo el trabajo.",
     categoria: "Objetos",
     color: "var(--ochre)",
     encargo: "Romana de hierro colgada con un gancho, con la pesa corrida por el brazo graduado.",
     entrada:
-      "Imperio romano, siglo I. La balanza de platillos tiene un problema práctico serio, porque para pesar cien kilos hacen falta cien kilos de pesas y alguien que las cargue. Los romanos difundieron un instrumento que resuelve eso con una sola pesa pequeña y un brazo con marcas. Se llama romana por ellos y sigue colgada en almacenes y en cocinas de pueblo.",
+      "Imperio romano, siglo I. La balanza de dos platillos tiene un problema práctico muy serio en cuanto se sale del joyero: para pesar cien kilos hacen falta cien kilos de pesas, y alguien que las cargue y las guarde. En un mercado, en un puerto o en una era eso es inviable. Los romanos difundieron entonces un instrumento que resuelve el asunto entero con una sola pesa pequeña y un brazo con marcas talladas. Se llama romana por ellos, y dos mil años después sigue colgada en almacenes y en cocinas de pueblo.",
     paginas: [
       {
         rotulo: "La palanca",

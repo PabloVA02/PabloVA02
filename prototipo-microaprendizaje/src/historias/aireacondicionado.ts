@@ -81,7 +81,7 @@ export const AIRE_ACONDICIONADO: Short[] = [
 
   {
     id: "cines-de-verano",
-    titulo: "Los cines inventaron el verano",
+    titulo: "Los cines trajeron el frío",
     gancho: "Antes se cerraban en verano por el calor. Al enfriarlos, la gente entraba solo por estar fresca.",
     categoria: "Aire acondicionado",
     color: "var(--clay)",
