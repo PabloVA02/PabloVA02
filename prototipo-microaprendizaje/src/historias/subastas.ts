@@ -187,7 +187,7 @@ export const SUBASTAS: Short[] = [
       },
     ],
     entrada:
-      "Golfo de México, 1971. Tres ingenieros de una compañía petrolera publican un artículo corto sobre algo que llevaban años viendo repetirse delante de sus narices en las subastas de derechos de perforación. Las empresas que ganaban la puja, las que se llevaban el lote, sacaban después, una y otra vez y sin excepción clara, bastante menos beneficio del previsto. No era mala suerte ni mala gestión ni malos geólogos, y la explicación resultó ser puramente estadística. Le pusieron un nombre que ha hecho fortuna desde entonces: la maldición del ganador.",
+      "Golfo de México, 1971. Tres ingenieros de una compañía petrolera publican un artículo corto sobre algo que llevaban años viendo repetirse delante de sus narices en las subastas de derechos de perforación. Las empresas que ganaban la puja, las que se llevaban el lote, sacaban después, una y otra vez y sin excepción clara, bastante menos beneficio del previsto. No era mala suerte ni mala gestión ni malos geólogos, y la explicación resultó ser puramente estadística. Le pusieron entonces un nombre que ha hecho fortuna desde aquel día en medio mundo: la maldición del ganador.",
     paginas: [
       {
         rotulo: "El promedio",
