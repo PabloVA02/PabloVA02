@@ -122,7 +122,7 @@ export const MAR: Short[] = [
 
   {
     id: "ballena-52-hercios",
-    titulo: "La ballena que nadie contesta",
+    titulo: "La ballena que nadie oye",
     gancho: "La escucharon los hidrófonos militares durante décadas. Nunca hubo respuesta.",
     categoria: "Mar",
     color: "var(--plum)",

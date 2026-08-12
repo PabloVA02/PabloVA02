@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const MICROSCOPIO: Short[] = [
   {
     id: "comerciante-de-telas",
-    titulo: "Un pañero vio las bacterias",
+    titulo: "Un pañero vio bacterias",
     gancho: "Sin estudios y con lentes que pulía él mismo, doscientos años antes que ningún científico.",
     categoria: "Microscopios",
     color: "var(--ochre)",

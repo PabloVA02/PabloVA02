@@ -82,7 +82,7 @@ export const MAQUINA_ESCRIBIR: Short[] = [
 
   {
     id: "la-maquina-y-la-oficina",
-    titulo: "La máquina abrió la oficina",
+    titulo: "La máquina abrió oficinas",
     gancho: "En inglés, la misma palabra designaba al aparato y a la persona que lo manejaba.",
     categoria: "Máquina de escribir",
     color: "var(--slate)",

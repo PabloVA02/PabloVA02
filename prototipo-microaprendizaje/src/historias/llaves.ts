@@ -80,7 +80,7 @@ export const LLAVES: Short[] = [
 
   {
     id: "cerradura-de-madera",
-    titulo: "Tu cerradura tiene tres mil años",
+    titulo: "Cerraduras de 3.000 años",
     gancho: "Era de madera, pesaba lo suyo y funcionaba exactamente igual que la de acero de hoy.",
     categoria: "Llaves",
     color: "var(--ochre)",

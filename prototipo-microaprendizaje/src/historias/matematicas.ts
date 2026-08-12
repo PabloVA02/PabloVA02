@@ -121,7 +121,7 @@ export const MATEMATICAS: Short[] = [
 
   {
     id: "raiz-de-dos",
-    titulo: "El número que rompió una secta",
+    titulo: "El número rompió la secta",
     gancho: "Los pitagóricos creían que todo era una fracción. La diagonal del cuadrado no lo es.",
     categoria: "Matemáticas",
     color: "var(--clay)",

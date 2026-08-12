@@ -79,7 +79,7 @@ export const MAPAS_DEL_METRO: Short[] = [
   },
   {
     id: "la-distancia-deformada",
-    titulo: "Un plano decide dónde vives",
+    titulo: "El plano dice dónde vives",
     gancho: "Si un barrio aparece cerca en el mapa del metro, se percibe como bien comunicado aunque el tren tarde media hora.",
     categoria: "Mapas del metro",
     color: "var(--ochre)",

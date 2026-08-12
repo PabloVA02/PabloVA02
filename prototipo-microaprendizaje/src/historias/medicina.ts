@@ -87,7 +87,7 @@ export const MEDICINA: Short[] = [
 
   {
     id: "semmelweis-manos",
-    titulo: "Lavarse las manos era un insulto",
+    titulo: "Lavarse las manos ofendía",
     gancho: "Bajó la mortalidad de dieciocho al dos por ciento y lo echaron del hospital.",
     categoria: "Medicina",
     color: "var(--slate)",
@@ -153,7 +153,7 @@ export const MEDICINA: Short[] = [
   },
   {
     id: "penicilina-placa",
-    titulo: "La penicilina salió de un descuido",
+    titulo: "La penicilina, por descuido",
     gancho: "Un moho se coló en un cultivo olvidado durante las vacaciones y mató a las bacterias de alrededor.",
     categoria: "Medicina",
     color: "var(--forest)",
@@ -183,7 +183,7 @@ export const MEDICINA: Short[] = [
 
   {
     id: "eter-anestesia",
-    titulo: "Operar a la gente despierta",
+    titulo: "Operar a alguien despierto",
     gancho: "El único remedio contra el dolor era la velocidad. Los cirujanos famosos lo eran por sus tiempos.",
     categoria: "Medicina",
     color: "var(--slate)",
