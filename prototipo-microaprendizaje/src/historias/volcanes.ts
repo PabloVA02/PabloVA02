@@ -153,8 +153,42 @@ export const VOLCANES: Short[] = [
     categoria: "Volcanes",
     color: "var(--plum)",
     encargo: "Una llanura de musgo verde partida por una fisura larga y oscura.",
+    fotos: [
+      {
+        archivo: "Row of Craters on Laki Fissure in Iceland.jpg",
+        autor: "Hilera de cráteres a lo largo de la fisura del Laki, Islandia, 2015.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARow%20of%20Craters%20on%20Laki%20Fissure%20in%20Iceland.jpg",
+        foco: "50% 60%",
+        alt: "Fila de cráteres negros y verdes de musgo alineados sobre una llanura de lava.",
+      },
+      {
+        archivo: "Laki lava (1).jpg",
+        autor: "Colada de lava del Laki cubierta de musgo, 2009.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALaki%20lava%20(1).jpg",
+        foco: "50% 55%",
+        alt: "Campo de lava antiguo tapizado de musgo verde intenso hasta el horizonte.",
+      },
+      {
+        archivo: "Laki, Iceland 2012-07 E.JPG",
+        autor: "Los cráteres del Laki, Islandia, 2012.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALaki%2C%20Iceland%202012-07%20E.JPG",
+        foco: "50% 55%",
+        alt: "Conos de escoria alineados en el paisaje volcánico del sur de Islandia.",
+      },
+      {
+        archivo: "Is07049-Kratery wzdłuż szczeliny.jpg",
+        autor: "Cráteres a lo largo de la fisura del Laki, 2006.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AIs07049-Kratery%20wzd%C5%82u%C5%BC%20szczeliny.jpg",
+        foco: "50% 55%",
+        alt: "Bocas volcánicas alineadas una detrás de otra a lo largo de una grieta.",
+      },
+    ],
     entrada:
-      "Islandia, junio de 1783. Se abre en el sur de la isla una grieta de veintisiete kilómetros y empieza a manar lava por más de un centenar de bocas a la vez. No es una explosión, es un desagüe: brota sin parar durante ocho meses y suelta a la atmósfera una cantidad descomunal de gases venenosos.",
+      "Islandia, junio de 1783. Se abre en el sur de la isla, en mitad de ninguna parte, una grieta de veintisiete kilómetros de largo y empieza a manar lava por más de un centenar de bocas alineadas a la vez. No es una explosión de las que salen en las fotos, con su columna y su hongo: es un desagüe. Brota sin parar durante ocho meses seguidos, cubre de lava una superficie enorme y suelta a la atmósfera una cantidad descomunal de gases venenosos que el viento se lleva hacia el sur, hacia Europa.",
     paginas: [
       {
         rotulo: "La niebla seca",
