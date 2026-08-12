@@ -180,8 +180,43 @@ export const CATASTROFES: Short[] = [
       alt: "Vaciado en yeso de una víctima de Pompeya, con la cabeza apoyada en el brazo.",
     },
     encargo: "Un vaciado en yeso de una víctima de Pompeya, en su vitrina.",
+    fotos: [
+      {
+        archivo: "Cast victim eruptions Pompeii.jpg",
+        autor: "Vaciado en yeso de una víctima de la erupción del año 79, Pompeya.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACast%20victim%20eruptions%20Pompeii.jpg",
+        foco: "50% 45%",
+        alt: "Vaciado en yeso de una víctima de Pompeya, con la cabeza apoyada en el brazo.",
+      },
+      {
+        archivo: "Victim of Pompeii - DPLA - 0d849679448c6a4f4926cf7318478c5e.jpg",
+        autor: "Fotografía de un vaciado de Pompeya, 1913.",
+        licencia: "Public domain",
+        pdPorEdad: 1950,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVictim%20of%20Pompeii%20-%20DPLA%20-%200d849679448c6a4f4926cf7318478c5e.jpg",
+        foco: "50% 50%",
+        alt: "Vaciado de escayola de un cuerpo encogido, fotografiado a principios del siglo XX.",
+      },
+      {
+        archivo: "Pompeii Ruins Forum (City Business Center) & Mt. Vesuvius (48440863097).jpg",
+        autor: "El foro de Pompeya con el Vesubio al fondo, 2019.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APompeii%20Ruins%20Forum%20(City%20Business%20Center)%20%26%20Mt.%20Vesuvius%20(48440863097).jpg",
+        foco: "50% 50%",
+        alt: "Columnas del foro de Pompeya alineadas con el volcán recortado detrás.",
+      },
+      {
+        archivo: "Pompeii Ruins & Mt. Vesuvius (48442337717).jpg",
+        autor: "Ruinas de Pompeya al pie del Vesubio, 2019.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APompeii%20Ruins%20%26%20Mt.%20Vesuvius%20(48442337717).jpg",
+        foco: "50% 50%",
+        alt: "Calles y muros de la ciudad excavada con la montaña al fondo.",
+      },
+    ],
     entrada:
-      "Año 79 después de Cristo, en la bahía de Nápoles. El Vesubio lleva medio día lanzando piedra pómez sobre Pompeya, así que mucha gente ya se ha ido y la que queda se refugia en casa. De madrugada llega lo que de verdad mata, una avalancha de gas y ceniza a varios cientos de grados que baja a más de cien kilómetros por hora.",
+      "Año 79 después de Cristo, en la bahía de Nápoles. El Vesubio lleva ya medio día largo lanzando piedra pómez sobre Pompeya, hasta cubrir los tejados, así que mucha gente ha tenido tiempo de marcharse y la que queda se refugia dentro de las casas a esperar que pase. De madrugada llega entonces lo que de verdad mata, y que nadie esperaba: una avalancha de gas y ceniza a varios cientos de grados que baja por la ladera a más de cien kilómetros por hora y entra en la ciudad.",
     paginas: [
       {
         rotulo: "Ceniza que fragua",
