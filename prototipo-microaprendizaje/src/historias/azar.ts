@@ -91,8 +91,42 @@ export const AZAR: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Una ruleta antigua fotografiada desde arriba, con la bola quieta en una casilla negra.",
+    fotos: [
+      {
+        archivo: "13-02-27-spielbank-wiesbaden-by-RalfR-093.jpg",
+        autor: "Ruleta del casino de Wiesbaden con la bola ya parada en su casilla.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A13-02-27-spielbank-wiesbaden-by-RalfR-093.jpg",
+        foco: "45% 52%",
+        alt: "Rueda de ruleta de madera y metal vista de cerca, con las casillas rojas y negras numeradas y la bola blanca quieta.",
+      },
+      {
+        archivo: "13-02-27-spielbank-wiesbaden-by-RalfR-094.jpg",
+        autor: "Otra vista de la misma ruleta, con el cilindro y las casillas.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A13-02-27-spielbank-wiesbaden-by-RalfR-094.jpg",
+        foco: "50% 50%",
+        alt: "Detalle del cilindro cromado de una ruleta y de las casillas numeradas que lo rodean.",
+      },
+      {
+        archivo: "Mesa-de-ruleta-casino-ciudad-de-mexico25-04-2023.jpg",
+        autor: "El tapete de una mesa de ruleta, donde se colocan las apuestas al rojo y al negro.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMesa-de-ruleta-casino-ciudad-de-mexico25-04-2023.jpg",
+        foco: "50% 50%",
+        alt: "Tapete verde de casino con los números y los rombos rojos y negros pintados en cuadrícula.",
+      },
+      {
+        archivo: "2024-09-22 Casino de Monte Carlo.jpg",
+        autor: "El casino de Montecarlo, donde ocurrió aquella racha en agosto de 1913.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2024-09-22%20Casino%20de%20Monte%20Carlo.jpg",
+        foco: "50% 50%",
+        alt: "Fachada del casino de Montecarlo, de piedra clara con torres y cúpulas verdes, bajo un cielo despejado.",
+      },
+    ],
     entrada:
-      "Mónaco, 18 de agosto de 1913. En el casino más famoso de Europa, una bola de ruleta cae en negro. Vuelve a caer en negro. Y otra vez. Hacia la décima tirada la sala empieza a llenarse de curiosos que apuestan al rojo, convencidos de que la racha tiene que romperse de un momento a otro. La bola sigue cayendo en negro.",
+      "Mónaco, 18 de agosto de 1913. En el casino más famoso de Europa, una bola de ruleta cae en negro. Vuelve a caer en negro. Y otra vez, y otra. Hacia la décima tirada la noticia ha corrido por las salas y la mesa empieza a llenarse de curiosos que apuestan al rojo, convencidos de que una racha así tiene que romperse de un momento a otro y de que están ante una ocasión que no se repite. Cuantas más veces sale negro, más dinero se pone al rojo y más grandes son las apuestas. La bola sigue cayendo en negro.",
     paginas: [
       {
         rotulo: "La racha",
