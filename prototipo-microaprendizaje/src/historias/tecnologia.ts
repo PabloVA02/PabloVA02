@@ -92,8 +92,42 @@ export const TECNOLOGIA: Short[] = [
     categoria: "Tecnología",
     color: "var(--sage)",
     encargo: "Una página de cuaderno técnico de los años cuarenta con una polilla pegada.",
+    fotos: [
+      {
+        archivo: "202606 Euproctis nigricauda be heavy with the raindrops 01.jpg",
+        autor: "Polilla atrapada por las gotas de lluvia sobre una superficie mojada.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A202606%20Euproctis%20nigricauda%20be%20heavy%20with%20the%20raindrops%2001.jpg",
+        foco: "50% 58%",
+        alt: "Polilla amarillenta con las alas extendidas y cubiertas de gotas, sobre un suelo encharcado.",
+      },
+      {
+        archivo: "First Computer Bug, 1947.jpg",
+        autor: "La página del cuaderno del Mark II con la polilla pegada con cinta, 9 de septiembre de 1947. Naval Surface Warfare Center.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFirst%20Computer%20Bug%2C%201947.jpg",
+        foco: "50% 55%",
+        alt: "Hoja cuadriculada de un cuaderno de incidencias escrita a mano, con una polilla pegada con cinta adhesiva.",
+      },
+      {
+        archivo: "Grace Hopper.tiff",
+        autor: "Retrato oficial de la comodoro Grace M. Hopper, 1984, que trabajaba en aquel equipo del Mark II.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AGrace%20Hopper.tiff",
+        foco: "50% 35%",
+        alt: "Retrato de una mujer mayor con uniforme naval de gala y gorra, mirando de frente.",
+      },
+      {
+        archivo: "Composants électroniques décalottés (51258423255).jpg",
+        autor: "Relés electromecánicos en miniatura abiertos, con los contactos a la vista.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AComposants%20%C3%A9lectroniques%20d%C3%A9calott%C3%A9s%20(51258423255).jpg",
+        foco: "50% 50%",
+        alt: "Relés diminutos sin carcasa, con las bobinas de cobre y los contactos metálicos descubiertos.",
+      },
+    ],
     entrada:
-      "El 9 de septiembre de 1947, el equipo del ordenador Mark II de Harvard buscaba por qué la máquina daba resultados erróneos. Al abrir el relé número setenta del panel F encontraron una polilla aplastada entre los contactos. La sacaron, la pegaron con cinta adhesiva en el cuaderno de incidencias y escribieron una frase al lado que ha resultado ser más interesante que el bicho.",
+      "El 9 de septiembre de 1947, el equipo del ordenador Mark II de Harvard llevaba horas buscando por qué la máquina daba resultados erróneos sin motivo aparente. Al abrir el relé número setenta del panel F se encontraron con la explicación, y era una explicación que no venía en ningún manual: una polilla aplastada entre los contactos, que impedía que cerraran bien. La sacaron con unas pinzas, la pegaron con cinta adhesiva en la página del cuaderno de incidencias y escribieron al lado una frase que ha resultado ser bastante más interesante que el propio bicho.",
     paginas: [
       {
         rotulo: "La nota",
