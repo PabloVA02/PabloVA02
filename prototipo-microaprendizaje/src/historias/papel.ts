@@ -121,7 +121,7 @@ export const PAPEL: Short[] = [
       },
     ],
     entrada:
-      "Bibliotecas de todo el mundo, desde los años setenta. Los bibliotecarios detectan un problema que crece solo y que no para: los libros publicados aproximadamente entre 1850 y 1990 se están volviendo frágiles. Amarillean, se quiebran por los bordes y acaban rompiéndose al pasar una hoja, mientras que los del siglo XVI, tres siglos más viejos, siguen perfectamente flexibles. La causa no es la edad, ni la humedad, ni la luz: es cómo se fabricó cada papel, y el daño venía de fábrica desde el primer día.",
+      "Bibliotecas de todo el mundo, desde los años setenta. Los bibliotecarios detectan un problema que crece solo y que no para: los libros publicados aproximadamente entre 1850 y 1990 se están volviendo frágiles. Amarillean, se quiebran por los bordes y acaban rompiéndose al pasar una hoja, mientras que los del siglo XVI, tres siglos más viejos, siguen perfectamente flexibles. La causa no es la edad, ni la humedad, ni la luz: es cómo se fabricó cada papel, y el daño venía de fábrica, dentro de la propia hoja, desde el primer día que salió de la máquina.",
     paginas: [
       {
         rotulo: "El ácido",

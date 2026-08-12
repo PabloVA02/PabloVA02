@@ -120,7 +120,7 @@ export const VINAGRE: Short[] = [
       },
     ],
     entrada:
-      "Cocinas de todo el mundo, con los ensayos de laboratorio publicados desde 1997 en adelante. El vinagre tiene fama de desinfectante natural, de esos que se recomiendan en casa para no usar química, y esa fama es solo parcialmente cierta. Los estudios que se han molestado en medirlo encuentran que sí mata algunos microbios, pero que tarda muchísimo más de lo que la gente cree y que falla del todo contra otros. Como quitagrasas y como antical, en cambio, funciona de maravilla y es dificilísimo de superar.",
+      "Cocinas de todo el mundo, con los ensayos de laboratorio publicados desde 1997 en adelante. El vinagre tiene fama de desinfectante natural, de esos que se recomiendan en casa para no usar química, y esa fama es solo parcialmente cierta. Los estudios que se han molestado en medirlo encuentran que sí mata algunos microbios, pero que tarda muchísimo más de lo que la gente cree y que falla del todo contra otros. Como quitagrasas y sobre todo como antical, en cambio, funciona de maravilla, cuesta cuatro perras y es dificilísimo de superar con nada de lo que se vende para eso.",
     paginas: [
       {
         rotulo: "Qué mata",

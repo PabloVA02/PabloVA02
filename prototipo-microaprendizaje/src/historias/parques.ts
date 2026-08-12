@@ -120,7 +120,7 @@ export const PARQUES: Short[] = [
       },
     ],
     entrada:
-      "Nueva York, 1857. La ciudad decide reservar un rectángulo enorme en mitad de la isla para construir un parque, en un momento en que aquella zona es todavía periferia rocosa y pantanosa, muy lejos de donde vive la gente con dinero. El terreno, sin embargo, no está vacío ni mucho menos. Allí viven unas mil seiscientas personas repartidas en varios asentamientos, con sus casas, sus huertos, tres iglesias y un colegio en funcionamiento. El más grande de ellos lleva treinta años en pie y tiene nombre propio.",
+      "Nueva York, 1857. La ciudad decide reservar un rectángulo enorme en mitad de la isla para construir un parque, en un momento en que aquella zona es todavía periferia rocosa y pantanosa, muy lejos de donde vive la gente con dinero. El terreno, sin embargo, no está vacío ni mucho menos. Allí viven unas mil seiscientas personas repartidas en varios asentamientos, con sus casas, sus huertos, tres iglesias y un colegio en funcionamiento. El más grande de todos ellos lleva treinta años en pie, tiene nombre propio y es una de las pocas comunidades de la ciudad donde vecinos negros e irlandeses viven puerta con puerta.",
     paginas: [
       {
         rotulo: "Los vecinos",

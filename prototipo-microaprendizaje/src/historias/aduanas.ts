@@ -56,7 +56,7 @@ export const ADUANAS: Short[] = [
       },
     ],
     entrada:
-      "Francia, siglos XV a XVIII. La corona cobra un impuesto sobre la sal que varía muchísimo de una región a otra, no por capricho sino porque cada territorio negoció su propio régimen al incorporarse al reino y nadie se atrevió después a igualarlos. El resultado es una frontera fiscal trazada dentro del propio país, con sus puestos de control, sus patrullas y sus mojones, y con una diferencia de precio que en algunos tramos llega a ser de veinte veces entre un lado del camino y el otro.",
+      "Francia, siglos XV a XVIII. La corona cobra un impuesto sobre la sal que varía muchísimo de una región a otra, no por capricho sino porque cada territorio negoció su propio régimen al incorporarse al reino y nadie se atrevió después a igualarlos. El resultado es una frontera fiscal trazada dentro del propio país, con sus puestos de control, sus patrullas y sus mojones, y con una diferencia de precio que en algunos tramos llega a ser de veinte veces entre un lado del camino y el otro. Con esa diferencia, el contrabando deja de ser un delito raro para convertirse en un oficio.",
     paginas: [
       {
         rotulo: "El negocio",
