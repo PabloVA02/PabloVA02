@@ -86,13 +86,50 @@ export const CINE: Short[] = [
 
   {
     id: "psicosis-ducha",
-    titulo: "Cuarenta y cinco segundos, una semana",
+    titulo: "Cuarenta y cinco segundos",
     gancho: "El cuchillo no toca la piel en ningún fotograma. La sangre era sirope.",
     categoria: "Cine",
     color: "var(--slate)",
     encargo: "Una alcachofa de ducha antigua vista desde abajo, agua cayendo, blanco y negro.",
+    fotos: [
+      {
+        archivo: "2015 04 08 009 Analogfilme.jpg",
+        autor: "Tiras de negativo y diapositivas sobre una mesa de luz. Fotografía de Friedrich Haag.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:2015_04_08_009_Analogfilme.jpg",
+        foco: "50% 40%",
+        alt: "Tiras de película fotográfica y diapositivas iluminadas por detrás sobre una mesa de luz.",
+      },
+      {
+        archivo:
+          "Closing of the Jerome Relocation Center, Denson, Arkansas. View in the projection booth of the cent . . . - NARA - 539790.jpg",
+        autor: "Cabina de proyección de un cine, con los proyectores de bobina. Archivos Nacionales de Estados Unidos.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Closing_of_the_Jerome_Relocation_Center,_Denson,_Arkansas._View_in_the_projection_booth_of_the_cent_._._._-_NARA_-_539790.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía antigua de una cabina de proyección con dos proyectores de película y sus bobinas.",
+      },
+      {
+        archivo: "Former Granada Theatre, Buffalo, New York - 20201231.jpg",
+        autor: "El antiguo cine Granada de Buffalo, construido en 1928. Fotografía de Andre Carrotflower.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Former_Granada_Theatre,_Buffalo,_New_York_-_20201231.jpg",
+        foco: "50% 50%",
+        alt: "Fachada de un cine antiguo de barrio, con la marquesina vacía sobre la entrada.",
+      },
+      {
+        archivo: "Rodgers Theatre, 204-224 N. Broadway Street, Poplar Bluff, Mo, USA.jpg",
+        autor: "El cine Rodgers, abierto en 1949, ejemplo tardío de art déco. Fotografía de Michael Gäbler.",
+        licencia: "CC BY-SA 3.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Rodgers_Theatre,_204-224_N._Broadway_Street,_Poplar_Bluff,_Mo,_USA.jpg",
+        foco: "50% 50%",
+        alt: "Fachada art déco de un cine con su torre luminosa y la taquilla bajo la marquesina.",
+      },
+    ],
     entrada:
-      "Dura menos de un minuto y es probablemente la secuencia más analizada del cine. Hitchcock la rodó durante una semana entera en 1960, con unas setenta y ocho posiciones de cámara distintas para un montaje final de unos cincuenta cortes. Todo ese trabajo sirve para que el espectador crea haber visto algo que la película nunca enseña.",
+      "Dura menos de un minuto y es probablemente la secuencia más analizada de la historia del cine. Hitchcock la rodó durante una semana entera en 1960, con unas setenta y ocho posiciones de cámara distintas para un montaje final de unos cincuenta cortes, y con la actriz principal doblada en varios planos por una modelo. Todo ese trabajo, siete días de rodaje para cuarenta y cinco segundos de película, sirve exactamente para una cosa: para que el espectador salga convencido de haber visto algo que la película no enseña en ningún momento.",
     paginas: [
       {
         rotulo: "Lo que no se ve",

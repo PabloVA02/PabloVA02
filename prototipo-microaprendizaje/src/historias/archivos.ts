@@ -79,13 +79,47 @@ export const ARCHIVOS: Short[] = [
   },
   {
     id: "el-papel-que-se-quema",
-    titulo: "Los archivos arden primero",
+    titulo: "Los archivos arden antes",
     gancho: "Cuando cae una ciudad, lo primero que desaparece suele ser el papel: por fuego, por saqueo o a propósito.",
     categoria: "Archivos",
     color: "var(--slate)",
     encargo: "Cajas de documentos apiladas y chamuscadas en una sala vacía.",
+    fotos: [
+      {
+        archivo: "Archivo de Indias 002.jpg",
+        autor: "El Archivo General de Indias de Sevilla, construido en el siglo XVI como lonja de mercaderes.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Archivo_de_Indias_002.jpg",
+        foco: "50% 50%",
+        alt: "Edificio renacentista de piedra y ladrillo visto desde arriba, con palmeras y la ciudad al fondo.",
+      },
+      {
+        archivo: "Sevilla - Archivo General de Indias K01.jpg",
+        autor: "Fachada del Archivo General de Indias, en Sevilla.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sevilla_-_Archivo_General_de_Indias_K01.jpg",
+        foco: "50% 50%",
+        alt: "Fachada sobria de sillería con ventanas alineadas y balaustrada en lo alto.",
+      },
+      {
+        archivo: "Sevilla - Archivo General de Indias K02.jpg",
+        autor: "Escalera y galerías interiores del Archivo General de Indias.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sevilla_-_Archivo_General_de_Indias_K02.jpg",
+        foco: "50% 50%",
+        alt: "Escalera de mármol y arcos de piedra en el interior de un edificio histórico.",
+      },
+      {
+        archivo: "Sevilla - Archivo General de Indias K03.jpg",
+        autor: "Salas del Archivo General de Indias, con las estanterías de caoba llenas de legajos.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Sevilla_-_Archivo_General_de_Indias_K03.jpg",
+        foco: "50% 50%",
+        alt: "Galería larga con estanterías de madera oscura repletas de cajas y legajos ordenados.",
+      },
+    ],
     entrada:
-      "Europa, siglo XX. Dos guerras mundiales y varios regímenes destruyeron archivos enteros, unos por bombardeo y otros de forma deliberada. Los papeles arden bien, ocupan mucho y son difíciles de evacuar, así que suelen estar entre las primeras pérdidas de cualquier conflicto. Y muchas veces no se pierden por accidente, sino porque a alguien le conviene mucho que dejen de existir.",
+      "Europa, siglo XX. Dos guerras mundiales y unos cuantos regímenes destruyeron archivos enteros, unos por bombardeo y otros de forma perfectamente deliberada. Los papeles arden bien, ocupan mucho sitio, pesan y son dificilísimos de evacuar deprisa, así que suelen estar entre las primeras pérdidas de cualquier conflicto, muy por delante de los edificios. Y muchas veces no se pierden por accidente ni por descuido, sino porque a alguien con mando le conviene mucho que dejen de existir.",
     paginas: [
       {
         rotulo: "Quemar pruebas",
