@@ -90,8 +90,42 @@ export const EMPRESAS: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Una fábrica de ladrillo junto a un río, con la chimenea humeando, en blanco y negro.",
+    fotos: [
+      {
+        archivo: "Nokian rubber boots 20180828.jpg",
+        autor: "Botas de agua Nokian, el producto por el que la empresa era conocida en Finlandia antes de los teléfonos.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANokian%20rubber%20boots%2020180828.jpg",
+        foco: "50% 55%",
+        alt: "Par de botas altas de goma negra con hebilla, apoyadas en el suelo blanco de un recibidor.",
+      },
+      {
+        archivo: "Smokestacks of the Crown-Zellerbach Papermill in Camas, on the Columbia River 04-1973 (4271663303).jpg",
+        autor: "Chimeneas de una fábrica de papel junto a un río, fotografiadas en 1973.",
+        licencia: "No restrictions",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASmokestacks%20of%20the%20Crown-Zellerbach%20Papermill%20in%20Camas%2C%20on%20the%20Columbia%20River%2004-1973%20(4271663303).jpg",
+        foco: "50% 50%",
+        alt: "Chimeneas altas de una papelera soltando vapor sobre las naves, junto a la orilla de un río.",
+      },
+      {
+        archivo: "Nokia 3310 grey front.jpg",
+        autor: "Nokia 3310, el teléfono que la empresa vendió por decenas de millones a partir de 2000.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANokia%203310%20grey%20front.jpg",
+        foco: "50% 45%",
+        alt: "Teléfono móvil gris de teclas grandes y pantalla pequeña, visto de frente.",
+      },
+      {
+        archivo: "Nokia headquarters in Espoo.jpg",
+        autor: "Sede de Nokia en Espoo, a las afueras de Helsinki.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANokia%20headquarters%20in%20Espoo.jpg",
+        foco: "50% 50%",
+        alt: "Edificio moderno de oficinas de cristal y metal, con el césped delante y el cielo despejado.",
+      },
+    ],
     entrada:
-      "Finlandia, 1865. Un ingeniero abre una fábrica de pasta de papel a la orilla de un río, en un pueblo del sur del país llamado Nokia. Durante el siglo siguiente, esa empresa hará papel higiénico, neumáticos, botas de agua, cables, mascarillas antigás y televisores. Los teléfonos llegan más de cien años después, y llegan casi por descarte.",
+      "Finlandia, 1865. Un ingeniero abre una fábrica de pasta de papel a la orilla de un río, en un pueblo del sur del país llamado Nokia, y le pone al negocio el nombre del pueblo. Durante el siglo siguiente esa misma empresa fabricará papel higiénico, neumáticos, botas de agua, cables eléctricos, mascarillas antigás y televisores, sin destacar especialmente en ninguna de esas cosas. Los teléfonos llegan más de cien años después, y no llegan por ninguna visión ni por ningún plan: llegan casi por descarte, de una división pequeña que llevaba quince años perdiendo dinero.",
     paginas: [
       {
         rotulo: "El cajón de sastre",
