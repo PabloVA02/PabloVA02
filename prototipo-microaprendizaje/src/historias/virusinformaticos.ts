@@ -125,7 +125,7 @@ export const VIRUS_INFORMATICOS: Short[] = [
       },
     ],
     entrada:
-      "Reino Unido, diciembre de 1989. Se celebra una conferencia mundial sobre una enfermedad y, semanas después, a los asistentes les llega por correo postal un disquete que promete un cuestionario para calcular su riesgo personal. Veinte mil personas lo reciben en noventa países, y muchas lo meten en el ordenador sin pensárselo dos veces, porque en 1989 nadie desconfía de un sobre. Al ejecutarlo por nonagésima vez, el programa esconde los ficheros del disco, cifra sus nombres y pide ciento ochenta y nueve dólares por correo a un apartado de Panamá.",
+      "Reino Unido, diciembre de 1989. Se celebra una conferencia mundial sobre una enfermedad y, semanas después, a los asistentes les llega por correo postal un disquete que promete un cuestionario para calcular su riesgo personal. Veinte mil personas lo reciben en noventa países, y muchas lo meten en el ordenador sin pensárselo dos veces, porque en 1989 nadie desconfía de un sobre. Al ejecutarlo por nonagésima vez, el programa esconde los ficheros del disco, cifra sus nombres y pide ciento ochenta y nueve dólares, pagaderos por correo a un apartado de Panamá.",
     paginas: [
       {
         rotulo: "El engaño",
