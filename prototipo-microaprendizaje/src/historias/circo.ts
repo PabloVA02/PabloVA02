@@ -151,7 +151,7 @@ export const CIRCO: Short[] = [
 
   {
     id: "hombre-bala",
-    titulo: "El cañón no dispara pólvora",
+    titulo: "El cañón sin pólvora",
     gancho: "El estruendo y el humo son teatro. Lo que lo lanza es un muelle o aire comprimido.",
     categoria: "Circo",
     color: "var(--ochre)",

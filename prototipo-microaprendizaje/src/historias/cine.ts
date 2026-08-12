@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const CINE: Short[] = [
   {
     id: "grito-wilhelm",
-    titulo: "El mismo grito setenta años",
+    titulo: "El grito de setenta años",
     gancho: "Está en Star Wars, en Indiana Jones y en cuatrocientas películas más.",
     categoria: "Cine",
     color: "var(--clay)",
@@ -156,7 +156,7 @@ export const CINE: Short[] = [
 
   {
     id: "cine-mudo",
-    titulo: "El cine mudo nunca fue mudo",
+    titulo: "El cine mudo no era mudo",
     gancho: "Siempre sonó música en la sala, y esos movimientos acelerados son un error nuestro.",
     categoria: "Cine",
     color: "var(--ochre)",
@@ -189,7 +189,7 @@ export const CINE: Short[] = [
   },
   {
     id: "chaplin-concurso",
-    titulo: "Chaplin perdió imitándose a sí mismo",
+    titulo: "Chaplin perdió imitándose",
     gancho: "Se presentó de incógnito a un certamen de dobles suyos en San Francisco y no pasó de la ronda inicial.",
     categoria: "Cine",
     color: "var(--ochre)",
@@ -251,7 +251,7 @@ export const CINE: Short[] = [
 
   {
     id: "llegada-sonido",
-    titulo: "El sonido despidió a media industria",
+    titulo: "El sonido despidió a miles",
     gancho: "Los estudios se resistieron cuatro años. Cuando cedieron, se arruinaron carreras enteras en un semestre.",
     categoria: "Cine",
     color: "var(--plum)",

@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const CIUDADES: Short[] = [
   {
     id: "chaflanes-cerda",
-    titulo: "Barcelona no tiene esquinas",
+    titulo: "Barcelona sin esquinas",
     gancho: "Su autor diseñó manzanas con jardín dentro. Se construyeron los cuatro lados.",
     categoria: "Ciudades",
     color: "var(--ochre)",
@@ -86,7 +86,7 @@ export const CIUDADES: Short[] = [
 
   {
     id: "venecia-pilotes",
-    titulo: "Venecia se apoya en troncos",
+    titulo: "Venecia se apoya en madera",
     gancho: "La madera lleva mil años bajo el agua y no se ha podrido.",
     categoria: "Ciudades",
     color: "var(--sage)",

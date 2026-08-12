@@ -108,7 +108,7 @@ export const CEPILLO_DE_DIENTES: Short[] = [
   },
   {
     id: "el-cepillo-electrico",
-    titulo: "El cepillo eléctrico nació en hospitales",
+    titulo: "Un cepillo de hospital",
     gancho: "No nació como un lujo. Se hizo para gente con las manos paralizadas y para quien llevaba aparatos fijos.",
     categoria: "Tecnología",
     color: "var(--plum)",

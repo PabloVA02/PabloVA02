@@ -148,7 +148,7 @@ export const CIENCIA: Short[] = [
 
   {
     id: "eclipse-1919",
-    titulo: "Un eclipse hizo famoso a Einstein",
+    titulo: "Un eclipse hizo a Einstein",
     gancho: "Su teoría decía que la luz se curva. Hubo que esperar a que una isla africana dejara de tener nubes.",
     categoria: "Ciencia",
     color: "var(--plum)",

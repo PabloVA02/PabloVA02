@@ -148,7 +148,7 @@ export const CERILLAS: Short[] = [
 
   {
     id: "cerilla-de-seguridad",
-    titulo: "La cerilla que solo prende ahí",
+    titulo: "La cerilla solo prende ahí",
     gancho: "Media reacción va en la cabeza y la otra media en el raspador. Por separado no arden.",
     categoria: "Cerillas",
     color: "var(--plum)",
