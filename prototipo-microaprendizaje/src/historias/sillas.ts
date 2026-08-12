@@ -189,7 +189,7 @@ export const SILLAS: Short[] = [
       },
     ],
     entrada:
-      "Oficinas, escuelas y talleres europeos de los siglos XVIII y XIX. Los escritorios de contabilidad de aquella época son altos, con la tapa inclinada como un atril, y delante de ellos no hay sillones sino taburetes estrechos, duros y sin respaldo ninguno. Los empleados trabajaban así de pie, o medio apoyados en el borde del taburete, durante jornadas larguísimas de doce y catorce horas. Y aquello no era un descuido del mobiliario ni una cuestión de ahorro, sino una decisión perfectamente deliberada de los patronos, con una teoría detrás.",
+      "Oficinas, escuelas y talleres europeos de los siglos XVIII y XIX. Los escritorios de contabilidad de aquella época son altos, con la tapa inclinada como un atril, y delante de ellos no hay sillones sino taburetes estrechos, duros y sin respaldo ninguno. Los empleados trabajaban así de pie, o medio apoyados en el borde del taburete, durante jornadas larguísimas de doce y catorce horas. Y aquello no era un descuido del mobiliario ni una cuestión de ahorro, sino una decisión perfectamente deliberada de los patronos de la época, con toda una teoría del carácter detrás de ella.",
     paginas: [
       {
         rotulo: "Estar despierto",
