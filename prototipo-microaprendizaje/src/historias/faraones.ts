@@ -155,8 +155,42 @@ export const FARAONES: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Una escalera de piedra bajando hacia una puerta sellada en la roca.",
+    fotos: [
+      {
+        archivo: "Tumba de Ramsés V y de Ramsés VI, Valle de las Reyes, Luxor, Egipto, 2022-04-03, DD 48.jpg",
+        autor: "Techo pintado de la tumba de Ramsés V y Ramsés VI, Valle de los Reyes, Egipto.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATumba%20de%20Rams%C3%A9s%20V%20y%20de%20Rams%C3%A9s%20VI%2C%20Valle%20de%20las%20Reyes%2C%20Luxor%2C%20Egipto%2C%202022-04-03%2C%20DD%2048.jpg",
+        foco: "50% 50%",
+        alt: "Techo de una tumba egipcia cubierto de figuras doradas y jeroglíficos sobre fondo claro.",
+      },
+      {
+        archivo: "Tumba de Tutankamón, Valle de los Reyes, Luxor, Egipto, 2022-04-03, DD 73.jpg",
+        autor: "Interior de la tumba de Tutankamón, Valle de los Reyes, Egipto.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATumba%20de%20Tutankam%C3%B3n%2C%20Valle%20de%20los%20Reyes%2C%20Luxor%2C%20Egipto%2C%202022-04-03%2C%20DD%2073.jpg",
+        foco: "50% 50%",
+        alt: "Pared pintada de la cámara funeraria de Tutankamón, con figuras sobre fondo dorado.",
+      },
+      {
+        archivo: "A portion of the ceiling in the tomb of Ramesses IV.jpg",
+        autor: "Techo de la tumba de Ramsés IV, Valle de los Reyes, 2023.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AA%20portion%20of%20the%20ceiling%20in%20the%20tomb%20of%20Ramesses%20IV.jpg",
+        foco: "50% 50%",
+        alt: "Bóveda pintada de azul con estrellas y figuras alargadas de una tumba egipcia.",
+      },
+      {
+        archivo: "KV2 Tomb of Rameses IV (9794973743).jpg",
+        autor: "Corredor de la tumba de Ramsés IV, Valle de los Reyes.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AKV2%20Tomb%20of%20Rameses%20IV%20(9794973743).jpg",
+        foco: "50% 50%",
+        alt: "Pasillo excavado en la roca con las paredes cubiertas de relieves pintados.",
+      },
+    ],
     entrada:
-      "Valle de los Reyes, noviembre de 1922. Se abre una tumba egipcia intacta, la más rica que se ha encontrado nunca, y su descubridor vende la exclusiva informativa a un solo periódico de Londres. El resto de la prensa mundial se queda sin poder contar nada de lo que hay dentro, y necesita llenar páginas todos los días con algo.",
+      "Valle de los Reyes, noviembre de 1922. Se abre una tumba egipcia prácticamente intacta, la más rica que se ha encontrado nunca y la que más expectación ha levantado, y su descubridor toma una decisión comercial que lo cambia todo: vende la exclusiva informativa a un solo periódico de Londres. El resto de la prensa mundial, que ha mandado corresponsales hasta allí, se queda sin poder contar nada de lo que hay dentro de la cámara, y sin embargo necesita llenar sus páginas todos los días con algo que suene a Egipto.",
     paginas: [
       {
         rotulo: "El invento",
