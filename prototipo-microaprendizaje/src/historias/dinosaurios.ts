@@ -160,8 +160,42 @@ export const DINOSAURIOS: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Un esqueleto de saurio de cuello largo montado en la sala de un museo antiguo.",
+    fotos: [
+      {
+        archivo: "Zigong Dinosaur Museum Omeisaurus tianfuensis.jpg",
+        autor: "Esqueleto de Omeisaurus en el Museo de Dinosaurios de Zigong, China, 2014.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AZigong%20Dinosaur%20Museum%20Omeisaurus%20tianfuensis.jpg",
+        foco: "50% 45%",
+        alt: "Esqueleto montado de un saurio de cuello larguísimo delante de un mural pintado.",
+      },
+      {
+        archivo: "Zigong Dinosaur Museum Omeisaurus tianfuensis below.jpg",
+        autor: "El mismo esqueleto visto desde abajo, Zigong, China, 2014.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AZigong%20Dinosaur%20Museum%20Omeisaurus%20tianfuensis%20below.jpg",
+        foco: "50% 50%",
+        alt: "Costillas y vértebras del saurio vistas desde el suelo de la sala.",
+      },
+      {
+        archivo: "World's tallest mounted dinosaur skeleton Brachiosaurus brancai.jpg",
+        autor: "Esqueleto de Giraffatitan en el Museo de Historia Natural de Berlín, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWorld's%20tallest%20mounted%20dinosaur%20skeleton%20Brachiosaurus%20brancai.jpg",
+        foco: "50% 45%",
+        alt: "Esqueleto altísimo de dinosaurio con el cuello levantado dentro de una sala acristalada.",
+      },
+      {
+        archivo: "Dinosaur Skeleton (36324464642).jpg",
+        autor: "Esqueleto de dinosaurio montado en un museo, 2017.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADinosaur%20Skeleton%20(36324464642).jpg",
+        foco: "50% 50%",
+        alt: "Fósil montado de un dinosaurio grande sobre su peana de museo.",
+      },
+    ],
     entrada:
-      "Estados Unidos, finales del siglo XIX. Dos paleontólogos rivales se odian tanto que se dedican a competir por publicar primero, y entre los dos describen más de ciento treinta especies nuevas en treinta años, muchas a la carrera y con los huesos todavía medio limpios. Uno de ellos bautiza en 1879 un saurio enorme al que llama Brontosaurio, «lagarto trueno».",
+      "Estados Unidos, finales del siglo XIX. Dos paleontólogos rivales se odian tanto y tan bien que dedican su vida entera a competir por publicar primero, comprando yacimientos y espiándose las excavaciones. Entre los dos describen más de ciento treinta especies nuevas en apenas treinta años, muchas de ellas hechas a la carrera, con los huesos todavía medio limpios y a veces sin comprobar nada. Uno de ellos bautiza en 1879 un saurio enorme de cuello largo al que llama Brontosaurio, «lagarto trueno», y ese nombre acabará dando muchísimo que hablar.",
     paginas: [
       {
         rotulo: "La cabeza ajena",
