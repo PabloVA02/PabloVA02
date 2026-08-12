@@ -89,6 +89,42 @@ export const CRIMEN: Short[] = [
     categoria: "Crimen",
     color: "var(--sage)",
     encargo: "Un Boeing 727 de los años setenta, o el retrato robot de D. B. Cooper.",
+    fotos: [
+      {
+        archivo: "Ex-Asia Pacific Airlines Boeing 727-212 Adv F (N319NE).jpg",
+        autor: "Un Boeing 727 retirado en un cementerio de aviones del desierto. Fotografía de Quintin Soloviev.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ex-Asia_Pacific_Airlines_Boeing_727-212_Adv_F_(N319NE).jpg",
+        foco: "50% 45%",
+        alt: "Fuselaje blanco y verde de un Boeing 727 abandonado en el desierto, con un ala desmontada en el suelo.",
+      },
+      {
+        archivo: "Boeing 727-228-Adv, Ariana Afghan Airlines AN1450645.jpg",
+        autor: "Un Boeing 727 en pista, el modelo con la escalerilla trasera que se abre en vuelo.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Boeing_727-228-Adv,_Ariana_Afghan_Airlines_AN1450645.jpg",
+        foco: "50% 50%",
+        alt: "Avión trirreactor de pasajeros aparcado en la pista, visto de lado.",
+      },
+      {
+        archivo: "Industries of War - Lumber - LOGGING CAMPS IN THE OREGON FOREST. A company street in the woods. The cloudy effect in picture is not due to clouds nor smoke, but to the almost everlasting \"Oregon mist\" or in plain(...) - NARA - 31490027.jpg",
+        autor: "Bosque del noroeste de Estados Unidos entre la niebla, la zona donde se perdió el rastro. Archivos Nacionales.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Industries_of_War_-_Lumber_-_LOGGING_CAMPS_IN_THE_OREGON_FOREST._A_company_street_in_the_woods._The_cloudy_effect_in_picture_is_not_due_to_clouds_nor_smoke,_but_to_the_almost_everlasting_%22Oregon_mist%22_or_in_plain(...)_-_NARA_-_31490027.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía antigua de un bosque de coníferas altísimas envuelto en niebla espesa.",
+      },
+      {
+        archivo: "Azerbaijan Airlines Boeing 727-235; 4K-AZ2@FRA, July 1996 (5695398251).jpg",
+        autor: "Otro Boeing 727 en un aeropuerto europeo, en 1996.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Azerbaijan_Airlines_Boeing_727-235;_4K-AZ2@FRA,_July_1996_(5695398251).jpg",
+        foco: "50% 50%",
+        alt: "Boeing 727 rodando por la pista con los tres motores en la cola.",
+      },
+    ],
     entrada:
       "Estados Unidos, 24 de noviembre de 1971, la víspera del día de Acción de Gracias. Un hombre de traje oscuro y corbata compra un billete para un vuelo corto entre dos ciudades del noroeste del país. Ya en el aire le pasa una nota a la azafata, que se la guarda en el bolso sin leerla, creyendo que es un teléfono. Él se inclina y le dice que la lea.",
     paginas: [
