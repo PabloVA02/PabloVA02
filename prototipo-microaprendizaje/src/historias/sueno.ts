@@ -93,8 +93,44 @@ export const SUENO: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Un dormitorio a oscuras visto desde la cama, sombras alargadas en el techo.",
+    fotos: [
+      {
+        archivo: "Johann Heinrich Füssli - The Nightmare 55.5.A-d1-2019-04-15.jpg",
+        autor: "Óleo de Henry Fuseli, 1781: <em>La pesadilla</em>, la imagen con la que Occidente lleva dos siglos dibujando esto. Detroit Institute of Arts.",
+        licencia: "Public domain",
+        pdPorEdad: 1825,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AJohann%20Heinrich%20F%C3%BCssli%20-%20The%20Nightmare%2055.5.A-d1-2019-04-15.jpg",
+        foco: "50% 50%",
+        alt: "Mujer dormida tumbada boca arriba con un ser oscuro sentado sobre su pecho y una cabeza de caballo asomando en la penumbra.",
+      },
+      {
+        archivo: "Vincent van Gogh - The Bedroom - Google Art Project.jpg",
+        autor: "Óleo de Vincent van Gogh, 1889: su dormitorio de Arlés. Art Institute of Chicago.",
+        licencia: "Public domain",
+        pdPorEdad: 1890,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVincent%20van%20Gogh%20-%20The%20Bedroom%20-%20Google%20Art%20Project.jpg",
+        foco: "50% 50%",
+        alt: "Habitación pequeña pintada en azules y amarillos, con una cama de madera, dos sillas y cuadros en la pared.",
+      },
+      {
+        archivo: "Francisco de Goya - Caprichos- The Sleep of Reason Produces Monsters - 1922.638 - Cleveland Museum of Art.tif",
+        autor: "Aguafuerte de Francisco de Goya, 1799: <em>El sueño de la razón produce monstruos</em>, de los Caprichos.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFrancisco%20de%20Goya%20-%20Caprichos-%20The%20Sleep%20of%20Reason%20Produces%20Monsters%20-%201922.638%20-%20Cleveland%20Museum%20of%20Art.tif",
+        foco: "50% 45%",
+        alt: "Grabado de un hombre dormido sobre una mesa mientras a su espalda revolotean búhos y murciélagos.",
+      },
+      {
+        archivo: "The Nightmare Wellcome L0034549.jpg",
+        autor: "Grabado del siglo XIX basado en la pesadilla de Fuseli. Colección Wellcome, Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20Nightmare%20Wellcome%20L0034549.jpg",
+        foco: "50% 45%",
+        alt: "Estampa en blanco y negro de una figura dormida con un ser agazapado encima, entre cortinajes.",
+      },
+    ],
     entrada:
-      "Le pasa aproximadamente a una de cada trece personas al menos una vez en la vida: despertar y encontrarse despierto por dentro y paralizado por fuera, sin poder mover un dedo ni hablar, con frecuencia notando un peso sobre el pecho y la certeza de que hay alguien en la habitación. No es un sueño ni un trastorno grave. Es un fallo de coordinación.",
+      "Le pasa aproximadamente a una de cada trece personas al menos una vez en la vida, y casi ninguna se lo cuenta a nadie: despertar y encontrarse despierto por dentro y completamente paralizado por fuera, sin poder mover un dedo, sin poder hablar y sin poder llamar. Muchas veces se nota además un peso sobre el pecho, cuesta respirar y aparece la certeza absoluta de que hay alguien más en la habitación, de pie, mirando. No es un sueño, no es un aviso de nada y no es un trastorno grave. Es un fallo de coordinación de unos segundos.",
     paginas: [
       {
         rotulo: "El interruptor",
