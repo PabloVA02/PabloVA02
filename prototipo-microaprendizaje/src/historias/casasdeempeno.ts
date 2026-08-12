@@ -85,6 +85,41 @@ export const CASAS_DE_EMPENO: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Libro de registro de empeños manuscrito con columnas de objetos y fechas.",
+    fotos: [
+      {
+        archivo: "Pawnbroker's sign, Queen Street Edinburgh.jpg",
+        autor: "Las tres bolas doradas, el rótulo tradicional de las casas de empeño, en Edimburgo. Fotografía de Kim Traynor.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Pawnbroker%27s_sign,_Queen_Street_Edinburgh.jpg",
+        foco: "35% 55%",
+        alt: "Tres esferas doradas colgando de un soporte de hierro forjado, con un león de piedra y cielo azul detrás.",
+      },
+      {
+        archivo: "W.J Edwards, Old Swan.jpg",
+        autor: "Joyería y casa de empeños con las tres bolas en la esquina, en Liverpool. Fotografía de Rodhullandemu.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:W.J_Edwards,_Old_Swan.jpg",
+        foco: "50% 50%",
+        alt: "Esquina de una tienda de barrio con el rótulo azul y las tres bolas doradas colgadas arriba.",
+      },
+      {
+        archivo: "Christopher Brown, Liverpool.jpg",
+        autor: "Otra casa de empeños de Liverpool con el rótulo de las tres bolas. Fotografía de Rodhullandemu.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Christopher_Brown,_Liverpool.jpg",
+        foco: "50% 50%",
+        alt: "Fachada de una joyería y casa de empeños en una esquina, con el escaparate cerrado.",
+      },
+      {
+        archivo: "Angled view of a fashion wristwatch with purple dial and leather strap 01.jpg",
+        autor: "Un reloj de pulsera, el objeto que más entra y sale de estos mostradores.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Angled_view_of_a_fashion_wristwatch_with_purple_dial_and_leather_strap_01.jpg",
+        foco: "50% 50%",
+        alt: "Reloj de pulsera con correa de cuero fotografiado en escorzo sobre fondo liso.",
+      },
+    ],
     entrada:
       "Todas las ciudades, con registros de empeño conservados desde el siglo XVIII. Los libros de las casas de empeño son una fuente histórica de primer orden, porque anotan cada objeto con su fecha. Leídos en conjunto cuentan cómo iba la vida de la gente corriente mejor que casi ningún otro documento. Lo que entra por la puerta cambia según el momento y según la desesperación.",
     paginas: [
