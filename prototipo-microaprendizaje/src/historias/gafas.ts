@@ -84,14 +84,48 @@ export const GAFAS: Short[] = [
 
   {
     id: "primeras-lentillas",
-    titulo: "Las lentillas eran de vidrio",
+    titulo: "La lentilla era de vidrio",
     gancho: "Cubrían el ojo entero, se apoyaban en la parte blanca y aguantabas dos horas con suerte.",
     categoria: "Gafas",
     color: "var(--slate)",
     curioso: true,
     encargo: "Una cáscara de vidrio fino y curvo sobre un paño oscuro, muy iluminada.",
+    fotos: [
+      {
+        archivo: "A selection of glass eyes from an opticians glas eye case. Wellcome L0036579.jpg",
+        autor: "Ojos de cristal soplados a mano, del estuche de un óptico. Colección Wellcome, Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AA%20selection%20of%20glass%20eyes%20from%20an%20opticians%20glas%20eye%20case.%20Wellcome%20L0036579.jpg",
+        foco: "50% 50%",
+        alt: "Montón de ojos de cristal de distintos colores, cada uno con su iris pintado y venillas rojas.",
+      },
+      {
+        archivo: "Example of two glass eyes, white glass, with blood vessels Wellcome L0036422.jpg",
+        autor: "Dos ojos de cristal blanco con las venas pintadas en rojo, hechos por W. Halford, de Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AExample%20of%20two%20glass%20eyes%2C%20white%20glass%2C%20with%20blood%20vessels%20Wellcome%20L0036422.jpg",
+        foco: "50% 50%",
+        alt: "Dos cáscaras de vidrio con forma de ojo, muy finas, con el iris de color y venillas rojas.",
+      },
+      {
+        archivo: "Corrective soft contact lenses, with high oxigen permeability.jpg",
+        autor: "Lentillas blandas de hoy, que dejan pasar el oxígeno que aquellas cáscaras de vidrio cortaban.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACorrective%20soft%20contact%20lenses%2C%20with%20high%20oxigen%20permeability.jpg",
+        foco: "50% 50%",
+        alt: "Dos lentillas transparentes y blandas apoyadas en una superficie clara, con el borde apenas visible.",
+      },
+      {
+        archivo: "Iris Macro, Eye close-up (11622304153).jpg",
+        autor: "Iris humano fotografiado muy de cerca, con las fibras y los surcos a la vista.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AIris%20Macro%2C%20Eye%20close-up%20(11622304153).jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de un ojo, con el iris lleno de fibras radiales y la pupila negra en el centro.",
+      },
+    ],
     entrada:
-      "Alemania, 1888. Un fabricante de ojos de cristal para prótesis colabora con un médico en una idea bastante rara: colocar directamente sobre el ojo una cáscara de vidrio finísimo que corrija la vista. La prueban primero con conejos, después con el propio fabricante y por último con un pequeño grupo de voluntarios pacientes.",
+      "Alemania, 1888. Un fabricante de ojos de cristal para prótesis colabora con un médico en una idea bastante rara y bastante incómoda: colocar directamente sobre el ojo una cáscara de vidrio finísimo, soplada a medida, que corrija la vista sin ninguna montura por delante. La prueban primero con conejos, después con el propio fabricante, que se la pone él mismo, y por último con un grupo pequeño de voluntarios con mucha paciencia. Funciona, en el sentido de que se ve mejor. El problema es cuánto rato se aguanta.",
     paginas: [
       {
         rotulo: "La cáscara",
