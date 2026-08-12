@@ -154,8 +154,42 @@ export const FAROS_DE_COCHE: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Coche antiguo francés de noche con los dos faros amarillos encendidos.",
+    fotos: [
+      {
+        archivo: "1973 Citroen DS23 Pallas (29447980784).jpg",
+        autor: "Citroën DS23 Pallas de 1973, con los faros bajo cristal.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A1973%20Citroen%20DS23%20Pallas%20(29447980784).jpg",
+        foco: "45% 55%",
+        alt: "Citroën DS gris aparcado junto a un césped, con el morro largo y los cuatro faros tras un cristal curvo.",
+      },
+      {
+        archivo: "1974 Citroen D-Special headlight.jpg",
+        autor: "Faro de un Citroën D-Special de 1974.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A1974%20Citroen%20D-Special%20headlight.jpg",
+        foco: "50% 50%",
+        alt: "Primer plano del faro redondo de un Citroën antiguo, con el reflector visible tras el cristal.",
+      },
+      {
+        archivo: "US-market Citroën DS headlamps (1971 DS21).jpg",
+        autor: "Faros de un Citroën DS21 de 1971 en su versión para Estados Unidos.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AUS-market%20Citro%C3%ABn%20DS%20headlamps%20(1971%20DS21).jpg",
+        foco: "50% 50%",
+        alt: "Detalle del morro de un Citroën DS con dos faros redondos descubiertos, sin la cúpula de cristal.",
+      },
+      {
+        archivo: "Citroen DS 19 1957.JPG",
+        autor: "Citroën DS 19 de 1957, cuando el frontal aún llevaba dos faros.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACitroen%20DS%2019%201957.JPG",
+        foco: "50% 50%",
+        alt: "Frontal de un Citroën DS de 1957 con dos faros redondos y la carrocería clara.",
+      },
+    ],
     entrada:
-      "Francia, 1936. Un decreto obliga a que todos los coches matriculados en el país lleven los faros de color amarillo, cosa que no pasa en ningún otro sitio de Europa. La norma duró hasta 1993 y generó una imagen inconfundible en las carreteras del continente. Las razones que se dieron fueron varias y no todas resistieron el paso del tiempo.",
+      "Francia, 1936. Un decreto obliga a que todos los coches matriculados en el país lleven los faros de color amarillo, cosa que no pasaba en ningún otro sitio de Europa y que convirtió una frontera administrativa en algo que se veía de noche a un kilómetro de distancia. La norma duró hasta 1993 y creó una imagen inconfundible en las carreteras del continente: una fila de luces blancas y, entre ellas, dos puntos ámbar que delataban de dónde venía el coche. Las razones que se dieron para justificarla fueron varias a lo largo de esos casi sesenta años, y no todas ellas resistieron bien el paso del tiempo.",
     paginas: [
       {
         rotulo: "Menos azul",
