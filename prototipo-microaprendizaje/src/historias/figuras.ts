@@ -229,6 +229,40 @@ export const FIGURAS: Short[] = [
       alt: "El mosaico de Pompeya: Alejandro carga por la izquierda y Darío huye en su carro por la derecha.",
     },
     encargo: "El detalle de la cara de Alejandro en el mosaico de Issos, con el ojo muy abierto.",
+    fotos: [
+      {
+        archivo: "Detail of the Alexander Mosaic depicting the Battle of Issus between Alexander the Great & Darius III of Persia, from the House of the Faun in Pompeii, Naples Archaeological Museum (14859382057).jpg",
+        autor: "Detalle del mosaico de Alejandro, de la Casa del Fauno de Pompeya. Museo Arqueológico de Nápoles.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADetail%20of%20the%20Alexander%20Mosaic%20depicting%20the%20Battle%20of%20Issus%20between%20Alexander%20the%20Great%20%26%20Darius%20III%20of%20Persia%2C%20from%20the%20House%20of%20the%20Faun%20in%20Pompeii%2C%20Naples%20Archaeological%20Museum%20(14859382057).jpg",
+        foco: "40% 45%",
+        alt: "Mosaico romano de una batalla, con caballos encabritados, lanzas cruzadas y guerreros de gesto tenso.",
+      },
+      {
+        archivo: "Detail of the Alexander Mosaic depicting the Battle of Issus between Alexander the Great & Darius III of Persia, from the House of the Faun in Pompeii, Naples Archaeological Museum (14859255718).jpg",
+        autor: "Otro detalle del mismo mosaico, con el bosque de lanzas del ejército persa.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADetail%20of%20the%20Alexander%20Mosaic%20depicting%20the%20Battle%20of%20Issus%20between%20Alexander%20the%20Great%20%26%20Darius%20III%20of%20Persia%2C%20from%20the%20House%20of%20the%20Faun%20in%20Pompeii%2C%20Naples%20Archaeological%20Museum%20(14859255718).jpg",
+        foco: "50% 45%",
+        alt: "Detalle de mosaico con rostros de soldados y una selva de lanzas levantadas al fondo.",
+      },
+      {
+        archivo: "Egypt’s Mediterranean Coast (154431).jpg",
+        autor: "La costa mediterránea de Egipto, con Alejandría, fotografiada desde la Estación Espacial en 2023. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AEgypt%E2%80%99s%20Mediterranean%20Coast%20(154431).jpg",
+        foco: "50% 50%",
+        alt: "Vista desde la órbita de una costa desértica con una ciudad extendida junto al mar y un lago detrás.",
+      },
+      {
+        archivo: "The Alexander Mosaic depicting the Battle of Issus between Alexander the Great & Darius III of Persia, from the House of the Faun in Pompeii, Naples Archaeological Museum (15045954695).jpg",
+        autor: "El mosaico de Alejandro completo, con la batalla de Issos de lado a lado.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20Alexander%20Mosaic%20depicting%20the%20Battle%20of%20Issus%20between%20Alexander%20the%20Great%20%26%20Darius%20III%20of%20Persia%2C%20from%20the%20House%20of%20the%20Faun%20in%20Pompeii%2C%20Naples%20Archaeological%20Museum%20(15045954695).jpg",
+        foco: "50% 50%",
+        alt: "Mosaico ancho de una batalla antigua, con los dos ejércitos y los carros enfrentados.",
+      },
+    ],
     entrada:
       "Siglo IV antes de Cristo. En trece años, un rey macedonio que empezó con veinte convirtió un reino de montaña en el mayor imperio conocido hasta entonces, desde Grecia hasta la India. Fundó unas setenta ciudades y a casi todas les puso su nombre. A los treinta y dos estaba muerto, sin heredero claro, y sus generales se repartieron el mundo antes de enterrarlo.",
     paginas: [
