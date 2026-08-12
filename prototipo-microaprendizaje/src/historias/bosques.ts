@@ -85,8 +85,42 @@ export const BOSQUES: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Una ladera de monte cubierta de árboles jóvenes de repoblación.",
+    fotos: [
+      {
+        archivo: "Primeval (3) (8114884314).jpg",
+        autor: "Árboles jóvenes creciendo entre los viejos en un bosque maduro de Pensilvania, en octubre.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APrimeval%20(3)%20(8114884314).jpg",
+        foco: "50% 50%",
+        alt: "Interior de un bosque en otoño, con hojas amarillas y anaranjadas y troncos altos al fondo.",
+      },
+      {
+        archivo: "Asturias, panorámicas (2006) 04.jpg",
+        autor: "Interior de un hayedo en Caso, Asturias.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAsturias%2C%20panor%C3%A1micas%20(2006)%2004.jpg",
+        foco: "50% 50%",
+        alt: "Hayedo con los troncos grises muy juntos y el suelo cubierto de hojarasca.",
+      },
+      {
+        archivo: "Národní park Podyjí Dyje Nationalpark Thayatal 2013 10 a.jpg",
+        autor: "Hayas enrojecidas reflejadas en el río Dyje, en el parque nacional de Podyjí, en Chequia.",
+        licencia: "CC BY-SA 3.0 at",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AN%C3%A1rodn%C3%AD%20park%20Podyj%C3%AD%20Dyje%20Nationalpark%20Thayatal%202013%2010%20a.jpg",
+        foco: "50% 50%",
+        alt: "Río en calma con niebla baja, rodeado de laderas de bosque con las hojas rojas y doradas.",
+      },
+      {
+        archivo: "Natural autumn background (54020649215).jpg",
+        autor: "Hojas de haya iluminadas a contraluz sobre el fondo oscuro de un bosque de los Cárpatos.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANatural%20autumn%20background%20(54020649215).jpg",
+        foco: "50% 50%",
+        alt: "Ramas de haya con las hojas encendidas por el sol, recortadas contra la sombra del bosque.",
+      },
+    ],
     entrada:
-      "Europa, hacia 1900. Después de siglos de talas para leña, carbón vegetal, pasto y campos de cultivo, el continente ha llegado a su mínimo histórico de superficie arbolada. En algunos países quedaba con árboles menos de una décima parte del territorio, y montes enteros eran laderas peladas. Desde entonces, la tendencia se ha invertido por completo.",
+      "Europa, hacia 1900. Después de siglos de talas para leña, para carbón vegetal, para pasto y para abrir campos de cultivo, el continente ha llegado a su mínimo histórico de superficie arbolada, y ese mínimo es de verdad bajo. En algunos países quedaba con árboles menos de una décima parte del territorio, y montes enteros que hoy están cubiertos eran entonces laderas peladas donde no se sostenía la tierra. Desde aquel punto la tendencia se ha invertido por completo, y lleva más de un siglo invertida, aunque casi nadie lo tenga en la cabeza.",
     paginas: [
       {
         rotulo: "Por qué crece",
