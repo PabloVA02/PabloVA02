@@ -153,8 +153,42 @@ export const ABANICO: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Ventilador de sobremesa funcionando en una habitación con un termómetro marcando calor.",
+    fotos: [
+      {
+        archivo: "Vintage desk fan at the Age of Steam Roundhouse April 2022.jpg",
+        autor: "Ventilador de sobremesa antiguo en un taller ferroviario de Ohio, 2022.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVintage%20desk%20fan%20at%20the%20Age%20of%20Steam%20Roundhouse%20April%202022.jpg",
+        foco: "35% 50%",
+        alt: "Ventilador antiguo de aspas naranjas y reja metálica sobre el alféizar de una ventana.",
+      },
+      {
+        archivo: "Electric fan Emerson Junior.JPG",
+        autor: "Ventilador eléctrico Emerson Junior.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AElectric%20fan%20Emerson%20Junior.JPG",
+        foco: "50% 45%",
+        alt: "Ventilador eléctrico antiguo de pie corto con las aspas de metal a la vista.",
+      },
+      {
+        archivo: "Electric fan early GE.JPG",
+        autor: "Ventilador eléctrico primitivo de General Electric.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AElectric%20fan%20early%20GE.JPG",
+        foco: "50% 45%",
+        alt: "Ventilador de principios del siglo XX con la jaula redonda y el motor negro.",
+      },
+      {
+        archivo: "Electric fans in the Philippines 06.jpg",
+        autor: "Ventiladores en una casa de Filipinas, 2023.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AElectric%20fans%20in%20the%20Philippines%2006.jpg",
+        foco: "50% 50%",
+        alt: "Ventilador de pie encendido en una habitación durante un día de calor.",
+      },
+    ],
     entrada:
-      "Cualquier ola de calor, con el estudio que lo midió publicado en 2019. Abanicarse o poner un ventilador parece siempre buena idea, y hay un punto a partir del cual deja de serlo. Si el aire que se mueve está más caliente que la piel, ese aire le entrega calor al cuerpo en vez de quitárselo. Dónde está exactamente ese punto depende de la humedad.",
+      "Cualquier ola de calor de las de ahora, con el estudio que por fin lo midió bien publicado en 2019. Abanicarse o poner un ventilador delante parece siempre una buena idea, la primera que se le ocurre a cualquiera, y sin embargo hay un punto muy concreto a partir del cual deja de serlo y empieza a ser justo lo contrario. Si el aire que se mueve está más caliente que la piel, ese aire le entrega calor al cuerpo en vez de quitárselo. Dónde está exactamente ese punto depende, y mucho, de la humedad que haya.",
     paginas: [
       {
         rotulo: "Dos efectos",
