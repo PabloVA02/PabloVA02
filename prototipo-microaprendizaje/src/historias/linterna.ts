@@ -85,8 +85,42 @@ export const LINTERNA: Short[] = [
     categoria: "Linterna",
     color: "var(--plum)",
     encargo: "Un diodo azul encendido muy de cerca, con el resto de la imagen a oscuras.",
+    fotos: [
+      {
+        archivo: "LED 5mm RGB.jpg",
+        autor: "Led de cinco milímetros visto muy de cerca: dentro de la resina se ven los tres diodos, rojo, verde y azul.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALED%205mm%20RGB.jpg",
+        foco: "45% 50%",
+        alt: "Macro de un led transparente sobre fondo negro, con las patillas metálicas y tres puntitos de color dentro.",
+      },
+      {
+        archivo: "InGaN-based green LED.jpg",
+        autor: "Diodo verde de nitruro de galio e indio encendido, de la misma familia de materiales que resolvió el azul.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AInGaN-based%20green%20LED.jpg",
+        foco: "50% 50%",
+        alt: "Diodo encendido de un verde intenso, muy ampliado y recortado sobre fondo oscuro.",
+      },
+      {
+        archivo: "Macro Led.jpg",
+        autor: "Led blanco fotografiado de cerca: el cuadrado amarillo es el polvo que convierte parte del azul.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMacro%20Led.jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de un led con un pequeño rectángulo amarillo en el centro y un hilo finísimo soldado encima.",
+      },
+      {
+        archivo: "LED string lights.jpg",
+        autor: "Guirnalda de leds encendida vista de cerca, con los puntos de luz desenfocados al fondo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALED%20string%20lights.jpg",
+        foco: "50% 50%",
+        alt: "Hilera de bombillitas encendidas sobre fondo oscuro, unas nítidas y otras convertidas en círculos de luz.",
+      },
+    ],
     entrada:
-      "Japón, años ochenta y noventa del siglo XX. Un led es una pieza pequeña de material semiconductor que se ilumina al pasarle corriente y que gasta poquísimo comparada con una bombilla. Desde los años sesenta se fabrican en rojo y en verde, y son los pilotos que se encienden en los aparatos de casa. El problema es que con rojo y verde no se puede hacer luz blanca, y sin blanco un led sirve para avisar pero no para alumbrar. Falta el azul, y el azul lleva treinta años resistiéndose a todos los laboratorios del mundo.",
+      "Japón, años ochenta y noventa del siglo XX. Un led es una pieza pequeña de material semiconductor que se ilumina al pasarle corriente y que gasta poquísimo comparada con una bombilla de las de siempre. Desde los años sesenta se fabrican en rojo y en verde, y son los pilotos que se encienden en los aparatos de casa. El problema es que con rojo y verde no se puede hacer luz blanca por mucho que se mezclen, y sin blanco un led sirve para avisar pero no para alumbrar una habitación. Falta el azul, y el azul lleva treinta años resistiéndose a todos los laboratorios del mundo.",
     paginas: [
       {
         rotulo: "Por qué el azul",
