@@ -84,8 +84,42 @@ export const CRUZADAS: Short[] = [
     categoria: "Cruzadas",
     color: "var(--slate)",
     encargo: "Una muralla marítima antigua con torres, vista desde el agua.",
+    fotos: [
+      {
+        archivo: "Interior of Hagia Sophia (2) - Istanbul (2022).jpg",
+        autor: "Interior de Santa Sofía de Constantinopla, la iglesia más rica de la cristiandad en 1204.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Interior_of_Hagia_Sophia_(2)_-_Istanbul_(2022).jpg",
+        foco: "50% 50%",
+        alt: "Bóvedas doradas y medallones caligráficos vistos desde abajo en el interior de Santa Sofía.",
+      },
+      {
+        archivo: "Interior of Hagia Sophia (3) - Istanbul (2022).jpg",
+        autor: "Arcos y galerías del interior de Santa Sofía, en Estambul.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Interior_of_Hagia_Sophia_(3)_-_Istanbul_(2022).jpg",
+        foco: "50% 50%",
+        alt: "Columnas de mármol y arcadas bajo una bóveda decorada, en una gran iglesia bizantina.",
+      },
+      {
+        archivo: "Interior of Hagia Sophia (6) - Istanbul (2022).jpg",
+        autor: "La nave central de Santa Sofía vista hacia la cúpula.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Interior_of_Hagia_Sophia_(6)_-_Istanbul_(2022).jpg",
+        foco: "50% 50%",
+        alt: "Cúpula enorme sostenida por pechinas, con ventanas en la base y mosaicos dorados.",
+      },
+      {
+        archivo: "Kuppel Kleine Hagia Sophia.jpg",
+        autor: "Cúpula de la iglesia bizantina conocida como la pequeña Santa Sofía, en Estambul.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Kuppel_Kleine_Hagia_Sophia.jpg",
+        foco: "50% 50%",
+        alt: "Cúpula bizantina con nervios y ventanas, vista desde el suelo del templo.",
+      },
+    ],
     entrada:
-      "Venecia, 1201. Los organizadores de una nueva expedición a Tierra Santa firman un contrato con la ciudad para que les construya y tripule una flota. El precio se fija según el número de hombres previsto: unos treinta y cinco mil. Cuando llega la fecha de embarcar, aparecen menos de la mitad, y el contrato hay que pagarlo entero igual.",
+      "Venecia, 1201. Los organizadores de una nueva expedición a Tierra Santa firman un contrato con la ciudad para que les construya y les tripule una flota entera. El precio se fija por adelantado según el número de hombres previsto, unos treinta y cinco mil, y Venecia para su economía durante un año para cumplirlo. Cuando llega la fecha de embarcar, en el puerto aparecen menos de la mitad de los cruzados, y el contrato hay que pagarlo entero igual. De esa deuda, y no de la fe, sale todo lo que viene después.",
     paginas: [
       {
         rotulo: "La deuda",
