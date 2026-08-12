@@ -79,13 +79,47 @@ export const TEJADOS: Short[] = [
   },
   {
     id: "el-tejado-de-pizarra",
-    titulo: "La pizarra se parte en láminas perfectas",
+    titulo: "La pizarra se parte sola",
     gancho: "Un golpe de cincel en la dirección correcta y la roca se abre sola en hojas de cinco milímetros.",
     categoria: "Objetos",
     color: "var(--clay)",
     encargo: "Manos de un cantero abriendo un bloque de pizarra en dos láminas con cincel.",
+    fotos: [
+      {
+        archivo: "Roof slates Eiktunet.jpg",
+        autor: "Tejado de lajas de pizarra solapadas, fotografiado de cerca con la luz baja de la tarde.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARoof%20slates%20Eiktunet.jpg",
+        foco: "50% 50%",
+        alt: "Superficie de un tejado cubierta de piezas de pizarra redondeadas montadas como escamas.",
+      },
+      {
+        archivo: "Old slate quarry (51041749762).jpg",
+        autor: "La antigua cantera de Dinorwic, en Gales, con las montañas de Snowdonia al fondo.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AOld%20slate%20quarry%20(51041749762).jpg",
+        foco: "50% 50%",
+        alt: "Enorme cantera abierta en la ladera, con bancales de roca gris azulada y montañas detrás.",
+      },
+      {
+        archivo: "Slate mills, Dinorwic Quarry - geograph.org.uk - 4169340.jpg",
+        autor: "Los talleres de la cantera de Dinorwic, donde se rajaban y recortaban las láminas.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASlate%20mills%2C%20Dinorwic%20Quarry%20-%20geograph.org.uk%20-%204169340.jpg",
+        foco: "50% 50%",
+        alt: "Naves de piedra al pie de una montaña de escombrera de pizarra, con vagonetas y raíles.",
+      },
+      {
+        archivo: "Slate roofs in Llanberis.jpg",
+        autor: "Los tejados del pueblo de Llanberis, cubiertos con la pizarra de la cantera de al lado.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASlate%20roofs%20in%20Llanberis.jpg",
+        foco: "50% 50%",
+        alt: "Casas de un pueblo vistas desde arriba, todas con el tejado del mismo gris azulado.",
+      },
+    ],
     entrada:
-      "Galicia, Gales y las montañas de media Europa, con la explotación a gran escala a partir del siglo XIX. La pizarra es una roca que tiene una propiedad rarísima: golpeada con un cincel en la dirección correcta, se abre en láminas finas y planas casi solas. Esa manía de partirse bien la convirtió en el mejor tejado del mundo durante siglo y medio.",
+      "Galicia, Gales y las montañas de media Europa, con la explotación a gran escala a partir del siglo XIX. La pizarra es una roca corriente que tiene una propiedad rarísima: golpeada con un cincel en la dirección correcta, se abre en láminas finas y planas casi sola, y las hojas salen tan iguales que parecen cortadas a máquina. Ninguna otra piedra de construcción hace eso. Esa manía de partirse bien, que no sirve para nada más, la convirtió durante siglo y medio en el mejor tejado que se podía poner en una casa.",
     paginas: [
       {
         rotulo: "Por qué se abre",
