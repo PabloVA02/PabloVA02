@@ -128,7 +128,7 @@ export const CIUDADES: Short[] = [
       },
     ],
     entrada:
-      "Venecia no se levanta sobre roca ni sobre tierra firme, sino sobre el barro blando de una laguna, que es el peor sitio imaginable para poner una ciudad de piedra. Para poder construir encima, quienes la hicieron clavaron troncos de árbol en el fango, uno junto a otro y muy apretados, hasta alcanzar una capa de arcilla compacta que sí aguanta peso. Sobre esa cabellera de madera pusieron plataformas de piedra, y sobre las plataformas los palacios. Los troncos siguen ahí abajo, mil años después, y siguen aguantando.",
+      "Venecia no se levanta sobre roca ni sobre tierra firme, sino sobre el barro blando de una laguna, que es el peor sitio imaginable para poner una ciudad de piedra. Para poder construir encima, quienes la hicieron clavaron troncos de árbol en el fango, uno junto a otro y muy apretados, hasta alcanzar una capa de arcilla compacta que sí aguanta peso. Sobre esa cabellera de madera pusieron plataformas de piedra, y sobre las plataformas los palacios. Los troncos siguen ahí abajo, mil años después, sin que nadie los haya cambiado nunca, y siguen aguantando el peso de la ciudad entera.",
     paginas: [
       {
         rotulo: "El bosque de abajo",

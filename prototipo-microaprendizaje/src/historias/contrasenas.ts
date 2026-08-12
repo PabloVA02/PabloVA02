@@ -55,7 +55,7 @@ export const CONTRASENAS: Short[] = [
       },
     ],
     entrada:
-      "Massachusetts, 1962. Un instituto tecnológico americano tiene un ordenador enorme, carísimo y único, que comparten decenas de investigadores repartiéndose las horas por turnos. Para que el trabajo de cada uno no se mezcle con el de los demás se instala un sistema de cuentas con contraseña, el primero de la historia del que se tiene noticia. Funciona bien durante un tiempo, hasta que uno de los usuarios agota las horas que tenía asignadas, necesita muchas más para terminar su tesis y decide buscarse la vida por su cuenta.",
+      "Massachusetts, 1962. Un instituto tecnológico americano tiene un ordenador enorme, carísimo y único, que comparten decenas de investigadores repartiéndose las horas por turnos. Para que el trabajo de cada uno no se mezcle con el de los demás se instala un sistema de cuentas con contraseña, el primero de la historia del que se tiene noticia. Funciona bien durante un tiempo, hasta que uno de los usuarios agota las horas que tenía asignadas, necesita muchas más para terminar su tesis y decide buscarse la vida por su cuenta, sin pedir permiso a nadie y sin romper nada.",
     paginas: [
       {
         rotulo: "El fichero",
