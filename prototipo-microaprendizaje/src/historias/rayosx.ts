@@ -89,6 +89,40 @@ export const RAYOSX: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Un mueble de madera barnizada con tres mirillas arriba y un hueco abajo.",
+    fotos: [
+      {
+        archivo: "The bones of a pantomime artist's foot, viewed through x-ray Wellcome V0029528.jpg",
+        autor: "Radiografía de un pie hecha en los primeros años de los rayos X. Colección Wellcome, Londres.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20bones%20of%20a%20pantomime%20artist's%20foot%2C%20viewed%20through%20x-ray%20Wellcome%20V0029528.jpg",
+        foco: "50% 50%",
+        alt: "Copia sepia de una radiografía antigua en la que se ven los huesos de un pie entre la sombra de la carne.",
+      },
+      {
+        archivo: "Podoscope par The Pedoscope Compagny 02.jpg",
+        autor: "Placa del fabricante en el mueble de un fluoroscopio de zapatería: The Pedoscope Company, Holborn, Londres.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APodoscope%20par%20The%20Pedoscope%20Compagny%2002.jpg",
+        foco: "50% 60%",
+        alt: "Placa metálica atornillada a un panel de madera barnizada, con el nombre y la dirección del fabricante grabados.",
+      },
+      {
+        archivo: "X-ray tube, England, 1896-1900 Wellcome L0057810.jpg",
+        autor: "Tubo de rayos X inglés de finales del siglo XIX, de los primeros que se fabricaron. Colección Wellcome.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AX-ray%20tube%2C%20England%2C%201896-1900%20Wellcome%20L0057810.jpg",
+        foco: "50% 50%",
+        alt: "Ampolla de vidrio soplado con electrodos metálicos dentro, montada sobre un pie.",
+      },
+      {
+        archivo: "The bones of a foot, viewed through x-ray. Photoprint from r Wellcome V0029529.jpg",
+        autor: "Otra radiografía de un pie, copiada de una placa de Arthur Schuster de 1896.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20bones%20of%20a%20foot%2C%20viewed%20through%20x-ray.%20Photoprint%20from%20r%20Wellcome%20V0029529.jpg",
+        foco: "50% 50%",
+        alt: "Radiografía antigua de un pie de perfil, con los huesos del tarso bien marcados.",
+      },
+    ],
     entrada:
       "Estados Unidos y Europa, 1927. Se pone de moda en las zapaterías un mueble de madera con tres mirillas y un hueco abajo para meter los pies. Dentro hay un tubo de rayos X funcionando: el cliente ve sus propios huesos dentro del zapato nuevo, y por las otras dos mirillas miran a la vez el vendedor y la madre.",
     paginas: [
