@@ -155,8 +155,42 @@ export const ALMOHADA: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Cojín de viaje en forma de herradura colocado con la abertura hacia atrás.",
+    fotos: [
+      {
+        archivo: "In flight above scattered clouds (Unsplash).jpg",
+        autor: "Ala de un avión sobre un mar de nubes, 2017.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AIn%20flight%20above%20scattered%20clouds%20(Unsplash).jpg",
+        foco: "40% 60%",
+        alt: "Punta del ala de un avión en vuelo, con nubes deshilachadas y cielo azul detrás.",
+      },
+      {
+        archivo: "Airplane wing sky and clouds.jpg",
+        autor: "Ala de un avión entre nubes, 2016.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAirplane%20wing%20sky%20and%20clouds.jpg",
+        foco: "50% 50%",
+        alt: "Vista desde la ventanilla del ala de un avión con nubes bajas al fondo.",
+      },
+      {
+        archivo: "2017-05-25 Lviv-Kyiv night train compartment.jpg",
+        autor: "Compartimento del tren nocturno de Leópolis a Kiev, 2017.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A2017-05-25%20Lviv-Kyiv%20night%20train%20compartment.jpg",
+        foco: "50% 50%",
+        alt: "Interior de un compartimento de tren nocturno con las literas preparadas.",
+      },
+      {
+        archivo: "Night Riviera Sleeper - cabin.jpg",
+        autor: "Cabina del tren nocturno Night Riviera, Reino Unido, 2025.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANight%20Riviera%20Sleeper%20-%20cabin.jpg",
+        foco: "50% 50%",
+        alt: "Cabina estrecha de tren cama con la litera hecha y una lamparita encendida.",
+      },
+    ],
     entrada:
-      "Aviones y trenes de todo el mundo, con el cojín en forma de herradura vendido en masa desde 1929. Dormir sentado tiene un problema muy concreto que casi nadie identifica bien. Cuando el cuello se relaja, la cabeza cae hacia delante, porque pesa unos cinco kilos y no hay nada que la sostenga. El cojín se coloca casi siempre de manera que no impide justamente eso.",
+      "Aviones y trenes de todo el mundo, con el cojín en forma de herradura vendido en masa desde 1929 y presente hoy en cualquier tienda de aeropuerto. Dormir sentado tiene un problema muy concreto que casi nadie identifica bien, aunque todo el mundo lo haya sufrido. Cuando el cuello se relaja del todo, la cabeza cae hacia delante, porque pesa alrededor de cinco kilos y ya no hay nada que la sostenga. Y el cojín, que existe justamente para eso, se coloca casi siempre de una manera que no impide ese movimiento en absoluto.",
     paginas: [
       {
         rotulo: "La cabeza cae",
