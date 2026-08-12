@@ -83,6 +83,41 @@ export const GASOLINERAS: Short[] = [
     categoria: "Tecnología",
     color: "var(--slate)",
     encargo: "Pistola de surtidor metida en el depósito de un coche, vista desde arriba.",
+    fotos: [
+      {
+        archivo: "Petrol pump mp3h0354.jpg",
+        autor: "Pistola de surtidor metida en la boca del depósito de un coche. Fotografía de Rama.",
+        licencia: "CC BY-SA 2.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Petrol_pump_mp3h0354.jpg",
+        foco: "50% 50%",
+        alt: "Pistola verde de gasolinera encajada en el depósito de un coche gris, vista de cerca.",
+      },
+      {
+        archivo: "Petrol pump mp3h0355.jpg",
+        autor: "La misma pistola de surtidor, desde otro ángulo. Fotografía de Rama.",
+        licencia: "CC BY-SA 2.0 fr",
+        fuente: "https://commons.wikimedia.org/wiki/File:Petrol_pump_mp3h0355.jpg",
+        foco: "50% 50%",
+        alt: "Detalle del caño y el gatillo de una pistola de gasolinera apoyada en el coche.",
+      },
+      {
+        archivo: "DZ6 2617 Empty Shell station at night - bright lights and clean pumps ready for early-morning customers. (55017570203).jpg",
+        autor: "Una gasolinera vacía de madrugada, con los surtidores iluminados.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:DZ6_2617_Empty_Shell_station_at_night_-_bright_lights_and_clean_pumps_ready_for_early-morning_customers._(55017570203).jpg",
+        foco: "50% 50%",
+        alt: "Estación de servicio vacía de noche, con la marquesina encendida y los surtidores alineados.",
+      },
+      {
+        archivo: "SPBU Pertamina 2022.jpg",
+        autor: "Surtidores de una estación de servicio. Fotografía de Henri Aja.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:SPBU_Pertamina_2022.jpg",
+        foco: "50% 50%",
+        alt: "Fila de surtidores de combustible bajo la marquesina de una gasolinera.",
+      },
+    ],
     entrada:
       "Estados Unidos, 1939. Repostar sigue exigiendo que alguien vigile el depósito para que no se desborde, y los derrames son constantes y peligrosos. Un ingeniero patenta una pistola que se cierra sola en el instante en que el líquido llega al borde. No lleva electricidad ni piezas móviles complicadas: funciona solo con la presión del aire y un diafragma de goma.",
     paginas: [
