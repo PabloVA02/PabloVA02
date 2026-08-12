@@ -93,7 +93,7 @@ export const OBJETOS: Short[] = [
     color: "var(--slate)",
     encargo: "Una cremallera metálica abierta a medias, muy de cerca, dientes nítidos.",
     entrada:
-      "En la Exposición Universal de Chicago de 1893, un ingeniero llamado Whitcomb Judson presentó un cierre para botas al que llamó <em>clasp locker</em>. Los visitantes lo miraron con curiosidad y no lo compró casi nadie. El aparato se atascaba, se abría solo en el peor momento y era carísimo. Tenía casi todo lo que hace falta para fracasar, y fracasó durante veinte años.",
+      "En la Exposición Universal de Chicago de 1893, un ingeniero llamado Whitcomb Judson presentó un cierre para botas al que llamó <em>clasp locker</em>. Los visitantes lo miraron con curiosidad y no lo compró casi nadie. El aparato se atascaba, se abría solo en el peor momento y era carísimo. Tenía casi todo lo que hace falta para fracasar, y fracasó a conciencia durante veinte años largos, con dos empresas quebradas por el camino y una lista de compradores que cabía en media hoja. Nadie lo habría apostado entonces, pero ese cierre inútil acabaría metiéndose en la ropa de todo el planeta.",
     paginas: [
       {
         rotulo: "El arreglo",

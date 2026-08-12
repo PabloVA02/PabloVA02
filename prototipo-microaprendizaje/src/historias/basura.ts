@@ -89,7 +89,7 @@ export const BASURA: Short[] = [
     curioso: true,
     encargo: "Tres flechas dobladas formando un triángulo, impresas en cartón corrugado.",
     entrada:
-      "Estados Unidos, 1970. Una empresa papelera convoca un concurso de diseño entre estudiantes para encontrar un símbolo que identifique el papel reciclado. Se acaba de celebrar el primer día de la Tierra y la palabra reciclaje empieza a sonar en todas partes. Gana un estudiante de arquitectura de veintitrés años que dibuja tres flechas dobladas formando un triángulo.",
+      "Estados Unidos, 1970. Una empresa papelera convoca un concurso de diseño entre estudiantes para encontrar un símbolo que identifique el papel reciclado. Se acaba de celebrar el primer día de la Tierra y la palabra reciclaje empieza a sonar en todas partes. Gana un estudiante de arquitectura de veintitrés años que dibuja tres flechas dobladas sobre sí mismas formando un triángulo sin principio ni final. Le pagan dos mil dólares de beca y ahí se acaba su relación con el asunto. Ese dibujo, hecho en unos pocos días para un concurso de empresa, está hoy impreso en más objetos que ningún otro símbolo del mundo, y nadie cobra un céntimo por él.",
     paginas: [
       {
         rotulo: "La cinta",

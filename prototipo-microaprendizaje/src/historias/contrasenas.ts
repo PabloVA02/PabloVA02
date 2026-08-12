@@ -85,7 +85,7 @@ export const CONTRASENAS: Short[] = [
     curioso: true,
     encargo: "Un papel adhesivo amarillo pegado en el borde de una pantalla.",
     entrada:
-      "Estados Unidos, 2003. Un organismo oficial de normalización publica una guía sobre contraseñas que se convierte en la referencia mundial. Recomienda mezclar mayúsculas, números y símbolos, y cambiar la clave cada pocos meses. Durante quince años, casi todas las empresas del mundo copiaron esas reglas, y en 2017 el propio autor declaró públicamente que se había equivocado.",
+      "Estados Unidos, 2003. Un organismo oficial de normalización publica una guía sobre contraseñas que se convierte en la referencia mundial. Recomienda mezclar mayúsculas, números y símbolos, y cambiar la clave cada pocos meses. Durante quince años, casi todas las empresas del mundo copiaron esas reglas tal cual, sin discutirlas, y las metieron en sus formularios y en sus manuales de seguridad. En 2017, el propio autor de aquel documento declaró públicamente que se había equivocado, que las recomendaciones no tenían detrás casi ningún dato y que había complicado la vida a millones de personas sin hacerlas más seguras.",
     paginas: [
       {
         rotulo: "Lo que hacemos",

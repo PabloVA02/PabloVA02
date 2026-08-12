@@ -87,7 +87,7 @@ export const NOMBRES_DE_CALLES: Short[] = [
     curioso: true,
     encargo: "Una placa de calle antigua de cerámica con un nombre de oficio.",
     entrada:
-      "Ciudades europeas, siglos XII a XVIII. Antes de que a nadie se le ocurriera dedicar calles a personas, los nombres eran descripciones prácticas de lo que había allí. Ese callejero funcionaba porque los oficios se agrupaban por barrios, en parte por normas de los gremios y en parte por pura conveniencia: quien buscaba un cuchillo sabía a qué calle ir.",
+      "Ciudades europeas, siglos XII a XVIII. Antes de que a nadie se le ocurriera dedicar calles a personas, los nombres eran descripciones prácticas de lo que había allí. Ese callejero funcionaba porque los oficios se agrupaban por barrios, en parte por normas de los gremios y en parte por pura conveniencia, de modo que el nombre de la calle era una indicación literal y no un homenaje a nadie: quien buscaba un cuchillo sabía a qué calle ir, y quien no sabía leer podía preguntar y llegar igual. Ese callejero, además, se hizo solo, sin comisión de nombres ni pleno municipal, y por eso cuenta cosas que ningún archivo cuenta.",
     paginas: [
       {
         rotulo: "Juntos por algo",
