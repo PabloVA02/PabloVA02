@@ -79,13 +79,47 @@ export const PEGAMENTO: Short[] = [
   },
   {
     id: "el-pegamento-instantaneo",
-    titulo: "Necesita agua para agarrar",
+    titulo: "Necesita agua para pegar",
     gancho: "Por eso pega los dedos al instante y cuesta que agarre en una madera muy seca. Reacciona con la humedad.",
     categoria: "Ciencia",
     color: "var(--slate)",
     encargo: "Gota de pegamento instantáneo en la punta de un tubo, muy de cerca.",
+    fotos: [
+      {
+        archivo: "Dewey spider webs early morning scenery.jpg",
+        autor: "Telarañas cargadas de rocío al amanecer: el agua está en todas partes, aunque no se vea.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADewey%20spider%20webs%20early%20morning%20scenery.jpg",
+        foco: "50% 45%",
+        alt: "Matorral a contraluz al amanecer con telarañas colgadas entre las ramas, brillando por el rocío.",
+      },
+      {
+        archivo: "Macro view of water droplets on transparent surface.jpg",
+        autor: "Gotas de agua sobre un cristal, hechas esferas por la tensión superficial.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMacro%20view%20of%20water%20droplets%20on%20transparent%20surface.jpg",
+        foco: "50% 50%",
+        alt: "Gotas redondas de agua muy ampliadas sobre una superficie transparente, iluminadas por detrás.",
+      },
+      {
+        archivo: "Cianocrilato.JPG",
+        autor: "Bloque de cianoacrilato ya curado: el plástico duro y quebradizo en que se convierte el líquido del tubo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACianocrilato.JPG",
+        foco: "50% 50%",
+        alt: "Masa transparente y endurecida de pegamento solidificado, con burbujas y superficie irregular.",
+      },
+      {
+        archivo: "Laparoscopic operating theatre.jpg",
+        autor: "Quirófano moderno, donde hoy se cierran cortes pequeños con pegamentos quirúrgicos en vez de puntos.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALaparoscopic%20operating%20theatre.jpg",
+        foco: "50% 50%",
+        alt: "Sala de operaciones con la mesa en el centro, focos, monitores y el equipo trabajando alrededor.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1942. Un equipo que busca un plástico transparente para las miras de los fusiles de la Segunda Guerra Mundial da con una sustancia inservible para su encargo. Se pega a todo lo que toca y no hay manera de limpiarla de los aparatos del laboratorio. La descartan, y nueve años después alguien se acuerda de ella y entiende para qué sirve.",
+      "Estados Unidos, 1942. Un equipo que busca un plástico transparente para las miras de los fusiles de la Segunda Guerra Mundial da con una sustancia inservible para el encargo que tenía. Se pega a todo lo que toca, arruina los moldes y no hay manera de limpiarla de los aparatos del laboratorio. La descartan sin más y siguen buscando otra cosa. Nueve años después, uno de los químicos que estaban en aquella sala se acuerda de ella mientras trabaja en otro asunto y cae en la cuenta de que lo que estropeaba el experimento era exactamente el producto.",
     paginas: [
       {
         rotulo: "Con agua",
