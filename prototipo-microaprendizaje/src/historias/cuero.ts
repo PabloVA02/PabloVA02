@@ -154,8 +154,42 @@ export const CUERO: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Un trozo de material sintético color cuero cortado, con la tela a la vista.",
+    fotos: [
+      {
+        archivo: "Del Monte Pineapple field at Camp Philips, Bukidnon, Philippines 02.jpg",
+        autor: "Piñar en Camp Philips, Bukidnon, Filipinas, 2018.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADel%20Monte%20Pineapple%20field%20at%20Camp%20Philips%2C%20Bukidnon%2C%20Philippines%2002.jpg",
+        foco: "50% 50%",
+        alt: "Campo de piñas con las hojas largas y puntiagudas cruzándose unas con otras.",
+      },
+      {
+        archivo: "Leather armchair MET 85D ACF134R6.jpg",
+        autor: "Sillón de cuero, 1725-1745. Museo Metropolitano de Arte, Nueva York.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALeather%20armchair%20MET%2085D%20ACF134R6.jpg",
+        foco: "50% 45%",
+        alt: "Sillón antiguo de madera con el respaldo y el asiento de cuero claveteado.",
+      },
+      {
+        archivo: "Del Monte Pineapple field at Camp Philips, Bukidnon, Philippines 03.jpg",
+        autor: "Otra vista del piñar de Bukidnon, Filipinas, 2018.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADel%20Monte%20Pineapple%20field%20at%20Camp%20Philips%2C%20Bukidnon%2C%20Philippines%2003.jpg",
+        foco: "50% 50%",
+        alt: "Plantación de piñas extendiéndose hasta una loma verde al fondo.",
+      },
+      {
+        archivo: "Pineapple Plantation IMG 20190303 150740.jpg",
+        autor: "Plantación de piñas, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APineapple%20Plantation%20IMG%2020190303%20150740.jpg",
+        foco: "50% 50%",
+        alt: "Hileras de piñas creciendo entre hojas verdes y afiladas.",
+      },
+    ],
     entrada:
-      "Industria textil mundial, con los primeros sustitutos plásticos comercializados desde los años cincuenta del siglo XX. Bajo nombres comerciales muy variados se venden materiales que imitan el cuero, y conviene saber de qué están hechos. La mayoría consisten en una tela de fondo, normalmente de poliéster, recubierta con una capa de plástico a la que se le graba un dibujo de poros.",
+      "Industria textil mundial, con los primeros sustitutos plásticos del cuero comercializados desde los años cincuenta del siglo XX y hoy presentes en casi cualquier tienda. Bajo nombres comerciales muy variados, algunos bastante imaginativos, se venden materiales que imitan el cuero de una manera cada vez más convincente, y conviene saber de qué están hechos en realidad. La mayoría consisten en una tela de fondo, normalmente de poliéster, recubierta con una capa de plástico a la que después se le graba en caliente un dibujo de poros.",
     paginas: [
       {
         rotulo: "Los dos plásticos",
