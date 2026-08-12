@@ -161,8 +161,44 @@ export const ROPA: Short[] = [
     color: "var(--clay)",
     curioso: true,
     encargo: "Un zapato de tacón antiguo, de cuero y madera, sobre un suelo de baldosa.",
+    fotos: [
+      {
+        archivo: "Portrait of Louis XIV of France in Coronation Robes (by Hyacinthe Rigaud) - Louvre Museum.jpg",
+        autor: "Óleo de Hyacinthe Rigaud, 1701. Museo del Louvre, París.",
+        licencia: "Public domain",
+        pdPorEdad: 1743,
+        fuente: "https://commons.wikimedia.org/wiki/File%3APortrait%20of%20Louis%20XIV%20of%20France%20in%20Coronation%20Robes%20(by%20Hyacinthe%20Rigaud)%20-%20Louvre%20Museum.jpg",
+        foco: "45% 88%",
+        alt: "Luis XIV de pie sobre una alfombra, con medias blancas y zapatos de tacón rojo con hebilla.",
+      },
+      {
+        archivo: "Louis XIV of France in armour (by Hyacinthe Rigaud).jpg",
+        autor: "Retrato de Luis XIV por Hyacinthe Rigaud, 1701.",
+        licencia: "Public domain",
+        pdPorEdad: 1743,
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALouis%20XIV%20of%20France%20in%20armour%20(by%20Hyacinthe%20Rigaud).jpg",
+        foco: "50% 40%",
+        alt: "Retrato de Luis XIV con armadura y peluca larga, sobre un fondo oscuro.",
+      },
+      {
+        archivo: "Black high-heeled shoes under a red floor-length dress (20240927193035).jpg",
+        autor: "Zapatos de tacón bajo un vestido largo rojo, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABlack%20high-heeled%20shoes%20under%20a%20red%20floor-length%20dress%20(20240927193035).jpg",
+        foco: "50% 50%",
+        alt: "Par de zapatos negros de tacón asomando bajo el borde de un vestido rojo largo.",
+      },
+      {
+        archivo: "New high heel red shoes (39403679792).jpg",
+        autor: "Zapatos rojos de tacón, 2017.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANew%20high%20heel%20red%20shoes%20(39403679792).jpg",
+        foco: "50% 50%",
+        alt: "Dos zapatos rojos de tacón alto y punta fina vistos de cerca.",
+      },
+    ],
     entrada:
-      "Persia, el actual Irán, siglo X. La caballería de aquel ejército necesita que el pie del jinete no se escape del estribo cuando se pone de pie sobre la montura para disparar el arco. Las botas llevan por eso un taco de madera clavado bajo el talón. No es un adorno ni una moda: es una pieza de equitación. Y así, tal cual, entra en Europa seiscientos años más tarde.",
+      "Persia, el actual Irán, siglo X. La caballería de aquel ejército necesita que el pie del jinete no se escape del estribo cuando se pone de pie sobre la montura para disparar el arco a galope tendido. Las botas llevan por eso un taco de madera clavado bajo el talón, que hace tope contra el estribo y sujeta el pie en el sitio. No es un adorno ni una moda ni una manera de parecer más alto: es una pieza de equitación tan seria como la silla o la brida. Y así, tal cual, con esa misma forma, entra en Europa seiscientos años más tarde.",
     paginas: [
       {
         rotulo: "La corte",
