@@ -87,8 +87,42 @@ export const INFANCIA: Short[] = [
     categoria: "Infancia",
     color: "var(--slate)",
     encargo: "Una nave textil antigua con máquinas alineadas y muy poca luz.",
+    fotos: [
+      {
+        archivo: "Lewis Hine, A little spinner in the Mollahan Mills, Newberry, S.C. (LOC nclc.01451).jpg",
+        autor: "Niña hilandera en los Mollahan Mills de Newberry, Carolina del Sur. Fotografía de Lewis Hine para el comité contra el trabajo infantil, 1908.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALewis%20Hine%2C%20A%20little%20spinner%20in%20the%20Mollahan%20Mills%2C%20Newberry%2C%20S.C.%20(LOC%20nclc.01451).jpg",
+        foco: "50% 45%",
+        alt: "Niña pequeña de pie en el pasillo de una hilandería, entre dos filas larguísimas de husos en marcha.",
+      },
+      {
+        archivo: "Lewis Hine, Spinner in Globe Cotton Mill, Augusta, Georgia, 1909.jpg",
+        autor: "Hilandera en la Globe Cotton Mill de Augusta, Georgia. Fotografía de Lewis Hine, 1909.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALewis%20Hine%2C%20Spinner%20in%20Globe%20Cotton%20Mill%2C%20Augusta%2C%20Georgia%2C%201909.jpg",
+        foco: "50% 45%",
+        alt: "Niña junto a una máquina de hilar, con la mano apoyada en los hilos y la nave llena de bobinas detrás.",
+      },
+      {
+        archivo: "Mill workers in Cherryville North Carolina by Lewis Hine, 1908.jpg",
+        autor: "Plantilla de una fábrica de Cherryville, Carolina del Norte, posando a la puerta. Fotografía de Lewis Hine, 1908.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMill%20workers%20in%20Cherryville%20North%20Carolina%20by%20Lewis%20Hine%2C%201908.jpg",
+        foco: "50% 50%",
+        alt: "Grupo numeroso de trabajadores de una fábrica, con muchos niños entre ellos, delante del edificio.",
+      },
+      {
+        archivo: "Lewis Hine, Knitter, Loudon, Tennessee, 1910.jpg",
+        autor: "Chica trabajando en una máquina de género de punto en Loudon, Tennessee. Fotografía de Lewis Hine, 1910.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALewis%20Hine%2C%20Knitter%2C%20Loudon%2C%20Tennessee%2C%201910.jpg",
+        foco: "50% 45%",
+        alt: "Muchacha de pie ante una máquina de tejer, rodeada de bobinas de hilo en una nave con ventanales.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1802. El país lleva décadas de industrialización y en las fábricas textiles trabajan miles de niños, algunos de cinco o seis años, en jornadas de doce y catorce horas. El parlamento aprueba una ley para limitarlo: es la primera de la historia. Su fallo se ve enseguida, y explica por qué hubo que aprobar otra, y otra, durante todo el siglo.",
+      "Inglaterra, 1802. El país lleva ya décadas de industrialización y en las fábricas textiles trabajan miles de niños, algunos de cinco o seis años, en jornadas de doce y catorce horas entre máquinas que no se paran. El parlamento aprueba una ley para limitarlo, y es la primera de la historia que se ocupa de esto. Sobre el papel es un avance enorme. Su fallo, sin embargo, se ve casi enseguida, y no está en lo que prohíbe sino en lo que se olvida de montar. Ese olvido explica por qué hubo que aprobar otra ley, y otra, y otra más, durante todo el siglo.",
     paginas: [
       {
         rotulo: "Sin inspectores",
