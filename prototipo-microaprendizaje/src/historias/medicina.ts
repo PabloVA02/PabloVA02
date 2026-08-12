@@ -213,7 +213,7 @@ export const MEDICINA: Short[] = [
 
   {
     id: "expedicion-vacuna",
-    titulo: "La vacuna viajó dentro de niños",
+    titulo: "La vacuna viajó en niños",
     gancho: "No había manera de conservarla en un barco. La solución fue ir contagiándolos de dos en dos.",
     categoria: "Medicina",
     color: "var(--clay)",

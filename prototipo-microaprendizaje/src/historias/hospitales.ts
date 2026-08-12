@@ -85,7 +85,7 @@ export const HOSPITALES: Short[] = [
 
   {
     id: "grafico-mortalidad",
-    titulo: "Morían de suciedad, no de heridas",
+    titulo: "Morían de suciedad",
     gancho: "En aquella guerra murieron más soldados de infección que de heridas. Lo enseñó con un dibujo.",
     categoria: "Hospitales",
     color: "var(--slate)",

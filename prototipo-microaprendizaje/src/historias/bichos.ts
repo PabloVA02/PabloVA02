@@ -188,7 +188,7 @@ export const BICHOS: Short[] = [
   },
   {
     id: "cuervos-caras",
-    titulo: "Los cuervos recuerdan tu cara",
+    titulo: "El cuervo te recuerda",
     gancho: "Unos científicos se pusieron una máscara para capturarlos. Cinco años después los seguían insultando por la calle.",
     categoria: "Bichos",
     color: "var(--slate)",
@@ -219,7 +219,7 @@ export const BICHOS: Short[] = [
 
   {
     id: "hormigas-agricultoras",
-    titulo: "Hormigas que cultivan hongos",
+    titulo: "Hormigas agricultoras",
     gancho: "No comen hoja: la usan de abono. Inventaron la agricultura cincuenta y nueve millones de años antes que nosotros.",
     categoria: "Bichos",
     color: "var(--forest)",
@@ -250,7 +250,7 @@ export const BICHOS: Short[] = [
 
   {
     id: "ballenas-canto",
-    titulo: "Las ballenas cambian de canción",
+    titulo: "La canción de las ballenas",
     gancho: "Todos los machos de un océano cantan lo mismo. Cuando aparece una versión nueva, se extiende en dos años.",
     categoria: "Bichos",
     color: "var(--ochre)",

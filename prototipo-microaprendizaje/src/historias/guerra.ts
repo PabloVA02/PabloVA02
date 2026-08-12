@@ -149,7 +149,7 @@ export const GUERRA: Short[] = [
 
   {
     id: "tregua-1914",
-    titulo: "La Navidad en que nadie disparó",
+    titulo: "La Navidad sin disparos",
     gancho: "Salieron de las trincheras, se dieron la mano y jugaron al fútbol. Los mandos se aseguraron de que no se repitiera.",
     categoria: "Guerra",
     color: "var(--forest)",

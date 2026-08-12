@@ -111,7 +111,7 @@ export const PARAGUAS: Short[] = [
 
   {
     id: "paraguas-de-bolsillo",
-    titulo: "Dos siglos para que se plegara",
+    titulo: "Dos siglos para plegarlo",
     gancho: "La idea era vieja y evidente. Lo difícil era que el tubo aguantara plegarse mil veces sin partirse.",
     categoria: "Paraguas",
     color: "var(--plum)",

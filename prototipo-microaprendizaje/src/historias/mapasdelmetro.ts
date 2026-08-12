@@ -143,7 +143,7 @@ export const MAPAS_DEL_METRO: Short[] = [
   },
   {
     id: "los-colores-y-los-daltonicos",
-    titulo: "Las líneas que no se distinguen",
+    titulo: "Líneas que se confunden",
     gancho: "Uno de cada doce hombres no distingue bien el rojo del verde, y muchas redes usan las dos líneas juntas.",
     categoria: "Mapas del metro",
     color: "var(--plum)",

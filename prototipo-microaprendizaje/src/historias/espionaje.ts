@@ -120,7 +120,7 @@ export const ESPIONAJE: Short[] = [
 
   {
     id: "emisoras-numeros",
-    titulo: "Emisoras que solo dictan números",
+    titulo: "Emisoras de números",
     gancho: "Una lleva desde los años ochenta emitiendo un zumbido en la misma frecuencia.",
     categoria: "Espionaje",
     color: "var(--clay)",

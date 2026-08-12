@@ -177,7 +177,7 @@ export const ESPANA: Short[] = [
   },
   {
     id: "guernica-vuelta",
-    titulo: "El Guernica tardó cuarenta años",
+    titulo: "Cuarenta años de viaje",
     gancho: "Su autor dejó dicho que no volvería a España mientras no hubiera libertades. Se cumplió.",
     categoria: "España",
     color: "var(--slate)",

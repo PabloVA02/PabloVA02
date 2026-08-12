@@ -142,7 +142,7 @@ export const PILAS: Short[] = [
   },
   {
     id: "las-pilas-en-la-basura",
-    titulo: "El mito caducado, el problema no",
+    titulo: "El mito y el problema",
     gancho: "La cifra que se repite está caducada y el problema sigue siendo real. Lo que falla no es el mito: es la recogida.",
     categoria: "Ciencia",
     color: "var(--plum)",

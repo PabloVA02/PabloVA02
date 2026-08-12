@@ -154,7 +154,7 @@ export const DINOSAURIOS: Short[] = [
 
   {
     id: "brontosaurio",
-    titulo: "El Brontosaurio dejó de existir",
+    titulo: "El Brontosaurio no existía",
     gancho: "Se montó con la cabeza de otro animal y en 1903 le quitaron hasta el nombre. Volvió en 2015.",
     categoria: "Dinosaurios",
     color: "var(--slate)",

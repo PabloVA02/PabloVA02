@@ -153,7 +153,7 @@ export const ESPACIO: Short[] = [
 
   {
     id: "disco-voyager",
-    titulo: "Un disco con saludos, ahí fuera",
+    titulo: "Un disco ahí fuera",
     gancho: "Lleva música, un beso, una tormenta y las instrucciones para ponerlo. Nadie sabe si alguien lo escuchará.",
     categoria: "Espacio",
     color: "var(--ochre)",

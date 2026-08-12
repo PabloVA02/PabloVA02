@@ -143,7 +143,7 @@ export const LANA: Short[] = [
   },
   {
     id: "las-canadas-reales",
-    titulo: "Caminos de ovejas con ley propia",
+    titulo: "Caminos con ley propia",
     gancho: "Ciento veinticinco mil kilómetros de vías por las que aún pueden pasar ovejas, incluso por el centro de Madrid.",
     categoria: "Lana",
     color: "var(--clay)",

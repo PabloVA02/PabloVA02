@@ -155,7 +155,7 @@ export const ROPA: Short[] = [
 
   {
     id: "tacon-jinetes",
-    titulo: "El tacón se inventó para montar",
+    titulo: "El tacón era para montar",
     gancho: "Servía para que el pie no se saliera del estribo. Acabó en las alfombras rojas seiscientos años después.",
     categoria: "Ropa",
     color: "var(--clay)",

@@ -146,7 +146,7 @@ export const LAVADORA: Short[] = [
 
   {
     id: "horas-que-devolvio",
-    titulo: "Cambió el mundo más que internet",
+    titulo: "Más que internet",
     gancho: "No por la ropa limpia, sino por las horas que devolvió a quien lavaba, que casi siempre era una mujer.",
     categoria: "Lavadora",
     color: "var(--ochre)",

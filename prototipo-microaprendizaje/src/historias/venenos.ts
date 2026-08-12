@@ -79,7 +79,7 @@ export const VENENOS: Short[] = [
   },
   {
     id: "la-dosis-hace-el-veneno",
-    titulo: "Todo es veneno según la cantidad",
+    titulo: "Todo es veneno",
     gancho: "El agua puede matar y el arsénico se recetaba como medicina. Lo que decide no es la sustancia, sino la dosis.",
     categoria: "Venenos",
     color: "var(--ochre)",

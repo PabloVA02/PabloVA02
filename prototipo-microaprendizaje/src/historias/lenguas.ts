@@ -121,7 +121,7 @@ export const LENGUAS: Short[] = [
 
   {
     id: "silbo-gomero",
-    titulo: "En La Gomera se habla silbando",
+    titulo: "Se habla silbando",
     gancho: "Cruza tres kilómetros de barranco, y desde 1999 se enseña en el colegio.",
     categoria: "Lenguas",
     color: "var(--slate)",

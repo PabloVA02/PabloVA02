@@ -146,7 +146,7 @@ export const PETROLEO: Short[] = [
 
   {
     id: "petroleo-que-se-acaba",
-    titulo: "Un siglo diciendo que se acaba",
+    titulo: "Un siglo acabándose",
     gancho: "En 1919 se anunció que quedaba para nueve años. La fecha se ha ido moviendo desde entonces.",
     categoria: "Petróleo",
     color: "var(--plum)",

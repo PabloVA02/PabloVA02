@@ -140,7 +140,7 @@ export const GUANTES: Short[] = [
   },
   {
     id: "el-guante-y-la-pantalla",
-    titulo: "La pantalla no siente el guante",
+    titulo: "La pantalla no lo siente",
     gancho: "No detecta presión ni calor. Detecta que un cuerpo conductor le está robando un poco de carga eléctrica.",
     categoria: "Tecnología",
     color: "var(--plum)",

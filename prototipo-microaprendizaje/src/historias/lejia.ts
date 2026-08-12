@@ -145,7 +145,7 @@ export const LEJIA: Short[] = [
   },
   {
     id: "la-lejia-y-la-ropa-blanca",
-    titulo: "La lejía no blanquea, destruye",
+    titulo: "La lejía destruye",
     gancho: "No añade blanco. Destruye las moléculas que dan color a la mancha, y por eso destruye también el del tejido.",
     categoria: "Historia",
     color: "var(--ochre)",

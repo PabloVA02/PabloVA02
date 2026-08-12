@@ -213,7 +213,7 @@ export const FIGURAS: Short[] = [
 
   {
     id: "alejandro",
-    titulo: "Alejandro y su cadáver robado",
+    titulo: "El cadáver robado",
     gancho: "Alejandro Magno levantó el mayor imperio conocido en trece años sin perder una batalla. Murió a los treinta y dos y le robaron el cadáver.",
     categoria: "Figuras",
     color: "var(--ochre)",

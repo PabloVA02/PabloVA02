@@ -144,7 +144,7 @@ export const CENSOS: Short[] = [
   },
   {
     id: "la-paradoja-del-reparto",
-    titulo: "Sumar escaños hizo perder uno",
+    titulo: "Sumar y perder",
     gancho: "El censo reparte escaños con una fórmula, y en 1880 se descubrió que la fórmula hacía cosas absurdas.",
     categoria: "Censos",
     color: "var(--ochre)",

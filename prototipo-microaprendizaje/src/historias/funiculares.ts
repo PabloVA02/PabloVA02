@@ -81,7 +81,7 @@ export const FUNICULARES: Short[] = [
   },
   {
     id: "el-funicular-de-agua",
-    titulo: "El funicular que subía con agua",
+    titulo: "Subía con agua",
     gancho: "La cabina de arriba llenaba un depósito hasta pesar más que la de abajo. Luego lo vaciaba y subía la otra.",
     categoria: "Funiculares",
     color: "var(--clay)",

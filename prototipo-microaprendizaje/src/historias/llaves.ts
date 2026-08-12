@@ -111,7 +111,7 @@ export const LLAVES: Short[] = [
 
   {
     id: "llaves-de-la-ciudad",
-    titulo: "Las llaves de la ciudad abrían",
+    titulo: "Llaves que sí abrían",
     gancho: "Antes de ser un regalo protocolario eran las llaves reales de las puertas, y entregarlas significaba rendirse.",
     categoria: "Llaves",
     color: "var(--clay)",

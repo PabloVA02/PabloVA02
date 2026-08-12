@@ -148,7 +148,7 @@ export const IMANES: Short[] = [
   },
   {
     id: "el-iman-del-altavoz",
-    titulo: "El altavoz es un imán empujando",
+    titulo: "Un imán que empuja",
     gancho: "Dentro de cualquier altavoz hay un imán quieto y una bobina que se mueve. El sonido es esa bobina temblando.",
     categoria: "Tecnología",
     color: "var(--ochre)",

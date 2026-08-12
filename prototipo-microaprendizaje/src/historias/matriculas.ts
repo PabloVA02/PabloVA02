@@ -147,7 +147,7 @@ export const MATRICULAS: Short[] = [
   },
   {
     id: "la-matricula-mas-cara",
-    titulo: "Una placa que costó un edificio",
+    titulo: "Una placa carísima",
     gancho: "En varios países la placa se subasta, y una con un solo dígito ha llegado a costar más que un edificio.",
     categoria: "Dinero",
     color: "var(--ochre)",

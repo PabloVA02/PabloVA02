@@ -151,7 +151,7 @@ export const BOMBEROS: Short[] = [
 
   {
     id: "policia-desarmada",
-    titulo: "La primera policía iba desarmada",
+    titulo: "Policía sin armas",
     gancho: "Londres llevaba cuarenta años rechazando tener policía. Solo la aceptó si parecía inofensiva.",
     categoria: "Bomberos",
     color: "var(--plum)",

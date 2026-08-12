@@ -83,7 +83,7 @@ export const ESPEJOS: Short[] = [
 
   {
     id: "test-del-espejo",
-    titulo: "Casi ningún animal se reconoce",
+    titulo: "Casi ninguno se reconoce",
     gancho: "Se les pinta una marca en la frente mientras duermen y se mira si se la tocan al verse.",
     categoria: "Espejos",
     color: "var(--ochre)",

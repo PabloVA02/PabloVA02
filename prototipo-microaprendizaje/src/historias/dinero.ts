@@ -86,7 +86,7 @@ export const DINERO: Short[] = [
 
   {
     id: "piedras-yap",
-    titulo: "El dinero que pesa dos toneladas",
+    titulo: "Dinero de dos toneladas",
     gancho: "Una moneda se hundió en el mar y su dueño siguió siendo rico.",
     categoria: "Dinero",
     color: "var(--slate)",

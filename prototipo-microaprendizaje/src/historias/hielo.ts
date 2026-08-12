@@ -88,7 +88,7 @@ export const HIELO: Short[] = [
 
   {
     id: "nucleos-hielo",
-    titulo: "Aire de hace ochocientos mil años",
+    titulo: "Burbujas de aire antiguo",
     gancho: "Burbujas atrapadas que se pueden abrir y medir: la atmósfera de entonces, entera.",
     categoria: "Hielo",
     color: "var(--sage)",
@@ -122,7 +122,7 @@ export const HIELO: Short[] = [
 
   {
     id: "hielo-resbala",
-    titulo: "Por qué resbala se explicaba mal",
+    titulo: "Por qué resbala el hielo",
     gancho: "La versión del peso que lo derrite no cuadra con los números. Faraday acertó antes.",
     categoria: "Hielo",
     color: "var(--plum)",

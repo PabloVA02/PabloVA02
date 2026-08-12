@@ -153,7 +153,7 @@ export const ESCLAVITUD: Short[] = [
 
   {
     id: "ultimo-barco-negrero",
-    titulo: "El último barco, por una apuesta",
+    titulo: "El último barco",
     gancho: "El comercio llevaba medio siglo prohibido y se castigaba con la horca. Un rico apostó a que podía.",
     categoria: "Esclavitud",
     color: "var(--plum)",

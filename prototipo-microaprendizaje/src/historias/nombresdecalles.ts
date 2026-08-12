@@ -110,7 +110,7 @@ export const NOMBRES_DE_CALLES: Short[] = [
   },
   {
     id: "la-direccion-que-no-existe",
-    titulo: "Media humanidad sin dirección",
+    titulo: "Sin dirección",
     gancho: "Sin dirección no hay cuenta bancaria, ni ambulancia que te encuentre, ni paquete que llegue.",
     categoria: "Calles",
     color: "var(--plum)",

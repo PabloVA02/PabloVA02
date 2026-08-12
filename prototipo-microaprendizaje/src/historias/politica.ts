@@ -149,7 +149,7 @@ export const POLITICA: Short[] = [
 
   {
     id: "voto-mujeres-espana",
-    titulo: "Ganó el voto, perdió el escaño",
+    titulo: "Ganó y perdió",
     gancho: "Las dos únicas mujeres del Congreso discutieron entre ellas. Ganó la que lo defendía, y perdió el escaño.",
     categoria: "Política",
     color: "var(--plum)",

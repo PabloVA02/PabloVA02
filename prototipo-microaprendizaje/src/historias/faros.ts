@@ -149,7 +149,7 @@ export const FAROS: Short[] = [
 
   {
     id: "tres-fareros",
-    titulo: "Por qué siempre eran tres fareros",
+    titulo: "Siempre tres fareros",
     gancho: "Dos hombres solos en una roca. Uno murió, y el otro pasó cuatro meses con el cuerpo fuera.",
     categoria: "Faros",
     color: "var(--plum)",

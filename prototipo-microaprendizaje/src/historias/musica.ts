@@ -220,7 +220,7 @@ export const MUSICA: Short[] = [
 
   {
     id: "vinilo-microsurco",
-    titulo: "Tres minutos porque no cabía más",
+    titulo: "Tres minutos y basta",
     gancho: "La duración de una canción pop la fijó un trozo de laca girando a setenta y ocho vueltas.",
     categoria: "Música",
     color: "var(--ochre)",

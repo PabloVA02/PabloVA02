@@ -143,7 +143,7 @@ export const PLATA: Short[] = [
   },
   {
     id: "la-plata-se-pone-negra",
-    titulo: "La plata se ennegrece por azufre",
+    titulo: "La plata y el azufre",
     gancho: "No es suciedad ni óxido: es azufre. Y de ahí viene la leyenda de que detecta venenos.",
     categoria: "Plata",
     color: "var(--plum)",

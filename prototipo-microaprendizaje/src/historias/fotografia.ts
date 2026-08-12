@@ -150,7 +150,7 @@ export const FOTOGRAFIA: Short[] = [
 
   {
     id: "hadas-recortadas",
-    titulo: "Dos niñas engañaron a Inglaterra",
+    titulo: "Dos niñas y unas hadas",
     gancho: "Fotografiaron hadas de cartón sujetas con alfileres. Un escritor famosísimo las defendió hasta morir.",
     categoria: "Fotografía",
     color: "var(--plum)",

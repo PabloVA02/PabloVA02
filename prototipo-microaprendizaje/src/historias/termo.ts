@@ -142,7 +142,7 @@ export const TERMO: Short[] = [
   },
   {
     id: "el-botijo",
-    titulo: "El botijo enfría el agua sudando",
+    titulo: "El botijo suda y enfría",
     gancho: "El barro deja pasar un poco de agua, que se evapora por fuera. Esa evaporación se lleva el calor de dentro.",
     categoria: "España",
     color: "var(--clay)",
