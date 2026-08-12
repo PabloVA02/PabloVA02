@@ -85,8 +85,42 @@ export const CAJEROS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un casete de billetes abierto dentro de la máquina, con los fajos ordenados.",
+    fotos: [
+      {
+        archivo: "Primer cajero automatico, Museo del Ahorro.jpg",
+        autor: "Cajero NCR 5070 abierto por delante, con los casetes de billetes a la vista. Museo del Ahorro, Santiago de Chile.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APrimer%20cajero%20automatico%2C%20Museo%20del%20Ahorro.jpg",
+        foco: "50% 58%",
+        alt: "Cajero automático antiguo expuesto en un museo, con una mampara transparente que deja ver los cajetines de dentro.",
+      },
+      {
+        archivo: "Automated teller machine.JPG",
+        autor: "Cajero automático en una calle de Dezful, en el suroeste de Irán.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAutomated%20teller%20machine.JPG",
+        foco: "50% 50%",
+        alt: "Cajero automático empotrado en la pared de una calle, con su pantalla y su teclado.",
+      },
+      {
+        archivo: "Bankomat with folding lid.jpg",
+        autor: "Cajero sueco con la tapa abatible que se abre al meter la tarjeta.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABankomat%20with%20folding%20lid.jpg",
+        foco: "50% 50%",
+        alt: "Frente de un cajero automático con una tapa metálica desplegada sobre la ranura del dinero.",
+      },
+      {
+        archivo: "Cajero Automático frente a la Plaza de La Pintana 25-05-2025 (1).jpg",
+        autor: "Cajero automático en una plaza de La Pintana, en Santiago de Chile.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACajero%20Autom%C3%A1tico%20frente%20a%20la%20Plaza%20de%20La%20Pintana%2025-05-2025%20(1).jpg",
+        foco: "50% 50%",
+        alt: "Cajero automático instalado en un módulo a pie de calle, con gente pasando alrededor.",
+      },
+    ],
     entrada:
-      "Cualquier cajero actual, con una mecánica que se estandarizó a lo largo de los años noventa. Dentro hay varios casetes cerrados con llave, cada uno con billetes de un valor distinto. La parte mecánica tiene que hacer algo difícil: separar exactamente los billetes pedidos de una pila prensada, sin que se peguen dos y sin romper ninguno.",
+      "Cualquier cajero actual, con una mecánica que se estandarizó a lo largo de los años noventa y que apenas ha cambiado desde entonces. Dentro de la caja fuerte hay varios casetes cerrados con llave, cada uno cargado con billetes de un solo valor, y encima de ellos un mecanismo que tiene que hacer algo bastante más difícil de lo que parece: separar exactamente los billetes pedidos de una pila prensada, de uno en uno, sin que se peguen dos, sin romper ninguno y sin equivocarse jamás en la cuenta.",
     paginas: [
       {
         rotulo: "Separar y contar",
