@@ -127,7 +127,7 @@ export const MEDICINA: Short[] = [
       },
     ],
     entrada:
-      "Hospital General de Viena, 1847. La maternidad tiene dos pabellones. En uno atienden los médicos y los estudiantes; en el otro, las comadronas. Las mujeres que llegan de parto suplican que las lleven al segundo, y algunas prefieren dar a luz en la calle. Tienen motivos: en el pabellón de los médicos se muere aproximadamente una de cada seis.",
+      "Hospital General de Viena, 1847. La maternidad tiene dos pabellones. En uno atienden los médicos y los estudiantes; en el otro, las comadronas. Las mujeres que llegan de parto suplican que las lleven al segundo, y algunas prefieren dar a luz en la calle. No es una manía ni una superstición: tienen motivos de sobra, y todo el mundo en Viena los conoce. En el pabellón atendido por los médicos se muere de fiebres, después del parto, aproximadamente una de cada seis mujeres, y en el de las comadronas, muchísimas menos. Nadie sabe explicar por qué.",
     paginas: [
       {
         rotulo: "La pista",

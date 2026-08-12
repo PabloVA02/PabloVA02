@@ -127,7 +127,7 @@ export const JUEGOS: Short[] = [
       },
     ],
     entrada:
-      "En 1770, el ingeniero húngaro Wolfgang von Kempelen presentó en la corte de Viena una máquina que jugaba al ajedrez: un mueble con engranajes a la vista y, sentada tras él, una figura de tamaño natural vestida a la turca que movía las piezas con el brazo. Antes de cada partida se abrían las puertas del mueble y se enseñaba el mecanismo. Ganaba casi siempre.",
+      "En 1770, el ingeniero húngaro Wolfgang von Kempelen presentó en la corte de Viena una máquina que jugaba al ajedrez: un mueble con engranajes a la vista y, sentada tras él, una figura de tamaño natural vestida a la turca que movía las piezas con el brazo. Antes de cada partida se abrían una por una las puertas del mueble y se enseñaba el mecanismo al público, para que viera que allí dentro solo había ruedas dentadas. Y luego la máquina jugaba, y ganaba casi siempre, contra cualquiera que se sentara enfrente.",
     paginas: [
       {
         rotulo: "La exhibición",
