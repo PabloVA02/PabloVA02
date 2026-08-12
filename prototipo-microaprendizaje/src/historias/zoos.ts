@@ -59,7 +59,7 @@ export const ZOOS: Short[] = [
       },
     ],
     entrada:
-      "Londres, 1255. Llega a la ciudad un elefante africano, regalo de un rey a otro, y se instala en la fortaleza real junto a los leones, un oso polar y un lince que ya viven allí. Es el primer elefante que se ve en las islas desde la época romana, y se le construye una casa de madera de doce metros de largo.",
+      "Londres, 1255. Llega a la ciudad un elefante africano, regalo de un rey de Francia a un rey de Inglaterra, y se instala en la fortaleza real junto a los leones, un oso polar y un lince que ya viven allí desde hace años. Es el primer elefante que pisa las islas desde la época romana, la gente se agolpa para verlo y se le construye una casa de madera de doce metros de largo pagada por la ciudad. Nadie sabe qué come un elefante, y eso va a ser exactamente el problema.",
     paginas: [
       {
         rotulo: "La colección",

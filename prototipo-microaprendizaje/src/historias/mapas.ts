@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const MAPAS: Short[] = [
   {
     id: "groenlandia-mercator",
-    titulo: "Groenlandia no es tan grande",
+    titulo: "Groenlandia es pequeña",
     gancho: "En el mapa parecen iguales. África es catorce veces más grande.",
     categoria: "Mapas",
     color: "var(--sage)",

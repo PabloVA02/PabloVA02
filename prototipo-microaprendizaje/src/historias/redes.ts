@@ -124,7 +124,7 @@ export const REDES: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos, 2006. Las páginas web muestran los resultados en tandas, con un botón al final para pasar a la siguiente. Un diseñador de interfaces de veintitrés años propone quitar ese botón y cargar el contenido siguiente de forma automática cuando el usuario llega abajo del todo. Le parece una mejora evidente de comodidad.",
+      "Estados Unidos, 2006. Las páginas web muestran los resultados en tandas, con un botón al final de cada una para pasar a la siguiente: uno lee, decide si sigue y hace clic. Un diseñador de interfaces de veintitrés años propone quitar ese botón y cargar el contenido siguiente de forma automática en cuanto el usuario llega abajo del todo. Le parece una mejora evidente de comodidad, una fricción menos, y en aquel momento nadie discute que lo sea. Lo que ha quitado, sin darse cuenta, es el punto en el que uno decidía parar.",
     paginas: [
       {
         rotulo: "El freno que falta",

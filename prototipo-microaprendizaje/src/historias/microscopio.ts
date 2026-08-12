@@ -124,7 +124,7 @@ export const MICROSCOPIO: Short[] = [
       },
     ],
     entrada:
-      "Londres, 1665. Un científico publica un libro con láminas grabadas de lo que ha visto con un microscopio compuesto: una pulga dibujada del tamaño de un palmo, el ojo de una mosca, el filo de una navaja lleno de mellas. En una de las láminas aparece una lámina fina de corcho, llena de huecos regulares separados por paredes.",
+      "Londres, 1665. Un científico publica un libro con láminas grabadas de todo lo que ha visto asomándose a un microscopio compuesto, y el libro se convierte en un éxito inmediato: una pulga dibujada del tamaño de un palmo, el ojo de una mosca ampliado hasta parecer un panal, el filo de una navaja lleno de mellas como una sierra. En una de esas láminas aparece un corte finísimo de corcho, lleno de huecos regulares separados por paredes, y al describirlo usa una palabra prestada de los monasterios que se ha quedado con nosotros desde entonces.",
     paginas: [
       {
         rotulo: "El corcho",

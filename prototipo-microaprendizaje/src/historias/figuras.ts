@@ -186,7 +186,7 @@ export const FIGURAS: Short[] = [
       },
     ],
     entrada:
-      "Egipto, siglo I antes de Cristo. Cleopatra VII no era egipcia: era griega, de familia macedonia, la última de una dinastía que llevaba trescientos años gobernando el país sin molestarse en aprender su lengua. Ella fue la primera de esa familia que sí la aprendió, y no por cariño. La usó como se usa una herramienta de trabajo, junto a otras ocho lenguas.",
+      "Egipto, siglo I antes de Cristo. Cleopatra VII no era egipcia: era griega, de familia macedonia, la última de una dinastía que llevaba casi trescientos años gobernando el país desde Alejandría sin molestarse siquiera en aprender la lengua de la gente a la que gobernaba. Ella fue la primera de toda esa familia que sí la aprendió, y no por cariño ni por curiosidad. La usó exactamente como se usa una herramienta de trabajo, junto a otras ocho lenguas que hablaba, para negociar ella misma y sin intérpretes de por medio.",
     paginas: [
       {
         rotulo: "La cuenta",

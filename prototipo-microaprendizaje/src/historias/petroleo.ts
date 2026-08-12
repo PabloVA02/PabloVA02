@@ -122,7 +122,7 @@ export const PETROLEO: Short[] = [
       },
     ],
     entrada:
-      "Octubre de 1973. Los países árabes productores de petróleo recortan la producción y decretan un embargo contra varios países occidentales por su apoyo a Israel en una guerra. En dos meses el precio del barril se multiplica por cuatro. Las economías europeas y la estadounidense, construidas sobre petróleo barato, se paran casi en seco.",
+      "Octubre de 1973. Los países árabes productores de petróleo recortan la producción y decretan un embargo contra varios países occidentales por su apoyo a Israel en la guerra que acaba de empezar. En dos meses el precio del barril se multiplica por cuatro, y no vuelve a bajar. Las economías europeas y la estadounidense, construidas enteras sobre la idea de que el petróleo iba a ser barato para siempre, se paran casi en seco: no es solo la gasolina, es el plástico, el abono, el transporte y la calefacción a la vez.",
     paginas: [
       {
         rotulo: "Los domingos",

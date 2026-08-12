@@ -121,7 +121,7 @@ export const MOTOR: Short[] = [
       },
     ],
     entrada:
-      "Suecia, 1959. Los coches ya corren y las carreteras se llenan, pero dentro no hay nada que sujete a nadie: en un choque, el conductor sale despedido contra el volante o atraviesa el parabrisas. Una marca sueca contrata a un ingeniero que viene de diseñar asientos eyectables de avión y le encarga resolverlo. Tarda un año en dar con la respuesta.",
+      "Suecia, 1959. Los coches ya corren de verdad y las carreteras se llenan, pero dentro del habitáculo no hay nada que sujete a nadie: en un choque frontal, el conductor sale despedido contra el volante o atraviesa el parabrisas de cabeza. Los cinturones que existen son de dos puntos, cruzan solo el abdomen y en un impacto fuerte hacen casi tanto daño como el golpe. Una marca sueca contrata entonces a un ingeniero que viene de diseñar asientos eyectables de avión y le encarga resolverlo. Tarda un año en dar con la respuesta.",
     paginas: [
       {
         rotulo: "Las tres puntas",

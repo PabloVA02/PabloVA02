@@ -127,7 +127,7 @@ export const PEREGRINOS: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglos XII a XV. Un peregrino que vuelve de un santuario lejano necesita demostrarlo: ha estado meses fuera, ha gastado el dinero de su casa y, en muchos casos, viajaba para cumplir una promesa o una condena. La prueba es un objeto pequeño que solo se consigue en el destino y que se cose a la ropa o al sombrero, bien a la vista, para que cualquiera lo reconozca de lejos.",
+      "Europa, siglos XII a XV. Un peregrino que vuelve de un santuario lejano necesita demostrar que ha llegado hasta allí: ha estado meses fuera de casa, ha gastado el dinero de su familia y, en muchísimos casos, no viajaba por devoción sino para cumplir una promesa hecha ante testigos o una condena impuesta por un tribunal. La prueba de que ha estado es un objeto pequeño y barato que solo se consigue en el destino y que se cose a la ropa o al sombrero, bien a la vista, para que cualquiera lo reconozca de lejos.",
     paginas: [
       {
         rotulo: "El distintivo",

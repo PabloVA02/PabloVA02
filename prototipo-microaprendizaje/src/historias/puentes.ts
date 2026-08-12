@@ -61,7 +61,7 @@ export const PUENTES: Short[] = [
       },
     ],
     entrada:
-      "Nueva York, 1869. Se empieza a construir el puente colgante más largo del mundo para unir Manhattan con la ciudad vecina de Brooklyn, que entonces era independiente. Hay que hundir en el fondo del río dos torres de piedra de más de ochenta metros. El ingeniero que lo diseñó muere de tétanos antes de poner la primera piedra.",
+      "Nueva York, 1869. Se empieza a construir el puente colgante más largo del mundo para unir Manhattan con la ciudad vecina de Brooklyn, que entonces era todavía un municipio independiente y rival. Para sostenerlo hay que hundir en el fondo del East River dos torres de piedra de más de ochenta metros, cimentadas en el lecho del río, y nadie ha hecho antes nada parecido a esa escala. El ingeniero que lo diseñó muere de tétanos, tras un accidente en el muelle, antes incluso de que se ponga la primera piedra.",
     paginas: [
       {
         rotulo: "Los cajones",

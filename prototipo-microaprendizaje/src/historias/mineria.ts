@@ -55,7 +55,7 @@ export const MINERIA: Short[] = [
       },
     ],
     entrada:
-      "Inglaterra, 1712. Las minas de carbón y de estaño se han hecho tan profundas que se inundan constantemente, porque por debajo de cierto nivel el agua del terreno entra sola. Sacarla con cubos y caballos cuesta más que el mineral que se extrae, así que muchas galerías buenas se abandonan llenas de agua. Ese es el problema que resuelve la primera máquina de vapor útil.",
+      "Inglaterra, 1712. Las minas de carbón y de estaño se han hecho tan profundas que se inundan constantemente, porque por debajo de cierto nivel el agua del terreno entra sola y no para. Sacarla con cubos, cadenas y caballos dando vueltas a un torno cuesta más de lo que vale el mineral que se extrae, así que muchas galerías perfectamente buenas se abandonan llenas de agua hasta arriba. Ese, y no la fábrica ni el ferrocarril, es el problema concreto que viene a resolver la primera máquina de vapor que funcionó de verdad.",
     paginas: [
       {
         rotulo: "El vacío",

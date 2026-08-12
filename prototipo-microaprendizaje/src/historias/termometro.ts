@@ -121,7 +121,7 @@ export const TERMOMETRO: Short[] = [
       },
     ],
     entrada:
-      "Inglaterra, 1866. Tomar la temperatura a un enfermo es un procedimiento raro y engorroso: el aparato mide un palmo y medio, hay que mantenerlo colocado unos veinte minutos y hay que leerlo sin sacarlo, porque en cuanto se retira el mercurio baja. Un médico de hospital decide que aquello tiene que caber en un bolsillo y funcionar en minutos.",
+      "Inglaterra, 1866. Tomar la temperatura a un enfermo es todavía un procedimiento raro y engorroso que casi nadie hace: el aparato mide un palmo y medio, hay que mantenerlo colocado unos veinte minutos enteros y hay que leerlo sin sacarlo del sitio, porque en cuanto se retira el mercurio empieza a bajar y la medida se pierde. Con esas condiciones, medir la fiebre es un experimento de laboratorio, no una rutina de hospital. Un médico decide que aquello tiene que caber en un bolsillo y dar el número en pocos minutos.",
     paginas: [
       {
         rotulo: "El estrechamiento",

@@ -120,7 +120,7 @@ export const HIERRO: Short[] = [
       },
     ],
     entrada:
-      "Oriente Próximo y Europa, desde el año 1200 antes de Cristo aproximadamente. El hierro funde a mil quinientos treinta y ocho grados, una temperatura que los hornos antiguos no alcanzaban ni de lejos. Sin embargo, se puede obtener el metal sin llegar a fundirlo, y ese descubrimiento es el que abre la Edad del Hierro y cambia la agricultura y la guerra.",
+      "Oriente Próximo y Europa, desde el año 1200 antes de Cristo aproximadamente. El hierro funde a mil quinientos treinta y ocho grados, una temperatura que los hornos antiguos no alcanzaban ni de lejos: con carbón vegetal y un fuelle de cuero se llegaba a mil doscientos con suerte. Y sin embargo aquellos herreros sacaban hierro, porque el metal se puede obtener sin llegar nunca a fundirlo. Ese descubrimiento, que parece un tecnicismo de fragua, es el que abre la Edad del Hierro y cambia de golpe la agricultura y la guerra.",
     paginas: [
       {
         rotulo: "Sin fundir",
