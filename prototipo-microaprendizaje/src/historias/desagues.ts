@@ -154,8 +154,42 @@ export const DESAGUES: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Agua girando en el desagüe de un lavabo blanco, vista desde arriba.",
+    fotos: [
+      {
+        archivo: "Staring down a hurricane Florence eye semi-zoom.jpg",
+        autor: "El ojo del huracán Florence desde la Estación Espacial, 2018.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AStaring%20down%20a%20hurricane%20Florence%20eye%20semi-zoom.jpg",
+        foco: "55% 50%",
+        alt: "Ojo de un huracán visto desde arriba, con las nubes formando un pozo circular.",
+      },
+      {
+        archivo: "Staring Down Hurricane Florence.jpg",
+        autor: "El huracán Florence fotografiado desde la Estación Espacial, 2018.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AStaring%20Down%20Hurricane%20Florence.jpg",
+        foco: "50% 50%",
+        alt: "Espiral de nubes de un huracán extendiéndose hasta el horizonte.",
+      },
+      {
+        archivo: "Hurricane Isabel eye from ISS (edit 1).jpg",
+        autor: "El ojo del huracán Isabel desde la Estación Espacial, 2003.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHurricane%20Isabel%20eye%20from%20ISS%20(edit%201).jpg",
+        foco: "50% 50%",
+        alt: "Pared de nubes alrededor del ojo despejado de un huracán, vista casi de lado.",
+      },
+      {
+        archivo: "Dennis 2005-07-07 1550Z.jpg",
+        autor: "El huracán Dennis visto por satélite, 2005.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADennis%202005-07-07%201550Z.jpg",
+        foco: "50% 40%",
+        alt: "Imagen de satélite de un huracán girando sobre el mar con el ojo bien marcado.",
+      },
+    ],
     entrada:
-      "Cualquier cuarto de baño del planeta, con el mito asentado desde los años sesenta del siglo XX. Se repite en documentales y en clase que el agua del desagüe gira en un sentido en el hemisferio norte y en el contrario en el sur. La fuerza que se invoca para explicarlo existe y mueve los huracanes. En un lavabo, sin embargo, es tan débil que cualquier otra cosa la tapa.",
+      "Cualquier cuarto de baño del planeta, con el mito bien asentado desde los años sesenta del siglo XX. Se repite en documentales, en clase y en las guías de viaje que el agua del desagüe gira en un sentido en el hemisferio norte y en el contrario en el sur, y hay quien lo enseña como demostración junto al ecuador. La fuerza que se invoca para explicarlo existe de verdad y es la que hace girar los huracanes. En un lavabo, sin embargo, esa misma fuerza es tan pequeña que cualquier otra cosa la tapa sin esfuerzo.",
     paginas: [
       {
         rotulo: "La fuerza que desvía",
