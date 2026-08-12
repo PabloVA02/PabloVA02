@@ -82,14 +82,48 @@ export const TE: Short[] = [
 
   {
     id: "motin-del-te",
-    titulo: "El motín del té fue contra un té barato",
+    titulo: "El té del motín era barato",
     gancho: "La ley que provocó la revuelta bajaba el precio. A quien arruinaba era a los contrabandistas.",
     categoria: "Té",
     color: "var(--slate)",
     curioso: true,
     encargo: "Cajas de madera abiertas a hachazos en la cubierta de un barco de noche.",
+    fotos: [
+      {
+        archivo: "Assam-hajua.jpg",
+        autor: "Hojas de té negro de Assam sin moler, vistas de cerca.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Assam-hajua.jpg",
+        foco: "50% 50%",
+        alt: "Montón de hojas de té negro enrolladas y secas, fotografiadas muy de cerca.",
+      },
+      {
+        archivo: "Ceylon-amba.jpg",
+        autor: "Té negro de Ceilán en hoja suelta.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Ceylon-amba.jpg",
+        foco: "50% 50%",
+        alt: "Hojas de té oscuras y retorcidas extendidas sobre una superficie clara.",
+      },
+      {
+        archivo: "Assam-mangalam.jpg",
+        autor: "Otro té de Assam, con la hoja más grande y dorada.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Assam-mangalam.jpg",
+        foco: "50% 50%",
+        alt: "Hojas de té sueltas con puntas doradas entre las hebras oscuras.",
+      },
+      {
+        archivo: "Nepal-dhankuta.jpg",
+        autor: "Té en hoja procedente de Dhankuta, en Nepal.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nepal-dhankuta.jpg",
+        foco: "50% 50%",
+        alt: "Hojas de té enteras y algo rizadas, de tonos verdosos y marrones.",
+      },
+    ],
     entrada:
-      "Boston, diciembre de 1773. Un grupo de colonos disfrazados sube a tres barcos amarrados en el puerto y tira al agua trescientas cuarenta y dos cajas de té. El acto se cuenta desde entonces como una protesta contra unos impuestos abusivos. La ley que lo desencadenó, sin embargo, abarataba el té en las colonias en lugar de encarecerlo.",
+      "Boston, diciembre de 1773. Un grupo de colonos disfrazados sube de noche a tres barcos amarrados en el puerto y tira al agua trescientas cuarenta y dos cajas de té, una por una y sin robar nada. El acto se cuenta desde entonces como una protesta contra unos impuestos abusivos, y así ha llegado a los libros de texto de medio mundo. La ley que lo desencadenó, sin embargo, hacía justo lo contrario de lo que todos suponen: abarataba el té en las colonias en lugar de encarecerlo.",
     paginas: [
       {
         rotulo: "La ley",
