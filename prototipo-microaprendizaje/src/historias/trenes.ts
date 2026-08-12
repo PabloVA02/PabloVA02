@@ -154,8 +154,43 @@ export const TRENES: Short[] = [
     categoria: "Trenes",
     color: "var(--plum)",
     encargo: "Un andén subterráneo abovedado de ladrillo, iluminado con lámparas de gas.",
+    fotos: [
+      {
+        archivo: "Constructing the Metropolitan Railway.jpg",
+        autor: "Grabado de Percy William Justyne con las obras del Metropolitan Railway junto a King's Cross, 1861.",
+        licencia: "Public domain",
+        pdPorEdad: 1883,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AConstructing%20the%20Metropolitan%20Railway.jpg",
+        foco: "50% 62%",
+        alt: "Zanja abierta en mitad de una calle de Londres con obreros, caballos y un túnel al fondo.",
+      },
+      {
+        archivo: "Baker Street Underground Station - Hammersmith & City, Circle and Metropolitan lines - Metropolitan Railway 1863 - Restored 1983.jpg",
+        autor: "Andén de la estación de Baker Street, abierta en 1863 y restaurada en 1983.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABaker%20Street%20Underground%20Station%20-%20Hammersmith%20%26%20City%2C%20Circle%20and%20Metropolitan%20lines%20-%20Metropolitan%20Railway%201863%20-%20Restored%201983.jpg",
+        foco: "50% 50%",
+        alt: "Andén subterráneo de ladrillo con bóvedas y respiraderos en el techo.",
+      },
+      {
+        archivo: "Bolt - Metropolitan Railway 1863 - Restored 1983.jpg",
+        autor: "Detalle de la estación de Baker Street, Londres.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABolt%20-%20Metropolitan%20Railway%201863%20-%20Restored%201983.jpg",
+        foco: "50% 50%",
+        alt: "Muro de ladrillo antiguo de la estación con los remaches y vigas a la vista.",
+      },
+      {
+        archivo: "Metropolitan Railway parcels office.jpg",
+        autor: "Antigua oficina de paquetería del Metropolitan Railway en Farringdon.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMetropolitan%20Railway%20parcels%20office.jpg",
+        foco: "50% 50%",
+        alt: "Fachada de ladrillo de un edificio ferroviario londinense de principios del siglo XX.",
+      },
+    ],
     entrada:
-      "Londres, enero de 1863. Se inaugura la primera línea de ferrocarril subterráneo del mundo, seis kilómetros bajo el centro de una ciudad de tres millones de habitantes que está colapsada de carruajes. La electricidad todavía no existe como fuerza motriz, así que los trenes que van a circular por ese túnel cerrado son locomotoras de vapor alimentadas con carbón.",
+      "Londres, enero de 1863. Se inaugura la primera línea de ferrocarril subterráneo del mundo, seis kilómetros excavados bajo el centro de una ciudad de tres millones de habitantes que está completamente colapsada de carruajes desde el amanecer. La idea es sacar el tráfico de las calles metiéndolo debajo. Hay un detalle, sin embargo, que hoy cuesta imaginar: la electricidad todavía no existe como fuerza motriz para mover trenes, así que los convoyes que van a circular por ese túnel cerrado son locomotoras de vapor alimentadas con carbón.",
     paginas: [
       {
         rotulo: "La zanja",
