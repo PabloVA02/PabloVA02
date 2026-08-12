@@ -154,8 +154,42 @@ export const VIRUS_INFORMATICOS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Ilustración de un virus biológico junto a una línea de código, en el mismo encuadre.",
+    fotos: [
+      {
+        archivo: "Multicrystalline silicon wafer with thin film iridescence.jpg",
+        autor: "Oblea de silicio multicristalino con una película de nitruro que la irisa, 2018.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMulticrystalline%20silicon%20wafer%20with%20thin%20film%20iridescence.jpg",
+        foco: "50% 50%",
+        alt: "Lámina cuadrada de silicio con los granos del cristal irisados en magenta, oro y verde.",
+      },
+      {
+        archivo: "5C2A5953R - 49913961083 – Silicon Wafer 20200519.jpg",
+        autor: "Oblea de silicio con degradados de color, 2020.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A5C2A5953R%20-%2049913961083%20%E2%80%93%20Silicon%20Wafer%2020200519.jpg",
+        foco: "50% 50%",
+        alt: "Disco de silicio reflejando la luz en bandas de color sobre un fondo oscuro.",
+      },
+      {
+        archivo: "Controller board (14837601847).jpg",
+        autor: "Placa controladora de un disco duro abierto, 2014.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AController%20board%20(14837601847).jpg",
+        foco: "50% 50%",
+        alt: "Placa de circuito impreso verde con chips y pistas de cobre vistas de cerca.",
+      },
+      {
+        archivo: "PCB HDR Macro Fisheye (3596077174).jpg",
+        autor: "Macro de una placa base de ordenador, 2009.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APCB%20HDR%20Macro%20Fisheye%20(3596077174).jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de una placa base con condensadores, ranuras y circuitos muy juntos.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1983. Un estudiante de doctorado demuestra en una clase de seguridad que un programa puede insertarse dentro de otros programas y propagarse solo. Su director de tesis le sugiere un nombre para aquello, tomado de la biología. La comparación no era decorativa, porque los dos hacen los mismos cuatro pasos y ninguno de los dos está vivo del todo.",
+      "Estados Unidos, 1983. Un estudiante de doctorado demuestra delante de una clase de seguridad informática que un programa puede insertarse dentro de otros programas y propagarse solo, sin que nadie vuelva a tocarlo. Su director de tesis le sugiere entonces un nombre para aquello, tomado directamente de la biología, y el nombre se queda para siempre. La comparación no era decorativa ni perezosa, aunque lo pareciera: los dos hacen exactamente los mismos cuatro pasos, en el mismo orden, y ninguno de los dos está vivo del todo. Entender bien uno ayuda a entender el otro más de lo que se suele suponer.",
     paginas: [
       {
         rotulo: "Los cuatro pasos",
