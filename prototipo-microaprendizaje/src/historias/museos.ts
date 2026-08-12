@@ -82,13 +82,48 @@ export const MUSEOS: Short[] = [
 
   {
     id: "museo-con-cita-previa",
-    titulo: "Gratis, pero había que escribir",
+    titulo: "Gratis pero con instancia",
     gancho: "Era gratis desde 1759, pero había que solicitarlo por escrito y esperar a que lo aprobaran.",
     categoria: "Museos",
     color: "var(--slate)",
     encargo: "Una galería del siglo XVIII con vitrinas altas y muy poca gente dentro.",
+    fotos: [
+      {
+        archivo: "The British Museum Interior 005.jpg",
+        autor: "La cubierta acristalada del Gran Atrio del Museo Británico, en Londres.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_British_Museum_Interior_005.jpg",
+        foco: "50% 50%",
+        alt: "Techo curvo de vidrio y acero con una retícula de triángulos, visto desde abajo.",
+      },
+      {
+        archivo: "British Museum 2010-08-01 interior 02.jpg",
+        autor: "Interior del Museo Británico. Fotografía de Szilas.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:British_Museum_2010-08-01_interior_02.jpg",
+        foco: "50% 50%",
+        alt: "Sala de museo con columnas de piedra clara y vitrinas altas alineadas.",
+      },
+      {
+        archivo: "Interior of British Museum, London, England, KW (15539227299).jpg",
+        autor: "El Gran Atrio del Museo Británico con los visitantes debajo de la cúpula.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Interior_of_British_Museum,_London,_England,_KW_(15539227299).jpg",
+        foco: "50% 55%",
+        alt: "Patio cubierto de un museo con el tambor circular en el centro y gente paseando alrededor.",
+      },
+      {
+        archivo: "The British Museum Interior 001.jpg",
+        autor: "Otra vista del interior del Museo Británico.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_British_Museum_Interior_001.jpg",
+        foco: "50% 50%",
+        alt: "Galería de museo con techo alto acristalado y esculturas expuestas al fondo.",
+      },
+    ],
     entrada:
-      "Londres, 1759. Abre sus puertas el primer museo nacional público del mundo, creado por ley del Parlamento a partir de la colección de un médico que la dejó al Estado a cambio de que pagara a sus herederos. La entrada es gratuita para toda persona estudiosa y curiosa, según dice el texto fundacional. Conseguirla es otra cosa bien distinta.",
+      "Londres, 1759. Abre sus puertas el primer museo nacional público del mundo, creado por una ley del Parlamento a partir de la colección de un médico que la dejó al Estado con la condición de que pagara veinte mil libras a sus herederos. El texto fundacional es claro y suena moderno: la entrada será gratuita para toda persona estudiosa y curiosa que quiera verlo. Conseguir esa entrada gratuita, sin embargo, resulta ser una cosa bien distinta de lo que parece.",
     paginas: [
       {
         rotulo: "La solicitud",

@@ -79,13 +79,50 @@ export const ASTILLEROS: Short[] = [
   },
   {
     id: "el-barco-por-modulos",
-    titulo: "Los barcos se hacen a trozos",
+    titulo: "El barco se hace a trozos",
     gancho: "Se fabrican bloques enormes en distintos talleres y se sueldan al final, como un juguete de piezas gigante.",
     categoria: "Astilleros",
     color: "var(--ochre)",
     encargo: "Un bloque enorme de casco de acero colgando de una grúa pórtico.",
+    fotos: [
+      {
+        archivo: "Modernisation de la Thalassa - vues extérieures du navire (Ifremer 00400-51188 - 35313).jpg",
+        autor: "El buque Thalassa en dique seco, con el casco abierto para alargarlo. Fotografía de Stéphane Lesbats, Ifremer.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Modernisation_de_la_Thalassa_-_vues_ext%C3%A9rieures_du_navire_(Ifremer_00400-51188_-_35313).jpg",
+        foco: "50% 50%",
+        alt: "Casco de un barco en dique seco con un hueco recortado en el costado y andamios apoyados al lado.",
+      },
+      {
+        archivo: "Modernisation de la Thalassa (Ifremer 00400-51186 - 35322).jpg",
+        autor: "Obras de transformación del buque Thalassa en el astillero. Ifremer.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Modernisation_de_la_Thalassa_(Ifremer_00400-51186_-_35322).jpg",
+        foco: "50% 50%",
+        alt: "Estructura de acero de un barco a medio montar, con las planchas soldadas a la vista.",
+      },
+      {
+        archivo: "Modernisation de la Thalassa - travaux dans la passerelle (Ifremer 00400-51182 - 35307).jpg",
+        autor: "Trabajos en el puente de mando del Thalassa durante su modernización. Ifremer.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Modernisation_de_la_Thalassa_-_travaux_dans_la_passerelle_(Ifremer_00400-51182_-_35307).jpg",
+        foco: "50% 50%",
+        alt: "Interior desmontado del puente de un barco, con cables y paneles a medio instalar.",
+      },
+      {
+        archivo: "Modernisation de la Thalassa - vues extérieures du navire (Ifremer 00400-51188 - 35310).jpg",
+        autor: "Otra vista del casco del Thalassa durante las obras en el astillero. Ifremer.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Modernisation_de_la_Thalassa_-_vues_ext%C3%A9rieures_du_navire_(Ifremer_00400-51188_-_35310).jpg",
+        foco: "50% 50%",
+        alt: "Proa de un buque en dique seco rodeada de andamios y maquinaria de astillero.",
+      },
+    ],
     entrada:
-      "Astilleros de todo el mundo, con un método que se generalizó durante la Segunda Guerra Mundial. Hasta 1940, un barco se levantaba pieza a pieza sobre la grada, empezando por la quilla y subiendo, con todos los oficios trabajando en el mismo sitio y estorbándose unos a otros. La guerra obligó a construir miles de cargueros deprisa, y para eso hubo que cambiar el método entero.",
+      "Astilleros de todo el mundo, con un método que se generalizó durante la Segunda Guerra Mundial y que hoy es el único que se usa. Hasta 1940, un barco se levantaba pieza a pieza sobre la grada, empezando por la quilla y subiendo hacia arriba, con todos los oficios trabajando a la vez en el mismo sitio, estorbándose unos a otros y esperando su turno. La guerra obligó a botar miles de cargueros a toda prisa, y para conseguirlo hubo que tirar el método entero y empezar de cero.",
     paginas: [
       {
         rotulo: "Bloques",
