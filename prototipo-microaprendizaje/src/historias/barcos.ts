@@ -158,8 +158,42 @@ export const BARCOS: Short[] = [
     categoria: "Barcos",
     color: "var(--ochre)",
     encargo: "Un carguero enorme cruzando entre dos orillas de arena, sin agua visible alrededor.",
+    fotos: [
+      {
+        archivo: "A Ship in the Suez Canal.tif",
+        autor: "Barco cruzando el canal de Suez, 1955.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AA%20Ship%20in%20the%20Suez%20Canal.tif",
+        foco: "45% 45%",
+        alt: "Buque de pasaje navegando por el canal de Suez entre orillas de arena.",
+      },
+      {
+        archivo: "Egypt. Suez Canal. Ship passing thro(ough) Canal LOC matpc.22381.jpg",
+        autor: "Barco pasando por el canal de Suez, entre 1934 y 1939.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AEgypt.%20Suez%20Canal.%20Ship%20passing%20thro(ough)%20Canal%20LOC%20matpc.22381.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía antigua de un barco atravesando el canal entre dunas.",
+      },
+      {
+        archivo: "Suez Canal, Port Said - ISS.jpg",
+        autor: "Port Said y la entrada del canal desde la Estación Espacial, 2006.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASuez%20Canal%2C%20Port%20Said%20-%20ISS.jpg",
+        foco: "50% 50%",
+        alt: "Vista desde el espacio de la línea recta del canal cruzando el desierto.",
+      },
+      {
+        archivo: "Container Ship 'Ever Given' stuck in the Suez Canal, Egypt - March 24th, 2021 cropped.jpg",
+        autor: "El portacontenedores Ever Given atravesado en el canal, 2021.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AContainer%20Ship%20'Ever%20Given'%20stuck%20in%20the%20Suez%20Canal%2C%20Egypt%20-%20March%2024th%2C%202021%20cropped.jpg",
+        foco: "50% 50%",
+        alt: "Imagen de satélite de un carguero cruzado de orilla a orilla en el canal.",
+      },
+    ],
     entrada:
-      "Egipto, noviembre de 1869. Se abre una zanja de ciento sesenta kilómetros entre el Mediterráneo y el mar Rojo, después de diez años de obra y de más de un millón y medio de trabajadores empleados por turnos. Hasta ese día, un barco que fuera de Europa a la India tenía que rodear África entera por el sur: unos siete mil kilómetros más.",
+      "Egipto, noviembre de 1869. Se abre por fin una zanja de ciento sesenta kilómetros entre el Mediterráneo y el mar Rojo, después de diez años largos de obra y de más de un millón y medio de trabajadores empleados por turnos en condiciones durísimas. Hasta ese día, un barco que quisiera ir de Europa a la India no tenía otra salida que rodear África entera por el sur, doblando el cabo de Buena Esperanza: unos siete mil kilómetros más de viaje y varias semanas añadidas a cada trayecto, de ida y de vuelta.",
     paginas: [
       {
         rotulo: "Los intentos",
