@@ -155,8 +155,42 @@ export const CAZA: Short[] = [
     categoria: "Caza",
     color: "var(--plum)",
     encargo: "Una señal de tráfico de peligro por animales sueltos en una carretera de montaña.",
+    fotos: [
+      {
+        archivo: "Jabalí típico Alta Garrotxa.jpg",
+        autor: "Jabalí en la Alta Garrotxa, Gerona, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AJabal%C3%AD%20t%C3%ADpico%20Alta%20Garrotxa.jpg",
+        foco: "40% 45%",
+        alt: "Jabalí adulto de pelo rojizo parado en un camino de tierra roja entre hierba.",
+      },
+      {
+        archivo: "Jabalí - Madrid Río.JPG",
+        autor: "Jabalí en Madrid Río, 2012.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AJabal%C3%AD%20-%20Madrid%20R%C3%ADo.JPG",
+        foco: "50% 50%",
+        alt: "Jabalí hozando en un descampado a las afueras de una ciudad.",
+      },
+      {
+        archivo: "Wilde zwijnen (Sus scrofa) zoel. Locatie, Kroondomein 01.jpg",
+        autor: "Bañadero de jabalíes en el Kroondomein Het Loo, Países Bajos, 2015.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWilde%20zwijnen%20(Sus%20scrofa)%20zoel.%20Locatie%2C%20Kroondomein%2001.jpg",
+        foco: "50% 55%",
+        alt: "Charca de barro removida por los jabalíes en un claro del bosque.",
+      },
+      {
+        archivo: "Un jabalí .2.JPG",
+        autor: "Jabalí entre la maleza, 2013.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AUn%20jabal%C3%AD%20.2.JPG",
+        foco: "50% 50%",
+        alt: "Jabalí de perfil buscando comida entre la vegetación baja.",
+      },
+    ],
     entrada:
-      "Europa occidental, con el problema creciendo desde los años ochenta del siglo XX. Los grandes depredadores fueron exterminados en casi todo el continente entre los siglos XVIII y XX, y el campo se ha vaciado de gente. En ese hueco, algunas especies adaptables se han multiplicado sin freno natural, y el jabalí es el caso más visible de todos.",
+      "Europa occidental, con el problema creciendo sin parar desde los años ochenta del siglo XX. Los grandes depredadores, el lobo y el oso sobre todo, fueron exterminados en casi todo el continente entre los siglos XVIII y XX, y al mismo tiempo el campo se ha ido vaciando de gente que lo trabajara. En ese hueco doble, sin depredador arriba y sin labrador abajo, algunas especies especialmente adaptables se han multiplicado sin ningún freno natural que las pare. El jabalí es el caso más visible de todos, y ya no se queda en el monte.",
     paginas: [
       {
         rotulo: "Por qué crecen",
