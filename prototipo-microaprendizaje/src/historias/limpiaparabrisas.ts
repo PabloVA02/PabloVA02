@@ -157,8 +157,42 @@ export const LIMPIAPARABRISAS: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Un parabrisas mojado con el dibujo del barrido marcado y las esquinas todavia con agua.",
+    fotos: [
+      {
+        archivo: "Münster, Stadthaus 3, Straßenbahn -- 2018 -- 0960-2.jpg",
+        autor: "Cabina de un tranvía de Münster de 1901, con el limpiaparabrisas de manivela.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AM%C3%BCnster%2C%20Stadthaus%203%2C%20Stra%C3%9Fenbahn%20--%202018%20--%200960-2.jpg",
+        foco: "50% 55%",
+        alt: "Interior de madera barnizada de un tranvía antiguo con una escobilla y su palanca sobre el cristal delantero.",
+      },
+      {
+        archivo: "Windshield wiper motor.JPG",
+        autor: "Motor eléctrico de limpiaparabrisas desmontado.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWindshield%20wiper%20motor.JPG",
+        foco: "50% 50%",
+        alt: "Motor de limpiaparabrisas con su carcasa negra y el eje de salida a la vista.",
+      },
+      {
+        archivo: "Windscreen wiper pilatus.jpg",
+        autor: "Limpiaparabrisas de un coche antiguo del cremallera del Pilatus, Suiza.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWindscreen%20wiper%20pilatus.jpg",
+        foco: "50% 50%",
+        alt: "Escobilla montada en el marco superior del cristal de un vagón de montaña antiguo.",
+      },
+      {
+        archivo: "Raindrops on car window in evening sun.jpg",
+        autor: "Gotas de lluvia en la ventanilla de un coche con el sol de la tarde.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARaindrops%20on%20car%20window%20in%20evening%20sun.jpg",
+        foco: "50% 50%",
+        alt: "Gotas de agua sobre un cristal encendidas por una luz dorada, con el fondo desenfocado.",
+      },
+    ],
     entrada:
-      "Industria del automóvil, desde los años treinta del siglo XX hasta hoy. El parabrisas es un rectángulo, a veces curvado, y el limpiaparabrisas gira sobre un eje clavado en un punto fijo. Un brazo que gira sobre un punto solo puede dibujar un trozo de círculo. Encajar un trozo de círculo dentro de un rectángulo es imposible, y esa es toda la historia.",
+      "Industria del automóvil, desde los años treinta del siglo XX hasta hoy mismo. El parabrisas es un rectángulo, a veces curvado y a veces muy ancho, y el limpiaparabrisas gira sobre un eje clavado en un punto fijo del salpicadero. Un brazo que gira alrededor de un punto solo puede dibujar un trozo de círculo, por bien hecho que esté. Y encajar un trozo de círculo dentro de un rectángulo, cubriéndolo entero, es sencillamente imposible: sobra cristal por las esquinas. Esa es toda la historia, y explica esas manchas de agua que llevamos viendo toda la vida sin preguntarnos por qué siguen ahí.",
     paginas: [
       {
         rotulo: "El abanico",
