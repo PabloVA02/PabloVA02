@@ -85,6 +85,40 @@ export const INVERNADEROS: Short[] = [
     categoria: "Invernaderos",
     color: "var(--slate)",
     encargo: "Una extensión enorme de techos blancos de plástico vista desde una ladera.",
+    fotos: [
+      {
+        archivo: "El Ejido aerial.jpg",
+        autor: "El Ejido, en Almería, rodeado de invernaderos hasta donde alcanza la vista.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AEl%20Ejido%20aerial.jpg",
+        foco: "50% 62%",
+        alt: "Vista aérea de una llanura cubierta por completo de techos blancos de plástico, con un pueblo en medio y la sierra al fondo.",
+      },
+      {
+        archivo: "Invernaderos Abajo 01.jpg",
+        autor: "Invernaderos en la zona de Rambla Morales, entre Almería y Níjar.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AInvernaderos%20Abajo%2001.jpg",
+        foco: "50% 55%",
+        alt: "Hileras de invernaderos de plástico blanco sobre terreno seco, con las montañas detrás.",
+      },
+      {
+        archivo: "Greenhouses near El Ejido.jpg",
+        autor: "Invernaderos junto a El Ejido, con las estructuras y los plásticos a media vista.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AGreenhouses%20near%20El%20Ejido.jpg",
+        foco: "50% 55%",
+        alt: "Techos de invernadero uno detrás de otro, con los alambres y los postes que los sujetan.",
+      },
+      {
+        archivo: "ISS041-E-90107 - View of Spain.jpg",
+        autor: "El sureste español fotografiado desde la Estación Espacial Internacional en 2014. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AISS041-E-90107%20-%20View%20of%20Spain.jpg",
+        foco: "50% 50%",
+        alt: "Costa española vista desde la órbita, con una mancha clara bien visible junto al mar.",
+      },
+    ],
     entrada:
       "Almería, sureste de España, desde 1963. Es una comarca seca, con poca tierra buena y una emigración constante hacia Cataluña y hacia Europa. Ese año, un instituto público empieza a ensayar allí un sistema de cultivo bajo plástico con arena sobre el suelo. En cincuenta años, aquello se convierte en la mayor concentración de invernaderos del mundo.",
     paginas: [
