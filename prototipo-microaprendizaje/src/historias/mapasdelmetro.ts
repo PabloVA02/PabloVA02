@@ -85,8 +85,42 @@ export const MAPAS_DEL_METRO: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Un dedo señalando una estación en un plano de metro pegado a la pared.",
+    fotos: [
+      {
+        archivo: "Escalators at the deepest metro station of the world Arsenalna (105.5m) (8601894844).jpg",
+        autor: "Las escaleras mecánicas de Arsenalna, en Kiev, la estación de metro más profunda del mundo.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AEscalators%20at%20the%20deepest%20metro%20station%20of%20the%20world%20Arsenalna%20(105.5m)%20(8601894844).jpg",
+        foco: "50% 42%",
+        alt: "Túnel abovedado con tres escaleras mecánicas larguísimas que se pierden en el fondo, con farolas a los lados.",
+      },
+      {
+        archivo: "Taganskaya metro station (19940876236).jpg",
+        autor: "La estación de Tagánskaya, en el metro de Moscú, abierta en 1950.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ATaganskaya%20metro%20station%20(19940876236).jpg",
+        foco: "50% 50%",
+        alt: "Andén subterráneo con arcos blancos decorados, suelo de mármol y lámparas colgando del techo.",
+      },
+      {
+        archivo: "Holloway Road Underground Station (Piccadilly Line) - Flickr - hugh llewelyn.jpg",
+        autor: "La estación de Holloway Road, en Londres, con la fachada de azulejo granate de Leslie Green, de 1906.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHolloway%20Road%20Underground%20Station%20(Piccadilly%20Line)%20-%20Flickr%20-%20hugh%20llewelyn.jpg",
+        foco: "50% 50%",
+        alt: "Edificio bajo de azulejo rojo oscuro con arcos grandes, en la esquina de una calle con tráfico.",
+      },
+      {
+        archivo: "Novokuznetskaya Metro (19938273056).jpg",
+        autor: "La estación de Novokuznétskaya, en Moscú, terminada en plena guerra, en 1943.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANovokuznetskaya%20Metro%20(19938273056).jpg",
+        foco: "50% 50%",
+        alt: "Bóveda de una estación de metro con mosaicos en el techo, bancos de mármol y lámparas de bronce.",
+      },
+    ],
     entrada:
-      "Ciudades con metro de todo el mundo, con estudios sobre percepción de distancias publicados desde los años noventa del siglo XX. Un plano esquemático no solo simplifica. Al comprimir el centro y estirar las afueras, crea en la cabeza de quien lo mira una idea equivocada de qué está cerca de qué, y esa idea acaba teniendo consecuencias muy concretas.",
+      "Ciudades con metro de todo el mundo, con estudios sobre percepción de distancias publicados desde los años noventa del siglo XX. Un plano esquemático no solo simplifica lo que hay: además lo desplaza. Al comprimir el centro para que quepan las estaciones y estirar las afueras para que no se amontonen, deja una imagen de la ciudad que no coincide con la ciudad. Esa imagen es la que se queda en la cabeza de quien la mira todos los días, y acaba teniendo consecuencias muy concretas sobre por dónde se mueve la gente y hasta sobre dónde decide vivir.",
     paginas: [
       {
         rotulo: "Lo que se cree",
