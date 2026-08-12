@@ -155,8 +155,42 @@ export const SAL: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Camión esparcidor soltando sal sobre una carretera nevada al amanecer.",
+    fotos: [
+      {
+        archivo: "Switzerland winter forest road (Unsplash).jpg",
+        autor: "Carretera despejada entre la escarcha, Estavayer-le-Lac, Suiza, 2017.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASwitzerland%20winter%20forest%20road%20(Unsplash).jpg",
+        foco: "50% 80%",
+        alt: "Carretera estrecha de asfalto negro que cruza un paisaje blanco de árboles cubiertos de escarcha.",
+      },
+      {
+        archivo: "Snow.plow.7760.jpg",
+        autor: "Quitanieves en Einsiedeln, Suiza, 2017.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASnow.plow.7760.jpg",
+        foco: "50% 50%",
+        alt: "Máquina quitanieves con la pala delantera levantando nieve en una calle nevada.",
+      },
+      {
+        archivo: "Domed salt barn, Birkenhead.jpg",
+        autor: "Almacén abovedado de sal para las carreteras en Birkenhead, Inglaterra.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADomed%20salt%20barn%2C%20Birkenhead.jpg",
+        foco: "50% 50%",
+        alt: "Nave de forma abovedada donde se guarda la sal que se echa en las carreteras en invierno.",
+      },
+      {
+        archivo: "Winter forest after snow storm (40384754601).jpg",
+        autor: "Bosque después de una nevada, 2018.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWinter%20forest%20after%20snow%20storm%20(40384754601).jpg",
+        foco: "50% 50%",
+        alt: "Hilera de árboles cargados de nieve recién caída bajo un cielo pálido.",
+      },
+    ],
     entrada:
-      "Países fríos de todo el mundo, con el sistema generalizado desde los años cincuenta del siglo XX. Cada invierno se esparcen millones de toneladas de sal sobre las carreteras, y la mayoría de la gente cree que la sal derrite el hielo dándole calor. No es eso. Lo que hace es cambiar la temperatura a la que el agua puede permanecer congelada.",
+      "Países fríos de todo el mundo, con el sistema ya generalizado desde los años cincuenta del siglo XX. Cada invierno se esparcen millones de toneladas de sal sobre las carreteras, y la mayoría de la gente da por hecho que la sal derrite el hielo porque de alguna manera le da calor. No es eso en absoluto, y el mecanismo real resulta bastante más elegante que el imaginado. Lo que hace la sal es cambiar la temperatura a la que el agua puede permanecer congelada, de modo que el hielo que había en el suelo simplemente deja de poder existir y se convierte en agua.",
     paginas: [
       {
         rotulo: "Bajar el cero",
