@@ -150,8 +150,42 @@ export const PUERTOS: Short[] = [
     categoria: "Puertos",
     color: "var(--plum)",
     encargo: "Unas ruinas antiguas de piedra rodeadas de campos, lejos de la costa.",
+    fotos: [
+      {
+        archivo: "Ephesus Arcadian Street, Ephesus Archaeological Site, Selcuk, Turkiye (53525196707).jpg",
+        autor: "La vía Arcadiana de Éfeso, que iba del teatro al puerto, Turquía, 2023.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AEphesus%20Arcadian%20Street%2C%20Ephesus%20Archaeological%20Site%2C%20Selcuk%2C%20Turkiye%20(53525196707).jpg",
+        foco: "50% 45%",
+        alt: "Avenida romana de losas de mármol flanqueada por columnas, con campos verdes al fondo.",
+      },
+      {
+        archivo: "Ephesus Arcadian Street, Ephesus Archaeological Site, Selcuk, Turkiye (53527946128).jpg",
+        autor: "Otra vista de la vía Arcadiana de Éfeso, 2023.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AEphesus%20Arcadian%20Street%2C%20Ephesus%20Archaeological%20Site%2C%20Selcuk%2C%20Turkiye%20(53527946128).jpg",
+        foco: "50% 50%",
+        alt: "Restos de columnas y pavimento de la calle que llevaba al antiguo puerto.",
+      },
+      {
+        archivo: "Library of Celsus 6242.jpg",
+        autor: "Biblioteca de Celso, Éfeso, 2014.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALibrary%20of%20Celsus%206242.jpg",
+        foco: "50% 50%",
+        alt: "Fachada de dos pisos con columnas de la biblioteca romana de Éfeso.",
+      },
+      {
+        archivo: "Ephesus Celsus Library Façade.jpg",
+        autor: "Fachada de la biblioteca de Celso, Éfeso, 2010.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AEphesus%20Celsus%20Library%20Fa%C3%A7ade.jpg",
+        foco: "50% 55%",
+        alt: "Detalle de las columnas y estatuas de la fachada de la biblioteca de Éfeso.",
+      },
+    ],
     entrada:
-      "Costa de Anatolia, siglos I a VI. Una de las ciudades más ricas del Mediterráneo vive de su puerto, con barcos que llegan hasta el pie de sus almacenes. Un río desemboca justo al lado y arrastra tierra y arena desde el interior. Esa carga se deposita donde el agua pierde velocidad, que es precisamente la bocana del puerto.",
+      "Costa de Anatolia, siglos I a VI. Una de las ciudades más ricas y pobladas de todo el Mediterráneo vive de su puerto, con barcos de carga que llegan hasta el pie mismo de sus almacenes por una avenida de mármol. Un río desemboca justo al lado y arrastra sin descanso tierra y arena desde el interior, como lleva haciendo desde siempre. Esa carga se deposita allí donde el agua pierde velocidad y se remansa, que es precisamente la bocana del puerto. Nadie decidió nada: la ciudad simplemente se fue quedando sin mar.",
     paginas: [
       {
         rotulo: "El sedimento",
