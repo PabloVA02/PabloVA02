@@ -160,8 +160,42 @@ export const EPIDEMIAS: Short[] = [
     categoria: "Epidemias",
     color: "var(--clay)",
     encargo: "Un puerto medieval con barcos amarrados y las calles vacías bajo un cielo plomizo.",
+    fotos: [
+      {
+        archivo: "Casco viejo de Dubrovnik, Croacia, 2014-04-14, DD 04.JPG",
+        autor: "El puerto amurallado de Dubrovnik, la antigua Ragusa, Croacia, 2014.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACasco%20viejo%20de%20Dubrovnik%2C%20Croacia%2C%202014-04-14%2C%20DD%2004.JPG",
+        foco: "50% 60%",
+        alt: "Ciudad amurallada de tejados naranjas junto a un puerto pequeño y el mar azul.",
+      },
+      {
+        archivo: "Just Another Postcard From Dubrovnik (242435497).jpeg",
+        autor: "Tejados y murallas de Dubrovnik, 2015.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AJust%20Another%20Postcard%20From%20Dubrovnik%20(242435497).jpeg",
+        foco: "50% 50%",
+        alt: "Vista de los tejados de teja de la ciudad vieja con la muralla y el mar detrás.",
+      },
+      {
+        archivo: "Cannonball (194504063).jpeg",
+        autor: "Murallas de Dubrovnik, 2017.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACannonball%20(194504063).jpeg",
+        foco: "50% 50%",
+        alt: "Muralla de piedra de la ciudad vieja cayendo a plomo sobre el agua.",
+      },
+      {
+        archivo: "Pastel Sunset At Dubrovnik (228481967).jpeg",
+        autor: "Atardecer sobre Dubrovnik, 2015.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APastel%20Sunset%20At%20Dubrovnik%20(228481967).jpeg",
+        foco: "50% 55%",
+        alt: "La ciudad y el mar al atardecer, con el cielo en tonos suaves.",
+      },
+    ],
     entrada:
-      "Sicilia, octubre de 1347. Doce galeras procedentes del mar Negro atracan en el puerto de Mesina con la mayoría de la tripulación muerta a bordo y el resto agonizando, cubiertos de bultos negros en el cuello y las ingles. Las autoridades mandan que se marchen, pero ya es tarde. En cuatro años la enfermedad recorre Europa entera de sur a norte.",
+      "Sicilia, octubre de 1347. Doce galeras procedentes de los puertos del mar Negro atracan una mañana en Mesina con la mayoría de la tripulación ya muerta a bordo y el resto agonizando en cubierta, cubiertos de bultos negros en el cuello y las ingles. Las autoridades del puerto, espantadas, mandan que las naves se marchen de allí inmediatamente, pero para entonces ya es tarde y las ratas han bajado a tierra. En apenas cuatro años la enfermedad recorre Europa entera de sur a norte, y no deja ninguna ciudad fuera.",
     paginas: [
       {
         rotulo: "El bicho",
