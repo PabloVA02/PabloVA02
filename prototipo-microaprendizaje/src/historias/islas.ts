@@ -160,8 +160,42 @@ export const ISLAS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Una isla pequeña de roca negra rodeada de mar gris, vista desde el aire.",
+    fotos: [
+      {
+        archivo: "Islas Brandur, Álsey y Surtsey, Islas Vestman, Suðurland, Islandia, 2014-08-17, DD 046.JPG",
+        autor: "Las islas Brandur, Álsey y Surtsey, archipiélago Vestman, Islandia, 2014.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AIslas%20Brandur%2C%20%C3%81lsey%20y%20Surtsey%2C%20Islas%20Vestman%2C%20Su%C3%B0urland%2C%20Islandia%2C%202014-08-17%2C%20DD%20046.JPG",
+        foco: "50% 45%",
+        alt: "Islas de basalto con la cima verde recortadas sobre un mar azul oscuro.",
+      },
+      {
+        archivo: "Surtsey by Brian Gratwicke.jpg",
+        autor: "La isla de Surtsey, Islandia, 2014.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASurtsey%20by%20Brian%20Gratwicke.jpg",
+        foco: "50% 65%",
+        alt: "Isla baja de roca volcánica negra rodeada de mar, con un cono en el centro.",
+      },
+      {
+        archivo: "Surtsey by Brian Gratwicke in 2014.jpg",
+        autor: "Panorámica de Surtsey, 2014.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASurtsey%20by%20Brian%20Gratwicke%20in%202014.jpg",
+        foco: "50% 55%",
+        alt: "Perfil alargado de Surtsey sobre el agua, con las olas rompiendo en la costa negra.",
+      },
+      {
+        archivo: "Heimaey to Surtsey 02a HDR (1412618388).jpg",
+        autor: "Surtsey vista desde Heimaey, Islandia, 2007.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHeimaey%20to%20Surtsey%2002a%20HDR%20(1412618388).jpg",
+        foco: "50% 55%",
+        alt: "La isla de Surtsey a lo lejos, con el mar abierto por delante.",
+      },
+    ],
     entrada:
-      "Sur de Islandia, noviembre de 1963. Unos pescadores ven humo saliendo del mar a media mañana y creen que es un barco ardiendo. Es una erupción submarina. En pocos días asoma una isla que sigue creciendo durante tres años y medio, hasta alcanzar casi tres kilómetros cuadrados de roca volcánica negra y completamente estéril, sin una brizna de hierba.",
+      "Sur de Islandia, noviembre de 1963. Unos pescadores ven humo saliendo del mar a media mañana, en un sitio donde no hay nada, y lo primero que piensan es que hay un barco ardiendo. No es un barco: es una erupción submarina que lleva días subiendo. En pocos días asoma sobre el agua una isla que sigue creciendo durante tres años y medio, hasta alcanzar casi tres kilómetros cuadrados de roca volcánica negra, completamente estéril, sin una brizna de hierba encima. Y entonces a alguien se le ocurre una idea excelente: no dejar entrar a nadie.",
     paginas: [
       {
         rotulo: "El laboratorio",
