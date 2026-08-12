@@ -88,7 +88,7 @@ export const SEDA: Short[] = [
 
   {
     id: "seda-de-arana",
-    titulo: "Tela de un millón de arañas",
+    titulo: "Un millón de arañas",
     gancho: "Ochenta personas recogiendo arañas cada mañana durante ocho años para hacer dos piezas de tela.",
     categoria: "Seda",
     color: "var(--plum)",

@@ -140,7 +140,7 @@ export const NUDOS: Short[] = [
   },
   {
     id: "el-nudo-del-cirujano",
-    titulo: "Un nudo que no puede ceder",
+    titulo: "Un nudo que no cede",
     gancho: "El hilo se moja, resbala y trabaja dentro de algo que se mueve. Si el nudo cede un milímetro, la herida se abre.",
     categoria: "Objetos",
     color: "var(--plum)",

@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const PREHISTORIA: Short[] = [
   {
     id: "lanzas-madera",
-    titulo: "Lanzas de hace 300.000 años",
+    titulo: "Lanzas de 300.000 años",
     gancho: "Son de madera y no deberían existir: la madera se pudre. Estas cayeron en el sitio exacto.",
     categoria: "Prehistoria",
     color: "var(--forest)",

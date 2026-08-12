@@ -141,7 +141,7 @@ export const ANDAMIOS: Short[] = [
   },
   {
     id: "el-tubo-y-la-grapa",
-    titulo: "El enganche que salvó vidas",
+    titulo: "El enganche que salvó",
     gancho: "Antes de 1913 cada andamio se ataba con cuerda y dependía del oficio del montador. Una pieza de hierro acabó con eso.",
     categoria: "Objetos",
     color: "var(--ochre)",

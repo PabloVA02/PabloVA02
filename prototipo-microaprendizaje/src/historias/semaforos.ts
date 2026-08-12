@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const SEMAFOROS: Short[] = [
   {
     id: "primer-semaforo",
-    titulo: "El primer semáforo explotó",
+    titulo: "El semáforo explotó",
     gancho: "Funcionaba con gas y lo movía un policía a mano. Le estalló en la cara.",
     categoria: "Semáforos",
     color: "var(--clay)",

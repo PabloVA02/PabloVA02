@@ -143,7 +143,7 @@ export const HIERRO: Short[] = [
   },
   {
     id: "por-que-se-oxida",
-    titulo: "Se oxida por volver a piedra",
+    titulo: "Vuelve a ser piedra",
     gancho: "El óxido no es una enfermedad del metal: es el estado en el que estaba antes de que lo sacáramos del suelo.",
     categoria: "Hierro",
     color: "var(--plum)",

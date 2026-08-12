@@ -85,7 +85,7 @@ export const POLITICA: Short[] = [
 
   {
     id: "watergate",
-    titulo: "Lo tumbó una cinta adhesiva",
+    titulo: "Una cinta adhesiva",
     gancho: "Un vigilante de veinticuatro años vio un pestillo tapado, lo destapó, y a la vuelta estaba tapado otra vez.",
     categoria: "Política",
     color: "var(--clay)",

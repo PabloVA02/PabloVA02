@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const BOMBEROS: Short[] = [
   {
     id: "placas-de-seguro",
-    titulo: "El seguro nació de un fuego",
+    titulo: "El seguro nació del fuego",
     gancho: "Cada compañía tenía sus bomberos y su placa. Con la placa de otra, pasaban de largo.",
     categoria: "Bomberos",
     color: "var(--clay)",

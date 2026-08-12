@@ -88,7 +88,7 @@ export const BICHOS: Short[] = [
 
   {
     id: "flamencos-grises",
-    titulo: "Los flamencos nacen grises",
+    titulo: "Nacen grises",
     gancho: "El rosa no es suyo: lo alquilan a unos crustáceos y lo devuelven al criar.",
     categoria: "Bichos",
     color: "var(--clay)",

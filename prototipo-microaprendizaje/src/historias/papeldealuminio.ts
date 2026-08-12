@@ -141,7 +141,7 @@ export const PAPEL_DE_ALUMINIO: Short[] = [
   },
   {
     id: "reciclar-aluminio-si-compensa",
-    titulo: "El reciclaje que gana claro",
+    titulo: "Reciclar sí compensa",
     gancho: "Fundir una lata usada cuesta una fracción de lo que cuesta sacar el metal de la roca. Es el reciclaje que gana claro.",
     categoria: "Ciencia",
     color: "var(--ochre)",

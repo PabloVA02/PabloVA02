@@ -81,7 +81,7 @@ export const PARAGUAS: Short[] = [
 
   {
     id: "varillas-de-acero",
-    titulo: "El acero lo puso al alcance",
+    titulo: "El acero lo abarató",
     gancho: "Una varilla con forma de U pesa la mitad y aguanta el doble. Cambió el precio y cambió quién lo llevaba.",
     categoria: "Paraguas",
     color: "var(--slate)",

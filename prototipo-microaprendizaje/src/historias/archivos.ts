@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ARCHIVOS: Short[] = [
   {
     id: "el-archivo-de-un-imperio",
-    titulo: "Ocho kilómetros de papeles",
+    titulo: "Ocho kilómetros",
     gancho: "Cuarenta y tres mil legajos con la contabilidad, los pleitos y las cartas de América durante tres siglos.",
     categoria: "Archivos",
     color: "var(--ochre)",

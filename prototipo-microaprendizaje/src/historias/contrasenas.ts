@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const CONTRASENAS: Short[] = [
   {
     id: "la-primera-contrasena",
-    titulo: "La primera contraseña cayó",
+    titulo: "La primera cayó",
     gancho: "Un investigador quería más horas de máquina, imprimió el fichero de claves y se hizo pasar por los demás.",
     categoria: "Contraseñas",
     color: "var(--slate)",

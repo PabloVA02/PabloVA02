@@ -85,7 +85,7 @@ export const ANCLA: Short[] = [
   },
   {
     id: "el-ancla-flotante",
-    titulo: "El ancla que no toca fondo",
+    titulo: "El ancla no toca fondo",
     gancho: "En mitad del océano no hay fondo al alcance. Se echa un saco de tela que frena el barco contra el propio agua.",
     categoria: "Barcos",
     color: "var(--clay)",

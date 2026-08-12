@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const GREMIOS: Short[] = [
   {
     id: "de-donde-viene-obra-maestra",
-    titulo: "La obra maestra, un examen",
+    titulo: "Un examen final",
     gancho: "Era la pieza que un artesano presentaba para que le dejaran abrir taller propio. Si no gustaba, seguía de empleado.",
     categoria: "Gremios",
     color: "var(--ochre)",

@@ -85,7 +85,7 @@ export const VIRUS_INFORMATICOS: Short[] = [
   },
   {
     id: "el-virus-que-pedia-rescate",
-    titulo: "El rescate llegó por correo",
+    titulo: "Llegó por correo",
     gancho: "Veinte mil disquetes repartidos por correo postal en 1989, con un programa que escondía el disco y pedía dinero.",
     categoria: "Tecnología",
     color: "var(--clay)",

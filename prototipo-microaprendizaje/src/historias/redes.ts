@@ -84,7 +84,7 @@ export const REDES: Short[] = [
 
   {
     id: "scroll-infinito",
-    titulo: "Quitaron el botón de parar",
+    titulo: "Sin botón de parar",
     gancho: "Quitó el botón de siguiente página para hacerlo más cómodo. Y quitó el sitio donde parar.",
     categoria: "Redes",
     color: "var(--plum)",

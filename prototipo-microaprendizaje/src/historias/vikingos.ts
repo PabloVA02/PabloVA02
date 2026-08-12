@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const VIKINGOS: Short[] = [
   {
     id: "cascos-sin-cuernos",
-    titulo: "Cascos vikingos sin cuernos",
+    titulo: "Cascos sin cuernos",
     gancho: "El casco con cuernos lo diseñó un figurinista de ópera en 1876 y ya no hubo manera de quitarlo.",
     categoria: "Vikingos",
     color: "var(--slate)",

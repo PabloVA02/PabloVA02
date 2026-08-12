@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const PESCA: Short[] = [
   {
     id: "el-bacalao-que-cruzo-el-oceano",
-    titulo: "El bacalao cruzó el océano",
+    titulo: "El bacalao cruzó el mar",
     gancho: "Aguantaba años sin estropearse y pesaba poco. Era la comida que hacía posible un viaje sin escalas.",
     categoria: "Pesca",
     color: "var(--slate)",

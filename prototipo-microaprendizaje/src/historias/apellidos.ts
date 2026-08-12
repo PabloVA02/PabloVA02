@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const APELLIDOS: Short[] = [
   {
     id: "apellidos-por-impuestos",
-    titulo: "El apellido nació cobrando",
+    titulo: "Nació para cobrar",
     gancho: "Con dos Juanes en la aldea bastaba un mote. Con un registro fiscal hacía falta algo fijo.",
     categoria: "Apellidos",
     color: "var(--slate)",

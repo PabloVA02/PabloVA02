@@ -82,7 +82,7 @@ export const TELESCOPIO: Short[] = [
 
   {
     id: "espejo-mal-pulido",
-    titulo: "La curva estaba equivocada",
+    titulo: "La curva mal tallada",
     gancho: "Estaba pulido con una precisión perfecta a la forma equivocada, por una mota de pintura desprendida.",
     categoria: "Telescopios",
     color: "var(--slate)",

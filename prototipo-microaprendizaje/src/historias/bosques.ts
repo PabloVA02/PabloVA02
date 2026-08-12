@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const BOSQUES: Short[] = [
   {
     id: "robles-para-barcos",
-    titulo: "Robles para barcos futuros",
+    titulo: "Robles para barcos",
     gancho: "Un navío se llevaba dos mil árboles, y ninguno servía hasta cien años después de plantarlo.",
     categoria: "Bosques",
     color: "var(--ochre)",

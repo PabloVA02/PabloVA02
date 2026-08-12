@@ -84,7 +84,7 @@ export const CAMPANAS: Short[] = [
   },
   {
     id: "cinco-notas-a-la-vez",
-    titulo: "Una campana da cinco notas",
+    titulo: "Cinco notas a la vez",
     gancho: "El golpe hace vibrar el bronce de cinco maneras distintas al mismo tiempo. Por eso cuesta tanto afinarla.",
     categoria: "Música",
     color: "var(--slate)",

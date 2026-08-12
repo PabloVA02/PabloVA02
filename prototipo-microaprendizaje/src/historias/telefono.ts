@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const TELEFONO: Short[] = [
   {
     id: "patente-telefono",
-    titulo: "El teléfono, por unas horas",
+    titulo: "Por unas horas",
     gancho: "Dos solicitudes el mismo día en la misma oficina. El orden de la cola decidió el invento del siglo.",
     categoria: "Teléfono",
     color: "var(--clay)",

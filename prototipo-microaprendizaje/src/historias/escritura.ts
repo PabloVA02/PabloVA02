@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const ESCRITURA: Short[] = [
   {
     id: "gutenberg-arruinado",
-    titulo: "Gutenberg acabó arruinado",
+    titulo: "Gutenberg, arruinado",
     gancho: "Se pasó veinte años endeudado montando el invento. Su socio se lo quedó todo con una demanda.",
     categoria: "Escritura",
     color: "var(--slate)",

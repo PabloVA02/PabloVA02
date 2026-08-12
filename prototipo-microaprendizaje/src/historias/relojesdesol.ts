@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const RELOJES_DE_SOL: Short[] = [
   {
     id: "horas-desiguales",
-    titulo: "Las horas no duraban igual",
+    titulo: "Horas desiguales",
     gancho: "El día de luz se partía en doce, así que una hora de verano duraba setenta y cinco minutos y una de invierno, cuarenta y cinco.",
     categoria: "Relojes de sol",
     color: "var(--ochre)",

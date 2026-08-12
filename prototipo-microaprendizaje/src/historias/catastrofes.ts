@@ -234,7 +234,7 @@ export const CATASTROFES: Short[] = [
 
   {
     id: "vajont",
-    titulo: "El Vajont: aguantó la presa",
+    titulo: "La presa aguantó",
     gancho: "La obra resistió perfectamente. El monte de al lado, no.",
     categoria: "Catástrofes",
     color: "var(--slate)",

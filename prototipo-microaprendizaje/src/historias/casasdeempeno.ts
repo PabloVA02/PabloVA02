@@ -144,7 +144,7 @@ export const CASAS_DE_EMPENO: Short[] = [
   },
   {
     id: "empenar-un-cuadro",
-    titulo: "También se empeñan aviones",
+    titulo: "Se empeñan aviones",
     gancho: "El préstamo con prenda no es solo para apuros. Hay casas que prestan millones sobre una obra de arte.",
     categoria: "Dinero",
     color: "var(--plum)",

@@ -18,7 +18,7 @@ import type { Short } from "../shorts";
 export const BASURA: Short[] = [
   {
     id: "gabarra-de-basura",
-    titulo: "La barcaza que nadie quería",
+    titulo: "La barcaza sin puerto",
     gancho: "Salió con tres mil toneladas y ningún puerto la quiso. Recorrió diez mil kilómetros y volvió llena.",
     categoria: "Basura",
     color: "var(--slate)",

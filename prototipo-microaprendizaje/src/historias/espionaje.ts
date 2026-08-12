@@ -87,7 +87,7 @@ export const ESPIONAJE: Short[] = [
 
   {
     id: "mincemeat",
-    titulo: "Un cadáver engañó a Hitler",
+    titulo: "Un cadáver falso",
     gancho: "Lo soltó un submarino frente a Huelva con una cartera esposada a la muñeca.",
     categoria: "Espionaje",
     color: "var(--plum)",

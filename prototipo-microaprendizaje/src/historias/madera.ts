@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const MADERA: Short[] = [
   {
     id: "la-madera-sigue-moviendose",
-    titulo: "La madera sigue moviéndose",
+    titulo: "La madera se mueve",
     gancho: "Encoge y se hincha con la humedad del aire, y por eso los muebles antiguos están hechos sin pegar del todo.",
     categoria: "Madera",
     color: "var(--ochre)",

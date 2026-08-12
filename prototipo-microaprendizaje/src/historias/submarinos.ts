@@ -84,7 +84,7 @@ export const SUBMARINOS: Short[] = [
 
   {
     id: "primer-hundimiento",
-    titulo: "Hundió un barco y no volvió",
+    titulo: "Hundió un barco",
     gancho: "Se había hundido ya dos veces en pruebas con toda su tripulación dentro. La tercera fue definitiva.",
     categoria: "Submarinos",
     color: "var(--clay)",

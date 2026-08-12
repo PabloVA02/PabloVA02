@@ -16,7 +16,7 @@ import type { Short } from "../shorts";
 export const ARADO: Short[] = [
   {
     id: "el-arado-pesado",
-    titulo: "El arado que abrió el norte",
+    titulo: "El arado del norte",
     gancho: "Las tierras húmedas y pesadas del norte eran inservibles hasta que apareció una cuchilla que las volteaba.",
     categoria: "Arado",
     color: "var(--slate)",

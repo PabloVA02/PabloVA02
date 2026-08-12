@@ -15,7 +15,7 @@ import type { Short } from "../shorts";
 export const TINTES: Short[] = [
   {
     id: "el-purpura-de-los-caracoles",
-    titulo: "Púrpura de caracol podrido",
+    titulo: "Púrpura de caracol",
     gancho: "Hacían falta miles de caracoles marinos para teñir una sola prenda, y las fábricas olían tan mal que iban fuera de la ciudad.",
     categoria: "Tintes",
     color: "var(--plum)",

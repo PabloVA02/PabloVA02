@@ -145,7 +145,7 @@ export const NOTARIOS: Short[] = [
   },
   {
     id: "la-firma-y-el-sello",
-    titulo: "La firma es una prueba mala",
+    titulo: "La firma prueba poco",
     gancho: "Cambia cada vez que se hace, se imita con práctica y no dice nada del papel que hay encima. Y sigue en pie.",
     categoria: "Justicia",
     color: "var(--ochre)",

@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const RUEDA: Short[] = [
   {
     id: "rueda-tardia",
-    titulo: "La rueda no era para viajar",
+    titulo: "No era para viajar",
     gancho: "Se usó antes para hacer vasijas que para mover nada. Y en América, solo en juguetes.",
     categoria: "Rueda",
     color: "var(--slate)",

@@ -19,7 +19,7 @@ import type { Short } from "../shorts";
 export const DINERO: Short[] = [
   {
     id: "pengo-hungria",
-    titulo: "El billete no compraba nada",
+    titulo: "El billete no compraba",
     gancho: "Hungría llegó a un billete de cien trillones. Los precios doblaban cada 15 horas.",
     categoria: "Dinero",
     color: "var(--ochre)",
@@ -152,7 +152,7 @@ export const DINERO: Short[] = [
   },
   {
     id: "tulipanes-holanda",
-    titulo: "Un tulipán costaba una casa",
+    titulo: "Un tulipán, una casa",
     gancho: "Se compraban flores que aún no habían salido de la tierra. En un mes no valían nada.",
     categoria: "Dinero",
     color: "var(--plum)",
@@ -183,7 +183,7 @@ export const DINERO: Short[] = [
 
   {
     id: "crisis-2008",
-    titulo: "Casas que nadie podía pagar",
+    titulo: "Casas impagables",
     gancho: "Se prestaba dinero a quien no podía devolverlo, se troceaba la deuda y se vendía como segura.",
     categoria: "Dinero",
     color: "var(--slate)",
