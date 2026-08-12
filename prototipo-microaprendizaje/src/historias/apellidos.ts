@@ -88,8 +88,42 @@ export const APELLIDOS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una guía telefónica abierta con las entradas ordenadas por nombre propio.",
+    fotos: [
+      {
+        archivo: "Mountains Reflected in Pond - Iceland.jpg",
+        autor: "Montaña islandesa reflejada en una charca al atardecer, en la costa oeste del país.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMountains%20Reflected%20in%20Pond%20-%20Iceland.jpg",
+        foco: "50% 45%",
+        alt: "Cordillera baja de laderas verdes y doradas con la luz del atardecer, reflejada entera en un agua muy quieta.",
+      },
+      {
+        archivo: "Abandoned House and Mountains - Iceland.jpg",
+        autor: "Casa abandonada al pie de las montañas, en el campo islandés.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAbandoned%20House%20and%20Mountains%20-%20Iceland.jpg",
+        foco: "50% 50%",
+        alt: "Casa blanca de tejado rojo, sola en un prado, con montañas oscuras detrás.",
+      },
+      {
+        archivo: "City View of Reykjavik from Hallgrímskirkja - 2013.08 - panoramio.jpg",
+        autor: "Reikiavik vista desde la torre de la iglesia de Hallgrímur, con los tejados de colores.",
+        licencia: "CC BY 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACity%20View%20of%20Reykjavik%20from%20Hallgr%C3%ADmskirkja%20-%202013.08%20-%20panoramio.jpg",
+        foco: "50% 50%",
+        alt: "Vista de una ciudad pequeña desde arriba, con casas bajas de tejados rojos, azules y verdes junto al mar.",
+      },
+      {
+        archivo: "Snow on the turf roof (Unsplash).jpg",
+        autor: "Nieve sobre el tejado de hierba de una casa islandesa tradicional.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASnow%20on%20the%20turf%20roof%20(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Casa de piedra y madera con el tejado cubierto de hierba y una capa fina de nieve encima.",
+      },
+    ],
     entrada:
-      "Islandia, siglo XXI. Un país de unos cuatrocientos mil habitantes mantiene un sistema de nombres que el resto de Europa abandonó hace siglos: el patronímico vivo. Nadie hereda un apellido; cada persona lleva el nombre de su padre, o de su madre, con una terminación añadida que significa hijo o hija. Cada generación lo cambia entero.",
+      "Islandia, siglo XXI. Un país de unos cuatrocientos mil habitantes mantiene un sistema de nombres que el resto de Europa abandonó hace siglos: el patronímico vivo, el que se rehace en cada generación. Nadie hereda un apellido y nadie lo transmite. Cada persona lleva el nombre de su padre, o de su madre si así se decide, con una terminación añadida que significa hijo o hija. Eso significa que el nombre completo de alguien no dice de qué familia viene, sino solo de quién es hijo, y que cambia entero cada vez que nace una generación nueva.",
     paginas: [
       {
         rotulo: "Cómo funciona",
