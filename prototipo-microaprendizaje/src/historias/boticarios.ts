@@ -83,8 +83,45 @@ export const BOTICARIOS: Short[] = [
     categoria: "Medicina",
     color: "var(--slate)",
     encargo: "Receta manuscrita antigua sobre el mostrador de una farmacia, junto a una balanza pequeña.",
+    fotos: [
+      {
+        archivo: "Albarello drug jar, Italy, 1720-1790 Wellcome L0057166.jpg",
+        autor: "Albarelo de botica italiano del siglo XVIII, pintado con un elefante. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Albarello_drug_jar,_Italy,_1720-1790_Wellcome_L0057166.jpg",
+        foco: "50% 55%",
+        alt: "Tarro de farmacia de cerámica esmaltada con un elefante pintado, sobre fondo negro.",
+      },
+      {
+        archivo: "Albarello pharmacy jar, Deruta, Italy, 1701-1900 Wellcome L0058722.jpg",
+        autor: "Albarelo de farmacia hecho en Deruta, Italia. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Albarello_pharmacy_jar,_Deruta,_Italy,_1701-1900_Wellcome_L0058722.jpg",
+        foco: "50% 50%",
+        alt: "Tarro de botica de cerámica con decoración azul y amarilla, iluminado sobre fondo oscuro.",
+      },
+      {
+        archivo: "Albarello vase used to store smallage seeds, Italy, 1550 Wellcome L0057176.jpg",
+        autor: "Albarelo italiano de 1550 usado para guardar semillas de apio. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Albarello_vase_used_to_store_smallage_seeds,_Italy,_1550_Wellcome_L0057176.jpg",
+        foco: "50% 50%",
+        alt: "Vasija de farmacia renacentista con motivos pintados a mano en azul y ocre.",
+      },
+      {
+        archivo: "Albarello pharmacy jar for mercury ointment, Italy, 1520-156 Wellcome L0057161.jpg",
+        autor: "Albarelo del siglo XVI destinado a un ungüento de mercurio. Wellcome Collection.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Albarello_pharmacy_jar_for_mercury_ointment,_Italy,_1520-156_Wellcome_L0057161.jpg",
+        foco: "50% 50%",
+        alt: "Tarro de botica antiguo con el nombre del preparado escrito en una cinta pintada.",
+      },
+    ],
     entrada:
-      "Reino de Sicilia, 1240. El emperador que gobierna el sur de Italia y buena parte del Mediterráneo promulga un conjunto de leyes sanitarias que no tiene precedente. Entre ellas hay una que sigue vigente en casi todo el mundo ocho siglos después. Un médico no puede tener botica ni participar en el negocio de un boticario, porque el conflicto es evidente.",
+      "Reino de Sicilia, 1240. El emperador que gobierna el sur de Italia y buena parte del Mediterráneo promulga un conjunto de leyes sanitarias que no tiene precedente en ninguna parte: fija la formación de los médicos, los exámenes que deben pasar y hasta el precio de los remedios. Entre todas ellas hay una que sigue vigente en casi todo el mundo ocho siglos después. Un médico no puede tener botica ni participar en el negocio de un boticario, porque el conflicto de intereses es demasiado evidente.",
     paginas: [
       {
         rotulo: "El conflicto",
