@@ -189,7 +189,7 @@ export const CUERO: Short[] = [
       },
     ],
     entrada:
-      "Industria textil mundial, con los primeros sustitutos plásticos del cuero comercializados desde los años cincuenta del siglo XX y hoy presentes en casi cualquier tienda. Bajo nombres comerciales muy variados, algunos bastante imaginativos, se venden materiales que imitan el cuero de una manera cada vez más convincente, y conviene saber de qué están hechos en realidad. La mayoría consisten en una tela de fondo, normalmente de poliéster, recubierta con una capa de plástico a la que después se le graba en caliente un dibujo de poros.",
+      "Industria textil mundial, con los primeros sustitutos plásticos del cuero comercializados desde los años cincuenta del siglo XX y hoy presentes en casi cualquier tienda. Bajo nombres comerciales muy variados, algunos bastante imaginativos, se venden materiales que imitan el cuero de una manera cada vez más convincente, y conviene saber de qué están hechos en realidad. La inmensa mayoría de ellos consisten en una simple tela de fondo, normalmente de poliéster, recubierta con una capa de plástico a la que después se le graba en caliente un dibujo de poros para que parezca piel de verdad.",
     paginas: [
       {
         rotulo: "Los dos plásticos",
