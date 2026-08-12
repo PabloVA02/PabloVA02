@@ -78,13 +78,50 @@ export const CASCOS: Short[] = [
   },
   {
     id: "el-casco-de-obra",
-    titulo: "El casco de obra nació navegando",
+    titulo: "El casco nació en el mar",
     gancho: "Un fabricante de gorros impermeables para pescadores empezó a endurecerlos con laca para los obreros de un puente.",
     categoria: "Cascos",
     color: "var(--slate)",
     encargo: "Un casco de obra amarillo con el arnés interior a la vista.",
+    fotos: [
+      {
+        archivo: "Worker at Boundary Dam, 1967 (50669284287).jpg",
+        autor: "Un operario con casco trabajando dentro de la turbina de la presa de Boundary, en 1967. Archivos Municipales de Seattle.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Worker_at_Boundary_Dam,_1967_(50669284287).jpg",
+        foco: "60% 55%",
+        alt: "Fotografía en blanco y negro de un obrero con casco asomado entre las piezas metálicas de una turbina.",
+      },
+      {
+        archivo: "Deux artisans électriciens avec leurs apprentis sur un chantier (1969).jpg",
+        autor: "Electricistas y aprendices en una obra, en 1969.",
+        licencia: "CC BY-SA 3.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Deux_artisans_%C3%A9lectriciens_avec_leurs_apprentis_sur_un_chantier_(1969).jpg",
+        foco: "50% 45%",
+        alt: "Grupo de operarios con cascos trabajando en el interior de un edificio en construcción.",
+      },
+      {
+        archivo: "Baliwagenyo welder with green hard hat working atop a petrol station metal structure 01.jpg",
+        autor: "Un soldador con casco trabajando en lo alto de una estructura metálica.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Baliwagenyo_welder_with_green_hard_hat_working_atop_a_petrol_station_metal_structure_01.jpg",
+        foco: "50% 50%",
+        alt: "Soldador con casco verde encaramado a una estructura de acero, recortado contra el cielo.",
+      },
+      {
+        archivo: "Baliwagenyo welder with green hard hat working atop a petrol station metal structure 03.jpg",
+        autor: "El mismo soldador, visto desde otro ángulo, sobre la estructura.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Baliwagenyo_welder_with_green_hard_hat_working_atop_a_petrol_station_metal_structure_03.jpg",
+        foco: "50% 50%",
+        alt: "Operario con casco y equipo de soldadura trabajando en altura sobre vigas metálicas.",
+      },
+    ],
     entrada:
-      "Estados Unidos, años veinte del siglo XX. En las obras grandes, las herramientas y los remaches que caen desde arriba matan trabajadores con regularidad, y no existe ninguna protección estándar. Un fabricante de gorros de lona impermeable para marineros prueba a endurecer sus sombreros con vapor y con laca, y ofrece el resultado a los obreros de las grandes obras públicas.",
+      "Estados Unidos, años veinte del siglo XX. En las obras grandes —presas, puentes, rascacielos— las herramientas y los remaches que se caen desde arriba matan trabajadores con una regularidad que se acepta como parte del oficio, y no existe ninguna protección estándar: el que quiere se pone un sombrero de fieltro y poco más. Un fabricante de gorros de lona impermeable para marineros prueba entonces a endurecer sus sombreros con vapor y con varias capas de laca negra, y le ofrece el resultado a los obreros de las obras públicas.",
     paginas: [
       {
         rotulo: "El hueco",

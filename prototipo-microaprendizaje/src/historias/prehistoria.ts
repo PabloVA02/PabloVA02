@@ -84,13 +84,47 @@ export const PREHISTORIA: Short[] = [
 
   {
     id: "altamira",
-    titulo: "Altamira la encontró una niña de ocho años",
+    titulo: "Altamira la vio una niña",
     gancho: "Su padre defendió que eran prehistóricas y lo llamaron falsificador. Murió sin que le creyeran.",
     categoria: "Prehistoria",
     color: "var(--clay)",
     encargo: "Un techo de roca abombado con bisontes en rojo y negro, iluminado de lado.",
+    fotos: [
+      {
+        archivo: "Altamira bisons.jpg",
+        autor: "Reproducción del techo de bisontes de Altamira en el Museo del Mamut de Barcelona. Fotografía de Thomas Quine.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Altamira_bisons.jpg",
+        foco: "50% 50%",
+        alt: "Bisontes pintados en ocre y negro sobre la roca, unos encogidos y otros de pie, muy juntos.",
+      },
+      {
+        archivo: "Altamira, bison, museum.JPG",
+        autor: "Bisonte del facsímil del techo de Altamira, en el museo Anthropos de Brno.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Altamira,_bison,_museum.JPG",
+        foco: "50% 50%",
+        alt: "Un bisonte pintado en rojo y negro sobre la roca, con el lomo aprovechando un bulto de la piedra.",
+      },
+      {
+        archivo: "Altamira, bison, museum 02.JPG",
+        autor: "Otro bisonte de la reproducción del techo de Altamira, museo Anthropos de Brno.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Altamira,_bison,_museum_02.JPG",
+        foco: "50% 50%",
+        alt: "Figura de bisonte pintada sobre roca clara, con los cuernos y la pezuña marcados en negro.",
+      },
+      {
+        archivo: "Altamira, bison, museum 03.JPG",
+        autor: "Detalle de la reproducción del techo de Altamira en el museo Anthropos de Brno.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Altamira,_bison,_museum_03.JPG",
+        foco: "50% 50%",
+        alt: "Pintura rupestre de un bisonte agachado, con el pigmento rojizo extendido sobre la piedra.",
+      },
+    ],
     entrada:
-      "Cantabria, en el norte de España, 1879. Un terrateniente aficionado a la arqueología lleva meses escarbando el suelo de una cueva que hay cerca de su casa, buscando huesos y herramientas de piedra. Ese día lleva consigo a su hija de ocho años porque no tiene con quién dejarla. La niña se aburre, se mete por un lateral que él no ha mirado y levanta la vista.",
+      "Cantabria, en el norte de España, 1879. Un terrateniente aficionado a la arqueología lleva meses escarbando el suelo de una cueva que hay en sus tierras, cerca de casa, buscando huesos y herramientas de piedra como las que ha visto en una exposición de París. Ese día lleva consigo a su hija de ocho años porque no tiene con quién dejarla. La niña se aburre enseguida, se mete con la vela por un lateral que su padre no ha mirado nunca y hace lo único que a él no se le había ocurrido en meses: levantar la vista.",
     paginas: [
       {
         rotulo: "El techo",

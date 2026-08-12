@@ -78,13 +78,49 @@ export const MOLINOS: Short[] = [
   },
   {
     id: "las-muelas-del-molino",
-    titulo: "Dos piedras que no se tocan",
+    titulo: "Las muelas no se tocan",
     gancho: "Si se rozaran, el grano saldría quemado y la harina sabría a piedra. El hueco entre las dos es de un pelo.",
     categoria: "Comida",
     color: "var(--clay)",
     encargo: "Muela de molino con sus surcos radiales tallados, apoyada de canto.",
+    fotos: [
+      {
+        archivo: "La mancha por los siglos de los siglos.jpg",
+        autor: "Los molinos de viento de Consuegra, en La Mancha, a la hora azul. Fotografía de Antonio Aliaga.",
+        licencia: "CC BY-SA 3.0 es",
+        fuente: "https://commons.wikimedia.org/wiki/File:La_mancha_por_los_siglos_de_los_siglos.jpg",
+        foco: "50% 55%",
+        alt: "Fila de molinos de viento blancos en un cerro al anochecer, con el castillo iluminado al fondo.",
+      },
+      {
+        archivo: "Moinho dos Mosqueira (Internal) Albufeira 9 September 2015 (2).JPG",
+        autor: "Interior de un molino harinero del Algarve, con las muelas y el engranaje de madera. Fotografía de Kolforn.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Moinho_dos_Mosqueira_(Internal)_Albufeira_9_September_2015_(2).JPG",
+        foco: "50% 50%",
+        alt: "Maquinaria de madera dentro de un molino, con la piedra de moler encajada en su banco.",
+      },
+      {
+        archivo: "Scherpen van de maalstenen, vermoedelijk geposeerd, molen werd in juni 1964 gesloopt en herbouwd in Holland, Michigan ( U.S.A.), als een achtkante stellingmolen. - Vinkel - 20369762 - RCE.jpg",
+        autor: "Picando los surcos de una muela de molino en los Países Bajos, en 1964. Servicio de Patrimonio Cultural neerlandés.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Scherpen_van_de_maalstenen,_vermoedelijk_geposeerd,_molen_werd_in_juni_1964_gesloopt_en_herbouwd_in_Holland,_Michigan_(_U.S.A.),_als_een_achtkante_stellingmolen._-_Vinkel_-_20369762_-_RCE.jpg",
+        foco: "50% 50%",
+        alt: "Fotografía antigua de un hombre repicando a mano los surcos tallados de una piedra de molino.",
+      },
+      {
+        archivo: "Campos de molinos de viento en Consuegra.JPG",
+        autor: "Los molinos de Consuegra sobre el cerro Calderico, en Toledo.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Campos_de_molinos_de_viento_en_Consuegra.JPG",
+        foco: "50% 50%",
+        alt: "Molinos blancos de aspas alineados en lo alto de una loma, con el campo llano detrás.",
+      },
+    ],
     entrada:
-      "Todo el mundo, con el diseño de las muelas estable desde hace más de dos mil años. Un molino tritura el grano entre dos piedras redondas, una fija abajo y otra girando encima. Lo que nadie imagina es que esas dos piedras no se tocan nunca, porque entre ellas queda una separación del grosor de un pelo. Ajustar ese hueco es todo el oficio del molinero.",
+      "Todo el mundo, con el diseño de las muelas prácticamente estable desde hace más de dos mil años. Un molino tritura el grano entre dos piedras redondas y pesadísimas, una fija abajo y otra girando encima, y hasta ahí lo que todos imaginamos. Lo que casi nadie sabe es que esas dos piedras no llegan a tocarse nunca: entre ellas queda siempre una separación del grosor de un pelo, y el grano se rompe en ese hueco sin que las piedras rocen entre sí. Mantener esa distancia exacta era todo el oficio del molinero.",
     paginas: [
       {
         rotulo: "El hueco justo",
