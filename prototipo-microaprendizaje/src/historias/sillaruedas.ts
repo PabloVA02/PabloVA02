@@ -79,13 +79,48 @@ export const SILLA_DE_RUEDAS: Short[] = [
   },
   {
     id: "el-bordillo",
-    titulo: "Un bordillo de doce centímetros lo cambia todo",
+    titulo: "Un bordillo es una pared",
     gancho: "Un escalón pequeño no es un detalle: es una pared. Bajarlo costó una campaña de años y mucho cemento.",
     categoria: "Ciudades",
     color: "var(--clay)",
     encargo: "Esquina de acera con el bordillo rebajado formando una rampa hasta el asfalto.",
+    fotos: [
+      {
+        archivo: "UC Berkeley September 2024 001.jpg",
+        autor: "Berkeley, California, con el campus y las calles donde empezó todo. Fotografía de King of Hearts.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:UC_Berkeley_September_2024_001.jpg",
+        foco: "50% 62%",
+        alt: "Vista aérea de una ciudad universitaria, con calles rectas, casas bajas y colinas al fondo.",
+      },
+      {
+        archivo: "UC Berkeley September 2024 002.jpg",
+        autor: "Otra vista de Berkeley desde el aire. Fotografía de King of Hearts.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:UC_Berkeley_September_2024_002.jpg",
+        foco: "50% 60%",
+        alt: "Manzanas de casas y avenidas arboladas vistas desde arriba.",
+      },
+      {
+        archivo: "University of California, Berkeley.jpg",
+        autor: "Panorámica del campus de Berkeley. Fotografía de Daniel Koenig.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:University_of_California,_Berkeley.jpg",
+        foco: "50% 50%",
+        alt: "Panorámica muy ancha de un campus universitario entre árboles, con la bahía al fondo.",
+      },
+      {
+        archivo: "UC Berkeley campus and surroundings from Berkeley Hills January 2026.jpg",
+        autor: "Berkeley y su bahía vistos desde las colinas.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:UC_Berkeley_campus_and_surroundings_from_Berkeley_Hills_January_2026.jpg",
+        foco: "50% 55%",
+        alt: "La ciudad extendida hasta la bahía, vista desde lo alto de unas colinas.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1972. Un grupo de estudiantes en silla de ruedas de una universidad de California se harta de no poder cruzar la calle y sale de noche con sacos de cemento. Rompen los bordillos de varias esquinas y construyen rampas caseras ellos mismos. La ciudad acaba adoptando la idea, y el rebaje de bordillo se convierte en norma en medio mundo.",
+      "Estados Unidos, 1972. Un grupo de estudiantes en silla de ruedas de una universidad de California se harta de no poder cruzar la calle: cada esquina termina en un escalón de doce centímetros que para ellos es un muro, y la ciudad lleva años sin hacer nada. Así que salen de noche con sacos de cemento, rompen los bordillos de varias esquinas y construyen ellos mismos las rampas, sin permiso de nadie. La ciudad acaba adoptando la idea en vez de multarlos, y el rebaje de bordillo termina siendo norma en medio mundo.",
     paginas: [
       {
         rotulo: "Una pared",
