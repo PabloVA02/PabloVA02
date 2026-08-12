@@ -122,7 +122,7 @@ export const TELEVISION: Short[] = [
       },
     ],
     entrada:
-      "Londres, 1925. Un inventor escocés sin apenas dinero monta en una buhardilla un aparato con una caja de galletas, agujas de zurcir, lentes de bicicleta y un disco de cartón perforado. El 2 de octubre consigue transmitir la primera imagen de televisión reconocible de la historia: la cara de un muñeco de ventrílocuo, y después la de un chico del edificio.",
+      "Londres, 1925. Un inventor escocés sin apenas dinero monta en una buhardilla un aparato con una caja de galletas, agujas de zurcir, lentes de bicicleta y un disco de cartón perforado. El 2 de octubre consigue transmitir la primera imagen de televisión reconocible de la historia: la cara de un muñeco de ventrílocuo que tenía a mano y, un rato después, la de un chico que trabajaba en el edificio y al que subió a la buhardilla para sentarlo delante del aparato. Aquello no se parecía en nada a la televisión que vendría luego.",
     paginas: [
       {
         rotulo: "El disco",

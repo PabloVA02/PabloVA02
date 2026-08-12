@@ -120,7 +120,7 @@ export const ZAPATOS: Short[] = [
       },
     ],
     entrada:
-      "Inglaterra, siglo XIV. Un rey fija por decreto que tres granos de cebada secos puestos en fila equivalen a una pulgada. Los zapateros adoptan esa unidad para medir hormas y establecen que cada número de calzado se diferencia del siguiente en un grano, es decir, un tercio de pulgada: unos ocho milímetros y medio. Ese sistema sigue vivo en los países anglosajones.",
+      "Inglaterra, siglo XIV. Un rey fija por decreto que tres granos de cebada secos puestos en fila equivalen a una pulgada. Los zapateros adoptan esa unidad para medir hormas y establecen que cada número de calzado se diferencia del siguiente en un grano, es decir, un tercio de pulgada: unos ocho milímetros y medio. Ese sistema, nacido de tres granos de cebada puestos en fila sobre una mesa, sigue perfectamente vivo hoy en los países anglosajones, y explica por qué un número de allí no coincide nunca del todo con uno de aquí.",
     paginas: [
       {
         rotulo: "Tres sistemas",

@@ -120,7 +120,7 @@ export const TELEFERICOS: Short[] = [
       },
     ],
     entrada:
-      "Alemania, 1834. Un inspector de minas está harto de que las cuerdas de cáñamo y las cadenas de hierro se rompan al subir vagonetas por los pozos, con las muertes que eso provoca. Se le ocurre trenzar alambres finos de hierro formando una cuerda metálica, y prueba el invento en su propia mina. Ese cable es el antepasado de todos los que se usan hoy.",
+      "Alemania, 1834. Un inspector de minas está harto de que las cuerdas de cáñamo y las cadenas de hierro se rompan al subir vagonetas por los pozos, con las muertes que eso provoca. Se le ocurre trenzar alambres finos de hierro formando una cuerda metálica, y prueba el invento en su propia mina. Aquel primer cable, trenzado casi a mano, es el antepasado directo de todos los que se usan hoy: los de los ascensores, los de los puentes colgantes, los de las grúas del puerto y los de cualquier telecabina de esquí.",
     paginas: [
       {
         rotulo: "Por qué trenzado",

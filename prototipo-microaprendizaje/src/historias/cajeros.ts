@@ -120,7 +120,7 @@ export const CAJEROS: Short[] = [
       },
     ],
     entrada:
-      "Cualquier cajero actual, con una mecánica que se estandarizó a lo largo de los años noventa y que apenas ha cambiado desde entonces. Dentro de la caja fuerte hay varios casetes cerrados con llave, cada uno cargado con billetes de un solo valor, y encima de ellos un mecanismo que tiene que hacer algo bastante más difícil de lo que parece: separar exactamente los billetes pedidos de una pila prensada, de uno en uno, sin que se peguen dos, sin romper ninguno y sin equivocarse jamás en la cuenta.",
+      "Cualquier cajero automático de los de ahora, con una mecánica interna que se estandarizó a lo largo de los años noventa y que apenas ha cambiado desde entonces. Dentro de la caja fuerte hay varios casetes cerrados con llave, cada uno cargado con billetes de un solo valor, y encima de ellos un mecanismo que tiene que hacer algo bastante más difícil de lo que parece: separar exactamente los billetes pedidos de una pila prensada, de uno en uno, sin que se peguen dos, sin romper ninguno y sin equivocarse jamás en la cuenta.",
     paginas: [
       {
         rotulo: "Separar y contar",
