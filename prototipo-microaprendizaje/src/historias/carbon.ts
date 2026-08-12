@@ -153,8 +153,42 @@ export const CARBON: Short[] = [
     categoria: "Carbón",
     color: "var(--clay)",
     encargo: "Una carretera agrietada con vapor saliendo entre el asfalto roto y hierba amarilla.",
+    fotos: [
+      {
+        archivo: "Bodie ghost town (Explored) - Flickr - M McBey.jpg",
+        autor: "El pueblo minero abandonado de Bodie, California, 2013.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABodie%20ghost%20town%20(Explored)%20-%20Flickr%20-%20M%20McBey.jpg",
+        foco: "50% 50%",
+        alt: "Casas de madera vacías y descoloridas de un pueblo minero abandonado, bajo un cielo azul.",
+      },
+      {
+        archivo: "Mijnterril Beringen 19-07-2023 17-58-50.jpg",
+        autor: "Escombrera de la mina de Beringen, Bélgica, 2023.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMijnterril%20Beringen%2019-07-2023%2017-58-50.jpg",
+        foco: "50% 55%",
+        alt: "Montaña artificial de estériles de carbón cubierta a medias de vegetación.",
+      },
+      {
+        archivo: "Abandoned mining town in Bolivia.jpg",
+        autor: "Pueblo minero abandonado en Bolivia, 2017.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAbandoned%20mining%20town%20in%20Bolivia.jpg",
+        foco: "50% 50%",
+        alt: "Casas vacías de un poblado minero en el altiplano, con la sierra al fondo.",
+      },
+      {
+        archivo: "Glen Davis old Mining town.jpg",
+        autor: "Restos del pueblo minero de Glen Davis, Australia, 2014.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AGlen%20Davis%20old%20Mining%20town.jpg",
+        foco: "50% 50%",
+        alt: "Ruinas de ladrillo de unas instalaciones mineras invadidas por la hierba.",
+      },
+    ],
     entrada:
-      "Pensilvania, mayo de 1962. Un pueblo minero de más de mil habitantes limpia su vertedero antes de las fiestas quemando la basura, como todos los años. El vertedero ocupa una antigua cantera y en su fondo hay una grieta que comunica con las galerías abandonadas de la mina, llenas de carbón. El fuego baja por la grieta y nadie consigue apagarlo.",
+      "Pensilvania, mayo de 1962. Un pueblo minero de más de mil habitantes limpia su vertedero antes de las fiestas del Día de los Caídos quemando la basura acumulada, como venía haciendo todos los años sin mayor problema. Lo que nadie tiene en cuenta es que el vertedero ocupa una antigua cantera y que en su fondo hay una grieta abierta que comunica con las galerías abandonadas de la mina, llenas todavía de carbón sin extraer. El fuego baja tranquilamente por esa grieta, prende la veta y ya nadie consigue apagarlo.",
     paginas: [
       {
         rotulo: "Cómo arde una veta",
