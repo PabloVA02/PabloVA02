@@ -83,6 +83,40 @@ export const IDIOMAS_MUERTOS: Short[] = [
     categoria: "Lenguas perdidas",
     color: "var(--ochre)",
     encargo: "Un libro antiguo abierto con letras hebreas y un lápiz encima.",
+    fotos: [
+      {
+        archivo: "Mahane Yehuda Market sales 2.JPG",
+        autor: "Puesto de especias en el mercado de Mahane Yehuda, en Jerusalén, con los rótulos en hebreo.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMahane%20Yehuda%20Market%20sales%202.JPG",
+        foco: "50% 55%",
+        alt: "Tienda de especias con sacos abiertos llenos de granos y hierbas de colores, bajo un rótulo rojo.",
+      },
+      {
+        archivo: "Solomon Souza in Mahane Yehuda Market 01.jpg",
+        autor: "Retratos pintados por Solomon Souza en los cierres del mercado de Mahane Yehuda.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASolomon%20Souza%20in%20Mahane%20Yehuda%20Market%2001.jpg",
+        foco: "50% 50%",
+        alt: "Persianas metálicas de un mercado cerrado, pintadas con grandes retratos de colores.",
+      },
+      {
+        archivo: "The Western Wall in the old city of Jerusalem, Israel.jpg",
+        autor: "El Muro de las Lamentaciones, en la ciudad vieja de Jerusalén.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20Western%20Wall%20in%20the%20old%20city%20of%20Jerusalem%2C%20Israel.jpg",
+        foco: "50% 50%",
+        alt: "Muro alto de sillares dorados con gente reunida delante, en una explanada empedrada.",
+      },
+      {
+        archivo: "Western Wall and Dome of the Rock Jerusalem -10 (33400391921).jpg",
+        autor: "El muro y la Cúpula de la Roca vistos desde la explanada, en Jerusalén.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWestern%20Wall%20and%20Dome%20of%20the%20Rock%20Jerusalem%20-10%20(33400391921).jpg",
+        foco: "50% 50%",
+        alt: "Vista de la explanada con el muro de piedra en primer término y la cúpula dorada al fondo.",
+      },
+    ],
     entrada:
       "Palestina otomana, 1881. El hebreo lleva casi dos mil años sin usarse para hablar. Se lee, se reza y se escribe en él, pero nadie lo tiene como lengua materna: las comunidades judías hablan las lenguas de los sitios donde viven. Ese año llega una familia que decide hacer un experimento doméstico: criar a su hijo hablándole solo en hebreo.",
     paginas: [
