@@ -88,8 +88,44 @@ export const ASCENSORES: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Un altavoz redondo empotrado en el techo de una cabina forrada de madera.",
+    fotos: [
+      {
+        archivo: "Paternoster im Neuen Rathaus Leipzig.jpg",
+        autor: "Cabinas de un ascensor paternoster en el ayuntamiento nuevo de Leipzig. Fotografía de August Geyler.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Paternoster_im_Neuen_Rathaus_Leipzig.jpg",
+        foco: "25% 55%",
+        alt: "Interior de madera de una cabina de ascensor abierta, sin puertas, con el hueco a la vista.",
+      },
+      {
+        archivo: "Paternosterlift Oslo.jpg",
+        autor: "Ascensor paternoster en funcionamiento en un edificio de Oslo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Paternosterlift_Oslo.jpg",
+        foco: "50% 50%",
+        alt: "Cabinas de madera de un ascensor continuo subiendo por su hueco, una detrás de otra.",
+      },
+      {
+        archivo: "Páternoster v budově Městského soudu v Praze, budova ve Slezské ulici 1.jpg",
+        autor: "Paternoster del edificio del tribunal municipal de Praga.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:P%C3%A1ternoster_v_budov%C4%9B_M%C4%9Bstsk%C3%A9ho_soudu_v_Praze,_budova_ve_Slezsk%C3%A9_ulici_1.jpg",
+        foco: "50% 50%",
+        alt: "Hueco de ascensor antiguo con cabinas abiertas de madera y barandillas metálicas.",
+      },
+      {
+        archivo: "Páternoster v budově Městského soudu v Praze, budova ve Slezské ulici – označení kabiny č. 7.jpg",
+        autor: "Detalle de una de las cabinas del paternoster del tribunal municipal de Praga.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:P%C3%A1ternoster_v_budov%C4%9B_M%C4%9Bstsk%C3%A9ho_soudu_v_Praze,_budova_ve_Slezsk%C3%A9_ulici_%E2%80%93_ozna%C4%8Den%C3%AD_kabiny_%C4%8D._7.jpg",
+        foco: "50% 50%",
+        alt: "Cabina de madera de un ascensor continuo vista de cerca, con su suelo y su pasamanos.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1922. Los ascensores llevan décadas funcionando, pero muchos usuarios siguen sin fiarse: subirse a una caja colgada de un cable y quedarse a solas dentro incomoda. Un general retirado, apasionado de la electricidad, funda una empresa para mandar música por cable a comercios y edificios, y encuentra ahí su primer mercado.",
+      "Estados Unidos, 1922. Los ascensores llevan ya décadas funcionando y son fiables, pero muchos usuarios siguen sin fiarse del todo: subirse a una caja colgada de un cable, cerrar la puerta y quedarse a solas dentro incomoda a mucha gente, sobre todo desde que los edificios empiezan a quitar al ascensorista que iba dentro y hacía compañía. Un general retirado, apasionado de la electricidad, funda por esas fechas una empresa para mandar música por cable a comercios y edificios, y encuentra ahí, sin buscarlo, su primer mercado grande.",
     paginas: [
       {
         rotulo: "El hilo musical",

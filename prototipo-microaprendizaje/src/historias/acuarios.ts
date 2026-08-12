@@ -79,13 +79,47 @@ export const ACUARIOS: Short[] = [
   },
   {
     id: "el-cristal-que-no-es-cristal",
-    titulo: "El cristal que no es cristal",
+    titulo: "No es cristal, es plástico",
     gancho: "Un panel de treinta metros no puede ser de vidrio: se rajaría de golpe. Es acrílico fundido en varias piezas.",
     categoria: "Tecnología",
     color: "var(--clay)",
     encargo: "Panel curvo de acrílico de un acuario gigante con visitantes diminutos delante.",
+    fotos: [
+      {
+        archivo: "Jellyfish (22132978982).jpg",
+        autor: "Medusas luna flotando en un tanque iluminado de azul.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Jellyfish_(22132978982).jpg",
+        foco: "50% 50%",
+        alt: "Cuatro medusas translúcidas suspendidas en un agua azul intensa, iluminadas por detrás.",
+      },
+      {
+        archivo: "Baltimore Aquarium - Fish+ Reflection 1.jpg",
+        autor: "Peces vistos a través del panel de un acuario público de Baltimore. Fotografía de Jarek Tuszyński.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Baltimore_Aquarium_-_Fish%2B_Reflection_1.jpg",
+        foco: "50% 50%",
+        alt: "Banco de peces nadando detrás del vidrio de un acuario, con reflejos en la superficie.",
+      },
+      {
+        archivo: "Jellyfish In Water With Blue Light (45343727755).jpg",
+        autor: "Medusas iluminadas con luz azul dentro de un tanque.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Jellyfish_In_Water_With_Blue_Light_(45343727755).jpg",
+        foco: "50% 50%",
+        alt: "Medusas de campana clara con los tentáculos extendidos, sobre fondo azul oscuro.",
+      },
+      {
+        archivo: "Baltimore Aquarium - Fish+ Reflection 2.jpg",
+        autor: "Otro panel del acuario de Baltimore, con los peces al otro lado. Fotografía de Jarek Tuszyński.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Baltimore_Aquarium_-_Fish%2B_Reflection_2.jpg",
+        foco: "50% 50%",
+        alt: "Peces grandes nadando tras el panel transparente de un acuario, con el agua verdosa al fondo.",
+      },
+    ],
     entrada:
-      "Japón y Estados Unidos, con los grandes acuarios públicos construidos desde 1980. Un tanque de varios millones de litros ejerce sobre su pared una presión enorme, porque el agua pesa una tonelada por metro cúbico. La ventana de un acuario así puede medir treinta metros de ancho y varios de alto. Ningún vidrio aguanta eso a un grosor razonable, y por eso se usa un plástico.",
+      "Japón y Estados Unidos, con los grandes acuarios públicos construidos desde 1980 en adelante. Un tanque de varios millones de litros ejerce sobre su pared una presión enorme, porque el agua pesa una tonelada por metro cúbico y no perdona: cuanto más hondo, más empuja. La ventana de un acuario de esos puede medir treinta metros de ancho y varios de alto, y tiene que aguantar esa carga durante décadas sin ceder ni un milímetro. Ningún vidrio resiste eso con un grosor razonable, y por eso lo que se mira no es cristal.",
     paginas: [
       {
         rotulo: "Vidrio o acrílico",
