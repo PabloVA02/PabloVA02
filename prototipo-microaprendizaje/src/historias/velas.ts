@@ -80,14 +80,48 @@ export const VELAS: Short[] = [
   },
   {
     id: "la-vela-patron",
-    titulo: "Una vela fue la unidad oficial de luz",
+    titulo: "La luz se medía en velas",
     gancho: "La cantidad de luz se medía comparando con una vela de esperma de ballena de peso y llama fijados por ley.",
     categoria: "Velas",
     color: "var(--slate)",
     curioso: true,
     encargo: "Una vela blanca encendida junto a una regla graduada, sobre fondo oscuro.",
+    fotos: [
+      {
+        archivo: "Small candle flame.jpg",
+        autor: "Llama de una vela pequeña fotografiada a oscuras, con el cono azul en la base bien visible.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASmall%20candle%20flame.jpg",
+        foco: "50% 45%",
+        alt: "Una vela de té encendida sobre fondo negro, con la llama amarilla alargada y quieta.",
+      },
+      {
+        archivo: "Mother and baby sperm whale.jpg",
+        autor: "Cachalote con su cría frente a la isla de Mauricio. De la cabeza de este animal salía el espermaceti.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMother%20and%20baby%20sperm%20whale.jpg",
+        foco: "50% 50%",
+        alt: "Dos cachalotes, uno grande y uno pequeño, nadando juntos en agua azul iluminada desde arriba.",
+      },
+      {
+        archivo: "Candle light projected through a glass orb.jpg",
+        autor: "La luz de una vela atravesando una esfera de vidrio y proyectándose al otro lado.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACandle%20light%20projected%20through%20a%20glass%20orb.jpg",
+        foco: "50% 50%",
+        alt: "Bola de cristal sobre una superficie oscura con la llama de una vela concentrada y repetida dentro.",
+      },
+      {
+        archivo: "Yaquina Head Lighthouse Fresnel lens (14862581912).jpg",
+        autor: "Lente de Fresnel del faro de Yaquina Head, en Oregón, hecha de anillos de vidrio tallado.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AYaquina%20Head%20Lighthouse%20Fresnel%20lens%20(14862581912).jpg",
+        foco: "50% 50%",
+        alt: "Gran lente de faro formada por anillos concéntricos de cristal que rodean la lámpara central.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1860. Una ley del alumbrado necesita comprobar que las compañías de gas dan la luz que cobran, y para eso hace falta una unidad. Se define entonces una: la luz que emite una vela fabricada con esperma de ballena, de un peso determinado, que consuma unos gramos exactos por hora. Se llamó, sencillamente, bujía, y durante casi un siglo la luz se midió en velas.",
+      "Inglaterra, 1860. Una ley del alumbrado necesita comprobar que las compañías de gas dan de verdad la luz que cobran, y para eso hace falta una unidad con la que discutir. Se define entonces una que hoy suena a broma: la luz que emite una vela fabricada con esperma de ballena, de un peso determinado, con una mecha determinada y que consuma unos gramos exactos por hora. Se llamó, sencillamente, bujía. Durante casi un siglo, cada farola y cada bombilla del país se midió comparándola con aquella vela de laboratorio.",
     paginas: [
       {
         rotulo: "La ballena",
