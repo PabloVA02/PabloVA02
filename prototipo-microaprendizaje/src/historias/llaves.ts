@@ -121,7 +121,7 @@ export const LLAVES: Short[] = [
       },
     ],
     entrada:
-      "Mesopotamia, hace unos tres mil años. En las ruinas de un palacio del norte aparecieron restos y representaciones de un mecanismo que los arqueólogos tardaron bastante en reconocer, sencillamente porque no esperaban encontrárselo tan pronto ni tan bien resuelto: una cerradura de pasadores, hecha enteramente de madera, sin una sola pieza de metal, con una llave del tamaño de un antebrazo que se llevaba al hombro por la calle. El mecanismo es exactamente el mismo que lleva hoy la puerta de cualquier casa, y no ha cambiado en tres milenios.",
+      "Mesopotamia, hace unos tres mil años. En las ruinas de un palacio asirio del norte aparecieron restos y representaciones de un mecanismo que los arqueólogos tardaron bastante en reconocer, sencillamente porque no esperaban encontrárselo tan pronto ni tan bien resuelto: una cerradura de pasadores, hecha enteramente de madera, sin una sola pieza de metal, con una llave del tamaño de un antebrazo que se llevaba al hombro por la calle. El mecanismo es exactamente el mismo que lleva hoy la puerta de cualquier casa, y no ha cambiado en tres milenios.",
     paginas: [
       {
         rotulo: "Los palitos que caen",
