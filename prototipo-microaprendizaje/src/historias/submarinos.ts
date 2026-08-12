@@ -153,8 +153,42 @@ export const SUBMARINOS: Short[] = [
     categoria: "Submarinos",
     color: "var(--plum)",
     encargo: "Una esfera de acero con una ventanilla diminuta colgando de un flotador enorme.",
+    fotos: [
+      {
+        archivo: "Bathyscaphe Trieste.jpg",
+        autor: "El batiscafo Trieste izado antes de una inmersión.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABathyscaphe%20Trieste.jpg",
+        foco: "50% 45%",
+        alt: "Batiscafo colgado de una grúa, con la cabina esférica bajo el flotador alargado.",
+      },
+      {
+        archivo: "USN 1044872 Bathyscaphe Trieste.tif",
+        autor: "El batiscafo Trieste de la Marina de Estados Unidos.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AUSN%201044872%20Bathyscaphe%20Trieste.tif",
+        foco: "50% 50%",
+        alt: "El Trieste flotando en el agua con la torreta de acceso asomando.",
+      },
+      {
+        archivo: "Bathyscaphe Trieste with USS Lewis (DE-535) over the Marianas Trench on 23 January 1960 (USN 710619).jpg",
+        autor: "El Trieste junto al USS Lewis sobre la fosa de las Marianas, enero de 1960.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABathyscaphe%20Trieste%20with%20USS%20Lewis%20(DE-535)%20over%20the%20Marianas%20Trench%20on%2023%20January%201960%20(USN%20710619).jpg",
+        foco: "50% 50%",
+        alt: "El batiscafo en mar abierto con un buque de escolta al fondo.",
+      },
+      {
+        archivo: "Bathyscaphe Trieste with USS Lewis (DE-535) over the Marianas Trench, 23 January 1960 (NH 96797).jpg",
+        autor: "Otra vista del Trieste antes de la inmersión del 23 de enero de 1960.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABathyscaphe%20Trieste%20with%20USS%20Lewis%20(DE-535)%20over%20the%20Marianas%20Trench%2C%2023%20January%201960%20(NH%2096797).jpg",
+        foco: "50% 50%",
+        alt: "El batiscafo Trieste en el agua rodeado de olas, listo para descender.",
+      },
+    ],
     entrada:
-      "Pacífico occidental, enero de 1960. Dos hombres se meten en una cabina de acero de dos metros colgada de un flotador lleno de gasolina y empiezan a bajar hacia el fondo de la fosa más profunda del planeta. Tardan casi cinco horas en llegar a once kilómetros de profundidad. Es el punto más hondo que existe en la Tierra.",
+      "Pacífico occidental, enero de 1960. Dos hombres se meten en una cabina de acero de apenas dos metros de diámetro, colgada por debajo de un flotador enorme lleno de gasolina, y empiezan a bajar despacio hacia el fondo de la fosa más profunda del planeta. Tardan casi cinco horas en llegar a once kilómetros de profundidad, con la presión aumentando a cada metro que caen. Es el punto más hondo que existe en la Tierra, y allí abajo, para su sorpresa, encuentran algo que nadie esperaba encontrar.",
     paginas: [
       {
         rotulo: "El globo invertido",
