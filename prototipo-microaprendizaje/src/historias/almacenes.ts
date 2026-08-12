@@ -85,8 +85,45 @@ export const ALMACENES: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Estantería de almacén con productos completamente dispares en la misma balda.",
+    fotos: [
+      {
+        archivo: "Collection of piano rolls in their original boxes in Collections of the Deutsches Museum.jpg",
+        autor: "Rollos de pianola guardados en sus cajas originales, en los depósitos del Museo Alemán de Múnich.",
+        licencia: "CC0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Collection_of_piano_rolls_in_their_original_boxes_in_Collections_of_the_Deutsches_Museum.jpg",
+        foco: "50% 50%",
+        alt: "Estantes de madera llenos de cajas antiguas colocadas de canto, una junto a otra.",
+      },
+      {
+        archivo: "Storage vault.jpg",
+        autor: "Sala de depósito con estanterías y cajas de archivo.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Storage_vault.jpg",
+        foco: "50% 50%",
+        alt: "Estanterías metálicas llenas de cajas de cartón iguales en una sala de almacenaje.",
+      },
+      {
+        archivo: "SPAR kolonial mat varehandel hyller (Supermarket interior GROCERY store aisle shelves) Frokostblandinger gryn grøt kjeks müsli Axa (cereals oatmeal biscuits, muesli) etc Tjøme NORWAY 2023-08-31 IMG 1092.jpg",
+        autor: "Baldas de una tienda con el género colocado por huecos, no por familias.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:SPAR_kolonial_mat_varehandel_hyller_(Supermarket_interior_GROCERY_store_aisle_shelves)_Frokostblandinger_gryn_gr%C3%B8t_kjeks_m%C3%BCsli_Axa_(cereals_oatmeal_biscuits,_muesli)_etc_Tj%C3%B8me_NORWAY_2023-08-31_IMG_1092.jpg",
+        foco: "50% 50%",
+        alt: "Estantes de tienda llenos de paquetes distintos apretados unos contra otros.",
+      },
+      {
+        archivo: "Dishbrushes (Jordan oppvaskbørster), Coop Extra supermarket, shop shelves, Bergen, Norway 2017-10-25.jpg",
+        autor: "Artículos colgados en fila en el expositor de una tienda.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Dishbrushes_(Jordan_oppvaskb%C3%B8rster),_Coop_Extra_supermarket,_shop_shelves,_Bergen,_Norway_2017-10-25.jpg",
+        foco: "50% 50%",
+        alt: "Fila de cepillos colgados de un expositor metálico, cada uno en su gancho.",
+      },
+    ],
     entrada:
-      "Almacenes de comercio electrónico, con el sistema documentado desde 1997. Cualquiera imagina un almacén con los productos ordenados por tipo, como una tienda gigante. Los grandes almacenes de reparto funcionan justo al revés, guardando cada cosa en el primer hueco libre que aparezca. El resultado parece un caos y es la manera más rápida de encontrar algo cuando hay que buscarlo.",
+      "Almacenes de comercio electrónico, con el sistema documentado desde 1997. Cualquiera se imagina un almacén de esos como una tienda gigante: los libros con los libros, las sartenes con las sartenes, todo ordenado por tipo y por marca. Los grandes almacenes de reparto funcionan exactamente al revés, guardando cada cosa que llega en el primer hueco libre que aparezca, sin mirar qué es ni junto a qué queda. El resultado parece un caos absoluto, y resulta ser la manera más rápida que existe de encontrar algo.",
     paginas: [
       {
         rotulo: "El hueco libre",

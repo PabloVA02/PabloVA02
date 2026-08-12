@@ -86,13 +86,47 @@ export const FOTOGRAFIA: Short[] = [
 
   {
     id: "canica-azul",
-    titulo: "La Tierra entera, una sola vez",
+    titulo: "La Tierra entera, una vez",
     gancho: "Hizo falta que la nave estuviera entre el Sol y el planeta. Solo ha ocurrido en un vuelo tripulado.",
     categoria: "Fotografía",
     color: "var(--slate)",
     encargo: "El planeta completo sobre negro absoluto, con la Antártida iluminada abajo.",
+    fotos: [
+      {
+        archivo: "The Blue Marble, AS17-148-22727.jpg",
+        autor: "«La canica azul», fotografiada desde el Apolo 17 el 7 de diciembre de 1972. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:The_Blue_Marble,_AS17-148-22727.jpg",
+        foco: "50% 50%",
+        alt: "La Tierra completa sobre el negro del espacio, con África, Arabia y la Antártida iluminadas.",
+      },
+      {
+        archivo: "Earthrise from Apollo 11 (48329893437).jpg",
+        autor: "La Tierra asomando sobre el horizonte lunar, fotografiada desde el Apolo 11 en 1969. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Earthrise_from_Apollo_11_(48329893437).jpg",
+        foco: "50% 50%",
+        alt: "La Tierra pequeña y azul suspendida sobre la superficie gris de la Luna.",
+      },
+      {
+        archivo: "Apollo 10 earthrise.jpg",
+        autor: "Salida de la Tierra vista desde el Apolo 10, en mayo de 1969. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Apollo_10_earthrise.jpg",
+        foco: "50% 50%",
+        alt: "El planeta azul recortado sobre el negro, con el borde de la Luna abajo.",
+      },
+      {
+        archivo: "Earth, Moon and Lunar Module, AS11-44-6643.jpg",
+        autor: "La Tierra, la Luna y el módulo lunar en la misma imagen, Apolo 11. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Earth,_Moon_and_Lunar_Module,_AS11-44-6643.jpg",
+        foco: "50% 50%",
+        alt: "El módulo lunar en primer plano con la Luna debajo y la Tierra al fondo, sobre el negro del espacio.",
+      },
+    ],
     entrada:
-      "A bordo de la última misión tripulada a la Luna, diciembre de 1972. A unos cuarenta y cinco mil kilómetros de la Tierra, uno de los tres astronautas coge una cámara y dispara hacia atrás. En la imagen sale el planeta completo, redondo e iluminado de lado a lado, sin sombra. Es la fotografía que más veces se ha reproducido en la historia.",
+      "A bordo de la última misión tripulada a la Luna, en diciembre de 1972. A unos cuarenta y cinco mil kilómetros de casa, uno de los tres astronautas coge una cámara Hasselblad y dispara hacia atrás, casi sin pensarlo, entre dos tareas del plan de vuelo. En la imagen sale el planeta completo, redondo y encendido de lado a lado, sin un solo trozo en sombra, con África en el centro y la Antártida entera iluminada abajo. Es la fotografía que más veces se ha reproducido en toda la historia.",
     paginas: [
       {
         rotulo: "La casualidad",
