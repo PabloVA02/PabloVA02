@@ -119,7 +119,7 @@ export const ARCHIVOS: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglo XX. Dos guerras mundiales y unos cuantos regímenes destruyeron archivos enteros, unos por bombardeo y otros de forma perfectamente deliberada. Los papeles arden bien, ocupan mucho sitio, pesan y son dificilísimos de evacuar deprisa, así que suelen estar entre las primeras pérdidas de cualquier conflicto, muy por delante de los edificios. Y muchas veces no se pierden por accidente ni por descuido, sino porque a alguien con mando le conviene mucho que dejen de existir.",
+      "Europa, siglo XX. Dos guerras mundiales y unos cuantos regímenes destruyeron archivos enteros, unos por bombardeo y otros de forma perfectamente deliberada. Los papeles arden bien, ocupan mucho sitio, pesan una barbaridad y son dificilísimos de evacuar deprisa, de modo que suelen estar entre las primeras pérdidas de cualquier conflicto, muy por delante de los edificios que los guardan. Un archivo no se puede meter en un camión en una tarde. Y muchas veces no se pierde por accidente ni por descuido, sino porque a alguien con mando le conviene mucho que deje de existir antes de que llegue quien viene detrás a leerlo.",
     paginas: [
       {
         rotulo: "Quemar pruebas",

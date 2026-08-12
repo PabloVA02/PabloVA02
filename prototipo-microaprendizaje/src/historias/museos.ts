@@ -123,7 +123,7 @@ export const MUSEOS: Short[] = [
       },
     ],
     entrada:
-      "Londres, 1759. Abre sus puertas el primer museo nacional público del mundo, creado por una ley del Parlamento a partir de la colección de un médico que la dejó al Estado con la condición de que pagara veinte mil libras a sus herederos. El texto fundacional es claro y suena moderno: la entrada será gratuita para toda persona estudiosa y curiosa que quiera verlo. Conseguir esa entrada gratuita, sin embargo, resulta ser una cosa bien distinta de lo que parece.",
+      "Londres, 1759. Abre sus puertas el primer museo nacional público del mundo, creado por una ley del Parlamento a partir de la colección de un médico que la dejó al Estado con la condición de que pagara veinte mil libras a sus herederos. El texto fundacional es claro y suena sorprendentemente moderno: la entrada será gratuita para toda persona estudiosa y curiosa que quiera verlo, sin distinción de rango ni de oficio. Sobre el papel, cualquiera puede pasar. Conseguir en la práctica esa entrada gratuita, sin embargo, resulta ser una cosa bien distinta, y el procedimiento que hay que seguir para lograrla cuenta mejor que ninguna otra cosa a quién se estaba invitando de verdad.",
     paginas: [
       {
         rotulo: "La solicitud",

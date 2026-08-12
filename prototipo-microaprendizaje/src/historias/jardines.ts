@@ -121,7 +121,7 @@ export const JARDINES: Short[] = [
       },
     ],
     entrada:
-      "Londres, 1876. Un jardín botánico real recibe un cargamento singular: setenta mil semillas de un árbol amazónico del que sale, al sangrar su corteza, un líquido lechoso que endurece en una goma elástica y resistente. Brasil tiene el monopolio mundial de ese producto, vive de él y prohíbe terminantemente exportar las semillas. Un explorador británico las ha sacado igualmente río abajo, declarándolas en la aduana como material científico destinado a la reina, y nadie las mira dos veces.",
+      "Londres, 1876. Un jardín botánico real recibe un cargamento singular: setenta mil semillas de un árbol amazónico del que sale, al sangrar la corteza, un líquido lechoso que endurece en una goma elástica y resistente como no había ninguna otra. Brasil tiene el monopolio mundial de ese producto, vive de él y prohíbe terminantemente exportar las semillas del árbol. Un explorador británico las ha sacado igualmente río abajo en un barco fletado para la ocasión, declarándolas en la aduana como material científico destinado a la reina, y nadie las mira dos veces. Ese cargamento va a cambiar de continente una industria entera en treinta años.",
     paginas: [
       {
         rotulo: "El invernadero",

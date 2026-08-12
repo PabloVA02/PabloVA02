@@ -124,7 +124,7 @@ export const CEMENTERIOS: Short[] = [
       },
     ],
     entrada:
-      "París, 1804. Se inaugura en una colina de las afueras el primer cementerio ajardinado de Europa, con árboles, avenidas trazadas como calles y parcelas que se compran en propiedad, pensado no como un camposanto sino como un parque por el que pasear entre monumentos. La idea es buena y la ejecución también. El problema es que en el primer año entero se hacen trece enterramientos: está demasiado lejos del centro, en un barrio pobre, y nadie de París quiere acabar allí.",
+      "París, 1804. Se inaugura en una colina de las afueras el primer cementerio ajardinado de Europa, con árboles, avenidas trazadas como calles con su nombre y parcelas que se compran en propiedad para siempre, pensado no como un camposanto sino como un parque por el que pasear entre monumentos. La idea es buena y la ejecución también, y el sitio es bonito. El problema aparece enseguida: en el primer año entero se hacen trece enterramientos, y el recinto está prácticamente vacío. Queda demasiado lejos del centro, en un barrio pobre y con mala fama, y nadie de París quiere acabar allí ni llevar a los suyos.",
     paginas: [
       {
         rotulo: "El parque",

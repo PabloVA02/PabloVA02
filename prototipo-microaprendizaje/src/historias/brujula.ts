@@ -127,7 +127,7 @@ export const BRUJULA: Short[] = [
       },
     ],
     entrada:
-      "Ártico, 2019. Los organismos que mantienen el modelo magnético mundial —ese que usan por dentro los móviles, los barcos y los aviones para corregir lo que marca la brújula— publican una actualización de urgencia, fuera del calendario habitual de cinco años. No es un capricho burocrático: el polo norte magnético se está desplazando bastante más deprisa de lo previsto, las cartas empezaban a quedarse cortas y en algunos aeropuertos hubo que repintar el número de las pistas.",
+      "Ártico, 2019. Los organismos que mantienen el modelo magnético mundial, ese que usan por dentro los móviles, los barcos y los aviones para corregir lo que marca la brújula, publican una actualización de urgencia, fuera del calendario habitual de cada cinco años. No es un capricho burocrático ni una precaución de laboratorio: el polo norte magnético lleva décadas moviéndose y ha empezado a hacerlo bastante más deprisa de lo previsto, las cartas náuticas se estaban quedando cortas antes de tiempo y en algunos aeropuertos hubo que repintar el número de las pistas, porque ese número no es un nombre, sino un rumbo.",
     paginas: [
       {
         rotulo: "Dos nortes",

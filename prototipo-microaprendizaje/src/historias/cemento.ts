@@ -59,7 +59,7 @@ export const CEMENTO: Short[] = [
       },
     ],
     entrada:
-      "Bahía de Nápoles, siglo I. Los ingenieros romanos construyen puertos, malecones, depósitos y cúpulas enormes con una mezcla que tiene una propiedad rarísima: fragua debajo del agua y aguanta el oleaje sin desmoronarse, cosa que ningún mortero corriente sabe hacer. Veinte siglos después, muchas de esas estructuras siguen exactamente donde las dejaron, con el mar golpeándolas dos veces al día. Un muelle moderno de hormigón armado, en cambio, necesita reparaciones serias al cabo de unos cincuenta años, y a veces bastante antes.",
+      "Bahía de Nápoles, siglo I. Los ingenieros romanos construyen puertos, malecones, depósitos y cúpulas enormes con una mezcla que tiene una propiedad rarísima: fragua debajo del agua y aguanta el oleaje sin desmoronarse, cosa que ningún mortero corriente sabe hacer y que hoy sigue siendo el problema difícil de cualquier obra marítima. Veinte siglos después, muchas de aquellas estructuras siguen exactamente donde las dejaron, con el mar golpeándolas dos veces al día y sin nadie que las repare. Un muelle moderno de hormigón armado, en cambio, necesita reparaciones serias al cabo de unos cincuenta años, y a veces bastante antes de eso.",
     paginas: [
       {
         rotulo: "La ceniza",

@@ -128,7 +128,7 @@ export const AVIACION: Short[] = [
       },
     ],
     entrada:
-      "Casi todo el mundo lo ha visto alguna vez y muy poca gente sabe qué hace ahí: un agujero diminuto en la parte baja de la ventanilla del avión, siempre en el mismo sitio y en todos los aviones del mundo. No es un defecto de fabricación, ni una picadura de algo, ni el resultado del uso. Está puesto a propósito, tiene nombre técnico —orificio de respiración— y hace dos trabajos a la vez, uno de ellos bastante serio.",
+      "Casi todo el mundo lo ha visto alguna vez sin fijarse, y muy poca gente sabe qué hace ahí: un agujero diminuto en la parte baja de la ventanilla del avión, siempre en el mismo sitio, siempre del mismo tamaño y en todos los aviones de pasajeros del mundo. No es un defecto de fabricación, ni una picadura de una piedra, ni una marca que hayan dejado los años de vuelo. Está puesto a propósito, viene dibujado en los planos, tiene nombre técnico, orificio de respiración, y hace dos trabajos distintos a la vez. Uno de ellos es una comodidad; el otro es bastante serio.",
     paginas: [
       {
         rotulo: "Tres cristales",

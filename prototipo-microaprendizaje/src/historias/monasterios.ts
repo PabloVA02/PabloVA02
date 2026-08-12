@@ -126,7 +126,7 @@ export const MONASTERIOS: Short[] = [
       },
     ],
     entrada:
-      "Europa, siglos IX a XVIII. Una comunidad de cien personas encerrada en un recinto tiene que comer todos los días del año, guardar comida suficiente para pasar el invierno y mantener en pie un edificio enorme, y no puede depender de que el mercado más cercano tenga género. Esa necesidad, repetida durante siglos, convirtió a los monasterios en unidades de producción muy serias, con contabilidad, división del trabajo, especialización por casas y algunos productos que se siguen vendiendo hoy con el mismo nombre.",
+      "Europa, siglos IX a XVIII. Una comunidad de cien personas encerrada en un recinto tiene que comer todos los días del año, guardar comida suficiente para pasar el invierno entero, atender a los viajeros que llamen a la puerta y mantener en pie un edificio enorme, y no puede permitirse depender de que el mercado más cercano tenga género esa semana. Esa necesidad, repetida durante siglos y en cientos de casas a la vez, convirtió a los monasterios en unidades de producción muy serias, con contabilidad, división del trabajo, especialización por regiones y unos cuantos productos que se siguen vendiendo hoy con el mismo nombre y a veces con la misma receta.",
     paginas: [
       {
         rotulo: "Beber seguro",
