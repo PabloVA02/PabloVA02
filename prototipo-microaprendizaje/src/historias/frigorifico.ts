@@ -87,6 +87,40 @@ export const FRIGORIFICO: Short[] = [
     categoria: "Frigorífico",
     color: "var(--ochre)",
     encargo: "Un mapa polar en falso color con una mancha oscura centrada sobre el hielo.",
+    fotos: [
+      {
+        archivo: "ISS-52 Aurora australis above Antarctica.jpg",
+        autor: "Aurora austral sobre la Antártida, fotografiada desde la Estación Espacial Internacional. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AISS-52%20Aurora%20australis%20above%20Antarctica.jpg",
+        foco: "50% 50%",
+        alt: "Cinta verde de aurora ondulando sobre las nubes de la Antártida, con el cielo estrellado encima.",
+      },
+      {
+        archivo: "ISS-59 Sun's first rays peek above Earth's limb.jpg",
+        autor: "Los primeros rayos de sol asomando por el borde de la atmósfera, vistos desde la órbita. NASA.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AISS-59%20Sun's%20first%20rays%20peek%20above%20Earth's%20limb.jpg",
+        foco: "50% 50%",
+        alt: "Curva del planeta al amanecer, con la capa fina de atmósfera encendida en naranja y azul.",
+      },
+      {
+        archivo: "Amundsen-Scott marsstation ray h edit.jpg",
+        autor: "Estación Amundsen-Scott, en el polo sur, donde se hicieron las primeras medidas del agujero.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAmundsen-Scott%20marsstation%20ray%20h%20edit.jpg",
+        foco: "50% 50%",
+        alt: "Edificio de investigación elevado sobre pilotes en una llanura de hielo, bajo un cielo despejado.",
+      },
+      {
+        archivo: "Spray cans 2.jpg",
+        autor: "Botes de aerosol, de los que llevaban los gases que abrieron el agujero.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASpray%20cans%202.jpg",
+        foco: "50% 50%",
+        alt: "Varios botes de espray metálicos puestos de pie unos junto a otros.",
+      },
+    ],
     entrada:
       "Antártida, 1985. Tres investigadores británicos publican unas mediciones que llevaban años haciendo desde una base en el hielo: cada primavera austral, la capa de ozono sobre el continente pierde más de la mitad de su espesor. Los satélites tenían el mismo dato y lo habían descartado como error del aparato, por parecer demasiado grande para ser cierto.",
     paginas: [
