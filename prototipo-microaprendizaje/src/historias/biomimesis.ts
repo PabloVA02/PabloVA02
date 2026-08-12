@@ -183,7 +183,7 @@ export const BIOMIMESIS: Short[] = [
       },
     ],
     entrada:
-      "Alemania, años setenta del siglo XX. Dos botánicos se ponen a observar con microscopio electrónico las hojas de un montón de plantas distintas y encuentran enseguida una diferencia que llama mucho la atención. Las del loto, una planta que crece precisamente en aguas embarradas y turbias, aparecen siempre impecablemente limpias, mientras que otras hojas del mismo estanque retienen polvo, barro y restos. La explicación, y esto es lo bonito, no está en ninguna sustancia ni en ninguna cera especial, sino en la forma microscópica de la superficie.",
+      "Alemania, años setenta del siglo XX. Dos botánicos se ponen a observar con microscopio electrónico las hojas de un montón de plantas distintas y encuentran enseguida una diferencia que llama mucho la atención. Las del loto, una planta que crece precisamente en aguas embarradas y turbias, aparecen siempre impecablemente limpias, mientras que otras hojas del mismo estanque retienen polvo, barro y restos. La explicación, y esto es lo bonito, no está en ninguna sustancia ni en ninguna cera especial, sino en la pura forma microscópica de la superficie, en unas rugosidades diminutas que nadie había mirado con atención hasta entonces.",
     paginas: [
       {
         rotulo: "La rugosidad",
