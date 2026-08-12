@@ -88,6 +88,40 @@ export const BASURA: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Tres flechas dobladas formando un triángulo, impresas en cartón corrugado.",
+    fotos: [
+      {
+        archivo: "Recycling-bins-Zaragoza.jpg",
+        autor: "Contenedores de recogida selectiva en la calle de los Predicadores, en Zaragoza.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARecycling-bins-Zaragoza.jpg",
+        foco: "50% 58%",
+        alt: "Tres contenedores grandes de tapa verde, amarilla y azul alineados en la acera de una calle.",
+      },
+      {
+        archivo: "Möbius Band of paper.jpg",
+        autor: "Banda de Möbius hecha con una tira de papel: una superficie con una sola cara y un solo borde.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AM%C3%B6bius%20Band%20of%20paper.jpg",
+        foco: "50% 50%",
+        alt: "Tira de papel unida por los extremos con medio giro, formando un anillo retorcido.",
+      },
+      {
+        archivo: "Recycling-bins-Benidorm.jpg",
+        autor: "Contenedores de reciclaje en una calle de Benidorm, en 2023.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARecycling-bins-Benidorm.jpg",
+        foco: "50% 55%",
+        alt: "Fila de contenedores de colores en la acera, con las bocas de depósito y sus indicaciones.",
+      },
+      {
+        archivo: "Singapore Recycling-bins-01.jpg",
+        autor: "Contenedores de reciclaje en unos jardines de Singapur.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASingapore%20Recycling-bins-01.jpg",
+        foco: "50% 50%",
+        alt: "Tres papeleras de reciclaje azules colocadas juntas en un paseo ajardinado.",
+      },
+    ],
     entrada:
       "Estados Unidos, 1970. Una empresa papelera convoca un concurso de diseño entre estudiantes para encontrar un símbolo que identifique el papel reciclado. Se acaba de celebrar el primer día de la Tierra y la palabra reciclaje empieza a sonar en todas partes. Gana un estudiante de arquitectura de veintitrés años que dibuja tres flechas dobladas sobre sí mismas formando un triángulo sin principio ni final. Le pagan dos mil dólares de beca y ahí se acaba su relación con el asunto. Ese dibujo, hecho en unos pocos días para un concurso de empresa, está hoy impreso en más objetos que ningún otro símbolo del mundo, y nadie cobra un céntimo por él.",
     paginas: [
