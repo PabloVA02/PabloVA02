@@ -91,6 +91,40 @@ export const DINERO: Short[] = [
     categoria: "Dinero",
     color: "var(--slate)",
     encargo: "Discos de piedra rai apoyados contra los árboles en un sendero de Yap.",
+    fotos: [
+      {
+        archivo: "Ancient Yapese stone money - 8843919185.jpg",
+        autor: "Piedras rai alineadas en un <em>malal</em> del municipio de Rull, en las islas Yap.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAncient%20Yapese%20stone%20money%20-%208843919185.jpg",
+        foco: "50% 58%",
+        alt: "Discos de piedra agujereados por el centro, apoyados en fila a lo largo de un camino entre palmeras.",
+      },
+      {
+        archivo: "Yap stone money 1.jpg",
+        autor: "Piedra rai tumbada en el suelo, en las islas Yap.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AYap%20stone%20money%201.jpg",
+        foco: "50% 50%",
+        alt: "Disco grande de piedra caliza con un agujero en el centro, medio cubierto de musgo.",
+      },
+      {
+        archivo: "Community house of Yorlap (Yap Islands) with stone money made in Palau NOAA.jpg",
+        autor: "Casa comunal de Yorlap, en Yap, con las piedras traídas en canoa desde Palaos, en 1971.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACommunity%20house%20of%20Yorlap%20(Yap%20Islands)%20with%20stone%20money%20made%20in%20Palau%20NOAA.jpg",
+        foco: "50% 50%",
+        alt: "Casa de techo de palma con varias piedras rai apoyadas delante, en un claro de la isla.",
+      },
+      {
+        archivo: "Frankfurt, Geldmuseum, Rai stone.jpg",
+        autor: "Piedra rai de Yap expuesta en el Museo del Dinero de Fráncfort.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFrankfurt%2C%20Geldmuseum%2C%20Rai%20stone.jpg",
+        foco: "50% 50%",
+        alt: "Disco de piedra con agujero central montado sobre un soporte en la sala de un museo.",
+      },
+    ],
     entrada:
       "En la isla de Yap, en el Pacífico occidental, el dinero tradicional son discos de piedra caliza con un agujero en el centro. Los hay pequeños y los hay de tres metros y media docena de toneladas. Nadie los mueve para pagar: se quedan donde están, apoyados en un camino o delante de una casa, y lo único que cambia es de quién se dice que son.",
     paginas: [
