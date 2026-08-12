@@ -153,8 +153,42 @@ export const CAMPANAS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Rayo cayendo sobre la torre de una iglesia en una tormenta nocturna.",
+    fotos: [
+      {
+        archivo: "Port and lighthouse overnight storm with lightning in Port-la-Nouvelle.jpg",
+        autor: "Tormenta nocturna sobre el puerto de Port-la-Nouvelle, Francia, 2014.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APort%20and%20lighthouse%20overnight%20storm%20with%20lightning%20in%20Port-la-Nouvelle.jpg",
+        foco: "40% 45%",
+        alt: "Varios rayos cayendo a la vez sobre el mar junto a un faro, con el cielo morado de tormenta.",
+      },
+      {
+        archivo: "Fury of the sky.jpg",
+        autor: "Tormenta eléctrica, 2017.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFury%20of%20the%20sky.jpg",
+        foco: "50% 50%",
+        alt: "Rayo ramificado bajando de una nube oscura hasta el horizonte.",
+      },
+      {
+        archivo: "A Vintage Lightning Storm at Kitt Peak.jpg",
+        autor: "Tormenta sobre el observatorio de Kitt Peak, Arizona, 2021.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AA%20Vintage%20Lightning%20Storm%20at%20Kitt%20Peak.jpg",
+        foco: "50% 50%",
+        alt: "Rayos cayendo detrás de las cúpulas blancas de un observatorio en la montaña.",
+      },
+      {
+        archivo: "Lightning over ESO Headquarters.jpg",
+        autor: "Rayos sobre la sede del Observatorio Europeo Austral, Alemania, 2020.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALightning%20over%20ESO%20Headquarters.jpg",
+        foco: "50% 45%",
+        alt: "Rayo iluminando un cielo nocturno cargado de nubes sobre un edificio bajo.",
+      },
+    ],
     entrada:
-      "Europa, siglos XV a XVIII. Existía la costumbre extendida de tocar las campanas cuando se acercaba una tormenta, porque se creía que el ruido rompía las nubes y alejaba el granizo. Muchas campanas llevaban grabada una inscripción latina que decía justamente eso. El problema es que un campanario es la estructura más alta del pueblo y el campanero está agarrado a una cuerda mojada.",
+      "Europa, siglos XV a XVIII. Existía en casi todo el continente la costumbre de tocar las campanas en cuanto se acercaba una tormenta, porque se creía firmemente que el ruido rompía las nubes y alejaba el granizo de los campos sembrados. No era una superstición de andar por casa: muchas campanas llevaban grabada una inscripción latina que decía justamente eso, y el toque estaba previsto en los usos de la parroquia. El problema es que un campanario es la estructura más alta del pueblo y que el campanero está abajo, agarrado a una cuerda mojada.",
     paginas: [
       {
         rotulo: "Lo más alto",
