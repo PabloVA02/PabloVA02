@@ -153,8 +153,42 @@ export const MATRICULAS: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Placa de matrícula con un solo dígito expuesta en una vitrina de subasta.",
+    fotos: [
+      {
+        archivo: "Dubai skyline unsplash.jpg",
+        autor: "Dubái de noche desde el agua, 2016.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADubai%20skyline%20unsplash.jpg",
+        foco: "50% 45%",
+        alt: "Rascacielos iluminados de Dubái reflejados en el agua quieta al anochecer.",
+      },
+      {
+        archivo: "Dubai Marina Skyline 93.jpg",
+        autor: "La marina de Dubái, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADubai%20Marina%20Skyline%2093.jpg",
+        foco: "50% 50%",
+        alt: "Torres de viviendas alrededor del puerto deportivo de Dubái.",
+      },
+      {
+        archivo: "Hong Kong Harbour Night 2019-06-11.jpg",
+        autor: "El puerto de Hong Kong de noche, 2019.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AHong%20Kong%20Harbour%20Night%202019-06-11.jpg",
+        foco: "50% 45%",
+        alt: "Fachada de rascacielos encendidos frente al puerto de Hong Kong.",
+      },
+      {
+        archivo: "Vista del Puerto de Victoria desde Sky100, Hong Kong, 2013-08-09, DD 10.JPG",
+        autor: "El puerto de Victoria desde el mirador Sky100, Hong Kong, 2013.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AVista%20del%20Puerto%20de%20Victoria%20desde%20Sky100%2C%20Hong%20Kong%2C%202013-08-09%2C%20DD%2010.JPG",
+        foco: "50% 50%",
+        alt: "Vista aérea nocturna de Hong Kong con las luces de la ciudad y el puerto.",
+      },
+    ],
     entrada:
-      "Emiratos Árabes Unidos y Hong Kong, con subastas documentadas desde 2008. En unos cuantos países la matrícula no se asigna por orden, sino que se puede elegir y se subasta. Los números bajos y las combinaciones cortas se han convertido en objetos de lujo con precio de mercado. Una placa con un solo dígito se vendió en 2023 por más de quince millones de dólares.",
+      "Emiratos Árabes Unidos y Hong Kong, con subastas bien documentadas desde 2008 y algunas anteriores. En unos cuantos países la matrícula no se asigna por orden de registro, como aquí, sino que se puede elegir y, si la combinación gusta a mucha gente, se subasta en público. Los números bajos y las combinaciones cortas se han convertido así en objetos de lujo con un precio de mercado que sube todos los años. Una placa con un solo dígito se vendió en 2023 por más de quince millones de dólares, más que muchos edificios de la misma ciudad.",
     paginas: [
       {
         rotulo: "Por qué valen",
