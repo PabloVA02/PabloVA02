@@ -92,8 +92,42 @@ export const PLANTAS: Short[] = [
     categoria: "Plantas",
     color: "var(--ochre)",
     encargo: "Un racimo de plátanos verdes colgando en una plantación, hojas al fondo.",
+    fotos: [
+      {
+        archivo: "Banana bunch growing in a banana tree plantation on Tenerife, Spain (48225283136).jpg",
+        autor: "Racimo de plátanos verdes colgando en una plantación de Tenerife.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABanana%20bunch%20growing%20in%20a%20banana%20tree%20plantation%20on%20Tenerife%2C%20Spain%20(48225283136).jpg",
+        foco: "50% 50%",
+        alt: "Racimo grande de plátanos verdes colgando de la planta, con las hojas anchas abriéndose por encima.",
+      },
+      {
+        archivo: "Bananas on black background 02.jpg",
+        autor: "Plátanos maduros fotografiados sobre fondo negro.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABananas%20on%20black%20background%2002.jpg",
+        foco: "50% 50%",
+        alt: "Manojo de plátanos amarillos recortado sobre un fondo completamente negro.",
+      },
+      {
+        archivo: "A banana sprout in Western Kenya.jpg",
+        autor: "Brote de platanera en el oeste de Kenia: de un hijuelo así sale cada planta nueva, idéntica a la anterior.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AA%20banana%20sprout%20in%20Western%20Kenya.jpg",
+        foco: "50% 50%",
+        alt: "Brote joven de platanera saliendo del suelo junto a la planta madre, con las hojas todavía enrolladas.",
+      },
+      {
+        archivo: "DFC 4184 Bunches of ripe bananas neatly arranged at a bustling market stall ready for shoppers.jpg",
+        autor: "Puesto de mercado con los racimos de plátanos colocados tal y como crecieron.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADFC%204184%20Bunches%20of%20ripe%20bananas%20neatly%20arranged%20at%20a%20bustling%20market%20stall%20ready%20for%20shoppers.jpg",
+        foco: "50% 50%",
+        alt: "Mostrador de mercado cubierto de racimos de plátanos amarillos ordenados unos junto a otros.",
+      },
+    ],
     entrada:
-      "Un plátano de supermercado no tiene semillas, y sin semillas no hay reproducción sexual. Cada planta nueva sale de un brote de otra planta, así que todos los plátanos de una variedad son literalmente clones: el mismo individuo repetido millones de veces. Eso los hace cómodos, predecibles y uniformes. También los hace extraordinariamente frágiles.",
+      "Un plátano de supermercado no tiene semillas dentro, y sin semillas no hay reproducción sexual que valga. Cada planta nueva sale de un brote que echa la anterior por la base, de modo que todos los plátanos de una misma variedad son literalmente clones: el mismo individuo repetido millones de veces en cuatro continentes. Eso tiene ventajas evidentes para quien los vende, porque los hace cómodos, predecibles y del mismo tamaño y sabor en todas partes. Y tiene un inconveniente que no se ve hasta que aparece: los hace extraordinariamente frágiles, todos a la vez.",
     paginas: [
       {
         rotulo: "El antecesor",
