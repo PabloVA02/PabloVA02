@@ -87,6 +87,40 @@ export const TARJETAS_DE_CREDITO: Short[] = [
     color: "var(--slate)",
     curioso: true,
     encargo: "Una plancha metalica de calcar tarjetas con el rodillo a medio pasar.",
+    fotos: [
+      {
+        archivo: "Wooden National Cash Register.jpg",
+        autor: "Caja registradora National de madera, de hacia 1910, conservada en el museo de Shoshone, California.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AWooden%20National%20Cash%20Register.jpg",
+        foco: "50% 55%",
+        alt: "Caja registradora antigua de roble con dos filas de teclas redondas marcadas con precios.",
+      },
+      {
+        archivo: "Old cash register in Serbia.jpg",
+        autor: "Registradora antigua todavía en uso en un comercio de Serbia.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AOld%20cash%20register%20in%20Serbia.jpg",
+        foco: "50% 50%",
+        alt: "Máquina registradora metálica con teclado numérico y cajón, sobre un mostrador de tienda.",
+      },
+      {
+        archivo: "Antique cash register in a cafe, Darjeeling.jpg",
+        autor: "Registradora antigua en la barra de un café de Darjeeling, en la India.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAntique%20cash%20register%20in%20a%20cafe%2C%20Darjeeling.jpg",
+        foco: "50% 50%",
+        alt: "Registradora de metal cromado y esmalte oscuro sobre el mostrador de un café.",
+      },
+      {
+        archivo: "Meat counter in the grocery department of company owned store. Koppers Coal Division, Kopperston Mines, Kopperston... - NARA - 540928.jpg",
+        autor: "Mostrador de una tienda de comestibles estadounidense en los años cuarenta.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMeat%20counter%20in%20the%20grocery%20department%20of%20company%20owned%20store.%20Koppers%20Coal%20Division%2C%20Kopperston%20Mines%2C%20Kopperston...%20-%20NARA%20-%20540928.jpg",
+        foco: "50% 50%",
+        alt: "Dependientes detrás de un mostrador de tienda, con la báscula y la registradora sobre la barra.",
+      },
+    ],
     entrada:
       "Comercios de todo el mundo, entre los años sesenta y los noventa del siglo XX. Una tarjeta de crédito de entonces tiene los números y el nombre abultados hacia fuera, en relieve, y ese relieve no es un adorno ni una manera de que se vea cara. Está ahí porque en la tienda no hay ninguna conexión con el banco: no hay línea de teléfono para consultar, ni ordenador, ni nada parecido. El pago tiene que quedar registrado en papel, y el aparato que lo hace se llama plancha y funciona exactamente como un sello.",
     paginas: [
