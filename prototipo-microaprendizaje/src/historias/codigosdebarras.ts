@@ -85,8 +85,46 @@ export const CODIGOS_DE_BARRAS: Short[] = [
     categoria: "Códigos de barras",
     color: "var(--ochre)",
     encargo: "Una caja de supermercado con el lector rojo encendido sobre el mostrador.",
+    fotos: [
+      {
+        archivo: "US Navy 020813-N-3235P-532 A Navy family unloads their shopping cart while purchasing groceries at the Navy Commissary located just outside Naval Air Station Oceana.jpg",
+        autor: "Una caja de supermercado con el lector y la pantalla que canta el producto y su precio, en 2002. Armada de Estados Unidos.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:US_Navy_020813-N-3235P-532_A_Navy_family_unloads_their_shopping_cart_while_purchasing_groceries_at_the_Navy_Commissary_located_just_outside_Naval_Air_Station_Oceana.jpg",
+        foco: "55% 45%",
+        alt: "Cajero pasando la compra por el lector de una caja de supermercado, con la pantalla encendida al lado.",
+      },
+      {
+        archivo: "SPAR kolonial mat varehandel hyller (Supermarket interior GROCERY store aisle shelves) Frokostblandinger gryn müsli Axa frukt energi 4-korn blåbær (cereals muesli) etc Tjøme NORWAY 2023-08-31 IMG 1095.jpg",
+        autor: "Estantes de un supermercado noruego, con las etiquetas de precio en el canto de la balda.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:SPAR_kolonial_mat_varehandel_hyller_(Supermarket_interior_GROCERY_store_aisle_shelves)_Frokostblandinger_gryn_m%C3%BCsli_Axa_frukt_energi_4-korn_bl%C3%A5b%C3%A6r_(cereals_muesli)_etc_Tj%C3%B8me_NORWAY_2023-08-31_IMG_1095.jpg",
+        foco: "50% 50%",
+        alt: "Baldas de supermercado llenas de paquetes, con etiquetas de precio pequeñas en el borde de cada estante.",
+      },
+      {
+        archivo: "Mackerel in tomato sauce, etc., product aisle-shop shelves in Meny Supermarket, Bergen Storsenter Shopping Mall, Bergen, Norway, 2017-10-23.jpg",
+        autor: "Otro pasillo de supermercado, con el producto ordenado por códigos que no se ven.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Mackerel_in_tomato_sauce,_etc.,_product_aisle-shop_shelves_in_Meny_Supermarket,_Bergen_Storsenter_Shopping_Mall,_Bergen,_Norway,_2017-10-23.jpg",
+        foco: "50% 50%",
+        alt: "Estanterías de conservas alineadas en un supermercado, vistas de frente.",
+      },
+      {
+        archivo: "Dishbrushes (Jordan oppvaskbørster), Coop Extra supermarket, shop shelves, Bergen, Norway 2017-10-25.jpg",
+        autor: "Cepillos colgados en el expositor de una tienda, cada uno con su etiqueta.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Dishbrushes_(Jordan_oppvaskb%C3%B8rster),_Coop_Extra_supermarket,_shop_shelves,_Bergen,_Norway_2017-10-25.jpg",
+        foco: "50% 50%",
+        alt: "Cepillos de fregar colgados en fila de un expositor metálico de supermercado.",
+      },
+    ],
     entrada:
-      "Cualquier supermercado desde que el sistema se generalizó a finales de los años setenta. Casi todo el mundo cree que las rayas contienen el precio, y no es así. Lo que llevan es un número de trece cifras que identifica al fabricante y al producto concreto, y nada más que eso. El precio vive en la base de datos de cada tienda, asociado a ese número.",
+      "Cualquier supermercado del mundo desde que el sistema se generalizó, a finales de los años setenta. Casi todo el mundo da por hecho que esas rayas negras contienen el precio del producto, y no es así en absoluto. Lo único que llevan es un número de trece cifras que identifica al fabricante y al artículo concreto, y nada más: ni precio, ni fecha, ni peso. El precio vive en la base de datos de cada tienda, asociado a ese número, y por eso el mismo código cuesta una cosa aquí y otra a diez calles.",
     paginas: [
       {
         rotulo: "Qué dicen",
