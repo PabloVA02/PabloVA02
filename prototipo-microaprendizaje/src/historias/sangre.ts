@@ -121,7 +121,7 @@ export const SANGRE: Short[] = [
       },
     ],
     entrada:
-      "Barcelona, agosto de 1936. Un médico de poco más de treinta años propone al gobierno catalán algo que no existe en ninguna parte del mundo: un servicio que recoja sangre de donantes civiles en la ciudad, la analice, la conserve y la lleve hasta los hospitales de campaña del frente, a cientos de kilómetros. Se lo aprueban en unos pocos días, sin discutirlo demasiado, y el servicio empieza a funcionar de inmediato con material improvisado y neveras de camión.",
+      "Barcelona, agosto de 1936. Un médico de poco más de treinta años propone al gobierno catalán algo que no existe en ninguna parte del mundo: un servicio permanente y organizado que recoja sangre de donantes civiles en la ciudad, la analice, la clasifique por grupos, la conserve en frío durante días y la lleve después hasta los hospitales de campaña del frente, a cientos de kilómetros de allí. Se lo aprueban en unos pocos días, sin discutirlo demasiado, y el servicio empieza a funcionar de inmediato con material improvisado y neveras de camión.",
     paginas: [
       {
         rotulo: "El procedimiento",
