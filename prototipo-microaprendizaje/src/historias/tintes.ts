@@ -78,13 +78,47 @@ export const TINTES: Short[] = [
   },
   {
     id: "el-color-que-invento-un-estudiante",
-    titulo: "El primer tinte artificial salió de un error",
+    titulo: "El malva salió de un error",
     gancho: "Un estudiante de dieciocho años buscaba un medicamento contra la malaria y le salió una mancha violeta.",
     categoria: "Tintes",
     color: "var(--ochre)",
     encargo: "Un matraz con un líquido violeta intenso sobre un banco de laboratorio antiguo.",
+    fotos: [
+      {
+        archivo: "Purple lavender field (Unsplash).jpg",
+        autor: "Campo de lavanda en flor. Fotografía de Francis Cheung.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Purple_lavender_field_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Campo entero de lavanda en flor, con las hileras moradas perdiéndose hacia el horizonte.",
+      },
+      {
+        archivo: "Violet pollen (Unsplash).jpg",
+        autor: "Flor violeta vista muy de cerca. Fotografía de Jan Tielens.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Violet_pollen_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Primer plano de una flor morada con los estambres cubiertos de polen amarillo.",
+      },
+      {
+        archivo: "Crocus ligusticus Mariotti - 52500869122.png",
+        autor: "Crocus ligusticus en flor, en Liguria.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Crocus_ligusticus_Mariotti_-_52500869122.png",
+        foco: "50% 50%",
+        alt: "Flores de azafrán silvestre de color violeta claro abiertas entre la hierba.",
+      },
+      {
+        archivo: "Violet daisy in close-up (Unsplash).jpg",
+        autor: "Margarita violeta en primer plano. Fotografía de Boris Smokrovic.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Violet_daisy_in_close-up_(Unsplash).jpg",
+        foco: "50% 50%",
+        alt: "Flor morada de pétalos finos abierta del todo, con el centro amarillo enfocado.",
+      },
+    ],
     entrada:
-      "Londres, 1856. Un estudiante de química de dieciocho años intenta fabricar quinina, el único remedio conocido contra la malaria. Se sacaba de la corteza de un árbol sudamericano y hacía falta a toneladas para las colonias europeas. Trabaja con derivados del alquitrán de hulla, un residuo negro y pegajoso de las fábricas de gas, y lo que obtiene no se parece nada a lo que buscaba.",
+      "Londres, 1856. Un estudiante de química de dieciocho años intenta fabricar quinina en el laboratorio de su casa durante las vacaciones de Pascua. Es el único remedio conocido contra la malaria, se saca de la corteza de un árbol sudamericano y hace falta a toneladas para las colonias europeas, así que quien consiga sintetizarla se hará rico. Trabaja con derivados del alquitrán de hulla, un residuo negro y pegajoso que sobra en las fábricas de gas. Lo que obtiene no se parece en nada a lo que buscaba: un barro oscuro que parece un fracaso más.",
     paginas: [
       {
         rotulo: "La mancha",

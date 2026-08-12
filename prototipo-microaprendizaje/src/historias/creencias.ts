@@ -91,8 +91,47 @@ export const CREENCIAS: Short[] = [
     color: "var(--plum)",
     curioso: true,
     encargo: "Tres figuras a caballo recortadas contra un cielo estrellado, estilo mosaico antiguo.",
+    fotos: [
+      {
+        archivo: "Three Magi mosaic - Sant'Apollinare Nuovo - Ravenna 2016.jpg",
+        autor: "Mosaico de los Magos con sus nombres escritos encima, siglo VI. Basílica de San Apolinar Nuevo, Rávena.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Three_Magi_mosaic_-_Sant%27Apollinare_Nuovo_-_Ravenna_2016.jpg",
+        foco: "50% 45%",
+        alt: "Mosaico dorado con tres figuras vestidas de colores avanzando con regalos en las manos, y sus nombres escritos arriba.",
+      },
+      {
+        archivo: "Los Reyes Magos en un mosaico bizantino de Ravenna (Italia).jpg",
+        autor: "El mismo mosaico bizantino de Rávena, visto de frente. Fotografía de Manuel Ramírez Sánchez.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Los_Reyes_Magos_en_un_mosaico_bizantino_de_Ravenna_(Italia).jpg",
+        foco: "50% 50%",
+        alt: "Detalle de un mosaico bizantino con figuras de perfil sobre fondo de teselas doradas.",
+      },
+      {
+        archivo: "Edward Burne-Jones - The Adoration of the Magi - Google Art Project.jpg",
+        autor: "«La adoración de los Magos», tapiz diseñado por Edward Burne-Jones, 1904.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Edward_Burne-Jones_-_The_Adoration_of_the_Magi_-_Google_Art_Project.jpg",
+        pdPorEdad: 1898,
+        foco: "50% 50%",
+        alt: "Tapiz de colores apagados con tres figuras coronadas arrodilladas ante una mujer con un niño.",
+      },
+      {
+        archivo: "Gaspar - Three Magi mosaic - Sant'Apollinare Nuovo - Ravenna 2016.jpg",
+        autor: "Detalle de uno de los Magos en el mosaico de Rávena. Fotografía de José Luiz.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Gaspar_-_Three_Magi_mosaic_-_Sant%27Apollinare_Nuovo_-_Ravenna_2016.jpg",
+        foco: "50% 40%",
+        alt: "Figura de mosaico con gorro frigio rojo y capa bordada, llevando una copa entre las manos.",
+      },
+    ],
     entrada:
-      "Todos los 6 de enero, media España se levanta con regalos que han traído tres reyes venidos de Oriente, con nombre y con camello. La historia está en un solo pasaje del Nuevo Testamento, doce versículos del Evangelio de Mateo, escrito en griego a finales del siglo I. En esos doce versículos no aparece ninguno de esos tres datos: ni el número, ni los nombres, ni la corona.",
+      "Todos los 6 de enero, media España se levanta con regalos que han traído tres reyes venidos de Oriente, cada uno con su nombre, su camello y su corona. La historia entera está en un solo pasaje del Nuevo Testamento: doce versículos del Evangelio de Mateo, escritos en griego a finales del siglo I. Se leen en un minuto largo. Y en esos doce versículos no aparece ninguno de los tres datos que todo el mundo daría por seguros: ni el número, ni los nombres, ni la corona. Todo eso se fue añadiendo después, y se sabe bastante bien cuándo.",
     paginas: [
       {
         rotulo: "Qué dice el texto",

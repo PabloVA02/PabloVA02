@@ -86,13 +86,50 @@ export const ESCLAVITUD: Short[] = [
 
   {
     id: "zong-seguro",
-    titulo: "Reclamaron al seguro por los ahogados",
+    titulo: "El seguro de los ahogados",
     gancho: "El capitán echó al agua a ciento treinta y dos cautivos y sus dueños pidieron cobrar la póliza.",
     categoria: "Esclavitud",
     color: "var(--slate)",
     encargo: "Un mar oscuro y agitado bajo un cielo cargado, sin nada más.",
+    fotos: [
+      {
+        archivo: "Een schip in volle zee bij vliegende storm, bekend als ‘De windstoot’ Rijksmuseum SK-A-1848.jpeg",
+        autor: "«La ráfaga», óleo de Willem van de Velde el Joven, hacia 1680. Rijksmuseum, Ámsterdam.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Een_schip_in_volle_zee_bij_vliegende_storm,_bekend_als_%E2%80%98De_windstoot%E2%80%99_Rijksmuseum_SK-A-1848.jpeg",
+        pdPorEdad: 1707,
+        foco: "50% 60%",
+        alt: "Pintura de un velero escorado por el viento entre olas grandes, bajo un cielo de tormenta.",
+      },
+      {
+        archivo: "Lloyd's Building - Adam Room chandelier.jpg",
+        autor: "La Adam Room del edificio del Lloyd's de Londres, un comedor del siglo XVIII trasladado pieza a pieza. Fotografía de Colin.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lloyd%27s_Building_-_Adam_Room_chandelier.jpg",
+        foco: "50% 50%",
+        alt: "Sala de reuniones de estilo dieciochesco con molduras claras y una lámpara de araña de cristal.",
+      },
+      {
+        archivo: "Schepen in de storm Rijksmuseum SK-C-448.jpeg",
+        autor: "«Barcos en la tormenta», óleo anónimo holandés de la primera mitad del siglo XVII. Rijksmuseum, Ámsterdam.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Schepen_in_de_storm_Rijksmuseum_SK-C-448.jpeg",
+        pdPorEdad: 1652,
+        foco: "50% 50%",
+        alt: "Pintura apaisada de varios barcos de vela repartidos en un mar picado bajo nubes bajas.",
+      },
+      {
+        archivo: "Lloyd's Building - Exterior Staircase.jpg",
+        autor: "Escalera exterior del edificio del Lloyd's de Londres, el mercado de seguros marítimos. Fotografía de Colin.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Lloyd%27s_Building_-_Exterior_Staircase.jpg",
+        foco: "50% 50%",
+        alt: "Escalera de acero y cristal adosada por fuera a un edificio moderno de tubos metálicos.",
+      },
+    ],
     entrada:
-      "Atlántico, noviembre de 1781. Un barco negrero británico se ha desviado de su rumbo camino de Jamaica, lleva navegando mucho más tiempo del previsto y empieza a escasear el agua potable. Van a bordo cuatrocientas cuarenta personas esclavizadas, más del doble de las que caben. La tripulación toma una decisión y la anota en el diario de a bordo.",
+      "Atlántico, noviembre de 1781. Un barco negrero británico se ha desviado de su rumbo camino de Jamaica, lleva navegando mucho más tiempo del previsto y empieza a escasear el agua potable. Van a bordo cuatrocientas cuarenta personas esclavizadas, más del doble de las que el barco puede llevar, y una tripulación de diecisiete hombres. La tripulación toma entonces una decisión, la ejecuta durante tres días seguidos y la anota con toda naturalidad en el diario de a bordo, porque no la considera un crimen sino una operación contable.",
     paginas: [
       {
         rotulo: "El cálculo",

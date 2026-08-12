@@ -83,13 +83,48 @@ export const BANDERAS: Short[] = [
 
   {
     id: "codigo-de-banderas",
-    titulo: "Cada bandera dice una frase",
+    titulo: "Cada bandera es una frase",
     gancho: "Una sola tela izada significa que hay un buzo abajo, o que el barco lleva carga peligrosa.",
     categoria: "Banderas",
     color: "var(--slate)",
     encargo: "Una driza con varias banderas de señales de colores planos izadas en fila.",
+    fotos: [
+      {
+        archivo: "230515-N-NQ285-1422 - USS Porter Participates in Formidable Shield 2023.jpg",
+        autor: "Banderas de señales izadas en la driza de un destructor en el Atlántico Norte, 2023. Armada de Estados Unidos.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:230515-N-NQ285-1422_-_USS_Porter_Participates_in_Formidable_Shield_2023.jpg",
+        foco: "50% 45%",
+        alt: "Cuatro banderas de señales de colores planos colgadas de un cable, recortadas contra un cielo blanco.",
+      },
+      {
+        archivo: "Nautical Signal Flags.JPG",
+        autor: "Banderas de señales listas para usar a bordo del buque SS Jeremiah O'Brien.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Nautical_Signal_Flags.JPG",
+        foco: "50% 50%",
+        alt: "Banderas de señales dobladas y colocadas en casilleros de madera, cada una en su hueco.",
+      },
+      {
+        archivo: "Yokohama 20250516 085413.jpg",
+        autor: "Un barco entrando en el puerto de Yokohama con las banderas que anuncian su destino dentro del puerto.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Yokohama_20250516_085413.jpg",
+        foco: "50% 50%",
+        alt: "Banderas de señales izadas en el mástil de un buque, con el puerto al fondo.",
+      },
+      {
+        archivo: "Signal flags on a warship of ROCN 20201218.jpg",
+        autor: "Banderas de señales izadas en un buque de guerra durante una ceremonia, 2020.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Signal_flags_on_a_warship_of_ROCN_20201218.jpg",
+        foco: "50% 50%",
+        alt: "Hilera de banderas de señales de colores tendida entre los mástiles de un barco.",
+      },
+    ],
     entrada:
-      "Mares del mundo, 1857. Se publica un código internacional de señales para que barcos de países distintos puedan entenderse sin compartir ningún idioma. Se basa en un juego de banderas de colores muy contrastados, cada una asociada a una letra y también a un mensaje completo por sí sola. Sigue vigente hoy, actualizado varias veces.",
+      "Mares del mundo, 1857. Se publica un código internacional de señales para que barcos de países distintos puedan entenderse sin compartir ningún idioma y sin oírse a gritos por encima del viento. Se basa en un juego de banderas de colores muy contrastados, cada una asociada a una letra del alfabeto y también, ella sola, a un mensaje completo que puede ser urgente. Sigue vigente hoy, actualizado varias veces, y cualquier marino del mundo lo entiende a un kilómetro de distancia sin necesidad de radio.",
     paginas: [
       {
         rotulo: "Los colores",

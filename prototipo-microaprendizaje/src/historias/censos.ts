@@ -79,13 +79,49 @@ export const CENSOS: Short[] = [
   },
   {
     id: "tarjetas-perforadas",
-    titulo: "Un censo contado con agujeros",
+    titulo: "Un censo con agujeros",
     gancho: "El anterior había tardado ocho años en sumarse. Con máquinas, el nuevo estuvo en seis semanas.",
     categoria: "Censos",
     color: "var(--slate)",
     encargo: "Una tarjeta de cartón con agujeros ordenados en filas y columnas.",
+    fotos: [
+      {
+        archivo: "C.1900 Hollerith Census Tabulator (2585332983).jpg",
+        autor: "Tabuladora de Hollerith de hacia 1900, con la prensa lectora de tarjetas y el muro de contadores. Fotografía de Erik Pitti.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:C.1900_Hollerith_Census_Tabulator_(2585332983).jpg",
+        foco: "55% 35%",
+        alt: "Máquina de madera con decenas de esferas amarillas de aguja y una prensa metálica con agujas en primer plano.",
+      },
+      {
+        archivo:
+          "Close up of the Hollerith machine in operation (Reeve 014276), National Museum of Health and Medicine (3547327090).jpg",
+        autor: "La máquina de Hollerith en funcionamiento. Museo Nacional de Salud y Medicina, Estados Unidos.",
+        licencia: "CC BY 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Close_up_of_the_Hollerith_machine_in_operation_(Reeve_014276),_National_Museum_of_Health_and_Medicine_(3547327090).jpg",
+        foco: "50% 50%",
+        alt: "Fotografía antigua de unas manos colocando una tarjeta perforada en la prensa de una máquina tabuladora.",
+      },
+      {
+        archivo: "Card puncher - NARA - 513295.jpg",
+        autor: "Perforadora de tarjetas del sistema de tabulación de la oficina del censo, hacia 1940. Archivos Nacionales de Estados Unidos.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Card_puncher_-_NARA_-_513295.jpg",
+        foco: "50% 50%",
+        alt: "Máquina perforadora de tarjetas con teclado, fotografiada en blanco y negro.",
+      },
+      {
+        archivo: "IBM D11 (early Tabulation Machine).jpg",
+        autor: "Tabuladora temprana de IBM, heredera directa de aquellas máquinas. Museo Alemán de Múnich.",
+        licencia: "CC BY-SA 2.5",
+        fuente: "https://commons.wikimedia.org/wiki/File:IBM_D11_(early_Tabulation_Machine).jpg",
+        foco: "50% 50%",
+        alt: "Máquina tabuladora antigua de metal gris con rodillos y contadores, expuesta en un museo.",
+      },
+    ],
     entrada:
-      "Estados Unidos, 1890. El país crece tan deprisa que el censo anterior, el de 1880, tardó ocho años en terminar de sumarse a mano, de modo que los resultados llegaron cuando ya estaban obsoletos. La oficina responsable convoca un concurso para encontrar un método más rápido, y lo gana un ingeniero joven que ha trabajado en el censo anterior y ha visto el problema por dentro.",
+      "Estados Unidos, 1890. El país crece tan deprisa que el censo anterior, el de 1880, tardó ocho años en terminar de sumarse a mano, de modo que los resultados llegaron cuando ya estaban obsoletos y no servían para repartir escaños ni presupuestos. La constitución obliga a contar a todo el mundo cada diez años, y las cuentas ya no caben en diez años de trabajo. La oficina responsable convoca un concurso para encontrar un método más rápido, y lo gana un ingeniero joven que trabajó en el censo anterior y vio el problema por dentro.",
     paginas: [
       {
         rotulo: "El agujero",

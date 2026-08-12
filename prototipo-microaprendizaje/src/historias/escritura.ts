@@ -85,13 +85,47 @@ export const ESCRITURA: Short[] = [
 
   {
     id: "piedra-rosetta",
-    titulo: "Una piedra rota devolvió Egipto",
+    titulo: "La piedra de Rosetta",
     gancho: "Los jeroglíficos llevaban mil cuatrocientos años sin poder leerse. La clave apareció en una zanja.",
     categoria: "Escritura",
     color: "var(--ochre)",
     encargo: "Una losa de piedra oscura cubierta de tres bandas de escritura distinta.",
+    fotos: [
+      {
+        archivo: "PHILAE TEMPLE COLUMNS.jpg",
+        autor: "Capiteles del templo de File, en Asuán, Egipto. Fotografía de Hesham Farouk Ragab.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:PHILAE_TEMPLE_COLUMNS.jpg",
+        foco: "50% 50%",
+        alt: "Capiteles egipcios tallados con formas de palmera, vistos desde abajo contra un cielo azul intenso.",
+      },
+      {
+        archivo: "Rosetta Stone - British Museum (2931856207).jpg",
+        autor: "La piedra de Rosetta en el Museo Británico de Londres. Fotografía de Cristian Bortes.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rosetta_Stone_-_British_Museum_(2931856207).jpg",
+        foco: "50% 50%",
+        alt: "Losa de piedra oscura rota por arriba, cubierta de tres franjas de escritura tallada.",
+      },
+      {
+        archivo: "PHILAE TEMPLE.jpg",
+        autor: "El templo de File, de donde salió el obelisco que ayudó a leer los primeros nombres. Fotografía de Hesham Farouk Ragab.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:PHILAE_TEMPLE.jpg",
+        foco: "50% 50%",
+        alt: "Templo egipcio de piedra dorada junto al agua, con pilonos y columnas al sol.",
+      },
+      {
+        archivo: "PHILAE TEMPLE WALS.jpg",
+        autor: "Relieves y jeroglíficos tallados en los muros del templo de File.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:PHILAE_TEMPLE_WALS.jpg",
+        foco: "50% 50%",
+        alt: "Muro de piedra cubierto de figuras y jeroglíficos tallados en relieve.",
+      },
+    ],
     entrada:
-      "Egipto, julio de 1799. Unos soldados franceses que reparan las defensas de un fuerte cerca del delta del Nilo desentierran una losa de granito negro de poco más de un metro, rota por arriba, con tres bandas de escritura distinta talladas una debajo de otra. Un oficial se da cuenta de que puede ser importante y ordena que no se toque.",
+      "Egipto, julio de 1799. Unos soldados franceses que reparan las defensas de un fuerte cerca del delta del Nilo desentierran una losa de granito oscuro de poco más de un metro, rota por arriba, con tres bandas de escritura distinta talladas una debajo de otra. Un oficial que va con ellos se da cuenta de que aquello puede ser importante y ordena que no se toque. Nadie sabe todavía que acaban de encontrar la llave de una lengua que llevaba mil cuatrocientos años sin que nadie pudiera leerla.",
     paginas: [
       {
         rotulo: "Los tres textos",

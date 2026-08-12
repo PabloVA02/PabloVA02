@@ -84,14 +84,49 @@ export const TELEFONO: Short[] = [
 
   {
     id: "central-automatica",
-    titulo: "La centralita automática la inventó un enterrador",
+    titulo: "Marcar sin telefonista",
     gancho: "Sospechaba que la telefonista mandaba sus encargos a la funeraria de la competencia.",
     categoria: "Teléfono",
     color: "var(--slate)",
     curioso: true,
     encargo: "Un cuadro de conexiones antiguo lleno de clavijas y cables enredados.",
+    fotos: [
+      {
+        archivo: "British-made Antique Rotary Telephone.jpg",
+        autor: "Teléfono de columna de latón con disco de marcar, fabricado en Inglaterra.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:British-made_Antique_Rotary_Telephone.jpg",
+        foco: "50% 55%",
+        alt: "Teléfono antiguo de latón con el auricular en lo alto y un disco de marcar en la base.",
+      },
+      {
+        archivo: "Black Diamond Historical Museum - telephone switchboard 01.jpg",
+        autor: "Cuadro de conexiones manual conservado en el museo de Black Diamond, Washington. Fotografía de Joe Mabel.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Black_Diamond_Historical_Museum_-_telephone_switchboard_01.jpg",
+        foco: "50% 50%",
+        alt: "Cuadro de conexiones de madera lleno de clavijas, cables y pequeños interruptores.",
+      },
+      {
+        archivo: "Orion & Oriola switchboard Elisa Telephone Museum.jpg",
+        autor: "Centralita manual expuesta en el museo del teléfono de Elisa, en Finlandia. Fotografía de Antti Leppänen.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Orion_%26_Oriola_switchboard_Elisa_Telephone_Museum.jpg",
+        foco: "50% 50%",
+        alt: "Panel de centralita con filas de clavijas numeradas y cables colgando por delante.",
+      },
+      {
+        archivo: "Mandeville Telephone parts.JPG",
+        autor: "Piezas de teléfonos viejos amontonadas en una tienda de antigüedades de Luisiana.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Mandeville_Telephone_parts.JPG",
+        foco: "50% 50%",
+        alt: "Auriculares, discos de marcar y carcasas de teléfonos antiguos amontonados en un estante.",
+      },
+    ],
     entrada:
-      "Kansas, en el centro de Estados Unidos, 1888. Para llamar por teléfono hay que pedirle el número a una operadora, que conecta los cables a mano en un cuadro. Un hombre que regenta una funeraria empieza a notar que pierde clientes de forma sistemática y sospecha de la telefonista del pueblo, que está casada con su competidor directo.",
+      "Kansas, en el centro de Estados Unidos, 1888. Para llamar por teléfono hay que pedirle el número a una operadora, que enchufa los cables a mano en un cuadro y escucha, si quiere, todo lo que se dice. Un hombre que regenta una funeraria empieza a notar que pierde clientes de forma sistemática, siempre de la misma manera: llaman preguntando por él y acaban en la funeraria de al lado. Sospecha de la telefonista del pueblo, que está casada con su competidor directo, y en vez de discutir con ella se pone a diseñar una máquina.",
     paginas: [
       {
         rotulo: "La sospecha",

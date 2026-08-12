@@ -79,13 +79,49 @@ export const PAPEL: Short[] = [
   },
   {
     id: "el-papel-que-se-deshace",
-    titulo: "Los libros se están deshaciendo",
+    titulo: "Los libros se deshacen",
     gancho: "Millones de volúmenes se vuelven quebradizos y se rompen al pasar la página. La culpa es de un ácido.",
     categoria: "Papel",
     color: "var(--slate)",
     encargo: "Un libro antiguo abierto con los bordes de las hojas rotos y amarillentos.",
+    fotos: [
+      {
+        archivo: "Pages of an old book fluttering in the breeze near a sunlit window during the afternoon.jpg",
+        autor: "Las páginas de un libro viejo moviéndose con el aire junto a una ventana. Fotografía de Shixart1985.",
+        licencia: "CC BY 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Pages_of_an_old_book_fluttering_in_the_breeze_near_a_sunlit_window_during_the_afternoon.jpg",
+        foco: "50% 50%",
+        alt: "Libro abierto con las hojas levantadas por el viento, iluminado por la luz de una ventana.",
+      },
+      {
+        archivo: "Old books - old textures.jpg",
+        autor: "Libros antiguos con los lomos gastados. Fotografía de Tom Woodward.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Old_books_-_old_textures.jpg",
+        foco: "50% 50%",
+        alt: "Montón de libros viejos apilados, con las tapas de tela descolorida y los cantos amarillentos.",
+      },
+      {
+        archivo: "Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg",
+        autor: "La Long Room de la biblioteca del Trinity College de Dublín. Fotografía de David Iliff.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg",
+        foco: "50% 55%",
+        alt: "Larga galería de biblioteca con bóveda de madera, estanterías altas repletas de libros y bustos de mármol.",
+      },
+      {
+        archivo: "Condado de Dublín - Long Room-Trinity College - 20170826095451.jpg",
+        autor: "Estanterías de la biblioteca del Trinity College de Dublín, con los volúmenes ordenados por tamaño.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Condado_de_Dubl%C3%ADn_-_Long_Room-Trinity_College_-_20170826095451.jpg",
+        foco: "50% 50%",
+        alt: "Estantes de madera oscura llenos de libros antiguos encuadernados en piel, vistos de cerca.",
+      },
+    ],
     entrada:
-      "Bibliotecas de todo el mundo, desde los años setenta. Los bibliotecarios detectan un problema que crece solo: los libros publicados aproximadamente entre 1850 y 1990 se están volviendo frágiles. Amarillean, se quiebran por los bordes y acaban rompiéndose al pasar una hoja, mientras que los del siglo XVI están perfectamente. La causa no es la edad, sino cómo se fabricó cada papel.",
+      "Bibliotecas de todo el mundo, desde los años setenta. Los bibliotecarios detectan un problema que crece solo y que no para: los libros publicados aproximadamente entre 1850 y 1990 se están volviendo frágiles. Amarillean, se quiebran por los bordes y acaban rompiéndose al pasar una hoja, mientras que los del siglo XVI, tres siglos más viejos, siguen perfectamente flexibles. La causa no es la edad, ni la humedad, ni la luz: es cómo se fabricó cada papel, y el daño venía de fábrica desde el primer día.",
     paginas: [
       {
         rotulo: "El ácido",

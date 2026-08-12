@@ -94,8 +94,47 @@ export const MAPAS: Short[] = [
     categoria: "Mapas",
     color: "var(--slate)",
     encargo: "Mar abierto sin costa a la vista, oleaje bajo, cielo cubierto.",
+    fotos: [
+      {
+        archivo: "São Jorge (Madeira, Portugal), Ilhéu da Rocha das Vinhas -- 2025 -- 1436.jpg",
+        autor: "Un islote solitario frente a la costa de São Jorge, en Madeira. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Jorge_(Madeira,_Portugal),_Ilh%C3%A9u_da_Rocha_das_Vinhas_--_2025_--_1436.jpg",
+        foco: "50% 50%",
+        alt: "Peñasco solitario cubierto de hierba en medio del mar azul, bajo un cielo con nubes blancas.",
+      },
+      {
+        archivo: "Een schip in volle zee bij vliegende storm, bekend als ‘De windstoot’ Rijksmuseum SK-A-1848.jpeg",
+        autor: "«La ráfaga», óleo de Willem van de Velde el Joven, hacia 1680. Rijksmuseum, Ámsterdam.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Een_schip_in_volle_zee_bij_vliegende_storm,_bekend_als_%E2%80%98De_windstoot%E2%80%99_Rijksmuseum_SK-A-1848.jpeg",
+        pdPorEdad: 1707,
+        foco: "50% 60%",
+        alt: "Pintura de un velero escorado por el viento entre olas grandes, bajo un cielo de tormenta.",
+      },
+      {
+        archivo: "Deep-sea research vessel Pourquoi Pas? (Ifremer 00655-76753).jpg",
+        autor: "El buque oceanográfico Pourquoi Pas?, dedicado a levantar mapas del fondo del mar. Ifremer.",
+        licencia: "CC BY 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Deep-sea_research_vessel_Pourquoi_Pas%3F_(Ifremer_00655-76753).jpg",
+        foco: "50% 50%",
+        alt: "Buque de investigación blanco y azul navegando en mar abierto, con grúas y antenas en cubierta.",
+      },
+      {
+        archivo: "São Martinho (Madeira, Portugal), Miradouro do Lido -- 2025 -- 1951.jpg",
+        autor: "El Atlántico visto desde el mirador do Lido, en Madeira. Fotografía de Dietmar Rabich.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Martinho_(Madeira,_Portugal),_Miradouro_do_Lido_--_2025_--_1951.jpg",
+        foco: "50% 50%",
+        alt: "Extensión de mar abierto sin costa a la vista, con el horizonte recto y el cielo despejado.",
+      },
+    ],
     entrada:
-      "En noviembre de 2012, el buque oceanográfico australiano <em>Southern Surveyor</em> pasaba por el mar del Coral cuando la tripulación notó algo incómodo: sus cartas náuticas señalaban una isla justo delante y el sonar decía que allí no había fondo hasta mil cuatrocientos metros. Navegaron por encima de ella. La isla llevaba en los mapas desde 1876.",
+      "En noviembre de 2012, el buque oceanográfico australiano <em>Southern Surveyor</em> pasaba por el mar del Coral cuando la tripulación notó algo incómodo: sus cartas náuticas señalaban una isla grande justo delante, del tamaño de Manhattan, y el sonar decía que allí no había fondo hasta mil cuatrocientos metros. Pusieron rumbo hacia ella y navegaron tranquilamente por encima, sin ver nada más que agua. La isla llevaba dibujada en los mapas del mundo desde 1876, y seguía apareciendo aquel mismo año en los mapas digitales que usa todo el planeta.",
     paginas: [
       {
         rotulo: "El origen",

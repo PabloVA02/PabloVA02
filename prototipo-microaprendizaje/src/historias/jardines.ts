@@ -85,8 +85,43 @@ export const JARDINES: Short[] = [
     categoria: "Jardines",
     color: "var(--plum)",
     encargo: "Un invernadero de cristal antiguo lleno de plantas tropicales, visto desde fuera.",
+    fotos: [
+      {
+        archivo: "Glasshouse (5942701272).jpg",
+        autor: "La Palm House de los Reales Jardines Botánicos de Kew, en Londres, terminada en 1848.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Glasshouse_(5942701272).jpg",
+        foco: "50% 45%",
+        alt: "Gran invernadero curvo de hierro y cristal visto de frente, con parterres de flores delante.",
+      },
+      {
+        archivo: "London - Kew Gardens - Glasshouse Walkway - View SSE on Palm House 1848 by Decimus Burton & Richard Turner.jpg",
+        autor: "La Palm House de Kew vista desde el paseo lateral. Fotografía de Txllxt TxllxT.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:London_-_Kew_Gardens_-_Glasshouse_Walkway_-_View_SSE_on_Palm_House_1848_by_Decimus_Burton_%26_Richard_Turner.jpg",
+        foco: "50% 50%",
+        alt: "Costado acristalado de un invernadero victoriano, con el césped y los árboles del jardín delante.",
+      },
+      {
+        archivo: "Koh Chang, Thailand, Rubber tapping, Latex.jpg",
+        autor: "Sangrado de un árbol del caucho en Koh Chang, Tailandia. Fotografía de Vyacheslav Argenberg.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Koh_Chang,_Thailand,_Rubber_tapping,_Latex.jpg",
+        foco: "50% 50%",
+        alt: "Corte en espiral en el tronco de un árbol con un cuenco recogiendo el látex blanco que gotea.",
+      },
+      {
+        archivo: "Rubber tree tapping.jpg",
+        autor: "Árbol del caucho sangrado en una plantación asiática. Fotografía de Vis M.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Rubber_tree_tapping.jpg",
+        foco: "50% 50%",
+        alt: "Tronco de árbol del caucho con la corteza rayada y un recipiente atado para recoger el látex.",
+      },
+    ],
     entrada:
-      "Londres, 1876. Un jardín botánico real recibe un cargamento singular: setenta mil semillas de un árbol amazónico del que sale, al sangrar su corteza, un líquido lechoso que endurece en una goma elástica. Brasil tiene el monopolio mundial de ese producto y prohíbe exportar las semillas. Un explorador británico las ha sacado igualmente, declarándolas en la aduana como material científico.",
+      "Londres, 1876. Un jardín botánico real recibe un cargamento singular: setenta mil semillas de un árbol amazónico del que sale, al sangrar su corteza, un líquido lechoso que endurece en una goma elástica y resistente. Brasil tiene el monopolio mundial de ese producto, vive de él y prohíbe terminantemente exportar las semillas. Un explorador británico las ha sacado igualmente río abajo, declarándolas en la aduana como material científico destinado a la reina, y nadie las mira dos veces.",
     paginas: [
       {
         rotulo: "El invernadero",

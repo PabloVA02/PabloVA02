@@ -85,13 +85,48 @@ export const PERIODICOS: Short[] = [
 
   {
     id: "titular-equivocado",
-    titulo: "Un periódico anunció al ganador equivocado",
+    titulo: "El ganador equivocado",
     gancho: "El titular se imprimió antes de contar los votos, y el presidente electo posó sonriendo con él.",
     categoria: "Periódicos",
     color: "var(--slate)",
     encargo: "Un periódico doblado sostenido en alto con un titular enorme a toda página.",
+    fotos: [
+      {
+        archivo: "Apprentice linotype operator at Queensland Times, Ipswich, 1975 (34583024235).jpg",
+        autor: "Un aprendiz de linotipista componiendo texto en el Queensland Times, en 1975. Archivos del Estado de Queensland.",
+        licencia: "CC0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Apprentice_linotype_operator_at_Queensland_Times,_Ipswich,_1975_(34583024235).jpg",
+        foco: "50% 50%",
+        alt: "Fotografía en blanco y negro de un joven tecleando en la consola de una linotipia llena de engranajes.",
+      },
+      {
+        archivo: "Linotype 2503-0230.jpg",
+        autor: "Linotipia en funcionamiento en el Museo de la Industria de Gante, Bélgica.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Linotype_2503-0230.jpg",
+        foco: "40% 45%",
+        alt: "Máquina de componer de metal negro con brazos y engranajes, manejada por un operario sentado.",
+      },
+      {
+        archivo: "Linotype typesetting machine (45618071855).jpg",
+        autor: "El mecanismo que devuelve cada matriz de letra a su cajetín en una linotipia de 1892. Fotografía de Richard Ash.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Linotype_typesetting_machine_(45618071855).jpg",
+        foco: "50% 50%",
+        alt: "Detalle del mecanismo interior de una linotipia, con raíles y matrices metálicas alineadas.",
+      },
+      {
+        archivo: "Type furniture.jpg",
+        autor: "Cajas de madera con las piezas que sujetan los tipos dentro de la rama de imprenta. Museo del Escritor, Edimburgo.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Type_furniture.jpg",
+        foco: "50% 50%",
+        alt: "Cajas de madera abiertas llenas de listones y piezas de plomo de imprenta ordenados por tamaño.",
+      },
+    ],
     entrada:
-      "Estados Unidos, noviembre de 1948. Un diario de Chicago tiene que cerrar su primera edición antes de que se conozcan los resultados de las elecciones presidenciales, por una huelga de tipógrafos que obliga a adelantar la impresión varias horas. Se fía de las encuestas, que dan una ventaja aplastante a un candidato, y titula a toda página que ha ganado.",
+      "Estados Unidos, noviembre de 1948. Un diario de Chicago tiene que cerrar su primera edición antes de que se conozcan los resultados de las elecciones presidenciales: hay una huelga de tipógrafos, la composición va lentísima y eso obliga a adelantar la impresión varias horas. El periódico se fía entonces de lo único que tiene, las encuestas, que llevan meses dando una ventaja aplastante a uno de los dos candidatos y que ningún analista discute. Y titula a toda página, con las letras más grandes que tiene, que ese candidato ha ganado.",
     paginas: [
       {
         rotulo: "La huelga",

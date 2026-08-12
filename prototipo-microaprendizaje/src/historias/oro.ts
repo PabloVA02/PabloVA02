@@ -87,8 +87,44 @@ export const ORO: Short[] = [
     categoria: "Oro",
     color: "var(--slate)",
     encargo: "La cubierta de un barco de carga antiguo con depósitos metálicos y mar abierto al fondo.",
+    fotos: [
+      {
+        archivo: "Gold nugget (Australia) 4 (16848647509).jpg",
+        autor: "Pepita de oro natural procedente de Australia. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gold_nugget_(Australia)_4_(16848647509).jpg",
+        foco: "50% 50%",
+        alt: "Pepita de oro grande y rugosa, con la superficie brillante llena de huecos y pliegues.",
+      },
+      {
+        archivo: "2019--09-14 01 Short-sea shipping EEMS DELFIA - IMO 8411633.jpg",
+        autor: "Buque de carga de cabotaje, del tipo que se usaba para llevar laboratorios improvisados a bordo. Fotografía de Gordon Leggett.",
+        licencia: "CC BY-SA 4.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:2019--09-14_01_Short-sea_shipping_EEMS_DELFIA_-_IMO_8411633.jpg",
+        foco: "50% 50%",
+        alt: "Barco de carga alargado navegando con la proa levantada y la bodega cerrada.",
+      },
+      {
+        archivo: "Gold fluvial pebbles (placer gold) (Washington State, USA) 4 (16846562679).jpg",
+        autor: "Granos de oro de aluvión recogidos en un río del estado de Washington. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Gold_fluvial_pebbles_(placer_gold)_(Washington_State,_USA)_4_(16846562679).jpg",
+        foco: "50% 50%",
+        alt: "Puñado de pepitas y láminas diminutas de oro sobre un fondo oscuro.",
+      },
+      {
+        archivo: "Gold nugget (Australia) 1 (16847082298).jpg",
+        autor: "Otra pepita de oro australiana, vista de cerca. Fotografía de James St. John.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Gold_nugget_(Australia)_1_(16847082298).jpg",
+        foco: "50% 50%",
+        alt: "Pepita de oro alargada y retorcida, con el brillo metálico marcado por la luz.",
+      },
+    ],
     entrada:
-      "Alemania, 1920. El país acaba de perder una guerra mundial y debe una indemnización tan enorme que nadie sabe de dónde va a salir. Un químico famoso, premiado por haber encontrado la forma de fabricar abono a partir del aire, propone una salida insólita al gobierno: el agua del mar contiene oro disuelto, y hay muchísima agua de mar. Le montan una expedición en secreto.",
+      "Alemania, 1920. El país acaba de perder una guerra mundial y debe una indemnización tan enorme que nadie sabe de dónde va a salir el dinero. Un químico famoso, premiado por haber encontrado la forma de fabricar abono a partir del aire, propone al gobierno una salida insólita: el agua del mar contiene oro disuelto, y hay muchísima agua de mar. Bastaría con filtrarla. Le montan una expedición en secreto, con el laboratorio metido en la bodega de un carguero y todo el material etiquetado como equipo oceanográfico.",
     paginas: [
       {
         rotulo: "El laboratorio flotante",

@@ -79,14 +79,53 @@ export const PESCA: Short[] = [
   },
   {
     id: "la-primera-queja-por-el-arrastre",
-    titulo: "Protestaban contra el arrastre en 1376",
+    titulo: "Contra el arrastre en 1376",
     gancho: "Unos pescadores pidieron al rey que prohibiera una red nueva. Decían que arrasaba el fondo del mar.",
     categoria: "Pesca",
     color: "var(--ochre)",
     curioso: true,
     encargo: "Una red de pesca vieja amontonada en un muelle de piedra.",
+    fotos: [
+      {
+        archivo:
+          "The sunlit North Sea from the harbour entrance with a number of trawlers under sail on the horizon. RMG P27512.tiff",
+        autor: "Barcos de pesca a vela saliendo hacia los caladeros del mar del Norte, en 1906. Royal Museums Greenwich.",
+        licencia: "Public domain",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:The_sunlit_North_Sea_from_the_harbour_entrance_with_a_number_of_trawlers_under_sail_on_the_horizon._RMG_P27512.tiff",
+        foco: "50% 55%",
+        alt: "Fotografía antigua del mar brillando al sol, con veleros de pesca recortados en el horizonte.",
+      },
+      {
+        archivo: "Boats on the mud at Wells-Next-The-Sea - geograph.org.uk - 4933475.jpg",
+        autor: "Barcas varadas sobre el fango en la bajamar de Wells-next-the-Sea, Norfolk. Fotografía de Richard Humphrey.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Boats_on_the_mud_at_Wells-Next-The-Sea_-_geograph.org.uk_-_4933475.jpg",
+        foco: "50% 50%",
+        alt: "Pequeñas embarcaciones apoyadas en el barro de un estuario con la marea baja.",
+      },
+      {
+        archivo: "Fishing boats moored in Wells-next-the-Sea - geograph.org.uk - 6957171.jpg",
+        autor: "Barcos de pesca amarrados en el puerto de Wells-next-the-Sea. Fotografía de Richard Humphrey.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Fishing_boats_moored_in_Wells-next-the-Sea_-_geograph.org.uk_-_6957171.jpg",
+        foco: "50% 50%",
+        alt: "Barcos de pesca de colores amarrados en fila junto al muelle de un puerto pequeño.",
+      },
+      {
+        archivo: "Fishing boat \"NEVER CAN TELL - A\" moored in Wells-Next-The-Sea harbour - geograph.org.uk - 6256711.jpg",
+        autor: "Un pesquero amarrado en el puerto de Wells-next-the-Sea, Norfolk. Fotografía de Richard Humphrey.",
+        licencia: "CC BY-SA 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Fishing_boat_%22NEVER_CAN_TELL_-_A%22_moored_in_Wells-Next-The-Sea_harbour_-_geograph.org.uk_-_6256711.jpg",
+        foco: "50% 50%",
+        alt: "Barco de pesca azul con la cubierta llena de aparejos, amarrado junto al muelle.",
+      },
+    ],
     entrada:
-      "Inglaterra, 1376. Un grupo de pescadores presenta una petición formal al rey y al parlamento contra un aparejo que se ha empezado a usar en la costa. Es una red con forma de bolsa que se arrastra por el fondo del mar sujeta a un armazón. Sus vecinos aseguran que se lleva por delante todo lo que encuentra, incluido lo que aún no ha crecido.",
+      "Inglaterra, 1376. Un grupo de pescadores presenta una petición formal al rey y al parlamento contra un aparejo nuevo que se ha empezado a usar en la costa. Es una red con forma de bolsa que se arrastra por el fondo del mar sujeta a un armazón de madera, y va tan pegada al lecho que lo rastrilla entero. Sus vecinos aseguran que se lleva por delante todo lo que encuentra, incluido lo que aún no ha crecido, y piden que se prohíba. La discusión que abren aquel año sigue exactamente igual de abierta seis siglos y medio después.",
     paginas: [
       {
         rotulo: "La bolsa",

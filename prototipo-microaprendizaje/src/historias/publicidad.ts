@@ -83,14 +83,50 @@ export const PUBLICIDAD: Short[] = [
 
   {
     id: "halitosis-listerine",
-    titulo: "Se inventaron una enfermedad para vender enjuague",
+    titulo: "Inventaron la halitosis",
     gancho: "El producto llevaba décadas sin venderse. Le buscaron un problema, y le pusieron nombre médico.",
     categoria: "Publicidad",
     color: "var(--slate)",
     curioso: true,
     encargo: "Un frasco de vidrio ámbar de botica sobre un lavabo de porcelana blanca.",
+    fotos: [
+      {
+        archivo: "Antique Amber H K Mulford Chemist Embossed Bottle (30500508927).jpg",
+        autor: "Frasco de botica de vidrio ámbar con el nombre del fabricante en relieve. Fotografía de Cindy Shebley.",
+        licencia: "CC BY 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Antique_Amber_H_K_Mulford_Chemist_Embossed_Bottle_(30500508927).jpg",
+        foco: "50% 55%",
+        alt: "Botella antigua de vidrio color ámbar con letras en relieve y tapón de corcho, sobre una mesa de madera.",
+      },
+      {
+        archivo: "Apothecary Jar MET DP245577.jpg",
+        autor: "Tarro de botica de cerámica mexicana, hacia 1800. Metropolitan Museum of Art, Nueva York.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Apothecary_Jar_MET_DP245577.jpg",
+        foco: "50% 50%",
+        alt: "Tarro de farmacia de cerámica esmaltada con decoración azul sobre fondo blanco.",
+      },
+      {
+        archivo: "Antique Schlotter Beck & Foss Company Embossed Glass Bottle (42377995471).jpg",
+        autor: "Botella de vidrio antigua con la marca del laboratorio grabada en el cristal. Fotografía de Cindy Shebley.",
+        licencia: "CC BY 2.0",
+        fuente:
+          "https://commons.wikimedia.org/wiki/File:Antique_Schlotter_Beck_%26_Foss_Company_Embossed_Glass_Bottle_(42377995471).jpg",
+        foco: "50% 50%",
+        alt: "Botella de cristal transparente con letras en relieve, fotografiada de cerca sobre madera.",
+      },
+      {
+        archivo: "Antique Amber Medicine Bottle (42378014251).jpg",
+        autor: "Frasco de medicina de vidrio ámbar de principios del siglo XX. Fotografía de Cindy Shebley.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Antique_Amber_Medicine_Bottle_(42378014251).jpg",
+        foco: "50% 50%",
+        alt: "Frasco pequeño de vidrio marrón oscuro iluminado de lado, con el fondo desenfocado.",
+      },
+    ],
     entrada:
-      "Estados Unidos, años veinte. Existe desde 1879 un líquido antiséptico que se ha vendido como desinfectante de quirófanos, remedio para la gonorrea y hasta como limpiasuelos, sin gran éxito en ninguna de las tres cosas. Los hijos del fabricante deciden probar una última idea: venderlo para la boca. El problema es que nadie se enjuagaba la boca con nada.",
+      "Estados Unidos, años veinte. Existe desde 1879 un líquido antiséptico que se ha vendido como desinfectante de quirófanos, remedio para la gonorrea y hasta como limpiasuelos, sin gran éxito en ninguna de las tres cosas. Los hijos del fabricante deciden probar una última idea antes de rendirse: venderlo para la boca. El problema es evidente y parece insalvable, porque en aquel momento nadie se enjuagaba la boca con nada y nadie sentía que le hiciera ninguna falta. Así que hicieron algo distinto: en vez de vender el remedio, vendieron primero la enfermedad.",
     paginas: [
       {
         rotulo: "La palabra",
