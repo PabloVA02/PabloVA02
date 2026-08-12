@@ -87,6 +87,40 @@ export const TELEVISION: Short[] = [
     categoria: "Televisión",
     color: "var(--ochre)",
     encargo: "Un disco de cartón con agujeros en espiral montado sobre un motor.",
+    fotos: [
+      {
+        archivo: "Nipkows apparat Tekniska museet.jpg",
+        autor: "Aparato de televisión mecánica con disco de Nipkow, en el Museo Técnico de Estocolmo.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ANipkows%20apparat%20Tekniska%20museet.jpg",
+        foco: "50% 42%",
+        alt: "Aparato antiguo con un disco negro perforado, lentes y un panel de baquelita con mandos y un amperímetro.",
+      },
+      {
+        archivo: "Baird television, 1929.jpg",
+        autor: "Televisor mecánico de Baird de 1929, con la ventanilla por la que se miraba la imagen.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABaird%20television%2C%201929.jpg",
+        foco: "50% 50%",
+        alt: "Caja de madera con una ventanilla pequeña y mandos, el receptor de televisión de los años veinte.",
+      },
+      {
+        archivo: "Mechanical television camera at the Early Television Museum June 2022.jpg",
+        autor: "Cámara de televisión mecánica conservada en el Early Television Museum de Ohio.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMechanical%20television%20camera%20at%20the%20Early%20Television%20Museum%20June%202022.jpg",
+        foco: "50% 50%",
+        alt: "Cámara antigua con un disco perforado grande y un objetivo, montada sobre un pie.",
+      },
+      {
+        archivo: "Fracarro 30 Line mechanical television at the Early Television Museum June 2022.jpg",
+        autor: "Televisor mecánico Fracarro de treinta líneas, de principios de los años treinta.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFracarro%2030%20Line%20mechanical%20television%20at%20the%20Early%20Television%20Museum%20June%202022.jpg",
+        foco: "50% 50%",
+        alt: "Receptor de televisión mecánica con el disco a la vista, expuesto en una vitrina de museo.",
+      },
+    ],
     entrada:
       "Londres, 1925. Un inventor escocés sin apenas dinero monta en una buhardilla un aparato con una caja de galletas, agujas de zurcir, lentes de bicicleta y un disco de cartón perforado. El 2 de octubre consigue transmitir la primera imagen de televisión reconocible de la historia: la cara de un muñeco de ventrílocuo, y después la de un chico del edificio.",
     paginas: [
