@@ -80,11 +80,45 @@ export const LANA: Short[] = [
   },
   {
     id: "la-oveja-prohibida",
-    titulo: "Sacar una oveja costaba la vida",
+    titulo: "La oveja no podía salir",
     gancho: "La merina daba la lana más fina del mundo y su exportación estuvo prohibida durante siglos.",
     categoria: "Lana",
     color: "var(--slate)",
     encargo: "Un rebaño de ovejas de lana espesa y rizada en un campo seco.",
+    fotos: [
+      {
+        archivo: "Merino sheep. (52908265984).jpg",
+        autor: "Ovejas merinas en el campo al atardecer. Fotografía de Bernard Spragg.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File:Merino_sheep._(52908265984).jpg",
+        foco: "50% 55%",
+        alt: "Cuatro ovejas merinas de lana muy espesa caminando entre hierba seca dorada, con montañas al fondo.",
+      },
+      {
+        archivo: "Velo Ovelha Serra da Estrela.jpg",
+        autor: "Vellón entero de una oveja recién esquilada, en la Serra da Estrela.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Velo_Ovelha_Serra_da_Estrela.jpg",
+        foco: "50% 50%",
+        alt: "Vellón de lana cruda extendido, con los rizos apretados y el borde recortado.",
+      },
+      {
+        archivo: "Wool fleece 69.jpg",
+        autor: "Lana en bruto vista de cerca, antes de lavarla. Fotografía de Schwede66.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Wool_fleece_69.jpg",
+        foco: "50% 50%",
+        alt: "Masa de lana cruda rizada, de tonos crema y amarillentos, vista muy de cerca.",
+      },
+      {
+        archivo: "Shearing 08.JPG",
+        autor: "Esquilando una oveja a máquina. Fotografía de Julie Blake.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File:Shearing_08.JPG",
+        foco: "50% 50%",
+        alt: "Esquilador inclinado sobre una oveja tumbada, separando el vellón en una sola pieza.",
+      },
+    ],
     entrada:
       "Castilla, siglos XIV a XVIII. Una raza de oveja produce aquí una lana tan fina que no tiene competencia en Europa, y toda la industria textil del continente la quiere. La corona entiende enseguida el valor de ese monopolio y hace lo que hicieron todos los Estados con sus secretos industriales: prohibir la salida de los animales vivos, con penas durísimas para quien lo intentara.",
     paginas: [
