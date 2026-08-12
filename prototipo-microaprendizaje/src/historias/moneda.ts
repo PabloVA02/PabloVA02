@@ -86,6 +86,40 @@ export const MONEDA: Short[] = [
     categoria: "Monedas",
     color: "var(--slate)",
     encargo: "El canto estriado de una moneda visto muy de cerca, en diagonal.",
+    fotos: [
+      {
+        archivo: "1831 coining press (M.A.N. 1873-22-19) 02.jpg",
+        autor: "Prensa de acuñar de 1831, del tipo que sustituyó al martillo. Museo Arqueológico Nacional, Madrid.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A1831%20coining%20press%20(M.A.N.%201873-22-19)%2002.jpg",
+        foco: "50% 55%",
+        alt: "Máquina de bronce y hierro con los cuños montados en el centro, entre muelles y tornillos gruesos.",
+      },
+      {
+        archivo: "COIN (FindID 932830).jpg",
+        autor: "Media corona de plata de Jorge II, de 1746, acuñada con plata capturada a España, con el canto estriado.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACOIN%20(FindID%20932830).jpg",
+        foco: "50% 50%",
+        alt: "Moneda de plata antigua con el busto del rey por una cara y el escudo por la otra.",
+      },
+      {
+        archivo: "1831 coining press (M.A.N. 1873-22-19) 01.jpg",
+        autor: "La misma prensa vista entera, con el volante y los contrapesos.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3A1831%20coining%20press%20(M.A.N.%201873-22-19)%2001.jpg",
+        foco: "50% 50%",
+        alt: "Prensa de acuñar completa, alta como una persona, montada sobre una base circular.",
+      },
+      {
+        archivo: "Proof coin hall, Royal Australian Mint.jpg",
+        autor: "Sala de acuñación de la Casa de la Moneda australiana, en Canberra.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AProof%20coin%20hall%2C%20Royal%20Australian%20Mint.jpg",
+        foco: "50% 50%",
+        alt: "Nave industrial con máquinas amarillas de acuñar alineadas, vista tras un cristal.",
+      },
+    ],
     entrada:
       "Inglaterra, 1696. El país tiene un problema monetario grave: las monedas de plata en circulación pesan bastante menos de lo que deberían, porque durante décadas la gente les ha ido rebañando el borde con una lima y guardándose las virutas. Se calcula que la mitad del peso de la plata circulante ha desaparecido de esa manera.",
     paginas: [
