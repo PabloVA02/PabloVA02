@@ -77,13 +77,47 @@ export const GUANTES: Short[] = [
   },
   {
     id: "el-guante-de-trabajo",
-    titulo: "Cuatro números que nadie lee",
+    titulo: "Cuatro números en el puño",
     gancho: "La etiqueta lleva cuatro números que casi nadie lee. Dicen cuánto aguanta frente a la lija, la cuchilla, el desgarro y la punta.",
     categoria: "Objetos",
     color: "var(--clay)",
     encargo: "Guante anticorte con el pictograma y los cuatro números impresos en el puño.",
+    fotos: [
+      {
+        archivo: "Let the sparks fly (13313009905).jpg",
+        autor: "Soldador trabajando con manoplas largas de cuero mientras saltan las chispas.",
+        licencia: "Public domain",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALet%20the%20sparks%20fly%20(13313009905).jpg",
+        foco: "42% 60%",
+        alt: "Operario agachado con careta de soldar y guantes largos de cuero, soldando un marco metálico entre chispas naranjas.",
+      },
+      {
+        archivo: "Leather work gloves composite P1010224 copy.jpg",
+        autor: "Dos pares de guantes de cuero de trabajo, gastados de distinta manera.",
+        licencia: "CC BY 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALeather%20work%20gloves%20composite%20P1010224%20copy.jpg",
+        foco: "38% 50%",
+        alt: "Cuatro guantes de cuero amarillento puestos en fila al sol sobre un suelo de cemento.",
+      },
+      {
+        archivo: "Folded kusuri armor.JPG",
+        autor: "Malla de anillas de una armadura japonesa: el mismo principio de los guantes de cota metálica.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AFolded%20kusuri%20armor.JPG",
+        foco: "50% 50%",
+        alt: "Tejido de anillas metálicas pequeñas entrelazadas, plegado sobre sí mismo.",
+      },
+      {
+        archivo: "Lathe Center Drilling.jpg",
+        autor: "Torno en marcha: junto a una máquina que gira, los guantes son justo lo que no hay que llevar.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALathe%20Center%20Drilling.jpg",
+        foco: "50% 50%",
+        alt: "Pieza metálica girando en un torno mientras una broca la taladra por el centro, con virutas alrededor.",
+      },
+    ],
     entrada:
-      "Industria europea y estadounidense, con las normas actuales vigentes desde 1994. Un guante de trabajo no es una prenda, sino un equipo de protección con una etiqueta llena de números que casi nadie lee. Esos números dicen cuánto aguanta el guante frente a cuatro cosas distintas: la abrasión, el corte, el desgarro y la perforación. Elegir mal significa perder un dedo.",
+      "Industria europea y estadounidense, con las normas actuales vigentes desde 1994. Un guante de trabajo no es una prenda, sino un equipo de protección homologado, y lleva impresa en el puño una etiqueta llena de números que casi nadie se para a leer. Esos números no son un adorno ni una referencia de fábrica: dicen cuánto aguanta ese guante concreto frente a cuatro peligros distintos, que son la abrasión, el corte, el desgarro y la perforación. Elegir el guante equivocado para la máquina equivocada significa perder un dedo.",
     paginas: [
       {
         rotulo: "Cuatro números",
