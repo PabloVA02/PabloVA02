@@ -148,8 +148,42 @@ export const GRUAS: Short[] = [
     categoria: "Grúas",
     color: "var(--ochre)",
     encargo: "Un muelle con grúas de pórtico sobre raíles y contenedores apilados.",
+    fotos: [
+      {
+        archivo: "Container cranes at the MPET- MSC PSA European Terminal in Port of Antwerp (Kieldrecht, Belgium) during the sunset civil twilight (DSCF3919).jpg",
+        autor: "Grúas de pórtico del puerto de Amberes al anochecer, Bélgica, 2018.",
+        licencia: "CC BY 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AContainer%20cranes%20at%20the%20MPET-%20MSC%20PSA%20European%20Terminal%20in%20Port%20of%20Antwerp%20(Kieldrecht%2C%20Belgium)%20during%20the%20sunset%20civil%20twilight%20(DSCF3919).jpg",
+        foco: "50% 50%",
+        alt: "Fila de grúas portacontenedores recortadas contra un cielo lila al anochecer.",
+      },
+      {
+        archivo: "Container cranes in Tokyo Bay.jpg",
+        autor: "Grúas de contenedores en la bahía de Tokio, 2023.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AContainer%20cranes%20in%20Tokyo%20Bay.jpg",
+        foco: "50% 50%",
+        alt: "Grúas blancas de pórtico sobre el muelle con contenedores apilados debajo.",
+      },
+      {
+        archivo: "Red Hook Container Terminal New York September 2016 002.jpg",
+        autor: "Terminal de contenedores de Red Hook, Nueva York, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ARed%20Hook%20Container%20Terminal%20New%20York%20September%202016%20002.jpg",
+        foco: "50% 50%",
+        alt: "Grúa de pórtico descargando un buque portacontenedores en el muelle.",
+      },
+      {
+        archivo: "Container cranes at the Port of Oakland.jpg",
+        autor: "Grúas del puerto de Oakland, California, 2025.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AContainer%20cranes%20at%20the%20Port%20of%20Oakland.jpg",
+        foco: "50% 50%",
+        alt: "Grúas de contenedores alineadas sobre raíles a la orilla del agua.",
+      },
+    ],
     entrada:
-      "Puertos de todo el mundo, hasta los años sesenta. Un barco de carga llega lleno de sacos, cajas, barriles y fardos de tamaños distintos, y todo eso hay que sacarlo pieza a pieza. Cuadrillas de estibadores bajan a la bodega, atan la carga a mano, la suben con una pluma y la vuelven a colocar y ordenar en el muelle. Un barco mediano podía pasar así una semana entera amarrado.",
+      "Puertos de todo el mundo, hasta bien entrados los años sesenta. Un barco de carga llega lleno de sacos, cajas, barriles y fardos de tamaños todos distintos, apilados como se ha podido, y todo eso hay que sacarlo pieza a pieza. Cuadrillas enteras de estibadores bajan a la bodega, atan la carga a mano con eslingas, la suben con una pluma y luego la vuelven a colocar y a ordenar en el muelle. Un barco mediano podía pasarse así una semana entera amarrado sin moverse, y a veces más de dos.",
     paginas: [
       {
         rotulo: "El cuello de botella",
