@@ -157,8 +157,44 @@ export const ELECTRICIDAD: Short[] = [
     categoria: "Electricidad",
     color: "var(--slate)",
     encargo: "Un cielo de tormenta muy oscuro con una varilla metálica recortada contra las nubes.",
+    fotos: [
+      {
+        archivo: "Benjamin Franklin by Joseph Duplessis 1778.jpg",
+        autor: "Óleo de Joseph-Siffred Duplessis con Benjamin Franklin, hacia 1785.",
+        licencia: "Public domain",
+        pdPorEdad: 1802,
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABenjamin%20Franklin%20by%20Joseph%20Duplessis%201778.jpg",
+        foco: "50% 35%",
+        alt: "Retrato de Benjamin Franklin mayor, con levita gris y el pelo largo y cano.",
+      },
+      {
+        archivo: "Ansfelden Berg Kirche Zehetner S.jpg",
+        autor: "Cable de pararrayos bajando por el muro de una iglesia en Ansfelden, Austria.",
+        licencia: "CC BY-SA 3.0 at",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAnsfelden%20Berg%20Kirche%20Zehetner%20S.jpg",
+        foco: "35% 38%",
+        alt: "Muro de iglesia con esgrafiados y un cable de pararrayos bajando en vertical.",
+      },
+      {
+        archivo: "Joseph Siffrein Duplessis - Benjamin Franklin - Google Art Project.jpg",
+        autor: "Otra versión del retrato de Franklin por Duplessis, hacia 1785.",
+        licencia: "Public domain",
+        pdPorEdad: 1802,
+        fuente: "https://commons.wikimedia.org/wiki/File%3AJoseph%20Siffrein%20Duplessis%20-%20Benjamin%20Franklin%20-%20Google%20Art%20Project.jpg",
+        foco: "50% 35%",
+        alt: "Franklin de medio cuerpo sobre fondo oscuro, mirando de frente.",
+      },
+      {
+        archivo: "Portrait of Benjamin Franklin MET DP862840.jpg",
+        autor: "Grabado de Benjamin Franklin a partir del retrato de Duplessis. Museo Metropolitano de Arte.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APortrait%20of%20Benjamin%20Franklin%20MET%20DP862840.jpg",
+        foco: "50% 35%",
+        alt: "Grabado antiguo con el retrato de Franklin en blanco y negro.",
+      },
+    ],
     entrada:
-      "Filadelfia, junio de 1752. Un impresor y político estadounidense de cuarenta y seis años sospecha que el rayo no es un castigo divino ni un fenómeno aparte, sino la misma electricidad que él produce frotando cristal en su gabinete. Para comprobarlo se le ocurre acercarse a una nube de tormenta con lo que tiene a mano: una cometa de seda, un cable y una llave.",
+      "Filadelfia, junio de 1752. Un impresor y político estadounidense de cuarenta y seis años sospecha, contra lo que cree todo el mundo a su alrededor, que el rayo no es un castigo divino ni un fenómeno de otra naturaleza, sino exactamente la misma electricidad que él produce en su gabinete frotando un tubo de cristal con un paño. Para comprobarlo se le ocurre una idea que hoy pondría los pelos de punta a cualquiera: acercarse a una nube de tormenta con lo que tiene a mano, es decir, una cometa de seda, un cable y una llave.",
     paginas: [
       {
         rotulo: "La cometa",
