@@ -153,8 +153,42 @@ export const AGUA: Short[] = [
     categoria: "Agua",
     color: "var(--plum)",
     encargo: "Un embalse con la orilla muy retirada y el fondo agrietado al sol.",
+    fotos: [
+      {
+        archivo: "Yesa - Embalse - Sequía 01.jpg",
+        autor: "Fondo agrietado del embalse de Yesa durante la sequía, Navarra, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AYesa%20-%20Embalse%20-%20Sequ%C3%ADa%2001.jpg",
+        foco: "50% 45%",
+        alt: "Fondo de un embalse seco y cuarteado, con el agua retirada al fondo.",
+      },
+      {
+        archivo: "Yesa - Embalse - Sequía 03.jpg",
+        autor: "Orilla retirada del embalse de Yesa, Navarra, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AYesa%20-%20Embalse%20-%20Sequ%C3%ADa%2003.jpg",
+        foco: "50% 50%",
+        alt: "Franja de tierra desnuda entre el nivel antiguo del agua y el actual.",
+      },
+      {
+        archivo: "Yesa - Embalse - Sequía 04.jpg",
+        autor: "Detalle del lecho seco del embalse de Yesa, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AYesa%20-%20Embalse%20-%20Sequ%C3%ADa%2004.jpg",
+        foco: "50% 50%",
+        alt: "Placas de barro seco levantadas por el sol en el fondo de un pantano.",
+      },
+      {
+        archivo: "Sau reservoir Spain.jpg",
+        autor: "El pantano de Sau al diez por ciento de su capacidad, visto por el satélite Sentinel-2, 2023.",
+        licencia: "Attribution",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ASau%20reservoir%20Spain.jpg",
+        foco: "50% 50%",
+        alt: "Imagen de satélite de un embalse casi vacío, con el cauce del río marcado en el fondo.",
+      },
+    ],
     entrada:
-      "Ciudad del Cabo, en Sudáfrica, 2018. Tres años seguidos de sequía han dejado los embalses de una ciudad de cuatro millones de habitantes por debajo del veinte por ciento. El ayuntamiento hace una cuenta y anuncia una fecha concreta: el día en que cortará el suministro y la gente tendrá que recoger su ración en la calle.",
+      "Ciudad del Cabo, en Sudáfrica, 2018. Tres años seguidos de sequía han dejado los embalses que abastecen a una ciudad de cuatro millones de habitantes por debajo del veinte por ciento de su capacidad, y bajando. El ayuntamiento, en vez de esperar a ver qué pasa, hace una cuenta sencilla y anuncia en público una fecha concreta del calendario: el Día Cero, el día en que cerrará los grifos de las casas y la gente tendrá que ir a recoger su ración diaria de agua a un punto de la calle, con militares vigilando la cola.",
     paginas: [
       {
         rotulo: "La cuenta atrás",
