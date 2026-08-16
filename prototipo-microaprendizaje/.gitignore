@@ -7,5 +7,9 @@ dist-uno/
 vite.uno.config.mjs
 
 # El simulador de móvil: catorce megas de app y fotos. Se rehace con
-# `npx vite build --config vite.uno.config.mjs && node scripts/movil.mjs`
+#   npx vite build --config vite.artefacto.config.mjs
+#   node scripts/orden-fotos.mjs 760 > /tmp/orden-fotos.json
+#   node scripts/movil.mjs --dist dist-artefacto --lista /tmp/orden-fotos.json \
+#        --ancho 300 --calidad 0.6 --tope 10
 movil.html
+dist-artefacto/
