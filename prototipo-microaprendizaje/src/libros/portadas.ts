@@ -114,6 +114,28 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Cielo nocturno cuajado de estrellas con la Vía Láctea y las siluetas de unos pinos abajo.",
   },
 
+  "los-miserables": {
+    archivo: "Eugène Delacroix - Le 28 Juillet. La Liberté guidant le peuple.jpg",
+    autor: "«La Libertad guiando al pueblo», óleo de Eugène Delacroix, 1830. Museo del Louvre, París.",
+    licencia: "Public domain",
+    pdPorEdad: 1863,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AEug%C3%A8ne%20Delacroix%20-%20Le%2028%20Juillet.%20La%20Libert%C3%A9%20guidant%20le%20peuple.jpg",
+    foco: "52% 28%",
+    alt: "Una mujer con la bandera avanza sobre una barricada de adoquines seguida por hombres armados.",
+  },
+
+  "guerra-y-paz": {
+    archivo: "Nachtkwartier te Molodetschno, 3-4 december 1812; episode uit de terugtocht van keizer Napoleon uit Rusland Rijksmuseum SK-A-1043.jpeg",
+    autor: "Vivaque en la retirada de Napoleón de Rusia, diciembre de 1812. Óleo de Johannes Hari. Rijksmuseum, Ámsterdam.",
+    licencia: "Public domain",
+    pdPorEdad: 1849,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ANachtkwartier%20te%20Molodetschno%2C%203-4%20december%201812%3B%20episode%20uit%20de%20terugtocht%20van%20keizer%20Napoleon%20uit%20Rusland%20Rijksmuseum%20SK-A-1043.jpeg",
+    foco: "64% 58%",
+    alt: "Soldados calentándose en una hoguera sobre la nieve, con la columna en retirada al fondo.",
+  },
+
   principe: {
     archivo: "Portrait of Niccolò Machiavelli (1469–1527), by Follower of Santi di Tito.jpg",
     autor: "Retrato de Nicolás Maquiavelo, seguidor de Santi di Tito, siglo XVI.",
