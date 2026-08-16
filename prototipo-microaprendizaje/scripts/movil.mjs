@@ -74,6 +74,19 @@ const mb = (n) => `${(n / 1024 / 1024).toFixed(1)} MB`;
 /* -- 1. Qué fotos hay que llevarse ---------------------------------------- */
 
 const nombres = new Set();
+
+/* Las portadas de los libros van SIEMPRE, vaya o no una lista de shorts. Son
+   menos de doscientas y son lo primero que se ve al entrar en la biblioteca:
+   si no viajan dentro, esa pantalla sale en blanco, porque aquí no hay red.
+   Se meten las primeras para que el recorte por peso no se las lleve. */
+const PORTADAS = join(RAIZ, "src", "libros", "portadas.ts");
+if (existsSync(PORTADAS)) {
+  const texto = readFileSync(PORTADAS, "utf8");
+  for (const m of texto.matchAll(/archivo:\s*\n?\s*"((?:[^"\\]|\\.)*)"/g))
+    nombres.add(m[1].replace(/\\"/g, '"'));
+  console.log(`  ${nombres.size} de ellas son portadas de libros`);
+}
+
 if (LISTA) {
   for (const n of JSON.parse(readFileSync(LISTA, "utf8"))) nombres.add(n);
 } else {
@@ -378,9 +391,13 @@ document.body.classList.add("simulador");
    pero sin idioma el navegador tampoco sabe leerlo en voz alta. */
 document.documentElement.lang = "es";
 
-/* Esto se publica para mirar las fotografías, así que abre en el muro y no en
-   el onboarding. Desde la barra de abajo se llega igualmente a todo lo demás. */
-window.__PANTALLA = "shorts";
+/* Abre en la biblioteca y no en el muro, aunque el muro sea lo que más se
+   revisa. El motivo es de navegación, no de gusto: la barra de pestañas solo
+   sale en «inicio» y en «perfil» —dentro de un short estorbaría, y ahí está
+   bien quitada—, así que abriendo en el muro no se podía salir de él y esta
+   página se quedaba en un mirador de shorts. Desde la biblioteca se llega al
+   muro con una pestaña, y del muro se vuelve como en la app. */
+window.__PANTALLA = "inicio";
 
 /* Las fotografías, empotradas. urlFoto() mira aquí antes de ir a Commons. */
 window.__FOTOS = ${JSON.stringify(Object.fromEntries(tabla))};
