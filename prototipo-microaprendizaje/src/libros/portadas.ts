@@ -85,6 +85,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Cielo nocturno en remolinos azules sobre un pueblo, con un ciprés oscuro en primer plano.",
   },
 
+  odisea: {
+    archivo: "Draper-Ulysses and Sirens.jpg",
+    autor: "«Ulises y las sirenas», óleo de Herbert James Draper, 1909.",
+    licencia: "Public domain",
+    pdPorEdad: 1920,
+    fuente: "https://commons.wikimedia.org/wiki/File%3ADraper-Ulysses%20and%20Sirens.jpg",
+    foco: "34% 30%",
+    alt: "Ulises atado al mástil mientras los remeros bogan y las sirenas trepan por la borda.",
+  },
+
+  metamorfosis: {
+    archivo: "Prague Old Town 2021 10.jpg",
+    autor: "La plaza de la Ciudad Vieja de Praga de noche, con la iglesia de Týn.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3APrague%20Old%20Town%202021%2010.jpg",
+    foco: "68% 42%",
+    alt: "Las torres góticas de la iglesia de Týn iluminadas sobre una plaza oscura de Praga.",
+  },
+
   principe: {
     archivo: "Portrait of Niccolò Machiavelli (1469–1527), by Follower of Santi di Tito.jpg",
     autor: "Retrato de Nicolás Maquiavelo, seguidor de Santi di Tito, siglo XVI.",
