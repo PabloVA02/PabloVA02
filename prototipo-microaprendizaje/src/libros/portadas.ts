@@ -174,6 +174,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Cuervo negro de plumaje brillante mirando de frente, con el fondo verde desenfocado.",
   },
 
+  "ana-karenina": {
+    archivo: "Kramskoy Portrait of a Woman.jpg",
+    autor: "«Retrato de una desconocida», óleo de Iván Kramskói, 1883. Galería Tretiakov, Moscú.",
+    licencia: "Public domain",
+    pdPorEdad: 1887,
+    fuente: "https://commons.wikimedia.org/wiki/File%3AKramskoy%20Portrait%20of%20a%20Woman.jpg",
+    foco: "55% 32%",
+    alt: "Mujer con abrigo de pieles y sombrero en un coche de caballos, con San Petersburgo nevado detrás.",
+  },
+
+  "gran-gatsby": {
+    archivo: "Chrysler Building 1 (4684845155).jpg",
+    autor: "La corona art déco del edificio Chrysler, Nueva York, terminado en 1930.",
+    licencia: "CC BY 2.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AChrysler%20Building%201%20(4684845155).jpg",
+    foco: "50% 30%",
+    alt: "Remate de acero del edificio Chrysler, con sus arcos escalonados contra un cielo azul intenso.",
+  },
+
   principe: {
     archivo: "Portrait of Niccolò Machiavelli (1469–1527), by Follower of Santi di Tito.jpg",
     autor: "Retrato de Nicolás Maquiavelo, seguidor de Santi di Tito, siglo XVI.",
