@@ -136,6 +136,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Soldados calentándose en una hoguera sobre la nieve, con la columna en retirada al fondo.",
   },
 
+  montecristo: {
+    archivo: "Château d'If en Méditerranée (Ifremer 00542-65405 - 10791).jpg",
+    autor: "El castillo de If, frente a Marsella, donde encierran a Edmundo Dantés.",
+    licencia: "CC BY 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'If%20en%20M%C3%A9diterran%C3%A9e%20(Ifremer%2000542-65405%20-%2010791).jpg",
+    foco: "50% 55%",
+    alt: "Fortaleza de piedra clara sobre una isla rocosa, rodeada de mar abierto.",
+  },
+
+  "nombre-rosa": {
+    archivo: "Austria - Admont Abbey Library - 1326.jpg",
+    autor: "Biblioteca de la abadía de Admont, Austria.",
+    licencia: "CC BY-SA 3.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AAustria%20-%20Admont%20Abbey%20Library%20-%201326.jpg",
+    foco: "50% 48%",
+    alt: "Sala de biblioteca monástica con frescos en la bóveda y anaqueles blancos y dorados.",
+  },
+
   principe: {
     archivo: "Portrait of Niccolò Machiavelli (1469–1527), by Follower of Santi di Tito.jpg",
     autor: "Retrato de Nicolás Maquiavelo, seguidor de Santi di Tito, siglo XVI.",
