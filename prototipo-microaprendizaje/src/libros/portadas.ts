@@ -155,6 +155,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Sala de biblioteca monástica con frescos en la bóveda y anaqueles blancos y dorados.",
   },
 
+  zaratustra: {
+    archivo: "Switzerland-02296 - No Clouds....ya (23005297135).jpg",
+    autor: "El Cervino al amanecer, Alpes suizos.",
+    licencia: "CC BY-SA 2.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ASwitzerland-02296%20-%20No%20Clouds....ya%20(23005297135).jpg",
+    foco: "58% 40%",
+    alt: "Pico nevado y afilado recortado contra un cielo azul, con la ladera en sombra debajo.",
+  },
+
+  "cuentos-poe": {
+    archivo: "Raven portrait (89395).jpg",
+    autor: "Cuervo común (Corvus corax).",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ARaven%20portrait%20(89395).jpg",
+    foco: "50% 35%",
+    alt: "Cuervo negro de plumaje brillante mirando de frente, con el fondo verde desenfocado.",
+  },
+
   principe: {
     archivo: "Portrait of Niccolò Machiavelli (1469–1527), by Follower of Santi di Tito.jpg",
     autor: "Retrato de Nicolás Maquiavelo, seguidor de Santi di Tito, siglo XVI.",
