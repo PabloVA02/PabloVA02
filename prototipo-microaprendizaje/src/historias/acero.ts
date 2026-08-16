@@ -153,8 +153,42 @@ export const ACERO: Short[] = [
     color: "var(--ochre)",
     curioso: true,
     encargo: "Restos de metal oxidado amontonados en un patio, con una pieza limpia entre ellos.",
+    fotos: [
+      {
+        archivo: "Duisburg, Landschaftspark Duisburg-Nord, Hochofen 5, Blick zum Hochofen 2 -- 2026 -- 1477.jpg",
+        autor: "Estructura oxidada de los altos hornos de Duisburgo, Alemania, 2026.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADuisburg%2C%20Landschaftspark%20Duisburg-Nord%2C%20Hochofen%205%2C%20Blick%20zum%20Hochofen%202%20--%202026%20--%201477.jpg",
+        foco: "50% 50%",
+        alt: "Vigas, pasarelas y conductos de una acería abandonada, cubiertos de óxido rojizo.",
+      },
+      {
+        archivo: "Duisburg, Landschaftspark Duisburg-Nord, Hochofen 5 -- 2024 -- 4177.jpg",
+        autor: "Alto horno 5 del parque de Duisburgo-Norte, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADuisburg%2C%20Landschaftspark%20Duisburg-Nord%2C%20Hochofen%205%20--%202024%20--%204177.jpg",
+        foco: "50% 50%",
+        alt: "Silueta del alto horno con sus tuberías y escaleras recortada al atardecer.",
+      },
+      {
+        archivo: "Duisburg, Landschaftspark Duisburg-Nord, Hochofen 5, Halle -- 2024 -- 4164 (kreativ 4).jpg",
+        autor: "Nave del alto horno 5, Duisburgo, 2024.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADuisburg%2C%20Landschaftspark%20Duisburg-Nord%2C%20Hochofen%205%2C%20Halle%20--%202024%20--%204164%20(kreativ%204).jpg",
+        foco: "50% 50%",
+        alt: "Interior de una nave industrial con maquinaria vieja y luz entrando de lado.",
+      },
+      {
+        archivo: "Duisburg, Landschaftspark Duisburg-Nord, Hochofen 2 -- 2016 -- 1115.jpg",
+        autor: "Alto horno 2 del parque de Duisburgo-Norte, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ADuisburg%2C%20Landschaftspark%20Duisburg-Nord%2C%20Hochofen%202%20--%202016%20--%201115.jpg",
+        foco: "50% 50%",
+        alt: "Estructura de acero de un alto horno visto desde abajo contra el cielo.",
+      },
+    ],
     entrada:
-      "Sheffield, en el norte de Inglaterra, 1913. Un metalúrgico trabaja por encargo del ejército en un problema muy concreto: los cañones se desgastan por dentro con el rozamiento y el calor de los disparos, y hace falta un acero que aguante más tiempo. Prueba decenas de mezclas con distintos metales y va tirando al patio las que no sirven.",
+      "Sheffield, en el norte de Inglaterra, 1913. Un metalúrgico llamado Harry Brearley trabaja por encargo del ejército en un problema muy concreto y muy aburrido: el ánima de los cañones se desgasta por dentro con el rozamiento y el calor de los disparos, y hace falta un acero que aguante bastante más tiempo antes de tener que cambiar la pieza. Brearley prueba decenas de mezclas con distintos metales, las examina una por una y va tirando al montón del patio, sin más ceremonia, todas las que no sirven para lo que busca.",
     paginas: [
       {
         rotulo: "El montón",
