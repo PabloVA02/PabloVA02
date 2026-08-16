@@ -161,8 +161,42 @@ export const BICHOS: Short[] = [
     categoria: "Bichos",
     color: "var(--plum)",
     encargo: "Una medusa diminuta y transparente sobre negro, iluminada de lado.",
+    fotos: [
+      {
+        archivo: "Medusa Monterey 14.JPG",
+        autor: "Medusa en el acuario de Monterey, California, 2015.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMedusa%20Monterey%2014.JPG",
+        foco: "40% 50%",
+        alt: "Medusa anaranjada con la campana translúcida y los tentáculos colgando, sobre agua azul oscura.",
+      },
+      {
+        archivo: "Medusa Monterey 27.JPG",
+        autor: "Otra medusa del acuario de Monterey, 2015.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMedusa%20Monterey%2027.JPG",
+        foco: "50% 50%",
+        alt: "Medusa flotando con los brazos orales replegados bajo la campana.",
+      },
+      {
+        archivo: "Medusa Monterey 16.JPG",
+        autor: "Medusa vista de cerca en el acuario de Monterey, 2015.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMedusa%20Monterey%2016.JPG",
+        foco: "50% 45%",
+        alt: "Detalle de la campana de una medusa con sus filamentos finísimos.",
+      },
+      {
+        archivo: "Medusa Jellyfish, Monterey Aquarium, California (44590422735).jpg",
+        autor: "Medusas en el acuario de Monterey, California, 2018.",
+        licencia: "CC BY-SA 2.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMedusa%20Jellyfish%2C%20Monterey%20Aquarium%2C%20California%20(44590422735).jpg",
+        foco: "50% 50%",
+        alt: "Varias medusas suspendidas en el agua, iluminadas desde un lado.",
+      },
+    ],
     entrada:
-      "En los años ochenta, un estudiante alemán llamado Christian Sommer recogía hidrozoos en Rapallo, en la costa italiana, y guardó unos ejemplares diminutos en un recipiente. Al volver a mirarlos no encontró medusas muertas: encontró pólipos, la forma juvenil, pegados al fondo. Los animales no se habían reproducido. Se habían dado la vuelta.",
+      "En los años ochenta, un estudiante alemán llamado Christian Sommer recogía hidrozoos en Rapallo, en la costa italiana, para un trabajo de curso, y guardó unos ejemplares diminutos en un recipiente con agua de mar. Al cabo de unos días volvió a mirarlos esperando encontrar medusas muertas, que es lo que suele pasar, y lo que encontró fue otra cosa: pólipos, la forma juvenil del animal, bien pegados al fondo del bote. Aquellos bichos no se habían reproducido ni habían dejado descendencia. Se habían dado la vuelta ellos mismos.",
     paginas: [
       {
         rotulo: "Rebobinar",
