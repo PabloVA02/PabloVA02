@@ -5866,24 +5866,33 @@ button {
   .muro-foto { height: 18%; }
 }
 
-/* El margen de la derecha, a plomo.
-   Con el texto alineado a la izquierda, una palabra larga que no cabe se va
-   entera a la línea siguiente y deja un mordisco en el margen derecho: en la
-   entrada de César sobraban 24 puntos de media y hasta 100 en la peor línea.
-   Se justifica, que es lo que hace cualquier libro, y se parten las palabras
-   para que la justificación no tenga que estirar los espacios: sin partir,
-   una línea con tres palabras largas se abre en canal.
+/* El espacio entre palabras, siempre el mismo.
+   Esto estuvo justificado para dejar el margen derecho a plomo, y el margen
+   quedaba a plomo, pero se pagaba donde más se nota: la justificación cuadra
+   la línea estirando los espacios, y en una columna de esta anchura —unos
+   331 puntos, cuarenta y pocos caracteres— no hay espacios suficientes entre
+   los que repartir el sobrante. Una línea con tres palabras largas se abría
+   en canal y la de al lado quedaba apretada. Leyendo se ve enseguida: unas
+   frases con más aire entre palabras que otras.
+
+   Así que manda el espaciado y no el margen. Alineado a la izquierda, el
+   espacio entre palabras es exactamente el mismo en todas las líneas de toda
+   la app, que es como se lee sin tropezar.
+
+   La partición de palabras se queda: con el texto a la izquierda ya no sirve
+   para no estirar espacios —no hay nada que estirar—, pero sigue haciendo su
+   otro trabajo, que es que una palabra larga no se vaya entera a la línea
+   siguiente y deje un mordisco de cien puntos en el margen. El borde derecho
+   queda desigual, como en cualquier libro sin justificar, pero poco.
 
    `hyphenate-limit-chars: 6 3 3` prohíbe los cortes feos: solo parte palabras
-   de seis letras o más, y nunca deja menos de tres letras a un lado. La
-   última línea del párrafo se queda a la izquierda, como debe ser.
+   de seis letras o más, y nunca deja menos de tres letras a un lado.
 
    Ojo: la partición la hace el navegador con el diccionario del idioma, y lo
    coge del `lang="es"` del documento. */
 .muro-entrada,
 .short-cuerpo {
-  text-align: justify;
-  text-align-last: left;
+  text-align: left;
   hyphens: auto;
   -webkit-hyphens: auto;
   hyphenate-limit-chars: 6 3 3;
