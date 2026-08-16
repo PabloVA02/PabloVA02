@@ -104,6 +104,16 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Las torres góticas de la iglesia de Týn iluminadas sobre una plaza oscura de Praga.",
   },
 
+  principito: {
+    archivo: "February -conservationlands15 Social Media Takeover- Top 15 Places on National Conservation Lands for Night Sky Viewing (16358792937).jpg",
+    autor: "La Vía Láctea sobre las copas de los pinos. Bureau of Land Management.",
+    licencia: "Public domain",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AFebruary%20-conservationlands15%20Social%20Media%20Takeover-%20Top%2015%20Places%20on%20National%20Conservation%20Lands%20for%20Night%20Sky%20Viewing%20(16358792937).jpg",
+    foco: "50% 40%",
+    alt: "Cielo nocturno cuajado de estrellas con la Vía Láctea y las siluetas de unos pinos abajo.",
+  },
+
   principe: {
     archivo: "Portrait of Niccolò Machiavelli (1469–1527), by Follower of Santi di Tito.jpg",
     autor: "Retrato de Nicolás Maquiavelo, seguidor de Santi di Tito, siglo XVI.",
