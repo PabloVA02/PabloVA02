@@ -154,8 +154,42 @@ export const POLITICA: Short[] = [
     categoria: "Política",
     color: "var(--plum)",
     encargo: "Un hemiciclo antiguo casi vacío, con una figura de pie en la tribuna.",
+    fotos: [
+      {
+        archivo: "Madrid - Hemiciclo del Congreso - 141203 100648.jpg",
+        autor: "Bóveda y tribunas del hemiciclo del Congreso de los Diputados, Madrid.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMadrid%20-%20Hemiciclo%20del%20Congreso%20-%20141203%20100648.jpg",
+        foco: "45% 38%",
+        alt: "Techo pintado y galerías de madera y terciopelo rojo del hemiciclo del Congreso.",
+      },
+      {
+        archivo: "Monumento a Clara Campoamor - Madrid.jpg",
+        autor: "Busto de Clara Campoamor en Madrid, colocado en 2006.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMonumento%20a%20Clara%20Campoamor%20-%20Madrid.jpg",
+        foco: "50% 20%",
+        alt: "Busto de bronce con pátina verde de Clara Campoamor sobre un pedestal, en una plaza.",
+      },
+      {
+        archivo: "Madrid - Hemiciclo del Congreso - 141203 100858.jpg",
+        autor: "Escaños del hemiciclo del Congreso de los Diputados, Madrid.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMadrid%20-%20Hemiciclo%20del%20Congreso%20-%20141203%20100858.jpg",
+        foco: "50% 55%",
+        alt: "Filas curvas de escaños vacíos de terciopelo rojo frente a la tribuna.",
+      },
+      {
+        archivo: "Busto Clara Campoamor, León.JPG",
+        autor: "Busto de Clara Campoamor en León.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ABusto%20Clara%20Campoamor%2C%20Le%C3%B3n.JPG",
+        foco: "50% 35%",
+        alt: "Escultura de la cabeza de Clara Campoamor al aire libre entre árboles.",
+      },
+    ],
     entrada:
-      "Madrid, 1 de octubre de 1931. España acaba de proclamar la República y está escribiendo una constitución nueva. En el Congreso hay cuatrocientos setenta diputados y solo dos son mujeres, elegidas gracias a un vacío legal: podían ser votadas, pero no votar. Aquella tarde se debate si las españolas tendrán derecho al voto, y las dos diputadas opinan lo contrario.",
+      "Madrid, 1 de octubre de 1931. España acaba de proclamar la República y está escribiendo desde cero una constitución nueva. En el Congreso hay cuatrocientos setenta diputados y solo dos de ellos son mujeres, que han llegado hasta el escaño gracias a un hueco curioso de la ley electoral: podían ser votadas, pero no podían votar. Aquella tarde el hemiciclo debate si las españolas tendrán o no derecho al voto, y ocurre algo que nadie había previsto: las dos únicas diputadas de la cámara opinan exactamente lo contrario la una de la otra.",
     paginas: [
       {
         rotulo: "El debate",
