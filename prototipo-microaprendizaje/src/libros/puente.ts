@@ -3,6 +3,7 @@ import type { Libro } from "../Biblioteca";
 import type { Categoria } from "./catalogo";
 import { CATALOGO } from "./catalogo";
 import { META_POR_ID } from "./meta";
+import { PORTADAS_LIBRO } from "./portadas";
 import {
   AmanteArte, AmanteArteVB, Analisis, AnalisisVB, ArtistaTrabajando, ArtistaTrabajandoVB,
   Aventura, AventuraVB, Descubrir, DescubrirVB, Docente, DocenteVB, Explorando, ExplorandoVB,
@@ -117,6 +118,7 @@ export const LIBROS_RESUMEN: Libro[] = CATALOGO.flatMap((ficha) => {
       color: PALETA[ficha.categoria],
       Arte: arte.Comp,
       vb: arte.vb,
+      portada: PORTADAS_LIBRO[r.id],
       progreso: 0,
       ano: r.ano,
       minutos: r.minutos,

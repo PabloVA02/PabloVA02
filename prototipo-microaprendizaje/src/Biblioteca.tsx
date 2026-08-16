@@ -10,6 +10,7 @@ import { enterVariants, spring, springPop, springSoft } from "./motion";
 import { GlyphBack, GlyphClose, GlyphDescargar, GlyphGuardar, GlyphShare } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { PortadaLibro } from "./PortadaLibro";
+import type { Foto } from "./shorts";
 
 /* ==========================================================================
    La biblioteca: inicio y ficha de libro.
@@ -36,6 +37,8 @@ export type Libro = {
   color: string;
   Arte: Ilustracion;
   vb: string;
+  /** La obra que lleva la portada, cuando la tiene. Ver `libros/portadas.ts`. */
+  portada?: Foto;
   /** 0 a 1. Si es mayor que 0, el libro aparece en «Retomar». */
   progreso: number;
   coleccion?: string;
@@ -171,6 +174,7 @@ export function Portada({ libro, tamano = 140 }: { libro: Libro; tamano?: number
         categoria={libro.categoria}
         color={libro.color}
         tamano={tamano}
+        foto={libro.portada}
       />
     </div>
   );
