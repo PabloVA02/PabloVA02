@@ -85,6 +85,27 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Cielo nocturno en remolinos azules sobre un pueblo, con un ciprés oscuro en primer plano.",
   },
 
+  principe: {
+    archivo: "Portrait of Niccolò Machiavelli (1469–1527), by Follower of Santi di Tito.jpg",
+    autor: "Retrato de Nicolás Maquiavelo, seguidor de Santi di Tito, siglo XVI.",
+    licencia: "Public domain",
+    pdPorEdad: 1603,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3APortrait%20of%20Niccol%C3%B2%20Machiavelli%20(1469%E2%80%931527)%2C%20by%20Follower%20of%20Santi%20di%20Tito.jpg",
+    foco: "50% 30%",
+    alt: "Maquiavelo de medio cuerpo, con jubón negro y mangas rojas, mirando de lado con media sonrisa.",
+  },
+
+  meditaciones: {
+    archivo: "Marcus Aurelius Capitoline Hill September 2015-1.jpg",
+    autor: "Estatua ecuestre de Marco Aurelio, siglo II. Plaza del Capitolio, Roma.",
+    licencia: "Public domain",
+    foco: "52% 40%",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AMarcus%20Aurelius%20Capitoline%20Hill%20September%202015-1.jpg",
+    alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
+  },
+
   "crimen-castigo": {
     archivo: "Vasily Perov - Портрет Ф.М.Достоевского - Google Art Project.jpg",
     autor: "Retrato de Dostoievski, óleo de Vasili Perov, 1872. Galería Tretiakov, Moscú.",
