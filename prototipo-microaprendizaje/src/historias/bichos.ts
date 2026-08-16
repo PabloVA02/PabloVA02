@@ -196,7 +196,7 @@ export const BICHOS: Short[] = [
       },
     ],
     entrada:
-      "En los años ochenta, un estudiante alemán llamado Christian Sommer recogía hidrozoos en Rapallo, en la costa italiana, para un trabajo de curso, y guardó unos ejemplares diminutos en un recipiente con agua de mar. Al cabo de unos días volvió a mirarlos esperando encontrar medusas muertas, que es lo que suele pasar, y lo que encontró fue otra cosa: pólipos, la forma juvenil del animal, bien pegados al fondo del bote. Aquellos bichos no se habían reproducido ni habían dejado descendencia. Se habían dado la vuelta ellos mismos.",
+      "En los años ochenta, un estudiante alemán llamado Christian Sommer recogía hidrozoos en Rapallo, en la costa italiana, para un trabajo de curso, y guardó unos ejemplares diminutos en un recipiente con agua de mar. Al cabo de unos días volvió a mirarlos esperando encontrar medusas muertas, que es lo que suele pasar, y lo que encontró fue otra cosa: pólipos, la forma juvenil del animal, bien pegados al fondo del bote. Aquellos bichos no se habían reproducido ni habían dejado descendencia. Se habían dado la vuelta ellos mismos, marcha atrás, hasta volver a ser lo que eran de crías.",
     paginas: [
       {
         rotulo: "Rebobinar",
