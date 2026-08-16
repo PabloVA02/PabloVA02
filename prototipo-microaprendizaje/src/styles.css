@@ -5866,33 +5866,25 @@ button {
   .muro-foto { height: 18%; }
 }
 
-/* El espacio entre palabras, siempre el mismo.
-   Esto estuvo justificado para dejar el margen derecho a plomo, y el margen
-   quedaba a plomo, pero se pagaba donde más se nota: la justificación cuadra
-   la línea estirando los espacios, y en una columna de esta anchura —unos
-   331 puntos, cuarenta y pocos caracteres— no hay espacios suficientes entre
-   los que repartir el sobrante. Una línea con tres palabras largas se abría
-   en canal y la de al lado quedaba apretada. Leyendo se ve enseguida: unas
-   frases con más aire entre palabras que otras.
+/* El margen a plomo y el espacio entre palabras, las dos cosas.
+   El texto va justificado, que es lo que hace cualquier libro y lo que evita
+   el mordisco de hasta cien puntos que dejaba una palabra larga al irse
+   entera a la línea siguiente. Justificar en una columna de 331 puntos solo
+   sale bien si se pueden partir palabras: si no, la línea se cuadra estirando
+   los espacios y unas frases quedan con mucho más aire que otras. Medido en
+   la entrada de César sin partir: de 4,45 puntos de espacio en una línea a
+   21,2 en otra.
 
-   Así que manda el espaciado y no el margen. Alineado a la izquierda, el
-   espacio entre palabras es exactamente el mismo en todas las líneas de toda
-   la app, que es como se lee sin tropezar.
-
-   La partición de palabras se queda: con el texto a la izquierda ya no sirve
-   para no estirar espacios —no hay nada que estirar—, pero sigue haciendo su
-   otro trabajo, que es que una palabra larga no se vaya entera a la línea
-   siguiente y deje un mordisco de cien puntos en el margen. El borde derecho
-   queda desigual, como en cualquier libro sin justificar, pero poco.
-
-   `hyphenate-limit-chars: 6 3 3` prohíbe los cortes feos: solo parte palabras
-   de seis letras o más, y nunca deja menos de tres letras a un lado.
-
-   Ojo: la partición la hace el navegador con el diccionario del idioma, y lo
-   coge del `lang="es"` del documento. */
+   Los guiones NO los pone esta hoja. `hyphens: auto` necesita el diccionario
+   del idioma, el navegador lo busca por el `lang` del documento y la página
+   que se publica como artefacto no trae `<html>` propio: allí no partía nada.
+   Se ponen en el texto, como guiones blandos, desde `src/silabas.ts`, que no
+   depende del navegador. `hyphens: auto` se queda de refuerzo para donde sí
+   haya diccionario. */
 .muro-entrada,
 .short-cuerpo {
-  text-align: left;
+  text-align: justify;
+  text-align-last: left;
   hyphens: auto;
   -webkit-hyphens: auto;
   hyphenate-limit-chars: 6 3 3;

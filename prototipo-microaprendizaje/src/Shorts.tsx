@@ -10,6 +10,7 @@ import {
   type PanInfo,
 } from "framer-motion";
 import { SHORTS, urlFoto, type Foto, type Pagina, type Short } from "./shorts";
+import { conGuiones } from "./silabas";
 import { PORTADAS } from "./portadas";
 import { Cartel } from "./Cartel";
 import { GlyphHeart, GlyphRayo, GlyphShare } from "./glyphs";
@@ -784,7 +785,10 @@ function Portada({ short }: { short: Short }) {
         variants={enterVariants}
         initial="hidden"
         animate="shown"
-        dangerouslySetInnerHTML={{ __html: short.entrada }}
+        /* Con guiones blandos: el texto va justificado y en una columna tan
+           estrecha, sin poder partir palabras, la justificación estira los
+           espacios hasta que se nota. Ver `silabas.ts`. */
+        dangerouslySetInnerHTML={{ __html: conGuiones(short.entrada) }}
       />
     </>
   );
@@ -812,7 +816,7 @@ function CuerpoPagina({
         variants={enterVariants}
         initial="hidden"
         animate="shown"
-        dangerouslySetInnerHTML={{ __html: pagina.texto }}
+        dangerouslySetInnerHTML={{ __html: conGuiones(pagina.texto) }}
       />
 
       {pagina.destacado && <Destacado dato={pagina.destacado} reducido={reducido} />}
