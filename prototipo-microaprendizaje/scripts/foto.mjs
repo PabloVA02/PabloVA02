@@ -33,10 +33,30 @@ async function trae(url, binario = false) {
   return stdout;
 }
 
+/* Commons corta cuando se le pide mucho seguido, y no con un código de error:
+   con una página de texto que empieza por «You are making too many requests».
+   Antes eso reventaba el guion con un error de JSON y había que repetir a mano
+   la búsqueda, que es la mitad del trabajo de ilustrar. Ahora se espera y se
+   reintenta: seis intentos separándose cada vez más, hasta algo más de dos
+   minutos en total, que es lo que suele tardar en levantarse el bloqueo. */
+const espera = (ms) => new Promise((r) => setTimeout(r, ms));
+
 async function pide(params) {
   const u = new URL(API);
   for (const [k, v] of Object.entries({ format: "json", ...params })) u.searchParams.set(k, v);
-  return JSON.parse(await trae(u.toString()));
+  let ultimo;
+  for (let intento = 0; intento < 6; intento++) {
+    if (intento) await espera(2000 * 2 ** (intento - 1));
+    const texto = await trae(u.toString());
+    try {
+      return JSON.parse(texto);
+    } catch (e) {
+      ultimo = /too many requests/i.test(texto)
+        ? new Error("Commons está limitando las peticiones y no ha cedido en dos minutos")
+        : e;
+    }
+  }
+  throw ultimo;
 }
 
 async function buscar(texto, cuantas = 12) {
