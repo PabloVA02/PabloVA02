@@ -373,9 +373,9 @@ body.simulador {
 <script>
 document.body.classList.add("simulador");
 
-/* El `<html>` de esta página lo pone el visor y va sin idioma. Los guiones de
+/* El html de esta página lo pone el visor y va sin idioma. Los guiones de
    partición ya vienen puestos en el texto, así que esto no es imprescindible,
-   pero sin `lang` el navegador tampoco sabe deletrear ni leer en voz alta. */
+   pero sin idioma el navegador tampoco sabe leerlo en voz alta. */
 document.documentElement.lang = "es";
 
 /* Esto se publica para mirar las fotografías, así que abre en el muro y no en
