@@ -36,7 +36,6 @@ import { chromium } from "playwright";
 
 const ejecuta = promisify(execFile);
 const RAIZ = new URL("..", import.meta.url).pathname;
-const DIST = join(RAIZ, "dist-uno", "assets");
 const HISTORIAS = join(RAIZ, "src", "historias");
 const CACHE = "/tmp/curva-movil-fotos";
 const UA = "Curva/1.0 (proyecto educativo; contacto: pabloverdalo@gmail.com)";
@@ -52,6 +51,19 @@ const arg = (nombre, porDefecto) => {
    sobre el tope de 16. */
 const ANCHO = Number(arg("--ancho", 400));
 const CALIDAD = Number(arg("--calidad", 0.74));
+/* De dónde sale la app compilada. Por defecto `dist-uno`, que lleva los libros
+   dentro; `dist-artefacto` los deja como trozos aparte y libera siete megas
+   para fotografías. Se coge el trozo de entrada, no el primero por orden. */
+const DIST_DIR = arg("--dist", "dist-uno");
+/* La lista, en el orden del muro, de las fotografías que hay que meter. Sin
+   ella entran todas, que es lo que se hacía cuando cabían. Con dos mil ya no
+   caben, así que se llenan los megas disponibles empezando por el principio
+   del muro y el resto de historias salen con su cartel. */
+const LISTA = arg("--lista", null);
+/* Cuántos megas de fotografía como mucho. El tope de publicación son 16 y la
+   app ocupa lo que ocupe, así que esto es lo que sobra menos un margen. */
+const TOPE = Number(arg("--tope", 0)) * 1024 * 1024;
+const DIST = join(RAIZ, DIST_DIR, "assets");
 /* A Commons se le pide más grande de lo que se guarda: reducir a partir de una
    imagen holgada sale más limpio que pedirle a Commons la miniatura justa. */
 const ORIGEN = 800;
@@ -62,10 +74,14 @@ const mb = (n) => `${(n / 1024 / 1024).toFixed(1)} MB`;
 /* -- 1. Qué fotos hay que llevarse ---------------------------------------- */
 
 const nombres = new Set();
-for (const f of readdirSync(HISTORIAS).filter((x) => x.endsWith(".ts"))) {
-  const texto = readFileSync(join(HISTORIAS, f), "utf8");
-  for (const m of texto.matchAll(/archivo:\s*\n?\s*"((?:[^"\\]|\\.)*)"/g))
-    nombres.add(m[1].replace(/\\"/g, '"'));
+if (LISTA) {
+  for (const n of JSON.parse(readFileSync(LISTA, "utf8"))) nombres.add(n);
+} else {
+  for (const f of readdirSync(HISTORIAS).filter((x) => x.endsWith(".ts"))) {
+    const texto = readFileSync(join(HISTORIAS, f), "utf8");
+    for (const m of texto.matchAll(/archivo:\s*\n?\s*"((?:[^"\\]|\\.)*)"/g))
+      nombres.add(m[1].replace(/\\"/g, '"'));
+  }
 }
 console.log(`${nombres.size} fotografías de Commons que empotrar`);
 
@@ -141,9 +157,14 @@ const hoja = await navegador.newPage();
 const tabla = new Map();
 let peso = 0;
 
-const lote = (n) => crudas.size && [...crudas.keys()].slice(n, n + 10);
-for (let i = 0; i < crudas.size; i += 10) {
-  const grupo = lote(i).map((n) => [n, crudas.get(n)]);
+/* En el orden en que se pidieron, que es el del muro: si hay que cortar por
+   peso, lo que se queda fuera son las historias del final y no unas cuantas
+   sueltas repartidas por todo el muro. */
+const cola = [...nombres].filter((n) => crudas.has(n));
+let cortado = 0;
+for (let i = 0; i < cola.length; i += 10) {
+  if (TOPE && peso > TOPE) { cortado = cola.length - i; break; }
+  const grupo = cola.slice(i, i + 10).map((n) => [n, crudas.get(n)]);
   const hechas = await hoja.evaluate(async ([grupo, ancho, calidad]) => {
     const lienzo = document.createElement("canvas");
     const pincel = lienzo.getContext("2d");
@@ -165,17 +186,21 @@ for (let i = 0; i < crudas.size; i += 10) {
     tabla.set(nombre, datos);
     peso += datos.length;
   }
-  process.stdout.write(`\r  reescritas ${tabla.size}/${crudas.size}`);
+  process.stdout.write(`\r  reescritas ${tabla.size}/${cola.length}`);
 }
 await navegador.close();
 console.log(`\n  ${tabla.size} en WebP de ${ANCHO} de ancho · ${mb(peso)} ya en texto`);
+if (cortado) console.log(`  ${cortado} se quedaron fuera por el tope de ${mb(TOPE)}`);
 
 /* -- 3. La app compilada -------------------------------------------------- */
 
 const activos = readdirSync(DIST);
 const leer = (ext) => {
-  const f = activos.find((a) => a.endsWith(ext));
-  if (!f) throw new Error(`No hay ningún ${ext} en dist-uno/assets. ¿Has compilado?`);
+  /* Con los libros en trozos aparte hay muchos `.js` en la carpeta y el que
+     hace falta es el de entrada, que es el que Vite llama `index`. */
+  const f = activos.find((a) => a.startsWith("index") && a.endsWith(ext))
+    ?? activos.find((a) => a.endsWith(ext));
+  if (!f) throw new Error(`No hay ningún ${ext} en ${DIST_DIR}/assets. ¿Has compilado?`);
   return readFileSync(join(DIST, f), "utf8").trim();
 };
 const css = leer(".css");
