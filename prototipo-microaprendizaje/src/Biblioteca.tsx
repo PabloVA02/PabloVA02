@@ -9,6 +9,7 @@ import { Llama } from "./Racha";
 import { enterVariants, spring, springPop, springSoft } from "./motion";
 import { GlyphBack, GlyphClose, GlyphDescargar, GlyphGuardar, GlyphShare } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
+import { PortadaLibro } from "./PortadaLibro";
 
 /* ==========================================================================
    La biblioteca: inicio y ficha de libro.
@@ -162,14 +163,15 @@ export const porId = (id: string) => LIBROS.find((l) => l.id === id);
 
 export function Portada({ libro, tamano = 140 }: { libro: Libro; tamano?: number }) {
   return (
-    <div className="portada" style={{ width: tamano, height: tamano, background: libro.color }}>
-      <svg viewBox={libro.vb} aria-hidden>
-        <g opacity="0.95">
-          <libro.Arte banda="fondo" />
-          <libro.Arte banda="medio" />
-          <libro.Arte banda="frente" />
-        </g>
-      </svg>
+    <div className="portada" style={{ width: tamano, height: tamano }}>
+      <PortadaLibro
+        id={libro.id}
+        titulo={libro.titulo}
+        autor={libro.autor}
+        categoria={libro.categoria}
+        color={libro.color}
+        tamano={tamano}
+      />
     </div>
   );
 }

@@ -5925,3 +5925,118 @@ button {
   .muro-entrada,
   .short-cuerpo { font-size: 4.25cqw; }
 }
+
+/* ==========================================================================
+   Las portadas de la biblioteca.
+
+   Una colección: el mismo esqueleto en las ciento noventa y cuatro y el color
+   y el emblema por categoría. El razonamiento entero está en
+   `src/PortadaLibro.tsx`; aquí solo va la maqueta.
+
+   Todo se mide en `--u`, que es la centésima parte del lado de la portada. La
+   misma pieza sirve a 52 puntos en «Retomar» y a 150 en la ficha, sin escribir
+   ninguna medida dos veces.
+   ========================================================================== */
+
+.port {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(120% 90% at 50% 0%, #f7f2e9 0%, var(--paper) 58%, #ece3d3 100%);
+  /* Tres filas y no una columna flexible: la del medio se come lo que sobre y
+     el pie se queda pegado abajo pase lo que pase. Con `margin-top: auto` en
+     flex, el pie se salía por debajo cuando el contenedor no tenía altura
+     propia —en la parrilla la portada la fija `aspect-ratio`— y el título
+     quedaba cortado justo por el filo. */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  justify-items: center;
+  overflow: hidden;
+}
+
+/* El filete de dentro, que es lo que hace que parezca una cubierta y no un
+   cuadro de color: dos reglas finas separadas del borde. */
+.port-marco {
+  position: absolute;
+  inset: calc(var(--u) * 5.5);
+  border: 1px solid color-mix(in srgb, var(--tinta-portada) 42%, transparent);
+  pointer-events: none;
+}
+.port-marco::after {
+  content: "";
+  position: absolute;
+  inset: calc(var(--u) * 1.6);
+  border: 1px solid color-mix(in srgb, var(--tinta-portada) 20%, transparent);
+}
+
+.port-ceja {
+  position: relative;
+  margin-top: calc(var(--u) * 7);
+  font-size: calc(var(--u) * 5);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--tinta-portada) 88%, var(--ink));
+}
+
+.port-emblema {
+  position: relative;
+  width: calc(var(--u) * 34);
+  height: calc(var(--u) * 34);
+  align-self: center;
+  min-height: 0;
+}
+
+/* Sin texto —a tamaño pequeño— el emblema manda y se pone en el centro. */
+.port[data-texto="no"] .port-emblema {
+  width: calc(var(--u) * 62);
+  height: calc(var(--u) * 62);
+  grid-row: 1 / -1;
+}
+
+.port-pie {
+  position: relative;
+  padding: 0 calc(var(--u) * 9) calc(var(--u) * 9.5);
+  text-align: center;
+  width: 100%;
+}
+
+.port-regla {
+  width: calc(var(--u) * 14);
+  height: 1.5px;
+  margin: 0 auto calc(var(--u) * 4.5);
+  background: color-mix(in srgb, var(--tinta-portada) 70%, transparent);
+}
+
+.port-titulo {
+  font-family: var(--titular);
+  font-weight: 560;
+  line-height: 1.14;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-wrap: balance;
+  /* Tres líneas como mucho: a partir de ahí el título se come el emblema. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+}
+
+/* Un título largo prefiere tres líneas más pequeñas a dos con puntos
+   suspensivos: en una portada, un título cortado es un defecto. */
+.port[data-largo="si"] .port-titulo {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.port-autor {
+  margin-top: calc(var(--u) * 3.6);
+  font-size: calc(var(--u) * 5.2);
+  font-weight: 620;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
