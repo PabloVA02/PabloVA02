@@ -214,6 +214,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "astrofisica-prisa": {
+    archivo: "Orion Nebula- Peering into the Orion Nebula (2007-orion - orion 4k).jpg",
+    autor: "La nebulosa de Orión, fotografiada por los telescopios Hubble y Chandra. NASA/ESA, 2007.",
+    licencia: "Public domain",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AOrion%20Nebula-%20Peering%20into%20the%20Orion%20Nebula%20(2007-orion%20-%20orion%204k).jpg",
+    foco: "45% 50%",
+    alt: "Nubes de gas rosadas y doradas con cientos de estrellas nuevas encendidas dentro.",
+  },
+
+  einstein: {
+    archivo: "Solar Eclipse April 8, 2024.jpg",
+    autor: "La corona solar durante el eclipse total del 8 de abril de 2024.",
+    licencia: "CC BY 2.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASolar%20Eclipse%20April%208%2C%202024.jpg",
+    foco: "50% 50%",
+    alt: "El disco negro de la Luna tapando el Sol, con la corona blanca alrededor.",
+  },
+
   "mientras-escribo": {
     archivo: "Vintage typewriter (Unsplash).jpg",
     autor: "Máquina de escribir con una hoja puesta. Fotografía de Florian Klauer, 2014.",
