@@ -150,7 +150,7 @@ export const SILLA_DE_RUEDAS: Short[] = [
     curioso: true,
     encargo: "Silla de baloncesto adaptado vista de frente, con las ruedas muy inclinadas.",
     entrada:
-      "Estados Unidos, 1946, cuando los hospitales de veteranos de la Segunda Guerra Mundial organizan los primeros partidos en silla de ruedas. De aquellos partidos sale un deporte que hoy es paralímpico y una silla que no se parece nada a la de calle. El detalle más visible es que las ruedas van muy inclinadas hacia fuera por abajo.",
+      "Estados Unidos, 1946, cuando los hospitales de veteranos de la Segunda Guerra Mundial organizan los primeros partidos en silla de ruedas para gente que acaba de volver del frente y va a pasar el resto de su vida sentada. De aquellos partidos improvisados en un gimnasio sale un deporte que hoy es paralímpico y también una silla que no se parece en nada a la de calle. El detalle más visible en cuanto se mira una de cerca es que las ruedas van muy inclinadas hacia fuera por la parte de abajo.",
     paginas: [
       {
         rotulo: "La inclinación",
