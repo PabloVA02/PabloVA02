@@ -214,6 +214,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "el-elemento": {
+    archivo: "Fingers on the piano keys (Unsplash).jpg",
+    autor: "Manos sobre el teclado de un piano. Fotografía de Gabriel Barletta, 2014.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AFingers%20on%20the%20piano%20keys%20(Unsplash).jpg",
+    foco: "40% 50%",
+    alt: "Dos manos tocando el piano, con las teclas en primer plano y el fondo desenfocado.",
+  },
+
+  "semana-4-horas": {
+    archivo: "Amboy (California, USA), Hist. Route 66 -- 2012 -- 1.jpg",
+    autor: "La Ruta 66 a la altura de Amboy, en California. Fotografía de Dietmar Rabich, 2012.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AAmboy%20(California%2C%20USA)%2C%20Hist.%20Route%2066%20--%202012%20--%201.jpg",
+    foco: "45% 55%",
+    alt: "Una carretera recta en el desierto con el escudo de la Ruta 66 pintado en el asfalto.",
+  },
+
   enquiridion: {
     archivo: "Bust of Germanicus, front - Getty Museum (2021.66).jpg",
     autor: "Busto romano en mármol de Germánico, siglo I. J. Paul Getty Museum, Los Ángeles.",
