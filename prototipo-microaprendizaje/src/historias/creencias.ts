@@ -162,7 +162,7 @@ export const CREENCIAS: Short[] = [
     curioso: true,
     encargo: "Un cielo de invierno con el sol muy bajo entre columnas de piedra.",
     entrada:
-      "En los cuatro evangelios, escritos en el siglo I, hay genealogías, milagros y discursos enteros, pero no hay una sola fecha de nacimiento. Los primeros cristianos tampoco celebraban cumpleaños: los tenían por costumbre pagana, y lo que conmemoraban era la muerte. Durante casi trescientos años nadie celebró la Navidad, sencillamente porque a nadie se le había ocurrido.",
+      "En los cuatro evangelios, escritos en el siglo I, hay genealogías completas, milagros, discursos enteros y hasta listas de nombres, pero no hay ni una sola fecha de nacimiento por ninguna parte. Los primeros cristianos tampoco celebraban cumpleaños: los tenían por una costumbre pagana y algo frívola, y lo que conmemoraban de una persona era el día de su muerte. Durante casi trescientos años nadie celebró la Navidad, sencillamente porque a nadie se le había pasado por la cabeza que hubiera que celebrarla. La fecha se fijó mucho después y por otros motivos.",
     paginas: [
       {
         rotulo: "Las pistas del texto",

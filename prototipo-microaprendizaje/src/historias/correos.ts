@@ -161,7 +161,7 @@ export const CORREOS: Short[] = [
     curioso: true,
     encargo: "Un baúl de cuero abierto lleno de cartas dobladas y atadas con cordel.",
     entrada:
-      "La Haya, Países Bajos, 1926. Un museo postal recibe la donación de un baúl de cuero que perteneció a un matrimonio de administradores de correos del siglo XVII. Dentro hay dos mil seiscientas cartas de toda Europa que nunca se entregaron, porque el destinatario no apareció o se negó a pagar. Seiscientas de ellas siguen cerradas y lacradas.",
+      "La Haya, Países Bajos, 1926. Un museo postal recibe la donación de un baúl de cuero que perteneció a un matrimonio de administradores de correos del siglo XVII y que llevaba dos siglos y medio guardado sin que nadie lo vaciara. Dentro hay dos mil seiscientas cartas venidas de toda Europa que nunca llegaron a entregarse, porque el destinatario no apareció o porque se negó a pagar el porte, que en aquella época lo pagaba quien recibía. Seiscientas de ellas siguen hoy cerradas, dobladas y lacradas, sin abrir. Y ahí está el problema.",
     paginas: [
       {
         rotulo: "El plegado",
