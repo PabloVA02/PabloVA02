@@ -144,7 +144,10 @@ for (const ruta of ficheros) {
     if (!situa.test(entrada) && !(paginas[0] && situa.test(paginas[0][2])))
       aviso(id, "no sitúa en el tiempo (ni en la entrada ni en la página 1)");
 
-    if (paginas.length !== 3) aviso(id, `${paginas.length} páginas (deben ser 3)`);
+    /* La horquilla la decide el tema. Menos de dos no es un short y más de
+       cinco ya no se lee de una sentada. */
+    if (paginas.length < 2 || paginas.length > 5)
+      aviso(id, `${paginas.length} páginas (deben ser entre 2 y 5)`);
     paginas.forEach(([, rotulo, texto], i) => {
       /* Regla 15 y la charla con Pablo: la medida buena no es un numero exacto
          sino el tiempo, unos dos o tres minutos el short entero. Lo que se
@@ -161,8 +164,10 @@ for (const ruta of ficheros) {
       if (n < suelo || n > 132) aviso(id, `página ${i + 1} de ${n} palabras (${suelo}-132)`);
       if (palabras(rotulo) > 4) aviso(id, `rótulo «${rotulo}» de más de 4 palabras`);
     });
-    if (paginas.length === 3 && !/^Lo que qued[óa]$/.test(paginas[2][1]))
-      aviso(id, `la página 3 se titula «${paginas[2][1]}» y debería ser «Lo que quedó»`);
+    /* El cierre es el de la ÚLTIMA página, sea la segunda o la quinta. */
+    const ultima = paginas[paginas.length - 1];
+    if (paginas.length >= 2 && !/^Lo que qued[óa]$/.test(ultima[1]))
+      aviso(id, `la última página se titula «${ultima[1]}» y debería ser «Lo que quedó»`);
 
     /* Regla 15: el dato es una cifra y la frase corta que la explica. El tope
        eran seis palabras y lo subo a nueve, que es lo que mide el más largo de

@@ -111,6 +111,7 @@ import { HIERRO } from "./historias/hierro";
 import { HIGIENE } from "./historias/higiene";
 import { HOSPITALES } from "./historias/hospitales";
 import { HUELGAS } from "./historias/huelgas";
+import { IDEAS } from "./historias/ideas";
 import { IDIOMAS_MUERTOS } from "./historias/idiomasmuertos";
 import { IMANES } from "./historias/imanes";
 import { IMPRENTA_ORIENTAL } from "./historias/imprentaoriental";
@@ -429,7 +430,12 @@ export type Short = {
   /** Texto de la portada, debajo de la foto. Unas 60 palabras. */
   entrada: string;
   /** Siempre tres. La forma es la misma en todas las historias. */
-  paginas: [Pagina, Pagina, Pagina];
+  /* Entre dos y cinco. Eran tres clavadas, y obligaba a estirar los temas
+     que se agotan en dos y a comprimir los que piden cuatro: la horquilla la
+     decide el tema, no la plantilla. El tope existe para que un short siga
+     siendo un short. */
+  paginas: [Pagina, Pagina] | [Pagina, Pagina, Pagina]
+    | [Pagina, Pagina, Pagina, Pagina] | [Pagina, Pagina, Pagina, Pagina, Pagina];
 };
 
 /** Minutos de lectura previstos. Iguales en todos, porque la forma es fija. */
@@ -453,7 +459,10 @@ function intercala(...grupos: Short[][]): Short[] {
   return salida;
 }
 
-const MURO: Short[] = intercala(
+/* Los de «Ideas» van delante del intercalado y no dentro: si entraran como
+   un grupo más, el intercalado los repartiría uno por vuelta y solo el
+   primero saldría arriba. Pablo los quiere los primeros, los cuatro. */
+const MURO: Short[] = [...IDEAS, ...intercala(
   FIGURAS,
   VIRUS_INFORMATICOS,
   ESCALERAS_MECANICAS,
@@ -689,7 +698,7 @@ const MURO: Short[] = intercala(
   DINERO,
   INVERNADEROS,
   MONEDA,
-);
+)];
 
 /* Para grabar el vídeo del anuncio hace falta poder decidir qué historias van
    delante y en qué orden, porque en un anuncio de treinta segundos no caben
