@@ -152,7 +152,7 @@ export const MOTOR: Short[] = [
     curioso: true,
     encargo: "Una hilera de carrocerías negras idénticas saliendo de una nave industrial.",
     entrada:
-      "Estados Unidos, 1913. Un fabricante de coches lleva cinco años vendiendo un modelo que la gente quiere y no puede pagar: cuesta lo que gana un obrero en casi dos años. Para abaratarlo se le ocurre invertir la lógica de la fábrica. En vez de que los operarios se acerquen al coche, hará que el coche se acerque a los operarios.",
+      "Estados Unidos, 1913. Un fabricante de coches lleva cinco años vendiendo un modelo que la gente quiere de verdad y no se puede permitir: cuesta lo que gana un obrero trabajando casi dos años enteros. Bajar el precio es lo único que le falta y no sabe por dónde meterle mano, hasta que se le ocurre invertir la lógica de la fábrica de arriba abajo. En vez de que los operarios se acerquen al coche con sus herramientas, hará que el coche se acerque a los operarios. Y de ahí salió, de rebote, el color con el que se lo asocia para siempre.",
     paginas: [
       {
         rotulo: "La cinta",

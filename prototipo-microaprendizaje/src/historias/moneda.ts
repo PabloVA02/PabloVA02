@@ -152,7 +152,7 @@ export const MONEDA: Short[] = [
     curioso: true,
     encargo: "Un montón de monedas pequeñas de cobre amontonadas en un platillo.",
     entrada:
-      "Canadá, 2012. El gobierno anuncia que deja de fabricar la moneda de un centavo y que la irá retirando de la circulación. El motivo es puramente aritmético: fabricar cada pieza cuesta más de lo que la pieza vale, contando el metal, la acuñación y el transporte. Varios países han hecho lo mismo antes y bastantes lo han hecho después.",
+      "Canadá, 2012. El gobierno anuncia que deja de fabricar la moneda de un centavo y que la irá retirando poco a poco de la circulación. No es una decisión política ni una manera de forzar los precios: el motivo es puramente aritmético y estaba en los informes desde hacía años. Fabricar cada pieza cuesta más de lo que la pieza vale, contando el metal, la acuñación y el transporte hasta los bancos. Varios países lo habían hecho antes y bastantes más lo han hecho después. La pregunta es qué pasa con los precios cuando desaparece la moneda más pequeña.",
     paginas: [
       {
         rotulo: "La cuenta",

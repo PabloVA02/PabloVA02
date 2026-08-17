@@ -149,7 +149,7 @@ export const MERCADOS: Short[] = [
     curioso: true,
     encargo: "Sacos de arroz apilados en un almacén de madera antiguo.",
     entrada:
-      "Japón, 1730. El gobierno autoriza oficialmente un mercado que llevaba décadas funcionando en la ciudad comercial más rica del país: allí no se compra arroz, se compran promesas de arroz futuro. Los señores feudales cobran sus rentas en grano, lo mandan a los almacenes de la ciudad y venden recibos, y con esos recibos se especula meses antes de la cosecha.",
+      "Japón, 1730. El gobierno autoriza oficialmente un mercado que llevaba ya décadas funcionando por su cuenta en la ciudad comercial más rica del país, y que no se parece a ningún otro: allí no se compra arroz, se compran promesas de arroz futuro. Los señores feudales cobran sus rentas del campo en grano, lo mandan a los almacenes de la ciudad y venden recibos de lo que hay guardado. Con esos recibos de papel se compra, se vende y se especula meses antes de que la cosecha esté sembrada siquiera. Es el primer mercado de futuros del que hay constancia, y funcionaba igual que los de ahora.",
     paginas: [
       {
         rotulo: "Vender promesas",

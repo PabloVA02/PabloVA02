@@ -150,7 +150,7 @@ export const MOLINOS: Short[] = [
     curioso: true,
     encargo: "Sacos de grano apilados junto a la tolva de un molino de piedra.",
     entrada:
-      "Europa, siglos XII a XVIII. En casi todos los pueblos había un solo molino, y en muchos sitios el señor obligaba por ley a moler allí y en ningún otro sitio. El molinero no cobraba en dinero, sino quedándose una parte del grano que le llevaban. Como nadie pesaba nada antes ni después, la desconfianza estaba servida desde el primer día.",
+      "Europa, siglos XII a XVIII. En casi todos los pueblos había un solo molino, y en muchos sitios el señor obligaba por ley a moler allí y en ningún otro lado, bajo multa. El molinero no cobraba en dinero, porque casi nadie tenía, sino quedándose con una parte del grano que le llevaban a moler. Y como nadie pesaba nada antes ni después, ni había manera práctica de comprobarlo, la desconfianza entre el pueblo y el molinero estaba servida desde el primer día. De aquella desconfianza salió el personaje más antipático de toda la literatura medieval.",
     paginas: [
       {
         rotulo: "El monopolio",

@@ -154,7 +154,7 @@ export const MICROSCOPIO: Short[] = [
     color: "var(--plum)",
     encargo: "Un microscopio electrónico grande y gris con una pantalla al lado.",
     entrada:
-      "Alemania, 1873. Un físico que trabaja para un fabricante de instrumentos ópticos publica una fórmula incómoda: por muy bien que se pula una lente, ningún microscopio de luz podrá distinguir dos puntos separados por menos de la mitad de la longitud de onda que los ilumina. Con luz visible, eso son unos doscientos nanómetros y no hay manera de bajar.",
+      "Alemania, 1873. Un físico que trabaja para un fabricante de instrumentos ópticos publica una fórmula bastante incómoda para su propio negocio: por muy bien que se pula una lente, por mucho dinero que se gaste y por mucho que mejore la técnica, ningún microscopio de luz podrá distinguir jamás dos puntos separados por menos de la mitad de la longitud de onda que los ilumina. Con luz visible, eso son unos doscientos nanómetros, y ahí se acaba. No es un problema de fabricación: es un techo. Y ese techo aguantó sesenta años, hasta que alguien cambió la luz por otra cosa.",
     paginas: [
       {
         rotulo: "El muro",

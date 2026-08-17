@@ -148,7 +148,7 @@ export const MINERIA: Short[] = [
     curioso: true,
     encargo: "Una galería subterránea con pilares gruesos de roca dejados a intervalos.",
     entrada:
-      "Minas de todo el mundo, desde la Antigüedad. Cuando se vacía una capa de mineral bajo tierra queda un hueco, y encima de ese hueco hay decenas o cientos de metros de roca que pesan muchísimo. El sistema más antiguo y más extendido para que no se venga abajo consiste en no sacarlo todo. Se dejan columnas del propio material sin extraer, repartidas por la galería como los pilares de un aparcamiento.",
+      "Minas de todo el mundo, desde la Antigüedad. Cuando se vacía una capa de mineral bajo tierra queda un hueco, y encima de ese hueco hay decenas o cientos de metros de roca que pesan una barbaridad y que quieren bajar. El sistema más antiguo y más extendido para que eso no ocurra consiste en no sacarlo todo, por raro que suene en un negocio que vive de sacar. Se dejan columnas del propio material sin extraer, repartidas por la galería como los pilares de un aparcamiento subterráneo. El problema llega el día en que la mina se agota y alguien quiere recuperar esos pilares.",
     paginas: [
       {
         rotulo: "Cámaras y pilares",
