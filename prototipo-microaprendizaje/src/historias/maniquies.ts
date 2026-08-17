@@ -152,7 +152,7 @@ export const MANIQUIES: Short[] = [
     color: "var(--ochre)",
     encargo: "Una figura mecanica de escaparate vista por detras, con varillas y un motor pequeno.",
     entrada:
-      "Grandes ciudades de Europa y de Estados Unidos, desde comienzos del siglo XX. Las tiendas comprueban que buena parte de las ventas del año entero se concentran en las seis semanas anteriores a la Navidad. Compiten entonces por lo único que pueden en la calle: detener al que pasa delante del cristal. Y lo que detiene a la gente no es más ropa, sino figuras que se mueven.",
+      "Grandes ciudades de Europa y de Estados Unidos, desde comienzos del siglo XX. Las tiendas hacen cuentas y comprueban una cosa que las condiciona entera: buena parte de las ventas de todo el año se concentran en las seis semanas anteriores a la Navidad. Con esa aritmética encima, compiten por lo único que pueden competir en la calle, que es detener durante unos segundos al que pasa por delante del cristal. Y lo que detiene a la gente, se descubre pronto, no es más ropa colgada: son figuras que se mueven. Y desde entonces se preparan con casi un año de antelación.",
     paginas: [
       {
         rotulo: "Los discos",

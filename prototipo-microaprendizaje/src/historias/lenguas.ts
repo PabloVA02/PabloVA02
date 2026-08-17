@@ -161,7 +161,7 @@ export const LENGUAS: Short[] = [
     color: "var(--slate)",
     encargo: "Un barranco profundo de La Gomera con laderas escarpadas y bruma al fondo.",
     entrada:
-      "La Gomera es una isla pequeña y muy vertical: barrancos hondos que obligan a caminar durante horas para llegar a un sitio que se ve desde enfrente. En ese terreno, gritar no sirve y andar cuesta media mañana. La solución que se usó allí durante siglos fue convertir el idioma en silbidos capaces de cruzar el aire de un lado al otro del barranco.",
+      "La Gomera es una isla pequeña y muy vertical, con barrancos tan hondos que obligan a caminar durante horas cuesta abajo y cuesta arriba para llegar a un sitio que se está viendo perfectamente desde enfrente, a quinientos metros en línea recta. En ese terreno, gritar no sirve de nada porque el eco se lo come todo, y andar cuesta media mañana. La solución que se usó allí durante siglos fue convertir el idioma entero en silbidos capaces de cruzar el aire de un lado al otro del barranco. No es un código de señales: es el español entero, silbado.",
     paginas: [
       {
         rotulo: "Cómo funciona",

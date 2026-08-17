@@ -151,7 +151,7 @@ export const LLAVES: Short[] = [
     color: "var(--clay)",
     encargo: "Una llave enorme de hierro forjado sobre un cojín de terciopelo rojo.",
     entrada:
-      "Europa, siglos XII a XVI. Las ciudades están rodeadas de murallas y sus puertas se cierran al ponerse el sol con cerrojos y llaves de hierro que pesan varios kilos. Quien guarda esas llaves manda de verdad: controla quién entra, quién sale, qué mercancía pasa y a qué hora. Por eso su entrega es el gesto más cargado de significado de la vida política de una ciudad.",
+      "Europa, siglos XII a XVI. Las ciudades están rodeadas de murallas y sus puertas se cierran al ponerse el sol con cerrojos y con llaves de hierro que pesan varios kilos y que hacen falta dos manos para girar. Quien guarda esas llaves manda de verdad, mucho más que quien tiene un título: controla quién entra, quién sale, qué mercancía pasa, qué impuesto paga y a qué hora. Por eso su entrega es el gesto más cargado de significado de toda la vida política de una ciudad medieval. Entregarlas significaba exactamente lo que parece que significa.",
     paginas: [
       {
         rotulo: "Rendirse o recibir",
