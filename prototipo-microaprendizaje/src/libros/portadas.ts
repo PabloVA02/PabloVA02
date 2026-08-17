@@ -214,6 +214,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "steve-jobs": {
+    archivo: "Trinamic TMC2209 stepper motor controller board.jpg",
+    autor: "Detalle de una placa de circuito impreso con su chip. Fotografía de Phiarc, 2023.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ATrinamic%20TMC2209%20stepper%20motor%20controller%20board.jpg",
+    foco: "45% 45%",
+    alt: "Un chip negro rodeado de componentes diminutos sobre una placa con pistas de cobre.",
+  },
+
+  "musica-primos": {
+    archivo: "Violin strings in close-up (Unsplash).jpg",
+    autor: "Cuerdas y efe de un violín vistas de cerca. Fotografía de Providence Doucet, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AViolin%20strings%20in%20close-up%20(Unsplash).jpg",
+    foco: "62% 50%",
+    alt: "La madera barnizada de un violín con su abertura en efe y las cuerdas tensadas.",
+  },
+
   "armas-germenes": {
     archivo: "Petra, Jordan -The Treasury.JPG",
     autor: "El Tesoro de Petra, excavado en la roca hacia el siglo I. Fotografía de 2015.",
