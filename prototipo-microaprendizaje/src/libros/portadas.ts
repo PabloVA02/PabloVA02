@@ -214,6 +214,33 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  anticancer: {
+    archivo: "Blue stream with a waterfall (Unsplash).jpg",
+    autor: "Cascada y arroyo en un bosque de helechos. Fotografía de Steve Bittinger, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ABlue%20stream%20with%20a%20waterfall%20(Unsplash).jpg",
+    foco: "50% 45%",
+    alt: "Una cascada cayendo en un bosque cerrado de helechos arbóreos, con el agua corriendo entre piedras.",
+  },
+
+  "sutil-arte": {
+    archivo: "Contrasting Landscapes (Unsplash).jpg",
+    autor: "Dunas de arena delante de una pradera verde. Fotografía de Benny Jackson, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AContrasting%20Landscapes%20(Unsplash).jpg",
+    foco: "50% 55%",
+    alt: "Una cordillera de dunas de arena sobre una franja de hierba, bajo un cielo nublado.",
+  },
+
+  "deja-de-ser-tu": {
+    archivo: "Long Exposure (Unsplash).jpg",
+    autor: "Estelas de faros en una carretera de noche, en larga exposición. Fotografía de Namra Desai, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ALong%20Exposure%20(Unsplash).jpg",
+    foco: "50% 55%",
+    alt: "Rayas rojas y blancas de luz cruzando la oscuridad de una carretera.",
+  },
+
   "aliento-aire": {
     archivo: "Brooklyn Bridge Sunrise Fog (Unsplash).jpg",
     autor: "El puente de Brooklyn entre la niebla del amanecer. Fotografía de Emanuel Hahn, 2017.",
