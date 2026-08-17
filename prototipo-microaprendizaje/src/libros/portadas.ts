@@ -214,6 +214,34 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  factfulness: {
+    archivo: "The Blue Marble 4463x4163.jpg",
+    autor: "La Tierra vista desde el Apolo 17, el 7 de diciembre de 1972. NASA.",
+    licencia: "Public domain",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20Blue%20Marble%204463x4163.jpg",
+    foco: "50% 50%",
+    alt: "La Tierra entera, azul y blanca, sobre el negro del espacio.",
+  },
+
+  antifragil: {
+    archivo: "Yaquina Head lighthouse, winter storm, Oregon (25807306508).jpg",
+    autor: "El faro de Yaquina Head durante un temporal de invierno, en Oregón. Fotografía de Bonnie Moreland, 2018.",
+    licencia: "Public domain",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AYaquina%20Head%20lighthouse%2C%20winter%20storm%2C%20Oregon%20(25807306508).jpg",
+    foco: "62% 45%",
+    alt: "Olas rompiendo en hileras de espuma delante de un faro sobre el acantilado.",
+  },
+
+  "por-que-fracasan": {
+    archivo: "City Lights of Asia and Middle East 2016.png",
+    autor: "Las luces de las ciudades de Asia vistas de noche desde satélite. NASA Earth Observatory, 2016.",
+    licencia: "Public domain",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ACity%20Lights%20of%20Asia%20and%20Middle%20East%202016.png",
+    foco: "50% 50%",
+    alt: "El globo terráqueo de noche: unas regiones cubiertas de luces doradas y otras a oscuras.",
+  },
+
   "cisne-negro": {
     archivo: "2025-11-02 Black swan in Parque Dom Carlos I.jpg",
     autor: "Cisne negro en un estanque del Parque Dom Carlos I, en Portugal. Fotografía de 2025.",
