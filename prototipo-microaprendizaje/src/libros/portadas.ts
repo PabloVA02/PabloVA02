@@ -214,6 +214,24 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "cosas-buenas": {
+    archivo: "Radiant sunflowers (Unsplash).jpg",
+    autor: "Girasoles abiertos al sol. Fotografía de Ryan Waxberg, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ARadiant%20sunflowers%20(Unsplash).jpg",
+    foco: "40% 45%",
+    alt: "Un girasol grande en primer plano con más girasoles desenfocados detrás.",
+  },
+
+  "paseo-aleatorio": {
+    archivo: "Würfel, gemischt -- 2021 -- 5577.jpg",
+    autor: "Dados de colores sobre una superficie negra. Fotografía de Dietmar Rabich, 2021.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AW%C3%BCrfel%2C%20gemischt%20--%202021%20--%205577.jpg",
+    foco: "50% 55%",
+    alt: "Un montón de dados azules, rojos y verdes reflejados sobre negro.",
+  },
+
   "cuerpo-cuenta": {
     archivo: "Yoga by the sea (Unsplash).jpg",
     autor: "Postura de yoga en la orilla al amanecer. Fotografía de Kristopher Allison, 2016.",
