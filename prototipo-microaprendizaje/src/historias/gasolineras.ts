@@ -149,7 +149,7 @@ export const GASOLINERAS: Short[] = [
     curioso: true,
     encargo: "Interior de tienda de gasolinera con la máquina de café y la caja al fondo.",
     entrada:
-      "Todo el mundo, con el modelo de tienda consolidado desde los años ochenta del siglo XX. Un conductor entra a echar cincuenta euros de combustible y sale con un café de dos. La cuenta parece obvia y está al revés, porque el margen que deja el combustible es de unos pocos céntimos por litro y el del café pasa del cincuenta por ciento.",
+      "Todo el mundo, con el modelo de tienda consolidado desde los años ochenta del siglo XX. Un conductor entra en una gasolinera, echa cincuenta euros de combustible y sale con un café de dos euros y una bolsa de patatas. La cuenta parece obvia: lo importante es el depósito y lo demás es propina. Está exactamente al revés, y quien lleva la estación lo sabe perfectamente, porque el margen que deja el combustible son unos pocos céntimos por litro y el del café pasa del cincuenta por ciento. Toda la tienda está montada alrededor de esa cuenta, y se nota.",
     paginas: [
       {
         rotulo: "El margen",

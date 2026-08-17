@@ -169,7 +169,7 @@ export const GLOBOS: Short[] = [
     color: "var(--plum)",
     encargo: "Un globo pálido de papel sobre un cielo vacío de invierno, muy pequeño en el encuadre.",
     entrada:
-      "Japón, noviembre de 1944. El país no tiene ya aviones capaces de llegar a la costa americana, pero sus meteorólogos han medido algo que en el resto del mundo casi nadie ha estudiado: a diez kilómetros de altura sopla en invierno un río de aire hacia el este a más de doscientos kilómetros por hora. Deciden meter bombas en ese río.",
+      "Japón, noviembre de 1944. El país ya no tiene aviones capaces de llegar hasta la costa americana ni portaaviones desde los que lanzarlos, y la guerra se le está poniendo muy cuesta arriba. Pero sus meteorólogos llevan años midiendo algo que en el resto del mundo casi nadie ha estudiado todavía: a diez kilómetros de altura sopla en invierno un río de aire hacia el este a más de doscientos kilómetros por hora. Alguien propone entonces una idea que suena a locura: meter bombas dentro de ese río. Fue el primer arma intercontinental de la historia, y era de papel.",
     paginas: [
       {
         rotulo: "Papel y algas",

@@ -151,7 +151,7 @@ export const FUNICULARES: Short[] = [
     color: "var(--plum)",
     encargo: "Una cabina de madera pintada subiendo entre casas de colores por una ladera empinada.",
     entrada:
-      "Valparaíso, Chile, 1883. La ciudad es entonces el puerto más importante del Pacífico americano, porque el canal de Panamá aún no existe y los barcos rodean el continente entero. Está encajada entre el mar y una corona de cerros muy empinados, con el puerto y el comercio abajo. Los trabajadores viven arriba, y para llegar a casa suben a pie escaleras de cientos de peldaños.",
+      "Valparaíso, Chile, 1883. La ciudad es entonces el puerto más importante del Pacífico americano, porque el canal de Panamá aún no existe y todos los barcos que van de un océano a otro tienen que rodear el continente entero y parar aquí. Está encajada entre el mar y una corona de cerros muy empinados, con el puerto, los almacenes y el comercio abajo, junto al agua. Los trabajadores viven arriba, en los cerros, y para llegar a casa después de la jornada suben a pie escaleras de cientos de peldaños. Aquel año alguien decidió que había una manera mejor de hacerlo.",
     paginas: [
       {
         rotulo: "Los cerros",

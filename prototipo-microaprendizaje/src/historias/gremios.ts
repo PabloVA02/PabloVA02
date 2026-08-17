@@ -152,7 +152,7 @@ export const GREMIOS: Short[] = [
     color: "var(--plum)",
     encargo: "Un telar de madera antiguo con los hilos tensados, en un taller en penumbra.",
     entrada:
-      "Danzig, en la costa del Báltico, hacia 1586. Un artesano presenta un telar capaz de tejer varias cintas a la vez, con lo que un solo operario produce lo que antes producían cuatro o cinco. El consejo de la ciudad, presionado por el gremio de tejedores, decide que aquel aparato dejará sin pan a demasiada gente. La crónica cuenta que mandó ahogar en secreto al inventor.",
+      "Danzig, en la costa del Báltico, hacia 1586. Un artesano presenta ante el consejo de la ciudad un telar capaz de tejer varias cintas a la vez, con lo que un solo operario produce lo que hasta entonces producían cuatro o cinco trabajando a la vez. El aparato funciona y cualquiera puede verlo funcionar. El consejo, presionado por el gremio de tejedores, decide que aquello dejará sin pan a demasiada gente de la ciudad. La crónica cuenta que mandó ahogar en secreto al inventor y que el telar desapareció. El episodio se sigue citando cada vez que aparece una máquina nueva.",
     paginas: [
       {
         rotulo: "La historia",
