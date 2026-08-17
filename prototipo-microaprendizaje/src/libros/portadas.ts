@@ -214,6 +214,33 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "por-que-dormimos": {
+    archivo: "Moon on an inky cludy sky (Unsplash).jpg",
+    autor: "La luna llena entre nubes, de noche. Fotografía de Gabriel Santiago, 2014.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AMoon%20on%20an%20inky%20cludy%20sky%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "La luna pequeña y blanca en un cielo azul oscurísimo con nubes deshechas.",
+  },
+
+  "roba-artista": {
+    archivo: "Splattered paint on wall (Unsplash).jpg",
+    autor: "Pared de un taller manchada por años de pintura. Fotografía de Patrick Tomasso, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASplattered%20paint%20on%20wall%20(Unsplash).jpg",
+    foco: "50% 45%",
+    alt: "Una pared cubierta de salpicaduras y chorretones de pintura de muchos colores.",
+  },
+
+  invencible: {
+    archivo: "Rock Climbing in Winter (Unsplash).jpg",
+    autor: "Escaladores en una pared de granito con nieve. Fotografía de Mathieu Daix, 2015.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ARock%20Climbing%20in%20Winter%20(Unsplash).jpg",
+    foco: "45% 50%",
+    alt: "Agujas de granito con neveros, y escaladores diminutos pegados a la pared.",
+  },
+
   anticancer: {
     archivo: "Blue stream with a waterfall (Unsplash).jpg",
     autor: "Cascada y arroyo en un bosque de helechos. Fotografía de Steve Bittinger, 2016.",
