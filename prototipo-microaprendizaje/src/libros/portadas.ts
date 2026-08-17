@@ -214,6 +214,43 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "cero-a-uno": {
+    archivo: "Vandenberg Air Force Base, United States (Unsplash qjgdslbEn-I).jpg",
+    autor: "Despegue de un cohete en la base de Vandenberg, California. Fotografía de Tim Mossholder, 2017.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AVandenberg%20Air%20Force%20Base%2C%20United%20States%20(Unsplash%20qjgdslbEn-I).jpg",
+    foco: "50% 45%",
+    alt: "Un cohete subiendo sobre una columna de humo blanco, con un pino en primer plano.",
+  },
+
+  "nacidos-correr": {
+    archivo: "Brussels marathon runners (Unsplash).jpg",
+    autor: "Corredores de la maratón de Bruselas. Fotografía de Martins Zemlickis, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ABrussels%20marathon%20runners%20(Unsplash).jpg",
+    foco: "50% 55%",
+    alt: "Un río de corredores bajando por una avenida entre árboles, vistos desde arriba.",
+  },
+
+  "ser-mortal": {
+    archivo: "Old pocket watch (Unsplash UIUgYu9bENU).jpg",
+    autor: "Un reloj de bolsillo antiguo colgando de su cadena. Fotografía de Rodion Kutsaev, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AOld%20pocket%20watch%20(Unsplash%20UIUgYu9bENU).jpg",
+    foco: "45% 55%",
+    alt: "Un reloj de bolsillo abierto, con la esfera blanca nítida y el fondo verde desenfocado.",
+  },
+
+  "lean-startup": {
+    archivo: "JCSAT-14 Launch (26751237322).jpg",
+    autor: "Trayectoria de un lanzamiento nocturno, en larga exposición. SpaceX, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AJCSAT-14%20Launch%20(26751237322).jpg",
+    foco: "50% 50%",
+    alt: "El arco de luz que deja un cohete al despegar de noche, sobre el horizonte.",
+  },
+
   "marte-venus": {
     archivo: "Venus - Computer Simulated Global View (7302574832).jpg",
     autor: "Venus reconstruido con los datos de radar de la sonda Magallanes. NASA.",
