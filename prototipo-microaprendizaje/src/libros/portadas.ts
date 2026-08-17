@@ -214,6 +214,33 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "camino-artista": {
+    archivo: "Mix of paints (Unsplash).jpg",
+    autor: "Paleta con pintura recién puesta. Fotografía de Mike Petrucci, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AMix%20of%20paints%20(Unsplash).jpg",
+    foco: "50% 45%",
+    alt: "Una paleta redonda con montoncitos de pintura de muchos colores y un pincel encima.",
+  },
+
+  reproductibilidad: {
+    archivo: "Wood letterpress type.jpg",
+    autor: "Tipos de imprenta de madera. Fotografía de 2010.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AWood%20letterpress%20type.jpg",
+    foco: "50% 50%",
+    alt: "Letras de madera de imprenta amontonadas, gastadas y manchadas de tinta.",
+  },
+
+  "guerra-arte": {
+    archivo: "A notebook with paint brushes.jpg",
+    autor: "Cuaderno en blanco con pinceles y acuarelas. Fotografía de Tim Arterbury, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AA%20notebook%20with%20paint%20brushes.jpg",
+    foco: "58% 50%",
+    alt: "Un cuaderno abierto por una página en blanco, con pinceles y una caja de acuarelas al lado.",
+  },
+
   "casa-espiritus": {
     archivo: "Cuernos del Paine at Torres del Paine.jpg",
     autor: "Los Cuernos del Paine, en la Patagonia chilena. Fotografía de 2024.",
