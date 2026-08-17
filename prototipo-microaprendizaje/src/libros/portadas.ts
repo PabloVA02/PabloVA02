@@ -214,6 +214,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "cuatro-acuerdos": {
+    archivo: "Teotihuacan, the Pyramid of the Sun 2019-10-04.jpg",
+    autor: "La pirámide del Sol de Teotihuacán, en México. Fotografía de Alexey Komarov, 2019.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ATeotihuacan%2C%20the%20Pyramid%20of%20the%20Sun%202019-10-04.jpg",
+    foco: "65% 45%",
+    alt: "La pirámide escalonada asomando por encima de los árboles y la hierba alta.",
+  },
+
+  "mundo-sofia": {
+    archivo: "Geirangerfjord .jpg",
+    autor: "El fiordo de Geiranger, en Noruega. Fotografía de Andreas Trepte, 2010.",
+    licencia: "CC BY-SA 2.5",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AGeirangerfjord%20.jpg",
+    foco: "50% 55%",
+    alt: "Un fiordo estrecho entre montañas verdes, con un barco diminuto en el agua.",
+  },
+
   "mas-alla-bien-mal": {
     archivo: "Silsersee from above Sils-Segl Maria.jpg",
     autor: "El lago de Sils, en la Engadina suiza, donde Nietzsche pasaba los veranos. Fotografía de 2017.",
