@@ -214,6 +214,24 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "casa-espiritus": {
+    archivo: "Cuernos del Paine at Torres del Paine.jpg",
+    autor: "Los Cuernos del Paine, en la Patagonia chilena. Fotografía de 2024.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ACuernos%20del%20Paine%20at%20Torres%20del%20Paine.jpg",
+    foco: "45% 50%",
+    alt: "Cumbres de roca oscura y nieve bajo nubes revueltas, sobre laderas verdes.",
+  },
+
+  extranjero: {
+    archivo: "Leigh-on-Sea beach sunset (Unsplash).jpg",
+    autor: "El sol tocando el mar en Leigh-on-Sea. Fotografía de Joshua Fuller, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ALeigh-on-Sea%20beach%20sunset%20(Unsplash).jpg",
+    foco: "50% 45%",
+    alt: "El sol blanco sobre la línea del horizonte, con el cielo naranja y la arena mojada brillando.",
+  },
+
   ficciones: {
     archivo: "Spiral staircase (Unsplash).jpg",
     autor: "Escalera de caracol vista desde arriba. Fotografía de chuttersnap, 2016.",
