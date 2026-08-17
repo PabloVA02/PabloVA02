@@ -214,6 +214,36 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "intro-psicoanalisis": {
+    archivo: "La Bohémienne endormie.jpg",
+    autor: "La gitana dormida, óleo de Henri Rousseau, 1897. MoMA, Nueva York.",
+    licencia: "Public domain",
+    pdPorEdad: 1910,
+    fuente: "https://commons.wikimedia.org/wiki/File%3ALa%20Boh%C3%A9mienne%20endormie.jpg",
+    foco: "45% 50%",
+    alt: "Una mujer dormida en el desierto bajo la luna, con un león oliéndola al lado.",
+  },
+
+  "doctrina-shock": {
+    archivo:
+      "冨嶽三十六景 神奈川沖浪裏-Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei) MET DP141063.jpg",
+    autor: "La gran ola de Kanagawa, estampa de Katsushika Hokusai, hacia 1830. Metropolitan Museum of Art, Nueva York.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3A%E5%86%A8%E5%B6%BD%E4%B8%89%E5%8D%81%E5%85%AD%E6%99%AF%20%E7%A5%9E%E5%A5%88%E5%B7%9D%E6%B2%96%E6%B5%AA%E8%A3%8F-Under%20the%20Wave%20off%20Kanagawa%20(Kanagawa%20oki%20nami%20ura)%2C%20also%20known%20as%20The%20Great%20Wave%2C%20from%20the%20series%20Thirty-six%20Views%20of%20Mount%20Fuji%20(Fugaku%20sanj%C5%ABrokkei)%20MET%20DP141063.jpg",
+    foco: "38% 50%",
+    alt: "Una ola enorme con la cresta en garras a punto de caer sobre unas barcas.",
+  },
+
+  "poder-ahora": {
+    archivo: "Llyn Padarn sunrise.jpg",
+    autor: "Amanecer en el lago Padarn, en Gales. Fotografía de Richard Outram, 2009.",
+    licencia: "CC BY 2.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ALlyn%20Padarn%20sunrise.jpg",
+    foco: "50% 50%",
+    alt: "Un lago en calma reflejando las nubes rosadas del amanecer, entre árboles oscuros.",
+  },
+
   factfulness: {
     archivo: "The Blue Marble 4463x4163.jpg",
     autor: "La Tierra vista desde el Apolo 17, el 7 de diciembre de 1972. NASA.",
