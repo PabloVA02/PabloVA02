@@ -214,6 +214,16 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "ensayos-montaigne": {
+    archivo: "Reading room of the Bibliothèque Sainte-Geneviève in 2016.jpg",
+    autor: "Sala de lectura de la Biblioteca Sainte-Geneviève, en París. Fotografía de John Towner, 2016.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AReading%20room%20of%20the%20Biblioth%C3%A8que%20Sainte-Genevi%C3%A8ve%20in%202016.jpg",
+    foco: "50% 45%",
+    alt: "Una sala larga de lectura con bóvedas de hierro, arcos de piedra y lámparas verdes en las mesas.",
+  },
+
   "discurso-metodo": {
     archivo: "Unfathomed Beauty (Unsplash).jpg",
     autor: "Un paisaje visto —del revés— a través de una esfera de cristal. Fotografía de Elijah Hiett, 2017.",
