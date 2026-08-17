@@ -150,7 +150,7 @@ export const CEPILLO_DE_DIENTES: Short[] = [
     curioso: true,
     encargo: "Cepillo eléctrico sobre su base de carga, sin contactos metálicos a la vista.",
     entrada:
-      "Suiza, 1954. Un médico diseña un cepillo con motor pensando en dos grupos de pacientes muy concretos: los que tienen problemas de movilidad en las manos y los que llevan aparatos fijos en los dientes. El aparato se enchufaba a la corriente, cosa que en un cuarto de baño no era buena idea. Tardó veinte años en volverse seguro y otros treinta en ser corriente.",
+      "Suiza, 1954. Un médico diseña un cepillo de dientes con motor pensando en dos grupos de pacientes muy concretos, no en el público general: los que tienen problemas de movilidad en las manos y no pueden cepillarse bien, y los que llevan aparatos fijos en los dientes. La idea es buena y el aparato funciona. El problema es que se enchufaba directamente a la corriente de la pared, cosa que dentro de un cuarto de baño mojado no era ninguna buena idea. Tardó veinte años en volverse seguro y otros treinta en ser corriente.",
     paginas: [
       {
         rotulo: "Enchufe y agua",
