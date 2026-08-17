@@ -199,7 +199,7 @@ export const CUERPO: Short[] = [
     curioso: true,
     encargo: "Un renacuajo o un anfibio pequeño flotando en agua verdosa muy cercana.",
     entrada:
-      "El hipo consiste en una contracción brusca del diafragma, el músculo grande que hay bajo los pulmones. Detrás viene el cierre de golpe de la garganta, que es lo que produce el ruido. Ocurre unas veinte veces por minuto y no se puede controlar. Se estudia desde el siglo XIX y, a diferencia de toser o estornudar, no cumple ninguna función conocida.",
+      "El hipo consiste en una contracción brusca del diafragma, el músculo grande que hay debajo de los pulmones y que usamos para respirar. Detrás de esa contracción viene el cierre de golpe de la garganta, que es lo que produce el ruido. Ocurre unas veinte veces por minuto, no se puede controlar y no avisa. Se estudia desde el siglo XIX y, a diferencia de toser o de estornudar, que sirven para expulsar algo, no cumple ninguna función conocida en el cuerpo de un adulto. Es un reflejo entero que sobra. Y sin embargo lo tenemos todos, desde antes de nacer.",
     paginas: [
       {
         rotulo: "El nervio largo",

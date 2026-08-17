@@ -161,7 +161,7 @@ export const DEPORTE: Short[] = [
     curioso: true,
     encargo: "Primer plano de una pelota de golf sobre hierba corta, hoyuelos nítidos.",
     entrada:
-      "Una pelota lisa parece la forma más aerodinámica posible, y para casi todo lo que vuela lo es. Con una pelota de golf ocurre lo contrario: si se fabrica lisa, llega aproximadamente a la mitad de distancia que una con hoyuelos. Los golfistas del siglo XIX lo descubrieron sin entender nada, simplemente jugando con pelotas viejas.",
+      "Una pelota lisa parece la forma más aerodinámica posible, y para casi todo lo que vuela lo es: un avión o un tren se pulen precisamente para que el aire resbale. Con una pelota de golf ocurre exactamente lo contrario. Si se fabrica lisa y pulida, llega más o menos a la mitad de distancia que una llena de hoyuelos, con el mismo golpe y el mismo palo. Los golfistas del siglo XIX lo descubrieron sin entender nada de aerodinámica, simplemente jugando con pelotas viejas y comparando. Tardaron casi un siglo en saber por qué les funcionaba aquello que hacían a ojo.",
     paginas: [
       {
         rotulo: "El descubrimiento",
