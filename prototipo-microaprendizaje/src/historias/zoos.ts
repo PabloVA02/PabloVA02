@@ -153,7 +153,7 @@ export const ZOOS: Short[] = [
     color: "var(--plum)",
     encargo: "Un recinto de rocas artificiales con un foso ancho delante y sin rejas a la vista.",
     entrada:
-      "Hamburgo, 1907. Abre un parque zoológico construido con una idea completamente nueva: nada de jaulas con barrotes. Los animales están separados del público y unos de otros por fosos anchos y profundos, con rocas artificiales de hormigón detrás, de modo que desde el camino parece que leones y cebras comparten el mismo paisaje abierto.",
+      "Hamburgo, 1907. Abre un parque zoológico construido con una idea completamente nueva y que en su momento pareció una temeridad: nada de jaulas ni de barrotes por ninguna parte. Los animales están separados del público, y unos de otros, por fosos anchos y profundos, con rocas artificiales de hormigón levantadas detrás, de modo que desde el camino por donde pasa la gente parece que los leones y las cebras están compartiendo tranquilamente el mismo paisaje abierto. Y nadie se come a nadie. El truco es puramente geométrico y consiste en medir cuánto salta cada especie.",
     paginas: [
       {
         rotulo: "El salto medido",

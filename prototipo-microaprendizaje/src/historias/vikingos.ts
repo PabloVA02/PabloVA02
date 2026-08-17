@@ -153,7 +153,7 @@ export const VIKINGOS: Short[] = [
     color: "var(--plum)",
     encargo: "Una llanura de lava con una pared rocosa larga y hierba amarilla.",
     entrada:
-      "Islandia, año 930. Los colonos escandinavos que ocupan la isla desde hace medio siglo no tienen rey ni ejército. Deciden reunirse dos semanas cada verano en una llanura de lava del suroeste para resolver pleitos, aprobar leyes y cerrar acuerdos. Aquella asamblea sigue existiendo hoy y es el parlamento en funcionamiento más antiguo del mundo.",
+      "Islandia, año 930. Los colonos escandinavos que ocupan la isla desde hace medio siglo no tienen rey, ni ejército, ni ciudades, ni nadie por encima que pueda obligarles a nada. Lo que sí tienen son pleitos por tierras y por ganado que hay que resolver de alguna manera. Deciden reunirse dos semanas cada verano en una llanura de lava del suroeste para juzgar, aprobar leyes y cerrar acuerdos. Aquella asamblea sigue existiendo hoy y es el parlamento en funcionamiento más antiguo del mundo. El sitio no se eligió por bonito, sino por cómo sonaba la voz en él.",
     paginas: [
       {
         rotulo: "La roca",

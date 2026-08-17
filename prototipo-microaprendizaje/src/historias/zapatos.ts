@@ -149,7 +149,7 @@ export const ZAPATOS: Short[] = [
     color: "var(--ochre)",
     encargo: "Un banco de zapatero con herramientas, clavos y una suela a medio coser.",
     entrada:
-      "Europa, hasta mediados del siglo XX. En cualquier calle hay un taller de zapatero, y no vende zapatos: los arregla. Un par de calidad se compraba una vez, se llevaba a resolar cuando la suela se gastaba y volvía a la calle como nuevo. La razón no es que la gente fuera más apañada, sino cómo estaba montado el zapato.",
+      "Europa, hasta mediados del siglo XX. En cualquier calle de cualquier barrio hay un taller de zapatero, y ese taller no vende zapatos: los arregla. Un par de calidad se compraba una vez en la vida, se llevaba a resolar cada vez que la suela se gastaba y volvía a la calle como nuevo, y así varias veces. La razón de que aquello funcionara no es que la gente de entonces fuera más apañada ni más ahorradora, sino cómo estaba montado el zapato por dentro. Cuando cambió la manera de pegar la suela, el oficio se quedó sin trabajo.",
     paginas: [
       {
         rotulo: "La costura",

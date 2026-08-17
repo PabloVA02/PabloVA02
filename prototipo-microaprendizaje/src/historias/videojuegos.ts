@@ -154,7 +154,7 @@ export const VIDEOJUEGOS: Short[] = [
     color: "var(--ochre)",
     encargo: "Una excavadora sobre tierra seca y agrietada, con montones de arena removida.",
     entrada:
-      "Nuevo México, Estados Unidos, septiembre de 1983. Durante varias noches, catorce camiones descargan en un vertedero municipal miles de cajas de una empresa de videojuegos, se aplastan con una excavadora y se cubren con una capa de hormigón. Un periódico local lo cuenta y la empresa lo niega a medias. La industria del videojuego acaba de hundirse en Estados Unidos.",
+      "Nuevo México, Estados Unidos, septiembre de 1983. Durante varias noches seguidas, catorce camiones descargan en un vertedero municipal miles de cajas precintadas de una empresa de videojuegos, se aplastan con una excavadora delante de unos cuantos curiosos y se cubren con una capa de hormigón para que nadie las saque. Un periódico local lo cuenta al día siguiente y la empresa lo niega a medias, sin explicar qué había dentro. La industria del videojuego acaba de hundirse en Estados Unidos y aquello es el entierro. Durante treinta años, casi nadie se creyó que aquello hubiera pasado de verdad.",
     paginas: [
       {
         rotulo: "El derrumbe",

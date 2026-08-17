@@ -154,7 +154,7 @@ export const VIDRIO: Short[] = [
     curioso: true,
     encargo: "Un vitral gótico a contraluz con los plomos marcando las piezas de color.",
     entrada:
-      "Es una explicación que se repite en clase desde hace décadas: los vitrales de las catedrales góticas, de hace seiscientos u ochocientos años, son más gruesos por abajo porque el vidrio sería un líquido lentísimo que se ha ido escurriendo con los siglos. La observación es cierta. La explicación no tiene nada que ver.",
+      "Es una explicación que se repite en clase desde hace décadas y que casi todo el mundo ha oído alguna vez: los vitrales de las catedrales góticas, de hace seiscientos u ochocientos años, son más gruesos por abajo que por arriba porque el vidrio sería en realidad un líquido lentísimo que se ha ido escurriendo despacio con los siglos. La observación de partida es rigurosamente cierta y cualquiera puede comprobarla. La explicación que se le da encima no tiene absolutamente nada que ver. Y la razón de que sean más gruesos por abajo está en cómo se fabricaban.",
     paginas: [
       {
         rotulo: "El cálculo",

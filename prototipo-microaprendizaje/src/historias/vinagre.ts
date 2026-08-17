@@ -150,7 +150,7 @@ export const VINAGRE: Short[] = [
     curioso: true,
     encargo: "Frasco antiguo de farmacia con hierbas maceradas en vinagre y etiqueta manuscrita.",
     entrada:
-      "Francia, siglo XVII, durante uno de los últimos brotes graves de peste en Europa. La leyenda cuenta que cuatro hombres detenidos por robar en las casas de los enfermos negociaron su condena a cambio de contar su secreto. Decían frotarse con un vinagre macerado con hierbas que les protegía del contagio. La fórmula se siguió vendiendo en las boticas durante más de dos siglos.",
+      "Francia, siglo XVII, durante uno de los últimos brotes graves de peste que sufrió Europa. La leyenda, que se cuenta con variantes en varias ciudades, dice que cuatro hombres detenidos por robar en las casas de los enfermos y de los muertos negociaron su condena a cambio de contar un secreto. Aseguraban que se frotaban el cuerpo con un vinagre macerado con hierbas y que aquello los protegía del contagio. La fórmula se siguió vendiendo en las boticas europeas durante más de dos siglos. Y la parte curiosa es que la receta no era del todo inútil, aunque no por lo que ellos creían.",
     paginas: [
       {
         rotulo: "La receta",
