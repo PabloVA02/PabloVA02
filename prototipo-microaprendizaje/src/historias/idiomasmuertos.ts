@@ -148,7 +148,7 @@ export const IDIOMAS_MUERTOS: Short[] = [
     curioso: true,
     encargo: "Un aula pequeña con sillas de colores y dibujos infantiles en la pared.",
     entrada:
-      "Nueva Zelanda, 1982. La lengua del pueblo maorí lleva décadas retrocediendo y la mayoría de los que la hablan bien pasan de los sesenta años. Un grupo de familias monta entonces algo muy sencillo: guarderías donde las abuelas cuidan a los niños pequeños y les hablan únicamente en maorí, todo el día, mientras juegan, comen y duermen.",
+      "Nueva Zelanda, 1982. La lengua del pueblo maorí lleva décadas retrocediendo sin parar y la mayoría de los que la hablan bien, con soltura y sin buscar las palabras, pasan ya de los sesenta años. Las cuentas son fáciles de hacer y salen mal. Un grupo de familias monta entonces algo muy sencillo y sin apenas presupuesto: guarderías donde las abuelas cuidan a los niños pequeños y les hablan únicamente en maorí, todo el día, mientras juegan, comen, se pelean y duermen. Sin clases, sin libros y sin gramática. Aquello se llamó nido de lenguaje y se copia hoy en medio mundo.",
     paginas: [
       {
         rotulo: "El nido",

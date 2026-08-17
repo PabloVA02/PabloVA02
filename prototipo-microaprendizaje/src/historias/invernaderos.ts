@@ -149,7 +149,7 @@ export const INVERNADEROS: Short[] = [
     color: "var(--plum)",
     encargo: "Hileras de plantas en canaletas blancas con las raíces a la vista.",
     entrada:
-      "California, 1937. Un investigador universitario publica un método para cultivar plantas con las raíces sumergidas en una disolución de sales minerales, sin nada de suelo. Le pone un nombre formado por dos palabras griegas que significan trabajo con agua. La idea no era nueva del todo, porque desde el siglo XIX se sabía que las plantas absorben elementos disueltos y no tierra.",
+      "California, 1937. Un investigador universitario publica un método para cultivar plantas con las raíces sumergidas en una disolución de sales minerales, sin nada de suelo debajo, y le pone un nombre formado por dos palabras griegas que juntas significan trabajo con agua. El nombre se queda y la técnica se hace famosa. La idea de fondo no era nueva del todo, porque desde el siglo XIX se sabía que lo que una planta absorbe por la raíz son elementos disueltos en agua y no tierra propiamente dicha. Lo nuevo era quitar el suelo del todo y que la planta ni se enterara.",
     paginas: [
       {
         rotulo: "Qué come una planta",

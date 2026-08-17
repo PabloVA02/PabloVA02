@@ -161,7 +161,7 @@ export const INVENTOS: Short[] = [
     color: "var(--plum)",
     encargo: "Una bombilla de filamento de carbono encendida, muy tenue, sobre negro.",
     entrada:
-      "La escena de colegio dice que Thomas Edison probó miles de materiales hasta dar con el filamento y que ahí nació la luz eléctrica. La parte de los miles de pruebas es cierta. La de que naciera ahí, no: cuando Edison se puso a ello, en 1878, la lámpara incandescente llevaba cuatro décadas existiendo en laboratorios de media Europa.",
+      "La escena de colegio dice que Thomas Edison probó miles de materiales, uno detrás de otro, hasta dar con el filamento bueno, y que ahí nació la luz eléctrica y se acabó la oscuridad. La parte de los miles de pruebas es rigurosamente cierta y está documentada en los cuadernos de su laboratorio. La otra parte, la de que la bombilla naciera allí, no lo es: cuando Edison se puso a ello, en 1878, la lámpara incandescente llevaba ya cuatro décadas existiendo en laboratorios de media Europa. Lo que hizo Edison fue otra cosa, y quizá más difícil que inventarla.",
     paginas: [
       {
         rotulo: "Lo que ya había",
