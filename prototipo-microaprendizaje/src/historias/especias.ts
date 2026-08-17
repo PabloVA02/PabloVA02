@@ -153,7 +153,7 @@ export const ESPECIAS: Short[] = [
     color: "var(--slate)",
     encargo: "Granos de pimienta negra amontonados en el platillo de una balanza antigua.",
     entrada:
-      "Roma, año 408. Un ejército godo rodea la ciudad y corta el suministro de comida durante semanas. Tras un asedio largo y con hambre dentro de las murallas, el senado negocia la retirada y acepta pagar un rescate enorme: cinco mil libras de oro, treinta mil de plata, cuatro mil túnicas de seda y mil quinientas libras de pimienta.",
+      "Roma, año 408. Un ejército godo rodea la ciudad y corta durante semanas la entrada de comida, que llegaba por barco desde África. Después de un asedio largo, con hambre y enfermedad dentro de las murallas, el senado negocia la retirada del enemigo y acepta pagar un rescate enorme por quitárselo de encima: cinco mil libras de oro, treinta mil libras de plata, cuatro mil túnicas de seda, tres mil pieles teñidas de rojo y mil quinientas libras de pimienta. Lo último de la lista no está ahí por capricho. La pimienta valía entonces lo que hoy vale un metal precioso.",
     paginas: [
       {
         rotulo: "El pago",

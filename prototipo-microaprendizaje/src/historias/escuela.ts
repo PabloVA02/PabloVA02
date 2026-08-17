@@ -154,7 +154,7 @@ export const ESCUELA: Short[] = [
     color: "var(--slate)",
     encargo: "Una pizarra negra grande con restos de tiza borrada en trazos circulares.",
     entrada:
-      "Escocia, 1801. Un profesor de matemáticas cuelga en la pared de su aula una plancha grande de pizarra negra para escribir con tiza delante de toda la clase a la vez. Hasta ese momento cada alumno tenía su propia tablilla individual y el maestro iba pasando de pupitre en pupitre, corrigiendo y explicando de uno en uno.",
+      "Escocia, 1801. Un profesor de matemáticas cuelga en la pared de su aula una plancha grande de pizarra negra para escribir con tiza delante de toda la clase a la vez, de manera que los cuarenta alumnos vean lo mismo en el mismo momento. Hasta ese día, cada alumno tenía su propia tablilla individual sobre el pupitre y el maestro iba pasando de sitio en sitio, corrigiendo y explicando de uno en uno mientras los demás esperaban su turno. Parece un cambio de mobiliario. Es un cambio de manera de enseñar. Y sigue siendo el aparato más usado en las aulas del mundo.",
     paginas: [
       {
         rotulo: "De uno en uno",

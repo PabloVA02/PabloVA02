@@ -248,7 +248,7 @@ export const ESPANA: Short[] = [
     curioso: true,
     encargo: "Una sala de hospital de 1918 con camas alineadas y enfermeras con mascarilla.",
     entrada:
-      "Europa, 1918. El mundo lleva cuatro años en guerra y aparece una gripe que en dos años mata a más gente que las balas: entre veinticinco y cincuenta millones de personas, y hay estimaciones que doblan esa cifra. Se la conoce en todo el planeta como gripe española. No empezó aquí, no fue más grave aquí y probablemente ni siquiera pasó primero por aquí.",
+      "Europa, 1918. El mundo lleva cuatro años metido en una guerra y aparece encima una gripe que en dos años mata a más gente que todas las balas del conflicto juntas: entre veinticinco y cincuenta millones de personas, y hay estimaciones serias que doblan esa cifra. Se la conoce en todo el planeta, entonces y ahora, como gripe española. Y resulta que no empezó aquí, no fue más grave aquí que en otros sitios y probablemente ni siquiera pasó primero por aquí. El nombre se lo pusieron por otra razón. El nombre se lo puso, sin querer, la prensa de aquí.",
     paginas: [
       {
         rotulo: "La censura",
@@ -278,7 +278,7 @@ export const ESPANA: Short[] = [
     color: "var(--ochre)",
     encargo: "Una carabela pequeña fondeada frente a una costa de arena blanca y palmeras.",
     entrada:
-      "Corte de Castilla, 1492. Un marino genovés convence a los reyes de Castilla y de Aragón de financiar un viaje que él considera corto: cruzar el Atlántico hacia el oeste para llegar a las Indias, es decir, a Asia, y traer especias sin tener que pasar por territorio turco. Zarpa con tres barcos y unos noventa hombres. Se equivocaba en casi todos sus cálculos.",
+      "Corte de Castilla, 1492. Un marino genovés lleva años insistiendo hasta que consigue convencer a los reyes de Castilla y de Aragón de que financien un viaje que él considera corto y asumible: cruzar el Atlántico hacia el poniente para llegar a las Indias, es decir, a Asia, y traer especias sin tener que pasar por territorio turco ni pagar peaje a nadie. Zarpa de Palos con tres barcos y unos noventa hombres. El viaje sale bien y el hombre se equivocaba en prácticamente todos sus cálculos. Murió sin admitir jamás que no había llegado a Asia.",
     paginas: [
       {
         rotulo: "El error de cuentas",
