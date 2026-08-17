@@ -154,7 +154,7 @@ export const BANDERAS: Short[] = [
     color: "var(--ochre)",
     encargo: "La popa de un carguero enorme con el nombre del puerto de registro pintado.",
     entrada:
-      "Mares del mundo, siglo XXI. Un barco mercante navega bajo la bandera del país donde está registrado, y ese registro determina qué leyes laborales, fiscales y de seguridad se le aplican. Como el armador puede elegir dónde matricularlo, buena parte de la flota mundial navega hoy con banderas de países pequeños y lejanos.",
+      "Mares del mundo, siglo XXI. Un barco mercante navega bajo la bandera del país donde está registrado, y ese registro no es un adorno: determina qué leyes laborales, fiscales y de seguridad se le aplican a bordo, quién inspecciona el casco y a quién responde el armador si algo sale mal. Como el propietario puede elegir libremente dónde matricularlo, sin que el barco tenga que pisar nunca ese país, buena parte de la flota mundial navega hoy con banderas de países pequeños, lejanos y a veces sin costa. Y eso no es casualidad ni comodidad.",
     paginas: [
       {
         rotulo: "El registro abierto",
