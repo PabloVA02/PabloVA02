@@ -11,7 +11,11 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | imágenes puestas | 2123, verificadas hasta 1854 | |
 | portadas de los libros | 200 de 200 | 0 |
 | títulos que no caben en una línea | | 0 |
-| entradas que dejan hueco abajo | 131 alargadas | 97, todas de shorts sin ilustrar |
+| entradas que dejan hueco abajo | 228 alargadas | 0 |
+
+`revisa-shorts.mjs --flojos` marca todavía un título largo, «El sitio más
+lejos de tierra», porque cuenta letras y pasa de 27. La regla de verdad es
+`scripts/cabe.mjs`, que lo mide en 361 puntos sobre un tope de 363: cabe.
 
 ## LO PRIMERO: la foto tiene que ser bonita
 
