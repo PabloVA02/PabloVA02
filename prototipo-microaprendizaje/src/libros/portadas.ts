@@ -214,6 +214,24 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "lenguajes-amor": {
+    archivo: "Silky red petals in close-up (Unsplash).jpg",
+    autor: "Pétalos de una rosa roja vistos de cerca. Fotografía de chuttersnap, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASilky%20red%20petals%20in%20close-up%20(Unsplash).jpg",
+    foco: "45% 50%",
+    alt: "El centro enroscado de una rosa roja, con los pétalos abriéndose en espiral.",
+  },
+
+  "amigos-influir": {
+    archivo: "Three friends by train tracks (Unsplash).jpg",
+    autor: "Tres amigas riéndose junto a unas vías. Fotografía de Priscilla Du Preez, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AThree%20friends%20by%20train%20tracks%20(Unsplash).jpg",
+    foco: "55% 55%",
+    alt: "Tres personas caminando juntas y riéndose, con unos silos al fondo.",
+  },
+
   "cosas-buenas": {
     archivo: "Radiant sunflowers (Unsplash).jpg",
     autor: "Girasoles abiertos al sol. Fotografía de Ryan Waxberg, 2016.",
