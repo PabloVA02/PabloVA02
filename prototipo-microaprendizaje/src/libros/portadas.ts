@@ -214,6 +214,35 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "cuchara-menguante": {
+    archivo: "Amethyst crystals with hematite inclusions 5.jpg",
+    autor: "Cristales de amatista con inclusiones de hematites. Fotografía de James St. John, 2024.",
+    licencia: "CC BY 2.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AAmethyst%20crystals%20with%20hematite%20inclusions%205.jpg",
+    foco: "45% 50%",
+    alt: "Puntas de cuarzo violeta teñidas de rojo, apretadas unas contra otras.",
+  },
+
+  "pulgar-panda": {
+    archivo: "Giant panda eating bamboo.jpg",
+    autor: "Un panda gigante comiendo bambú. Fotografía de Kevin Dooley, 2009.",
+    licencia: "CC BY 2.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AGiant%20panda%20eating%20bamboo.jpg",
+    foco: "50% 38%",
+    alt: "Un panda sentado sujetando una caña de bambú con la pata delantera.",
+  },
+
+  "revoluciones-cientificas": {
+    archivo: "Antikythera mechanism clockface, 1st-2nd century BC, Greece (model).jpg",
+    autor: "Reconstrucción del mecanismo de Anticitera, calculadora astronómica griega del siglo II a. C.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AAntikythera%20mechanism%20clockface%2C%201st-2nd%20century%20BC%2C%20Greece%20(model).jpg",
+    foco: "50% 45%",
+    alt: "Una esfera de bronce con círculos graduados y agujas, dentro de una caja de madera.",
+  },
+
   "historia-arte": {
     archivo: "Johannes Vermeer - Girl with a Pearl Earring - 670 - Mauritshuis.jpg",
     autor: "La joven de la perla, óleo de Johannes Vermeer, hacia 1665. Mauritshuis, La Haya.",
