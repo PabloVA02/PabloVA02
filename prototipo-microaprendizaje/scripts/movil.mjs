@@ -115,17 +115,24 @@ if (!existsSync(CACHE)) mkdirSync(CACHE, { recursive: true });
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /* Commons corta cuando se le piden muchas de golpe, y no con un error: con una
-   página de dos kilobytes que no es una imagen. De ahí los tres intentos
-   separándose cada vez más, y de ahí que se vaya de tres en tres y no de seis
-   en seis. Con el caché, la segunda pasada no le pide nada. */
+   página de dos kilobytes que no es una imagen. De ahí los reintentos, y de ahí
+   que se vaya de tres en tres y no de seis en seis. Con el caché, la segunda
+   pasada no le pide nada.
+
+   Las esperas son de minutos y no de segundos porque el corte de Commons es un
+   429 que dura minutos: con 4 y 8 segundos se agotaban los tres intentos sin
+   que hubiera cedido y en una tirada de novecientas imágenes se quedaban
+   doscientas fuera. */
+const ESPERAS = [0, 5000, 15000, 30000, 60000, 90000, 120000];
+
 async function trae(nombre) {
   const url = `https://commons.wikimedia.org/wiki/Special:FilePath/${
     encodeURIComponent(nombre.replace(/ /g, "_"))}?width=${ORIGEN}`;
   const fichero = join(CACHE, createHash("sha1").update(url).digest("hex"));
   if (existsSync(fichero)) return readFileSync(fichero);
   let ultimo;
-  for (let intento = 0; intento < 3; intento++) {
-    if (intento) await espera(2000 * 2 ** intento);
+  for (let intento = 0; intento < ESPERAS.length; intento++) {
+    await espera(ESPERAS[intento]);
     try {
       const { stdout } = await ejecuta(
         "curl", ["-sS", "-L", "--max-time", "90", "-H", `User-Agent: ${UA}`, url],
