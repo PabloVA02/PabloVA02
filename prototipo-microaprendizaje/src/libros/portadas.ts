@@ -214,6 +214,35 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  feynman: {
+    archivo: "CERN LHC ATLAS Detector.jpg",
+    autor: "El detector ATLAS del Gran Colisionador de Hadrones, en el CERN. Fotografía de 2019.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ACERN%20LHC%20ATLAS%20Detector.jpg",
+    foco: "50% 50%",
+    alt: "Un armazón enorme de tubos, cables y paneles de colores dentro de la caverna del detector.",
+  },
+
+  "homo-deus": {
+    archivo: 'KUKA industrial robotic arm performing "The Beach" by Roy Nachum - 07.jpg',
+    autor: "Un brazo robótico dibujando sobre arena, en una instalación de Roy Nachum. Fotografía de Oleg Yunakov, 2025.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AKUKA%20industrial%20robotic%20arm%20performing%20%22The%20Beach%22%20by%20Roy%20Nachum%20-%2007.jpg",
+    foco: "50% 50%",
+    alt: "Un brazo robótico blanco inclinado sobre un círculo de arena rastrillada.",
+  },
+
+  freakonomics: {
+    archivo: "Subway Train Arrives At Metro Station in Motion (Unsplash).jpg",
+    autor: "Un tren entrando en la estación, en larga exposición. Fotografía de JESHOOTS.COM, 2017.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ASubway%20Train%20Arrives%20At%20Metro%20Station%20in%20Motion%20(Unsplash).jpg",
+    foco: "58% 50%",
+    alt: "Un andén de metal y cristal azul con un tren pasando convertido en una raya borrosa.",
+  },
+
   "gen-egoista": {
     archivo: "Aphid Farm (55206291839).jpg",
     autor: "Hormigas cuidando una colonia de pulgones en un tallo. Fotografía de Willie Luker, 2026.",
