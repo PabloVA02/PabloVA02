@@ -156,7 +156,7 @@ export const ASCENSORES: Short[] = [
     curioso: true,
     encargo: "Un panel de botones de ascensor gastado, con uno de ellos iluminado.",
     entrada:
-      "Estados Unidos, 1990. Una ley de accesibilidad obliga a que las puertas de los ascensores permanezcan abiertas el tiempo suficiente para que entre una persona con movilidad reducida. A partir de ese momento, el botón de cerrar puertas de los ascensores nuevos deja de tener efecto salvo para bomberos y técnicos con una llave especial.",
+      "Estados Unidos, 1990. Una ley de accesibilidad obliga a que las puertas de los ascensores permanezcan abiertas el tiempo suficiente para que entre sin agobios una persona con movilidad reducida. La ley es sensata y nadie la discute. Pero tiene una consecuencia que casi nadie ha notado en treinta años: a partir de ese momento, el botón de cerrar puertas de los ascensores nuevos deja de tener ningún efecto, salvo para los bomberos y los técnicos que llevan una llave especial. El botón sigue ahí, se enciende y no hace nada. Y no es el único botón así que pulsamos todos los días.",
     paginas: [
       {
         rotulo: "El botón muerto",

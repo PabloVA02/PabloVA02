@@ -157,7 +157,7 @@ export const AZAR: Short[] = [
     curioso: true,
     encargo: "Montones de boletos impresos apilados en cajas de cartón abiertas.",
     entrada:
-      "Rumanía, 1964. Un contable que cobra unos setenta y cinco dólares al mes quiere sacar a su familia del país y necesita dinero. Se pasa años estudiando cómo funcionan las loterías y llega a una conclusión muy simple: cuando el bote acumulado supera el coste de comprar todas las combinaciones posibles, jugar deja de ser una apuesta.",
+      "Rumanía, 1964. Un contable que cobra unos setenta y cinco dólares al mes quiere sacar a su familia del país y para eso necesita dinero, mucho más del que va a ganar en toda su vida contando cuentas ajenas. Se pasa años estudiando cómo funcionan las loterías, con lápiz y papel, y llega a una conclusión muy simple y perfectamente legal: cuando el bote acumulado supera el coste de comprar todas las combinaciones posibles, jugar deja de ser una apuesta y pasa a ser una compra con beneficio asegurado. Solo faltaba encontrar el sorteo adecuado y muchísimo dinero para empezar.",
     paginas: [
       {
         rotulo: "El método",

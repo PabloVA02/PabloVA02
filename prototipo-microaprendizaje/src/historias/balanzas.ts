@@ -152,7 +152,7 @@ export const BALANZAS: Short[] = [
     curioso: true,
     encargo: "Interior abierto de una báscula de baño con el bloque de aluminio y los cables a la vista.",
     entrada:
-      "Estados Unidos, 1938. Un ingeniero descubre que si se pega un hilo metálico muy fino a una pieza que se deforma, su resistencia eléctrica cambia de forma medible. Ese hallazgo, que parece de laboratorio, es el corazón de casi todas las básculas que existen hoy, desde la del baño hasta la que pesa un camión entero en una báscula de carretera.",
+      "Estados Unidos, 1938. Un ingeniero descubre por casualidad que si se pega un hilo metálico muy fino a una pieza que se deforma, la resistencia eléctrica de ese hilo cambia de una forma pequeña pero perfectamente medible. Parece un hallazgo de laboratorio, de los que se quedan en una revista y no salen de ahí. Ese hilo pegado es hoy el corazón de casi todas las básculas que existen, desde la del cuarto de baño hasta la que pesa un camión entero con su carga en una báscula de carretera. Y no pesa exactamente lo que uno cree que pesa.",
     paginas: [
       {
         rotulo: "El hilo",
