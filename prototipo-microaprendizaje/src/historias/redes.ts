@@ -154,7 +154,7 @@ export const REDES: Short[] = [
     color: "var(--clay)",
     encargo: "Un ordenador de sobremesa de principios de siglo con una página cargando a medias.",
     entrada:
-      "Estados Unidos, 2002. Un ingeniero lanza una página donde la gente crea un perfil, sube fotos y se conecta con sus amigos. En pocos meses tiene un millón de usuarios y sale en las portadas de las revistas de negocios; un buscador enorme intenta comprarla por treinta millones de dólares y el fundador dice que no.",
+      "Estados Unidos, 2002. Un ingeniero lanza una página donde la gente se hace un perfil, sube fotos, escribe quién es y se conecta con sus amigos para ver a quién conocen ellos. La idea es nueva y funciona: en pocos meses tiene un millón de usuarios y sale en las portadas de las revistas de negocios como la próxima gran cosa. Un buscador enorme, que entonces empezaba, intenta comprarla por treinta millones de dólares en acciones. El fundador dice que no, que aquello vale mucho más. Tres años después la vendió por menos de lo que le habían ofrecido aquel día.",
     paginas: [
       {
         rotulo: "La lentitud",

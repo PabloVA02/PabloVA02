@@ -154,7 +154,7 @@ export const RAYOSX: Short[] = [
     color: "var(--plum)",
     encargo: "Una furgoneta antigua de carrocería alta aparcada en un camino embarrado.",
     entrada:
-      "Francia, otoño de 1914. Empieza una guerra en la que los heridos llegan a los hospitales de campaña con metralla dentro y los cirujanos operan a ciegas, buscando los fragmentos a tientas. Los aparatos de rayos X existen desde hace veinte años, pero están en los hospitales de las ciudades, a cientos de kilómetros del frente.",
+      "Francia, otoño de 1914. Empieza una guerra en la que los heridos llegan a los hospitales de campaña con metralla dentro del cuerpo y los cirujanos tienen que operar a ciegas, buscando los fragmentos a tientas con los dedos y con una sonda. Los aparatos de rayos X existen desde hace veinte años y funcionan perfectamente, pero están todos instalados en los hospitales de las ciudades grandes, a cientos de kilómetros del frente, y no hay manera de llevar hasta allí a los heridos a tiempo. A alguien se le ocurre entonces darle la vuelta al problema y llevar los aparatos hasta el frente.",
     paginas: [
       {
         rotulo: "Los coches",

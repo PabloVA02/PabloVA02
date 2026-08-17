@@ -149,7 +149,7 @@ export const RIOS: Short[] = [
     color: "var(--plum)",
     encargo: "Un cauce seco de arena y grava con matorral creciendo en el fondo.",
     entrada:
-      "Suroeste de Norteamérica, 1922. Siete estados firman un pacto para repartirse el agua de un río grande que atraviesa desiertos y alimenta ciudades y campos de cultivo. El reparto se hace sobre las mediciones de las dos décadas anteriores, que resultaron ser, sin que nadie lo supiera entonces, las más lluviosas de los últimos siglos. Se repartió más agua de la que el río lleva.",
+      "Suroeste de Norteamérica, 1922. Siete estados firman un pacto para repartirse el agua de un río grande que atraviesa desiertos y que alimenta ciudades enteras y millones de hectáreas de cultivo. El reparto se hace con los datos que hay, que son las mediciones de las dos décadas anteriores. Lo que nadie podía saber entonces, porque no había manera de saberlo, es que aquellas dos décadas fueron las más lluviosas de los últimos siglos. Repartieron sobre el papel bastante más agua de la que el río lleva. Cien años después, ese río se queda seco antes de llegar al mar casi todos los años.",
     paginas: [
       {
         rotulo: "El reparto",

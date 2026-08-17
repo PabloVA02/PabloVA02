@@ -149,7 +149,7 @@ export const ROBOTS: Short[] = [
     color: "var(--slate)",
     encargo: "Un brazo robótico naranja en una línea de montaje de coches.",
     entrada:
-      "Nueva Jersey, 1961. En la fábrica de una empresa de automóviles empieza a trabajar el primer robot industrial de la historia, un brazo hidráulico de dos toneladas controlado por un tambor magnético. Su tarea consiste en sacar piezas de metal fundido de una máquina de inyección y apilarlas ordenadamente, un trabajo caliente, repetitivo y bastante peligroso para una persona.",
+      "Nueva Jersey, 1961. En la fábrica de una empresa de automóviles empieza a trabajar el primer robot industrial de la historia, un brazo hidráulico de dos toneladas controlado por un tambor magnético que guarda las instrucciones. No hace nada espectacular ni parece gran cosa: su tarea consiste en sacar piezas de metal fundido de una máquina de inyección y apilarlas ordenadamente al lado. Es un trabajo caliente, repetitivo, mal pagado y bastante peligroso para la persona que lo venía haciendo. Aquel primer puesto marcó el criterio que se sigue usando para decidir qué se automatiza y qué no.",
     paginas: [
       {
         rotulo: "Las tres D",

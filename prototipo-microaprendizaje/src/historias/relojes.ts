@@ -159,7 +159,7 @@ export const RELOJES: Short[] = [
     color: "var(--plum)",
     encargo: "Un escaparate de relojería antigua con la persiana medio bajada.",
     entrada:
-      "Suiza, 1967. El país fabrica la mitad de los relojes del mundo y emplea a noventa mil personas en el oficio, repartidas en pueblos enteros dedicados a ello desde hace generaciones. Ese año, un centro de investigación suizo presenta un reloj electrónico de cuarzo, sin muelles ni engranajes, mucho más preciso que cualquier mecanismo. Y la industria decide que no le interesa.",
+      "Suiza, 1967. El país fabrica la mitad de los relojes del mundo y da de comer a noventa mil personas en el oficio, repartidas por valles y pueblos enteros que llevan generaciones dedicados a eso y a nada más. Ese año, un centro de investigación suizo presenta un reloj electrónico de cuarzo, sin muelles, sin engranajes y sin cuerda, muchísimo más preciso que cualquier mecanismo por bueno que sea. Es un invento suizo, hecho en casa. Y la industria del país decide que no le interesa. En diez años, dos tercios de aquellos noventa mil puestos habían desaparecido.",
     paginas: [
       {
         rotulo: "El prototipo",

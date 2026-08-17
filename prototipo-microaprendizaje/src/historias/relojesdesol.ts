@@ -152,7 +152,7 @@ export const RELOJES_DE_SOL: Short[] = [
     color: "var(--slate)",
     encargo: "Un reloj de sol de bronce con la varilla inclinada, sobre un pedestal en un jardín.",
     entrada:
-      "Cualquier jardín, hoy. Los relojes de sol que se venden como adorno repiten un diseño que apenas ha cambiado desde el siglo III antes de Cristo: una varilla inclinada, llamada gnomon, y una esfera con las horas alrededor. Parece que baste con orientarlo al norte para que funcione en cualquier sitio. No es así: está calculado para una latitud concreta, y fuera de ella se equivoca más cuanto más lejos.",
+      "Cualquier jardín, hoy. Los relojes de sol que se venden como adorno repiten un diseño que apenas ha cambiado desde el siglo III antes de Cristo: una varilla inclinada, llamada gnomon, y una esfera con las horas marcadas alrededor. Viéndolo, cualquiera diría que basta con ponerlo derecho y orientarlo al norte para que funcione en cualquier punto del planeta. Pues no: cada reloj de sol está calculado para una latitud concreta, y fuera de ella se equivoca, y se equivoca más cuanto más lejos. La clave está en la inclinación de la varilla, que no es un capricho del que lo fabricó.",
     paginas: [
       {
         rotulo: "La varilla apunta arriba",
