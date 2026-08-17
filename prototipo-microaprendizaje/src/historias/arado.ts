@@ -149,7 +149,7 @@ export const ARADO: Short[] = [
     curioso: true,
     encargo: "Un mango de arado gastado por el uso, sujeto por unas manos.",
     entrada:
-      "En 2013, tres economistas publicaron un trabajo que cruzaba datos de agricultura tradicional de más de mil grupos étnicos, recogidos por antropólogos a lo largo del siglo XX, con las cifras actuales de empleo y de opinión de decenas de países. Buscaban el origen de una diferencia que las explicaciones habituales no cubren: por qué en unas sociedades la mujer trabaja fuera de casa mucho más que en otras.",
+      "En 2013, tres economistas publicaron un trabajo que cruzaba datos de agricultura tradicional de más de mil grupos étnicos, recogidos por antropólogos a lo largo del siglo XX, con las cifras actuales de empleo y de opinión de decenas de países. Buscaban el origen de una diferencia que las explicaciones habituales no acaban de cubrir: por qué en unas sociedades la mujer trabaja fuera de casa mucho más que en otras, incluso comparando países parecidos en renta y en religión. Y lo que encontraron apuntaba a un apero de labranza. Un apero que se dejó de usar hace generaciones.",
     paginas: [
       {
         rotulo: "Fuerza de brazo",

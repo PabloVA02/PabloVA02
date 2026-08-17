@@ -150,7 +150,7 @@ export const ANTIBIOTICOS: Short[] = [
     color: "var(--ochre)",
     encargo: "Un comedero metálico largo lleno de pienso en una nave ganadera.",
     entrada:
-      "Estados Unidos, 1950. Un laboratorio que investiga vitaminas prueba a añadir a la comida de unos pollos los restos de una fermentación de antibiótico, esperando algún efecto nutritivo. Los pollos que la comen crecen bastante más deprisa que los demás con la misma cantidad de pienso. El hallazgo se publica, y en pocos años la ganadería del mundo entero incorpora antibióticos a la alimentación diaria.",
+      "Estados Unidos, 1950. Un laboratorio que investiga vitaminas prueba a añadir a la comida de unos pollos los restos de una fermentación de antibiótico, esperando encontrar algún efecto nutritivo aprovechable en aquel desecho. Lo que encuentra es otra cosa: los pollos que la comen crecen bastante más deprisa que los demás con exactamente la misma cantidad de pienso. El hallazgo se publica enseguida, nadie se para a preguntar por qué ocurre, y en pocos años la ganadería del mundo entero incorpora antibióticos a la alimentación diaria de los animales sanos. Nadie pensó entonces que aquello pudiera tener consecuencias fuera de la granja.",
     paginas: [
       {
         rotulo: "Engordar sin saber",

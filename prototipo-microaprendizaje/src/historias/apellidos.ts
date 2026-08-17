@@ -153,7 +153,7 @@ export const APELLIDOS: Short[] = [
     color: "var(--plum)",
     encargo: "Un decreto impreso del siglo XVIII con sello oficial y texto en columnas.",
     entrada:
-      "Imperio austríaco, 1787. Un decreto obliga a la población judía del imperio a adoptar un apellido fijo de estilo alemán y a registrarlo ante un funcionario. Hasta entonces se usaba el patronímico hebreo, que cambia con cada generación y que la administración considera imposible de fiscalizar. El plazo es corto y el trámite tiene precio.",
+      "Imperio austríaco, 1787. Un decreto obliga a toda la población judía del imperio a adoptar un apellido fijo de estilo alemán y a registrarlo por escrito ante un funcionario del Estado. Hasta entonces se usaba el patronímico hebreo, que cambia con cada generación —hijo de tal, hijo de cual— y que la administración considera imposible de fiscalizar. El plazo que se da es corto, la asistencia al trámite es obligatoria y el trámite, como casi todo lo que pasa por una ventanilla en aquel imperio, tiene precio. Ahí empieza el negocio. Muchos apellidos de hoy salieron de aquella ventanilla.",
     paginas: [
       {
         rotulo: "La tarifa",
