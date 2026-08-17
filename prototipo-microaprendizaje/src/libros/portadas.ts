@@ -214,6 +214,36 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "orden-del-tiempo": {
+    archivo: "Aurora Borealis activity on top of the Kirkjufell mountain in September 2018.jpg",
+    autor: "Aurora boreal sobre el monte Kirkjufell, en Islandia. Fotografía de 2018.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AAurora%20Borealis%20activity%20on%20top%20of%20the%20Kirkjufell%20mountain%20in%20September%202018.jpg",
+    foco: "58% 45%",
+    alt: "Una montaña puntiaguda y unas cascadas bajo un cielo cruzado por auroras verdes.",
+  },
+
+  "magia-crear": {
+    archivo: "Hot air balloon at sunrise over Cappadocia, Turkey.JPG",
+    autor: "Un globo sobre Capadocia al amanecer. Fotografía de 2015.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AHot%20air%20balloon%20at%20sunrise%20over%20Cappadocia%2C%20Turkey.JPG",
+    foco: "48% 45%",
+    alt: "La silueta de un globo aerostático flotando sobre las lomas, con el sol saliendo detrás.",
+  },
+
+  "vidas-vasari": {
+    archivo: "Venice, Canal Grande, gondolas across Pta. d. Dogana.jpg",
+    autor: "Góndolas amarradas en el Gran Canal de Venecia. Fotografía de Armin Kleiner, 2019.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AVenice%2C%20Canal%20Grande%2C%20gondolas%20across%20Pta.%20d.%20Dogana.jpg",
+    foco: "42% 45%",
+    alt: "Góndolas negras amarradas delante de los palacios del Gran Canal.",
+  },
+
   "el-elemento": {
     archivo: "Fingers on the piano keys (Unsplash).jpg",
     autor: "Manos sobre el teclado de un piano. Fotografía de Gabriel Barletta, 2014.",
