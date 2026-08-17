@@ -227,7 +227,7 @@ export const MUSICA: Short[] = [
     curioso: true,
     encargo: "Un disco negro girando en un plato, con la aguja apoyada y el brillo del surco.",
     entrada:
-      "Estados Unidos, principios del siglo XX. La música grabada se vende en discos de laca de veinticinco centímetros que giran a setenta y ocho vueltas por minuto y que solo aguantan unos tres minutos por cara. No es una decisión artística: es lo que cabe en el surco a esa velocidad. Y esa limitación técnica acabó decidiendo cómo suena hoy una canción.",
+      "Estados Unidos, principios del siglo XX. La música grabada se vende en discos de laca de veinticinco centímetros que giran a setenta y ocho vueltas por minuto y que solo aguantan unos tres minutos por cara. Pasado ese rato, el surco se acaba y la aguja se sale. No es una decisión artística ni una manera de entender la música: es sencillamente lo que cabe en un surco a esa velocidad y con ese diámetro. Y esa limitación de fábrica, que no eligió ningún músico, acabó decidiendo cuánto dura y cómo suena hoy una canción.",
     paginas: [
       {
         rotulo: "Tres minutos",
@@ -257,7 +257,7 @@ export const MUSICA: Short[] = [
     color: "var(--forest)",
     encargo: "Un campo embarrado lleno de gente y de tiendas de campaña vistas desde una loma.",
     entrada:
-      "Estado de Nueva York, agosto de 1969. Cuatro socios de veintitantos años organizan un festival de tres días en una granja alquilada y esperan unas cincuenta mil personas. Han vendido entradas por correo, tienen contratados a treinta y dos grupos y les faltan dos días para empezar. Todavía no han montado ni las vallas ni las taquillas, y tienen que elegir entre una cosa y otra.",
+      "Estado de Nueva York, agosto de 1969. Cuatro socios de veintitantos años organizan un festival de tres días en una granja alquilada a un vecino y esperan unas cincuenta mil personas, que ya sería mucho. Han vendido entradas por correo, tienen contratados a treinta y dos grupos y les quedan dos días para empezar. A esas alturas no han montado todavía ni las vallas del recinto ni las taquillas ni el escenario, y con el tiempo que les queda tienen que elegir entre una cosa y la otra. Fuera ya hay gente esperando.",
     paginas: [
       {
         rotulo: "La decisión",
