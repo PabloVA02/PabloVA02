@@ -150,7 +150,7 @@ export const MADERA: Short[] = [
     color: "var(--plum)",
     encargo: "Una viga de madera quemada por fuera, con el corazón intacto al partirla.",
     entrada:
-      "Ingeniería de incendios, siglo XX y actualidad. Suena a error, porque la madera arde y el acero no. Y sin embargo los bomberos lo saben de sobra: en un edificio en llamas, una estructura de vigas gruesas de madera puede aguantar en pie más tiempo que otra de perfiles de acero sin proteger. La explicación está en lo que le pasa a cada material con el calor.",
+      "Ingeniería de incendios, siglo XX y actualidad. Dicho de golpe suena a error o a errata, porque la madera arde y el acero no, y eso lo sabe cualquiera desde niño. Y sin embargo los bomberos lo tienen claro desde hace mucho: en un edificio en llamas, una estructura hecha de vigas gruesas de madera puede aguantar en pie bastante más tiempo que otra hecha de perfiles de acero sin proteger. La explicación no está en cuál de los dos arde, sino en lo que le pasa a cada material cuando se calienta.",
     paginas: [
       {
         rotulo: "La capa negra",

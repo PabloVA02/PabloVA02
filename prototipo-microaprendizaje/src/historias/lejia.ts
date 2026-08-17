@@ -152,7 +152,7 @@ export const LEJIA: Short[] = [
     curioso: true,
     encargo: "Lienzos blancos extendidos sobre la hierba de un prado para blanquearse al sol.",
     entrada:
-      "Francia, 1785. Un químico descubre que el cloro disuelto en una solución alcalina decolora la tela en minutos, cuando hasta entonces blanquear un lienzo exigía dejarlo semanas al sol en un prado. Ese descubrimiento libera miles de hectáreas de campo y acelera la industria textil de la Revolución industrial. Lo que hace la lejía no es añadir blanco, sino destruir el color que había.",
+      "Francia, 1785. Un químico descubre que el cloro disuelto en una solución alcalina decolora la tela en cuestión de minutos, cuando hasta ese momento blanquear un lienzo exigía dejarlo tendido semanas enteras al sol en un prado, mojándolo cada día. El hallazgo libera de golpe miles de hectáreas de campo que estaban ocupadas en eso y acelera toda la industria textil de la Revolución industrial. Y de paso deja claro algo que casi nadie tiene presente: lo que hace la lejía no es añadir blanco, sino destruir el color que ya había.",
     paginas: [
       {
         rotulo: "Romper el color",
