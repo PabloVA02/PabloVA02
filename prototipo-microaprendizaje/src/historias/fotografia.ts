@@ -157,7 +157,7 @@ export const FOTOGRAFIA: Short[] = [
     curioso: true,
     encargo: "Un arroyo entre helechos altos con luz verdosa filtrándose entre las hojas.",
     entrada:
-      "Inglaterra, verano de 1917. Dos primas de dieciséis y nueve años juegan junto a un arroyo detrás de la casa y vuelven mojadas una vez más. Para justificarse dicen que iban a ver a las hadas, y como no las creen, piden prestada la cámara del padre de una de ellas. Vuelven en media hora con una placa. En ella hay hadas.",
+      "Inglaterra, verano de 1917. Dos primas de dieciséis y nueve años juegan junto a un arroyo detrás de la casa y vuelven mojadas y con los zapatos perdidos una vez más. Para justificarse delante de los adultos dicen que bajaban a ver a las hadas del arroyo, y como es evidente que nadie las cree, piden prestada la cámara del padre de una de ellas para demostrarlo. Vuelven en media hora con una placa impresionada. Cuando la revelan, en la fotografía hay hadas. Y aquello no se quedó en casa. Acabaron convenciendo al hombre que había inventado a Sherlock Holmes.",
     paginas: [
       {
         rotulo: "El recorte",

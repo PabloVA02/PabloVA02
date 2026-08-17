@@ -152,7 +152,7 @@ export const FRIGORIFICO: Short[] = [
     color: "var(--clay)",
     encargo: "Un mostrador refrigerado de supermercado antiguo con productos alineados.",
     entrada:
-      "Estados Unidos, 1930. Una cuarta parte de los hogares tiene ya frigorífico eléctrico, un aparato que costaba lo que un coche pequeño diez años antes y que ahora empieza a estar al alcance de la clase media. La compra diaria, que era obligatoria desde siempre porque la comida se estropeaba, deja de ser necesaria en cuestión de una década.",
+      "Estados Unidos, 1930. Una cuarta parte de los hogares tiene ya frigorífico eléctrico, un aparato que diez años antes costaba lo que un coche pequeño y que ahora empieza a estar al alcance de una familia de clase media que ahorre un poco. Y con él se cae una costumbre que llevaba siglos siendo obligatoria: la compra diaria. Salir todos los días a por comida dejó de ser necesario en cuestión de una década, y eso cambió las tiendas, las calles y el reparto del trabajo dentro de las casas. Y detrás vino una manera nueva de vender comida.",
     paginas: [
       {
         rotulo: "La compra diaria",

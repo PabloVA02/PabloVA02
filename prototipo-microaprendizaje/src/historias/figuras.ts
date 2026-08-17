@@ -347,7 +347,7 @@ export const FIGURAS: Short[] = [
     },
     encargo: "El retrato de David en el despacho, o el sombrero bicornio solo, sobre fondo liso.",
     entrada:
-      "Francia, comienzos del siglo XIX. En el acta de su autopsia consta que medía cinco pies y dos pulgadas. Leído con pulgadas inglesas sale un hombre de 1,57, y de ahí viene el chiste que lleva dos siglos rodando. Pero la medida se tomó en pies franceses, que eran más largos que los ingleses. Bien convertida da entre 1,68 y 1,70, por encima de la media de su tiempo.",
+      "Francia, comienzos del siglo XIX. En el acta de su autopsia consta que el hombre medía cinco pies y dos pulgadas, y ahí empieza el malentendido más duradero de la historia europea. Leído con pulgadas inglesas sale un tipo de metro cincuenta y siete, y de ahí viene el chiste que lleva dos siglos rodando por Europa. Pero la medida no se tomó con pies ingleses, se tomó con pies franceses, que eran bastante más largos. Bien convertida da entre 1,68 y 1,70, por encima de la media de su tiempo. El complejo entero cabe en dos centímetros de diferencia por pie.",
     paginas: [
       {
         rotulo: "El apodo",
@@ -388,7 +388,7 @@ export const FIGURAS: Short[] = [
     },
     encargo: "La miniatura medieval de Juana con el estandarte, o una armadura vacía de la época.",
     entrada:
-      "Una campesina de diecisiete años, que no sabía leer ni escribir, se planta ante el heredero al trono de Francia y le dice que va a levantar el sitio de Orleans. Le dejan intentarlo porque la guerra ya está perdida y no hay nada que perder. Lo levanta en nueve días. Dos años después arde en Ruan, y lo que la salva del olvido es el acta de su propio juicio.",
+      "Una campesina de diecisiete años, que no sabía leer ni escribir y que no había salido nunca de su aldea, se planta delante del heredero al trono de Francia y le dice, sin rodeos, que va a levantar el sitio de Orleans. Le dejan intentarlo por una razón poco heroica: la guerra ya está prácticamente perdida y no queda nada que perder. Lo levanta en nueve días. Dos años después arde en la plaza de Ruan, y lo que la salva del olvido es, precisamente, el acta de su propio juicio. Ese acta se conserva entera y se puede leer hoy.",
     paginas: [
       {
         rotulo: "Nueve días",
