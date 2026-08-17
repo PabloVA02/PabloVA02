@@ -214,6 +214,34 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "infinito-junco": {
+    archivo: "Cyperus papyrus kz07.jpg",
+    autor: "Papiro (Cyperus papyrus), la planta con la que se hicieron los primeros libros. Fotografía de Krzysztof Ziarnek, 2022.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ACyperus%20papyrus%20kz07.jpg",
+    foco: "50% 45%",
+    alt: "Tallos de papiro con sus penachos verdes abiertos como pequeños fuegos.",
+  },
+
+  "origen-especies": {
+    archivo: "Santa Cruz giant tortoise 03.jpg",
+    autor: "Tortuga gigante de la isla Santa Cruz, en Galápagos. Fotografía de Bernard Gagnon, 2014.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASanta%20Cruz%20giant%20tortoise%2003.jpg",
+    foco: "55% 55%",
+    alt: "Una tortuga gigante caminando por la hierba con el cuello estirado.",
+  },
+
+  "acto-creativo": {
+    archivo: "La Sagrada Familia - interior 5 - Barcelona - panoramio.jpg",
+    autor: "Bóveda y columnas de la Sagrada Familia, en Barcelona. Fotografía de 2013.",
+    licencia: "CC BY-SA 3.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ALa%20Sagrada%20Familia%20-%20interior%205%20-%20Barcelona%20-%20panoramio.jpg",
+    foco: "50% 45%",
+    alt: "Columnas que se ramifican como árboles hacia una bóveda azul llena de luces.",
+  },
+
   "diario-ana-frank": {
     archivo: "Amsterdam Canal Houses (Unsplash).jpg",
     autor: "Casas junto a un canal de Ámsterdam. Fotografía de Kaci Baum, 2017.",
