@@ -214,6 +214,26 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "pedro-paramo": {
+    archivo: "Iglesia de Guadalupe en Real de Catorce -024 5 6.jpg",
+    autor: "Camino a la iglesia de Guadalupe, en Real de Catorce, San Luis Potosí. Fotografía de Jaime Flores, 2012.",
+    licencia: "CC BY-SA 3.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AIglesia%20de%20Guadalupe%20en%20Real%20de%20Catorce%20-024%205%206.jpg",
+    foco: "50% 50%",
+    alt: "Un camino empedrado entre muros de piedra que sube hacia la torre de una iglesia, en blanco y negro.",
+  },
+
+  "guardian-centeno": {
+    archivo: "Central Park Mall during Stella Snowstorm (Unsplash).jpg",
+    autor: "El paseo de los olmos de Central Park bajo la nevada. Fotografía de Emanuel Hahn, 2017.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ACentral%20Park%20Mall%20during%20Stella%20Snowstorm%20(Unsplash).jpg",
+    foco: "50% 45%",
+    alt: "Un paseo de árboles pelados cubierto de nieve, con dos figuras pequeñas al fondo.",
+  },
+
   "sombra-viento": {
     archivo: "Mafra's Convent - Palace - Bibliothéque -Overview- (50177262438).jpg",
     autor: "Biblioteca del palacio-convento de Mafra, Portugal. Fotografía de Pedro Ribeiro Simões, 2020.",
