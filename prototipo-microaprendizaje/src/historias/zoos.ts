@@ -154,6 +154,40 @@ export const ZOOS: Short[] = [
     encargo: "Un recinto de rocas artificiales con un foso ancho delante y sin rejas a la vista.",
     entrada:
       "Hamburgo, 1907. Abre un parque zoológico construido con una idea completamente nueva y que en su momento pareció una temeridad: nada de jaulas ni de barrotes por ninguna parte. Los animales están separados del público, y unos de otros, por fosos anchos y profundos, con rocas artificiales de hormigón levantadas detrás, de modo que desde el camino por donde pasa la gente parece que los leones y las cebras están compartiendo tranquilamente el mismo paisaje abierto. Y nadie se come a nadie. El truco es puramente geométrico y consiste en medir cuánto salta cada especie.",
+    fotos: [
+      {
+        archivo: "Copenhagen Zoo, Frederiksberg, Denmark (Unsplash u3xyNcPIntQ).jpg",
+        autor: "Leones tumbados entre rocas en el zoo de Copenhague. Fotografía de Nick Karvounis, 2016.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ACopenhagen%20Zoo%2C%20Frederiksberg%2C%20Denmark%20(Unsplash%20u3xyNcPIntQ).jpg",
+        foco: "50% 55%",
+        alt: "Dos leones descansando sobre la tierra entre bloques de roca, sin ninguna reja delante.",
+      },
+      {
+        archivo: "Open-air exposition Animals of Africa in Moscow Zoo.jpg",
+        autor: "Recinto abierto de la exposición de animales de África en el zoo de Moscú. Fotografía de Dmitri Ivánov, 2023.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AOpen-air%20exposition%20Animals%20of%20Africa%20in%20Moscow%20Zoo.jpg",
+        foco: "55% 50%",
+        alt: "Una jirafa paseando por un prado separado del público por una valla baja y un desnivel.",
+      },
+      {
+        archivo: "Panthera tigris corbetti (Tierpark Berlin) 841-723-(118).jpg",
+        autor: "Tigres de Indochina sobre las rocas de su recinto, en el Tierpark de Berlín. Fotografía de 2012.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APanthera%20tigris%20corbetti%20(Tierpark%20Berlin)%20841-723-(118).jpg",
+        foco: "55% 45%",
+        alt: "Una tigresa y dos cachorros de pie sobre bloques de piedra gris.",
+      },
+      {
+        archivo: "Lioness on logs (Unsplash).jpg",
+        autor: "Leona joven apoyada en unos troncos, en un recinto de zoológico. Fotografía de Nick Karvounis, 2016.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALioness%20on%20logs%20(Unsplash).jpg",
+        foco: "45% 45%",
+        alt: "Una leona joven asomada por encima de unos troncos, mirando de frente.",
+      },
+    ],
     paginas: [
       {
         rotulo: "El salto medido",

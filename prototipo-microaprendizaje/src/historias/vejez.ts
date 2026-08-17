@@ -153,6 +153,40 @@ export const VEJEZ: Short[] = [
     encargo: "Un libro de registro civil antiguo abierto, con caligrafía a plumilla.",
     entrada:
       "Desde el año 2000 circulan por el mundo las llamadas zonas azules: un puñado de regiones repartidas por cuatro continentes donde vive una proporción asombrosa de personas de más de cien años, y a las que se atribuyen dietas, costumbres y filosofías de vida casi milagrosas. Han salido en documentales, en libros y en cientos de reportajes. En 2024, un investigador de una universidad británica publicó un trabajo que propone otra explicación bastante menos apetecible, y la documenta con mucho cuidado. Su punto de partida es que un centenario es, antes que nada, un dato escrito en un papel viejo.",
+    fotos: [
+      {
+        archivo: "Portrait of elderly woman (Unsplash).jpg",
+        autor: "Retrato de una mujer mayor en el umbral de su casa. Fotografía de Christian Gertenbach, 2016.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3APortrait%20of%20elderly%20woman%20(Unsplash).jpg",
+        foco: "50% 40%",
+        alt: "Una mujer muy mayor sentada en el suelo de madera de un portal pintado de turquesa.",
+      },
+      {
+        archivo: "Man with wrinkles and cap (Unsplash).jpg",
+        autor: "Retrato de un hombre mayor con sombrero. Fotografía de Kahar Saidyhalam, 2016.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AMan%20with%20wrinkles%20and%20cap%20(Unsplash).jpg",
+        foco: "40% 40%",
+        alt: "La cara curtida de un hombre mayor con sombrero de paja, mirando a la cámara.",
+      },
+      {
+        archivo: "After fifty years (Unsplash).jpg",
+        autor: "Una pareja mayor riéndose muy juntos. Fotografía de Lotte Meijer, 2016.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AAfter%20fifty%20years%20(Unsplash).jpg",
+        foco: "55% 40%",
+        alt: "Un hombre y una mujer mayores, con gafas, riéndose frente a frente, en blanco y negro.",
+      },
+      {
+        archivo: "Jerzu, Ogliastra, Sardinia, Italy - panoramio (5).jpg",
+        autor: "El pueblo de Jerzu, en la Ogliastra sarda, una de las comarcas llamadas zonas azules. Fotografía de 2012.",
+        licencia: "CC BY-SA 3.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AJerzu%2C%20Ogliastra%2C%20Sardinia%2C%20Italy%20-%20panoramio%20(5).jpg",
+        foco: "55% 45%",
+        alt: "Casas de colores apiladas en una ladera seca, con riscos de roca por encima.",
+      },
+    ],
     paginas: [
       {
         rotulo: "Los papeles",
