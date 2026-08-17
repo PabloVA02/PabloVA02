@@ -153,7 +153,7 @@ export const LAVADORA: Short[] = [
     curioso: true,
     encargo: "Una lavadora blanca moderna con la puerta abierta en una cocina vacía.",
     entrada:
-      "En 2010, un economista coreano que estudia el desarrollo industrial lanzó una provocación en una conferencia muy vista: sostuvo que la lavadora ha cambiado el mundo más que internet. El argumento no va de tecnología, sino de aritmética del tiempo, y se apoya en una serie de encuestas sobre uso del tiempo que empezaron a hacerse en los años veinte y se repiten desde entonces.",
+      "En 2010, un economista coreano que estudia el desarrollo industrial lanzó una provocación en una conferencia muy vista, de esas que corren solas: sostuvo delante del público que la lavadora ha cambiado el mundo mucho más que internet. Suena a titular buscado y no lo es del todo. El argumento no va de tecnología ni de nostalgia, sino de aritmética del tiempo, y se apoya en una serie de encuestas sobre uso del tiempo que empezaron a hacerse en los años veinte y que se repiten desde entonces. Y los números que sacó de esas encuestas son bastante difíciles de rebatir.",
     paginas: [
       {
         rotulo: "La cuenta",

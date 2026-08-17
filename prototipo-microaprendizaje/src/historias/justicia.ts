@@ -157,7 +157,7 @@ export const JUSTICIA: Short[] = [
     color: "var(--clay)",
     encargo: "Una ficha policial antigua con una huella dactilar entintada y anotaciones a mano.",
     entrada:
-      "Provincia de Buenos Aires, junio de 1892. En una casa de campo aparecen muertos dos niños y su madre malherida. Ella acusa a un vecino, que niega todo y aguanta días de interrogatorios muy duros sin confesar. La policía local no tiene forma de decidir quién miente. En la comisaría central de La Plata trabaja un funcionario de origen croata con una idea rara.",
+      "Provincia de Buenos Aires, junio de 1892. En una casa de campo aparecen muertos dos niños pequeños y su madre malherida en el cuello. Ella acusa a un vecino, que lo niega todo y aguanta días enteros de interrogatorios muy duros, de los que entonces se hacían, sin confesar nada. La policía local no tiene ninguna forma de decidir quién de los dos miente y el caso se atasca. En la comisaría central de La Plata trabaja mientras tanto un funcionario de origen croata con una idea rara entre manos. Aquella idea acabó cambiando el trabajo policial de todo el planeta.",
     paginas: [
       {
         rotulo: "Las fichas",

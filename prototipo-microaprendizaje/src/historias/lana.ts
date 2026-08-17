@@ -149,7 +149,7 @@ export const LANA: Short[] = [
     color: "var(--clay)",
     encargo: "Un camino ancho de tierra entre muros de piedra, con rastro de ganado.",
     entrada:
-      "Castilla, 1273. El rey reúne a los ganaderos del reino en una asociación única, con privilegios enormes, y les garantiza por ley el derecho a mover sus rebaños entre los pastos de verano del norte y los de invierno del sur. Para eso se fija una red de caminos de ganado con anchura legal, que nadie puede arar ni cerrar, y que llega a sumar unos ciento veinticinco mil kilómetros.",
+      "Castilla, 1273. El rey reúne a los ganaderos del reino en una asociación única, con privilegios enormes y con tribunal propio, y les garantiza por ley el derecho a mover sus rebaños entre los pastos de verano del norte y los de invierno del sur. Para que eso sea posible se fija una red de caminos de ganado con una anchura legal fijada en varas, que nadie puede arar, cerrar ni ocupar, y que con el tiempo llega a sumar unos ciento veinticinco mil kilómetros repartidos por toda la península. Muchos de esos caminos siguen ahí y siguen siendo públicos.",
     paginas: [
       {
         rotulo: "Ir y volver",

@@ -194,7 +194,7 @@ export const JUEGOS: Short[] = [
     curioso: true,
     encargo: "Un cubo de Rubik desordenado sobre una superficie lisa, iluminación dura.",
     entrada:
-      "Un cubo de Rubik tiene 43.252.003.274.489.856.000 posiciones distintas: cuarenta y tres trillones. Si se hubiera empezado a colocar una posición por segundo desde el Big Bang, todavía faltaría muchísimo por terminar. Y sin embargo, se sabe con certeza matemática que desde cualquiera de ellas se llega al cubo resuelto en veinte movimientos o menos.",
+      "Un cubo de Rubik tiene 43.252.003.274.489.856.000 posiciones distintas, que se leen cuarenta y tres trillones. Para hacerse una idea: si alguien hubiera empezado a colocar una posición por segundo el día del Big Bang y no hubiera parado ni un instante desde entonces, todavía le faltaría muchísimo por terminar. Y sin embargo, desde 2010 se sabe con certeza matemática demostrada, no por costumbre ni por experiencia, que desde cualquiera de esas posiciones se llega al cubo resuelto en veinte movimientos o menos. A esa cifra la llaman, medio en broma, el número de Dios, y costó treinta años acorralarla entre todos.",
     paginas: [
       {
         rotulo: "El número de Dios",
