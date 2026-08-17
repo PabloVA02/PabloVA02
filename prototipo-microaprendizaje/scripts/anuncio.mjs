@@ -401,11 +401,14 @@ if (FOTO) {
       const e = document.querySelector(".inicio-scroll, .muro-pase, .perfil-scroll");
       if (e) e.scrollTop = y;
     }, SCROLL);
-    /* Vuelve a saltar cuando le toca su temporizador, así que se cierra otra
-       vez justo antes de disparar. */
-    await pag.evaluate(() => document.querySelector(".regalo-velo")?.click());
-    await pag.clock.runFor(400);
-    await pag.waitForTimeout(250);
+    /* El aviso vuelve a saltar en cuanto se le adelanta el reloj, así que no
+       vale cerrarlo una vez: se avanza a pasos cortos cerrándolo en cada uno
+       hasta que la animación de salida termina y ya no reaparece. */
+    for (let i = 0; i < 8; i++) {
+      await pag.evaluate(() => document.querySelector(".regalo-velo")?.click());
+      await pag.clock.runFor(110);
+      await pag.waitForTimeout(70);
+    }
     await pag.screenshot({ path: `/tmp/marco-${toma.nombre}.png` });
     console.log(`  /tmp/marco-${toma.nombre}.png`);
     await pag.close();

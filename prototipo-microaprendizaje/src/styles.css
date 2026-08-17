@@ -1081,7 +1081,6 @@ button {
      portadas salían de distinto tamaño. Con el mínimo a cero las columnas
      son iguales pase lo que pase dentro. */
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: start;
   gap: 20px 14px;
   margin-top: 14px;
   padding: 0 var(--shell-pad);
@@ -1092,11 +1091,15 @@ button {
 .parrilla .portada { width: 100% !important; aspect-ratio: 1; height: auto !important; }
 
 .parrilla .ficha { display: flex; flex-direction: column; }
-/* La pastilla iba empujada al fondo de la fila con `margin-top: auto`, que
-   servía cuando la ficha era portada + título + autor y había que alinear los
-   pies de las dos columnas. Con el gancho debajo, ese empujón deja un claro
-   enorme entre el texto y la pastilla: ahora va pegada a lo que describe. */
-.parrilla .ficha-pie { margin-top: 0; padding-top: 2px; }
+/* La pastilla se empuja al fondo de la fila para que las dos columnas la
+   tengan a la misma altura: si va pegada a su texto, un título de dos líneas
+   la baja y la de al lado se queda arriba, y la parrilla se ve descuadrada.
+   El claro que esto dejaba antes venía de que las columnas eran de distinto
+   ancho, y eso ya está arreglado con `minmax(0, 1fr)`. */
+.parrilla .ficha-pie { margin-top: auto; padding-top: 8px; }
+/* Y el gancho, a la misma altura en las dos: dos renglones fijos, que es lo
+   que hace que las portadas de la fila siguiente empiecen a la vez. */
+.parrilla .ficha-gancho { -webkit-line-clamp: 2; min-height: 2.84em; }
 
 .ficha-pie {
   display: flex;
