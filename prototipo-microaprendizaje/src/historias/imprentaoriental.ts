@@ -149,7 +149,7 @@ export const IMPRENTA_ORIENTAL: Short[] = [
     curioso: true,
     encargo: "Caracteres coreanos sencillos trazados con pincel sobre papel claro.",
     entrada:
-      "Corea, 1443. El país escribe con caracteres chinos, que exigen años de estudio y que solo domina una minoría de funcionarios y nobles. El rey encarga a un grupo de eruditos de palacio una solución radical: crear desde cero un sistema de escritura propio, sencillo, que cualquiera pueda aprender en unos días. Se publica tres años después con un prólogo que explica exactamente para qué se ha hecho.",
+      "Corea, 1443. El país escribe con caracteres chinos, que exigen años y años de estudio y que en la práctica solo dominan una minoría de funcionarios y de nobles con tiempo y dinero para aprenderlos. El resto de la población es analfabeta y no por falta de ganas. El rey encarga entonces a un grupo de eruditos de palacio una solución radical: crear desde cero un sistema de escritura propio, sencillo, que cualquiera pueda aprender en unos días. Se publica tres años después con un prólogo que explica exactamente para qué se ha hecho.",
     paginas: [
       {
         rotulo: "La forma",

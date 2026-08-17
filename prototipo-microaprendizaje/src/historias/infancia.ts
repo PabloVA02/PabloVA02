@@ -151,7 +151,7 @@ export const INFANCIA: Short[] = [
     color: "var(--ochre)",
     encargo: "Un caballito de madera pintado, algo desconchado, sobre un suelo de tablas.",
     entrada:
-      "Europa y Estados Unidos, siglo XIX. Hasta entonces, los juguetes de la mayoría de los niños son los que fabrica alguien de la familia: muñecas de trapo, peonzas de madera, aros de barril. Solo las casas ricas compran juguetes de artesano. Con la industria, con las ciudades y con las familias que empiezan a tener algo de dinero sobrante, aparece un mercado nuevo.",
+      "Europa y Estados Unidos, siglo XIX. Hasta entonces, los juguetes de la inmensa mayoría de los niños son los que fabrica alguien de la propia familia con lo que hay por casa: muñecas de trapo, peonzas de madera, aros sacados de un barril viejo. Solo las casas ricas compran juguetes hechos por un artesano, y los guardan como se guarda un mueble. Con la industria, con las ciudades llenas de gente y con familias que empiezan a tener algo de dinero sobrante a fin de mes, aparece un mercado que antes no existía.",
     paginas: [
       {
         rotulo: "Fabricar barato",

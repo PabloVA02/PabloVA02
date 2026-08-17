@@ -148,7 +148,7 @@ export const HUELGAS: Short[] = [
     color: "var(--plum)",
     encargo: "Un andén de estación medio vacío con un cartel de información y pocos viajeros.",
     entrada:
-      "España y el resto de Europa, desde mediados del siglo XX. El derecho de huelga se reconoce en las constituciones, pero choca con un problema evidente. Si paran a la vez todos los médicos de un hospital o todos los maquinistas de una red de trenes, el perjuicio no lo sufre solo la empresa, sino gente ajena al conflicto.",
+      "España y el resto de Europa, desde mediados del siglo XX. El derecho de huelga se reconoce en las constituciones y en los convenios internacionales, y no lo discute casi nadie. Pero choca de frente con un problema evidente en cuanto se piensa un momento. Si paran a la vez todos los médicos de un hospital, todos los maquinistas de una red de trenes o todos los controladores aéreos de un país, el perjuicio no lo sufre solo la empresa con la que se está negociando, sino un montón de gente completamente ajena al conflicto.",
     paginas: [
       {
         rotulo: "El equilibrio",
