@@ -15,8 +15,30 @@ import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
 const DIR = "src/historias";
-const cambios = JSON.parse(readFileSync(process.argv[2], "utf8"));
 const palabras = (t) => t.replace(/<[^>]+>/g, " ").trim().split(/\s+/).length;
+
+/* `ver` enseña la entrada actual y el principio de cada página, que es lo que
+   hace falta para alargar la entrada sin repetir lo que viene después. */
+if (process.argv[2] === "ver") {
+  for (const f of readdirSync(DIR).filter((f) => f.endsWith(".ts"))) {
+    const s = readFileSync(join(DIR, f), "utf8");
+    for (const id of process.argv.slice(3)) {
+      const i = s.indexOf(`\n    id: "${id}",`);
+      if (i < 0) continue;
+      let j = s.indexOf('\n    id: "', i + 10);
+      if (j < 0) j = s.length;
+      const b = s.slice(i, j);
+      const ent = /entrada:\n\s+"((?:[^"\\]|\\.)*)"/.exec(b)?.[1] ?? "";
+      console.log(`\n===== ${id} · ${palabras(ent)} palabras`);
+      console.log("E: " + ent);
+      for (const [k, m] of [...b.matchAll(/texto:\n\s+"((?:[^"\\]|\\.)*)"/g)].entries())
+        console.log(`P${k + 1}: ${m[1].slice(0, 190)}`);
+    }
+  }
+  process.exit(0);
+}
+
+const cambios = JSON.parse(readFileSync(process.argv[2], "utf8"));
 
 /* Dónde vive cada short. */
 const donde = new Map();
