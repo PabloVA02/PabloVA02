@@ -151,7 +151,7 @@ export const CENSOS: Short[] = [
     curioso: true,
     encargo: "Una hoja de cálculo manuscrita con columnas de números y correcciones a lápiz.",
     entrada:
-      "Estados Unidos, 1880. Tras cada censo hay que repartir los escaños de la cámara baja entre los estados en proporción a su población, y como los escaños son enteros y las proporciones no, hace falta una regla para redondear. Un funcionario que prepara las tablas prueba a calcular el reparto con distintos tamaños de cámara y se encuentra con algo que no tiene sentido.",
+      "Estados Unidos, 1880. Después de cada censo hay que repartir los escaños de la cámara baja entre los estados en proporción a su población, y como los escaños son números enteros y las proporciones casi nunca lo son, hace falta una regla acordada para redondear. Parece un asunto de aritmética elemental. Un funcionario que prepara las tablas prueba a calcular el reparto con distintos tamaños de cámara, por si conviene ampliarla, y se encuentra con un resultado que no tiene ningún sentido y que no consigue explicarse. Con un escaño más para repartir, un estado se quedaba con menos escaños.",
     paginas: [
       {
         rotulo: "El absurdo",

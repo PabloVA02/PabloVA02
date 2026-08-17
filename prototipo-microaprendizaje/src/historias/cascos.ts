@@ -151,7 +151,7 @@ export const CASCOS: Short[] = [
     curioso: true,
     encargo: "Un casco cortado por la mitad, con una capa amarilla fina bajo la espuma.",
     entrada:
-      "Suecia, años noventa. Un neurocirujano observa algo que las normas de la época no medían. En las lesiones cerebrales graves por caída, el daño no suele venir de un golpe recto, sino de un impacto oblicuo que hace girar la cabeza. Ese giro estira y desgarra las conexiones internas del cerebro, y contra eso una espuma que solo se aplasta hace poco.",
+      "Suecia, años noventa. Un neurocirujano que lleva años abriendo cabezas rotas observa algo que las normas de homologación de la época no medían por ninguna parte. En las lesiones cerebrales graves por caída, el daño no suele venir de un golpe recto contra el suelo, sino de un impacto oblicuo, en ángulo, que hace girar la cabeza de golpe. Ese giro estira y desgarra las conexiones internas del cerebro, y contra eso una espuma que solo sabe aplastarse hacia dentro no puede hacer gran cosa. Los cascos estaban probándose mal. Faltaba una pieza que ya llevamos todos dentro de la cabeza.",
     paginas: [
       {
         rotulo: "El giro",

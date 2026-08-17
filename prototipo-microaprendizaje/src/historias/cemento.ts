@@ -154,7 +154,7 @@ export const CEMENTO: Short[] = [
     curioso: true,
     encargo: "Una duna de arena fina y ondulada con rascacielos borrosos al fondo.",
     entrada:
-      "Emiratos y otros países del Golfo, siglo XXI. Se levantan rascacielos en mitad de un desierto de arena y una parte del material se trae en barco desde Australia y desde otros continentes. Suena absurdo y no lo es: la arena que el viento ha pulido durante milenios no sirve para hacer hormigón. La que vale está en los ríos y en el fondo del mar.",
+      "Emiratos y otros países del Golfo, siglo XXI. Se levantan rascacielos de doscientos pisos en mitad de un desierto de arena, y una parte del material de construcción se trae en barco desde Australia y desde otros continentes, atravesando medio mundo. Dicho así suena a chiste o a mala gestión, y no es ninguna de las dos cosas: la arena que el viento ha estado puliendo durante milenios no sirve para hacer hormigón. La que vale está en los ríos y en el fondo del mar, y se está acabando. Es el segundo material que más extraemos del planeta, por detrás del agua.",
     paginas: [
       {
         rotulo: "El grano redondo",

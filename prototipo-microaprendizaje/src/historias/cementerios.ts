@@ -154,7 +154,7 @@ export const CEMENTERIOS: Short[] = [
     color: "var(--ochre)",
     encargo: "Un muro de nichos de varias alturas con flores en algunas repisas.",
     entrada:
-      "España, siglo XXI. La mayoría de los enterramientos no se hacen en tierra sino en nichos, unos huecos apilados en muros de varias alturas, y casi ninguno se compra para siempre: se contrata una concesión por un plazo, habitualmente de diez, veinticinco o cincuenta años, que después hay que renovar volviendo a pagar por ella.",
+      "España, siglo XXI. La mayoría de los enterramientos no se hacen en tierra, como imagina casi todo el mundo, sino en nichos: unos huecos apilados en muros de varias alturas, con la lápida por fuera. Y casi ninguno de esos huecos se compra para siempre, aunque la gente lo dé por hecho. Lo que se firma es una concesión por un plazo determinado, habitualmente de diez, veinticinco o cincuenta años, que cuando vence hay que renovar volviendo a pagar por ella. Si nadie paga, pasa lo que tiene que pasar. Descansar para siempre en un sitio depende de que alguien siga pagando.",
     paginas: [
       {
         rotulo: "El nicho",

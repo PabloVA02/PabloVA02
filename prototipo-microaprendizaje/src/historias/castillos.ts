@@ -153,7 +153,7 @@ export const CASTILLOS: Short[] = [
     color: "var(--clay)",
     encargo: "Una galería estrecha de tierra apuntalada con maderos, iluminada por una antorcha.",
     entrada:
-      "Europa y Oriente Próximo, siglos XII a XVI. Un castillo bien abastecido puede resistir meses de asedio, y asaltar un muro por fuera cuesta muchísimas bajas. Así que la manera más eficaz de tumbarlo no era subir sino excavar: llegar por debajo de la muralla con un túnel y conseguir que se derrumbara sola por su propio peso.",
+      "Europa y Oriente Próximo, siglos XII a XVI. Un castillo bien abastecido y con un pozo dentro puede resistir meses enteros de asedio sin despeinarse, y asaltar un muro por fuera, con escalas y torres, cuesta muchísimas bajas y no siempre sale. Así que la manera más eficaz de tumbar una fortaleza no era subir por encima sino excavar por debajo: llegar hasta los cimientos de la muralla con un túnel y conseguir que el muro se derrumbara solo, por su propio peso, sin que nadie lo empujara. Y los de dentro tenían una manera muy ingeniosa de enterarse.",
     paginas: [
       {
         rotulo: "El apuntalado",
