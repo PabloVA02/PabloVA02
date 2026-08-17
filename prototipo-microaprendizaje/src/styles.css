@@ -5702,10 +5702,15 @@ button {
 
 /* El dato: una cifra y cuatro palabras. Lo delimita la linea de arriba y el
    tamano del numero, asi que no le hace falta ninguna etiqueta. */
+/* El dato va pegado al texto que lo justifica, no al filo de abajo.
+   Con `margin-top: auto` se iba al fondo de la página y abría un claro en
+   mitad de la pantalla: el lector leía el texto, veía el hueco y daba el
+   short por terminado en la segunda página. El aire sobrante se queda abajo,
+   donde no promete nada. */
 .short-destacado,
 .short-destacado[data-tipo="cifra"],
 .short-destacado[data-tipo="frase"] {
-  margin-top: auto;
+  margin-top: 5cqw;
   border: none;
   border-top: 0.28cqw solid color-mix(in srgb, var(--acento, var(--ochre)) 26%, transparent);
   border-radius: 0;
