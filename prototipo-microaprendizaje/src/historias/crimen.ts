@@ -276,7 +276,7 @@ export const CRIMEN: Short[] = [
     color: "var(--sage)",
     encargo: "Un suburbio californiano de los años setenta al anochecer.",
     entrada:
-      "California, entre 1974 y 1986. Un hombre comete al menos trece asesinatos y más de cincuenta violaciones entrando de noche en casas de las afueras. Es metódico hasta lo insoportable: días antes desmonta las cerraduras, deja ventanas preparadas y llama por teléfono para saber quién está en casa. Después desaparece sin más, y durante cuarenta años no hay un solo sospechoso sólido.",
+      "California, entre 1974 y 1986. Un hombre comete al menos trece asesinatos y más de cincuenta violaciones entrando de noche en casas de las afueras. Es metódico hasta lo insoportable: días antes desmonta las cerraduras, deja ventanas preparadas y llama por teléfono para saber quién está en casa. Actuó en tantos sitios y durante tanto tiempo que la policía llegó a creer que eran varios hombres distintos, y le puso tres nombres antes de entender que era uno solo. Después desaparece sin más, y durante cuarenta años no hay un solo sospechoso sólido.",
     paginas: [
       {
         rotulo: "El árbol al revés",
@@ -306,7 +306,7 @@ export const CRIMEN: Short[] = [
     color: "var(--slate)",
     encargo: "Un bergantin del siglo XIX navegando solo, o el Mary Celeste.",
     entrada:
-      "En mitad del Atlántico, camino de Portugal, el 4 de diciembre de 1872. Un bergantín, que es un barco de vela de dos palos, avista a otro navegando de forma extraña, con poca vela y dando bandazos. Se acercan y gritan, y nadie responde. Suben a bordo y encuentran el Mary Celeste en perfecto estado, con la carga entera y provisiones para seis meses.",
+      "En mitad del Atlántico, camino de Portugal, el 4 de diciembre de 1872. Un bergantín, que es un barco de vela de dos palos, avista a otro navegando de forma extraña, con poca vela y dando bandazos. Se acercan y gritan, y nadie responde. Suben a bordo y encuentran el Mary Celeste en perfecto estado, con la carga entera, provisiones para seis meses y agua dulce de sobra. La ropa sigue en los baúles y el desayuno está a medio recoger. No hay señal de pelea, ni de incendio, ni de que el barco haya corrido peligro de hundirse.",
     paginas: [
       {
         rotulo: "Lo que faltaba",
@@ -336,7 +336,7 @@ export const CRIMEN: Short[] = [
     color: "var(--plum)",
     encargo: "Una granja bavara aislada bajo la nieve, con el bosque detras.",
     entrada:
-      "Baviera, Alemania, marzo de 1922. La granja de Hinterkaifeck está aislada, a media hora andando del pueblo más cercano. Semanas antes, el dueño había contado en el pueblo cosas muy raras que le estaban pasando en casa. Había huellas en la nieve que venían del bosque hasta la puerta y no volvían, pasos en el desván y un periódico que nadie había comprado. No llamó a la policía.",
+      "Baviera, Alemania, marzo de 1922. La granja de Hinterkaifeck está aislada, a media hora andando del pueblo más cercano. Semanas antes, el dueño había contado en el pueblo cosas muy raras que le estaban pasando en casa. Había huellas en la nieve que venían del bosque hasta la puerta y no volvían, pasos en el desván por la noche, un manojo de llaves que había desaparecido y un periódico que nadie de la casa había comprado. La criada se había marchado poco antes diciendo que aquello estaba encantado y que no aguantaba una noche más. No llamó a la policía.",
     paginas: [
       {
         rotulo: "El granero",
@@ -366,7 +366,7 @@ export const CRIMEN: Short[] = [
     color: "var(--ochre)",
     encargo: "Un recorte de periodico de San Francisco de 1969 con un criptograma.",
     entrada:
-      "Norte de California, entre 1968 y 1969. Un asesino mata al menos a cinco personas y empieza a mandar cartas a los periódicos firmadas como Zodiac. Exige que se publiquen en portada y amenaza con matar a más gente si no lo hacen. Y dentro de las cartas manda criptogramas, que son mensajes escritos con símbolos inventados, donde dice que está su identidad.",
+      "Norte de California, entre 1968 y 1969. Un asesino mata al menos a cinco personas y empieza a mandar cartas a los periódicos firmadas como Zodiac. Exige que se publiquen en portada y amenaza con matar a más gente si no lo hacen. Los periódicos, que nunca habían tenido que decidir una cosa así, las publican. En una de ellas se dibuja a sí mismo con una capucha y el símbolo de una diana en el pecho. Y dentro de las cartas manda criptogramas, que son mensajes escritos con símbolos inventados, donde dice que está su identidad.",
     paginas: [
       {
         rotulo: "El primer mensaje",
