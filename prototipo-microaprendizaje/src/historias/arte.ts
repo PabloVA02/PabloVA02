@@ -165,7 +165,7 @@ export const ARTE: Short[] = [
     curioso: true,
     encargo: "Un trozo de lapislázuli en bruto junto a pigmento azul molido en un mortero.",
     entrada:
-      "En un contrato de encargo del Renacimiento, el precio no lo ponía solo el pintor: lo ponía la paleta. Y había un color que se negociaba aparte, con su cláusula propia, porque valía más por peso que el oro. Se llamaba ultramar, se obtenía de una piedra semipreciosa y durante siglos vino de un único sitio del mundo.",
+      "En un contrato de encargo del Renacimiento, el precio no lo ponía solo el pintor: lo ponía la paleta. Los ocres y los verdes salían de tierras que había en cualquier parte, pero había un color que se negociaba aparte, con su cláusula propia, porque valía más por peso que el oro. Es un azul hondo que no se apaga con los años, y en los cuadros de la época está casi siempre en el mismo sitio: el manto de la Virgen. Se llamaba ultramar, se obtenía de una piedra semipreciosa y durante siglos vino de un único sitio del mundo.",
     paginas: [
       {
         rotulo: "La montaña",
@@ -197,7 +197,7 @@ export const ARTE: Short[] = [
     color: "var(--ochre)",
     encargo: "Un campo de trigo amarillo bajo un cielo azul cargado, pintado a brochazos gruesos.",
     entrada:
-      "Holanda, 1880. Un hombre de veintisiete años acaba de fracasar como marchante de arte, como maestro y como predicador entre mineros, y decide que va a ser pintor. No sabe dibujar. Le quedan diez años de vida y en ellos va a hacer unas novecientas pinturas y mil cien dibujos, casi todo en los últimos cuatro.",
+      "Holanda, 1880. Un hombre de veintisiete años acaba de fracasar como marchante de arte, como maestro y como predicador entre mineros, y decide que va a ser pintor. No sabe dibujar: se pone a copiar manuales para principiantes a una edad en la que los pintores de su tiempo llevaban ya diez años trabajando. Le quedan diez años de vida y en ellos va a hacer unas novecientas pinturas y mil cien dibujos, casi todo en los últimos cuatro. Hoy sus cuadros están entre los más caros que se han vendido nunca.",
     paginas: [
       {
         rotulo: "El hermano",
@@ -228,7 +228,7 @@ export const ARTE: Short[] = [
     curioso: true,
     encargo: "Una bóveda pintada vista desde abajo, con andamios de madera en un lateral.",
     entrada:
-      "Roma, 1508. El Papa encarga a un escultor florentino de treinta y tres años que pinte el techo de una capilla del Vaticano. El hombre protesta: dice que él es escultor, no pintor, que apenas ha trabajado al fresco y que el encargo es una trampa de sus enemigos. Acepta porque no puede negarse. Tardará cuatro años y pintará más de trescientas figuras.",
+      "Roma, 1508. El Papa Julio II, un hombre acostumbrado a que no le discutan nada, encarga a un escultor florentino de treinta y tres años que pinte el techo de una capilla del Vaticano: quinientos metros cuadrados de bóveda a veinte metros del suelo. El escultor protesta y lo deja por escrito. Dice que él es escultor y no pintor, que apenas ha trabajado al fresco y que el encargo es una trampa que le han puesto sus enemigos. Acepta porque no puede negarse. Tardará cuatro años y pintará más de trescientas figuras.",
     paginas: [
       {
         rotulo: "El andamio",
@@ -258,7 +258,7 @@ export const ARTE: Short[] = [
     color: "var(--clay)",
     encargo: "Un cielo naranja ondulado sobre un puente de madera, en tonos de tiza.",
     entrada:
-      "Oslo, 12 de febrero de 1994. Es el día en que empiezan los Juegos Olímpicos de invierno en Noruega y la ciudad entera está pendiente de la ceremonia. A las seis y media de la mañana, dos hombres apoyan una escalera en la fachada de la galería nacional, rompen una ventana y se llevan uno de los cuadros más reconocibles del mundo. Tardan cincuenta segundos.",
+      "Oslo, 12 de febrero de 1994. Es el día en que empiezan los Juegos Olímpicos de invierno en Noruega y la ciudad entera está pendiente de la ceremonia, con la policía volcada en el acto y las televisiones del mundo apuntando a otro sitio. A las seis y media de la mañana, dos hombres apoyan una escalera en la fachada de la galería nacional, rompen una ventana y se llevan uno de los cuadros más reconocibles del mundo. Antes de marcharse dejan apoyada en la pared una nota dando las gracias por la mala seguridad. Todo el asalto les lleva cincuenta segundos.",
     paginas: [
       {
         rotulo: "La nota",
