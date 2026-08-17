@@ -153,7 +153,7 @@ export const MAQUINA_ESCRIBIR: Short[] = [
     curioso: true,
     encargo: "Una máquina de escribir eléctrica moderna sobre una mesa de despacho vacía.",
     entrada:
-      "Rusia y Alemania, 2013. Ese verano se publica que los servicios de espionaje de varios países interceptan comunicaciones digitales a una escala que nadie sospechaba. La reacción de algunas oficinas oficiales no fue comprar más ordenadores, sino menos: un servicio del Estado ruso encargó máquinas de escribir eléctricas para redactar sus documentos más reservados.",
+      "Rusia y Alemania, 2013. Ese verano se publica, con documentos encima de la mesa, que los servicios de espionaje de varios países interceptan comunicaciones digitales a una escala que casi nadie se había atrevido a sospechar en voz alta. La reacción de algunas oficinas oficiales fue la contraria de la esperada: no comprar más ordenadores ni más cifrado, sino comprar menos. Un servicio del Estado ruso encargó máquinas de escribir eléctricas para redactar en ellas sus documentos más reservados, y no fue el único que lo hizo. Un papel escrito a máquina no se puede copiar sin entrar en el edificio.",
     paginas: [
       {
         rotulo: "Lo que no conecta",

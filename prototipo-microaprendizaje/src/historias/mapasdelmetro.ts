@@ -149,7 +149,7 @@ export const MAPAS_DEL_METRO: Short[] = [
     color: "var(--plum)",
     encargo: "Dos líneas de plano de metro, una roja y otra verde, cruzándose.",
     entrada:
-      "Redes de metro de todo el mundo, con normas de accesibilidad que se han ido endureciendo desde los años noventa del siglo XX. Alrededor de uno de cada doce hombres y una de cada doscientas mujeres tiene alguna alteración de la visión del color, casi siempre para distinguir rojos y verdes. Los planos de metro llevan décadas usando esos dos colores en líneas contiguas.",
+      "Redes de metro de todo el mundo, con normas de accesibilidad que se han ido endureciendo desde los años noventa del siglo XX. Alrededor de uno de cada doce hombres y una de cada doscientas mujeres tiene alguna alteración en la visión del color, casi siempre para distinguir los rojos de los verdes, y muchos ni siquiera lo saben hasta que les hacen la prueba. Los planos de metro llevan décadas usando precisamente esos dos colores en líneas que van una al lado de la otra, y a veces se cruzan. Para mucha gente ese plano no se lee, sencillamente.",
     paginas: [
       {
         rotulo: "El problema",

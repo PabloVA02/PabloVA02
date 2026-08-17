@@ -162,7 +162,7 @@ export const MAR: Short[] = [
     color: "var(--plum)",
     encargo: "Un hidrófono suspendido de un cable en agua muy oscura, luz cenital tenue.",
     entrada:
-      "En 1989, los hidrófonos que la Marina de Estados Unidos había repartido por el Pacífico para vigilar submarinos soviéticos registraron un canto de ballena que no encajaba con ninguno conocido. La estructura era de ballena, pero la frecuencia estaba muy por encima de la de cualquier especie grande. Alrededor de 52 hercios, donde no canta nadie.",
+      "En 1989, los hidrófonos que la Marina de Estados Unidos había repartido por el fondo del Pacífico para vigilar submarinos soviéticos registraron un canto de ballena que no encajaba con ninguno de los conocidos. La estructura del canto era claramente de ballena, con sus pausas y sus repeticiones, pero la frecuencia estaba muy por encima de la de cualquier especie grande de las que se habían grabado hasta entonces. Sonaba alrededor de los cincuenta y dos hercios, una zona del sonido donde no canta nadie más. Llevan más de treinta años oyéndola y nadie la ha visto nunca.",
     paginas: [
       {
         rotulo: "La frecuencia",

@@ -161,7 +161,7 @@ export const MATEMATICAS: Short[] = [
     color: "var(--clay)",
     encargo: "Un cuadrado dibujado a tiza con su diagonal marcada, sobre pizarra oscura.",
     entrada:
-      "La escuela de Pitágoras no era solo un grupo de matemáticos: era una hermandad con reglas de vida y una creencia central. Todo en el universo, sostenían, se puede expresar como una relación entre números enteros. La música lo confirmaba: las cuerdas suenan bien juntas en proporciones sencillas. Y entonces alguien miró la diagonal de un cuadrado.",
+      "La escuela de Pitágoras no era solamente un grupo de matemáticos reunidos para hacer cuentas: era una hermandad con reglas de vida, secretos internos y una creencia central que lo sostenía todo. Todo en el universo, sostenían, se puede expresar como una relación entre números enteros. La música parecía darles la razón todos los días, porque las cuerdas suenan bien juntas exactamente en proporciones sencillas. Y entonces a alguien de la casa se le ocurrió mirar una cosa tan tonta como la diagonal de un cuadrado. Lo que encontró allí puso en peligro toda la creencia de la escuela.",
     paginas: [
       {
         rotulo: "La diagonal",

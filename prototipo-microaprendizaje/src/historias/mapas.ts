@@ -167,7 +167,7 @@ export const MAPAS: Short[] = [
     color: "var(--ochre)",
     encargo: "La línea del meridiano marcada en el suelo del observatorio de Greenwich.",
     entrada:
-      "El ecuador no lo eligió nadie: está donde la Tierra gira más rápido y no hay discusión posible. El meridiano cero, en cambio, podía estar en cualquier sitio, porque en un planeta que gira no hay ningún punto especial de este a oeste. Así que hubo que decidirlo, y decidirlo significa una sala, unos delegados y una votación.",
+      "El ecuador no lo eligió nadie y no admite discusión: está donde está porque es la línea donde la Tierra gira más rápido, y ahí se acaba el debate. Con el meridiano cero pasa justo lo contrario. Podía estar en cualquier sitio del planeta, porque en una esfera que gira no hay ningún punto especial de este a oeste que sirva de referencia natural. Así que no quedaba más remedio que decidirlo, y decidir algo así significa una sala, unos delegados con instrucciones de sus gobiernos y una votación. Y donde hay una votación hay ganadores, perdedores y rencores que duran décadas.",
     paginas: [
       {
         rotulo: "La votación",
