@@ -155,7 +155,7 @@ export const SEMAFOROS: Short[] = [
     curioso: true,
     encargo: "Una señal de stop vista desde atrás, recortada contra un cielo blanco.",
     entrada:
-      "Estados Unidos, 1923. Una comisión de ingenieros de carreteras se reúne para poner orden en las señales de tráfico, que hasta entonces fabrica cada estado y cada ayuntamiento a su gusto. Deciden algo que parece un capricho y no lo es: que la forma de la señal indique por sí sola lo peligroso que es aquello que anuncia.",
+      "Estados Unidos, 1923. Una comisión de ingenieros de carreteras se reúne para poner orden en las señales de tráfico, que hasta ese momento fabrica cada estado y cada ayuntamiento a su gusto, con la forma, el color y el texto que le parece. Un conductor que cruzaba el país no entendía la mitad de lo que veía. Deciden entonces algo que visto de lejos parece un capricho de comité y no lo es en absoluto: que la forma de la señal indique por sí sola lo peligroso que es aquello que anuncia.",
     paginas: [
       {
         rotulo: "Más lados",
