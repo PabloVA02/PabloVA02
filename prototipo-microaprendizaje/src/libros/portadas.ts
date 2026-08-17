@@ -214,6 +214,33 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "cuerpo-cuenta": {
+    archivo: "Yoga by the sea (Unsplash).jpg",
+    autor: "Postura de yoga en la orilla al amanecer. Fotografía de Kristopher Allison, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AYoga%20by%20the%20sea%20(Unsplash).jpg",
+    foco: "45% 50%",
+    alt: "Una persona haciendo una postura de yoga sobre las rocas, con el sol saliendo del mar.",
+  },
+
+  superpronosticadores: {
+    archivo: "Vintage chess pieces (Unsplash).jpg",
+    autor: "Piezas de ajedrez de metal sobre el tablero. Fotografía de Lou Levit, 2014.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AVintage%20chess%20pieces%20(Unsplash).jpg",
+    foco: "45% 50%",
+    alt: "Filas de piezas de ajedrez plateadas en un tablero de madera, en luz cálida.",
+  },
+
+  "milagro-manana": {
+    archivo: "Patrick Hendry - Yoga Fog (Unsplash).jpg",
+    autor: "Silueta de una persona en postura de yoga entre la niebla. Fotografía de Patrick Hendry, 2015.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3APatrick%20Hendry%20-%20Yoga%20Fog%20(Unsplash).jpg",
+    foco: "58% 50%",
+    alt: "Una figura negra de pie sobre una loma, en equilibrio sobre un pie, contra un cielo gris claro.",
+  },
+
   sisifo: {
     archivo: "Large glacial erratic boulder - geograph.org.uk - 2991864.jpg",
     autor: "Bloque errático glaciar en una ladera de Escocia. Fotografía de 2012.",
