@@ -11,7 +11,7 @@ preguntar nada. Los números salen de `node scripts/revisa-shorts.mjs` y de
 | imágenes puestas | 2123, verificadas hasta 1854 | |
 | portadas de los libros | 200 de 200 | 0 |
 | títulos que no caben en una línea | | 0 |
-| entradas que dejan hueco abajo | | 233, todas de shorts sin ilustrar |
+| entradas que dejan hueco abajo | 131 alargadas | 97, todas de shorts sin ilustrar |
 
 ## LO PRIMERO: la foto tiene que ser bonita
 
