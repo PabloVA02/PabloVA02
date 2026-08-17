@@ -151,7 +151,7 @@ export const PATINES: Short[] = [
     color: "var(--ochre)",
     encargo: "El eje de un patin de cuatro ruedas visto por debajo, con el taco de goma.",
     entrada:
-      "Nueva York, 1863. El patín de ruedas lleva un siglo existiendo y sigue sin servir para nada, porque va recto y no hay manera de gobernarlo. Quien se lo pone solo puede hacer dos cosas: seguir la línea que lleva o caerse. Un empresario de la ciudad patenta ese año un montaje distinto, con cuatro ruedas repartidas en dos ejes y una pieza de goma entre cada eje y la bota. Ese trozo de goma, que no parece nada, es lo que convierte el patín en algo que se puede conducir.",
+      "Nueva York, 1863. El patín de ruedas lleva un siglo existiendo y sigue sin servir para nada, porque va recto y no hay manera de gobernarlo. Quien se lo pone solo puede hacer dos cosas: seguir la línea que lleva o caerse. Un empresario de la ciudad patenta ese año un montaje distinto, con cuatro ruedas repartidas en dos ejes y una pieza de goma entre cada eje y la bota. Ese trozo de goma, que no parece nada y no se ve desde fuera, es lo que convierte el patín en algo que se puede conducir.",
     paginas: [
       {
         rotulo: "La goma",

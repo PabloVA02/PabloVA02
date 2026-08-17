@@ -155,7 +155,7 @@ export const PASAPORTES: Short[] = [
     curioso: true,
     encargo: "Un banco rojo de plástico en una terminal vacía con maletas y cajas alrededor.",
     entrada:
-      "París, 1988. Un hombre llega al aeropuerto principal de la ciudad procedente de Londres, donde lo han devuelto por viajar sin documentación. Dice que le robaron los papeles en una estación. Sin pasaporte no puede entrar en Francia, y sin pasaporte tampoco puede subirse a ningún avión. Se queda en la zona de tránsito de la terminal uno.",
+      "París, 1988. Un hombre llega al aeropuerto principal de la ciudad procedente de Londres, donde lo han devuelto por viajar sin documentación encima. Dice que le robaron los papeles en una estación de tren y no puede demostrar lo contrario. Sin pasaporte no puede entrar en Francia, porque la policía de fronteras no le deja pasar, y sin pasaporte tampoco puede subirse a ningún avión que lo saque de allí. Así que se queda en la zona de tránsito de la terminal uno, que no es exactamente ningún país. Y allí se queda dieciocho años.",
     paginas: [
       {
         rotulo: "El bucle",
