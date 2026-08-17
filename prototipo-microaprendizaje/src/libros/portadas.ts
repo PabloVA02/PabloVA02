@@ -214,6 +214,35 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  spqr: {
+    archivo: "Colosseum in Rome, Italy - April 2007.jpg",
+    autor: "El Coliseo de Roma iluminado al anochecer. Fotografía de David Iliff, 2007.",
+    licencia: "CC BY-SA 2.5",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AColosseum%20in%20Rome%2C%20Italy%20-%20April%202007.jpg",
+    foco: "45% 50%",
+    alt: "El anfiteatro romano encendido por dentro, con el cielo azul oscuro detrás.",
+  },
+
+  "historia-espana": {
+    archivo: "Granada - Alhambra - Palacios nazaríes - Patio de los Leones - 5.jpg",
+    autor: "Columnas del Patio de los Leones, en la Alhambra de Granada. Fotografía de Benjamin Smith, 2024.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AGranada%20-%20Alhambra%20-%20Palacios%20nazar%C3%ADes%20-%20Patio%20de%20los%20Leones%20-%205.jpg",
+    foco: "50% 50%",
+    alt: "Columnas blancas de mármol con capiteles labrados y yeserías nazaríes encima.",
+  },
+
+  "universo-mano": {
+    archivo: "039 Northern lights over Mývatn (Iceland) Photo by Giles Laurent.jpg",
+    autor: "Auroras boreales sobre el lago Mývatn, en Islandia. Fotografía de Giles Laurent, 2022.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3A039%20Northern%20lights%20over%20M%C3%BDvatn%20(Iceland)%20Photo%20by%20Giles%20Laurent.jpg",
+    foco: "55% 40%",
+    alt: "Cortinas verdes de aurora boreal sobre un lago helado, bajo un cielo estrellado.",
+  },
+
   leonardo: {
     archivo: "Dama z gronostajem.jpg",
     autor: "La dama del armiño, óleo de Leonardo da Vinci, hacia 1490. Museo Nacional de Cracovia.",
