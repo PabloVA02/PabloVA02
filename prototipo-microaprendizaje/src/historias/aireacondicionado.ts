@@ -152,7 +152,7 @@ export const AIRE_ACONDICIONADO: Short[] = [
     color: "var(--plum)",
     encargo: "Un barrio de casas bajas idénticas visto desde el aire, con palmeras y calor.",
     entrada:
-      "Estados Unidos, entre 1950 y 1980. Los estados del sur, calurosos y húmedos, llevan un siglo perdiendo población frente al norte industrial. En treinta años eso se da la vuelta por completo y decenas de millones de personas se mudan al sur. Hay muchas causas —el aire acondicionado no es la única—, pero es la que hizo llevaderos los veranos en zonas donde antes se paraba de trabajar.",
+      "Estados Unidos, entre 1950 y 1980. Los estados del sur, calurosos y húmedos, llevan un siglo largo perdiendo población frente al norte industrial: quien podía, se marchaba a las fábricas del otro lado del país. En treinta años eso se da la vuelta por completo y decenas de millones de personas se mudan al sur. Hay muchas causas detrás y el aire acondicionado no es la única, pero sí es la que hizo llevaderos los veranos en zonas donde antes, sencillamente, se paraba de trabajar de junio a septiembre. Con la gente se movió también el poder político del país entero.",
     paginas: [
       {
         rotulo: "Donde no se podía",

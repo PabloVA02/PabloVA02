@@ -149,7 +149,7 @@ export const AGUJA: Short[] = [
     curioso: true,
     encargo: "Punta de diamante de un tocadiscos apoyada en el surco, ampliada muchísimo.",
     entrada:
-      "Estados Unidos, 1948. Sale al mercado el disco de vinilo de larga duración, que guarda la música en un surco en espiral de casi medio kilómetro de largo. La aguja que lo recorre es una punta de diamante que apoya con una fuerza minúscula. Lo que hace parece imposible: convertir la forma de una ranura en un sonido.",
+      "Estados Unidos, 1948. Sale al mercado el disco de vinilo de larga duración, que guarda la música grabada en un surco en espiral de casi medio kilómetro de largo enrollado en treinta centímetros de plástico. La aguja que lo recorre es una punta de diamante tallada, tan pequeña que apenas se ve, y apoya sobre el disco con una fuerza minúscula. Lo que hace ese conjunto de piezas parece imposible visto de cerca: convertir la forma física de una ranura en una orquesta entera sonando en el salón. Y lo hace sin más energía que la del propio surco empujando la punta.",
     paginas: [
       {
         rotulo: "Dos paredes",

@@ -149,7 +149,7 @@ export const ALGODON: Short[] = [
     color: "var(--plum)",
     encargo: "Un campo de algodón con las cápsulas blancas abiertas bajo un sol duro.",
     entrada:
-      "El algodón se cultiva desde hace más de cinco mil años y hoy ocupa cerca del dos por ciento de la tierra de labranza. Del agua de riego, en cambio, se lleva una parte mucho mayor. La razón está en la planta: es un arbusto de zonas cálidas que necesita agua constante durante meses, y casi todo el algodón del mundo se cultiva en sitios donde no llueve lo suficiente.",
+      "El algodón se cultiva desde hace más de cinco mil años y hoy ocupa cerca del dos por ciento de toda la tierra de labranza del planeta, que no es mucho. Del agua de riego, en cambio, se lleva una parte muchísimo mayor, y ahí está lo raro del asunto. La razón está en la planta y no en la fábrica: es un arbusto de zonas cálidas que necesita agua constante durante meses seguidos, y casi todo el algodón del mundo se cultiva precisamente en sitios donde no llueve lo suficiente. Toda esa agua hay que sacarla de algún sitio, y ese sitio se nota.",
     paginas: [
       {
         rotulo: "La cuenta",

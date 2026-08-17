@@ -155,7 +155,7 @@ export const ALCOHOL: Short[] = [
     color: "var(--slate)",
     encargo: "Un callejón estrecho del siglo XVIII con figuras tumbadas en los portales.",
     entrada:
-      "Londres, 1720. La ciudad ha crecido de golpe con gente llegada del campo que vive amontonada y sin trabajo fijo. La ginebra, que hasta hacía poco era una bebida importada de Holanda, se fabrica ahora en cualquier sótano, se vende sin licencia y sale más barata que la cerveza, más barata incluso que el agua limpia. El consumo se multiplica por ocho en veinte años.",
+      "Londres, 1720. La ciudad ha crecido de golpe con gente llegada del campo que vive amontonada, sin trabajo fijo y sin nada parecido a una red que la sostenga. La ginebra, que hasta hacía poco era una bebida importada de Holanda y de gente con posibles, se fabrica ahora en cualquier sótano con un alambique y grano barato, se vende sin licencia en la puerta de casa y sale más barata que la cerveza, más barata incluso que el agua limpia. El consumo se multiplica por ocho en veinte años. Es la primera vez que un Estado se enfrenta a una epidemia de este tipo.",
     paginas: [
       {
         rotulo: "El penique",
