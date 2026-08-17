@@ -214,6 +214,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  mandela: {
+    archivo: "Clouds in the drakensberge 01.jpg",
+    autor: "Nubes subiendo por las montañas Drakensberg, en Sudáfrica. Fotografía de Thomas Fuhrmann, 2023.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AClouds%20in%20the%20drakensberge%2001.jpg",
+    foco: "50% 50%",
+    alt: "Una ladera verde con nubes bajas desbordándose por la cresta, bajo cielo azul.",
+  },
+
+  "error-descartes": {
+    archivo: "Corte cerebro pez cebra visto con microscopio confocal.jpg",
+    autor: "Corte de un cerebro de pez cebra visto al microscopio confocal. Imagen de Brandon Segura y Priscilla Vieto, 2024.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ACorte%20cerebro%20pez%20cebra%20visto%20con%20microscopio%20confocal.jpg",
+    foco: "50% 50%",
+    alt: "Un cerebro diminuto teñido de turquesa y naranja, simétrico, sobre fondo negro.",
+  },
+
   postguerra: {
     archivo: "20140205-Brandenburger-Tor-night.jpg",
     autor: "La Puerta de Brandeburgo de Berlín iluminada de noche. Fotografía de Sebaso, 2014.",
