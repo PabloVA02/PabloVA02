@@ -5714,15 +5714,13 @@ button {
 
 /* El dato: una cifra y cuatro palabras. Lo delimita la linea de arriba y el
    tamano del numero, asi que no le hace falta ninguna etiqueta. */
-/* El dato va pegado al texto que lo justifica, no al filo de abajo.
-   Con `margin-top: auto` se iba al fondo de la página y abría un claro en
-   mitad de la pantalla: el lector leía el texto, veía el hueco y daba el
-   short por terminado en la segunda página. El aire sobrante se queda abajo,
-   donde no promete nada. */
+/* El dato se queda abajo del todo, que es donde Pablo lo quiere: es el
+   golpe con el que se cierra la página. Lo que había que apretar no era esto
+   sino el hueco que queda POR DEBAJO, entre el dato y el «Seguir». */
 .short-destacado,
 .short-destacado[data-tipo="cifra"],
 .short-destacado[data-tipo="frase"] {
-  margin-top: 5cqw;
+  margin-top: auto;
   border: none;
   border-top: 0.28cqw solid color-mix(in srgb, var(--acento, var(--ochre)) 26%, transparent);
   border-radius: 0;
@@ -5771,8 +5769,13 @@ button {
    En la portada, "Seguir". En la ultima, los botones y el aviso de que la
    siguiente historia se pide hacia abajo. En las de en medio, nada. */
 .muro-pie { display: none; }
+/* «Seguir» va pegado al final del texto, no clavado al filo de abajo. Con
+   `margin-top: auto` se iba al fondo y, en las entradas que no llenan la
+   pantalla, dejaba un claro enorme entre lo último que se lee y la única
+   indicación de que hay que seguir. El dato curioso sí se queda abajo; lo que
+   sobraba era el aire de debajo de él. */
 .muro-tirar {
-  margin-top: auto;
+  margin-top: 4.5cqw;
   padding-top: 3.4cqw;
   display: flex;
   align-items: center;
