@@ -214,6 +214,33 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  outlive: {
+    archivo: "Swim (Unsplash).jpg",
+    autor: "Medusas nadando en el acuario S.E.A. de Singapur. Fotografía de Han-Hsing Tu, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASwim%20(Unsplash).jpg",
+    foco: "40% 50%",
+    alt: "Medusas translúcidas flotando a distintas alturas en un agua azul oscura.",
+  },
+
+  "inteligencia-emocional": {
+    archivo: "Woman looking out bus window (Unsplash).jpg",
+    autor: "Una mujer mirando por la ventanilla de un autobús, con su reflejo al lado. Fotografía de 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AWoman%20looking%20out%20bus%20window%20(Unsplash).jpg",
+    foco: "55% 45%",
+    alt: "Una persona de perfil mirando por la ventanilla; el cristal le devuelve su propia cara.",
+  },
+
+  "milagro-metabolico": {
+    archivo: "Avocado and Egg Toast (Unsplash).jpg",
+    autor: "Tostada con aguacate y huevo cocido. Fotografía de Joseph Gonzalez, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AAvocado%20and%20Egg%20Toast%20(Unsplash).jpg",
+    foco: "50% 45%",
+    alt: "Un plato oscuro con una tostada de aguacate, huevo y hojas verdes.",
+  },
+
   "segundo-sexo": {
     archivo: "(Bemberg Foundation) - 'Portrait of a Young Woman in a White Hat' by Mary Cassatt (1879) Oil on canvas.jpg",
     autor: "Retrato de una joven con sombrero blanco, óleo de Mary Cassatt, 1879. Fundación Bemberg, Toulouse.",
