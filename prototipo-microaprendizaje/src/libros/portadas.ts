@@ -214,6 +214,43 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "diario-ana-frank": {
+    archivo: "Amsterdam Canal Houses (Unsplash).jpg",
+    autor: "Casas junto a un canal de Ámsterdam. Fotografía de Kaci Baum, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AAmsterdam%20Canal%20Houses%20(Unsplash).jpg",
+    foco: "45% 40%",
+    alt: "Fila de casas estrechas de ladrillo con hastiales escalonados al borde de un canal.",
+  },
+
+  cosmos: {
+    archivo: "Messier83 - Heic1403a.jpg",
+    autor: "La galaxia espiral Messier 83, fotografiada por el telescopio Hubble en 2014.",
+    licencia: "Public domain",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AMessier83%20-%20Heic1403a.jpg",
+    foco: "50% 50%",
+    alt: "Una galaxia espiral vista de frente, con el núcleo dorado y los brazos rosados de estrellas nuevas.",
+  },
+
+  "sexta-extincion": {
+    archivo: "Iceberg and glacier in the Lemaire Channel, Antarctica (6054764966).jpg",
+    autor: "Iceberg y glaciar en el canal Lemaire, en la Antártida. Fotografía de Liam Quinn, 2011.",
+    licencia: "CC BY-SA 2.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AIceberg%20and%20glacier%20in%20the%20Lemaire%20Channel%2C%20Antarctica%20(6054764966).jpg",
+    foco: "50% 55%",
+    alt: "Un iceberg de hielo azulado flotando delante de un glaciar y montañas nevadas.",
+  },
+
+  "mundo-ayer": {
+    archivo: "Staatsoper Wien DSC 5273w.jpg",
+    autor: "La Ópera Estatal de Viena. Fotografía de Peter Haas, 2014.",
+    licencia: "CC BY-SA 3.0 at",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AStaatsoper%20Wien%20DSC%205273w.jpg",
+    foco: "50% 45%",
+    alt: "La fachada de la Ópera de Viena, con sus arcos y estatuas de bronce, bajo un cielo azul.",
+  },
+
   "pilares-tierra": {
     archivo: "Chartres Cathedral South Aisle View into Nave 2007 08 31.jpg",
     autor: "Bóvedas de la catedral de Chartres. Fotografía de Andreas F. Borchert, 2007.",
