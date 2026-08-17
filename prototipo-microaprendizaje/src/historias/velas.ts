@@ -150,7 +150,7 @@ export const VELAS: Short[] = [
     color: "var(--plum)",
     encargo: "Una bombilla encendida al lado de una vela apagada, sobre una mesa oscura.",
     entrada:
-      "Estados Unidos, 1994. Un economista de una universidad americana quiso medir algo que las estadísticas oficiales no captan: cuánto ha bajado de verdad el precio de las cosas cuando la tecnología cambia por completo. Eligió la luz, y en lugar de comparar precios de lámparas comparó lo único que interesa al usuario, que es la luz misma, medida en unidades físicas y a lo largo de tres mil años.",
+      "Estados Unidos, 1994. Un economista de una universidad americana quiso medir algo que las estadísticas oficiales de precios no captan bien: cuánto ha bajado de verdad el precio de una cosa cuando la tecnología que la produce cambia por completo varias veces. Eligió la luz artificial como ejemplo, y en lugar de comparar precios de lámparas, que es lo que hacen las estadísticas, comparó lo único que de verdad le interesa a quien la compra, que es la luz misma, medida en unidades físicas y a lo largo de tres mil años.",
     paginas: [
       {
         rotulo: "La cuenta",
