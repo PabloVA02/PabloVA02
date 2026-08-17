@@ -161,7 +161,7 @@ export const AVIACION: Short[] = [
     color: "var(--clay)",
     encargo: "Un registrador de vuelo naranja, rayado y abollado, sobre fondo neutro.",
     entrada:
-      "En los años cincuenta, un químico australiano llamado David Warren trabajaba en los laboratorios de investigación aeronáutica de Melbourne, investigando por qué se desintegraban en el aire los primeros reactores comerciales. Se le ocurrió una idea sencilla y le costó casi diez años lograr que alguien la escuchara: grabar en el propio avión lo que decía la tripulación y lo que hacían los instrumentos.",
+      "En los años cincuenta, un químico australiano llamado David Warren trabajaba en los laboratorios de investigación aeronáutica de Melbourne, investigando por qué se desintegraban en el aire los primeros reactores comerciales. De los accidentes no quedaba casi nada: restos en el mar, testigos que habían visto poco y ninguna manera de saber qué había pasado dentro de la cabina en el último minuto. Se le ocurrió entonces una idea sencilla, y le costó casi diez años lograr que alguien la escuchara: grabar en el propio avión lo que decía la tripulación y lo que hacían los instrumentos.",
     paginas: [
       {
         rotulo: "El rechazo",
@@ -193,7 +193,7 @@ export const AVIACION: Short[] = [
     color: "var(--slate)",
     encargo: "Una playa de arena gris con un aparato de tela y madera y un cielo blanco.",
     entrada:
-      "Carolina del Norte, Estados Unidos, 17 de diciembre de 1903. Dos hermanos que tienen una tienda de bicicletas en Ohio llevan cuatro años yendo a una playa ventosa a probar planeadores. Aquella mañana hace un frío de perros y sopla viento de treinta kilómetros por hora. Han montado un motor sobre las alas y van a intentar despegar por sus propios medios.",
+      "Carolina del Norte, Estados Unidos, 17 de diciembre de 1903. Dos hermanos que tienen una tienda de bicicletas en Ohio llevan cuatro años yendo a una playa ventosa a probar planeadores, pagándoselo todo con lo que sacan del taller y sin un solo título entre los dos. Aquella mañana hace un frío de perros y sopla viento de treinta kilómetros por hora. Han montado un motor sobre las alas y van a intentar despegar por sus propios medios. Los mira un puñado de vecinos del puesto de salvamento de la playa, que son los únicos testigos que va a haber.",
     paginas: [
       {
         rotulo: "Los doce segundos",
@@ -223,7 +223,7 @@ export const AVIACION: Short[] = [
     color: "var(--slate)",
     encargo: "Una pista de aeródromo abandonada con hierba entre el asfalto y un hangar al fondo.",
     entrada:
-      "Canadá, 23 de julio de 1983. Un avión con sesenta y nueve personas a bordo cruza el país a doce mil metros cuando se apagan los dos motores, uno detrás de otro, en menos de un minuto. No hay avería: se ha quedado sin combustible en pleno vuelo. El fallo empezó en tierra, con una multiplicación mal hecha.",
+      "Canadá, 23 de julio de 1983. Un avión con sesenta y nueve personas a bordo cruza el país a doce mil metros de altura cuando se apagan los dos motores, uno detrás de otro, en menos de un minuto. En la cabina no salta ninguna alarma de avería, porque avería no hay: el avión se ha quedado sin combustible en pleno vuelo, con medio país por debajo y el aeropuerto más cercano a más de cien kilómetros. El fallo no empezó en el aire, sino en tierra, con una multiplicación mal hecha.",
     paginas: [
       {
         rotulo: "El número",

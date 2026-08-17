@@ -67,7 +67,9 @@ for (const [f, ids] of porFichero) {
     if (!m) { console.log(`  ✗ ${id}: no encuentro la entrada`); process.exit(1); }
     const nuevo = cambios[id];
     const n = palabras(nuevo);
-    if (n < 92 || n > 125) { console.log(`  ✗ ${id}: la entrada nueva mide ${n} palabras (92-125)`); process.exit(1); }
+    /* Se salta, no se aborta: si una entrada del lote se queda corta, las
+       demás ya están escritas y no tiene sentido tirarlas. */
+    if (n < 92 || n > 125) { console.log(`  ✗ ${id}: la entrada nueva mide ${n} palabras (92-125), la dejo como estaba`); continue; }
     if (/["\\]/.test(nuevo.replace(/\\"/g, "").replace(/«|»/g, ""))) {
       console.log(`  ✗ ${id}: comillas rectas o barras en el texto`); process.exit(1);
     }
