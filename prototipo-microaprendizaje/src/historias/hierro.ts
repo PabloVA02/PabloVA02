@@ -149,7 +149,7 @@ export const HIERRO: Short[] = [
     color: "var(--plum)",
     encargo: "Una viga oxidada con la pintura levantada y el óxido naranja debajo.",
     entrada:
-      "Cualquier estructura metálica a la intemperie, con un coste calculado por varios países desde los años setenta del siglo XX. La corrosión se lleva cada año una parte enorme del acero que se fabrica en el mundo, y las estimaciones sitúan su coste en torno al tres por ciento del producto interior bruto mundial. Y la razón de fondo no es un defecto de fabricación, sino pura termodinámica.",
+      "Cualquier estructura metálica a la intemperie, con un coste calculado por varios países desde los años setenta del siglo XX. La corrosión se come cada año una parte enorme de todo el acero que se fabrica en el mundo, y las estimaciones más serias sitúan su coste alrededor del tres por ciento del producto interior bruto mundial: más que muchas guerras. Y la razón de fondo no es un defecto de fabricación, ni una mala aleación, ni que las cosas se hagan peor que antes. Es pura termodinámica y no hay manera de esquivarla.",
     paginas: [
       {
         rotulo: "Volver atrás",

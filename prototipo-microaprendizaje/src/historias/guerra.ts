@@ -156,7 +156,7 @@ export const GUERRA: Short[] = [
     curioso: true,
     encargo: "Un campo helado entre dos líneas de alambrada, con figuras pequeñas en el centro.",
     entrada:
-      "Bélgica y norte de Francia, diciembre de 1914. La Primera Guerra Mundial lleva cinco meses y ya no avanza nadie: los dos bandos se han enterrado en zanjas paralelas separadas a veces por cincuenta metros de barro. Todos creían que sería una guerra corta y ya se ve que no. Es la primera Navidad, hiela el agua de las cantimploras y los soldados llevan semanas oyendo toser al enemigo.",
+      "Bélgica y norte de Francia, diciembre de 1914. La Primera Guerra Mundial lleva cinco meses y ya no avanza nadie: los dos bandos se han enterrado en zanjas paralelas separadas a veces por cincuenta metros de barro, y así van a seguir cuatro años. Todo el mundo daba por hecho que sería una guerra corta, cuestión de semanas, y a esas alturas ya se ve que no. Es la primera Navidad de la guerra, hiela el agua de las cantimploras y los soldados llevan semanas oyendo toser al enemigo por las noches.",
     paginas: [
       {
         rotulo: "Las luces",

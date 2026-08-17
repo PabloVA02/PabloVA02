@@ -147,7 +147,7 @@ export const GUANTES: Short[] = [
     curioso: true,
     encargo: "Guante de lana con hilos plateados en la punta de los dedos sobre una pantalla encendida.",
     entrada:
-      "Todo el mundo, con la pantalla capacitiva generalizada desde 2007. Cualquiera que haya intentado usar el móvil en invierno sabe que un guante normal no funciona. La explicación no tiene nada que ver con la presión ni con el calor de la mano. La pantalla no nota que la tocan: nota que alguien le está robando un poco de electricidad.",
+      "Todo el mundo, con la pantalla capacitiva generalizada desde 2007. Cualquiera que haya intentado usar el móvil en la calle en pleno invierno sabe que un guante normal no funciona: se puede dar golpecitos, apretar todo lo fuerte que uno quiera y la pantalla sigue sin enterarse. La explicación no tiene nada que ver con la presión que se hace ni con el calor de la mano, que son las dos cosas que todo el mundo supone. La pantalla no nota que la tocan: nota que alguien le está robando un poco de electricidad.",
     paginas: [
       {
         rotulo: "Robar carga",
