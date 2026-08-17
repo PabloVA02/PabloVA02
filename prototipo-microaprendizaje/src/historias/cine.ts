@@ -163,7 +163,7 @@ export const CINE: Short[] = [
     curioso: true,
     encargo: "Un proyector de manivela de los años veinte, la bobina superior a medio girar.",
     entrada:
-      "La imagen mental del cine antiguo tiene dos rasgos: no se oía nada y todo el mundo se movía a trompicones, como muñecos con prisa. Las dos cosas son falsas, y ninguna tiene que ver con cómo se veían aquellas películas cuando se estrenaron. La primera es un problema de nombre; la segunda, un fallo técnico que cometemos nosotros.",
+      "La imagen mental que casi todos tenemos del cine antiguo tiene dos rasgos: no se oía nada y todo el mundo se movía a trompicones, como muñecos con prisa, con ese temblor que sale en las parodias. Las dos cosas son falsas, y ninguna tiene que ver con cómo se veían aquellas películas el día que se estrenaron. La primera es un problema de nombre, de una palabra que se quedó mal puesta; la segunda es un fallo técnico, y el fallo no lo cometían ellos al rodar, lo cometemos nosotros cada vez que las ponemos.",
     paginas: [
       {
         rotulo: "El ruido",
@@ -196,7 +196,7 @@ export const CINE: Short[] = [
     curioso: true,
     encargo: "Un bombín, un bastón y unos zapatos grandes sobre un fondo claro, en blanco y negro.",
     entrada:
-      "Estados Unidos, años veinte. Un cómico británico afincado en el cine mudo se ha convertido en la cara más reconocible del planeta: bombín, bigote recortado, bastón y unos zapatos enormes. Es tan popular que en las ciudades se organizan concursos para ver quién lo imita mejor, con premio en metálico. Y en uno de ellos se presenta él, sin decir quién es.",
+      "Estados Unidos, años veinte. Un cómico británico afincado en el cine mudo se ha convertido en la cara más reconocible del planeta: bombín, bigote recortado, bastón y unos zapatos enormes que le vienen grandes. No hace falta traducirlo, porque no habla, y por eso lo conocen igual en Ohio que en Shanghái. Es tan popular que en las ciudades se organizan concursos para ver quién lo imita mejor, con premio en metálico y jurado. Los periódicos publican los resultados como quien publica los de una carrera popular. Y en uno de esos concursos se presenta él, sin decir quién es.",
     paginas: [
       {
         rotulo: "El concurso",

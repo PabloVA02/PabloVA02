@@ -253,7 +253,7 @@ export const AVIACION: Short[] = [
     color: "var(--clay)",
     encargo: "Una ventanilla ovalada de avión desde dentro, con el ala y nubes al fondo.",
     entrada:
-      "Reino Unido, 1954. Hace dos años que vuela el primer avión de pasajeros con motores de reacción, un aparato precioso que ha puesto a la industria británica por delante de todos. En doce meses, tres de ellos se desintegran en pleno vuelo sin dar aviso ni tiempo a nada. Se suspenden todos los vuelos y empieza la investigación más grande hecha hasta entonces.",
+      "Reino Unido, 1954. Hace dos años que vuela el primer avión de pasajeros con motores de reacción, un aparato precioso que ha puesto a la industria británica por delante de todas las demás y que cruza continentes a una velocidad que hasta entonces no existía. En doce meses, tres de ellos se desintegran en pleno vuelo sin dar aviso ni tiempo a nada. Se suspenden todos los vuelos, el primer ministro se implica en persona y empieza la investigación más grande que se había hecho hasta entonces sobre un accidente de aviación, sin una sola pista de por dónde empezar.",
     paginas: [
       {
         rotulo: "La piscina",
