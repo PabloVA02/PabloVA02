@@ -248,7 +248,7 @@ export const ESPANA: Short[] = [
     curioso: true,
     encargo: "Una sala de hospital de 1918 con camas alineadas y enfermeras con mascarilla.",
     entrada:
-      "Europa, 1918. El mundo lleva cuatro años metido en una guerra y aparece encima una gripe que en dos años mata a más gente que todas las balas del conflicto juntas: entre veinticinco y cincuenta millones de personas, y hay estimaciones serias que doblan esa cifra. Se la conoce en todo el planeta, entonces y ahora, como gripe española. Y resulta que no empezó aquí, no fue más grave aquí que en otros sitios y probablemente ni siquiera pasó primero por aquí. El nombre se lo pusieron por otra razón. El nombre se lo puso, sin querer, la prensa de aquí.",
+      "Europa, 1918. El mundo lleva cuatro años metido en una guerra y aparece encima una gripe que en dos años mata a más gente que todas las balas del conflicto juntas: entre veinticinco y cincuenta millones de personas, y hay estimaciones serias que doblan esa cifra. Se la conoce en todo el planeta, entonces y ahora, como gripe española. Y resulta que no empezó aquí, no fue más grave aquí que en otros sitios y probablemente ni siquiera pasó primero por aquí. El nombre se lo puso, sin querer y sin poder evitarlo, la prensa de este país.",
     paginas: [
       {
         rotulo: "La censura",
