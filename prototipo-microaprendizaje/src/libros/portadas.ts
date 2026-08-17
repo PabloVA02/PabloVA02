@@ -214,6 +214,51 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "homenaje-cataluna": {
+    archivo: "Montserrat Mountains 08-Dec-2018-7.jpg",
+    autor: "Las agujas de Montserrat, en Cataluña. Fotografía de Alexey Komarov, 2018.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AMontserrat%20Mountains%2008-Dec-2018-7.jpg",
+    foco: "55% 55%",
+    alt: "Las peñas redondeadas de Montserrat vistas entre las ramas de un árbol.",
+  },
+
+  "piensa-hazte-rico": {
+    archivo: "Retro lightbulb (Unsplash).jpg",
+    autor: "Bombilla de filamento encendida. Fotografía de Armando Ascorve Morales, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ARetro%20lightbulb%20(Unsplash).jpg",
+    foco: "42% 55%",
+    alt: "Una bombilla grande de filamento en espiral, encendida en naranja sobre un fondo oscuro.",
+  },
+
+  "bogle-sentido-comun": {
+    archivo: "Sailboats On The Horizon (Unsplash).jpg",
+    autor: "Veleros en el horizonte de un lago. Fotografía de Mykola Hlibovych, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASailboats%20On%20The%20Horizon%20(Unsplash).jpg",
+    foco: "50% 40%",
+    alt: "Cuatro veleros blancos alineados a lo lejos, con el agua plateada en primer plano.",
+  },
+
+  "guerra-civil-thomas": {
+    archivo: "Foggy countryside (Unsplash).jpg",
+    autor: "Niebla encendida por el sol sobre unos campos. Fotografía de Anton Repponen, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AFoggy%20countryside%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "Un banco de niebla naranja rodando sobre campos y arboledas al amanecer.",
+  },
+
+  "origenes-totalitarismo": {
+    archivo: "Rochester Castle (4).jpg",
+    autor: "El torreón del castillo de Rochester, en Inglaterra. Fotografía de John K. Thorne, 2015.",
+    licencia: "Public domain",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ARochester%20Castle%20(4).jpg",
+    foco: "50% 50%",
+    alt: "Una torre de piedra maciza y sin ventanas apenas, vista desde abajo contra un cielo blanco.",
+  },
+
   "eichmann-jerusalen": {
     archivo: "142872 jerusalem - the old city PikiWiki Israel.jpg",
     autor: "Callejón de la Ciudad Vieja de Jerusalén. Fotografía de Shlomo Roded.",
