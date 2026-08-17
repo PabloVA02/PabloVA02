@@ -214,6 +214,35 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  postguerra: {
+    archivo: "20140205-Brandenburger-Tor-night.jpg",
+    autor: "La Puerta de Brandeburgo de Berlín iluminada de noche. Fotografía de Sebaso, 2014.",
+    licencia: "CC BY-SA 3.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3A20140205-Brandenburger-Tor-night.jpg",
+    foco: "50% 45%",
+    alt: "Las columnas de la Puerta de Brandeburgo encendidas en dorado sobre un cielo negro.",
+  },
+
+  malala: {
+    archivo: "Hunza Valley view from Duikar with apple blossoms.jpg",
+    autor: "El valle de Hunza, en el norte de Pakistán, con los manzanos en flor. Fotografía de 2017.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AHunza%20Valley%20view%20from%20Duikar%20with%20apple%20blossoms.jpg",
+    foco: "50% 45%",
+    alt: "Terrazas de cultivo con manzanos florecidos y montañas nevadas al fondo.",
+  },
+
+  "canones-agosto": {
+    archivo: "Dülmen, Brachliegendes Feld mit Wildblumen -- 2021 -- 9764.jpg",
+    autor: "Amapolas en un campo en barbecho. Fotografía de Dietmar Rabich, 2021.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AD%C3%BClmen%2C%20Brachliegendes%20Feld%20mit%20Wildblumen%20--%202021%20--%209764.jpg",
+    foco: "50% 50%",
+    alt: "Amapolas rojas abiertas al sol, con el fondo desenfocado en verde.",
+  },
+
   sapiens: {
     archivo: "Reproduction cave of Altamira 01.jpg",
     autor: "Bisontes del techo de Altamira, pintados hace unos 15.000 años. Fotografía de la reproducción del museo.",
