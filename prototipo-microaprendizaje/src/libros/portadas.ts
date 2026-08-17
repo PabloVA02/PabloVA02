@@ -214,6 +214,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  sisifo: {
+    archivo: "Large glacial erratic boulder - geograph.org.uk - 2991864.jpg",
+    autor: "Bloque errático glaciar en una ladera de Escocia. Fotografía de 2012.",
+    licencia: "CC BY-SA 2.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ALarge%20glacial%20erratic%20boulder%20-%20geograph.org.uk%20-%202991864.jpg",
+    foco: "45% 50%",
+    alt: "Una persona diminuta al pie de una roca enorme, apoyando las manos en ella.",
+  },
+
+  "millonario-al-lado": {
+    archivo: "Delightful houses on a slope (Unsplash).jpg",
+    autor: "Casas repartidas por una ladera boscosa, con niebla arriba. Fotografía de Tom Skarbek-Wazynski, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ADelightful%20houses%20on%20a%20slope%20(Unsplash).jpg",
+    foco: "50% 62%",
+    alt: "Casitas blancas y rojas repartidas entre los árboles de una ladera, bajo la niebla.",
+  },
+
   "heroe-mil-caras": {
     archivo: "Edward Burne-Jones - The fight- St George kills the dragon VI - Google Art Project.jpg",
     autor: "San Jorge mata al dragón, óleo de Edward Burne-Jones, 1866.",
