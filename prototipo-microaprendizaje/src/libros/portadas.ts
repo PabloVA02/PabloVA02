@@ -214,6 +214,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  ikigai: {
+    archivo: "Arashiyama Bamboo Grove (Unsplash).jpg",
+    autor: "El bosque de bambú de Arashiyama, en Kioto. Fotografía de Erol Ahmed, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AArashiyama%20Bamboo%20Grove%20(Unsplash).jpg",
+    foco: "45% 50%",
+    alt: "Cañas de bambú altas y verdes, muy juntas, con la luz colándose entre ellas.",
+  },
+
+  "poder-habitos": {
+    archivo: "Fushimi Inari-taisha senbon-torii, August 2019.jpg",
+    autor: "El túnel de pórticos torii de Fushimi Inari, en Kioto. Fotografía de Jason Zhang, 2019.",
+    licencia: "CC BY-SA 3.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AFushimi%20Inari-taisha%20senbon-torii%2C%20August%202019.jpg",
+    foco: "50% 50%",
+    alt: "Un pasillo de pórticos naranjas repetidos uno tras otro, curvándose cuesta arriba.",
+  },
+
   "cuatro-acuerdos": {
     archivo: "Teotihuacan, the Pyramid of the Sun 2019-10-04.jpg",
     autor: "La pirámide del Sol de Teotihuacán, en México. Fotografía de Alexey Komarov, 2019.",
