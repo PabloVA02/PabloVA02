@@ -214,6 +214,36 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  leonardo: {
+    archivo: "Dama z gronostajem.jpg",
+    autor: "La dama del armiño, óleo de Leonardo da Vinci, hacia 1490. Museo Nacional de Cracovia.",
+    licencia: "Public domain",
+    pdPorEdad: 1519,
+    fuente: "https://commons.wikimedia.org/wiki/File%3ADama%20z%20gronostajem.jpg",
+    foco: "50% 35%",
+    alt: "Una joven de perfil sostiene un armiño blanco entre los brazos, sobre fondo negro.",
+  },
+
+  "espiritual-arte": {
+    archivo: "Vassily Kandinsky, 1936 - Composition 9.jpg",
+    autor: "Composición IX, óleo de Vasili Kandinski, 1936. Centro Pompidou, París.",
+    licencia: "Public domain",
+    pdPorEdad: 1944,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AVassily%20Kandinsky%2C%201936%20-%20Composition%209.jpg",
+    foco: "55% 50%",
+    alt: "Bandas diagonales de amarillo, azul y granate cruzadas por formas negras y blancas.",
+  },
+
+  "brevedad-vida": {
+    archivo: "Palmyra, Syria - 2.jpg",
+    autor: "Las ruinas de Palmira, en Siria, al atardecer. Fotografía de James Gordon, 2008.",
+    licencia: "CC BY 2.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3APalmyra%2C%20Syria%20-%202.jpg",
+    foco: "45% 58%",
+    alt: "Una ciudad antigua en ruinas encendida por la luz naranja del atardecer.",
+  },
+
   "etica-nicomaco": {
     archivo: "Aristotle with a Bust of Homer MET DP319026.jpg",
     autor: "Aristóteles ante un busto de Homero, óleo de Rembrandt, 1653. Metropolitan Museum of Art, Nueva York.",
