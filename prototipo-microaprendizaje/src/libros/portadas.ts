@@ -214,6 +214,33 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "armas-germenes": {
+    archivo: "Petra, Jordan -The Treasury.JPG",
+    autor: "El Tesoro de Petra, excavado en la roca hacia el siglo I. Fotografía de 2015.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3APetra%2C%20Jordan%20-The%20Treasury.JPG",
+    foco: "50% 45%",
+    alt: "Una fachada con columnas tallada en un acantilado de arenisca rojiza.",
+  },
+
+  "sobre-tirania": {
+    archivo: "The Great wall - by Hao Wei.jpg",
+    autor: "La Gran Muralla china serpenteando por las montañas al amanecer. Fotografía de Hao Wei, 2005.",
+    licencia: "CC BY 2.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AThe%20Great%20wall%20-%20by%20Hao%20Wei.jpg",
+    foco: "45% 50%",
+    alt: "La muralla de piedra subiendo y bajando por las crestas hasta perderse de vista.",
+  },
+
+  "emperador-males": {
+    archivo: "Taj Mahal reflection 1.jpg",
+    autor: "El Taj Mahal reflejado en el estanque de sus jardines, en Agra. Fotografía de 2024.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ATaj%20Mahal%20reflection%201.jpg",
+    foco: "50% 40%",
+    alt: "El mausoleo blanco de mármol al fondo de un canal de agua que lo refleja.",
+  },
+
   "siete-lecciones-fisica": {
     archivo: "Eagletail Mountains Wilderness - Milky Way.jpg",
     autor: "La Vía Láctea sobre las montañas Eagletail, en Arizona. Fotografía de Jim Vajda, 2020.",
