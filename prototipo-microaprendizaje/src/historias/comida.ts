@@ -158,7 +158,7 @@ export const COMIDA: Short[] = [
     curioso: true,
     encargo: "Una pizza recién sacada del horno de leña, con el borde quemado a manchas.",
     entrada:
-      "Nápoles, junio de 1889. La reina de Italia visita la ciudad y se aloja en un palacio con vistas al mar. La pizza es entonces comida de pobres: se vende doblada por la calle, se come de pie y en la corte no se prueba. La reina, harta de menús franceses después de semanas de viaje, pide probar aquello de lo que habla todo el mundo.",
+      "Nápoles, junio de 1889. La reina de Italia visita la ciudad y se aloja en un palacio con vistas al mar. La pizza es entonces comida de pobres: se vende doblada por la calle, se come de pie, se paga a veces con días de retraso y en la corte no se prueba. La reina, harta de menús franceses después de semanas de viaje, pide probar aquello de lo que habla todo el mundo en las calles de abajo. Nadie en palacio sabe muy bien cómo se sirve eso. Y de aquella comida improvisada sale el nombre que hoy está en todas las cartas del mundo.",
     paginas: [
       {
         rotulo: "Las tres pizzas",
@@ -187,7 +187,7 @@ export const COMIDA: Short[] = [
     color: "var(--clay)",
     encargo: "Una jícara de barro con espuma oscura y una vara de madera para batir.",
     entrada:
-      "México, 1519. Los españoles que llegan a la corte mexica encuentran una bebida que no se parece a nada conocido: granos de cacao tostados y molidos, batidos con agua fría hasta hacer espuma y aderezados con chile y flores. Es amarga, espesa y se toma en vasos de oro. Se usa además como moneda: con cien granos se compraba un pavo.",
+      "México, 1519. Los españoles que llegan a la corte mexica encuentran una bebida que no se parece a nada conocido: granos de cacao tostados y molidos, batidos con agua fría hasta levantar espuma y aderezados con chile y con flores. Se sirve fría, es amarga y espesa, y se bebe en vasos de oro que después no se vuelven a usar. Los mismos granos sirven además de moneda corriente en los mercados: con cien se compraba un pavo, y con unos pocos, una jornada de trabajo. Los soldados escriben a casa que aquello sabe raro pero que quita el hambre y el cansancio.",
     paginas: [
       {
         rotulo: "La bebida",
@@ -217,7 +217,7 @@ export const COMIDA: Short[] = [
     color: "var(--slate)",
     encargo: "Montones blancos de sal en unas salinas, con el agua rosada al fondo.",
     entrada:
-      "Hasta 1900, más o menos, no existía el frigorífico, y la única manera de conservar carne y pescado más de unos días era la sal. Un ejército sin sal no podía alejarse, una ciudad sin sal no podía almacenar. Por eso fue durante milenios una mercancía estratégica, y por eso casi todos los Estados acabaron poniéndole impuestos.",
+      "Hasta 1900, más o menos, no existía el frigorífico, y la única manera de conservar carne y pescado más de unos días era la sal. Eso convertía un producto que hoy cuesta céntimos en la pieza que sostenía todo lo demás. Un ejército sin sal no podía alejarse de casa, una ciudad sin sal no podía almacenar para el invierno y un barco sin sal no podía cruzar un océano. Por eso fue durante milenios una mercancía estratégica, y por eso casi todos los Estados acabaron poniéndole impuestos. De aquellos impuestos han salido guerras, contrabandistas y hasta una palabra que usamos todos los meses.",
     paginas: [
       {
         rotulo: "Por qué funciona",
@@ -247,7 +247,7 @@ export const COMIDA: Short[] = [
     color: "var(--forest)",
     encargo: "Un cañaveral alto y espeso con el sol filtrándose entre las hojas.",
     entrada:
-      "Europa, siglo XV. El azúcar es una mercancía de lujo que se vende en las boticas por onzas, se guarda bajo llave y se receta como medicina; un banquete importante puede llevar una escultura hecha de azúcar como demostración de riqueza. Viene de la caña, que solo crece en climas cálidos y húmedos, y su cultivo exige una cantidad de trabajo desmedida.",
+      "Europa, siglo XV. El azúcar es una mercancía de lujo que se vende en las boticas por onzas, se guarda bajo llave y se receta como medicina para casi cualquier cosa; un banquete importante puede llevar una escultura hecha de azúcar en el centro de la mesa como demostración de riqueza. Viene de la caña, que solo crece en climas cálidos y húmedos y que en Europa apenas se da. Su cultivo exige además una cantidad de trabajo desmedida, y de ahí sale todo lo demás. Lo que viene después es una de las páginas más oscuras de la historia moderna.",
     paginas: [
       {
         rotulo: "El trabajo",

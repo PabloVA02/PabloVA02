@@ -227,7 +227,7 @@ export const CINE: Short[] = [
     curioso: true,
     encargo: "Una maqueta de rascacielos de los años treinta con un muñeco articulado encima.",
     entrada:
-      "Hollywood, 1933. Se estrena una película sobre un gorila gigante traído de una isla perdida que acaba subido a un rascacielos de Nueva York con una mujer en la mano. El público sale convencido de haber visto un animal enorme. Lo que había delante de la cámara era un armazón de metal de cuarenta y cinco centímetros forrado de goma y pelo de conejo.",
+      "Hollywood, 1933. Se estrena una película sobre un gorila gigante traído de una isla perdida que acaba subido a un rascacielos de Nueva York con una mujer en la mano. La gente hace cola en la calle y sale de la sala convencida de haber visto un animal enorme moverse, respirar y mirar. En los carteles el gorila tiene la altura de un edificio. Lo que había delante de la cámara era un armazón de metal de cuarenta y cinco centímetros, forrado de goma de látex y de pelo de conejo recortado a tijera.",
     paginas: [
       {
         rotulo: "Un dedo por foto",
@@ -257,7 +257,7 @@ export const CINE: Short[] = [
     color: "var(--plum)",
     encargo: "Un micrófono de estudio de los años treinta colgado sobre un plató vacío.",
     entrada:
-      "Hollywood, 1927. El cine lleva treinta años siendo mudo y funciona: hay orquestas en las salas, actores famosos en todo el mundo sin que nadie sepa cómo suena su voz, y películas que se exportan cambiando solo los carteles de texto. Aquel año se estrena una película con unos minutos de diálogo sincronizado, y en cuatro años no queda nada del sistema anterior.",
+      "Hollywood, 1927. El cine lleva treinta años siendo mudo y funciona muy bien: hay orquestas en las salas, actores famosos en el mundo entero sin que nadie sepa cómo suena su voz, y películas que se exportan cambiando solo los carteles de texto por otros en el idioma que haga falta. Es un negocio asentado y nadie tiene prisa por tocarlo. Aquel año se estrena una película con unos minutos de diálogo sincronizado, y en cuatro años no queda nada del sistema anterior. Nadie en Hollywood había pedido aquello y casi todos los estudios lo habían dado por una moda pasajera de feria.",
     paginas: [
       {
         rotulo: "La cámara enjaulada",
