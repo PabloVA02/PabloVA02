@@ -214,6 +214,45 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "sombra-viento": {
+    archivo: "Mafra's Convent - Palace - Bibliothéque -Overview- (50177262438).jpg",
+    autor: "Biblioteca del palacio-convento de Mafra, Portugal. Fotografía de Pedro Ribeiro Simões, 2020.",
+    licencia: "CC BY 2.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AMafra's%20Convent%20-%20Palace%20-%20Biblioth%C3%A9que%20-Overview-%20(50177262438).jpg",
+    foco: "50% 55%",
+    alt: "Una sala de biblioteca larguísima, con bóveda blanca y estanterías de madera hasta el fondo.",
+  },
+
+  alquimista: {
+    archivo: "Where? follow me- (Unsplash).jpg",
+    autor: "Una figura sola cruzando las dunas. Fotografía de Rubén Bagüés, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AWhere%3F%20follow%20me-%20(Unsplash).jpg",
+    foco: "45% 60%",
+    alt: "Un hombre vestido de blanco camina por una duna anaranjada dejando un rastro de huellas.",
+  },
+
+  hobbit: {
+    archivo: "Morning, Cotswolds, Gloucestershire - Flickr - Kumweni.jpg",
+    autor: "Mañana de octubre en los Cotswolds, Gloucestershire. Fotografía de Kumweni, 2015.",
+    licencia: "CC BY 2.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AMorning%2C%20Cotswolds%2C%20Gloucestershire%20-%20Flickr%20-%20Kumweni.jpg",
+    foco: "50% 55%",
+    alt: "Colinas verdes con setos y árboles de otoño, ovejas pastando y niebla al fondo.",
+  },
+
+  "dorian-gray": {
+    archivo: "Narcissus-Caravaggio (1594-96).jpg",
+    autor: "Narciso, óleo de Caravaggio, hacia 1599. Galleria Nazionale d'Arte Antica, Roma.",
+    licencia: "Public domain",
+    pdPorEdad: 1610,
+    fuente: "https://commons.wikimedia.org/wiki/File%3ANarcissus-Caravaggio%20(1594-96).jpg",
+    foco: "50% 30%",
+    alt: "Un joven inclinado sobre el agua mira su propio reflejo, en la oscuridad.",
+  },
+
   "viejo-mar": {
     archivo: "Winslow Homer - The Gulf Stream - Metropolitan Museum of Art.jpg",
     autor: "La corriente del Golfo, óleo de Winslow Homer, 1899. Metropolitan Museum of Art, Nueva York.",
