@@ -214,6 +214,45 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "historia-arte": {
+    archivo: "Johannes Vermeer - Girl with a Pearl Earring - 670 - Mauritshuis.jpg",
+    autor: "La joven de la perla, óleo de Johannes Vermeer, hacia 1665. Mauritshuis, La Haya.",
+    licencia: "Public domain",
+    pdPorEdad: 1675,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AJohannes%20Vermeer%20-%20Girl%20with%20a%20Pearl%20Earring%20-%20670%20-%20Mauritshuis.jpg",
+    foco: "50% 32%",
+    alt: "Una joven con turbante azul mira por encima del hombro; le brilla una perla en la oreja.",
+  },
+
+  nudge: {
+    archivo: "Domino -- 2021 -- 6759.jpg",
+    autor: "Fichas de dominó sobre una mesa. Fotografía de Dietmar Rabich, 2021.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ADomino%20--%202021%20--%206759.jpg",
+    foco: "50% 50%",
+    alt: "Fichas de dominó blancas repartidas sobre una mesa clara.",
+  },
+
+  "pensar-rapido": {
+    archivo: "Twisting path in an autumn forest (Unsplash).jpg",
+    autor: "Un sendero que serpentea por un bosque en otoño. Fotografía de Josephine Wentholt, 2015.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ATwisting%20path%20in%20an%20autumn%20forest%20(Unsplash).jpg",
+    foco: "50% 55%",
+    alt: "Un camino estrecho que da un giro entre pinos altos y helechos secos.",
+  },
+
+  "siete-habitos": {
+    archivo: "Autumn leaves in Linn Park, Glasgow.jpg",
+    autor: "Sendero cubierto de hojas en el parque de Linn, en Glasgow. Fotografía de 2019.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AAutumn%20leaves%20in%20Linn%20Park%2C%20Glasgow.jpg",
+    foco: "40% 50%",
+    alt: "Dos personas caminando por un sendero de hojas caídas entre hayas doradas.",
+  },
+
   "orden-del-tiempo": {
     archivo: "Aurora Borealis activity on top of the Kirkjufell mountain in September 2018.jpg",
     autor: "Aurora boreal sobre el monte Kirkjufell, en Islandia. Fotografía de 2018.",
