@@ -156,7 +156,7 @@ export const PUENTES: Short[] = [
     curioso: true,
     encargo: "Una pasarela peatonal metálica muy fina sobre un río gris, vista desde la orilla.",
     entrada:
-      "Londres, 10 de junio del año 2000. Se abre al público una pasarela peatonal nueva sobre el Támesis, muy plana y muy delgada, pensada como una cinta de acero tendida entre las dos orillas. El primer día la cruzan unas ochenta mil personas. Y el puente empieza a moverse de lado, tanto que muchos se paran a media travesía.",
+      "Londres, 10 de junio del año 2000. Se abre al público una pasarela peatonal nueva sobre el Támesis, muy plana y muy delgada, pensada por sus autores como una cinta de acero tendida entre las dos orillas y presentada como una obra de ingeniería fina. El primer día la cruzan unas ochenta mil personas, que es muchísima gente. Y el puente, con toda esa gente encima, empieza a moverse de lado, tanto que muchos se paran a media travesía y se agarran a la barandilla. Lo cerraron dos días después de inaugurarlo y tardaron dos años en abrirlo otra vez.",
     paginas: [
       {
         rotulo: "El bamboleo",

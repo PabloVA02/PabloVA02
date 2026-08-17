@@ -157,7 +157,7 @@ export const RADIO: Short[] = [
     color: "var(--clay)",
     encargo: "Un barco pequeño con una antena altísima fondeado en un mar plano y gris.",
     entrada:
-      "Reino Unido, marzo de 1964. Solo existe una radio en el país, la pública, y emite muy poca música moderna porque un acuerdo con los músicos le limita las horas de discos al día. Un empresario irlandés de veintitrés años compra un barco de carga viejo, le monta una antena enorme y lo fondea a ocho kilómetros de la costa.",
+      "Reino Unido, marzo de 1964. En el país solo existe una radio, la pública, y emite muy poca música moderna porque un acuerdo firmado con el sindicato de músicos le limita cuántas horas de discos puede poner al día. Es decir: hay un país entero de jóvenes y no hay dónde oír la música que están comprando. Un empresario irlandés de veintitrés años compra entonces un barco de carga viejo, le monta encima una antena enorme y lo fondea a ocho kilómetros de la costa. Ocho kilómetros, justo al otro lado de donde llegaba la ley británica.",
     paginas: [
       {
         rotulo: "Fuera de la ley",

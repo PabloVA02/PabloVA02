@@ -157,7 +157,7 @@ export const PUBLICIDAD: Short[] = [
     curioso: true,
     encargo: "Una postal navideña antigua algo descolorida, con bordes gastados.",
     entrada:
-      "Es una de esas cosas que todo el mundo repite en la cena de Navidad: que Papá Noel iba de verde hasta que una marca de refrescos lo vistió de rojo para que combinara con sus latas. La campaña existió, empezó en 1931 y fue extraordinaria. Lo que no existe es el cambio de color, y se demuestra mirando papeles anteriores.",
+      "Es una de esas cosas que alguien repite todos los años en la cena de Navidad y que nadie discute: que Papá Noel iba vestido de verde hasta que una marca de refrescos lo vistió de rojo para que combinara con el color de sus latas. La campaña existió de verdad, empezó en 1931 y fue extraordinariamente eficaz, eso es cierto. Lo que no existe por ninguna parte es el cambio de color, y se demuestra en un minuto mirando papeles anteriores a esa fecha. El rojo ya estaba puesto desde bastante antes de que existieran esas latas.",
     paginas: [
       {
         rotulo: "Antes de 1931",
