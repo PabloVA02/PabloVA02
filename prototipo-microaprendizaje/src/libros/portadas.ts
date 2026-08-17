@@ -214,6 +214,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "mas-alla-bien-mal": {
+    archivo: "Silsersee from above Sils-Segl Maria.jpg",
+    autor: "El lago de Sils, en la Engadina suiza, donde Nietzsche pasaba los veranos. Fotografía de 2017.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASilsersee%20from%20above%20Sils-Segl%20Maria.jpg",
+    foco: "50% 62%",
+    alt: "Un alerce solitario en la ladera y, abajo, un lago azul entre montañas.",
+  },
+
+  "arte-sin-hombres": {
+    archivo: "Berthe Morisot, Young Girl with an Apron, 1891, NGA 131028.jpg",
+    autor: "Muchacha con delantal, óleo de Berthe Morisot, 1891. National Gallery of Art, Washington.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ABerthe%20Morisot%2C%20Young%20Girl%20with%20an%20Apron%2C%201891%2C%20NGA%20131028.jpg",
+    foco: "50% 35%",
+    alt: "Retrato de una niña con delantal blanco sentada, pintado a pinceladas sueltas.",
+  },
+
   "existencialismo-humanismo": {
     archivo: "Van Gogh - Terrace of a Café at Night (Place du Forum) 1888.jpg",
     autor: "Terraza de café por la noche, óleo de Vincent van Gogh, 1888. Museo Kröller-Müller, Otterlo.",
