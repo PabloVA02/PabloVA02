@@ -217,12 +217,11 @@ function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; 
       </div>
       <p className="ficha-titulo">{libro.titulo}</p>
       <p className="ficha-autor">{libro.autor}</p>
-      {/* El gancho, recortado a tres renglones. Sin él la ficha era portada,
-          título, autor y un agujero hasta la pastilla de abajo: el hueco lo
-          hacía el `margin-top: auto` del pie, que empuja la pastilla al filo
-          de una fila alta. Con el gancho la ficha dice de qué va el libro,
-          que es para lo que la gente se para a mirarla. */}
-      <p className="ficha-gancho">{primeraFrase(libro.gancho)}</p>
+      {/* Aquí iba una segunda descripción sacada del gancho, y era el hueco
+          que llevábamos tres rondas persiguiendo: `ficha-sub` ya trae el
+          subtítulo del libro, que es exactamente la línea que la referencia
+          pone bajo el autor. Dos descripciones seguidas alargaban la ficha y
+          empujaban la pastilla lejos de su texto. */}
       <p className="ficha-sub">{libro.subtitulo}</p>
       <span className="ficha-pie">
         <span className="chip-cat" style={{ background: libro.color }}>

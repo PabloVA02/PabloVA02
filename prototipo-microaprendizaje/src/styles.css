@@ -1010,14 +1010,14 @@ button {
 }
 
 .ficha-titulo {
-  margin: 8px 0 0;
+  margin: 9px 0 0;
   font-size: 14.5px;
   font-weight: 640;
   line-height: 1.28;
   letter-spacing: -0.015em;
 }
 .ficha-autor {
-  margin: 2px 0 5px;
+  margin: 3px 0 0;
   font-size: 12.5px;
   color: var(--ink-soft);
   line-height: 1.3;
@@ -1121,7 +1121,7 @@ button {
   display: flex;
   align-items: center;
   gap: 7px;
-  margin-top: 4px;
+  margin-top: 8px;
   min-width: 0;
 }
 .ficha-min {
@@ -1292,11 +1292,18 @@ button {
 
 /* Ajustes para acercar la ficha y el inicio a la referencia */
 
+/* La descripción bajo el autor. Va en tinta sobre papel como el resto de la
+   estantería —estaba escrita en veladura de papel sobre negro, de cuando la
+   pantalla era oscura— y a tres renglones como en la referencia. */
 .ficha-sub {
-  margin: 0 0 7px;
+  margin: 6px 0 0;
   font-size: 12.5px;
-  line-height: 1.32;
-  color: rgba(242, 236, 225, 0.78);
+  line-height: 1.4;
+  color: var(--ink-soft);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .bloque-cabecera {
