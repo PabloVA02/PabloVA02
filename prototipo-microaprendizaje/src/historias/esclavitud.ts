@@ -159,7 +159,7 @@ export const ESCLAVITUD: Short[] = [
     color: "var(--plum)",
     encargo: "Las cuadernas quemadas de un barco de madera medio hundidas en el barro de un río.",
     entrada:
-      "Alabama, en el sur de Estados Unidos, 1860. Traer personas esclavizadas desde África está prohibido en el país desde 1808 y se castiga con la pena de muerte. Un armador rico de la zona apuesta con unos conocidos, en una cena, a que puede hacerlo sin que lo pillen. Fleta una goleta rápida y la manda al otro lado del océano.",
+      "Alabama, en el sur de Estados Unidos, 1860. Traer personas esclavizadas desde África está prohibido en el país desde 1808 y se castiga con la pena de muerte, aunque tener esclavos siga siendo perfectamente legal. Un armador rico de la zona apuesta con unos conocidos, durante una cena y con una copa en la mano, a que él puede hacerlo sin que lo pillen. No lo hace por dinero, porque dinero ya tiene: lo hace por ganar la apuesta. Fleta una goleta rápida y la manda al otro lado del océano. Ciento diez personas cruzaron el Atlántico por una apuesta de sobremesa.",
     paginas: [
       {
         rotulo: "La travesía",

@@ -156,7 +156,7 @@ export const EMPRESAS: Short[] = [
     curioso: true,
     encargo: "Una pantalla de ordenador de los noventa con un cursor parpadeando en una casilla vacía.",
     entrada:
-      "California, septiembre de 1997. Dos estudiantes de doctorado de veinticuatro años tienen funcionando un buscador de internet en los ordenadores de su universidad y necesitan ponerle un nombre presentable, porque el que llevaba usando dos años no lo era: lo habían bautizado <em>BackRub</em>, «masaje de espalda», por la manera en que analizaba los enlaces que apuntaban hacia atrás a cada página. Con ese nombre no iba a ninguna parte.",
+      "California, septiembre de 1997. Dos estudiantes de doctorado de veinticuatro años tienen funcionando un buscador de internet en los ordenadores de su universidad, comiéndose el ancho de banda de todo el campus, y necesitan urgentemente ponerle un nombre presentable, porque el que llevaban usando dos años no lo era en absoluto: lo habían bautizado BackRub, masaje de espalda, por la manera en que analizaba los enlaces que apuntaban hacia atrás a cada página. Con ese nombre no iban a ninguna parte, y lo sabían. Se juntaron una tarde a pensar otro. El nombre que eligieron aquella noche estaba mal escrito.",
     paginas: [
       {
         rotulo: "El número",

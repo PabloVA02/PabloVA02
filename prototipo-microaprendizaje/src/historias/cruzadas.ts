@@ -149,7 +149,7 @@ export const CRUZADAS: Short[] = [
     curioso: true,
     encargo: "Un cuenco de azúcar sin refinar junto a una tela de rayas de colores.",
     entrada:
-      "Oriente Próximo, siglos XII y XIII. Los estados fundados por los cruzados en la costa duran casi doscientos años, y durante ese tiempo miles de europeos viven allí, comercian, se casan y aprenden. Cuando aquellos territorios se pierden, lo que vuelve a Europa no es solo gente derrotada: vuelven cultivos, técnicas y palabras que se quedaron para siempre.",
+      "Oriente Próximo, siglos XII y XIII. Los estados fundados por los cruzados en la costa duran casi doscientos años, que son varias generaciones, y durante todo ese tiempo miles de europeos viven allí de forma permanente: comercian, se casan, tienen hijos que nacen en el sitio y aprenden cómo se hacen las cosas. Cuando aquellos territorios se pierden y hay que volver, lo que regresa a Europa no es solo gente derrotada con las manos vacías: vuelven cultivos, técnicas, costumbres y palabras que se quedaron para siempre. Muchas de ellas las decimos todos los días sin saber de dónde vienen.",
     paginas: [
       {
         rotulo: "El azúcar",

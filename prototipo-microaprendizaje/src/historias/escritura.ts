@@ -156,7 +156,7 @@ export const ESCRITURA: Short[] = [
     curioso: true,
     encargo: "Una página en relieve con puntos, iluminada de lado para que se marquen las sombras.",
     entrada:
-      "París, 1821. Un capitán de artillería retirado visita una escuela para ciegos con un sistema que ha inventado para el ejército: doce puntos en relieve que permiten leer un mensaje con el dedo, sin luz, en una trinchera de noche. El ejército lo ha rechazado por complicado. Entre los alumnos que lo prueban hay un chico de doce años.",
+      "París, 1821. Un capitán de artillería retirado visita una escuela para ciegos con un sistema que ha inventado pensando en el ejército: doce puntos en relieve sobre cartón que permiten leer un mensaje con el dedo, sin luz y sin hacer ruido, dentro de una trinchera de noche. El ejército ya lo ha rechazado por complicado y por lento, y él viene a ver si le sirve a alguien. Entre los alumnos que aquel día lo prueban con las manos hay un chico de doce años que se queda pensando. Ese chico tardó tres años en arreglar lo que el ejército había descartado.",
     paginas: [
       {
         rotulo: "Doce puntos",
