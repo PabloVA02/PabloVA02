@@ -214,6 +214,42 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  ficciones: {
+    archivo: "Spiral staircase (Unsplash).jpg",
+    autor: "Escalera de caracol vista desde arriba. Fotografía de chuttersnap, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASpiral%20staircase%20(Unsplash).jpg",
+    foco: "45% 45%",
+    alt: "Una escalera de caracol blanca que se enrosca hacia el fondo, vuelta sobre vuelta.",
+  },
+
+  "senor-moscas": {
+    archivo: "Kahala Beach Park Island (Unsplash).jpg",
+    autor: "Islote con dos palmeras en la costa de Oahu. Fotografía de Brandon Kawamura, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AKahala%20Beach%20Park%20Island%20(Unsplash).jpg",
+    foco: "62% 50%",
+    alt: "Una isla minúscula de rocas con dos palmeras inclinadas, sola en un mar liso.",
+  },
+
+  "el-tunel": {
+    archivo: "Into the Light (Unsplash).jpg",
+    autor: "Una figura caminando hacia la boca de un túnel. Fotografía de Chris B, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AInto%20the%20Light%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "El interior negro de un túnel con la salida encendida en blanco y una silueta al fondo.",
+  },
+
+  rayuela: {
+    archivo: "Sunset over the Seine River in 2016.jpg",
+    autor: "El Sena a la altura de la Conciergerie, en París, al atardecer. Fotografía de Bruno Abatti, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASunset%20over%20the%20Seine%20River%20in%202016.jpg",
+    foco: "40% 50%",
+    alt: "Un puente sobre el Sena y las torres de la Conciergerie bajo un cielo naranja.",
+  },
+
   "breve-historia-tiempo": {
     archivo: "Black hole - Messier 87.jpg",
     autor: "Primera imagen de un agujero negro, el de la galaxia M87. Event Horizon Telescope, 2019.",
