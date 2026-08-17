@@ -392,6 +392,17 @@ export function Inicio({
           </div>
         </section>
 
+        {enCurso.length > 0 && !filtro && (
+          <section className="bloque">
+            <h2>Retomar</h2>
+            <p className="bloque-sub">Sigue donde lo dejaste</p>
+            <div className="carrusel">
+              {enCurso.map((l, i) => (
+                <FichaLibro key={l.id} libro={l} i={i} onAbrir={() => onAbrir(l)} />
+              ))}
+            </div>
+          </section>
+        )}
         {/* Personalizado: la ficha ancha, centrada y con la portada sobre un
             arco de color. Es la que se para a explicar POR QUÉ te tocaría
             leer ese libro, y por eso va de una en una y no en carrusel: aquí
@@ -427,17 +438,6 @@ export function Inicio({
           </section>
         )}
 
-        {enCurso.length > 0 && !filtro && (
-          <section className="bloque">
-            <h2>Retomar</h2>
-            <p className="bloque-sub">Sigue donde lo dejaste</p>
-            <div className="carrusel">
-              {enCurso.map((l, i) => (
-                <FichaLibro key={l.id} libro={l} i={i} onAbrir={() => onAbrir(l)} />
-              ))}
-            </div>
-          </section>
-        )}
       </div>
     </motion.div>
   );

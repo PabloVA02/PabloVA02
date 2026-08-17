@@ -945,25 +945,30 @@ button {
   place-items: center;
 }
 
-.bloque { margin-top: 22px; }
+/* Los rótulos, con las medidas de la referencia: el titular grande y
+   apretado, el subtítulo justo debajo y casi tan grande —iba en 13,5 y ahí
+   parecía un pie de foto en vez de la segunda línea del rótulo—. */
+.bloque { margin-top: 26px; }
 .bloque h2 {
   margin: 0;
   padding: 0 var(--shell-pad);
-  font-size: 20px;
-  font-weight: 650;
-  letter-spacing: -0.025em;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
 }
 .bloque-sub {
-  margin: 3px 0 0;
+  margin: 2px 0 0;
   padding: 0 var(--shell-pad);
-  font-size: 13.5px;
+  font-size: 14.5px;
+  line-height: 1.3;
   color: var(--ink-soft);
 }
 
 .carrusel {
   display: flex;
   gap: 13px;
-  margin-top: 14px;
+  margin-top: 17px;
   padding: 0 var(--shell-pad);
   overflow-x: auto;
   scrollbar-width: none;
