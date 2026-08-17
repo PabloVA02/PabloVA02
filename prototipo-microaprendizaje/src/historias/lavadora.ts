@@ -154,6 +154,40 @@ export const LAVADORA: Short[] = [
     encargo: "Una lavadora blanca moderna con la puerta abierta en una cocina vacía.",
     entrada:
       "En 2010, un economista coreano que estudia el desarrollo industrial lanzó una provocación en una conferencia muy vista, de esas que corren solas: sostuvo delante del público que la lavadora ha cambiado el mundo mucho más que internet. Suena a titular buscado y no lo es del todo. El argumento no va de tecnología ni de nostalgia, sino de aritmética del tiempo, y se apoya en una serie de encuestas sobre uso del tiempo que empezaron a hacerse en los años veinte y que se repiten desde entonces. Y los números que sacó de esas encuestas son bastante difíciles de rebatir.",
+    fotos: [
+      {
+        archivo: "Open top-loading washing machine.jpg",
+        autor: "Una lavadora de carga superior con la tapa abierta. Fotografía de W. Carter, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AOpen%20top-loading%20washing%20machine.jpg",
+        foco: "50% 45%",
+        alt: "Una lavadora blanca abierta por arriba, iluminada por dentro, sobre un fondo negro.",
+      },
+      {
+        archivo: "Out to Dry (Unsplash).jpg",
+        autor: "Pinzas de madera en la cuerda de tender. Fotografía de Caspar Rubin, 2015.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AOut%20to%20Dry%20(Unsplash).jpg",
+        foco: "45% 50%",
+        alt: "Pinzas de madera y de plástico colgadas de un tendedero, muy de cerca.",
+      },
+      {
+        archivo: "Laundry in Venice (Unsplash).jpg",
+        autor: "Ropa tendida entre las casas de un canal de Venecia. Fotografía de Pietro Rampazzo, 2017.",
+        licencia: "CC0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3ALaundry%20in%20Venice%20(Unsplash).jpg",
+        foco: "50% 55%",
+        alt: "Sábanas blancas tendidas de fachada a fachada sobre un canal estrecho.",
+      },
+      {
+        archivo: "Interior of Samsung Wooble.jpg",
+        autor: "El tambor de una lavadora visto desde la puerta. Fotografía de Krishna Chaitanya Velaga, 2016.",
+        licencia: "CC BY-SA 4.0",
+        fuente: "https://commons.wikimedia.org/wiki/File%3AInterior%20of%20Samsung%20Wooble.jpg",
+        foco: "50% 50%",
+        alt: "El interior metálico y agujereado del tambor de una lavadora, visto de frente.",
+      },
+    ],
     paginas: [
       {
         rotulo: "La cuenta",
