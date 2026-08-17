@@ -214,6 +214,34 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "vida-arboles": {
+    archivo: "Beautiful World (Unsplash).jpg",
+    autor: "Bosque a contraluz al atardecer. Fotografía de Dan Musat, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ABeautiful%20World%20(Unsplash).jpg",
+    foco: "40% 50%",
+    alt: "Troncos oscuros de un bosque con el sol naranja colándose entre ellos.",
+  },
+
+  "mundo-demonios": {
+    archivo: "The Test-Bed Telescope 2 dome at night (eso2107h).jpg",
+    autor: "Cúpula de un telescopio bajo un cielo estrellado, en el observatorio de La Silla (Chile), 2021.",
+    licencia: "CC BY 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AThe%20Test-Bed%20Telescope%202%20dome%20at%20night%20(eso2107h).jpg",
+    foco: "58% 55%",
+    alt: "La cúpula blanca de un observatorio recortada contra un cielo lleno de estrellas.",
+  },
+
+  "mapa-mundos": {
+    archivo: "Ammonite fossil imprint.jpg",
+    autor: "Fósil de amonites sobre la grava. Fotografía de Harshit SR, 2025.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AAmmonite%20fossil%20imprint.jpg",
+    foco: "45% 55%",
+    alt: "La espiral acanalada de un amonites fosilizado en una piedra.",
+  },
+
   "astrofisica-prisa": {
     archivo: "Orion Nebula- Peering into the Orion Nebula (2007-orion - orion 4k).jpg",
     autor: "La nebulosa de Orión, fotografiada por los telescopios Hubble y Chandra. NASA/ESA, 2007.",
