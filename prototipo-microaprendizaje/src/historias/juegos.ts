@@ -160,7 +160,7 @@ export const JUEGOS: Short[] = [
     color: "var(--slate)",
     encargo: "Una pantalla de fósforo verde con piezas geométricas cayendo, fotografiada de cerca.",
     entrada:
-      "Junio de 1984, Moscú. Alexéi Pázhitnov trabaja en el centro de cómputo de la Academia de Ciencias de la URSS y programa, fuera de sus tareas, un juego con piezas de cuatro cuadrados que caen y hay que encajar. Lo pasa a los compañeros en disquete para que lo prueben. En cuestión de meses está en los ordenadores de media administración soviética y nadie trabaja.",
+      "Junio de 1984, Moscú. Alexéi Pázhitnov trabaja en el centro de cómputo de la Academia de Ciencias de la URSS y programa, fuera de sus tareas y por gusto, un juego con piezas de cuatro cuadrados que caen desde arriba y hay que ir encajando abajo. Se lo pasa a los compañeros en disquete para que le digan qué les parece, sin más intención que esa. En cuestión de meses el juego está instalado en los ordenadores de media administración soviética y no trabaja nadie. Y él no tiene ningún derecho sobre lo que ha hecho.",
     paginas: [
       {
         rotulo: "De quién es",

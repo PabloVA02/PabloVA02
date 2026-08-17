@@ -152,7 +152,7 @@ export const JARDINES: Short[] = [
     curioso: true,
     encargo: "Terrazas escalonadas de piedra con plantas colgando, contra un cielo seco.",
     entrada:
-      "Mesopotamia, siglo VI antes de Cristo. La lista clásica de las siete maravillas del mundo antiguo incluye unos jardines escalonados regados en mitad de una llanura seca, atribuidos a un rey de Babilonia que los habría mandado construir para consolar a su esposa, criada entre montañas. Es la única maravilla de la lista de la que no se ha encontrado nunca ningún resto.",
+      "Mesopotamia, siglo VI antes de Cristo. La lista clásica de las siete maravillas del mundo antiguo incluye unos jardines escalonados y regados en mitad de una llanura seca, atribuidos a un rey de Babilonia que los habría mandado construir para consolar a su esposa, criada entre montañas y aburrida del desierto. La historia es preciosa y se cuenta en todos los colegios. Es también la única maravilla de las siete de la que no se ha encontrado nunca ni un resto, ni un ladrillo, ni una mención en los archivos de la propia ciudad.",
     paginas: [
       {
         rotulo: "El silencio",
