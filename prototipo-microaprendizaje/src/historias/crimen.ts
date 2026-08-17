@@ -156,7 +156,7 @@ export const CRIMEN: Short[] = [
     color: "var(--plum)",
     encargo: "Los Urales nevados de noche, o la tienda de la expedición Dyatlov medio enterrada.",
     entrada:
-      "Montes Urales, en la Unión Soviética, febrero de 1959. Nueve estudiantes de ingeniería, montañeros con experiencia, acampan en la ladera de una montaña cuyo nombre local significa más o menos «no vayas allí». Cuando el equipo de rescate llega semanas después, encuentra la tienda todavía en pie, con la comida servida y las botas ordenadas. La lona está rajada desde dentro.",
+      "Montes Urales, en la Unión Soviética, febrero de 1959. Nueve estudiantes de ingeniería, montañeros con experiencia, salen a hacer una travesía de invierno de las que dan el grado más alto del deporte en el país. Los dirige Ígor Diátlov, de veintitrés años, y han quedado en mandar un telegrama en cuanto vuelvan a la civilización. El telegrama no llega nunca. Acampan en la ladera de una montaña cuyo nombre local significa más o menos «no vayas allí». Cuando el equipo de rescate sube semanas después, encuentra la tienda todavía en pie, con la comida servida y las botas ordenadas. La lona está rajada desde dentro.",
     paginas: [
       {
         rotulo: "Cuesta abajo",
@@ -186,7 +186,7 @@ export const CRIMEN: Short[] = [
     color: "var(--ochre)",
     encargo: "La isla de Alcatraz vista desde la bahía de San Francisco.",
     entrada:
-      "Bahía de San Francisco, 11 de junio de 1962. Alcatraz es una prisión federal montada en una isla y rodeada de corrientes heladas, y su fama entera consiste en que de allí no se escapa nadie. Aquella noche tres presos pasan lista con normalidad y se acuestan. A la mañana siguiente el funcionario ve tres cabezas asomando de las mantas y golpea los barrotes para despertarlas.",
+      "Bahía de San Francisco, 11 de junio de 1962. Alcatraz es una prisión federal montada en una isla y rodeada de corrientes heladas, y su fama entera consiste en que de allí no se escapa nadie. En casi treinta años lo han intentado catorce veces y ninguna ha salido bien: a unos los cogieron en el agua y a otros los sacaron muertos de ella. Aquella noche tres presos pasan lista con normalidad y se acuestan. A la mañana siguiente el funcionario ve tres cabezas asomando de las mantas y golpea los barrotes para despertarlas.",
     paginas: [
       {
         rotulo: "Cucharas y cartón",
@@ -216,7 +216,7 @@ export const CRIMEN: Short[] = [
     color: "var(--clay)",
     encargo: "Un bote de pastillas con precinto de seguridad, o una farmacia de los años ochenta.",
     entrada:
-      "Chicago, 29 de septiembre de 1982. Una niña de doce años se levanta con dolor de garganta y sus padres le dan una cápsula de Tylenol, el analgésico más vendido del país. La niña muere esa misma mañana. Ese día mueren también un cartero de veintisiete años y su hermano, que habían tomado pastillas del mismo bote. En tres días hay siete muertos y nadie entiende qué tienen en común.",
+      "Chicago, 29 de septiembre de 1982. Una niña de doce años se levanta con dolor de garganta y sus padres le dan una cápsula de Tylenol, el analgésico más vendido del país y el que había en casi todos los botiquines. La niña muere esa misma mañana. Ese día mueren también un cartero de veintisiete años y su hermano, que habían tomado pastillas del mismo bote. En tres días hay siete muertos repartidos por los alrededores de la ciudad, sin ninguna relación entre ellos, y nadie entiende todavía qué tienen en común.",
     paginas: [
       {
         rotulo: "Los dos bomberos",
@@ -246,7 +246,7 @@ export const CRIMEN: Short[] = [
     color: "var(--slate)",
     encargo: "Un valle noruego con niebla, o el retrato forense de la mujer de Isdal.",
     entrada:
-      "Cerca de Bergen, en Noruega, el 29 de noviembre de 1970. Un profesor que pasea con sus dos hijas encuentra entre las rocas de un valle el cuerpo medio quemado de una mujer. A su alrededor hay botellas de licor, restos de una comida, un paraguas y unas joyas colocadas en orden. Y a la ropa le han arrancado todas las etiquetas, una por una.",
+      "Cerca de Bergen, en Noruega, el 29 de noviembre de 1970. Un profesor que pasea con sus dos hijas encuentra entre las rocas de un valle el cuerpo medio quemado de una mujer. A su alrededor hay botellas de licor, restos de una comida, un paraguas y unas joyas colocadas en orden. A la ropa le han arrancado todas las etiquetas, una por una. Las yemas de los dedos están limadas y en los hoteles de la ciudad había dormido con ocho nombres distintos. Medio siglo después sigue sin saberse quién era.",
     paginas: [
       {
         rotulo: "Ocho nombres",
