@@ -161,7 +161,7 @@ export const TECNOLOGIA: Short[] = [
     curioso: true,
     encargo: "Una sección de cable submarino cortada, con las capas de acero y la fibra dentro.",
     entrada:
-      "La imagen mental de internet es una nube, y algo que viaja por el aire de antena en antena. La realidad es mucho más antigua y mucho menos etérea: en torno al 99 % del tráfico de datos intercontinental pasa por cables tendidos en el fondo del océano, y el trazado de esas rutas se parece muchísimo al de los cables telegráficos del siglo XIX.",
+      "La imagen mental que casi todos tenemos de internet es una nube, algo que viaja por el aire de antena en antena y que va por arriba. La realidad es mucho más antigua y bastante menos etérea: alrededor del noventa y nueve por ciento del tráfico de datos entre continentes pasa por cables tendidos en el fondo del océano, y el trazado de esas rutas se parece muchísimo, a veces metro a metro, al de los cables telegráficos que se tendieron en el siglo XIX. Internet va por debajo del mar. Y se rompen mucho más a menudo de lo que uno diría.",
     paginas: [
       {
         rotulo: "La red de verdad",
@@ -194,7 +194,7 @@ export const TECNOLOGIA: Short[] = [
     color: "var(--slate)",
     encargo: "Un escenario oscuro con una pantalla gigante y una silueta sola delante.",
     entrada:
-      "San Francisco, enero de 2007. El fundador de una empresa de ordenadores sale al escenario a presentar un teléfono sin teclas, algo que entonces no existía: todos los móviles del mundo tenían botones. Va a manejarlo en directo, delante de miles de personas, durante noventa minutos. Y el aparato que lleva en la mano está a medio terminar.",
+      "San Francisco, enero de 2007. El fundador de una empresa de ordenadores sale al escenario a presentar un teléfono sin teclas, algo que entonces sencillamente no existía: todos los móviles del mundo tenían botones de plástico, y los que no, tenían un lápiz para dar en la pantalla. Va a manejarlo en directo, delante de miles de personas y de las cámaras de medio mundo, durante noventa minutos seguidos. Lo que casi nadie sabía aquel día es que el aparato que llevaba en la mano estaba a medio terminar. Podía colgarse en cualquier momento y delante de todos.",
     paginas: [
       {
         rotulo: "El camino dorado",
@@ -224,7 +224,7 @@ export const TECNOLOGIA: Short[] = [
     color: "var(--plum)",
     encargo: "Un tablero de ajedrez a media partida, con una mano humana en el borde.",
     entrada:
-      "Nueva York, mayo de 1997. El mejor jugador de ajedrez de la historia, un ruso de treinta y cuatro años, se sienta a jugar contra un ordenador del tamaño de dos armarios. Ya se enfrentaron el año anterior y ganó él con holgura. Esta vez pierde el duelo, y se pasa los siguientes veinte años convencido de que le hicieron trampa.",
+      "Nueva York, mayo de 1997. El mejor jugador de ajedrez de la historia, un ruso de treinta y cuatro años que lleva doce siendo campeón del mundo, se sienta a jugar contra un ordenador del tamaño de dos armarios roperos. No es la primera vez: ya se enfrentaron el año anterior y ganó él con holgura, sin despeinarse. Esta vez, después de seis partidas, pierde el duelo. Y se pasa los siguientes veinte años convencido, y diciéndolo en público, de que le hicieron trampa en algún momento de la segunda partida. La sospecha le duró más que la derrota.",
     paginas: [
       {
         rotulo: "La jugada rara",
@@ -255,7 +255,7 @@ export const TECNOLOGIA: Short[] = [
     curioso: true,
     encargo: "Un armario de ordenador de los sesenta, lleno de cintas y luces, en penumbra.",
     entrada:
-      "California, 29 de octubre de 1969. Dos ordenadores del tamaño de una nevera, separados por seiscientos kilómetros, van a intentar hablarse por primera vez a través de una línea de teléfono. Un estudiante de veintiún años se sienta delante de uno; un compañero espera junto al otro, con el auricular en la oreja para ir cantando lo que aparece.",
+      "California, 29 de octubre de 1969. Dos ordenadores del tamaño de una nevera, separados por seiscientos kilómetros de distancia, van a intentar hablarse por primera vez a través de una línea de teléfono corriente. Un estudiante de veintiún años se sienta delante de uno de ellos; un compañero espera junto al otro, con el auricular pegado a la oreja para ir cantando en voz alta lo que va apareciendo en la pantalla. No hay prensa, ni fotógrafos, ni nadie que piense que aquello merezca una foto. El mensaje que van a mandar tiene cinco letras y no llegó entero.",
     paginas: [
       {
         rotulo: "Las dos letras",
