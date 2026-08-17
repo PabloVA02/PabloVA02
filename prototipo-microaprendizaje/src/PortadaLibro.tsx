@@ -28,6 +28,7 @@
 
 import type { CSSProperties } from "react";
 import { urlFoto, type Foto } from "./shorts";
+import { PORTADAS_TIPO } from "./libros/tipograficas";
 
 /* Un número estable a partir del identificador: la misma portada siempre para
    el mismo libro, sin guardar nada. */
@@ -238,6 +239,57 @@ export function PortadaLibro({
      título ES la portada y puede ocupar; encima de un cuadro es una etiqueta,
      y a diez puntos del lado tapaba media pintura. */
   const cuerpo = (foto ? 8.2 : 10) * escala;
+
+  /* Los de autoayuda y dinero van con el título gritado, que es como se
+     venden de verdad. Ver `libros/tipograficas.ts`: manda sobre la obra,
+     porque a estos una fotografía bonita les quita el aire de libro. */
+  const tipo = PORTADAS_TIPO[id];
+  if (tipo) {
+    /* El título ocupa la cubierta entera, así que el cuerpo lo decide cuánto
+       texto hay y no una escala fija: cuatro palabras cortas piden el doble
+       que catorce largas. */
+    const palabras = titulo.toUpperCase().split(/\s+/);
+    /* Dos límites, y manda el más estrecho. El primero es cuánto texto hay:
+       catorce palabras piden menos cuerpo que tres. El segundo es la palabra
+       más larga, que es la que de verdad decide, porque una sola palabra no
+       se parte y si no cabe de ancho se sale por el filo —«MILLONARIA» se
+       salía con el cuerpo que le tocaba por longitud—. Entre el filete de los
+       lados quedan 85 unidades y una versal de esta tipografía ocupa unas
+       0,85: de ahí el 92, con su pizca de holgura. */
+    const largaPalabra = Math.max(...palabras.map((p) => p.length));
+    const porLargo = largo > 40 ? 10.5 : largo > 28 ? 12.5 : largo > 18 ? 15 : 19;
+    const cuerpo = Math.max(7.5, Math.min(porLargo, 118 / largaPalabra));
+    return (
+      <div
+        className="port port-tipo"
+        style={{ ...estilo, "--fondo-tipo": tipo.fondo, "--tinta-tipo": tipo.tinta,
+                 "--acento-tipo": tipo.acento ?? tipo.tinta } as CSSProperties}
+        data-texto={conTexto ? "si" : "no"}
+      >
+        <div className="port-tipo-barra" />
+        {conTexto ? (
+          <>
+            <div className="port-tipo-ceja">{categoria}</div>
+            <div
+              className="port-tipo-titulo"
+              style={{ fontSize: `calc(var(--u) * ${cuerpo})` }}
+            >
+              {palabras.map((p, i) => (
+                <span key={i} className={p === tipo.destaca ? "port-tipo-fuerte" : undefined}>
+                  {p}{i < palabras.length - 1 ? " " : ""}
+                </span>
+              ))}
+            </div>
+            <div className="port-tipo-autor">{autor}</div>
+          </>
+        ) : (
+          /* A 52 puntos no cabe el título: queda la inicial, que es lo que
+             hace falta para reconocer cuál estabas leyendo. */
+          <div className="port-tipo-inicial">{titulo.trim()[0]}</div>
+        )}
+      </div>
+    );
+  }
 
   /* Con obra encima, la portada es la obra: ocupa el cuadrado entero y el
      texto se apoya sobre un velo que baja de la nada al negro. Sin obra, la

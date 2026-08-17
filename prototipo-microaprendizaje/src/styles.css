@@ -6041,6 +6041,60 @@ button {
   text-overflow: ellipsis;
 }
 
+/* --------------------------------------------------------------------------
+   La portada gritada: color plano y título enorme.
+
+   Es la convención de la mesa de novedades de autoayuda, y lo que hace que un
+   libro parezca un libro y no una fotografía con una etiqueta encima. Nada de
+   emblema, nada de filete: aquí el título ES el dibujo.
+   -------------------------------------------------------------------------- */
+.port-tipo {
+  background: var(--fondo-tipo);
+  grid-template-rows: auto 1fr auto;
+  /* Con la columna implícita, la portada hereda el `justify-items: center` de
+     `.port` y cada línea se encoge a su contenido: el título medía 78 de 148 y
+     las palabras largas se salían por el filo. Una columna declarada la
+     estira, y entonces el texto tiene de verdad el ancho de la cubierta. */
+  grid-template-columns: 1fr;
+  padding: calc(var(--u) * 8) calc(var(--u) * 7.5) calc(var(--u) * 7);
+  text-align: left;
+  justify-items: stretch;
+}
+/* La barra del acento, arriba del todo. Un gesto de colección.
+   Barra y ceja comparten celda —una a cada lado— porque si se dejan a la
+   colocación automática la ceja se va a una segunda columna implícita y parte
+   la cubierta en dos: el título se quedaba con la mitad del ancho. */
+.port-tipo-barra {
+  grid-row: 1; grid-column: 1;
+  height: calc(var(--u) * 2.2); width: calc(var(--u) * 26);
+  background: var(--acento-tipo); border-radius: 1px;
+}
+.port-tipo-ceja {
+  grid-row: 1; grid-column: 1; align-self: start; justify-self: end;
+  font-size: calc(var(--u) * 4.4); font-weight: 700; letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--acento-tipo); opacity: 0.85;
+}
+.port-tipo-titulo {
+  grid-row: 2; grid-column: 1; align-self: center;
+  font-family: var(--titular);
+  font-weight: 800; line-height: 0.98; letter-spacing: -0.022em;
+  text-transform: uppercase; color: var(--tinta-tipo);
+  overflow: hidden;
+}
+/* La palabra que manda, en el color del acento: es lo que se lee a un metro. */
+.port-tipo-fuerte { color: var(--acento-tipo); }
+.port-tipo-autor {
+  grid-row: 3; grid-column: 1;
+  font-size: calc(var(--u) * 4.6); font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--tinta-tipo); opacity: 0.72;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.port-tipo-inicial {
+  grid-row: 1 / -1; grid-column: 1; align-self: center; justify-self: center;
+  font-family: var(--titular); font-weight: 800;
+  font-size: calc(var(--u) * 54); line-height: 1; color: var(--acento-tipo);
+}
+
 /* La portada con obra encima: la imagen ocupa el cuadrado entero y el texto se
    apoya en un velo. La ceja y la tipografía son las mismas que en la de papel,
    para que la parrilla no se rompa mientras las portadas se van llenando. */

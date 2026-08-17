@@ -453,7 +453,7 @@ function intercala(...grupos: Short[][]): Short[] {
   return salida;
 }
 
-export const SHORTS: Short[] = intercala(
+const MURO: Short[] = intercala(
   FIGURAS,
   VIRUS_INFORMATICOS,
   ESCALERAS_MECANICAS,
@@ -690,3 +690,23 @@ export const SHORTS: Short[] = intercala(
   INVERNADEROS,
   MONEDA,
 );
+
+/* Para grabar el vídeo del anuncio hace falta poder decidir qué historias van
+   delante y en qué orden, porque en un anuncio de treinta segundos no caben
+   757 y las que enganchan no son las que el intercalado deja primeras.
+
+   Es el mismo mecanismo que `__FOTOS` y `__PANTALLA`: la página deja dicho lo
+   que quiere ANTES de que arranque la app. Sin la variable no cambia nada,
+   así que la app normal no se entera de que esto existe. Los identificadores
+   que no correspondan a ninguna historia se ignoran, y detrás de las elegidas
+   va el muro entero, para que se pueda seguir deslizando. */
+const ORDEN: unknown = (globalThis as Record<string, unknown>).__ORDEN;
+
+export const SHORTS: Short[] = (() => {
+  if (!Array.isArray(ORDEN) || !ORDEN.length) return MURO;
+  const porId = new Map(MURO.map((s) => [s.id, s]));
+  const elegidas = (ORDEN as string[]).map((id) => porId.get(id)).filter((s): s is Short => !!s);
+  if (!elegidas.length) return MURO;
+  const puestas = new Set(elegidas.map((s) => s.id));
+  return [...elegidas, ...MURO.filter((s) => !puestas.has(s.id))];
+})();
