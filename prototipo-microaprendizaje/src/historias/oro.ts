@@ -155,7 +155,7 @@ export const ORO: Short[] = [
     curioso: true,
     encargo: "Un cubo dorado macizo junto a un edificio de tres plantas, a la misma escala.",
     entrada:
-      "El cálculo se rehace cada año y en 2024 daba una cifra redonda: en toda la historia de la humanidad se han extraído algo más de doscientas mil toneladas de oro. Suena a muchísimo, pero el oro es el metal más denso con el que trata la gente corriente, y la densidad juega en contra de la intuición. Todo ese metal junto ocupa menos de lo que cualquiera supone.",
+      "El cálculo se rehace cada año con los datos de las minas y en 2024 daba una cifra bastante redonda: en toda la historia de la humanidad, desde el primer grano que alguien recogió en un río, se han extraído algo más de doscientas mil toneladas de oro. Dicho así suena a muchísimo. Pero el oro es el metal más denso con el que trata la gente corriente, y la densidad juega justo en contra de la intuición. Todo ese metal junto, fundido y apilado, ocupa muchísimo menos de lo que cualquiera supone.",
     paginas: [
       {
         rotulo: "La cuenta del cubo",
