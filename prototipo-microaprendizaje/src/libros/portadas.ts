@@ -214,6 +214,35 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "deep-work": {
+    archivo: "Getaway (Unsplash).jpg",
+    autor: "Cabaña de troncos entre pinos nevados. Fotografía de Wesley Tingey, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AGetaway%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "Una cabaña de madera con el tejado nevado, rodeada de abetos.",
+  },
+
+  respira: {
+    archivo: "Dülmen, Kirchspiel, Börnste, Felder und Bäume -- 2017 -- 3160-6.jpg",
+    autor: "Amanecer con niebla sobre los campos de Dülmen. Fotografía de Dietmar Rabich, 2017.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AD%C3%BClmen%2C%20Kirchspiel%2C%20B%C3%B6rnste%2C%20Felder%20und%20B%C3%A4ume%20--%202017%20--%203160-6.jpg",
+    foco: "50% 55%",
+    alt: "Un árbol solo entre la niebla baja, con el cielo del amanecer encendido en naranja.",
+  },
+
+  educada: {
+    archivo: "Lake Creek in snow, Oregon - Flickr - Bonnie Moreland (free images).jpg",
+    autor: "Un arroyo helado entre pinos nevados, en Oregón. Fotografía de Bonnie Moreland, 2023.",
+    licencia: "Public domain",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ALake%20Creek%20in%20snow%2C%20Oregon%20-%20Flickr%20-%20Bonnie%20Moreland%20(free%20images).jpg",
+    foco: "55% 50%",
+    alt: "Un arroyo oscuro serpenteando entre árboles cargados de nieve.",
+  },
+
   "arte-de-amar": {
     archivo: "P S Krøyer 1899 - Sommeraften ved Skagens strand. Kunstneren og hans hustru.jpg",
     autor: "Tarde de verano en la playa de Skagen, óleo de Peder Severin Krøyer, 1899.",
