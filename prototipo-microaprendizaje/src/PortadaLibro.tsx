@@ -234,6 +234,11 @@ export function PortadaLibro({
   const largo = titulo.length;
   const escala = largo > 34 ? 0.7 : largo > 22 ? 0.82 : 1;
 
+  /* Sobre obra el título va más pequeño que sobre papel. En la de papel el
+     título ES la portada y puede ocupar; encima de un cuadro es una etiqueta,
+     y a diez puntos del lado tapaba media pintura. */
+  const cuerpo = (foto ? 8.2 : 10) * escala;
+
   /* Con obra encima, la portada es la obra: ocupa el cuadrado entero y el
      texto se apoya sobre un velo que baja de la nada al negro. Sin obra, la
      de siempre: papel, emblema y título. Las dos comparten la ceja y la
@@ -262,7 +267,7 @@ export function PortadaLibro({
               <div className="port-regla" />
               <div
                 className="port-titulo"
-                style={{ fontSize: `calc(var(--u) * ${10 * escala})` }}
+                style={{ fontSize: `calc(var(--u) * ${cuerpo})` }}
               >
                 {titulo}
               </div>
@@ -292,7 +297,7 @@ export function PortadaLibro({
       {conTexto && (
         <div className="port-pie">
           <div className="port-regla" />
-          <div className="port-titulo" style={{ fontSize: `calc(var(--u) * ${10 * escala})` }}>
+          <div className="port-titulo" style={{ fontSize: `calc(var(--u) * ${cuerpo})` }}>
             {titulo}
           </div>
           <div className="port-autor">{autor}</div>
