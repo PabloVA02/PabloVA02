@@ -945,7 +945,7 @@ button {
   place-items: center;
 }
 
-.bloque { margin-top: 28px; }
+.bloque { margin-top: 22px; }
 .bloque h2 {
   margin: 0;
   padding: 0 var(--shell-pad);
@@ -962,7 +962,7 @@ button {
 
 .carrusel {
   display: flex;
-  gap: 14px;
+  gap: 13px;
   margin-top: 14px;
   padding: 0 var(--shell-pad);
   overflow-x: auto;
@@ -973,7 +973,7 @@ button {
 
 .ficha {
   flex: none;
-  width: 148px;
+  width: 168px;
   text-align: left;
   scroll-snap-align: start;
   display: flex;
@@ -1089,8 +1089,7 @@ button {
      portadas salían de distinto tamaño. Con el mínimo a cero las columnas
      son iguales pase lo que pase dentro. */
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  /* Estaban muy separadas, sobre todo de arriba abajo. */
-  gap: 10px 12px;
+  gap: 18px 12px;
   margin-top: 12px;
   padding: 0 var(--shell-pad);
 }
@@ -1122,7 +1121,7 @@ button {
   display: flex;
   align-items: center;
   gap: 7px;
-  margin-top: 6px;
+  margin-top: 4px;
   min-width: 0;
 }
 .ficha-min {
@@ -6293,7 +6292,7 @@ button {
 }
 
 .ficha-gancho {
-  margin: 0 0 8px;
+  margin: 0 0 2px;
   font-size: 12.5px;
   line-height: 1.42;
   color: var(--ink-soft);

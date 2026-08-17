@@ -377,10 +377,14 @@ export function Inicio({
               Gestionar
             </button>
           </div>
-          {/* Una sola columna de scroll horizontal se queda corta con un
-              catálogo grande: en cuanto hay más de diez libros, la parrilla
-              enseña mucho más sin obligar a arrastrar. */}
-          <div className="parrilla">
+          {/* Carrusel y no parrilla. La parrilla enseña más libros de golpe,
+              pero obliga a una retícula de filas, y una fila es tan alta como
+              su ficha más alta: con títulos de una y de dos líneas quedaban
+              claros enormes debajo de la corta y la pastilla se iba a tocar
+              la portada de la fila siguiente. En una tira horizontal no hay
+              filas, así que cada ficha acaba donde acaba. Ver el catálogo
+              entero es cosa de la vista de todos los libros, no de aquí. */}
+          <div className="carrusel">
             <AnimatePresence mode="popLayout">
               {recomendados.map((l, i) => (
                 <FichaLibro key={l.id} libro={l} i={Math.min(i, 9)} onAbrir={() => onAbrir(l)} />
