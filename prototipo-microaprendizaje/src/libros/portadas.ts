@@ -214,6 +214,44 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "eichmann-jerusalen": {
+    archivo: "142872 jerusalem - the old city PikiWiki Israel.jpg",
+    autor: "Callejón de la Ciudad Vieja de Jerusalén. Fotografía de Shlomo Roded.",
+    licencia: "CC BY 2.5",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3A142872%20jerusalem%20-%20the%20old%20city%20PikiWiki%20Israel.jpg",
+    foco: "50% 50%",
+    alt: "Un callejón estrecho de piedra con escalones, cubierto por un arco, y la luz al fondo.",
+  },
+
+  "digestion-cuestion": {
+    archivo: "Chia jars with bleuberries (Unsplash).jpg",
+    autor: "Vasos de yogur con chía, kiwi y arándanos. Fotografía de Brenda Godinez, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AChia%20jars%20with%20bleuberries%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "Dos vasos con capas de yogur, semillas, kiwi y arándanos por encima.",
+  },
+
+  "contrato-social": {
+    archivo: "001 Chateau de Chillon and Dents du Midi Photo by Giles Laurent.jpg",
+    autor: "El castillo de Chillón, en el lago Lemán, con los Dents du Midi al fondo. Fotografía de Giles Laurent, 2020.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3A001%20Chateau%20de%20Chillon%20and%20Dents%20du%20Midi%20Photo%20by%20Giles%20Laurent.jpg",
+    foco: "45% 50%",
+    alt: "Un castillo iluminado a la orilla de un lago, con montañas nevadas rosadas detrás.",
+  },
+
+  "psicologia-dinero": {
+    archivo: "Cute piggy bank (Unsplash).jpg",
+    autor: "Una hucha de cerdito. Fotografía de Fabian Blank, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ACute%20piggy%20bank%20(Unsplash).jpg",
+    foco: "68% 55%",
+    alt: "Una hucha rosa de cerámica sobre fondo blanco.",
+  },
+
   "habitos-atomicos": {
     archivo: "Ocean waves rippling (Unsplash).jpg",
     autor: "Rizos de agua en la superficie del mar al atardecer. Fotografía de Tim Marshall, 2017.",
