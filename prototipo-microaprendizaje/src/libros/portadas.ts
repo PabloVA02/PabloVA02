@@ -214,6 +214,16 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "pilares-tierra": {
+    archivo: "Chartres Cathedral South Aisle View into Nave 2007 08 31.jpg",
+    autor: "Bóvedas de la catedral de Chartres. Fotografía de Andreas F. Borchert, 2007.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AChartres%20Cathedral%20South%20Aisle%20View%20into%20Nave%202007%2008%2031.jpg",
+    foco: "40% 50%",
+    alt: "Los nervios de una bóveda gótica arrancando de un pilar, con vidrieras de colores al lado.",
+  },
+
   spqr: {
     archivo: "Colosseum in Rome, Italy - April 2007.jpg",
     autor: "El Coliseo de Roma iluminado al anochecer. Fotografía de David Iliff, 2007.",

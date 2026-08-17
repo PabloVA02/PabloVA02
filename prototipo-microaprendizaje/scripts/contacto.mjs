@@ -29,17 +29,29 @@ const CACHE = "/tmp/curva-contacto";
 
 /* Se baja con curl y no con fetch: todo el tráfico sale por un proxy que el
    fetch de Node no mira, y desde el navegador Commons no se alcanza. */
+/* Commons corta cuando se le piden muchas seguidas y en vez de un error manda
+   una página de texto. Antes eso tumbaba media hoja de contacto y había que
+   repetir la llamada entera; ahora se espera y se reintenta, igual que en
+   foto.mjs. */
+const espera = (ms) => new Promise((r) => setTimeout(r, ms));
+
 async function baja(nombre) {
   const limpio = nombre.replace(/^File:/, "");
   const url = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(limpio)}?width=760`;
   const fichero = join(CACHE, createHash("sha1").update(url).digest("hex") + ".jpg");
   if (existsSync(fichero)) return readFileSync(fichero);
-  const { stdout } = await ejecuta("curl", ["-sS", "-L", "--max-time", "60", "-H", `User-Agent: ${UA}`, url],
-    { maxBuffer: 64 * 1024 * 1024, encoding: "buffer" });
-  if (stdout.slice(0, 15).toString("latin1").includes("<"))
-    throw new Error(`no es una imagen: ${limpio}`);
-  writeFileSync(fichero, stdout);
-  return stdout;
+  /* Los cortes de Commons duran minutos, no segundos: con esperas de dos en
+     dos segundos se agotaban los seis intentos sin que hubiera cedido. */
+  const ESPERAS = [0, 5000, 15000, 30000, 60000, 90000, 120000];
+  for (let intento = 0; intento < ESPERAS.length; intento++) {
+    await espera(ESPERAS[intento]);
+    const { stdout } = await ejecuta("curl", ["-sS", "-L", "--max-time", "60", "-H", `User-Agent: ${UA}`, url],
+      { maxBuffer: 64 * 1024 * 1024, encoding: "buffer" });
+    if (stdout.slice(0, 15).toString("latin1").includes("<")) continue;
+    writeFileSync(fichero, stdout);
+    return stdout;
+  }
+  throw new Error(`no es una imagen: ${limpio}`);
 }
 
 const args = process.argv.slice(2);
