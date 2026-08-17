@@ -149,7 +149,7 @@ export const ARCHIVOS: Short[] = [
     curioso: true,
     encargo: "Un disquete antiguo y una carpeta de cartón sobre una mesa gris.",
     entrada:
-      "Bibliotecas y archivos nacionales, desde los años noventa. Un documento en papel de buena calidad puede leerse quinientos años después sin ningún aparato. Un fichero digital necesita, para abrirse, un soporte que funcione, un ordenador capaz de leerlo, un sistema operativo compatible y un programa que entienda el formato. Basta con que falle uno solo de los cuatro para que la información quede inaccesible, aunque los datos sigan intactos.",
+      "Bibliotecas y archivos nacionales, desde los años noventa. Un documento en papel de buena calidad puede sacarse de una caja y leerse quinientos años después sin ningún aparato de por medio: hace falta luz y saber leer. Un fichero digital necesita cuatro cosas a la vez para abrirse: un soporte que todavía funcione, un ordenador capaz de leer ese soporte, un sistema operativo compatible y un programa que entienda el formato. Basta con que falle uno solo de los cuatro para que la información quede inaccesible, aunque los datos sigan intactos ahí dentro.",
     paginas: [
       {
         rotulo: "Las cuatro capas",

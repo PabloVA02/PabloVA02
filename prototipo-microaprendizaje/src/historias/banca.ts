@@ -154,7 +154,7 @@ export const BANCA: Short[] = [
     color: "var(--plum)",
     encargo: "Una pantalla de cotizaciones antigua con números en rojo en una oficina vacía.",
     entrada:
-      "Singapur, febrero de 1995. Un banco británico con doscientos treinta y tres años de historia, que había financiado guerras y prestado a gobiernos de medio mundo, cierra de un día para otro y se vende por una libra. Lo ha hundido un operador de veintiocho años que apostaba en el mercado de futuros desde una oficina pequeña en Asia.",
+      "Singapur, febrero de 1995. Un banco británico con doscientos treinta y tres años de historia, que había financiado guerras, prestado a gobiernos de medio mundo y guardado el dinero de la reina, cierra de un día para otro y se vende entero por una libra. No lo ha hundido una crisis, ni una guerra, ni una decisión del consejo de administración. Lo ha hundido un solo operador de veintiocho años que apostaba en el mercado de futuros desde una oficina pequeña al otro lado del planeta, y que llevaba dos años tapando pérdidas.",
     paginas: [
       {
         rotulo: "La cuenta de errores",

@@ -152,7 +152,7 @@ export const ASTILLEROS: Short[] = [
     curioso: true,
     encargo: "Un casco de barco deslizando por una rampa hacia el agua con espuma alrededor.",
     entrada:
-      "Astilleros de todo el mundo, con un procedimiento que apenas ha cambiado desde el siglo XIX. Un barco se construye en seco sobre una rampa inclinada que baja hacia el agua, y llega un día en que hay que meterlo dentro. La operación clásica consiste en dejarlo resbalar por su propio peso, y es uno de los momentos más delicados de toda la construcción.",
+      "Astilleros de todo el mundo, con un procedimiento que apenas ha cambiado desde el siglo XIX. Un barco se construye en seco sobre una rampa inclinada que baja hacia el agua, y llega un día en que hay que meter dentro del mar varios miles de toneladas de acero que no se pueden levantar con ninguna grúa. La operación clásica consiste en soltarlo y dejar que resbale por su propio peso hasta el agua. Es uno de los momentos más delicados de toda la construcción, y solo se puede hacer una vez.",
     paginas: [
       {
         rotulo: "La cuna",
