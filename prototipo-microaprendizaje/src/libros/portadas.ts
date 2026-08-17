@@ -214,6 +214,34 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "bernarda-alba": {
+    archivo: "1000 Three domes of Oia in Santorini Photo by Giles Laurent.jpg",
+    autor: "Casas encaladas de Oía, en Santorini. Fotografía de Giles Laurent, 2025.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3A1000%20Three%20domes%20of%20Oia%20in%20Santorini%20Photo%20by%20Giles%20Laurent.jpg",
+    foco: "62% 55%",
+    alt: "Casas blancas apiñadas sobre el acantilado, con cúpulas azules y el mar al fondo.",
+  },
+
+  "doble-helice": {
+    archivo: "DNA Helix CPK.jpg",
+    autor: "Modelo atómico de la doble hélice del ADN.",
+    licencia: "Public domain",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ADNA%20Helix%20CPK.jpg",
+    foco: "50% 50%",
+    alt: "Dos cadenas de esferas rojas, blancas y azules enroscadas en espiral sobre fondo negro.",
+  },
+
+  "renglones-torcidos": {
+    archivo: "Abandoned building facade (Unsplash).jpg",
+    autor: "Fachada de un edificio abandonado. Fotografía de Igor Ovsyannykov, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AAbandoned%20building%20facade%20(Unsplash).jpg",
+    foco: "55% 55%",
+    alt: "Un muro ocre visto desde abajo, con ventanas rotas y balcones oxidados contra el cielo.",
+  },
+
   outlive: {
     archivo: "Swim (Unsplash).jpg",
     autor: "Medusas nadando en el acuario S.E.A. de Singapur. Fotografía de Han-Hsing Tu, 2017.",
