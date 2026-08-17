@@ -161,7 +161,7 @@ export const OBJETOS: Short[] = [
     curioso: true,
     encargo: "La punta de un lápiz recién afilado, muy ampliada, virutas alrededor.",
     entrada:
-      "Se dice «la mina de plomo» del lápiz y en varios idiomas la palabra para la mina es directamente plomo. Nunca ha habido plomo dentro. Lo que hay es grafito, una forma del carbono, y el malentendido viene de un yacimiento inglés del siglo XVI y de unos mineros que llamaron a aquella piedra negra lo primero que se les ocurrió.",
+      "Se dice la mina de plomo del lápiz, y en varios idiomas la palabra que se usa para la mina es directamente la de plomo. Nunca ha habido plomo dentro de un lápiz, ni una traza, ni en el más antiguo que se conserva. Lo que hay es grafito, que es una forma del carbono y no se parece al plomo en nada salvo en el color. El malentendido viene de un yacimiento inglés del siglo XVI y de unos mineros que llamaron a aquella piedra negra lo primero que se les ocurrió.",
     paginas: [
       {
         rotulo: "Borrowdale",

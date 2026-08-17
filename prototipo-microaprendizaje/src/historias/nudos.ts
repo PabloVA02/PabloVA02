@@ -147,7 +147,7 @@ export const NUDOS: Short[] = [
     curioso: true,
     encargo: "Manos con guantes atando un nudo quirúrgico con hilo fino sobre un soporte de práctica.",
     entrada:
-      "Quirófanos del mundo entero, con la técnica moderna asentada desde finales del siglo XIX. Coser un tejido vivo tiene un problema que no aparece en otra costura, porque el hilo se moja, resbala y trabaja dentro de algo que se mueve. Si el nudo cede un milímetro, la herida se abre o un vaso vuelve a sangrar. Por eso el nudo quirúrgico se enseña como un gesto de precisión.",
+      "Quirófanos del mundo entero, con la técnica moderna asentada desde finales del siglo XIX. Coser un tejido vivo tiene un problema que no aparece en ninguna otra costura, y es que el hilo se moja, resbala y trabaja dentro de algo que se mueve, que late y que se hincha. Si el nudo cede un solo milímetro, la herida se abre o un vaso vuelve a sangrar, y muchas veces eso pasa cuando el paciente ya está cerrado. Por eso el nudo quirúrgico se enseña como un gesto de precisión y se practica a miles.",
     paginas: [
       {
         rotulo: "La primera vuelta",

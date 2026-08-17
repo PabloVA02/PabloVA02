@@ -157,7 +157,7 @@ export const MUERTE: Short[] = [
     color: "var(--forest)",
     encargo: "Una galería subterránea de piedra caliza con las paredes ordenadas en hileras.",
     entrada:
-      "París, 1780. El cementerio principal de la ciudad lleva casi mil años recibiendo entierros en el mismo terreno, un solar del centro donde se calcula que hay dos millones de cuerpos apilados en capas. El suelo se ha ido levantando varios metros por encima de las calles vecinas y los sótanos de alrededor llevan años oliendo mal. Aquel invierno, el muro de una casa colindante revienta y el sótano se llena.",
+      "París, 1780. El cementerio principal de la ciudad lleva casi mil años recibiendo entierros en el mismo terreno, un solar del centro donde se calcula que hay dos millones de cuerpos apilados en capas, unos encima de otros. El suelo se ha ido levantando varios metros por encima de las calles vecinas y los sótanos de alrededor llevan años oliendo mal, con la leche que se corta y el vino que se pica. Aquel invierno, el muro de una casa colindante revienta por la presión y el sótano se llena de lo que había al otro lado.",
     paginas: [
       {
         rotulo: "El traslado",
