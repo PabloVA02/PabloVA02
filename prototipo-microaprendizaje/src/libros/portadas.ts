@@ -214,6 +214,43 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "marte-venus": {
+    archivo: "Venus - Computer Simulated Global View (7302574832).jpg",
+    autor: "Venus reconstruido con los datos de radar de la sonda Magallanes. NASA.",
+    licencia: "Public domain",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AVenus%20-%20Computer%20Simulated%20Global%20View%20(7302574832).jpg",
+    foco: "50% 50%",
+    alt: "El globo de Venus en tonos dorados, con su relieve marcado, sobre fondo negro.",
+  },
+
+  "cerebro-del-nino": {
+    archivo: "Kids in woods in monochrome (Unsplash).jpg",
+    autor: "Dos niños caminando por el bosque. Fotografía de Annie Spratt, 2015.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AKids%20in%20woods%20in%20monochrome%20(Unsplash).jpg",
+    foco: "55% 50%",
+    alt: "Dos niños de espaldas metiéndose entre helechos y árboles, en blanco y negro.",
+  },
+
+  "henrietta-lacks": {
+    archivo: "Scientist with a Petri dish (Unsplash).jpg",
+    autor: "Manos enguantadas abriendo una placa de Petri en el laboratorio. Fotografía de Drew Hays, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AScientist%20with%20a%20Petri%20dish%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "Unas manos con guantes morados sostienen una placa de cultivo sobre la mesa de trabajo.",
+  },
+
+  "gen-historia": {
+    archivo: "Plants in beakers (Unsplash).jpg",
+    autor: "Plantas creciendo en matraces de un laboratorio. Fotografía de chuttersnap, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3APlants%20in%20beakers%20(Unsplash).jpg",
+    foco: "50% 55%",
+    alt: "Una fila de matraces de cristal con brotes verdes dentro, a contraluz.",
+  },
+
   "lenguajes-amor": {
     archivo: "Silky red petals in close-up (Unsplash).jpg",
     autor: "Pétalos de una rosa roja vistos de cerca. Fotografía de chuttersnap, 2016.",
