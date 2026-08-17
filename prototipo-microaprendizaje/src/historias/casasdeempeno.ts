@@ -151,7 +151,7 @@ export const CASAS_DE_EMPENO: Short[] = [
     curioso: true,
     encargo: "Cámara acorazada con cuadros embalados y relojes en vitrinas numeradas.",
     entrada:
-      "Londres y Nueva York, con el sector especializado creciendo desde 2008. La casa de empeño de barrio tiene una hermana mayor que trabaja con obras de arte, coches de colección y relojes carísimos. Los importes van de cien mil a varios millones y los clientes no suelen ser gente arruinada. Casi siempre son empresarios que necesitan dinero muy rápido y sin dar explicaciones.",
+      "Londres y Nueva York, con el sector especializado creciendo desde 2008. La casa de empeño de barrio, la de toda la vida, tiene una hermana mayor de la que casi nadie ha oído hablar: la que trabaja con obras de arte, coches de colección, joyas y relojes carísimos. Los importes que mueve van de cien mil euros a varios millones, y los clientes que entran por la puerta no suelen ser gente arruinada ni desesperada. Casi siempre son empresarios que necesitan dinero muy rápido y sin dar explicaciones a nadie. Y el cuadro se queda en una cámara acorazada hasta que se devuelve el dinero.",
     paginas: [
       {
         rotulo: "Rápido y discreto",

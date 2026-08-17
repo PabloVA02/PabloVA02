@@ -149,7 +149,7 @@ export const CANALES: Short[] = [
     color: "var(--plum)",
     encargo: "Un canal recto entre campos, con una barcaza cargada y un puente de piedra al fondo.",
     entrada:
-      "Estados Unidos, 1825. Se inaugura un canal de casi seiscientos kilómetros que une los Grandes Lagos, en el interior del continente, con el río que desemboca en el puerto de Nueva York. Hasta entonces sacar el grano del interior costaba tanto que muchos agricultores no vendían fuera de su comarca. La obra la pagó el Estado, endeudándose, y hubo quien la llamó una locura.",
+      "Estados Unidos, 1825. Se inaugura un canal de casi seiscientos kilómetros, cavado a pico y pala, que une los Grandes Lagos, en el interior del continente, con el río que desemboca en el puerto de Nueva York. Hasta entonces sacar el grano del interior hacia la costa costaba tanto dinero y tanto tiempo que a muchos agricultores no les salía a cuenta vender fuera de su propia comarca. La obra la pagó el Estado endeudándose hasta las cejas, y hubo mucha gente respetable que la llamó una locura. Lo que salió de allí fue la ciudad más importante del país.",
     paginas: [
       {
         rotulo: "El precio del grano",

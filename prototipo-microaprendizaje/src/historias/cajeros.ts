@@ -149,7 +149,7 @@ export const CAJEROS: Short[] = [
     color: "var(--plum)",
     encargo: "Una plaza de pueblo vacía con una persiana metálica bajada y un cartel viejo.",
     entrada:
-      "España y buena parte de Europa, desde la crisis financiera de 2008. Los bancos han cerrado miles de oficinas para reducir costes, y con ellas han desaparecido los cajeros de muchos municipios pequeños. En 2023, alrededor de tres mil pueblos españoles no tenían ninguna forma de sacar dinero dentro del término municipal, y sus vecinos eran mayoritariamente personas de edad avanzada.",
+      "España y buena parte de Europa, desde la crisis financiera de 2008. Los bancos han cerrado miles de oficinas para reducir costes, y con las oficinas han ido desapareciendo también los cajeros automáticos de muchísimos municipios pequeños. En 2023, alrededor de tres mil pueblos españoles no tenían ninguna forma de sacar dinero en efectivo dentro del término municipal: ni cajero, ni oficina, ni nada. Y sus vecinos son mayoritariamente personas de edad avanzada, que son justo las que menos usan el móvil para pagar. Quedarse sin cajero en un pueblo no es solo una molestia: cambia la vida diaria.",
     paginas: [
       {
         rotulo: "Por qué cierran",

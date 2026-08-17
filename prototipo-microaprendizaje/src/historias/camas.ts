@@ -159,7 +159,7 @@ export const CAMAS: Short[] = [
     curioso: true,
     encargo: "Una vela encendida junto a una cama deshecha en plena noche.",
     entrada:
-      "Europa, antes de 1800. Un historiador americano revisó a lo largo de los años noventa miles de documentos —diarios, actas judiciales, obras de teatro, tratados médicos— y encontró en todos ellos una expresión repetida que nadie se había parado a explicar: el primer sueño y el segundo sueño, como si la noche estuviera partida en dos mitades separadas por un rato despierto.",
+      "Europa, antes de 1800. Un historiador americano revisó a lo largo de los años noventa miles de documentos de todo tipo —diarios personales, actas judiciales, obras de teatro, tratados médicos, sermones— y encontró en todos ellos una expresión repetida que nadie se había parado a explicar nunca, quizá por lo cotidiana que sonaba: el primer sueño y el segundo sueño. Como si la noche entera estuviera partida en dos mitades separadas por un rato despierto en mitad de la oscuridad, y aquello fuese lo más normal del mundo. Y no aparece en un sitio suelto, sino en toda Europa a la vez.",
     paginas: [
       {
         rotulo: "La hora intermedia",
