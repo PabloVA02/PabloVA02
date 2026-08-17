@@ -148,7 +148,7 @@ export const CONTRASENAS: Short[] = [
     color: "var(--plum)",
     encargo: "Un teléfono móvil mostrando un código de seis cifras sobre una mesa.",
     entrada:
-      "Servicios de internet de todo el mundo, con la verificación en dos pasos generalizada desde 2011. La idea de fondo es antigua y viene de la seguridad física: una contraseña es algo que sabes, y lo que sabes se puede copiar sin que te enteres. Por eso conviene combinarla con algo de otra naturaleza, que el atacante tendría que robar físicamente.",
+      "Servicios de internet de todo el mundo, con la verificación en dos pasos generalizada desde 2011. La idea de fondo es antigua y no nació en internet, sino en la seguridad física de toda la vida: una contraseña es algo que sabes, y lo que sabes se puede copiar sin que te enteres, porque el ladrón no se lleva nada y todo sigue en su sitio. Por eso conviene combinarla con algo de otra naturaleza, algo que el atacante tendría que robar físicamente y cuya falta notarías enseguida. De ahí salen los códigos de seis cifras que caducan en medio minuto.",
     paginas: [
       {
         rotulo: "Tres familias",

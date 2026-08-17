@@ -161,7 +161,7 @@ export const CIUDADES: Short[] = [
     color: "var(--slate)",
     encargo: "Un plano de metro esquemático de líneas de colores, sin nombres legibles.",
     entrada:
-      "Todos los planos de metro del mundo se parecen: líneas de colores que solo van en horizontal, en vertical o a cuarenta y cinco grados, estaciones repartidas a distancias regulares y un centro más grande de lo que le toca. Ninguna de esas cosas es cierta sobre el terreno. La idea es de un delineador de la compañía del metro de Londres llamado Harry Beck, y es de 1931.",
+      "Todos los planos de metro del mundo se parecen sospechosamente entre sí: líneas de colores que solo van en horizontal, en vertical o a cuarenta y cinco grados, estaciones repartidas a distancias regulares aunque en la calle no lo estén, y un centro dibujado mucho más grande de lo que le tocaría. Ninguna de esas cosas es cierta sobre el terreno; todas son mentira a propósito. La idea es de un delineador de la compañía del metro de Londres llamado Harry Beck, y es de 1931. Se la rechazaron por rara. Hoy es el mismo idioma en Tokio, en Moscú y en Madrid.",
     paginas: [
       {
         rotulo: "La idea",

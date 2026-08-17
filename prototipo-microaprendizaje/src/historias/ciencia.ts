@@ -154,7 +154,7 @@ export const CIENCIA: Short[] = [
     color: "var(--plum)",
     encargo: "Un eclipse total de sol con la corona blanca sobre un cielo negro.",
     entrada:
-      "Isla de Príncipe, frente a la costa de África, 29 de mayo de 1919. Un astrónomo británico lleva meses de viaje con telescopios y placas fotográficas para aprovechar un eclipse total de seis minutos. Quiere comprobar una idea publicada cuatro años antes por un físico alemán casi desconocido fuera de su gremio: que la gravedad curva la luz. Aquella mañana llueve.",
+      "Isla de Príncipe, frente a la costa de África, 29 de mayo de 1919. Un astrónomo británico lleva meses de viaje, con telescopios y cajas de placas fotográficas embaladas, para aprovechar un eclipse total que va a durar seis minutos y que no se repetirá en años. Quiere comprobar una idea publicada cuatro años antes por un físico alemán casi desconocido fuera de su gremio, y publicada además en plena guerra entre los dos países: que la gravedad curva la luz. Tiene una sola oportunidad. Aquella mañana llueve. Y de aquellas placas mojadas salió el físico más famoso del siglo.",
     paginas: [
       {
         rotulo: "La prueba",
