@@ -217,6 +217,12 @@ function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; 
       </div>
       <p className="ficha-titulo">{libro.titulo}</p>
       <p className="ficha-autor">{libro.autor}</p>
+      {/* El gancho, recortado a tres renglones. Sin él la ficha era portada,
+          título, autor y un agujero hasta la pastilla de abajo: el hueco lo
+          hacía el `margin-top: auto` del pie, que empuja la pastilla al filo
+          de una fila alta. Con el gancho la ficha dice de qué va el libro,
+          que es para lo que la gente se para a mirarla. */}
+      <p className="ficha-gancho">{libro.gancho}</p>
       <p className="ficha-sub">{libro.subtitulo}</p>
       <span className="ficha-pie">
         <span className="chip-cat" style={{ borderColor: libro.color, color: libro.color }}>
@@ -269,6 +275,19 @@ export function Inicio({
     const peso = (l: Libro) => (intereses.includes(l.categoria) ? 0 : 1);
     return [...libres].sort((a, b) => peso(a) - peso(b));
   }, [filtro, intereses]);
+
+  /* Los de la sección ancha. Son tres y no treinta a propósito: la ficha
+     ancha ocupa media pantalla cada una, y una lista larga de fichas que se
+     explican deja de ser una recomendación para ser otro catálogo. Se cogen
+     de los temas que marcó, saltándose los que ya salen arriba. */
+  const personalizados = useMemo(() => {
+    const arriba = new Set(recomendados.slice(0, 6).map((l) => l.id));
+    const mios = LIBROS.filter(
+      (l) => l.progreso === 0 && !arriba.has(l.id)
+        && (!intereses.length || intereses.includes(l.categoria)),
+    );
+    return (mios.length ? mios : LIBROS.filter((l) => !arriba.has(l.id))).slice(0, 3);
+  }, [recomendados, intereses]);
 
   return (
     <motion.div
@@ -349,6 +368,12 @@ export function Inicio({
                     : "Creemos que estos te van a gustar"}
               </p>
             </div>
+            {/* Lleva a los mismos filtros de arriba: es el atajo para quien
+                entra queriendo cambiar lo que le proponemos, no para quien
+                viene a mirar. */}
+            <button className="bloque-accion" type="button" onClick={() => setFiltro(null)}>
+              Gestionar
+            </button>
           </div>
           {/* Una sola columna de scroll horizontal se queda corta con un
               catálogo grande: en cuanto hay más de diez libros, la parrilla
@@ -361,6 +386,41 @@ export function Inicio({
             </AnimatePresence>
           </div>
         </section>
+
+        {/* Personalizado: la ficha ancha, centrada y con la portada sobre un
+            arco de color. Es la que se para a explicar POR QUÉ te tocaría
+            leer ese libro, y por eso va de una en una y no en carrusel: aquí
+            se lee, no se ojea. */}
+        {!filtro && personalizados.length > 0 && (
+          <section className="bloque">
+            <h2>Personalizado para ti</h2>
+            <p className="bloque-sub">Por lo que te interesa</p>
+            <div className="pila">
+              {personalizados.map((l, i) => (
+                <motion.button
+                  key={l.id}
+                  className="ancha"
+                  onClick={() => onAbrir(l)}
+                  whileTap={{ scale: 0.985 }}
+                  initial={{ opacity: 0, y: 22 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-40px" }}
+                  transition={{ ...springSoft, delay: Math.min(i, 3) * 0.06 }}
+                >
+                  <div className="ancha-arco" style={{ ["--arco" as string]: l.color }}>
+                    <Portada libro={l} tamano={132} />
+                  </div>
+                  <span className="chip-cat ancha-chip" style={{ borderColor: l.color, color: l.color }}>
+                    {l.categoria}
+                  </span>
+                  <p className="ancha-titulo">{l.titulo}</p>
+                  <p className="ancha-autor">{l.autor}</p>
+                  <p className="ancha-texto">{l.gancho}</p>
+                </motion.button>
+              ))}
+            </div>
+          </section>
+        )}
 
         {enCurso.length > 0 && !filtro && (
           <section className="bloque">

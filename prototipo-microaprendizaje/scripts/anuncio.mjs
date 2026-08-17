@@ -381,6 +381,7 @@ const SOLO = arg("--toma", null);
    cada toma. Afinar el teléfono a base de vídeos de trece segundos es tirar
    el rato. */
 const FOTO = process.argv.includes("--foto");
+const SCROLL = Number(arg("--scroll", 0));
 if (FOTO) {
   for (const toma of TOMAS.filter((t) => !SOLO || t.nombre === SOLO)) {
     const pag = await navegador.newPage({
@@ -389,8 +390,22 @@ if (FOTO) {
     });
     await pag.clock.install();
     await pag.setContent(pagina({ pantalla: toma.pantalla, orden: toma.orden }), { waitUntil: "domcontentloaded", timeout: 180000 });
-    await pag.clock.runFor(1400);
+    await pag.clock.runFor(4000);
     await pag.waitForTimeout(700);
+    /* Igual que al rodar: el aviso del regalo salta con temporizador y aquí
+       taparía justo lo que se viene a mirar. */
+    await pag.evaluate(() => document.querySelector(".regalo-velo")?.click());
+    await pag.clock.runFor(500);
+    await pag.waitForTimeout(250);
+    if (SCROLL) await pag.evaluate((y) => {
+      const e = document.querySelector(".inicio-scroll, .muro-pase, .perfil-scroll");
+      if (e) e.scrollTop = y;
+    }, SCROLL);
+    /* Vuelve a saltar cuando le toca su temporizador, así que se cierra otra
+       vez justo antes de disparar. */
+    await pag.evaluate(() => document.querySelector(".regalo-velo")?.click());
+    await pag.clock.runFor(400);
+    await pag.waitForTimeout(250);
     await pag.screenshot({ path: `/tmp/marco-${toma.nombre}.png` });
     console.log(`  /tmp/marco-${toma.nombre}.png`);
     await pag.close();

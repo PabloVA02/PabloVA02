@@ -850,8 +850,13 @@ button {
   min-height: 0;
   display: flex;
   flex-direction: column;
-  background: var(--night);
-  color: var(--paper);
+  /* La estantería iba en oscuro y ahora va en el papel de los shorts: la app
+     entera es del mismo color y la lectura ya no es un cambio de mundo. Todo
+     lo de dentro estaba escrito en veladuras de papel sobre negro, así que
+     darle la vuelta al fondo obliga a darles la vuelta a todas: lo que era
+     papel al 8 % sobre negro es tinta al 6 % sobre papel. */
+  background: var(--paper);
+  color: var(--ink);
   margin-top: -46px;
   padding-top: 46px;
 }
@@ -887,8 +892,8 @@ button {
   gap: 5px;
   padding: 5px 14px 5px 9px;
   border-radius: 999px;
-  background: rgba(242, 236, 225, 0.1);
-  border: 1px solid rgba(242, 236, 225, 0.16);
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ink) 13%, transparent);
   font-size: 16px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
@@ -902,7 +907,7 @@ button {
   margin: 18px var(--shell-pad) 0;
   padding: 12px;
   border-radius: 18px;
-  background: rgba(242, 236, 225, 0.08);
+  background: var(--paper-deep);
   text-align: left;
 }
 
@@ -916,13 +921,13 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.seguir-sub { margin: 0; font-size: 12.5px; color: rgba(242, 236, 225, 0.62); }
+.seguir-sub { margin: 0; font-size: 12.5px; color: var(--ink-soft); }
 
 .seguir-barra {
   margin-top: 5px;
   height: 6px;
   border-radius: 999px;
-  background: rgba(242, 236, 225, 0.16);
+  background: color-mix(in srgb, var(--ink) 13%, transparent);
   overflow: hidden;
 }
 .seguir-relleno {
@@ -934,7 +939,7 @@ button {
 
 .seguir-flecha {
   flex: none;
-  color: rgba(242, 236, 225, 0.5);
+  color: color-mix(in srgb, var(--ink) 46%, transparent);
   transform: rotate(180deg);
   display: grid;
   place-items: center;
@@ -952,7 +957,7 @@ button {
   margin: 3px 0 0;
   padding: 0 var(--shell-pad);
   font-size: 13.5px;
-  color: rgba(242, 236, 225, 0.6);
+  color: var(--ink-soft);
 }
 
 .carrusel {
@@ -1014,7 +1019,7 @@ button {
 .ficha-autor {
   margin: 3px 0 6px;
   font-size: 12.5px;
-  color: rgba(242, 236, 225, 0.58);
+  color: var(--ink-soft);
   line-height: 1.3;
 }
 
@@ -1051,16 +1056,16 @@ button {
   font-size: 12.5px;
   font-weight: 620;
   letter-spacing: -0.005em;
-  color: rgba(242, 236, 225, 0.62);
-  background: rgba(242, 236, 225, 0.08);
+  color: var(--ink-soft);
+  background: color-mix(in srgb, var(--ink) 6%, transparent);
   border: 1px solid transparent;
 }
 /* El activo se rellena además de cambiar de color: distinguir solo por tono
    deja fuera a quien no lo percibe. */
 .filtro[data-activo="true"] {
-  color: var(--ink);
-  background: var(--paper);
-  border-color: var(--paper);
+  color: var(--paper);
+  background: var(--ink);
+  border-color: var(--ink);
 }
 
 /* ---- Parrilla de la estantería ---- */
@@ -1071,7 +1076,12 @@ button {
 
 .parrilla {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* `minmax(0, 1fr)` y no `1fr`: el mínimo de una pista `1fr` es `auto`, así
+     que una palabra larga del gancho ensanchaba su columna y las dos
+     portadas salían de distinto tamaño. Con el mínimo a cero las columnas
+     son iguales pase lo que pase dentro. */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
   gap: 20px 14px;
   margin-top: 14px;
   padding: 0 var(--shell-pad);
@@ -1082,7 +1092,11 @@ button {
 .parrilla .portada { width: 100% !important; aspect-ratio: 1; height: auto !important; }
 
 .parrilla .ficha { display: flex; flex-direction: column; }
-.parrilla .ficha-pie { margin-top: auto; padding-top: 8px; }
+/* La pastilla iba empujada al fondo de la fila con `margin-top: auto`, que
+   servía cuando la ficha era portada + título + autor y había que alinear los
+   pies de las dos columnas. Con el gancho debajo, ese empujón deja un claro
+   enorme entre el texto y la pastilla: ahora va pegada a lo que describe. */
+.parrilla .ficha-pie { margin-top: 0; padding-top: 2px; }
 
 .ficha-pie {
   display: flex;
@@ -1094,7 +1108,7 @@ button {
 .ficha-min {
   font-size: 11px;
   font-weight: 600;
-  color: rgba(242, 236, 225, 0.42);
+  color: color-mix(in srgb, var(--ink) 44%, transparent);
   white-space: nowrap;
 }
 
@@ -6158,3 +6172,116 @@ button {
   color: rgba(242, 236, 225, 0.78);
   text-shadow: 0 1px 3px rgba(10, 10, 16, 0.8);
 }
+
+/* --------------------------------------------------------------------------
+   La ficha ancha de «Personalizado para ti».
+
+   Es la única del catálogo que se para a explicar por qué te tocaría leer
+   ese libro, y por eso va centrada, de una en una y con sitio para tres
+   renglones de texto. La portada se apoya en un arco del color de su
+   categoría: sin él la cubierta flota en mitad de la tarjeta, y con un
+   rectángulo de color detrás parecería un banner.
+   -------------------------------------------------------------------------- */
+
+.pila {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 14px;
+  padding: 0 var(--shell-pad);
+}
+
+.ancha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 22px 20px 24px;
+  border-radius: 22px;
+  background: var(--paper-deep);
+  border: 1px solid var(--paper-edge);
+  text-align: center;
+  width: 100%;
+}
+
+/* El arco: media circunferencia del color de la categoría, y la portada
+   encima sobresaliendo por arriba. */
+.ancha-arco {
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: end center;
+  padding-bottom: 0;
+  margin-bottom: 6px;
+}
+.ancha-arco::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 196px;
+  height: 98px;
+  border-radius: 98px 98px 0 0;
+  background: var(--arco);
+  opacity: 0.92;
+}
+.ancha-arco .port,
+.ancha-arco > div { position: relative; z-index: 1; }
+
+.ancha-chip { align-self: center; }
+
+.ancha-titulo {
+  margin: 6px 0 0;
+  font-size: 18px;
+  font-weight: 660;
+  letter-spacing: -0.022em;
+  line-height: 1.22;
+  text-wrap: balance;
+}
+.ancha-autor {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+.ancha-texto {
+  margin: 10px 0 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  text-wrap: pretty;
+}
+
+/* El atajo de la cabecera de bloque. */
+.bloque-accion {
+  flex: none;
+  align-self: flex-start;
+  padding: 7px 15px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 640;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--ink) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+}
+.bloque-cabecera {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding-right: var(--shell-pad);
+}
+
+.ficha-gancho {
+  margin: 0 0 8px;
+  font-size: 12.5px;
+  line-height: 1.42;
+  color: var(--ink-soft);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/* En el carrusel la ficha es más estrecha y tres renglones la estiran de
+   más: ahí con dos basta para decir de qué va. */
+.carrusel .ficha-gancho { -webkit-line-clamp: 2; }
