@@ -155,7 +155,7 @@ export const CABALLOS: Short[] = [
     color: "var(--plum)",
     encargo: "Un estribo de hierro colgando de una silla de montar de cuero gastado.",
     entrada:
-      "Asia central, siglo IV. Aparece un objeto de aspecto humilde: un aro de metal colgado de la silla de montar donde meter el pie. Los caballos llevan miles de años domesticados y se monta desde hace más de mil, pero hasta ese momento el jinete se sostiene únicamente con las piernas y con su propio equilibrio.",
+      "Asia central, siglo IV. Aparece un objeto de aspecto humilde y de fabricación sencilla: un aro de metal colgado de la silla de montar donde meter el pie. No lleva mecanismo, no hay nada que se pueda estropear y cualquier herrero de pueblo puede hacer uno en una tarde. Los caballos llevan miles de años domesticados y se monta desde hace más de mil, pero hasta ese momento el jinete se sostiene únicamente con la presión de las piernas y con su propio equilibrio. Ese aro va a cambiar la guerra durante mil años.",
     paginas: [
       {
         rotulo: "El apoyo",

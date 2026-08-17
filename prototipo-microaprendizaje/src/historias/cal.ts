@@ -148,7 +148,7 @@ export const CAL: Short[] = [
     curioso: true,
     encargo: "Horno de cal circular de piedra abandonado en un campo, medio cubierto de hiedra.",
     entrada:
-      "Inglaterra, siglo XVIII. En plena revolución agrícola, los propietarios están probando maneras de sacar más grano de la misma tierra, y una de las que mejor funciona parece magia: echar cal molida sobre el campo. No aporta ningún alimento a la planta y aun así la cosecha sube. La explicación tardó otro siglo en llegar y tiene que ver con la acidez del suelo.",
+      "Inglaterra, siglo XVIII. En plena revolución agrícola, los propietarios están probando maneras de sacar más grano de la misma tierra, y una de las que mejor funciona parece directamente magia: echar cal molida por encima del campo. La cal no es un abono, no aporta ningún alimento a la planta y no tiene nada que la planta pueda aprovechar, y sin embargo la cosecha sube de forma clara y repetible. Nadie sabe explicar por qué. La explicación tardó otro siglo largo en llegar y tiene que ver con la acidez del suelo.",
     paginas: [
       {
         rotulo: "El suelo ácido",
