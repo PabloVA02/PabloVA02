@@ -152,7 +152,7 @@ export const SOMBREROS: Short[] = [
     color: "var(--slate)",
     encargo: "Una calle de los años cincuenta llena de gente, todos con sombrero.",
     entrada:
-      "Occidente, 1960. Cualquier fotografía de una calle concurrida tomada antes de esa fecha muestra a casi todos los hombres con la cabeza cubierta, y a casi todas las mujeres también. Veinte años después, la misma calle aparece llena de cabezas descubiertas. Es uno de los cambios de costumbre más rápidos y más completos del siglo, y no hay una sola causa que lo explique.",
+      "Occidente, 1960. Cualquier fotografía de una calle concurrida tomada antes de esa fecha muestra a casi todos los hombres con la cabeza cubierta, y a casi todas las mujeres también: sombreros, gorras, pañuelos, lo que fuera, pero cubierta. Veinte años más tarde, esa misma calle fotografiada desde el mismo sitio aparece llena de cabezas descubiertas. Es uno de los cambios de costumbre más rápidos y más completos de todo el siglo XX, y no hay una sola causa que lo explique del todo. La causa que más se cita es el coche, y por sí sola no basta para explicarlo todo.",
     paginas: [
       {
         rotulo: "El coche",

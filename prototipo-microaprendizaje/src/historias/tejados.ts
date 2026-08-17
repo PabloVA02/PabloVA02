@@ -148,7 +148,7 @@ export const TEJADOS: Short[] = [
     color: "var(--ochre)",
     encargo: "Casa noruega de madera con el tejado cubierto de hierba alta y una cabra encima.",
     entrada:
-      "Noruega e Islandia, desde la época vikinga y hasta bien entrado el siglo XIX. En un sitio con pocos árboles grandes y con inviernos muy largos, la casa se cubría con capas de turba y de hierba viva. No era una moda ni un adorno, sino la única manera barata de que el frío no entrara por arriba.",
+      "Noruega e Islandia, desde la época vikinga y hasta bien entrado el siglo XIX. En un sitio donde apenas hay árboles grandes con los que hacer vigas y donde los inviernos duran medio año, la casa se cubría con capas de turba y de hierba viva creciendo encima. No era una moda, ni un adorno, ni una manera de camuflar la casa en el paisaje: era sencillamente la única forma barata de conseguir que el frío no entrara por el techo. Ese mismo tejado ha vuelto a las ciudades europeas, y por motivos completamente distintos.",
     paginas: [
       {
         rotulo: "Turba y abedul",

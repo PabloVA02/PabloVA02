@@ -154,7 +154,7 @@ export const TE: Short[] = [
     curioso: true,
     encargo: "Una taza de porcelana blanca con un chorro de leche cayendo dentro.",
     entrada:
-      "Inglaterra, siglo XVIII. El té se ha puesto de moda y las tazas de porcelana traídas de China cuestan una fortuna, así que empiezan a fabricarse imitaciones locales mucho más baratas y bastante peores. Esas tazas tienen un problema: si se les echa de golpe un líquido hirviendo, el cambio brusco de temperatura las agrieta o directamente las parte por la mitad.",
+      "Inglaterra, siglo XVIII. El té se ha puesto de moda a toda velocidad y las tazas de porcelana traídas de China cuestan una fortuna, así que empiezan a fabricarse imitaciones locales mucho más baratas y bastante peores de calidad. Esas tazas tienen un problema práctico que se descubre enseguida y que sale caro: si se les echa de golpe un líquido hirviendo, el cambio brusco de temperatura las agrieta por dentro o directamente las parte por la mitad encima de la mesa. De ahí sale una costumbre que todavía divide a los ingleses, y un experimento científico famoso.",
     paginas: [
       {
         rotulo: "El truco",

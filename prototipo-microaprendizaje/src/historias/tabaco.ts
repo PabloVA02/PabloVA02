@@ -154,7 +154,7 @@ export const TABACO: Short[] = [
     curioso: true,
     encargo: "Una colilla con el filtro visto de frente, con sus agujeros diminutos alrededor.",
     entrada:
-      "Estados Unidos, década de 1950. Empiezan a publicarse los primeros estudios que relacionan el tabaco con el cáncer de pulmón y las ventas se resienten. La respuesta de la industria no es cambiar el producto sino añadirle una pieza: un filtro de fibra en la boquilla, anunciado como una barrera protectora. En pocos años lo lleva casi todo el mercado.",
+      "Estados Unidos, década de 1950. Empiezan a publicarse los primeros estudios serios que relacionan el tabaco con el cáncer de pulmón, los periódicos los recogen y, por primera vez, las ventas se resienten de verdad. La respuesta de la industria no consiste en cambiar el producto ni en discutir los estudios, sino en añadirle al cigarrillo una pieza nueva: un filtro de fibra en la boquilla, anunciado en todas partes como una barrera protectora. En pocos años lo lleva prácticamente todo el mercado. Lo que casi nadie sabía es que la propia industria ya había medido lo que ese filtro hacía.",
     paginas: [
       {
         rotulo: "La ventilación",

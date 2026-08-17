@@ -164,7 +164,7 @@ export const SUENO: Short[] = [
     curioso: true,
     encargo: "Un león bostezando de perfil, boca abierta, fondo desenfocado.",
     entrada:
-      "La explicación que se aprende de pequeño es que se bosteza porque falta oxígeno en la sangre y el cuerpo pide una bocanada grande. Suena razonable, encaja con la sensación y es falsa. Se comprobó en los años ochenta con un experimento directo, y desde entonces nadie ha logrado devolverle la razón a la versión del oxígeno.",
+      "La explicación que se aprende de pequeño y que repite todo el mundo es que se bosteza porque falta oxígeno en la sangre y el cuerpo pide una bocanada grande para compensar. Suena razonable, encaja perfectamente con la sensación que uno tiene al bostezar y lleva décadas en los libros. Y es falsa. Se comprobó en los años ochenta con un experimento sencillo y directo, y desde entonces nadie ha conseguido devolverle la razón a la versión del oxígeno, por mucho que se siga contando. El experimento fue tan simple que sorprende que nadie lo hubiera hecho antes que él.",
     paginas: [
       {
         rotulo: "La prueba",
