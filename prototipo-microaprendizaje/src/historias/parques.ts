@@ -150,7 +150,7 @@ export const PARQUES: Short[] = [
     curioso: true,
     encargo: "Un alcorque estrecho en una acera con un árbol joven y el suelo agrietado.",
     entrada:
-      "Ciudades de todo el mundo, con estudios de supervivencia hechos desde los años ochenta del siglo XX. Un árbol plantado en el alcorque de una acera, es decir, en ese hueco cuadrado rodeado de pavimento, tiene una esperanza de vida sorprendentemente corta. Los estudios hechos en calles muy transitadas dan medias de diez a quince años, mientras que el mismo ejemplar plantado en un parque cercano pasa tranquilamente de los cincuenta.",
+      "Ciudades de todo el mundo, con estudios de supervivencia hechos desde los años ochenta del siglo XX. Un árbol plantado en el alcorque de una acera, es decir, en ese hueco cuadrado rodeado de pavimento por los cuatro lados, tiene una esperanza de vida sorprendentemente corta comparada con lo que uno esperaría de un árbol. Los estudios hechos en calles muy transitadas dan medias de diez a quince años, mientras que un ejemplar idéntico plantado en el parque de al lado pasa tranquilamente de los cincuenta. El motivo principal está debajo del suelo y no se ve desde la calle.",
     paginas: [
       {
         rotulo: "Las raíces",

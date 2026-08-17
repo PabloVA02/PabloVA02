@@ -151,7 +151,7 @@ export const PAPEL: Short[] = [
     curioso: true,
     encargo: "Varias hojas de papel de tamaños decrecientes apiladas y giradas.",
     entrada:
-      "Alemania, 1922. Se aprueba una norma que fija los tamaños de papel, y de ahí sale el formato que hoy usa casi todo el mundo salvo Estados Unidos. La idea es de 1786. Un científico alemán se dio cuenta de que hay una proporción con una propiedad muy útil: al doblar la hoja por la mitad, el rectángulo que sale conserva la misma forma.",
+      "Alemania, 1922. Se aprueba una norma industrial que fija de una vez los tamaños del papel, y de ahí sale el formato que hoy usa casi todo el planeta salvo Estados Unidos. La norma es de 1922, pero la idea que hay detrás es de 1786. Aquel año, un científico alemán se dio cuenta de que existe una proporción concreta con una propiedad muy útil y bastante rara: al doblar la hoja por la mitad, el rectángulo que sale tiene exactamente la misma forma que el de partida. Esa propiedad no la tiene ningún otro rectángulo, y ahorra muchísimo dinero.",
     paginas: [
       {
         rotulo: "La proporción",

@@ -162,7 +162,7 @@ export const PALABRAS: Short[] = [
     color: "var(--clay)",
     encargo: "La muralla marítima de Dubrovnik desde el agua, al atardecer.",
     entrada:
-      "La palabra lleva el número dentro y todo el mundo lo sabe: cuarenta días. Lo que casi nadie sabe es que la medida se inventó con otro número, en otra ciudad, y que el cambio a cuarenta tuvo probablemente más de teología que de medicina. Fue, en cualquier caso, la primera política de salud pública documentada del mundo.",
+      "La palabra lleva el número dentro y eso lo sabe todo el mundo sin necesidad de que se lo expliquen: cuarenta días. Lo que casi nadie sabe es que la medida no se inventó con ese número, sino con otro más pequeño, en otra ciudad y unos años antes, y que el cambio a cuarenta tuvo probablemente bastante más de teología que de medicina. Fue, en cualquier caso y se cuente como se cuente, la primera política de salud pública documentada de la historia. Y funcionó bastante bien. De aquella norma de puerto salen los controles sanitarios de hoy.",
     paginas: [
       {
         rotulo: "Ragusa, 1377",

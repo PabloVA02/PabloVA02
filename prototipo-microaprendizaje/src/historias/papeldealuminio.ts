@@ -148,7 +148,7 @@ export const PAPEL_DE_ALUMINIO: Short[] = [
     curioso: true,
     encargo: "Bala prensada de latas de aluminio aplastadas en una planta de reciclaje.",
     entrada:
-      "Todo el mundo, con la industria del reciclado de aluminio consolidada desde los años setenta del siglo XX. Con muchos materiales el reciclaje sale a cuenta a duras penas, y con el aluminio la cuenta no admite discusión. Fabricar aluminio nuevo a partir de mineral consume una cantidad enorme de electricidad. Fundir una lata usada consume alrededor de una vigésima parte de esa energía.",
+      "Todo el mundo, con la industria del reciclado de aluminio consolidada desde los años setenta del siglo XX. Con muchos materiales el reciclaje sale a cuenta a duras penas, y hay que hacer números finos para defenderlo. Con el aluminio la cuenta es tan clara que no admite discusión de ningún tipo. Fabricar aluminio nuevo a partir del mineral consume una cantidad enorme de electricidad, tanta que las fábricas se ponen al lado de las centrales. Fundir una lata usada consume alrededor de una vigésima parte de esa energía. Es la diferencia entre separar el metal del oxígeno y limitarse a derretirlo.",
     paginas: [
       {
         rotulo: "De la roca",

@@ -151,7 +151,7 @@ export const PARAGUAS: Short[] = [
     color: "var(--plum)",
     encargo: "Un paraguas plegado y corto sobre la mesa, junto a un sombrero y unas llaves.",
     entrada:
-      "Alemania, 1928. Todo el mundo lleva paraguas desde hace casi un siglo, y todo el mundo se queja de lo mismo: mide casi un metro, no cabe en ninguna parte y hay que llevarlo en la mano incluso cuando ha dejado de llover. Un ingeniero que había pensado en el problema desde joven presenta la patente de un paraguas cuyo mango y cuyas varillas se acortan sobre sí mismos.",
+      "Alemania, 1928. Todo el mundo lleva paraguas desde hace casi un siglo, y todo el mundo se queja exactamente de lo mismo: mide casi un metro de largo, no cabe en ninguna parte, no se puede guardar en un bolso ni colgar de un perchero y hay que llevarlo en la mano incluso mucho después de que haya dejado de llover. Un ingeniero que llevaba desde joven dándole vueltas al problema presenta la patente de un paraguas cuyo mango y cuyas varillas se acortan sobre sí mismos. El problema no era imaginarlo: era conseguir que aguantara el viento.",
     paginas: [
       {
         rotulo: "El tubo telescópico",
