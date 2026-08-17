@@ -160,7 +160,7 @@ export const PERFUME: Short[] = [
     color: "var(--plum)",
     encargo: "Una fila de frascos idénticos sin etiqueta, numerados a mano.",
     entrada:
-      "Europa, 2005. Un tribunal europeo resuelve un pleito entre una gran casa de perfumes y una empresa que vende imitaciones baratas con listas de equivalencias. La sentencia deja claro algo que sorprende a mucha gente: la fórmula de un perfume no está protegida ni como obra ni como patente en la mayor parte de los casos.",
+      "Europa, 2005. Un tribunal europeo resuelve un pleito entre una gran casa de perfumes y una empresa que vende imitaciones baratas acompañadas de listas de equivalencias, del tipo este se parece a aquel. La sentencia deja claro de paso algo que sorprende a casi todo el mundo cuando se lo cuentan: la fórmula de un perfume, por famoso y caro que sea, no está protegida ni como obra ni como patente en la mayor parte de los casos. Cualquiera puede copiarla si sabe cómo, y saben cómo. Así que la perfumería se defiende con secreto y con marca, no con leyes.",
     paginas: [
       {
         rotulo: "El vacío legal",

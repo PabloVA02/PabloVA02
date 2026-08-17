@@ -149,7 +149,7 @@ export const PEGAMENTO: Short[] = [
     curioso: true,
     encargo: "Fila de remaches en el fuselaje de un avión antiguo, con la chapa a contraluz.",
     entrada:
-      "Reino Unido, 1943. En plena Segunda Guerra Mundial, un fabricante de aviones necesita construir un bombardero rápido con poco metal y busca la manera de unir madera y aluminio sin tornillos. Aparece entonces una resina que pega chapa a chapa y resiste la vibración de un motor. Ese pegamento cambió la manera de construir estructuras que tienen que aguantar millones de ciclos.",
+      "Reino Unido, 1943. En plena Segunda Guerra Mundial, con el aluminio racionado y las fábricas a tope, un fabricante de aviones necesita construir un bombardero rápido gastando poco metal y busca la manera de unir madera y aluminio sin usar tornillos ni remaches. De aquella necesidad sale una resina que pega chapa contra chapa y que aguanta la vibración de un motor durante cientos de horas de vuelo. Ese pegamento cambió para siempre la manera de construir estructuras que tienen que aguantar millones de ciclos de esfuerzo. La diferencia está en lo que le hace un agujero a una chapa que vibra.",
     paginas: [
       {
         rotulo: "El agujero",

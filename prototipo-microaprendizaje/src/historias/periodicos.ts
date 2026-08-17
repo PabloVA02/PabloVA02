@@ -156,7 +156,7 @@ export const PERIODICOS: Short[] = [
     color: "var(--ochre)",
     encargo: "Una máquina de componer con teclado y crisol, llena de engranajes y matrices de latón.",
     entrada:
-      "Nueva York, 1886. Se instala en la redacción de un diario una máquina que funde líneas enteras de texto en plomo a partir de un teclado. Hasta ese momento, componer una página consiste en coger letras de plomo de una caja, una por una, y colocarlas al revés en una regleta. Un operario bueno hace unas mil quinientas letras por hora.",
+      "Nueva York, 1886. Se instala en la redacción de un diario de la ciudad una máquina que funde líneas enteras de texto en plomo a partir de un teclado, delante de los periodistas que han bajado a verla. Hasta ese momento, componer una página de periódico consiste en ir cogiendo letras de plomo de una caja, una por una y con la mano, y colocarlas al revés en una regleta. Un operario bueno, con años de oficio, hace unas mil quinientas letras por hora. Con la máquina nueva, uno solo hacía el trabajo de cuatro o de cinco.",
     paginas: [
       {
         rotulo: "El teclado",

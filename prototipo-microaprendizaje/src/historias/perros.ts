@@ -153,7 +153,7 @@ export const PERROS: Short[] = [
     color: "var(--plum)",
     encargo: "Un gato atigrado sentado sobre sacos de grano en un almacén en penumbra.",
     entrada:
-      "Oriente Próximo, hacia el año 7500 antes de Cristo. Las primeras aldeas agrícolas almacenan grano, y ese grano atrae a ratones y a otros roedores en cantidades enormes. Detrás de los roedores aparece un gato salvaje africano que se instala en los alrededores. Nadie lo captura ni lo cría: sencillamente le compensa quedarse cerca de la gente.",
+      "Oriente Próximo, hacia el año 7500 antes de Cristo. Las primeras aldeas agrícolas empiezan a almacenar grano de una cosecha para otra, y ese grano guardado atrae a ratones y a otros roedores en cantidades enormes, hasta el punto de poner en riesgo la despensa entera. Detrás de los roedores, como es lógico, aparece un gato salvaje africano que se instala en los alrededores por su cuenta. Nadie lo captura, nadie lo cría y nadie lo llama: sencillamente le compensa quedarse cerca de la gente. Y de aquel arreglo, que no eligió nadie, sale el animal que duerme en el sofá.",
     paginas: [
       {
         rotulo: "El más antiguo",
