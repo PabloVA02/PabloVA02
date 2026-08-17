@@ -214,6 +214,57 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "viejo-mar": {
+    archivo: "Winslow Homer - The Gulf Stream - Metropolitan Museum of Art.jpg",
+    autor: "La corriente del Golfo, óleo de Winslow Homer, 1899. Metropolitan Museum of Art, Nueva York.",
+    licencia: "Public domain",
+    pdPorEdad: 1910,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AWinslow%20Homer%20-%20The%20Gulf%20Stream%20-%20Metropolitan%20Museum%20of%20Art.jpg",
+    foco: "45% 52%",
+    alt: "Un hombre solo en una barca desarbolada, rodeado de tiburones, sobre un mar azul revuelto.",
+  },
+
+  mujercitas: {
+    archivo: "Julaftonen av Carl Larsson 1904.jpg",
+    autor: "Nochebuena, acuarela de Carl Larsson, 1904.",
+    licencia: "Public domain",
+    pdPorEdad: 1919,
+    fuente: "https://commons.wikimedia.org/wiki/File%3AJulaftonen%20av%20Carl%20Larsson%201904.jpg",
+    foco: "28% 45%",
+    alt: "Una casa en Nochebuena: la mesa puesta con velas y platos y las hijas entrando con la comida.",
+  },
+
+  "matar-ruisenor": {
+    archivo:
+      "2025-09-13 16 31 58 Live Oak draped with Spanish moss near the north shore of Elm Lake within Brazos Bend State Park in Fort Bend County, Texas.jpg",
+    autor: "Roble americano cubierto de barba de viejo en Brazos Bend, Texas. Fotografía de 2025.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3A2025-09-13%2016%2031%2058%20Live%20Oak%20draped%20with%20Spanish%20moss%20near%20the%20north%20shore%20of%20Elm%20Lake%20within%20Brazos%20Bend%20State%20Park%20in%20Fort%20Bend%20County%2C%20Texas.jpg",
+    foco: "50% 45%",
+    alt: "Un roble enorme del que cuelgan barbas de musgo gris, contra un cielo azul.",
+  },
+
+  "1984": {
+    archivo: "Moscow State University 6.JPG",
+    autor: "Torre central de la Universidad Estatal de Moscú. Fotografía de Fred Schaerli, 2013.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AMoscow%20State%20University%206.JPG",
+    foco: "50% 40%",
+    alt: "La aguja escalonada de un rascacielos estalinista recortada contra un cielo azul limpio.",
+  },
+
+  "cien-anos": {
+    archivo: "Henri Rousseau, The Equatorial Jungle, 1909, NGA 46688.jpg",
+    autor: "La selva ecuatorial, óleo de Henri Rousseau, 1909. National Gallery of Art, Washington.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AHenri%20Rousseau%2C%20The%20Equatorial%20Jungle%2C%201909%2C%20NGA%2046688.jpg",
+    foco: "50% 45%",
+    alt: "Una selva pintada hoja a hoja, con flores rosas y dos animales escondidos entre la maleza.",
+  },
+
   "madame-bovary": {
     archivo: "Carl Holsøe - Interiør med læsende kvinde ved vinduet.png",
     autor: "Interior con mujer leyendo junto a la ventana, óleo de Carl Holsøe.",
