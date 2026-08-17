@@ -214,6 +214,26 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "universo-cascara": {
+    archivo: "NASA Black Hole Visualization Takes Viewers Beyond the Brink (SVS14576 - FlyBy Rectilinear 01787).jpg",
+    autor: "Simulación de un agujero negro y su disco de acreción. NASA Scientific Visualization Studio, 2024.",
+    licencia: "Public domain",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ANASA%20Black%20Hole%20Visualization%20Takes%20Viewers%20Beyond%20the%20Brink%20(SVS14576%20-%20FlyBy%20Rectilinear%2001787).jpg",
+    foco: "50% 50%",
+    alt: "Arcos de luz naranja curvados alrededor de una esfera negra, sobre el fondo del espacio.",
+  },
+
+  "inversor-inteligente": {
+    archivo: "New York Stock Exchange - Wall Street, New York, NY, USA - August 19, 2015 01.jpg",
+    autor: "Wall Street vista desde abajo, en Nueva York. Fotografía de Giorgio Galeotti, 2015.",
+    licencia: "CC BY 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ANew%20York%20Stock%20Exchange%20-%20Wall%20Street%2C%20New%20York%2C%20NY%2C%20USA%20-%20August%2019%2C%202015%2001.jpg",
+    foco: "50% 45%",
+    alt: "Rascacielos de piedra alzándose a ambos lados de una calle estrecha, en blanco y negro.",
+  },
+
   "vida-arboles": {
     archivo: "Beautiful World (Unsplash).jpg",
     autor: "Bosque a contraluz al atardecer. Fotografía de Dan Musat, 2017.",
