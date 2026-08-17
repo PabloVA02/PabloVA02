@@ -183,7 +183,7 @@ export const GRUAS: Short[] = [
       },
     ],
     entrada:
-      "Puertos de todo el mundo, hasta bien entrados los años sesenta. Un barco de carga llega lleno de sacos, cajas, barriles y fardos de tamaños todos distintos, apilados como se ha podido, y todo eso hay que sacarlo pieza a pieza. Cuadrillas enteras de estibadores bajan a la bodega, atan la carga a mano con eslingas, la suben con una pluma y luego la vuelven a colocar y a ordenar en el muelle. Un barco mediano podía pasarse así una semana entera amarrado sin moverse, y a veces más de dos.",
+      "Puertos de todo el mundo, hasta bien entrados los años sesenta. Un barco de carga llega lleno de sacos, cajas, barriles y fardos de tamaños todos distintos, apilados como se ha podido, y todo eso hay que sacarlo pieza a pieza. Cuadrillas enteras de estibadores bajan a la bodega, atan la carga a mano con eslingas, la suben con una pluma y luego la vuelven a colocar y a ordenar en el muelle. Un barco mediano podía pasarse así una semana entera amarrado sin moverse, y a veces más de dos. Costaba más descargarlo que traerlo.",
     paginas: [
       {
         rotulo: "El cuello de botella",
