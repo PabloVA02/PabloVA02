@@ -157,7 +157,7 @@ export const BRUJULA: Short[] = [
     color: "var(--plum)",
     encargo: "Una franja de fondo marino en relieve con bandas paralelas de color alterno.",
     entrada:
-      "Océanos del mundo, 1963. Dos geólogos publican un artículo corto que explica unas franjas magnéticas descubiertas en el fondo del mar a ambos lados de las cordilleras submarinas. El patrón es simétrico y se repite una y otra vez. Su explicación resuelve de golpe la mayor discusión abierta de la geología del siglo.",
+      "Océanos del mundo, 1963. Dos geólogos británicos publican un artículo corto, de los que caben en tres páginas, que explica unas franjas magnéticas descubiertas en el fondo del mar a los dos lados de las cordilleras submarinas. El patrón es raro: perfectamente simétrico respecto a la cordillera y repetido una y otra vez, como un código de barras dibujado en la roca. La explicación que dan es sencilla y, de paso, resuelve de golpe la discusión más grande que tenía abierta la geología en aquel siglo. Lo que aquellas franjas contaban era que el planeta se da la vuelta cada cierto tiempo.",
     paginas: [
       {
         rotulo: "Las rayas",

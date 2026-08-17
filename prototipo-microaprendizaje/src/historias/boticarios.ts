@@ -151,7 +151,7 @@ export const BOTICARIOS: Short[] = [
     curioso: true,
     encargo: "Mostrador de farmacia estadounidense de 1900 con grifos de soda y taburetes altos.",
     entrada:
-      "Estados Unidos, siglo XIX. En las farmacias del país se instala un mostrador con grifos que sirve agua carbonatada, porque el agua con gas se considera entonces un remedio digestivo. El farmacéutico le añade jarabes de su propia cosecha para que sepa mejor y para tratar dolencias concretas. De esos mostradores salieron varias de las bebidas más vendidas del mundo.",
+      "Estados Unidos, siglo XIX. En las farmacias del país se instala un mostrador con grifos que sirve agua carbonatada, porque el agua con gas se considera entonces un remedio digestivo serio y se receta como tal. La gente va a la botica a tomarse un vaso igual que hoy va a un bar. El farmacéutico le añade jarabes de su propia cosecha para que sepa mejor y para tratar dolencias concretas, cada uno con su fórmula secreta. De aquellos mostradores de mármol salieron varias de las bebidas más vendidas del planeta. Y todavía se les nota el origen en el nombre y en la botella.",
     paginas: [
       {
         rotulo: "El mostrador",

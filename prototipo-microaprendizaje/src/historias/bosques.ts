@@ -149,7 +149,7 @@ export const BOSQUES: Short[] = [
     color: "var(--plum)",
     encargo: "Un bosque denso de árboles muy viejos con troncos caídos cubiertos de musgo.",
     entrada:
-      "Frontera entre Polonia y Bielorrusia, siglos XV a XX. Casi toda la llanura europea estuvo cubierta hace milenios por un bosque continuo que la agricultura fue comiéndose. De aquella masa original sobrevive un fragmento grande, y sobrevive por una razón poco romántica: fue durante siglos reserva de caza de reyes y zares, cerrada a la gente corriente bajo penas muy duras.",
+      "Frontera entre Polonia y Bielorrusia, siglos XV a XX. Casi toda la llanura europea estuvo cubierta hace milenios por un bosque continuo y enorme, del Atlántico a los Urales, que la agricultura fue comiéndose siglo a siglo hasta dejarlo en manchas. De aquella masa original sobrevive un fragmento grande y entero, y sobrevive por una razón nada romántica: fue durante siglos reserva de caza privada de reyes y de zares, cerrada a la gente corriente bajo penas muy duras. Lo que salvó aquel bosque fue el privilegio de unos pocos. Hoy sigue partido en dos por una valla y por una frontera.",
     paginas: [
       {
         rotulo: "Coto real",
