@@ -155,7 +155,7 @@ export const ESPEJOS: Short[] = [
     curioso: true,
     encargo: "Un texto escrito al revés reflejado en un cristal, legible en el reflejo.",
     entrada:
-      "Cualquier cuarto de baño, cualquier mañana del siglo XXI. Uno levanta la mano derecha y el reflejo parece levantar la izquierda. La explicación que se da normalmente es que el espejo invierte los lados, y no es cierto: si lo hiciera, también pondría los pies arriba. Lo que invierte es otro eje, y el resto lo hace el cerebro.",
+      "Cualquier cuarto de baño, cualquier mañana del siglo XXI. Uno levanta la mano derecha delante del espejo y el reflejo parece levantar la izquierda, y ahí se queda la cosa porque nadie le da más vueltas. La explicación que se da normalmente, incluso en algunos libros, es que el espejo invierte los lados. No es cierto, y se demuestra en un segundo: si el espejo invirtiera los lados, también tendría que poner los pies arriba y la cabeza abajo. Lo que invierte es otro eje, y el resto lo pone el cerebro.",
     paginas: [
       {
         rotulo: "El eje",

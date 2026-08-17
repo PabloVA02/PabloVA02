@@ -217,7 +217,7 @@ export const ESPANA: Short[] = [
     color: "var(--slate)",
     encargo: "Un lienzo enorme en blanco y negro visto de lado, con una sala vacía delante.",
     entrada:
-      "París, primavera de 1937. España lleva un año en guerra civil y el gobierno republicano ha encargado un cuadro grande para su pabellón en una exposición internacional. El pintor elegido, malagueño y ya famoso en medio mundo, lleva meses sin empezar. El 26 de abril, la aviación alemana bombardea un pueblo vasco en día de mercado y él encuentra por fin su asunto.",
+      "París, primavera de 1937. España lleva un año en guerra civil y el gobierno republicano ha encargado un cuadro grande para decorar su pabellón en una exposición internacional que va a ver medio mundo. El pintor elegido, malagueño y ya famoso en todas partes, ha cobrado un adelanto y lleva meses sin empezar, porque no encuentra el asunto y las fechas se le echan encima. El 26 de abril, la aviación alemana bombardea un pueblo vasco en día de mercado. Al leer los periódicos de París, el pintor encuentra por fin lo que buscaba.",
     paginas: [
       {
         rotulo: "El encargo",
