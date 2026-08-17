@@ -124,7 +124,7 @@ export const RAYOSX: Short[] = [
       },
     ],
     entrada:
-      "Estados Unidos y Europa, 1927. Se pone de moda en las zapaterías un mueble de madera con tres mirillas y un hueco abajo para meter los pies. Dentro hay un tubo de rayos X funcionando: el cliente asoma la cabeza y ve sus propios huesos moviéndose dentro del zapato nuevo, en verde fosforescente, y por las otras dos mirillas miran a la vez el vendedor y la madre. A todo el mundo le parece una maravilla del progreso, y durante treinta años nadie hace una sola pregunta incómoda sobre el aparato.",
+      "Estados Unidos y Europa, 1927. Se pone de moda en las zapaterías un mueble de madera con tres mirillas y un hueco abajo para meter los pies. Dentro hay un tubo de rayos X funcionando: el cliente asoma la cabeza y ve sus propios huesos moviéndose dentro del zapato nuevo, en verde fosforescente, y por las otras dos mirillas miran a la vez el vendedor y la madre. A todo el mundo le parece una maravilla del progreso, y durante treinta años nadie hace una sola pregunta incómoda sobre el aparato. Ni el vendedor, que está delante todo el día.",
     paginas: [
       {
         rotulo: "El mueble",

@@ -152,7 +152,7 @@ export const POSTALES: Short[] = [
     curioso: true,
     encargo: "Una mesa de taller con una postal en blanco y negro y pinceles finos de colores.",
     entrada:
-      "Suiza, finales del siglo XIX. Los primeros trenes de montaña y los grandes hoteles han traído un turismo que quiere llevarse una imagen del sitio, y la postal con vista responde a esa demanda. Pero la fotografía en color todavía no existe en las tiendas y no llegará hasta bien entrado el siglo XX. Así que aquellas vistas de colores que circulan por Europa no son fotografías en color.",
+      "Suiza, finales del siglo XIX. Los primeros trenes de montaña y los grandes hoteles han traído a los Alpes un turismo con dinero que quiere llevarse a casa una imagen del sitio donde ha estado, y la postal con vista responde exactamente a esa demanda. El problema es que la fotografía en color todavía no existe en ninguna tienda del mundo y no va a existir hasta bien entrado el siglo XX. Así que aquellas vistas a todo color que circulan por Europa no son, por mucho que lo parezcan, fotografías en color.",
     paginas: [
       {
         rotulo: "El taller",

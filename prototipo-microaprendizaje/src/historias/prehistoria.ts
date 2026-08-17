@@ -155,7 +155,7 @@ export const PREHISTORIA: Short[] = [
     curioso: true,
     encargo: "Unas brasas muy cerca, con la ceniza blanca cubriendo el rojo.",
     entrada:
-      "Hace entre un millón y ochocientos mil años, en África, algún grupo de antepasados nuestros empezó a acercar la comida al fuego. No fue un invento con fecha ni con autor, sino una costumbre que se fue extendiendo. Y de todas las cosas raras que ha hecho esta especie, esa es probablemente la que más nos cambió el cuerpo por dentro.",
+      "Hace entre un millón y ochocientos mil años, en algún punto de África, un grupo de antepasados nuestros empezó a acercar la comida al fuego antes de comérsela. No fue un invento con fecha, ni con autor, ni con un momento en que a alguien se le encendiera la bombilla: fue una costumbre que se fue extendiendo despacio de un grupo a otro. Y de todas las cosas raras que ha hecho esta especie a lo largo de su historia, esa es probablemente la que más nos cambió el cuerpo por dentro.",
     paginas: [
       {
         rotulo: "La cuenta de energía",
