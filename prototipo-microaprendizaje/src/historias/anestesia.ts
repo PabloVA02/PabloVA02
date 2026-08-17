@@ -153,7 +153,7 @@ export const ANESTESIA: Short[] = [
     curioso: true,
     encargo: "Una pantalla de monitor con una línea de onda irregular en verde sobre fondo oscuro.",
     entrada:
-      "En cualquier hospital del mundo, hoy. Un anestesista apaga la conciencia de una persona, la mantiene apagada durante horas y la vuelve a encender con una precisión notable. Lo hace millones de veces al año con una seguridad altísima. Y sin embargo, si se le pregunta qué ocurre exactamente en el cerebro para que eso pase, la respuesta honesta sigue siendo que no se sabe del todo.",
+      "En cualquier hospital del mundo, hoy mismo. Un anestesista apaga la conciencia de una persona, la mantiene apagada durante horas mientras la abren y la cosen, y la vuelve a encender con una precisión notable y a la hora prevista. Lo hace millones de veces al año, con una seguridad altísima y con un margen de error que ya quisieran otros oficios. Y sin embargo, si se le pregunta qué ocurre exactamente dentro del cerebro para que todo eso pase, la respuesta honesta que da la medicina sigue siendo que no se sabe del todo.",
     paginas: [
       {
         rotulo: "Grasa y proteína",

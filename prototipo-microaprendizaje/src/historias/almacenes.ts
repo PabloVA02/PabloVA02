@@ -152,7 +152,7 @@ export const ALMACENES: Short[] = [
     color: "var(--ochre)",
     encargo: "Repartidor con un carro de paquetes en una calle estrecha de casco antiguo.",
     entrada:
-      "Ciudades de todo el mundo, con el problema estudiado en serio desde el año 2000. Mover un contenedor desde Asia hasta un puerto europeo cuesta unos céntimos por cada objeto que lleva dentro. Llevar ese mismo objeto desde el almacén de las afueras hasta una puerta concreta cuesta varios euros. Ese último tramo se lleva alrededor de la mitad del coste total del envío.",
+      "Ciudades de todo el mundo, con el problema estudiado en serio desde el año 2000. Mover un contenedor desde una fábrica de Asia hasta un puerto europeo, once mil kilómetros de barco, cuesta unos céntimos por cada objeto que lleva dentro. Llevar ese mismo objeto desde el almacén de las afueras hasta una puerta concreta de un cuarto piso sin ascensor cuesta varios euros. Ese último tramo, que son cinco o seis kilómetros de nada, se lleva alrededor de la mitad del coste total del envío. Y es el tramo que menos ha mejorado en un siglo.",
     paginas: [
       {
         rotulo: "El cuello",

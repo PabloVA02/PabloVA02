@@ -147,7 +147,7 @@ export const ANDAMIOS: Short[] = [
     color: "var(--ochre)",
     encargo: "Primer plano de una grapa de andamio agarrando dos tubos de acero en cruz.",
     entrada:
-      "Reino Unido, 1913. Los andamios se siguen atando con cuerda, igual que en la Edad Media, y cada obra depende de que el montador sepa hacer bien el nudo. Un empresario del sector se da cuenta de que si las uniones fueran piezas iguales y atornillables, cualquiera podría montar un andamio seguro. Compra tubos de acero baratos y diseña una grapa que los agarra en cruz.",
+      "Reino Unido, 1913. Los andamios se siguen atando con cuerda, igual que en la Edad Media, y cada obra depende por completo de que el montador sepa hacer bien el nudo y de que lo haga bien ese día. Si el nudo falla, se cae el andamio y se caen los hombres que hay encima. Un empresario del sector se da cuenta de que si las uniones fueran piezas iguales y atornillables, cualquiera podría montar un andamio seguro sin depender del oficio de nadie. Compra tubos de acero baratos y diseña una grapa que los agarra en cruz.",
     paginas: [
       {
         rotulo: "La pieza clave",
