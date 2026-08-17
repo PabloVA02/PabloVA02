@@ -214,6 +214,26 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "existencialismo-humanismo": {
+    archivo: "Van Gogh - Terrace of a Café at Night (Place du Forum) 1888.jpg",
+    autor: "Terraza de café por la noche, óleo de Vincent van Gogh, 1888. Museo Kröller-Müller, Otterlo.",
+    licencia: "Public domain",
+    pdPorEdad: 1890,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AVan%20Gogh%20-%20Terrace%20of%20a%20Caf%C3%A9%20at%20Night%20(Place%20du%20Forum)%201888.jpg",
+    foco: "45% 45%",
+    alt: "La terraza amarilla de un café iluminada de noche, bajo un cielo azul lleno de estrellas.",
+  },
+
+  tao: {
+    archivo: "1 yangshuo mountain retreat 2011.jpg",
+    autor: "Montañas kársticas reflejadas en el río, en Yangshuo, China. Fotografía de chensiyuan.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3A1%20yangshuo%20mountain%20retreat%202011.jpg",
+    foco: "50% 40%",
+    alt: "Picos verdes en punta reflejados en un río quieto, entre cañas y bambú.",
+  },
+
   "deep-work": {
     archivo: "Getaway (Unsplash).jpg",
     autor: "Cabaña de troncos entre pinos nevados. Fotografía de Wesley Tingey, 2016.",
