@@ -214,6 +214,24 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "siete-lecciones-fisica": {
+    archivo: "Eagletail Mountains Wilderness - Milky Way.jpg",
+    autor: "La Vía Láctea sobre las montañas Eagletail, en Arizona. Fotografía de Jim Vajda, 2020.",
+    licencia: "CC BY 2.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AEagletail%20Mountains%20Wilderness%20-%20Milky%20Way.jpg",
+    foco: "50% 40%",
+    alt: "La banda de la Vía Láctea cruzando el cielo sobre unas rocas del desierto.",
+  },
+
+  "zonas-azules": {
+    archivo: "Coral Reef Under the Ocean.jpg",
+    autor: "Arrecife visto desde arriba, con el agua turquesa. Fotografía de 2025.",
+    licencia: "CC BY-SA 3.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ACoral%20Reef%20Under%20the%20Ocean.jpg",
+    foco: "50% 55%",
+    alt: "Manchas oscuras de coral bajo un agua turquesa muy clara.",
+  },
+
   "cuchara-menguante": {
     archivo: "Amethyst crystals with hematite inclusions 5.jpg",
     autor: "Cristales de amatista con inclusiones de hematites. Fotografía de James St. John, 2024.",
