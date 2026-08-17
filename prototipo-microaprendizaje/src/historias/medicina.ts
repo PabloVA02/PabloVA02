@@ -193,7 +193,7 @@ export const MEDICINA: Short[] = [
     color: "var(--forest)",
     encargo: "Una placa de laboratorio con una mancha de moho verdoso y un halo limpio alrededor.",
     entrada:
-      "Londres, septiembre de 1928. Un médico escocés vuelve de un mes de vacaciones y encuentra su laboratorio tal y como lo dejó: desordenado, con placas de cultivo apiladas junto a la ventana. Trabaja con una bacteria que provoca infecciones y había dejado colonias creciendo antes de marcharse. Al mirarlas ve que una está contaminada por un moho, y que a su alrededor no crece absolutamente nada.",
+      "Londres, septiembre de 1928. Un médico escocés vuelve de un mes de vacaciones y encuentra su laboratorio tal y como lo había dejado: desordenado, con placas de cultivo apiladas junto a la ventana y sin lavar. Trabaja con una bacteria que provoca infecciones y había dejado colonias creciendo antes de marcharse, sin taparlas del todo. Al mirarlas de vuelta ve que una de ellas está contaminada por un moho que ha entrado por el aire, y que alrededor de ese moho no crece absolutamente nada. Hay un círculo limpio en mitad de la placa.",
     paginas: [
       {
         rotulo: "El moho",
@@ -253,7 +253,7 @@ export const MEDICINA: Short[] = [
     color: "var(--clay)",
     encargo: "Un velero del XIX visto desde el muelle, con el mar picado y cielo bajo.",
     entrada:
-      "La Coruña, noviembre de 1803. La viruela mata cada año a cientos de miles de personas en el imperio español y desde hace siete años existe una vacuna que funciona. El problema es llevarla: es un líquido que se estropea en pocos días y a América se tarda dos meses de navegación. Un médico militar propone al rey una solución incómoda.",
+      "La Coruña, noviembre de 1803. La viruela mata cada año a cientos de miles de personas en el imperio español y desde hace siete años existe una vacuna que funciona y que se ha demostrado que funciona. El problema no es científico sino de transporte: la vacuna es un líquido que se estropea en pocos días y hasta América se tardan dos meses de navegación, con lo cual llega muerta. Un médico militar le propone entonces al rey una solución que resuelve el problema y que hoy resulta muy incómoda de leer.",
     paginas: [
       {
         rotulo: "La cadena viva",

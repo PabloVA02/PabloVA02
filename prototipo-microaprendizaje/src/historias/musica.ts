@@ -164,7 +164,7 @@ export const MUSICA: Short[] = [
     curioso: true,
     encargo: "Un diapasón metálico apoyado sobre una partitura antigua.",
     entrada:
-      "Antes de un concierto, el oboe toca un la y toda la orquesta se afina a él. Ese la vibra hoy a 440 hercios en casi todo el mundo. Pero no hay nada en la física que obligue a ese número: es una convención, se acordó en el siglo XX y durante los trescientos años anteriores cada ciudad afinaba a su aire.",
+      "Antes de empezar un concierto, el oboe toca un la y toda la orquesta se afina a él. Ese la vibra hoy a 440 hercios en casi todo el mundo, y suena igual en Tokio que en Sevilla. Pero no hay nada en la física ni en la naturaleza que obligue a ese número concreto: es una convención, se acordó en pleno siglo XX después de mucha pelea, y durante los trescientos años anteriores cada ciudad, cada iglesia y cada orquesta afinaban a su aire, con lo que la misma partitura sonaba distinta según dónde se tocara.",
     paginas: [
       {
         rotulo: "La deriva",
