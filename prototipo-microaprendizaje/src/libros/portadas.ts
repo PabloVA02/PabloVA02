@@ -214,6 +214,34 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "capital-siglo-xxi": {
+    archivo: "Bank of England Building, City of London (Southwest View - 01).jpg",
+    autor: "El edificio del Banco de Inglaterra, en la City de Londres. Fotografía de 2022.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ABank%20of%20England%20Building%2C%20City%20of%20London%20(Southwest%20View%20-%2001).jpg",
+    foco: "45% 45%",
+    alt: "La fachada de piedra con columnas de un banco antiguo, con torres de cristal detrás.",
+  },
+
+  "riqueza-naciones": {
+    archivo: "Spices on Spice Bazaar in Istanbul 02.jpg",
+    autor: "Montones de especias en el Bazar de las Especias de Estambul. Fotografía de Miomir Magdevski, 2019.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASpices%20on%20Spice%20Bazaar%20in%20Istanbul%2002.jpg",
+    foco: "45% 55%",
+    alt: "Pirámides de especias rojas, naranjas y amarillas alineadas en un puesto de mercado.",
+  },
+
+  "repensar-pobreza": {
+    archivo: "Well-earned cash (Unsplash).jpg",
+    autor: "Manos contando billetes en un mercado. Fotografía de Niels Steeman, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AWell-earned%20cash%20(Unsplash).jpg",
+    foco: "55% 50%",
+    alt: "Unas manos gastadas sujetando un fajo de billetes pequeños y arrugados.",
+  },
+
   feynman: {
     archivo: "CERN LHC ATLAS Detector.jpg",
     autor: "El detector ATLAS del Gran Colisionador de Hadrones, en el CERN. Fotografía de 2019.",
