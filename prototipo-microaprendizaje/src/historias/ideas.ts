@@ -3,11 +3,11 @@ import type { Short } from "../shorts";
 /* ==========================================================================
    Ideas.
 
-   Los temas que pidió Pablo, escritos con la regla que él mismo puso: que el
-   título diga QUÉ vas a leer, no que suene bien y te deje igual. «Por qué
-   llueve» no engancha porque parece que ya lo sabes; «Por qué llueve de
-   verdad» avisa de que lo que crees saber está incompleto, que es lo que
-   hace que alguien siga leyendo.
+   Los temas que pidió Pablo, con los títulos que él quiere: tajantes y
+   dichos como los diría cualquiera. «Por qué llueve», y no «Por qué llueve
+   de verdad»; «¿Es el universo infinito?», y no «Dónde acaba el universo».
+   La pregunta directa gana a la frase ingeniosa, porque el lector ya sabe si
+   le interesa antes de terminar de leerla.
 
    Aquí va UNA sola fotografía, la de la portada, y las páginas interiores
    salen con su cartel. Es una prueba a propósito: ver cuánto aguanta un short
@@ -20,7 +20,7 @@ import type { Short } from "../shorts";
 export const IDEAS: Short[] = [
   {
     id: "al-sol-le-queda-media-vida",
-    titulo: "Al sol le queda media vida",
+    titulo: "¿Cuánto le queda al sol?",
     gancho:
       "No se apagará como una bombilla: se hinchará hasta tragarse la órbita de la Tierra, y eso empieza mucho antes.",
     categoria: "Ciencia",
@@ -64,7 +64,7 @@ export const IDEAS: Short[] = [
 
   {
     id: "que-sostiene-a-un-avion",
-    titulo: "Qué sostiene a un avión",
+    titulo: "Por qué vuelan los aviones",
     gancho:
       "La explicación del ala que se aprende en el colegio está mal, y lo que de verdad lo sostiene es más simple.",
     categoria: "Ciencia",
@@ -106,7 +106,7 @@ export const IDEAS: Short[] = [
 
   {
     id: "donde-acaba-el-universo",
-    titulo: "Dónde acaba el universo",
+    titulo: "¿Es el universo infinito?",
     gancho:
       "Que veamos hasta un límite no significa que ahí se acabe. Es exactamente lo mismo que pasa con el horizonte del mar.",
     categoria: "Ciencia",
@@ -148,7 +148,7 @@ export const IDEAS: Short[] = [
 
   {
     id: "por-que-llueve-de-verdad",
-    titulo: "Por qué llueve de verdad",
+    titulo: "Por qué llueve",
     gancho:
       "El vapor no basta para formar una gota. Casi toda la lluvia necesita una mota de polvo, de sal o de bacteria.",
     categoria: "Ciencia",
