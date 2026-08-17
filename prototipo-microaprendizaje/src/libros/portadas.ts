@@ -214,6 +214,34 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "aliento-aire": {
+    archivo: "Brooklyn Bridge Sunrise Fog (Unsplash).jpg",
+    autor: "El puente de Brooklyn entre la niebla del amanecer. Fotografía de Emanuel Hahn, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ABrooklyn%20Bridge%20Sunrise%20Fog%20(Unsplash).jpg",
+    foco: "45% 50%",
+    alt: "Un puente y unos rascacielos casi borrados por la niebla, sobre el agua quieta.",
+  },
+
+  "vivir-plenitud": {
+    archivo: "POP House Meditaiton Center Thailand, Khlong Luang , Thailand (Unsplash).jpg",
+    autor: "Meditación sentada junto a un estanque, en Khlong Luang (Tailandia). Fotografía de 2017.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3APOP%20House%20Meditaiton%20Center%20Thailand%2C%20Khlong%20Luang%20%2C%20Thailand%20(Unsplash).jpg",
+    foco: "55% 50%",
+    alt: "Una persona sentada de perfil sobre una tarima de madera, con el verde del bosque detrás.",
+  },
+
+  "come-comida-real": {
+    archivo: "Fresh Veggies (Unsplash).jpg",
+    autor: "Zanahorias y puerros en un puesto de mercado. Fotografía de Peter Wendt, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AFresh%20Veggies%20(Unsplash).jpg",
+    foco: "62% 55%",
+    alt: "Montones de zanahorias naranjas y puerros recién lavados en cajas de madera.",
+  },
+
   "busca-sentido": {
     archivo: "LIGHTHOUSE between Milkyway (Unsplash).jpg",
     autor: "Un faro encendido bajo la Vía Láctea. Fotografía de Robert Wiedemann, 2016.",
