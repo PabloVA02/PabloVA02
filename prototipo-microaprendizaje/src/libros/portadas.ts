@@ -214,6 +214,45 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "busca-sentido": {
+    archivo: "LIGHTHOUSE between Milkyway (Unsplash).jpg",
+    autor: "Un faro encendido bajo la Vía Láctea. Fotografía de Robert Wiedemann, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ALIGHTHOUSE%20between%20Milkyway%20(Unsplash).jpg",
+    foco: "35% 50%",
+    alt: "Un faro en la orilla lanzando su haz de luz hacia un cielo violeta lleno de estrellas.",
+  },
+
+  "elegancia-erizo": {
+    archivo: "Classic literature bookcase (Unsplash).jpg",
+    autor: "Estanterías con libros de literatura clásica. Fotografía de Dakota Corbin, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AClassic%20literature%20bookcase%20(Unsplash).jpg",
+    foco: "50% 45%",
+    alt: "Baldas de madera llenas de libros de lomos gastados, de todos los colores.",
+  },
+
+  "sentirse-bien": {
+    archivo: "Clouds mirrored in a mountain lake (Unsplash).jpg",
+    autor: "Nubes reflejadas en un lago de montaña. Fotografía de Ales Krivec, 2015.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AClouds%20mirrored%20in%20a%20mountain%20lake%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "Un lago liso entre montañas que devuelve el reflejo de las nubes blancas.",
+  },
+
+  "etica-amador": {
+    archivo: "Van Dyck, Sir Anthony - Sunset Landscape with a Shepherd and his Flock - Google Art Project.jpg",
+    autor: "Paisaje al atardecer con un pastor y su rebaño, óleo atribuido a Anton van Dyck, hacia 1620.",
+    licencia: "Public domain",
+    pdPorEdad: 1641,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AVan%20Dyck%2C%20Sir%20Anthony%20-%20Sunset%20Landscape%20with%20a%20Shepherd%20and%20his%20Flock%20-%20Google%20Art%20Project.jpg",
+    foco: "35% 50%",
+    alt: "Un pastor tumbado con su rebaño en un claro, con árboles y montes al fondo.",
+  },
+
   "steve-jobs": {
     archivo: "Trinamic TMC2209 stepper motor controller board.jpg",
     autor: "Detalle de una placa de circuito impreso con su chip. Fotografía de Phiarc, 2023.",
