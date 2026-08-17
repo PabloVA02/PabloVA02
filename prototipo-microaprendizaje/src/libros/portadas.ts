@@ -214,6 +214,36 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "cisne-negro": {
+    archivo: "2025-11-02 Black swan in Parque Dom Carlos I.jpg",
+    autor: "Cisne negro en un estanque del Parque Dom Carlos I, en Portugal. Fotografía de 2025.",
+    licencia: "CC BY 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3A2025-11-02%20Black%20swan%20in%20Parque%20Dom%20Carlos%20I.jpg",
+    foco: "45% 40%",
+    alt: "Un cisne negro de pico rojo nadando entre juncos, sobre agua verde.",
+  },
+
+  "hombre-rico-babilonia": {
+    archivo:
+      "Ishtar Gate, Babylon, ca. 575 BCE, built by Nebuchadnezzar II; Pergamon Museum, Berlin (5) (40208356302).jpg",
+    autor: "La puerta de Ishtar de Babilonia, hacia 575 a. C. Museo de Pérgamo, Berlín.",
+    licencia: "CC BY 2.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AIshtar%20Gate%2C%20Babylon%2C%20ca.%20575%20BCE%2C%20built%20by%20Nebuchadnezzar%20II%3B%20Pergamon%20Museum%2C%20Berlin%20(5)%20(40208356302).jpg",
+    foco: "25% 45%",
+    alt: "Muro de ladrillos vidriados azules con toros dorados en relieve, uno encima de otro.",
+  },
+
+  mindset: {
+    archivo: "Alpenglow Over the Pulag Grasslands.jpg",
+    autor: "Fila de excursionistas subiendo por los pastizales del monte Pulag, en Filipinas. Fotografía de 2026.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AAlpenglow%20Over%20the%20Pulag%20Grasslands.jpg",
+    foco: "50% 55%",
+    alt: "Una hilera de gente subiendo por un sendero abierto entre hierba dorada, hacia la cima.",
+  },
+
   mandela: {
     archivo: "Clouds in the drakensberge 01.jpg",
     autor: "Nubes subiendo por las montañas Drakensberg, en Sudáfrica. Fotografía de Thomas Fuhrmann, 2023.",
