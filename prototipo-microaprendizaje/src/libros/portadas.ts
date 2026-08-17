@@ -214,6 +214,34 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  sapiens: {
+    archivo: "Reproduction cave of Altamira 01.jpg",
+    autor: "Bisontes del techo de Altamira, pintados hace unos 15.000 años. Fotografía de la reproducción del museo.",
+    licencia: "CC BY 2.5",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AReproduction%20cave%20of%20Altamira%2001.jpg",
+    foco: "50% 45%",
+    alt: "Bisontes pintados en ocre y negro sobre la roca abombada de una cueva.",
+  },
+
+  "si-esto-hombre": {
+    archivo: "Krabyskogbjørkefelt.jpg",
+    autor: "Bosque de abedules en invierno, en Noruega. Fotografía de Øyvind Holmstad, 2025.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AKrabyskogbj%C3%B8rkefelt.jpg",
+    foco: "50% 50%",
+    alt: "Troncos blancos de abedul repetidos hasta el fondo, en un bosque nevado.",
+  },
+
+  "homo-sovieticus": {
+    archivo: "Moscow metro Park Pobedy station (12239412166).jpg",
+    autor: "Estación de Park Pobedy, en el metro de Moscú. Fotografía de Artem Svetlov, 2014.",
+    licencia: "CC BY 2.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AMoscow%20metro%20Park%20Pobedy%20station%20(12239412166).jpg",
+    foco: "45% 50%",
+    alt: "Andén de metro con pilares de mármol naranja y un tren entrando al fondo.",
+  },
+
   "infinito-junco": {
     archivo: "Cyperus papyrus kz07.jpg",
     autor: "Papiro (Cyperus papyrus), la planta con la que se hicieron los primeros libros. Fotografía de Krzysztof Ziarnek, 2022.",
