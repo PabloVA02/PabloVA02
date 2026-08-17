@@ -150,7 +150,7 @@ export const PLATA: Short[] = [
     curioso: true,
     encargo: "Una cuchara de plata ennegrecida junto a otra recién pulida, sobre paño blanco.",
     entrada:
-      "Cualquier cajón con cubertería de plata, y lo mismo desde el siglo VII antes de Cristo. Un objeto de plata guardado sin usar se cubre de una capa oscura que parece suciedad y no lo es. La plata no se oxida con el aire como el hierro; lo que la ennegrece es otra cosa, y explica de paso una superstición que duró siglos en las mesas de los reyes.",
+      "Cualquier cajón con cubertería de plata, y lo mismo desde el siglo VII antes de Cristo. Un objeto de plata guardado sin usar durante unos meses se cubre de una capa oscura, entre marrón y negra, que parece suciedad de tanto tiempo cerrado y no lo es en absoluto. La plata no se oxida con el aire como hace el hierro; lo que la ennegrece es otra cosa distinta, y esa cosa explica de paso una superstición que duró siglos en las mesas de los reyes y de los papas. La culpa la tiene el azufre, no el aire.",
     paginas: [
       {
         rotulo: "El azufre",

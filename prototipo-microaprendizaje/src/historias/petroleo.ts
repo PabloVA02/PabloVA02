@@ -153,7 +153,7 @@ export const PETROLEO: Short[] = [
     curioso: true,
     encargo: "Un bombeo de varilla oxidado moviéndose en un campo seco al atardecer.",
     entrada:
-      "Estados Unidos, 1919. El servicio geológico del país publica un informe según el cual las reservas nacionales de petróleo se agotarán en nueve años. La predicción es seria, la firma gente competente y se toma en serio en todas partes. Un siglo después, aquel país produce más petróleo que nunca. La historia se ha repetido con distintas fechas cada dos décadas.",
+      "Estados Unidos, 1919. El servicio geológico del país publica un informe según el cual las reservas nacionales de petróleo se agotarán en nueve años, así de claro y así de pronto. La predicción es seria, la firma gente competente que sabe lo que hace y se toma en serio en los gobiernos y en las bolsas de medio mundo. Un siglo después, aquel país produce más petróleo que en ningún momento de su historia. Y la historia se ha repetido, con distintas fechas y distintos firmantes, cada dos décadas. El error no estaba en la geología, sino en dar por fija una cifra que se mueve.",
     paginas: [
       {
         rotulo: "El error",

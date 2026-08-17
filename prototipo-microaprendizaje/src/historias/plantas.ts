@@ -161,7 +161,7 @@ export const PLANTAS: Short[] = [
     curioso: true,
     encargo: "Un bosque de álamos temblones de troncos blancos, hojas amarillas, luz de otoño.",
     entrada:
-      "En el centro de Utah hay un bosque de álamo temblón de unas cuarenta y tres hectáreas. Visto desde fuera son decenas de miles de árboles blancos idénticos. Bajo tierra son todos el mismo organismo: un único sistema de raíces que va sacando troncos nuevos. Se llama Pando, «me extiendo» en latín, y es de los seres vivos más pesados que se conocen.",
+      "En el centro de Utah hay un bosque de álamo temblón de unas cuarenta y tres hectáreas, que es más o menos lo que ocupan sesenta campos de fútbol. Visto desde fuera son decenas de miles de árboles blancos idénticos entre sí, uno al lado de otro. Bajo tierra son todos exactamente el mismo organismo: un único sistema de raíces que lleva milenios sacando troncos nuevos. Se llama Pando, que en latín significa me extiendo, y es de los seres vivos más pesados que se conocen. Y lleva veinte años muriéndose sin que nadie lo note desde la carretera.",
     paginas: [
       {
         rotulo: "Un solo individuo",

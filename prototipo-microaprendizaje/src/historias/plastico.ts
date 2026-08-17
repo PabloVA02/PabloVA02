@@ -154,7 +154,7 @@ export const PLASTICO: Short[] = [
     curioso: true,
     encargo: "Un recipiente de plástico translúcido de los años cincuenta sobre un mantel de cuadros.",
     entrada:
-      "Estados Unidos, 1946. Un inventor que trabajaba en una fábrica de plásticos saca al mercado unos recipientes de cocina con una idea nueva: una tapa que se cierra a presión, como la de un bote de pintura, y deja el aire fuera. En una época sin frigorífico en muchas casas, aquello alarga días la vida de la comida. No los compra prácticamente nadie.",
+      "Estados Unidos, 1946. Un inventor que trabajaba en una fábrica de plásticos saca al mercado unos recipientes de cocina con una idea nueva y bien resuelta: una tapa que se cierra a presión, como la de un bote de pintura, y que deja el aire fuera de verdad. En una época en la que muchas casas todavía no tienen frigorífico, aquello alarga varios días la vida de la comida y ahorra dinero de verdad. Está bien hecho, es barato y funciona. Y no lo compra prácticamente nadie. El fallo no estaba en el producto: estaba en el mostrador de la tienda.",
     paginas: [
       {
         rotulo: "El problema",

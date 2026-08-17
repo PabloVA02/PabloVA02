@@ -149,7 +149,7 @@ export const PILAS: Short[] = [
     curioso: true,
     encargo: "Contenedor de recogida de pilas usadas, lleno hasta arriba de modelos distintos.",
     entrada:
-      "Europa, con la directiva sobre pilas en vigor desde 2006. Todo el mundo ha oído que una pila de botón contamina miles de litros de agua, y esa cifra concreta viene de un cálculo antiguo y discutible. El problema de fondo sigue siendo cierto, porque una pila lleva metales que no desaparecen. Y lo que de verdad falla no es la conciencia, sino la recogida.",
+      "Europa, con la directiva sobre pilas en vigor desde 2006. Todo el mundo ha oído alguna vez que una sola pila de botón contamina miles y miles de litros de agua, y esa cifra tan concreta que se repite en los colegios viene de un cálculo antiguo y bastante discutible. El problema de fondo sigue siendo cierto, porque una pila lleva dentro metales que no desaparecen solos. Pero lo que de verdad falla en todo esto no es la conciencia de la gente, sino la recogida. Se recoge menos de la mitad de lo que se vende, y el resto está en un cajón.",
     paginas: [
       {
         rotulo: "La cifra",
