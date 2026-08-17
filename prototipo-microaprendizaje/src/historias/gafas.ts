@@ -155,7 +155,7 @@ export const GAFAS: Short[] = [
     color: "var(--plum)",
     encargo: "Un expositor de ópticas con decenas de monturas colgadas en fila.",
     entrada:
-      "Italia, 1961. Un huérfano que empezó a trabajar a los catorce años en una fábrica de moldes monta un taller de piezas para monturas de gafas en un pueblo pequeño del norte del país, en una zona donde ese oficio venía de lejos. Hace bisagras, patillas y tornillos para otros. Sesenta años después, aquel taller se ha convertido en el grupo que fabrica una parte enorme de todas las gafas que se venden en el mundo, y que además es dueño de las tiendas donde se compran. Fabrica la montura, la lente, la marca y la tienda donde se compra.",
+      "Italia, 1961. Un huérfano que empezó a trabajar a los catorce años en una fábrica de moldes monta un taller de piezas para monturas de gafas en un pueblo pequeño del norte del país, en una zona donde ese oficio venía de lejos. Hace bisagras, patillas y tornillos por encargo para otros. Sesenta años después, aquel taller se ha convertido en el grupo que fabrica una parte enorme de todas las gafas que se venden en el mundo, incluidas las de casi todas las marcas de lujo que uno se imagina, y que además es dueño de las cadenas de ópticas donde se compran.",
     paginas: [
       {
         rotulo: "La cadena entera",
