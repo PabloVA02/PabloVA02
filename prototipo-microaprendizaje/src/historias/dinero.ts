@@ -160,7 +160,7 @@ export const DINERO: Short[] = [
     curioso: true,
     encargo: "Una moneda de plata antigua, muy gastada, sobre paño oscuro.",
     entrada:
-      "En 1520, en un valle de Bohemia llamado Joachimsthal —el valle de San Joaquín, hoy Jáchymov, en la República Checa—, se abrió una mina de plata tan productiva que empezó a acuñar su propia moneda grande. La llamaron <em>Joachimsthaler</em>. El nombre era largo, la gente lo acortó a <em>thaler</em>, y de ahí ha salido casi todo lo demás.",
+      "En 1520, en un valle de Bohemia llamado Joachimsthal, el valle de San Joaquín, que hoy se llama Jáchymov y está en la República Checa, se abrió una mina de plata tan productiva que los condes del sitio empezaron a acuñar allí su propia moneda grande. La llamaron Joachimsthaler, que quiere decir simplemente la del valle de Joaquín. El nombre era largo de decir, la gente lo acortó enseguida a thaler, y de esa abreviatura de mercado ha salido casi todo lo demás, incluida la moneda que hoy manda en el mundo.",
     paginas: [
       {
         rotulo: "La cadena",
@@ -193,7 +193,7 @@ export const DINERO: Short[] = [
     curioso: true,
     encargo: "Unos tulipanes rayados de rojo y blanco sobre fondo oscuro, estilo bodegón antiguo.",
     entrada:
-      "Holanda, invierno de 1636. El país es el más rico de Europa y por sus puertos entra de todo, incluida una flor traída de Turquía que allí no crecía: el tulipán. Los más caros son los que salen con las pétalos rayados de dos colores, y nadie sabe entonces por qué salen así. Cuestan más que una casa junto a un canal.",
+      "Holanda, invierno de 1636. El país es el más rico de Europa y por sus puertos entra de todo, incluida una flor traída de Turquía que allí no crecía de forma natural: el tulipán. Se pone de moda entre la gente con dinero y en pocos años hay un mercado montado alrededor de los bulbos. Los más caros de todos son los que salen con los pétalos rayados de dos colores, y nadie sabe entonces por qué salen así ni cómo conseguir que se repitan. Uno solo de esos bulbos cuesta más que una casa junto a un canal.",
     paginas: [
       {
         rotulo: "El virus bonito",
@@ -223,7 +223,7 @@ export const DINERO: Short[] = [
     color: "var(--slate)",
     encargo: "Un cartel de «se vende» torcido delante de una casa vacía de las afueras.",
     entrada:
-      "Estados Unidos, verano de 2007. Durante casi diez años los bancos han dado hipotecas a gente sin ingresos estables ni ahorros, con la idea de que las casas siempre suben y de que, si alguien no paga, se vende el piso y en paz. Los precios llevan meses cayendo. Y entonces se descubre que esa deuda está repartida por medio mundo.",
+      "Estados Unidos, verano de 2007. Durante casi diez años los bancos han estado dando hipotecas a gente sin ingresos estables ni ahorros, con la idea de que las casas siempre suben y de que, si alguien deja de pagar, se vende el piso y no pasa nada. Era un razonamiento que a nadie le convenía discutir mientras funcionara. Los precios llevan ya varios meses cayendo. Y entonces se descubre que esa deuda no se quedó en los bancos que la concedieron, sino que está repartida por medio mundo y nadie sabe muy bien dónde.",
     paginas: [
       {
         rotulo: "El paquete",
@@ -254,7 +254,7 @@ export const DINERO: Short[] = [
     curioso: true,
     encargo: "Un billete antiguo de papel de morera con caracteres impresos en tinta negra.",
     entrada:
-      "China, siglo VII. Los comerciantes que recorren el país cargan sacos de monedas de cobre atadas con cuerdas, y una cantidad grande pesa tanto que hacen falta carros y guardias para moverla. A alguien se le ocurre dejar las monedas depositadas en una casa de confianza y llevar en su lugar un recibo escrito. Ese recibo es el primer billete de la historia.",
+      "China, siglo VII. Los comerciantes que recorren el país cargan sacos de monedas de cobre atadas con cuerdas, y una cantidad grande pesa tanto que hacen falta carros, animales y guardias para moverla de una ciudad a otra. Llevar dinero encima es, literalmente, cargar peso. A alguien se le ocurre entonces dejar las monedas depositadas en una casa de confianza y llevarse en su lugar un recibo escrito que dice cuánto hay guardado y a nombre de quién. Ese recibo, que pesa lo que pesa un papel, es el primer billete de la historia.",
     paginas: [
       {
         rotulo: "Del recibo al billete",

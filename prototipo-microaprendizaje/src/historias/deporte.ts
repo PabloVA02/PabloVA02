@@ -224,7 +224,7 @@ export const DEPORTE: Short[] = [
     color: "var(--forest)",
     encargo: "Un foso de salto de longitud con la arena rastrillada y una pista de ceniza al lado.",
     entrada:
-      "Berlín, agosto de 1936. Alemania organiza unos Juegos Olímpicos pensados como demostración de la superioridad de una raza sobre las demás: banderas por toda la ciudad, un estadio nuevo para cien mil personas y una película encargada para la posteridad. Entre los atletas invitados hay un estadounidense negro, hijo de aparceros y nieto de esclavos, que corre y salta como nadie.",
+      "Berlín, agosto de 1936. Alemania organiza unos Juegos Olímpicos pensados como demostración de la superioridad de una raza sobre todas las demás: banderas colgadas por toda la ciudad, un estadio nuevo para cien mil personas y una película encargada de antemano para la posteridad. El régimen lleva tres años en el poder y quiere enseñarle al mundo una cara amable. Entre los atletas invitados hay un estadounidense negro, hijo de aparceros y nieto de esclavos, que corre y salta como no lo ha hecho nadie hasta entonces. Va a ganar cuatro medallas de oro en una semana.",
     paginas: [
       {
         rotulo: "El salto nulo",
@@ -254,7 +254,7 @@ export const DEPORTE: Short[] = [
     color: "var(--slate)",
     encargo: "Un balón de fútbol de los ochenta sobre césped seco, con la sombra alargada.",
     entrada:
-      "Ciudad de México, 22 de junio de 1986. Se juega un cuartos de final del Mundial entre Argentina e Inglaterra, cuatro años después de que los dos países se hubieran hecho la guerra por unas islas del Atlántico sur. Hay ciento catorce mil personas en el estadio y treinta grados a mediodía. En el minuto cincuenta y uno pasa lo primero.",
+      "Ciudad de México, 22 de junio de 1986. Se juega un cuartos de final del Mundial entre Argentina e Inglaterra, cuatro años después de que los dos países se hubieran hecho la guerra por unas islas del Atlántico sur. Nadie en las dos plantillas quiere hablar de eso delante de la prensa, pero está ahí. Hay ciento catorce mil personas en el estadio, treinta grados a mediodía y un sol que cae a plomo sobre el césped. En el minuto cincuenta y uno de partido pasa lo primero de las dos cosas por las que se recuerda esa tarde.",
     paginas: [
       {
         rotulo: "El puño",
