@@ -214,6 +214,33 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "habitos-atomicos": {
+    archivo: "Ocean waves rippling (Unsplash).jpg",
+    autor: "Rizos de agua en la superficie del mar al atardecer. Fotografía de Tim Marshall, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AOcean%20waves%20rippling%20(Unsplash).jpg",
+    foco: "50% 55%",
+    alt: "Miles de rizos pequeños de agua repitiéndose hasta el horizonte.",
+  },
+
+  "chico-pijama": {
+    archivo: "Countryside Railway (Unsplash).jpg",
+    autor: "Vía de tren perdiéndose entre el campo. Fotografía de Thong Vo, 2014.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ACountryside%20Railway%20(Unsplash).jpg",
+    foco: "50% 55%",
+    alt: "Dos raíles rectos sobre la grava que se juntan a lo lejos, con una valla al lado.",
+  },
+
+  "vida-dali": {
+    archivo: "Evening at Cap de Creus 01 ms.jpg",
+    autor: "Atardecer en el cabo de Creus, en el Ampurdán. Fotografía de Manfred Schulenburg, 2017.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AEvening%20at%20Cap%20de%20Creus%2001%20ms.jpg",
+    foco: "45% 45%",
+    alt: "Nubes lenticulares naranjas suspendidas sobre la silueta negra de un monte.",
+  },
+
   "bernarda-alba": {
     archivo: "1000 Three domes of Oia in Santorini Photo by Giles Laurent.jpg",
     autor: "Casas encaladas de Oía, en Santorini. Fotografía de Giles Laurent, 2025.",
