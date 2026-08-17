@@ -214,6 +214,58 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "madame-bovary": {
+    archivo: "Carl Holsøe - Interiør med læsende kvinde ved vinduet.png",
+    autor: "Interior con mujer leyendo junto a la ventana, óleo de Carl Holsøe.",
+    licencia: "Public domain",
+    pdPorEdad: 1935,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ACarl%20Hols%C3%B8e%20-%20Interi%C3%B8r%20med%20l%C3%A6sende%20kvinde%20ved%20vinduet.png",
+    foco: "62% 45%",
+    alt: "Una mujer sentada de espaldas lee junto a una ventana encalada, en un salón de paredes rojas.",
+  },
+
+  "orgullo-prejuicio": {
+    archivo: "Chatsworth House 2014 12 08 3 Chatsworth (83) edit.jpg",
+    autor: "Fachada de Chatsworth House, en Derbyshire. Fotografía de Julie Clarke, 2014.",
+    licencia: "CC BY 2.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AChatsworth%20House%202014%2012%2008%203%20Chatsworth%20(83)%20edit.jpg",
+    foco: "52% 45%",
+    alt: "Una gran casa de campo inglesa de piedra dorada al sol, con el césped delante y un seto de hayas al lado.",
+  },
+
+  "rebelion-granja": {
+    archivo:
+      "Gerhard Munthe - Pigs in Moonlight - NG.M.01304 - National Museum of Art, Architecture and Design.jpg",
+    autor: "Cerdos a la luz de la luna, óleo de Gerhard Munthe, 1880.",
+    licencia: "Public domain",
+    pdPorEdad: 1929,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AGerhard%20Munthe%20-%20Pigs%20in%20Moonlight%20-%20NG.M.01304%20-%20National%20Museum%20of%20Art%2C%20Architecture%20and%20Design.jpg",
+    foco: "62% 55%",
+    alt: "Dos cerdos hozando junto a un granero rojo, bajo una loma oscura.",
+  },
+
+  "mundo-feliz": {
+    archivo: "Chrysler Building At Night.jpg",
+    autor: "La corona del edificio Chrysler de Nueva York de noche. Fotografía de Russ Allison Loar, 2011.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AChrysler%20Building%20At%20Night.jpg",
+    foco: "50% 42%",
+    alt: "La aguja de acero del edificio Chrysler iluminada en la noche, entre las luces de la ciudad.",
+  },
+
+  fahrenheit: {
+    archivo: "Close-up of a Fire.jpg",
+    autor: "Llamas de una hoguera de leña, fotografía de Thomas Kirchel, 2020.",
+    licencia: "CC BY 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AClose-up%20of%20a%20Fire.jpg",
+    foco: "50% 55%",
+    alt: "Llamas anaranjadas subiendo entre troncos al rojo, sobre un fondo negro.",
+  },
+
   "crimen-castigo": {
     archivo: "Vasily Perov - Портрет Ф.М.Достоевского - Google Art Project.jpg",
     autor: "Retrato de Dostoievski, óleo de Vasili Perov, 1872. Galería Tretiakov, Moscú.",
