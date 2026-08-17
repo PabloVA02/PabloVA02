@@ -162,7 +162,7 @@ export const HIELO: Short[] = [
     color: "var(--plum)",
     encargo: "La cuchilla de un patín sobre hielo rayado, primer plano rasante.",
     entrada:
-      "Casi todos los libros de texto del siglo XX contaban lo mismo: el hielo resbala porque el peso del patinador aumenta la presión bajo la cuchilla, y la presión hace que el hielo se derrita y forme una película de agua. Es una explicación elegante, usa un fenómeno físico real y lleva décadas repitiéndose. El problema aparece en cuanto se hacen las cuentas.",
+      "Casi todos los libros de texto del siglo XX contaban lo mismo, y muchos lo siguen contando: el hielo resbala porque el peso del patinador aumenta la presión debajo de la cuchilla, y esa presión hace que el hielo se derrita justo ahí y forme una película de agua que actúa de lubricante. Es una explicación elegante, usa un fenómeno físico que existe de verdad y lleva décadas repitiéndose de un manual a otro sin que nadie la revise. El problema aparece en cuanto alguien se sienta a hacer las cuentas. Los números no dan ni de lejos para derretir nada.",
     paginas: [
       {
         rotulo: "Los números",

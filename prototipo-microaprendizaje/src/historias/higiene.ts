@@ -158,7 +158,7 @@ export const HIGIENE: Short[] = [
     curioso: true,
     encargo: "Un rollo de papel a medio gastar sobre un soporte metálico, luz de baño.",
     entrada:
-      "China, siglo VI. Un funcionario deja escrito con reproche que hay quien usa para el aseo papel donde vienen citas de los clásicos, lo cual le parece una falta de respeto. Es la primera mención conocida al papel higiénico, y va a tardar mil trescientos años en llegar a Europa. Antes de eso, cada cultura resolvió el asunto con lo que tenía a mano.",
+      "China, siglo VI. Un funcionario deja escrito, con bastante reproche, que hay quien usa para el aseo papel donde vienen citas de los clásicos, cosa que a él le parece una falta de respeto imperdonable hacia los sabios antiguos. Esa queja escrita de pasada es la primera mención conocida al papel higiénico en toda la historia, y el invento va a tardar todavía mil trescientos años en llegar a Europa. Antes de eso, cada cultura resolvió el mismo asunto con lo que tenía más a mano. Y algunas de aquellas soluciones eran peores que el problema, sobre todo las compartidas.",
     paginas: [
       {
         rotulo: "Antes del rollo",

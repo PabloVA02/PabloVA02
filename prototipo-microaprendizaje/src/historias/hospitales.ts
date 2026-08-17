@@ -155,7 +155,7 @@ export const HOSPITALES: Short[] = [
     color: "var(--plum)",
     encargo: "Una sala larga con camas de hierro alineadas contra las dos paredes.",
     entrada:
-      "Europa y América, 1870. Un hospital es una institución de beneficencia donde se atiende a quien no tiene familia ni dinero. Huele mal, las heridas se infectan casi siempre y la gente entra sabiendo que hay bastantes posibilidades de no volver a salir. Quien puede pagarlo hace venir al médico a su domicilio, y allí se opera.",
+      "Europa y América, 1870. Un hospital no es lo que hoy entendemos por hospital: es una institución de beneficencia donde se atiende a quien no tiene familia ni dinero para pagarse otra cosa. Huele mal, las salas son comunes, las heridas se infectan casi siempre y la gente entra por la puerta sabiendo que hay bastantes posibilidades de no volver a salir por su propio pie. Quien puede pagarlo hace venir al médico a su domicilio, y allí, encima de la mesa del comedor, se opera. En dos generaciones eso se dio la vuelta por completo, y no por casualidad.",
     paginas: [
       {
         rotulo: "La mesa",
