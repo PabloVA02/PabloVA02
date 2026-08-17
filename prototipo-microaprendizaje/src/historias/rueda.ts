@@ -156,7 +156,7 @@ export const RUEDA: Short[] = [
     color: "var(--ochre)",
     encargo: "Una rueda de madera con paletas girando en la corriente de un canal de piedra.",
     entrada:
-      "Mundo mediterráneo, siglo I antes de Cristo. Moler el grano de un día para una familia cuesta varias horas de trabajo con dos piedras, y en las ciudades grandes lo hacen esclavos o animales dando vueltas sin parar. Aparece entonces un montaje sencillo: una rueda con paletas metida en la corriente de un río, conectada a la piedra de moler.",
+      "Mundo mediterráneo, siglo I antes de Cristo. Moler el grano que una familia necesita para un día cuesta varias horas de trabajo duro con dos piedras, y en las ciudades grandes ese trabajo lo hacen esclavos o animales dando vueltas sin parar de sol a sol. Es de las tareas que más brazos se comen de toda la economía antigua. Aparece entonces un montaje tan sencillo que parece mentira que no estuviera antes: una rueda con paletas metida en la corriente de un río y conectada a la piedra de moler. Fue la primera máquina que trabajó sin músculo y sin fuego.",
     paginas: [
       {
         rotulo: "El engranaje",

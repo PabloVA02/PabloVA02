@@ -151,7 +151,7 @@ export const SAMURAIS: Short[] = [
     color: "var(--plum)",
     encargo: "Dos espadas envainadas guardadas sobre un soporte de madera lacada.",
     entrada:
-      "Japón, marzo de 1876. El gobierno que ha tomado el poder ocho años antes publica un decreto de una sola línea: se prohíbe llevar espada en público salvo a militares y policías de uniforme. Es la última de una serie de medidas que en menos de una década desmontan por completo a la clase guerrera que había gobernado el país durante casi setecientos años.",
+      "Japón, marzo de 1876. El gobierno que ha tomado el poder ocho años antes publica un decreto que cabe en una sola línea: se prohíbe llevar espada en público a todo el mundo, salvo a los militares y a los policías de uniforme y en acto de servicio. No parece gran cosa leído así. Es la última de una serie de medidas que en menos de una década desmontan por completo, y desde dentro, a la clase guerrera que había gobernado el país durante casi setecientos años. Y lo desmontaron ellos mismos, desde el gobierno, sin que nadie los invadiera.",
     paginas: [
       {
         rotulo: "Desmontar la clase",

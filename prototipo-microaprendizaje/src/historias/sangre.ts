@@ -152,7 +152,7 @@ export const SANGRE: Short[] = [
     curioso: true,
     encargo: "Un cangrejo cacerola con caparazón en forma de casco sobre arena mojada.",
     entrada:
-      "Costa este de Estados Unidos, 1956. Un investigador descubre que la sangre de una especie de cangrejo marino con forma de casco, un animal que lleva en el mar cuatrocientos cincuenta millones de años, coagula de forma inmediata al entrar en contacto con ciertas bacterias. Aquella reacción se convertirá en la prueba de seguridad más usada de la industria farmacéutica.",
+      "Costa este de Estados Unidos, 1956. Un investigador descubre que la sangre de una especie de cangrejo marino con forma de casco, un animal que lleva en el mar cuatrocientos cincuenta millones de años sin cambiar apenas, coagula de forma inmediata y muy visible en cuanto entra en contacto con ciertas bacterias. Al principio es una curiosidad de laboratorio y poco más. Aquella reacción acabaría convirtiéndose en la prueba de seguridad más usada de toda la industria farmacéutica, y sigue siéndolo hoy. Cada vacuna que se pone en el mundo ha pasado por una prueba hecha con esa sangre azul.",
     paginas: [
       {
         rotulo: "El coágulo",

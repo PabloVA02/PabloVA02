@@ -147,7 +147,7 @@ export const SEXTANTE: Short[] = [
     curioso: true,
     encargo: "Pantalla de navegación de un barco con la posición marcada en mitad de tierra firme.",
     entrada:
-      "Órbita terrestre y todo el planeta, con el sistema abierto a uso civil desde el año 2000. Un receptor de GPS no habla con nadie: solo escucha. Escucha unas señales de radio que emiten treinta y pico satélites a veinte mil kilómetros de altura y calcula su posición según lo que tarda cada una en llegar. Esa señal llega tan débil como la luz de una bombilla vista desde muy lejos.",
+      "Órbita terrestre y todo el planeta, con el sistema abierto a uso civil desde el año 2000. Un receptor de GPS, el del coche o el del móvil, no habla con nadie ni manda nada: lo único que hace es escuchar. Escucha unas señales de radio que emiten treinta y pico satélites desde veinte mil kilómetros de altura y calcula dónde está según lo que tarda cada una en llegarle. Y esa señal llega tan débil como la luz de una bombilla encendida vista desde muy lejos. Cualquiera con un aparato barato puede gritar más fuerte que ella.",
     paginas: [
       {
         rotulo: "Cuatro relojes",

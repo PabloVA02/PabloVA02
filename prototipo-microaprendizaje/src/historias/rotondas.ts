@@ -148,7 +148,7 @@ export const ROTONDAS: Short[] = [
     color: "var(--ochre)",
     encargo: "Turborrotonda holandesa desde el aire, con los carriles en espiral y los bordillos separadores.",
     entrada:
-      "Países Bajos, 1996. Un profesor de ingeniería de tráfico estudia los accidentes de las rotondas de dos carriles y descubre que casi todos son iguales. Ocurren cuando un coche del carril de fuera y otro del de dentro se cruzan al salir. Su solución fue diseñar los carriles en espiral y separarlos con un bordillo, de manera que nadie pueda cambiarse dentro del anillo.",
+      "Países Bajos, 1996. Un profesor de ingeniería de tráfico se pone a estudiar los accidentes que ocurren en las rotondas de dos carriles y descubre algo muy útil: casi todos son exactamente el mismo accidente repetido. Ocurren siempre cuando un coche que va por el carril de fuera y otro que va por el de dentro se cruzan en el momento de salir del anillo. Su solución fue diseñar los carriles en espiral y separarlos con un bordillo, de manera que nadie pueda cambiarse de carril dentro de la rotonda. Es fea de dibujar y funciona muy bien.",
     paginas: [
       {
         rotulo: "El corte",
