@@ -214,6 +214,24 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "gen-egoista": {
+    archivo: "Aphid Farm (55206291839).jpg",
+    autor: "Hormigas cuidando una colonia de pulgones en un tallo. Fotografía de Willie Luker, 2026.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AAphid%20Farm%20(55206291839).jpg",
+    foco: "50% 50%",
+    alt: "Decenas de pulgones verdes pegados a un tallo, con una hormiga entre ellos.",
+  },
+
+  "casi-todo": {
+    archivo: "Lower Antelope Canyon (Unsplash).jpg",
+    autor: "El interior del Lower Antelope Canyon, en Arizona. Fotografía de Dmitry Fisenko, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ALower%20Antelope%20Canyon%20(Unsplash).jpg",
+    foco: "50% 55%",
+    alt: "Paredes de arenisca naranja y morada onduladas por el agua, dentro de un cañón estrecho.",
+  },
+
   "dieta-cojea": {
     archivo: "Fresh Salad (Unsplash).jpg",
     autor: "Ensalada de hojas verdes con una botella de aceite al lado. Fotografía de 2016.",
