@@ -162,7 +162,7 @@ export const COCINA: Short[] = [
     curioso: true,
     encargo: "Miel cayendo en hilo sobre un tarro, a contraluz, ámbar muy saturado.",
     entrada:
-      "En las excavaciones de tumbas egipcias han aparecido vasijas con miel de más de tres mil años que no estaba estropeada: cristalizada, densa, pero miel. No es un milagro ni tiene que ver con el embalsamamiento. Es química, y son tres mecanismos actuando a la vez, cada uno de los cuales bastaría casi por sí solo para dejar sin trabajo a las bacterias.",
+      "En las excavaciones de tumbas egipcias han aparecido vasijas con miel de más de tres mil años que no estaba estropeada: cristalizada y densa, pero miel comestible. No es un milagro, ni tiene nada que ver con el embalsamamiento, ni hace falta que la vasija estuviera sellada de una manera especial. Es química de la buena, y son tres mecanismos actuando a la vez, cada uno de los cuales bastaría casi por sí solo para dejar sin trabajo a cualquier bacteria que se acerque. La miel es un sitio donde no se puede vivir.",
     paginas: [
       {
         rotulo: "Tres cerrojos",

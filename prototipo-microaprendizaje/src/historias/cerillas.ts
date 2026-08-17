@@ -155,7 +155,7 @@ export const CERILLAS: Short[] = [
     curioso: true,
     encargo: "Una caja de cerillas abierta con la banda lateral marrón muy gastada.",
     entrada:
-      "Suecia, 1844. Un químico propone una idea sencilla para evitar los incendios y los envenenamientos que provocan las cerillas de fósforo blanco: separar los ingredientes. Si la mezcla que arde se reparte entre la cabeza de la cerilla y la banda lateral de la caja, ninguna de las dos partes sirve de nada por sí sola.",
+      "Suecia, 1844. Las cerillas que se usan entonces llevan fósforo blanco, arden con solo rozarlas contra cualquier cosa y provocan incendios domésticos a diario y envenenamientos graves en quien las fabrica. Un químico propone una idea sencilla y algo contraintuitiva para acabar con las dos cosas a la vez: separar los ingredientes en dos sitios distintos. Si la mezcla que arde se reparte entre la cabeza de la cerilla y la banda lateral de la caja, ninguna de las dos partes sirve de nada por sí sola. Hay que juntarlas a propósito.",
     paginas: [
       {
         rotulo: "Las dos mitades",

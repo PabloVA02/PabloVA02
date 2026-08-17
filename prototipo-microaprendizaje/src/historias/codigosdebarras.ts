@@ -153,7 +153,7 @@ export const CODIGOS_DE_BARRAS: Short[] = [
     color: "var(--plum)",
     encargo: "Un pasillo largo de supermercado con estanterías llenas y luz uniforme.",
     entrada:
-      "Comercio de todo el mundo, desde finales de los años setenta hasta hoy. Antes del código de barras, un encargado sabía lo que vendía haciendo recuento a mano cada cierto tiempo y fiándose de su experiencia. Con el escáner, cada venta queda registrada en el segundo en que ocurre, y esa información lo cambió casi todo, empezando por lo que se ve en las estanterías.",
+      "Comercio de todo el mundo, desde finales de los años setenta hasta hoy. Antes del código de barras, el encargado de una tienda sabía lo que vendía haciendo recuento a mano cada cierto tiempo, mirando los huecos del estante y fiándose de su experiencia y de su memoria. Con el escáner, cada venta queda registrada en el segundo exacto en que ocurre, con su hora, su precio y su producto. Esa información lo cambió casi todo en el comercio, empezando por lo primero que ve cualquiera al entrar: lo que hay en las estanterías.",
     paginas: [
       {
         rotulo: "Comprar con datos",
