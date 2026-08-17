@@ -161,7 +161,7 @@ export const MEDICINA: Short[] = [
     curioso: true,
     encargo: "Un frasco de pastillas blancas con la etiqueta claramente escrita, luz limpia.",
     entrada:
-      "La explicación de manual dice que un placebo funciona porque el paciente cree estar tomando un medicamento. Si eso fuera todo, avisarle debería desactivarlo por completo. En 2010, un equipo del Harvard Medical School decidió comprobarlo de la manera más directa posible: dando pastillas de azúcar con el bote etiquetado como pastillas de azúcar.",
+      "La explicación de manual dice que un placebo funciona porque el paciente cree estar tomando un medicamento de verdad. Si eso fuera todo lo que hay, avisarle de que la pastilla no lleva nada debería desactivar el efecto por completo, igual que contar un truco de magia lo estropea. En 2010, un equipo del Harvard Medical School decidió comprobarlo de la manera más directa que se le ocurrió: dando pastillas de azúcar a pacientes de verdad, con el bote etiquetado como pastillas de azúcar y explicándoles antes, con todas las letras, que aquello no llevaba ningún principio activo dentro.",
     paginas: [
       {
         rotulo: "El ensayo",
@@ -223,7 +223,7 @@ export const MEDICINA: Short[] = [
     color: "var(--slate)",
     encargo: "Un anfiteatro de operaciones antiguo, con gradas de madera alrededor de una mesa.",
     entrada:
-      "Boston, 16 de octubre de 1846. Un dentista sube a un anfiteatro de operaciones lleno de médicos escépticos con un frasco de cristal y un tubo de goma en la mano. Va a demostrar que puede dormir a un paciente para que lo operen sin dolor. Hasta ese día, la cirugía consistía en cortar lo más deprisa posible mientras varios hombres sujetaban al enfermo contra la mesa.",
+      "Boston, 16 de octubre de 1846. Un dentista sube a un anfiteatro de operaciones lleno de médicos escépticos con un frasco de cristal y un tubo de goma en la mano. Va a demostrar delante de todos ellos que puede dormir a un paciente para que lo operen sin que sienta dolor, algo que en aquella sala nadie cree posible. Hasta ese día, la cirugía consistía en cortar lo más deprisa posible mientras varios hombres sujetaban al enfermo contra la mesa y alguien le metía un trapo en la boca. El anfiteatro está lleno porque casi todos han venido a ver el ridículo.",
     paginas: [
       {
         rotulo: "La velocidad",

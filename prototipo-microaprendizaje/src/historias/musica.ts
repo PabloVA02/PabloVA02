@@ -196,7 +196,7 @@ export const MUSICA: Short[] = [
     color: "var(--plum)",
     encargo: "Un piano de cola antiguo con la tapa levantada, en una habitación con poca luz.",
     entrada:
-      "Viena, 1802. Un compositor alemán de treinta y un años, ya famoso en media Europa, escribe una carta a sus hermanos confesando algo que lleva seis años ocultando: se está quedando sordo. En la carta dice que ha pensado en quitarse la vida y que lo único que lo detiene es la música que todavía no ha escrito. No llegó a enviarla nunca.",
+      "Viena, 1802. Un compositor alemán de treinta y un años, ya famoso en media Europa y con la carrera hecha, escribe una carta a sus hermanos confesando algo que lleva seis años ocultando a todo el mundo, incluso a sus amigos más cercanos: se está quedando sordo. En la carta dice que ha pensado en quitarse la vida y que lo único que lo detiene es la música que todavía no ha escrito. Guardó el papel entre sus cosas y no llegó a enviarlo nunca. Apareció después de su muerte. Le quedaban veinticinco años de trabajo por delante.",
     paginas: [
       {
         rotulo: "El silencio",
