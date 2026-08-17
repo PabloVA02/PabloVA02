@@ -149,7 +149,7 @@ export const TELEFERICOS: Short[] = [
     color: "var(--plum)",
     encargo: "Una cabina detenida sobre un valle, vista desde abajo contra el cielo.",
     entrada:
-      "Estaciones de montaña de todo el mundo, con normas europeas desde los años setenta. Una instalación de cable tiene siempre varios motores: el principal, uno de reserva y a veces un motor de combustión independiente para poder mover la línea aunque se caiga la electricidad de la comarca. Aun así, la ley obliga a tener previsto qué pasa si todo eso falla.",
+      "Estaciones de montaña de todo el mundo, con normas europeas desde los años setenta. Una instalación de cable no tiene un motor: tiene varios. El principal, otro de reserva por si el primero falla y, en muchas, un motor de combustión independiente para poder mover la línea aunque se caiga la electricidad de la comarca entera. Con esa redundancia, quedarse parado en el aire es rarísimo. Aun así, la ley obliga a tener escrito, ensayado y con gente entrenada qué se hace exactamente si todo eso falla a la vez. Porque llegar hasta una cabina colgada a cincuenta metros del suelo no es sencillo.",
     paginas: [
       {
         rotulo: "Bajar uno a uno",

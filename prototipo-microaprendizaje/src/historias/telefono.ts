@@ -157,7 +157,7 @@ export const TELEFONO: Short[] = [
     curioso: true,
     encargo: "Un teletipo antiguo con un rollo de papel saliendo, en una sala sin ventanas.",
     entrada:
-      "Ginebra, 1963. Un año después de la crisis de los misiles, en la que un malentendido pudo terminar en guerra nuclear, Estados Unidos y la Unión Soviética firman un acuerdo para instalar una comunicación directa entre sus gobiernos. La prensa la bautiza enseguida como el teléfono rojo. En aquella instalación no hubo ningún teléfono.",
+      "Ginebra, 1963. Un año después de la crisis de los misiles, en la que un malentendido entre dos capitales pudo terminar en una guerra nuclear que nadie quería, Estados Unidos y la Unión Soviética firman un acuerdo para instalar una comunicación directa y permanente entre sus dos gobiernos. La prensa la bautiza enseguida como el teléfono rojo, y así se ha quedado en el idioma y en las películas. En aquella instalación no hubo ningún teléfono, ni nada rojo, ni nadie hablando. Lo que se instaló fueron dos teletipos, y hay una razón muy buena para eso.",
     paginas: [
       {
         rotulo: "El teletipo",

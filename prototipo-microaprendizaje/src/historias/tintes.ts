@@ -147,7 +147,7 @@ export const TINTES: Short[] = [
     color: "var(--slate)",
     encargo: "Un canal de agua teñida de color junto a una nave industrial.",
     entrada:
-      "Zonas textiles de Asia y de otros continentes, desde finales del siglo XX. Teñir no es pintar: la prenda se sumerge en un baño de agua caliente con el colorante disuelto y varias sustancias que ayudan a fijarlo. Buena parte de esos productos no llega a agarrarse a la fibra y termina en el agua sobrante, que hay que tratar antes de devolverla al río si es que alguien la trata.",
+      "Zonas textiles de Asia y de otros continentes, desde finales del siglo XX. Teñir una prenda no se parece en nada a pintarla: la tela se sumerge en un baño de agua caliente con el colorante disuelto y con varias sustancias más que ayudan a fijarlo a la fibra. Y ahí está el problema, porque buena parte de todos esos productos no llega a agarrarse a la tela y termina en el agua sobrante, que hay que tratar antes de devolverla al río. Si es que alguien la trata. En muchos sitios el color del río de la semana lo decide la fábrica de al lado.",
     paginas: [
       {
         rotulo: "Lo que sobra",

@@ -148,7 +148,7 @@ export const TERMO: Short[] = [
     color: "var(--clay)",
     encargo: "Botijo de barro sudado a la sombra, con las gotas visibles en la superficie.",
     entrada:
-      "España y todo el Mediterráneo, con el objeto documentado desde hace más de dos mil años. Un botijo es una vasija de barro poroso que baja la temperatura del agua varios grados sin ninguna energía. Parece magia y es física elemental. El barro sin vidriar deja salir una parte pequeñísima del agua, y esa agua se evapora en la superficie.",
+      "España y todo el Mediterráneo, con el objeto documentado desde hace más de dos mil años. Un botijo es una vasija de barro poroso que consigue bajar la temperatura del agua varios grados por debajo de la del aire que lo rodea, sin enchufe, sin hielo y sin ninguna clase de energía. Puesto así parece un truco de magia y es física elemental de libro. El barro sin vidriar deja salir por sus poros una parte pequeñísima del agua, y esa agua se evapora en la superficie. Y esa evaporación se lleva consigo una cantidad de calor que sorprende.",
     paginas: [
       {
         rotulo: "Evaporar cuesta",

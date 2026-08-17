@@ -153,7 +153,7 @@ export const TELEVISION: Short[] = [
     curioso: true,
     encargo: "Un mando de televisión de los años sesenta, macizo y con cuatro botones grandes.",
     entrada:
-      "Estados Unidos, 1956. Los televisores llevan unos años en las casas y a los espectadores les molestan los anuncios, pero levantarse a cambiar de canal resulta incómodo. Una marca lanza un mando sin cable que funciona con sonidos que el oído humano no percibe: cada botón golpea una varilla metálica dentro del aparato y produce un tono distinto.",
+      "Estados Unidos, 1956. Los televisores llevan unos años metidos en las casas, la gente ya se ha acostumbrado a ellos y hay una queja que se repite en todas partes: los anuncios molestan, pero levantarse del sillón a cambiar de canal molesta todavía más. Una marca lanza entonces un mando sin cable que funciona con sonidos que el oído humano no percibe: cada botón golpea una varilla metálica dentro del aparato y produce un tono distinto que el televisor reconoce. Funcionaba sin pilas, sin cables y sin electrónica de ningún tipo. Y también funcionaba con las llaves del vecino.",
     paginas: [
       {
         rotulo: "Las varillas",

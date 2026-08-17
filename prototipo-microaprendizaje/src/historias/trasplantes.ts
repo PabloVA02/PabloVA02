@@ -153,7 +153,7 @@ export const TRASPLANTES: Short[] = [
     color: "var(--ochre)",
     encargo: "Una nevera portátil blanca y azul en el pasillo de un hospital.",
     entrada:
-      "España, 1989. El país tiene una tasa de donación de órganos mediocre, por debajo de la media europea, y listas de espera que no se mueven. Se crea entonces una organización nacional de trasplantes con una idea que en aquel momento no tenía nadie más, y que no consiste en hacer campañas ni en cambiar la ley, sino en cambiar cómo funciona por dentro cada hospital.",
+      "España, 1989. El país tiene una tasa de donación de órganos mediocre, por debajo de la media europea, y unas listas de espera que no se mueven de un año para otro mientras la gente se muere en ellas. Se crea entonces una organización nacional de trasplantes con una idea que en aquel momento no se le había ocurrido a nadie más, y que no consiste en hacer campañas en televisión ni en cambiar la ley, sino en cambiar cómo funciona por dentro cada hospital. Treinta años después, España lleva tres décadas siendo el país que más dona del mundo.",
     paginas: [
       {
         rotulo: "Un médico dedicado",

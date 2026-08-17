@@ -152,7 +152,7 @@ export const TERMOMETRO: Short[] = [
     curioso: true,
     encargo: "Un termómetro digital sobre una mesa blanca mostrando una cifra.",
     entrada:
-      "Alemania, 1851. Un médico se propone establecer cuál es la temperatura normal de una persona sana y hace algo insólito para la época: toma más de un millón de mediciones a veinticinco mil pacientes, con un termómetro de axila de treinta centímetros. Publica una media de treinta y siete grados, y esa cifra se convierte en la definición de normalidad durante más de siglo y medio.",
+      "Alemania, 1851. Un médico se propone establecer de una vez cuál es la temperatura normal de una persona sana y hace para ello algo insólito en su época: toma más de un millón de mediciones a veinticinco mil pacientes, una por una, con un termómetro de axila de treinta centímetros de largo que había que sostener veinte minutos. Publica una media de treinta y siete grados clavados. Esa cifra se convierte en la definición de normalidad y ahí sigue, más de siglo y medio después. Un estudio de 2020 con setecientos mil registros dice que ya no es verdad.",
     paginas: [
       {
         rotulo: "La nueva media",
