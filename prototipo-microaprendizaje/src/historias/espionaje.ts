@@ -161,7 +161,7 @@ export const ESPIONAJE: Short[] = [
     curioso: true,
     encargo: "Un receptor de radio de onda corta con el dial iluminado, en penumbra.",
     entrada:
-      "Si se recorre la onda corta con un receptor, entre emisoras internacionales y conversaciones de radioaficionados aparecen de vez en cuando estaciones que no dicen nada: una voz recita series de números o de letras, sin presentación y sin despedida, y desaparece. Llevan haciéndolo desde la Guerra Fría y varias siguen en el aire ahora mismo.",
+      "Si se recorre la onda corta con un receptor cualquiera, entre emisoras internacionales, predicadores y conversaciones de radioaficionados aparecen de vez en cuando unas estaciones que no dicen absolutamente nada: una voz, casi siempre de mujer y casi siempre plana, recita series de números o de letras durante un rato, sin presentación, sin música y sin despedida, y luego se calla. Nadie firma esas emisiones ni las reclama ningún país. Llevan haciéndolo desde la Guerra Fría y varias de ellas siguen en el aire ahora mismo, esta noche, mientras alguien las escucha.",
     paginas: [
       {
         rotulo: "El zumbido",

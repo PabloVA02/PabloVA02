@@ -305,7 +305,7 @@ export const FIGURAS: Short[] = [
     },
     encargo: "El retrato Yuan de Gengis Kan, o una estepa mongola vacía con un caballo.",
     entrada:
-      "Temujin nació en una tienda de fieltro, se quedó huérfano de niño y pasó una temporada prisionero de un clan rival, con un cepo de madera al cuello. Murió siendo dueño del imperio continuo más grande que ha existido. Pero su huella más rara no está en los mapas: está en el cromosoma Y de millones de hombres que hoy no saben nada de él.",
+      "Temujin nació en una tienda de fieltro en mitad de la estepa, se quedó huérfano siendo niño cuando envenenaron a su padre y pasó una temporada prisionero de un clan rival, con un cepo de madera al cuello. Nada en aquella infancia apuntaba a lo que vino después: murió siendo dueño del imperio continuo más grande que ha existido nunca sobre la Tierra. Pero su huella más rara no está en los mapas ni en las crónicas: está en el cromosoma Y de millones de hombres que hoy no saben nada de él.",
     paginas: [
       {
         rotulo: "El linaje",
