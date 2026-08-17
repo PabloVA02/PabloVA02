@@ -214,6 +214,42 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "mientras-escribo": {
+    archivo: "Vintage typewriter (Unsplash).jpg",
+    autor: "Máquina de escribir con una hoja puesta. Fotografía de Florian Klauer, 2014.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AVintage%20typewriter%20(Unsplash).jpg",
+    foco: "50% 55%",
+    alt: "Una máquina de escribir negra vista desde arriba, con un folio en blanco en el rodillo.",
+  },
+
+  "sobre-fotografia": {
+    archivo: "Vintage camera 1 (Unsplash).jpg",
+    autor: "Cámara de fotos antigua sobre una mesa de madera. Fotografía de Pacto Visual, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AVintage%20camera%201%20(Unsplash).jpg",
+    foco: "55% 50%",
+    alt: "Una cámara de telémetro de cromo y cuero, con el objetivo hacia delante, en penumbra.",
+  },
+
+  "cartas-joven-poeta": {
+    archivo: "Seashore on a winter's day (Unsplash).jpg",
+    autor: "Orilla helada en un día de invierno. Fotografía de Jon Flobrant, 2015.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASeashore%20on%20a%20winter's%20day%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "Un mar liso al atardecer, con nieve en la orilla y un pájaro volando bajo.",
+  },
+
+  "modos-ver": {
+    archivo: "Vintage camera (Unsplash).jpg",
+    autor: "Cámara de cine de bobinas sobre un estante. Fotografía de Ethan Robertson, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AVintage%20camera%20(Unsplash).jpg",
+    foco: "60% 45%",
+    alt: "Una cámara de cine antigua con su objetivo enfocando, con luces desenfocadas detrás.",
+  },
+
   "por-que-dormimos": {
     archivo: "Moon on an inky cludy sky (Unsplash).jpg",
     autor: "La luna llena entre nubes, de noche. Fotografía de Gabriel Santiago, 2014.",
