@@ -214,6 +214,25 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  enquiridion: {
+    archivo: "Bust of Germanicus, front - Getty Museum (2021.66).jpg",
+    autor: "Busto romano en mármol de Germánico, siglo I. J. Paul Getty Museum, Los Ángeles.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ABust%20of%20Germanicus%2C%20front%20-%20Getty%20Museum%20(2021.66).jpg",
+    foco: "50% 30%",
+    alt: "Busto de mármol blanco de un hombre joven de rizos cortos, mirando de frente.",
+  },
+
+  "monje-ferrari": {
+    archivo: "Rousanou Monastery 02.jpg",
+    autor: "El monasterio de Rusano, en Meteora (Grecia), sobre su peña. Fotografía de Patryk Morawiec, 2018.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ARousanou%20Monastery%2002.jpg",
+    foco: "40% 40%",
+    alt: "Un monasterio de piedra con tejados rojos encaramado en una roca, entre árboles.",
+  },
+
   ikigai: {
     archivo: "Arashiyama Bamboo Grove (Unsplash).jpg",
     autor: "El bosque de bambú de Arashiyama, en Kioto. Fotografía de Erol Ahmed, 2016.",
