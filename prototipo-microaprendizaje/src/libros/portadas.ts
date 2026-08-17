@@ -503,7 +503,8 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
   },
 
   "homo-deus": {
-    archivo: 'KUKA industrial robotic arm performing "The Beach" by Roy Nachum - 07.jpg',
+    archivo:
+      "KUKA industrial robotic arm performing \"The Beach\" by Roy Nachum - 07.jpg",
     autor: "Un brazo robótico dibujando sobre arena, en una instalación de Roy Nachum. Fotografía de Oleg Yunakov, 2025.",
     licencia: "CC BY-SA 4.0",
     fuente:
