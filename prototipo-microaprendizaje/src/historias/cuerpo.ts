@@ -166,7 +166,7 @@ export const CUERPO: Short[] = [
     curioso: true,
     encargo: "Un primer plano lateral de una nariz humana, luz dura, casi abstracto.",
     entrada:
-      "Un olor cualquiera, el cloro de una piscina o la colonia de alguien, puede devolverte a un sitio con una nitidez que ninguna foto consigue. No es una impresión romántica, sino una consecuencia del cableado, y se entendió del todo en 2004. El olfato entra en el cerebro por una puerta distinta a la de los demás sentidos, que da al barrio de la memoria.",
+      "Un olor cualquiera, el cloro de una piscina o la colonia de alguien que pasa por la calle, puede devolverte a un sitio y a una edad con una nitidez que ninguna foto consigue. Y lo hace antes de que te dé tiempo a pensarlo, sin que puedas evitarlo. No es una impresión romántica ni una manera de hablar, sino una consecuencia del cableado, y se entendió del todo en 2004. El olfato entra en el cerebro por una puerta distinta a la de los demás sentidos, y esa puerta da justo al barrio de la memoria.",
     paginas: [
       {
         rotulo: "La aduana",
@@ -230,7 +230,7 @@ export const CUERPO: Short[] = [
     curioso: true,
     encargo: "Tres huesecillos diminutos sobre un paño oscuro, fotografiados muy de cerca.",
     entrada:
-      "Dentro de cada oído hay tres huesos que son los más pequeños del cuerpo humano. Juntos pesan menos que un grano de arroz y el más pequeño mide tres milímetros. Se llaman martillo, yunque y estribo por la forma que tienen, y transmiten la vibración del tímpano hacia dentro del oído. Son además los únicos huesos que ya nacen con su tamaño definitivo.",
+      "Dentro de cada oído hay tres huesos que son los más pequeños del cuerpo humano. Los tres juntos pesan menos que un grano de arroz, y el más pequeño de ellos mide tres milímetros y cabe de sobra en la cabeza de una cerilla. Se llaman martillo, yunque y estribo por la forma que tienen, y su trabajo es transmitir la vibración del tímpano hacia dentro del oído. Son además los únicos huesos del cuerpo que ya nacen con su tamaño definitivo: no crecen nunca. Y no estaban ahí desde el principio.",
     paginas: [
       {
         rotulo: "La quijada",
@@ -261,7 +261,7 @@ export const CUERPO: Short[] = [
     curioso: true,
     encargo: "Una yema de dedo iluminada de lado, con los surcos marcados por la sombra.",
     entrada:
-      "Todo el mundo ha oído la explicación en el colegio: las huellas de los dedos existen para que las cosas no se nos resbalen, como los dibujos de un neumático. Es una idea razonable, se repite en los libros de texto desde hace más de cien años y, según los experimentos que se han hecho desde 2009, es probablemente falsa.",
+      "Todo el mundo ha oído la explicación en el colegio: las huellas de los dedos existen para que las cosas no se nos resbalen de la mano, igual que los dibujos de un neumático agarran el asfalto mojado. Es una idea razonable, encaja con la intuición y se repite en los libros de texto desde hace más de cien años. Según los experimentos que se han hecho desde 2009, midiendo de verdad lo que agarra un dedo, es probablemente falsa. Los surcos están ahí para otra cosa, y no se sabe del todo para cuál.",
     paginas: [
       {
         rotulo: "La medida",

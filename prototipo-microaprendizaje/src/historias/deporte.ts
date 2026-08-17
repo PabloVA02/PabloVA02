@@ -194,7 +194,7 @@ export const DEPORTE: Short[] = [
     curioso: true,
     encargo: "Una carretera polvorienta de principios del siglo XX con un coche antiguo levantando polvo.",
     entrada:
-      "San Luis, Estados Unidos, agosto de 1904. Se corre el maratón de los terceros Juegos Olímpicos de la historia, a las tres de la tarde, con treinta y dos grados y por caminos de tierra. Los organizadores han decidido que solo habrá un punto de agua en cuarenta kilómetros, porque quieren estudiar los efectos de la deshidratación en el cuerpo humano.",
+      "San Luis, Estados Unidos, agosto de 1904. Se corre el maratón de los terceros Juegos Olímpicos de la historia, a las tres de la tarde, con treinta y dos grados de calor y por caminos de tierra sin asfaltar. Los organizadores han decidido que solo habrá un punto de agua en cuarenta kilómetros, y no por descuido: quieren aprovechar la carrera para estudiar los efectos de la deshidratación en el cuerpo humano. De los treinta y dos que salen, catorce no llegan a la meta. Y el que llega primero no ha corrido entera la carrera.",
     paginas: [
       {
         rotulo: "La carrera",
