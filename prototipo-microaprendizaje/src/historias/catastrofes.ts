@@ -245,7 +245,7 @@ export const CATASTROFES: Short[] = [
     color: "var(--ochre)",
     encargo: "La nube de la explosión de Halifax de 1917, o la ciudad arrasada después.",
     entrada:
-      "Puerto de Halifax, en Canadá, el 6 de diciembre de 1917. Europa lleva tres años en la Primera Guerra Mundial y por aquí salen los convoyes que la abastecen. Un carguero francés cargado hasta arriba de explosivos para el frente choca de refilón con un barco noruego en un canal estrecho. Del roce salta una chispa, y el barco más peligroso del Atlántico empieza a arder despacio, a la vista de todos.",
+      "Puerto de Halifax, en Canadá, el 6 de diciembre de 1917. Europa lleva tres años en la Primera Guerra Mundial y por aquí salen los convoyes que la abastecen. Un carguero francés cargado hasta arriba de explosivos para el frente choca de refilón con un barco noruego en un canal estrecho. Del roce salta una chispa, y el barco más peligroso del Atlántico empieza a arder despacio, a la vista de todos. En los muelles y en las ventanas de las casas la gente se para a mirar la columna de humo, porque un barco ardiendo es un espectáculo que no se ve todos los días.",
     paginas: [
       {
         rotulo: "Todos a la ventana",
@@ -275,7 +275,7 @@ export const CATASTROFES: Short[] = [
     color: "var(--slate)",
     encargo: "La presa del Vajont hoy, intacta, con la cicatriz del monte Toc detrás.",
     entrada:
-      "Valle del Vajont, en los Alpes italianos, el 9 de octubre de 1963. Allí acaba de levantarse la presa de bóveda más alta del mundo, doscientos sesenta metros de hormigón. Esa noche, a las diez y media, se desprende un trozo entero de la montaña vecina y cae dentro del embalse. La presa aguanta el golpe sin romperse y sigue hoy en pie, y aun así murieron unas dos mil personas.",
+      "Valle del Vajont, en los Alpes italianos, el 9 de octubre de 1963. Allí acaba de levantarse la presa de bóveda más alta del mundo, doscientos sesenta metros de hormigón. Doscientos metros más abajo, en el valle estrecho del Piave, hay varios pueblos haciendo la vida de siempre; el mayor de todos tiene unos mil quinientos vecinos. Esa noche, a las diez y media, se desprende un trozo entero de la montaña vecina y cae dentro del embalse. La presa aguanta el golpe sin romperse y sigue hoy en pie, y aun así murieron unas dos mil personas.",
     paginas: [
       {
         rotulo: "El monte que avisaba",
@@ -305,7 +305,7 @@ export const CATASTROFES: Short[] = [
     color: "var(--clay)",
     encargo: "Un Boeing 747 de los años setenta en pista, con niebla.",
     entrada:
-      "Aeropuerto de Tenerife, en las islas Canarias, el 27 de marzo de 1977. Es un aeropuerto pequeño de montaña que aquella tarde está lleno de aviones enormes que no deberían estar ahí, porque un artefacto explosivo en la isla vecina ha obligado a desviar todo el tráfico. Dos aviones de pasajeros de los más grandes que existen esperan aparcados a que reabra el otro aeropuerto. Entonces baja la niebla.",
+      "Aeropuerto de Tenerife, en las islas Canarias, el 27 de marzo de 1977. Es un aeropuerto pequeño de montaña que aquella tarde está lleno de aviones enormes que no deberían estar ahí, porque un artefacto explosivo en la isla vecina ha obligado a desviar todo el tráfico. Dos aviones de pasajeros de los más grandes que existen esperan aparcados a que reabra el otro aeropuerto. Entre los dos llevan casi seiscientas personas, la mayoría de vacaciones, y las tripulaciones acumulan horas de retraso sin poder hacer otra cosa que esperar en la pista. Entonces baja la niebla y deja de verse el final de la pista.",
     paginas: [
       {
         rotulo: "Prisa y niebla",
@@ -334,7 +334,7 @@ export const CATASTROFES: Short[] = [
     color: "var(--plum)",
     encargo: "Litografía de la erupción del Krakatoa de 1883.",
     entrada:
-      "Estrecho entre dos grandes islas de Indonesia, el 27 de agosto de 1883. La isla volcánica de Krakatoa lleva meses inquieta y esa mañana se rompe del todo. Son cuatro explosiones enormes, y la última revienta el volcán y hunde buena parte de la isla bajo el mar. Aquello produce además el fenómeno acústico mejor documentado de la historia.",
+      "Estrecho entre dos grandes islas de Indonesia, el 27 de agosto de 1883. La isla volcánica de Krakatoa lleva meses inquieta, echando ceniza y temblando, y los barcos que pasan lo van anotando en sus cuadernos de bitácora. Esa mañana se rompe del todo. Son cuatro explosiones enormes, cada una mayor que la anterior, y la última revienta el volcán y hunde buena parte de la isla bajo el mar. Las olas que salieron de allí mataron a más de treinta mil personas en las costas de alrededor. Y aquello produjo además el fenómeno acústico mejor documentado de la historia.",
     paginas: [
       {
         rotulo: "Cuatro mil ochocientos kilómetros",
@@ -364,7 +364,7 @@ export const CATASTROFES: Short[] = [
     color: "var(--ochre)",
     encargo: "El depósito reventado del North End de Boston tras la riada de melaza de 1919.",
     entrada:
-      "Barrio del North End, en Boston, el 15 de enero de 1919. Hace un día raro de invierno, casi cálido. En el muelle hay un depósito de acero de quince metros de alto con nueve millones de litros de melaza dentro. Con esa melaza se fabricaba ron y también alcohol industrial para explosivos. A mediodía, el depósito se abre con un ruido de ametralladora: son los remaches saltando.",
+      "Barrio del North End, en Boston, el 15 de enero de 1919. Hace un día raro de invierno, casi cálido. En el muelle hay un depósito de acero de quince metros de alto con nueve millones de litros de melaza dentro. Con esa melaza se fabricaba ron y también alcohol industrial para explosivos. Alrededor del depósito hay un barrio obrero italiano muy poblado, con talleres, un parque de bomberos y un tren elevado pasando por encima. A mediodía, justo a la hora de comer, el depósito se abre con un ruido de ametralladora: son los remaches saltando.",
     paginas: [
       {
         rotulo: "Nadie lo probó nunca",
