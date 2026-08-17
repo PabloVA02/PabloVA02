@@ -214,6 +214,46 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "etica-nicomaco": {
+    archivo: "Aristotle with a Bust of Homer MET DP319026.jpg",
+    autor: "Aristóteles ante un busto de Homero, óleo de Rembrandt, 1653. Metropolitan Museum of Art, Nueva York.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AAristotle%20with%20a%20Bust%20of%20Homer%20MET%20DP319026.jpg",
+    foco: "52% 48%",
+    alt: "Un hombre de barba con sombrero y cadena de oro apoya la mano en un busto de piedra.",
+  },
+
+  "arte-guerra": {
+    archivo: "Xian 12.JPG",
+    autor: "Los guerreros de terracota de Xi'an, en las fosas del mausoleo. Fotografía de ReeveJ, 2012.",
+    licencia: "CC BY-SA 3.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AXian%2012.JPG",
+    foco: "50% 50%",
+    alt: "Filas de guerreros de terracota alineados en las trincheras de la excavación.",
+  },
+
+  "republica-platon": {
+    archivo: "The School of Athens by Raffaello Sanzio da Urbino.jpg",
+    autor: "La escuela de Atenas, fresco de Rafael, 1509-1511. Estancias del Vaticano.",
+    licencia: "Public domain",
+    pdPorEdad: 1520,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AThe%20School%20of%20Athens%20by%20Raffaello%20Sanzio%20da%20Urbino.jpg",
+    foco: "50% 55%",
+    alt: "Filósofos reunidos bajo bóvedas de piedra; en el centro, dos ancianos bajan una escalinata.",
+  },
+
+  "apologia-socrates": {
+    archivo: "David - The Death of Socrates.jpg",
+    autor: "La muerte de Sócrates, óleo de Jacques-Louis David, 1787. Metropolitan Museum of Art, Nueva York.",
+    licencia: "Public domain",
+    pdPorEdad: 1825,
+    fuente: "https://commons.wikimedia.org/wiki/File%3ADavid%20-%20The%20Death%20of%20Socrates.jpg",
+    foco: "52% 50%",
+    alt: "Sócrates sentado en el lecho alarga la mano hacia la copa mientras sus discípulos se lamentan.",
+  },
+
   "pedro-paramo": {
     archivo: "Iglesia de Guadalupe en Real de Catorce -024 5 6.jpg",
     autor: "Camino a la iglesia de Guadalupe, en Real de Catorce, San Luis Potosí. Fotografía de Jaime Flores, 2012.",
