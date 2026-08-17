@@ -157,7 +157,7 @@ export const BOMBEROS: Short[] = [
     color: "var(--plum)",
     encargo: "Una casaca azul de uniforme del siglo XIX con un número cosido en el cuello.",
     entrada:
-      "Londres, 1829. La ciudad tiene un millón y medio de habitantes y ninguna policía. La vigilancia la hacen serenos ancianos y cazarrecompensas que cobran por detenido, un sistema que casi nadie considera fiable. La palabra policía suena a Francia y a espionaje, y el Parlamento lleva cuarenta años rechazando todas las propuestas que llegan.",
+      "Londres, 1829. La ciudad tiene un millón y medio de habitantes, es la más grande de Europa y no tiene nada parecido a una policía. La vigilancia la hacen serenos ancianos que dan voces por la noche y cazarrecompensas que cobran por cada detenido que entregan, un sistema que casi nadie considera fiable ni honrado. La palabra policía suena además a Francia, a espionaje y a delación, que es lo último que un inglés de la época quiere en su calle, y el Parlamento lleva cuarenta años rechazando todas las propuestas que llegan.",
     paginas: [
       {
         rotulo: "El uniforme azul",

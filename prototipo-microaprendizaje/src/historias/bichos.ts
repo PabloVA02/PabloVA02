@@ -291,7 +291,7 @@ export const BICHOS: Short[] = [
     curioso: true,
     encargo: "Una ballena jorobada suspendida en agua azul profunda, vista desde abajo.",
     entrada:
-      "Océano Pacífico, 1967. Un biólogo estadounidense consigue grabaciones militares submarinas y descubre que unos sonidos largos y repetitivos que salen en las cintas no son ruido de máquinas: son ballenas jorobadas cantando. Los machos emiten secuencias de hasta veinte minutos que repiten durante horas, y el sonido viaja bajo el agua cientos de kilómetros.",
+      "Océano Pacífico, 1967. Un biólogo estadounidense consigue que le dejen escuchar grabaciones militares submarinas, hechas para detectar submarinos soviéticos, y descubre que unos sonidos largos y repetitivos que salen una y otra vez en las cintas no son ruido de máquinas ni interferencias: son ballenas jorobadas cantando. Los machos emiten secuencias de hasta veinte minutos que repiten durante horas seguidas, sin equivocarse, y el sonido viaja bajo el agua cientos de kilómetros. Al publicar aquello con un disco incluido, cambió para siempre la manera en que la gente miraba a las ballenas.",
     paginas: [
       {
         rotulo: "La misma canción",

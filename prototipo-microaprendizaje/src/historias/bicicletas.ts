@@ -152,7 +152,7 @@ export const BICICLETAS: Short[] = [
     curioso: true,
     encargo: "Un plato y una cadena de bicicleta vistos muy de cerca, con la luz de lado.",
     entrada:
-      "En 1973, una revista científica publicó una comparación que se ha hecho famosa: cuánta energía gasta cada especie para recorrer un kilómetro, teniendo en cuenta su peso. El cóndor salía muy bien parado y el ser humano andando quedaba a media tabla. Pero al añadir a una persona montada en bicicleta, el resultado se salía del gráfico.",
+      "En 1973, una revista científica publicó una comparación que se ha hecho famosa y que se sigue reproduciendo en clase: cuánta energía gasta cada especie animal para recorrer un kilómetro, teniendo en cuenta lo que pesa. Salieron los caballos, los perros, los salmones, las moscas y las abejas. El cóndor salía muy bien parado de la comparación y el ser humano andando quedaba a media tabla, por detrás de bastantes bichos. Pero cuando añadieron una línea más, la de una persona montada en bicicleta, el resultado se salía del gráfico por abajo.",
     paginas: [
       {
         rotulo: "Por qué gana",
