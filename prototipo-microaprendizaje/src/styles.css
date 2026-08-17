@@ -5769,13 +5769,12 @@ button {
    En la portada, "Seguir". En la ultima, los botones y el aviso de que la
    siguiente historia se pide hacia abajo. En las de en medio, nada. */
 .muro-pie { display: none; }
-/* «Seguir» va pegado al final del texto, no clavado al filo de abajo. Con
-   `margin-top: auto` se iba al fondo y, en las entradas que no llenan la
-   pantalla, dejaba un claro enorme entre lo último que se lee y la única
-   indicación de que hay que seguir. El dato curioso sí se queda abajo; lo que
-   sobraba era el aire de debajo de él. */
+/* «Seguir» va clavado abajo, y así se queda: medido, en el César deja 38
+   puntos desde el final del texto y ahí está perfecto. El claro que se veía
+   en los shorts nuevos no lo abría esta regla sino una entrada dos líneas más
+   corta. El arreglo es escribir hasta abajo, no mover el «Seguir». */
 .muro-tirar {
-  margin-top: 4.5cqw;
+  margin-top: auto;
   padding-top: 3.4cqw;
   display: flex;
   align-items: center;

@@ -40,7 +40,7 @@ export const IDEAS: Short[] = [
       },
     ],
     entrada:
-      "En 1938 el físico Hans Bethe explicó por fin de qué vive el Sol, y con esa cuenta se pudo calcular su edad y lo que le queda. Lleva ardiendo cuatro mil seiscientos millones de años y le quedan otros cinco mil. Puesto en una vida humana, tiene cuarenta y tantos años: ni joven ni acabándose. Pero eso no significa que se apague de golpe al final y que hasta entonces aquí no pase nada. Lo que va a hacer el Sol es engordar poco a poco, y ese engorde ya ha empezado. La Tierra tiene los días contados mucho antes, y sabemos con bastante precisión cuántos.",
+      "En 1938 el físico Hans Bethe explicó por fin de qué vive el Sol, y con esa cuenta se pudo calcular su edad y lo que le queda. Lleva ardiendo cuatro mil seiscientos millones de años y le quedan otros cinco mil. Puesto en una vida humana, tiene cuarenta y tantos años: ni joven ni acabándose. Pero eso no significa que se apague de golpe, como una bombilla que se funde. Lo que va a hacer el Sol es engordar poco a poco, y ese engorde ya ha empezado. La Tierra tiene los días contados mucho antes del final, y sabemos con bastante precisión cuántos le quedan. La cuenta es de las más raras que hace la astronomía.",
     paginas: [
       {
         rotulo: "Qué está quemando",
@@ -82,7 +82,7 @@ export const IDEAS: Short[] = [
       },
     ],
     entrada:
-      "Desde los años treinta se enseña en los colegios la misma explicación. El ala es más curva por arriba; el aire de arriba recorre más camino y va más rápido; y al ir más rápido tiene menos presión, así que el ala sube. Suena redondo y tiene un problema serio: nadie ha emparejado esas dos corrientes. No hay razón alguna para que lleguen al final del ala a la vez. Medido, el de arriba llega mucho antes. Y sin embargo el avión vuela, y vuela también boca abajo, cosa que esa explicación no admite. La buena es más simple y más vieja.",
+      "Desde los años treinta se enseña en los colegios la misma explicación. El ala es más curva por arriba; el aire de arriba recorre más camino y va más rápido; y al ir más rápido tiene menos presión, así que el ala sube. Suena redondo y tiene un problema serio: nadie ha emparejado esas dos corrientes de aire. No hay razón alguna para que lleguen al final del ala a la vez, ni nadie las ha cronometrado nunca. Medido, el de arriba llega mucho antes. Y sin embargo el avión vuela, y vuela también boca abajo, cosa que esa explicación no admite de ninguna manera. La buena es más simple, más vieja y cabe en una sola frase que no menciona la curvatura para nada.",
     paginas: [
       {
         rotulo: "Lo que hace",
@@ -124,7 +124,7 @@ export const IDEAS: Short[] = [
       },
     ],
     entrada:
-      "Desde que en 1929 se descubrió que el universo se expande, la pregunta se repite: ¿acaba en algún sitio? Casi siempre se contesta con otra cosa, que el universo observable mide noventa y tres mil millones de años luz. Es verdad y no responde. Ese número es hasta dónde nos ha dado tiempo a ver, porque la luz tiene una velocidad y el universo una edad. Es un límite nuestro, no suyo, igual que el horizonte del mar no es el borde del océano sino el borde de tu vista. Lo que hay pasado ese horizonte no lo sabemos, y puede que no lo sepamos nunca.",
+      "Desde que en 1929 se descubrió que el universo se expande, la pregunta se repite: ¿acaba en algún sitio? Casi siempre se contesta con otra cosa, que el universo observable mide noventa y tres mil millones de años luz. Es verdad y no responde a nada. Ese número es hasta dónde nos ha dado tiempo a ver, porque la luz tiene una velocidad concreta y el universo una edad concreta. Es un límite nuestro, no suyo, igual que el horizonte del mar no es el borde del océano sino el borde de tu vista. Lo que hay pasado ese horizonte no lo sabemos, puede que no lo sepamos nunca, y hay una razón física para ese «nunca».",
     paginas: [
       {
         rotulo: "Lo que se mide",
@@ -168,7 +168,7 @@ export const IDEAS: Short[] = [
       },
     ],
     entrada:
-      "La versión corta es que el agua se evapora, sube, se enfría y cae. Le falta el paso más raro, que no se entendió hasta principios del siglo XX. El vapor de agua, por mucho que se enfríe, no forma gotas él solo: necesita algo sólido donde agarrarse, y diminuto. Sin esas motas, el aire puede cargarse de vapor muy por encima de lo que le corresponde y aun así no llover. Las nubes que ves están construidas sobre polvo del desierto, sal del mar, humo de incendios, polen y hasta bacterias, una partícula por cada gota. Sin suciedad en el aire no habría lluvia.",
+      "La versión corta es que el agua se evapora, sube, se enfría y cae. Le falta el paso más raro de todos, que no se entendió hasta principios del siglo XX. El vapor de agua, por mucho que se enfríe, no forma gotas él solo: necesita algo sólido donde agarrarse, y ese algo tiene que ser diminuto. Sin esas motas, el aire puede cargarse de vapor muy por encima de lo que le corresponde y aun así no llover ni una gota. Las nubes que ves están construidas sobre polvo del desierto, sal del mar, humo de incendios, polen y hasta bacterias, una partícula por cada gota. Sin nada de suciedad flotando en el aire, sencillamente no llovería.",
     paginas: [
       {
         rotulo: "El grano de arena",
