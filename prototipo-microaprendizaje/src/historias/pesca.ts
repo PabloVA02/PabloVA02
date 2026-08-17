@@ -154,7 +154,7 @@ export const PESCA: Short[] = [
     color: "var(--plum)",
     encargo: "Un barco pesquero varado en un puerto vacío bajo un cielo gris.",
     entrada:
-      "Terranova, Canadá, 2 de julio de 1992. El gobierno canadiense anuncia el cierre total de la pesca de bacalao en unas aguas que llevaban abasteciendo a Europa desde el siglo XVI. Se calculaba que allí había pescado para siempre. En veinte años de pesca industrial, la población adulta se había reducido a cerca del uno por ciento de la que hubo.",
+      "Terranova, Canadá, 2 de julio de 1992. El gobierno canadiense anuncia el cierre total de la pesca de bacalao en unas aguas que llevaban abasteciendo a Europa entera desde el siglo XVI, cuando los barcos vascos y portugueses ya bajaban allí a faenar. Durante siglos se dio por hecho que aquel banco era inagotable y que había pescado para siempre. En apenas veinte años de pesca industrial, la población adulta se había reducido a cerca del uno por ciento de la que hubo. De golpe se quedaron sin trabajo treinta mil personas.",
     paginas: [
       {
         rotulo: "Los barcos factoría",
