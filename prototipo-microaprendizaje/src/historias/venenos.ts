@@ -149,7 +149,7 @@ export const VENENOS: Short[] = [
     color: "var(--plum)",
     encargo: "Una mesa larga puesta con vajilla antigua y una copa de plata en primer plano.",
     entrada:
-      "Cortes europeas y asiáticas, desde la Antigüedad hasta el siglo XIX. Un gobernante come rodeado de gente que podría beneficiarse de su muerte, y su cocina la manejan decenas de personas. De ahí nace un puesto de trabajo peculiar: el catador, que prueba delante de todos cada plato y cada bebida antes de que lleguen a la mesa del rey.",
+      "Cortes europeas y asiáticas, desde la Antigüedad hasta bien entrado el siglo XIX. Un gobernante come todos los días rodeado de gente que podría beneficiarse mucho de su muerte, y la comida que se lleva a la boca ha pasado antes por las manos de decenas de personas de la cocina a las que no conoce. De ese miedo, que no era ninguna manía, nace un puesto de trabajo bastante peculiar: el catador, que prueba delante de todos cada plato y cada bebida antes de que lleguen a la mesa. Contra unos venenos funcionaba de verdad. Contra otros, no servía de nada.",
     paginas: [
       {
         rotulo: "Lo que protegía",

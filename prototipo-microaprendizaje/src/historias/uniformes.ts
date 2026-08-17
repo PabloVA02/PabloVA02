@@ -151,7 +151,7 @@ export const UNIFORMES: Short[] = [
     color: "var(--ochre)",
     encargo: "Un abrigo largo azul de niño colgado en una percha de madera.",
     entrada:
-      "Londres, 1552. Un antiguo palacio se convierte en escuela para niños pobres y huérfanos, financiada con donaciones. A sus alumnos se les entrega ropa: un abrigo largo de paño azul, que es la tela más barata porque el tinte de añil era el de menor precio, con medias amarillas. Esa ropa, entregada a cada alumno el día que entra, es el primer uniforme escolar documentado de Europa.",
+      "Londres, 1552. Un antiguo palacio se convierte en escuela para niños pobres y huérfanos de la ciudad, financiada con donaciones de comerciantes. A sus alumnos, además de la enseñanza y la comida, se les entrega ropa el día que entran: un abrigo largo de paño azul, que es la tela más barata que hay porque el tinte de añil era el de menor precio del mercado, y unas medias amarillas. Esa ropa es el primer uniforme escolar documentado de Europa, y no se puso por ninguna razón noble. Con el tiempo, el significado de aquella ropa se dio la vuelta por completo.",
     paginas: [
       {
         rotulo: "La señal",

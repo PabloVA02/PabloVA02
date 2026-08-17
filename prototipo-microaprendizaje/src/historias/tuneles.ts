@@ -154,7 +154,7 @@ export const TUNELES: Short[] = [
     color: "var(--ochre)",
     encargo: "Una tuneladora enorme con la cabeza de corte llena de discos metálicos.",
     entrada:
-      "Suiza, 1999. Empieza la excavación del túnel ferroviario más largo del mundo, un paso de cincuenta y siete kilómetros bajo los Alpes para que los trenes de mercancías crucen la cordillera en llano en lugar de subir por rampas. La montaña tiene encima hasta dos kilómetros y medio de roca. La obra durará diecisiete años.",
+      "Suiza, 1999. Empieza la excavación del túnel ferroviario más largo del mundo, un paso de cincuenta y siete kilómetros por debajo de los Alpes hecho para que los trenes de mercancías crucen la cordillera en llano, sin subir por rampas ni dar vueltas por los valles. En el punto más profundo del trazado la montaña tiene encima hasta dos kilómetros y medio de roca maciza. La obra durará diecisiete años y el problema más gordo no va a ser la piedra, sino algo bastante menos evidente. A esa profundidad, la roca de la montaña está a cuarenta y cinco grados.",
     paginas: [
       {
         rotulo: "El calor",

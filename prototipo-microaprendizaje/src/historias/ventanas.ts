@@ -151,7 +151,7 @@ export const VENTANAS: Short[] = [
     color: "var(--plum)",
     encargo: "Una habitación con una franja de sol entrando por la ventana en el suelo.",
     entrada:
-      "Arquitectura de todas las épocas, con normas de eficiencia energética generalizadas desde los años setenta del siglo XX. Colocar una ventana no es solo una decisión estética. Su orientación decide cuánto sol entra en invierno y cuánto en verano, y esos dos números son muy distintos, porque el sol no hace el mismo recorrido en las dos estaciones.",
+      "Arquitectura de todas las épocas, con normas de eficiencia energética generalizadas desde los años setenta del siglo XX. Decidir dónde va una ventana no es solamente una cuestión de gusto ni de qué se ve desde dentro. Su orientación decide cuánto sol entra en la casa en invierno y cuánto entra en verano, y esos dos números no se parecen en nada, porque el sol no hace el mismo recorrido por el cielo en las dos estaciones. Una ventana bien puesta calienta gratis media casa. Y una mal puesta obliga a poner aire acondicionado toda la vida del edificio.",
     paginas: [
       {
         rotulo: "La altura del sol",

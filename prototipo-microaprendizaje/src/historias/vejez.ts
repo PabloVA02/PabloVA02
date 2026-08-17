@@ -152,7 +152,7 @@ export const VEJEZ: Short[] = [
     curioso: true,
     encargo: "Un libro de registro civil antiguo abierto, con caligrafía a plumilla.",
     entrada:
-      "Desde el año 2000 circulan por el mundo las llamadas zonas azules, un puñado de regiones donde vive una proporción asombrosa de personas de más de cien años y a las que se atribuyen dietas y costumbres milagrosas. En 2024, un investigador de una universidad británica publicó un trabajo que propone otra explicación, mucho menos apetecible y bastante bien documentada.",
+      "Desde el año 2000 circulan por el mundo las llamadas zonas azules: un puñado de regiones repartidas por cuatro continentes donde vive una proporción asombrosa de personas de más de cien años, y a las que se atribuyen dietas, costumbres y filosofías de vida casi milagrosas. Han salido en documentales, en libros y en cientos de reportajes. En 2024, un investigador de una universidad británica publicó un trabajo que propone otra explicación bastante menos apetecible, y la documenta con mucho cuidado. Su punto de partida es que un centenario es, antes que nada, un dato escrito en un papel viejo.",
     paginas: [
       {
         rotulo: "Los papeles",
