@@ -214,6 +214,36 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "heroe-mil-caras": {
+    archivo: "Edward Burne-Jones - The fight- St George kills the dragon VI - Google Art Project.jpg",
+    autor: "San Jorge mata al dragón, óleo de Edward Burne-Jones, 1866.",
+    licencia: "Public domain",
+    pdPorEdad: 1898,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AEdward%20Burne-Jones%20-%20The%20fight-%20St%20George%20kills%20the%20dragon%20VI%20-%20Google%20Art%20Project.jpg",
+    foco: "35% 50%",
+    alt: "Un caballero armado clava la lanza en el dragón mientras una mujer reza arrodillada.",
+  },
+
+  "diarios-frida": {
+    archivo: "“La casa azul”.jpg",
+    autor: "La Casa Azul de Coyoacán, donde vivió Frida Kahlo. Fotografía de Isabel Pinzón, 2019.",
+    licencia: "CC BY-SA 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3A%E2%80%9CLa%20casa%20azul%E2%80%9D.jpg",
+    foco: "22% 45%",
+    alt: "El muro azul cobalto de una casa mexicana con ventanas de marco rojo y verde.",
+  },
+
+  "pajaro-a-pajaro": {
+    archivo: "Bird perching on a branch in the snow (Unsplash).jpg",
+    autor: "Un pájaro posado en una rama nevada. Fotografía de Alice Donovan Rouse, 2016.",
+    licencia: "CC0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ABird%20perching%20on%20a%20branch%20in%20the%20snow%20(Unsplash).jpg",
+    foco: "45% 45%",
+    alt: "Un pajarillo esponjado agarrado a una rama fina, entre ramas desnudas y nieve.",
+  },
+
   "camino-artista": {
     archivo: "Mix of paints (Unsplash).jpg",
     autor: "Paleta con pintura recién puesta. Fotografía de Mike Petrucci, 2016.",
