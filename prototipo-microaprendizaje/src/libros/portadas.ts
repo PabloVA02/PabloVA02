@@ -214,6 +214,33 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "breve-historia-tiempo": {
+    archivo: "Black hole - Messier 87.jpg",
+    autor: "Primera imagen de un agujero negro, el de la galaxia M87. Event Horizon Telescope, 2019.",
+    licencia: "CC BY 4.0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ABlack%20hole%20-%20Messier%2087.jpg",
+    foco: "50% 50%",
+    alt: "Un anillo de luz naranja borrosa rodeando una sombra redonda y negra.",
+  },
+
+  "maneras-de-amar": {
+    archivo: "Leaning together in Cianorte (Unsplash).jpg",
+    autor: "Una pareja apoyada contra un muro de hiedra. Fotografía de João Silas, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ALeaning%20together%20in%20Cianorte%20(Unsplash).jpg",
+    foco: "58% 55%",
+    alt: "Dos personas apoyadas la una en la otra delante de una pared cubierta de hojas oscuras.",
+  },
+
+  influencia: {
+    archivo: "Cheering concertgoers (Unsplash).jpg",
+    autor: "Público con los brazos en alto en un concierto. Fotografía de Ezra Jeffrey, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ACheering%20concertgoers%20(Unsplash).jpg",
+    foco: "45% 55%",
+    alt: "Una multitud levantando las manos entre luces pequeñas, en un concierto de noche.",
+  },
+
   "universo-cascara": {
     archivo: "NASA Black Hole Visualization Takes Viewers Beyond the Brink (SVS14576 - FlyBy Rectilinear 01787).jpg",
     autor: "Simulación de un agujero negro y su disco de acreción. NASA Scientific Visualization Studio, 2024.",
