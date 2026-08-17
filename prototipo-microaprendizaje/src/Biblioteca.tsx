@@ -222,13 +222,15 @@ function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; 
           hacía el `margin-top: auto` del pie, que empuja la pastilla al filo
           de una fila alta. Con el gancho la ficha dice de qué va el libro,
           que es para lo que la gente se para a mirarla. */}
-      <p className="ficha-gancho">{libro.gancho}</p>
+      <p className="ficha-gancho">{primeraFrase(libro.gancho)}</p>
       <p className="ficha-sub">{libro.subtitulo}</p>
       <span className="ficha-pie">
-        <span className="chip-cat" style={{ borderColor: libro.color, color: libro.color }}>
-          {libro.categoria}
+        <span className="chip-cat" style={{ background: libro.color }}>
+          {tema(libro.categoria)}
         </span>
-        {libro.minutos && <span className="ficha-min">{tiempo(libro.minutos)}</span>}
+        {/* Los minutos estorbaban: compartían renglón con la pastilla y en una
+            columna de 157 puntos no caben las dos, así que la etiqueta salía
+            recortada. El dato sigue estando en la ficha del libro. */}
       </span>
     </motion.button>
   );
@@ -410,12 +412,12 @@ export function Inicio({
                   <div className="ancha-arco" style={{ ["--arco" as string]: l.color }}>
                     <Portada libro={l} tamano={132} />
                   </div>
-                  <span className="chip-cat ancha-chip" style={{ borderColor: l.color, color: l.color }}>
-                    {l.categoria}
+                  <span className="chip-cat ancha-chip" style={{ background: l.color }}>
+                    {tema(l.categoria)}
                   </span>
                   <p className="ancha-titulo">{l.titulo}</p>
                   <p className="ancha-autor">{l.autor}</p>
-                  <p className="ancha-texto">{l.gancho}</p>
+                  <p className="ancha-texto">{primeraFrase(l.gancho)}</p>
                 </motion.button>
               ))}
             </div>
@@ -436,6 +438,39 @@ export function Inicio({
       </div>
     </motion.div>
   );
+}
+
+/* La pastilla del libro no dice «Historia»: dice de qué va. Las ocho
+   categorías de verdad no se tocan —son las mismas de la introducción y con
+   ellas se filtra—, pero como etiqueta se quedan cortas: «Historia» no
+   distingue un libro de Roma de uno sobre el futuro del trabajo. Esto es solo
+   el nombre que se enseña, y por eso vive aquí y no en el catálogo. */
+const TEMA: Record<string, string> = {
+  Historia: "Civilización",
+  Filosofía: "Ideas y sentido",
+  Ciencia: "Ciencia y universo",
+  Arte: "Arte y creación",
+  Literatura: "Relato",
+  Psicología: "Mente y conducta",
+  Economía: "Dinero",
+  Salud: "Salud y longevidad",
+};
+const tema = (c: string) => TEMA[c] ?? c;
+
+/* La descripción de la ficha: la primera frase del gancho y nada más. Antes
+   se recortaba con puntos suspensivos a media palabra, que en una parrilla de
+   veinte fichas es un campo de minas de puntitos. Una frase entera, con su
+   punto, se lee y se acaba. */
+function primeraFrase(texto: string): string {
+  const punto = texto.search(/[.:?!]\s/);
+  const frase = punto > 0 ? texto.slice(0, punto) : texto.replace(/[.\s]+$/, "");
+  if (frase.length <= 88) return frase + ".";
+  /* Si la frase es larga se corta por su primera junta —una coma, una raya,
+     un punto y coma—, nunca a media palabra: «…sin recurrir ni una vez a la.»
+     es peor que unos puntos suspensivos. */
+  const junta = frase.search(/\s[—–]|,|;/);
+  if (junta > 34) return frase.slice(0, junta).replace(/[,;\s]+$/, "") + ".";
+  return frase.slice(0, frase.lastIndexOf(" ", 86)) + "…";
 }
 
 /** Pastilla de filtro. El activo se rellena, no solo cambia de color. */

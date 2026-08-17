@@ -1010,27 +1010,35 @@ button {
 }
 
 .ficha-titulo {
-  margin: 9px 0 0;
+  margin: 8px 0 0;
   font-size: 14.5px;
   font-weight: 640;
   line-height: 1.28;
   letter-spacing: -0.015em;
 }
 .ficha-autor {
-  margin: 3px 0 6px;
+  margin: 2px 0 5px;
   font-size: 12.5px;
   color: var(--ink-soft);
   line-height: 1.3;
 }
 
+/* Rellena y no perfilada: sobre el papel una pastilla de contorno se pierde,
+   y es la única mancha de color de la ficha. El texto va en papel porque los
+   cinco acentos son oscuros de por sí. */
 .chip-cat {
   align-self: flex-start;
   font-size: 10.5px;
   font-weight: 700;
-  letter-spacing: 0.03em;
-  padding: 4px 10px;
+  letter-spacing: 0.02em;
+  padding: 4.5px 11px;
   border-radius: 999px;
-  border: 1.5px solid;
+  border: none;
+  color: var(--paper);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 .chip-relleno { border-color: transparent; color: var(--ink); }
 
@@ -1081,8 +1089,9 @@ button {
      portadas salían de distinto tamaño. Con el mínimo a cero las columnas
      son iguales pase lo que pase dentro. */
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px 14px;
-  margin-top: 14px;
+  /* Estaban muy separadas, sobre todo de arriba abajo. */
+  gap: 10px 12px;
+  margin-top: 12px;
   padding: 0 var(--shell-pad);
 }
 /* En la parrilla la ficha manda la columna; el ancho fijo es cosa del
@@ -1096,10 +1105,18 @@ button {
    la baja y la de al lado se queda arriba, y la parrilla se ve descuadrada.
    El claro que esto dejaba antes venía de que las columnas eran de distinto
    ancho, y eso ya está arreglado con `minmax(0, 1fr)`. */
-.parrilla .ficha-pie { margin-top: auto; padding-top: 8px; }
+/* La pastilla va pegada a la descripción, como en la referencia. Empujarla al
+   fondo de la fila alineaba las dos columnas, pero la fila es más alta que su
+   contenido y la pastilla acababa flotando encima de la portada de la fila
+   siguiente: parecía la etiqueta del libro de abajo. */
+.parrilla .ficha-pie { margin-top: 0; padding-top: 6px; }
 /* Y el gancho, a la misma altura en las dos: dos renglones fijos, que es lo
    que hace que las portadas de la fila siguiente empiecen a la vez. */
-.parrilla .ficha-gancho { -webkit-line-clamp: 2; min-height: 2.84em; }
+/* Con el gancho a una altura fija las dos fichas de la fila acaban casi a la
+   vez, que es lo que buscaba el empujón sin sus efectos. */
+.parrilla .ficha-gancho { min-height: 4.3em; margin-bottom: 0; }
+/* Y la fila se ciñe a lo que ocupa: sin esto queda un claro enorme debajo. */
+.parrilla { grid-auto-rows: min-content; }
 
 .ficha-pie {
   display: flex;
@@ -6280,11 +6297,10 @@ button {
   font-size: 12.5px;
   line-height: 1.42;
   color: var(--ink-soft);
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  /* Sin recorte: la frase ya viene entera y corta desde el componente, así
+     que aquí no hace falta ningún «…». */
   overflow: hidden;
 }
 /* En el carrusel la ficha es más estrecha y tres renglones la estiran de
    más: ahí con dos basta para decir de qué va. */
-.carrusel .ficha-gancho { -webkit-line-clamp: 2; }
+
