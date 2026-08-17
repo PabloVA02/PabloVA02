@@ -214,6 +214,46 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "segundo-sexo": {
+    archivo: "(Bemberg Foundation) - 'Portrait of a Young Woman in a White Hat' by Mary Cassatt (1879) Oil on canvas.jpg",
+    autor: "Retrato de una joven con sombrero blanco, óleo de Mary Cassatt, 1879. Fundación Bemberg, Toulouse.",
+    licencia: "Public domain",
+    pdPorEdad: 1926,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3A(Bemberg%20Foundation)%20-%20'Portrait%20of%20a%20Young%20Woman%20in%20a%20White%20Hat'%20by%20Mary%20Cassatt%20(1879)%20Oil%20on%20canvas.jpg",
+    foco: "50% 35%",
+    alt: "Una joven de vestido negro y sombrero blanco de plumas mira de frente, muy seria.",
+  },
+
+  imperiofobia: {
+    archivo: "Sevilla - Torre del Oro and river Guadalquivir at night.jpg",
+    autor: "La Torre del Oro y el Guadalquivir de noche, en Sevilla. Fotografía de Benjamin Smith, 2024.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3ASevilla%20-%20Torre%20del%20Oro%20and%20river%20Guadalquivir%20at%20night.jpg",
+    foco: "42% 45%",
+    alt: "La torre dorada iluminada junto al río, con su reflejo temblando en el agua.",
+  },
+
+  tatuador: {
+    archivo: "Dülmen, Hausdülmen, Zaun einer Wiese -- 2021 -- 4988.jpg",
+    autor: "Alambre de espino cubierto de escarcha al amanecer. Fotografía de Dietmar Rabich, 2021.",
+    licencia: "CC BY-SA 4.0",
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AD%C3%BClmen%2C%20Hausd%C3%BClmen%2C%20Zaun%20einer%20Wiese%20--%202021%20--%204988.jpg",
+    foco: "50% 45%",
+    alt: "Un alambre de espino erizado de cristales de hielo, contra un cielo rosado.",
+  },
+
+  "mente-millonaria": {
+    archivo: "Man on a wooden staircase (Unsplash).jpg",
+    autor: "Un hombre subiendo por una escalera vista desde arriba. Fotografía de Raphael Koh, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AMan%20on%20a%20wooden%20staircase%20(Unsplash).jpg",
+    foco: "45% 50%",
+    alt: "Una escalera blanca y de madera vista en picado, con una figura pequeña subiendo.",
+  },
+
   "capital-siglo-xxi": {
     archivo: "Bank of England Building, City of London (Southwest View - 01).jpg",
     autor: "El edificio del Banco de Inglaterra, en la City de Londres. Fotografía de 2022.",
