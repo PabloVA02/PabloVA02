@@ -214,6 +214,42 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "discurso-metodo": {
+    archivo: "Unfathomed Beauty (Unsplash).jpg",
+    autor: "Un paisaje visto —del revés— a través de una esfera de cristal. Fotografía de Elijah Hiett, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AUnfathomed%20Beauty%20(Unsplash).jpg",
+    foco: "50% 40%",
+    alt: "Una mano sujeta una bola de cristal que devuelve el valle invertido y nítido.",
+  },
+
+  "auschwitz-rees": {
+    archivo: "Path into the snowy forest (Unsplash).jpg",
+    autor: "Camino nevado entrando en un bosque. Fotografía de Artem Kulikov, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3APath%20into%20the%20snowy%20forest%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "Un camino de nieve que se mete entre pinos cargados de blanco.",
+  },
+
+  "padre-rico": {
+    archivo: "Terracotta clay tile (Unsplash).jpg",
+    autor: "Tejado de teja árabe visto de cerca. Fotografía de Dan Gold, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ATerracotta%20clay%20tile%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "Hileras de tejas curvas anaranjadas, unas sobre otras, en diagonal.",
+  },
+
+  "dinero-domina-juego": {
+    archivo: "Anonymously left playing cards (Unsplash).jpg",
+    autor: "Cartas lanzadas al aire entre los árboles. Fotografía de Farhan Siddicq, 2017.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AAnonymously%20left%20playing%20cards%20(Unsplash).jpg",
+    foco: "50% 45%",
+    alt: "Naipes cayendo por el aire delante de una figura de espaldas, en un bosque claro.",
+  },
+
   "homenaje-cataluna": {
     archivo: "Montserrat Mountains 08-Dec-2018-7.jpg",
     autor: "Las agujas de Montserrat, en Cataluña. Fotografía de Alexey Komarov, 2018.",
