@@ -243,7 +243,7 @@ export function PortadaLibro({
   /* Los de autoayuda y dinero van con el título gritado, que es como se
      venden de verdad. Ver `libros/tipograficas.ts`: manda sobre la obra,
      porque a estos una fotografía bonita les quita el aire de libro. */
-  const tipo = PORTADAS_TIPO[id];
+  const tipo = foto ? undefined : PORTADAS_TIPO[id];
   if (tipo) {
     /* El título ocupa la cubierta entera, así que el cuerpo lo decide cuánto
        texto hay y no una escala fija: cuatro palabras cortas piden el doble
@@ -296,12 +296,16 @@ export function PortadaLibro({
      de siempre: papel, emblema y título. Las dos comparten la ceja y la
      tipografía, así que la parrilla no se rompe mientras se van llenando. */
   if (foto) {
+    /* La obra y nada más. El título iba encima con su velo y tapaba media
+       pintura; y encima sobraba, porque en la parrilla y en las fichas el
+       título y el autor ya van DEBAJO de la portada, en su sitio. Quitarlo es
+       lo que pedía Pablo dos veces: que se vea la imagen. Lo único que se
+       queda es la ceja de la categoría, y solo en tamaño grande. */
     return (
       <div
         className="port port-obra"
         style={estilo}
         data-texto={conTexto ? "si" : "no"}
-        data-largo={escala < 1 ? "si" : "no"}
       >
         <img
           className="port-img"
@@ -312,21 +316,6 @@ export function PortadaLibro({
           decoding="async"
         />
         <div className="port-velo" />
-        {conTexto && (
-          <>
-            <div className="port-ceja">{categoria}</div>
-            <div className="port-pie">
-              <div className="port-regla" />
-              <div
-                className="port-titulo"
-                style={{ fontSize: `calc(var(--u) * ${cuerpo})` }}
-              >
-                {titulo}
-              </div>
-              <div className="port-autor">{autor}</div>
-            </div>
-          </>
-        )}
       </div>
     );
   }

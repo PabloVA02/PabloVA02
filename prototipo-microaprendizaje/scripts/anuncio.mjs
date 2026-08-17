@@ -307,6 +307,10 @@ const TOMAS = [
     nombre: "shorts",
     pantalla: "shorts",
     orden: ELEGIDAS,
+    /* La cámara no se está quieta: entra despacio toda la toma. No se la ve
+       moverse y se nota al final. El plano fijo es lo que hace que un anuncio
+       parezca una captura de pantalla. */
+    camara: { de: 1.0, a: 1.07 },
     /* Se deja respirar cada historia y se pasa a la siguiente de un flick. */
     tramos: (() => {
       const t = [{ dur: 1.9, hacer: null }];
@@ -320,6 +324,7 @@ const TOMAS = [
   {
     nombre: "libros",
     pantalla: "inicio",
+    camara: { de: 1.02, a: 1.1 },
     tramos: [
       { dur: 1.6, hacer: null },
       { dur: 1.9, hacer: { tipo: "bajar", px: 560 } },
@@ -339,19 +344,16 @@ const TOMAS = [
   {
     nombre: "anti",
     pantalla: "perfil",
+    /* El final es solo esto y en grande: se entra ya cerca y se sigue
+       acercando mientras caen los candados. A 1,5 la pantalla llena el cuadro
+       de lado a lado y el marco se sale por arriba y por abajo, que es lo que
+       se pide: la pantalla, no el telefono. */
+    camara: { de: 1.32, a: 1.52 },
     tramos: [
-      { dur: 1.4, hacer: null },
-      /* Bajar por el perfil hasta la tarjeta de anti-scroll, que es la única
-         que promete quitarte algo y está la última a propósito. */
-      { dur: 1.7, hacer: { tipo: "hasta", sel: ".perfil-anti", margen: 470 } },
-      { dur: 0.9, hacer: null },
       { dur: 0.04, hacer: { tipo: "pulsar", sel: ".perfil-anti", tras: 950 } },
-      /* Que entre la pantalla y se lea la promesa antes de accionar nada. */
-      { dur: 2.6, hacer: null },
+      { dur: 2.8, hacer: null },
       { dur: 0.04, hacer: { tipo: "pulsar", sel: ".anti-interruptor" } },
-      /* Los candados caen en cascada, dos tiempos cada uno: es el momento
-         que vende la sección, así que se le deja terminar entero. */
-      { dur: 4.6, hacer: null },
+      { dur: 5.2, hacer: null },
     ],
   },
 ];
@@ -386,7 +388,7 @@ if (FOTO) {
       deviceScaleFactor: DENSIDAD, colorScheme: "light",
     });
     await pag.clock.install();
-    await pag.setContent(pagina({ pantalla: toma.pantalla, orden: toma.orden }), { waitUntil: "load" });
+    await pag.setContent(pagina({ pantalla: toma.pantalla, orden: toma.orden }), { waitUntil: "domcontentloaded", timeout: 180000 });
     await pag.clock.runFor(1400);
     await pag.waitForTimeout(700);
     await pag.screenshot({ path: `/tmp/marco-${toma.nombre}.png` });
@@ -406,7 +408,7 @@ for (const toma of TOMAS.filter((t) => !SOLO || t.nombre === SOLO)) {
     reducedMotion: "no-preference",
   });
   await pag.clock.install();
-  await pag.setContent(pagina({ pantalla: toma.pantalla, orden: toma.orden }), { waitUntil: "load" });
+  await pag.setContent(pagina({ pantalla: toma.pantalla, orden: toma.orden }), { waitUntil: "domcontentloaded", timeout: 180000 });
   /* Que la app monte, pinte y termine su animación de entrada antes de rodar.
      Se adelanta de sobra —cuatro segundos— porque el aviso del regalo no sale
      al entrar sino con un temporizador, y hay que dejarle salir aquí para
@@ -450,6 +452,11 @@ for (const toma of TOMAS.filter((t) => !SOLO || t.nombre === SOLO)) {
     const e = s && document.querySelector(s);
     return e ? e.clientHeight : 812;
   }, scroller);
+
+  /* Cuántos fotogramas dura la toma entera: la cámara se interpola contra eso
+     y no contra cada tramo, o daría un tirón en cada corte. */
+  const totalToma = toma.tramos.reduce((n, t) => n + Math.max(1, Math.round(t.dur * FPS)), 0);
+  let hechos = 0;
 
   let base = 0;
   for (const tramo of toma.tramos) {
@@ -517,14 +524,19 @@ for (const toma of TOMAS.filter((t) => !SOLO || t.nombre === SOLO)) {
         const curva = tramo.hacer.tipo === "pasar" ? dedo(p) : suave(p);
         y = desde + (hasta - desde) * curva;
       }
-      await pag.evaluate(([s, y]) => {
+      const cam = toma.camara ?? { de: 1, a: 1 };
+      const escala = cam.de + (cam.a - cam.de) * suave(totalToma <= 1 ? 1 : hechos / (totalToma - 1));
+
+      await pag.evaluate(([s, y, esc]) => {
         if (y !== null) { const e = s && document.querySelector(s); if (e) e.scrollTop = y; }
         const velo = document.querySelector(".regalo-velo");
         if (velo) velo.click();
-      }, [scroller, y]);
+        const escena = document.querySelector(".escena");
+        if (escena) escena.style.transform = "scale(" + esc + ")";
+      }, [scroller, y, escala]);
       await pag.clock.runFor(Math.round(1000 / FPS));
       await escribe(await pag.screenshot({ type: "jpeg", quality: 96 }));
-      total++;
+      total++; hechos++;
     }
     base = hasta;
   }

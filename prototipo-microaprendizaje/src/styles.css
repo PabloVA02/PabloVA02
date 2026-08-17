@@ -6114,15 +6114,18 @@ button {
    para abajo, que es exactamente de lo que se quejaba Pablo. Ahora se apaga
    al 52 %, y lo que antes hacía la mancha oscura lo hace la sombra del
    texto, que tapa las letras y no el cuadro. */
+/* Sin texto encima, el velo ya no tiene que hacer legible nada: queda solo
+   como un asiento para que la obra no flote sobre el fondo oscuro de la
+   estantería. De ahí que sea una sombra de nada en los bordes y no la banda
+   negra de antes, que se comía el tercio de abajo de cada cuadro. */
 .port-velo {
   grid-row: 1 / -1;
   grid-column: 1;
   width: 100%;
   height: 100%;
   background:
-    linear-gradient(to bottom, rgba(10, 10, 16, 0.7) 0%, rgba(10, 10, 16, 0.3) 11%, transparent 26%),
-    linear-gradient(to top, rgba(10, 10, 16, 0.8) 0%, rgba(10, 10, 16, 0.56) 13%,
-                    rgba(10, 10, 16, 0.2) 32%, transparent 52%);
+    linear-gradient(to bottom, rgba(10, 10, 16, 0.16) 0%, transparent 12%),
+    linear-gradient(to top, rgba(10, 10, 16, 0.22) 0%, transparent 16%);
 }
 
 .port-obra .port-ceja,
