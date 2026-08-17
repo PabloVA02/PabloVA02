@@ -154,7 +154,7 @@ export const MEDIDAS: Short[] = [
     color: "var(--slate)",
     encargo: "Un reloj grande de estación con dos juegos de agujas sobre la misma esfera.",
     entrada:
-      "Reino Unido, década de 1840. Hasta ese momento cada ciudad tiene su propia hora, marcada por el sol: cuando el astro está más alto, son las doce, y como el sol no llega a todas partes a la vez, hay unos veinte minutos de diferencia entre las dos puntas del país. Nunca ha importado. Con el ferrocarril empieza a importar mucho.",
+      "Reino Unido, década de 1840. Hasta ese momento cada ciudad del país tiene su propia hora, marcada por el sol y por el reloj de la iglesia: cuando el sol está más alto, son las doce en punto, y como el sol no llega a todas partes a la vez, hay unos veinte minutos de diferencia entre las dos puntas del país. Eso ha sido así toda la vida y no le ha importado nunca a nadie, porque nadie iba tan deprisa. Con el ferrocarril empieza a importar muchísimo, y de golpe.",
     paginas: [
       {
         rotulo: "El choque",
