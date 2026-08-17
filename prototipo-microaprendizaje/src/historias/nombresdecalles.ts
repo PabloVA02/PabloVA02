@@ -150,7 +150,7 @@ export const NOMBRES_DE_CALLES: Short[] = [
     color: "var(--plum)",
     encargo: "Un cruce de calles de tierra sin señalizar en un barrio de casas bajas.",
     entrada:
-      "Buena parte del planeta, hoy. Doscientos cincuenta años después de aquella orden de 1770, se calcula que la mitad de la población mundial vive en sitios sin dirección postal utilizable. Son barrios crecidos deprisa, aldeas sin nombres de calle y asentamientos que no figuran en ningún registro. No es un problema de comodidad. Sin dirección no se puede abrir una cuenta, recibir una ayuda ni explicar dónde mandar una ambulancia.",
+      "Buena parte del planeta, hoy mismo. Doscientos cincuenta años después de que en Europa se empezara a numerar las casas, se calcula que la mitad de la población mundial vive en sitios sin una dirección postal utilizable. Son barrios crecidos deprisa alrededor de las ciudades, aldeas sin nombres de calle y asentamientos que no figuran en ningún registro oficial. No es un problema de comodidad ni de que tarde el paquete: sin dirección no se puede abrir una cuenta, ni cobrar una ayuda, ni explicar dónde tiene que ir una ambulancia. Han aparecido soluciones que se saltan las calles por completo.",
     paginas: [
       {
         rotulo: "Lo que se pierde",

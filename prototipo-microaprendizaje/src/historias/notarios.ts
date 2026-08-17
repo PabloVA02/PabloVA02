@@ -152,7 +152,7 @@ export const NOTARIOS: Short[] = [
     curioso: true,
     encargo: "Firma manuscrita ampliada con lupa, con el trazo y la presión bien visibles.",
     entrada:
-      "Todo el mundo, con la firma como prueba legal asentada desde el siglo XVI. Firmar un papel parece la manera obvia de comprometerse, y como prueba tiene defectos gordos. Una firma nunca sale igual dos veces, un imitador entrenado la reproduce y nada impide cambiar el papel de encima. Aun así sigue siendo el gesto con el que se cierran casi todos los contratos del planeta.",
+      "Todo el mundo, con la firma como prueba legal asentada desde el siglo XVI. Firmar un papel parece la manera más obvia y más sólida de comprometerse con algo, y sin embargo, mirada de cerca, como prueba tiene defectos bastante gordos. Una firma no sale igual dos veces ni siquiera hecha por la misma mano, un imitador con práctica la reproduce en un rato y nada impide cambiar las hojas de encima. Y aun así sigue siendo el gesto con el que se cierran casi todos los contratos del planeta. Y aguanta por una virtud que ninguna otra prueba reúne.",
     paginas: [
       {
         rotulo: "El perito",

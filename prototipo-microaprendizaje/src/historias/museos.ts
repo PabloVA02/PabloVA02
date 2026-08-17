@@ -153,7 +153,7 @@ export const MUSEOS: Short[] = [
     color: "var(--ochre)",
     encargo: "Una placa de bronce africana en relieve dentro de una vitrina iluminada.",
     entrada:
-      "Europa, 2018. Un informe encargado por el gobierno francés propone devolver a sus países de origen los objetos africanos que llegaron a los museos europeos durante la época colonial sin ningún consentimiento. Se calcula que hay unos noventa mil solo en Francia, y varios cientos de miles repartidos por el resto del continente europeo.",
+      "Europa, 2018. Un informe encargado por el gobierno francés a dos investigadores propone algo que hasta entonces casi ningún museo quería oír: devolver a sus países de origen los objetos africanos que llegaron a las colecciones europeas durante la época colonial sin ningún consentimiento por parte de nadie. No se trata de unas pocas piezas de vitrina. Se calcula que hay unos noventa mil solo en Francia, y varios cientos de miles más repartidos por el resto del continente europeo, casi todos guardados en almacenes. Y no todos llegaron de la misma manera, que es lo que complica cualquier decisión.",
     paginas: [
       {
         rotulo: "Cómo llegaron",
