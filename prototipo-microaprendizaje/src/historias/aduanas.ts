@@ -149,7 +149,7 @@ export const ADUANAS: Short[] = [
     curioso: true,
     encargo: "Dos pasillos de aduana con carteles verde y rojo al fondo de una terminal.",
     entrada:
-      "Aeropuertos de todo el mundo, desde los años sesenta. Al salir de la zona de equipajes hay dos pasillos, uno verde para quien no lleva nada que declarar y otro rojo para quien sí. La inmensa mayoría pasa por el verde sin que nadie le diga nada, y esa aparente falta de control es en realidad un sistema muy pensado.",
+      "Aeropuertos de todo el mundo, desde los años sesenta. Al salir de la zona de equipajes hay dos pasillos señalizados con colores: uno verde para quien no lleva nada que declarar y otro rojo para quien sí. La inmensa mayoría de los pasajeros pasa por el verde, arrastrando la maleta, sin que nadie les diga nada ni les abra nada. Parece que ahí no hay ningún control y que basta con elegir bien el pasillo. Esa aparente falta de control es en realidad un sistema muy pensado, y elegir mal sale muy caro.",
     paginas: [
       {
         rotulo: "Por qué no revisan",

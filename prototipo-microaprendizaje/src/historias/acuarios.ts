@@ -149,7 +149,7 @@ export const ACUARIOS: Short[] = [
     curioso: true,
     encargo: "Pez payaso entre los tentáculos de una anémona en un arrecife de coral.",
     entrada:
-      "Todo el mundo, a partir del estreno de una película de animación en 2003. La historia contaba la huida de un pez payaso capturado para un acuario, y el mensaje era claro. El resultado en las tiendas de acuariofilia fue exactamente el opuesto, porque las ventas de esa especie se multiplicaron en pocos meses. Los biólogos marinos llevan estudiando ese efecto desde entonces.",
+      "Todo el mundo quiso uno a partir del estreno de una película de animación en 2003, y la ironía es difícil de superar. La historia contaba la huida de un pez payaso capturado para meterlo en el acuario de una consulta de dentista, y el mensaje era todo lo claro que se puede pedir: ese pez tenía que volver al mar. El resultado en las tiendas de acuariofilia fue exactamente el contrario, porque las ventas de esa especie se multiplicaron en pocos meses. Los biólogos marinos llevan estudiando ese efecto desde entonces.",
     paginas: [
       {
         rotulo: "De dónde salen",
