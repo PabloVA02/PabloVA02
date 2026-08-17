@@ -152,7 +152,7 @@ export const BASURA: Short[] = [
     color: "var(--clay)",
     encargo: "Un carro de mano cargado de trapos y sacos en una calle empedrada del XIX.",
     entrada:
-      "París y Londres, siglo XIX. En las dos ciudades trabajan decenas de miles de personas dedicadas a rebuscar entre los desperdicios. No es una metáfora de la pobreza: es un oficio con jerarquías, rutas asignadas, horarios y precios establecidos, y con una razón económica muy concreta detrás de cada material que se recoge. Nada de lo que se tiraba carecía de comprador.",
+      "París y Londres, siglo XIX. En las dos ciudades trabajan decenas de miles de personas dedicadas a rebuscar entre los desperdicios, de noche y con un gancho en la mano. No es una manera de hablar de la pobreza ni una imagen de novela: es un oficio de verdad, con jerarquías, rutas asignadas por acuerdo, horarios fijos, precios establecidos por material y una razón económica muy concreta detrás de cada cosa que se recoge del suelo. En aquellas ciudades no había nada que se tirara y no tuviera comprador esperando. Y el material más cotizado de todos no era el metal, sino el trapo viejo.",
     paginas: [
       {
         rotulo: "Cada cosa vale",

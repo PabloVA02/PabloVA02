@@ -149,7 +149,7 @@ export const BASURA_ELECTRONICA: Short[] = [
     curioso: true,
     encargo: "Placa de circuito impreso vista de cerca con los contactos dorados brillando.",
     entrada:
-      "Todo el mundo, con la minería urbana estudiada en serio desde el año 2000. En una mina de oro buena se sacan unos pocos gramos de metal por cada tonelada de roca extraída. En una tonelada de placas de circuito de móviles viejos hay varios cientos de gramos. La comparación es cierta y no significa que recuperarlo sea fácil ni barato.",
+      "Todo el mundo, con la minería urbana estudiada en serio desde el año 2000. En una mina de oro de las buenas se sacan unos pocos gramos de metal por cada tonelada de roca que se arranca, se tritura y se procesa. En una tonelada de placas de circuito de móviles viejos hay varios cientos de gramos del mismo metal. La comparación es rigurosamente cierta y se repite mucho, pero no significa lo que parece significar: no quiere decir que recuperarlo sea fácil, ni limpio, ni barato. El problema no está en la cantidad de oro que hay, sino en cómo está mezclado.",
     paginas: [
       {
         rotulo: "Por qué hay oro",

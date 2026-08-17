@@ -229,7 +229,7 @@ export const BICHOS: Short[] = [
     curioso: true,
     encargo: "Un cuervo negro de perfil sobre una rama pelada, con el ojo muy nítido.",
     entrada:
-      "Estados Unidos, 2006. Un grupo de biólogos de una universidad de Seattle necesita capturar cuervos del campus para anillarlos, y sospecha que los animales aprenden a reconocer a quien los atrapa. Para comprobarlo se les ocurre un método sencillo: hacer las capturas siempre con la misma máscara de goma puesta, y después pasear por allí con ella y sin ella.",
+      "Estados Unidos, 2006. Un grupo de biólogos de una universidad de Seattle necesita capturar cuervos del campus para anillarlos y estudiarlos, y lleva tiempo sospechando algo incómodo: que los animales aprenden a reconocer la cara de quien los atrapa y luego se lo hacen pagar. Para comprobarlo se les ocurre un método sencillo y algo ridículo de ver: hacer todas las capturas con la misma máscara de goma puesta, y después pasear tranquilamente por el campus unas veces con ella y otras veces sin ella. Lo que descubrieron con aquella máscara les duró más de una década.",
     paginas: [
       {
         rotulo: "La máscara",
@@ -260,7 +260,7 @@ export const BICHOS: Short[] = [
     curioso: true,
     encargo: "Una fila de hormigas cargando trozos de hoja verde por el suelo del bosque.",
     entrada:
-      "En los bosques de América hay filas de hormigas que cargan trozos de hoja recortados como banderines, diez veces su propio peso, y los meten bajo tierra. Todo el mundo da por hecho que se los comen; no pueden, porque no digieren la celulosa. Los usan de abono para un cultivo que atienden desde hace sesenta millones de años.",
+      "En los bosques de América hay filas interminables de hormigas que cargan trozos de hoja recortados como banderines, diez veces su propio peso, y los meten bajo tierra por la boca del hormiguero. Cualquiera que las mire da por hecho que se los llevan para comérselos, y es lo lógico. No pueden: no digieren la celulosa y esas hojas no les alimentan nada. Lo que hacen con ellas es usarlas de abono para un cultivo que atienden, cuidan y defienden desde hace sesenta millones de años. Son agricultoras desde mucho antes de que existiéramos nosotros.",
     paginas: [
       {
         rotulo: "La granja",

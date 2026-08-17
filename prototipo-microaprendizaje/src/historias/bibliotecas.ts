@@ -154,7 +154,7 @@ export const BIBLIOTECAS: Short[] = [
     color: "var(--plum)",
     encargo: "Baúles metálicos apilados con paquetes envueltos en tela dentro.",
     entrada:
-      "Malí, en el oeste de África, 2012. Un grupo armado toma la ciudad de Tombuctú, que fue durante siglos un centro de estudio con decenas de bibliotecas privadas. Se conservan allí cientos de miles de manuscritos sobre astronomía, medicina, derecho y poesía. Los ocupantes empiezan a destruir monumentos, y los libros son el siguiente objetivo evidente.",
+      "Malí, en el oeste de África, 2012. Un grupo armado toma la ciudad de Tombuctú, que fue durante siglos un centro de estudio islámico con decenas de bibliotecas privadas repartidas por las casas. Se conservan allí cientos de miles de manuscritos sobre astronomía, medicina, derecho, matemáticas y poesía, muchos de ellos del siglo XVI y sin copia en ningún otro sitio del mundo. Los ocupantes empiezan a destruir mausoleos y monumentos delante de las cámaras, y todo el mundo entiende cuál va a ser el siguiente objetivo. Lo que pasó entonces lo organizó un bibliotecario de la ciudad, casa por casa.",
     paginas: [
       {
         rotulo: "Los baúles",
