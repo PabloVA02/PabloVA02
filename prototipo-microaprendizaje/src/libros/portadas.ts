@@ -214,6 +214,35 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "arte-de-amar": {
+    archivo: "P S Krøyer 1899 - Sommeraften ved Skagens strand. Kunstneren og hans hustru.jpg",
+    autor: "Tarde de verano en la playa de Skagen, óleo de Peder Severin Krøyer, 1899.",
+    licencia: "Public domain",
+    pdPorEdad: 1909,
+    fuente:
+      "https://commons.wikimedia.org/wiki/File%3AP%20S%20Kr%C3%B8yer%201899%20-%20Sommeraften%20ved%20Skagens%20strand.%20Kunstneren%20og%20hans%20hustru.jpg",
+    foco: "55% 50%",
+    alt: "Una pareja vestida de claro pasea por la orilla al anochecer, con la luna sobre el mar.",
+  },
+
+  flow: {
+    archivo: "Surfer under a wave (Unsplash).jpg",
+    autor: "Un surfista dentro del tubo de una ola. Fotografía de Jeremy Bishop, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASurfer%20under%20a%20wave%20(Unsplash).jpg",
+    foco: "35% 50%",
+    alt: "Un surfista deslizándose por dentro del tubo verde de una ola que se cierra sobre él.",
+  },
+
+  "dilema-omnivoro": {
+    archivo: "Ears of wheat at dusk (Unsplash).jpg",
+    autor: "Espigas a contraluz al anochecer. Fotografía de Cezanne Ali, 2015.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AEars%20of%20wheat%20at%20dusk%20(Unsplash).jpg",
+    foco: "55% 50%",
+    alt: "Espigas doradas recortadas contra la última luz de la tarde.",
+  },
+
   "intro-psicoanalisis": {
     archivo: "La Bohémienne endormie.jpg",
     autor: "La gitana dormida, óleo de Henri Rousseau, 1897. MoMA, Nueva York.",
