@@ -214,6 +214,42 @@ export const PORTADAS_LIBRO: Record<string, Foto> = {
     alt: "Estatua de bronce del emperador a caballo con el brazo extendido, sobre su pedestal de mármol.",
   },
 
+  "dieta-cojea": {
+    archivo: "Fresh Salad (Unsplash).jpg",
+    autor: "Ensalada de hojas verdes con una botella de aceite al lado. Fotografía de 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AFresh%20Salad%20(Unsplash).jpg",
+    foco: "55% 50%",
+    alt: "Un plato blanco con hojas verdes sobre una mesa de madera, al sol.",
+  },
+
+  "codigo-obesidad": {
+    archivo: "Freshly Picked Apples (Unsplash).jpg",
+    autor: "Manzanas recién cogidas. Fotografía de Sydney Zentz, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3AFreshly%20Picked%20Apples%20(Unsplash).jpg",
+    foco: "50% 50%",
+    alt: "Muchas manzanas rojas amontonadas, con alguna hoja verde entre ellas.",
+  },
+
+  "cerebro-de-pan": {
+    archivo: "Nuts and Fruit (Unsplash).jpg",
+    autor: "Cuenco de almendras con higos abiertos, sobre fondo oscuro. Fotografía de Roberta Sorge, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ANuts%20and%20Fruit%20(Unsplash).jpg",
+    foco: "50% 45%",
+    alt: "Un cuenco de barro lleno de almendras y unos higos partidos al lado.",
+  },
+
+  "poder-metabolismo": {
+    archivo: "Salad Bowl (Unsplash).jpg",
+    autor: "Plato de ensalada servido en una mesa. Fotografía de Henrique Félix, 2016.",
+    licencia: "CC0",
+    fuente: "https://commons.wikimedia.org/wiki/File%3ASalad%20Bowl%20(Unsplash).jpg",
+    foco: "50% 55%",
+    alt: "Un plato hondo con verduras, zanahoria y semillas por encima.",
+  },
+
   "cero-a-uno": {
     archivo: "Vandenberg Air Force Base, United States (Unsplash qjgdslbEn-I).jpg",
     autor: "Despegue de un cohete en la base de Vandenberg, California. Fotografía de Tim Mossholder, 2017.",
