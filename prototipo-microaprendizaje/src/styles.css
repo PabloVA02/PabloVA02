@@ -6395,7 +6395,7 @@ button {
   margin: 26px var(--shell-pad) 0;
 }
 /* La cubierta de un libro no es cuadrada, y en el vídeo tampoco. */
-.tarjeta-seguir .portada { width: 52px !important; height: 61px !important; }
+.tarjeta-seguir .portada { width: 41px !important; height: 61px !important; }
 /* El bloque de título y subtítulo mide 66 px en el vídeo —33 por línea, o
    sea 16,5 puntos de interlínea—, y el nuestro medía 75: el aire de más lo
    dejaba el interlineado suelto y, como el bloque va centrado, empezaba más
@@ -6442,10 +6442,11 @@ button {
 /* 283 px de ancho y 25 de hueco en el vídeo: 141,5 y 12,5 puntos. */
 .carrusel { gap: 12px; }
 .carrusel .ficha { width: 142px; }
-/* La cubierta del vídeo NO es cuadrada: mide 142 × 161,5 puntos, la
-   proporción de un libro. Medido barriendo la columna x=100: de y=622 a
-   y=944, o sea 323 px de los 750 de ancho de pantalla. */
-.carrusel .portada { width: 142px !important; height: 162px !important; }
+/* La casilla tiene la proporción DEL LIBRO, 2:3, y no una inventada. Antes
+   era 142 × 162 y cualquier cubierta de dos por tres entraba recortada por
+   arriba: se perdía el título, que es lo que identifica el libro. La casilla
+   no manda sobre la cubierta; la cubierta manda sobre la casilla. */
+.carrusel .portada { width: 142px !important; height: 213px !important; }
 /* Tipos de la ficha, medidos con la ampliación al doble: el título del vídeo
    tiene 20 px de altura de ascendente contra los 31 nuestros, el autor 16
    contra 21 y la descripción va a 26 px de interlínea. */
@@ -6474,7 +6475,7 @@ button {
    lo mismo siempre —272 puntos de la portada al pie de la pastilla— y lo que
    cede es la descripción. Sin esto, la ficha más alta estiraba la tira y
    bajaba «Retomar» 18 puntos. */
-.carrusel .ficha { height: 272px; }
+.carrusel .ficha { height: 323px; }
 .carrusel .ficha-pie { margin-top: auto; }
 /* La pastilla lleva un filete claro por fuera del relleno: es lo que la
    despega del fondo negro y en la nuestra no estaba. */

@@ -316,11 +316,10 @@ export function PortadaLibro({
           className="port-img"
           src={urlFoto(foto, 520)}
           alt={foto.alt}
-          style={
-            foto.local
-              ? { objectFit: "contain", background: color }
-              : { objectPosition: foto.foco }
-          }
+          /* Ya no hace falta `contain`: la casilla tiene la proporción de la
+             cubierta, así que `cover` no recorta nada. Y sin `contain` no
+             quedan bandas de color a los lados. */
+          style={{ objectPosition: foto.foco ?? "50% 50%" }}
           loading="lazy"
           decoding="async"
         />
