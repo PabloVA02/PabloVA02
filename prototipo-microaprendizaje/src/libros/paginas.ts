@@ -42,43 +42,130 @@ export type PaginaLibro = { bloques: Bloque[] };
    además no deja libros a medias: TODOS entran en el lector desde el primer
    día, que era el fallo de la primera versión.
 
-   La conversión respeta lo que ya hay y no inventa nada:
+   Tres reglas, y las tres salen de mirar la referencia:
 
-     el título de la parte  → el rótulo de la página
-     las tarjetas de texto  → párrafos seguidos
-     las tarjetas `clave`   → la caja del rayo, que es exactamente su papel:
-                              la frase que resume la parada
+   OCHO PÁGINAS SIEMPRE. La cuenta de abajo dice «3 de 8» en todos los
+   resúmenes, sean del largo que sean, y esa constancia es parte del formato:
+   quien entra sabe cuánto le queda antes de empezar. Cortar cada parte por la
+   mitad daba diez páginas en unos libros y catorce en otros. Ahora las ocho
+   se reparten entre las partes a peso de palabras, con una como mínimo para
+   cada una, por el método del resto mayor: la parte más larga se lleva más
+   páginas, pero ninguna se queda sin la suya.
 
-   Una parte de veinte tarjetas es demasiado para una página, así que cada
-   parte se corta en dos. El rótulo va solo en la primera mitad: repetirlo en
-   las dos hace que parezca que te has quedado atascado en el mismo sitio.
+   RÓTULO EN TODAS. En la referencia no hay ni una página sin título. La
+   primera de cada parte lleva el de la parte; las de continuación se quedan
+   con el rótulo de su tarjeta clave, que para eso lo trae. Antes iban a pelo
+   y la mitad del libro empezaba con un párrafo colgando.
+
+   LA CLAVE ES LA CAJA DEL RAYO. Es exactamente su papel en el original —la
+   frase que resume la parada— y exactamente el de la caja en la referencia.
+   No hay que inventar nada: ya está escrita.
+
+   Lo que NO hace esta función es escribir. No se saca de aquí ni una cita ni
+   un bloque de «Prueba esto» que no estuviera ya en el resumen: un libro de
+   historia no tiene deberes que mandar, y ponérselos sería añadir voz propia
+   donde no la hay.
    -------------------------------------------------------------------------- */
 
-type TarjetaMinima = { forma: string; texto?: string; frase?: string };
+type TarjetaMinima = { forma: string; texto?: string; frase?: string; rotulo?: string };
 type ParteMinima = { titulo: string; tarjetas: readonly TarjetaMinima[] };
 
+/** Las que dicen algo. El arte y los gráficos son de la lectura por tarjetas. */
+const util = (t: TarjetaMinima) => t.forma === "texto" || t.forma === "clave";
+
+const pesa = (t: TarjetaMinima) =>
+  ((t.forma === "clave" ? t.frase : t.texto) ?? "").split(/\s+/).filter(Boolean).length;
+
+/**
+ * Reparte `total` páginas entre trozos de distinto peso, con una como mínimo
+ * para cada uno. Método del resto mayor: se da a cada uno su parte entera y
+ * las que sobran van a los que peor salieron parados en el redondeo. Es el
+ * mismo reparto que se usa para los escaños, y por la misma razón: sin él, un
+ * capítulo corto se queda a cero y desaparece del libro.
+ */
+function reparte(pesos: number[], total: number): number[] {
+  const n = pesos.length;
+  if (n >= total) return pesos.map(() => 1);
+  const suma = pesos.reduce((a, b) => a + b, 0) || n;
+  const libres = total - n;
+  const exacto = pesos.map((p) => (p / suma) * libres);
+  const dado = exacto.map(Math.floor);
+  const orden = exacto
+    .map((e, i) => ({ i, resto: e - Math.floor(e) }))
+    .sort((a, b) => b.resto - a.resto);
+  let sobran = libres - dado.reduce((a, b) => a + b, 0);
+  for (const { i } of orden) {
+    if (sobran <= 0) break;
+    dado[i]++;
+    sobran--;
+  }
+  return dado.map((d) => d + 1);
+}
+
+/** Corta una lista en `k` montones de peso parecido, sin desordenarla. */
+function corta(cartas: TarjetaMinima[], k: number): TarjetaMinima[][] {
+  if (k <= 1) return [cartas];
+  const total = cartas.reduce((a, c) => a + pesa(c), 0);
+  const montones: TarjetaMinima[][] = [];
+  let actual: TarjetaMinima[] = [];
+  let llevo = 0;
+  for (const [i, c] of cartas.entries()) {
+    /* Cuánto le queda por repartir y en cuántos montones: si lo que llevo ya
+       pasa de su parte y aún quedan cartas para llenar los montones que
+       faltan, se cierra este y se abre el siguiente. */
+    const faltan = k - montones.length;
+    const cupo = (total - montones.flat().reduce((a, x) => a + pesa(x), 0)) / faltan;
+    if (actual.length && llevo >= cupo && cartas.length - i >= faltan - 1) {
+      montones.push(actual);
+      actual = [];
+      llevo = 0;
+    }
+    actual.push(c);
+    llevo += pesa(c);
+  }
+  if (actual.length) montones.push(actual);
+  /* Si el reparto se quedó corto —pasa con partes de pocas tarjetas—, se
+     completan montones vacíos partiendo el más gordo por la mitad. */
+  while (montones.length < k) {
+    const gordo = montones.reduce((a, b) => (b.length > a.length ? b : a));
+    if (gordo.length < 2) break;
+    const i = montones.indexOf(gordo);
+    montones.splice(i, 1, gordo.slice(0, Math.ceil(gordo.length / 2)), gordo.slice(Math.ceil(gordo.length / 2)));
+  }
+  return montones;
+}
+
+/** Las páginas que tiene todo resumen, con cuenta o sin ella. */
+export const PAGINAS_POR_RESUMEN = 8;
+
 export function paginasDeResumen(partes: readonly ParteMinima[]): PaginaLibro[] {
+  const vivas = partes
+    .map((p) => ({ titulo: p.titulo, cartas: p.tarjetas.filter(util) }))
+    .filter((p) => p.cartas.length);
+  if (!vivas.length) return [];
+
+  const cuotas = reparte(
+    vivas.map((p) => p.cartas.reduce((a, c) => a + pesa(c), 0)),
+    PAGINAS_POR_RESUMEN,
+  );
+
   const paginas: PaginaLibro[] = [];
-
-  for (const parte of partes) {
-    /* Solo texto y clave: las tarjetas de arte y de gráfico son ilustraciones
-       de la lectura por tarjetas y aquí no pintan nada. */
-    const utiles = parte.tarjetas.filter((t) => t.forma === "texto" || t.forma === "clave");
-    if (!utiles.length) continue;
-
-    const mitad = Math.ceil(utiles.length / 2);
-    for (const [n, trozo] of [utiles.slice(0, mitad), utiles.slice(mitad)].entries()) {
-      if (!trozo.length) continue;
+  for (const [n, parte] of vivas.entries()) {
+    for (const [k, monton] of corta(parte.cartas, cuotas[n]).entries()) {
       const bloques: Bloque[] = [];
-      if (n === 0) bloques.push({ b: "rotulo", texto: parte.titulo });
-      for (const t of trozo) {
-        if (t.forma === "clave" && t.frase) bloques.push({ b: "idea", texto: t.frase });
-        else if (t.texto) bloques.push({ b: "texto", texto: t.texto });
+      /* La primera página de una parte lleva el título de la parte; las de
+         continuación, el rótulo de su primera clave. Repetir el de la parte
+         en las dos hace que parezca que te has quedado atascado. */
+      const clave = monton.find((c) => c.forma === "clave" && c.rotulo);
+      const rotulo = k === 0 ? parte.titulo : (clave?.rotulo ?? parte.titulo);
+      bloques.push({ b: "rotulo", texto: rotulo });
+      for (const c of monton) {
+        if (c.forma === "clave" && c.frase) bloques.push({ b: "idea", texto: c.frase });
+        else if (c.texto) bloques.push({ b: "texto", texto: c.texto });
       }
       paginas.push({ bloques });
     }
   }
-
   return paginas;
 }
 

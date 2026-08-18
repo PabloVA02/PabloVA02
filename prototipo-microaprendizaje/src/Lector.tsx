@@ -40,12 +40,20 @@ function Comillas() {
   );
 }
 
+/* Los textos del resumen traen cursivas y algún salto: son treinta y cuatro
+   etiquetas en toda la biblioteca, todas nuestras y todas de la misma
+   familia —`em`, `strong`, `br`—. Pintadas como texto plano se leían con los
+   corchetes a la vista. Se pintan como marcado, que es lo que son. */
+function Marca({ html, className }: { html: string; className: string }) {
+  return <p className={className} dangerouslySetInnerHTML={{ __html: html }} />;
+}
+
 function PintaBloque({ b }: { b: Bloque }) {
   switch (b.b) {
     case "rotulo":
       return <h2 className="lee-rotulo">{b.texto}</h2>;
     case "texto":
-      return <p className="lee-parrafo">{b.texto}</p>;
+      return <Marca className="lee-parrafo" html={b.texto} />;
     case "lista":
       return (
         <ul className="lee-lista">
@@ -62,7 +70,7 @@ function PintaBloque({ b }: { b: Bloque }) {
           <span className="lee-rayo" aria-hidden>
             <Rayo />
           </span>
-          <p>{b.texto}</p>
+          <p dangerouslySetInnerHTML={{ __html: b.texto }} />
         </div>
       );
     case "cita":

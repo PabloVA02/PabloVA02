@@ -6512,7 +6512,12 @@ button {
   opacity: 1 !important;
   background: color-mix(in srgb, var(--arco, #c07ae8) 30%, #fff) !important;
 }
-.detalle-portada .portada { width: 114px !important; height: 128px !important; }
+/* 114 × 171 y no 114 × 128: la cubierta es 2:3 y en una caja más baja que
+   ancha se le come el título, que es justo lo que la identifica. La caja se
+   adapta al libro, no al revés. El arco de detrás sigue midiendo lo que
+   medía; lo que cambia es cuánto asoma la cubierta por arriba. */
+.detalle-portada .portada { width: 114px !important; height: 171px !important; }
+.detalle-arco { margin-bottom: -178px !important; }
 /* Los tres círculos van pegados a la izquierda, no centrados, y montados
    sobre el pie de la cúpula. */
 .detalle-acciones {
@@ -6871,23 +6876,27 @@ button {
   font-variant-numeric: tabular-nums;
 }
 
+/* La pregunta y el botón en columna, no uno al lado del otro: en una de 375
+   la pregunta partía en dos renglones y el botón la empujaba contra el filo.
+   Apilados, la pregunta cabe entera y el botón queda del ancho de la caja,
+   que es como está en la referencia. */
 .lee-final {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: stretch;
   gap: 14px;
-  margin-top: 26px;
+  margin-top: 30px;
 }
 .lee-final span {
   font-family: var(--serifa);
   font-size: 18px;
   color: #f4f2ee;
+  text-align: center;
 }
 .lee-terminar {
-  flex: none;
-  padding: 15px 22px;
+  padding: 16px 22px;
   border-radius: 13px;
-  background: #008dff;
+  background: #4397f7;
   color: #fff;
   font-size: 17px;
   font-weight: 700;
