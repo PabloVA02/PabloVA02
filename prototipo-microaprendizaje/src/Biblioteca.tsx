@@ -261,11 +261,19 @@ export function Inicio({
   const [filtro, setFiltro] = useState<string | null>(null);
 
   const enCurso = LIBROS.filter((l) => l.progreso > 0);
-  const destacado = LIBROS[0];
-  /* Por dónde va el libro de arriba. `progreso` viene a cero en el catálogo
-     de muestra, y un aro al cero no enseña nada de lo que hace: se usa el
-     mismo avance que ya pinta la barra de la tarjeta de continuar. */
+  /* La pastilla de abajo dice «el libro que estás leyendo», así que el libro
+     tiene que ser uno que esté de verdad a medias. Si no hay ninguno —cuenta
+     recién abierta—, se ofrece el primero del catálogo, que es lo mismo que
+     hace la referencia cuando aún no has empezado nada. */
+  const destacado = enCurso[0] ?? LIBROS[0];
+  /* `progreso` viene a cero en el catálogo de muestra, y una barra al cero no
+     enseña nada de lo que hace la pastilla. */
   const avance = destacado.progreso > 0 ? destacado.progreso : 0.15;
+  /* El libro de la franja azul: el que Pablo pidió, y si no está, el primero
+     que tenga cubierta. Sin cubierta la franja se queda solo con el texto, que
+     es mejor que un hueco con el icono de imagen rota. */
+  const libroDeLaFranja =
+    LIBROS.find((l) => l.id === "sapiens") ?? LIBROS.find((l) => l.portada);
 
   /* Las categorías que existen de verdad, con las elegidas en la introducción
      delante. Filtrar por algo que da cero resultados es una vía muerta, así
@@ -355,15 +363,14 @@ export function Inicio({
                 fuerza una caja cuadrada y deformaba el dibujo. Aquí la caja ES
                 el libro: 101 × 152, el 2:3 exacto del fichero que trajo Pablo
                 —1024 × 1536— a la altura que tiene en la referencia. */}
-            <img
-              className="gratis-libro"
-              src={urlFoto(
-                (LIBROS.find((l) => l.id === "sapiens") ?? LIBROS[0]).portada!,
-                420,
-              )}
-              alt=""
-              aria-hidden
-            />
+            {libroDeLaFranja?.portada && (
+              <img
+                className="gratis-libro"
+                src={urlFoto(libroDeLaFranja.portada, 420)}
+                alt=""
+                aria-hidden
+              />
+            )}
           </motion.button>
         )}
 
@@ -477,12 +484,13 @@ export function Inicio({
         animate={{ opacity: 1, y: 0 }}
         transition={{ ...springSoft, delay: 0.24 }}
       >
-        <img
-          className="curso-libro"
-          src={urlFoto(destacado.portada!, 320)}
-          alt=""
-          aria-hidden
-        />
+        {/* Va por `Portada` y no por una imagen suelta: no todos los libros
+            tienen cubierta —los capítulos originales llevan su emblema— y con
+            una etiqueta `img` a pelo la pastilla se quedaba con el hueco. El
+            tamaño se lo da la hoja de estilos, como en el resto de cajas. */}
+        <span className="curso-libro" aria-hidden>
+          <Portada libro={destacado} tamano={27} />
+        </span>
         <span className="curso-texto">
           <span className="curso-titulo">{destacado.titulo}</span>
           <span className="curso-barra">

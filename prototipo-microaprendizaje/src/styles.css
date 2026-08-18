@@ -5991,6 +5991,19 @@ button {
    ========================================================================== */
 
 .port {
+  /* La cubierta es un OBJETO IMPRESO, no una parte de la pantalla: es de papel
+     y de tinta pase lo que pase detrás. Antes heredaba la paleta de la
+     pantalla, y al pasar la biblioteca a fondo oscuro el degradado de papel
+     iba de crema a #222 y volvía a crema —una mancha gris en medio de la
+     cubierta— y el título, que va con la tinta de la pantalla, salía blanco
+     sobre crema. Aquí se le devuelve su paleta y deja de depender de dónde
+     esté colgada. */
+  --paper: #f2ece1;
+  --paper-deep: #e7ddcc;
+  --paper-edge: #dbcfba;
+  --ink: #2e2822;
+  --ink-soft: #6b6154;
+
   position: relative;
   width: 100%;
   height: 100%;
@@ -6677,12 +6690,11 @@ button {
   text-align: left;
 }
 /* La miniatura mide 55 × 81 px en la captura: 27 × 41, otra vez 2:3. */
-.curso-libro {
-  flex: none;
-  width: 27px;
-  height: 41px;
+.curso-libro { flex: none; display: block; }
+.curso-libro .portada {
+  width: 27px !important;
+  height: 41px !important;
   border-radius: 4px;
-  object-fit: cover;
 }
 .curso-texto { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px; }
 .curso-titulo {
