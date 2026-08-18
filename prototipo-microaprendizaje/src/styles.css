@@ -1083,9 +1083,10 @@ button {
 
 /* ---- Parrilla de la estantería ---- */
 
-/* El último renglón tiene que poder subir por encima de la barra flotante:
-   sin este hueco, la barra se come media ficha. */
-.inicio-scroll { padding-bottom: 96px; }
+/* El último renglón tiene que poder subir por encima de la barra: sin este
+   hueco, la barra se come media ficha. Son los 86 que mide, apoyada en el
+   suelo, y 14 de aire para que la ficha no la toque. */
+.inicio-scroll { padding-bottom: 100px; }
 
 .parrilla {
   display: grid;
@@ -2165,29 +2166,36 @@ button {
    La barra de pestañas
    -------------------------------------------------------------------------- */
 
-/* Medida sobre la captura de Blinkist, a 750 × 1624:
-     barra      x 44..707, y 1459..1581  → 331 × 61 puntos, 22 de margen
-     redondeo   entero, o sea la mitad del alto
-     etiqueta   15 px de mayúscula → 7,5 puntos, o sea 11 de cuerpo
-   Antes era una pastilla de `max-content` centrada, con el icono al lado de
-   la etiqueta. Ocupando el ancho y con el icono ENCIMA caben tres pestañas
-   sin apretarlas, y la barra se lee como una barra y no como un botón largo. */
+/* Nació calcada de la captura de Blinkist —331 × 61 flotando a 22 del suelo y
+   de los lados, redondeada entera y con el fondo traslúcido y desenfocado—.
+   Pablo la quiere APOYADA ABAJO DEL TODO y OPACA: la barra de iOS y no la
+   pastilla. De filo a filo, sin que se vea pasar el contenido por debajo y
+   tapando el pie entero, la franja del indicador incluida.
+
+   Las medidas de ahora: 60 puntos de fila —los 61 de antes, redondeados— y 26
+   de zona muerta abajo, que es lo que mide el indicador del iPhone y donde no
+   se puede poner nada que se toque. Suman 86, y 86 es lo que cada pantalla
+   tiene que dejar libre de pie: está apuntado en cada sitio donde se resta. */
 .pestanas {
   position: absolute;
   z-index: 30;
-  left: 22px;
-  right: 22px;
-  bottom: 22px;
-  height: 61px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 86px;
   display: flex;
   align-items: stretch;
-  padding: 4px;
-  border-radius: 999px;
-  background: rgba(30, 30, 30, 0.86);
-  border: 1px solid rgba(255, 255, 255, 0.13);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.42);
+  padding: 6px 10px 26px;
+  /* Opaca de verdad: color entero, sin `rgba` y sin `backdrop-filter`. El
+     desenfoque no solo sobra —debajo ya no se ve nada—, es que obligaba a
+     repintar la franja entera en cada cuadro del muro. */
+  background: #1c1c1e;
+  /* El filete de arriba no es adorno: en las pantallas oscuras —la
+     estantería y la biblioteca son casi de este mismo gris— es lo único que
+     separa la barra del contenido. Sobre el papel de los shorts no hace
+     falta, pero tampoco molesta. */
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 -12px 28px rgba(0, 0, 0, 0.28);
 }
 
 .pestana {
@@ -5674,13 +5682,13 @@ button {
   inset: auto;
   flex: 1;
   min-height: 0;
-  /* El pie deja sitio a la barra de pestañas, que ocupa de 22 a 83 contando
-     desde abajo. Los 6,4cqw de margen se quedan como estaban —son los mismos
-     que arriba y a los lados, y esa igualdad es lo que hace que la hoja no
-     parezca torcida— y encima van los 82 de la barra: 61 que mide, 22 que
-     flota y menos los que ya ponía el margen. Con 68 la última línea quedaba
-     a nueve puntos de la barra, que a la vista es tocarla. */
-  padding: 6.4cqw 5.8cqw calc(6.4cqw + 82px);
+  /* El pie deja sitio a la barra de pestañas, que ahora ocupa de 0 a 86
+     contando desde abajo. Los 6,4cqw de margen se quedan como estaban —son
+     los mismos que arriba y a los lados, y esa igualdad es lo que hace que la
+     hoja no parezca torcida— y encima van los 86 de la barra, menos los que
+     ya ponía el margen. Con 68 la última línea quedaba a nueve puntos de la
+     barra, que a la vista es tocarla; así quedan más de veinte. */
+  padding: 6.4cqw 5.8cqw calc(6.4cqw + 86px);
   background: none;
   display: flex;
   flex-direction: column;
@@ -6010,9 +6018,16 @@ button {
 @media (max-height: 780px) {
   .muro-entrada,
   .short-cuerpo { font-size: 4.4cqw; }
+  /* Ojo con el pie: aquí se reescribe el `padding` entero, así que hay que
+     volver a restar la barra. Sin ese `calc` la última línea se metía debajo
+     de la barra en las pantallas cortas, que son justo las que menos sitio
+     tienen. */
   .muro-hoja,
   .muro-hoja[data-forma="portada"],
-  .muro-hoja[data-forma="pagina"] { padding: 5.4cqw 5.8cqw; gap: 2.8cqw; }
+  .muro-hoja[data-forma="pagina"] {
+    padding: 5.4cqw 5.8cqw calc(5.4cqw + 86px);
+    gap: 2.8cqw;
+  }
   .muro-hoja-cuerpo { gap: 2.8cqw; }
 }
 @media (max-height: 700px) {
@@ -6793,8 +6808,8 @@ button {
   left: 0;
   right: 0;
   width: max-content;
-  /* La altura normal deja libre el pie de la ficha del libro. */
-  bottom: 96px;
+  /* La altura normal deja libre el pie de la ficha del libro, barra incluida. */
+  bottom: 100px;
   z-index: 60;
   margin: 0 auto;
   padding: 12px 20px;
@@ -6879,7 +6894,7 @@ button {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 100px;
+  bottom: 104px;
   z-index: 24;
   width: max-content;
   margin: 0 auto;

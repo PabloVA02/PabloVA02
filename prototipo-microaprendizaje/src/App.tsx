@@ -428,17 +428,20 @@ type Tab = "libros" | "shorts" | "biblioteca";
  * Solo aparece en las pantallas raíz: dentro de un libro o de un short
  * estorbaría, porque esas pantallas ya tienen su propia salida.
  *
- * Calcada de la captura de Blinkist que pasó Pablo, medida sobre los 750 ×
- * 1624 de la grabación —cada píxel suyo es medio punto—:
+ * Empezó calcada de la captura de Blinkist —una pastilla de 331 × 61 flotando
+ * a 22 del suelo, traslúcida y con desenfoque—. Ahora va apoyada abajo del
+ * todo, opaca y de filo a filo: 86 puntos de alto contando los 26 del
+ * indicador. Las medidas están en `.pestanas`, en `styles.css`.
  *
- *   barra          x 44..707, y 1459..1581  → 331 × 61, margen de 22
- *   redondeo       entero, o sea la mitad del alto
- *   etiqueta       15 px de mayúscula → 7,5 puntos, o sea 11 de cuerpo
- *   activa         pastilla más clara detrás, e icono y letra en verde
+ * De la captura se queda lo que valía: la etiqueta de 11, y la pestaña activa
+ * con pastilla más clara detrás e icono y letra en verde.
  *
  * El icono va ENCIMA de la etiqueta y no al lado, que es lo que hace que las
  * tres pestañas quepan a lo ancho sin apretarse. La pastilla del fondo viaja
  * entre pestañas con `layoutId`: el movimiento lo interpola Framer Motion.
+ *
+ * La entrada y la salida se van 96 abajo y no 72: la barra mide más que antes
+ * y con 72 se quedaba un dedo suyo asomando por el filo.
  */
 function BarraPestanas({
   visible,
@@ -460,9 +463,9 @@ function BarraPestanas({
       {visible && (
         <motion.nav
           className="pestanas"
-          initial={{ y: 72, opacity: 0 }}
+          initial={{ y: 96, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          exit={{ y: 72, opacity: 0 }}
+          exit={{ y: 96, opacity: 0 }}
           transition={springSoft}
         >
           {tabs.map(({ id, nombre, Icono }) => (

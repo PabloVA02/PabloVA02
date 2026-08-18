@@ -152,21 +152,32 @@ export function GlyphRayo({ tamano = 20 }: { tamano?: number }) {
   );
 }
 
-/** Libros: dos lomos y uno inclinado, para que se lea como estantería. */
+/**
+ * Libros: un libro ABIERTO, las dos hojas macizas y el lomo de por medio.
+ *
+ * Antes eran tres lomos de canto —dos rectos y uno inclinado, a modo de
+ * estantería—. A 22 puntos, que es como se ve en la barra, tres rectángulos
+ * verticales de cuatro de ancho no se leen como libros: se leen como tres
+ * barras, y con la opacidad escalonada parecían además un gráfico. El libro
+ * abierto tiene silueta propia —la uve del lomo y las dos hojas que se abren
+ * hacia fuera— y esa silueta se reconoce a cualquier tamaño.
+ *
+ * Va relleno y no de trazo, por lo mismo que el rayo de Shorts: un trazo fino
+ * se deshace al reducirlo. Y todo en curvas, sin arcos ni rotaciones, con la
+ * hoja derecha espejo exacto de la izquierda sobre x = 12; la derecha lleva un
+ * punto menos de opacidad, que es lo que da el pliegue sin dibujarlo.
+ */
 export function GlyphLibros({ tamano = 20 }: { tamano?: number }) {
   return (
     <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
-      <rect x="3.4" y="5" width="4.2" height="14" rx="1.1" fill="currentColor" />
-      <rect x="9" y="5" width="4.2" height="14" rx="1.1" fill="currentColor" opacity="0.72" />
-      <rect
-        x="15.1"
-        y="6.2"
-        width="4.2"
-        height="13"
-        rx="1.1"
+      <path
+        d="M11.2 6.6 C9.3 5 6.7 4.1 3.9 3.9 C2.8 3.8 2 4.6 2 5.6 V16 C2 16.9 2.7 17.6 3.6 17.6 C6.4 17.8 8.9 18.7 10.7 20.1 C10.9 20.2 11.2 20.1 11.2 19.8 Z"
         fill="currentColor"
-        opacity="0.5"
-        transform="rotate(11 17.2 12.7)"
+      />
+      <path
+        d="M12.8 6.6 C14.7 5 17.3 4.1 20.1 3.9 C21.2 3.8 22 4.6 22 5.6 V16 C22 16.9 21.3 17.6 20.4 17.6 C17.6 17.8 15.1 18.7 13.3 20.1 C13.1 20.2 12.8 20.1 12.8 19.8 Z"
+        fill="currentColor"
+        opacity="0.78"
       />
     </svg>
   );
