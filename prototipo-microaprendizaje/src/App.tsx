@@ -46,10 +46,10 @@ function pantallaInicial(): Pantalla {
      por dónde quiere que se abra antes de arrancar la app. */
   const p = (globalThis as Record<string, any>).__PANTALLA
     ?? new URLSearchParams(window.location.search).get("p");
-  /* «detalle» y «camino» entran aquí para poder mirarlas sueltas: son las dos
-     que hay que comparar contra los vídeos de referencia y no se llega a
-     ellas sin pasar por la estantería. El libro que abren es el primero del
-     catálogo, que es el que ya trae `libro` por defecto. */
+  /* «detalle» y «lector» entran aquí para poder mirarlas sueltas: son las dos
+     que hay que comparar contra la referencia y no se llega a ellas sin pasar
+     por la estantería. El libro que abren es el primero del catálogo, que es
+     el que ya trae `libro` por defecto. */
   const validas = ["intro", "shorts", "inicio", "perfil", "ajustes", "detalle", "lector"];
   return validas.includes(p ?? "") ? (p as Pantalla) : "intro";
 }
@@ -61,7 +61,7 @@ export default function App() {
      mientras se lee, que es cuando importan. */
   const preferencias = usePreferencias();
   const [libro, setLibro] = useState<Libro>(LIBROS[0]);
-  /** A dónde vuelve el cierre. Un short no devuelve al camino de un libro. */
+  /** A dónde vuelve el cierre. Un short no devuelve a la ficha de un libro. */
   const [vuelta, setVuelta] = useState<Pantalla>("detalle");
   /** Objetivo de lectura de lo que se acaba de terminar, para comparar. */
   const [objetivo, setObjetivo] = useState(MINUTOS_OBJETIVO);
