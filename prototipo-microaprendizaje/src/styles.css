@@ -6322,3 +6322,104 @@ button {
 /* En el carrusel la ficha es más estrecha y tres renglones la estiran de
    más: ahí con dos basta para decir de qué va. */
 
+
+/* ==========================================================================
+   La estantería y la ficha, calcadas de los vídeos de referencia.
+
+   Todo lo de aquí está MEDIDO sobre los dos vídeos que pasó Pablo, no
+   estimado: son grabaciones de 750 × 1624, o sea la pantalla de 375 × 812 a
+   doble densidad, así que cada píxel del vídeo son 0,5 puntos de la app y las
+   cifras salen directas. Los colores son el píxel más brillante de cada
+   mancha de texto y el color plano de cada superficie.
+
+     fondo                #11130f
+     tarjetas y hoja      #49444f
+     pastillas claras     #827a89
+     barra de progreso    #68e06f
+     texto                #ffffff, y #efeaf5 para lo secundario
+
+   Va al final de la hoja y con los mismos selectores que el bloque de arriba
+   —misma especificidad— para que gane por orden y no haya que tocar aquel,
+   que sigue sirviendo al resto de pantallas.
+   ========================================================================== */
+
+.inicio,
+.detalle {
+  --paper: #11130f;
+  --paper-deep: #49444f;
+  --paper-edge: #827a89;
+  --ink: #ffffff;
+  --ink-soft: rgba(239, 234, 245, 0.78);
+  --night: #11130f;
+  /* En los vídeos el margen lateral son 33 píxeles de 750: 16,5 puntos. */
+  --shell-pad: 16px;
+}
+
+/* --- Cabecera ---------------------------------------------------------- */
+/* «Good Morning»: la G mide 37 px de alto en el vídeo, o sea 18,5 puntos de
+   altura de mayúscula, que en esta tipografía son 26 de cuerpo. */
+.inicio-cabecera h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.inicio-cabecera { padding: 10px var(--shell-pad) 0; }
+
+/* En el vídeo mide 140 × 60 px, o sea 70 × 30 puntos. */
+.pastilla-racha {
+  background: var(--paper-deep);
+  border: 1.5px solid var(--paper-edge);
+  color: var(--ink);
+  padding: 0 13px 0 8px;
+  height: 30px;
+  gap: 3px;
+  font-size: 16px;
+}
+
+/* --- Tarjeta de continuar ---------------------------------------------- */
+/* En el vídeo mide 685 × 197 px: 342 × 98 puntos, con 14 de radio. */
+.tarjeta-seguir {
+  background: var(--paper-deep);
+  border-radius: 14px;
+  padding: 14px;
+  gap: 14px;
+  margin: 18px var(--shell-pad) 0;
+}
+.seguir-titulo { font-size: 19px; font-weight: 700; color: var(--ink); }
+.seguir-sub { font-size: 17px; color: var(--ink-soft); }
+.seguir-barra { background: var(--paper-edge); height: 7px; margin-top: 9px; }
+.seguir-relleno { background: #68e06f; }
+.seguir-flecha { color: var(--ink); }
+
+/* --- Rótulos de bloque -------------------------------------------------- */
+.bloque h2 { font-size: 19px; font-weight: 700; letter-spacing: -0.02em; }
+/* En los vídeos la portada no tiene fila de categorías: se va de la tarjeta
+   de continuar a «Recommended for you» directamente. Se oculta aquí y no se
+   borra del componente porque el filtro sigue existiendo y se usa desde la
+   vista de todos los libros. */
+.inicio .filtros { display: none; }
+.bloque-sub { font-size: 17px; color: var(--ink-soft); margin-top: 3px; }
+/* «Manage»: 155 × 59 px en el vídeo son 77 × 29 puntos. */
+.bloque-accion {
+  background: var(--paper-edge);
+  border: none;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 600;
+  height: 29px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+/* Del pie de la tarjeta de continuar al rótulo siguiente hay 68 px en el
+   vídeo: 34 puntos. */
+.bloque { margin-top: 30px; }
+
+/* --- Fichas ------------------------------------------------------------- */
+/* 283 px de ancho y 25 de hueco en el vídeo: 141,5 y 12,5 puntos. */
+.carrusel { gap: 12px; }
+.carrusel .ficha { width: 142px; }
+.ficha-titulo { font-size: 16px; font-weight: 700; color: var(--ink); margin-top: 10px; }
+.ficha-autor { font-size: 14px; color: var(--ink-soft); margin: 3px 0 0; }
+.ficha-sub { font-size: 14px; color: var(--ink-soft); margin: 7px 0 0; line-height: 1.35; }
+.ficha-pie { margin-top: 9px; }
