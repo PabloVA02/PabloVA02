@@ -6598,20 +6598,20 @@ button {
 /* La cubierta va entera dentro de la franja, apoyada a la derecha y con una
    inclinación corta. Con el giro grande y desplazada hacia fuera se salía por
    el filo y se veía media. */
-.franja-gratis {
-  padding-right: 18px;
-}
-/* El libro de la referencia mide 117 × 154 puntos y se ve entero. La caja va
-   a la proporción de la cubierta —2:3— para que no sobre ni falte nada:
-   103 × 154 son los mismos 154 de alto sin recortar un milímetro. */
-.franja-gratis .portada {
+/* El libro de la referencia mide 154 puntos de alto y en la franja le quedan
+   unos 10 de margen a la derecha, centrado en vertical. La caja ES la
+   cubierta: 103 × 154 es su propio 2:3 a esa altura, así que no hay ni
+   recorte ni deformación ni hueco que rellenar. */
+.gratis-libro {
   flex: none;
-  width: 103px !important;
-  height: 154px !important;
+  display: block;
+  width: 103px;
+  height: 154px;
+  margin-right: 10px;
+  border-radius: 4px;
   transform: rotate(4deg);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.34);
 }
-.franja-gratis .port-img { object-fit: contain; }
 
 .ficha-arte { position: relative; }
 .ficha-guardar {

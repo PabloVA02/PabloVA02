@@ -7,6 +7,7 @@ import {
 } from "./undraw";
 import { Llama } from "./Racha";
 import { enterVariants, spring, springPop, springSoft } from "./motion";
+import { urlFoto } from "./shorts";
 import { GlyphBack, GlyphClose, GlyphDescargar, GlyphGuardar, GlyphShare } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { PortadaLibro } from "./PortadaLibro";
@@ -387,7 +388,19 @@ export function Inicio({
                 Obtener ahora <span aria-hidden>→</span>
               </span>
             </span>
-            <Portada libro={LIBROS.find((l) => l.id === "sapiens") ?? LIBROS[0]} tamano={104} />
+            {/* La cubierta va como imagen suelta y no por `Portada`, que
+                fuerza una caja cuadrada y deformaba el dibujo. Aquí la caja ES
+                el libro: 103 × 154, o sea el 2:3 de la cubierta con los mismos
+                154 de alto que tiene en la referencia. */}
+            <img
+              className="gratis-libro"
+              src={urlFoto(
+                (LIBROS.find((l) => l.id === "sapiens") ?? LIBROS[0]).portada!,
+                420,
+              )}
+              alt=""
+              aria-hidden
+            />
           </motion.button>
         )}
 
