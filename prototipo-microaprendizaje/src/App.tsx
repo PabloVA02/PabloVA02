@@ -5,7 +5,7 @@ import { cargarResumen, resumenCargado } from "./libros/indice";
 import type { Resumen } from "./libros/tipos";
 import { minutos as minutosDe } from "./libros/tipos";
 import { Racha, RetoDiario } from "./Racha";
-import { DetalleLibro, Inicio, LIBROS, type Libro } from "./Biblioteca";
+import { DetalleLibro, Inicio, LIBROS, MiBiblioteca, type Libro } from "./Biblioteca";
 import { Onboarding } from "./Onboarding";
 import { MuroShorts } from "./Shorts";
 import { Pago } from "./Pago";
@@ -19,18 +19,18 @@ import { PAGINAS, paginasDeResumen } from "./libros/paginas";
 import { AvisoRegalo, Oferta } from "./Regalo";
 import { AvisoValoracion } from "./Valoracion";
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
-import { GlyphLibros, GlyphPerfil, GlyphRayo } from "./glyphs";
+import { GlyphBiblioteca, GlyphLibros, GlyphRayo } from "./glyphs";
 
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "lector" | "fin" | "racha" | "reto"
-  | "shorts" | "perfil" | "ajustes" | "oferta" | "alta"
+  | "shorts" | "perfil" | "ajustes" | "oferta" | "alta" | "biblioteca"
   | "anti";
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
 /* La barra de pestañas no sale mientras se lee un short. En la maqueta que
    aprobó Pablo la pantalla es la página entera, y una barra flotando encima
    se comía las dos últimas líneas del texto y el "Seguir". Se vuelve a ver en
    cuanto se sale del muro. */
-const CON_BARRA: Pantalla[] = ["inicio", "perfil"];
+const CON_BARRA: Pantalla[] = ["inicio", "perfil", "biblioteca"];
 
 /** Racha de ejemplo del prototipo. */
 const RACHA = 3;
@@ -50,7 +50,7 @@ function pantallaInicial(): Pantalla {
      que hay que comparar contra la referencia y no se llega a ellas sin pasar
      por la estantería. El libro que abren es el primero del catálogo, que es
      el que ya trae `libro` por defecto. */
-  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes", "detalle", "lector"];
+  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes", "detalle", "lector", "biblioteca"];
   return validas.includes(p ?? "") ? (p as Pantalla) : "intro";
 }
 
@@ -224,6 +224,18 @@ export default function App() {
               onGuardar={alternarGuardado}
             />
           )}
+          {pantalla === "biblioteca" && (
+            <MiBiblioteca
+              key="biblioteca"
+              guardados={guardados}
+              onAbrir={(l) => {
+                setLibro(l);
+                setPantalla("detalle");
+              }}
+              onGuardar={alternarGuardado}
+              onExplorar={() => setPantalla("inicio")}
+            />
+          )}
           {pantalla === "perfil" && (
             <Perfil
               key="perfil"
@@ -391,7 +403,7 @@ export default function App() {
 
         <BarraPestanas
           visible={CON_BARRA.includes(pantalla)}
-          activa={pantalla === "shorts" ? "shorts" : pantalla === "perfil" ? "perfil" : "libros"}
+          activa={pantalla === "shorts" ? "shorts" : pantalla === "biblioteca" ? "biblioteca" : "libros"}
           onIr={(t) => setPantalla(t === "libros" ? "inicio" : t)}
         />
       </div>
@@ -403,13 +415,23 @@ export default function App() {
    La barra de pestañas
    ========================================================================== */
 
-type Tab = "libros" | "shorts" | "perfil";
+type Tab = "libros" | "shorts" | "biblioteca";
 
 /**
- * Solo aparece en las dos pantallas raíz: dentro de un libro, de un capítulo o
- * de un short estorbaría, porque esas pantallas ya tienen su propia salida.
- * La pastilla del fondo se desliza entre pestañas con `layoutId`, así que el
- * movimiento lo interpola Framer Motion y no hay que calcular posiciones.
+ * Solo aparece en las pantallas raíz: dentro de un libro o de un short
+ * estorbaría, porque esas pantallas ya tienen su propia salida.
+ *
+ * Calcada de la captura de Blinkist que pasó Pablo, medida sobre los 750 ×
+ * 1624 de la grabación —cada píxel suyo es medio punto—:
+ *
+ *   barra          x 44..707, y 1459..1581  → 331 × 61, margen de 22
+ *   redondeo       entero, o sea la mitad del alto
+ *   etiqueta       15 px de mayúscula → 7,5 puntos, o sea 11 de cuerpo
+ *   activa         pastilla más clara detrás, e icono y letra en verde
+ *
+ * El icono va ENCIMA de la etiqueta y no al lado, que es lo que hace que las
+ * tres pestañas quepan a lo ancho sin apretarse. La pastilla del fondo viaja
+ * entre pestañas con `layoutId`: el movimiento lo interpola Framer Motion.
  */
 function BarraPestanas({
   visible,
@@ -423,7 +445,7 @@ function BarraPestanas({
   const tabs: { id: Tab; nombre: string; Icono: (p: { tamano?: number }) => ReactElement }[] = [
     { id: "libros", nombre: "Libros", Icono: GlyphLibros },
     { id: "shorts", nombre: "Shorts", Icono: GlyphRayo },
-    { id: "perfil", nombre: "Perfil", Icono: GlyphPerfil },
+    { id: "biblioteca", nombre: "Biblioteca", Icono: GlyphBiblioteca },
   ];
 
   return (
@@ -452,7 +474,7 @@ function BarraPestanas({
                 animate={activa === id ? { scale: [1, 1.22, 1], y: [0, -3, 0] } : { scale: 1, y: 0 }}
                 transition={springPop}
               >
-                <Icono tamano={21} />
+                <Icono tamano={22} />
               </motion.span>
               <span className="pestana-nombre">{nombre}</span>
             </button>

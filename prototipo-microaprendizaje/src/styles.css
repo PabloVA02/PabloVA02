@@ -2165,39 +2165,52 @@ button {
    La barra de pestañas
    -------------------------------------------------------------------------- */
 
+/* Medida sobre la captura de Blinkist, a 750 × 1624:
+     barra      x 44..707, y 1459..1581  → 331 × 61 puntos, 22 de margen
+     redondeo   entero, o sea la mitad del alto
+     etiqueta   15 px de mayúscula → 7,5 puntos, o sea 11 de cuerpo
+   Antes era una pastilla de `max-content` centrada, con el icono al lado de
+   la etiqueta. Ocupando el ancho y con el icono ENCIMA caben tres pestañas
+   sin apretarlas, y la barra se lee como una barra y no como un botón largo. */
 .pestanas {
   position: absolute;
   z-index: 30;
-  left: 0;
-  right: 0;
+  left: 22px;
+  right: 22px;
   bottom: 22px;
-  width: max-content;
-  margin: 0 auto;
+  height: 61px;
   display: flex;
-  gap: 4px;
-  padding: 5px;
+  align-items: stretch;
+  padding: 4px;
   border-radius: 999px;
-  background: rgba(14, 14, 22, 0.82);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  box-shadow: 0 10px 30px rgba(14, 14, 22, 0.34);
+  background: rgba(30, 30, 30, 0.86);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.42);
 }
 
 .pestana {
   position: relative;
+  flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 6px;
-  padding: 9px 13px;
+  justify-content: center;
+  gap: 3px;
   border-radius: 999px;
-  color: rgba(242, 236, 225, 0.55);
-  font-size: 12.5px;
-  font-weight: 620;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 11px;
+  font-weight: 650;
   letter-spacing: 0.01em;
   transition: color 0.18s ease;
 }
 
-.pestana[data-activa="true"] { color: var(--carbon); }
+/* El verde es el de la captura, muestreado: #6ddc89. Se usa en tres sitios y
+   siempre para lo mismo —la pestaña en la que estás, el avance de lo que
+   lees y el regalo—, o sea para lo que ya es tuyo. El azul se queda para lo
+   que se te ofrece. */
+.pestana[data-activa="true"] { color: #6ddc89; }
 
 /* La pastilla viaja entre pestañas: la interpola `layoutId`, no el CSS */
 .pestana-pastilla {
@@ -2205,7 +2218,7 @@ button {
   inset: 0;
   z-index: -1;
   border-radius: 999px;
-  background: var(--paper);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .pestana-icono { display: grid; place-items: center; }
@@ -6394,7 +6407,7 @@ button {
   border-bottom: 1px solid #4e4e4e;
 }
 /* De la raya al filo de arriba de la franja azul hay 21 px: 10,5 puntos. */
-.inicio .franja-gratis { margin-top: 11px; }
+.inicio .franja-gratis { margin-top: 14px; }
 
 /* En el vídeo mide 140 × 60 px, o sea 70 × 30 puntos. */
 .pastilla-racha {
@@ -6615,9 +6628,12 @@ button {
   align-items: center;
   justify-content: space-between;
   width: calc(100% - var(--shell-pad) * 2);
-  height: 180px;
+  /* Pablo la quiere más pequeña. De 180 a 152, que es lo que hace falta para
+     que el rótulo siga cayendo en tres líneas y la cubierta siga entrando
+     entera: por debajo de eso el libro se recorta por arriba y por abajo. */
+  height: 152px;
   margin: 16px var(--shell-pad) 0;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 18px;
   border-radius: 11px;
   background: #4397f7;
   overflow: hidden;
@@ -6625,9 +6641,9 @@ button {
 }
 .gratis-texto { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1px; }
 .gratis-titulo {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.24;
   letter-spacing: -0.02em;
   color: #fff;
   /* 165 dejaba «gratuita» compartiendo renglón; con 150 caen las tres
@@ -6637,8 +6653,8 @@ button {
 .gratis-llamada {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 17px;
+  gap: 9px;
+  font-size: 15px;
   font-weight: 500;
   color: #fff;
 }
@@ -6649,9 +6665,9 @@ button {
 .gratis-libro {
   flex: none;
   display: block;
-  width: 101px;
-  height: 152px;
-  margin-right: 2px;
+  width: 86px;
+  height: 129px;
+  margin-right: 4px;
   border-radius: 5px;
   transform: rotate(6deg);
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.3);
@@ -6729,56 +6745,136 @@ button {
 
 /* --- La pastilla del libro en curso ------------------------------------ */
 
-/* Flota sobre el contenido, no lo empuja: en la captura la sección de abajo
-   se ve pasar por detrás. 120 px de alto en la captura → 60 puntos, y el
-   redondeo es entero, o sea la mitad del alto. */
+/* Va ARRIBA, encima de la lectura gratuita, y ya no flota: lo que estás
+   leyendo pesa más que lo que se te ofrece, así que ocupa sitio en la página
+   en vez de taparla. La forma sale de la captura de Blinkist: pastilla
+   entera, cubierta a la izquierda, ceja pequeña sobre el título y la barra de
+   avance corriendo por el filo de abajo. */
 .pastilla-curso {
-  position: absolute;
-  left: var(--shell-pad);
-  right: var(--shell-pad);
-  bottom: 100px;
-  z-index: 12;
+  position: relative;
   display: flex;
   align-items: center;
   gap: 12px;
-  height: 60px;
-  padding: 0 16px 0 12px;
-  border-radius: 30px;
-  background: #383838;
-  border: 1px solid #606060;
+  width: calc(100% - var(--shell-pad) * 2);
+  margin: 12px var(--shell-pad) 0;
+  padding: 11px 18px 13px 11px;
+  border-radius: 34px;
+  background: #2c2c2c;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   text-align: left;
+  overflow: hidden;
 }
-/* La miniatura mide 55 × 81 px en la captura: 27 × 41, otra vez 2:3. */
 .curso-libro { flex: none; display: block; }
 .curso-libro .portada {
-  width: 27px !important;
-  height: 41px !important;
+  width: 30px !important;
+  height: 45px !important;
   border-radius: 4px;
 }
-.curso-texto { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px; }
+.curso-texto { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.curso-ceja { font-size: 13px; font-weight: 500; color: rgba(255, 255, 255, 0.66); }
 .curso-titulo {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   color: #fff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* La barra son 6 px de alto en la captura: 3 puntos. */
+/* La barra no va debajo del texto: va pegada al filo de abajo y de lado a
+   lado, que es lo que hace que se lea como el avance de la pastilla entera y
+   no como un adorno del título. */
 .curso-barra {
-  height: 3px;
-  border-radius: 2px;
-  background: #6b6b6b;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.14);
   overflow: hidden;
 }
 .curso-relleno {
   display: block;
   height: 100%;
-  background: #4397f7;
+  background: #6ddc89;
   transform-origin: left;
 }
-.curso-play { flex: none; color: #fff; display: grid; place-items: center; }
-.curso-play svg { width: 26px; height: 26px; }
+
+/* --- «Tu regalo» -------------------------------------------------------- */
+
+/* Flota centrada sobre el contenido, por encima de la barra de pestañas. El
+   verde —#6ddc89, muestreado de la captura— es el único color cálido de una
+   pantalla de grises y azul: destaca sin gritar, y es el que se asocia a que
+   algo está disponible y no cuesta nada. La letra va en verde muy oscuro y no
+   en negro: sobre un verde claro, el negro puro corta. */
+.regalo-flota {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  z-index: 24;
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 52px;
+  padding: 0 26px 0 21px;
+  border-radius: 999px;
+  background: #6ddc89;
+  color: #10301d;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+.regalo-lazo { display: grid; place-items: center; }
+
+/* --- Mi biblioteca: lo que has guardado -------------------------------- */
+
+/* Parrilla y no carrusel: la diferencia entre ojear y buscar. Aquí vienes a
+   por un libro concreto que ya elegiste. */
+.parrilla {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px 16px;
+  padding: 0 var(--shell-pad);
+  margin-top: 14px;
+}
+.parrilla .ficha { width: 100%; gap: 0; }
+.parrilla .portada { width: 100% !important; height: auto !important; aspect-ratio: 2 / 3; }
+.guardados .bloque-sub { padding: 0 var(--shell-pad); }
+
+.guardados-vacio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 76px 34px 0;
+}
+.guardados-marca {
+  display: grid;
+  place-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 999px;
+  background: #383838;
+  border: 1px solid #606060;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.guardados-marca svg { width: 26px; height: 26px; }
+.guardados-titulo { margin: 0; font-size: 19px; font-weight: 700; color: #fff; }
+.guardados-sub { margin: 8px 0 0; font-size: 15px; line-height: 1.36; color: #9a9a9a; }
+.guardados-ir {
+  margin-top: 22px;
+  height: 46px;
+  padding: 0 26px;
+  border-radius: 999px;
+  background: #6ddc89;
+  color: #10301d;
+  font-size: 16px;
+  font-weight: 700;
+}
 
 /* ==========================================================================
    El lector por páginas, calcado de la grabación.

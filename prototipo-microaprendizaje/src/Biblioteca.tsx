@@ -8,7 +8,7 @@ import {
 import { Llama } from "./Racha";
 import { enterVariants, spring, springPop, springSoft } from "./motion";
 import { urlFoto } from "./shorts";
-import { GlyphClose, GlyphDescargar, GlyphGuardar, GlyphShare } from "./glyphs";
+import { GlyphClose, GlyphDescargar, GlyphGuardar, GlyphRegalo, GlyphShare } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { APRENDERAS } from "./libros/aprenderas";
 import { PortadaLibro } from "./PortadaLibro";
@@ -179,6 +179,90 @@ export function Portada({ libro, tamano = 140 }: { libro: Libro; tamano?: number
         foto={libro.portada}
       />
     </div>
+  );
+}
+
+/* -------------------------------------------------------------------------
+   Mi biblioteca: lo que has guardado
+   ------------------------------------------------------------------------- */
+
+/**
+ * La tercera pestaña. Enseña exactamente lo que se ha guardado con el botón
+ * de la esquina de las cubiertas, ni más ni menos: si esa pestaña llevara a
+ * otro catálogo, el botón de guardar no significaría nada.
+ *
+ * Va en parrilla y no en carrusel, que es la diferencia entre ojear y buscar:
+ * aquí vienes a por un libro concreto que ya elegiste.
+ */
+export function MiBiblioteca({
+  guardados,
+  onAbrir,
+  onGuardar,
+  onExplorar,
+}: {
+  guardados: ReadonlySet<string>;
+  onAbrir: (libro: Libro) => void;
+  onGuardar: (libro: Libro) => void;
+  /** Salida de la pantalla vacía: no se deja a nadie delante de una nada. */
+  onExplorar: () => void;
+}) {
+  const mios = LIBROS.filter((l) => guardados.has(l.id));
+
+  return (
+    <motion.div
+      className="inicio guardados"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: spring }}
+      exit={{ opacity: 0, transition: { duration: 0.18 } }}
+    >
+      <div className="inicio-scroll">
+        <header className="inicio-cabecera">
+          <motion.h1 custom={0} variants={enterVariants} initial="hidden" animate="shown">
+            Mi biblioteca
+          </motion.h1>
+        </header>
+
+        {mios.length === 0 ? (
+          <motion.div
+            className="guardados-vacio"
+            initial={{ opacity: 0, y: 14 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ...spring, delay: 0.08 }}
+          >
+            <span className="guardados-marca" aria-hidden>
+              <GlyphGuardar />
+            </span>
+            <p className="guardados-titulo">Todavía no has guardado nada</p>
+            <p className="guardados-sub">
+              Toca el marcador de la esquina de cualquier cubierta y el libro
+              aparecerá aquí.
+            </p>
+            <button className="guardados-ir" type="button" onClick={onExplorar}>
+              Ver libros
+            </button>
+          </motion.div>
+        ) : (
+          <section className="bloque">
+            <p className="bloque-sub">
+              {mios.length} {mios.length === 1 ? "libro guardado" : "libros guardados"}
+            </p>
+            <div className="parrilla">
+              {mios.map((l, i) => (
+                <FichaLibro
+                  key={l.id}
+                  libro={l}
+                  i={Math.min(i, 9)}
+                  onAbrir={() => onAbrir(l)}
+                  guardado
+                  onGuardar={() => onGuardar(l)}
+                />
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+
+    </motion.div>
   );
 }
 
@@ -371,6 +455,39 @@ export function Inicio({
           </motion.button>
         </header>
 
+        {/* El libro a medias, lo primero de todo. Antes flotaba abajo, en el
+            sitio donde Blinkist pone su reproductor; Pablo lo quiere arriba,
+            encima de la lectura gratuita, y tiene su lógica: lo que estás
+            leyendo pesa más que lo que se te ofrece.
+
+            La forma sale de su captura: pastilla entera, la cubierta a la
+            izquierda, la ceja pequeña encima del título y la barra de avance
+            corriendo por el filo de abajo, en verde. */}
+        <motion.button
+          className="pastilla-curso"
+          onClick={() => onAbrir(destacado)}
+          whileTap={{ scale: 0.985 }}
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...spring, delay: 0.04 }}
+        >
+          <span className="curso-libro" aria-hidden>
+            <Portada libro={destacado} tamano={27} />
+          </span>
+          <span className="curso-texto">
+            <span className="curso-ceja">Seguir leyendo</span>
+            <span className="curso-titulo">{destacado.titulo}</span>
+          </span>
+          <span className="curso-barra">
+            <motion.span
+              className="curso-relleno"
+              initial={{ scaleX: 0 }}
+              animate={{ scaleX: avance }}
+              transition={{ ...springSoft, delay: 0.4 }}
+            />
+          </span>
+        </motion.button>
+
         {/* La lectura diaria gratuita, lo primero de la pantalla. Medido
             sobre la captura de Pablo, que va a 750 × 1624 —o sea la pantalla
             a doble densidad, un píxel de la captura por medio punto—:
@@ -520,42 +637,27 @@ export function Inicio({
 
       </div>
 
-      {/* La pastilla del libro en curso, flotando sobre el contenido y por
-          encima de la barra de pestañas. En la referencia este sitio lo ocupa
-          el reproductor de audio; Pablo lo quiere con el progreso del libro
-          que se está leyendo, que además es lo único de la pantalla que sabe
-          algo de él. Medido: 120 px de alto → 60 puntos, redondeo entero,
-          miniatura de 27 × 41 a 12 del filo y barra de 3 puntos. */}
-      <motion.button
-        className="pastilla-curso"
-        onClick={() => onAbrir(destacado)}
-        whileTap={{ scale: 0.985 }}
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ ...springSoft, delay: 0.24 }}
-      >
-        {/* Va por `Portada` y no por una imagen suelta: no todos los libros
-            tienen cubierta —los capítulos originales llevan su emblema— y con
-            una etiqueta `img` a pelo la pastilla se quedaba con el hueco. El
-            tamaño se lo da la hoja de estilos, como en el resto de cajas. */}
-        <span className="curso-libro" aria-hidden>
-          <Portada libro={destacado} tamano={27} />
-        </span>
-        <span className="curso-texto">
-          <span className="curso-titulo">{destacado.titulo}</span>
-          <span className="curso-barra">
-            <motion.span
-              className="curso-relleno"
-              initial={{ scaleX: 0 }}
-              animate={{ scaleX: avance }}
-              transition={{ ...springSoft, delay: 0.5 }}
-            />
+      {/* «Tu regalo»: la pastilla verde de la captura, centrada y flotando
+          sobre el contenido. El verde no es decoración: es el único color
+          cálido de una pantalla de grises y azul, y es el que la gente asocia
+          a que algo está disponible y no cuesta nada. Al tocarla sale el
+          descuento. */}
+      {onOferta && (
+        <motion.button
+          className="regalo-flota"
+          onClick={onOferta}
+          whileTap={{ scale: 0.95 }}
+          initial={{ opacity: 0, y: 14, scale: 0.9 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ ...springPop, delay: 0.5 }}
+        >
+          <span className="regalo-lazo" aria-hidden>
+            <GlyphRegalo />
           </span>
-        </span>
-        <span className="curso-play" aria-hidden>
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z" /></svg>
-        </span>
-      </motion.button>
+          Tu regalo
+        </motion.button>
+      )}
+
     </motion.div>
   );
 }
@@ -776,6 +878,7 @@ export function DetalleLibro({
           {libro.progreso > 0 ? "Seguir leyendo" : `Empezar · ${tiempo(libro.minutos ?? 25)}`}
         </motion.button>
       </div>
+
     </motion.div>
   );
 }

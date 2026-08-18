@@ -186,6 +186,39 @@ export function GlyphPerfil({ tamano = 20 }: { tamano?: number }) {
   );
 }
 
+/* El marcador de la pestaña de Biblioteca. Es el mismo dibujo que el botón de
+   guardar de las cubiertas, y a propósito: lo que hay en esa pantalla es
+   justo lo que se ha guardado con aquel botón. */
+export function GlyphBiblioteca({ tamano = 22 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      <path
+        d="M6.2 3.6 H17.8 V20.6 L12 16.4 L6.2 20.6 Z"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+/* El regalo: caja con lazo, de trazo. Macizo se leía como un icono de sistema
+   y lo que tiene que parecer es un paquete sin abrir. */
+export function GlyphRegalo({ tamano = 21 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      <g fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinejoin="round">
+        <rect x="3.2" y="9.4" width="17.6" height="11.4" rx="1.4" />
+        <rect x="2.2" y="5.6" width="19.6" height="3.8" rx="1.2" />
+        <path d="M12 5.6 V20.8" />
+        <path d="M12 5.6 C12 5.6 10.9 2.2 8.6 2.2 C6.9 2.2 6.4 4.9 8.2 5.6 Z" />
+        <path d="M12 5.6 C12 5.6 13.1 2.2 15.4 2.2 C17.1 2.2 17.6 4.9 15.8 5.6 Z" />
+      </g>
+    </svg>
+  );
+}
+
 export function GlyphCandado() {
   return (
     <svg width="19" height="19" viewBox="0 0 19 19" aria-hidden>
