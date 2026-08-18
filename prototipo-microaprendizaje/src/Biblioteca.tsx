@@ -10,6 +10,7 @@ import { enterVariants, spring, springPop, springSoft } from "./motion";
 import { urlFoto } from "./shorts";
 import { GlyphClose, GlyphDescargar, GlyphGuardar, GlyphShare } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
+import { APRENDERAS } from "./libros/aprenderas";
 import { PortadaLibro } from "./PortadaLibro";
 import type { Foto } from "./shorts";
 
@@ -702,8 +703,7 @@ export function DetalleLibro({
             {libro.ano && <span className="detalle-ano"> · {libro.ano}</span>}
           </p>,
           <p key="m" className="detalle-meta">
-            {libro.minutos ? tiempo(libro.minutos) : "5 min"} de lectura ·{" "}
-            {libro.capitulos.length} {libro.capitulos.length === 1 ? "parte" : "partes"}
+            {libro.minutos ? tiempo(libro.minutos) : "25 min"} de lectura · 8 páginas
           </p>,
         ].map((n, i) => (
           <motion.div
@@ -718,25 +718,18 @@ export function DetalleLibro({
           </motion.div>
         ))}
 
-        <motion.section custom={6} variants={enterVariants} initial="hidden" animate="shown">
-          <h2 className="detalle-seccion">Por qué merece la pena</h2>
-          <p className="detalle-parrafo">{libro.gancho}</p>
-        </motion.section>
+        {/* De qué va el libro, no por qué habría que leerlo. El rótulo decía
+            «Por qué merece la pena» y debajo iba `porQue`, que es un argumento
+            de venta: sirve para decidir si entras y no para saber qué te vas a
+            encontrar. El texto de `aprenderas.ts` cuenta el recorrido; si un
+            libro todavía no lo tiene, cae en el de antes para no dejar hueco.
 
-        {/* El índice antes de empezar: saber cuánto queda es lo que hace que
-            alguien empiece. Un libro sin índice parece que no se acaba nunca. */}
-        <motion.section custom={7} variants={enterVariants} initial="hidden" animate="shown">
-          <h2 className="detalle-seccion">Lo que vas a leer</h2>
-          <ol className="detalle-indice">
-            {libro.capitulos.map((c, i) => (
-              <li key={c.titulo}>
-                <span className="indice-num" style={{ color: libro.color }}>
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-                <span>{c.titulo}</span>
-              </li>
-            ))}
-          </ol>
+            Aquí iba también el índice de capítulos, y se ha ido: desde que la
+            lectura son ocho páginas y no cinco capítulos, la lista prometía un
+            recorrido que ya no existe. */}
+        <motion.section custom={6} variants={enterVariants} initial="hidden" animate="shown">
+          <h2 className="detalle-seccion">Qué vas a aprender</h2>
+          <p className="detalle-parrafo">{APRENDERAS[libro.id] ?? libro.gancho}</p>
         </motion.section>
 
         {libro.coleccion && (
@@ -775,7 +768,12 @@ export function DetalleLibro({
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...spring, delay: 0.3 }}
         >
-          {libro.progreso > 0 ? "Seguir" : `Empezar · ${libro.capitulos.length} capítulos`}
+          {/* Los minutos van aquí y no «5 capítulos», que es lo que decía: la
+              lectura son ocho páginas y ya no hay capítulos que prometer. Y
+              van en el botón porque la línea de meta que los llevaba está
+              oculta en esta pantalla —el calco de la referencia no la tiene—,
+              así que este es el único sitio donde se ve cuánto dura. */}
+          {libro.progreso > 0 ? "Seguir leyendo" : `Empezar · ${tiempo(libro.minutos ?? 25)}`}
         </motion.button>
       </div>
     </motion.div>
