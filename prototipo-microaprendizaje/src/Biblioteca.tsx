@@ -326,7 +326,7 @@ export function Inicio({
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...spring, delay: 0.1 }}
         >
-          <Portada libro={destacado} tamano={62} />
+          <Portada libro={destacado} tamano={59} />
           <div className="seguir-texto">
             <p className="seguir-titulo">{destacado.titulo}</p>
             <p className="seguir-sub">{destacado.autor}</p>
@@ -366,7 +366,7 @@ export function Inicio({
                   ? `${recomendados.length} ${recomendados.length === 1 ? "libro" : "libros"}`
                   : intereses.length
                     ? "Empezando por lo que elegiste"
-                    : "Creemos que estos te van a gustar"}
+                    : "Creemos que te van a gustar"}
               </p>
             </div>
             {/* Lleva a los mismos filtros de arriba: es el atajo para quien

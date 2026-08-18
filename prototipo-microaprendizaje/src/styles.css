@@ -911,7 +911,7 @@ button {
   text-align: left;
 }
 
-.seguir-texto { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.seguir-texto { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
 .seguir-titulo {
   margin: 0;
   font-size: 15.5px;
@@ -968,7 +968,7 @@ button {
 .carrusel {
   display: flex;
   gap: 13px;
-  margin-top: 17px;
+  margin-top: 1px;
   padding: 0 var(--shell-pad);
   overflow-x: auto;
   scrollbar-width: none;
@@ -6363,7 +6363,7 @@ button {
   font-weight: 700;
   letter-spacing: -0.02em;
 }
-.inicio-cabecera { padding: 10px var(--shell-pad) 0; }
+.inicio-cabecera { padding: 13px var(--shell-pad) 0; }
 
 /* En el vídeo mide 140 × 60 px, o sea 70 × 30 puntos. */
 .pastilla-racha {
@@ -6377,28 +6377,48 @@ button {
 }
 
 /* --- Tarjeta de continuar ---------------------------------------------- */
-/* En el vídeo mide 685 × 197 px: 342 × 98 puntos, con 14 de radio. */
+/* En el vídeo la tarjeta va de y=239 a y=437: 198 px, o sea 99 puntos justos.
+   Y la miniatura de dentro, de 279 a 397: 59 puntos. Como 20 + 59 + 20 = 99,
+   el aire de arriba y abajo son 20 y no hay que estimar nada. */
+/* Medido barriendo filas y columnas sobre el vídeo, no a ojo:
+     tarjeta      x 32..718, y 239..437   → 343 × 99 puntos
+     miniatura    x 48..151, y 276..397   → 52 × 61, o sea RECTANGULAR
+     texto        empieza en x 177        → 13 de hueco tras la miniatura
+     barra        y 393, 8 px de alto     → 4 puntos
+   La miniatura a 8 del borde izquierdo y 19 de aire arriba y abajo: 19 + 61
+   + 19 son los 99 de la tarjeta, así que el alto lo manda ella. */
 .tarjeta-seguir {
   background: var(--paper-deep);
   border-radius: 14px;
-  padding: 14px;
-  gap: 14px;
-  margin: 18px var(--shell-pad) 0;
+  padding: 19px 20px 19px 8px;
+  gap: 13px;
+  margin: 26px var(--shell-pad) 0;
 }
-.seguir-titulo { font-size: 19px; font-weight: 700; color: var(--ink); }
-.seguir-sub { font-size: 17px; color: var(--ink-soft); }
-.seguir-barra { background: var(--paper-edge); height: 7px; margin-top: 9px; }
+/* La cubierta de un libro no es cuadrada, y en el vídeo tampoco. */
+.tarjeta-seguir .portada { width: 52px !important; height: 61px !important; }
+/* El bloque de título y subtítulo mide 66 px en el vídeo —33 por línea, o
+   sea 16,5 puntos de interlínea—, y el nuestro medía 75: el aire de más lo
+   dejaba el interlineado suelto y, como el bloque va centrado, empezaba más
+   arriba de la cuenta. */
+.seguir-titulo { font-size: 19px; font-weight: 700; color: var(--ink); line-height: 1.16; }
+.seguir-sub { font-size: 17px; color: var(--ink-soft); line-height: 1.18; }
+/* La barra mide 8 px de alto en el vídeo: 4 puntos, no 7. Y arranca en
+   x=176 de 750, o sea pegada al texto, no al filo de la tarjeta. */
+.seguir-barra { background: var(--paper-edge); height: 4px; margin-top: 10px; }
 .seguir-relleno { background: #68e06f; }
 .seguir-flecha { color: var(--ink); }
 
 /* --- Rótulos de bloque -------------------------------------------------- */
-.bloque h2 { font-size: 19px; font-weight: 700; letter-spacing: -0.02em; }
+/* Medido por la altura de la franja de texto: la del vídeo son 33 px y la
+   nuestra a 19 salía 35, así que el rótulo es 18. Y el subtítulo: 26 en el
+   vídeo contra 32 nuestros a 17, o sea 14. */
+.bloque h2 { font-size: 18px; font-weight: 700; letter-spacing: -0.02em; }
 /* En los vídeos la portada no tiene fila de categorías: se va de la tarjeta
    de continuar a «Recommended for you» directamente. Se oculta aquí y no se
    borra del componente porque el filtro sigue existiendo y se usa desde la
    vista de todos los libros. */
 .inicio .filtros { display: none; }
-.bloque-sub { font-size: 17px; color: var(--ink-soft); margin-top: 3px; }
+.bloque-sub { font-size: 14px; color: var(--ink-soft); margin-top: 1px; }
 /* «Manage»: 155 × 59 px en el vídeo son 77 × 29 puntos. */
 .bloque-accion {
   background: var(--paper-edge);
@@ -6411,18 +6431,59 @@ button {
   display: flex;
   align-items: center;
 }
-/* Del pie de la tarjeta de continuar al rótulo siguiente hay 68 px en el
-   vídeo: 34 puntos. */
-.bloque { margin-top: 30px; }
+/* Dos huecos distintos, y el vídeo los tiene distintos:
+     de la tarjeta de continuar al primer rótulo   81 px → 40,5 puntos
+     del pie de un carrusel al rótulo siguiente    52 px → 26 puntos
+   Tenerlos iguales empujaba «Retomar» 27 puntos fuera de sitio. */
+.bloque { margin-top: 26px; }
+.filtros + .bloque { margin-top: 40px; }
 
 /* --- Fichas ------------------------------------------------------------- */
 /* 283 px de ancho y 25 de hueco en el vídeo: 141,5 y 12,5 puntos. */
 .carrusel { gap: 12px; }
 .carrusel .ficha { width: 142px; }
-.ficha-titulo { font-size: 16px; font-weight: 700; color: var(--ink); margin-top: 10px; }
-.ficha-autor { font-size: 14px; color: var(--ink-soft); margin: 3px 0 0; }
-.ficha-sub { font-size: 14px; color: var(--ink-soft); margin: 7px 0 0; line-height: 1.35; }
-.ficha-pie { margin-top: 9px; }
+/* La cubierta del vídeo NO es cuadrada: mide 142 × 161,5 puntos, la
+   proporción de un libro. Medido barriendo la columna x=100: de y=622 a
+   y=944, o sea 323 px de los 750 de ancho de pantalla. */
+.carrusel .portada { width: 142px !important; height: 162px !important; }
+/* Tipos de la ficha, medidos con la ampliación al doble: el título del vídeo
+   tiene 20 px de altura de ascendente contra los 31 nuestros, el autor 16
+   contra 21 y la descripción va a 26 px de interlínea. */
+/* Los huecos, medidos de línea a línea sobre el vídeo:
+     portada → título   22 px      autor → descripción  19
+     título → autor     40         descripción → pastilla 21
+   Los nuestros eran 28, 45, 33 y 28: todo un punto o dos más suelto, que
+   sumado estiraba la ficha cuarenta puntos y empujaba la sección siguiente. */
+.ficha-titulo { font-size: 13px; font-weight: 700; color: var(--ink); margin-top: 8px; line-height: 1.2; }
+.ficha-autor { font-size: 11px; color: var(--ink-soft); margin: 3px 0 0; }
+.ficha-sub { font-size: 11px; color: var(--ink-soft); margin: 2px 0 0; line-height: 1.18; }
+.ficha-pie { margin-top: 6px; }
+/* Todas las fichas del carrusel tienen que medir lo mismo, y en el vídeo lo
+   miden: la tercera es «SPQR: A History of Ancient Rome» y va cortada a dos
+   líneas. Sin tope, un título de tres renglones estiraba la tira entera 65
+   puntos y empujaba «Retomar» fuera de sitio. */
+.carrusel .ficha-titulo {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.carrusel .ficha-autor { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* Y altura fija. En el vídeo las pastillas de las tres fichas están a la
+   misma raya aunque la tercera tenga el título en dos líneas: la ficha mide
+   lo mismo siempre —272 puntos de la portada al pie de la pastilla— y lo que
+   cede es la descripción. Sin esto, la ficha más alta estiraba la tira y
+   bajaba «Retomar» 18 puntos. */
+.carrusel .ficha { height: 272px; }
+.carrusel .ficha-pie { margin-top: auto; }
+/* La pastilla lleva un filete claro por fuera del relleno: es lo que la
+   despega del fondo negro y en la nuestra no estaba. */
+.ficha-pie .chip-cat {
+  border: 2px solid rgba(255, 255, 255, 0.92);
+  font-size: 10px;
+  padding: 1px 8px;
+  letter-spacing: 0.01em;
+}
 
 /* --- La ficha del libro, calcada del segundo vídeo --------------------- */
 
