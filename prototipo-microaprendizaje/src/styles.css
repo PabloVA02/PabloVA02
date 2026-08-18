@@ -6518,6 +6518,13 @@ button {
    medía; lo que cambia es cuánto asoma la cubierta por arriba. */
 .detalle-portada .portada { width: 114px !important; height: 171px !important; }
 .detalle-arco { margin-bottom: -178px !important; }
+
+/* Lo mismo en las otras dos cajas que quedaban cuadradas. `Portada` recibe un
+   solo número y hace una caja de lado a lado; a un libro de 2:3 eso le come
+   el título por arriba, y el título es lo que identifica la cubierta. Aquí se
+   le devuelve su forma. */
+.ancha-arco .portada { width: 132px !important; height: 198px !important; }
+.detalle-coleccion .portada { width: 44px !important; height: 66px !important; }
 /* Los tres círculos van pegados a la izquierda, no centrados, y montados
    sobre el pie de la cúpula. */
 .detalle-acciones {
