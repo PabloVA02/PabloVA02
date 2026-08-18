@@ -271,6 +271,10 @@ export function Inicio({
 
   const enCurso = LIBROS.filter((l) => l.progreso > 0);
   const destacado = LIBROS[0];
+  /* Por dónde va el libro de arriba. `progreso` viene a cero en el catálogo
+     de muestra, y un aro al cero no enseña nada de lo que hace: se usa el
+     mismo avance que ya pinta la barra de la tarjeta de continuar. */
+  const avance = destacado.progreso > 0 ? destacado.progreso : 0.15;
 
   /* Las categorías que existen de verdad, con las elegidas en la introducción
      delante. Filtrar por algo que da cero resultados es una vía muerta, así
@@ -332,6 +336,38 @@ export function Inicio({
           </motion.button>
         </header>
 
+        {/* Arriba del todo, el libro que tienes a medias y por dónde vas. En
+            la referencia aquí hay un «siguiente paso del día» con una tarea;
+            Pablo lo quiere con el progreso del libro que se está leyendo, que
+            además es lo único de la pantalla que sabe algo de ti. */}
+        <motion.button
+          className="paso-dia"
+          onClick={() => onAbrir(destacado)}
+          whileTap={{ scale: 0.985 }}
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ ...spring, delay: 0.04 }}
+        >
+          <span className="paso-aro" aria-hidden>
+            <svg viewBox="0 0 36 36">
+              <circle cx="18" cy="18" r="15" fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth="4" />
+              <circle
+                cx="18" cy="18" r="15" fill="none" stroke="#e8a93c" strokeWidth="4"
+                strokeLinecap="round" strokeDasharray={`${Math.round(avance * 94)} 94`}
+                transform="rotate(-90 18 18)"
+              />
+            </svg>
+            <b>{Math.round(avance * 100)}%</b>
+          </span>
+          <span className="paso-texto">
+            <span className="paso-ceja">Seguir leyendo</span>
+            <span className="paso-titulo">{destacado.titulo}</span>
+          </span>
+          <span className="paso-flecha" aria-hidden>
+            <GlyphBack />
+          </span>
+        </motion.button>
+
         {/* La lectura diaria gratuita. Va lo primero, antes incluso del libro
             a medias: es lo único de la pantalla que ofrece algo en vez de
             pedir que sigas. Medido: 343 × 179 puntos, azul #008dff, el rótulo
@@ -351,7 +387,7 @@ export function Inicio({
                 Obtener ahora <span aria-hidden>→</span>
               </span>
             </span>
-            <Portada libro={LIBROS[1] ?? LIBROS[0]} tamano={104} />
+            <Portada libro={LIBROS.find((l) => l.id === "sapiens") ?? LIBROS[0]} tamano={104} />
           </motion.button>
         )}
 
