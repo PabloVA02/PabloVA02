@@ -640,7 +640,7 @@ function PaginaShort({
               {portada ? (
                 <Portada short={short} />
               ) : (
-                <CuerpoPagina pagina={short.paginas[paso - 1]} reducido={reducido} />
+                <CuerpoPagina pagina={short.paginas[paso - 1]} />
               )}
             </motion.div>
           </AnimatePresence>
@@ -795,19 +795,14 @@ function Portada({ short }: { short: Short }) {
 }
 
 /* --------------------------------------------------------------------------
-   El cuerpo de una página. Siempre la misma pieza: rótulo, bloque de texto y,
-   como mucho, un golpe. Que las tres páginas de las cien historias compartan
-   esqueleto es lo que permite leer diez seguidas sin cansarse: el ojo aprende
-   dónde está cada cosa una vez y ya no vuelve a buscarla.
+   El cuerpo de una página: el bloque de texto y nada más. Antes llevaba
+   además el golpe de abajo —la cifra o la frase—, y sin él la pieza se queda
+   en una sola cosa. Que las tres páginas de las setecientas historias
+   compartan esqueleto es lo que permite leer diez seguidas sin cansarse: el
+   ojo aprende dónde está cada cosa una vez y ya no vuelve a buscarla.
    -------------------------------------------------------------------------- */
 
-function CuerpoPagina({
-  pagina,
-  reducido,
-}: {
-  pagina: Pagina;
-  reducido: boolean;
-}) {
+function CuerpoPagina({ pagina }: { pagina: Pagina }) {
   return (
     <div className="short-pagina">
       <motion.p
@@ -819,95 +814,15 @@ function CuerpoPagina({
         dangerouslySetInnerHTML={{ __html: conGuiones(pagina.texto) }}
       />
 
-      {pagina.destacado && <Destacado dato={pagina.destacado} reducido={reducido} />}
+      {/* Aquí iba el dato de abajo —la cifra grande o la frase con el rayo— y
+          Pablo lo ha quitado. Con la barra de pestañas ocupando ahora sesenta
+          puntos del pie, la pantalla no da para el texto Y el golpe, y de los
+          dos el que cuenta la historia es el texto.
+
+          El campo `destacado` sigue escrito en los shorts y sigue en el tipo:
+          son setecientos cincuenta y siete ficheros de texto escrito a mano y
+          borrarlo de golpe no se deshace. Aquí ya no se pinta. */}
     </div>
   );
 }
 
-/**
- * El golpe de la página. Va siempre debajo del bloque y ocupa el mismo sitio
- * sea cifra o frase, para que al pasar página no se mueva nada de sitio.
- */
-function Destacado({
-  dato,
-  reducido,
-}: {
-  dato: NonNullable<Pagina["destacado"]>;
-  reducido: boolean;
-}) {
-  if (dato.tipo === "cifra") {
-    return (
-      <div className="short-destacado" data-tipo="cifra">
-        <Contador valor={dato.cifra} reducido={reducido} />
-        <motion.span
-          className="short-unidad"
-          custom={4}
-          variants={enterVariants}
-          initial="hidden"
-          animate="shown"
-        >
-          {dato.unidad}
-        </motion.span>
-      </div>
-    );
-  }
-
-  return (
-    <motion.div
-      className="short-destacado"
-      data-tipo="frase"
-      custom={4}
-      variants={enterVariants}
-      initial="hidden"
-      animate="shown"
-    >
-      <span className="short-comilla" aria-hidden>
-        <GlyphRayo tamano={14} />
-      </span>
-      <p>{dato.frase}</p>
-    </motion.div>
-  );
-}
-
-/**
- * La cifra sube desde cero cuando es un número, porque ver crecer un número
- * es parte del dato. Cuando no lo es —«8:15», «⅓»— entra con muelle y ya.
- */
-function Contador({ valor, reducido }: { valor: string; reducido: boolean }) {
-  const numero = Number(valor.replace(/\./g, "").replace(",", "."));
-  const contable = !reducido && Number.isFinite(numero) && numero > 0;
-  const [texto, setTexto] = useState(contable ? "0" : valor);
-
-  useEffect(() => {
-    if (!contable) {
-      setTexto(valor);
-      return;
-    }
-    const decimales = valor.includes(",") ? 1 : 0;
-    const control = animate(0, numero, {
-      duration: 1,
-      delay: 0.15,
-      ease: "easeOut",
-      onUpdate: (v) =>
-        setTexto(
-          v.toLocaleString("es-ES", {
-            minimumFractionDigits: decimales,
-            maximumFractionDigits: decimales,
-            useGrouping: true,
-          }),
-        ),
-    });
-    return () => control.stop();
-  }, [valor, numero, contable]);
-
-  return (
-    <motion.span
-      className="short-numero"
-      initial={{ opacity: 0, y: 16, scale: 0.86 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      transition={{ ...springPop, delay: 0.08 }}
-    >
-      {texto}
-    </motion.span>
-  );
-}

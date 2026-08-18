@@ -5674,16 +5674,26 @@ button {
   inset: auto;
   flex: 1;
   min-height: 0;
-  padding: 6.4cqw 5.8cqw 6.4cqw;
+  /* El pie deja sitio a la barra de pestañas, que ocupa de 22 a 83 contando
+     desde abajo. Los 6,4cqw de margen se quedan como estaban —son los mismos
+     que arriba y a los lados, y esa igualdad es lo que hace que la hoja no
+     parezca torcida— y encima van los 82 de la barra: 61 que mide, 22 que
+     flota y menos los que ya ponía el margen. Con 68 la última línea quedaba
+     a nueve puntos de la barra, que a la vista es tocarla. */
+  padding: 6.4cqw 5.8cqw calc(6.4cqw + 82px);
   background: none;
   display: flex;
   flex-direction: column;
   gap: 3.4cqw;
 }
-/* La cadena tiene que estirarse entera para que el dato pueda apoyarse
-   abajo: si un eslabon no crece, el margen automatico no tiene contra que
-   empujar y el dato se queda a media pantalla con un hueco debajo. */
 .muro-hoja-cuerpo { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 3.4cqw; }
+/* En las páginas de dentro el texto CUELGA DEL PIE, no flota arriba. Antes se
+   apoyaba en el dato de abajo, que era lo que llenaba el hueco; sin dato y con
+   la barra de pestañas quitando sitio, un bloque corto se quedaba a media
+   pantalla con ciento veinticinco puntos de nada debajo. Anclado abajo, la
+   última línea queda justo encima de la barra y el aire sobrante se junta
+   arriba, contra la foto, que es donde no molesta. */
+
 
 /* El titular numero 3: palo seco, pequeno y muy espaciado. Es el unico de los
    ocho que no mueve nada de lo que hay debajo. */
@@ -5723,7 +5733,24 @@ button {
   font-weight: 600;
 }
 
-.short-pagina { display: flex; flex-direction: column; flex: 1; min-height: 0; }
+/* El envoltorio de la página crece hasta el pie —`flex: 1`— así que anclar el
+   texto hay que hacerlo AQUÍ y no en el padre: puesto arriba, el padre baja
+   este bloque entero y el bloque sigue soltando el texto por su borde de
+   arriba, que era el hueco que quedaba. */
+.short-pagina {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+/* El texto cuelga del pie con `margin-top: auto` y NO con `justify-content:
+   flex-end`, que es lo que había y desbordaba. La diferencia importa: el
+   margen automático solo se come el hueco que sobra, así que cuando no sobra
+   —la última página, que lleva además los dos botones y el «siguiente
+   short»— vale cero y el texto vuelve a empezar arriba. Con `flex-end`, en
+   cambio, lo que no cabe se sale POR ARRIBA, y el texto se montaba encima del
+   pie de foto en la última pantalla de todos los shorts. */
+.short-cuerpo { margin-top: auto; }
 
 /* El dato: una cifra y cuatro palabras. Lo delimita la linea de arriba y el
    tamano del numero, asi que no le hace falta ninguna etiqueta. */
@@ -5798,7 +5825,6 @@ button {
   font-weight: 600;
   color: var(--acento, var(--ochre));
 }
-.short-destacado + .muro-tirar { margin-top: 2.4cqw; }
 /* La flecha del modelo oscuro era una pastilla clara de 26 puntos con la
    punta pintada de color papel: sobre el beige quedaba un borron y la flecha
    invisible. En la maqueta es solo la punta, del color del tema. */
@@ -5819,7 +5845,10 @@ button {
   margin-top: auto;
   margin-left: 0;
   width: 100%;
-  padding-top: 4.4cqw;
+  /* Menos aire encima de los botones. La última pantalla es la única que
+     lleva texto, botones y el aviso de la siguiente historia, y con la barra
+     de pestañas comiendo sesenta puntos era la única que no cabía. */
+  padding-top: 3cqw;
   display: flex;
   gap: 2.6cqw;
 }

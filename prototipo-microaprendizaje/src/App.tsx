@@ -26,11 +26,12 @@ type Pantalla =
   | "shorts" | "perfil" | "ajustes" | "oferta" | "alta" | "biblioteca"
   | "anti";
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
-/* La barra de pestañas no sale mientras se lee un short. En la maqueta que
-   aprobó Pablo la pantalla es la página entera, y una barra flotando encima
-   se comía las dos últimas líneas del texto y el "Seguir". Se vuelve a ver en
-   cuanto se sale del muro. */
-const CON_BARRA: Pantalla[] = ["inicio", "perfil", "biblioteca"];
+/* Los shorts la llevan ahora también. Antes no: la pantalla era la página
+   entera y una barra flotando encima le comía sitio al texto. Pablo la quiere
+   ahí, y con razón —sin ella, del muro solo se sale volviendo atrás—, así que
+   lo que cede es el texto: el pie de la hoja deja sesenta y dos puntos libres
+   para que la barra no tape ni el «Seguir» ni la última línea. */
+const CON_BARRA: Pantalla[] = ["inicio", "perfil", "biblioteca", "shorts"];
 
 /** Racha de ejemplo del prototipo. */
 const RACHA = 3;
