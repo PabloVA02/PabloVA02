@@ -6345,15 +6345,23 @@ button {
 
 .inicio,
 .detalle {
-  --paper: #11130f;
-  --paper-deep: #49444f;
-  --paper-edge: #827a89;
+  /* Los grises salen de la captura, muestreados y no estimados: el fondo es
+     #222 exacto, la superficie de las pastillas #383838 y el filete que las
+     dibuja #606060. El anterior, #11130f, era casi negro y hacía que las
+     cubiertas flotaran en un agujero. */
+  --paper: #222222;
+  --paper-deep: #383838;
+  --paper-edge: #606060;
   --ink: #ffffff;
-  --ink-soft: rgba(239, 234, 245, 0.78);
-  --night: #11130f;
-  /* En los vídeos el margen lateral son 33 píxeles de 750: 16,5 puntos. */
+  --ink-soft: #7a7a7a;
+  --night: #222222;
+  /* En la captura el margen lateral son 32 píxeles de 750: 16 puntos. */
   --shell-pad: 16px;
 }
+
+/* La pastilla del libro en curso va colgada de la pantalla, no del scroll:
+   tiene que quedarse quieta mientras el contenido pasa por detrás. */
+.inicio { position: relative; }
 
 /* --- Cabecera ---------------------------------------------------------- */
 /* «Good Morning»: la G mide 37 px de alto en el vídeo, o sea 18,5 puntos de
@@ -6363,7 +6371,17 @@ button {
   font-weight: 700;
   letter-spacing: -0.02em;
 }
-.inicio-cabecera { padding: 13px var(--shell-pad) 0; }
+/* La cabecera de la captura es una banda de 60 puntos cerrada por un filete:
+   el hueco entre la barra de estado y la raya va de y=92 a y=213 en píxeles
+   de la captura. El filete es #4e4e4e, muestreado. */
+.inicio-scroll { padding-top: 0; padding-bottom: 152px; }
+.inicio-cabecera {
+  height: 60px;
+  padding: 0 var(--shell-pad);
+  border-bottom: 1px solid #4e4e4e;
+}
+/* De la raya al filo de arriba de la franja azul hay 21 px: 10,5 puntos. */
+.inicio .franja-gratis { margin-top: 11px; }
 
 /* En el vídeo mide 140 × 60 px, o sea 70 × 30 puntos. */
 .pastilla-racha {
@@ -6409,82 +6427,67 @@ button {
 .seguir-flecha { color: var(--ink); }
 
 /* --- Rótulos de bloque -------------------------------------------------- */
-/* Medido por la altura de la franja de texto: la del vídeo son 33 px y la
-   nuestra a 19 salía 35, así que el rótulo es 18. Y el subtítulo: 26 en el
-   vídeo contra 32 nuestros a 17, o sea 14. */
-.bloque h2 { font-size: 18px; font-weight: 700; letter-spacing: -0.02em; }
-/* En los vídeos la portada no tiene fila de categorías: se va de la tarjeta
-   de continuar a «Recommended for you» directamente. Se oculta aquí y no se
-   borra del componente porque el filtro sigue existiendo y se usa desde la
-   vista de todos los libros. */
+/* Medido por la altura de mayúscula sobre la captura, que es lo único que no
+   miente: la Q de «Quizá también te guste» tiene 31 px —15,5 puntos— y la R
+   de «Resúmenes según tus valoraciones», 20 —10 puntos—. En esta tipografía
+   la mayúscula es el 0,727 del cuerpo, así que salen 20 y 14. */
+.bloque h2 { font-size: 20px; font-weight: 700; letter-spacing: -0.02em; }
+/* En la captura la portada no tiene fila de categorías: se va de la franja
+   azul al primer rótulo directamente. Se oculta aquí y no se borra del
+   componente porque el filtro sigue existiendo y se usa desde la vista de
+   todos los libros. */
 .inicio .filtros { display: none; }
-.bloque-sub { font-size: 14px; color: var(--ink-soft); margin-top: 1px; }
-/* «Manage»: 155 × 59 px en el vídeo son 77 × 29 puntos. */
-.bloque-accion {
-  background: var(--paper-edge);
-  border: none;
-  color: var(--ink);
-  font-size: 16px;
-  font-weight: 600;
-  height: 29px;
-  padding: 0 16px;
-  display: flex;
-  align-items: center;
-}
-/* Dos huecos distintos, y el vídeo los tiene distintos:
-     de la tarjeta de continuar al primer rótulo   81 px → 40,5 puntos
-     del pie de un carrusel al rótulo siguiente    52 px → 26 puntos
-   Tenerlos iguales empujaba «Retomar» 27 puntos fuera de sitio. */
+/* El subtítulo es BLANCO, no gris: muestreado da 255 en los tres canales.
+   El gris de esta pantalla es solo para el autor bajo la cubierta. */
+/* El bloque trae un hueco de 10 puntos entre hijos que aquí estorba: los
+   tres aires de la sección son distintos entre sí —4 del rótulo al
+   subtítulo, 18 del subtítulo a la tira— y con un hueco común no salen. */
+.inicio .bloque { gap: 0; }
+.bloque-sub { font-size: 14px; color: #fff; margin-top: 3px; }
+/* «Gestionar» no está en la captura, y con el rótulo a 22 le robaba sitio al
+   título. El filtro sigue llegándose desde la vista de todos los libros. */
+.inicio .bloque-accion { display: none; }
+/* Dos huecos distintos, medidos de filo a mayúscula sobre la captura:
+     del filo de la franja azul a la Q del rótulo   73 px → 36,5 puntos
+     del pie de un carrusel al rótulo siguiente     52 px → 26 puntos
+   Y dentro de la sección, de caja a caja:
+     del rótulo al subtítulo    52 px de línea a línea → 3 de margen
+     del subtítulo a la tira    62 px hasta el filo    → 15 de margen */
 .bloque { margin-top: 26px; }
-.filtros + .bloque { margin-top: 40px; }
+.inicio .filtros + .bloque { margin-top: 33px; }
 
 /* --- Fichas ------------------------------------------------------------- */
-/* 283 px de ancho y 25 de hueco en el vídeo: 141,5 y 12,5 puntos. */
-.carrusel { gap: 12px; }
-.carrusel .ficha { width: 142px; }
-/* La casilla tiene la proporción DEL LIBRO, 2:3, y no una inventada. Antes
-   era 142 × 162 y cualquier cubierta de dos por tres entraba recortada por
-   arriba: se perdía el título, que es lo que identifica el libro. La casilla
-   no manda sobre la cubierta; la cubierta manda sobre la casilla. */
-.carrusel .portada { width: 142px !important; height: 213px !important; }
-/* Tipos de la ficha, medidos con la ampliación al doble: el título del vídeo
-   tiene 20 px de altura de ascendente contra los 31 nuestros, el autor 16
-   contra 21 y la descripción va a 26 px de interlínea. */
-/* Los huecos, medidos de línea a línea sobre el vídeo:
-     portada → título   22 px      autor → descripción  19
-     título → autor     40         descripción → pastilla 21
-   Los nuestros eran 28, 45, 33 y 28: todo un punto o dos más suelto, que
-   sumado estiraba la ficha cuarenta puntos y empujaba la sección siguiente. */
-.ficha-titulo { font-size: 13px; font-weight: 700; color: var(--ink); margin-top: 8px; line-height: 1.2; }
-.ficha-autor { font-size: 11px; color: var(--ink-soft); margin: 3px 0 0; }
-.ficha-sub { font-size: 11px; color: var(--ink-soft); margin: 2px 0 0; line-height: 1.18; }
-.ficha-pie { margin-top: 6px; }
-/* Todas las fichas del carrusel tienen que medir lo mismo, y en el vídeo lo
-   miden: la tercera es «SPQR: A History of Ancient Rome» y va cortada a dos
-   líneas. Sin tope, un título de tres renglones estiraba la tira entera 65
-   puntos y empujaba «Retomar» fuera de sitio. */
-.carrusel .ficha-titulo {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+/* Medido a lo ancho sobre la captura:
+     cubierta 1   x 32..327    → 148 puntos
+     hueco        x 328..359   → 16
+     cubierta 2   x 360..655   → 148, o sea todas iguales
+   Y a lo alto, y 781..1224 → 222, que es el 2:3 exacto de 148. La casilla
+   tiene la proporción DEL LIBRO y no una inventada: la cubierta manda sobre
+   la casilla, no al revés. */
+.carrusel { gap: 16px; margin-top: 15px; }
+/* Sin esto la tira arranca pegada al filo: el anclaje de deslizamiento lleva
+   la primera ficha al borde del área visible y se come el margen lateral.
+   `scroll-padding` le dice dónde está de verdad el borde. */
+.carrusel { scroll-padding-inline: var(--shell-pad); }
+.carrusel .ficha { width: 148px; gap: 0; }
+.carrusel .portada { width: 148px !important; height: 222px !important; }
+/* El redondeo de la cubierta, medido por el arco de la esquina: toca el filo
+   recto 13 px más abajo, o sea 6,5 puntos. */
+.carrusel .portada { border-radius: 7px; }
+/* Bajo la cubierta va el autor y nada más. En la captura mide 20 px de
+   mayúscula —10 puntos, o sea 14 de cuerpo—, va en gris #7a7a7a y arranca 25
+   px por debajo del filo de la cubierta. Con el hueco de la línea eso son 7
+   puntos de margen. */
+.ficha-autor {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin: 11px 0 0;
+  line-height: 1.2;
 }
 .carrusel .ficha-autor { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-/* Y altura fija. En el vídeo las pastillas de las tres fichas están a la
-   misma raya aunque la tercera tenga el título en dos líneas: la ficha mide
-   lo mismo siempre —272 puntos de la portada al pie de la pastilla— y lo que
-   cede es la descripción. Sin esto, la ficha más alta estiraba la tira y
-   bajaba «Retomar» 18 puntos. */
-.carrusel .ficha { height: 323px; }
-.carrusel .ficha-pie { margin-top: auto; }
-/* La pastilla lleva un filete claro por fuera del relleno: es lo que la
-   despega del fondo negro y en la nuestra no estaba. */
-.ficha-pie .chip-cat {
-  border: 2px solid rgba(255, 255, 255, 0.92);
-  font-size: 10px;
-  padding: 1px 8px;
-  letter-spacing: 0.01em;
-}
+/* Sin título, sin descripción y sin pastilla, todas las fichas miden ya lo
+   mismo por construcción: la altura la da la cubierta, que es fija. Ya no
+   hace falta ni el tope de líneas ni la altura a mano de antes. */
 
 /* --- La ficha del libro, calcada del segundo vídeo --------------------- */
 
@@ -6562,73 +6565,137 @@ button {
 
 /* --- La franja de lectura gratuita y el botón de guardar --------------- */
 
-/* Medido sobre la referencia: 686 × 358 px de la grabación, o sea 343 × 179
-   puntos, con 16 de margen a cada lado y 20 de radio. El azul es #008dff. */
+/* Medido sobre la captura, barriendo filas y columnas:
+     franja   x 32..717, y 234..593  → 343 × 180 puntos, 16 de margen
+     radio    el arco toca el filo recto 22 px más abajo → 11 puntos
+     azul     #4397f7, muestreado en el centro plano
+   Los tres rótulos, por la altura de mayúscula y las líneas base:
+     «Lectura»        L de 41 px  → 28 de cuerpo
+     líneas base      337, 407, 477 → 70 px de paso → 35, o sea 1,25
+     «Obtener ahora»  O de 25 px  → 17 de cuerpo
+   Y los aires: 61 px del filo de arriba a la primera mayúscula y 57 de la
+   última línea base al filo de abajo. */
 .franja-gratis {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: calc(100% - var(--shell-pad) * 2);
-  height: 179px;
+  height: 180px;
   margin: 16px var(--shell-pad) 0;
   padding: 0 0 0 20px;
-  border-radius: 20px;
-  background: #008dff;
+  border-radius: 11px;
+  background: #4397f7;
   overflow: hidden;
   text-align: left;
 }
-.gratis-texto { display: flex; flex-direction: column; gap: 10px; }
-/* Tres líneas a 28, con la interlínea justa: en la referencia las líneas van
-   a 34 puntos y el bloque ocupa casi todo el alto de la franja. */
+.gratis-texto { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1px; }
 .gratis-titulo {
   font-size: 28px;
   font-weight: 700;
-  line-height: 1.21;
+  line-height: 1.25;
   letter-spacing: -0.02em;
   color: #fff;
-  max-width: 165px;
+  /* 165 dejaba «gratuita» compartiendo renglón; con 150 caen las tres
+     palabras en tres líneas, que es como está en la captura. */
+  max-width: 150px;
 }
 .gratis-llamada {
   display: flex;
   align-items: center;
-  gap: 9px;
-  font-size: 19px;
+  gap: 10px;
+  font-size: 17px;
   font-weight: 500;
   color: #fff;
 }
-/* La cubierta va entera dentro de la franja, apoyada a la derecha y con una
-   inclinación corta. Con el giro grande y desplazada hacia fuera se salía por
-   el filo y se veía media. */
-/* El libro de la referencia mide 154 puntos de alto y en la franja le quedan
-   unos 10 de margen a la derecha, centrado en vertical. La caja ES la
-   cubierta: 103 × 154 es su propio 2:3 a esa altura, así que no hay ni
-   recorte ni deformación ni hueco que rellenar. */
+/* La cubierta ES la caja: 101 × 152 es el 2:3 del fichero original a la
+   altura que tiene en la captura, así que no hay ni recorte ni deformación.
+   El giro son 6°, sacados de la pendiente del filo izquierdo del libro —32
+   píxeles de desvío en 302 de caída— y no de la primera impresión. */
 .gratis-libro {
   flex: none;
   display: block;
-  width: 103px;
-  height: 154px;
-  margin-right: 10px;
-  border-radius: 4px;
-  transform: rotate(4deg);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.34);
+  width: 101px;
+  height: 152px;
+  margin-right: 2px;
+  border-radius: 5px;
+  transform: rotate(6deg);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.3);
 }
 
+/* El botón de guardar: 60 × 58 px en la captura → 30 × 29 puntos, con el
+   filo derecho 11 px por fuera de la cubierta y el de arriba 12 por encima.
+   Lleva relleno #383838 y un filete #606060 de un punto, que es lo que lo
+   despega de una cubierta oscura. */
 .ficha-arte { position: relative; }
 .ficha-guardar {
   position: absolute;
   top: -6px;
   right: -6px;
   z-index: 2;
-  width: 29px;
-  height: 28px;
-  border-radius: 9px;
-  background: #2a2a2c;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: #383838;
+  border: 1px solid #606060;
   display: grid;
   place-items: center;
   color: #fff;
 }
-.ficha-guardar svg { width: 15px; height: 15px; }
+.ficha-guardar svg { width: 16px; height: 16px; }
+
+/* --- La pastilla del libro en curso ------------------------------------ */
+
+/* Flota sobre el contenido, no lo empuja: en la captura la sección de abajo
+   se ve pasar por detrás. 120 px de alto en la captura → 60 puntos, y el
+   redondeo es entero, o sea la mitad del alto. */
+.pastilla-curso {
+  position: absolute;
+  left: var(--shell-pad);
+  right: var(--shell-pad);
+  bottom: 100px;
+  z-index: 12;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 60px;
+  padding: 0 16px 0 12px;
+  border-radius: 30px;
+  background: #383838;
+  border: 1px solid #606060;
+  text-align: left;
+}
+/* La miniatura mide 55 × 81 px en la captura: 27 × 41, otra vez 2:3. */
+.curso-libro {
+  flex: none;
+  width: 27px;
+  height: 41px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.curso-texto { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px; }
+.curso-titulo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* La barra son 6 px de alto en la captura: 3 puntos. */
+.curso-barra {
+  height: 3px;
+  border-radius: 2px;
+  background: #6b6b6b;
+  overflow: hidden;
+}
+.curso-relleno {
+  display: block;
+  height: 100%;
+  background: #4397f7;
+  transform-origin: left;
+}
+.curso-play { flex: none; color: #fff; display: grid; place-items: center; }
+.curso-play svg { width: 26px; height: 26px; }
 
 /* ==========================================================================
    El lector por páginas, calcado de la grabación.

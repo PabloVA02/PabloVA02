@@ -8,7 +8,7 @@ import {
 import { Llama } from "./Racha";
 import { enterVariants, spring, springPop, springSoft } from "./motion";
 import { urlFoto } from "./shorts";
-import { GlyphBack, GlyphClose, GlyphDescargar, GlyphGuardar, GlyphShare } from "./glyphs";
+import { GlyphClose, GlyphDescargar, GlyphGuardar, GlyphShare } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { PortadaLibro } from "./PortadaLibro";
 import type { Foto } from "./shorts";
@@ -205,8 +205,9 @@ function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; 
     >
       <div className="ficha-arte">
         {/* Guardar, asomando por la esquina de arriba a la derecha de la
-            cubierta. En la referencia sobresale un poco por fuera, y es lo
-            que hace que se lea como una pegatina y no como un icono más. */}
+            cubierta. En la referencia sobresale seis puntos por fuera y por
+            arriba, y es lo que hace que se lea como una pegatina y no como
+            un icono más. */}
         <span
           className="ficha-guardar"
           role="button"
@@ -228,22 +229,11 @@ function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; 
           </div>
         )}
       </div>
-      <p className="ficha-titulo">{libro.titulo}</p>
+      {/* Bajo la cubierta va el AUTOR y nada más. Es lo que hace la
+          referencia, y tiene su lógica: el título ya está escrito, grande,
+          en la propia cubierta, así que repetirlo debajo era decir dos veces
+          lo mismo y estirar la ficha ciento cuarenta puntos. */}
       <p className="ficha-autor">{libro.autor}</p>
-      {/* Aquí iba una segunda descripción sacada del gancho, y era el hueco
-          que llevábamos tres rondas persiguiendo: `ficha-sub` ya trae el
-          subtítulo del libro, que es exactamente la línea que la referencia
-          pone bajo el autor. Dos descripciones seguidas alargaban la ficha y
-          empujaban la pastilla lejos de su texto. */}
-      <p className="ficha-sub">{libro.subtitulo}</p>
-      <span className="ficha-pie">
-        <span className="chip-cat" style={{ background: libro.color }}>
-          {tema(libro.categoria)}
-        </span>
-        {/* Los minutos estorbaban: compartían renglón con la pastilla y en una
-            columna de 157 puntos no caben las dos, así que la etiqueta salía
-            recortada. El dato sigue estando en la ficha del libro. */}
-      </span>
     </motion.button>
   );
 }
@@ -337,42 +327,15 @@ export function Inicio({
           </motion.button>
         </header>
 
-        {/* Arriba del todo, el libro que tienes a medias y por dónde vas. En
-            la referencia aquí hay un «siguiente paso del día» con una tarea;
-            Pablo lo quiere con el progreso del libro que se está leyendo, que
-            además es lo único de la pantalla que sabe algo de ti. */}
-        <motion.button
-          className="paso-dia"
-          onClick={() => onAbrir(destacado)}
-          whileTap={{ scale: 0.985 }}
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...spring, delay: 0.04 }}
-        >
-          <span className="paso-aro" aria-hidden>
-            <svg viewBox="0 0 36 36">
-              <circle cx="18" cy="18" r="15" fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth="4" />
-              <circle
-                cx="18" cy="18" r="15" fill="none" stroke="#e8a93c" strokeWidth="4"
-                strokeLinecap="round" strokeDasharray={`${Math.round(avance * 94)} 94`}
-                transform="rotate(-90 18 18)"
-              />
-            </svg>
-            <b>{Math.round(avance * 100)}%</b>
-          </span>
-          <span className="paso-texto">
-            <span className="paso-ceja">Seguir leyendo</span>
-            <span className="paso-titulo">{destacado.titulo}</span>
-          </span>
-          <span className="paso-flecha" aria-hidden>
-            <GlyphBack />
-          </span>
-        </motion.button>
-
-        {/* La lectura diaria gratuita. Va lo primero, antes incluso del libro
-            a medias: es lo único de la pantalla que ofrece algo en vez de
-            pedir que sigas. Medido: 343 × 179 puntos, azul #008dff, el rótulo
-            en tres líneas a 28 y la llamada debajo a 19. */}
+        {/* La lectura diaria gratuita, lo primero de la pantalla. Medido
+            sobre la captura de Pablo, que va a 750 × 1624 —o sea la pantalla
+            a doble densidad, un píxel de la captura por medio punto—:
+              franja        x 32..718, y 234..594  → 343 × 180, radio 11
+              azul          #4397f7
+              rótulo        altura de mayúscula 41 px → 28 de cuerpo
+              interlínea    70 px → 35, o sea 1,25
+              llamada       25 px de mayúscula → 17 de cuerpo
+              cubierta      101 × 152 girada 6°, pegada al filo derecho */}
         {onOferta && (
           <motion.button
             className="franja-gratis"
@@ -390,8 +353,8 @@ export function Inicio({
             </span>
             {/* La cubierta va como imagen suelta y no por `Portada`, que
                 fuerza una caja cuadrada y deformaba el dibujo. Aquí la caja ES
-                el libro: 103 × 154, o sea el 2:3 de la cubierta con los mismos
-                154 de alto que tiene en la referencia. */}
+                el libro: 101 × 152, el 2:3 exacto del fichero que trajo Pablo
+                —1024 × 1536— a la altura que tiene en la referencia. */}
             <img
               className="gratis-libro"
               src={urlFoto(
@@ -403,33 +366,6 @@ export function Inicio({
             />
           </motion.button>
         )}
-
-        {/* Continuar: el libro que tienes a medias, siempre a un toque */}
-        <motion.button
-          className="tarjeta-seguir"
-          onClick={() => onAbrir(destacado)}
-          whileTap={{ scale: 0.985 }}
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...spring, delay: 0.1 }}
-        >
-          <Portada libro={destacado} tamano={59} />
-          <div className="seguir-texto">
-            <p className="seguir-titulo">{destacado.titulo}</p>
-            <p className="seguir-sub">{destacado.autor}</p>
-            <div className="seguir-barra">
-              <motion.div
-                className="seguir-relleno"
-                initial={{ scaleX: 0 }}
-                animate={{ scaleX: 0.15 }}
-                transition={{ ...springSoft, delay: 0.4 }}
-              />
-            </div>
-          </div>
-          <span className="seguir-flecha">
-            <GlyphBack />
-          </span>
-        </motion.button>
 
         {/* Los filtros son las mismas ocho de la introducción, en su orden */}
         <motion.div
@@ -526,6 +462,42 @@ export function Inicio({
         )}
 
       </div>
+
+      {/* La pastilla del libro en curso, flotando sobre el contenido y por
+          encima de la barra de pestañas. En la referencia este sitio lo ocupa
+          el reproductor de audio; Pablo lo quiere con el progreso del libro
+          que se está leyendo, que además es lo único de la pantalla que sabe
+          algo de él. Medido: 120 px de alto → 60 puntos, redondeo entero,
+          miniatura de 27 × 41 a 12 del filo y barra de 3 puntos. */}
+      <motion.button
+        className="pastilla-curso"
+        onClick={() => onAbrir(destacado)}
+        whileTap={{ scale: 0.985 }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ ...springSoft, delay: 0.24 }}
+      >
+        <img
+          className="curso-libro"
+          src={urlFoto(destacado.portada!, 320)}
+          alt=""
+          aria-hidden
+        />
+        <span className="curso-texto">
+          <span className="curso-titulo">{destacado.titulo}</span>
+          <span className="curso-barra">
+            <motion.span
+              className="curso-relleno"
+              initial={{ scaleX: 0 }}
+              animate={{ scaleX: avance }}
+              transition={{ ...springSoft, delay: 0.5 }}
+            />
+          </span>
+        </span>
+        <span className="curso-play" aria-hidden>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z" /></svg>
+        </span>
+      </motion.button>
     </motion.div>
   );
 }
