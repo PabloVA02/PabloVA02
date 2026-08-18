@@ -203,6 +203,18 @@ function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; 
       transition={{ ...spring, delay: 0.06 + i * 0.05 }}
     >
       <div className="ficha-arte">
+        {/* Guardar, asomando por la esquina de arriba a la derecha de la
+            cubierta. En la referencia sobresale un poco por fuera, y es lo
+            que hace que se lea como una pegatina y no como un icono más. */}
+        <span
+          className="ficha-guardar"
+          role="button"
+          tabIndex={-1}
+          aria-label="Guardar"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <GlyphGuardar />
+        </span>
         <Portada libro={libro} tamano={148} />
         {libro.progreso > 0 && (
           <div className="ficha-barra">
@@ -244,11 +256,14 @@ export function Inicio({
   racha,
   onAbrir,
   onPerfil,
+  onOferta,
   intereses = [],
 }: {
   racha: number;
   onAbrir: (libro: Libro) => void;
   onPerfil: () => void;
+  /** El banner de lectura gratuita. Si no se pasa, el banner no sale. */
+  onOferta?: () => void;
   /** Lo que marcó en la introducción. Ordena la estantería, no la recorta. */
   intereses?: string[];
 }) {
@@ -316,6 +331,29 @@ export function Inicio({
             <span>{racha}</span>
           </motion.button>
         </header>
+
+        {/* La lectura diaria gratuita. Va lo primero, antes incluso del libro
+            a medias: es lo único de la pantalla que ofrece algo en vez de
+            pedir que sigas. Medido: 343 × 179 puntos, azul #008dff, el rótulo
+            en tres líneas a 28 y la llamada debajo a 19. */}
+        {onOferta && (
+          <motion.button
+            className="franja-gratis"
+            onClick={onOferta}
+            whileTap={{ scale: 0.985 }}
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ...spring, delay: 0.06 }}
+          >
+            <span className="gratis-texto">
+              <span className="gratis-titulo">Lectura diaria gratuita</span>
+              <span className="gratis-llamada">
+                Obtener ahora <span aria-hidden>→</span>
+              </span>
+            </span>
+            <Portada libro={LIBROS[1] ?? LIBROS[0]} tamano={104} />
+          </motion.button>
+        )}
 
         {/* Continuar: el libro que tienes a medias, siempre a un toque */}
         <motion.button

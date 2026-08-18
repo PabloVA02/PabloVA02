@@ -199,6 +199,7 @@ export default function App() {
                 setPantalla("detalle");
               }}
               onPerfil={() => setPantalla("perfil")}
+              onOferta={() => setPantalla("oferta")}
             />
           )}
           {pantalla === "perfil" && (

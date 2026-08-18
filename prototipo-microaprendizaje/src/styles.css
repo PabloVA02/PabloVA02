@@ -6558,3 +6558,69 @@ button {
 /* Del rótulo al párrafo hay 70 px en el vídeo: 35 puntos. */
 .detalle-parrafo { font-size: 16px; line-height: 1.18; color: var(--ink); margin-top: 16px; }
 .detalle-cerrar { background: none; color: #fff; }
+
+/* --- La franja de lectura gratuita y el botón de guardar --------------- */
+
+/* Medido sobre la referencia: 686 × 358 px de la grabación, o sea 343 × 179
+   puntos, con 16 de margen a cada lado y 20 de radio. El azul es #008dff. */
+.franja-gratis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - var(--shell-pad) * 2);
+  height: 179px;
+  margin: 16px var(--shell-pad) 0;
+  padding: 0 0 0 20px;
+  border-radius: 20px;
+  background: #008dff;
+  overflow: hidden;
+  text-align: left;
+}
+.gratis-texto { display: flex; flex-direction: column; gap: 10px; }
+/* Tres líneas a 28, con la interlínea justa: en la referencia las líneas van
+   a 34 puntos y el bloque ocupa casi todo el alto de la franja. */
+.gratis-titulo {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+  max-width: 165px;
+}
+.gratis-llamada {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+}
+/* La cubierta va entera dentro de la franja, apoyada a la derecha y con una
+   inclinación corta. Con el giro grande y desplazada hacia fuera se salía por
+   el filo y se veía media. */
+.franja-gratis {
+  padding-right: 18px;
+}
+.franja-gratis .portada {
+  flex: none;
+  width: 104px !important;
+  height: 134px !important;
+  transform: rotate(6deg);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.34);
+}
+
+.ficha-arte { position: relative; }
+.ficha-guardar {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  z-index: 2;
+  width: 29px;
+  height: 28px;
+  border-radius: 9px;
+  background: #2a2a2c;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+.ficha-guardar svg { width: 15px; height: 15px; }
