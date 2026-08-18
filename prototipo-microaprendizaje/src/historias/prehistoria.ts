@@ -23,7 +23,7 @@ export const PREHISTORIA: Short[] = [
     titulo: "Lanzas de 300.000 años",
     gancho: "Son de madera y no deberían existir: la madera se pudre. Estas cayeron en el sitio exacto.",
     categoria: "Prehistoria",
-    color: "var(--forest)",
+    color: "var(--sage)",
     encargo: "Una vara de madera oscura y afilada, tumbada sobre arena húmeda.",
     fotos: [
       {

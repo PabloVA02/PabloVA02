@@ -152,7 +152,7 @@ export const GUERRA: Short[] = [
     titulo: "La Navidad sin disparos",
     gancho: "Salieron de las trincheras, se dieron la mano y jugaron al fútbol. Los mandos se aseguraron de que no se repitiera.",
     categoria: "Guerra",
-    color: "var(--forest)",
+    color: "var(--sage)",
     curioso: true,
     encargo: "Un campo helado entre dos líneas de alambrada, con figuras pequeñas en el centro.",
     entrada:

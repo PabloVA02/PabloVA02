@@ -23,7 +23,7 @@ export const DINOSAURIOS: Short[] = [
     titulo: "Dinosaurios con plumas",
     gancho: "Un yacimiento chino conserva la piel. Lo que apareció alrededor de los huesos no eran escamas.",
     categoria: "Dinosaurios",
-    color: "var(--forest)",
+    color: "var(--sage)",
     curioso: true,
     encargo: "Una losa de pizarra gris con el esqueleto de un animal pequeño marcado y una aureola de filamentos.",
     fotos: [

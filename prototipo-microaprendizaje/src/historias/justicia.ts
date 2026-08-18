@@ -23,7 +23,7 @@ export const JUSTICIA: Short[] = [
     titulo: "Juzgaron a una cerda",
     gancho: "Cerdos ahorcados, ratas citadas por edicto y un abogado de oficio pagado por el tribunal.",
     categoria: "Justicia",
-    color: "var(--forest)",
+    color: "var(--sage)",
     curioso: true,
     encargo: "Una sala de tribunal medieval vacía, con banco de madera y suelo de losa.",
     fotos: [

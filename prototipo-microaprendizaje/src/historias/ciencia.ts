@@ -87,7 +87,7 @@ export const CIENCIA: Short[] = [
     titulo: "Cuadernos aún radiactivos",
     gancho: "Guardaba material luminoso en un cajón porque le parecía bonito. Aquello la mató, y su libreta sigue peligrosa.",
     categoria: "Ciencia",
-    color: "var(--forest)",
+    color: "var(--sage)",
     encargo: "Un cuaderno de laboratorio antiguo, abierto, con anotaciones a mano y manchas.",
     fotos: [
       {

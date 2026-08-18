@@ -256,7 +256,7 @@ export const BICHOS: Short[] = [
     titulo: "Hormigas agricultoras",
     gancho: "No comen hoja: la usan de abono. Inventaron la agricultura cincuenta y nueve millones de años antes que nosotros.",
     categoria: "Bichos",
-    color: "var(--forest)",
+    color: "var(--sage)",
     curioso: true,
     encargo: "Una fila de hormigas cargando trozos de hoja verde por el suelo del bosque.",
     entrada:

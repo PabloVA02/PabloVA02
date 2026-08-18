@@ -21,7 +21,7 @@ export const CREENCIAS: Short[] = [
     titulo: "La Biblia no dice manzana",
     gancho: "El texto dice «fruto», sin más. La manzana llegó mil años después, y por un juego de palabras en latín.",
     categoria: "Creencias",
-    color: "var(--forest)",
+    color: "var(--sage)",
     curioso: true,
     encargo: "Un árbol frondoso con una fruta indefinida, pintado al óleo, luz de tarde.",
     fotos: [

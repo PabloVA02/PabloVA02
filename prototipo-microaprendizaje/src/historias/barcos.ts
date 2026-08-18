@@ -92,7 +92,7 @@ export const BARCOS: Short[] = [
     titulo: "El escorbuto mataba más",
     gancho: "Se supo cómo curarlo en 1747 y se tardó cuarenta y ocho años en aplicarlo.",
     categoria: "Barcos",
-    color: "var(--forest)",
+    color: "var(--sage)",
     encargo: "Unos limones y una jarra sobre la mesa de madera de un camarote antiguo.",
     fotos: [
       {

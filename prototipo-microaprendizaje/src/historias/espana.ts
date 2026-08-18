@@ -244,7 +244,7 @@ export const ESPANA: Short[] = [
     titulo: "La gripe no era española",
     gancho: "Se llamó así porque España era el único país que no censuraba a sus periódicos.",
     categoria: "España",
-    color: "var(--forest)",
+    color: "var(--sage)",
     curioso: true,
     encargo: "Una sala de hospital de 1918 con camas alineadas y enfermeras con mascarilla.",
     entrada:

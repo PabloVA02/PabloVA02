@@ -251,7 +251,7 @@ export const TECNOLOGIA: Short[] = [
     titulo: "El primer mensaje fue LO",
     gancho: "Iban a escribir «login». El sistema se cayó a la tercera letra y así se quedó.",
     categoria: "Tecnología",
-    color: "var(--forest)",
+    color: "var(--sage)",
     curioso: true,
     encargo: "Un armario de ordenador de los sesenta, lleno de cintas y luces, en penumbra.",
     entrada:

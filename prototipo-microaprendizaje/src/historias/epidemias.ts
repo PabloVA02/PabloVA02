@@ -94,7 +94,7 @@ export const EPIDEMIAS: Short[] = [
     titulo: "La única borrada",
     gancho: "Mató a más gente que cualquier otra. La campaña final consistió en perseguir a los enfermos uno a uno.",
     categoria: "Epidemias",
-    color: "var(--forest)",
+    color: "var(--sage)",
     encargo: "Una nevera portátil de campaña con viales, sobre tierra seca y polvorienta.",
     fotos: [
       {

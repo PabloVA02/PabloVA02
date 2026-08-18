@@ -86,7 +86,7 @@ export const VIDEOJUEGOS: Short[] = [
     titulo: "El videojuego de la feria",
     gancho: "Un físico conectó un osciloscopio a un ordenador analógico para que los visitantes no se aburrieran.",
     categoria: "Videojuegos",
-    color: "var(--forest)",
+    color: "var(--sage)",
     curioso: true,
     encargo: "Una pantalla redonda de osciloscopio verde con una línea luminosa curva.",
     fotos: [

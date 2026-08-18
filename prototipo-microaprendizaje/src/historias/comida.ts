@@ -22,7 +22,7 @@ export const COMIDA: Short[] = [
     titulo: "Nadie quería comer patatas",
     gancho: "La tomaban por comida de cerdos y por causa de la lepra. Hubo que robarla para que se comiera.",
     categoria: "Comida",
-    color: "var(--forest)",
+    color: "var(--sage)",
     encargo: "Unas patatas con tierra encima sobre un saco de arpillera, luz de ventana.",
     fotos: [
       {
@@ -244,7 +244,7 @@ export const COMIDA: Short[] = [
     titulo: "El azúcar movió el mundo",
     gancho: "Era un lujo de farmacia. Cuando se abarató, hicieron falta millones de personas para cortar caña.",
     categoria: "Comida",
-    color: "var(--forest)",
+    color: "var(--sage)",
     encargo: "Un cañaveral alto y espeso con el sol filtrándose entre las hojas.",
     entrada:
       "Europa, siglo XV. El azúcar es una mercancía de lujo que se vende en las boticas por onzas, se guarda bajo llave y se receta como medicina para casi cualquier cosa; un banquete importante puede llevar una escultura hecha de azúcar en el centro de la mesa como demostración de riqueza. Viene de la caña, que solo crece en climas cálidos y húmedos y que en Europa apenas se da. Su cultivo exige además una cantidad de trabajo desmedida, y de ahí sale todo lo demás. Lo que viene después es una de las páginas más oscuras de la historia moderna.",

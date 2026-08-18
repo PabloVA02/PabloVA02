@@ -23,7 +23,7 @@ export const HIGIENE: Short[] = [
     titulo: "El hedor trajo las cloacas",
     gancho: "El cólera mataba a miles y nadie se movió. Bastó un verano de peste en el Parlamento.",
     categoria: "Higiene",
-    color: "var(--forest)",
+    color: "var(--sage)",
     encargo: "Un túnel de ladrillo en arco, con agua oscura corriendo por el fondo.",
     fotos: [
       {

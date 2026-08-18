@@ -29,7 +29,13 @@ import { pathToFileURL } from "node:url";
 const LIMITES = {
   titulo: { max: 58 },
   gancho: { min: 40, max: 130 },
-  entrada: { min: 40, max: 85 },
+  /* El máximo se quedó en 85 cuando `MOLDE.md` subió la entrada a 95-110
+     palabras: la portada enseña la entrada ENTERA, y con la medida vieja
+     pesaba la mitad que las otras tres pantallas. Con 85 fallaban las 761
+     historias, o sea que la regla no medía nada. El mínimo sí se deja en 40 a
+     propósito, como dice el molde, para no marcar de golpe las que aún no se
+     han pasado a la medida nueva. */
+  entrada: { min: 40, max: 110 },
   rotulo: { max: 5 },
   pagina: { min: 75, max: 145 },
   historia: { min: 300, max: 480 },
@@ -51,7 +57,22 @@ const palabras = (t) =>
 
 const carpeta = await mkdtemp(join(tmpdir(), "shorts-"));
 const salida = join(carpeta, "shorts.mjs");
-const bundle = await rolldown({ input: "src/shorts.ts", logLevel: "silent" });
+/* Dos historias traen su fotografía como fichero propio —`import venusFoto from
+   "../fotos/venus-dia.jpg"`—. Eso lo resuelve Vite con su cargador de recursos,
+   y rolldown a secas no: intenta leer el JPEG como si fuera código y se planta
+   con «stream did not contain valid UTF-8», que deja el validador entero sin
+   poder ejecutarse. Aquí solo se leen los textos, así que la imagen se sustituye
+   por su ruta y en paz. */
+const comoRuta = {
+  name: "imagenes-como-ruta",
+  resolveId(fuente) {
+    return /\.(jpe?g|png|webp|avif|gif|svg)$/i.test(fuente) ? `\0img:${fuente}` : null;
+  },
+  load(id) {
+    return id.startsWith("\0img:") ? `export default ${JSON.stringify(id.slice(5))};` : null;
+  },
+};
+const bundle = await rolldown({ input: "src/shorts.ts", logLevel: "silent", plugins: [comoRuta] });
 await bundle.write({ file: salida, format: "esm" });
 const { SHORTS } = await import(pathToFileURL(salida).href);
 await rm(carpeta, { recursive: true, force: true });
@@ -92,7 +113,14 @@ for (const s of SHORTS) {
   // La foto es opcional; su ficha, no. Sin autor y licencia no se puede
   // publicar una CC-BY, y sin alt la historia no se puede escuchar.
   if (s.foto) {
-    for (const campo of ["archivo", "autor", "licencia", "alt"])
+    /* De dónde sale la imagen se dice de una de dos maneras, y las dos valen:
+       `archivo` es un fichero de Commons y `local` es una imagen nuestra
+       importada como recurso. Pedir siempre `archivo` marcaba como rotas las
+       dos que van por `local` —Venus y el César de Camuccini—, que están
+       perfectas. Lo que no admite alternativa es la ficha: sin autor ni
+       licencia no se puede publicar una CC-BY, y sin alt no se puede escuchar. */
+    if (!s.foto.archivo && !s.foto.local) err("la foto no dice de dónde sale: ni archivo ni local");
+    for (const campo of ["autor", "licencia", "alt"])
       if (!s.foto[campo]) err(`la foto no trae ${campo}`);
   } else if (!s.encargo) {
     err("sin foto y sin encargo: no hay nada que pintar de portada");

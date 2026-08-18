@@ -254,7 +254,7 @@ export const MUSICA: Short[] = [
     titulo: "Woodstock salió gratis",
     gancho: "Vendieron ciento ochenta y seis mil entradas y aparecieron cuatrocientas mil personas.",
     categoria: "Música",
-    color: "var(--forest)",
+    color: "var(--sage)",
     encargo: "Un campo embarrado lleno de gente y de tiendas de campaña vistas desde una loma.",
     entrada:
       "Estado de Nueva York, agosto de 1969. Cuatro socios de veintitantos años organizan un festival de tres días en una granja alquilada a un vecino y esperan unas cincuenta mil personas, que ya sería mucho. Han vendido entradas por correo, tienen contratados a treinta y dos grupos y les quedan dos días para empezar. A esas alturas no han montado todavía ni las vallas del recinto ni las taquillas ni el escenario, y con el tiempo que les queda tienen que elegir entre una cosa y la otra. Fuera ya hay gente esperando.",

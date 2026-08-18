@@ -226,7 +226,7 @@ export const CUERPO: Short[] = [
     titulo: "Dos huesos, una mandíbula",
     gancho: "Los tres huesos más pequeños del cuerpo entran en una moneda de dos céntimos. Dos vienen de una quijada.",
     categoria: "Cuerpo",
-    color: "var(--forest)",
+    color: "var(--sage)",
     curioso: true,
     encargo: "Tres huesecillos diminutos sobre un paño oscuro, fotografiados muy de cerca.",
     entrada:

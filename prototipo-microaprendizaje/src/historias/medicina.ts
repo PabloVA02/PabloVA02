@@ -190,7 +190,7 @@ export const MEDICINA: Short[] = [
     titulo: "La penicilina, por descuido",
     gancho: "Un moho se coló en un cultivo olvidado durante las vacaciones y mató a las bacterias de alrededor.",
     categoria: "Medicina",
-    color: "var(--forest)",
+    color: "var(--sage)",
     encargo: "Una placa de laboratorio con una mancha de moho verdoso y un halo limpio alrededor.",
     entrada:
       "Londres, septiembre de 1928. Un médico escocés vuelve de un mes de vacaciones y encuentra su laboratorio tal y como lo había dejado: desordenado, con placas de cultivo apiladas junto a la ventana y sin lavar. Trabaja con una bacteria que provoca infecciones y había dejado colonias creciendo antes de marcharse, sin taparlas del todo. Al mirarlas de vuelta ve que una de ellas está contaminada por un moho que ha entrado por el aire, y que alrededor de ese moho no crece absolutamente nada. Hay un círculo limpio en mitad de la placa.",

@@ -90,7 +90,7 @@ export const ELECTRICIDAD: Short[] = [
     titulo: "La pila salió de unas ranas",
     gancho: "Un anatomista creyó haber encontrado la electricidad de los seres vivos. Su rival demostró que era el metal.",
     categoria: "Electricidad",
-    color: "var(--forest)",
+    color: "var(--sage)",
     curioso: true,
     encargo: "Una mesa de laboratorio del XVIII con instrumentos de cobre y un tarro de cristal.",
     fotos: [

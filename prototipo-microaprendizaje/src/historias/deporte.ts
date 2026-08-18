@@ -221,7 +221,7 @@ export const DEPORTE: Short[] = [
     titulo: "El rival le enseñó a saltar",
     gancho: "Los Juegos eran el escaparate del nazismo. El favorito local ayudó al hombre que iba a ganarle.",
     categoria: "Deporte",
-    color: "var(--forest)",
+    color: "var(--sage)",
     encargo: "Un foso de salto de longitud con la arena rastrillada y una pista de ceniza al lado.",
     entrada:
       "Berlín, agosto de 1936. Alemania organiza unos Juegos Olímpicos pensados como demostración de la superioridad de una raza sobre todas las demás: banderas colgadas por toda la ciudad, un estadio nuevo para cien mil personas y una película encargada de antemano para la posteridad. El régimen lleva tres años en el poder y quiere enseñarle al mundo una cara amable. Entre los atletas invitados hay un estadounidense negro, hijo de aparceros y nieto de esclavos, que corre y salta como no lo ha hecho nadie hasta entonces. Va a ganar cuatro medallas de oro en una semana.",
