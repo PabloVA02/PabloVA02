@@ -529,7 +529,7 @@ export function DetalleLibro({
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ ...springPop, delay: 0.08 }}
         >
-          <Portada libro={libro} tamano={150} />
+          <Portada libro={libro} tamano={108} />
         </motion.div>
 
         <motion.div

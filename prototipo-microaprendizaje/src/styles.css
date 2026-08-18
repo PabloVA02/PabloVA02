@@ -6423,3 +6423,38 @@ button {
 .ficha-autor { font-size: 14px; color: var(--ink-soft); margin: 3px 0 0; }
 .ficha-sub { font-size: 14px; color: var(--ink-soft); margin: 7px 0 0; line-height: 1.35; }
 .ficha-pie { margin-top: 9px; }
+
+/* --- La ficha del libro, calcada del segundo vídeo --------------------- */
+
+/* La hoja no es negra: es la misma superficie #49444f de las tarjetas, con
+   el negro solo detrás. En el vídeo se ve clarísimo porque el borde superior
+   redondeado deja asomar el fondo. */
+.detalle { background: var(--paper-deep); }
+
+/* El arco de detrás de la portada va en un tinte CLARO del color de la
+   categoría —en el vídeo es un lila pastel sobre el que la cubierta se
+   recorta—, no en el color a pelo, que sale oscuro y se come la portada. */
+.detalle-arco { background: color-mix(in srgb, var(--tinta, #b08bd0) 32%, #fff) !important; }
+
+/* La portada mide 215 px en el vídeo: 107 puntos. El tamaño se lo da el
+   componente desde el TSX, así que aquí solo va el redondeo. */
+.detalle-portada .port { border-radius: 16px; }
+
+/* Los tres botones son círculos BLANCOS con el icono oscuro, y miden 75 px
+   en el vídeo: 37 puntos. */
+.detalle-acciones .accion-redonda {
+  background: #ffffff;
+  color: #1c1a20;
+  width: 37px;
+  height: 37px;
+  border: none;
+}
+.detalle-acciones .accion-redonda svg { color: #1c1a20; }
+
+.detalle-titulo { font-size: 20px; font-weight: 700; letter-spacing: -0.015em; }
+.detalle-autor { font-size: 17px; color: var(--ink-soft); font-weight: 400; }
+/* El vídeo no lleva la línea de minutos y partes bajo el autor. */
+.detalle-meta { display: none; }
+.detalle-seccion { font-size: 16px; font-weight: 700; margin-top: 26px; }
+.detalle-parrafo { font-size: 18px; line-height: 1.45; color: var(--ink); }
+.detalle-cerrar { background: none; color: #fff; }

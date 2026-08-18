@@ -58,7 +58,11 @@ function pantallaInicial(): Pantalla {
      por dónde quiere que se abra antes de arrancar la app. */
   const p = (globalThis as Record<string, any>).__PANTALLA
     ?? new URLSearchParams(window.location.search).get("p");
-  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes"];
+  /* «detalle» y «camino» entran aquí para poder mirarlas sueltas: son las dos
+     que hay que comparar contra los vídeos de referencia y no se llega a
+     ellas sin pasar por la estantería. El libro que abren es el primero del
+     catálogo, que es el que ya trae `libro` por defecto. */
+  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes", "detalle", "camino"];
   return validas.includes(p ?? "") ? (p as Pantalla) : "intro";
 }
 
