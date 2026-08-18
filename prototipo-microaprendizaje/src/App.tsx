@@ -96,6 +96,11 @@ export default function App() {
      está puesto. De él salen las páginas del lector. */
   const [resumen, setResumen] = useState<Resumen | undefined>(() => resumenCargado(libro.id));
   const objetivoLibro = resumen ? Math.max(1, Math.round(minutosDe(resumen) / resumen.partes.length)) : MINUTOS_OBJETIVO;
+  /* Lo que dura el resumen ENTERO. Desde que el lector va por ocho páginas y
+     no por capítulos, lo que se termina es el libro, así que la pantalla de
+     cierre tiene que medirse contra esto y no contra los cinco minutos de un
+     capítulo, que era la cifra de la lección de muestra. */
+  const objetivoResumen = resumen ? Math.max(1, Math.round(minutosDe(resumen))) : MINUTOS_OBJETIVO;
 
   // Al cambiar de libro se vacía lo anterior y se pide lo nuevo. El `vivo`
   // evita que una descarga lenta de un libro que ya se ha cerrado pise el
@@ -279,7 +284,7 @@ export default function App() {
           )}
 
           {pantalla === "fin" && (
-            <Fin key="fin" minutos={minutos} onCerrar={() => setPantalla("racha")} />
+            <Fin key="fin" minutos={minutos} objetivo={objetivoResumen} onCerrar={() => setPantalla("racha")} />
           )}
           {pantalla === "racha" && (
             <Racha key="racha" dias={1} onContinuar={() => setPantalla("reto")} />
@@ -441,7 +446,16 @@ function reloj() {
    Cierre
    ========================================================================== */
 
-function Fin({ minutos, onCerrar }: { minutos: number; onCerrar: () => void }) {
+function Fin({
+  minutos,
+  objetivo,
+  onCerrar,
+}: {
+  minutos: number;
+  /** Lo que dura el resumen entero, en minutos. */
+  objetivo: number;
+  onCerrar: () => void;
+}) {
   const [xp, setXp] = useState(0);
 
   useEffect(() => {
@@ -453,8 +467,8 @@ function Fin({ minutos, onCerrar }: { minutos: number; onCerrar: () => void }) {
     return () => control.stop();
   }, []);
 
-  // Se mide contra el objetivo del capítulo, no contra una cifra inventada.
-  const aTiempo = minutos >= MINUTOS_OBJETIVO * 0.6;
+  // Se mide contra lo que dura el resumen, no contra una cifra inventada.
+  const aTiempo = minutos >= objetivo * 0.6;
   const texto = minutos < 1
     ? `${Math.round(minutos * 60)} s`
     : `${minutos.toFixed(1).replace(".", ",")} min`;
@@ -488,7 +502,7 @@ function Fin({ minutos, onCerrar }: { minutos: number; onCerrar: () => void }) {
       </motion.svg>
 
       <motion.h2 custom={2} variants={enterVariants} initial="hidden" animate="shown">
-        Capítulo<br />completado
+        Resumen<br />completado
       </motion.h2>
 
       <div className="done-cifras">
@@ -510,8 +524,8 @@ function Fin({ minutos, onCerrar }: { minutos: number; onCerrar: () => void }) {
         animate="shown"
       >
         {aTiempo
-          ? `Dentro de los ${MINUTOS_OBJETIVO} minutos previstos para este capítulo.`
-          : `Has ido rápido: este capítulo está pensado para unos ${MINUTOS_OBJETIVO} minutos.`}
+          ? `Dentro de los ${objetivo} minutos previstos para este resumen.`
+          : `Has ido rápido: este resumen está pensado para unos ${objetivo} minutos.`}
       </motion.p>
 
       <div className="done-cta">
