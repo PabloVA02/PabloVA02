@@ -231,6 +231,56 @@ export function GlyphLupa({ tamano = 22 }: { tamano?: number }) {
   );
 }
 
+/* La llama de la racha, para tamaño pequeño.
+   
+   La de `Racha.tsx` está dibujada para 108 puntos: lleva un contorno de nueve
+   de grosor que a 22 se come la figura entera y la deja en un borrón. Esta es
+   otra pieza, no la misma encogida: sin contorno, con dos cuerpos —el fuego
+   de fuera y el núcleo— y un degradado en cada uno, que es lo que hace que a
+   este tamaño se lea como fuego y no como una gota naranja.
+
+   Los tonos van del amarillo de abajo al rojo de la punta, que es como arde
+   de verdad: lo más caliente está pegado a la base. */
+export function GlyphLlama({ tamano = 22 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      <defs>
+        <linearGradient id="fuego-fuera" x1="0" y1="1" x2="0" y2="0">
+          <stop offset="0" stopColor="#FFB13D" />
+          <stop offset="0.55" stopColor="#FF7A18" />
+          <stop offset="1" stopColor="#F0410E" />
+        </linearGradient>
+        <linearGradient id="fuego-nucleo" x1="0" y1="1" x2="0" y2="0">
+          <stop offset="0" stopColor="#FFF6C2" />
+          <stop offset="1" stopColor="#FFC93C" />
+        </linearGradient>
+      </defs>
+      <path
+        d="M12.4 1.8c3.3 4.3 6.7 6.8 6.7 11.3a7.1 7.1 0 0 1-14.2 0c0-3.1 1.9-4.8 3.1-7.3.4 2.1 1.3 3 1.9 3.5C9.6 7 10.4 4.2 12.4 1.8z"
+        fill="url(#fuego-fuera)"
+      />
+      <path
+        d="M12.7 11.4c1.7 2.3 3 3.4 3 5.3a3.5 3.5 0 0 1-7 0c0-1.7 1.2-2.4 1.9-3.8.2 1.2.7 1.7 1 2-.2-1.3.3-2.5 1.1-3.5z"
+        fill="url(#fuego-nucleo)"
+      />
+    </svg>
+  );
+}
+
+/* El perfil de la cabecera: cabeza y hombros dentro de un aro, de trazo, para
+   que case con la lupa y con el marcador. */
+export function GlyphAvatar({ tamano = 24 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      <g fill="none" stroke="currentColor" strokeWidth="1.8">
+        <circle cx="12" cy="12" r="9.1" />
+        <circle cx="12" cy="9.8" r="3.1" />
+        <path d="M6.1 19.4c1.1-2.6 3.3-4 5.9-4s4.8 1.4 5.9 4" strokeLinecap="round" />
+      </g>
+    </svg>
+  );
+}
+
 export function GlyphCandado() {
   return (
     <svg width="19" height="19" viewBox="0 0 19 19" aria-hidden>

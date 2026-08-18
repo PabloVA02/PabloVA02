@@ -5,10 +5,12 @@ import {
   LuzLuna, LuzLunaVB, MapaAventura, MapaAventuraVB, Memoria, MemoriaVB,
   PensarArte, PensarArteVB,
 } from "./undraw";
-import { Llama } from "./Racha";
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import { urlFoto } from "./shorts";
-import { GlyphClose, GlyphDescargar, GlyphGuardar, GlyphLupa, GlyphRegalo, GlyphShare } from "./glyphs";
+import {
+  GlyphAvatar, GlyphClose, GlyphDescargar, GlyphGuardar, GlyphLlama, GlyphLupa,
+  GlyphRegalo, GlyphShare,
+} from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { APRENDERAS } from "./libros/aprenderas";
 import { PortadaLibro } from "./PortadaLibro";
@@ -228,16 +230,20 @@ export function MiBiblioteca({
   const [buscando, setBuscando] = useState(false);
   const [busca, setBusca] = useState("");
 
-  /* Un libro terminado ya no está «leyendo» aunque le quede progreso, y uno
-     que se está leyendo no cuenta como guardado aunque lleve el marcador: si
-     un mismo libro sale en dos secciones, la pantalla deja de decir en qué
-     estado está cada cosa. El orden manda: terminado, leyendo, guardado. */
+  /* GUARDADOS SON TODOS LOS QUE LLEVAN EL MARCADOR, sin más condiciones.
+     Estaban excluidos los que ya se estaban leyendo, con la idea de que cada
+     libro saliera en una sola sección; y eso rompía lo único que el botón
+     promete: guardas un libro que tenías a medias, el aviso dice «Guardado en
+     tu biblioteca» y en Guardados no aparecía. El botón manda sobre la
+     ordenación.
+
+     Las otras dos sí se excluyen entre sí, porque ahí no hay promesa que
+     romper y sí una contradicción: un libro terminado no es un libro que
+     estés siguiendo. */
   const secciones = useMemo(() => {
     const fin = LIBROS.filter((l) => terminados.has(l.id));
     const leyendo = LIBROS.filter((l) => !terminados.has(l.id) && l.progreso > 0);
-    const guarda = LIBROS.filter(
-      (l) => guardados.has(l.id) && !terminados.has(l.id) && l.progreso === 0,
-    );
+    const guarda = LIBROS.filter((l) => guardados.has(l.id));
     /* Dos nombres por sección: el largo para el rótulo, que ahí hay sitio, y
        el corto para la fila de filtros, donde cuatro nombres largos no caben
        en 375 puntos y obligan a desplazar para ver el último. */
@@ -395,8 +401,21 @@ export function MiBiblioteca({
           )
         )}
 
-        {total > 0 && visibles.every((sec) => sec.libros.length === 0) && (
+        {/* Solo cuando se ha buscado algo. Sin esta condición, un filtro
+            vacío —«Terminados» recién abierta la app— decía «ningún libro
+            tuyo se llama así» sin que nadie hubiera escrito nada. */}
+        {total > 0 && texto !== "" && visibles.every((sec) => sec.libros.length === 0) && (
           <p className="biblio-nada">Ningún libro tuyo se llama así.</p>
+        )}
+        {/* Y cuando la sección está vacía de verdad, se dice lo que le falta. */}
+        {total > 0 && texto === "" && visibles.every((sec) => sec.libros.length === 0) && (
+          <p className="biblio-nada">
+            {filtro === "terminados"
+              ? "Todavía no has terminado ningún resumen."
+              : filtro === "leyendo"
+                ? "No tienes ningún libro a medias."
+                : "Todavía no has guardado ningún libro."}
+          </p>
         )}
       </div>
     </motion.div>
@@ -577,19 +596,42 @@ export function Inicio({
           <motion.h1 custom={0} variants={enterVariants} initial="hidden" animate="shown">
             {saludo()}
           </motion.h1>
-          {/* La racha es la puerta del perfil: se toca lo que se quiere mirar */}
-          <motion.button
-            className="pastilla-racha"
-            onClick={onPerfil}
-            whileTap={{ scale: 0.94 }}
-            initial={{ opacity: 0, scale: 0.8 }}
+          {/* La racha y el perfil, en una sola pastilla partida por un filete,
+              como en la captura. Son dos botones y no uno: el fuego lleva a la
+              racha y la cara al perfil, que es lo que espera quien toca cada
+              cosa. La llama respira despacio —dos segundos y medio— porque un
+              fuego quieto en la cabecera parece un icono apagado. */}
+          <motion.div
+            className="cabecera-pastilla"
+            initial={{ opacity: 0, scale: 0.86 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ ...springPop, delay: 0.16 }}
-            aria-label={`Tu perfil. Racha de ${racha} días`}
           >
-            <Llama tamano={22} reducido={false} />
-            <span>{racha}</span>
-          </motion.button>
+            <motion.button
+              className="pastilla-racha"
+              onClick={onPerfil}
+              whileTap={{ scale: 0.92 }}
+              aria-label={`Tu racha: ${racha} ${racha === 1 ? "día" : "días"}`}
+            >
+              <motion.span
+                className="racha-fuego"
+                animate={{ scale: [1, 1.09, 0.98, 1], rotate: [0, -2.5, 2, 0] }}
+                transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <GlyphLlama tamano={21} />
+              </motion.span>
+              <span className="racha-dias">{racha}</span>
+            </motion.button>
+            <span className="cabecera-filete" aria-hidden />
+            <motion.button
+              className="pastilla-perfil"
+              onClick={onPerfil}
+              whileTap={{ scale: 0.92 }}
+              aria-label="Tu perfil"
+            >
+              <GlyphAvatar tamano={23} />
+            </motion.button>
+          </motion.div>
         </header>
 
         {/* El libro a medias, lo primero de todo. Antes flotaba abajo, en el

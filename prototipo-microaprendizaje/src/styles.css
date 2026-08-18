@@ -6409,15 +6409,45 @@ button {
 /* De la raya al filo de arriba de la franja azul hay 21 px: 10,5 puntos. */
 .inicio .franja-gratis { margin-top: 14px; }
 
-/* En el vídeo mide 140 × 60 px, o sea 70 × 30 puntos. */
+/* La pastilla de la cabecera: fuego y racha a un lado, la cara al otro, y un
+   filete de un punto separándolos, como en la captura. Es una sola pieza a la
+   vista y dos botones al tacto. */
+.cabecera-pastilla {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: #383838;
+  border: 1px solid #606060;
+}
 .pastilla-racha {
-  background: var(--paper-deep);
-  border: 1.5px solid var(--paper-edge);
-  color: var(--ink);
-  padding: 0 13px 0 8px;
-  height: 30px;
-  gap: 3px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 100%;
+  padding: 0 10px 0 8px;
+  background: none;
+  border: none;
+  color: #fff;
+}
+.racha-fuego { display: grid; place-items: center; }
+.racha-dias {
   font-size: 16px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.cabecera-filete {
+  width: 1px;
+  height: 20px;
+  background: #606060;
+}
+.pastilla-perfil {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  padding: 0 9px;
+  color: #fff;
 }
 
 /* --- Tarjeta de continuar ---------------------------------------------- */
