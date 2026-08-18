@@ -119,12 +119,15 @@ export default function App() {
   // El regalo aparece cuando ya has visto el inicio un momento. Soltarlo a
   // bocajarro nada más entrar se lee como un anuncio; dejar respirar la
   // pantalla primero hace que se lea como algo que la app te ofrece.
+  // Con segundo y medio no respiraba nada: en el simulador, que entra directo
+  // a la biblioteca, el aviso caía encima antes de que diera tiempo a mirar
+  // una portada. Cinco segundos son los que se tarda en recorrer la tira.
   useEffect(() => {
     if (pantalla !== "inicio" || regaloVisto) return;
     const id = window.setTimeout(() => {
       setAvisoRegalo(true);
       setRegaloVisto(true);
-    }, 1600);
+    }, 5000);
     return () => window.clearTimeout(id);
   }, [pantalla, regaloVisto]);
 
