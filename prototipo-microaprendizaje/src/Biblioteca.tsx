@@ -6,9 +6,9 @@ import {
   PensarArte, PensarArteVB,
 } from "./undraw";
 import { Llama } from "./Racha";
-import { enterVariants, spring, springPop, springSoft } from "./motion";
+import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import { urlFoto } from "./shorts";
-import { GlyphClose, GlyphDescargar, GlyphGuardar, GlyphRegalo, GlyphShare } from "./glyphs";
+import { GlyphClose, GlyphDescargar, GlyphGuardar, GlyphLupa, GlyphRegalo, GlyphShare } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { APRENDERAS } from "./libros/aprenderas";
 import { PortadaLibro } from "./PortadaLibro";
@@ -183,30 +183,86 @@ export function Portada({ libro, tamano = 140 }: { libro: Libro; tamano?: number
 }
 
 /* -------------------------------------------------------------------------
-   Mi biblioteca: lo que has guardado
+   Mi biblioteca: lo tuyo, en tres estados
    ------------------------------------------------------------------------- */
 
-/**
- * La tercera pestaña. Enseña exactamente lo que se ha guardado con el botón
- * de la esquina de las cubiertas, ni más ni menos: si esa pestaña llevara a
- * otro catálogo, el botón de guardar no significaría nada.
- *
- * Va en parrilla y no en carrusel, que es la diferencia entre ojear y buscar:
- * aquí vienes a por un libro concreto que ya elegiste.
- */
+/* Calcada de la captura de Headway, con dos cambios a propósito.
+   
+   La estructura es la suya: rótulo grande arriba con la lupa a la derecha,
+   una fila de filtros con el activo subrayado, y debajo secciones apiladas
+   —cada una con su nombre, su cuenta en gris al lado y un «Ver todo»— con las
+   cubiertas en tira horizontal.
+
+   Lo que cambia, y por qué:
+
+   · Los filtros de Headway son «Resúmenes · Repetición · Destacados», que son
+     COSAS SUYAS: repaso espaciado y subrayados, que aquí no existen. Poner
+     dos pestañas a cero para siempre es enseñar una app que no es. Los
+     nuestros son los tres estados que sí tenemos, y filtran de verdad.
+
+   · Sus cubiertas llevan dos botones cuadrados encima —descargar y «···»—
+     que aquí no harían nada. El marcador de la esquina, en cambio, quita el
+     libro de esta pantalla, que es la acción que se pide desde aquí.
+
+   El «Ver todo» no es decorativo: cambia el filtro a esa sección, y entonces
+   la tira se abre en parrilla. */
+
+type Estado = "todo" | "leyendo" | "guardados" | "terminados";
+
 export function MiBiblioteca({
   guardados,
+  terminados,
   onAbrir,
   onGuardar,
   onExplorar,
 }: {
   guardados: ReadonlySet<string>;
+  /** Los leídos hasta el final. Se apuntan al pulsar «Finalizar resumen». */
+  terminados: ReadonlySet<string>;
   onAbrir: (libro: Libro) => void;
   onGuardar: (libro: Libro) => void;
   /** Salida de la pantalla vacía: no se deja a nadie delante de una nada. */
   onExplorar: () => void;
 }) {
-  const mios = LIBROS.filter((l) => guardados.has(l.id));
+  const [filtro, setFiltro] = useState<Estado>("todo");
+  const [buscando, setBuscando] = useState(false);
+  const [busca, setBusca] = useState("");
+
+  /* Un libro terminado ya no está «leyendo» aunque le quede progreso, y uno
+     que se está leyendo no cuenta como guardado aunque lleve el marcador: si
+     un mismo libro sale en dos secciones, la pantalla deja de decir en qué
+     estado está cada cosa. El orden manda: terminado, leyendo, guardado. */
+  const secciones = useMemo(() => {
+    const fin = LIBROS.filter((l) => terminados.has(l.id));
+    const leyendo = LIBROS.filter((l) => !terminados.has(l.id) && l.progreso > 0);
+    const guarda = LIBROS.filter(
+      (l) => guardados.has(l.id) && !terminados.has(l.id) && l.progreso === 0,
+    );
+    /* Dos nombres por sección: el largo para el rótulo, que ahí hay sitio, y
+       el corto para la fila de filtros, donde cuatro nombres largos no caben
+       en 375 puntos y obligan a desplazar para ver el último. */
+    return [
+      { id: "leyendo" as const, nombre: "Seguir leyendo", corto: "Leyendo", libros: leyendo },
+      /* «Guardado para más tarde» es el nombre de la referencia y en 375
+         puntos parte en dos renglones al lado del botón. Dice lo mismo en una
+         línea. */
+      { id: "guardados" as const, nombre: "Para más tarde", corto: "Guardados", libros: guarda },
+      { id: "terminados" as const, nombre: "Terminado", corto: "Terminados", libros: fin },
+    ];
+  }, [guardados, terminados]);
+
+  const texto = busca.trim().toLowerCase();
+  const cuela = (l: Libro) =>
+    !texto || l.titulo.toLowerCase().includes(texto) || l.autor.toLowerCase().includes(texto);
+
+  const visibles = secciones
+    .filter((sec) => filtro === "todo" || filtro === sec.id)
+    .map((sec) => ({ ...sec, libros: sec.libros.filter(cuela) }));
+
+  const total = secciones.reduce((n, sec) => n + sec.libros.length, 0);
+  /* Con un solo estado a la vista, la tira se abre en parrilla: ya no es una
+     tira de las tres que hay, es la lista de esa sección. */
+  const enParrilla = filtro !== "todo";
 
   return (
     <motion.div
@@ -218,11 +274,78 @@ export function MiBiblioteca({
       <div className="inicio-scroll">
         <header className="inicio-cabecera">
           <motion.h1 custom={0} variants={enterVariants} initial="hidden" animate="shown">
-            Mi biblioteca
+            Biblioteca
           </motion.h1>
+          {total > 0 && (
+            <motion.button
+              className="biblio-lupa"
+              onClick={() => {
+                setBuscando((v) => !v);
+                setBusca("");
+              }}
+              whileTap={{ scale: 0.9 }}
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ ...springPop, delay: 0.14 }}
+              aria-label={buscando ? "Cerrar la búsqueda" : "Buscar en tu biblioteca"}
+            >
+              {buscando ? <GlyphClose /> : <GlyphLupa />}
+            </motion.button>
+          )}
         </header>
 
-        {mios.length === 0 ? (
+        {total > 0 && (
+          <>
+            <AnimatePresence>
+              {buscando && (
+                <motion.div
+                  className="biblio-busca"
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={springTight}
+                >
+                  <input
+                    autoFocus
+                    value={busca}
+                    onChange={(e) => setBusca(e.target.value)}
+                    placeholder="Título o autor"
+                    aria-label="Buscar en tu biblioteca"
+                  />
+                </motion.div>
+              )}
+            </AnimatePresence>
+
+            {/* La fila de filtros. El activo va en verde y subrayado, que es
+                lo que hace la referencia con su azul. */}
+            <div className="biblio-filtros" role="tablist">
+              {([
+                { id: "todo" as const, nombre: "Todo" },
+                ...secciones.map((sec) => ({ id: sec.id, nombre: sec.corto })),
+              ]).map((f) => (
+                <button
+                  key={f.id}
+                  role="tab"
+                  aria-selected={filtro === f.id}
+                  className="biblio-filtro"
+                  data-activo={filtro === f.id}
+                  onClick={() => setFiltro(f.id)}
+                >
+                  {/* Sin la cuenta al lado. Cuatro filtros con su número no
+                      caben en 375 puntos ni bajando el cuerpo, y el último se
+                      quedaba fuera de pantalla; y la cuenta ya está, más a
+                      mano, junto al rótulo de cada sección. */}
+                  {f.nombre}
+                  {filtro === f.id && (
+                    <motion.span className="biblio-raya" layoutId="raya-biblio" transition={spring} />
+                  )}
+                </button>
+              ))}
+            </div>
+          </>
+        )}
+
+        {total === 0 ? (
           <motion.div
             className="guardados-vacio"
             initial={{ opacity: 0, y: 14 }}
@@ -232,7 +355,7 @@ export function MiBiblioteca({
             <span className="guardados-marca" aria-hidden>
               <GlyphGuardar />
             </span>
-            <p className="guardados-titulo">Todavía no has guardado nada</p>
+            <p className="guardados-titulo">Tu biblioteca está vacía</p>
             <p className="guardados-sub">
               Toca el marcador de la esquina de cualquier cubierta y el libro
               aparecerá aquí.
@@ -242,26 +365,40 @@ export function MiBiblioteca({
             </button>
           </motion.div>
         ) : (
-          <section className="bloque">
-            <p className="bloque-sub">
-              {mios.length} {mios.length === 1 ? "libro guardado" : "libros guardados"}
-            </p>
-            <div className="parrilla">
-              {mios.map((l, i) => (
-                <FichaLibro
-                  key={l.id}
-                  libro={l}
-                  i={Math.min(i, 9)}
-                  onAbrir={() => onAbrir(l)}
-                  guardado
-                  onGuardar={() => onGuardar(l)}
-                />
-              ))}
-            </div>
-          </section>
+          visibles.map((sec) =>
+            sec.libros.length === 0 ? null : (
+              <section className="bloque biblio-bloque" key={sec.id}>
+                <div className="bloque-cabecera">
+                  <h2>
+                    {sec.nombre} <span className="biblio-cuenta">{sec.libros.length}</span>
+                  </h2>
+                  {filtro === "todo" && sec.libros.length > 1 && (
+                    <button className="biblio-todo" type="button" onClick={() => setFiltro(sec.id)}>
+                      Ver todo
+                    </button>
+                  )}
+                </div>
+                <div className={enParrilla ? "parrilla" : "carrusel"}>
+                  {sec.libros.map((l, i) => (
+                    <FichaLibro
+                      key={l.id}
+                      libro={l}
+                      i={Math.min(i, 9)}
+                      onAbrir={() => onAbrir(l)}
+                      guardado={guardados.has(l.id)}
+                      onGuardar={() => onGuardar(l)}
+                    />
+                  ))}
+                </div>
+              </section>
+            ),
+          )
+        )}
+
+        {total > 0 && visibles.every((sec) => sec.libros.length === 0) && (
+          <p className="biblio-nada">Ningún libro tuyo se llama así.</p>
         )}
       </div>
-
     </motion.div>
   );
 }

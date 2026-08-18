@@ -6635,7 +6635,13 @@ button {
   margin: 16px var(--shell-pad) 0;
   padding: 0 0 0 18px;
   border-radius: 11px;
-  background: #4397f7;
+  /* Verde y no azul, que es lo que pidió Pablo. Elegido midiendo y no a ojo:
+     4,1 de contraste contra el blanco del rótulo —de sobra para un titular y
+     casi para el texto corrido—, 3,9 contra el #222 del fondo, así que la
+     franja se separa de la página, y 2,4 contra el verde claro del regalo,
+     que es lo que hace que los dos verdes se lean como dos cosas y no como
+     un fallo de impresión. */
+  background: #0f8f63;
   overflow: hidden;
   text-align: left;
 }
@@ -6655,7 +6661,9 @@ button {
   align-items: center;
   gap: 9px;
   font-size: 15px;
-  font-weight: 500;
+  /* Sobre verde, la línea pequeña necesita algo más de cuerpo que sobre azul
+     para leerse igual de bien. */
+  font-weight: 600;
   color: #fff;
 }
 /* La cubierta ES la caja: 101 × 152 es el 2:3 del fichero original a la
@@ -6667,7 +6675,9 @@ button {
   display: block;
   width: 86px;
   height: 129px;
-  margin-right: 4px;
+  /* Iba pegada al filo y salía cortada por la derecha. Con 22 de margen el
+     libro queda dentro de la franja y con aire a los dos lados. */
+  margin-right: 22px;
   border-radius: 5px;
   transform: rotate(6deg);
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.3);
@@ -6829,19 +6839,109 @@ button {
 }
 .regalo-lazo { display: grid; place-items: center; }
 
-/* --- Mi biblioteca: lo que has guardado -------------------------------- */
+/* --- Mi biblioteca: lo tuyo, en tres estados ---------------------------- */
 
-/* Parrilla y no carrusel: la diferencia entre ojear y buscar. Aquí vienes a
-   por un libro concreto que ya elegiste. */
+/* La lupa de la cabecera, a la altura del rótulo. */
+.biblio-lupa {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: -6px;
+  border-radius: 999px;
+  color: #fff;
+}
+.biblio-busca { padding: 0 var(--shell-pad); overflow: hidden; }
+.biblio-busca input {
+  width: 100%;
+  height: 44px;
+  margin-top: 12px;
+  padding: 0 16px;
+  border: 1px solid #4e4e4e;
+  border-radius: 999px;
+  background: #2c2c2c;
+  color: #fff;
+  font: inherit;
+  font-size: 15px;
+}
+.biblio-busca input::placeholder { color: #7a7a7a; }
+.biblio-busca input:focus { outline: none; border-color: #6ddc89; }
+
+/* La fila de filtros: el activo en verde y con su raya debajo, que viaja de
+   uno a otro con `layoutId`. En la referencia la raya es azul; aquí va en el
+   verde de «lo que ya es tuyo», que es de lo que trata esta pantalla entera. */
+.biblio-filtros {
+  display: flex;
+  /* 13 es lo que hace que los cuatro entren en los 375 sin desplazar: con 18
+     se salían once puntos y el último quedaba a medias. */
+  gap: 13px;
+  margin-top: 16px;
+  padding: 0 var(--shell-pad);
+  overflow-x: auto;
+  scrollbar-width: none;
+  border-bottom: 1px solid #333333;
+}
+.biblio-filtros::-webkit-scrollbar { display: none; }
+.biblio-filtro {
+  position: relative;
+  flex: none;
+  padding: 0 0 11px;
+  /* 15 y no 17: con cuatro filtros, a 17 el último se sale de los 375 y hay
+     que desplazar para ver que existe. */
+  font-size: 15px;
+  font-weight: 700;
+  color: #7a7a7a;
+  white-space: nowrap;
+  transition: color 0.18s ease;
+}
+.biblio-filtro[data-activo="true"] { color: #6ddc89; }
+.biblio-raya {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 3px;
+  border-radius: 2px;
+  background: #6ddc89;
+}
+/* La cuenta al lado del nombre, en gris: es un dato, no un rótulo. */
+.biblio-cuenta { color: #7a7a7a; font-weight: 700; }
+
+.biblio-bloque { margin-top: 30px; }
+/* El rótulo y el botón, cada uno en su sitio: sin `min-width: 0` el título
+   largo empuja al botón y parte en dos renglones. */
+.biblio-bloque .bloque-cabecera { align-items: center; gap: 12px; }
+.biblio-bloque h2 { font-size: 18px; min-width: 0; }
+/* «Ver todo» no es decorativo: abre esa sección en parrilla. */
+.biblio-todo {
+  flex: none;
+  height: 34px;
+  padding: 0 15px;
+  border-radius: 10px;
+  background: #383838;
+  border: 1px solid #4e4e4e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 650;
+}
+.biblio-nada {
+  margin: 46px var(--shell-pad) 0;
+  text-align: center;
+  font-size: 15px;
+  color: #7a7a7a;
+}
+
+/* Parrilla y no carrusel cuando se mira un solo estado: ahí ya no es una tira
+   de las tres que hay, es la lista entera de esa sección. */
 .parrilla {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 22px 16px;
   padding: 0 var(--shell-pad);
-  margin-top: 14px;
+  margin-top: 15px;
 }
 .parrilla .ficha { width: 100%; gap: 0; }
-.parrilla .portada { width: 100% !important; height: auto !important; aspect-ratio: 2 / 3; }
+.parrilla .portada { width: 100% !important; height: auto !important; aspect-ratio: 2 / 3; border-radius: 7px; }
 .guardados .bloque-sub { padding: 0 var(--shell-pad); }
 
 .guardados-vacio {
@@ -6849,7 +6949,7 @@ button {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 76px 34px 0;
+  padding: 96px 34px 0;
 }
 .guardados-marca {
   display: grid;

@@ -219,6 +219,18 @@ export function GlyphRegalo({ tamano = 21 }: { tamano?: number }) {
   );
 }
 
+/* La lupa de la biblioteca. Trazo, para que case con el marcador. */
+export function GlyphLupa({ tamano = 22 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 24 24" aria-hidden>
+      <g fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+        <circle cx="10.6" cy="10.6" r="6.8" />
+        <path d="M15.6 15.6 L20.6 20.6" />
+      </g>
+    </svg>
+  );
+}
+
 export function GlyphCandado() {
   return (
     <svg width="19" height="19" viewBox="0 0 19 19" aria-hidden>

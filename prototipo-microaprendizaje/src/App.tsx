@@ -86,6 +86,10 @@ export default function App() {
   const [guardados, setGuardados] = useState<ReadonlySet<string>>(() => new Set());
   /** El aviso de «guardado en tu biblioteca», que se va solo. */
   const [avisoGuardado, setAvisoGuardado] = useState<string | null>(null);
+  /* Los que se han leído hasta el final. La biblioteca tiene una sección de
+     terminados y sin esto estaría siempre vacía: se apunta al pulsar
+     «Finalizar resumen», que es el único sitio donde consta que se acabó. */
+  const [terminados, setTerminados] = useState<ReadonlySet<string>>(() => new Set());
   /* El «ya estaba» se mira fuera del actualizador. Dentro no vale: el
      actualizador de `useState` tiene que ser puro y React lo llama dos veces
      en StrictMode, así que un efecto secundario ahí —poner el aviso— se
@@ -228,6 +232,7 @@ export default function App() {
             <MiBiblioteca
               key="biblioteca"
               guardados={guardados}
+              terminados={terminados}
               onAbrir={(l) => {
                 setLibro(l);
                 setPantalla("detalle");
@@ -327,6 +332,7 @@ export default function App() {
                 setMinutosHoy((n) => n + gastado);
                 setMinutosTotales((n) => n + gastado);
                 setLeidas((n) => n + 1);
+                setTerminados((antes) => new Set(antes).add(libro.id));
                 setObjetivo(objetivoLibro);
                 setVuelta("detalle");
                 setPantalla("fin");
