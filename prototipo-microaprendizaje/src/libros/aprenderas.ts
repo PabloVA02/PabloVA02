@@ -1,34 +1,40 @@
 /* ==========================================================================
-   «Qué vas a aprender»: de qué va cada libro.
+   «Qué vas a aprender»: de qué va cada libro, en dos frases.
 
    La ficha tenía «Por qué merece la pena» y debajo el campo `porQue`, que es
-   un argumento de venta —«Es el mejor libro que existe sobre…», «Porque
-   convierte una obra de albañilería en un thriller»—. Sirve para decidir si
-   entras, y no sirve para lo que Pablo pidió: saber DE QUÉ VA antes de
-   empezar.
+   un argumento de venta —«Es el mejor libro que existe sobre…»—. Sirve para
+   decidir si entras y no sirve para lo que hace falta aquí: saber DE QUÉ VA
+   antes de empezar.
 
-   Así que esto es texto nuevo, uno por libro. Las reglas:
+   LAS REGLAS, y las dos primeras mandan sobre las demás:
 
-     · Se cuenta el recorrido, no se vende. Nada de «imprescindible»,
-       «fascinante» ni «una obra maestra».
-     · Sale del índice del propio libro, que está escrito como un viaje con
-       paradas. De ahí se saca lo que se trata y en qué orden, sin inventar.
-     · Dos frases. La primera dice de qué va; la segunda, por dónde pasa.
-     · Se nombran las cosas concretas —una fecha, un nombre, una cifra—,
-       porque es lo que hace que apetezca leer sin tener que decir que apetece.
+   1. CORTO. Dos frases, cuarenta palabras como mucho. Si hay que desplazar la
+      pantalla para acabar de leerlo, sobra texto.
+
+   2. QUE LO ENTIENDA CUALQUIERA. Palabras de todos los días. Nada de
+      «paradigma», «cosmovisión» ni «arquetipo». Si una idea del libro pide un
+      término raro, se dice con otras palabras o no se dice.
+
+   3. FRASES DERECHAS. Sujeto, verbo y lo que pasa. Sin incisos encadenados ni
+      tres rayas en el mismo renglón, que es en lo que cayó la primera versión.
+
+   4. SE CUENTA, NO SE VENDE. Ni «imprescindible», ni «fascinante», ni «una
+      obra maestra». Que apetezca leerlo tiene que salir de lo que se cuenta.
+
+   5. SIN INVENTAR. Sale del índice del propio libro, que está escrito como un
+      viaje con paradas: de ahí se saca de qué trata y por dónde pasa.
 
    Un libro sin entrada aquí cae en su `porQue`, que es peor pero no deja el
-   hueco en blanco. `scripts/validar.mjs` no comprueba esto; lo que hay se ve
-   de un vistazo con `node scripts/faltan-aprenderas.mjs`.
+   hueco en blanco.
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
   sapiens:
-    "Cómo un primate corriente de la sabana africana acabó mandando en el planeta, contado en tres saltos: el lenguaje que nos permitió creernos cosas que no existen —dioses, naciones, dinero— y organizarnos de a miles; la agricultura, que Harari llama el mayor fraude de la historia porque trabajamos más y comimos peor; y la ciencia, que empieza admitiendo que no sabemos. Termina donde casi nadie mira: setenta mil años de éxito y ninguna prueba de que seamos más felices que los cazadores.",
+    "Cómo pasamos de ser un animal más a mandar en el planeta. Harari lo cuenta en tres saltos: el lenguaje, que nos dejó creer en cosas que no existen y juntarnos de a miles; la agricultura, que nos hizo trabajar más y comer peor; y la ciencia.",
 
   "homo-deus":
-    "Qué se le pide a la humanidad cuando ya ha resuelto lo que la mataba. El hambre, la peste y la guerra dejaron de ser fuerzas de la naturaleza para volverse problemas de gestión, y Harari sostiene que la agenda que viene es otra: vencer a la muerte, fabricar felicidad y ganar capacidades que antes se atribuían a los dioses. Por el camino explica por qué el humanismo se está quedando sin argumentos frente a los algoritmos que te conocen mejor que tú.",
+    "Casi hemos ganado al hambre, a la peste y a la guerra. Este libro pregunta qué viene después: no querer morirnos, fabricar la felicidad y dejar cada vez más decisiones en manos de programas que nos conocen mejor que nosotros.",
 
   "diario-ana-frank":
-    "Dos años de una adolescente encerrada con otras siete personas en cincuenta metros cuadrados de Ámsterdam, escritos en un cuaderno de cuadros rojos que le regalaron al cumplir trece. Se ve cómo la niña que empieza contando peleas con su madre se convierte en escritora consciente —reescribió el diario entero al oír por la radio de Londres que buscarían testimonios de la guerra—, qué páginas le quitó su padre antes de publicarlo y por qué la frase que todo el mundo cita se lee al revés de como la escribió.",
+    "Los dos años que Ana pasó escondida con su familia en un piso de Ámsterdam, contados por ella en su cuaderno. Empieza siendo una niña que se pelea con su madre y acaba escribiendo como una escritora de verdad.",
 };
