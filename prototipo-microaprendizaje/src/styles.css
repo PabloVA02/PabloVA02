@@ -6546,8 +6546,18 @@ button {
   gap: 9px !important;
   margin-top: 4px;
 }
-/* La X: 39 px en el vídeo, o sea 19,5 puntos, a 26,5 del borde. */
-.detalle-cerrar { width: 20px; height: 20px; }
+/* La X: 39 px en el vídeo, o sea 19,5 puntos, a 26,5 del borde. Va dentro de
+   un disco oscuro porque se queda quieta mientras el texto pasa por debajo:
+   sin fondo, a media hoja se leía encima de un párrafo y no se veía ninguna
+   de las dos cosas. */
+.detalle-cerrar {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+}
+.detalle-cerrar svg { width: 20px; height: 20px; }
 /* Los huecos de la columna centrada, medidos sobre el vídeo:
      botones → pastilla   37 px → 18,5 puntos   (teníamos 6)
      pastilla → título    38 px → 19            (teníamos 11,5)
@@ -6586,7 +6596,7 @@ button {
 .detalle-seccion { font-size: 16px; font-weight: 700; margin-top: 32px; }
 /* Del rótulo al párrafo hay 70 px en el vídeo: 35 puntos. */
 .detalle-parrafo { font-size: 16px; line-height: 1.18; color: var(--ink); margin-top: 16px; }
-.detalle-cerrar { background: none; color: #fff; }
+.detalle-cerrar { background: rgba(20, 20, 20, 0.55); color: #fff; backdrop-filter: blur(8px); }
 
 /* --- La franja de lectura gratuita y el botón de guardar --------------- */
 
