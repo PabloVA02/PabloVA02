@@ -3,8 +3,10 @@
 App de aprendizaje visual en tarjetas deslizables, con dos secciones.
 
 **Libros** — recorrido largo: introducción → biblioteca → ficha del libro →
-camino de capítulos → lectura → racha. Capítulo de ejemplo: *La Biblioteca de
-Alejandría*, 18 tarjetas, unos 5 minutos.
+lector → racha. La biblioteca y la ficha van calcadas de Headway, medidas
+sobre las capturas de Pablo. El lector son **ocho páginas de prosa** por
+resumen, sea del largo que sea, con su rótulo, su caja del rayo y la cuenta
+«N de 8» abajo: unos veinticinco minutos por libro.
 
 **Shorts** — historias sueltas de 2 minutos en un pase a pantalla completa,
 cada una con una **fotografía real** de portada. Se sube para cambiar de
@@ -45,8 +47,10 @@ npm run validar   # longitudes, ids, fichas de foto y paleta de las historias
 | `src/Onboarding.tsx` | Las doce pantallas de introducción, con entrada por partes. |
 | `src/Biblioteca.tsx` | Inicio con las fichas de libros y la ficha de un libro. |
 | `src/Cargando.tsx` | La pantalla de carga: monta la biblioteca de verdad mientras la barra sube a tirones. |
-| `src/Camino.tsx` | El camino de capítulos: serpiente vertical de nodos. |
-| `src/lesson.ts` | Contenido del capítulo. Cada tarjeta declara su **forma** y la forma manda sobre la maquetación. |
+| `src/Lector.tsx` | El lector por páginas, calcado de Headway. Seis clases de bloque y nada de adornos. |
+| `src/libros/paginas.ts` | De resumen a ocho páginas: el reparto por peso de palabras y los ocho de Hábitos atómicos escritos a mano. |
+| `src/libros/cubiertas.ts` | Las cuatro cubiertas propias de Pablo, en WebP a 620 e incrustadas. |
+| `src/lesson.ts` | Contenido del capítulo de muestra. Cada tarjeta declara su **forma** y la forma manda sobre la maquetación. |
 | `src/motion.ts` | Presets de muelle y bucles de reposo. No hay un solo easing lineal fuera de los bucles. |
 | `src/Scene.tsx` | Ilustración por capas de profundidad, con entrada escalonada. |
 | `src/Graficos.tsx` | Los cuatro gráficos de datos. |
@@ -57,6 +61,7 @@ npm run validar   # longitudes, ids, fichas de foto y paleta de las historias
 | `src/undraw.tsx` | **Generado.** No editar a mano. |
 | `scripts/convertir.mjs` | Genera `undraw.tsx` a partir de los SVG de unDraw. |
 | `scripts/medir.mjs` | Calcula el encuadre real de cada SVG con `getBBox`. |
+| `scripts/calco.mjs` | Mide la biblioteca contra la captura de referencia, hito a hito. Es lo que evita calcar a ojo. |
 | `scripts/demo.mjs` | Rehace `demo.html` con lo compilado: `npm run demo`. |
 | `scripts/validar.mjs` | Control de calidad de las historias: `npm run validar`. |
 
