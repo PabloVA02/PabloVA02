@@ -25,6 +25,8 @@ import { Perfil } from "./Perfil";
 import { Ajustes } from "./Ajustes";
 import { usePreferencias } from "./preferencias";
 import { AntiScroll } from "./AntiScroll";
+import { Lector } from "./Lector";
+import { PAGINAS } from "./libros/paginas";
 import { AvisoRegalo, Oferta } from "./Regalo";
 import { AvisoValoracion } from "./Valoracion";
 import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
@@ -34,7 +36,7 @@ import {
 } from "./glyphs";
 
 type Pantalla =
-  | "intro" | "pago" | "inicio" | "detalle" | "camino" | "leccion" | "fin" | "racha" | "reto"
+  | "intro" | "pago" | "inicio" | "detalle" | "lector" | "camino" | "leccion" | "fin" | "racha" | "reto"
   | "shorts" | "perfil" | "ajustes" | "oferta" | "alta"
   | "anti";
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
@@ -62,7 +64,7 @@ function pantallaInicial(): Pantalla {
      que hay que comparar contra los vídeos de referencia y no se llega a
      ellas sin pasar por la estantería. El libro que abren es el primero del
      catálogo, que es el que ya trae `libro` por defecto. */
-  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes", "detalle", "camino"];
+  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes", "detalle", "lector", "camino"];
   return validas.includes(p ?? "") ? (p as Pantalla) : "intro";
 }
 
@@ -72,7 +74,12 @@ export default function App() {
      efectos —el tema y la escala de texto— tienen que seguir aplicados
      mientras se lee, que es cuando importan. */
   const preferencias = usePreferencias();
-  const [libro, setLibro] = useState<Libro>(LIBROS[0]);
+  /* Al abrir directamente en el lector, el libro de arranque es el primero
+     que TIENE resumen por páginas: entrar ahí con uno que no lo tiene deja la
+     pantalla vacía, y ese atajo existe justo para poder mirarla. */
+  const [libro, setLibro] = useState<Libro>(
+    () => (pantallaInicial() === "lector" && LIBROS.find((l) => PAGINAS[l.id])) || LIBROS[0],
+  );
   /** A dónde vuelve el cierre. Un short no devuelve al camino de un libro. */
   const [vuelta, setVuelta] = useState<Pantalla>("camino");
   /** Objetivo de lectura de lo que se acaba de terminar, para comparar. */
@@ -265,10 +272,27 @@ export default function App() {
               onAbrir={(l) => setLibro(l)}
               onEmpezar={() => {
                 setCompletados(0);
-                setPantalla("camino");
+                /* Derecho a leer. El mapa de capítulos era una parada de más
+                   entre «quiero este libro» y el texto: en la referencia se
+                   pulsa «Leer» y ya estás dentro. Se queda montado para los
+                   libros que aún no tienen resumen por páginas. */
+                setPantalla(PAGINAS[libro.id] ? "lector" : "camino");
               }}
             />
           )}
+          {pantalla === "lector" && PAGINAS[libro.id] && (
+            <Lector
+              key="lector"
+              titulo={libro.titulo}
+              paginas={PAGINAS[libro.id]}
+              onCerrar={() => setPantalla("detalle")}
+              onTerminar={() => {
+                setLeidas((n) => n + 1);
+                setPantalla("fin");
+              }}
+            />
+          )}
+
           {pantalla === "camino" && (
             <Camino
               key="camino"
