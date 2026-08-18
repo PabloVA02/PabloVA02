@@ -1,22 +1,11 @@
 import { useEffect, useRef, useState, type ReactElement } from "react";
-import {
-  AnimatePresence,
-  animate,
-  motion,
-  useMotionValue,
-  useReducedMotion,
-  useTransform,
-  type PanInfo,
-} from "framer-motion";
-import { CARDS, MINUTOS_OBJETIVO, TOTAL_XP, type Card } from "./lesson";
+import { AnimatePresence, animate, motion, useReducedMotion } from "framer-motion";
+import { MINUTOS_OBJETIVO, TOTAL_XP } from "./lesson";
 import { cargarResumen, resumenCargado } from "./libros/indice";
 import type { Resumen } from "./libros/tipos";
 import { minutos as minutosDe } from "./libros/tipos";
-import { Scene } from "./Scene";
 import { Racha, RetoDiario } from "./Racha";
 import { DetalleLibro, Inicio, LIBROS, type Libro } from "./Biblioteca";
-import { Camino } from "./Camino";
-import { EntradaCapitulo } from "./Capitulo";
 import { Onboarding } from "./Onboarding";
 import { MuroShorts } from "./Shorts";
 import { Pago } from "./Pago";
@@ -26,17 +15,14 @@ import { Ajustes } from "./Ajustes";
 import { usePreferencias } from "./preferencias";
 import { AntiScroll } from "./AntiScroll";
 import { Lector } from "./Lector";
-import { PAGINAS } from "./libros/paginas";
+import { PAGINAS, paginasDeResumen } from "./libros/paginas";
 import { AvisoRegalo, Oferta } from "./Regalo";
 import { AvisoValoracion } from "./Valoracion";
-import { DEPTH, enterVariants, spring, springPop, springSoft, springTight } from "./motion";
-import {
-  GlyphAsk, GlyphBack, GlyphClose, GlyphFlag, GlyphHeart,
-  GlyphLibros, GlyphPerfil, GlyphRayo, GlyphShare,
-} from "./glyphs";
+import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
+import { GlyphLibros, GlyphPerfil, GlyphRayo } from "./glyphs";
 
 type Pantalla =
-  | "intro" | "pago" | "inicio" | "detalle" | "lector" | "camino" | "leccion" | "fin" | "racha" | "reto"
+  | "intro" | "pago" | "inicio" | "detalle" | "lector" | "fin" | "racha" | "reto"
   | "shorts" | "perfil" | "ajustes" | "oferta" | "alta"
   | "anti";
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
@@ -64,7 +50,7 @@ function pantallaInicial(): Pantalla {
      que hay que comparar contra los vídeos de referencia y no se llega a
      ellas sin pasar por la estantería. El libro que abren es el primero del
      catálogo, que es el que ya trae `libro` por defecto. */
-  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes", "detalle", "lector", "camino"];
+  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes", "detalle", "lector"];
   return validas.includes(p ?? "") ? (p as Pantalla) : "intro";
 }
 
@@ -74,14 +60,9 @@ export default function App() {
      efectos —el tema y la escala de texto— tienen que seguir aplicados
      mientras se lee, que es cuando importan. */
   const preferencias = usePreferencias();
-  /* Al abrir directamente en el lector, el libro de arranque es el primero
-     que TIENE resumen por páginas: entrar ahí con uno que no lo tiene deja la
-     pantalla vacía, y ese atajo existe justo para poder mirarla. */
-  const [libro, setLibro] = useState<Libro>(
-    () => (pantallaInicial() === "lector" && LIBROS.find((l) => PAGINAS[l.id])) || LIBROS[0],
-  );
+  const [libro, setLibro] = useState<Libro>(LIBROS[0]);
   /** A dónde vuelve el cierre. Un short no devuelve al camino de un libro. */
-  const [vuelta, setVuelta] = useState<Pantalla>("camino");
+  const [vuelta, setVuelta] = useState<Pantalla>("detalle");
   /** Objetivo de lectura de lo que se acaba de terminar, para comparar. */
   const [objetivo, setObjetivo] = useState(MINUTOS_OBJETIVO);
   /** El nombre se pide en la introducción y se usa en el perfil y el saludo. */
@@ -104,24 +85,16 @@ export default function App() {
   const [valoracion, setValoracion] = useState(false);
   const [valoracionVista, setValoracionVista] = useState(false);
   /** Capítulos completados del libro abierto. */
-  const [completados, setCompletados] = useState(0);
-  /** Qué parte del libro se está leyendo. */
-  const [parte, setParte] = useState(0);
+  const [, setCompletados] = useState(0);
   /** Minutos que ha tardado el lector en el capítulo, medidos de verdad. */
   const [minutos, setMinutos] = useState(0);
   const arranque = useRef(0);
   const reducido = useReducedMotion();
 
-  /* Las tarjetas que toca leer. Si el libro abierto tiene resumen escrito se
-     sacan de él; si no —el capítulo de Alejandría, que es el único con
-     gráficos de datos— se usan las de siempre. Así conviven los dos sin que
-     la lección tenga que saber de dónde viene cada cosa. */
-  /* El texto ya no está en memoria desde el arranque: se pide al abrir el
-     libro y llega en cuanto llega. Se pide en la ficha, y no al pulsar
-     «empezar», para que el viaje de ida por el mapa del camino sirva de
-     margen y la espera no se note nunca. */
+  /* El texto no está en memoria desde el arranque: se pide al abrir la ficha
+     del libro y llega en cuanto llega, así que al pulsar «Leer» casi siempre
+     está puesto. De él salen las páginas del lector. */
   const [resumen, setResumen] = useState<Resumen | undefined>(() => resumenCargado(libro.id));
-  const cartas = resumen ? resumen.partes[parte]?.tarjetas ?? CARDS : CARDS;
   const objetivoLibro = resumen ? Math.max(1, Math.round(minutosDe(resumen) / resumen.partes.length)) : MINUTOS_OBJETIVO;
 
   // Al cambiar de libro se vacía lo anterior y se pide lo nuevo. El `vivo`
@@ -272,74 +245,39 @@ export default function App() {
               onAbrir={(l) => setLibro(l)}
               onEmpezar={() => {
                 setCompletados(0);
-                /* Derecho a leer. El mapa de capítulos era una parada de más
-                   entre «quiero este libro» y el texto: en la referencia se
-                   pulsa «Leer» y ya estás dentro. Se queda montado para los
-                   libros que aún no tienen resumen por páginas. */
-                setPantalla(PAGINAS[libro.id] ? "lector" : "camino");
+                arranque.current = Date.now();
+                void cargarResumen(libro.id).then(setResumen);
+                /* Derecho a leer, siempre. El mapa de capítulos era una
+                   parada de más entre «quiero este libro» y el texto: se
+                   pulsa «Leer» y ya estás dentro. */
+                setPantalla("lector");
               }}
             />
           )}
-          {pantalla === "lector" && PAGINAS[libro.id] && (
+          {pantalla === "lector" && (
             <Lector
               key="lector"
               titulo={libro.titulo}
-              paginas={PAGINAS[libro.id]}
+              /* Escritas a mano si las hay; si no, salen del resumen por
+                 tarjetas, que es lo que hace que los doscientos libros se
+                 puedan leer desde el primer día. */
+              paginas={PAGINAS[libro.id] ?? paginasDeResumen(resumen?.partes ?? [])}
               onCerrar={() => setPantalla("detalle")}
               onTerminar={() => {
+                /* Lo que antes hacía la lección al acabar un capítulo: contar
+                   el tiempo, sumar lo leído y pasar al cierre. */
+                const gastado = (Date.now() - arranque.current) / 60000;
+                setMinutos(gastado);
+                setMinutosHoy((n) => n + gastado);
+                setMinutosTotales((n) => n + gastado);
                 setLeidas((n) => n + 1);
+                setObjetivo(objetivoLibro);
+                setVuelta("detalle");
                 setPantalla("fin");
               }}
             />
           )}
 
-          {pantalla === "camino" && (
-            <Camino
-              key="camino"
-              libro={libro}
-              completados={completados}
-              onVolver={() => setPantalla("detalle")}
-              onEmpezar={async (i) => {
-                /* Casi siempre está ya en memoria y esto no espera nada. Si el
-                   lector ha ido muy rápido o la red va mal, se aguarda aquí:
-                   entrar en la lección con las tarjetas de otro libro sería
-                   peor que un instante de espera en el mapa. */
-                const r = await cargarResumen(libro.id);
-                setResumen(r);
-                arranque.current = Date.now();
-                setParte(i);
-                setPantalla("leccion");
-              }}
-            />
-          )}
-          {pantalla === "leccion" && (
-            <Leccion
-              key="leccion"
-              cartas={cartas}
-              /* El telón de entrada necesita saber en qué parada estás; si el
-                 libro abierto no tiene resumen —el capítulo de Alejandría— no
-                 hay título que anunciar y no se pone telón. */
-              capitulo={
-                resumen?.partes[parte]
-                  ? { numero: parte + 1, total: resumen.partes.length, titulo: resumen.partes[parte].titulo }
-                  : undefined
-              }
-              onSalir={() => setPantalla("camino")}
-              onFin={() => {
-                const gastado = (Date.now() - arranque.current) / 60000;
-                setMinutos(gastado);
-                setMinutosHoy((n) => n + gastado);
-                setMinutosTotales((n) => n + gastado);
-                // Solo cuenta como capítulo nuevo si iba por orden: releer el
-                // primero no debería empujar la barra de progreso.
-                setCompletados((c) => (parte === c ? c + 1 : c));
-                setLeidas((n) => n + cartas.length);
-                setObjetivo(objetivoLibro);
-                setVuelta("camino");
-                setPantalla("fin");
-              }}
-            />
-          )}
           {pantalla === "fin" && (
             <Fin key="fin" minutos={minutos} onCerrar={() => setPantalla("racha")} />
           )}
@@ -493,257 +431,11 @@ function reloj() {
    La lección
    ========================================================================== */
 
-const UMBRAL_PX = 62;
-const UMBRAL_VEL = 480;
 
-function Leccion({
-  cartas,
-  capitulo,
-  onSalir,
-  onFin,
-}: {
-  cartas: Card[];
-  capitulo?: { numero: number; total: number; titulo: string };
-  onSalir: () => void;
-  onFin: () => void;
-}) {
-  const [indice, setIndice] = useState(0);
-  /* El telón se levanta solo, pero mientras está puesto la tarjeta de debajo
-     espera: entrar leyendo y a la vez leyendo el título del capítulo es pedir
-     dos cosas a la vez. */
-  const [telon, setTelon] = useState(!!capitulo);
-  const [sentido, setSentido] = useState(1);
-  const [guardada, setGuardada] = useState(false);
-  const reducido = useReducedMotion();
+/* El lector por tarjetas se ha retirado: los libros se leen ahora por
+   páginas, en `Lector.tsx`, que es como lo hace la referencia. Con él se
+   fueron el mapa de capítulos y el telón de entrada de cada parte. */
 
-  // Un único valor de gesto alimenta todas las capas. Cada una lo multiplica por
-  // su profundidad, y de ahí sale el parallax: el fondo apenas se mueve, los
-  // detalles van pegados al dedo.
-  const x = useMotionValue(0);
-  const capas = {
-    fondo: useTransform(x, (v) => v * DEPTH.fondo),
-    medio: useTransform(x, (v) => v * DEPTH.medio),
-    frente: useTransform(x, (v) => v * DEPTH.frente),
-    detalle: useTransform(x, (v) => v * DEPTH.detalle),
-  };
-
-  const carta = cartas[indice];
-  const ultima = indice === cartas.length - 1;
-  const bloqueado = useRef(false);
-
-  function avanzar(paso: number) {
-    const destino = indice + paso;
-    /* Con el telón puesto no se avanza. El telón tapa la tarjeta, así que un
-       teclazo aquí pasaría páginas a ciegas. */
-    if (telon) return;
-    if (bloqueado.current) return;
-    if (destino < 0) return rebotar(-1);
-    if (destino >= cartas.length) return onFin();
-
-    bloqueado.current = true;
-    setSentido(paso);
-    setIndice(destino);
-    // El gesto se devuelve a cero con muelle: las capas se recolocan a
-    // velocidades distintas y el parallax sigue vivo durante la transición.
-    animate(x, 0, { ...springSoft, onComplete: () => (bloqueado.current = false) });
-  }
-
-  function rebotar(direccion: number) {
-    animate(x, direccion * 26, {
-      ...spring,
-      onComplete: () => animate(x, 0, springSoft),
-    });
-  }
-
-  function alSoltar(_: unknown, info: PanInfo) {
-    const { offset, velocity } = info;
-    if (offset.x < -UMBRAL_PX || velocity.x < -UMBRAL_VEL) return avanzar(1);
-    if (offset.x > UMBRAL_PX || velocity.x > UMBRAL_VEL) return avanzar(-1);
-    animate(x, 0, springSoft);
-  }
-
-  useEffect(() => {
-    function teclas(e: KeyboardEvent) {
-      if (e.key === "ArrowRight") avanzar(1);
-      if (e.key === "ArrowLeft") avanzar(-1);
-    }
-    window.addEventListener("keydown", teclas);
-    return () => window.removeEventListener("keydown", teclas);
-  });
-
-  return (
-    <motion.div
-      className="lesson"
-      initial={{ opacity: 0, scale: 0.97 }}
-      animate={{ opacity: 1, scale: 1, transition: spring }}
-      exit={{ opacity: 0, scale: 0.98, transition: { duration: 0.2 } }}
-    >
-      <AnimatePresence>
-        {telon && capitulo && (
-          <EntradaCapitulo
-            key="telon"
-            numero={capitulo.numero}
-            total={capitulo.total}
-            titulo={capitulo.titulo}
-            reducido={!!reducido}
-            onFin={() => setTelon(false)}
-          />
-        )}
-      </AnimatePresence>
-
-      <div className="lesson-head">
-        <button className="icon-btn" onClick={onSalir} aria-label="Cerrar capítulo">
-          <GlyphClose />
-        </button>
-        <motion.button
-          className="icon-btn"
-          onClick={() => avanzar(-1)}
-          disabled={indice === 0}
-          whileTap={{ scale: 0.9 }}
-          aria-label="Tarjeta anterior"
-        >
-          <GlyphBack />
-        </motion.button>
-        <div className="track">
-          {/* Avanza con muelle, nunca a saltos */}
-          <motion.div
-            className="track-fill"
-            initial={{ scaleX: 0 }}
-            animate={{ scaleX: telon ? 0 : (indice + 1) / cartas.length }}
-            transition={springTight}
-          />
-        </div>
-      </div>
-
-      <motion.div
-        className="card-area"
-        drag="x"
-        style={{ x }}
-        dragConstraints={{ left: 0, right: 0 }}
-        dragElastic={0.42}
-        dragMomentum={false}
-        onDragEnd={alSoltar}
-      >
-        {/* El texto sí se renueva en cada tarjeta */}
-        {/* La forma de la tarjeta manda sobre la maquetación */}
-        <AnimatePresence mode="wait" custom={sentido}>
-          <motion.div
-            key={indice}
-            className="card"
-            data-forma={carta.forma}
-            custom={sentido}
-            initial={{ opacity: 0, x: sentido * 34 }}
-            animate={
-              telon
-                ? { opacity: 0, x: 0 }
-                : { opacity: 1, x: 0, transition: { ...spring, delay: 0.05 } }
-            }
-            exit={{ opacity: 0, x: sentido * -28, transition: { duration: 0.16 } }}
-          >
-            {carta.forma === "clave" ? (
-              /* La tarjeta clave es la frase que hay que recordar del
-                 capítulo, y hasta ahora se leía igual que las demás. Ahora
-                 tiene placa propia y entra palabra a palabra: el ojo la
-                 recorre en el orden en que se dice, que es exactamente lo que
-                 no hace con un párrafo que aparece entero de golpe. */
-              <div className="bloque-clave">
-                <motion.span className="key-label" custom={0} variants={enterVariants} initial="hidden" animate="shown">
-                  {carta.rotulo}
-                </motion.span>
-                <p className="key-statement">
-                  {reducido
-                    ? carta.frase
-                    : carta.frase.split(" ").map((palabra, i) => (
-                        <motion.span
-                          key={`${indice}-${i}`}
-                          className="key-palabra"
-                          initial={{ opacity: 0, y: 8 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ ...spring, delay: 0.18 + i * 0.026 }}
-                        >
-                          {palabra}{" "}
-                        </motion.span>
-                      ))}
-                </p>
-                {/* La marca de la esquina se dibuja al final, cuando la frase
-                    ya está puesta: cierra la placa en vez de anunciarla. */}
-                <motion.span
-                  className="key-marca"
-                  aria-hidden="true"
-                  initial={{ opacity: 0, scale: 0.7 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ ...springPop, delay: reducido ? 0 : 0.34 }}
-                />
-              </div>
-            ) : (
-              <>
-                <motion.p
-                  className="card-body"
-                  custom={1}
-                  variants={enterVariants}
-                  initial="hidden"
-                  animate="shown"
-                  dangerouslySetInnerHTML={{ __html: carta.texto }}
-                />
-                {carta.forma !== "texto" && (
-                  <div className="scene-slot">
-                    <Scene carta={carta} capas={capas} reducido={!!reducido} />
-                  </div>
-                )}
-              </>
-            )}
-          </motion.div>
-        </AnimatePresence>
-      </motion.div>
-
-      <AnimatePresence>
-        {indice === 0 && (
-          <motion.p
-            className="hint-swipe"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1, transition: { delay: 0.9 } }}
-            exit={{ opacity: 0, transition: { duration: 0.15 } }}
-          >
-            Desliza para avanzar
-          </motion.p>
-        )}
-      </AnimatePresence>
-
-      <div className="actions">
-        <div className="action-group">
-          <motion.button className="action" whileTap={{ scale: 0.86 }} aria-label="Reportar">
-            <GlyphFlag />
-          </motion.button>
-          <motion.button className="action" whileTap={{ scale: 0.86 }} aria-label="Compartir">
-            <GlyphShare />
-          </motion.button>
-          <motion.button
-            className="action"
-            data-on={guardada}
-            onClick={() => setGuardada((v) => !v)}
-            whileTap={{ scale: 0.86 }}
-            animate={guardada ? { scale: [1, 1.28, 1] } : {}}
-            transition={springPop}
-            aria-label="Guardar tarjeta"
-            aria-pressed={guardada}
-          >
-            <GlyphHeart on={guardada} />
-          </motion.button>
-        </div>
-
-        <motion.button
-          className="ask"
-          whileTap={{ scale: 0.92 }}
-          transition={springPop}
-          onClick={() => avanzar(1)}
-          aria-label={ultima ? "Terminar lección" : "Siguiente tarjeta"}
-        >
-          <GlyphAsk />
-        </motion.button>
-      </div>
-    </motion.div>
-  );
-}
 
 /* ==========================================================================
    Cierre

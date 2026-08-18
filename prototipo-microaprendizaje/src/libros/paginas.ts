@@ -34,6 +34,55 @@ export type Bloque =
 export type PaginaLibro = { bloques: Bloque[] };
 
 /* --------------------------------------------------------------------------
+   De resumen a páginas.
+
+   Los doscientos libros están escritos en tarjetas —cinco partes de unas
+   veinte cada una— y el lector va por páginas. Escribir a mano las ocho de
+   cada uno son doscientas piezas de trabajo; convertirlas es una función, y
+   además no deja libros a medias: TODOS entran en el lector desde el primer
+   día, que era el fallo de la primera versión.
+
+   La conversión respeta lo que ya hay y no inventa nada:
+
+     el título de la parte  → el rótulo de la página
+     las tarjetas de texto  → párrafos seguidos
+     las tarjetas `clave`   → la caja del rayo, que es exactamente su papel:
+                              la frase que resume la parada
+
+   Una parte de veinte tarjetas es demasiado para una página, así que cada
+   parte se corta en dos. El rótulo va solo en la primera mitad: repetirlo en
+   las dos hace que parezca que te has quedado atascado en el mismo sitio.
+   -------------------------------------------------------------------------- */
+
+type TarjetaMinima = { forma: string; texto?: string; frase?: string };
+type ParteMinima = { titulo: string; tarjetas: readonly TarjetaMinima[] };
+
+export function paginasDeResumen(partes: readonly ParteMinima[]): PaginaLibro[] {
+  const paginas: PaginaLibro[] = [];
+
+  for (const parte of partes) {
+    /* Solo texto y clave: las tarjetas de arte y de gráfico son ilustraciones
+       de la lectura por tarjetas y aquí no pintan nada. */
+    const utiles = parte.tarjetas.filter((t) => t.forma === "texto" || t.forma === "clave");
+    if (!utiles.length) continue;
+
+    const mitad = Math.ceil(utiles.length / 2);
+    for (const [n, trozo] of [utiles.slice(0, mitad), utiles.slice(mitad)].entries()) {
+      if (!trozo.length) continue;
+      const bloques: Bloque[] = [];
+      if (n === 0) bloques.push({ b: "rotulo", texto: parte.titulo });
+      for (const t of trozo) {
+        if (t.forma === "clave" && t.frase) bloques.push({ b: "idea", texto: t.frase });
+        else if (t.texto) bloques.push({ b: "texto", texto: t.texto });
+      }
+      paginas.push({ bloques });
+    }
+  }
+
+  return paginas;
+}
+
+/* --------------------------------------------------------------------------
    Hábitos atómicos, en ocho páginas.
 
    El registro es el de la referencia y conviene no perderlo de vista: se

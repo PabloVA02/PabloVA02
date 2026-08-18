@@ -103,7 +103,11 @@ export function Lector({
   onTerminar: () => void;
 }) {
   const [i, setI] = useState(0);
-  const ultima = i === paginas.length - 1;
+  /* El texto del libro llega de un trozo aparte y puede tardar un instante.
+     Sin esta guarda, `paginas[i]` es undefined y la pantalla revienta. */
+  const hay = paginas.length > 0;
+  const n = Math.min(i, Math.max(0, paginas.length - 1));
+  const ultima = hay && n === paginas.length - 1;
 
   /* Cada página empieza arriba. Sin esto se entra en la siguiente por la
      mitad, que es lo que hace que un lector paginado se sienta roto. */
@@ -132,16 +136,20 @@ export function Lector({
             cambia de página en seco; además, una entrada desde opacidad cero
             deja la página en blanco si la animación no llega a arrancar, que
             es un modo de fallo caro para lo poco que aporta. */}
-        <article key={i} className="lee-pagina">
-          {paginas[i].bloques.map((b, n) => (
-            <PintaBloque key={n} b={b} />
-          ))}
-        </article>
+        {hay ? (
+          <article key={n} className="lee-pagina">
+            {paginas[n].bloques.map((b, k) => (
+              <PintaBloque key={k} b={b} />
+            ))}
+          </article>
+        ) : (
+          <p className="lee-parrafo lee-esperando">Abriendo el resumen…</p>
+        )}
 
         {/* El pie va DENTRO del desplazamiento y no fijo abajo: en la
             referencia se llega a él leyendo, no está siempre encima del
             texto comiéndose dos líneas. */}
-        {ultima ? (
+        {!hay ? null : ultima ? (
           <div className="lee-final">
             <span>¿Leíste hasta el final?</span>
             <button className="lee-terminar" onClick={onTerminar}>
@@ -152,18 +160,18 @@ export function Lector({
           <nav className="lee-paso">
             <button
               className="lee-flecha"
-              onClick={() => ir(i - 1)}
-              disabled={i === 0}
+              onClick={() => ir(n - 1)}
+              disabled={n === 0}
               aria-label="Página anterior"
             >
               <GlyphBack />
             </button>
             <span className="lee-cuenta">
-              {i + 1} de {paginas.length}
+              {n + 1} de {paginas.length}
             </span>
             <button
               className="lee-flecha lee-flecha-der"
-              onClick={() => ir(i + 1)}
+              onClick={() => ir(n + 1)}
               aria-label="Página siguiente"
             >
               <GlyphBack />
