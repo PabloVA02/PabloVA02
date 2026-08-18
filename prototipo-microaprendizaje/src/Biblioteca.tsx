@@ -193,7 +193,20 @@ function saludo() {
   return "Buenas noches";
 }
 
-function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; i: number }) {
+function FichaLibro({
+  libro,
+  onAbrir,
+  i,
+  guardado = false,
+  onGuardar,
+}: {
+  libro: Libro;
+  onAbrir: () => void;
+  i: number;
+  /** Si ya está en su biblioteca. Pinta el botón en azul y macizo. */
+  guardado?: boolean;
+  onGuardar?: () => void;
+}) {
   return (
     <motion.button
       className="ficha"
@@ -207,16 +220,33 @@ function FichaLibro({ libro, onAbrir, i }: { libro: Libro; onAbrir: () => void; 
         {/* Guardar, asomando por la esquina de arriba a la derecha de la
             cubierta. En la referencia sobresale seis puntos por fuera y por
             arriba, y es lo que hace que se lea como una pegatina y no como
-            un icono más. */}
-        <span
+            un icono más.
+
+            Al pulsarlo se pone azul y da un rebote, y sale el aviso de que se
+            ha guardado. El rebote va en el propio icono y no en el botón: si
+            escala la caja, el filete y la esquina de la cubierta se mueven con
+            ella y parece que la ficha entera tiembla. */}
+        <motion.span
           className="ficha-guardar"
+          data-guardado={guardado}
           role="button"
           tabIndex={-1}
-          aria-label="Guardar"
-          onClick={(e) => e.stopPropagation()}
+          aria-label={guardado ? "Quitar de tu biblioteca" : "Guardar en tu biblioteca"}
+          aria-pressed={guardado}
+          onClick={(e) => {
+            e.stopPropagation();
+            onGuardar?.();
+          }}
+          whileTap={{ scale: 0.86 }}
         >
-          <GlyphGuardar />
-        </span>
+          <motion.span
+            className="guardar-icono"
+            animate={guardado ? { scale: [1, 1.34, 1], rotate: [0, -9, 0] } : { scale: 1, rotate: 0 }}
+            transition={springPop}
+          >
+            <GlyphGuardar relleno={guardado} />
+          </motion.span>
+        </motion.span>
         <Portada libro={libro} tamano={148} />
         {libro.progreso > 0 && (
           <div className="ficha-barra">
@@ -249,6 +279,8 @@ export function Inicio({
   onPerfil,
   onOferta,
   intereses = [],
+  guardados,
+  onGuardar,
 }: {
   racha: number;
   onAbrir: (libro: Libro) => void;
@@ -257,6 +289,9 @@ export function Inicio({
   onOferta?: () => void;
   /** Lo que marcó en la introducción. Ordena la estantería, no la recorta. */
   intereses?: string[];
+  /** Los que ya están en su biblioteca, por id. Viven en `App`. */
+  guardados?: ReadonlySet<string>;
+  onGuardar?: (libro: Libro) => void;
 }) {
   const [filtro, setFiltro] = useState<string | null>(null);
 
@@ -416,7 +451,14 @@ export function Inicio({
           <div className="carrusel">
             <AnimatePresence mode="popLayout">
               {recomendados.map((l, i) => (
-                <FichaLibro key={l.id} libro={l} i={Math.min(i, 9)} onAbrir={() => onAbrir(l)} />
+                <FichaLibro
+                  key={l.id}
+                  libro={l}
+                  i={Math.min(i, 9)}
+                  onAbrir={() => onAbrir(l)}
+                  guardado={guardados?.has(l.id)}
+                  onGuardar={onGuardar && (() => onGuardar(l))}
+                />
               ))}
             </AnimatePresence>
           </div>
@@ -428,7 +470,14 @@ export function Inicio({
             <p className="bloque-sub">Sigue donde lo dejaste</p>
             <div className="carrusel">
               {enCurso.map((l, i) => (
-                <FichaLibro key={l.id} libro={l} i={i} onAbrir={() => onAbrir(l)} />
+                <FichaLibro
+                  key={l.id}
+                  libro={l}
+                  i={i}
+                  onAbrir={() => onAbrir(l)}
+                  guardado={guardados?.has(l.id)}
+                  onGuardar={onGuardar && (() => onGuardar(l))}
+                />
               ))}
             </div>
           </section>
@@ -568,12 +617,20 @@ export function DetalleLibro({
   onCerrar,
   onEmpezar,
   onAbrir,
+  guardados,
+  onGuardar,
 }: {
   libro: Libro;
   onCerrar: () => void;
   onEmpezar: () => void;
   onAbrir: (libro: Libro) => void;
+  /* La hoja recibe el conjunto entero y no un solo booleano: abajo lleva su
+     propia tira de «También te puede gustar», y esas fichas tienen que
+     enseñar su estado igual que las de la estantería. */
+  guardados?: ReadonlySet<string>;
+  onGuardar?: (libro: Libro) => void;
 }) {
+  const guardado = guardados?.has(libro.id) ?? false;
   const parecidos = LIBROS.filter((l) => l.id !== libro.id).slice(0, 4);
 
   return (
@@ -607,8 +664,25 @@ export function DetalleLibro({
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...spring, delay: 0.18 }}
         >
+          {/* El primero es el mismo gesto que la esquina de la cubierta, así
+              que tiene que contar lo mismo: azul y macizo cuando ya está. */}
+          <motion.button
+            className="accion-redonda"
+            data-guardado={guardado}
+            whileTap={{ scale: 0.88 }}
+            aria-label={guardado ? "Quitar de tu biblioteca" : "Guardar en tu biblioteca"}
+            aria-pressed={guardado}
+            onClick={() => onGuardar?.(libro)}
+          >
+            <motion.span
+              className="guardar-icono"
+              animate={guardado ? { scale: [1, 1.34, 1], rotate: [0, -9, 0] } : { scale: 1, rotate: 0 }}
+              transition={springPop}
+            >
+              <GlyphGuardar relleno={guardado} />
+            </motion.span>
+          </motion.button>
           {[
-            { g: <GlyphGuardar />, l: "Guardar" },
             { g: <GlyphDescargar />, l: "Descargar" },
             { g: <GlyphShare />, l: "Compartir" },
           ].map((a) => (
@@ -679,7 +753,14 @@ export function DetalleLibro({
           <h2 className="detalle-seccion">También te puede gustar</h2>
           <div className="carrusel">
             {parecidos.map((l, i) => (
-              <FichaLibro key={l.id} libro={l} i={i} onAbrir={() => onAbrir(l)} />
+              <FichaLibro
+                  key={l.id}
+                  libro={l}
+                  i={i}
+                  onAbrir={() => onAbrir(l)}
+                  guardado={guardados?.has(l.id)}
+                  onGuardar={onGuardar && (() => onGuardar(l))}
+                />
             ))}
           </div>
         </motion.section>

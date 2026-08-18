@@ -106,10 +106,16 @@ export function CoverArt() {
   );
 }
 
-export function GlyphGuardar() {
+/* El marcador, hueco o macizo. Relleno es «ya está en tu biblioteca»: el
+   trazo solo se lee como un botón, y la silueta llena como un estado. */
+export function GlyphGuardar({ relleno = false }: { relleno?: boolean } = {}) {
   return (
     <svg width="17" height="17" viewBox="0 0 17 17" aria-hidden>
-      <path d="M4.6 3.2 H12.4 V14.2 L8.5 11 L4.6 14.2 Z" {...trazo} />
+      <path
+        d="M4.6 3.2 H12.4 V14.2 L8.5 11 L4.6 14.2 Z"
+        {...trazo}
+        fill={relleno ? "currentColor" : "none"}
+      />
     </svg>
   );
 }

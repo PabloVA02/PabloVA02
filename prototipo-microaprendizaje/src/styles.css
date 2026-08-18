@@ -6677,6 +6677,55 @@ button {
   color: #fff;
 }
 .ficha-guardar svg { width: 16px; height: 16px; }
+/* El rebote va en esta capa y no en el botón: escalando la caja se mueven con
+   ella el filete y la esquina de la cubierta, y parece que tiembla la ficha. */
+.guardar-icono { display: grid; place-items: center; }
+/* Guardado: azul macizo. Es el mismo azul de la franja de lectura gratuita,
+   que es el único acento de esta pantalla; meter un segundo tono aquí
+   inventaría un color que no está en la referencia. */
+.ficha-guardar[data-guardado="true"] {
+  background: #4397f7;
+  border-color: #4397f7;
+  color: #fff;
+}
+/* La hoja del libro: el mismo estado en su botón redondo, que allí es blanco
+   con el icono oscuro, así que guardado se le da la vuelta. */
+.detalle-acciones .accion-redonda[data-guardado="true"] {
+  background: #4397f7;
+}
+.detalle-acciones .accion-redonda[data-guardado="true"] svg { color: #fff; }
+
+/* «Guardado en tu biblioteca». Va sobre la barra de pestañas y por fuera de
+   las pantallas: se guarda desde la estantería y desde la hoja del libro, y
+   tiene que salir igual desde las dos. */
+.aviso-guardado {
+  position: absolute;
+  /* Centrado SIN `transform`. La animación de entrada la mueve en `y` y en
+     escala, y framer-motion escribe eso en `transform`: con el centrado ahí
+     dentro se lo lleva por delante y el aviso salía pegado a la derecha,
+     recortado por el filo. Con los dos lados a cero y `margin: auto` el
+     centrado no depende de nada que la animación toque. */
+  left: 0;
+  right: 0;
+  width: max-content;
+  /* La altura normal deja libre el pie de la ficha del libro. */
+  bottom: 96px;
+  z-index: 60;
+  margin: 0 auto;
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: #383838;
+  border: 1px solid #606060;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 640;
+  white-space: nowrap;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+/* En la estantería sube: ahí abajo está la pastilla del libro en curso, que
+   ocupa de 100 a 160. */
+.aviso-guardado[data-alto="true"] { bottom: 172px; }
 
 /* --- La pastilla del libro en curso ------------------------------------ */
 

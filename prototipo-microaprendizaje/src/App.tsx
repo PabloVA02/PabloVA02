@@ -78,6 +78,29 @@ export default function App() {
   const [minutosHoy, setMinutosHoy] = useState(6.5);
   const [meta, setMeta] = useState(15);
   const [minutosTotales, setMinutosTotales] = useState(1847);
+  /* Los libros guardados. Vive aquí arriba y no dentro de la estantería
+     porque el mismo libro se guarda desde dos sitios —la esquina de la
+     cubierta y el botón redondo de su ficha— y los dos tienen que enseñar lo
+     mismo. Con el estado dentro de `Inicio`, guardar desde la ficha no se
+     notaba al volver a la parrilla. */
+  const [guardados, setGuardados] = useState<ReadonlySet<string>>(() => new Set());
+  /** El aviso de «guardado en tu biblioteca», que se va solo. */
+  const [avisoGuardado, setAvisoGuardado] = useState<string | null>(null);
+  /* El «ya estaba» se mira fuera del actualizador. Dentro no vale: el
+     actualizador de `useState` tiene que ser puro y React lo llama dos veces
+     en StrictMode, así que un efecto secundario ahí —poner el aviso— se
+     ejecuta de más. */
+  function alternarGuardado(l: Libro) {
+    const estaba = guardados.has(l.id);
+    setGuardados((antes) => {
+      const ahora = new Set(antes);
+      if (estaba) ahora.delete(l.id);
+      else ahora.add(l.id);
+      return ahora;
+    });
+    setAvisoGuardado(estaba ? "Quitado de tu biblioteca" : "Guardado en tu biblioteca");
+  }
+
   /** El aviso del regalo: se enseña una vez, al llegar al inicio. */
   const [avisoRegalo, setAvisoRegalo] = useState(false);
   const [regaloVisto, setRegaloVisto] = useState(false);
@@ -115,6 +138,15 @@ export default function App() {
       vivo = false;
     };
   }, [libro.id]);
+
+  /* El aviso se retira solo. Si se pulsa otra vez antes de que se vaya, el
+     efecto se vuelve a montar y el reloj empieza de cero, que es lo que se
+     espera al guardar dos libros seguidos. */
+  useEffect(() => {
+    if (!avisoGuardado) return;
+    const id = window.setTimeout(() => setAvisoGuardado(null), 2200);
+    return () => window.clearTimeout(id);
+  }, [avisoGuardado]);
 
   // El regalo aparece cuando ya has visto el inicio un momento. Soltarlo a
   // bocajarro nada más entrar se lee como un anuncio; dejar respirar la
@@ -188,6 +220,8 @@ export default function App() {
               }}
               onPerfil={() => setPantalla("perfil")}
               onOferta={() => setPantalla("oferta")}
+              guardados={guardados}
+              onGuardar={alternarGuardado}
             />
           )}
           {pantalla === "perfil" && (
@@ -251,6 +285,8 @@ export default function App() {
               libro={libro}
               onCerrar={() => setPantalla("inicio")}
               onAbrir={(l) => setLibro(l)}
+              guardados={guardados}
+              onGuardar={alternarGuardado}
               onEmpezar={() => {
                 setCompletados(0);
                 arranque.current = Date.now();
@@ -323,6 +359,33 @@ export default function App() {
               reducido={!!reducido}
               onResponder={() => setValoracion(false)}
             />
+          )}
+        </AnimatePresence>
+
+        {/* «Guardado en tu biblioteca». Va por encima de todo y por fuera de
+            las pantallas: se guarda desde la estantería y desde la ficha, y el
+            aviso tiene que salir igual en las dos. No bloquea nada.
+
+            Sin `key` por el texto: con ella, cambiar de «Guardado» a «Quitado»
+            monta un elemento nuevo mientras el viejo todavía se está yendo, y
+            durante ese cuarto de segundo se ven las dos pastillas una encima
+            de la otra. Un solo elemento que cambia de texto entra una vez y se
+            va una vez. */}
+        <AnimatePresence>
+          {avisoGuardado && (
+            <motion.p
+              className="aviso-guardado"
+              /* Sube solo en la estantería, que es la única pantalla con la
+                 pastilla del libro en curso abajo. En la ficha, donde lo que
+                 hay es el botón de empezar, se queda a la altura normal. */
+              data-alto={pantalla === "inicio"}
+              initial={{ opacity: 0, y: 16, scale: 0.96 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 12, scale: 0.98 }}
+              transition={springTight}
+            >
+              {avisoGuardado}
+            </motion.p>
           )}
         </AnimatePresence>
 
