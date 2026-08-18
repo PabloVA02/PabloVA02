@@ -307,11 +307,20 @@ export function PortadaLibro({
         style={estilo}
         data-texto={conTexto ? "si" : "no"}
       >
+        {/* Las cubiertas dibujadas —las que van como `local`— se enseñan
+            ENTERAS: son una composición, y recortarlas se come el título o el
+            autor. Con `cover` se rellenaba la casilla a costa de cortar, que
+            es justo lo que Pablo no quiere. El hueco que deja `contain` lo
+            tapa el color del libro, así que no se ve ningún marco. */}
         <img
           className="port-img"
           src={urlFoto(foto, 520)}
           alt={foto.alt}
-          style={{ objectPosition: foto.foco }}
+          style={
+            foto.local
+              ? { objectFit: "contain", background: color }
+              : { objectPosition: foto.foco }
+          }
           loading="lazy"
           decoding="async"
         />

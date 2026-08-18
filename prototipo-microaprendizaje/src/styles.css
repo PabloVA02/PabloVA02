@@ -6601,13 +6601,17 @@ button {
 .franja-gratis {
   padding-right: 18px;
 }
+/* El libro de la referencia mide 117 × 154 puntos y se ve entero. La caja va
+   a la proporción de la cubierta —2:3— para que no sobre ni falte nada:
+   103 × 154 son los mismos 154 de alto sin recortar un milímetro. */
 .franja-gratis .portada {
   flex: none;
-  width: 104px !important;
-  height: 134px !important;
-  transform: rotate(6deg);
+  width: 103px !important;
+  height: 154px !important;
+  transform: rotate(4deg);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.34);
 }
+.franja-gratis .port-img { object-fit: contain; }
 
 .ficha-arte { position: relative; }
 .ficha-guardar {
