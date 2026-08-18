@@ -6495,7 +6495,40 @@ button {
 /* El arco de detrás de la portada va en un tinte CLARO del color de la
    categoría —en el vídeo es un lila pastel sobre el que la cubierta se
    recorta—, no en el color a pelo, que sale oscuro y se come la portada. */
-.detalle-arco { background: color-mix(in srgb, var(--tinta, #b08bd0) 32%, #fff) !important; }
+/* La cúpula, medida sobre el vídeo columna a columna: va de x 41 a 684 y de
+   y 141 a 460, o sea 321 × 160 puntos —una semicircunferencia exacta— y con
+   la parte PLANA ABAJO. La nuestra era una elipse achatada, redondeada por
+   abajo y al 34 % de opacidad, que es lo que la hacía parecer gris.
+   La portada va encima: 114 × 128 con la parte de arriba sobresaliendo. */
+.detalle-arco {
+  width: 321px;
+  height: 160px;
+  margin: 20px auto -156px !important;
+  border-radius: 160px 160px 0 0 !important;
+  opacity: 1 !important;
+  background: color-mix(in srgb, var(--arco, #c07ae8) 30%, #fff) !important;
+}
+.detalle-portada .portada { width: 114px !important; height: 128px !important; }
+/* Los tres círculos van pegados a la izquierda, no centrados, y montados
+   sobre el pie de la cúpula. */
+.detalle-acciones {
+  justify-content: flex-start !important;
+  padding-left: 21px;
+  gap: 9px !important;
+  margin-top: 4px;
+}
+/* La X: 39 px en el vídeo, o sea 19,5 puntos, a 26,5 del borde. */
+.detalle-cerrar { width: 20px; height: 20px; }
+/* Los huecos de la columna centrada, medidos sobre el vídeo:
+     botones → pastilla   37 px → 18,5 puntos   (teníamos 6)
+     pastilla → título    38 px → 19            (teníamos 11,5)
+     título → autor       31 px → 15,5 */
+/* El aire tras los botones va aquí y no en `.detalle-centrado:first-of-type`,
+   que no casaba con nada: delante del primero hay otros tres div —el arco, la
+   portada y los botones—, así que el «primero de su tipo» nunca era él. */
+.detalle-acciones { margin-bottom: 12px; }
+.detalle-titulo { margin-top: 19px; }
+.detalle-autor { margin-top: 8px; }
 
 /* La portada mide 215 px en el vídeo: 107 puntos. El tamaño se lo da el
    componente desde el TSX, así que aquí solo va el redondeo. */
@@ -6503,19 +6536,25 @@ button {
 
 /* Los tres botones son círculos BLANCOS con el icono oscuro, y miden 75 px
    en el vídeo: 37 puntos. */
+/* Los círculos miden 62 px en el vídeo: 31 puntos, no 37. */
 .detalle-acciones .accion-redonda {
   background: #ffffff;
   color: #1c1a20;
-  width: 37px;
-  height: 37px;
+  width: 31px;
+  height: 31px;
   border: none;
 }
 .detalle-acciones .accion-redonda svg { color: #1c1a20; }
 
-.detalle-titulo { font-size: 20px; font-weight: 700; letter-spacing: -0.015em; }
-.detalle-autor { font-size: 17px; color: var(--ink-soft); font-weight: 400; }
+/* Medido sobre el fotograma limpio de 6,2 s: la C de «Crucial» tiene 27 px
+   de alto y nuestra S tenía 31; el autor va a 14 —la K de «Kerry» son 20—; y
+   el párrafo lleva 36 px de interlínea, o sea 18 puntos, contra los 26
+   nuestros, que era lo que más cantaba. */
+.detalle-titulo { font-size: 18px; font-weight: 700; letter-spacing: -0.015em; }
+.detalle-autor { font-size: 14px; color: var(--ink-soft); font-weight: 400; line-height: 1.3; }
 /* El vídeo no lleva la línea de minutos y partes bajo el autor. */
 .detalle-meta { display: none; }
-.detalle-seccion { font-size: 16px; font-weight: 700; margin-top: 26px; }
-.detalle-parrafo { font-size: 18px; line-height: 1.45; color: var(--ink); }
+.detalle-seccion { font-size: 16px; font-weight: 700; margin-top: 32px; }
+/* Del rótulo al párrafo hay 70 px en el vídeo: 35 puntos. */
+.detalle-parrafo { font-size: 16px; line-height: 1.18; color: var(--ink); margin-top: 16px; }
 .detalle-cerrar { background: none; color: #fff; }

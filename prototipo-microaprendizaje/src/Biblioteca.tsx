@@ -521,7 +521,9 @@ export function DetalleLibro({
           <GlyphClose />
         </button>
 
-        <div className="detalle-arco" style={{ background: libro.color }} />
+        {/* El color va como variable para poder aclararlo en la hoja: el arco del
+            vídeo es un tinte pastel, no el color de la categoría a pelo. */}
+        <div className="detalle-arco" style={{ ["--arco" as string]: libro.color }} />
 
         <motion.div
           className="detalle-portada"
