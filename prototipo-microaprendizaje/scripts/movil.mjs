@@ -37,7 +37,12 @@ import { chromium } from "playwright";
 const ejecuta = promisify(execFile);
 const RAIZ = new URL("..", import.meta.url).pathname;
 const HISTORIAS = join(RAIZ, "src", "historias");
-const CACHE = "/tmp/curva-movil-fotos";
+/* Las fotos ya bajadas de Commons. Vivían en `/tmp`, y en un contenedor de
+   los de web eso se vacía en cada arranque: rehacer el simulador costaba media
+   hora de descargas, y a ratos Commons contestaba con un 429. Aquí al lado
+   duran lo que dure la copia de trabajo. La carpeta está en el `.gitignore` y
+   son unos doscientos megas de originales. */
+const CACHE = process.env.CURVA_CACHE ?? join(RAIZ, "fotos-cache");
 const UA = "Curva/1.0 (proyecto educativo; contacto: pabloverdalo@gmail.com)";
 
 const arg = (nombre, porDefecto) => {

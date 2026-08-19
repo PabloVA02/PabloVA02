@@ -14,8 +14,8 @@ import {
 } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { APRENDERAS } from "./libros/aprenderas";
-import { cargarResumen, resumenCargado } from "./libros/indice";
 import { PAGINAS_POR_RESUMEN } from "./libros/paginas";
+import { SUBTITULOS } from "./libros/subtitulos";
 import { PortadaLibro } from "./PortadaLibro";
 import type { Foto } from "./shorts";
 
@@ -945,22 +945,7 @@ export function DetalleLibro({
   const guardado = guardados?.has(libro.id) ?? false;
   const parecidos = LIBROS.filter((l) => l.id !== libro.id).slice(0, 4);
 
-  /* Las ideas clave del resumen. Si ya está en memoria salen en el primer
-     pintado; si no, se pide aquí. Pedirlo en la ficha tiene premio doble: la
-     lista y que «Leer» entre sin esperar, porque para cuando se pulsa el
-     resumen ya está descargado. */
-  const [ideas, setIdeas] = useState<string[]>(() => clavesDe(libro.id));
-  useEffect(() => {
-    setIdeas(clavesDe(libro.id));
-    let vivo = true;
-    void cargarResumen(libro.id).then(() => vivo && setIdeas(clavesDe(libro.id)));
-    return () => { vivo = false; };
-  }, [libro.id]);
-
-  /* Mientras el resumen viaja se enseñan los capítulos, que son las paradas
-     del recorrido y ya están en el catálogo. Así la tarjeta nunca sale vacía
-     ni aparece de golpe a los dos segundos. */
-  const lista = ideas.length ? ideas : libro.capitulos.slice(0, 5).map((c) => c.titulo);
+  const lista = paradasDe(libro);
 
   /* El audio todavía no existe. El botón está porque la pantalla es de las
      dos cosas, y decirlo en una línea es más honrado que dejarlo muerto. */
@@ -1035,6 +1020,13 @@ export function DetalleLibro({
             {libro.categoria}
           </span>,
           <h1 key="t" className="detalle-titulo">{libro.titulo}</h1>,
+          /* La frase de la cubierta, que es lo que coloca el libro en un
+             segundo: «Sapiens» no dice nada y «Una breve historia de la
+             humanidad» lo dice todo. Solo la llevan los libros que la tienen
+             de verdad; el resto no pinta la línea. Ver `subtitulos.ts`. */
+          ...(SUBTITULOS[libro.id]
+            ? [<p key="s" className="detalle-subtitulo">{SUBTITULOS[libro.id]}</p>]
+            : []),
           <p key="a" className="detalle-autor">
             {libro.autor}
             {libro.ano && <span className="detalle-ano"> · {libro.ano}</span>}
@@ -1164,18 +1156,28 @@ export function DetalleLibro({
   );
 }
 
-/* Las frases de las tarjetas `clave` del resumen, que son el esqueleto del
-   libro: una por capítulo y escritas para que se recuerden. Cinco como mucho,
-   que es lo que cabe en la tarjeta sin que haya que desplazar la pantalla dos
-   veces para pasarla. */
-function clavesDe(id: string): string[] {
-  const resumen = resumenCargado(id);
-  if (!resumen) return [];
-  const frases: string[] = [];
-  for (const parte of resumen.partes) {
-    for (const carta of parte.tarjetas) {
-      if (carta.forma === "clave" && carta.frase) frases.push(carta.frase);
-    }
-  }
-  return frases.slice(0, 5);
+/* Lo que va en «Aprenderás»: las paradas del libro.
+
+   El primer intento fueron las frases de las tarjetas `clave`, y Pablo las
+   devolvió: «son cosas un poco ambiguas, tienen que ser más cortas y más
+   concretas». Tenía razón, y se puede medir: las 1.476 frases clave escritas
+   tienen una mediana de 32 palabras. Son el remate de un capítulo, pensadas
+   para leerse DESPUÉS de él, y sueltas en una lista no se sostienen.
+
+   Los títulos de los capítulos sí. `tipos.ts` los define como paradas de un
+   viaje y no como etiquetas de archivador —«el mayor fraude de la historia»,
+   «la neolengua y el doblepensar», «la habitación 101 y el apéndice»—, así que
+   ya son cortos y concretos, que es lo que se pedía.
+
+   Lo único que hay que quitarles es el andamiaje del viaje: en esta lista
+   «Salida:», «Primera parada:» y «Destino:» no dicen nada, numeran algo que la
+   lista ya enseña en orden. Fuera el prefijo, y mayúscula a la primera para
+   que las cinco entren iguales vengan de donde vengan. */
+const ANDAMIO = /^(salida|(primera|segunda|tercera|cuarta|quinta|sexta) parada|destino)\s*:\s*/i;
+
+function paradasDe(libro: Libro): string[] {
+  return libro.capitulos.slice(0, 5).map((c) => {
+    const limpio = c.titulo.replace(ANDAMIO, "").trim();
+    return limpio.charAt(0).toUpperCase() + limpio.slice(1);
+  });
 }

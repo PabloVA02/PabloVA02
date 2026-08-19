@@ -13,3 +13,7 @@ vite.uno.config.mjs
 #        --ancho 300 --calidad 0.6 --tope 10
 movil.html
 dist-artefacto/
+
+# Los originales que se bajan de Commons para empotrar en el simulador.
+# Doscientos megas que solo sirven para no volver a pedírselos a Commons.
+fotos-cache/

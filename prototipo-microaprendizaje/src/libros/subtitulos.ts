@@ -1,0 +1,55 @@
+/* ==========================================================================
+   El subtítulo de cada libro: la frase corta que va en su cubierta.
+
+   Pablo lo pidió con un ejemplo: «tienes que poner el título, por ejemplo
+   Homo Sapiens, y su frase corta de una breve historia de la humanidad». Es
+   lo que se lee debajo del título en la portada de verdad, y es lo que
+   coloca el libro en un segundo: «Sapiens» no dice nada, «Sapiens · Una
+   breve historia de la humanidad» lo dice todo.
+
+   POR QUÉ NO SALE DE LO QUE YA HABÍA. El campo `subtitulo` de un libro es su
+   `gancho` —la frase que decide si alguien entra—, y eso es otra cosa: son
+   dos líneas de texto escritas por nosotros, no el subtítulo de la edición.
+
+   LA REGLA, y es la única: aquí va el subtítulo REAL de la edición en
+   español, el que está impreso en la cubierta. Un libro cuyo subtítulo no se
+   sepa con seguridad NO SE INVENTA: se queda fuera y la ficha no pinta la
+   línea, que es exactamente lo que pasa con los libros que no llevan
+   subtítulo ninguno —«1984», «Meditaciones», «El príncipe»— y no pasa nada.
+
+   La lista se va llenando. Hoy cubre los que se ven primero en la estantería
+   y los que tienen resumen escrito de los que se está seguro.
+   ========================================================================== */
+
+export const SUBTITULOS: Record<string, string> = {
+  /* Historia */
+  sapiens: "Una breve historia de la humanidad",
+  "homo-deus": "Breve historia del mañana",
+  "armas-germenes": "Breve historia de la humanidad en los últimos trece mil años",
+  "infinito-junco": "La invención de los libros en el mundo antiguo",
+  "mundo-ayer": "Memorias de un europeo",
+  spqr: "Una historia de la antigua Roma",
+  mandela: "La autobiografía de Nelson Mandela",
+  "chico-pijama": "Una fábula",
+  "eichmann-jerusalen": "Un estudio sobre la banalidad del mal",
+  postguerra: "Una historia de Europa desde 1945",
+  "sobre-tirania": "Veinte lecciones que aprender del siglo XX",
+
+  /* Filosofía */
+  zaratustra: "Un libro para todos y para nadie",
+  sisifo: "Ensayo sobre el absurdo",
+  "cuatro-acuerdos": "Un libro de sabiduría tolteca",
+  ikigai: "Los secretos de Japón para una vida larga y feliz",
+  "monje-ferrari": "Una fábula espiritual",
+  "mundo-sofia": "Novela sobre la historia de la filosofía",
+
+  /* Ciencia */
+  "breve-historia-tiempo": "Del Big Bang a los agujeros negros",
+  "mundo-demonios": "La ciencia como una luz en la oscuridad",
+  "vida-arboles": "Descubre su mundo oculto",
+  "gen-historia": "Una historia personal",
+  feynman: "Aventuras de un curioso personaje",
+
+  /* Psicología */
+  "habitos-atomicos": "Cambios pequeños, resultados extraordinarios",
+};
