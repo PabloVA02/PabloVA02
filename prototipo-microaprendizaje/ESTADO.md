@@ -73,15 +73,27 @@ primer short de cada fichero, en el orden en que están listados.
 eso existe `fotos-al-vuelo.mjs`, que las baja con curl y se las entrega. Sin
 él, las capturas salen con el cartel de respaldo en vez de la foto.
 
-## AL TERMINAR CUALQUIER CAMBIO: rehacer el simulador
+## AL TERMINAR CUALQUIER CAMBIO: rehacer el simulador Y PUBLICARLO
 
 Pablo lo pidió así de claro: «actualízamelo en el artefacto que estamos usando
 para que pueda verlo, haz eso siempre que añadas algo». `movil.html` es lo
 único que él ve, así que un cambio que no esté ahí no existe todavía.
 
-Las órdenes exactas están en el README, en «Verlo sin instalar nada». Con el
-caché de fotos lleno —`fotos-cache/`, que ya no vive en `/tmp` justamente por
-esto— tardan un par de minutos. Luego se le pasa el fichero.
+**EL ARTEFACTO ES ESTE Y NO OTRO:**
+
+    Curva · la app entera, en un móvil
+    https://claude.ai/code/artifact/b8c9ffd9-e1f0-4e9e-a89f-0c69e0027ae2
+
+Lo tiene abierto en el móvil. Se actualiza EN ESE MISMO ENLACE —publicando
+`movil.html` con esa `url`—, no se crea uno nuevo: si sale otro enlace, él
+sigue mirando el viejo y parece que no se ha hecho nada. Pasó: se le mandó el
+fichero suelto tres veces mientras él miraba el artefacto de hacía una semana.
+Y antes de publicar hay que leer lo que está publicado, que es como se
+comprueba desde qué versión se parte.
+
+Las órdenes para rehacerlo están en el README, en «Verlo sin instalar nada».
+Con el caché de fotos lleno —`fotos-cache/`, que ya no vive en `/tmp`
+justamente por esto— tardan un par de minutos.
 
 ## OJO: el contenedor puede arrancar con el repo atrasado
 
