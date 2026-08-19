@@ -58,7 +58,8 @@
    que hay que tomar antes de generar los doscientos.
    ========================================================================== */
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, unlinkSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { join } from "node:path";
 
 const RAIZ = new URL("..", import.meta.url).pathname;
@@ -79,7 +80,31 @@ if (!CLAVE) {
   process.exit(1);
 }
 
-const cabeceras = { "xi-api-key": CLAVE };
+/* ── POR QUÉ CURL Y NO `fetch` ──────────────────────────────────────────────
+   La salida a la red de este entorno pasa por un proxy que anuncia
+   `HTTPS_PROXY`. `curl` lo respeta solo con tenerlo en el entorno; el `fetch`
+   de Node 22 lo ignora y sale por su cuenta, y entonces se topa con la
+   política de egreso y recibe «403 Host not in allowlist» aunque el dominio
+   esté permitido. Medido en la misma máquina y en el mismo segundo: curl 200,
+   fetch 403.
+
+   Y la clave va por la CONFIGURACIÓN DE CURL leída de la entrada estándar, no
+   como argumento: lo que se pasa en la línea de órdenes lo puede leer
+   cualquiera que mire la lista de procesos. */
+function curl(config) {
+  /* Sin `encoding`: así devuelve un Buffer, que es lo que hace falta para el
+     audio. Poniéndolo a "buffer" —que es lo que dice la documentación que es
+     el valor por defecto— Node 22 responde ERR_UNKNOWN_ENCODING. */
+  return execFileSync("curl", ["-sS", "--max-time", "180", "-K", "-"], {
+    input: config,
+    maxBuffer: 64 * 1024 * 1024,
+  });
+}
+
+function pide(ruta) {
+  const salida = curl(`url = "${API}${ruta}"\nheader = "xi-api-key: ${CLAVE}"\n`);
+  return JSON.parse(salida.toString("utf8"));
+}
 
 /* -- Los bloques del libro ------------------------------------------------
    Se leen del propio `paginas.ts`. El literal de TypeScript es JavaScript
@@ -122,24 +147,38 @@ function textoDe(b) {
   return "";
 }
 
-async function habla(voiceId, texto) {
-  const r = await fetch(`${API}/v1/text-to-speech/${voiceId}?output_format=${FORMATO}`, {
-    method: "POST",
-    headers: { ...cabeceras, "content-type": "application/json" },
-    body: JSON.stringify({ text: texto, model_id: MODELO, voice_settings: AJUSTES }),
-  });
-  if (!r.ok) {
-    const detalle = await r.text();
-    throw new Error(`ElevenLabs ${r.status}: ${detalle.slice(0, 300)}`);
+function habla(voiceId, texto) {
+  const cuerpo = `/tmp/xi-cuerpo-${process.pid}.json`;
+  const destino = `/tmp/xi-salida-${process.pid}.mp3`;
+  writeFileSync(cuerpo, JSON.stringify({ text: texto, model_id: MODELO, voice_settings: AJUSTES }));
+  try {
+    curl(
+      `url = "${API}/v1/text-to-speech/${voiceId}?output_format=${FORMATO}"\n` +
+        `header = "xi-api-key: ${CLAVE}"\n` +
+        `header = "content-type: application/json"\n` +
+        `data = @${cuerpo}\n` +
+        `output = "${destino}"\n`,
+    );
+    const mp3 = readFileSync(destino);
+    /* Un error de la API vuelve como JSON con cara de mp3: si empieza por una
+       llave, es que no hay audio ninguno. */
+    if (mp3[0] === 0x7b) throw new Error(`ElevenLabs: ${mp3.toString("utf8").slice(0, 300)}`);
+    return mp3;
+  } finally {
+    for (const f of [cuerpo, destino]) {
+      try {
+        unlinkSync(f);
+      } catch {
+        /* daba igual */
+      }
+    }
   }
-  return Buffer.from(await r.arrayBuffer());
 }
 
 const orden = process.argv[2];
 
 if (orden === "voces") {
-  const r = await fetch(`${API}/v1/voices`, { headers: cabeceras });
-  const { voices } = await r.json();
+  const { voices } = pide("/v1/voices");
   const castellanas = voices.filter((v) => {
     const t = JSON.stringify(v.labels ?? {}) + (v.description ?? "") + (v.name ?? "");
     return /spanish|castilian|espa/i.test(t) || v.fine_tuning?.language === "es";
@@ -161,7 +200,7 @@ if (orden === "voces") {
   const texto = bloquesDe("sapiens")[1].texto;
   mkdirSync("/tmp/audicion", { recursive: true });
   for (const id of ids) {
-    const mp3 = await habla(id, texto);
+    const mp3 = habla(id, texto);
     const donde = `/tmp/audicion/${id}.mp3`;
     writeFileSync(donde, mp3);
     console.log(`${donde}  ${(mp3.length / 1024).toFixed(0)} kB`);
@@ -183,7 +222,7 @@ if (orden === "voces") {
   let bytes = 0;
   for (const [i, b] of bloques.entries()) {
     const nombre = `${String(b.pagina).padStart(2, "0")}-${String(b.bloque).padStart(2, "0")}.mp3`;
-    const mp3 = await habla(voz, b.texto);
+    const mp3 = habla(voz, b.texto);
     writeFileSync(join(carpeta, nombre), mp3);
     bytes += mp3.length;
     indice.push({ pagina: b.pagina, bloque: b.bloque, fichero: nombre });
