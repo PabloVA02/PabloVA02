@@ -15,6 +15,7 @@ import {
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { APRENDERAS } from "./libros/aprenderas";
 import { PAGINAS_POR_RESUMEN } from "./libros/paginas";
+import { PUNTOS } from "./libros/puntos";
 import { SUBTITULOS } from "./libros/subtitulos";
 import { PortadaLibro } from "./PortadaLibro";
 import type { Foto } from "./shorts";
@@ -945,7 +946,10 @@ export function DetalleLibro({
   const guardado = guardados?.has(libro.id) ?? false;
   const parecidos = LIBROS.filter((l) => l.id !== libro.id).slice(0, 4);
 
-  const lista = paradasDe(libro);
+  /* Lo escrito a mano manda: es lo que uno se lleva del libro. Sin ello van
+     las paradas del recorrido, que son cortas y concretas pero cuentan por
+     dónde se pasa y no qué se saca. Ver `puntos.ts`. */
+  const lista = PUNTOS[libro.id] ?? paradasDe(libro);
 
   /* El audio todavía no existe. El botón está porque la pantalla es de las
      dos cosas, y decirlo en una línea es más honrado que dejarlo muerto. */

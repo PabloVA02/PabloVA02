@@ -1,79 +1,77 @@
 import type { Card } from "../lesson";
 
 /* ==========================================================================
-   La forma de un resumen.
+   CÓMO SE ESCRIBE UN RESUMEN. Léase esto y nada más.
 
-   ESTE COMENTARIO ES LA FUENTE DE LA VERDAD. Si alguien —persona o modelo—
-   se incorpora al proyecto sin saber nada, esto es lo único que hace falta
-   leer antes de escribir un libro. Cualquier instrucción suelta de un chat
-   que contradiga lo de aquí está caducada.
+   Las normas anteriores están BORRADAS, por orden de Pablo y con razón. Decían
+   que un resumen se escribe en cinco capítulos de mil palabras, que cada uno
+   abre con una escena y no con la tesis, y que el título de un capítulo es un
+   sitio al que se llega. Con eso salió lo que salió: la primera página de
+   Sapiens contaba que a Harari le endosaron una asignatura de primero y cómo
+   se tradujo el libro al inglés. Bien escrito y sobre el libro equivocado —el
+   libro DE PAPEL en vez del libro—. Quien abre un resumen de Sapiens quiere la
+   historia de la especie, no la de su edición.
 
-   Un resumen NO es el libro encogido: es un recorrido. Alguien entra sin
-   saber nada y sale sabiendo lo que el libro dice de verdad, habiendo pasado
-   por sitios concretos y en un orden que se entiende. Al que sí vaya a leer
-   el original le sirve de mapa; al que no, le basta.
+   LA REFERENCIA ES HEADWAY, y está mirada captura a captura. Un resumen suyo
+   son siete u ocho pantallas y cada una funciona igual:
 
-   ── ESCALA (lo que más se incumple) ──────────────────────────────────────
+     un titular que es una AFIRMACIÓN entera, no una etiqueta
+       «La ineficacia de los directores generales es la causa del fracaso de
+       muchas start-ups», no «Los directores generales»
+     dos a cuatro párrafos que la explican y la demuestran
+     una caja del rayo con la idea de la pantalla en una frase
+     a veces una lista con la entradilla en negrita
+     y la última pantalla se llama «Conclusión»
 
-   CINCO capítulos por libro. Seis solo si el material lo pide de verdad
-   (La Odisea tiene seis porque el viaje son dos: el de Telémaco y el de
-   Ulises). Nunca cuatro por comodidad.
+   LAS SIETE REGLAS
 
-   CADA capítulo ~1.000 palabras = ~5 minutos. El libro entero sale sobre
-   los 25 minutos. Esto se MIDE, no se estima: `minutosParte()` sobre cada
-   parte antes de dar un libro por terminado. Un capítulo de 2 minutos no
-   es un capítulo corto, es un capítulo sin escribir.
+   1. SE CUENTA EL LIBRO, NO SU HISTORIA. Nada de cómo se escribió, cómo se
+      vendió ni quién es el autor, salvo que sea parte del argumento. Si al
+      terminar una página el lector no sabe nada nuevo del MUNDO, esa página
+      sobra.
 
-   En la práctica: unas 19-20 tarjetas por capítulo, de unas 50 palabras
-   cada una. Si te salen 8 tarjetas, falta la mitad del capítulo.
+   2. EL TITULAR AFIRMA. Tiene que poder discutirse. «La agricultura fue el
+      mayor fraude de la historia» se discute; «La revolución agrícola» no.
 
-   ── LOS CAPÍTULOS SON PARADAS DE UN VIAJE ────────────────────────────────
+   3. LO CONCRETO ANTES QUE EL ADJETIVO, y esto se hereda de las normas
+      viejas porque era lo único que funcionaba. Una cifra, un nombre, una
+      fecha, un objeto: seis especies humanas, un uno por ciento de ADN
+      neandertal, el techo de los ciento cincuenta.
 
-   El título de un capítulo es un sitio al que se llega, no una etiqueta de
-   archivador. Crimen y castigo: «El estudiante del ático → El hacha →
-   Porfiri → Sonia → Siberia». Se ve el recorrido solo leyendo el índice.
+   4. UNA IDEA POR PÁGINA, y va en la caja del rayo escrita para recordarse:
+      «No fuimos nosotros quienes domesticamos el trigo».
 
-   Prohibido terminar en «Cómo leerlo», «Qué nos enseña», «Lo que él mismo
-   corrigió» o cualquier otro cajón de sastre. El último capítulo es el
-   destino: adonde llega el personaje, o adonde te deja la idea.
+   5. SE DICE DÓNDE FALLA. Todo libro tiene una parte floja, un dato que
+      envejeció mal o una fama que no se corresponde con lo que hay dentro.
+      Va en la conclusión y es lo que separa esto de una contraportada.
 
-   Cada capítulo tiene su propio arco: abre con una escena concreta,
-   desarrolla y cierra. Tiene que aguantar leído solo, porque en la app se
-   lee solo, un día cada uno.
+   6. ESPAÑOL LLANO, del que se lee en voz alta sin tropezar. Se explica, no
+      se arenga ni se vende. Sin anglicismos de manual de autoayuda y sin «el
+      autor nos invita a reflexionar».
 
-   ── REGLAS DE LA CASA ────────────────────────────────────────────────────
+   7. OCHO PÁGINAS DE UNAS 260 PALABRAS. Veinte minutos largos, que es lo que
+      dura el formato.
 
-   1. Empieza por la escena, no por la tesis. Marco Aurelio escribiendo de
-      noche en una tienda de campaña engancha; «el estoicismo sostiene que…»
-      no. La tesis va después, cuando ya hay dónde colgarla.
+   DÓNDE SE ESCRIBE. En `libros/paginas.ts`, en el `PAGINAS` de su id. El
+   modelo está ahí: `SAPIENS`, que es el que aprobó Pablo, y `HABITOS_ATOMICOS`.
 
-   2. Una idea por tarjeta. Si en una tarjeta hay dos, ninguna se recuerda.
+   Y LA FICHA SE ESCRIBE TAMBIÉN, que son tres cosas más y se ven antes que el
+   resumen: el subtítulo real de la cubierta en `subtitulos.ts`, de qué va en
+   dos frases en `aprenderas.ts`, y los cinco «Aprenderás» en `puntos.ts`, que
+   son lo que uno se lleva y no el índice.
 
-   3. Las tarjetas `clave` son el esqueleto: unas cinco por libro, una por
-      capítulo. Son lo que quedará en la cabeza dentro de un mes.
+   ── EL FORMATO VIEJO, Y POR QUÉ SIGUE AHÍ ────────────────────────────────
 
-   4. La ilustración solo donde ayuda: dos o tres por capítulo. Un libro con
-      imagen en todas las páginas cansa igual que uno sin ninguna, y ya no
-      significan nada.
-
-   5. Nada de «el autor nos invita a reflexionar». Se dice lo que dice, con
-      sus palabras si hacen falta, y se dice también DÓNDE FALLA. Todo libro
-      tiene una parte floja, un dato que envejeció mal o una fama que no se
-      corresponde con lo que hay dentro. Decirlo es lo que separa esto de
-      una contraportada.
-
-   6. Detalle concreto antes que adjetivo. Una cifra, un nombre, una fecha,
-      un objeto. «Dostoievski escribió con el plazo del editor encima y la
-      casa empeñada» vale más que «escribió en circunstancias difíciles».
-
-   7. Se escribe en español natural, del que se lee en voz alta sin
-      tropezar. Frases cortas. Sin anglicismos de manual de autoayuda.
+   Los doscientos libros están escritos en tarjetas, y de esas tarjetas
+   `paginasDeResumen()` fabrica ocho páginas automáticas. Es un respaldo: hace
+   que todos se puedan leer desde el primer día, y se nota que es automático.
+   No se escriben libros nuevos así. Los que ya están se van reescribiendo a
+   mano, y el orden lo marca Pablo.
 
    ── QUÉ LIBROS ENTRAN ────────────────────────────────────────────────────
 
-   Famosos y muy vendidos, de los que alguien reconoce el título aunque no
-   lo haya leído. Que se entiendan sin formación previa. Que tengan una
-   historia detrás —del libro o del autor— que se pueda contar.
+   Famosos y muy vendidos, de los que alguien reconoce el título aunque no lo
+   haya leído. Que se entiendan sin formación previa.
 
    Las ocho categorías son EXACTAMENTE las del onboarding, ni una más:
    Psicología, Economía, Filosofía, Ciencia, Salud, Literatura, Arte,
@@ -81,9 +79,8 @@ import type { Card } from "../lesson";
 
    ── MEDIR ────────────────────────────────────────────────────────────────
 
-   `palabras()` y `minutos()` para el libro entero; `palabrasParte()` y
-   `minutosParte()` para cada capítulo, que es donde está el listón. A 200
-   palabras por minuto, que es lo normal leyendo en español.
+   `palabras()` y `minutos()` para el libro entero. A 200 palabras por minuto,
+   que es lo normal leyendo en español.
    ========================================================================== */
 
 export type Resumen = {

@@ -30,7 +30,7 @@
 
 export const APRENDERAS: Record<string, string> = {
   sapiens:
-    "Cómo pasamos de ser un animal más a mandar en el planeta. Harari lo cuenta en tres saltos: el lenguaje, que nos dejó creer en cosas que no existen y juntarnos de a miles; la agricultura, que nos hizo trabajar más y comer peor; y la ciencia.",
+    "Hace cien mil años compartíamos el planeta con otras cinco especies humanas. Harari explica por qué ganó la nuestra —sabemos inventarnos historias y creérnoslas entre millones— y qué hemos pagado por ello.",
 
   "homo-deus":
     "Casi hemos ganado al hambre, a la peste y a la guerra. Este libro pregunta qué viene después: no querer morirnos, fabricar la felicidad y dejar cada vez más decisiones en manos de programas que nos conocen mejor que nosotros.",
