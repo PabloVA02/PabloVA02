@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type ComponentType } from "react";
+import { useMemo, useState, type ComponentType } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   Aprendizaje, AprendizajeVB, Descubrir, DescubrirVB, Estanteria, EstanteriaVB,
@@ -16,6 +16,7 @@ import { LIBROS_RESUMEN } from "./libros/puente";
 import { APRENDERAS } from "./libros/aprenderas";
 import { PAGINAS_POR_RESUMEN } from "./libros/paginas";
 import { PUNTOS } from "./libros/puntos";
+import { desbloquea } from "./voz";
 import { SUBTITULOS } from "./libros/subtitulos";
 import { PortadaLibro } from "./PortadaLibro";
 import type { Foto } from "./shorts";
@@ -929,6 +930,7 @@ export function DetalleLibro({
   libro,
   onCerrar,
   onEmpezar,
+  onEscuchar,
   onAbrir,
   guardados,
   onGuardar,
@@ -936,6 +938,8 @@ export function DetalleLibro({
   libro: Libro;
   onCerrar: () => void;
   onEmpezar: () => void;
+  /** Lo mismo que empezar, pero entrando con la voz puesta. */
+  onEscuchar: () => void;
   onAbrir: (libro: Libro) => void;
   /* La hoja recibe el conjunto entero y no un solo booleano: abajo lleva su
      propia tira de «También te puede gustar», y esas fichas tienen que
@@ -950,15 +954,6 @@ export function DetalleLibro({
      las paradas del recorrido, que son cortas y concretas pero cuentan por
      dónde se pasa y no qué se saca. Ver `puntos.ts`. */
   const lista = PUNTOS[libro.id] ?? paradasDe(libro);
-
-  /* El audio todavía no existe. El botón está porque la pantalla es de las
-     dos cosas, y decirlo en una línea es más honrado que dejarlo muerto. */
-  const [avisoAudio, setAvisoAudio] = useState(false);
-  useEffect(() => {
-    if (!avisoAudio) return;
-    const id = window.setTimeout(() => setAvisoAudio(false), 2400);
-    return () => window.clearTimeout(id);
-  }, [avisoAudio]);
 
   return (
     <motion.div
@@ -1118,28 +1113,22 @@ export function DetalleLibro({
       </div>
 
       <div className="detalle-pie">
-        <AnimatePresence>
-          {avisoAudio && (
-            <motion.p
-              className="detalle-aviso"
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 6 }}
-              transition={spring}
-            >
-              El audio llega pronto. De momento, léelo.
-            </motion.p>
-          )}
-        </AnimatePresence>
         <motion.div
           className="detalle-botones"
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...spring, delay: 0.3 }}
         >
+          {/* El toque en este botón es lo que abre la síntesis de voz en
+              Safari: si la primera locución no sale de un gesto del dedo, iOS
+              no deja hablar en toda la sesión. Por eso `desbloquea()` va aquí
+              dentro y no en el lector, que se monta ya sin gesto. */}
           <motion.button
             className="btn-pie btn-pie-hueco"
-            onClick={() => setAvisoAudio(true)}
+            onClick={() => {
+              desbloquea();
+              onEscuchar();
+            }}
             whileTap={{ scale: 0.97 }}
           >
             <GlyphAuriculares />

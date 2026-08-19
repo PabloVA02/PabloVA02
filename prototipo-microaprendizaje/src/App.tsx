@@ -62,6 +62,8 @@ export default function App() {
      mientras se lee, que es cuando importan. */
   const preferencias = usePreferencias();
   const [libro, setLibro] = useState<Libro>(LIBROS[0]);
+  /** Se ha entrado por «Escuchar»: el lector arranca con la voz puesta. */
+  const [conVoz, setConVoz] = useState(false);
   /** A dónde vuelve el cierre. Un short no devuelve a la ficha de un libro. */
   const [vuelta, setVuelta] = useState<Pantalla>("detalle");
   /** Objetivo de lectura de lo que se acaba de terminar, para comparar. */
@@ -118,6 +120,21 @@ export default function App() {
   const [minutos, setMinutos] = useState(0);
   const arranque = useRef(0);
   const reducido = useReducedMotion();
+
+  /* Los dos botones del pie de la ficha hacen lo mismo salvo en una cosa: si
+     el lector arranca con la voz puesta. Todo lo demás —poner el cronómetro a
+     cero y pedir el texto— es idéntico, y estaba escrito dentro del `onClick`
+     de «Leer», así que duplicarlo para «Escuchar» era garantizar que un día
+     se tocara uno y no el otro. */
+  function abrirLector(conVozPuesta: boolean) {
+    setCompletados(0);
+    arranque.current = Date.now();
+    void cargarResumen(libro.id).then(setResumen);
+    setConVoz(conVozPuesta);
+    /* Derecho a leer, siempre. El mapa de capítulos era una parada de más
+       entre «quiero este libro» y el texto. */
+    setPantalla("lector");
+  }
 
   /* El texto no está en memoria desde el arranque: se pide al abrir la ficha
      del libro y llega en cuanto llega, así que al pulsar «Leer» casi siempre
@@ -305,15 +322,8 @@ export default function App() {
               onAbrir={(l) => setLibro(l)}
               guardados={guardados}
               onGuardar={alternarGuardado}
-              onEmpezar={() => {
-                setCompletados(0);
-                arranque.current = Date.now();
-                void cargarResumen(libro.id).then(setResumen);
-                /* Derecho a leer, siempre. El mapa de capítulos era una
-                   parada de más entre «quiero este libro» y el texto: se
-                   pulsa «Leer» y ya estás dentro. */
-                setPantalla("lector");
-              }}
+              onEmpezar={() => abrirLector(false)}
+              onEscuchar={() => abrirLector(true)}
             />
           )}
           {pantalla === "lector" && (
@@ -324,6 +334,7 @@ export default function App() {
                  tarjetas, que es lo que hace que los doscientos libros se
                  puedan leer desde el primer día. */
               paginas={PAGINAS[libro.id] ?? paginasDeResumen(resumen?.partes ?? [])}
+              audioAlEntrar={conVoz}
               onCerrar={() => setPantalla("detalle")}
               onTerminar={() => {
                 /* Lo que antes hacía la lección al acabar un capítulo: contar

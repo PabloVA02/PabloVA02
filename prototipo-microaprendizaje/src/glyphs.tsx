@@ -280,6 +280,25 @@ export function GlyphLeer({ tamano = 19 }: { tamano?: number }) {
   );
 }
 
+/* Los dos del reproductor. Macizos y sin hueco dentro: van sobre un disco
+   claro y a 16 px, y un triángulo de trazo a ese tamaño se deshace. */
+export function GlyphPlay({ tamano = 17 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 18 18" aria-hidden>
+      <path d="M4.6 2.6 A0.9 0.9 0 0 1 6 1.85 L14.6 8.25 A0.9 0.9 0 0 1 14.6 9.75 L6 16.15 A0.9 0.9 0 0 1 4.6 15.4 Z" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function GlyphPausa({ tamano = 17 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 18 18" aria-hidden>
+      <rect x="3.6" y="2.4" width="4" height="13.2" rx="1.4" fill="currentColor" />
+      <rect x="10.4" y="2.4" width="4" height="13.2" rx="1.4" fill="currentColor" />
+    </svg>
+  );
+}
+
 /** Perfil: cabeza y hombros, macizo, para que aguante a 20 px como el rayo. */
 export function GlyphPerfil({ tamano = 20 }: { tamano?: number }) {
   return (

@@ -15,10 +15,11 @@
    terminar, que es lo que cierra el resumen.
    ========================================================================== */
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { GlyphBack, GlyphClose } from "./glyphs";
+import { GlyphBack, GlyphClose, GlyphPausa, GlyphPlay } from "./glyphs";
 import { spring } from "./motion";
+import { alCargarVoces, calla, hayVocesInstaladas, hayVoz, lee, mejorVoz } from "./voz";
 import type { Bloque, PaginaLibro } from "./libros/paginas";
 
 function Rayo() {
@@ -46,6 +47,27 @@ function Comillas() {
    corchetes a la vista. Se pintan como marcado, que es lo que son. */
 function Marca({ html, className }: { html: string; className: string }) {
   return <p className={className} dangerouslySetInnerHTML={{ __html: html }} />;
+}
+
+/* Lo que la voz tiene que decir de cada bloque, y en el orden en que se lee.
+   Las etiquetas se quitan —`em` y `strong` son para el ojo—, la entradilla de
+   una lista se une a su texto con dos puntos, que es como se lee en alto, y la
+   cita lleva el nombre del autor detrás para que se entienda de quién es. */
+export function textoDe(b: Bloque): string {
+  const limpio = (t: string) => t.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  switch (b.b) {
+    case "rotulo":
+      return limpio(b.texto);
+    case "texto":
+    case "idea":
+      return limpio(b.texto);
+    case "lista":
+      return b.puntos.map((p) => `${p.fuerte}: ${limpio(p.texto)}`).join(" ");
+    case "cita":
+      return `${limpio(b.frase)} ${b.autor}.`;
+    case "prueba":
+      return `Prueba esto. ${b.puntos.map(limpio).join(" ")}`;
+  }
 }
 
 function PintaBloque({ b }: { b: Bloque }) {
@@ -104,11 +126,14 @@ export function Lector({
   paginas,
   onCerrar,
   onTerminar,
+  audioAlEntrar = false,
 }: {
   titulo: string;
   paginas: PaginaLibro[];
   onCerrar: () => void;
   onTerminar: () => void;
+  /** Se entra por «Escuchar» y no por «Leer»: empieza sonando. */
+  audioAlEntrar?: boolean;
 }) {
   const [i, setI] = useState(0);
   /* El texto del libro llega de un trozo aparte y puede tardar un instante.
@@ -123,6 +148,69 @@ export function Lector({
     setI(n);
     document.querySelector(".lee-scroll")?.scrollTo({ top: 0 });
   }
+
+  /* ---- El audiolibro ----------------------------------------------------
+     Suena la voz del propio teléfono; el porqué y las tres decisiones que
+     hacen que no parezca un teleprónter están en `voz.ts`. Aquí solo hay tres
+     cosas: quién manda (`sonando`), por qué bloque va la voz (para señalarlo
+     mientras se lee) y el salto de página, que es lo que lo convierte en un
+     audiolibro y no en un botón de leer en alto. */
+  const [sonando, setSonando] = useState(audioAlEntrar);
+  const [bloqueVivo, setBloqueVivo] = useState(-1);
+  const [voz, setVoz] = useState<string | null>(() => mejorVoz()?.name ?? null);
+  const [puedeHablar, setPuedeHablar] = useState(hayVocesInstaladas);
+
+  /* Chrome devuelve la lista de voces vacía en el primer pintado y la llena
+     un instante después. Sin esto, el pie diría siempre «voz del sistema» y
+     el botón se quedaría apagado en un aparato que sí sabe hablar. */
+  useEffect(
+    () =>
+      alCargarVoces(() => {
+        setVoz(mejorVoz()?.name ?? null);
+        setPuedeHablar(hayVocesInstaladas());
+      }),
+    [],
+  );
+
+  useEffect(() => {
+    if (!sonando || !hay || !puedeHablar) return;
+    const bloques = paginas[n].bloques.map(textoDe).filter(Boolean);
+    const empezo = Date.now();
+    const corta = lee(bloques, {
+      alBloque: setBloqueVivo,
+      alFin: () => {
+        setBloqueVivo(-1);
+        /* Una página son doscientas sesenta palabras: leerlas en alto no baja
+           de un minuto. Si «termina» en menos de tres segundos es que no ha
+           sonado —voz rota, sin permiso, sin altavoz— y lo que toca es parar
+           y decirlo, no seguir pasando páginas en silencio. */
+        if (Date.now() - empezo < 3000) {
+          setPuedeHablar(false);
+          setSonando(false);
+          return;
+        }
+        /* Al acabar la página se pasa sola a la siguiente y sigue leyendo.
+           En la última se para, que es donde está el botón de terminar. */
+        if (n < paginas.length - 1) ir(n + 1);
+        else setSonando(false);
+      },
+    });
+    return corta;
+    /* `paginas` y `hay` no van en la lista a propósito: el resumen no cambia
+       mientras se lee, y meterlo reiniciaba la lectura en cada pintado. */
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sonando, n, puedeHablar]);
+
+  /* Sin voz que lo lea no se puede estar «escuchando». Pasa al entrar por el
+     botón de escuchar en un aparato sin voces: el pie decía «Sin voz» y el
+     botón enseñaba la pausa. */
+  useEffect(() => {
+    if (!puedeHablar) setSonando(false);
+  }, [puedeHablar]);
+
+  /* Salir de la pantalla con la voz hablando la dejaría sonando sobre la
+     estantería, que es de las cosas más desagradables que puede hacer una app. */
+  useEffect(() => calla, []);
 
   return (
     <motion.div
@@ -147,7 +235,9 @@ export function Lector({
         {hay ? (
           <article key={n} className="lee-pagina">
             {paginas[n].bloques.map((b, k) => (
-              <PintaBloque key={k} b={b} />
+              <div key={k} className="lee-bloque" data-vivo={sonando && k === bloqueVivo}>
+                <PintaBloque b={b} />
+              </div>
             ))}
           </article>
         ) : (
@@ -187,6 +277,35 @@ export function Lector({
           </nav>
         )}
       </div>
+
+      {/* El reproductor va fijo abajo, como el de la referencia: mientras se
+          lee con los ojos se queda quieto, y mientras se escucha es lo único
+          que hace falta tener a mano. Solo aparece si el aparato sabe hablar:
+          en un visor sin síntesis de voz, un botón muerto es peor que nada. */}
+      {hay && hayVoz() && (
+        <div className="lee-audio" data-sonando={sonando}>
+          <button
+            className="lee-audio-boton"
+            onClick={() => setSonando((s) => !s)}
+            disabled={!puedeHablar}
+            aria-label={sonando ? "Pausar la lectura en voz alta" : "Escuchar el resumen"}
+          >
+            {sonando ? <GlyphPausa /> : <GlyphPlay />}
+          </button>
+          <span className="lee-audio-texto">
+            <span className="lee-audio-que">
+              {!puedeHablar ? "Sin voz instalada" : sonando ? "Escuchando" : "Escuchar el resumen"}
+            </span>
+            <span className="lee-audio-voz">
+              {!puedeHablar
+                ? "Este aparato no trae ninguna voz en español"
+                : sonando
+                  ? `Página ${n + 1} de ${paginas.length}`
+                  : (voz ?? "la voz del teléfono")}
+            </span>
+          </span>
+        </div>
+      )}
     </motion.div>
   );
 }
