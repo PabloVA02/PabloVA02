@@ -31,8 +31,15 @@ const fichero = new Map(
     .map((m) => [m[1], m[2]]),
 );
 
-/* El orden de los temas es el de los argumentos de `intercala()`. */
-const listado = shorts.slice(shorts.indexOf("intercala(", shorts.indexOf("export const SHORTS")));
+/* El orden de los temas es el de los argumentos de `intercala()`.
+
+   Se busca desde `const MURO` y no desde `export const SHORTS`, que es lo que
+   ponía: `SHORTS` se declara DESPUÉS del intercalado —envuelve a `MURO` para
+   quitar los repetidos— así que buscar `intercala(` a partir de ahí no
+   encontraba nada y la lista salía vacía. Con la lista vacía, `movil.mjs`
+   empotra las fotos por orden alfabético de fichero, que es justo lo que este
+   script existe para evitar. */
+const listado = shorts.slice(shorts.indexOf("intercala(", shorts.indexOf("const MURO")));
 const temas = listado.slice(0, listado.indexOf(");"))
   .split("\n").map((l) => l.trim().replace(/^intercala\(/, "").replace(/,$/, ""))
   .filter((l) => fichero.has(l));
