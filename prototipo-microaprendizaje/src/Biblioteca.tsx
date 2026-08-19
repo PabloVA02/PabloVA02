@@ -1,4 +1,4 @@
-import { useMemo, useState, type ComponentType } from "react";
+import { useEffect, useMemo, useState, type ComponentType } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   Aprendizaje, AprendizajeVB, Descubrir, DescubrirVB, Estanteria, EstanteriaVB,
@@ -8,11 +8,14 @@ import {
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import { urlFoto } from "./shorts";
 import {
-  GlyphAvatar, GlyphClose, GlyphDescargar, GlyphGuardar, GlyphLlama, GlyphLupa,
-  GlyphRegalo, GlyphShare,
+  GlyphAuriculares, GlyphAvatar, GlyphClose, GlyphDescargar, GlyphGuardar,
+  GlyphLeer, GlyphLlama, GlyphLupa, GlyphPaginas, GlyphPuntos, GlyphRegalo,
+  GlyphReloj, GlyphShare, GlyphVisto,
 } from "./glyphs";
 import { LIBROS_RESUMEN } from "./libros/puente";
 import { APRENDERAS } from "./libros/aprenderas";
+import { cargarResumen, resumenCargado } from "./libros/indice";
+import { PAGINAS_POR_RESUMEN } from "./libros/paginas";
 import { PortadaLibro } from "./PortadaLibro";
 import type { Foto } from "./shorts";
 
@@ -894,6 +897,33 @@ function Filtro({ texto, activo, onClick }: { texto: string; activo: boolean; on
    Ficha del libro
    ------------------------------------------------------------------------- */
 
+/**
+ * LA FICHA, A LA MANERA DE HEADWAY.
+ *
+ * Pablo pasó una captura suya y pidió cuatro cosas: la cubierta más grande,
+ * el título y el autor colocados como allí, una descripción breve, la lista
+ * de lo que se va a aprender, y abajo los dos botones de leer y escuchar
+ * —«pero que no sea calcado»—. Lo que cambia respecto a la captura:
+ *
+ *   la pastilla de categoría   suya, con el color del tema. Headway no la
+ *                              tiene y es lo que le pone color a la cabecera
+ *   los vistos                 en verde y no en azul: en esta app el verde es
+ *                              lo que ya es tuyo, y una idea aprendida lo es
+ *   los botones                pastillas enteras —radio 999— y uno relleno y
+ *                              otro de contorno, en vez de dos rectángulos
+ *                              azules iguales. Se distingue cuál es el gesto
+ *                              principal sin leerlos
+ *
+ * Lo de antes era un calco del segundo vídeo de Blinkist: cubierta de 114
+ * sobre una cúpula pastel y los tres botones redondos pegados a la izquierda.
+ * De aquello se queda la cúpula, porque es lo que da color al hueco detrás de
+ * la cubierta, y crece con ella.
+ *
+ * LAS TRES CIFRAS de la fila salen del libro, no están escritas a mano: las
+ * ideas clave son las tarjetas `clave` de su resumen —una por capítulo, que es
+ * el esqueleto que define `tipos.ts`—, los minutos están medidos sobre el
+ * texto real y las páginas son las ocho de todo resumen.
+ */
 export function DetalleLibro({
   libro,
   onCerrar,
@@ -915,6 +945,32 @@ export function DetalleLibro({
   const guardado = guardados?.has(libro.id) ?? false;
   const parecidos = LIBROS.filter((l) => l.id !== libro.id).slice(0, 4);
 
+  /* Las ideas clave del resumen. Si ya está en memoria salen en el primer
+     pintado; si no, se pide aquí. Pedirlo en la ficha tiene premio doble: la
+     lista y que «Leer» entre sin esperar, porque para cuando se pulsa el
+     resumen ya está descargado. */
+  const [ideas, setIdeas] = useState<string[]>(() => clavesDe(libro.id));
+  useEffect(() => {
+    setIdeas(clavesDe(libro.id));
+    let vivo = true;
+    void cargarResumen(libro.id).then(() => vivo && setIdeas(clavesDe(libro.id)));
+    return () => { vivo = false; };
+  }, [libro.id]);
+
+  /* Mientras el resumen viaja se enseñan los capítulos, que son las paradas
+     del recorrido y ya están en el catálogo. Así la tarjeta nunca sale vacía
+     ni aparece de golpe a los dos segundos. */
+  const lista = ideas.length ? ideas : libro.capitulos.slice(0, 5).map((c) => c.titulo);
+
+  /* El audio todavía no existe. El botón está porque la pantalla es de las
+     dos cosas, y decirlo en una línea es más honrado que dejarlo muerto. */
+  const [avisoAudio, setAvisoAudio] = useState(false);
+  useEffect(() => {
+    if (!avisoAudio) return;
+    const id = window.setTimeout(() => setAvisoAudio(false), 2400);
+    return () => window.clearTimeout(id);
+  }, [avisoAudio]);
+
   return (
     <motion.div
       className="detalle"
@@ -922,30 +978,15 @@ export function DetalleLibro({
       animate={{ opacity: 1, y: 0, transition: springSoft }}
       exit={{ opacity: 0, y: 20, transition: { duration: 0.2 } }}
     >
-      <div className="detalle-scroll">
+      {/* La barra de arriba se queda quieta mientras el texto pasa por debajo:
+          cerrar y los tres gestos del libro tienen que estar siempre a mano.
+          Antes los tres colgaban del pie de la cúpula, pegados a la izquierda,
+          y con la columna centrada quedaban descolgados. */}
+      <div className="detalle-barra">
         <button className="icon-btn detalle-cerrar" onClick={onCerrar} aria-label="Cerrar">
           <GlyphClose />
         </button>
-
-        {/* El color va como variable para poder aclararlo en la hoja: el arco del
-            vídeo es un tinte pastel, no el color de la categoría a pelo. */}
-        <div className="detalle-arco" style={{ ["--arco" as string]: libro.color }} />
-
-        <motion.div
-          className="detalle-portada"
-          initial={{ opacity: 0, y: 18, scale: 0.94 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ ...springPop, delay: 0.08 }}
-        >
-          <Portada libro={libro} tamano={108} />
-        </motion.div>
-
-        <motion.div
-          className="detalle-acciones"
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ ...spring, delay: 0.18 }}
-        >
+        <div className="detalle-acciones">
           {/* El primero es el mismo gesto que la esquina de la cubierta, así
               que tiene que contar lo mismo: azul y macizo cuando ya está. */}
           <motion.button
@@ -972,6 +1013,21 @@ export function DetalleLibro({
               {a.g}
             </motion.button>
           ))}
+        </div>
+      </div>
+
+      <div className="detalle-scroll">
+        {/* El color va como variable para poder aclararlo en la hoja: la
+            cúpula es un tinte pastel, no el color de la categoría a pelo. */}
+        <div className="detalle-arco" style={{ ["--arco" as string]: libro.color }} />
+
+        <motion.div
+          className="detalle-portada"
+          initial={{ opacity: 0, y: 18, scale: 0.94 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ ...springPop, delay: 0.08 }}
+        >
+          <Portada libro={libro} tamano={152} />
         </motion.div>
 
         {[
@@ -982,9 +1038,6 @@ export function DetalleLibro({
           <p key="a" className="detalle-autor">
             {libro.autor}
             {libro.ano && <span className="detalle-ano"> · {libro.ano}</span>}
-          </p>,
-          <p key="m" className="detalle-meta">
-            {libro.minutos ? tiempo(libro.minutos) : "25 min"} de lectura · 8 páginas
           </p>,
         ].map((n, i) => (
           <motion.div
@@ -999,22 +1052,50 @@ export function DetalleLibro({
           </motion.div>
         ))}
 
+        {/* Las tres cifras, como en la captura: cuántas ideas, cuánto dura y
+            cuánto ocupa. Es lo que se mira antes de decidir si se entra. */}
+        <motion.ul
+          className="detalle-datos"
+          custom={6}
+          variants={enterVariants}
+          initial="hidden"
+          animate="shown"
+        >
+          <li><GlyphPuntos /> {lista.length} ideas clave</li>
+          <li><GlyphReloj /> {tiempo(libro.minutos ?? 25)}</li>
+          <li><GlyphPaginas /> {PAGINAS_POR_RESUMEN} páginas</li>
+        </motion.ul>
+
         {/* De qué va el libro, no por qué habría que leerlo. El rótulo decía
             «Por qué merece la pena» y debajo iba `porQue`, que es un argumento
             de venta: sirve para decidir si entras y no para saber qué te vas a
             encontrar. El texto de `aprenderas.ts` cuenta el recorrido; si un
-            libro todavía no lo tiene, cae en el de antes para no dejar hueco.
-
-            Aquí iba también el índice de capítulos, y se ha ido: desde que la
-            lectura son ocho páginas y no cinco capítulos, la lista prometía un
-            recorrido que ya no existe. */}
-        <motion.section custom={6} variants={enterVariants} initial="hidden" animate="shown">
-          <h2 className="detalle-seccion">Qué vas a aprender</h2>
+            libro todavía no lo tiene, cae en el de antes para no dejar hueco. */}
+        <motion.section custom={7} variants={enterVariants} initial="hidden" animate="shown">
+          <h2 className="detalle-seccion">De qué va</h2>
           <p className="detalle-parrafo">{APRENDERAS[libro.id] ?? libro.gancho}</p>
         </motion.section>
 
+        <motion.section
+          className="aprender"
+          custom={8}
+          variants={enterVariants}
+          initial="hidden"
+          animate="shown"
+        >
+          <h2 className="aprender-rotulo">Aprenderás</h2>
+          <ul className="aprender-lista">
+            {lista.map((idea, i) => (
+              <li key={i}>
+                <span className="aprender-visto"><GlyphVisto /></span>
+                <span>{idea}</span>
+              </li>
+            ))}
+          </ul>
+        </motion.section>
+
         {libro.coleccion && (
-          <motion.section custom={7} variants={enterVariants} initial="hidden" animate="shown">
+          <motion.section custom={9} variants={enterVariants} initial="hidden" animate="shown">
             <h2 className="detalle-seccion">Aparece en</h2>
             <div className="detalle-coleccion">
               <Portada libro={libro} tamano={52} />
@@ -1023,7 +1104,7 @@ export function DetalleLibro({
           </motion.section>
         )}
 
-        <motion.section custom={8} variants={enterVariants} initial="hidden" animate="shown">
+        <motion.section custom={10} variants={enterVariants} initial="hidden" animate="shown">
           <h2 className="detalle-seccion">También te puede gustar</h2>
           <div className="carrusel">
             {parecidos.map((l, i) => (
@@ -1041,23 +1122,60 @@ export function DetalleLibro({
       </div>
 
       <div className="detalle-pie">
-        <motion.button
-          className="primary-btn"
-          onClick={onEmpezar}
-          whileTap={{ scale: 0.97 }}
+        <AnimatePresence>
+          {avisoAudio && (
+            <motion.p
+              className="detalle-aviso"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 6 }}
+              transition={spring}
+            >
+              El audio llega pronto. De momento, léelo.
+            </motion.p>
+          )}
+        </AnimatePresence>
+        <motion.div
+          className="detalle-botones"
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...spring, delay: 0.3 }}
         >
-          {/* Los minutos van aquí y no «5 capítulos», que es lo que decía: la
-              lectura son ocho páginas y ya no hay capítulos que prometer. Y
-              van en el botón porque la línea de meta que los llevaba está
-              oculta en esta pantalla —el calco de la referencia no la tiene—,
-              así que este es el único sitio donde se ve cuánto dura. */}
-          {libro.progreso > 0 ? "Seguir leyendo" : `Empezar · ${tiempo(libro.minutos ?? 25)}`}
-        </motion.button>
+          <motion.button
+            className="btn-pie btn-pie-hueco"
+            onClick={() => setAvisoAudio(true)}
+            whileTap={{ scale: 0.97 }}
+          >
+            <GlyphAuriculares />
+            Escuchar
+          </motion.button>
+          {/* El principal es leer, y por eso es el macizo. Los minutos van
+              dentro cuando el libro está por empezar: la línea que los llevaba
+              está oculta en esta pantalla, así que este es el único sitio donde
+              se ve cuánto dura. */}
+          <motion.button className="btn-pie btn-pie-macizo" onClick={onEmpezar} whileTap={{ scale: 0.97 }}>
+            <GlyphLeer />
+            {libro.progreso > 0 ? "Seguir" : "Leer"}
+          </motion.button>
+        </motion.div>
       </div>
 
     </motion.div>
   );
+}
+
+/* Las frases de las tarjetas `clave` del resumen, que son el esqueleto del
+   libro: una por capítulo y escritas para que se recuerden. Cinco como mucho,
+   que es lo que cabe en la tarjeta sin que haya que desplazar la pantalla dos
+   veces para pasarla. */
+function clavesDe(id: string): string[] {
+  const resumen = resumenCargado(id);
+  if (!resumen) return [];
+  const frases: string[] = [];
+  for (const parte of resumen.partes) {
+    for (const carta of parte.tarjetas) {
+      if (carta.forma === "clave" && carta.frase) frases.push(carta.frase);
+    }
+  }
+  return frases.slice(0, 5);
 }

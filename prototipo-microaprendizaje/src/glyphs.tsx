@@ -183,6 +183,103 @@ export function GlyphLibros({ tamano = 20 }: { tamano?: number }) {
   );
 }
 
+/* --------------------------------------------------------------------------
+   Los seis de la ficha del libro
+
+   Tres para la fila de datos —puntos clave, minutos y páginas—, el visto de
+   la lista de «Aprenderás» y los dos de los botones del pie. Van de trazo y
+   no macizos, al revés que los de la barra: ahí compiten con una etiqueta a
+   20 px y aquí acompañan a un texto, así que lo que se pide es que no pesen
+   más que él.
+   -------------------------------------------------------------------------- */
+
+/** Puntos clave: tres renglones con su punto delante, como un índice. */
+export function GlyphPuntos({ tamano = 15 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 16 16" aria-hidden>
+      <g {...trazo} strokeWidth="1.6">
+        <path d="M6 4 H14 M6 8 H14 M6 12 H11.5" />
+      </g>
+      <g fill="currentColor">
+        <circle cx="2.6" cy="4" r="1.15" />
+        <circle cx="2.6" cy="8" r="1.15" />
+        <circle cx="2.6" cy="12" r="1.15" />
+      </g>
+    </svg>
+  );
+}
+
+/** Minutos: la esfera y las dos agujas, a menos cuarto de las tres. */
+export function GlyphReloj({ tamano = 15 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 16 16" aria-hidden>
+      <g {...trazo} strokeWidth="1.6">
+        <circle cx="8" cy="8" r="6.2" />
+        <path d="M8 4.4 V8.2 L10.7 9.8" />
+      </g>
+    </svg>
+  );
+}
+
+/** Páginas: dos hojas, la de atrás asomando. */
+export function GlyphPaginas({ tamano = 15 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 16 16" aria-hidden>
+      <g {...trazo} strokeWidth="1.6">
+        <rect x="1.5" y="1.9" width="9" height="11.4" rx="1.6" />
+        <path d="M12.9 4.2 A1.6 1.6 0 0 1 14.5 5.8 V12.4 A1.7 1.7 0 0 1 12.8 14.1 H5.6" />
+      </g>
+    </svg>
+  );
+}
+
+/** El visto de la lista. Solo el trazo: el círculo lo pone el CSS. */
+export function GlyphVisto({ tamano = 13 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 14 14" aria-hidden>
+      <path
+        d="M3 7.4 L5.7 10 L11 4.3"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.1"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+/** Escuchar: la diadema y las dos copas, macizas para que se lean en el botón. */
+export function GlyphAuriculares({ tamano = 19 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 20 20" aria-hidden>
+      <path
+        d="M3.4 12.4 V10.6 A6.6 6.6 0 0 1 16.6 10.6 V12.4"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.9"
+        strokeLinecap="round"
+      />
+      <rect x="1.9" y="11.4" width="4" height="6.2" rx="2" fill="currentColor" />
+      <rect x="14.1" y="11.4" width="4" height="6.2" rx="2" fill="currentColor" />
+    </svg>
+  );
+}
+
+/** Leer: cuatro renglones de texto, el último corto. */
+export function GlyphLeer({ tamano = 19 }: { tamano?: number }) {
+  return (
+    <svg width={tamano} height={tamano} viewBox="0 0 20 20" aria-hidden>
+      <g fill="currentColor">
+        <rect x="2.4" y="3.6" width="15.2" height="2" rx="1" />
+        <rect x="2.4" y="8" width="15.2" height="2" rx="1" />
+        <rect x="2.4" y="12.4" width="11" height="2" rx="1" />
+        <rect x="2.4" y="16" width="6.6" height="2" rx="1" />
+      </g>
+    </svg>
+  );
+}
+
 /** Perfil: cabeza y hombros, macizo, para que aguante a 20 px como el rayo. */
 export function GlyphPerfil({ tamano = 20 }: { tamano?: number }) {
   return (
