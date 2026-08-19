@@ -430,8 +430,8 @@ type Tab = "libros" | "shorts" | "biblioteca";
  *
  * Empezó calcada de la captura de Blinkist —una pastilla de 331 × 61 flotando
  * a 22 del suelo, traslúcida y con desenfoque—. Ahora va apoyada abajo del
- * todo, opaca y de filo a filo: 86 puntos de alto contando los 26 del
- * indicador. Las medidas están en `.pestanas`, en `styles.css`.
+ * todo, opaca, de filo a filo y baja: 64 puntos de alto. Las medidas están en
+ * `.pestanas`, en `styles.css`.
  *
  * De la captura se queda lo que valía: la etiqueta de 11, y la pestaña activa
  * con pastilla más clara detrás e icono y letra en verde.
@@ -440,8 +440,8 @@ type Tab = "libros" | "shorts" | "biblioteca";
  * tres pestañas quepan a lo ancho sin apretarse. La pastilla del fondo viaja
  * entre pestañas con `layoutId`: el movimiento lo interpola Framer Motion.
  *
- * La entrada y la salida se van 96 abajo y no 72: la barra mide más que antes
- * y con 72 se quedaba un dedo suyo asomando por el filo.
+ * La entrada y la salida se van 72 abajo: algo más de lo que la barra mide,
+ * para que no se quede un dedo suyo asomando por el filo.
  */
 function BarraPestanas({
   visible,
@@ -463,9 +463,9 @@ function BarraPestanas({
       {visible && (
         <motion.nav
           className="pestanas"
-          initial={{ y: 96, opacity: 0 }}
+          initial={{ y: 72, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          exit={{ y: 96, opacity: 0 }}
+          exit={{ y: 72, opacity: 0 }}
           transition={springSoft}
         >
           {tabs.map(({ id, nombre, Icono }) => (
