@@ -33,7 +33,13 @@ nada. **No se vuelve a traducir.**
 | cifra del dato | 7,6cqw / su frase 3,4cqw | 29,6 / 13,3 |
 | botones y «Seguir» | 3,05cqw | 11,9 |
 
-El fondo es `#f2ece1` en las cuatro pantallas, sin excepción y sin grano.
+El fondo es `#222222` en las cuatro pantallas, sin excepción y sin grano: es
+`--fondo`, el mismo de la estantería, del perfil y de los ajustes. Fue beige
+`#f2ece1` mientras la maqueta era de papel; Pablo pidió un único fondo para
+toda la app y el beige se fue. La letra va en crema `#f2ece1` —los titulares y
+lo destacado— y el cuerpo en `#c4bcb0`, que es el gris cálido de la maqueta
+dado la vuelta. Los cinco acentos van levantados dentro del muro, que si no la
+capitular y el «Seguir» se apagan sobre el gris.
 
 ## Lo que NO se hace
 

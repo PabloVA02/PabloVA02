@@ -31,6 +31,19 @@
   /* El fondo de los planos de noche */
   --night: #272031;
 
+  /* EL FONDO DE LA APP. Uno solo, y este.
+
+     Venía cada pantalla con el suyo: la estantería en #222 —muestreado de la
+     captura de referencia—, el perfil y los ajustes en el morado #272031 de
+     los planos de noche, y los shorts en beige. Pablo lo dijo claro: el fondo
+     de pantalla tiene que ser el mismo en todas. Manda el de los libros,
+     porque es el que está medido sobre la referencia.
+
+     Se toca AQUÍ y cambia la app entera. Las tres pantallas de momento
+     —la racha, el cartel y el candado— se quedan en el casi negro de
+     `--carbon`: ahí el fondo no es fondo, es la mitad del dibujo. */
+  --fondo: #222222;
+
   /* Pantalla de racha: casi negro y el naranja del fuego */
   --carbon: #0e0e16;
   --fuego: #f4805e;
@@ -3211,9 +3224,24 @@ button {
    EL PERFIL
    ========================================================================== */
 
+/* Sube por debajo de la barra de estado y se la come, igual que hace la
+   estantería. Sin esto, el perfil y los ajustes empezaban con una franja de
+   46 puntos del crema de la carcasa: el fondo era el mismo que el de los
+   libros de cintura para abajo, y arriba no. El `padding` devuelve los 46,
+   así que dentro no se mueve nada.
+
+   Y hace falta el `position: relative`, que no es adorno: los iconos de la
+   barra de estado van con `opacity: 0.85`, y eso los sube a la capa de los
+   elementos posicionados. Sin posicionar el perfil, su fondo se pinta por
+   debajo de esa capa y las rayitas de cobertura y la pila seguían asomando
+   sobre el gris. La estantería y los ajustes ya estaban posicionados por otro
+   motivo, y por eso a ellos no les pasaba. */
 .perfil {
+  position: relative;
   flex: 1;
   min-height: 0;
+  margin-top: -46px;
+  padding-top: 46px;
   display: flex;
   flex-direction: column;
   background: var(--night);
@@ -3830,6 +3858,8 @@ button {
   min-height: 0;
   display: flex;
   flex-direction: column;
+  margin-top: -46px;
+  padding-top: 46px;
   background: var(--night);
   color: var(--paper);
 }
@@ -5074,12 +5104,18 @@ button {
   --paper-edge: #dbcfba;
   --ink: #2e2822;
   --ink-soft: #6b6154;
-  --night: #272031;
+  /* Era el morado #272031. Ahora es el fondo de la app, que es uno para
+     todas: `--night` sigue queriendo decir «el plano oscuro», solo que el
+     plano oscuro ya no lo elige cada pantalla. */
+  --night: var(--fondo);
 }
 
 .ajustes {
   position: relative;
-  --hoja-fondo: #332b40;
+  /* La hoja que sube desde los ajustes iba en morado, a juego con el fondo
+     morado de antes. Con el fondo gris, el morado se quedaba solo: ahora es
+     el gris de las superficies, un peldaño por encima del fondo. */
+  --hoja-fondo: #2c2c2c;
   --hoja-sup: rgba(242, 236, 225, 0.075);
   --hoja-sup-alta: rgba(242, 236, 225, 0.13);
   --hoja-borde: rgba(242, 236, 225, 0.14);
@@ -5916,9 +5952,47 @@ button {
 .muro-foto .foto-img,
 .muro-foto .foto-panoramica { filter: none; }
 
+/* LOS SHORTS, EN EL FONDO DE LA APP.
+
+   Estuvieron en beige mientras la maqueta aprobada era de papel; con la app
+   entera en gris, el beige era la pantalla que se salía. Pablo pidió el mismo
+   fondo en todas y el beige se va. Y con eso vuelve lo que ya decía el
+   encabezado de esta sección: una fotografía documental sobre crema se ve
+   sucia, porque el crema le mete un velo cálido y le baja el contraste. Sobre
+   gris oscuro respira.
+
+   Aquí no se pinta nada: se cambian las cinco variables y el resto de la
+   sección —los titulares, el cuerpo, la capitular, el pie de foto, los
+   botones— las sigue leyendo como siempre. Esa es la razón de que todo esto
+   estuviera escrito con `--ink` y `--paper` y no con colores a pelo.
+
+     --ink        crema y no blanco puro: es texto con remates y de leer, y el
+                  blanco puro sobre gris oscuro deslumbra en una lectura larga
+     --ink-soft   el cuerpo del texto. Es el gris cálido de siempre, dado la
+                  vuelta: sobre crema era #6b6154 y aquí es su reflejo
+     --paper-deep el hueco de la foto mientras carga, un peldaño sobre el fondo
+   */
+.muro {
+  --paper: var(--fondo);
+  --paper-deep: #383838;
+  --paper-edge: #606060;
+  --ink: #f2ece1;
+  --ink-soft: #c4bcb0;
+
+  /* Y los cinco acentos, levantados. Son los de la paleta cálida, pensados
+     para leerse SOBRE crema; sobre gris oscuro el ciruela y el pizarra se
+     apagaban justo donde más se ven —la capitular de tres líneas y el
+     «SEGUIR» del pie—. Mismo color de cada tema, más claro. */
+  --clay: #e08a63;
+  --ochre: #e0b774;
+  --sage: #a3b58f;
+  --plum: #b295ac;
+  --slate: #8fa8b6;
+}
+
 /* Nada de negro alrededor. El muro y su carril venian del modelo oscuro y
    asomaban por los bordes al arrastrar y en las esquinas redondeadas del
-   telefono. Mientras se lee, todo lo que hay detras es el mismo beige. */
+   telefono. Mientras se lee, todo lo que hay detras es el mismo fondo. */
 .muro,
 .muro-pase { background: var(--paper); color: var(--ink); }
 
@@ -6419,12 +6493,12 @@ button {
      #222 exacto, la superficie de las pastillas #383838 y el filete que las
      dibuja #606060. El anterior, #11130f, era casi negro y hacía que las
      cubiertas flotaran en un agujero. */
-  --paper: #222222;
+  --paper: var(--fondo);
   --paper-deep: #383838;
   --paper-edge: #606060;
   --ink: #ffffff;
   --ink-soft: #7a7a7a;
-  --night: #222222;
+  --night: var(--fondo);
   /* En la captura el margen lateral son 32 píxeles de 750: 16 puntos. */
   --shell-pad: 16px;
 }
