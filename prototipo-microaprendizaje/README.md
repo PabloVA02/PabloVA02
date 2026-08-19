@@ -22,8 +22,34 @@ React 19 · TypeScript · Vite · Framer Motion
 
 ## Verlo sin instalar nada
 
-Abre **`demo.html`** en el navegador. Es la app entera empaquetada en un solo
-fichero, dentro de un marco de móvil. No necesita servidor ni conexión.
+Abre **`movil.html`** en el navegador o en el móvil. Es la app entera —los
+doscientos resúmenes y las fotografías de los shorts— empaquetada en un solo
+fichero dentro de un marco de teléfono. No necesita servidor ni conexión.
+
+**SE REHACE SIEMPRE QUE SE TOCA LA APP.** Es petición de Pablo y es lo único
+que él ve: un cambio que no está en `movil.html` no existe. Son dos órdenes,
+y con el caché de fotos lleno tardan un par de minutos:
+
+```bash
+npx vite build --config vite.uno.config.mjs
+node scripts/orden-fotos.mjs 760 > /tmp/orden-fotos.json
+node scripts/movil.mjs --dist dist-uno --lista /tmp/orden-fotos.json \
+     --ancho 240 --calidad 0.55 --tope 4
+```
+
+Y luego se le pasa el fichero.
+
+`--dist dist-uno` mete los libros DENTRO del paquete. Con `dist-artefacto` van
+en trozos aparte y caben siete megas más de fotos, pero entonces al tocar un
+libro la página falla: no hay de dónde traer el trozo. Un libro que no abre es
+un fallo; una foto que falta sale con su cartel, que es el diseño previsto.
+
+El tope para publicarlo son 16 MB, y de ahí once y pico se los come la app con
+los libros dentro. Lo que sobra es lo que decide `--tope`, y son unas
+cuatrocientas setenta fotografías de las novecientas cincuenta y cinco.
+
+También está **`demo.html`**, más viejo y sin fotos empotradas: se ve entero
+solo con conexión.
 
 ## Arrancar en desarrollo
 

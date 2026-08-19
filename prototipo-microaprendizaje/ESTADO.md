@@ -73,6 +73,28 @@ primer short de cada fichero, en el orden en que están listados.
 eso existe `fotos-al-vuelo.mjs`, que las baja con curl y se las entrega. Sin
 él, las capturas salen con el cartel de respaldo en vez de la foto.
 
+## AL TERMINAR CUALQUIER CAMBIO: rehacer el simulador
+
+Pablo lo pidió así de claro: «actualízamelo en el artefacto que estamos usando
+para que pueda verlo, haz eso siempre que añadas algo». `movil.html` es lo
+único que él ve, así que un cambio que no esté ahí no existe todavía.
+
+Las órdenes exactas están en el README, en «Verlo sin instalar nada». Con el
+caché de fotos lleno —`fotos-cache/`, que ya no vive en `/tmp` justamente por
+esto— tardan un par de minutos. Luego se le pasa el fichero.
+
+## OJO: el contenedor puede arrancar con el repo atrasado
+
+Ha pasado tres veces en un mismo día: la copia de trabajo aparece en un commit
+de hace semanas, con el trabajo reciente solo en el remoto. **Antes de tocar
+nada**, `git log --oneline -1` y comparar con
+`git ls-remote origin refs/heads/<rama>`. Si no coinciden:
+
+    git fetch origin <rama> && git merge --ff-only origin/<rama>
+
+Los ficheros sin seguimiento sobreviven, así que lo escrito en la sesión no se
+pierde; lo que se pierde es el tiempo de descubrirlo a la mitad.
+
 ## Lo que está cerrado y no se toca
 
 - `DISENO.md` — la pantalla de lectura. Ojo a la lista de **lo que NO se
