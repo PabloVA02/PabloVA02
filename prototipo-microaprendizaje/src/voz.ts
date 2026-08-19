@@ -134,13 +134,27 @@ function enFrases(texto: string): string[] {
   return trozos;
 }
 
+/* Cuánto se tarda en decir un texto, en segundos. Es una estimación y no hace
+   falta que sea mejor: la usa el raíl verde para saber a qué velocidad
+   rellenarse, y se reinicia en cada bloque, así que un error del diez por
+   ciento no se acumula ni se ve.
+
+   El número sale de medir: estas voces sueltan unos catorce caracteres por
+   segundo a velocidad normal, y aquí van al 0,92. Se suma un tercio de segundo
+   por frase, que es lo que dura la pausa entre locuciones. */
+export function segundosDe(texto: string): number {
+  const frases = enFrases(texto).length || 1;
+  return texto.length / (14 * 0.92) + frases * 0.33;
+}
+
 /**
  * Lee una lista de bloques, uno detrás de otro, y va avisando de por cuál va
- * para que la pantalla pueda señalarlo. Devuelve una función para cortar.
+ * —y de cuánto va a durar— para que la pantalla pueda seguirlo. Devuelve una
+ * función para cortar.
  */
 export function lee(
   bloques: string[],
-  { alBloque, alFin }: { alBloque?: (i: number) => void; alFin?: () => void },
+  { alBloque, alFin }: { alBloque?: (i: number, segundos: number) => void; alFin?: () => void },
 ): () => void {
   if (!hayVoz()) {
     alFin?.();
@@ -169,7 +183,7 @@ export function lee(
   void (async () => {
     for (const [i, bloque] of bloques.entries()) {
       if (!vivo) return;
-      alBloque?.(i);
+      alBloque?.(i, segundosDe(bloque));
       for (const frase of enFrases(bloque)) {
         if (!vivo) return;
         await di(frase);

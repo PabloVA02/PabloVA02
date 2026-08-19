@@ -157,6 +157,9 @@ export function Lector({
      audiolibro y no en un botón de leer en alto. */
   const [sonando, setSonando] = useState(audioAlEntrar);
   const [bloqueVivo, setBloqueVivo] = useState(-1);
+  /* Dónde tiene que ponerse el raíl verde y cuánto tarda en llenarse: alto y
+     distancia al principio de la página, medidos del bloque que suena. */
+  const [rail, setRail] = useState<{ y: number; alto: number; seg: number } | null>(null);
   const [voz, setVoz] = useState<string | null>(() => mejorVoz()?.name ?? null);
   const [puedeHablar, setPuedeHablar] = useState(hayVocesInstaladas);
 
@@ -172,12 +175,44 @@ export function Lector({
     [],
   );
 
+  /* El raíl se mide del DOM y no se calcula: la altura de un párrafo depende
+     de dónde parta la línea, y eso solo lo sabe el navegador. Se mide después
+     de pintar, y por eso va en un efecto y no en el propio pintado.
+
+     Y de paso se lleva el bloque a la vista, que es la otra mitad de seguir
+     el texto: si la voz va por un párrafo que se quedó abajo, el raíl no
+     sirve de nada. Solo se desplaza cuando el bloque NO se ve entero, para no
+     pelearse con quien esté leyendo por su cuenta más adelante. */
+  useEffect(() => {
+    if (bloqueVivo < 0) {
+      setRail(null);
+      return;
+    }
+    const pagina = document.querySelector<HTMLElement>(".lee-pagina");
+    const bloque = pagina?.querySelectorAll<HTMLElement>(".lee-bloque")[bloqueVivo];
+    if (!pagina || !bloque) return;
+    setRail((antes) => ({
+      y: bloque.offsetTop,
+      alto: bloque.offsetHeight,
+      seg: antes?.seg ?? 0,
+    }));
+    const caja = bloque.getBoundingClientRect();
+    const scroll = document.querySelector<HTMLElement>(".lee-scroll");
+    const marco = scroll?.getBoundingClientRect();
+    if (marco && (caja.top < marco.top + 8 || caja.bottom > marco.bottom - 8)) {
+      bloque.scrollIntoView({ block: "center", behavior: "smooth" });
+    }
+  }, [bloqueVivo, n]);
+
   useEffect(() => {
     if (!sonando || !hay || !puedeHablar) return;
     const bloques = paginas[n].bloques.map(textoDe).filter(Boolean);
     const empezo = Date.now();
     const corta = lee(bloques, {
-      alBloque: setBloqueVivo,
+      alBloque: (k, seg) => {
+        setBloqueVivo(k);
+        setRail((antes) => (antes ? { ...antes, seg } : { y: 0, alto: 0, seg }));
+      },
       alFin: () => {
         setBloqueVivo(-1);
         /* Una página son doscientas sesenta palabras: leerlas en alto no baja
@@ -234,6 +269,24 @@ export function Lector({
             es un modo de fallo caro para lo poco que aporta. */}
         {hay ? (
           <article key={n} className="lee-pagina">
+            {/* El raíl verde. Va DENTRO de la página, así que se desplaza con
+                el texto y no hay que recolocarlo al hacer scroll. La barra de
+                dentro se llena en el tiempo que se tarda en decir el bloque,
+                que lo dice `segundosDe()`; en cuanto salta al siguiente, se
+                vacía de golpe —transición cero— y vuelve a empezar. */}
+            {rail && (
+              <span
+                className="lee-hilo"
+                style={{ top: rail.y, height: rail.alto }}
+                aria-hidden
+              >
+                <span
+                  className="lee-hilo-lleno"
+                  style={{ ["--dur" as string]: `${rail.seg}s` }}
+                  key={`${n}-${bloqueVivo}`}
+                />
+              </span>
+            )}
             {paginas[n].bloques.map((b, k) => (
               <div key={k} className="lee-bloque" data-vivo={sonando && k === bloqueVivo}>
                 <PintaBloque b={b} />
