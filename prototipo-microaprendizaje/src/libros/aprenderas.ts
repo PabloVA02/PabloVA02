@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "cerebro-buda":
+    "Tu cerebro registra lo malo mucho mejor que lo bueno, y casi todo el sufrimiento lo fabricas después del golpe. El libro traduce prácticas budistas en ejercicios cortos con una explicación fisiológica.",
+
   "gen-egoista":
     "El libro que explica de dónde sale la generosidad en un mundo sin buenas intenciones. Su tesis es que la selección natural actúa sobre los genes, no sobre los individuos ni sobre las especies.",
 

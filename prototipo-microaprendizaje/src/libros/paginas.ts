@@ -13757,7 +13757,264 @@ const GEN_EGOISTA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El cerebro de Buda, en ocho páginas.
+
+   Breve. Seis argumentos independientes y una sola tesis debajo.
+
+   Este sale de la captura de Headway del 21 de agosto —treinta pantallas,
+   diez páginas—, y se ha escrito CONTRA ella tanto como a partir de ella.
+   Lo que se copia: el titular que afirma, la analogía doméstica, el dato
+   curioso, la lista con entradilla, la cita con autor. Lo que no: sus
+   tres «la investigación demuestra que» sin decir cuál, sus imperativos
+   de crecimiento personal, sus titulares de dos frases con «debes», y
+   sobre todo su conclusión, que no dice en ningún momento dónde falla el
+   libro. La nuestra sí, y aquí hay bastante que decir.
+
+   Segunda persona, por la regla 4.7: es un libro práctico y de ejercicios.
+
+   Lo que casi nadie cuenta y aquí sí está: que el cerebro triúnico que
+   usa el libro está descartado; que la cifra de cien mil millones de
+   neuronas se corrigió el mismo año en que se publicó; y que la
+   investigación sobre meditación pasó su propia crisis en 2017.
+   -------------------------------------------------------------------------- */
+
+const CEREBRO_BUDA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "El cerebro guarda lo malo con velcro y lo bueno con teflón" },
+      {
+        b: "texto",
+        texto:
+          "Piensa en el último año. Es probable que recuerdes con detalle una discusión, una humillación o un susto, y que en cambio se te hayan borrado veinte tardes agradables. No es pesimismo ni mala memoria: es cómo está montado el aparato. Un antepasado que se olvidaba de dónde había visto un león dejaba menos descendencia que otro que se olvidaba de dónde había comido bien, así que la evolución afinó mucho más el registro de lo que sale mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Rick Hanson, neuropsicólogo, y Richard Mendius, neurólogo, lo resumieron en una imagen que se ha quedado: para las experiencias negativas tu cerebro es velcro, y para las positivas, teflón. Lo malo se engancha a la primera y lo bueno resbala. Y de ahí sale la propuesta del libro, que es lo contrario de la resignación: si el cerebro se puede montar así, se puede desmontar a propósito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro es de 2009 y mezcla dos cosas que hasta entonces circulaban por separado: las prácticas budistas de atención, con dos mil quinientos años de rodaje, y lo que la neurología sabía sobre cómo cambia un cerebro con el uso. No pide creer en nada. Lo que propone son ejercicios y una explicación de por qué funcionarían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren su argumento: por qué lo que se repite se graba, por qué casi todo el sufrimiento te lo fabricas después del golpe, cómo se instala una experiencia buena a propósito, por qué relajarse es una operación física y no una actitud, qué es la ecuanimidad y por qué la empatía se entrena.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo malo se engancha a la primera y lo bueno resbala: cualquier cosa que quieras conservar hay que sujetarla a mano.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que se repite se graba, y por eso la práctica cambia el órgano" },
+      {
+        b: "texto",
+        texto:
+          "La idea que sostiene el libro entero cabe en una frase de laboratorio: las neuronas que se activan juntas terminan conectándose entre sí. Cada vez que dos cosas ocurren a la vez en tu cabeza —una situación y una reacción, una cara y un miedo—, la conexión entre esos circuitos se refuerza un poco. Repetido mil veces, deja de ser una reacción y pasa a ser tu carácter.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso funciona en las dos direcciones, y ahí está lo aprovechable. Si ensayas cada día la impaciencia en un atasco, estás entrenando la impaciencia con la misma seriedad con la que un pianista ensaya una escala. Y si dedicas unos minutos a un estado mental concreto —calma, gratitud, atención—, estás usando el mismo mecanismo a favor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir hasta dónde llega la prueba, porque el libro es más entusiasta que los datos. Que la práctica repetida cambia el cerebro está fuera de discusión: se ve en los taxistas de Londres, cuyo hipocampo crece con los años de callejero. Que unos minutos de meditación al día produzcan cambios estructurales medibles es una afirmación más débil, sostenida en 2009 por estudios pequeños que después han dado problemas al repetirse. Y funciona también al revés: lo que se deja de usar se afloja. Un idioma que no hablas desde hace veinte años no se ha borrado, pero cuesta arrancarlo, porque las conexiones que lo sostenían se han ido debilitando a favor de otras.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un estado mental repetido a diario deja de ser un estado y se convierte en un rasgo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El primer dardo lo lanza el mundo; el segundo te lo lanzas tú" },
+      {
+        b: "texto",
+        texto:
+          "Es la mejor idea del libro y tiene veinticinco siglos. Te golpeas el pie con una silla: eso duele, es inevitable, y el libro lo llama el primer dardo. Los primeros dardos son las cosas que pasan: una enfermedad, una factura, una llamada que no llega. Mientras estés vivo van a seguir llegando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El segundo dardo es lo que haces con el primero. Te enfadas con quien dejó la silla ahí, te acuerdas de que siempre te pasa lo mismo, decides que es una señal de cómo te va la vida, y a los diez minutos el pie ya no duele pero tú sigues furioso. Y la parte que más incomoda es esta: la mayoría de los segundos dardos se disparan sin ningún primer dardo delante. Una conversación imaginaria, una respuesta que aún no ha llegado, un ridículo de hace cuatro años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay maquinaria concreta, y merece la pena conocerla porque explica por qué te dura tanto. La amígdala da la alarma, el hipotálamo pone en marcha la hipófisis y las glándulas suprarrenales sueltan adrenalina y cortisol: el mismo equipo que preparaba a un antepasado para correr treinta segundos. El problema es que un segundo dardo mental sostiene esa descarga durante horas, y el cortisol mantenido a la larga estropea cosas: el sueño, la digestión, la memoria.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dolor lo pone el mundo; el sufrimiento lo pones casi siempre tú, y por eso ahí sí se puede intervenir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una experiencia buena no se queda sola: hay que sujetarla veinte segundos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Si el cerebro es teflón para lo bueno, no basta con que te pasen cosas buenas: tienen que quedarse. El libro lo llama absorber lo bueno y lo convierte en un ejercicio de tres pasos que se hace en menos de un minuto, varias veces al día, sin sentarse en ninguna postura ni comprar nada.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Convertir el hecho en experiencia", texto: "no basta con registrar que ha salido bien; hay que darse cuenta de que sienta bien. La mayoría de las cosas buenas del día pasan como un dato administrativo." },
+          { fuerte: "Sostenerlo", texto: "de diez a treinta segundos en la cabeza, notándolo en el cuerpo. Ese es el tiempo mínimo para que un episodio pase de la memoria de trabajo a la duradera." },
+          { fuerte: "Dejar que entre", texto: "imaginarlo bajando y ocupando sitio, como agua que empapa. La imagen es tonta y funciona: mantiene la atención puesta el tiempo suficiente." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El sentido no es engañarse ni fingir que todo va bien. Es compensar una asimetría real: las experiencias desagradables se archivan solas y las agradables necesitan que alguien las sujete. Hanson desarrolló después este ejercicio en otro libro, de 2013, hasta convertirlo en su método más conocido. El tiempo importa porque hay dos velocidades: lo desagradable entra por una vía rápida que no pide permiso, y lo agradable por otra que necesita atención sostenida. Veinte segundos es el peaje de esa segunda vía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que te pase algo bueno no deja huella; lo que deja huella es quedarte veinte segundos dentro de ello.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Relajarse no es una actitud: es una maniobra física con interruptor propio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tu sistema nervioso tiene dos ramas que se turnan. La simpática es el acelerador: sube el pulso, tensa los músculos, corta la digestión y te prepara para pelear o correr. La parasimpática es el freno: baja las pulsaciones, afloja, reparte la energía hacia el mantenimiento. Las dos son necesarias, y el problema de la vida moderna es que una está encendida a deshora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La buena noticia es que al freno se llega desde fuera, con el cuerpo, sin necesidad de convencerse de nada. La palanca más directa es la respiración: al inspirar se acelera el corazón y al espirar se frena, así que alargar la espiración por encima de la inspiración enciende la rama parasimpática de manera mecánica, en menos de un minuto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las otras palancas del libro son igual de concretas y se pueden probar mientras lees. Aflojar la lengua dentro de la boca, la mandíbula y el contorno de los ojos, que es donde el cuerpo guarda la tensión sin avisar. Recorrer el cuerpo por partes, de los pies a la cabeza, notando cada una. Tocar algo tibio. El razonamiento es de ida y vuelta: el cerebro lee los músculos, y unos músculos sueltos le informan de que no hay ningún peligro alrededor. Y se puede comprobar sin creer en nada: cuenta cuatro al coger aire y seis al soltarlo durante un minuto, y mírate el pulso antes y después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No hace falta calmarse para relajar el cuerpo: se relaja el cuerpo y la cabeza se entera después.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La ecuanimidad no es dar igual: es un hueco entre lo que pasa y lo que haces",
+      },
+      {
+        b: "texto",
+        texto:
+          "La palabra viene del latín y significa mente pareja, y suele entenderse mal. No consiste en volverse frío, ni en dejar de disfrutar, ni en aceptar cualquier cosa. Consiste en meter un espacio entre el estímulo y la reacción: notar que algo te ha gustado o te ha molestado, y que esa etiqueta no arrastre automáticamente a la conducta de siempre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que hay que interrumpir es viejísimo y muy rápido. Tu cerebro le pone a cada cosa un tono en milisegundos —agradable, desagradable o neutro— y a continuación te empuja a acercarte, a apartarte o a desentenderte. Es eficaz para no comer setas venenosas y una calamidad para leer un correo del trabajo. La ecuanimidad es el disyuntor de esa cadena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una parte que sirve incluso sin practicar nada: casi todo lo que te empuja es efímero. Las recompensas duran menos de lo que prometen y los disgustos también se pasan, así que buena parte del ansia con la que persigues una cosa y evitas otra está calculando mal el tiempo. Recordarlo en el momento no es resignación: es corregir una previsión mala. La prueba de que no es indiferencia está en el propio libro: el ecuánime no disfruta menos, disfruta hasta el final, porque no se pasa la mitad del rato calculando cuándo se va a acabar.",
+      },
+      { b: "cita", frase: "Con ecuanimidad, puedes afrontar las situaciones con calma y razón, manteniendo tu felicidad interior.", autor: "Dalái lama" },
+      {
+        b: "idea",
+        texto:
+          "Ser ecuánime no es sentir menos: es que lo que sientes deje de decidir por ti.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La empatía no es un don que se tiene: es una habilidad con pasos" },
+      {
+        b: "texto",
+        texto:
+          "El cerebro humano se hizo grande, entre otras cosas, para llevar la cuenta de otras personas: quién ayudó, quién falló, qué le pasa hoy a este. De ahí que casi todo lo que más te afecta —la vergüenza, la exclusión, el reconocimiento— sea social, y que un desprecio active zonas parecidas a las del dolor físico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro trata la empatía como se trata un gesto deportivo: se descompone y se ensaya. Primero, la intención deliberada de entender a la persona que tienes delante, que no es lo mismo que esperar tu turno para hablar. Después, aflojar el cuerpo, porque un cuerpo en tensión está ocupado defendiéndose. Después, mirar de verdad: la postura, las manos, el tono, lo que hace mientras habla. Y comprobar en voz alta si has entendido bien, con preguntas que no sean una discusión disfrazada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con una advertencia útil: entender a alguien no es darle la razón. Se puede empatizar con quien piensa lo contrario y seguir sin estar de acuerdo, y de hecho es en las discusiones donde la empatía se cae primero y donde más falta hace. En las relaciones largas ocurre lo mismo: se deja de mirar al otro porque se cree que ya se sabe cómo es. Y añade una asimetría cómoda: decir en voz alta lo que uno necesita hace que la gente de alrededor sea más capaz de darlo, porque adivinar se le da mal a casi todo el mundo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Entender a alguien no es darle la razón, y confundir las dos cosas es lo que hace que se deje de escuchar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta no es la neurociencia, es la traducción. Coge prácticas contemplativas que llevaban siglos explicándose con vocabulario religioso y las cuenta en el idioma de cualquiera, con un porqué fisiológico y sin pedir que te creas nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta no es la neurociencia, es la traducción. Coge prácticas contemplativas que llevaban siglos explicándose con vocabulario religioso y las cuenta en el idioma de cualquiera, con un porqué fisiológico y sin pedir que te creas nada. Por eso funciona igual para quien no tiene el menor interés en el budismo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Absorber lo bueno no es optimismo: es compensar a mano una asimetría que el cerebro trae de fábrica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después también cuenta. Buena parte de los estudios de meditación que respaldaban estas páginas eran pequeños y sin grupo de control, y en 2017 una revisión firmada por quince especialistas —titulada, sin rodeos, «cuidado con la exageración»— puso en cuestión el estado entero de esa literatura. Los ejercicios siguen siendo baratos, inofensivos y probablemente útiles; los porcentajes de mejora que circulan con ellos, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después también cuenta. Buena parte de los estudios de meditación que respaldaban estas páginas eran pequeños, sin grupo de control y con investigadores entusiastas, y en 2017 una revisión firmada por quince especialistas —titulada, sin rodeos, «cuidado con la exageración»— puso en cuestión el estado entero de esa literatura. Los ejercicios siguen siendo baratos, inofensivos y probablemente útiles; las cifras de porcentajes de mejora que circulan con ellos, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y una advertencia de tono. Un libro que enseña a fabricarse estados de calma se lee muy mal en mitad de una desgracia de verdad, y la frontera entre entrenar la atención y exigirse estar bien es fina. El propio libro la cruza alguna vez, cuando presenta la felicidad como una elección diaria. No siempre lo es, y decirlo así le carga la culpa al que no puede.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "cerebro-buda": CEREBRO_BUDA,
   "gen-egoista": GEN_EGOISTA,
   "rebelion-granja": REBELION_GRANJA,
   "semana-4-horas": SEMANA_4_HORAS,

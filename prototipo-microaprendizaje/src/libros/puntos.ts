@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "cerebro-buda": [
+    "por qué lo malo se te queda y lo bueno resbala",
+    "cuál es el dardo que te lanzas tú",
+    "cómo sujetar una experiencia buena veinte segundos",
+    "qué palanca física apaga la alarma del cuerpo",
+    "qué parte de la neurociencia del libro ya no se sostiene",
+  ],
+
   "gen-egoista": [
     "por qué el cuerpo es solo el vehículo del gen",
     "por qué morirías por dos hermanos y no por uno",
