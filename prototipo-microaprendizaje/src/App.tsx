@@ -9,6 +9,7 @@ import { DetalleLibro, Inicio, LIBROS, MiBiblioteca, type Libro } from "./Biblio
 import { Onboarding } from "./Onboarding";
 import { MuroShorts } from "./Shorts";
 import { Explorar } from "./Explorar";
+import { desbloquea } from "./voz";
 import { Pago } from "./Pago";
 import { Checkout } from "./Checkout";
 import { Perfil } from "./Perfil";
@@ -127,10 +128,13 @@ export default function App() {
      cero y pedir el texto— es idéntico, y estaba escrito dentro del `onClick`
      de «Leer», así que duplicarlo para «Escuchar» era garantizar que un día
      se tocara uno y no el otro. */
-  function abrirLector(conVozPuesta: boolean) {
+  /* `cual` existe por «El libro de hoy»: desde el inicio se abre en voz un
+     libro que todavía no es el del estado, y `setLibro` no ha corrido cuando
+     esto se ejecuta. Sin el parámetro se cargaba el resumen del anterior. */
+  function abrirLector(conVozPuesta: boolean, cual: Libro = libro) {
     setCompletados(0);
     arranque.current = Date.now();
-    void cargarResumen(libro.id).then(setResumen);
+    void cargarResumen(cual.id).then(setResumen);
     setConVoz(conVozPuesta);
     /* Derecho a leer, siempre. El mapa de capítulos era una parada de más
        entre «quiero este libro» y el texto. */
@@ -242,6 +246,11 @@ export default function App() {
                 setPantalla("detalle");
               }}
               onPerfil={() => setPantalla("perfil")}
+              onEscuchar={(l) => {
+                setLibro(l);
+                desbloquea();
+                abrirLector(true, l);
+              }}
               onOferta={() => setPantalla("oferta")}
               guardados={guardados}
               onGuardar={alternarGuardado}

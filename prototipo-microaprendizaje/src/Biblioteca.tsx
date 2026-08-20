@@ -19,6 +19,7 @@ import { PUNTOS } from "./libros/puntos";
 import { desbloquea } from "./voz";
 import { SUBTITULOS } from "./libros/subtitulos";
 import { PortadaLibro } from "./PortadaLibro";
+import { LibroDelDia, libroDeHoy } from "./LibroDelDia";
 import type { Foto } from "./shorts";
 
 /* ==========================================================================
@@ -523,6 +524,7 @@ export function Inicio({
   racha,
   onAbrir,
   onPerfil,
+  onEscuchar,
   onOferta,
   intereses = [],
   guardados,
@@ -531,6 +533,8 @@ export function Inicio({
   racha: number;
   onAbrir: (libro: Libro) => void;
   onPerfil: () => void;
+  /** Abre el libro directamente en voz alta. Lo usa «El libro de hoy». */
+  onEscuchar?: (libro: Libro) => void;
   /** El banner de lectura gratuita. Si no se pasa, el banner no sale. */
   onOferta?: () => void;
   /** Lo que marcó en la introducción. Ordena la estantería, no la recorta. */
@@ -671,6 +675,19 @@ export function Inicio({
             />
           </span>
         </motion.button>
+
+        {/* El libro de hoy, justo debajo de la pastilla de «seguir leyendo»
+            y antes que todo lo demás. Es lo único de la pantalla que cambia
+            cada día, así que es lo que da un motivo para abrir la app un
+            martes cualquiera. La pastilla de arriba va antes porque es de una
+            línea y porque quien tiene algo a medias viene a eso. Ver
+            `LibroDelDia.tsx`. */}
+        <LibroDelDia
+          guardado={guardados?.has(libroDeHoy()?.id ?? "")}
+          onGuardar={onGuardar}
+          onLeer={onAbrir}
+          onEscuchar={onEscuchar}
+        />
 
         {/* La lectura diaria gratuita, lo primero de la pantalla. Medido
             sobre la captura de Pablo, que va a 750 × 1624 —o sea la pantalla

@@ -7934,3 +7934,270 @@ button {
 .ver-todos strong { font-size: 16px; font-weight: 700; letter-spacing: -0.015em; }
 .ver-todos-sub { font-size: 13.5px; color: #9a9a9a; }
 .ver-todos-flecha { flex: none; color: #6ddc89; font-size: 19px; line-height: 1; }
+
+/* ==========================================================================
+   EL LIBRO DE HOY
+
+   La tarjeta que abre el inicio. Sale de la captura de Headway del 21 de
+   agosto y va deliberadamente al revés: la suya es oscura sobre oscuro y
+   esta es de papel sobre el gris #222 de la estantería. Es el único objeto
+   claro de la pantalla, así que es lo primero que se mira, y adelanta la
+   temperatura de la lectura, que también es crema.
+
+   Medidas, todas contra la referencia a 750 × 1624 —o sea medio punto por
+   píxel— y ajustadas a nuestro ancho de 407:
+
+     tarjeta      343 de ancho (el de la pantalla menos los dos márgenes de
+                  16), radio 22, que es el de las pastillas de la app
+     cubierta     104 × 156, el 2:3 exacto de los dibujos de Pablo
+     título       21/1.16, en la serifa de los titulares
+     botones      46 de alto, radio 999
+   ========================================================================== */
+.hoy {
+  /* La paleta se le da la vuelta ENTERA dentro de la tarjeta. Dentro de
+     `.inicio`, `--paper` vale #222 —el gris de la estantería—, así que heredar
+     esas variables pintaba la tarjeta oscura sobre oscuro, que es justamente
+     lo que se quería evitar. Aquí se reponen los cuatro tonos de la lectura,
+     que son los de `:root`, y a partir de esta línea la tarjeta es papel. */
+  --paper: #f2ece1;
+  --paper-deep: #e7ddcc;
+  --ink: #2e2822;
+  --ink-soft: #6b6154;
+
+  position: relative;
+  width: calc(100% - var(--shell-pad) * 2);
+  margin: 16px var(--shell-pad) 0;
+  padding: 15px 16px 16px;
+  border-radius: 22px;
+  background: var(--paper, #f2ece1);
+  color: var(--ink);
+  overflow: hidden;
+  isolation: isolate;
+  /* Dos sombras: una corta y dura que la despega del fondo, y una larga y
+     suave que la posa. Sin la segunda parece pegada con celo. */
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.28),
+    0 22px 44px -18px rgba(0, 0, 0, 0.7);
+}
+/* El grano del resto de la app, para que la tarjeta sea del mismo material
+   que la pantalla de lectura y no un rectángulo plano. */
+.hoy::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  opacity: 0.3;
+  mix-blend-mode: multiply;
+  background-image: radial-gradient(circle at 1px 1px, rgba(110, 96, 76, 0.16) 0.5px, transparent 0.6px);
+  background-size: 4px 4px;
+}
+.hoy-halo {
+  position: absolute;
+  z-index: 0;
+  top: -54px;
+  left: -34px;
+  width: 280px;
+  height: 280px;
+  pointer-events: none;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--acento, #c2704f) 0%, transparent 68%);
+  opacity: 0.7;
+  filter: blur(26px);
+}
+/* Todo por encima del halo. El aviso queda fuera a propósito: es lo único
+   de la tarjeta que va colocado por su cuenta —absoluto, pegado arriba— y
+   esta regla, que pone `relative` a todos los hijos, se lo deshacía y lo
+   soltaba debajo de los botones. */
+.hoy > *:not(.hoy-halo):not(.hoy-aviso) { position: relative; z-index: 2; }
+
+/* --- La ceja: de qué va esto y cuánto queda ----------------------------- */
+.hoy-ceja {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.hoy-derecha { display: flex; align-items: center; gap: 8px; }
+.hoy-rotulo {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  /* El acento, rebajado hacia la tinta por el mismo motivo que el botón: el
+     ocre puro sobre crema da 1,9 de contraste y una ceja en versalitas a ese
+     contraste no se lee, se adivina. Al 62 % con la tinta pasa de 4,5 y sigue
+     siendo, sin duda, el color del libro. */
+  color: color-mix(in srgb, var(--acento, #c2704f) 62%, #2e2822);
+}
+.hoy-reloj {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 9px 4px 7px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+  color: var(--ink-soft);
+  font-size: 11.5px;
+  font-weight: 640;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.hoy-reloj svg { width: 12px; height: 12px; }
+
+/* --- El cuerpo: cubierta a la izquierda y texto al lado ------------------ */
+/* La referencia centra la cubierta y deja el título debajo, que gasta media
+   tarjeta en aire. En horizontal cabe lo mismo en 100 puntos menos de alto y
+   el título puede ocupar dos líneas sin empujar los botones fuera. */
+.hoy-cuerpo {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 13px;
+}
+.hoy-portada {
+  flex: none;
+  display: block;
+  padding: 0;
+  border: 0;
+  background: none;
+  /* Tres grados y medio. Lo justo para que se lea como un objeto puesto
+     encima y no como una imagen incrustada; a partir de cinco ya parece que
+     se cae. */
+  transform: rotate(-3.5deg);
+  transform-origin: 60% 90%;
+  filter: drop-shadow(0 10px 18px rgba(46, 40, 34, 0.34));
+}
+.hoy-texto { min-width: 0; padding-top: 2px; }
+.hoy-titulo {
+  margin: 0;
+  font-family: var(--titular);
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.012em;
+  text-wrap: balance;
+}
+.hoy-autor {
+  margin: 5px 0 0;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+.hoy-gancho {
+  margin: 9px 0 0;
+  font-family: var(--serifa);
+  font-size: 13.5px;
+  line-height: 1.42;
+  color: color-mix(in srgb, var(--ink) 82%, transparent);
+  /* Tres líneas. Los «de qué trata» miden cuarenta palabras y a este ancho
+     caen en tres justas; la cuarta empujaría los botones. */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hoy-medida {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 10px 0 0;
+  font-size: 11.5px;
+  font-weight: 640;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+.hoy-punto { opacity: 0.5; }
+
+.hoy-guardar {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 8%, transparent);
+  color: var(--ink-soft);
+}
+.hoy-guardar[data-on="true"] {
+  background: color-mix(in srgb, var(--acento) 20%, transparent);
+  color: var(--acento);
+}
+.hoy-guardar svg { width: 17px; height: 17px; }
+
+/* --- Los dos botones ----------------------------------------------------- */
+/* Mismo reparto que la referencia —el secundario estrecho y el primario
+   ancho—, y el primario en el color del libro en vez del azul de la marca.
+   El texto del primario es el crema del papel, que sobre los cinco acentos
+   pasa de sobra el contraste de un botón. */
+.hoy-botones {
+  display: flex;
+  gap: 9px;
+  margin-top: 15px;
+}
+.hoy-leer,
+.hoy-escuchar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 46px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+.hoy-leer {
+  flex: 0 0 38%;
+  border: 1.5px solid color-mix(in srgb, var(--ink) 18%, transparent);
+  color: var(--ink);
+}
+/* El acento, rebajado hacia la tinta. Los cinco colores de la paleta están
+   pensados para llenar una portada, no para llevar texto encima: el ocre con
+   crema da 3,1 de contraste y el barro 3,4, o sea por debajo de lo que
+   necesita un botón. Mezclados al 72 % con la tinta pasan todos de 4,5 sin
+   dejar de reconocerse —el barro sigue siendo barro— y el botón deja de
+   parecer un rótulo de rebajas. */
+.hoy-escuchar {
+  flex: 1;
+  background: color-mix(in srgb, var(--acento, #c2704f) 72%, #2e2822);
+  color: var(--paper);
+  box-shadow: 0 8px 18px -8px color-mix(in srgb, var(--acento) 60%, transparent);
+}
+.hoy-leer svg,
+.hoy-escuchar svg { width: 17px; height: 17px; }
+
+/* --- El aviso de guardado ------------------------------------------------ */
+/* Dentro de la tarjeta y no flotando sobre la pantalla: lo que se ha
+   guardado es ESTE libro, y el aviso tiene que salir de donde está el libro.
+   Tapa la ceja, que es la línea que menos falta hace mientras dura. */
+.hoy-aviso {
+  position: absolute;
+  z-index: 4;
+  top: 9px;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+  padding: 9px 12px;
+  border-radius: 13px;
+  background: var(--ink);
+  color: var(--paper, #f2ece1);
+  font-size: 13px;
+  font-weight: 640;
+  box-shadow: 0 10px 22px -10px rgba(0, 0, 0, 0.8);
+}
+.hoy-aviso svg { width: 15px; height: 15px; }
+/* La caja de la cubierta: 2:3 y no cuadrada. `PortadaLibro` pinta contra
+   `--u`, así que el marco es quien decide el tamaño real. */
+.hoy-marco {
+  display: block;
+  width: 104px;
+  height: 156px;
+  border-radius: 9px;
+  overflow: hidden;
+  background: var(--paper-deep, #e7ddcc);
+}
+.hoy-marco > * { width: 100%; height: 100%; }
