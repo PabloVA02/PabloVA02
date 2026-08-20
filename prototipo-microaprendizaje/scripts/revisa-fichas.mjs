@@ -16,6 +16,10 @@
  * descripción `alt` es lo único de ese fichero escrito a mano —el resto lo
  * genera `mete-cubiertas.mjs`— y por eso es lo que hay que vigilar.
  *
+ * LOS GÉNEROS Y LAS TENDENCIAS son listas de identificadores escritas a mano
+ * en `generos.ts` y `tendencias.ts`. Una errata ahí no rompe nada —el libro
+ * simplemente no sale en su cajón— y por eso hay que buscarla.
+ *
  * Las reglas de cada campo están en REDACCION.md; esto solo mira si están.
  */
 import { readFileSync, existsSync } from "node:fs";
@@ -110,5 +114,44 @@ if (existsSync("src/libros/cubiertas.ts")) {
   );
   problemas += malas;
 }
+
+/* -- Los géneros y las tendencias ------------------------------------------ */
+
+const cat = lee("catalogo.ts");
+const existe = new Set([...cat.matchAll(/\{ id: "([\w-]+)"/g)].map((m) => m[1]));
+
+const gen = lee("generos.ts");
+let rotos = 0;
+for (const bloque of gen.split(/\n  \{\n    id: /).slice(1)) {
+  const id = bloque.match(/^"([\w-]+)"/)?.[1] ?? "?";
+  const lista = bloque.match(/libros: \[([\s\S]*?)\]/)?.[1];
+  if (!lista) continue;
+  for (const [, libro] of lista.matchAll(/"([\w-]+)"/g))
+    if (!existe.has(libro)) {
+      console.log(`  ✗ género ${id}: «${libro}» no está en el catálogo`);
+      rotos++;
+    }
+}
+
+const ten = lee("tendencias.ts");
+const promesas = [...ten.matchAll(/\{ id: "([\w-]+)", promesa: "([^"]+)" \}/g)];
+for (const [, id, promesa] of promesas) {
+  const fallos = [
+    !existe.has(id) && "no está en el catálogo",
+    promesa.split(/\s+/).length > 10 && `promesa de ${promesa.split(/\s+/).length} palabras`,
+    /^[a-záéíóúñ]/.test(promesa) && "promesa en minúscula",
+  ].filter(Boolean);
+  if (fallos.length) {
+    console.log(`  ✗ tendencia ${id}: ${fallos.join(", ")}`);
+    rotos++;
+  }
+}
+
+console.log(
+  rotos
+    ? `\n${rotos} problemas en géneros y tendencias`
+    : `Los géneros y las ${promesas.length} tendencias apuntan a libros que existen.`,
+);
+problemas += rotos;
 
 process.exitCode = problemas ? 1 : 0;

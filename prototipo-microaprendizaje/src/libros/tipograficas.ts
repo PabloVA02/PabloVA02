@@ -61,4 +61,12 @@ export const PORTADAS_TIPO: Record<string, PortadaTipo> = {
   "poder-habitos": { fondo: "#1e4d5c", tinta: "#eff6f7", destaca: "HÁBITOS", acento: "#e8a33d" },
   influencia: { fondo: "#5b1a1a", tinta: "#f8eee2", destaca: "INFLUENCIA", acento: "#e2b04a" },
   flow: { fondo: "#0f4c5c", tinta: "#f1f6f7", destaca: "FLUIR", acento: "#f0a202" },
+
+  /* --- Los tres que faltaban para «Tendencias» --------------------------
+     Los veinte de esa tira van juntos y con la cubierta grande, así que uno
+     con un paisaje prestado en medio se ve enseguida. Estos tres se venden
+     además exactamente así: el título ocupando la cubierta entera. */
+  "pensar-rapido": { fondo: "#e9e4d6", tinta: "#1a1a1a", destaca: "DESPACIO", acento: "#c0392b" },
+  "trabajo-profundo": { fondo: "#101a24", tinta: "#eaf0f4", destaca: "PROFUNDO", acento: "#5fb0d4" },
+  "club-5-manana": { fondo: "#2a1f4d", tinta: "#f3efe4", destaca: "5", acento: "#f2b544" },
 };

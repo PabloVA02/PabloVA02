@@ -5090,6 +5090,7 @@ button {
 
 .cierre,
 .inicio,
+.explorar,
 .detalle,
 .camino,
 .racha,
@@ -6494,6 +6495,7 @@ button {
    ========================================================================== */
 
 .inicio,
+.explorar,
 .detalle {
   /* Los grises salen de la captura, muestreados y no estimados: el fondo es
      #222 exacto, la superficie de las pastillas #383838 y el filete que las
@@ -7653,3 +7655,258 @@ button {
   text-overflow: ellipsis;
 }
 .paso-flecha { flex: none; color: rgba(255, 255, 255, 0.55); transform: rotate(180deg); display: grid; }
+
+/* ==========================================================================
+   EXPLORAR: el buscador, las tendencias y los géneros.
+
+   Sale de las capturas del 20 de agosto —«Explorar» de Headway y «Búsqueda»
+   de Blinkist—. Las dos tienen el mismo esqueleto y aquí se respeta: rótulo
+   grande, caja de búsqueda debajo, y una parrilla de temas que se desplaza a
+   lo ancho en tres filas.
+
+   Dónde se separa de las dos, y por qué:
+
+   · LA CAJA VA SIEMPRE VISIBLE y no detrás de un icono. Es la pantalla a la
+     que se entra a buscar; esconder el buscador en su propia pantalla es lo
+     que hace la biblioteca, donde buscar es la excepción.
+   · LOS ICONOS DE GÉNERO SON DE TRAZO. Los de Headway son emojis de tres
+     colores y a tamaño de pastilla se leen como manchas.
+   · LAS TENDENCIAS VAN ANTES QUE LOS GÉNEROS. Un género es un cajón y hay
+     que saber qué se busca; una promesa se lee y se entra.
+   ========================================================================== */
+
+.explorar {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  color: var(--ink);
+  /* Como la estantería: la pantalla sube por debajo de la barra de estado y
+     se recupera el hueco con relleno, para que el fondo llegue al filo. */
+  margin-top: -46px;
+  padding-top: 46px;
+}
+
+.explorar-cabecera { padding: 6px var(--shell-pad) 0; }
+.explorar-cabecera h1 {
+  margin: 0;
+  font-size: 27px;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+}
+
+/* La caja. En la referencia es una píldora de 44 de alto con la lupa dentro
+   a la izquierda; se respeta y se le quita el filete duro, que sobre este
+   gris marcaba un rectángulo antes de que se leyera el texto. */
+.explorar-caja {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 46px;
+  margin-top: 14px;
+  padding: 0 14px;
+  border: 1px solid #3d3d3d;
+  border-radius: 14px;
+  background: #2c2c2c;
+  transition: border-color 0.16s ease;
+}
+.explorar-caja:focus-within { border-color: #6ddc89; }
+.explorar-lupa { display: grid; place-items: center; color: #8a8a8a; flex: none; }
+.explorar-caja input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  background: none;
+  color: #fff;
+  font: inherit;
+  font-size: 16px;
+}
+.explorar-caja input:focus { outline: none; }
+.explorar-caja input::placeholder { color: #7a7a7a; }
+/* Safari pinta su propia equis en un `type="search"`, y encima de la nuestra
+   quedaban dos pegadas. */
+.explorar-caja input::-webkit-search-cancel-button { display: none; }
+.explorar-limpiar {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  background: #4a4a4a;
+  color: #d8d8d8;
+}
+
+.explorar-cuerpo {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+  /* 84 es la barra de pestañas —64— más aire. Sin esto, la última fila de la
+     parrilla se queda debajo de la barra y parece que no hay más. */
+  padding: 2px 0 84px;
+}
+.explorar-cuerpo::-webkit-scrollbar { display: none; }
+
+.explorar-cuenta {
+  margin: 18px 0 0;
+  padding: 0 var(--shell-pad);
+  font-size: 14px;
+  font-weight: 700;
+  color: #7a7a7a;
+}
+.explorar-nada {
+  margin: 10px 0 0;
+  padding: 0 var(--shell-pad);
+  font-size: 15px;
+  line-height: 1.45;
+  color: #9a9a9a;
+}
+
+/* --- Tendencias --------------------------------------------------------- */
+
+.tendencias { margin-top: 24px; }
+.tend-tira { align-items: flex-start; }
+.tend {
+  flex: none;
+  width: 198px;
+  /* El hueco de la izquierda es para el número, y es la medida exacta de su
+     pastilla: así queda FUERA de la cubierta y no tapa nada. */
+  padding-left: 26px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  scroll-snap-align: start;
+}
+.tend-arte { position: relative; }
+.tend .portada { width: 172px !important; height: 258px !important; border-radius: 8px; }
+
+/* El número, en el canal de la izquierda y a la altura del pie de la
+   cubierta.
+
+   Estuvo encima del dibujo, medio salido por la esquina, y era un error de
+   los que solo se ven montados: la esquina de abajo a la izquierda es donde
+   TODAS las cubiertas ponen el nombre del autor. Tapaba la eme de «Morgan
+   Housel» y la jota de «James Clear». Fuera del dibujo no puede tapar nada,
+   pase lo que pase con las cubiertas que vengan. */
+.tend-numero {
+  position: absolute;
+  left: -26px;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  background: #6ddc89;
+  color: #10301d;
+  font-size: 14px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+/* Del diez en adelante la pastilla se estira hacia dentro del canal en vez
+   de hacia la cubierta. */
+.tend-numero { min-width: 26px; padding: 0 5px; left: auto; right: calc(100% + 8px); }
+
+/* La promesa es lo que se lee: va en blanco y con cuerpo de titular, no de
+   pie de foto. Tres líneas como mucho —a 172 de ancho, diez palabras caben
+   justas— y las que sobren se cortan, porque una cuarta línea desalinea la
+   tira entera. */
+.tend-promesa {
+  margin: 18px 0 0;
+  font-size: 15px;
+  font-weight: 650;
+  line-height: 1.32;
+  letter-spacing: -0.015em;
+  color: #fff;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tend-pie {
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.25;
+  color: #7a7a7a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* --- Los géneros -------------------------------------------------------- */
+
+.generos { margin-top: 30px; }
+
+/* Tres filas que se desplazan a lo ancho, que es el hallazgo de las dos
+   referencias: catorce cajones en el alto de tres, y sin competir con el
+   desplazamiento vertical de la pantalla.
+
+   `grid-auto-flow: column` con las filas fijadas: el navegador reparte, así
+   que añadir un género en `generos.ts` no obliga a tocar nada de aquí. */
+.genero-parrilla {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, auto);
+  grid-auto-columns: max-content;
+  gap: 10px;
+  margin-top: 14px;
+  padding: 0 var(--shell-pad);
+  overflow-x: auto;
+  scrollbar-width: none;
+  scroll-padding-inline: var(--shell-pad);
+}
+.genero-parrilla::-webkit-scrollbar { display: none; }
+
+.genero-pastilla {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 46px;
+  padding: 0 16px 0 13px;
+  border: 1px solid #3d3d3d;
+  border-radius: 13px;
+  background: #2c2c2c;
+  color: #fff;
+  text-align: left;
+  white-space: nowrap;
+  transition: background 0.14s ease, border-color 0.14s ease;
+}
+.genero-pastilla:active { background: #363636; border-color: #565656; }
+/* El icono hereda el color del texto, y por eso al teñir la pastilla se tiñe
+   entero. Va un punto más apagado que la letra para que no compita con ella. */
+.genero-icono { display: grid; place-items: center; color: #6ddc89; flex: none; }
+.genero-nombre { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; }
+
+/* --- Un género abierto -------------------------------------------------- */
+
+.genero-cabecera {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 0 var(--shell-pad);
+}
+.genero-cabecera h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+.genero-cabecera .bloque-sub { padding: 0; margin-top: 3px; color: #7a7a7a; }
+.genero-volver {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  margin-top: 1px;
+  border-radius: 999px;
+  background: #333333;
+  color: #fff;
+}
+.explorar .parrilla { margin-top: 18px; }

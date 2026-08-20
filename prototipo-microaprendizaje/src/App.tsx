@@ -8,6 +8,7 @@ import { Racha, RetoDiario } from "./Racha";
 import { DetalleLibro, Inicio, LIBROS, MiBiblioteca, type Libro } from "./Biblioteca";
 import { Onboarding } from "./Onboarding";
 import { MuroShorts } from "./Shorts";
+import { Explorar } from "./Explorar";
 import { Pago } from "./Pago";
 import { Checkout } from "./Checkout";
 import { Perfil } from "./Perfil";
@@ -19,19 +20,19 @@ import { PAGINAS, paginasDeResumen } from "./libros/paginas";
 import { AvisoRegalo, Oferta } from "./Regalo";
 import { AvisoValoracion } from "./Valoracion";
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
-import { GlyphBiblioteca, GlyphLibros, GlyphRayo } from "./glyphs";
+import { GlyphBiblioteca, GlyphLibros, GlyphLupa, GlyphRayo } from "./glyphs";
 
 type Pantalla =
   | "intro" | "pago" | "inicio" | "detalle" | "lector" | "fin" | "racha" | "reto"
   | "shorts" | "perfil" | "ajustes" | "oferta" | "alta" | "biblioteca"
-  | "anti";
+  | "explorar" | "anti";
 /** Las pantallas raíz: las únicas que enseñan la barra de abajo. */
 /* Los shorts la llevan ahora también. Antes no: la pantalla era la página
    entera y una barra flotando encima le comía sitio al texto. Pablo la quiere
    ahí, y con razón —sin ella, del muro solo se sale volviendo atrás—, así que
    lo que cede es el texto: el pie de la hoja deja sesenta y dos puntos libres
    para que la barra no tape ni el «Seguir» ni la última línea. */
-const CON_BARRA: Pantalla[] = ["inicio", "perfil", "biblioteca", "shorts"];
+const CON_BARRA: Pantalla[] = ["inicio", "perfil", "biblioteca", "shorts", "explorar"];
 
 /** Racha de ejemplo del prototipo. */
 const RACHA = 3;
@@ -51,7 +52,7 @@ function pantallaInicial(): Pantalla {
      que hay que comparar contra la referencia y no se llega a ellas sin pasar
      por la estantería. El libro que abren es el primero del catálogo, que es
      el que ya trae `libro` por defecto. */
-  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes", "detalle", "lector", "biblioteca"];
+  const validas = ["intro", "shorts", "inicio", "perfil", "ajustes", "detalle", "lector", "biblioteca", "explorar"];
   return validas.includes(p ?? "") ? (p as Pantalla) : "intro";
 }
 
@@ -246,6 +247,17 @@ export default function App() {
               onGuardar={alternarGuardado}
             />
           )}
+          {pantalla === "explorar" && (
+            <Explorar
+              key="explorar"
+              onAbrir={(l) => {
+                setLibro(l);
+                setPantalla("detalle");
+              }}
+              guardados={guardados}
+              onGuardar={alternarGuardado}
+            />
+          )}
           {pantalla === "biblioteca" && (
             <MiBiblioteca
               key="biblioteca"
@@ -421,7 +433,15 @@ export default function App() {
 
         <BarraPestanas
           visible={CON_BARRA.includes(pantalla)}
-          activa={pantalla === "shorts" ? "shorts" : pantalla === "biblioteca" ? "biblioteca" : "libros"}
+          activa={
+            pantalla === "shorts"
+              ? "shorts"
+              : pantalla === "explorar"
+                ? "explorar"
+                : pantalla === "biblioteca"
+                  ? "biblioteca"
+                  : "libros"
+          }
           onIr={(t) => setPantalla(t === "libros" ? "inicio" : t)}
         />
       </div>
@@ -433,7 +453,7 @@ export default function App() {
    La barra de pestañas
    ========================================================================== */
 
-type Tab = "libros" | "shorts" | "biblioteca";
+type Tab = "libros" | "shorts" | "explorar" | "biblioteca";
 
 /**
  * Solo aparece en las pantallas raíz: dentro de un libro o de un short
@@ -466,6 +486,10 @@ function BarraPestanas({
   const tabs: { id: Tab; nombre: string; Icono: (p: { tamano?: number }) => ReactElement }[] = [
     { id: "libros", nombre: "Libros", Icono: GlyphLibros },
     { id: "shorts", nombre: "Shorts", Icono: GlyphRayo },
+    /* Explorar va en tercer lugar, como en las dos referencias: es la
+       pantalla a la que se entra a buscar algo, y buscar viene después de
+       mirar lo que te proponen y antes de volver a lo que ya es tuyo. */
+    { id: "explorar", nombre: "Explorar", Icono: GlyphLupa },
     { id: "biblioteca", nombre: "Biblioteca", Icono: GlyphBiblioteca },
   ];
 

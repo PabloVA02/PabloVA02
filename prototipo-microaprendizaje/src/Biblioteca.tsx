@@ -439,7 +439,7 @@ function saludo() {
   return "Buenas noches";
 }
 
-function FichaLibro({
+export function FichaLibro({
   libro,
   onAbrir,
   i,
@@ -1157,7 +1157,7 @@ export function DetalleLibro({
    están traen del catálogo unos minutos de LECTURA, calculados sobre el texto
    por tarjetas, y se pasan a audio con el mismo tercio: 200 palabras por
    minuto leyendo contra 140 diciéndolo. */
-function minutosDeLibro(libro: Libro): number {
+export function minutosDeLibro(libro: Libro): number {
   const paginas = PAGINAS[libro.id];
   if (paginas) return minutosDePaginas(paginas);
   return Math.round((libro.minutos ?? 25) * (200 / 140));

@@ -242,8 +242,24 @@ export function PortadaLibro({
 
   /* Los de autoayuda y dinero van con el título gritado, que es como se
      venden de verdad. Ver `libros/tipograficas.ts`: manda sobre la obra,
-     porque a estos una fotografía bonita les quita el aire de libro. */
-  const tipo = foto ? undefined : PORTADAS_TIPO[id];
+     porque a estos una fotografía bonita les quita el aire de libro.
+
+     El orden es este, y el segundo escalón faltaba:
+
+       1. La CUBIERTA DIBUJADA de Pablo, si la tiene. Está hecha para este
+          libro y para esta casilla, así que gana siempre.
+       2. La TIPOGRÁFICA, si está escrita. Es lo que dice el propio fichero
+          desde el principio —«manda sobre la obra»— y sin embargo perdía
+          contra cualquier cuadro prestado, porque bastaba con que hubiera
+          `foto` para descartarla. En «Tendencias», donde estos libros van
+          todos juntos y con la cubierta grande, se veía de golpe: doce de
+          veinte salían con un paisaje de Commons que no dice nada.
+       3. La FOTOGRAFÍA de Commons, para todo lo demás.
+
+     `foto.local` es lo que distingue una cubierta dibujada de una prestada:
+     una imagen propia viene incrustada y una de Commons viene por su nombre
+     de archivo. */
+  const tipo = foto?.local ? undefined : PORTADAS_TIPO[id];
   if (tipo) {
     /* El título ocupa la cubierta entera, así que el cuerpo lo decide cuánto
        texto hay y no una escala fija: cuatro palabras cortas piden el doble
