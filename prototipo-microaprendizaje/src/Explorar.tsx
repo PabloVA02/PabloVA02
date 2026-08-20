@@ -7,6 +7,7 @@ import { GENEROS, LIBROS_POR_GENERO } from "./libros/generos";
 import { TENDENCIAS } from "./libros/tendencias";
 import { SUBTITULOS } from "./libros/subtitulos";
 import { PORTADAS_LIBRO } from "./libros/portadas";
+import { PAGINAS } from "./libros/paginas";
 import { GLIFOS_GENERO } from "./glifos-generos";
 import { GlyphClose, GlyphLupa } from "./glyphs";
 import { spring, springSoft } from "./motion";
@@ -114,15 +115,18 @@ export function Explorar({
     return LIBROS_POR_GENERO[genero].map(porId).filter((l): l is Libro => !!l);
   }, [genero]);
 
-  /* La estantería entera, con las que tienen cubierta dibujada delante. Es lo
-     que pidió Pablo para poder mirarlas juntas, y de paso es el orden que más
-     conviene a cualquiera: son los libros que mejor se presentan. */
+  /* La estantería entera, y en un orden que dice mucho: primero los que tienen
+     el resumen ESCRITO A MANO con el molde de `REDACCION.md`, después los que
+     tienen cubierta dibujada por Pablo, y al final el resto. Lo pidió el 20 de
+     agosto: «coloca los libros redactados los primeros para que vea cómo están
+     escritos». Mientras queden libros con el texto automático viejo, esta
+     primera fila es la que enseña por dónde va la biblioteca de verdad. */
   const catalogo = useMemo(
     () =>
       [...LIBROS].sort((a, b) => {
-        const pa = PORTADAS_LIBRO[a.id]?.local ? 0 : 1;
-        const pb = PORTADAS_LIBRO[b.id]?.local ? 0 : 1;
-        return pa - pb;
+        const rango = (id: string) =>
+          PAGINAS[id] ? 0 : PORTADAS_LIBRO[id]?.local ? 1 : 2;
+        return rango(a.id) - rango(b.id);
       }),
     [],
   );
@@ -232,7 +236,7 @@ export function Explorar({
                 <div>
                   <h2>Todos los libros</h2>
                   <p className="bloque-sub">
-                    {catalogo.length} en la estantería · las de cubierta dibujada, primero
+                    {catalogo.length} en la estantería · los redactados a mano, primero
                   </p>
                 </div>
               </div>
