@@ -33,6 +33,36 @@
            Genera el resumen entero, un mp3 por bloque, en src/audio/<libro>/
            con su `indice.json`. Sapiens son 12.900 caracteres.
 
+   ── EL PLAN HACE FALTA: CREATOR ──────────────────────────────────────────
+
+   Comprobado contra la API con la cuenta de Pablo, y conviene no volver a
+   averiguarlo:
+
+     · Las 21 voces que trae una cuenta nueva son TODAS de acento inglés. En
+       castellano no hay ninguna.
+     · Las 400 voces en español de ElevenLabs están todas en la biblioteca
+       —categorías `professional` y `high_quality`, ni una `premade`—, y una
+       cuenta Free NO PUEDE USAR VOCES DE BIBLIOTECA DESDE LA API: «Free users
+       cannot use library voices via the API».
+     · El campo `free_users_allowed` de la biblioteca engaña: quiere decir
+       gratis DESDE SU WEB, no desde la API. Hay 24 castellanas con esa marca
+       y ninguna funciona aquí.
+     · El tope de Free son 10.000 caracteres y Sapiens son 13.230.
+
+   O sea que hace falta Creator para las dos cosas: la voz y la cuota. El
+   formato de 32 kbps, en cambio, sí lo sirve en Free.
+
+   ── LAS CANDIDATAS, YA ELEGIDAS ──────────────────────────────────────────
+
+   De las 400, estas cinco son peninsulares y de perfil audioguía. En cuanto
+   haya plan, se audicionan con `audicion` y se elige:
+
+     1npscUJu0UbVeHp4b0zt  Juan Gabriel · calmado · educativo
+     Ypjv4S8CWJLMvXfBMUtN  Víctor Corrales · calmado · narrativo
+     Kg0OQpD0yK15N6xy83Yo  Sofía Lavanda · suave · narrativo
+     py37pY8QUQdhW5a7JwPG  Susana · documental
+     Yqxik8v3XlyYOTWnDIVu  Roque · documentales y narración
+
    ── LA VOZ Y LOS AJUSTES ─────────────────────────────────────────────────
 
    Modelo `eleven_multilingual_v2`, que es el que mejor lleva el español.
