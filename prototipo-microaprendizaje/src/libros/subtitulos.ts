@@ -22,6 +22,9 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  flow: "Una psicología de la felicidad",
+  "busca-sentido": "El testimonio de un psiquiatra en los campos de concentración",
+  mindset: "La actitud del éxito",
   "diario-ana-frank": "La casa de atrás",
   "trabajo-profundo": "Reglas para el éxito concentrado en un mundo disperso",
   "poder-ahora": "Un camino hacia la realización espiritual",

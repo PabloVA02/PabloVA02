@@ -5800,7 +5800,863 @@ const PODER_AHORA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Mindset, en ocho páginas.
+
+   Libro de investigación con uso práctico, así que la segunda persona va con
+   cuentagotas —regla 7—: se usa cuando el sujeto del experimento es el
+   lector y no cuando se cuenta un estudio.
+
+   El material bueno son los experimentos con cifras: los cuatrocientos
+   niños de quinto, el cuarenta por ciento que mintió, los electrodos que
+   enseñan dónde se enciende la atención de cada uno. La regla 2 pide eso.
+
+   La conclusión tiene que contar dos cosas que se saben desde 2006 y que
+   no suelen aparecer en ningún resumen: que los efectos medidos en muestras
+   grandes son mucho más pequeños de lo que promete el libro, y que la
+   propia Dweck escribió que casi todo el mundo lo estaba entendiendo mal.
+   -------------------------------------------------------------------------- */
+
+const MINDSET: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Elogiar la inteligencia de un niño le hace elegir problemas más fáciles",
+      },
+      {
+        b: "texto",
+        texto:
+          "Carol Dweck y su equipo pusieron a cuatrocientos alumnos de quinto ante una tanda de problemas fáciles. Todos los hicieron bien. A la mitad les dijeron «qué buena nota, se ve que eres muy listo»; a la otra mitad, «qué buena nota, se ve que te has esforzado». Una frase de diferencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después les dejaron elegir la siguiente tanda: una difícil, en la que aprenderían, u otra fácil como la primera. Entre los elogiados por listos, la mayoría eligió la fácil. Entre los elogiados por esforzarse, casi todos pidieron la difícil. Y cuando a continuación se les puso una prueba dura de verdad, la de los listos empeoró su marca y la de los esforzados la mejoró.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El remate llegó al final. Se les pidió que escribieran a otro colegio contando sus resultados, en una hoja con una casilla para la puntuación. Cerca del cuarenta por ciento de los elogiados por su inteligencia mintió y puso una nota más alta de la que había sacado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Decirle a un niño que es listo le enseña que ser listo es lo que hay que proteger. Y lo protege eligiendo lo fácil y mintiendo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el libro entero. Dweck sostiene que hay dos maneras de entender la capacidad —como algo que se tiene o como algo que se desarrolla— y que esa creencia decide qué haces cuando algo te sale mal, que es donde de verdad se juegan las cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: en qué se diferencian las dos maneras, qué le pasa a cada una ante el fracaso, cómo se ve en el colegio, en el deporte, en las empresas y en las parejas, y qué se puede cambiar. La conclusión dice también dónde falla, que en este libro hay bastante que decir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "O la capacidad es algo que tienes, o es algo que se desarrolla" },
+      {
+        b: "texto",
+        texto:
+          "Dweck llama mentalidad fija a la creencia de que la inteligencia y el talento son una cantidad que te tocó, y mentalidad de crecimiento a la de que son algo que crece con el trabajo. Ninguna de las dos es una teoría sobre el mundo: son la teoría que cada uno lleva puesta sin haberla examinado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es enorme y va toda por el mismo sitio. Si la capacidad es fija, cada tarea es un examen sobre lo que vales; entonces conviene elegir aquello donde vas a quedar bien, ocultar lo que no sabes y evitar el esfuerzo, porque esforzarse es la prueba de que no te sale solo. Si la capacidad crece, una tarea difícil es donde se crece, y el esfuerzo es el método y no la confesión de una carencia.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Ante un reto", texto: "la fija lo esquiva; la de crecimiento lo busca." },
+          { fuerte: "Ante un obstáculo", texto: "la fija abandona pronto; la de crecimiento insiste." },
+          { fuerte: "Ante el esfuerzo", texto: "la fija lo ve inútil; la de crecimiento, el camino." },
+          { fuerte: "Ante una crítica", texto: "la fija se defiende; la de crecimiento saca lo aprovechable." },
+          { fuerte: "Ante el éxito ajeno", texto: "la fija se siente amenazada; la de crecimiento toma nota." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "La mentalidad no cambia lo que puedes hacer: cambia lo que estás dispuesto a intentar. Y con los años eso sí cambia lo que puedes hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dweck avisa desde el principio de algo que casi todos los resúmenes se saltan: nadie tiene una sola mentalidad. Se tiene una para las matemáticas y otra para el deporte, una en el trabajo y otra con la pareja, y cambian según lo que esté en juego.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Al equivocarse, unos cerebros se apagan y otros se encienden" },
+      {
+        b: "texto",
+        texto:
+          "La prueba que mejor sostiene el libro no es de conducta sino de actividad cerebral. En un estudio se puso a gente a contestar preguntas difíciles mientras se medía su atención. Primero se les decía si habían acertado o fallado; después, cuál era la respuesta correcta y por qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los de mentalidad fija se enganchaban al primer aviso —acertado o fallado— y su atención se desplomaba en el segundo. Los de mentalidad de crecimiento hacían lo contrario: apenas reaccionaban al veredicto y se encendían con la explicación. Cuando después se les hizo un examen sorpresa sobre las mismas preguntas, los primeros no habían aprendido nada de sus errores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al que solo le importa si acertó, la explicación de por qué falló le entra por un oído. Literalmente: se le ve en la atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explica una cosa que desconcierta a cualquiera que haya dado clase o dirigido a alguien: hay gente inteligente a la que no se le puede corregir. No es orgullo en el sentido corriente. Es que la corrección le llega como una sentencia sobre lo que vale, y ante una sentencia lo que se hace es defenderse, no tomar nota.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dweck añade el otro lado de la moneda, que es el que hace útil el capítulo: la mentalidad de crecimiento tampoco significa creer que puedes con todo. Significa que el fallo te informa en vez de definirte, y por eso puedes mirarlo de cerca sin que te cueste nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "A Michael Jordan lo echaron del equipo del instituto" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo del deporte se apoya en dos biografías opuestas. Michael Jordan no entró en el equipo de su instituto: le dijeron que no daba la talla. Su madre cuenta que se levantaba a las seis para entrenar antes de clase. Años después, en la NBA, seguía quedándose a practicar tiros que ya dominaba, y describía sus fracasos con una precisión de contable: los tiros fallados, los partidos perdidos, las veces que le confiaron el último lanzamiento y no entró.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Enfrente pone a John McEnroe, que en su propia autobiografía cuenta que cuando perdía siempre había un motivo externo —el suelo, el ruido, el polvo, un calambre— y que nunca le gustó practicar. Tenía un talento que Jordan no tuvo de entrada, y una carrera considerablemente más corta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El talento decide cómo empiezas. Lo que crees sobre el talento decide dónde acabas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dweck extiende esto a lo que llama el carácter, y da una definición que se puede comprobar: es la capacidad de mantener el nivel cuando las cosas van mal, que es justo cuando la mentalidad fija se derrumba porque un mal día pasa a significar que no valías tanto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y menciona un fenómeno de vestuario que cualquiera reconoce: los equipos donde una estrella con mentalidad fija hunde a los demás, porque para sostener su propia idea de sí misma necesita que el mérito sea suyo y el fallo de otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Enron contrató a los más brillantes y se hundió por eso" },
+      {
+        b: "texto",
+        texto:
+          "La parte de las empresas es la más incómoda del libro. Enron construyó su cultura sobre buscar y fichar talento: contrataba a los mejores expedientes, les pagaba como estrellas y les decía a todas horas que lo eran. Dweck sostiene que eso produce exactamente lo que produjo: una organización llena de gente que no podía permitirse reconocer un error, porque su valor era ser el que no se equivoca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Enfrente pone a directivos que hicieron lo contrario. Lou Gerstner, al llegar a IBM, empezó por reunirse con quien fuera y escuchar lo que iba mal, y desmontó el sistema de castas de la empresa. Jack Welch se pasaba el día en las fábricas hablando con operarios y decía que sus mejores decisiones venían de gente sin cargo. Anne Mulcahy heredó Xerox al borde de la quiebra y su primer movimiento fue pedir consejo a todo el mundo, incluidos los que le decían cosas que no quería oír.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una empresa que solo premia acertar acaba llena de gente que oculta los fallos. Y los fallos ocultos son los que la hunden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El fenómeno tiene nombre en la investigación de grupos: el pensamiento de grupo, ese estado en el que nadie contradice porque contradecir sale caro. Dweck lo enlaza con la mentalidad fija del que manda: si el jefe necesita tener razón, la organización entera se organiza para que la tenga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación para quien dirige no es motivar sino cambiar qué se premia: felicitar por el proceso —cómo se ha atacado un problema, qué se ha probado, qué se aprendió del que salió mal— en lugar de por el resultado. Es la misma corrección que con los niños de quinto, veinte años después y con presupuesto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Creer que una pareja «funciona sola» es la mejor manera de que no funcione",
+      },
+      {
+        b: "texto",
+        texto:
+          "En las relaciones, Dweck encuentra la versión romántica de la mentalidad fija: la creencia de que si dos personas están hechas la una para la otra, todo debería salir sin esfuerzo. De ahí se sigue que cualquier problema serio es la prueba de que no eran el uno para el otro, y que trabajar la relación es admitir que se ha elegido mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Los estudios que cita apuntan a lo mismo: quien cree en las almas gemelas reacciona peor ante los conflictos y se plantea antes la salida, porque para él un conflicto no es un asunto que resolver sino un diagnóstico. Quien entiende la relación como algo que se construye trata el mismo conflicto como información.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Que algo cueste no significa que sea la persona equivocada. Casi todo lo que dura ha costado en algún momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La misma lógica aparece con los hijos y en las aulas. Dweck cuenta el caso de profesores que trabajaban en barrios difíciles y sacaban resultados que nadie esperaba, y lo que tenían en común no era el método sino la premisa: daban por hecho que aquellos niños podían aprender lo que fuera y les subían el listón en vez de bajárselo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la palabra que más se le ha citado, que sacó de un instituto de Chicago donde a quien no aprobaba una asignatura no le ponían «suspenso» sino «todavía no». No es un truco de lenguaje: cambia el suspenso de sentencia a punto del camino, que es exactamente la diferencia entre las dos mentalidades.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mentalidad no se cambia decidiendo cambiarla" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro se ocupa del cómo, y empieza desmontando la lectura fácil. No consiste en decirse que se puede con todo, ni en repetirse que uno tiene mentalidad de crecimiento. La mentalidad fija no es una opinión: es una voz que aparece en momentos concretos y siempre los mismos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su método tiene cuatro pasos y el trabajo está en el primero. Aprender a oír esa voz —«mejor no lo intentes, y si sale mal ya sabrán lo que vales»—. Reconocer que ahí hay una elección. Contestarle con la otra voz —«si no lo intento, no lo sabré nunca»—. Y actuar desde la segunda, que es lo único que cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La voz de la mentalidad fija no se calla nunca. Lo que se aprende es a reconocerla y a no hacerle caso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dweck insiste en que esto se hace situación por situación y no de una vez. Y recomienda algo concreto: elegir un ámbito en el que uno se sepa fijo —un idioma, hablar en público, las cuentas— y trabajar ahí, en vez de intentar cambiar de mentalidad en abstracto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También pone un límite que su propia divulgación ha ido borrando: la mentalidad de crecimiento no dice que cualquiera pueda llegar a cualquier sitio. Dice que nadie sabe hasta dónde puede llegar sin años de trabajo, y que la mentalidad fija impide averiguarlo porque hace abandonar antes de empezar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que llevamos puesta una teoría sobre nuestra propia capacidad, que casi nunca la hemos examinado, y que decide lo que hacemos cuando algo sale mal: esquivar el reto y esconder el error, o buscarlo y estudiarlo. Lo demuestra con experimentos —los niños de quinto, la atención medida ante el fallo— y lo pasea por el aula, el vestuario, la oficina y la pareja.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber cambiado cómo se elogia. Que hoy suene raro decirle a un niño «qué listo eres» y natural decirle «cómo lo has trabajado» viene de aquí, y esa corrección —del rasgo al proceso— sirve igual con un hijo, con un equipo y con uno mismo. La distinción entre suspender y «todavía no» es de las pocas frases de un libro de psicología que la gente usa de verdad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es cuestión de creerse capaz de todo: es que el que da su capacidad por cerrada no llega a averiguar cuál era.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y es serio. Los efectos que promete el libro son mucho mayores que los que aparecen al medirlos en grande. Un ensayo nacional en Estados Unidos con más de doce mil estudiantes encontró una mejora media de aproximadamente una décima de punto en la nota, y solo en los alumnos que iban peor; los metaanálisis dan efectos pequeños y muy desiguales según el estudio. La mentalidad influye; no es la palanca que el libro sugiere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema que la propia Dweck denunció en 2016: casi todo el mundo lo estaba aplicando mal. Lo llamó mentalidad de crecimiento falsa, y consiste en elogiar el esfuerzo por sí mismo —«te has esforzado mucho», dicho a quien se ha esforzado sin resultado y sin cambiar de estrategia—, que es un premio de consolación disfrazado. Añadió que la mentalidad fija no es un defecto de otros: la tenemos todos, en algunas cosas, y quien se declara de crecimiento sin más suele ser el que menos se ha mirado.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El hombre en busca de sentido, en ocho páginas.
+
+   El libro más delicado de los que hay escritos aquí, y el que peor
+   aguanta cualquier tono de manual. Frankl estuvo tres años en cuatro
+   campos y su mujer, su madre, su padre y su hermano murieron en ellos: la
+   segunda persona —«tú puedes elegir tu actitud»— convierte eso en un
+   lema de taza. Así que va en tercera persona todo el rato, salvo cuando el
+   propio libro se dirige al lector.
+
+   Dos cosas más que hay que cuidar. La primera mitad es un testimonio y la
+   segunda una teoría clínica: se cuentan como lo que son, y no se mezclan.
+   Y la frase de Nietzsche que todo el mundo cita —«quien tiene un porqué
+   puede soportar casi cualquier cómo»— aparece una vez y en su sitio, no
+   tres veces como remate.
+   -------------------------------------------------------------------------- */
+
+const BUSCA_SENTIDO: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un psiquiatra entró en Auschwitz con un manuscrito cosido en el abrigo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Viktor Frankl era neurólogo y psiquiatra en Viena y llevaba años trabajando en un libro sobre el sentido de la vida. Cuando lo deportaron en 1942 llevaba el manuscrito escondido en el forro del abrigo. En la primera selección se lo quitaron junto con todo lo demás, y le dieron la ropa de alguien que ya había pasado por la cámara de gas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pasó tres años en cuatro campos, entre ellos Auschwitz y Dachau. Su mujer, su madre, su padre y su hermano murieron en ellos; lo supo al salir. Reescribió el libro en nueve días en 1945, y lo publicó primero sin firma porque no quería fama por ello. Ha vendido más de dieciséis millones de ejemplares.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No es un libro sobre el horror. Es un libro sobre qué hace que una persona siga levantándose cuando ya no queda ninguna razón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ahí está la advertencia con la que él mismo abre: esto no es un informe sobre los grandes crímenes, que ya están documentados, sino sobre la vida diaria del prisionero corriente. No es la historia de los héroes ni de los verdugos. Es la de los miles que se levantaban cada mañana a trabajar en la nieve con la ropa de un muerto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: primero las tres fases por las que pasaba un prisionero, después qué distinguía a los que aguantaban, y por último la terapia que Frankl construyó con eso al volver. La conclusión dice también dónde falla, que en este libro hay una cosa importante que decir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Antes de la resignación viene una fase que nadie espera: la esperanza",
+      },
+      {
+        b: "texto",
+        texto:
+          "Frankl describe tres fases y la primera es la que sorprende. Al llegar, lo que domina no es el terror sino lo que él llama la ilusión del indulto: la certeza de que a uno lo van a salvar en el último momento, de que esto es un error, de que su caso es distinto. Es lo que permite bajar del tren sin desplomarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda fase es la apatía, y llega deprisa. El prisionero deja de sentir asco, deja de sentir espanto, deja de apartar la vista. Frankl lo describe con precisión clínica sobre sí mismo: cuenta que llegó a comer mientras a dos metros alguien se moría, y que no le pareció nada. Sostiene que esa insensibilidad es una coraza necesaria y que sin ella nadie habría durado una semana.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La apatía no es indiferencia: es lo que fabrica el organismo para poder seguir mirando lo que no se puede mirar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la de después, y es la que casi ningún relato cuenta. Al ser liberados, muchos no sintieron alegría: la palabra que usa es despersonalización, la sensación de estar viendo una película. Y describe dos peligros de esa fase: la amargura de quien vuelve y encuentra indiferencia, y la de quien concluye que después de aquello ya no tiene que responder ante nada ni ante nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Toda esta parte está escrita en el idioma de un médico que observa, incluso cuando el paciente es él. Esa distancia es lo que la hace soportable de leer, y es también lo que la hace fiable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo último que le queda a una persona es cómo responde a lo que le hacen",
+      },
+      {
+        b: "texto",
+        texto:
+          "La observación central del libro sale de mirar a los compañeros. Frankl escribe que en aquellos barracones hubo hombres que iban de litera en litera repartiendo su último trozo de pan. Fueron pocos, dice, pero bastaron para demostrar algo: que se puede quitar todo a una persona menos una cosa, que es elegir la actitud con la que se enfrenta a lo que le pasa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir qué no significa eso, porque es la frase que peor se cita del siglo XX. No significa que la actitud te salve: casi todos los que la tenían murieron igual. No significa que quien murió es que no quiso vivir bastante. Significa una cosa mucho más pequeña y más dura: que incluso allí quedaba un margen, minúsculo, y que ese margen era lo único propio.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Al hombre se le puede arrebatar todo salvo la elección de su actitud ante un conjunto de circunstancias dadas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso pone lo que observó sobre el futuro. Los que perdían la esperanza morían pronto y de manera reconocible: un día se quedaban en la litera, no se levantaban, se fumaban los cigarrillos que guardaban para cambiarlos por comida, y en cuarenta y ocho horas estaban muertos. Frankl cuenta que la mortalidad del campo se disparó en la semana entre Navidad y Año Nuevo de 1944, y que no fue por el frío ni por el trabajo: fue porque mucha gente se había prometido estar en casa por Navidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión es la que le da el título al libro, y aquí va donde le corresponde: quien tiene un porqué para vivir puede soportar casi cualquier cómo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "No se trata de qué esperas tú de la vida, sino de qué espera ella de ti",
+      },
+      {
+        b: "texto",
+        texto:
+          "La vuelta de tuerca que Frankl considera decisiva es esta. La pregunta habitual —¿qué sentido tiene mi vida?— está mal planteada, porque coloca a la persona esperando una respuesta que nadie va a darle. La pregunta útil invierte los papeles: la vida pregunta y uno contesta, y contesta actuando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta que a los prisioneros que estaban a punto de rendirse les hacía ver que alguien los esperaba: un hijo al otro lado del mundo, una obra sin terminar. Y que esa persona o esa obra los reclamaba de un modo que no admitía sustituto, porque nadie más podía ser el padre de ese hijo ni terminar ese trabajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sentido no se busca en abstracto: aparece cuando algo concreto te reclama y nadie puede hacerlo por ti.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su respuesta a por dónde se encuentra, que es concreta y son tres vías:",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Haciendo algo", texto: "un trabajo, una obra, algo que quede hecho." },
+          { fuerte: "Queriendo a alguien", texto: "o encontrándose con algo —la naturaleza, el arte— que valga por sí mismo." },
+          { fuerte: "En el sufrimiento inevitable", texto: "en la actitud que se toma ante lo que ya no se puede cambiar." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La tercera es la que él subraya y la que más se malinterpreta. Frankl es tajante: si el sufrimiento se puede evitar, lo sensato es evitarlo, y buscarle sentido a un dolor que se podía haber quitado no es heroísmo, es masoquismo. La tercera vía solo entra en juego cuando ya no queda otra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La segunda mitad del libro no es un testimonio: es una consulta" },
+      {
+        b: "texto",
+        texto:
+          "A partir de aquí Frankl deja de contar el campo y explica la terapia que fundó, la logoterapia. Su punto de partida es una discrepancia con las dos escuelas dominantes en su Viena: para Freud lo que mueve al hombre es el placer y para Adler el poder; para Frankl, la búsqueda de un sentido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y describe lo que veía llegar a su consulta después de la guerra: gente sin ningún síntoma clásico, con la vida resuelta, que se quejaba de un vacío que no sabía nombrar. Lo llamó vacío existencial, y dijo que se manifiesta sobre todo en aburrimiento, no en angustia; que la gente aguanta bien las semanas de trabajo y se derrumba los domingos por la tarde.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay un sufrimiento que no viene de que algo vaya mal, sino de que nada signifique nada. Y no se cura resolviendo problemas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También corrige una idea muy extendida sobre la salud mental: sostiene que la tensión no es el enemigo. Lo que una persona necesita no es un estado sin tensiones, sino la tensión que hay entre lo que es y lo que todavía tiene por hacer. Un vacío sin exigencia no produce paz; produce el domingo por la tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte del libro que menos se cita y la que explica por qué el testimonio no acaba en una moraleja. Frankl no salió del campo con una lección: salió con una hipótesis clínica que estuvo probando cuarenta años en su consulta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "A un insomne se le cura pidiéndole que se esfuerce en no dormir" },
+      {
+        b: "texto",
+        texto:
+          "La logoterapia tiene dos técnicas concretas, y la primera parece una broma. Se llama intención paradójica y consiste en pedirle al paciente que desee exactamente aquello que teme. Al que no puede dormir, que se proponga pasar la noche despierto. Al que suda en público y le aterra que se le note, que se proponga sudar a chorros delante de todos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Funciona por un mecanismo que Frankl describe con claridad: en un montón de trastornos, el síntoma lo produce el miedo al síntoma. Se llama ansiedad anticipatoria y forma un círculo —temo tartamudear, y el temor me hace tartamudear—. Al desear el síntoma se corta el círculo, y encima suele aparecer algo que el miedo no admite, que es el humor. Cuenta casos de pacientes que se reían intentando sudar a propósito, y que ahí se acabó el problema.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El miedo hace que ocurra justo lo que se teme. Y querer demasiado algo impide que ocurra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda técnica es la contraria y se llama derreflexión: dejar de mirarse. Frankl sostiene que el placer y la felicidad son efectos y no objetivos, y que perseguirlos directamente los ahuyenta; lo mismo que la risa, que se puede provocar con un chiste pero no por orden. Su instrucción para el paciente que se observa sin parar es que se ocupe de algo o de alguien fuera de sí mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Las dos técnicas comparten fundamento y las dos han envejecido bien: la intención paradójica se sigue usando, y la idea de que la atención excesiva al síntoma lo alimenta está en la base de tratamientos actuales de la ansiedad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Frankl se negó a decir que un pueblo entero fuera culpable" },
+      {
+        b: "texto",
+        texto:
+          "Hay una posición de Frankl que conviene rescatar porque explica el tono del libro entero. Al volver a Viena se negó a hablar de culpa colectiva y siguió trabajando y viviendo allí. Su argumento era que la culpa es siempre individual y que meter a millones de personas en un mismo saco es la operación de la que salió todo aquello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su afirmación más citada sobre los campos, y la más incómoda: que la línea entre la decencia y la indecencia atraviesa a todos los grupos y no separa a unos de otros. Vio a guardias que pagaban medicinas de su bolsillo y vio a prisioneros que delataban a otros por un trozo de pan. Escribe que solo hay dos razas de hombres, la de los decentes y la de los que no, y que las dos estaban en los dos lados de la alambrada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que decide de qué lado está una persona no es a qué grupo pertenece, sino qué hace cuando le sale barato hacer daño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra con lo que llama el optimismo trágico: sostener un sí a la vida a pesar del dolor, la culpa y la muerte. No es la palabra optimismo del uso corriente. Es la afirmación de que incluso lo peor se puede convertir en algo —un logro, un cambio, una manera de estar— y de que eso no consuela de nada pero permite seguir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es por eso por lo que este libro se lee distinto de cualquier otro con conclusiones parecidas: quien las firma pagó por comprobarlas un precio que nadie querría pagar, y aun así se cuida mucho de venderlas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro tiene dos mitades. La primera cuenta, con la frialdad de un médico, cómo era la vida diaria de un prisionero corriente: la ilusión del indulto, la apatía que fabrica el cuerpo para poder mirar, y el desfase de después. La segunda expone la terapia que Frankl construyó con esa observación, la idea de que lo que mueve a una persona es encontrarle un sentido a su vida y que ese sentido se busca por tres vías.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la observación de la que sale todo: que en aquellos barracones hubo quien repartía su último pan, y que eso demuestra que quitarlo todo no llega a quitarlo todo. Y una idea clínica que ha resistido: el sufrimiento que no viene de que algo vaya mal, sino de que nada signifique nada, que se nota más los domingos que los lunes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta no es qué espera uno de la vida. Es qué espera la vida de uno, y se contesta haciendo algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y hay que decirlo con cuidado. La frase de la actitud se ha convertido en un lema de autoayuda que dice casi lo contrario de lo que dice el libro: que si mantienes la actitud, sales adelante. Frankl no dice eso en ninguna parte. Casi todos los que tenían esa actitud murieron igual, y él lo escribe: los mejores no volvieron. Leído como una fórmula de éxito personal, el libro se convierte en la sugerencia de que quien se hunde es porque no puso de su parte, que es una crueldad y además es falsa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite de método. La logoterapia se apoya en la observación clínica de su autor y en su propia experiencia, no en ensayos controlados; comparada con las terapias que se han medido en las últimas décadas, tiene poca evidencia detrás. Sus dos técnicas concretas han envejecido bien y su marco general es más una filosofía que un tratamiento, cosa que conviene saber al leerlo.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Fluir, en ocho páginas.
+
+   Es psicología académica escrita para el público, así que va en tercera
+   persona —regla 7— salvo en las dos páginas que dan instrucciones.
+
+   El material que lo sostiene es el método: el buscapersonas que sonaba
+   ocho veces al día durante una semana a miles de personas. Sin eso, todo
+   el libro suena a introspección de sillón; con eso, son datos. La regla 2
+   pide justo esa clase de concreción.
+
+   La paradoja del trabajo —que la gente fluye más trabajando y prefiere el
+   ocio— es lo mejor que tiene y casi nunca aparece en los resúmenes. Aquí
+   va entera, con las cifras.
+   -------------------------------------------------------------------------- */
+
+const FLOW: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un buscapersonas sonaba ocho veces al día para pillar a la gente siendo feliz",
+      },
+      {
+        b: "texto",
+        texto:
+          "Mihály Csíkszentmihályi tenía un problema de método: preguntarle a alguien si es feliz no sirve, porque contesta lo que cree recordar. Así que repartió buscapersonas a miles de personas y los programó para sonar ocho veces al día, a horas aleatorias, durante una semana. Al sonar, cada uno anotaba qué estaba haciendo y cómo se sentía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Se acumularon cientos de miles de anotaciones, de obreros de cadena de montaje, de cirujanos, de amas de casa coreanas, de pastores de los Alpes, de adolescentes de Chicago. Y en esos datos apareció un estado que se repetía con las mismas señas en todos ellos, hicieran lo que hicieran.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo describían con palabras parecidas: se me pasó el tiempo sin enterarme, no pensaba en mí, sabía en cada momento qué tenía que hacer. Un escalador y un cirujano contaban lo mismo. Csíkszentmihályi lo llamó flujo, porque varios entrevistados usaron la palabra fluir para explicarlo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los mejores momentos de una vida no son los de relajación: son los de una concentración tan absorbente que se olvida uno de existir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el libro, publicado en 1990 y con una tesis que va contra el sentido común: la felicidad no está donde la buscamos —el descanso, el ocio pasivo, el consumo— sino en la actividad exigente que uno mismo ha elegido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: por qué la conciencia funciona como un recurso escaso, qué condiciones producen el flujo, por qué la gente fluye en el trabajo y sin embargo prefiere el sofá, y cómo se convierte una vida entera en algo con forma. La conclusión dice también dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La atención es un presupuesto, y casi todo el mundo lo gasta mal" },
+      {
+        b: "texto",
+        texto:
+          "El punto de partida es una limitación física. La conciencia solo puede procesar una cantidad pequeña de información a la vez —el orden de magnitud que maneja Csíkszentmihályi es de unos ciento veinte bits por segundo, y entender a alguien que habla se lleva unos sesenta—. De ahí que no se pueda atender a dos conversaciones: no cabe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso convierte la atención en un presupuesto. Todo lo que entra en la conciencia pasa por ese cuello de botella, y lo que se deja entrar decide cómo es un día y, sumado, cómo es una vida. Csíkszentmihályi lo llama energía psíquica, y sostiene que es lo único que de verdad se administra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que dejas entrar en tu atención es tu vida. No hay mucho más que administrar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El estado por defecto, cuando no hay nada que hacer, no es la paz: es lo que él llama entropía psíquica, la cabeza deambulando entre preocupaciones, agravios y pendientes. Y aporta un dato del estudio que lo demuestra: la gente que vive sola declara sus peores estados de ánimo los domingos por la mañana, cuando no hay ninguna obligación que ordene la atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso las actividades exigentes se sienten mejor que el descanso. Un objetivo que reclama toda la atención expulsa el ruido, y esa expulsión es la mitad de lo que se siente como bienestar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El flujo aparece justo donde la dificultad supera un poco a la destreza",
+      },
+      {
+        b: "texto",
+        texto:
+          "La condición central es una relación, no una actividad. El flujo aparece cuando lo que hay que hacer está algo por encima de lo que uno sabe hacer. Si la dificultad supera mucho a la destreza, aparece la ansiedad; si la destreza supera a la dificultad, el aburrimiento. La franja entre las dos es estrecha y es donde ocurre todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso explica por qué el flujo se mueve. Lo que hoy engancha, dentro de un año aburre, porque uno ha mejorado y la tarea no. Y de ahí sale la característica que más interesa: el flujo empuja a complicarse la vida por su cuenta, sin que nadie lo pida. Es lo que hace que un aficionado al ajedrez busque rivales mejores.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a esa condición hay otras que aparecen una y otra vez en las entrevistas:",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Un objetivo claro", texto: "saber en cada momento qué hay que hacer ahora." },
+          { fuerte: "Respuesta inmediata", texto: "ver si va bien o mal sin esperar a que alguien lo diga." },
+          { fuerte: "La atención entera", texto: "no queda sitio para pensar en nada más." },
+          { fuerte: "Sensación de control", texto: "sin miedo a fallar, porque no hay margen para pensarlo." },
+          { fuerte: "Se olvida uno de sí", texto: "desaparece la voz que evalúa cómo lo estás haciendo." },
+          { fuerte: "El tiempo se deforma", texto: "tres horas pasan como veinte minutos, o al revés." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "No es una actividad la que engancha: es la distancia justa entre lo que pide y lo que sabes hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El propio Csíkszentmihályi señala que casi ninguna de estas condiciones se da sola en la vida corriente: hay que montarlas. Un objetivo claro y una respuesta inmediata son exactamente lo que un juego trae de fábrica y lo que un trabajo normal no tiene.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La gente fluye trabajando y prefiere estar en el sofá" },
+      {
+        b: "texto",
+        texto:
+          "El hallazgo más incómodo del estudio es este. Al sonar el buscapersonas en horas de trabajo, la gente declaraba estar en flujo aproximadamente la mitad de las veces. En su tiempo libre, alrededor de un veinte por ciento. Y sin embargo, cuando se les preguntaba dónde preferirían estar, en el trabajo decían que en otra parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Csíkszentmihályi lo llama la paradoja del trabajo, y su explicación es que confundimos el placer con el disfrute. El placer es pasivo, no exige nada y no deja nada: comer, ver la televisión, descansar. El disfrute exige atención y destreza, cuesta arrancar y es de lo único que se sale distinto.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El placer no deja nada detrás. El disfrute cuesta arrancar y es lo único que hace crecer a alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El coste de esa confusión se paga en el tiempo libre, que es donde falla casi todo el mundo. Un rato de ocio sin estructura reproduce la entropía del capítulo anterior, y la salida más fácil —una pantalla— entretiene sin exigir y por eso no produce flujo casi nunca. Los datos del estudio son claros: el ocio pasivo puntúa por debajo de casi cualquier actividad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su recomendación es la contraria de la intuitiva: los aficionados que exigen algo —un instrumento, un deporte, cocinar de verdad, escribir— dan más bienestar por hora que el descanso, aunque cueste más empezar. Y añade el ejemplo del extremo, un obrero de cadena de montaje que convirtió su puesto en una competición contra sus propios tiempos y llevaba veinte años sin aburrirse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El cuerpo, la cabeza y el trabajo son tres sitios donde se puede fluir",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro recorre después dónde se encuentra ese estado, y empieza por el cuerpo. No hace falta un deporte de élite: bastan una destreza y un objetivo. Nadar, bailar, escalar, el yoga y las artes marciales aparecen constantemente en las entrevistas, y también algo que casi nadie considera una actividad: mirar y escuchar con atención de verdad, que es lo que separa oír música de escucharla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después la cabeza, y ahí insiste en algo que le importa: la memoria. Sostiene que quien tiene cosas memorizadas —poemas, canciones, datos— no depende de tener a mano un libro o una pantalla para ordenar su atención, y que la memoria fue durante siglos la manera de no estar nunca a merced del aburrimiento. Junto a eso pone escribir, que describe como la manera más barata de poner orden en lo que uno piensa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El aburrimiento no es un problema de circunstancias: es no tener nada dentro con lo que ocupar la atención.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y después el trabajo, con la propuesta más aprovechable del libro: rediseñarlo para que se parezca a un juego. Eso significa fijarse objetivos propios cuando el puesto no los da, buscar una manera de saber si va bien sin esperar a la evaluación anual, y subir la dificultad a propósito cuando la tarea empieza a salir sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade la parte que solemos olvidar: las relaciones. Los datos dicen que la gente está mejor acompañada que sola, y que la familia da flujo si tiene lo mismo que cualquier otra actividad —objetivos comunes y respuesta— y lo quita si es una convivencia sin nada compartido.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay gente que convierte una desgracia en algo con lo que trabajar" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo más duro del libro estudia a personas que atravesaron catástrofes: parapléjicos, ciegos, presos de campos. Y encuentra un patrón entre los que salieron adelante, que él llama personalidad autotélica y que se puede describir sin la palabra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hacen es dejar de mirarse a sí mismos y prestar atención a lo que hay: qué se puede hacer todavía, qué hay que aprender, qué objetivo cabe ahora. Cita el caso de parapléjicos que declararon que el accidente fue a la vez lo peor y lo mejor que les había pasado, no por resignación, sino porque les impuso unos objetivos claros donde antes había una vida difusa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que convierte una desgracia en algo manejable es dejar de preguntarse por qué a mí y empezar a preguntarse qué se puede hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Csíkszentmihályi describe tres piezas en esa manera de estar: una confianza sin arrogancia, que es saber que uno no controla lo que pasa pero sí lo que hace; la atención puesta fuera de uno mismo; y la costumbre de encontrar objetivos en cualquier sitio, incluido uno malo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade cómo se cría eso, con un dato de su investigación sobre adolescentes: los que más fluían venían de familias con cinco rasgos —reglas claras, atención real de los padres al hijo, confianza, retos a la medida y la posibilidad de elegir—. Una familia así, dice, ahorra a un chaval la mitad de la energía que otros gastan en defenderse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Una vida con forma es una sucesión de flujos que apuntan al mismo sitio",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último tramo se pregunta cómo se pasa de tener buenos ratos a tener una buena vida, y la respuesta no es acumular experiencias de flujo. Csíkszentmihályi señala que un ladrón puede fluir robando y un francotirador disparando: el flujo dice cómo se siente algo, no si merece la pena.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que da forma a una vida es que esos episodios apunten a algo, y a eso lo llama un proyecto vital: una intención lo bastante grande como para que las actividades de veinte años se ordenen debajo. No tiene por qué ser grandioso —criar bien, dominar un oficio, cuidar de un sitio—; tiene que ser suyo y tiene que durar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El flujo dice cómo se siente lo que haces. No dice si vale la pena: eso lo decide para qué lo haces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su idea final, que es la de convertir la vida entera en una actividad unificada donde el trabajo, el ocio y las relaciones no van cada uno por su lado. Y sostiene que quien lo consigue deja de necesitar que las cosas salgan bien para estar bien, porque el interés está en el hacer y no en el resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la parte más filosófica y la que menos se puede comprobar con buscapersonas, cosa que el propio libro reconoce. Funciona mejor como propuesta que como hallazgo, y conviene leerla sabiendo dónde acaban los datos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la felicidad no está donde la buscamos. Con cientos de miles de anotaciones tomadas al azar durante el día, encuentra que los mejores momentos aparecen en actividades exigentes y elegidas, cuando la dificultad supera un poco a la destreza y hay un objetivo claro y una respuesta inmediata. Y que el descanso y el ocio pasivo, que es donde todos querríamos estar, puntúan más bajo que casi cualquier otra cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el método. Antes de esto, la psicología de la felicidad eran encuestas de recuerdo; los buscapersonas convirtieron una intuición en un dato, y la paradoja del trabajo —fluir la mitad del tiempo en la oficina y un quinto en casa, y aun así preferir la casa— es un hallazgo que no se puede razonar desde el sillón. Además dio a la lengua corriente una palabra que nombra algo que todo el mundo ha sentido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los mejores ratos de tu vida no fueron los cómodos: fueron los que exigieron todo lo que sabías hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El método tiene un límite que el libro no subraya: las anotaciones son lo que la gente dice de sí misma, y ahí influye lo que uno cree que debería contestar. Y las mediciones de flujo se han hecho de maneras muy distintas según el equipo, así que comparar estudios es difícil; el concepto es más borroso de lo que parece cuando se define con seis condiciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay además un sesgo de fondo. La receta —elige actividades exigentes, súbete la dificultad, rediseña tu puesto— supone un margen que no todo el mundo tiene: quien encadena turnos partidos no puede convertir su trabajo en un juego, y el ejemplo del obrero que compite contra sus tiempos es admirable y también es uno entre muchos. Y la última parte, la del proyecto vital, ya no se apoya en ningún buscapersonas: es filosofía, buena, pero de otra clase que el resto del libro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  flow: FLOW,
+  "busca-sentido": BUSCA_SENTIDO,
+  mindset: MINDSET,
   "poder-ahora": PODER_AHORA,
   "monje-ferrari": MONJE_FERRARI,
   "sutil-arte": SUTIL_ARTE,

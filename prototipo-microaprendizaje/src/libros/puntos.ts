@@ -38,6 +38,30 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  flow: [
+    "por qué tu atención es un presupuesto y se gasta mal",
+    "dónde está la franja exacta en la que aparece el flujo",
+    "por qué se fluye más trabajando que en el sofá",
+    "en qué se diferencian el placer y el disfrute",
+    "por qué el domingo por la mañana se está peor",
+  ],
+
+  "busca-sentido": [
+    "las tres fases por las que pasaba un prisionero",
+    "por qué murió tanta gente la semana después de Navidad",
+    "qué es lo único que no te pueden quitar",
+    "las tres vías por las que aparece un sentido",
+    "cómo se cura un insomnio pidiendo no dormir",
+  ],
+
+  mindset: [
+    "en qué se diferencian la mentalidad fija y la de crecimiento",
+    "por qué elogiar la inteligencia de un niño le perjudica",
+    "qué le pasa a tu atención cuando fallas",
+    "por qué Enron se hundió por fichar a los más brillantes",
+    "cómo se reconoce la voz de la mentalidad fija",
+  ],
+
   "poder-ahora": [
     "por qué el que oye el pensamiento no es el pensamiento",
     "por qué una bronca absurda deja una satisfacción rara",

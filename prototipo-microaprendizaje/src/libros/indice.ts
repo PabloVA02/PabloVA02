@@ -30,14 +30,12 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Psicología */
   influencia: () => import("./psicologia").then((m) => m.INFLUENCIA),
-  mindset: () => import("./psicologia").then((m) => m.MINDSET),
 
   /* Economía */
   "hombre-rico-babilonia": () => import("./economia").then((m) => m.BABILONIA),
   "semana-4-horas": () => import("./economia").then((m) => m.SEMANA_4_HORAS),
 
   /* Filosofía */
-  "busca-sentido": () => import("./filosofia").then((m) => m.BUSCA_SENTIDO),
 
   /* Ciencia y salud */
   cosmos: () => import("./ciencia-salud").then((m) => m.COSMOS),
@@ -102,7 +100,6 @@ const CARGADORES: Record<string, Cargador> = {
   "steve-jobs": () => import("./economia").then((m) => m.STEVE_JOBS),
 
   /* Psicología */
-  flow: () => import("./psicologia").then((m) => m.FLOW),
   educada: () => import("./psicologia").then((m) => m.EDUCADA),
 
   /* Capítulos largos */

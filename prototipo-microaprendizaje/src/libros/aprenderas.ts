@@ -29,6 +29,15 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  flow:
+    "Csíkszentmihályi repartió buscapersonas que sonaban ocho veces al día para pillar a la gente en mitad de su vida y preguntarle cómo estaba. En cientos de miles de anotaciones encontró siempre el mismo estado.",
+
+  "busca-sentido":
+    "Frankl entró en Auschwitz con el manuscrito de su libro cosido en el forro del abrigo. Se lo quitaron con todo lo demás. Tres años después lo reescribió en nueve días, y no trata del horror sino de qué hace que alguien siga levantándose.",
+
+  mindset:
+    "A cuatrocientos niños de quinto se les elogió por listos o por esforzados, con una frase de diferencia. Los primeros eligieron después problemas más fáciles y el cuarenta por ciento mintió sobre su nota. De ahí sale el libro entero.",
+
   "poder-ahora":
     "Tolle se despertó una noche pensando que no aguantaba más consigo mismo, y se dio cuenta de que esa frase supone dos personas. De ahí salió un libro sobre la voz que llevas en la cabeza y que no eres tú.",
 
