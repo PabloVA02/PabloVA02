@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "pensar-rapido":
+    "Un bate y una pelota cuestan 1,10 y el bate cuesta un euro más: la mitad de los alumnos del MIT falla. Kahneman ganó el Nobel demostrando que la mente usa atajos que se equivocan de maneras predecibles.",
+
+  "inteligencia-emocional":
+    "A un paciente le quitaron un tumor cerebral y salió con el cociente intelectual intacto y la vida destrozada: tardaba media hora en elegir la fecha de una cita. Goleman parte de ahí para explicar la otra inteligencia.",
+
   "mente-millonaria":
     "Mucha gente que gana un gran premio de lotería vuelve en pocos años al patrimonio que tenía antes. Eker lo explica con un termostato de dinero puesto en la infancia, y enseña a cambiarlo y a repartir cada ingreso.",
 

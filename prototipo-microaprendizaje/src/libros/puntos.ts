@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "pensar-rapido": [
+    "en qué se diferencian los dos sistemas con que piensas",
+    "por qué una historia coherente parece más probable",
+    "cómo un número dicho al azar te cambia el precio",
+    "por qué perder cien duele más que ganar cien",
+    "por qué de algo solo recuerdas el pico y el final",
+  ],
+
+  "inteligencia-emocional": [
+    "por qué reaccionas antes de saber a qué reaccionas",
+    "qué es un secuestro emocional y cómo se corta",
+    "las cinco capacidades y por qué van en ese orden",
+    "qué predijo aguantar sin comerse una golosina a los cuatro años",
+    "los cuatro modos de discutir que rompen una pareja",
+  ],
+
   "mente-millonaria": [
     "por qué el dinero que llega de golpe no se queda",
     "las tres vías por las que heredaste tu idea del dinero",

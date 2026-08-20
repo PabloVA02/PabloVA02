@@ -3927,7 +3927,551 @@ const MENTE_MILLONARIA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Inteligencia emocional, en ocho páginas.
+
+   Libro de divulgación científica, no manual: aquí NO va la segunda persona
+   —regla 7—, salvo en las dos páginas prácticas. El material bueno son los
+   datos: la amígdala que decide veinte milisegundos antes, los niños de las
+   nubes de azúcar, el meta-análisis de las escuelas.
+
+   La conclusión tiene que contar dos cosas que se saben desde 1995: que el
+   «80 % del éxito» nunca lo dijo Goleman pero tampoco lo desmintió a
+   tiempo, y que el experimento de las nubes no replicó bien.
+   -------------------------------------------------------------------------- */
+
+const INTELIGENCIA_EMOCIONAL: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Un hombre inteligentísimo tardaba media hora en elegir la fecha de una cita",
+      },
+      {
+        b: "texto",
+        texto:
+          "A un paciente llamado Elliot le extirparon un tumor cerebral junto a los lóbulos frontales. Salió con el cociente intelectual intacto, la memoria perfecta y el lenguaje impecable. Lo que perdió fue la conexión entre el pensamiento y la emoción, y con ella la vida entera: dejó el trabajo, se arruinó con negocios absurdos y se divorció dos veces. Cuando su neurólogo le proponía dos fechas para la siguiente consulta, se pasaba media hora enumerando razones a favor y en contra de cada una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso, descrito por Antonio Damasio, es el que mejor resume la tesis de Daniel Goleman: sin emoción no hay decisión. La razón por sí sola compara opciones eternamente; lo que corta la lista y elige es una señal emocional, y quien la pierde no se vuelve más racional, se queda paralizado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La emoción no estorba a la razón: es lo que le permite terminar una frase y decidir algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goleman, periodista científico del New York Times con formación en psicología, publicó el libro en 1995 recogiendo investigación que llevaba una década acumulándose en laboratorios distintos. Su argumento es que medimos la inteligencia con una sola vara —la que predice las notas— y que esa vara explica una parte pequeña de cómo le va a la gente en la vida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: primero qué pasa en el cerebro cuando alguien pierde los nervios, después las cinco capacidades que componen esto, después qué se ha medido en niños y en empresas. La conclusión dice también dónde falla, que en este libro hay dos cosas grandes que decir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una parte del cerebro decide veinte milisegundos antes que tú" },
+      {
+        b: "texto",
+        texto:
+          "La explicación fisiológica del libro se apoya en el trabajo de Joseph LeDoux, y es lo que le da su fuerza. Casi toda la información que entra por los sentidos va al tálamo y de ahí a la corteza, que la analiza y decide qué hacer. Pero LeDoux encontró un segundo cable, más corto y más rápido, que va directo del tálamo a la amígdala.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese atajo llega unos milisegundos antes que la señal completa, con una imagen borrosa y sin analizar. Es lo que hace que uno salte hacia atrás al ver una forma alargada en el suelo antes de saber si es una manguera. La amígdala prefiere equivocarse cien veces por exceso que una vez por defecto, porque el que se equivocaba por defecto no dejaba descendencia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La parte del cerebro que se asusta recibe la información antes que la parte que la entiende. Por eso reaccionas antes de saber a qué.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A la versión desbocada de esto Goleman lo llama secuestro emocional: la amígdala toma el mando, la corteza prefrontal se queda sin voz y aparecen esas reacciones de las que uno se arrepiente veinte minutos después. No es una manera de hablar; se puede ver en la señal eléctrica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo importante es que el proceso tiene una ventana. La corteza tarda un poco más pero llega, y puede modular lo que la amígdala ha empezado. De ahí sale la única técnica que el libro repite: cuando notes que ha empezado, gana tiempo. Salir de la habitación, respirar despacio, aplazar la respuesta. No es cortesía, es dejar que llegue la otra señal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La inteligencia emocional son cinco cosas distintas y solo la primera es obligatoria",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goleman organiza lo que llama inteligencia emocional en cinco capacidades, apoyándose en el trabajo previo de Peter Salovey y John Mayer. Están en orden: cada una necesita la anterior.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Conocerse", texto: "reconocer una emoción mientras está pasando, no dos horas después." },
+          { fuerte: "Manejarse", texto: "poder calmarse, aguantar un disgusto y no quedarse enganchado." },
+          { fuerte: "Motivarse", texto: "aplazar la recompensa y seguir con algo cuando ya no apetece." },
+          { fuerte: "Reconocer al otro", texto: "la empatía, que empieza por leer una cara y un tono." },
+          { fuerte: "Manejar relaciones", texto: "que es en buena medida manejar las emociones de los demás." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es la que sostiene todo lo demás, y Goleman insiste en que es más rara de lo que parece. Reconocer la emoción mientras ocurre —esto que noto es miedo, y va dirigido a esto— no es lo mismo que quedarse dentro de ella. Cita estudios en los que basta con ponerle nombre a lo que se siente para que baje su intensidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ponerle nombre a lo que sientes, mientras lo sientes, baja su volumen. Es lo más barato que hay.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre la empatía aporta un dato que se cita mucho: la parte de un mensaje emocional que viaja por las palabras es pequeña, y casi todo va en el tono, la cara y el gesto. Y otro más incómodo: la capacidad de leer emociones ajenas se puede medir, se distribuye de forma muy desigual y correlaciona con lo bien que le va a alguien socialmente, no con su cociente intelectual.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Unos niños de cuatro años se quedaron solos con una nube de azúcar" },
+      {
+        b: "texto",
+        texto:
+          "En los años sesenta, Walter Mischel puso a niños de cuatro años delante de una golosina en una guardería de Stanford y les dijo que iba a salir un momento. Si aguantaban sin comérsela hasta que volviera, tendrían dos. Un tercio aguantó los quince minutos. Los demás no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hizo famoso el experimento fue el seguimiento. Cuando aquellos niños llegaron a la adolescencia, los que habían aguantado eran descritos por sus padres y profesores como más capaces de concentrarse, de afrontar la frustración y de mantener amistades, y su nota en las pruebas de acceso a la universidad era considerablemente más alta que la de los que se la comieron enseguida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A los cuatro años, aguantar quince minutos sin comerse una golosina predecía más cosas que cualquier prueba de inteligencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo interesante es cómo aguantaban los que aguantaban. No apretando los dientes: se tapaban los ojos, cantaban, jugaban con las manos, se daban la vuelta. Es decir, no ejercían fuerza de voluntad, sino que se organizaban la atención para no tener que ejercerla. Eso ya no es un rasgo, es una técnica.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goleman apoya en este estudio la parte del libro que se ocupa de la escuela, y en un montón de investigación sobre programas de aprendizaje social y emocional: cursos que enseñan a los niños a nombrar lo que sienten, a resolver una disputa hablando y a esperar el turno. Los resultados que cita —menos peleas, menos expulsiones y algo más de rendimiento— se han confirmado después en revisiones amplias, y es la parte del libro que mejor ha aguantado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El enfado sostenido hace por el corazón lo que hace el tabaco" },
+      {
+        b: "texto",
+        texto:
+          "Una parte considerable del libro se ocupa de la relación entre emociones y salud, y aquí Goleman reúne investigación bastante sólida. La hostilidad crónica —no el enfado puntual, sino la desconfianza y la irritabilidad permanentes— aparece en varios estudios de seguimiento como factor de riesgo cardiovascular con un peso comparable al de otros factores clásicos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo con la ansiedad sostenida y con la depresión, que empeoran el pronóstico de enfermos con problemas cardíacos y retrasan la recuperación después de una cirugía. Y con el estrés prolongado, que deprime la respuesta inmunitaria de manera medible.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las emociones no están en la cabeza: se les puede tomar la tensión y contar en un análisis de sangre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Goleman saca de aquí un argumento sobre la medicina que en 1995 sonaba raro: si el estado emocional influye en cómo evoluciona un enfermo, atenderlo no es amabilidad, es parte del tratamiento. Cita programas en los que enseñar a manejar la ansiedad a pacientes operados acortaba días de hospital.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También le sirve para la otra mitad de la ecuación: el apoyo social. Vivir solo y sin nadie a quien contarle las cosas aparece en varios estudios como riesgo de salud por sí mismo. No es un asunto de compañía agradable; es que las relaciones aparecen en las tablas de mortalidad.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En una pareja, lo que rompe no es discutir sino cuatro maneras de hacerlo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para la parte de las relaciones, Goleman se apoya en el trabajo de John Gottman, que grabó a cientos de matrimonios discutiendo en un laboratorio y midió pulso, gestos y palabras. Gottman encontró que no importa cuánto discute una pareja, sino cómo, y aisló cuatro comportamientos que predicen la ruptura con una fiabilidad alta.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "La crítica global", texto: "no «has olvidado la compra» sino «eres un desastre»." },
+          { fuerte: "El desprecio", texto: "el sarcasmo, el insulto, poner los ojos en blanco. El peor de los cuatro." },
+          { fuerte: "La defensa", texto: "contestar a cada reproche con otro, sin admitir ni una parte." },
+          { fuerte: "El muro", texto: "dejar de responder y desconectar, que es lo que hacen más ellos." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "Debajo hay fisiología. Cuando el pulso pasa de unas cien pulsaciones, la persona está inundada: ya no oye lo que le dicen, solo se defiende. Gottman demostró que a partir de ahí la conversación no puede ir bien, haga lo que haga el otro, y que la única salida es parar veinte minutos y volver.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cuando el pulso se dispara, deja de haber conversación. Lo único útil es parar y volver dentro de un rato.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el trabajo aplica lo mismo a las críticas. Sostiene que la crítica global —eres poco fiable— no deja nada que corregir y produce el mismo bloqueo, mientras que la crítica concreta sobre un hecho y con una salida —esto de aquí falló, y así se arregla— se puede aceptar sin humillarse. Es la misma distinción, de un contexto a otro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Esto no viene de fábrica: se aprende, y hay edades mejores" },
+      {
+        b: "texto",
+        texto:
+          "La tesis con más consecuencias del libro es que estas capacidades se pueden enseñar. El cociente intelectual es bastante estable, y estas no: la parte del cerebro que se ocupa de ellas —los circuitos prefrontales que regulan la amígdala— sigue madurando hasta bien entrada la adolescencia, lo que abre una ventana larga.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su propuesta de alfabetización emocional en la escuela, y su descripción de qué hacen esos programas: enseñar vocabulario para lo que se siente, practicar cómo se resuelve una disputa sin pegarse, ensayar el turno de palabra, aprender a leer la cara del otro. Todo bastante poco espectacular.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que decide buena parte de una vida no se enseña en ninguna asignatura, y sin embargo se puede enseñar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para adultos su receta es más modesta y se reduce a tres movimientos: darse cuenta de la emoción mientras ocurre, ganar tiempo cuando aparece el secuestro, y practicar deliberadamente la escucha en vez de la respuesta. No promete transformaciones; habla de años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra con el argumento social. Goleman escribía en un país que veía subir la violencia juvenil y la depresión adolescente, y sostiene que esos indicadores no se corrigen con más contenidos escolares. Es la parte más de época del libro y también la que le dio la repercusión que tuvo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que hay una segunda clase de inteligencia, hecha de cinco capacidades, que no aparece en ninguna prueba escolar y que explica una parte importante de cómo le va a la gente. Se apoya en fisiología —el atajo del tálamo a la amígdala—, en estudios de seguimiento y en investigación sobre parejas, salud y escuela, y su conclusión es que todo eso se aprende.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber juntado en un solo tomo investigación que estaba dispersa en revistas de neurociencia, de psicología del desarrollo y de medicina conductual, y haberla contado de modo que la leyera gente que no iba a abrir ninguna de esas revistas. Treinta años después, que las escuelas hablen de gestión emocional y que las empresas midan competencias blandas viene en línea recta de aquí.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las notas dicen cómo te fue en el colegio. Lo que decide bastante de lo demás no se examina en ninguna parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La cifra que todo el mundo repite —que la inteligencia emocional explica el ochenta por ciento del éxito— no está en el libro, salió de la campaña de prensa y de la portada de la revista Time, y Goleman tardó años en desmentirla con claridad. Lo que dicen los estudios es que predice algo por encima del cociente intelectual y de la personalidad, y ese algo es real pero mucho más pequeño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay dos problemas más. El experimento de las nubes de azúcar, que es el corazón del capítulo sobre niños, se repitió en 2018 con una muestra diez veces mayor y variada: el efecto se redujo mucho al tener en cuenta el nivel socioeconómico de la familia, lo que sugiere que buena parte de lo que medía era el entorno del niño y no su carácter. Además, Goleman mete bajo una sola etiqueta cosas muy distintas —empatía, optimismo, autocontrol, sociabilidad— y esa amplitud es lo que le permite explicarlo todo y lo que hace difícil medirlo.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   Pensar rápido, pensar despacio, en ocho páginas.
+
+   El libro más denso de los que hay escritos aquí: cuarenta años de
+   investigación y unos treinta sesgos con nombre. Meterlos todos habría
+   dado una lista, así que se eligen los que se pueden demostrar con un
+   experimento contable en tres frases —Linda, el bate y la pelota, los
+   jueces israelíes, las colonoscopias— y los demás se dejan fuera.
+
+   Divulgación científica, así que NO va en segunda persona salvo cuando el
+   lector es el sujeto del experimento. La conclusión tiene que decir lo de
+   la crisis de replicación, que afecta a un capítulo entero y que el propio
+   Kahneman reconoció por escrito.
+   -------------------------------------------------------------------------- */
+
+const PENSAR_RAPIDO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un bate y una pelota cuestan 1,10 euros: casi todo el mundo falla" },
+      {
+        b: "texto",
+        texto:
+          "Un bate y una pelota cuestan un euro con diez en total. El bate cuesta un euro más que la pelota. ¿Cuánto cuesta la pelota? A casi todo el mundo se le aparece diez céntimos, y es falso: si la pelota costara diez, el bate costaría un euro con diez y el total sería un euro con veinte. La respuesta es cinco céntimos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante no es fallar, es cómo se falla. La respuesta equivocada llega sola, sin esfuerzo, con una sensación de evidencia. Comprobarla exige pararse. Y más de la mitad de los estudiantes de Harvard, del MIT y de Princeton a los que se les planteó dieron los diez céntimos: no es un problema de inteligencia, es un problema de que casi nadie se para.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La respuesta que aparece sola es rápida, cómoda y frecuentemente falsa. Comprobarla cuesta un esfuerzo que casi nadie hace.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Daniel Kahneman ganó el Nobel de Economía en 2002 sin haber dado una sola clase de economía: es psicólogo, y el premio se lo dieron por el trabajo que hizo con Amos Tversky demostrando que la gente no decide como los modelos económicos suponían. Tversky había muerto seis años antes y el Nobel no se concede a título póstumo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: primero los dos sistemas con los que pensamos, después los atajos que usa el rápido y en qué se equivoca, después por qué perder duele el doble que ganar, y por último por qué recordamos las cosas de una manera que no se parece a como las vivimos. La conclusión dice también dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tienes dos maneras de pensar y una de ellas es muy vaga" },
+      {
+        b: "texto",
+        texto:
+          "Kahneman propone hablar de dos sistemas, y avisa de que son un modo de hablar y no dos sitios del cerebro. El sistema 1 funciona solo, deprisa, sin esfuerzo y sin que uno pueda apagarlo. El sistema 2 es la atención deliberada, hace las cosas difíciles y es lento y perezoso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La diferencia se nota con dos ejemplos. Ver la cara de alguien enfadado y saber que está enfadado: sistema 1, instantáneo, imposible de evitar. Multiplicar diecisiete por veinticuatro: sistema 2, y mientras lo haces se te dilatan las pupilas, te sube el pulso y, si vas andando, aflojas el paso.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Sistema 1", texto: "automático, rápido, emocional. Está siempre encendido y propone respuestas." },
+          { fuerte: "Sistema 2", texto: "lento, deliberado, costoso. Debería revisar, y casi siempre firma sin leer." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El reparto de papeles es lo que causa los problemas. El 1 propone impresiones e intuiciones; el 2 las adopta, normalmente sin comprobarlas. Kahneman lo describe con una imagen dura: el sistema 2 se cree el protagonista y en realidad es un secundario que da el visto bueno.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El sistema 2 se cree el que decide. Casi siempre se limita a aprobar lo que el 1 ya ha decidido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una demostración célebre de lo estrecha que es la atención: en un vídeo donde unos jugadores se pasan una pelota, mientras el espectador cuenta los pases, la mitad de la gente no ve pasar a alguien disfrazado de gorila por el centro de la escena. No es que no mirasen: es que el sistema 2 estaba ocupado en otra cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Linda no puede ser más probable siendo dos cosas que siendo una" },
+      {
+        b: "texto",
+        texto:
+          "El experimento más citado de Kahneman y Tversky es este. Se describe a Linda: treinta y un años, soltera, franca, muy brillante, licenciada en filosofía, preocupada de estudiante por la discriminación y la justicia social, participante en manifestaciones antinucleares. ¿Qué es más probable: que Linda sea cajera de banco, o que sea cajera de banco y feminista?",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cerca del noventa por ciento elige la segunda, incluidos estudiantes de doctorado con formación en estadística. Y es imposible: dos condiciones a la vez nunca pueden ser más probables que una sola de ellas, porque las cajeras feministas son un subconjunto de las cajeras. La descripción encaja mejor con la historia, y el sistema 1 confunde encajar con ser probable.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una historia coherente parece más probable que una menos detallada, aunque las matemáticas digan lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A eso lo llaman heurística de representatividad, y explica bastante más que un acertijo. Es la razón por la que un plan detallado parece más realista que uno vago, por la que un diagnóstico que encaja con el tópico se impone al que dicen los números, y por la que una previsión con muchos pasos concretos convence más que una prudente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El error de fondo es olvidar la frecuencia de base. Si en un campus hay setenta ingenieros y treinta juristas, y te describen a alguien ordenado y aficionado a los puzles, la descripción te arrastra al ingeniero y te hace olvidar que la proporción ya te lo decía. Kahneman demostró que basta con dar una descripción totalmente neutra para que la gente deje de usar los porcentajes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un número dicho al azar cambia lo que estás dispuesto a pagar" },
+      {
+        b: "texto",
+        texto:
+          "En uno de sus experimentos hicieron girar una ruleta trucada que solo se paraba en el 10 o en el 65, delante de estudiantes. Después les preguntaban qué porcentaje de países africanos hay en la ONU. Los que habían visto el 10 daban una media del veinticinco por ciento; los que habían visto el 65, del cuarenta y cinco. La ruleta no tenía nada que ver con nada y les movió la respuesta veinte puntos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El anclaje funciona igual fuera del laboratorio. En una tienda, poner un cartel de máximo doce por cliente hace que la gente se lleve más unidades que sin cartel. En una negociación, la primera cifra que se dice condiciona todo lo que viene después, aunque las dos partes sepan perfectamente que es una postura de salida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cualquier número que tengas en la cabeza al empezar a estimar te va a arrastrar, aunque sepas que no significa nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto al anclaje va la disponibilidad, que es juzgar la frecuencia de algo por lo fácil que resulta recordar un caso. Por eso la gente sobreestima las muertes por accidente de avión, por atentado o por tiburón —salen en las noticias— e infravalora las que produce la diabetes o un ictus. La probabilidad que sentimos es la de los titulares.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y Kahneman añade una vuelta de tuerca: cuando se le pide a alguien que enumere doce situaciones en las que fue asertivo, acaba considerándose menos asertivo que quien enumeró solo seis. Doce cuesta trabajo, y esa dificultad se interpreta como prueba de que no hay tantas. No cuenta el contenido: cuenta lo que costó recordarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Perder cien euros duele el doble de lo que alegra ganarlos" },
+      {
+        b: "texto",
+        texto:
+          "La teoría por la que le dieron el Nobel se llama teoría prospectiva, y corrige un supuesto que la economía daba por bueno: que la gente decide mirando el resultado final. No lo hace. Decide mirando el cambio respecto a donde está, y da mucho más peso a lo que pierde que a lo que gana.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La proporción está medida y ronda el doble. Casi nadie acepta una apuesta a cara o cruz en la que puede ganar ciento cincuenta euros o perder cien, aunque las cuentas digan que conviene. Para que la mayoría entre, la ganancia tiene que doblar a la pérdida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No somos avaros: somos aversos a perder. Y eso explica más decisiones que cualquier cálculo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen consecuencias por todas partes. El efecto dotación: en cuanto tienes una cosa, pides más por venderla de lo que habrías pagado por comprarla, y el experimento clásico se hizo con tazas de café. La resistencia a cualquier reforma que quite algo pequeño a mucha gente para dar mucho a unos pocos. Y el modo en que se presenta una operación: decir que sobrevive el noventa por ciento y decir que muere el diez por ciento son el mismo dato, y los médicos deciden distinto según cuál lean.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kahneman añade un detalle que completa el cuadro: las probabilidades pequeñas se sobrevaloran. Eso explica que la misma persona compre lotería y seguro de hogar el mismo día, que parece contradictorio y no lo es: en los dos casos está pagando de más por un suceso improbable.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los jueces conceden más libertades condicionales después de comer" },
+      {
+        b: "texto",
+        texto:
+          "Un estudio con jueces israelíes que revisaban peticiones de libertad condicional encontró que la proporción de decisiones favorables era alta al empezar la sesión, caía casi a cero según pasaban las horas y volvía a subir después de cada pausa para comer. El expediente no cambiaba; cambiaba la hora.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kahneman lo usa para una de sus tesis más incómodas: la intuición experta no es fiable en cualquier terreno. Y da la condición que la separa de la superstición: hace falta un entorno con regularidades estables y una retroalimentación rápida y clara. Un bombero o un ajedrecista la tienen; un analista que predice la bolsa a un año, no.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La intuición sirve donde el mundo repite y avisa pronto de los errores. Donde no, es confianza sin información.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su defensa de las fórmulas sencillas. Cita casos en los que un algoritmo con cuatro variables predice mejor que un experto —el éxito de una cosecha de vino, la evolución de un paciente, el rendimiento de un candidato— y explica por qué: la fórmula no tiene mal día ni se deja impresionar por un detalle vistoso, y el experto sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su propia experiencia militar le sirve de ejemplo. Diseñando entrevistas de selección para el ejército israelí, descubrió que puntuar seis rasgos concretos por separado, con preguntas fijas, y sumar después, predecía bastante mejor que la impresión global del entrevistador. Y que los entrevistadores odiaban hacerlo así.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Una colonoscopia más larga se recuerda como menos dolorosa" },
+      {
+        b: "texto",
+        texto:
+          "La última parte del libro separa dos cosas que solemos tratar como una: el yo que experimenta, que vive el momento, y el yo que recuerda, que después cuenta la historia y toma las decisiones. Y demuestra que no coinciden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En un estudio se pidió a pacientes de colonoscopia —cuando aún se hacían sin sedación— que puntuaran su dolor cada sesenta segundos. Después se les preguntaba cuánto habían sufrido en total. La duración de la prueba no influía casi nada en el recuerdo: lo que decidía era el momento peor y el final. Un paciente con una prueba más larga, pero cuyos últimos minutos fueron menos dolorosos, la recordaba como mejor que otro con una prueba corta que acabó en lo peor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "De una experiencia se recuerda el pico y el final. La duración casi no cuenta, y por eso elegimos como elegimos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Kahneman lo llama la negligencia de la duración, y de ahí saca una de las preguntas más raras del libro: si supieras que al terminar unas vacaciones te van a borrar todas las fotos y todos los recuerdos, ¿elegirías las mismas vacaciones? Casi nadie dice que sí, lo que revela que no organizamos la vida para vivirla sino para poder recordarla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y lo aplica a la felicidad, distinguiendo dos cosas que las encuestas mezclan: cómo se siente uno durante el día y cuánto le satisface su vida cuando se lo preguntan. Son medidas distintas, responden a factores distintos, y confundirlas es la razón por la que los estudios sobre dinero y felicidad se contradicen tanto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que pensamos con dos aparatos, que el rápido decide casi siempre y usa atajos que fallan de maneras predecibles, y que el lento revisa mucho menos de lo que cree. Sobre eso monta un catálogo de errores con nombre —anclaje, disponibilidad, representatividad, aversión a la pérdida— y una conclusión práctica que no es la que se espera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Porque Kahneman es tajante en algo: conocer los sesgos casi no protege de ellos. Después de cuarenta años estudiándolos, dice que sigue cayendo en los mismos. Lo que sí puede cambiar es el vocabulario de una organización, que permite que alguien diga en voz alta que ese plan está anclado o que esa historia solo parece verosímil, y que se establezcan procedimientos —listas fijas, puntuaciones separadas, una fórmula— que decidan por uno cuando la intuición no es de fiar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No vas a dejar de equivocarte por saber cómo te equivocas. Pero vas a poder ponerle nombre al error de otro, y eso ya sirve.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la base entera de la economía del comportamiento, que después ha llegado a las políticas públicas, al diseño de productos y a la medicina. Y una manera de mirar las propias certezas con desconfianza que no se olvida.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El capítulo sobre priming —los estudios en los que leer palabras relacionadas con la vejez hace andar más despacio— no ha resistido los intentos de replicación, y el propio Kahneman escribió en 2017 una nota pública reconociendo que había confiado demasiado en estudios con muestras pequeñas y que ese capítulo no se sostenía. El de los jueces israelíes también ha sido discutido, porque el orden de los casos no era aleatorio. El armazón principal —los dos sistemas, la teoría prospectiva— sigue en pie; algunos de los ejemplos más llamativos, no. Y hay una crítica de fondo que Gerd Gigerenzer lleva décadas haciendo: llamar error a un atajo que funciona bien en el mundo real, y solo falla en problemas de laboratorio, es una manera tramposa de contar los aciertos.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "pensar-rapido": PENSAR_RAPIDO,
+  "inteligencia-emocional": INTELIGENCIA_EMOCIONAL,
   "mente-millonaria": MENTE_MILLONARIA,
   "piensa-hazte-rico": PIENSA_HAZTE_RICO,
   "amigos-influir": AMIGOS_INFLUIR,

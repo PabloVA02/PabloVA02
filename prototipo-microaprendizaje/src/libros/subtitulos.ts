@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "pensar-rapido": "Cómo tomamos decisiones y por qué nos equivocamos",
+  "inteligencia-emocional": "Por qué puede importar más que el cociente intelectual",
   "mente-millonaria": "Domina el juego interior de la riqueza",
   "piensa-hazte-rico": "El libro que fundó la literatura del éxito",
   "amigos-influir": "El libro más famoso sobre relaciones humanas",

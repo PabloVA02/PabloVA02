@@ -31,7 +31,6 @@ const CARGADORES: Record<string, Cargador> = {
   /* Psicología */
   influencia: () => import("./psicologia").then((m) => m.INFLUENCIA),
   mindset: () => import("./psicologia").then((m) => m.MINDSET),
-  "inteligencia-emocional": () => import("./psicologia").then((m) => m.INTELIGENCIA_EMOCIONAL),
 
   /* Economía */
   "hombre-rico-babilonia": () => import("./economia").then((m) => m.BABILONIA),
@@ -106,7 +105,6 @@ const CARGADORES: Record<string, Cargador> = {
   "steve-jobs": () => import("./economia").then((m) => m.STEVE_JOBS),
 
   /* Psicología */
-  "pensar-rapido": () => import("./psicologia").then((m) => m.PENSAR_RAPIDO),
   flow: () => import("./psicologia").then((m) => m.FLOW),
   educada: () => import("./psicologia").then((m) => m.EDUCADA),
 
