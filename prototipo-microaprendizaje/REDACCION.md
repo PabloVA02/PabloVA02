@@ -299,6 +299,44 @@ afirmar para dar instrucciones, que es cosa de la caja del rayo o de nadie.
    dinero, empresa— se le habla al lector de tú, que es lo que hace Headway.
    En uno de historia o de ciencia, no: ahí suena a folleto.
 
+### La gramática, mirada de cerca
+
+De la captura de *1984* del 21 de agosto —siete páginas— salen las reglas de
+forma. Pablo lo dijo al mandarla: *«no te lo paso para que lo copies, es para
+que aprendas la forma de redacción gramatical, la forma de contarlo»*. Esto es
+lo que se puede copiar sin copiar nada:
+
+1. **Frases cortas y sujeto explícito.** De quince a veinte palabras, una idea
+   por frase, casi sin subordinadas encadenadas. Si una frase necesita dos
+   comas para respirar, son dos frases.
+2. **Presente para lo general, pasado para lo que pasa dentro del libro.** «El
+   totalitarismo es un régimen en el que…» va en presente; «en la novela, el
+   clasismo dividía a la sociedad» va en pasado. Mezclarlos marea.
+3. **El término se define la primera vez, en la misma frase.** «La propaganda
+   es un conjunto concertado de mensajes destinados a influir en grandes
+   grupos.» Nunca se usa una palabra técnica y se explica dos párrafos después.
+4. **El párrafo abre con la afirmación**, no con el contexto. Primera frase, lo
+   que se sostiene; las tres siguientes, por qué. Nada de «conviene recordar
+   que antes de nada…».
+5. **Conectores llanos y pocos**: por eso, en cambio, además, así que. Fuera
+   «no obstante», «asimismo», «cabe destacar», «en este sentido».
+6. **Los nombres propios del libro, entre comillas la primera vez**: «Gran
+   Hermano», «Policía del Pensamiento», «primer dardo». Después, sin ellas.
+7. **La segunda persona entra solo donde el texto se vuelve consejo**, y sale
+   en cuanto vuelve a explicar. En medio de una explicación histórica, no.
+8. **El párrafo cierra la idea**; no se deja colgando para el siguiente. Y el
+   último de la página vuelve al titular con otras palabras.
+9. **Párrafos de tres a seis líneas de móvil.** Uno de diez líneas no se lee:
+   se salta.
+
+Y el aviso que trae esa misma captura, que es la mejor prueba de la regla (a)
+del apartado siguiente: en siete páginas sobre *1984* no aparece ni una vez
+Winston, ni Julia, ni O\'Brien, ni la habitación 101, ni la neolengua, ni el
+final. Es un ensayo correcto sobre el totalitarismo en general que podría
+llevar delante el título de otras cinco novelas. La forma es impecable y el
+contenido está vacío: **se copia lo primero y se hace lo contrario con lo
+segundo.**
+
 ## 4 bis. Los cuatro casos que dan problemas
 
 Estos salieron escribiendo, uno por uno, y cada uno costó una reescritura. Van
