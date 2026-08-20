@@ -4,6 +4,12 @@ import { spring, springPop, springSoft } from "./motion";
 /* ==========================================================================
    «¿Te está gustando?»
 
+   OJO: esta tarjeta YA NO SE MONTA. El 21 de agosto Pablo mandó la captura de
+   Headway pidiendo la reseña con estrellas y pidió «algo así», así que el
+   aviso pasó a ser `Resena.tsx`, que hace lo mismo y además pregunta. Lo que
+   sobrevive de aquí, y por eso el fichero no se borra, es EL COHETE: se
+   exporta y lo pinta la tarjeta nueva.
+
    El aviso que pide valoración. Aparece de vez en cuando —no al entrar, sino
    cuando ya has leído algo— y por eso puede permitirse ser bonito: no está
    interrumpiendo, está celebrando.

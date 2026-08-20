@@ -19,7 +19,7 @@ import { AntiScroll } from "./AntiScroll";
 import { Lector } from "./Lector";
 import { PAGINAS, paginasDeResumen } from "./libros/paginas";
 import { AvisoRegalo, Oferta } from "./Regalo";
-import { AvisoValoracion } from "./Valoracion";
+import { Resena, tocaPedirResena } from "./Resena";
 import { enterVariants, spring, springPop, springSoft, springTight } from "./motion";
 import { GlyphBiblioteca, GlyphLibros, GlyphLupa, GlyphRayo } from "./glyphs";
 
@@ -75,7 +75,15 @@ export default function App() {
   /** Los temas que marcó en la introducción. Ordenan la estantería. */
   const [intereses, setIntereses] = useState<string[]>([]);
   /** Tarjetas leídas. Sube al terminar un capítulo o un short. */
-  const [leidas, setLeidas] = useState(0);
+  /* Cuántos resúmenes lleva terminados. Arranca en cero salvo que la página
+     diga otra cosa: `?leidas=6` es lo que permite mirar el aviso de reseña sin
+     leerse seis resúmenes seguidos, igual que `?p=` permite abrir una pantalla
+     suelta. Ver el comienzo de este fichero. */
+  const [leidas, setLeidas] = useState(() => {
+    if (typeof window === "undefined") return 0;
+    const n = Number(new URLSearchParams(window.location.search).get("leidas"));
+    return Number.isFinite(n) && n > 0 ? n : 0;
+  });
   /** Minutos de lectura de hoy, su meta y el total acumulado de siempre.
       Los dos arrancan con historial de ejemplo, como la racha: un perfil a
       cero no enseña ni el arco lleno a medias ni el contador subiendo, que es
@@ -193,8 +201,14 @@ export default function App() {
   // La valoración no se pide al entrar, sino cuando vuelves al inicio después
   // de haber leído. Preguntar «¿te gusta?» a quien no ha usado nada todavía es
   // pedirle que se invente una respuesta, y encima molesta.
+  /* Y además las reglas de frecuencia de `tocaPedirResena`: suscrito, con
+     tres resúmenes terminados, una vez cada cuarenta y cinco días y dos veces
+     como mucho en la vida. Pablo lo pidió así el 21 de agosto —«te deberá
+     aparecer cuando te suscribas, cada cierto tiempo»—, y «cada cierto
+     tiempo» tiene que significar algo o se convierte en cada semana. */
   useEffect(() => {
     if (pantalla !== "inicio" || valoracionVista || leidas < 6 || avisoRegalo) return;
+    if (!tocaPedirResena({ suscrito: true, terminados: leidas })) return;
     const id = window.setTimeout(() => {
       setValoracion(true);
       setValoracionVista(true);
@@ -405,10 +419,12 @@ export default function App() {
 
         <AnimatePresence>
           {valoracion && pantalla === "inicio" && (
-            <AvisoValoracion
+            <Resena
               key="valoracion"
+              racha={RACHA}
+              terminados={leidas}
               reducido={!!reducido}
-              onResponder={() => setValoracion(false)}
+              onCerrar={() => setValoracion(false)}
             />
           )}
         </AnimatePresence>
