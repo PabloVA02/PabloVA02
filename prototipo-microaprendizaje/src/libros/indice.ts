@@ -80,7 +80,6 @@ const CARGADORES: Record<string, Cargador> = {
   hobbit: () => import("./literatura").then((m) => m.HOBBIT),
 
   /* Filosofía */
-  principe: () => import("./filosofia").then((m) => m.PRINCIPE),
   "brevedad-vida": () => import("./filosofia").then((m) => m.BREVEDAD_VIDA),
   zaratustra: () => import("./filosofia").then((m) => m.ZARATUSTRA),
   sisifo: () => import("./filosofia").then((m) => m.SISIFO),
@@ -97,7 +96,6 @@ const CARGADORES: Record<string, Cargador> = {
   "crimen-castigo": () => import("./literatura").then((m) => m.CRIMEN_CASTIGO),
   extranjero: () => import("./literatura").then((m) => m.EXTRANJERO),
   "dorian-gray": () => import("./literatura").then((m) => m.DORIAN_GRAY),
-  "arte-guerra": () => import("./filosofia").then((m) => m.ARTE_GUERRA),
   "senor-moscas": () => import("./literatura").then((m) => m.SENOR_MOSCAS),
   "homo-deus": () => import("./historia").then((m) => m.HOMO_DEUS),
   dracula: () => import("./literatura").then((m) => m.DRACULA),

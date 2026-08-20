@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  principe: [
+    "por qué describe cómo se gobierna y no cómo debería",
+    "por qué es más seguro ser temido que amado",
+    "por qué el daño va de golpe y el favor a plazos",
+    "qué tienen que ver la zorra y el león",
+    "qué pide el último capítulo, que casi nadie lee",
+  ],
+
+  "arte-guerra": [
+    "los cinco factores que se calculan antes de empezar",
+    "por qué asediar una ciudad es siempre el peor recurso",
+    "las reglas concretas del engaño, una por una",
+    "por qué pagar espías sale más barato que la guerra",
+    "cuándo un general debe desobedecer a su rey",
+  ],
+
   "cien-anos": [
     "por qué se repiten los nombres de los Buendía",
     "en qué consiste de verdad el realismo mágico",

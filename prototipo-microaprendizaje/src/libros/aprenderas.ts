@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  principe:
+    "Maquiavelo lo escribió en el destierro, después de que lo encarcelaran y lo torturaran, para intentar que le devolvieran el puesto que había ocupado quince años. No se lo devolvieron, y el libro no se publicó en vida suya.",
+
+  "arte-guerra":
+    "El libro de guerra más famoso del mundo sostiene que ganar cien batallas de cien no es la excelencia: la excelencia es someter al enemigo sin combatir y quedarse su territorio intacto. Todo lo demás se ordena debajo de esa idea.",
+
   "cien-anos":
     "José Arcadio Buendía mata a un hombre y el muerto empieza a aparecérsele en el patio. Huye con los suyos, cruza la sierra y funda un pueblo donde nadie los conozca. Cien años después, un viento lo borra del mapa.",
 

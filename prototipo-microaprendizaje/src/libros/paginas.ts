@@ -9794,7 +9794,612 @@ const CIEN_ANOS: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El arte de la guerra, en ocho páginas.
+
+   El libro más citado y menos leído de esta biblioteca: son unas cincuenta
+   páginas de máximas, y circula convertido en frases de despacho. El
+   resumen tiene que devolverle el ARGUMENTO, que existe y es coherente:
+   ganar sin combatir es el objetivo, y todo lo demás son medios.
+
+   Dos trampas. La primera, llenar el resumen de citas: quedaría un póster.
+   La segunda, el uso empresarial —«tu competencia es el enemigo»— que es lo
+   que lo ha vendido y lo que peor lo representa; va en la conclusión.
+
+   Tercera persona: es un tratado antiguo, no un manual de hoy. Y hay que
+   decir lo que se sabe y no se sabe de su autoría, que es poco y discutido.
+   -------------------------------------------------------------------------- */
+
+const ARTE_GUERRA: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El libro de guerra más famoso del mundo dice que lo mejor es no combatir",
+      },
+      {
+        b: "texto",
+        texto:
+          "La afirmación central de este tratado no es cómo ganar batallas. Es que ganar cien batallas de cien no es la excelencia suprema, y que la excelencia consiste en someter al enemigo sin luchar. Todo lo demás del libro se ordena debajo de esa frase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón que da no es moral sino contable. Una guerra larga arruina al Estado que la hace: agota el tesoro, deja los campos sin brazos, encarece el grano y desgasta al ejército, y cuando eso ocurre aparecen otros aprovechando la debilidad. Ningún país, escribe, se ha beneficiado nunca de una guerra prolongada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Someter al enemigo sin combatir es la excelencia suprema. Cien victorias en cien batallas no lo son.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El texto se atribuye a Sun Tzu, un general que la tradición sitúa en el siglo V antes de Cristo, en el período de los Estados combatientes. De su vida no se sabe casi nada seguro, y una parte de los estudiosos duda de que existiera como personaje único: es probable que el libro sea obra de varias manos a lo largo de generaciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Son trece capítulos breves, escritos como máximas, sin apenas ejemplos ni historias. Esa forma explica a la vez su fama —se cita con facilidad— y su mala lectura, porque una máxima suelta pierde el sistema del que forma parte.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese sistema: qué hay que calcular antes de empezar, por qué la información lo decide todo, cómo se ataca la estrategia del otro en vez de sus tropas, y qué dice de quien manda. La conclusión dice también dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La batalla se gana antes de empezar, en el despacho" },
+      {
+        b: "texto",
+        texto:
+          "El primer capítulo trata de cálculos, y su idea es que el resultado de una campaña se puede estimar antes de que salga un solo soldado. Sun Tzu enumera cinco factores que hay que comparar entre los dos bandos, y sostiene que quien haga esas cuentas con honestidad sabrá si va a ganar.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "La causa", texto: "si el pueblo está de acuerdo con su gobernante y le seguirá hasta la muerte." },
+          { fuerte: "El clima", texto: "las estaciones, el frío y el calor, el momento del año." },
+          { fuerte: "El terreno", texto: "las distancias, lo abrupto, lo abierto, las posibilidades de vida o muerte." },
+          { fuerte: "El mando", texto: "la sabiduría, la sinceridad, el valor y la disciplina del general." },
+          { fuerte: "El método", texto: "la organización, las cadenas de mando y el control del gasto." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "El que hace muchos cálculos antes de la batalla, gana. El que hace pocos, pierde. ¿Cuánto más el que no hace ninguno?",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo interesante es el orden: el primer factor no es militar. Sun Tzu pone en primer lugar si la población respalda la empresa, y eso lo distingue de casi toda la literatura militar posterior, que empieza por las tropas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Del cálculo económico se ocupa el segundo capítulo, y es de una modernidad sorprendente. Cuenta lo que cuesta mantener un ejército en campaña, señala que el transporte de suministros arruina más que el combate y recomienda alimentarse de las provisiones del enemigo, porque un carro capturado vale por veinte propios.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su conclusión sobre el tiempo: la rapidez es la esencia de la guerra. Nunca se ha visto que una operación militar inteligente fuera larga.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay que atacar la estrategia del enemigo, no sus soldados" },
+      {
+        b: "texto",
+        texto:
+          "El tercer capítulo establece un orden de preferencia que es el corazón del libro. Lo mejor es atacar los planes del enemigo. Lo siguiente, romper sus alianzas. Lo siguiente, atacar a su ejército. Y lo peor de todo, asediar ciudades amuralladas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El asedio queda el último porque es lo más caro: preparar el material lleva meses, los hombres se consumen, y un general impaciente acaba lanzando a sus tropas contra los muros y perdiendo un tercio de ellas sin tomar la plaza. Sun Tzu lo describe como el recurso de quien no ha sabido hacer otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ganar es tomar el país entero intacto. Destruirlo es un resultado peor, aunque también se llame victoria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa insistencia en conservar lo que se conquista aparece por todo el libro: es mejor capturar un ejército que aniquilarlo, mejor tomar una ciudad entera que arrasarla, y a los prisioneros hay que tratarlos bien e incorporarlos. La destrucción es un coste, no un objetivo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El capítulo termina con la fórmula que más se le cita y que resume su teoría del conocimiento: si conoces al enemigo y te conoces a ti mismo, no temerás el resultado de cien batallas; si te conoces a ti y no al enemigo, por cada victoria sufrirás una derrota; si no conoces ni al enemigo ni a ti mismo, sucumbirás en todas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una advertencia sobre el gobernante que estropea a su propio ejército: el que ordena avanzar o retirarse sin saber si es posible, el que se mete en la administración militar sin entenderla y el que reparte los mandos por favores.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Toda guerra se basa en el engaño, y el engaño tiene reglas" },
+      {
+        b: "texto",
+        texto:
+          "La afirmación de que toda guerra se basa en el engaño abre el libro casi al principio, y no es una frase suelta: viene seguida de una lista de operaciones concretas que forman un método.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando seas capaz, aparenta incapacidad. Cuando estés activo, aparenta inactividad. Si estás cerca, haz creer que estás lejos; si estás lejos, que estás cerca. Ofrece un cebo al enemigo codicioso. Finge desorden y golpéalo. Si es fuerte, evítalo. Si es colérico, irrítalo. Si es humilde, hazle crecer el orgullo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El objetivo no es que el enemigo no sepa qué vas a hacer: es que crea saberlo y se equivoque.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el capítulo sobre lo lleno y lo vacío, que es el más abstracto y el más útil. La idea es que el que llega primero al campo de batalla descansa y espera, y el que llega tarde llega agotado; y que hay que hacer que el enemigo se mueva a nuestra conveniencia, ofreciéndole algo que quiera o amenazando lo que tiene que defender.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su imagen para eso es el agua: así como el agua no tiene forma constante y se adapta al terreno por donde corre, un ejército no debe tener disposición fija y debe cambiar según el enemigo. Quien consigue vencer modificándose de acuerdo con el otro, escribe, merece llamarse un genio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí la consecuencia práctica: no repetir la táctica que dio la victoria anterior, porque el enemigo la ha visto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Pagar espías es más barato que perder una guerra" },
+      {
+        b: "texto",
+        texto:
+          "El último capítulo está dedicado enteramente a la información, y su argumento es económico. Mantener un ejército en campaña cuesta una fortuna diaria y arruina a miles de familias; escatimar en oro para saber lo que hace el enemigo, cuando eso puede decidir la campaña, es el colmo de la inhumanidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sun Tzu es tajante sobre de dónde sale la información buena: no de los dioses, ni de la analogía con hechos pasados, ni de cálculos astrológicos, sino de hombres que conocen la situación del enemigo. Es una afirmación notable en un mundo donde las campañas se decidían consultando oráculos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El conocimiento previo no se obtiene de los espíritus ni de los astros: se obtiene de personas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Clasifica cinco clases de espías: los locales, del territorio enemigo; los internos, funcionarios del otro bando; los dobles, agentes enemigos captados; los desechables, a los que se les da información falsa para que la transmitan; y los que regresan con noticias. Y sostiene que el doble es la pieza clave, porque de él salen todos los demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade además la exigencia de secreto: nadie en el ejército debe recibir mejor trato que los espías, y a la vez, quien conozca una operación de espionaje antes de tiempo debe morir junto a aquel a quien se lo contó. La información es el activo y se protege como tal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el capítulo que mejor explica por qué el libro se sigue leyendo fuera del terreno militar: trata la información como el recurso que decide, mucho antes de que nadie hablara de eso.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un general debe desobedecer al rey cuando el rey se equivoca" },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica bastante espacio a las cualidades de quien manda, y no son las que se esperarían de un tratado militar antiguo. Enumera cinco: sabiduría, sinceridad, benevolencia, valor y severidad. La sinceridad y la benevolencia están ahí en pie de igualdad con el valor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y enumera cinco defectos que llevan a la ruina: la temeridad, que lleva a morir; la cobardía, que lleva a la captura; la ira, que se puede provocar; el sentido del honor demasiado delicado, que se puede insultar; y la compasión excesiva por las tropas, que expone a que el enemigo agote al ejército con hostigamientos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay órdenes del soberano que no se obedecen. El general que las cumple sabiendo que son malas es peor general.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa afirmación —que un general en campaña no debe cumplir todas las órdenes del gobernante— es de las más audaces del texto, y va acompañada de su lógica: quien está lejos no ve el terreno ni el momento, y una orden que llega tarde puede destruir un ejército.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con la tropa recomienda una mezcla de trato y disciplina que resume en una imagen: hay que mirar a los soldados como a hijos y entonces le seguirán a uno hasta los valles más profundos; pero si se les consiente sin poder mandarlos, son como niños malcriados y no sirven para nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la observación sobre la desesperación como recurso: colocar a las tropas donde no puedan retirarse las hace luchar como no lo harían de otro modo. Es coherente con su sistema y también es lo más frío que dice.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todo el libro cabe en una idea: no pelear en desventaja" },
+      {
+        b: "texto",
+        texto:
+          "Si se apilan los trece capítulos, debajo hay un solo criterio repetido: no entrar en un enfrentamiento que no se puede ganar, y organizarlo todo —la información, el terreno, el momento, el engaño— para no tener que entrar en ninguno en malas condiciones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí que las máximas más famosas encajen unas con otras. Conócete y conoce al otro sirve para saber si conviene pelear. El engaño sirve para que el otro elija mal el momento. Los espías sirven para que uno lo elija bien. Y ganar sin combatir es lo que ocurre cuando todo lo anterior ha salido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El guerrero victorioso primero vence y luego va a la guerra; el derrotado va a la guerra primero y después busca la victoria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa coherencia es lo que se pierde cuando el libro se cita a trozos. Una máxima suelta —«toda guerra se basa en el engaño»— suena a cinismo; dentro del sistema es una pieza de un método cuyo objetivo declarado es que la guerra dure lo menos posible y destruya lo menos posible.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene también situarlo en su época. Está escrito en un mundo de estados pequeños en guerra permanente, con ejércitos de leva campesina y campañas que dependían de la cosecha. Muchas de sus recomendaciones concretas —vivir de las provisiones del enemigo, los cinco terrenos, el uso del fuego— pertenecen a ese contexto y no salen de él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que sí sale es la estructura: calcular antes, informarse siempre, evitar el desgaste y no repetirse.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El tratado sostiene que la guerra es un asunto de cálculo y de información antes que de valor, que arruina a quien la alarga, y que el resultado ideal es someter al enemigo sin combatir y quedarse su territorio intacto. Trece capítulos que giran alrededor de eso: calcular antes de mover, conocer al otro y a uno mismo, engañar sobre las propias intenciones y pagar bien a quien trae noticias.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es una manera de pensar cualquier conflicto que sigue siendo válida veinticinco siglos después, y una advertencia que la literatura militar posterior olvidó a menudo: que la victoria más cara es la que destruye lo que se quería conquistar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si conoces al enemigo y te conoces a ti mismo, no temerás el resultado de cien batallas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Empieza por lo que no sabemos: la autoría es dudosa, la biografía de Sun Tzu es en buena parte leyenda —incluido el célebre episodio de las concubinas del rey— y hay debate sobre si el texto es de un autor o de varias generaciones. Las ediciones que circulan varían bastante entre sí y algunas traducciones populares están muy adornadas respecto al original chino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y está el uso que lo ha hecho famoso, que es también el que peor lo representa. Convertido en manual de negocios —la competencia como enemigo, el mercado como campo de batalla—, se le arranca justo lo que lo hace valioso: un tratado cuya tesis central es evitar el enfrentamiento y conservar intacto lo que se disputa, leído como una guía para arrasar a alguien. Que se cite tanto y se lea tan poco es su mayor problema, y en cincuenta páginas no hay excusa.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El príncipe, en ocho páginas.
+
+   El problema de este libro es su reputación: «maquiavélico» significa hoy
+   lo contrario de lo que Maquiavelo era. Escribió esto en el destierro,
+   después de que lo torturaran, para intentar que le devolvieran un trabajo
+   en la república que había servido quince años.
+
+   Ese dato no es anécdota biográfica —regla 1—: es lo que explica el libro
+   entero, incluido su último capítulo, que casi nadie lee y que pide la
+   liberación de Italia. Va dentro.
+
+   Y hay que decir lo que el libro dice de verdad, incluida la parte
+   incómoda que a veces se disimula: sí recomienda la crueldad, con
+   condiciones. Disfrazarlo de manual de liderazgo sería lo mismo que le
+   hace todo el mundo al de Sun Tzu.
+   -------------------------------------------------------------------------- */
+
+const PRINCIPE: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo escribió un funcionario en paro al que acababan de torturar" },
+      {
+        b: "texto",
+        texto:
+          "Nicolás Maquiavelo fue durante quince años segundo canciller de la república de Florencia: negoció con Luis XII, con el papa y con el emperador, y organizó una milicia ciudadana. En 1512 los Médicis recuperaron el poder, la república cayó y él fue destituido, encarcelado y sometido a tormento por una conjura con la que no tenía nada que ver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Salió y se retiró a una finca pequeña a las afueras. Contó en una carta a un amigo cómo pasaba los días: por la mañana atendía el campo y discutía con leñadores, por la tarde jugaba a las cartas en la taberna con el carnicero y el molinero, y al anochecer se cambiaba de ropa, se ponía atuendo de corte y entraba en su despacho a leer a los antiguos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El libro más frío sobre el poder lo escribió alguien que acababa de perderlo todo y quería que le dieran otra vez un empleo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El príncipe salió de ahí, en 1513, escrito en unos meses y dedicado a Lorenzo de Médici. No se publicó en vida de su autor. Maquiavelo esperaba que aquel tratado le devolviera un puesto; nunca lo consiguió.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y ese origen explica la forma. No es filosofía política sino un informe: corto, práctico, sin apelaciones a Dios ni a la virtud cristiana, escrito por alguien que había visto de cerca cómo se toma y se pierde un Estado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: qué se propone el libro, qué dice sobre la crueldad y el miedo, qué papel deja a la suerte, y qué pide su último capítulo. La conclusión dice también dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Se propone contar cómo se gobierna de verdad, no cómo debería gobernarse",
+      },
+      {
+        b: "texto",
+        texto:
+          "En el capítulo quince, Maquiavelo anuncia lo que está haciendo y por qué se separa de todos los que escribieron antes. Dice que muchos han imaginado repúblicas y principados que nunca se vieron ni se supo que existieran, y que hay tanta distancia entre cómo se vive y cómo se debería vivir que quien deja lo que se hace por lo que se debería hacer aprende a arruinarse antes que a conservarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso es la ruptura. La tradición anterior —los espejos de príncipes medievales— explicaba las virtudes que debía tener un buen gobernante. Maquiavelo se propone describir la conducta que efectivamente conserva el poder, la tenga quien la tenga y sea buena o mala.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hombre que quiera ser bueno en todo, entre tantos que no lo son, va a la ruina. Esa es la observación, no el consejo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su método es histórico y comparativo: ejemplos antiguos y contemporáneos puestos uno junto a otro, de Alejandro y los romanos a César Borgia y Fernando el Católico, buscando qué funcionó y qué no. No argumenta desde principios, argumenta desde casos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí sale la palabra que se le asocia. Virtù, en su vocabulario, no es la virtud moral: es la capacidad, la energía y la habilidad para actuar en el momento oportuno. Un hombre puede tener mucha virtù y ser un canalla.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese desplazamiento del vocabulario es lo que hizo que el libro escandalizara durante siglos y que la Iglesia lo pusiera en el índice de libros prohibidos.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Es más seguro ser temido que amado, y la razón no es la que parece" },
+      {
+        b: "texto",
+        texto:
+          "La frase más citada del libro viene con su razonamiento, y el razonamiento importa más que la frase. Maquiavelo dice que sería preferible ser las dos cosas, pero que como es difícil reunirlas, si hay que elegir es más seguro ser temido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El motivo es una observación sobre de qué depende cada cosa. El amor lo controla el súbdito: quiere al príncipe mientras le conviene, y lo deja de querer cuando llegan las dificultades. El miedo lo controla el príncipe: no depende de la voluntad ajena. Y un gobernante prudente se apoya en lo que depende de él.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El amor se sostiene con un vínculo de gratitud que se rompe cuando conviene. El temor se sostiene con el miedo al castigo, que no falla nunca.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero añade inmediatamente el límite que casi nunca se cita: el príncipe debe hacerse temer de modo que, si no consigue el amor, evite al menos el odio. Y da la receta concreta para no ser odiado: no tocar los bienes ni las mujeres de sus súbditos, porque los hombres olvidan antes la muerte de un padre que la pérdida del patrimonio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El odio, en su análisis, es lo único verdaderamente letal: un príncipe odiado tiene enemigos por todas partes y cualquier conspirador encuentra apoyo. El miedo sin odio es sostenible; el odio no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es un cálculo, no una preferencia moral. Y toda la incomodidad del libro está en que Maquiavelo lo expone como quien explica una máquina.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El daño se hace de golpe y el beneficio poco a poco" },
+      {
+        b: "texto",
+        texto:
+          "El consejo más frío del libro es también el más práctico, y Maquiavelo lo llama la crueldad bien usada. Si un gobernante nuevo tiene que hacer daño para asentarse, debe hacerlo todo de una vez, al principio, y no repetirlo; y los beneficios, en cambio, hay que administrarlos poco a poco para que se saboreen mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La lógica es de percepción. Las ofensas repetidas mantienen el miedo vivo y crean nuevos enemigos cada vez; concentradas en un momento, se sienten menos porque se recuerdan como un episodio. Los beneficios funcionan al revés: repartidos, se agradecen continuamente.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las injurias hay que hacerlas todas juntas, para que ofendan menos; los beneficios, poco a poco, para que se saboreen mejor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es César Borgia en la Romaña, y es de los pasajes más famosos. Borgia encargó pacificar la región a un lugarteniente cruel, Ramiro de Orco, que lo hizo con dureza extrema; y cuando la provincia estuvo sometida y el odio se había acumulado sobre el ejecutor, Borgia lo hizo aparecer una mañana partido en dos en la plaza de Cesena. Maquiavelo escribe que aquel espectáculo dejó al pueblo satisfecho y estupefacto a la vez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Añade además el consejo sobre lo que un príncipe no debe delegar nunca al revés: las cosas odiosas se encargan a otros y las gratas se hacen en persona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Nada de esto se presenta como bueno. Se presenta como lo que funciona, que es exactamente lo que el libro anunció que iba a hacer.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hay que parecer virtuoso, y saber no serlo cuando haga falta" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo dieciocho, sobre cómo deben los príncipes mantener su palabra, es el que sostiene la fama del libro. Maquiavelo observa que los príncipes que han hecho grandes cosas han tenido en poco la palabra dada y han sabido enredar a los hombres con astucia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su imagen es el centauro Quirón, mitad hombre y mitad bestia, que educó a los héroes antiguos: un príncipe debe saber usar las dos naturalezas. Y de la bestia debe tomar dos animales, porque el león no se defiende de las trampas y la zorra no se defiende de los lobos: hace falta ser zorra para conocer las trampas y león para espantar a los lobos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los que se limitan a ser leones no entienden nada. Hace falta ser zorra para reconocer las trampas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y es donde aparece su afirmación más escandalosa: que no es necesario que un príncipe tenga todas las buenas cualidades, pero sí que parezca tenerlas, y que resulta útil parecer piadoso, fiel, íntegro y religioso, y serlo; pero estar dispuesto, si es necesario, a obrar del modo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Maquiavelo justifica esa apariencia con una observación sobre el público: todos ven lo que uno parece y pocos tocan lo que uno es, y esos pocos no se atreven a contradecir a la mayoría, sobre todo cuando quien manda tiene de su parte la majestad del Estado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El resultado es un libro que describe la política como un teatro en el que la reputación es un instrumento más, y esa descripción es la que quinientos años después sigue incomodando.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mitad de lo que pasa no depende de nadie, y la otra mitad sí" },
+      {
+        b: "texto",
+        texto:
+          "El capítulo veinticinco se ocupa de la fortuna, que en el vocabulario de la época era casi una diosa y explicaba los vaivenes de la vida. Maquiavelo le concede la mitad y le disputa la otra mitad, y esa proporción es su posición filosófica más clara.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su imagen es un río crecido que arrasa campos, arranca árboles y arrastra edificios: cuando llega, nadie puede detenerlo. Pero eso no impide que en tiempo de calma se construyan diques y terraplenes, de modo que si el río vuelve a crecer, o no desborde o haga menos daño. Los Estados sin preparación son los que se llevan la riada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La fortuna decide la mitad de nuestras acciones y nos deja gobernar la otra mitad. Y muestra su poder donde no hay diques.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca su idea sobre el momento oportuno: la fortuna cambia y los hombres no cambian con ella, y por eso un mismo carácter tiene éxito mientras coincide con los tiempos y fracasa cuando los tiempos giran. El cauteloso triunfa mientras conviene la cautela y se hunde cuando hace falta arrojo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su conclusión —que es mejor ser impetuoso que cauto, porque la fortuna es mujer y se somete a los audaces— es de las páginas que peor han envejecido, y conviene citarla tal cual y no maquillarla: es machista en su formulación y era además un tópico literario de su tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que queda debajo, quitado el envoltorio, es una idea sobria: prepararse en la calma para lo que no se puede prever, y aceptar que hay un margen que no se controla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El último capítulo no es un manual: es una petición desesperada" },
+      {
+        b: "texto",
+        texto:
+          "Casi nadie llega al capítulo veintiséis, y es el que cambia el sentido del libro. Después de veinticinco capítulos de análisis frío, Maquiavelo pasa a un tono completamente distinto: una exhortación a liberar Italia de los bárbaros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe a una Italia troceada en principados y repúblicas, invadida por franceses, españoles y suizos, saqueada y humillada, y pide a los Médicis que tomen la empresa de unificarla. Habla de una tierra que espera a alguien que le cure las heridas, y cierra citando unos versos de Petrarca sobre el valor italiano contra la furia extranjera.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los veinticinco capítulos anteriores son el instrumental. Este último dice para qué lo quería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso reordena todo lo anterior. La crueldad bien usada, la zorra y el león, el miedo administrado: no son recetas para un tirano cualquiera, sino los medios que Maquiavelo consideraba necesarios para un objetivo que él tenía por urgente y patriótico. Se puede seguir rechazando el método; lo que no se sostiene es leerlo como cinismo sin causa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ayuda además saber lo que escribió en su otra obra grande, los Discursos sobre la primera década de Tito Livio, escrita en el mismo retiro: allí defiende la república como el mejor régimen, elogia el conflicto entre clases como fuente de libertad y desconfía del poder de uno solo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mismo hombre escribió las dos cosas. Rousseau llegó a sugerir que El príncipe era en realidad un libro de republicanos disfrazado, tesis discutida y que al menos señala lo raro del conjunto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro se propone describir cómo se conserva el poder realmente, y no cómo debería ejercerse. De ahí salen sus conclusiones incómodas: que es más seguro ser temido que amado siempre que no se llegue al odio, que el daño conviene concentrarlo y el beneficio repartirlo, que hay que parecer virtuoso y saber no serlo, y que la mitad de lo que ocurre depende de la preparación previa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es haber separado por primera vez el análisis político de la moral. Antes de esto, escribir sobre gobierno era escribir sobre virtudes; después de esto existe la posibilidad de estudiar el poder como se estudia un mecanismo. Casi toda la ciencia política posterior arranca ahí, le guste o no a quien la practica.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Hay tanta distancia entre cómo se vive y cómo se debería vivir que quien deja lo uno por lo otro aprende a arruinarse.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El propio libro es la prueba de su límite: fue escrito para conseguirle un puesto a su autor y no se lo consiguió; iba dedicado a un Médici que probablemente ni lo leyó; y el modelo que más elogia, César Borgia, perdió todo su poder en cuestión de meses en cuanto murió su padre el papa. Un manual de eficacia cuyos casos principales terminaron mal.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y está el uso. «Maquiavélico» significa hoy manipulador sin escrúpulos, cuando el hombre que da nombre al adjetivo defendió la república, sirvió a un gobierno electo quince años y acabó torturado por ello. Leído como manual de despacho —vencer al rival, aparentar lo que no se es— se le quita lo único que lo justifica: que describía una situación concreta con un objetivo concreto, y que lo hacía además con una honestidad que casi nadie ha vuelto a permitirse.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  principe: PRINCIPE,
+  "arte-guerra": ARTE_GUERRA,
   "cien-anos": CIEN_ANOS,
   "infinito-junco": INFINITO_JUNCO,
   "cisne-negro": CISNE_NEGRO,

@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  principe: "El tratado que separó la política de la moral",
+  "arte-guerra": "El tratado militar más antiguo que se sigue leyendo",
   "cien-anos": "La historia de la familia Buendía en Macondo",
   "cisne-negro": "El impacto de lo altamente improbable",
   "por-que-dormimos": "La nueva ciencia del sueño",
