@@ -68,44 +68,49 @@ una vez, en la entrada, y se sigue.
 
 ## 2 ter. Cuánto dura un resumen
 
-**Se escribe contra las palabras, no contra el reloj: 2.100 a 2.600 por libro,
-en ocho páginas de 260 a 330.** Eso da unos doce minutos de lectura y unos
-quince de audio, que es el número que se anuncia.
+**Se escribe contra las palabras, no contra el reloj: 2.100 a 2.500 por libro,
+en ocho páginas de 260 a 320.**
 
-| palabras | leer (200 p/m) | oír (140 p/m) |
+**La cifra que enseña la ficha es la de OÍRLO**, no la de leerlo. Decidido con
+Pablo el 20 de agosto, y por tres razones: es el mayor de los dos números, así
+que quien lea termina antes de lo prometido; en cuanto haya audio de verdad es
+un dato medido y no una estimación de velocidad lectora, que varía de una
+persona a otra un cincuenta por ciento; y deja la media donde la queremos.
+
+| palabras | ficha (oír, 140 p/m) | leer (200 p/m) |
 |---|---|---|
-| 2.100 | 11 min | 15 min ← suelo |
-| 2.400 | 12 min | 17 min |
-| 2.800 | 14 min | 20 min ← techo, solo si el libro lo pide |
+| 2.100 | 15 min ← media | 11 |
+| 2.400 | 17 min | 12 |
+| 2.700 | 19 min ← techo | 14 |
 
-Decidido con Pablo el 20 de agosto: **la media son quince minutos de audio**,
-la horquilla va de catorce a veinte, y la mayoría cae cerca de quince.
+Comprobado en la competencia: Headway anuncia el tiempo de LEER —«quince
+minutos para leer o escuchar»— y su propio audio dura de quince a veinte. O
+sea que su número se les queda corto justo en el modo que más crece. Nosotros
+enseñamos el otro.
 
-  · **Nada por debajo de 2.000 palabras.** Un audio de once minutos son mil
-    quinientas, y con eso no caben ocho argumentos con sus pruebas: sale un
-    libro de titulares, que es justo lo que Pablo devolvió.
-  · **Nada por encima de 2.800.** Los dos competidores han convergido en los
-    quince minutos y el tramo largo de Blinkist —hasta cuarenta— es herencia de
-    otra época y es el que la gente no termina. La investigación de
-    microaprendizaje sitúa el punto bueno entre ocho y quince, con la atención
-    cayendo a partir de los diez.
+  · **Nada por debajo de 2.000 palabras.** Ahí no caben ocho argumentos con sus
+    pruebas: sale un libro de titulares, que es lo que Pablo devolvió.
+  · **Nada por encima de 2.700.** Los dos competidores han convergido en los
+    quince minutos y el tramo largo de Blinkist —hasta cuarenta— es de otra
+    época y es el que la gente no termina. La investigación de microaprendizaje
+    pone el punto bueno entre ocho y quince, con la atención cayendo a partir
+    de los diez.
 
-Y hay una razón de oficio para esa medida por página: **260-330 palabras es lo
-que ocupa una idea explicada y demostrada**. Por debajo de 220 la página es un
+Y la razón de oficio de la medida por página: **260-320 palabras es lo que
+ocupa una idea explicada y demostrada**. Por debajo de 220 la página es un
 titular y relleno; por encima de 350 entran dos ideas y se rompe la regla de
 una por página.
 
-La cifra que se enseña en la ficha se cuenta sola —`minutosDePaginas()`, a 200
-palabras por minuto— y es la de LEER. La de oír la dice el reproductor. Ninguna
-de las dos se escribe a mano, así que no pueden mentir.
+Ninguna cifra se escribe a mano: `minutosDePaginas()` cuenta las palabras del
+libro y divide por 140. No puede mentir.
 
 ### Cómo van los libros escritos
 
-| libro | palabras | leer | oír | |
-|---|---|---|---|---|
-| Sapiens | 2.383 | 12 | 17 | dentro |
-| Homo Deus | 1.759 | 9 | 13 | **corto: le faltan 400** |
-| Hábitos atómicos | 1.614 | 8 | 12 | **corto: le faltan 500** |
+| libro | palabras | ficha | |
+|---|---|---|---|
+| Sapiens | 2.383 | 17 min | dentro |
+| Homo Deus | 1.759 | 13 min | **corto: le faltan 350** |
+| Hábitos atómicos | 1.610 | 12 min | **corto: le faltan 500** |
 
 ## 3. El titular AFIRMA
 

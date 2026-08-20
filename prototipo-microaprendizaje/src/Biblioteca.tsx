@@ -1149,13 +1149,18 @@ export function DetalleLibro({
   );
 }
 
-/* Los minutos que se enseñan en la ficha. Si el libro está reescrito a mano,
-   se cuentan sus palabras; si no, vale lo que trae el catálogo, que sale del
-   texto por tarjetas. Los dos números son de LEER: el audio tarda un tercio
-   más, y eso ya lo dice el reproductor. */
+/* Los minutos que se enseñan en la ficha, y son los de OÍRLO. El porqué está
+   en `minutosDePaginas()`: es el mayor de los dos números, así que quien lea
+   termina antes de lo prometido.
+
+   Un libro reescrito a mano se cuenta de sus palabras. Los que aún no lo
+   están traen del catálogo unos minutos de LECTURA, calculados sobre el texto
+   por tarjetas, y se pasan a audio con el mismo tercio: 200 palabras por
+   minuto leyendo contra 140 diciéndolo. */
 function minutosDeLibro(libro: Libro): number {
   const paginas = PAGINAS[libro.id];
-  return paginas ? minutosDePaginas(paginas) : (libro.minutos ?? 25);
+  if (paginas) return minutosDePaginas(paginas);
+  return Math.round((libro.minutos ?? 25) * (200 / 140));
 }
 
 /* Lo que va en «Aprenderás»: las paradas del libro.

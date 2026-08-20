@@ -135,15 +135,23 @@ function corta(cartas: TarjetaMinima[], k: number): TarjetaMinima[][] {
   return montones;
 }
 
-/* Los minutos de un resumen escrito a mano, contando sus palabras.
+/* Cuánto dura un resumen escrito a mano, EN AUDIO, contando sus palabras.
 
-   Hace falta porque `libro.minutos` viene del texto VIEJO —el de las tarjetas,
-   que es el doble de largo— y en un libro reescrito miente por el doble: la
-   ficha de Sapiens decía 25 minutos cuando el texto que se lee son doce.
+   Dos decisiones aquí, y las dos se discutieron con Pablo.
 
-   A 200 palabras por minuto, que es lo normal leyendo en español una prosa
-   como esta: no es un texto técnico, pero lleva cifras y nombres y no se puede
-   contar a la velocidad de una novela. */
+   POR QUÉ HACE FALTA: `libro.minutos` viene del texto VIEJO —el de las
+   tarjetas, el doble de largo— y en un libro reescrito miente por el doble. La
+   ficha de Sapiens decía veinticinco minutos cuando el texto que hay son doce
+   de lectura.
+
+   POR QUÉ EL DE AUDIO Y NO EL DE LECTURA: Headway anuncia el de leer —«quince
+   minutos para leer o escuchar»— y luego su propio audio dura de quince a
+   veinte, o sea que el número se les queda corto justo en el modo que más
+   crece. Aquí se enseña el mayor de los dos: quien lee termina antes de lo
+   prometido, que es la dirección correcta de la sorpresa.
+
+   A 140 palabras por minuto, que es lo que da esta voz a velocidad 0,92.
+   Leyendo con los ojos son 200, o sea un tercio menos de tiempo. */
 export function minutosDePaginas(paginas: readonly PaginaLibro[]): number {
   let palabras = 0;
   for (const pagina of paginas) {
@@ -159,7 +167,7 @@ export function minutosDePaginas(paginas: readonly PaginaLibro[]): number {
       palabras += texto.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
     }
   }
-  return Math.max(1, Math.round(palabras / 200));
+  return Math.max(1, Math.round(palabras / 140));
 }
 
 /** Las páginas que tiene todo resumen, con cuenta o sin ella. */
