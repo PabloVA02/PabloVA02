@@ -155,9 +155,34 @@ las dos listas van a la par.
 - `src/historias/MOLDE.md` — cómo se escribe un short.
 - `FOTOS.md` — de dónde salen las imágenes y qué se puede afirmar de ellas.
 
-## GitHub — CÓMO SE GUARDA EL TRABAJO
+## COPIAS EN VARIOS SITIOS, NO SOLO GITHUB
 
-Comprobado el 11 de agosto de 2026:
+Pablo lo pidió el 20 de agosto: *«acuérdate de ir guardando todo en varios
+sitios aparte de github»*. Y tiene motivo: el 11 de agosto se perdieron diez
+shorts porque el contenedor se restauró tres veces y se llevó por delante los
+commits locales. **Un contenedor se borra; lo que está en cuatro sitios, no.**
+
+Los cuatro sitios, y qué va en cada uno:
+
+1. **GitHub**, rama `claude/app-development-xpo6fx`. Es la copia buena y
+   completa. `git push -u origin claude/app-development-xpo6fx` funciona desde
+   el contenedor (comprobado el 20 de agosto; antes daba 403). **Se empuja cada
+   pocos commits, no al final de la sesión.**
+2. **Google Drive**, carpeta «Curva — copias de seguridad». Ahí van los
+   documentos que no se pueden reconstruir —`REDACCION.md` y `ESTADO.md`— con
+   el conector de Drive. Se suben con `mcp__Google_Drive__create_file` pasando
+   el texto entero; para binarios grandes no sirve.
+3. **El chat con Pablo.** Un `tar.gz` de la fuente (sin `node_modules`, `.git`,
+   `dist*`, `fotos-cache` ni el vídeo: unos 7 MB) enviado por el chat es la
+   copia que sobrevive a todo, porque queda en su dispositivo.
+4. **El artefacto publicado**, que es una copia de la app compilada.
+
+Y el bundle de git sigue siendo la salida de emergencia si el push falla:
+`git bundle create <ruta>/curva-NNN.bundle --all`, se le manda y lo sube él.
+
+## Historial: cuando el push NO funcionaba
+
+Comprobado el 11 de agosto de 2026, y resuelto desde entonces:
 
 - `git push` desde el contenedor → 403. No es el proxy: `curl
   http://127.0.0.1:45837/__agentproxy/status` no registra ningún fallo de
