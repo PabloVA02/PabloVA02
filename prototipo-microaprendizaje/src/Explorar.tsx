@@ -46,8 +46,13 @@ import { spring, springSoft } from "./motion";
    en segunda persona— y su número de orden. Las promesas se escriben en
    `libros/tendencias.ts`, con sus reglas.
 
-   Va antes que los géneros a propósito: un género es un cajón y hay que
-   saber lo que se busca; una promesa se lee y se entra.
+   EL ORDEN: primero los géneros, después las tendencias. Estuvo al revés un
+   rato y Pablo lo cambió, y tiene su lógica: la parrilla de géneros es alta
+   —tres filas— y las tendencias son una tira que se desplaza a lo ancho. Con
+   la tira arriba, los géneros quedaban por debajo del filo y había que
+   desplazar para descubrir que existían; así se ve todo el mapa de la
+   pantalla sin moverse, y la tira de tendencias asoma justo debajo invitando
+   a seguir bajando.
 
    TRES ESTADOS Y UNA SOLA PANTALLA
 
@@ -112,7 +117,7 @@ export function Explorar({
 
   return (
     <motion.section
-      className="pantalla explorar"
+      className="explorar"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -235,8 +240,8 @@ export function Explorar({
               exit={{ opacity: 0 }}
               transition={springSoft}
             >
-              <Tendencias onAbrir={onAbrir} />
               <Generos onElegir={setGenero} />
+              <Tendencias onAbrir={onAbrir} />
             </motion.div>
           )}
         </AnimatePresence>

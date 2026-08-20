@@ -7768,7 +7768,7 @@ button {
 
 /* --- Tendencias --------------------------------------------------------- */
 
-.tendencias { margin-top: 24px; }
+.tendencias { margin-top: 30px; }
 .tend-tira { align-items: flex-start; }
 .tend {
   flex: none;
@@ -7840,7 +7840,8 @@ button {
 
 /* --- Los géneros -------------------------------------------------------- */
 
-.generos { margin-top: 30px; }
+/* Los géneros van los primeros, pegados a la caja de búsqueda. */
+.generos { margin-top: 22px; }
 
 /* Tres filas que se desplazan a lo ancho, que es el hallazgo de las dos
    referencias: catorce cajones en el alto de tres, y sin competir con el

@@ -328,24 +328,24 @@ body.simulador {
   font-family: "Avenir Next", Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-.rotulo { text-align: center; display: flex; flex-direction: column; gap: 6px; max-width: 58ch; }
-.rotulo .ceja {
+.sim-rotulo { text-align: center; display: flex; flex-direction: column; gap: 6px; max-width: 58ch; }
+.sim-rotulo .sim-ceja {
   font-size: 10.5px; font-weight: 700; letter-spacing: 0.17em;
   text-transform: uppercase; color: var(--marco-acento);
 }
-.rotulo h1 {
+.sim-rotulo h1 {
   margin: 0; font-size: 24px; font-weight: 640;
   letter-spacing: -0.028em; text-wrap: balance;
 }
-.rotulo p {
+.sim-rotulo p {
   margin: 0; font-size: 13.5px; line-height: 1.55;
   color: var(--marco-suave); text-wrap: pretty;
 }
 
-.area { display: flex; justify-content: center; width: 100%; }
-.escalador { transform-origin: top center; }
+.sim-area { display: flex; justify-content: center; width: 100%; }
+.sim-escalador { transform-origin: top center; }
 
-.telefono {
+.sim-telefono {
   position: relative;
   width: 407px; height: 844px;
   background: var(--bisel);
@@ -353,63 +353,76 @@ body.simulador {
   padding: 16px;
   box-shadow: var(--sombra), inset 0 0 0 1.5px rgba(255, 255, 255, 0.1);
 }
-.telefono::before, .telefono::after {
+.sim-telefono::before, .sim-telefono::after {
   content: ""; position: absolute; left: -2.5px; width: 2.5px;
   border-radius: 2px 0 0 2px; background: var(--cromo);
 }
-.telefono::before { top: 152px; height: 30px; }
-.telefono::after { top: 200px; height: 54px; }
-.encendido {
+.sim-telefono::before { top: 152px; height: 30px; }
+.sim-telefono::after { top: 200px; height: 54px; }
+.sim-encendido {
   position: absolute; right: -2.5px; top: 182px;
   width: 2.5px; height: 84px; border-radius: 0 2px 2px 0; background: var(--cromo);
 }
 
-.pantalla {
+/* TODAS LAS CLASES DE ESTA PÁGINA LLEVAN «sim-», Y NO ES UN CAPRICHO.
+
+   El armazón del teléfono y la app viven en el MISMO documento, y este
+   bloque de estilo va después del de la app: cualquier nombre que coincida
+   gana y le pisa el suyo. Pasó con «pantalla», que aquí era el cristal del
+   teléfono —crema y con las esquinas redondas— y en la app resultó ser una
+   pantalla: quedó con el fondo del cristal, texto blanco sobre crema,
+   ilegible. En el navegador se veía bien y solo en el simulador estaba roto,
+   que es la peor manera de tener un fallo.
+
+   Un prefijo lo hace imposible. Si algún día se añade una clase aquí, va con
+   «sim-» aunque parezca que nadie más la va a usar. */
+
+.sim-cristal {
   position: relative;
   width: 375px; height: 812px;
   border-radius: 42px;
   overflow: hidden;
   background: #f2ece1;
 }
-.isla {
+.sim-isla {
   position: absolute; top: 9px; left: 50%; transform: translateX(-50%);
   width: 104px; height: 26px; border-radius: 999px;
   background: #050403; z-index: 3; pointer-events: none;
 }
-.barrita {
+.sim-barrita {
   position: absolute; bottom: 7px; left: 50%; transform: translateX(-50%);
   width: 134px; height: 5px; border-radius: 999px;
   background: rgba(0, 0, 0, 0.26); z-index: 3; pointer-events: none;
 }
 
-.pie {
+.sim-pie {
   font-size: 12px; color: var(--marco-suave); text-align: center;
   max-width: 58ch; line-height: 1.5; margin: 0;
 }
 </style>
 
-<div class="rotulo">
-  <div class="ceja">Curva · prototipo</div>
+<div class="sim-rotulo">
+  <div class="sim-ceja">Curva · prototipo</div>
   <h1>La app entera, en un móvil</h1>
   <p>Se sube para cambiar de historia y se desliza a la derecha para avanzar
      dentro de ella. Las fotografías van dentro de esta página, así que se ven
      sin salir a la red.</p>
 </div>
 
-<div class="area">
-  <div class="escalador" id="escalador">
-    <div class="telefono">
-      <div class="encendido"></div>
-      <div class="pantalla">
-        <div class="isla"></div>
+<div class="sim-area">
+  <div class="sim-escalador" id="sim-escalador">
+    <div class="sim-telefono">
+      <div class="sim-encendido"></div>
+      <div class="sim-cristal">
+        <div class="sim-isla"></div>
         <div id="root"></div>
-        <div class="barrita"></div>
+        <div class="sim-barrita"></div>
       </div>
     </div>
   </div>
 </div>
 
-<p class="pie" id="pie">${cuenta}</p>
+<p class="sim-pie" id="sim-pie">${cuenta}</p>
 
 <script>
 document.body.classList.add("simulador");
@@ -434,10 +447,10 @@ window.__FOTOS = ${JSON.stringify(Object.fromEntries(tabla))};
    que se mide lo que queda y se escala. Medir, y no reservar una cifra fija,
    porque el rótulo cambia de alto según el ancho de la ventana. */
 (function () {
-  var escalador = document.getElementById("escalador");
+  var escalador = document.getElementById("sim-escalador");
   var area = escalador.parentElement;
-  var rotulo = document.querySelector(".rotulo");
-  var pie = document.getElementById("pie");
+  var rotulo = document.querySelector(".sim-rotulo");
+  var pie = document.getElementById("sim-pie");
   function encajar() {
     var ocupado = rotulo.offsetHeight + pie.offsetHeight + 96;
     var alto = Math.max(320, window.innerHeight - ocupado);
