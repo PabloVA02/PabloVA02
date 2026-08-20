@@ -35,6 +35,9 @@ export const APRENDERAS: Record<string, string> = {
   "homo-deus":
     "Hoy muere más gente por comer de más que por no tener qué comer, y se quita la vida más de la que matan todas las guerras juntas. Harari parte de ahí para preguntar a qué dedica una especie el esfuerzo cuando resuelve lo que llevaba cien mil años intentando resolver.",
 
+  "armas-germenes":
+    "En una playa de Nueva Guinea le preguntaron a Jared Diamond por qué unos pueblos llegaron cargados de hierro y medicinas y otros no. Tardó veinticinco años en responder, y la respuesta no está en la gente: está en qué plantas y qué animales había en cada sitio.",
+
   "diario-ana-frank":
-    "Los dos años que Ana pasó escondida con su familia en un piso de Ámsterdam, contados por ella en su cuaderno. Empieza siendo una niña que se pelea con su madre y acaba escribiendo como una escritora de verdad.",
+    "Dos años y un mes encerrada con otras siete personas detrás de la oficina de su padre, sin salir a la calle ni una vez. Lo que Ana escribió allí no es una crónica de la guerra: es la vida diaria de un escondite, contada por alguien que ya escribía mejor que la mayoría de los adultos.",
 };

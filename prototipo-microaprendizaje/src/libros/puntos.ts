@@ -46,6 +46,22 @@ export const PUNTOS: Record<string, string[]> = {
     "por qué más poder no ha traído más felicidad",
   ],
 
+  "armas-germenes": [
+    "por qué unos pueblos llegaron a otros y no al revés",
+    "cuántos animales grandes se han domesticado en toda la historia",
+    "qué tiene que ver la forma de un continente con su agricultura",
+    "por qué la viruela mató más que todos los conquistadores juntos",
+    "de dónde salieron la escritura, el Estado y los ejércitos",
+  ],
+
+  "diario-ana-frank": [
+    "cómo se vivía en un escondite de cincuenta metros y ocho personas",
+    "por qué Ana estaba reescribiendo su diario para publicarlo",
+    "qué pasó la mañana del 4 de agosto de 1944",
+    "qué le quitó su padre al libro antes de publicarlo",
+    "por qué leerla como un símbolo de esperanza la deja en nada",
+  ],
+
   "homo-deus": [
     "por qué el hambre, la peste y la guerra han dejado de ser destinos",
     "qué persigue la humanidad ahora que los ha resuelto",
