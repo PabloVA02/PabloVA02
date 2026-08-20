@@ -38,6 +38,22 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "poder-ahora": [
+    "por qué el que oye el pensamiento no es el pensamiento",
+    "por qué una bronca absurda deja una satisfacción rara",
+    "por qué nadie ha sufrido nunca por el momento presente",
+    "las tres únicas salidas ante algo que no te gusta",
+    "por qué esperar que otro te complete rompe la relación",
+  ],
+
+  "monje-ferrari": [
+    "cómo se cuida la mente como se cuida un jardín",
+    "qué es el pensamiento opuesto y cómo se usa",
+    "qué es el kaizen aplicado a un día normal",
+    "por qué estar ocupado no es ser productivo",
+    "por qué el Ferrari nunca fue el problema",
+  ],
+
   "sutil-arte": [
     "por qué querer ser positivo te recuerda que no lo eres",
     "por qué la pregunta buena es qué dolor aguantas",

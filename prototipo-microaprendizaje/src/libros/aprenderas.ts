@@ -29,6 +29,12 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "poder-ahora":
+    "Tolle se despertó una noche pensando que no aguantaba más consigo mismo, y se dio cuenta de que esa frase supone dos personas. De ahí salió un libro sobre la voz que llevas en la cabeza y que no eres tú.",
+
+  "monje-ferrari":
+    "Un abogado de éxito se desploma con un infarto en mitad de un juicio, lo vende todo y desaparece. Vuelve del Himalaya con siete enseñanzas envueltas en una alegoría hecha para que no se olviden.",
+
   "sutil-arte":
     "Cuanto más te empeñas en sentirte bien, más presente tienes que ahora no lo estás. Manson parte de esa trampa para sostener que la energía de preocuparse es limitada y que el error no es gastarla poco, sino repartirla mal.",
 

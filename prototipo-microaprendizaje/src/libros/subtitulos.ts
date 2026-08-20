@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "poder-ahora": "Un camino hacia la realización espiritual",
   "sutil-arte": "Un enfoque disruptivo para vivir una buena vida",
   "pensar-rapido": "Cómo tomamos decisiones y por qué nos equivocamos",
   "inteligencia-emocional": "Por qué puede importar más que el cociente intelectual",

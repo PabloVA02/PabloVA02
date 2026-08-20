@@ -5265,7 +5265,544 @@ const SUTIL_ARTE: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El monje que vendió su Ferrari, en ocho páginas.
+
+   Es una fábula, no un ensayo: un abogado que se derrumba en un juicio,
+   desaparece y vuelve del Himalaya con siete enseñanzas envueltas en una
+   alegoría de jardín. El resumen tiene que contar la fábula lo justo y
+   sacar el contenido, o se queda en un cuento.
+
+   Sharma ya está en la app con El club de las 5 de la mañana, así que aquí
+   se evita repetir la rutina matinal: se cuenta lo que este libro tiene y
+   el otro no —el dominio de la mente, el kaizen, el tiempo, el servicio—.
+
+   Segunda persona, libro práctico.
+   -------------------------------------------------------------------------- */
+
+const MONJE_FERRARI: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un abogado se desplomó en mitad de un juicio y vendió su mansión" },
+      {
+        b: "texto",
+        texto:
+          "Julian Mantle era uno de los abogados más caros de Estados Unidos: casos famosos, mansión, avión privado y un Ferrari rojo aparcado a la puerta. A los cincuenta y tres años se desplomó en medio de una vista con un infarto. Tres días después, en el hospital, decidió que no volvía. Vendió todo lo que tenía, incluido el coche, y desapareció.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Robin Sharma cuenta que reapareció años más tarde en casa de su antiguo ayudante, con veinte años menos encima y sin ninguna prisa, y que se pasó una noche entera contándole lo que había aprendido con unos monjes en las montañas de la India. El libro es esa conversación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie cambia de vida por convencimiento. Casi todos cambian después de un aviso, y el aviso no siempre da una segunda oportunidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene decir desde el principio que es una fábula. Los monjes de Sivana, el sabio Yogui Raman y la parábola del jardín son un recurso literario, no un reportaje. Lo que hay debajo son siete enseñanzas que Sharma envuelve en una alegoría para que se recuerden, y una alegoría deliberadamente exagerada: un jardín, un faro, un luchador de sumo, un cable de color rosa, un cronómetro de oro, rosas y un camino de diamantes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: qué hay dentro de cada símbolo, empezando por la mente y siguiendo por el propósito, la mejora diaria, la disciplina, el tiempo y el servicio a los demás. La conclusión dice también dónde falla, que en un libro así hay bastante que decir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Tu mente es un jardín, y ahora mismo casi nadie lo está cuidando" },
+      {
+        b: "texto",
+        texto:
+          "El primer símbolo es el jardín, y representa la mente. La idea es que un jardín produce lo que se planta en él y que nadie deja crecer malas hierbas a propósito: simplemente no mira. Sharma sostiene que la mayoría de la gente deja entrar en su cabeza cualquier pensamiento que pase, y que después se extraña del resultado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su afirmación más citada es que la calidad de tu vida la decide la calidad de tus pensamientos, y que no hay tal cosa como una realidad objetiva que se te imponga: lo que hay es un suceso y la interpretación que le pones, y esa segunda parte es tuya.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La preocupación consume la energía que necesitas para hacer algo con aquello por lo que te preocupas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen dos prácticas concretas. La primera es lo que llama el corazón de la rosa: sentarse con una flor delante y mirarla, devolviendo la atención a los pétalos cada vez que se escapa, empezando por cinco minutos. Es meditación de concentración con otro nombre, y funciona por lo mismo: lo que se entrena es el gesto de volver.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La segunda es el pensamiento opuesto: cuando aparece un pensamiento que no te sirve, no discutir con él —eso lo agranda— sino colocar deliberadamente el contrario en su sitio. Sharma sostiene que la mente no puede sostener dos a la vez y que el que se instala es el que se repite.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Sin un destino, cualquier camino sirve y ninguno satisface" },
+      {
+        b: "texto",
+        texto:
+          "El segundo símbolo es el faro, y representa el propósito. La tesis es la de siempre en este género y aquí viene con una vuelta útil: Sharma sostiene que la felicidad no llega por perseguirla, sino como efecto secundario de avanzar hacia algo que a uno le importa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su método tiene una parte que se puede aplicar el mismo día y que llama el poder del dharma: identificar para qué se te da bien lo que se te da bien y ponerlo al servicio de algo. Y una segunda parte, la del faro propiamente dicha, que es escribirlo: pasar de una idea vaga a metas concretas con plazo, porque una intención que no se apunta se olvida.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Escríbelo", texto: "en un cuaderno, con detalle y en presente." },
+          { fuerte: "Ponle plazo", texto: "una meta sin fecha es una intención con buenas maneras." },
+          { fuerte: "Divídelo", texto: "en pasos que se puedan hacer esta semana." },
+          { fuerte: "Cuéntalo poco", texto: "y solo a quien pueda ayudarte de verdad." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie llega a un sitio al que no ha decidido ir. La mayoría de la gente no está perdida, es que nunca eligió destino.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sharma insiste en algo que suele saltarse este tipo de libros: el propósito no tiene por qué ser profesional ni grande. Puede ser criar bien a alguien, hacer bien un oficio o cuidar de una comunidad. Lo que importa es que exista y que uno lo tenga presente cuando decide en qué gasta la semana.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El kaizen es hacer un poco más de lo que apetece, todos los días" },
+      {
+        b: "texto",
+        texto:
+          "El tercer símbolo es un luchador de sumo, y representa el kaizen: la mejora continua y pequeña. La idea, que Sharma toma de la tradición japonesa de gestión, es que el progreso grande es la suma de mejoras diminutas mantenidas, y que buscar el salto espectacular es la manera más fiable de no avanzar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que le añade es la parte incómoda: sostiene que la manera de crecer es hacer deliberadamente lo que da pereza o miedo, en dosis pequeñas. Levantarse cuando no apetece, decir lo que cuesta decir, empezar la tarea que se lleva aplazando. No como castigo, sino porque cada vez que uno hace algo que le costaba, lo que le costaba se encoge.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Haz cada día algo que no te apetezca hacer. Es lo único que ensancha lo que eres capaz de hacer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí saca una lista de prácticas que llama las diez ceremonias, y que son bastante domésticas: madrugar, moverse, leer, escribir un diario, pasar tiempo en silencio, oír música, comer con moderación, estar en la naturaleza, cuidar las relaciones y hacer algo por otro. Ninguna es original y esa es más o menos la idea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cuarto símbolo, el cable rosa que rodea al luchador, es la disciplina, y Sharma la define como el puente entre lo que uno se propone y lo que uno hace. Su observación práctica es que la fuerza de voluntad se entrena como cualquier otra cosa y que la manera de entrenarla es cumplir promesas pequeñas hechas a uno mismo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El tiempo no se gestiona: se protege de la gente que te lo pide" },
+      {
+        b: "texto",
+        texto:
+          "El quinto símbolo es un cronómetro de oro, y es la parte más práctica del libro. Sharma parte de una obviedad que casi nadie trata como tal: el tiempo es el único recurso que no se puede reponer, y sin embargo es el único que la gente regala sin pensarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus dos herramientas son conocidas y funcionan. La primera es la regla del ochenta por veinte aplicada al día: casi todo el resultado sale de una fracción pequeña de lo que se hace, así que conviene identificar cuál es esa fracción y protegerla. La segunda es planificar la semana entera un día fijo, con las cosas importantes puestas antes que las urgentes.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Estar ocupado no es lo mismo que ser productivo. La gente ocupada suele estar haciendo lo que le pidieron otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la parte que más cuesta: aprender a decir que no. Sostiene que quien no dice que no a nada acaba con una agenda hecha por terceros, y que la culpa que se siente al negarse dura mucho menos que el resentimiento de haber dicho que sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Junto a eso mete una idea sobre la muerte que usa como palanca: recordar que el tiempo se acaba no es morboso, es lo único que hace elegir. Es el mismo recurso que aparece en la conclusión del libro, y funciona porque quita importancia a casi todo lo que ocupa un día normal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que se hace por otros es lo que mejor se acuerda uno al final" },
+      {
+        b: "texto",
+        texto:
+          "El sexto símbolo son rosas, y representan el servicio a los demás. Sharma sostiene, con una fórmula que se le ha citado mucho, que la calidad de una vida se acaba midiendo por lo que se ha dado y no por lo que se ha acumulado, y que quien mejora la vida de otro mejora la suya por el mismo precio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su versión práctica es deliberadamente pequeña: hacer cada día algo por alguien sin que se note demasiado y sin esperar nada, aunque sea una llamada. No propone grandes obras, propone una costumbre, y ahí es coherente con el kaizen del capítulo anterior.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada día en el que no haces algo por alguien es un día que no ha servido para gran cosa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El séptimo y último símbolo es un camino de diamantes, y representa vivir el presente. Aquí Sharma dice lo mismo que dicen todos los libros de este tipo y lo dice mejor de lo habitual: que la infancia de los hijos, las conversaciones y los años buenos pasan mientras uno espera a que empiece lo importante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su instrucción es tratar el viaje como el destino y no al revés, y darse cuenta de que no habrá un momento en el que todo esté resuelto. Es la lección que cierra la fábula y también la que justifica el título: el Ferrari no era el problema, el problema era la vida que hubo que llevar para pagarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La fábula es el método, no el adorno" },
+      {
+        b: "texto",
+        texto:
+          "Merece la pena mirar por qué Sharma eligió contar esto como un cuento en vez de como un manual. Su apuesta es que una lista de siete principios se olvida en dos días y que una imagen —un luchador de sumo con un cable rosa en un jardín con un faro— se queda pegada. Es un recurso viejísimo, el de los palacios de la memoria, y funciona.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El precio es que la alegoría es tan recargada que roza el ridículo, y el propio libro lo reconoce con humor. Quien busque un tratado se va a impacientar en las primeras páginas; quien acepte el juego se lleva siete ideas que puede recitar semanas después.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una lista de siete puntos se olvida el jueves. Una imagen absurda, no. Esa es toda la técnica del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su otra virtud es el punto de partida, que es lo que le da el título y lo que hace que la gente lo abra: la sospecha, bastante extendida, de estar pagando una vida cara con una vida entera. Julian Mantle no es un personaje exótico; es lo que le pasa a mucha gente que trabaja bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que decir lo que no es: no hay una sola cifra, un solo estudio ni una sola fuente en todo el libro. Es un cuento con moraleja, y hay que leerlo como tal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que la vida se ordena desde dentro hacia fuera: primero la cabeza, después un destino elegido, después la mejora diaria y la disciplina para sostenerla, después la defensa del tiempo, y al final el servicio a los demás y la atención a lo que está pasando ahora. Siete enseñanzas envueltas en una alegoría para que no se olviden.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la pregunta de la primera página, que es la de verdad: cuánto de tu vida estás cambiando por cosas que no querías tanto. Y unas cuantas prácticas concretas que no dependen de creer nada —el ejercicio de volver la atención, el pensamiento opuesto, el ochenta por veinte, decir que no— y que se pueden empezar hoy.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El Ferrari nunca fue el problema. El problema era la vida que hacía falta llevar para pagarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Nada de lo que afirma se apoya en nada: no hay fuentes, ni datos, ni la más mínima cautela, y varias afirmaciones —que la mente cura el cuerpo, que se puede vivir mucho más si se piensa bien— se presentan con una seguridad que no tiene ningún respaldo. Los monjes de Sivana no existen y el libro no lo aclara hasta muy tarde.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema de fondo, el mismo de casi todo el género: la vida de Julian Mantle se arregla desapareciendo un par de años a la India, cosa que exige haber ganado antes una fortuna. El libro presenta como universal una salida que solo estaba disponible para el protagonista, y no dedica una línea a quien tiene los mismos síntomas y una hipoteca. Se le pueden coger las prácticas; la fábula, mejor leerla sabiendo quién puede permitirse su final.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El poder del ahora, en ocho páginas.
+
+   El libro más difícil de resumir de los que hay aquí: no tiene
+   argumentación, está escrito en preguntas y respuestas y su tesis es que
+   el pensamiento es el problema, lo que le permite descartar cualquier
+   objeción como cosa de la mente.
+
+   Se cuenta lo que dice, en llano y sin adoptar su vocabulario —nada de
+   «el cuerpo del dolor» sin explicarlo primero—, y la conclusión dice lo
+   que hay que decir: que es irrefutable por construcción, que su
+   biografía es solo suya, y que hay estados en los que este libro es
+   peligroso.
+   -------------------------------------------------------------------------- */
+
+const PODER_AHORA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "«No aguanto más conmigo mismo»: la frase que hizo el libro" },
+      {
+        b: "texto",
+        texto:
+          "Eckhart Tolle cuenta que a los veintinueve años, después de años de depresión y ansiedad, se despertó una noche con un pensamiento que se repetía: no aguanto más conmigo mismo. Y que de pronto se dio cuenta de lo raro que era: si no aguanto conmigo mismo, ¿cuántos hay aquí? Uno que no aguanta y otro que es insoportable.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dice que a partir de ese momento algo se desmontó y pasó dos años sentado en bancos de parques, sin trabajo y sin nada que le faltase. El libro, publicado en 1997, es el intento de explicar aquello, escrito en forma de preguntas y respuestas porque salió de las conversaciones que mantenía con la gente que le preguntaba.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si puedes decir que no aguantas contigo mismo, es que hay dos: el que sufre y el que se da cuenta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis cabe en una frase: casi todo el sufrimiento humano no viene de lo que pasa, sino de lo que la mente hace con el pasado y con el futuro, y ninguna de las dos cosas existe salvo como pensamiento presente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: primero por qué no eres tu pensamiento, después qué es eso que Tolle llama el cuerpo del dolor, después qué significa exactamente vivir el presente cuando hay que pagar facturas, y qué hacer con lo que duele de verdad. La conclusión dice también dónde falla, que aquí hace falta decirlo con cuidado.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La voz que llevas dentro no eres tú: es un ruido que no sabes apagar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La observación con la que arranca el libro es fácil de comprobar: hay una voz en tu cabeza que habla todo el rato. Comenta, juzga, ensaya conversaciones que no van a ocurrir, repite discusiones que ya ocurrieron. No la has encendido tú y no la puedes apagar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolle sostiene que el gran malentendido humano es confundirse con esa voz. Si tú fueras el pensamiento, no podrías oírlo; el hecho de que lo oigas demuestra que hay algo más, y a ese algo lo llama presencia o conciencia. Su ejercicio central es exactamente ese: escuchar el pensamiento como quien oye una radio en otra habitación, sin discutir con ella.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El que puede observar el pensamiento no es el pensamiento. Ahí está toda la maniobra del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al yo hecho de esa voz lo llama ego, y no en el sentido de vanidad. Lo define como la identidad que uno se ha construido con recuerdos, opiniones, papeles y agravios, y que necesita seguir hablando para sostenerse: si el pensamiento se detiene, esa identidad se queda sin material.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí una observación que resiste bien fuera de su vocabulario: buena parte de lo que la gente defiende con uñas y dientes en una discusión no es la verdad de lo que dice, es la identidad que ha construido alrededor de decirlo. Por eso cambiar de opinión se siente como perder algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El dolor viejo se alimenta buscando dolor nuevo" },
+      {
+        b: "texto",
+        texto:
+          "A la acumulación de dolor no resuelto —lo que quedó de cada humillación, cada pérdida y cada miedo— Tolle lo llama el cuerpo del dolor, y lo describe como algo casi con vida propia: se despierta cada cierto tiempo, necesita alimentarse y se alimenta de más dolor.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo que describe es reconocible para cualquiera que haya tenido una pelea absurda. Uno se levanta con un malestar sin causa clara y a lo largo del día encuentra motivo: una respuesta seca, un recuerdo, una discusión que no hacía falta. Al terminar la bronca hay una sensación extraña de alivio, casi de satisfacción, y Tolle sostiene que es porque algo dentro ha comido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si una discusión te deja con una satisfacción rara, no discutías por lo que decías discutir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su instrucción para eso es la misma que para todo lo demás y es la parte que sí se puede probar: no combatirlo, no analizarlo, no justificarlo. Solo reconocer, en el momento en que empieza, que ha empezado. Sostiene que la atención consciente le quita el alimento, porque el mecanismo necesita que uno esté completamente identificado con él.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También distingue entre el dolor y el sufrimiento, que es una distinción vieja y útil: el dolor es lo que ocurre, el sufrimiento es lo que la mente construye alrededor durante los años siguientes. Lo primero es inevitable; lo segundo es donde se pasa la mayor parte del tiempo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El presente no es un momento más: es el único que hay" },
+      {
+        b: "texto",
+        texto:
+          "La afirmación central del libro es que el pasado y el futuro no existen. No como frase bonita: Tolle señala que el pasado solo existe ahora, como recuerdo, y que el futuro solo existe ahora, como anticipación. Lo único que ocurre alguna vez es este momento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y de ahí saca su diagnóstico de la ansiedad: es imposible estar ansioso por el presente, porque el presente ya está ocurriendo y uno lo está resolviendo. La ansiedad siempre es sobre un momento que no ha llegado, y la depresión suele ser sobre uno que ya pasó. Las dos necesitan tiempo psicológico para existir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie ha sufrido nunca por el momento presente. Se sufre por uno que ya pasó o por otro que quizá no llegue.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La objeción evidente —que hay que planificar, pagar recibos y coger aviones— la contesta distinguiendo el tiempo del reloj del tiempo psicológico. El primero es una herramienta y hay que usarlo. El segundo es vivir mentalmente en otro sitio mientras el cuerpo hace algo aquí, y es lo que él considera la enfermedad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejercicio para volver es físico y sencillo: llevar la atención al cuerpo. Notar las manos, la respiración, la sensación de estar sentado. Tolle sostiene que la mente no puede irse a otro momento mientras la atención está de verdad en una sensación, y que por eso la puerta del presente está siempre en el cuerpo y no en el pensamiento.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Ante cualquier situación hay tres salidas, y quejarse no es una" },
+      {
+        b: "texto",
+        texto:
+          "La parte más práctica del libro es esta, y funciona sin necesidad de aceptar nada de su metafísica. Ante una situación que no te gusta hay exactamente tres opciones: quitarte de en medio, cambiarla o aceptarla por completo. Cualquier otra cosa —quejarse, resistirse, aguantar con resentimiento— es sufrimiento añadido que no modifica la situación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolle es tajante con lo que llama aceptación, porque se malinterpreta enseguida. No significa resignarse ni aprobar lo que pasa. Significa dejar de discutir con lo que ya es el caso, que es la única forma de tener toda la energía disponible para actuar. Sostiene que la acción que sale de la aceptación es más eficaz que la que sale de la rabia, porque la segunda gasta la mitad en el enfado.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Vete", texto: "si puedes salir de ahí, sal y deja de darle vueltas." },
+          { fuerte: "Cámbialo", texto: "si está en tu mano, hazlo y hazlo ya." },
+          { fuerte: "Acéptalo", texto: "del todo, sin resentimiento, si no puedes ninguna de las dos." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Resistirse a lo que ya ha pasado no lo cambia: solo gasta la fuerza que hacía falta para lo siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade una prueba práctica que se puede hacer hoy: si algo lleva semanas dándote vueltas y no has hecho nada, no estás pensando, estás rumiando. La diferencia es si el pensamiento produce una decisión o solo se repite.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Nadie puede completarte, y esperar que lo haga es lo que rompe las relaciones",
+      },
+      {
+        b: "texto",
+        texto:
+          "Tolle dedica un capítulo a las relaciones y ahí es donde más concreto se pone. Su tesis es que la mayoría de las parejas empiezan como un intento de que otro rellene un hueco, y que ese encargo es imposible de cumplir: por eso el enamoramiento se convierte tan a menudo en su contrario cuando el otro deja de rellenarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe el mecanismo con precisión: dos personas con su dolor acumulado se encuentran, durante un tiempo el otro tapa el vacío, y en cuanto deja de taparlo aparece el reproche. Y sostiene que los dos cuerpos del dolor acaban alimentándose mutuamente, lo que explica esas parejas que discuten siempre por lo mismo durante veinte años.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Si esperas que otro te complete, le has dado un trabajo que nadie puede hacer y por el que le vas a culpar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que propone no es dejar de tener pareja, sino cambiar el encargo: dejar de pedirle al otro que resuelva algo que no es suyo, y usar la relación como el sitio donde uno ve con más claridad sus propios automatismos, porque no hay ningún otro sitio donde salten tan rápido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También habla de la aceptación de los demás en los mismos términos que la de las situaciones: intentar que alguien sea distinto de como es tiene el mismo efecto que discutir con la lluvia. Es la parte del libro más fácil de usar mal, y sobre eso hay algo que decir al final.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La rendición no es rendirse: es dejar de pelear con lo que ya ocurrió",
+      },
+      {
+        b: "texto",
+        texto:
+          "El último concepto del libro es el que Tolle llama rendición, y es el que peor suena en español. No significa abandonar ni conformarse: significa dejar de oponerse internamente a lo que ya está siendo el caso, que es distinto de dejar de actuar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es el de alguien atrapado en el barro de noche y bajo la lluvia. Rendirse no es quedarse ahí: es dejar de decir esto no debería estar pasándome, porque esa frase no saca a nadie del barro y consume la energía que hace falta para salir. Después de decir de acuerdo, esto está pasando, uno empuja.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aceptar lo que ya es no te quita la fuerza para cambiarlo: es lo único que te la devuelve entera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aplicado al sufrimiento grave —una enfermedad, una pérdida— Tolle propone algo que suena imposible y que él sostiene que es lo único que funciona: no huir del dolor hacia el pensamiento, sino entrar del todo en la sensación, sin historia y sin explicación. Dice que el sufrimiento se alimenta del relato y que sin relato queda dolor, que se puede soportar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cierra el libro con la idea de que no hace falta ninguna práctica larga ni ninguna creencia: solo darse cuenta, muchas veces al día, de que uno se ha ido, y volver. La vuelta es la práctica entera.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que no eres la voz que oyes en tu cabeza, que casi todo el sufrimiento es tiempo psicológico —rumiar el pasado, temer el futuro—, y que la salida no es pensar mejor sino darse cuenta de que se está pensando. Su método cabe en dos gestos: observar el pensamiento sin discutirlo y volver la atención al cuerpo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta son tres cosas que funcionan sin comprar nada de lo demás: la distinción entre dolor y sufrimiento, las tres salidas ante cualquier situación —irse, cambiarla o aceptarla— y la observación de que la ansiedad siempre trata de un momento que no está ocurriendo. Que se hayan vendido decenas de millones de ejemplares dice que mucha gente reconoció ahí su propia cabeza.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No puedes dejar de pensar por orden. Puedes darte cuenta de que estabas pensando, y eso ya te ha sacado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y hay que decirlo con precisión. El libro es irrefutable por construcción: como sostiene que el pensamiento es el problema, cualquier objeción razonada se puede descartar como cosa de la mente. Eso lo blinda y también lo saca de cualquier conversación seria; no hay manera de estar en desacuerdo con él dentro de sus propios términos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un riesgo real. La aceptación mal entendida es una herramienta magnífica para no cambiar nada: quien está en una situación injusta, en una relación que le hace daño o en una depresión clínica puede leer aquí que su problema es resistirse mentalmente, y eso es falso y puede ser peligroso. Tolle no distingue entre el sufrimiento que produce la rumiación y el que produce una causa externa que hay que quitar, y esa distinción es justo lo que hace falta. La depresión y la ansiedad clínicas se tratan, y este libro no es un tratamiento.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "poder-ahora": PODER_AHORA,
+  "monje-ferrari": MONJE_FERRARI,
   "sutil-arte": SUTIL_ARTE,
   "cuatro-acuerdos": CUATRO_ACUERDOS,
   ikigai: IKIGAI,
