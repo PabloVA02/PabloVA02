@@ -71,7 +71,7 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: HABITOS_ATOMICOS,
     autor: "Hábitos atómicos, de James Clear.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Hábitos atómicos»: sobre azul noche, una figura sube una escalera de cuadrados de colores que arranca desperdigada y acaba en una estrella dorada, dentro de un círculo crema."
+    alt: "La cubierta de «Hábitos atómicos»: sobre azul noche, una figura sube una escalera de cuadrados de colores que arranca desperdigada y acaba en una estrella dorada, dentro de un círculo crema.",
   },
   "homo-deus": {
     local: HOMO_DEUS,
@@ -83,25 +83,25 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: INFINITO_JUNCO,
     autor: "El infinito en un junco, de Irene Vallejo.",
     licencia: "Obra propia",
-    alt: "La cubierta de «El infinito en un junco»: sobre azul noche, un símbolo de infinito hecho de papiro que recorre templos, vasijas, pinturas rupestres y libros abiertos, con una mata de juncos creciendo en el centro."
+    alt: "La cubierta de «El infinito en un junco»: sobre azul noche, un símbolo de infinito hecho de papiro que recorre templos, vasijas, pinturas rupestres y libros abiertos, con una mata de juncos creciendo en el centro.",
   },
   "mundo-ayer": {
     local: MUNDO_AYER,
     autor: "El mundo de ayer, de Stefan Zweig.",
     licencia: "Obra propia",
-    alt: "La cubierta de «El mundo de ayer»: sobre granate, una ventana en arco partida en dos, con una Viena luminosa de cafés y cúpulas a un lado y un andén de tren azulado con una maleta al otro."
+    alt: "La cubierta de «El mundo de ayer»: sobre granate, una ventana en arco partida en dos, con una Viena luminosa de cafés y cúpulas a un lado y un andén de tren azulado con una maleta al otro.",
   },
   "padre-rico": {
     local: PADRE_RICO,
     autor: "Padre rico, padre pobre, de Robert Kiyosaki.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Padre rico, padre pobre»: una hucha partida por la mitad, con una caja fuerte y monedas guardadas a un lado y un árbol creciendo desde sus raíces al otro, y dos manos echando una moneda en cada mitad."
+    alt: "La cubierta de «Padre rico, padre pobre»: una hucha partida por la mitad, con una caja fuerte y monedas guardadas a un lado y un árbol creciendo desde sus raíces al otro, y dos manos echando una moneda en cada mitad.",
   },
   "poder-habitos": {
     local: PODER_HABITOS,
     autor: "El poder de los hábitos, de Charles Duhigg.",
     licencia: "Obra propia",
-    alt: "La cubierta de «El poder de los hábitos»: sobre verde botella, un hombre empuja una ficha de dominó roja en un circuito de fichas que da la vuelta y termina subiendo hacia un sol."
+    alt: "La cubierta de «El poder de los hábitos»: sobre verde botella, un hombre empuja una ficha de dominó roja en un circuito de fichas que da la vuelta y termina subiendo hacia un sol.",
   },
   "sapiens": {
     local: SAPIENS,
@@ -113,12 +113,12 @@ export const CUBIERTAS_PROPIAS: Record<string, Foto> = {
     local: SIETE_HABITOS,
     autor: "Los 7 hábitos de la gente altamente efectiva, de Stephen Covey.",
     licencia: "Obra propia",
-    alt: "La cubierta de «Los 7 hábitos de la gente altamente efectiva»: sobre naranja, siete arcos de colores con paisajes dentro, un camino claro que los atraviesa y dos personas dándose la mano en el centro."
+    alt: "La cubierta de «Los 7 hábitos de la gente altamente efectiva»: sobre naranja, siete arcos de colores con paisajes dentro, un camino claro que los atraviesa y dos personas dándose la mano en el centro.",
   },
   "spqr": {
     local: SPQR,
     autor: "SPQR, de Mary Beard.",
     licencia: "Obra propia",
-    alt: "La cubierta de «SPQR»: sobre rojo, una corona de laurel que enmarca una ciudad romana con su acueducto y su templo, y una calzada empedrada que sale hacia el lector."
+    alt: "La cubierta de «SPQR»: sobre rojo, una corona de laurel que enmarca una ciudad romana con su acueducto y su templo, y una calzada empedrada que sale hacia el lector.",
   },
 };
