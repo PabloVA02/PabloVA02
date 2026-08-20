@@ -118,6 +118,17 @@ Cuando lleguen capturas nuevas, lo que enseñen SE ESCRIBE AHÍ. Lo que se queda
 en la conversación se pierde con la ventana de contexto; lo que está en el
 repositorio, no.
 
+Los resúmenes escritos a mano viven en `libros/paginas.ts`. Van veintiuno, y
+el texto autogenerado por tarjetas de cada uno está BORRADO: Pablo lo pidió
+así el 20 de agosto, y además mientras conviven la estantería pinta la ficha
+vieja. El procedimiento entero está en `REDACCION.md`.
+
+    node scripts/medir-paginas.mjs    palabras y minutos de cada resumen
+    node scripts/revisa-fichas.mjs    a qué libro le falta una pieza de ficha
+    node scripts/mete-libro.mjs       mete un borrador JSON en paginas.ts
+    node scripts/ficha-libro.mjs      escribe las tres piezas de la ficha
+    node scripts/retira-viejo.mjs     borra el texto viejo y su cargador
+
 ## Lo que está cerrado y no se toca
 
 - `DISENO.md` — la pantalla de lectura. Ojo a la lista de **lo que NO se

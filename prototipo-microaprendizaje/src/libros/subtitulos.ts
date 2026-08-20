@@ -22,6 +22,8 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "diario-ana-frank": "La casa de atrás",
+  "trabajo-profundo": "Reglas para el éxito concentrado en un mundo disperso",
   "poder-ahora": "Un camino hacia la realización espiritual",
   "sutil-arte": "Un enfoque disruptivo para vivir una buena vida",
   "pensar-rapido": "Cómo tomamos decisiones y por qué nos equivocamos",

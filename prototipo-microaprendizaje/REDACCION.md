@@ -106,8 +106,26 @@ libro y divide por 140. No puede mentir.
 
 ### Cómo van los libros escritos
 
-No se cuentan a mano. `node scripts/medir-paginas.mjs` recorre `paginas.ts`,
-suma las palabras de cada libro y marca el que se sale de la horquilla.
+No se cuentan a mano. Dos scripts lo dicen en un segundo:
+
+    node scripts/medir-paginas.mjs    palabras y minutos de cada resumen
+    node scripts/revisa-fichas.mjs    a qué libro le falta una pieza de ficha
+
+El 20 de agosto quedaron veintiuno escritos a mano, todos dentro de la
+horquilla, y ningún libro de desarrollo personal conserva el texto viejo.
+
+### Y cómo se escribe uno nuevo
+
+El borrador va en JSON, que es donde solo hay que pensar en el contenido, y
+tres scripts hacen el resto:
+
+    node scripts/mete-libro.mjs   <borrador.json>   las ocho páginas
+    node scripts/ficha-libro.mjs  <ficha.json>      las tres piezas de la ficha
+    node scripts/retira-viejo.mjs <id>              borra el texto autogenerado
+
+`ficha-libro.mjs` avisa si un «Aprenderás» pasa de once palabras o empieza en
+mayúscula, y `retira-viejo.mjs` se niega a borrar nada si el libro no tiene
+páginas nuevas. Después, `generar-meta.mjs` y `estado.mjs`.
 
 ## 2 quater. El texto viejo se BORRA
 
