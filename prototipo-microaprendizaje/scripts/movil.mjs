@@ -85,11 +85,27 @@ const nombres = new Set();
    si no viajan dentro, esa pantalla sale en blanco, porque aquí no hay red.
    Se meten las primeras para que el recorte por peso no se las lleve. */
 const PORTADAS = join(RAIZ, "src", "libros", "portadas.ts");
+const CUBIERTAS = join(RAIZ, "src", "libros", "cubiertas.ts");
 if (existsSync(PORTADAS)) {
   const texto = readFileSync(PORTADAS, "utf8");
-  for (const m of texto.matchAll(/archivo:\s*\n?\s*"((?:[^"\\]|\\.)*)"/g))
-    nombres.add(m[1].replace(/\\"/g, '"'));
-  console.log(`  ${nombres.size} de ellas son portadas de libros`);
+  /* Un libro con cubierta dibujada no usa su fotografía de Commons: en
+     `portadas.ts` la entrada sigue estando, pero `CUBIERTAS_PROPIAS` la pisa
+     al construir `PORTADAS_LIBRO`. Traérsela sería empotrar una imagen que no
+     va a pintar nadie, y aquí cada kilobyte se descuenta del tope de 16 MB. */
+  const dibujadas = existsSync(CUBIERTAS)
+    ? new Set([...readFileSync(CUBIERTAS, "utf8").matchAll(/^  "([\w-]+)": \{$/gm)].map((m) => m[1]))
+    : new Set();
+  let pisadas = 0;
+  for (const bloque of texto.split(/\n  (?=("?[\w-]+"?): \{)/)) {
+    const id = bloque.match(/^"?([\w-]+)"?: \{/)?.[1];
+    if (id && dibujadas.has(id)) { pisadas++; continue; }
+    for (const m of bloque.matchAll(/archivo:\s*\n?\s*"((?:[^"\\]|\\.)*)"/g))
+      nombres.add(m[1].replace(/\\"/g, '"'));
+  }
+  console.log(
+    `  ${nombres.size} de ellas son portadas de libros` +
+      (pisadas ? ` · ${pisadas} las pisa una cubierta dibujada` : ""),
+  );
 }
 
 if (LISTA) {
