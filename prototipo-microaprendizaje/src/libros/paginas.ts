@@ -14245,7 +14245,245 @@ const ODISEA: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   La República, en ocho páginas.
+
+   Breve. Seis argumentos independientes: la pregunta de Glaucón, las tres
+   partes del alma, los guardianes, la caverna, el rey filósofo y la
+   degeneración de los regímenes.
+
+   Registro de ENSAYO —titulares que afirman— porque es un tratado, aunque
+   esté escrito en diálogo. La captura de Headway del 21 de agosto usa el
+   mismo registro y sirve de referencia para la forma; su contenido, no:
+   se queda en las cuatro virtudes y la caverna, y su conclusión dice que
+   los griegos «nos brindan una sabiduría intemporal», que es la frase que
+   se escribe cuando no se quiere decir nada.
+
+   Lo que casi nadie cuenta y aquí sí está: que el libro empieza con un
+   desafío que nadie ha respondido del todo —el anillo de Giges—, que la
+   ciudad justa es una analogía y no un programa, que Platón expulsa a los
+   poetas, y que Popper lo llamó el primer totalitario.
+   -------------------------------------------------------------------------- */
+
+const REPUBLICA_PLATON: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Si un anillo te hiciera invisible, ¿para qué ibas a seguir siendo justo?",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro arranca con un desafío que nadie ha conseguido cerrar del todo. Un joven llamado Glaucón le cuenta a Sócrates la historia de un pastor que encuentra un anillo capaz de volverlo invisible, y que en cuanto lo descubre seduce a la reina, mata al rey y se queda con el trono. La pregunta que viene detrás es la que sostiene los diez libros: si nadie fuera a enterarse nunca, ¿por qué ibas a portarte bien?",
+      },
+      {
+        b: "texto",
+        texto:
+          "Glaucón no está jugando. Su tesis es que todo el mundo es justo por miedo a que lo pillen, que la reputación es lo único que nos frena, y para dejarlo claro propone el experimento contrario: imaginemos a un hombre perfectamente justo al que todos creen un canalla, y a uno perfectamente injusto con fama de santo. El primero acaba torturado y ejecutado; el segundo, rico y respetado. Demuéstranos, le dice a Sócrates, que aun así conviene ser el primero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Todo lo demás —la ciudad ideal, las clases, los filósofos gobernantes, la famosa caverna— es la respuesta a esa pregunta, y conviene leerlo así. Platón escribe alrededor del año 375 antes de Cristo, en una Atenas que acababa de perder una guerra de veintisiete años y que había condenado a muerte a su maestro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren su respuesta: por qué construye una ciudad entera para hablar de una persona, cómo divide el alma en tres, qué hace con los que mandan, qué significa de verdad la caverna, por qué expulsa a los poetas y cómo describe la degeneración de un régimen en otro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La pregunta del libro no es qué es la justicia: es por qué le conviene a uno ser justo cuando nadie mira.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Construye una ciudad entera para poder mirar un alma con lupa" },
+      {
+        b: "texto",
+        texto:
+          "Ante la pregunta de Glaucón, Sócrates hace algo raro: en vez de definir la justicia en una persona, propone buscarla en una ciudad, porque las letras grandes se leen mejor que las pequeñas. Si encontramos qué hace justa a una comunidad, dice, sabremos qué hace justo a un hombre. Toda la construcción política del libro es una analogía, y olvidar eso es el malentendido más común.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La ciudad empieza minúscula: unos cuantos hombres que se juntan porque nadie se basta a sí mismo. Uno labra, otro construye, otro teje, otro hace zapatos, y cada uno hace lo que se le da bien. De esa primera idea —que la especialización produce más y mejor— sale todo lo demás. Cuando la ciudad crece y necesita más tierra, aparece la guerra, y con la guerra una segunda clase: los guardianes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema que Platón se plantea entonces es el que sigue vivo hoy: si formas a un grupo para que sea fuerte y agresivo con los de fuera, ¿cómo evitas que se vuelva contra los de dentro? Su respuesta es una imagen doméstica: un buen perro guardián es feroz con el desconocido y manso con la familia, y lo que distingue las dos cosas es la educación. La ciudad primitiva, la de los cuatro oficios, le parece a Sócrates la sana y suficiente; es su interlocutor quien la llama ciudad de cerdos y pide lujos. Todo lo que viene después —el ejército, las clases, la vigilancia— nace de ese capricho.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los que te protegen y los que te oprimen son la misma gente con distinta formación, y esa es la apuesta entera del libro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dentro de cada persona hay tres partes que quieren cosas distintas" },
+      {
+        b: "texto",
+        texto:
+          "La ciudad tiene tres clases —productores, guardianes y gobernantes— porque el alma, dice Platón, tiene tres partes, y ahí está la analogía completa. La primera es el apetito: el hambre, la sed, el deseo, lo que tira hacia el placer inmediato. La segunda es el ánimo, que es de donde salen la indignación, la vergüenza y el coraje. La tercera es la razón, que calcula y decide.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba de que son tres y no una es una escena callejera que Platón cuenta sin adornos. Un hombre pasa junto a unos cadáveres de ajusticiados y siente unas ganas enormes de mirarlos. Se resiste, se tapa la cara, al final puede más el deseo, abre los ojos y se insulta a sí mismo: ahí tenéis, malditos, hartaos de mirar. Tres voces en un solo hombre: la que quiere mirar, la que se lo prohíbe y la que se enfada consigo mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la definición de justicia del libro, que no es lo que se espera. Justicia no es dar a cada uno lo suyo, ni cumplir las leyes: es que cada parte haga su trabajo y no invada el de las otras. Una persona justa es la que tiene sus tres partes en orden, con la razón mandando, el ánimo de aliado y el apetito obedeciendo. La injusticia es una guerra civil interna.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ser justo no es cumplir normas: es que las tres cosas que quieres a la vez dejen de pelearse entre ellas.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "A los que mandan no se les paga: se les quita casi todo" },
+      {
+        b: "texto",
+        texto:
+          "La parte política del libro es la que más incomoda, y conviene contarla entera. Los guardianes no pueden tener propiedades, ni dinero, ni casa cerrada, ni siquiera familia propia: viven en cuarteles, comen juntos y los hijos se crían en común sin saber quién es su padre. La razón es de ingeniería, no de moral: quien tiene algo que perder acaba gobernando para conservarlo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un detalle que casi nadie recuerda de este libro, escrito en el siglo cuarto antes de Cristo en una ciudad donde las mujeres no salían de casa: Platón dice que las mujeres pueden ser guardianas en igualdad con los hombres, hacer gimnasia con ellos y gobernar. Su argumento es que la única diferencia relevante entre dos personas para un oficio es su aptitud, y que la naturaleza reparte esas aptitudes sin mirar el sexo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para que el sistema se sostenga, propone además una mentira: contar a todos que los dioses mezclaron oro, plata o bronce en el alma de cada uno al nacer, y que por eso cada cual está donde está. La llama una mentira noble, y es el momento en que el libro reconoce que su ciudad perfecta necesita un mito fundacional para que nadie discuta su sitio. La palabra griega para felicidad, <em>eudaimonía</em>, tampoco significa pasarlo bien: es algo más parecido a que a uno le vaya bien la vida entera, y por eso Platón puede decir sin contradecirse que al justo le conviene serlo aunque lo torturen.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El poder solo es seguro en manos de quien no gana nada teniéndolo, y por eso casi nunca lo está.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La caverna no habla de ignorancia: habla de lo que cuesta volver" },
+      {
+        b: "texto",
+        texto:
+          "La imagen más famosa de la filosofía occidental es esta. Unos hombres llevan encadenados desde niños en el fondo de una cueva, mirando una pared. Detrás de ellos hay un fuego y unos porteadores que pasan figuras; lo único que los prisioneros han visto en su vida son las sombras que esas figuras proyectan delante de ellos. Para ellos, esas sombras no son una copia de la realidad: son la realidad entera, y le ponen nombre a cada una.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La historia se cuenta siempre hasta ahí, y la mitad importante es la que sigue. Si sueltas a uno y lo obligas a girarse, el fuego lo deslumbra y duele; si lo arrastras fuera, tarda en poder mirar nada, y el sol lo ciega. Cuando por fin ve el mundo, ocurre lo decisivo: no quiere volver. Y si vuelve, sus compañeros lo ven llegar con los ojos estropeados, tropezando en la oscuridad, contando disparates, y concluyen que salir arriba estropea a la gente. Platón añade una frase que sus lectores no podían leer sin pensar en Sócrates: si pudieran, lo matarían.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso la alegoría no va de que la gente sea tonta. Va de tres cosas incómodas: que aprender duele físicamente, que el que ha visto algo tiene la obligación de bajar a contarlo aunque no le apetezca, y que el que baja rara vez es recibido bien.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo difícil de la caverna no es salir: es volver a bajar y aguantar que te tomen por loco.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Expulsa a los poetas de la ciudad, y sabe muy bien lo que hace" },
+      {
+        b: "texto",
+        texto:
+          "El libro décimo contiene la decisión que más se le ha reprochado a Platón en dos mil cuatrocientos años: en su ciudad no hay sitio para los poetas. No es un arrebato. Da dos razones y las dos siguen discutiéndose.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La primera es que el arte es una copia de una copia: un carpintero fabrica una cama mirando la idea de cama, y el pintor pinta esa cama desde un solo ángulo, así que su cuadro está a dos pasos de lo real. La segunda, y es la buena, es psicológica: la tragedia funciona porque nos hace disfrutar llorando por desgracias ajenas, y ese ejercicio entrena la parte del alma que conviene tener a raya. Quien se acostumbra a emocionarse sin freno en el teatro, dice, se emociona sin freno en su casa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la primera vez que alguien argumenta que las ficciones que consumes te forman el carácter, y todo el debate posterior sobre la violencia en el cine, los videojuegos o las redes es una nota al pie de estas páginas. Platón, que escribía diálogos con personajes y escenas —o sea, literatura— sabía perfectamente contra qué estaba escribiendo, y llama a la disputa entre poesía y filosofía una pelea antigua. El propio libro deja una puerta abierta: si alguien demuestra que la poesía además de agradable es útil para la vida, dice, volverá encantado a admitirla en la ciudad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que discute con los poetas no es si el arte es bonito: es si lo que miras cada día te va cambiando por dentro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Describe cómo se pudre un régimen, y el orden en que ocurre" },
+      {
+        b: "texto",
+        texto:
+          "Los libros octavo y noveno son los más políticos y los que mejor han envejecido. Platón describe cómo una ciudad va degenerando de una forma de gobierno a la siguiente, y cada paso viene de un exceso del anterior. El gobierno de los mejores se corrompe cuando los guardianes empiezan a querer honores, y aparece el gobierno de los ambiciosos. Ese, cuando lo que se admira pasa a ser el dinero, se convierte en una oligarquía: la ciudad se parte en dos, los ricos y los pobres, viviendo en el mismo sitio y conspirando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando los pobres ganan, llega la democracia, y aquí Platón escribe las páginas que más se citan hoy. La describe con algo parecido a la admiración —una ciudad de colores, donde cada uno vive como quiere— y con una objeción: si la libertad se convierte en el único valor, deja de tolerarse cualquier autoridad, el maestro teme a los alumnos, los padres imitan a los hijos y nadie soporta que le digan que no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y entonces viene su predicción más incómoda. En medio de ese desorden, alguien se presenta como protector del pueblo, señala a unos enemigos internos, se rodea de una guardia personal para que no lo maten y, cuando ya nadie puede quitársela, se convierte en tirano. El exceso de libertad, escribe, acaba produciendo el exceso de esclavitud. Es una cadena escrita hace veinticuatro siglos que no ha dejado de reconocerse desde entonces.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada régimen se estropea por su propia virtud llevada demasiado lejos, y el que más deprisa cae es el que solo valora una.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "La República responde a una pregunta —por qué conviene ser justo cuando nadie mira— construyendo una ciudad imaginaria para mirar dentro de una persona. Su respuesta es que la justicia no es una norma externa sino un orden interno: que cada parte de uno haga lo suyo. Alrededor de eso caben la caverna, la educación de los que mandan, la expulsión de los poetas y la mejor descripción antigua de cómo una democracia puede acabar en tiranía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es el molde. Es el primer libro que trata la política como un problema de diseño y no de costumbre, el primero que sostiene que gobernar es un oficio que se aprende, y el primero que se pregunta qué le hace a la gente lo que consume. La filosofía europea posterior, dijo Whitehead, es una serie de notas al pie de Platón, y esta obra es donde más se nota.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Cada parte haciendo lo suyo y ninguna invadiendo lo de las otras: eso, y no cumplir las leyes, es la justicia del libro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La ciudad que describe es, mirada de frente, una pesadilla: censura de los cuentos que se les leen a los niños, mentira oficial para justificar las clases, hijos criados sin saber de quién son, matrimonios sorteados con un amaño para que se emparejen los mejores, y una selección de los recién nacidos que hoy tiene nombre y muy mala prensa. Karl Popper lo acusó en 1945 de ser el primer manual del totalitarismo, y aunque muchos filósofos consideran que forzó la lectura, el material que usó está ahí escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay que saber leerlo. Es un diálogo, no un tratado: hay ironía, hay callejones sin salida y hay ideas que Platón se desmonta a sí mismo en obras posteriores. Además, cuando intentó llevar algo de esto a la práctica en Siracusa, asesorando a un tirano de verdad, salió tan mal que acabó, según cuenta la tradición, vendido como esclavo. La ciudad justa no era un programa de gobierno: era una lupa para mirarse por dentro.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "republica-platon": REPUBLICA_PLATON,
   odisea: ODISEA,
   "cerebro-buda": CEREBRO_BUDA,
   "gen-egoista": GEN_EGOISTA,

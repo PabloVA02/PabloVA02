@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "republica-platon": [
+    "qué desafío plantea el anillo de Giges",
+    "por qué construye una ciudad para hablar de una persona",
+    "cuáles son las tres partes del alma",
+    "qué dice de verdad la alegoría de la caverna",
+    "en qué orden se pudre un régimen",
+  ],
+
   odisea: [
     "por qué el poema empieza por su hijo",
     "dónde están los monstruos en el mapa de verdad",

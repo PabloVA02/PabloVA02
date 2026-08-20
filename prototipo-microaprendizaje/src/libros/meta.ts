@@ -472,22 +472,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "republica-platon",
-    titulo: "La República",
-    autor: "Platón",
-    ano: -375,
-    gancho: "Empieza preguntando qué es ser justo y acaba proponiendo abolir la familia, censurar a Homero y entregar el poder a los filósofos. Nadie ha escrito nada más influyente ni más incómodo.",
-    porQue: "Es el libro con el que discute toda la filosofía política posterior, incluidos los que lo detestan. Y plantea una pregunta que sigue sin respuesta: por qué habría que portarse bien si pudieras hacerte invisible y no te pillaran nunca.",
-    minutos: 22.5,
-    capitulos: [
-      { titulo: "Una casa del puerto del Pireo", minutos: 4.7 },
-      { titulo: "La ciudad escrita en letra grande", minutos: 4.5 },
-      { titulo: "La caverna y lo que hay fuera", minutos: 4.5 },
-      { titulo: "Las mujeres, los hijos y los poetas", minutos: 4.2 },
-      { titulo: "¿Un plano o una advertencia?", minutos: 4.7 },
-    ],
-  },
-  {
     id: "etica-nicomaco",
     titulo: "Ética a Nicómaco",
     autor: "Aristóteles",

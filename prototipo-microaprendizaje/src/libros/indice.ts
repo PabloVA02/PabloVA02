@@ -180,7 +180,6 @@ const CARGADORES: Record<string, Cargador> = {
   "contrato-social": () => import("./filosofia").then((m) => m.CONTRATO_SOCIAL),
   "discurso-metodo": () => import("./filosofia").then((m) => m.DISCURSO_METODO),
   "etica-nicomaco": () => import("./filosofia").then((m) => m.ETICA_NICOMACO),
-  "republica-platon": () => import("./filosofia").then((m) => m.REPUBLICA_PLATON),
   "ensayos-montaigne": () => import("./filosofia").then((m) => m.ENSAYOS_MONTAIGNE),
   "origen-especies": () => import("./ciencia").then((m) => m.ORIGEN_ESPECIES),
   "henrietta-lacks": () => import("./ciencia").then((m) => m.HENRIETTA_LACKS),

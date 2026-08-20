@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "republica-platon":
+    "Empieza con una pregunta incómoda: si un anillo te hiciera invisible, ¿para qué seguir siendo justo? Para contestarla, Platón construye una ciudad entera y acaba describiendo cómo una democracia puede acabar en tiranía.",
+
   odisea:
     "Un hombre tarda diez años en volver de la guerra a una isla pedregosa donde lo esperan su mujer y un hijo al que no conoce. Por el camino le ofrecen la inmortalidad y dice que no.",
 
