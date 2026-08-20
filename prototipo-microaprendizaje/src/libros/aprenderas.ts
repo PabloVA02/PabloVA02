@@ -29,15 +29,21 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "club-5-manana":
+    "La primera hora del día es la única que no le pertenece a nadie más: a las cinco no hay correos, ni reuniones, ni nadie pidiéndote algo. Robin Sharma la reparte en tres bloques de veinte minutos y explica cómo sostenerlo sin quitarse horas de sueño.",
+
+  "trabajo-profundo":
+    "Cada vez que miras el correo a media tarea, una parte de tu cabeza se queda enganchada a lo anterior. Cal Newport sostiene que concentrarse se ha vuelto raro justo cuando más vale, y que se puede entrenar como cualquier otra cosa.",
+
   sapiens:
-    "Hace cien mil años compartíamos el planeta con otras cinco especies humanas. Harari explica por qué ganó la nuestra —sabemos inventarnos historias y creérnoslas entre millones— y qué hemos pagado por ello.",
+    "Hace cien mil años había seis especies humanas y hoy queda una. Harari explica por qué ganó la nuestra —sabemos inventarnos historias y creérnoslas entre millones de desconocidos— y qué hemos ido pagando por cada salto: la agricultura, el dinero, los imperios y la ciencia.",
 
   "homo-deus":
-    "Hoy muere más gente por comer de más que por no tener qué comer, y se quita la vida más de la que matan todas las guerras juntas. Harari parte de ahí para preguntar a qué dedica una especie el esfuerzo cuando resuelve lo que llevaba cien mil años intentando resolver.",
+    "Hoy muere más gente por comer de más que por no tener qué comer. Resueltos el hambre, la peste y la guerra, este libro pregunta a qué se dedica una especie después: a no morirse, a fabricarse la felicidad y a dejar que los algoritmos decidan por ella.",
 
   "armas-germenes":
-    "En una playa de Nueva Guinea le preguntaron a Jared Diamond por qué unos pueblos llegaron cargados de hierro y medicinas y otros no. Tardó veinticinco años en responder, y la respuesta no está en la gente: está en qué plantas y qué animales había en cada sitio.",
+    "En una playa de Nueva Guinea le preguntaron a Jared Diamond por qué unos pueblos llegaron cargados de hierro y medicinas y otros no. Su respuesta no está en la gente sino en el mapa: qué plantas y qué animales había en cada sitio, y hacia dónde podían viajar.",
 
   "diario-ana-frank":
-    "Dos años y un mes encerrada con otras siete personas detrás de la oficina de su padre, sin salir a la calle ni una vez. Lo que Ana escribió allí no es una crónica de la guerra: es la vida diaria de un escondite, contada por alguien que ya escribía mejor que la mayoría de los adultos.",
+    "Dos años y un mes encerrada con otras siete personas detrás de la oficina de su padre, sin pisar la calle. No es una crónica de la guerra: es la vida diaria de un escondite contada por una chica de quince años que ya escribía mejor que la mayoría de los adultos.",
 };

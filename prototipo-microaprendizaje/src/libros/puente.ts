@@ -3,6 +3,9 @@ import type { Libro } from "../Biblioteca";
 import type { Categoria } from "./catalogo";
 import { CATALOGO } from "./catalogo";
 import { META_POR_ID } from "./meta";
+import { PAGINAS } from "./paginas";
+import { APRENDERAS } from "./aprenderas";
+import { SUBTITULOS } from "./subtitulos";
 import { PORTADAS_LIBRO } from "./portadas";
 import {
   AmanteArte, AmanteArteVB, Analisis, AnalisisVB, ArtistaTrabajando, ArtistaTrabajandoVB,
@@ -127,6 +130,77 @@ export const LIBROS_RESUMEN: Libro[] = CATALOGO.flatMap((ficha) => {
     } satisfies Libro,
   ];
 });
+
+/* -------------------------------------------------------------------------
+   LOS LIBROS DEL FORMATO NUEVO
+
+   `META_POR_ID` sale de los resúmenes por tarjetas, que es el formato viejo.
+   Un libro escrito con el molde de `REDACCION.md` —ocho páginas a mano en
+   `paginas.ts`— no tiene tarjetas ni tiene por qué tenerlas, y sin esto no
+   podría existir: se quedaba fuera de la estantería por no llevar un formato
+   que precisamente se está abandonando.
+
+   Así que después del recorrido de arriba se añaden los que están en el
+   catálogo, tienen páginas escritas y no tienen tarjetas. Todo lo que la
+   estantería necesita sale de sitios que ya existen:
+
+     título, autor, año   del catálogo, que es el registro de verdad
+     subtítulo            de `subtitulos.ts`, y si no lo tiene, del catálogo
+     gancho               de `aprenderas.ts`, el «de qué trata» de la ficha
+     capítulos            de los titulares de sus ocho páginas
+     minutos              contando sus palabras a 200 por minuto, que es leer
+
+   Un libro del catálogo sin tarjetas Y SIN PÁGINAS sigue sin aparecer, que es
+   lo que hay que evitar: una portada bonita que al tocarla no lleva a ningún
+   sitio. */
+const CON_PAGINAS: Libro[] = CATALOGO.flatMap((ficha) => {
+  if (META_POR_ID[ficha.id]) return [];
+  const paginas = PAGINAS[ficha.id];
+  if (!paginas?.length) return [];
+
+  const n = (vistos[ficha.categoria] = (vistos[ficha.categoria] ?? 0) + 1);
+  const arte = ARTES[ficha.categoria][(n - 1) % ARTES[ficha.categoria].length];
+  const palabras = paginas
+    .flatMap((p) => p.bloques)
+    .reduce((total, b) => {
+      const texto =
+        b.b === "lista"
+          ? b.puntos.map((x) => `${x.fuerte} ${x.texto}`).join(" ")
+          : b.b === "cita"
+            ? b.frase
+            : b.b === "prueba"
+              ? b.puntos.join(" ")
+              : b.texto;
+      return total + texto.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
+    }, 0);
+
+  return [
+    {
+      id: ficha.id,
+      titulo: ficha.titulo,
+      autor: ficha.autor,
+      subtitulo: SUBTITULOS[ficha.id] ?? ficha.titulo,
+      gancho: APRENDERAS[ficha.id] ?? "",
+      categoria: ficha.categoria,
+      color: PALETA[ficha.categoria],
+      Arte: arte.Comp,
+      vb: arte.vb,
+      portada: PORTADAS_LIBRO[ficha.id],
+      progreso: 0,
+      ano: ficha.ano,
+      minutos: Math.max(1, Math.round(palabras / 200)),
+      /* Los capítulos son los titulares de las páginas: es lo que se enseña en
+         «Aprenderás» cuando un libro no tiene sus cinco puntos escritos. */
+      capitulos: paginas
+        .map((pag) => pag.bloques.find((b) => b.b === "rotulo"))
+        .filter((b) => b?.b === "rotulo")
+        .map((b) => ({ titulo: (b as { texto: string }).texto })),
+      jugable: true,
+    } satisfies Libro,
+  ];
+});
+
+LIBROS_RESUMEN.push(...CON_PAGINAS);
 
 /** Las categorías que tienen al menos un libro escrito, en orden de catálogo. */
 export const CATEGORIAS_CON_LIBROS: Categoria[] = [

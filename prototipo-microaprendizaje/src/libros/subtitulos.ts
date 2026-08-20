@@ -52,4 +52,5 @@ export const SUBTITULOS: Record<string, string> = {
 
   /* Psicología */
   "habitos-atomicos": "Cambios pequeños, resultados extraordinarios",
+  "club-5-manana": "Controla tus mañanas, impulsa tu vida",
 };

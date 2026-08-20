@@ -1063,7 +1063,7 @@ export function DetalleLibro({
             encontrar. El texto de `aprenderas.ts` cuenta el recorrido; si un
             libro todavía no lo tiene, cae en el de antes para no dejar hueco. */}
         <motion.section custom={7} variants={enterVariants} initial="hidden" animate="shown">
-          <h2 className="detalle-seccion">De qué va</h2>
+          <h2 className="detalle-seccion">De qué trata</h2>
           <p className="detalle-parrafo">{APRENDERAS[libro.id] ?? libro.gancho}</p>
         </motion.section>
 

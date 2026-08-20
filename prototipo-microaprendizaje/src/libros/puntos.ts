@@ -46,6 +46,22 @@ export const PUNTOS: Record<string, string[]> = {
     "por qué más poder no ha traído más felicidad",
   ],
 
+  "club-5-manana": [
+    "cómo repartir la primera hora del día en tres bloques de veinte minutos",
+    "por qué madrugar se decide la noche anterior y no por la mañana",
+    "cuánto tarda de verdad en instalarse un hábito, y en qué semana se abandona",
+    "qué son la regla del 90/90/1 y el ritmo de 60 y 10",
+    "por qué el descanso es parte del rendimiento y no su premio",
+  ],
+
+  "trabajo-profundo": [
+    "por qué la atención no vuelve entera después de cada interrupción",
+    "las cuatro maneras de meter concentración en una vida normal",
+    "cómo montar un ritual que quite decisiones en vez de gastar voluntad",
+    "por qué conviene descansar de la distracción y no de la concentración",
+    "cómo elegir qué aplicaciones se quedan y cuáles sobran",
+  ],
+
   "armas-germenes": [
     "por qué unos pueblos llegaron a otros y no al revés",
     "cuántos animales grandes se han domesticado en toda la historia",

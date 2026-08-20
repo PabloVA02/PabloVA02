@@ -1,4 +1,5 @@
 import { CATALOGO } from "./catalogo";
+import { PAGINAS } from "./paginas";
 import type { Resumen } from "./tipos";
 
 /* ==========================================================================
@@ -285,10 +286,15 @@ export async function cargarTodos(): Promise<Record<string, Resumen>> {
   return Object.fromEntries(entradas) as Record<string, Resumen>;
 }
 
+/* Un libro «escrito» puede estarlo de dos maneras: con tarjetas, que es el
+   formato viejo y vive en `libros/<id>.ts`, o con las ocho páginas a mano de
+   `paginas.ts`, que es el molde de `REDACCION.md` y no lleva tarjetas. Las dos
+   cuentan; si no, los libros nuevos saldrían aquí como si faltara su texto. */
 export function comprobar() {
   const marcados = CATALOGO.filter((f) => f.estado === "escrito").map((f) => f.id);
+  const conTexto = new Set([...IDS, ...Object.keys(PAGINAS)]);
   return {
-    marcadosSinFichero: marcados.filter((id) => !IDS.includes(id)),
-    ficheroSinMarcar: IDS.filter((id) => !marcados.includes(id)),
+    marcadosSinFichero: marcados.filter((id) => !conTexto.has(id)),
+    ficheroSinMarcar: [...conTexto].filter((id) => !marcados.includes(id)),
   };
 }
