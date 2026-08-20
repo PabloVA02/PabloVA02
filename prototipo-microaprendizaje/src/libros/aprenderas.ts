@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "mundo-ayer":
+    "Zweig cuenta cómo la Europa segura y sin fronteras en la que nació se deshizo en treinta años. Dos guerras, una inflación y un destierro contados por alguien que estaba dentro y no lo vio venir.",
+
   "breve-historia-tiempo":
     "Hawking cuenta lo que la física del siglo XX averiguó sobre el universo: que se expande y que por tanto tuvo un principio. Y que el tiempo no corre igual para todos ni los agujeros negros son del todo negros.",
 

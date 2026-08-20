@@ -10710,7 +10710,370 @@ const BREVE_HISTORIA_TIEMPO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El mundo de ayer, en doce páginas.
+
+   El primer Amplio de la biblioteca, y el libro lo pide: no es un ensayo
+   con una tesis, son cincuenta años de Europa contados por dentro, y en
+   ocho páginas o se queda en la nostalgia de Viena o se queda en el
+   exilio. Los argumentos independientes salen diez y por eso son doce.
+
+   Dos reglas mandan aquí. La 4.7 y el caso (c) de la 4 bis: un libro
+   escrito desde una desgracia real no admite la segunda persona, así que
+   no hay un solo «tú» en todo el resumen. Y el caso (b): la anécdota que
+   todo el mundo conoce de Zweig es su suicidio, así que NO abre el
+   resumen —abrirlo con eso sería convertir el libro en su necrológica—;
+   va en la conclusión, donde le toca por la regla (d).
+
+   Lo que casi nadie sabe y aquí sí está: el Himno del odio de Lissauer,
+   las astillas del Burgtheater, que se envejecía a propósito, y que en
+   quinientas páginas de memorias no aparece ninguna de sus dos mujeres.
+   -------------------------------------------------------------------------- */
+
+const MUNDO_AYER: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Hasta 1914 se podía cruzar Europa entera sin enseñar un papel" },
+      {
+        b: "texto",
+        texto:
+          "Un austríaco de 1910 subía a un tren en Viena, bajaba en París o en Moscú y nadie le pedía nada. Zweig viajó a la India y a Estados Unidos sin pasaporte, porque el pasaporte todavía no era un documento de uso corriente. Aquella libertad no se defendía ni se celebraba: se daba por descontada, como el aire, y por eso nadie se dio cuenta del momento en que dejó de existir.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mundo de ayer no cuenta la vida de Zweig. Cuenta la de una generación europea que en cincuenta años vivió tres mundos distintos sin cambiar de casa: nació en un imperio que se creía eterno, lo vio caer en cuatro años de guerra, vio deshacerse la moneda entre las manos y terminó apátrida, con un carné provisional, en un continente donde había nacido y ya no podía entrar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La idea incómoda del libro es que aquella seguridad ya era falsa antes de romperse. La estabilidad de 1900 no se hundió por accidente: escondía debajo una escuela que adiestraba, una moral que obligaba a mentir y una fe en el progreso tan completa que hacía impensable —y por eso imparable— una guerra.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Estas páginas recorren el trayecto entero: en qué consistía el mundo de la seguridad, qué escondía, cómo se acabó una tarde de julio de 1914, qué hizo la propaganda con la cabeza de los que se quedaron en casa, qué enseñó la inflación, por qué casi nadie se marchó a tiempo y qué le queda a un escritor cuando pierde el idioma.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un mundo no se deshace de golpe: se deshace mientras sus habitantes lo siguen dando por seguro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La seguridad era la religión de aquel imperio y todo el mundo comulgaba",
+      },
+      {
+        b: "texto",
+        texto:
+          "Zweig llama a su infancia la edad de oro de la seguridad, y la palabra hay que tomarla al pie de la letra. El estado garantizaba el valor de la moneda. La casa se compraba para siempre. La póliza cubría la vejez y la dote de las hijas. El sueldo subía por escalones previstos, y un funcionario de veinticinco años sabía el día exacto en que se jubilaría. La fortuna familiar se guardaba en deuda pública, y la deuda pública era tan sólida como una pared.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De esa certeza salía todo lo demás. La pobreza se explicaba como un fallo personal —un descuido, un vicio—, no como un accidente que pudiera tocarle a cualquiera. Las epidemias retrocedían, las ciudades se llenaban de luz eléctrica, los trenes acortaban el mapa. El progreso no era una esperanza, era una observación: cada generación viviría algo mejor que la anterior, igual que cada año llega después del anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La guerra entraba en ese cuadro como una antigualla. Podía haberla en los Balcanes o en las colonias, entre pueblos que aún no habían llegado; entre estados civilizados, con los bancos entrelazados, los ferrocarriles y los tratados firmados, se consideraba técnicamente imposible. En casa de Zweig no se hablaba de dinero, y no por discreción: porque el dinero estaba colocado y no daba problemas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Aquella gente no era optimista: había dejado de contar el desastre entre las cosas posibles.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La escuela de entonces no enseñaba: adiestraba a estar quieto" },
+      {
+        b: "texto",
+        texto:
+          "El instituto que describe Zweig es un edificio frío con bancos numerados, donde la materia se recitaba, se examinaba y se olvidaba, y donde ningún profesor preguntó jamás a un alumno qué le interesaba. Ocho años de latín y ni una tarde dedicada a lo que estaba pasando ahí fuera: mientras ellos conjugaban, Viena era la ciudad de Freud, de Mahler y de Klimt, y todo eso llegaba al aula de contrabando, en revistas escondidas debajo del pupitre.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aprendieron de verdad lo aprendieron contra la escuela. La clase entera leía poesía moderna, iba a los estrenos, escribía versos y discutía en los cafés al salir. El colegio les enseñó una sola cosa útil, y no era la que pretendía: a disimular delante de la autoridad. El café vienés era la verdadera universidad: por el precio de un café se pasaba la tarde leyendo los diarios de París y de Londres y las revistas literarias que no entraban en el aula.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una rareza de aquella sociedad que hoy cuesta imaginar: la juventud no valía nada. Un hombre joven se dejaba barba, se ponía gafas y se vestía de oscuro para aparentar más edad, porque la autoridad residía en la vejez. A un médico de treinta años se le miraba con desconfianza, y los sillones, los cargos y la palabra pertenecían a los mayores. Se envejecía a propósito, exactamente al revés que ahora.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un mundo que se cree seguro premia la vejez, y sus jóvenes se disfrazan de viejos para que los tomen en serio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Aquella moral no prohibía el sexo: obligaba a mentir sobre él" },
+      {
+        b: "texto",
+        texto:
+          "Uno de los capítulos más duros del libro sostiene que la moral sexual de la Viena burguesa no era pudor, sino un sistema de ocultación con su propia infraestructura. Una señorita debía llegar al matrimonio sin saber nada; la ropa la envolvía en capas, ballenas y corsés que convertían el cuerpo en un secreto administrado. Nombrar el asunto era de mala educación. Que existiera, imposible de evitar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia era la prostitución a escala industrial. La policía de Viena contaba a las prostitutas por decenas de miles en una ciudad de dos millones, con calles enteras dedicadas al oficio y una inspección sanitaria que fingía controlar lo que la moral fingía que no existía. Los hijos de las buenas familias aprendían allí, y de allí salía la sífilis, que en aquellos años era lo que hoy no tiene equivalente: una enfermedad frecuente, incurable y que no se podía nombrar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Zweig no cuenta esto para escandalizar, sino para desactivar la nostalgia, empezando por la suya. La misma sociedad que se presentaba como el orden y las buenas costumbres sostenía debajo un mercado que sus hijas no debían mencionar. Y cuando llegó la generación siguiente y empezó a hablar de todo aquello en voz alta, los que habían montado el sistema lo llamaron decadencia. De ese material salió buena parte del trabajo de Freud, que pasaba consulta a unas calles de allí: los cuadros nerviosos que trataba eran en gran medida la factura de aquella educación.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Lo que aquella sociedad llamaba moral era un método para no tener que mirar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "En Viena el teatro importaba más que el parlamento, y no es una manera de hablar",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando en 1888 se cerró el viejo Burgtheater, hubo gente de la buena sociedad que se llevó a casa una astilla del entarimado, como quien guarda una reliquia. En el periódico, la página que se buscaba primero era la de los estrenos, no la de la política. La enfermedad de una actriz inquietaba más que una crisis de gobierno, y el sastre y el barbero sabían quién cantaba esa noche en la ópera y tenían opinión formada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Esa manía producía un efecto raro: en una ciudad así, un chico de diecisiete años podía ser célebre por escribir versos. Hugo von Hofmannsthal publicaba poemas de una madurez asombrosa siendo aún estudiante de instituto, con seudónimo porque el reglamento se lo prohibía, y media Viena se preguntaba quién era. Para Zweig y sus compañeros aquello fue la prueba de que el arte era el asunto serio y todo lo demás administración.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás había un público muy concreto. La burguesía judía vienesa —la familia de Zweig entre ellas— compraba los abonos, sostenía las orquestas, llenaba las salas y empujaba a sus hijos hacia la música y la literatura en vez de hacia el comercio del padre. El libro lo dice sin adornos: sin ese público no habría existido aquella Viena, y a los cuarenta años de escribirlo ya no quedaba ni el público ni la ciudad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una ciudad que se toma el arte tan en serio como la política acaba fabricando artistas en serie.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El pasaporte no se inventó para proteger al viajero, sino para volverlo sospechoso",
+      },
+      {
+        b: "texto",
+        texto:
+          "Antes de 1914, escribe Zweig, la tierra era de todos. Se compraba el billete y se iba: no había visados, ni cupos, ni permisos de residencia, ni existía la palabra indocumentado. Los países se distinguían por el idioma y la comida, no por una frontera que hubiera que negociar con un funcionario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La guerra montó la maquinaria y la paz decidió conservarla. Aparecieron el pasaporte con fotografía, el sello, el certificado de buena conducta, el consulado, la cola y el empleado que decide. Zweig calcula que en sus últimos años dedicó más horas a rellenar formularios que a escribir, y esa frase, dicha por un autor que se traducía a veinte idiomas, mide bien el cambio. Un exiliado necesitaba un papel para entrar, otro para quedarse, otro para trabajar y otro para salir, y cada uno con su propia fecha de caducidad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que le parece decisivo no es administrativo, es psicológico. En 1900 uno era una persona mientras no se demostrara lo contrario; en 1930 era un caso pendiente de examen, alguien obligado a probar quién era, de dónde venía y por qué no resultaba peligroso. Esa libertad no se perdió con una ley famosa ni con una fecha que se estudie en el colegio: se perdió por acumulación de trámites, y la generación siguiente ya nació encontrándolo normal.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La libertad no se pierde en un decreto: se pierde en una ventanilla, y a los hijos ya les parece lo de siempre.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La guerra no llegó por sorpresa: llegó porque nadie se creyó que pudiera llegar",
+      },
+      {
+        b: "texto",
+        texto:
+          "El 28 de junio de 1914 Zweig estaba en Baden, cerca de Viena, escuchando en el parque a la orquesta del balneario. La música se cortó de golpe, alguien colgó un aviso en el quiosco y la gente se acercó a leerlo: habían matado al heredero en Sarajevo. Recuerda la escena con precisión y también su propia reacción, que fue la de todos: lástima, comentarios y, al cabo de un rato, otra vez la música.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante cinco semanas Europa siguió de vacaciones. El archiduque no caía especialmente bien y se daba por hecho que aquello se arreglaría con notas diplomáticas, como se habían arreglado las crisis anteriores. Los banqueros no querían la guerra, los socialistas habían prometido una huelga general, los tratados estaban firmados. La misma fe en el progreso que hacía impensable la catástrofe fue la que impidió tomarla en serio a tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y cuando llegó, el libro cuenta lo que más cuesta admitir: los primeros días de agosto fueron hermosos. Las calles se llenaron de banderas y de desconocidos que se abrazaban, y millones de personas sintieron por primera vez que pertenecían a algo y que su vida de oficina significaba algo. Zweig, que odiaba aquella guerra, no oculta que empezó con una alegría de masas. Nadie preparó equipaje de invierno: se repetía que los soldados estarían de vuelta antes de que cayeran las hojas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Ninguna guerra empieza con miedo: empieza con la alegría repentina de pertenecer a algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La primera baja de una guerra es la cabeza del que se queda en casa" },
+      {
+        b: "texto",
+        texto:
+          "A las pocas semanas ya no se tocaba a Mozart en París ni se leía a Shakespeare en Berlín. Los comercios cambiaban los nombres extranjeros de sus productos, los profesores firmaban manifiestos sobre la superioridad de su nación y los diarios se llenaban de una lengua nueva en la que el enemigo no era un ejército, sino una raza. Zweig trabajaba en el archivo de guerra de Viena: veía llegar los partes y después leía los periódicos, y medía la distancia entre unos y otros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso que mejor lo resume es el de Ernst Lissauer, conocido suyo, poeta alemán y judío, patriota hasta la médula. Escribió el Himno del odio contra Inglaterra, un poema breve que se recitó en escuelas y cuarteles, que le valió una condecoración del Kaiser y que lo hizo célebre en unas semanas. Terminada la guerra, ese mismo poema lo dejó sin sitio: para unos era un recuerdo incómodo y para los demás era el hombre del odio. Murió olvidado.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Un viaje al frente de Galicia le enseñó el otro lado. Un tren de heridos parado en una estación, sin médicos y sin agua, no se parecía en nada a lo que contaban los diarios. De ahí salió Jeremías, su drama pacifista, que solo pudo estrenarse en Zúrich en 1917 porque Suiza era neutral: ningún país en guerra habría permitido esa obra en sus teatros.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El odio no se declara: se enseña, y a veces basta con un poema para que prenda en un país entero.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La inflación no arruinó a los austríacos: les enseñó que ahorrar era de tontos",
+      },
+      {
+        b: "texto",
+        texto:
+          "Entre 1919 y 1925 la corona austríaca se deshizo hasta tal punto que el estado tuvo que cambiarla por una moneda nueva a razón de diez mil por uno. En Alemania fue peor: el dólar llegó a valer billones de marcos y el sueldo se gastaba el mismo día de cobrarlo, porque al siguiente ya no compraba lo mismo. Zweig vivía en Salzburgo, en la frontera, y veía llegar cada mañana los trenes de bávaros que cruzaban a comprar todo lo que hubiera; meses después la corriente se invirtió y eran los austríacos los que cruzaban a Alemania.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El destrozo no fue solo económico. Un país donde el ahorro de toda una vida no paga una comida aprende una lección moral, y la aprende bien: el prudente se arruina, el que se endeudó se libra, el que especula gana. Las familias que habían vivido de rentas vendían los cuadros, y quien tenía unos dólares compraba edificios enteros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Zweig ata ese desorden con lo que vino después. Una generación entera se educó viendo que las reglas no protegían a nadie, que el orden era un cuento y que prosperaba el que se las saltaba. Cuando quince años más tarde apareció alguien prometiendo orden a cualquier precio, no habló con gente ingenua: habló con gente a la que ya le habían demostrado que el mundo previsible no existía.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Una moneda que se deshace no se lleva el dinero: se lleva la idea de que portarse bien sirva para algo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Casi nadie se marchó a tiempo porque cada paso parecía siempre el último",
+      },
+      {
+        b: "texto",
+        texto:
+          "La explicación de Zweig sobre cómo se instaló el nazismo no es política, es de dosificación. Cada medida llegaba sola, con una pausa detrás y en un tamaño que permitía decir «hasta aquí y ya está»: primero la propaganda, luego una ley, luego un boicot de un día, luego una lista, luego la expulsión de los funcionarios. Cada escalón hacía que el anterior pareciera moderado, y el que había aguantado el anterior tenía un motivo para aguantar el siguiente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El método funcionó también con los que miraban desde fuera. En las capitales europeas se repetía que aquello era pasajero, que el poder modera y que un país de Goethe y de Kant tenía un límite. Y funcionó con los propios afectados, que se decían que el negocio, la casa y treinta años de vida no se abandonan por un mal año.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A Zweig lo despertó una cosa pequeña. En 1934 la policía austríaca registró su casa de Salzburgo buscando armas de la milicia socialista. Fue un registro correcto, con su orden judicial, y no encontraron nada. Él entendió lo que significaba que en su propio país pudieran entrar en su casa con una excusa, hizo las maletas y se fue a Londres. Casi todos sus conocidos pensaron que exageraba; cuatro años después, en marzo de 1938, Austria dejó de existir en una noche y los austríacos que estaban fuera amanecieron apátridas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El método no fue el golpe: fue la dosis. Cada paso parecía el último, y por eso siempre hubo uno más.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "A un escritor no lo destierran de su país: lo destierran de su idioma",
+      },
+      {
+        b: "texto",
+        texto:
+          "En mayo de 1933 sus libros ardieron en las plazas alemanas junto a los de Freud y Thomas Mann, y poco después dejaron de venderse allí. Alemania era su mercado principal, pero eso, dice, era lo de menos. Lo grave era que su lengua seguía funcionando a pleno rendimiento al otro lado de la frontera, usada cada día para decir exactamente lo contrario de lo que él pensaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hubo un episodio que lo dejó claro. Richard Strauss, el compositor vivo más importante de Alemania, se empeñó en estrenar La mujer silenciosa con libreto de Zweig y exigió que el nombre del libretista judío figurase en el cartel. La ópera se estrenó en Dresde en 1935, se representó unas pocas veces y se retiró. Strauss no perdió nada esencial; el libretista dejó de existir para el público que había sido suyo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Después llegó la parte administrativa del destierro: los consulados, los impresos, el certificado de que uno no es nadie peligroso, la condición de apátrida desde 1938 y una nacionalidad británica en 1940 que arreglaba los papeles y no devolvía nada. El libro define con exactitud la diferencia entre un viajero y un exiliado, y no está en el equipaje ni en los kilómetros: el viajero elige y vuelve; el exiliado depende de que un funcionario tenga un buen día.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Perder el país es un asunto de papeles; perder a los lectores de tu lengua es perder el oficio.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El mundo de ayer cuenta cómo una civilización que se creía a salvo se deshizo en treinta años, y lo cuenta desde dentro: la seguridad de 1900 con su fondo de hipocresía, el verano en que se acabó, la propaganda que enseñó a odiar, la inflación que desmontó la idea del mérito, la dosis lenta del nazismo y el destierro de un hombre cuyo país era una lengua.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta no es la explicación de por qué ocurrió —para eso hay libros mejores, con archivos y cifras—, sino el registro de cómo se vivió por dentro, que es justo lo que ningún archivo conserva: qué se creía el día antes, qué parecía exagerado, qué se consideró pasajero. Es el mejor documento que existe sobre lo difícil que resulta reconocer una catástrofe mientras está empezando.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie reconoce el final de su mundo mientras está ocurriendo: siempre parece un mal año dentro de un orden que aguanta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La nostalgia del libro es la de una clase. La seguridad que describe era la de una familia burguesa de Viena, no la de los obreros de Ottakring ni la de los pueblos del imperio que no hablaban alemán, y Zweig apenas mira hacia allí: el mundo perdido que llora era, para la mayoría de sus compatriotas, un mundo que nunca tuvieron. Escribió además de memoria, sin archivo y sin sus papeles, y algunas fechas y cifras hubo que corregírselas después. Y hay una ausencia que dice mucho: en quinientas páginas de memorias no aparece ninguna de sus dos mujeres.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que pasó después forma parte del libro. Zweig envió el manuscrito a su editor y el 22 de febrero de 1942 se quitó la vida en Petrópolis, en Brasil, junto a su segunda mujer, dejando una nota en la que decía que el mundo de su lengua se había perdido y que prefería no esperar. Terminó de escribirlo cuando ya no creía en el final que había escrito, y por eso la última frase no consuela: describe.",
+      },
+      { b: "cita", frase: "Toda sombra es, al fin y al cabo, hija de la luz.", autor: "Stefan Zweig, El mundo de ayer" },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "mundo-ayer": MUNDO_AYER,
   "breve-historia-tiempo": BREVE_HISTORIA_TIEMPO,
   principe: PRINCIPE,
   "arte-guerra": ARTE_GUERRA,

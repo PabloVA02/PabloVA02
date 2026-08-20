@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "mundo-ayer": [
+    "por qué antes de 1914 se viajaba sin pasaporte",
+    "qué escondía debajo la moral de la Viena elegante",
+    "cómo se le enseña a odiar a un país entero",
+    "qué le enseña una inflación a toda una generación",
+    "por qué casi nadie se marchó a tiempo",
+  ],
+
   "breve-historia-tiempo": [
     "por qué un universo en expansión tuvo que tener un principio",
     "por qué un gemelo que viaja envejece menos que el otro",

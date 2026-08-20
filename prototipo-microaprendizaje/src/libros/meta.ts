@@ -72,22 +72,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "mundo-ayer",
-    titulo: "El mundo de ayer",
-    autor: "Stefan Zweig",
-    ano: 1942,
-    gancho: "Escribió de memoria, sin biblioteca y sin notas, el retrato de una Europa que ya no existía. Echó el manuscrito al correo y al día siguiente se mató.",
-    porQue: "Es el mejor testimonio que hay de cómo un mundo entero se puede desmontar en veinticinco años sin que casi nadie se dé cuenta a tiempo.",
-    minutos: 22.4,
-    capitulos: [
-      { titulo: "El mundo de la seguridad", minutos: 4.4 },
-      { titulo: "El colegio y lo que pasaba fuera", minutos: 4.5 },
-      { titulo: "1914: la fiesta en la calle", minutos: 4.5 },
-      { titulo: "El día que llamaron a la puerta", minutos: 4.6 },
-      { titulo: "Petrópolis", minutos: 4.4 },
-    ],
-  },
-  {
     id: "diario-ana-frank",
     titulo: "Diario de Ana Frank",
     autor: "Ana Frank",
