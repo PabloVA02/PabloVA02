@@ -38,6 +38,30 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  "psicologia-dinero": [
+    "por qué cada uno decide con la vida que le tocó",
+    "cómo separar lo que fue mérito de lo que fue suerte",
+    "por qué Buffett ganó casi todo después de los cincuenta",
+    "por qué casi todo se juega en un puñado de días",
+    "en qué se diferencian ser rico y tener riqueza",
+  ],
+
+  "poder-habitos": [
+    "las tres piezas de las que está hecho cualquier hábito",
+    "por qué un hábito no se borra y solo se sustituye",
+    "por qué un solo hábito arrastra a todos los demás",
+    "cómo se entrena el autocontrol sin gastarlo",
+    "cómo unos grandes almacenes detectan un embarazo",
+  ],
+
+  "siete-habitos": [
+    "por qué eliges siempre la respuesta, aunque no lo parezca",
+    "cómo distinguir tu círculo de preocupación del de influencia",
+    "por qué lo urgente se come siempre lo importante",
+    "qué es la cuenta bancaria emocional y cómo se ingresa",
+    "por qué escuchamos para contestar y no para entender",
+  ],
+
   sapiens: [
     "por qué hubo seis especies humanas y solo queda una",
     "cómo una ficción compartida permite cooperar entre desconocidos",

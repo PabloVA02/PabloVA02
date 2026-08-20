@@ -2021,7 +2021,824 @@ const TRABAJO_PROFUNDO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Los 7 hábitos de la gente altamente efectiva, en ocho páginas.
+
+   Escrito con el molde de `REDACCION.md`. El libro es práctico, así que va
+   en segunda persona —regla 7— y los titulares afirman en vez de etiquetar:
+   «Los tres primeros hábitos no tratan de los demás» y no «La victoria
+   privada».
+
+   El reto de este resumen era no convertirse en la lista de los siete, que
+   es lo que hace todo el mundo y es exactamente lo que Covey quería evitar.
+   Así que se cuenta el argumento: por qué la efectividad es un orden y no
+   una colección de trucos.
+   -------------------------------------------------------------------------- */
+
+const SIETE_HABITOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "La mitad de los consejos de éxito del último siglo son maquillaje" },
+      {
+        b: "texto",
+        texto:
+          "Stephen Covey se puso a leer todo lo que se había publicado en Estados Unidos sobre el éxito desde 1776. Doscientos años de manuales. Y encontró una frontera clarísima: hasta más o menos la Primera Guerra Mundial, aquellos libros hablaban de integridad, humildad, justicia, paciencia y trabajo. Después empezaron a hablar de técnicas para caer bien, de actitud mental positiva y de cómo dar la mano.",
+      },
+      {
+        b: "texto",
+        texto:
+          "A lo primero lo llamó la ética del carácter y a lo segundo la ética de la personalidad. La diferencia no es de estilo. Una técnica sirve para que el otro haga hoy lo que tú quieres; el carácter es lo que decide si al cabo de un año sigue queriendo tratar contigo. Covey lo resume con una imagen que le sirve para todo el libro: puedes hacer trampas en un examen, pero no en una granja. La cosecha va a su ritmo y no negocia.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con las personas, lo rápido es lento y lo lento es rápido. Las técnicas se agotan; el carácter compone interés.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí salen los siete hábitos, que no son siete consejos sueltos sino una secuencia con un orden que no se puede alterar. Los tres primeros te sacan de depender de los demás. El cuarto, el quinto y el sexto solo funcionan una vez has hecho los tres primeros. Y el séptimo mantiene los otros seis.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: primero por qué hay que empezar por uno mismo, después los tres hábitos privados, después los tres que solo existen entre dos personas, y por último el que sostiene todo. La conclusión dice también dónde flojea el libro, que tiene una parte que ha envejecido peor que el resto.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Entre lo que te pasa y lo que haces hay un hueco, y ahí vives" },
+      {
+        b: "texto",
+        texto:
+          "El primer hábito se llama ser proactivo y casi nadie lo entiende bien. No significa tener iniciativa ni levantarse temprano. Significa reconocer que entre el estímulo y la respuesta hay un espacio, y que ese espacio es tuyo. Un perro no lo tiene. Tú sí.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Covey lo distingue con una prueba de oído. Escúchate un día entero. Si te oyes decir «no puedo», «tengo que», «si mi jefe no fuera así», «es que yo soy de este carácter», estás hablando el idioma de quien reacciona. El otro idioma dice «prefiero», «elijo», «voy a probar otra cosa». No es optimismo: es dónde pones la causa de lo que te pasa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Para verlo dibuja dos círculos. En el de fuera cabe todo lo que te preocupa: la economía, el cambio climático, el humor de tu jefe, lo que opine tu cuñado. En el de dentro, solo lo que de verdad puedes tocar. La gente reactiva se pasa el día en el círculo grande, quejándose de lo que no depende de ella, y mientras tanto el círculo pequeño se le encoge. La proactiva trabaja el pequeño, y el pequeño crece.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No te hace daño lo que te pasa, sino la respuesta que eliges. Y la respuesta siempre la eliges tú.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo que Covey usa es Viktor Frankl en un campo de exterminio, decidiendo cómo iba a soportar lo que le hacían cuando ya no le quedaba nada más que decidir. Es un ejemplo extremo a propósito: si aquel espacio existía allí, existe en una reunión del martes.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Todo se crea dos veces, y la primera vez es gratis" },
+      {
+        b: "texto",
+        texto:
+          "El segundo hábito es empezar con el fin en la cabeza, y arranca con un ejercicio incómodo: imagínate dentro de tres años en tu propio funeral. Hablan cuatro personas —alguien de tu familia, un amigo, alguien del trabajo, alguien de tu barrio o de tu parroquia—. ¿Qué te gustaría que dijeran de ti? No qué has conseguido. Qué has sido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Covey lo plantea así porque su tesis es que todo se crea dos veces: primero en la cabeza y después en el mundo. Una casa se construye dos veces, y la primera es el plano. El problema es que mucha gente vive la segunda creación sin haber hecho la primera, y entonces el plano se lo escribe otro: la familia, la empresa, la costumbre. Se llega a lo alto de la escalera y resulta que estaba apoyada en la pared equivocada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La herramienta que propone es escribir un enunciado personal de misión: qué quieres ser, qué quieres hacer y sobre qué valores. No es un lema. Es un texto que se corrige durante meses y que sirve para decidir cuando aparece algo que no estaba previsto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un motivo por el que insiste tanto en escribirlo. Todo el mundo tiene un centro del que cuelgan sus decisiones, aunque no lo haya elegido:",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El trabajo", texto: "y entonces un mal trimestre te desmonta entero." },
+          { fuerte: "El dinero", texto: "y cualquier gasto imprevisto se convierte en una crisis." },
+          { fuerte: "La pareja", texto: "y su estado de ánimo pasa a ser el tuyo." },
+          { fuerte: "Los principios", texto: "que no cambian de humor, no se despiden y no se van." },
+        ],
+      },
+      {
+        b: "idea",
+        texto:
+          "Si no escribes tú el plano de tu vida, alguien lo va a escribir por ti, y ni siquiera se dará cuenta de que lo hace.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Lo urgente te roba el tiempo de lo importante y encima te deja satisfecho",
+      },
+      {
+        b: "texto",
+        texto:
+          "El tercer hábito es poner primero lo primero, y es donde el plan se convierte en agenda. Covey reparte todo lo que haces en una cuadrícula de dos ejes: urgente o no, importante o no. Salen cuatro casillas y la interesante es la segunda.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "Urgente e importante", texto: "crisis, plazos que vencen hoy. Hay que atenderlo, pero si vives aquí te quemas." },
+          { fuerte: "Importante y no urgente", texto: "prevenir, planificar, formarte, cuidar una relación. Aquí está casi todo lo que cambia una vida." },
+          { fuerte: "Urgente y no importante", texto: "el teléfono, las interrupciones, reuniones ajenas. Parece trabajo y no lo es." },
+          { fuerte: "Ni lo uno ni lo otro", texto: "el rato que pasa sin que te enteres. No descansa ni produce." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle que hace útil la cuadrícula es que el segundo cuadrante nunca grita. Nadie te llama para recordarte que hoy tocaba hacer ejercicio o hablar con tu hijo. Y como no grita, se lo come el tercero, que suena igual que el primero: el teléfono no distingue entre una urgencia tuya y una urgencia de otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso Covey propone planificar por semanas y no por días. En un día solo caben las urgencias; en una semana caben los papeles que de verdad tienes —padre, jefe, hija, amiga— y dos o tres cosas importantes por cada uno. Y por eso insiste en aprender a decir que no: cada sí a algo del tercer cuadrante es un no a algo del segundo, aunque no lo parezca.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La cuestión no es ordenar lo que hay en la agenda, sino tener claro qué merece entrar en ella.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Con las personas no hay atajo: hay una cuenta corriente y se llena despacio",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquí cambia el libro. Los tres primeros hábitos son contigo. Los tres siguientes son con otros, y Covey avisa de que no se puede saltar el orden: quien no se sostiene solo no negocia, depende. Antes de explicarlos mete la imagen que más se le ha citado, la cuenta bancaria emocional.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con cada persona tienes una cuenta abierta. Ingresas cuando cumples lo que prometiste, cuando escuchas de verdad, cuando pides perdón sin peros, cuando eres el mismo delante y detrás. Retiras cuando llegas tarde, cuando prometes de más, cuando la corriges delante de otros. Y la cuenta importa porque decide cómo se leen tus palabras: la misma frase, con saldo, se entiende como una broma, y sin saldo, como un ataque.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Con la gente que te importa, la confianza no se explica: se ingresa. Y los ingresos son pequeños y muchos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sobre esa base va el cuarto hábito, pensar en ganar-ganar. Covey señala que casi todos vamos por la vida con un marcador de suma cero, heredado del colegio y del deporte: si tú ganas, yo pierdo. Pero en una relación que va a durar, el trato que le arrancas al otro a la fuerza lo vas a pagar dos veces.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y añade la parte que casi nadie recuerda del hábito. Si no se llega a un acuerdo que convenga de verdad a los dos, la salida no es ceder: es no hay trato. Se dice con buenas maneras, se deja la relación en pie y cada uno sigue su camino. Un mal acuerdo aceptado por no discutir sale mucho más caro que no cerrarlo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi nadie escucha para entender: escuchamos para contestar" },
+      {
+        b: "texto",
+        texto:
+          "El quinto hábito es el que Covey considera la llave de todos los demás y se enuncia así: procura primero comprender, y después ser comprendido. Su observación es que dedicamos años a aprender a leer, a escribir y a hablar, y ni una hora a aprender a escuchar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hacemos mientras el otro habla es prepararnos. Vamos filtrando lo que dice por nuestra propia biografía y le contestamos con uno de los cuatro reflejos de siempre: evaluamos, preguntamos desde nuestro marco, aconsejamos o interpretamos. Los cuatro tienen la misma pinta de conversación y ninguno es escuchar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La analogía que usa es de consulta. Imagínate un oculista que te oye decir que ves mal, se quita sus gafas y te las da: a mí me van de maravilla, llevo diez años con ellas. Sería absurdo, y sin embargo es lo que hacemos cada vez que respondemos a un problema ajeno contando lo que a nosotros nos funcionó. Recetar antes de diagnosticar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La necesidad más grande de una persona, después de comer y respirar, es que alguien la entienda de verdad.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Escuchar con empatía significa devolverle al otro lo que ha dicho y lo que siente hasta que confirme que sí, que es eso. Cuesta tiempo al principio y lo devuelve entero después, porque evita trabajar durante semanas sobre el problema equivocado. Y solo entonces toca la segunda mitad del hábito, exponer lo tuyo: a alguien que ya se siente entendido se le puede decir cualquier cosa.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Dos personas que piensan igual, en una de las dos sobra" },
+      {
+        b: "texto",
+        texto:
+          "El sexto hábito es la sinergia, y es el resultado de los cinco anteriores más que un hábito aparte. La idea es sencilla de enunciar y rara de ver: cuando dos personas que se tienen confianza se ponen a resolver algo sin renunciar a lo suyo, aparece una tercera solución que ninguna de las dos llevaba.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El requisito es valorar la diferencia, y ahí Covey es exigente. No basta con tolerarla —tolerar es aguantar—. Se trata de alegrarse de que el otro vea lo que tú no ves. Su frase para esto es que si dos personas tienen la misma opinión, una de las dos es innecesaria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta el caso de una discusión por las vacaciones: él quería el lago y la pesca, ella la casa de su madre, a quinientos kilómetros. El acuerdo de siempre habría sido partir el verano en dos y dejar a los dos a medias. Lo que salió al hablarlo fue otra cosa que ninguno había considerado, un sitio nuevo cerca de la familia y con agua. No es un cuento con moraleja: es que la tercera vía no aparece si se entra a repartir.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La transacción reparte el pastel. La sinergia hace otro pastel, y por eso no se parece a ceder.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También avisa de lo contrario. Cuando falta confianza, la misma diferencia produce lo peor: cada uno defiende su posición, se negocia a la baja y el resultado es peor que cualquiera de las dos propuestas iniciales. La sinergia no se puede convocar en una reunión; se apoya en el saldo de la cuenta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El séptimo hábito es afilar la sierra, y viene del leñador que lleva cinco horas serrando un árbol y no para a afilar porque va muy retrasado. Covey lo reparte en cuatro cuidados —el cuerpo, la cabeza, las relaciones y lo que uno considere su parte espiritual— y sostiene que sostener los otros seis depende de dedicarles tiempo, que además es tiempo del segundo cuadrante y por tanto nunca urgente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta el libro es el orden. Casi todo lo que se publica sobre productividad, negociación o comunicación son piezas sueltas, y aquí están encadenadas: no se negocia bien si dependes, no se escucha bien si no sabes qué quieres, no se planifica bien si no has decidido para qué. Esa secuencia es lo que ha hecho que aguante cuarenta años, y lo que explica que la gente lo recuerde por los dos círculos y por la cuadrícula mucho después de olvidar los nombres de los hábitos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los siete no son siete consejos: son un orden. Y el orden es lo que no se puede saltar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. Primero, en el tono: Covey escribe desde una moral concreta —familia tradicional, empresa americana de los ochenta, su propia fe mormona sin nombrarla— y hay páginas de ejemplos domésticos que hoy suenan a otra época. Segundo, y más de fondo: llama principios a sus valores y los presenta como leyes naturales, del mismo rango que la gravedad, sin ningún respaldo más allá de que a él le parecen evidentes. Es la maniobra que le permite no discutir nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una crítica más práctica. El libro fue escrito para quien tiene margen: quien puede decir que no, elegir en qué trabaja y planificar su semana. Quien encadena turnos partidos encontrará los dos primeros hábitos útiles y el tercero un poco insultante. Conviene leerlo sabiendo eso, porque el propio Covey nunca lo dice.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   El poder de los hábitos, en ocho páginas.
+
+   El riesgo aquí era que se pareciese a Hábitos atómicos, que ya está
+   escrito. No son el mismo libro: Clear enseña a montar un hábito y Duhigg
+   cuenta por qué existen y qué hacen las empresas y los gobiernos con ellos.
+   Así que este resume el periodismo —Eugene, la pasta de dientes, O'Neill,
+   Target— y deja el manual para el otro.
+
+   Molde de `REDACCION.md`: entrada con recorrido anunciado, seis argumentos
+   y conclusión con la parte floja, que en este libro es gorda y conocida.
+   -------------------------------------------------------------------------- */
+
+const PODER_HABITOS: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hombre sin memoria seguía sabiendo volver a su casa" },
+      {
+        b: "texto",
+        texto:
+          "En 1993, una infección vírica destruyó la parte del cerebro de Eugene Pauly que fabrica recuerdos nuevos. No podía retener nada más de veinte segundos. No sabía dónde estaba la cocina si se lo preguntabas. Y sin embargo, cada mañana salía a dar un paseo por el barrio y volvía solo. Si le pedías que dibujara el recorrido en un papel, no era capaz.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eugene demostró algo que ya se sospechaba: los hábitos no viven donde viven los recuerdos. Se guardan mucho más adentro, en los ganglios basales, una estructura del tamaño de una pelota de golf que compartimos con animales bastante menos listos que nosotros. Por eso funcionan cuando todo lo demás ha dejado de funcionar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los hábitos no son memoria ni voluntad: son una estructura aparte que sigue trabajando cuando las otras dos se apagan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Charles Duhigg es periodista del New York Times, y de ahí sale la forma del libro. En lugar de un manual, reúne casos: un laboratorio del MIT con ratas en un laberinto, un vendedor que hizo que Estados Unidos entero se lavara los dientes, un directivo que multiplicó por cinco una empresa hablando solo de accidentes laborales, y unos grandes almacenes que sabían quién estaba embarazada antes que su familia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: primero cómo funciona un hábito por dentro, después por qué no se puede borrar pero sí cambiar, después el hábito que arrastra a todos los demás, y por último qué pasa cuando esto lo maneja una empresa. La conclusión dice dónde falla, que en este libro es una cifra concreta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hábito son tres piezas, y el cerebro se apaga en la del medio" },
+      {
+        b: "texto",
+        texto:
+          "En el MIT metieron ratas en un laberinto en forma de T con chocolate al final, y les midieron la actividad cerebral mientras aprendían. Los primeros días el cerebro trabajaba a tope todo el recorrido: cada esquina era una decisión. Después de unos cientos de intentos, la actividad se hundió en el medio y solo quedaron dos picos: uno al oír el clic de la puerta y otro al llegar al chocolate.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Eso es lo que Duhigg llama el bucle del hábito, y explica por qué te encuentras en la cocina sin recordar haberte levantado:",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "La señal", texto: "algo que dispara el piloto automático: una hora, un sitio, un estado de ánimo, otra persona." },
+          { fuerte: "La rutina", texto: "lo que haces. Es la parte visible y la que menos importa." },
+          { fuerte: "La recompensa", texto: "lo que hace que el cerebro decida guardar el bucle para la próxima." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "La ventaja de este ahorro es enorme: el cerebro consume mucha energía y no puede deliberar cada gesto. El precio es que no distingue entre un buen bucle y uno malo. Guarda los dos con el mismo cuidado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tu cerebro no sabe si un hábito te conviene. Solo sabe que le ahorra trabajo, y con eso le basta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay un detalle más, medido también con las ratas. Con el tiempo, el pico de actividad se adelanta: ya no aparece con el chocolate, sino con el clic. El cerebro empieza a anticipar la recompensa antes de tenerla, y esa anticipación es lo que se siente como ganas. No deseas el cigarro: deseas lo que el cigarro anuncia.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un hábito no se borra, se le cambia la pieza del medio" },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la regla de oro del libro, y es la razón por la que dejarlo a secas casi nunca funciona. La señal sigue estando ahí —las seis de la tarde, la reunión que sale mal, el amigo que fuma— y la recompensa se sigue queriendo. Lo único que se puede sustituir es la rutina del medio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Duhigg lo cuenta con su propio caso, y es de lo más honesto del libro. Cada tarde se levantaba, iba a la cafetería y se comía una galleta enorme. Había engordado cuatro kilos. Se pasó semanas haciendo experimentos consigo mismo: probó a salir a dar una vuelta, a comerse una manzana, a tomar café. Descubrió que la recompensa que buscaba no era el azúcar, sino la charla de diez minutos con los compañeros. La galleta era la excusa.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Así que cambió la rutina: a las tres y media se levantaba igual, iba a la mesa de alguien y hablaba diez minutos. Misma señal, misma recompensa, sin galleta. Y explica el método para averiguarlo, que consiste en probar recompensas distintas y anotar tres palabras al terminar para saber si el impulso se ha ido.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nadie deja un hábito por prohibírselo. Se deja poniendo otra cosa en el mismo hueco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Alcohólicos Anónimos lleva ochenta años haciendo esto sin decirlo así: las reuniones sustituyen al bar a la misma hora, con la misma compañía y con el mismo alivio. Pero Duhigg añade una condición que los propios estudios encontraron: en los momentos de mucho estrés, la sustitución se cae si no hay creencia de que las cosas pueden mejorar. Y la creencia, curiosamente, la fabrica el grupo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Hay hábitos que arrastran a todos los demás, y casi nunca son los obvios",
+      },
+      {
+        b: "texto",
+        texto:
+          "En 1987, Alcoa nombró director a Paul O'Neill. En su primera reunión con los inversores, en lugar de hablar de márgenes, dijo que iba a convertir la empresa en la más segura de Estados Unidos: cero accidentes laborales. Un inversor salió corriendo a llamar a sus clientes para que vendieran. Fue el peor consejo de su carrera: en trece años el valor de Alcoa se multiplicó por cinco.",
+      },
+      {
+        b: "texto",
+        texto:
+          "O'Neill no eligió la seguridad por bondad. Eligió lo único que nadie —ni sindicatos ni directivos— podía discutir, y montó alrededor un sistema: cada accidente había que comunicarlo en veinticuatro horas con un plan para que no se repitiera. Para cumplirlo, los encargados tuvieron que hablar con los operarios, los operarios tuvieron que decir lo que veían mal, y hubo que instalar canales de comunicación que no existían. Por esos mismos canales empezaron a subir las ideas de producción.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un hábito clave no mejora una cosa: obliga a montar la estructura por la que después pasa todo lo demás.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Duhigg llama a esto hábitos angulares y da más ejemplos con la misma forma. Quien empieza a hacer ejercicio acaba comiendo mejor, fumando menos y siendo más paciente en el trabajo, sin habérselo propuesto. Las familias que cenan juntas producen hijos con mejores notas y más control de sus impulsos, y la cena no enseña matemáticas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que tienen en común es que crean lo que él llama pequeñas victorias: un logro pequeño y visible que cambia la idea que uno tiene de sí mismo, y desde esa idea nueva se hacen cosas que antes ni se intentaban.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La fuerza de voluntad es un músculo, y se puede entrenar en un vaso de agua",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más citado del libro es Starbucks, y empieza con un problema. La empresa contrataba a miles de chavales de veinte años y los ponía a atender a gente que grita cuando el café tarda. La técnica se enseña en unos días; aguantar la bronca sin contestar, no.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que hicieron fue tratar el autocontrol como una habilidad y no como un rasgo. En vez de pedir paciencia, escribieron guiones para los momentos concretos en que se pierde: qué haces exactamente cuando un cliente se pone a gritar, qué frase dices primero, qué haces si la máquina se atasca en hora punta. Los empleados los ensayaban en voz alta hasta que la reacción salía sola.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Detrás hay un experimento clásico. A dos grupos de estudiantes se les puso delante un plato de galletas recién hechas y otro de rábanos; a unos les dejaron comer galletas y a otros solo rábanos. Después les pusieron un rompecabezas imposible. Los de las galletas insistieron una media de diecinueve minutos; los de los rábanos, ocho. Habían gastado el autocontrol en no comerse una galleta y ya no les quedaba para otra cosa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La voluntad se agota como un músculo, pero también como un músculo se entrena, y lo entrenado ya no la gasta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí la conclusión práctica: quien decide de antemano qué va a hacer en el momento difícil no necesita voluntad cuando llega. Es lo que hacen las rehabilitaciones de cadera que reducen a la mitad las recaídas pidiéndole al paciente que escriba en un papel qué hará exactamente cuando el dolor le entren ganas de parar.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo nuevo se vende disfrazado de lo de siempre" },
+      {
+        b: "texto",
+        texto:
+          "A principios del siglo XX, en Estados Unidos casi nadie se lavaba los dientes. Un publicista llamado Claude Hopkins tenía que vender una pasta, Pepsodent, y encontró una señal que todo el mundo podía notar con la lengua: esa película pegajosa que cubre los dientes. Sus anuncios decían pásate la lengua y notarás la placa. En diez años, más de la mitad del país se lavaba los dientes a diario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El detalle importa: la película que Hopkins denunciaba se quita igual comiendo una manzana, y Pepsodent no hacía nada especial contra ella. Lo que sí tenía —como lo tienen hoy casi todas— era ácido cítrico y aceite de menta, que producen ese cosquilleo fresco al terminar. Eso era la recompensa. Cuando los fabricantes lo probaron a quitar, la gente decía que la pasta no limpiaba, aunque limpiara exactamente igual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un producto se convierte en hábito cuando deja una señal que se puede notar y una recompensa que se echa de menos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La otra cara de la moneda es Febreze, que salió al mercado como un quitaolores y fracasó: quien vive con nueve gatos ya no huele a gato, así que no había señal. Lo relanzaron como el remate del gesto de limpiar, con perfume añadido, y funcionó. El producto era casi el mismo; el hueco en el bucle, otro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la regla que Duhigg extrae para los gustos nuevos, y que las radios llevan décadas usando: lo desconocido se acepta cuando viene envuelto en algo familiar. Una canción rara colocada entre dos éxitos conocidos deja de sonar rara. Es lo mismo que hacer que la verdura entre en una casa poniéndola al lado de lo que ya se come.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Unos grandes almacenes supieron que estaba embarazada antes que su padre",
+      },
+      {
+        b: "texto",
+        texto:
+          "Target contrató a un estadístico, Andrew Pole, con un encargo concreto: detectar embarazos. La razón es que las costumbres de compra de una persona son de una estabilidad aburrida, y solo se rompen en los momentos grandes de la vida. Un bebé es el mayor de todos: durante unos meses una familia recoloca dónde compra absolutamente todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pole encontró una veintena de productos que, combinados, daban una puntuación de embarazo y hasta una fecha aproximada de parto. Loción sin perfume a partir del tercer mes. Suplementos de calcio, magnesio y zinc. Bolsas de algodón grandes. Con eso, Target podía mandar cupones de cuna a quien todavía no se lo había contado a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema apareció enseguida: un padre de Minneapolis entró furioso en una tienda a preguntar por qué le mandaban a su hija adolescente cupones de ropa premamá. Días después llamó a disculparse. La solución de Target no fue dejar de hacerlo, sino disimularlo: los cupones de pañales se colocaron entre anuncios de cortacéspedes y copas de vino, para que pareciera casualidad. Y funcionó mejor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los hábitos se pueden leer desde fuera, y quien los lee sabe cosas de ti que tú no has contado a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Duhigg cierra el libro con la pregunta legal que sale de todo esto: si un hábito es automático, ¿respondes de él? Cuenta dos casos reales, un hombre que mató a su mujer durmiendo y una mujer que se arruinó jugando, y el tribunal absolvió al primero y condenó a la segunda. Su argumento es que la diferencia está en saberlo: en cuanto conoces el bucle, la responsabilidad vuelve a ser tuya.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene una sola idea desde el principio hasta el final: casi nada de lo que haces en un día lo has decidido hoy. Cerca de la mitad de los actos diarios son bucles guardados, y el bucle tiene siempre las mismas tres piezas. Como no se pueden borrar, la única maniobra posible es sustituir la del medio dejando intactas las otras dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta frente a los manuales de hábitos es la escala. Duhigg no se queda en el individuo: enseña el mismo mecanismo funcionando dentro de una fábrica de aluminio, de una cadena de cafeterías, de una campaña publicitaria y de un sistema de datos comerciales. Después de leerlo se reconocen los tres pasos en sitios donde no se buscaban, y esa es la parte que dura.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi la mitad de lo que haces hoy no lo has decidido hoy. Y lo que no se decide, alguien lo diseña.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. La cifra más repetida del libro —que los hábitos son el cuarenta por ciento de lo que hacemos— viene de un estudio con estudiantes de una sola universidad que apuntaban lo que hacían cada hora, y la horquilla real que dio era del quince al cincuenta por ciento según la persona. Que se cite como un dato fijo dice bastante sobre cómo se leen estos libros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un problema de método. Duhigg es periodista, así que arma cada capítulo con una historia potente, y las historias potentes se eligen porque terminaron bien. No aparecen las empresas que probaron lo mismo y se hundieron, ni la gente que cambió la rutina del medio y volvió a la galleta. La psicología que lo sostiene es sólida; la certeza con que se cuenta, bastante mayor que la que da esa psicología.",
+      },
+    ],
+  },
+];
+
+/* --------------------------------------------------------------------------
+   La psicología del dinero, en ocho páginas.
+
+   Libro práctico, así que segunda persona —regla 7—. El material del propio
+   Housel es una mina de datos concretos: Ronald Read y sus ocho millones,
+   Grace Groner, los 2.129 días de Buffett, el 99 % de su fortuna después de
+   los cincuenta. La regla 2 pide justo eso, así que aquí se aprovecha.
+
+   Lo que había que evitar era convertirlo en consejos de inversión. El libro
+   no los da: dice que el dinero es un problema de comportamiento y no de
+   matemáticas, y ese es el argumento que se sigue de principio a fin.
+   -------------------------------------------------------------------------- */
+
+const PSICOLOGIA_DINERO: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un conserje dejó ocho millones de dólares y un directivo se arruinó" },
+      {
+        b: "texto",
+        texto:
+          "Ronald Read reparaba coches en una gasolinera de Vermont y después barrió los suelos de unos grandes almacenes. Cuando murió, en 2014, dejó ocho millones de dólares. Había ido comprando acciones de empresas conocidas y no las tocó en cincuenta años. Ese mismo año, Richard Fuscone —Harvard, alto cargo en Merrill Lynch, retirado a los cuarenta para dedicarse a la filantropía— perdió su casa de más de mil metros cuadrados en una ejecución hipotecaria.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Morgan Housel empieza así porque en ninguna otra profesión pasa esto. Nadie sin estudios opera un corazón mejor que un cirujano ni construye un puente mejor que un ingeniero. Con el dinero ocurre a todas horas, y no es casualidad: significa que lo que se mide no es lo que importa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dinero no se le da bien a quien más sabe, sino a quien mejor se comporta. Y comportarse no se enseña en clase.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis es que las finanzas se enseñan como una ciencia —fórmulas, hojas de cálculo, tipos de interés— cuando en realidad se parecen mucho más a la psicología. Una decisión financiera casi nunca sale de una tabla: sale del miedo, del orgullo, de lo que hizo tu familia y de lo que viste que pasaba cuando tenías veinte años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen es ese: primero por qué cada uno juega a un juego distinto, después el papel de la suerte, después la única fuerza que hace ricos de verdad, y qué hay que hacer para no interrumpirla. La conclusión dice también dónde flojea el libro.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nadie está loco: cada uno decide con las cuentas de su propia vida" },
+      {
+        b: "texto",
+        texto:
+          "Housel plantea un dato incómodo para quien reparte consejos. Una persona nacida en 1970 vio cómo la bolsa estadounidense se multiplicaba casi por diez entre sus trece y sus treinta años. Otra nacida en 1950 vio exactamente lo mismo, ajustado a la inflación: nada. La misma bolsa, el mismo país, dos experiencias opuestas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo mismo con la inflación: quien tenía veinte años en los setenta la vivió comiéndose los sueldos, y quien los tuvo en los noventa no la ha visto nunca. Los estudios sobre lotería enseñan la otra punta: los que menos ganan compran muchos más boletos, cosa que parece un disparate hasta que se entiende qué están comprando. Están comprando el sueño de una vida que quienes dan consejos ya tienen.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Todo el mundo decide de forma razonable con la información que le dio su vida. Lo raro sería lo contrario.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí una advertencia que atraviesa el libro: cuidado con imitar a alguien que juega a otro juego. En una burbuja, el inversor a largo plazo mira al especulador que gana dinero comprando caro y concluye que se está equivocando él. Y no: el otro va a vender el jueves, así que para su juego el precio de hoy da igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La consecuencia práctica es que antes de hacer caso a nadie hay que saber a qué plazo juega. Un titular, un vídeo o un cuñado no vienen con esa etiqueta puesta.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La suerte y el riesgo son la misma cosa vista desde dos lados" },
+      {
+        b: "texto",
+        texto:
+          "En 1968 solo unos trescientos institutos de Estados Unidos tenían ordenador. Bill Gates iba a uno de ellos. Housel calcula la probabilidad en aproximadamente uno entre un millón, y la usa para lo contrario de lo que parece: para hablar del tercer amigo del grupo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Aquel instituto tenía tres chavales obsesionados con la programación. Dos eran Bill Gates y Paul Allen. El tercero se llamaba Kent Evans, era igual de bueno, y murió en un accidente de montaña antes de terminar el instituto. Misma suerte de entrada, resultados incomparables. El riesgo, dice Housel, es la suerte con el signo cambiado, y no hay manera de tener una sin la otra.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Nada sale tan bien ni tan mal como parece. Detrás de casi todo resultado hay una parte que no dependía de nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que se saca de ahí es una manera de mirar. Cuando alguien triunfa, no copies su jugada: busca las pautas generales que se repiten en muchos que triunfaron, porque ahí es donde queda menos azar. Y cuando alguien fracasa, no des por hecho que fue un idiota, porque el día que te toque a ti querrás la misma clemencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Housel lo aplica a sí mismo con un ejemplo que no queda bien en un libro de finanzas: cuenta que trabajó de aparcacoches en un hotel de Los Ángeles y que un cliente habitual, uno de aquellos ejecutivos que pagaban en billetes de cien, acabó arruinado. No lo cuenta como moraleja. Lo cuenta para decir que él estaba ahí y no lo vio venir.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo difícil no es ganar dinero: es saber cuándo tienes bastante" },
+      {
+        b: "texto",
+        texto:
+          "Rajat Gupta creció en un suburbio de Calcuta y llegó a dirigir McKinsey. Bernie Madoff tenía un negocio de intermediación legal y rentable antes del fraude. Los dos lo perdieron todo por querer más de lo que ya no necesitaban. Gupta, que valía cien millones, quiso ser multimillonario y pasó información privilegiada; acabó en la cárcel.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Housel usa una escena que le contó el escritor Kurt Vonnegut. En la fiesta de un multimillonario, Joseph Heller le comentó a Vonnegut que él tenía algo que aquel hombre nunca tendría: bastante. La palabra es el centro de este capítulo, y no es una llamada a la austeridad. Es una advertencia sobre la aritmética.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Arriesgar lo que tienes y necesitas para conseguir lo que no tienes y no necesitas no tiene ningún sentido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay una razón por la que cuesta tanto ponerle un tope: la comparación no tiene techo. Un jugador de béisbol con nueve millones al año compara con uno de treinta y seis, ese compara con un gestor de fondos, y el gestor con Buffett. Cada escalón produce el mismo malestar que el anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Así que hace falta decidir de antemano cuánto es suficiente y qué cosas no se ponen encima de la mesa por ningún dinero: la reputación, la libertad, la familia, la tranquilidad de dormir. Housel señala que quien no lo decide antes lo va a decidir en caliente, y en caliente se decide mal.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Buffett no es rico por invertir bien, sino por llevar ochenta años haciéndolo",
+      },
+      {
+        b: "texto",
+        texto:
+          "Warren Buffett tiene una fortuna de decenas de miles de millones, y aquí está el dato que Housel considera el más importante del libro: más del noventa y nueve por ciento de esa fortuna llegó después de cumplir los cincuenta años. Empezó a invertir a los diez.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La cuenta que lo aclara es esta. Si Buffett hubiera empezado a los treinta y se hubiera retirado a los sesenta, con la misma rentabilidad anual, tendría alrededor de doce millones. Casi todo lo demás no viene de acertar más: viene de setenta y cinco años seguidos sin interrumpir. Su habilidad es invertir; su secreto es el tiempo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Housel lo compara con los glaciares. Las eras glaciales no las provocaron inviernos terribles, sino veranos suaves de más: se quedaba un poco de nieve sin derretir, y ese poco, acumulado durante miles de años, esculpió los continentes. Ningún fenómeno espectacular; una cantidad ridícula que nunca se interrumpió.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El interés compuesto no premia lo bueno, premia lo largo. Y por eso casi nadie lo aprovecha.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale la única regla de inversión que da: buenos resultados sostenidos durante muchísimo tiempo baten a resultados espectaculares que se cortan. Y explica por qué es tan difícil: el rendimiento medio anual no se parece nada al de ningún año concreto, así que el que quiere resultados dentro de treinta años tiene que aguantar tres décadas de resultados que no lo parecen.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todo el dinero de una vida se gana en un puñado de días" },
+      {
+        b: "texto",
+        texto:
+          "En 2018 Amazon subió un treinta y cinco por ciento en un año, y aquella subida explicó por sí sola más de seis puntos del índice de las quinientas mayores empresas americanas. Amazon lo consiguió con dos productos, los libros y su nube de servidores. Todo lo demás —el teléfono que fracasó, la agenda de viajes, el restaurante— fue ruido.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Housel sostiene que esto es la norma y no la excepción. Un fondo de capital riesgo saca casi todo su beneficio de una empresa de cada cien. Walt Disney rodó más de cuatrocientos cortos que perdían dinero antes de Blancanieves, que en seis meses ganó ocho millones de dólares y cambió la empresa entera. Y en el mercado americano de los últimos cien años, quien se hubiera perdido los mejores días habría perdido la mayor parte de la rentabilidad.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes equivocarte la mitad de las veces y aun así ganar, si las veces que aciertas no las cortas pronto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El problema es que esos días buenos no se sabe cuáles son hasta después, y llegan casi siempre pegados a los peores. Por eso salir para volver a entrar cuando escampe suele costar mucho más que aguantar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y aquí está la vuelta que le da al concepto de fracaso: si el resultado depende de unos pocos aciertos enormes, entonces perder pequeño y a menudo no es un fallo del sistema, es cómo funciona el sistema. Lo que hay que evitar no es equivocarse, es equivocarse tan fuerte que te obligue a abandonar la partida.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La riqueza es lo que no ves, y por eso nadie la copia" },
+      {
+        b: "texto",
+        texto:
+          "Housel distingue dos cosas que solemos confundir. Ser rico es tener ingresos altos: un coche de setenta mil euros lo demuestra. Tener riqueza es lo contrario, es el dinero que no se ha gastado, y por definición no se ve. El del coche caro puede tener menos riqueza que el vecino del utilitario, y no hay manera de saberlo desde la acera.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuenta la paradoja del hombre en el coche deportivo: cuando ves pasar uno, nunca piensas qué envidia le tengo al conductor, piensas qué bien me vería yo ahí. Nadie admira al dueño; todos se imaginan a sí mismos. Quien compra el coche para que lo admiren está pagando por algo que no ocurre.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La riqueza son las compras que no hiciste. Como no se ven, tampoco se aprenden mirando a nadie.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale su definición de para qué sirve el dinero, que es la frase con la que más se le cita: la mayor rentabilidad que paga es poder decidir qué haces, cuándo, dónde y con quién. Los estudios sobre bienestar que menciona apuntan a lo mismo, y es también lo que dicen las enfermeras de cuidados paliativos: nadie se arrepiente al final de no haber ganado más.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso defiende una tasa de ahorro alta sin objetivo concreto y un margen de seguridad generoso. Ahorrar sin plan tiene mala prensa y es lo que compra lo importante: tiempo, opciones y la posibilidad de esperar a que pase lo malo sin vender lo bueno.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que el dinero es un asunto de conducta y no de conocimiento, y de ahí no se mueve. Cada uno decide con la vida que le tocó, la suerte pesa más de lo que se admite, casi todo el resultado se juega en unos pocos días, y lo único que hace ricos a los normales es no interrumpir el interés compuesto. Lo que hay que gestionar, entonces, no es la cartera: es a uno mismo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es la mezcla de tono y prueba. Housel no da consejos de inversión y sin embargo deja cifras que se recuerdan: los ocho millones del conserje, el uno entre un millón de Bill Gates, el noventa y nueve por ciento de la fortuna de Buffett después de los cincuenta. Son diecinueve capítulos cortos e independientes, escritos para que se puedan contar en una cena, y esa forma es medio libro.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Puedes saberlo todo de finanzas y arruinarte, y no saber nada y morir rico. La diferencia es el comportamiento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. El libro está escrito desde el mercado americano y desde una época concreta: cien años en los que la bolsa de Estados Unidos subió como no lo ha hecho ninguna otra. Aguantar y no vender ha sido la estrategia ganadora ahí; a un japonés que comprara en 1989 le habría costado más de treinta años volver a ver su dinero. Housel menciona el sesgo, pero sigue razonando sobre esas series.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite del que se habla poco. Casi todo el consejo —ahorra sin objetivo, guarda margen, deja pasar treinta años— supone un ingreso estable y un excedente. Quien llega justo a fin de mes no tiene un problema de psicología del dinero, tiene un problema de cantidad de dinero, y ese el libro no lo trata.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  "psicologia-dinero": PSICOLOGIA_DINERO,
+  "poder-habitos": PODER_HABITOS,
+  "siete-habitos": SIETE_HABITOS,
   "habitos-atomicos": HABITOS_ATOMICOS,
   sapiens: SAPIENS,
   "homo-deus": HOMO_DEUS,

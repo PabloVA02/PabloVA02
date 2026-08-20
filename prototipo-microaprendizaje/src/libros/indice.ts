@@ -27,7 +27,6 @@ const CARGADORES: Record<string, Cargador> = {
   meditaciones: () => import("./meditaciones").then((m) => m.MEDITACIONES),
   sapiens: () => import("./sapiens").then((m) => m.SAPIENS),
   "1984": () => import("./1984").then((m) => m.MIL_NOVECIENTOS_OCHENTA_Y_CUATRO),
-  "psicologia-dinero": () => import("./psicologia-dinero").then((m) => m.PSICOLOGIA_DINERO),
 
   /* Psicología */
   influencia: () => import("./psicologia").then((m) => m.INFLUENCIA),
@@ -111,7 +110,6 @@ const CARGADORES: Record<string, Cargador> = {
 
   /* Psicología */
   "pensar-rapido": () => import("./psicologia").then((m) => m.PENSAR_RAPIDO),
-  "siete-habitos": () => import("./psicologia").then((m) => m.SIETE_HABITOS),
   flow: () => import("./psicologia").then((m) => m.FLOW),
   educada: () => import("./psicologia").then((m) => m.EDUCADA),
 
@@ -187,7 +185,6 @@ const CARGADORES: Record<string, Cargador> = {
   mujercitas: () => import("./literatura").then((m) => m.MUJERCITAS),
   "elegancia-erizo": () => import("./literatura").then((m) => m.ELEGANCIA_ERIZO),
   "mientras-escribo": () => import("./arte").then((m) => m.MIENTRAS_ESCRIBO),
-  "poder-habitos": () => import("./psicologia").then((m) => m.PODER_HABITOS),
   "ser-mortal": () => import("./salud").then((m) => m.SER_MORTAL),
   "sobre-fotografia": () => import("./arte").then((m) => m.SOBRE_FOTOGRAFIA),
   "arte-de-amar": () => import("./psicologia").then((m) => m.ARTE_DE_AMAR),

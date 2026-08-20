@@ -22,6 +22,9 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  "psicologia-dinero": "Cómo piensan los ricos: 18 claves imperecederas sobre riqueza y felicidad",
+  "poder-habitos": "Por qué hacemos lo que hacemos en la vida y en la empresa",
+  "siete-habitos": "La revolución ética en la vida cotidiana y en la empresa",
   /* Historia */
   sapiens: "Una breve historia de la humanidad",
   "homo-deus": "Breve historia del mañana",

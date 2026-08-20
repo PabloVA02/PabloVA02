@@ -29,6 +29,15 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  "psicologia-dinero":
+    "Un conserje de Vermont dejó ocho millones de dólares el mismo año en que un directivo de Merrill Lynch perdió su casa. Housel explica por qué con el dinero gana el que se comporta mejor y no el que más sabe.",
+
+  "poder-habitos":
+    "Un hombre que no podía retener un recuerdo más de veinte segundos seguía volviendo solo a su casa. Duhigg parte de ahí para enseñar el mecanismo de tres piezas que gobierna la mitad de lo que haces cada día.",
+
+  "siete-habitos":
+    "Covey leyó doscientos años de manuales de éxito y encontró una frontera: antes se hablaba de carácter y después de técnicas para caer bien. Su libro vuelve a lo primero y ordena siete hábitos que solo funcionan en ese orden.",
+
   "habitos-atomicos":
     "Mejorar un uno por ciento al día no se nota el martes; sostenido un año, multiplica por treinta y siete. James Clear explica por qué los hábitos tardan tanto en verse y cómo montarlos sin gastar voluntad.",
 
