@@ -68,31 +68,44 @@ una vez, en la entrada, y se sigue.
 
 ## 2 ter. Cuánto dura un resumen
 
-**Ocho páginas de 260 a 300 palabras: 2.100-2.400 en total.** Eso son unos
-**12 minutos de lectura** y unos 16 de audio, que tarda un tercio más.
+**Se escribe contra las palabras, no contra el reloj: 2.100 a 2.600 por libro,
+en ocho páginas de 260 a 330.** Eso da unos doce minutos de lectura y unos
+quince de audio, que es el número que se anuncia.
 
-De dónde sale la horquilla:
+| palabras | leer (200 p/m) | oír (140 p/m) |
+|---|---|---|
+| 2.100 | 11 min | 15 min ← suelo |
+| 2.400 | 12 min | 17 min |
+| 2.800 | 14 min | 20 min ← techo, solo si el libro lo pide |
 
-| | duración |
-|---|---|
-| Headway | de 12 a 20 minutos |
-| Blinkist | de 15 a 40 |
-| lo que dice la investigación de microaprendizaje | la atención cae a partir de los 10; el punto bueno está entre 8 y 15 |
-| **nosotros** | **12 de leer, 16 de oír** |
+Decidido con Pablo el 20 de agosto: **la media son quince minutos de audio**,
+la horquilla va de catorce a veinte, y la mayoría cae cerca de quince.
 
-Los dos competidores han acabado convergiendo en los quince minutos; el tramo
-largo de Blinkist es herencia de otra época y es justo el que la gente no
-termina. Por debajo de diez minutos no cabe un argumento con sus pruebas, y
-entonces el resumen se convierte en una lista de titulares.
+  · **Nada por debajo de 2.000 palabras.** Un audio de once minutos son mil
+    quinientas, y con eso no caben ocho argumentos con sus pruebas: sale un
+    libro de titulares, que es justo lo que Pablo devolvió.
+  · **Nada por encima de 2.800.** Los dos competidores han convergido en los
+    quince minutos y el tramo largo de Blinkist —hasta cuarenta— es herencia de
+    otra época y es el que la gente no termina. La investigación de
+    microaprendizaje sitúa el punto bueno entre ocho y quince, con la atención
+    cayendo a partir de los diez.
 
-Y hay una razón de oficio para quedarse ahí: **260-300 palabras es lo que ocupa
-una idea explicada y demostrada**. Por debajo de 220 la página es un titular y
-relleno; por encima de 350 entran dos ideas y se rompe la regla de una por
-página. Escribir contra esa medida es lo que mantiene la calidad pareja.
+Y hay una razón de oficio para esa medida por página: **260-330 palabras es lo
+que ocupa una idea explicada y demostrada**. Por debajo de 220 la página es un
+titular y relleno; por encima de 350 entran dos ideas y se rompe la regla de
+una por página.
 
-La cifra que se enseña en la ficha se cuenta sola: `minutosDePaginas()` cuenta
-las palabras del libro reescrito, a 200 por minuto. No se escribe a mano y no
-puede mentir.
+La cifra que se enseña en la ficha se cuenta sola —`minutosDePaginas()`, a 200
+palabras por minuto— y es la de LEER. La de oír la dice el reproductor. Ninguna
+de las dos se escribe a mano, así que no pueden mentir.
+
+### Cómo van los libros escritos
+
+| libro | palabras | leer | oír | |
+|---|---|---|---|---|
+| Sapiens | 2.383 | 12 | 17 | dentro |
+| Homo Deus | 1.759 | 9 | 13 | **corto: le faltan 400** |
+| Hábitos atómicos | 1.614 | 8 | 12 | **corto: le faltan 500** |
 
 ## 3. El titular AFIRMA
 
