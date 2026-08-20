@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  influencia:
+    "Cialdini se pasó tres años de incógnito en cursos de vendedores de coches, de seguros y de enciclopedias, no a observarlos sino a que le enseñaran. Descubrió que profesiones que no se hablan entre sí usan las mismas seis palancas.",
+
   principito:
     "Saint-Exupéry se estrelló de verdad en el desierto de Libia y pasó tres días sin agua. Ocho años después, exiliado en Nueva York mientras Francia estaba ocupada, escribió un libro que empieza con ese accidente y termina con una muerte.",
 

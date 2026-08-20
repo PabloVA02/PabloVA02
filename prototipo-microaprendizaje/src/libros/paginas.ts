@@ -7741,7 +7741,292 @@ const PRINCIPITO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   Influencia, en ocho páginas.
+
+   El libro es un catálogo de seis principios, y resumirlo tiene la trampa
+   de siempre: si se enumeran, sale una lista de seis puntos y no un
+   argumento. Así que se cuenta primero de dónde salen —Cialdini se pasó
+   tres años infiltrado en cursos de venta— y después cada uno con SU
+   EXPERIMENTO, que es lo que los distingue de la charla de café.
+
+   Libro práctico y defensivo a la vez, así que la segunda persona vale y
+   conviene: el lector es la víctima potencial.
+
+   La conclusión tiene que decir dos cosas: que varios de los experimentos
+   clásicos han fallado al replicarse, y que el propio Cialdini publicó
+   después un séptimo principio.
+   -------------------------------------------------------------------------- */
+
+const INFLUENCIA: PaginaLibro[] = [
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un psicólogo se pasó tres años infiltrado aprendiendo a vender" },
+      {
+        b: "texto",
+        texto:
+          "Robert Cialdini reconoce en la primera página que siempre fue un blando: compraba suscripciones que no quería, daba dinero a causas que no conocía y decía que sí a cosas que después lamentaba. En lugar de resignarse, decidió estudiarlo desde dentro.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Durante tres años se apuntó de incógnito a cursos de formación de vendedores de coches, de seguros y de enciclopedias, a academias de captación de fondos y a escuelas de publicistas. No fue a observarlos: fue a que le enseñaran. Y descubrió que profesiones que no se hablan entre sí usaban las mismas seis palancas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Las mismas seis tácticas aparecen en un concesionario, en una ONG y en una secta. Nadie las inventó a la vez: funcionan.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su explicación de por qué funcionan es la que sostiene el libro. Vivimos rodeados de demasiada información como para analizarlo todo, así que el cerebro usa atajos: reglas del tipo «lo caro es bueno» o «si lo dice un experto, será verdad». Los atajos aciertan casi siempre, y ese casi es por donde entra el que sabe usarlos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cialdini lo compara con el pavo hembra, que cuida a sus polluelos guiada casi solo por el «pío-pío». Si a un turón disecado —su enemigo natural— se le mete una grabadora con ese sonido, la pava lo acoge bajo el ala. En cuanto se apaga, lo ataca. Nosotros tenemos grabadoras equivalentes, y hay gente que las conoce.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El recorrido de este resumen son los seis principios, uno por página, cada uno con el experimento que lo demuestra y con cómo se defiende uno. La conclusión dice también dónde falla.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Un favor no pedido deja una deuda que se paga con intereses" },
+      {
+        b: "texto",
+        texto:
+          "La reciprocidad es la más fuerte de las seis y la más antigua: todas las sociedades humanas conocidas tienen la norma de devolver lo que se recibe. El problema es que funciona aunque el favor no se haya pedido, y aunque quien lo hace no caiga bien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento clásico es de Dennis Regan. Un supuesto participante salía un momento y volvía con dos refrescos, uno para él y otro para el otro; en la versión de control, volvía con las manos vacías. Al final le pedía al otro que le comprara boletos de una rifa. Los que habían recibido el refresco compraron el doble de boletos, y daba igual si el tipo les había caído bien o mal. El refresco costaba mucho menos que los boletos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Quien te hace un favor pequeño que no pediste decide él solo cuándo y cómo se lo devuelves.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su versión más eficaz no es el regalo sino la concesión: pedir mucho, que te digan que no, y pedir después lo que querías desde el principio. Cialdini lo probó pidiendo a estudiantes que hicieran de acompañantes de menores en una excursión al zoo; solo aceptó el diecisiete por ciento. Pero si antes se les pedía ser tutores voluntarios dos horas por semana durante dos años y decían que no, la aceptación del zoo subía al cincuenta por ciento.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La defensa que propone no es rechazar los regalos, porque eso deja a uno fuera de la vida social. Es distinguir un favor de una táctica: aceptar lo que se ofrece de buena fe y, en cuanto se ve que era una maniobra comercial, dejar de sentirse en deuda. Un truco no es un favor, y no obliga a nada.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Los apostadores confían más en su caballo justo después de apostar" },
+      {
+        b: "texto",
+        texto:
+          "El segundo principio es el compromiso y la coherencia, y su demostración favorita está en un hipódromo. Dos investigadores preguntaron a apostantes cómo de seguros estaban de su caballo justo antes y justo después de poner el dinero. Los mismos caballos, la misma información, treinta segundos de diferencia: la confianza subía notablemente después de apostar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El mecanismo es que una vez tomada una posición, aparece una presión, de dentro y de fuera, para comportarse de manera coherente con ella. Y quien lo sabe no te pide lo que quiere: te pide primero algo pequeño que te coloque en esa posición.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento que lo prueba se hizo en un barrio californiano. Pedir a los vecinos que instalaran en su jardín un cartel enorme y feo de «conduzca con cuidado» consiguió menos de un veinte por ciento. Pero a otro grupo se le había pedido dos semanas antes que pusieran en la ventana una pegatina pequeña sobre seguridad vial, cosa que casi todos hicieron. De esos, más del setenta y cinco por ciento aceptó después el cartel enorme.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un sí pequeño te convierte en la clase de persona que dice que sí a eso. El grande viene después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cialdini señala que el compromiso agarra más cuando es público, cuando cuesta esfuerzo y cuando uno siente que lo eligió libremente, y de ahí las novatadas y los rituales de ingreso: lo que cuesta entrar se valora más. Y describe una táctica comercial que llama la bola baja, en la que se cierra un trato en buenas condiciones, el cliente se compromete y después aparece un problema que empeora el precio; muchos siguen adelante igual.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La defensa es preguntarse, sabiendo lo que se sabe ahora, si uno volvería a tomar la misma decisión. Si la respuesta es no, seguir por coherencia es pagar por una firma vieja.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Si no sabes qué hacer, miras lo que hacen los demás: y eso se puede fabricar",
+      },
+      {
+        b: "texto",
+        texto:
+          "La prueba social es la regla de que algo es correcto si mucha gente lo hace, y se dispara sobre todo cuando la situación es ambigua y cuando la gente se parece a nosotros. Es la razón de las risas enlatadas, que a todo el mundo le parecen ridículas y que miden mejor audiencia.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su lado oscuro es el efecto espectador. Cialdini cuenta el caso de Kitty Genovese, asesinada en Nueva York en 1964 mientras —según contó la prensa— treinta y ocho vecinos oyeron y nadie llamó. La explicación de los psicólogos no fue la indiferencia sino la lógica del grupo: cuando hay muchos testigos, cada uno mira a los demás para saber si es una emergencia, ve calma, y la responsabilidad se reparte hasta desaparecer.",
+      },
+      {
+        b: "idea",
+        texto:
+          "En una emergencia con público, la duda de cada uno es la calma que ve en los otros, y todos concluyen que no pasa nada.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí sale el consejo más útil de todo el libro, y es literalmente para salvar la vida: si necesitas ayuda entre mucha gente, no grites «que alguien me ayude». Elige a una persona, señálala, mírala y dile lo que tiene que hacer: usted, el del abrigo azul, llame a una ambulancia. Eso rompe la ambigüedad y le asigna la responsabilidad a alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cialdini señala también el efecto contrario, el imitativo en los suicidios: tras una noticia muy difundida suben durante unos días los accidentes de tráfico y de avión de un solo ocupante, y los aumentos se concentran en las zonas donde más se publicó. La prueba social funciona con lo peor igual que con lo demás.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Nos convence quien nos gusta, y gustar se fabrica en cinco minutos" },
+      {
+        b: "texto",
+        texto:
+          "El cuarto principio es el más obvio y el peor defendido: decimos que sí a quien nos cae bien. Lo interesante es de qué depende caer bien, porque son cosas que no querríamos que nos influyeran.",
+      },
+      {
+        b: "lista",
+        puntos: [
+          { fuerte: "El físico", texto: "atribuimos automáticamente talento y honradez a quien nos parece atractivo." },
+          { fuerte: "La semejanza", texto: "el mismo pueblo, el mismo equipo, el mismo nombre." },
+          { fuerte: "Los elogios", texto: "funcionan aunque se sepa que son interesados." },
+          { fuerte: "La familiaridad", texto: "lo visto muchas veces gusta más, sin más motivo." },
+          { fuerte: "La asociación", texto: "quien trae buenas noticias hereda su buen humor." },
+        ],
+      },
+      {
+        b: "texto",
+        texto:
+          "El ejemplo más citado es el de Joe Girard, que vendió coches durante años a un ritmo que le valió el récord mundial. Su método secreto era mandar a sus miles de clientes una felicitación cada mes con una sola frase impresa: usted me cae bien. Todos sabían que era una circular. Funcionaba igual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El elogio funciona aunque sepas que es falso, y la semejanza aunque sea inventada. Por eso la simpatía es la palanca más barata.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cialdini describe cómo lo explota un concesionario: el vendedor descubre que eres de su tierra o que te gusta la pesca, te elogia, y después pelea contra su jefe delante de ti para conseguirte un descuento. Es un teatro montado para que el trato deje de ser una negociación y pase a ser un favor entre amigos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su defensa es la más práctica de todas: no vigiles al vendedor, vigílate a ti. Si en cinco minutos te cae mejor de lo que debería caerte un desconocido que quiere venderte algo, esa es la señal. Separa entonces el trato de la persona y decide solo sobre el trato.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Basta con un uniforme para que la gente obedezca cosas absurdas" },
+      {
+        b: "texto",
+        texto:
+          "El quinto principio es la autoridad, y su demostración más conocida es el experimento de Milgram, donde una parte considerable de personas corrientes administró lo que creía que eran descargas eléctricas peligrosas a un desconocido porque un hombre con bata se lo iba pidiendo. Lo que se probó allí no fue la crueldad: fue el peso de una figura con autoridad aparente.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cialdini insiste en un matiz decisivo: lo que obedecemos no es la autoridad real sino sus SÍMBOLOS. En un estudio, un hombre cruzando en rojo era seguido por tres veces más peatones cuando iba trajeado que cuando llevaba ropa corriente. En otro, un coche de gama alta parado en un semáforo en verde tardaba mucho más en recibir un bocinazo que un utilitario.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No obedecemos a la autoridad: obedecemos a la bata, al traje y al título. Y los tres se compran.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso más grave que cita es hospitalario. Un investigador llamó por teléfono a enfermeras de varios hospitales haciéndose pasar por un médico al que no conocían y les pidió administrar a un paciente una dosis del doble del máximo indicado, con un fármaco que ni siquiera estaba autorizado en la planta. La inmensa mayoría se dirigió a hacerlo antes de ser detenidas por el equipo del estudio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su defensa son dos preguntas. ¿Es de verdad un experto en esto? Y, sobre todo, ¿qué gana si le hago caso? Un experto sincero no deja de serlo por tener intereses, pero saber cuáles son cambia el peso de lo que dice. Cialdini añade que quien admite un defecto pequeño de su producto gana credibilidad para lo demás, y que eso también es una técnica.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Lo que va a desaparecer parece mejor de lo que es" },
+      {
+        b: "texto",
+        texto:
+          "El sexto principio es la escasez: valoramos más lo que está a punto de acabarse, lo que es difícil de conseguir y lo que nos pueden quitar. La pérdida pesa más que la ganancia equivalente, y de ahí que funcione mejor decirle a alguien lo que va a perder que lo que va a ganar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El experimento más limpio se hizo con galletas. A un grupo se le dio a probar galletas de un tarro con diez y a otro de un tarro con dos; las mismas galletas puntuaron mejor cuando eran escasas. Y hubo una tercera condición todavía más reveladora: cuando el tarro empezaba con diez galletas y a mitad de prueba se las cambiaban por uno con dos, la valoración subía más que si desde el principio había pocas.",
+      },
+      {
+        b: "idea",
+        texto:
+          "No deseamos lo escaso: deseamos lo que se está acabando ahora mismo. La pérdida reciente es lo que enciende.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cialdini lo conecta con lo que los psicólogos llaman reactancia: cuando alguien nos quita una libertad que teníamos, la queremos más que antes. Es lo que explica que prohibir un libro dispare sus ventas y que la vigilancia estrecha de unos padres refuerce justo la relación que querían cortar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y describe la variante que más se usa en ventas: la competencia por un recurso limitado. Enseñar el mismo piso a tres compradores a la vez no es un descuido de agenda; es la manera de convertir una decisión en una carrera. Su defensa es notar la agitación: si notas prisa en el cuerpo, ahí hay escasez fabricada, y conviene preguntarse si querías la cosa por lo que es o por que se acaba.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El libro sostiene que decimos que sí por seis palancas —devolver un favor, ser coherentes con lo dicho, mirar lo que hacen los demás, complacer a quien nos cae bien, obedecer los símbolos de autoridad y correr detrás de lo que se acaba— y que las seis son atajos útiles que se pueden accionar desde fuera. No las descubrió en un laboratorio: las aprendió en cursos de venta, y por eso vienen con sus tácticas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es que sirve para defenderse. Casi todos los libros de persuasión enseñan a persuadir; este dedica media página de cada capítulo a cómo notar que te lo están haciendo, y el consejo de señalar a una persona concreta cuando necesitas ayuda entre una multitud es de los pocos que pueden salvar una vida.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Los atajos aciertan casi siempre. El negocio de mucha gente consiste en vivir de ese «casi».",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla, y hay que decirlo porque es un libro de 1984 apoyado en psicología social de aquella época. Varios de sus experimentos famosos se han caído o se han encogido al repetirse con muestras grandes, y algunos de los efectos de contexto que cita pertenecen a la línea de investigación que peor ha resistido la última década. La estructura general —los seis principios— se sostiene bien; algunos ejemplos concretos, menos de lo que el tono del libro sugiere.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El caso de Kitty Genovese, además, se cuenta aquí con la versión periodística de 1964, que investigaciones posteriores han corregido bastante: los testigos fueron menos, varios no entendieron lo que pasaba y al menos uno llamó a la policía. El efecto espectador está bien demostrado en laboratorio; su anécdota fundacional, no tanto. Y conviene saber que el propio Cialdini añadió en 2016 un séptimo principio, la unidad —el «nosotros» de la familia, el pueblo o el equipo—, que en el libro original no está.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  influencia: INFLUENCIA,
   principito: PRINCIPITO,
   meditaciones: MEDITACIONES,
   cosmos: COSMOS,

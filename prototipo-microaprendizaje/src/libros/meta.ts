@@ -2009,22 +2009,6 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "influencia",
-    titulo: "Influencia",
-    autor: "Robert Cialdini",
-    ano: 1984,
-    gancho: "Se pasó tres años infiltrado como vendedor de coches, teleoperador y captador de donativos, tomando notas de lo que le hacían.",
-    porQue: "Es el catálogo más completo de los seis resortes que hacen decir que sí, escrito por alguien que quería aprender a defenderse de ellos.",
-    minutos: 25.6,
-    capitulos: [
-      { titulo: "Salida: un profesor que compraba todo lo que le vendían", minutos: 5.1 },
-      { titulo: "Primera parada: deber, coherencia y mirar al de al lado", minutos: 5.2 },
-      { titulo: "Segunda parada: caer bien, mandar y escasear", minutos: 5.1 },
-      { titulo: "Tercera parada: lo que no ha aguantado el tiempo", minutos: 5.1 },
-      { titulo: "Destino: un manual de defensa, no de ataque", minutos: 5.1 },
-    ],
-  },
-  {
     id: "nudge",
     titulo: "Un pequeño empujón",
     autor: "Thaler y Sunstein",

@@ -22,6 +22,7 @@
    ========================================================================== */
 
 export const SUBTITULOS: Record<string, string> = {
+  influencia: "La psicología de la persuasión",
   principito: "Una fábula sobre la amistad, la pérdida y lo esencial",
   meditaciones: "Los cuadernos privados de un emperador romano",
   cosmos: "Un viaje por el universo, la ciencia y nuestro lugar en él",

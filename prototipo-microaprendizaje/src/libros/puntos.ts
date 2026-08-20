@@ -38,6 +38,14 @@
    ========================================================================== */
 
 export const PUNTOS: Record<string, string[]> = {
+  influencia: [
+    "por qué un favor pequeño que no pediste te obliga",
+    "por qué un sí pequeño lleva a uno grande",
+    "a quién señalar si necesitas ayuda entre mucha gente",
+    "por qué obedecemos la bata y no al experto",
+    "por qué lo que se está acabando parece mejor",
+  ],
+
   principito: [
     "por qué los mayores necesitan cifras para creer algo",
     "qué le pasa a los seis adultos de los planetas",

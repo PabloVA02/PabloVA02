@@ -27,7 +27,6 @@ const CARGADORES: Record<string, Cargador> = {
   sapiens: () => import("./sapiens").then((m) => m.SAPIENS),
 
   /* Psicología */
-  influencia: () => import("./psicologia").then((m) => m.INFLUENCIA),
 
   /* Economía */
   "hombre-rico-babilonia": () => import("./economia").then((m) => m.BABILONIA),
