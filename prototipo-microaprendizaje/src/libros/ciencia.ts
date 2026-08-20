@@ -4855,7 +4855,7 @@ export const ASTROFISICA_PRISA: Resumen = {
 };
 
 export const ULTIMOS_DINOSAURIOS: Resumen = {
-  id: "mapa-mundos",
+  id: "ultimos-dinosaurios",
   titulo: "Los últimos días de los dinosaurios",
   autor: "Riley Black",
   ano: 2022,

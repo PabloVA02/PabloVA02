@@ -872,7 +872,7 @@ export const META: FichaMeta[] = [
     ],
   },
   {
-    id: "mapa-mundos",
+    id: "ultimos-dinosaurios",
     titulo: "Los últimos días de los dinosaurios",
     autor: "Riley Black",
     ano: 2022,
@@ -2134,22 +2134,6 @@ export const META: FichaMeta[] = [
       { titulo: "El canal entre el aburrimiento y la angustia", minutos: 5.1 },
       { titulo: "La paradoja del trabajo", minutos: 5.3 },
       { titulo: "Lo que fluir no arregla", minutos: 5.2 },
-    ],
-  },
-  {
-    id: "deep-work",
-    titulo: "Céntrate",
-    autor: "Cal Newport",
-    ano: 2016,
-    gancho: "Un profesor de informática que nunca ha tenido una cuenta en ninguna red social sostiene que concentrarse se ha vuelto raro justo cuando más vale.",
-    porQue: "Porque explica con precisión por qué es tan difícil concentrarse en una oficina moderna, y porque su solución tiene un punto ciego enorme que conviene ver.",
-    minutos: 21.1,
-    capitulos: [
-      { titulo: "La torre de Bollingen", minutos: 4.2 },
-      { titulo: "El residuo de atención", minutos: 4.2 },
-      { titulo: "El principio del mínimo esfuerzo", minutos: 4.3 },
-      { titulo: "Aburrirse a propósito", minutos: 4.4 },
-      { titulo: "Terminar a las cinco y media", minutos: 4 },
     ],
   },
   {

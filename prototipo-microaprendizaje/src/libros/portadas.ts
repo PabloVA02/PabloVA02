@@ -901,7 +901,7 @@ const PORTADAS_COMMONS: Record<string, Foto> = {
     alt: "La cúpula blanca de un observatorio recortada contra un cielo lleno de estrellas.",
   },
 
-  "mapa-mundos": {
+  "ultimos-dinosaurios": {
     archivo: "Ammonite fossil imprint.jpg",
     autor: "Fósil de amonites sobre la grava. Fotografía de Harshit SR, 2025.",
     licencia: "CC BY-SA 4.0",
@@ -1355,14 +1355,6 @@ const PORTADAS_COMMONS: Record<string, Foto> = {
     alt: "Picos verdes en punta reflejados en un río quieto, entre cañas y bambú.",
   },
 
-  "deep-work": {
-    archivo: "Getaway (Unsplash).jpg",
-    autor: "Cabaña de troncos entre pinos nevados. Fotografía de Wesley Tingey, 2016.",
-    licencia: "CC0",
-    fuente: "https://commons.wikimedia.org/wiki/File%3AGetaway%20(Unsplash).jpg",
-    foco: "50% 50%",
-    alt: "Una cabaña de madera con el tejado nevado, rodeada de abetos.",
-  },
 
   respira: {
     archivo: "Dülmen, Kirchspiel, Börnste, Felder und Bäume -- 2017 -- 3160-6.jpg",

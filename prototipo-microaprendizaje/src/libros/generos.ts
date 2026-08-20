@@ -80,7 +80,7 @@ export const GENEROS: Genero[] = [
     sub: "Que las cosas salgan sin tener que obligarte",
     icono: "diana",
     libros: [
-      "habitos-atomicos", "poder-habitos", "trabajo-profundo", "deep-work",
+      "habitos-atomicos", "poder-habitos", "trabajo-profundo",
       "club-5-manana", "milagro-manana", "semana-4-horas", "flow", "siete-habitos",
     ],
   },
@@ -111,7 +111,7 @@ export const GENEROS: Genero[] = [
     sub: "Recuperar la atención que se ha ido",
     icono: "reloj",
     libros: [
-      "trabajo-profundo", "deep-work", "flow", "semana-4-horas", "poder-ahora",
+      "trabajo-profundo", "flow", "semana-4-horas", "poder-ahora",
       "respira", "habitos-atomicos",
     ],
   },

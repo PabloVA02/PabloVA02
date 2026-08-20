@@ -51,7 +51,6 @@ export const PORTADAS_TIPO: Record<string, PortadaTipo> = {
   "monje-ferrari": { fondo: "#6b1f2e", tinta: "#f8ece0", destaca: "FERRARI", acento: "#e0b34a" },
   "poder-ahora": { fondo: "#1d2b3a", tinta: "#f0ede2", destaca: "AHORA", acento: "#c9a227" },
   mindset: { fondo: "#7a1f4b", tinta: "#fbf1f4", destaca: "MINDSET", acento: "#f2c14e" },
-  "deep-work": { fondo: "#14171c", tinta: "#eceef0", destaca: "CÉNTRATE", acento: "#4ea3c9" },
   "cosas-buenas": { fondo: "#d98324", tinta: "#2a1a06", destaca: "BUENAS", acento: "#2a1a06" },
   "sentirse-bien": { fondo: "#2e6b5e", tinta: "#f3f0e3", destaca: "BIEN", acento: "#f0c14b" },
   "inteligencia-emocional": { fondo: "#3b2f63", tinta: "#f2eefb", destaca: "EMOCIONAL", acento: "#e3b23c" },
