@@ -12416,7 +12416,255 @@ const SOMBRA_VIENTO: PaginaLibro[] = [
   },
 ];
 
+/* --------------------------------------------------------------------------
+   El hobbit, en ocho páginas.
+
+   Breve: es un libro corto y una sola línea de viaje.
+
+   Caso (d) de la 4 bis en su forma más limpia que existe en toda la
+   biblioteca: en 1951 Tolkien REESCRIBIÓ el capítulo del anillo porque El
+   Señor de los Anillos había convertido aquel objeto en otra cosa, y
+   además metió el cambio dentro de la ficción diciendo que Bilbo había
+   mentido en sus memorias. Eso va en el resumen porque cambia lo que se
+   está leyendo.
+
+   Lo que casi nadie sabe y aquí sí está: que el viaje empieza con un
+   contrato firmado por catorceavas partes; que a Smaug no lo mata ninguno
+   de los protagonistas; que Bilbo se pierde la batalla final porque está
+   inconsciente; y que el clímax del libro no es el dragón, es un reparto
+   de dinero.
+   -------------------------------------------------------------------------- */
+
+const HOBBIT: PaginaLibro[] = [
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La gran aventura empieza con un contrato firmado y una parte del catorce por ciento",
+      },
+      {
+        b: "texto",
+        texto:
+          "Trece enanos y un mago se presentan sin avisar en casa de un señor acomodado, se comen su despensa y le proponen un trabajo. No le piden valor ni lealtad: le ofrecen un puesto. Bilbo Bolsón queda contratado como saqueador profesional para recuperar un tesoro robado, con derecho a una catorceava parte de los beneficios, gastos de viaje incluidos y, dice el documento, gastos de funeral a cargo de la compañía si llegara el caso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese detalle marca el tono de todo el libro. El hobbit no es una epopeya sobre el bien y el mal, que es lo que vino después: es la historia de una expedición comercial con un objetivo concreto —una montaña, un dragón encima del oro— y de un empleado que no sirve para el puesto.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Publicado en 1937 como libro para niños, con los dibujos y los mapas hechos por el propio autor, terminó siendo la puerta de entrada a un mundo entero. Estas páginas cuentan qué le pasa a un hombre corriente cuando sale de casa, cómo se habla con un dragón, por qué el final no es la muerte del dragón sino un reparto de dinero, y qué ocurrió catorce años después con el capítulo del anillo. El origen del libro es tan casero como su tono: Tolkien contaba que la primera frase —en un agujero en el suelo vivía un hobbit— se la encontró escribiéndola en una hoja en blanco mientras corregía exámenes, sin saber él mismo qué era un hobbit.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El viaje no empieza con una profecía ni con una llamada del destino: empieza con un contrato y un porcentaje.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El protagonista no quiere ir, y esa es la mitad del libro" },
+      {
+        b: "texto",
+        texto:
+          "Bilbo tiene cincuenta años, una casa cómoda con la despensa llena, dos comidas de más al día y ninguna intención de que le pase nada. Los hobbits, explica el libro, son gente pequeña y sensata a la que no le ocurre nunca nada digno de contarse, y eso es justo lo que valoran. La primera reacción del protagonista ante la aventura es un grito y un desmayo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que lo saca de casa es una herencia. Por parte de padre es un Bolsón, respetable y previsible; por parte de madre es un Tuk, una familia de la que se murmura que algún antepasado se casó con un hada y que sale de viaje sin dar explicaciones. El libro entero es esa discusión interna: cada vez que Bilbo hace algo valiente gana el Tuk, y cada vez que echa de menos su sillón gana el Bolsón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El cambio se mide en cosas pequeñas y bien elegidas. Sale de casa sin pañuelo y se pasa medio libro lamentándolo; a mitad de camino ya está robándole la llave a un carcelero, negociando con desconocidos y decidiendo por su cuenta contra la opinión de trece enanos. Nadie lo entrena y nadie le dice que ha cambiado: se ve en lo que hace. El propio Gandalf lo dice al final del viaje, y es el resumen del personaje: sigue siendo el mismo hobbit de siempre, solo que un poco mejor.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El héroe no es el que sale de casa buscando aventuras: es el que sale sin querer y descubre para qué sirve.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El oro del dragón tiene tres dueños distintos, y ahí está el problema del libro",
+      },
+      {
+        b: "texto",
+        texto:
+          "Smaug arrasó el reino enano de la Montaña Solitaria hace ciento setenta años, quemó de paso la ciudad de los hombres que vivía a su sombra y se acostó encima del botín. Desde entonces el tesoro no produce nada: un dragón no gasta, no invierte y no reparte. El libro lo dice con una imagen exacta, la del dragón que conoce cada moneda de su montón y no usa ninguna.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Cuando la expedición se pone en marcha, la pregunta que nadie hace en voz alta es de quién es aquello. De los enanos, que lo perdieron. De los hombres del lago, que tienen la ciudad reconstruida y arruinada por culpa del mismo dragón. De los elfos del bosque, que reclaman unas joyas de una deuda antigua. Y en medio, Bilbo, con su catorceava parte por escrito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Por eso este no es un cuento de dragones al uso. En la mayoría, el monstruo muere y se acabó la historia. Aquí, la muerte del dragón abre el conflicto de verdad, porque libera un montón de oro sin dueño claro delante de tres pueblos armados. Tolkien pone la codicia como enfermedad y no como vicio: al oro del dragón lo llama enfermo, y contagia a quien se acerca. Y el que mejor lo explica no es un héroe sino un oso que cambia de forma, Beorn, que vive solo, no quiere el oro de nadie y es el único personaje del libro al que la montaña no le interesa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un tesoro sin dueño es más peligroso que el dragón que lo guardaba, porque el dragón al menos era uno solo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El anillo que Bilbo encuentra en 1937 no era el anillo que todo el mundo cree",
+      },
+      {
+        b: "texto",
+        texto:
+          "En mitad del libro, perdido en la oscuridad, Bilbo encuentra un anillo en el suelo y juega a las adivinanzas con una criatura llamada Gollum apostándose la vida. Es el capítulo más famoso, y es también el único caso conocido de un autor que reescribe un capítulo publicado para que encaje con lo que escribió después.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En la primera edición, Gollum apostaba el anillo como premio y, al no encontrarlo, se disculpaba muy educadamente y acompañaba a Bilbo hasta la salida. Un objeto que se regala con buenos modales no podía ser, catorce años más tarde, el anillo que corrompe a quien lo toca. Así que en 1951 Tolkien reescribió el capítulo: Gollum ya no lo entrega, lo busca desesperado, comprende que se lo ha llevado el otro y lo persigue con odio.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y la solución al problema es lo mejor de todo, porque en vez de disimular el cambio lo convirtió en trama: la versión de 1937 es la que Bilbo contó, y contó una mentira porque el anillo ya estaba trabajando sobre él. El texto viejo pasó a ser un documento falsificado dentro de la propia historia. Quien lea hoy El hobbit está leyendo la segunda versión. Merece la pena leer las dos versiones seguidas: la de 1937 se encuentra hoy en ediciones anotadas, y verlas juntas enseña más sobre cómo se construye una historia que cualquier manual.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Tolkien no corrigió un error: convirtió su primera versión en la mentira que un personaje contó bajo los efectos del anillo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "La conversación con el dragón es una lección de cómo hablar con quien puede matarte",
+      },
+      {
+        b: "texto",
+        texto:
+          "Bilbo baja solo al salón del tesoro y se encuentra con Smaug despierto. Lo que sigue no es una pelea: son varias páginas de conversación entre un ladrón invisible y un dragón vanidoso, y es la mejor escena del libro. Bilbo no dice su nombre ni de dónde viene —dar el nombre verdadero a un dragón es peligroso— y contesta con acertijos: soy el que camina sin ser visto, el que elige la suerte, el jinete de barriles.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al mismo tiempo lo halaga sin parar, porque sabe que la vanidad es la única grieta que tiene delante. Le pide ver su famosa coraza de piedras preciosas, Smaug se da la vuelta encantado de enseñarla y Bilbo descubre lo que había ido a buscar: un hueco sin proteger en el pecho izquierdo. Toda la trama posterior depende de ese instante de coquetería.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Pero Bilbo también comete su error más grave ahí. Entre acertijo y acertijo suelta pistas suficientes para que Smaug deduzca quién lo ha ayudado, y el dragón sale volando a quemar la ciudad de los hombres del lago. La escena es un aviso poco infantil: presumir delante de alguien peligroso sale caro, y lo pagan terceros. La escena tiene además una regla que el libro no explica pero cumple: Bilbo no miente nunca del todo. Todo lo que le dice a Smaug es verdad dicha de manera que no sirva de nada.",
+      },
+      {
+        b: "idea",
+        texto:
+          "A un dragón no se le vence: se le da conversación, se le busca la vanidad y se sale corriendo.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "El dragón muere a mitad del último tercio, y el protagonista se pierde la batalla",
+      },
+      {
+        b: "texto",
+        texto:
+          "A Smaug no lo mata ninguno de los catorce miembros de la expedición. Lo mata Bardo, un arquero de la ciudad del lago que acierta en el hueco de la coraza gracias a la información que Bilbo había pasado. El héroe del libro no da un solo golpe decisivo en toda la historia; su papel es ver, escuchar, deducir y avisar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Muerto el dragón, empieza el problema. Los hombres, que se han quedado sin ciudad, van a la montaña a reclamar una parte; los elfos los acompañan; Thorin, el jefe de los enanos, se encierra dentro con el tesoro, se niega a dar nada y se le pone la mirada del dragón. Bilbo, que ha entendido que aquello acaba en guerra, roba la joya que su jefe más quiere, la Piedra del Arca, y se la entrega en secreto al enemigo para que la use como moneda de negociación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es el acto heroico del libro y consiste en traicionar al propio bando para forzar una paz. Lo llaman ladrón y lo echan. Después llega la batalla —enanos, hombres y elfos contra los trasgos, que aparecen al oler el oro— y aquí ocurre lo que ninguna película se atreve a copiar: a Bilbo lo dejan inconsciente de una pedrada al principio y se despierta cuando ya ha terminado todo. Thorin muere de las heridas y lo último que hace es pedirle perdón a Bilbo por haberlo echado, y decirle que el mundo iría mejor si más gente valorase la comida y la alegría por encima del oro acumulado.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El momento más valiente del libro no es una espada: es entregarle al enemigo lo que más quiere tu jefe para evitar una guerra.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Está escrito para leerlo en voz alta, y eso explica sus rarezas" },
+      {
+        b: "texto",
+        texto:
+          "El narrador se dirige al lector todo el rato: le avisa de lo que va a pasar, le explica qué es un trasgo, hace bromas sobre lo que el protagonista no sabe y llega a interrumpirse para comentar la historia. Es la voz de un padre contándoselo a sus hijos, y de hecho así empezó. Tolkien acabó incómodo con ese tono y cuando escribió la continuación lo retiró por completo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí vienen las canciones, que son muchas, y los mapas dibujados a mano con runas que hay que leer al trasluz. Y de ahí viene también el desajuste que nota cualquier lector adulto: la primera mitad es un cuento de trolls que hablan como carreteros y de galletas robadas, y la segunda es una historia sobre codicia, guerra y muerte en la que el jefe de los enanos se muere pidiendo perdón.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Conviene saber además que este libro no fue el principio. Tolkien llevaba veinte años inventando lenguas y escribiendo la mitología de un mundo que no pensaba publicar, y El hobbit se le cruzó por en medio: un cuento para sus hijos que terminó tomando prestados los mapas y los nombres de aquel otro proyecto. Por eso da la impresión de que el mundo continúa más allá de la página, y es que continuaba de verdad. Aquel material se publicó mucho después, ya muerto el autor, y sigue leyéndose menos que este cuento de trescientas páginas que empezó siendo un entretenimiento familiar.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El mundo no se inventó para este libro: el libro se coló dentro de un mundo que ya llevaba veinte años escribiéndose.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Conclusión" },
+      {
+        b: "texto",
+        texto:
+          "El hobbit cuenta cómo un señor cómodo y sin ambiciones acepta un trabajo para el que no vale, cruza medio mundo con trece enanos y vuelve convertido en otra persona. Lo que sostiene, debajo de la aventura, son dos ideas nada infantiles: que el valor consiste sobre todo en aguantar cuando no hay heroísmo posible, y que un tesoro sin repartir enferma a la gente que lo rodea.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que aporta es un modelo que después ha copiado media literatura: el protagonista corriente metido en una historia enorme, contada con humor y con mapa. Y sigue siendo el mejor sitio por donde entrar en la obra de Tolkien, porque dura trescientas páginas, se lee en unas tardes y no exige saber nada de antemano.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Bilbo vuelve a casa con menos dinero del que le prometieron y con la única cosa que buscaba sin saberlo: saber quién es.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Dónde falla. No hay ni una sola mujer en todo el libro con una línea de diálogo, cosa que ya llamaba la atención en 1937 y que hoy salta a la vista. Los trece enanos son casi indistinguibles salvo tres o cuatro, y varios están ahí solo para ser trece. Y los trasgos son malvados por definición y por nacimiento, una simplificación moral que el propio Tolkien se planteó después y nunca resolvió del todo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También hay un recurso que molesta: cada vez que la situación es imposible, aparecen las águilas. Ocurre dos veces, y la segunda es casi la definición de solución que llega de fuera. Y el cambio de tono entre el cuento del principio y la guerra del final es real: quien empiece esperando lo primero se llevará una sorpresa hacia el final, y quien empiece esperando lo segundo tendrá que aguantar cien páginas de canciones.",
+      },
+    ],
+  },
+];
+
 export const PAGINAS: Record<string, PaginaLibro[]> = {
+  hobbit: HOBBIT,
   "sombra-viento": SOMBRA_VIENTO,
   alquimista: ALQUIMISTA,
   "orgullo-prejuicio": ORGULLO_PREJUICIO,

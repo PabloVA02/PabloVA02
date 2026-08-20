@@ -29,6 +29,9 @@
    ========================================================================== */
 
 export const APRENDERAS: Record<string, string> = {
+  hobbit:
+    "Un señor cómodo de cincuenta años firma un contrato como ladrón profesional y se va con trece enanos a quitarle el tesoro a un dragón. Vuelve siendo otro y con mucho menos dinero del prometido.",
+
   "sombra-viento":
     "En la Barcelona de 1945, un chico encuentra en una biblioteca secreta un libro del que alguien está quemando todos los ejemplares. Diez años de su vida se le van en averiguar por qué.",
 
