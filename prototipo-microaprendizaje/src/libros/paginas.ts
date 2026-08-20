@@ -483,270 +483,593 @@ const HABITOS_ATOMICOS: PaginaLibro[] = [
 
 /** Los resúmenes por páginas, por identificador de libro. */
 /* --------------------------------------------------------------------------
-   Sapiens, en ocho páginas.
+   Sapiens, en dieciséis páginas.
 
-   Es el libro que Pablo puso de ejemplo cuando devolvió los resúmenes
-   automáticos: «está muy mal redactado». Tenía razón y el diagnóstico era
-   fácil de ver — la primera página contaba que a Harari le endosaron una
-   asignatura de primero y cómo se tradujo el libro al inglés. Eso es la
-   historia DEL LIBRO. Quien abre un resumen de Sapiens quiere la historia de
-   la especie.
+   EL PRIMER EXTENSO, y el caso de manual del apartado 2 ter de
+   `REDACCION.md`: un libro que va de los neandertales a la ingeniería
+   genética no cabe en seis argumentos. Metido en ocho páginas había que
+   juntar la escritura con las jerarquías, y el dinero con los imperios, que
+   es exactamente lo que hace todo el mundo y por lo que nadie recuerda
+   cuáles eran.
 
-   Así que aquí se cuenta el libro y no su ficha bibliográfica: cada página
-   abre con la afirmación que sostiene, la explica con lo concreto que trae
-   el original —las cifras, los ejemplos, los nombres— y deja una frase en la
-   caja del rayo. La última dice también dónde falla, que es lo que separa
-   esto de una contraportada.
+   Lo que NO se hace es engordar las páginas: siguen midiendo 260-300
+   palabras y una idea. Lo que crece es cuántas hay.
+
+   Tercera persona —regla 7—: es historia, no un manual. Y la conclusión
+   tiene trabajo, porque este libro se cita como si fuera un consenso
+   académico y no lo es.
    -------------------------------------------------------------------------- */
 
 const SAPIENS: PaginaLibro[] = [
   {
     bloques: [
-      { b: "rotulo", texto: "Durante casi toda nuestra historia no fuimos la única humanidad" },
       {
-        b: "texto",
+        b: "rotulo",
         texto:
-          "Hace cien mil años, en la Tierra vivían al menos seis especies humanas a la vez. Los neandertales ocupaban Europa, el Homo erectus llevaba casi dos millones de años en Asia y en la isla de Flores había una especie enana de un metro de altura. Sapiens era una más, y ni siquiera la más dotada: el cerebro de un neandertal era algo mayor que el nuestro y su cuerpo aguantaba mejor el frío.",
+          "Durante casi toda nuestra historia no fuimos la única especie humana",
       },
       {
         b: "texto",
         texto:
-          "Nada en aquel sapiens anunciaba lo que venía. Vivía en grupos pequeños en un rincón de África, cazaba lo que podía y competía por la carroña con hienas y buitres. Harari insiste en este punto porque cambia la pregunta: no se trata de explicar por qué el ser humano domina el planeta, sino por qué lo domina UNA de las seis especies humanas que había.",
+          "Hace cien mil años había al menos seis especies humanas repartidas por el planeta. Los neandertales en Europa, los erectus en Asia, los floresiensis en una isla de Indonesia —adultos de poco más de un metro—, los denisovanos en Siberia, y los sapiens en África oriental. Convivieron durante decenas de miles de años.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hoy queda una, y eso es la anomalía. En el resto del árbol de la vida es normal que un género tenga varias especies vivas: hay muchas clases de oso y muchas de ballena. Nosotros somos el único caso de un género que se ha quedado solo, y la pregunta de por qué es la que abre el libro.",
       },
       {
         b: "idea",
         texto:
-          "Hoy nos parece natural ser la única especie humana. Es una anomalía reciente: durante dos millones de años lo normal fue lo contrario.",
+          "Estamos tan acostumbrados a ser los únicos que ni lo notamos. Es una situación reciente y probablemente no fue pacífica.",
       },
       {
         b: "texto",
         texto:
-          "Hace setenta mil años ese sapiens sale de África, y a partir de ahí las otras humanidades desaparecen una tras otra. Los neandertales se extinguen hace unos treinta mil años; los enanos de Flores, hace unos cincuenta mil. El orden de las desapariciones sigue de cerca al de nuestras llegadas, y también el de la fauna grande: Australia pierde el noventa por ciento de sus animales de más de cincuenta kilos poco después de que aparezcamos allí.",
+          "Yuval Noah Harari es historiador y da clases en la Universidad Hebrea de Jerusalén. Publicó Sapiens en hebreo en 2011 y ha vendido más de veinticinco millones de ejemplares en unos setenta idiomas. Su ambición es contar la historia entera de la especie en un solo hilo, cosa que casi ningún historiador intenta.",
       },
       {
         b: "texto",
         texto:
-          "Queda un rastro de aquella convivencia. El análisis del genoma neandertal demostró que hubo mezcla: un europeo o un asiático de hoy lleva entre un uno y un cuatro por ciento de ADN neandertal. No los sustituimos del todo. Lo que hay que explicar sigue en pie: qué le pasó a sapiens hace setenta mil años para que empezara a ganar en todas partes.",
+          "Su tesis es que somos lo que somos por tres revoluciones: la cognitiva, hace unos setenta mil años, que nos dio la capacidad de inventarnos ficciones y creérnoslas entre muchos; la agrícola, hace doce mil, que nos ató a la tierra; y la científica, hace quinientos, que empezó cuando aceptamos que no sabíamos.",
       },
       {
         b: "texto",
         texto:
-          "Ese es el recorrido de este resumen. Primero, la respuesta de Harari a esa pregunta y lo que se le puede hacer a un planeta con ella. Después, las tres revoluciones que organizan el libro —la del lenguaje, la de la agricultura y la de la ciencia—, lo que costó cada una, y una última página que dice también dónde le discuten los especialistas.",
+          "El recorrido de estas páginas es ese, y la última pregunta si todo ese poder nos ha hecho más felices. La conclusión dice también dónde falla, que en este libro hace falta decirlo.",
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Ganamos porque somos capaces de creernos cosas que no existen" },
       {
         b: "texto",
         texto:
-          "La respuesta de Harari es un cambio en el lenguaje al que llama revolución cognitiva. Muchos animales se comunican y algunos avisan del peligro con precisión. Lo que ningún otro hace es hablar de lo que no está delante y, sobre todo, de lo que no existe: dioses, naciones, dinero, empresas. Esa es la novedad, y de ahí sale todo lo demás.",
+          "Los neandertales tenían el cerebro algo mayor que el nuestro, eran más fuertes, cuidaban de sus enfermos y enterraban a sus muertos. Perdieron igual. La explicación que da Harari no está en la fuerza ni en las herramientas: está en el tamaño del grupo que se puede coordinar.",
       },
       {
         b: "texto",
         texto:
-          "Sirve porque resuelve un problema de tamaño. Un grupo que se sostiene solo con relaciones personales —quién es de fiar, quién me debe un favor— se rompe alrededor de los ciento cincuenta miembros; por encima de ahí nadie conoce a todos. Los chimpancés siguen atrapados en ese techo. Una ficción compartida lo salta de golpe: dos desconocidos que creen en el mismo dios, en la misma bandera o en el mismo billete cooperan sin haberse visto nunca.",
+          "Un chimpancé puede mantener relaciones estables con unos pocos individuos. Los humanos, según los cálculos que maneja el libro, llegamos por conocimiento personal a unos ciento cincuenta: es el techo de una banda, de una aldea, de una empresa pequeña. Por encima de esa cifra la gente deja de conocerse y el grupo se rompe.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Lo que la revolución cognitiva añadió fue la capacidad de hablar de cosas que no existen. No solo «hay un león junto al río», que también lo comunican otros animales, sino «el león es el espíritu guardián de nuestra tribu». Y eso permite que dos desconocidos que comparten esa historia cooperen sin haberse visto nunca.",
       },
       {
         b: "idea",
         texto:
-          "Dominamos el planeta porque somos capaces de creernos lo mismo entre muchísimos desconocidos, y ninguna otra especie puede hacer eso.",
+          "Nunca se ha visto a dos chimpancés entregarle un plátano a un tercero con la promesa de plátanos ilimitados después de morir.",
       },
       {
         b: "texto",
         texto:
-          "Harari lo llama realidad imaginada, y no quiere decir mentira. Peugeot es su ejemplo favorito: la empresa no es su fábrica, ni sus coches, ni su plantilla, que pueden cambiar enteros sin que Peugeot deje de existir. Es una historia que un abogado escribió siguiendo un ritual legal y que todos aceptamos. Existe de verdad en el sentido que importa: mueve dinero, contrata gente y puede ser demandada.",
+          "Harari insiste en que esto no es solo cosa de religiones antiguas. Las naciones, el dinero, las empresas, los derechos humanos y las leyes son exactamente lo mismo: ficciones compartidas que no existen fuera de la mente colectiva. Peugeot no es una fábrica ni sus trabajadores; es una entidad jurídica que solo existe porque un montón de gente actúa como si existiera.",
       },
       {
         b: "texto",
         texto:
-          "Y tiene una ventaja que la evolución no puede igualar. Cambiar el comportamiento de una especie exige cambiar sus genes y eso lleva miles de generaciones. Cambiar una historia se hace en una tarde: cuando la ficción deja de servir, se cuenta otra. Es la razón de que sapiens pasara de cazar en la sabana a organizar imperios sin ninguna mutación de por medio.",
+          "Y ahí está su punto: llamar ficción a algo no significa que sea inútil. Significa que su fuerza no viene del mundo físico sino del acuerdo, y que un acuerdo se puede cambiar mucho más deprisa que un gen.",
       },
     ],
   },
-
+  {
+    bloques: [
+      {
+        b: "rotulo",
+        texto:
+          "Los cazadores trabajaban menos horas y comían mejor que sus descendientes",
+      },
+      {
+        b: "texto",
+        texto:
+          "El libro dedica un tramo a lo que Harari llama la sociedad opulenta original, y desmonta la imagen del cazador famélico. Los estudios sobre grupos recolectores que llegaron al siglo XX apuntan a jornadas de subsistencia de unas pocas horas al día, bastante por debajo de las de un campesino o de un obrero industrial.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Comían mejor porque comían de todo: decenas de especies vegetales, frutos, insectos, caza, pescado. Un campesino de después vivía de dos o tres cultivos, así que una mala cosecha lo dejaba sin nada y su dieta era peor en variedad y en nutrientes. Los esqueletos lo dicen: los primeros agricultores eran más bajos y tenían más caries y más carencias que los recolectores anteriores.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La media de horas de trabajo de un recolector era menor que la de un campesino medieval y que la de un empleado de oficina.",
+      },
+      {
+        b: "texto",
+        texto:
+          "También sabían muchísimo más de su entorno. Harari señala que un recolector necesitaba conocer el comportamiento de docenas de animales, las propiedades de cientos de plantas y la geografía de un territorio enorme, y hacer todo eso él mismo. Un individuo moderno depende de miles de especialistas y sabe hacer muy pocas cosas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Advierte a la vez contra idealizarlo. Aquella vida traía mortalidad infantil altísima, violencia entre bandas y la costumbre de abandonar a los que no podían seguir el paso. No era un paraíso: era otra cosa, y la comparación importa porque la agricultura se cuenta siempre como un avance sin coste.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y hay un límite honesto: de aquellos setenta mil años no queda casi nada que leer, así que buena parte de esto es reconstrucción a partir de huesos y de analogías con grupos actuales.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "La primera oleada de extinciones la causamos nosotros, y hace mucho" },
+      {
+        b: "texto",
+        texto:
+          "Harari sostiene que Homo sapiens fue una catástrofe ecológica mucho antes de inventar la industria. El patrón se repite en cada continente al que llegamos: poco después de nuestra aparición, desaparecen los animales grandes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "En Australia, hace unos cuarenta y cinco mil años, se extinguieron la mayoría de las especies terrestres de más de cincuenta kilos: canguros gigantes, un marsupial del tamaño de un oso, lagartos de dos toneladas. En América, tras la llegada humana hace unos dieciséis mil años, desaparecieron mamuts, mastodontes, perezosos gigantes, camellos y caballos nativos.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Antes de saber sembrar, ya habíamos borrado a la mitad de los animales grandes del planeta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su argumento a favor de la culpa humana tiene tres patas. La primera es la coincidencia de fechas: las extinciones siguen a la llegada humana en cada sitio y no a un cambio climático común. La segunda es que afectan sobre todo a los animales grandes, que se reproducen despacio y a los que basta con matar unos pocos al año para hundirlos. La tercera es que en África, donde los homínidos llevaban millones de años, la fauna grande sobrevivió: había aprendido a temernos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Hay debate académico sobre el peso relativo del clima, y el propio libro lo menciona de pasada. Lo que casi nadie discute es que la llegada humana fue al menos uno de los factores decisivos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari lo usa para una idea que atraviesa el libro: no hay una edad de oro previa en la que viviéramos en armonía con la naturaleza. Lo que hay es una especie que ha ido borrando lo que se le cruzaba desde mucho antes de tener herramientas de metal.",
+      },
+    ],
+  },
   {
     bloques: [
       { b: "rotulo", texto: "La agricultura fue el mayor fraude de la historia" },
       {
         b: "texto",
         texto:
-          "Hace unos doce mil años unos cuantos grupos empezaron a plantar trigo, y en dos milenios casi todo el mundo vivía de eso. La versión de siempre dice que fue un avance: menos hambre, más tiempo libre, el principio de la civilización. Los huesos dicen otra cosa. El campesino trabajaba más horas que el cazador recolector, comía peor —una dieta de dos o tres plantas en vez de decenas—, enfermaba más y era más bajo.",
+          "Hace unos doce mil años, en varios lugares a la vez, unos grupos empezaron a sembrar. En unos milenios, la mayor parte de la humanidad vivía de ello. Se cuenta como el gran paso adelante, y Harari sostiene lo contrario: para la persona corriente fue un empeoramiento claro.",
       },
       {
         b: "texto",
         texto:
-          "El cuerpo tampoco estaba preparado. Un esqueleto hecho para trepar y correr detrás de un animal pasó a acarrear cubos, moler grano y agacharse a arrancar hierbajos, y de ahí salen las hernias, las artritis y las espaldas rotas que aparecen en los cementerios de los primeros pueblos agrícolas. Vivir pegado a los animales domésticos y a otros cientos de personas trajo además las epidemias.",
+          "El cuerpo humano estaba hecho para trepar, correr y recolectar, no para acarrear cubos de agua ni para pasar el día encorvado quitando piedras. De ahí las hernias discales, la artritis y los pies destrozados que aparecen en los esqueletos neolíticos. Y la dieta empeoró: dependía de dos o tres cereales.",
       },
       {
         b: "idea",
         texto:
-          "No fuimos nosotros quienes domesticamos el trigo. Fue el trigo el que nos domesticó a nosotros.",
+          "No fuimos nosotros quienes domesticamos el trigo: fue el trigo el que nos domesticó a nosotros.",
       },
       {
         b: "texto",
         texto:
-          "Entonces, ¿por qué se impuso? Porque la evolución no cuenta bienestar, cuenta copias. Una hectárea de trigo alimenta a mucha más gente que una hectárea de bosque, aunque los alimente peor. La población creció, y una vez que hay diez veces más bocas ya no se puede volver atrás: la vida del campesino era peor que la del cazador, pero la del cazador ya no daba para todos.",
+          "La imagen del trigo es la que más se le recuerda, y su lógica es evolutiva. Hace doce mil años el trigo era una hierba silvestre en una región pequeña de Oriente Próximo; hoy ocupa millones de hectáreas. Desde el punto de vista de la especie trigo, el trato le salió redondo: consiguió que un primate le quitara las piedras, le espantara los pájaros y le llevara el agua.",
       },
       {
         b: "texto",
         texto:
-          "Harari llama a esto la trampa del lujo, y es la parte del libro que más se reconoce hoy. Una comodidad se adopta porque facilita la vida, se convierte en costumbre, la costumbre crea una obligación nueva y ya no se puede prescindir de ella. Lo dice del trigo y del arado, y sirve igual para el correo electrónico.",
+          "Su distinción clave es entre el éxito de una especie y el bienestar de sus individuos. La agricultura multiplicó por muchísimo el número de humanos, y por eso triunfó; pero multiplicó una vida peor. Harari lo aplica también a las vacas, los cerdos y las gallinas, que son las especies más numerosas del planeta y las que peor viven de todas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y no fue una decisión: nadie firmó nada. Fue una acumulación de pequeñas mejoras que ataron a la gente al campo generación tras generación hasta que ya no se podía volver atrás.",
       },
     ],
   },
-
   {
     bloques: [
       { b: "rotulo", texto: "Ningún orden social grande se sostiene sin una ficción compartida" },
       {
         b: "texto",
         texto:
-          "Con millones de personas viviendo juntas hizo falta algo que las mantuviera en su sitio, y no bastaba el instinto: no hay nada en nuestra biología que diga cómo debe organizarse una ciudad de cien mil habitantes. Lo que hubo fue relatos, y Harari los llama órdenes imaginados. Funcionan mientras casi todo el mundo se los cree, y por eso todos los grandes órdenes dedican tanto esfuerzo a repetirse.",
+          "Cuando las aldeas se convirtieron en ciudades y las ciudades en reinos, apareció un problema nuevo: cómo mantener juntas a decenas de miles de personas que no se conocen. La respuesta, según Harari, fue siempre la misma: un relato que todo el mundo se cree.",
       },
       {
         b: "texto",
         texto:
-          "Para enseñar que son historias pone dos textos uno al lado del otro. El Código de Hammurabi, de hace casi cuatro mil años, declara que los dioses han ordenado la sociedad en superiores, plebeyos y esclavos, y pone precio distinto a la vida de cada uno. La Declaración de Independencia de Estados Unidos declara que todos los hombres son creados iguales. Los dos afirman describir una verdad eterna. Los dos son, dice Harari, ficciones útiles.",
+          "Compara dos textos separados por tres mil quinientos años. El Código de Hammurabi, hacia 1776 antes de Cristo, declara que los dioses han establecido un orden en el que hay hombres superiores, hombres corrientes y esclavos, y fija indemnizaciones distintas según la categoría de la víctima. La Declaración de Independencia de Estados Unidos, de 1776, declara que todos los hombres son creados iguales.",
       },
       {
         b: "idea",
         texto:
-          "No existe la igualdad en la naturaleza ni existen los derechos en la biología. Existen porque muchísima gente se cuenta que existen, y eso basta para que funcionen.",
+          "Los dos textos afirman que su orden es un hecho objetivo. Los dos son un relato, y en eso no se diferencian.",
       },
       {
         b: "texto",
         texto:
-          "De ahí salen las jerarquías, y todas se justifican igual: presentándose como naturales. La casta india, la esclavitud, la separación entre blancos y negros en América, la posición de las mujeres en casi todas las sociedades conocidas. Harari repasa las explicaciones biológicas del reparto entre hombres y mujeres —la fuerza, la agresividad, el cuidado de las crías— y muestra que ninguna sostiene el resultado: hay trabajos duros ocupados por mujeres y puestos de poder que no requieren fuerza ninguna.",
+          "Su argumento no es que dé lo mismo. Es que la igualdad no está escrita en la biología —donde no hay ni derechos ni igualdad, solo organismos distintos— y que eso no la hace menos valiosa: la hace un acuerdo, y los acuerdos hay que sostenerlos.",
       },
       {
         b: "texto",
         texto:
-          "La conclusión práctica es incómoda. Un orden imaginado no se sostiene solo con la fuerza: se sostiene porque está dentro de la cabeza de la gente, incluidos los que salen perdiendo. Cambiarlo exige que un número enorme de personas cambien de historia a la vez, y eso solo ocurre unas pocas veces por siglo.",
+          "Y describe cómo se sostienen. Nunca se admite que sean inventados; se enseñan a los niños desde muy pequeños; se meten en la arquitectura, en las canciones, en los rituales y en la ropa; y sobre todo, se necesita a mucha gente creyéndolos a la vez. Un orden imaginado no vive en la cabeza de uno, vive entre todos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí una consecuencia incómoda: no se puede salir de un orden imaginado por cuenta propia. Quien deja de creer en el dinero no deja de tener que pagar el alquiler.",
       },
     ],
   },
-
   {
     bloques: [
-      { b: "rotulo", texto: "Tres fuerzas juntaron a la humanidad: el dinero, los imperios y las religiones" },
       {
-        b: "texto",
+        b: "rotulo",
         texto:
-          "Durante milenios el mundo estuvo dividido en miles de culturas que apenas se rozaban. Hoy casi todos participamos de un mismo sistema. Harari atribuye esa unificación a tres inventos que cruzan fronteras y que no necesitan que nadie se caiga bien: el dinero, el imperio y la religión universal.",
-      },
-      {
-        b: "lista",
-        puntos: [
-          { fuerte: "El dinero", texto: "convierte cualquier cosa en cualquier otra y funciona entre enemigos." },
-          { fuerte: "El imperio", texto: "mete pueblos distintos en una sola ley, una lengua y una moneda." },
-          { fuerte: "La religión", texto: "da una verdad válida para todos y no solo para los de casa." },
-        ],
+          "La escritura no se inventó para contar historias, sino para contar sacos",
       },
       {
         b: "texto",
         texto:
-          "El dinero es el más eficaz de los tres, y también el más raro. No se come, no abriga y casi nunca se toca: hoy más del noventa por ciento del que existe son cifras en servidores. Lo que le da valor es una confianza circular — acepto este papel porque estoy seguro de que mañana lo aceptará otro—, y esa confianza aguanta donde no aguanta ninguna otra. Dos personas que se odian y no comparten dios ni idioma pueden comerciar.",
+          "Los primeros textos que conservamos no son poemas ni leyes ni oraciones: son recibos. Tablillas sumerias de hace unos cinco mil años que anotan cantidades de cebada, cabezas de ganado y días de trabajo. Durante siglos, la escritura solo sirvió para eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La razón es que el cerebro humano no está hecho para almacenar datos administrativos. Recuerda bien caras, historias y lugares, y muy mal cifras arbitrarias sin contexto. Un imperio que cobra impuestos a cien mil personas necesita guardar cien mil cifras, y ninguna cabeza da para eso.",
       },
       {
         b: "idea",
         texto:
-          "El dinero es la única historia que se han creído todos los pueblos del mundo a la vez.",
+          "La burocracia nació antes que la literatura, y la escritura se inventó para llevar las cuentas de un almacén.",
       },
       {
         b: "texto",
         texto:
-          "Con los imperios Harari es igual de incómodo que con la agricultura. No los defiende, pero avisa de que casi todo lo que hoy llamamos cultura propia —el idioma, la comida, las leyes, la religión— llegó por conquista de alguien. Y la lista de sus crímenes, dice, no cancela el hecho de que las culturas puras que reclaman los nacionalismos casi nunca existieron.",
+          "Harari señala el precio de aquel invento: para poder archivar, hubo que trocear la realidad en categorías y ordenarla por cajones. El pensamiento burocrático divide y clasifica de una manera que no se parece a cómo funciona la mente por su cuenta, y desde entonces vivimos dentro de esas divisiones.",
+      },
+      {
+        b: "texto",
+        texto:
+          "El otro sistema decisivo llegó mucho después y es el de los números arábigos, que en realidad vienen de la India. Harari lo llama el guion parcial que ha acabado dominando: hoy la mayor parte del conocimiento que gobierna el mundo está escrito en matemáticas, y buena parte de las decisiones que afectan a una vida las toma un cálculo que su protagonista no puede leer.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la primera aparición en el libro de un tema que vuelve al final: los sistemas que inventamos para servirnos acaban imponiendo su lógica a quien los usa.",
       },
     ],
   },
-
+  {
+    bloques: [
+      { b: "rotulo", texto: "Las jerarquías se sostienen solas, y por eso duran siglos" },
+      {
+        b: "texto",
+        texto:
+          "Todas las sociedades grandes conocidas han tenido jerarquías, y Harari sostiene que ninguna se basa en una diferencia biológica real. Lo que las mantiene es un círculo que se alimenta a sí mismo, y lo describe con precisión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Empieza con un accidente histórico: una conquista, una ley, un reparto. Ese accidente coloca a un grupo por debajo. Desde ahí, al grupo de abajo se le niegan la educación, los oficios buenos y el trato, así que efectivamente rinde peor. Y ese peor rendimiento se cita como prueba de que la jerarquía era justa.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La discriminación produce la desventaja, y la desventaja se exhibe después como justificación de la discriminación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Sus ejemplos son incómodos a propósito: el sistema de castas en la India, la esclavitud en América y la situación legal de las mujeres en casi todas partes. Y hace una observación que suele pasarse por alto: la esclavitud americana se justificó con una teoría racial que se construyó después, para explicar una situación económica que ya existía.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con las mujeres se detiene más, porque es la jerarquía más universal: casi todas las sociedades agrarias conocidas fueron patriarcales, con distintas religiones, economías y climas. Repasa las explicaciones habituales —la fuerza física, la agresividad, la especialización reproductiva— y muestra que ninguna cuadra del todo, y termina reconociendo que no tiene una respuesta.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Ese reconocimiento es de lo más honesto del libro: un caso donde el patrón es clarísimo y la causa sigue sin estar clara.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El dinero es el sistema de confianza más eficaz que hemos inventado" },
+      {
+        b: "texto",
+        texto:
+          "El dinero no es oro ni papel: es información, y su valor entero se apoya en que todo el mundo crea que los demás lo aceptarán. Harari lo llama el sistema de confianza mutua más universal que existe, y subraya lo raro que es: hay creencias religiosas que no cruzan una frontera y billetes que se aceptan en todas partes.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ventaja es que convierte cualquier cosa en cualquier otra. Sin dinero, un zapatero que quiere manzanas tiene que encontrar a un agricultor que necesite zapatos justo ahora. Con dinero, todo se puede cambiar por todo, incluidas cosas que no se pueden partir: tierra, tiempo, trabajo.",
+      },
+      {
+        b: "idea",
+        texto:
+          "El dinero es el único relato que se creen a la vez cristianos, musulmanes, ateos y comunistas.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari cuenta cómo los primeros dineros fueron cosas con valor propio —cebada en Mesopotamia, que se podía comer— y cómo se pasó al valor puramente convencional, primero con metales pesados y contrastados por un sello, después con papel y ahora con anotaciones electrónicas. La mayor parte del dinero del mundo no existe en ningún soporte físico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y señala su lado oscuro, que es el mismo que su virtud. Al poder convertirlo todo en una cifra, el dinero permite que la gente coopere sin conocerse y sin apreciarse, y también erosiona lo que no se puede medir: la confianza familiar, la obligación con el vecino, el favor que no se cobra. Las comunidades se sostenían sobre eso.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Es la primera de las tres fuerzas que, según el libro, han ido juntando a la humanidad en una sola civilización.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "Casi todos descendemos de imperios, y eso complica el juicio" },
+      {
+        b: "texto",
+        texto:
+          "La segunda fuerza unificadora es el imperio, y Harari lo define de una manera útil: no es cuestión de tamaño ni de tener un emperador, sino de gobernar a muchos pueblos distintos y de tener fronteras que se pueden mover. Con esa definición, la mayor parte de la humanidad ha vivido bajo alguno.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su tesis incómoda es que los imperios funcionaron: absorbieron pueblos, mezclaron culturas y produjeron lo que hoy llamamos civilizaciones. Los romanos aniquilaron a los aqueos, y unos siglos después sus descendientes se consideraban romanos y hablaban latín. La lengua, el derecho, la comida y las creencias de casi cualquier país actual son un depósito imperial.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna cultura pura ha existido nunca: casi todas son el residuo de un imperio anterior.",
+      },
+      {
+        b: "texto",
+        texto:
+          "No adorna el coste. La conquista, el saqueo, la esclavización y el exterminio están ahí, y Harari los nombra. Su punto es otro: que condenar el imperialismo y a la vez reivindicar una identidad nacional heredada de él es una contradicción que casi nadie afronta, porque casi todo lo que se defiende como propio llegó con las legiones de alguien.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Describe además el ciclo que se repite: el imperio conquista con violencia, después justifica su dominio con una misión civilizadora, después absorbe a los conquistados en su cultura, y al final esos conquistados le exigen los derechos que el propio imperio proclamaba. Muchos movimientos de independencia se hicieron con las ideas del ocupante.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina con una pregunta abierta que hoy se lee distinta: si el mundo se dirige a un imperio global, y si eso sería mejor o peor que lo que hay.",
+      },
+    ],
+  },
+  {
+    bloques: [
+      { b: "rotulo", texto: "El humanismo es una religión, aunque no lo parezca" },
+      {
+        b: "texto",
+        texto:
+          "La tercera fuerza es la religión, y Harari la define de forma amplia para que le quepa lo que quiere meter dentro: un sistema de normas humanas basado en la creencia en un orden superior que no depende de nosotros. Con esa definición no hacen falta dioses.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Repasa el recorrido: del animismo local a los dioses de la agricultura, de ahí al politeísmo de los imperios —que era tolerante porque siempre cabía otro dios más— y de ahí al monoteísmo, que aportó una idea nueva y peligrosa: que solo hay una verdad, y por tanto que los demás están en el error.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Un politeísta puede añadir dioses ajenos a su altar. Un monoteísta no puede, y de ahí sale buena parte de las guerras de religión.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y después da el paso que le ha valido más discusiones: sostiene que el liberalismo, el comunismo, el nacionalismo y el capitalismo funcionan igual. Tienen dogmas, ritos, textos fundacionales, mártires y una idea del bien que no se demuestra. El comunismo soviético con su libro sagrado, sus santos y sus herejes es su ejemplo favorito.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al conjunto de las modernas las llama humanismo, y distingue tres ramas: la liberal, que sacraliza al individuo y sus derechos; la socialista, que sacraliza la igualdad de la especie; y la evolutiva, que creía en mejorar la raza y produjo el nazismo. Las tres, dice, comparten la premisa de que lo humano es sagrado, cosa que ninguna ciencia sostiene.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su intención no es rebajar los derechos humanos, sino recordar de qué están hechos: de un acuerdo que hay que defender, no de una ley natural que se defienda sola.",
+      },
+    ],
+  },
   {
     bloques: [
       { b: "rotulo", texto: "La ciencia moderna arranca cuando Europa admite que no sabe" },
       {
         b: "texto",
         texto:
-          "Hacia 1500 pasa algo que Harari considera tan grande como la agricultura. Las tradiciones anteriores daban por hecho que todo lo importante ya se sabía y que estaba escrito en algún libro sagrado; lo que quedaba era interpretarlo. La ciencia empieza con la operación contraria: reconocer que hay preguntas cuya respuesta nadie tiene. En los mapas europeos aparecen entonces espacios en blanco, y esos huecos son la señal.",
+          "Hasta el siglo XVI, las grandes tradiciones daban por hecho que lo importante ya estaba dicho: en la Biblia, en el Corán, en los clásicos. Si algo no aparecía ahí, o no importaba o era falso. Harari sitúa el arranque de la revolución científica en el momento en que Europa acepta lo contrario: que hay cosas importantes que nadie sabe.",
       },
       {
         b: "texto",
         texto:
-          "Esa humildad se convirtió en una máquina cuando se enganchó a otras dos. El imperio pagaba expediciones porque el conocimiento traía territorio, y el capital las financiaba porque el territorio traía beneficio. James Cook zarpa para observar el tránsito de Venus con astrónomos a bordo y vuelve con la costa este de Australia reclamada para la Corona: en el mismo viaje, ciencia e imperio.",
+          "Su prueba visual son los mapas. Los medievales rellenaban los espacios desconocidos con monstruos y paraísos, porque un mapa tenía que estar completo. Los mapas del siglo XVI empiezan a dejar zonas en blanco, y esa página en blanco es una declaración: aquí no sabemos, y hay que ir a ver.",
       },
       {
         b: "idea",
         texto:
-          "Ciencia, imperio y capital crecieron juntos, y ninguno de los tres habría llegado tan lejos sin los otros dos.",
+          "El progreso empezó el día en que un mapa se atrevió a dejar un hueco vacío en lugar de dibujar un monstruo.",
       },
       {
         b: "texto",
         texto:
-          "El capitalismo aporta la pieza que faltaba: la idea de que el futuro será mayor que el presente. Con crédito se puede gastar hoy un dinero que todavía no existe, a cambio de que el negocio crezca y lo devuelva. Antes de 1500 apenas había crédito porque nadie esperaba crecimiento; el pastel era el que era. Cuando se empieza a creer en el crecimiento, el crédito se dispara y con él las fábricas, los barcos y los laboratorios.",
+          "La segunda pieza es el paso a las matemáticas. La ciencia moderna no describe con palabras sino con ecuaciones, y eso le da una precisión que ninguna tradición anterior tuvo, a costa de volverse ilegible para casi todo el mundo. La estadística y la probabilidad, que hoy gobiernan desde los seguros hasta la medicina, son inventos de este periodo.",
       },
       {
         b: "texto",
         texto:
-          "El resultado es una aceleración sin comparación en la historia. En cinco siglos pasamos de no saber qué había al otro lado del océano a poner un pie en la Luna, y de una economía que crecía casi nada a multiplicarse por cientos. Ese es el sapiens que Harari deja al final: no el más fuerte, sino el que aprendió a admitir su ignorancia y a financiarla.",
+          "Y la tercera es que el conocimiento se juzgó por lo que permitía hacer. Una teoría dejó de valer por venir de una autoridad y pasó a valer por producir tecnología: cañones, barcos, medicinas, máquinas. Esa exigencia práctica es la que atrajo el dinero.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari subraya que admitir la ignorancia no es humildad sin más: es lo que convierte el saber en algo que se revisa, y por tanto en algo que puede crecer.",
       },
     ],
   },
-
+  {
+    bloques: [
+      { b: "rotulo", texto: "La ciencia despegó porque el imperio y el dinero la pagaron" },
+      {
+        b: "texto",
+        texto:
+          "Harari insiste en que la revolución científica no fue una aventura de sabios curiosos: fue un negocio de tres socios. La ciencia aportaba conocimiento, el imperio aportaba destino y protección, y el capital aportaba el dinero. Ninguno de los tres habría funcionado sin los otros dos.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su ejemplo es el capitán Cook, que salió en 1768 a observar el tránsito de Venus con astrónomos y botánicos a bordo, y con instrucciones secretas del Almirantazgo para reclamar tierras. En la misma expedición se resolvió además el escorbuto, con un ahorro de vidas enorme para las marinas. Era ciencia, era imperio y era inversión, todo a la vez.",
+      },
+      {
+        b: "idea",
+        texto:
+          "Casi ninguna expedición científica de aquellos siglos era solo científica. Las pagaba alguien que esperaba algo.",
+      },
+      {
+        b: "texto",
+        texto:
+          "La pieza que Harari considera decisiva es el crédito. Antes de la era moderna, prestar era casi imposible porque nadie creía que el futuro fuera a ser mejor que el presente: la tarta era la que era. La idea de crecimiento cambió eso. Si mañana habrá más, se puede pedir prestado hoy contra ese mañana, y eso es lo que financia una fábrica, un barco o una investigación.",
+      },
+      {
+        b: "texto",
+        texto:
+          "De ahí su explicación de por qué Europa y no China o el mundo islámico, que en 1500 no iban por detrás. Su respuesta es una mentalidad: la combinación de admitir la ignorancia, buscar conquistar lo desconocido y disponer de un sistema de crédito dispuesto a apostar por ello.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y su parte más incómoda: el capitalismo moderno se construyó a la vez con esa maquinaria de crédito y con la trata de esclavos, financiada con acciones que se compraban en las bolsas de Ámsterdam y Londres.",
+      },
+    ],
+  },
   {
     bloques: [
       { b: "rotulo", texto: "Somos mucho más poderosos y no está claro que seamos más felices" },
       {
         b: "texto",
         texto:
-          "Aquí Harari hace la pregunta que la historia suele esquivar: todo ese poder, ¿nos ha hecho vivir mejor? Los números de bienestar declarado apenas se mueven cuando un país se enriquece por encima de cierto punto, y eso encaja mal con el relato del progreso. Su explicación tiene dos partes y ninguna es un consuelo.",
+          "En los últimos capítulos, Harari se hace la pregunta que casi ninguna historia general se hace: toda esta acumulación de poder, ¿ha servido para que la gente viva mejor? Y responde que la historia no lo ha medido nunca, porque siempre ha contado imperios, cosechas y batallas.",
       },
       {
         b: "texto",
         texto:
-          "La primera son las expectativas. La felicidad no depende de lo que se tiene, sino de la distancia entre lo que se tiene y lo que se esperaba tener; por eso una mejora se disfruta unos meses y luego pasa a ser el suelo desde el que se mide la siguiente. La segunda es bioquímica: el organismo devuelve el ánimo a su punto de partida pase lo que pase, de modo que ni la lotería ni la desgracia mueven la aguja tanto tiempo como se cree.",
+          "Lo que dice la investigación sobre bienestar apunta a algo incómodo: por encima de cubrir las necesidades, más dinero apenas mueve la felicidad declarada, y cada mejora se convierte en la nueva normalidad al cabo de poco. El que estrena coche es feliz unos meses; después es su coche.",
       },
       {
         b: "idea",
         texto:
-          "El progreso ha multiplicado nuestro poder sin tocar lo que sentimos, porque lo que sentimos se mide contra lo que esperábamos.",
+          "La felicidad no depende de las condiciones objetivas, sino de la distancia entre lo que se tiene y lo que se esperaba tener.",
       },
       {
         b: "texto",
         texto:
-          "Y hay una cuenta que casi nunca entra en el balance. Las especies que domesticamos son las que más han triunfado en número de individuos y las que peor viven: decenas de miles de millones de animales criados en naves, separados de sus crías, con instintos que no pueden ejercer. Harari lo llama el mayor crimen de la historia, y encaja con su tesis: la evolución cuenta copias, no bienestar.",
+          "De ahí sale una observación sobre el mundo moderno que explica bastante: nunca hemos vivido mejor y nunca hemos esperado tanto, y la expectativa sube más deprisa que la realidad. Las expectativas de un campesino medieval eran cortas; las de cualquiera hoy vienen infladas por lo que ve de la vida de los demás.",
       },
       {
         b: "texto",
         texto:
-          "El libro termina mirando hacia delante y con inquietud. Después de setenta mil años sometiendo el mundo, sapiens está empezando a modificar la vida misma: biotecnología, prótesis, ordenadores. La frase final del libro es que somos dioses insatisfechos que no saben lo que quieren, y es también el punto de partida de su siguiente libro.",
+          "Harari añade el nivel biológico —el bienestar depende de una química interna que vuelve a su punto de partida— y el nivel del sentido, donde recoge la idea de que una vida se siente buena cuando encaja en un relato compartido, aunque ese relato sea, otra vez, una ficción.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y termina el argumento con su balance más duro: hemos multiplicado nuestro poder de manera espectacular y hemos reducido el sufrimiento de otras especies cero, más bien lo contrario. La ganadería industrial es, dice, uno de los mayores sufrimientos producidos por nuestra especie.",
       },
     ],
   },
-
+  {
+    bloques: [
+      { b: "rotulo", texto: "Homo sapiens podría ser la última generación de Homo sapiens" },
+      {
+        b: "texto",
+        texto:
+          "El libro cierra mirando hacia delante, y lo hace con una idea sencilla: durante cuatro mil millones de años, todo ser vivo estuvo sujeto a la selección natural. Eso está terminando, y no por un cataclismo, sino porque hemos aprendido a intervenir en el diseño.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Harari describe tres caminos abiertos. La ingeniería biológica, que ya modifica organismos y ha empezado a tocar embriones. La ingeniería de cíborgs, que combina lo orgánico con lo inorgánico —prótesis conectadas al sistema nervioso, implantes—. Y la creación de vida inorgánica, programas capaces de evolucionar por su cuenta.",
+      },
+      {
+        b: "idea",
+        texto:
+          "La selección natural gobernó la vida durante cuatro mil millones de años. Está siendo sustituida por el diseño inteligente, y el diseñador somos nosotros.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Al empeño de vencer la muerte lo llama el proyecto Gilgamesh, por el rey mesopotámico que salió a buscar la inmortalidad. Señala que por primera vez ese proyecto tiene presupuesto y laboratorios, y que la muerte ha dejado de tratarse como un destino para tratarse como un problema técnico.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Su advertencia no es tecnológica sino política. Estas capacidades no van a repartirse por igual, y una sociedad donde unos pueden pagar mejoras biológicas y otros no dejaría de tener una desigualdad económica para tener una desigualdad de especie, que es de otra clase y no se corrige votando.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Y deja la pregunta con la que se le cita más: somos dioses irresponsables, con un poder inmenso y sin saber qué queremos. Nada hay más peligroso, dice, que unos dioses insatisfechos y que no saben lo que quieren.",
+      },
+    ],
+  },
   {
     bloques: [
       { b: "rotulo", texto: "Conclusión" },
       {
         b: "texto",
         texto:
-          "Sapiens cuenta setenta mil años con una sola idea de fondo: nuestra especie manda en el planeta porque puede inventarse historias y creérselas entre millones de desconocidos. Con esa llave abre el resto — el dinero, las naciones, los derechos, las empresas y las religiones son variantes del mismo mecanismo—, y también explica por qué el progreso puede aumentar el poder de la especie y empeorar la vida del individuo, como pasó con la agricultura.",
+          "El libro cuenta la historia entera de la especie con un solo hilo: dominamos el planeta porque somos los únicos animales capaces de creernos ficciones entre millones de desconocidos, y sobre esas ficciones —dioses, naciones, dinero, empresas, derechos— hemos construido todo lo demás. Tres revoluciones marcan el recorrido: la cognitiva nos dio el relato, la agrícola nos ató a la tierra y la científica empezó cuando admitimos que no sabíamos.",
       },
       {
         b: "texto",
         texto:
-          "Conviene saber también dónde flojea, porque es un libro discutido por especialistas. La revolución cognitiva de hace setenta mil años se presenta como un salto único y limpio, y la mayoría de los arqueólogos ve un proceso más largo y desordenado. Las páginas sobre la felicidad de los cazadores recolectores son especulación razonada, no datos: no hay manera de medir el ánimo de alguien que murió hace veinte mil años. Y la síntesis, por definición, se come los matices.",
+          "Lo que aporta es la escala. Casi ningún historiador se atreve con setenta mil años seguidos, y esa altura permite ver cosas que se pierden por capítulos: que el trigo salió ganando, que la escritura nació de la contabilidad, que las jerarquías se justifican con la desventaja que ellas mismas producen, y que el dinero es la única historia que se cree todo el mundo.",
       },
       {
         b: "idea",
         texto:
-          "Léelo como lo que es: una tesis fuerte y bien contada sobre por qué somos como somos, no un manual de historia.",
+          "Somos dioses irresponsables: con un poder inmenso y sin haber decidido todavía qué queremos hacer con él.",
       },
       {
         b: "texto",
         texto:
-          "Queda una manera de comprobar si su tesis aguanta, y no hace falta salir de casa: coge un billete y pregúntate qué lo sostiene. No es el papel ni el metal. Es que mañana lo va a aceptar otro, y que los dos os creéis lo mismo sin haberos visto nunca.",
+          "Dónde falla, y hay que decirlo porque se cita como si fuera un consenso académico. Muchas de sus afirmaciones son tesis discutidas y él las presenta con una seguridad que la disciplina no respalda: la revolución cognitiva como un salto por una mutación concreta no es una conclusión establecida, y la responsabilidad humana en las extinciones de la megafauna sigue debatiéndose frente al peso del clima.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Historiadores y antropólogos le han reprochado además el atajo narrativo: para que el hilo funcione, hay que simplificar milenios enteros en una frase, elegir el ejemplo que encaja y saltarse los que no. Y su tramo final, el de la felicidad y el futuro, ya no es historia sino ensayo de opinión, apoyado en una lectura muy sumaria de la investigación sobre bienestar.",
+      },
+      {
+        b: "texto",
+        texto:
+          "Con eso en la mano sigue siendo el mejor sitio por donde empezar a pensar la historia como una sola cosa. Solo conviene leerlo como lo que es —una interpretación brillante y discutible— y no como el manual de lo que pasó.",
       },
     ],
   },

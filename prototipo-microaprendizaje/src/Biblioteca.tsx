@@ -1054,7 +1054,11 @@ export function DetalleLibro({
         >
           <li><GlyphPuntos /> {lista.length} ideas clave</li>
           <li><GlyphReloj /> {tiempo(minutosDeLibro(libro))}</li>
-          <li><GlyphPaginas /> {PAGINAS_POR_RESUMEN} páginas</li>
+          {/* Las páginas de ESTE libro, no las de un libro tipo. Estuvo fijo en
+              ocho porque todos los resúmenes medían ocho, y en cuanto un libro
+              denso pasó a doce, la ficha empezó a mentir sin que nadie lo
+              notara: el lector decía «3 de 12» y la ficha, «8 páginas». */}
+          <li><GlyphPaginas /> {paginasDeLibro(libro)} páginas</li>
         </motion.ul>
 
         {/* De qué va el libro, no por qué habría que leerlo. El rótulo decía
@@ -1157,6 +1161,11 @@ export function DetalleLibro({
    están traen del catálogo unos minutos de LECTURA, calculados sobre el texto
    por tarjetas, y se pasan a audio con el mismo tercio: 200 palabras por
    minuto leyendo contra 140 diciéndolo. */
+/** Cuántas páginas tiene ESTE libro. Ver `minutosDeLibro`, que va en pareja. */
+export function paginasDeLibro(libro: Libro): number {
+  return PAGINAS[libro.id]?.length ?? PAGINAS_POR_RESUMEN;
+}
+
 export function minutosDeLibro(libro: Libro): number {
   const paginas = PAGINAS[libro.id];
   if (paginas) return minutosDePaginas(paginas);

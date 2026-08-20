@@ -19,11 +19,12 @@ nadie, se copia la forma.
 
 ## 1. Qué es un resumen
 
-Siete u ocho pantallas de prosa seguida, más una conclusión. No es el libro
-encogido ni una lista de ideas: es **el argumento del libro contado entero**,
-en el orden en que se sostiene.
+Pantallas de prosa seguida: una entrada, los argumentos, y una conclusión. No
+es el libro encogido ni una lista de ideas: es **el argumento del libro contado
+entero**, en el orden en que se sostiene.
 
-Se lee en unos veinte minutos. Ocho páginas de unas 260 palabras.
+Cuántas pantallas depende del libro —ocho, doce o dieciséis, ver el apartado
+2 ter—, pero la pantalla mide siempre lo mismo: unas 260 palabras, una idea.
 
 ## 2. La anatomía de un resumen
 
@@ -31,9 +32,12 @@ Ocho páginas, y la primera y la última tienen trabajo propio:
 
 | página | qué hace |
 |---|---|
-| **1. La entrada** | de dónde parte el libro, con un dato que sorprenda, y **qué se va a recorrer en el resumen**. Se cierra anunciando el camino |
-| **2 a 7** | un argumento por página |
-| **8. Conclusión** | qué dice el libro en tres líneas, qué aporta y **dónde falla** |
+| **La primera: la entrada** | de dónde parte el libro, con un dato que sorprenda, y **qué se va a recorrer en el resumen**. Se cierra anunciando el camino |
+| **Las de en medio** | un argumento por página. Seis en un Breve, diez en un Amplio, catorce en un Extenso |
+| **La última: conclusión** | qué dice el libro en tres líneas, qué aporta y **dónde falla** |
+
+La entrada y la conclusión son siempre una cada una, sea cual sea el tamaño: lo
+que crece es el tramo de en medio.
 
 **No se pone «Prueba esto».** La referencia termina con una lista de deberes
 —«decídete a…», «reserva cada día…»— y Pablo la quitó expresamente el 20 de
@@ -68,38 +72,96 @@ una vez, en la entrada, y se sigue.
 
 ## 2 ter. Cuánto dura un resumen
 
-**Se escribe contra las palabras, no contra el reloj: 2.100 a 2.500 por libro,
-en ocho páginas de 260 a 320.**
+**Se escribe contra las palabras, no contra el reloj. La página mide siempre
+260-320 palabras; lo que cambia de un libro a otro es CUÁNTAS PÁGINAS tiene.**
 
-**La cifra que enseña la ficha es la de OÍRLO**, no la de leerlo. Decidido con
-Pablo el 20 de agosto, y por tres razones: es el mayor de los dos números, así
-que quien lea termina antes de lo prometido; en cuanto haya audio de verdad es
-un dato medido y no una estimación de velocidad lectora, que varía de una
-persona a otra un cincuenta por ciento; y deja la media donde la queremos.
+### Los tres tamaños
 
-| palabras | ficha (oír, 140 p/m) | leer (200 p/m) |
-|---|---|---|
-| 2.100 | 15 min ← media | 11 |
-| 2.400 | 17 min | 12 |
-| 2.700 | 19 min ← techo | 14 |
+Pablo lo pidió el 20 de agosto: *«estás poniendo todos los resúmenes en quince
+minutos, puede haber un poco más de variedad si el tema o el libro lo
+requieren; incluso algún tema denso que sean veinte o treinta minutos»*. Y
+tiene razón por dos motivos. Sapiens y El principito no son el mismo tamaño de
+asunto, y una biblioteca donde los doscientos títulos duran exactamente lo
+mismo se nota fabricada.
+
+| | páginas | palabras | ficha (oír) | para qué |
+|---|---|---|---|---|
+| **Breve** | 8 | 2.100-2.500 | 15-18 min | la medida por defecto |
+| **Amplio** | 12 | 3.100-3.700 | 22-26 min | libros con más argumentos de los que caben en seis |
+| **Extenso** | 16 | 4.100-4.700 | 29-34 min | los pocos que sostienen media docena de tesis distintas |
+
+**LO QUE NO SE HACE ES ENGORDAR LAS PÁGINAS.** Un libro de treinta minutos no
+son ocho páginas de quinientas palabras: son dieciséis de las de siempre. La
+medida de 260-320 no es un capricho de maqueta, es lo que ocupa UNA idea
+explicada y demostrada, y si se estira entran dos y se rompe la regla de una
+por página. Alargar es añadir argumentos, no añadir párrafos a los que hay.
+
+El lector y la ficha ya cuentan las páginas de verdad, así que un libro de doce
+dice «3 de 12» y su ficha dice «12 páginas». No hay nada que ajustar a mano.
+
+### Qué decide el tamaño
+
+**No la fama del libro ni lo que nos guste: cuántos argumentos INDEPENDIENTES
+tiene.** La prueba es contarlos antes de escribir. Si al listar lo que el libro
+sostiene salen seis cosas, es Breve; si salen diez, es Amplio; si salen catorce
+y quitar cualquiera deja el argumento cojo, es Extenso.
+
+Tres señales de que un libro pide tamaño grande:
+
+- **Recorre mucho terreno.** Sapiens va de los neandertales a la ingeniería
+  genética; El capital en el siglo XXI, tres siglos de datos de patrimonio.
+- **Su tesis se demuestra por acumulación.** Pensar rápido son treinta sesgos y
+  cada uno necesita su experimento; con seis no se entiende el argumento.
+- **Tiene partes que no se pueden resumir juntas.** Los 7 hábitos son siete, y
+  meterlos en seis páginas obliga a juntar dos, que es lo que hace todo el
+  mundo y por lo que nadie recuerda cuáles eran.
+
+Y tres de que pide Breve, aunque el libro sea muy famoso:
+
+- **Una sola idea repetida.** Los cuatro acuerdos, El poder del ahora.
+- **Una fábula.** El principito, El alquimista, El monje que vendió su Ferrari:
+  lo que hay que contar es la historia y lo que sostiene, y estirarlo es
+  rellenar.
+- **Ya está dicho en su propio subtítulo.** Si el libro cabe en una frase, el
+  resumen no lo mejora ocupando cuatro veces más.
+
+**En la duda, Breve.** Un resumen corto y apretado se lee entero; uno largo y
+flojo se abandona a la mitad, y el abandono no se ve en ninguna estadística
+nuestra pero se nota en si alguien vuelve.
+
+### La proporción de la biblioteca
+
+Que haya variedad no significa que la mitad sean largos. La biblioteca tiene
+que seguir siendo de micro-aprendizaje:
+
+    Breve     de cada diez, siete u ocho
+    Amplio    uno o dos
+    Extenso   uno cada quince o veinte libros, y con motivo
+
+Si los Extensos se multiplican, es que se está alargando por gusto y no por
+argumento. Se cuentan con `medir-paginas.mjs`, que marca el tamaño de cada uno.
+
+### Y la cifra de la ficha sigue siendo la de OÍRLO
+
+**La que enseña la ficha es la de oír, no la de leer.** Decidido con Pablo el 20
+de agosto, y por tres razones: es el mayor de los dos números, así que quien lea
+termina antes de lo prometido; en cuanto haya audio de verdad es un dato medido
+y no una estimación de velocidad lectora, que varía de una persona a otra un
+cincuenta por ciento; y deja la media donde la queremos.
 
 Comprobado en la competencia: Headway anuncia el tiempo de LEER —«quince
 minutos para leer o escuchar»— y su propio audio dura de quince a veinte. O
 sea que su número se les queda corto justo en el modo que más crece. Nosotros
 enseñamos el otro.
 
-  · **Nada por debajo de 2.000 palabras.** Ahí no caben ocho argumentos con sus
-    pruebas: sale un libro de titulares, que es lo que Pablo devolvió.
-  · **Nada por encima de 2.700.** Los dos competidores han convergido en los
-    quince minutos y el tramo largo de Blinkist —hasta cuarenta— es de otra
-    época y es el que la gente no termina. La investigación de microaprendizaje
-    pone el punto bueno entre ocho y quince, con la atención cayendo a partir
-    de los diez.
+**Nada por debajo de 2.000 palabras, tenga el tamaño que tenga.** Ahí no caben
+ocho argumentos con sus pruebas: sale un libro de titulares, que es lo que
+Pablo devolvió el 19 de agosto.
 
 Y la razón de oficio de la medida por página: **260-320 palabras es lo que
 ocupa una idea explicada y demostrada**. Por debajo de 220 la página es un
 titular y relleno; por encima de 350 entran dos ideas y se rompe la regla de
-una por página.
+una por página. Esta medida NO cambia con el tamaño del libro: es la unidad.
 
 Ninguna cifra se escribe a mano: `minutosDePaginas()` cuenta las palabras del
 libro y divide por 140. No puede mentir.
@@ -225,7 +287,8 @@ frase, se continúa la del rótulo —aprenderás… esto—.
 - [ ] ¿Hay alguna página que hable del libro en vez de su contenido?
 - [ ] ¿Cada página tiene su caja del rayo, y se sostiene sola?
 - [ ] ¿La conclusión dice dónde falla?
-- [ ] ¿Ocho páginas de unas 260 palabras?
+- [ ] ¿Las páginas que pide su tamaño, y todas de unas 260 palabras?
+- [ ] ¿El tamaño sale de contar sus argumentos, y no de lo famoso que sea?
 - [ ] ¿La primera cuenta de dónde parte el libro y anuncia el recorrido?
 - [ ] ¿La última se llama «Conclusión» y NO hay ninguna lista de deberes?
 - [ ] ¿Están escritos el subtítulo, el «de qué va» y los cinco «Aprenderás»?
